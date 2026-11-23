@@ -294,6 +294,61 @@
    "name": "Compliments",
    "group": "Watch out",
    "desc": "ভালো and সুন্দর, and comparison with চেয়ে."
+  },
+  {
+   "name": "Flirting",
+   "group": "Watch out",
+   "desc": "Words people flirt with, phrases built from them, asking someone out, and kind ways to say yes or no."
+  },
+  {
+   "name": "Top nouns",
+   "group": "Core words",
+   "desc": "The most-used nouns the course has not taught yet, most frequent first."
+  },
+  {
+   "name": "Top verbs",
+   "group": "Core words",
+   "desc": "Verbs in their dictionary form (the verbal noun), with the আমি form, and noun + করা verbs."
+  },
+  {
+   "name": "Top adjectives",
+   "group": "Core words",
+   "desc": "Common adjectives: they never change for gender or number."
+  },
+  {
+   "name": "Top adverbs",
+   "group": "Core words",
+   "desc": "Time, place, manner and degree: খুব, আবার, শুধু, পরে."
+  },
+  {
+   "name": "Top pronouns",
+   "group": "Core words",
+   "desc": "Personal, possessive, object, question and indefinite pronouns, in all three levels of you."
+  },
+  {
+   "name": "Top postpositions",
+   "group": "Core words",
+   "desc": "The words that follow the noun where English uses prepositions: জন্য, থেকে, মধ্যে."
+  },
+  {
+   "name": "Top conjunctions",
+   "group": "Core words",
+   "desc": "যে, যদি, তাই, কারণ, যখন and the other joining words."
+  },
+  {
+   "name": "Top interjections",
+   "group": "Core words",
+   "desc": "What people really exclaim: আরে, উফ, ইশ, বাহ, আলহামদুলিল্লাহ."
+  },
+  {
+   "name": "Top words",
+   "group": "Core words",
+   "desc": "Yes and no, question words, determiners, numbers 11 to 20, days and times."
+  },
+  {
+   "name": "Top classifiers and measure words",
+   "group": "Core words",
+   "desc": "-টা, -জন, -গুলো and the other classifiers, and the measure words of a Dhaka market."
   }
  ],
  "titles": [

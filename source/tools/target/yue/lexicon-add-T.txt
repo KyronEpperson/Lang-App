@@ -1,0 +1,81 @@
+# Core words, Flirting and Compliments writer EN-YUE-T (2026-11-23): proposed entries for tools/target/yue/lexicon.txt.
+# NOT READ BY THE TOOL: respell.js reads only lexicon.txt, so none of these words is on a card yet; each was left out of the decks.
+# Format: one entry per line, 'word jyut6 ping3' (the lexicon.txt format), then a TAB and the source. Strip the TAB column before merging.
+# Source for every line: unverified:model (the writer's own knowledge, no dictionary opened). The reason each word is wanted follows the source after ' | '.
+嘩 waa3	unverified:model | interjection: wow
+哎呀 aai1 jaa1	unverified:model | interjection: oops; oh dear
+唉 aai1	unverified:model | interjection: sigh
+咦 ji2	unverified:model | interjection: huh? (puzzled)
+嗯 ng6	unverified:model | interjection: mm-hm
+哈哈 haa1 haa1	unverified:model | interjection: haha
+弊 bai6	unverified:model | interjection: oh no (弊喇)
+大鑊 daai6 wok6	unverified:model | interjection: big trouble
+好彩 hou2 coi2	unverified:model | interjection/adverb: luckily
+咪住 mai5 zyu6	unverified:model | interjection: hold on (the tool reads 咪 mai6 here)
+靚女 leng3 neoi2	unverified:model | Flirting: pretty (of a woman) (the tool reads 女 neoi5 here)
+約會 joek3 wui6	unverified:model | Flirting: a date (the tool reads 會 wui5 here)
+正嘢 zeng3 je5	unverified:model | adjective 正 great (alone the tool reads zing3)
+即係 zik1 hai6	unverified:model | conjunction: that is; I mean
+其實 kei4 sat6	unverified:model | adverb: actually
+只係 zi2 hai6	unverified:model | adverb: only; just
+淨係 zing6 hai6	unverified:model | adverb: only
+雖然 seoi1 jin4	unverified:model | conjunction: although
+而且 ji4 ce2	unverified:model | conjunction: moreover
+就算 zau6 syun3	unverified:model | conjunction: even if
+即刻 zik1 hak1	unverified:model | adverb: at once
+梗係 gang2 hai6	unverified:model | adverb: of course
+通常 tung1 soeng4	unverified:model | adverb: usually
+之前 zi1 cin4	unverified:model | conjunction/adverb: before
+由 jau4	unverified:model | coverb: from
+向 hoeng3	unverified:model | coverb: towards
+比 bei2	unverified:model | coverb: compared to
+跟 gan1	unverified:model | coverb: with; follow
+離 lei4	unverified:model | coverb: away from
+連 lin4	unverified:model | coverb: even; including
+除咗 ceoi4 zo2	unverified:model | coverb: apart from
+世界 sai3 gaai3	unverified:model | noun: world
+機會 gei1 wui6	unverified:model | noun: chance
+方法 fong1 faat3	unverified:model | noun: method
+原因 jyun4 jan1	unverified:model | noun: reason
+感覺 gam2 gok3	unverified:model | noun: feeling
+關係 gwaan1 hai6	unverified:model | noun: relationship
+諗 nam2	unverified:model | verb: to think
+估 gu2	unverified:model | verb: to guess
+信 seon3	unverified:model | verb: to believe
+帶 daai3	unverified:model | verb: to bring
+穿 cyun1	unverified:model | verb: to wear (through)
+怕 paa3	unverified:model | verb: to fear
+企 kei5	unverified:model | verb: to stand
+找 zaau2	unverified:model | verb: to give change
+賺 zaan6	unverified:model | verb: to earn
+揀 gaan2	unverified:model | verb: to choose
+執 zap1	unverified:model | verb: to tidy; pick up
+擺 baai2	unverified:model | verb: to place
+得閒 dak1 haan4	unverified:model | adjective: free (not busy)
+麻煩 maa4 faan4	unverified:model | adjective: troublesome
+奇怪 kei4 gwaai3	unverified:model | adjective: strange
+傷心 soeng1 sam1	unverified:model | adjective: sad
+嬲 nau1	unverified:model | adjective: angry
+輕 heng1	unverified:model | adjective: light (weight)
+假 gaa2	unverified:model | adjective: fake
+犀利 sai1 lei6	unverified:model | adjective: amazing; formidable
+特別 dak6 bit6	unverified:model | adjective: special
+搞笑 gaau2 siu3	unverified:model | Flirting/Compliments: funny
+有型 jau5 jing4	unverified:model | Flirting: stylish
+溫柔 wan1 jau4	unverified:model | Flirting: gentle
+笑容 siu3 jung4	unverified:model | Flirting: smile
+聲 seng1	unverified:model | Flirting: voice
+全部 cyun4 bou6	unverified:model | Top words: all
+其他 kei4 taa1	unverified:model | Top words: other
+另外 ling6 ngoi6	unverified:model | Top words: another; besides
+套 tou3	unverified:model | measure word: films, sets
+封 fung1	unverified:model | measure word: letters
+首 sau2	unverified:model | measure word: songs
+班 baan1	unverified:model | measure word: groups; classes
+餐 caan1	unverified:model | measure word: meals
+頂 deng2	unverified:model | measure word: hats
+主意 zyu2 ji3	unverified:model | Compliments: idea (好主意)
+勤力 kan4 lik6	unverified:model | Compliments: hard-working
+醒目 sing2 muk6	unverified:model | Compliments: quick-witted
+過獎 gwo3 zoeng2	unverified:model | Compliments: you flatter me
+辛苦 san1 fu2	unverified:model | Compliments: hard work (辛苦晒)

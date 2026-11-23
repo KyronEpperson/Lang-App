@@ -287,6 +287,61 @@
    "name": "Traps for English speakers",
    "group": "Conversation",
    "desc": "Calques, the ನನಗೆ pattern, the three words for no, negation, and words that fool you"
+  },
+  {
+   "name": "Top nouns",
+   "group": "Core words",
+   "desc": "The most-used Kannada nouns beyond the lessons: people, places, food, the body, feelings and time, with the form a case ending needs"
+  },
+  {
+   "name": "Top verbs",
+   "group": "Core words",
+   "desc": "The most-used verbs in their dictionary form, each with the spoken I-form and any irregular past"
+  },
+  {
+   "name": "Top adjectives",
+   "group": "Core words",
+   "desc": "Size, age, color, taste and quality, with the form an adjective takes at the end of a sentence"
+  },
+  {
+   "name": "Top adverbs",
+   "group": "Core words",
+   "desc": "Time, place, manner and degree: now, here, already, slowly, always, only, together"
+  },
+  {
+   "name": "Top pronouns",
+   "group": "Core words",
+   "desc": "I, you, he, she, it and they with their respect levels, plus to-me, my, mine, who-forms and someone, nothing, everyone"
+  },
+  {
+   "name": "Top case endings and postpositions",
+   "group": "Core words",
+   "desc": "Kannada puts the word after the noun: the case endings -ಗೆ, -ಅಲ್ಲಿ, -ಇಂದ, -ಅ, -ಅನ್ನು, and postpositions such as ಜೊತೆ, ಮೇಲೆ, ಹಿಂದೆ, ಬಗ್ಗೆ"
+  },
+  {
+   "name": "Top conjunctions",
+   "group": "Core words",
+   "desc": "Or, that, I mean, so, otherwise, and the verb endings that do the work of if, even if, when, after, before and until"
+  },
+  {
+   "name": "Top interjections",
+   "group": "Core words",
+   "desc": "What people really exclaim: ಅಯ್ಯೋ, ಅಬ್ಬಾ, ಛೆ, ಹೌದಾ?, ಅಲ್ವಾ?, ಪಾಪ, ಸೂಪರ್, each with a short exchange"
+  },
+  {
+   "name": "Top words",
+   "group": "Core words",
+   "desc": "Question words, the numbers to twenty, counting people, first and second, all and some, the days and the parts of the day"
+  },
+  {
+   "name": "Compliments",
+   "group": "Conversation",
+   "desc": "Praise for food, work, skills, homes, children and effort, and the modest answers Kannada speakers give"
+  },
+  {
+   "name": "Flirting",
+   "group": "Conversation",
+   "desc": "Words for pretty, cute and clever, the phrases built on them, asking someone out, and kind ways to say yes or no"
   }
  ],
  "titles": [

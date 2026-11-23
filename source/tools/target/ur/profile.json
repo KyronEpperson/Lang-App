@@ -293,6 +293,61 @@
    "name": "Traps for English speakers",
    "group": "Conversation",
    "desc": "Calques, false friends, and courtesy traps for English speakers."
+  },
+  {
+   "name": "Top nouns",
+   "group": "Core words",
+   "desc": "The most-used Urdu nouns, with their gender and plural."
+  },
+  {
+   "name": "Top verbs",
+   "group": "Core words",
+   "desc": "The most-used verbs in the -نا form, with the میں form for a man and a woman."
+  },
+  {
+   "name": "Top adjectives",
+   "group": "Core words",
+   "desc": "The most-used adjectives: which ones change (اچھا, اچھے, اچھی) and which never do."
+  },
+  {
+   "name": "Top adverbs",
+   "group": "Core words",
+   "desc": "Time, place, manner and degree: اب, یہاں, بہت, ابھی, کبھی …"
+  },
+  {
+   "name": "Top pronouns",
+   "group": "Core words",
+   "desc": "Personal, object, possessive, question and indefinite pronouns, and the نے forms."
+  },
+  {
+   "name": "Top postpositions",
+   "group": "Core words",
+   "desc": "What Urdu uses instead of prepositions: میں, سے, کو, تک, کے ساتھ, کے لیے …, after the noun."
+  },
+  {
+   "name": "Top conjunctions",
+   "group": "Core words",
+   "desc": "کہ, اگر … تو, جب, مگر, جیسے: words that join clauses."
+  },
+  {
+   "name": "Top interjections",
+   "group": "Core words",
+   "desc": "What people really exclaim: ماشاء اللہ, ان شاء اللہ, چلو, بس, خیر …"
+  },
+  {
+   "name": "Top words",
+   "group": "Core words",
+   "desc": "Question words, little words (بھی, ہی, نہ, مت), numbers, ordinals, days and times."
+  },
+  {
+   "name": "Compliments",
+   "group": "Conversation",
+   "desc": "Praise for food, work, skills, homes and children, with ماشاء اللہ, and the modest replies."
+  },
+  {
+   "name": "Flirting",
+   "group": "Conversation",
+   "desc": "Warm, respectful flirting: the words, the phrases built from them, asking someone out, and kind ways to say yes or no."
   }
  ],
  "titles": [

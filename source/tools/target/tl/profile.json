@@ -287,6 +287,61 @@
    "name": "Everyday Manila Taglish",
    "group": "Watch out",
    "desc": "What you hear every day in Manila: casual words, fillers and English mixed into Tagalog"
+  },
+  {
+   "name": "Compliments",
+   "group": "Conversation",
+   "desc": "Praising food, work, skills and homes politely, and the modest ways Filipinos answer a compliment"
+  },
+  {
+   "name": "Flirting",
+   "group": "Conversation",
+   "desc": "Words people flirt with, the phrases built from them, and how to ask someone out and say yes or a kind no"
+  },
+  {
+   "name": "Top nouns",
+   "group": "Core words",
+   "desc": "The most-used Tagalog nouns, most frequent first"
+  },
+  {
+   "name": "Top verbs",
+   "group": "Core words",
+   "desc": "The most-used verb roots, with the -um-, mag- and -in forms a beginner meets, plus gusto, alam and kailangan"
+  },
+  {
+   "name": "Top adjectives",
+   "group": "Core words",
+   "desc": "The most-used describing words, mostly ma- words, joined to nouns with the linker"
+  },
+  {
+   "name": "Top adverbs",
+   "group": "Core words",
+   "desc": "Time, frequency, degree and manner: always, again, too, almost, every day"
+  },
+  {
+   "name": "Top pronouns",
+   "group": "Core words",
+   "desc": "The ang, ng and sa pronoun sets, question pronouns and words like everyone and anything"
+  },
+  {
+   "name": "Top markers and particles",
+   "group": "Core words",
+   "desc": "Tagalog's stand-ins for prepositions: the markers ang, ng, sa, si, ni, kay, the little words na, pa, rin, po, ba, daw, and sa phrases"
+  },
+  {
+   "name": "Top conjunctions",
+   "group": "Core words",
+   "desc": "and, or, but, because, if, when, so, while"
+  },
+  {
+   "name": "Top interjections",
+   "group": "Core words",
+   "desc": "What Filipinos really exclaim: Uy!, Sayang!, Teka!, Ayos!, Kadiri!"
+  },
+  {
+   "name": "Top words",
+   "group": "Core words",
+   "desc": "Question words, numbers, yes and no words, there is, months and time words"
   }
  ],
  "titles": [

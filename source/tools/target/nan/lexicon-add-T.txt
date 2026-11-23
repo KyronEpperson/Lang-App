@@ -1,0 +1,18 @@
+# EN-NAN-T (Core words, Flirting, Compliments) additions: characters TAB tâi-lô TAB the URL opened, 2026-11-23.
+# The MOE dictionary pages could not be fetched in this session (the web tool refused sutian.moe.edu.tw pages that a search did not return,
+# and searches did not return the entry pages), so every line below was read off an English Wiktionary page (kiwix mirror, 2023-04 dump)
+# through a web tool that returns a summary. Where the page gives a Taiwan general / Kaohsiung reading next to a Taipei one, the
+# Kaohsiung (main MOE) reading is kept. Lines marked POJ: the page gives Pe̍h-ōe-jī only; the Tâi-lô is the same syllables with
+# the MOE manual's letter mapping (o͘ -> oo, chh -> tsh, ⁿ -> nn, tone mark on the main vowel). No line is from memory.
+因為	in-uī	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E5%9B%A0%E7%82%BA
+所以	sóo-í	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/s%C3%B3%CD%98-%C3%AD	# POJ só͘-í
+雖然	sui-jiân	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E9%9B%96%E7%84%B6	# Kaohsiung; Taipei sui-liân
+了後	liáu-āu	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E4%BA%86%E5%BE%8C	# mainstream Taiwanese
+而且	jî-tshiánn	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/A/j%C3%AE-chhi%C3%A1%E2%81%BF	# POJ jî-chhiáⁿ; Taipei lî-chhiáⁿ
+對	tuì	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/t%C3%B9i	# POJ tùi
+對面	tuì-bīn	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E5%B0%8D%E9%9D%A2
+邊仔	pinn--á	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E9%82%8A%E4%BB%94	# Taipei, Kaohsiung, Tainan … (Xiamen pinn-á)
+中央	tiong-ng	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/tiong-ng	# POJ tiong-ng
+古錐	kóo-tsui	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E5%8F%A4%E9%8C%90
+目睭	ba̍k-tsiu	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E7%9B%AE%E7%9D%AD
+認真	jīn-tsin	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E8%AA%8D%E7%9C%9F	# Kaohsiung; Taipei līn-tsin

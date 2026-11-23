@@ -281,6 +281,66 @@
    "name": "Traps for English speakers",
    "group": "Conversation",
    "desc": "False friends and word-for-word copies: เป็น with describing words, ฝรั่ง, ฟิต, อิ่ม, เผ็ด."
+  },
+  {
+   "name": "Compliments",
+   "group": "Conversation",
+   "desc": "Everyday praise for food, work, skills and homes, and the modest Thai way to answer it. Cards are plain: men add ครับ, women add ค่ะ."
+  },
+  {
+   "name": "Flirting",
+   "group": "Conversation",
+   "desc": "Words for flirting, phrases built from them, and how to ask someone out, say yes, or say no kindly, for male and female speakers."
+  },
+  {
+   "name": "Top nouns",
+   "group": "Core words",
+   "desc": "The most-used Thai nouns. Nouns never change: no plural, no article; the note gives the classifier."
+  },
+  {
+   "name": "Top verbs",
+   "group": "Core words",
+   "desc": "The most-used verbs. Thai verbs never change for person or time; time words do that work."
+  },
+  {
+   "name": "Top adjectives",
+   "group": "Core words",
+   "desc": "Describing words: they go after the noun and work like verbs, with no เป็น."
+  },
+  {
+   "name": "Top adverbs",
+   "group": "Core words",
+   "desc": "Very, already, still, often, here, now: mostly after the verb or at the end."
+  },
+  {
+   "name": "Top pronouns",
+   "group": "Core words",
+   "desc": "Beyond the basics in People and family: น้อง, หนู, ป้า as I and you, plus mine and yours, who, what and everyone."
+  },
+  {
+   "name": "Top prepositions",
+   "group": "Core words",
+   "desc": "ที่, ใน, บน, กับ, จาก, ถึง and the ข้าง… place words."
+  },
+  {
+   "name": "Top conjunctions",
+   "group": "Core words",
+   "desc": "And, but, or, because, if, so, when: joining ideas in Thai."
+  },
+  {
+   "name": "Top words",
+   "group": "Core words",
+   "desc": "Question words, this and that after the noun, numbers to twenty, yes and no, days and time words."
+  },
+  {
+   "name": "Top classifiers",
+   "group": "Core words",
+   "desc": "More classifiers for counting: noun + number + classifier."
+  },
+  {
+   "name": "Top particles",
+   "group": "Core words",
+   "desc": "The little words at the end of a sentence: คะ, นะ, สิ, เลย, ล่ะ, หรอก and more."
   }
  ],
  "titles": [

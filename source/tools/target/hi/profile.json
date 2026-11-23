@@ -293,6 +293,61 @@
    "name": "Traps for English speakers",
    "group": "Conversation",
    "desc": "False friends, calques, तू, नहीं / मत, कल, and polite-sounding mistakes"
+  },
+  {
+   "name": "Compliments",
+   "group": "Conversation",
+   "desc": "Praise for food, work, skills, homes and effort, and the modest way Hindi speakers answer a compliment"
+  },
+  {
+   "name": "Flirting",
+   "group": "Conversation",
+   "desc": "Words people flirt with, phrases built from them, and asking someone out, with kind ways to say yes or no"
+  },
+  {
+   "name": "Top nouns",
+   "group": "Core words",
+   "desc": "The most-used nouns, with gender and plural in the note"
+  },
+  {
+   "name": "Top verbs",
+   "group": "Core words",
+   "desc": "The most-used verbs in the -ना form, with the मैं form for a man and a woman"
+  },
+  {
+   "name": "Top adjectives",
+   "group": "Core words",
+   "desc": "The most-used adjectives, with the forms that change and the ones that never do"
+  },
+  {
+   "name": "Top adverbs",
+   "group": "Core words",
+   "desc": "Time, place, manner and degree: अब, यहाँ, बहुत, हमेशा"
+  },
+  {
+   "name": "Top pronouns",
+   "group": "Core words",
+   "desc": "Personal, object, possessive, question and indefinite pronouns"
+  },
+  {
+   "name": "Top postpositions",
+   "group": "Core words",
+   "desc": "Hindi puts these after the noun, where English has prepositions: से, को, पर, के साथ, के लिए"
+  },
+  {
+   "name": "Top conjunctions",
+   "group": "Core words",
+   "desc": "अगर, जब, तो, ताकि, वरना and the other words that join ideas"
+  },
+  {
+   "name": "Top interjections",
+   "group": "Core words",
+   "desc": "What people really exclaim: वाह, अरे, उफ़, बाप रे"
+  },
+  {
+   "name": "Top words",
+   "group": "Core words",
+   "desc": "Particles, question words, numbers to twenty, ordinals, days, months and times of day"
   }
  ],
  "titles": [

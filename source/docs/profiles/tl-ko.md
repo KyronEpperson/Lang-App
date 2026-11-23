@@ -50,13 +50,13 @@ Untagged rules in §3 and §6 to §9 are design decisions, not findings.
    - *ito / iyan / iyon* = 이 / 그 / 저;
    - *din / rin* = 도, and the *d / r* switch is itself a "vowel or not" rule;
    - *lang* = 만;
-   - **five vowels**: *e / i* are kept apart, so ㅔ / ㅣ is not the trap it is for Cebuano, but *o / u* stay acoustically close (research-backed, small samples) (§5.2);
+   - **five vowels**: *e / i* are kept apart, so ㅔ / ㅣ is not the trap it is for Cebuano. But Tagalog has one *o* for Korean's two o-like vowels: Filipino speakers' ㅗ was measured too open and their ㅓ too close (research-backed, Filipino L1, small sample), and Tagalog *o / u* are acoustically close (small sample) (§5.2);
    - the linker ***na / -ng***;
    - aspect (*kumain / kumakain / kakain*) vs Korean tense;
    - Spanish numbers for clock time (*alas-dos*), **and** both Spanish and native numbers for age (§4.9).
 5. **Strongest traps, ranked (§5):**
    1. aspirated vs tense vs plain stops;
-   2. ㅗ / ㅜ and ㅓ;
+   2. ㅗ vs ㅓ (one Tagalog *o* for both), then ㅗ / ㅜ;
    3. particles after the noun, and the wrong particle;
    4. *sa* → 에 / 에서;
    5. "*po* = 요" misconceptions (요 left off with peers, put in the wrong place, or used as the only respect device);
@@ -155,7 +155,7 @@ The only change from ceb-ko is that Taglish discourse words are allowed, because
   - **(casual)** for 반말;
   - **(honorific)** for -시- and the special verbs.
   - A gloss has a tag exactly where the English gloss has one.
-- Korean lines that address the listener with -세요 or 주세요 are glossed with the Filipino command form plus *paki-* or *pakiusap* where the English has "please" (*Paupo kayo*? no: *Umupo ka, pakiusap*). The `polite` lesson explains that the real Korean line is polite **without** *po* [inference; the exact gloss style is question 6 in §10].
+- Korean lines that address the listener with -세요 or 주세요 are glossed with the Filipino command form plus *paki-* or *pakiusap* where the English has "please" (*Umupo ka, pakiusap* for 앉으세요 in a seating context). The `polite` lesson explains that the real Korean line is polite **without** *po* [inference; the exact gloss style is question 6 in §10].
 - Names, places and "the US" stay as they are in the English gloss (§9).
 
 ### 3.3 Ten sample sentences of explanation prose (all [inference], for the native check)
@@ -287,14 +287,13 @@ Each item says where the bridge holds, where it misleads, and how the course use
   - Korean says 집에 but 민아 씨에게 / 한테.
   - So the learner already has the distinction that Korean particles make with 에 vs 에게 [inference; Cebuano *kang* does the same job, but ceb-ko did not use it]. 에게 is outside the 33 lessons except in passing; one sentence in `particles` is enough.
 
-### 4.2 Choosing a form by "ends in a vowel or not": a stronger bridge than in Cebuano
+### 4.2 Choosing a form by "ends in a vowel or not": the same bridge as in Cebuano
 
-- **Tagalog does this in three places** (≠ ceb, which has two):
+- **Tagalog does this too, in two places** (the second differs from Cebuano's *ang* → *-y*):
   - the linker is *na* after a consonant other than n, and *-ng* after a vowel or n ([Wikiwand, *Tagalog grammar*](https://wikiwand.com/en/articles/Tagalog_grammar)): *magandang bahay*, *mabait na bata*;
-  - *din / rin*, *daw / raw*, *dito / rito* switch to *r* after a vowel [curriculum convention, standard spelling];
-  - *at* is contracted to *'t* after a vowel [inference].
+  - *din / rin*, *daw / raw*, *dito / rito* switch to *r* after a vowel [inference: standard spelling as the author knows it; no source opened].
 - **Korean:** 은/는, 이/가, 을/를, 이에요/예요, 으로/로 and -을/-ㄹ all choose by the same test.
-- **Use it** [inference]: open `nouns` with "Alam mo na ito: sa Tagalog, *maganda* + linker = *magandang*, at *ako rin* pero *siya din*. Ganyan din sa Koreano: tingnan kung nagtatapos sa vowel o sa consonant ang salita."
+- **Use it** [inference]: open `nouns` with "Alam mo na ito: sa Tagalog, *maganda* + linker = *magandang*, at *ako rin* pero *Juan din*. Ganyan din sa Koreano: tingnan kung nagtatapos sa vowel o sa consonant ang salita."
 - **Trap:** the direction does not match. Tagalog's short form follows a vowel (*-ng*, *rin*); Korean's vowel form is sometimes the short one (는, 를) and sometimes not (가 after a vowel, 이 after a consonant). The writer must give the Korean pairs as they are, not "like Tagalog" one by one.
 
 ### 4.3 Verb-first Tagalog, verb-last Korean
@@ -321,7 +320,8 @@ Cebuano *naa* covers "be somewhere" and "have / exist". Tagalog splits them: *ma
 
 - **Holds:** "no verb for A = B" and *hindi* for A ≠ B; *wala* = 없어요 for every use.
 - **Rewrite `isseoyo` around this table:** "Ang 있어요 ay *may* at *nasa* nang sabay; ang 없어요 ay *wala*."
-- **Misleads:** *wala* also negates the completed aspect in some speech (*Wala pa siyang dumating*? no: the common form is *Hindi pa siya dumarating*). Do not teach a *wala* + verb trap for Tagalog: that was a Cebuano trap (*wala* + *mo-*) [inference; ≠ ceb]. The Tagalog-side trap is aspect (§4.11).
+- **Misleads:** the Korean side merges what Tagalog splits, so a learner may look for a separate "*nasa* word" in Korean. Tell him there is none: 있어요 does both jobs.
+- **No *wala* + verb trap.** Verbs are negated with *hindi* (*Hindi siya dumating*), so the Cebuano *wala* + *mo-* trap does not exist for Tagalog [inference; ≠ ceb]. The Tagalog-side verb trap is aspect (§4.11).
 
 ### 4.5 Three-way demonstratives
 
@@ -377,10 +377,11 @@ Cebuano has no *po* at all (ceb-ko §4.8 [carried]). This is the main structural
    - *Po* can be dropped and the sentence stays grammatical (Kess).
    - 가요 → 가 changes the verb form itself, and a Korean sentence with no ending is a different level, not "the same minus a word".
    - A 요-form sentence never puts 요 after the first word (저요 학생이에요 ✗); it goes at the end, on the verb (저는 학생이에요).
-2. **요 is for "not close", *po* is for "older or higher".**
-   - Tagalog drops *po* with a stranger of your own age or younger.
-   - Korean keeps 요 with any adult you are not close to, including peers and people younger than you at work or in a shop.
-   - Expect a Tagalog speaker to use 반말 with a same-age Korean classmate or a young shop assistant "because no *po* is needed": the commonest predicted error [inference].
+2. ***po* tracks age and status; 요 tracks closeness.**
+   - The app's Tagalog course gives *po* to anyone older, to adult strangers, to customers and to staff you do not know ("it is never wrong to a stranger"). It gives no *po* to friends, siblings your age, children and people younger than you (`en-tl.md` §2.3 [carried]). Kess describes respect as tracking "superior, inferior, or equal" relationships.
+   - Korean keeps 요 with **every** adult you are not close to, and closeness, not age, is what releases it.
+   - The two rules agree for elders and for strangers. They part for **people of your own age or younger whom you have just met or work with**: a new classmate, a younger co-worker, a friend's friend. Tagalog drops *po* there; Korean keeps 요 until both sides agree to drop it.
+   - The predicted error is 반말 with a same-age Korean classmate or a younger co-worker "because no *po* is needed" [inference].
 3. **Korean has two more respect devices that *po* does not cover.**
    - **-습니다** is about the **situation** (announcements, the workplace, first meetings), not the listener's age. Tagalog marks that with vocabulary and *kayo*, not with a different *po*.
    - **-시-** honours the **person doing the action**, who may not be the listener (할머니가 가세요). *Po* only ever honours the listener. 저는 가세요 ✗ is the "*po* about oneself" error. Tagalog has no parallel, because *po* never attaches to the speaker's own action as a compliment.
@@ -391,6 +392,12 @@ Cebuano has no *po* at all (ceb-ko §4.8 [carried]). This is the main structural
 > *Alam mo na ang* po *at* opo. *Ganyan din ang 요 sa Koreano, pero may tatlong pagkakaiba: (1) bahagi ito ng verb, hindi salitang idinadagdag; (2) ginagamit ito sa lahat ng hindi mo kaclose, kahit kaedad mo; (3) may dalawa pang paraan ng paggalang: -습니다 para sa pormal na sitwasyon, at -시- para sa taong gumagawa ng kilos.*
 
 The glossary forbids "po-form" as a term (§3.4), and glosses never add *po* (§3.2).
+
+**Titles: *kuya / ate* and the Korean family words** (as ceb, [inference]; Tagalog usage [carried] from `en-tl.md` §2.4):
+- *Kuya* (older brother; any young man somewhat older, including drivers, guards and vendors) and *Ate* (older sister; shop assistants) work like 형 / 오빠 and 누나 / 언니, which Koreans also use beyond the family.
+- **Trap 1: the speaker's gender.** The Korean word depends on who is speaking. A man says 형 and 누나; a woman says 오빠 and 언니. *Kuya / Ate* do not change with the speaker.
+- **Trap 2: service staff.** *Kuya, sa Makati po* and *Ate, magkano po ito?* are normal in Manila. Korean does not call a driver 형 or a shop assistant 언니 by default. It uses 저기요, 기사님 or 사장님 (`titles`).
+- *Tito / Tita* for a partner's relatives has no direct Korean match in this course. *Sir / Ma'am* ≈ job title + 님 at work (`office`).
 
 ### 4.9 Two number systems: a strong parallel with exact breaks
 
@@ -416,7 +423,7 @@ The glossary forbids "po-form" as a term (§3.4), and glosses never add *po* (§
 | large numbers | native hundreds and thousands (*libo*); groups of 1,000 | Sino-Korean; groups of 10,000 (만) | holds for the system, breaks for grouping |
 
 - **Use it** [inference]: `numbers` opens with "Alam mo nang gumamit ng dalawang klase ng numero". Then come the two breaks in bold:
-  - "Sa oras: *alas-tres* = 세 시, numerong Koreano, hindi 삼 시."
+  - "Sa oras: *alas-tres* = 세 시, native number, hindi 삼 시."
   - "Sa edad: kung *bente anyos* ang sinasabi mo, mag-ingat: 스무 살, hindi 이십 살. Kung *dalawampung taon*, tama ang kutob mo."
 - **Number + linker vs counters.** *Dalawang tasa ng kape* is number + linker + measure word + *ng* + noun. 커피 두 잔 is noun + number + counter. *Ilan?* / *Ilang piraso?* ≈ 몇 개? [inference].
 
@@ -474,7 +481,7 @@ The glossary forbids "po-form" as a term (§3.4), and glosses never add *po* (§
 - [carried] The five-L1 arXiv study and Yoo & Kang (2018), cited in ceb-ko, found three-way stop errors in every group studied. They have no Filipino learners and were not re-opened.
 - **Design consequence:** as ceb-ko. Two instructions, no sound equivalence, minimal-pair cards ko.c0045 to ko.c0048 with Filipino notes.
 
-### 5.2 Vowels: ㅗ / ㅜ close, ㅓ too open; ㅔ / ㅣ not a trap (≠ ceb)
+### 5.2 Vowels: one Tagalog *o* for ㅗ and ㅓ, ㅗ / ㅜ close; ㅔ / ㅣ not a trap (≠ ceb)
 
 - **Wrong → right:**
   - 소 *so* / 수 *su* said alike;
@@ -487,11 +494,13 @@ The glossary forbids "po-form" as a term (§3.4), and glosses never add *po* (§
   - Cebuano treats *e / i* and *o / u* as largely free variants (ceb-ko §5.2 [carried]).
   - **So the Cebuano argument (*kumusta / komusta*) does not carry over as it stands.**
 - ***e / i* are kept apart.** Manaog cites Delos Reyes et al. (2009) for "a noticeable acoustic contrast between [e] and [i]". Jo et al. (2008) found **no** significant Filipino-vs-Korean difference for ㅔ. ㅔ / ㅣ (게 / 기) is therefore **not** ranked as a trap for Tagalog speakers [research-backed (Filipino L1) for ㅔ; inference for the ranking].
-- ***o / u* remain close** [research-backed (Filipino L1), small samples]:
-  - Manaog (6 Metro Manila bilinguals) reports that "[o] and [u] were not far apart in terms of frequency values". She hedges that a merger "is not yet certain".
-  - Jo et al. found the Filipino ㅗ significantly different from the Korean on **both formants**: F1 378 vs 480 Hz, F2 1,101 vs 1,346. A lower F1 is a **higher**, more ㅜ-like vowel [inference from the acoustics].
-  - Both point the same way. **ㅗ / ㅜ is the top vowel trap** for Tagalog speakers too, for a different reason than in Cebuano: not spelling variation, but a narrow phonetic gap.
-- **ㅓ:** the Filipino ㅓ had a higher F1 than the Korean (711 vs 564 Hz), meaning more open and closer to ㅏ (Jo et al.). Its F2 was not reported as different. ㅏ differed on F2 (1,523 vs 1,782). Guide: "ㅓ is not *a*" [research-backed (Filipino L1)].
+- **ㅗ and ㅓ: one Tagalog *o* for two Korean vowels** [research-backed (Filipino L1)]. In Jo et al. (2008), Appendix 3 lists Korean then Filipino means (Hz).
+  - **ㅗ:** Filipino F1 480, F2 1,346; Korean F1 378, F2 1,101. The Filipino ㅗ is **more open and further forward**, less like the high, rounded Seoul ㅗ.
+  - **ㅓ:** Filipino F1 564, F2 1,551; Korean F1 711, F2 1,231. The Filipino ㅓ is **closer and further forward**.
+  - **ㅏ:** Filipino F2 1,782 vs Korean 1,523 (further forward).
+  - [inference] The Tagalog /o/ phoneme is an open-mid [ɔ] ([Wikipedia, *Tagalog phonology*](https://en.wikipedia.org/wiki/Tagalog_phonology) lists /ɔ/). A Tagalog speaker therefore pulls the two Korean vowels toward the one *o* he has: ㅗ comes out too open, and ㅓ gets no clear vowel of its own. The risk is that 소 / 서 and 고 / 거 blur. Teach ㅗ as "mas sarado at mas bilog kaysa sa *o* ng Tagalog", and ㅓ as "bukas na bibig, pero hindi bilog ang labi".
+  - **Caution:** an earlier summarising fetch of the same paper gave these formant pairs without group labels, and this profile first read them the other way round. The values above come from a second fetch that quoted the appendix's column order ("한국 필리핀"). ceb-ko §11 records the same kind of column swap for this paper's VOT values (§11).
+- ***o / u* are close in Tagalog itself** [research-backed, small sample]. Manaog (6 Metro Manila bilinguals) reports that "[o] and [u] were not far apart in terms of frequency values", and hedges that a merger "is not yet certain". Jo et al. found no significant Filipino-vs-Korean difference for ㅜ. **ㅗ / ㅜ is therefore ranked second**, below ㅗ / ㅓ: a perception risk (소 / 수), not a measured production error.
 - **ㅡ, ㅜ, ㅔ** showed no significant difference in Jo et al. ㅡ has no Tagalog counterpart [inference], but it ranks low.
 - **ㅐ / ㅔ** sound the same in modern Seoul speech (cards ko.c0056, ko.c0007). Jo et al. report a significant ㅐ F1 difference, but their text and appendix give different Filipino values (534 vs 452), so it is not used.
 
@@ -502,7 +511,7 @@ The glossary forbids "po-form" as a term (§3.4), and glosses never add *po* (§
   - **Sample:** 16 students, 38 documents, 644 sentences. 383 sentences (59.47%) had at least one error, and there were 809 errors in all.
   - **By type:** selection 491, omission 156, addition 138, ordering 24.
   - "만화가 너무 좋아해요" should take 를. The paper links this to Filipino *gusto*, where the liked thing "typically take[s] the phrase marker ang", and says the correct Korean marking mirrors English.
-  - 이/가 vs 은/는 confusion "persist[s]" across levels.
+  - The paper describes 이/가 vs 은/는 confusion as persisting across levels (paraphrased from the fetched summary).
   - **Limits:** written work only; learners "at least proficient in both Filipino and English"; levels assigned by course hours; per-level totals inconsistent between two tables (457 vs 454).
 - [inference] Particle position (before vs after) is not in the study. It is inferred from §4.1.
 
@@ -515,7 +524,7 @@ The glossary forbids "po-form" as a term (§3.4), and glosses never add *po* (§
 ### 5.5 "*po* = 요" errors (≠ ceb)
 
 - **Wrong → right** [inference: predicted from §4.8, not measured]:
-  - 반말 to a same-age stranger or a young shop assistant ("no *po* needed") → 요-form;
+  - 반말 to a newly met classmate of the same age, or to a younger co-worker ("no *po* needed") → 요-form;
   - 요 placed after the first word (저요 학생이에요) → 저는 학생이에요;
   - 저는 가세요 → 저는 가요 (honorific on oneself, as if -시- were *po*);
   - 당신 for the polite "you", from *kayo* → name + 씨 or a title;
@@ -561,7 +570,7 @@ The glossary forbids "po-form" as a term (§3.4), and glosses never add *po* (§
 ### 5.11 Stress
 
 - [curriculum convention] "Stress is a distinctive feature in Tagalog" ([Wikipedia, *Tagalog phonology*](https://en.wikipedia.org/wiki/Tagalog_phonology)).
-- [inference] Seoul Korean has no word stress, so the guide says "pare-pareho ang diin ng lahat ng syllable".
+- [inference] Seoul Korean has no word stress, so the guide says "pare-pareho ang stress ng lahat ng syllable".
 
 ## 6. Pronunciation aid: how a Tagalog reader reads the romanisation
 
@@ -593,8 +602,8 @@ Some RR sequences **are** two syllables (*kapeeseo* = 카페에서, ka-pe-e-seo)
 >
 > **Mga vowel**
 > - **a, i, e**: gaya sa Tagalog. Ang **e** (ㅔ) at **ae** (ㅐ) ay iisa ang tunog, gaya ng e sa *kape*.
-> - **o** (ㅗ): bilugan nang husto ang labi at ibaba nang kaunti ang panga. **u** (ㅜ): bilog din ang labi pero mas sarado ang bibig. Magkaiba ang *so* at *su* sa Koreano: magkaibang salita. Huwag silang pagpalitin.
-> - **eo** (ㅓ): **isang vowel lang**, hindi e-o. Buksan ang bibig na parang o, pero huwag bilugan ang labi. Hindi ito *a*. *Seoul* = "seo-ul", dalawang syllable, hindi "se-ul" at hindi "so-ul".
+> - **o** (ㅗ): **mas sarado at mas bilog** kaysa sa *o* ng Tagalog. Bilugan at itulak nang kaunti pasulong ang labi. **u** (ㅜ): bilog din ang labi, pero mas sarado pa ang bibig. Magkaiba ang *so* at *su* sa Koreano: magkaibang salita. Huwag silang pagpalitin.
+> - **eo** (ㅓ): **isang vowel lang**, hindi e-o. Buksan ang bibig, pero huwag bilugan ang labi. **Hindi ito ang *o* ng Tagalog**: magkaiba ang *so* (ㅗ) at *seo* (ㅓ). *Seoul* = "seo-ul", dalawang syllable, hindi "se-ul" at hindi "so-ul".
 > - **eu** (ㅡ): **isang vowel lang**, hindi e-u. Sabihin ang u habang nakangiti, patag ang labi.
 > - **ui** (ㅢ): eu at i nang mabilis, isang syllable.
 > - **oe** (ㅚ): parang "we".
@@ -618,8 +627,8 @@ Some RR sequences **are** two syllables (*kapeeseo* = 카페에서, ka-pe-e-seo)
 > - Pito lang ang tunog na puwede sa dulo: k, n, t, l, m, p, ng.
 >
 > **Tatlong tuntuning iba sa Tagalog**
-> 1. **Walang impit (glottal stop).** Lumilipat ang final consonant sa susunod na vowel: *hangugeo* = han-gu-geo, hindi "han-guk-'eo". Hindi impit ang gitling sa romanization (*Kii-yeyo*).
-> 2. **Walang diin.** Pare-pareho ang diin ng lahat ng syllable. Iba ito sa Tagalog, kung saan nagbabago ang kahulugan ng *baba* depende sa diin.
+> 1. **Walang glottal stop** (impit). Lumilipat ang final consonant sa susunod na vowel: *hangugeo* = han-gu-geo, hindi "han-guk-'eo". Hindi glottal stop ang hyphen sa romanization (*Kii-yeyo*).
+> 2. **Walang stress** (diin). Pare-pareho ang stress ng lahat ng syllable. Iba ito sa Tagalog, kung saan nagbabago ang kahulugan ng *baba* depende sa stress.
 > 3. **Tunog ang isinusulat ng romanization**, hindi ang Hangul: ang 감사합니다 ay *gamsahamnida*. Kapag magkaiba ang Hangul at ang romanization, sundin ang romanization sa pagsasalita at ang Hangul sa pagsusulat.
 
 ### 6.2 Notes for writers
@@ -630,7 +639,7 @@ Some RR sequences **are** two syllables (*kapeeseo* = 카페에서, ka-pe-e-seo)
 - Do **not** compare with English sounds anywhere.
 - **≠ ceb:**
   - the *e* line no longer warns against *e / i* swapping (§5.2);
-  - the *o / u* line is an articulation instruction, not a "your language swaps them" claim;
+  - the *o* and *eo* lines contrast both Korean vowels with the one Tagalog *o* (§5.2), not a "your language swaps *o / u*" claim;
   - the finals line uses the Tagalog unreleased finals as an anchor (§5.9).
 
 ## 7. Per-lesson notes (33 lessons, ids from `target/ko/lessons.jsonl`)
@@ -639,8 +648,8 @@ Some RR sequences **are** two syllables (*kapeeseo* = 카페에서, ka-pe-e-seo)
 
 | # | id | Bridge or trap for a Tagalog speaker | Rewrite, do not translate |
 |---|---|---|---|
-| 1 | `hangul` | Hangul is an alphabet. Insert the §6.1 guide. The ㅗ / ㅜ and ㅓ lines are the key ones (§5.2). | The vowel table glosses "eo (uh), u (oo), i (ee), e (bed)": replace with Filipino anchors. "Tap a letter to replay": as ceb. Waiver needed (§3.6). |
-| 2 | `polite` | **The *po* lesson** (§4.8): *po / opo* as the bridge; *opo / oo* = 네 / 응; 커피요 ≈ *Kape po*; then the three breaks (part of the verb; "not close", not "older"; -습니다 and -시-). | "Rule of thumb" stays. The "Say it 3 ways" headers become formal / polite / casual. Any English "like saying sir" framing goes. |
+| 1 | `hangul` | Hangul is an alphabet. Insert the §6.1 guide. The ㅗ vs ㅓ lines (one Tagalog *o* for both) and ㅗ / ㅜ are the key ones (§5.2). | The vowel table glosses "eo (uh), u (oo), i (ee), e (bed)": replace with Filipino anchors. "Tap a letter to replay": as ceb. Waiver needed (§3.6). |
+| 2 | `polite` | **The *po* lesson** (§4.8): *po / opo* as the bridge; *opo / oo* = 네 / 응; 커피요 ≈ *Kape po*; then the three breaks (part of the verb; closeness, not age; -습니다 and -시-). | "Rule of thumb" stays. The "Say it 3 ways" headers become formal / polite / casual. Any English "like saying sir" framing goes. |
 | 3 | `meet` | *Kumusta* ≠ 안녕하세요's set use. Age is asked to set politeness (Filipinos ask age too, but for *kuya / ate*, which is a real bridge). 이에요/예요 is the vowel test (§4.2). | Goodbye logic (가세요 / 계세요) explained with *Mauna na ako* / *Sige, ingat* situations. Localised line: §9. |
 | 4 | `sound-changes` | Linking without a catch (§6.1 rule 1). Tagalog *ng* makes the nasal rule easy (*ngayon*). | "gamsa ham nida" respellings: use RR plus Filipino syllable breaks. **Drop** "open Read and try the 🔀 Sound changes drill". |
 | 5 | `nouns` | *ito / iyan / iyon* = 이 / 그 / 저; owner first in *aking bahay* (제 집); the linker and *rin / din* as the vowel test for 은/는 (§4.2). **Trap:** *mga* is used readily; 들 is optional (사과들 세 개 ✗). | "no a or the, no gender": restate as "walang *ang* o *sa* sa harap; ang particle ay nasa likod". |
@@ -684,7 +693,7 @@ Proposed id `tl-know`, before `hangul`, about 350 words, 6 checks.
 2. **Dalawang sistema ng numero**: *isa, dalawa* and *uno, dos*. Preview the breaks: hours, and age if you say *anyos*.
 3. ***may / nasa / wala***: = 있어요 / 없어요.
 4. ***ito, iyan, iyon***: = 이, 그, 저.
-5. **"Nagtatapos ba sa vowel?"**: *magandang* vs *mabait na*, *ako rin* vs *siya din*. This is the test behind 은/는, 이/가, 을/를.
+5. **"Nagtatapos ba sa vowel?"**: *magandang* vs *mabait na*, *ako rin* vs *Juan din*. This is the test behind 은/는, 이/가, 을/를.
 6. **Ang pagkakaiba**:
    - markers before vs particles after;
    - verb first vs verb last;
@@ -692,7 +701,7 @@ Proposed id `tl-know`, before `hangul`, about 350 words, 6 checks.
    - aspect vs tense.
 7. **Ang mga tunog mo**:
    - puff for ㅋ ㅌ ㅍ ㅊ, tighten for ㄲ ㄸ ㅃ;
-   - keep ㅗ and ㅜ apart; ㅓ is not *a*;
+   - ㅗ is not your *o* (more closed, more rounded), and ㅓ is a second, unrounded vowel; keep ㅗ and ㅜ apart;
    - no catch, no stress.
 
 ### 8.2 Deck "Mga bitag para sa Tagalog speaker": 15 sample cards
@@ -708,10 +717,10 @@ The Korean-half ids are as in ceb-ko §8.2. The meanings and notes are [inferenc
 | 5 | 이거 뭐예요? (ko.s0041) | Ano ito? | Nananatili ang 뭐 sa puwesto ng sagot. |
 | 6 | 저도요 (ko.c0566) | Ako rin. | 도 = *rin / din*, pero hindi nagbabago ang 도. |
 | 7 | 커피만 마셔요 (ko.s0149) | Kape lang ang iniinom ko. | 만 = *lang*, pero dumidikit sa noun. |
-| 8 | 안 갔어요 (ko.s0097) | Hindi ako pumunta. | Same as Tagalog: past stays past. (The *hindi pa* trap is in `past`.) |
+| 8 | 안 갔어요 (ko.s0097) | Hindi ako pumunta. | Gaya sa Tagalog: past pa rin ang past. (Nasa `past` ang bitag ng *hindi pa*.) |
 | 9 | 바빠서 안 갔어요 (ko.s0222) | Hindi ako pumunta kasi busy ako. | Sa Koreano, nauuna ang dahilan. |
-| 10 | 세 시 삼십 분 (ko.c0408) | Alas-tres y medya. | Oras: numerong Koreano (세). Minuto: Sino-Korean (삼십). Hindi 삼 시. |
-| 11 | 스물다섯 살 (ko.c0409) | Bente singko anyos. / Dalawampu't limang taon. | Edad: numerong Koreano, hindi Sino-Korean. |
+| 10 | 세 시 삼십 분 (ko.c0408) | Alas-tres y medya. | Oras: native number (세). Minuto: Sino-Korean (삼십). Hindi 삼 시. |
+| 11 | 스물다섯 살 (ko.c0409) | Bente singko anyos. / Dalawampu't limang taon. | Edad: native number, hindi Sino-Korean. |
 | 12 | 만 원 (ko.c0407) | Sampung libong won (10,000). | 만 = 10,000, iisang salita. |
 | 13 | 형 / 오빠 (ko.c0609) | kuya | Kung lalaki ka: 형. Kung babae ka: 오빠. |
 | 14 | 서울 (ko.s0004) | Seoul | Isang vowel ang *eo*: seo-ul. |
@@ -771,12 +780,12 @@ Ask for "OK", or for the natural version.
 4. Are English grammar terms inside Filipino (*ang verb*, *ang particle*, *ang object marker*) easier than *pandiwa, pangngalan*?
 5. §4.8: is "the 요 is part of the verb, *po* is a word you add" clear? Is the three-difference box in `polite` right?
 6. §3.2: glosses without *po* (*Salamat* for 감사합니다 (formal)). Acceptable, or does it feel rude enough to confuse?
-7. §4.8: do you drop *po* with a stranger your own age? With a young shop assistant?
+7. §4.8: do you use *po* with a classmate your own age whom you have just met? With a younger co-worker? With a young shop assistant?
 8. §6.1 vowels: can you hear *so* vs *su*? Do *o* and *u* sound close in your own speech (*kumusta*, *puno*)?
 9. §6.1: say *Seoul* and *geu*. Did you say two vowels before reading the guide?
 10. §6.1 consonants: is *ibuga ang hangin* the right phrase for a puff? Is *mariin, walang hangin* clear for ㄲ ㄸ ㅃ?
 11. §6.1: is *j* like the *dy* of *dyip*, and *ch* like the *ts* of *tsinelas*, right for your speech?
-12. §6.1: are "Walang impit" and "Walang diin" clear?
+12. §6.1: are "Walang glottal stop (impit)" and "Walang stress (diin)" clear?
 13. §4.4 table: are *Nasa paaralan ako*, *May pusa ako*, *May paaralan dito*, *Wala akong oras*, *Wala siya sa bahay* all natural?
 14. §9.1: for 미국에서 왔어요, which is natural: *Taga-Amerika ako* or *Galing ako sa Amerika*?
 15. §4.9: how do you say your age, *bente singko anyos* or *dalawampu't limang taon*? And the hour, *alas-tres* or *three o'clock*?
@@ -803,7 +812,7 @@ Ask for "OK", or for the natural version.
   - gives the Tagalog consonant count as both 16 and 15;
   - its ㅐ F1 differs between text and appendix;
   - its significance levels differ between text (p<0.05) and appendix (p<0.01).
-  - Only the directions are used with confidence. The ㅗ-toward-ㅜ reading of its formants is this profile's inference.
+  - Only the directions are used with confidence. **Two fetches disagreed on the vowel formant columns.** The first gave unlabelled pairs, and this profile's draft read them the wrong way round. The second quoted the appendix's column order (Korean, then Filipino), and §5.2 uses it. The reading "one Tagalog *o* pulls ㅗ and ㅓ together" is this profile's inference from those numbers and from Tagalog /ɔ/.
 - **Manaog 2025:** a BA thesis with 6 speakers, 4 of them women. The author herself hedges the *o / u* merger. Delos Reyes et al. (2009), the source of the *e / i* contrast, was cited there and not opened.
 - **Kess 1981:** a descriptive essay without speaker data.
 - **Leon et al. 2025:** abstract only; sample size unknown.

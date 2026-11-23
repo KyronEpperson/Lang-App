@@ -281,6 +281,56 @@
       "name": "Traps for English speakers",
       "group": "Watch out",
       "desc": "False friends and the calques English speakers carry over."
+    },
+    {
+      "name": "Flirting",
+      "group": "Conversation",
+      "desc": "Words people flirt with, phrases built from them, asking someone out, and kind ways to say no."
+    },
+    {
+      "name": "Top nouns",
+      "group": "Core words",
+      "desc": "The most-used nouns, with en or ett."
+    },
+    {
+      "name": "Top verbs",
+      "group": "Core words",
+      "desc": "The most-used verbs, with the present form and irregular pasts."
+    },
+    {
+      "name": "Top adjectives",
+      "group": "Core words",
+      "desc": "The most-used describing words, with the -t and -a forms."
+    },
+    {
+      "name": "Top adverbs",
+      "group": "Core words",
+      "desc": "Not, now, already, here, out, often: time, place, manner and degree."
+    },
+    {
+      "name": "Top pronouns",
+      "group": "Core words",
+      "desc": "I, him, mine, this, which, someone: the whole useful set."
+    },
+    {
+      "name": "Top prepositions",
+      "group": "Core words",
+      "desc": "In, on, to, with, from, at someone's place, and the rest."
+    },
+    {
+      "name": "Top conjunctions",
+      "group": "Core words",
+      "desc": "Joining words: that, if, than, until, while, so that."
+    },
+    {
+      "name": "Top interjections",
+      "group": "Core words",
+      "desc": "What people really exclaim: oj, aj, usch, toppen."
+    },
+    {
+      "name": "Top words",
+      "group": "Core words",
+      "desc": "Yes and no, a and one, numbers, how much, and words for times."
     }
   ],
   "titles": [

@@ -293,6 +293,66 @@
    "name": "Traps for English speakers",
    "group": "Watch out",
    "desc": "Katakana false friends, あなた, yes and no, and polite ways to say no"
+  },
+  {
+   "name": "Compliments",
+   "group": "Conversation",
+   "desc": "Praise for food, work, skills, homes and people, and the modest way to answer it."
+  },
+  {
+   "name": "Flirting",
+   "group": "Conversation",
+   "desc": "Words people flirt with, phrases built from them, asking someone out, and kind ways to say no."
+  },
+  {
+   "name": "Top nouns",
+   "group": "Core words",
+   "desc": "The most-used nouns in everyday spoken Japanese."
+  },
+  {
+   "name": "Top verbs",
+   "group": "Core words",
+   "desc": "The most-used verbs in dictionary form, with the ます form and verb group."
+  },
+  {
+   "name": "Top adjectives",
+   "group": "Core words",
+   "desc": "The most-used い and な adjectives."
+  },
+  {
+   "name": "Top adverbs",
+   "group": "Core words",
+   "desc": "Time, manner and degree: already, still, very, often, maybe."
+  },
+  {
+   "name": "Top pronouns",
+   "group": "Core words",
+   "desc": "I, here, who, which, someone, and why Japanese avoids \"you\"."
+  },
+  {
+   "name": "Top particles",
+   "group": "Core words",
+   "desc": "は, が, を, に, で and the other particles that do the work of English prepositions."
+  },
+  {
+   "name": "Top connectors",
+   "group": "Core words",
+   "desc": "Joining words and endings: but, so, and then, because, if, when."
+  },
+  {
+   "name": "Top interjections",
+   "group": "Core words",
+   "desc": "What people really say: oh, wow, um, oops, seriously?"
+  },
+  {
+   "name": "Top words",
+   "group": "Core words",
+   "desc": "Question words, this and that, yes and no, name endings, times and seasons."
+  },
+  {
+   "name": "Top counters",
+   "group": "Core words",
+   "desc": "Counters the course has not taught yet: small things, times, hours, days, animals, cups."
   }
  ],
  "titles": [

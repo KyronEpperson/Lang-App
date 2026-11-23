@@ -287,6 +287,71 @@
    "name": "Traps for English speakers",
    "group": "Conversation",
    "desc": "False friends and calques: 係 with adjectives, 唔有, 二個, 咗 and 過, 唔該 or 多謝, and greetings that are not what they seem"
+  },
+  {
+   "name": "Top nouns",
+   "group": "Core words",
+   "desc": "The most-used everyday nouns, with the measure word they take: 時間, 錢, 屋企, 地方, 電話"
+  },
+  {
+   "name": "Top verbs",
+   "group": "Core words",
+   "desc": "The most-used verbs: 講, 話, 做, 食, 睇, 知, 想, 要, 嚟, 識"
+  },
+  {
+   "name": "Top adjectives",
+   "group": "Core words",
+   "desc": "Describing words, which work like verbs and take no 係: 靚, 多, 新, 高, 快, 攰, 開心"
+  },
+  {
+   "name": "Top adverbs",
+   "group": "Core words",
+   "desc": "Before the verb: 都, 就, 仲, 先, 再, 太, 最, 已經, 成日, 而家"
+  },
+  {
+   "name": "Top pronouns",
+   "group": "Core words",
+   "desc": "你, 佢, 自己, 大家, mine and yours with 嘅, this and that, who, what and where"
+  },
+  {
+   "name": "Top coverbs and place words",
+   "group": "Core words",
+   "desc": "What Cantonese uses instead of prepositions: 同, 畀, 幫, 用, 對, and place words like 入面, 隔籬, 對面"
+  },
+  {
+   "name": "Top conjunctions",
+   "group": "Core words",
+   "desc": "同埋, 但係, 不過, 因為, 所以, 如果, 或者, 定係, 然後"
+  },
+  {
+   "name": "Top interjections",
+   "group": "Core words",
+   "desc": "What people really exclaim: 好嘢！ 死喇！ 係咩？ 唔係嘛！ 加油！"
+  },
+  {
+   "name": "Top words",
+   "group": "Core words",
+   "desc": "Numbers to twenty, question words, yes and no, this year, today and the days of the week"
+  },
+  {
+   "name": "Top measure words",
+   "group": "Core words",
+   "desc": "The measure words not yet taught on their own: 個, 隻, 本, 張, 條, 件, 位, 間, 碗, 次, 啲"
+  },
+  {
+   "name": "Top particles",
+   "group": "Core words",
+   "desc": "Sentence-final 呀, 啦, 喎, 囉, 咩, 㗎, 呢 and the aspect markers 緊, 過, 住"
+  },
+  {
+   "name": "Flirting",
+   "group": "Conversation",
+   "desc": "Words people flirt with, the phrases built from them, asking someone out, and kind ways to say yes or no"
+  },
+  {
+   "name": "Compliments",
+   "group": "Conversation",
+   "desc": "Praising food, work, homes and kids, and the modest ways Hong Kong people answer praise"
   }
  ],
  "titles": [

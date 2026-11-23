@@ -1,0 +1,668 @@
+{"f":"lessons","id":"nouns","k":"title","src":"5 · Nouns and 은/는","tgt":"5 · Mga noun at 은/는"}
+{"f":"lessons","id":"nouns","k":"blurb","src":"Names of things, this/that, 이에요/예요, and the topic marker 은/는.","tgt":"Mga pangalan ng bagay, ito/iyan/iyon, 이에요/예요, at ang topic marker na 은/는."}
+{"f":"sentences","id":"ko.s0030","k":"gloss","src":"a book / the book / books","tgt":"libro / ang libro / mga libro"}
+{"f":"sentences","id":"ko.s0031","k":"gloss","src":"friend / friends","tgt":"kaibigan / mga kaibigan"}
+{"f":"sentences","id":"ko.s0032","k":"gloss","src":"friends (clearly more than one)","tgt":"mga kaibigan (malinaw na higit sa isa)"}
+{"f":"sentences","id":"ko.s0033","k":"gloss","src":"this book","tgt":"itong libro"}
+{"f":"sentences","id":"ko.s0034","k":"gloss","src":"that person","tgt":"iyang tao"}
+{"f":"sentences","id":"ko.s0035","k":"gloss","src":"that building over there","tgt":"iyong gusali roon"}
+{"f":"sentences","id":"ko.s0036","k":"gloss","src":"(my) friend's house","tgt":"bahay ng (aking) kaibigan"}
+{"f":"sentences","id":"ko.s0037","k":"gloss","src":"my name","tgt":"ang pangalan ko"}
+{"f":"sentences","id":"ko.s0038","k":"gloss","src":"(I) am a student","tgt":"Estudyante (ako)"}
+{"f":"sentences","id":"ko.s0039","k":"gloss","src":"(She) is a doctor","tgt":"Doktor (siya)"}
+{"f":"sentences","id":"ko.s0040","k":"gloss","src":"(I'm) not a student","tgt":"Hindi (ako) estudyante"}
+{"f":"sentences","id":"ko.s0041","k":"gloss","src":"What is this?","tgt":"Ano ito?"}
+{"f":"sentences","id":"ko.s0042","k":"gloss","src":"I'm a student (as for me: student)","tgt":"Estudyante ako (tungkol sa akin: estudyante)"}
+{"f":"sentences","id":"ko.s0043","k":"gloss","src":"My name is Minsu","tgt":"Minsu ang pangalan ko"}
+{"f":"sentences","id":"ko.s0044","k":"gloss","src":"This book is my book","tgt":"Libro ko ang librong ito"}
+{"f":"sentences","id":"ko.s0045","k":"gloss","src":"My friend is a doctor","tgt":"Doktor ang kaibigan ko"}
+{"f":"checks","id":"nouns.k1","k":"q","src":"'I'm a student' =","tgt":"'Estudyante ako' ="}
+{"f":"checks","id":"nouns.k1","k":"why","src":"저 ends in a vowel → 는; 학생 ends in a consonant → 이에요.","tgt":"Nagtatapos sa vowel ang 저 → 는; nagtatapos sa consonant ang 학생 → 이에요."}
+{"f":"checks","id":"nouns.k2","k":"q","src":"'That building over there' =","tgt":"'Iyong gusali roon' ="}
+{"f":"checks","id":"nouns.k2","k":"why","src":"이 = this, 그 = that (near you), 저 = over there.","tgt":"이 = ito, 그 = iyan (malapit sa iyo), 저 = iyon (malayo sa ating dalawa)."}
+{"f":"checks","id":"nouns.k3","k":"q","src":"'My name is Minsu' =","tgt":"'Minsu ang pangalan ko' ="}
+{"f":"checks","id":"nouns.k3","k":"why","src":"이름 ends in a consonant → 은; 민수 ends in a vowel → 예요.","tgt":"Nagtatapos sa consonant ang 이름 → 은; nagtatapos sa vowel ang 민수 → 예요."}
+{"f":"practice","id":"nouns.01","k":"q","src":"'This book' =","tgt":"'Itong libro' ="}
+{"f":"practice","id":"nouns.01","k":"why","src":"이 = this, before the noun.","tgt":"이 = ito, mismong nasa harap ng noun, walang linker sa pagitan."}
+{"f":"practice","id":"nouns.02","k":"q","src":"'I'm a doctor' =","tgt":"'Doktor ako' ="}
+{"f":"practice","id":"nouns.02","k":"why","src":"저 + 는 (vowel); 의사 + 예요 (vowel).","tgt":"저 + 는 (vowel); 의사 + 예요 (vowel)."}
+{"f":"practice","id":"nouns.03","k":"q","src":"'My friend's house' =","tgt":"'Bahay ng kaibigan ko' ="}
+{"f":"practice","id":"nouns.03","k":"why","src":"Owner first, then the thing.","tgt":"Nauuna ang may-ari, saka ang bagay, gaya ng aking bahay."}
+{"f":"practice","id":"nouns.04","k":"q","src":"Which one is correct?","tgt":"Alin ang tama?"}
+{"f":"practice","id":"nouns.04","k":"why","src":"선생님 ends in a consonant → 이에요.","tgt":"Nagtatapos sa consonant ang 선생님 → 이에요."}
+{"f":"practice","id":"nouns.05","k":"q","src":"'This book is my book' =","tgt":"'Libro ko ang librong ito' ="}
+{"f":"practice","id":"nouns.05","k":"why","src":"책 ends in a consonant → 은 and 이에요.","tgt":"Nagtatapos sa consonant ang 책 → 은 at 이에요."}
+{"f":"practice","id":"nouns.06","k":"p","src":"I'm a student","tgt":"Estudyante ako"}
+{"f":"practice","id":"nouns.06","k":"why","src":"저 ends in a vowel → 는.","tgt":"Nagtatapos sa vowel ang 저 → 는."}
+{"f":"practice","id":"nouns.07","k":"p","src":"My name is Minsu","tgt":"Minsu ang pangalan ko"}
+{"f":"practice","id":"nouns.07","k":"why","src":"이름 ends in a consonant → 은.","tgt":"Nagtatapos sa consonant ang 이름 → 은."}
+{"f":"practice","id":"nouns.08","k":"p","src":"That person (near you) is a doctor","tgt":"Doktor ang taong iyan (malapit sa iyo)"}
+{"f":"practice","id":"nouns.08","k":"why","src":"그 = that near you; 사람 + 은.","tgt":"그 = iyan, malapit sa iyo; 사람 + 은."}
+{"f":"practice","id":"nouns.09","k":"p","src":"I'm a student","tgt":"Estudyante ako"}
+{"f":"practice","id":"nouns.09","k":"why","src":"Topic 는 after a vowel.","tgt":"Topic marker na 는 pagkatapos ng vowel."}
+{"f":"practice","id":"nouns.10","k":"p","src":"My name is Minsu","tgt":"Minsu ang pangalan ko"}
+{"f":"practice","id":"nouns.10","k":"why","src":"이름 ends in a consonant → 은.","tgt":"Nagtatapos sa consonant ang 이름 → 은."}
+{"f":"practice","id":"nouns.11","k":"p","src":"(She) is a doctor","tgt":"Doktor (siya)"}
+{"f":"practice","id":"nouns.11","k":"why","src":"의사 ends in a vowel → 예요.","tgt":"Nagtatapos sa vowel ang 의사 → 예요."}
+{"f":"practice","id":"nouns.12","k":"p","src":"I'm a student","tgt":"Estudyante ako"}
+{"f":"practice","id":"nouns.12","k":"why","src":"Topic 는, then noun + 이에요.","tgt":"Topic marker na 는, saka noun + 이에요."}
+{"f":"practice","id":"nouns.13","k":"p","src":"What is this?","tgt":"Ano ito?"}
+{"f":"practice","id":"nouns.13","k":"why","src":"뭐 ends in a vowel → 예요.","tgt":"Nagtatapos sa vowel ang 뭐 → 예요."}
+{"f":"practice","id":"nouns.14","k":"p","src":"I'm not a student","tgt":"Hindi ako estudyante"}
+{"f":"practice","id":"nouns.14","k":"why","src":"'Is not' = 이/가 아니에요.","tgt":"Para sa \"hindi (noun)\": 이/가 아니에요."}
+{"f":"lessons","id":"isseoyo","k":"title","src":"6 · 있어요 and 없어요","tgt":"6 · 있어요 at 없어요"}
+{"f":"lessons","id":"isseoyo","k":"blurb","src":"There is / there isn't, have / don't have, the subject marker 이/가, and where things are with 에.","tgt":"May / wala, nasa, ang subject marker na 이/가, at kung nasaan ang mga bagay gamit ang 에."}
+{"f":"sentences","id":"ko.s0046","k":"gloss","src":"Is there a bathroom?","tgt":"May CR ba?"}
+{"f":"sentences","id":"ko.s0047","k":"gloss","src":"Yes, there is","tgt":"Oo, mayroon"}
+{"f":"sentences","id":"ko.s0048","k":"gloss","src":"No, there isn't","tgt":"Hindi, wala"}
+{"f":"sentences","id":"ko.s0049","k":"gloss","src":"There is time / (I) have time","tgt":"May oras / May oras (ako)"}
+{"f":"sentences","id":"ko.s0050","k":"gloss","src":"There is a cat","tgt":"May pusa"}
+{"f":"sentences","id":"ko.s0051","k":"gloss","src":"There's no money / (I) have no money","tgt":"Walang pera / Wala (akong) pera"}
+{"f":"sentences","id":"ko.s0052","k":"gloss","src":"I have a cat","tgt":"May pusa ako"}
+{"f":"sentences","id":"ko.s0053","k":"gloss","src":"Do you have a younger sibling?","tgt":"May nakababatang kapatid ka ba?"}
+{"f":"sentences","id":"ko.s0054","k":"gloss","src":"I don't have time","tgt":"Wala akong oras"}
+{"f":"sentences","id":"ko.s0055","k":"gloss","src":"(I'm) at home","tgt":"Nasa bahay (ako)"}
+{"f":"sentences","id":"ko.s0056","k":"gloss","src":"The cat is at home","tgt":"Nasa bahay ang pusa"}
+{"f":"sentences","id":"ko.s0057","k":"gloss","src":"Where is the bathroom?","tgt":"Nasaan ang CR?"}
+{"f":"sentences","id":"ko.s0058","k":"gloss","src":"My friend is at school","tgt":"Nasa eskuwelahan ang kaibigan ko"}
+{"f":"checks","id":"isseoyo.k1","k":"q","src":"'I'm at home' =","tgt":"'Nasa bahay ako' ="}
+{"f":"checks","id":"isseoyo.k1","k":"why","src":"Being somewhere → place + 에 + 있어요.","tgt":"Nasa isang lugar → lugar + 에 + 있어요."}
+{"f":"checks","id":"isseoyo.k2","k":"q","src":"'I have a cat' =","tgt":"'May pusa ako' ="}
+{"f":"checks","id":"isseoyo.k2","k":"why","src":"Having = 'a cat exists': 이/가 + 있어요.","tgt":"Ang \"may pusa ako\" = \"may pusa\": 이/가 + 있어요."}
+{"f":"checks","id":"isseoyo.k3","k":"q","src":"'I don't have time' =","tgt":"'Wala akong oras' ="}
+{"f":"checks","id":"isseoyo.k3","k":"why","src":"없어요 = there isn't / don't have; 시간 ends in a consonant → 이.","tgt":"없어요 = wala; nagtatapos sa consonant ang 시간 → 이."}
+{"f":"practice","id":"isseoyo.01","k":"q","src":"'I'm at school' =","tgt":"'Nasa eskuwelahan ako' ="}
+{"f":"practice","id":"isseoyo.01","k":"why","src":"Being somewhere → place + 에 + 있어요.","tgt":"Nasa isang lugar → lugar + 에 + 있어요."}
+{"f":"practice","id":"isseoyo.02","k":"q","src":"'Is there a bathroom?' =","tgt":"'May CR ba?' ="}
+{"f":"practice","id":"isseoyo.02","k":"why","src":"있어요? = is there?","tgt":"있어요? = may … ba?"}
+{"f":"practice","id":"isseoyo.03","k":"q","src":"Subject marker after 고양이:","tgt":"Subject marker pagkatapos ng 고양이:"}
+{"f":"practice","id":"isseoyo.03","k":"why","src":"고양이 ends in a vowel → 가.","tgt":"Nagtatapos sa vowel ang 고양이 → 가."}
+{"f":"practice","id":"isseoyo.04","k":"q","src":"'I have no money' =","tgt":"'Wala akong pera' ="}
+{"f":"practice","id":"isseoyo.04","k":"why","src":"없어요 = don't have; 돈 ends in a consonant → 이.","tgt":"없어요 = wala; nagtatapos sa consonant ang 돈 → 이."}
+{"f":"practice","id":"isseoyo.05","k":"q","src":"'This is a school' (here = school) =","tgt":"'Eskuwelahan ito' (dito = eskuwelahan) ="}
+{"f":"practice","id":"isseoyo.05","k":"why","src":"A = B → 이에요/예요. 학교가 있어요 = there is a school.","tgt":"A = B → 이에요/예요. Ang 학교가 있어요 = may eskuwelahan."}
+{"f":"practice","id":"isseoyo.06","k":"p","src":"(I'm) at home","tgt":"Nasa bahay (ako)"}
+{"f":"practice","id":"isseoyo.06","k":"why","src":"Place + 에 + 있어요.","tgt":"Lugar + 에 + 있어요."}
+{"f":"practice","id":"isseoyo.07","k":"p","src":"I have a younger sibling","tgt":"May nakababatang kapatid ako"}
+{"f":"practice","id":"isseoyo.07","k":"why","src":"Having = owner 은/는, thing 이/가 + 있어요.","tgt":"Pagkakaroon: 은/는 sa may-ari, 이/가 sa bagay + 있어요."}
+{"f":"practice","id":"isseoyo.08","k":"p","src":"Is there a bathroom?","tgt":"May CR ba?"}
+{"f":"practice","id":"isseoyo.08","k":"why","src":"Existence → 있어요, not 이에요.","tgt":"May → 있어요, hindi 이에요."}
+{"f":"practice","id":"isseoyo.09","k":"p","src":"I have time","tgt":"May oras ako"}
+{"f":"practice","id":"isseoyo.09","k":"why","src":"시간 ends in a consonant → 이.","tgt":"Nagtatapos sa consonant ang 시간 → 이."}
+{"f":"practice","id":"isseoyo.10","k":"p","src":"The cat is at home","tgt":"Nasa bahay ang pusa"}
+{"f":"practice","id":"isseoyo.10","k":"why","src":"Location with 있어요 → 에.","tgt":"Lugar kasama ng 있어요 → 에."}
+{"f":"practice","id":"isseoyo.11","k":"p","src":"I'm a student","tgt":"Estudyante ako"}
+{"f":"practice","id":"isseoyo.11","k":"why","src":"A = B → 이에요, not 있어요.","tgt":"A = B → 이에요, hindi 있어요."}
+{"f":"practice","id":"isseoyo.12","k":"p","src":"I have a cat","tgt":"May pusa ako"}
+{"f":"practice","id":"isseoyo.12","k":"why","src":"Lit. 'a cat exists (for me)'.","tgt":"Literal: \"may pusa (para sa akin)\"."}
+{"f":"practice","id":"isseoyo.13","k":"p","src":"My friend is at school","tgt":"Nasa eskuwelahan ang kaibigan ko"}
+{"f":"practice","id":"isseoyo.13","k":"why","src":"Location → 에 + 있어요, not 이에요.","tgt":"Lugar → 에 + 있어요, hindi 이에요."}
+{"f":"practice","id":"isseoyo.14","k":"p","src":"I don't have time","tgt":"Wala akong oras"}
+{"f":"practice","id":"isseoyo.14","k":"why","src":"없어요 is the opposite of 있어요.","tgt":"없어요 ang kabaligtaran ng 있어요, gaya ng wala at may."}
+{"f":"lessons","id":"pronouns-questions","k":"title","src":"7 · Pronouns and question words","tgt":"7 · Mga pronoun at question word"}
+{"f":"lessons","id":"pronouns-questions","k":"blurb","src":"I, we, this, that, here, there, and the seven question words that unlock real conversations.","tgt":"Ako, kami/tayo, ito, iyan, dito, diyan, at ang pitong question word na nagbubukas ng totoong usapan."}
+{"f":"sentences","id":"ko.s0059","k":"gloss","src":"I am a student","tgt":"Estudyante ako"}
+{"f":"sentences","id":"ko.s0060","k":"gloss","src":"my home (our house)","tgt":"bahay ko (bahay namin)"}
+{"f":"sentences","id":"ko.s0061","k":"gloss","src":"my mom","tgt":"nanay ko"}
+{"f":"sentences","id":"ko.s0062","k":"gloss","src":"Are you a student, Minsu?","tgt":"Minsu, estudyante ka ba?"}
+{"f":"sentences","id":"ko.s0063","k":"gloss","src":"This (person) is a teacher","tgt":"Guro ang taong ito"}
+{"f":"sentences","id":"ko.s0064","k":"gloss","src":"It's over there","tgt":"Nandoon"}
+{"f":"sentences","id":"ko.s0065","k":"gloss","src":"Who is that person?","tgt":"Sino ang taong iyon?"}
+{"f":"sentences","id":"ko.s0066","k":"gloss","src":"When is your birthday?","tgt":"Kailan ang birthday mo?"}
+{"f":"sentences","id":"ko.s0067","k":"gloss","src":"How much is this?","tgt":"Magkano ito?"}
+{"f":"sentences","id":"ko.s0068","k":"gloss","src":"Who is there?","tgt":"Sino ang nandiyan?"}
+{"f":"checks","id":"pronouns-questions.k1","k":"q","src":"'What is this?' =","tgt":"'Ano ito?' ="}
+{"f":"checks","id":"pronouns-questions.k1","k":"why","src":"뭐 = what; it sits where the answer goes.","tgt":"뭐 = ano; nasa puwesto ito ng sagot, hindi sa simula."}
+{"f":"checks","id":"pronouns-questions.k2","k":"q","src":"'Where is the bathroom?' =","tgt":"'Nasaan ang CR?' ="}
+{"f":"checks","id":"pronouns-questions.k2","k":"why","src":"어디 = where; 에 있어요 = is at.","tgt":"어디 = saan; 에 있어요 = nasa."}
+{"f":"checks","id":"pronouns-questions.k3","k":"q","src":"'Who is there?' =","tgt":"'Sino ang nandiyan?' ="}
+{"f":"checks","id":"pronouns-questions.k3","k":"why","src":"누구 + 가 → 누가.","tgt":"누구 + 가 → 누가.","pre":1}
+{"f":"practice","id":"pronouns-questions.01","k":"q","src":"Which word means 'who'?","tgt":"Aling salita ang 'sino'?"}
+{"f":"practice","id":"pronouns-questions.01","k":"why","src":"누구 = who.","tgt":"누구 = sino."}
+{"f":"practice","id":"pronouns-questions.02","k":"q","src":"'How much is this?' =","tgt":"'Magkano ito?' ="}
+{"f":"practice","id":"pronouns-questions.02","k":"why","src":"얼마 = how much (price).","tgt":"얼마 = magkano (presyo)."}
+{"f":"practice","id":"pronouns-questions.03","k":"q","src":"'Over there' (far from both of us) =","tgt":"'Doon' (malayo sa ating dalawa) ="}
+{"f":"practice","id":"pronouns-questions.03","k":"why","src":"저 = far; 저기 = that place over there.","tgt":"저 = malayo; 저기 = doon."}
+{"f":"practice","id":"pronouns-questions.04","k":"q","src":"The polite word for 'I' =","tgt":"Ang polite na 'ako' ="}
+{"f":"practice","id":"pronouns-questions.04","k":"why","src":"저 is polite; 나 is for close friends.","tgt":"저 ang polite; 나 para sa malalapit na kaibigan."}
+{"f":"practice","id":"pronouns-questions.05","k":"q","src":"'My home' the natural way =","tgt":"'Bahay ko', sa natural na paraan ="}
+{"f":"practice","id":"pronouns-questions.05","k":"why","src":"Home and family take 우리.","tgt":"Ang bahay at pamilya ay may 우리, parang \"bahay namin\"."}
+{"f":"practice","id":"pronouns-questions.06","k":"p","src":"Where is the bathroom?","tgt":"Nasaan ang CR?"}
+{"f":"practice","id":"pronouns-questions.06","k":"why","src":"어디에 있어요 = where is it.","tgt":"어디에 있어요 = nasaan."}
+{"f":"practice","id":"pronouns-questions.07","k":"p","src":"Who is that person (over there)?","tgt":"Sino ang taong iyon (doon)?"}
+{"f":"practice","id":"pronouns-questions.07","k":"why","src":"누구 = who.","tgt":"누구 = sino."}
+{"f":"practice","id":"pronouns-questions.08","k":"p","src":"When is your birthday?","tgt":"Kailan ang birthday mo?"}
+{"f":"practice","id":"pronouns-questions.08","k":"why","src":"언제 = when.","tgt":"언제 = kailan."}
+{"f":"practice","id":"pronouns-questions.09","k":"p","src":"What is this?","tgt":"Ano ito?"}
+{"f":"practice","id":"pronouns-questions.09","k":"why","src":"뭐 = what.","tgt":"뭐 = ano."}
+{"f":"practice","id":"pronouns-questions.10","k":"p","src":"Who is there?","tgt":"Sino ang nandiyan?"}
+{"f":"practice","id":"pronouns-questions.10","k":"why","src":"누구 + 가 → 누가.","tgt":"누구 + 가 → 누가.","pre":1}
+{"f":"practice","id":"pronouns-questions.11","k":"p","src":"Where is the bathroom?","tgt":"Nasaan ang CR?"}
+{"f":"practice","id":"pronouns-questions.11","k":"why","src":"어디 = where.","tgt":"어디 = saan."}
+{"f":"practice","id":"pronouns-questions.12","k":"p","src":"What is this?","tgt":"Ano ito?"}
+{"f":"practice","id":"pronouns-questions.12","k":"why","src":"The question word sits where the answer goes.","tgt":"Nasa puwesto ng sagot ang question word."}
+{"f":"practice","id":"pronouns-questions.13","k":"p","src":"Where is it?","tgt":"Nasaan (ito)?"}
+{"f":"practice","id":"pronouns-questions.13","k":"why","src":"어디에 있어요.","tgt":"어디에 있어요.","pre":1}
+{"f":"practice","id":"pronouns-questions.14","k":"p","src":"Who is that person?","tgt":"Sino ang taong iyan?"}
+{"f":"practice","id":"pronouns-questions.14","k":"why","src":"누구예요 = who is (it).","tgt":"누구예요 = sino (siya)."}
+{"f":"lessons","id":"verbbasics","k":"title","src":"8 · Verbs","tgt":"8 · Mga verb"}
+{"f":"lessons","id":"verbbasics","k":"blurb","src":"Every verb ends in 다, never changes for I/you/she, and adjectives are verbs too.","tgt":"Nagtatapos sa 다 ang bawat verb, hindi nagbabago para sa ako/ikaw/siya, at verb din ang mga salitang naglalarawan."}
+{"f":"sentences","id":"ko.s0069","k":"gloss","src":"I go / you go / she goes / we go","tgt":"pumupunta ako / pumupunta ka / pumupunta siya / pumupunta kami"}
+{"f":"sentences","id":"ko.s0070","k":"gloss","src":"eat","tgt":"kumakain"}
+{"f":"sentences","id":"ko.s0071","k":"gloss","src":"drink","tgt":"umiinom"}
+{"f":"sentences","id":"ko.s0072","k":"gloss","src":"The weather is good","tgt":"Maganda ang panahon"}
+{"f":"sentences","id":"ko.s0073","k":"gloss","src":"The bag is big","tgt":"Malaki ang bag"}
+{"f":"sentences","id":"ko.s0074","k":"gloss","src":"study (noun) → (I) study","tgt":"pag-aaral (noun) → nag-aaral (ako)"}
+{"f":"sentences","id":"ko.s0075","k":"gloss","src":"(I) exercise","tgt":"Nag-eehersisyo (ako)"}
+{"f":"sentences","id":"ko.s0076","k":"gloss","src":"(I) have time","tgt":"May oras (ako)"}
+{"f":"sentences","id":"ko.s0077","k":"gloss","src":"(I) have no money","tgt":"Wala (akong) pera"}
+{"f":"checks","id":"verbbasics.k1","k":"q","src":"Stem of 먹다 =","tgt":"Stem ng 먹다 ="}
+{"f":"checks","id":"verbbasics.k1","k":"why","src":"Drop 다 to get the stem.","tgt":"Alisin ang 다 para makuha ang stem."}
+{"f":"checks","id":"verbbasics.k2","k":"q","src":"'The weather is good' =","tgt":"'Maganda ang panahon' ="}
+{"f":"checks","id":"verbbasics.k2","k":"why","src":"좋아요 already includes 'is'.","tgt":"Buo na ang 좋아요, gaya ng \"maganda\": walang dagdag na \"ay\"."}
+{"f":"checks","id":"verbbasics.k3","k":"q","src":"'I have time' =","tgt":"'May oras ako' ="}
+{"f":"checks","id":"verbbasics.k3","k":"why","src":"있어요 = exist / have.","tgt":"있어요 = may / mayroon."}
+{"f":"practice","id":"verbbasics.01","k":"q","src":"Stem of 가다 =","tgt":"Stem ng 가다 ="}
+{"f":"practice","id":"verbbasics.01","k":"why","src":"Drop 다 to get the stem.","tgt":"Alisin ang 다 para makuha ang stem."}
+{"f":"practice","id":"verbbasics.02","k":"q","src":"'The bag is big' =","tgt":"'Malaki ang bag' ="}
+{"f":"practice","id":"verbbasics.02","k":"why","src":"커요 already means 'is big'.","tgt":"\"Malaki\" na ang ibig sabihin ng 커요: walang idadagdag."}
+{"f":"practice","id":"verbbasics.03","k":"q","src":"Polite form of 하다 =","tgt":"Polite na anyo ng 하다 ="}
+{"f":"practice","id":"verbbasics.03","k":"why","src":"하다 is special: 해요.","tgt":"Espesyal ang 하다: 해요."}
+{"f":"practice","id":"verbbasics.04","k":"q","src":"'I exercise' =","tgt":"'Nag-eehersisyo ako' ="}
+{"f":"practice","id":"verbbasics.04","k":"why","src":"Noun + 하다 makes a verb: 운동해요.","tgt":"Noun + 하다 = verb: 운동해요. Parang mag- + noun."}
+{"f":"practice","id":"verbbasics.05","k":"q","src":"'The weather is good' =","tgt":"'Maganda ang panahon' ="}
+{"f":"practice","id":"verbbasics.05","k":"why","src":"Describing verbs need no separate 'is'.","tgt":"Walang hiwalay na \"ay\" ang describing verb, gaya ng \"maganda\" sa Tagalog."}
+{"f":"practice","id":"verbbasics.06","k":"p","src":"The weather is good","tgt":"Maganda ang panahon"}
+{"f":"practice","id":"verbbasics.06","k":"why","src":"좋다요 is not a form: the polite form is 좋아요.","tgt":"Hindi anyo ang 좋다요: ang polite na anyo ay 좋아요."}
+{"f":"practice","id":"verbbasics.07","k":"p","src":"I have time","tgt":"May oras ako"}
+{"f":"practice","id":"verbbasics.07","k":"why","src":"있어요 = have.","tgt":"있어요 = may."}
+{"f":"practice","id":"verbbasics.08","k":"p","src":"The bag is big","tgt":"Malaki ang bag"}
+{"f":"practice","id":"verbbasics.08","k":"why","src":"커요 = is big.","tgt":"커요 = malaki."}
+{"f":"practice","id":"verbbasics.09","k":"p","src":"(I) eat","tgt":"Kumakain (ako)"}
+{"f":"practice","id":"verbbasics.09","k":"why","src":"Spoken form is 먹어요; 먹다 is for dictionaries.","tgt":"먹어요 ang sinasabi; para sa diksyunaryo lang ang 먹다."}
+{"f":"practice","id":"verbbasics.10","k":"p","src":"(I) study","tgt":"Nag-aaral (ako)"}
+{"f":"practice","id":"verbbasics.10","k":"why","src":"공부 + 하다 → 공부해요.","tgt":"공부 + 하다 → 공부해요.","pre":1}
+{"f":"practice","id":"verbbasics.11","k":"p","src":"I have no money","tgt":"Wala akong pera"}
+{"f":"practice","id":"verbbasics.11","k":"why","src":"돈 ends in a consonant → 이.","tgt":"Nagtatapos sa consonant ang 돈 → 이."}
+{"f":"practice","id":"verbbasics.12","k":"p","src":"(I'm) going home","tgt":"Pauwi na (ako)"}
+{"f":"practice","id":"verbbasics.12","k":"why","src":"Say the 요-form, not the dictionary form.","tgt":"Sabihin ang 요-form, hindi ang dictionary form."}
+{"f":"practice","id":"verbbasics.13","k":"p","src":"(I) study Korean","tgt":"Nag-aaral (ako) ng Koreano"}
+{"f":"practice","id":"verbbasics.13","k":"why","src":"Noun + 해요.","tgt":"Noun + 해요."}
+{"f":"practice","id":"verbbasics.14","k":"p","src":"The weather is good","tgt":"Maganda ang panahon"}
+{"f":"practice","id":"verbbasics.14","k":"why","src":"좋아요 already includes 'is'.","tgt":"Buo na ang 좋아요: walang dagdag na \"ay\"."}
+{"f":"lessons","id":"verbs","k":"title","src":"9 · Present tense: the 요-form","tgt":"9 · Present tense: ang 요-form"}
+{"f":"lessons","id":"verbs","k":"blurb","src":"Turn any dictionary verb into the polite present: 아요, 어요 or 해요.","tgt":"Gawing polite na present ang kahit anong verb sa dictionary form: 아요, 어요 o 해요."}
+{"f":"sentences","id":"ko.s0078","k":"gloss","src":"go","tgt":"pumupunta"}
+{"f":"sentences","id":"ko.s0079","k":"gloss","src":"come","tgt":"dumarating"}
+{"f":"sentences","id":"ko.s0080","k":"gloss","src":"see, watch","tgt":"nakakakita, nanonood"}
+{"f":"sentences","id":"ko.s0081","k":"gloss","src":"read","tgt":"nagbabasa"}
+{"f":"sentences","id":"ko.s0082","k":"gloss","src":"there is / have","tgt":"may / mayroon"}
+{"f":"sentences","id":"ko.s0083","k":"gloss","src":"I go to school / I'm going to school","tgt":"Pumapasok ako sa eskuwelahan / Papunta ako sa eskuwelahan"}
+{"f":"sentences","id":"ko.s0084","k":"gloss","src":"Are you going home?","tgt":"Uuwi ka na ba?"}
+{"f":"sentences","id":"ko.s0085","k":"gloss","src":"What are you doing now?","tgt":"Ano ang ginagawa mo ngayon?"}
+{"f":"sentences","id":"ko.s0086","k":"gloss","src":"My friend is coming","tgt":"Paparating ang kaibigan ko"}
+{"f":"checks","id":"verbs.k1","k":"q","src":"먹다 in the polite present =","tgt":"먹다 sa polite na present ="}
+{"f":"checks","id":"verbs.k1","k":"why","src":"Last vowel is ㅓ (not ㅏ/ㅗ) → 어요.","tgt":"Ang huling vowel ay ㅓ (hindi ㅏ/ㅗ) → 어요."}
+{"f":"checks","id":"verbs.k2","k":"q","src":"보다 in the polite present =","tgt":"보다 sa polite na present ="}
+{"f":"checks","id":"verbs.k2","k":"why","src":"ㅗ stem + 아요; 보 + 아 merge into 봐.","tgt":"ㅗ stem + 아요; nagsasama ang 보 + 아 at nagiging 봐."}
+{"f":"checks","id":"verbs.k3","k":"q","src":"'Are you going home?' =","tgt":"'Uuwi ka na ba?' ="}
+{"f":"checks","id":"verbs.k3","k":"why","src":"Same 요-form; only the tone rises.","tgt":"Parehong 요-form; tumataas lang ang tono. Walang \"ba\" sa Koreano."}
+{"f":"practice","id":"verbs.01","k":"q","src":"보다 in the polite present =","tgt":"보다 sa polite na present ="}
+{"f":"practice","id":"verbs.01","k":"why","src":"ㅗ stem + 아요; 보 + 아 merge into 봐.","tgt":"ㅗ stem + 아요; nagsasama ang 보 + 아 at nagiging 봐."}
+{"f":"practice","id":"verbs.02","k":"q","src":"마시다 in the polite present =","tgt":"마시다 sa polite na present ="}
+{"f":"practice","id":"verbs.02","k":"why","src":"ㅣ stem + 어요; 시 + 어 merge into 셔.","tgt":"ㅣ stem + 어요; nagsasama ang 시 + 어 at nagiging 셔."}
+{"f":"practice","id":"verbs.03","k":"q","src":"먹다 in the polite present =","tgt":"먹다 sa polite na present ="}
+{"f":"practice","id":"verbs.03","k":"why","src":"ㅓ stem → 어요.","tgt":"ㅓ stem → 어요."}
+{"f":"practice","id":"verbs.04","k":"q","src":"공부하다 in the polite present =","tgt":"공부하다 sa polite na present ="}
+{"f":"practice","id":"verbs.04","k":"why","src":"하다 verbs → 해요.","tgt":"하다 verb → 해요."}
+{"f":"practice","id":"verbs.05","k":"q","src":"'(I'm) not going' =","tgt":"'Hindi (ako) pupunta' ="}
+{"f":"practice","id":"verbs.05","k":"why","src":"안 goes right before the verb.","tgt":"Mismong nasa harap ng verb ang 안, gaya ng \"hindi\"."}
+{"f":"practice","id":"verbs.06","k":"p","src":"My friend is coming","tgt":"Paparating ang kaibigan ko"}
+{"f":"practice","id":"verbs.06","k":"why","src":"오 + 아요 merge into 와요.","tgt":"Nagsasama ang 오 + 아요 at nagiging 와요."}
+{"f":"practice","id":"verbs.07","k":"p","src":"I go to school","tgt":"Pumapasok ako sa eskuwelahan"}
+{"f":"practice","id":"verbs.07","k":"why","src":"Say the 요-form, not the dictionary form.","tgt":"Sabihin ang 요-form, hindi ang dictionary form."}
+{"f":"practice","id":"verbs.08","k":"p","src":"What are you doing now?","tgt":"Ano ang ginagawa mo ngayon?"}
+{"f":"practice","id":"verbs.08","k":"why","src":"하다 → 해요.","tgt":"하다 → 해요.","pre":1}
+{"f":"practice","id":"verbs.09","k":"p","src":"(I) eat","tgt":"Kumakain (ako)"}
+{"f":"practice","id":"verbs.09","k":"why","src":"ㅓ stem → 어요.","tgt":"ㅓ stem → 어요."}
+{"f":"practice","id":"verbs.10","k":"p","src":"I love (you)","tgt":"Mahal kita"}
+{"f":"practice","id":"verbs.10","k":"why","src":"하다 verbs → 해요.","tgt":"하다 verb → 해요."}
+{"f":"practice","id":"verbs.11","k":"p","src":"(I'm) not going","tgt":"Hindi (ako) pupunta"}
+{"f":"practice","id":"verbs.11","k":"why","src":"안 goes right before the verb.","tgt":"Mismong nasa harap ng verb ang 안."}
+{"f":"practice","id":"verbs.12","k":"p","src":"(I) go home","tgt":"Umuuwi (ako)"}
+{"f":"practice","id":"verbs.12","k":"why","src":"가 + 아요 → 가요.","tgt":"가 + 아요 → 가요.","pre":1}
+{"f":"practice","id":"verbs.13","k":"p","src":"My friend eats","tgt":"Kumakain ang kaibigan ko"}
+{"f":"practice","id":"verbs.13","k":"why","src":"먹 + 어요.","tgt":"먹 + 어요.","pre":1}
+{"f":"practice","id":"verbs.14","k":"p","src":"(I'm) not going home","tgt":"Hindi (ako) umuuwi"}
+{"f":"practice","id":"verbs.14","k":"why","src":"안 sits right before the verb.","tgt":"Mismong nasa harap ng verb ang 안."}
+{"f":"lessons","id":"past","k":"title","src":"10 · Past tense: 았어요 / 었어요","tgt":"10 · Past tense: 았어요 / 었어요"}
+{"f":"lessons","id":"past","k":"blurb","src":"Take the 요-form, swap 요 for ㅆ어요, and you are talking about yesterday.","tgt":"Kunin ang 요-form, palitan ang 요 ng ㅆ어요, at nagkukuwento ka na tungkol sa kahapon."}
+{"f":"sentences","id":"ko.s0087","k":"gloss","src":"went","tgt":"pumunta"}
+{"f":"sentences","id":"ko.s0088","k":"gloss","src":"ate","tgt":"kumain"}
+{"f":"sentences","id":"ko.s0089","k":"gloss","src":"studied","tgt":"nag-aral"}
+{"f":"sentences","id":"ko.s0090","k":"gloss","src":"(it) was good","tgt":"Maganda (iyon)"}
+{"f":"sentences","id":"ko.s0091","k":"gloss","src":"(I) was at home yesterday","tgt":"Nasa bahay (ako) kahapon"}
+{"f":"sentences","id":"ko.s0092","k":"gloss","src":"(I) had no time","tgt":"Wala (akong) oras noon"}
+{"f":"sentences","id":"ko.s0093","k":"gloss","src":"(I) was a student","tgt":"Estudyante (ako) noon"}
+{"f":"sentences","id":"ko.s0094","k":"gloss","src":"(She) was a doctor","tgt":"Doktor (siya) noon"}
+{"f":"sentences","id":"ko.s0095","k":"gloss","src":"My friend came yesterday","tgt":"Dumating ang kaibigan ko kahapon"}
+{"f":"sentences","id":"ko.s0096","k":"gloss","src":"What did you do yesterday?","tgt":"Ano ang ginawa mo kahapon?"}
+{"f":"sentences","id":"ko.s0097","k":"gloss","src":"(I) didn't go","tgt":"Hindi (ako) pumunta"}
+{"f":"checks","id":"past.k1","k":"q","src":"가다 in the past =","tgt":"가다 sa past ="}
+{"f":"checks","id":"past.k1","k":"why","src":"가요 → drop 요 → 갔어요.","tgt":"가요 → alisin ang 요 → 갔어요."}
+{"f":"checks","id":"past.k2","k":"q","src":"'(I) was a student' =","tgt":"'Estudyante (ako) noon' ="}
+{"f":"checks","id":"past.k2","k":"why","src":"Consonant ending → 이었어요.","tgt":"Nagtatapos sa consonant → 이었어요."}
+{"f":"checks","id":"past.k3","k":"q","src":"'What did you do yesterday?' =","tgt":"'Ano ang ginawa mo kahapon?' ="}
+{"f":"checks","id":"past.k3","k":"why","src":"해요 → 했어요; the time word goes first.","tgt":"해요 → 했어요; nauuna ang time word."}
+{"f":"practice","id":"past.01","k":"q","src":"먹다 in the past =","tgt":"먹다 sa past ="}
+{"f":"practice","id":"past.01","k":"why","src":"먹어요 → 먹었어요.","tgt":"먹어요 → 먹었어요.","pre":1}
+{"f":"practice","id":"past.02","k":"q","src":"오다 in the past =","tgt":"오다 sa past ="}
+{"f":"practice","id":"past.02","k":"why","src":"와요 → 왔어요.","tgt":"와요 → 왔어요.","pre":1}
+{"f":"practice","id":"past.03","k":"q","src":"하다 in the past =","tgt":"하다 sa past ="}
+{"f":"practice","id":"past.03","k":"why","src":"해요 → 했어요.","tgt":"해요 → 했어요.","pre":1}
+{"f":"practice","id":"past.04","k":"q","src":"'(It) was good' =","tgt":"'Maganda (iyon)', sa past ="}
+{"f":"practice","id":"past.04","k":"why","src":"좋아요 → 좋았어요.","tgt":"좋아요 → 좋았어요.","pre":1}
+{"f":"practice","id":"past.05","k":"q","src":"'(I) didn't go' =","tgt":"'Hindi (ako) pumunta' ="}
+{"f":"practice","id":"past.05","k":"why","src":"안 before the verb; 갔어요 is the past.","tgt":"안 bago ang verb; past ang 갔어요."}
+{"f":"practice","id":"past.06","k":"p","src":"My friend came yesterday","tgt":"Dumating ang kaibigan ko kahapon"}
+{"f":"practice","id":"past.06","k":"why","src":"Time words usually come first; the past verb always comes last.","tgt":"Karaniwang nauuna ang time word; laging nasa dulo ang past na verb."}
+{"f":"practice","id":"past.07","k":"p","src":"(I) was at home yesterday","tgt":"Nasa bahay (ako) kahapon"}
+{"f":"practice","id":"past.07","k":"why","src":"있어요 → 있었어요.","tgt":"있어요 → 있었어요.","pre":1}
+{"f":"practice","id":"past.08","k":"p","src":"What did you do?","tgt":"Ano ang ginawa mo?"}
+{"f":"practice","id":"past.08","k":"why","src":"해요 → 했어요.","tgt":"해요 → 했어요.","pre":1}
+{"f":"practice","id":"past.09","k":"p","src":"(I) ate","tgt":"Kumain (ako)"}
+{"f":"practice","id":"past.09","k":"why","src":"먹어요 → 먹었어요.","tgt":"먹어요 → 먹었어요.","pre":1}
+{"f":"practice","id":"past.10","k":"p","src":"(I) studied","tgt":"Nag-aral (ako)"}
+{"f":"practice","id":"past.10","k":"why","src":"해요 → 했어요.","tgt":"해요 → 했어요.","pre":1}
+{"f":"practice","id":"past.11","k":"p","src":"(She) was a doctor","tgt":"Doktor (siya) noon"}
+{"f":"practice","id":"past.11","k":"why","src":"Vowel ending → 였어요.","tgt":"Nagtatapos sa vowel → 였어요."}
+{"f":"practice","id":"past.12","k":"p","src":"(I) went home","tgt":"Umuwi (ako)"}
+{"f":"practice","id":"past.12","k":"hint","src":"past","tgt":"past"}
+{"f":"practice","id":"past.12","k":"why","src":"가요 → 갔어요.","tgt":"가요 → 갔어요.","pre":1}
+{"f":"practice","id":"past.13","k":"p","src":"I was a student","tgt":"Estudyante ako noon"}
+{"f":"practice","id":"past.13","k":"why","src":"이에요 → 이었어요.","tgt":"이에요 → 이었어요.","pre":1}
+{"f":"practice","id":"past.14","k":"p","src":"(I) didn't eat yesterday","tgt":"Hindi (ako) kumain kahapon"}
+{"f":"practice","id":"past.14","k":"why","src":"안 + past verb.","tgt":"안 + past na verb."}
+{"f":"lessons","id":"future","k":"title","src":"11 · Future and plans: -(으)ㄹ 거예요","tgt":"11 · Future at mga plano: -(으)ㄹ 거예요"}
+{"f":"lessons","id":"future","k":"blurb","src":"Say what you will do, and guess what will probably happen.","tgt":"Sabihin ang gagawin mo, at hulaan ang malamang na mangyari."}
+{"f":"sentences","id":"ko.s0098","k":"gloss","src":"will go","tgt":"pupunta"}
+{"f":"sentences","id":"ko.s0099","k":"gloss","src":"will watch","tgt":"manonood"}
+{"f":"sentences","id":"ko.s0100","k":"gloss","src":"will do","tgt":"gagawa"}
+{"f":"sentences","id":"ko.s0101","k":"gloss","src":"will eat","tgt":"kakain"}
+{"f":"sentences","id":"ko.s0102","k":"gloss","src":"will be (there)","tgt":"nandoon (mamaya)"}
+{"f":"sentences","id":"ko.s0103","k":"gloss","src":"I'll go to school tomorrow","tgt":"Papasok ako sa eskuwelahan bukas"}
+{"f":"sentences","id":"ko.s0104","k":"gloss","src":"What will you do on the weekend?","tgt":"Ano ang gagawin mo sa weekend?"}
+{"f":"sentences","id":"ko.s0105","k":"gloss","src":"I'll be at home","tgt":"Nasa bahay ako (mamaya)"}
+{"f":"sentences","id":"ko.s0106","k":"gloss","src":"I won't go","tgt":"Hindi ako pupunta"}
+{"f":"sentences","id":"ko.s0107","k":"gloss","src":"It will probably be tasty","tgt":"Masarap siguro (iyan)"}
+{"f":"sentences","id":"ko.s0108","k":"gloss","src":"It will probably be cold tomorrow","tgt":"Malamig siguro bukas"}
+{"f":"checks","id":"future.k1","k":"q","src":"먹다 in the future =","tgt":"먹다 sa future ="}
+{"f":"checks","id":"future.k1","k":"why","src":"Consonant stem + 을 거예요.","tgt":"Consonant stem + 을 거예요."}
+{"f":"checks","id":"future.k2","k":"q","src":"'What will you do on the weekend?' =","tgt":"'Ano ang gagawin mo sa weekend?' ="}
+{"f":"checks","id":"future.k2","k":"why","src":"하 + ㄹ 거예요 → 할 거예요.","tgt":"하 + ㄹ 거예요 → 할 거예요.","pre":1}
+{"f":"checks","id":"future.k3","k":"q","src":"'(I) won't go' =","tgt":"'Hindi (ako) pupunta' (future) ="}
+{"f":"checks","id":"future.k3","k":"why","src":"안 goes before the verb.","tgt":"Nasa harap ng verb ang 안."}
+{"f":"practice","id":"future.01","k":"q","src":"가다 in the future =","tgt":"가다 sa future ="}
+{"f":"practice","id":"future.01","k":"why","src":"Vowel stem + ㄹ 거예요.","tgt":"Vowel stem + ㄹ 거예요."}
+{"f":"practice","id":"future.02","k":"q","src":"먹다 in the future =","tgt":"먹다 sa future ="}
+{"f":"practice","id":"future.02","k":"why","src":"Consonant stem + 을 거예요.","tgt":"Consonant stem + 을 거예요."}
+{"f":"practice","id":"future.03","k":"q","src":"하다 in the future =","tgt":"하다 sa future ="}
+{"f":"practice","id":"future.03","k":"why","src":"하 + ㄹ → 할 거예요.","tgt":"하 + ㄹ → 할 거예요.","pre":1}
+{"f":"practice","id":"future.04","k":"q","src":"Which word means 'tomorrow'?","tgt":"Aling salita ang 'bukas'?"}
+{"f":"practice","id":"future.04","k":"why","src":"내일 = tomorrow; 어제 = yesterday.","tgt":"내일 = bukas; 어제 = kahapon."}
+{"f":"practice","id":"future.05","k":"q","src":"'(I) won't go' =","tgt":"'Hindi (ako) pupunta' (future) ="}
+{"f":"practice","id":"future.05","k":"why","src":"안 goes before the verb.","tgt":"Nasa harap ng verb ang 안."}
+{"f":"practice","id":"future.06","k":"p","src":"I'll go to school tomorrow","tgt":"Papasok ako sa eskuwelahan bukas"}
+{"f":"practice","id":"future.06","k":"why","src":"Time usually first; 갈 거예요 = will go.","tgt":"Karaniwang nauuna ang oras; 갈 거예요 = pupunta."}
+{"f":"practice","id":"future.07","k":"p","src":"What will you do on the weekend?","tgt":"Ano ang gagawin mo sa weekend?"}
+{"f":"practice","id":"future.07","k":"why","src":"할 거예요 = will do.","tgt":"할 거예요 = gagawin."}
+{"f":"practice","id":"future.08","k":"p","src":"(I) will be at home","tgt":"Nasa bahay (ako) mamaya"}
+{"f":"practice","id":"future.08","k":"why","src":"있 + 을 거예요.","tgt":"있 + 을 거예요.","pre":1}
+{"f":"practice","id":"future.09","k":"p","src":"(I) will go","tgt":"Pupunta (ako)"}
+{"f":"practice","id":"future.09","k":"why","src":"Stem + ㄹ + 거예요.","tgt":"Stem + ㄹ + 거예요."}
+{"f":"practice","id":"future.10","k":"p","src":"(I) will eat","tgt":"Kakain (ako)"}
+{"f":"practice","id":"future.10","k":"why","src":"Consonant stem → 을 거예요.","tgt":"Consonant stem → 을 거예요."}
+{"f":"practice","id":"future.11","k":"p","src":"My friend will come tomorrow","tgt":"Darating ang kaibigan ko bukas"}
+{"f":"practice","id":"future.11","k":"why","src":"오 + ㄹ → 올 거예요.","tgt":"오 + ㄹ → 올 거예요.","pre":1}
+{"f":"practice","id":"future.12","k":"p","src":"(I) will go tomorrow","tgt":"Pupunta (ako) bukas (future)"}
+{"f":"practice","id":"future.12","k":"why","src":"가 + ㄹ 거예요.","tgt":"가 + ㄹ 거예요.","pre":1}
+{"f":"practice","id":"future.13","k":"p","src":"My friend will eat","tgt":"Kakain ang kaibigan ko"}
+{"f":"practice","id":"future.13","k":"why","src":"먹 + 을 거예요.","tgt":"먹 + 을 거예요.","pre":1}
+{"f":"practice","id":"future.14","k":"p","src":"(I) won't go","tgt":"Hindi (ako) pupunta (future)"}
+{"f":"practice","id":"future.14","k":"why","src":"안 + 갈 거예요.","tgt":"안 + 갈 거예요.","pre":1}
+{"f":"lessons","id":"sov","k":"title","src":"12 · Word order and 을/를","tgt":"12 · Word order at 을/를"}
+{"f":"lessons","id":"sov","k":"blurb","src":"Subject · Object · Verb, the object marker 을/를, and when it drops.","tgt":"Subject · Object · Verb, ang object marker na 을/를, at kung kailan ito nawawala."}
+{"f":"sentences","id":"ko.s0109","k":"gloss","src":"I (topic) rice (object) eat","tgt":"ako (topic) kanin (object) kumakain"}
+{"f":"sentences","id":"ko.s0110","k":"gloss","src":"Friend (subject) coffee (object) drinks","tgt":"kaibigan (subject) kape (object) umiinom"}
+{"f":"sentences","id":"ko.s0111","k":"gloss","src":"(I) read / look at a book","tgt":"Nagbabasa (ako) ng libro / Tumitingin (ako) sa libro"}
+{"f":"sentences","id":"ko.s0112","k":"gloss","src":"(I) drink coffee","tgt":"Umiinom (ako) ng kape"}
+{"f":"sentences","id":"ko.s0113","k":"gloss","src":"(I) study Korean","tgt":"Nag-aaral (ako) ng Koreano"}
+{"f":"sentences","id":"ko.s0114","k":"gloss","src":"(Did you) eat?","tgt":"Kumain ka na ba?"}
+{"f":"sentences","id":"ko.s0115","k":"gloss","src":"Yes, (I) ate","tgt":"Oo, kumain na (ako)"}
+{"f":"sentences","id":"ko.s0116","k":"gloss","src":"(I) drink coffee — 를 dropped","tgt":"Umiinom (ako) ng kape — walang 를"}
+{"f":"sentences","id":"ko.s0117","k":"gloss","src":"(I'm) going. / (Are you) going?","tgt":"Aalis na (ako). / Aalis ka na ba?"}
+{"f":"sentences","id":"ko.s0118","k":"gloss","src":"Where (are you) going?","tgt":"Saan ka pupunta?"}
+{"f":"sentences","id":"ko.s0119","k":"gloss","src":"What (are you) eating?","tgt":"Ano ang kinakain mo?"}
+{"f":"checks","id":"sov.k1","k":"q","src":"Korean word order is:","tgt":"Ang word order ng Koreano ay:"}
+{"f":"checks","id":"sov.k1","k":"o[0]","src":"Subject · Object · Verb","tgt":"Subject · Object · Verb"}
+{"f":"checks","id":"sov.k1","k":"o[1]","src":"Subject · Verb · Object","tgt":"Subject · Verb · Object"}
+{"f":"checks","id":"sov.k1","k":"o[2]","src":"Verb · Subject · Object","tgt":"Verb · Subject · Object"}
+{"f":"checks","id":"sov.k1","k":"o[3]","src":"Object · Verb · Subject","tgt":"Object · Verb · Subject"}
+{"f":"checks","id":"sov.k1","k":"why","src":"The verb always closes the sentence.","tgt":"Laging ang verb ang nagsasara ng sentence."}
+{"f":"checks","id":"sov.k2","k":"q","src":"'I study Korean' =","tgt":"'Nag-aaral ako ng Koreano' ="}
+{"f":"checks","id":"sov.k2","k":"why","src":"한국어 ends in a vowel → 를; verb last.","tgt":"Nagtatapos sa vowel ang 한국어 → 를; verb sa dulo."}
+{"f":"checks","id":"sov.k3","k":"q","src":"'The bag is big' =","tgt":"'Malaki ang bag' ="}
+{"f":"checks","id":"sov.k3","k":"why","src":"Describing verbs take 이/가, not 을/를.","tgt":"Ang describing verb ay may 이/가, hindi 을/를."}
+{"f":"practice","id":"sov.01","k":"q","src":"'I eat rice' =","tgt":"'Kumakain ako ng kanin' ="}
+{"f":"practice","id":"sov.01","k":"why","src":"Object + 을, verb last.","tgt":"Object + 을, verb sa dulo."}
+{"f":"practice","id":"sov.02","k":"q","src":"Object marker after 커피:","tgt":"Object marker pagkatapos ng 커피:"}
+{"f":"practice","id":"sov.02","k":"why","src":"커피 ends in a vowel → 를.","tgt":"Nagtatapos sa vowel ang 커피 → 를."}
+{"f":"practice","id":"sov.03","k":"q","src":"Object marker after 책:","tgt":"Object marker pagkatapos ng 책:"}
+{"f":"practice","id":"sov.03","k":"why","src":"책 ends in a consonant → 을.","tgt":"Nagtatapos sa consonant ang 책 → 을."}
+{"f":"practice","id":"sov.04","k":"q","src":"'The weather is good' =","tgt":"'Maganda ang panahon' ="}
+{"f":"practice","id":"sov.04","k":"why","src":"Describing verbs take 이/가, not 을/를.","tgt":"Ang describing verb ay may 이/가, hindi 을/를."}
+{"f":"practice","id":"sov.05","k":"q","src":"'Where are you going?' =","tgt":"'Saan ka pupunta?' ="}
+{"f":"practice","id":"sov.05","k":"why","src":"어디 = where; it sits where the answer would go.","tgt":"어디 = saan; nasa puwesto ito ng sagot, hindi sa simula gaya ng \"Saan\"."}
+{"f":"practice","id":"sov.06","k":"p","src":"I drink coffee","tgt":"Umiinom ako ng kape"}
+{"f":"practice","id":"sov.06","k":"why","src":"Object + 를, verb last.","tgt":"Object + 를, verb sa dulo."}
+{"f":"practice","id":"sov.07","k":"p","src":"I study Korean","tgt":"Nag-aaral ako ng Koreano"}
+{"f":"practice","id":"sov.07","k":"why","src":"한국어 is the object → 를.","tgt":"Object ang 한국어 → 를."}
+{"f":"practice","id":"sov.08","k":"p","src":"My friend is looking at a book","tgt":"Nagbabasa ng libro ang kaibigan ko"}
+{"f":"practice","id":"sov.08","k":"why","src":"Subject, object, verb.","tgt":"Subject, object, verb."}
+{"f":"practice","id":"sov.09","k":"p","src":"(I) eat rice","tgt":"Kumakain (ako) ng kanin"}
+{"f":"practice","id":"sov.09","k":"why","src":"밥 ends in a consonant → 을.","tgt":"Nagtatapos sa consonant ang 밥 → 을."}
+{"f":"practice","id":"sov.10","k":"p","src":"(I) drink coffee","tgt":"Umiinom (ako) ng kape"}
+{"f":"practice","id":"sov.10","k":"why","src":"커피 ends in a vowel → 를.","tgt":"Nagtatapos sa vowel ang 커피 → 를."}
+{"f":"practice","id":"sov.11","k":"p","src":"The bag is big","tgt":"Malaki ang bag"}
+{"f":"practice","id":"sov.11","k":"why","src":"Describing verb → 이/가; 가방 ends in a consonant → 이.","tgt":"Describing verb → 이/가; nagtatapos sa consonant ang 가방 → 이."}
+{"f":"practice","id":"sov.12","k":"p","src":"I eat rice","tgt":"Kumakain ako ng kanin"}
+{"f":"practice","id":"sov.12","k":"why","src":"Object + 을, verb last.","tgt":"Object + 을, verb sa dulo."}
+{"f":"practice","id":"sov.13","k":"p","src":"I study Korean","tgt":"Nag-aaral ako ng Koreano"}
+{"f":"practice","id":"sov.13","k":"why","src":"Object + 를, verb last.","tgt":"Object + 를, verb sa dulo."}
+{"f":"practice","id":"sov.14","k":"p","src":"What are you eating?","tgt":"Ano ang kinakain mo?"}
+{"f":"practice","id":"sov.14","k":"why","src":"Question word where the answer goes, rising tone.","tgt":"Nasa puwesto ng sagot ang question word, at pataas ang tono."}
+{"f":"lessons","id":"particles","k":"title","src":"13 · 에 and 에서, plus the particle map","tgt":"13 · 에 at 에서, at ang mapa ng mga particle"}
+{"f":"lessons","id":"particles","k":"blurb","src":"에 for where you go, where things are and when; 에서 for where you do things and where you come from.","tgt":"에 para sa pupuntahan mo, kung nasaan ang bagay at kung kailan; 에서 para sa kung saan mo ginagawa ang isang bagay at kung saan ka galing."}
+{"f":"sentences","id":"ko.s0120","k":"gloss","src":"(I'm) going home","tgt":"Uuwi (ako)"}
+{"f":"sentences","id":"ko.s0121","k":"gloss","src":"(I) go to school","tgt":"Pumapasok (ako) sa eskuwelahan"}
+{"f":"sentences","id":"ko.s0122","k":"gloss","src":"My friend is coming to the café","tgt":"Darating sa café ang kaibigan ko"}
+{"f":"sentences","id":"ko.s0123","k":"gloss","src":"(I) go to school on the weekend","tgt":"Pumapasok (ako) sa eskuwelahan kapag weekend"}
+{"f":"sentences","id":"ko.s0124","k":"gloss","src":"(I) drink coffee in the morning","tgt":"Umiinom (ako) ng kape sa umaga"}
+{"f":"sentences","id":"ko.s0125","k":"gloss","src":"(I) rest at home","tgt":"Nagpapahinga (ako) sa bahay"}
+{"f":"sentences","id":"ko.s0126","k":"gloss","src":"(I) study at a café","tgt":"Nag-aaral (ako) sa café"}
+{"f":"sentences","id":"ko.s0127","k":"gloss","src":"(I) came from the US","tgt":"Galing (ako) sa Amerika"}
+{"f":"sentences","id":"ko.s0128","k":"gloss","src":"As for me, I'm a student","tgt":"Tungkol sa akin, estudyante ako"}
+{"f":"sentences","id":"ko.s0129","k":"gloss","src":"Who came? My friend came (new info → 가)","tgt":"Sino ang dumating? Ang kaibigan ko ang dumating (bagong impormasyon → 가)"}
+{"f":"checks","id":"particles.k1","k":"q","src":"'I'm going home' =","tgt":"'Uuwi ako' ="}
+{"f":"checks","id":"particles.k1","k":"why","src":"Destination with 가요 → 에.","tgt":"Pupuntahan kasama ng 가요 → 에."}
+{"f":"checks","id":"particles.k2","k":"q","src":"'I study at a café' =","tgt":"'Nag-aaral ako sa café' ="}
+{"f":"checks","id":"particles.k2","k":"why","src":"Where an action happens → 에서.","tgt":"Lugar kung saan may ginagawa → 에서."}
+{"f":"checks","id":"particles.k3","k":"q","src":"'The cat is at home' =","tgt":"'Nasa bahay ang pusa' ="}
+{"f":"checks","id":"particles.k3","k":"why","src":"있어요 takes 에, not 에서.","tgt":"에 ang kasama ng 있어요, hindi 에서."}
+{"f":"practice","id":"particles.01","k":"q","src":"'I go to school' =","tgt":"'Pumapasok ako sa eskuwelahan' ="}
+{"f":"practice","id":"particles.01","k":"why","src":"Destination with 가요 → 에.","tgt":"Pupuntahan kasama ng 가요 → 에."}
+{"f":"practice","id":"particles.02","k":"q","src":"'I rest at home' =","tgt":"'Nagpapahinga ako sa bahay' ="}
+{"f":"practice","id":"particles.02","k":"why","src":"Where an action happens → 에서.","tgt":"Lugar kung saan may ginagawa → 에서."}
+{"f":"practice","id":"particles.03","k":"q","src":"'I came from the US' =","tgt":"'Galing ako sa Amerika' ="}
+{"f":"practice","id":"particles.03","k":"why","src":"에서 = from; 미국에 왔어요 = came to the US.","tgt":"에서 = galing sa; ang 미국에 왔어요 = dumating sa Amerika."}
+{"f":"practice","id":"particles.04","k":"q","src":"'On the weekend' =","tgt":"'Sa weekend' ="}
+{"f":"practice","id":"particles.04","k":"why","src":"Time words take 에.","tgt":"May 에 ang mga time word."}
+{"f":"practice","id":"particles.05","k":"q","src":"Answering 누가 왔어요? (Who came?): 'My friend came' =","tgt":"Sagot sa 누가 왔어요? (Sino ang dumating?): 'Ang kaibigan ko ang dumating' ="}
+{"f":"practice","id":"particles.05","k":"why","src":"The answer to 'who?' is new info → 이/가.","tgt":"Bagong impormasyon ang sagot sa \"sino?\" → 이/가."}
+{"f":"practice","id":"particles.06","k":"p","src":"I study at a café","tgt":"Nag-aaral ako sa café"}
+{"f":"practice","id":"particles.06","k":"why","src":"Action location → 에서.","tgt":"Lugar ng ginagawa → 에서."}
+{"f":"practice","id":"particles.07","k":"p","src":"I'm going home","tgt":"Uuwi ako"}
+{"f":"practice","id":"particles.07","k":"why","src":"Destination → 에.","tgt":"Pupuntahan → 에."}
+{"f":"practice","id":"particles.08","k":"p","src":"I drink coffee in the morning","tgt":"Umiinom ako ng kape sa umaga"}
+{"f":"practice","id":"particles.08","k":"why","src":"Time → 에; time words usually go first.","tgt":"Oras → 에; karaniwang nauuna ang time word."}
+{"f":"practice","id":"particles.09","k":"p","src":"I study at a café","tgt":"Nag-aaral ako sa café"}
+{"f":"practice","id":"particles.09","k":"why","src":"Action location → 에서.","tgt":"Lugar ng ginagawa → 에서."}
+{"f":"practice","id":"particles.10","k":"p","src":"I go to school","tgt":"Pumapasok ako sa eskuwelahan"}
+{"f":"practice","id":"particles.10","k":"why","src":"Destination → 에.","tgt":"Pupuntahan → 에."}
+{"f":"practice","id":"particles.11","k":"p","src":"The cat is at home","tgt":"Nasa bahay ang pusa"}
+{"f":"practice","id":"particles.11","k":"why","src":"있어요 takes 에, not 에서.","tgt":"에 ang kasama ng 있어요, hindi 에서."}
+{"f":"practice","id":"particles.12","k":"p","src":"I rest at home","tgt":"Nagpapahinga ako sa bahay"}
+{"f":"practice","id":"particles.12","k":"why","src":"Resting is an action → 에서.","tgt":"Kilos ang pagpapahinga → 에서."}
+{"f":"practice","id":"particles.13","k":"p","src":"I go to school on the weekend","tgt":"Pumapasok ako sa eskuwelahan kapag weekend"}
+{"f":"practice","id":"particles.13","k":"why","src":"Time + 에, destination + 에.","tgt":"Oras + 에, pupuntahan + 에."}
+{"f":"practice","id":"particles.14","k":"p","src":"I study Korean at school","tgt":"Nag-aaral ako ng Koreano sa eskuwelahan"}
+{"f":"practice","id":"particles.14","k":"why","src":"Place of action + 에서, object + 를.","tgt":"Lugar ng ginagawa + 에서, object + 를."}
+{"f":"lessons","id":"negation","k":"title","src":"14 · Saying no: 안 and -지 않아요","tgt":"14 · Pagsabi ng hindi: 안 at -지 않아요"}
+{"f":"lessons","id":"negation","k":"blurb","src":"안 + verb, 공부 안 해요, -지 않아요, 아니에요 for nouns, and 없어요.","tgt":"안 + verb, 공부 안 해요, -지 않아요, 아니에요 para sa noun, at 없어요."}
+{"f":"sentences","id":"ko.s0130","k":"gloss","src":"(I'm) not going","tgt":"Hindi (ako) pupunta"}
+{"f":"sentences","id":"ko.s0131","k":"gloss","src":"(I) don't drink coffee","tgt":"Hindi (ako) umiinom ng kape"}
+{"f":"sentences","id":"ko.s0132","k":"gloss","src":"(I) didn't eat","tgt":"Hindi (ako) kumain"}
+{"f":"sentences","id":"ko.s0133","k":"gloss","src":"The weather isn't good","tgt":"Hindi maganda ang panahon"}
+{"f":"sentences","id":"ko.s0134","k":"gloss","src":"(I) don't study","tgt":"Hindi (ako) nag-aaral"}
+{"f":"sentences","id":"ko.s0135","k":"gloss","src":"(I) don't exercise on weekends","tgt":"Hindi (ako) nag-eehersisyo kapag weekend"}
+{"f":"sentences","id":"ko.s0136","k":"gloss","src":"(I) don't like coffee","tgt":"Hindi (ako) mahilig sa kape"}
+{"f":"sentences","id":"ko.s0137","k":"gloss","src":"(I) don't go","tgt":"Hindi (ako) pumupunta"}
+{"f":"sentences","id":"ko.s0138","k":"gloss","src":"(I) don't eat meat","tgt":"Hindi (ako) kumakain ng karne"}
+{"f":"sentences","id":"ko.s0139","k":"gloss","src":"(I) didn't study","tgt":"Hindi (ako) nag-aral"}
+{"f":"sentences","id":"ko.s0140","k":"gloss","src":"I'm not a student","tgt":"Hindi ako estudyante"}
+{"f":"sentences","id":"ko.s0141","k":"gloss","src":"(She) isn't a doctor","tgt":"Hindi (siya) doktor"}
+{"f":"sentences","id":"ko.s0142","k":"gloss","src":"(I) don't have time","tgt":"Wala (akong) oras"}
+{"f":"checks","id":"negation.k1","k":"q","src":"'I don't study' =","tgt":"'Hindi ako nag-aaral' ="}
+{"f":"checks","id":"negation.k1","k":"why","src":"With noun + 하다, 안 goes before 해요.","tgt":"Sa noun + 하다, nasa harap ng 해요 ang 안."}
+{"f":"checks","id":"negation.k2","k":"q","src":"'I'm not a student' =","tgt":"'Hindi ako estudyante' ="}
+{"f":"checks","id":"negation.k2","k":"why","src":"Nouns are negated with 이/가 아니에요.","tgt":"Ginagawang negative ang noun sa 이/가 아니에요."}
+{"f":"checks","id":"negation.k3","k":"q","src":"'I don't have time' =","tgt":"'Wala akong oras' ="}
+{"f":"checks","id":"negation.k3","k":"why","src":"The negative of 있어요 is 없어요.","tgt":"Ang negative ng 있어요 ay 없어요, gaya ng wala."}
+{"f":"practice","id":"negation.01","k":"q","src":"'(I) don't drink coffee' =","tgt":"'Hindi (ako) umiinom ng kape' ="}
+{"f":"practice","id":"negation.01","k":"why","src":"안 goes right before the verb.","tgt":"Mismong nasa harap ng verb ang 안."}
+{"f":"practice","id":"negation.02","k":"q","src":"'(I) don't exercise' =","tgt":"'Hindi (ako) nag-eehersisyo' ="}
+{"f":"practice","id":"negation.02","k":"why","src":"With noun + 하다, 안 goes before 해요.","tgt":"Sa noun + 하다, nasa harap ng 해요 ang 안."}
+{"f":"practice","id":"negation.03","k":"q","src":"'(She) isn't a doctor' =","tgt":"'Hindi (siya) doktor' ="}
+{"f":"practice","id":"negation.03","k":"why","src":"Nouns take 이/가 아니에요.","tgt":"May 이/가 아니에요 ang noun."}
+{"f":"practice","id":"negation.04","k":"q","src":"'I don't have money' =","tgt":"'Wala akong pera' ="}
+{"f":"practice","id":"negation.04","k":"why","src":"The negative of 있어요 is 없어요.","tgt":"Ang negative ng 있어요 ay 없어요."}
+{"f":"practice","id":"negation.05","k":"q","src":"Same meaning as 안 가요:","tgt":"Kapareho ng kahulugan ng 안 가요:"}
+{"f":"practice","id":"negation.05","k":"why","src":"Stem + 지 않아요 = 안 + verb.","tgt":"Stem + 지 않아요 = 안 + verb."}
+{"f":"practice","id":"negation.06","k":"p","src":"(I) don't study","tgt":"Hindi (ako) nag-aaral"}
+{"f":"practice","id":"negation.06","k":"why","src":"Noun + 안 + 해요.","tgt":"Noun + 안 + 해요."}
+{"f":"practice","id":"negation.07","k":"p","src":"(I) don't drink coffee","tgt":"Hindi (ako) umiinom ng kape"}
+{"f":"practice","id":"negation.07","k":"why","src":"Object, 안, verb.","tgt":"Object, 안, verb."}
+{"f":"practice","id":"negation.08","k":"p","src":"I'm not a student","tgt":"Hindi ako estudyante"}
+{"f":"practice","id":"negation.08","k":"why","src":"Nouns: 이/가 아니에요.","tgt":"Noun: 이/가 아니에요."}
+{"f":"practice","id":"negation.09","k":"p","src":"(I) don't drink coffee","tgt":"Hindi (ako) umiinom ng kape"}
+{"f":"practice","id":"negation.09","k":"why","src":"안 directly before the verb.","tgt":"안, mismong bago ang verb."}
+{"f":"practice","id":"negation.10","k":"p","src":"(I) don't eat","tgt":"Hindi (ako) kumakain"}
+{"f":"practice","id":"negation.10","k":"why","src":"Stem + 지 않아요.","tgt":"Stem + 지 않아요."}
+{"f":"practice","id":"negation.11","k":"p","src":"I don't have time","tgt":"Wala akong oras"}
+{"f":"practice","id":"negation.11","k":"why","src":"Never 안 있어요; use 없어요.","tgt":"Hindi kailanman 안 있어요; gamitin ang 없어요."}
+{"f":"practice","id":"negation.12","k":"p","src":"(I'm) not going","tgt":"Hindi (ako) pumupunta"}
+{"f":"practice","id":"negation.12","k":"why","src":"안 + verb.","tgt":"안 + verb."}
+{"f":"practice","id":"negation.13","k":"p","src":"(I) don't study","tgt":"Hindi (ako) nag-aaral"}
+{"f":"practice","id":"negation.13","k":"why","src":"안 sits between 공부 and 해요.","tgt":"Nasa pagitan ng 공부 at 해요 ang 안."}
+{"f":"practice","id":"negation.14","k":"p","src":"I'm not a doctor","tgt":"Hindi ako doktor"}
+{"f":"practice","id":"negation.14","k":"why","src":"Nouns: 이/가 아니에요.","tgt":"Noun: 이/가 아니에요."}
+{"f":"lessons","id":"do-man","k":"title","src":"15 · 도 and 만: also and only","tgt":"15 · 도 at 만: rin at lang"}
+{"f":"lessons","id":"do-man","k":"blurb","src":"도 (also, too) and 만 (only) replace 은/는, 이/가, 을/를 but stack after 에 and 에서.","tgt":"Ang 도 (rin / din) at 만 (lang) ay pumapalit sa 은/는, 이/가, 을/를, pero sumusunod sa 에 at 에서."}
+{"f":"sentences","id":"ko.s0143","k":"gloss","src":"I'm a student too","tgt":"Estudyante rin ako"}
+{"f":"sentences","id":"ko.s0144","k":"gloss","src":"Me too","tgt":"Ako rin"}
+{"f":"sentences","id":"ko.s0145","k":"gloss","src":"(I) have a cat too","tgt":"May pusa rin (ako)"}
+{"f":"sentences","id":"ko.s0146","k":"gloss","src":"as for me → me too","tgt":"tungkol sa akin → ako rin"}
+{"f":"sentences","id":"ko.s0147","k":"gloss","src":"My friend came too (친구가 → 친구도)","tgt":"Dumating din ang kaibigan ko (친구가 → 친구도)"}
+{"f":"sentences","id":"ko.s0148","k":"gloss","src":"(I) ate rice too (밥을 → 밥도)","tgt":"Kumain din (ako) ng kanin (밥을 → 밥도)"}
+{"f":"sentences","id":"ko.s0149","k":"gloss","src":"(I) only drink coffee","tgt":"Kape lang ang iniinom (ko)"}
+{"f":"sentences","id":"ko.s0150","k":"gloss","src":"Just this, please","tgt":"Ito lang, pakiusap"}
+{"f":"sentences","id":"ko.s0151","k":"gloss","src":"Just water, please","tgt":"Tubig lang, pakiusap"}
+{"f":"sentences","id":"ko.s0152","k":"gloss","src":"(I) only eat rice","tgt":"Kanin lang ang kinakain (ko)"}
+{"f":"sentences","id":"ko.s0153","k":"gloss","src":"It's at home too","tgt":"Nasa bahay rin (iyon)"}
+{"f":"sentences","id":"ko.s0154","k":"gloss","src":"(I) study at school too","tgt":"Nag-aaral din (ako) sa eskuwelahan"}
+{"f":"sentences","id":"ko.s0155","k":"gloss","src":"(I) only exercise on weekends","tgt":"Kapag weekend lang (ako) nag-eehersisyo"}
+{"f":"checks","id":"do-man.k1","k":"q","src":"'Me too' =","tgt":"'Ako rin' ="}
+{"f":"checks","id":"do-man.k1","k":"why","src":"도 replaces 은/는 — it never stacks on it.","tgt":"Pinapalitan ng 도 ang 은/는 — hindi ito ipinapatong."}
+{"f":"checks","id":"do-man.k2","k":"q","src":"'Just water, please' =","tgt":"'Tubig lang, pakiusap' ="}
+{"f":"checks","id":"do-man.k2","k":"why","src":"만 = only; it replaces 을/를.","tgt":"만 = lang; pinapalitan nito ang 을/를."}
+{"f":"checks","id":"do-man.k3","k":"q","src":"'I study at school too' =","tgt":"'Nag-aaral din ako sa eskuwelahan' ="}
+{"f":"checks","id":"do-man.k3","k":"why","src":"에서 stays; 도 goes after it.","tgt":"Nananatili ang 에서; sumusunod ang 도."}
+{"f":"practice","id":"do-man.01","k":"q","src":"'Me too' =","tgt":"'Ako rin' ="}
+{"f":"practice","id":"do-man.01","k":"why","src":"도 replaces 은/는 — it never stacks.","tgt":"Pinapalitan ng 도 ang 은/는 — hindi ito ipinapatong."}
+{"f":"practice","id":"do-man.02","k":"q","src":"'(I) only drink coffee' =","tgt":"'Kape lang ang iniinom (ko)' ="}
+{"f":"practice","id":"do-man.02","k":"why","src":"만 = only; it replaces 을/를.","tgt":"만 = lang; pinapalitan nito ang 을/를."}
+{"f":"practice","id":"do-man.03","k":"q","src":"'(I) have a cat too' =","tgt":"'May pusa rin (ako)' ="}
+{"f":"practice","id":"do-man.03","k":"why","src":"도 replaces 이/가.","tgt":"Pinapalitan ng 도 ang 이/가."}
+{"f":"practice","id":"do-man.04","k":"q","src":"'It's at home too' =","tgt":"'Nasa bahay rin (iyon)' ="}
+{"f":"practice","id":"do-man.04","k":"why","src":"에 stays; 도 goes after it. 집도 있어요 = I have a house too.","tgt":"Nananatili ang 에; sumusunod ang 도. Ang 집도 있어요 = may bahay rin (ako)."}
+{"f":"practice","id":"do-man.05","k":"q","src":"'(I) only exercise on weekends' =","tgt":"'Kapag weekend lang (ako) nag-eehersisyo' ="}
+{"f":"practice","id":"do-man.05","k":"why","src":"에 + 만, in that order.","tgt":"에 + 만, sa ganitong ayos."}
+{"f":"practice","id":"do-man.06","k":"p","src":"Just water, please","tgt":"Tubig lang, pakiusap"}
+{"f":"practice","id":"do-man.06","k":"why","src":"만 = only.","tgt":"만 = lang."}
+{"f":"practice","id":"do-man.07","k":"p","src":"My friend came too","tgt":"Dumating din ang kaibigan ko"}
+{"f":"practice","id":"do-man.07","k":"why","src":"도 replaces 가.","tgt":"Pinapalitan ng 도 ang 가."}
+{"f":"practice","id":"do-man.08","k":"p","src":"(I) study at school too","tgt":"Nag-aaral din (ako) sa eskuwelahan"}
+{"f":"practice","id":"do-man.08","k":"why","src":"에서 stays; 도 goes after it.","tgt":"Nananatili ang 에서; sumusunod ang 도."}
+{"f":"practice","id":"do-man.09","k":"p","src":"I'm a student too","tgt":"Estudyante rin ako"}
+{"f":"practice","id":"do-man.09","k":"why","src":"'Too' → 도, replacing 는.","tgt":"\"Rin\" → 도, kapalit ng 는."}
+{"f":"practice","id":"do-man.10","k":"p","src":"(I) only drink coffee","tgt":"Kape lang ang iniinom (ko)"}
+{"f":"practice","id":"do-man.10","k":"why","src":"'Only' → 만, replacing 를.","tgt":"\"Lang\" → 만, kapalit ng 를."}
+{"f":"practice","id":"do-man.11","k":"p","src":"It's at home too","tgt":"Nasa bahay rin (iyon)"}
+{"f":"practice","id":"do-man.11","k":"why","src":"에 + 도 = at home too.","tgt":"에 + 도 = sa bahay rin."}
+{"f":"practice","id":"do-man.12","k":"p","src":"I'm a student too","tgt":"Estudyante rin ako"}
+{"f":"practice","id":"do-man.12","k":"why","src":"저는 → 저도.","tgt":"저는 → 저도.","pre":1}
+{"f":"practice","id":"do-man.13","k":"p","src":"Just this, please","tgt":"Ito lang, pakiusap"}
+{"f":"practice","id":"do-man.13","k":"why","src":"만 replaces 을/를.","tgt":"Pinapalitan ng 만 ang 을/를."}
+{"f":"practice","id":"do-man.14","k":"p","src":"I'm not going either","tgt":"Hindi rin ako pupunta (present)"}
+{"f":"practice","id":"do-man.14","k":"why","src":"도 + a negative = 'either'.","tgt":"도 + negative = \"hindi rin\"."}
+{"f":"lessons","id":"sentences","k":"title","src":"16 · Putting nouns and verbs together","tgt":"16 · Pagbuo ng noun at verb"}
+{"f":"lessons","id":"sentences","k":"blurb","src":"Four sentence shapes that cover most of what you'll say, then how to grow them.","tgt":"Apat na hugis ng sentence para sa karamihan ng sasabihin mo, at kung paano sila palakihin."}
+{"f":"sentences","id":"ko.s0156","k":"gloss","src":"The coffee is tasty","tgt":"Masarap ang kape"}
+{"f":"sentences","id":"ko.s0157","k":"gloss","src":"(I) go to a café","tgt":"Pumupunta (ako) sa café"}
+{"f":"sentences","id":"ko.s0158","k":"gloss","src":"(I) drink","tgt":"Umiinom (ako)"}
+{"f":"sentences","id":"ko.s0159","k":"gloss","src":"(I) drink coffee at a café","tgt":"Umiinom (ako) ng kape sa café"}
+{"f":"sentences","id":"ko.s0160","k":"gloss","src":"Today I'm drinking coffee at a café with a friend","tgt":"Ngayong araw, umiinom ako ng kape sa café kasama ang kaibigan ko"}
+{"f":"sentences","id":"ko.s0161","k":"gloss","src":"(I) drink water — new noun","tgt":"Umiinom (ako) ng tubig — bagong noun"}
+{"f":"sentences","id":"ko.s0162","k":"gloss","src":"(I) buy coffee — new verb","tgt":"Bumibili (ako) ng kape — bagong verb"}
+{"f":"sentences","id":"ko.s0163","k":"gloss","src":"(I) don't drink coffee — 안 before the verb","tgt":"Hindi (ako) umiinom ng kape — 안 bago ang verb"}
+{"f":"sentences","id":"ko.s0164","k":"gloss","src":"Do you drink coffee? — same words, rising tone","tgt":"Umiinom ka ba ng kape? — parehong mga salita, pataas ang tono"}
+{"f":"checks","id":"sentences.k1","k":"q","src":"'I drink coffee at a café' =","tgt":"'Umiinom ako ng kape sa café' ="}
+{"f":"checks","id":"sentences.k1","k":"why","src":"Place of action → 에서; verb last.","tgt":"Lugar ng ginagawa → 에서; verb sa dulo."}
+{"f":"checks","id":"sentences.k2","k":"q","src":"'The coffee is tasty' =","tgt":"'Masarap ang kape' ="}
+{"f":"checks","id":"sentences.k2","k":"why","src":"Describing verbs take 이/가, not 을/를.","tgt":"Ang describing verb ay may 이/가, hindi 을/를."}
+{"f":"checks","id":"sentences.k3","k":"q","src":"Usual order?","tgt":"Ang karaniwang ayos?"}
+{"f":"checks","id":"sentences.k3","k":"o[0]","src":"who · when · where · what · verb","tgt":"sino · kailan · saan · ano · verb"}
+{"f":"checks","id":"sentences.k3","k":"o[1]","src":"verb · what · where · who","tgt":"verb · ano · saan · sino"}
+{"f":"checks","id":"sentences.k3","k":"o[2]","src":"who · verb · what · where","tgt":"sino · verb · ano · saan"}
+{"f":"checks","id":"sentences.k3","k":"o[3]","src":"what · who · verb · when","tgt":"ano · sino · verb · kailan"}
+{"f":"checks","id":"sentences.k3","k":"why","src":"Everything stacks up in front of the verb.","tgt":"Nakapila ang lahat sa harap ng verb."}
+{"f":"practice","id":"sentences.01","k":"q","src":"'The coffee is tasty' =","tgt":"'Masarap ang kape' ="}
+{"f":"practice","id":"sentences.01","k":"why","src":"Describing verbs take 이/가.","tgt":"Ang describing verb ay may 이/가."}
+{"f":"practice","id":"sentences.02","k":"q","src":"'(I) drink coffee at a café' =","tgt":"'Umiinom (ako) ng kape sa café' ="}
+{"f":"practice","id":"sentences.02","k":"why","src":"Action location → 에서; object → 를; verb last.","tgt":"Lugar ng ginagawa → 에서; object → 를; verb sa dulo."}
+{"f":"practice","id":"sentences.03","k":"q","src":"Which follows the usual order (who · when · where · what · verb)?","tgt":"Alin ang sumusunod sa karaniwang ayos (sino · kailan · saan · ano · verb)?"}
+{"f":"practice","id":"sentences.03","k":"why","src":"Everything stacks in front of the verb.","tgt":"Nakapila ang lahat sa harap ng verb."}
+{"f":"practice","id":"sentences.04","k":"q","src":"'(I) buy coffee' =","tgt":"'Bumibili (ako) ng kape' ="}
+{"f":"practice","id":"sentences.04","k":"why","src":"Buying is done to the coffee → 를.","tgt":"Ang kape ang binibili → 를."}
+{"f":"practice","id":"sentences.05","k":"q","src":"'Do you drink coffee?' (spoken) =","tgt":"'Umiinom ka ba ng kape?' (pasalita) ="}
+{"f":"practice","id":"sentences.05","k":"why","src":"Same words, rising tone.","tgt":"Parehong mga salita, pataas ang tono. Walang \"ba\"."}
+{"f":"practice","id":"sentences.06","k":"p","src":"(I) drink water","tgt":"Umiinom (ako) ng tubig"}
+{"f":"practice","id":"sentences.06","k":"why","src":"Object + 을, verb last.","tgt":"Object + 을, verb sa dulo."}
+{"f":"practice","id":"sentences.07","k":"p","src":"(I) buy coffee","tgt":"Bumibili (ako) ng kape"}
+{"f":"practice","id":"sentences.07","k":"why","src":"Buying is done to the coffee → 를.","tgt":"Ang kape ang binibili → 를."}
+{"f":"practice","id":"sentences.08","k":"p","src":"Today I drink coffee with a friend","tgt":"Ngayong araw, umiinom ako ng kape kasama ang kaibigan ko"}
+{"f":"practice","id":"sentences.08","k":"why","src":"Usually when · with whom · what · verb; the verb is always last.","tgt":"Karaniwan: kailan · kasama sino · ano · verb; laging nasa dulo ang verb."}
+{"f":"practice","id":"sentences.09","k":"p","src":"The coffee is tasty","tgt":"Masarap ang kape"}
+{"f":"practice","id":"sentences.09","k":"why","src":"Describing verb → 이/가; 커피 ends in a vowel → 가.","tgt":"Describing verb → 이/가; nagtatapos sa vowel ang 커피 → 가."}
+{"f":"practice","id":"sentences.10","k":"p","src":"(I) go to a café","tgt":"Pumupunta (ako) sa café"}
+{"f":"practice","id":"sentences.10","k":"why","src":"Destination → 에.","tgt":"Pupuntahan → 에."}
+{"f":"practice","id":"sentences.11","k":"p","src":"(I) study at a café with a friend","tgt":"Nag-aaral (ako) sa café kasama ang kaibigan ko"}
+{"f":"practice","id":"sentences.11","k":"why","src":"하고 = with / and.","tgt":"하고 = kasama / at."}
+{"f":"practice","id":"sentences.12","k":"p","src":"(I) drink coffee at a café","tgt":"Umiinom (ako) ng kape sa café"}
+{"f":"practice","id":"sentences.12","k":"why","src":"Place of action + 에서, object + 를, verb last.","tgt":"Lugar ng ginagawa + 에서, object + 를, verb sa dulo."}
+{"f":"practice","id":"sentences.13","k":"p","src":"The coffee is tasty","tgt":"Masarap ang kape"}
+{"f":"practice","id":"sentences.13","k":"why","src":"Describing verbs take 이/가.","tgt":"Ang describing verb ay may 이/가."}
+{"f":"practice","id":"sentences.14","k":"p","src":"(I) don't drink coffee","tgt":"Hindi (ako) umiinom ng kape"}
+{"f":"practice","id":"sentences.14","k":"why","src":"안 right before the verb.","tgt":"안, mismong bago ang verb."}
+{"f":"lessons","id":"want-like","k":"title","src":"17 · Want and like: -고 싶어요, 좋아해요","tgt":"17 · Gusto at hilig: -고 싶어요, 좋아해요"}
+{"f":"lessons","id":"want-like","k":"blurb","src":"Say what you want to do and what you like. Two patterns you will use every day.","tgt":"Sabihin ang gusto mong gawin at ang mga hilig mo. Dalawang pattern na gagamitin mo araw-araw."}
+{"f":"sentences","id":"ko.s0165","k":"gloss","src":"(I) want to go","tgt":"Gusto (kong) pumunta"}
+{"f":"sentences","id":"ko.s0166","k":"gloss","src":"(I) want to eat","tgt":"Gusto (kong) kumain"}
+{"f":"sentences","id":"ko.s0167","k":"gloss","src":"(I) want to see (it) / I miss you","tgt":"Gusto (kong) makita (iyon) / Miss na kita"}
+{"f":"sentences","id":"ko.s0168","k":"gloss","src":"(I) want to drink coffee","tgt":"Gusto (kong) uminom ng kape"}
+{"f":"sentences","id":"ko.s0169","k":"gloss","src":"(I) want to go to Korea","tgt":"Gusto (kong) pumunta sa Korea"}
+{"f":"sentences","id":"ko.s0170","k":"gloss","src":"What do you want to eat?","tgt":"Ano ang gusto mong kainin?"}
+{"f":"sentences","id":"ko.s0171","k":"gloss","src":"(I) don't want to go","tgt":"Ayaw (kong) pumunta"}
+{"f":"sentences","id":"ko.s0172","k":"gloss","src":"(I) wanted to go","tgt":"Gusto (ko) sanang pumunta"}
+{"f":"sentences","id":"ko.s0173","k":"gloss","src":"(I) like coffee","tgt":"Mahilig (ako) sa kape"}
+{"f":"sentences","id":"ko.s0174","k":"gloss","src":"(I) like movies","tgt":"Mahilig (ako) sa pelikula"}
+{"f":"sentences","id":"ko.s0175","k":"gloss","src":"Coffee is good / I like coffee","tgt":"Masarap ang kape / Gusto ko ang kape"}
+{"f":"sentences","id":"ko.s0176","k":"gloss","src":"What do you like?","tgt":"Ano ang hilig mo?"}
+{"f":"checks","id":"want-like.k1","k":"q","src":"'(I) want to go' =","tgt":"'Gusto (kong) pumunta' ="}
+{"f":"checks","id":"want-like.k1","k":"why","src":"Stem + 고 싶어요.","tgt":"Stem + 고 싶어요."}
+{"f":"checks","id":"want-like.k2","k":"q","src":"'(I) like coffee' =","tgt":"'Mahilig (ako) sa kape' ="}
+{"f":"checks","id":"want-like.k2","k":"why","src":"좋아해요 is an action verb → 을/를.","tgt":"Action verb ang 좋아해요 → 을/를."}
+{"f":"checks","id":"want-like.k3","k":"q","src":"'What do you want to eat?' =","tgt":"'Ano ang gusto mong kainin?' ="}
+{"f":"checks","id":"want-like.k3","k":"why","src":"먹 + 고 싶어요.","tgt":"먹 + 고 싶어요.","pre":1}
+{"f":"practice","id":"want-like.01","k":"q","src":"'(I) want to go' =","tgt":"'Gusto (kong) pumunta' ="}
+{"f":"practice","id":"want-like.01","k":"why","src":"Stem + 고 싶어요.","tgt":"Stem + 고 싶어요."}
+{"f":"practice","id":"want-like.02","k":"q","src":"'(I) like coffee' =","tgt":"'Mahilig (ako) sa kape' ="}
+{"f":"practice","id":"want-like.02","k":"why","src":"좋아해요 takes 을/를.","tgt":"Ang 좋아해요 ay may 을/를."}
+{"f":"practice","id":"want-like.03","k":"q","src":"'What do you want to eat?' =","tgt":"'Ano ang gusto mong kainin?' ="}
+{"f":"practice","id":"want-like.03","k":"why","src":"먹 + 고 싶어요.","tgt":"먹 + 고 싶어요.","pre":1}
+{"f":"practice","id":"want-like.04","k":"q","src":"'(I) don't want to go' =","tgt":"'Ayaw (kong) pumunta' ="}
+{"f":"practice","id":"want-like.04","k":"why","src":"안 in front of the verb.","tgt":"Ayaw = 안, sa harap ng verb."}
+{"f":"practice","id":"want-like.05","k":"q","src":"'I miss you' =","tgt":"'Miss na kita' ="}
+{"f":"practice","id":"want-like.05","k":"why","src":"Literally 'I want to see (you)'.","tgt":"Literal: \"gusto kitang makita\"."}
+{"f":"practice","id":"want-like.06","k":"p","src":"(I) want to drink coffee","tgt":"Gusto (kong) uminom ng kape"}
+{"f":"practice","id":"want-like.06","k":"why","src":"마시 + 고 싶어요.","tgt":"마시 + 고 싶어요.","pre":1}
+{"f":"practice","id":"want-like.07","k":"p","src":"(I) want to go to Korea","tgt":"Gusto (kong) pumunta sa Korea"}
+{"f":"practice","id":"want-like.07","k":"why","src":"Destination takes 에.","tgt":"May 에 ang pupuntahan."}
+{"f":"practice","id":"want-like.08","k":"p","src":"(I) like movies","tgt":"Mahilig (ako) sa pelikula"}
+{"f":"practice","id":"want-like.08","k":"why","src":"좋아해요 takes 을/를.","tgt":"Ang 좋아해요 ay may 을/를."}
+{"f":"practice","id":"want-like.09","k":"p","src":"(I) want to eat","tgt":"Gusto (kong) kumain"}
+{"f":"practice","id":"want-like.09","k":"why","src":"Stem + 고 싶어요.","tgt":"Stem + 고 싶어요."}
+{"f":"practice","id":"want-like.10","k":"p","src":"(I) like coffee","tgt":"Mahilig (ako) sa kape"}
+{"f":"practice","id":"want-like.10","k":"why","src":"좋아해요 is an action verb → 를.","tgt":"Action verb ang 좋아해요 → 를."}
+{"f":"practice","id":"want-like.11","k":"p","src":"The movie is good","tgt":"Maganda ang pelikula"}
+{"f":"practice","id":"want-like.11","k":"why","src":"이/가 goes with the describing verb 좋아요.","tgt":"Kasama ng 이/가 ang describing verb na 좋아요."}
+{"f":"practice","id":"want-like.12","k":"p","src":"(I) want to go home","tgt":"Gusto (kong) umuwi"}
+{"f":"practice","id":"want-like.12","k":"why","src":"가 + 고 싶어요.","tgt":"가 + 고 싶어요.","pre":1}
+{"f":"practice","id":"want-like.13","k":"p","src":"(I) like coffee","tgt":"Mahilig (ako) sa kape"}
+{"f":"practice","id":"want-like.13","k":"why","src":"커피를 좋아해요, or 커피가 좋아요.","tgt":"커피를 좋아해요, o 커피가 좋아요."}
+{"f":"practice","id":"want-like.14","k":"p","src":"What do you want to eat?","tgt":"Ano ang gusto mong kainin?"}
+{"f":"practice","id":"want-like.14","k":"why","src":"먹 + 고 싶어요.","tgt":"먹 + 고 싶어요.","pre":1}
+{"f":"lessons","id":"numbers","k":"title","src":"18 · Two number systems","tgt":"18 · Dalawang sistema ng numero"}
+{"f":"lessons","id":"numbers","k":"blurb","src":"Native for counting and age, Sino-Korean for money and time.","tgt":"Native para sa pagbilang, edad at oras; Sino-Korean para sa pera at minuto."}
+{"f":"sentences","id":"ko.s0177","k":"gloss","src":"Two cups of coffee, please (native + counter 잔)","tgt":"Dalawang tasa ng kape, pakiusap (native + counter 잔)"}
+{"f":"sentences","id":"ko.s0178","k":"gloss","src":"It's 5,000 won (Sino)","tgt":"5,000 won ito (Sino-Korean)"}
+{"f":"sentences","id":"ko.s0179","k":"gloss","src":"2:30 (native hour, Sino minutes)","tgt":"Alas-dos y medya (native sa oras, Sino-Korean sa minuto)"}
+{"f":"sentences","id":"ko.s0180","k":"gloss","src":"I'm 25 (native + 살)","tgt":"Bente singko anyos ako (native + 살)"}
+{"f":"checks","id":"numbers.k1","k":"q","src":"Which number system for money?","tgt":"Aling sistema ng numero para sa pera?"}
+{"f":"checks","id":"numbers.k1","k":"o[0]","src":"Sino-Korean (일, 이, 삼)","tgt":"Sino-Korean (일, 이, 삼)"}
+{"f":"checks","id":"numbers.k1","k":"o[1]","src":"Native (하나, 둘, 셋)","tgt":"Native (하나, 둘, 셋)"}
+{"f":"checks","id":"numbers.k1","k":"o[2]","src":"Either","tgt":"Kahit alin"}
+{"f":"checks","id":"numbers.k1","k":"o[3]","src":"Neither","tgt":"Wala sa dalawa"}
+{"f":"checks","id":"numbers.k1","k":"why","src":"Money, dates, minutes, phone numbers → Sino.","tgt":"Pera, petsa, minuto, numero ng telepono → Sino-Korean."}
+{"f":"checks","id":"numbers.k2","k":"q","src":"'3 o'clock' =","tgt":"'Alas-tres' ="}
+{"f":"checks","id":"numbers.k2","k":"why","src":"Hours use native numbers; 셋 → 세 before a counter.","tgt":"Native ang oras, kahit Espanyol ang \"tres\"; nagiging 세 ang 셋 bago ang counter."}
+{"f":"checks","id":"numbers.k3","k":"q","src":"50,000 won =","tgt":"50,000 won ="}
+{"f":"checks","id":"numbers.k3","k":"why","src":"Korean groups by 만 (10,000): 5 × 만 = 오만.","tgt":"Sa 만 (10,000) nagpapangkat ang Koreano: 5 × 만 = 오만."}
+{"f":"practice","id":"numbers.01","k":"q","src":"'Two cups of coffee, please' =","tgt":"'Dalawang tasa ng kape, pakiusap' ="}
+{"f":"practice","id":"numbers.01","k":"why","src":"Counting things uses native numbers, and 둘 shortens to 두 before a counter.","tgt":"Native ang pagbilang ng bagay, at nagiging 두 ang 둘 bago ang counter."}
+{"f":"practice","id":"numbers.02","k":"q","src":"'It's 5,000 won' =","tgt":"'5,000 won ito' ="}
+{"f":"practice","id":"numbers.02","k":"why","src":"Money uses Sino numbers: 오 (5) + 천 (1,000).","tgt":"Sino-Korean ang pera, parang numerong Espanyol sa piso: 오 (5) + 천 (1,000)."}
+{"f":"practice","id":"numbers.03","k":"q","src":"'3 o'clock' =","tgt":"'Alas-tres' ="}
+{"f":"practice","id":"numbers.03","k":"why","src":"Hours use native numbers, and 셋 shortens to 세.","tgt":"Native ang oras, at nagiging 세 ang 셋."}
+{"f":"practice","id":"numbers.04","k":"q","src":"'I'm 25 years old' =","tgt":"'Bente singko anyos ako' ="}
+{"f":"practice","id":"numbers.04","k":"why","src":"Age uses native numbers + 살.","tgt":"Edad: native number + 살, kahit \"anyos\" ang sinasabi mo."}
+{"f":"practice","id":"numbers.05","k":"q","src":"'50,000 won' =","tgt":"'50,000 won' ="}
+{"f":"practice","id":"numbers.05","k":"why","src":"Korean groups big numbers by 만 (10,000): 50,000 is five 만.","tgt":"Sa 만 (10,000) nagpapangkat ang Koreano ng malalaking numero: ang 50,000 ay limang 만."}
+{"f":"practice","id":"numbers.06","k":"p","src":"2:30 (two thirty)","tgt":"2:30 (alas-dos y medya)"}
+{"f":"practice","id":"numbers.06","k":"why","src":"Native hour (두 시), Sino minutes (삼십 분).","tgt":"Native ang oras (두 시), Sino-Korean ang minuto (삼십 분)."}
+{"f":"practice","id":"numbers.07","k":"p","src":"Two cups of coffee, please","tgt":"Dalawang tasa ng kape, pakiusap"}
+{"f":"practice","id":"numbers.07","k":"why","src":"Noun, number, counter, then the verb.","tgt":"Noun, numero, counter, saka ang verb."}
+{"f":"practice","id":"numbers.08","k":"p","src":"This is 50,000 won","tgt":"50,000 won ito"}
+{"f":"practice","id":"numbers.08","k":"why","src":"50,000 = 오만: Korean counts in 만.","tgt":"50,000 = 오만: sa 만 nagbibilang ang Koreano."}
+{"f":"practice","id":"numbers.09","k":"p","src":"One cup of coffee, please","tgt":"Isang tasa ng kape, pakiusap"}
+{"f":"practice","id":"numbers.09","k":"why","src":"하나 shortens to 한 before a counter.","tgt":"Nagiging 한 ang 하나 bago ang counter."}
+{"f":"practice","id":"numbers.10","k":"p","src":"It's 4 o'clock","tgt":"Alas-kuwatro na"}
+{"f":"practice","id":"numbers.10","k":"why","src":"Hours are native, and 넷 shortens to 네.","tgt":"Native ang oras, at nagiging 네 ang 넷."}
+{"f":"practice","id":"numbers.11","k":"p","src":"3:30 (write the minutes in Hangul)","tgt":"3:30 (isulat ang minuto sa Hangul)"}
+{"f":"practice","id":"numbers.11","k":"why","src":"Minutes use Sino numbers: 삼십 = 30.","tgt":"Sino-Korean ang minuto: 삼십 = 30."}
+{"f":"practice","id":"numbers.12","k":"p","src":"I'm 28 years old (write the number in Hangul)","tgt":"Bente otso anyos ako (isulat ang numero sa Hangul)"}
+{"f":"practice","id":"numbers.12","k":"why","src":"Age = native number + 살.","tgt":"Edad = native number + 살."}
+{"f":"practice","id":"numbers.13","k":"p","src":"It's 2 o'clock (write the number in Hangul)","tgt":"Alas-dos na (isulat ang numero sa Hangul)"}
+{"f":"practice","id":"numbers.13","k":"why","src":"Hours are native: 둘 → 두 시.","tgt":"Native ang oras: 둘 → 두 시."}
+{"f":"practice","id":"numbers.14","k":"p","src":"It's 3,000 won (write the number in Hangul)","tgt":"3,000 won (ito) (isulat ang numero sa Hangul)"}
+{"f":"practice","id":"numbers.14","k":"why","src":"Money is Sino: 삼천 원. Native 세 is for hours and counted things.","tgt":"Sino-Korean ang pera: 삼천 원. Ang native na 세 ay para sa oras at sa binibilang na bagay."}

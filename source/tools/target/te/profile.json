@@ -281,6 +281,61 @@
    "name": "Traps for English speakers",
    "group": "Conversation",
    "desc": "Calques, the నాకు-construction, inclusive and exclusive we, negation, and words that fool you"
+  },
+  {
+   "name": "Compliments",
+   "group": "Conversation",
+   "desc": "Kind things to say about food, work, skills, homes and children, and the modest ways people answer."
+  },
+  {
+   "name": "Flirting",
+   "group": "Conversation",
+   "desc": "Words people flirt with, phrases built from them, asking someone out, and kind ways to say no."
+  },
+  {
+   "name": "Top nouns",
+   "group": "Core words",
+   "desc": "The most-used nouns, with the plural or oblique where it changes."
+  },
+  {
+   "name": "Top verbs",
+   "group": "Core words",
+   "desc": "The most-used verbs as the base, with the I-form and the past."
+  },
+  {
+   "name": "Top adjectives",
+   "group": "Core words",
+   "desc": "The most-used describing words, with the \"is …\" form."
+  },
+  {
+   "name": "Top adverbs",
+   "group": "Core words",
+   "desc": "Time, place, manner and degree: now, here, very, again, already."
+  },
+  {
+   "name": "Top pronouns",
+   "group": "Core words",
+   "desc": "I, you, my, me, to me, mine, this, whose, someone: the whole useful set."
+  },
+  {
+   "name": "Top case endings and postpositions",
+   "group": "Core words",
+   "desc": "What Telugu uses instead of prepositions: -లో, -కి, -తో, -ని and the words after the noun."
+  },
+  {
+   "name": "Top conjunctions",
+   "group": "Core words",
+   "desc": "Joining words: that, so, then, I mean, otherwise, even so."
+  },
+  {
+   "name": "Top interjections",
+   "group": "Core words",
+   "desc": "What people really exclaim: ouch, oh my, phew, poor thing, wow."
+  },
+  {
+   "name": "Top words",
+   "group": "Core words",
+   "desc": "Yes and no, a and every, question words, numbers, people counts, days and times."
   }
  ],
  "titles": [

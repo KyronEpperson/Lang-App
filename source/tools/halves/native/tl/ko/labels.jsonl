@@ -1,0 +1,140 @@
+{"id":"ko.t01","text":"Usbong"}
+{"id":"ko.t03","text":"Estudyante"}
+{"id":"ko.t05","text":"Beterano"}
+{"id":"ko.t08","text":"Batikan"}
+{"id":"ko.t12","text":"Maestro"}
+{"id":"ko.t16","text":"Sensei"}
+{"id":"ko.h.night","text":"gabi na, salamat sa sipag mo"}
+{"id":"ko.h.morning","text":"magandang umaga"}
+{"id":"ko.h.afternoon","text":"magandang hapon"}
+{"id":"ko.h.evening","text":"magandang gabi"}
+{"id":"goal.travel","text":"Biyahe at paglibot"}
+{"id":"goal.social","text":"Date, barkada at gimik"}
+{"id":"goal.drama","text":"K-drama at musika"}
+{"id":"goal.work","text":"Trabaho at pag-aaral"}
+{"id":"plan.trip","text":"Biyahe sa Korea"}
+{"id":"plan.social","text":"Magkaroon ng kaibigan at ka-date"}
+{"id":"plan.conv","text":"Makipag-usap sa loob ng 90 araw"}
+{"id":"ko.z.compliment","text":"papuri"}
+{"id":"ko.z.compliment.01","text":"Ang astig mo / Ang porma mo"}
+{"id":"ko.z.compliment.02","text":"Ikaw ang pinakamagaling"}
+{"id":"ko.z.compliment.03","text":"Ang galing niyan"}
+{"id":"ko.z.compliment.04","text":"Magaling ang ginawa mo"}
+{"id":"ko.z.compliment.05","text":"Ang ganda ng taste mo"}
+{"id":"ko.z.compliment.06","text":"Ang bait po ninyo"}
+{"id":"ko.z.compliment.07","text":"Ang talino mo"}
+{"id":"ko.z.compliment.08","text":"Ang saya mong kasama"}
+{"id":"ko.z.compliment.09","text":"Ang ganda ng ngiti mo"}
+{"id":"ko.z.compliment.10","text":"Ang ganda ng boses mo"}
+{"id":"ko.z.compliment.11","text":"Maaasahan ka"}
+{"id":"ko.z.compliment.12","text":"Bagay sa iyo"}
+{"id":"ko.z.compliment.13","text":"Ramdam kong may kakampi ako kapag kasama ka"}
+{"id":"ko.z.compliment.14","text":"Ang astig mo"}
+{"id":"ko.z.compliment.15","text":"Ang ganda ng ugali mo"}
+{"id":"ko.z.compliment.16","text":"Ang galing po ninyong mag-Koreano"}
+{"id":"ko.z.compliment.17","text":"May dating ka"}
+{"id":"ko.z.compliment.18","text":"Taong mainit ang puso"}
+{"id":"ko.z.compliment.19","text":"Marami akong natututunan sa iyo"}
+{"id":"ko.z.compliment.20","text":"Panatag ako kapag kasama ka"}
+{"id":"ko.z.compliment.21","text":"Ang sipag po ninyo"}
+{"id":"ko.z.compliment.22","text":"Maalalahanin ka"}
+{"id":"ko.z.expression","text":"pang-araw-araw na expression"}
+{"id":"ko.z.expression.01","text":"Talaga?"}
+{"id":"ko.z.expression.02","text":"Ah, ganoon pala"}
+{"id":"ko.z.expression.03","text":"Tama"}
+{"id":"ko.z.expression.04","text":"Siyempre"}
+{"id":"ko.z.expression.05","text":"Hmm… hindi ako sigurado"}
+{"id":"ko.z.expression.06","text":"Siguro"}
+{"id":"ko.z.expression.07","text":"Okay lang"}
+{"id":"ko.z.expression.08","text":"Gets ko"}
+{"id":"ko.z.expression.09","text":"Sandali lang"}
+{"id":"ko.z.expression.10","text":"Pakiulit"}
+{"id":"ko.z.expression.11","text":"Naku, paano na"}
+{"id":"ko.z.expression.12","text":"Grabe / Hindi nga"}
+{"id":"ko.z.expression.13","text":"Kaya pala"}
+{"id":"ko.z.expression.14","text":"Imposible naman"}
+{"id":"ko.z.expression.15","text":"Natural lang / Siyempre naman"}
+{"id":"ko.z.expression.16","text":"Di ba? Kaya nga"}
+{"id":"ko.z.expression.17","text":"Ay, Diyos ko"}
+{"id":"ko.z.expression.18","text":"Oo naman"}
+{"id":"ko.z.expression.19","text":"Hindi ako sigurado"}
+{"id":"ko.z.expression.20","text":"Matagal tayong hindi nagkita"}
+{"id":"ko.z.expression.21","text":"Salamat po sa sipag ninyo ngayong araw"}
+{"id":"ko.z.expression.22","text":"Salamat sa pagkain (bago kumain)"}
+{"id":"ko.z.expression.23","text":"Salamat sa pagkain, busog na ako (pagkatapos kumain)"}
+{"id":"ko.z.expression.24","text":"Ingat pauwi"}
+{"id":"ko.z.expression.25","text":"Magandang araw sa iyo"}
+{"id":"ko.z.expression.26","text":"Ano ang ibig sabihin niyan?"}
+{"id":"ko.z.polite","text":"batayang paggalang"}
+{"id":"ko.z.polite.01","text":"Pahingi / Pakibigay"}
+{"id":"ko.z.polite.02","text":"Pakiusap (may hihilingin ako)"}
+{"id":"ko.z.polite.03","text":"Pasensya na / Paumanhin"}
+{"id":"ko.z.polite.04","text":"Excuse me (para tumawag ng pansin)"}
+{"id":"ko.z.polite.05","text":"Excuse me, sandali lang"}
+{"id":"ko.z.polite.06","text":"Pasensya na, sorry"}
+{"id":"ko.z.polite.07","text":"Salamat"}
+{"id":"ko.z.polite.08","text":"Thanks"}
+{"id":"ko.z.polite.09","text":"Walang anuman (lit. 'hindi naman')"}
+{"id":"ko.z.polite.10","text":"Okay lang / Hindi na, salamat"}
+{"id":"ko.z.polite.11","text":"Hello"}
+{"id":"ko.z.polite.12","text":"Paalam (sa taong maiiwan)"}
+{"id":"ko.z.polite.13","text":"Ingat (sa taong aalis)"}
+{"id":"ko.z.polite.14","text":"Patulong naman"}
+{"id":"ko.z.polite.15","text":"Ikinagagalak ko po kayong makilala (unang pagkikita)"}
+{"id":"ko.z.polite.16","text":"Nice to meet you"}
+{"id":"ko.z.polite.17","text":"Mauna ka na / Sige, ikaw muna"}
+{"id":"ko.z.polite.18","text":"Makikiraan, excuse me"}
+{"id":"ko.z.saying","text":"kasabihan"}
+{"id":"ko.z.saying.01","text":"Ang pagsisimula ay kalahati na ng laban"}
+{"id":"ko.z.saying.02","text":"Natutupad ang pangarap"}
+{"id":"ko.z.saying.03","text":"Kapag sinubukan mo, kaya mo"}
+{"id":"ko.z.saying.04","text":"Huwag kang susuko"}
+{"id":"ko.z.saying.05","text":"Ang paunti-unti ay nagiging bundok"}
+{"id":"ko.z.saying.06","text":"Sa dinami-dami ng araw! (malas na timing)"}
+{"id":"ko.z.saying.07","text":"Sisiw lang (napakadali)"}
+{"id":"ko.z.saying.08","text":"Kahit pamamasyal, pagkatapos kumain"}
+{"id":"ko.z.saying.09","text":"Ngumiti ka at darating ang suwerte"}
+{"id":"ko.z.saying.10","text":"Pagkatapos ng hirap, ginhawa"}
+{"id":"ko.z.saying.11","text":"Ang mahabang lakbay ay nagsisimula sa isang hakbang"}
+{"id":"ko.z.saying.12","text":"Mahirap baguhin ang nakasanayan"}
+{"id":"ko.z.saying.13","text":"Gumagaan ang trabaho kapag maraming tumutulong"}
+{"id":"ko.z.saying.14","text":"Laban lang ulit ngayong araw"}
+{"id":"ko.z.saying.15","text":"Kaya mo iyan"}
+{"id":"ko.z.saying.16","text":"Okay lang, maaayos din iyan"}
+{"id":"ko.z.saying.17","text":"Minsan ka lang mabubuhay"}
+{"id":"ko.z.saying.18","text":"Okay lang ang mabagal"}
+{"id":"ko.z.saying.19","text":"Kahit unggoy, nahuhulog sa puno"}
+{"id":"ko.z.saying.20","text":"Kayang bayaran ng mabuting salita ang malaking utang"}
+{"id":"ko.i01","text":"Nawa'y matupad ang lahat ng hiling mo"}
+{"id":"ko.i02","text":"Dalawang ibon sa isang bato"}
+{"id":"ko.i03","text":"Blessing in disguise: puwedeng maging suwerte ang malas"}
+{"id":"ko.i04","text":"Ginagawang suwerte ang kamalasan"}
+{"id":"ko.i05","text":"Pagkatapos ng pait, tamis"}
+{"id":"ko.i06","text":"Late bloomer ang malalaking talento"}
+{"id":"ko.i07","text":"Kapag handa ka, wala kang aalalahanin"}
+{"id":"ko.i08","text":"Pitong beses madapa, walong beses bumangon"}
+{"id":"ko.i09","text":"Ningas-kugon: pasyang tatlong araw lang ang tagal"}
+{"id":"ko.i10","text":"Nagkakaintindihan kahit walang salita"}
+{"id":"ko.i11","text":"Magkasama sa hirap at ginhawa"}
+{"id":"ko.i12","text":"Dagdag na suwerte sa suwerte"}
+{"id":"ko.i13","text":"Mas marami, mas mabuti"}
+{"id":"ko.i14","text":"Gumaganda araw-araw"}
+{"id":"ko.i15","text":"Kung ano ang itinanim, siya ang aanihin"}
+{"id":"ko.i16","text":"Kayang magpagalaw ng bundok ang tiyaga"}
+{"id":"ko.i17","text":"Tagumpay na pinaghirapan sa pag-aaral"}
+{"id":"ko.i18","text":"Natututo sa pagkakamali ng iba"}
+{"id":"ko.i19","text":"Ang sobra ay kasing-sama ng kulang"}
+{"id":"ko.i20","text":"Ilagay mo ang sarili mo sa lugar nila"}
+{"id":"ko.i21","text":"Itinadhana ng langit"}
+{"id":"ko.i22","text":"Tapat at buong-pusong pagmamahal"}
+{"id":"ko.i23","text":"Nag-aabang ng pagkakataon na parang tigre"}
+{"id":"ko.i24","text":"Kaibigan mula pagkabata"}
+{"id":"ko.i25","text":"Matuto ng bago sa pag-aaral ng luma"}
+{"id":"ko.i26","text":"Pinag-iisipang mabuti"}
+{"id":"ko.i27","text":"Ginagantimpalaan ang mabuti, pinaparusahan ang masama"}
+{"id":"ko.i28","text":"Pasok sa isang tainga, labas sa kabila"}
+{"id":"ko.i29","text":"Siyam sa bawat sampu"}
+{"id":"ko.i30","text":"Panalo sa bawat laban"}
+{"id":"ko.i31","text":"Tagumpay na sariling sikap"}
+{"id":"ko.i32","text":"Tapat sa unang layunin"}
+{"id":"ko.d.mydeck","text":"Lahat ng idinagdag mo mismo."}

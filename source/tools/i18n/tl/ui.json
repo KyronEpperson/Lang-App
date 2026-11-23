@@ -2925,7 +2925,7 @@
    "where": "js c()"
   },
   "Last one ·": {
-   "t": "Huli na ·",
+   "t": "Huling isa ·",
    "ko": "마지막 ·",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",

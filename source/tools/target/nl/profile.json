@@ -288,6 +288,61 @@
       "name": "Traps for English speakers",
       "group": "Watch out",
       "desc": "Calques, false friends, niet and geen."
+    },
+    {
+      "name": "Compliments",
+      "group": "Conversation",
+      "desc": "Kind things to say about food, work, skills and homes, and how the Dutch answer."
+    },
+    {
+      "name": "Flirting",
+      "group": "Conversation",
+      "desc": "Words people flirt with, phrases built from them, asking someone out, and kind ways to say no."
+    },
+    {
+      "name": "Top nouns",
+      "group": "Core words",
+      "desc": "The most-used nouns, with de or het."
+    },
+    {
+      "name": "Top verbs",
+      "group": "Core words",
+      "desc": "The most-used verbs, with the ik form."
+    },
+    {
+      "name": "Top adjectives",
+      "group": "Core words",
+      "desc": "The most-used describing words, with the -e form."
+    },
+    {
+      "name": "Top adverbs",
+      "group": "Core words",
+      "desc": "Time, place, manner and degree: already, here, often, very."
+    },
+    {
+      "name": "Top pronouns",
+      "group": "Core words",
+      "desc": "I, you, mine, this, someone: the whole useful set."
+    },
+    {
+      "name": "Top prepositions",
+      "group": "Core words",
+      "desc": "In, on, with, for, from, between and the rest."
+    },
+    {
+      "name": "Top conjunctions",
+      "group": "Core words",
+      "desc": "Joining words: if, so, when, since, even though."
+    },
+    {
+      "name": "Top interjections",
+      "group": "Core words",
+      "desc": "What people really exclaim: wow, ouch, oops, hey."
+    },
+    {
+      "name": "Top words",
+      "group": "Core words",
+      "desc": "Articles, question words, numbers, quantities and seasons."
     }
   ],
   "titles": [

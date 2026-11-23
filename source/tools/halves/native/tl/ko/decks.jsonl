@@ -1,0 +1,43 @@
+{"id":"ko.d.hangul-vowels","label":"Mga vowel (Hangul)","desc":"Ang 10 batayang vowel: kapag nabasa mo ang mga ito, mababasa mo ang kahit anong salita. Sa romanization, isang vowel lang ang eo (bukas ang bibig pero hindi bilog ang labi, iba sa o ng Tagalog); ang eu ay u na patag ang labi, habang nakangiti; at iisa ang tunog ng ae at e, gaya ng e sa kape. Mas sarado at mas bilog ang o kaysa sa o natin, at huwag itong ipagpalit sa u."}
+{"id":"ko.d.hangul-consonants","label":"Mga consonant (Hangul)","desc":"Ang 14 na batayang consonant at kung paano sila nagbabago sa dulo ng syllable. Sa romanization, ang j ay parang dy sa dyip, hindi parang j sa Jose; ibuga ang hangin sa k, t, p, ch sa simula; laging binibigkas ang h; ang r sa pagitan ng dalawang vowel ay parang r natin, pero sa dulo ay l, hindi r."}
+{"id":"ko.d.hangul-advanced","label":"Abanteng Hangul","desc":"Mga tense consonant at aspirated consonant, pinagsamang vowel, dobleng final consonant. Sa romanization, hindi mahabang tunog ang kk, tt, pp, ss at jj: mariin ang lalamunan at walang hangin. Hindi glottal stop ang hyphen sa romanization."}
+{"id":"ko.d.pronunciation-tips","label":"Tips sa pagbigkas","desc":"Ang mga tuntunin ng tunog kung bakit iba ang totoong pagsasalita sa pagkakasulat. Sa Koreano, walang glottal stop at walang stress: pare-pareho ang diin ng lahat ng syllable."}
+{"id":"ko.d.survival-phrases","label":"Mga phrase na pangsurvival","desc":"Ang 12 linyang magpapalusot sa iyo sa isang araw sa Korea."}
+{"id":"ko.d.introductions","label":"Pagpapakilala","desc":"Pangalan, pinanggalingan, edad, trabaho, hilig: ang script sa unang pagkikita."}
+{"id":"ko.d.survival-phrases-2","label":"Mga phrase na pangsurvival 2","desc":"Paghingi ng tulong, pagpapaulit, pagbabayad, at paghahanap ng daan kapag naligaw."}
+{"id":"ko.d.asking-around","label":"Pagtatanong-tanong","desc":"CR, exit, upuan, wifi, oras ng pagbubukas: lahat ng tanong na \"nasaan ang…?\"."}
+{"id":"ko.d.cafe-convenience-store","label":"Café at convenience store","desc":"Laki, mainit o iced, points card, pag-iinit ng pagkain, supot."}
+{"id":"ko.d.numbers-in-the-wild","label":"Numero sa totoong buhay","desc":"Presyo, numero ng telepono, palapag at oras, gaya ng pagkakasulat sa totoong buhay."}
+{"id":"ko.d.counters","label":"Mga counter","desc":"Paano magbilang ng bagay, tao, tasa, bote at hayop. Parang dalawang tasa, isang piraso sa Tagalog, pero nasa likod ng noun."}
+{"id":"ko.d.weather-feelings","label":"Panahon at damdamin","desc":"Usapang panahon at kung ano ang nararamdaman mo: ang dalawang pinakakaraniwang simula ng kuwentuhan."}
+{"id":"ko.d.connectors","label":"Mga connector","desc":"At, kaya, pero, tapos: pandugtong sa pagkukuwento."}
+{"id":"ko.d.doctor-pharmacy","label":"Doktor at botika","desc":"Sintomas, gamot, allergy, reseta."}
+{"id":"ko.d.housing-errands","label":"Tirahan at mga lakad","desc":"Upa, deposito, parcel, paghihiwalay ng basura, labada."}
+{"id":"ko.d.honorifics","label":"Mga honorific","desc":"Paggalang sa subject: 드시다, 주무시다, 계시다 at -(으)시-."}
+{"id":"ko.d.places-buildings","label":"Mga lugar at gusali","desc":"Café, gym, library, museo, bahay: ang mga lugar na sinasabi mong pupuntahan mo."}
+{"id":"ko.d.hobbies","label":"Mga hilig","desc":"Sagutin ang 취미가 뭐예요? gamit ang totoong mga salita."}
+{"id":"ko.d.food-words","label":"Mga salita sa pagkain","desc":"Ang mga putahe at sangkap na nasa bawat menu."}
+{"id":"ko.d.drinks","label":"Mga inumin","desc":"Kape, tsaa, soju, beer, at kung paano umorder ng isa pa."}
+{"id":"ko.d.activities","label":"Mga gawain","desc":"Mga verb na pang-araw-araw na \"ginagawa ko ang X\", sa polite na anyo."}
+{"id":"ko.d.tv-entertainment","label":"TV at libangan","desc":"Drama, variety show, genre, episode, binge-watching."}
+{"id":"ko.d.position-direction-words","label":"Posisyon at direksyon","desc":"Itaas, tabi, tapat, exit at palapag: kung saan ilalagay ang bagay at saan ito hahanapin."}
+{"id":"ko.d.core-verbs","label":"Mga pangunahing verb","desc":"Ang 12 verb na gagamitin mo araw-araw, sa polite na anyo."}
+{"id":"ko.d.particles","label":"Mga particle","desc":"Ang maliliit na salitang dumidikit sa likod ng noun: topic, subject, object at lugar. Sa Tagalog, nauuna ang marker (sa bahay); sa Koreano, sumusunod ang particle."}
+{"id":"ko.d.numbers","label":"Mga numero","desc":"Native numbers at Sino-Korean numbers, at kailan gagamitin ang bawat isa. Parang numerong Tagalog at numerong Espanyol na gamit mo na."}
+{"id":"ko.d.sweet-talk","label":"Matatamis na salita","desc":"Cute, maganda, miss na kita: para sa taong malapit sa iyo."}
+{"id":"ko.d.cute-things-to-say","label":"Mga cute na banat","desc":"Mga papuri at malalambing na linyang tumatama sa puso."}
+{"id":"ko.d.flirting","label":"Pagpapacute","desc":"Paghingi ng number, pagyaya sa date, pagsasabi ng nararamdaman mo."}
+{"id":"ko.d.casual-texting","label":"Text sa barkada","desc":"Mga pinaikling salita sa KakaoTalk (parang Messenger ng Korea) at ang mga linyang talagang tine-text ng magkakaibigan."}
+{"id":"ko.d.hype-cool","label":"Hype at astig","desc":"Papuri, pampalakas-loob at slang para sa barkada."}
+{"id":"ko.d.hanging-out","label":"Gala at tambay","desc":"Pagyaya, pagplano kung saan at kailan, at pagtatapos ng lakad."}
+{"id":"ko.d.k-pop-fan-culture","label":"K-pop at fan culture","desc":"Mga salita ng fandom mula 최애 hanggang 떼창."}
+{"id":"ko.d.social-media-slang","label":"Social media at slang","desc":"Instagram, meme, at ang slang na uso ngayon."}
+{"id":"ko.d.dating-deeper","label":"Mas seryosong relasyon","desc":"Paglilinaw kung ano kayo, totoong papuri, paghingi ng tawad, pagpapanatag ng loob."}
+{"id":"ko.d.work-office","label":"Trabaho at opisina","desc":"Meeting, deadline, pagtatanong sa katrabaho, pag-uwi sa oras, 회식."}
+{"id":"ko.d.small-talk","label":"Kuwentuhan","desc":"Kumustahan, panahon, plano sa weekend, at maayos na pagpapaalam."}
+{"id":"ko.d.food-ordering","label":"Pagkain at pag-order","desc":"Pag-order, mga counter para sa pagkain, at ang dalawang phrase sa pagkain."}
+{"id":"ko.d.directions-transport","label":"Direksyon at sasakyan","desc":"Kaliwa, kanan, diretso; mga linya sa subway, bus at taxi."}
+{"id":"ko.d.time-days","label":"Oras at mga araw","desc":"Ngayon, bukas, mga araw ng linggo, anong oras na."}
+{"id":"ko.d.family-people","label":"Pamilya at mga tao","desc":"Nanay, tatay, kapatid, kaibigan, guro, at kung paano binabago ng edad ang salita."}
+{"id":"ko.d.adjectives","label":"Mga salitang naglalarawan","desc":"Mabuti, masama, malaki, maliit, mainit, malamig, busy, masaya. Sa Koreano, describing verb ang mga ito."}
+{"id":"ko.d.k-drama-phrases","label":"Mga linya sa K-drama","desc":"Mga reaksyon at linyang maririnig mo sa bawat episode."}

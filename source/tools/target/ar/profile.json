@@ -288,6 +288,61 @@
    "name": "Traps for English speakers",
    "group": "Watch out",
    "desc": "Calques, false friends and courtesy traps."
+  },
+  {
+   "name": "Compliments",
+   "group": "Watch out",
+   "desc": "Everyday praise: food and the cook, work and effort, someone's home, the learner's Arabic, and how people answer (with the blessing phrases)."
+  },
+  {
+   "name": "Flirting",
+   "group": "Watch out",
+   "desc": "Words people flirt with, the phrases built from them, then moves and replies, including kind ways to say no. Mostly indirect, as in real life."
+  },
+  {
+   "name": "Top nouns",
+   "group": "Core words",
+   "desc": "The most-used nouns, with gender and the plural where it changes inside."
+  },
+  {
+   "name": "Top verbs",
+   "group": "Core words",
+   "desc": "The most-used verbs by their past \"he\" form, with the \"I\" form of the present."
+  },
+  {
+   "name": "Top adjectives",
+   "group": "Core words",
+   "desc": "The most-used adjectives, with the feminine form."
+  },
+  {
+   "name": "Top adverbs",
+   "group": "Core words",
+   "desc": "Time, place, manner and degree: very, only, also, maybe, soon."
+  },
+  {
+   "name": "Top pronouns",
+   "group": "Core words",
+   "desc": "I, you, he, she, the possessive endings, this and that, and some, every, nobody."
+  },
+  {
+   "name": "Top prepositions",
+   "group": "Core words",
+   "desc": "In, from, to, with, before, after, and the forms with endings: for me, with you, I have."
+  },
+  {
+   "name": "Top conjunctions",
+   "group": "Core words",
+   "desc": "And, or, but, because, if, when, that, so."
+  },
+  {
+   "name": "Top interjections",
+   "group": "Core words",
+   "desc": "What people really exclaim: oh, ouch, wow, congratulations, oh my God."
+  },
+  {
+   "name": "Top words",
+   "group": "Core words",
+   "desc": "Small words that fit no other class: no, will, did not, numbers to twenty, ordinals, days."
   }
  ],
  "titles": [

@@ -1,5 +1,6 @@
 {
  "native": "ceb",
- "name": "",
- "brand": "한글"
+ "name": "Koreano",
+ "brand": "한글",
+ "tuned": true
 }

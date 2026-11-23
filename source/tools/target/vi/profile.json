@@ -293,6 +293,71 @@
       "name": "Polite Vietnamese",
       "group": "Watch out",
       "desc": "ạ, dạ, vâng, nhé, xin, mời: the small words that make you sound polite"
+    },
+    {
+      "name": "Compliments",
+      "group": "Conversation",
+      "desc": "Praise food, work, homes and effort, and answer modestly the Vietnamese way"
+    },
+    {
+      "name": "Flirting",
+      "group": "Conversation",
+      "desc": "Pretty, handsome, charming: the words, the phrases built on them, and kind ways to say yes or no (anh / em forms)"
+    },
+    {
+      "name": "Top nouns",
+      "group": "Core words",
+      "desc": "The most-used nouns, bare as in a dictionary; to count one, add a classifier (Top classifiers)"
+    },
+    {
+      "name": "Top verbs",
+      "group": "Core words",
+      "desc": "The most-used verbs; Vietnamese verbs never change form"
+    },
+    {
+      "name": "Top adjectives",
+      "group": "Core words",
+      "desc": "The most-used describing words, which work like verbs: no là"
+    },
+    {
+      "name": "Top adverbs",
+      "group": "Core words",
+      "desc": "Time markers, degree and frequency: đã, đang, sẽ, cũng, rất, lắm, vẫn"
+    },
+    {
+      "name": "Top pronouns",
+      "group": "Core words",
+      "desc": "The kinship address system (anh, chị, em, bác, ông, mình…), with who says it to whom"
+    },
+    {
+      "name": "Top prepositions",
+      "group": "Core words",
+      "desc": "của, cho, trong, với, ở, từ, trên and the other place, time and means words"
+    },
+    {
+      "name": "Top conjunctions",
+      "group": "Core words",
+      "desc": "và, để, khi, thì, vì, nên, nếu: the words that join ideas"
+    },
+    {
+      "name": "Top interjections",
+      "group": "Core words",
+      "desc": "What people really exclaim: Ôi!, Trời ơi!, Thôi chết!, Hú hồn!"
+    },
+    {
+      "name": "Top words",
+      "group": "Core words",
+      "desc": "Question words, determiners, yes and no, numbers 11 to 20, days and times"
+    },
+    {
+      "name": "Top classifiers",
+      "group": "Core words",
+      "desc": "The counter words that go between a number and a noun: con, cái, chiếc, quả, bát…"
+    },
+    {
+      "name": "Top particles",
+      "group": "Core words",
+      "desc": "The little words at the end of a sentence: ạ, nhé, nhỉ, à, chứ, đấy, cơ"
     }
   ],
   "titles": [

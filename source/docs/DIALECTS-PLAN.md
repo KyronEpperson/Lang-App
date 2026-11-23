@@ -59,7 +59,7 @@ tools/dialects/esdo/
   "dropLessons": ["caribbean"],
   "dropDecks": ["Caribbean and Dominican Spanish"],
   "forbid": ["\\btacos?\\b", "tortilla", "quesadilla", "tamal", "taquer", "Canc[uú]n", "Puebla", "Monterrey", "Guadalajara", "Oaxaca",
-             "cami[oó]n", "jamaica", "Lupita", "[¡]?[OÓ]rale", "H[ií]jole", "[¡]Aguas", "\\bcuate\\b", "gripa"],
+             "\\bcami[oó]n\\b", "jamaica", "Lupita", "[¡]?[OÓ]rale", "H[ií]jole", "[¡]Aguas", "\\bcuate\\b", "gripa"],
   "forbidAllowIn": ["deck:Mexico or the DR? Word traps", "note"]
 }
 ```
@@ -139,7 +139,7 @@ Steps:
 2. Check the lesson and deck lists against the base (every base id is kept or dropped explicitly).
 3. Apply drops, then card overrides (re-keying DIALOG and EXAMPLES), extra overrides, lesson overrides. Every `was` and every `old` must match.
 4. Add the dialect-only decks, extras and lessons.
-5. **Regenerate every pron** (cards and `{{ex:}}` rows) with `tools/dialects/<code>/respell.js`, using the same logic as `tools/target/repron.js`. Prons are never inherited and never hand-written: the Dominican pron differs from the Mexican one in about half of all strings (every coda *s*), so inheriting them would be wrong.
+5. **Regenerate every pron** (cards and `{{ex:}}` rows) with `tools/dialects/<code>/respell.js`, using the same logic as `tools/target/repron.js`. Prons are never inherited and never hand-written: the Dominican pron differs from the Mexican one in **433 of the 1,088** distinct card and example strings (39.8%, *measured* with the reference generator in `en-esdo.md` §6.4), so inheriting them would be wrong. Respellings quoted inside lesson prose or notes (the base `sounds` body has 10) are not regenerated; the build warns on any pron-shaped string in prose so an override can fix it.
 6. Scan for `forbid` terms (§1.2).
 7. Write `tools/target/<code>/` as ordinary files (`profile.json`, `decks-*.js`, `extra-*.js`, `lessons-*.js`, `respell.js`), plus `BASE.json` recording the base files' SHA-1 hashes and the counts (cards inherited / overridden / added, items overridden).
 
@@ -177,7 +177,7 @@ Steps:
 **Engine items for the lead** (not done here; other agents own `src/app.html`):
 1. Add `esdo` to `LANGS` with `t:1` (as `ptpt`): `validCourse` rejects a course whose target is not in `LANGS`.
 2. `hLang`: `esdo` → `es-DO`.
-3. **A target flag separate from the interface-language flag.** `LANGS.es.flag` (🇪🇸 today) is also the flag of Spanish as the learner's own language in step 1, where a Mexican flag would be wrong for a speaker from Spain. Add an optional `tflag` (flag in "language to learn") to `LANGS` entries, used by the step-2 picker and the course button: `es` → 🇲🇽, `esdo` → 🇩🇴, `pt` → 🇧🇷, `ptpt` → 🇵🇹. Step 1 keeps one entry per language.
+3. **A target flag separate from the interface-language flag.** (The step-2 name already comes from the pack's `name.en`, so renaming `nameEn` is enough for the name; the flag comes from `FLG(c.target)`, i.e. `LANGS[target].flag`.) `LANGS.es.flag` (🇪🇸 today) is also the flag of Spanish as the learner's own language in step 1, where a Mexican flag would be wrong for a speaker from Spain. Add an optional `tflag` (flag in "language to learn") to `LANGS` entries, used by the step-2 picker and the course button: `es` → 🇲🇽, `esdo` → 🇩🇴, `pt` → 🇧🇷, `ptpt` → 🇵🇹. Step 1 keeps one entry per language.
 4. The picker should show sister dialect courses next to each other (sort by base language, then by `nameEn`).
 5. `audio/esdo/f/` and `audio/esdo/m/`: clips are fetched from `audio/<target>/`, so the Dominican course gets its own recordings and never plays the Mexican ones.
 6. `tools/audio/voices.json`: an `esdo` entry (Azure and ElevenLabs).
@@ -192,6 +192,7 @@ Steps:
 
 - **Renaming / relabelling `es`:** no effect on saved progress (above).
 - **Splitting:** existing `en-es` learners stay in `en-es`; nothing moves. A learner who wanted Dominican Spanish opens `en-esdo` as a new course.
+- **The Mexico course's `caribbean` lesson and Caribbean deck: recommendation, keep them for now** (decision for Kii). Removing them would not corrupt saved progress (lessons are keyed by id, cards by `deck|target`; orphaned keys are simply ignored), but learners who studied them would lose those cards from review. Add one line to the lesson and the deck description pointing to Spanish (Dominican), and review the question once `en-esdo` is live.
 - **Should progress carry between dialect courses? Recommendation: a one-time, opt-in import; no live sync.**
   - Card progress is keyed `deck|target`. Because the layer keeps deck names and 92% of targets, `S.cards` entries from `la-s-en-es` can be copied to `la-s-en-esdo` where the same key exists in the new course; lesson completion copies for inherited lesson ids (25 of 31 in `en-esdo`).
   - Offer it once, when `en-esdo` is opened for the first time and `la-s-en-es` exists: "You know 240 cards and 11 lessons from Spanish (Mexico). Start Spanish (Dominican) with them?" Yes copies; no starts fresh.
@@ -204,7 +205,7 @@ Size = share of the base course's rows (cards, example rows, practice items) the
 
 | Language (live variety today) | Candidate | Kind | Why | Layer size |
 |---|---|---|---|---|
-| Spanish (`es`, Mexico-leaning, `es-MX`) | **Dominican (`esdo`)** | layer | Owner's variety; 2nd-largest Caribbean group in the US; same grammar core, different sounds and daily words | *measured*: 22 card targets + 35 notes changed, 98 cards added, 17 dropped; 20 of 25 lessons touched (mostly city and food names), 6 new lessons; all prons regenerated |
+| Spanish (`es`, Mexico-leaning, `es-MX`) | **Dominican (`esdo`)** | layer | Owner's variety; a large US community (see `en-es.md` §5); same grammar core, different sounds and daily words | *measured*: 22 card targets + 35 notes changed, 98 cards added, 17 dropped; 20 of 25 lessons touched (mostly city and food names), 6 new lessons; all prons regenerated |
 | | Spain (`eses`) | layer, large | *vosotros* in every conjugation table and drill, *distinción* (θ) in the pron generator, perfect for today's events, vocabulary (*coche, móvil, zumo*) | ~35–45% of practice items; new respell rule set |
 | | Rioplatense (`esar`) | layer, large | *vos* forms in every tú drill, *sh* for ll/y in the pron, vocabulary | ~30–40% |
 | | Colombian (`esco`) | layer, small; later | *usted* even with friends in Bogotá, vocabulary; little demand evidence | ~10% |

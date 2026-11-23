@@ -269,6 +269,61 @@
       "name": "Café and menu Italian",
       "group": "Watch out",
       "desc": "Menu words Americans already say differently, and ordering politely"
+    },
+    {
+      "name": "Compliments",
+      "group": "Conversation",
+      "desc": "Praising food, work, skills, homes and effort, and how Italians answer a compliment"
+    },
+    {
+      "name": "Flirting",
+      "group": "Conversation",
+      "desc": "Words people flirt with, the phrases built on them, asking someone out, and kind ways to say yes or no"
+    },
+    {
+      "name": "Top nouns",
+      "group": "Core words",
+      "desc": "The most-used nouns, with il, la, lo or l'"
+    },
+    {
+      "name": "Top verbs",
+      "group": "Core words",
+      "desc": "The most-used verbs, with the io form and irregulars flagged"
+    },
+    {
+      "name": "Top adjectives",
+      "group": "Core words",
+      "desc": "The most-used adjectives, with the feminine form"
+    },
+    {
+      "name": "Top adverbs",
+      "group": "Core words",
+      "desc": "When, where, how and how much: già, sempre, qui, molto"
+    },
+    {
+      "name": "Top pronouns",
+      "group": "Core words",
+      "desc": "Subject, object, possessive, demonstrative, question and indefinite pronouns"
+    },
+    {
+      "name": "Top prepositions",
+      "group": "Core words",
+      "desc": "di, a, da, in, con, per and the rest, with the contracted forms"
+    },
+    {
+      "name": "Top conjunctions",
+      "group": "Core words",
+      "desc": "The small words that join ideas: che, se, però, quindi, mentre"
+    },
+    {
+      "name": "Top interjections",
+      "group": "Core words",
+      "desc": "What Italians really exclaim: boh, dai, magari, mamma mia"
+    },
+    {
+      "name": "Top words",
+      "group": "Core words",
+      "desc": "Articles, yes and no, question words, numbers to twenty, days and months"
     }
   ],
   "titles": [

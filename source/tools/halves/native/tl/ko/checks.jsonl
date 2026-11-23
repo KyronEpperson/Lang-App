@@ -1,0 +1,99 @@
+{"id":"compare.k1","q":"'Mas mura ang bus kaysa sa taxi' =","why":"Nasa bagay na pinaghahambingan ang 보다."}
+{"id":"compare.k2","q":"'Ito ang pinakamasarap' =","why":"제일 = pinaka-."}
+{"id":"compare.k3","q":"'Pahingi pa' =","why":"더 = mas, pa."}
+{"id":"noun-modifiers.k1","q":"'malaking bag' =","why":"Vowel stem + ㄴ, sa harap ng noun."}
+{"id":"noun-modifiers.k2","q":"'masarap na pagkain' =","why":"May 는 ang mga salitang may 있다."}
+{"id":"noun-modifiers.k3","q":"'maanghang na pagkain' =","why":"ㅂ stem: 맵다 → 매운."}
+{"id":"joining.k1","q":"'Mahal pero masarap' =","why":"-지만 = pero."}
+{"id":"joining.k2","q":"'Busy ako, kaya hindi ako pumunta' =","why":"Hindi kailanman nagiging past ang -아/어서."}
+{"id":"joining.k3","q":"'Mura at masarap' =","why":"Stem + 고 = at."}
+{"id":"have-to.k1","q":"'Kailangan (kong) umalis' =","why":"가요 → 가 + 야 해요."}
+{"id":"have-to.k2","q":"먹다 → 'kailangang kumain' =","why":"먹어요 → 먹어 + 야 해요."}
+{"id":"have-to.k3","q":"'Hindi (mo) kailangang pumunta' =","why":"안 … 도 돼요 = okay lang kahit hindi."}
+{"id":"want-like.k1","q":"'Gusto (kong) pumunta' =","why":"Stem + 고 싶어요."}
+{"id":"want-like.k2","q":"'Mahilig (ako) sa kape' =","why":"Action verb ang 좋아해요 → 을/를."}
+{"id":"want-like.k3","q":"'Ano ang gusto mong kainin?' =","why":"먹 + 고 싶어요."}
+{"id":"pronouns-questions.k1","q":"'Ano ito?' =","why":"뭐 = ano; nasa puwesto ito ng sagot, hindi sa simula."}
+{"id":"pronouns-questions.k2","q":"'Nasaan ang CR?' =","why":"어디 = saan; 에 있어요 = nasa."}
+{"id":"pronouns-questions.k3","q":"'Sino ang nandiyan?' =","why":"누구 + 가 → 누가."}
+{"id":"sound-changes.k1","q":"Ang tunog ng 감사합니다 ay:","o":[null,"감사합니다, eksakto gaya ng baybay",null,null],"why":"Nagiging ㅁ ang ㅂ bago ang ㄴ."}
+{"id":"sound-changes.k2","q":"Ang tunog ng 한국어 ay:","o":[null,"한국 어, may hinto (glottal stop)",null,null],"why":"Lumilipat ang final na ㄱ sa bakanteng upuan ng ㅇ."}
+{"id":"sound-changes.k3","q":"Ang tunog ng 좋아요 ay:","why":"Nawawala ang tunog ng ㅎ sa pagitan ng dalawang vowel."}
+{"id":"future.k1","q":"먹다 sa future =","why":"Consonant stem + 을 거예요."}
+{"id":"future.k2","q":"'Ano ang gagawin mo sa weekend?' =","why":"하 + ㄹ 거예요 → 할 거예요."}
+{"id":"future.k3","q":"'Hindi (ako) pupunta' (hinaharap) =","why":"Nasa harap ng verb ang 안."}
+{"id":"past.k1","q":"가다 sa past =","why":"가요 → alisin ang 요 → 갔어요."}
+{"id":"past.k2","q":"'Estudyante (ako) noon' =","why":"Nagtatapos sa consonant → 이었어요."}
+{"id":"past.k3","q":"'Ano ang ginawa mo kahapon?' =","why":"해요 → 했어요; nauuna ang time word."}
+{"id":"verbs.k1","q":"먹다 sa polite na present =","why":"Ang huling vowel ay ㅓ (hindi ㅏ/ㅗ) → 어요."}
+{"id":"verbs.k2","q":"보다 sa polite na present =","why":"ㅗ stem + 아요; nagsasama ang 보 + 아 at nagiging 봐."}
+{"id":"verbs.k3","q":"'Uuwi ka na ba?' =","why":"Parehong 요-form; tumataas lang ang tono. Walang \"ba\" sa Koreano."}
+{"id":"nouns.k1","q":"'Estudyante ako' =","why":"Nagtatapos sa vowel ang 저 → 는; nagtatapos sa consonant ang 학생 → 이에요."}
+{"id":"nouns.k2","q":"'Iyong gusali roon' =","why":"이 = ito, 그 = iyan (malapit sa iyo), 저 = iyon (malayo sa ating dalawa)."}
+{"id":"nouns.k3","q":"'Minsu ang pangalan ko' =","why":"Nagtatapos sa consonant ang 이름 → 은; nagtatapos sa vowel ang 민수 → 예요."}
+{"id":"isseoyo.k1","q":"'Nasa bahay ako' =","why":"Nasa isang lugar → lugar + 에 + 있어요."}
+{"id":"isseoyo.k2","q":"'May pusa ako' =","why":"Ang \"may pusa ako\" = \"may pusa\": 이/가 + 있어요."}
+{"id":"isseoyo.k3","q":"'Wala akong oras' =","why":"없어요 = wala; nagtatapos sa consonant ang 시간 → 이."}
+{"id":"sov.k1","q":"Ang word order ng Koreano ay:","o":["Subject · Object · Verb","Subject · Verb · Object","Verb · Subject · Object","Object · Verb · Subject"],"why":"Laging ang verb ang nagsasara ng sentence."}
+{"id":"sov.k2","q":"'Nag-aaral ako ng Koreano' =","why":"Nagtatapos sa vowel ang 한국어 → 를; verb sa dulo."}
+{"id":"sov.k3","q":"'Malaki ang bag' =","why":"Ang describing verb ay may 이/가, hindi 을/를."}
+{"id":"particles.k1","q":"'Uuwi ako' =","why":"Pupuntahan kasama ng 가요 → 에."}
+{"id":"particles.k2","q":"'Nag-aaral ako sa café' =","why":"Lugar kung saan may ginagawa → 에서."}
+{"id":"particles.k3","q":"'Nasa bahay ang pusa' =","why":"에 ang kasama ng 있어요, hindi 에서."}
+{"id":"negation.k1","q":"'Hindi ako nag-aaral' =","why":"Sa noun + 하다, nasa harap ng 해요 ang 안."}
+{"id":"negation.k2","q":"'Hindi ako estudyante' =","why":"Ginagawang negative ang noun sa 이/가 아니에요."}
+{"id":"negation.k3","q":"'Wala akong oras' =","why":"Ang negative ng 있어요 ay 없어요, gaya ng wala."}
+{"id":"do-man.k1","q":"'Ako rin' =","why":"Pinapalitan ng 도 ang 은/는 — hindi ito ipinapatong."}
+{"id":"do-man.k2","q":"'Pahingi ng tubig lang' =","why":"만 = lang; pinapalitan nito ang 을/를."}
+{"id":"do-man.k3","q":"'Nag-aaral din ako sa paaralan' =","why":"Nananatili ang 에서; sumusunod ang 도."}
+{"id":"cant.k1","q":"'Hindi ako makakapunta ngayon' (may pumipigil sa akin) =","why":"못 = hindi kaya; 안 = pinipiling hindi."}
+{"id":"cant.k2","q":"'Kaya kong kumain ng kimchi' =","why":"Consonant stem + 을 수 있어요 = kaya."}
+{"id":"cant.k3","q":"Tinanong ka ng bagay na hindi ka sigurado. Ang malambot na sagot:","why":"Mas malambot na 'hindi ako sigurado' ang 모르겠어요."}
+{"id":"verbbasics.k1","q":"Stem ng 먹다 =","why":"Alisin ang 다 para makuha ang stem."}
+{"id":"verbbasics.k2","q":"'Maganda ang panahon' =","why":"Buo na ang 좋아요, gaya ng \"maganda\": walang dagdag na \"ay\"."}
+{"id":"verbbasics.k3","q":"'May oras ako' =","why":"있어요 = may / mayroon."}
+{"id":"sentences.k1","q":"'Umiinom ako ng kape sa café' =","why":"Lugar ng ginagawa → 에서; verb sa dulo."}
+{"id":"sentences.k2","q":"'Masarap ang kape' =","why":"Ang describing verb ay may 이/가, hindi 을/를."}
+{"id":"sentences.k3","q":"Ang karaniwang ayos?","o":["sino · kailan · saan · ano · verb","verb · ano · saan · sino","sino · verb · ano · saan","ano · sino · verb · kailan"],"why":"Nakapila ang lahat sa harap ng verb."}
+{"id":"office.k1","q":"Paalis ka na; nagtatrabaho pa ang katrabaho mong kapantay. Sasabihin mo:","why":"수고하세요 = 'laban lang sa trabaho', para sa mga maiiwan pa."}
+{"id":"office.k2","q":"Pagtawag sa manager na si 김민수:","why":"Title + 님, hindi ang pangalan."}
+{"id":"office.k3","q":"Magalang na pagtanggi sa inumin sa 회식:","why":"Magbigay ng dahilan; 운전 ang dahilang tanggap ng lahat."}
+{"id":"honorific.k1","q":"'Enjoy po sa pagkain', sa isang customer:","why":"Pinapalitan ng 드시다 ang 먹다 sa honorific na pananalita."}
+{"id":"honorific.k2","q":"Honorific ng 자다 (matulog):","why":"안녕히 주무세요."}
+{"id":"honorific.k3","q":"Alin ang mali?","why":"Huwag kailanman gamitin ang 시 tungkol sa sarili mo."}
+{"id":"requests.k1","q":"Ang pinakamagalang na pakiusap na kunan ka ng litrato:","why":"좀 + 주시겠어요 = pinakamataas na galang."}
+{"id":"requests.k2","q":"'Baka sakali' =","why":"Binubuksan ng 혹시 ang isang magalang na tanong."}
+{"id":"requests.k3","q":"'Puwede ba akong umupo rito?' =","why":"-아/어도 돼요 = puwede ba ako."}
+{"id":"story.k1","q":"'Kaya gabi na ako nakauwi' =","why":"그래서 = kaya / dahil dito."}
+{"id":"story.k2","q":"Aling connector ang nagdadagdag ng pagsalungat?","why":"그런데 / 하지만 = pero."}
+{"id":"story.k3","q":"Saan karaniwang inilalagay ang 어제 (kahapon)?","o":["sa simula","pagkatapos ng verb","pagkatapos ng object","ending ito ng verb"],"why":"Nauuna ang time word para itakda ang eksena."}
+{"id":"counters.k1","q":"'Dalawang kape nga' =","why":"둘 → 두 bago ang counter; 잔 ang counter ng inumin."}
+{"id":"counters.k2","q":"Magalang na pagbilang ng tao:","why":"분 ang honorific na counter ng tao; neutral ang 명."}
+{"id":"counters.k3","q":"Saan inilalagay ang number + counter?","o":["pagkatapos ng noun: 맥주 두 병","bago ang noun: 두 병 맥주","pagkatapos ng verb","kahit saan"],"why":"Noun → number → counter."}
+{"id":"titles.k1","q":"Kaedad mong katrabaho si Minsu. Ang ligtas na tawag sa kanya:","why":"Pangalan + 씨 ang default na magalang na tawag sa mga kapantay."}
+{"id":"titles.k2","q":"Lalaki ka; babae siya at dalawang taon siyang mas matanda sa iyo. Ang tawag mo sa kanya:","why":"Lalaki ang nagsasalita → mas matandang babae = 누나. Iba ito sa Ate, na pareho kahit sino ang nagsasalita."}
+{"id":"titles.k3","q":"Pagtawag sa may-ari ng café:","why":"사장님 = boss/may-ari, magalang at karaniwan."}
+{"id":"plans.k1","q":"'Magkape kaya tayo?' (malambot na mungkahi)","why":"ㄹ까요 = '…kaya tayo?'"}
+{"id":"plans.k2","q":"'Kain tayo!' (casual, desidido na)","why":"자 = '…tayo!'"}
+{"id":"plans.k3","q":"Karaniwang kinukumpirma ng mga Koreano ang tagpuan gamit ang:","o":["istasyon + numero ng exit","address ng kalye","GPS coordinates","litrato ng isang landmark"],"why":"Halimbawa: 강남역 11번 출구."}
+{"id":"texting.k1","q":"Ang ibig sabihin ng ㅋㅋㅋ:","o":["haha","sorry","hindi","bye"],"why":"ㅋ = ang k ng tawang 크크."}
+{"id":"texting.k2","q":"Casual na 'oo' sa text:","why":"ㅇㅇ = 응응."}
+{"id":"texting.k3","q":"Nagte-text ka sa mas matanda mong katrabaho. Dapat:","o":["manatili ang 요 at gumamit ng 네/넵","gumamit ng ㅇㅇ","tanggalin ang lahat ng particle at ang 요","ㅋㅋ lang ang ipadala"],"why":"Pang-kaibigan ang shorthand; nananatili ang paggalang sa mga senior."}
+{"id":"hangul.k1","q":"Aling pahigang vowel ang tunog na 'u': bilog ang labi, halos sarado ang bibig?","why":"ㅜ: pahigang linya, may guhit pababa = u."}
+{"id":"hangul.k2","q":"Ano ang tunog ng ㅇ sa SIMULA ng block?","o":["Walang tunog","ng","h","g"],"why":"Placeholder lang ang ㅇ sa simula; sa dulo, ng ang ㅇ."}
+{"id":"hangul.k3","q":"Aling block ang 'han'?","why":"ㅎ + ㅏ + ㄴ (sa dulo) = 한."}
+{"id":"polite.k1","q":"Umoorder ka sa café. Aling anyo?","why":"Ang 요-form ang default sa hindi kakilala at sa staff."}
+{"id":"polite.k2","q":"Kapag inalis mo ang 요, nagiging…","o":["casual (반말)","mas magalang","formal","tanong"],"why":"반말 = casual na pananalita para sa close friends at sa mas bata sa iyo."}
+{"id":"polite.k3","q":"Anong politeness level ang 감사합니다?","o":["formal","casual","polite na 요-form","slang"],"why":"-습니다 / -ㅂ니다 ang formal na level."}
+{"id":"meet.k1","q":"'Ako si Lisa': sa Hangul 리사, at nagtatapos sa vowel ang huling block na 사, kaya:","why":"Tingnan ang huling block sa Hangul: walang final consonant → 예요; may final consonant → 이에요."}
+{"id":"meet.k2","q":"May aalis at ikaw ang maiiwan. Sasabihin mo:","why":"가세요 = para sa taong aalis ('ingat')."}
+{"id":"meet.k3","q":"'Taga-saan ka?'","why":"에서 왔어요 = galing sa."}
+{"id":"numbers.k1","q":"Aling sistema ng numero para sa pera?","o":["Sino-Korean (일, 이, 삼)","Native (하나, 둘, 셋)","Kahit alin","Wala sa dalawa"],"why":"Pera, petsa, minuto, numero ng telepono → Sino-Korean."}
+{"id":"numbers.k2","q":"'Alas-tres' =","why":"Native ang oras, kahit Espanyol ang \"tres\"; nagiging 세 ang 셋 bago ang counter."}
+{"id":"numbers.k3","q":"50,000 won =","why":"Sa 만 (10,000) nagpapangkat ang Koreano: 5 × 만 = 오만."}
+{"id":"food.k1","q":"Para tawagin ang waiter, sinasabi mo:","why":"저기요 = excuse me (literal: 'doon'). Bastos ang 야 sa staff."}
+{"id":"food.k2","q":"'Dalawang gimbap nga' =","why":"Native number ang 둘 → nagiging 두 bago ang counter na 개 (mga bagay)."}
+{"id":"food.k3","q":"Sinasabi PAGKATAPOS kumain:","why":"먹었 = past (kumain ako nang mabuti). 먹겠 = future (kakain ako nang mabuti)."}
+{"id":"getting-around.k1","q":"'Dumiretso ka lang' =","why":"똑바로 = diretso."}
+{"id":"getting-around.k2","q":"Sa taxi, 'pakihatid sa Myeongdong' =","why":"lugar + 으로 가 주세요."}
+{"id":"getting-around.k3","q":"Ang tawag sa transit card:","why":"Gumagana ang T-money sa subway, bus at karamihan ng taxi."}

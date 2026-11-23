@@ -10,28 +10,28 @@ Course `ja-ko` is Korean for speakers of Japanese. It is assembled from the fixe
 
 Untagged rules in §3 and §6 to §9 are design decisions, not findings.
 
-**How much is known.** Compared with the Cebuano pair, this pair is well studied. Japanese is one of the five L1 groups in a large automatic-transcription study of L2 Korean speech (170 Japanese speakers; arXiv 2023). Acoustic, perception and honorific studies of Japanese learners were also opened (Jo, Kim & Kim 2008; Nam 2002; Yutani 1991). The sound correspondences of Sino-Korean and Japanese on'yomi are described in Kim (2010). The weak spots are grammar error data: no opened study gives counts for Japanese learners' particle or aspect errors. One study names particles, aspect and connective endings as the areas of visible L1 interference in Japanese learners' Korean compositions, but only its opening section was readable and it gives no examples or counts (Takagi & Yun, n.d.). The grammar traps in §5 are therefore mostly contrastive reasoning, marked [inference].
+**How much is known.** Compared with the Cebuano pair, this pair is well studied. Japanese is one of the five L1 groups in a large automatic-transcription study of L2 Korean speech (170 Japanese speakers; arXiv 2023). Acoustic and perception studies with Japanese samples were also opened (Jo, Kim & Kim 2008; Nam 2002), as was an essay on honorific errors by a Japanese professor of Korean (Yutani 1991). The sound correspondences of Sino-Korean and Japanese on'yomi are described in Kim (2010). The weak spots are grammar error data: no opened study gives counts for Japanese learners' particle or aspect errors. One study names particles, aspect and connective endings as the areas of visible L1 interference in Japanese learners' Korean compositions, but only its opening section was readable and it gives no examples or counts (Takagi & Yun, n.d.). The grammar traps in §5 are therefore mostly contrastive reasoning, marked [inference].
 
 ## 1. Summary
 
 1. **Explanations:** standard Japanese in **です・ます体**, at the level of a friendly NHK or university textbook. Instructions end in 〜しましょう. Never あなた. Errors are marked **✕ → ○** (the Japanese convention, as `docs/profiles/ja.md` §2). House style for spacing and punctuation is reused from `ja.md` §2 (§3.1).
 2. **House term for the language: 韓国語.** The script is **ハングル**, and only the script. 朝鮮語 appears once, in the `hangul` lesson, as the academic name (§2.3).
-3. **Grammar terms:** Japanese school grammar terms plus the standard terms of Korean teaching in Japan. Use **助詞, 語幹, 語尾, 用言 (動詞・形容詞・存在詞・指定詞), 体言, パッチム, 陽母音・陰母音, 해요体・합니다体・パンマル, 尊敬, 変則, 連音化, 鼻音化, 激音化, 濃音化, 流音化, 平音・激音・濃音, 固有語数詞・漢字語数詞, 助数詞, 漢字語**. They come from a closed list (§3.4). 語基 is not used.
+3. **Grammar terms:** Japanese school grammar terms plus the standard terms of Korean teaching in Japan. Use **助詞, 語幹, 語尾, 用言 (動詞・形容詞・存在詞・指定詞), 体言, パッチム, 陽母音・陰母音, ヘヨ体・ハムニダ体・パンマル (all in kana, §3.4), 尊敬, 変則, 連音化, 鼻音化, 激音化, 濃音化, 流音化, 平音・激音・濃音, 固有語数詞・漢字語数詞, 助数詞, 漢字語**. They come from a closed list (§3.4). 語基 is not used.
 4. **The big asset (§4):** Japanese grammar maps onto Korean almost line for line. SOV order, postpositions, は/が ↔ 은/는・이/가, を ↔ 을/를, も ↔ 도 (with the same stacking rule: にも / でも ↔ 에도 / 에서도), だけ ↔ 만, より ↔ 보다, 〜たい ↔ -고 싶다, 〜てもいい ↔ -아/어도 되다, 〜ことができる ↔ -(으)ㄹ 수 있다. Relative clauses come before the noun with no relative pronoun, and subjects are dropped. 助数詞, the 万 grouping, あなた-avoidance, うちの ↔ 우리, and 尊敬語 ↔ 드시다 / 계시다 / 성함 also carry over. There are also **thousands of 漢字語 cognates with regular sound correspondences**: §4.12 gives 20 rules and 60 cognates that appear in this course.
-5. **Consequence for writing:** about half of the 33 lessons can be **much shorter** than the English. The prose shrinks, but every Hangul run and every ✕/○ example stays, because of the set-equality rule (§3.6, §7). Five lessons need **more** than the English: `hangul`, `sound-changes`, `honorific`, `titles` and `office`. The extra material is sounds, 絶対敬語, and 씨 ≠ さん.
+5. **Consequence for writing:** 8 of the 33 lessons can be **much shorter** than the English and 16 more somewhat shorter (§7). The prose shrinks, but every Hangul run and every ✕/○ example stays, because of the set-equality rule (§3.6, §7). Five lessons need **more** than the English: `hangul`, `sound-changes`, `honorific`, `titles` and `office`. The extra material is sounds, 絶対敬語, and 씨 ≠ さん.
 6. **The strongest traps, ranked (§5):**
    1. Plain vs aspirated vs tense consonants (research-backed: aspirated → tense substitution).
    2. Patchim: ㅇ said as ㄴ, ん with three targets, vowels added after finals (research-backed).
    3. ㅓ → ㅗ and ㅜ → ㅡ, and diphthongs flattened (research-backed).
    4. Verbs whose particle differs from Japanese: に乗る → 을/를 타다, に会う → 을/를 만나다, が好き → 을/를 좋아하다, になる → 이/가 되다.
-   5. 絶対敬語: Korean honours one's own father or boss even when talking to outsiders (research-backed: Yutani 1991).
+   5. 絶対敬語: Korean honours one's own father or boss even when talking to outsiders (practitioner opinion: Yutani 1991).
    6. 〜ている ↔ -고 있다 / -아/어 있다 / past tense.
    7. 漢字語 false friends.
    8. Over-use of 의 for の.
    9. Native numbers for hours, age and most counters, where Japanese uses 漢語 numbers.
-7. **Romanization:** keep the Revised Romanization the Korean half prints (the format is fixed). No katakana ruby, because a native field cannot add a reading line. Teach the sounds in prose with kana comparisons, and give explicit warnings wherever kana fails. §6 gives the full reading guide in Japanese, ready for `hangul` and `sound-changes` (waivers needed).
+7. **Romanization:** keep the Revised Romanization the Korean half prints (the format is fixed). No katakana ruby, because a native field cannot add a reading line. Teach the sounds in prose with kana comparisons, and give explicit warnings wherever kana fails. §6 gives the full reading guide in Japanese, ready for `hangul` (waiver needed) and `sound-changes` (written to need no waiver).
 8. **Format lever:** the Hangul check counts only Hangul (`tools/halves/lib.js` `HANGUL_RX`). **Kanji and kana may be added freely**, so writers can gloss every 漢字語 with its kanji (가족（家族）) in notes, glosses and bodies without a waiver (§3.6).
-9. **Localisation:** the lead should add 일본에서 왔어요 and five more rows to the Korean half (§9.4). The Japanese interface pack was written for ja-en and shows 英語 where "Korean" is meant in about 20 strings, so the ja-ko `ui.json` must override far more than the 14 `uiKeys` (§9.5).
+9. **Localisation:** the lead should add 일본에서 왔어요 and about seven more rows (plus a dialogue variant) to the Korean half (§9.4). The Japanese interface pack was written for ja-en and shows 英語 where "Korean" is meant in about 20 strings, so the ja-ko `ui.json` must override far more than the 14 `uiKeys` (§9.5).
 10. **Confidence:** moderate for sounds and honorifics, which have studies with Japanese samples. Low to moderate for grammar traps (no counts) and for every Japanese sentence (non-native author; §10 has 20 checks).
 
 ## 2. Learners: who, why, what first
@@ -53,13 +53,13 @@ Untagged rules in §3 and §6 to §9 are design decisions, not findings.
 2. **The 요 default and the respect system,** mapped onto です・ます (§4.9). Japanese speakers already think in politeness levels. What they lack is 絶対敬語 and the fact that 씨 ≠ さん.
 3. **漢字語 awareness from lesson 1.** It is the fastest vocabulary engine this learner has (§4.12). Glossing every Sino-Korean word with kanji costs nothing under the format (§3.6).
 4. **The few grammar places where Japanese misleads:** particle mismatches, 〜ている, 의, and number systems. These come before the many places where it helps, because the learner will assume everything transfers.
-5. For TOPIK takers: TOPIK I vocabulary and the 합니다体 of reading passages. That goes beyond this 33-lesson course; §9 notes it.
+5. For TOPIK takers: TOPIK I vocabulary and the ハムニダ体 of reading passages. That goes beyond this 33-lesson course; §9 notes it.
 
 ### 2.3 Naming: 韓国語, ハングル, 朝鮮語
 
 **Facts.**
 - "The Korean language is most frequently referred to in Japan as Kankokugo (韓国語) or Chōsengo (朝鮮語). While academia mostly prefers Chōsengo, Kankokugo became more and more common in non-academic fields" ([Wikipedia, *Names of Korea*](https://en.wikipedia.org/wiki/Names_of_Korea)) [curriculum convention].
-- NHK's language programme uses ハングル for the language, "technically incorrect since hangul itself is a writing system, not a language"; according to a footnote there, the teachers avoid the name by saying "this language" (same page) [curriculum convention, second-hand via Wikipedia].
+- The same page says that when NHK broadcasts a Korean course, "the language is referred to as hangurugo (ハングル語; 'hangul language')", which it calls "technically incorrect since hangul itself is a writing system, not a language". A footnote adds that the teachers avoid the name by saying "this language" [curriculum convention, second-hand via Wikipedia; the programme title itself uses ハングル (ハングル講座), which was not verified on an NHK page, §11].
 - Some people say コリア語 (same page).
 - The app's Japanese interface already translates the UI word "Korean" as **韓国語** (`tools/i18n/ja/ui.json`, key `Korean`). TOPIK's Japanese name is 韓国語能力試験 [inference: widely used, no official page opened].
 
@@ -75,13 +75,13 @@ Untagged rules in §3 and §6 to §9 are design decisions, not findings.
 
 ### 2.4 How Korean is conventionally taught in Japan
 
-- **Order (practitioner and author knowledge; [inference] unless tagged).** Japanese textbooks and NHK courses start with letters and pronunciation (母音 → 子音 → 平音・激音・濃音 → パッチム → 連音化 and the other sound changes). This takes several lessons, often a third of a semester. Then come 이에요/예요 and 은/는 (〜は〜です), 이/가 아니에요, 있어요 / 없어요, 해요体, 합니다体, the past, and so on. The opened pages did not confirm the order, and in particular did not settle whether 합니다体 or 해요体 comes first (§11). **The Korean half's order** (hangul → polite → meet → sound-changes → nouns → isseoyo …) is fixed and close enough. Writers do not reorder; they cross-reference.
+- **Order (practitioner and author knowledge; [inference] unless tagged).** Japanese textbooks and NHK courses start with letters and pronunciation (母音 → 子音 → 平音・激音・濃音 → パッチム → 連音化 and the other sound changes). This takes several lessons, often a third of a semester. Then come 이에요/예요 and 은/는 (〜は〜です), 이/가 아니에요, 있어요 / 없어요, ヘヨ体, ハムニダ体, the past, and so on. The opened pages did not confirm the order, and in particular did not settle whether ハムニダ体 or ヘヨ体 comes first (§11). **The Korean half's order** (hangul → polite → meet → sound-changes → nouns → isseoyo …) is fixed and close enough. Writers do not reorder; they cross-reference.
 - **Readings.** Many Japanese textbooks print katakana readings (カムサハムニダ) under Korean, at least in early chapters. Others deliberately avoid them after the letters chapter [inference: common knowledge; the opened search results include a paper on how textbooks for Japanese speakers introduce 文字と発音, but its abstract page was empty, §11].
 - **Grammar description.** Two traditions exist [inference, partly unverified]:
   - **語幹 + 語尾**, with 用言 classes 動詞・形容詞・存在詞・指定詞. The 小学館『韓日辞典』 uses this set: it defines 語幹 and 語尾, lists 있다・없다・계시다 as 存在詞 and 이다・아니다 as 指定詞, and names 으変則 and 르変則 ([JapanKnowledge, 小学館韓日辞典 凡例 10](https://japanknowledge.com/contents/skj/hanrei10.html)) [curriculum convention].
   - The **語基** system (第I・第II・第III語基), associated with 菅野裕臣 and used in some university textbooks. It could not be opened (§11).
 
-  **Decision: 語幹 + 語尾.** The Korean half builds forms as "take the 요-form, swap 요 for …" (past, have-to, joining). That logic is closer to the 語基 idea (第III語基 = 해요体 minus 요) than its terminology. Writers may say 「해요体から요を取った形」 exactly as the English does, without naming 語基. The dictionary terms are what a learner will meet in the 小学館 dictionary and in most commercial textbooks [inference].
+  **Decision: 語幹 + 語尾.** The Korean half builds forms as "take the 요-form, swap 요 for …" (past, have-to, joining). That logic is closer to the 語基 idea (第III語基 = ヘヨ体 minus 요) than its terminology. Writers may say 「ヘヨ体から요を取った形」 exactly as the English does, without naming 語基. The dictionary terms are what a learner will meet in the 小学館 dictionary and in most commercial textbooks [inference].
 
 ## 3. Register, terms and style of the Japanese text
 
@@ -92,7 +92,7 @@ Untagged rules in §3 and §6 to §9 are design decisions, not findings.
 - **Textbook level:** clear, warm and compact, like NHK テキスト or a good university handout. Use no slang. A light 〜ですね is fine once per screen. Avoid exclamation chains.
 - **Errors:** `시간가 있어요 ✕ → 시간이 있어요 ○`. The English half uses ✗ / ✓. These are not Hangul, so writers replace them with ✕ / ○ freely.
 - **Mixing Korean into Japanese** (adapted from `ja.md` §2):
-  - Hangul inside Japanese takes **no** spaces around it when it is followed by a Japanese particle: `은/는は「は」にあたります`. A full Korean phrase being studied gets a half-width space on both sides when Japanese continues: `시간 있어요? と聞きます`.
+  - **Hangul inside Japanese always gets a half-width space on both sides** when Japanese text continues, as `ja.md` does for bare English examples: `은/는 は「は」にあたります`, `시간 있어요? と聞きます`. No space next to full-width punctuation or brackets: `가족（家族）`, `「도」`. One rule, for readability; the samples in §3.3 and §6 follow it.
   - Full-width Japanese punctuation 。、「」『』（）. Romanization and digits are half-width: `gamsahamnida`, `3回`.
   - Japanese words being compared are quoted with 「」: 「は」, 「に乗る」.
   - Kanji glosses of Korean words go in full-width brackets directly after the Hangul: `가족（家族）`, `약속（約束）`. Use them at first mention in each lesson only.
@@ -102,11 +102,11 @@ Untagged rules in §3 and §6 to §9 are design decisions, not findings.
 
 - Glosses are natural, short Japanese for what the Korean means in context.
 - **Politeness is mapped, not tagged:** the Japanese gloss itself shows the level, which English cannot do.
-  - 해요体 → です・ます (`고마워요` 「ありがとうございます」).
-  - 합니다体 → です・ます, or a set formal phrase (`감사합니다` 「ありがとうございます」, `수고하셨습니다` 「お疲れさまでした」).
+  - ヘヨ体 → です・ます (`고마워요` 「ありがとうございます」).
+  - ハムニダ体 → です・ます, or a set formal phrase (`감사합니다` 「ありがとうございます」, `수고하셨습니다` 「お疲れさまでした」).
   - パンマル → タメ口 (`고마워` 「ありがとう」).
   - -시- / 드시다 → 尊敬語 (`드세요` 「召し上がってください」, `계세요?` 「いらっしゃいますか」).
-- **Keep the English tags (polite) (casual) (formal) (honorific) only where the Japanese gloss cannot show the difference.** Examples are the three 고마워요 / 고마워 / 고맙습니다 rows in `polite`, and minimal pairs in practice. Write them as **（해요体）（パンマル）（합니다体）（尊敬）** in that case.
+- **Keep the English tags (polite) (casual) (formal) (honorific) only where the Japanese gloss cannot show the difference.** Examples are the three 고마워요 / 고마워 / 고맙습니다 rows in `polite`, and minimal pairs in practice. Write them as **（ヘヨ体）（パンマル）（ハムニダ体）（尊敬）** in that case: kana only, because a tag such as （해요体） would add a Hangul run the English gloss lacks and fail the check (§3.6).
 - **Bracketed subjects:** the English half writes "(I) have time". Japanese drops subjects naturally, so drop the bracket: `시간이 있어요` 「時間があります」.
 - Names, places and "the US" stay as in the Korean (§9.1).
 - Set phrases use the Japanese set phrase where one exists:
@@ -140,6 +140,8 @@ Untagged rules in §3 and §6 to §9 are design decisions, not findings.
 
 ### 3.4 Glossary: one term per idea (closed list)
 
+**Hangul in terms.** A term may contain Hangul only where the English string it replaces already has the same Hangul run (§3.6). The style names are therefore written in kana: **ヘヨ体, ハムニダ体, パンマル**. Many Japanese textbooks write 해요体 / 합니다体 with Hangul [inference], but here that would add a run to nearly every string that names a style. Particle and ending names (은/는, -고, 하다, ㅂ変則, -(으)시-) are fine in the lessons and rows whose English already shows them. Elsewhere use the Japanese description (「は」にあたる助詞).
+
 | Idea | Term to use, exactly | Do not use | Gloss at first use (once per lesson at most) |
 |---|---|---|---|
 | 은/는, 이/가, 을/를, 에, 도 … | **助詞** | 小辞, マーカー, 後置詞 | |
@@ -160,13 +162,13 @@ Untagged rules in §3 and §6 to §9 are design decisions, not findings.
 | -아요, -았어요, -고 | **語尾** | 接尾辞 | |
 | a stem with / without a final consonant | **パッチムのある語幹 / パッチムのない語幹** | 子音語幹 / 母音語幹 | |
 | ㅏ ㅗ / other vowels (for 아/어 choice) | **陽母音 / 陰母音** | | 아요 か 어요 かを決める母音 |
-| 가요 | **해요体** | 요形 (allowed once as gloss) | 「です・ます」にあたる、ふだんの丁寧な話し方 |
-| -습니다 | **합니다体** | 格式体 (allowed once) | より改まった丁寧な話し方 |
-| casual | **パンマル（반말）** | タメ口 (allowed as gloss), 非敬語 | 「タメ口」にあたる話し方 |
+| 가요 | **ヘヨ体** (kana; write 해요体 only where the English string has the run 해요) | 요形 | 「です・ます」にあたる、ふだんの丁寧な話し方 |
+| -습니다 | **ハムニダ体** (kana) | 格式体 (allowed once) | より改まった丁寧な話し方 |
+| casual | **パンマル** (add （반말） only where the English string has 반말, e.g. `polite`) | タメ口 (allowed as gloss), 非敬語 | 「タメ口」にあたる話し方 |
 | politeness levels in general | **文体**（話し方のレベル） | | |
 | -(으)시- | **尊敬の -(으)시-** | 尊敬語尾 | 動作をする人を高める |
 | 드시다, 계시다, 성함 | **尊敬語** | 敬語動詞 | |
-| Korean honorifics as a system | **敬語（높임말）** | 待遇表現 | |
+| Korean honorifics as a system | **敬語** | 待遇表現, 높임말 (adds Hangul) | |
 | 絶対敬語 / 相対敬語 | exactly these | | §4.9 |
 | 개, 명, 잔 | **助数詞** | 分類詞, カウンター | |
 | 하나, 둘 / 일, 이 | **固有語数詞 / 漢字語数詞** (short: **固有語の数 / 漢字語の数**) | 和語数詞, 中国語の数字 | 日本語の「ひとつ・ふたつ」と「いち・に」のような2系統 |
@@ -175,7 +177,7 @@ Untagged rules in §3 and §6 to §9 are design decisions, not findings.
 | Japanese vocabulary layers | **和語 / 漢語** | | |
 | loanwords | **外来語** | | |
 | ㅏ / ㄱ | **母音 / 子音** | | |
-| 받침 | **パッチム（받침）** | 終声 (allowed in the reading guide once) | 文字の下につく子音 |
+| 받침 | **パッチム** (add （받침） only where the English string has 받침: `hangul`, ko.c0039–ko.c0043) | 終声 (allowed in the reading guide once) | 文字の下につく子音 |
 | one Hangul block | **文字**（ひとまとまりの文字） | ブロック | |
 | syllable | **音節** | 拍 (use 拍 only for Japanese mora) | |
 | Japanese mora | **拍** | モーラ | |
@@ -217,11 +219,11 @@ Never send the learner to a trainer or drill unless the lead confirms that `feat
 
 - **Hangul set-equality (spec §6) counts only Hangul.** `HANGUL_RX` in `tools/halves/lib.js` matches the Hangul Jamo, Compatibility Jamo and Syllables blocks only. This has three consequences:
   - **Kanji, kana and romanization may be added anywhere without a waiver.** Writers should add kanji to Sino-Korean words in notes and lesson prose (`가족（家族）`). This is the single biggest lever of this pair.
+  - **Hangul inside a term counts.** 해요体, 합니다体, （반말）, （받침）, 높임말, or a bare 거 cut out of 거예요, each add a run the English string may not have. Check every glossary term and every tag against the English row (§3.4); when in doubt use the kana form. Writers can test a string with `node -e "const L=require('./tools/halves/lib.js');console.log(L.hangulSet('…'))"`.
   - **Extra Korean needs a waiver.** A new Hangul word (준비, 무료, 일본) in a note or body still needs `"_waive":["hangul"]` and a `_note` on that row. For lesson bodies, put both on the `lessons.jsonl` title row.
   - **Set-equality works both ways.** A shorter Japanese body may not drop any Hangul run, any example token, or any ✕/○ pair of the English. "Shorter" in §7 means **less prose around the same Korean**: delete the English-specific explanation, keep every Korean example.
 - **Lessons that need `_waive`** (proposed):
   - `hangul`, for the reading guide: ㄲ ㄸ ㅃ ㅆ ㅉ, ㅘ ㅟ ㅢ and the kana-comparison examples.
-  - `sound-changes`, for 鼻音化 and 濃音化 examples beyond the English set, such as 학교 and 학꾜, which are already there, and 입니다, which is not.
   - `meet`, only if the 일본 line is shown in the body (§9).
   - Optionally `nouns`, for one cognate table (§4.12) if the lead wants it in a body rather than in the pair layer.
 
@@ -242,7 +244,7 @@ Each item says where the bridge holds, where it misleads, and how the course use
 - **Small differences:**
   - 안 and 못 go **before** the verb, while 〜ない goes after it (§4.7).
   - Korean writes **spaces** between words (分かち書き, card ko.c0060), while Japanese writes none. The particle stays attached to its word: 집에 가요, not 집 에 가요.
-  - A question in 해요体 is marked by rising intonation only. Japanese adds か. Tell the learner: 「か にあたる語はありません。」
+  - A question in ヘヨ体 is marked by rising intonation only. Japanese adds か. Tell the learner: 「か にあたる語はありません。」
 
 ### 4.2 Particles: the map, and where it breaks
 
@@ -350,7 +352,7 @@ Each item says where the bridge holds, where it misleads, and how the course use
 | 知りません / わかりません | 몰라요 / 모르겠어요 | `cant` | **close match**: both pairs contrast "fact" vs "softer, not sure"; 잘 모르겠어요 ≈ よくわかりません (s0262) |
 | 連体形 (私が好きな食べ物) | -는 / -(으)ㄴ + noun (제가 좋아하는 음식) | `noun-modifiers` | **exact structure**: no relative pronoun, modifier first. New: Korean changes the ending (크다 → 큰), while Japanese uses the plain form (大きい → 大きいかばん) |
 
-- **Giving and receiving** [inference, partly research-backed]: Japanese has あげる / くれる / もらう. Korean has 주다 for both あげる and くれる, and 받다 for もらう. **〜てもらう / 〜ていただく have no direct Korean equivalent.** Yutani (1991) reports learners writing 가르쳐 받았다 (calque of 教えてもらった) and recommends rephrasing with the giver as subject: 아저씨가 숙제를 가르쳐 주셨다 ([Yutani 1991](https://www.korean.go.kr/nkview/nklife/1991_3/1_8.html)) [research-backed (practitioner report by a Japanese professor of Korean)]. The course has only -아/어 주세요 / 주시겠어요, so this is one warning line in `requests`: 「〜てもらう は、韓国語では『相手が〜てくれる』と言い換えます。」
+- **Giving and receiving** [inference, partly research-backed]: Japanese has あげる / くれる / もらう. Korean has 주다 for both あげる and くれる, and 받다 for もらう. **〜てもらう / 〜ていただく have no direct Korean equivalent.** Yutani (1991) reports learners writing 가르쳐 받았다 (calque of 教えてもらった) and recommends rephrasing with the giver as subject: 아저씨가 숙제를 가르쳐 주셨다 ([Yutani 1991](https://www.korean.go.kr/nkview/nklife/1991_3/1_8.html)) [practitioner opinion: an essay by a Japanese professor of Korean]. The course has only -아/어 주세요 / 주시겠어요, so this is one warning line in `requests`: 「〜てもらう は、韓国語では『相手が〜てくれる』と言い換えます。」
 
 ### 4.9 Politeness and honorifics: the system is familiar, the rules differ
 
@@ -358,12 +360,12 @@ Each item says where the bridge holds, where it misleads, and how the course use
 
 | Japanese | Korean | Note [inference] |
 |---|---|---|
-| です・ます体 (everyday polite) | **해요体** | the default; the course's 요-form |
-| です・ます in formal settings, announcements, set phrases (〜でございます in part) | **합니다体** | 감사합니다, 죄송합니다, 다음 역은 강남역입니다 (s0194) |
-| タメ口 / 普通体 | **パンマル（반말）** | friends, younger people |
+| です・ます体 (everyday polite) | **ヘヨ体** | the default; the course's 요-form |
+| です・ます in formal settings, announcements, set phrases (〜でございます in part) | **ハムニダ体** | 감사합니다, 죄송합니다, 다음 역은 강남역입니다 (s0194) |
+| タメ口 / 普通体 | **パンマル** | friends, younger people |
 
 - **Holds:** a Japanese speaker already knows that one sentence must pick a level and stay there (the English half's "Mixing levels in one sentence" error), and that switching to タメ口 too early is rude. 말 놔도 돼요 ≈ タメ口でいいよ.
-- **Misleads:** 합니다体 is not "more correct です・ます". In Seoul everyday speech, 해요体 is the normal polite level. Japanese learners who learnt 합니다体 first may sound stiff [practitioner opinion, common; unverified].
+- **Misleads:** ハムニダ体 is not "more correct です・ます". In Seoul everyday speech, ヘヨ体 is the normal polite level. Japanese learners who learnt ハムニダ体 first may sound stiff [practitioner opinion, common; unverified].
 
 **Subject honorifics: 尊敬語 ↔ -(으)시- and special verbs.**
 
@@ -381,7 +383,7 @@ Each item says where the bridge holds, where it misleads, and how the course use
 - **Never 시 about oneself:** 저는 가세요 ✕ ↔ the Japanese rule never to use 尊敬語 about oneself. This holds.
 - **謙譲語 has only a small Korean counterpart** in this course: 드리다 (잘 부탁드립니다, 연락드립니다), 저 / 제, 말씀 드리다. Do not invent a 謙譲語 system in the explanation [inference].
 
-**絶対敬語 vs 相対敬語: the classic error** [research-backed (practitioner report), Yutani 1991]:
+**絶対敬語 vs 相対敬語: the classic error** [practitioner opinion, Yutani 1991]:
 - Yutani quotes the common view, 「일본어는 경어 사용법이 상대적이고, 한국어는 경어 사용법이 절대적이다」, and qualifies it: Korean has a relative device too, 압존법, but Japanese relativity is far stronger. Japanese treats the in-group (one's family and company) as lower than any outsider, even one's own parent or boss.
 - His example: to a visitor, a Korean says 아버님은 지금 집에 안 계십니다, honouring their own father. In Japanese that would be 父は今おりません, and respectful forms about one's own family sound wrong to a Japanese ear (Yutani 1991).
 - **Wrong → right for a Japanese learner** [inference from Yutani]:
@@ -461,9 +463,9 @@ Rules 1–14 follow Kim (2010) [research-backed (descriptive)]. Rules 15–20 an
 9. **か・が行 → ㄱ, and often ㅎ**: 家 가, 気 기 / 下 か 하, 夏 か 하, 海 かい 해, 会 かい 회, 化 か 화, 火 か 화. Japanese か in 〜か / 〜かい is frequently Korean 하 / 해 / 화 / 회.
 10. **は・ば行 → ㅂ / ㅍ, never ㅎ**: 百 ひゃく 백, 発 はつ 발, 品 ひん 품, 法 ほう 법. **ば行 also → ㅁ**: 美 び 미, 無 む 무, 文 ぶん 문, 物 ぶつ 물.
 11. **ま行 → ㅁ**: 毎 まい 매, 名 めい 명, 木 もく 목. Kim: without exception.
-12. **な行 → ㄴ, dropped before ㅣ / y at the start of a word**: 男 だん 남, 年 ねん 년; 女 にょ → 여 (女子 여자), 二 に → 이.
+12. **な行 → ㄴ, dropped before ㅣ / y at the start of a word**: 南 なん 남, 年 ねん 년; 女 にょ → 여 (女子 여자), 二 に → 이.
 13. **ら行 → ㄹ; at the start of a word → ㄴ or silent** (頭音法則): 料理 りょうり 요리, 旅行 りょこう 여행, 理解 りかい 이해, 連絡 れんらく 연락, 来日 らいにち 내일 (!), 労働 ろうどう 노동. Inside a word ㄹ stays: 地理 지리, 道路 도로.
-14. **た・だ行 → ㄷ / ㅌ / ㅈ / ㅊ**: 大 だい 대, 地 ち 지, 茶 ちゃ 차, 天 てん 천. ず sometimes → ㄷ: 頭痛 ずつう 두통.
+14. **た・だ行 → ㄷ / ㅌ / ㅈ / ㅊ, and a few → ㄴ**: 大 だい 대, 地 ち 지, 茶 ちゃ 차, 天 てん 천; 男 だん 남, 努 ど 노 (Kim). ず sometimes → ㄷ: 頭痛 ずつう 두통.
 
 **Further patterns (author's inference)**
 
@@ -582,3 +584,541 @@ Also in the half: 한국어 韓国語 (s0019), 사장 社長 (s0195), 운전 運
 - **Sentence-final particles:** ね, よ, な have partial Korean matches (-네요 / -죠, -거든요). Only 날씨가 좋네요 (ko.c0564) is in the course. Gloss -네요 as 〜ですね there and do not add ね to other glosses.
 - **Interjections and fillers:** 아이고 ≈ あらまあ / やれやれ; 헐 ≈ えっ / うそ; 대박 ≈ すごい / やばい. Glosses only.
 - **Food and table manners:** 잘 먹겠습니다 = いただきます and 잘 먹었습니다 = ごちそうさまでした are exact. Pouring for others (お酌) is shared. Turning away from seniors to drink, and never pouring one's own, are the new parts.
+
+## 5. Error zones of Japanese speakers in Korean, ranked
+
+**How the list is ranked** [inference]:
+1. Items with data on Japanese learners come first.
+2. Then items that occur in nearly every sentence and can be tested in this course's practice.
+3. Lesson-local traps come last.
+
+Sounds rank highest because they are the best-evidenced and because Japanese gives no help there. Grammar traps rank below them even though they are frequent, because the course's examples already model the right forms.
+
+### 5.1 Plain vs aspirated vs tense consonants
+
+- **Wrong → right:**
+  - 커피 said with a tight, airless k, which sounds like 꺼피.
+  - 타요 heard and said like 따요.
+  - 파 vs 빠 confused.
+  - 가방 *gabang* read with a voiced initial g ("ガバン") from the romanization.
+  - 쌀 (rice) said like 살.
+- [research-backed] arXiv 2306.10821 (2023), automatic transcription of L2 Korean read speech, **170 Japanese speakers** (3 beginner, 27 intermediate, 140 advanced). Japanese was the L1 with the most L1-specific error patterns (18 significant).
+  - ㅍ was accurate in 51.22% of cases (average across five L1s: 70.70%) and replaced by tense ㅃ in 20.72% (average 7.33%).
+  - ㅌ: 44.40% accurate (average 62.24%), → ㄸ 20.51% (average 5.99%).
+  - ㅋ: 54.21% accurate (average 70.20%), → ㄲ 31.15% (average 12.74%).
+  - The discussion names "consistent tensification of aspirated stops, alongside the tendency to substitute aspirated stops to plain" ([arXiv 2306.10821](https://arxiv.org/html/2306.10821v1)).
+- [research-backed] Jo, Kim & Kim (2008), **16 Japanese women** (marriage migrants, mean age 42.5) vs 10 Korean women. The Japanese group's **tense** stops had far longer VOT than the Koreans': ㅃ 41.64 vs 17.51, ㄸ 28.43 vs 10.47, ㄲ 40.53 vs 19.41. Their **aspirated** stops had shorter VOT: ㅋ 41.33 vs 55.83, ㅍ 53.80 vs 58.89 (all significant). The two series converged in the middle ([Jo, Kim & Kim 2008](https://koreascience.kr/article/JAKO200833338919695.pdf)). VOT units were not stated in the fetched text; ms is the convention.
+- [research-backed] Nam (2002), **8 Japanese speakers**, perception. They discriminated aspirated from tense well, but had significant difficulty telling **plain** from the other two. Plain ㄱ ㄷ ㅂ ㅈ were often heard as aspirated, and aspirated and tense were often heard as plain. Tense ㅆ was heard as plain ㅅ ([Nam 2002, 언어청각장애연구 7(1)](https://scholar.kyobobook.co.kr/article/detail/4010023096654)) [abstract only; no rates given].
+- **Design consequence:**
+  - The reading guide (§6.1) gives three instructions and no claim of equivalence.
+  - 激音: push the breath out, with a hand in front of the mouth, and do not hold back.
+  - 濃音: a small っ before the sound and a tight throat, with no breath (아빠 ≈ アッパ). This is a common Japanese teaching device [practitioner opinion; no opened source].
+  - 平音: unvoiced and weakly breathy at the start of a word (≈ カ・タ・パ・チャ), voiced between vowels.
+  - The minimal-pair cards (ko.c0044–ko.c0048) get Japanese notes built on these three instructions.
+  - Because arXiv shows aspirated → tense as the dominant production error, the 激音 instruction carries the warning 「激音を濃音で言わないように」.
+
+### 5.2 Patchim: ㅇ → ㄴ, three targets for ん, added vowels
+
+- **Wrong → right:**
+  - 강 *gang* said as 간 (カン).
+  - 방 vs 반 vs 밤 not kept apart.
+  - 밥 said "バプ" (bap + vowel).
+  - 학교 said "ハクキョ" with a vowel after ㄱ.
+  - 물 said "ムル".
+- [research-backed] arXiv (2023): final ŋ (ㅇ) was accurate in only 55.22% of cases (average 82.67%) and replaced by n in 31.22% (average 10.10%, p < .001). The Japanese group also inserted a ㅡ-like vowel after codas (8.98% vs an average of 0.07%) and a flap-type segment (10.43% vs 1.17%). The authors relate this to "syllable-based constraints with the tendency to open-syllabification".
+- [research-backed] Jo, Kim & Kim (2008): the Japanese group replaced final ㅇ with ㄴ "in nearly all cases", which the authors attribute to Japanese having a single moraic nasal. They also report initial ㄹ distorted.
+- [research-backed (abstract only)] Hong, Ryu & Chung (2014), **24 Japanese learners**, read speech: phoneme substitutions and vowel insertions correlated very strongly with Korean raters' pronunciation scores ([Hong, Ryu & Chung 2014](https://koreascience.kr/article/JAKO201403359905317.page?&lang=ko)). Insertions are not cosmetic: they drive how Koreans judge the speaker.
+- **Design consequence:** the 「ん」 three-way device (あんない / さんま / りんご, §6.1) [practitioner opinion, common; inference] and the 「っ」 device for unreleased k, t, p. Card notes for ko.c0039–ko.c0043 and ko.c0053 use them.
+
+### 5.3 Vowels: ㅓ → ㅗ, ㅜ → ㅡ, flattened diphthongs
+
+- **Wrong → right:**
+  - 서울 with ㅗ ("ソウル").
+  - 어 / 오 and 거 / 고 merged.
+  - 우유 said with an unrounded Japanese ウ, which sounds like 으유.
+  - 과일 said as 가일.
+  - 위 said as 이.
+  - 돼요 said as 데요.
+- [research-backed] arXiv (2023):
+  - ㅓ was 66.99% accurate (average 81.78%) and → ㅗ in 25.58% (average 10.46%).
+  - ㅜ was 64.03% accurate (average 77.79%) and → ㅡ in 24.72% (average 7.08%).
+  - Diphthongs were reduced to monophthongs: ㅘ → ㅏ 14.58% (average 3.96%), ㅙ / ㅞ → ㅔ 26.69% (average 9.42%), ㅟ → ㅣ 32.05% (average 11.49%).
+- [research-backed] Jo, Kim & Kim (2008), Japanese group vs Koreans:
+  - ㅓ F1 502 vs 711 Hz (too closed);
+  - ㅗ F2 1,605 vs 1,101 and ㅜ F2 1,422 vs 992 (both too front, which fits an unrounded Japanese ウ / オ);
+  - ㅡ only marginal (p < .10);
+  - ㅔ and ㅐ both differed in F1, and ㅏ F1 differed;
+  - ㅣ did not differ.
+- **ㅐ / ㅔ are not an error zone for meaning.** They sound the same in modern Seoul speech (ko.c0056). Say so and move on.
+- **Design consequence:**
+  - ㅓ and ㅗ are both 「オ」 in kana, so the guide says it outright: 「ㅓ は口を大きく開けたオ、ㅗ は唇を丸めたオ」.
+  - ㅜ and ㅡ: 「日本語のウは ㅜ と ㅡ の中間」. Round for ㅜ, spread for ㅡ.
+  - Diphthongs: 「w をはっきり」.
+
+### 5.4 Verbs whose particle differs from Japanese
+
+- **Wrong → right** [inference: contrastive; Takagi & Yun name particles among the areas of "conspicuous" L1 interference in Japanese learners' Korean compositions, but the readable excerpt gives no examples or counts ([Takagi & Yun, Kanagawa University](https://kanagawa-u.repo.nii.ac.jp/record/13708/files/05%20%E6%97%A5%E9%9F%93%E4%B8%A1%E8%A8%80%E8%AA%9E%E3%81%AE%E5%AD%A6%E7%BF%92%E8%80%85%E3%81%AE%E4%BD%9C%E6%96%87%E3%81%AB%E3%81%BF%E3%82%89%E3%82%8C%E3%82%8B%E6%AF%8D%E8%AA%9E%E5%B9%B2%E6%B8%89%E3%81%AE%E8%AB%B8%E7%9B%B8.pdf))]:
+
+| Japanese | Learner's Korean ✕ | Korean ○ | In half? |
+|---|---|---|---|
+| バスに乗る | 버스에 타요 | 버스를 타요 | only 자전거 타요 (ko.c0335, no particle) |
+| 友達に会う | 친구에 만나요 / 친구에게 만나요 | 친구를 만나요 | s0223 친구를 만났어요, ko.c0341 친구 만나요 |
+| コーヒーが好きだ | 커피가 좋아해요 | 커피를 좋아해요 | s0173, `want-like` mistake row |
+| 先生になる | 선생님에 돼요 | 선생님이 돼요 | no |
+| 父に似ている | 아버지에 닮았어요 | 아버지를 닮았어요 | no |
+| 韓国語が上手だ / 分かる | 한국어가 잘해요 | 한국어를 잘해요 | s0258 한국어 할 수 있어요? (no particle) |
+| 水が飲みたい | 물이 마시고 싶어요 | 물을 마시고 싶어요 | s0168 커피를 마시고 싶어요 |
+| 学生ではありません | 학생에서 아니에요 | 학생이 아니에요 | s0040 |
+
+- **Design consequence:** the `sov` lesson ("the object marker") and `want-like` carry one line each: 「日本語の『〜に乗る』『〜に会う』『〜が好き』は、韓国語では 을/를 です。」 Only Hangul already in those bodies may appear. 좋아해요 is in `want-like`. 타요 and 만나요 are not in `sov`, so write them in Japanese only, or waive. The trap deck (§8.2) carries the Korean.
+
+### 5.5 Honorifics: 絶対敬語, 시 about oneself, 〜てもらう
+
+- **Wrong → right** [practitioner opinion, Yutani 1991; inference for the specific sentences]:
+  - To a caller, about one's own father: 아버지는 지금 없어요 → 아버지는 지금 안 계세요.
+  - To a client, about one's own boss: 부장은 자리에 없습니다 → 부장님은 자리에 안 계십니다.
+  - 선생님한테 가르쳐 받았어요 (calque of 教えてもらった) → 선생님이 가르쳐 주셨어요.
+  - Yutani also lists negated honorifics (안 가십니까 vs 가지 않으십니까), and tense / level order calqued from Japanese (갑니었다 for 갔습니다, from ました). Both are outside this course.
+- 저는 가세요 → 저는 가요 is the English half's own mistake row. The Japanese rule (no 尊敬語 about oneself) already prevents it, so it ranks low.
+- **Where:** `honorific`, `office`, `titles`. All three get **more** text than the English (§7).
+
+### 5.6 〜ている mapped to -고 있어요
+
+- **Wrong → right** [inference; the Korean split itself is curriculum convention per 小学館『韓日辞典』 凡例 6]:
+  - 결혼하고 있어요 → 결혼했어요.
+  - 알고 있어요 (as plain "I know") → 알아요. 알고 있어요 exists, but it means "I am aware".
+  - 앉고 있어요 → 앉아 있어요.
+  - 피곤하고 있어요 → 피곤해요.
+- The course does not drill -아/어 있다, so the main risk is learners producing -고 있어요 everywhere once they learn it. The warning goes into `verbs` and `past` (§4.7, §7).
+
+### 5.7 Numbers and counters
+
+- **Wrong → right:**
+  - 삼 시 → 세 시 (from 三時).
+  - 이십오 살 → 스물다섯 살 (from 二十五歳).
+  - 커피 삼 잔 → 커피 세 잔 (from コーヒー三杯).
+  - 사과 삼 개 → 사과 세 개.
+  - 하나 개 → 한 개.
+- [inference] Japanese uses 漢語 numbers with almost every counter, with hours and with age, and these are exactly the uses where Korean takes native numbers (§4.10). The English half's own number mistakes (삼 시 ✕, 하나 개 ✕) are therefore **more** likely for this learner. 오십천 원 ✕ is less likely, because Japanese groups by 万.
+
+### 5.8 の → 의, and は → 은/는 with question words
+
+- **Wrong → right:**
+  - 저의 이름은 → 제 이름은.
+  - 일본어의 선생님 → 일본어 선생님.
+  - 한국의 음식 → 한국 음식.
+  - 이름은 뭐예요? → 이름이 뭐예요?
+  - 생일은 언제예요? → 생일이 언제예요?
+- [inference] §4.3, §4.4. Low cost: the half's example rows already show the right forms (s0037 제 이름, ko.c0074, s0066). Writers point at them.
+
+### 5.9 漢字語: false friends and invented readings
+
+- **Wrong → right:**
+  - 공부 understood as 工夫.
+  - 내일 misread as 来日.
+  - "I'm going home from work" said with 퇴사 (from 退社) → 퇴근해요.
+  - Invented Sino readings for Japanese 漢語 that Korean does not use: 면강 (from 勉強) → 공부; 대장부 (from 大丈夫) → 괜찮아요; 고로 (from 苦労) → 고생.
+- [practitioner opinion] the false-friend sets in Segye (2019) and note.com (2024); [inference] the invented-reading pattern follows from the correspondence rules working too well.
+- **Design consequence:** false-friend notes on the cards (§4.12.3). In the pair-layer lesson (§8.1), say 「規則で読める言葉が多い一方で、韓国語にない漢語や意味の違う言葉もあります」.
+
+### 5.10 Writing details (low priority in this course)
+
+- **Spacing:** 집에가요 / 한국어공부해요 → 집에 가요 / 한국어 공부해요. Japanese writes no spaces [inference]. Card ko.c0060 covers it.
+- **이에요 / 예요 after Japanese names:** 다나카이에요 → 다나카예요; 켄예요 → 켄이에요. The learner must look at the last Hangul block, exactly as the English half says for Mike / Juan. **Use Japanese names in the prose** (§9.2).
+- **Japanese names in Hangul** follow the Korean loanword rules for Japanese:
+  - word-initial か・た → ㄱ・ㄷ: 田中 다나카, 東京 도쿄;
+  - medial か・た → ㅋ・ㅌ: 다나카;
+  - つ → 쓰, ん → ㄴ, っ → ㅅ (北海道 홋카이도);
+  - no long vowels (東京 도쿄, 大阪 오사카).
+
+  [inference: Korean 외래어 표기법 for Japanese; the official page was not opened, §11]. Learners are often surprised that 田中 starts with 다, not 타.
+
+### 5.11 Rhythm, length and pitch
+
+- [inference] Japanese mora timing makes learners count パッチム as a beat (한국 → ハ・ン・グ・ク). They may also lengthen vowels and carry over pitch accent. Not measured in the opened studies beyond vowel insertion (§5.2). The reading guide gives 「1文字＝1拍」 and 「長い音はない」.
+
+## 6. Pronunciation aid: how a Japanese reader reads the romanization
+
+**What the Korean half prints.** Every Korean line carries Revised Romanization (RR) in `rom`. It is shared by every course and cannot be edited (spec §5). RR spells pronunciation, not letters: the English `sound-changes` lesson says "The romanization in this app mostly follows how words sound (tensed consonants are not shown)". So 감사합니다 appears as *gamsahamnida* and 좋아요 as *joayo*.
+
+**House rule: keep RR, add no katakana.**
+1. The format is fixed. Katakana could only live in a note or gloss, which would put a second reading system beside RR on some rows and not others.
+2. Japanese learners read Latin letters fluently through ローマ字 schooling. RR's vowels a, i, u, e, o map onto Japanese vowels directly, so most of RR reads correctly as ローマ字.
+3. Katakana cannot show the contrasts that matter most (§5.1–5.3): ㅓ / ㅗ (both オ), ㅜ / ㅡ (both ウ), ㄴ / ㅁ / ㅇ (all ン), plain / aspirated / tense (カ, カ, ッカ).
+4. Many Japanese textbooks do print katakana; this course does not, and the `hangul` lesson says why in one line: 「カタカナでは区別できない音があるので、このコースではカタカナの読み方は使いません。」 [inference: the textbook practice is unverified, §11].
+
+**Where a Japanese reader goes wrong with RR** [inference, supported by §5]:
+1. Reads **eo, eu, ae, oe, wae, yae, ui** as two vowels (エオ, エウ, アエ, オエ, ワエ). RR is also ambiguous here: *oe* is ㅚ in *joesonghamnida* but o + e(u) in *joeun* (좋은) and *hakgyoe* (학교에), so the guide sends the reader to the Hangul.
+2. Reads word-initial **g, d, b, j** as voiced ガ, ダ, バ, ジャ. Korean plain stops are unvoiced at the start of a word and voiced between vowels. Japanese textbooks that use kana write カムサハムニダ, which is closer to the real sound than ガムサハムニダ.
+3. Reads **kk, tt, pp** as long, and **k, t, p** with too little breath.
+4. Reads **u** as Japanese ウ, which is too unrounded and drifts toward ㅡ.
+5. Adds a vowel after final **k, t, p, l, m** (bap → バプ), and reads **ng** as ン.
+6. Reads **l** as ル and **r** as ラ (correct between vowels).
+
+### 6.1 The reading guide, in Japanese (ready to paste into `hangul`; every line [inference], native check §10)
+
+Placement: a new `<h3>` section at the end of `hangul`. The jamo and Korean words in it need the `hangul` waiver (§3.6). The three Hangul deck descriptions (`ko.d.hangul-vowels`, `ko.d.hangul-consonants`, `ko.d.hangul-advanced`) repeat their part in the same words, keeping only Hangul that their English descriptions have. Card notes for single jamo (ko.c0001–ko.c0060) use the same comparisons.
+
+> **ローマ字の読み方**
+>
+> 韓国語の下に書いてあるローマ字は、発音どおりに書いた「改訂ローマ字表記」です（감사합니다 → gamsahamnida）。基本はローマ字読みで大丈夫ですが、カタカナでは表せない音があります。次の点に気をつけましょう。
+>
+> **母音**
+> - **a**（ㅏ）・**i**（ㅣ）：日本語の「ア」「イ」とほぼ同じです。
+> - **o**（ㅗ）：唇を小さく丸めて前に突き出す「オ」。
+> - **eo**（ㅓ）：**1つの母音**です。「エオ」とは読みません。口を「ア」のように大きく開けたまま、唇を丸めずに「オ」と言います。ㅗ も ㅓ もカタカナでは「オ」になるので、いちばん注意が必要な母音です。
+> - **u**（ㅜ）：唇を丸く前に突き出す「ウ」。日本語の「ウ」よりずっと唇を丸めます。
+> - **eu**（ㅡ）：**1つの母音**です。「エウ」とは読みません。唇を横に引いたまま「ウ」と言います。日本語の「ウ」は ㅜ と ㅡ のちょうど中間なので、どちらかにはっきり寄せましょう。
+> - **e**（ㅔ）・**ae**（ㅐ）：今のソウルの発音では、どちらも「エ」です。
+> - **ya, yeo, yo, yu, ye**（ㅑ ㅕ ㅛ ㅠ ㅖ）：「ヤ」、口を開けた「ヨ」、唇を丸めた「ヨ」、「ユ」、「イェ」。yeo と yo の違いは、eo と o の違いと同じです。
+> - **wa, wo, wi**（ㅘ ㅝ ㅟ）：「ワ」「ウォ」「ウィ」。**w をはっきり**言いましょう。gwa を「ガ」、wi を「イ」と言わないように。
+> - **oe, wae, we**（ㅚ ㅙ ㅞ）：どれも「ウェ」です。oe は「オエ」、wae は「ワエ」とは読みません：joesonghamnida（죄송합니다）、hoesik（회식）、dwaeyo（돼요）、gwaenchanayo（괜찮아요）。
+> - **yae**（ㅒ）は「イェ」です。
+> - ただし、ローマ字だけでは区別できない場合があります。joeun（좋은）は jo・eun、hakgyoe（학교에）は hak・gyo・e と、2つの母音に分けて読みます。迷ったらハングルを見ましょう。ㅚ は1文字の中の母音、좋은 は2文字です。
+> - **ui**（ㅢ）：ㅡ から ㅣ へすばやく移ります。語頭以外では「イ」、助詞の 의 は「エ」と発音します。
+> - 母音が2つ並んでいても、上に挙げた組み合わせ（eo, eu, ae, oe, ui, wa, wo, wi, wae, we, ya, yeo, yo, yu, ye, yae）以外は、別々に読みます：kapeeseo ＝ ka・pe・e・seo。
+>
+> **子音：平音・激音・濃音**
+> - **g, d, b, j**（ㄱ ㄷ ㅂ ㅈ・平音）：**語頭では濁りません。**日本語の「カ・タ・パ・チャ」に近い、息の弱い音です。母音にはさまれると「ガ・ダ・バ・ジャ」のように濁ります。gamsahamnida の g は「カ」に近く、gabang（가방）は「カバン」と聞こえます。
+> - **k, t, p, ch**（ㅋ ㅌ ㅍ ㅊ・激音）：**強い息**といっしょに出します。口の前に手をかざして、息が当たるのを確かめましょう。日本語話者は激音を濃音で言ってしまいがちです。ためらわずに息を出しましょう。
+> - **kk, tt, pp, ss, jj**（ㄲ ㄸ ㅃ ㅆ ㅉ・濃音）：**長い音ではありません。**前に小さい「っ」があるつもりで、喉を締め、息を出さずに言います。appa（아빠）は「アッパ」、oppa（오빠）は「オッパ」に近い音です。
+> - **s**（ㅅ）：「サ・ス・セ・ソ」の s。i や y の前では「シ」になります：si ＝「シ」。ss（ㅆ）は喉を締めた s です。
+> - **j**（ㅈ）・**ch**（ㅊ）：「チャ」行に近い音です。語中の j は「ジャ」行になります。ch は息を強く出します。
+> - **h**（ㅎ）：「ハ」行。ただし、母音にはさまれるとほとんど聞こえません（joayo）。
+> - **r / l**（ㄹ）：母音にはさまれると、日本語の「ラ」行と同じです（r）。文字の最後では **l** になります。舌先を上の歯ぐきにつけたまま止め、「ル」のように母音をつけません。mul（물）は「ムル」ではありません。ll は、舌をつけたまま長めに出す l です。
+> - **f, v, z** の音は韓国語にありません。coffee は keopi（커피）です。
+>
+> **パッチム（文字の最後の子音）**
+> - パッチムには母音をつけません。bap（밥）は「バプ」ではなく、唇を閉じて止めます。hak（학）は「ハク」ではなく、喉の奥で止めます。
+> - k, t, p で終わる音は、小さい「っ」で止める感じです：hakgyo（학교）≈「ハッキョ」。
+> - n, m, ng は日本語ではどれも「ん」ですが、韓国語でははっきり区別します。日本語の「ん」の言い方で覚えましょう。
+>   - **n**（ㄴ）＝「あんない（案内）」の「ん」：舌先を上の歯ぐきにつけます。
+>   - **m**（ㅁ）＝「さんま」の「ん」：唇を閉じます。
+>   - **ng**（ㅇ）＝「りんご」の「ん」：舌の奥を上げ、口は開けたままです。
+> - 日本語話者は ng を n で言ってしまうことが多いので、特に注意しましょう。gang（강）は「カン」ではなく「カ」＋ ng です。
+> - パッチムの音は7つだけです：k, n, t, l, m, p, ng。
+>
+> **リズム**
+> - 1文字が1拍です。hanguk（한국）は「ハ・ン・グ・ク」の4拍ではなく、2拍で言います。
+> - 長い音はありません。seoul（서울）を「ソウール」と伸ばさないように。
+> - 単語ごとの高低アクセントはありません。平らに言い、質問の文末だけ上げます。
+
+### 6.2 The sound-change summary, in Japanese (for `sound-changes`; every line [inference])
+
+Written to use only Hangul already in the English `sound-changes` body (ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅇ ㅈ ㅊ ㅋ ㅌ ㅍ ㅎ 감사합니다 조아요 좋아요 학교 학꾜) plus romanization, so it needs **no waiver**. The example rows (s0019–s0029) supply the rest.
+
+> **音の変化：ローマ字は変化したあとの音で書いてあります**
+>
+> 韓国語は、つづりは意味を表すように書き、話すときに音をなめらかにします。ローマ字は話すときの音で書いてあるので、ローマ字のとおりに読めば、ほとんどの変化は自然にできます。つづり（ハングル）は変わりません。書くときは元のつづりで書きましょう。
+>
+> 1. **連音化**：パッチムの次の文字が ㅇ で始まると、パッチムが次の文字に移ります。hangugeo のように、区切らずに続けて読みます。
+> 2. **鼻音化**：ㅂ ㄷ ㄱ の次に ㄴ や ㅁ が来ると、ㅂ は ㅁ、ㄷ は ㄴ、ㄱ は ㅇ になります。감사합니다 は gamsahamnida です。日本語でも「さんぽ」の「ん」は唇を閉じ、「さんか」の「ん」は喉の奥で言うように、音は次の音に合わせて変わります。
+> 3. **激音化と ㅎ の弱化**：ㅎ が ㄱ ㄷ ㅂ ㅈ と隣り合うと、息の強い ㅋ ㅌ ㅍ ㅊ になります。母音にはさまれた ㅎ はほとんど聞こえません。좋아요 は 조아요 のように聞こえます。
+> 4. **流音化**：ㄴ と ㄹ が隣り合うと、どちらも ㄹ になり、長い l になります。
+> 5. **濃音化**：ㄱ ㄷ ㅂ の次の平音は濃音になります。학교 は 학꾜 のように聞こえます。日本語の「学校（がっこう）」の「っこ」と同じ感覚です。**この変化だけはローマ字に表れません**（hakgyo）。
+>
+> よくある間違い：
+> - gam-sa-hap-ni-da ✕ → gamsahamnida ○
+> - han-guk-eo ✕ → hangugeo ○
+> - jo-ha-yo ✕ → joayo ○
+> - 조아요 と書く ✕ → 좋아요 ○（つづりは変わりません）
+
+### 6.3 Notes for writers
+
+- The guide uses Japanese anchor words only: 案内, さんま, りんご, 散歩, 学校, カバン, アッパ / オッパ (oppa is known to K-pop fans). Do **not** compare with English sounds anywhere.
+- Kana appear as **comparisons, never as readings**. Write 「アッパに近い音」, never 「아빠（アッパ）」 as a reading line. This keeps RR the single reading system.
+- *coffee* is the one English word in the guide, because 커피 is an English loan. The Japanese コーヒー is a different adaptation of the same word, which is itself a useful aside: 「日本語のコーヒーとは音の写し方が違います」.
+- arXiv's ㅓ → ㅗ, ㅜ → ㅡ, ㅇ → ㄴ and aspirated → tense figures come from mostly **advanced** learners (140 of 170). These errors persist and are not beginner-only, which is why the guide spends space on them.
+
+## 7. Per-lesson notes (33 lessons, ids from `target/ko/lessons.jsonl`)
+
+**How to read this table.**
+- **"Length"** compares the Japanese prose with the English:
+  - **−−** much shorter: Japanese makes most of the explanation one line;
+  - **−** shorter;
+  - **=** about the same;
+  - **+** more than the English.
+- **Shorter never means fewer Korean examples.** Every Hangul run, every `{{ex:…}}` token and every ✕/○ pair of the English body stays (set-equality, §3.6). What goes is English-specific explanation ("English is SVO", "there is no a or the", "like two cups of coffee in English"). Keep the `<h3>` structure where possible. Merging two short sections is allowed, but the validator then warns on structure counts. Tell the lead in a `_note`.
+- **"Rewrite"** names English-built passages to rewrite, not translate. These come in addition to the `rw` flags `mk_native.js ja` puts in the work files.
+- All entries are [inference] unless a section above tags them.
+
+| # | id | Japanese bridge or trap | Rewrite, do not translate | Length |
+|---|---|---|---|---|
+| 1 | `hangul` | Kana are syllabic and Hangul is an alphabet in syllable blocks; 1 block = 1 syllable ≠ 1 拍. Insert the §6.1 guide. One line on 韓国語 / 朝鮮語 / ハングル (§2.3). One line on why no katakana. | The vowel table glosses "eo (uh), u (oo), i (ee), e (bed)": replace with the §6.1 kana comparisons. "Tap a letter to replay" → 「文字をタップすると書き順を再生します。」 **Waiver needed** (§3.6). | **+** |
+| 2 | `polite` | です・ます ↔ ヘヨ体, タメ口 ↔ パンマル, formal ハムニダ体 (§4.9). 말 놔도 돼요 ≈ 「タメ口でいいよ」. | "Rule of thumb" stays; recast "comes off as sweet" naturally (「丁寧すぎて困ることはありません」). The "Say it 3 ways" headers become ハムニダ体 / ヘヨ体 / パンマル. "감사해요 to a shop owner — fine, but 감사합니다 is safer": keep. | **−** |
+| 3 | `meet` | The script works like 初めまして／〜です／よろしくお願いします. 잘 부탁드립니다 = よろしくお願いします (card, not this body). Age sets politeness (Japanese ask age less). 이에요 / 예요 by the last block. | Replace "Mike = 마이크, Juan = 후안" logic with Japanese-name logic **in prose**, keeping the Hangul runs 마이크 / 후안 (or waive to add 다나카예요 / 켄이에요, §9.2). Goodbye logic: 「見送る側は 안녕히 가세요、立ち去る側は 안녕히 계세요」. | **=** |
+| 4 | `sound-changes` | Japanese also changes sounds: ん varies (さんぽ / さんか), 学校 がっこう ↔ 학교 학꾜. Insert §6.2. | "gamsa ham nida" English respellings → RR only. **Drop** "open Read and try the 🔀 Sound changes drill". No waiver if §6.2 is used as written. | **+** |
+| 5 | `nouns` | No articles, no gender, optional plural たち ↔ 들 (mostly people); こそあ ↔ 이그저; の ↔ 의 usually dropped (§4.4); 은/는 = は. 학 as a reusable block = 学 (学校, 学生, 学院). | "Korean nouns are easier than English ones — there is no a or the": one line, 「日本語と同じく、冠詞も性もありません」. The "학 means learning" paragraph becomes 「학＝学：학교（学校）、학생（学生）、학원（学院・塾）」: the first 漢字語 moment. Kanji may be added freely. | **−−** |
+| 6 | `isseoyo` | です vs ある・いる splits like 이에요 vs 있어요 (§4.5). Trap: ある・いる both = 있어요. | The whole "English uses 'is' for two jobs" opening and the English / Korean / Why table: rebuild on Japanese (学生です / 学校にいます / ここは学校です / ここに学校があります). Keep every Korean cell. | **−** |
+| 7 | `pronouns-questions` | 저 / 나 ↔ わたし / 僕・俺; あなた ↔ 당신 both avoided; 우리 ↔ うち; question word in place, as in Japanese. **Trap:** あの (shared memory) = 그, not 저 (§4.6). | "Korean uses pronouns less than English": 「日本語と同じく、代名詞はあまり使いません」. The question-word order mistake (뭐 이거예요? ✕) is unlikely for Japanese speakers but must stay; note it as 「英語話者の間違い」 only if natural, otherwise keep it as is. | **−−** |
+| 8 | `verbbasics` | 辞書形 ends in 다 as Japanese ends in -u / -i; no person agreement; 形容詞 are predicates in both; 漢語 + する ↔ 하다 (§4.7). | "Describing verbs — English adjectives … no separate 'is'": one line. "Adding 'is' to a describing verb" mistake: keep the Korean, gloss briefly. Glossary term 形容詞 (not 描写動詞). | **−−** |
+| 9 | `verbs` | New for Japanese: 陽母音 / 陰母音 (아요 / 어요) and vowel merging. Present covers present, "right now" and near future, as Japanese non-past does. Add the 〜ている warning (§4.7) in Japanese only (no new Hangul). | "This one form covers 'I go', 'I'm going' and 'do you go?'": recast for Japanese (行きます・行っています・行きますか). | **=** |
+| 10 | `past` | One past, like 〜た. **Trap:** 〜ている for resulting states → Korean past (結婚しています → 결혼했어요), in Japanese prose only or with a waiver. | Delete "'I ate', 'I have eaten' and 'I did eat' are all 먹었어요" or recast as 「食べた・食べてしまった → どちらも 먹었어요」 (the Hangul 먹었어요 is in the body). | **−** |
+| 11 | `future` | -(으)ㄹ 거예요 ≈ 〜つもりです / 〜でしょう; plain present for fixed near plans, as in Japanese (明日行きます). | "pronounced with a tight k, like 'kkeoyeyo'": say 濃音 with §6.1 wording (「거예요 は濃音で、kkeoyeyo のように」; the body's run is 거예요, so never write 거 alone). | **−** |
+| 12 | `sov` | **Same order as Japanese.** 을/를 = を; describing verbs take 이/가 as 形容詞 take が (かばんが大きい); dropping 을/를 = dropping を. **Trap:** に乗る / に会う / が好き → 을/를 (§5.4), Japanese-only line or waiver. | Every "English is Subject-Verb-Object" sentence; the "English order" mistake row stays (Korean), introduced as 「語順を変えるとこうなります」. | **−−** |
+| 13 | `particles` | 에 = に, 에서 = で, and **에서 = から** for places (미국에서 왔어요). Topic vs subject = は vs が, one line. Particle map: add a 日本語 column (は / が / を / に / で・から / も). | "English often translates both as 'at'" → 「에 は『に』、에서 は『で』にほぼ対応します」. The "Particle before the noun — 에 집 ✕" mistake is an English-speaker error; keep the Korean, one short gloss. | **−** |
+| 14 | `negation` | 안 + verb ≈ 〜ない but **before** the verb; 공부 안 해요 = 勉強しない (noun split, same as Japanese); -지 않아요 ≈ 〜くないです / 〜ないです; 아니에요 = ではありません (with 이/가); 없어요 = ありません / いません. | "That one move covers most negative sentences" stays. Add 「안 は動詞の前に置きます。日本語の『〜ない』とは位置が逆です」. | **−** |
+| 15 | `do-man` | 도 = も, 만 = だけ, and **the stacking rule is identical** (にも / でも ↔ 에도 / 에서도; は・が・を are replaced). 저도요 = 私もです. 도 + negative = 〜も〜ない. | Nearly the whole rule explanation becomes 「『も』『だけ』と同じです」 plus the examples. Keep all four mistake rows. | **−−** |
+| 16 | `sentences` | The four shapes are already the Japanese ones: same order, same particles (学生です / コーヒーがおいしいです / コーヒーを飲みます / カフェに行きます・カフェで勉強します). | "English order" mistake rows stay; framing 「日本語の語順のまま、単語を入れ替えれば文が作れます」. | **−−** |
+| 17 | `want-like` | -고 싶어요 = 〜たいです. **Trap:** が好き → 을/를 좋아해요; 이/가 좋아요 ≈ 〜がいいです; 水が飲みたい → 물을 마시고 싶어요. | "To want a thing, Koreans usually name the action": recast with 「コーヒーが欲しい」 → 커피 마시고 싶어요 / 커피 주세요 (Hangul present). | **−** |
+| 18 | `numbers` | Two systems known; **breaks: hours, age, counters** take native numbers; **万 grouping holds** (§4.10). Sino numbers sound like いち・に・さん. | The whole "English counting" framing. "Sino numbers build like English digits" → 「漢字語の数は日本語と同じ組み立て：십일＝十一、이십오＝二十五」. The 만 paragraph becomes one line (「日本語と同じく万で区切ります：오만 원＝五万ウォン」). The 오십천 원 ✕ row stays. | **−** |
+| 19 | `food` | 잘 먹겠습니다 = いただきます, 잘 먹었습니다 = ごちそうさまでした (exact). 저기요 ≈ すみません. Counters as 助数詞 (コーヒー2杯). お酌 shared; turning away from seniors is new. | "Four phrases cover 90%" stays. Table manners: compare with Japanese お酌 in one line. | **=** |
+| 20 | `getting-around` | T-money ≈ Suica / ICOCA; 출구 = 出口, 4번 출구 = 4番出口; 지하철 = 地下鉄; 이번 역 / 다음 역 = 次は／その次は. | T-money line: add 「Suica のような交通系ICカード」. | **=** |
+| 21 | `titles` | 님 ≈ 様 and title + 님; 선배 = 先輩; あなた-avoidance shared. **Traps:** 씨 ≠ さん (§4.9); 오빠 / 형 / 언니 / 누나 depend on the speaker's gender and have no Japanese equivalent; bare name + 아/야 ≈ 呼び捨て (close friends and juniors only). | Table column "(you female / you male)" → 「話し手が女性 / 男性」. Add the 씨 ≠ さん warning in Japanese prose (씨 is in the body). | **+** |
+| 22 | `plans` | -(으)ㄹ까요? = 〜ましょうか, -(으)ㄹ래요? = 〜ませんか, -자 = 〜よう. 콜 ≈ 「乗った！」. Station + exit like 渋谷駅ハチ公口 meetups. | "Koreans confirm meetups with place + exit number, not addresses": recast for Japan (Japanese also meet at stations; the novelty is exit numbers). | **−** |
+| 23 | `texting` | ㅋㅋ ≈ 「笑」「w」; ㅠㅠ ≈ 「泣」; KakaoTalk ≈ LINE; 읽씹 ≈ **既読スルー** (exact concept). 넵 ≈ 「承知しました！」 in work chat. | The read-receipt paragraph: 「LINE の既読スルーと同じです」. Shorthand table glosses in Japanese. | **−** |
+| 24 | `counters` | 助数詞 exist; many are cognates (個 / 名 / 番 / 時間). **Break:** native numbers before Korean counters, 漢語 numbers before Japanese ones (§4.11, §5.7). Order noun + number + counter is the same (コーヒーを2杯). | "like 'two cups of coffee' … except it's mandatory": delete; the table gets a Japanese column (個 / 人・名 / 杯 / 本 / 匹 / 冊 / 枚 / 歳 / 時間 / 回). | **−** |
+| 25 | `joining` | -고 / -아/어서 ↔ 〜て (Japanese uses て for both; Korean chooses), -지만 ↔ 〜けど, reason first in both. **Trap:** 忙しかったので → 바빠서 (no past before 서). | "And, but, so" framing → 「〜て、〜けど、〜ので」. Keep "비싸서 맛있어요 means…" with a Japanese gloss (「高いからおいしい」). | **−** |
+| 26 | `story` | 먼저 = まず, 그리고 = そして, 그다음에 = その次に, 그래서 = だから・それで, 그런데 = でも・ところで, 마지막으로 = 最後に. | Connector table glosses in Japanese. "Native speakers overuse 그래서 and 근데" → compare with 「で、」「だから」. | **−** |
+| 27 | `noun-modifiers` | **Same structure as Japanese 連体修飾**: no relative pronoun, modifier first (私が好きな食べ物 ↔ 제가 좋아하는 음식). New: the ending changes (크다 → 큰), ㅂ変則, ㄹ語幹. | "Korean has no 'that / which / who'; the whole description sits in front": 「日本語と同じです」, one line. "English order — 가방 큰 ✕" stays. | **−−** |
+| 28 | `compare` | 보다 = より (exact, including flexible order), 더 = もっと, 제일 = 一番 (第一), 가장 = 最も. | The "보다 here is a particle … only looks like the verb 보다" note stays (still useful). | **−−** |
+| 29 | `cant` | 못 = 可能形の否定 (食べられない), 안 = 〜ない; -(으)ㄹ 수 있어요 = 〜ことができます (exact); 몰라요 / 모르겠어요 ≈ 知りません / わかりません. | The spicy-food paragraph stays. "한국어 잘 못해요 … written as one word" stays. | **−** |
+| 30 | `have-to` | -아/어야 해요 = 〜なければなりません; 안 -아/어도 돼요 = 〜なくてもいいです (exact: 도 = も); -아/어도 돼요? = 〜てもいいですか. | "literally 'it's okay even if (I) don't'" → 「『〜なくてもいい』とそっくり同じ形です」. Cross-reference to lesson 32 by its Japanese title. | **−** |
+| 31 | `honorific` | 尊敬語 ↔ -(으)시- and 드시다 / 주무시다 / 계시다 / 말씀하시다 / 성함 / 연세 (exact table, §4.9); never about oneself (same rule). **Add 絶対敬語** with 계시다: own parents and boss are honoured even to outsiders (Yutani 1991, practitioner opinion). | "Politeness (요) is about the listener. Honorifics (시) are about the subject": one line, 「요 は丁寧語、시 は尊敬語」. "your partner's parents": keep. The 絶対敬語 paragraph is new prose using only Hangul in the body (계시다, 가세요, 저는 …) or a waiver. | **+** |
+| 32 | `requests` | 좀 = ちょっと, 혹시 = もしかして, -아/어 주세요 = 〜てください, -아/어 주시겠어요? = 〜ていただけますか, -아/어도 돼요? = 〜てもいいですか. Add the 〜てもらう warning (§4.8). | Softener table glosses ('a bit', 'by any chance') → Japanese (クッション言葉). | **−** |
+| 33 | `office` | Titles are cognates: 부장 部長, 과장 課長, 차장 次長, 사장 社長, 대표 代表, 팀장 (team + 長), 대리 代理 (**false friend**: a rank), 사원 社員. Japanese uses bare titles; Korean adds 님. 수고하셨습니다 ≈ お疲れさまでした; 먼저 퇴근하겠습니다 ≈ お先に失礼します; 회식 ≈ 飲み会 (**not** 会食). **Add 絶対敬語 at work**: to a client, a Korean says 부장님은 … 안 계십니다, not 部長の田中は…. | Title table "Roughly" column → Japanese equivalents (kanji). "Leaving before your boss used to be taboo": compare with お先に失礼します culture. The 絶対敬語 line needs 계시다 / 안 계십니다, which are not in this body: Japanese prose only (「部長の…はおりません」のような言い方は韓国語ではしません), or waive. | **+** |
+
+**Summary of length:**
+- **Much shorter (−−):** `nouns`, `pronouns-questions`, `verbbasics`, `sov`, `do-man`, `sentences`, `noun-modifiers`, `compare`.
+- **Shorter (−):** `polite`, `isseoyo`, `past`, `future`, `particles`, `negation`, `want-like`, `numbers`, `plans`, `texting`, `counters`, `joining`, `story`, `cant`, `have-to`, `requests`.
+- **Same (=):** `meet`, `verbs`, `food`, `getting-around`.
+- **More (+):** `hangul`, `sound-changes`, `titles`, `honorific`, `office`.
+
+## 8. Pair-layer proposals (proposals only)
+
+**Format constraint** (as in `ceb-ko.md` §8). Spec v1 has no pair layer. The lesson list is the 33 en-ko ids, and trap cards carry Korean, which lives only in the target half. Both proposals need a spec change, for example a per-pair `extra/` folder with its own target and native rows, assembled after the shared halves. Alternatively they can be folded into existing lessons.
+
+**Fallback without a spec change:** put the opening lesson's content into the first sections of `hangul` and `polite`, as prose. Kanji are free, and Hangul needs waivers. Put trap notes for existing `ko.c` cards into their `note` fields. Put trap notes for existing `ko.s` rows into the prose of the lesson that shows them.
+
+### 8.1 Opening lesson 「すでに知っていること」
+
+Proposed id `ja-know`, placed before `hangul`. About 400 characters per screen, six screens, six checks. Japanese prose; Korean only from the half or the pair layer's own target rows.
+
+1. **語順は同じ:** 私はご飯を食べます ↔ 저는 밥을 먹어요 (s0109), word for word in the same order. Particles come after the noun, and the verb comes last.
+2. **助詞も似ている:** は / が / を / に / で / も / だけ / より ↔ 은/는 / 이/가 / 을/를 / 에 / 에서 / 도 / 만 / 보다, as a six-row table. "Choose the form by whether there is a パッチム" previews `nouns`.
+3. **漢字語:** 家族 가족, 約束 약속, 図書館 도서관, 運動 운동, 料理 요리, 銀行 은행 (all in the half). Show four rules with these examples only: く → ㄱ, つ・ち → ㄹ, ん → ㄴ / ㅁ, ら行 at the start → ㅇ / ㄴ. Add a warning: 공부＝勉強 (not 工夫), 내일＝明日 (not 来日).
+4. **数は2系統:** ひとつ・ふたつ / いち・に ↔ 하나・둘 / 일・이. The Sino numbers sound alike. Preview the breaks: 3時 → 세 시, 25歳 → 스물다섯 살.
+5. **敬語:** です・ます ↔ ヘヨ体; 召し上がる ↔ 드시다; あなたを使わない ↔ 당신を使わない. Preview: 自分の父にも尊敬語 (絶対敬語).
+6. **ここは違う (sounds):** ㅓ と ㅗ（どちらも「オ」）、ㅜ と ㅡ（どちらも「ウ」）、「ん」が3つ（ㄴ ㅁ ㅇ）、息の強さで3種類（平音・激音・濃音）. Point to `hangul`.
+7. **Checks (6):** one per screen, prose options where possible. For example: 「약속 の漢字は？」 約束 / 薬局 / 予約 / 約定.
+
+### 8.2 Deck 「日本語話者の落とし穴」: 20 sample cards
+
+Each card has the Korean (with its id if it exists in the half, or NEW for a row the pair layer would add), the Japanese meaning and a note. Meanings and notes are [inference]. NEW rows need the spec change (§8) or an addition to the built-in course (§9.4).
+
+| # | Korean (id) | Japanese meaning | Note |
+|---|---|---|---|
+| 1 | 버스를 타요 (NEW) | バスに乗ります | 「に乗る」は 을/를 타다。에 は使いません。 |
+| 2 | 친구를 만났어요 (s0223) | 友達に会いました | 「に会う」も 을/를。 |
+| 3 | 커피를 좋아해요 (s0173) | コーヒーが好きです | 좋아하다 は動詞なので 을/를。「が」につられて 이/가 にしないこと。 |
+| 4 | 선생님이 됐어요 (NEW) | 先生になりました | 「になる」は 이/가 되다。 |
+| 5 | 결혼했어요 (NEW) | 結婚しています | 状態の「〜ています」は過去形。결혼하고 있어요 は「結婚式の最中」。 |
+| 6 | 알아요 (ko.c0390) | 知っています | 「知っています」は現在形の 알아요。 |
+| 7 | 아버지는 지금 안 계세요 (NEW) | 父は今おりません | 自分の父でも、外の人に尊敬語を使います（絶対敬語）。 |
+| 8 | 세 시 삼십 분 (ko.c0408) | 3時30分 | 時は固有語の数、分は漢字語の数。삼 시 ✕。 |
+| 9 | 스물다섯 살 (ko.c0409) | 25歳 | 年齢も固有語の数。이십오 살 ✕。 |
+| 10 | 커피 두 잔 (s0177) | コーヒー2杯 | 助数詞の前は固有語の数（두）。日本語の「二杯（にはい）」とは違います。 |
+| 11 | 이름이 뭐예요? (ko.c0074) | お名前は何ですか | 疑問詞の文では「は」でも 이/가。 |
+| 12 | 제 이름 (s0037) | 私の名前 | 「の」は訳しません。저의 → 제。 |
+| 13 | 공부해요 (ko.c0328) | 勉強します | 공부＝工夫。でも意味は「勉強」。 |
+| 14 | 내일 (ko.c0597) | 明日 | 내일＝来日。でも意味は「明日」。 |
+| 15 | 약속 있어 (s0203 미안, 그날은 약속 있어) | 約束（予定）がある | 약속 は「予定・用事」の意味でもよく使います。 |
+| 16 | 계산해 주세요 (ko.c0580) | お会計お願いします | 계산＝計算。お店では「お会計」。 |
+| 17 | 포장해 주세요 (ko.c0581) | 持ち帰りでお願いします | 포장＝包装。お店では「持ち帰り」。 |
+| 18 | 생수 (ko.c0317) | ミネラルウォーター | 생수＝生水。でも「なまみず」ではありません。 |
+| 19 | 강 / 간 / 감 (NEW, or ko.c0053 for ㅇ) | 川 / 肝 / 柿 | どれも「カン」ではありません。ng（りんご）、n（案内）、m（さんま）。 |
+| 20 | 서울 (s0004) | ソウル | eo は1つの母音。口を開けた「オ」。「ソーウル」と伸ばしません。 |
+
+## 9. Localisation
+
+### 9.1 What stays
+
+- Glosses translate what the Korean says. 미국에서 왔어요 is glossed 「アメリカから来ました」, never 「日本から来ました」. *Kii*, 키이 and 오클라호마 stay.
+- 영어 할 수 있어요? (ko.c0091, ko.g014) and 혹시 영어 메뉴 있어요? (ko.s0280, ko.p040, requests.02) stay and are glossed 「英語」. They are less useful to a Japanese traveller than 일본어 versions (§9.4).
+- Won amounts stay in won. The prose may add a rough yen comparison once in `numbers` (「1,000ウォンは約100円」) [inference: the exchange rate must be checked when writing; prefer not to give a number at all].
+
+### 9.2 Japanese equivalents in prose (no new Hangul without a waiver)
+
+- **Names in explanations:** use Japanese names in kanji or kana in prose: 田中さん, 佐藤さん, ケンさん, ハルカさん. For example, `meet`'s 이에요 / 예요 logic can be explained in prose with 「田中（다나카）」 only under a waiver. **Without a waiver**, write: 「名前の最後の文字にパッチムがあれば 이에요、なければ 예요。日本人の名前は『ン』で終わる名前（ケン、ジュン）だけがパッチムつきになることが多いです。」 This sentence adds no Hangul; whether it holds for all names, for example ending in ク or ツ, needs the 표기법 check in §11.
+- **Places:** 東京, 大阪, 福岡 in prose. Seoul places stay in Korean (명동, 강남역, 홍대입구역).
+- **Apps and services:** LINE, not iMessage or WhatsApp; Suica / ICOCA for T-money; 既読スルー for 읽씹.
+- **Money:** 円 for any home comparison, and only in prose.
+- **Workplace:** Japanese company titles (部長, 課長) for comparisons in `office`.
+
+### 9.3 Korean-half rows tied to the US (for the lead)
+
+| id | Korean | Use |
+|---|---|---|
+| ko.c0077 | 미국에서 왔어요 | card |
+| ko.g021 | 어디에서 왔어요? / 미국에서 왔어요. 오클라호마요. | dialogue |
+| ko.s0012, ko.s0127 | 미국에서 왔어요 | `meet`, `particles` example rows |
+| ko.p005 | 에서 · ex 집에서 쉬어요 · 미국에서 왔어요 | pattern |
+| meet.06 | order: 미국에서 / 왔어요, distractor 미국 | practice |
+| particles.03 | mc: 미국에서 왔어요 / 미국에 왔어요 / … | practice |
+| ko.c0091, ko.g014, ko.s0280, ko.p040, requests.02 | 영어 … | English as the learner's other language |
+
+### 9.4 What the lead should add to the Korean half (proposals)
+
+| Korean | RR (generated by the export; shown for reference) | Gloss (en) | Where |
+|---|---|---|---|
+| 일본에서 왔어요 | ilboneseo wasseoyo | I'm from Japan | `ko.d.introductions`; `meet` example row |
+| 저는 일본 사람이에요 | jeoneun ilbon saramieyo | I'm Japanese | `ko.d.introductions` |
+| 도쿄에서 왔어요 / 오사카에서 왔어요 | dokyoeseo wasseoyo / osakaeseo wasseoyo | I'm from Tokyo / Osaka | `ko.d.introductions` |
+| 일본어 할 수 있어요? | ilboneo hal su isseoyo? | Can you speak Japanese? | `ko.d.survival-phrases-2` |
+| 혹시 일본어 메뉴 있어요? | hoksi ilboneo menyu isseoyo? | By any chance, is there a Japanese menu? | `ko.d.asking-around` |
+| 엔으로 얼마예요? | eneuro eolmayeyo? | How much is it in yen? | `ko.d.numbers-in-the-wild` |
+| a dialogue variant of ko.g021 ending 일본에서 왔어요. 도쿄요. | | | `ko.d.introductions` |
+| 버스를 타요 / 선생님이 됐어요 / 결혼했어요 / 아버지는 지금 안 계세요 | | (trap rows, §8.2) | pair layer or a new deck |
+
+**Process** (as `ceb-ko.md` §9.4):
+1. The lead adds the rows to the built-in en-ko course (`src/app.html`).
+2. The lead runs `export_ko.js`. New ids are appended; old ids stay.
+3. The lead checks `proof.js`.
+4. **Every** native half (en, es, ceb, ja …) then needs rows for the new ids before `validate.js` passes.
+
+A ja-only addition is not possible in spec v1.
+
+### 9.5 Interface, level titles, greetings, goals
+
+**Interface (for the lead).** `tools/i18n/ja/ui.json` was written for **ja-en**: its notes say "Korean" and "Hangul" there mean the language being learned. It renders about 20 strings with 英語:
+- 「英語はもう読めますか？」 for "Can you already read Hangul?";
+- 「英語で入力」 for "type it in Hangul";
+- 「英語はじめの一歩」 for "Korean starter";
+- 「読む 英→日」 for "Read 한→en";
+- 「Lang Appで1日5分、英語を勉強中 🇺🇸」 for the Korean share line.
+
+So `native/ja/ko/ui.json` must override **all** of these with 韓国語 / ハングル (and 🇰🇷), not only the 14 `uiKeys`. Proposed renderings [inference]:
+- 「ハングルはもう読めますか？」
+- 「ハングルで入力」
+- 「韓国語はじめの一歩」
+- 「読む 韓→日」 / 「思い出す 日→韓」
+- 「⌨️ ハングルを入力」
+- 「韓国語を学ぶ目的は？」
+- 「1日5分、韓国語を学びましょう」
+- 「韓国語の学習記録」
+- 「Lang Appで1日5分、韓国語を勉強中 🇰🇷」
+- 「韓国語、読み方、意味、メモ — 1行に1枚（読み方・メモは任意）」
+- For the 14 `uiKeys`: 「ローマ字を入力してください。ハングルは子音＋母音（＋パッチム）で1文字になります。…」, 「文字のしくみ」, 「ハングル練習」, 「ハングルで入力」, 「パターンを検索（例：에서、『〜たい』）」, 「読み方（空欄なら自動）」, 「読み方を隠す」, 「読み方を表示：オン / オフ」.
+
+The lead should grep the ja pack for 英語, 英→ and 🇺🇸 and list every hit for override.
+
+**Level titles (`ko.t*`).** The Korean titles are mostly 漢字語, so the Japanese label should be the cognate and not a translation of the English. The learner sees `선배 · 先輩` and gets a free cognate.
+
+| id | Korean | English label | Japanese label |
+|---|---|---|---|
+| ko.t01 | 새싹 | Sprout | **新芽** (as the ja UI already has; 新芽 is not the kanji of 새싹, which is a native word) |
+| ko.t03 | 학생 | Student | **学生** |
+| ko.t05 | 선배 | Senior | **先輩** |
+| ko.t08 | 고수 | Pro | **上級者** (고수 = 高手; 高手 is not everyday Japanese) |
+| ko.t12 | 달인 | Master | **達人** |
+| ko.t16 | 사범 | Sensei | **師範** (not 先生: the English label is a Japanese loan, and the Korean is 師範) |
+
+**Greetings (`ko.h.*`)**, glossed with the natural Japanese greeting rather than a literal translation:
+
+| id | Korean | Japanese |
+|---|---|---|
+| ko.h.night | 늦었어요, 수고했어요 | 遅くまでお疲れさまでした |
+| ko.h.morning | 좋은 아침이에요 | おはようございます |
+| ko.h.afternoon | 좋은 오후예요 | こんにちは |
+| ko.h.evening | 좋은 저녁이에요 | こんばんは |
+
+**Goals and plans:**
+
+| id | Japanese |
+|---|---|
+| goal.travel | 旅行・移動 |
+| goal.social | 恋愛・友だち・遊び |
+| goal.drama | 韓国ドラマ・K-POP |
+| goal.work | 仕事・勉強 |
+| plan.trip | 韓国旅行 |
+| plan.social | 友だち・恋人をつくる |
+| plan.conv | 90日で会話 |
+
+**Course and deck names:**
+- `course.json` name: 韓国語 (§2.3).
+- Deck labels use Japanese with katakana loans where natural: 「ハングル・母音」, 「ハングル・子音」, 「ハングル・発展」, 「発音のコツ」, 「サバイバルフレーズ」, 「自己紹介」, 「助詞」, 「助数詞」, 「敬語」, 「K-POP・ファン文化」, 「仕事・オフィス」 [inference; all need the native check].
+
+**Pause idioms (ko.i01–ko.i32)** carry `hanja` in the target half (所願成就, 一石二鳥 …). Many are also Japanese 四字熟語 (一石二鳥, 大器晩成, 七転八起 as 七転び八起き, 塞翁が馬). Their Japanese labels should use the Japanese idiom where one exists. Where Japanese differs (轉禍爲福 ≈ 禍を転じて福となす), say so in the label [inference].
+
+**Later, for TOPIK takers** [inference]: a ハムニダ体 reading deck and TOPIK I vocabulary are beyond this course. If added, they should follow the official TOPIK materials, which were not opened (§11).
+
+## 10. Native check: 20 questions for a Japanese-speaking reviewer
+
+Each item points to a passage. The reviewer answers 「OK」 or writes the natural version.
+
+1. §3.3 sample sentences 1–10: natural for an NHK-style or university textbook? Too stiff or too casual?
+2. §3.4 glossary: are 存在詞, 指定詞, 陽母音 / 陰母音, パッチムのある語幹, 連体形 and クッション言葉 terms a general learner understands, or should some get a plainer gloss?
+3. §2.3: is 韓国語 the right house term? Would a heritage learner be put off by the single mention of 朝鮮語, or by its absence?
+4. §3.2: are the glosses for 안녕히 가세요 / 계세요 (「さようなら（見送る側／立ち去る側）」) natural?
+5. §6.1 vowels: is 「口を『ア』のように大きく開けたまま『オ』」 a clear instruction for ㅓ? Is 「日本語のウは ㅜ と ㅡ の中間」 accurate to your ear?
+6. §6.1 consonants: is 「前に小さい『っ』があるつもりで」 the usual way 濃音 is explained? Is 「語頭では濁りません」 clear?
+7. §6.1 patchim: are 案内 / さんま / りんご good anchor words for ㄴ / ㅁ / ㅇ (do you pronounce them that way)?
+8. §6.2: is the 学校（がっこう）↔ 학교 학꾜 comparison helpful?
+9. §4.5 / §4.7: are the Japanese sentences in the 〜ている table natural (眼鏡をかけています、韓国に来ています …)?
+10. §4.9: is 「父は今おりません」 the natural Japanese for the 絶対敬語 example? Is 「部長の田中は席を外しております」 the natural business version?
+11. §4.9: is 「씨 は『さん』に似ていますが、目上の人には使いません」 a fair warning?
+12. §4.12.3 false friends: is each Japanese meaning correct (生水, 飲料水, 食堂, 代理, 会食, 男子 / 女子, 認定)?
+13. §4.12.2: are the readings correct (市場 いちば / しじょう, 信号灯, 清掃 vs 掃除)?
+14. §8.2 trap cards 1–20: are the meanings and notes natural and correct?
+15. §9.5 level titles: 新芽, 学生, 先輩, 上級者, 達人, 師範. Do they work as game-like level names? Is 上級者 the right choice for 고수?
+16. §9.5 greetings: 「遅くまでお疲れさまでした」 for 늦었어요, 수고했어요?
+17. §9.5 goals and plans labels: natural?
+18. §9.5 interface overrides: are 「ハングルで入力」 and 「読む 韓→日」 clear?
+19. §7, lesson 22: is 「乗った！」 a fair gloss for 콜? Lesson 23: is 既読スルー exactly the right equivalent of 읽씹?
+20. §4.8: is 잘 모르겠어요 ≈ 「よくわかりません」 and 몰라요 ≈ 「知りません」 a fair pairing?
+
+## 11. Gaps and unverified claims
+
+**No native check yet.** Every Japanese sentence, gloss, term choice and label in §3.3, §4, §6, §7, §8 and §9 is [inference] by a non-native author. §10 orders what to check first.
+
+**Evidence that was found, and its limits**
+- **arXiv 2306.10821 (2023):** 170 Japanese speakers, 140 of them advanced. Read speech from a corpus. Errors come from automatic phonetic transcription, not human judges, so the figures are machine-labelled. The Hangul mapping of the paper's IPA rows was done by the fetch summary ("approximations") and checked here only by reasoning.
+- **Jo, Kim & Kim (2008):** 16 Japanese marriage migrants, mean age 42.5, compared with Korean women of mean age 28.3 (an age confound). VOT units were not stated in the fetched text. ㅂ, ㅌ, ㄱ and the affricates were not reported as significant for the Japanese group, and their values were not given. `ceb-ko.md` records that an earlier fetch of the same PDF swapped group columns for the Filipino data. Here the Japanese values were fetched with explicit group labels, and the direction (tense too long, aspirated too short) matches arXiv's tensification and plain-substitution findings.
+- **Nam (2002):** 8 participants, abstract only, no rates.
+- **Hong, Ryu & Chung (2014):** abstract only; no per-phoneme results.
+- **Yutani (1991):** an essay by a Japanese professor of Korean, with examples, not an error count. The 絶対敬語 claim is the standard textbook view, and he qualifies it (압존법).
+- **Takagi & Yun (n.d.):** only the opening section was readable; it names particles, aspect and connective endings as interference areas without examples or counts. No grammar error in §5.4–5.8 has a frequency.
+- **Kim (2010):** a descriptive correspondence study with no counts; "exceptions are very few" is qualitative. Rules 15–20 and most examples in §4.12.1 are the author's.
+- **False friends:** two press or blog sources ([practitioner opinion]). Most of §4.12.3 is [inference]. In particular, the claimed Japanese meanings of 生水, 飲料水, 食堂, 代理, 会食 and 認定 need the native check.
+
+**Not found, or could not be opened**
+- **NHK course facts:**
+  - The Japanese Wikipedia-mirror page on 「アンニョンハシムニカ・ハングル講座」 failed to load.
+  - The naming claim rests on English Wikipedia's *Names of Korea*, a second-hand source.
+  - The start year, the current programme names (まいにちハングル講座, ステップアップ ハングル講座 appear in search results only) and NHK's topic order were not verified.
+- **Topic order of Japanese textbooks** (できる韓国語, NHK, university syllabi), including whether ハムニダ体 or ヘヨ体 comes first: not verified. A CiNii record on how textbooks for Japanese speakers introduce 文字と発音 had an empty abstract page. Several Japanese repository PDFs (Rikkyo, Ritsumeikan, Dokkyo, TUFS) redirect to signed storage URLs the fetch tool refused. §2.4 is the author's knowledge.
+- **The 語基 tradition** (第I・II・III語基) and who uses it: not verified; the TUFS page did not open. The decision for 語幹 + 語尾 rests on the 小学館 dictionary's terms and on the half's own logic.
+- **Katakana readings in Japanese textbooks**, and the 「っ」 device for 濃音 and the 「ん」 device for patchim: common teaching practice in the author's knowledge, but no opened source states it.
+- **ハン検 figures, numbers of universities and high schools teaching Korean, learner motivation surveys in Japan:** not found. The only figures are TOPIK takers from one press interview.
+- **Zainichi adult heritage learners:** only one small study of first graders at a Korean school was opened. Claims about dialect and family vocabulary are [inference].
+- **Korean loanword rules for Japanese names** (다나카, 도쿄, つ → 쓰, っ → ㅅ, no long vowels): from the author's knowledge of 국립국어원 외래어 표기법; the official page was not opened. The claim in §9.2 that most Japanese names end without パッチム except those in ン must be checked against it (e.g. names in ク / ツ map to 쿠 / 쓰, which are vowel-final, so the claim is likely true).
+- **씨 with a surname alone sounding condescending; ハムニダ体-first learners sounding stiff; avoidance of 4:** practitioner commonplaces, not verified.
+- **The Japanese meaning of 퇴사 vs 退社:** Japanese 退社 means both "leave the office for the day" and "quit"; note.com gives only the first. Writers should not claim Japanese 退社 never means quitting.
+
+**Engine and format (for the lead)**
+- `LANGS` has `ja` (`src/app.html`: `ja:{name:'Japanese',self:'日本語',flag:'🇯🇵',ko:'일본어'}`), so the validator's LANGS check should pass for `ja ko`.
+- The Japanese interface pack exists but is tuned for ja-en (§9.5): about 20 strings plus the 14 `uiKeys` need ja-ko overrides in `native/ja/ko/ui.json`.
+- `hangul` needs `_waive` for the reading guide. `meet` needs one only if a Japanese name or 일본 line is added. `sound-changes` needs none if §6.2 is used as written.
+- `trainer.json` for `ja` (Hangul drill meanings, `hangul.alt`) is not covered by this profile. Japanese learners type Latin readily, so `defaultMode` can stay `type`. The obvious Japanese-style alternates (`o` for ㅓ, `u` for ㅡ) are forbidden by spec §10.3, because they equal another jamo's canonical spelling, so `hangul.alt` probably adds little. Not designed here.
+- The pair layer (§8) and the Japan rows (§9.4) need a spec change or an update to the built-in course; neither is possible inside spec v1 for one language alone.
+
+## Sources
+
+Web pages opened and used for this profile (2026-11-23):
+- [Comparison of L2 Korean pronunciation error patterns from five L1 backgrounds by using automatic phonetic transcription (arXiv 2306.10821, 2023)](https://arxiv.org/html/2306.10821v1)
+- [Jo, S.-H., Kim, H.-G. & Kim, S.-J. (2008). 여성 결혼이민자들의 한국어 조음에 나타나는 음향음성학 특성 연구: 일본과 필리핀 출신 여성 결혼이민자들을 대상으로. *음성과학* 15(3)](https://koreascience.kr/article/JAKO200833338919695.pdf)
+- [남기춘 / Nam, K.-C. (2002). 일본어 화자의 한국어 평음/기음/경음 지각 오류. *언어청각장애연구* 7(1) (abstract page)](https://scholar.kyobobook.co.kr/article/detail/4010023096654)
+- [Hong, H., Ryu, H. & Chung, M. (2014). The relationship between segmental production by Japanese learners of Korean and pronunciation evaluation. *Phonetics and Speech Sciences* 6(4) (abstract page)](https://koreascience.kr/article/JAKO201403359905317.page?&lang=ko)
+- [金珉秀 / Kim, M. (2010). 日韓漢字音の対照研究―子音（初声と終声）の対応を中心に―. *筑波学院大学紀要* 5](https://japan-iu.ac.jp/library/kiyou/2010/06KIM.pdf)
+- [油谷幸利 / Yutani, Y. (1991). 일본인이 본 한국어 경어법. *새국어생활* 1(3), 국립국어원](https://www.korean.go.kr/nkview/nklife/1991_3/1_8.html)
+- [高木南欧子・尹亭仁. 日韓両言語の学習者の作文にみられる母語干渉の諸相 (Kanagawa University repository; opening section only)](https://kanagawa-u.repo.nii.ac.jp/record/13708/files/05%20%E6%97%A5%E9%9F%93%E4%B8%A1%E8%A8%80%E8%AA%9E%E3%81%AE%E5%AD%A6%E7%BF%92%E8%80%85%E3%81%AE%E4%BD%9C%E6%96%87%E3%81%AB%E3%81%BF%E3%82%89%E3%82%8C%E3%82%8B%E6%AF%8D%E8%AA%9E%E5%B9%B2%E6%B8%89%E3%81%AE%E8%AB%B8%E7%9B%B8.pdf)
+- [柳美佐 / Ryu, M. (2009). 在日朝鮮学校における小学1年生へのL2朝鮮語指導の特徴. *母語・継承語・バイリンガル教育（MHB）研究* 5](https://ir.library.osaka-u.ac.jp/repo/ouka/all/25052/mhb_05_022.pdf)
+- [JapanKnowledge: 小学館『韓日辞典』 凡例 10 用語解説](https://japanknowledge.com/contents/skj/hanrei10.html)
+- [JapanKnowledge: 小学館『韓日辞典』 凡例 6 アスペクト](https://japanknowledge.com/contents/skj/hanrei06.html)
+- [Wikipedia: Names of Korea](https://en.wikipedia.org/wiki/Names_of_Korea)
+- [Herald Business (2026-11-06). TOPIK test-takers in Japan nearly double — and accessibility gets the credit](https://mbiz.heraldcorp.com/article/10927518)
+- [Keio University Faculty of Foreign Language Studies: 慶應外語の魅力・特色 朝鮮語科](https://www.fls.keio.ac.jp/content/files/m_12_tokushoku.pdf)
+- [설동훈 (2019-08-21). 다문화칼럼 "함께하는세상". 세계일보](https://www.segye.com/newsView/20190821510863)
+- [キューQ (2024-02-10). 韓国と日本、同じ漢字だが違う意味で使われる例. note.com](https://note.com/710531/n/nc3d946f6bfe9)
+
+Local project files read: `docs/HALVES-SPEC.md`; `docs/profiles/ceb-ko.md` (model); `docs/profiles/en-es.md` (evidence discipline); `docs/profiles/ja.md` §1–3 (Japanese house style); `tools/halves/native/es/ko/REVIEW.md`; `tools/halves/lib.js` (`HANGUL_RX`); `tools/halves/validate.js`; `tools/halves/target/ko/{lessons,cards,sentences,course,trainer}.jsonl/json`; `tools/halves/native/en/ko/{lessons.jsonl,cards.jsonl,sentences.jsonl,labels.jsonl,decks.jsonl,ui.json,course.json}` and all 33 `lessons/*.html`; `tools/i18n/ja/ui.json`; the `LANGS` table in `src/app.html`.

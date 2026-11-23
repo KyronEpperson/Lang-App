@@ -1,0 +1,641 @@
+{"id":"ko.c0001","meaning":"a, sama sa a sa palit","note":"Tul-id nga linya, may gamay nga guhit sa tuo."}
+{"id":"ko.c0002","meaning":"eo: usa ka vowel, abli ang baba, dili lingin ang ngabil","note":"Guhit sa wala. Dili kini o: ablihi ang baba sama sa a, ug ayaw lingina ang ngabil."}
+{"id":"ko.c0003","meaning":"o nga lingin kaayo ang ngabil","note":"Pahigda nga linya, guhit pataas."}
+{"id":"ko.c0004","meaning":"u nga lingin ang ngabil, sama sa tubig","note":"Pahigda nga linya, guhit paubos."}
+{"id":"ko.c0005","meaning":"eu: u nga patag ang ngabil","note":"Walay ingon niini sa Bisaya: pahiyom, unya ingna ang u."}
+{"id":"ko.c0006","meaning":"i, sama sa i sa sili","note":"Usa ra ka tul-id nga linya."}
+{"id":"ko.c0007","meaning":"e sa kape (karon pareho sa ㅔ)","note":"Sa Koreano karon, pareho ang tingog niini ug sa ㅔ."}
+{"id":"ko.c0008","meaning":"e sa kape, dili i","note":"Sa pagsulti, pareho ang tingog sa ㅐ."}
+{"id":"ko.c0009","meaning":"ya, sama sa ya sa niya","note":"ㅏ nga may dugang guhit: y sa atubangan."}
+{"id":"ko.c0010","meaning":"yeo (y + eo)","note":"ㅓ + y."}
+{"id":"ko.c0011","meaning":"yo (y + o nga lingin)","note":"ㅗ + y."}
+{"id":"ko.c0012","meaning":"yu (y + u)","note":"ㅜ + y."}
+{"id":"ko.c0013","meaning":"g nga humok sa sinugdanan, k sa katapusan","note":"가 = ga, 악 = ak."}
+{"id":"ko.c0014","meaning":"n","note":"나 = na."}
+{"id":"ko.c0015","meaning":"d sa sinugdanan, t sa katapusan","note":"다 = da."}
+{"id":"ko.c0016","meaning":"r sama sa Bisaya taliwala sa vowel, l sa katapusan","note":"라 = ra, 물 = mul (dili \"mur\")."}
+{"id":"ko.c0017","meaning":"m","note":"마 = ma."}
+{"id":"ko.c0018","meaning":"b sa sinugdanan, p sa katapusan","note":"바 = ba, 밥 = bap."}
+{"id":"ko.c0019","meaning":"s; sa atubangan sa ㅣ, mahimong sh","note":"사 = sa, 시 = si (daw \"shi\")."}
+{"id":"ko.c0020","meaning":"walay tingog sa sinugdanan, ng sa katapusan","note":"아 = a, 강 = gang."}
+{"id":"ko.c0021","meaning":"j, sama sa dy sa dyip","note":"자 = ja (daw \"dya\"), dili sama sa j sa Jose."}
+{"id":"ko.c0022","meaning":"ch nga may buga sa hangin (aspirated consonant sa ㅈ)","note":"차 = cha."}
+{"id":"ko.c0023","meaning":"k nga may buga sa hangin (aspirated consonant sa ㄱ)","note":"카 = ka."}
+{"id":"ko.c0024","meaning":"t nga may buga sa hangin (aspirated consonant sa ㄷ)","note":"타 = ta."}
+{"id":"ko.c0025","meaning":"p nga may buga sa hangin (aspirated consonant sa ㅂ)","note":"파 = pa."}
+{"id":"ko.c0026","meaning":"h, kanunay ingnon","note":"하 = ha."}
+{"id":"ko.c0027","meaning":"g/k nga hugot (tense consonant)","note":"까 kka. Hugot ang tutunlan, walay hangin. 꽃 = bulak, 까만 = itom."}
+{"id":"ko.c0028","meaning":"d/t nga hugot (tense consonant)","note":"따 tta. 딸 = anak nga babaye, 똑바로 = diretso."}
+{"id":"ko.c0029","meaning":"b/p nga hugot (tense consonant)","note":"빠 ppa. 빨리 = dali, 아빠 = papa."}
+{"id":"ko.c0030","meaning":"s nga hugot (tense consonant)","note":"싸 ssa. 쌀 = bugas, 있어요 = naa."}
+{"id":"ko.c0031","meaning":"j nga hugot (tense consonant)","note":"짜 jja. 짜다 = parat, 진짜 = tinuod gyud."}
+{"id":"ko.c0032","meaning":"wa","note":"ㅗ + ㅏ. 과일 = prutas, 와요 = moanhi."}
+{"id":"ko.c0033","meaning":"wo (w + eo)","note":"ㅜ + ㅓ. 원 = won, 뭐 = unsa."}
+{"id":"ko.c0034","meaning":"we (oe sa romanization)","note":"ㅗ + ㅣ. 회사 = kompanya, 외국 = langyaw nga nasod."}
+{"id":"ko.c0035","meaning":"wi","note":"ㅜ + ㅣ. 귀 = dalunggan, 위 = ibabaw / tiyan."}
+{"id":"ko.c0036","meaning":"we (wae o we sa romanization)","note":"Duha ka letra, usa ra ang tingog: \"we\". 왜 = ngano, 웨딩 = kasal."}
+{"id":"ko.c0037","meaning":"ui / i / e","note":"의사 = doktor (ui), 거의 = hapit (i), 친구의 = sa higala (e)."}
+{"id":"ko.c0038","meaning":"ye","note":"Pareho ang duha: \"ye\". 얘기 = istorya, 예 = oo (formal)."}
+{"id":"ko.c0039","meaning":"tanan daw t sa katapusan, walay buga sa hangin","note":"옷 ot, 있다 itda, 꽃 kkot, 끝 kkeut, 낮 nat."}
+{"id":"ko.c0040","meaning":"k sa katapusan","note":"부엌 bueok (kusina), 밖 bak (gawas)."}
+{"id":"ko.c0041","meaning":"p sa katapusan","note":"앞 ap (atubangan), 옆 yeop (kilid)."}
+{"id":"ko.c0042","meaning":"dobleng final consonant","note":"Usa ra ang madungog: 닭 dak (manok), 값 gap (presyo), 읽다 ikda."}
+{"id":"ko.c0043","meaning":"final consonant (sa katapusan sa syllable)","note":"Pito ra ka tingog ang mabilin sa katapusan sa syllable: k, n, t, l, m, p, ng. Ang 옷 daw \"ot\", ang 꽃 daw \"kkot\". Isira ang baba o dila, apan ayaw ibuga ang hangin."}
+{"id":"ko.c0044","meaning":"humok nga s batok sa hugot nga s","note":"살 (sal, unod) batok sa 쌀 (ssal, bugas). Ang tense consonant: hugot ang tutunlan, walay buga sa hangin."}
+{"id":"ko.c0045","meaning":"g · kk · k (han-ay sa k: plain, tense ug aspirated consonant)","note":"가 ga / 까 kka / 카 ka. Aspirated consonant: kusog nga buga sa hangin. Tense consonant: hugot, walay hangin."}
+{"id":"ko.c0046","meaning":"d · tt · t (han-ay sa t: plain, tense ug aspirated consonant)","note":"달 dal (bulan) / 딸 ttal (anak nga babaye) / 탈 tal (maskara)."}
+{"id":"ko.c0047","meaning":"b · pp · p (han-ay sa p: plain, tense ug aspirated consonant)","note":"불 bul (kalayo) / 뿔 ppul (sungay) / 풀 pul (sagbot)."}
+{"id":"ko.c0048","meaning":"j · jj · ch (han-ay sa ch: plain, tense ug aspirated consonant)","note":"자다 jada (matulog) / 짜다 jjada (parat) / 차다 chada (bugnaw kon hikapon)."}
+{"id":"ko.c0049","meaning":"linking (mobalhin ang consonant)","note":"Ang final consonant moambak sa sunod nga vowel, walay glottal stop: 한국어 → 한구거 (han-gu-geo), 음악 → 으막 (eu-mak)."}
+{"id":"ko.c0050","meaning":"r sama sa Bisaya, sama sa r sa pero","note":"머리 meori, 다리 dari. Sa katapusan, l: 물 mul."}
+{"id":"ko.c0051","meaning":"dobleng ㄹ = tin-aw ug taas nga l","note":"빨리 ppalli (dali), 몰라 molla. Dili kini r."}
+{"id":"ko.c0052","meaning":"ㅎ halos dili madungog taliwala sa vowel","note":"좋아요 → 조아요 (joayo). 많이 → 마니 (mani)."}
+{"id":"ko.c0053","meaning":"ng sama sa ngalan, apan sa katapusan sa syllable","note":"강 gang, 사랑 sarang. Usa ka tingog, dili n ug g nga bulag."}
+{"id":"ko.c0054","meaning":"nasal sound change","note":"Ang ㄱ/ㄷ/ㅂ sa atubangan sa ㄴ/ㅁ mahimong ng/n/m: 감사합니다 → 감사함니다, 국물 → 궁물."}
+{"id":"ko.c0055","meaning":"usa ka vowel, tulo ka tingog","note":"의사 ui-sa (doktor) sa sinugdanan; 거의 geo-i; ang possessive nga 의 → 에 (친구의 → 친구에)."}
+{"id":"ko.c0056","meaning":"pareho ang tingog sa Seoul karon","note":"Pareho og tingog ang 개 ug 게; ang konteksto ang magbuot."}
+{"id":"ko.c0057","meaning":"duha ka klase sa o","note":"ㅓ = abli ang baba, dili lingin ang ngabil. ㅗ = lingin ang ngabil. 서울 ug 소울: lahi kini nga mga pulong."}
+{"id":"ko.c0058","meaning":"patag ang ngabil, ang dila naa sa luyo","note":"Walay ingon niini sa Bisaya. Ingna ang u samtang nagpahiyom. 음, 그, 는."}
+{"id":"ko.c0059","meaning":"mosaka ang tingog sa pangutana, mokanaog sa pahayag","note":"가요↗ = moadto ka? 가요↘ = moadto ko. Pareho nga pulong. Sama sa Bisaya nga walay ba: ang tingog ra ang mausab."}
+{"id":"ko.c0060","meaning":"may espasyo ang mga pulong; motapot ang particle","note":"저는 밥을 먹어요: 저는 / 밥을 / 먹어요. Ang particle dili gyud mag-inusara."}
+{"id":"ko.c0061","meaning":"Maayong adlaw","note":"Ang matinahurong pangumusta, bisan unsang orasa."}
+{"id":"ko.c0062","meaning":"Salamat","note":"Formal kini. Ang casual: 고마워 (gomawo)."}
+{"id":"ko.c0063","meaning":"Pasayloa ko","note":"Formal nga pagpangayo og pasaylo. Ang 미안해 (mianhae) kay casual."}
+{"id":"ko.c0064","meaning":"Oo / Dili","note":"Ang 네 pwede sab nga \"sige\" o \"mm-hm\"."}
+{"id":"ko.c0065","meaning":"Tagpila ni?","note":"Tudloi ang butang ug pangutana."}
+{"id":"ko.c0066","meaning":"Asa ang CR?","note":"어디예요 = asa man."}
+{"id":"ko.c0067","meaning":"Kini, palihug","note":"Sa pag-order o pagpalit. 주세요 = palihug hatagi ko."}
+{"id":"ko.c0068","meaning":"(Ingnon sa dili pa mokaon)","note":"Sa literal: \"mokaon ko og maayo.\" Pasalamat kini sa nagluto o sa nanlibre."}
+{"id":"ko.c0069","meaning":"Okay ra / Okay ra ko","note":"Gamiton sab sa matinahurong pagdumili."}
+{"id":"ko.c0070","meaning":"Hinay-hinay lang og sulti, palihug","note":"Pulong nga makaluwas nimo."}
+{"id":"ko.c0071","meaning":"Dili pa ko hanas sa Koreano","note":"Mopailub ang mga tawo nimo kon moingon ka niini."}
+{"id":"ko.c0072","meaning":"Kadiyot lang / tabi","note":"Sa pag-agi sa mga tawo sulod sa subway."}
+{"id":"ko.c0073","meaning":"Ako si ___","note":"Tan-awa ang katapusang Hangul block: 이에요 human sa final consonant (저는 킴이에요), 예요 human sa vowel (저는 리사예요). Sama sa Bisaya, mausab ang porma kon mohuman sa vowel o sa consonant."}
+{"id":"ko.c0074","meaning":"Unsay imong ngalan?","note":"Mas matinahuron: 성함이 어떻게 되세요? para sa mas magulang o pormal nga okasyon."}
+{"id":"ko.c0075","meaning":"Nalipay ko nga nakaila nimo","note":"Sa literal: \"nalipay kay nagkita ta\". Ang formal: 반갑습니다."}
+{"id":"ko.c0076","meaning":"Taga-asa ka?","note":"에서 = gikan sa. 어디 = asa."}
+{"id":"ko.c0077","meaning":"Taga-Amerika ko","note":"미국 = Amerika (US). 한국 Korea, 영국 UK, 캐나다 Canada, 멕시코 Mexico."}
+{"id":"ko.c0078","meaning":"Pila na ang imong edad?","note":"Normal kini nga pangutana sa Korea: ang edad ang magbuot kon unsaon nila pagsulti sa usag usa."}
+{"id":"ko.c0079","meaning":"Traynta anyos na ko","note":"Native number + 살. 스물다섯 살 = 25. Dili sama sa Bisaya nga Kinatsila ang edad."}
+{"id":"ko.c0080","meaning":"Unsay imong trabaho?","note":"일 = trabaho. Pwede sab ang 직업이 뭐예요?."}
+{"id":"ko.c0081","meaning":"Empleyado ko sa opisina","note":"학생 estudyante, 선생님 titser, 개발자 developer, 간호사 nars."}
+{"id":"ko.c0082","meaning":"Nagtuon ko og Koreano","note":"공부하다 = magtuon. Ingna kini ug malipay dayon ang mga tawo."}
+{"id":"ko.c0083","meaning":"Unsay imong kalingawan?","note":"취미 = kalingawan. 제 취미는 운동이에요 = ang akong kalingawan mao ang pag-ehersisyo."}
+{"id":"ko.c0084","meaning":"Palihug giyahi ko","note":"Ingnon human nimo ipaila ang imong kaugalingon sa trabaho o sa grupo. Walay eksaktong sama sa Bisaya; murag \"hinaot nga magkasinabot ta\"."}
+{"id":"ko.c0085","meaning":"Palihug (aron makatawag og atensyon)","note":"Sa pagtawag sa waiter o sa paghunong sa tawo sa dalan. Dili kini pagpangayo og pasaylo."}
+{"id":"ko.c0086","meaning":"Okay ra ka?","note":"Pareho sa \"okay ra ko\", apan mosaka ang tingog."}
+{"id":"ko.c0087","meaning":"Tabangi ko, palihug","note":"Para sa emerhensya o sa bug-at lang nga bag."}
+{"id":"ko.c0088","meaning":"Dili ko kabalo","note":"모르다 → 몰라요."}
+{"id":"ko.c0089","meaning":"Wala nako masabti","note":"Ingna kini, unya 다시 말해 주세요."}
+{"id":"ko.c0090","meaning":"Palihug ingna pag-usab","note":"다시 = usab."}
+{"id":"ko.c0091","meaning":"Makasulti ka og Iningles?","note":"할 수 있다 = makahimo. Mapuslanon kon kulang pa ang imong Koreano."}
+{"id":"ko.c0092","meaning":"Unsa ni?","note":"Tudloi ug pangutana. Para sa pagkaon, karatula, tanan."}
+{"id":"ko.c0093","meaning":"Mogamit ko sa CR","note":"Ang 좀 mopahumok; ang 게요 nagpahibalo sa imong buhaton."}
+{"id":"ko.c0094","meaning":"Pwede ang card?","note":"돼요 = pwede ba / mogana ba."}
+{"id":"ko.c0095","meaning":"Unsay password sa wifi?","note":"비밀번호 = password."}
+{"id":"ko.c0096","meaning":"Mohatod mo sa balay? (delivery)","note":"배달 = paghatod sa balay. Sa Korea, mahatod ang tanan."}
+{"id":"ko.c0097","meaning":"Naa koy reserbasyon","note":"예약 = reserbasyon. 예약 가능해요? = pwede ko magpareserba?"}
+{"id":"ko.c0098","meaning":"Nawala ko","note":"길 = dalan. 잃다 = mawala."}
+{"id":"ko.c0099","meaning":"Asa ang ospital?","note":"약국 (yakguk) = botika. 경찰서 = estasyon sa pulis."}
+{"id":"ko.c0100","meaning":"Hinay-hinay lang, palihug","note":"Ang pinakamubong porma sa 천천히 말해 주세요."}
+{"id":"ko.c0101","meaning":"Asa man ang CR? (taas nga porma)","note":"Taas nga porma. Mubo: 화장실 어디예요? Pareho okay."}
+{"id":"ko.c0102","meaning":"Naay CR diri?","note":"Daghang kapehan ug gagmayng tindahan walay CR sa sulod."}
+{"id":"ko.c0103","meaning":"Pwede ko mogamit sa CR?","note":"아/어도 돼요 = okay ra ba kon…"}
+{"id":"ko.c0104","meaning":"Unsay code sa CR?","note":"Daghang CR sa kapehan adunay keypad. Ang code naa sa resibo, o pangutan-a ang staff."}
+{"id":"ko.c0105","meaning":"Naay tisyu?","note":"휴지 = tisyu. Pagdala gihapon og imoha."}
+{"id":"ko.c0106","meaning":"Asa ang convenience store?","note":"GS25, CU, 세븐일레븐. Kanunay naay duol."}
+{"id":"ko.c0107","meaning":"Asa ang pinakaduol nga estasyon?","note":"제일 가까운 = ang pinakaduol."}
+{"id":"ko.c0108","meaning":"Asa ang exit?","note":"입구 = agianan pasulod. 출구 = agianan pagawas."}
+{"id":"ko.c0109","meaning":"Unsang numero sa exit?","note":"May numero ang mga exit sa subway. 3번 출구 = exit 3."}
+{"id":"ko.c0110","meaning":"Asa ni dapita? / Asa ko karon?","note":"Ipakita ang imong mapa ug pangutana."}
+{"id":"ko.c0111","meaning":"Asa ko makapalit niini?","note":"사다 = mopalit. 팔아요? = nagbaligya mo?"}
+{"id":"ko.c0112","meaning":"Asa ang bayranan?","note":"계산 = bayad. 계산대 = bayranan."}
+{"id":"ko.c0113","meaning":"Naay lingkuranan / lamesa?","note":"Sa pagsulod sa kan-anan o kapehan."}
+{"id":"ko.c0114","meaning":"Duha ka tawo","note":"Tubag sa 몇 명이세요? (pila mo?). 한 명이요 = usa. 세 명이요 = tulo."}
+{"id":"ko.c0115","meaning":"Pwede ko molingkod diri?","note":"앉다 = molingkod."}
+{"id":"ko.c0116","meaning":"Naa moy charger?","note":"Sagad mopahulam ang kapehan. 콘센트 = saksakan."}
+{"id":"ko.c0117","meaning":"Asa ang saksakan?","note":"Ang 콘센트 gikan sa \"concentric plug\", pulong nga gihulam sa Hapon gikan sa Iningles."}
+{"id":"ko.c0118","meaning":"Naay wifi?","note":"Sunda og 비밀번호가 뭐예요?"}
+{"id":"ko.c0119","meaning":"Unsang orasa mo magsira?","note":"닫다 = magsira. 열어요 = moabli."}
+{"id":"ko.c0120","meaning":"Unsang orasa mo moabli?","note":"열다 = moabli."}
+{"id":"ko.c0121","meaning":"Unsa kadugay ko maghulat?","note":"기다리다 = maghulat. 아/어야 돼요 = kinahanglan."}
+{"id":"ko.c0122","meaning":"Pwede nimo mi kuhaan og litrato?","note":"Matinahuron kaayo tungod sa 주실래요. Unya ihatag ang selpon."}
+{"id":"ko.c0123","meaning":"Resibo, palihug","note":"영수증 필요하세요? = kinahanglan nimo og resibo? (pangutan-on ka niini)."}
+{"id":"ko.c0124","meaning":"Supot, palihug","note":"Ang supot mga 100원. 봉투 필요하세요? = kinahanglan og supot?"}
+{"id":"ko.c0125","meaning":"Naay diskwento?","note":"할인 = diskwento. 세일 = sale."}
+{"id":"ko.c0126","meaning":"Pwede ni ilisan?","note":"교환 = ilis. 환불 = refund."}
+{"id":"ko.c0127","meaning":"Usa ka iced Americano, palihug","note":"아아 (a-a) = slang sa iced Americano. 뜨아 = init nga Americano."}
+{"id":"ko.c0128","meaning":"Ang init, palihug","note":"따뜻한 = init-init. 차가운 거 = bugnaw nga usa."}
+{"id":"ko.c0129","meaning":"Unsay mga gidak-on ninyo?","note":"Sa kadaghanang kapehan: 톨 / 그란데 / 벤티 o 레귤러 / 라지."}
+{"id":"ko.c0130","meaning":"Ang dako, palihug","note":"큰 = dako. 작은 거 = ang gamay."}
+{"id":"ko.c0131","meaning":"Ayaw kaayo patama og tam-is, palihug","note":"덜 = mas gamay. 안 달게 = dili tam-is."}
+{"id":"ko.c0132","meaning":"Ayaw butangi og syrup, palihug","note":"빼다 = kuhaon. 얼음 빼 주세요 = walay yelo."}
+{"id":"ko.c0133","meaning":"Diri ra ka mokaon? (pangutana nila)","note":"Tubag: 네, 먹고 갈게요 (diri ra) / 포장이요 (dad-on)."}
+{"id":"ko.c0134","meaning":"Dad-on, take-out","note":"Mubo nga tubag. Masabtan sab ang 테이크아웃."}
+{"id":"ko.c0135","meaning":"(Hatagi ko sa) buzzer","note":"Hatagan ka og gamay nga makina nga mokurog kon andam na ang imong order."}
+{"id":"ko.c0136","meaning":"Naa kay points card? (pangutana nila)","note":"Tubag: 아니요, 괜찮아요 = dili na, salamat."}
+{"id":"ko.c0137","meaning":"Wala koy membership","note":"Kanunay ni pangutan-on sa kahera sa convenience store."}
+{"id":"ko.c0138","meaning":"Palihug painita","note":"Para sa 도시락 ug 삼각김밥 sa convenience store. 데우다 = painiton."}
+{"id":"ko.c0139","meaning":"Asa ang microwave?","note":"Lugar nga ikaw ra ang mopainit, sagad duol sa lingkuranan sa bintana."}
+{"id":"ko.c0140","meaning":"Naay init nga tubig?","note":"Para sa 컵라면 (cup noodles). Libre kini sa matag 편의점."}
+{"id":"ko.c0141","meaning":"Kinahanglan ka og supot? (pangutana nila)","note":"Tubag: 네 / 아니요. Ang supot mga 100원."}
+{"id":"ko.c0642","meaning":"Buy one, take one ba ni?","note":"Ang mga sticker nga 1+1 / 2+1 sa Korea. Ingnon: 원 플러스 원."}
+{"id":"ko.c0143","meaning":"Palihug isulod og lahi-lahi nga supot","note":"따로 = bulag. 담다 = isulod."}
+{"id":"ko.c0144","meaning":"Card ang akong ibayad","note":"현금으로 = cash. Itapik lang ang card, walay pirma."}
+{"id":"ko.c0145","meaning":"4,500 won","note":"Sino-Korean: 사천오백. 원 = won. Sama sa presyo nga numerong Kinatsila sa Bisaya."}
+{"id":"ko.c0146","meaning":"12,000 won","note":"만 이천 → 만이천. Ang dagkong numero gigrupo sa 만 (10,000), dili sa libo."}
+{"id":"ko.c0147","meaning":"38,900 won","note":"삼만 팔천 구백. Ingna og hinay; ipakita man gihapon sa kahera ang screen."}
+{"id":"ko.c0148","meaning":"Numero sa selpon","note":"Sino-Korean ang mga numero sa selpon, ug ang 0 kay 공 (gong), dili 영."}
+{"id":"ko.c0149","meaning":"Ikatulong andana","note":"층 = andana, Sino-Korean nga numero. 지하 1층 (B1) = jiha ilcheung, ubos sa yuta."}
+{"id":"ko.c0150","meaning":"Alas dos sa hapon","note":"Native ang oras: 두 시. 오후 = hapon (PM), 오전 = buntag (AM). Lahi sa Bisaya nga Kinatsila ang oras."}
+{"id":"ko.c0151","meaning":"Alas nuwebe y medya sa buntag","note":"Native ang oras (아홉), Sino-Korean ang minuto (삼십)."}
+{"id":"ko.c0152","meaning":"5 minutos lang","note":"분 = minuto (Sino-Korean). 만 = lang."}
+{"id":"ko.c0153","meaning":"Linya 2","note":"Mga linya sa subway: 호선 nga may Sino-Korean nga numero. 9호선 = guhoseon."}
+{"id":"ko.c0154","meaning":"Exit 4","note":"번 = numero. 몇 번 출구? = unsang exit?"}
+{"id":"ko.c0155","meaning":"2 ka tawo","note":"명 = counter sa tawo, native: 한 명, 두 명, 세 명, 네 명."}
+{"id":"ko.c0156","meaning":"3 ka botelya nga beer","note":"병 = botelya, native nga numero. 잔 = baso."}
+{"id":"ko.c0157","meaning":"3 (ka butang)","note":"개 = counter sa kinatibuk-ang butang, sama sa buok. 한 개, 두 개, 세 개, 네 개."}
+{"id":"ko.c0158","meaning":"25 anyos","note":"Native. 서른 살 = 30. Sa Bisaya Kinatsila ang edad; sa Koreano dili."}
+{"id":"ko.c0159","meaning":"Nobyembre 13","note":"Sino-Korean ang bulan ug adlaw: 십일월 십삼일."}
+{"id":"ko.c0160","meaning":"2026","note":"년 = tuig. 이천이십육년."}
+{"id":"ko.c0161","meaning":"50 porsyento","note":"퍼센트 = porsyento, gikan sa Iningles nga percent, sama sa Kinatsila nga porsyento. 반값 = tunga sa presyo."}
+{"id":"ko.c0162","meaning":"30 minutos ang biyahe","note":"걸리다 = molungtad (oras)."}
+{"id":"ko.c0163","meaning":"usa (ka butang)","note":"개 = mga butang sa kinatibuk-an. 사과 한 개 = usa ka mansanas. Sa Bisaya mag-una ang numero; sa Koreano, human sa noun."}
+{"id":"ko.c0164","meaning":"duha ka tawo","note":"명 = tawo. Ang 분 mas matinahuron: 두 분."}
+{"id":"ko.c0165","meaning":"tulo ka tasa / baso","note":"잔 = ilimnon sa tasa o baso. Sama sa tulo ka tasa nga kape."}
+{"id":"ko.c0166","meaning":"upat ka botelya","note":"병 = botelya. 소주 네 병 = upat ka botelya nga soju."}
+{"id":"ko.c0167","meaning":"lima ka hayop","note":"마리 = hayop. 고양이 다섯 마리 = lima ka iring."}
+{"id":"ko.c0168","meaning":"unom ka libro","note":"권 = libro, kuwaderno."}
+{"id":"ko.c0169","meaning":"pito ka papel / tiket","note":"장 = patag nga butang: papel, tiket, litrato."}
+{"id":"ko.c0170","meaning":"otso anyos","note":"살 = edad. 스물여덟 살 = 28."}
+{"id":"ko.c0171","meaning":"duha ka oras (gidugayon)","note":"시간 = oras nga gidugayon. 두 시 = alas dos."}
+{"id":"ko.c0172","meaning":"tulo ka higayon","note":"번 = higayon. \"Numero\" sab para sa exit ug bus."}
+{"id":"ko.c0173","meaning":"usa ka bulan","note":"달 = bulan (native). 일 개월 = usa ka bulan (Sino-Korean, formal)."}
+{"id":"ko.c0174","meaning":"duha ka adlaw","note":"Espesyal: 하루 (1 ka adlaw), 이틀 (2), 사흘 (3). 일주일 = usa ka semana."}
+{"id":"ko.c0175","meaning":"Pila ka buok ang imong gusto?","note":"몇 + counter = pila. Sama sa pila ka buok? Tubag: 두 개요."}
+{"id":"ko.c0176","meaning":"usa ka panaksan","note":"그릇 = panaksan (kan-on, sabaw). 국밥 한 그릇 주세요."}
+{"id":"ko.c0177","meaning":"usa ka supot (sa)","note":"봉지 = supot o pakete sa snacks o chips."}
+{"id":"ko.c0178","meaning":"duha ka pares (sapatos, medyas)","note":"켤레 = pares sa sapatos ug medyas."}
+{"id":"ko.c0179","meaning":"Kumusta ang panahon?","note":"날씨 = panahon. 어때요 = kumusta man."}
+{"id":"ko.c0180","meaning":"Init kaayo","note":"Ting-init sa Seoul: 덥고 습해요 = init ug alimuot."}
+{"id":"ko.c0181","meaning":"Bugnaw ang panahon","note":"겨울 = tingtugnaw. 너무 추워요 = bugnaw kaayo."}
+{"id":"ko.c0182","meaning":"Nag-ulan","note":"비 = ulan. 우산 있어요? = naa kay payong?"}
+{"id":"ko.c0183","meaning":"Nag-snow","note":"눈 = snow (ug mata usab). 첫눈 = unang snow, romantikong okasyon sa Korea."}
+{"id":"ko.c0184","meaning":"Kusog ang hangin","note":"바람 = hangin. 불다 = mohuyop."}
+{"id":"ko.c0185","meaning":"Grabe ang pino nga abog","note":"Tan-awa ang lebel sa 미세먼지 matag adlaw; kon 나쁨, magsul-ob og mask ang mga tawo."}
+{"id":"ko.c0186","meaning":"Maayo ang akong pamati","note":"기분 = pamati. 기분이 안 좋아요 = dili maayo ang akong pamati."}
+{"id":"ko.c0187","meaning":"Malipayon ko","note":"행복 = kalipay."}
+{"id":"ko.c0188","meaning":"Masulub-on ko","note":"슬프다 → 슬퍼요."}
+{"id":"ko.c0189","meaning":"Gikapoy ko","note":"Ang pinakagamit nga pulong sa pagbati sa Korea."}
+{"id":"ko.c0190","meaning":"Nakulbaan ko","note":"긴장 = kakulba. Sa dili pa ang exam o date."}
+{"id":"ko.c0191","meaning":"Nalaay ko","note":"심심하다. Ang 놀자! ang tambal."}
+{"id":"ko.c0192","meaning":"Nasuko ko","note":"화 = kasuko. 화내지 마 = ayaw kasuko."}
+{"id":"ko.c0193","meaning":"Natingala ko","note":"놀라다. 깜짝 놀랐어요 = nakuratan ko nimo."}
+{"id":"ko.c0194","meaning":"Gimingaw ko nimo","note":"Kini ang polite. Ang casual nga 보고 싶어 naa sa deck nga Matam-is nga pulong."}
+{"id":"ko.c0195","meaning":"Nagkurog akong kasingkasing","note":"설레다 = ang pagbati nga daw naay alibangbang sa tiyan. K-drama kaayo."}
+{"id":"ko.c0196","meaning":"Nalagot ko","note":"짜증 = kalagot. 짜증 나! casual."}
+{"id":"ko.c0197","meaning":"ug (dayon)","note":"Nagdugtong sa mga sentence. 밥 먹었어요. 그리고 커피 마셨어요."}
+{"id":"ko.c0198","meaning":"mao nga","note":"비가 왔어요. 그래서 집에 있었어요."}
+{"id":"ko.c0199","meaning":"pero (humok) / diay","note":"Humok nga pagkalahi o pag-ilis sa hisgutanan. Casual: 근데."}
+{"id":"ko.c0200","meaning":"apan / bisan pa niana","note":"Mas kusog nga pagkalahi kaysa 그런데."}
+{"id":"ko.c0201","meaning":"pagkahuman ana","note":"그다음에 영화 봤어요."}
+{"id":"ko.c0202","meaning":"una","note":"먼저 손 씻어요 = hugasi una ang kamot."}
+{"id":"ko.c0203","meaning":"sa katapusan","note":"Nagtapos sa han-ay."}
+{"id":"ko.c0204","meaning":"kay / tungod kay","note":"왜냐하면 … 거든요 / 기 때문이에요."}
+{"id":"ko.c0205","meaning":"o","note":"커피 아니면 차? = kape o tsa?"}
+{"id":"ko.c0206","meaning":"unya / kon mao kana","note":"그럼 내일 봐요 = unya, kita ta ugma."}
+{"id":"ko.c0207","meaning":"sa tinuod lang","note":"사실 저 한국어 못해요."}
+{"id":"ko.c0208","meaning":"basta (pagbalik sa hisgutanan)","note":"Ibalik ang istorya sa hisgutanan."}
+{"id":"ko.c0209","meaning":"pananglitan","note":"Formal: 예를 들어."}
+{"id":"ko.c0210","meaning":"bisan pa / gihapon","note":"피곤해요. 그래도 갈게요."}
+{"id":"ko.c0211","meaning":"Asa ang botika?","note":"Pangitaa ang berde nga krus. Daghan ang abli hangtod gabii; ang 편의점 nagbaligya sa batakang tambal."}
+{"id":"ko.c0212","meaning":"Sakit akong ulo","note":"아프다 = sakit. 배가 아파요 = sakit akong tiyan."}
+{"id":"ko.c0213","meaning":"Naa koy hilanat","note":"열 = hilanat. Pwede sab ang 열 나요."}
+{"id":"ko.c0214","meaning":"Nag-ubo ko","note":"콧물이 나요 = nagsip-on ko."}
+{"id":"ko.c0215","meaning":"Sakit akong tutunlan","note":"목 = liog / tutunlan."}
+{"id":"ko.c0216","meaning":"Nasip-on ko","note":"감기약 주세요 = tambal sa sip-on, palihug."}
+{"id":"ko.c0217","meaning":"Naa moy tambal sa sakit?","note":"Masabtan bisan asa ang 타이레놀."}
+{"id":"ko.c0218","meaning":"Naa koy alerdyi","note":"땅콩 알레르기 = alerdyi sa mani. Ingna sab sa dili pa mo-order."}
+{"id":"ko.c0219","meaning":"Naa koy reseta","note":"Ang botika tapad sa klinika mohatag niini sulod sa pipila ka minuto."}
+{"id":"ko.c0220","meaning":"Kapila sa usa ka adlaw ko moinom?","note":"식후 30분 = 30 minutos human mokaon, ang sagad nga tubag."}
+{"id":"ko.c0221","meaning":"Kinahanglan ko moadto sa ospital","note":"아/어야 돼요 = kinahanglan. 응급실 = emergency room."}
+{"id":"ko.c0222","meaning":"Naa koy insurance","note":"여행자 보험 = travel insurance. Tipigi ang 영수증 para sa claim."}
+{"id":"ko.c0223","meaning":"Sakit diri","note":"Tudloi. 많이 아파요 = sakit kaayo."}
+{"id":"ko.c0224","meaning":"Mamaayo ra ka","note":"Ingnon sa doktor ug sa higala."}
+{"id":"ko.c0225","meaning":"Mask, palihug","note":"Gibaligya sa matag 편의점 ug 약국."}
+{"id":"ko.c0226","meaning":"Tambal sa panghilis, palihug","note":"Human sa sobra nga 삼겹살. Ang 까스활명수 ang klasiko."}
+{"id":"ko.c0227","meaning":"studio nga kuwarto","note":"Usa ka kuwarto. 투룸 = duha ka kuwarto. 오피스텔 = officetel (opisina ug puy-anan)."}
+{"id":"ko.c0228","meaning":"deposito","note":"Mahimong dako kaayo sa Korea. 전세 = abang nga deposito ra ang bayad."}
+{"id":"ko.c0229","meaning":"binulan nga abang","note":"월세 얼마예요? = tagpila ang abang?"}
+{"id":"ko.c0230","meaning":"Apil na ba ang bayad sa maintenance?","note":"관리비 = bayad sa building. 포함 = apil."}
+{"id":"ko.c0231","meaning":"Niabot ang parsela","note":"택배 = parsela. 문 앞에 놔 주세요 = ibilin sa atubangan sa pultahan."}
+{"id":"ko.c0232","meaning":"pagbulag sa basura","note":"Higpit: 플라스틱 / 종이 / 캔 / 음식물. Naay multa."}
+{"id":"ko.c0233","meaning":"basura sa pagkaon","note":"Kinahanglan og kaugalingong supot o basurahan nga moabli gamit ang card."}
+{"id":"ko.c0234","meaning":"opisyal nga supot sa basura","note":"Paliton sa 편의점; kinahanglan gamiton para sa kinatibuk-ang basura."}
+{"id":"ko.c0235","meaning":"Asa ang labadahan / dry cleaner?","note":"코인 세탁 = labadahan nga de-sensilyo, abli 24 oras."}
+{"id":"ko.c0236","meaning":"Naa moy dry cleaning?","note":"Gipamubo nga 드라이클리닝."}
+{"id":"ko.c0237","meaning":"Palihug ingna ko sa code sa pultahan","note":"Kadaghanan sa pultahan keypad, dili yawe."}
+{"id":"ko.c0238","meaning":"pagkabit sa wifi","note":"설치 = pagkabit. 기사님 = ang technician."}
+{"id":"ko.c0239","meaning":"Nibalhin ko og puy-anan","note":"이사 = pagbalhin. 이삿짐센터 = tigbalhin."}
+{"id":"ko.c0240","meaning":"tag-iya sa balay","note":"부동산 = opisina sa real estate, diin mangita og kuwarto."}
+{"id":"ko.c0241","meaning":"kontrata","note":"계약 = kontrata. 사인하다 = mopirma."}
+{"id":"ko.c0242","meaning":"Nagpadala ko og parsela gikan sa convenience store","note":"Ang GS25/CU naay counter sa parsela. Barato ug sayon."}
+{"id":"ko.c0243","meaning":"palihug kaon (honorific)","note":"드시다 = honorific sa 먹다/마시다. 맛있게 드세요 = kaon og maayo."}
+{"id":"ko.c0244","meaning":"palihug tulog (honorific)","note":"주무시다 = honorific sa 자다. 안녕히 주무세요 = maayong gabii (polite)."}
+{"id":"ko.c0245","meaning":"palihug pabilin / naa (honorific)","note":"계시다 = honorific sa 있다 (para sa tawo). 안녕히 계세요."}
+{"id":"ko.c0246","meaning":"palihug sulti (honorific)","note":"말씀 = honorific sa 말. 말씀해 주세요 = palihug ingna ko."}
+{"id":"ko.c0247","meaning":"Unsay imong ngalan? (honorific)","note":"성함 = honorific sa 이름."}
+{"id":"ko.c0248","meaning":"Pila na ang imong edad? (honorific)","note":"연세 = honorific sa 나이. Para sa mas magulang."}
+{"id":"ko.c0249","meaning":"lakaw (honorific)","note":"가다 + 시 + 어요 → 가세요. 조심히 가세요."}
+{"id":"ko.c0250","meaning":"Niabot ka? (honorific nga past)","note":"오다 + 시 + 었어요 → 오셨어요. 언제 오셨어요?"}
+{"id":"ko.c0251","meaning":"buhat (honorific)","note":"Sa literal, ang 안녕하세요 kay \"naa ka ba sa kalinaw?\", nga may 시."}
+{"id":"ko.c0252","meaning":"amahan / inahan (sa uban, honorific)","note":"Ang 님 mopataas sa 아버지/어머니. Para sa ginikanan sa imong uyab o kapikas."}
+{"id":"ko.c0253","meaning":"lola (honorific)","note":"Lola sa uban, o pormal kaayo nga sinultihan. Sa tigulang nga dili nimo kaila: 할머니 o 어르신."}
+{"id":"ko.c0254","meaning":"kustomer / bisita","note":"손 + 님. Sa tindahan: 고객님."}
+{"id":"ko.c0255","meaning":"Titser, nakakaon na ka?","note":"식사 = halos honorific nga \"pagkaon\". 하셨어요 = nibuhat (honorific)."}
+{"id":"ko.c0256","meaning":"Kumusta na ka? (honorific)","note":"지내다 + 시 + 었어요."}
+{"id":"ko.c0257","meaning":"palihug lingkod","note":"앉다 + 으세요 (human sa consonant)."}
+{"id":"ko.c0258","meaning":"palihug sulod","note":"들어오다 + 세요."}
+{"id":"ko.c0259","meaning":"kapehan / cafe","note":"Mas sagad ang 카페 sa sinultihan."}
+{"id":"ko.c0260","meaning":"gym","note":"Gikan sa Iningles nga health + 장 (lugar). 헬스하다 = mo-ehersisyo sa gym."}
+{"id":"ko.c0261","meaning":"librarya","note":"도서 libro + 관 edipisyo."}
+{"id":"ko.c0262","meaning":"museyo","note":"미술관 = museyo sa arte."}
+{"id":"ko.c0263","meaning":"balay / panimalay","note":"집에 가요 = mouli ko."}
+{"id":"ko.c0264","meaning":"eskuwelahan","note":"대학교 = unibersidad."}
+{"id":"ko.c0265","meaning":"ospital","note":"Gamiton sab para sa bisan unsang klinika sa doktor."}
+{"id":"ko.c0266","meaning":"botika","note":"Pangitaa ang berde nga krus."}
+{"id":"ko.c0267","meaning":"bangko","note":"Ginkgo sab ang pasabot; ang konteksto ang magbuot."}
+{"id":"ko.c0268","meaning":"convenience store","note":"GS25, CU, 세븐일레븐."}
+{"id":"ko.c0269","meaning":"kan-anan","note":"레스토랑 = restawran nga estilong Kasadpan."}
+{"id":"ko.c0270","meaning":"merkado","note":"전통시장 = tradisyonal nga merkado."}
+{"id":"ko.c0271","meaning":"department store","note":"Lotte, Shinsegae, Hyundai."}
+{"id":"ko.c0272","meaning":"sinehan","note":"CGV, 메가박스, 롯데시네마."}
+{"id":"ko.c0273","meaning":"parke","note":"한강공원 = parke sa Han River."}
+{"id":"ko.c0274","meaning":"hotel","note":"Mas barato ang 모텔; 게스트하우스 para sa mga backpacker."}
+{"id":"ko.c0275","meaning":"simbahan / templo sa Budista","note":"성당 = simbahan sa Katoliko."}
+{"id":"ko.c0276","meaning":"CR / kasilyas","note":"Sa literal: \"kuwarto sa makeup\"."}
+{"id":"ko.c0277","meaning":"kalingawan","note":"취미가 뭐예요? = Unsay imong kalingawan?"}
+{"id":"ko.c0278","meaning":"ehersisyo","note":"운동해요 = nag-ehersisyo ko."}
+{"id":"ko.c0279","meaning":"pagbasa (og libro)","note":"Mas natural sa sinultihan ang 책 읽는 거 좋아해요."}
+{"id":"ko.c0280","meaning":"pagluto","note":"요리해요 = nagluto ko."}
+{"id":"ko.c0281","meaning":"pagbiyahe","note":"여행 가요 = mobiyahe ko."}
+{"id":"ko.c0282","meaning":"pagpaminaw og musika","note":"음악 들어요 = naminaw ko og musika."}
+{"id":"ko.c0283","meaning":"pagtan-aw og sine","note":"Ang -기 mohimo sa verb nga noun."}
+{"id":"ko.c0284","meaning":"pagdula og games","note":"게임해요 = nagdula ko og games. PC방 = computer shop."}
+{"id":"ko.c0285","meaning":"pagkuha og litrato","note":"사진 찍어요 = nagkuha ko og litrato."}
+{"id":"ko.c0286","meaning":"pagdrowing / pagpintal","note":"그림 = drowing, dibuho."}
+{"id":"ko.c0287","meaning":"pagkanta","note":"노래방 = videoke nga kuwarto."}
+{"id":"ko.c0288","meaning":"pagsayaw","note":"춤 춰요 = nagsayaw ko."}
+{"id":"ko.c0289","meaning":"pagsaka sa bukid","note":"Nasudnong kalingawan: kompleto ang gamit bisan sa sayon nga agianan."}
+{"id":"ko.c0290","meaning":"pagpangisda","note":""}
+{"id":"ko.c0291","meaning":"pagpamalit","note":"쇼핑해요 = namalit ko."}
+{"id":"ko.c0292","meaning":"kamping","note":"차박 = kamping sulod sa sakyanan."}
+{"id":"ko.c0293","meaning":"kimchi","note":"Libre kini uban sa halos tanang kan-anan."}
+{"id":"ko.c0294","meaning":"gimbap (rolyo sa kan-on nga giputos og nori)","note":"Barato, bisan asa, mga ₩3,000–5,000."}
+{"id":"ko.c0295","meaning":"bibimbap","note":"비빔 = sinagol; 밥 = kan-on."}
+{"id":"ko.c0296","meaning":"bulgogi (tinimplahan nga karne sa baka)","note":""}
+{"id":"ko.c0297","meaning":"sinugba nga liempo","note":"Karne nga tulo ka sapaw. Putosa sa letsugas: 쌈."}
+{"id":"ko.c0298","meaning":"pritong manok (estilo sa Korea)","note":"치맥 = manok + 맥주."}
+{"id":"ko.c0299","meaning":"halang nga rice cake","note":"Klasiko sa pagkaon sa kadalanan."}
+{"id":"ko.c0300","meaning":"ramyeon (instant noodles)","note":"Ang 라멘 kay estilong Hapon."}
+{"id":"ko.c0301","meaning":"stew (jjigae)","note":"김치찌개, 된장찌개, 순두부찌개."}
+{"id":"ko.c0302","meaning":"sabaw","note":"Mas bug-at ang 탕 (삼계탕, 갈비탕)."}
+{"id":"ko.c0303","meaning":"mga sud-an nga kauban (banchan)","note":"Libre ang dugang: 반찬 좀 더 주세요."}
+{"id":"ko.c0304","meaning":"pan","note":"빵집 = panaderya. Sama sa pan sa Bisaya, gikan kini sa pulong sa Iberia (pinaagi sa Hapon)."}
+{"id":"ko.c0305","meaning":"prutas","note":"사과 mansanas, 딸기 strawberry, 귤 dalandan."}
+{"id":"ko.c0306","meaning":"utanon","note":"Ang 채소 mao ang standard nga pulong."}
+{"id":"ko.c0307","meaning":"itlog","note":"Ang 달걀 mao ang lunsay nga Koreano nga pulong."}
+{"id":"ko.c0308","meaning":"isda (pagkaon)","note":"물고기 = isda (buhi)."}
+{"id":"ko.c0309","meaning":"seafood","note":"해물파전 = pancake nga seafood."}
+{"id":"ko.c0310","meaning":"dessert","note":"빙수 = sama sa halo-halo nga yelo; 호떡 = tam-is nga pancake."}
+{"id":"ko.c0311","meaning":"ilimnon (walay alkohol)","note":"Kinatibuk-ang pulong para sa ilimnon nga walay alkohol."}
+{"id":"ko.c0312","meaning":"kape","note":"아메리카노, 라떼, 믹스커피 (3-in-1)."}
+{"id":"ko.c0313","meaning":"tsa","note":"녹차 berde, 보리차 barley, 유자차 citron."}
+{"id":"ko.c0314","meaning":"gatas","note":"두유 = gatas sa soya."}
+{"id":"ko.c0315","meaning":"juice","note":"오렌지 주스."}
+{"id":"ko.c0316","meaning":"cola / soft drink nga lemon-lime","note":"Ang 사이다 sama sa Sprite, dili cider nga may alkohol."}
+{"id":"ko.c0317","meaning":"tubig sa botelya","note":"Sa kan-anan, pangayo og 물: libre kini."}
+{"id":"ko.c0318","meaning":"beer","note":"생맥주 = draft beer. 카스, 테라, 클라우드."}
+{"id":"ko.c0319","meaning":"soju","note":"참이슬, 처음처럼. Berde nga botelya."}
+{"id":"ko.c0320","meaning":"makgeolli (bino sa bugas)","note":"Bagay sa 파전 kon ting-ulan."}
+{"id":"ko.c0321","meaning":"bino","note":""}
+{"id":"ko.c0322","meaning":"cocktail","note":""}
+{"id":"ko.c0323","meaning":"smoothie","note":""}
+{"id":"ko.c0324","meaning":"yelo","note":"얼음 빼 주세요 = walay yelo, palihug."}
+{"id":"ko.c0325","meaning":"Usa pa ka baso, palihug","note":"Ang 잔 mao ang counter sa baso ug tasa."}
+{"id":"ko.c0326","meaning":"tagay (formal ug casual)","note":"짠! sa magbarkada; 건배 sa mga panihapon."}
+{"id":"ko.c0327","meaning":"Nag-ehersisyo ko","note":"운동하다."}
+{"id":"ko.c0328","meaning":"Nagtuon ko","note":"공부하다."}
+{"id":"ko.c0329","meaning":"Nagtrabaho ko","note":"일하다."}
+{"id":"ko.c0330","meaning":"Nagpahulay ko","note":"쉬다. 주말에 쉬어요 = nagpahulay ko kon katapusan sa semana."}
+{"id":"ko.c0331","meaning":"Nagtambay ko / nagdula ko","note":"놀다. 같이 놀자 = laag ta."}
+{"id":"ko.c0332","meaning":"Naglakaw-lakaw ko","note":"산책하다."}
+{"id":"ko.c0333","meaning":"Naglangoy ko","note":"수영하다. 수영장 = swimming pool."}
+{"id":"ko.c0334","meaning":"Nagdagan ko","note":"달리다. Sagad sab ang 러닝."}
+{"id":"ko.c0335","meaning":"Nagsakay ko og bisikleta","note":"타다 = mosakay (bisikleta, bus, kabayo)."}
+{"id":"ko.c0336","meaning":"Nagtan-aw ko og sine","note":"보다 → 봐요."}
+{"id":"ko.c0337","meaning":"Naminaw ko og musika","note":"듣다 → 들어요 (ㄷ nga dili regular)."}
+{"id":"ko.c0338","meaning":"Nagbasa ko og libro","note":"읽다 → 읽어요."}
+{"id":"ko.c0339","meaning":"Nagluto ko","note":"요리하다."}
+{"id":"ko.c0340","meaning":"Naglimpyo ko","note":"청소하다. 빨래해요 = naglaba ko."}
+{"id":"ko.c0341","meaning":"Nakigkita ko sa higala","note":"만나다."}
+{"id":"ko.c0342","meaning":"Namalit ko","note":"쇼핑하다."}
+{"id":"ko.c0343","meaning":"Nagkuha ko og litrato","note":"찍다 → 찍어요."}
+{"id":"ko.c0344","meaning":"Nagdula ko og games","note":"게임하다."}
+{"id":"ko.c0345","meaning":"drama / serye sa TV","note":"K-drama = 한국 드라마 o 드라마 lang."}
+{"id":"ko.c0346","meaning":"variety show","note":"런닝맨, 유 퀴즈: komedya nga walay script."}
+{"id":"ko.c0347","meaning":"balita","note":""}
+{"id":"ko.c0348","meaning":"sine","note":"영화 보러 갈래? = gusto ka manan-aw og sine?"}
+{"id":"ko.c0349","meaning":"dokumentaryo","note":"Gipamubo nga 다큐."}
+{"id":"ko.c0350","meaning":"komiks / webtoon","note":"Daghang drama gibase sa 웹툰."}
+{"id":"ko.c0351","meaning":"animation / anime","note":"Gipamubo nga 애니."}
+{"id":"ko.c0352","meaning":"komedya","note":"개그 = gag / komedya nga sketch."}
+{"id":"ko.c0353","meaning":"romansa","note":"로코 = romantic comedy."}
+{"id":"ko.c0354","meaning":"thriller","note":""}
+{"id":"ko.c0355","meaning":"sine nga makahadlok","note":"무서워요 = makahadlok."}
+{"id":"ko.c0356","meaning":"aksyon","note":""}
+{"id":"ko.c0357","meaning":"drama sa kasaysayan","note":"Ang istorya nahitabo sa panahon sa Joseon sa Korea."}
+{"id":"ko.c0358","meaning":"music show","note":"뮤직뱅크, 인기가요: semana-semana nga pasundayag sa mga idol."}
+{"id":"ko.c0359","meaning":"audition show","note":"서바이벌 = survival show."}
+{"id":"ko.c0360","meaning":"unsang episode","note":"Ang 화 mao ang counter sa episode. 3화 = episode 3."}
+{"id":"ko.c0361","meaning":"replay","note":"본방송 = unang pagsalida; 본방사수 = tan-awon gyud samtang live."}
+{"id":"ko.c0362","meaning":"sunod-sunod nga pagtan-aw (binge)","note":"정주행했어 = gitan-aw nako tanan sunod-sunod."}
+{"id":"ko.c0363","meaning":"ibabaw / ubos","note":"책상 위에 = ibabaw sa lamesa."}
+{"id":"ko.c0364","meaning":"atubangan / likod","note":"건물 앞에서 만나요 = magkita ta sa atubangan sa building."}
+{"id":"ko.c0365","meaning":"tapad / kilid","note":"은행 옆에 있어요 = naa sa tapad sa bangko."}
+{"id":"ko.c0366","meaning":"sulod / gawas","note":"안에 들어가요 = mosulod."}
+{"id":"ko.c0367","meaning":"taliwala","note":"카페와 약국 사이에 = taliwala sa kapehan ug botika."}
+{"id":"ko.c0368","meaning":"tabok sa karsada","note":"길 건너편에 있어요."}
+{"id":"ko.c0369","meaning":"atbang","note":"Pareho ang pasabot sa 건너편."}
+{"id":"ko.c0370","meaning":"duol ra / sa palibot","note":"이 근처에 = diri duol."}
+{"id":"ko.c0371","meaning":"layo / duol","note":"여기서 가까워요? = Duol ra ba gikan diri?"}
+{"id":"ko.c0372","meaning":"sidlakan / kasadpan / habagatan / amihanan","note":"강남 = habagatan sa suba."}
+{"id":"ko.c0373","meaning":"eskina","note":"코너에서 왼쪽으로 = pagliko sa wala sa eskina."}
+{"id":"ko.c0374","meaning":"tabokanan (pedestrian lane)","note":"건너세요 = tabok."}
+{"id":"ko.c0375","meaning":"stoplight","note":"신호등에서 우회전 = liko sa tuo sa stoplight."}
+{"id":"ko.c0376","meaning":"exit / entrance","note":"지하철 3번 출구 = exit 3 sa subway."}
+{"id":"ko.c0377","meaning":"andana (sa building)","note":"2층 = ikaduhang andana; 지하 1층 = B1."}
+{"id":"ko.c0378","meaning":"Balik / Liko pabalik","note":"돌다 = moliko."}
+{"id":"ko.c0379","meaning":"diretso","note":"Mas mubo kaysa 똑바로 가세요; makita sa mga karatula."}
+{"id":"ko.c0380","meaning":"liko sa tuo / liko sa wala","note":"Sa taxi: 우회전해 주세요."}
+{"id":"ko.c0381","meaning":"A = B (walay verb sa Bisaya) (polite)","note":"이에요 human sa consonant, 예요 human sa vowel: 학생이에요, 저예요. Sama sa Estudyante ko: walay verb sa Bisaya."}
+{"id":"ko.c0382","meaning":"naa / adunay","note":"없어요 (eopseoyo) = wala. Sama gyud sa naa ug wala sa Bisaya."}
+{"id":"ko.c0383","meaning":"buhat (하다)","note":"Past: 했어요. Future: 할 거예요."}
+{"id":"ko.c0384","meaning":"adto (가다)","note":"Past: 갔어요. 집에 가요 = mouli ko."}
+{"id":"ko.c0385","meaning":"anhi (오다)","note":"Past: 왔어요."}
+{"id":"ko.c0386","meaning":"kaon (먹다)","note":"Past: 먹었어요. 밥 먹었어요? = Nakakaon na ka?"}
+{"id":"ko.c0387","meaning":"inom (마시다)","note":"Past: 마셨어요."}
+{"id":"ko.c0388","meaning":"tan-aw / kita (보다)","note":"Past: 봤어요. 내일 봐요 = kita ta ugma."}
+{"id":"ko.c0389","meaning":"ganahan (좋아하다)","note":"좋아요 = maayo / ganahan ko (describing verb)."}
+{"id":"ko.c0390","meaning":"kabalo / kaila (알다)","note":"몰라요 (mollayo) = dili ko kabalo."}
+{"id":"ko.c0391","meaning":"palihug hatagi ko","note":"Stem + 아/어 주세요 = palihug buhata ang X."}
+{"id":"ko.c0392","meaning":"higugma (사랑하다)","note":"Casual: 사랑해."}
+{"id":"ko.c0393","meaning":"topic marker (\"kon bahin sa…\")","note":"은 human sa consonant, 는 human sa vowel. 저는 = kon bahin nako."}
+{"id":"ko.c0394","meaning":"subject marker","note":"이 human sa consonant, 가 human sa vowel. 비가 와요 = nag-ulan."}
+{"id":"ko.c0395","meaning":"object marker","note":"을 human sa consonant, 를 human sa vowel. 밥을 먹어요. Sama sa og sa Mokaon ko og kan-on."}
+{"id":"ko.c0396","meaning":"sa (adtoan, lugar o oras)","note":"학교에 가요 = moadto sa eskuwelahan. 세 시에 = sa alas tres. Ang sa sa Bisaya, duha sa Koreano: kini ang sa sa pag-adto, sa pagkaanaa ug sa oras."}
+{"id":"ko.c0397","meaning":"sa (diin gibuhat), gikan sa","note":"집에서 먹어요 = mokaon sa balay. Kini ang sa kon naay buhaton didto, o kon gikan ka didto."}
+{"id":"ko.c0398","meaning":"usab / sab","note":"Mopuli sa 은/는/이/가/을/를. 저도 = ako sab. Motapot sa noun, dili molihok sama sa sab."}
+{"id":"ko.c0399","meaning":"possessive (sa)","note":"Sagad ingnon nga 에. 친구의 책 = libro sa higala. Mag-una ang tag-iya, sama sa akong balay."}
+{"id":"ko.c0400","meaning":"ug / uban sa","note":"Ang 하고 mao ang luwas nga gamiton sa sinultihan."}
+{"id":"ko.c0401","meaning":"lang / ra","note":"물만 주세요 = tubig lang, palihug. Sama sa lang, apan motapot sa noun."}
+{"id":"ko.c0402","meaning":"1, 2, 3 (native)","note":"Native numbers: edad, pag-ihap sa butang, oras. Sa Bisaya, Kinatsila ang oras ug edad: dinhi mausab."}
+{"id":"ko.c0403","meaning":"4, 5, 6 (native)","note":"Sa atubangan sa counter, 하나→한, 둘→두, 셋→세, 넷→네."}
+{"id":"ko.c0404","meaning":"7, 8, 9, 10 (native)","note":"스물 = 20, 서른 = 30."}
+{"id":"ko.c0405","meaning":"1 hangtod 5 (Sino-Korean)","note":"Sino-Korean numbers: kuwarta, petsa, minuto, numero sa selpon. Sama sa numerong Kinatsila sa presyo."}
+{"id":"ko.c0406","meaning":"6 hangtod 10 (Sino-Korean)","note":"십일 = 11, 이십 = 20, 백 = 100, 천 = 1,000, 만 = 10,000."}
+{"id":"ko.c0407","meaning":"10,000 won","note":"Ang Koreano moihap sa 만 (10,000), dili sa libo. 오만 원 = 50,000 won."}
+{"id":"ko.c0408","meaning":"3:30","note":"Oras = native (세), minuto = Sino-Korean (삼십). Sa Bisaya, alas tres y medya: Kinatsila ang duha; sa Koreano, dili."}
+{"id":"ko.c0409","meaning":"25 anyos (edad)","note":"Ang edad naggamit og native numbers + 살, dili sama sa baynte singko anyos."}
+{"id":"ko.c0410","meaning":"Kyut kaayo ka","note":"Casual kini. Ang polite: 귀여워요."}
+{"id":"ko.c0411","meaning":"Gwapa ka / nindot","note":"Para sab sa butang: nindot nga kapehan."}
+{"id":"ko.c0412","meaning":"Gwapo ka","note":"Sa literal: \"maayo ang pagkahimo nimo\"."}
+{"id":"ko.c0413","meaning":"Gimingaw ko nimo","note":"Sa literal: \"gusto tika makita\"."}
+{"id":"ko.c0414","meaning":"Ganahan ko nimo","note":"Ang lakang sa dili pa ang 사랑해."}
+{"id":"ko.c0415","meaning":"Babe / Langga","note":"Sagad nga tawag sa magtiayon."}
+{"id":"ko.c0416","meaning":"Katulog og maayo / maayong gabii","note":"Casual kini. Polite: 잘 자요; sa mas magulang: 안녕히 주무세요."}
+{"id":"ko.c0417","meaning":"Nakakaon na ka?","note":"Mao kini ang \"kumusta ka\" sa Koreano para sa tawo nga ilang gihigugma."}
+{"id":"ko.c0418","meaning":"Gwapa ka karon","note":"네요 = pag-ingon og kusog sa imong namatikdan. Casual: 오늘 예쁘네."}
+{"id":"ko.c0419","meaning":"Nindot kaayo ang imong mata","note":"눈 = mata. 웃는 모습이 예뻐요 = nindot ang imong pahiyom."}
+{"id":"ko.c0420","meaning":"Kyut kaayo ang imong pagkatawa","note":"웃다 = mokatawa / mopahiyom."}
+{"id":"ko.c0421","meaning":"Gimingaw gyud ko nimo","note":"Casual: 보고 싶었어. Ingna pag-abot."}
+{"id":"ko.c0422","meaning":"Malipayon ko kon kauban tika","note":"같이 = dungan. 행복하다 = malipayon."}
+{"id":"ko.c0423","meaning":"Kanunay ko naghunahuna nimo","note":"Casual kini. 생각 = hunahuna."}
+{"id":"ko.c0424","meaning":"Nakakaon na ka? Kaon og maayo, ha","note":"Ang kinatas-ang pagpakita og pagmahal sa Korea: ang pag-atiman sa imong pagkaon."}
+{"id":"ko.c0425","meaning":"Nakauli ka og maayo?","note":"I-text kini human sa date. Gipaabot kini, dili opsyonal."}
+{"id":"ko.c0426","meaning":"Amping sa pagpauli","note":"Casual kini. Polite: 조심히 가세요."}
+{"id":"ko.c0427","meaning":"Matam-is nga damgo","note":"Sa literal: \"damgoha ang maayong damgo\". Kauban sa 잘 자."}
+{"id":"ko.c0428","meaning":"Ako ra ang tan-awa","note":"Pagdula-dula / pagpangabugho. 만 = lang."}
+{"id":"ko.c0429","meaning":"Ikaw ra gyud para nako","note":"Sa literal: \"wala nay lain gawas nimo\"."}
+{"id":"ko.c0430","meaning":"Nilukso akong kasingkasing","note":"심쿵 = kasingkasing (심장) + dug! (쿵). Slang."}
+{"id":"ko.c0431","meaning":"Gusto ka mahimong akoa?","note":"Casual ug pabiro nga paagi sa pagpangutana kon mahimo mo."}
+{"id":"ko.c0432","meaning":"Gusto ka nga mag-uyab ta?","note":"사귀다 = magtrato / mag-uyab. Kini ang seryoso nga pangutana."}
+{"id":"ko.c0433","meaning":"Ayaw na pagpakyut, sakit akong kasingkasing","note":"애교 = pagpakyut. Linya sa pabiro nga pagpangulitawo."}
+{"id":"ko.c0434","meaning":"Pwede nako makuha imong numero?","note":"Ang 좀 mopahumok. Polite: 번호 좀 알려 주실래요?"}
+{"id":"ko.c0435","meaning":"Naa kay Instagram?","note":"Ang modernong paagi sa pagpangayo og numero. 인스타 = Insta."}
+{"id":"ko.c0436","meaning":"Kon naa kay oras, gusto ka mokape?","note":"ㄹ래요 = gusto ka? Pagdapit nga dili mamugos."}
+{"id":"ko.c0437","meaning":"Naa kay uyab?","note":"여자친구 = uyab nga babaye. 남친/여친 = mubo nga casual nga porma."}
+{"id":"ko.c0438","meaning":"Nahigugma ko sa unang pagkakita","note":"첫눈 = unang pagkakita (ug unang snow). 반하다 = mahigugma."}
+{"id":"ko.c0439","meaning":"Paspas ang oras kon kauban tika","note":"랑 = uban sa (casual). 빨리 = paspas."}
+{"id":"ko.c0440","meaning":"Mopahiyom ko kon mahunahunaan tika","note":"웃음이 나다 = mogawas ang pahiyom."}
+{"id":"ko.c0441","meaning":"Kanunay tika mahunahunaan","note":"자꾸 = balik-balik."}
+{"id":"ko.c0442","meaning":"Ikaw ang pinakagwapa","note":"제일 = pinaka-. Para sa lalaki: 제일 멋있어."}
+{"id":"ko.c0443","meaning":"Magkita ta pag-usab?","note":"ㄹ까 = unsa kaha kon…? 또 = usab."}
+{"id":"ko.c0444","meaning":"Ihatod tika sa inyo","note":"ㄹ게 = mo-… ko (saad). Klasiko nga panapos sa date."}
+{"id":"ko.c0445","meaning":"Murag ganahan ko nimo","note":"것 같아 = murag / sa akong hunahuna. Mopahumok sa pag-ingon sa gibati."}
+{"id":"ko.c0446","meaning":"Dili ko gusto mopauli karong gabii","note":"기 싫다 = dili gusto. Ingnon sa katapusan sa nindot nga date."}
+{"id":"ko.c0447","meaning":"Mag-uyab na ta","note":"자 = ta (sama sa Kaon ta). Mas kumpiyansa kaysa 사귈래?"}
+{"id":"ko.c0448","meaning":"Nag-unsa ka?","note":"Ang sagad nga sugod. Polite: 뭐 해요?"}
+{"id":"ko.c0449","meaning":"Nalaay ko","note":"심심하다 = malaay. 놀자 = laag ta."}
+{"id":"ko.c0450","meaning":"Gikapoy ko","note":"피곤하다. 졸려 = katulgon ko."}
+{"id":"ko.c0451","meaning":"Gigutom ko","note":"Casual nga porma sa 배고파요."}
+{"id":"ko.c0452","meaning":"Asa ka?","note":"Casual kini. Ang 어디예요? polite."}
+{"id":"ko.c0453","meaning":"Padulong na ko","note":"Sa literal: \"moadto ko karon\". 다 왔어 = hapit na ko."}
+{"id":"ko.c0454","meaning":"Murag maulahi ko","note":"것 같아 = murag. 미안, 늦었어 = pasayloa, naulahi ko."}
+{"id":"ko.c0455","meaning":"haha","note":"Sa text ra. ㅎㅎ = hehe, mas humok. ㅠㅠ = naghilak."}
+{"id":"ko.c0456","meaning":"oo / sige","note":"Mubo nga sinulat sa 응. ㄴㄴ = dili."}
+{"id":"ko.c0457","meaning":"Kataw-anan kaayo","note":"웃기다 = kataw-anan."}
+{"id":"ko.c0458","meaning":"Ambot","note":"Casual nga 몰라요. 글쎄 = hmm, dili ko sigurado."}
+{"id":"ko.c0459","meaning":"Sige / okay","note":"Mahimo sab nga \"mao ba?\" kon mosaka ang tingog."}
+{"id":"ko.c0460","meaning":"Kita ta sa sunod","note":"담에 = 다음에 (sa sunod), gipamubo."}
+{"id":"ko.c0461","meaning":"Maayong gabii, kita ta ugma","note":"Ang sagad nga panamilit sa text."}
+{"id":"ko.c0462","meaning":"Nindot kaayo! / Porma kaayo ka","note":"Para sa tawo, sinina, lihok. Polite: 멋있어요."}
+{"id":"ko.c0463","meaning":"Maayo kaayo! (nahuman nimo)","note":"잘하다 = maayo mobuhat. Polite: 잘했어요."}
+{"id":"ko.c0464","meaning":"Ikaw ang pinakamaayo","note":"최고 = pinakamaayo. 네가 최고야."}
+{"id":"ko.c0465","meaning":"Respeto / tinuod gyud","note":"Sa literal: \"moila\". Slang sa text: ㅇㅈ."}
+{"id":"ko.c0466","meaning":"Grabe ka nindot!","note":"짱 = labaw. 짱 멋있어 = nindot gyud kaayo."}
+{"id":"ko.c0467","meaning":"Legend","note":"Gikan sa Iningles nga legend, sama sa leyenda sa Kinatsila. 레전드다 = legendary kaayo."}
+{"id":"ko.c0468","meaning":"Buang! (maayo nga pasabot)","note":"Para sa goal, kanta, talan-awon. Casual."}
+{"id":"ko.c0469","meaning":"Kahibulongan!","note":"Luwas nga pulong sa kahinam bisan kinsa ang kauban."}
+{"id":"ko.c0470","meaning":"Adto ta! / Lakaw ta!","note":"Mao sab ang singgit sa dili pa ang duwa."}
+{"id":"ko.c0471","meaning":"Sige, deal / apil ko","note":"콜 = \"call\" sa poker: modawat sa plano."}
+{"id":"ko.c0472","meaning":"Kapoy kaayo, pero nahuman nimo","note":"Ingnon human sa paningkamot. Polite: 고생하셨어요."}
+{"id":"ko.c0473","meaning":"Maayo ang imong trabaho karon","note":"Panamilit sa katapusan sa adlaw sa trabaho o praktis."}
+{"id":"ko.c0474","meaning":"Kaya nimo! / Kusog lang!","note":"힘 = kusog. 힘내세요 polite."}
+{"id":"ko.c0475","meaning":"Ayaw kabalaka","note":"지 마 = ayaw. 걱정하지 마 ang kompleto."}
+{"id":"ko.c0476","meaning":"Tagay ta?","note":"한잔 = usa ka baso. Ang pulong para makabarkada."}
+{"id":"ko.c0477","meaning":"Unsay gusto nimong kaonon?","note":"Ang paborito nga pangutana sa tanan."}
+{"id":"ko.c0478","meaning":"Uy!","note":"Sa suod nga higala o ka-edad ra. Bastos kini sa mas magulang."}
+{"id":"ko.c0479","meaning":"Uy, nag-unsa ka?","note":"Ang sugod sa dili pa ang bisan unsang pagdapit."}
+{"id":"ko.c0480","meaning":"Laag ta!","note":"놀다 = magdula / molaag. 자 = ta."}
+{"id":"ko.c0481","meaning":"Gawas na (anhi diri)","note":"Sa literal: \"gawas\". 빨리 나와 = dali, gawas na."}
+{"id":"ko.c0482","meaning":"Naa kay oras?","note":"Polite: 시간 있어요?"}
+{"id":"ko.c0483","meaning":"Libre ka karon?","note":"돼 = pwede ba / mogana ba."}
+{"id":"ko.c0484","meaning":"Gusto ka mouban?","note":"같이 = dungan. ㄹ래 = gusto ka?"}
+{"id":"ko.c0485","meaning":"Gusto ka mokaon sa gawas?","note":"으러 가다 = moadto aron… 커피 마시러 갈래? = gusto ka mokape sa gawas?"}
+{"id":"ko.c0486","meaning":"Gusto ka manan-aw og sine?","note":"보다 → 볼래. 게임 할래? = gusto ka magdula og games?"}
+{"id":"ko.c0487","meaning":"Adto ta sa kapehan?","note":"ㄹ까 = unsa kaha kon…? Mas humok kaysa ㄹ래."}
+{"id":"ko.c0488","meaning":"Gusto ka moanhi sa among balay?","note":"우리 집 = among balay. Ang Koreano moingon og 우리 para sa ilang kaugalingong balay, sama sa among."}
+{"id":"ko.c0489","meaning":"Kanus-a ta magkita?","note":"언제 = kanus-a. 만나다 = magkita."}
+{"id":"ko.c0490","meaning":"Unsang orasa ta magkita?","note":"Ang 보다 (tan-aw) gamiton sab para sa \"magkita\"."}
+{"id":"ko.c0491","meaning":"Asa ta magkita?","note":"어디서 = 어디에서 gipamubo."}
+{"id":"ko.c0492","meaning":"Moadto na ko karon","note":"ㄹ게 = mo-… ko. 금방 갈게 = hapit na ko moabot."}
+{"id":"ko.c0493","meaning":"Lingaw kaayo kadto","note":"Isulti kini sa katapusan. Sa polite: 재밌었어요."}
+{"id":"ko.c0494","meaning":"Laag ta usab","note":"또 = usab."}
+{"id":"ko.c0495","meaning":"Magkita ta usab sa sunod","note":"담에 = 다음에. 보자 = magkita ta."}
+{"id":"ko.c0496","meaning":"akong pinakaganahan (nga miyembro)","note":"최애가 누구예요? = kinsay imong pinakaganahan? 차애 = ikaduhang pinakaganahan."}
+{"id":"ko.c0497","meaning":"pagka-fan / hilig kaayo sa idolo","note":"Gikan sa 오타쿠. 덕질해요 = hilig kaayo ko sa fandom."}
+{"id":"ko.c0498","meaning":"Nahimo kong fan","note":"입덕 = pagsulod sa fandom. 탈덕 = pagbiya niini."}
+{"id":"ko.c0499","meaning":"comeback (bag-ong kanta o album)","note":"Ang matag bag-ong album usa ka 컴백. 컴백 언제예요? = kanus-a ang comeback?"}
+{"id":"ko.c0500","meaning":"entablado / pasundayag","note":"무대 진짜 잘해요 = nindot kaayo ang ilang pasundayag."}
+{"id":"ko.c0501","meaning":"Moadto ko sa konsiyerto","note":"콘서트 티켓팅 = pag-unahay og tiket, daw gubat."}
+{"id":"ko.c0502","meaning":"light stick (suga nga iwarawara sa fans)","note":"Ang matag grupo adunay kaugalingon. 응원 = pagsuporta, pag-cheer."}
+{"id":"ko.c0503","meaning":"pagkanta sa tanang nanan-aw","note":"떼 = panon. Ang tanang tawo mokanta sa tibuok kanta."}
+{"id":"ko.c0504","meaning":"Fan ko","note":"저 팬이에요 = fan ko (nimo / nila)."}
+{"id":"ko.c0505","meaning":"Palihug pirmahi ni","note":"사인 = pirma."}
+{"id":"ko.c0506","meaning":"Nindot ang kanta","note":"이 노래 진짜 좋아요 = nindot kaayo ni nga kanta."}
+{"id":"ko.c0507","meaning":"Nindot ang liriko","note":"가사 = liriko."}
+{"id":"ko.c0508","meaning":"sayaw (koreograpiya)","note":"안무 외웠어요 = nasaulo na nako ang sayaw."}
+{"id":"ko.c0509","meaning":"debut (unang paggawas sa grupo)","note":"몇 년에 데뷔했어요? = unsang tuiga sila nag-debut?"}
+{"id":"ko.c0510","meaning":"fan meeting (panagkita sa idolo ug sa fans)","note":"팬싸 = fan sign, kalihokan diin mopirma ang idolo."}
+{"id":"ko.c0511","meaning":"fancam (video nga gikuha sa fan)","note":"직접 + 캠. Video sa konsiyerto nga nakatutok sa usa ka miyembro."}
+{"id":"ko.c0512","meaning":"Instagram story","note":"스토리 봤어? = nakita nimo akong story?"}
+{"id":"ko.c0513","meaning":"I-like bi para nako","note":"누르다 = mopislit."}
+{"id":"ko.c0514","meaning":"Gi-follow tika","note":"맞팔 = follow back. 맞팔해요 = mag-follow ta sa usag usa."}
+{"id":"ko.c0515","meaning":"meme / litrato nga reaksyon","note":"짤 보내 줘 = padad-i ko sa meme."}
+{"id":"ko.c0516","meaning":"kalit nga kahilom nga makauulaw","note":"갑자기 분위기 싸해짐. Kon walay nikatawa sa pasiaw."}
+{"id":"ko.c0517","meaning":"sobra kaayong detalye / random nga impormasyon","note":"Para sa kyut nga pag-istorya bahin sa kaugalingon, dili sa makaluod nga butang."}
+{"id":"ko.c0518","meaning":"simple apan nindot ang sinina, daw wala gihaguan","note":"꾸민 듯 안 꾸민 듯. Ang dagway nga \"pagmata nako, ingon na ni\"."}
+{"id":"ko.c0519","meaning":"lami kaayo og grabe","note":"Casual kaayo nga slang nga bastos ang gigikanan: sa suod lang nga higala. JMT sa text."}
+{"id":"ko.c0520","meaning":"uyon ko / tinuod gyud","note":"Mubo nga sulat sa 인정 sa text."}
+{"id":"ko.c0521","meaning":"tinuod gyud","note":"Mubo nga sulat sa 리얼 sa text."}
+{"id":"ko.c0522","meaning":"sikat kaayo / hilig kaayo makig-uban","note":"핵 = \"nukleyar\", pangdugang kusog. 아싸 = tawo nga mag-inusara, dili kaayo makig-uban."}
+{"id":"ko.c0523","meaning":"gamay apan sigurado nga kalipay","note":"소소하지만 확실한 행복. Kapehan, katulog sa hapon, ulan."}
+{"id":"ko.c0524","meaning":"nagtuon og maayo","note":"열심히 공부. 열공 중 = nagtuon og maayo karon."}
+{"id":"ko.c0525","meaning":"nalibog og grabe, di na makaya","note":"멘탈 붕괴. 멘붕 왔어 = di na nako kaya."}
+{"id":"ko.c0526","meaning":"Nibuto ko og katawa","note":"빵 = tingog sa buto."}
+{"id":"ko.c0527","meaning":"Selfie ta","note":"셀카 = selfie. 찍다 = mokuha (og litrato)."}
+{"id":"ko.c0528","meaning":"Unsa man diay ta?","note":"사이 = relasyon sa duha ka tawo. Ang pangutana aron maklaro kon unsa mo."}
+{"id":"ko.c0529","meaning":"Gusto ko nga seryoso ta","note":"진지하다 = seryoso."}
+{"id":"ko.c0530","meaning":"Buotan ug mapinanggaon kaayo ka","note":"다정하다 = mapinanggaon, buotan. Dayeg nga labaw pa sa panagway."}
+{"id":"ko.c0531","meaning":"Ganahan ko sa imong katawa","note":"웃음소리 = tingog sa katawa."}
+{"id":"ko.c0532","meaning":"Komportable ko kon kauban tika","note":"편하다 = komportable. Taas nga dayeg sa panag-uyab sa Korea."}
+{"id":"ko.c0533","meaning":"Pasayloa ko, ako ang sayop","note":"잘못하다 = makasayop. Angkona."}
+{"id":"ko.c0534","meaning":"Ayaw na kasuko","note":"풀다 = hubaran, buhian. Mas humok ang 화 풀어 줘."}
+{"id":"ko.c0535","meaning":"Ayaw kabalaka, naa ra ko","note":"잖아 = \"kabalo ka man\". Pagpasalig."}
+{"id":"ko.c0536","meaning":"Kumusta ang date karon?","note":"어땠어 = kumusta man."}
+{"id":"ko.c0537","meaning":"Magpalitrato ta duha","note":"Litrato sa magkauyab = 커플 사진."}
+{"id":"ko.c0538","meaning":"Malipayong ika-100 nga adlaw","note":"Ang magkauyab nagsaulog sa ika-100 nga adlaw. Dako kini nga butang."}
+{"id":"ko.c0539","meaning":"Pwede nako kuptan imong kamot?","note":"잡다 = mokupot. 아/어도 돼 = pwede ba."}
+{"id":"ko.c0540","meaning":"Gakusa ko","note":"안다 = mogakos. 안아 줄게 = gakson tika."}
+{"id":"ko.c0541","meaning":"Mamatay na ko sa kamingaw nimo","note":"죽겠어 = \"mamatay ko\", pangdugang kusog. Casual ug drama."}
+{"id":"ko.c0542","meaning":"Naa koy isulti nimo","note":"Pasiuna sa seryoso nga istorya. 한테 = ngadto sa (tawo)."}
+{"id":"ko.c0543","meaning":"Murag bagay ta","note":"맞다 = mohaum, mobagay."}
+{"id":"ko.c0544","meaning":"Unsang orasa ang miting?","note":"회의 = miting. 회의실 = kuwarto sa miting."}
+{"id":"ko.c0545","meaning":"Kanus-a ang deadline?","note":"마감 = deadline. 마감 지켰어요 = naabtan nako ang deadline."}
+{"id":"ko.c0546","meaning":"Akong susihon ug balikan tika","note":"Formal. Ang tubag sa email nga kanunay nimong ipadala."}
+{"id":"ko.c0547","meaning":"Naa ka bay gamay nga oras?","note":"Sa katrabaho o sa mas taas nimo. 잠깐 = kadiyot."}
+{"id":"ko.c0548","meaning":"Pwede ko nimo tabangan ani?","note":"도와주시다 honorific + 수 있어요 = pwede ba nimo."}
+{"id":"ko.c0549","meaning":"Una na ko og uli","note":"퇴근 = pag-uli gikan sa trabaho. Isulti kini sa tanan sa kuwarto, kanunay."}
+{"id":"ko.c0550","meaning":"Salamat sa imong kakugi karon (formal)","note":"Sa mas taas nimo kon mouli na ka. 수고하세요 sa mga nagtrabaho pa."}
+{"id":"ko.c0551","meaning":"Naay panihapon sa team","note":"회식 = panihapon sa kompanya. Ang pagtambong… gidasig kaayo."}
+{"id":"ko.c0552","meaning":"Napadala na nako ang report","note":"보고서 = report. 보내다 = mopadala."}
+{"id":"ko.c0553","meaning":"Unsay atong paniudtohon?","note":"Ang pangutana sa alas onse y medya sa matag opisina."}
+{"id":"ko.c0554","meaning":"Kinahanglan ko mag-overtime","note":"야근 = trabaho sa gabii. 아/어야 돼요 = kinahanglan."}
+{"id":"ko.c0555","meaning":"Nag-apply ko og leave","note":"휴가 = bakasyon. 신청하다 = mo-apply."}
+{"id":"ko.c0556","meaning":"Nakita nimo akong email?","note":"Honorific nga past: 하셨어요."}
+{"id":"ko.c0557","meaning":"Salamat sa feedback","note":"주셔서 = sa paghatag (honorific)."}
+{"id":"ko.c0558","meaning":"Mo-present ko sunod semana","note":"발표 = presentasyon."}
+{"id":"ko.c0559","meaning":"Salamat daan sa imong tabang (sa trabaho)","note":"Panapos sa email sa trabaho ug sa unang panagkita."}
+{"id":"ko.c0560","meaning":"Kumusta na ka?","note":"Kasagarang pangumusta sa tawo nga dugay na nimong wala makita."}
+{"id":"ko.c0561","meaning":"Maayo ra ko","note":"Idugang ang 덕분에 (tungod nimo) aron mas matinahuron."}
+{"id":"ko.c0562","meaning":"Kumusta na ka karong mga adlawa?","note":"요즘 = karong mga adlawa. 어때요 = kumusta."}
+{"id":"ko.c0563","meaning":"Ingon ana ra","note":"Sa literal: \"ingon ana lang\". Kasagaran kaayo nga matinud-anon nga tubag."}
+{"id":"ko.c0564","meaning":"Nindot ang panahon, no?","note":"Ending nga 네요 = pag-ingon og kusog sa imong namatikdan. 날씨가 춥네요 = bugnaw, no?"}
+{"id":"ko.c0565","meaning":"Unsay imong buhaton karong katapusan sa semana?","note":"주말 = katapusan sa semana, 에 = sa."}
+{"id":"ko.c0566","meaning":"Ako sab","note":"Casual: 나도."}
+{"id":"ko.c0567","meaning":"Tinuod?","note":"Mas humok kaysa 진짜요?. Pwede ang duha."}
+{"id":"ko.c0568","meaning":"Magkita ta usab","note":"또 = usab. 내일 봐요 = kita ta ugma."}
+{"id":"ko.c0569","meaning":"Amping (sa tawo nga mobiya)","note":"가세요 = lakaw og maayo. Isulti kini kon SIYA ang mobiya."}
+{"id":"ko.c0570","meaning":"Babay, ari na ko (sa tawo nga magpabilin)","note":"계세요 = pabilin og maayo. Isulti kini kon IKAW ang mobiya."}
+{"id":"ko.c0571","meaning":"Kontakon tika","note":"ㄹ게요 = akong buhaton (saad). 연락 = kontak."}
+{"id":"ko.c0572","meaning":"tubig","note":"물 주세요 = tubig, palihug."}
+{"id":"ko.c0573","meaning":"kan-on / pagkaon","note":"밥 먹자 = kaon ta."}
+{"id":"ko.c0574","meaning":"karne","note":"소고기 baka, 돼지고기 baboy, 닭고기 manok."}
+{"id":"ko.c0575","meaning":"Menu, palihug","note":"O ipataas lang ang kamot ug ingna og 저기요 (pagtawag sa atensyon)."}
+{"id":"ko.c0576","meaning":"Dili halang, palihug","note":"맵다 = halang. 안 매워요? = dili ba halang?"}
+{"id":"ko.c0577","meaning":"Lami","note":"Isulti kini sa tag-iya samtang mogawas ka."}
+{"id":"ko.c0578","meaning":"Gigutom ko","note":"배불러요 (baebulleoyo) = busog na ko."}
+{"id":"ko.c0579","meaning":"Usa ka kape","note":"잔 = counter para sa tasa. 두 잔 = duha ka tasa."}
+{"id":"ko.c0580","meaning":"Ang bayronon, palihug","note":"Kasagaran sa kahera ka mobayad."}
+{"id":"ko.c0581","meaning":"Take out, palihug","note":"포장 = pagputos."}
+{"id":"ko.c0582","meaning":"Tagay!","note":"Ipatuktok ang baso; buboi ang uban, dili ang imong kaugalingon."}
+{"id":"ko.c0583","meaning":"(Isulti human mokaon)","note":"Sa literal: \"Maayo ang akong pagkaon.\" Kauban sa 잘 먹겠습니다."}
+{"id":"ko.c0584","meaning":"diri / didto","note":"거기 (geogi) = diha (duol nimo)."}
+{"id":"ko.c0585","meaning":"wala","note":"왼쪽으로 가세요 = liko sa wala."}
+{"id":"ko.c0586","meaning":"tuo","note":"오른쪽으로 = sa tuo."}
+{"id":"ko.c0587","meaning":"Diretso lang","note":"Pwede sab ang 쭉 가세요."}
+{"id":"ko.c0588","meaning":"estasyon sa subway","note":"Ang Seoul Metro ang pinakasayon nga paagi sa pagbiyahe."}
+{"id":"ko.c0589","meaning":"hunonganan sa bus","note":"정류장 = hunonganan."}
+{"id":"ko.c0590","meaning":"taxi","note":"Ingna ang drayber: ~로 가 주세요 (palihug adto sa ~)."}
+{"id":"ko.c0591","meaning":"tugpahanan (airport)","note":"인천공항 = Incheon Airport."}
+{"id":"ko.c0592","meaning":"Unsa kadugay?","note":"걸리다 = molungtad (og oras)."}
+{"id":"ko.c0593","meaning":"Diri lang, palihug","note":"Pulong sa taxi, sama sa \"Lugar lang\" sa dyip."}
+{"id":"ko.c0594","meaning":"T-money card","note":"Card nga i-tap sa sakyanan. Mapalit sa bisan unsang convenience store."}
+{"id":"ko.c0595","meaning":"Unsaon pag-adto didto?","note":"Idugang ang lugar + 에: 명동에 어떻게 가요?"}
+{"id":"ko.c0596","meaning":"karong adlawa","note":"오늘 뭐 해요? = unsay imong buhaton karong adlawa?"}
+{"id":"ko.c0597","meaning":"ugma","note":"내일 봐요 = kita ta ugma."}
+{"id":"ko.c0598","meaning":"gahapon","note":"어제 뭐 했어요? = unsay imong gibuhat gahapon?"}
+{"id":"ko.c0599","meaning":"karon","note":"지금 몇 시예요? = unsang orasa na karon?"}
+{"id":"ko.c0600","meaning":"buntag / udto / gabii","note":"Mao sab ang pamahaw / paniudto / panihapon."}
+{"id":"ko.c0601","meaning":"Lunes","note":"요일 = adlaw sa semana."}
+{"id":"ko.c0602","meaning":"Biyernes","note":"불금 = \"nagdilaab nga Biyernes\", panggawas sa Biyernes sa gabii."}
+{"id":"ko.c0603","meaning":"Sabado / Domingo","note":"주말 (jumal) = katapusan sa semana."}
+{"id":"ko.c0604","meaning":"Unsang orasa na?","note":"몇 = pila; 시 = oras (alas)."}
+{"id":"ko.c0605","meaning":"kanus-a","note":"언제 와요? = kanus-a ka moabot?"}
+{"id":"ko.c0606","meaning":"matag adlaw","note":"매일 공부해요 = nagtuon ko matag adlaw."}
+{"id":"ko.c0607","meaning":"Naa kay oras?","note":"Hinay nga paagi sa pagdapit og date."}
+{"id":"ko.c0608","meaning":"mama / papa","note":"어머니 / 아버지 = ang formal nga porma."}
+{"id":"ko.c0609","meaning":"kuya (magulang nga lalaki)","note":"형 kon lalaki ka, 오빠 kon babaye ka. Gamiton sab sa mas magulang nga higala nga lalaki, sama sa kuya."}
+{"id":"ko.c0610","meaning":"ate (magulang nga babaye)","note":"누나 kon lalaki ka, 언니 kon babaye ka."}
+{"id":"ko.c0611","meaning":"manghod","note":"남동생 = manghod nga lalaki, 여동생 = manghod nga babaye."}
+{"id":"ko.c0612","meaning":"lola / lolo","note":"Matinahuron sab nga tawag sa bisan unsang tigulang."}
+{"id":"ko.c0613","meaning":"pamilya","note":"가족이 몇 명이에요? = pila mo sa pamilya?"}
+{"id":"ko.c0614","meaning":"higala","note":"Sa estrikto, higala nga ka-edad lang."}
+{"id":"ko.c0615","meaning":"titser","note":"Matinahuron sab nga tawag, sama sa \"Sir / Ma'am\"."}
+{"id":"ko.c0616","meaning":"lalaki / babaye","note":"남자친구 = uyab nga lalaki, 여자친구 = uyab nga babaye."}
+{"id":"ko.c0617","meaning":"tawo","note":"한국 사람 = Koreano (tawo). 미국 사람 = Amerikano."}
+{"id":"ko.c0618","meaning":"maayo / ganahan ko","note":"안 좋아요 = dili maayo."}
+{"id":"ko.c0619","meaning":"daotan","note":"기분이 나빠요 = dili maayo akong pamati."}
+{"id":"ko.c0620","meaning":"dako","note":"크다 → 커요."}
+{"id":"ko.c0621","meaning":"gamay","note":"작다 → 작아요."}
+{"id":"ko.c0622","meaning":"daghan","note":"사람이 많아요 = daghang tawo."}
+{"id":"ko.c0623","meaning":"mahal","note":"너무 비싸요 = mahal kaayo."}
+{"id":"ko.c0624","meaning":"barato","note":"싸고 좋아요 = barato ug maayo."}
+{"id":"ko.c0625","meaning":"init (panahon)","note":"뜨거워요 = init (kon hikapon)."}
+{"id":"ko.c0626","meaning":"bugnaw (panahon)","note":"차가워요 = bugnaw (kon hikapon)."}
+{"id":"ko.c0627","meaning":"puliki","note":"요즘 바빠요 = puliki karong mga adlawa."}
+{"id":"ko.c0628","meaning":"lingaw / makapaikag","note":"재미없어요 = dili lingaw."}
+{"id":"ko.c0629","meaning":"lisod / kapoy","note":"Ang kasagarang reklamo."}
+{"id":"ko.c0630","meaning":"Tinuod gyud?","note":"Pwede sab ang 진짜로. Ang 정말? (jeongmal) mas humok gamay."}
+{"id":"ko.c0631","meaning":"Grabe / dili ko motuo","note":"Para sa maayo o daotan nga katingala. 대박 사건 = dako kaayong butang."}
+{"id":"ko.c0632","meaning":"Hala / unsa?","note":"Reaksyon kon natingala ka og grabe. Kasagaran sa text ug casual nga sulti."}
+{"id":"ko.c0633","meaning":"Ay sus / ay","note":"Pulong sa pagpanghupaw sa bisan unsang gamay nga kamalas."}
+{"id":"ko.c0634","meaning":"Okay ra","note":"Casual. Isulti bisan klaro nga dili okay."}
+{"id":"ko.c0635","meaning":"Buang ka?","note":"Casual, kasagaran pasiaw lang nga may pagmahal."}
+{"id":"ko.c0636","meaning":"Ayaw lakaw","note":"Stem sa verb + 지 마 = ayaw."}
+{"id":"ko.c0637","meaning":"Gimingaw ko nimo","note":"Ang past sa 보고 싶어."}
+{"id":"ko.c0638","meaning":"Unsaon man nako / hala","note":"Isulti samtang naa ang kamot sa nawong."}
+{"id":"ko.c0639","meaning":"Kaya nimo ni!","note":"Gikan sa \"fighting\". Pagdasig sa dili pa mobuhat og lisod."}
+{"id":"ko.c0640","meaning":"Sige / nasabtan nako","note":"Sa polite: 알았어요 o 알겠습니다."}
+{"id":"ko.c0641","meaning":"Unsay imong giingon?","note":"Casual. Ang 네? (ne?) mao ang polite nga \"unsa man?\""}

@@ -281,6 +281,56 @@
       "name": "Traps for English speakers",
       "group": "Watch out",
       "desc": "gift, gave, fabrik, eventuelt, and jobs with no article"
+    },
+    {
+      "name": "Flirting",
+      "group": "Watch out",
+      "desc": "Words people flirt with, phrases built from them, asking someone out, and kind ways to say no."
+    },
+    {
+      "name": "Top nouns",
+      "group": "Core words",
+      "desc": "The most-used nouns, with en or et."
+    },
+    {
+      "name": "Top verbs",
+      "group": "Core words",
+      "desc": "The most-used verbs, with the present and the irregular past."
+    },
+    {
+      "name": "Top adjectives",
+      "group": "Core words",
+      "desc": "The most-used adjectives, with the -t and -e forms."
+    },
+    {
+      "name": "Top adverbs",
+      "group": "Core words",
+      "desc": "Time, place, manner and degree: nu, her, godt, meget."
+    },
+    {
+      "name": "Top pronouns",
+      "group": "Core words",
+      "desc": "Personal, possessive, demonstrative, question and indefinite pronouns."
+    },
+    {
+      "name": "Top prepositions",
+      "group": "Core words",
+      "desc": "i, på, til, med, for, af and the rest."
+    },
+    {
+      "name": "Top conjunctions",
+      "group": "Core words",
+      "desc": "Joining words: og, men, hvis, når, fordi, da."
+    },
+    {
+      "name": "Top interjections",
+      "group": "Core words",
+      "desc": "What Danes really exclaim: nå, øv, pyt, skål."
+    },
+    {
+      "name": "Top words",
+      "group": "Core words",
+      "desc": "Articles, question words, numbers to twenty, at, jo, and more."
     }
   ],
   "titles": [

@@ -293,6 +293,61 @@
    "name": "Short forms and Cebu talk",
    "group": "Watch out",
    "desc": "The particles and short forms you hear in Cebu every day, with the full form beside each"
+  },
+  {
+   "name": "Top nouns",
+   "group": "Core words",
+   "desc": "The most-used nouns: people, places, food, home, body and time"
+  },
+  {
+   "name": "Top verbs",
+   "group": "Core words",
+   "desc": "The most-used verb roots, each with the mo-, ni-, mag- or gi- forms a beginner meets first"
+  },
+  {
+   "name": "Top adjectives",
+   "group": "Core words",
+   "desc": "Describing words for size, taste, color, weather and feelings"
+  },
+  {
+   "name": "Top adverbs",
+   "group": "Core words",
+   "desc": "Always, sometimes, early, late, maybe, almost: words of time, place and degree"
+  },
+  {
+   "name": "Top pronouns",
+   "group": "Core words",
+   "desc": "All four pronoun sets (ako, nako, akong, kanako), mine and yours, this and that, who and what"
+  },
+  {
+   "name": "Top markers and particles",
+   "group": "Core words",
+   "desc": "Cebuano has no prepositions: the markers ang, sa, og, si, ni, kang, the small words na, pa, lang, man, and place words used with sa"
+  },
+  {
+   "name": "Top conjunctions",
+   "group": "Core words",
+   "desc": "And, or, if, so, while, after, even though: the words that join ideas"
+  },
+  {
+   "name": "Top interjections",
+   "group": "Core words",
+   "desc": "What people in Cebu really exclaim: Ay!, Aray!, Agoy!, Grabe!, Kuyaw!"
+  },
+  {
+   "name": "Top words",
+   "group": "Core words",
+   "desc": "Where, how, there is, the plural word, Cebuano and Spanish numbers, clock and age words, and the days"
+  },
+  {
+   "name": "Compliments",
+   "group": "Conversation",
+   "desc": "Praise for food, work, skills, homes and children, and how Cebuanos answer a compliment"
+  },
+  {
+   "name": "Flirting",
+   "group": "Conversation",
+   "desc": "Flirting words, the phrases built from them, asking someone out, and kind ways to say yes or no"
   }
  ],
  "titles": [

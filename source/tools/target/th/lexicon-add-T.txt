@@ -1,0 +1,15 @@
+// lexicon-add-T.txt: words the Core words / Flirting / Compliments writer (T, 2026-11-23) needed that are NOT in respell.js LEX.
+// respell.js does not read this file. Nothing in the live decks depends on it; the cards that need these words were left out
+// (listed in CORE-SOURCES.md §6). Format = the LEX block in respell.js (word=reading, reading syllables split by "-", bare word = one regular syllable),
+// so the lead can paste these lines into LEX after a native check. Each reading was parsed with respell.js syllable(); the romanization it gives is in CORE-SOURCES.md §6.
+// source for every line below: unverified:model (writer's own reading of standard Bangkok Thai; no dictionary page was opened)
+//
+// interjections (would unblock a Top interjections deck)
+อุ๊ย ว้าว เย้ อ้าว เอ๊ะ โห โอ้โห=โอ้-โห แหม อืม เฮ้ย ตาย ตายแล้ว=ตาย-แล้ว ระวัง=ระ-วัง เหรอ เยี่ยม ไชโย=ไช-โย
+// NOT added: โอ๊ย (ouch). syllable("โอ๊ย") returns «yóo», not óoi: the tool seems to misread อ + โ-ย. Needs a fix in respell.js first.
+//
+// flirting and compliments words
+ยิ้ม เสียง ตลก=ตะ-หลก ฉลาด=ฉะ-หลาด เสน่ห์=สะ-เหน่ เท่ หัวเราะ=หัว-เราะ คุย จัง ชม ฝีมือ=ฝี-มือ ขยัน=ขะ-หยัน ไอเดีย=ไอ-เดีย ชัด ฝึก สะดวก=สะ-ดวก สเปค=สะ-เป็ก
+//
+// frequent core words still missing from LEX
+แก่ อื่น ตั้งแต่=ตั้ง-แต่ สำหรับ=สำ-หรับ เกี่ยวกับ=เกี่ยว-กับ โดย เมื่อ ดังนั้น=ดัง-นั้น ถึงแม้ว่า=ถึง-แม้-ว่า เดี๋ยว ค่อย=ค็่อย ทีหลัง=ที-หลัง ประมาณ=ประ-มาน ความ เกือบ ตลอด=ตะ-หลอด ทันที=ทัน-ที

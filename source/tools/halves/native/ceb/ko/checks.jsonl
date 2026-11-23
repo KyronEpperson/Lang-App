@@ -1,0 +1,99 @@
+{"id":"compare.k1","q":"'Mas barato ang bus kaysa sa taxi' =","why":"Ang 보다 motapot sa butang nga gitandian, ang nagsunod sa 'kaysa'."}
+{"id":"compare.k2","q":"'Kini ang pinakalami' =","why":"제일 = pinaka-."}
+{"id":"compare.k3","q":"'Dugangi, palihug' =","why":"더 = mas, dugang."}
+{"id":"noun-modifiers.k1","q":"'dakong bag' =","why":"Vowel stem + ㄴ, sa atubangan sa noun."}
+{"id":"noun-modifiers.k2","q":"'lamian nga pagkaon' =","why":"Ang mga pulong nga naay 있다 mogamit og 는."}
+{"id":"noun-modifiers.k3","q":"'halang nga pagkaon' =","why":"ㅂ stem: 맵다 → 매운."}
+{"id":"joining.k1","q":"'Mahal pero lami' =","why":"-지만 = pero."}
+{"id":"joining.k2","q":"'Puliki ko, mao nga wala ko moadto' =","why":"Ang -아/어서 dili gyud mag-past."}
+{"id":"joining.k3","q":"'Barato ug lami' =","why":"Stem + 고 = ug."}
+{"id":"have-to.k1","q":"'Kinahanglan ko moadto' =","why":"가요 → 가 + 야 해요."}
+{"id":"have-to.k2","q":"먹다 → 'kinahanglan mokaon' =","why":"먹어요 → 먹어 + 야 해요."}
+{"id":"have-to.k3","q":"'Dili na kinahanglan nga moadto ka' =","why":"안 … 도 돼요 = sige ra bisan dili nimo buhaton."}
+{"id":"want-like.k1","q":"'Gusto kong moadto' =","why":"Stem + 고 싶어요."}
+{"id":"want-like.k2","q":"'Ganahan ko og kape' =","why":"Action verb ang 좋아해요 → 을/를, sama sa og sa 'Ganahan ko og kape'."}
+{"id":"want-like.k3","q":"'Unsay gusto nimong kaonon?' =","why":"먹 + 고 싶어요."}
+{"id":"pronouns-questions.k1","q":"'Unsa ni?' =","why":"뭐 = unsa; magpabilin kini sa lugar sa tubag."}
+{"id":"pronouns-questions.k2","q":"'Asa man ang CR?' =","why":"어디 = asa; 에 있어요 = naa sa."}
+{"id":"pronouns-questions.k3","q":"'Kinsay naa?' =","why":"누구 + 가 → 누가."}
+{"id":"sound-changes.k1","q":"Ang 감사합니다 ingnon og:","o":[null,"감사합니다, sama gyud sa pagsulat",null,null],"why":"Ang ㅂ sa atubangan sa ㄴ mohumok ngadto sa ㅁ."}
+{"id":"sound-changes.k2","q":"Ang 한국어 ingnon og:","o":[null,"한국 어, nga may hunong",null,null],"why":"Ang final nga ㄱ mobalhin sa bakanteng lingkoranan sa ㅇ."}
+{"id":"sound-changes.k3","q":"Ang 좋아요 ingnon og:","why":"Ang ㅎ taliwala sa duha ka vowel mawala ang tingog."}
+{"id":"future.k1","q":"먹다 sa future =","why":"Consonant stem + 을 거예요."}
+{"id":"future.k2","q":"'Unsay imong buhaton sa katapusan sa semana?' =","why":"하 + ㄹ 거예요 → 할 거예요."}
+{"id":"future.k3","q":"'Dili ko moadto' (future) =","why":"Ang 안 sa atubangan sa verb, sama sa dili."}
+{"id":"past.k1","q":"가다 sa past =","why":"가요 → kuhaa ang 요 → 갔어요."}
+{"id":"past.k2","q":"'Estudyante ko kaniadto' =","why":"Mohuman sa consonant → 이었어요."}
+{"id":"past.k3","q":"'Unsay imong gibuhat gahapon?' =","why":"해요 → 했어요; ang time word mag-una."}
+{"id":"verbs.k1","q":"먹다 sa polite nga present =","why":"Ang katapusang vowel ㅓ (dili ㅏ/ㅗ) → 어요."}
+{"id":"verbs.k2","q":"보다 sa polite nga present =","why":"Stem nga ㅗ + 아요; ang 보 + 아 mahimong 봐."}
+{"id":"verbs.k3","q":"'Mouli ka?' =","why":"Mao ra nga 요-form; mosaka lang ang tingog. Walay ba sa Koreano."}
+{"id":"nouns.k1","q":"'Estudyante ko' =","why":"저 mohuman sa vowel → 는; 학생 mohuman sa consonant → 이에요."}
+{"id":"nouns.k2","q":"'Kadtong bilding didto' =","why":"이 = kini, 그 = kana (duol nimo), 저 = kadto (layo sa atong duha)."}
+{"id":"nouns.k3","q":"'Minsu ang akong ngalan' =","why":"이름 mohuman sa consonant → 은; 민수 mohuman sa vowel → 예요."}
+{"id":"isseoyo.k1","q":"'Naa ko sa balay' =","why":"Naa sa usa ka lugar → lugar + 에 + 있어요."}
+{"id":"isseoyo.k2","q":"'Naa koy iring' =","why":"Sama sa 'naay iring (para nako)': 이/가 + 있어요."}
+{"id":"isseoyo.k3","q":"'Wala koy oras' =","why":"없어요 = wala; 시간 mohuman sa consonant → 이."}
+{"id":"sov.k1","q":"Ang word order sa Koreano:","o":["subject · object · verb","subject · verb · object","verb · subject · object","object · verb · subject"],"why":"Ang verb kanunay sa katapusan sa sentence, dili sa sinugdanan sama sa Bisaya."}
+{"id":"sov.k2","q":"'Nagtuon ko og Koreano' =","why":"한국어 mohuman sa vowel → 를; verb sa katapusan."}
+{"id":"sov.k3","q":"'Dako ang bag' =","why":"Ang describing verb mogamit og 이/가, dili 을/를."}
+{"id":"particles.k1","q":"'Mouli ko' =","why":"Adtoan uban sa 가요 → 에."}
+{"id":"particles.k2","q":"'Nagtuon ko sa kapehan' =","why":"Lugar diin nahitabo ang buhat → 에서."}
+{"id":"particles.k3","q":"'Naa sa balay ang iring' =","why":"Ang 있어요 mogamit og 에, dili 에서."}
+{"id":"negation.k1","q":"'Dili ko magtuon' =","why":"Sa noun + 하다, ang 안 sa atubangan sa 해요."}
+{"id":"negation.k2","q":"'Dili ko estudyante' =","why":"Para sa noun, ang negative kay 이/가 아니에요, sama sa dili + noun."}
+{"id":"negation.k3","q":"'Wala koy oras' =","why":"Ang negative sa 있어요 kay 없어요, sama sa wala."}
+{"id":"do-man.k1","q":"'Ako sab' =","why":"Ang 도 mopuli sa 은/는 — dili kini idugang niini."}
+{"id":"do-man.k2","q":"'Tubig lang, palihug' =","why":"만 = lang; mopuli kini sa 을/를."}
+{"id":"do-man.k3","q":"'Nagtuon sab ko sa eskuwelahan' =","why":"Magpabilin ang 에서; ang 도 mosunod niini."}
+{"id":"cant.k1","q":"'Dili ko makaadto karong adlawa' (naay nakababag) =","why":"못 = dili maka-; 안 = dili, kay mao ang imong pili."}
+{"id":"cant.k2","q":"'Makakaon ko og kimchi' =","why":"Consonant stem + 을 수 있어요 = maka-."}
+{"id":"cant.k3","q":"Gipangutana ka og butang nga dili ka sigurado. Ang humok nga tubag:","why":"Ang 모르겠어요 mao ang mas humok nga 'dili ko sigurado'."}
+{"id":"verbbasics.k1","q":"Stem sa 먹다 =","why":"Kuhaa ang 다 aron makuha ang stem."}
+{"id":"verbbasics.k2","q":"'Maayo ang panahon' =","why":"Kompleto na ang 좋아요, sama sa maayo sa Bisaya: walay laing verb."}
+{"id":"verbbasics.k3","q":"'Naa koy oras' =","why":"있어요 = naa (naay butang / naa kay butang)."}
+{"id":"sentences.k1","q":"'Moinom ko og kape sa kapehan' =","why":"Lugar sa buhat → 에서; verb sa katapusan."}
+{"id":"sentences.k2","q":"'Lami ang kape' =","why":"Ang describing verb mogamit og 이/가, dili 을/를."}
+{"id":"sentences.k3","q":"Ang kasagarang han-ay?","o":["kinsa · kanus-a · asa · unsa · verb","verb · unsa · asa · kinsa","kinsa · verb · unsa · asa","unsa · kinsa · verb · kanus-a"],"why":"Ang tanan magtapok sa atubangan sa verb."}
+{"id":"office.k1","q":"Mopauli ka na; ang kauban nimo nga ka-level nagtrabaho pa. Moingon ka:","why":"수고하세요 = padayon sa trabaho (siya magpabilin)."}
+{"id":"office.k2","q":"Ang manager nga ginganlag 김민수, tawgon nimo og:","why":"Title + 님, dili ang ngalan."}
+{"id":"office.k3","q":"Matinahurong pagbalibad sa ilimnon sa 회식:","why":"Paghatag og rason; ang 운전 maoy rason nga dawaton sa tanan."}
+{"id":"honorific.k1","q":"'Kaon og maayo' sa kustomer:","why":"Ang 드시다 mopuli sa 먹다 sa honorific nga sinultihan."}
+{"id":"honorific.k2","q":"Honorific sa 자다 (matulog):","why":"안녕히 주무세요."}
+{"id":"honorific.k3","q":"Hain ang sayop?","why":"Ayaw gyud gamita ang 시 bahin sa imong kaugalingon."}
+{"id":"requests.k1","q":"Ang pinakamatinahurong paghangyo sa usa ka tawo nga kuhaan ka og litrato:","why":"좀 + 주시겠어요 = pinakamatinahuron."}
+{"id":"requests.k2","q":"Ang pulong nga moabli og matinahurong pangutana, sama sa 'Basin naa moy…?':","why":"Ang 혹시 moabli og matinahurong pangutana."}
+{"id":"requests.k3","q":"'Pwede ko molingkod diri?' =","why":"-아/어도 돼요 = 'Pwede ko…?'"}
+{"id":"story.k1","q":"'Mao nga naulahi ko og uli' =","why":"그래서 = mao nga / busa."}
+{"id":"story.k2","q":"Unsang connector ang nagdala og 'pero' sa istorya?","why":"그런데 / 하지만 = pero."}
+{"id":"story.k3","q":"Asa kasagaran ibutang ang 어제 (gahapon)?","o":["sa sinugdanan","human sa verb","human sa object","ending kini sa verb"],"why":"Ang mga time word mag-una ug mopaila kon kanus-a nahitabo."}
+{"id":"counters.k1","q":"'Duha ka kape, palihug' =","why":"둘 → 두 sa atubangan sa counter; ang ilimnon mogamit og 잔."}
+{"id":"counters.k2","q":"Ang matinahurong pag-ihap sa tawo mogamit og:","why":"Ang 분 mao ang honorific nga counter para sa tawo; yano ra ang 명."}
+{"id":"counters.k3","q":"Asa ibutang ang numero + counter?","o":["human sa noun: 맥주 두 병","sa atubangan sa noun: 두 병 맥주","human sa verb","bisan asa"],"why":"Noun → numero → counter."}
+{"id":"titles.k1","q":"Si Minsu, imong kauban sa trabaho, ka-edad nimo. Ang luwas nga pagtawag niya:","why":"Ngalan + 씨 ang kasagarang matinahurong pagtawag sa ka-edad o ka-level."}
+{"id":"titles.k2","q":"Lalaki ka; babaye siya nga duha ka tuig nga mas magulang nimo. Tawgon nimo siya og:","why":"Lalaki ang nagsulti → babaye nga mas magulang = 누나."}
+{"id":"titles.k3","q":"Pagtawag sa tag-iya sa kapehan:","why":"사장님 = boss o tag-iya, matinahuron ug mao ang kasagaran."}
+{"id":"plans.k1","q":"'Magkape kaha ta?' (humok nga sugyot)","why":"ㄹ까요 = '… kaha ta?': humok nga sugyot."}
+{"id":"plans.k2","q":"'Kaon ta!' (casual, desidido na)","why":"자 = '… ta!', sama sa 'Kaon ta!': casual ug desidido na."}
+{"id":"plans.k3","q":"Ang mga Koreano kasagaran mokumpirma sa tagboanan pinaagi sa:","o":["estasyon + numero sa gawasanan","adres sa kalye","lokasyon sa GPS","litrato sa ilado nga lugar"],"why":"pananglitan, 강남역 11번 출구."}
+{"id":"texting.k1","q":"Ang ㅋㅋㅋ nagpasabot og:","o":["haha","sori","dili","babay"],"why":"ㅋ = ang k sa 크크, tingog sa katawa (sama sa atong 'hahaha')."}
+{"id":"texting.k2","q":"Casual nga 'oo' sa text:","why":"ㅇㅇ = 응응."}
+{"id":"texting.k3","q":"Kon mo-text ka sa imong kauban sa trabaho nga mas magulang nimo, kinahanglan nimo:","o":["ipabilin ang 요 ug gamita ang 네/넵","gamita ang ㅇㅇ","kuhaa ang tanang particle ug ang 요","ipadala lang ang ㅋㅋ"],"why":"Ang mga pinamubo para sa mga higala; sa mas magulang, magpabilin ang pagkamatinahuron."}
+{"id":"hangul.k1","q":"Asa nga vowel ang pahigda nga \"u\", sama sa u sa tubig?","why":"ㅜ: linya nga pahigda, gamay nga linya paubos = u."}
+{"id":"hangul.k2","q":"Unsay tingog sa ㅇ sa SINUGDANAN sa block?","o":["Walay tingog","ng","h","g"],"why":"Ang ㅇ sa sinugdanan nagbantay lang sa lugar; ang ㅇ sa katapusan, ng."}
+{"id":"hangul.k3","q":"Asa nga block ang \"han\"?","why":"ㅎ + ㅏ + ㄴ (sa katapusan) = 한."}
+{"id":"polite.k1","q":"Nag-order ka sa kapehan. Unsang porma?","why":"Ang 요-form ang gamiton sa mga dili nimo kaila ug sa mga trabahante sa tindahan."}
+{"id":"polite.k2","q":"Kon tangtangon ang 요, ang sulti mahimong…","o":["casual (반말)","mas matinahuron","formal","pangutana"],"why":"반말 = casual nga sulti para sa suod nga higala ug sa mas bata nimo."}
+{"id":"polite.k3","q":"Unsang politeness level ang 감사합니다?","o":["formal","casual","polite nga 요-form","slang"],"why":"Ang -습니다 / -ㅂ니다 mao ang formal nga politeness level."}
+{"id":"meet.k1","q":"\"Si Lisa ko\" — sa Hangul 리사, ug ang katapusang block 사 mohuman sa vowel, busa:","why":"Tan-awa ang katapusang block sa Hangul: walay final consonant → 예요; may final consonant → 이에요."}
+{"id":"meet.k2","q":"Naay mobiya ug ikaw ang magpabilin. Moingon ka og:","why":"가세요 = \"lakaw og maayo\", sama sa atong Amping (sa mobiya)."}
+{"id":"meet.k3","q":"\"Taga-asa ka?\"","why":"에서 왔어요 = gikan sa."}
+{"id":"numbers.k1","q":"Unsa nga numero ang gamiton para sa kuwarta?","o":["Sino-Korean numbers (일, 이, 삼)","Native numbers (하나, 둘, 셋)","Bisan hain sa duha","Wala sa duha"],"why":"Kuwarta, petsa, minuto, numero sa telepono → Sino-Korean."}
+{"id":"numbers.k2","q":"'Alas tres' =","why":"Ang oras mogamit og native numbers, bisan Kinatsila ang alas tres; ang 셋 mahimong 세 sa atubangan sa counter."}
+{"id":"numbers.k3","q":"50,000 won =","why":"Ang Koreano mogrupo sa 만 (10,000): 5 × 만 = 오만."}
+{"id":"food.k1","q":"Aron tawgon ang serbidor, ingnon nimo:","why":"저기요 = matinahurong pagtawag (sa literal, 'didto'). Bastos ang 야 sa serbidor."}
+{"id":"food.k2","q":"'Duha ka gimbap, palihug' =","why":"Ang native nga 둘 mahimong 두 sa atubangan sa counter 개 (mga butang)."}
+{"id":"food.k3","q":"Ingnon HUMAN mokaon:","why":"먹었 = past (nikaon ko og maayo). 먹겠 = future (mokaon ko og maayo)."}
+{"id":"getting-around.k1","q":"'Diretso lang' =","why":"똑바로 = diretso."}
+{"id":"getting-around.k2","q":"Sa taxi, 'sa Myeongdong, palihug' =","why":"lugar + 으로 가 주세요."}
+{"id":"getting-around.k3","q":"Ang card nga ipambayad sa pamasahe gitawag nga:","why":"Magamit ang T-money sa subway, bus, ug sa kadaghanan sa taxi."}

@@ -287,6 +287,71 @@
    "name": "Traps for English speakers",
    "group": "Conversation",
    "desc": "No \"to be\" with adjectives, the four negatives, 會 and 袂, sound-alikes and false friends."
+  },
+  {
+   "name": "Compliments",
+   "group": "Conversation",
+   "desc": "Praise for food, work, effort and homes, and the modest answers Taiwanese people give back (無啦！)."
+  },
+  {
+   "name": "Flirting",
+   "group": "Conversation",
+   "desc": "Warm, respectful flirting: the words (古錐, 目睭), phrases built from them, asking someone out, and kind ways to say yes or no."
+  },
+  {
+   "name": "Top nouns",
+   "group": "Core words",
+   "desc": "Common everyday nouns: people, family, food, things at home."
+  },
+  {
+   "name": "Top verbs",
+   "group": "Core words",
+   "desc": "Common verbs and modal verbs (會, 會使, 會當, 捌). Taigi verbs never change form."
+  },
+  {
+   "name": "Top adjectives",
+   "group": "Core words",
+   "desc": "Common adjectives. No 是 before an adjective: 真好, 傷貴."
+  },
+  {
+   "name": "Top adverbs",
+   "group": "Core words",
+   "desc": "Very, more, all, again, already, now, often, not yet: they go before the verb."
+  },
+  {
+   "name": "Top pronouns",
+   "group": "Core words",
+   "desc": "They, the possessives with 的, this and that, oneself, everyone, other people."
+  },
+  {
+   "name": "Top prepositions",
+   "group": "Core words",
+   "desc": "What Taigi uses for prepositions: coverbs (共, 比, 對, 用, 到) and place words after the noun (邊仔, 對面, 中央)."
+  },
+  {
+   "name": "Top conjunctions",
+   "group": "Core words",
+   "desc": "Or, but, if, then, because, so, although, after, before."
+  },
+  {
+   "name": "Top interjections",
+   "group": "Core words",
+   "desc": "Short exclamations and replies: really?, that's wrong!, careful!, oh well."
+  },
+  {
+   "name": "Top words",
+   "group": "Core words",
+   "desc": "Numbers to thirty and beyond, how many, half, first, yes/no questions, days and weeks."
+  },
+  {
+   "name": "Top measure words",
+   "group": "Core words",
+   "desc": "More classifiers, one per card: books, animals, clothes, flat things, pairs, dollars, years of age, o'clock."
+  },
+  {
+   "name": "Top particles",
+   "group": "Core words",
+   "desc": "The small words that change a sentence: 矣, 啦, 咧, the question endings 無 / 未 / 袂, 敢, 的, 仔, 過."
   }
  ],
  "titles": [

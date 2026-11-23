@@ -1,0 +1,1208 @@
+{"f":"course","id":"course","k":"name","src":"Korean","tgt":"韓国語"}
+{"f":"groups","id":"ko.grp.foundations","k":"name","src":"Foundations","tgt":"基礎"}
+{"f":"groups","id":"ko.grp.everyday","k":"name","src":"Everyday","tgt":"日常"}
+{"f":"groups","id":"ko.grp.vocabulary","k":"name","src":"Vocabulary","tgt":"単語"}
+{"f":"groups","id":"ko.grp.grammar","k":"name","src":"Grammar","tgt":"文法"}
+{"f":"groups","id":"ko.grp.social","k":"name","src":"Social","tgt":"人づきあい"}
+{"f":"labels","id":"ko.t01","k":"text","src":"Sprout","tgt":"新芽"}
+{"f":"labels","id":"ko.t03","k":"text","src":"Student","tgt":"学生"}
+{"f":"labels","id":"ko.t05","k":"text","src":"Senior","tgt":"先輩"}
+{"f":"labels","id":"ko.t08","k":"text","src":"Pro","tgt":"上級者"}
+{"f":"labels","id":"ko.t12","k":"text","src":"Master","tgt":"達人"}
+{"f":"labels","id":"ko.t16","k":"text","src":"Sensei","tgt":"師範"}
+{"f":"labels","id":"ko.h.night","k":"text","src":"it's late, good work","tgt":"遅くまでお疲れさまでした"}
+{"f":"labels","id":"ko.h.morning","k":"text","src":"good morning","tgt":"おはようございます"}
+{"f":"labels","id":"ko.h.afternoon","k":"text","src":"good afternoon","tgt":"こんにちは"}
+{"f":"labels","id":"ko.h.evening","k":"text","src":"good evening","tgt":"こんばんは"}
+{"f":"labels","id":"goal.travel","k":"text","src":"Travel & getting around","tgt":"旅行・移動"}
+{"f":"labels","id":"goal.social","k":"text","src":"Dating, friends & nights out","tgt":"恋愛・友だち・遊び"}
+{"f":"labels","id":"goal.drama","k":"text","src":"K-dramas & music","tgt":"韓国ドラマ・K-POP"}
+{"f":"labels","id":"goal.work","k":"text","src":"Work & study","tgt":"仕事・勉強"}
+{"f":"labels","id":"plan.trip","k":"text","src":"Trip to Korea","tgt":"韓国旅行"}
+{"f":"labels","id":"plan.social","k":"text","src":"Make friends & date","tgt":"友だち・恋人をつくる"}
+{"f":"labels","id":"plan.conv","k":"text","src":"Conversational in 90 days","tgt":"90日で会話"}
+{"f":"labels","id":"ko.z.compliment","k":"text","src":"compliment","tgt":"ほめ言葉"}
+{"f":"labels","id":"ko.z.compliment.01","k":"text","src":"You look great / That's cool","tgt":"すてきです"}
+{"f":"labels","id":"ko.z.compliment.02","k":"text","src":"You're the best","tgt":"最高です"}
+{"f":"labels","id":"ko.z.compliment.03","k":"text","src":"That's amazing","tgt":"すごいです"}
+{"f":"labels","id":"ko.z.compliment.04","k":"text","src":"Well done","tgt":"よくできました"}
+{"f":"labels","id":"ko.z.compliment.05","k":"text","src":"You've got great taste","tgt":"センスがいいです"}
+{"f":"labels","id":"ko.z.compliment.06","k":"text","src":"You're so kind","tgt":"ご親切ですね"}
+{"f":"labels","id":"ko.z.compliment.07","k":"text","src":"You're smart","tgt":"頭がいいです"}
+{"f":"labels","id":"ko.z.compliment.08","k":"text","src":"You're fun","tgt":"おもしろいです"}
+{"f":"labels","id":"ko.z.compliment.09","k":"text","src":"Your smile is lovely","tgt":"笑顔がすてきです"}
+{"f":"labels","id":"ko.z.compliment.10","k":"text","src":"You have a nice voice","tgt":"いい声です"}
+{"f":"labels","id":"ko.z.compliment.11","k":"text","src":"You're dependable","tgt":"頼もしいです"}
+{"f":"labels","id":"ko.z.compliment.12","k":"text","src":"It suits you","tgt":"よく似合っています"}
+{"f":"labels","id":"ko.z.compliment.13","k":"text","src":"I feel supported with you","tgt":"一緒だと心強いです"}
+{"f":"labels","id":"ko.z.compliment.14","k":"text","src":"You're awesome","tgt":"かっこいいです"}
+{"f":"labels","id":"ko.z.compliment.15","k":"text","src":"You have a great personality","tgt":"性格がいいです"}
+{"f":"labels","id":"ko.z.compliment.16","k":"text","src":"Your Korean is good","tgt":"韓国語がお上手ですね"}
+{"f":"labels","id":"ko.z.compliment.17","k":"text","src":"You've got a vibe","tgt":"雰囲気があります"}
+{"f":"labels","id":"ko.z.compliment.18","k":"text","src":"A warm person","tgt":"温かい人"}
+{"f":"labels","id":"ko.z.compliment.19","k":"text","src":"I learn a lot from you","tgt":"見習うところが多いです"}
+{"f":"labels","id":"ko.z.compliment.20","k":"text","src":"I feel at ease with you","tgt":"一緒にいると落ち着きます"}
+{"f":"labels","id":"ko.z.compliment.21","k":"text","src":"You work so hard","tgt":"がんばっていらっしゃいますね"}
+{"f":"labels","id":"ko.z.compliment.22","k":"text","src":"You're thoughtful","tgt":"思慮深いです"}
+{"f":"labels","id":"ko.z.expression","k":"text","src":"everyday expression","tgt":"よく使う表現"}
+{"f":"labels","id":"ko.z.expression.01","k":"text","src":"Really?","tgt":"本当ですか？"}
+{"f":"labels","id":"ko.z.expression.02","k":"text","src":"I see","tgt":"なるほど"}
+{"f":"labels","id":"ko.z.expression.03","k":"text","src":"That's right","tgt":"そうです"}
+{"f":"labels","id":"ko.z.expression.04","k":"text","src":"Of course","tgt":"もちろんです"}
+{"f":"labels","id":"ko.z.expression.05","k":"text","src":"Well… I'm not sure","tgt":"さあ、どうでしょう"}
+{"f":"labels","id":"ko.z.expression.06","k":"text","src":"Maybe","tgt":"たぶん"}
+{"f":"labels","id":"ko.z.expression.07","k":"text","src":"It's okay","tgt":"大丈夫です"}
+{"f":"labels","id":"ko.z.expression.08","k":"text","src":"Got it","tgt":"わかりました"}
+{"f":"labels","id":"ko.z.expression.09","k":"text","src":"Just a moment","tgt":"ちょっと待ってください"}
+{"f":"labels","id":"ko.z.expression.10","k":"text","src":"Please say that again","tgt":"もう一度言ってください"}
+{"f":"labels","id":"ko.z.expression.11","k":"text","src":"Oh no, what do I do","tgt":"どうしよう"}
+{"f":"labels","id":"ko.z.expression.12","k":"text","src":"Awesome / No way","tgt":"すごい / ありえない"}
+{"f":"labels","id":"ko.z.expression.13","k":"text","src":"No wonder","tgt":"どうりで"}
+{"f":"labels","id":"ko.z.expression.14","k":"text","src":"Surely not","tgt":"まさか"}
+{"f":"labels","id":"ko.z.expression.15","k":"text","src":"Obviously","tgt":"当たり前ですよ"}
+{"f":"labels","id":"ko.z.expression.16","k":"text","src":"I know, right","tgt":"ですよね"}
+{"f":"labels","id":"ko.z.expression.17","k":"text","src":"Oh my","tgt":"あらまあ"}
+{"f":"labels","id":"ko.z.expression.18","k":"text","src":"Of course","tgt":"もちろんですとも"}
+{"f":"labels","id":"ko.z.expression.19","k":"text","src":"I'm not sure","tgt":"よくわかりません"}
+{"f":"labels","id":"ko.z.expression.20","k":"text","src":"Long time no see","tgt":"お久しぶりです"}
+{"f":"labels","id":"ko.z.expression.21","k":"text","src":"Good work today","tgt":"お疲れさまでした"}
+{"f":"labels","id":"ko.z.expression.22","k":"text","src":"Thanks for the meal (before eating)","tgt":"いただきます"}
+{"f":"labels","id":"ko.z.expression.23","k":"text","src":"That was delicious (after eating)","tgt":"ごちそうさまでした"}
+{"f":"labels","id":"ko.z.expression.24","k":"text","src":"Get home safe","tgt":"お気をつけて"}
+{"f":"labels","id":"ko.z.expression.25","k":"text","src":"Have a good day","tgt":"よい一日を"}
+{"f":"labels","id":"ko.z.expression.26","k":"text","src":"What does it mean?","tgt":"どういう意味ですか？"}
+{"f":"labels","id":"ko.z.polite","k":"text","src":"polite basics","tgt":"丁寧な基本表現"}
+{"f":"labels","id":"ko.z.polite.01","k":"text","src":"Please (give me)","tgt":"ください"}
+{"f":"labels","id":"ko.z.polite.02","k":"text","src":"Please (I'm asking a favor)","tgt":"お願いします"}
+{"f":"labels","id":"ko.z.polite.03","k":"text","src":"Excuse me / Pardon me","tgt":"失礼します / すみません"}
+{"f":"labels","id":"ko.z.polite.04","k":"text","src":"Excuse me (to get attention)","tgt":"すみません（呼びかけ）"}
+{"f":"labels","id":"ko.z.polite.05","k":"text","src":"Excuse me, one second","tgt":"ちょっとすみません"}
+{"f":"labels","id":"ko.z.polite.06","k":"text","src":"I'm sorry","tgt":"申し訳ありません"}
+{"f":"labels","id":"ko.z.polite.07","k":"text","src":"Thank you","tgt":"ありがとうございます（ハムニダ体）"}
+{"f":"labels","id":"ko.z.polite.08","k":"text","src":"Thanks","tgt":"ありがとうございます（ヘヨ体）"}
+{"f":"labels","id":"ko.z.polite.09","k":"text","src":"You're welcome (lit. 'not at all')","tgt":"いえいえ（どういたしまして）"}
+{"f":"labels","id":"ko.z.polite.10","k":"text","src":"It's fine / No, thank you","tgt":"大丈夫です / 結構です"}
+{"f":"labels","id":"ko.z.polite.11","k":"text","src":"Hello","tgt":"こんにちは"}
+{"f":"labels","id":"ko.z.polite.12","k":"text","src":"Goodbye (you're staying)","tgt":"さようなら（立ち去る側）"}
+{"f":"labels","id":"ko.z.polite.13","k":"text","src":"Goodbye (you're leaving)","tgt":"さようなら（見送る側）"}
+{"f":"labels","id":"ko.z.polite.14","k":"text","src":"Please help me","tgt":"助けてください"}
+{"f":"labels","id":"ko.z.polite.15","k":"text","src":"Nice to meet you (first time)","tgt":"はじめまして"}
+{"f":"labels","id":"ko.z.polite.16","k":"text","src":"Nice to meet you","tgt":"お会いできてうれしいです"}
+{"f":"labels","id":"ko.z.polite.17","k":"text","src":"After you / Go ahead","tgt":"お先にどうぞ"}
+{"f":"labels","id":"ko.z.polite.18","k":"text","src":"Coming through, excuse me","tgt":"すみません、通ります"}
+{"f":"labels","id":"ko.z.saying","k":"text","src":"saying","tgt":"ことわざ・名言"}
+{"f":"labels","id":"ko.z.saying.01","k":"text","src":"Starting is half the battle","tgt":"始めれば半分できたも同然"}
+{"f":"labels","id":"ko.z.saying.02","k":"text","src":"Dreams come true","tgt":"夢はかなう"}
+{"f":"labels","id":"ko.z.saying.03","k":"text","src":"If you try, you can","tgt":"やればできる"}
+{"f":"labels","id":"ko.z.saying.04","k":"text","src":"Don't give up","tgt":"あきらめないで"}
+{"f":"labels","id":"ko.z.saying.05","k":"text","src":"Little by little makes a mountain","tgt":"ちりも積もれば山となる"}
+{"f":"labels","id":"ko.z.saying.06","k":"text","src":"Of all the days! (funny timing)","tgt":"行った日に限って市が立つ（間が悪い）"}
+{"f":"labels","id":"ko.z.saying.07","k":"text","src":"A piece of cake","tgt":"朝飯前"}
+{"f":"labels","id":"ko.z.saying.08","k":"text","src":"Even sightseeing comes after eating","tgt":"花より団子（金剛山も食後に）"}
+{"f":"labels","id":"ko.z.saying.09","k":"text","src":"Smile and good luck comes","tgt":"笑う門には福来る"}
+{"f":"labels","id":"ko.z.saying.10","k":"text","src":"After hardship comes joy","tgt":"苦あれば楽あり"}
+{"f":"labels","id":"ko.z.saying.11","k":"text","src":"A long journey starts with one step","tgt":"千里の道も一歩から"}
+{"f":"labels","id":"ko.z.saying.12","k":"text","src":"Old habits die hard","tgt":"三つ子の魂百まで"}
+{"f":"labels","id":"ko.z.saying.13","k":"text","src":"Many hands make light work","tgt":"紙一枚でも二人で持てば軽い"}
+{"f":"labels","id":"ko.z.saying.14","k":"text","src":"Stay strong today","tgt":"今日もがんばりましょう"}
+{"f":"labels","id":"ko.z.saying.15","k":"text","src":"You can do it","tgt":"君ならできる"}
+{"f":"labels","id":"ko.z.saying.16","k":"text","src":"It's okay, it'll work out","tgt":"大丈夫、うまくいくよ"}
+{"f":"labels","id":"ko.z.saying.17","k":"text","src":"You only live once","tgt":"人生は一度きり"}
+{"f":"labels","id":"ko.z.saying.18","k":"text","src":"Slow is okay","tgt":"ゆっくりでも大丈夫"}
+{"f":"labels","id":"ko.z.saying.19","k":"text","src":"Even monkeys fall from trees","tgt":"猿も木から落ちる"}
+{"f":"labels","id":"ko.z.saying.20","k":"text","src":"Kind words can repay a great debt","tgt":"言葉ひとつで千両の借金も返せる"}
+{"f":"labels","id":"ko.i01","k":"text","src":"May all your wishes come true","tgt":"願いがすべてかないますように"}
+{"f":"labels","id":"ko.i02","k":"text","src":"Killing two birds with one stone","tgt":"一石二鳥"}
+{"f":"labels","id":"ko.i03","k":"text","src":"A blessing in disguise — bad luck may turn good","tgt":"人間万事塞翁が馬"}
+{"f":"labels","id":"ko.i04","k":"text","src":"Turning misfortune into good fortune","tgt":"禍を転じて福となす"}
+{"f":"labels","id":"ko.i05","k":"text","src":"After bitterness comes sweetness","tgt":"苦しみの後に楽が来る"}
+{"f":"labels","id":"ko.i06","k":"text","src":"Great talents bloom late","tgt":"大器晩成"}
+{"f":"labels","id":"ko.i07","k":"text","src":"Be prepared and you'll have no worries","tgt":"備えあれば憂いなし"}
+{"f":"labels","id":"ko.i08","k":"text","src":"Fall seven times, get up eight","tgt":"七転び八起き"}
+{"f":"labels","id":"ko.i09","k":"text","src":"A resolution that lasts three days","tgt":"三日坊主"}
+{"f":"labels","id":"ko.i10","k":"text","src":"Understanding each other without words","tgt":"以心伝心"}
+{"f":"labels","id":"ko.i11","k":"text","src":"Sharing the hard times and the good","tgt":"苦楽を共にする"}
+{"f":"labels","id":"ko.i12","k":"text","src":"Icing on the cake","tgt":"錦上に花を添える（よいことが重なる）"}
+{"f":"labels","id":"ko.i13","k":"text","src":"The more, the better","tgt":"多ければ多いほどよい"}
+{"f":"labels","id":"ko.i14","k":"text","src":"Getting better day by day","tgt":"日に日に上達する"}
+{"f":"labels","id":"ko.i15","k":"text","src":"You reap what you sow","tgt":"自業自得"}
+{"f":"labels","id":"ko.i16","k":"text","src":"Persistence can move mountains","tgt":"愚公山を移す（根気があれば山も動く）"}
+{"f":"labels","id":"ko.i17","k":"text","src":"Success earned through hard study","tgt":"蛍雪の功"}
+{"f":"labels","id":"ko.i18","k":"text","src":"Learning from other people's mistakes","tgt":"他山の石"}
+{"f":"labels","id":"ko.i19","k":"text","src":"Too much is as bad as too little","tgt":"過ぎたるは猶及ばざるが如し"}
+{"f":"labels","id":"ko.i20","k":"text","src":"Put yourself in their shoes","tgt":"相手の立場に立って考える"}
+{"f":"labels","id":"ko.i21","k":"text","src":"A match made in heaven","tgt":"天が結んだ縁"}
+{"f":"labels","id":"ko.i22","k":"text","src":"Unwavering, single-hearted devotion","tgt":"変わらぬ一途な真心"}
+{"f":"labels","id":"ko.i23","k":"text","src":"Watching for your chance like a tiger","tgt":"虎視眈々"}
+{"f":"labels","id":"ko.i24","k":"text","src":"A friend since childhood","tgt":"竹馬の友"}
+{"f":"labels","id":"ko.i25","k":"text","src":"Learn the new by studying the old","tgt":"温故知新"}
+{"f":"labels","id":"ko.i26","k":"text","src":"Thinking it over carefully","tgt":"深く考え抜く（熟慮）"}
+{"f":"labels","id":"ko.i27","k":"text","src":"Good is rewarded, evil is punished","tgt":"勧善懲悪"}
+{"f":"labels","id":"ko.i28","k":"text","src":"In one ear and out the other","tgt":"馬耳東風"}
+{"f":"labels","id":"ko.i29","k":"text","src":"Nine times out of ten","tgt":"十中八九"}
+{"f":"labels","id":"ko.i30","k":"text","src":"Winning every battle","tgt":"百戦百勝"}
+{"f":"labels","id":"ko.i31","k":"text","src":"Self-made success","tgt":"自分の力で成功する（たたき上げ）"}
+{"f":"labels","id":"ko.i32","k":"text","src":"Sticking to your original goal","tgt":"初志貫徹"}
+{"f":"labels","id":"ko.d.mydeck","k":"text","src":"Anything you add yourself.","tgt":"自分で追加したカードです。"}
+{"f":"decks","id":"ko.d.hangul-vowels","k":"label","src":"Hangul vowels","tgt":"ハングル・母音"}
+{"f":"decks","id":"ko.d.hangul-vowels","k":"desc","src":"The 10 basic vowels — read them and you can sound out any word.","tgt":"基本の母音10個。これが読めれば、どんな単語も音にできます。ローマ字の eo と eu はそれぞれ1つの母音で、「エオ」「エウ」とは読みません。eo は口を大きく開けた「オ」、o は唇を丸めた「オ」、eu は唇を横に引いた「ウ」、u は唇を丸めて突き出す「ウ」です。e と ae はどちらも「エ」です。"}
+{"f":"decks","id":"ko.d.hangul-consonants","k":"label","src":"Hangul consonants","tgt":"ハングル・子音"}
+{"f":"decks","id":"ko.d.hangul-consonants","k":"desc","src":"The 14 basic consonants and how they change at the end of a syllable.","tgt":"基本の子音14個と、文字の最後（パッチム）での音の変わり方。ローマ字の g, d, b, j は語頭では濁らず、「カ・タ・パ・チャ」に近い息の弱い音です（母音にはさまれると濁ります）。k, t, p, ch は強い息を出す音。r は日本語のラ行と同じで、文字の最後では l になり、舌先をつけたまま止めます。h は母音にはさまれるとほとんど聞こえません。ng は「りんご」の「ん」です。"}
+{"f":"decks","id":"ko.d.hangul-advanced","k":"label","src":"Hangul · advanced","tgt":"ハングル・発展"}
+{"f":"decks","id":"ko.d.hangul-advanced","k":"desc","src":"Tense and aspirated consonants, compound vowels, double finals.","tgt":"濃音と激音、二重母音、二重パッチム。ローマ字の kk, tt, pp, ss, jj は長い音ではなく濃音です。前に小さい「っ」があるつもりで、喉を締め、息を出さずに言います（appa は「アッパ」に近い音）。激音 k, t, p, ch は濃音にせず、強い息を出しましょう。wa, wo, wi の w ははっきり言います。oe, wae, we はどれも「ウェ」です。"}
+{"f":"decks","id":"ko.d.pronunciation-tips","k":"label","src":"Pronunciation tips","tgt":"発音のコツ"}
+{"f":"decks","id":"ko.d.pronunciation-tips","k":"desc","src":"The sound rules that make real speech differ from spelling.","tgt":"実際の発音がつづりどおりにならない、音の変化のルール。"}
+{"f":"decks","id":"ko.d.survival-phrases","k":"label","src":"Survival phrases","tgt":"サバイバルフレーズ"}
+{"f":"decks","id":"ko.d.survival-phrases","k":"desc","src":"The 12 lines that get you through a day in Korea.","tgt":"韓国で1日を乗り切るための12のフレーズ。"}
+{"f":"decks","id":"ko.d.introductions","k":"label","src":"Introductions","tgt":"自己紹介"}
+{"f":"decks","id":"ko.d.introductions","k":"desc","src":"Name, origin, age, job, hobby — the first-meeting script.","tgt":"名前、出身、年齢、仕事、趣味。初対面の会話の流れです。"}
+{"f":"decks","id":"ko.d.survival-phrases-2","k":"label","src":"Survival phrases 2","tgt":"サバイバルフレーズ2"}
+{"f":"decks","id":"ko.d.survival-phrases-2","k":"desc","src":"Asking for help, repeating, paying, getting un-lost.","tgt":"助けを求める、聞き返す、支払う、道に迷ったとき。"}
+{"f":"decks","id":"ko.d.asking-around","k":"label","src":"Asking around","tgt":"場所をたずねる"}
+{"f":"decks","id":"ko.d.asking-around","k":"desc","src":"Bathroom, exits, seats, wifi, opening hours — every where-is question.","tgt":"トイレ、出口、席、Wi-Fi、営業時間。「〜はどこですか」をまとめて。"}
+{"f":"decks","id":"ko.d.cafe-convenience-store","k":"label","src":"Café & convenience store","tgt":"カフェ・コンビニ"}
+{"f":"decks","id":"ko.d.cafe-convenience-store","k":"desc","src":"Sizes, hot/iced, points cards, heating food, bags.","tgt":"サイズ、ホットかアイスか、ポイントカード、温め、袋。"}
+{"f":"decks","id":"ko.d.numbers-in-the-wild","k":"label","src":"Numbers in the wild","tgt":"街の数字"}
+{"f":"decks","id":"ko.d.numbers-in-the-wild","k":"desc","src":"Prices, phone numbers, floors and times as they're actually written.","tgt":"値段、電話番号、階、時刻。実際に書かれている形で。"}
+{"f":"decks","id":"ko.d.counters","k":"label","src":"Counters","tgt":"助数詞"}
+{"f":"decks","id":"ko.d.counters","k":"desc","src":"How to count things, people, cups, bottles, animals.","tgt":"もの、人、杯、本（びん）、動物の数え方。"}
+{"f":"decks","id":"ko.d.weather-feelings","k":"label","src":"Weather & feelings","tgt":"天気・気持ち"}
+{"f":"decks","id":"ko.d.weather-feelings","k":"desc","src":"Weather talk and how you feel, the two most common openers.","tgt":"天気の話と今の気持ち。会話を始める定番の2つです。"}
+{"f":"decks","id":"ko.d.connectors","k":"label","src":"Connectors","tgt":"接続詞"}
+{"f":"decks","id":"ko.d.connectors","k":"desc","src":"And, so, but, then — glue for telling a story.","tgt":"そして、だから、でも、その次に。話をつなぐ言葉です。"}
+{"f":"decks","id":"ko.d.doctor-pharmacy","k":"label","src":"Doctor & pharmacy","tgt":"病院・薬局"}
+{"f":"decks","id":"ko.d.doctor-pharmacy","k":"desc","src":"Symptoms, medicine, allergies, prescriptions.","tgt":"症状、薬、アレルギー、処方箋。"}
+{"f":"decks","id":"ko.d.housing-errands","k":"label","src":"Housing & errands","tgt":"住まい・用事"}
+{"f":"decks","id":"ko.d.housing-errands","k":"desc","src":"Rent, deposits, parcels, recycling, laundry.","tgt":"家賃、保証金、宅配便、ごみの分別、洗濯。"}
+{"f":"decks","id":"ko.d.honorifics","k":"label","src":"Honorifics","tgt":"敬語"}
+{"f":"decks","id":"ko.d.honorifics","k":"desc","src":"Raising the subject: 드시다, 주무시다, 계시다 and -(으)시-.","tgt":"動作をする人を高める尊敬語：드시다（召し上がる）、주무시다（お休みになる）、계시다（いらっしゃる）と -(으)시-。"}
+{"f":"decks","id":"ko.d.places-buildings","k":"label","src":"Places & buildings","tgt":"場所・建物"}
+{"f":"decks","id":"ko.d.places-buildings","k":"desc","src":"Café, gym, library, museum, house — the places you say you're going.","tgt":"カフェ、ジム、図書館、博物館、家。「〜に行きます」と言う場所です。"}
+{"f":"decks","id":"ko.d.hobbies","k":"label","src":"Hobbies","tgt":"趣味"}
+{"f":"decks","id":"ko.d.hobbies","k":"desc","src":"Answer 취미가 뭐예요? with the real words.","tgt":"취미가 뭐예요?（趣味は何ですか）に、実際に使う単語で答えましょう。"}
+{"f":"decks","id":"ko.d.food-words","k":"label","src":"Food words","tgt":"食べ物の単語"}
+{"f":"decks","id":"ko.d.food-words","k":"desc","src":"The dishes and ingredients on every menu.","tgt":"どのメニューにも出てくる料理と食材。"}
+{"f":"decks","id":"ko.d.drinks","k":"label","src":"Drinks","tgt":"飲み物"}
+{"f":"decks","id":"ko.d.drinks","k":"desc","src":"Coffee, tea, soju, beer, and how to order one more.","tgt":"コーヒー、お茶、焼酎、ビール、そして「もう1杯」の頼み方。"}
+{"f":"decks","id":"ko.d.activities","k":"label","src":"Activities","tgt":"ふだんの活動"}
+{"f":"decks","id":"ko.d.activities","k":"desc","src":"Everyday 'I do X' verbs in polite form.","tgt":"「〜します」と言う日常の動詞。ヘヨ体で。"}
+{"f":"decks","id":"ko.d.tv-entertainment","k":"label","src":"TV & entertainment","tgt":"テレビ・エンタメ"}
+{"f":"decks","id":"ko.d.tv-entertainment","k":"desc","src":"Dramas, variety shows, genres, episodes, binge-watching.","tgt":"ドラマ、バラエティ、ジャンル、何話目か、一気見。"}
+{"f":"decks","id":"ko.d.position-direction-words","k":"label","src":"Position & direction words","tgt":"位置・方向"}
+{"f":"decks","id":"ko.d.position-direction-words","k":"desc","src":"Above, beside, across, exits and floors — placing things and finding them.","tgt":"上、横、向かい、出口、階。ものの場所を言う・探すための言葉。"}
+{"f":"decks","id":"ko.d.core-verbs","k":"label","src":"Core verbs","tgt":"基本動詞"}
+{"f":"decks","id":"ko.d.core-verbs","k":"desc","src":"The 12 verbs you'll use every day, in polite form.","tgt":"毎日使う12の動詞。ヘヨ体で。"}
+{"f":"decks","id":"ko.d.particles","k":"label","src":"Particles","tgt":"助詞"}
+{"f":"decks","id":"ko.d.particles","k":"desc","src":"The tags that mark topic, subject, object and place.","tgt":"「は」「が」「を」「に・で」にあたる助詞。日本語とほぼ同じしくみです。"}
+{"f":"decks","id":"ko.d.numbers","k":"label","src":"Numbers","tgt":"数"}
+{"f":"decks","id":"ko.d.numbers","k":"desc","src":"Native vs Sino-Korean numbers and when each is used.","tgt":"固有語の数と漢字語の数、それぞれの使い分け。"}
+{"f":"decks","id":"ko.d.sweet-talk","k":"label","src":"Sweet talk","tgt":"甘い言葉"}
+{"f":"decks","id":"ko.d.sweet-talk","k":"desc","src":"Cute, pretty, miss you — for someone you're close to.","tgt":"かわいい、きれい、会いたい。親しい相手に。"}
+{"f":"decks","id":"ko.d.cute-things-to-say","k":"label","src":"Cute things to say","tgt":"きゅんとくるひと言"}
+{"f":"decks","id":"ko.d.cute-things-to-say","k":"desc","src":"Compliments and caring lines that land.","tgt":"相手の心に届くほめ言葉と気づかいのひと言。"}
+{"f":"decks","id":"ko.d.flirting","k":"label","src":"Flirting","tgt":"アプローチ"}
+{"f":"decks","id":"ko.d.flirting","k":"desc","src":"Getting a number, asking out, saying how you feel.","tgt":"連絡先を聞く、デートに誘う、気持ちを伝える。"}
+{"f":"decks","id":"ko.d.casual-texting","k":"label","src":"Casual texting","tgt":"カジュアルなメッセージ"}
+{"f":"decks","id":"ko.d.casual-texting","k":"desc","src":"KakaoTalk shorthand and the lines friends actually send.","tgt":"カカオトークの略語と、友だち同士で本当に送るひと言。"}
+{"f":"decks","id":"ko.d.hype-cool","k":"label","src":"Hype & cool","tgt":"ノリ・ほめ言葉"}
+{"f":"decks","id":"ko.d.hype-cool","k":"desc","src":"Compliments, encouragement and slang for friends.","tgt":"友だちへのほめ言葉、励まし、スラング。"}
+{"f":"decks","id":"ko.d.hanging-out","k":"label","src":"Hanging out","tgt":"遊びに行く"}
+{"f":"decks","id":"ko.d.hanging-out","k":"desc","src":"Inviting, planning where and when, wrapping up.","tgt":"誘う、場所と時間を決める、別れぎわ。"}
+{"f":"decks","id":"ko.d.k-pop-fan-culture","k":"label","src":"K-pop & fan culture","tgt":"K-POP・ファン文化"}
+{"f":"decks","id":"ko.d.k-pop-fan-culture","k":"desc","src":"Fandom vocabulary from 최애 to 떼창.","tgt":"최애 から 떼창 まで、ファンダムの言葉。"}
+{"f":"decks","id":"ko.d.social-media-slang","k":"label","src":"Social media & slang","tgt":"SNS・スラング"}
+{"f":"decks","id":"ko.d.social-media-slang","k":"desc","src":"Instagram, memes, and the slang of the moment.","tgt":"インスタ、ミーム、今どきのスラング。"}
+{"f":"decks","id":"ko.d.dating-deeper","k":"label","src":"Dating deeper","tgt":"深まる恋"}
+{"f":"decks","id":"ko.d.dating-deeper","k":"desc","src":"Defining the relationship, real compliments, apologizing, reassurance.","tgt":"関係をはっきりさせる、心からのほめ言葉、謝る、安心させる。"}
+{"f":"decks","id":"ko.d.work-office","k":"label","src":"Work & office","tgt":"仕事・オフィス"}
+{"f":"decks","id":"ko.d.work-office","k":"desc","src":"Meetings, deadlines, asking colleagues, leaving on time, 회식.","tgt":"会議、締め切り、同僚への頼みごと、定時に帰る、회식（会社の飲み会）。"}
+{"f":"decks","id":"ko.d.small-talk","k":"label","src":"Small talk","tgt":"雑談"}
+{"f":"decks","id":"ko.d.small-talk","k":"desc","src":"Catching up, weather, weekend plans, goodbyes done right.","tgt":"近況、天気、週末の予定、感じのいい別れ方。"}
+{"f":"decks","id":"ko.d.food-ordering","k":"label","src":"Food & ordering","tgt":"食事・注文"}
+{"f":"decks","id":"ko.d.food-ordering","k":"desc","src":"Ordering, counters for food, the two meal phrases.","tgt":"注文、食べ物の助数詞、食事のあいさつ2つ。"}
+{"f":"decks","id":"ko.d.directions-transport","k":"label","src":"Directions & transport","tgt":"道案内・交通"}
+{"f":"decks","id":"ko.d.directions-transport","k":"desc","src":"Left/right/straight, subway, bus, taxi lines.","tgt":"左・右・まっすぐ、地下鉄、バス、タクシーで使う言葉。"}
+{"f":"decks","id":"ko.d.time-days","k":"label","src":"Time & days","tgt":"時間・曜日"}
+{"f":"decks","id":"ko.d.time-days","k":"desc","src":"Today/tomorrow, days of the week, what time is it.","tgt":"今日・明日、曜日、今何時か。"}
+{"f":"decks","id":"ko.d.family-people","k":"label","src":"Family & people","tgt":"家族・人"}
+{"f":"decks","id":"ko.d.family-people","k":"desc","src":"Mom, dad, siblings, friends, teacher, and how age changes the word.","tgt":"母、父、きょうだい、友だち、先生。年齢で呼び方が変わります。"}
+{"f":"decks","id":"ko.d.adjectives","k":"label","src":"Adjectives","tgt":"形容詞"}
+{"f":"decks","id":"ko.d.adjectives","k":"desc","src":"Good, bad, big, small, hot, cold, busy, fun.","tgt":"いい、悪い、大きい、小さい、暑い、寒い、忙しい、楽しい。"}
+{"f":"decks","id":"ko.d.k-drama-phrases","k":"label","src":"K-drama phrases","tgt":"韓国ドラマのセリフ"}
+{"f":"decks","id":"ko.d.k-drama-phrases","k":"desc","src":"Reactions and lines you'll hear in every episode.","tgt":"どの回にも出てくるリアクションとセリフ。"}
+{"f":"cards","id":"ko.c0001","k":"meaning","src":"a as in father","tgt":"ア（日本語の「ア」とほぼ同じ）","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"ko.c0001","k":"note","src":"Vertical stroke, tick to the right.","tgt":"縦棒の右に短い線。"}
+{"f":"cards","id":"ko.c0002","k":"meaning","src":"uh as in up","tgt":"口を大きく開けたオ（eo）","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"ko.c0002","k":"note","src":"Tick to the left. Not 'oh'.","tgt":"短い線は左。唇を丸めない「オ」で、唇を丸める o とは別の音です。"}
+{"f":"cards","id":"ko.c0003","k":"meaning","src":"o as in go","tgt":"唇を丸めたオ（o）","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"ko.c0003","k":"note","src":"Horizontal, tick up.","tgt":"横棒の上に短い線。"}
+{"f":"cards","id":"ko.c0004","k":"meaning","src":"oo as in moon","tgt":"唇を丸めて突き出すウ（u）","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"ko.c0004","k":"note","src":"Horizontal, tick down.","tgt":"横棒の下に短い線。"}
+{"f":"cards","id":"ko.c0005","k":"meaning","src":"like the vowel in 'book' with lips flat","tgt":"唇を横に引いたウ（eu）","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"cards","id":"ko.c0005","k":"note","src":"No English match; smile and say 'oo'.","tgt":"口角を上げ、唇を横に引いたまま「ウ」と言います。日本語の「ウ」より平らな唇です。","rw":"says English lacks the sound/feature"}
+{"f":"cards","id":"ko.c0006","k":"meaning","src":"ee as in see","tgt":"イ（日本語の「イ」とほぼ同じ）","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"ko.c0006","k":"note","src":"Single vertical stroke.","tgt":"縦棒1本。"}
+{"f":"cards","id":"ko.c0007","k":"meaning","src":"e as in bed (open; same sound as ㅔ today)","tgt":"エ（ae。今は ㅔ と同じ音）","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"ko.c0007","k":"note","src":"Modern Korean: sounds same as ㅔ.","tgt":"今の韓国語では ㅔ と同じ音です。"}
+{"f":"cards","id":"ko.c0008","k":"meaning","src":"e as in bed","tgt":"エ（e）","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"ko.c0008","k":"note","src":"Same sound as ㅐ in speech.","tgt":"話すときは ㅐ と同じ音です。"}
+{"f":"cards","id":"ko.c0009","k":"meaning","src":"ya","tgt":"ヤ"}
+{"f":"cards","id":"ko.c0009","k":"note","src":"ㅏ with an extra tick = y-glide.","tgt":"ㅏ に線を1本足すと y がつきます。"}
+{"f":"cards","id":"ko.c0010","k":"meaning","src":"yuh","tgt":"口を開けたヨ（yeo）"}
+{"f":"cards","id":"ko.c0010","k":"note","src":"ㅓ + y.","tgt":"ㅓ ＋ y。"}
+{"f":"cards","id":"ko.c0011","k":"meaning","src":"yo","tgt":"唇を丸めたヨ（yo）"}
+{"f":"cards","id":"ko.c0011","k":"note","src":"ㅗ + y.","tgt":"ㅗ ＋ y。"}
+{"f":"cards","id":"ko.c0012","k":"meaning","src":"yoo","tgt":"ユ（唇を丸める）"}
+{"f":"cards","id":"ko.c0012","k":"note","src":"ㅜ + y.","tgt":"ㅜ ＋ y。"}
+{"f":"cards","id":"ko.c0013","k":"meaning","src":"g (soft) at start, k at syllable end","tgt":"語頭は濁らない「カ」に近い音、文字の最後では k"}
+{"f":"cards","id":"ko.c0013","k":"note","src":"가 = ga, 악 = ak.","tgt":"가 = ga、악 = ak。"}
+{"f":"cards","id":"ko.c0014","k":"meaning","src":"n","tgt":"n（ナ行の音）"}
+{"f":"cards","id":"ko.c0014","k":"note","src":"나 = na.","tgt":"나 = na。"}
+{"f":"cards","id":"ko.c0015","k":"meaning","src":"d at start, t at end","tgt":"語頭は濁らない「タ」に近い音、文字の最後では t"}
+{"f":"cards","id":"ko.c0015","k":"note","src":"다 = da.","tgt":"다 = da。"}
+{"f":"cards","id":"ko.c0016","k":"meaning","src":"flap r between vowels, l at end","tgt":"母音の間はラ行の r、文字の最後では l"}
+{"f":"cards","id":"ko.c0016","k":"note","src":"라 = ra, 물 = mul.","tgt":"라 = ra、물 = mul（「ムル」ではなく、舌先をつけたまま止めます）。"}
+{"f":"cards","id":"ko.c0017","k":"meaning","src":"m","tgt":"m（マ行の音）"}
+{"f":"cards","id":"ko.c0017","k":"note","src":"마 = ma.","tgt":"마 = ma。"}
+{"f":"cards","id":"ko.c0018","k":"meaning","src":"b at start, p at end","tgt":"語頭は濁らない「パ」に近い音、文字の最後では p"}
+{"f":"cards","id":"ko.c0018","k":"note","src":"바 = ba, 밥 = bap.","tgt":"바 = ba、밥 = bap（唇を閉じて止めます）。"}
+{"f":"cards","id":"ko.c0019","k":"meaning","src":"s; 'sh' before ㅣ","tgt":"s（サ行の音）。ㅣ の前では「シ」"}
+{"f":"cards","id":"ko.c0019","k":"note","src":"사 = sa, 시 = si (sounds like 'shee').","tgt":"사 = sa、시 = si（「シ」と発音します）。","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"cards","id":"ko.c0020","k":"meaning","src":"silent at start, ng at end","tgt":"語頭では無音、文字の最後では ng"}
+{"f":"cards","id":"ko.c0020","k":"note","src":"아 = a, 강 = gang.","tgt":"아 = a、강 = gang（「りんご」の「ん」）。"}
+{"f":"cards","id":"ko.c0021","k":"meaning","src":"j","tgt":"j（語頭は濁らない「チャ」に近い音）"}
+{"f":"cards","id":"ko.c0021","k":"note","src":"자 = ja.","tgt":"자 = ja。"}
+{"f":"cards","id":"ko.c0022","k":"meaning","src":"ch (aspirated ㅈ)","tgt":"ch（ㅈ の激音。強い息を出す）"}
+{"f":"cards","id":"ko.c0022","k":"note","src":"차 = cha.","tgt":"차 = cha。"}
+{"f":"cards","id":"ko.c0023","k":"meaning","src":"k (aspirated ㄱ)","tgt":"k（ㄱ の激音。強い息を出す）"}
+{"f":"cards","id":"ko.c0023","k":"note","src":"카 = ka.","tgt":"카 = ka。"}
+{"f":"cards","id":"ko.c0024","k":"meaning","src":"t (aspirated ㄷ)","tgt":"t（ㄷ の激音。強い息を出す）"}
+{"f":"cards","id":"ko.c0024","k":"note","src":"타 = ta.","tgt":"타 = ta。"}
+{"f":"cards","id":"ko.c0025","k":"meaning","src":"p (aspirated ㅂ)","tgt":"p（ㅂ の激音。強い息を出す）"}
+{"f":"cards","id":"ko.c0025","k":"note","src":"파 = pa.","tgt":"파 = pa。"}
+{"f":"cards","id":"ko.c0026","k":"meaning","src":"h","tgt":"h（ハ行の音）"}
+{"f":"cards","id":"ko.c0026","k":"note","src":"하 = ha.","tgt":"하 = ha。"}
+{"f":"cards","id":"ko.c0027","k":"meaning","src":"tense g/k","tgt":"kk（喉を締める濃音）"}
+{"f":"cards","id":"ko.c0027","k":"note","src":"까 kka. Tight throat, no air. 꽃 = flower, 까만 = black.","tgt":"까 kka。前に小さい「っ」があるつもりで、喉を締め、息を出さずに。꽃 = 花、까만 = 黒い。"}
+{"f":"cards","id":"ko.c0028","k":"meaning","src":"tense d/t","tgt":"tt（喉を締める濃音）"}
+{"f":"cards","id":"ko.c0028","k":"note","src":"따 tta. 딸 = daughter, 똑바로 = straight.","tgt":"따 tta。딸 = 娘、똑바로 = まっすぐ。"}
+{"f":"cards","id":"ko.c0029","k":"meaning","src":"tense b/p","tgt":"pp（喉を締める濃音）"}
+{"f":"cards","id":"ko.c0029","k":"note","src":"빠 ppa. 빨리 = quickly, 아빠 = dad.","tgt":"빠 ppa。빨리 = 早く、아빠 = パパ（「アッパ」に近い音）。"}
+{"f":"cards","id":"ko.c0030","k":"meaning","src":"tense s","tgt":"ss（喉を締める s）"}
+{"f":"cards","id":"ko.c0030","k":"note","src":"싸 ssa. 쌀 = rice, 있어요 = there is.","tgt":"싸 ssa。쌀 = 米、있어요 = あります。"}
+{"f":"cards","id":"ko.c0031","k":"meaning","src":"tense j","tgt":"jj（喉を締める濃音）"}
+{"f":"cards","id":"ko.c0031","k":"note","src":"짜 jja. 짜다 = salty, 진짜 = really.","tgt":"짜 jja。짜다 = しょっぱい、진짜 = 本当に。"}
+{"f":"cards","id":"ko.c0032","k":"meaning","src":"wa","tgt":"ワ（w をはっきり）"}
+{"f":"cards","id":"ko.c0032","k":"note","src":"ㅗ + ㅏ. 과일 = fruit, 와요 = come.","tgt":"ㅗ ＋ ㅏ。과일 = 果物、와요 = 来ます。w を落とさないように。"}
+{"f":"cards","id":"ko.c0033","k":"meaning","src":"wo","tgt":"ウォ"}
+{"f":"cards","id":"ko.c0033","k":"note","src":"ㅜ + ㅓ. 원 = won, 뭐 = what.","tgt":"ㅜ ＋ ㅓ。원 = ウォン、뭐 = 何。"}
+{"f":"cards","id":"ko.c0034","k":"meaning","src":"we","tgt":"ウェ（oe）"}
+{"f":"cards","id":"ko.c0034","k":"note","src":"ㅗ + ㅣ. 회사 = company, 외국 = foreign country.","tgt":"ㅗ ＋ ㅣ と書きますが、発音は「ウェ」。회사（会社）、외국（外国）。"}
+{"f":"cards","id":"ko.c0035","k":"meaning","src":"wi","tgt":"ウィ（w をはっきり）"}
+{"f":"cards","id":"ko.c0035","k":"note","src":"ㅜ + ㅣ. 귀 = ear, 위 = up / stomach.","tgt":"ㅜ ＋ ㅣ。귀 = 耳、위 = 上 / 胃。「イ」にならないように。"}
+{"f":"cards","id":"ko.c0036","k":"meaning","src":"we","tgt":"ウェ（wae / we）"}
+{"f":"cards","id":"ko.c0036","k":"note","src":"Both sound like 'we'. 왜 = why, 웨딩 = wedding.","tgt":"どちらも「ウェ」と発音します。왜 = なぜ、웨딩 = ウエディング。","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"cards","id":"ko.c0037","k":"meaning","src":"ui / i / e","tgt":"ui / i / e（読み方が3通り）"}
+{"f":"cards","id":"ko.c0037","k":"note","src":"의사 = doctor (ui), 거의 = almost (i), 친구의 = friend's (e).","tgt":"의사（医師）は ui、거의（ほとんど）は i、친구의（友だちの）は e。"}
+{"f":"cards","id":"ko.c0038","k":"meaning","src":"ye","tgt":"イェ（yae / ye）"}
+{"f":"cards","id":"ko.c0038","k":"note","src":"Both 'ye'. 얘기 = talk/story, 예 = yes (formal).","tgt":"どちらも「イェ」。얘기 = 話、예 = はい（改まった言い方）。"}
+{"f":"cards","id":"ko.c0039","k":"meaning","src":"all sound like t at the end","tgt":"文字の最後ではすべて t（「っ」で止める）","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"cards","id":"ko.c0039","k":"note","src":"옷 ot, 있다 itda, 꽃 kkot, 끝 kkeut, 낮 nat.","tgt":"옷 ot、있다 itda、꽃 kkot、끝 kkeut、낮 nat。"}
+{"f":"cards","id":"ko.c0040","k":"meaning","src":"k at the end","tgt":"文字の最後では k"}
+{"f":"cards","id":"ko.c0040","k":"note","src":"부엌 bueok (kitchen), 밖 bak (outside).","tgt":"부엌 bueok（台所）、밖 bak（外）。"}
+{"f":"cards","id":"ko.c0041","k":"meaning","src":"p at the end","tgt":"文字の最後では p"}
+{"f":"cards","id":"ko.c0041","k":"note","src":"앞 ap (front), 옆 yeop (side).","tgt":"앞 ap（前）、옆 yeop（横）。"}
+{"f":"cards","id":"ko.c0042","k":"meaning","src":"double finals","tgt":"二重パッチム"}
+{"f":"cards","id":"ko.c0042","k":"note","src":"Only one sounds: 닭 dak (chicken), 값 gap (price), 읽다 ikda.","tgt":"発音するのは片方だけ：닭 dak（鶏）、값 gap（値段）、읽다 ikda。"}
+{"f":"cards","id":"ko.c0043","k":"meaning","src":"final consonant","tgt":"パッチム（文字の最後の子音）"}
+{"f":"cards","id":"ko.c0043","k":"note","src":"Only 7 sounds survive at the end of a syllable: k, n, t, l, m, p, ng. 옷 sounds like 'ot', 꽃 like 'kkot'.","tgt":"文字の最後に来る音は k, n, t, l, m, p, ng の7つだけ。옷 は ot、꽃 は kkot。母音をつけずに止めます。","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"cards","id":"ko.c0044","k":"meaning","src":"soft s vs tense s","tgt":"平音の s と濃音の ss"}
+{"f":"cards","id":"ko.c0044","k":"note","src":"살 (sal, flesh) vs 쌀 (ssal, rice). Tense = tighter throat, no air puff.","tgt":"살（sal、肉）と 쌀（ssal、米）。濃音は喉を締め、息を出しません。"}
+{"f":"cards","id":"ko.c0045","k":"meaning","src":"g · kk · k (k-row: plain, tense, aspirated)","tgt":"g · kk · k（カ行の平音・濃音・激音）"}
+{"f":"cards","id":"ko.c0045","k":"note","src":"가 ga / 까 kka / 카 ka. Aspirated = big puff of air; tense = none, tight.","tgt":"가 ga / 까 kka / 카 ka。激音は強い息、濃音は息を出さずに喉を締めます。激音を濃音で言わないように。"}
+{"f":"cards","id":"ko.c0046","k":"meaning","src":"d · tt · t (t-row: plain, tense, aspirated)","tgt":"d · tt · t（タ行の平音・濃音・激音）"}
+{"f":"cards","id":"ko.c0046","k":"note","src":"달 dal (moon) / 딸 ttal (daughter) / 탈 tal (mask).","tgt":"달 dal（月）/ 딸 ttal（娘）/ 탈 tal（仮面）。"}
+{"f":"cards","id":"ko.c0047","k":"meaning","src":"b · pp · p (p-row: plain, tense, aspirated)","tgt":"b · pp · p（パ行の平音・濃音・激音）"}
+{"f":"cards","id":"ko.c0047","k":"note","src":"불 bul (fire) / 뿔 ppul (horn) / 풀 pul (grass).","tgt":"불 bul（火）/ 뿔 ppul（角）/ 풀 pul（草）。"}
+{"f":"cards","id":"ko.c0048","k":"meaning","src":"j · jj · ch (ch-row: plain, tense, aspirated)","tgt":"j · jj · ch（チャ行の平音・濃音・激音）"}
+{"f":"cards","id":"ko.c0048","k":"note","src":"자다 jada (sleep) / 짜다 jjada (salty) / 차다 chada (cold).","tgt":"자다 jada（寝る）/ 짜다 jjada（しょっぱい）/ 차다 chada（冷たい）。"}
+{"f":"cards","id":"ko.c0049","k":"meaning","src":"liaison (carry-over)","tgt":"連音化"}
+{"f":"cards","id":"ko.c0049","k":"note","src":"A final consonant jumps to the next vowel: 한국어 → 한구거 (han-gu-geo), 음악 → 으막 (eu-mak).","tgt":"パッチムが次の母音に移ります：한국어 → 한구거（han-gu-geo）、음악 → 으막（eu-mak）。"}
+{"f":"cards","id":"ko.c0050","k":"meaning","src":"flap r, like Spanish 'pero'","tgt":"ラ行の r（舌先で軽くはじく）"}
+{"f":"cards","id":"ko.c0050","k":"note","src":"머리 meori, 다리 dari. At the end: l sound, 물 mul.","tgt":"머리 meori、다리 dari。日本語のラ行と同じ音です。文字の最後では l：물 mul。"}
+{"f":"cards","id":"ko.c0051","k":"meaning","src":"double ㄹ = clear l","tgt":"ㄹ が2つ並ぶと、はっきりした l"}
+{"f":"cards","id":"ko.c0051","k":"note","src":"빨리 ppalli (fast), 몰라 molla.","tgt":"빨리 ppalli（早く）、몰라 molla。舌先をつけたまま長めに出します。"}
+{"f":"cards","id":"ko.c0052","k":"meaning","src":"ㅎ nearly silent between vowels","tgt":"ㅎ の弱化（母音の間ではほぼ聞こえない）"}
+{"f":"cards","id":"ko.c0052","k":"note","src":"좋아요 → 조아요 (joayo). 많이 → 마니 (mani).","tgt":"좋아요 → 조아요（joayo）。많이 → 마니（mani）。"}
+{"f":"cards","id":"ko.c0053","k":"meaning","src":"ng as in 'sing'","tgt":"文字の最後の ng（「りんご」の「ん」）","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"ko.c0053","k":"note","src":"강 gang, 사랑 sarang. Never 'n-g' separated.","tgt":"강 gang、사랑 sarang。「カン」のように n にしないこと。舌の奥を上げ、口は開けたままです。"}
+{"f":"cards","id":"ko.c0054","k":"meaning","src":"nasal assimilation","tgt":"鼻音化"}
+{"f":"cards","id":"ko.c0054","k":"note","src":"ㄱ/ㄷ/ㅂ before ㄴ/ㅁ turn nasal: 감사합니다 → 감사함니다, 국물 → 궁물.","tgt":"ㄱ/ㄷ/ㅂ は ㄴ/ㅁ の前で鼻音になります：감사합니다 → 감사함니다、국물 → 궁물。日本語の「さんぽ」の「ん」が唇を閉じるように、次の音に合わせて変わります。"}
+{"f":"cards","id":"ko.c0055","k":"meaning","src":"three sounds for one vowel","tgt":"1つの母音に3つの読み方"}
+{"f":"cards","id":"ko.c0055","k":"note","src":"의사 ui-sa (doctor) at the start; 거의 geo-i; possessive 의 → 에 (친구의 → 친구에).","tgt":"의사 ui-sa（医師）は語頭の読み方。거의 は geo-i。所有の 의 は 에 と発音します（친구의 → 친구에）。"}
+{"f":"cards","id":"ko.c0056","k":"meaning","src":"same sound in modern Seoul","tgt":"今のソウルでは同じ音"}
+{"f":"cards","id":"ko.c0056","k":"note","src":"개 and 게 sound identical; context decides.","tgt":"개 と 게 は同じ発音です。文脈で区別します。"}
+{"f":"cards","id":"ko.c0057","k":"meaning","src":"the two 'o's","tgt":"2つの「オ」"}
+{"f":"cards","id":"ko.c0057","k":"note","src":"ㅓ = jaw open, lips relaxed (uh). ㅗ = lips round (oh). 서울 vs 소울.","tgt":"ㅓ ＝ 口を大きく開け、唇は丸めない（eo）。ㅗ ＝ 唇を丸める（o）。서울 と 소울。カタカナではどちらも「オ」なので、いちばん注意が必要です。","rw":"English-spelling sound hint in brackets"}
+{"f":"cards","id":"ko.c0058","k":"meaning","src":"lips flat, tongue back","tgt":"唇を横に引き、舌は奥に"}
+{"f":"cards","id":"ko.c0058","k":"note","src":"No English match. Say 'oo' while smiling. 음, 그, 는.","tgt":"日本語の「ウ」を、唇を横に引いたまま言います。음、그、는。","rw":"says English lacks the sound/feature"}
+{"f":"cards","id":"ko.c0059","k":"meaning","src":"questions rise, statements fall","tgt":"疑問文は上げ、平叙文は下げる"}
+{"f":"cards","id":"ko.c0059","k":"note","src":"가요↗ = are you going? 가요↘ = I'm going. Same word.","tgt":"가요↗ ＝「行きますか？」、가요↘ ＝「行きます」。同じ言葉です。「か」にあたる語はありません。"}
+{"f":"cards","id":"ko.c0060","k":"meaning","src":"words are spaced, particles attach","tgt":"分かち書き：単語ごとに空け、助詞はつけて書く"}
+{"f":"cards","id":"ko.c0060","k":"note","src":"저는 밥을 먹어요: 저는 / 밥을 / 먹어요. Particles never stand alone.","tgt":"저는 밥을 먹어요 は 저는 / 밥을 / 먹어요 と区切ります。助詞だけを離して書くことはありません。"}
+{"f":"cards","id":"ko.c0061","k":"meaning","src":"Hello","tgt":"こんにちは"}
+{"f":"cards","id":"ko.c0061","k":"note","src":"Polite default greeting, any time of day.","tgt":"いつでも使える丁寧なあいさつ。朝も夜もこれ1つで大丈夫です。"}
+{"f":"cards","id":"ko.c0062","k":"meaning","src":"Thank you","tgt":"ありがとうございます"}
+{"f":"cards","id":"ko.c0062","k":"note","src":"Formal. Casual: 고마워 (gomawo).","tgt":"改まった言い方（ハムニダ体）で、漢字では「感謝」。パンマルは 고마워 (gomawo)。"}
+{"f":"cards","id":"ko.c0063","k":"meaning","src":"I'm sorry","tgt":"申し訳ありません"}
+{"f":"cards","id":"ko.c0063","k":"note","src":"Formal apology. 미안해 (mianhae) = casual.","tgt":"改まった謝罪。パンマルは 미안해 (mianhae)。"}
+{"f":"cards","id":"ko.c0064","k":"meaning","src":"Yes / No","tgt":"はい / いいえ"}
+{"f":"cards","id":"ko.c0064","k":"note","src":"네 also works as 'okay' or 'uh-huh'.","tgt":"네 は「わかりました」「うん」のような相づちにも使います。"}
+{"f":"cards","id":"ko.c0065","k":"meaning","src":"How much is it?","tgt":"いくらですか？"}
+{"f":"cards","id":"ko.c0065","k":"note","src":"Point at the item and ask.","tgt":"品物を指さして聞きましょう。"}
+{"f":"cards","id":"ko.c0066","k":"meaning","src":"Where is the bathroom?","tgt":"トイレはどこですか？"}
+{"f":"cards","id":"ko.c0066","k":"note","src":"어디예요 = where is.","tgt":"어디예요 ＝「どこですか」。「トイレ」は漢字語で、漢字では「化粧室」です。"}
+{"f":"cards","id":"ko.c0067","k":"meaning","src":"This one, please","tgt":"これください"}
+{"f":"cards","id":"ko.c0067","k":"note","src":"Ordering or shopping. 주세요 = please give.","tgt":"注文や買い物で。주세요 ＝「ください」。"}
+{"f":"cards","id":"ko.c0068","k":"meaning","src":"(Said before eating)","tgt":"いただきます"}
+{"f":"cards","id":"ko.c0068","k":"note","src":"Lit. 'I will eat well.' Thanks to the cook.","tgt":"直訳は「よく食べます」。作ってくれた人への感謝で、日本語の「いただきます」と同じ場面で使います。"}
+{"f":"cards","id":"ko.c0069","k":"meaning","src":"It's okay / I'm fine","tgt":"大丈夫です"}
+{"f":"cards","id":"ko.c0069","k":"note","src":"Also used to politely refuse.","tgt":"丁寧に断るとき（「結構です」）にも使います。"}
+{"f":"cards","id":"ko.c0070","k":"meaning","src":"Please speak slowly","tgt":"ゆっくり話してください"}
+{"f":"cards","id":"ko.c0070","k":"note","src":"Lifesaver phrase.","tgt":"困ったときに助かるひと言。"}
+{"f":"cards","id":"ko.c0071","k":"meaning","src":"I don't speak Korean well","tgt":"韓国語があまりできません"}
+{"f":"cards","id":"ko.c0071","k":"note","src":"Buys you patience.","tgt":"これを言えば、相手もゆっくり話してくれます。"}
+{"f":"cards","id":"ko.c0072","k":"meaning","src":"Just a moment / excuse me","tgt":"少々お待ちください / ちょっとすみません"}
+{"f":"cards","id":"ko.c0072","k":"note","src":"Squeezing past someone on the subway.","tgt":"地下鉄で人の前を通るときにも使います。"}
+{"f":"cards","id":"ko.c0073","k":"meaning","src":"I'm ___","tgt":"私は___です"}
+{"f":"cards","id":"ko.c0073","k":"note","src":"Look at the last Hangul block: 이에요 after a final consonant (저는 킴이에요), 예요 after a vowel (저는 리사예요).","tgt":"最後の文字を見ます。パッチムがあれば 이에요（저는 킴이에요）、なければ 예요（저는 리사예요）。日本人の名前は「ン」で終わるもの（ケン、ジュン）以外、たいていパッチムなしです。"}
+{"f":"cards","id":"ko.c0074","k":"meaning","src":"What's your name?","tgt":"お名前は何ですか？"}
+{"f":"cards","id":"ko.c0074","k":"note","src":"Polite: 성함이 어떻게 되세요? for elders or formal settings.","tgt":"「お名前は」の「は」ですが、韓国語では「が」にあたる助詞を使います。目上の人や改まった場では 성함이 어떻게 되세요?"}
+{"f":"cards","id":"ko.c0075","k":"meaning","src":"Nice to meet you","tgt":"会えてうれしいです"}
+{"f":"cards","id":"ko.c0075","k":"note","src":"Lit. 'glad because we met'. Formal: 반갑습니다.","tgt":"直訳は「会ったのでうれしいです」。初対面のあいさつです。改まった言い方は 반갑습니다。"}
+{"f":"cards","id":"ko.c0076","k":"meaning","src":"Where are you from?","tgt":"どこから来ましたか？"}
+{"f":"cards","id":"ko.c0076","k":"note","src":"에서 = from. 어디 = where.","tgt":"에서 は場所の「から」（「で」の意味にもなります）。어디 ＝「どこ」。"}
+{"f":"cards","id":"ko.c0077","k":"meaning","src":"I'm from the US","tgt":"アメリカから来ました"}
+{"f":"cards","id":"ko.c0077","k":"note","src":"미국 = USA. 한국 Korea, 영국 UK, 캐나다 Canada, 멕시코 Mexico.","tgt":"미국 ＝ アメリカ（漢字では「美国」と書き、日本語の「米国」とは字が違います）。한국 韓国、영국 イギリス（英国）、캐나다 カナダ、멕시코 メキシコ。"}
+{"f":"cards","id":"ko.c0078","k":"meaning","src":"How old are you?","tgt":"何歳ですか？"}
+{"f":"cards","id":"ko.c0078","k":"note","src":"Normal question in Korea; it decides how people speak to each other.","tgt":"韓国ではふつうの質問です。年齢で、敬語を使うかパンマルにするかが決まります。"}
+{"f":"cards","id":"ko.c0079","k":"meaning","src":"I'm 30","tgt":"30歳です"}
+{"f":"cards","id":"ko.c0079","k":"note","src":"Native number + 살. 스물다섯 살 = 25.","tgt":"固有語の数＋살。스물다섯 살 ＝ 25歳。日本語の「さんじゅっさい」と違い、年齢は固有語の数で言います。"}
+{"f":"cards","id":"ko.c0080","k":"meaning","src":"What do you do?","tgt":"お仕事は何ですか？"}
+{"f":"cards","id":"ko.c0080","k":"note","src":"일 = work. 직업이 뭐예요? also works.","tgt":"일 ＝「仕事」。직업이 뭐예요?（職業は何ですか）も使えます。"}
+{"f":"cards","id":"ko.c0081","k":"meaning","src":"I'm an office worker","tgt":"会社員です"}
+{"f":"cards","id":"ko.c0081","k":"note","src":"학생 student, 선생님 teacher, 개발자 developer, 간호사 nurse.","tgt":"학생（学生）、선생님（先生）、개발자（開発者・エンジニア）、간호사（看護師）。"}
+{"f":"cards","id":"ko.c0082","k":"meaning","src":"I'm studying Korean","tgt":"韓国語を勉強しています"}
+{"f":"cards","id":"ko.c0082","k":"note","src":"공부하다 = to study. Say this and people light up.","tgt":"공부하다 ＝「勉強する」。漢字は「工夫」ですが、意味は「勉強」です。これを言うと、相手はとても喜びます。"}
+{"f":"cards","id":"ko.c0083","k":"meaning","src":"What's your hobby?","tgt":"趣味は何ですか？"}
+{"f":"cards","id":"ko.c0083","k":"note","src":"취미 = hobby. 제 취미는 운동이에요 = my hobby is working out.","tgt":"취미（趣味）。제 취미는 운동이에요 ＝「私の趣味は運動です」。"}
+{"f":"cards","id":"ko.c0084","k":"meaning","src":"Please take care of me","tgt":"よろしくお願いします"}
+{"f":"cards","id":"ko.c0084","k":"note","src":"Said after introducing yourself at work or in a group. No English equivalent.","tgt":"職場や集まりで自己紹介のあとに言います。日本語の「よろしくお願いします」とほぼ同じ使い方です。","rw":"says English lacks the sound/feature"}
+{"f":"cards","id":"ko.c0085","k":"meaning","src":"Excuse me (to get attention)","tgt":"すみません（呼びかけ）"}
+{"f":"cards","id":"ko.c0085","k":"note","src":"Call a waiter or stop a stranger. Not an apology.","tgt":"店員を呼ぶとき、知らない人に声をかけるときに。謝罪ではありません。"}
+{"f":"cards","id":"ko.c0086","k":"meaning","src":"Are you okay?","tgt":"大丈夫ですか？"}
+{"f":"cards","id":"ko.c0086","k":"note","src":"Same word as 'I'm fine' with rising tone.","tgt":"「大丈夫です」と同じ言葉を、語尾を上げて言います。"}
+{"f":"cards","id":"ko.c0087","k":"meaning","src":"Please help me","tgt":"助けてください"}
+{"f":"cards","id":"ko.c0087","k":"note","src":"Emergency or just a heavy bag.","tgt":"緊急のときにも、荷物が重いときにも。"}
+{"f":"cards","id":"ko.c0088","k":"meaning","src":"I don't know","tgt":"知りません"}
+{"f":"cards","id":"ko.c0088","k":"note","src":"모르다 → 몰라요.","tgt":"모르다 → 몰라요.","pre":1}
+{"f":"cards","id":"ko.c0089","k":"meaning","src":"I didn't understand","tgt":"理解できませんでした"}
+{"f":"cards","id":"ko.c0089","k":"note","src":"Say it, then 다시 말해 주세요.","tgt":"漢字は「理解」。言ったあと、다시 말해 주세요 と続けましょう。"}
+{"f":"cards","id":"ko.c0090","k":"meaning","src":"Please say it again","tgt":"もう一度言ってください"}
+{"f":"cards","id":"ko.c0090","k":"note","src":"다시 = again.","tgt":"다시 ＝「もう一度」。"}
+{"f":"cards","id":"ko.c0091","k":"meaning","src":"Can you speak English?","tgt":"英語を話せますか？","rw":"mentions English"}
+{"f":"cards","id":"ko.c0091","k":"note","src":"할 수 있다 = can do.","tgt":"할 수 있다 ＝「〜することができる」。日本語の「ことができる」と同じ組み立てです。"}
+{"f":"cards","id":"ko.c0092","k":"meaning","src":"What is this?","tgt":"これは何ですか？"}
+{"f":"cards","id":"ko.c0092","k":"note","src":"Point and ask. Works for food, signs, everything.","tgt":"指さして聞きましょう。料理にも看板にも使えます。"}
+{"f":"cards","id":"ko.c0093","k":"meaning","src":"I'm going to use the bathroom","tgt":"ちょっとトイレをお借りします"}
+{"f":"cards","id":"ko.c0093","k":"note","src":"좀 softens; 게요 announces.","tgt":"좀（ちょっと）で柔らかくし、게요 で「これから〜します」と伝えます。"}
+{"f":"cards","id":"ko.c0094","k":"meaning","src":"Do you take cards?","tgt":"カード使えますか？"}
+{"f":"cards","id":"ko.c0094","k":"note","src":"돼요 = is it possible / does it work.","tgt":"돼요 ＝「できますか・使えますか」。"}
+{"f":"cards","id":"ko.c0095","k":"meaning","src":"What's the wifi password?","tgt":"Wi-Fiのパスワードは何ですか？"}
+{"f":"cards","id":"ko.c0095","k":"note","src":"비밀번호 = password.","tgt":"비밀번호 ＝ パスワード（漢字では「秘密番号」）。"}
+{"f":"cards","id":"ko.c0096","k":"meaning","src":"Do you deliver?","tgt":"配達してもらえますか？"}
+{"f":"cards","id":"ko.c0096","k":"note","src":"배달 = delivery. Korea delivers everything.","tgt":"배달（配達）。韓国では何でも配達してくれます。"}
+{"f":"cards","id":"ko.c0097","k":"meaning","src":"I have a reservation","tgt":"予約しています"}
+{"f":"cards","id":"ko.c0097","k":"note","src":"예약 = reservation. 예약 가능해요? = can I book?","tgt":"예약（予約）。「予約しています」は過去形で言います。예약 가능해요? ＝「予約できますか？」"}
+{"f":"cards","id":"ko.c0098","k":"meaning","src":"I'm lost","tgt":"道に迷いました"}
+{"f":"cards","id":"ko.c0098","k":"note","src":"길 = road/way. 잃다 = to lose.","tgt":"길 ＝「道」。잃다 ＝「なくす」。"}
+{"f":"cards","id":"ko.c0099","k":"meaning","src":"Where is the hospital?","tgt":"病院はどこですか？"}
+{"f":"cards","id":"ko.c0099","k":"note","src":"약국 (yakguk) = pharmacy. 경찰서 = police station.","tgt":"약국 (yakguk) ＝ 薬局。경찰서（警察署）。"}
+{"f":"cards","id":"ko.c0100","k":"meaning","src":"Slowly, please","tgt":"ゆっくりお願いします"}
+{"f":"cards","id":"ko.c0100","k":"note","src":"Shortest version of 천천히 말해 주세요.","tgt":"천천히 말해 주세요 のいちばん短い形。"}
+{"f":"cards","id":"ko.c0101","k":"meaning","src":"Where is the bathroom?","tgt":"トイレはどこにありますか？"}
+{"f":"cards","id":"ko.c0101","k":"note","src":"Full form. Short: 화장실 어디예요? Both fine.","tgt":"省略しない形。短く言うと 화장실 어디예요? どちらでも大丈夫です。"}
+{"f":"cards","id":"ko.c0102","k":"meaning","src":"Is there a bathroom here?","tgt":"ここにトイレはありますか？"}
+{"f":"cards","id":"ko.c0102","k":"note","src":"Cafés and small shops often don't have one inside.","tgt":"カフェや小さな店には、店内にトイレがないこともよくあります。"}
+{"f":"cards","id":"ko.c0103","k":"meaning","src":"Can I use the bathroom?","tgt":"トイレを使ってもいいですか？"}
+{"f":"cards","id":"ko.c0103","k":"note","src":"아/어도 돼요 = is it okay if I…","tgt":"아/어도 돼요 ＝「〜てもいいですか」。「〜ても」の「も」まで日本語と同じ組み立てです。"}
+{"f":"cards","id":"ko.c0104","k":"meaning","src":"What's the bathroom code?","tgt":"トイレの暗証番号は何ですか？"}
+{"f":"cards","id":"ko.c0104","k":"note","src":"Many café bathrooms have a keypad. It's printed on the receipt or ask staff.","tgt":"カフェのトイレはキーパッド式が多いです。番号はレシートに書いてあるか、店員に聞きましょう。"}
+{"f":"cards","id":"ko.c0105","k":"meaning","src":"Is there toilet paper?","tgt":"トイレットペーパーはありますか？"}
+{"f":"cards","id":"ko.c0105","k":"note","src":"휴지 = tissue/toilet paper. Carry some anyway.","tgt":"휴지 ＝ ティッシュ・トイレットペーパー。念のため持ち歩きましょう。"}
+{"f":"cards","id":"ko.c0106","k":"meaning","src":"Where's a convenience store?","tgt":"コンビニはどこですか？"}
+{"f":"cards","id":"ko.c0106","k":"note","src":"GS25, CU, 세븐일레븐. There's always one.","tgt":"GS25、CU、세븐일레븐。どこにでもあります。"}
+{"f":"cards","id":"ko.c0107","k":"meaning","src":"Where's the nearest station?","tgt":"いちばん近い駅はどこですか？"}
+{"f":"cards","id":"ko.c0107","k":"note","src":"제일 가까운 = the nearest.","tgt":"제일（第一）가까운 ＝「いちばん近い」。"}
+{"f":"cards","id":"ko.c0108","k":"meaning","src":"Where's the exit?","tgt":"出口はどこですか？"}
+{"f":"cards","id":"ko.c0108","k":"note","src":"입구 = entrance. 출구 = exit.","tgt":"입구（入口）、출구（出口）。"}
+{"f":"cards","id":"ko.c0109","k":"meaning","src":"Which exit number?","tgt":"何番出口ですか？"}
+{"f":"cards","id":"ko.c0109","k":"note","src":"Subway exits are numbered. 3번 출구 = exit 3.","tgt":"地下鉄の出口には番号がついています。3번 출구 ＝ 3番出口。"}
+{"f":"cards","id":"ko.c0110","k":"meaning","src":"Where is this? / Where am I?","tgt":"ここはどこですか？"}
+{"f":"cards","id":"ko.c0110","k":"note","src":"Show your map and ask.","tgt":"地図を見せて聞きましょう。"}
+{"f":"cards","id":"ko.c0111","k":"meaning","src":"Where do I buy this?","tgt":"これはどこで買えますか？"}
+{"f":"cards","id":"ko.c0111","k":"note","src":"사다 = to buy. 팔아요? = do you sell it?","tgt":"사다 ＝「買う」。팔아요? ＝「売っていますか？」"}
+{"f":"cards","id":"ko.c0112","k":"meaning","src":"Where's the checkout?","tgt":"レジはどこですか？"}
+{"f":"cards","id":"ko.c0112","k":"note","src":"계산 = payment. 계산대 = counter.","tgt":"계산（計算）は、お店では「お会計」の意味です。계산대 ＝ レジ。"}
+{"f":"cards","id":"ko.c0113","k":"meaning","src":"Is there a seat / a table?","tgt":"席はありますか？"}
+{"f":"cards","id":"ko.c0113","k":"note","src":"Walking into a restaurant or café.","tgt":"レストランやカフェに入るときに。"}
+{"f":"cards","id":"ko.c0114","k":"meaning","src":"Two people","tgt":"2人です"}
+{"f":"cards","id":"ko.c0114","k":"note","src":"Answer to 몇 명이세요? (how many?). 한 명이요 = one. 세 명이요 = three.","tgt":"몇 명이세요?（何名様ですか）への答え。한 명이요 ＝ 1人、세 명이요 ＝ 3人。"}
+{"f":"cards","id":"ko.c0115","k":"meaning","src":"Can I sit here?","tgt":"ここに座ってもいいですか？"}
+{"f":"cards","id":"ko.c0115","k":"note","src":"앉다 = to sit.","tgt":"앉다 ＝「座る」。"}
+{"f":"cards","id":"ko.c0116","k":"meaning","src":"Do you have a charger?","tgt":"充電器はありますか？"}
+{"f":"cards","id":"ko.c0116","k":"note","src":"Cafés often lend them. 콘센트 = outlet.","tgt":"カフェで貸してくれることもあります。콘센트 ＝ コンセント。"}
+{"f":"cards","id":"ko.c0117","k":"meaning","src":"Where's an outlet?","tgt":"コンセントはどこですか？"}
+{"f":"cards","id":"ko.c0117","k":"note","src":"콘센트 from 'concentric plug'.","tgt":"콘센트 は日本語の「コンセント」と同じ言葉で、英語では通じない点も同じです。"}
+{"f":"cards","id":"ko.c0118","k":"meaning","src":"Is there wifi?","tgt":"Wi-Fiは使えますか？"}
+{"f":"cards","id":"ko.c0118","k":"note","src":"Follow with 비밀번호가 뭐예요?","tgt":"続けて 비밀번호가 뭐예요? と聞きましょう。"}
+{"f":"cards","id":"ko.c0119","k":"meaning","src":"What time do you close?","tgt":"何時に閉まりますか？"}
+{"f":"cards","id":"ko.c0119","k":"note","src":"닫다 = close. 열어요 = open.","tgt":"닫다 ＝「閉める」。열어요 ＝「開きます」。"}
+{"f":"cards","id":"ko.c0120","k":"meaning","src":"What time do you open?","tgt":"何時に開きますか？"}
+{"f":"cards","id":"ko.c0120","k":"note","src":"열다 = open.","tgt":"열다 ＝「開ける」。"}
+{"f":"cards","id":"ko.c0121","k":"meaning","src":"How long do I have to wait?","tgt":"どのくらい待たなければなりませんか？"}
+{"f":"cards","id":"ko.c0121","k":"note","src":"기다리다 = wait. 아/어야 돼요 = have to.","tgt":"기다리다 ＝「待つ」。아/어야 돼요 ＝「〜なければなりません」。"}
+{"f":"cards","id":"ko.c0122","k":"meaning","src":"Could you take a photo for us?","tgt":"写真を撮っていただけますか？"}
+{"f":"cards","id":"ko.c0122","k":"note","src":"Extra polite with 주실래요. Hand over the phone after.","tgt":"주실래요 でとても丁寧になります。言ったあとにスマホを渡しましょう。"}
+{"f":"cards","id":"ko.c0123","k":"meaning","src":"Receipt, please","tgt":"レシートをください"}
+{"f":"cards","id":"ko.c0123","k":"note","src":"영수증 필요하세요? = do you need a receipt? (they'll ask).","tgt":"漢字は「領収証」。영수증 필요하세요? ＝「レシートはご入り用ですか？」（店員に聞かれます）。"}
+{"f":"cards","id":"ko.c0124","k":"meaning","src":"A bag, please","tgt":"袋をください"}
+{"f":"cards","id":"ko.c0124","k":"note","src":"Bags cost ~100원. 봉투 필요하세요? = need a bag?","tgt":"袋は約100원。봉투 필요하세요? ＝「袋はご入り用ですか？」"}
+{"f":"cards","id":"ko.c0125","k":"meaning","src":"Is there a discount?","tgt":"割引はありますか？"}
+{"f":"cards","id":"ko.c0125","k":"note","src":"할인 = discount. 세일 = sale.","tgt":"할인（割引）。세일 ＝ セール。"}
+{"f":"cards","id":"ko.c0126","k":"meaning","src":"Can I exchange this?","tgt":"これ、交換できますか？"}
+{"f":"cards","id":"ko.c0126","k":"note","src":"교환 = exchange. 환불 = refund.","tgt":"교환（交換）。환불 ＝ 返金。"}
+{"f":"cards","id":"ko.c0127","k":"meaning","src":"One iced Americano, please","tgt":"アイスアメリカーノを1杯ください"}
+{"f":"cards","id":"ko.c0127","k":"note","src":"아아 (a-a) = iced Americano slang. 뜨아 = hot Americano.","tgt":"아아 (a-a) はアイスアメリカーノの略語。뜨아 ＝ ホットアメリカーノ。"}
+{"f":"cards","id":"ko.c0128","k":"meaning","src":"Hot one, please","tgt":"温かいのをください"}
+{"f":"cards","id":"ko.c0128","k":"note","src":"따뜻한 = warm/hot. 차가운 거 = cold one.","tgt":"따뜻한 ＝「温かい」。차가운 거 ＝「冷たいの」。"}
+{"f":"cards","id":"ko.c0129","k":"meaning","src":"What sizes do you have?","tgt":"サイズは何がありますか？"}
+{"f":"cards","id":"ko.c0129","k":"note","src":"Most cafés: 톨 / 그란데 / 벤티 or 레귤러 / 라지.","tgt":"多くのカフェは 톨 / 그란데 / 벤티 か、레귤러 / 라지 です。"}
+{"f":"cards","id":"ko.c0130","k":"meaning","src":"The large one, please","tgt":"大きいのをください"}
+{"f":"cards","id":"ko.c0130","k":"note","src":"큰 = big. 작은 거 = the small one.","tgt":"큰 ＝「大きい」。작은 거 ＝「小さいの」。"}
+{"f":"cards","id":"ko.c0131","k":"meaning","src":"Less sweet, please","tgt":"甘さ控えめでお願いします"}
+{"f":"cards","id":"ko.c0131","k":"note","src":"덜 = less. 안 달게 = not sweet.","tgt":"덜 ＝「より少なく」。안 달게 ＝「甘くなく」。"}
+{"f":"cards","id":"ko.c0132","k":"meaning","src":"No syrup, please","tgt":"シロップ抜きでお願いします"}
+{"f":"cards","id":"ko.c0132","k":"note","src":"빼다 = take out. 얼음 빼 주세요 = no ice.","tgt":"빼다 ＝「抜く」。얼음 빼 주세요 ＝「氷抜きでお願いします」。"}
+{"f":"cards","id":"ko.c0133","k":"meaning","src":"For here? (they ask)","tgt":"店内でお召し上がりですか？（店員）"}
+{"f":"cards","id":"ko.c0133","k":"note","src":"Answer: 네, 먹고 갈게요 (for here) / 포장이요 (to go).","tgt":"答え：네, 먹고 갈게요（店内で）/ 포장이요（持ち帰りで）。"}
+{"f":"cards","id":"ko.c0134","k":"meaning","src":"To go","tgt":"持ち帰りで"}
+{"f":"cards","id":"ko.c0134","k":"note","src":"Short answer. 테이크아웃 also understood.","tgt":"短い答え。漢字は「包装」ですが、お店では「持ち帰り」の意味です。테이크아웃 も通じます。"}
+{"f":"cards","id":"ko.c0135","k":"meaning","src":"(Give me) the buzzer","tgt":"呼び出しベルをください"}
+{"f":"cards","id":"ko.c0135","k":"note","src":"They hand you a pager; it buzzes when your order is ready.","tgt":"注文ができると振動して知らせるベルを渡されます。"}
+{"f":"cards","id":"ko.c0136","k":"meaning","src":"Do you have a points card? (they ask)","tgt":"ポイントカードはお持ちですか？（店員）"}
+{"f":"cards","id":"ko.c0136","k":"note","src":"Answer: 아니요, 괜찮아요 = no thanks.","tgt":"答え：아니요, 괜찮아요 ＝「いいえ、結構です」。"}
+{"f":"cards","id":"ko.c0137","k":"meaning","src":"I don't have a membership","tgt":"会員カードは持っていません"}
+{"f":"cards","id":"ko.c0137","k":"note","src":"Convenience store cashiers ask this constantly.","tgt":"コンビニのレジでいつも聞かれます。"}
+{"f":"cards","id":"ko.c0138","k":"meaning","src":"Please heat it up","tgt":"温めてください"}
+{"f":"cards","id":"ko.c0138","k":"note","src":"Convenience store 도시락 and 삼각김밥. 데우다 = to heat.","tgt":"コンビニの 도시락（弁当）や 삼각김밥（おにぎり）に。데우다 ＝「温める」。"}
+{"f":"cards","id":"ko.c0139","k":"meaning","src":"Where's the microwave?","tgt":"電子レンジはどこですか？"}
+{"f":"cards","id":"ko.c0139","k":"note","src":"Self-serve heating area, usually by the window seats.","tgt":"セルフの温めコーナーは、たいてい窓際の席のそばにあります。"}
+{"f":"cards","id":"ko.c0140","k":"meaning","src":"Is there hot water?","tgt":"お湯はありますか？"}
+{"f":"cards","id":"ko.c0140","k":"note","src":"For 컵라면 (cup noodles). It's free at every 편의점.","tgt":"컵라면（カップラーメン）用。どの 편의점 でも無料です。"}
+{"f":"cards","id":"ko.c0141","k":"meaning","src":"Do you need a bag? (they ask)","tgt":"袋はご入り用ですか？（店員）"}
+{"f":"cards","id":"ko.c0141","k":"note","src":"Answer: 네 / 아니요. Bags cost ~100원.","tgt":"答え：네 / 아니요。袋は約100원。"}
+{"f":"cards","id":"ko.c0642","k":"meaning","src":"Is this buy one get one?","tgt":"これ、1つ買うともう1つ無料ですか？"}
+{"f":"cards","id":"ko.c0642","k":"note","src":"Korea's 1+1 / 2+1 stickers. Say 원 플러스 원.","tgt":"韓国の 1+1 / 2+1 シール。원 플러스 원 と読みます。"}
+{"f":"cards","id":"ko.c0143","k":"meaning","src":"Please bag these separately","tgt":"別々に入れてください"}
+{"f":"cards","id":"ko.c0143","k":"note","src":"따로 = separately. 담다 = put in.","tgt":"따로 ＝「別々に」。담다 ＝「入れる」。"}
+{"f":"cards","id":"ko.c0144","k":"meaning","src":"I'll pay by card","tgt":"カードで払います"}
+{"f":"cards","id":"ko.c0144","k":"note","src":"현금으로 = by cash. Tap, no signature needed.","tgt":"현금으로 ＝「現金で」。タッチ決済で、サインは不要です。"}
+{"f":"cards","id":"ko.c0145","k":"meaning","src":"4,500 won","tgt":"4,500ウォン"}
+{"f":"cards","id":"ko.c0145","k":"note","src":"Sino-Korean: 사천오백. 원 = won.","tgt":"漢字語の数：사천오백。원 ＝ ウォン（漢字は「圓」）。"}
+{"f":"cards","id":"ko.c0146","k":"meaning","src":"12,000 won","tgt":"12,000ウォン"}
+{"f":"cards","id":"ko.c0146","k":"note","src":"만 이천 → 만이천. Big numbers group by 만 (10,000).","tgt":"만 이천 → 만이천。大きい数は 만（万）で区切ります。日本語と同じです。"}
+{"f":"cards","id":"ko.c0147","k":"meaning","src":"38,900 won","tgt":"38,900ウォン"}
+{"f":"cards","id":"ko.c0147","k":"note","src":"삼만 팔천 구백. Say it slowly; cashiers show the screen anyway.","tgt":"삼만 팔천 구백。ゆっくり言いましょう。店員がたいてい画面を見せてくれます。"}
+{"f":"cards","id":"ko.c0148","k":"meaning","src":"Phone number","tgt":"電話番号"}
+{"f":"cards","id":"ko.c0148","k":"note","src":"Phone digits are Sino, and 0 is 공 (gong), not 영.","tgt":"電話番号は漢字語の数で言います。0 は 영 ではなく 공 (gong)。"}
+{"f":"cards","id":"ko.c0149","k":"meaning","src":"3rd floor","tgt":"3階"}
+{"f":"cards","id":"ko.c0149","k":"note","src":"층 = floor, Sino number. 지하 1층 (B1) = jiha ilcheung.","tgt":"층（層）＝「階」。漢字語の数を使います。지하 1층（地下1階）＝ jiha ilcheung。"}
+{"f":"cards","id":"ko.c0150","k":"meaning","src":"2 PM","tgt":"午後2時"}
+{"f":"cards","id":"ko.c0150","k":"note","src":"Hours are native: 두 시. 오후 = PM, 오전 = AM.","tgt":"「〜時」は固有語の数：두 시。日本語の「にじ」とは違います。오후（午後）、오전（午前）。"}
+{"f":"cards","id":"ko.c0151","k":"meaning","src":"9:30 AM","tgt":"午前9時30分"}
+{"f":"cards","id":"ko.c0151","k":"note","src":"Native hour (아홉), Sino minutes (삼십).","tgt":"時は固有語の数（아홉）、分は漢字語の数（삼십）。"}
+{"f":"cards","id":"ko.c0152","k":"meaning","src":"Just 5 minutes","tgt":"5分だけです"}
+{"f":"cards","id":"ko.c0152","k":"note","src":"분 = minute (Sino). 만 = only.","tgt":"분（分）は漢字語の数。만 ＝「だけ」。"}
+{"f":"cards","id":"ko.c0153","k":"meaning","src":"Line 2","tgt":"2号線"}
+{"f":"cards","id":"ko.c0153","k":"note","src":"Subway lines: 호선 with Sino numbers. 9호선 = guhoseon.","tgt":"地下鉄の路線は 호선（号線）＋漢字語の数。9호선 ＝ guhoseon。"}
+{"f":"cards","id":"ko.c0154","k":"meaning","src":"Exit 4","tgt":"4番出口"}
+{"f":"cards","id":"ko.c0154","k":"note","src":"번 = number. 몇 번 출구? = which exit?","tgt":"번（番）＝ 番号。몇 번 출구? ＝「何番出口？」"}
+{"f":"cards","id":"ko.c0155","k":"meaning","src":"2 people","tgt":"2人です"}
+{"f":"cards","id":"ko.c0155","k":"note","src":"명 = person counter, native: 한 명, 두 명, 세 명, 네 명.","tgt":"명（名）は人を数える助数詞で、数は固有語：한 명、두 명、세 명、네 명。"}
+{"f":"cards","id":"ko.c0156","k":"meaning","src":"3 bottles of beer","tgt":"ビール3本"}
+{"f":"cards","id":"ko.c0156","k":"note","src":"병 = bottle, native number. 잔 = glass.","tgt":"병（瓶）＝ びん。数は固有語。잔 ＝「杯」。"}
+{"f":"cards","id":"ko.c0157","k":"meaning","src":"3 (things)","tgt":"3個"}
+{"f":"cards","id":"ko.c0157","k":"note","src":"개 = generic counter. 한 개, 두 개, 세 개, 네 개.","tgt":"개（個）は何にでも使える助数詞。한 개、두 개、세 개、네 개。"}
+{"f":"cards","id":"ko.c0158","k":"meaning","src":"25 years old","tgt":"25歳"}
+{"f":"cards","id":"ko.c0158","k":"note","src":"Native. 서른 살 = 30.","tgt":"年齢は固有語の数。서른 살 ＝ 30歳。日本語と違い、漢字語の数は使いません。"}
+{"f":"cards","id":"ko.c0159","k":"meaning","src":"November 13","tgt":"11月13日"}
+{"f":"cards","id":"ko.c0159","k":"note","src":"Months and days are Sino: 십일월 십삼일.","tgt":"月と日は漢字語の数：십일월 십삼일。「じゅういちがつ」と音も似ています。"}
+{"f":"cards","id":"ko.c0160","k":"meaning","src":"2026","tgt":"2026","pre":1}
+{"f":"cards","id":"ko.c0160","k":"note","src":"년 = year. 이천이십육년.","tgt":"년（年）。이천이십육년。"}
+{"f":"cards","id":"ko.c0161","k":"meaning","src":"50 percent","tgt":"50パーセント"}
+{"f":"cards","id":"ko.c0161","k":"note","src":"퍼센트 from English. 반값 = half price.","tgt":"퍼센트 は日本語の「パーセント」と同じ外来語です。반값 ＝ 半額。","rw":"English loanword explanation"}
+{"f":"cards","id":"ko.c0162","k":"meaning","src":"It takes 30 minutes","tgt":"30分かかります"}
+{"f":"cards","id":"ko.c0162","k":"note","src":"걸리다 = to take (time).","tgt":"걸리다 ＝「（時間が）かかる」。"}
+{"f":"cards","id":"ko.c0163","k":"meaning","src":"one (thing)","tgt":"1個"}
+{"f":"cards","id":"ko.c0163","k":"note","src":"개 = general things. 사과 한 개 = one apple.","tgt":"개（個）＝ もの全般。사과 한 개 ＝ りんご1個。"}
+{"f":"cards","id":"ko.c0164","k":"meaning","src":"two people","tgt":"2人"}
+{"f":"cards","id":"ko.c0164","k":"note","src":"명 = people. 분 is the polite version: 두 분.","tgt":"명（名）＝ 人。丁寧な言い方は 분：두 분（お二人）。"}
+{"f":"cards","id":"ko.c0165","k":"meaning","src":"three cups / glasses","tgt":"3杯"}
+{"f":"cards","id":"ko.c0165","k":"note","src":"잔 = drinks in cups or glasses.","tgt":"잔 ＝ カップやグラスの飲み物。日本語の「さんばい」と違い、数は固有語です。"}
+{"f":"cards","id":"ko.c0166","k":"meaning","src":"four bottles","tgt":"4本（びん）"}
+{"f":"cards","id":"ko.c0166","k":"note","src":"병 = bottles. 소주 네 병 = four bottles of soju.","tgt":"병（瓶）＝ びん。소주 네 병 ＝ 焼酎4本。"}
+{"f":"cards","id":"ko.c0167","k":"meaning","src":"five animals","tgt":"5匹"}
+{"f":"cards","id":"ko.c0167","k":"note","src":"마리 = animals. 고양이 다섯 마리 = five cats.","tgt":"마리 ＝ 動物（匹・頭）。고양이 다섯 마리 ＝ 猫5匹。"}
+{"f":"cards","id":"ko.c0168","k":"meaning","src":"six books","tgt":"6冊"}
+{"f":"cards","id":"ko.c0168","k":"note","src":"권 = books, notebooks.","tgt":"권（巻）＝ 本、ノート。"}
+{"f":"cards","id":"ko.c0169","k":"meaning","src":"seven sheets / tickets","tgt":"7枚"}
+{"f":"cards","id":"ko.c0169","k":"note","src":"장 = flat things: paper, tickets, photos.","tgt":"장（張）＝ 平たいもの：紙、チケット、写真。"}
+{"f":"cards","id":"ko.c0170","k":"meaning","src":"eight years old","tgt":"8歳"}
+{"f":"cards","id":"ko.c0170","k":"note","src":"살 = age. 스물여덟 살 = 28.","tgt":"살 ＝「歳」。스물여덟 살 ＝ 28歳。年齢は固有語の数です。"}
+{"f":"cards","id":"ko.c0171","k":"meaning","src":"two hours","tgt":"2時間"}
+{"f":"cards","id":"ko.c0171","k":"note","src":"시간 = hours of duration. 두 시 = 2 o'clock.","tgt":"시간（時間）＝ 時間の長さ。두 시 ＝ 2時。"}
+{"f":"cards","id":"ko.c0172","k":"meaning","src":"three times","tgt":"3回"}
+{"f":"cards","id":"ko.c0172","k":"note","src":"번 = times (occurrences). Also 'number' for exits/buses.","tgt":"번（番）＝ 回数。出口やバスの「〜番」にも使います（そのときは漢字語の数）。"}
+{"f":"cards","id":"ko.c0173","k":"meaning","src":"one month","tgt":"1か月"}
+{"f":"cards","id":"ko.c0173","k":"note","src":"달 = months (native). 일 개월 = one month (Sino, formal).","tgt":"달 ＝ 月（固有語）。일 개월 ＝ 1か月（漢字語、改まった言い方）。"}
+{"f":"cards","id":"ko.c0174","k":"meaning","src":"two days","tgt":"2日間"}
+{"f":"cards","id":"ko.c0174","k":"note","src":"Special: 하루 (1 day), 이틀 (2), 사흘 (3). 일주일 = one week.","tgt":"特別な言い方：하루（1日）、이틀（2日）、사흘（3日）。일주일 ＝ 1週間。"}
+{"f":"cards","id":"ko.c0175","k":"meaning","src":"How many would you like?","tgt":"いくつ差し上げましょうか？"}
+{"f":"cards","id":"ko.c0175","k":"note","src":"몇 + counter = how many. Answer: 두 개요.","tgt":"몇 ＋助数詞 ＝「いくつ・何〜」。答え：두 개요。"}
+{"f":"cards","id":"ko.c0176","k":"meaning","src":"one bowl","tgt":"1杯（お椀・どんぶり）"}
+{"f":"cards","id":"ko.c0176","k":"note","src":"그릇 = bowls (rice, soup). 국밥 한 그릇 주세요.","tgt":"그릇 ＝ ご飯やスープのお椀。국밥 한 그릇 주세요。"}
+{"f":"cards","id":"ko.c0177","k":"meaning","src":"one bag (of)","tgt":"1袋"}
+{"f":"cards","id":"ko.c0177","k":"note","src":"봉지 = bag/packet of snacks or chips.","tgt":"봉지 ＝ お菓子やスナックの袋。"}
+{"f":"cards","id":"ko.c0178","k":"meaning","src":"two pairs (shoes, socks)","tgt":"2足（靴・靴下）"}
+{"f":"cards","id":"ko.c0178","k":"note","src":"켤레 = pairs of footwear.","tgt":"켤레 ＝ 靴や靴下を数える助数詞（足）。"}
+{"f":"cards","id":"ko.c0179","k":"meaning","src":"How's the weather?","tgt":"天気はどうですか？"}
+{"f":"cards","id":"ko.c0179","k":"note","src":"날씨 = weather. 어때요 = how is it.","tgt":"날씨 ＝「天気」。어때요 ＝「どうですか」。"}
+{"f":"cards","id":"ko.c0180","k":"meaning","src":"It's so hot","tgt":"とても暑いです"}
+{"f":"cards","id":"ko.c0180","k":"note","src":"Summer in Seoul: 덥고 습해요 = hot and humid.","tgt":"ソウルの夏：덥고 습해요 ＝「蒸し暑いです」。"}
+{"f":"cards","id":"ko.c0181","k":"meaning","src":"The weather is cold","tgt":"（天気が）寒いです"}
+{"f":"cards","id":"ko.c0181","k":"note","src":"겨울 = winter. 너무 추워요 = so cold.","tgt":"겨울 ＝「冬」。너무 추워요 ＝「とても寒いです」。"}
+{"f":"cards","id":"ko.c0182","k":"meaning","src":"It's raining","tgt":"雨が降っています"}
+{"f":"cards","id":"ko.c0182","k":"note","src":"비 = rain. 우산 있어요? = do you have an umbrella?","tgt":"비 ＝「雨」。우산 있어요? ＝「傘ありますか？」"}
+{"f":"cards","id":"ko.c0183","k":"meaning","src":"It's snowing","tgt":"雪が降っています"}
+{"f":"cards","id":"ko.c0183","k":"note","src":"눈 = snow (also eye). 첫눈 = first snow, a date thing in Korea.","tgt":"눈 ＝「雪」（「目」の意味も）。첫눈（初雪）の日は、韓国ではデートの定番です。"}
+{"f":"cards","id":"ko.c0184","k":"meaning","src":"It's windy","tgt":"風が強いです"}
+{"f":"cards","id":"ko.c0184","k":"note","src":"바람 = wind. 불다 = to blow.","tgt":"바람 ＝「風」。불다 ＝「吹く」。"}
+{"f":"cards","id":"ko.c0185","k":"meaning","src":"The fine dust is bad","tgt":"PM2.5がひどいです"}
+{"f":"cards","id":"ko.c0185","k":"note","src":"Check the 미세먼지 level daily; people mask up when it's 나쁨.","tgt":"미세먼지 の数値を毎日チェックし、나쁨（悪い）の日はマスクをします。"}
+{"f":"cards","id":"ko.c0186","k":"meaning","src":"I feel good","tgt":"気分がいいです"}
+{"f":"cards","id":"ko.c0186","k":"note","src":"기분 = mood. 기분이 안 좋아요 = I feel bad.","tgt":"기분（気分）。기분이 안 좋아요 ＝「気分がよくないです」。"}
+{"f":"cards","id":"ko.c0187","k":"meaning","src":"I'm happy","tgt":"幸せです"}
+{"f":"cards","id":"ko.c0187","k":"note","src":"행복 = happiness.","tgt":"행복（幸福）。"}
+{"f":"cards","id":"ko.c0188","k":"meaning","src":"I'm sad","tgt":"悲しいです"}
+{"f":"cards","id":"ko.c0188","k":"note","src":"슬프다 → 슬퍼요.","tgt":"슬프다 → 슬퍼요.","pre":1}
+{"f":"cards","id":"ko.c0189","k":"meaning","src":"I'm tired","tgt":"疲れています"}
+{"f":"cards","id":"ko.c0189","k":"note","src":"Most-used feeling word in Korea.","tgt":"韓国でいちばんよく使う気持ちの言葉。「疲れています」ですが、韓国語では形容詞の現在形です。"}
+{"f":"cards","id":"ko.c0190","k":"meaning","src":"I'm nervous","tgt":"緊張しています"}
+{"f":"cards","id":"ko.c0190","k":"note","src":"긴장 = tension. Before a test or a date.","tgt":"긴장（緊張）。試験やデートの前に。"}
+{"f":"cards","id":"ko.c0191","k":"meaning","src":"I'm bored","tgt":"退屈です"}
+{"f":"cards","id":"ko.c0191","k":"note","src":"심심하다. 놀자! fixes it.","tgt":"심심하다。놀자!（遊ぼう！）で解決。"}
+{"f":"cards","id":"ko.c0192","k":"meaning","src":"I'm angry","tgt":"怒っています"}
+{"f":"cards","id":"ko.c0192","k":"note","src":"화 = anger. 화내지 마 = don't be mad.","tgt":"화 ＝「怒り」（漢字は「火」）。「怒っています」は過去形で言います。화내지 마 ＝「怒らないで」。"}
+{"f":"cards","id":"ko.c0193","k":"meaning","src":"I was surprised","tgt":"びっくりしました"}
+{"f":"cards","id":"ko.c0193","k":"note","src":"놀라다. 깜짝 놀랐어요 = you startled me.","tgt":"놀라다。깜짝 놀랐어요 ＝「あー、びっくりした」。"}
+{"f":"cards","id":"ko.c0194","k":"meaning","src":"I miss you","tgt":"会いたいです"}
+{"f":"cards","id":"ko.c0194","k":"note","src":"Polite version. Casual 보고 싶어 is in Sweet talk.","tgt":"丁寧な言い方。パンマルの 보고 싶어 は「甘い言葉」デッキにあります。"}
+{"f":"cards","id":"ko.c0195","k":"meaning","src":"My heart flutters","tgt":"ときめきます"}
+{"f":"cards","id":"ko.c0195","k":"note","src":"설레다 = the butterflies feeling. Very K-drama.","tgt":"설레다 ＝ 胸がドキドキする感じ。韓国ドラマの定番です。"}
+{"f":"cards","id":"ko.c0196","k":"meaning","src":"I'm annoyed","tgt":"イライラします"}
+{"f":"cards","id":"ko.c0196","k":"note","src":"짜증 = irritation. 짜증 나! casual.","tgt":"짜증 ＝「いらだち」。짜증 나! はパンマル。"}
+{"f":"cards","id":"ko.c0197","k":"meaning","src":"and (then)","tgt":"そして"}
+{"f":"cards","id":"ko.c0197","k":"note","src":"Joins sentences. 밥 먹었어요. 그리고 커피 마셨어요.","tgt":"文と文をつなぎます。밥 먹었어요. 그리고 커피 마셨어요."}
+{"f":"cards","id":"ko.c0198","k":"meaning","src":"so / therefore","tgt":"だから / それで"}
+{"f":"cards","id":"ko.c0198","k":"note","src":"비가 왔어요. 그래서 집에 있었어요.","tgt":"비가 왔어요. 그래서 집에 있었어요.","pre":1}
+{"f":"cards","id":"ko.c0199","k":"meaning","src":"but / by the way","tgt":"でも / ところで"}
+{"f":"cards","id":"ko.c0199","k":"note","src":"Soft contrast or topic shift. Casual: 근데.","tgt":"やわらかい逆接、または話題を変えるときに。くだけた形は 근데。"}
+{"f":"cards","id":"ko.c0200","k":"meaning","src":"but / however","tgt":"しかし"}
+{"f":"cards","id":"ko.c0200","k":"note","src":"Stronger contrast than 그런데.","tgt":"그런데 より強い逆接です。"}
+{"f":"cards","id":"ko.c0201","k":"meaning","src":"after that","tgt":"その次に"}
+{"f":"cards","id":"ko.c0201","k":"note","src":"그다음에 영화 봤어요.","tgt":"그다음에 영화 봤어요.","pre":1}
+{"f":"cards","id":"ko.c0202","k":"meaning","src":"first","tgt":"まず"}
+{"f":"cards","id":"ko.c0202","k":"note","src":"먼저 손 씻어요 = wash hands first.","tgt":"먼저 손 씻어요 ＝「まず手を洗います」。"}
+{"f":"cards","id":"ko.c0203","k":"meaning","src":"lastly","tgt":"最後に"}
+{"f":"cards","id":"ko.c0203","k":"note","src":"Closes a sequence.","tgt":"話の締めくくりに使います。"}
+{"f":"cards","id":"ko.c0204","k":"meaning","src":"because","tgt":"なぜなら"}
+{"f":"cards","id":"ko.c0204","k":"note","src":"왜냐하면 … 거든요 / 기 때문이에요.","tgt":"왜냐하면 … 거든요 / 기 때문이에요.","pre":1}
+{"f":"cards","id":"ko.c0205","k":"meaning","src":"or","tgt":"それとも / または"}
+{"f":"cards","id":"ko.c0205","k":"note","src":"커피 아니면 차? = coffee or tea?","tgt":"커피 아니면 차? ＝「コーヒー、それともお茶？」"}
+{"f":"cards","id":"ko.c0206","k":"meaning","src":"then / in that case","tgt":"それなら / じゃあ"}
+{"f":"cards","id":"ko.c0206","k":"note","src":"그럼 내일 봐요 = then see you tomorrow.","tgt":"그럼 내일 봐요 ＝「じゃあ、また明日」。"}
+{"f":"cards","id":"ko.c0207","k":"meaning","src":"actually","tgt":"実は"}
+{"f":"cards","id":"ko.c0207","k":"note","src":"사실 저 한국어 못해요.","tgt":"사실 저 한국어 못해요.","pre":1}
+{"f":"cards","id":"ko.c0208","k":"meaning","src":"anyway","tgt":"とにかく"}
+{"f":"cards","id":"ko.c0208","k":"note","src":"Changes the subject back.","tgt":"話をもとに戻すときに。"}
+{"f":"cards","id":"ko.c0209","k":"meaning","src":"for example","tgt":"たとえば"}
+{"f":"cards","id":"ko.c0209","k":"note","src":"Formal: 예를 들어.","tgt":"改まった言い方は 예를 들어。"}
+{"f":"cards","id":"ko.c0210","k":"meaning","src":"even so / still","tgt":"それでも"}
+{"f":"cards","id":"ko.c0210","k":"note","src":"피곤해요. 그래도 갈게요.","tgt":"피곤해요. 그래도 갈게요.","pre":1}
+{"f":"cards","id":"ko.c0211","k":"meaning","src":"Where is a pharmacy?","tgt":"薬局はどこですか？"}
+{"f":"cards","id":"ko.c0211","k":"note","src":"Green cross sign. Many open late; 편의점 sells basics.","tgt":"緑の十字の看板が目印。遅くまで開いている店も多く、편의점 でも基本の薬が買えます。"}
+{"f":"cards","id":"ko.c0212","k":"meaning","src":"I have a headache","tgt":"頭が痛いです"}
+{"f":"cards","id":"ko.c0212","k":"note","src":"아프다 = to hurt. 배가 아파요 = stomachache.","tgt":"아프다 ＝「痛い」。배가 아파요 ＝「お腹が痛いです」。"}
+{"f":"cards","id":"ko.c0213","k":"meaning","src":"I have a fever","tgt":"熱があります"}
+{"f":"cards","id":"ko.c0213","k":"note","src":"열 = fever. 열 나요 also works.","tgt":"열（熱）。열 나요 とも言います。"}
+{"f":"cards","id":"ko.c0214","k":"meaning","src":"I have a cough","tgt":"せきが出ます"}
+{"f":"cards","id":"ko.c0214","k":"note","src":"콧물이 나요 = runny nose.","tgt":"콧물이 나요 ＝「鼻水が出ます」。"}
+{"f":"cards","id":"ko.c0215","k":"meaning","src":"My throat hurts","tgt":"のどが痛いです"}
+{"f":"cards","id":"ko.c0215","k":"note","src":"목 = neck / throat.","tgt":"목 ＝「首・のど」。"}
+{"f":"cards","id":"ko.c0216","k":"meaning","src":"I caught a cold","tgt":"風邪をひきました"}
+{"f":"cards","id":"ko.c0216","k":"note","src":"감기약 주세요 = cold medicine, please.","tgt":"「風邪をひいています」も、韓国語では過去形でこう言います。감기약 주세요 ＝「風邪薬をください」。"}
+{"f":"cards","id":"ko.c0217","k":"meaning","src":"Do you have painkillers?","tgt":"痛み止めはありますか？"}
+{"f":"cards","id":"ko.c0217","k":"note","src":"타이레놀 is understood everywhere.","tgt":"漢字は「鎮痛剤」。타이레놀 はどこでも通じます。"}
+{"f":"cards","id":"ko.c0218","k":"meaning","src":"I have an allergy","tgt":"アレルギーがあります"}
+{"f":"cards","id":"ko.c0218","k":"note","src":"땅콩 알레르기 = peanut allergy. Say it before ordering too.","tgt":"땅콩 알레르기 ＝ ピーナッツアレルギー。注文の前にも伝えましょう。"}
+{"f":"cards","id":"ko.c0219","k":"meaning","src":"I have a prescription","tgt":"処方箋があります"}
+{"f":"cards","id":"ko.c0219","k":"note","src":"Pharmacies next to clinics fill them in minutes.","tgt":"病院の隣の薬局なら、数分で薬を出してくれます。"}
+{"f":"cards","id":"ko.c0220","k":"meaning","src":"How many times a day do I take it?","tgt":"1日に何回飲みますか？"}
+{"f":"cards","id":"ko.c0220","k":"note","src":"식후 30분 = 30 min after meals, the usual answer.","tgt":"韓国語では薬も「食べる」と言います。식후 30분（食後30分）がよくある答えです。"}
+{"f":"cards","id":"ko.c0221","k":"meaning","src":"I need to go to the hospital","tgt":"病院に行かなければなりません"}
+{"f":"cards","id":"ko.c0221","k":"note","src":"아/어야 돼요 = have to. 응급실 = ER.","tgt":"아/어야 돼요 ＝「〜なければなりません」。응급실 ＝ 救急外来。"}
+{"f":"cards","id":"ko.c0222","k":"meaning","src":"I have insurance","tgt":"保険に入っています"}
+{"f":"cards","id":"ko.c0222","k":"note","src":"여행자 보험 = travel insurance. 영수증 for claims.","tgt":"여행자 보험 ＝ 旅行保険。請求には 영수증（レシート）を。"}
+{"f":"cards","id":"ko.c0223","k":"meaning","src":"It hurts here","tgt":"ここが痛いです"}
+{"f":"cards","id":"ko.c0223","k":"note","src":"Point. 많이 아파요 = it hurts a lot.","tgt":"指さして言いましょう。많이 아파요 ＝「とても痛いです」。"}
+{"f":"cards","id":"ko.c0224","k":"meaning","src":"It will get better","tgt":"よくなりますよ"}
+{"f":"cards","id":"ko.c0224","k":"note","src":"Said by doctors and friends alike.","tgt":"医者も友だちも言うひと言です。"}
+{"f":"cards","id":"ko.c0225","k":"meaning","src":"A mask, please","tgt":"マスクをください"}
+{"f":"cards","id":"ko.c0225","k":"note","src":"Sold at every 편의점 and 약국.","tgt":"どの 편의점 や 약국 でも売っています。"}
+{"f":"cards","id":"ko.c0226","k":"meaning","src":"Digestive medicine, please","tgt":"胃腸薬をください"}
+{"f":"cards","id":"ko.c0226","k":"note","src":"After too much 삼겹살. 까스활명수 is the classic.","tgt":"삼겹살 を食べすぎたあとに。까스활명수 が定番です。"}
+{"f":"cards","id":"ko.c0227","k":"meaning","src":"studio apartment","tgt":"ワンルーム"}
+{"f":"cards","id":"ko.c0227","k":"note","src":"One-room. 투룸 = two rooms. 오피스텔 = officetel.","tgt":"日本語の「ワンルーム」と同じです。투룸 ＝ 2部屋。오피스텔 ＝ オフィステル（住居兼オフィス）。"}
+{"f":"cards","id":"ko.c0228","k":"meaning","src":"security deposit","tgt":"保証金（敷金）"}
+{"f":"cards","id":"ko.c0228","k":"note","src":"Can be huge in Korea. 전세 = deposit-only lease.","tgt":"韓国ではとても高額になることもあります。전세 ＝ 月々の家賃なしで、まとまった保証金だけを預ける賃貸。"}
+{"f":"cards","id":"ko.c0229","k":"meaning","src":"monthly rent","tgt":"月々の家賃"}
+{"f":"cards","id":"ko.c0229","k":"note","src":"월세 얼마예요? = how much is rent?","tgt":"월세 얼마예요? ＝「家賃はいくらですか？」"}
+{"f":"cards","id":"ko.c0230","k":"meaning","src":"Is the maintenance fee included?","tgt":"管理費込みですか？"}
+{"f":"cards","id":"ko.c0230","k":"note","src":"관리비 = building fees. 포함 = included.","tgt":"관리비（管理費）。포함 ＝「込み」。"}
+{"f":"cards","id":"ko.c0231","k":"meaning","src":"A package came","tgt":"宅配便が来ました"}
+{"f":"cards","id":"ko.c0231","k":"note","src":"택배 = parcel delivery. 문 앞에 놔 주세요 = leave it at the door.","tgt":"택배（宅配）。문 앞에 놔 주세요 ＝「ドアの前に置いてください」。"}
+{"f":"cards","id":"ko.c0232","k":"meaning","src":"recycling separation","tgt":"ごみの分別"}
+{"f":"cards","id":"ko.c0232","k":"note","src":"Strict: 플라스틱 / 종이 / 캔 / 음식물. Fines exist.","tgt":"ルールは厳しく、플라스틱 / 종이 / 캔 / 음식물 に分けます。罰金もあります。"}
+{"f":"cards","id":"ko.c0233","k":"meaning","src":"food waste","tgt":"生ごみ"}
+{"f":"cards","id":"ko.c0233","k":"note","src":"Needs its own bag or card-based bin.","tgt":"専用の袋か、カード式の回収箱に出します。"}
+{"f":"cards","id":"ko.c0234","k":"meaning","src":"official trash bag","tgt":"指定ごみ袋"}
+{"f":"cards","id":"ko.c0234","k":"note","src":"Buy at 편의점; must use it for general trash.","tgt":"편의점 で買います。一般ごみは必ずこの袋で出します。"}
+{"f":"cards","id":"ko.c0235","k":"meaning","src":"Where's a laundry / dry cleaner?","tgt":"クリーニング店はどこですか？"}
+{"f":"cards","id":"ko.c0235","k":"note","src":"코인 세탁 = coin laundry, 24h.","tgt":"코인 세탁 ＝ コインランドリー（24時間）。"}
+{"f":"cards","id":"ko.c0236","k":"meaning","src":"Can you dry clean this?","tgt":"ドライクリーニングできますか？"}
+{"f":"cards","id":"ko.c0236","k":"note","src":"드라이클리닝 shortened.","tgt":"드라이클리닝 の略。日本語の「ドライ」と同じ略し方です。"}
+{"f":"cards","id":"ko.c0237","k":"meaning","src":"Please tell me the door code","tgt":"ドアの暗証番号を教えてください"}
+{"f":"cards","id":"ko.c0237","k":"note","src":"Most doors use keypads, not keys.","tgt":"ほとんどのドアは鍵ではなくキーパッド式です。"}
+{"f":"cards","id":"ko.c0238","k":"meaning","src":"wifi installation","tgt":"Wi-Fiの設置"}
+{"f":"cards","id":"ko.c0238","k":"note","src":"설치 = installation. 기사님 = the technician.","tgt":"설치（設置）。기사님 ＝ 作業に来る技術者さん。"}
+{"f":"cards","id":"ko.c0239","k":"meaning","src":"I moved (house)","tgt":"引っ越しました"}
+{"f":"cards","id":"ko.c0239","k":"note","src":"이사 = moving. 이삿짐센터 = movers.","tgt":"이사 ＝「引っ越し」。이삿짐센터 ＝ 引っ越し業者。"}
+{"f":"cards","id":"ko.c0240","k":"meaning","src":"landlord","tgt":"大家さん"}
+{"f":"cards","id":"ko.c0240","k":"note","src":"부동산 = real-estate office, where you find rooms.","tgt":"부동산（不動産）＝ 不動産屋。部屋はここで探します。"}
+{"f":"cards","id":"ko.c0241","k":"meaning","src":"contract","tgt":"契約書"}
+{"f":"cards","id":"ko.c0241","k":"note","src":"계약 = contract. 사인하다 = to sign.","tgt":"계약（契約）。사인하다 ＝「サインする」。"}
+{"f":"cards","id":"ko.c0242","k":"meaning","src":"I send parcels from the convenience store","tgt":"コンビニから宅配便を送ります"}
+{"f":"cards","id":"ko.c0242","k":"note","src":"GS25/CU have parcel counters. Cheap and easy.","tgt":"GS25やCUには宅配の受付があります。安くて簡単です。"}
+{"f":"cards","id":"ko.c0243","k":"meaning","src":"please eat (honorific)","tgt":"召し上がってください"}
+{"f":"cards","id":"ko.c0243","k":"note","src":"드시다 = honorific of 먹다/마시다. 맛있게 드세요 = enjoy your meal.","tgt":"드시다 は 먹다/마시다 の尊敬語。맛있게 드세요 ＝「どうぞ召し上がれ」。"}
+{"f":"cards","id":"ko.c0244","k":"meaning","src":"please sleep (honorific)","tgt":"お休みください"}
+{"f":"cards","id":"ko.c0244","k":"note","src":"주무시다 = honorific of 자다. 안녕히 주무세요 = good night (polite).","tgt":"주무시다 は 자다 の尊敬語。안녕히 주무세요 ＝「おやすみなさい」（丁寧）。"}
+{"f":"cards","id":"ko.c0245","k":"meaning","src":"please stay / is (honorific)","tgt":"いらっしゃいます / いらしてください（尊敬）"}
+{"f":"cards","id":"ko.c0245","k":"note","src":"계시다 = honorific of 있다 (for people). 안녕히 계세요.","tgt":"계시다 は人について言う 있다 の尊敬語（いらっしゃる）。안녕히 계세요。外の人に自分の親や上司のことを話すときも、韓国語ではこの尊敬語を使います（絶対敬語）。"}
+{"f":"cards","id":"ko.c0246","k":"meaning","src":"please speak (honorific)","tgt":"おっしゃってください"}
+{"f":"cards","id":"ko.c0246","k":"note","src":"말씀 = honorific of 말. 말씀해 주세요 = please tell me.","tgt":"말씀 は 말 の尊敬語。말씀해 주세요 ＝「お話しください」。"}
+{"f":"cards","id":"ko.c0247","k":"meaning","src":"What is your name? (honorific)","tgt":"お名前は何とおっしゃいますか？"}
+{"f":"cards","id":"ko.c0247","k":"note","src":"성함 = honorific of 이름.","tgt":"성함 は 이름 の尊敬語（お名前）。"}
+{"f":"cards","id":"ko.c0248","k":"meaning","src":"How old are you? (honorific)","tgt":"おいくつでいらっしゃいますか？"}
+{"f":"cards","id":"ko.c0248","k":"note","src":"연세 = honorific of 나이. For elders.","tgt":"연세 は 나이 の尊敬語（お年）。目上の人に使います。"}
+{"f":"cards","id":"ko.c0249","k":"meaning","src":"go (honorific)","tgt":"行かれます（尊敬）"}
+{"f":"cards","id":"ko.c0249","k":"note","src":"가다 + 시 + 어요 → 가세요. 조심히 가세요.","tgt":"가다 + 시 + 어요 → 가세요. 조심히 가세요.","pre":1}
+{"f":"cards","id":"ko.c0250","k":"meaning","src":"Did you come? (honorific past)","tgt":"いらっしゃいましたか？（尊敬・過去）"}
+{"f":"cards","id":"ko.c0250","k":"note","src":"오다 + 시 + 었어요 → 오셨어요. 언제 오셨어요?","tgt":"오다 + 시 + 었어요 → 오셨어요. 언제 오셨어요?","pre":1}
+{"f":"cards","id":"ko.c0251","k":"meaning","src":"do (honorific)","tgt":"なさいます / なさってください（尊敬）"}
+{"f":"cards","id":"ko.c0251","k":"note","src":"안녕하세요 is literally 'are you at peace' with 시.","tgt":"안녕하세요 は、直訳すると 시 を使った「安寧でいらっしゃいますか」です。"}
+{"f":"cards","id":"ko.c0252","k":"meaning","src":"father / mother (someone else's, honorific)","tgt":"お父様 / お母様（相手の親）"}
+{"f":"cards","id":"ko.c0252","k":"note","src":"님 raises 아버지/어머니. For your partner's parents.","tgt":"님 で 아버지/어머니 を高めます。恋人や配偶者の両親に。"}
+{"f":"cards","id":"ko.c0253","k":"meaning","src":"grandmother (honorific)","tgt":"おばあ様"}
+{"f":"cards","id":"ko.c0253","k":"note","src":"Someone else's grandmother, or very formal speech. Elderly strangers: 할머니 or 어르신.","tgt":"相手の祖母、またはとても改まった場面で。知らないお年寄りには 할머니 か 어르신。"}
+{"f":"cards","id":"ko.c0254","k":"meaning","src":"customer / guest","tgt":"お客様"}
+{"f":"cards","id":"ko.c0254","k":"note","src":"손 + 님. 고객님 at shops.","tgt":"손 ＋ 님。お店では 고객님（顧客＋様）も使います。"}
+{"f":"cards","id":"ko.c0255","k":"meaning","src":"Teacher, have you eaten?","tgt":"先生、お食事はされましたか？"}
+{"f":"cards","id":"ko.c0255","k":"note","src":"식사 = honorific-ish 'meal'. 하셨어요 = did (honorific).","tgt":"식사（食事）は「ご飯」の丁寧な言い方。하셨어요 ＝「なさいました」（尊敬）。"}
+{"f":"cards","id":"ko.c0256","k":"meaning","src":"Have you been well? (honorific)","tgt":"お元気でしたか？（尊敬）"}
+{"f":"cards","id":"ko.c0256","k":"note","src":"지내다 + 시 + 었어요.","tgt":"지내다 + 시 + 었어요.","pre":1}
+{"f":"cards","id":"ko.c0257","k":"meaning","src":"please sit","tgt":"お座りください"}
+{"f":"cards","id":"ko.c0257","k":"note","src":"앉다 + 으세요 (after consonant).","tgt":"앉다 ＋ 으세요（パッチムのある語幹のあと）。"}
+{"f":"cards","id":"ko.c0258","k":"meaning","src":"please come in","tgt":"お入りください"}
+{"f":"cards","id":"ko.c0258","k":"note","src":"들어오다 + 세요.","tgt":"들어오다 + 세요.","pre":1}
+{"f":"cards","id":"ko.c0259","k":"meaning","src":"coffee shop / café","tgt":"コーヒーショップ / カフェ"}
+{"f":"cards","id":"ko.c0259","k":"note","src":"카페 is far more common in speech.","tgt":"話し言葉では 카페 のほうがずっと一般的です。"}
+{"f":"cards","id":"ko.c0260","k":"meaning","src":"gym","tgt":"ジム"}
+{"f":"cards","id":"ko.c0260","k":"note","src":"Health + 장 (place). 헬스하다 = to work out.","tgt":"「ヘルス」＋ 장（場）。헬스하다 ＝「ジムで鍛える」。"}
+{"f":"cards","id":"ko.c0261","k":"meaning","src":"library","tgt":"図書館"}
+{"f":"cards","id":"ko.c0261","k":"note","src":"도서 books + 관 hall.","tgt":"도서（図書）＋ 관（館）。"}
+{"f":"cards","id":"ko.c0262","k":"meaning","src":"museum","tgt":"博物館"}
+{"f":"cards","id":"ko.c0262","k":"note","src":"미술관 = art museum.","tgt":"미술관 ＝ 美術館。"}
+{"f":"cards","id":"ko.c0263","k":"meaning","src":"house / home","tgt":"家"}
+{"f":"cards","id":"ko.c0263","k":"note","src":"집에 가요 = I'm going home.","tgt":"집에 가요 ＝「家に帰ります」。"}
+{"f":"cards","id":"ko.c0264","k":"meaning","src":"school","tgt":"学校"}
+{"f":"cards","id":"ko.c0264","k":"note","src":"대학교 = university.","tgt":"대학교 ＝ 大学（漢字では「大学校」）。"}
+{"f":"cards","id":"ko.c0265","k":"meaning","src":"hospital","tgt":"病院"}
+{"f":"cards","id":"ko.c0265","k":"note","src":"Also used for any doctor's clinic.","tgt":"個人のクリニックにも使います。"}
+{"f":"cards","id":"ko.c0266","k":"meaning","src":"pharmacy","tgt":"薬局"}
+{"f":"cards","id":"ko.c0266","k":"note","src":"Look for the green cross sign.","tgt":"緑の十字の看板が目印です。"}
+{"f":"cards","id":"ko.c0267","k":"meaning","src":"bank","tgt":"銀行"}
+{"f":"cards","id":"ko.c0267","k":"note","src":"Also means ginkgo — context decides.","tgt":"「銀杏（イチョウ）」の意味もあります。文脈で判断します。"}
+{"f":"cards","id":"ko.c0268","k":"meaning","src":"convenience store","tgt":"コンビニ"}
+{"f":"cards","id":"ko.c0268","k":"note","src":"GS25, CU, 세븐일레븐.","tgt":"GS25、CU、세븐일레븐。漢字では「便宜店」。"}
+{"f":"cards","id":"ko.c0269","k":"meaning","src":"restaurant","tgt":"飲食店・食堂"}
+{"f":"cards","id":"ko.c0269","k":"note","src":"레스토랑 = Western-style restaurant.","tgt":"漢字は「食堂」ですが、社員食堂などに限らず、飲食店全般を指します。레스토랑 ＝ 洋食のレストラン。"}
+{"f":"cards","id":"ko.c0270","k":"meaning","src":"market","tgt":"市場"}
+{"f":"cards","id":"ko.c0270","k":"note","src":"전통시장 = traditional market.","tgt":"전통시장 ＝ 伝統市場。"}
+{"f":"cards","id":"ko.c0271","k":"meaning","src":"department store","tgt":"デパート"}
+{"f":"cards","id":"ko.c0271","k":"note","src":"Lotte, Shinsegae, Hyundai.","tgt":"漢字は「百貨店」。ロッテ、新世界、現代が大手です。"}
+{"f":"cards","id":"ko.c0272","k":"meaning","src":"movie theater","tgt":"映画館"}
+{"f":"cards","id":"ko.c0272","k":"note","src":"CGV, 메가박스, 롯데시네마.","tgt":"CGV、메가박스、롯데시네마。"}
+{"f":"cards","id":"ko.c0273","k":"meaning","src":"park","tgt":"公園"}
+{"f":"cards","id":"ko.c0273","k":"note","src":"한강공원 = Han River park.","tgt":"한강공원 ＝ 漢江公園。"}
+{"f":"cards","id":"ko.c0274","k":"meaning","src":"hotel","tgt":"ホテル"}
+{"f":"cards","id":"ko.c0274","k":"note","src":"모텔 is cheaper; 게스트하우스 for backpackers.","tgt":"모텔 はより安く、게스트하우스 はバックパッカー向けです。"}
+{"f":"cards","id":"ko.c0275","k":"meaning","src":"church / Buddhist temple","tgt":"教会 / お寺"}
+{"f":"cards","id":"ko.c0275","k":"note","src":"성당 = Catholic cathedral.","tgt":"성당 ＝ カトリックの聖堂。"}
+{"f":"cards","id":"ko.c0276","k":"meaning","src":"restroom","tgt":"トイレ"}
+{"f":"cards","id":"ko.c0276","k":"note","src":"Literally 'makeup room'.","tgt":"漢字は「化粧室」です。"}
+{"f":"cards","id":"ko.c0277","k":"meaning","src":"hobby","tgt":"趣味"}
+{"f":"cards","id":"ko.c0277","k":"note","src":"취미가 뭐예요? = What's your hobby?","tgt":"취미가 뭐예요? ＝「趣味は何ですか？」"}
+{"f":"cards","id":"ko.c0278","k":"meaning","src":"exercise / working out","tgt":"運動・筋トレ"}
+{"f":"cards","id":"ko.c0278","k":"note","src":"운동해요 = I work out.","tgt":"운동해요 ＝「運動しています」。"}
+{"f":"cards","id":"ko.c0279","k":"meaning","src":"reading (books)","tgt":"読書"}
+{"f":"cards","id":"ko.c0279","k":"note","src":"책 읽는 거 좋아해요 is more natural in speech.","tgt":"話し言葉では 책 읽는 거 좋아해요（本を読むのが好きです）のほうが自然です。"}
+{"f":"cards","id":"ko.c0280","k":"meaning","src":"cooking","tgt":"料理"}
+{"f":"cards","id":"ko.c0280","k":"note","src":"요리해요 = I cook.","tgt":"요리해요 ＝「料理します」。"}
+{"f":"cards","id":"ko.c0281","k":"meaning","src":"travel","tgt":"旅行"}
+{"f":"cards","id":"ko.c0281","k":"note","src":"여행 가요 = I go on a trip.","tgt":"여행 가요 ＝「旅行に行きます」。"}
+{"f":"cards","id":"ko.c0282","k":"meaning","src":"listening to music","tgt":"音楽鑑賞"}
+{"f":"cards","id":"ko.c0282","k":"note","src":"음악 들어요 = I listen to music.","tgt":"음악 들어요 ＝「音楽を聴きます」。"}
+{"f":"cards","id":"ko.c0283","k":"meaning","src":"watching movies","tgt":"映画鑑賞"}
+{"f":"cards","id":"ko.c0283","k":"note","src":"-기 turns a verb into a noun.","tgt":"-기 をつけると、動詞が「〜すること」という名詞になります。"}
+{"f":"cards","id":"ko.c0284","k":"meaning","src":"gaming","tgt":"ゲーム"}
+{"f":"cards","id":"ko.c0284","k":"note","src":"게임해요 = I play games. PC방 = internet café.","tgt":"게임해요 ＝「ゲームをします」。PC방 ＝ ネットカフェ。"}
+{"f":"cards","id":"ko.c0285","k":"meaning","src":"photography","tgt":"写真撮影"}
+{"f":"cards","id":"ko.c0285","k":"note","src":"사진 찍어요 = I take photos.","tgt":"사진 찍어요 ＝「写真を撮ります」。"}
+{"f":"cards","id":"ko.c0286","k":"meaning","src":"drawing / painting","tgt":"絵を描くこと"}
+{"f":"cards","id":"ko.c0286","k":"note","src":"그림 = picture.","tgt":"그림 ＝「絵」。"}
+{"f":"cards","id":"ko.c0287","k":"meaning","src":"singing","tgt":"歌うこと"}
+{"f":"cards","id":"ko.c0287","k":"note","src":"노래방 = karaoke room.","tgt":"노래방 ＝ カラオケ（個室）。"}
+{"f":"cards","id":"ko.c0288","k":"meaning","src":"dancing","tgt":"ダンス"}
+{"f":"cards","id":"ko.c0288","k":"note","src":"춤 춰요 = I dance.","tgt":"춤 춰요 ＝「踊ります」。"}
+{"f":"cards","id":"ko.c0289","k":"meaning","src":"hiking","tgt":"登山"}
+{"f":"cards","id":"ko.c0289","k":"note","src":"National pastime — expect full gear on easy trails.","tgt":"国民的な趣味です。気軽な山道でも、本格的な装備の人をよく見かけます。"}
+{"f":"cards","id":"ko.c0290","k":"meaning","src":"fishing","tgt":"釣り"}
+{"f":"cards","id":"ko.c0291","k":"meaning","src":"shopping","tgt":"ショッピング"}
+{"f":"cards","id":"ko.c0291","k":"note","src":"쇼핑해요 = I go shopping.","tgt":"쇼핑해요 ＝「買い物をします」。"}
+{"f":"cards","id":"ko.c0292","k":"meaning","src":"camping","tgt":"キャンプ"}
+{"f":"cards","id":"ko.c0292","k":"note","src":"차박 = car camping.","tgt":"차박 ＝ 車中泊。"}
+{"f":"cards","id":"ko.c0293","k":"meaning","src":"kimchi","tgt":"キムチ"}
+{"f":"cards","id":"ko.c0293","k":"note","src":"Comes free with almost every meal.","tgt":"ほとんどの食事に無料でついてきます。"}
+{"f":"cards","id":"ko.c0294","k":"meaning","src":"gimbap (seaweed rice roll)","tgt":"キンパ（韓国のり巻き）"}
+{"f":"cards","id":"ko.c0294","k":"note","src":"Cheap, everywhere, ~₩3,000–5,000.","tgt":"安くて、どこにでもあります。約3,000〜5,000ウォン。"}
+{"f":"cards","id":"ko.c0295","k":"meaning","src":"bibimbap","tgt":"ビビンバ"}
+{"f":"cards","id":"ko.c0295","k":"note","src":"비빔 = mixed; 밥 = rice.","tgt":"비빔 ＝「混ぜたもの」、밥 ＝「ご飯」。"}
+{"f":"cards","id":"ko.c0296","k":"meaning","src":"bulgogi (marinated beef)","tgt":"プルコギ（味つけ牛肉の焼き物）"}
+{"f":"cards","id":"ko.c0297","k":"meaning","src":"pork belly BBQ","tgt":"サムギョプサル（豚バラ焼肉）"}
+{"f":"cards","id":"ko.c0297","k":"note","src":"Three-layer meat. Wrap it in lettuce: 쌈.","tgt":"「三層の肉」の意味。サンチュなどで包んで食べます：쌈。"}
+{"f":"cards","id":"ko.c0298","k":"meaning","src":"(Korean fried) chicken","tgt":"（韓国式の）フライドチキン"}
+{"f":"cards","id":"ko.c0298","k":"note","src":"치맥 = chicken + 맥주.","tgt":"치맥 ＝ チキン ＋ 맥주（ビール）。"}
+{"f":"cards","id":"ko.c0299","k":"meaning","src":"spicy rice cakes","tgt":"トッポッキ（甘辛い餅炒め）"}
+{"f":"cards","id":"ko.c0299","k":"note","src":"Street food staple.","tgt":"屋台の定番です。"}
+{"f":"cards","id":"ko.c0300","k":"meaning","src":"ramyeon (instant noodles)","tgt":"ラミョン（インスタントラーメン）"}
+{"f":"cards","id":"ko.c0300","k":"note","src":"라멘 is the Japanese kind.","tgt":"日本式のラーメンは 라멘 です。"}
+{"f":"cards","id":"ko.c0301","k":"meaning","src":"stew","tgt":"チゲ（鍋料理）"}
+{"f":"cards","id":"ko.c0301","k":"note","src":"김치찌개, 된장찌개, 순두부찌개.","tgt":"김치찌개, 된장찌개, 순두부찌개.","pre":1}
+{"f":"cards","id":"ko.c0302","k":"meaning","src":"soup","tgt":"スープ"}
+{"f":"cards","id":"ko.c0302","k":"note","src":"탕 is heartier (삼계탕, 갈비탕).","tgt":"탕 のほうが具だくさんです（삼계탕、갈비탕）。"}
+{"f":"cards","id":"ko.c0303","k":"meaning","src":"side dishes","tgt":"おかず（小皿料理）"}
+{"f":"cards","id":"ko.c0303","k":"note","src":"Refills are free: 반찬 좀 더 주세요.","tgt":"おかわりは無料：반찬 좀 더 주세요。"}
+{"f":"cards","id":"ko.c0304","k":"meaning","src":"bread","tgt":"パン"}
+{"f":"cards","id":"ko.c0304","k":"note","src":"빵집 = bakery.","tgt":"빵집 ＝ パン屋。"}
+{"f":"cards","id":"ko.c0305","k":"meaning","src":"fruit","tgt":"果物"}
+{"f":"cards","id":"ko.c0305","k":"note","src":"사과 apple, 딸기 strawberry, 귤 tangerine.","tgt":"사과 りんご、딸기 いちご、귤 みかん。"}
+{"f":"cards","id":"ko.c0306","k":"meaning","src":"vegetables","tgt":"野菜"}
+{"f":"cards","id":"ko.c0306","k":"note","src":"채소 is the standard word.","tgt":"標準語は 채소（菜蔬）です。"}
+{"f":"cards","id":"ko.c0307","k":"meaning","src":"egg","tgt":"卵"}
+{"f":"cards","id":"ko.c0307","k":"note","src":"달걀 is the pure-Korean word.","tgt":"漢字は「鶏卵」。달걀 は固有語の言い方です。"}
+{"f":"cards","id":"ko.c0308","k":"meaning","src":"fish (as food)","tgt":"魚（食べ物として）"}
+{"f":"cards","id":"ko.c0308","k":"note","src":"물고기 = fish (alive).","tgt":"漢字は「生鮮」。물고기 ＝（生きている）魚。"}
+{"f":"cards","id":"ko.c0309","k":"meaning","src":"seafood","tgt":"海産物・シーフード"}
+{"f":"cards","id":"ko.c0309","k":"note","src":"해물파전 = seafood pancake.","tgt":"해물파전 ＝ 海鮮チヂミ。"}
+{"f":"cards","id":"ko.c0310","k":"meaning","src":"dessert","tgt":"デザート"}
+{"f":"cards","id":"ko.c0310","k":"note","src":"빙수 = shaved ice; 호떡 = sweet pancake.","tgt":"빙수 ＝ かき氷、호떡 ＝ ホットク（甘いおやき）。"}
+{"f":"cards","id":"ko.c0311","k":"meaning","src":"soft drink / beverage","tgt":"飲み物・ソフトドリンク"}
+{"f":"cards","id":"ko.c0311","k":"note","src":"Umbrella word for non-alcoholic drinks.","tgt":"アルコール以外の飲み物の総称です。漢字は「飲料水」ですが、日本語の「飲料水（飲み水）」とは違います。"}
+{"f":"cards","id":"ko.c0312","k":"meaning","src":"coffee","tgt":"コーヒー"}
+{"f":"cards","id":"ko.c0312","k":"note","src":"아메리카노, 라떼, 믹스커피 (instant).","tgt":"아메리카노、라떼、믹스커피（スティックのインスタント）。"}
+{"f":"cards","id":"ko.c0313","k":"meaning","src":"tea","tgt":"お茶"}
+{"f":"cards","id":"ko.c0313","k":"note","src":"녹차 green, 보리차 barley, 유자차 citron.","tgt":"녹차 緑茶、보리차 麦茶、유자차 ゆず茶。"}
+{"f":"cards","id":"ko.c0314","k":"meaning","src":"milk","tgt":"牛乳"}
+{"f":"cards","id":"ko.c0314","k":"note","src":"두유 = soy milk.","tgt":"두유 ＝ 豆乳。"}
+{"f":"cards","id":"ko.c0315","k":"meaning","src":"juice","tgt":"ジュース"}
+{"f":"cards","id":"ko.c0315","k":"note","src":"오렌지 주스.","tgt":"오렌지 주스.","pre":1}
+{"f":"cards","id":"ko.c0316","k":"meaning","src":"cola / lemon-lime soda","tgt":"コーラ / サイダー"}
+{"f":"cards","id":"ko.c0316","k":"note","src":"사이다 is Sprite-style, not alcoholic cider.","tgt":"사이다 は日本の「サイダー」と同じ透明な炭酸飲料です。お酒（シードル）ではありません。"}
+{"f":"cards","id":"ko.c0317","k":"meaning","src":"bottled water","tgt":"ミネラルウォーター"}
+{"f":"cards","id":"ko.c0317","k":"note","src":"Ask for 물 at restaurants — it's free.","tgt":"漢字は「生水」ですが、なまみずのことではありません。お店では 물 を頼めば無料です。"}
+{"f":"cards","id":"ko.c0318","k":"meaning","src":"beer","tgt":"ビール"}
+{"f":"cards","id":"ko.c0318","k":"note","src":"생맥주 = draft beer. 카스, 테라, 클라우드.","tgt":"생맥주 ＝ 生ビール。카스、테라、클라우드。"}
+{"f":"cards","id":"ko.c0319","k":"meaning","src":"soju","tgt":"焼酎（ソジュ）"}
+{"f":"cards","id":"ko.c0319","k":"note","src":"참이슬, 처음처럼. Green bottle.","tgt":"참이슬、처음처럼。緑のびんが目印。"}
+{"f":"cards","id":"ko.c0320","k":"meaning","src":"makgeolli (rice wine)","tgt":"マッコリ（米のお酒）"}
+{"f":"cards","id":"ko.c0320","k":"note","src":"Goes with 파전 on rainy days.","tgt":"雨の日は 파전 と一緒に。"}
+{"f":"cards","id":"ko.c0321","k":"meaning","src":"wine","tgt":"ワイン"}
+{"f":"cards","id":"ko.c0322","k":"meaning","src":"cocktail","tgt":"カクテル"}
+{"f":"cards","id":"ko.c0323","k":"meaning","src":"smoothie","tgt":"スムージー"}
+{"f":"cards","id":"ko.c0324","k":"meaning","src":"ice","tgt":"氷"}
+{"f":"cards","id":"ko.c0324","k":"note","src":"얼음 빼 주세요 = no ice please.","tgt":"얼음 빼 주세요 ＝「氷抜きでお願いします」。"}
+{"f":"cards","id":"ko.c0325","k":"meaning","src":"One more glass, please","tgt":"もう1杯ください"}
+{"f":"cards","id":"ko.c0325","k":"note","src":"잔 is the counter for glasses/cups.","tgt":"잔 はカップやグラスを数える助数詞（杯）です。"}
+{"f":"cards","id":"ko.c0326","k":"meaning","src":"cheers (formal vs casual)","tgt":"乾杯（改まった言い方 / くだけた言い方）"}
+{"f":"cards","id":"ko.c0326","k":"note","src":"짠! among friends; 건배 at dinners.","tgt":"友だち同士なら 짠!、会社の飲み会などでは 건배（乾杯）。"}
+{"f":"cards","id":"ko.c0327","k":"meaning","src":"I exercise","tgt":"運動します"}
+{"f":"cards","id":"ko.c0327","k":"note","src":"운동하다.","tgt":"운동하다.","pre":1}
+{"f":"cards","id":"ko.c0328","k":"meaning","src":"I study","tgt":"勉強します"}
+{"f":"cards","id":"ko.c0328","k":"note","src":"공부하다.","tgt":"공부하다.","pre":1}
+{"f":"cards","id":"ko.c0329","k":"meaning","src":"I work","tgt":"働きます"}
+{"f":"cards","id":"ko.c0329","k":"note","src":"일하다.","tgt":"일하다.","pre":1}
+{"f":"cards","id":"ko.c0330","k":"meaning","src":"I rest","tgt":"休みます"}
+{"f":"cards","id":"ko.c0330","k":"note","src":"쉬다. 주말에 쉬어요 = I rest on weekends.","tgt":"쉬다。주말에 쉬어요 ＝「週末は休みます」。"}
+{"f":"cards","id":"ko.c0331","k":"meaning","src":"I hang out / play","tgt":"遊びます"}
+{"f":"cards","id":"ko.c0331","k":"note","src":"놀다. 같이 놀자 = let's hang out.","tgt":"놀다。같이 놀자 ＝「一緒に遊ぼう」。"}
+{"f":"cards","id":"ko.c0332","k":"meaning","src":"I take a walk","tgt":"散歩します"}
+{"f":"cards","id":"ko.c0332","k":"note","src":"산책하다.","tgt":"산책하다.","pre":1}
+{"f":"cards","id":"ko.c0333","k":"meaning","src":"I swim","tgt":"泳ぎます"}
+{"f":"cards","id":"ko.c0333","k":"note","src":"수영하다. 수영장 = pool.","tgt":"수영하다（水泳する）。수영장 ＝ プール。"}
+{"f":"cards","id":"ko.c0334","k":"meaning","src":"I run","tgt":"走ります"}
+{"f":"cards","id":"ko.c0334","k":"note","src":"달리다. 러닝 is also common.","tgt":"달리다。러닝 もよく使います。"}
+{"f":"cards","id":"ko.c0335","k":"meaning","src":"I ride a bike","tgt":"自転車に乗ります"}
+{"f":"cards","id":"ko.c0335","k":"note","src":"타다 = to ride (bike, bus, horse).","tgt":"타다 ＝「乗る」（自転車、バス、馬）。日本語は「〜に乗る」ですが、韓国語では「を」にあたる助詞を使います（ここでは省略されています）。"}
+{"f":"cards","id":"ko.c0336","k":"meaning","src":"I watch a movie","tgt":"映画を見ます"}
+{"f":"cards","id":"ko.c0336","k":"note","src":"보다 → 봐요.","tgt":"보다 → 봐요.","pre":1}
+{"f":"cards","id":"ko.c0337","k":"meaning","src":"I listen to music","tgt":"音楽を聴きます"}
+{"f":"cards","id":"ko.c0337","k":"note","src":"듣다 → 들어요 (ㄷ irregular).","tgt":"듣다 → 들어요（ㄷ変則）。"}
+{"f":"cards","id":"ko.c0338","k":"meaning","src":"I read a book","tgt":"本を読みます"}
+{"f":"cards","id":"ko.c0338","k":"note","src":"읽다 → 읽어요.","tgt":"읽다 → 읽어요.","pre":1}
+{"f":"cards","id":"ko.c0339","k":"meaning","src":"I cook","tgt":"料理します"}
+{"f":"cards","id":"ko.c0339","k":"note","src":"요리하다.","tgt":"요리하다.","pre":1}
+{"f":"cards","id":"ko.c0340","k":"meaning","src":"I clean","tgt":"掃除します"}
+{"f":"cards","id":"ko.c0340","k":"note","src":"청소하다. 빨래해요 = I do laundry.","tgt":"청소하다（清掃する）。빨래해요 ＝「洗濯します」。"}
+{"f":"cards","id":"ko.c0341","k":"meaning","src":"I meet a friend","tgt":"友だちに会います"}
+{"f":"cards","id":"ko.c0341","k":"note","src":"만나다.","tgt":"만나다.","pre":1}
+{"f":"cards","id":"ko.c0342","k":"meaning","src":"I go shopping","tgt":"買い物をします"}
+{"f":"cards","id":"ko.c0342","k":"note","src":"쇼핑하다.","tgt":"쇼핑하다.","pre":1}
+{"f":"cards","id":"ko.c0343","k":"meaning","src":"I take photos","tgt":"写真を撮ります"}
+{"f":"cards","id":"ko.c0343","k":"note","src":"찍다 → 찍어요.","tgt":"찍다 → 찍어요.","pre":1}
+{"f":"cards","id":"ko.c0344","k":"meaning","src":"I play games","tgt":"ゲームをします"}
+{"f":"cards","id":"ko.c0344","k":"note","src":"게임하다.","tgt":"게임하다.","pre":1}
+{"f":"cards","id":"ko.c0345","k":"meaning","src":"drama / TV series","tgt":"ドラマ"}
+{"f":"cards","id":"ko.c0345","k":"note","src":"K-drama = 한국 드라마 or just 드라마.","tgt":"韓国ドラマは 한국 드라마、または単に 드라마。"}
+{"f":"cards","id":"ko.c0346","k":"meaning","src":"variety show","tgt":"バラエティ番組"}
+{"f":"cards","id":"ko.c0346","k":"note","src":"런닝맨, 유 퀴즈 — unscripted comedy shows.","tgt":"漢字は「芸能」。런닝맨、유 퀴즈 など、台本のないお笑い番組です。"}
+{"f":"cards","id":"ko.c0347","k":"meaning","src":"news","tgt":"ニュース"}
+{"f":"cards","id":"ko.c0348","k":"meaning","src":"movie","tgt":"映画"}
+{"f":"cards","id":"ko.c0348","k":"note","src":"영화 보러 갈래? = wanna go see a movie?","tgt":"영화 보러 갈래? ＝「映画、見に行かない？」"}
+{"f":"cards","id":"ko.c0349","k":"meaning","src":"documentary","tgt":"ドキュメンタリー"}
+{"f":"cards","id":"ko.c0349","k":"note","src":"Shortened to 다큐.","tgt":"略して 다큐。"}
+{"f":"cards","id":"ko.c0350","k":"meaning","src":"comics / webtoon","tgt":"マンガ / ウェブトゥーン"}
+{"f":"cards","id":"ko.c0350","k":"note","src":"Many dramas are based on 웹툰.","tgt":"웹툰 が原作のドラマも多いです。"}
+{"f":"cards","id":"ko.c0351","k":"meaning","src":"animation / anime","tgt":"アニメ"}
+{"f":"cards","id":"ko.c0351","k":"note","src":"Shortened to 애니.","tgt":"略して 애니。"}
+{"f":"cards","id":"ko.c0352","k":"meaning","src":"comedy","tgt":"コメディ"}
+{"f":"cards","id":"ko.c0352","k":"note","src":"개그 = gag / comedy sketch.","tgt":"개그 ＝ ギャグ・お笑い。"}
+{"f":"cards","id":"ko.c0353","k":"meaning","src":"romance","tgt":"ロマンス"}
+{"f":"cards","id":"ko.c0353","k":"note","src":"로코 = romantic comedy.","tgt":"로코 ＝ ラブコメ。"}
+{"f":"cards","id":"ko.c0354","k":"meaning","src":"thriller","tgt":"スリラー"}
+{"f":"cards","id":"ko.c0355","k":"meaning","src":"horror movie","tgt":"ホラー映画"}
+{"f":"cards","id":"ko.c0355","k":"note","src":"무서워요 = it's scary.","tgt":"무서워요 ＝「怖いです」。"}
+{"f":"cards","id":"ko.c0356","k":"meaning","src":"action","tgt":"アクション"}
+{"f":"cards","id":"ko.c0357","k":"meaning","src":"historical drama","tgt":"時代劇"}
+{"f":"cards","id":"ko.c0357","k":"note","src":"Set in Joseon-era Korea.","tgt":"漢字は「史劇」。朝鮮時代などを舞台にしたドラマです。"}
+{"f":"cards","id":"ko.c0358","k":"meaning","src":"music show","tgt":"音楽番組"}
+{"f":"cards","id":"ko.c0358","k":"note","src":"뮤직뱅크, 인기가요 — weekly idol stages.","tgt":"뮤직뱅크、인기가요 など、毎週アイドルが出演する番組。"}
+{"f":"cards","id":"ko.c0359","k":"meaning","src":"audition show","tgt":"オーディション番組"}
+{"f":"cards","id":"ko.c0359","k":"note","src":"서바이벌 = survival show.","tgt":"서바이벌 ＝ サバイバル番組。"}
+{"f":"cards","id":"ko.c0360","k":"meaning","src":"which episode","tgt":"何話"}
+{"f":"cards","id":"ko.c0360","k":"note","src":"화 is the counter for episodes. 3화 = episode 3.","tgt":"화（話）はエピソードを数える助数詞。3화 ＝ 第3話。"}
+{"f":"cards","id":"ko.c0361","k":"meaning","src":"rerun","tgt":"再放送"}
+{"f":"cards","id":"ko.c0361","k":"note","src":"본방송 = original airing; 본방사수 = watch it live.","tgt":"본방송 ＝ 本放送、본방사수 ＝ 放送をリアルタイムで見ること。"}
+{"f":"cards","id":"ko.c0362","k":"meaning","src":"binge-watching","tgt":"一気見"}
+{"f":"cards","id":"ko.c0362","k":"note","src":"정주행했어 = I binged it.","tgt":"정주행했어 ＝「一気見した」。"}
+{"f":"cards","id":"ko.c0363","k":"meaning","src":"above / below","tgt":"上 / 下"}
+{"f":"cards","id":"ko.c0363","k":"note","src":"책상 위에 = on the desk.","tgt":"책상 위에 ＝「机の上に」。"}
+{"f":"cards","id":"ko.c0364","k":"meaning","src":"front / behind","tgt":"前 / 後ろ"}
+{"f":"cards","id":"ko.c0364","k":"note","src":"건물 앞에서 만나요 = meet in front of the building.","tgt":"건물 앞에서 만나요 ＝「建物の前で会いましょう」。"}
+{"f":"cards","id":"ko.c0365","k":"meaning","src":"next to / beside","tgt":"横・隣"}
+{"f":"cards","id":"ko.c0365","k":"note","src":"은행 옆에 있어요 = it's next to the bank.","tgt":"은행 옆에 있어요 ＝「銀行の隣にあります」。"}
+{"f":"cards","id":"ko.c0366","k":"meaning","src":"inside / outside","tgt":"中 / 外"}
+{"f":"cards","id":"ko.c0366","k":"note","src":"안에 들어가요 = go inside.","tgt":"안에 들어가요 ＝「中に入ります」。"}
+{"f":"cards","id":"ko.c0367","k":"meaning","src":"between","tgt":"間"}
+{"f":"cards","id":"ko.c0367","k":"note","src":"카페와 약국 사이에 = between the café and pharmacy.","tgt":"카페와 약국 사이에 ＝「カフェと薬局の間に」。"}
+{"f":"cards","id":"ko.c0368","k":"meaning","src":"across the street","tgt":"（道の）向こう側"}
+{"f":"cards","id":"ko.c0368","k":"note","src":"길 건너편에 있어요.","tgt":"길 건너편에 있어요.","pre":1}
+{"f":"cards","id":"ko.c0369","k":"meaning","src":"opposite side","tgt":"向かい側"}
+{"f":"cards","id":"ko.c0369","k":"note","src":"Same meaning as 건너편.","tgt":"건너편 と同じ意味です。"}
+{"f":"cards","id":"ko.c0370","k":"meaning","src":"nearby","tgt":"近く・近所"}
+{"f":"cards","id":"ko.c0370","k":"note","src":"이 근처에 = around here.","tgt":"이 근처에 ＝「この近くに」。漢字は「近処」で、日本語の「近所」とよく似ています。"}
+{"f":"cards","id":"ko.c0371","k":"meaning","src":"far / close","tgt":"遠いです / 近いです"}
+{"f":"cards","id":"ko.c0371","k":"note","src":"여기서 가까워요? = Is it close from here?","tgt":"여기서 가까워요? ＝「ここから近いですか？」"}
+{"f":"cards","id":"ko.c0372","k":"meaning","src":"east / west / south / north","tgt":"東 / 西 / 南 / 北"}
+{"f":"cards","id":"ko.c0372","k":"note","src":"강남 = south of the river.","tgt":"강남（江南）＝ 川の南。"}
+{"f":"cards","id":"ko.c0373","k":"meaning","src":"corner","tgt":"角"}
+{"f":"cards","id":"ko.c0373","k":"note","src":"코너에서 왼쪽으로 = left at the corner.","tgt":"코너에서 왼쪽으로 ＝「角を左へ」。"}
+{"f":"cards","id":"ko.c0374","k":"meaning","src":"crosswalk","tgt":"横断歩道"}
+{"f":"cards","id":"ko.c0374","k":"note","src":"건너세요 = cross.","tgt":"건너세요 ＝「渡ってください」。"}
+{"f":"cards","id":"ko.c0375","k":"meaning","src":"traffic light","tgt":"信号"}
+{"f":"cards","id":"ko.c0375","k":"note","src":"신호등에서 우회전 = turn right at the light.","tgt":"신호등에서 우회전 ＝「信号を右折」。"}
+{"f":"cards","id":"ko.c0376","k":"meaning","src":"exit / entrance","tgt":"出口 / 入口"}
+{"f":"cards","id":"ko.c0376","k":"note","src":"지하철 3번 출구 = subway exit 3.","tgt":"지하철 3번 출구 ＝「地下鉄3番出口」。"}
+{"f":"cards","id":"ko.c0377","k":"meaning","src":"floor (of a building)","tgt":"階"}
+{"f":"cards","id":"ko.c0377","k":"note","src":"2층 = 2nd floor; 지하 1층 = B1.","tgt":"2층 ＝ 2階、지하 1층 ＝ 地下1階。"}
+{"f":"cards","id":"ko.c0378","k":"meaning","src":"Go back / turn around","tgt":"戻ってください / 回ってください"}
+{"f":"cards","id":"ko.c0378","k":"note","src":"돌다 = to turn.","tgt":"돌다 ＝「回る」。"}
+{"f":"cards","id":"ko.c0379","k":"meaning","src":"straight ahead","tgt":"直進"}
+{"f":"cards","id":"ko.c0379","k":"note","src":"Shorter than 똑바로 가세요; seen on signs.","tgt":"똑바로 가세요 より短く、標識にも書いてあります。"}
+{"f":"cards","id":"ko.c0380","k":"meaning","src":"right turn / left turn","tgt":"右折 / 左折"}
+{"f":"cards","id":"ko.c0380","k":"note","src":"Taxi talk: 우회전해 주세요.","tgt":"タクシーで：우회전해 주세요。"}
+{"f":"cards","id":"ko.c0381","k":"meaning","src":"am / is / are (polite)","tgt":"〜です"}
+{"f":"cards","id":"ko.c0381","k":"note","src":"이에요 after consonant, 예요 after vowel: 학생이에요, 저예요.","tgt":"パッチムのあとは 이에요、母音のあとは 예요：학생이에요、저예요。日本語の「です」と違い、形が2つあります。"}
+{"f":"cards","id":"ko.c0382","k":"meaning","src":"there is / have","tgt":"あります・います / 持っています"}
+{"f":"cards","id":"ko.c0382","k":"note","src":"없어요 (eopseoyo) = there isn't / don't have.","tgt":"없어요 (eopseoyo) ＝「ありません・いません」。「ある」と「いる」の区別はありません。"}
+{"f":"cards","id":"ko.c0383","k":"meaning","src":"do (하다)","tgt":"します（하다）"}
+{"f":"cards","id":"ko.c0383","k":"note","src":"Past: 했어요. Future: 할 거예요.","tgt":"過去：했어요。未来：할 거예요。"}
+{"f":"cards","id":"ko.c0384","k":"meaning","src":"go (가다)","tgt":"行きます（가다）"}
+{"f":"cards","id":"ko.c0384","k":"note","src":"Past: 갔어요. 집에 가요 = I'm going home.","tgt":"過去：갔어요。집에 가요 ＝「家に帰ります」。"}
+{"f":"cards","id":"ko.c0385","k":"meaning","src":"come (오다)","tgt":"来ます（오다）"}
+{"f":"cards","id":"ko.c0385","k":"note","src":"Past: 왔어요.","tgt":"過去：왔어요。"}
+{"f":"cards","id":"ko.c0386","k":"meaning","src":"eat (먹다)","tgt":"食べます（먹다）"}
+{"f":"cards","id":"ko.c0386","k":"note","src":"Past: 먹었어요. 밥 먹었어요? = Did you eat?","tgt":"過去：먹었어요。밥 먹었어요? ＝「ご飯食べましたか？」"}
+{"f":"cards","id":"ko.c0387","k":"meaning","src":"drink (마시다)","tgt":"飲みます（마시다）"}
+{"f":"cards","id":"ko.c0387","k":"note","src":"Past: 마셨어요.","tgt":"過去：마셨어요。"}
+{"f":"cards","id":"ko.c0388","k":"meaning","src":"see / watch (보다)","tgt":"見ます（보다）"}
+{"f":"cards","id":"ko.c0388","k":"note","src":"Past: 봤어요. 내일 봐요 = see you tomorrow.","tgt":"過去：봤어요。내일 봐요 ＝「また明日」。"}
+{"f":"cards","id":"ko.c0389","k":"meaning","src":"like (좋아하다)","tgt":"好きです（좋아하다）"}
+{"f":"cards","id":"ko.c0389","k":"note","src":"좋아요 = it's good / I like it (adjective form).","tgt":"좋아요 ＝「いいです・好きです」（形容詞）。こちらは動詞なので、日本語の「〜が好き」と違い、「を」にあたる助詞をとります。"}
+{"f":"cards","id":"ko.c0390","k":"meaning","src":"know (알다)","tgt":"知っています（알다）"}
+{"f":"cards","id":"ko.c0390","k":"note","src":"몰라요 (mollayo) = don't know.","tgt":"몰라요 (mollayo) ＝「知りません」。「知っています」は、韓国語では現在形で言います。"}
+{"f":"cards","id":"ko.c0391","k":"meaning","src":"please give","tgt":"ください"}
+{"f":"cards","id":"ko.c0391","k":"note","src":"Verb stem + 아/어 주세요 = please do X.","tgt":"動詞の語幹 ＋ 아/어 주세요 ＝「〜してください」。"}
+{"f":"cards","id":"ko.c0392","k":"meaning","src":"love (사랑하다)","tgt":"愛しています（사랑하다）"}
+{"f":"cards","id":"ko.c0392","k":"note","src":"Casual: 사랑해.","tgt":"パンマル：사랑해。"}
+{"f":"cards","id":"ko.c0393","k":"meaning","src":"topic marker ('as for...')","tgt":"「は」にあたる助詞（主題）"}
+{"f":"cards","id":"ko.c0393","k":"note","src":"은 after consonant, 는 after vowel. 저는 = as for me.","tgt":"パッチムのあとは 은、母音のあとは 는。저는 ＝「私は」。"}
+{"f":"cards","id":"ko.c0394","k":"meaning","src":"subject marker","tgt":"「が」にあたる助詞（主語）"}
+{"f":"cards","id":"ko.c0394","k":"note","src":"이 after consonant, 가 after vowel. 비가 와요 = rain is falling.","tgt":"パッチムのあとは 이、母音のあとは 가。비가 와요 ＝「雨が降っています」。"}
+{"f":"cards","id":"ko.c0395","k":"meaning","src":"object marker","tgt":"「を」にあたる助詞（目的語）"}
+{"f":"cards","id":"ko.c0395","k":"note","src":"을 after consonant, 를 after vowel. 밥을 먹어요.","tgt":"パッチムのあとは 을、母音のあとは 를。밥을 먹어요。"}
+{"f":"cards","id":"ko.c0396","k":"meaning","src":"to / at (place or time)","tgt":"に（場所・時）"}
+{"f":"cards","id":"ko.c0396","k":"note","src":"학교에 가요 = go to school. 세 시에 = at 3 o'clock.","tgt":"학교에 가요 ＝「学校に行きます」。세 시에 ＝「3時に」。"}
+{"f":"cards","id":"ko.c0397","k":"meaning","src":"at / in (where an action happens), from","tgt":"で（動作の場所）/ から（場所）"}
+{"f":"cards","id":"ko.c0397","k":"note","src":"집에서 먹어요 = eat at home.","tgt":"집에서 먹어요 ＝「家で食べます」。場所の「から」も同じ形です。"}
+{"f":"cards","id":"ko.c0398","k":"meaning","src":"also / too","tgt":"も"}
+{"f":"cards","id":"ko.c0398","k":"note","src":"Replaces 은/는/이/가/을/를. 저도 = me too.","tgt":"은/는/이/가/을/를 の代わりに入ります。저도 ＝「私も」。日本語の「も」と同じ使い方です。"}
+{"f":"cards","id":"ko.c0399","k":"meaning","src":"possessive ('s)","tgt":"の（所有）"}
+{"f":"cards","id":"ko.c0399","k":"note","src":"Often pronounced 에. 친구의 책 = friend's book.","tgt":"よく 에 と発音します。친구의 책 ＝「友だちの本」。ただし日本語の「の」ほどは使わず、名詞を並べるだけのことが多いです。"}
+{"f":"cards","id":"ko.c0400","k":"meaning","src":"and / with","tgt":"と（並列・一緒に）"}
+{"f":"cards","id":"ko.c0400","k":"note","src":"하고 is the safe spoken choice.","tgt":"話し言葉では 하고 が無難です。"}
+{"f":"cards","id":"ko.c0401","k":"meaning","src":"only","tgt":"だけ"}
+{"f":"cards","id":"ko.c0401","k":"note","src":"물만 주세요 = only water, please.","tgt":"물만 주세요 ＝「水だけください」。"}
+{"f":"cards","id":"ko.c0402","k":"meaning","src":"1, 2, 3 (native)","tgt":"1, 2, 3（固有語）"}
+{"f":"cards","id":"ko.c0402","k":"note","src":"Native numbers: age, counting things, hours.","tgt":"固有語の数は、年齢、ものを数えるとき、時刻の「〜時」に使います。日本語の「ひとつ、ふたつ」よりずっと出番が多いです。"}
+{"f":"cards","id":"ko.c0403","k":"meaning","src":"4, 5, 6 (native)","tgt":"4, 5, 6（固有語）"}
+{"f":"cards","id":"ko.c0403","k":"note","src":"Before a counter, 하나→한, 둘→두, 셋→세, 넷→네.","tgt":"助数詞の前では 하나→한、둘→두、셋→세、넷→네。"}
+{"f":"cards","id":"ko.c0404","k":"meaning","src":"7, 8, 9, 10 (native)","tgt":"7, 8, 9, 10（固有語）"}
+{"f":"cards","id":"ko.c0404","k":"note","src":"스물 = 20, 서른 = 30.","tgt":"스물 = 20, 서른 = 30.","pre":1}
+{"f":"cards","id":"ko.c0405","k":"meaning","src":"1 to 5 (Sino-Korean)","tgt":"1〜5（漢字語）"}
+{"f":"cards","id":"ko.c0405","k":"note","src":"Sino numbers: money, dates, minutes, phone numbers.","tgt":"漢字語の数は、お金、日付、分、電話番号に使います。「いち・に・さん・し・ご」と音が似ています。"}
+{"f":"cards","id":"ko.c0406","k":"meaning","src":"6 to 10 (Sino-Korean)","tgt":"6〜10（漢字語）"}
+{"f":"cards","id":"ko.c0406","k":"note","src":"십일 = 11, 이십 = 20, 백 = 100, 천 = 1,000, 만 = 10,000.","tgt":"십일 = 11, 이십 = 20, 백 = 100, 천 = 1,000, 만 = 10,000.","pre":1}
+{"f":"cards","id":"ko.c0407","k":"meaning","src":"10,000 won","tgt":"1万ウォン"}
+{"f":"cards","id":"ko.c0407","k":"note","src":"Korean counts in 만 (10k). 오만 원 = 50,000 won.","tgt":"韓国語も 만（万）で数えます。오만 원 ＝ 5万ウォン。日本語と同じです。"}
+{"f":"cards","id":"ko.c0408","k":"meaning","src":"3:30","tgt":"3:30","pre":1}
+{"f":"cards","id":"ko.c0408","k":"note","src":"Hours = native (세), minutes = Sino (삼십).","tgt":"時は固有語の数（세）、分は漢字語の数（삼십）。"}
+{"f":"cards","id":"ko.c0409","k":"meaning","src":"25 years old","tgt":"25歳"}
+{"f":"cards","id":"ko.c0409","k":"note","src":"Age uses native numbers + 살.","tgt":"年齢は固有語の数 ＋ 살 で言います。"}
+{"f":"cards","id":"ko.c0410","k":"meaning","src":"You're cute","tgt":"かわいい"}
+{"f":"cards","id":"ko.c0410","k":"note","src":"Casual. Polite: 귀여워요.","tgt":"パンマル。丁寧な言い方は 귀여워요。"}
+{"f":"cards","id":"ko.c0411","k":"meaning","src":"You're pretty","tgt":"きれい"}
+{"f":"cards","id":"ko.c0411","k":"note","src":"Also for things: a pretty café.","tgt":"もの（すてきなカフェなど）にも使います。"}
+{"f":"cards","id":"ko.c0412","k":"meaning","src":"You're handsome","tgt":"かっこいい（顔が）"}
+{"f":"cards","id":"ko.c0412","k":"note","src":"Lit. 'came out well-formed'.","tgt":"直訳は「よく生まれついた」。形は過去形ですが、今のことを言います。"}
+{"f":"cards","id":"ko.c0413","k":"meaning","src":"I miss you","tgt":"会いたい"}
+{"f":"cards","id":"ko.c0413","k":"note","src":"Lit. 'I want to see you'.","tgt":"直訳は「見たい」。"}
+{"f":"cards","id":"ko.c0414","k":"meaning","src":"I like you","tgt":"好き"}
+{"f":"cards","id":"ko.c0414","k":"note","src":"The step before 사랑해.","tgt":"사랑해 の一歩手前。"}
+{"f":"cards","id":"ko.c0415","k":"meaning","src":"Babe / honey","tgt":"ねえ、ハニー"}
+{"f":"cards","id":"ko.c0415","k":"note","src":"Common couple nickname.","tgt":"恋人同士の定番の呼び方です。"}
+{"f":"cards","id":"ko.c0416","k":"meaning","src":"Sleep well / good night","tgt":"おやすみ"}
+{"f":"cards","id":"ko.c0416","k":"note","src":"Casual. Polite: 잘 자요; to elders: 안녕히 주무세요.","tgt":"パンマル。丁寧には 잘 자요、目上の人には 안녕히 주무세요。"}
+{"f":"cards","id":"ko.c0417","k":"meaning","src":"Did you eat?","tgt":"ご飯食べた？"}
+{"f":"cards","id":"ko.c0417","k":"note","src":"How Koreans say 'how are you' to people they care about.","tgt":"大切な人への「元気？」にあたる言い方です。"}
+{"f":"cards","id":"ko.c0418","k":"meaning","src":"You look pretty today","tgt":"今日はきれいですね"}
+{"f":"cards","id":"ko.c0418","k":"note","src":"네요 = noticing out loud. Casual: 오늘 예쁘네.","tgt":"네요 は気づいたことを口にする「〜ですね」。パンマルは 오늘 예쁘네。"}
+{"f":"cards","id":"ko.c0419","k":"meaning","src":"Your eyes are so pretty","tgt":"目がとてもきれいです"}
+{"f":"cards","id":"ko.c0419","k":"note","src":"눈 = eyes. 웃는 모습이 예뻐요 = your smile is pretty.","tgt":"눈 ＝「目」。웃는 모습이 예뻐요 ＝「笑顔がきれいです」。"}
+{"f":"cards","id":"ko.c0420","k":"meaning","src":"The way you laugh is so cute","tgt":"笑い方がとてもかわいいです"}
+{"f":"cards","id":"ko.c0420","k":"note","src":"웃다 = to laugh/smile.","tgt":"웃다 ＝「笑う・ほほえむ」。"}
+{"f":"cards","id":"ko.c0421","k":"meaning","src":"I missed you","tgt":"会いたかったです"}
+{"f":"cards","id":"ko.c0421","k":"note","src":"Casual: 보고 싶었어. Say it on arrival.","tgt":"パンマルは 보고 싶었어。会ったときに言いましょう。"}
+{"f":"cards","id":"ko.c0422","k":"meaning","src":"I'm happy when I'm with you","tgt":"一緒にいると幸せです"}
+{"f":"cards","id":"ko.c0422","k":"note","src":"같이 = together. 행복하다 = to be happy.","tgt":"같이 ＝「一緒に」。행복하다 ＝「幸せだ」（幸福）。"}
+{"f":"cards","id":"ko.c0423","k":"meaning","src":"I thought about you a lot","tgt":"君のこと、たくさん考えてた"}
+{"f":"cards","id":"ko.c0423","k":"note","src":"Casual. 생각 = thought.","tgt":"パンマル。생각 ＝「考え・思い」。"}
+{"f":"cards","id":"ko.c0424","k":"meaning","src":"Did you eat? Make sure you eat well","tgt":"ご飯食べた？ちゃんと食べて"}
+{"f":"cards","id":"ko.c0424","k":"note","src":"Peak Korean affection: caring about meals.","tgt":"食事を気にかけるのが、韓国流の最高の愛情表現です。"}
+{"f":"cards","id":"ko.c0425","k":"meaning","src":"Did you get home safe?","tgt":"無事に家に着いた？"}
+{"f":"cards","id":"ko.c0425","k":"note","src":"Text this after a date. Expected, not optional.","tgt":"デートのあとに送りましょう。送らないと心配されるほどの定番です。"}
+{"f":"cards","id":"ko.c0426","k":"meaning","src":"Get home safe","tgt":"気をつけて帰って"}
+{"f":"cards","id":"ko.c0426","k":"note","src":"Casual. Polite: 조심히 가세요.","tgt":"パンマル。丁寧には 조심히 가세요。"}
+{"f":"cards","id":"ko.c0427","k":"meaning","src":"Sweet dreams","tgt":"いい夢見て"}
+{"f":"cards","id":"ko.c0427","k":"note","src":"Lit. 'dream a good dream'. Pairs with 잘 자.","tgt":"直訳も「いい夢を見て」。잘 자 とセットで。"}
+{"f":"cards","id":"ko.c0428","k":"meaning","src":"Only look at me","tgt":"私だけ見て"}
+{"f":"cards","id":"ko.c0428","k":"note","src":"Playful / clingy. 만 = only.","tgt":"甘えたり、ふざけたりして言います。만 ＝「だけ」。"}
+{"f":"cards","id":"ko.c0429","k":"meaning","src":"You're the only one for me","tgt":"君しかいない"}
+{"f":"cards","id":"ko.c0429","k":"note","src":"Lit. 'there's no one but you'.","tgt":"直訳は「君のほかにいない」。"}
+{"f":"cards","id":"ko.c0430","k":"meaning","src":"You made my heart skip","tgt":"胸がキュンとした"}
+{"f":"cards","id":"ko.c0430","k":"note","src":"심쿵 = heart (심장) + thump (쿵). Slang.","tgt":"심쿵 ＝ 心臓（심장）＋ ドキン（쿵）。スラングです。"}
+{"f":"cards","id":"ko.c0431","k":"meaning","src":"Will you be mine?","tgt":"私のものになってくれる？"}
+{"f":"cards","id":"ko.c0431","k":"note","src":"Casual, playful way to ask someone out.","tgt":"パンマルで、遊び心のある告白。"}
+{"f":"cards","id":"ko.c0432","k":"meaning","src":"Do you want to go out with me?","tgt":"付き合わない？"}
+{"f":"cards","id":"ko.c0432","k":"note","src":"사귀다 = to date. The real ask.","tgt":"사귀다 ＝「付き合う」。本気の告白です。"}
+{"f":"cards","id":"ko.c0433","k":"meaning","src":"Stop being cute, my heart hurts","tgt":"かわいこぶらないで、心臓がもたない"}
+{"f":"cards","id":"ko.c0433","k":"note","src":"애교 = acting cute. Joke-flirt line.","tgt":"애교（愛嬌）＝ かわいらしくふるまうこと。冗談まじりの口説き文句です。"}
+{"f":"cards","id":"ko.c0434","k":"meaning","src":"Can I get your number?","tgt":"番号教えてくれる？"}
+{"f":"cards","id":"ko.c0434","k":"note","src":"좀 softens it. Polite: 번호 좀 알려 주실래요?","tgt":"좀 で柔らかくなります。丁寧には 번호 좀 알려 주실래요?"}
+{"f":"cards","id":"ko.c0435","k":"meaning","src":"Do you have Instagram?","tgt":"インスタやってますか？"}
+{"f":"cards","id":"ko.c0435","k":"note","src":"The modern number ask. 인스타 = Insta.","tgt":"今どきの連絡先の聞き方。인스타 ＝ インスタ。"}
+{"f":"cards","id":"ko.c0436","k":"meaning","src":"If you're free, want to grab a coffee?","tgt":"時間があったら、コーヒーでもどうですか？"}
+{"f":"cards","id":"ko.c0436","k":"note","src":"ㄹ래요 = want to? Low-pressure ask.","tgt":"ㄹ래요 ＝「〜しませんか」。気軽な誘い方です。"}
+{"f":"cards","id":"ko.c0437","k":"meaning","src":"Do you have a boyfriend?","tgt":"彼氏はいますか？"}
+{"f":"cards","id":"ko.c0437","k":"note","src":"여자친구 = girlfriend. 남친/여친 = casual short forms.","tgt":"여자친구 ＝「彼女」。남친/여친 はくだけた略語。"}
+{"f":"cards","id":"ko.c0438","k":"meaning","src":"It was love at first sight","tgt":"ひと目ぼれだった"}
+{"f":"cards","id":"ko.c0438","k":"note","src":"첫눈 = first sight (also first snow). 반하다 = fall for.","tgt":"첫눈 ＝「ひと目」（「初雪」の意味も）。반하다 ＝「ほれる」。"}
+{"f":"cards","id":"ko.c0439","k":"meaning","src":"Time flies when I'm with you","tgt":"君といると時間がたつのが早い"}
+{"f":"cards","id":"ko.c0439","k":"note","src":"랑 = with (casual). 빨리 = fast.","tgt":"랑 ＝「と」（くだけた言い方）。빨리 ＝「早く」。"}
+{"f":"cards","id":"ko.c0440","k":"meaning","src":"Thinking of you makes me smile","tgt":"君のことを考えると笑顔になる"}
+{"f":"cards","id":"ko.c0440","k":"note","src":"웃음이 나다 = a smile comes out.","tgt":"웃음이 나다 ＝「笑みがこぼれる」。"}
+{"f":"cards","id":"ko.c0441","k":"meaning","src":"I keep thinking about you","tgt":"つい君のことを考えちゃう"}
+{"f":"cards","id":"ko.c0441","k":"note","src":"자꾸 = keep / over and over.","tgt":"자꾸 ＝「何度も・しきりに」。"}
+{"f":"cards","id":"ko.c0442","k":"meaning","src":"You're the prettiest","tgt":"君がいちばんきれい"}
+{"f":"cards","id":"ko.c0442","k":"note","src":"제일 = the most. 제일 멋있어 for guys.","tgt":"제일 ＝「いちばん」（第一）。男性には 제일 멋있어。"}
+{"f":"cards","id":"ko.c0443","k":"meaning","src":"Should we meet again?","tgt":"また会おうか？"}
+{"f":"cards","id":"ko.c0443","k":"note","src":"ㄹ까 = shall we? 또 = again.","tgt":"ㄹ까 ＝「〜しようか」。또 ＝「また」。"}
+{"f":"cards","id":"ko.c0444","k":"meaning","src":"I'll walk you home","tgt":"家まで送るよ"}
+{"f":"cards","id":"ko.c0444","k":"note","src":"ㄹ게 = I'll (promise). Classic end of date.","tgt":"ㄹ게 ＝「〜するよ」（約束）。デートの締めの定番です。"}
+{"f":"cards","id":"ko.c0445","k":"meaning","src":"I think I like you","tgt":"君のこと、好きみたい"}
+{"f":"cards","id":"ko.c0445","k":"note","src":"것 같아 = I think / it seems. Softens the confession.","tgt":"것 같아 ＝「〜みたい・〜と思う」。告白を柔らかくします。"}
+{"f":"cards","id":"ko.c0446","k":"meaning","src":"I don't want to go home tonight","tgt":"今日は帰りたくないな"}
+{"f":"cards","id":"ko.c0446","k":"note","src":"기 싫다 = don't want to. Said at the end of a good date.","tgt":"기 싫다 ＝「〜したくない」。楽しいデートの終わりに。"}
+{"f":"cards","id":"ko.c0447","k":"meaning","src":"Let's date","tgt":"付き合おう"}
+{"f":"cards","id":"ko.c0447","k":"note","src":"자 = let's. More confident than 사귈래?","tgt":"자 ＝「〜しよう」。사귈래? より自信のある言い方です。"}
+{"f":"cards","id":"ko.c0448","k":"meaning","src":"What are you up to?","tgt":"何してる？"}
+{"f":"cards","id":"ko.c0448","k":"note","src":"The universal opener. Polite: 뭐 해요?","tgt":"定番の第一声。丁寧には 뭐 해요?"}
+{"f":"cards","id":"ko.c0449","k":"meaning","src":"I'm bored","tgt":"ひま〜"}
+{"f":"cards","id":"ko.c0449","k":"note","src":"심심하다 = bored. 놀자 = let's hang out.","tgt":"심심하다 ＝「退屈だ」。놀자 ＝「遊ぼう」。"}
+{"f":"cards","id":"ko.c0450","k":"meaning","src":"I'm tired","tgt":"疲れた"}
+{"f":"cards","id":"ko.c0450","k":"note","src":"피곤하다. 졸려 = I'm sleepy.","tgt":"피곤하다。졸려 ＝「眠い」。"}
+{"f":"cards","id":"ko.c0451","k":"meaning","src":"I'm hungry","tgt":"お腹すいた"}
+{"f":"cards","id":"ko.c0451","k":"note","src":"Casual version of 배고파요.","tgt":"배고파요 のパンマル。"}
+{"f":"cards","id":"ko.c0452","k":"meaning","src":"Where are you?","tgt":"どこにいる？"}
+{"f":"cards","id":"ko.c0452","k":"note","src":"Casual. 어디예요? polite.","tgt":"パンマル。丁寧には 어디예요?"}
+{"f":"cards","id":"ko.c0453","k":"meaning","src":"I'm on my way","tgt":"今向かってる"}
+{"f":"cards","id":"ko.c0453","k":"note","src":"Lit. 'I go now'. 다 왔어 = I'm almost there.","tgt":"直訳は「私、今行く」。다 왔어 ＝「もうすぐ着く」。"}
+{"f":"cards","id":"ko.c0454","k":"meaning","src":"I think I'll be late","tgt":"遅れそう"}
+{"f":"cards","id":"ko.c0454","k":"note","src":"것 같아 = I think. 미안, 늦었어 = sorry I'm late.","tgt":"것 같아 ＝「〜そう・〜と思う」。미안, 늦었어 ＝「ごめん、遅れた」。"}
+{"f":"cards","id":"ko.c0455","k":"meaning","src":"lol","tgt":"（笑）/ www"}
+{"f":"cards","id":"ko.c0455","k":"note","src":"Texting only. ㅎㅎ = softer chuckle. ㅠㅠ = crying.","tgt":"メッセージ専用。ㅎㅎ ＝ 控えめな笑い、ㅠㅠ ＝ 泣き。"}
+{"f":"cards","id":"ko.c0456","k":"meaning","src":"yeah / ok","tgt":"うん / OK"}
+{"f":"cards","id":"ko.c0456","k":"note","src":"Texting shorthand for 응. ㄴㄴ = no.","tgt":"응 の略。ㄴㄴ ＝「ううん」。"}
+{"f":"cards","id":"ko.c0457","k":"meaning","src":"That's hilarious","tgt":"まじでウケる"}
+{"f":"cards","id":"ko.c0457","k":"note","src":"웃기다 = to be funny.","tgt":"웃기다 ＝「笑える・おもしろい」。"}
+{"f":"cards","id":"ko.c0458","k":"meaning","src":"Dunno","tgt":"知らない"}
+{"f":"cards","id":"ko.c0458","k":"note","src":"Casual 몰라요. 글쎄 = hmm, not sure.","tgt":"몰라요 のパンマル。글쎄 ＝「うーん、どうだろう」。"}
+{"f":"cards","id":"ko.c0459","k":"meaning","src":"Okay / sure / fine","tgt":"いいよ / わかった"}
+{"f":"cards","id":"ko.c0459","k":"note","src":"Also 'is that so?' with rising tone.","tgt":"語尾を上げると「そうなの？」の意味になります。"}
+{"f":"cards","id":"ko.c0460","k":"meaning","src":"See you later","tgt":"またね"}
+{"f":"cards","id":"ko.c0460","k":"note","src":"담에 = 다음에 (next time), shortened.","tgt":"담에 ＝ 다음에（次に）の略。"}
+{"f":"cards","id":"ko.c0461","k":"meaning","src":"Night, see you tomorrow","tgt":"おやすみ、また明日"}
+{"f":"cards","id":"ko.c0461","k":"note","src":"Standard sign-off text.","tgt":"定番の締めのメッセージ。"}
+{"f":"cards","id":"ko.c0462","k":"meaning","src":"That's cool! / You look cool","tgt":"かっこいい！"}
+{"f":"cards","id":"ko.c0462","k":"note","src":"Works for people, outfits, moves. Polite: 멋있어요.","tgt":"人にも、服にも、動きにも。丁寧には 멋있어요。"}
+{"f":"cards","id":"ko.c0463","k":"meaning","src":"Nice job!","tgt":"よくやった！"}
+{"f":"cards","id":"ko.c0463","k":"note","src":"잘하다 = do well. Polite: 잘했어요.","tgt":"잘하다 ＝「上手にやる」。丁寧には 잘했어요。"}
+{"f":"cards","id":"ko.c0464","k":"meaning","src":"You're the best","tgt":"最高！"}
+{"f":"cards","id":"ko.c0464","k":"note","src":"최고 = the best. 네가 최고야.","tgt":"최고 ＝「最高」。네가 최고야 ＝「君が最高」。"}
+{"f":"cards","id":"ko.c0465","k":"meaning","src":"Respect / fair enough","tgt":"確かに / それな"}
+{"f":"cards","id":"ko.c0465","k":"note","src":"Lit. 'acknowledge'. Slang: ㅇㅈ in texts.","tgt":"直訳は「認める」（漢字は「認定」）。日本語の「認定」のような公式の意味ではなく、「異議なし」のスラングです。メッセージでは ㅇㅈ。"}
+{"f":"cards","id":"ko.c0466","k":"meaning","src":"Awesome / the best","tgt":"すごすぎ / 最強"}
+{"f":"cards","id":"ko.c0466","k":"note","src":"짱 = top. 짱 멋있어 = super cool.","tgt":"짱 ＝「トップ」。짱 멋있어 ＝「超かっこいい」。"}
+{"f":"cards","id":"ko.c0467","k":"meaning","src":"Legend","tgt":"レジェンド"}
+{"f":"cards","id":"ko.c0467","k":"note","src":"From English. 레전드다 = that's legendary.","tgt":"日本語の「レジェンド」と同じ外来語です。레전드다 ＝「伝説級だ」。","rw":"English loanword explanation"}
+{"f":"cards","id":"ko.c0468","k":"meaning","src":"Insane (good)","tgt":"やばい（いい意味で）"}
+{"f":"cards","id":"ko.c0468","k":"note","src":"Said about a goal, a beat, a view. Casual.","tgt":"ゴール、曲、景色などに。パンマルです。"}
+{"f":"cards","id":"ko.c0469","k":"meaning","src":"That's amazing","tgt":"すごい！"}
+{"f":"cards","id":"ko.c0469","k":"note","src":"Safe hype word for any crowd.","tgt":"どんな相手にも使える無難なほめ言葉。"}
+{"f":"cards","id":"ko.c0470","k":"meaning","src":"Let's go!","tgt":"行こう！"}
+{"f":"cards","id":"ko.c0470","k":"note","src":"Also the pre-game shout.","tgt":"試合前のかけ声にも使います。"}
+{"f":"cards","id":"ko.c0471","k":"meaning","src":"Okay, deal / I'm in","tgt":"OK、乗った！"}
+{"f":"cards","id":"ko.c0471","k":"note","src":"콜 = 'call', accepting a plan.","tgt":"콜 ＝「コール」。誘いや提案に乗るときに。"}
+{"f":"cards","id":"ko.c0472","k":"meaning","src":"Good work, that was tough","tgt":"お疲れ、よくがんばった"}
+{"f":"cards","id":"ko.c0472","k":"note","src":"Said after effort. Polite: 고생하셨어요.","tgt":"がんばったあとに。漢字では「苦生」と書き、日本語の「苦労」にあたります。丁寧には 고생하셨어요。"}
+{"f":"cards","id":"ko.c0473","k":"meaning","src":"Nice work today","tgt":"お疲れさま"}
+{"f":"cards","id":"ko.c0473","k":"note","src":"End-of-day sign-off at work or practice.","tgt":"職場や練習の終わりのひと言。"}
+{"f":"cards","id":"ko.c0474","k":"meaning","src":"You got this / cheer up","tgt":"がんばって！"}
+{"f":"cards","id":"ko.c0474","k":"note","src":"힘 = strength. 힘내세요 polite.","tgt":"힘 ＝「力」。丁寧には 힘내세요。"}
+{"f":"cards","id":"ko.c0475","k":"meaning","src":"Don't worry","tgt":"心配しないで"}
+{"f":"cards","id":"ko.c0475","k":"note","src":"지 마 = don't. 걱정하지 마 full form.","tgt":"지 마 ＝「〜しないで」。省略しない形は 걱정하지 마。"}
+{"f":"cards","id":"ko.c0476","k":"meaning","src":"Wanna grab a drink?","tgt":"一杯どう？"}
+{"f":"cards","id":"ko.c0476","k":"note","src":"한잔 = one glass. The friend-making phrase.","tgt":"한잔 ＝「一杯」。友だちづくりのひと言です。"}
+{"f":"cards","id":"ko.c0477","k":"meaning","src":"What do you wanna eat?","tgt":"何食べる？"}
+{"f":"cards","id":"ko.c0477","k":"note","src":"Everyone's favorite question.","tgt":"みんなが大好きな質問。"}
+{"f":"cards","id":"ko.c0478","k":"meaning","src":"Hey!","tgt":"おい！ / ねえ！"}
+{"f":"cards","id":"ko.c0478","k":"note","src":"Close friends / same age only. To anyone older it's rude.","tgt":"親しい友だちや同い年だけに。年上に使うと失礼です。"}
+{"f":"cards","id":"ko.c0479","k":"meaning","src":"Hey, what are you doing?","tgt":"ねえ、何してる？"}
+{"f":"cards","id":"ko.c0479","k":"note","src":"The opener before any invite.","tgt":"誘う前の第一声。"}
+{"f":"cards","id":"ko.c0480","k":"meaning","src":"Let's hang out!","tgt":"遊ぼう！"}
+{"f":"cards","id":"ko.c0480","k":"note","src":"놀다 = to play / hang out. 자 = let's.","tgt":"놀다 ＝「遊ぶ」。자 ＝「〜しよう」。"}
+{"f":"cards","id":"ko.c0481","k":"meaning","src":"Come out (come hang)","tgt":"出てきなよ（遊ぼう）"}
+{"f":"cards","id":"ko.c0481","k":"note","src":"Lit. 'come out'. 빨리 나와 = hurry up and come out.","tgt":"直訳は「出てきて」。빨리 나와 ＝「早く出てきて」。"}
+{"f":"cards","id":"ko.c0482","k":"meaning","src":"You free?","tgt":"時間ある？"}
+{"f":"cards","id":"ko.c0482","k":"note","src":"Polite: 시간 있어요?","tgt":"丁寧には 시간 있어요?"}
+{"f":"cards","id":"ko.c0483","k":"meaning","src":"Are you free today?","tgt":"今日、空いてる？"}
+{"f":"cards","id":"ko.c0483","k":"note","src":"돼 = is it possible / does it work.","tgt":"돼 ＝「大丈夫・できる」。"}
+{"f":"cards","id":"ko.c0484","k":"meaning","src":"Wanna go together?","tgt":"一緒に行かない？"}
+{"f":"cards","id":"ko.c0484","k":"note","src":"같이 = together. ㄹ래 = wanna?","tgt":"같이 ＝「一緒に」。ㄹ래 ＝「〜しない？」。"}
+{"f":"cards","id":"ko.c0485","k":"meaning","src":"Wanna go eat?","tgt":"ご飯食べに行かない？"}
+{"f":"cards","id":"ko.c0485","k":"note","src":"으러 가다 = go in order to. 커피 마시러 갈래? = wanna go get coffee?","tgt":"으러 가다 ＝「〜しに行く」。커피 마시러 갈래? ＝「コーヒー飲みに行かない？」"}
+{"f":"cards","id":"ko.c0486","k":"meaning","src":"Wanna watch a movie?","tgt":"映画見ない？"}
+{"f":"cards","id":"ko.c0486","k":"note","src":"보다 → 볼래. 게임 할래? = wanna play games?","tgt":"보다 → 볼래。게임 할래? ＝「ゲームしない？」"}
+{"f":"cards","id":"ko.c0487","k":"meaning","src":"Shall we go to a café?","tgt":"カフェ行こうか？"}
+{"f":"cards","id":"ko.c0487","k":"note","src":"ㄹ까 = shall we? Softer than ㄹ래.","tgt":"ㄹ까 ＝「〜しようか」。ㄹ래 より柔らかい言い方です。"}
+{"f":"cards","id":"ko.c0488","k":"meaning","src":"Wanna come over?","tgt":"うちに来ない？"}
+{"f":"cards","id":"ko.c0488","k":"note","src":"우리 집 = my (our) house. Koreans say 우리 for their own home.","tgt":"우리 집 ＝「うち」。日本語の「うち」と同じく、自分の家を 우리（私たち）で言います。"}
+{"f":"cards","id":"ko.c0489","k":"meaning","src":"When should we meet?","tgt":"いつ会おうか？"}
+{"f":"cards","id":"ko.c0489","k":"note","src":"언제 = when. 만나다 = to meet.","tgt":"언제 ＝「いつ」。만나다 ＝「会う」。"}
+{"f":"cards","id":"ko.c0490","k":"meaning","src":"What time should we meet?","tgt":"何時に会おうか？"}
+{"f":"cards","id":"ko.c0490","k":"note","src":"보다 (see) doubles as 'meet up'.","tgt":"보다（見る）は「会う」の意味でも使います。"}
+{"f":"cards","id":"ko.c0491","k":"meaning","src":"Where should we meet?","tgt":"どこで会おうか？"}
+{"f":"cards","id":"ko.c0491","k":"note","src":"어디서 = 어디에서 shortened.","tgt":"어디서 ＝ 어디에서 の短い形。"}
+{"f":"cards","id":"ko.c0492","k":"meaning","src":"I'm coming now","tgt":"今行くよ"}
+{"f":"cards","id":"ko.c0492","k":"note","src":"ㄹ게 = I'll. 금방 갈게 = I'll be there soon.","tgt":"ㄹ게 ＝「〜するよ」。금방 갈게 ＝「すぐ行くよ」。"}

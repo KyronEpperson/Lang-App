@@ -293,6 +293,61 @@
       "name": "Spoken French",
       "group": "Watch out",
       "desc": "What you will hear: ne dropped, on for \"we\", and everyday informal words"
+    },
+    {
+      "name": "Top nouns",
+      "group": "Core words",
+      "desc": "The most-used nouns, each with an article that shows its gender"
+    },
+    {
+      "name": "Top verbs",
+      "group": "Core words",
+      "desc": "The most-used verbs in the infinitive, with the je form and irregular ones flagged"
+    },
+    {
+      "name": "Top adjectives",
+      "group": "Core words",
+      "desc": "The most-used adjectives, with the feminine form and whether it sounds different"
+    },
+    {
+      "name": "Top adverbs",
+      "group": "Core words",
+      "desc": "Time, place, manner and degree: très, déjà, ici, souvent, ne … pas"
+    },
+    {
+      "name": "Top pronouns",
+      "group": "Core words",
+      "desc": "Subject, stress, object, demonstrative, possessive, question and indefinite pronouns"
+    },
+    {
+      "name": "Top prepositions",
+      "group": "Core words",
+      "desc": "à, de, en, dans, chez and the rest, with the contractions au, aux, du"
+    },
+    {
+      "name": "Top conjunctions",
+      "group": "Core words",
+      "desc": "The words that join ideas: que, si, comme, pendant que, même si"
+    },
+    {
+      "name": "Top interjections",
+      "group": "Core words",
+      "desc": "What people really exclaim: Oh là là, Ouf, Mince, Tant pis"
+    },
+    {
+      "name": "Top words",
+      "group": "Core words",
+      "desc": "Articles, determiners, possessives, yes and no, numbers, days, months and times of day"
+    },
+    {
+      "name": "Compliments",
+      "group": "Conversation",
+      "desc": "Everyday praise for food, work, skills, homes and effort, and how French people answer it"
+    },
+    {
+      "name": "Flirting",
+      "group": "Conversation",
+      "desc": "Words people flirt with, the phrases built from them, asking someone out, and kind ways to say no"
     }
   ],
   "titles": [

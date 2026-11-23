@@ -275,6 +275,61 @@
       "name": "Life in Germany",
       "group": "Watch out",
       "desc": "Appointments, registration, cash, deposits and Sundays: words for living in Germany"
+    },
+    {
+      "name": "Compliments",
+      "group": "Conversation",
+      "desc": "Praise food, work, effort and someone's home, and answer a compliment the German way"
+    },
+    {
+      "name": "Flirting",
+      "group": "Conversation",
+      "desc": "Flirty words, the phrases built from them, asking someone out, and kind ways to say yes or no"
+    },
+    {
+      "name": "Top nouns",
+      "group": "Core words",
+      "desc": "The most-used nouns, with der, die or das and the plural"
+    },
+    {
+      "name": "Top verbs",
+      "group": "Core words",
+      "desc": "The most-used verbs: infinitive, the ich-form, and strong or separable flags"
+    },
+    {
+      "name": "Top adjectives",
+      "group": "Core words",
+      "desc": "The most-used adjectives, with the comparative or the form that changes"
+    },
+    {
+      "name": "Top adverbs",
+      "group": "Core words",
+      "desc": "Time, place, manner and degree: schon, noch, immer, hier, sehr …"
+    },
+    {
+      "name": "Top pronouns",
+      "group": "Core words",
+      "desc": "Personal pronouns in every case, Sie and du, question and indefinite pronouns"
+    },
+    {
+      "name": "Top prepositions",
+      "group": "Core words",
+      "desc": "The most-used prepositions and contractions, with the case each one takes"
+    },
+    {
+      "name": "Top conjunctions",
+      "group": "Core words",
+      "desc": "More words that join sentences, and where each one sends the verb"
+    },
+    {
+      "name": "Top interjections",
+      "group": "Core words",
+      "desc": "What Germans really exclaim: Ach so!, Na ja, Aua!, Mist!, Krass! …"
+    },
+    {
+      "name": "Top words",
+      "group": "Core words",
+      "desc": "Articles, determiners, possessives, question words, numbers and days"
     }
   ],
   "titles": [

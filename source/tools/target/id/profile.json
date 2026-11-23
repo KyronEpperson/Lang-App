@@ -287,6 +287,66 @@
       "name": "Everyday spoken Indonesian",
       "group": "Watch out",
       "desc": "Casual forms you will hear every day, with the standard form beside each"
+    },
+    {
+      "name": "Top nouns",
+      "group": "Core words",
+      "desc": "The most-used Indonesian nouns, most frequent first. No articles, no gender, no plural ending"
+    },
+    {
+      "name": "Top verbs",
+      "group": "Core words",
+      "desc": "The most-used verbs, with the meN- or ber- form you will meet and its root"
+    },
+    {
+      "name": "Top adjectives",
+      "group": "Core words",
+      "desc": "The most-used describing words. They come after the noun and need no word for \"is\""
+    },
+    {
+      "name": "Top adverbs",
+      "group": "Core words",
+      "desc": "Time, place, manner and degree: sudah, masih, sangat, sekali, juga, saja"
+    },
+    {
+      "name": "Top pronouns",
+      "group": "Core words",
+      "desc": "I, you, they, this, who, something: the whole useful set, with the titles used as \"you\""
+    },
+    {
+      "name": "Top prepositions",
+      "group": "Core words",
+      "desc": "di, ke, dari and the other place, time and linking words"
+    },
+    {
+      "name": "Top conjunctions",
+      "group": "Core words",
+      "desc": "dan, atau, tapi, supaya, walaupun: the words that join ideas"
+    },
+    {
+      "name": "Top interjections",
+      "group": "Core words",
+      "desc": "What people really exclaim: wah, aduh, ayo, astaga, ya ampun"
+    },
+    {
+      "name": "Top words",
+      "group": "Core words",
+      "desc": "Question words, yes and no, quantity words, numbers to twenty, days and times of day"
+    },
+    {
+      "name": "Top classifiers",
+      "group": "Core words",
+      "desc": "Counting words: seorang, sebuah, ekor, and the measure words for glasses, plates and bottles"
+    },
+    {
+      "name": "Compliments",
+      "group": "Conversation",
+      "desc": "Praise for food, homes, children, work and effort, and the modest replies Indonesians give"
+    },
+    {
+      "name": "Flirting",
+      "group": "Conversation",
+      "desc": "Words people flirt with, phrases built from them, and kind ways to say yes or no"
     }
   ],
   "titles": [

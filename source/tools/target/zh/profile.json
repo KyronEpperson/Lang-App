@@ -293,6 +293,71 @@
    "name": "Traps for English speakers",
    "group": "Conversation",
    "desc": "False friends, calques, 是 with adjectives, 不 and 没, 二 and 两, and polite-sounding mistakes"
+  },
+  {
+   "name": "Top nouns",
+   "group": "Core words",
+   "desc": "The most-used nouns: people, places, things, time and everyday objects"
+  },
+  {
+   "name": "Top verbs",
+   "group": "Core words",
+   "desc": "The most-used verbs, with the complements that go with them (听懂, 吃完, 回来)"
+  },
+  {
+   "name": "Top adjectives",
+   "group": "Core words",
+   "desc": "Adjectives work like verbs: 她很忙, no 是. Size, taste, weather, feelings and colors"
+  },
+  {
+   "name": "Top adverbs",
+   "group": "Core words",
+   "desc": "Not, also, all, still, already, only, again, very: the small words before the verb"
+  },
+  {
+   "name": "Top pronouns",
+   "group": "Core words",
+   "desc": "I, you, 您, 咱们, this, that, here, there, mine, whose: the whole useful set"
+  },
+  {
+   "name": "Top prepositions (coverbs)",
+   "group": "Core words",
+   "desc": "Chinese prepositions are verbs that come before the main verb (在, 给, 跟, 从, 把), plus location words"
+  },
+  {
+   "name": "Top conjunctions",
+   "group": "Core words",
+   "desc": "And, or, but, if, because … so, when, both … and"
+  },
+  {
+   "name": "Top interjections",
+   "group": "Core words",
+   "desc": "What people really say when surprised, cheering someone on, or giving up: 我的天, 加油, 算了"
+  },
+  {
+   "name": "Top words",
+   "group": "Core words",
+   "desc": "Question words, numbers to twenty, yes and no, days, seasons and times"
+  },
+  {
+   "name": "Top measure words",
+   "group": "Core words",
+   "desc": "More measure words beyond 个, 本, 杯: 次, 种, 份, 台, 部, 遍, 斤 and what they count"
+  },
+  {
+   "name": "Top particles",
+   "group": "Core words",
+   "desc": "的, 了, 吗, 呢, 吧, 啊, 着, 过, 得: the little words that carry grammar"
+  },
+  {
+   "name": "Compliments",
+   "group": "Conversation",
+   "desc": "Praising food, homes, skills and effort, and how Chinese speakers answer praise (哪里哪里)"
+  },
+  {
+   "name": "Flirting",
+   "group": "Conversation",
+   "desc": "Pretty, handsome, cute, fun: the words, the phrases built from them, asking someone out, and kind ways to say no"
   }
  ],
  "titles": [

@@ -275,6 +275,61 @@
       "name": "Spoken Brazilian Portuguese",
       "group": "Watch out",
       "desc": "Everyday spoken forms you will hear: tô, tá, pra, a gente, né, and pronouns before the verb"
+    },
+    {
+      "name": "Compliments",
+      "group": "Conversation",
+      "desc": "Kind things to say about food, work, skills and someone's home, and how Brazilians answer"
+    },
+    {
+      "name": "Flirting",
+      "group": "Conversation",
+      "desc": "Words people flirt with, phrases built from them, asking someone out, and kind ways to say no"
+    },
+    {
+      "name": "Top nouns",
+      "group": "Core words",
+      "desc": "The most-used nouns, with o or a"
+    },
+    {
+      "name": "Top verbs",
+      "group": "Core words",
+      "desc": "The most-used verbs, with the eu form and irregulars flagged"
+    },
+    {
+      "name": "Top adjectives",
+      "group": "Core words",
+      "desc": "The most-used describing words, with the feminine form"
+    },
+    {
+      "name": "Top adverbs",
+      "group": "Core words",
+      "desc": "Time, place, manner and degree: already, here, always, very"
+    },
+    {
+      "name": "Top pronouns",
+      "group": "Core words",
+      "desc": "I, you, mine, this, who, someone: the whole useful set, with você and o senhor"
+    },
+    {
+      "name": "Top prepositions",
+      "group": "Core words",
+      "desc": "de, em, para, por, com and the rest, with the contractions no, na, do, da, pelo"
+    },
+    {
+      "name": "Top conjunctions",
+      "group": "Core words",
+      "desc": "Joining words beyond e, mas, ou, porque: that, if, while, so, than"
+    },
+    {
+      "name": "Top interjections",
+      "group": "Core words",
+      "desc": "What Brazilians really exclaim: Nossa!, Ai!, Eita!, Ué!"
+    },
+    {
+      "name": "Top words",
+      "group": "Core words",
+      "desc": "Articles, yes and no, question words, numbers, days and months"
     }
   ],
   "titles": [

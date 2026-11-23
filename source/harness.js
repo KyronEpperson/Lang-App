@@ -399,7 +399,7 @@ else {
     const was=COURSE; let fb; try{ const x=Object.assign({},c,{id:'en-kx'}); delete x.TRAINER; COURSE=x; fb=!CF('script')&&!modeOk('pick')&&!modeOk('build')&&!CF('register')&&kouiTip('좋아요')===''&&answersFor('서')&&!answersFor('서').answers.has('suh'); } finally { COURSE=was; }
     out.noFallback=!!fb&&answersFor('서').answers.has('suh'); return out; }); await ctx.close(); Object.assign(mc,r); }
 // pack integrity for every course
-res.checks.packs=await (async()=>{ const {ctx,p}=await newCtx(null); const r=await p.evaluate(()=>{ const out={}; Object.values(COURSES).forEach(c=>{ const rt=courseRT(c); const raw=c.builtin?Object.keys(c.DECKS).filter(d=>d!==MYDECK):Object.keys(c.DECKS); const tg=[]; raw.forEach(d=>(c.DECKS[d]||[]).forEach(x=>tg.push(String(x[0]).toLowerCase().trim())));
+res.checks.packs=await (async()=>{ const {ctx,p}=await newCtx(null); const r=await p.evaluate(()=>{ const out={}; Object.values(COURSES).forEach(c=>{ const rt=courseRT(c); const raw=c.builtin?Object.keys(c.DECKS).filter(d=>d!==MYDECK):Object.keys(c.DECKS); const tg=[]; raw.forEach(d=>(c.DECKS[d]||[]).forEach(x=>tg.push(c.target==='de'?String(x[0]).trim():String(x[0]).toLowerCase().trim()) /* German: sie / Sie, ihr / Ihr are different words */));
     const grouped=raw.every(d=>(c.GROUPS||[]).some(g=>g[1].includes(d))&&(c.GROUPS||[]).filter(g=>g[1].includes(d)).length===1), tagged=raw.every(d=>Object.values(c.TAGS||{}).some(a=>a.includes(d)));
     const keys=new Set(); raw.forEach(d=>(c.DECKS[d]||[]).forEach(x=>keys.add(x[0]))); const L=c.LESSONS||[];
     const dupMeaning=raw.filter(d=>{ const m=(c.DECKS[d]||[]).map(x=>x[2]); return new Set(m).size!==m.length; });

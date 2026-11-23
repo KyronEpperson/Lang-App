@@ -270,6 +270,56 @@
       "name": "Traps for English speakers",
       "group": "Kind words and traps",
       "desc": "False friends, calques, and the koruna after five"
+    },
+    {
+      "name": "Flirting",
+      "group": "Kind words and traps",
+      "desc": "Pretty, cute, clever: the words, the phrases built from them, and how to ask someone out or say no kindly"
+    },
+    {
+      "name": "Top nouns",
+      "group": "Core words",
+      "desc": "The most-used nouns, with gender and the form that matters"
+    },
+    {
+      "name": "Top verbs",
+      "group": "Core words",
+      "desc": "The most-used verbs in the dictionary form, with the I-form and the aspect partner"
+    },
+    {
+      "name": "Top adjectives",
+      "group": "Core words",
+      "desc": "The most-used adjectives, with the feminine and neuter forms"
+    },
+    {
+      "name": "Top adverbs",
+      "group": "Core words",
+      "desc": "Time, place, manner and degree: now, here, often, very"
+    },
+    {
+      "name": "Top pronouns",
+      "group": "Core words",
+      "desc": "I, me, my, this, who, nobody: the whole useful set"
+    },
+    {
+      "name": "Top prepositions",
+      "group": "Core words",
+      "desc": "In, on, to, from, with, and the case each one takes"
+    },
+    {
+      "name": "Top conjunctions",
+      "group": "Core words",
+      "desc": "And, but, because, that, if, when"
+    },
+    {
+      "name": "Top interjections",
+      "group": "Core words",
+      "desc": "What Czechs really say: aha, páni, jejda, fuj, ty jo"
+    },
+    {
+      "name": "Top words",
+      "group": "Core words",
+      "desc": "Question words, numbers to a thousand, ordinals, and the little particles"
     }
   ],
   "titles": [

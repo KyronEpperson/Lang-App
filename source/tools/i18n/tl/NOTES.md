@@ -31,7 +31,7 @@ Author: not a native speaker. Everything here needs a Tagalog speaker's check (�
 - **d / r:** *rin, rito, raw* after a vowel (or w / y), *din, dito, daw* after a consonant. The lint checks *din / rin / dito / rito*.
 - **Spelling:** standard KWF spelling, no accent marks and no apostrophe contractions (*ano'ng*, *'yan* are avoided). Loans are written as Manila apps write them: *settings, email, quiz, card*. *Kumusta* is used, not *kamusta*.
 - **Plurals:** *mga* + noun for unnumbered plurals (*Mga deck, Mga aralin, Mga phrase ko*). It is dropped after a number.
-- **Grammar terms:** English, from the closed list in `docs/profiles/tl-ko.md` §3.4: *verb, noun, stem, dictionary form, ending, particle, counter, question word, polite, casual, honorific, 요-form, romanization, block, vowel, consonant, final, sound change, past, present, pattern, irregular*. They are used as nouns inside Filipino (*ang verb*, *polite na present*). No Filipino school terms (*pandiwa, pangngalan*).
+- **Grammar terms:** English, from the closed list in `docs/profiles/tl-ko.md` §3.4: *verb, noun, stem, dictionary form, ending, particle, counter, question word, polite, casual, honorific, 요-form, romanization, block, vowel, consonant, final, sound change, past, present*. The interface adds three tool words that the profile does not use as terms: *pattern, irregular, grammar*. They are used as nouns inside Filipino (*ang verb*, *polite na present*). No Filipino school terms (*pandiwa, pangngalan*).
 - **Quiz mode words** are used the same everywhere:
   - Read = *Basa* / *basa*; Listen = *Pakinig* / *pakinig*; Recall = *Alala* / *alala*; Type = *I-type*;
   - Mixed (the quiz mode) = *Halo-halo*; the Mix pool (5 at a time) = *Halo*;
@@ -40,7 +40,8 @@ Author: not a native speaker. Everything here needs a Tagalog speaker's check (�
 ## 2. Loanwords kept in English (closed list)
 
 Tech and app terms:
-- app, account, email, Sign in / Sign out (*mag-sign in*), sync, backup, export / import, CSV, TSV, PNG, KB, file, link, code, password, browser, device, storage, site data, online / offline, inbox, spam, admin, Developer, dev, bug, Feedback, Privacy, Analytics, ads, cookies, page view, user, post, page, Settings, tour, preview, view, screen, home screen, keyboard, arrow key, Enter, Esc, Ctrl+K, button, text, track, tab, 3D effect, sound effect, Audio, Mode, row, item, tiles, forecast, calendar, phone, laptop, level, normal, native (audio speed), on / off.
+- app, account, email, Sign in / Sign out (*mag-sign in*), sync, backup, export / import, CSV, TSV, PNG, KB, file, link, code, 6-digit code, password, browser, device, storage, site data, database, online / offline, inbox, spam, admin, Developer, dev, bug, error, crash (*nag-crash*), Feedback, Privacy, Analytics, ads, cookies, page view, profile, user, post, page, website, board, Settings, setup, default, tour, preview, view, screen, home screen, menu, UI, keyboard, arrow key, Enter, Esc, Ctrl+K, button, text, track, tab, queue (*review queue*), limit, update, 3D effect, sound effect, Audio, media (*#media*), Mode, row, item, tiles, forecast, calendar, phone, laptop, level, normal, native (audio speed), min, on / off, plum, amber.
+- English verbs used with *i- / mag- / na-*: tap, swipe, save, share, type, delete, review, check, reset, export, import, paste, play, quiz, unlock, lock (*naka-lock*), sync, sign in / out, edit, blur, shuffle, drill, conjugate, refresh, reload, load (*Naglo-load*), undo, pause (*Naka-pause*), enable, download, post, right-click, suspend.
 
 Learning terms:
 - card / flashcard, deck, quiz, exam, test, drill, mini drill, blitz, round, session, Review (tab, noun and verb *i-review*), streak, streak shield, streak card, recap card, Level / Lv, XP, combo, personal best, badge, hint, score, interval, leech, suspend (*i-suspend*), role-play, dictation, Register, spaced repetition, phrase (*Mga phrase ko*), pattern, grammar, conjugator, index (*Index ng grammar*), date (*makipag-date*), average, Pro, Sensei, K-drama.
@@ -113,7 +114,7 @@ Answer "OK" or write the natural version.
 | 29 | Shuffle | I-shuffle | Or *Paghaluin*? |
 | 30 | Hand-tuned for speakers of your language | Inihanda nang mabuti para sa mga nagsasalita ng wika mo | Natural? Shorter version? |
 
-Also worth a glance: *Isama* (Merge in), *Tingnan* (Browse), *himayin* (break it down), *gayahin ×3* (shadow), *Ayusin ang mga salita* (Put the words in order), *Punan ang patlang* (Fill the gap), *Panimulang Koreano* (Korean starter), *Kusang baligtad* (Auto-flip), *Nakakausap sa loob ng 90 araw* (Conversational in 90 days), *Mabilisang aksyon* (quick actions), and the day abbreviations *Lin Lun Mar Miy Huw Biy Sab*.
+Also worth a glance: the day abbreviations are 3 letters (*Lin Lun Mar Miy Huw Biy Sab*) where ceb and es use 2 (is *Li Lu Ma Mi Hu Bi Sa* better for the narrow chart?); *Huling isa ·* (Last one ·); *Isama* (Merge in), *Tingnan* (Browse), *himayin* (break it down), *gayahin ×3* (shadow), *Ayusin ang mga salita* (Put the words in order), *Punan ang patlang* (Fill the gap), *Panimulang Koreano* (Korean starter), *Kusang baligtad* (Auto-flip), *Nakakausap sa loob ng 90 araw* (Conversational in 90 days), *Mabilisang aksyon* (quick actions).
 
 ## 5. For the lead (src/app.html, build, tests; I changed none of these)
 

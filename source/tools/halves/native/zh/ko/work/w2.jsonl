@@ -1,0 +1,756 @@
+{"f": "cards", "id": "ko.c0493", "k": "meaning", "src": "That was fun", "tgt": "今天玩得真开心"}
+{"f": "cards", "id": "ko.c0493", "k": "note", "src": "Say it at the end. Polite: 재밌었어요.", "tgt": "分别时说。礼貌体：재밌었어요。"}
+{"f": "cards", "id": "ko.c0494", "k": "meaning", "src": "Let's hang out again", "tgt": "下次再一起玩吧"}
+{"f": "cards", "id": "ko.c0494", "k": "note", "src": "또 = again.", "tgt": "또 = 再、又。"}
+{"f": "cards", "id": "ko.c0495", "k": "meaning", "src": "Let's meet again next time", "tgt": "下次再见吧"}
+{"f": "cards", "id": "ko.c0495", "k": "note", "src": "담에 = 다음에. 보자 = let's see (each other).", "tgt": "담에 = 다음에（下次）。보자 = 见面吧。"}
+{"f": "cards", "id": "ko.c0496", "k": "meaning", "src": "my favorite (member)", "tgt": "本命（最喜欢的成员）"}
+{"f": "cards", "id": "ko.c0496", "k": "note", "src": "최애가 누구예요? = who's your bias? 차애 = second favorite.", "tgt": "최애가 누구예요? = 你本命是谁？차애 = 第二喜欢的成员。"}
+{"f": "cards", "id": "ko.c0497", "k": "meaning", "src": "being a fan / fangirling", "tgt": "追星 / 饭圈活动"}
+{"f": "cards", "id": "ko.c0497", "k": "note", "src": "From 오타쿠. 덕질해요 = I'm into fandom stuff.", "tgt": "来自 오타쿠（日语“御宅”）。덕질해요 = 我在追星。"}
+{"f": "cards", "id": "ko.c0498", "k": "meaning", "src": "I became a fan", "tgt": "我入坑了"}
+{"f": "cards", "id": "ko.c0498", "k": "note", "src": "입덕 = entering the fandom. 탈덕 = leaving it.", "tgt": "입덕 = 入坑，成为粉丝。탈덕 = 脱坑、脱粉。"}
+{"f": "cards", "id": "ko.c0499", "k": "meaning", "src": "comeback (new release)", "tgt": "回归（发新专辑）"}
+{"f": "cards", "id": "ko.c0499", "k": "note", "src": "Every new album is a 컴백. 컴백 언제예요?", "tgt": "每次发新专辑都叫 컴백。컴백 언제예요? = 什么时候回归？"}
+{"f": "cards", "id": "ko.c0500", "k": "meaning", "src": "stage / performance", "tgt": "舞台 / 表演"}
+{"f": "cards", "id": "ko.c0500", "k": "note", "src": "무대 진짜 잘해요 = they perform really well.", "tgt": "무대 진짜 잘해요 = 他们舞台表现真的很强。这个词就是汉字词“舞台”。"}
+{"f": "cards", "id": "ko.c0501", "k": "meaning", "src": "I'm going to a concert", "tgt": "我去看演唱会"}
+{"f": "cards", "id": "ko.c0501", "k": "note", "src": "콘서트 티켓팅 = ticketing, a blood sport.", "tgt": "콘서트 티켓팅 = 演唱会抢票，堪称一场厮杀。"}
+{"f": "cards", "id": "ko.c0502", "k": "meaning", "src": "light stick", "tgt": "应援棒（荧光棒）"}
+{"f": "cards", "id": "ko.c0502", "k": "note", "src": "Each group has one. 응원 = cheering.", "tgt": "每个团都有自己的应援棒。응원 = 应援、加油助威。"}
+{"f": "cards", "id": "ko.c0503", "k": "meaning", "src": "singing along as a crowd", "tgt": "全场大合唱"}
+{"f": "cards", "id": "ko.c0503", "k": "note", "src": "떼 = flock. The crowd sings the whole song.", "tgt": "떼 = 一群。观众跟着唱完整首歌。"}
+{"f": "cards", "id": "ko.c0504", "k": "meaning", "src": "I'm a fan", "tgt": "我是粉丝"}
+{"f": "cards", "id": "ko.c0504", "k": "note", "src": "저 팬이에요 = I'm a fan (of you / them).", "tgt": "저 팬이에요 = 我是你（们）的粉丝。"}
+{"f": "cards", "id": "ko.c0505", "k": "meaning", "src": "Please sign this", "tgt": "请给我签个名"}
+{"f": "cards", "id": "ko.c0505", "k": "note", "src": "사인 = autograph.", "tgt": "사인 = 签名（来自英语 sign）。"}
+{"f": "cards", "id": "ko.c0506", "k": "meaning", "src": "The song is good", "tgt": "这歌好听"}
+{"f": "cards", "id": "ko.c0506", "k": "note", "src": "이 노래 진짜 좋아요 = this song is so good.", "tgt": "이 노래 진짜 좋아요 = 这首歌真好听。"}
+{"f": "cards", "id": "ko.c0507", "k": "meaning", "src": "The lyrics are good", "tgt": "歌词写得好"}
+{"f": "cards", "id": "ko.c0507", "k": "note", "src": "가사 = lyrics.", "tgt": "가사 = 歌词。"}
+{"f": "cards", "id": "ko.c0508", "k": "meaning", "src": "choreography", "tgt": "编舞 / 舞蹈动作"}
+{"f": "cards", "id": "ko.c0508", "k": "note", "src": "안무 외웠어요 = I memorized the choreo.", "tgt": "안무 외웠어요 = 我把舞记下来了。"}
+{"f": "cards", "id": "ko.c0509", "k": "meaning", "src": "debut", "tgt": "出道"}
+{"f": "cards", "id": "ko.c0509", "k": "note", "src": "몇 년에 데뷔했어요? = what year did they debut?", "tgt": "몇 년에 데뷔했어요? = 他们哪年出道的？"}
+{"f": "cards", "id": "ko.c0510", "k": "meaning", "src": "fan meeting", "tgt": "粉丝见面会"}
+{"f": "cards", "id": "ko.c0510", "k": "note", "src": "팬싸 = fan sign event.", "tgt": "팬싸 = 签售会。"}
+{"f": "cards", "id": "ko.c0511", "k": "meaning", "src": "fancam", "tgt": "直拍（饭拍）"}
+{"f": "cards", "id": "ko.c0511", "k": "note", "src": "직접 + 캠. Member-focused concert video.", "tgt": "직접 + 캠（直接 + camera）。以某一个成员为焦点拍的演出视频。"}
+{"f": "cards", "id": "ko.c0512", "k": "meaning", "src": "Instagram story", "tgt": "Instagram 快拍"}
+{"f": "cards", "id": "ko.c0512", "k": "note", "src": "스토리 봤어? = did you see my story?", "tgt": "스토리 봤어? = 看到我发的快拍了吗？"}
+{"f": "cards", "id": "ko.c0513", "k": "meaning", "src": "Hit like for me", "tgt": "给我点个赞"}
+{"f": "cards", "id": "ko.c0513", "k": "note", "src": "누르다 = to press.", "tgt": "누르다 = 按、点。"}
+{"f": "cards", "id": "ko.c0514", "k": "meaning", "src": "I followed you", "tgt": "我关注你了"}
+{"f": "cards", "id": "ko.c0514", "k": "note", "src": "맞팔 = follow back. 맞팔해요 = let's follow each other.", "tgt": "맞팔 = 回关、互关。맞팔해요 = 我们互关吧。"}
+{"f": "cards", "id": "ko.c0515", "k": "meaning", "src": "meme image / reaction pic", "tgt": "表情包 / 梗图"}
+{"f": "cards", "id": "ko.c0515", "k": "note", "src": "짤 보내 줘 = send me the meme.", "tgt": "짤 보내 줘 = 发个表情包给我。"}
+{"f": "cards", "id": "ko.c0516", "k": "meaning", "src": "sudden awkward silence", "tgt": "突然冷场"}
+{"f": "cards", "id": "ko.c0516", "k": "note", "src": "갑자기 분위기 싸해짐. When a joke dies.", "tgt": "갑자기 분위기 싸해짐 的缩写（气氛突然变冷）。笑话没人笑的时候用。"}
+{"f": "cards", "id": "ko.c0517", "k": "meaning", "src": "too much info / random fact", "tgt": "信息量过多 / 冷知识"}
+{"f": "cards", "id": "ko.c0517", "k": "note", "src": "Used for cute oversharing, not gross stuff.", "tgt": "用来可爱地分享一些没人问的小事，不用于恶心的内容。"}
+{"f": "cards", "id": "ko.c0518", "k": "meaning", "src": "effortlessly styled", "tgt": "看似不经意的精致"}
+{"f": "cards", "id": "ko.c0518", "k": "note", "src": "꾸민 듯 안 꾸민 듯. The 'I woke up like this' look.", "tgt": "꾸민 듯 안 꾸민 듯 的缩写（像打扮了又像没打扮）。就是“我起床就这样”的感觉。"}
+{"f": "cards", "id": "ko.c0519", "k": "meaning", "src": "insanely delicious", "tgt": "巨好吃"}
+{"f": "cards", "id": "ko.c0519", "k": "note", "src": "Very casual slang with a vulgar origin: only with close friends. JMT in texts.", "tgt": "非常随便的俚语，来源粗俗：只跟很熟的朋友说。打字时写 JMT。"}
+{"f": "cards", "id": "ko.c0520", "k": "meaning", "src": "agreed / facts", "tgt": "认同 / 确实"}
+{"f": "cards", "id": "ko.c0520", "k": "note", "src": "Text shorthand for 인정.", "tgt": "인정 的打字缩写。"}
+{"f": "cards", "id": "ko.c0521", "k": "meaning", "src": "for real", "tgt": "说真的"}
+{"f": "cards", "id": "ko.c0521", "k": "note", "src": "Text shorthand for 리얼.", "tgt": "리얼（来自英语 real，“真的”）的打字缩写。"}
+{"f": "cards", "id": "ko.c0522", "k": "meaning", "src": "super extrovert / popular", "tgt": "超级社牛 / 人气王"}
+{"f": "cards", "id": "ko.c0522", "k": "note", "src": "핵 = nuke prefix. 아싸 = outsider / introvert.", "tgt": "핵 = “核”，核弹级的前缀。아싸 = 圈外人、社恐。"}
+{"f": "cards", "id": "ko.c0523", "k": "meaning", "src": "small but certain happiness", "tgt": "小确幸"}
+{"f": "cards", "id": "ko.c0523", "k": "note", "src": "소소하지만 확실한 행복. Café, nap, rain.", "tgt": "소소하지만 확실한 행복 的缩写（小小的但确定的幸福）。咖啡、午觉、下雨天。"}
+{"f": "cards", "id": "ko.c0524", "k": "meaning", "src": "studying hard", "tgt": "努力学习"}
+{"f": "cards", "id": "ko.c0524", "k": "note", "src": "열심히 공부. 열공 중 = studying hard right now.", "tgt": "열심히 공부 的缩写。열공 중 = 正在努力学习。"}
+{"f": "cards", "id": "ko.c0525", "k": "meaning", "src": "mental breakdown", "tgt": "心态崩了"}
+{"f": "cards", "id": "ko.c0525", "k": "note", "src": "멘탈 붕괴. 멘붕 왔어 = I'm losing it.", "tgt": "멘탈 붕괴 的缩写。멘붕 왔어 = 我崩溃了。"}
+{"f": "cards", "id": "ko.c0526", "k": "meaning", "src": "I burst out laughing", "tgt": "笑喷了"}
+{"f": "cards", "id": "ko.c0526", "k": "note", "src": "빵 = pop sound.", "tgt": "빵 = “嘭”的一声。"}
+{"f": "cards", "id": "ko.c0527", "k": "meaning", "src": "Let's take a selfie", "tgt": "来自拍吧"}
+{"f": "cards", "id": "ko.c0527", "k": "note", "src": "셀카 = selfie. 찍다 = to take (photo).", "tgt": "셀카 = 自拍。찍다 = 拍（照）。"}
+{"f": "cards", "id": "ko.c0528", "k": "meaning", "src": "What are we?", "tgt": "我们算什么关系？"}
+{"f": "cards", "id": "ko.c0528", "k": "note", "src": "사이 = relationship between people. The DTR line.", "tgt": "사이 = 人和人之间的关系。确认关系时说的话。"}
+{"f": "cards", "id": "ko.c0529", "k": "meaning", "src": "I want to date seriously", "tgt": "我想认真交往"}
+{"f": "cards", "id": "ko.c0529", "k": "note", "src": "진지하다 = serious.", "tgt": "진지하다 = 认真。"}
+{"f": "cards", "id": "ko.c0530", "k": "meaning", "src": "You're really warm-hearted", "tgt": "你真的很体贴"}
+{"f": "cards", "id": "ko.c0530", "k": "note", "src": "다정하다 = affectionate, kind. Compliment beyond looks.", "tgt": "다정하다 = 温柔、体贴。夸的是性格，不是长相。"}
+{"f": "cards", "id": "ko.c0531", "k": "meaning", "src": "I like your laugh", "tgt": "我喜欢你的笑声"}
+{"f": "cards", "id": "ko.c0531", "k": "note", "src": "웃음소리 = laughing sound.", "tgt": "웃음소리 = 笑声。"}
+{"f": "cards", "id": "ko.c0532", "k": "meaning", "src": "I feel comfortable with you", "tgt": "跟你在一起很自在"}
+{"f": "cards", "id": "ko.c0532", "k": "note", "src": "편하다 = comfortable. High praise in Korean dating.", "tgt": "편하다 = 舒服、自在。在韩国谈恋爱，这是很高的评价。"}
+{"f": "cards", "id": "ko.c0533", "k": "meaning", "src": "Sorry, it was my fault", "tgt": "对不起，是我错了"}
+{"f": "cards", "id": "ko.c0533", "k": "note", "src": "잘못하다 = to do wrong. Own it.", "tgt": "잘못하다 = 做错。主动认错。"}
+{"f": "cards", "id": "ko.c0534", "k": "meaning", "src": "Don't be mad anymore", "tgt": "别生气了"}
+{"f": "cards", "id": "ko.c0534", "k": "note", "src": "풀다 = to untie / release. 화 풀어 줘 softer.", "tgt": "풀다 = 解开、消（气）。화 풀어 줘 语气更软。"}
+{"f": "cards", "id": "ko.c0535", "k": "meaning", "src": "Don't worry, you have me", "tgt": "别担心，有我呢"}
+{"f": "cards", "id": "ko.c0535", "k": "note", "src": "잖아 = 'you know'. Reassurance.", "tgt": "잖아 ≈ “你也知道的”。用来安慰人。"}
+{"f": "cards", "id": "ko.c0536", "k": "meaning", "src": "How was the date today?", "tgt": "今天约会怎么样？"}
+{"f": "cards", "id": "ko.c0536", "k": "note", "src": "어땠어 = how was it.", "tgt": "어땠어 = 怎么样（问过去的事）。"}
+{"f": "cards", "id": "ko.c0537", "k": "meaning", "src": "Let's take a photo together", "tgt": "我们一起拍张照吧"}
+{"f": "cards", "id": "ko.c0537", "k": "note", "src": "Couple photo = 커플 사진.", "tgt": "情侣照 = 커플 사진。"}
+{"f": "cards", "id": "ko.c0538", "k": "meaning", "src": "Happy 100 days", "tgt": "恋爱 100 天快乐"}
+{"f": "cards", "id": "ko.c0538", "k": "note", "src": "Couples celebrate 100 days. Big deal.", "tgt": "情侣会庆祝在一起 100 天，很隆重。"}
+{"f": "cards", "id": "ko.c0539", "k": "meaning", "src": "Can I hold your hand?", "tgt": "可以牵你的手吗？"}
+{"f": "cards", "id": "ko.c0539", "k": "note", "src": "잡다 = to hold. 아/어도 돼 = may I.", "tgt": "잡다 = 抓、握。아/어도 돼 = 可以……吗。"}
+{"f": "cards", "id": "ko.c0540", "k": "meaning", "src": "Hug me", "tgt": "抱抱我"}
+{"f": "cards", "id": "ko.c0540", "k": "note", "src": "안다 = to hug. 안아 줄게 = I'll hug you.", "tgt": "안다 = 抱。안아 줄게 = 我来抱你。"}
+{"f": "cards", "id": "ko.c0541", "k": "meaning", "src": "I miss you to death", "tgt": "想你想死了"}
+{"f": "cards", "id": "ko.c0541", "k": "note", "src": "죽겠어 = 'I'll die' intensifier. Casual, dramatic.", "tgt": "죽겠어 = “要死了”，加强语气，跟中文“想死你了”一样。半语，很夸张。"}
+{"f": "cards", "id": "ko.c0542", "k": "meaning", "src": "I have something to tell you", "tgt": "我有话要跟你说"}
+{"f": "cards", "id": "ko.c0542", "k": "note", "src": "Sets up a serious talk. 한테 = to (person).", "tgt": "用来引出严肃的话题。한테 = 对（某人）、给（某人）。"}
+{"f": "cards", "id": "ko.c0543", "k": "meaning", "src": "I think we're a good match", "tgt": "我觉得我们很合得来"}
+{"f": "cards", "id": "ko.c0543", "k": "note", "src": "맞다 = to fit / match.", "tgt": "맞다 = 合、相配。"}
+{"f": "cards", "id": "ko.c0544", "k": "meaning", "src": "What time is the meeting?", "tgt": "会议几点开始？"}
+{"f": "cards", "id": "ko.c0544", "k": "note", "src": "회의 = meeting. 회의실 = meeting room.", "tgt": "회의（会议）= 会议。회의실 = 会议室。"}
+{"f": "cards", "id": "ko.c0545", "k": "meaning", "src": "When is the deadline?", "tgt": "截止日期是什么时候？"}
+{"f": "cards", "id": "ko.c0545", "k": "note", "src": "마감 = deadline. 마감 지켰어요 = I made the deadline.", "tgt": "마감 = 截止期限。마감 지켰어요 = 我按时交了。"}
+{"f": "cards", "id": "ko.c0546", "k": "meaning", "src": "I'll check and get back to you", "tgt": "我确认一下再回复"}
+{"f": "cards", "id": "ko.c0546", "k": "note", "src": "Formal. The email reply you'll send most.", "tgt": "正式体。回工作邮件最常用的一句。"}
+{"f": "cards", "id": "ko.c0547", "k": "meaning", "src": "Do you have a moment?", "tgt": "现在方便吗？"}
+{"f": "cards", "id": "ko.c0547", "k": "note", "src": "To a colleague or senior. 잠깐 = briefly.", "tgt": "对同事或上级说。잠깐 = 一会儿、片刻。"}
+{"f": "cards", "id": "ko.c0548", "k": "meaning", "src": "Could you help me with this?", "tgt": "能帮我一下这个吗？"}
+{"f": "cards", "id": "ko.c0548", "k": "note", "src": "도와주시다 honorific + 수 있어요 = could you.", "tgt": "도와주시다（尊敬形）+ 수 있어요 = 能不能……"}
+{"f": "cards", "id": "ko.c0549", "k": "meaning", "src": "I'll head out first", "tgt": "我先下班了"}
+{"f": "cards", "id": "ko.c0549", "k": "note", "src": "퇴근 = leaving work. Say it to the room, always.", "tgt": "퇴근（退勤）= 下班。走的时候一定要对办公室里的人说一声。"}
+{"f": "cards", "id": "ko.c0550", "k": "meaning", "src": "Good work today (formal)", "tgt": "辛苦了（正式）"}
+{"f": "cards", "id": "ko.c0550", "k": "note", "src": "To seniors when leaving. 수고하세요 to those still working.", "tgt": "下班时对上级说。对还在工作的人说 수고하세요。意思就是“辛苦”。"}
+{"f": "cards", "id": "ko.c0551", "k": "meaning", "src": "There's a team dinner", "tgt": "有部门聚餐"}
+{"f": "cards", "id": "ko.c0551", "k": "note", "src": "회식 = company dinner. Attendance is… encouraged.", "tgt": "회식（会食）= 公司聚餐。至于参加……是“被鼓励”的。"}
+{"f": "cards", "id": "ko.c0552", "k": "meaning", "src": "I sent the report", "tgt": "报告我发过去了"}
+{"f": "cards", "id": "ko.c0552", "k": "note", "src": "보고서 = report. 보내다 = to send.", "tgt": "보고서 = 报告。보내다 = 发送。"}
+{"f": "cards", "id": "ko.c0553", "k": "meaning", "src": "What should we have for lunch?", "tgt": "午饭吃什么？"}
+{"f": "cards", "id": "ko.c0553", "k": "note", "src": "The 11:30 question in every office.", "tgt": "每个办公室上午 11:30 的固定问题。"}
+{"f": "cards", "id": "ko.c0554", "k": "meaning", "src": "I have to work overtime", "tgt": "我得加班"}
+{"f": "cards", "id": "ko.c0554", "k": "note", "src": "야근 = night work. 아/어야 돼요 = have to.", "tgt": "야근（夜勤）= 晚上加班。아/어야 돼요 = 得、必须。"}
+{"f": "cards", "id": "ko.c0555", "k": "meaning", "src": "I applied for leave", "tgt": "我请了休假"}
+{"f": "cards", "id": "ko.c0555", "k": "note", "src": "휴가 = vacation. 신청하다 = apply.", "tgt": "휴가（休暇，中文说“休假”）= 休假。신청하다 = 申请。"}
+{"f": "cards", "id": "ko.c0556", "k": "meaning", "src": "Did you see my email?", "tgt": "看到我的邮件了吗？"}
+{"f": "cards", "id": "ko.c0556", "k": "note", "src": "Honorific past 하셨어요.", "tgt": "하셨어요 是尊敬形的过去时。"}
+{"f": "cards", "id": "ko.c0557", "k": "meaning", "src": "Thank you for the feedback", "tgt": "谢谢你的反馈"}
+{"f": "cards", "id": "ko.c0557", "k": "note", "src": "주셔서 = for giving (honorific).", "tgt": "주셔서 = 因为（对方）给了我……（尊敬形）。"}
+{"f": "cards", "id": "ko.c0558", "k": "meaning", "src": "I'm presenting next week", "tgt": "我下周做报告"}
+{"f": "cards", "id": "ko.c0558", "k": "note", "src": "발표 = presentation.", "tgt": "발표 = 做报告、演示，不是“发表文章”。"}
+{"f": "cards", "id": "ko.c0559", "k": "meaning", "src": "Looking forward to working with you", "tgt": "请多关照（工作）"}
+{"f": "cards", "id": "ko.c0559", "k": "note", "src": "Closes work emails and first meetings.", "tgt": "用在工作邮件结尾和初次见面时。"}
+{"f": "cards", "id": "ko.c0560", "k": "meaning", "src": "How have you been?", "tgt": "最近过得好吗？"}
+{"f": "cards", "id": "ko.c0560", "k": "note", "src": "Standard greeting for someone you haven't seen in a while.", "tgt": "好久不见时的标准问候。"}
+{"f": "cards", "id": "ko.c0561", "k": "meaning", "src": "I've been well", "tgt": "我过得挺好"}
+{"f": "cards", "id": "ko.c0561", "k": "note", "src": "Add 덕분에 (thanks to you) to sound extra polite.", "tgt": "加上 덕분에（托你的福）显得更礼貌。"}
+{"f": "cards", "id": "ko.c0562", "k": "meaning", "src": "How are things lately?", "tgt": "最近怎么样？"}
+{"f": "cards", "id": "ko.c0562", "k": "note", "src": "요즘 = these days. 어때요 = how is it.", "tgt": "요즘 = 最近。어때요 = 怎么样。"}
+{"f": "cards", "id": "ko.c0563", "k": "meaning", "src": "So-so", "tgt": "还行吧"}
+{"f": "cards", "id": "ko.c0563", "k": "note", "src": "Lit. 'it's just like that'. Very common honest answer.", "tgt": "字面意思“就那样”。很常见的实在回答。"}
+{"f": "cards", "id": "ko.c0564", "k": "meaning", "src": "Nice weather, isn't it", "tgt": "天气真好啊"}
+{"f": "cards", "id": "ko.c0564", "k": "note", "src": "네요 ending = noticing something out loud. 날씨가 춥네요 = it's cold, huh.", "tgt": "네요 词尾 = 当场发现、随口感叹。날씨가 춥네요 = 天好冷啊。"}
+{"f": "cards", "id": "ko.c0565", "k": "meaning", "src": "What are you doing this weekend?", "tgt": "周末干什么？"}
+{"f": "cards", "id": "ko.c0565", "k": "note", "src": "주말 = weekend, 에 = on.", "tgt": "주말 = 周末，에 = 在（某个时间）。"}
+{"f": "cards", "id": "ko.c0566", "k": "meaning", "src": "Me too", "tgt": "我也是"}
+{"f": "cards", "id": "ko.c0566", "k": "note", "src": "Casual: 나도.", "tgt": "半语：나도。"}
+{"f": "cards", "id": "ko.c0567", "k": "meaning", "src": "Really?", "tgt": "真的吗？"}
+{"f": "cards", "id": "ko.c0567", "k": "note", "src": "Softer than 진짜요?. Both fine.", "tgt": "比 진짜요? 柔和一点。两个都可以用。"}
+{"f": "cards", "id": "ko.c0568", "k": "meaning", "src": "See you again", "tgt": "回头见"}
+{"f": "cards", "id": "ko.c0568", "k": "note", "src": "또 = again. 내일 봐요 = see you tomorrow.", "tgt": "또 = 再。내일 봐요 = 明天见。"}
+{"f": "cards", "id": "ko.c0569", "k": "meaning", "src": "Goodbye (to someone leaving)", "tgt": "再见（对离开的人）"}
+{"f": "cards", "id": "ko.c0569", "k": "note", "src": "가세요 = go well. Say it when THEY are leaving.", "tgt": "가세요 = 走好，接近中文的“慢走”。对方离开时说。"}
+{"f": "cards", "id": "ko.c0570", "k": "meaning", "src": "Goodbye (to someone staying)", "tgt": "再见（对留下的人）"}
+{"f": "cards", "id": "ko.c0570", "k": "note", "src": "계세요 = stay well. Say it when YOU are leaving.", "tgt": "계세요 = 请留步、在这儿好好待着。你离开时说。"}
+{"f": "cards", "id": "ko.c0571", "k": "meaning", "src": "I'll be in touch", "tgt": "我会联系你的"}
+{"f": "cards", "id": "ko.c0571", "k": "note", "src": "ㄹ게요 = I'll (promise). 연락 = contact.", "tgt": "ㄹ게요 = 我会……（承诺）。연락（联络）= 联系。"}
+{"f": "cards", "id": "ko.c0572", "k": "meaning", "src": "water", "tgt": "水"}
+{"f": "cards", "id": "ko.c0572", "k": "note", "src": "물 주세요 = water, please.", "tgt": "물 주세요 = 请给我水。"}
+{"f": "cards", "id": "ko.c0573", "k": "meaning", "src": "rice / a meal", "tgt": "米饭 / 饭"}
+{"f": "cards", "id": "ko.c0573", "k": "note", "src": "밥 먹자 = let's eat.", "tgt": "밥 먹자 = 吃饭吧。跟中文的“饭”一样，也指一顿饭。"}
+{"f": "cards", "id": "ko.c0574", "k": "meaning", "src": "meat", "tgt": "肉"}
+{"f": "cards", "id": "ko.c0574", "k": "note", "src": "소고기 beef, 돼지고기 pork, 닭고기 chicken.", "tgt": "소고기 牛肉，돼지고기 猪肉，닭고기 鸡肉。"}
+{"f": "cards", "id": "ko.c0575", "k": "meaning", "src": "Menu, please", "tgt": "请给我菜单"}
+{"f": "cards", "id": "ko.c0575", "k": "note", "src": "Or just raise a hand and say 저기요 (excuse me).", "tgt": "也可以直接举手说 저기요（叫服务员：你好 / 不好意思）。"}
+{"f": "cards", "id": "ko.c0576", "k": "meaning", "src": "Not spicy, please", "tgt": "请做得不辣"}
+{"f": "cards", "id": "ko.c0576", "k": "note", "src": "맵다 = spicy. 안 매워요? = is it not spicy?", "tgt": "맵다 = 辣。안 매워요? = 不辣吗？"}
+{"f": "cards", "id": "ko.c0577", "k": "meaning", "src": "It's delicious", "tgt": "很好吃"}
+{"f": "cards", "id": "ko.c0577", "k": "note", "src": "Say it to the owner on the way out.", "tgt": "离开时对老板说一句。"}
+{"f": "cards", "id": "ko.c0578", "k": "meaning", "src": "I'm hungry", "tgt": "我饿了"}
+{"f": "cards", "id": "ko.c0578", "k": "note", "src": "배불러요 (baebulleoyo) = I'm full.", "tgt": "배불러요（baebulleoyo）= 我吃饱了。"}
+{"f": "cards", "id": "ko.c0579", "k": "meaning", "src": "One coffee", "tgt": "一杯咖啡"}
+{"f": "cards", "id": "ko.c0579", "k": "note", "src": "잔 = cup counter. 두 잔 = two cups.", "tgt": "잔 = 杯（量词）。두 잔 = 两杯。顺序是“名词 + 数字 + 量词”。"}
+{"f": "cards", "id": "ko.c0580", "k": "meaning", "src": "Check, please", "tgt": "买单"}
+{"f": "cards", "id": "ko.c0580", "k": "note", "src": "You usually pay at the counter.", "tgt": "一般到柜台结账。"}
+{"f": "cards", "id": "ko.c0581", "k": "meaning", "src": "To go, please", "tgt": "请帮我打包"}
+{"f": "cards", "id": "ko.c0581", "k": "note", "src": "포장 = packaging.", "tgt": "포장（包装）在饭馆里是“打包带走”。"}
+{"f": "cards", "id": "ko.c0582", "k": "meaning", "src": "Cheers!", "tgt": "干杯！"}
+{"f": "cards", "id": "ko.c0582", "k": "note", "src": "Clink glasses; pour for others, not yourself.", "tgt": "碰杯；给别人倒酒，不给自己倒。"}
+{"f": "cards", "id": "ko.c0583", "k": "meaning", "src": "(Said after eating)", "tgt": "（饭后说的话）"}
+{"f": "cards", "id": "ko.c0583", "k": "note", "src": "Lit. 'I ate well.' Pairs with 잘 먹겠습니다.", "tgt": "字面意思“我吃好了”。跟 잘 먹겠습니다 配对使用。"}
+{"f": "cards", "id": "ko.c0584", "k": "meaning", "src": "here / over there", "tgt": "这里 / 那边"}
+{"f": "cards", "id": "ko.c0584", "k": "note", "src": "거기 (geogi) = there (near you).", "tgt": "거기（geogi）= 那里（离你近的地方）。"}
+{"f": "cards", "id": "ko.c0585", "k": "meaning", "src": "left", "tgt": "左边"}
+{"f": "cards", "id": "ko.c0585", "k": "note", "src": "왼쪽으로 가세요 = go left.", "tgt": "왼쪽으로 가세요 = 往左走。"}
+{"f": "cards", "id": "ko.c0586", "k": "meaning", "src": "right", "tgt": "右边"}
+{"f": "cards", "id": "ko.c0586", "k": "note", "src": "오른쪽으로 = to the right.", "tgt": "오른쪽으로 = 往右。"}
+{"f": "cards", "id": "ko.c0587", "k": "meaning", "src": "Go straight", "tgt": "一直往前走"}
+{"f": "cards", "id": "ko.c0587", "k": "note", "src": "쭉 가세요 also works.", "tgt": "也可以说 쭉 가세요。"}
+{"f": "cards", "id": "ko.c0588", "k": "meaning", "src": "subway station", "tgt": "地铁站"}
+{"f": "cards", "id": "ko.c0588", "k": "note", "src": "Seoul Metro is the easiest way around.", "tgt": "在首尔，坐地铁最方便。"}
+{"f": "cards", "id": "ko.c0589", "k": "meaning", "src": "bus stop", "tgt": "公交车站"}
+{"f": "cards", "id": "ko.c0589", "k": "note", "src": "정류장 = stop.", "tgt": "정류장 = 车站、停靠站。"}
+{"f": "cards", "id": "ko.c0590", "k": "meaning", "src": "taxi", "tgt": "出租车"}
+{"f": "cards", "id": "ko.c0590", "k": "note", "src": "Tell the driver: ~로 가 주세요 (please go to ~).", "tgt": "跟司机说：~로 가 주세요（请去~）。"}
+{"f": "cards", "id": "ko.c0591", "k": "meaning", "src": "airport", "tgt": "机场"}
+{"f": "cards", "id": "ko.c0591", "k": "note", "src": "인천공항 = Incheon Airport.", "tgt": "인천공항 = 仁川机场。"}
+{"f": "cards", "id": "ko.c0592", "k": "meaning", "src": "How long does it take?", "tgt": "要多长时间？"}
+{"f": "cards", "id": "ko.c0592", "k": "note", "src": "걸리다 = to take (time).", "tgt": "걸리다 = 花（时间）。"}
+{"f": "cards", "id": "ko.c0593", "k": "meaning", "src": "Please stop here", "tgt": "请在这里停车"}
+{"f": "cards", "id": "ko.c0593", "k": "note", "src": "Taxi phrase.", "tgt": "打车时用。"}
+{"f": "cards", "id": "ko.c0594", "k": "meaning", "src": "T-money card", "tgt": "T-money 交通卡"}
+{"f": "cards", "id": "ko.c0594", "k": "note", "src": "Tap-in transit card. Buy at any convenience store.", "tgt": "刷卡乘车的交通卡，任何便利店都能买到。"}
+{"f": "cards", "id": "ko.c0595", "k": "meaning", "src": "How do I get there?", "tgt": "怎么去？"}
+{"f": "cards", "id": "ko.c0595", "k": "note", "src": "Add the place + 에: 명동에 어떻게 가요?", "tgt": "前面加“地点 + 에”：명동에 어떻게 가요?（去明洞怎么走？）"}
+{"f": "cards", "id": "ko.c0596", "k": "meaning", "src": "today", "tgt": "今天"}
+{"f": "cards", "id": "ko.c0596", "k": "note", "src": "오늘 뭐 해요? = what are you doing today?", "tgt": "오늘 뭐 해요? = 你今天干什么？"}
+{"f": "cards", "id": "ko.c0597", "k": "meaning", "src": "tomorrow", "tgt": "明天"}
+{"f": "cards", "id": "ko.c0597", "k": "note", "src": "내일 봐요 = see you tomorrow.", "tgt": "내일 봐요 = 明天见。"}
+{"f": "cards", "id": "ko.c0598", "k": "meaning", "src": "yesterday", "tgt": "昨天"}
+{"f": "cards", "id": "ko.c0598", "k": "note", "src": "어제 뭐 했어요? = what did you do yesterday?", "tgt": "어제 뭐 했어요? = 你昨天干什么了？"}
+{"f": "cards", "id": "ko.c0599", "k": "meaning", "src": "now", "tgt": "现在"}
+{"f": "cards", "id": "ko.c0599", "k": "note", "src": "지금 몇 시예요? = what time is it now?", "tgt": "지금 몇 시예요? = 现在几点？"}
+{"f": "cards", "id": "ko.c0600", "k": "meaning", "src": "morning / lunchtime / evening", "tgt": "早上 / 中午 / 晚上"}
+{"f": "cards", "id": "ko.c0600", "k": "note", "src": "Also mean breakfast / lunch / dinner.", "tgt": "也指早饭 / 午饭 / 晚饭。中间那个词写成汉字是“点心”，但意思是午饭。"}
+{"f": "cards", "id": "ko.c0601", "k": "meaning", "src": "Monday", "tgt": "星期一"}
+{"f": "cards", "id": "ko.c0601", "k": "note", "src": "요일 = day of the week.", "tgt": "요일 = 星期（几）。"}
+{"f": "cards", "id": "ko.c0602", "k": "meaning", "src": "Friday", "tgt": "星期五"}
+{"f": "cards", "id": "ko.c0602", "k": "note", "src": "불금 = 'burning Friday', Friday night out.", "tgt": "불금 = “燃烧的星期五”，周五晚上出去嗨。"}
+{"f": "cards", "id": "ko.c0603", "k": "meaning", "src": "Saturday / Sunday", "tgt": "星期六 / 星期日"}
+{"f": "cards", "id": "ko.c0603", "k": "note", "src": "주말 (jumal) = weekend.", "tgt": "주말（jumal）= 周末。"}
+{"f": "cards", "id": "ko.c0604", "k": "meaning", "src": "What time is it?", "tgt": "几点了？"}
+{"f": "cards", "id": "ko.c0604", "k": "note", "src": "몇 = how many; 시 = o'clock.", "tgt": "몇 = 几；시 = 点（钟）。"}
+{"f": "cards", "id": "ko.c0605", "k": "meaning", "src": "when", "tgt": "什么时候"}
+{"f": "cards", "id": "ko.c0605", "k": "note", "src": "언제 와요? = when are you coming?", "tgt": "언제 와요? = 你什么时候来？"}
+{"f": "cards", "id": "ko.c0606", "k": "meaning", "src": "every day", "tgt": "每天"}
+{"f": "cards", "id": "ko.c0606", "k": "note", "src": "매일 공부해요 = I study every day.", "tgt": "매일 공부해요 = 我每天学习。"}
+{"f": "cards", "id": "ko.c0607", "k": "meaning", "src": "Do you have time?", "tgt": "你有时间吗？"}
+{"f": "cards", "id": "ko.c0607", "k": "note", "src": "Low-key way to ask someone out.", "tgt": "不露声色地约人出去的说法。"}
+{"f": "cards", "id": "ko.c0608", "k": "meaning", "src": "mom / dad", "tgt": "妈妈 / 爸爸"}
+{"f": "cards", "id": "ko.c0608", "k": "note", "src": "어머니 / 아버지 = formal versions.", "tgt": "어머니 / 아버지 = 正式的说法（母亲 / 父亲）。"}
+{"f": "cards", "id": "ko.c0609", "k": "meaning", "src": "older brother", "tgt": "哥哥"}
+{"f": "cards", "id": "ko.c0609", "k": "note", "src": "형 if you're male, 오빠 if you're female. Also used for older male friends.", "tgt": "男生叫 형，女生叫 오빠。也用来叫比自己大的男性朋友。"}
+{"f": "cards", "id": "ko.c0610", "k": "meaning", "src": "older sister", "tgt": "姐姐"}
+{"f": "cards", "id": "ko.c0610", "k": "note", "src": "누나 if you're male, 언니 if you're female.", "tgt": "男生叫 누나，女生叫 언니。"}
+{"f": "cards", "id": "ko.c0611", "k": "meaning", "src": "younger sibling", "tgt": "弟弟 / 妹妹"}
+{"f": "cards", "id": "ko.c0611", "k": "note", "src": "남동생 = younger brother, 여동생 = younger sister.", "tgt": "남동생 = 弟弟，여동생 = 妹妹。"}
+{"f": "cards", "id": "ko.c0612", "k": "meaning", "src": "grandma / grandpa", "tgt": "奶奶 / 爷爷"}
+{"f": "cards", "id": "ko.c0612", "k": "note", "src": "Also polite for any elderly person.", "tgt": "也可以礼貌地称呼任何老年人。"}
+{"f": "cards", "id": "ko.c0613", "k": "meaning", "src": "family", "tgt": "家人"}
+{"f": "cards", "id": "ko.c0613", "k": "note", "src": "가족이 몇 명이에요? = how many in your family?", "tgt": "가족이 몇 명이에요? = 你家有几口人？"}
+{"f": "cards", "id": "ko.c0614", "k": "meaning", "src": "friend", "tgt": "朋友"}
+{"f": "cards", "id": "ko.c0614", "k": "note", "src": "Technically same-age friend only.", "tgt": "严格地说，只指同龄的朋友。"}
+{"f": "cards", "id": "ko.c0615", "k": "meaning", "src": "teacher", "tgt": "老师"}
+{"f": "cards", "id": "ko.c0615", "k": "note", "src": "Also a respectful 'sir/ma'am'.", "tgt": "也用来尊称对方，像中文把“老师”当尊称一样。注意：不是中文的“先生”。"}
+{"f": "cards", "id": "ko.c0616", "k": "meaning", "src": "man / woman", "tgt": "男人 / 女人"}
+{"f": "cards", "id": "ko.c0616", "k": "note", "src": "남자친구 = boyfriend, 여자친구 = girlfriend.", "tgt": "남자친구 = 男朋友，여자친구 = 女朋友。"}
+{"f": "cards", "id": "ko.c0617", "k": "meaning", "src": "person", "tgt": "人"}
+{"f": "cards", "id": "ko.c0617", "k": "note", "src": "한국 사람 = Korean person. 미국 사람 = American.", "tgt": "한국 사람 = 韩国人。미국 사람 = 美国人。"}
+{"f": "cards", "id": "ko.c0618", "k": "meaning", "src": "good / I like it", "tgt": "好 / 喜欢"}
+{"f": "cards", "id": "ko.c0618", "k": "note", "src": "안 좋아요 = not good.", "tgt": "안 좋아요 = 不好。"}
+{"f": "cards", "id": "ko.c0619", "k": "meaning", "src": "bad", "tgt": "坏 / 差"}
+{"f": "cards", "id": "ko.c0619", "k": "note", "src": "기분이 나빠요 = I feel bad.", "tgt": "기분이 나빠요 = 我心情不好。"}
+{"f": "cards", "id": "ko.c0620", "k": "meaning", "src": "big", "tgt": "大"}
+{"f": "cards", "id": "ko.c0620", "k": "note", "src": "크다 → 커요.", "tgt": "크다 → 커요。", "pre": 1}
+{"f": "cards", "id": "ko.c0621", "k": "meaning", "src": "small", "tgt": "小"}
+{"f": "cards", "id": "ko.c0621", "k": "note", "src": "작다 → 작아요.", "tgt": "작다 → 작아요。", "pre": 1}
+{"f": "cards", "id": "ko.c0622", "k": "meaning", "src": "many / a lot", "tgt": "多"}
+{"f": "cards", "id": "ko.c0622", "k": "note", "src": "사람이 많아요 = lots of people.", "tgt": "사람이 많아요 = 人很多。"}
+{"f": "cards", "id": "ko.c0623", "k": "meaning", "src": "expensive", "tgt": "贵"}
+{"f": "cards", "id": "ko.c0623", "k": "note", "src": "너무 비싸요 = too expensive.", "tgt": "너무 비싸요 = 太贵了。"}
+{"f": "cards", "id": "ko.c0624", "k": "meaning", "src": "cheap", "tgt": "便宜"}
+{"f": "cards", "id": "ko.c0624", "k": "note", "src": "싸고 좋아요 = cheap and good.", "tgt": "싸고 좋아요 = 又便宜又好。"}
+{"f": "cards", "id": "ko.c0625", "k": "meaning", "src": "hot (weather)", "tgt": "热（天气）"}
+{"f": "cards", "id": "ko.c0625", "k": "note", "src": "뜨거워요 = hot (to touch).", "tgt": "뜨거워요 = 烫（摸起来热）。"}
+{"f": "cards", "id": "ko.c0626", "k": "meaning", "src": "cold (weather)", "tgt": "冷（天气）"}
+{"f": "cards", "id": "ko.c0626", "k": "note", "src": "차가워요 = cold (to touch).", "tgt": "차가워요 = 凉、冰（摸起来冷）。"}
+{"f": "cards", "id": "ko.c0627", "k": "meaning", "src": "busy", "tgt": "忙"}
+{"f": "cards", "id": "ko.c0627", "k": "note", "src": "요즘 바빠요 = busy these days.", "tgt": "요즘 바빠요 = 最近很忙。"}
+{"f": "cards", "id": "ko.c0628", "k": "meaning", "src": "fun / interesting", "tgt": "有意思 / 好玩"}
+{"f": "cards", "id": "ko.c0628", "k": "note", "src": "재미없어요 = boring.", "tgt": "재미없어요 = 没意思。"}
+{"f": "cards", "id": "ko.c0629", "k": "meaning", "src": "hard / exhausting", "tgt": "累 / 辛苦"}
+{"f": "cards", "id": "ko.c0629", "k": "note", "src": "Complaint of choice.", "tgt": "最常用的抱怨。"}
+{"f": "cards", "id": "ko.c0630", "k": "meaning", "src": "Really?", "tgt": "真的？"}
+{"f": "cards", "id": "ko.c0630", "k": "note", "src": "Also 진짜로. 정말? (jeongmal) is slightly softer.", "tgt": "也说 진짜로。정말?（jeongmal）稍微柔和一点。"}
+{"f": "cards", "id": "ko.c0631", "k": "meaning", "src": "Awesome / no way", "tgt": "太牛了 / 不会吧"}
+{"f": "cards", "id": "ko.c0631", "k": "note", "src": "Good or bad surprise. 대박 사건 = huge deal.", "tgt": "好的、坏的意外都能用。대박 사건 = 大事件。"}
+{"f": "cards", "id": "ko.c0632", "k": "meaning", "src": "OMG / what", "tgt": "我去 / 啥？"}
+{"f": "cards", "id": "ko.c0632", "k": "note", "src": "Stunned reaction. Mostly texting and casual speech.", "tgt": "惊呆时的反应。主要用于打字和随便的口语。"}
+{"f": "cards", "id": "ko.c0633", "k": "meaning", "src": "Oh my / ugh", "tgt": "哎哟 / 唉"}
+{"f": "cards", "id": "ko.c0633", "k": "note", "src": "Sigh word for any small misfortune.", "tgt": "碰到各种小倒霉事时叹气用的词。"}
+{"f": "cards", "id": "ko.c0634", "k": "meaning", "src": "It's okay", "tgt": "没事"}
+{"f": "cards", "id": "ko.c0634", "k": "note", "src": "Casual. Said while clearly not okay.", "tgt": "半语。常常在明显有事的时候说。"}
+{"f": "cards", "id": "ko.c0635", "k": "meaning", "src": "Are you crazy?", "tgt": "你疯了吗？"}
+{"f": "cards", "id": "ko.c0635", "k": "note", "src": "Casual, often affectionate.", "tgt": "半语，常常带着亲昵。"}
+{"f": "cards", "id": "ko.c0636", "k": "meaning", "src": "Don't go", "tgt": "别走"}
+{"f": "cards", "id": "ko.c0636", "k": "note", "src": "Verb stem + 지 마 = don't.", "tgt": "动词词干 + 지 마 = 别……"}
+{"f": "cards", "id": "ko.c0637", "k": "meaning", "src": "I missed you", "tgt": "我好想你"}
+{"f": "cards", "id": "ko.c0637", "k": "note", "src": "Past of 보고 싶어.", "tgt": "보고 싶어 的过去时。"}
+{"f": "cards", "id": "ko.c0638", "k": "meaning", "src": "What do I do / oh no", "tgt": "怎么办 / 完了"}
+{"f": "cards", "id": "ko.c0638", "k": "note", "src": "Said with hands on face.", "tgt": "说的时候常常双手捂脸。"}
+{"f": "cards", "id": "ko.c0639", "k": "meaning", "src": "You got this!", "tgt": "加油！"}
+{"f": "cards", "id": "ko.c0639", "k": "note", "src": "From 'fighting'. Cheer before anything hard.", "tgt": "来自英语 fighting，意思就是“加油”。做难事之前给人打气。"}
+{"f": "cards", "id": "ko.c0640", "k": "meaning", "src": "Got it / okay", "tgt": "知道了"}
+{"f": "cards", "id": "ko.c0640", "k": "note", "src": "Polite: 알았어요 or 알겠습니다.", "tgt": "礼貌一点：알았어요（礼貌体）或 알겠습니다（正式体）。"}
+{"f": "cards", "id": "ko.c0641", "k": "meaning", "src": "What did you say?", "tgt": "你说什么？"}
+{"f": "cards", "id": "ko.c0641", "k": "note", "src": "Casual. 네? (ne?) is the polite 'pardon?'", "tgt": "半语。네?（ne?）是礼貌地表示“什么？没听清”。"}
+{"f": "dialog", "id": "ko.g001", "k": "tr", "src": "Hello, nice to meet you for the first time. / Hi! Nice to meet you.", "tgt": "你好，初次见面。 / 你好！很高兴见到你。"}
+{"f": "dialog", "id": "ko.g002", "k": "tr", "src": "Thank you for helping. / Not at all.", "tgt": "谢谢你帮忙。 / 哪里，别客气。"}
+{"f": "dialog", "id": "ko.g003", "k": "tr", "src": "Sorry I'm late. / It's fine, I just got here too.", "tgt": "对不起，我来晚了。 / 没关系，我也刚到。"}
+{"f": "dialog", "id": "ko.g004", "k": "tr", "src": "How much is this? / 12,000 won.", "tgt": "这个多少钱？ / 一万两千韩元。"}
+{"f": "dialog", "id": "ko.g005", "k": "tr", "src": "Excuse me, where's the bathroom? / Go straight that way.", "tgt": "不好意思，洗手间在哪儿？ / 往那边一直走就到了。"}
+{"f": "dialog", "id": "ko.g006", "k": "tr", "src": "What can I get you? / This one, to go.", "tgt": "要点什么？ / 要这个，打包。"}
+{"f": "dialog", "id": "ko.g007", "k": "tr", "src": "Are you okay? Hurt? / Yes, I'm fine.", "tgt": "你没事吧？受伤了吗？ / 嗯，我没事。"}
+{"f": "dialog", "id": "ko.g008", "k": "tr", "src": "Sorry, please speak slowly. / Ah, sure, I'll slow down.", "tgt": "不好意思，请说慢一点。 / 啊，好的，我说慢点。"}
+{"f": "dialog", "id": "ko.g009", "k": "tr", "src": "Your Korean is good! / No, I'm still not good.", "tgt": "你韩语说得真好！ / 哪里，我说得还不好。"}
+{"f": "dialog", "id": "ko.g010", "k": "tr", "src": "Excuse me, coming through. / Go ahead.", "tgt": "不好意思，借过一下。 / 好，请过。"}
+{"f": "dialog", "id": "ko.g011", "k": "tr", "src": "Excuse me! The menu, please. / Yes, one moment.", "tgt": "你好！请给我菜单。 / 好的，请稍等。"}
+{"f": "dialog", "id": "ko.g012", "k": "tr", "src": "Excuse me, please help me. / Sure, what do you need?", "tgt": "不好意思，请帮我一下。 / 好的，需要什么帮助？"}
+{"f": "dialog", "id": "ko.g013", "k": "tr", "src": "Sorry, say that again please. / The subway station is on the left.", "tgt": "不好意思，请再说一遍。 / 地铁站在左边。"}
+{"f": "dialog", "id": "ko.g014", "k": "tr", "src": "Can you speak English? / A little. I'll speak slowly.", "tgt": "你会说英语吗？ / 会一点。我会说慢一点。", "rw": "mentions English"}
+{"f": "dialog", "id": "ko.g015", "k": "tr", "src": "What is this? / Tteokbokki. It's a bit spicy.", "tgt": "这是什么？ / 炒年糕。有点辣。"}
+{"f": "dialog", "id": "ko.g016", "k": "tr", "src": "Do you take cards? / Yes. Insert it here.", "tgt": "可以刷卡吗？ / 可以。卡插这里。"}
+{"f": "dialog", "id": "ko.g017", "k": "tr", "src": "What's the wifi password? / It's on the receipt.", "tgt": "Wi-Fi 密码是多少？ / 在小票上。"}
+{"f": "dialog", "id": "ko.g018", "k": "tr", "src": "I'm lost. Where is this? / This is Hongdae. Where are you going?", "tgt": "我迷路了。这是哪儿？ / 这里是弘大。你要去哪儿？"}
+{"f": "dialog", "id": "ko.g019", "k": "tr", "src": "What's your name? / I'm Kii. What's yours?", "tgt": "你叫什么名字？ / 我叫 Kii。你呢？"}
+{"f": "dialog", "id": "ko.g020", "k": "tr", "src": "Nice to meet you. / Nice to meet you too.", "tgt": "很高兴认识你。 / 我也很高兴认识你。"}
+{"f": "dialog", "id": "ko.g021", "k": "tr", "src": "Where are you from? / From the US. Oklahoma.", "tgt": "你是从哪儿来的？ / 我是从美国来的。俄克拉何马州。"}
+{"f": "dialog", "id": "ko.g022", "k": "tr", "src": "Excuse me, how old are you? / 28. And you?", "tgt": "不好意思，请问你多大了？ / 二十八。你呢？"}
+{"f": "dialog", "id": "ko.g023", "k": "tr", "src": "What do you do? / I work at an IT company.", "tgt": "你做什么工作？ / 我在一家 IT 公司上班。"}
+{"f": "dialog", "id": "ko.g024", "k": "tr", "src": "Do you study Korean? / Yes, a little every day.", "tgt": "你在学韩语吗？ / 嗯，每天学一点。"}
+{"f": "dialog", "id": "ko.g025", "k": "tr", "src": "What's your hobby? / Running and music.", "tgt": "你有什么爱好？ / 跑步和音乐。"}
+{"f": "dialog", "id": "ko.g026", "k": "tr", "src": "Long time no see! How've you been? / Good, thanks. You?", "tgt": "好久不见！最近好吗？ / 挺好的，托你的福。你呢？"}
+{"f": "dialog", "id": "ko.g027", "k": "tr", "src": "How are things lately? / Busy. But fun.", "tgt": "最近怎么样？ / 很忙。不过挺开心的。"}
+{"f": "dialog", "id": "ko.g028", "k": "tr", "src": "Nice weather today. / Yes, perfect for a walk.", "tgt": "今天天气真好。 / 是啊，正适合散步。"}
+{"f": "dialog", "id": "ko.g029", "k": "tr", "src": "What are you doing this weekend? / Going hiking. Want to come?", "tgt": "周末干什么？ / 去爬山。要一起去吗？"}
+{"f": "dialog", "id": "ko.g030", "k": "tr", "src": "Today was fun. See you again! / Yes, I'll be in touch.", "tgt": "今天很开心。下次见！ / 好，我会联系你的。"}
+{"f": "dialog", "id": "ko.g031", "k": "tr", "src": "I'll head out first. Goodbye (stay well). / Bye (go well).", "tgt": "我先走了。再见（留步）。 / 好，再见（慢走）。"}
+{"f": "dialog", "id": "ko.g032", "k": "tr", "src": "I'm bored. Let's hang out! / Deal! Where should we meet?", "tgt": "好无聊。出去玩吧！ / 走起！在哪儿见？"}
+{"f": "dialog", "id": "ko.g033", "k": "tr", "src": "Are you free tomorrow? / In the afternoon. Why?", "tgt": "明天有空吗？ / 下午有。怎么了？"}
+{"f": "dialog", "id": "ko.g034", "k": "tr", "src": "I'm going to a café, wanna come? / Sure, let's go.", "tgt": "我要去咖啡馆，一起去吗？ / 好啊，走吧。"}
+{"f": "dialog", "id": "ko.g035", "k": "tr", "src": "I'm hungry. Wanna go eat? / Yes! What should we eat?", "tgt": "饿了。去吃饭吗？ / 好！吃什么？"}
+{"f": "dialog", "id": "ko.g036", "k": "tr", "src": "When should we meet? / How about Saturday?", "tgt": "我们什么时候见？ / 星期六怎么样？"}
+{"f": "dialog", "id": "ko.g037", "k": "tr", "src": "Where should we meet? / Let's meet at Gangnam station exit 11.", "tgt": "在哪儿见？ / 江南站 11 号出口见。"}
+{"f": "dialog", "id": "ko.g038", "k": "tr", "src": "Where are you? Almost here? / Sorry, coming now. 5 minutes!", "tgt": "你在哪儿？快到了吗？ / 抱歉，马上到。5 分钟！"}
+{"f": "dialog", "id": "ko.g039", "k": "tr", "src": "Today was really fun. / Me too. Let's hang out again!", "tgt": "今天真好玩。 / 我也觉得。下次再一起玩！"}
+{"f": "dialog", "id": "ko.g040", "k": "tr", "src": "Ready to order? / One iced Americano, please.", "tgt": "可以点单了吗？ / 请给我一杯冰美式。"}
+{"f": "dialog", "id": "ko.g041", "k": "tr", "src": "For here? / No, to go.", "tgt": "在这儿喝吗？ / 不，带走。"}
+{"f": "dialog", "id": "ko.g042", "k": "tr", "src": "What sizes do you have? / Tall, grande, venti.", "tgt": "有哪些杯型？ / 中杯、大杯、超大杯。"}
+{"f": "dialog", "id": "ko.g043", "k": "tr", "src": "Do you have a points card? / No, that's okay.", "tgt": "有积分卡吗？ / 没有，不用了。"}
+{"f": "dialog", "id": "ko.g044", "k": "tr", "src": "Please heat this up. / Sure, it takes a minute.", "tgt": "请帮我加热一下。 / 好的，需要一分钟。"}
+{"f": "dialog", "id": "ko.g045", "k": "tr", "src": "Do you need a bag? / Yes, one please.", "tgt": "需要袋子吗？ / 要，给我一个。"}
+{"f": "dialog", "id": "ko.g046", "k": "tr", "src": "Cash or card? / Card.", "tgt": "现金还是刷卡？ / 刷卡。"}
+{"f": "dialog", "id": "ko.g047", "k": "tr", "src": "Where is a pharmacy? / On the first floor of that building.", "tgt": "药店在哪儿？ / 在那栋楼的一楼。"}
+{"f": "dialog", "id": "ko.g048", "k": "tr", "src": "Where does it hurt? / My head hurts. I have a fever too.", "tgt": "哪里不舒服？ / 我头疼，还发烧。"}
+{"f": "dialog", "id": "ko.g049", "k": "tr", "src": "Do you have painkillers? / Yes, take these after a meal.", "tgt": "有止痛药吗？ / 有，饭后吃这个。"}
+{"f": "dialog", "id": "ko.g050", "k": "tr", "src": "Do you have allergies? / Yes, I'm allergic to peanuts.", "tgt": "你有过敏吗？ / 有，我对花生过敏。"}
+{"f": "dialog", "id": "ko.g051", "k": "tr", "src": "How many times a day? / Three times, 30 minutes after meals.", "tgt": "一天吃几次？ / 一天三次，饭后 30 分钟。"}
+{"f": "dialog", "id": "ko.g052", "k": "tr", "src": "Package! / Please leave it at the door.", "tgt": "快递到了！ / 好，请放在门口。"}
+{"f": "dialog", "id": "ko.g053", "k": "tr", "src": "How much is rent? / 500,000 won, maintenance included.", "tgt": "月租多少？ / 五十万韩元，含物业费。"}
+{"f": "dialog", "id": "ko.g054", "k": "tr", "src": "Can you dry clean this? / Yes, pick it up tomorrow afternoon.", "tgt": "这件能干洗吗？ / 可以，明天下午来取。"}
+{"f": "dialog", "id": "ko.g055", "k": "tr", "src": "I'm starting work with you today. Please take care of me. / Likewise.", "tgt": "从今天起我们一起工作，请多关照。 / 好的，也请你多关照。"}
+{"f": "dialog", "id": "ko.g056", "k": "tr", "src": "How are things? / So-so. Just busy.", "tgt": "最近怎么样？ / 还行吧。就是忙。"}
+{"f": "dialog", "id": "ko.g057", "k": "tr", "src": "I'm a coffee addict. / Me too! At least three cups a day.", "tgt": "我是咖啡控。 / 我也是！一天至少喝三杯。"}
+{"f": "dialog", "id": "ko.g058", "k": "tr", "src": "I'm going to Korea next month. / Really? Where to?", "tgt": "我下个月去韩国。 / 真的吗？去哪儿？"}
+{"f": "dialog", "id": "ko.g059", "k": "tr", "src": "I should get going. Goodbye. / Okay, get home safe.", "tgt": "我该走了。再见。 / 好，路上小心。"}
+{"f": "dialog", "id": "ko.g060", "k": "tr", "src": "See you next time. / Yes, I'll be in touch!", "tgt": "下次见。 / 好，我会联系你的！"}
+{"f": "dialog", "id": "ko.g061", "k": "tr", "src": "Hey, what are you doing? / Watching Netflix at home. Why?", "tgt": "喂，干吗呢？ / 在家看网飞。怎么了？"}
+{"f": "dialog", "id": "ko.g062", "k": "tr", "src": "Are you free tonight? / Yeah, after seven.", "tgt": "今晚有空吗？ / 有，七点以后。"}
+{"f": "dialog", "id": "ko.g063", "k": "tr", "src": "Wanna come over? I'll order chicken. / Deal! I'll bring beer.", "tgt": "来我家吗？我点炸鸡。 / 走起！我带啤酒过去。"}
+{"f": "dialog", "id": "ko.g064", "k": "tr", "src": "Today was so fun. Let's hang again. / Sure, see you next week!", "tgt": "今天太好玩了。下次再一起玩。 / 好啊，下周见！"}
+{"f": "dialog", "id": "ko.g065", "k": "tr", "src": "Can I get your number? / Sure, 010-3322-7788.", "tgt": "能告诉我你的电话号码吗？ / 好，010-3322-7788。"}
+{"f": "dialog", "id": "ko.g066", "k": "tr", "src": "Do you have Instagram? / Yes, I'll give you my handle.", "tgt": "你有 Instagram 吗？ / 有，我把账号告诉你。"}
+{"f": "dialog", "id": "ko.g067", "k": "tr", "src": "Today was lovely. Shall we meet again? / Sure. This time it's on me.", "tgt": "今天很开心。我们还能再见面吗？ / 好啊。这次我请客。"}
+{"f": "dialog", "id": "ko.g068", "k": "tr", "src": "It's late. I'll walk you home. / It's fine, I can take the subway.", "tgt": "很晚了。我送你回家。 / 没事，我坐地铁就行。"}
+{"f": "dialog", "id": "ko.g069", "k": "tr", "src": "You look pretty today. / Thanks. I got a haircut.", "tgt": "你今天真漂亮。 / 谢谢。我剪头发了。"}
+{"f": "dialog", "id": "ko.g070", "k": "tr", "src": "You're here! I missed you. / Me too. Did you wait long?", "tgt": "你来啦！我好想你。 / 我也是。等很久了吗？"}
+{"f": "dialog", "id": "ko.g071", "k": "tr", "src": "Did you get home safe? / Yeah, just got in. Thanks for today.", "tgt": "到家了吗？ / 嗯，刚到。今天谢谢你。"}
+{"f": "dialog", "id": "ko.g072", "k": "tr", "src": "I'm going to sleep. Night! / Okay, sweet dreams.", "tgt": "我去睡了。晚安！ / 嗯，做个好梦。"}
+{"f": "dialog", "id": "ko.g073", "k": "tr", "src": "Did you eat? / Not yet. Wanna eat together?", "tgt": "吃饭了吗？ / 还没。一起吃吗？"}
+{"f": "dialog", "id": "ko.g074", "k": "tr", "src": "What are you up to? / Just lying around. Bored.", "tgt": "干吗呢？ / 就躺着。好无聊。"}
+{"f": "dialog", "id": "ko.g075", "k": "tr", "src": "Where are you? Almost here? / Sorry, five minutes! Just got off the subway.", "tgt": "你在哪儿？快到了吗？ / 抱歉，五分钟！刚下地铁。"}
+{"f": "dialog", "id": "ko.g076", "k": "tr", "src": "I think I'll be late. / No worries, take your time. I'll be at the café.", "tgt": "我可能要迟到了。 / 没事，慢慢来。我在咖啡馆等你。"}
+{"f": "dialog", "id": "ko.g077", "k": "tr", "src": "Look at this meme lol / That's hilarious lol", "tgt": "看这个表情包哈哈哈 / 笑死我了哈哈哈"}
+{"f": "dialog", "id": "ko.g078", "k": "tr", "src": "I made this. / Wow, that's cool! How did you make it?", "tgt": "这是我做的。 / 哇，好厉害！怎么做的？"}
+{"f": "dialog", "id": "ko.g079", "k": "tr", "src": "I passed the exam! / Really? Nice job!", "tgt": "我考试通过了！ / 真的？太棒了！"}
+{"f": "dialog", "id": "ko.g080", "k": "tr", "src": "I worked overtime today… / You worked hard. Get some rest.", "tgt": "我今天加班了…… / 辛苦了。好好休息。"}
+{"f": "dialog", "id": "ko.g081", "k": "tr", "src": "Wanna grab a drink after work? / Love to! Where?", "tgt": "下班后喝一杯？ / 好啊！去哪儿？"}
+{"f": "dialog", "id": "ko.g082", "k": "tr", "src": "I'm so nervous about the interview. / You got this! You'll do great.", "tgt": "面试好紧张。 / 加油！你一定行。"}
+{"f": "dialog", "id": "ko.g083", "k": "tr", "src": "What are you doing tomorrow? / I'm off tomorrow. Why?", "tgt": "明天干什么？ / 明天休息。怎么了？"}
+{"f": "dialog", "id": "ko.g084", "k": "tr", "src": "What time is it now? / Half past two.", "tgt": "现在几点？ / 两点半。"}
+{"f": "dialog", "id": "ko.g085", "k": "tr", "src": "What time is it? / 9:10.", "tgt": "几点了？ / 九点十分。"}
+{"f": "dialog", "id": "ko.g086", "k": "tr", "src": "How's the weather in Seoul? / Cold today, and the fine dust is bad.", "tgt": "首尔天气怎么样？ / 今天很冷，雾霾也很严重。"}
+{"f": "dialog", "id": "ko.g087", "k": "tr", "src": "Is it raining outside? / Yes, take an umbrella.", "tgt": "外面在下雨吗？ / 嗯，带把伞吧。"}
+{"f": "dialog", "id": "ko.g088", "k": "tr", "src": "You look tired. / Yeah, I couldn't sleep last night.", "tgt": "你看起来很累。 / 嗯，昨晚没睡好。"}
+{"f": "dialog", "id": "ko.g089", "k": "tr", "src": "I'm bored. / Then shall we watch a movie?", "tgt": "好无聊。 / 那我们看电影吧？"}
+{"f": "dialog", "id": "ko.g090", "k": "tr", "src": "I won the lottery! / No way! How much?", "tgt": "我中彩票了！ / 天哪！中了多少？"}
+{"f": "dialog", "id": "ko.g091", "k": "tr", "src": "I lost my wallet… / Oh no! Did you check with the police?", "tgt": "我钱包丢了…… / 怎么办！去派出所问了吗？"}
+{"f": "dialog", "id": "ko.g092", "k": "tr", "src": "My presentation is tomorrow. / You got this! You can do it.", "tgt": "我明天要做报告。 / 加油！你可以的。"}
+{"f": "dialog", "id": "ko.g093", "k": "tr", "src": "Please eat plenty. / Thank you, I will!", "tgt": "多吃点。 / 谢谢，那我不客气了！"}
+{"f": "dialog", "id": "ko.g094", "k": "tr", "src": "May I have your name? / I'm Kim Minsu.", "tgt": "请问您怎么称呼？ / 我叫 Kim Minsu。"}
+{"f": "dialog", "id": "ko.g095", "k": "tr", "src": "Please sit here. / Thank you.", "tgt": "请坐这儿。 / 谢谢。"}
+{"f": "dialog", "id": "ko.g096", "k": "tr", "src": "Anyone home? / Yes, come in!", "tgt": "有人在家吗？ / 在，请进！"}
+{"f": "dialog", "id": "ko.g097", "k": "tr", "src": "Teacher, have you been well? / Yes, thanks to you. Long time no see.", "tgt": "老师，您最近好吗？ / 好，托你的福。好久不见。"}
+{"f": "dialog", "id": "ko.g098", "k": "tr", "src": "Would you mind taking a photo? / Of course. One, two, three!", "tgt": "能麻烦你帮我拍张照吗？ / 当然可以。一、二、三！"}
+{"f": "dialog", "id": "ko.g099", "k": "tr", "src": "What are we? / Hmm… I like you. Want to go out?", "tgt": "我们算什么关系？ / 嗯……我喜欢你。要不要跟我交往？"}
+{"f": "dialog", "id": "ko.g100", "k": "tr", "src": "Why didn't you text yesterday? / Sorry, my fault. Don't be mad.", "tgt": "你昨天怎么不联系我？ / 对不起，是我错了。别生气了。"}
+{"f": "dialog", "id": "ko.g101", "k": "tr", "src": "How is it being with me? / I feel comfortable. That's the best part.", "tgt": "跟我在一起感觉怎么样？ / 很自在。这一点最好。"}
+{"f": "dialog", "id": "ko.g102", "k": "tr", "src": "Can I hold your hand? / Yeah… is it because you're cold?", "tgt": "可以牵你的手吗？ / 嗯……是因为冷吗？"}
+{"f": "dialog", "id": "ko.g103", "k": "tr", "src": "It's our 100th day today! / Really? Happy 100 days. I got you something.", "tgt": "今天是我们的 100 天！ / 真的？100 天快乐。我准备了礼物。"}
+{"f": "dialog", "id": "ko.g104", "k": "tr", "src": "I have something to tell you. / What is it? Is something wrong?", "tgt": "我有话要跟你说。 / 什么事？出什么事了吗？"}
+{"f": "dialog", "id": "ko.g105", "k": "tr", "src": "What time is the meeting? / Two. Meeting room B.", "tgt": "会议几点？ / 两点。在 B 会议室。"}
+{"f": "dialog", "id": "ko.g106", "k": "tr", "src": "When is the deadline? / Friday, 6 PM.", "tgt": "截止日期是什么时候？ / 星期五下午六点。"}
+{"f": "dialog", "id": "ko.g107", "k": "tr", "src": "Manager, do you have a moment? / Yes, come in.", "tgt": "经理，您现在方便吗？ / 方便，进来吧。"}
+{"f": "dialog", "id": "ko.g108", "k": "tr", "src": "I'll head out first. / Okay, good work today.", "tgt": "我先下班了。 / 好，今天辛苦了。"}
+{"f": "dialog", "id": "ko.g109", "k": "tr", "src": "There's a team dinner today. / What time and where?", "tgt": "今天有部门聚餐。 / 几点？在哪儿？"}
+{"f": "dialog", "id": "ko.g110", "k": "tr", "src": "What should we have for lunch? / How about kimchi stew?", "tgt": "午饭吃什么？ / 泡菜汤怎么样？"}
+{"f": "dialog", "id": "ko.g111", "k": "tr", "src": "Ugh, I'm bored. What should I do? / Come out. Let's get chicken.", "tgt": "啊，好无聊。干点什么呢？ / 出来吧。一起吃炸鸡。"}
+{"f": "dialog", "id": "ko.g112", "k": "tr", "src": "I'm so tired today. / Sleep early. See you tomorrow.", "tgt": "今天好累。 / 早点睡。明天见。"}
+{"f": "dialog", "id": "ko.g113", "k": "tr", "src": "Where are you? / On my way. 10 minutes!", "tgt": "你在哪儿？ / 在路上了。10 分钟！"}
+{"f": "dialog", "id": "ko.g114", "k": "tr", "src": "What's with him? / Dunno. I'm curious too.", "tgt": "他怎么了？ / 不知道。我也挺好奇的。"}
+{"f": "dialog", "id": "ko.g115", "k": "tr", "src": "I saved us seats. / You really are the best.", "tgt": "我占好座位了。 / 你真是最棒的。"}
+{"f": "dialog", "id": "ko.g116", "k": "tr", "src": "Karaoke tonight? / Let's go! My treat.", "tgt": "今晚去 KTV 吗？ / 走！我请客。"}
+{"f": "dialog", "id": "ko.g117", "k": "tr", "src": "I think I'll bomb the presentation. / Don't worry. Just do it like you practiced.", "tgt": "我觉得我报告要搞砸了。 / 别担心。照练习的那样做就行。"}
+{"f": "dialog", "id": "ko.g118", "k": "tr", "src": "Finally done. / Nice work. A beer?", "tgt": "终于结束了。 / 辛苦了。来杯啤酒？"}
+{"f": "dialog", "id": "ko.g119", "k": "tr", "src": "How's this? Just bought it. / Cute. It suits you.", "tgt": "这个怎么样？刚买的。 / 好可爱。很适合你。"}
+{"f": "dialog", "id": "ko.g120", "k": "tr", "src": "I miss you. / Me too. Let's meet this weekend.", "tgt": "我想你。 / 我也是。周末见吧。"}
+{"f": "dialog", "id": "ko.g121", "k": "tr", "src": "I like you. / …Me too. You should've said sooner.", "tgt": "我喜欢你。 / ……我也是。你早该说了。"}
+{"f": "dialog", "id": "ko.g122", "k": "tr", "src": "Babe, what are you doing? / Thinking about you, obviously.", "tgt": "宝贝，干吗呢？ / 当然是在想你啊。"}
+{"f": "dialog", "id": "ko.g123", "k": "tr", "src": "I'm heading out now. / Get home safe. Text me when you arrive.", "tgt": "我现在走了。 / 路上小心。到了给我发消息。"}
+{"f": "dialog", "id": "ko.g124", "k": "tr", "src": "Sleepy. Going to bed. / Okay, sweet dreams.", "tgt": "困了，我去睡了。 / 嗯，做个好梦。"}
+{"f": "dialog", "id": "ko.g125", "k": "tr", "src": "Why are you smiling like that? / Your smile just now made my heart skip.", "tgt": "你笑什么？ / 刚才看到你笑，我心动了一下。"}
+{"f": "dialog", "id": "ko.g126", "k": "tr", "src": "Why'd you text? / No reason. I keep thinking about you.", "tgt": "你怎么给我发消息了？ / 没什么。就是一直想起你。"}
+{"f": "dialog", "id": "ko.g127", "k": "tr", "src": "You said you had something to say? / I think I like you.", "tgt": "你不是说有话要跟我说吗？ / 我好像喜欢上你了。"}
+{"f": "dialog", "id": "ko.g128", "k": "tr", "src": "What are we? / Let's date.", "tgt": "我们算什么关系？ / 我们交往吧。"}
+{"f": "dialog", "id": "ko.g129", "k": "tr", "src": "I passed! / Really? Congrats!", "tgt": "我考上了！ / 真的？恭喜！"}
+{"f": "dialog", "id": "ko.g130", "k": "tr", "src": "I'll go first. / Don't go. Stay a little longer.", "tgt": "我先走了。 / 别走。再待一会儿。"}
+{"f": "dialog", "id": "ko.g131", "k": "tr", "src": "Long time no see. / I missed you. Been well?", "tgt": "好久不见。 / 我好想你。过得好吗？"}
+{"f": "dialog", "id": "ko.g132", "k": "tr", "src": "Who's your bias? / The main vocalist.", "tgt": "你的本命是谁？ / 主唱。"}
+{"f": "dialog", "id": "ko.g133", "k": "tr", "src": "What are you listening to lately? / I became a fan of this group. Their stage is amazing.", "tgt": "最近在听什么？ / 我入坑了这个团。他们的舞台真的很强。"}
+{"f": "dialog", "id": "ko.g134", "k": "tr", "src": "What are you doing this weekend? / Going to a concert! I even bought a light stick.", "tgt": "周末干什么？ / 去看演唱会！我连应援棒都买了。"}
+{"f": "dialog", "id": "ko.g135", "k": "tr", "src": "I'm a fan! Please sign this. / Sure, thanks. What's your name?", "tgt": "我是你的粉丝！请给我签个名。 / 好的，谢谢。你叫什么名字？"}
+{"f": "dialog", "id": "ko.g136", "k": "tr", "src": "They're making a comeback this month. / Really? Did you see the teaser?", "tgt": "听说他们这个月回归。 / 真的？预告看了吗？"}
+{"f": "dialog", "id": "ko.g137", "k": "tr", "src": "How was the concert? / Got goosebumps during the singalong.", "tgt": "演唱会怎么样？ / 大合唱的时候我起鸡皮疙瘩了。"}
+{"f": "dialog", "id": "ko.g138", "k": "tr", "src": "Are you on Instagram? / Yes, I just followed you.", "tgt": "你玩 Instagram 吗？ / 玩，我刚关注你了。"}
+{"f": "dialog", "id": "ko.g139", "k": "tr", "src": "Posted a photo. Hit like for me. / Already did.", "tgt": "我发了张照片，给我点个赞。 / 早就点了。"}
+{"f": "dialog", "id": "ko.g140", "k": "tr", "src": "Why did nobody laugh at my joke earlier? / It killed the mood…", "tgt": "刚才我讲笑话，怎么没人笑？ / 突然冷场了……"}
+{"f": "dialog", "id": "ko.g141", "k": "tr", "src": "How's the tteokbokki here? / Insanely good. I'm coming back.", "tgt": "这家的炒年糕怎么样？ / 巨好吃。我还会再来。"}
+{"f": "dialog", "id": "ko.g142", "k": "tr", "src": "This song is addictive. / For real, been listening all day.", "tgt": "这首歌好上头。 / 真的，我一整天都在听。"}
+{"f": "dialog", "id": "ko.g143", "k": "tr", "src": "What should I wear today? / Go effortless. Jeans and a white tee.", "tgt": "今天穿什么？ / 走看似不经意的精致风吧。牛仔裤配白 T。"}
+{"f": "dialog", "id": "ko.g144", "k": "tr", "src": "What are you doing this weekend? / Having a meal with family.", "tgt": "周末干什么？ / 跟家人一起吃饭。"}
+{"f": "dialog", "id": "ko.g145", "k": "tr", "src": "Who did you come with? / With a friend.", "tgt": "你跟谁一起来的？ / 跟朋友一起来的。"}
+{"f": "dialog", "id": "ko.g146", "k": "tr", "src": "Who's that? / That's my older brother.", "tgt": "那个人是谁？ / 是我哥哥。"}
+{"f": "dialog", "id": "ko.g147", "k": "tr", "src": "Unni, how's this? / It suits you. Buy it.", "tgt": "姐，这个怎么样？ / 很适合你。买吧。"}
+{"f": "dialog", "id": "ko.g148", "k": "tr", "src": "Do you have siblings? / Yes, one younger sibling.", "tgt": "你有兄弟姐妹吗？ / 有，下面有一个。"}
+{"f": "dialog", "id": "ko.g149", "k": "tr", "src": "Teacher, I have a question. / Yes, go ahead.", "tgt": "老师，我有个问题。 / 好，你说吧。"}
+{"f": "examples", "id": "ko.e001", "k": "tr", "src": "A glass of water, please.", "tgt": "请给我一杯水。"}
+{"f": "examples", "id": "ko.e002", "k": "tr", "src": "Have you eaten?", "tgt": "吃饭了吗？"}
+{"f": "examples", "id": "ko.e003", "k": "tr", "src": "Do you like meat?", "tgt": "你喜欢吃肉吗？"}
+{"f": "examples", "id": "ko.e004", "k": "tr", "src": "This is really delicious.", "tgt": "这个真好吃。"}
+{"f": "examples", "id": "ko.e005", "k": "tr", "src": "I'm hungry. What shall we eat?", "tgt": "我饿了。吃点什么呢？"}
+{"f": "examples", "id": "ko.e006", "k": "tr", "src": "Okay, cheers!", "tgt": "来，干杯！"}
+{"f": "examples", "id": "ko.e007", "k": "tr", "src": "The weather is nice today.", "tgt": "今天天气真好。"}
+{"f": "examples", "id": "ko.e008", "k": "tr", "src": "Are you free tomorrow?", "tgt": "明天有空吗？"}
+{"f": "examples", "id": "ko.e009", "k": "tr", "src": "I went to bed late yesterday.", "tgt": "我昨天睡得很晚。"}
+{"f": "examples", "id": "ko.e010", "k": "tr", "src": "I'm going now!", "tgt": "我现在就去！"}
+{"f": "examples", "id": "ko.e011", "k": "tr", "src": "Mondays are always busy.", "tgt": "星期一总是很忙。"}
+{"f": "examples", "id": "ko.e012", "k": "tr", "src": "See you on Friday.", "tgt": "星期五见。"}
+{"f": "examples", "id": "ko.e013", "k": "tr", "src": "When did you come to Korea?", "tgt": "你什么时候来韩国的？"}
+{"f": "examples", "id": "ko.e014", "k": "tr", "src": "I exercise every day.", "tgt": "我每天运动。"}
+{"f": "examples", "id": "ko.e015", "k": "tr", "src": "It's so hot today.", "tgt": "今天太热了。"}
+{"f": "examples", "id": "ko.e016", "k": "tr", "src": "It's cold outside. Dress warm.", "tgt": "外面很冷。穿暖和点。"}
+{"f": "examples", "id": "ko.e017", "k": "tr", "src": "It's raining. Do you have an umbrella?", "tgt": "下雨了。你带伞了吗？"}
+{"f": "examples", "id": "ko.e018", "k": "tr", "src": "Wow, it's snowing!", "tgt": "哇，下雪了！"}
+{"f": "examples", "id": "ko.e019", "k": "tr", "src": "I feel good today.", "tgt": "我今天心情很好。"}
+{"f": "examples", "id": "ko.e020", "k": "tr", "src": "I'm happy because we're together.", "tgt": "因为我们在一起，我很幸福。"}
+{"f": "examples", "id": "ko.e021", "k": "tr", "src": "The movie is so sad.", "tgt": "这部电影太悲伤了。"}
+{"f": "examples", "id": "ko.e022", "k": "tr", "src": "I'm nervous because of the interview.", "tgt": "因为面试，我很紧张。"}
+{"f": "examples", "id": "ko.e023", "k": "tr", "src": "Why are you angry?", "tgt": "你为什么生气？"}
+{"f": "examples", "id": "ko.e024", "k": "tr", "src": "I'm excited because my trip is tomorrow.", "tgt": "明天去旅行，好激动。"}
+{"f": "examples", "id": "ko.e025", "k": "tr", "src": "My mom cooks well.", "tgt": "我妈妈很会做饭。"}
+{"f": "examples", "id": "ko.e026", "k": "tr", "src": "Oppa, what is this?", "tgt": "哥哥，这是什么？"}
+{"f": "examples", "id": "ko.e027", "k": "tr", "src": "Your (older sister's) clothes are pretty.", "tgt": "姐姐的衣服很漂亮。"}
+{"f": "examples", "id": "ko.e028", "k": "tr", "src": "I have two younger siblings.", "tgt": "我有两个弟弟妹妹。"}
+{"f": "examples", "id": "ko.e029", "k": "tr", "src": "I'm going to grandma's house.", "tgt": "我去奶奶家。"}
+{"f": "examples", "id": "ko.e030", "k": "tr", "src": "I miss my family.", "tgt": "我想家人了。"}
+{"f": "examples", "id": "ko.e031", "k": "tr", "src": "I watched a movie with a friend.", "tgt": "我和朋友看了电影。"}
+{"f": "examples", "id": "ko.e032", "k": "tr", "src": "Teacher, I have a question.", "tgt": "老师，我有个问题。"}
+{"f": "examples", "id": "ko.e033", "k": "tr", "src": "Who is that woman?", "tgt": "那个女人是谁？"}
+{"f": "examples", "id": "ko.e034", "k": "tr", "src": "There are many people here.", "tgt": "这里人很多。"}
+{"f": "examples", "id": "ko.e035", "k": "tr", "src": "One apple, please.", "tgt": "请给我一个苹果。"}
+{"f": "examples", "id": "ko.e036", "k": "tr", "src": "Two people.", "tgt": "两个人。"}
+{"f": "examples", "id": "ko.e037", "k": "tr", "src": "Three coffees, please.", "tgt": "请给我三杯咖啡。"}
+{"f": "examples", "id": "ko.e038", "k": "tr", "src": "I bought four bottles of beer.", "tgt": "我买了四瓶啤酒。"}
+{"f": "examples", "id": "ko.e039", "k": "tr", "src": "I have five cats.", "tgt": "我养了五只猫。"}
+{"f": "examples", "id": "ko.e040", "k": "tr", "src": "I read six books.", "tgt": "我看了六本书。"}
+{"f": "examples", "id": "ko.e041", "k": "tr", "src": "I have seven tickets.", "tgt": "我有七张票。"}
+{"f": "examples", "id": "ko.e042", "k": "tr", "src": "I waited two hours.", "tgt": "我等了两个小时。"}
+{"f": "examples", "id": "ko.e043", "k": "tr", "src": "I called three times.", "tgt": "我打了三次电话。"}
+{"f": "examples", "id": "ko.e044", "k": "tr", "src": "I'm in Korea for a month.", "tgt": "我在韩国待一个月。"}
+{"f": "examples", "id": "ko.e045", "k": "tr", "src": "I ate. And then I drank coffee.", "tgt": "我吃饭了。然后喝了咖啡。"}
+{"f": "examples", "id": "ko.e046", "k": "tr", "src": "I'm tired. So I'll sleep early.", "tgt": "我累了。所以我要早点睡。"}
+{"f": "examples", "id": "ko.e047", "k": "tr", "src": "It's tasty. But a bit expensive.", "tgt": "很好吃。不过有点贵。"}
+{"f": "examples", "id": "ko.e048", "k": "tr", "src": "It's hard. But it's fun.", "tgt": "很难。但是很有意思。"}
+{"f": "examples", "id": "ko.e049", "k": "tr", "src": "What did you do after that?", "tgt": "那之后你做了什么？"}
+{"f": "examples", "id": "ko.e050", "k": "tr", "src": "You go first.", "tgt": "你先走吧。"}
+{"f": "examples", "id": "ko.e051", "k": "tr", "src": "Because I don't have time.", "tgt": "因为我没有时间。"}
+{"f": "examples", "id": "ko.e052", "k": "tr", "src": "Coffee or tea?", "tgt": "咖啡还是茶？"}
+{"f": "examples", "id": "ko.e053", "k": "tr", "src": "Then see you tomorrow.", "tgt": "那明天见。"}
+{"f": "examples", "id": "ko.e054", "k": "tr", "src": "Actually, my Korean isn't good.", "tgt": "其实我韩语说得不好。"}
+{"f": "examples", "id": "ko.e055", "k": "tr", "src": "I like this song.", "tgt": "我喜欢这首歌。"}
+{"f": "examples", "id": "ko.e056", "k": "tr", "src": "The weather is bad.", "tgt": "天气不好。"}
+{"f": "examples", "id": "ko.e057", "k": "tr", "src": "The house is big.", "tgt": "房子很大。"}
+{"f": "examples", "id": "ko.e058", "k": "tr", "src": "The room is small.", "tgt": "房间很小。"}
+{"f": "examples", "id": "ko.e059", "k": "tr", "src": "I have a lot to do.", "tgt": "我要做的事很多。"}
+{"f": "examples", "id": "ko.e060", "k": "tr", "src": "This is too expensive.", "tgt": "这个太贵了。"}
+{"f": "examples", "id": "ko.e061", "k": "tr", "src": "It's cheap here.", "tgt": "这里很便宜。"}
+{"f": "examples", "id": "ko.e062", "k": "tr", "src": "Are you busy these days?", "tgt": "你最近忙吗？"}
+{"f": "examples", "id": "ko.e063", "k": "tr", "src": "Studying Korean is fun.", "tgt": "学韩语很有意思。"}
+{"f": "examples", "id": "ko.e064", "k": "tr", "src": "Today is really tough.", "tgt": "今天真累。"}
+{"f": "examples", "id": "ko.e065", "k": "tr", "src": "Be honest. What are we?", "tgt": "你说实话。我们算什么关系？"}
+{"f": "examples", "id": "ko.e066", "k": "tr", "src": "I'm not joking. I want to date you seriously.", "tgt": "我不是开玩笑。我想认真跟你交往。"}
+{"f": "examples", "id": "ko.e067", "k": "tr", "src": "I'll buy dinner. Stop being mad.", "tgt": "我请你吃晚饭。别生气了。"}
+{"f": "examples", "id": "ko.e068", "k": "tr", "src": "It's already 100 days. Happy 100th!", "tgt": "已经 100 天了。100 天快乐！"}
+{"f": "examples", "id": "ko.e069", "k": "tr", "src": "Same taste. I think we're a good match.", "tgt": "口味一模一样。我觉得我们很合得来。"}
+{"f": "examples", "id": "ko.e070", "k": "tr", "src": "What time is tomorrow's meeting? It's not on the calendar.", "tgt": "明天的会议几点？日历上没有。"}
+{"f": "examples", "id": "ko.e071", "k": "tr", "src": "When is this report due?", "tgt": "这份报告什么时候截止？"}
+{"f": "examples", "id": "ko.e072", "k": "tr", "src": "Manager, do you have a moment?", "tgt": "经理，您现在方便吗？"}
+{"f": "examples", "id": "ko.e073", "k": "tr", "src": "I'll head out first.", "tgt": "我先下班了。"}
+{"f": "examples", "id": "ko.e074", "k": "tr", "src": "I have to work late today. Next time for the team dinner.", "tgt": "我今天得加班。聚餐下次吧。"}
+{"f": "patterns", "id": "ko.p001", "k": "meaning", "src": "topic marker: 'as for…'; contrast, general statements", "tgt": "话题助词：“说到……”；表示对比、一般性的陈述"}
+{"f": "patterns", "id": "ko.p002", "k": "meaning", "src": "subject marker: who/what specifically; new information", "tgt": "主格助词：具体指出是谁 / 是什么；新信息"}
+{"f": "patterns", "id": "ko.p003", "k": "meaning", "src": "object marker", "tgt": "宾格助词"}
+{"f": "patterns", "id": "ko.p004", "k": "meaning", "src": "to / at (destination, time)", "tgt": "到 / 在（去的地方、时间）"}
+{"f": "patterns", "id": "ko.p005", "k": "meaning", "src": "at (where an action happens) / from", "tgt": "在（动作发生的地方）/ 从"}
+{"f": "patterns", "id": "ko.p006", "k": "meaning", "src": "also / too (replaces 은/는/이/가/을/를)", "tgt": "也（替换 은/는/이/가/을/를）"}
+{"f": "patterns", "id": "ko.p007", "k": "meaning", "src": "possessive; often pronounced 에", "tgt": "所属，“……的”；常读成 에"}
+{"f": "patterns", "id": "ko.p008", "k": "meaning", "src": "and / with", "tgt": "和 / 跟"}
+{"f": "patterns", "id": "ko.p009", "k": "meaning", "src": "only", "tgt": "只"}
+{"f": "patterns", "id": "ko.p010", "k": "meaning", "src": "toward / by means of", "tgt": "往 / 用（方向、手段）"}
+{"f": "patterns", "id": "ko.p011", "k": "meaning", "src": "polite present (ㅏ/ㅗ stems → 아요, others → 어요, 하다 → 해요)", "tgt": "礼貌体的现在时（词干是 ㅏ/ㅗ → 아요，其他 → 어요，하다 → 해요）"}
+{"f": "patterns", "id": "ko.p012", "k": "meaning", "src": "polite past", "tgt": "礼貌体的过去时"}
+{"f": "patterns", "id": "ko.p013", "k": "meaning", "src": "future / intention", "tgt": "将来 / 打算"}
+{"f": "patterns", "id": "ko.p014", "k": "meaning", "src": "don't / not (choice)", "tgt": "不（主观上不做）"}
+{"f": "patterns", "id": "ko.p015", "k": "meaning", "src": "can't (ability, circumstance)", "tgt": "不能、没能（能力或情况不允许）"}
+{"f": "patterns", "id": "ko.p016", "k": "meaning", "src": "don't (slightly formal 안)", "tgt": "不（比 안 稍正式）"}
+{"f": "patterns", "id": "ko.p017", "k": "meaning", "src": "can / cannot", "tgt": "能 / 不能"}
+{"f": "patterns", "id": "ko.p018", "k": "meaning", "src": "shall we…? (suggestion)", "tgt": "……吧？/ ……好吗？（提议）"}
+{"f": "patterns", "id": "ko.p019", "k": "meaning", "src": "do you want to…?", "tgt": "你想……吗？要不要……？（问对方意愿）"}
+{"f": "patterns", "id": "ko.p020", "k": "meaning", "src": "let's (casual)", "tgt": "……吧（半语）"}
+{"f": "patterns", "id": "ko.p021", "k": "meaning", "src": "I will (promise, speaker's intent)", "tgt": "我会……（承诺、说话人的意图）"}
+{"f": "patterns", "id": "ko.p022", "k": "meaning", "src": "polite request / honorific present", "tgt": "礼貌的请求 / 尊敬形现在时"}
+{"f": "patterns", "id": "ko.p023", "k": "meaning", "src": "please do (for me)", "tgt": "请（为我）做……"}
+{"f": "patterns", "id": "ko.p024", "k": "meaning", "src": "don't (command)", "tgt": "别……（命令）"}
+{"f": "patterns", "id": "ko.p025", "k": "meaning", "src": "noticing / mild surprise", "tgt": "当场发现 / 轻微的惊讶"}
+{"f": "patterns", "id": "ko.p026", "k": "meaning", "src": "soft contrast, background info", "tgt": "委婉的转折、交代背景"}
+{"f": "patterns", "id": "ko.p027", "k": "meaning", "src": "is (after consonant / after vowel)", "tgt": "“是”（收音后 / 元音后）"}
+{"f": "patterns", "id": "ko.p028", "k": "meaning", "src": "there is, have / there isn't", "tgt": "有、在 / 没有、不在"}
+{"f": "patterns", "id": "ko.p029", "k": "meaning", "src": "go in order to", "tgt": "去做……（表示目的）"}
+{"f": "patterns", "id": "ko.p030", "k": "meaning", "src": "want to", "tgt": "想……"}
+{"f": "patterns", "id": "ko.p031", "k": "meaning", "src": "I think / it seems", "tgt": "我觉得 / 好像"}
+{"f": "patterns", "id": "ko.p032", "k": "meaning", "src": "if / when", "tgt": "如果 / ……的话"}
+{"f": "patterns", "id": "ko.p033", "k": "meaning", "src": "things, people, cups, age, hours", "tgt": "个数、人数、杯数、年龄、几点"}
+{"f": "patterns", "id": "ko.p034", "k": "meaning", "src": "money, dates, minutes, phone, floors", "tgt": "钱、日期、分钟、电话号码、楼层"}
+{"f": "patterns", "id": "ko.p035", "k": "meaning", "src": "and then / so / but", "tgt": "然后 / 所以 / 可是"}
+{"f": "patterns", "id": "ko.p036", "k": "meaning", "src": "address forms: polite name, title, casual call", "tgt": "称呼：礼貌地叫名字、头衔、随便地叫人"}
+{"f": "patterns", "id": "ko.p037", "k": "meaning", "src": "honorific: raises the subject (elders, customers)", "tgt": "尊敬形：抬高做动作的人（长辈、顾客）"}
+{"f": "patterns", "id": "ko.p038", "k": "meaning", "src": "honorific replacements for 먹다·마시다 / 자다 / 있다", "tgt": "吃·喝 / 睡 / 在的尊敬说法（替换 먹다·마시다 / 자다 / 있다）"}
+{"f": "patterns", "id": "ko.p039", "k": "meaning", "src": "softener: 'a bit' / 'please'", "tgt": "缓和语气的词：“一下” / “麻烦”"}
+{"f": "patterns", "id": "ko.p040", "k": "meaning", "src": "'by any chance' — opens a polite question", "tgt": "“请问……”、“不知道……”：引出礼貌的问题"}
+{"f": "patterns", "id": "ko.p041", "k": "meaning", "src": "'would you mind…?' (very polite request)", "tgt": "“能不能请您……？”（非常礼貌的请求）"}
+{"f": "patterns", "id": "ko.p042", "k": "meaning", "src": "'would it be okay if…?' (permission)", "tgt": "“……可以吗？”（征求许可）"}
+{"f": "patterns", "id": "ko.p043", "k": "meaning", "src": "'may I…?'", "tgt": "“我可以……吗？”"}
+{"f": "patterns", "id": "ko.p044", "k": "meaning", "src": "address colleagues by title, never bare name", "tgt": "用头衔称呼同事，绝不直呼名字"}
+{"f": "patterns", "id": "ko.p045", "k": "meaning", "src": "work sign-offs: to those staying / to seniors after work", "tgt": "职场道别：对还在工作的人 / 下班后对上级"}
+{"f": "patterns", "id": "ko.p046", "k": "meaning", "src": "email opener: 'the reason I'm writing is…'", "tgt": "邮件开头：“我写信是想……”"}
+{"f": "patterns", "id": "ko.p047", "k": "meaning", "src": "polite request closer (humble)", "tgt": "礼貌的请求结尾（谦虚）"}
+{"f": "lessons", "id": "hangul", "k": "title", "src": "1 · Hangul in one sitting", "tgt": "1 · 一口气学会韩文", "_waive": ["hangul"], "_note": "Body adds Hangul the English body lacks (ㄹ outside the strokes token, the tense letters ㄲ ㄸ ㅃ ㅉ ㅆ, the jamo ㅐ ㅔ ㅕ ㅠ ㅚ ㅞ ㅙ ㅘ ㅝ ㅟ ㅢ beside their romanization, and the examples 서울, 우유, 뭐, 시, 의, 밥, 학, 물, 돈이) so the reading guide can tell a pinyin reader how each romanization letter is said (profile zh-ko 6.1, 3.6)."}
+{"f": "lessons", "id": "hangul", "k": "blurb", "src": "The alphabet: 14 consonants, 10 vowels, how blocks stack.", "tgt": "字母表：14 个辅音、10 个元音，以及音节块怎么拼。"}
+{"f": "sentences", "id": "ko.s0001", "k": "gloss", "src": "ㄴ + ㅏ side by side", "tgt": "ㄴ + ㅏ 左右排列"}
+{"f": "sentences", "id": "ko.s0002", "k": "gloss", "src": "ㄴ + ㅗ stacked", "tgt": "ㄴ + ㅗ 上下叠放"}
+{"f": "sentences", "id": "ko.s0003", "k": "gloss", "src": "ㅎ + ㅏ + ㄴ final", "tgt": "ㅎ + ㅏ + 收音 ㄴ"}
+{"f": "sentences", "id": "ko.s0004", "k": "gloss", "src": "ㅅ+ㅓ, ㅇ(silent)+ㅜ+ㄹ", "tgt": "ㅅ+ㅓ，ㅇ（不发音）+ㅜ+ㄹ"}
+{"f": "checks", "id": "hangul.k1", "k": "q", "src": "Which vowel is the horizontal 'u' (oo) sound?", "tgt": "哪个横向元音读 u（同拼音 wu 的 u，嘴唇圆）？", "rw": "English-spelling sound hint in brackets"}
+{"f": "checks", "id": "hangul.k1", "k": "why", "src": "ㅜ: horizontal stick, tick down = u.", "tgt": "ㅜ：横棍，短画朝下 = u。"}
+{"f": "checks", "id": "hangul.k2", "k": "q", "src": "What does ㅇ sound like at the START of a block?", "tgt": "ㅇ 在音节块开头怎么读？", "rw": "English sound comparison (\"sounds like …\")"}
+{"f": "checks", "id": "hangul.k2", "k": "o[0]", "src": "Silent", "tgt": "不发音"}
+{"f": "checks", "id": "hangul.k2", "k": "o[1]", "src": "ng", "tgt": "ng（同拼音 ang 里的 ng）"}
+{"f": "checks", "id": "hangul.k2", "k": "o[2]", "src": "h", "tgt": "h"}
+{"f": "checks", "id": "hangul.k2", "k": "o[3]", "src": "g", "tgt": "g"}
+{"f": "checks", "id": "hangul.k2", "k": "why", "src": "Initial ㅇ is a placeholder; final ㅇ is ng.", "tgt": "开头的 ㅇ 只占位置；结尾的 ㅇ 读 ng。"}
+{"f": "checks", "id": "hangul.k3", "k": "q", "src": "Which block is 'han'?", "tgt": "哪个音节块读 han？"}
+{"f": "checks", "id": "hangul.k3", "k": "why", "src": "ㅎ + ㅏ + ㄴ (final) = 한.", "tgt": "ㅎ + ㅏ + ㄴ（收音）= 한。"}
+{"f": "practice", "id": "hangul.01", "k": "q", "src": "Which letter is the 'a' sound, as in father?", "tgt": "哪个字母读 a（同拼音 a）？", "rw": "English sound comparison (\"as in …\")"}
+{"f": "practice", "id": "hangul.01", "k": "why", "src": "ㅏ: vertical stick, tick to the right.", "tgt": "ㅏ：竖棍，短画朝右。"}
+{"f": "practice", "id": "hangul.02", "k": "q", "src": "Which letter is silent at the start of a block?", "tgt": "哪个字母在音节块开头不发音？"}
+{"f": "practice", "id": "hangul.02", "k": "why", "src": "Initial ㅇ only holds the vowel's place; at the end it is ng.", "tgt": "开头的 ㅇ 只给元音占位置；在结尾读 ng。"}
+{"f": "practice", "id": "hangul.03", "k": "q", "src": "Which block reads 'no'?", "tgt": "哪个音节块读 no？"}
+{"f": "practice", "id": "hangul.03", "k": "why", "src": "ㄴ + ㅗ, with the horizontal vowel stacked below.", "tgt": "ㄴ + ㅗ，横向元音叠在下面。"}
+{"f": "practice", "id": "hangul.04", "k": "q", "src": "Which block reads 'gang'?", "tgt": "哪个音节块读 gang？"}
+{"f": "practice", "id": "hangul.04", "k": "why", "src": "ㄱ + ㅏ + final ㅇ (ng).", "tgt": "ㄱ + ㅏ + 收音 ㅇ（ng）。"}
+{"f": "practice", "id": "hangul.05", "k": "q", "src": "Which word reads 'seoul'?", "tgt": "哪个词读 seoul？"}
+{"f": "practice", "id": "hangul.05", "k": "why", "src": "ㅅ+ㅓ = seo, silent ㅇ+ㅜ+ㄹ = ul.", "tgt": "ㅅ+ㅓ = seo，不发音的 ㅇ+ㅜ+ㄹ = ul。"}
+{"f": "practice", "id": "hangul.06", "k": "p", "src": "Seoul (seo-ul)", "tgt": "首尔（seo-ul）"}
+{"f": "practice", "id": "hangul.06", "k": "why", "src": "seo = ㅅ+ㅓ, ul = ㅇ+ㅜ+ㄹ.", "tgt": "seo = ㅅ+ㅓ，ul = ㅇ+ㅜ+ㄹ。"}
+{"f": "practice", "id": "hangul.07", "k": "p", "src": "Korean language (han-gu-geo)", "tgt": "韩语（han-gu-geo）"}
+{"f": "practice", "id": "hangul.07", "k": "why", "src": "han + guk + eo; the ㄱ of 국 links into 어 when spoken.", "tgt": "han + guk + eo；说的时候，국 的 ㄱ 连到 어 上。"}
+{"f": "practice", "id": "hangul.08", "k": "p", "src": "friend (chin-gu)", "tgt": "朋友（chin-gu）"}
+{"f": "practice", "id": "hangul.08", "k": "why", "src": "ㅊ is ch; ㅈ is j.", "tgt": "ㅊ 是 ch（接近拼音 q，不是翘舌的 ch）；ㅈ 是 j。"}
+{"f": "practice", "id": "hangul.09", "k": "p", "src": "Seoul (seoul)", "tgt": "首尔（seoul）"}
+{"f": "practice", "id": "hangul.09", "k": "why", "src": "ㅜ (u) sits below the ㅇ: 울.", "tgt": "ㅜ（u）放在 ㅇ 下面：울。"}
+{"f": "practice", "id": "hangul.10", "k": "p", "src": "Korean language (hangugeo)", "tgt": "韩语（hangugeo）"}
+{"f": "practice", "id": "hangul.10", "k": "why", "src": "h = ㅎ, a = ㅏ, final n = ㄴ: 한.", "tgt": "h = ㅎ，a = ㅏ，收音 n = ㄴ：한。"}
+{"f": "practice", "id": "hangul.11", "k": "p", "src": "banana (banana)", "tgt": "香蕉（banana）"}
+{"f": "practice", "id": "hangul.11", "k": "why", "src": "na = ㄴ + ㅏ, side by side.", "tgt": "na = ㄴ + ㅏ，左右排列。"}
+{"f": "practice", "id": "hangul.12", "k": "p", "src": "Type 'gang' — river", "tgt": "输入 gang：江、河"}
+{"f": "practice", "id": "hangul.12", "k": "why", "src": "Final ㅇ sounds like ng.", "tgt": "收音 ㅇ 读 ng，同拼音 ang 里的 ng。", "rw": "English sound comparison (\"sounds like …\")"}
+{"f": "practice", "id": "hangul.13", "k": "p", "src": "Type 'seoul' — Seoul", "tgt": "输入 seoul：首尔"}
+{"f": "practice", "id": "hangul.13", "k": "why", "src": "Two blocks: 서 + 울.", "tgt": "两个音节块：서 + 울。"}
+{"f": "practice", "id": "hangul.14", "k": "p", "src": "Type 'hangugeo' — Korean language", "tgt": "输入 hangugeo：韩语"}
+{"f": "practice", "id": "hangul.14", "k": "why", "src": "Three blocks: 한 + 국 + 어.", "tgt": "三个音节块：한 + 국 + 어。"}
+{"f": "lessons", "id": "polite", "k": "title", "src": "2 · Politeness levels", "tgt": "2 · 礼貌等级"}
+{"f": "lessons", "id": "polite", "k": "blurb", "src": "Why every verb has two endings, and which one to use.", "tgt": "为什么每个动词都有两种词尾，平时该用哪一种。"}
+{"f": "sentences", "id": "ko.s0005", "k": "gloss", "src": "Thanks (polite)", "tgt": "谢谢（礼貌）"}
+{"f": "sentences", "id": "ko.s0006", "k": "gloss", "src": "Thanks (casual)", "tgt": "谢谢（半语）"}
+{"f": "sentences", "id": "ko.s0007", "k": "gloss", "src": "You're cute (polite)", "tgt": "你真可爱（礼貌）"}
+{"f": "sentences", "id": "ko.s0008", "k": "gloss", "src": "You're cute (casual)", "tgt": "你真可爱（半语）"}
+{"f": "checks", "id": "polite.k1", "k": "q", "src": "You're ordering at a café. Which form?", "tgt": "你在咖啡馆点单。用哪种说法？"}
+{"f": "checks", "id": "polite.k1", "k": "why", "src": "요-form is the default with strangers and staff.", "tgt": "跟陌生人和店员说话，默认用 요体。"}
+{"f": "checks", "id": "polite.k2", "k": "q", "src": "Dropping the 요 makes speech…", "tgt": "去掉 요，说话就变成……"}
+{"f": "checks", "id": "polite.k2", "k": "o[0]", "src": "casual (반말)", "tgt": "半语（반말）"}
+{"f": "checks", "id": "polite.k2", "k": "o[1]", "src": "more polite", "tgt": "更礼貌"}
+{"f": "checks", "id": "polite.k2", "k": "o[2]", "src": "formal", "tgt": "正式体"}
+{"f": "checks", "id": "polite.k2", "k": "o[3]", "src": "a question", "tgt": "疑问句"}
+{"f": "checks", "id": "polite.k2", "k": "why", "src": "반말 = casual speech for close friends and younger people.", "tgt": "반말 = 半语，对很熟的朋友和比自己小的人说。"}
+{"f": "checks", "id": "polite.k3", "k": "q", "src": "감사합니다 is which level?", "tgt": "감사합니다 属于哪一级？"}
+{"f": "checks", "id": "polite.k3", "k": "o[0]", "src": "formal", "tgt": "正式体"}
+{"f": "checks", "id": "polite.k3", "k": "o[1]", "src": "casual", "tgt": "半语"}
+{"f": "checks", "id": "polite.k3", "k": "o[2]", "src": "polite 요-form", "tgt": "礼貌体（요体）"}
+{"f": "checks", "id": "polite.k3", "k": "o[3]", "src": "slang", "tgt": "俚语"}
+{"f": "checks", "id": "polite.k3", "k": "why", "src": "-습니다 / -ㅂ니다 is the formal level.", "tgt": "-습니다 / -ㅂ니다 是正式体。"}
+{"f": "practice", "id": "polite.01", "k": "q", "src": "'Thanks' to a close friend (casual):", "tgt": "对好朋友说“谢谢”（半语）："}
+{"f": "practice", "id": "polite.01", "k": "why", "src": "Casual speech drops 요.", "tgt": "半语就是去掉 요。"}
+{"f": "practice", "id": "polite.02", "k": "q", "src": "'Thank you' to a shop clerk you've never met:", "tgt": "对从没见过的店员说“谢谢”："}
+{"f": "practice", "id": "polite.02", "k": "why", "src": "With strangers use a polite or formal form.", "tgt": "跟陌生人说话，用礼貌体或正式体。"}
+{"f": "practice", "id": "polite.03", "k": "q", "src": "Which one is the formal level?", "tgt": "哪一个是正式体？"}
+{"f": "practice", "id": "polite.03", "k": "why", "src": "-습니다 / -ㅂ니다 is the formal level.", "tgt": "-습니다 / -ㅂ니다 是正式体。"}
+{"f": "practice", "id": "polite.04", "k": "q", "src": "'Sorry' to a close friend (casual):", "tgt": "对好朋友说“对不起”（半语）："}
+{"f": "practice", "id": "polite.04", "k": "why", "src": "미안해 is the casual form; 미안해요 is polite.", "tgt": "미안해 是半语；미안해요 是礼貌体。"}
+{"f": "practice", "id": "polite.05", "k": "q", "src": "'You're cute' (polite):", "tgt": "“你真可爱”（礼貌）："}
+{"f": "practice", "id": "polite.05", "k": "why", "src": "귀여워 + 요 = polite.", "tgt": "귀여워 + 요 = 礼貌体。"}
+{"f": "practice", "id": "polite.06", "k": "p", "src": "This one, please (polite)", "tgt": "请给我这个（礼貌）"}
+{"f": "practice", "id": "polite.06", "k": "why", "src": "주세요 is the polite 'please give'.", "tgt": "주세요 是礼貌的“请给我”。"}
+{"f": "practice", "id": "polite.07", "k": "p", "src": "Yes, thanks (polite)", "tgt": "好的，谢谢（礼貌）"}
+{"f": "practice", "id": "polite.07", "k": "why", "src": "Keep 요 with people you don't know well.", "tgt": "跟不太熟的人说话，要保留 요。"}
+{"f": "practice", "id": "polite.08", "k": "p", "src": "No, it's okay (polite)", "tgt": "不用了，没关系（礼貌）"}
+{"f": "practice", "id": "polite.08", "k": "why", "src": "괜찮아 without 요 is casual.", "tgt": "괜찮아 不带 요 就是半语。"}
+{"f": "practice", "id": "polite.09", "k": "p", "src": "Thanks (polite)", "tgt": "谢谢（礼貌）"}
+{"f": "practice", "id": "polite.09", "k": "why", "src": "Add 요 to make it polite.", "tgt": "加上 요 就是礼貌体。"}
+{"f": "practice", "id": "polite.10", "k": "p", "src": "Sorry (casual)", "tgt": "对不起（半语）"}
+{"f": "practice", "id": "polite.10", "k": "why", "src": "Casual = the 요-form without 요: 미안해.", "tgt": "半语 = 요体去掉 요：미안해。"}
+{"f": "practice", "id": "polite.11", "k": "p", "src": "I'm sorry (formal)", "tgt": "对不起（正式）"}
+{"f": "practice", "id": "polite.11", "k": "why", "src": "Formal level ends in -ㅂ니다.", "tgt": "正式体以 -ㅂ니다 结尾。"}
+{"f": "practice", "id": "polite.12", "k": "p", "src": "Yes, thanks (polite 요-form)", "tgt": "好的，谢谢（礼貌）· 요体"}
+{"f": "practice", "id": "polite.12", "k": "why", "src": "Polite = casual form + 요.", "tgt": "礼貌体 = 半语 + 요。"}
+{"f": "practice", "id": "polite.13", "k": "p", "src": "Yes, I'm sorry (formal)", "tgt": "是，对不起（正式）"}
+{"f": "practice", "id": "polite.13", "k": "why", "src": "죄송합니다 is the safe apology to strangers.", "tgt": "죄송합니다 是向陌生人道歉最稳妥的说法。"}
+{"f": "practice", "id": "polite.14", "k": "p", "src": "No, it's okay (casual)", "tgt": "不用了，没关系（半语）"}
+{"f": "practice", "id": "polite.14", "k": "hint", "src": "drop the 요", "tgt": "去掉 요"}
+{"f": "practice", "id": "polite.14", "k": "why", "src": "Casual drops the 요.", "tgt": "半语要去掉 요。"}
+{"f": "lessons", "id": "meet", "k": "title", "src": "3 · Meeting people", "tgt": "3 · 认识新朋友"}
+{"f": "lessons", "id": "meet", "k": "blurb", "src": "Introduce yourself, ask the four standard questions, say goodbye correctly.", "tgt": "做自我介绍，问四个常见问题，正确地道别。"}
+{"f": "sentences", "id": "ko.s0295", "k": "gloss", "src": "Hello. I'm Kii.", "tgt": "你好。我叫 Kii。"}
+{"f": "sentences", "id": "ko.s0010", "k": "gloss", "src": "Nice to meet you", "tgt": "很高兴认识你"}
+{"f": "sentences", "id": "ko.s0011", "k": "gloss", "src": "Where are you from?", "tgt": "你是从哪儿来的？"}
+{"f": "sentences", "id": "ko.s0012", "k": "gloss", "src": "I'm from the US", "tgt": "我是从美国来的"}
+{"f": "sentences", "id": "ko.s0013", "k": "gloss", "src": "What do you do?", "tgt": "你做什么工作？"}
+{"f": "sentences", "id": "ko.s0014", "k": "gloss", "src": "I'm studying Korean", "tgt": "我在学韩语"}
+{"f": "sentences", "id": "ko.s0015", "k": "gloss", "src": "How old are you?", "tgt": "你多大了？"}
+{"f": "sentences", "id": "ko.s0016", "k": "gloss", "src": "I'm 28", "tgt": "我 28 岁"}
+{"f": "sentences", "id": "ko.s0017", "k": "gloss", "src": "Go well (they are leaving)", "tgt": "走好（对方离开时说）"}
+{"f": "sentences", "id": "ko.s0018", "k": "gloss", "src": "Stay well (you are leaving)", "tgt": "请留步（自己离开时说）"}
+{"f": "checks", "id": "meet.k1", "k": "q", "src": "'I'm Lisa' — in Hangul 리사, and the last block 사 ends in a vowel, so:", "tgt": "“我是 Lisa”：韩文写作 리사，最后一个音节块 사 以元音结尾，所以说："}
+{"f": "checks", "id": "meet.k1", "k": "why", "src": "Go by the last Hangul block: no final consonant → 예요; a final consonant → 이에요.", "tgt": "看最后一个韩文音节块：没有收音 → 예요；有收音 → 이에요。"}
+{"f": "checks", "id": "meet.k2", "k": "q", "src": "Someone is leaving and you are staying. You say:", "tgt": "对方要走，你留下。你说："}
+{"f": "checks", "id": "meet.k2", "k": "why", "src": "가세요 = go well (to the one leaving).", "tgt": "가세요 = 走好（对离开的人说）。"}
+{"f": "checks", "id": "meet.k3", "k": "q", "src": "'Where are you from?'", "tgt": "“你是从哪儿来的？”"}
+{"f": "checks", "id": "meet.k3", "k": "why", "src": "에서 왔어요 = came from.", "tgt": "에서 왔어요 = 从……来。"}
+{"f": "practice", "id": "meet.01", "k": "q", "src": "'I'm Minsu' — 민수 ends in a vowel, so:", "tgt": "“我叫 Minsu”：민수 以元音结尾，所以说："}
+{"f": "practice", "id": "meet.01", "k": "why", "src": "예요 after a vowel, 이에요 after a consonant.", "tgt": "元音后用 예요，收音后用 이에요。"}
+{"f": "practice", "id": "meet.02", "k": "q", "src": "'Nice to meet you' =", "tgt": "“很高兴认识你” ="}
+{"f": "practice", "id": "meet.02", "k": "why", "src": "만나서 반가워요 = glad because we met.", "tgt": "만나서 반가워요 = 见到你很高兴。"}
+{"f": "practice", "id": "meet.03", "k": "q", "src": "You leave a shop; the owner stays. You say:", "tgt": "你离开商店，老板留在店里。你说："}
+{"f": "practice", "id": "meet.03", "k": "why", "src": "계세요 = stay well, said by the one leaving.", "tgt": "계세요 = 请留步，由离开的人说。"}
+{"f": "practice", "id": "meet.04", "k": "q", "src": "'Where are you from?' =", "tgt": "“你是从哪儿来的？” ="}
+{"f": "practice", "id": "meet.04", "k": "why", "src": "에서 왔어요 = came from.", "tgt": "에서 왔어요 = 从……来。"}
+{"f": "practice", "id": "meet.05", "k": "q", "src": "'I'm a student' =", "tgt": "“我是学生” ="}
+{"f": "practice", "id": "meet.05", "k": "why", "src": "학생 ends in a consonant → 이에요.", "tgt": "학생 以收音结尾 → 이에요。"}
+{"f": "practice", "id": "meet.06", "k": "p", "src": "I'm from the US", "tgt": "我是从美国来的"}
+{"f": "practice", "id": "meet.06", "k": "why", "src": "Place + 에서 왔어요 = came from.", "tgt": "地点 + 에서 왔어요 = 从……来。"}
+{"f": "practice", "id": "meet.07", "k": "p", "src": "I'm studying Korean", "tgt": "我在学韩语"}
+{"f": "practice", "id": "meet.07", "k": "why", "src": "한국어 = Korean language; 한국 = Korea.", "tgt": "한국어 = 韩语；한국 = 韩国。"}
+{"f": "practice", "id": "meet.08", "k": "p", "src": "Hello, I'm Minsu", "tgt": "你好，我叫 Minsu"}
+{"f": "practice", "id": "meet.08", "k": "why", "src": "민수 ends in a vowel → 예요.", "tgt": "민수 以元音结尾 → 예요。"}
+{"f": "practice", "id": "meet.09", "k": "p", "src": "I'm a student", "tgt": "我是学生"}
+{"f": "practice", "id": "meet.09", "k": "why", "src": "Consonant ending → 이에요.", "tgt": "以收音结尾 → 이에요。"}
+{"f": "practice", "id": "meet.10", "k": "p", "src": "I'm Minsu", "tgt": "我叫 Minsu"}
+{"f": "practice", "id": "meet.10", "k": "why", "src": "Vowel ending → 예요.", "tgt": "以元音结尾 → 예요。"}
+{"f": "practice", "id": "meet.11", "k": "p", "src": "Goodbye (you are leaving, they stay)", "tgt": "再见（你离开，对方留下）"}
+{"f": "practice", "id": "meet.11", "k": "why", "src": "The one leaving says 계세요 (stay well).", "tgt": "离开的人说 계세요（请留步）。"}
+{"f": "practice", "id": "meet.12", "k": "p", "src": "Nice to meet you", "tgt": "很高兴认识你"}
+{"f": "practice", "id": "meet.12", "k": "why", "src": "The standard first-meeting phrase.", "tgt": "初次见面的标准说法。"}
+{"f": "practice", "id": "meet.13", "k": "p", "src": "Where are you from?", "tgt": "你是从哪儿来的？"}
+{"f": "practice", "id": "meet.13", "k": "why", "src": "Lit. 'from where did you come?'", "tgt": "字面意思是“你从哪里来了？”。"}
+{"f": "practice", "id": "meet.14", "k": "p", "src": "How old are you?", "tgt": "你多大了？"}
+{"f": "practice", "id": "meet.14", "k": "why", "src": "몇 = how many, 살 = years of age.", "tgt": "몇 = 几，살 = 岁。"}
+{"f": "lessons", "id": "sound-changes", "k": "title", "src": "4 · Sound changes: why 감사합니다 sounds different", "tgt": "4 · 音变：为什么 감사합니다 听起来不一样"}
+{"f": "lessons", "id": "sound-changes", "k": "blurb", "src": "Four habits that make spoken Korean differ from its spelling. Learn to expect them.", "tgt": "四个习惯，让韩语说出来跟写出来不一样。提前知道，就不会被吓到。"}
+{"f": "sentences", "id": "ko.s0019", "k": "gloss", "src": "Korean language · sounds like 한구거", "tgt": "韩语 · 听起来像 한구거"}
+{"f": "sentences", "id": "ko.s0020", "k": "gloss", "src": "music · sounds like 으막", "tgt": "音乐 · 听起来像 으막"}
+{"f": "sentences", "id": "ko.s0021", "k": "gloss", "src": "there is · sounds like 이써요", "tgt": "有 · 听起来像 이써요"}
+{"f": "sentences", "id": "ko.s0022", "k": "gloss", "src": "thank you · sounds like 감사함니다", "tgt": "谢谢 · 听起来像 감사함니다"}
+{"f": "sentences", "id": "ko.s0023", "k": "gloss", "src": "nice to meet you · sounds like 반갑씀니다", "tgt": "很高兴见到你 · 听起来像 반갑씀니다"}
+{"f": "sentences", "id": "ko.s0024", "k": "gloss", "src": "Korean (speech) · sounds like 한궁말", "tgt": "韩国话 · 听起来像 한궁말"}
+{"f": "sentences", "id": "ko.s0025", "k": "gloss", "src": "to be good · sounds like 조타", "tgt": "好（基本形）· 听起来像 조타"}
+{"f": "sentences", "id": "ko.s0026", "k": "gloss", "src": "congratulations · sounds like 추카", "tgt": "祝贺 · 听起来像 추카"}
+{"f": "sentences", "id": "ko.s0027", "k": "gloss", "src": "it's good · sounds like 조아요", "tgt": "很好 · 听起来像 조아요"}
+{"f": "sentences", "id": "ko.s0028", "k": "gloss", "src": "contact · sounds like 열락", "tgt": "联系 · 听起来像 열락"}
+{"f": "sentences", "id": "ko.s0029", "k": "gloss", "src": "Lunar New Year · sounds like 설랄", "tgt": "春节（农历新年）· 听起来像 설랄"}
+{"f": "checks", "id": "sound-changes.k1", "k": "q", "src": "감사합니다 sounds like:", "tgt": "감사합니다 听起来像："}
+{"f": "checks", "id": "sound-changes.k1", "k": "o[1]", "src": "감사합니다, exactly as spelled", "tgt": "감사합니다，跟写的一模一样"}
+{"f": "checks", "id": "sound-changes.k1", "k": "why", "src": "ㅂ before ㄴ softens to ㅁ.", "tgt": "ㅂ 在 ㄴ 前面变成 ㅁ。"}
+{"f": "checks", "id": "sound-changes.k2", "k": "q", "src": "한국어 sounds like:", "tgt": "한국어 听起来像："}
+{"f": "checks", "id": "sound-changes.k2", "k": "o[1]", "src": "한국 어, with a pause", "tgt": "한국 어，中间停一下"}
+{"f": "checks", "id": "sound-changes.k2", "k": "why", "src": "The final ㄱ slides into the empty ㅇ seat.", "tgt": "收音 ㄱ 移到后面空着的 ㅇ 位置上。"}
+{"f": "checks", "id": "sound-changes.k3", "k": "q", "src": "좋아요 sounds like:", "tgt": "좋아요 听起来像："}
+{"f": "checks", "id": "sound-changes.k3", "k": "why", "src": "ㅎ between vowels goes silent.", "tgt": "ㅎ 在两个元音之间不发音。"}
+{"f": "practice", "id": "sound-changes.01", "k": "q", "src": "감사합니다 sounds like:", "tgt": "감사합니다 听起来像："}
+{"f": "practice", "id": "sound-changes.01", "k": "why", "src": "ㅂ before ㄴ softens to ㅁ.", "tgt": "ㅂ 在 ㄴ 前面变成 ㅁ。"}
+{"f": "practice", "id": "sound-changes.02", "k": "q", "src": "한국어 sounds like:", "tgt": "한국어 听起来像："}
+{"f": "practice", "id": "sound-changes.02", "k": "why", "src": "Final ㄱ links into the next block.", "tgt": "收音 ㄱ 连到下一个音节块。"}
+{"f": "practice", "id": "sound-changes.03", "k": "q", "src": "좋아요 sounds like:", "tgt": "좋아요 听起来像："}
+{"f": "practice", "id": "sound-changes.03", "k": "why", "src": "ㅎ between vowels goes silent.", "tgt": "ㅎ 在两个元音之间不发音。"}
+{"f": "practice", "id": "sound-changes.04", "k": "q", "src": "연락 (contact) sounds like:", "tgt": "연락（联系）听起来像："}
+{"f": "practice", "id": "sound-changes.04", "k": "why", "src": "ㄴ + ㄹ → ㄹㄹ.", "tgt": "ㄴ + ㄹ → ㄹㄹ。", "pre": 1}
+{"f": "practice", "id": "sound-changes.05", "k": "q", "src": "축하 (congratulations) sounds like:", "tgt": "축하（祝贺）听起来像："}
+{"f": "practice", "id": "sound-changes.05", "k": "why", "src": "ㄱ + ㅎ → ㅋ.", "tgt": "ㄱ + ㅎ → ㅋ。", "pre": 1}
+{"f": "practice", "id": "sound-changes.06", "k": "p", "src": "Build how 한국어 SOUNDS", "tgt": "拼出 한국어 实际的读音"}
+{"f": "practice", "id": "sound-changes.06", "k": "why", "src": "ㄱ moves to the next block.", "tgt": "ㄱ 移到下一个音节块。"}
+{"f": "practice", "id": "sound-changes.07", "k": "p", "src": "Build how 음악 SOUNDS", "tgt": "拼出 음악 实际的读音"}
+{"f": "practice", "id": "sound-changes.07", "k": "why", "src": "ㅁ moves to the next block.", "tgt": "ㅁ 移到下一个音节块。"}
+{"f": "practice", "id": "sound-changes.08", "k": "p", "src": "Build how 한국말 SOUNDS", "tgt": "拼出 한국말 实际的读音"}
+{"f": "practice", "id": "sound-changes.08", "k": "why", "src": "ㄱ before ㅁ → ㅇ.", "tgt": "ㄱ 在 ㅁ 前面 → ㅇ。"}
+{"f": "practice", "id": "sound-changes.09", "k": "p", "src": "Thank you — write the block as it SOUNDS", "tgt": "谢谢：按实际读音写出这个音节块"}
+{"f": "practice", "id": "sound-changes.09", "k": "why", "src": "ㅂ + ㄴ → ㅁ + ㄴ.", "tgt": "ㅂ + ㄴ → ㅁ + ㄴ。", "pre": 1}
+{"f": "practice", "id": "sound-changes.10", "k": "p", "src": "It's good — how 좋아요 SOUNDS", "tgt": "很好：좋아요 实际的读音"}
+{"f": "practice", "id": "sound-changes.10", "k": "why", "src": "The ㅎ is silent between vowels.", "tgt": "ㅎ 在两个元音之间不发音。"}
+{"f": "practice", "id": "sound-changes.11", "k": "p", "src": "Contact — how 연락 SOUNDS", "tgt": "联系：연락 实际的读音"}
+{"f": "practice", "id": "sound-changes.11", "k": "why", "src": "ㄴ + ㄹ → ㄹㄹ.", "tgt": "ㄴ + ㄹ → ㄹㄹ。", "pre": 1}
+{"f": "practice", "id": "sound-changes.12", "k": "p", "src": "Type the real SPELLING of the word that sounds like 한구거 (Korean language)", "tgt": "输入听起来像 한구거（韩语）的那个词的正确拼写"}
+{"f": "practice", "id": "sound-changes.12", "k": "why", "src": "Spelling keeps the ㄱ under 국.", "tgt": "拼写时，국 下面的 ㄱ 要保留。"}
+{"f": "practice", "id": "sound-changes.13", "k": "p", "src": "Type the real SPELLING of the word that sounds like 조아요 (it's good)", "tgt": "输入听起来像 조아요（很好）的那个词的正确拼写"}
+{"f": "practice", "id": "sound-changes.13", "k": "why", "src": "The silent ㅎ is still written.", "tgt": "不发音的 ㅎ 照样要写。"}
+{"f": "practice", "id": "sound-changes.14", "k": "p", "src": "Type the real SPELLING of the word that sounds like 이써요 (there is)", "tgt": "输入听起来像 이써요（有）的那个词的正确拼写"}
+{"f": "practice", "id": "sound-changes.14", "k": "why", "src": "ㅆ is written under 있.", "tgt": "있 下面写的是 ㅆ。"}

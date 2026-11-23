@@ -20,9 +20,9 @@ Untagged rules in §6 to §12 are design decisions.
 - **What changes from `en-es`:**
   - **Sound and the pron line (§6):** the pron line shows natural Dominican pronunciation through three generated rules: a syllable-final *s* is a breath (`h`), a final *n* before a pause or a vowel is `ng`, and stressed *-ado* loses its *d*. The card text keeps standard spelling. Until recorded Dominican clips exist, the generator runs in "careful" mode (identical to `en-es`).
   - **Grammar (§4):** subject pronouns are normal, not "heavy" (*yo quiero, tú sabes*); questions with *tú* or *usted* before the verb (*¿Qué tú quieres?*) are taught and accepted in typed answers; double *no* and *ello* are recognised, not produced.
-  - **Vocabulary (§10):** 153 Dominican words and phrases. Most are **added** (about 90) or recognition-only (about 48); only 6 replace a word the base teaches (*guagua, habichuelas, chinola, lechosa, pica pollo, pasteles en hoja*), and 22 base card slots are localised (§9.1). Four false friends with Mexican Spanish get their own deck (*guapo, ahorita, coger, chimichurri*, plus *china* and *plátano*).
+  - **Vocabulary (§10):** 153 Dominican words and phrases. Most are **added** (about 92) or recognition-only (about 48); only 4 replace a word the base teaches as a card (*guagua, habichuelas, pica pollo, pasteles en hoja*), and 22 base card slots are localised (§9.1). Four false friends with Mexican Spanish get their own deck (*guapo, ahorita, coger, chimichurri*, plus *china* and *plátano*).
 - **Lessons (§8):** 31. Of the 26 `en-es` lessons, 25 are inherited (20 with Dominican overrides, nearly all city, food and transport names; 5 unchanged) and `caribbean` is dropped. 6 new Dominican lessons.
-- **Decks (§9):** 34. Of the 29 `en-es` decks, 28 are inherited (16 with overrides) and "Caribbean and Dominican Spanish" is dropped. 6 new decks, 98 cards. About 1,006 cards in all.
+- **Decks (§9):** 34. Of the 29 `en-es` decks, 28 are inherited (22 with overrides, mostly notes; 6 unchanged) and "Caribbean and Dominican Spanish" is dropped. 6 new decks, 98 cards. About 1,006 cards in all.
 - **Standing rule (§7):** unchanged: agreement (gender and number; the verb ending matches the subject). It matters more here: when the *s* is a breath, the article and the verb are what show plural and person.
 - **Typing (§12):** standard spelling only. *Cansao*, *'tá*, *pa'* are never accepted as typed answers; *¿Qué tú quieres?* always is.
 
@@ -31,9 +31,9 @@ Untagged rules in §6 to §12 are design decisions.
 ### 2.1 What Dominican Spanish is, for this course
 
 **The model: educated Santo Domingo speech, informal.**
-- [tertiary] Dominican Spanish shares the Caribbean and Andalusian-Canarian traits: *seseo*, *yeísmo*, and a syllable-final *s* that "may weaken to a breathy [h], fade out, or disappear", across all regions ([Wikipedia, *Dominican Spanish*, IPFS mirror](https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Dominican_Spanish)).
+- [tertiary] Dominican Spanish shares the Caribbean and Andalusian-Canarian traits: *seseo*, *yeísmo*, and a syllable-final *s* that may weaken to a breathy [h], fade or disappear, in all regions ([Wikipedia, *Dominican Spanish*, IPFS mirror](https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Dominican_Spanish)).
 - [tertiary] The country splits on syllable-final *r*: in the Cibao (north) *r* becomes an *i* sound (*correr* "correi", *perdón* "peidón"); in the east and the capital it becomes *l* ("correl", "peldón") (same page).
-- [research-backed, practitioner essay by a dialectologist] Orlando Alba describes the Cibao *i* (*alto* [ái̭to], *comer* [koméi̭]) as "the most emblematic feature of popular Cibao speech": it occurs mainly in the speech of people with little schooling, is "stigmatised and rejected in formal or educated speech", and still carries covert prestige as a regional marker; "no todos los cibaeños hablan con la /i/" ([Alba, *Acento*, 2025](https://acento.com.do/cultura/los-cibaenos-hablan-con-la-i-observaciones-sobre-la-vocalizacion-9540218.html)).
+- [practitioner opinion: a dialectologist's newspaper essay] Orlando Alba describes the Cibao *i* (*alto* [ái̭to], *comer* [koméi̭]) as the most emblematic feature of popular Cibao speech; in his account it occurs mainly in the speech of people with little schooling, is stigmatised and avoided in formal or educated speech, and still carries covert prestige as a regional marker; "no todos los cibaeños hablan con la /i/" ([Alba, *Acento*, 2025](https://acento.com.do/cultura/los-cibaenos-hablan-con-la-i-observaciones-sobre-la-vocalizacion-9540218.html)).
 - [inference] So the course models the capital, not the Cibao, and not the most popular end of either. A learner who says *ehh-TOY kahn-SAH-oh* sounds Dominican and educated; a learner who says *poique* or *peldón* in a job interview does not. The capital also has the airport, the diaspora's family ties and most media.
 
 **How far into popular and rural speech** (decided):
@@ -54,10 +54,10 @@ Untagged rules in §6 to §12 are design decisions.
 ### 2.2 Vocabulary rule
 
 1. Where Dominicans have their own everyday word and a learner in the DR needs it, the **Dominican word is the card target** and the base word goes in the note as "Mexico: …" or "Elsewhere: …" (*la guagua*, note "Mexico: el camión; elsewhere: el autobús").
-2. Where the base word is also the normal Dominican word (*carro, celular, computadora, jugo, apartamento*), the card is inherited unchanged. The Wikipedia mirror's dialect table lists *carro, celular, computadora* as the Dominican forms [tertiary].
+2. Where the base word is also the normal Dominican word (*carro, celular, computadora, jugo, apartamento*), the card is inherited unchanged. *Autobús* stays in inherited lessons as the general word (it is understood everywhere); the Dominican decks and lessons use *guagua*. The Wikipedia mirror's dialect table lists *carro, celular, computadora* as the Dominican forms [tertiary].
 3. Where Dominicans have a word and also use the general one, the general word stays the target and the Dominican word is **added** in a Dominican deck.
-4. Slang is taught as slang: its note says who says it to whom ("to friends your age"). Words a source calls derogatory (*carajito* as "semi-derogatory", *sanky-panky*) are recognition-only or left out ([FluentU](https://www.fluentu.com/blog/spanish/dominican-slang/), [practitioner opinion]).
-5. No vulgar words as cards. *Coño* is common and strong ([Lingopie](https://lingopie.com/blog/dominican-slang/) calls it "somewhat vulgar"); it is named once, in the `do-greetings` body, as "you will hear it; don't start with it".
+4. Slang is taught as slang: its note says who says it to whom ("to friends your age"). Words a source marks as derogatory (*carajito*, which FluentU calls semi-derogatory; *sanky-panky*) are recognition-only or left out ([FluentU](https://www.fluentu.com/blog/spanish/dominican-slang/), [practitioner opinion]).
+5. No vulgar words as cards. *Coño* is common and strong ([Lingopie](https://lingopie.com/blog/dominican-slang/) lists it as a strong, somewhat vulgar exclamation); it is named once, in the `do-greetings` body, as "you will hear it; don't start with it".
 
 ### 2.3 Forms of "you"
 
@@ -90,12 +90,12 @@ All `en-es` §3 terms apply. Added:
 Ranked by how often a learner meets it [inference].
 
 **4.1 Subject pronouns are used more (*yo quiero, tú sabes*).**
-- [research-backed] In a New York corpus, Dominican newcomers (under five years in the city) used overt subject pronouns at an average rate of **42%**, the highest of the groups studied; Cuban newcomers 33%; the text says Caribbean varieties have higher pronoun rates than Mainland Latin American varieties ([Shin & Otheguy 2013, *Language in Society* 42.4](https://www.cambridge.org/core/journals/language-in-society/article/social-class-and-gender-impacting-change-in-bilingual-settings-spanish-subject-pronoun-use-in-new-york/28E9550A7A38C4589CBBECD6CA3414BA)). This is NYC newcomers, not residents of the DR, and the Mainland averages were in an unreadable table.
+- [research-backed] In a New York corpus, Dominican newcomers to the city used overt subject pronouns at an average rate of **42%**, the highest in the corpus ("The Dominicans in our study arrive in the City with an average pronoun rate of forty-two percent"); Cuban newcomers 33%; the text says Caribbean varieties have higher pronoun rates than Mainland Latin American varieties ([Shin & Otheguy 2013, *Language in Society* 42.4](https://www.cambridge.org/core/journals/language-in-society/article/social-class-and-gender-impacting-change-in-bilingual-settings-spanish-subject-pronoun-use-in-new-york/28E9550A7A38C4589CBBECD6CA3414BA)). This is NYC newcomers, not residents of the DR, and the Mainland averages were in an unreadable table.
 - [tertiary] Redundant subject pronouns are listed for the DR, Puerto Rico and coastal Venezuela; in vernacular Dominican they can also refer back to things: *Cómpralas, que ellas son bonitas* ([Newcastle](https://www.staff.ncl.ac.uk/i.e.mackenzie/caribbeanr.htm)).
 - **Design:** override the base advice that "saying *yo* every time sounds heavy" (`ser` §"Drop the pronoun", `present` §"You can drop the subject pronoun"): in this course, both are right, and Dominicans keep the pronoun much more than Mexicans. Typed answers already accept both (`en-es` §7). Dialogues written for this course use the pronoun at a natural Dominican rate (roughly every second or third verb) [inference]. Pronouns for things (*ellas son bonitas*) are recognition only.
 
 **4.2 Pronoun before the verb in questions (*¿Qué tú quieres? ¿Cómo tú estás?*).**
-- [tertiary] Given for Dominican Spanish as "¿Cómo tú estás?" ([Wikipedia mirror](https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Dominican_Spanish)). The Newcastle page gives "¿Qué tú quieres?", **limited to pronoun subjects**, and "unacceptable if the pronoun is not adjacent to the verb"; shared with Canarian Spanish ([Newcastle](https://www.staff.ncl.ac.uk/i.e.mackenzie/caribbeanr.htm)).
+- [tertiary] Given for Dominican Spanish as "¿Cómo tú estás?" ([Wikipedia mirror](https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Dominican_Spanish)). The Newcastle page gives *¿Qué tú quieres?*, limits the pattern to **pronoun subjects**, and says it is unacceptable when the pronoun is not next to the verb; shared with Canarian Spanish ([Newcastle](https://www.staff.ncl.ac.uk/i.e.mackenzie/caribbeanr.htm)).
 - [research-backed, historical corpus] Zimmermann's quantitative study of 1927 Dominican folk tales (206 wh-questions, 46 speakers) found *tú* before the verb in 17 of 33 argument questions (51.5%) and *usted* in 3 of 11 (27.3%); preverbal subjects were only *tú* and *usted*; full noun subjects came after the verb (*¿Qué hiso Juan Bobo?*); examples include *¿Qué tú buca po aquí?* and *¿Poi qué tú yora?* ([Zimmermann 2019, *Isogloss* 5, PDF](https://core.ac.uk/download/328841678.pdf); [abstract](https://revistes.uab.cat/isogloss/article/view/v5-zimmermann)). These are rates from almost a century ago; no current rate was opened. A present-day *usted* example appears in Toribio's essay: *¿Que usted es?* ([Toribio 2023, *Isogloss* 9](https://ddd.uab.cat/pub/isogloss/isogloss_a2023v9n2/isogloss_a2023v9n2a11.pdf)).
 - **Design:**
   - Taught actively in `do-questions` with *tú* and *usted* only, pronoun directly before the verb: *¿Qué tú quieres? ¿Dónde tú vives? ¿Cómo usted se llama?*
@@ -152,14 +152,14 @@ Ranked by how often a learner meets it [inference].
 - The pron line is the only place a learner can *see* the Dominican sound. A course whose pron says `ehs-TOY` is the Mexican course again.
 - Three rules only, the ones that are frequent in educated Santo Domingo speech and easy to read: the breath *s*, final *ng*, stressed *-ado* → *-ao*. Everything stigmatised or rural (deleting every *s*, *r* → *l*, the Cibao *i*) stays out of the pron and goes to recognition (§2.1).
 - Evidence and its limits:
-  - [tertiary] *s* weakening is general in the DR; *-ado* → *-ao* is "general" (*casado* "casao", *lado* "lao") (Wikipedia mirror). Velar *n* is given for Caribbean Spanish, "word-final or syllable-final, more common at breath-group end or before a vowel": *balcón* [balˈkoŋ] (Newcastle). R2 follows that wording exactly.
-  - [research-backed] In five Dominican women in New York, word-final *s* before a vowel was longer (81 ms) than before a consonant (56 ms) and longest before a pause (129 ms) ([Erker 2010, *IJSL*](https://blogs.bu.edu/danerker/files/2020/10/Erker-2010_Subsegmental-Coda-s_IJSL.pdf)). That supports keeping *s* where a vowel follows (R1's linking exception) only weakly: five speakers, and the paper gives no rates of aspiration or deletion.
+  - [tertiary] *s* weakening is general in the DR; *-ado* → *-ao* is "general" (*casado* "casao", *lado* "lao") (Wikipedia mirror). Velar *n* is given for Caribbean Spanish, word-final or syllable-final and more common at the end of a breath group or before a vowel: *balcón* [balˈkoŋ] (Newcastle). R2 follows that description.
+  - [research-backed] In five Dominican women in New York, word-final *s* before a vowel was longer (81 ms) than before a consonant (56 ms) and longest before a pause (129 ms) ([Erker 2010, *IJSL*, title not recorded](https://blogs.bu.edu/danerker/files/2020/10/Erker-2010_Subsegmental-Coda-s_IJSL.pdf)). That supports keeping *s* where a vowel follows (R1's linking exception) only weakly: five speakers, and the paper gives no rates of aspiration or deletion.
   - No page opened gives rates of *s* weakening in Santo Domingo educated speech (§14).
 
 **The `en-es` reason for a standard pron** was that the `es-MX` voice cannot drop *s* (`en-es` §6.1). That reason now applies to the voice, so the decision is **gated on the voice**:
 - **Mode `natural`** (the target): used once recorded Dominican clips (`audio/esdo/f`, `audio/esdo/m`) cover all card and example text, and the chosen voices pass the test script (§11): breath *s* before consonants, *ng* before pauses, *-ao* in *cansado*.
 - **Mode `careful`** (until then, and the fallback): the generator output equals `en-es` exactly (tested on the 30 examples below). A device voice reading the course then matches the pron line.
-- Switching mode is one setting in `respell.js` plus `node tools/target/dialect.js esdo` (which regenerates every pron). No content changes.
+- Switching mode is one setting in `respell.js` plus `node tools/target/dialect.js esdo`, which regenerates every card pron and every `{{ex:}}` pron. Respellings written into prose are not regenerated: the base `sounds` body quotes 10 (`KAH-sah`, `ah-DYOHS`, `ohs-pee-TAHL`…; two of them change in natural mode) and 3 card notes quote one each (`KAH-yeh`, `wah-HAH-kah`, `hos-pi-TAL`, none of which changes). The `sounds` override (§8) rewrites its body prose for the mode in use, and `dialect.js` should warn on any pron-shaped string in prose.
 - Lesson `do-sounds` teaches the three rules in both modes, so the learner knows what the natural pron means even while the line is careful.
 
 ### 6.2 Rules a Dominican `respell.js` needs (exact)
@@ -168,7 +168,7 @@ The base generator `tools/target/es/respell.js` works word by word. The Dominica
 
 - **R0 (pauses).** Split the text on spaces. A token that ends in `, . ; : ? ! …` is followed by a pause: the word has no "next word". Opening `¿ ¡` and quotes are dropped. (The base drops all punctuation first, which would lose pauses.)
 - **"Vowel next"** means the next word starts with a vowel (*a e i o u*, accented or not), silent *h* + vowel (*hermanos, hay*), or is the word *y* ("and"). *Hie-* and *hue-* (*hielo, huevo*) start with a glide and count as consonants.
-- **R1 (breath s).** In the base output, every syllable that ends in `s` (from *s*, *z*, or soft *c* never ends a syllable, so in practice *s* and *z*) ends in `h` instead, **except** a word-final `s` when a vowel is next (the *s* links: *los amigos* `lohs ah-MEE-gohh`). Syllables ending in `ks` (from *x*) are left alone.
+- **R1 (breath s).** In the base output, every syllable that ends in `s` (spelled *s* or *z*) ends in `h` instead, **except** a word-final `s` when a vowel is next (the *s* links: *los amigos* `lohs ah-MEE-gohh`). Syllables ending in `ks` (from *x*) are left alone.
 - **R2 (final n).** A word-final `n` becomes `ng` when a pause or a vowel is next (*están aquí*, *el pan.*). Before a consonant it stays `n` (*un chin*, *en concho*). Word-internal *n* is never changed.
 - **R3 (-ado).** A word ending in *-ado / -ados* whose *-a-* is **stressed** (the syllable before `doh` is in capitals) loses the `d`: `kahn-SAH-doh` → `kahn-SAH-oh`. Unstressed *-ado* (*sábado, hígado*) keeps it. Not applied to *-ada, -ido, -edo, nada, todo* (heard, but less general; recognition only).
 - **Mode switch** `natural | careful`; `careful` returns the base output unchanged.
@@ -250,6 +250,8 @@ function respell(text) {
 module.exports = { respell };
 if (require.main === module) for (const a of process.argv.slice(2)) console.log(a, '->', respell(a));
 ```
+
+**Full-course run** (*measured*, natural mode, every distinct card target and lesson example sentence in `tools/target/es/`): 1,088 strings, **433 change (39.8%)**, 0 throw, 0 fail `pronPattern`. R3 fires on 18 words in the base: *cansado, casado, cerrado, colmado, constipado, cuidado, demasiado, enojado, estado, estados, grados, lado, mercado, nublado, ocupado, pasado, pesado, trabajado*. Owner check (§13 q. 5): whether *Estados Unidos* (`ehh-TAH-ohs oo-NEE-dohh`), *demasiado* and *grados* should be exceptions.
 
 Known limits: the mode should come from `base.json` rather than an environment variable once built; an apostrophe in a target (*pa'*) makes the base generator throw, which is one more reason targets never contain clipped forms.
 
@@ -347,11 +349,11 @@ One hinge per new lesson (order / type), each with a distractor that is an agree
 | People and family | 18 | 1 target, 1 note | *Mi abuela es de Oaxaca.* → *…de Santiago.*; *mis papás* note |
 | Numbers, time and prices | 18 | 1 target | *¿Cuánto cuestan los tacos?* → *…los tostones?* |
 | Days, dates and weather | 18 | 2 notes | *mañana* ("mañana en la mañana (Mexico)"), *Hace veinte grados* |
-| Food and drink | 18 | 6 targets, 2 notes | taco → *un pica pollo*; tamales → *unos pasteles en hoja*; tortillas → *el mangú*; frijoles → *las habichuelas*; agua de jamaica → *un jugo de chinola*; quesadilla → *Para mí, un sancocho.* |
+| Food and drink | 18 | 6 targets, 2 notes | taco → *un pica pollo*; tamales → *unos pasteles en hoja*; tortillas → *los tostones*; frijoles → *las habichuelas*; agua de jamaica → *un jugo de chinola*; quesadilla → *Para mí, un sancocho.* |
 | Shopping and clothes | 18 | 1 note | *la chaqueta gris* (drop "chamarra") |
 | Home and routine | 18 | 4 notes | *la cama*, *el refrigerador* (q. 16), *apartamento*, *Hay dos cuartos* (add "You'll hear: el aposento") |
 | Around town and directions | 18 | 1 target, 2 notes | *la parada de autobús* → *la parada de la guagua*; *Gire…* note; *a dos cuadras* |
-| Travel and transport | 17 | 4 targets, 2 notes | Cancún → Punta Cana; *Tomo el autobús.* → *Tomo la guagua.*; *la estación de tren* → *la estación del metro* (Santo Domingo has a metro); *¿A qué hora sale el tren?* → *¿A qué hora sale la guagua?*; *el carro*, *boleto* notes |
+| Travel and transport | 17 | 4 targets, 2 notes | Cancún → Punta Cana; *Tomo el autobús.* → *Tomo la guagua.*; *la estación de tren* → *la estación del metro* ([unsourced] that Santo Domingo's metro is the right everyday reference; owner check); *¿A qué hora sale el tren?* → *¿A qué hora sale la guagua?*; *el carro*, *boleto* notes |
 | Health and emergencies | 17 | 1 target | *Tengo gripa.* → *Tengo gripe.* (q. 17) |
 | Work and school | 17 | 1 target | *Mi jefa es de Puebla.* → *…de La Romana.* |
 | Feelings and states | 17 | as is | |
@@ -410,7 +412,7 @@ Totals (*measured*): **22 card targets replaced, 1 card dropped, 35 notes change
 |---|---|---|---|
 | el mangú | `ehl mahn-GOO` | mashed green plantains | Breakfast, often with los tres golpes (fried egg, salami, cheese). |
 | la bandera | `lah bahn-DEH-rah` | rice, beans and stewed meat | The everyday lunch, named after the flag. |
-| las habichuelas | `lahs ah-bee-CHWEH-lahh` | the beans | Mexico: los frijoles. Feminine: las habichuelas rojas. |
+| el sancocho | `ehl sahn-KOH-choh` | meat and root-vegetable stew | The Sunday and party dish; sancocho de siete carnes is the grand version. |
 | un morir soñando | `oon moh-REER soh-NYAHN-doh` | a milk and orange juice drink | Literally: to die dreaming. |
 | el guineo | `ehl ghee-NEH-oh` | the banana | el plátano is the plantain, which is cooked. |
 
@@ -451,7 +453,7 @@ All 30 sample prons pass `pronPattern` (tested). Sources for the samples: §10.
 
 | # | Dominican | Meaning | Base / neutral (what `en-es` teaches) | Tag | Src |
 |---|---|---|---|---|---|
-| 1 | la guagua | bus | el autobús (Mex. el camión) | REPLACES | W, L, DA |
+| 1 | la guagua | bus | el autobús (Mex. el camión) | REPLACES in 3 card slots; *autobús* stays in inherited lessons as the general word | W, L, DA |
 | 2 | un chin | a little bit | un poco, un poquito | ADDED | W, F, L |
 | 3 | ¿Qué lo que? | what's up? | ¿Qué tal? | ADDED | L, B |
 | 4 | ¿Cómo tú estás? | how are you? | ¿Cómo estás? | ADDED (both accepted) | W |
@@ -476,8 +478,8 @@ All 30 sample prons pass `pronPattern` (tested). Sources for the samples: §10.
 | 23 | chévere | great | — | ADDED | DA ("like chevere or jevi") |
 | 24 | dique | supposedly, so they say | dizque | ADDED | L, B |
 | 25 | el zafacón | trash can | el bote de basura | ADDED | W, B, DA |
-| 26 | la chinola | passion fruit | el maracuyá | REPLACES | W, DC |
-| 27 | la lechosa | papaya | la papaya | REPLACES | W, DC |
+| 26 | la chinola | passion fruit | — (base: only in the dropped deck's note) | ADDED | W, DC |
+| 27 | la lechosa | papaya | — (base: only in the dropped deck's note) | ADDED | W, DC |
 | 28 | los tostones | fried green plantains | — | ADDED | DC |
 | 29 | el sancocho | meat and root-vegetable stew | — | ADDED | DC |
 | 30 | el pica pollo | fried chicken | el pollo frito | REPLACES (taco card slot) | DC, L |
@@ -605,11 +607,11 @@ All 30 sample prons pass `pronPattern` (tested). Sources for the samples: §10.
 | 152 | ello hay | there is (rural) | hay | RECOG | N |
 | 153 | Yo no sé no. | I really don't know | No sé. | RECOG | N |
 
-Counts (153 rows): 6 REPLACES (the other localised card slots are in §9.1), about 90 ADDED, about 48 RECOG, a few inherited or note-only; 8 flagged false friends (*ahorita, guapo, coger, china, plátano / guineo, chimichurri, bicho?, chichí?*). Rows with **—** in Src: 16.
+Counts (153 rows): 4 REPLACES (the other localised card slots are in §9.1), about 92 ADDED, about 48 RECOG, a few inherited or note-only; 8 flagged false friends (*ahorita, guapo, coger, china, plátano / guineo, chimichurri, bicho?, chichí?*). Rows with **—** in Src: 16.
 
 **False friends with Mexican Spanish, as the traps deck states them:**
-- ***ahorita***: Mexico "right now" or "in a bit"; DR "later, in a while" ([X], one forum thread: "it's not a time, it's a vibe"). Taught: *ahora mismo* for "right now".
-- ***guapo***: DR "angry" (W; DA: "mad or angry, not handsome as in other Latin American countries"). Mexico and Spain: good-looking.
+- ***ahorita***: Mexico "right now" or "in a bit"; DR "later, in a while" ([X], one forum thread: "Turns out 'ahorita' in DR isn't a time, it's a vibe"). Taught: *ahora mismo* for "right now".
+- ***guapo***: DR "angry" (W; DA glosses it as mad or angry, not handsome as elsewhere in Latin America). Mexico and Spain: good-looking.
 - ***coger***: neutral in the DR (L uses *Voy a coger la guagua*), vulgar in Mexico; the base says "never coger". Single source: owner check (q. 6).
 - ***china***: DR (south of the Cibao) and Puerto Rico "sweet orange" (DC); Mexico: a Chinese woman, or curly (*pelo chino*) [unsourced for Mexico].
 - ***plátano***: DR plantain (cooked), *guineo* banana (W, DC); Mexico *plátano* = banana.
@@ -643,7 +645,7 @@ Azure lists `es-DO-RamonaNeural` and `es-DO-EmilioNeural` (third-party listing, 
 | 9 | Son doscientos cincuenta pesos dominicanos. | five coda *s*: breathed, not hissed, not all deleted |
 | 10 | Perdón, ¿usted sabe a qué hora sale la guagua? | *perdón*: *r* kept, final *ng*; polite *usted* tone |
 
-**Scoring:** each of the six criteria above, 0–2 per sentence; a voice must score at least 1 on criteria 1, 2 and 4 in 8 of 10 sentences, or the course stays in pron mode `careful` (§6.1). The owner listens and decides (§13, q. 1).
+**Scoring:** score a criterion (0–2) only on the sentences whose "Listen for" names that feature: criterion 1 (breath *s*) on 1, 3, 4, 7, 9; criterion 2 (*ng*) on 1, 5, 10; criterion 3 (*-ao*) on 1, 3; criterion 4 (*r* kept) on 5, 10; criteria 5 and 6 on all. The course switches the pron line to `natural` only for a voice pair that scores at least 1 on **criteria 1, 2, 3 and 4** in at least 80% of the sentences that test them; otherwise it stays `careful` (§6.1). The owner listens and decides (§13, q. 1).
 
 ## 12. Typing and script
 
@@ -661,7 +663,7 @@ Quick questions, in this order (the first 5 decide the build):
 2. **Pron line:** `ehh-TOY kahn-SAH-oh` for *Estoy cansado*: helpful, or would you rather see the careful `ehs-TOY kahn-SAH-doh`?
 3. Is `ng` for a final *n* before a pause right for Santo Domingo speech (*el pan* `pahng`), and should it also show before consonants (*un chin*)?
 4. *¿Qué tú quieres?*, *¿Dónde tú vives?*, *¿Cómo usted se llama?*: all natural? Is *¿Qué usted desea?* natural from a shop assistant?
-5. Is anything in the "production" column of §2.1 too popular for a learner to say (e.g. *cansao* in front of your partner's parents)?
+5. Is anything in the "production" column of §2.1 too popular for a learner to say (e.g. *cansao* in front of your partner's parents)? Should the *-ao* rule skip *Estados Unidos*, *demasiado* or *grados* (§6.4 lists all 18 words it changes)?
 6. *Coger la guagua*: normal for everyone, or do some people avoid *coger*?
 7. *Ahorita* = "later / in a while" in the DR: right? What do people say for "right now": *ahora mismo*, *ya*?
 8. *Tú* with a stranger your age (a cashier, a concho driver): normal, or *usted*?
@@ -715,7 +717,7 @@ Web pages opened and used for this profile (2026-11-23):
 - [Alba, O. (2025). Los cibaeños hablan con la /i/: observaciones sobre la vocalización. *Acento*](https://acento.com.do/cultura/los-cibaenos-hablan-con-la-i-observaciones-sobre-la-vocalizacion-9540218.html)
 - [Zimmermann, M. (2019/2020). Reconsidering the syntax of interrogatives in Caribbean Spanish. With especial reference to Dominican Spanish. *Isogloss* 5 (abstract page)](https://revistes.uab.cat/isogloss/article/view/v5-zimmermann) and [full text (CORE PDF)](https://core.ac.uk/download/328841678.pdf)
 - [Toribio, A. J. (2023). "Doing" Romance Linguistics. *Isogloss* 9(2)/11](https://ddd.uab.cat/pub/isogloss/isogloss_a2023v9n2/isogloss_a2023v9n2a11.pdf)
-- [Erker, D. (2010). A subsegmental approach to coda /s/ weakening in Dominican Spanish. *International Journal of the Sociology of Language*](https://blogs.bu.edu/danerker/files/2020/10/Erker-2010_Subsegmental-Coda-s_IJSL.pdf)
+- [Erker, D. (2010). Paper on subsegmental coda /s/ in Dominican Spanish, *International Journal of the Sociology of Language* (exact title not recorded)](https://blogs.bu.edu/danerker/files/2020/10/Erker-2010_Subsegmental-Coda-s_IJSL.pdf)
 - [Shin, N. L. & Otheguy, R. (2013). Social class and gender impacting change in bilingual settings: Spanish subject pronoun use in New York. *Language in Society* 42(4)](https://www.cambridge.org/core/journals/language-in-society/article/social-class-and-gender-impacting-change-in-bilingual-settings-spanish-subject-pronoun-use-in-new-york/28E9550A7A38C4589CBBECD6CA3414BA)
 - [json2video: Spanish (Dominican Republic) voices](https://json2video.com/ai-voices/languages/spanish/dominican-republic/) and [Emilio (es-DO-EmilioNeural)](https://json2video.com/ai-voices/azure/voices/es-do-emilioneural/)
 - [Microsoft Learn: Language and voice support for the Speech service](https://learn.microsoft.com/azure/ai-services/speech-service/language-support?tabs=tts) (only the speech-to-text table was readable)

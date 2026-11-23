@@ -562,7 +562,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.67.0 · 2026-11-23';
+const APP_VERSION='2.68.0 · 2026-11-23';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -1145,7 +1145,11 @@ function okW(bang){ return koSide()?(bang?'맞아요!':'맞아요'):LL(bang?'Cor
 function noW(){ return koSide()?'아니에요':LL('Not quite'); }
 /* language names: Korean UI keeps the hand-written Korean names, English keeps LANGS[].name, every other UI language asks Intl.DisplayNames */
 const LN_DN=new Map();
+/* interface languages whose names Intl.DisplayNames does not know (it answers in English): a small hand-written table, anything missing falls through */
+const LN_X={ ceb:{ko:'Koreano',en:'Iningles',ceb:'Bisaya (Cebuano)',tl:'Tagalog',es:'Kinatsila',ja:'Hinapon',zh:'Inintsik (Mandarin)',fr:'Pranses',de:'Aleman',it:'Italyano',pt:'Portuges',ru:'Ruso',ar:'Arabiko',hil:'Hiligaynon',war:'Waray'},
+  tl:{ko:'Koreano',en:'Ingles',tl:'Tagalog',ceb:'Bisaya (Cebuano)',es:'Espanyol',ja:'Hapones',zh:'Mandarin',fr:'Pranses',de:'Aleman',it:'Italyano',pt:'Portuges',ru:'Ruso',ar:'Arabe',hil:'Hiligaynon',war:'Waray'} };
 function langName(code,inLang){ const x=LANGS[code]; if(!x) return code; if(inLang==='ko') return x.ko; if(!inLang||inLang==='en') return x.name;
+  if(LN_X[inLang]&&LN_X[inLang][code]) return LN_X[inLang][code];
   try{ if(typeof Intl!=='undefined'&&Intl.DisplayNames){ let dn=LN_DN.get(inLang); if(!dn){ dn=new Intl.DisplayNames([inLang],{type:'language'}); LN_DN.set(inLang,dn); } const v=dn.of(code); if(v&&v!==code) return v.charAt(0).toLocaleUpperCase(inLang)+v.slice(1); } }catch(e){}
   return x.name; }
 /* uiName(code): language name used as a slot inside English UI strings that the DOM translator patterns translate; the Korean UI keeps today's English slot */

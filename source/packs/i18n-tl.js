@@ -453,7 +453,7 @@ LANGAPP_PACKS.i18n.tl = {
     "Could not save here.": "Hindi ma-save rito.",
     "Downloads are not available in this view.": "Hindi puwedeng mag-download sa view na ito.",
     "Added. It will show up in Review today.": "Naidagdag. Lalabas ito sa Review ngayong araw.",
-    "Last one ·": "Huli na ·",
+    "Last one ·": "Huling isa ·",
     "End": "Tapusin",
     "Weakest today:": "Pinakamahina ngayon:",
     "Drill it": "I-drill",
