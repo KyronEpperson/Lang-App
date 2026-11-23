@@ -1,0 +1,8 @@
+{
+  "lessons": {
+    "pinoy-english": "tl-only lesson (profile tl.md §8 'add' / §4.8 / §2 classes A, C, D / §9 Ingles-Pinoy list): Philippine English usages that mislead abroad (CR, open the light, for a while, go down, It's traffic, brownout, ref, aircon, commute, salvage, gimmick, bold), small grammar habits (fill out, cope with, result in, based on, share with, in my opinion, make a mistake, uncountable luggage / furniture / advice) and local words that are fine (jeepney, barangay, sari-sari store, pasalubong); placed after smalltalk via profile.json lessonOrder.after; deck Mga bitag ng Ingles-Pinoy; no ko-en counterpart (replaces the ko-only konglish lesson in more/a1.js; mirrors zh chinglish, ja katakana-english, id indo-english)"
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["pinoy-english"]
+}
