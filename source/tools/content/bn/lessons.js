@@ -1,242 +1,260 @@
-/* TRANSLATE/ADAPT (bn): scaffolded from tools/content/ko/lessons.js by new_lang.js.
-   Translate/adapt everything that is not English (the ko text) for bn speakers (prompts, why, hint, meanings, pron per profile.json, deck and group names,
-   explanations written from the bn point of view — PILOT-SPEC §3). Keep every English string, lesson id and answer position
-   identical to ko-en unless deviations.json gives a reason (parity.js enforces it). Delete this banner when the file is done. */
 exports.LESSONS = [
-{ id:"alphabet", title:"1 · 알파벳: 글자 이름과 철자 불러 주기", blurb:"글자는 읽을 줄 알아도 영어 이름은 헷갈리죠? 이름·이메일 철자를 영어로 또박또박 불러 봐요.", deck:"알파벳", body:`
-<p>호텔 예약, 전화 상담, 카페 주문에서 꼭 듣는 말이 있어요. "철자가 어떻게 돼요?" 내 이름, 이메일 주소, 예약 번호를 불러 주려면 글자마다 <b>영어 이름</b>을 알아야 해요. 한국에서 배운 읽는 법(제트, 알 등)과 다른 이름도 있어서, 한 번 정리해 두면 훨씬 편해요.</p>
-<h3>글자 26개의 이름</h3>
-<p>굵은 글자 다섯 개 <b>A E I O U</b>가 모음이에요. 나머지는 자음이에요.</p>
-<div class="tbl"><table><tr><td class="k"><b>A</b> 에이</td><td class="k">B 비 (b)</td><td class="k">C 씨</td><td class="k">D 디</td><td class="k"><b>E</b> 이</td></tr><tr><td class="k">F 에프</td><td class="k">G 지 (g)</td><td class="k">H 에이치</td><td class="k"><b>I</b> 아이</td><td class="k">J 제이</td></tr><tr><td class="k">K 케이</td><td class="k">L 엘</td><td class="k">M 엠</td><td class="k">N 엔</td><td class="k"><b>O</b> 오우</td></tr><tr><td class="k">P 피</td><td class="k">Q 큐</td><td class="k">R 아r</td><td class="k">S 에스</td><td class="k">T 티</td></tr><tr><td class="k"><b>U</b> 유</td><td class="k">V 비 (v)</td><td class="k">W 더블유</td><td class="k">X 엑스</td><td class="k">Y 와이</td></tr><tr><td class="k">Z 지 (z)</td><td></td><td></td><td></td><td></td></tr></table></div>
-<h3>한국 사람이 자주 헷갈리는 이름</h3>
-<div class="tbl"><table><tr><th>글자</th><th>영어 이름</th><th>주의할 점</th></tr><tr><td class="k">G / J / Z</td><td>지 (g) / 제이 / 지 (z)</td><td>G는 '쥐'에 가까운 '지', Z는 성대를 울리는 z 소리의 zee예요. 미국에서 '제트'는 안 통해요</td></tr><tr><td class="k">E / I</td><td>이 / 아이</td><td>E가 '이', I가 '아이'예요. 이메일 주소에서 특히 많이 틀려요</td></tr><tr><td class="k">B / V</td><td>비 (b) / 비 (v)</td><td>B는 두 입술, V는 윗니를 아랫입술에 대요</td></tr><tr><td class="k">P / F</td><td>피 / 에프</td><td>F는 '에프' 끝에서 윗니를 아랫입술에 대요</td></tr><tr><td class="k">L / R</td><td>엘 / 아r</td><td>R은 '알'이 아니에요. 혀를 뒤로 말고 어디에도 닿지 않게 해요</td></tr><tr><td class="k">W</td><td>더블유</td><td>double u, 'U 두 개'라는 뜻이에요. 세 음절을 다 말해요</td></tr></table></div>
-<h3>철자 묻고 불러 주기</h3>
-<p>잘 안 들리는 글자는 <b>"B as in boy"</b>처럼 그 글자로 시작하는 쉬운 단어를 붙여서 확인해요.</p>
-{{ex:How do you spell that?|하우 두 유 스펠 댓?|철자가 어떻게 돼요?}}{{ex:How do you spell your last name?|하우 두 유 스펠 유어 래스트 네임?|성은 철자가 어떻게 돼요?}}{{ex:Can you spell that, please?|캔 유 스펠 댓, 플리즈?|철자 좀 불러 주시겠어요?}}{{ex:It starts with a capital T.|잇 스타츠 위드 어 캐피털 티|대문자 T로 시작해요}}{{ex:B as in boy.|비 애즈 인 보이|boy의 B요}}{{ex:Is that M as in Mary?|이즈 댓 엠 애즈 인 메리?|Mary의 M 맞아요?}}{{ex:There are two Ls in hello.|데어 아 투 엘즈 인 헬로우|hello에는 L이 두 개 있어요}}
-<h3>글자 이름 앞의 a와 an</h3>
-<p>관사는 철자가 아니라 <b>이름의 첫소리</b>로 정해요. F(에프), H(에이치), L(엘), M(엠), N(엔), R(아r), S(에스), X(엑스)는 이름이 모음 소리로 시작해서 <b>an F, an H, an L, an M, an N, an R, an S, an X</b>예요.</p>
-<p>반대로 U는 모음 글자지만 이름이 y 소리 '유'로 시작해서 <b>a U</b>예요. a university와 같은 원리예요.</p>
-<div class="tip">이메일 불러 주기 공식: 대문자는 <b>capital T</b>, 같은 글자 두 개는 <b>double L</b>, @는 <b>at</b>, 점(.)은 <b>dot</b>이에요. 예: jay.park@mail.com → "jay dot park at mail dot com".</div>`},
+{ id:"alphabet", title:"1 · বর্ণমালা: অক্ষরের নাম ও বানান বলা", blurb:"অক্ষর চিনলেও ইংরেজি নামগুলো গুলিয়ে যায়? নাম আর ইমেইলের বানান ইংরেজিতে স্পষ্ট করে বলতে শিখুন।", deck:"ইংরেজি বর্ণমালা", body:`
+<p>হোটেলের বুকিং, ফোনে কাস্টমার সার্ভিস বা বিমানবন্দরের কাউন্টারে একটা প্রশ্ন বারবার শুনবেন: How do you spell that? তখন নিজের নাম, ইমেইল ঠিকানা বা বুকিং নম্বর <b>এক অক্ষর এক অক্ষর করে</b> বলতে হয়, আর বলতে হয় প্রতিটি অক্ষরের <b>ইংরেজি নাম</b>। অক্ষরগুলো আমরা ছোটবেলা থেকেই চিনি, কিন্তু স্কুলে শেখা নাম ("এ", "জে", "ভি", "জেড") আর একজন আমেরিকানের মুখের নাম সব সময় এক নয়। কয়েক মিনিটে 26টি নাম একবার মিলিয়ে নিন।</p>
+<h3>26টি অক্ষরের নাম</h3>
+<p>মোটা করা পাঁচটি অক্ষর <b>A E I O U</b> স্বরবর্ণ (vowel), বাকিগুলো ব্যঞ্জনবর্ণ (consonant)। পাশে বাংলা হরফে নামের উচ্চারণ দেওয়া আছে: <b>ˈ</b> চিহ্নের পরের অংশে জোর দিন, আর নিচে ফোঁটা দেওয়া অক্ষর (জ়, ভ়) মানে ধ্বনিটা বাংলায় নেই। চিহ্নগুলোর পুরো ব্যাখ্যা পরের পাঠে আছে।</p>
+<div class="tbl"><table><tr><td class="k"><b>A</b> ˈএই</td><td class="k">B ˈবী</td><td class="k">C ˈসী</td><td class="k">D ˈডী</td><td class="k"><b>E</b> ˈঈ</td></tr><tr><td class="k">F ˈএফ</td><td class="k">G ˈজী</td><td class="k">H ˈএইচ</td><td class="k"><b>I</b> ˈআই</td><td class="k">J ˈজেই</td></tr><tr><td class="k">K ˈকেই</td><td class="k">L ˈএল</td><td class="k">M ˈএম</td><td class="k">N ˈএন</td><td class="k"><b>O</b> ˈঔ</td></tr><tr><td class="k">P ˈপী</td><td class="k">Q ˈকিঊ</td><td class="k">R ˈআːর</td><td class="k">S ˈএস</td><td class="k">T ˈটী</td></tr><tr><td class="k"><b>U</b> ˈইঊ</td><td class="k">V ˈভ়ী</td><td class="k">W ˈডাবালিঊ</td><td class="k">X ˈএক্স</td><td class="k">Y ˈওয়াই</td></tr><tr><td class="k">Z ˈজ়ী</td><td></td><td></td><td></td><td></td></tr></table></div>
+<h3>যে নামগুলোতে আমরা বেশি ভুল করি</h3>
+<div class="tbl"><table><tr><th>অক্ষর</th><th>ইংরেজি নাম</th><th>খেয়াল রাখুন</th></tr><tr><td class="k">G / J / Z</td><td>ˈজী / ˈজেই / ˈজ়ী</td><td>G আর J-তে জিভ তালুতে লেগে ছাড়ে, বাংলার জ-এর মতো। Z-তে জিভ কোথাও লাগে না: মৌমাছির গুনগুনের মতো টানা ধ্বনি। স্কুলে শেখা "জেড" ব্রিটিশ নাম; আমেরিকায় বলে zee</td></tr><tr><td class="k">A / J / K / O</td><td>ˈএই / ˈজেই / ˈকেই / ˈঔ</td><td>"এ", "জে", "কে", "ও" বলে থেমে যাবেন না। শেষে একটু গড়িয়ে যায়: এ থেকে ই, ও থেকে উ</td></tr><tr><td class="k">E / I</td><td>ˈঈ / ˈআই</td><td>E-এর নাম লম্বা "ঈ", I-এর নাম "আই"। বাংলার "এ" ধ্বনিটা E-এর নাম নয়, A-এর নামের শুরু</td></tr><tr><td class="k">B / V</td><td>ˈবী / ˈভ়ী</td><td>B-তে দুই ঠোঁট বন্ধ হয়। V-তে উপরের দাঁত নিচের ঠোঁটে হালকা লাগে আর গলা কাঁপে; "ভি" বা "বি" নয়</td></tr><tr><td class="k">F / P</td><td>ˈএফ / ˈপী</td><td>F-এর শেষে ঠোঁট বন্ধ হয় না: উপরের দাঁত নিচের ঠোঁটে রেখে বাতাস ছাড়ুন</td></tr><tr><td class="k">H</td><td>ˈএইচ</td><td>শুরুতে হ নেই, "হেইচ" নয়। নামটা স্বরধ্বনি দিয়ে শুরু, তাই an H</td></tr><tr><td class="k">R</td><td>ˈআːর</td><td>শেষের r উচ্চারণ করুন, তবে জিভে টোকা না দিয়ে: জিভের ডগা কোথাও লাগবে না</td></tr><tr><td class="k">W</td><td>ˈডাবালিঊ</td><td>double u, মানে "দুইটা U"। তিনটি অংশই বলুন, "ডাব্লু" বলে ছোট করবেন না</td></tr></table></div>
+<h3>বানান জিজ্ঞেস করা ও বলা</h3>
+<p>যে অক্ষরটা ঠিকমতো শোনা যায়নি, তার সঙ্গে ওই অক্ষর দিয়ে শুরু একটা সহজ শব্দ জুড়ে দিন: <b>B as in boy</b>। last name মানে নামের শেষ অংশ বা পদবি: Rafi Ahmed-এর last name হলো Ahmed।</p>
+{{ex:How do you spell that?|ˈহাউ ডা ইউ ˈস্পেল ˈদ়্যাট|এটার বানান কী?}}{{ex:How do you spell your last name?|ˈহাউ ডা ইউ ˈস্পেল ইউর ˈল্যাস্ট ˈনেইম|আপনার নামের শেষ অংশের বানান কী?}}{{ex:Can you spell that, please?|কান ইউ ˈস্পেল ˈদ়্যাট ˈপ্লীজ়|বানানটা একটু বলবেন?}}{{ex:It starts with a capital T.|ইট ˈস্টাːর্ট্স ওয়িদ় আ ˈক্যাপিটাল ˈটী|এটা বড় হাতের T দিয়ে শুরু}}{{ex:B as in boy.|ˈবী আজ় ইন ˈবই|boy-এর B}}{{ex:Is that M as in Mary?|ইজ় ˈদ়্যাট ˈএম আজ় ইন ˈমেরি|Mary-র M তো?}}{{ex:There are two Ls in hello.|দ়ের আর ˈটূ ˈএল্জ় ইন হাˈলৌ|hello-তে দুইটা L আছে}}
+<h3>অক্ষরের নামের আগে a না an</h3>
+<p>আর্টিকেল (a, an) ঠিক হয় বানান দেখে নয়, <b>নামের প্রথম ধ্বনি</b> শুনে। F, H, L, M, N, R, S, X-এর নাম স্বরধ্বনি দিয়ে শুরু, তাই <b>an F, an H, an L, an M, an N, an R, an S, an X</b>।</p>
+<p>উল্টো দিকে U স্বরবর্ণ হলেও এর নাম you-এর মতো "ইউ" ধ্বনি দিয়ে শুরু, তাই <b>a U</b>। a university-তেও একই নিয়ম।</p>
+<div class="tip">ইমেইল ঠিকানা বলার নিয়ম: বড় হাতের অক্ষর <b>capital T</b>, পাশাপাশি একই অক্ষর দুইটা হলে <b>double L</b>, @ হলো <b>at</b>, আর ফোঁটা (.) হলো <b>dot</b>। যেমন rafi.ahmed@mail.com পড়বেন: <b>R-A-F-I dot A-H-M-E-D at mail dot com</b>।</div>`},
 
-{ id:"pron", title:"1 · 발음 함정: R/L·F/P·TH·V/B", blurb:"한국어에 없는 소리 다섯 가지와 강세 — 이것만 잡아도 알아듣는 사람이 확 늘어요.", deck:"발음 주의", body:`
-<p>영어에는 한국어에 없는 소리가 몇 개 있어요. 원어민은 이 소리로 단어를 구분하기 때문에, 조금만 신경 써도 훨씬 잘 통해요. 핵심은 <b>입 모양</b>이에요. 거울을 보면서 연습해 보세요.</p>
-<h3>R과 L</h3>
-<p><b>L</b>은 혀끝을 윗니 뒤 잇몸에 <b>붙였다 떼요</b>. <b>R</b>은 혀끝이 <b>어디에도 닿지 않아요</b>. 입술을 살짝 둥글게 내밀고 혀를 뒤로 당긴 채 "(우)롸" 하듯 시작해요.</p>
-{{ex:rice|롸이스|쌀, 밥}}{{ex:lice|라이스|이 (벌레)}}{{ex:right|롸잇|오른쪽, 맞는}}{{ex:light|라잇|빛, 가벼운}}
-<h3>F·V와 P·B</h3>
-<div class="tbl"><table><tr><th>소리</th><th>입 모양</th><th>예</th></tr><tr><td class="k">F</td><td>윗니를 아랫입술에 대고 바람만</td><td>fan, coffee</td></tr><tr><td class="k">P</td><td>두 입술을 붙였다 터뜨림</td><td>pan, copy</td></tr><tr><td class="k">V</td><td>F 입 모양 + 성대 울림</td><td>very, vote</td></tr><tr><td class="k">B</td><td>P 입 모양 + 성대 울림</td><td>berry, boat</td></tr></table></div>
-{{ex:fan|팬 (f)|선풍기}}{{ex:pan|팬 (p)|프라이팬}}{{ex:very|베리 (v)|매우}}{{ex:berry|베리 (b)|딸기류 열매}}
-<h3>TH</h3>
-<p>혀끝을 윗니와 아랫니 사이로 <b>살짝 내밀고</b> 바람을 내보내요. 바람만 나가면 <i>think</i>의 th, 성대가 울리면 <i>this</i>의 th예요. ㅆ이나 ㄸ으로 바꾸면 <i>sink</i>, <i>tree</i>처럼 다른 단어로 들려요.</p>
-{{ex:think|띵크 (th)|생각하다}}{{ex:three|쓰리 (th)|숫자 3}}{{ex:this|디스 (th)|이것}}
-<h3>끝 자음에 '으'를 붙이지 마세요</h3>
-<p>한국어 습관대로 milk를 "밀크으", bus를 "버스으"처럼 말하면 음절이 하나 더 생겨요. 영어의 끝 자음은 <b>모음 없이 짧게</b> 끝나요. 끝소리가 뜻을 바꾸기도 해요: bag(가방) / back(등), cab(택시) / cap(모자).</p>
-<h3>강세가 생명이에요</h3>
-<p>영어는 단어마다 한 음절을 <b>세고, 길고, 높게</b> 말해요. 발음이 정확해도 강세가 틀리면 못 알아들어요.</p>
-<div class="tbl"><table><tr><th>단어</th><th>강세</th><th>한글 느낌</th></tr><tr><td class="k">banana</td><td>ba-<b>NA</b>-na</td><td>버<b>내</b>너</td></tr><tr><td class="k">hotel</td><td>ho-<b>TEL</b></td><td>호우<b>텔</b></td></tr><tr><td class="k">McDonald's</td><td>mc-<b>DON</b>-ald's</td><td>먹<b>다</b>널즈</td></tr><tr><td class="k">thirteen / thirty</td><td>thir-<b>TEEN</b> / <b>THIR</b>-ty</td><td>써<b>틴</b> / <b>써</b>리</td></tr></table></div>
-<div class="tip">체크 방법: F·V는 윗니가 아랫입술에, TH는 혀끝이 이 사이에 <b>보여야</b> 해요. 거울에 보이면 맞게 하고 있는 거예요!</div>`},
+{ id:"pron", title:"1 · উচ্চারণের ফাঁদ: Z/J, V/B/W, TH ও জোর", blurb:"যে ধ্বনিগুলো বাংলায় নেই আর জোর কোথায় পড়ে, এটুকু ঠিক করলেই আপনার কথা অনেক বেশি মানুষ বুঝবে।", deck:"উচ্চারণে সাবধান", body:`
+<p>এই কোর্সের প্রতিটি কার্ড আর উদাহরণের সঙ্গে <b>বাংলা হরফে উচ্চারণ</b> লেখা আছে। এটা চেনা বাংলা বানান নয়: "ভেরি", "থিংক", "গো" লিখলে আমাদের পুরোনো ভুলগুলোই থেকে যায়। তাই এখানে কয়েকটা বাড়তি চিহ্ন আছে। আগে দুই মিনিটে সেগুলো চিনে নিন, তারপর যে ধ্বনিগুলো বাংলায় নেই সেগুলো একটা একটা করে ধরুন। আয়না সামনে রেখে অনুশীলন করলে সবচেয়ে ভালো।</p>
+<h3>উচ্চারণের লেখা কীভাবে পড়বেন</h3>
+<div class="tbl"><table><tr><th>চিহ্ন</th><th>মানে</th><th>উদাহরণ</th></tr><tr><td class="k">ˈ</td><td>এর পরের অংশে জোর দিন। যে শব্দে এই চিহ্ন নেই, সেটা হালকা ও ছোট করে বলুন</td><td>hotel হৌˈটেল</td></tr><tr><td class="k">জ় ভ় থ় দ়</td><td>নিচে ফোঁটা = যে ধ্বনি বাংলায় নেই। সাধারণ জ, ভ, থ, দ বলবেন না</td><td>zoo ˈজ়ূ, very ˈভ়েরি</td></tr><tr><td class="k">ওয়</td><td>ঠোঁট গোল করে বলা w</td><td>west ˈওয়েস্ট</td></tr><tr><td class="k">ী ূ / ি ু</td><td>লম্বা / ছোট</td><td>sheep ˈশীপ / ship ˈশিপ</td></tr><tr><td class="k">ৌ, েই</td><td>এক স্বর থেকে আরেক স্বরে গড়িয়ে যাওয়া: ও থেকে উ, এ থেকে ই</td><td>go ˈগৌ, name ˈনেইম</td></tr><tr><td class="k">াː</td><td>মুখ বেশি খুলে, টেনে বলা আ</td><td>copy ˈকাːপি</td></tr><tr><td class="k">শব্দের মাঝে কার-চিহ্ন ছাড়া ব্যঞ্জন</td><td>অ দিয়ে পড়ুন</td><td>coffee ˈকফি</td></tr><tr><td class="k">শব্দের শেষ ব্যঞ্জন</td><td>এর পরে কোনো স্বর নেই</td><td>milk ˈমিল্ক</td></tr></table></div>
+<h3>Z আর J: জ় আর জ</h3>
+<p>বাংলার জ বলতে জিভ তালুতে লেগে ছাড়ে; এটাই ইংরেজির <b>J</b>। <b>Z</b>-তে জিভ কোথাও লাগে না: s-এর মতো হিস্ শব্দ, সঙ্গে গলার কাঁপন, মৌমাছির গুনগুনের মতো। zoo-কে "জু" বললে শোনায় Jew। is, easy, zero আর dogs-এর শেষের -s-এও এই ধ্বনি।</p>
+{{ex:zoo|ˈজ়ূ|চিড়িয়াখানা}}{{ex:Jew|ˈজূ|ইহুদি}}
+<h3>V, B আর W: ভ়, ব আর ওয়</h3>
+<p><b>V</b>: উপরের দাঁত নিচের ঠোঁটে হালকা ছুঁইয়ে গলা কাঁপান; ঠোঁট বন্ধ হবে না। বাংলার ভ বা ব বললে very হয়ে যায় berry, vote হয়ে যায় boat। <b>W</b>: দাঁত ঠোঁট ছোঁয় না, ঠোঁট গোল করে "উ" থেকে শুরু করুন। vest আর west দুটো আলাদা শব্দ।</p>
+{{ex:very|ˈভ়েরি|খুব}}{{ex:berry|ˈবেরি|বেরি (ছোট রসালো ফল)}}{{ex:vote|ˈভ়ৌট|ভোট দেওয়া}}{{ex:boat|ˈবৌট|নৌকা}}{{ex:vest|ˈভ়েস্ট|হাতাকাটা জামা}}{{ex:west|ˈওয়েস্ট|পশ্চিম}}
+<h3>TH: থ় আর দ়</h3>
+<p>জিভের ডগা <b>দুই পাটি দাঁতের মাঝে</b> একটু বের করে বাতাস ছাড়তে থাকুন। শুধু বাতাস গেলে think-এর থ়, গলা কাঁপলে this-এর দ়। বাংলার থ আর দ-এ বাতাস এক মুহূর্ত আটকে যায়; ইংরেজিতে বাতাস থামে না। থ়-এর জায়গায় s বা t বললে think হয়ে যায় sink, three হয়ে যায় tree।</p>
+{{ex:think|ˈথ়িংক|ভাবা, মনে করা}}{{ex:sink|ˈসিংক|বেসিন / ডুবে যাওয়া}}{{ex:three|ˈথ়্রী|তিন}}{{ex:tree|ˈট্রী|গাছ}}{{ex:this|ˈদ়িস|এটা}}
+<h3>F আর P, S আর SH</h3>
+<p><b>F</b>-এ দুই ঠোঁট বন্ধ হয় না: উপরের দাঁত নিচের ঠোঁটে রেখে শুধু বাতাস ছাড়ুন। ঠোঁট বন্ধ করলে fan হয়ে যায় pan, coffee হয়ে যায় copy। <b>S</b> সব সময় "বাস", "সিট"-এর স; "সব"-এর শ নয়। sip আর ship দুটো আলাদা শব্দ।</p>
+{{ex:fan|ˈফ্যান|ফ্যান, পাখা}}{{ex:pan|ˈপ্যান|কড়াই, প্যান}}{{ex:coffee|ˈকফি|কফি}}{{ex:copy|ˈকাːপি|নকল, কপি}}{{ex:sip|ˈসিপ|চুমুক}}{{ex:ship|ˈশিপ|জাহাজ}}
+<h3>R আর L</h3>
+<p>বাংলায় র আর ল দুটোই আছে, তাই rice আর lice আলাদা করতে আপনার অসুবিধা হবে না। শুধু একটা জিনিস বদলান: বাংলার র-এ জিভ একবার টোকা দেয়, আমেরিকান <b>R</b>-এ জিভের ডগা <b>কোথাও লাগে না</b>; জিভ একটু পেছনে টেনে ঠোঁট সামান্য গোল করুন। <b>L</b>-এ জিভের ডগা উপরের মাড়িতে লাগে।</p>
+{{ex:rice|ˈরাইস|চাল, ভাত}}{{ex:lice|ˈলাইস|উকুন}}{{ex:right|ˈরাইট|ডান দিক / ঠিক}}{{ex:light|ˈলাইট|আলো / হালকা}}
+<h3>লম্বা আর ছোট স্বর, গড়িয়ে যাওয়া স্বর</h3>
+<p>বাংলায় ই আর ঈ একইভাবে বলি, কিন্তু ইংরেজিতে লম্বা আর ছোট স্বরে শব্দই বদলে যায়: ship (জাহাজ) / sheep, full / fool। আবার go আর name-এর স্বর এক জায়গায় থাকে না: go "গো" নয়, ও থেকে উ-এর দিকে গড়ায়; name "নেম" নয়, এ থেকে ই-এর দিকে গড়ায়।</p>
+{{ex:sheep|ˈশীপ|ভেড়া}}{{ex:full|ˈফুল|ভরা}}{{ex:fool|ˈফূল|বোকা}}{{ex:go|ˈগৌ|যাওয়া}}{{ex:name|ˈনেইম|নাম}}
+<h3>শুরুতে বাড়তি ই নয়, শেষের ব্যঞ্জন পুরোটা</h3>
+<p>s দিয়ে শুরু যুক্তধ্বনির আগে আমরা অজান্তে একটা ই বসিয়ে ফেলি: "ইস্কুল", "ইস্টেশন"। ইংরেজিতে সরাসরি স্ দিয়ে শুরু করুন। শব্দের শেষের ব্যঞ্জনগুলোও সব বলুন, পরে কোনো স্বর না জুড়ে: asked ˈঅ্যাস্ক্ট, months ˈমান্থ়্স, friends ˈফ্রেন্ড্জ়। শেষের ধ্বনিতেই অর্থ বদলায়: bag আর back।</p>
+{{ex:school|ˈস্কূল|স্কুল}}{{ex:bag|ˈব্যাগ|ব্যাগ}}{{ex:back|ˈব্যাক|পিঠ / পেছন}}
+<h3>জোর (stress) ঠিক না হলে কথা বোঝা যায় না</h3>
+<p>বাংলায় জোর সাধারণত শব্দের শুরুতে পড়ে, আর তাতে অর্থ বদলায় না। ইংরেজিতে প্রতিটি শব্দের একটা সিলেবল <b>জোরে আর লম্বা করে</b> বলতে হয়, বাকিগুলো হালকা ও দ্রুত। জোর ভুল জায়গায় পড়লে বাকি উচ্চারণ ঠিক থাকলেও অনেকে বুঝতে পারেন না।</p>
+<div class="tbl"><table><tr><th>শব্দ</th><th>জোর</th><th>উচ্চারণ</th></tr><tr><td class="k">banana</td><td>ba-<b>NA</b>-na</td><td>বাˈন্যানা</td></tr><tr><td class="k">hotel</td><td>ho-<b>TEL</b></td><td>হৌˈটেল</td></tr><tr><td class="k">McDonald's</td><td>mc-<b>DON</b>-ald's</td><td>মাক্ˈডাːনাল্ড্জ়</td></tr><tr><td class="k">thirteen / thirty</td><td>thir-<b>TEEN</b> / <b>THIR</b>-ty</td><td>থ়ার্ˈটীন / ˈথ়ার্টি</td></tr></table></div>
+<div class="tip">আয়নায় মিলিয়ে নিন: F আর V-তে উপরের দাঁত নিচের ঠোঁটে, TH-এ জিভের ডগা দাঁতের ফাঁকে <b>দেখা যাবে</b>। আর car, water-এর শেষের r আপনি যেভাবে বলেন, আমেরিকান ইংরেজিতে তা ঠিকই আছে; মনোযোগ দিন z, v, th আর জোরের দিকে।</div>`},
 
-{ id:"articles", title:"2 · a와 the: 관사 감 잡기", blurb:"한국어에 없는 관사, 세 가지 경우만 기억하면 돼요.", deck:"자기소개", body:`
-<p>한국어에는 관사가 없어서 가장 많이 틀리는 부분이에요. 완벽하지 않아도 대화는 통하지만, 기본 세 가지만 알면 훨씬 자연스러워져요.</p>
-<h3>a / an — 처음 말하는 '하나'</h3>
-<p>셀 수 있는 명사 하나를 <b>처음</b> 말할 때 써요. 직업 앞에도 꼭 붙여요.</p>
-{{ex:I'm a student.|아임 어 스튜던트|저는 학생이에요}}{{ex:I have a dog.|아이 해버 독|개를 한 마리 키워요}}
-<p><b>an</b>은 철자가 아니라 <b>소리</b>로 정해요. 모음 소리로 시작하면 an이에요.</p>
-<div class="tbl"><table><tr><th>a</th><th>an</th></tr><tr><td class="k">a university (유-)</td><td class="k">an hour (아워 — h 묵음)</td></tr><tr><td class="k">a uniform</td><td class="k">an idea</td></tr><tr><td class="k">a one-way ticket (원-)</td><td class="k">an MBA (엠-)</td></tr></table></div>
-<h3>the — 서로 아는 '그것'</h3>
-<p>이미 말했거나, 상황상 무엇인지 둘 다 아는 것에 써요. 하나뿐인 것(the sun, the internet)에도 써요.</p>
-{{ex:I have a dog. The dog is so cute.|아이 해버 독. 더 독 이즈 쏘 큐트|개를 키워요. 그 개가 정말 귀여워요}}{{ex:Can you close the door?|캔 유 클로즈 더 도어?|문 좀 닫아 줄래요? (이 방의 그 문)}}
-<h3>관사 없음 — 일반적인 이야기</h3>
-<p>'~라는 것 전체'를 말할 때는 복수형이나 셀 수 없는 명사를 관사 없이 써요. 식사 이름, 언어, 운동도 관사가 없어요.</p>
-{{ex:I love dogs.|아이 러브 독즈|저는 개를 좋아해요 (개라는 동물 전체)}}{{ex:I don't drink coffee.|아이 돈 드링크 커피|저는 커피를 안 마셔요}}{{ex:Let's have lunch.|렛츠 해브 런치|점심 먹어요}}
-<div class="tip">가장 흔한 실수 1위: <b>I'm teacher.</b> (X) → <b>I'm a teacher.</b> (O). 직업 앞의 a는 절대 빼먹지 마세요!</div>`},
+{ id:"articles", title:"2 · a ও the: আর্টিকেলের শুরু", blurb:"বাংলায় আর্টিকেল নেই, তাই a আর the সহজেই বাদ পড়ে। তিনটি নিয়ম মনে রাখলেই চলবে।", deck:"নিজের পরিচয়", body:`
+<p>বাংলায় a বা the-এর মতো আলাদা কোনো আর্টিকেল (a, an, the) নেই, তাই ইংরেজিতে এগুলো সহজেই বাদ পড়ে যায়, আবার যেখানে লাগে না সেখানেও ঢুকে পড়ে। "একটা" অনেকটা a-এর মতো আর -টা / -টি অনেকটা the-এর মতো, কিন্তু পুরোপুরি নয়। তিনটি নিয়ম মনে রাখলেই চলবে।</p>
+<h3>a / an: প্রথমবার বলা "একটা"</h3>
+<p>গোনা যায় এমন একটি জিনিসের (গণনাযোগ্য বিশেষ্য, noun) কথা <b>প্রথমবার</b> বললে তার আগে a / an বসে। বাংলায় "আমি ছাত্র" বলতে "একজন" লাগে না, কিন্তু ইংরেজিতে পেশা বা পরিচয়ের আগে a বাদ দেওয়া যায় না।</p>
+{{ex:I'm a student.|আইম আ ˈস্টূডান্ট|আমি ছাত্র}}{{ex:I have a dog.|আই ˈহ্যাভ় আ ˈডগ|আমার একটা কুকুর আছে}}
+<p>a বসবে না <b>an</b>, তা ঠিক হয় বানান দেখে নয়, <b>ধ্বনি</b> শুনে। পরের শব্দটা স্বরধ্বনি দিয়ে শুরু হলে an।</p>
+<div class="tbl"><table><tr><th>a</th><th>an</th></tr><tr><td class="k">a university ("ইউ" ধ্বনি দিয়ে শুরু)</td><td class="k">an hour (h উচ্চারণ হয় না)</td></tr><tr><td class="k">a uniform</td><td class="k">an idea</td></tr><tr><td class="k">a one-way ticket ("ওয়া" ধ্বনি দিয়ে শুরু)</td><td class="k">an MBA ("এম" ধ্বনি দিয়ে শুরু)</td></tr><tr><td class="k">a hat (an hat ✗)</td><td class="k">an honest man (h উচ্চারণ হয় না)</td></tr></table></div>
+<h3>the: দুজনেই জানি কোনটা</h3>
+<p>যে জিনিসের কথা আগেই বলা হয়েছে, বা পরিস্থিতি থেকে দুজনেই বুঝি কোনটা, তার আগে the বসে। পৃথিবীতে একটাই আছে এমন জিনিসের আগেও the: the sun, the internet। তবে বাংলার -টা সব সময় the নয়: "আমার বইটা" হলো <b>my book</b> ✓, <b>my the book</b> ✗ নয়।</p>
+{{ex:I have a dog. The dog is so cute.|আই ˈহ্যাভ় আ ˈডগ। দ়া ˈডগ ইজ় ˈসৌ ˈকিঊট|আমার একটা কুকুর আছে। কুকুরটা খুব সুন্দর}}{{ex:Can you close the door?|কান ইউ ˈক্লৌজ় দ়া ˈডর|দরজাটা একটু বন্ধ করবে? (এই ঘরের দরজা)}}
+<h3>আর্টিকেল ছাড়া: সাধারণভাবে বলা</h3>
+<p>কোনো জিনিসের পুরো জাত নিয়ে সাধারণ কথা বললে বহুবচন বা গোনা যায় না এমন বিশেষ্য বসে, <b>কোনো আর্টিকেল ছাড়া</b>। খাবারের বেলার নাম (lunch), ভাষা আর খেলার নামের আগেও আর্টিকেল বসে না; শহর আর বেশির ভাগ দেশের নামের আগেও না: in Dhaka, in Bangladesh।</p>
+{{ex:I love dogs.|আই ˈলাভ় ˈডগ্জ়|আমি কুকুর খুব পছন্দ করি (কুকুর জাতটাই)}}{{ex:I don't drink coffee.|আই ˈডৌন্ট ˈড্রিংক ˈকফি|আমি কফি খাই না}}{{ex:Let's have lunch.|ˈলেট্স ˈহ্যাভ় ˈলান্চ|চলো, দুপুরের খাবার খাই}}
+<div class="tip">সবচেয়ে চেনা ভুল: <b>I'm teacher.</b> ✗ → <b>I'm a teacher.</b> ✓ পেশার আগের a কখনো বাদ দেবেন না।</div>`},
 
-{ id:"be", title:"3 · be동사와 일반동사", blurb:"am/is/are와 do/does — 섞어 쓰지 않는 게 핵심이에요.", deck:"자기소개", body:`
-<p>영어 문장에는 동사가 꼭 하나 있어요. 그 동사가 <b>be동사</b>인지 <b>일반동사</b>인지에 따라 부정문·의문문 만드는 법이 달라져요.</p>
-<h3>두 종류의 동사</h3>
-<div class="tbl"><table><tr><th></th><th>be동사</th><th>일반동사</th></tr><tr><td>뜻</td><td>~이다, ~에 있다, ~한 상태다</td><td>행동·습관 (먹다, 살다, 좋아하다)</td></tr><tr><td>예</td><td class="k">I am tired.</td><td class="k">I like coffee.</td></tr><tr><td>부정</td><td class="k">I'm not tired.</td><td class="k">I don't like coffee.</td></tr><tr><td>질문</td><td class="k">Are you tired?</td><td class="k">Do you like coffee?</td></tr></table></div>
-<p>be동사는 주어에 따라 모양이 바뀌어요: <b>I am</b> / <b>you·we·they are</b> / <b>he·she·it is</b>. 말할 때는 거의 항상 줄여요: I'm, you're, she's.</p>
-{{ex:I'm hungry.|아임 헝그리|배고파요}}{{ex:She's at work.|쉬즈 앳 워크|그녀는 회사에 있어요}}{{ex:Are you okay?|아 유 오케이?|괜찮아요?}}
-<h3>절대 같이 쓰지 마세요</h3>
-<p>한국어 "저는 ~해요"를 옮기다 보면 be동사와 일반동사를 겹쳐 쓰기 쉬워요.</p>
-{{ex:I like K-pop.|아이 라익 케이팝|케이팝을 좋아해요 (O — I am like X)}}{{ex:I live in Busan.|아이 리브 인 부산|부산에 살아요 (O — I am live X)}}
-<h3>he·she·it에는 -s</h3>
-<p>주어가 한 사람(나·너 제외)이면 현재형 일반동사에 <b>-s</b>를 붙이고, 부정·질문에는 <b>does</b>를 써요. does를 쓰면 동사의 -s는 빠져요.</p>
-{{ex:My brother works in Seoul.|마이 브라더 웍스 인 서울|우리 형은 서울에서 일해요}}{{ex:Does he speak English?|더즈 히 스픽 잉글리시?|그는 영어를 해요?}}{{ex:She doesn't eat meat.|쉬 더즌트 잇 밋|그녀는 고기를 안 먹어요}}
-<div class="tip">헷갈리면 이렇게 물어보세요: "이 문장에 be 말고 <b>다른 동사</b>(like, live, want, go…)가 있나?" 있으면 do/does, 없으면(상태·정체·위치) be동사예요.</div>`},
+{ id:"be", title:"3 · be ক্রিয়া ও অন্য ক্রিয়া", blurb:"am / is / are আর do / does: একটা বাদ দেওয়া যায় না, আর দুটো একসঙ্গে বসে না।", deck:"নিজের পরিচয়", body:`
+<p>বাংলায় "আমি ছাত্র" বা "সে খুব ব্যস্ত" বলতে কোনো ক্রিয়া (verb) লাগে না। ইংরেজি বাক্যে ক্রিয়া থাকতেই হয়, তাই এখানে <b>be ক্রিয়া</b> (am, is, are) বসে: I <b>am</b> a student. এটা বাদ পড়াই আমাদের সবচেয়ে চেনা ভুলগুলোর একটা: <b>English very important.</b> ✗ → <b>English is very important.</b> ✓</p>
+<h3>দুই রকম ক্রিয়া</h3>
+<div class="tbl"><table><tr><th></th><th>be ক্রিয়া</th><th>অন্য ক্রিয়া</th></tr><tr><td>অর্থ</td><td>হওয়া, কোথাও থাকা, কোনো অবস্থায় থাকা</td><td>কাজ, অভ্যাস, পছন্দ (খাওয়া, বাস করা, পছন্দ করা)</td></tr><tr><td>উদাহরণ</td><td class="k">I am tired.</td><td class="k">I like coffee.</td></tr><tr><td>না-বাচক বাক্য</td><td class="k">I'm not tired.</td><td class="k">I don't like coffee.</td></tr><tr><td>প্রশ্ন</td><td class="k">Are you tired?</td><td class="k">Do you like coffee?</td></tr></table></div>
+<p>be ক্রিয়া কর্তা (subject) অনুযায়ী বদলায়: <b>I am</b> / <b>you, we, they are</b> / <b>he, she, it is</b>। মুখের কথায় প্রায় সব সময় সংক্ষিপ্ত রূপ বলা হয়: I'm, you're, she's।</p>
+{{ex:I'm hungry.|আইম ˈহাংগ্রি|আমার খিদে পেয়েছে}}{{ex:She's at work.|শিজ় আট ˈওয়ার্ক|সে (মেয়ে) অফিসে আছে}}{{ex:Are you okay?|আর ইউ ঔˈকেই|তুমি ঠিক আছ?}}
+<h3>সে: he না she?</h3>
+<p>বাংলায় "সে" বা "তিনি" দিয়ে ছেলে-মেয়ে দুজনকেই বোঝায়। ইংরেজিতে বেছে নিতে হয়: ছেলে বা পুরুষ হলে <b>he</b>, মেয়ে বা নারী হলে <b>she</b>। আর "তিনি"-র মতো সম্মান বোঝানো আলাদা রূপ ইংরেজিতে নেই।</p>
+{{ex:He's a doctor.|হিজ় আ ˈডাːক্টার|তিনি ডাক্তার (পুরুষ)}}{{ex:She's a doctor.|শিজ় আ ˈডাːক্টার|তিনি ডাক্তার (নারী)}}
+<h3>be আর অন্য ক্রিয়া একসঙ্গে নয়</h3>
+<p>উল্টো ভুলটাও হয়: বাক্যে like, live, work-এর মতো ক্রিয়া আগে থেকেই আছে, তবু তার আগে am / is / are বসিয়ে দেওয়া।</p>
+{{ex:I like cricket.|আই ˈলাইক ˈক্রিকিট|আমি ক্রিকেট পছন্দ করি (I am like ✗)}}{{ex:I live in Dhaka.|আই ˈলিভ় ইন ˈডাːকা|আমি ঢাকায় থাকি (I am live ✗)}}
+<h3>he, she, it-এর সঙ্গে -s</h3>
+<p>বাংলায় "সে করে" আর "তারা করে", দুই জায়গায় ক্রিয়া একই। ইংরেজিতে কর্তা he, she, it হলে, কিংবা অন্য কোনো একজন মানুষ বা একটি জিনিস হলে (my brother, the shop), Present Simple-এ ক্রিয়ার শেষে <b>-s</b> বসে। না-বাচক বাক্য আর প্রশ্নে বসে <b>does</b>; does বসলে ক্রিয়ার -s আর থাকে না।</p>
+{{ex:My brother works in Dhaka.|মাই ˈব্রাদ়ার ˈওয়ার্ক্স ইন ˈডাːকা|আমার ভাই ঢাকায় কাজ করে}}{{ex:Does he speak English?|ডাজ় হি ˈস্পীক ˈইংগ্লিশ|সে (ছেলে) কি ইংরেজি বলে?}}{{ex:She doesn't eat meat.|শি ˈডাজ়ান্ট ˈঈট ˈমীট|সে (মেয়ে) মাংস খায় না}}
+<div class="tip">দ্বিধা হলে নিজেকে জিজ্ঞেস করুন: বাক্যে be ছাড়া <b>অন্য কোনো ক্রিয়া</b> (like, live, want, go…) আছে? থাকলে প্রশ্ন আর না-বাচক বাক্য হবে do / does দিয়ে। না থাকলে (পরে শুধু বিশেষণ, বিশেষ্য বা জায়গার নাম) be ক্রিয়া বসবে।</div>`},
 
-{ id:"polite", title:"4 · 공손하게 부탁하기", blurb:"Can you → Could you → Would you mind. 'Give me'는 이제 그만!", deck:"생존 영어 1", body:`
-<p>영어에는 존댓말 어미가 없지만, <b>부탁하는 방식</b>으로 공손함을 표현해요. 같은 내용도 문장 틀에 따라 무례하게도, 정중하게도 들려요.</p>
-<h3>공손함의 계단</h3>
-<div class="tbl"><table><tr><th>표현</th><th>느낌</th><th>쓰는 곳</th></tr><tr><td class="k">Give me ~.</td><td>명령. 무례하게 들려요</td><td>쓰지 마세요</td></tr><tr><td class="k">Can you ~?</td><td>캐주얼한 부탁</td><td>친구, 가게</td></tr><tr><td class="k">Could you ~?</td><td>공손한 부탁</td><td>처음 보는 사람, 직장</td></tr><tr><td class="k">Would you mind ~ing?</td><td>아주 공손함</td><td>큰 부탁, 윗사람</td></tr></table></div>
-{{ex:Could you help me?|쿠쥬 헬프 미?|도와주시겠어요?}}{{ex:Could you say that again?|쿠쥬 쎄이 댓 어게인?|다시 말씀해 주시겠어요?}}{{ex:Would you mind taking a picture of us?|우쥬 마인드 테이킹 어 픽처 오브 어스?|저희 사진 좀 찍어 주셔도 괜찮을까요?}}
-<h3>주문할 때는 Can I get ~? / I'd like ~</h3>
-<p>"I want ~"는 아이가 조르는 것처럼 들릴 수 있어요. 가게에서는 이렇게 말해요.</p>
-{{ex:Can I get a latte, please?|캔 아이 게러 라테이, 플리즈?|라테 한 잔 주세요}}{{ex:I'd like a window seat.|아이드 라익 어 윈도우 씻|창가 자리로 주세요}}
-<h3>Would you mind…?의 함정</h3>
-<p>mind는 '꺼리다'라는 뜻이에요. 그래서 <b>"No"가 OK</b>라는 뜻이 돼요!</p>
-{{ex:Would you mind opening the window?|우쥬 마인드 오프닝 더 윈도우?|창문 좀 열어 주셔도 될까요?}}{{ex:No, not at all.|노, 낫 앳 올|네, 그럼요 (전혀 안 꺼려요)}}
-<div class="tip">마법의 단어 <b>please</b>와 <b>thank you</b>는 아무리 많이 써도 지나치지 않아요. 문장 끝에 please만 붙여도 훨씬 부드러워져요. 억양도 중요해요: 끝을 살짝 올리면 부탁, 내리면 명령처럼 들려요.</div>`},
+{ id:"polite", title:"4 · ভদ্রভাবে অনুরোধ করা", blurb:"Can you → Could you → Would you mind। Give me বলা এবার বন্ধ!", deck:"জরুরি ইংরেজি 1", body:`
+<p>বাংলায় ভদ্রতা থাকে সর্বনামে আর ক্রিয়ার রূপে: আপনি, তুমি, তুই। ইংরেজিতে সবাই <b>you</b>, তাই ভদ্রতা আসে <b>অনুরোধের বাক্যের ছাঁচ</b> থেকে। "দয়া করে পানি দিন" বাংলায় যথেষ্ট ভদ্র, কিন্তু Please give me water ইংরেজিতে তবু আদেশ; শুনতে রূঢ় লাগে।</p>
+<h3>ভদ্রতার সিঁড়ি</h3>
+<div class="tbl"><table><tr><th>বাক্য</th><th>কেমন শোনায়</th><th>কোথায় বলবেন</th></tr><tr><td class="k">Give me…</td><td>আদেশ; অভদ্র শোনায়</td><td>বলবেন না</td></tr><tr><td class="k">Can you…?</td><td>সহজ, ঘরোয়া অনুরোধ</td><td>বন্ধু, দোকান</td></tr><tr><td class="k">Could you…?</td><td>ভদ্র অনুরোধ</td><td>অপরিচিত মানুষ, অফিস</td></tr><tr><td class="k">Would you mind …ing?</td><td>খুব ভদ্র</td><td>বড় অনুরোধ, বস বা বয়সে বড় কেউ</td></tr></table></div>
+{{ex:Could you help me?|কাড ইউ ˈহেল্প মি|আমাকে একটু সাহায্য করবেন?}}{{ex:Could you say that again?|কাড ইউ ˈসেই ˈদ়্যাট আˈগেন|আরেকবার বলবেন?}}{{ex:Would you mind taking a picture of us?|ওয়াড ইউ ˈমাইন্ড ˈটেইকিং আ ˈপিক্চার আভ় আস|কিছু মনে না করলে আমাদের একটা ছবি তুলে দেবেন?}}
+<h3>অর্ডার করতে Can I get…? / I'd like…</h3>
+<p>I want… বললে মনে হতে পারে ছোট বাচ্চা বায়না করছে। দোকানে বা রেস্টুরেন্টে এভাবে বলুন:</p>
+{{ex:Can I get a latte, please?|কান আই ˈগেট আ ˈলাːটেই ˈপ্লীজ়|একটা লাতে দেবেন?}}{{ex:I'd like a window seat.|আইড ˈলাইক আ ˈওয়িন্ডৌ ˈসীট|আমাকে জানালার পাশের একটা সিট দিন}}
+<h3>Would you mind…?-এর ফাঁদ</h3>
+<p>mind মানে "আপত্তি করা"। তাই উত্তরে <b>No বললেই বোঝায় "ঠিক আছে, করছি"</b>।</p>
+{{ex:Would you mind opening the window?|ওয়াড ইউ ˈমাইন্ড ˈঔপানিং দ়া ˈওয়িন্ডৌ|কিছু মনে না করলে জানালাটা একটু খুলে দেবেন?}}{{ex:No, not at all.|ˈনৌ ˈনাːট আট ˈঅল|না না, কোনো আপত্তি নেই (মানে: খুলে দিচ্ছি)}}
+<h3>ভাই, আপা, স্যার: ইংরেজিতে কী বলবেন?</h3>
+<p>ইংরেজিতে অপরিচিত কাউকে brother, sister বা uncle বলে ডাকা হয় না। সহকর্মী বা পরিচিত মানুষকে নাম ধরে ডাকুন (Hi, Sarah); আনুষ্ঠানিক হলে <b>Mr. / Ms.</b> + পদবি (Ms. Rahman)। <b>sir / ma'am</b> মূলত দোকান, হোটেল বা রেস্টুরেন্টের কর্মীরা ক্রেতাকে বলেন।</p>
+<div class="tip"><b>please</b> আর <b>thank you</b> যত বেশিই বলুন, বাড়াবাড়ি হয় না। তবে শুধু please জুড়লেই আদেশ অনুরোধ হয়ে যায় না; Could you…? ছাঁচটাই আসল। সুরও জরুরি: শেষটা একটু উঁচু হলে অনুরোধ, নামিয়ে দিলে আদেশের মতো শোনায়।</div>`},
 
-{ id:"tense", title:"5 · 시제 한눈에 정리: 현재·과거·미래", blurb:"습관은 현재, 지금은 진행형, 계획은 going to.", deck:"스몰토크", body:`
-<p>한국어는 "먹어요" 하나로 습관도, 지금 하는 일도, 가까운 미래도 말할 수 있어요. 영어는 이걸 나눠서 말해요. 스몰토크에 꼭 필요한 다섯 가지만 익혀요.</p>
-<h3>현재형 vs 현재진행형</h3>
-<div class="tbl"><table><tr><th>형태</th><th>뜻</th><th>예</th></tr><tr><td class="k">현재형</td><td>습관, 늘 그런 사실</td><td>I drink coffee every morning.</td></tr><tr><td class="k">be + ~ing</td><td>지금 하는 중 / 정해 둔 가까운 일정</td><td>I'm drinking coffee right now.</td></tr></table></div>
-{{ex:I work at a bank.|아이 워크 앳 어 뱅크|은행에서 일해요 (늘)}}{{ex:I'm working from home today.|아임 워킹 프럼 홈 투데이|오늘은 재택근무 중이에요}}
-<h3>과거형</h3>
-<p>규칙 동사는 <b>-ed</b>, 자주 쓰는 동사는 대부분 불규칙이에요: go → went, eat → ate, see → saw, have → had, get → got.</p>
-{{ex:I went to the beach last weekend.|아이 웬 투 더 비-치 래스트 위켄드|지난 주말에 바닷가에 갔어요}}{{ex:Did you have fun?|디쥬 해브 펀?|재밌었어요?}}
-<h3>미래: will vs be going to</h3>
-<div class="tbl"><table><tr><th></th><th>언제</th><th>예</th></tr><tr><td class="k">will</td><td>말하는 순간 결정, 약속</td><td>I'll get the door!</td></tr><tr><td class="k">be going to</td><td>미리 세운 계획</td><td>I'm going to visit Jeju next month.</td></tr></table></div>
-{{ex:I'll call you later.|아일 콜 유 레이러|나중에 전화할게}}{{ex:I'm going to take a cooking class.|아임 고잉 투 테이커 쿠킹 클래스|요리 수업 들을 거예요}}
-<p>말할 때 going to는 <b>gonna(거나)</b>처럼 들려요. 글로 쓸 때는 going to로 써요.</p>
-<div class="tip">"How was your weekend?"엔 과거형, "Any plans for the weekend?"엔 going to로 대답하면 돼요. 질문의 시제를 그대로 따라 하는 게 가장 쉬운 방법이에요.</div>`},
+{ id:"tense", title:"5 · এক নজরে tense: বর্তমান, অতীত, ভবিষ্যৎ", blurb:"অভ্যাসে Present Simple, এখন চলছে এমন কাজে -ing, পরিকল্পনায় going to।", deck:"হালকা আলাপ", body:`
+<p>বাংলাতেও ক্রিয়ার রূপ বদলায়: করি, করছি, করলাম, করব। তাই ইংরেজির tense (কাল) আপনার কাছে নতুন ধারণা নয়। জানা দরকার শুধু কোন বাংলা রূপের জায়গায় কোন ইংরেজি রূপ বসে, আর কোথায় দুই ভাষার হিসাব মেলে না। হালকা আলাপে এই পাঁচটি রূপই সবচেয়ে বেশি লাগে।</p>
+<h3>বাংলা রূপ থেকে ইংরেজি রূপ</h3>
+<div class="tbl"><table><tr><th>বাংলা</th><th>ইংরেজি</th><th>খেয়াল রাখুন</th></tr><tr><td class="k">করি (অভ্যাস)</td><td>Present Simple: I work</td><td>he / she / it-এর সঙ্গে -s: he works</td></tr><tr><td class="k">করছি (এখন)</td><td>Present Continuous: I am working</td><td>be ক্রিয়া বাদ যায় না: I working ✗</td></tr><tr><td class="k">করলাম / করেছি (গতকাল)</td><td>Past Simple: I worked</td><td>yesterday, last week থাকলে have worked নয়</td></tr><tr><td class="k">করব</td><td>will work / am going to work</td><td>আগে থেকে ঠিক করা পরিকল্পনায় going to</td></tr></table></div>
+<h3>Present Simple আর Present Continuous</h3>
+<div class="tbl"><table><tr><th>রূপ</th><th>অর্থ</th><th>উদাহরণ</th></tr><tr><td class="k">Present Simple</td><td>অভ্যাস, সব সময়ের সত্য</td><td>I drink coffee every morning.</td></tr><tr><td class="k">be + -ing</td><td>এই মুহূর্তে চলছে / আগে থেকে ঠিক করা কাছের পরিকল্পনা</td><td>I'm drinking coffee right now.</td></tr></table></div>
+{{ex:I work at a bank.|আই ˈওয়ার্ক আট আ ˈব্যাংক|আমি একটা ব্যাংকে কাজ করি (সব সময়)}}{{ex:I'm working from home today.|আইম ˈওয়ার্কিং ফ্রাম ˈহৌম টাˈডেই|আজ আমি বাসা থেকে কাজ করছি}}
+<p>জানা, চাওয়া, বোঝা বা পছন্দ করার মতো অবস্থা বোঝানো ক্রিয়ায় -ing বসে না: <b>I am knowing him.</b> ✗ → <b>I know him.</b> ✓</p>
+<h3>Past Simple</h3>
+<p>নিয়মিত ক্রিয়ায় <b>-ed</b> বসে, কিন্তু সবচেয়ে বেশি ব্যবহৃত ক্রিয়াগুলো অনিয়মিত: go → went, eat → ate, see → saw, have → had, get → got।</p>
+{{ex:I went to the beach last weekend.|আই ˈওয়েন্ট টা দ়া ˈবীচ ˈল্যাস্ট ˈওয়ীকেন্ড|গত উইকএন্ডে আমি সমুদ্রসৈকতে গিয়েছিলাম}}{{ex:Did you have fun?|ডিড ইউ ˈহ্যাভ় ˈফান|মজা হয়েছিল?}}
+<h3>ভবিষ্যৎ: will আর be going to</h3>
+<div class="tbl"><table><tr><th></th><th>কখন</th><th>উদাহরণ</th></tr><tr><td class="k">will</td><td>কথা বলার মুহূর্তে নেওয়া সিদ্ধান্ত, কথা দেওয়া</td><td>I'll get the door!</td></tr><tr><td class="k">be going to</td><td>আগে থেকে ঠিক করা পরিকল্পনা</td><td>I'm going to visit Cox's Bazar next month.</td></tr></table></div>
+{{ex:I'll call you later.|আইল ˈকল ইউ ˈলেইটার|আমি তোমাকে পরে ফোন করব}}{{ex:I'm going to take a cooking class.|আইম ˈগৌইং টা ˈটেইক আ ˈকুকিং ˈক্ল্যাস|আমি একটা রান্নার ক্লাস করব (ঠিক করে রেখেছি)}}
+<p>মুখের কথায় going to প্রায়ই <b>gonna</b>-র মতো শোনায়; লেখার সময় going to-ই লিখুন।</p>
+<div class="tip">How was your weekend? জিজ্ঞেস করলে Past Simple-এ উত্তর দিন, Any plans for the weekend? জিজ্ঞেস করলে going to দিয়ে। প্রশ্নের tense ধরে উত্তর দেওয়াই সবচেয়ে সহজ উপায়।</div>`},
 
-{ id:"prep", title:"6 · 전치사 in / on / at", blurb:"넓으면 in, 하루면 on, 한 점이면 at.", deck:"숫자·시간·날짜", body:`
-<p>in, on, at은 시간과 장소 모두에 쓰여요. <b>범위가 넓을수록 in, 좁을수록 at</b>이라고 기억하면 대부분 맞아요.</p>
-<h3>시간</h3>
-<div class="tbl"><table><tr><th>전치사</th><th>범위</th><th>예</th></tr><tr><td class="k">in</td><td>월·연도·계절·하루 중 때</td><td>in May, in 2026, in summer, in the morning</td></tr><tr><td class="k">on</td><td>요일·날짜·특정한 날</td><td>on Monday, on May 3rd, on my birthday</td></tr><tr><td class="k">at</td><td>정확한 시각·짧은 순간</td><td>at 7, at noon, at night</td></tr></table></div>
-{{ex:See you on Friday.|씨 유 온 프라이데이|금요일에 봐요}}{{ex:The meeting is at three.|더 미팅 이즈 앳 쓰리|회의는 3시예요}}{{ex:I was born in 1998.|아이 워즈 본 인 나인틴 나인티에잇|1998년에 태어났어요}}
-<h3>장소</h3>
-<div class="tbl"><table><tr><th>전치사</th><th>느낌</th><th>예</th></tr><tr><td class="k">in</td><td>공간 안, 도시·나라</td><td>in the car, in Seoul, in Korea</td></tr><tr><td class="k">on</td><td>표면 위, 거리, 대중교통</td><td>on the table, on Main Street, on the bus</td></tr><tr><td class="k">at</td><td>한 지점, 장소를 '목적'으로</td><td>at the station, at work, at home</td></tr></table></div>
-{{ex:I'm on the bus.|아임 온 더 버스|버스 타고 있어요}}{{ex:Let's meet at the station.|렛츠 밋 앳 더 스테이션|역에서 만나요}}
-<h3>전치사를 쓰지 않는 경우</h3>
-<p><b>next, last, this, every, tomorrow, yesterday</b> 앞에는 전치사를 쓰지 않아요.</p>
-{{ex:See you next week.|씨 유 넥스트 윅|다음 주에 봐요 (on next week X)}}
-<div class="tip">예외도 외워 두세요: <b>at night</b>(밤에), <b>in the morning / afternoon / evening</b>. 주말은 미국 <b>on the weekend</b>, 영국 <b>at the weekend</b>예요.</div>`},
+{ id:"prep", title:"6 · in / on / at: কোনটা কখন", blurb:"বড় পরিসরে in, নির্দিষ্ট দিনে on, একটা বিন্দুতে at।", deck:"সংখ্যা, সময় ও তারিখ", body:`
+<p>বাংলায় বলি "টেবিলের উপরে", "ঢাকায়", "সোমবারে": শব্দ বা বিভক্তিটা বিশেষ্যের <b>পরে</b> বসে। ইংরেজিতে preposition বসে বিশেষ্যের <b>আগে</b>: on the table। আর বাংলার এক -এ / -তে / -য়-এর জায়গায় ইংরেজিতে তিনটি থেকে বেছে নিতে হয়: in, on, at। সহজ নিয়ম: <b>পরিসর যত বড় তত in, যত ছোট ও নির্দিষ্ট তত at</b>।</p>
+<h3>সময়</h3>
+<div class="tbl"><table><tr><th>preposition</th><th>পরিসর</th><th>উদাহরণ</th></tr><tr><td class="k">in</td><td>মাস, বছর, ঋতু, দিনের ভাগ</td><td>in May, in 2026, in summer, in the morning</td></tr><tr><td class="k">on</td><td>বার, তারিখ, বিশেষ দিন</td><td>on Monday, on May 3rd, on my birthday</td></tr><tr><td class="k">at</td><td>ঘড়ির সময়, ছোট একটা মুহূর্ত</td><td>at 7, at noon, at night</td></tr></table></div>
+{{ex:See you on Friday.|ˈসী ইউ আːন ˈফ্রাইডেই|শুক্রবারে দেখা হবে}}{{ex:The meeting is at three.|দ়া ˈমীটিং ইজ় আট ˈথ়্রী|মিটিং তিনটায়}}{{ex:I was born in 1998.|আই ওয়াজ় ˈবর্ন ইন নাইন্ˈটীন নাইন্টি ˈএইট|আমার জন্ম 1998 সালে}}
+<h3>জায়গা</h3>
+<div class="tbl"><table><tr><th>preposition</th><th>ধারণা</th><th>উদাহরণ</th></tr><tr><td class="k">in</td><td>কোনো জায়গার ভেতরে, শহর, দেশ</td><td>in the car, in Dhaka, in Bangladesh</td></tr><tr><td class="k">on</td><td>কোনো কিছুর উপরে বা গায়ে, রাস্তা, বাস-ট্রেন</td><td>on the table, on Main Street, on the bus</td></tr><tr><td class="k">at</td><td>একটা নির্দিষ্ট বিন্দু, কাজের জায়গা</td><td>at the station, at work, at home</td></tr></table></div>
+{{ex:I'm on the bus.|আইম আːন দ়া ˈবাস|আমি বাসে আছি}}{{ex:Let's meet at the station.|ˈলেট্স ˈমীট আট দ়া ˈস্টেইশান|চলো, স্টেশনে দেখা করি}}
+<h3>যেখানে preposition বসে না</h3>
+<p><b>next, last, this, every, tomorrow, yesterday</b>-এর আগে কোনো preposition বসে না। আর "বাড়ি যাই" হলো <b>go home</b> ✓; go to home ✗ নয়।</p>
+{{ex:See you next week.|ˈসী ইউ ˈনেক্স্ট ˈওয়ীক|আগামী সপ্তাহে দেখা হবে (on next week ✗)}}
+<div class="tip">এই ব্যতিক্রমগুলো মনে রাখুন: <b>at night</b> (রাতে), কিন্তু <b>in the morning / afternoon / evening</b>। উইকএন্ডের বেলায় আমেরিকায় <b>on the weekend</b>, ব্রিটেনে <b>at the weekend</b>।</div>`},
 
-{ id:"smalltalk", title:"7 · 스몰토크 문화", blurb:"How are you?는 질문이 아니라 인사예요. 안전한 주제와 피할 주제.", deck:"스몰토크", body:`
-<p>영어권에서는 엘리베이터, 계산대, 회의 시작 전에 처음 보는 사람과도 가볍게 이야기를 나눠요. 깊은 대화가 아니라 <b>분위기를 부드럽게 하는 짧은 대화</b>예요.</p>
-<h3>How are you?는 인사예요</h3>
-<p>진짜 컨디션을 묻는 게 아니에요. 짧게 대답하고 <b>되물어 주는 것</b>이 매너예요.</p>
-{{ex:Hey, how's it going?|헤이, 하우즈 잇 고잉?|안녕, 잘 지내?}}{{ex:Pretty good! How about you?|프리티 굿! 하우 어바웃 유?|잘 지내! 너는?}}
-<h3>안전한 주제 vs 피할 주제</h3>
-<div class="tbl"><table><tr><th>안전해요</th><th>초면엔 피해요</th></tr><tr><td>날씨, 주말·휴가 계획</td><td>나이, 결혼·연애 여부</td></tr><tr><td>음식, 맛집, 여행</td><td>체중·외모 평가 ("살쪘어요?")</td></tr><tr><td>드라마·영화·스포츠</td><td>연봉, 집값</td></tr><tr><td>일 (가볍게), 동네</td><td>정치, 종교</td></tr></table></div>
-<p>한국에서는 나이를 먼저 묻는 게 자연스럽지만, 영어권에서는 실례가 될 수 있어요.</p>
-<h3>대화를 이어 가는 기술</h3>
-<p>대답 + <b>정보 하나 더</b> + <b>되묻기</b>. 이 세 박자면 대화가 끊기지 않아요.</p>
-{{ex:It was great! I went hiking. What about you?|잇 워즈 그레잇! 아이 웬 하이킹. 왓 어바웃 유?|좋았어요! 등산 갔었어요. 당신은요?}}
-<p>맞장구도 중요해요: <b>Oh, really?</b> / <b>That sounds fun!</b> / <b>No way!</b> / <b>I know, right?</b></p>
-<h3>자연스럽게 끝내기</h3>
-{{ex:Well, I should get going.|웰, 아이 슈드 겟 고잉|그럼 이만 가 볼게요}}{{ex:It was nice talking to you.|잇 워즈 나이스 토킹 투 유|이야기 즐거웠어요}}
-<div class="tip">부정문에 맞장구칠 때는 <b>Me neither</b>예요. "I don't like horror movies." → "Me neither." (Me too X). 미국 구어에서는 Me either도 들리지만 Me neither가 표준이에요.</div>`},
+{ id:"smalltalk", title:"7 · হালকা আলাপের রীতি", blurb:"How are you? প্রশ্ন নয়, শুভেচ্ছা। কোন বিষয় নিরাপদ, আর কোনটা এড়িয়ে চলবেন।", deck:"হালকা আলাপ", body:`
+<p>ইংরেজিভাষী দেশে লিফটে, দোকানের কাউন্টারে বা মিটিং শুরুর আগে অপরিচিত মানুষের সঙ্গেও দু-চার কথা হয়। এটা গভীর আলাপ নয়, <b>পরিবেশ সহজ করার ছোট্ট কথাবার্তা</b>।</p>
+<h3>How are you? আসলে শুভেচ্ছা</h3>
+<p>বাংলায় "খেয়েছেন?" বা "কোথায় যাচ্ছেন?" যেমন সত্যিকারের প্রশ্ন নয়, কুশল জানানোর উপায়, How are you?-ও তেমনি। ছোট করে উত্তর দিন আর <b>পাল্টা জিজ্ঞেস করুন</b>। উল্টো দিকে Have you eaten? বা Where are you going? ইংরেজিতে সত্যিকারের প্রশ্ন; শুভেচ্ছা হিসেবে বললে মানুষ অবাক হবে।</p>
+{{ex:Hey, how's it going?|ˈহেই ˈহাউজ় ইট ˈগৌইং|এই, কেমন চলছে?}}{{ex:Pretty good! How about you?|ˈপ্রিটি ˈগুড। ˈহাউ আবাউট ˈইঊ|ভালোই! তোমার কী খবর?}}
+<h3>নিরাপদ বিষয় আর এড়িয়ে চলার বিষয়</h3>
+<div class="tbl"><table><tr><th>নিরাপদ</th><th>প্রথম আলাপে এড়িয়ে চলুন</th></tr><tr><td>আবহাওয়া, ছুটির দিনের পরিকল্পনা</td><td>বয়স, বিয়ে হয়েছে কি না</td></tr><tr><td>খাবার, রেস্টুরেন্ট, ভ্রমণ</td><td>ওজন বা চেহারা নিয়ে মন্তব্য ("মোটা হয়ে গেছেন!")</td></tr><tr><td>সিরিজ, সিনেমা, খেলা (ক্রিকেট, ফুটবল)</td><td>বেতন, বাড়িভাড়া</td></tr><tr><td>কাজ (হালকাভাবে), যানজট, এলাকা</td><td>রাজনীতি, ধর্ম</td></tr></table></div>
+<p>আমাদের এখানে বয়স, বেতন বা বিয়ের কথা জিজ্ঞেস করা অনেক সময় আন্তরিকতার প্রকাশ। ইংরেজিভাষী সমাজে প্রথম আলাপে এসব প্রশ্ন অভদ্রতা মনে হতে পারে।</p>
+<h3>আলাপ চালিয়ে যাওয়ার কৌশল</h3>
+<p>উত্তর + <b>একটা বাড়তি তথ্য</b> + <b>পাল্টা প্রশ্ন</b>। এই তিন ধাপ থাকলে আলাপ থেমে যায় না।</p>
+{{ex:It was great! I went hiking. What about you?|ইট ওয়াজ় ˈগ্রেইট। আই ˈওয়েন্ট ˈহাইকিং। ˈওয়াট আবাউট ˈইঊ|দারুণ কেটেছে! পাহাড়ে হাঁটতে গিয়েছিলাম। তোমার?}}
+<p>সায় দেওয়াও জরুরি: <b>Oh, really?</b> / <b>That sounds fun!</b> / <b>No way!</b> / <b>I know, right?</b></p>
+<h3>সুন্দরভাবে শেষ করা</h3>
+{{ex:Well, I should get going.|ˈওয়েল আই শাড ˈগেট ˈগৌইং|আচ্ছা, আমি তাহলে উঠি}}{{ex:It was nice talking to you.|ইট ওয়াজ় ˈনাইস ˈটকিং টা ইউ|আপনার সঙ্গে কথা বলে ভালো লাগল}}
+<div class="tip">না-বাচক বাক্যে সায় দিতে বলুন <b>Me neither</b>: I don't like horror movies. → Me neither. এখানে Me too চলে না। আমেরিকানদের মুখে Me either-ও শোনা যায়, তবে প্রমিত রূপ Me neither।</div>`},
 
-{ id:"phrasal", title:"8 · 구동사 입문", blurb:"동사 + 작은 단어 = 완전히 새로운 뜻. 원어민 대화의 절반이에요.", deck:"구동사", body:`
-<p>구동사(phrasal verb)는 <b>동사 + up/out/off/on 같은 작은 단어</b>가 합쳐져 새로운 뜻을 만든 거예요. 교과서식 단어(postpone, discover)보다 일상 대화에서 훨씬 많이 들려요.</p>
-<div class="tbl"><table><tr><th>딱딱한 단어</th><th>구동사 (일상)</th><th>뜻</th></tr><tr><td>postpone</td><td class="k">put off</td><td>미루다</td></tr><tr><td>discover</td><td class="k">find out</td><td>알게 되다</td></tr><tr><td>exercise</td><td class="k">work out</td><td>운동하다</td></tr><tr><td>tolerate</td><td class="k">put up with</td><td>참다</td></tr></table></div>
-<h3>작은 단어에 힌트가 있어요</h3>
-<p><b>up</b>은 '완전히·위로', <b>out</b>은 '밖으로·끝까지', <b>off</b>는 '떨어져·멈춤', <b>on</b>은 '붙어서·계속'이라는 느낌이 있어요.</p>
-{{ex:I grew up in Daegu.|아이 그루 업 인 대구|대구에서 자랐어요}}{{ex:We ran out of milk.|위 래나우로브 밀크|우유가 다 떨어졌어요}}{{ex:Turn off your phone, please.|터노프 유어 폰, 플리즈|휴대폰 꺼 주세요}}
-<h3>대명사는 가운데에!</h3>
-<p>목적어를 받는 구동사 중 많은 것은 둘로 나눌 수 있어요. 명사는 앞뒤 어디든 괜찮지만, <b>it·them·me 같은 대명사는 반드시 가운데</b>에 와요.</p>
-{{ex:Turn on the light. / Turn the light on.|턴 온 더 라잇 / 턴 더 라잇 온|불 켜 줘 (둘 다 O)}}{{ex:Turn it on.|터니론|그거 켜 줘 (turn on it X)}}{{ex:I'll pick you up at seven.|아일 픽 유 업 앳 쎄븐|7시에 데리러 갈게}}
-<h3>나눌 수 없는 구동사</h3>
-<p>look after, look for, get along with처럼 전치사가 붙는 것은 나누지 않아요: <i>look after my cat</i>, <i>look after her</i>.</p>
-<div class="tip">구동사는 단어처럼 <b>통째로</b> 외우세요. 예문과 함께 외우면 대명사 위치도 자연스럽게 익혀져요. 하루에 세 개씩만 실제로 써 보세요!</div>`},
+{ id:"phrasal", title:"8 · ফ্রেজাল ভার্বের শুরু", blurb:"ক্রিয়া + ছোট একটা শব্দ = একদম নতুন অর্থ। রোজকার ইংরেজির বড় অংশই এগুলো।", deck:"ফ্রেজাল ভার্ব", body:`
+<p>ফ্রেজাল ভার্ব (phrasal verb) হলো <b>ক্রিয়া + up, out, off, on-এর মতো ছোট শব্দ</b>, দুটো মিলে নতুন অর্থ। বাংলাতেও এমন হয়: "খেয়ে ফেলা", "বলে দেওয়া", "উঠে পড়া"-তে দ্বিতীয় ক্রিয়াটা নতুন ভাব যোগ করে। বইয়ের ভারী শব্দের (postpone, discover) চেয়ে রোজকার কথায় ফ্রেজাল ভার্বই বেশি শোনা যায়।</p>
+<div class="tbl"><table><tr><th>ভারী শব্দ</th><th>ফ্রেজাল ভার্ব (রোজকার)</th><th>অর্থ</th></tr><tr><td>postpone</td><td class="k">put off</td><td>পিছিয়ে দেওয়া</td></tr><tr><td>discover</td><td class="k">find out</td><td>জানতে পারা</td></tr><tr><td>exercise</td><td class="k">work out</td><td>ব্যায়াম করা</td></tr><tr><td>tolerate</td><td class="k">put up with</td><td>সহ্য করা</td></tr></table></div>
+<h3>ছোট শব্দটাই ইঙ্গিত দেয়</h3>
+<p><b>up</b>-এ "পুরোপুরি, উপরে", <b>out</b>-এ "বাইরে, শেষ পর্যন্ত", <b>off</b>-এ "আলাদা, বন্ধ", আর <b>on</b>-এ "লেগে থাকা, চালু" ভাব থাকে।</p>
+{{ex:I grew up in Dhaka.|আই ˈগ্রূ ˈআপ ইন ˈডাːকা|আমি ঢাকায় বড় হয়েছি}}{{ex:We ran out of milk.|ওয়ি ˈর‍্যান ˈআউট আভ় ˈমিল্ক|আমাদের দুধ শেষ হয়ে গেছে}}{{ex:Turn off your phone, please.|ˈটার্ন ˈঅফ ইউর ˈফৌন ˈপ্লীজ়|দয়া করে ফোনটা বন্ধ করুন}}
+<h3>সর্বনাম বসে মাঝখানে</h3>
+<p>কর্ম (object) নেয় এমন অনেক ফ্রেজাল ভার্ব ভাগ করা যায়। বিশেষ্য আগে-পরে দুই জায়গাতেই বসতে পারে, কিন্তু <b>it, them, me-র মতো সর্বনাম অবশ্যই মাঝখানে</b> বসে। আরেকটা কথা: on আর off একা ক্রিয়া নয়। "লাইটটা অন করো" ইংরেজিতে turn on the light ✓; on the light ✗ নয়।</p>
+{{ex:Turn on the light. / Turn the light on.|ˈটার্ন ˈআːন দ়া ˈলাইট / ˈটার্ন দ়া ˈলাইট ˈআːন|লাইটটা জ্বালাও (দুটোই ঠিক)}}{{ex:Turn it on.|ˈটার্ন ইট ˈআːন|ওটা চালু করো (turn on it ✗)}}{{ex:I'll pick you up at seven.|আইল ˈপিক ইউ ˈআপ আট ˈসেভ়ান|আমি সাতটায় তোমাকে নিতে আসব}}
+<h3>যে ফ্রেজাল ভার্ব ভাগ হয় না</h3>
+<p>look after, look for, get along with-এর মতো যেগুলোর শেষে preposition থাকে, সেগুলো ভাগ হয় না: <i>look after my cat</i>, <i>look after her</i>।</p>
+<div class="tip">ফ্রেজাল ভার্ব একটা শব্দের মতো <b>পুরোটা একসঙ্গে</b> মুখস্থ করুন। উদাহরণের বাক্যসহ শিখলে সর্বনামের জায়গাটাও আপনা থেকেই মনে থাকবে। রোজ তিনটি করে সত্যিকারের কথায় ব্যবহার করে দেখুন।</div>`},
 
-{ id:"numbers", title:"9 · 숫자·시간·가격 말하기", blurb:"'만'이 없는 영어 숫자, 13과 30 구분, 가격 읽는 법.", deck:"숫자·시간·날짜", body:`
-<p>숫자는 여행과 일에서 바로 쓰이는데, 한국어와 단위가 달라서 실수가 많아요.</p>
-<h3>세 자리씩 끊어요</h3>
-<p>한국어는 네 자리(만, 억), 영어는 <b>세 자리(thousand, million, billion)</b>로 끊어요. 쉼표 위치가 바로 단위예요.</p>
-<div class="tbl"><table><tr><th>숫자</th><th>한국어</th><th>영어</th></tr><tr><td class="k">10,000</td><td>만</td><td>ten thousand</td></tr><tr><td class="k">50,000</td><td>오만</td><td>fifty thousand</td></tr><tr><td class="k">100,000</td><td>십만</td><td>one hundred thousand</td></tr><tr><td class="k">1,000,000</td><td>백만</td><td>one million</td></tr><tr><td class="k">100,000,000</td><td>일억</td><td>one hundred million</td></tr></table></div>
-<h3>-teen과 -ty</h3>
-<p>13~19는 <b>뒤</b>를, 30·40·50…은 <b>앞</b>을 세게 말해요. 미국식 thirty는 t가 굴러서 "써리"처럼 들려요.</p>
-{{ex:thirteen|써틴|숫자 13}}{{ex:thirty|써리|숫자 30}}{{ex:fifteen / fifty|피프틴 / 피프티|숫자 15 / 50}}
-<h3>시간</h3>
-<p>가장 쉬운 방법은 시와 분을 그대로 읽는 거예요. 1~9분은 "oh"를 붙여요.</p>
-{{ex:It's seven fifteen.|잇츠 쎄븐 피프틴|7시 15분이에요}}{{ex:It's nine oh five.|잇츠 나인 오 파이브|9시 5분이에요}}{{ex:It's a quarter past ten.|잇츠 어 쿼러 패스트 텐|10시 15분이에요}}
-<h3>가격과 연도</h3>
-<p>가격은 달러와 센트를 따로 읽거나, 그냥 숫자 두 개로 읽어요. 연도는 두 자리씩 끊어요.</p>
-{{ex:It's four ninety-nine.|잇츠 포 나인티나인|4달러 99센트예요}}{{ex:That's twelve fifty.|댓츠 트웰브 피프티|12달러 50센트입니다}}{{ex:twenty twenty-six|트웬티 트웬티식스|2026년}}
-<div class="tip">날짜 표기 주의! 미국은 <b>월/일</b>(5/3 = 5월 3일), 영국은 <b>일/월</b>(5/3 = 3월 5일)이에요. 헷갈리면 May 3rd처럼 월을 글자로 쓰는 게 안전해요.</div>`},
+{ id:"numbers", title:"9 · সংখ্যা, সময় ও দাম বলা", blurb:"ইংরেজিতে লাখ-কোটি নেই, 13 আর 30 আলাদা করে বলা, আর দাম পড়ার নিয়ম।", deck:"সংখ্যা, সময় ও তারিখ", body:`
+<p>ভ্রমণে আর কাজে সংখ্যা প্রথম দিন থেকেই লাগে। কিন্তু বাংলা আর ইংরেজির গোনার একক আলাদা, তাই ভুলও বেশি হয়।</p>
+<h3>লাখ-কোটি নয়, তিন ঘর করে ভাগ</h3>
+<p>আমরা গুনি হাজার, লাখ, কোটি দিয়ে, আর কমা দিই এভাবে: 1,00,000। ইংরেজিতে ভাগ হয় <b>তিন ঘর করে</b>: thousand, million, billion; কমাও বসে তিন ঘর পরপর: 100,000। lakh আর crore দক্ষিণ এশিয়ার বাইরে প্রায় কেউ বোঝে না।</p>
+<div class="tbl"><table><tr><th>সংখ্যা</th><th>বাংলায়</th><th>ইংরেজিতে</th></tr><tr><td class="k">10,000</td><td>দশ হাজার</td><td>ten thousand</td></tr><tr><td class="k">50,000</td><td>পঞ্চাশ হাজার</td><td>fifty thousand</td></tr><tr><td class="k">100,000</td><td>এক লাখ</td><td>one hundred thousand</td></tr><tr><td class="k">1,000,000</td><td>দশ লাখ</td><td>one million</td></tr><tr><td class="k">10,000,000</td><td>এক কোটি</td><td>ten million</td></tr></table></div>
+<p>দেড়, আড়াই, সাড়ে তিন-এর মতো আলাদা শব্দ ইংরেজিতে নেই: one and a half, two and a half, three and a half। টাকার অঙ্ক বলুন এভাবে: ৳500 = five hundred taka। আর ইংরেজি লেখায় সব সময় 0–9 অঙ্ক বসে, ০–৯ নয়।</p>
+{{ex:Five hundred taka.|ˈফাইভ় ˈহান্ড্রাড ˈটাːকা|পাঁচশ টাকা}}{{ex:one and a half|ˈওয়ান আন্ড আ ˈহ্যাফ|দেড়}}
+<h3>-teen আর -ty</h3>
+<p>13–19-এ জোর পড়ে <b>শেষে</b>, আর 30, 40, 50…-তে <b>শুরুতে</b>। বাংলার অভ্যাসে সব শব্দের শুরুতে জোর দিলে thirteen শোনায় thirty-র মতো। আমেরিকানদের মুখে thirty-র t অনেক সময় হালকা d-এর মতো শোনায়। উচ্চারণের লেখায় ˈ চিহ্নটা কোথায় আছে, দেখে নিন।</p>
+{{ex:thirteen|থ়ার্ˈটীন|তেরো (13)}}{{ex:thirty|ˈথ়ার্টি|ত্রিশ (30)}}{{ex:fifteen / fifty|ফিফ্ˈটীন / ˈফিফ্টি|পনেরো / পঞ্চাশ (15 / 50)}}
+<h3>সময়</h3>
+<p>সবচেয়ে সহজ উপায় ঘণ্টা আর মিনিট পরপর বলা। 1–9 মিনিটের আগে oh বসে। সকাল না রাত, তা বোঝাতে a.m. / p.m.: রাত নয়টা পাঁচ = 9:05 p.m.</p>
+{{ex:It's seven fifteen.|ইট্স ˈসেভ়ান ফিফ্ˈটীন|সাতটা পনেরো বাজে}}{{ex:It's nine oh five.|ইট্স ˈনাইন ˈঔ ˈফাইভ়|নয়টা পাঁচ বাজে}}{{ex:It's a quarter past ten.|ইট্স আ ˈক্ওয়র্টার প্যাস্ট ˈটেন|সোয়া দশটা বাজে}}
+<h3>দাম আর সাল</h3>
+<p>ডলারের দাম বলতে ডলার আর সেন্ট আলাদা করে বলা যায়, অথবা শুধু দুটো সংখ্যা পরপর। সাল পড়া হয় দুই ঘর করে ভাগ করে।</p>
+{{ex:It's four ninety-nine.|ইট্স ˈফর নাইন্টি ˈনাইন|দাম 4 ডলার 99 সেন্ট}}{{ex:That's twelve fifty.|ˈদ়্যাট্স ˈট্ওয়েল্ভ় ˈফিফ্টি|12 ডলার 50 সেন্ট হয়েছে}}{{ex:twenty twenty-six|ˈট্ওয়েন্টি ট্ওয়েন্টি ˈসিক্স|2026 সাল}}
+<div class="tip">তারিখ লেখায় সাবধান! আমাদের মতো ব্রিটেনেও <b>দিন/মাস</b> (5/3 = 5 মার্চ), কিন্তু আমেরিকায় <b>মাস/দিন</b> (5/3 = মে মাসের 3 তারিখ)। সন্দেহ হলে May 3rd-এর মতো মাসের নাম অক্ষরে লিখুন।</div>`},
 
-{ id:"email", title:"10 · 이메일 영어", blurb:"인사 → 목적 → 요청 → 마무리. 짧고 분명하게.", deck:"직장·이메일", body:`
-<p>영어 업무 이메일은 <b>짧고, 목적이 분명하고, 친절하게</b>가 원칙이에요. 한국식으로 길게 사과하거나 겸손을 표현하면 오히려 요점이 흐려져요.</p>
-<h3>기본 구조</h3>
-<div class="tbl"><table><tr><th>부분</th><th>예시</th></tr><tr><td>인사</td><td class="k">Hi Sarah, / Dear Mr. Smith,</td></tr><tr><td>첫 줄 (안부·목적)</td><td class="k">I hope you're doing well. I'm writing to ask about…</td></tr><tr><td>본문 (요청)</td><td class="k">Could you send me… by Friday?</td></tr><tr><td>마무리</td><td class="k">Let me know if you have any questions.</td></tr><tr><td>맺음말</td><td class="k">Best regards, / Best, / Thanks,</td></tr></table></div>
-<h3>인사는 Hi가 기본</h3>
-<p>미국 회사에서는 처음 연락하는 사람에게도 <b>Hi + 이름</b>이 무난해요. 아주 격식 있는 경우에만 Dear를 써요. 이름 대신 직함만 쓰는 건(Dear Manager) 어색해요.</p>
-{{ex:I hope this email finds you well.|아이 호프 디스 이메일 파인즈 유 웰|잘 지내고 계시길 바랍니다}}{{ex:I'm writing to follow up on our meeting.|아임 롸이팅 투 팔로우 업 온 아워 미팅|지난 회의 관련해서 후속으로 연락드립니다}}
-<h3>요청은 부드럽게, 기한은 분명하게</h3>
-{{ex:Could you send me the report by Thursday?|쿠쥬 쎈드 미 더 리포트 바이 써즈데이?|목요일까지 보고서 보내 주실 수 있나요?}}{{ex:Thanks for your patience.|땡스 포 유어 페이션스|기다려 주셔서 감사합니다}}
-<p>ASAP는 상대를 재촉하는 느낌이 있어요. 가능하면 <b>by + 날짜</b>로 기한을 주세요.</p>
-<h3>"수고하셨습니다"는?</h3>
-<p>영어에 딱 맞는 말은 없어요. 상황에 맞게 바꿔 말해요.</p>
-<ul><li>프로젝트가 끝났을 때: <b>Thanks for all your hard work!</b></li><li>금요일 이메일 끝: <b>Have a great weekend!</b></li><li>도움을 받았을 때: <b>I really appreciate your help.</b></li></ul>
-<div class="tip">"Sorry for the late reply"를 매번 쓸 필요는 없어요. 대신 <b>Thanks for your patience</b>를 쓰면 사과 없이도 예의 바르고 긍정적으로 들려요.</div>`},
+{ id:"email", title:"10 · ইংরেজিতে অফিসের ইমেইল", blurb:"সম্বোধন → উদ্দেশ্য → অনুরোধ → শেষ কথা। ছোট আর স্পষ্ট।", deck:"অফিস ও ইমেইল", body:`
+<p>ইংরেজিতে অফিসের ইমেইলের নিয়ম: <b>ছোট, উদ্দেশ্য পরিষ্কার, আর আন্তরিক</b>। স্কুলে শেখা দরখাস্তের ভাষা (Respected Sir, With due respect I beg to state that…) আজকের ইমেইলে চলে না; এতে আসল কথাটাই চাপা পড়ে যায়।</p>
+<h3>মূল কাঠামো</h3>
+<div class="tbl"><table><tr><th>অংশ</th><th>উদাহরণ</th></tr><tr><td>সম্বোধন</td><td class="k">Hi Nadia, / Dear Ms. Rahman,</td></tr><tr><td>প্রথম লাইন (কুশল, উদ্দেশ্য)</td><td class="k">I hope you're doing well. I'm writing to ask about…</td></tr><tr><td>মূল কথা (অনুরোধ)</td><td class="k">Could you send me… by Friday?</td></tr><tr><td>শেষ লাইন</td><td class="k">Let me know if you have any questions.</td></tr><tr><td>বিদায়ী শব্দ</td><td class="k">Best regards, / Best, / Thanks,</td></tr></table></div>
+<h3>সম্বোধনে Hi-ই সাধারণ</h3>
+<p>আমেরিকান অফিসে প্রথমবার লিখলেও <b>Hi + নাম</b> ঠিক আছে; খুব আনুষ্ঠানিক হলে তবেই Dear। নাম ছাড়া শুধু পদ (Dear Manager) বা Respected Sir বেমানান। নিজের নামের বেলায় মনে রাখুন: Md. বিদেশে নামের অংশ হিসেবে চেনা নয়, তাই যে নামে আপনাকে ডাকা হয় সেটাই লিখুন, যেমন Rafi Ahmed।</p>
+{{ex:I hope this email finds you well.|আই ˈহৌপ ˈদ়িস ˈঈমেইল ˈফাইন্ড্জ় ইউ ˈওয়েল|আশা করি ভালো আছেন}}{{ex:I'm writing to follow up on our meeting.|আইম ˈরাইটিং টা ˈফাːলৌ ˈআপ আːন আউআর ˈমীটিং|আমাদের মিটিংয়ের বিষয়ে আবার যোগাযোগ করছি}}
+<h3>অনুরোধ নরম, সময়সীমা স্পষ্ট</h3>
+{{ex:Could you send me the report by Thursday?|কাড ইউ ˈসেন্ড মি দ়া রিˈপর্ট বাই ˈথ়ার্জ়্ডেই|বৃহস্পতিবারের মধ্যে রিপোর্টটা পাঠাতে পারবেন?}}{{ex:Thanks for your patience.|ˈথ়্যাংক্স ফার ইউর ˈপেইশান্স|ধৈর্য ধরে অপেক্ষা করার জন্য ধন্যবাদ}}
+<p>ASAP-এ তাড়া দেওয়ার সুর থাকে; সম্ভব হলে <b>by + দিন</b> দিয়ে সময়সীমা জানান। আর <b>Kindly do the needful.</b> ✗ → <b>Could you please…?</b> ✓</p>
+<h3>দরখাস্তের বাঁধা বুলি বদলে নিন</h3>
+<p>বাংলা চিঠির অনেক কথার হুবহু ইংরেজি হয় না। পরিস্থিতি বুঝে এভাবে লিখুন:</p>
+<ul><li>শেষে Yours obediently ✗ নয়: <b>Best regards,</b></li><li>প্রজেক্ট শেষে "সবাই অনেক কষ্ট করেছেন" বোঝাতে: <b>Thanks for all your hard work!</b></li><li>শুক্রবারের ইমেইলের শেষে: <b>Have a great weekend!</b></li><li>কেউ সাহায্য করলে: <b>I really appreciate your help.</b></li></ul>
+<div class="tip">প্রতিবার Sorry for the late reply লেখার দরকার নেই। তার বদলে <b>Thanks for your patience</b> লিখলে ক্ষমা না চেয়েও ভদ্র আর ইতিবাচক শোনায়।</div>`},
 
-{ id:"idioms", title:"11 · 관용구와 슬랭 쓰는 법", blurb:"직역하면 이상한 표현들. 언제, 누구에게 써야 할까요?", deck:"영어 관용구", body:`
-<p>관용구(idiom)는 단어 뜻을 합쳐도 전체 뜻이 나오지 않는 표현이에요. "a piece of cake"는 케이크 이야기가 아니라 "아주 쉽다"는 뜻이죠. 영화·드라마를 자막 없이 보려면 꼭 알아야 해요.</p>
-<h3>그림으로 기억하세요</h3>
-<p>대부분의 관용구는 머릿속에 장면을 그리면 쉽게 외워져요.</p>
-{{ex:It's a piece of cake.|잇츠 어 피스 오브 케익|식은 죽 먹기예요 (케이크 한 조각 먹듯 쉽다)}}{{ex:It costs an arm and a leg.|잇 코스츠 언 암 앤 어 레그|엄청 비싸요 (팔다리를 줘야 할 만큼)}}{{ex:I'm all ears.|아임 올 이어즈|잘 듣고 있어요 (온몸이 귀)}}
-<h3>한국어와 비슷한 표현</h3>
-<div class="tbl"><table><tr><th>영어</th><th>한국어</th></tr><tr><td class="k">Speak of the devil!</td><td>호랑이도 제 말 하면 온다</td></tr><tr><td class="k">Kill two birds with one stone</td><td>일석이조</td></tr><tr><td class="k">When pigs fly</td><td>해가 서쪽에서 뜨면</td></tr><tr><td class="k">A blessing in disguise</td><td>전화위복</td></tr></table></div>
-<h3>관용구 vs 슬랭</h3>
-<p><b>관용구</b>는 오래된 표현이라 나이와 상관없이, 직장에서도 써요(Let's call it a day). <b>슬랭</b>은 젊은 층의 유행어라 친구끼리만 써요(No cap, That song slaps). 슬랭은 빨리 바뀌고, 어른이 쓰면 어색하게 들릴 수도 있어요.</p>
-{{ex:Let's call it a day.|렛츠 콜 잇 어 데이|오늘은 여기까지 해요 (회의에서도 OK)}}{{ex:No cap, this is the best pizza ever.|노 캡, 디스 이즈 더 베스트 핏자 에버|진짜로, 이거 인생 피자야 (친구끼리만)}}
-<div class="tip">관용구는 너무 많이 넣으면 오히려 부자연스러워요. 대화 한 번에 하나 정도, 상황에 딱 맞을 때 쓰면 "영어 잘한다!"는 인상을 줄 수 있어요.</div>`}
+{ id:"idioms", title:"11 · বাগধারা ও স্ল্যাং ব্যবহার", blurb:"হুবহু অনুবাদ করলে যেসব কথা অদ্ভুত শোনায়। কখন, কার সঙ্গে বলবেন?", deck:"ইংরেজি বাগধারা", body:`
+<p>বাগধারা (idiom) হলো এমন কথা, যার শব্দগুলোর অর্থ জুড়লে পুরো অর্থ মেলে না। বাংলায় "এক ঢিলে দুই পাখি" যেমন সত্যিকারের ঢিল বা পাখির কথা নয়, a piece of cake-ও কেকের গল্প নয়; এর মানে "খুব সহজ"। সাবটাইটেল ছাড়া সিনেমা আর সিরিজ বুঝতে চাইলে এগুলো চিনতেই হবে।</p>
+<h3>ছবি কল্পনা করে মনে রাখুন</h3>
+<p>বেশির ভাগ বাগধারা মনে মনে দৃশ্যটা এঁকে নিলে সহজে মনে থাকে।</p>
+{{ex:It's a piece of cake.|ইট্স আ ˈপীস আভ় ˈকেইক|এটা পানির মতো সহজ (এক টুকরো কেক খাওয়ার মতো)}}{{ex:It costs an arm and a leg.|ইট ˈকস্ট্স আন ˈআːর্ম আন্ড আ ˈলেগ|এটার আকাশছোঁয়া দাম (হাত-পা বেচে দেওয়ার মতো)}}{{ex:I'm all ears.|আইম ˈঅল ˈইর্জ়|মন দিয়ে শুনছি (সারা শরীরই যেন কান)}}
+<h3>বাংলার সঙ্গে মিল আছে এমন বাগধারা</h3>
+<div class="tbl"><table><tr><th>ইংরেজি</th><th>বাংলা</th></tr><tr><td class="k">Speak of the devil!</td><td>যার কথা হচ্ছিল, সে-ই হাজির!</td></tr><tr><td class="k">Kill two birds with one stone</td><td>এক ঢিলে দুই পাখি মারা</td></tr><tr><td class="k">When pigs fly</td><td>কখনোই না (অসম্ভব বোঝাতে)</td></tr><tr><td class="k">A blessing in disguise</td><td>শাপে বর</td></tr></table></div>
+<h3>বাগধারা আর স্ল্যাং</h3>
+<p><b>বাগধারা</b> পুরোনো; সব বয়সের মানুষ বলে, অফিসেও চলে (Let's call it a day)। <b>স্ল্যাং</b> তরুণদের চলতি বুলি, শুধু বন্ধুদের মধ্যে চলে (No cap, That song slaps)। স্ল্যাং দ্রুত বদলায়, আর বয়স্ক কারও মুখে বেমানান লাগতে পারে।</p>
+{{ex:Let's call it a day.|ˈলেট্স ˈকল ইট আ ˈডেই|আজ এ পর্যন্তই থাক (মিটিংয়েও চলে)}}{{ex:No cap, this is the best pizza ever.|ˈনৌ ˈক্যাপ ˈদ়িস ইজ় দ়া ˈবেস্ট ˈপীট্সা ˈএভ়ার|সত্যি বলছি, এটা আমার খাওয়া সেরা পিৎজা (শুধু বন্ধুদের মধ্যে)}}
+<div class="tip">বেশি বাগধারা ঠেসে দিলে কথা উল্টো কৃত্রিম শোনায়। এক আলাপে একটা, ঠিক জায়গামতো বললে মনে হবে আপনার ইংরেজি বেশ সাবলীল।</div>`}
 ];
 
 exports.CHECKS = {
   alphabet: [
-    ["영어 이름이 '지'인 글자는? (z 소리가 아니라 입술을 내민 '쥐'에 가까운 소리예요)", ["J","G","Z","C"], 1, "G의 이름은 '지'예요. J는 '제이', Z는 z 소리의 zee(지 (z)), C는 '씨'예요."],
-    ["올바른 것은?", ["a F","an U","a M","an F"], 3, "F의 이름 '에프'는 모음 소리로 시작해서 an F예요. M(엠)도 an M, U(유)는 y 소리라서 a U예요."],
-    ["단어의 철자를 물어볼 때 쓰는 말은?", ["How do you spell that?","How do you spelling that?","How spell you that?","How does it spell?"], 0, "do 뒤에는 동사원형 spell이 와요: How do you spell that?"]
+    ["কোন অক্ষরের নাম ˈজী? (ফোঁটা ছাড়া জ: জিভ তালুতে লেগে ছাড়ে)", ["J","G","Z","C"], 1, "G-এর নাম ˈজী। J হলো ˈজেই, Z হলো ˈজ়ী (ফোঁটা দেওয়া জ়, জিভ কোথাও লাগে না), আর C হলো ˈসী।"],
+    ["কোনটি ঠিক?", ["a F","an U","a M","an F"], 3, "F-এর নাম \"এফ\" স্বরধ্বনি দিয়ে শুরু, তাই an F। M-এর নাম \"এম\", তাই সেটাও an M। U-এর নাম \"ইউ\" ধ্বনি দিয়ে শুরু, তাই a U।"],
+    ["কোনো শব্দের বানান জানতে চাইলে কী বলবেন?", ["How do you spell that?","How do you spelling that?","How spell you that?","How does it spell?"], 0, "spell-এর মতো ক্রিয়া দিয়ে প্রশ্ন করতে do লাগে, আর do-এর পরে ক্রিয়ার মূল রূপ বসে: How do you spell that?"]
   ],
   pron: [
-    ["R 소리를 낼 때 혀끝은 어디에 있나요?", ["윗니 뒤 잇몸에 붙인다","이 사이로 내민다","어디에도 닿지 않는다","아랫입술에 댄다"], 2, "R은 혀끝이 아무 데도 닿지 않아요. 붙이면 L이 돼요."],
-    ["think의 th를 바르게 내는 방법은?", ["혀끝을 이 사이로 살짝 내밀고 바람을 낸다","두 입술을 붙였다 뗀다","윗니를 아랫입술에 댄다","혀를 뒤로 만다"], 0, "TH는 혀끝이 이 사이에 보여야 해요. s로 말하면 sink가 돼요."],
-    ["hotel의 강세는 어디에 있나요?", ["ho (앞)","강세가 없다","둘 다 똑같이","tel (뒤)"], 3, "ho-TEL. 뒤를 세고 길게 말해요: 호우텔."]
+    ["R বলার সময় জিভের ডগা কোথায় থাকে?", ["উপরের মাড়িতে লাগে","দুই পাটি দাঁতের মাঝে বেরিয়ে থাকে","কোথাও লাগে না","নিচের ঠোঁটে লাগে"], 2, "আমেরিকান R-এ জিভের ডগা কোথাও লাগে না। মাড়িতে লাগলে L হয়ে যায়, আর টোকা দিলে বাংলার র।"],
+    ["think-এর th ঠিকভাবে বলার উপায় কোনটি?", ["জিভের ডগা দুই পাটি দাঁতের মাঝে একটু বের করে বাতাস ছাড়া","দুই ঠোঁট বন্ধ করে খোলা","উপরের দাঁত নিচের ঠোঁটে লাগানো","জিভ পেছনে গুটিয়ে নেওয়া"], 0, "TH-এ জিভের ডগা দাঁতের ফাঁকে দেখা যাবে আর বাতাস থামবে না। বাংলার থ বললে চলবে না; s বললে হয়ে যায় sink।"],
+    ["hotel-এর কোন অংশে জোর পড়ে?", ["ho (প্রথম অংশ)","কোনো অংশেই না","দুই অংশে সমান","tel (শেষ অংশ)"], 3, "ho-TEL: শেষ অংশটা জোরে আর লম্বা করে বলুন: হৌˈটেল। বাংলার অভ্যাসে প্রথম অংশে জোর দিলে ভুল হবে।"]
   ],
   articles: [
-    ["I'm ___ engineer. 빈칸에 알맞은 것은?", ["a","an","the","(없음)"], 1, "engineer는 모음 소리(엔)로 시작하므로 an이에요. 직업 앞에는 꼭 관사를 붙여요."],
-    ["식당에 앉아서 직원에게: Can I see ___ menu?", ["the","a","an","(없음)"], 0, "이 식당의 바로 그 메뉴판이니까 the예요."],
-    ["'저는 고양이를 좋아해요' (고양이라는 동물 전체)", ["I like a cat.","I like the cat.","I like cat.","I like cats."], 3, "일반적인 대상을 말할 땐 관사 없이 복수형을 써요. a cat은 '고양이 한 마리', the cat은 '그 고양이'예요."]
+    ["I'm ___ engineer. শূন্যস্থানে কী বসবে?", ["a","an","the","(কিছুই না)"], 1, "engineer স্বরধ্বনি দিয়ে শুরু, তাই an। পেশার আগে আর্টিকেল বসাতেই হয়।"],
+    ["রেস্টুরেন্টে বসে ওয়েটারকে বলছেন: Can I see ___ menu?", ["the","a","an","(কিছুই না)"], 0, "এই রেস্টুরেন্টেরই মেনু; দুজনেই জানেন কোনটা, তাই the।"],
+    ["\"আমি বিড়াল পছন্দ করি\" (বিড়াল জাতটাই) ইংরেজিতে?", ["I like a cat.","I like the cat.","I like cat.","I like cats."], 3, "পুরো জাতের কথা সাধারণভাবে বললে আর্টিকেল ছাড়া বহুবচন বসে। a cat মানে \"একটা বিড়াল\", the cat মানে \"ওই বিড়ালটা\"।"]
   ],
   be: [
-    ["올바른 문장은?", ["I am like K-pop.","I like K-pop.","I liking K-pop.","I am likes K-pop."], 1, "like는 일반동사라 be동사(am)와 같이 쓰지 않아요."],
-    ["'우리 언니는 서울에 살아요' =", ["My sister live in Seoul.","My sister is live in Seoul.","My sister living in Seoul.","My sister lives in Seoul."], 3, "주어가 she(3인칭 단수)라서 동사에 -s를 붙여요: lives."],
-    ["Are you hungry?에 '아니요'라고 대답할 때", ["No, I don't.","No, I'm not.","No, I amn't.","No, I doesn't."], 1, "be동사로 물었으니 be동사로 대답해요: No, I'm not."]
+    ["কোন বাক্যটি ঠিক?", ["I am like K-pop.","I like K-pop.","I liking K-pop.","I am likes K-pop."], 1, "like নিজেই একটা ক্রিয়া, তাই এর সঙ্গে be ক্রিয়া (am) বসে না।"],
+    ["\"আমার বোন সিউলে থাকে\" ইংরেজিতে?", ["My sister live in Seoul.","My sister is live in Seoul.","My sister living in Seoul.","My sister lives in Seoul."], 3, "কর্তা my sister, মানে she; তাই ক্রিয়ায় -s বসে: lives। এখানে be ক্রিয়া (is) লাগে না।"],
+    ["Are you hungry?-এর উত্তরে \"না\" বলতে চাইলে", ["No, I don't.","No, I'm not.","No, I amn't.","No, I doesn't."], 1, "be ক্রিয়া দিয়ে প্রশ্ন, তাই be ক্রিয়া দিয়েই উত্তর: No, I'm not।"]
   ],
   polite: [
-    ["처음 보는 사람에게 가장 공손한 부탁은?", ["Give me directions.","I want directions.","Could you give me directions?","Directions, now."], 2, "Could you ~?가 공손한 부탁의 기본이에요. Give me는 명령처럼 들려요."],
-    ["Would you mind opening the window?에 '네, 열어 드릴게요'라는 뜻의 대답은?", ["No, not at all.","Yes, I mind.","Yes, I would.","No, I can't."], 0, "mind = 꺼리다. 'No(안 꺼려요)'가 '해 드릴게요'라는 뜻이에요."],
-    ["Would you mind 뒤에 오는 동사 형태는?", ["동사원형 (open)","to + 동사원형 (to open)","과거형 (opened)","~ing (opening)"], 3, "mind 뒤에는 ~ing가 와요: Would you mind waiting?"]
+    ["অপরিচিত কাউকে সবচেয়ে ভদ্রভাবে অনুরোধ করার বাক্য কোনটি?", ["Give me directions.","I want directions.","Could you give me directions?","Directions, now."], 2, "Could you…? ভদ্র অনুরোধের মূল ছাঁচ। Give me শুনতে আদেশের মতো।"],
+    ["Would you mind opening the window?-এর উত্তরে \"জি, খুলে দিচ্ছি\" বোঝাতে কী বলবেন?", ["No, not at all.","Yes, I mind.","Yes, I would.","No, I can't."], 0, "mind মানে আপত্তি করা। No (আপত্তি নেই) বললেই বোঝায় \"করে দিচ্ছি\"।"],
+    ["Would you mind-এর পরে ক্রিয়ার কোন রূপ বসে?", ["মূল রূপ (open)","to + মূল রূপ (to open)","past রূপ (opened)","~ing (opening)"], 3, "mind-এর পরে -ing রূপ বসে: Would you mind waiting?"]
   ],
   tense: [
-    ["'저 매일 아침 커피 마셔요' (습관)", ["I'm drinking coffee every morning.","I drank coffee every morning.","I drink coffee every morning.","I will drink coffee every morning."], 2, "습관은 현재형이에요. 진행형은 '지금 마시는 중'이에요."],
-    ["친구 지갑이 없는 걸 보고 그 자리에서: '내가 낼게!'", ["I'll pay!","I'm going to pay!","I pay!","I paid!"], 0, "말하는 순간 결정한 일은 will이에요. going to는 미리 세운 계획이에요."],
-    ["go의 과거형은?", ["goed","gone","going","went"], 3, "go는 불규칙 동사예요: go - went - gone."]
+    ["\"আমি রোজ সকালে কফি খাই\" (অভ্যাস) ইংরেজিতে?", ["I'm drinking coffee every morning.","I drank coffee every morning.","I drink coffee every morning.","I will drink coffee every morning."], 2, "অভ্যাস বোঝাতে Present Simple। Present Continuous মানে \"এই মুহূর্তে খাচ্ছি\"।"],
+    ["বন্ধু মানিব্যাগ আনেনি দেখে তখনই বললেন: \"আমি দিচ্ছি!\"", ["I'll pay!","I'm going to pay!","I pay!","I paid!"], 0, "কথা বলার মুহূর্তে নেওয়া সিদ্ধান্তে will। going to বসে আগে থেকে ঠিক করা পরিকল্পনায়।"],
+    ["go-এর past রূপ?", ["goed","gone","going","went"], 3, "go অনিয়মিত ক্রিয়া: go - went - gone।"]
   ],
   prep: [
-    ["'7시에 만나요' = Let's meet ___ 7.", ["in","at","on","to"], 1, "정확한 시각 앞에는 at이에요."],
-    ["'월요일에' = ___ Monday", ["on","in","at","by"], 0, "요일과 날짜 앞에는 on이에요."],
-    ["올바른 문장은?", ["See you on next week.","See you at next week.","See you in next week.","See you next week."], 3, "next, last, this, every 앞에는 전치사를 쓰지 않아요."]
+    ["\"সাতটায় দেখা করি\" = Let's meet ___ 7.", ["in","at","on","to"], 1, "ঘড়ির নির্দিষ্ট সময়ের আগে at। বাংলার -য় (সাতটায়) এখানে at।"],
+    ["\"সোমবারে\" = ___ Monday", ["on","in","at","by"], 0, "বার আর তারিখের আগে on।"],
+    ["কোন বাক্যটি ঠিক?", ["See you on next week.","See you at next week.","See you in next week.","See you next week."], 3, "next, last, this, every-র আগে কোনো preposition বসে না।"]
   ],
   smalltalk: [
-    ["카페 직원이 How are you today?라고 할 때 가장 자연스러운 대답은?", ["Why do you ask?","Good, thanks! How about you?","I'm tired and my boss is mean.","Yes."], 1, "How are you?는 인사예요. 짧게 대답하고 되물어 주면 완벽해요."],
-    ["초면에 피하는 게 좋은 질문은?", ["How was your weekend?","Have you been here before?","How old are you?","Do you like this place?"], 2, "영어권에서는 나이를 먼저 묻는 게 실례가 될 수 있어요."],
-    ["I don't like horror movies.에 동의할 때", ["Me too.","So do I.","Me neither.","Me also."], 2, "부정문에 맞장구칠 땐 Me neither(또는 Neither do I)예요."]
+    ["ক্যাফের কর্মী বললেন How are you today? সবচেয়ে স্বাভাবিক উত্তর কোনটি?", ["Why do you ask?","Good, thanks! How about you?","I'm tired and my boss is mean.","Yes."], 1, "How are you? একটা শুভেচ্ছা। ছোট করে উত্তর দিয়ে পাল্টা জিজ্ঞেস করলেই যথেষ্ট।"],
+    ["প্রথম আলাপে কোন প্রশ্নটা না করাই ভালো?", ["How was your weekend?","Have you been here before?","How old are you?","Do you like this place?"], 2, "ইংরেজিভাষী সমাজে শুরুতেই বয়স জিজ্ঞেস করা অভদ্রতা মনে হতে পারে।"],
+    ["I don't like horror movies.-এ সায় দিতে চাইলে", ["Me too.","So do I.","Me neither.","Me also."], 2, "না-বাচক বাক্যে সায় দিতে Me neither (অথবা Neither do I)।"]
   ],
   phrasal: [
-    ["'그거 좀 꺼 줄래?' 올바른 문장은?", ["Can you turn off it?","Can you off turn it?","Can you turn it of?","Can you turn it off?"], 3, "대명사(it)는 구동사 가운데에 와요: turn it off."],
-    ["run out of의 뜻은?", ["밖으로 뛰어나가다","~이 다 떨어지다","~에서 도망치다","늦게 도착하다"], 1, "We ran out of milk. = 우유가 다 떨어졌어요."],
-    ["'회의를 다음 주로 미루자' =", ["Let's put off the meeting until next week.","Let's put on the meeting until next week.","Let's put up the meeting until next week.","Let's put out the meeting until next week."], 0, "put off = 미루다. put on은 '입다·켜다', put out은 '(불을) 끄다'예요."]
+    ["\"ওটা একটু বন্ধ করে দেবে?\" কোন বাক্যটি ঠিক?", ["Can you turn off it?","Can you off turn it?","Can you turn it of?","Can you turn it off?"], 3, "সর্বনাম (it) ফ্রেজাল ভার্বের মাঝখানে বসে: turn it off।"],
+    ["run out of-এর অর্থ কী?", ["দৌড়ে বাইরে যাওয়া","(কোনো কিছু) শেষ হয়ে যাওয়া","(কোথাও) থেকে পালানো","দেরিতে পৌঁছানো"], 1, "We ran out of milk. মানে আমাদের দুধ শেষ হয়ে গেছে।"],
+    ["\"মিটিংটা আগামী সপ্তাহ পর্যন্ত পিছিয়ে দিই\" ইংরেজিতে?", ["Let's put off the meeting until next week.","Let's put on the meeting until next week.","Let's put up the meeting until next week.","Let's put out the meeting until next week."], 0, "put off মানে পিছিয়ে দেওয়া। put on মানে \"পরা, চালু করা\", আর put out মানে \"(আগুন) নেভানো\"।"]
   ],
   numbers: [
-    ["50,000(오만)을 영어로 하면?", ["five ten thousand","fifty hundred","five million","fifty thousand"], 3, "영어는 세 자리씩 끊어요: 50 + thousand = fifty thousand."],
-    ["thirteen은 어디를 세게 말하나요?", ["thir (앞)","teen (뒤)","둘 다 똑같이","강세가 없다"], 1, "-teen 숫자는 뒤에 강세가 있어요. thirty는 앞이에요."],
-    ["$12.50을 가장 자연스럽게 읽으면?", ["one two five zero","twelve fifty","twelve point five dollar","twelve dollar fifty cent"], 1, "가격은 숫자 두 덩어리로 읽어요: twelve fifty."]
+    ["50,000 (পঞ্চাশ হাজার) ইংরেজিতে কী?", ["five ten thousand","fifty hundred","five million","fifty thousand"], 3, "ইংরেজিতে তিন ঘর করে ভাগ হয়: 50 + thousand = fifty thousand।"],
+    ["thirteen-এর কোন অংশে জোর পড়ে?", ["thir (প্রথম অংশ)","teen (শেষ অংশ)","দুই অংশে সমান","কোনো অংশেই না"], 1, "-teen দিয়ে শেষ সংখ্যায় জোর পড়ে শেষে; thirty-তে শুরুতে।"],
+    ["$12.50 সবচেয়ে স্বাভাবিকভাবে কীভাবে পড়বেন?", ["one two five zero","twelve fifty","twelve point five dollar","twelve dollar fifty cent"], 1, "দাম পড়া হয় দুটো সংখ্যা পরপর বলে: twelve fifty।"]
   ],
   email: [
-    ["처음 연락하는 거래처 담당자 Jenny Park에게 가장 무난한 인사는?", ["Hey dude,","Yo Jenny,","Hi Jenny,","To manager,"], 2, "미국 업무 이메일에선 Hi + 이름이 가장 무난해요. 아주 격식 있을 땐 Dear Ms. Park,"],
-    ["프로젝트를 마친 팀에게 '수고하셨습니다'를 전하려면?", ["You suffered a lot.","Thanks for all your hard work!","Good suffering.","Please work harder."], 1, "영어엔 수고하셨습니다에 딱 맞는 말이 없어요. 노력에 고마움을 표현해요."],
-    ["기한을 정중하게 요청하는 문장은?", ["Send it ASAP.","You must send it.","Send now.","Could you send it by Thursday?"], 3, "Could you ~? + by + 날짜로 부드럽지만 분명하게 요청해요."]
+    ["ক্লায়েন্ট অফিসের Jenny Park-কে প্রথমবার লিখছেন। সবচেয়ে মানানসই সম্বোধন কোনটি?", ["Hey dude,","Yo Jenny,","Hi Jenny,","To manager,"], 2, "আমেরিকান অফিসের ইমেইলে Hi + নাম সবচেয়ে নিরাপদ। খুব আনুষ্ঠানিক হলে লিখুন Dear Ms. Park।"],
+    ["প্রজেক্ট শেষ করা টিমকে \"সবাই অনেক কষ্ট করেছেন\" বোঝাতে চাইলে কী লিখবেন?", ["You suffered a lot.","Thanks for all your hard work!","Good suffering.","Please work harder."], 1, "\"কষ্ট করেছেন\"-এর হুবহু ইংরেজি হয় না। পরিশ্রমের জন্য ধন্যবাদ জানান।"],
+    ["কোন বাক্যে ভদ্রভাবে সময়সীমা চাওয়া হয়েছে?", ["Send it ASAP.","You must send it.","Send now.","Could you send it by Thursday?"], 3, "Could you…? + by + দিন: নরম, অথচ স্পষ্ট অনুরোধ।"]
   ],
   idioms: [
-    ["The test was a piece of cake.의 뜻은?", ["시험이 아주 쉬웠어요","시험 중에 케이크를 먹었어요","시험이 아주 어려웠어요","시험을 망쳤어요"], 0, "a piece of cake = 식은 죽 먹기."],
-    ["I'm feeling under the weather.의 뜻은?", ["날씨가 나빠요","밖에 있어요","몸이 좀 안 좋아요","비를 맞았어요"], 2, "날씨와 상관없이 '컨디션이 안 좋다'는 뜻이에요."],
-    ["회사 상사에게 보고할 때 쓰기에 가장 어색한 것은?", ["Let's call it a day.","Let's get the ball rolling.","I'll keep my fingers crossed.","No cap, this report slaps."], 3, "No cap, slaps는 친구끼리 쓰는 슬랭이에요. 관용구는 직장에서도 써요."]
+    ["The test was a piece of cake.-এর অর্থ কী?", ["পরীক্ষাটা খুব সহজ ছিল","পরীক্ষার সময় কেক খেয়েছি","পরীক্ষাটা খুব কঠিন ছিল","পরীক্ষা খারাপ হয়েছে"], 0, "a piece of cake মানে পানির মতো সহজ।"],
+    ["I'm feeling under the weather.-এর অর্থ কী?", ["আবহাওয়া খারাপ","আমি বাইরে আছি","শরীরটা ভালো লাগছে না","বৃষ্টিতে ভিজেছি"], 2, "আবহাওয়ার সঙ্গে সম্পর্ক নেই; মানে \"শরীরটা একটু খারাপ\"।"],
+    ["অফিসে বসকে রিপোর্ট দেওয়ার সময় কোনটি সবচেয়ে বেমানান?", ["Let's call it a day.","Let's get the ball rolling.","I'll keep my fingers crossed.","No cap, this report slaps."], 3, "No cap আর slaps বন্ধুদের মধ্যে চলা স্ল্যাং। বাগধারা অফিসেও চলে।"]
   ]
 };
