@@ -1,0 +1,10 @@
+{
+  "lessons": {
+    "aspect-tense": "ceb-only lesson (profile ceb.md §8 'add', §4.1 and §4.9): from Bisaya aspect (nag-, ni-, mo-, na, pa, wala pa, wala na, sukad) to English tense — one table from Bisaya forms to English choices, then the two rules Bisaya lacks (a time word does not replace the verb form; with no time word English still has to choose a tense). Placed after perfect via profile.json lessonOrder.after; linked to deck 10 «Istorya-istorya»; no ko-en counterpart. Verb forms are the largest counted error in both Visayan samples and the standing rule does not cover them.",
+    "pinoy-english": "ceb-only lesson (profile ceb.md §8 'add', §4.10): «Iningles sa Pinas» — local words and their international partners, direct translations, swapped particles, uncountables with -s, na / pa calques; placed after smalltalk via profile.json lessonOrder.after; linked to the ceb-only deck «Mga lit-ag para sa Bisaya»; no ko-en counterpart (parallel to ja katakana-english, zh chinglish, id indo-english). Written by CONTENT (a1.js owner); recorded here as the brief asks."
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["pinoy-english", "aspect-tense"],
+  "droppedLessons": []
+}
