@@ -1,441 +1,509 @@
-/* TRANSLATE/ADAPT (kn): scaffolded from tools/content/ko/decks.js by new_lang.js.
-   Translate/adapt everything that is not English (the ko text) for kn speakers (prompts, why, hint, meanings, pron per profile.json, deck and group names,
-   explanations written from the kn point of view — PILOT-SPEC §3). Keep every English string, lesson id and answer position
-   identical to ko-en unless deviations.json gives a reason (parity.js enforces it). Delete this banner when the file is done. */
-/* Deck source: one card per line, fields separated by " | " : target | pron | meaning | note */
+/* kn-en decks: English | pron (Kannada-script aid, tool output) | meaning | note. */
 module.exports = {
-"인사": `
-Hello. | 헬로우 | 안녕하세요 | 가장 기본 인사예요. 언제 어디서나, 누구에게나 OK
-Hi! | 하이! | 안녕! / 안녕하세요 | Hello보다 가볍고 친근해요. 미국에선 직장 동료끼리도 Hi를 써요
-Hey! | 헤이! | 야! / 안녕! | 친구끼리 쓰는 말. 처음 보는 사람에게 쓰면 무례하게 들릴 수 있어요
-Good morning. | 굿 모닝 | 좋은 아침이에요 | 정오 전까지 써요. 줄여서 그냥 "Morning!"이라고도 해요
-Good afternoon. | 굿 애프터눈 | 안녕하세요 (오후 인사) | 낮 12시~6시쯤. 약간 격식 있는 느낌이라 가게·회사에서 자주 들려요
-Good evening. | 굿 이브닝 | 안녕하세요 (저녁 인사) | 만날 때 하는 저녁 인사예요. Good night은 헤어질 때만 써요!
-How are you? | 하우 아 유? | 잘 지내요? / 안녕하세요? | 진짜 안부라기보다 인사예요. "Good, thanks. You?"로 가볍게 받아요
-I'm good, thanks. And you? | 아임 굿, 땡스. 앤 쥬? | 잘 지내요, 고마워요. 당신은요? | "I'm fine, thank you"는 교과서 느낌. good이 훨씬 자연스러워요
-What's up? | 왓썹? | 뭐 해? / 별일 없어? | 하늘(up)을 볼 필요 없어요. 보통 "Not much."로 대답해요
-Not much. | 낫 머치 | 별일 없어 | What's up?에 대한 가장 흔한 대답. "Not much, you?"로 되물어요
-How's it going? | 하우즈 잇 고잉? | 어떻게 지내? / 잘 돼 가? | How are you?의 캐주얼 버전. "Pretty good!"으로 받아요
-Nice to meet you. | 나이스 투 미츄 | 만나서 반가워요 | 처음 만났을 때만 써요. 대답은 "Nice to meet you, too."
-Long time no see! | 롱 타임 노 씨! | 오랜만이에요! | 친한 사이에서 써요. 조금 격식 있게는 "It's been a while."
-See you later. | 씨 유 레이러 | 나중에 봐요 | 다시 만날 계획이 없어도 헤어질 때 인사로 그냥 써요
-Take care. | 테익 케어 | 잘 지내요 / 몸조심해요 | 헤어질 때 하는 따뜻한 인사. 문자 끝에도 자주 붙여요
-Have a good one! | 해버 굿 원! | 좋은 하루 보내요! | 가게 직원이 계산 후 자주 해요. "You too!"로 받으면 끝
-Bye! | 바이! | 안녕! (헤어질 때) | "Bye-bye"는 어른끼리 쓰면 조금 귀엽게(아이 말투처럼) 들릴 수 있어요
-Good night. | 굿 나잇 | 잘 자요 / 안녕히 가세요 (밤) | 밤에 헤어지거나 자러 갈 때만 써요. 만날 때는 Good evening
+"ನಮಸ್ಕಾರ ಮತ್ತು ವಿದಾಯ": `
+Hello. | ಹˈಲೋ | ನಮಸ್ಕಾರ | ಎಲ್ಲರಿಗೂ, ಎಲ್ಲ ಸಂದರ್ಭದಲ್ಲೂ ಸಲ್ಲುವ ಶುಭಾಶಯ. ಒತ್ತು ಎರಡನೇ ಭಾಗದ ಮೇಲೆ: ಹˈಲೋ.
+Hi! | ಹೈ | ಹಾಯ್! | Hello ಗಿಂತ ಹಗುರ, ಸ್ನೇಹಪೂರ್ಣ. ಅಮೆರಿಕದಲ್ಲಿ ಆಫೀಸ್‌ನ ಸಹೋದ್ಯೋಗಿಗಳಿಗೂ Hi ಎನ್ನುತ್ತಾರೆ.
+Hey! | ಹೇ | ಹೇ! (ಗೆಳೆಯರಿಗೆ) | ಗೆಳೆಯರ ನಡುವೆ ಮಾತ್ರ. ಅಪರಿಚಿತರಿಗೆ ಹೇಳಿದರೆ ಒರಟಾಗಿ ಕೇಳಿಸಬಹುದು.
+Good morning. | ಗುಡ್ ˈಮೋರ್ನಿಙ್ | ಶುಭೋದಯ | ಮಧ್ಯಾಹ್ನ 12 ಗಂಟೆಯವರೆಗೆ. ಚಿಕ್ಕದಾಗಿ "Morning!" ಎಂದೂ ಹೇಳುತ್ತಾರೆ.
+Good afternoon. | ಗುಡ್ ಆ್ಯಫ಼್ಟರ್ˈನೂನ್ | ನಮಸ್ಕಾರ (ಮಧ್ಯಾಹ್ನ) | ಸುಮಾರು 12 ರಿಂದ ಸಂಜೆ 6 ರವರೆಗೆ. ಸ್ವಲ್ಪ ಔಪಚಾರಿಕ; ಅಂಗಡಿ, ಆಫೀಸ್‌ಗಳಲ್ಲಿ ಹೆಚ್ಚು ಕೇಳಿಸುತ್ತದೆ.
+Good evening. | ಗುಡ್ ˈಈವ಼್ನಿಙ್ | ನಮಸ್ಕಾರ (ಸಂಜೆ) | ಸಂಜೆ ಭೇಟಿಯಾದಾಗ ಹೇಳುವುದು. Good night ಹೊರಡುವಾಗ ಅಥವಾ ಮಲಗುವ ಮೊದಲು ಮಾತ್ರ.
+How are you? | ಹೌ ಅರ್ ಯು | ಹೇಗಿದ್ದೀರಿ? | ಇದು ನಿಜವಾದ ಪ್ರಶ್ನೆಗಿಂತ ಹೆಚ್ಚಾಗಿ ಶುಭಾಶಯ. ಚಿಕ್ಕ ಉತ್ತರ ಸಾಕು: "Good, thanks. You?"
+I'm good, thanks. And you? | ಐಮ್ ಗುಡ್ ಥ಼್ಯಾಂಕ್ಸ್. ಅನ್ಡ್ ಯೂ | ಚೆನ್ನಾಗಿದ್ದೇನೆ, ಧನ್ಯವಾದ. ನೀವು? | ಶಾಲೆಯಲ್ಲಿ ಕಲಿತ "I'm fine, thank you" ಪುಸ್ತಕದ ಭಾಷೆಯಂತೆ ಕೇಳಿಸುತ್ತದೆ; I'm good ಹೆಚ್ಚು ಸಹಜ.
+What's up? | ವಟ್ಸ್ ಅಪ್ | ಏನು ಸಮಾಚಾರ? | ಕನ್ನಡದ "ಏನು ಸಮಾಚಾರ?" ದ ಹಾಗೆ ಗೆಳೆಯರ ನಡುವಿನ ಶುಭಾಶಯ. ವಿಶೇಷವೇನೂ ಇಲ್ಲದಿದ್ದರೆ ಉತ್ತರ "Not much."
+Not much. | ನಾಟ್ ಮಚ್ | ವಿಶೇಷವೇನಿಲ್ಲ | What's up? ಗೆ ಸಾಮಾನ್ಯ ಉತ್ತರ. ತಿರುಗಿ ಕೇಳಲು: "Not much, you?"
+How's it going? | ಹೌಜ಼್ ಇಟ್ ˈಗೋಇಙ್ | ಹೇಗೆ ನಡೆಯುತ್ತಿದೆ? | How are you? ನ ಹಗುರ ರೂಪ; ಉತ್ತರ "Pretty good!" ಕನ್ನಡದ "ಊಟ ಆಯ್ತಾ?" ಎಂಬ ಕುಶಲ ಪ್ರಶ್ನೆಯ ಜಾಗದಲ್ಲಿ ಇದನ್ನು ಬಳಸಿ.
+Nice to meet you. | ನೈಸ್ ಟ ಮೀಟ್ ಯು | ನಿಮ್ಮನ್ನು ಭೇಟಿಯಾಗಿ ಸಂತೋಷವಾಯಿತು | ಮೊದಲ ಭೇಟಿಯಲ್ಲಿ ಮಾತ್ರ. ಉತ್ತರ: "Nice to meet you, too."
+Long time no see! | ಲಾಙ್ ಟೈಮ್ ನೋ ಸೀ | ನೋಡಿ ತುಂಬಾ ದಿನ ಆಯಿತು! | ಪರಿಚಿತರಿಗೆ, ಗೆಳೆಯರಿಗೆ. ಸ್ವಲ್ಪ ಔಪಚಾರಿಕವಾಗಿ: "It's been a while."
+See you later. | ಸೀ ಯು ˈಲೇಟರ್ | ಮತ್ತೆ ಸಿಗೋಣ | ಕನ್ನಡದ "ಹೋಗಿ ಬರುತ್ತೇನೆ" ಎಂಬ ಮಾತಿನ ಜಾಗದಲ್ಲಿ ಇದು; "I'll go and come" ಎಂದರೆ ವಿದೇಶದಲ್ಲಿ ಅರ್ಥವಾಗುವುದಿಲ್ಲ.
+Take care. | ಟೇಕ್ ಕೆರ್ | ಹುಷಾರಾಗಿರಿ | ಹೊರಡುವಾಗ ಹೇಳುವ ಆತ್ಮೀಯ ಮಾತು. ಮೆಸೇಜ್‌ನ ಕೊನೆಯಲ್ಲೂ ಬರೆಯುತ್ತಾರೆ.
+Have a good one! | ಹ್ಯಾವ಼್ ಅ ಗುಡ್ ವನ್ | ದಿನ ಚೆನ್ನಾಗಿರಲಿ! | ಅಂಗಡಿಯಲ್ಲಿ ಹಣ ಕೊಟ್ಟ ಮೇಲೆ ಸಿಬ್ಬಂದಿ ಹೀಗೆ ಹೇಳುತ್ತಾರೆ. ಉತ್ತರ: "You too!"
+Bye! | ಬೈ | ಬೈ! / ಬರುತ್ತೇನೆ | "Bye-bye" ದೊಡ್ಡವರ ನಡುವೆ ಸ್ವಲ್ಪ ಮಕ್ಕಳ ಮಾತಿನಂತೆ ಕೇಳಿಸಬಹುದು; Bye ಸಾಕು.
+Good night. | ಗುಡ್ ನೈಟ್ | ಶುಭರಾತ್ರಿ | ರಾತ್ರಿ ಹೊರಡುವಾಗ ಅಥವಾ ಮಲಗುವ ಮೊದಲು ಮಾತ್ರ. ಭೇಟಿಯಾದಾಗ Good evening.
 `,
-"자기소개": `
-My name is Minji. | 마이 네임 이즈 민지 | 제 이름은 민지예요 | 일상에서는 더 짧게 "I'm Minji."라고 많이 해요
-Please call me Jay. | 플리즈 콜 미 제이 | 제이라고 불러 주세요 | 영어 이름이 있거나 이름을 줄여 부르고 싶을 때
-What should I call you? | 왓 슈다이 콜 유? | 뭐라고 부르면 될까요? | 상대 이름 발음이 어렵거나 애칭이 궁금할 때 유용해요
-Where are you from? | 웨어 아 유 프럼? | 어디서 왔어요? / 어느 나라 사람이에요? | 외국에서 가장 먼저 듣는 질문 중 하나예요
-I'm from Korea. | 아임 프럼 코리아 | 한국에서 왔어요 | 도시까지 말하면 대화가 이어져요: "I'm from Busan, in South Korea."
-I live in Seoul. | 아이 리브 인 서울 | 서울에 살아요 | live의 v는 윗니로 아랫입술을 살짝 물고 소리 내요
-I'm a student. | 아임 어 스튜던트 | 저는 학생이에요 | 직업 앞에는 꼭 a/an! "I'm student"는 가장 흔한 실수예요
-What do you do? | 왓 두 유 두? | 무슨 일 하세요? | 직업을 묻는 표준 질문. "What's your job?"보다 부드러워요
-I work at a bank. | 아이 워크 앳 어 뱅크 | 은행에서 일해요 | 회사·장소 앞엔 at: "I work at Samsung."
-I work in marketing. | 아이 워크 인 마케팅 | 마케팅 분야에서 일해요 | 분야·부서 앞엔 in. at(회사)과 구분해요
-I'm 25 years old. | 아임 트웬티파이브 이어즈 올드 | 저는 25살이에요 | 영어권에선 만 나이로 말해요. 나이를 먼저 묻는 건 실례일 수 있어요
-I'm really into hiking. | 아임 륄리 인투 하이킹 | 등산에 푹 빠져 있어요 | "My hobby is…"보다 훨씬 자연스러운 취미 표현이에요
-I like watching movies. | 아이 라익 와칭 무비즈 | 영화 보는 걸 좋아해요 | like 뒤에 동작이 오면 ~ing 또는 to + 동사원형
-I've been learning English for a year. | 아이브 빈 러닝 잉글리시 포러 이어 | 영어를 1년째 배우고 있어요 | 지금까지 계속 해 온 일은 have been + ~ing
-I'm here on vacation. | 아임 히어 온 베이케이션 | 휴가로 왔어요 | 영국식은 "I'm here on holiday."
-I'm married. | 아임 매리드 | 결혼했어요 | 미혼이면 "I'm single." 초면에 결혼 여부를 묻는 건 피하는 게 좋아요
-I have a younger brother. | 아이 해버 영거 브라더 | 남동생이 한 명 있어요 | 영어는 형·오빠·남동생을 older/younger brother로만 구분해요
+
+"ಸ್ವಪರಿಚಯ": `
+My name is Divya. | ಮೈ ನೇಮ್ ಇಜ಼್ ˈಡಿವ಼್ಯ | ನನ್ನ ಹೆಸರು ದಿವ್ಯಾ | ಕನ್ನಡದ "ನನ್ನ ಹೆಸರು ದಿವ್ಯಾ" ಎಂಬಲ್ಲಿ ಕ್ರಿಯಾಪದ ಇಲ್ಲ; ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ is ಬೇಕು. ದಿನನಿತ್ಯ ಚಿಕ್ಕದಾಗಿ "I'm Divya." ಎನ್ನುತ್ತಾರೆ; "Myself Divya" ತಪ್ಪು.
+Please call me Jay. | ಪ್ಲೀಜ಼್ ಕಾಲ್ ಮಿ ಜೇ | ನನ್ನನ್ನು ಜೇ ಎಂದು ಕರೆಯಿರಿ | ಹೆಸರು ಉದ್ದವಿದ್ದರೆ ಅಥವಾ ಬೇರೆಯವರಿಗೆ ಹೇಳಲು ಕಷ್ಟವಾದರೆ ಚಿಕ್ಕ ಹೆಸರು ಕೊಡಲು.
+What should I call you? | ವಟ್ ಶಡ್ ಐ ಕಾಲ್ ಯು | ನಿಮ್ಮನ್ನು ಏನೆಂದು ಕರೆಯಲಿ? | ಅಮೆರಿಕದಲ್ಲಿ ಮೊದಲ ಹೆಸರಿನಿಂದ ಕರೆಯುವುದು ಸಾಮಾನ್ಯ; ಮಾತುಮಾತಿಗೂ Sir / Madam ಎನ್ನುವುದಿಲ್ಲ.
+Where are you from? | ವೆರ್ ಅರ್ ಯು ಫ಼್ರಮ್ | ನೀವು ಎಲ್ಲಿಯವರು? | ವಿದೇಶದಲ್ಲಿ ಮೊದಲು ಕೇಳುವ ಪ್ರಶ್ನೆಗಳಲ್ಲಿ ಒಂದು. ಪ್ರಶ್ನೆಯಲ್ಲಿ are ಕರ್ತೃವಿನ ಮೊದಲು ಬರುತ್ತದೆ: "Where you are from?" ತಪ್ಪು.
+I'm from India. | ಐಮ್ ಫ಼್ರಮ್ ˈಇನ್ಡಿಅ | ನಾನು ಭಾರತದಿಂದ ಬಂದಿದ್ದೇನೆ | ಊರನ್ನೂ ಹೇಳಿದರೆ ಮಾತು ಮುಂದುವರಿಯುತ್ತದೆ: "I'm from Mysuru, in India." ಭಾರತದ "My native is Mysuru" ವಿದೇಶದಲ್ಲಿ ಅರ್ಥವಾಗುವುದಿಲ್ಲ.
+I live in Bengaluru. | ಐ ಲಿವ಼್ ಇನ್ ಬೆಂಗˈಲುರೂ | ನಾನು ಬೆಂಗಳೂರಿನಲ್ಲಿ ವಾಸಿಸುತ್ತೇನೆ | live ನ ಕೊನೆಯ v ಗೆ ಮೇಲಿನ ಹಲ್ಲು ಕೆಳತುಟಿಗೆ ತಾಗಬೇಕು, ಅದರ ನಂತರ ಸ್ವರ ಬೇಡ. ಶಾಶ್ವತ ವಾಸಕ್ಕೆ I live; "I am living" ತಾತ್ಕಾಲಿಕ ವಾಸಕ್ಕೆ ಮಾತ್ರ.
+I'm a student. | ಐಮ್ ಅ ˈಸ್ಟೂಡನ್ಟ್ | ನಾನು ವಿದ್ಯಾರ್ಥಿ | ಕನ್ನಡದ "ನಾನು ವಿದ್ಯಾರ್ಥಿ" ಯಲ್ಲಿ ಕ್ರಿಯಾಪದವೂ ಇಲ್ಲ, ಆರ್ಟಿಕಲ್ ಕೂಡ ಇಲ್ಲ; ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ am ಮತ್ತು a ಎರಡೂ ಬೇಕು. "I student", "I'm student" ತಪ್ಪು.
+What do you do? | ವಟ್ ಡ ಯು ಡೂ | ನೀವು ಏನು ಕೆಲಸ ಮಾಡುತ್ತೀರಿ? | ಉದ್ಯೋಗ ಕೇಳುವ ಸಾಮಾನ್ಯ ಪ್ರಶ್ನೆ; "ಈಗ ಏನು ಮಾಡುತ್ತಿದ್ದೀರಿ?" ಎಂಬ ಅರ್ಥ ಅಲ್ಲ. "What's your job?" ಗಿಂತ ಮೃದು.
+I work at a bank. | ಐ ವರ್ಕ್ ಅಟ್ ಅ ಬ್ಯಾಂಕ್ | ನಾನು ಬ್ಯಾಂಕ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತೇನೆ | ಕನ್ನಡದ -ಅಲ್ಲಿ ಇಲ್ಲಿ at: ಕಂಪನಿ ಅಥವಾ ಕೆಲಸದ ಜಾಗದ ಮೊದಲು at ("I work at Infosys."). ಆರ್ಟಿಕಲ್ a ಮರೆಯಬೇಡಿ.
+I work in marketing. | ಐ ವರ್ಕ್ ಇನ್ ˈಮಾರ್ಕಿಟಿಙ್ | ನಾನು ಮಾರ್ಕೆಟಿಂಗ್ ವಿಭಾಗದಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತೇನೆ | ಕ್ಷೇತ್ರ ಅಥವಾ ವಿಭಾಗದ ಮೊದಲು in; ಕಂಪನಿಯ ಮೊದಲು at.
+I'm 25 years old. | ಐಮ್ ಟ್ವೆನ್ಟಿˈಫ಼ೈವ಼್ ಯಿರ್ಜ಼್ ಓಲ್ಡ್ | ನನಗೆ 25 ವರ್ಷ | ಕನ್ನಡದಲ್ಲಿ "ನನಗೆ 25 ವರ್ಷ"; ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ I am, ಮತ್ತು years ಬಹುವಚನ. ವಿದೇಶದಲ್ಲಿ ಅಪರಿಚಿತರ ವಯಸ್ಸು ಕೇಳುವುದು ಸಭ್ಯವಲ್ಲ.
+I'm really into hiking. | ಐಮ್ ˈರೀಅಲಿ ಇನ್ಟ ˈಹೈಕಿಙ್ | ನನಗೆ ಟ್ರೆಕ್ಕಿಂಗ್ ಎಂದರೆ ತುಂಬಾ ಇಷ್ಟ | "My hobby is…" ಗಿಂತ ಸಹಜ; be into = ತುಂಬಾ ಆಸಕ್ತಿ ಇರುವುದು. ಭಾರತದಲ್ಲಿ trekking ಎನ್ನುವುದಕ್ಕೆ ಅಮೆರಿಕದಲ್ಲಿ ಹೆಚ್ಚಾಗಿ hiking.
+I like watching movies. | ಐ ಲೈಕ್ ˈವಾಚಿಙ್ ˈಮೂವ಼ಿಜ಼್ | ನನಗೆ ಸಿನಿಮಾ ನೋಡುವುದು ಇಷ್ಟ | "ನನಗೆ … ಇಷ್ಟ" = I like; "I am liking" ತಪ್ಪು. like ನಂತರ -ing ಅಥವಾ to + V1.
+I've been learning English for a year. | ಐವ಼್ ಬಿನ್ ˈಲರ್ನಿಙ್ ˈಇಂಗ್ಲಿಶ್ ಫ಼ರ್ ಅ ಯಿರ್ | ನಾನು ಒಂದು ವರ್ಷದಿಂದ ಇಂಗ್ಲಿಷ್ ಕಲಿಯುತ್ತಿದ್ದೇನೆ | "ಒಂದು ವರ್ಷದಿಂದ" = for a year; from ಅಲ್ಲ, since ಅಲ್ಲ. "I am learning English from one year" ತಪ್ಪು: have been + -ing ಬೇಕು.
+I'm here on vacation. | ಐಮ್ ಹಿರ್ ಆನ್ ವ಼ೇˈಕೇಶನ್ | ನಾನು ರಜೆ ಕಳೆಯಲು ಇಲ್ಲಿಗೆ ಬಂದಿದ್ದೇನೆ | ಭಾರತ ಮತ್ತು ಬ್ರಿಟನ್‌ನಲ್ಲಿ holiday; ಅಮೆರಿಕದಲ್ಲಿ vacation.
+I'm married. | ಐಮ್ ˈಮ್ಯಾರಿಡ್ | ನನಗೆ ಮದುವೆಯಾಗಿದೆ | ಮದುವೆ ಆಗಿಲ್ಲದಿದ್ದರೆ "I'm single." ವಿದೇಶದಲ್ಲಿ ಮೊದಲ ಭೇಟಿಯಲ್ಲೇ ಮದುವೆಯ ಬಗ್ಗೆ ಕೇಳುವುದು ಸರಿಯಲ್ಲ.
+I have a younger brother. | ಐ ಹ್ಯಾವ಼್ ಅ ˈಯಂಗರ್ ˈಬ್ರದ಼ರ್ | ನನಗೆ ಒಬ್ಬ ತಮ್ಮ ಇದ್ದಾನೆ | "ನನಗೆ … ಇದ್ದಾನೆ" = I have; "I am having a brother" ತಪ್ಪು. ಅಣ್ಣ = older brother, ತಮ್ಮ = younger brother.
 `,
-"생존 영어 1": `
-Excuse me. | 익스큐즈 미 | 실례합니다 / 저기요 | 사람을 부르거나 지나갈 때 써요. 부딪친 뒤에는 Sorry!
-Thank you. | 땡큐 | 감사합니다 | th는 혀끝을 이 사이에 살짝. 그래도 "땡큐"로 충분히 통해요
-Thanks a lot. | 땡스 어 랏 | 정말 고마워요 | Thank you보다 가볍고 친근해요
-You're welcome. | 유어 웰컴 | 천만에요 | 캐주얼하게는 "Sure." "No problem." "Anytime."
-No problem. | 노 프라블럼 | 별거 아니에요 | 고맙다는 말에 대한 대답으로 아주 흔해요
-I'm sorry. | 아임 쏘리 | 죄송해요 | 진짜 사과할 때. 가볍게 부딪쳤을 땐 "Sorry!" 한 마디면 돼요
-Yes, please. | 예스, 플리즈 | 네, 주세요 | "Would you like some water?" 같은 제안에 대한 대답
-No, thank you. | 노, 땡큐 | 아니요, 괜찮아요 | 거절할 때 그냥 No보다 훨씬 공손해요. 캐주얼: "I'm good, thanks."
-Sorry? | 쏘리? (끝을 올려서) | 네? 뭐라고요? | 끝을 올리면 "다시 말해 주세요"라는 뜻이 돼요. 미국에선 "Pardon?"보다 흔해요
-Could you say that again? | 쿠쥬 쎄이 댓 어게인? | 다시 말씀해 주시겠어요? | 못 알아들었을 때 당당하게 써요. 원어민도 자주 해요
-Could you speak more slowly? | 쿠쥬 스픽 모어 슬로울리? | 좀 더 천천히 말해 주시겠어요? | please를 붙이면 더 공손해요
-I don't understand. | 아이 돈 언더스탠드 | 이해가 안 돼요 | 조금 딱딱해요. 부드럽게: "Sorry, I didn't quite catch that."
-Do you speak Korean? | 두 유 스픽 코리안? | 한국어 하세요? | "Can you speak…?"보다 "Do you speak…?"가 더 자연스럽고 공손해요
-I speak a little English. | 아이 스픽 어 리를 잉글리시 | 영어를 조금 해요 | little의 tt는 "ㄹ"처럼 굴려요: 리를
-How do you say this in English? | 하우 두 유 쎄이 디스 인 잉글리시? | 이거 영어로 뭐라고 해요? | 물건을 가리키며 쓰면 단어를 바로 배울 수 있어요
-What does this mean? | 왓 더즈 디스 민? | 이게 무슨 뜻이에요? | 메뉴판·표지판을 가리키며 써요
-Can you help me? | 캔 유 헬프 미? | 좀 도와주실래요? | 더 공손하게: "Could you help me?"
+
+"ಅತ್ಯಗತ್ಯ ಇಂಗ್ಲಿಷ್ 1": `
+Excuse me. | ಇಕ್ˈಸ್ಕ್ಯೂಜ಼್ ಮಿ | ಕ್ಷಮಿಸಿ, ಸ್ವಲ್ಪ ಕೇಳಿ | ಯಾರನ್ನಾದರೂ ಕರೆಯಲು ಅಥವಾ ದಾರಿ ಬಿಡಿಸಿಕೊಳ್ಳಲು. ಮೈ ತಾಗಿದ ಮೇಲೆ ಹೇಳುವುದು Sorry!
+Thank you. | ಥ಼್ಯಾಂಕ್ ಯು | ಧನ್ಯವಾದ | th ಗೆ ನಾಲಿಗೆಯ ತುದಿ ಹಲ್ಲುಗಳ ನಡುವೆ, ಗಾಳಿ ಹೊರಗೆ: ಕನ್ನಡದ ಥ ಅಲ್ಲ, ತ ಅಲ್ಲ. ಅಮೆರಿಕದಲ್ಲಿ ಚಿಕ್ಕ ಸಹಾಯಕ್ಕೂ ಹೇಳುತ್ತಾರೆ.
+Thanks a lot. | ಥ಼್ಯಾಂಕ್ಸ್ ಅ ಲಾಟ್ | ತುಂಬಾ ಧನ್ಯವಾದ | Thank you ಗಿಂತ ಹಗುರ, ಸ್ನೇಹಪೂರ್ಣ.
+You're welcome. | ಯುರ್ ˈವೆಲ್ಕಮ್ | ಪರವಾಗಿಲ್ಲ (ಧನ್ಯವಾದಕ್ಕೆ ಉತ್ತರ) | ಹಗುರವಾಗಿ: "Sure." "No problem." "Anytime." ಭಾರತದ "Mention not" ವಿದೇಶದಲ್ಲಿ ಕೇಳಿಸುವುದಿಲ್ಲ.
+No problem. | ನೋ ˈಪ್ರಾಬ್ಲಮ್ | ತೊಂದರೆ ಇಲ್ಲ | ಧನ್ಯವಾದಕ್ಕೆ ತುಂಬಾ ಸಾಮಾನ್ಯ ಉತ್ತರ.
+I'm sorry. | ಐಮ್ ˈಸಾರಿ | ಕ್ಷಮಿಸಿ, ತಪ್ಪಾಯಿತು | ನಿಜವಾಗಿ ಕ್ಷಮೆ ಕೇಳುವಾಗ. ಸಣ್ಣದಾಗಿ ಮೈ ತಾಗಿದರೆ "Sorry!" ಸಾಕು.
+Yes, please. | ಯೆಸ್ ಪ್ಲೀಜ಼್ | ಹೌದು, ಕೊಡಿ | "Would you like some water?" ಎಂಬಂತಹ ಪ್ರಶ್ನೆಗೆ ಒಪ್ಪುವ ಉತ್ತರ. ಬರೀ "Yes" ಒರಟಾಗಿ ಕೇಳಿಸಬಹುದು.
+No, thank you. | ನೋ ಥ಼್ಯಾಂಕ್ ಯು | ಬೇಡ, ಧನ್ಯವಾದ | ಬರೀ No ಗಿಂತ ಸೌಜನ್ಯಪೂರ್ಣ. ಹಗುರವಾಗಿ: "I'm good, thanks."
+Sorry? | ˈಸಾರಿ | ಏನು ಹೇಳಿದಿರಿ? | ಕೊನೆಯಲ್ಲಿ ಧ್ವನಿ ಏರಿಸಿದರೆ "ಮತ್ತೊಮ್ಮೆ ಹೇಳಿ" ಎಂಬ ಅರ್ಥ. ಅಮೆರಿಕದಲ್ಲಿ "Pardon?" ಗಿಂತ ಇದು ಸಾಮಾನ್ಯ.
+Could you say that again? | ಕಡ್ ಯು ಸೇ ದ಼್ಯಾಟ್ ಅˈಗೆನ್ | ಮತ್ತೊಮ್ಮೆ ಹೇಳುತ್ತೀರಾ? | ಕೇಳಿಸದಿದ್ದರೆ ಹಿಂಜರಿಯದೆ ಕೇಳಿ; ಇಂಗ್ಲಿಷ್ ಮಾತೃಭಾಷೆಯವರೂ ಹೀಗೆ ಕೇಳುತ್ತಾರೆ. "repeat again" ಬೇಡ: say that again ಅಥವಾ repeat that.
+Could you speak more slowly? | ಕಡ್ ಯು ಸ್ಪೀಕ್ ಮೋರ್ ˈಸ್ಲೋಲಿ | ಸ್ವಲ್ಪ ನಿಧಾನವಾಗಿ ಮಾತನಾಡುತ್ತೀರಾ? | ಕನ್ನಡದ ಸೌಜನ್ಯ "ನೀವು" ಮತ್ತು "-ಇ" ರೂಪದಲ್ಲಿದೆ; ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಅದು Could you…? ನಲ್ಲಿದೆ. please ಸೇರಿಸಿದರೆ ಇನ್ನೂ ಮೃದು.
+I don't understand. | ಐ ಡೋನ್ಟ್ ಅನ್ಡರ್ˈಸ್ಟ್ಯಾನ್ಡ್ | ನನಗೆ ಅರ್ಥವಾಗುತ್ತಿಲ್ಲ | "I am not understanding" ತಪ್ಪು: understand ಸ್ಥಿತಿ ತಿಳಿಸುವ ಕ್ರಿಯಾಪದ, -ing ಬರುವುದಿಲ್ಲ. ಮೃದುವಾಗಿ: "Sorry, I didn't quite catch that."
+Do you speak Kannada? | ಡ ಯು ಸ್ಪೀಕ್ ˈಕಾನಡ | ನಿಮಗೆ ಕನ್ನಡ ಬರುತ್ತದೆಯೇ? | "ನಿಮಗೆ … ಬರುತ್ತದೆಯೇ?" = Do you speak…? ಪ್ರಶ್ನೆಯ ಮೊದಲು Do ಬೇಕು; "You speak Kannada?" ಸಾಲದು.
+I speak a little English. | ಐ ಸ್ಪೀಕ್ ಅ ˈಲಿಟಲ್ ˈಇಂಗ್ಲಿಶ್ | ನನಗೆ ಸ್ವಲ್ಪ ಇಂಗ್ಲಿಷ್ ಬರುತ್ತದೆ | a little = ಸ್ವಲ್ಪ (ಇದೆ); a ಇಲ್ಲದ little = ಇಲ್ಲವೆನ್ನುವಷ್ಟು ಕಡಿಮೆ.
+How do you say this in English? | ಹೌ ಡ ಯು ಸೇ ದ಼ಿಸ್ ಇನ್ ˈಇಂಗ್ಲಿಶ್ | ಇದಕ್ಕೆ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಏನು ಹೇಳುತ್ತಾರೆ? | ವಸ್ತುವನ್ನು ತೋರಿಸಿ ಕೇಳಿದರೆ ಹೊಸ ಪದ ತಕ್ಷಣ ಸಿಗುತ್ತದೆ. "What do you call this?" ಕೂಡ ಸರಿ; "How do you call this?" ತಪ್ಪು.
+What does this mean? | ವಟ್ ಡಜ಼್ ದ಼ಿಸ್ ಮೀನ್ | ಇದರ ಅರ್ಥ ಏನು? | ಮೆನು, ಫಲಕ ತೋರಿಸಿ ಕೇಳಿ. does ಬೇಕು: "What this means?" ತಪ್ಪು.
+Can you help me? | ಕನ್ ಯು ಹೆಲ್ಪ್ ಮಿ | ನನಗೆ ಸ್ವಲ್ಪ ಸಹಾಯ ಮಾಡುತ್ತೀರಾ? | ಇನ್ನೂ ಸೌಜನ್ಯದಿಂದ: "Could you help me?"
 `,
-"생존 영어 2": `
-Where's the restroom? | 웨어즈 더 레스트룸? | 화장실이 어디예요? | 미국: restroom·bathroom, 영국: toilet·loo. "toilet"은 미국에선 변기 자체를 뜻해요
-How much is this? | 하우 머치 이즈 디스? | 이거 얼마예요? | 여러 개면 "How much are these?"
-Is there an ATM around here? | 이즈 데어런 에이티엠 어롸운드 히어? | 이 근처에 ATM 있어요? | 영국에선 cash machine이라고도 해요
-Can I get the Wi-Fi password? | 캔 아이 겟 더 와이파이 패스워드? | 와이파이 비밀번호 알려 주실래요? | 영어로는 "와이파이"가 맞아요. "Is there Wi-Fi here?"도 OK
-I'm lost. | 아임 로스트 | 길을 잃었어요 | 지도를 보여 주며 "Where am I on this map?"도 써 보세요
-Can I pay by card? | 캔 아이 페이 바이 카드? | 카드 돼요? | 미국은 거의 다 카드 OK. 작은 가게는 최소 금액이 있을 수 있어요
-One moment, please. | 원 모먼트, 플리즈 | 잠시만요 | 공손한 표현이라 가게·전화에서 많이 들어요
-Just a second. | 저스트 어 세컨 | 잠깐만 | 캐주얼. 더 짧게 "Just a sec."
-No worries. | 노 워리즈 | 괜찮아요 / 신경 쓰지 마요 | 호주·영국에서 특히 많이 쓰고 미국에서도 흔해요
-That's okay. | 댓츠 오케이 | 괜찮아요 (상대가 사과할 때) | 누가 사과하면 "That's okay!" 또는 "Don't worry about it."
-Of course. | 오브 코스 | 물론이죠 | 부탁을 들어줄 때. 질문에 쓰면 "당연한 걸 왜 물어?"처럼 들릴 수 있어 말투를 부드럽게
-I'm not sure. | 아임 낫 슈어 | 잘 모르겠어요 | I don't know보다 부드러워요
-I have a question. | 아이 해버 퀘스천 | 질문이 있어요 | 수업·회의에서: "Can I ask a question?"
-Can you write it down? | 캔 유 롸이릿 다운? | 적어 주실 수 있어요? | 주소·숫자·이름을 못 알아들었을 때 최고의 해결책
-Can I take a picture? | 캔 아이 테이커 픽처? | 사진 찍어도 돼요? | 박물관·가게에서 먼저 물어보는 게 매너예요
-Could you take a picture of us? | 쿠쥬 테이커 픽처 오브 어스? | 저희 사진 좀 찍어 주실래요? | 찍어 준 뒤엔 "Thank you so much!"
-After you. | 애프터 유 | 먼저 가세요 | 문 앞·엘리베이터에서 양보할 때. 영어권에선 문을 잡아 주는 게 기본 매너예요
-Watch out! | 와치 아웃! | 조심해요! | 위험할 때 크게 외쳐요. "Look out!"도 같은 뜻
+
+"ಅತ್ಯಗತ್ಯ ಇಂಗ್ಲಿಷ್ 2": `
+Where's the restroom? | ವೆರ್ಜ಼್ ದ಼ ˈರೆಸ್ಟ್ರೂಮ್ | ಶೌಚಾಲಯ ಎಲ್ಲಿದೆ? | ಅಮೆರಿಕದಲ್ಲಿ restroom / bathroom; ಭಾರತ ಮತ್ತು ಬ್ರಿಟನ್‌ನಲ್ಲಿ toilet / washroom. ಅಮೆರಿಕದಲ್ಲಿ toilet ಎಂದರೆ ಹೆಚ್ಚಾಗಿ ಕಮೋಡ್ ಎಂಬ ಅರ್ಥ.
+How much is this? | ಹೌ ಮಚ್ ಇಜ಼್ ದ಼ಿಸ್ | ಇದರ ಬೆಲೆ ಎಷ್ಟು? | ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ವಸ್ತುಗಳಿದ್ದರೆ "How much are these?" ಕನ್ನಡದ "ಈ" ಎರಡಕ್ಕೂ ಒಂದೇ; ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ this / these.
+Is there an ATM around here? | ಇಜ಼್ ದ಼ೆರ್ ಅನ್ ಏ ಟೀ ಎಮ್ ಅˈರೌನ್ಡ್ ಹಿರ್ | ಇಲ್ಲಿ ಹತ್ತಿರ ಎಟಿಎಂ ಇದೆಯೇ? | "… ಇದೆಯೇ?" = Is there…? ATM ಎಂಬ ಹೆಸರು ಸ್ವರದ ಧ್ವನಿಯಿಂದ ಶುರುವಾಗುವುದರಿಂದ an. "ATM machine" ಎನ್ನಬೇಕಿಲ್ಲ.
+Can I get the Wi-Fi password? | ಕನ್ ಐ ಗೆಟ್ ದ಼ ˈವೈಫ಼ೈ ˈಪ್ಯಾಸ್ವರ್ಡ್ | ವೈ-ಫೈ ಪಾಸ್‌ವರ್ಡ್ ಕೊಡುತ್ತೀರಾ? | ಕೆಫೆ, ಹೋಟೆಲ್‌ಗಳಲ್ಲಿ. "Is there Wi-Fi here?" ಎಂದೂ ಕೇಳಬಹುದು.
+I'm lost. | ಐಮ್ ಲಾಸ್ಟ್ | ನನಗೆ ದಾರಿ ತಪ್ಪಿದೆ | ಮ್ಯಾಪ್ ತೋರಿಸಿ "Where am I on this map?" ಎಂದೂ ಕೇಳಬಹುದು.
+Can I pay by card? | ಕನ್ ಐ ಪೇ ಬೈ ಕಾರ್ಡ್ | ಕಾರ್ಡ್‌ನಲ್ಲಿ ಪಾವತಿಸಬಹುದೇ? | ವಿದೇಶದಲ್ಲಿ ಹೆಚ್ಚಿನ ಕಡೆ UPI ಬದಲು ಕಾರ್ಡ್ ಬಳಸುತ್ತಾರೆ. by card ಅಥವಾ with a card.
+One moment, please. | ವನ್ ˈಮೋಮನ್ಟ್ ಪ್ಲೀಜ಼್ | ಒಂದು ನಿಮಿಷ, ದಯವಿಟ್ಟು | ಸೌಜನ್ಯದ ಮಾತು; ಅಂಗಡಿ, ಫೋನ್‌ನಲ್ಲಿ ಹೆಚ್ಚು ಕೇಳಿಸುತ್ತದೆ.
+Just a second. | ಜಸ್ಟ್ ಅ ˈಸೆಕನ್ಡ್ | ಒಂದೇ ಕ್ಷಣ | ಹಗುರ ಮಾತು; ಇನ್ನೂ ಚಿಕ್ಕದಾಗಿ "Just a sec." ಕನ್ನಡದ "ಒಂದು ನಿಮಿಷ, ಬರುತ್ತೇನೆ" ಯನ್ನು "One minute, I'll come" ಎನ್ನಬೇಡಿ.
+No worries. | ನೋ ˈವರಿಜ಼್ | ಚಿಂತೆ ಬೇಡ | ಆಸ್ಟ್ರೇಲಿಯಾ, ಬ್ರಿಟನ್‌ನಲ್ಲಿ ಹೆಚ್ಚು; ಅಮೆರಿಕದಲ್ಲೂ ಸಾಮಾನ್ಯ. ಕ್ಷಮೆಗೂ ಧನ್ಯವಾದಕ್ಕೂ ಉತ್ತರ.
+That's okay. | ದ಼್ಯಾಟ್ಸ್ ಓˈಕೇ | ಪರವಾಗಿಲ್ಲ (ಕ್ಷಮೆ ಕೇಳಿದಾಗ) | ಯಾರಾದರೂ ಕ್ಷಮೆ ಕೇಳಿದರೆ "That's okay!" ಅಥವಾ "Don't worry about it."
+Of course. | ಅವ಼್ ಕೋರ್ಸ್ | ಖಂಡಿತ | ಕೇಳಿಕೆಗೆ ಒಪ್ಪುವಾಗ. ಮಾಹಿತಿ ಕೇಳುವ ಪ್ರಶ್ನೆಗೆ ಹೀಗೆ ಉತ್ತರಿಸಿದರೆ "ಇದನ್ನೂ ಕೇಳಬೇಕೇ?" ಎಂಬಂತೆ ಕೇಳಿಸಬಹುದು.
+I'm not sure. | ಐಮ್ ನಾಟ್ ಶುರ್ | ನನಗೆ ಸರಿಯಾಗಿ ಗೊತ್ತಿಲ್ಲ | I don't know ಗಿಂತ ಮೃದು.
+I have a question. | ಐ ಹ್ಯಾವ಼್ ಅ ˈಕ್ವೆಸ್ಚನ್ | ನನ್ನದೊಂದು ಪ್ರಶ್ನೆ ಇದೆ | ಭಾರತದಲ್ಲಿ "I have a doubt" ಎನ್ನುತ್ತೇವೆ; ವಿದೇಶದಲ್ಲಿ doubt ಎಂದರೆ ಅನುಮಾನ. "one question" ಅಲ್ಲ: ಆರ್ಟಿಕಲ್ a.
+Can you write it down? | ಕನ್ ಯು ರೈಟ್ ಇಟ್ ಡೌನ್ | ಅದನ್ನು ಬರೆದು ಕೊಡುತ್ತೀರಾ? | ವಿಳಾಸ, ಸಂಖ್ಯೆ, ಹೆಸರು ಸರಿಯಾಗಿ ಕೇಳಿಸದಿದ್ದಾಗ ಅತ್ಯುತ್ತಮ ಉಪಾಯ.
+Can I take a picture? | ಕನ್ ಐ ಟೇಕ್ ಅ ˈಪಿಕ್ಚರ್ | ನಾನು ಫೋಟೋ ತೆಗೆಯಬಹುದೇ? | ಮ್ಯೂಸಿಯಂ, ಅಂಗಡಿಗಳಲ್ಲಿ ಮೊದಲು ಕೇಳುವುದು ಸಭ್ಯತೆ. ಭಾರತದ "click a photo" ಗೆ ಅಮೆರಿಕದಲ್ಲಿ take a picture.
+Could you take a picture of us? | ಕಡ್ ಯು ಟೇಕ್ ಅ ˈಪಿಕ್ಚರ್ ಅವ಼್ ಅಸ್ | ನಮ್ಮದೊಂದು ಫೋಟೋ ತೆಗೆದುಕೊಡುತ್ತೀರಾ? | ತೆಗೆದುಕೊಟ್ಟ ಮೇಲೆ "Thank you so much!" ಎನ್ನಿ.
+After you. | ˈಆ್ಯಫ಼್ಟರ್ ಯೂ | ನೀವು ಮೊದಲು | ಬಾಗಿಲು, ಲಿಫ್ಟ್ ಬಳಿ ದಾರಿ ಬಿಡುವಾಗ. ಹಿಂದೆ ಬರುವವರಿಗಾಗಿ ಬಾಗಿಲು ಹಿಡಿದು ನಿಲ್ಲುವುದು ಅಲ್ಲಿನ ಸಾಮಾನ್ಯ ಸಭ್ಯತೆ.
+Watch out! | ವಾಚ್ ಔಟ್ | ಹುಷಾರ್! | ಅಪಾಯ ಇದ್ದಾಗ ಜೋರಾಗಿ ಕೂಗಿ. "Look out!" ಕೂಡ ಅದೇ ಅರ್ಥ.
 `,
-"길 묻기·교통": `
-How do I get to the subway station? | 하우 두 아이 겟 투 더 썹웨이 스테이션? | 지하철역에 어떻게 가요? | 영국: underground / tube station. 목적지만 바꿔서 쓰면 돼요
-Is it far from here? | 이즈 잇 파 프럼 히어? | 여기서 멀어요? | far의 r은 혀를 살짝 말아요
-Is it within walking distance? | 이즈 잇 위딘 워킹 디스턴스? | 걸어갈 수 있는 거리예요? | "Can I walk there?"도 OK
-Go straight. | 고 스트레잇 | 쭉 가세요 / 직진하세요 | "Go straight for two blocks." 미국은 거리를 block으로 세요
-Turn left at the corner. | 턴 레프트 앳 더 코너 | 모퉁이에서 왼쪽으로 도세요 | 신호등에서는 "at the light"
-It's on your right. | 잇츠 온 유어 롸잇 | 오른쪽에 있어요 | right의 r은 입술을 내밀고 "(우)롸"
-It's across the street. | 잇츠 어크로스 더 스트릿 | 길 건너편에 있어요 | across from ~ = ~의 맞은편
-It's next to the bank. | 잇츠 넥스 투 더 뱅크 | 은행 옆에 있어요 | next to의 t는 하나만 살짝 발음돼요
-Which line goes downtown? | 위치 라인 고즈 다운타운? | 시내 가는 건 몇 호선이에요? | downtown 앞에는 to를 쓰지 않아요
-Where do I transfer? | 웨어 두 아이 트랜스퍼? | 어디서 갈아타요? | 영국에선 change: "Where do I change?"
-Does this bus go to the airport? | 더즈 디스 버스 고 투 디 에어포트? | 이 버스 공항 가요? | 모음 앞 the는 "디"로 발음해요
-Which stop should I get off at? | 위치 스탑 슈다이 게로프 앳? | 어느 정류장에서 내려야 해요? | get off = (버스·지하철에서) 내리다
-One ticket to Boston, please. | 원 티킷 투 보스턴, 플리즈 | 보스턴행 표 한 장 주세요 | 목적지 앞엔 to
-Round trip or one way? | 롸운드 트립 오어 원 웨이? | 왕복이에요, 편도예요? | 영국식: "Return or single?"
-Can you take me to this address? | 캔 유 테익 미 투 디스 애드레스? | 이 주소로 가 주세요 | 택시에서 화면을 보여 주며 쓰면 실수가 없어요
-Could you pull over here? | 쿠쥬 풀 오버 히어? | 여기 세워 주시겠어요? | 택시·차에서 내리고 싶을 때. "Right here is fine."도 OK
-How long does it take? | 하우 롱 더즈 잇 테익? | 얼마나 걸려요? | 대답: "About 20 minutes."
-Is this seat taken? | 이즈 디스 씻 테이큰? | 이 자리 주인 있어요? | 비어 있으면 "No, go ahead."라고 해요. seat는 길게 "씨-잇"
+
+"ದಾರಿ ಮತ್ತು ಸಾರಿಗೆ": `
+How do I get to the subway station? | ಹೌ ಡ ಐ ಗೆಟ್ ಟ ದ಼ ˈಸಬ್ವೇ ˈಸ್ಟೇಶನ್ | ಮೆಟ್ರೋ ಸ್ಟೇಷನ್‌ಗೆ ಹೇಗೆ ಹೋಗಬೇಕು? | ಅಮೆರಿಕದಲ್ಲಿ subway, ಭಾರತದಲ್ಲಿ metro, ಲಂಡನ್‌ನಲ್ಲಿ underground / tube. ಜಾಗದ ಹೆಸರನ್ನಷ್ಟೇ ಬದಲಿಸಿ ಎಲ್ಲ ಕಡೆ ಬಳಸಿ.
+Is it far from here? | ಇಜ಼್ ಇಟ್ ಫ಼ಾರ್ ಫ಼್ರಮ್ ಹಿರ್ | ಇಲ್ಲಿಂದ ದೂರವೇ? | ಕನ್ನಡದಲ್ಲಿ "ದೂರವೇ?" ಸಾಕು; ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ it ಬೇಕು. "ಇಲ್ಲಿಂದ" = from here.
+Is it within walking distance? | ಇಜ಼್ ಇಟ್ ವಿದ಼ಿನ್ ˈವಾಕಿಙ್ ˈಡಿಸ್ಟನ್ಸ್ | ನಡೆದು ಹೋಗುವಷ್ಟು ಹತ್ತಿರವೇ? | "Can I walk there?" ಎಂದೂ ಕೇಳಬಹುದು. ಭಾರತದ "walkable distance" ಗಿಂತ walking distance ಸಾಮಾನ್ಯ.
+Go straight. | ಗೋ ಸ್ಟ್ರೇಟ್ | ನೇರವಾಗಿ ಹೋಗಿ | "Go straight for two blocks." ಅಮೆರಿಕದಲ್ಲಿ ದೂರವನ್ನು block ಗಳಲ್ಲಿ ಹೇಳುತ್ತಾರೆ: ಒಂದು ಅಡ್ಡರಸ್ತೆಯಿಂದ ಮುಂದಿನ ಅಡ್ಡರಸ್ತೆಯವರೆಗೆ.
+Turn left at the corner. | ಟರ್ನ್ ಲೆಫ಼್ಟ್ ಅಟ್ ದ಼ ˈಕೋರ್ನರ್ | ಮೂಲೆಯಲ್ಲಿ ಎಡಕ್ಕೆ ತಿರುಗಿ | ಸಿಗ್ನಲ್ ಬಳಿ ಎನ್ನಲು "at the light". ಭಾರತದ "take a left" ಕೂಡ ಅರ್ಥವಾಗುತ್ತದೆ.
+It's on your right. | ಇಟ್ಸ್ ಆನ್ ಯುರ್ ರೈಟ್ | ಅದು ನಿಮ್ಮ ಬಲಗಡೆ ಇದೆ | "ಬಲಗಡೆ" = on your right; in ಅಲ್ಲ, at ಅಲ್ಲ.
+It's across the street. | ಇಟ್ಸ್ ಅಕ್ರಾಸ್ ದ಼ ಸ್ಟ್ರೀಟ್ | ಅದು ರಸ್ತೆಯ ಆಚೆ ಬದಿಯಲ್ಲಿದೆ | across from … = …ದ ಎದುರು. ಭಾರತದ "opposite to the bank" ಗೆ ಅಮೆರಿಕದಲ್ಲಿ across from the bank.
+It's next to the bank. | ಇಟ್ಸ್ ನೆಕ್ಸ್ಟ್ ಟ ದ಼ ಬ್ಯಾಂಕ್ | ಅದು ಬ್ಯಾಂಕ್ ಪಕ್ಕದಲ್ಲಿದೆ | "ಪಕ್ಕದಲ್ಲಿ" = next to. ಕನ್ನಡದಲ್ಲಿ ಪ್ರತ್ಯಯ ಪದದ ಕೊನೆಗೆ; ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ preposition ಪದದ ಮೊದಲು.
+Which line goes downtown? | ವಿಚ್ ಲೈನ್ ಗೋಜ಼್ ಡೌನ್ˈಟೌನ್ | ನಗರದ ಮಧ್ಯಭಾಗಕ್ಕೆ ಯಾವ ಲೈನ್ ಹೋಗುತ್ತದೆ? | downtown = ನಗರದ ಕೇಂದ್ರ, ಮುಖ್ಯ ಪೇಟೆ. home, here, there ಹಾಗೆ downtown ಮೊದಲೂ to ಇಲ್ಲ.
+Where do I transfer? | ವೆರ್ ಡ ಐ ಟ್ರ್ಯಾನ್ಸ್ˈಫ಼ರ್ | ನಾನು ಎಲ್ಲಿ ಲೈನ್ ಬದಲಿಸಬೇಕು? | ಭಾರತ ಮತ್ತು ಬ್ರಿಟನ್‌ನಲ್ಲಿ change: "Where do I change?"
+Does this bus go to the airport? | ಡಜ಼್ ದ಼ಿಸ್ ಬಸ್ ಗೋ ಟ ದ಼ಿ ˈಎರ್ಪೋರ್ಟ್ | ಈ ಬಸ್ ಏರ್‌ಪೋರ್ಟ್‌ಗೆ ಹೋಗುತ್ತದೆಯೇ? | bus ನ ಕೊನೆಯಲ್ಲಿ ಸ್ವರ ಇಲ್ಲ: ಬಸ್, ಬಸ್ಸು ಅಲ್ಲ. ಪ್ರಶ್ನೆಯ ಮೊದಲು Does ಬಂದರೆ ಕ್ರಿಯಾಪದಕ್ಕೆ -s ಇಲ್ಲ: go.
+Which stop should I get off at? | ವಿಚ್ ಸ್ಟಾಪ್ ಶಡ್ ಐ ಗೆಟ್ ಆಫ಼್ ಆ್ಯಟ್ | ನಾನು ಯಾವ ಸ್ಟಾಪ್‌ನಲ್ಲಿ ಇಳಿಯಬೇಕು? | get off = (ಬಸ್, ರೈಲಿನಿಂದ) ಇಳಿಯುವುದು; get on = ಹತ್ತುವುದು. ಭಾರತದ "get down from the bus" ಬದಲು get off.
+One ticket to Boston, please. | ವನ್ ˈಟಿಕಿಟ್ ಟ ˈಬಾಸ್ಟನ್ ಪ್ಲೀಜ಼್ | ಬಾಸ್ಟನ್‌ಗೆ ಒಂದು ಟಿಕೆಟ್ ಕೊಡಿ | ಕನ್ನಡದ -ಗೆ ಇಲ್ಲಿ to: ಹೋಗುವ ಊರಿನ ಹೆಸರಿನ ಮೊದಲು to.
+Round trip or one way? | ರೌನ್ಡ್ ಟ್ರಿಪ್ ಅರ್ ವನ್ ವೇ | ಹೋಗಿ ಬರಲು ಬೇಕೇ, ಹೋಗಲು ಮಾತ್ರವೇ? | ಅಮೆರಿಕದಲ್ಲಿ round trip / one way; ಭಾರತ ಮತ್ತು ಬ್ರಿಟನ್‌ನಲ್ಲಿ "Return or single?"
+Can you take me to this address? | ಕನ್ ಯು ಟೇಕ್ ಮಿ ಟ ದ಼ಿಸ್ ˈಆ್ಯಡ್ರೆಸ್ | ನನ್ನನ್ನು ಈ ವಿಳಾಸಕ್ಕೆ ಕರೆದುಕೊಂಡು ಹೋಗುತ್ತೀರಾ? | ಟ್ಯಾಕ್ಸಿಯಲ್ಲಿ ಫೋನ್‌ನಲ್ಲಿರುವ ವಿಳಾಸ ತೋರಿಸಿ ಹೇಳಿದರೆ ಗೊಂದಲ ಇರುವುದಿಲ್ಲ.
+Could you pull over here? | ಕಡ್ ಯು ಪುಲ್ ˈಓವ಼ರ್ ಹಿರ್ | ಇಲ್ಲೇ ಗಾಡಿ ನಿಲ್ಲಿಸುತ್ತೀರಾ? | ಟ್ಯಾಕ್ಸಿಯಿಂದ ಇಳಿಯಬೇಕಾದಾಗ. "Right here is fine." ಕೂಡ ಸರಿ. "ಇಲ್ಲೇ" ಗೆ here only ಬೇಡ: right here.
+How long does it take? | ಹೌ ಲಾಙ್ ಡಜ಼್ ಇಟ್ ಟೇಕ್ | ಎಷ್ಟು ಹೊತ್ತು ಆಗುತ್ತದೆ? | ಉತ್ತರ: "About 20 minutes." ಸಮಯ ಕೇಳಲು How long; "How much time it takes?" ತಪ್ಪು.
+Is this seat taken? | ಇಜ಼್ ದ಼ಿಸ್ ಸೀಟ್ ˈಟೇಕನ್ | ಈ ಸೀಟಿನಲ್ಲಿ ಯಾರಾದರೂ ಇದ್ದಾರೆಯೇ? | ಖಾಲಿ ಇದ್ದರೆ "No, go ahead." ಎನ್ನುತ್ತಾರೆ. seat ನಲ್ಲಿ ದೀರ್ಘ "ಈ"; sit ನಲ್ಲಿ ಹ್ರಸ್ವ "ಇ".
 `,
-"식당 주문": `
-A table for two, please. | 어 테이블 포 투, 플리즈 | 두 명이요 | 미국 식당은 보통 직원이 자리를 안내해 줄 때까지 기다려요
-Do you have a reservation? | 두 유 해버 레저베이션? | 예약하셨어요? | 직원이 묻는 말. "Yes, under Kim."처럼 대답해요
-Can I see the menu? | 캔 아이 씨 더 메뉴? | 메뉴판 좀 볼 수 있을까요? | menu 강세는 앞: 메뉴
-What do you recommend? | 왓 두 유 레커멘드? | 추천해 주실 메뉴 있어요? | "What's popular here?"도 좋아요
-I'll have the steak. | 아일 해브 더 스테익 | 스테이크로 할게요 | 주문의 기본 공식: I'll have + 메뉴
-Can I get a Coke? | 캔 아이 게러 코크? | 콜라 한 잔 주실래요? | get a는 "게러"처럼 이어져요. 콜라는 보통 Coke라고 해요
-Medium rare, please. | 미디엄 레어, 플리즈 | 미디엄 레어로 주세요 | "How would you like your steak?"에 대한 대답
-No onions, please. | 노 어니언즈, 플리즈 | 양파는 빼 주세요 | "Can I get it without onions?"도 같은 뜻
-I'm allergic to peanuts. | 아임 얼러직 투 피넛츠 | 땅콩 알레르기가 있어요 | allergic 강세는 가운데 "러". 알레르기는 영어로 allergy(앨러지)
-Is it spicy? | 이즈 잇 스파이시? | 매워요? | 미국의 spicy는 한국 기준으로 안 매울 때가 많아요
-Could we get some water? | 쿳 위 겟 썸 워러? | 물 좀 주시겠어요? | 미국 식당 물은 보통 무료. water는 "워러"처럼 굴려요
-Everything was great. | 에브리띵 워즈 그레잇 | 다 맛있었어요 | 직원이 "How is everything?" 하고 물으면 이렇게 답해요
-Can we get the check, please? | 캔 위 겟 더 첵, 플리즈? | 계산서 주세요 | 영국: the bill. 미국은 보통 자리에서 계산해요
-Can we split the bill? | 캔 위 스플릿 더 빌? | 따로 계산할 수 있나요? | "separate checks"라고도 해요
-It's on me. | 잇츠 온 미 | 제가 살게요 | "My treat!"도 같은 뜻이에요
-Can I get this to go? | 캔 아이 겟 디스 투 고? | 이거 포장돼요? | 남은 음식을 싸 갈 땐 "Can I get a box?"
-Is the tip included? | 이즈 더 팁 인클루디드? | 팁 포함인가요? | 미국 식당은 보통 15~20% 팁을 따로 내요
+
+"ಊಟದ ಆರ್ಡರ್": `
+A table for two, please. | ಅ ˈಟೇಬಲ್ ಫ಼ರ್ ಟೂ ಪ್ಲೀಜ಼್ | ಇಬ್ಬರಿಗೆ ಒಂದು ಟೇಬಲ್ ಕೊಡಿ | ಅಮೆರಿಕದ ರೆಸ್ಟೋರೆಂಟ್‌ಗಳಲ್ಲಿ ಸಿಬ್ಬಂದಿ ಬಂದು ಟೇಬಲ್ ತೋರಿಸುವವರೆಗೆ ಬಾಗಿಲ ಬಳಿ ಕಾಯುತ್ತಾರೆ.
+Do you have a reservation? | ಡ ಯು ಹ್ಯಾವ಼್ ಅ ರೆಜ಼ರ್ˈವ಼ೇಶನ್ | ನೀವು ಟೇಬಲ್ ಬುಕ್ ಮಾಡಿದ್ದೀರಾ? | ಸಿಬ್ಬಂದಿ ಕೇಳುವ ಪ್ರಶ್ನೆ. ಉತ್ತರ: "Yes, under Rao." ಭಾರತದಲ್ಲಿ booking ಎನ್ನುವುದಕ್ಕೆ ಅಮೆರಿಕದಲ್ಲಿ reservation.
+Can I see the menu? | ಕನ್ ಐ ಸೀ ದ಼ ˈಮೆನ್ಯೂ | ಮೆನು ಕೊಡುತ್ತೀರಾ? | ಭಾರತದಲ್ಲಿ "menu card" ಎನ್ನುತ್ತೇವೆ; ಅಮೆರಿಕದಲ್ಲಿ ಬರೀ menu.
+What do you recommend? | ವಟ್ ಡ ಯು ರೆಕˈಮೆನ್ಡ್ | ನೀವು ಯಾವುದನ್ನು ಸೂಚಿಸುತ್ತೀರಿ? | "What's popular here?" ಕೂಡ ಚೆನ್ನಾಗಿದೆ. ಸಸ್ಯಾಹಾರಿಗಳು ಕೇಳಬಹುದು: "Do you have vegetarian options?"
+I'll have the steak. | ಐಲ್ ಹ್ಯಾವ಼್ ದ಼ ಸ್ಟೇಕ್ | ನನಗೆ ಸ್ಟೀಕ್ ಕೊಡಿ | ಆರ್ಡರ್ ಮಾಡುವ ಸೂತ್ರ: I'll have + ತಿನಿಸಿನ ಹೆಸರು; "Give me…" ಆಜ್ಞೆಯಂತೆ ಕೇಳಿಸುತ್ತದೆ. steak = ಹುರಿದ ಮಾಂಸದ ತುಂಡು; ಸಸ್ಯಾಹಾರಿಗಳು: "I'll have the veggie burger."
+Can I get a Coke? | ಕನ್ ಐ ಗೆಟ್ ಅ ಕೋಕ್ | ಒಂದು ಕೋಕ್ ಕೊಡುತ್ತೀರಾ? | ಭಾರತದ "cool drink" ಅಮೆರಿಕದಲ್ಲಿ ಅರ್ಥವಾಗುವುದಿಲ್ಲ; soda ಎನ್ನಿ ಅಥವಾ ಬ್ರ್ಯಾಂಡ್ ಹೆಸರು (Coke, Sprite) ಹೇಳಿ.
+Medium rare, please. | ˈಮೀಡಿಅಮ್ ರೆರ್ ಪ್ಲೀಜ಼್ | ಮೀಡಿಯಂ ರೇರ್ ಆಗಿ ಬೇಯಿಸಿ | "How would you like your steak?" (ಸ್ಟೀಕ್ ಎಷ್ಟು ಬೇಯಬೇಕು?) ಎಂಬ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರ: rare, medium, well done.
+No onions, please. | ನೋ ˈಅನ್ಯನ್ಜ಼್ ಪ್ಲೀಜ಼್ | ಈರುಳ್ಳಿ ಹಾಕಬೇಡಿ | "Can I get it without onions?" ಕೂಡ ಅದೇ ಅರ್ಥ. onions ಬಹುವಚನದಲ್ಲಿ.
+I'm allergic to peanuts. | ಐಮ್ ಅˈಲರ್ಜಿಕ್ ಟ ˈಪೀನಟ್ಸ್ | ನನಗೆ ಕಡಲೆಕಾಯಿ ಅಲರ್ಜಿ ಇದೆ | "ನನಗೆ … ಅಲರ್ಜಿ ಇದೆ" = I'm allergic to …; "I have allergy of" ತಪ್ಪು. ಸಸ್ಯಾಹಾರಿ ಎಂದು ಹೇಳಲು: "I'm vegetarian."
+Is it spicy? | ಇಜ಼್ ಇಟ್ ˈಸ್ಪೈಸಿ | ಇದು ಖಾರವಾಗಿದೆಯೇ? | ಅಮೆರಿಕದ spicy ನಮ್ಮ ಅಳತೆಯಲ್ಲಿ ಹೆಚ್ಚಾಗಿ ಖಾರವೇ ಅಲ್ಲ. ಖಾರ ಬೇಡವಾದರೆ mild ಕೇಳಿ.
+Could we get some water? | ಕಡ್ ವಿ ಗೆಟ್ ಸಮ್ ˈವಾಟರ್ | ನಮಗೆ ಸ್ವಲ್ಪ ನೀರು ಕೊಡುತ್ತೀರಾ? | water ಎಣಿಸಲಾಗದ ನಾಮಪದ: a water ಅಲ್ಲ, some water. ಅಮೆರಿಕದ ರೆಸ್ಟೋರೆಂಟ್‌ಗಳಲ್ಲಿ ನೀರು ಸಾಮಾನ್ಯವಾಗಿ ಉಚಿತ.
+Everything was great. | ˈಎವ಼್ರಿಥ಼ಿಙ್ ವಜ಼್ ಗ್ರೇಟ್ | ಎಲ್ಲವೂ ತುಂಬಾ ಚೆನ್ನಾಗಿತ್ತು | ಸಿಬ್ಬಂದಿ "How is everything?" ಎಂದು ಕೇಳಿದಾಗ ಕೊಡುವ ಉತ್ತರ.
+Can we get the check, please? | ಕನ್ ವಿ ಗೆಟ್ ದ಼ ಚೆಕ್ ಪ್ಲೀಜ಼್ | ಬಿಲ್ ಕೊಡುತ್ತೀರಾ? | ಭಾರತ ಮತ್ತು ಬ್ರಿಟನ್‌ನಲ್ಲಿ the bill; ಅಮೆರಿಕದ ರೆಸ್ಟೋರೆಂಟ್‌ನಲ್ಲಿ the check.
+Can we split the bill? | ಕನ್ ವಿ ಸ್ಪ್ಲಿಟ್ ದ಼ ಬಿಲ್ | ಬಿಲ್ ಹಂಚಿಕೊಂಡು ಕೊಡಬಹುದೇ? | ಪ್ರತಿಯೊಬ್ಬರಿಗೂ ಬೇರೆ ಬಿಲ್ ಬೇಕಾದರೆ "separate checks" ಕೇಳಿ.
+It's on me. | ಇಟ್ಸ್ ಆನ್ ಮೀ | ಇವತ್ತು ನಾನು ಕೊಡುತ್ತೇನೆ | "My treat!" ಕೂಡ ಅದೇ ಅರ್ಥ: ಈ ಸಲದ ಖರ್ಚು ನನ್ನದು.
+Can I get this to go? | ಕನ್ ಐ ಗೆಟ್ ದ಼ಿಸ್ ಟ ಗೋ | ಇದನ್ನು ಪಾರ್ಸೆಲ್ ಮಾಡಿಕೊಡುತ್ತೀರಾ? | ಭಾರತದ "parcel" ಗೆ ಅಮೆರಿಕದಲ್ಲಿ to go, ಬ್ರಿಟನ್‌ನಲ್ಲಿ takeaway. ಉಳಿದ ಊಟ ಕಟ್ಟಿಕೊಳ್ಳಲು: "Can I get a box?"
+Is the tip included? | ಇಜ಼್ ದ಼ ಟಿಪ್ ಇನ್ˈಕ್ಲೂಡಿಡ್ | ಟಿಪ್ ಇದರಲ್ಲಿ ಸೇರಿದೆಯೇ? | ಅಮೆರಿಕದ ರೆಸ್ಟೋರೆಂಟ್‌ಗಳಲ್ಲಿ ಬಿಲ್‌ನ 15–20% ಟಿಪ್ ಬೇರೆಯಾಗಿ ಕೊಡುವುದು ವಾಡಿಕೆ.
 `,
-"카페·편의점": `
-Can I get an iced Americano? | 캔 아이 게런 아이스트 아메리카노? | 아이스 아메리카노 주세요 | iced의 -d는 거의 안 들려요. 음료 주문은 Can I get ~?이 가장 흔해요
-What size would you like? | 왓 싸이즈 우쥬 라익? | 사이즈는 어떤 걸로 하시겠어요? | 직원이 묻는 말. would you는 "우쥬"
-Small, please. | 스몰, 플리즈 | 작은 걸로 주세요 | 스타벅스는 tall·grande·venti라고 말해요
-For here or to go? | 포 히어 오어 투 고? | 드시고 가세요, 가져가세요? | 영국식: "Eat in or take away?"
-Can I get oat milk instead? | 캔 아이 겟 오트 밀크 인스테드? | 귀리 우유로 바꿔 주실래요? | instead = 대신에. 추가 요금이 붙을 수 있어요
-Less ice, please. | 레스 아이스, 플리즈 | 얼음 적게 주세요 | 얼음 빼고: "No ice, please."
-Decaf, please. | 디캐프, 플리즈 | 디카페인으로 주세요 | decaffeinated의 줄임말이에요
-Can I get a name for the order? | 캔 아이 게러 네임 포 디 오더? | 주문하시는 분 성함이요? | 직원이 컵에 이름을 적으려고 물어요. 쉬운 영어 이름을 하나 정해 두면 편해요
-Do you need a bag? | 두 유 니더 백? | 봉투 필요하세요? | 필요 없으면 "No, I'm good."
-Can I get a receipt? | 캔 아이 게러 리씻? | 영수증 주세요 | receipt의 p는 소리 내지 않아요: 리씻
-Where can I find batteries? | 웨어 캔 아이 파인드 배러리즈? | 건전지 어디 있어요? | 물건 위치를 물을 때 만능 문장
-Do you sell phone chargers? | 두 유 쎌 폰 차저즈? | 휴대폰 충전기 팔아요? | "Do you have ~?"도 같은 뜻
-Can you heat this up? | 캔 유 히리썹? | 이거 데워 주실 수 있어요? | heat this up이 "히리썹"처럼 이어져요
-That's it. | 댓츠 잇 | 그게 다예요 | 직원이 "Anything else?"라고 물을 때
-Here you go. | 히어 유 고 | 여기요 | 돈이나 물건을 건넬 때 써요
-Keep the change. | 킵 더 체인지 | 잔돈은 가지세요 | 택시·배달에서 팁 대신 자주 써요
+
+"ಕೆಫೆ ಮತ್ತು ಅಂಗಡಿ": `
+Can I get an iced Americano? | ಕನ್ ಐ ಗೆಟ್ ಅನ್ ಐಸ್ಟ್ ಅಮೆರಿˈಕಾನೋ | ಒಂದು ಐಸ್ಡ್ ಅಮೆರಿಕಾನೊ ಕೊಡುತ್ತೀರಾ? | ಆರ್ಡರ್ ಮಾಡಲು Can I get …? ಅತ್ಯಂತ ಸಾಮಾನ್ಯ. iced ಸ್ವರದ ಧ್ವನಿಯಿಂದ ಶುರುವಾಗುವುದರಿಂದ an. ಭಾರತದ "cold coffee" ಗೆ ಅಲ್ಲಿ iced coffee.
+What size would you like? | ವಟ್ ಸೈಜ಼್ ವಡ್ ಯು ಲೈಕ್ | ಯಾವ ಸೈಜ್ ಬೇಕು? | ಸಿಬ್ಬಂದಿ ಕೇಳುವ ಪ್ರಶ್ನೆ. would you like = do you want ನ ಸೌಜನ್ಯದ ರೂಪ.
+Small, please. | ಸ್ಮಾಲ್ ಪ್ಲೀಜ಼್ | ಚಿಕ್ಕದು ಕೊಡಿ | small / medium / large. Starbucks ನಲ್ಲಿ tall, grande, venti ಎನ್ನುತ್ತಾರೆ.
+For here or to go? | ಫ಼ರ್ ಹಿರ್ ಅರ್ ಟ ಗೋ | ಇಲ್ಲೇ ಕುಡಿಯುತ್ತೀರಾ, ತೆಗೆದುಕೊಂಡು ಹೋಗುತ್ತೀರಾ? | ಭಾರತದಲ್ಲಿ "ಪಾರ್ಸೆಲ್?" ಎಂದು ಕೇಳುವ ಜಾಗದಲ್ಲಿ ಇದು. ಬ್ರಿಟನ್‌ನಲ್ಲಿ "Eat in or take away?"
+Can I get oat milk instead? | ಕನ್ ಐ ಗೆಟ್ ಓಟ್ ಮಿಲ್ಕ್ ಇನ್ˈಸ್ಟೆಡ್ | ಅದರ ಬದಲು ಓಟ್ ಹಾಲು ಹಾಕುತ್ತೀರಾ? | instead = ಬದಲಿಗೆ. ಇದಕ್ಕೆ ಹೆಚ್ಚುವರಿ ಹಣ ಆಗಬಹುದು.
+Less ice, please. | ಲೆಸ್ ಐಸ್ ಪ್ಲೀಜ಼್ | ಐಸ್ ಕಡಿಮೆ ಹಾಕಿ | ಐಸ್ ಬೇಡವೇ ಬೇಡ ಎಂದರೆ "No ice, please." ice ಎಣಿಸಲಾಗದ ನಾಮಪದ: less ಬರುತ್ತದೆ, fewer ಅಲ್ಲ.
+Decaf, please. | ˈಡೀಕ್ಯಾಫ಼್ ಪ್ಲೀಜ಼್ | ಕೆಫೀನ್ ಇಲ್ಲದ್ದು ಕೊಡಿ | decaffeinated ನ ಚಿಕ್ಕ ರೂಪ: ಕೆಫೀನ್ ತೆಗೆದ ಕಾಫಿ.
+Can I get a name for the order? | ಕನ್ ಐ ಗೆಟ್ ಅ ನೇಮ್ ಫ಼ರ್ ದ಼ಿ ˈಓರ್ಡರ್ | ಆರ್ಡರ್‌ಗೆ ನಿಮ್ಮ ಹೆಸರು ಹೇಳುತ್ತೀರಾ? | ಸಿಬ್ಬಂದಿ ಕಪ್ ಮೇಲೆ ಹೆಸರು ಬರೆಯಲು ಕೇಳುತ್ತಾರೆ. ಹೆಸರನ್ನು ಅಕ್ಷರ ಅಕ್ಷರವಾಗಿ ಹೇಳಲು ಸಿದ್ಧರಾಗಿರಿ: "D-I-V-Y-A."
+Do you need a bag? | ಡ ಯು ನೀಡ್ ಅ ಬ್ಯಾಗ್ | ನಿಮಗೆ ಚೀಲ ಬೇಕೇ? | ಬೇಡವಾದರೆ "No, I'm good." ಭಾರತದ "cover" ಅಥವಾ "carry bag" ಗೆ ಅಲ್ಲಿ ಬರೀ bag.
+Can I get a receipt? | ಕನ್ ಐ ಗೆಟ್ ಅ ರಿˈಸೀಟ್ | ರಸೀದಿ ಕೊಡುತ್ತೀರಾ? | receipt ನಲ್ಲಿ p ಮೂಕ: ರಿˈಸೀಟ್. ಹಣ ಕೊಡುವ ಮೊದಲು ಬರುವುದು bill; ಕೊಟ್ಟ ಮೇಲೆ ಸಿಗುವುದು receipt.
+Where can I find batteries? | ವೆರ್ ಕನ್ ಐ ಫ಼ೈನ್ಡ್ ˈಬ್ಯಾಟರಿಜ಼್ | ಬ್ಯಾಟರಿಗಳು ಎಲ್ಲಿ ಸಿಗುತ್ತವೆ? | ಅಂಗಡಿಯಲ್ಲಿ ಯಾವುದೇ ವಸ್ತು ಎಲ್ಲಿದೆ ಎಂದು ಕೇಳಲು. ಭಾರತದ "cell" ಗೆ ಅಲ್ಲಿ battery; ಬಹುವಚನ batteries.
+Do you sell phone chargers? | ಡ ಯು ಸೆಲ್ ಫ಼ೋನ್ ˈಚಾರ್ಜರ್ಜ಼್ | ನಿಮ್ಮಲ್ಲಿ ಫೋನ್ ಚಾರ್ಜರ್ ಸಿಗುತ್ತದೆಯೇ? | "Do you have …?" ಕೂಡ ಅದೇ ಅರ್ಥ. ಕನ್ನಡದಲ್ಲಿ "ಚಾರ್ಜರ್ ಸಿಗುತ್ತದೆಯೇ?"; ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಹೀಗೆ ಕೇಳುವಾಗ ಬಹುವಚನ: chargers.
+Can you heat this up? | ಕನ್ ಯು ಹೀಟ್ ದ಼ಿಸ್ ಅಪ್ | ಇದನ್ನು ಬಿಸಿ ಮಾಡಿಕೊಡುತ್ತೀರಾ? | heat up = ಬಿಸಿ ಮಾಡುವುದು. this ನಡುವೆ ಬರುತ್ತದೆ: heat this up.
+That's it. | ದ಼್ಯಾಟ್ಸ್ ಇಟ್ | ಅಷ್ಟೇ, ಸಾಕು | ಸಿಬ್ಬಂದಿ "Anything else?" ಎಂದು ಕೇಳಿದಾಗ. "That's all." ಕೂಡ ಸರಿ; "ಅಷ್ಟೇ" ಗೆ "That only" ಬೇಡ.
+Here you go. | ಹಿರ್ ಯು ಗೋ | ತೆಗೆದುಕೊಳ್ಳಿ | ಹಣ ಅಥವಾ ವಸ್ತು ಕೈಗೆ ಕೊಡುವಾಗ. ಕನ್ನಡದ "ತೆಗೆದುಕೊಳ್ಳಿ" ಗೆ ಬರೀ "Take." ಎಂದರೆ ಒರಟು.
+Keep the change. | ಕೀಪ್ ದ಼ ಚೇನ್ಜ್ | ಚಿಲ್ಲರೆ ನೀವೇ ಇಟ್ಟುಕೊಳ್ಳಿ | ಟ್ಯಾಕ್ಸಿ, ಡೆಲಿವರಿಯಲ್ಲಿ ಟಿಪ್ ಕೊಡುವ ಸುಲಭ ದಾರಿ.
 `,
-"쇼핑·계산": `
-I'm just looking, thanks. | 아임 저스트 루킹, 땡스 | 그냥 구경하는 거예요 | 직원이 "Can I help you find anything?" 할 때
-Do you have this in a medium? | 두 유 해브 디스 인 어 미디엄? | 이거 M 사이즈 있어요? | 사이즈는 small / medium / large
-Do you have it in black? | 두 유 해빗 인 블랙? | 검은색 있어요? | 색깔 앞엔 in
-Can I try this on? | 캔 아이 트라이 디스 온? | 입어 봐도 돼요? | try on = (옷·신발을) 입어 보다·신어 보다
-Where's the fitting room? | 웨어즈 더 피팅 룸? | 탈의실 어디예요? | 영국: changing room
-It's too big. | 잇츠 투 빅 | 너무 커요 | 작으면 "It's too small."
-It's a bit tight. | 잇츠 어 빗 타잇 | 조금 껴요 | 헐렁하면 "It's a bit loose."
-Is this on sale? | 이즈 디스 온 쎄일? | 이거 세일해요? | on sale = 할인 중. for sale = 판매 중. 헷갈리기 쉬워요!
-Can you give me a discount? | 캔 유 깁 미 어 디스카운트? | 좀 깎아 주실 수 있어요? | 미국 일반 매장에선 흥정을 거의 안 해요. 시장·중고 거래에서만
-I'll take it. | 아일 테이킷 | 이걸로 할게요 | 살 물건을 정했을 때. 두 개 이상이면 "I'll take them."
-Cash or card? | 캐시 오어 카드? | 현금이요, 카드요? | 계산대에서 꼭 듣는 질문
-Do you take Apple Pay? | 두 유 테익 애플 페이? | 애플페이 돼요? | take = (결제 수단을) 받다
-Can I get a refund? | 캔 아이 게러 리펀드? | 환불돼요? | 영수증을 꼭 챙기세요
-I'd like to exchange this. | 아이드 라익 투 익스체인지 디스 | 이거 교환하고 싶어요 | 이유도 덧붙여요: "It's the wrong size."
-Can you gift wrap it? | 캔 유 기프트 랩 잇? | 선물 포장해 주실 수 있어요? | wrap의 w만 소리 나요: 랩
-Does that include tax? | 더즈 댓 인클루드 택스? | 세금 포함인가요? | 미국은 가격표에 세금이 빠져 있어서 계산할 때 더 나와요
+
+"ಶಾಪಿಂಗ್ ಮತ್ತು ಪಾವತಿ": `
+I'm just looking, thanks. | ಐಮ್ ಜಸ್ಟ್ ˈಲುಕಿಙ್ ಥ಼್ಯಾಂಕ್ಸ್ | ಸುಮ್ಮನೆ ನೋಡುತ್ತಿದ್ದೇನೆ, ಧನ್ಯವಾದ | ಸಿಬ್ಬಂದಿ "Can I help you find anything?" ಎಂದಾಗ. ಕನ್ನಡದ "ಸುಮ್ಮನೆ" = just; simply ಅಲ್ಲ.
+Do you have this in a medium? | ಡ ಯು ಹ್ಯಾವ಼್ ದ಼ಿಸ್ ಇನ್ ಅ ˈಮೀಡಿಅಮ್ | ಇದರಲ್ಲಿ ಮೀಡಿಯಂ ಸೈಜ್ ಇದೆಯೇ? | ಸೈಜ್‌ಗಳು: small / medium / large. ಸೈಜ್ ಮೊದಲು in a.
+Do you have it in black? | ಡ ಯು ಹ್ಯಾವ಼್ ಇಟ್ ಇನ್ ಬ್ಲ್ಯಾಕ್ | ಇದು ಕಪ್ಪು ಬಣ್ಣದಲ್ಲಿ ಇದೆಯೇ? | ಬಣ್ಣದ ಮೊದಲು in; ಬಣ್ಣದ ಹೆಸರಿಗೆ ಆರ್ಟಿಕಲ್ ಇಲ್ಲ.
+Can I try this on? | ಕನ್ ಐ ಟ್ರೈ ದ಼ಿಸ್ ಆನ್ | ಇದನ್ನು ಹಾಕಿ ನೋಡಬಹುದೇ? | try on = (ಬಟ್ಟೆ, ಶೂ) ಹಾಕಿ ನೋಡುವುದು. ಭಾರತದ "trial" ಗೆ ಇದೇ ಮಾತು.
+Where's the fitting room? | ವೆರ್ಜ಼್ ದ಼ ˈಫ಼ಿಟಿಙ್ ರೂಮ್ | ಟ್ರಯಲ್ ರೂಮ್ ಎಲ್ಲಿದೆ? | ಭಾರತದ trial room ಗೆ ಅಮೆರಿಕದಲ್ಲಿ fitting room, ಬ್ರಿಟನ್‌ನಲ್ಲಿ changing room.
+It's too big. | ಇಟ್ಸ್ ಟೂ ಬಿಗ್ | ಇದು ತುಂಬಾ ದೊಡ್ಡದಾಯಿತು | too = ಬೇಕಾದ್ದಕ್ಕಿಂತ ಹೆಚ್ಚು (ದೂರು). ಭಾರತದ "too good" (= very good) ವಿದೇಶದಲ್ಲಿ ಗೊಂದಲ ತರುತ್ತದೆ. ಚಿಕ್ಕದಾದರೆ "It's too small."
+It's a bit tight. | ಇಟ್ಸ್ ಅ ಬಿಟ್ ಟೈಟ್ | ಇದು ಸ್ವಲ್ಪ ಬಿಗಿಯಾಗಿದೆ | ಸಡಿಲವಾದರೆ "It's a bit loose." a bit = ಸ್ವಲ್ಪ.
+Is this on sale? | ಇಜ಼್ ದ಼ಿಸ್ ಆನ್ ಸೇಲ್ | ಇದಕ್ಕೆ ರಿಯಾಯಿತಿ ಇದೆಯೇ? | on sale = ಕಡಿಮೆ ಬೆಲೆಯಲ್ಲಿ; for sale = ಮಾರಾಟಕ್ಕಿದೆ. ಎರಡರ ಅರ್ಥ ಬೇರೆ ಬೇರೆ.
+Can you give me a discount? | ಕನ್ ಯು ಗಿವ಼್ ಮಿ ಅ ˈಡಿಸ್ಕೌನ್ಟ್ | ಬೆಲೆ ಸ್ವಲ್ಪ ಕಡಿಮೆ ಮಾಡುತ್ತೀರಾ? | ಅಮೆರಿಕದ ಅಂಗಡಿಗಳಲ್ಲಿ ಚೌಕಾಸಿ ಇಲ್ಲವೆನ್ನುವಷ್ಟು ಕಡಿಮೆ; ಸಂತೆ, ಹಳೆಯ ವಸ್ತುಗಳ ಮಾರಾಟದಲ್ಲಿ ಮಾತ್ರ. "give discount" ಅಲ್ಲ: a discount.
+I'll take it. | ಐಲ್ ಟೇಕ್ ಇಟ್ | ಇದನ್ನೇ ತೆಗೆದುಕೊಳ್ಳುತ್ತೇನೆ | ಕೊಳ್ಳಲು ನಿರ್ಧರಿಸಿದಾಗ. ಎರಡು ಅಥವಾ ಹೆಚ್ಚು ವಸ್ತುಗಳಿದ್ದರೆ "I'll take them."
+Cash or card? | ಕ್ಯಾಶ್ ಅರ್ ಕಾರ್ಡ್ | ಕ್ಯಾಶ್ ಅಥವಾ ಕಾರ್ಡ್? | ಬಿಲ್ ಕೌಂಟರ್‌ನಲ್ಲಿ ಕೇಳುವ ಪ್ರಶ್ನೆ. ಉತ್ತರ: "Card, please."
+Do you take Apple Pay? | ಡ ಯು ಟೇಕ್ ˈಆ್ಯಪಲ್ ಪೇ | ನೀವು Apple Pay ತೆಗೆದುಕೊಳ್ಳುತ್ತೀರಾ? | take = (ಪಾವತಿಯ ವಿಧಾನವನ್ನು) ಸ್ವೀಕರಿಸುವುದು. ವಿದೇಶದಲ್ಲಿ UPI ಜಾಗದಲ್ಲಿ ಕಾರ್ಡ್, Apple Pay ಅಥವಾ Google Pay.
+Can I get a refund? | ಕನ್ ಐ ಗೆಟ್ ಅ ˈರೀಫ಼ನ್ಡ್ | ಹಣ ವಾಪಸ್ ಸಿಗುತ್ತದೆಯೇ? | ರಸೀದಿ ಇಟ್ಟುಕೊಂಡಿರಿ. "return back the money" ತಪ್ಪು; refund ಸಾಕು.
+I'd like to exchange this. | ಐಡ್ ಲೈಕ್ ಟು ಇಕ್ಸ್ˈಚೇನ್ಜ್ ದ಼ಿಸ್ | ಇದನ್ನು ಬದಲಾಯಿಸಬೇಕಿತ್ತು | ಕಾರಣವನ್ನೂ ಹೇಳಿ: "It's the wrong size." I'd like to = I want to ನ ಸೌಜನ್ಯದ ರೂಪ.
+Can you gift wrap it? | ಕನ್ ಯು ಗಿಫ಼್ಟ್ ರ್ಯಾಪ್ ಇಟ್ | ಇದನ್ನು ಗಿಫ್ಟ್ ಪ್ಯಾಕ್ ಮಾಡಿಕೊಡುತ್ತೀರಾ? | ಭಾರತದ "gift pack" ಗೆ ಅಲ್ಲಿ gift wrap. wrap ನಲ್ಲಿ w ಮೂಕ: ರ್ಯಾಪ್.
+Does that include tax? | ಡಜ಼್ ದ಼್ಯಾಟ್ ಇನ್ˈಕ್ಲೂಡ್ ಟ್ಯಾಕ್ಸ್ | ಅದರಲ್ಲಿ ತೆರಿಗೆ ಸೇರಿದೆಯೇ? | ಅಮೆರಿಕದಲ್ಲಿ ಬೆಲೆಪಟ್ಟಿಯಲ್ಲಿ ತೆರಿಗೆ ಸೇರಿರುವುದಿಲ್ಲ; ಬಿಲ್ ಮಾಡುವಾಗ ಸೇರುತ್ತದೆ. ಭಾರತದ MRP ಪದ್ಧತಿ ಅಲ್ಲಿ ಇಲ್ಲ.
 `,
-"숫자·시간·날짜": `
-What time is it? | 왓 타임 이즈 잇? | 지금 몇 시예요? | 모르는 사람에게는 "Excuse me, do you have the time?"
-It's three thirty. | 잇츠 쓰리 써리 | 3시 반이에요 | "half past three"(영국식)도 같은 뜻
-It's a quarter to five. | 잇츠 어 쿼러 투 파이브 | 5시 15분 전이에요 | quarter = 15분. "four forty-five"라고 해도 돼요
-At noon | 앳 눈 | 정오에 / 낮 12시에 | 자정은 midnight. 12 a.m./p.m.보다 헷갈리지 않아요
-What's the date today? | 왓츠 더 데잇 투데이? | 오늘 며칠이에요? | 요일은 "What day is it today?"
-It's May 3rd. | 잇츠 메이 써드 | 5월 3일이에요 | 날짜는 서수로 읽어요: first, second, third, fourth…
-My birthday is in October. | 마이 버스데이 이즈 인 악토버 | 제 생일은 10월이에요 | 월 앞에는 in, 날짜 앞에는 on: on October 5th
-On Monday | 온 먼데이 | 월요일에 | 요일 앞에는 on. 매주라면 on Mondays
-Next weekend | 넥스트 위켄드 | 다음 주말 | next·last·this 앞에는 전치사를 쓰지 않아요
-The day after tomorrow | 더 데이 애프터 터마로우 | 모레 | 그저께는 the day before yesterday
-Thirteen or thirty? | 써틴 오어 써리? | 13이에요, 30이에요? | 13은 뒤(-teen)를 길게, 30은 앞을 세게. 가격 들을 때 꼭 확인해요
-Fifteen dollars | 피프틴 달러즈 | 15달러 | $15.50은 "fifteen fifty"라고 읽어요
-Two hundred and fifty | 투 헌드레드 앤 피프티 | 이백오십 (250) | 미국에선 and를 자주 생략해요: two hundred fifty
-Ten thousand | 텐 싸우전드 | 만 (10,000) | 영어에는 '만' 단위가 없어요! 세 자리씩 끊어서 10 thousand
-One million | 원 밀리언 | 백만 (1,000,000) | 천만 = ten million, 1억 = one hundred million
-Twice a week | 트와이스 어 윅 | 일주일에 두 번 | once(한 번), twice(두 번), three times(세 번)
-In ten minutes | 인 텐 미닛츠 | 10분 후에 | 미래 시간 앞의 in = ~ 후에. "10분 안에"가 아니에요
+
+"ಸಂಖ್ಯೆ, ಸಮಯ ಮತ್ತು ದಿನಾಂಕ": `
+What time is it? | ವಟ್ ಟೈಮ್ ಇಜ಼್ ಇಟ್ | ಈಗ ಗಂಟೆ ಎಷ್ಟು? | ಅಪರಿಚಿತರಿಗೆ: "Excuse me, do you have the time?" ಭಾರತದ "What is the time?" ಕೂಡ ಅರ್ಥವಾಗುತ್ತದೆ.
+It's three thirty. | ಇಟ್ಸ್ ಥ಼್ರೀ ˈಥ಼ರ್ಟಿ | ಈಗ ಮೂರೂವರೆ | ಕನ್ನಡದಲ್ಲಿ "ಮೂರೂವರೆ" ಸಾಕು; ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ It's ಬೇಕು. ಬ್ರಿಟನ್‌ನಲ್ಲಿ "half past three".
+It's a quarter to five. | ಇಟ್ಸ್ ಅ ˈಕ್ವೋರ್ಟರ್ ಟ ಫ಼ೈವ಼್ | ಈಗ ನಾಲ್ಕೂ ಮುಕ್ಕಾಲು (4:45) | quarter = ಕಾಲು ಗಂಟೆ, 15 ನಿಮಿಷ: ಐದಕ್ಕೆ ಕಾಲು ಗಂಟೆ ಇದೆ. "four forty-five" ಎಂದರೂ ಸರಿ.
+At noon | ಅಟ್ ನೂನ್ | ಮಧ್ಯಾಹ್ನ 12 ಗಂಟೆಗೆ | ರಾತ್ರಿ 12 = midnight; 12 a.m. / 12 p.m. ಗಿಂತ ಗೊಂದಲ ಕಡಿಮೆ. ಗಂಟೆಯ ಮೊದಲು at.
+What's the date today? | ವಟ್ಸ್ ದ಼ ಡೇಟ್ ಟˈಡೇ | ಇವತ್ತು ತಾರೀಕು ಎಷ್ಟು? | ವಾರ ಕೇಳಲು: "What day is it today?"
+It's May 3rd. | ಇಟ್ಸ್ ಮೇ ಥ಼ರ್ಡ್ | ಇವತ್ತು ಮೇ 3 | ಅಮೆರಿಕದಲ್ಲಿ ತಿಂಗಳು ಮೊದಲು: May 3rd, 5/3; ಭಾರತದಲ್ಲಿ 3/5. ದಿನಾಂಕವನ್ನು first, second, third, fourth… ಎಂದು ಓದುತ್ತಾರೆ.
+My birthday is in October. | ಮೈ ˈಬರ್ಥ಼್ಡೇ ಇಜ಼್ ಇನ್ ಆಕ್ˈಟೋಬರ್ | ನನ್ನ ಹುಟ್ಟುಹಬ್ಬ ಅಕ್ಟೋಬರ್‌ನಲ್ಲಿ | ಕನ್ನಡದ ಒಂದೇ -ಅಲ್ಲಿ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಮೂರು: ತಿಂಗಳಿಗೆ in, ದಿನಾಂಕಕ್ಕೆ on (on October 5th), ಗಂಟೆಗೆ at.
+On Monday | ಆನ್ ˈಮನ್ಡೇ | ಸೋಮವಾರ | ಕನ್ನಡದ "ಸೋಮವಾರ ಬನ್ನಿ" ಎಂಬಲ್ಲಿ ಪ್ರತ್ಯಯ ಇಲ್ಲ; ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ವಾರದ ದಿನದ ಮೊದಲು on ಬೇಕು. ಪ್ರತಿ ಸೋಮವಾರ = on Mondays.
+Next weekend | ನೆಕ್ಸ್ಟ್ ˈವೀಕೆನ್ಡ್ | ಮುಂದಿನ ವಾರಾಂತ್ಯ | next, last, this ಮೊದಲು preposition ಇಲ್ಲ: "on next Monday" ತಪ್ಪು.
+The day after tomorrow | ದ಼ ಡೇ ಆ್ಯಫ಼್ಟರ್ ಟˈಮಾರೋ | ನಾಡಿದ್ದು | ಮೊನ್ನೆ = the day before yesterday. ಕನ್ನಡದ ಹಾಗೆ ಇದಕ್ಕೆ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಒಂದೇ ಪದ ಇಲ್ಲ.
+Thirteen or thirty? | ಥ಼ರ್ˈಟೀನ್ ಅರ್ ˈಥ಼ರ್ಟಿ | ಹದಿಮೂರೇ, ಮೂವತ್ತೇ? | 13 ರಲ್ಲಿ ಒತ್ತು ಕೊನೆಯ ಭಾಗದ ಮೇಲೆ (ದೀರ್ಘ -teen), 30 ರಲ್ಲಿ ಮೊದಲ ಭಾಗದ ಮೇಲೆ. ಬೆಲೆ ಕೇಳುವಾಗ ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.
+Fifteen dollars | ಫ಼ಿಫ಼್ˈಟೀನ್ ˈಡಾಲರ್ಜ಼್ | ಹದಿನೈದು ಡಾಲರ್ | ಕನ್ನಡದಲ್ಲಿ "ಹದಿನೈದು ಡಾಲರ್"; ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಸಂಖ್ಯೆಯ ನಂತರ ಬಹುವಚನ: dollars, rupees. $15.50 = "fifteen fifty".
+Two hundred and fifty | ಟೂ ˈಹನ್ಡ್ರಡ್ ಅನ್ಡ್ ˈಫ಼ಿಫ಼್ಟಿ | ಇನ್ನೂರ ಐವತ್ತು (250) | ಅಮೆರಿಕದಲ್ಲಿ and ಬಿಡುವುದೂ ಇದೆ: two hundred fifty. hundred ಗೆ -s ಇಲ್ಲ: "two hundreds" ತಪ್ಪು.
+Ten thousand | ಟೆನ್ ˈಥ಼ೌಜ಼ನ್ಡ್ | ಹತ್ತು ಸಾವಿರ (10,000) | thousand ಗೆ -s ಇಲ್ಲ. ವಿದೇಶದಲ್ಲಿ lakh ಅರ್ಥವಾಗುವುದಿಲ್ಲ: 1 ಲಕ್ಷ = one hundred thousand (100,000).
+One million | ವನ್ ˈಮಿಲ್ಯನ್ | ಹತ್ತು ಲಕ್ಷ (1,000,000) | 1 ಕೋಟಿ = ten million. ಅಲ್ಪವಿರಾಮ ಮೂರು ಅಂಕಿಗಳಿಗೊಮ್ಮೆ: 10,00,000 ಅಲ್ಲ, 1,000,000.
+Twice a week | ಟ್ವೈಸ್ ಅ ವೀಕ್ | ವಾರಕ್ಕೆ ಎರಡು ಸಲ | once (ಒಂದು ಸಲ), twice (ಎರಡು ಸಲ), three times (ಮೂರು ಸಲ). "ವಾರಕ್ಕೆ" = a week; ಭಾರತದ "weekly twice" ಬದಲು twice a week.
+In ten minutes | ಇನ್ ಟೆನ್ ˈಮಿನಿಟ್ಸ್ | ಹತ್ತು ನಿಮಿಷದಲ್ಲಿ | ಮುಂದಿನ ಸಮಯದ ಮೊದಲು in = ಅಷ್ಟು ಹೊತ್ತಿನ ನಂತರ; "after ten minutes" ಗಿಂತ ಇದೇ ಸಹಜ. "ಹತ್ತು ನಿಮಿಷ" ಆದರೂ minutes ಬಹುವಚನ.
 `,
-"스몰토크": `
-How was your weekend? | 하우 워즈 유어 위켄드? | 주말 어땠어요? | 월요일 단골 질문. 한두 문장으로 짧게 대답하고 되물어요
-It was pretty relaxing. | 잇 워즈 프리티 릴랙싱 | 꽤 여유로웠어요 | pretty = 꽤. "예쁜"이 아니에요
-Any plans for the weekend? | 애니 플랜즈 포 더 위켄드? | 주말에 계획 있어요? | 금요일 단골 질문. 계획 없으면 "Not really, just relaxing."
-Nice weather today, huh? | 나이스 웨더 투데이, 허? | 오늘 날씨 좋네요 | 날씨는 누구와도 할 수 있는 가장 안전한 화제예요
-It's freezing today. | 잇츠 프리징 투데이 | 오늘 엄청 춥네요 | 더울 땐 "It's boiling!" 또는 "It's so hot!"
-How long have you lived here? | 하우 롱 해뷰 리브드 히어? | 여기 산 지 얼마나 됐어요? | 대답: "About three years."
-Have you been to Korea? | 해뷰 빈 투 코리아? | 한국 가 본 적 있어요? | 경험을 물을 땐 have been to
-What do you do for fun? | 왓 두 유 두 포 펀? | 쉴 때 주로 뭐 해요? | "What's your hobby?"보다 훨씬 자연스러운 취미 질문이에요
-Have you seen any good shows lately? | 해뷰 씬 애니 굿 쇼즈 레잇리? | 요즘 재밌는 거 봤어요? | show = 드라마·예능 같은 TV 프로그램
-That sounds fun. | 댓 싸운즈 펀 | 재밌겠다 | 상대 이야기에 반응할 때. "That sounds great!"도 좋아요
-Same here. | 쎄임 히어 | 저도 그래요 | 캐주얼하게 그냥 "Same!"
-Me neither. | 미 니더 | 저도 안 그래요 | 부정문에 맞장구칠 때. "I don't like it." → "Me neither." (Me too 아님!)
-I know, right? | 아이 노우, 롸잇? | 그러니까요! / 내 말이! | 강하게 동의할 때 쓰는 캐주얼한 표현
-Oh, really? | 오, 륄리? | 아, 정말요? | 관심을 보여 주는 맞장구. 끝을 올려요
-By the way | 바이 더 웨이 | 그런데 / 그나저나 | 화제를 바꿀 때. 문자로는 BTW
-How's work? | 하우즈 워크? | 일은 어때요? | 아는 사이의 안부 질문. "Busy, but good!"처럼 대답해요
-It was nice talking to you. | 잇 워즈 나이스 토킹 투 유 | 이야기 즐거웠어요 | 대화를 자연스럽게 끝낼 때 써요
+
+"ಲೋಕಾಭಿರಾಮ ಮಾತುಕತೆ": `
+How was your weekend? | ಹೌ ವಜ಼್ ಯುರ್ ˈವೀಕೆನ್ಡ್ | ನಿಮ್ಮ ವಾರಾಂತ್ಯ ಹೇಗಿತ್ತು? | ಸೋಮವಾರದ ಸಾಮಾನ್ಯ ಪ್ರಶ್ನೆ. ಒಂದೆರಡು ವಾಕ್ಯದಲ್ಲಿ ಉತ್ತರಿಸಿ, ತಿರುಗಿ ಕೇಳಿ.
+It was pretty relaxing. | ಇಟ್ ವಜ಼್ ˈಪ್ರಿಟಿ ರಿˈಲ್ಯಾಕ್ಸಿಙ್ | ಸಾಕಷ್ಟು ಆರಾಮವಾಗಿತ್ತು | ಇಲ್ಲಿ pretty = ಸಾಕಷ್ಟು; "ಸುಂದರ" ಅಲ್ಲ.
+Any plans for the weekend? | ˈಎನಿ ಪ್ಲ್ಯಾನ್ಜ಼್ ಫ಼ರ್ ದ಼ ˈವೀಕೆನ್ಡ್ | ವಾರಾಂತ್ಯಕ್ಕೆ ಏನಾದರೂ ಪ್ಲಾನ್ ಇದೆಯೇ? | ಶುಕ್ರವಾರದ ಸಾಮಾನ್ಯ ಪ್ರಶ್ನೆ. ಏನೂ ಇಲ್ಲದಿದ್ದರೆ: "Not really, just relaxing." plans ಬಹುವಚನದಲ್ಲಿ.
+Nice weather today, huh? | ನೈಸ್ ˈವೆದ಼ರ್ ಟˈಡೇ ಹ | ಇವತ್ತು ವಾತಾವರಣ ಚೆನ್ನಾಗಿದೆ, ಅಲ್ವಾ? | ಹವಾಮಾನ ಯಾರ ಜೊತೆಗಾದರೂ ಮಾತು ಶುರು ಮಾಡಲು ಸುರಕ್ಷಿತ ವಿಷಯ. ಇಲ್ಲಿ huh? ಕನ್ನಡದ "ಅಲ್ವಾ?" ದ ಕೆಲಸ ಮಾಡುತ್ತದೆ; ಎಲ್ಲ ಕಡೆ "isn't it?" ಹಾಕಬೇಡಿ.
+It's freezing today. | ಇಟ್ಸ್ ˈಫ಼್ರೀಜ಼ಿಙ್ ಟˈಡೇ | ಇವತ್ತು ವಿಪರೀತ ಚಳಿ | ಕನ್ನಡದಲ್ಲಿ "ಚಳಿ ಇದೆ"; ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ It's ಬೇಕು. ಸೆಕೆ ಇದ್ದರೆ "It's boiling!" ಅಥವಾ "It's so hot!"
+How long have you lived here? | ಹೌ ಲಾಙ್ ಹವ಼್ ಯು ಲಿವ಼್ಡ್ ಹಿರ್ | ನೀವು ಎಷ್ಟು ಸಮಯದಿಂದ ಇಲ್ಲಿ ಇದ್ದೀರಿ? | ಉತ್ತರ: "About three years." ಅಥವಾ "For three years." "ಮೂರು ವರ್ಷದಿಂದ" = for three years; "from three years" ತಪ್ಪು.
+Have you been to India? | ಹವ಼್ ಯು ಬಿನ್ ಟು ˈಇನ್ಡಿಅ | ನೀವು ಭಾರತಕ್ಕೆ ಹೋಗಿದ್ದೀರಾ? | ಅನುಭವ ಕೇಳಲು have been to. ಯಾವಾಗ ಎಂದು ಹೇಳಿದರೆ Simple Past: "I went there last year."
+What do you do for fun? | ವಟ್ ಡ ಯು ಡೂ ಫ಼ರ್ ಫ಼ನ್ | ಬಿಡುವಿನ ವೇಳೆಯಲ್ಲಿ ಏನು ಮಾಡುತ್ತೀರಿ? | "What's your hobby?" ಗಿಂತ ಸಹಜವಾದ ಪ್ರಶ್ನೆ.
+Have you seen any good shows lately? | ಹವ಼್ ಯು ಸೀನ್ ˈಎನಿ ಗುಡ್ ಶೋಜ಼್ ˈಲೇಟ್ಲಿ | ಇತ್ತೀಚೆಗೆ ಯಾವುದಾದರೂ ಒಳ್ಳೆಯ ಶೋ ನೋಡಿದ್ದೀರಾ? | show = ಟಿವಿ ಅಥವಾ OTT ಕಾರ್ಯಕ್ರಮ, ವೆಬ್ ಸೀರೀಸ್. ಭಾರತದ serial ಗೆ ಅಲ್ಲಿ show ಅಥವಾ series.
+That sounds fun. | ದ಼್ಯಾಟ್ ಸೌನ್ಡ್ಜ಼್ ಫ಼ನ್ | ಕೇಳಲಿಕ್ಕೇ ಮಜವಾಗಿದೆ | ಬೇರೆಯವರ ಮಾತಿಗೆ ಪ್ರತಿಕ್ರಿಯೆ. "That sounds great!" ಕೂಡ ಚೆನ್ನಾಗಿದೆ.
+Same here. | ಸೇಮ್ ಹಿರ್ | ನನಗೂ ಹಾಗೇ | ಹಗುರವಾಗಿ ಬರೀ "Same!" ಕನ್ನಡದ "ನನಗೂ" ಗೆ "Me also" ಬದಲು Me too ಅಥವಾ Same here.
+Me neither. | ಮೀ ˈನೀದ಼ರ್ | ನನಗೂ ಇಲ್ಲ | ನಿಷೇಧ ವಾಕ್ಯಕ್ಕೆ ಒಪ್ಪುವಾಗ: "I don't like it." → "Me neither." ಇಲ್ಲಿ Me too ಅಲ್ಲ.
+I know, right? | ಐ ನೋ ರೈಟ್ | ಹೌದಲ್ವಾ! | ಪೂರ್ತಿ ಒಪ್ಪಿಗೆ ತೋರಿಸುವ ಹಗುರ ಮಾತು. ಮೆಸೇಜ್‌ನಲ್ಲಿ IKR.
+Oh, really? | ಓ ˈರೀಅಲಿ | ಓ, ಹೌದಾ? | ಆಸಕ್ತಿ ತೋರಿಸುವ ಪ್ರತಿಕ್ರಿಯೆ; ಕೊನೆಯಲ್ಲಿ ಧ್ವನಿ ಏರಿಸಿ. ಕನ್ನಡದ "ಹೌದಾ?" ಗೆ "Is it?" ಬದಲು ಇದು.
+By the way | ಬೈ ದ಼ ವೇ | ಅಂದ ಹಾಗೆ | ವಿಷಯ ಬದಲಿಸುವಾಗ. ಮೆಸೇಜ್‌ನಲ್ಲಿ BTW.
+How's work? | ಹೌಜ಼್ ವರ್ಕ್ | ಕೆಲಸ ಹೇಗೆ ನಡೆಯುತ್ತಿದೆ? | ಪರಿಚಿತರಿಗೆ ಕೇಳುವ ಕುಶಲ ಪ್ರಶ್ನೆ. ಉತ್ತರ: "Busy, but good!" ಸಂಬಳದ ಬಗ್ಗೆ ಕೇಳಬೇಡಿ.
+It was nice talking to you. | ಇಟ್ ವಜ಼್ ನೈಸ್ ˈಟಾಕಿಙ್ ಟ ಯು | ನಿಮ್ಮ ಜೊತೆ ಮಾತನಾಡಿ ಖುಷಿಯಾಯಿತು | ಮಾತುಕತೆಯನ್ನು ಸಹಜವಾಗಿ ಮುಗಿಸಲು.
 `,
-"감정·반응": `
-I'm so happy for you! | 아임 쏘 해피 포 유! | 정말 잘됐다! (축하) | 상대에게 좋은 일이 생겼을 때
-Congratulations! | 컹그래츄레이션스! | 축하해요! | 꼭 -s를 붙여요. 줄여서 "Congrats!"
-That's awesome! | 댓츠 어썸! | 대박! 멋지다! | 미국인이 정말 자주 쓰는 리액션이에요
-No way! | 노 웨이! | 말도 안 돼! / 헐! | 놀랐을 때. 거절할 때도 써요: "No way, I'm not doing that."
-Seriously? | 시리어슬리? | 진심이야? / 진짜로? | 말투에 따라 놀람 또는 짜증을 나타내요
-I'm so tired. | 아임 쏘 타이어드 | 너무 피곤해요 | 완전 지쳤을 땐 "I'm exhausted."
-I'm stressed out. | 아임 스트레스드 아웃 | 스트레스를 너무 받아요 | "I have stress"보다 자연스러워요
-I'm bored. | 아임 보어드 | 심심해요 / 지루해요 | 주의! "I'm boring"은 "나는 지루한 사람이에요"라는 뜻
-I'm excited. | 아임 익싸이티드 | 신나요 / 설레요 | 기대되는 일이 있을 때. -ed는 내가 느끼는 감정
-I'm nervous. | 아임 너버스 | 긴장돼요 | 면접·발표 전에. 상대에게: "Don't be nervous."
-That's too bad. | 댓츠 투 배드 | 아쉽네요 / 안타깝네요 | 가벼운 아쉬움. 심각한 일엔 아래 표현을 써요
-I'm sorry to hear that. | 아임 쏘리 투 히어 댓 | 그런 일이 있었다니 마음이 안 좋네요 | 사과가 아니라 위로예요. sorry = 유감스러운
-What a relief! | 와러 릴리프! | 다행이다! | "Phew!"와 함께 쓰면 더 자연스러워요
-Oh my gosh! | 오 마이 가쉬! | 세상에! | Oh my God를 순화한 표현. 문자로는 OMG
-I'm upset. | 아임 업셋 | 속상해요 / 기분이 상했어요 | 화남과 슬픔의 중간 느낌이에요
-That's so annoying. | 댓츠 쏘 어노잉 | 진짜 짜증 나 | 사람에게 "You're annoying"은 꽤 세게 들려요
-I can't wait! | 아이 캔트 웨잇! | 너무 기대돼! / 빨리 하고 싶어! | 직역하면 "못 기다리겠어"
-It's not a big deal. | 잇츠 나러 빅 딜 | 별일 아니에요 | 상대가 미안해할 때 안심시키는 말
+
+"ಭಾವನೆ ಮತ್ತು ಪ್ರತಿಕ್ರಿಯೆ": `
+I'm so happy for you! | ಐಮ್ ಸೋ ˈಹ್ಯಾಪಿ ಫ಼ರ್ ಯು | ನಿಮಗೆ ಒಳ್ಳೆಯದಾಗಿದ್ದು ಕೇಳಿ ತುಂಬಾ ಖುಷಿಯಾಯಿತು! | ಬೇರೆಯವರಿಗೆ ಒಳ್ಳೆಯದಾದಾಗ ಹೇಳುವ ಮಾತು. for you; "happy to you" ತಪ್ಪು.
+Congratulations! | ಕನ್ಗ್ರ್ಯಾಚˈಲೇಶನ್ಜ಼್ | ಅಭಿನಂದನೆಗಳು! | ಕೊನೆಯ -s ಬಿಡಬೇಡಿ. ಚಿಕ್ಕದಾಗಿ "Congrats!" ಹುಟ್ಟುಹಬ್ಬಕ್ಕೆ ಇದಲ್ಲ: "Happy birthday!"
+That's awesome! | ದ಼್ಯಾಟ್ಸ್ ˈಆಸಮ್ | ಅದ್ಭುತ! | ಅಮೆರಿಕದಲ್ಲಿ ತುಂಬಾ ಸಾಮಾನ್ಯ ಪ್ರತಿಕ್ರಿಯೆ. awesome ನ ಮೊದಲ ಸ್ವರ ಬಾಯಿ ತೆರೆದ "ಆ": ˈಆಸಮ್; "ಓ" ಅಲ್ಲ.
+No way! | ನೋ ವೇ | ಸಾಧ್ಯವೇ ಇಲ್ಲ! | ಆಶ್ಚರ್ಯವಾದಾಗ. ನಿರಾಕರಿಸಲೂ ಬಳಸುತ್ತಾರೆ: "No way, I'm not doing that."
+Seriously? | ˈಸಿರಿಅಸ್ಲಿ | ನಿಜವಾಗಲೂ? | ಹೇಳುವ ಧ್ವನಿಯ ಮೇಲೆ ಅರ್ಥ ನಿಂತಿದೆ: ಆಶ್ಚರ್ಯ ಅಥವಾ ಕಿರಿಕಿರಿ.
+I'm so tired. | ಐಮ್ ಸೋ ˈಟೈಅರ್ಡ್ | ನನಗೆ ತುಂಬಾ ಸುಸ್ತಾಗಿದೆ | "ನನಗೆ ಸುಸ್ತಾಗಿದೆ" = I'm tired; ಕನ್ನಡದ "ನನಗೆ" ಇಲ್ಲಿ I ಆಗುತ್ತದೆ. ಪೂರ್ತಿ ದಣಿದಿದ್ದರೆ "I'm exhausted."
+I'm stressed out. | ಐಮ್ ಸ್ಟ್ರೆಸ್ಟ್ ಔಟ್ | ನನಗೆ ತುಂಬಾ ಒತ್ತಡವಾಗಿದೆ | ಭಾರತದಲ್ಲಿ "I have tension", "Don't take tension" ಎನ್ನುತ್ತೇವೆ; ವಿದೇಶದಲ್ಲಿ "I'm stressed (out)", "Don't stress."
+I'm bored. | ಐಮ್ ಬೋರ್ಡ್ | ನನಗೆ ಬೋರ್ ಆಗುತ್ತಿದೆ | ಎಚ್ಚರ: "I'm boring" ಎಂದರೆ "ನಾನು ಬೇಸರ ತರಿಸುವ ವ್ಯಕ್ತಿ". ನನಗೆ ಅನಿಸುವ ಭಾವಕ್ಕೆ -ed.
+I'm excited. | ಐಮ್ ಇಕ್ˈಸೈಟಿಡ್ | ನನಗೆ ತುಂಬಾ ಉತ್ಸಾಹವಾಗಿದೆ | ಮುಂದೆ ಬರುವ ಒಳ್ಳೆಯ ವಿಷಯಕ್ಕಾಗಿ ಖುಷಿಯಿಂದ ಕಾಯುವಾಗ. ನನಗೆ ಅನಿಸುವುದು excited; ಆ ವಿಷಯ exciting.
+I'm nervous. | ಐಮ್ ˈನರ್ವ಼ಸ್ | ನನಗೆ ಆತಂಕವಾಗುತ್ತಿದೆ | ಇಂಟರ್‌ವ್ಯೂ, ಪ್ರೆಸೆಂಟೇಷನ್ ಮೊದಲು. ಭಾರತದ "I'm tensed" ಬದಲು nervous. ಬೇರೆಯವರಿಗೆ: "Don't be nervous."
+That's too bad. | ದ಼್ಯಾಟ್ಸ್ ಟೂ ಬ್ಯಾಡ್ | ಅಯ್ಯೋ, ಹಾಗಾಗಬಾರದಿತ್ತು | ಸಣ್ಣ ನಿರಾಸೆಗೆ. ಗಂಭೀರ ವಿಷಯಕ್ಕೆ ಮುಂದಿನ ಕಾರ್ಡ್‌ನ ವಾಕ್ಯ ಬಳಸಿ.
+I'm sorry to hear that. | ಐಮ್ ˈಸಾರಿ ಟ ಹಿರ್ ದ಼್ಯಾಟ್ | ಅದನ್ನು ಕೇಳಿ ಬೇಸರವಾಯಿತು | ಇದು ಕ್ಷಮೆ ಅಲ್ಲ, ಸಾಂತ್ವನ. ಇಲ್ಲಿ sorry = ಬೇಸರ, ದುಃಖ.
+What a relief! | ವಟ್ ಅ ರಿˈಲೀಫ಼್ | ಅಬ್ಬಾ, ಸಮಾಧಾನವಾಯಿತು! | "Phew!" ಜೊತೆ ಹೇಳಿದರೆ ಇನ್ನೂ ಸಹಜ. relief ಮೊದಲು a ಬೇಕು.
+Oh my gosh! | ಓ ಮೈ ಗಾಶ್ | ಅಯ್ಯೋ ದೇವರೇ! | Oh my God ನ ಮೃದು ರೂಪ. ಮೆಸೇಜ್‌ನಲ್ಲಿ OMG.
+I'm upset. | ಐಮ್ ಅಪ್ˈಸೆಟ್ | ನನ್ನ ಮನಸ್ಸಿಗೆ ನೋವಾಗಿದೆ | ಕೋಪ ಮತ್ತು ದುಃಖದ ನಡುವಿನ ಭಾವ. ಯಾರ ಮೇಲೆ ಎನ್ನಲು with: "I'm upset with him." ಕನ್ನಡದ "ಮೇಲೆ" ಗೆ on ಅಲ್ಲ.
+That's so annoying. | ದ಼್ಯಾಟ್ಸ್ ಸೋ ಅˈನಾಯಿಙ್ | ಅದು ತುಂಬಾ ಕಿರಿಕಿರಿ | ವ್ಯಕ್ತಿಗೆ ನೇರವಾಗಿ "You're annoying" ಎಂದರೆ ತುಂಬಾ ಒರಟಾಗಿ ಕೇಳಿಸುತ್ತದೆ.
+I can't wait! | ಐ ಕ್ಯಾನ್ಟ್ ವೇಟ್ | ಕಾಯಲು ಆಗುತ್ತಿಲ್ಲ! (ತುಂಬಾ ಕಾತರ) | ಅಕ್ಷರಶಃ "ಕಾಯಲಾರೆ"; ಅರ್ಥ: ಅದಕ್ಕಾಗಿ ತುಂಬಾ ಕಾತರದಿಂದ ಇದ್ದೇನೆ.
+It's not a big deal. | ಇಟ್ಸ್ ನಾಟ್ ಅ ಬಿಗ್ ಡೀಲ್ | ಅದೇನೂ ದೊಡ್ಡ ವಿಷಯ ಅಲ್ಲ | ಕ್ಷಮೆ ಕೇಳುವವರಿಗೆ ಸಮಾಧಾನ ಹೇಳಲು. ಚಿಕ್ಕದಾಗಿ "No big deal."
 `,
-"칭찬·호감 표현": `
-You look great! | 유 룩 그레잇! | 좋아 보여요! / 멋져요! | 외모 칭찬은 "You look ~"로. 아는 사이에서 자연스러워요
-I love your shoes. | 아이 러브 유어 슈즈 | 신발 너무 예뻐요 | love = 정말 마음에 든다. 처음 보는 사람에게도 가볍게 칭찬해요
-That color looks good on you. | 댓 컬러 룩스 굿 온 유 | 그 색 잘 어울려요 | look good on + 사람 = ~에게 잘 어울리다
-You have a great smile. | 유 해버 그레잇 스마일 | 미소가 정말 예뻐요 | 친해진 사이에서 쓰는 따뜻한 칭찬
-You're so funny. | 유어 쏘 퍼니 | 진짜 웃겨요 | funny = 웃긴. fun = 함께 있으면 즐거운
-Great job! | 그레잇 잡! | 잘했어요! | 직장·학교 어디서나. "Nice work!"도 같아요
-I'm proud of you. | 아임 프라우드 오브 유 | 네가 자랑스러워 | 가족·친구에게. 상사가 부하에게 쓰기도 해요
-You did it! | 유 디딧! | 해냈구나! | 목표를 이룬 사람에게
-Your Korean is really good! | 유어 코리안 이즈 륄리 굿! | 한국어 진짜 잘하시네요! | 한국어를 배우는 외국인 친구에게 해 주면 좋아해요
-You have good taste. | 유 해브 굿 테이스트 | 안목이 좋으시네요 / 센스 있어요 | 옷·음악·인테리어 취향 칭찬. "센스"는 영어로 taste예요
-I really enjoyed spending time with you. | 아이 륄리 인조이드 스펜딩 타임 위드 유 | 같이 시간 보내서 정말 즐거웠어요 | 데이트·모임이 끝날 때
-Do you want to grab coffee sometime? | 두 유 워너 그랩 커피 썸타임? | 언제 커피 한잔할래요? | want to는 "워너". grab = 가볍게 먹다·마시다
-I miss you. | 아이 미스 유 | 보고 싶어요 | 지금 떨어져 있는 사람에게. 가족·친구에게도 써요
-You mean a lot to me. | 유 민 어 랏 투 미 | 너는 나한테 정말 소중해 | 친구·연인에게 진심을 전할 때
-You're a lifesaver! | 유어러 라이프세이버! | 덕분에 살았어요! | 작은 도움에도 과장해서 고마움을 표현해요
-You made my day! | 유 메이드 마이 데이! | 덕분에 하루가 행복해졌어요! | 기분 좋은 말이나 선물을 받았을 때
-That's very kind of you. | 댓츠 베리 카인드 오브 유 | 정말 친절하시네요 | 도움이나 칭찬을 받았을 때 공손하게
+
+"ಮೆಚ್ಚುಗೆ ಮತ್ತು ಇಷ್ಟ": `
+You look great! | ಯು ಲುಕ್ ಗ್ರೇಟ್ | ನೀವು ತುಂಬಾ ಚೆನ್ನಾಗಿ ಕಾಣುತ್ತಿದ್ದೀರಿ! | ರೂಪದ ಮೆಚ್ಚುಗೆಗೆ You look + ಗುಣವಾಚಕ. ಪರಿಚಿತರ ನಡುವೆ ಸಹಜ.
+I love your shoes. | ಐ ಲವ಼್ ಯುರ್ ಶೂಜ಼್ | ನಿಮ್ಮ ಶೂ ತುಂಬಾ ಚೆನ್ನಾಗಿವೆ | ಇಲ್ಲಿ love = ತುಂಬಾ ಇಷ್ಟವಾಯಿತು; ಪ್ರೀತಿ ಅಲ್ಲ. ಅಮೆರಿಕದಲ್ಲಿ ಅಪರಿಚಿತರಿಗೂ ಹೀಗೆ ಹಗುರವಾಗಿ ಮೆಚ್ಚುಗೆ ಹೇಳುತ್ತಾರೆ.
+That color looks good on you. | ದ಼್ಯಾಟ್ ˈಕಲರ್ ಲುಕ್ಸ್ ಗುಡ್ ಆನ್ ಯು | ಆ ಬಣ್ಣ ನಿಮಗೆ ಚೆನ್ನಾಗಿ ಒಪ್ಪುತ್ತದೆ | "ನಿಮಗೆ ಒಪ್ಪುತ್ತದೆ" = looks good on you: ಇಲ್ಲಿ -ಗೆ ಎಂಬುದಕ್ಕೆ on; to ಅಲ್ಲ. ಭಾರತ ಮತ್ತು ಬ್ರಿಟನ್‌ನಲ್ಲಿ ಕಾಗುಣಿತ colour.
+You have a great smile. | ಯು ಹ್ಯಾವ಼್ ಅ ಗ್ರೇಟ್ ಸ್ಮೈಲ್ | ನಿಮ್ಮ ನಗು ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ | ಆತ್ಮೀಯರ ನಡುವಿನ ಮೆಚ್ಚುಗೆ. ಆರ್ಟಿಕಲ್ a ಬೇಕು: a great smile.
+You're so funny. | ಯುರ್ ಸೋ ˈಫ಼ನಿ | ನೀವು ತುಂಬಾ ತಮಾಷೆಯಾಗಿ ಮಾತನಾಡುತ್ತೀರಿ | funny = ನಗು ತರಿಸುವ; fun = ಜೊತೆಗಿದ್ದರೆ ಖುಷಿ ಕೊಡುವ.
+Great job! | ಗ್ರೇಟ್ ಜಾಬ್ | ತುಂಬಾ ಚೆನ್ನಾಗಿ ಮಾಡಿದಿರಿ! | ಆಫೀಸ್, ಶಾಲೆ ಎಲ್ಲ ಕಡೆ. "Nice work!" ಕೂಡ ಅದೇ ಅರ್ಥ.
+I'm proud of you. | ಐಮ್ ಪ್ರೌಡ್ ಅವ಼್ ಯು | ನಿನ್ನ ಬಗ್ಗೆ ನನಗೆ ಹೆಮ್ಮೆ ಇದೆ | "ನಿನ್ನ ಬಗ್ಗೆ ಹೆಮ್ಮೆ" = proud of you; "proud about you", "proud on you" ತಪ್ಪು.
+You did it! | ಯು ಡಿಡ್ ಇಟ್ | ನೀನು ಸಾಧಿಸಿಬಿಟ್ಟೆ! | ಗುರಿ ಮುಟ್ಟಿದವರಿಗೆ ಹೇಳುವ ಮಾತು.
+Your Kannada is really good! | ಯುರ್ ˈಕಾನಡ ಇಜ಼್ ˈರೀಅಲಿ ಗುಡ್ | ನಿಮ್ಮ ಕನ್ನಡ ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ! | ಕನ್ನಡ ಕಲಿಯುತ್ತಿರುವ ವಿದೇಶಿ ಗೆಳೆಯರಿಗೆ ಹೇಳಿ; ಖುಷಿಪಡುತ್ತಾರೆ. ಭಾರತದ "too good" ಬದಲು really good.
+You have good taste. | ಯು ಹ್ಯಾವ಼್ ಗುಡ್ ಟೇಸ್ಟ್ | ನಿಮ್ಮ ಅಭಿರುಚಿ ಚೆನ್ನಾಗಿದೆ | ಬಟ್ಟೆ, ಸಂಗೀತ, ಮನೆಯ ಅಲಂಕಾರದ ಆಯ್ಕೆಯನ್ನು ಮೆಚ್ಚಲು. ಇಲ್ಲಿ taste = ಅಭಿರುಚಿ; ರುಚಿ ಅಲ್ಲ.
+I really enjoyed spending time with you. | ಐ ˈರೀಅಲಿ ಇನ್ˈಜಾಯ್ಡ್ ˈಸ್ಪೆನ್ಡಿಙ್ ಟೈಮ್ ವಿದ಼್ ಯು | ನಿಮ್ಮ ಜೊತೆ ಸಮಯ ಕಳೆದು ತುಂಬಾ ಖುಷಿಯಾಯಿತು | ಭೇಟಿ ಮುಗಿಸಿ ಹೊರಡುವಾಗ. enjoy ನಂತರ -ing: "enjoyed to spend" ತಪ್ಪು.
+Do you want to grab coffee sometime? | ಡ ಯು ವಾನ್ಟ್ ಟ ಗ್ರ್ಯಾಬ್ ˈಕಾಫ಼ಿ ˈಸಮ್ಟೈಮ್ | ಯಾವಾಗಲಾದರೂ ಒಂದು ಕಾಫಿ ಕುಡಿಯೋಣವೇ? | ವೇಗದ ಮಾತಿನಲ್ಲಿ want to "wanna" ಎಂದು ಕೇಳಿಸುತ್ತದೆ. grab = ಸ್ವಲ್ಪದರಲ್ಲಿ ತಿನ್ನುವುದು, ಕುಡಿಯುವುದು.
+I miss you. | ಐ ಮಿಸ್ ಯು | ನಿನ್ನ ನೆನಪಾಗುತ್ತಿದೆ | ದೂರ ಇರುವವರಿಗೆ; ಮನೆಯವರಿಗೂ ಗೆಳೆಯರಿಗೂ ಹೇಳುತ್ತಾರೆ. "I am missing you" ಗಿಂತ I miss you ಸಹಜ.
+You mean a lot to me. | ಯು ಮೀನ್ ಅ ಲಾಟ್ ಟ ಮಿ | ನೀನು ನನಗೆ ತುಂಬಾ ಮುಖ್ಯ | ಗೆಳೆಯರಿಗೆ, ಸಂಗಾತಿಗೆ ಮನಸ್ಸಿನ ಮಾತು ಹೇಳುವಾಗ.
+You're a lifesaver! | ಯುರ್ ಅ ˈಲೈಫ಼್ಸೇವ಼ರ್ | ನೀವು ನನ್ನನ್ನು ಕಾಪಾಡಿದಿರಿ! | ಚಿಕ್ಕ ಸಹಾಯಕ್ಕೂ ಉತ್ಪ್ರೇಕ್ಷೆಯಿಂದ ಧನ್ಯವಾದ ಹೇಳುವ ರೀತಿ.
+You made my day! | ಯು ಮೇಡ್ ಮೈ ಡೇ | ನಿಮ್ಮಿಂದ ನನ್ನ ದಿನ ಸಾರ್ಥಕವಾಯಿತು! | ಒಳ್ಳೆಯ ಮಾತು ಅಥವಾ ಉಡುಗೊರೆ ಸಿಕ್ಕಾಗ.
+That's very kind of you. | ದ಼್ಯಾಟ್ಸ್ ˈವ಼ೆರಿ ಕೈನ್ಡ್ ಅವ಼್ ಯು | ಇದು ನಿಮ್ಮ ದೊಡ್ಡ ಮನಸ್ಸು | ಸಹಾಯ ಅಥವಾ ಮೆಚ್ಚುಗೆ ಸಿಕ್ಕಾಗ ಸೌಜನ್ಯದ ಉತ್ತರ. kind of you; "kind from you" ಅಲ್ಲ.
 `,
-"직장·이메일": `
-I hope this email finds you well. | 아이 호프 디스 이메일 파인즈 유 웰 | 잘 지내고 계시길 바랍니다 | 격식 있는 이메일 첫 인사. 조금 가볍게: "I hope you're doing well."
-I'm writing to ask about the schedule. | 아임 롸이팅 투 애스크 어바웃 더 스케줄 | 일정에 대해 여쭤보려고 연락드립니다 | 메일 목적을 첫 문장에 밝혀요. I'm writing to + 목적
-I've attached the report. | 아이브 어태치드 더 리포트 | 보고서를 첨부했습니다 | "Please find attached…"는 더 딱딱한 표현이에요
-Just a quick reminder about tomorrow's meeting. | 저스트 어 퀵 리마인더 어바웃 터마로우즈 미팅 | 내일 회의 관련해서 다시 한번 알려 드려요 | 독촉을 부드럽게 하는 표현
-Let me know if you have any questions. | 렛 미 노우 이퓨 해브 애니 퀘스천즈 | 궁금한 점 있으면 말씀해 주세요 | 이메일 마무리 단골 문장
-Could you send me the file by Friday? | 쿠쥬 쎈드 미 더 파일 바이 프라이데이? | 금요일까지 파일 보내 주실 수 있나요? | by = ~까지 (기한). until = ~까지 계속
-Sorry for the late reply. | 쏘리 포 더 레잇 리플라이 | 답장이 늦어 죄송합니다 | 조금 덜 미안하게: "Thanks for your patience."
-Thanks for getting back to me. | 땡스 포 게링 백 투 미 | 답장 주셔서 감사합니다 | get back to = 다시 연락하다
-Best regards, | 베스트 리가즈 | ~ 드림 (이메일 맺음말) | 무난한 맺음말. 가까운 사이: "Best," "Thanks,"
-Let's schedule a meeting. | 렛츠 스케줄 어 미팅 | 회의 일정을 잡읍시다 | 미국: 스케줄, 영국: 셰듈
-I'm running late. | 아임 러닝 레잇 | 조금 늦을 것 같아요 | 이동 중에 미리 연락할 때. "I'll be there in 10."
-Can we push the meeting to 3? | 캔 위 푸쉬 더 미팅 투 쓰리? | 회의를 3시로 미룰 수 있을까요? | 앞당길 땐 move up: "Can we move it up to 1?"
-I'll get back to you. | 아일 겟 백 투 유 | 확인하고 다시 연락드릴게요 | 바로 답하기 어려울 때 시간을 버는 표현
-Can you walk me through it? | 캔 유 워크 미 쓰루 잇? | 하나씩 설명해 주실래요? | walk through = 단계별로 안내하다
-Let's touch base next week. | 렛츠 터치 베이스 넥스트 윅 | 다음 주에 잠깐 얘기 나눠요 | 짧게 진행 상황을 공유하자는 뜻
-What's the deadline? | 왓츠 더 데드라인? | 마감이 언제예요? | "When is this due?"도 같은 뜻
-I'm working from home today. | 아임 워킹 프럼 홈 투데이 | 오늘 재택근무해요 | 줄여서 WFH
-I'm off tomorrow. | 아임 오프 터마로우 | 내일 쉬어요 (휴무예요) | 연차는 "I'm taking a day off tomorrow."
-Thanks for all your hard work. | 땡스 포 올 유어 하드 워크 | 그동안 정말 고생 많으셨어요 | "수고하셨습니다"에 딱 맞는 말은 없어요. 퇴근 인사는 그냥 "See you tomorrow!"
+
+"ಆಫೀಸ್ ಮತ್ತು ಇಮೇಲ್": `
+I hope this email finds you well. | ಐ ಹೋಪ್ ದ಼ಿಸ್ ˈಈಮೇಲ್ ಫ಼ೈನ್ಡ್ಜ಼್ ಯು ವೆಲ್ | ನೀವು ಕ್ಷೇಮವಾಗಿದ್ದೀರಿ ಎಂದು ಭಾವಿಸುತ್ತೇನೆ | ಔಪಚಾರಿಕ ಇಮೇಲ್‌ನ ಮೊದಲ ಸಾಲು. ಸ್ವಲ್ಪ ಹಗುರವಾಗಿ: "I hope you're doing well." ಸಂಬೋಧನೆಗೆ "Respected Sir" ಬದಲು "Dear Mr. Rao," ಅಥವಾ "Hi Kiran,"
+I'm writing to ask about the schedule. | ಐಮ್ ˈರೈಟಿಙ್ ಟು ಆ್ಯಸ್ಕ್ ಅಬೌಟ್ ದ಼ ˈಸ್ಕೆಜೂಲ್ | ವೇಳಾಪಟ್ಟಿಯ ಬಗ್ಗೆ ಕೇಳಲು ಬರೆಯುತ್ತಿದ್ದೇನೆ | ಇಮೇಲ್‌ನ ಉದ್ದೇಶವನ್ನು ಮೊದಲ ವಾಕ್ಯದಲ್ಲೇ ಹೇಳಿ: I'm writing to + V1.
+I've attached the report. | ಐವ಼್ ಅˈಟ್ಯಾಚ್ಟ್ ದ಼ ರಿˈಪೋರ್ಟ್ | ವರದಿಯನ್ನು ಲಗತ್ತಿಸಿದ್ದೇನೆ | "Please find attached…" ಹಳೆಯ ಶೈಲಿ. ಭಾರತದ PFA ವಿದೇಶದಲ್ಲಿ ಹೆಚ್ಚಿನವರಿಗೆ ಅರ್ಥವಾಗುವುದಿಲ್ಲ.
+Just a quick reminder about tomorrow's meeting. | ಜಸ್ಟ್ ಅ ಕ್ವಿಕ್ ರಿˈಮೈನ್ಡರ್ ಅಬೌಟ್ ಟˈಮಾರೋಜ಼್ ˈಮೀಟಿಙ್ | ನಾಳೆಯ ಮೀಟಿಂಗ್ ಬಗ್ಗೆ ಒಂದು ಚಿಕ್ಕ ನೆನಪು | ಒತ್ತಾಯ ಮಾಡದೆ ನೆನಪಿಸುವ ಮೃದು ರೀತಿ.
+Let me know if you have any questions. | ಲೆಟ್ ಮಿ ನೋ ಇಫ಼್ ಯು ಹ್ಯಾವ಼್ ˈಎನಿ ˈಕ್ವೆಸ್ಚನ್ಜ಼್ | ಏನಾದರೂ ಪ್ರಶ್ನೆ ಇದ್ದರೆ ತಿಳಿಸಿ | ಇಮೇಲ್ ಮುಗಿಸುವ ಸಾಮಾನ್ಯ ವಾಕ್ಯ. ಭಾರತದ "any doubts" ಬದಲು any questions.
+Could you send me the file by Friday? | ಕಡ್ ಯು ಸೆನ್ಡ್ ಮಿ ದ಼ ಫ಼ೈಲ್ ಬೈ ˈಫ಼್ರೈಡೇ | ಶುಕ್ರವಾರದೊಳಗೆ ಫೈಲ್ ಕಳುಹಿಸುತ್ತೀರಾ? | by = -ಒಳಗೆ (ಗಡುವು); until = -ವರೆಗೆ (ಅಲ್ಲಿಯವರೆಗೂ ಮುಂದುವರಿಯುವುದು).
+Sorry for the late reply. | ˈಸಾರಿ ಫ಼ರ್ ದ಼ ಲೇಟ್ ರಿˈಪ್ಲೈ | ತಡವಾಗಿ ಉತ್ತರಿಸಿದ್ದಕ್ಕೆ ಕ್ಷಮಿಸಿ | ಕ್ಷಮೆ ಕೇಳುವ ಬದಲು ಧನ್ಯವಾದ ಹೇಳುವ ರೀತಿ: "Thanks for your patience."
+Thanks for getting back to me. | ಥ಼್ಯಾಂಕ್ಸ್ ಫ಼ರ್ ˈಗೆಟಿಙ್ ಬ್ಯಾಕ್ ಟ ಮಿ | ಉತ್ತರಿಸಿದ್ದಕ್ಕೆ ಧನ್ಯವಾದ | get back to = ತಿರುಗಿ ಸಂಪರ್ಕಿಸುವುದು, ಉತ್ತರಿಸುವುದು. ಭಾರತದ "Thanks for reverting" ಬದಲು ಇದು.
+Best regards, | ಬೆಸ್ಟ್ ರಿˈಗಾರ್ಡ್ಜ಼್ | ವಂದನೆಗಳೊಂದಿಗೆ (ಇಮೇಲ್ ಮುಕ್ತಾಯ) | ಎಲ್ಲರಿಗೂ ಸಲ್ಲುವ ಮುಕ್ತಾಯ. ಆತ್ಮೀಯರಿಗೆ "Best," ಅಥವಾ "Thanks," ಭಾರತದ "Thanks & Regards" ಬದಲು ಇವುಗಳಲ್ಲಿ ಒಂದು ಸಾಕು.
+Let's schedule a meeting. | ಲೆಟ್ಸ್ ˈಸ್ಕೆಜೂಲ್ ಅ ˈಮೀಟಿಙ್ | ಒಂದು ಮೀಟಿಂಗ್ ನಿಗದಿ ಮಾಡೋಣ | ಅಮೆರಿಕದಲ್ಲಿ schedule ನ ಉಚ್ಚಾರಣೆ ˈಸ್ಕೆಜೂಲ್; ಭಾರತ ಮತ್ತು ಬ್ರಿಟನ್‌ನಲ್ಲಿ ಮೊದಲ ಧ್ವನಿ "ಶ".
+I'm running late. | ಐಮ್ ˈರನಿಙ್ ಲೇಟ್ | ನಾನು ಬರುವುದು ಸ್ವಲ್ಪ ತಡವಾಗುತ್ತದೆ | ದಾರಿಯಲ್ಲಿರುವಾಗ ಮೊದಲೇ ತಿಳಿಸಲು. "I'll be there in 10." = ಹತ್ತು ನಿಮಿಷದಲ್ಲಿ ಬರುತ್ತೇನೆ.
+Can we push the meeting to 3? | ಕನ್ ವಿ ಪುಶ್ ದ಼ ˈಮೀಟಿಙ್ ಟ ಥ಼್ರೀ | ಮೀಟಿಂಗನ್ನು 3 ಗಂಟೆಗೆ ಮುಂದೂಡಬಹುದೇ? | ಮೊದಲೇ ಇಡಲು move up: "Can we move it up to 1?" ಭಾರತದ prepone ವಿದೇಶದಲ್ಲಿ ಅರ್ಥವಾಗುವುದಿಲ್ಲ.
+I'll get back to you. | ಐಲ್ ಗೆಟ್ ಬ್ಯಾಕ್ ಟ ಯು | ನೋಡಿ ಮತ್ತೆ ತಿಳಿಸುತ್ತೇನೆ | ತಕ್ಷಣ ಉತ್ತರ ಕೊಡಲು ಆಗದಿದ್ದಾಗ. ಭಾರತದ "I'll revert" ಬದಲು ಇದು.
+Can you walk me through it? | ಕನ್ ಯು ವಾಕ್ ಮಿ ಥ಼್ರೂ ಇಟ್ | ಅದನ್ನು ಒಂದೊಂದಾಗಿ ವಿವರಿಸುತ್ತೀರಾ? | walk through = ಹಂತ ಹಂತವಾಗಿ ತೋರಿಸಿ ವಿವರಿಸುವುದು.
+Let's touch base next week. | ಲೆಟ್ಸ್ ಟಚ್ ಬೇಸ್ ನೆಕ್ಸ್ಟ್ ವೀಕ್ | ಮುಂದಿನ ವಾರ ಒಮ್ಮೆ ಮಾತನಾಡೋಣ | ಕೆಲಸ ಎಲ್ಲಿಗೆ ಬಂದಿದೆ ಎಂದು ಚಿಕ್ಕದಾಗಿ ಹಂಚಿಕೊಳ್ಳೋಣ ಎಂಬ ಅರ್ಥ. next week ಮೊದಲು in / on ಇಲ್ಲ.
+What's the deadline? | ವಟ್ಸ್ ದ಼ ˈಡೆಡ್ಲೈನ್ | ಗಡುವು ಯಾವಾಗ? | "When is this due?" ಕೂಡ ಅದೇ ಅರ್ಥ. ಭಾರತದ "last date" ಗೆ ಅಲ್ಲಿ deadline ಅಥವಾ due date.
+I'm working from home today. | ಐಮ್ ˈವರ್ಕಿಙ್ ಫ಼್ರಮ್ ಹೋಮ್ ಟˈಡೇ | ಇವತ್ತು ನಾನು ಮನೆಯಿಂದ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದೇನೆ | ಚಿಕ್ಕದಾಗಿ WFH. ಇವತ್ತಿನ ಮಟ್ಟಿಗೆ ಮಾತ್ರವಾದ್ದರಿಂದ -ing ರೂಪ ಸರಿ.
+I'm off tomorrow. | ಐಮ್ ಆಫ಼್ ಟˈಮಾರೋ | ನಾಳೆ ನನಗೆ ರಜೆ | ರಜೆ ಹಾಕುತ್ತಿದ್ದರೆ: "I'm taking a day off tomorrow." ಭಾರತದ "I'm on leave tomorrow" ಕೂಡ ಅರ್ಥವಾಗುತ್ತದೆ.
+Thanks for all your hard work. | ಥ಼್ಯಾಂಕ್ಸ್ ಫ಼ರ್ ಆಲ್ ಯುರ್ ಹಾರ್ಡ್ ವರ್ಕ್ | ನಿಮ್ಮ ಎಲ್ಲ ಶ್ರಮಕ್ಕೆ ಧನ್ಯವಾದ | ಪ್ರಾಜೆಕ್ಟ್ ಮುಗಿದಾಗ ತಂಡಕ್ಕೆ ಹೇಳುವ ಮಾತು. work ಎಣಿಸಲಾಗದ ನಾಮಪದ: "hard works" ತಪ್ಪು.
 `,
-"전화·문자 줄임말": `
-Hello, this is Minji. | 헬로우, 디스 이즈 민지 | 여보세요, 민지예요 | 전화에서는 "I'm Minji" 대신 "This is Minji"
-Can I speak to Mr. Kim? | 캔 아이 스픽 투 미스터 킴? | 김 선생님과 통화할 수 있을까요? | 더 공손하게: "May I speak to…?"
-Who's calling, please? | 후즈 콜링, 플리즈? | 누구시죠? | 전화 받는 쪽에서 묻는 말
-Hold on a second. | 홀드 온 어 세컨드 | 잠시만 기다려 주세요 | 전화·대화 중에 잠깐 기다려 달라고 할 때
-Sorry, you're breaking up. | 쏘리, 유어 브레이킹 업 | 죄송해요, 소리가 끊겨요 | break up = (전화 소리가) 끊기다. 연인이 헤어지다는 뜻도 있어요
-Can I call you back? | 캔 아이 콜 유 백? | 다시 전화드려도 될까요? | 바쁠 때: "I'm in a meeting. Can I call you back?"
-I'll text you. | 아일 텍스트 유 | 문자할게 | 미국에선 메시지 보내는 걸 text라고 해요
-I'm on my way. | 아임 온 마이 웨이 | 가는 중이야 | 문자로는 OMW
-LOL | 엘오엘 | ㅋㅋㅋ (laughing out loud) | 진짜 크게 웃기보다는 가벼운 ㅋㅋ 느낌이에요
-BRB | 비알비 | 금방 올게 (be right back) | 채팅·게임에서 잠깐 자리 비울 때
-BTW | 비티더블유 | 근데 (by the way) | 화제 전환
-TBH | 티비에이치 | 솔직히 (to be honest) | 문장 앞이나 뒤에 붙여요
-IDK | 아이디케이 | 몰라 (I don't know) | 소문자 idk로 많이 써요
-OMG | 오엠지 | 헐 / 세상에 (oh my God) | 말로도 "오엠지!"라고 해요
-ASAP | 에이에스에이피 / 에이샙 | 최대한 빨리 (as soon as possible) | 직장에서도 쓰지만 상사에게는 날짜를 주는 게 더 공손해요
-TTYL | 티티와이엘 | 나중에 얘기해 (talk to you later) | 대화를 끝낼 때
-NVM | 엔브이엠 | 아냐, 됐어 (never mind) | 질문을 취소할 때
-FYI | 에프와이아이 | 참고로 (for your information) | 업무 메일·메신저에서 많이 써요
+
+"ಕಾಲ್ ಮತ್ತು ಚಾಟ್ ಸಂಕ್ಷಿಪ್ತ ರೂಪ": `
+Hello, this is Divya. | ಹˈಲೋ ದ಼ಿಸ್ ಇಜ಼್ ˈಡಿವ಼್ಯ | ಹಲೋ, ನಾನು ದಿವ್ಯಾ ಮಾತನಾಡುತ್ತಿದ್ದೇನೆ | ಫೋನ್‌ನಲ್ಲಿ "I'm Divya" ಅಲ್ಲ, "This is Divya". "Myself Divya" ಎಲ್ಲೂ ಸರಿಯಲ್ಲ.
+Can I speak to Mr. Rao? | ಕನ್ ಐ ಸ್ಪೀಕ್ ಟ ˈಮಿಸ್ಟರ್ ರೌ | ಶ್ರೀ ರಾವ್ ಅವರ ಜೊತೆ ಮಾತನಾಡಬಹುದೇ? | ಇನ್ನೂ ಸೌಜನ್ಯದಿಂದ: "May I speak to…?" Mr. / Ms. ನಂತರ ಮನೆತನದ ಹೆಸರು: Mr. Rao. "Mr. Kiran", "Rao Sir" ವಿದೇಶದಲ್ಲಿ ಬಳಕೆಯಲ್ಲಿಲ್ಲ.
+Who's calling, please? | ಹೂಜ಼್ ˈಕಾಲಿಙ್ ಪ್ಲೀಜ಼್ | ಯಾರು ಮಾತನಾಡುತ್ತಿರುವುದು? | ಫೋನ್ ಎತ್ತಿದವರು ಕೇಳುವ ಪ್ರಶ್ನೆ. "Who are you?" ಒರಟು; "Who's this?" ಗಿಂತಲೂ ಇದು ಸೌಜನ್ಯಪೂರ್ಣ.
+Hold on a second. | ಹೋಲ್ಡ್ ಆನ್ ಅ ˈಸೆಕನ್ಡ್ | ಒಂದು ಕ್ಷಣ ಲೈನ್‌ನಲ್ಲೇ ಇರಿ | ಫೋನ್‌ನಲ್ಲಿ ಅಥವಾ ಮಾತಿನ ನಡುವೆ ಸ್ವಲ್ಪ ಕಾಯಲು ಹೇಳುವಾಗ.
+Sorry, you're breaking up. | ˈಸಾರಿ ಯುರ್ ˈಬ್ರೇಕಿಙ್ ಅಪ್ | ಕ್ಷಮಿಸಿ, ನಿಮ್ಮ ಧ್ವನಿ ಕಟ್ ಆಗುತ್ತಿದೆ | break up = (ಫೋನ್‌ನಲ್ಲಿ ಧ್ವನಿ) ತುಂಡಾಗುವುದು; ಪ್ರೇಮಿಗಳು ಬೇರೆಯಾಗುವುದಕ್ಕೂ ಇದೇ ಪದ. ಭಾರತದ "Your voice is cutting" ಬದಲು ಇದು.
+Can I call you back? | ಕನ್ ಐ ಕಾಲ್ ಯು ಬ್ಯಾಕ್ | ನಾನು ಮತ್ತೆ ಕರೆ ಮಾಡಲೇ? | ಬಿಡುವಿಲ್ಲದಾಗ: "I'm in a meeting. Can I call you back?" ಸರ್ವನಾಮ ನಡುವೆ: call you back.
+I'll text you. | ಐಲ್ ಟೆಕ್ಸ್ಟ್ ಯು | ನಿನಗೆ ಮೆಸೇಜ್ ಮಾಡುತ್ತೇನೆ | ಅಮೆರಿಕದಲ್ಲಿ ಮೆಸೇಜ್ ಕಳುಹಿಸುವುದಕ್ಕೆ text ಎನ್ನುತ್ತಾರೆ. ಭಾರತದ "I'll message you" ಕೂಡ ಅರ್ಥವಾಗುತ್ತದೆ.
+I'm on my way. | ಐಮ್ ಆನ್ ಮೈ ವೇ | ನಾನು ದಾರಿಯಲ್ಲಿದ್ದೇನೆ | ಮೆಸೇಜ್‌ನಲ್ಲಿ OMW. ಕನ್ನಡದ "ಬರುತ್ತಿದ್ದೇನೆ" ಎಂಬ ಮಾತಿಗೆ ಇದು ಸಹಜ ರೂಪ.
+LOL | ಎಲ್ ಓ ಎಲ್ | ಹಹಹ (laughing out loud) | ಅಕ್ಷರಶಃ "ಜೋರಾಗಿ ನಗುತ್ತಿದ್ದೇನೆ"; ಬಳಕೆಯಲ್ಲಿ ಹಗುರವಾದ ನಗು ಮಾತ್ರ.
+BRB | ಬೀ ಆರ್ ಬೀ | ಈಗ ಬಂದೆ (be right back) | ಚಾಟ್, ಗೇಮ್‌ನಲ್ಲಿ ಸ್ವಲ್ಪ ಹೊತ್ತು ಹೊರಗೆ ಹೋಗುವಾಗ.
+BTW | ಬೀ ಟೀ ˈಡಬಲ್ಯೂ | ಅಂದ ಹಾಗೆ (by the way) | ವಿಷಯ ಬದಲಿಸುವಾಗ.
+TBH | ಟೀ ಬೀ ಏಚ್ | ನಿಜ ಹೇಳಬೇಕೆಂದರೆ (to be honest) | ವಾಕ್ಯದ ಮೊದಲಲ್ಲಿ ಅಥವಾ ಕೊನೆಯಲ್ಲಿ ಬರುತ್ತದೆ.
+IDK | ಐ ಡೀ ಕೇ | ಗೊತ್ತಿಲ್ಲ (I don't know) | ಸಣ್ಣ ಅಕ್ಷರಗಳಲ್ಲಿ idk ಎಂದು ಬರೆಯುವುದು ಹೆಚ್ಚು.
+OMG | ಓ ಎಮ್ ಜೀ | ಅಯ್ಯೋ ದೇವರೇ (oh my God) | ಮಾತಿನಲ್ಲೂ ಅಕ್ಷರ ಅಕ್ಷರವಾಗಿ ಹೇಳುತ್ತಾರೆ: ಓ ಎಮ್ ಜೀ.
+ASAP | ಏ ಎಸ್ ಏ ಪೀ / ˈಏಸ್ಯಾಪ್ | ಆದಷ್ಟು ಬೇಗ (as soon as possible) | ಆಫೀಸ್‌ನಲ್ಲೂ ಬಳಸುತ್ತಾರೆ; ಆದರೆ ಮೇಲಧಿಕಾರಿಗೆ ದಿನಾಂಕ ಹೇಳಿ ಕೇಳುವುದು ಹೆಚ್ಚು ಸೌಜನ್ಯ. ಅಕ್ಷರ ಅಕ್ಷರವಾಗಿಯೂ ಒಂದೇ ಪದವಾಗಿಯೂ ಓದುತ್ತಾರೆ.
+TTYL | ಟೀ ಟೀ ವೈ ಎಲ್ | ಆಮೇಲೆ ಮಾತನಾಡೋಣ (talk to you later) | ಚಾಟ್ ಮುಗಿಸುವಾಗ.
+NVM | ಎನ್ ವ಼ೀ ಎಮ್ | ಬಿಡು, ಪರವಾಗಿಲ್ಲ (never mind) | ಕೇಳಿದ ಪ್ರಶ್ನೆಯನ್ನು ಹಿಂತೆಗೆದುಕೊಳ್ಳುವಾಗ.
+FYI | ಎಫ಼್ ವೈ ಐ | ನಿಮ್ಮ ಮಾಹಿತಿಗಾಗಿ (for your information) | ಆಫೀಸ್ ಇಮೇಲ್, ಚಾಟ್‌ಗಳಲ್ಲಿ ತುಂಬಾ ಸಾಮಾನ್ಯ.
 `,
-"여행(공항·호텔)": `
-Here's my passport. | 히어즈 마이 패스포트 | 여기 여권이요 | 체크인·입국 심사에서 건네며
-I'm here for sightseeing. | 아임 히어 포 싸잇씽 | 관광하러 왔어요 | 입국 심사 "What's the purpose of your visit?"에 대한 대답
-I'm staying for a week. | 아임 스테잉 포러 윅 | 일주일 머물 거예요 | "How long are you staying?"에 대한 대답
-I'm staying at the Hilton. | 아임 스테잉 앳 더 힐튼 | 힐튼 호텔에 묵어요 | "Where are you staying?"에 대한 대답
-Window or aisle? | 윈도우 오어 아일? | 창가석이요, 통로석이요? | aisle의 s는 묵음이에요: 아일
-I'd like an aisle seat, please. | 아이드 라익 언 아일 씻, 플리즈 | 통로 쪽 자리로 주세요 | 창가는 a window seat
-Where is the baggage claim? | 웨어리즈 더 배기지 클레임? | 짐 찾는 곳이 어디예요? | 영국에선 baggage reclaim
-My luggage is missing. | 마이 러기지 이즈 미싱 | 짐이 안 나왔어요 | luggage는 셀 수 없어요: a piece of luggage
-I have a reservation under Kim. | 아이 해버 레저베이션 언더 킴 | 김 이름으로 예약했어요 | under + 예약자 이름
-What time is check-out? | 왓 타임 이즈 체카웃? | 체크아웃은 몇 시예요? | 늦게 나가고 싶으면 "Can I get a late check-out?"
-Can I check in early? | 캔 아이 체킨 얼리? | 일찍 체크인할 수 있나요? | check in이 "체킨"처럼 이어져요
-Is breakfast included? | 이즈 브렉퍼스트 인클루디드? | 조식 포함이에요? | breakfast는 "브렉퍼스트". 브레이크가 아니에요
-The air conditioner isn't working. | 디 에어 컨디셔너 이즌트 워킹 | 에어컨이 안 돼요 | "에어컨"은 콩글리시. 줄여서 AC(에이씨)라고 해요
-Could I get some extra towels? | 쿠다이 겟 썸 엑스트라 타월즈? | 수건 좀 더 주실 수 있나요? | could I는 "쿠다이"처럼 이어져요
-Can you hold my bags until 3? | 캔 유 홀드 마이 백즈 언틸 쓰리? | 3시까지 짐 좀 맡아 주실 수 있어요? | 체크아웃 후 짐 보관 요청. hold = 맡아 두다
-My flight was delayed. | 마이 플라잇 워즈 딜레이드 | 비행기가 지연됐어요 | 결항은 canceled
-Where's gate 12? | 웨어즈 게잇 트웰브? | 12번 게이트 어디예요? | 영어는 번호를 뒤에 붙여요
-Do I need to take my laptop out? | 두 아이 니드 투 테익 마이 랩탑 아웃? | 노트북 꺼내야 해요? | 보안 검색대에서. "노트북"은 영어로 laptop이에요
+
+"ಪ್ರಯಾಣ (ವಿಮಾನ ನಿಲ್ದಾಣ ಮತ್ತು ಹೋಟೆಲ್)": `
+Here's my passport. | ಹಿರ್ಜ಼್ ಮೈ ˈಪ್ಯಾಸ್ಪೋರ್ಟ್ | ಇಲ್ಲಿದೆ ನನ್ನ ಪಾಸ್‌ಪೋರ್ಟ್ | ಚೆಕ್-ಇನ್, ಇಮಿಗ್ರೇಷನ್ ಕೌಂಟರ್‌ನಲ್ಲಿ ಕೊಡುವಾಗ.
+I'm here for sightseeing. | ಐಮ್ ಹಿರ್ ಫ಼ರ್ ˈಸೈಟ್ಸೀಇಙ್ | ನಾನು ಪ್ರವಾಸಕ್ಕೆಂದು ಬಂದಿದ್ದೇನೆ | ಇಮಿಗ್ರೇಷನ್‌ನಲ್ಲಿ "What's the purpose of your visit?" ಎಂಬ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರ. ಕೆಲಸಕ್ಕಾದರೆ "I'm here on business."
+I'm staying for a week. | ಐಮ್ ˈಸ್ಟೇಇಙ್ ಫ಼ರ್ ಅ ವೀಕ್ | ನಾನು ಒಂದು ವಾರ ಇರುತ್ತೇನೆ | "How long are you staying?" ಎಂಬ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರ. ಅವಧಿಯ ಮೊದಲು for.
+I'm staying at the Hilton. | ಐಮ್ ˈಸ್ಟೇಇಙ್ ಅಟ್ ದ಼ ˈಹಿಲ್ಟನ್ | ನಾನು ಹಿಲ್ಟನ್ ಹೋಟೆಲ್‌ನಲ್ಲಿ ಉಳಿದುಕೊಂಡಿದ್ದೇನೆ | "Where are you staying?" ಎಂಬ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರ. ಕೆಲವು ದಿನ ಉಳಿಯುವುದು stay; ಮನೆ ಮಾಡಿ ವಾಸಿಸುವುದು live. ಭಾರತದ "Where do you stay?" (ಮನೆ ಎಲ್ಲಿ?) ವಿದೇಶದಲ್ಲಿ "Where do you live?"
+Window or aisle? | ˈವಿನ್ಡೋ ಅರ್ ಐಲ್ | ಕಿಟಕಿ ಪಕ್ಕದ ಸೀಟೇ, ನಡುದಾರಿ ಪಕ್ಕದ ಸೀಟೇ? | aisle ನಲ್ಲಿ s ಮೂಕ: ಐಲ್.
+I'd like an aisle seat, please. | ಐಡ್ ಲೈಕ್ ಅನ್ ಐಲ್ ಸೀಟ್ ಪ್ಲೀಜ಼್ | ನನಗೆ ನಡುದಾರಿ ಪಕ್ಕದ ಸೀಟು ಕೊಡಿ | ಕಿಟಕಿ ಪಕ್ಕ ಬೇಕಾದರೆ a window seat. aisle ಸ್ವರದ ಧ್ವನಿಯಿಂದ ಶುರುವಾಗುವುದರಿಂದ an.
+Where is the baggage claim? | ವೆರ್ ಇಜ಼್ ದ಼ ˈಬ್ಯಾಗಿಜ್ ಕ್ಲೇಮ್ | ಲಗೇಜ್ ತೆಗೆದುಕೊಳ್ಳುವ ಜಾಗ ಎಲ್ಲಿದೆ? | ಬ್ರಿಟನ್‌ನಲ್ಲಿ baggage reclaim. baggage ಎಣಿಸಲಾಗದ ನಾಮಪದ.
+My luggage is missing. | ಮೈ ˈಲಗಿಜ್ ಇಜ಼್ ˈಮಿಸಿಙ್ | ನನ್ನ ಲಗೇಜ್ ಬಂದಿಲ್ಲ | luggage ಎಣಿಸಲಾಗದ ನಾಮಪದ: "luggages" ತಪ್ಪು. ಎಣಿಸಲು two bags ಅಥವಾ two pieces of luggage.
+I have a reservation under Rao. | ಐ ಹ್ಯಾವ಼್ ಅ ರೆಜ಼ರ್ˈವ಼ೇಶನ್ ಅನ್ಡರ್ ರೌ | ರಾವ್ ಹೆಸರಿನಲ್ಲಿ ರೂಮ್ ಬುಕ್ ಆಗಿದೆ | "… ಹೆಸರಿನಲ್ಲಿ" = under + ಹೆಸರು. ಮನೆತನದ ಹೆಸರು ಹೇಳಿ; ಕೇಳಿದರೆ ಅಕ್ಷರ ಅಕ್ಷರವಾಗಿ: "R-A-O."
+What time is check-out? | ವಟ್ ಟೈಮ್ ಇಜ಼್ ˈಚೆಕೌಟ್ | ಚೆಕ್-ಔಟ್ ಎಷ್ಟು ಗಂಟೆಗೆ? | ತಡವಾಗಿ ಹೊರಡಬೇಕಾದರೆ: "Can I get a late check-out?"
+Can I check in early? | ಕನ್ ಐ ಚೆಕ್ ಇನ್ ˈಅರ್ಲಿ | ಬೇಗ ಚೆಕ್-ಇನ್ ಮಾಡಬಹುದೇ? | check in ಒಂದೇ ಪದದಂತೆ ಕೂಡಿ ಕೇಳಿಸುತ್ತದೆ; k ನಂತರ ಬೇರೆ ಸ್ವರ ಸೇರಿಸಬೇಡಿ.
+Is breakfast included? | ಇಜ಼್ ˈಬ್ರೆಕ್ಫ಼ಸ್ಟ್ ಇನ್ˈಕ್ಲೂಡಿಡ್ | ಬೆಳಗಿನ ತಿಂಡಿ ಸೇರಿದೆಯೇ? | breakfast ನ ಮೊದಲ ಭಾಗದಲ್ಲಿ ಹ್ರಸ್ವ "ಎ": ˈಬ್ರೆಕ್ಫ಼ಸ್ಟ್; "ಬ್ರೇಕ್" ಅಲ್ಲ. ಭಾರತದ tiffin ವಿದೇಶದಲ್ಲಿ ಅರ್ಥವಾಗುವುದಿಲ್ಲ.
+The air conditioner isn't working. | ದ಼ಿ ಎರ್ ಕನ್ˈಡಿಶನರ್ ˈಇಜ಼ನ್ಟ್ ˈವರ್ಕಿಙ್ | ಎಸಿ ಕೆಲಸ ಮಾಡುತ್ತಿಲ್ಲ | ಚಿಕ್ಕದಾಗಿ AC. ಯಾವುದೇ ಉಪಕರಣ ಕೆಟ್ಟಿದ್ದರೆ: "The … isn't working." ಭಾರತದ geyser ಗೆ ಅಲ್ಲಿ water heater.
+Could I get some extra towels? | ಕಡ್ ಐ ಗೆಟ್ ಸಮ್ ˈಎಕ್ಸ್ಟ್ರ ˈಟೌಅಲ್ಜ಼್ | ಇನ್ನೂ ಕೆಲವು ಟವೆಲ್ ಕೊಡುತ್ತೀರಾ? | Could I…? ಸೌಜನ್ಯದ ಕೋರಿಕೆ. towels ಬಹುವಚನದಲ್ಲಿ.
+Can you hold my bags until 3? | ಕನ್ ಯು ಹೋಲ್ಡ್ ಮೈ ಬ್ಯಾಗ್ಜ಼್ ಅನ್ಟಿಲ್ ಥ಼್ರೀ | 3 ಗಂಟೆಯವರೆಗೆ ನನ್ನ ಬ್ಯಾಗ್‌ಗಳನ್ನು ಇಟ್ಟುಕೊಳ್ಳುತ್ತೀರಾ? | ಚೆಕ್-ಔಟ್ ನಂತರ ಲಗೇಜ್ ಇಡಲು. until = -ವರೆಗೆ; hold = ಇಟ್ಟುಕೊಳ್ಳುವುದು.
+My flight was delayed. | ಮೈ ಫ಼್ಲೈಟ್ ವಜ಼್ ಡಿˈಲೇಡ್ | ನನ್ನ ವಿಮಾನ ತಡವಾಯಿತು | ರದ್ದಾದರೆ canceled. ಭಾರತದ "My flight got late" ಬದಲು was delayed.
+Where's gate 12? | ವೆರ್ಜ಼್ ಗೇಟ್ ಟ್ವೆಲ್ವ಼್ | ಗೇಟ್ 12 ಎಲ್ಲಿದೆ? | ಸಂಖ್ಯೆ ಹೆಸರಿನ ನಂತರ ಬರುತ್ತದೆ: gate 12, room 305. ಆರ್ಟಿಕಲ್ ಇಲ್ಲ.
+Do I need to take my laptop out? | ಡ ಐ ನೀಡ್ ಟ ಟೇಕ್ ಮೈ ˈಲ್ಯಾಪ್ಟಾಪ್ ಔಟ್ | ಲ್ಯಾಪ್‌ಟಾಪ್ ಹೊರಗೆ ತೆಗೆಯಬೇಕೇ? | ಸೆಕ್ಯುರಿಟಿ ಚೆಕ್‌ನಲ್ಲಿ ಕೇಳುವ ಪ್ರಶ್ನೆ. take … out: ವಸ್ತುವಿನ ಹೆಸರು ನಡುವೆ ಬರಬಹುದು.
 `,
-"병원·긴급": `
-Help! | 헬프! | 도와주세요! | 위급할 때 크게 외쳐요
-Call 911! | 콜 나인 원 원! | 911에 전화해 주세요! | 미국 긴급번호는 911(나인 원 원), 영국은 999
-I need a doctor. | 아이 니더 닥터 | 의사가 필요해요 | 급하면 "I need an ambulance."
-I don't feel well. | 아이 돈 필 웰 | 몸이 안 좋아요 | 가장 무난한 표현이에요
-I have a headache. | 아이 해버 헤데익 | 머리가 아파요 | 아픈 곳 + ache: stomachache, toothache
-I have a fever. | 아이 해버 피버 | 열이 나요 | f는 윗니를 아랫입술에 대고 바람을 내보내요
-My stomach hurts. | 마이 스터먹 허츠 | 배가 아파요 | 아픈 부위 + hurts. stomach는 "스터먹"
-I have a sore throat. | 아이 해버 쏘어 쓰롯 | 목이 아파요 | sore = 쓰리고 아픈. 목 전체(neck)가 아니라 목구멍이에요
-I feel dizzy. | 아이 필 디지 | 어지러워요 | 메스꺼우면 "I feel sick." / "I feel nauseous."
-I sprained my ankle. | 아이 스프레인드 마이 앵클 | 발목을 삐었어요 | sprain = 삐다. 손목은 wrist
-Is there a pharmacy near here? | 이즈 데어러 파머시 니어 히어? | 이 근처에 약국 있어요? | 미국에선 drugstore(CVS 등)라고도 해요
-Do I need a prescription? | 두 아이 니더 프리스크립션? | 처방전이 필요한가요? | 미국은 처방전 없이 살 수 있는 약을 over-the-counter라고 해요
-I lost my wallet. | 아이 로스트 마이 월릿 | 지갑을 잃어버렸어요 | 휴대폰이면 phone. 분실물 센터는 lost and found
-Someone stole my phone. | 썸원 스톨 마이 폰 | 누가 제 휴대폰을 훔쳐 갔어요 | steal(훔치다)의 과거형 stole
-Where is the police station? | 웨어리즈 더 폴리스 스테이션? | 경찰서가 어디예요? | police 강세는 뒤: 폴리-스
-I need to contact the Korean embassy. | 아이 니드 투 칸택트 더 코리안 엠버시 | 한국 대사관에 연락해야 해요 | 여권 분실 시 꼭 필요한 문장이에요
-I have travel insurance. | 아이 해브 트래블 인슈어런스 | 여행자 보험이 있어요 | 병원비가 비싼 나라에선 꼭 가입하고 가세요
+
+"ಆಸ್ಪತ್ರೆ ಮತ್ತು ತುರ್ತು ಪರಿಸ್ಥಿತಿ": `
+Help! | ಹೆಲ್ಪ್ | ಕಾಪಾಡಿ! | ಅಪಾಯದಲ್ಲಿ ಜೋರಾಗಿ ಕೂಗಿ. ಕೊನೆಯ p ನಂತರ ಸ್ವರ ಇಲ್ಲ.
+Call 911! | ಕಾಲ್ ನೈನ್ ವನ್ ವನ್ | 911 ಗೆ ಕರೆ ಮಾಡಿ! | ಅಮೆರಿಕದ ತುರ್ತು ಸಂಖ್ಯೆ 911 (nine one one); ಬ್ರಿಟನ್‌ನಲ್ಲಿ 999, ಭಾರತದಲ್ಲಿ 112.
+I need a doctor. | ಐ ನೀಡ್ ಅ ˈಡಾಕ್ಟರ್ | ನನಗೆ ಡಾಕ್ಟರ್ ಬೇಕು | "ನನಗೆ … ಬೇಕು" = I need. ಆರ್ಟಿಕಲ್ a ಮರೆಯಬೇಡಿ. ತುರ್ತಿದ್ದರೆ "I need an ambulance."
+I don't feel well. | ಐ ಡೋನ್ಟ್ ಫ಼ೀಲ್ ವೆಲ್ | ನನಗೆ ಮೈ ಹುಷಾರಿಲ್ಲ | ಎಲ್ಲ ಸಂದರ್ಭಕ್ಕೂ ಸಲ್ಲುವ ಮಾತು.
+I have a headache. | ಐ ಹ್ಯಾವ಼್ ಅ ˈಹೆಡೇಕ್ | ನನಗೆ ತಲೆನೋವು ಇದೆ | "ನನಗೆ ತಲೆನೋವು" = I have a headache; "I am having headache" ತಪ್ಪು. ಹೊಟ್ಟೆನೋವು stomachache, ಹಲ್ಲುನೋವು toothache.
+I have a fever. | ಐ ಹ್ಯಾವ಼್ ಅ ˈಫ಼ೀವ಼ರ್ | ನನಗೆ ಜ್ವರ ಬಂದಿದೆ | f ಗೆ ಮೇಲಿನ ಹಲ್ಲು ಕೆಳತುಟಿಗೆ ತಾಗಿಸಿ ಗಾಳಿ ಬಿಡಿ; ತುಟಿ ಮುಚ್ಚಿ ಹೇಳುವ ಫ ಅಲ್ಲ. ಅಮೆರಿಕದಲ್ಲಿ a fever; "I have fever" ಭಾರತದ ರೂಪ.
+My stomach hurts. | ಮೈ ˈಸ್ಟಮಕ್ ಹರ್ಟ್ಸ್ | ನನಗೆ ಹೊಟ್ಟೆ ನೋಯುತ್ತಿದೆ | ನೋಯುವ ಭಾಗ + hurts. stomach ನ ಕೊನೆಯ ch = k: ˈಸ್ಟಮಕ್. ಭಾರತದ "My stomach is paining" ಬದಲು ಇದು.
+I have a sore throat. | ಐ ಹ್ಯಾವ಼್ ಅ ಸೋರ್ ಥ಼್ರೋಟ್ | ನನಗೆ ಗಂಟಲು ನೋವು ಇದೆ | sore = ಉರಿ ಮತ್ತು ನೋವು ಇರುವ. throat = ಗಂಟಲು (ಒಳಗೆ); neck = ಕುತ್ತಿಗೆ (ಹೊರಗೆ).
+I feel dizzy. | ಐ ಫ಼ೀಲ್ ˈಡಿಜ಼ಿ | ನನಗೆ ತಲೆ ಸುತ್ತುತ್ತಿದೆ | ವಾಕರಿಕೆ ಇದ್ದರೆ "I feel nauseous." ಭಾರತದ "vomiting sensation" ಬದಲು ಇದು.
+I sprained my ankle. | ಐ ಸ್ಪ್ರೇನ್ಡ್ ಮೈ ˈಆ್ಯಂಕಲ್ | ನನ್ನ ಪಾದದ ಗಂಟು ಉಳುಕಿದೆ | sprain = ಉಳುಕುವುದು. ಮಣಿಕಟ್ಟು = wrist.
+Is there a pharmacy near here? | ಇಜ಼್ ದ಼ೆರ್ ಅ ˈಫ಼ಾರ್ಮಸಿ ನಿರ್ ಹಿರ್ | ಇಲ್ಲಿ ಹತ್ತಿರ ಔಷಧಿ ಅಂಗಡಿ ಇದೆಯೇ? | ಭಾರತದ "medical shop" ಗೆ ಅಮೆರಿಕದಲ್ಲಿ pharmacy ಅಥವಾ drugstore, ಬ್ರಿಟನ್‌ನಲ್ಲಿ chemist.
+Do I need a prescription? | ಡ ಐ ನೀಡ್ ಅ ಪ್ರಿˈಸ್ಕ್ರಿಪ್ಶನ್ | ಇದಕ್ಕೆ ಡಾಕ್ಟರ್ ಚೀಟಿ ಬೇಕೇ? | ಚೀಟಿ ಇಲ್ಲದೆ ಸಿಗುವ ಔಷಧಿಗೆ over-the-counter ಎನ್ನುತ್ತಾರೆ. ಅಮೆರಿಕದಲ್ಲಿ ಆ್ಯಂಟಿಬಯಾಟಿಕ್ ಚೀಟಿ ಇಲ್ಲದೆ ಸಿಗುವುದಿಲ್ಲ.
+I lost my wallet. | ಐ ಲಾಸ್ಟ್ ಮೈ ˈವಾಲಿಟ್ | ನನ್ನ ಪರ್ಸ್ ಕಳೆದುಹೋಗಿದೆ | ಅಮೆರಿಕದಲ್ಲಿ wallet = ಹಣ, ಕಾರ್ಡ್ ಇಡುವ ಚಿಕ್ಕ ಪರ್ಸ್; purse = ಹೆಂಗಸರ ಕೈಚೀಲ. ಕಳೆದ ವಸ್ತುಗಳ ವಿಭಾಗ: lost and found.
+Someone stole my phone. | ˈಸಮ್ವನ್ ಸ್ಟೋಲ್ ಮೈ ಫ಼ೋನ್ | ಯಾರೋ ನನ್ನ ಫೋನ್ ಕದ್ದಿದ್ದಾರೆ | steal (ಕದಿಯುವುದು) ನ V2: stole. "ಯಾರೋ" = someone.
+Where is the police station? | ವೆರ್ ಇಜ಼್ ದ಼ ಪˈಲೀಸ್ ˈಸ್ಟೇಶನ್ | ಪೊಲೀಸ್ ಠಾಣೆ ಎಲ್ಲಿದೆ? | police ನಲ್ಲಿ ಒತ್ತು ಎರಡನೇ ಭಾಗದ ಮೇಲೆ: ಪˈಲೀಸ್; ಮೊದಲ ಭಾಗದ ಮೇಲಲ್ಲ.
+I need to contact the Indian embassy. | ಐ ನೀಡ್ ಟ ˈಕಾನ್ಟ್ಯಾಕ್ಟ್ ದ಼ಿ ˈಇನ್ಡಿಅನ್ ˈಎಮ್ಬಸಿ | ನಾನು ಭಾರತೀಯ ರಾಯಭಾರ ಕಚೇರಿಯನ್ನು ಸಂಪರ್ಕಿಸಬೇಕು | ಪಾಸ್‌ಪೋರ್ಟ್ ಕಳೆದರೆ ಬೇಕೇ ಬೇಕಾದ ವಾಕ್ಯ. contact ನಂತರ preposition ಇಲ್ಲ: "contact to the embassy" ತಪ್ಪು.
+I have travel insurance. | ಐ ಹ್ಯಾವ಼್ ˈಟ್ರ್ಯಾವ಼ಲ್ ಇನ್ˈಶುರನ್ಸ್ | ನನ್ನ ಬಳಿ ಪ್ರಯಾಣ ವಿಮೆ ಇದೆ | ಆಸ್ಪತ್ರೆ ಖರ್ಚು ದುಬಾರಿ ಇರುವ ದೇಶಗಳಿಗೆ ಹೋಗುವ ಮೊದಲು ವಿಮೆ ಮಾಡಿಸಿಕೊಳ್ಳಿ. insurance ಎಣಿಸಲಾಗದ ನಾಮಪದ: a ಇಲ್ಲ.
 `,
-"구동사": `
-pick up | 피컵 | (차로) 데리러 가다 / 줍다 | "I'll pick you up at 7." 대명사(you, it)는 가운데에 와요
-give up | 기법 | 포기하다 | "Don't give up!" 무엇을 포기하는지는 ~ing: give up smoking
-figure out | 피겨라웃 | 알아내다 / 해결하다 | "I can't figure out this app." (이 앱 어떻게 쓰는지 모르겠어)
-find out | 파인다웃 | (사실을) 알게 되다 | 정보를 알아낼 때. figure out은 머리를 써서 풀 때
-look for | 룩 포 | 찾다 (찾는 중이다) | "I'm looking for my keys." 찾아냈으면 find
-look after | 룩 애프터 | 돌보다 | "Can you look after my cat?" 미국에선 take care of도 많이 써요
-look forward to | 룩 포워드 투 | ~을 기대하다 | to 뒤에 명사나 ~ing: "I'm looking forward to seeing you."
-run out of | 러나우로브 | ~이 다 떨어지다 | 무엇이 떨어졌는지는 of 뒤에: "We ran out of milk." (우유가 다 떨어졌어)
-turn on | 터논 | 켜다 | 전기·기계를 켤 때: "Turn on the light." 대명사는 가운데: "Turn it on."
-turn off | 터노프 | 끄다 | 대명사는 가운데: "Turn it off." (turn off it X)
-turn down | 턴 다운 | 거절하다 / (소리를) 줄이다 | 두 가지 뜻 모두 자주 써요: "She turned down the offer." / "Turn it down!"
-put off | 푸로프 | 미루다 | 일상 대화에선 postpone보다 훨씬 많이 써요: "Stop putting it off!"
-show up | 쇼우 업 | 나타나다 / 오다 | 약속 장소에 나타날 때: "He didn't show up to the party." (파티에 안 왔어)
-hang out | 행아웃 | 놀다 / 어울리다 | 친구랑 노는 건 play가 아니라 hang out! (play는 아이들이나 게임·운동)
-check out | 체카웃 | 확인하다 / 한번 보다 | "Check out this video!" 호텔 체크아웃이라는 뜻도 있어요
-work out | 워카웃 | 운동하다 / 잘 풀리다 | 헬스장 운동은 exercise보다 work out: "I work out every day." / "It'll work out." (잘될 거야)
-come up with | 커멉 위드 | (아이디어를) 생각해 내다 | 아이디어·핑계·해결책을 떠올릴 때: "She came up with a great idea."
-get along with | 게럴롱 위드 | ~와 잘 지내다 | 사이가 좋을 때: "I get along with my coworkers." (동료들과 잘 지내요)
-calm down | 캄 다운 | 진정하다 | calm의 l은 소리 나지 않아요. 화난 사람에게 쓰면 더 화나게 할 수도 있어요
-set up | 쎄럽 | 설치하다 / 마련하다 | 기기 설치·회의 준비 등: "Can you help me set up my printer?"
-break up | 브레이컵 | 헤어지다 | "They broke up last month." 누구와: break up with
-fill out | 필 아웃 | (서류를) 작성하다 | "Please fill out this form." 영국식은 fill in
-grow up | 그로우 업 | 자라다 | 자란 곳을 말할 때: "I grew up in Daegu." (대구에서 자랐어요)
-wake up | 웨이컵 | 잠에서 깨다 | 깨어나는 순간은 wake up, 침대에서 나오는 건 get up
+
+"ಫ್ರೇಸಲ್ ವರ್ಬ್": `
+pick up | ಪಿಕ್ ಅಪ್ | ಕರೆದುಕೊಂಡು ಹೋಗಲು ಬರುವುದು / ಎತ್ತಿಕೊಳ್ಳುವುದು | "I'll pick you up at 7." ಸರ್ವನಾಮ (you, it) ನಡುವೆ ಬರುತ್ತದೆ. ಭಾರತದ "pick-up and drop" ನಲ್ಲಿರುವ pick up ಇದೇ.
+give up | ಗಿವ಼್ ಅಪ್ | ಕೈಚೆಲ್ಲುವುದು, ಬಿಟ್ಟುಬಿಡುವುದು | "Don't give up!" ಏನನ್ನು ಬಿಡುವುದು ಎನ್ನಲು -ing: give up smoking.
+figure out | ˈಫ಼ಿಗ್ಯರ್ ಔಟ್ | ಯೋಚಿಸಿ ಕಂಡುಹಿಡಿಯುವುದು | "I can't figure out this app." (ಈ ಆ್ಯಪ್ ಹೇಗೆ ಬಳಸುವುದೆಂದು ತಿಳಿಯುತ್ತಿಲ್ಲ.)
+find out | ಫ಼ೈನ್ಡ್ ಔಟ್ | (ವಿಷಯ) ತಿಳಿದುಕೊಳ್ಳುವುದು | ಮಾಹಿತಿ ಸಿಕ್ಕು ತಿಳಿಯುವುದು find out; ತಲೆ ಓಡಿಸಿ ಬಿಡಿಸುವುದು figure out.
+look for | ಲುಕ್ ಫ಼ೋರ್ | ಹುಡುಕುವುದು | "I'm looking for my keys." ಹುಡುಕುತ್ತಿರುವಾಗ look for; ಸಿಕ್ಕಾಗ find. for ಬಿಡಬೇಡಿ: "searching my keys" ತಪ್ಪು.
+look after | ಲುಕ್ ˈಆ್ಯಫ಼್ಟರ್ | ನೋಡಿಕೊಳ್ಳುವುದು | "Can you look after my cat?" ಅಮೆರಿಕದಲ್ಲಿ take care of ಕೂಡ ಸಾಮಾನ್ಯ.
+look forward to | ಲುಕ್ ˈಫ಼ೋರ್ವರ್ಡ್ ಟೂ | ಕಾತರದಿಂದ ಎದುರು ನೋಡುವುದು | to ನಂತರ ನಾಮಪದ ಅಥವಾ -ing: "I'm looking forward to seeing you." ಇಲ್ಲಿ "to see you" ತಪ್ಪು.
+run out of | ರನ್ ಔಟ್ ಅವ಼್ | ಮುಗಿದುಹೋಗುವುದು, ಖಾಲಿಯಾಗುವುದು | ಏನು ಮುಗಿಯಿತು ಎಂಬುದು of ನಂತರ: "We ran out of milk." (ಹಾಲು ಮುಗಿದುಹೋಯಿತು.) ಭಾರತದ "Milk got over" ಬದಲು ಇದು.
+turn on | ಟರ್ನ್ ಆನ್ | ಆನ್ ಮಾಡುವುದು | "Turn on the light." ಸರ್ವನಾಮ ನಡುವೆ: "Turn it on." ಕನ್ನಡದ "ಆನ್ ಮಾಡಿ" ಯಿಂದ ಬಂದ "On the light" ತಪ್ಪು: ಕ್ರಿಯಾಪದ turn ಬೇಕು.
+turn off | ಟರ್ನ್ ಆಫ಼್ | ಆಫ್ ಮಾಡುವುದು | ಸರ್ವನಾಮ ನಡುವೆ: "Turn it off." ("turn off it" ತಪ್ಪು.) "Off the fan", "Close the light" ಬದಲು turn off.
+turn down | ಟರ್ನ್ ಡೌನ್ | ನಿರಾಕರಿಸುವುದು / (ಶಬ್ದ) ಕಡಿಮೆ ಮಾಡುವುದು | ಎರಡೂ ಅರ್ಥ ಸಾಮಾನ್ಯ: "She turned down the offer." / "Turn it down!"
+put off | ಪುಟ್ ಆಫ಼್ | ಮುಂದೂಡುವುದು | ದಿನನಿತ್ಯದ ಮಾತಿನಲ್ಲಿ postpone ಗಿಂತ ಇದೇ ಹೆಚ್ಚು: "Stop putting it off!"
+show up | ಶೋ ಅಪ್ | ಬಂದು ಹಾಜರಾಗುವುದು | "He didn't show up to the party." (ಅವನು ಪಾರ್ಟಿಗೆ ಬರಲೇ ಇಲ್ಲ.)
+hang out | ಹ್ಯಾಙ್ ಔಟ್ | ಗೆಳೆಯರ ಜೊತೆ ಕಾಲ ಕಳೆಯುವುದು | ದೊಡ್ಡವರು ಗೆಳೆಯರ ಜೊತೆ ಕಾಲ ಕಳೆಯುವುದಕ್ಕೆ hang out; play ಮಕ್ಕಳ ಆಟಕ್ಕೆ, ಗೇಮ್ ಮತ್ತು ಕ್ರೀಡೆಗೆ. ಭಾರತದ "timepass" ವಿದೇಶದಲ್ಲಿ ಅರ್ಥವಾಗುವುದಿಲ್ಲ.
+check out | ಚೆಕ್ ಔಟ್ | ನೋಡುವುದು, ಗಮನಿಸುವುದು | "Check out this video!" ಹೋಟೆಲ್ ರೂಮ್ ಬಿಡುವುದು ಎಂಬ ಅರ್ಥವೂ ಇದೆ.
+work out | ವರ್ಕ್ ಔಟ್ | ವ್ಯಾಯಾಮ ಮಾಡುವುದು / ಸರಿಹೋಗುವುದು | "I work out every day." / "It'll work out." (ಎಲ್ಲ ಸರಿಹೋಗುತ್ತದೆ.)
+come up with | ಕಮ್ ಅಪ್ ವಿದ಼್ | (ಉಪಾಯ) ಯೋಚಿಸಿ ಮುಂದಿಡುವುದು | ಉಪಾಯ, ನೆಪ, ಪರಿಹಾರಕ್ಕೆ: "She came up with a great idea."
+get along with | ಗೆಟ್ ಅˈಲಾಙ್ ವಿದ಼್ | ಹೊಂದಿಕೊಂಡು ಹೋಗುವುದು | "I get along with my coworkers." (ಸಹೋದ್ಯೋಗಿಗಳ ಜೊತೆ ಚೆನ್ನಾಗಿ ಹೊಂದಿಕೊಳ್ಳುತ್ತೇನೆ.) coworker = colleague.
+calm down | ಕಾಮ್ ಡೌನ್ | ಸಮಾಧಾನ ಮಾಡಿಕೊಳ್ಳುವುದು | calm ನಲ್ಲಿ l ಮೂಕ: ಕಾಮ್. ಕೋಪದಲ್ಲಿರುವವರಿಗೆ ಹೀಗೆ ಹೇಳಿದರೆ ಕೋಪ ಹೆಚ್ಚಾಗಬಹುದು.
+set up | ಸೆಟ್ ಅಪ್ | ಅಳವಡಿಸುವುದು / ಏರ್ಪಡಿಸುವುದು | ಉಪಕರಣ ಜೋಡಿಸಲು, ಮೀಟಿಂಗ್ ಏರ್ಪಡಿಸಲು: "Can you help me set up my printer?"
+break up | ಬ್ರೇಕ್ ಅಪ್ | (ಪ್ರೇಮ ಸಂಬಂಧ) ಮುರಿದುಕೊಳ್ಳುವುದು | "They broke up last month." ಯಾರ ಜೊತೆ ಎನ್ನಲು break up with.
+fill out | ಫ಼ಿಲ್ ಔಟ್ | (ಫಾರ್ಮ್) ತುಂಬುವುದು | "Please fill out this form." ಭಾರತದಲ್ಲಿ fill up, ಬ್ರಿಟನ್‌ನಲ್ಲಿ fill in. ಅಮೆರಿಕದಲ್ಲಿ fill up ಎಂದರೆ ಪೆಟ್ರೋಲ್ ಟ್ಯಾಂಕ್ ತುಂಬಿಸುವುದು.
+grow up | ಗ್ರೋ ಅಪ್ | ಬೆಳೆದು ದೊಡ್ಡವರಾಗುವುದು | ಬೆಳೆದ ಊರು ಹೇಳಲು: "I grew up in Mysuru." (ನಾನು ಬೆಳೆದದ್ದು ಮೈಸೂರಿನಲ್ಲಿ.)
+wake up | ವೇಕ್ ಅಪ್ | ಎಚ್ಚರವಾಗುವುದು | ನಿದ್ದೆಯಿಂದ ಎಚ್ಚರವಾಗುವ ಕ್ಷಣ wake up; ಹಾಸಿಗೆ ಬಿಟ್ಟು ಏಳುವುದು get up.
 `,
-"발음 주의": `
-rice | 롸이스 | 쌀 / 밥 | R: 입술을 둥글게 내밀고, 혀끝은 어디에도 닿지 않게. lice와 구분해요
-lice | 라이스 | 이 (머리에 사는 벌레) | L: 혀끝을 윗니 뒤 잇몸에 붙였다 떼요. "I like rice"를 lice로 말하면 큰일!
-right | 롸잇 | 오른쪽 / 맞는 | R로 시작. light와 구분
-light | 라잇 | 빛 / 가벼운 | L로 시작. 혀끝이 윗잇몸에 닿아요
-fan | 팬 (f) | 선풍기 / 팬 (좋아하는 사람) | F: 윗니를 아랫입술에 살짝 대고 바람을 내보내요
-pan | 팬 (p) | 프라이팬 | P: 두 입술을 붙였다가 터뜨려요
-coffee | 커피 (f) | 커피 | 가운데 f를 살려요. p로 말하면 copy(카피)처럼 들려요
-copy | 카피 | 복사하다 / 복사본 | 가운데가 p. 미국식은 "카피"에 가까워요
-think | 띵크 (th) | 생각하다 | TH: 혀끝을 윗니와 아랫니 사이에 살짝 내밀고 바람. s로 말하면 sink
-sink | 씽크 | 싱크대 / 가라앉다 | 혀가 이 뒤에 숨어 있는 s 소리
-three | 쓰리 (th) | 숫자 3 | 혀를 이 사이에! t로 말하면 tree처럼 들려요
-tree | 트리 | 나무 | tr은 "츄리"에 가깝게 들리기도 해요
-this | 디스 (th) | 이것 | 성대를 울리는 th. 혀끝을 이 사이에 두고 "드"
-very | 베리 (v) | 매우 | V: 윗니를 아랫입술에 대고 성대를 울려요. b로 말하면 berry
-berry | 베리 (b) | 베리 (딸기 같은 열매) | 두 입술을 붙였다 떼는 b
-vote | 보웃 (v) | 투표하다 | v로 시작. boat와 구분
-boat | 보웃 (b) | 배 / 보트 | b로 시작. "보트"보다 "보웃"에 가까워요
-walk | 웍 | 걷다 | l은 소리 나지 않아요. 입을 크게 벌린 "어"
-work | 워r크 | 일하다 | 혀를 뒤로 말아 r을 넣어요. walk와 헷갈리기 쉬운 짝꿍
-beach | 비-치 | 해변 | "이-"를 길게! 짧게 말하면 욕처럼 들릴 수 있어요
-leave | 리-브 | 떠나다 | 길게 "리-". 짧은 live(살다)와 구분해요
-live | 리브 (짧게) | 살다 | 짧고 힘을 빼서 "리브". leave보다 입을 덜 벌려요
-banana | 버내너 | 바나나 | 강세는 가운데 "내". "바나나"라고 또박또박 읽으면 못 알아들어요
-hotel | 호우텔 | 호텔 | 강세는 뒤 "텔". 앞을 세게 말하면 어색해요
-milk | 밀크 (크는 아주 약하게) | 우유 | 끝에 "으"를 붙이지 마요. 끝 자음은 입 모양만 살짝
-McDonald's | 먹다널즈 | 맥도날드 | 강세는 "다". 미국에서 "맥도날드"라고 하면 잘 못 알아들어요
+
+"ಉಚ್ಚಾರಣೆ: ಎಚ್ಚರ": `
+rice | ರೈಸ್ | ಅಕ್ಕಿ / ಅನ್ನ | r ಮತ್ತು l ಕನ್ನಡಿಗರಿಗೆ ಬೇರೆ ಬೇರೆ ಧ್ವನಿಗಳೇ; ಇಲ್ಲಿ ತೊಂದರೆ ಇಲ್ಲ. ಅಮೆರಿಕದ r ನಲ್ಲಿ ನಾಲಿಗೆ ಎಲ್ಲೂ ತಾಗುವುದಿಲ್ಲ, ಕಂಪಿಸುವುದೂ ಇಲ್ಲ. ಕೊನೆಯ ಧ್ವನಿ s; z ಅಲ್ಲ.
+lice | ಲೈಸ್ | ಹೇನುಗಳು | l ಗೆ ನಾಲಿಗೆಯ ತುದಿ ಮೇಲಿನ ಹಲ್ಲುಗಳ ಹಿಂದಿನ ವಸಡಿಗೆ ತಾಗುತ್ತದೆ; ಕನ್ನಡದ ಲ ದ ಹಾಗೆಯೇ. ಏಕವಚನ louse.
+right | ರೈಟ್ | ಬಲ / ಸರಿ | gh ಮೂಕ: ರೈಟ್. ಕೊನೆಯ t ನಂತರ ಸ್ವರ ಬೇಡ.
+light | ಲೈಟ್ | ಬೆಳಕು / ಹಗುರ | right ಮತ್ತು light ನಡುವೆ ಮೊದಲ ಧ್ವನಿ ಮಾತ್ರ ಬೇರೆ. ಕೊನೆಯಲ್ಲಿ "ಉ" ಸೇರಿಸಬೇಡಿ: "ಲೈಟು" ಅಲ್ಲ.
+fan | ಫ಼್ಯಾನ್ | ಫ್ಯಾನ್ / ಅಭಿಮಾನಿ | f: ಮೇಲಿನ ಹಲ್ಲು ಕೆಳತುಟಿಗೆ ತಾಗಿಸಿ ಗಾಳಿ ಬಿಡಿ. ಎರಡು ತುಟಿ ಮುಚ್ಚಿ ಹೇಳುವ ಫ ಅಥವಾ ಪ ಅಲ್ಲ; ಹಾಗೆ ಹೇಳಿದರೆ pan ಎಂದು ಕೇಳಿಸುತ್ತದೆ.
+pan | ಪ್ಯಾನ್ | ಬಾಣಲೆ | p: ಎರಡು ತುಟಿ ಮುಚ್ಚಿ ತೆರೆಯಿರಿ. ಪದದ ಮೊದಲಿನ p ಜೊತೆ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಸ್ವಲ್ಪ ಗಾಳಿಯೂ ಹೊರಬರುತ್ತದೆ.
+coffee | ˈಕಾಫ಼ಿ | ಕಾಫಿ | ನಡುವಿನ f ಹಲ್ಲು ಮತ್ತು ತುಟಿಯ ಧ್ವನಿ. ff ಎರಡು ಬರೆದರೂ ಧ್ವನಿ ಒಂದೇ: ˈಕಾಫ಼ಿ.
+copy | ˈಕಾಪಿ | ನಕಲು / ನಕಲು ಮಾಡುವುದು | ನಡುವೆ p. ಅಮೆರಿಕದಲ್ಲಿ ಮೊದಲ ಸ್ವರ ಬಾಯಿ ತೆರೆದ "ಆ": ˈಕಾಪಿ.
+think | ಥ಼ಿಂಕ್ | ಯೋಚಿಸುವುದು | th: ನಾಲಿಗೆಯ ತುದಿ ಹಲ್ಲುಗಳ ನಡುವೆ, ಗಾಳಿ ನಿಲ್ಲದೆ ಹೊರಗೆ. ಕನ್ನಡದ ಥ ಅಲ್ಲ, ತ ಅಲ್ಲ, ಟ ಅಲ್ಲ.
+sink | ಸಿಂಕ್ | ಸಿಂಕ್ / ಮುಳುಗುವುದು | s ಗೆ ನಾಲಿಗೆ ಹಲ್ಲುಗಳ ಹಿಂದೆ ಇರುತ್ತದೆ. think ಮತ್ತು sink ಬೇರೆ ಬೇರೆ ಪದಗಳು.
+three | ಥ಼್ರೀ | ಮೂರು (3) | ನಾಲಿಗೆ ಹಲ್ಲುಗಳ ನಡುವೆ. ಟ ದಿಂದ ಹೇಳಿದರೆ tree ಎಂದು ಕೇಳಿಸುತ್ತದೆ.
+tree | ಟ್ರೀ | ಮರ | ಇಂಗ್ಲಿಷ್ t ಗೆ ನಾಲಿಗೆ ಮೇಲಿನ ವಸಡಿಗೆ ತಾಗುತ್ತದೆ; ಕನ್ನಡದ ಟ ದಷ್ಟು ಹಿಂದಕ್ಕೆ ಮಡಚಬೇಡಿ.
+this | ದ಼ಿಸ್ | ಇದು | ಗಂಟಲಿನ ಕಂಪನ ಇರುವ th: ನಾಲಿಗೆ ಹಲ್ಲುಗಳ ನಡುವೆ. ಕನ್ನಡದ ದ ಅಥವಾ ಡ ಅಲ್ಲ. ಕೊನೆಯ ಧ್ವನಿ s; z ಅಲ್ಲ.
+very | ˈವ಼ೆರಿ | ತುಂಬಾ | v: ಮೇಲಿನ ಹಲ್ಲು ಕೆಳತುಟಿಗೆ ತಾಗಬೇಕು. v ಮತ್ತು b ಕನ್ನಡಿಗರಿಗೆ ಬೇರೆ ಬೇರೆಯೇ; ಗೊಂದಲ ಇರುವುದು v ಮತ್ತು w ನಡುವೆ.
+berry | ˈಬೆರಿ | ಬೆರ್ರಿ ಹಣ್ಣು | b: ಎರಡು ತುಟಿ ಮುಚ್ಚಿ ತೆರೆಯಿರಿ. rr ಎರಡು ಬರೆದರೂ ಧ್ವನಿ ಒಂದೇ: ˈಬೆರಿ.
+vote | ವ಼ೋಟ್ | ಮತ ಹಾಕುವುದು | v ಯಿಂದ ಶುರು: ಹಲ್ಲು ತುಟಿಗೆ. ಕೊನೆಯ e ಮೂಕ; t ನಂತರ ಸ್ವರ ಬೇಡ.
+boat | ಬೋಟ್ | ದೋಣಿ | oa = ದೀರ್ಘ "ಓ". bought (ಕೊಂಡೆ) ಬೇರೆ ಪದ: ಅದರಲ್ಲಿ ಬಾಯಿ ತೆರೆದ "ಆ".
+walk | ವಾಕ್ | ನಡೆಯುವುದು | l ಮೂಕ; ಸ್ವರ ಬಾಯಿ ತೆರೆದ "ಆ": ವಾಕ್. "ಓ" ಎಂದರೆ woke (ಎಚ್ಚರವಾಯಿತು) ಎಂದು ಕೇಳಿಸುತ್ತದೆ.
+work | ವರ್ಕ್ | ಕೆಲಸ ಮಾಡುವುದು | ಇಲ್ಲಿ or = "ಅರ್": ವರ್ಕ್. walk ಜೊತೆ ಗೊಂದಲವಾಗುವ ಜೋಡಿ.
+beach | ಬೀಚ್ | ಕಡಲತೀರ | ದೀರ್ಘ "ಈ". ಹ್ರಸ್ವ ಮತ್ತು ದೀರ್ಘ ಸ್ವರದ ವ್ಯತ್ಯಾಸ ಕನ್ನಡದಲ್ಲೂ ಇದೆ (ಇ / ಈ); ಅದನ್ನೇ ಇಲ್ಲಿ ಬಳಸಿ. ಹ್ರಸ್ವ ಮಾಡಿದರೆ ಬೈಗುಳದ ಪದದಂತೆ ಕೇಳಿಸುತ್ತದೆ.
+leave | ಲೀವ಼್ | ಹೊರಡುವುದು / ಬಿಟ್ಟು ಹೋಗುವುದು | ದೀರ್ಘ "ಈ": ಲೀವ಼್. ಹ್ರಸ್ವ "ಇ" ಇರುವ live (ವಾಸಿಸುವುದು) ಬೇರೆ ಪದ.
+live | ಲಿವ಼್ | ವಾಸಿಸುವುದು | ಹ್ರಸ್ವ "ಇ": ಲಿವ಼್. ಕೊನೆಯ v ನಂತರ ಸ್ವರ ಬೇಡ.
+banana | ಬˈನ್ಯಾನ | ಬಾಳೆಹಣ್ಣು | ಒತ್ತು ನಡುವಿನ ಭಾಗದ ಮೇಲೆ: ಬˈನ್ಯಾನ. ಕನ್ನಡದಲ್ಲಿ ಎಲ್ಲ ಭಾಗಗಳಿಗೂ ಸುಮಾರು ಒಂದೇ ತೂಕ; ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಒಂದು ಭಾಗ ಗಟ್ಟಿ, ಉಳಿದವು ಹಗುರ.
+hotel | ಹೋˈಟೆಲ್ | ಹೋಟೆಲ್ | ಒತ್ತು ಎರಡನೇ ಭಾಗದ ಮೇಲೆ: ಹೋˈಟೆಲ್. ವಿದೇಶದಲ್ಲಿ hotel ಉಳಿದುಕೊಳ್ಳುವ ಜಾಗ ಮಾತ್ರ; ಊಟಕ್ಕೆ restaurant.
+milk | ಮಿಲ್ಕ್ | ಹಾಲು | ಕೊನೆಯಲ್ಲಿ "ಉ" ಸೇರಿಸಬೇಡಿ: "ಮಿಲ್ಕು" ಅಲ್ಲ. l ಮತ್ತು k ಒಟ್ಟಿಗೆ, ನಡುವೆ ಸ್ವರ ಇಲ್ಲ.
+McDonald's | ಮಕ್ˈಡಾನಲ್ಡ್ಜ಼್ | ಮೆಕ್‌ಡೊನಾಲ್ಡ್ಸ್ | ಒತ್ತು ನಡುವಿನ ಭಾಗದ ಮೇಲೆ: ಮಕ್ˈಡಾನಲ್ಡ್ಜ಼್. ಮೊದಲ ಭಾಗ ಹಗುರ.
+bus | ಬಸ್ | ಬಸ್ | ಕೊನೆಯಲ್ಲಿ ಸ್ವರ ಇಲ್ಲ, s ಒಂದೇ: ಬಸ್. ಕನ್ನಡದ "ಬಸ್ಸು" ಹಾಗೆ ಹೇಳಬೇಡಿ.
+car | ಕಾರ್ | ಕಾರು | ಕೊನೆಯ "ಉ" ಬಿಡಿ: ಕಾರ್. ಅಮೆರಿಕದಲ್ಲಿ ಕೊನೆಯ r ಕೇಳಿಸುತ್ತದೆ.
+book | ಬುಕ್ | ಪುಸ್ತಕ | oo ಇಲ್ಲಿ ಹ್ರಸ್ವ "ಉ"; k ನಂತರ ಸ್ವರ ಬೇಡ: ಬುಕ್. "ಬುಕ್ಕು" ಅಲ್ಲ.
+film | ಫ಼ಿಲ್ಮ್ | ಸಿನಿಮಾ / ಫಿಲ್ಮ್ | l ಮತ್ತು m ನಡುವೆ ಸ್ವರ ಇಲ್ಲ: ಫ಼ಿಲ್ಮ್. "ಫಿಲಂ" ಅಲ್ಲ.
+school | ಸ್ಕೂಲ್ | ಶಾಲೆ | ಮೊದಲಲ್ಲೂ ಕೊನೆಯಲ್ಲೂ ಸ್ವರ ಸೇರಿಸಬೇಡಿ: "ಇಸ್ಕೂಲು" ಅಲ್ಲ, "ಸ್ಕೂಲು" ಅಲ್ಲ. ಸ್ಕೂಲ್.
+happy | ˈಹ್ಯಾಪಿ | ಸಂತೋಷವಾಗಿರುವ | pp ಎರಡು ಬರೆದರೂ p ಒಂದೇ: ˈಹ್ಯಾಪಿ. ಕನ್ನಡದ ಒತ್ತಕ್ಷರದ ಹಾಗೆ ಒತ್ತಿ ಹೇಳಬೇಡಿ.
+dinner | ˈಡಿನರ್ | ರಾತ್ರಿ ಊಟ | nn ಎರಡು ಬರೆದರೂ n ಒಂದೇ: ˈಡಿನರ್. ಇಂಗ್ಲಿಷ್ ಕಾಗುಣಿತದ ಜೋಡಿ ಅಕ್ಷರ ಒತ್ತಕ್ಷರ ಅಲ್ಲ.
+zoo | ಜ಼ೂ | ಮೃಗಾಲಯ | z: ನಾಲಿಗೆ s ನ ಜಾಗದಲ್ಲೇ, ಆದರೆ ಗಂಟಲಿನ ಕಂಪನ ಇರಬೇಕು (ಜೇನುನೊಣದ ಝೇಂಕಾರದ ಹಾಗೆ). ಜ ದಿಂದ ಹೇಳಿದರೆ Jew ಎಂದು ಕೇಳಿಸುತ್ತದೆ.
+Jew | ಜೂ | ಯಹೂದಿ | j = ಕನ್ನಡದ ಜ: ನಾಲಿಗೆ ಮೇಲೆ ತಾಗಿ ಬಿಡುತ್ತದೆ. zoo ಜೊತೆ ಹೋಲಿಸಿ ಹೇಳಿ ನೋಡಿ.
+zero | ˈಜ಼ಿರೋ | ಸೊನ್ನೆ | ಮೊದಲ ಧ್ವನಿ z; ಜ ಅಲ್ಲ: ˈಜ಼ಿರೋ.
+easy | ˈಈಜ಼ಿ | ಸುಲಭ | ಇಲ್ಲಿ s ಬರೆದರೂ ಧ್ವನಿ z: ˈಈಜ಼ಿ. busy, music, please ಕೂಡ ಹೀಗೆಯೇ.
+vine | ವ಼ೈನ್ | ಬಳ್ಳಿ | v: ಮೇಲಿನ ಹಲ್ಲು ಕೆಳತುಟಿಗೆ ತಾಗುತ್ತದೆ. ಕನ್ನಡದ ವ ಇಂಗ್ಲಿಷ್‌ನ v ಮತ್ತು w ಗಳ ನಡುವೆ ಇದೆ; ಅದಕ್ಕೇ ಎರಡನ್ನೂ ಬೇರೆ ಬೇರೆಯಾಗಿ ಅಭ್ಯಾಸ ಮಾಡಿ.
+wine | ವೈನ್ | ವೈನ್ | w: ತುಟಿ ದುಂಡು ಮಾಡಿ ಮುಂದೆ ತನ್ನಿ; ಹಲ್ಲು ತುಟಿಗೆ ತಾಗಬಾರದು. ತಾಗಿದರೆ vine ಎಂದು ಕೇಳಿಸುತ್ತದೆ.
+vest | ವ಼ೆಸ್ಟ್ | ತೋಳಿಲ್ಲದ ಮೇಲಂಗಿ | ಹಲ್ಲು ತುಟಿಗೆ ತಾಗಿಸಿ ಶುರು ಮಾಡಿ. ಭಾರತ ಮತ್ತು ಬ್ರಿಟನ್‌ನಲ್ಲಿ vest = ಬನಿಯನ್; ಅಮೆರಿಕದಲ್ಲಿ ತೋಳಿಲ್ಲದ ಕೋಟು.
+west | ವೆಸ್ಟ್ | ಪಶ್ಚಿಮ | ತುಟಿ ದುಂಡು ಮಾಡಿ ಶುರು ಮಾಡಿ; ಹಲ್ಲು ತಾಗಬಾರದು. vest ಮತ್ತು west ಬೇರೆ ಬೇರೆ ಪದಗಳು.
+law | ಲಾ | ಕಾನೂನು | aw = ಬಾಯಿ ತೆರೆದ ದೀರ್ಘ "ಆ": ಲಾ. "ಓ" ಎಂದರೆ low ಎಂದು ಕೇಳಿಸುತ್ತದೆ.
+low | ಲೋ | ತಗ್ಗು / ಕಡಿಮೆ | ow ಇಲ್ಲಿ ದೀರ್ಘ "ಓ": ಲೋ. law ಜೊತೆ ಹೋಲಿಸಿ ಹೇಳಿ ನೋಡಿ.
+caught | ಕಾಟ್ | ಹಿಡಿದೆ (catch ನ V2) | augh = "ಆ", gh ಮೂಕ: ಕಾಟ್. "ಓ" ಎಂದರೆ coat ಎಂದು ಕೇಳಿಸುತ್ತದೆ.
+coat | ಕೋಟ್ | ಕೋಟು | oa = ದೀರ್ಘ "ಓ": ಕೋಟ್. ಕೊನೆಯಲ್ಲಿ "ಉ" ಬೇಡ.
+saw | ಸಾ | ನೋಡಿದೆ (see ನ V2) | aw = "ಆ": ಸಾ. "ಓ" ಎಂದರೆ so ಎಂದು ಕೇಳಿಸುತ್ತದೆ.
+so | ಸೋ | ಹಾಗಾಗಿ / ಅಷ್ಟು | ದೀರ್ಘ "ಓ": ಸೋ. saw ಜೊತೆ ಹೋಲಿಸಿ ಹೇಳಿ ನೋಡಿ.
+asked | ಆ್ಯಸ್ಕ್ಟ್ | ಕೇಳಿದೆ (ask ನ V2) | ಇಲ್ಲಿ -ed = t ಮಾತ್ರ, ಸ್ವರ ಇಲ್ಲ: ಆ್ಯಸ್ಕ್ಟ್. s, k, t ಮೂರೂ ಒಟ್ಟಿಗೆ; "ಆಸ್ಕೆಡ್" ಅಲ್ಲ.
+months | ಮನ್ಥ಼್ಸ್ | ತಿಂಗಳುಗಳು | ಕೊನೆಯಲ್ಲಿ n, th, s ಒಟ್ಟಿಗೆ; ನಡುವೆ ಅಥವಾ ಕೊನೆಯಲ್ಲಿ ಸ್ವರ ಸೇರಿಸಬೇಡಿ: ಮನ್ಥ಼್ಸ್.
+about | ಅˈಬೌಟ್ | ಬಗ್ಗೆ / ಸುಮಾರು | ಒತ್ತು ಎರಡನೇ ಭಾಗದ ಮೇಲೆ: ಅˈಬೌಟ್. ಮೊದಲ a ಹಗುರವಾದ "ಅ"; "ಎ" ಅಲ್ಲ.
+photography | ಫ಼ˈಟಾಗ್ರಫ಼ಿ | ಛಾಯಾಗ್ರಹಣ | ಒತ್ತು ಎರಡನೇ ಭಾಗದ ಮೇಲೆ: ಫ಼ˈಟಾಗ್ರಫ಼ಿ. photo ದಲ್ಲಿ ಒತ್ತು ಮೊದಲ ಭಾಗದ ಮೇಲೆ; ಪದ ಬೆಳೆದಾಗ ಒತ್ತಿನ ಜಾಗ ಬದಲಾಗುತ್ತದೆ.
 `,
-"영어 관용구": `
-It's a piece of cake. | 잇츠 어 피스 오브 케익 | 식은 죽 먹기예요 | 아주 쉬운 일. "The test was a piece of cake."
-I'm on cloud nine. | 아임 온 클라우드 나인 | 날아갈 듯 기뻐요 | 엄청 행복할 때
-It costs an arm and a leg. | 잇 코스츠 언 암 앤 어 레그 | 엄청 비싸요 | 팔다리를 내줄 만큼 비싸다는 뜻
-Let's call it a day. | 렛츠 콜 잇 어 데이 | 오늘은 여기까지 해요 | 일·공부를 마칠 때. 회의에서도 자연스러워요
-I'm feeling under the weather. | 아임 필링 언더 더 웨더 | 몸이 좀 안 좋아요 | 감기 기운처럼 가볍게 아플 때. 날씨와는 상관없어요
-I need to hit the books. | 아이 니드 투 힛 더 북스 | 공부 좀 열심히 해야 해 | 시험 전에. 책을 때리는 게 아니에요
-Once in a blue moon | 원스 인 어 블루 문 | 아주 가끔 | 아주 드문 일에: "I only eat fast food once in a blue moon."
-Better late than never. | 베러 레잇 댄 네버 | 늦더라도 안 하는 것보단 낫죠 | 늦게 시작한 사람을 격려할 때
-Don't beat around the bush. | 돈 비러롸운 더 부쉬 | 돌려 말하지 마요 | 본론을 말해 달라는 뜻
-It's not my cup of tea. | 잇츠 낫 마이 커퍼 티 | 제 취향은 아니에요 | 부드럽게 싫다고 할 때 좋아요
-Let's get the ball rolling. | 렛츠 겟 더 볼 롤링 | 자, 시작해 봅시다 | 회의·프로젝트 시작할 때
-I'll keep my fingers crossed. | 아일 킵 마이 핑거즈 크로스드 | 잘되길 빌게요 | 검지와 중지를 꼬는 제스처와 함께 써요
-Hang in there. | 행 인 데어 | 조금만 버텨 / 힘내 | 힘든 시기를 보내는 사람에게
-Speak of the devil! | 스픽 오브 더 데블! | 호랑이도 제 말 하면 온다더니! | 얘기하던 사람이 나타났을 때
-The ball is in your court. | 더 볼 이즈 인 유어 코트 | 이제 당신이 결정할 차례예요 | 테니스에서 온 표현
-My lips are sealed. | 마이 립스 아 씰드 | 비밀 지킬게요 | 입술을 봉했다는 뜻
-It's on the tip of my tongue. | 잇츠 온 더 팁 오브 마이 텅 | 혀끝에서 맴도는데… | 생각날 듯 말 듯할 때
-I'm all ears. | 아임 올 이어즈 | 잘 듣고 있어요 / 어서 말해 봐요 | 귀를 쫑긋 세우고 듣는다는 뜻
-When pigs fly. | 웬 픽스 플라이 | 해가 서쪽에서 뜨겠다 | 절대 일어나지 않을 일. "He'll clean his room when pigs fly."
+
+"ಇಂಗ್ಲಿಷ್ ನುಡಿಗಟ್ಟುಗಳು": `
+It's a piece of cake. | ಇಟ್ಸ್ ಅ ಪೀಸ್ ಅವ಼್ ಕೇಕ್ | ಇದು ತುಂಬಾ ಸುಲಭದ ಕೆಲಸ | ಅಕ್ಷರಶಃ: ಕೇಕ್‌ನ ಒಂದು ತುಂಡು. "The test was a piece of cake."
+I'm on cloud nine. | ಐಮ್ ಆನ್ ಕ್ಲೌಡ್ ನೈನ್ | ನನಗೆ ಹೇಳಲಾಗದಷ್ಟು ಸಂತೋಷವಾಗಿದೆ | ತುಂಬಾ ಸಂತೋಷವಾದಾಗ. ಕನ್ನಡದ "ಸ್ವರ್ಗಕ್ಕೆ ಮೂರೇ ಗೇಣು" ಎಂಬ ಮಾತಿನ ಹಾಗೆ.
+It costs an arm and a leg. | ಇಟ್ ಕಾಸ್ಟ್ಸ್ ಅನ್ ಆರ್ಮ್ ಅನ್ಡ್ ಅ ಲೆಗ್ | ಇದು ವಿಪರೀತ ದುಬಾರಿ | ಅಕ್ಷರಶಃ: ಒಂದು ಕೈ, ಒಂದು ಕಾಲು ಕೊಡಬೇಕಾಗುವಷ್ಟು ಬೆಲೆ.
+Let's call it a day. | ಲೆಟ್ಸ್ ಕಾಲ್ ಇಟ್ ಅ ಡೇ | ಇವತ್ತಿಗೆ ಇಷ್ಟು ಸಾಕು | ಕೆಲಸ ಅಥವಾ ಓದು ಮುಗಿಸುವಾಗ. ಮೀಟಿಂಗ್‌ನಲ್ಲೂ ಸಹಜ.
+I'm feeling under the weather. | ಐಮ್ ˈಫ಼ೀಲಿಙ್ ಅನ್ಡರ್ ದ಼ ˈವೆದ಼ರ್ | ನನಗೆ ಸ್ವಲ್ಪ ಮೈ ಸರಿಯಿಲ್ಲ | ಶೀತ, ಸಣ್ಣ ಜ್ವರದಂತಹ ಹಗುರ ಅನಾರೋಗ್ಯಕ್ಕೆ. ಹವಾಮಾನಕ್ಕೂ ಇದಕ್ಕೂ ಸಂಬಂಧ ಇಲ್ಲ.
+I need to hit the books. | ಐ ನೀಡ್ ಟ ಹಿಟ್ ದ಼ ಬುಕ್ಸ್ | ನಾನು ಕುಳಿತು ಚೆನ್ನಾಗಿ ಓದಬೇಕು | ಪರೀಕ್ಷೆಗೆ ಮೊದಲು. ಪುಸ್ತಕಕ್ಕೆ ಹೊಡೆಯುವುದಲ್ಲ; ಜೋರಾಗಿ ಓದಲು ಶುರು ಮಾಡುವುದು.
+Once in a blue moon | ವನ್ಸ್ ಇನ್ ಅ ಬ್ಲೂ ಮೂನ್ | ಅಪರೂಪಕ್ಕೊಮ್ಮೆ | ತುಂಬಾ ವಿರಳವಾಗಿ ನಡೆಯುವುದಕ್ಕೆ: "I only eat fast food once in a blue moon."
+Better late than never. | ˈಬೆಟರ್ ಲೇಟ್ ದ಼ನ್ ˈನೆವ಼ರ್ | ಮಾಡದೇ ಇರುವುದಕ್ಕಿಂತ ತಡವಾದರೂ ಮಾಡುವುದು ಮೇಲು | ತಡವಾಗಿ ಶುರು ಮಾಡಿದವರಿಗೆ ಧೈರ್ಯ ಹೇಳಲು.
+Don't beat around the bush. | ಡೋನ್ಟ್ ಬೀಟ್ ಅರೌನ್ಡ್ ದ಼ ಬುಶ್ | ಸುತ್ತಿ ಬಳಸಿ ಮಾತನಾಡಬೇಡಿ | ನೇರವಾಗಿ ವಿಷಯಕ್ಕೆ ಬನ್ನಿ ಎಂಬ ಅರ್ಥ.
+It's not my cup of tea. | ಇಟ್ಸ್ ನಾಟ್ ಮೈ ಕಪ್ ಅವ಼್ ಟೀ | ಇದು ನನಗೆ ಅಷ್ಟಾಗಿ ಹಿಡಿಸುವುದಿಲ್ಲ | ಇಷ್ಟವಿಲ್ಲ ಎಂದು ಮೃದುವಾಗಿ ಹೇಳಲು.
+Let's get the ball rolling. | ಲೆಟ್ಸ್ ಗೆಟ್ ದ಼ ಬಾಲ್ ˈರೋಲಿಙ್ | ಬನ್ನಿ, ಶುರು ಮಾಡೋಣ | ಮೀಟಿಂಗ್, ಪ್ರಾಜೆಕ್ಟ್ ಶುರು ಮಾಡುವಾಗ.
+I'll keep my fingers crossed. | ಐಲ್ ಕೀಪ್ ಮೈ ˈಫ಼ಿಂಗರ್ಜ಼್ ಕ್ರಾಸ್ಟ್ | ಎಲ್ಲ ಒಳ್ಳೆಯದಾಗಲಿ ಎಂದು ಹಾರೈಸುತ್ತೇನೆ | ತೋರುಬೆರಳು ಮತ್ತು ನಡುಬೆರಳನ್ನು ಒಂದರ ಮೇಲೊಂದು ಇಟ್ಟು ತೋರಿಸುವ ಸನ್ನೆಯ ಜೊತೆ ಹೇಳುತ್ತಾರೆ.
+Hang in there. | ಹ್ಯಾಙ್ ಇನ್ ದ಼ೆರ್ | ಧೈರ್ಯವಾಗಿರಿ, ಸ್ವಲ್ಪ ತಡೆದುಕೊಳ್ಳಿ | ಕಷ್ಟದ ಸಮಯದಲ್ಲಿರುವವರಿಗೆ.
+Speak of the devil! | ಸ್ಪೀಕ್ ಅವ಼್ ದ಼ ˈಡೆವ಼ಲ್ | ನೆನೆಸಿಕೊಂಡ ಕೂಡಲೇ ಬಂದುಬಿಟ್ಟರು! | ಯಾರ ಬಗ್ಗೆ ಮಾತನಾಡುತ್ತಿದ್ದೆವೋ ಅವರೇ ಬಂದಾಗ. ಕನ್ನಡದಲ್ಲಿ ಇಂಥ ಸಂದರ್ಭದಲ್ಲಿ "ನಿಮಗೆ ನೂರು ವರ್ಷ ಆಯಸ್ಸು!" ಎನ್ನುತ್ತೇವೆ. ಇಲ್ಲಿ devil ಬೈಗುಳ ಅಲ್ಲ.
+The ball is in your court. | ದ಼ ಬಾಲ್ ಇಜ಼್ ಇನ್ ಯುರ್ ಕೋರ್ಟ್ | ಈಗ ನಿರ್ಧಾರ ನಿಮ್ಮ ಕೈಯಲ್ಲಿದೆ | ಟೆನಿಸ್ ಆಟದಿಂದ ಬಂದ ಮಾತು: ಚೆಂಡು ನಿಮ್ಮ ಅಂಗಳದಲ್ಲಿದೆ.
+My lips are sealed. | ಮೈ ಲಿಪ್ಸ್ ಅರ್ ಸೀಲ್ಡ್ | ನಾನು ಯಾರಿಗೂ ಹೇಳುವುದಿಲ್ಲ | ಅಕ್ಷರಶಃ: ನನ್ನ ತುಟಿಗಳಿಗೆ ಮುದ್ರೆ ಬಿದ್ದಿದೆ. ಗುಟ್ಟು ಕಾಪಾಡುತ್ತೇನೆ ಎಂಬ ಭರವಸೆ.
+It's on the tip of my tongue. | ಇಟ್ಸ್ ಆನ್ ದ಼ ಟಿಪ್ ಅವ಼್ ಮೈ ಟಙ್ | ನಾಲಿಗೆ ತುದಿಯಲ್ಲೇ ಇದೆ, ನೆನಪಾಗುತ್ತಿಲ್ಲ | ಕನ್ನಡದಲ್ಲೂ ಇದೇ ಮಾತು ಇದೆ: "ನಾಲಿಗೆ ತುದಿಯಲ್ಲಿದೆ".
+I'm all ears. | ಐಮ್ ಆಲ್ ಇರ್ಜ಼್ | ಹೇಳಿ, ಕಿವಿಗೊಟ್ಟು ಕೇಳುತ್ತಿದ್ದೇನೆ | ಪೂರ್ತಿ ಗಮನದಿಂದ ಕೇಳುತ್ತಿದ್ದೇನೆ ಎಂಬ ಅರ್ಥ.
+When pigs fly. | ವೆನ್ ಪಿಗ್ಜ಼್ ಫ಼್ಲೈ | ಅದು ಎಂದಿಗೂ ಆಗದ ಮಾತು | ಅಕ್ಷರಶಃ: ಹಂದಿಗಳು ಹಾರಿದಾಗ. "He'll clean his room when pigs fly."
 `,
-"영화·드라마·슬랭": `
-Spill the tea. | 스필 더 티 | 썰 좀 풀어 봐 | tea = 가십·소문. 친구 사이 슬랭
-No cap. | 노 캡 | 진짜야, 거짓말 아님 | 젊은 층 슬랭. cap = 거짓말
-That song slaps. | 댓 쏭 슬랩스 | 그 노래 진짜 좋다 | slap = (음악이) 끝내주다. 음식에도 써요
-I'm dead. | 아임 데드 | 개웃겨 / 빵 터졌어 | 문자에서 💀 이모지와 함께 써요. 진짜 죽었다는 뜻 아니에요
-Low-key | 로우키 | 은근히 / 살짝 | "I low-key love this song." 반대는 high-key(대놓고)
-I'm obsessed with this song. | 아임 업세스트 위드 디스 쏭 | 이 노래에 완전 꽂혔어 | obsessed = 푹 빠진. 긍정적으로 많이 써요
-What's it about? | 왓츠 잇 어바웃? | 무슨 내용이야? | 영화·드라마 줄거리를 물을 때
-No spoilers! | 노 스포일러즈! | 스포 금지! | "Don't spoil it!"도 같은 뜻
-I binge-watched the whole season. | 아이 빈지와치트 더 홀 시즌 | 시즌 전체를 정주행했어 | binge-watch = 몰아보기
-The ending was so good. | 디 엔딩 워즈 쏘 굿 | 결말 진짜 좋았어 | 별로였으면 "The ending was disappointing."
-It's a must-watch. | 잇츠 어 머스트와치 | 꼭 봐야 하는 작품이야 | 강력 추천할 때
-Plot twist! | 플랏 트위스트! | 반전! | 일상에서 예상 못 한 일이 생겼을 때도 써요
-It's overrated. | 잇츠 오버레이티드 | 과대평가됐어 | 반대는 underrated(과소평가된)
-That scene gave me chills. | 댓 씬 게이브 미 칠즈 | 그 장면 소름 돋았어 | 감동이나 긴장으로 소름 돋을 때
-Who's your bias? | 후즈 유어 바이어스? | 최애가 누구야? | K-pop 팬덤에서 쓰는 말. 일반적으로는 "Who's your favorite member?"
-Are you kidding me? | 아 유 키딩 미? | 장난해? / 이게 말이 돼? | 드라마 단골 대사. 놀람·짜증 모두 가능
-I've got your back. | 아이브 갓 유어 백 | 내가 네 편이야 | 든든하게 지켜 주겠다는 뜻
-Gotcha. | 가차 | 알았어 / 잡았다! | got you의 줄임말. 이해했다는 뜻으로 가장 많이 써요
-Let's do this! | 렛츠 두 디스! | 가자! 해 보자! | 시작 전에 의욕을 북돋울 때
+
+"ಸಿನಿಮಾ, ವೆಬ್ ಸೀರೀಸ್ ಮತ್ತು ಸ್ಲ್ಯಾಂಗ್": `
+Spill the tea. | ಸ್ಪಿಲ್ ದ಼ ಟೀ | ಏನು ನಡೆಯಿತು, ಗುಟ್ಟು ಬಿಚ್ಚಿಡು | tea = ಗಾಸಿಪ್, ಒಳಸುದ್ದಿ. ಗೆಳೆಯರ ನಡುವಿನ ಸ್ಲ್ಯಾಂಗ್; ಚಹಾಕ್ಕೂ ಇದಕ್ಕೂ ಸಂಬಂಧ ಇಲ್ಲ.
+No cap. | ನೋ ಕ್ಯಾಪ್ | ನಿಜವಾಗಲೂ, ಸುಳ್ಳಲ್ಲ | ಯುವಜನರ ಸ್ಲ್ಯಾಂಗ್. ಇಲ್ಲಿ cap = ಸುಳ್ಳು.
+That song slaps. | ದ಼್ಯಾಟ್ ಸಾಙ್ ಸ್ಲ್ಯಾಪ್ಸ್ | ಆ ಹಾಡು ಸಖತ್ತಾಗಿದೆ | slap = (ಹಾಡು, ತಿಂಡಿ) ತುಂಬಾ ಚೆನ್ನಾಗಿರುವುದು. ಗೆಳೆಯರ ನಡುವೆ ಮಾತ್ರ.
+I'm dead. | ಐಮ್ ಡೆಡ್ | ನಕ್ಕು ನಕ್ಕು ಸುಸ್ತಾದೆ | ಮೆಸೇಜ್‌ನಲ್ಲಿ 💀 ಎಮೋಜಿ ಜೊತೆ ಬರೆಯುತ್ತಾರೆ. ನಿಜವಾಗಿ ಸತ್ತೆ ಎಂಬ ಅರ್ಥ ಅಲ್ಲ.
+Low-key | ಲೋˈಕೀ | ಸ್ವಲ್ಪ ಮಟ್ಟಿಗೆ, ಒಳಗೊಳಗೇ | "I low-key love this song." ವಿರುದ್ಧ ಪದ high-key (ಬಹಿರಂಗವಾಗಿ).
+I'm obsessed with this song. | ಐಮ್ ಅಬ್ˈಸೆಸ್ಟ್ ವಿದ಼್ ದ಼ಿಸ್ ಸಾಙ್ | ನನಗೆ ಈ ಹಾಡಿನ ಹುಚ್ಚು ಹಿಡಿದಿದೆ | obsessed = ಅದರಲ್ಲೇ ಮುಳುಗಿರುವ. ನಂತರ with ಬೇಕು.
+What's it about? | ವಟ್ಸ್ ಇಟ್ ಅˈಬೌಟ್ | ಅದರ ಕಥೆ ಏನು? | ಸಿನಿಮಾ, ಸೀರೀಸ್‌ನ ಕಥೆ ಕೇಳಲು. about ವಾಕ್ಯದ ಕೊನೆಯಲ್ಲಿ ಬರುತ್ತದೆ.
+No spoilers! | ನೋ ˈಸ್ಪಾಯ್ಲರ್ಜ಼್ | ಕಥೆ ಮೊದಲೇ ಹೇಳಬೇಡ! | "Don't spoil it!" ಕೂಡ ಅದೇ ಅರ್ಥ.
+I binge-watched the whole season. | ಐ ˈಬಿನ್ಜ್ವಾಚ್ಟ್ ದ಼ ಹೋಲ್ ˈಸೀಜ಼ನ್ | ಇಡೀ ಸೀಸನ್ ಒಂದೇ ಸಲಕ್ಕೆ ನೋಡಿ ಮುಗಿಸಿದೆ | binge-watch = ಎಪಿಸೋಡ್‌ಗಳನ್ನು ಒಂದರ ಹಿಂದೆ ಒಂದರಂತೆ ಬಿಡದೆ ನೋಡುವುದು.
+The ending was so good. | ದ಼ಿ ˈಎನ್ಡಿಙ್ ವಜ಼್ ಸೋ ಗುಡ್ | ಕೊನೆ ತುಂಬಾ ಚೆನ್ನಾಗಿತ್ತು | ಇಷ್ಟವಾಗದಿದ್ದರೆ "The ending was disappointing." ಭಾರತದ "climax" ಗೆ ಅಲ್ಲಿ ending.
+It's a must-watch. | ಇಟ್ಸ್ ಅ ˈಮಸ್ಟ್ವಾಚ್ | ಇದನ್ನು ನೋಡಲೇಬೇಕು | ಬಲವಾಗಿ ಶಿಫಾರಸು ಮಾಡುವಾಗ.
+Plot twist! | ಪ್ಲಾಟ್ ಟ್ವಿಸ್ಟ್ | ಕಥೆಯಲ್ಲಿ ತಿರುವು! | ದಿನನಿತ್ಯದ ಬದುಕಿನಲ್ಲಿ ಅನಿರೀಕ್ಷಿತವಾದದ್ದು ನಡೆದಾಗಲೂ ತಮಾಷೆಗೆ ಹೇಳುತ್ತಾರೆ.
+It's overrated. | ಇಟ್ಸ್ ಓವ಼ರ್ˈರೇಟಿಡ್ | ಇದಕ್ಕೆ ಸಿಕ್ಕಿರುವ ಹೊಗಳಿಕೆ ಜಾಸ್ತಿಯಾಯಿತು | ವಿರುದ್ಧ ಪದ underrated (ಸಿಗಬೇಕಾದಷ್ಟು ಹೆಸರು ಸಿಗದ).
+That scene gave me chills. | ದ಼್ಯಾಟ್ ಸೀನ್ ಗೇವ಼್ ಮಿ ಚಿಲ್ಜ಼್ | ಆ ದೃಶ್ಯ ನೋಡಿ ಮೈ ಜುಮ್ ಎಂದಿತು | ಭಾವುಕತೆ ಅಥವಾ ಭಯದಿಂದ ಮೈ ನವಿರೇಳುವುದು. "It gave me goosebumps." ಕೂಡ ಅದೇ ಅರ್ಥ.
+Who's your bias? | ಹೂಜ಼್ ಯುರ್ ˈಬೈಅಸ್ | ಗುಂಪಿನಲ್ಲಿ ನಿನ್ನ ಅಚ್ಚುಮೆಚ್ಚಿನವರು ಯಾರು? | ಪಾಪ್ ಬ್ಯಾಂಡ್ ಅಭಿಮಾನಿಗಳ ಸ್ಲ್ಯಾಂಗ್. ಎಲ್ಲರಿಗೂ ಅರ್ಥವಾಗುವ ರೂಪ: "Who's your favorite?"
+Are you kidding me? | ಅರ್ ಯು ˈಕಿಡಿಙ್ ಮಿ | ತಮಾಷೆ ಮಾಡುತ್ತಿದ್ದೀಯಾ? | ಸಿನಿಮಾ, ಸೀರೀಸ್‌ಗಳಲ್ಲಿ ಪದೇ ಪದೇ ಕೇಳಿಸುವ ಸಾಲು. ಆಶ್ಚರ್ಯಕ್ಕೂ ಕಿರಿಕಿರಿಗೂ.
+I've got your back. | ಐವ಼್ ಗಾಟ್ ಯುರ್ ಬ್ಯಾಕ್ | ನಿನ್ನ ಬೆನ್ನಿಗೆ ನಾನಿದ್ದೇನೆ | ಬೆಂಬಲಕ್ಕೆ ನಿಲ್ಲುತ್ತೇನೆ ಎಂಬ ಭರವಸೆ.
+Gotcha. | ˈಗಾಚ | ಗೊತ್ತಾಯಿತು / ಸಿಕ್ಕಿಬಿದ್ದೆ! | got you ನ ಚಿಕ್ಕ ರೂಪ. ಹೆಚ್ಚಾಗಿ "ಅರ್ಥವಾಯಿತು" ಎಂಬ ಅರ್ಥದಲ್ಲಿ.
+Let's do this! | ಲೆಟ್ಸ್ ಡೂ ದ಼ಿಸ್ | ಬನ್ನಿ, ಮಾಡಿಯೇ ಬಿಡೋಣ! | ಶುರು ಮಾಡುವ ಮೊದಲು ಹುರುಪು ತುಂಬಲು.
 `,
-"알파벳": `
-A | 에이 | 글자 A (소문자 a) | apple(사과)의 A. 이름은 '아'가 아니라 '에이'예요
-B | 비 (b) | 글자 B (소문자 b) | boy의 B. 두 입술을 붙였다 떼요. V와 이름이 같게 들리지 않게 조심해요
-C | 씨 | 글자 C (소문자 c) | coffee의 C. 이름이 see(보다)와 똑같은 소리예요
-D | 디 | 글자 D (소문자 d) | dog의 D. 이름은 '디'예요. T(티)와 달리 성대를 울려 부드럽게 시작해요
-E | 이 | 글자 E (소문자 e) | email의 E. 이름은 '이'예요. '아이'는 I의 이름이에요
-F | 에프 | 글자 F (소문자 f) | fan의 F. 윗니를 아랫입술에 대고 바람을 내요. P(피)와 구분해요
-G | 지 (g) | 글자 G (소문자 g) | game의 G. 입술을 내밀어 '쥐'에 가깝게. J(제이)와 이름이 달라요
-H | 에이치 | 글자 H (소문자 h) | hotel의 H. 이름이 모음 소리 '에'로 시작해서 an H라고 해요
-I | 아이 | 글자 I (소문자 i) | idea의 I. '나'를 뜻하는 I와 같은 소리예요. E(이)와 헷갈리지 마세요
-J | 제이 | 글자 J (소문자 j) | job의 J. G(지)와 바꿔 말하기 쉬워요
-K | 케이 | 글자 K (소문자 k) | key의 K. K-pop의 그 '케이'예요
-L | 엘 | 글자 L (소문자 l) | light의 L. 혀끝을 윗잇몸에 붙이며 '엘'로 끝내요
-M | 엠 | 글자 M (소문자 m) | milk의 M. 입술을 다물며 끝내요. summer처럼 M이 두 개면 double M이라고 불러요
-N | 엔 | 글자 N (소문자 n) | name의 N. 전화로는 M과 헷갈리기 쉬워 "N as in name"처럼 확인해요
-O | 오우 | 글자 O (소문자 o) | OK의 O. 이름은 '오'가 아니라 끝을 살짝 오므린 '오우'예요
-P | 피 | 글자 P (소문자 p) | pan의 P. 두 입술을 터뜨려요. F(에프)와 구분해요
-Q | 큐 | 글자 Q (소문자 q) | question의 Q. 단어에서는 거의 항상 뒤에 U가 와요 (qu)
-R | 아r | 글자 R (소문자 r) | rice의 R. '알'이 아니라 혀를 뒤로 말아 '아r'. L(엘)과 꼭 구분해요
-S | 에스 | 글자 S (소문자 s) | sorry의 S. 이름은 '에스'예요. '씨'는 C의 이름이에요
-T | 티 | 글자 T (소문자 t) | taxi의 T. 대문자는 capital T, 두 개면 double T라고 해요
-U | 유 | 글자 U (소문자 u) | university의 U. 이름이 '유'(y 소리)로 시작해서 an U가 아니라 a U
-V | 비 (v) | 글자 V (소문자 v) | very의 V. 윗니를 아랫입술에 대고 성대를 울려요. B와 구분해요
-W | 더블유 | 글자 W (소문자 w) | water의 W. 이름은 double u, 'U 두 개'라는 뜻이에요 (double v 아님)
-X | 엑스 | 글자 X (소문자 x) | X-ray(엑스레이)의 X. 이름이 모음 소리로 시작해서 an X-ray, an X
-Y | 와이 | 글자 Y (소문자 y) | yes의 Y. 이름이 why(왜)와 똑같은 소리예요
-Z | 지 (z) | 글자 Z (소문자 z) | zoo의 Z. 미국에서는 zee예요. '제트'라고 하면 잘 못 알아들어요
+
+"ಇಂಗ್ಲಿಷ್ ವರ್ಣಮಾಲೆ": `
+A | ಏ | ಅಕ್ಷರ A (ಸಣ್ಣ ಅಕ್ಷರ a) | apple ನ A. ಅಕ್ಷರದ ಹೆಸರು ಏ; apple ನಲ್ಲಿ ಅದರ ಧ್ವನಿ ಬೇರೆ.
+B | ಬೀ | ಅಕ್ಷರ B (ಸಣ್ಣ ಅಕ್ಷರ b) | boy ನ B. ಹೆಸರು ಬೀ. ಎರಡು ತುಟಿ ಮುಚ್ಚಿ ತೆರೆಯಿರಿ.
+C | ಸೀ | ಅಕ್ಷರ C (ಸಣ್ಣ ಅಕ್ಷರ c) | cat ನ C. ಹೆಸರು ಸೀ: see (ನೋಡುವುದು) ಪದದ ಹಾಗೆಯೇ. ಹೆಸರಿನಲ್ಲಿ s ಧ್ವನಿ, cat ನಲ್ಲಿ k ಧ್ವನಿ.
+D | ಡೀ | ಅಕ್ಷರ D (ಸಣ್ಣ ಅಕ್ಷರ d) | dog ನ D. ಹೆಸರು ಡೀ. ಇಂಗ್ಲಿಷ್ d ಗೆ ನಾಲಿಗೆ ಮೇಲಿನ ವಸಡಿಗೆ ತಾಗುತ್ತದೆ.
+E | ಈ | ಅಕ್ಷರ E (ಸಣ್ಣ ಅಕ್ಷರ e) | email ನ E. ಹೆಸರು ಈ. ಗಮನಿಸಿ: "ಈ" ಎಂಬ ಹೆಸರು E ಗೆ; I ನ ಹೆಸರು "ಐ".
+F | ಎಫ಼್ | ಅಕ್ಷರ F (ಸಣ್ಣ ಅಕ್ಷರ f) | fan ನ F. ಹೆಸರು ಎಫ಼್: ಮೊದಲಲ್ಲಿ "ಯ" ಸೇರಿಸಬೇಡಿ ("ಯೆಫ್" ಅಲ್ಲ), ಕೊನೆಯಲ್ಲಿ "ಉ" ಬೇಡ. f ಗೆ ಹಲ್ಲು ತುಟಿಗೆ ತಾಗಬೇಕು.
+G | ಜೀ | ಅಕ್ಷರ G (ಸಣ್ಣ ಅಕ್ಷರ g) | game ನ G. ಹೆಸರು ಜೀ. J ನ ಹೆಸರು ಬೇರೆ; ಎರಡನ್ನೂ ಅದಲುಬದಲು ಮಾಡಬೇಡಿ.
+H | ಏಚ್ | ಅಕ್ಷರ H (ಸಣ್ಣ ಅಕ್ಷರ h) | hotel ನ H. ಹೆಸರು ಏಚ್: ಹೆಸರಿನಲ್ಲಿ h ಧ್ವನಿ ಇಲ್ಲ ("ಹೆಚ್" ಅಲ್ಲ). ಅದಕ್ಕೇ an H.
+I | ಐ | ಅಕ್ಷರ I (ಸಣ್ಣ ಅಕ್ಷರ i) | ice ನ I. ಹೆಸರು ಐ; "ನಾನು" ಎಂಬ ಅರ್ಥದ I ಕೂಡ ಇದೇ.
+J | ಜೇ | ಅಕ್ಷರ J (ಸಣ್ಣ ಅಕ್ಷರ j) | job ನ J. ಹೆಸರು ಜೇ. ಧ್ವನಿ ಕನ್ನಡದ ಜ.
+K | ಕೇ | ಅಕ್ಷರ K (ಸಣ್ಣ ಅಕ್ಷರ k) | key ನ K. ಹೆಸರು ಕೇ. know, knife ಗಳಲ್ಲಿ k ಮೂಕ.
+L | ಎಲ್ | ಅಕ್ಷರ L (ಸಣ್ಣ ಅಕ್ಷರ l) | light ನ L. ಹೆಸರು ಎಲ್: ಮೊದಲಲ್ಲಿ "ಯ" ಬೇಡ ("ಯೆಲ್" ಅಲ್ಲ), ಕೊನೆಯಲ್ಲಿ "ಉ" ಬೇಡ ("ಎಲ್ಲು" ಅಲ್ಲ).
+M | ಎಮ್ | ಅಕ್ಷರ M (ಸಣ್ಣ ಅಕ್ಷರ m) | milk ನ M. ಹೆಸರು ಎಮ್; "ಯೆಮ್" ಅಲ್ಲ. ಹೆಸರಿನಲ್ಲಿ ಎರಡು M ಇದ್ದರೆ double M ಎನ್ನುತ್ತಾರೆ.
+N | ಎನ್ | ಅಕ್ಷರ N (ಸಣ್ಣ ಅಕ್ಷರ n) | name ನ N. ಹೆಸರು ಎನ್; "ಯೆನ್" ಅಲ್ಲ. ಫೋನ್‌ನಲ್ಲಿ M ಜೊತೆ ಗೊಂದಲವಾಗದಂತೆ: "N as in name."
+O | ಓ | ಅಕ್ಷರ O (ಸಣ್ಣ ಅಕ್ಷರ o) | OK ನ O. ಹೆಸರು ಓ: ದೀರ್ಘ "ಓ".
+P | ಪೀ | ಅಕ್ಷರ P (ಸಣ್ಣ ಅಕ್ಷರ p) | pan ನ P. ಹೆಸರು ಪೀ. F ಜೊತೆ ಗೊಂದಲ ಬೇಡ: P ತುಟಿಗಳಿಂದ, F ಹಲ್ಲು ಮತ್ತು ತುಟಿಯಿಂದ.
+Q | ಕ್ಯೂ | ಅಕ್ಷರ Q (ಸಣ್ಣ ಅಕ್ಷರ q) | question ನ Q. ಹೆಸರು ಕ್ಯೂ. ಪದಗಳಲ್ಲಿ Q ನಂತರ ಹೆಚ್ಚಾಗಿ U ಬರುತ್ತದೆ (qu).
+R | ಆರ್ | ಅಕ್ಷರ R (ಸಣ್ಣ ಅಕ್ಷರ r) | rice ನ R. ಹೆಸರು ಆರ್. ಅಮೆರಿಕದಲ್ಲಿ ಕೊನೆಯ r ಕೇಳಿಸುತ್ತದೆ; ನಾಲಿಗೆ ಕಂಪಿಸುವುದಿಲ್ಲ.
+S | ಎಸ್ | ಅಕ್ಷರ S (ಸಣ್ಣ ಅಕ್ಷರ s) | sorry ನ S. ಹೆಸರು ಎಸ್; ಮೊದಲಲ್ಲಿ "ಯ" ಸೇರಿಸಿದರೆ yes ಎಂದು ಕೇಳಿಸುತ್ತದೆ.
+T | ಟೀ | ಅಕ್ಷರ T (ಸಣ್ಣ ಅಕ್ಷರ t) | taxi ನ T. ಹೆಸರು ಟೀ. ದೊಡ್ಡ ಅಕ್ಷರ capital T; ಎರಡು ಇದ್ದರೆ double T.
+U | ಯೂ | ಅಕ್ಷರ U (ಸಣ್ಣ ಅಕ್ಷರ u) | university ನ U. ಹೆಸರು ಯೂ: "ಯ" ಧ್ವನಿಯಿಂದ ಶುರುವಾಗುವುದರಿಂದ a U, a university; an ಅಲ್ಲ.
+V | ವ಼ೀ | ಅಕ್ಷರ V (ಸಣ್ಣ ಅಕ್ಷರ v) | very ನ V. ಹೆಸರು ವ಼ೀ. ಹಲ್ಲು ಕೆಳತುಟಿಗೆ ತಾಗಬೇಕು; W ಜೊತೆ ಗೊಂದಲ ಬೇಡ.
+W | ˈಡಬಲ್ಯೂ | ಅಕ್ಷರ W (ಸಣ್ಣ ಅಕ್ಷರ w) | water ನ W. ಹೆಸರು ˈಡಬಲ್ಯೂ (double u = "ಎರಡು U"). ಧ್ವನಿಗೆ ತುಟಿ ದುಂಡು ಮಾಡಿ; ಹಲ್ಲು ತಾಗಬಾರದು.
+X | ಎಕ್ಸ್ | ಅಕ್ಷರ X (ಸಣ್ಣ ಅಕ್ಷರ x) | X-ray ನ X. ಹೆಸರು ಎಕ್ಸ್; "ಯೆಕ್ಸ್" ಅಲ್ಲ. ಸ್ವರದ ಧ್ವನಿಯಿಂದ ಶುರುವಾಗುವುದರಿಂದ an X-ray.
+Y | ವೈ | ಅಕ್ಷರ Y (ಸಣ್ಣ ಅಕ್ಷರ y) | yes ನ Y. ಹೆಸರು ವೈ: why (ಏಕೆ) ಪದದ ಹಾಗೆಯೇ.
+Z | ಜ಼ೀ | ಅಕ್ಷರ Z (ಸಣ್ಣ ಅಕ್ಷರ z) | zoo ನ Z. ಅಮೆರಿಕದಲ್ಲಿ ಹೆಸರು ಜ಼ೀ (zee); ಭಾರತ ಮತ್ತು ಬ್ರಿಟನ್‌ನಲ್ಲಿ zed. ಧ್ವನಿ z; ಜ ಅಲ್ಲ.
+`,
+
+"ಇಂಡಿಯನ್ ಇಂಗ್ಲಿಷ್: ಇಲ್ಲಿ ಮತ್ತು ವಿದೇಶದಲ್ಲಿ": `
+Can we move the meeting up? | ಕನ್ ವಿ ಮೂವ಼್ ದ಼ ˈಮೀಟಿಙ್ ಅಪ್ | ಮೀಟಿಂಗನ್ನು ಮೊದಲೇ ಇಟ್ಟುಕೊಳ್ಳಬಹುದೇ? ("prepone" ಬದಲು) | prepone ಭಾರತದಲ್ಲಿ ಎಲ್ಲರಿಗೂ ಗೊತ್ತು; ವಿದೇಶದಲ್ಲಿ ಹೆಚ್ಚಿನವರಿಗೆ ಅರ್ಥವಾಗುವುದಿಲ್ಲ. ಅಲ್ಲಿ move up ಅಥವಾ bring forward.
+I'm out of town this week. | ಐಮ್ ಔಟ್ ಅವ಼್ ಟೌನ್ ದ಼ಿಸ್ ವೀಕ್ | ಈ ವಾರ ನಾನು ಊರಲ್ಲಿ ಇರುವುದಿಲ್ಲ ("out of station" ಬದಲು) | out of station ಭಾರತದ ಇಂಗ್ಲಿಷ್; ವಿದೇಶದಲ್ಲಿ out of town.
+What's your name? | ವಟ್ಸ್ ಯುರ್ ನೇಮ್ | ನಿಮ್ಮ ಹೆಸರೇನು? ("good name" ಬದಲು) | "What is your good name?" ಭಾರತದ ಸೌಜನ್ಯದ ರೂಪ; ವಿದೇಶದಲ್ಲಿ ವಿಚಿತ್ರವಾಗಿ ಕೇಳಿಸುತ್ತದೆ. ಅಲ್ಲಿ ಸೌಜನ್ಯಕ್ಕೆ: "May I have your name?"
+She's my cousin. | ಶಿಜ಼್ ಮೈ ˈಕಜ಼ನ್ | ಅವಳು ನನ್ನ ಸೋದರ ಸಂಬಂಧಿ ("cousin sister" ಬದಲು) | ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ cousin ಒಂದೇ ಪದ: cousin sister, cousin brother ಇಲ್ಲ. ಗಂಡೋ ಹೆಣ್ಣೋ ಎಂಬುದು he / she ಯಿಂದ ತಿಳಿಯುತ್ತದೆ. ಚಿಕ್ಕಪ್ಪ, ದೊಡ್ಡಪ್ಪ, ಮಾವ, ಅತ್ತೆ: ಇವರೆಲ್ಲರ ಮಕ್ಕಳೂ cousin.
+Please take care of it. | ಪ್ಲೀಜ಼್ ಟೇಕ್ ಕೆರ್ ಅವ಼್ ಇಟ್ | ದಯವಿಟ್ಟು ಅದನ್ನು ನೋಡಿಕೊಳ್ಳಿ ("do the needful" ಬದಲು) | "Please do the needful" ಭಾರತದ ಆಫೀಸ್ ಪತ್ರಗಳ ಹಳೆಯ ರೂಪ; ವಿದೇಶದಲ್ಲಿ ಬಳಕೆಯಲ್ಲಿಲ್ಲ. ಏನು ಮಾಡಬೇಕೆಂದು ನೇರವಾಗಿ ಹೇಳುವುದು ಇನ್ನೂ ಉತ್ತಮ: "Could you approve this by Friday?"
+I'll get back to you by Friday. | ಐಲ್ ಗೆಟ್ ಬ್ಯಾಕ್ ಟ ಯು ಬೈ ˈಫ಼್ರೈಡೇ | ಶುಕ್ರವಾರದೊಳಗೆ ನಿಮಗೆ ಉತ್ತರಿಸುತ್ತೇನೆ ("revert" ಬದಲು) | ವಿದೇಶದಲ್ಲಿ revert = ಹಿಂದಿನ ಸ್ಥಿತಿಗೆ ಮರಳುವುದು; "ಉತ್ತರಿಸುವುದು" ಅಲ್ಲ. "revert back" ಎಲ್ಲೂ ಸರಿಯಲ್ಲ: back ಅನಗತ್ಯ.
+I graduated in 2019. | ಐ ˈಗ್ರ್ಯಾಜುಏಟಿಡ್ ಇನ್ ˈಟ್ವೆನ್ಟಿ ನೈನ್ˈಟೀನ್ | ನಾನು 2019 ರಲ್ಲಿ ಪದವಿ ಮುಗಿಸಿದೆ ("passed out" ಬದಲು) | ವಿದೇಶದಲ್ಲಿ pass out = ಪ್ರಜ್ಞೆ ತಪ್ಪುವುದು! ಪದವಿ ಮುಗಿಸುವುದಕ್ಕೆ graduate. ವರ್ಷವನ್ನು ಎರಡು ಭಾಗ ಮಾಡಿ ಓದುತ್ತಾರೆ: twenty nineteen.
+My hometown is Mysuru. | ಮೈ ˈಹೋಮ್ಟೌನ್ ಇಜ಼್ ಮೈˈಸುರೂ | ನನ್ನ ಊರು ಮೈಸೂರು ("native place" ಬದಲು) | native place, "my native" ಭಾರತದ ಇಂಗ್ಲಿಷ್; ವಿದೇಶದಲ್ಲಿ hometown. "I'm from Mysuru." ಇನ್ನೂ ಸರಳ.
+Let's eat at a restaurant. | ಲೆಟ್ಸ್ ಈಟ್ ಅಟ್ ಅ ˈರೆಸ್ಟರಾನ್ಟ್ | ಹೋಟೆಲ್‌ನಲ್ಲಿ ಊಟ ಮಾಡೋಣ ("hotel" ಬದಲು) | ವಿದೇಶದಲ್ಲಿ hotel ಉಳಿದುಕೊಳ್ಳುವ ಜಾಗ ಮಾತ್ರ. ಊಟ, ತಿಂಡಿಯ ಜಾಗ restaurant ಅಥವಾ cafe. "Let's go to a hotel" ಎಂದರೆ ತಪ್ಪು ಅರ್ಥ ಬರುತ್ತದೆ.
+Can you finish it today? | ಕನ್ ಯು ˈಫ಼ಿನಿಶ್ ಇಟ್ ಟˈಡೇ | ಇವತ್ತೇ ಮುಗಿಸುತ್ತೀರಾ? ("today itself" ಬದಲು) | ಕನ್ನಡದ -ಏ (ಇವತ್ತೇ) ಎಂಬುದಕ್ಕೆ itself ಹಾಕುವುದು ಭಾರತದ ರೂಪ. ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಒತ್ತು ಧ್ವನಿಯಿಂದ ಬರುತ್ತದೆ: today ಯನ್ನು ಗಟ್ಟಿಯಾಗಿ ಹೇಳಿ. ಬೇಕಾದರೆ "by the end of the day".
+I'm right here. | ಐಮ್ ರೈಟ್ ಹಿರ್ | ನಾನು ಇಲ್ಲೇ ಇದ್ದೇನೆ ("here only" ಬದಲು) | ಕನ್ನಡದ -ಏ ಎಂಬುದಕ್ಕೆ only ಅಲ್ಲ; only = ಮಾತ್ರ. ಇಲ್ಲೇ = right here; ಈಗಲೇ = right now.
+You're coming tomorrow, aren't you? | ಯುರ್ ˈಕಮಿಙ್ ಟˈಮಾರೋ ಆರ್ನ್ಟ್ ಯು | ನಾಳೆ ಬರುತ್ತೀರಿ, ಅಲ್ವಾ? ("isn't it?" ಬದಲು) | ಕನ್ನಡದ "ಅಲ್ವಾ?" ಎಲ್ಲ ವಾಕ್ಯಕ್ಕೂ ಒಂದೇ. ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಕೊನೆಯ ಚಿಕ್ಕ ಪ್ರಶ್ನೆ ವಾಕ್ಯದ ಕ್ರಿಯಾಪದಕ್ಕೆ ತಕ್ಕಂತೆ ಬದಲಾಗುತ್ತದೆ: You are → aren't you? He works → doesn't he? ಎಲ್ಲ ಕಡೆ "isn't it?" ಅಥವಾ "no?" ಹಾಕಬೇಡಿ. ಸುಲಭ ದಾರಿ: "…, right?"
+We're moving to Mumbai next month. | ವಿರ್ ˈಮೂವ಼ಿಙ್ ಟ ಮುಮ್ˈಬೈ ನೆಕ್ಸ್ಟ್ ಮನ್ಥ಼್ | ಮುಂದಿನ ತಿಂಗಳು ನಾವು ಮುಂಬೈಗೆ ಹೋಗಿ ನೆಲೆಸುತ್ತಿದ್ದೇವೆ ("shifting" ಬದಲು) | ಮನೆ ಅಥವಾ ಊರು ಬದಲಿಸುವುದಕ್ಕೆ ಭಾರತದಲ್ಲಿ shift; ವಿದೇಶದಲ್ಲಿ move. ಅಲ್ಲಿ shift = ಕೆಲಸದ ಪಾಳಿ, ಅಥವಾ ಸ್ವಲ್ಪ ಸರಿಸುವುದು.
+Hi, I'm Kiran. | ಹೈ ಐಮ್ ˈಕಿರನ್ | ಹಾಯ್, ನಾನು ಕಿರಣ್ ("Myself Kiran" ಬದಲು) | "Myself Kiran" ಎಲ್ಲೂ ಸರಿಯಲ್ಲ: myself ವಾಕ್ಯದ ಕರ್ತೃ ಆಗುವುದಿಲ್ಲ. "I'm Kiran." ಅಥವಾ "My name is Kiran."
+Let's discuss the plan. | ಲೆಟ್ಸ್ ಡಿˈಸ್ಕಸ್ ದ಼ ಪ್ಲ್ಯಾನ್ | ಪ್ಲಾನ್ ಬಗ್ಗೆ ಚರ್ಚಿಸೋಣ ("discuss about" ಬದಲು) | ಕನ್ನಡದ "ಬಗ್ಗೆ" ಯಿಂದಾಗಿ about ಸೇರಿಸುತ್ತೇವೆ; ಆದರೆ discuss ನಂತರ about ಇಲ್ಲ. talk about ಸರಿ, discuss about ತಪ್ಪು.
+I have a quick question. | ಐ ಹ್ಯಾವ಼್ ಅ ಕ್ವಿಕ್ ˈಕ್ವೆಸ್ಚನ್ | ನನ್ನದೊಂದು ಚಿಕ್ಕ ಪ್ರಶ್ನೆ ಇದೆ ("I have a doubt" ಬದಲು) | ಅರ್ಥವಾಗದ್ದನ್ನು ಕೇಳಲು question. ವಿದೇಶದಲ್ಲಿ doubt = ಅನುಮಾನ, ನಂಬಿಕೆ ಇಲ್ಲದಿರುವುದು: "I have a doubt" ಎಂದರೆ "ನಿಮ್ಮ ಮಾತಿನ ಮೇಲೆ ನನಗೆ ಅನುಮಾನ" ಎಂದು ಕೇಳಿಸಬಹುದು.
+He's angry with me. | ಹಿಜ಼್ ˈಆ್ಯಂಗ್ರಿ ವಿದ಼್ ಮಿ | ಅವನಿಗೆ ನನ್ನ ಮೇಲೆ ಕೋಪ ("angry on me" ಬದಲು) | ಕನ್ನಡದ "ಮೇಲೆ" ಯನ್ನು on ಎಂದು ಅನುವಾದಿಸಬೇಡಿ: ವ್ಯಕ್ತಿಯ ಮೇಲಿನ ಕೋಪಕ್ಕೆ angry with ಅಥವಾ angry at.
+I called you this morning. | ಐ ಕಾಲ್ಡ್ ಯು ದ಼ಿಸ್ ˈಮೋರ್ನಿಙ್ | ಇವತ್ತು ಬೆಳಿಗ್ಗೆ ನಿಮಗೆ ಕರೆ ಮಾಡಿದ್ದೆ ("today morning" ಬದಲು) | "ಇವತ್ತು ಬೆಳಿಗ್ಗೆ" = this morning; "ನಿನ್ನೆ ರಾತ್ರಿ" = last night ("yesterday night" ಅಲ್ಲ). call ನಂತರ to ಇಲ್ಲ: "called to you" ತಪ್ಪು.
+I'm heading out. See you later. | ಐಮ್ ˈಹೆಡಿಙ್ ಔಟ್. ಸೀ ಯು ˈಲೇಟರ್ | ನಾನು ಹೋಗಿ ಬರುತ್ತೇನೆ ("I'll go and come" ಬದಲು) | "ಹೋಗಿ ಬರುತ್ತೇನೆ" ಕನ್ನಡದ ಶುಭದ ವಿದಾಯ; ಅದರ ನೇರ ಅನುವಾದ "I'll go and come" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಇಲ್ಲ. ಹೊರಡುವಾಗ: I'm heading out ಅಥವಾ I'm off.
+How's your day going? | ಹೌಜ಼್ ಯುರ್ ಡೇ ˈಗೋಇಙ್ | ದಿನ ಹೇಗೆ ನಡೆಯುತ್ತಿದೆ? ("Had your lunch?" ಬದಲು) | "ಊಟ ಆಯ್ತಾ?" ನಮ್ಮಲ್ಲಿ ಕುಶಲ ಪ್ರಶ್ನೆ. ವಿದೇಶದಲ್ಲಿ "Had your lunch?" ಎಂದರೆ ಊಟಕ್ಕೆ ಕರೆಯುತ್ತಿದ್ದೀರಿ ಎಂದು ತಿಳಿಯಬಹುದು. ಕುಶಲ ಕೇಳಲು ಈ ಪ್ರಶ್ನೆ ಬಳಸಿ.
+How can I help you? | ಹೌ ಕನ್ ಐ ಹೆಲ್ಪ್ ಯು | ಹೇಳಿ, ಏನಾಗಬೇಕಿತ್ತು? ("Tell me" ಬದಲು) | ಫೋನ್ ಎತ್ತಿದಾಗ ಅಥವಾ ಕೌಂಟರ್‌ನಲ್ಲಿ ಕನ್ನಡದಲ್ಲಿ "ಹೇಳಿ" ಎನ್ನುತ್ತೇವೆ. ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಬರೀ "Tell me." ಆಜ್ಞೆಯಂತೆ, ಒರಟಾಗಿ ಕೇಳಿಸುತ್ತದೆ.
+I was just asking. | ಐ ವಜ಼್ ಜಸ್ಟ್ ˈಆ್ಯಸ್ಕಿಙ್ | ಸುಮ್ಮನೆ ಕೇಳಿದೆ ("I simply asked" ಬದಲು) | ಕನ್ನಡದ "ಸುಮ್ಮನೆ" = just; simply ಎಂದರೆ "ಸರಳವಾಗಿ". "ಸುಮ್ಮನೆ ಬಂದೆ" = "I just dropped by."
+I'll be right back. | ಐಲ್ ಬಿ ರೈಟ್ ಬ್ಯಾಕ್ | ಒಂದು ನಿಮಿಷ, ಬಂದೆ ("One minute, I'll come" ಬದಲು) | ಕನ್ನಡದ "ಬಂದೆ / ಬರುತ್ತೇನೆ" ಯ ನೇರ ಅನುವಾದ "I'll come" ಅಪೂರ್ಣವಾಗಿ ಕೇಳಿಸುತ್ತದೆ. ಸ್ವಲ್ಪ ಹೊತ್ತಿನಲ್ಲಿ ಮರಳುವುದಕ್ಕೆ be right back; ಚಾಟ್‌ನಲ್ಲಿ BRB.
+Could you make some room? | ಕಡ್ ಯು ಮೇಕ್ ಸಮ್ ರೂಮ್ | ಸ್ವಲ್ಪ ಜಾಗ ಬಿಡುತ್ತೀರಾ? ("Please adjust" ಬದಲು) | "ಸ್ವಲ್ಪ ಅಡ್ಜಸ್ಟ್ ಮಾಡಿ" ಎಂಬುದರ ಅನುವಾದ "Please adjust" ವಿದೇಶದಲ್ಲಿ ಅರ್ಥವಾಗುವುದಿಲ್ಲ: ಅಲ್ಲಿ adjust = ಸರಿಹೊಂದಿಸುವುದು (ಸೀಟು, ಧ್ವನಿ). ಜಾಗ ಕೇಳಲು make room ಅಥವಾ "Could you scoot over?"
 `
 };

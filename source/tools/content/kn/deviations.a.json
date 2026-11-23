@@ -1,0 +1,16 @@
+{
+  "lessons": {},
+  "items": {},
+  "decks": {
+    "ಸ್ವಪರಿಚಯ": "localisation per profile kn.md §9 (Minji→Divya, Korea→India, Seoul→Bengaluru; same positions as zh / hi): cards 0 'My name is Divya.', 4 'I'm from India.', 5 'I live in Bengaluru.'",
+    "ಅತ್ಯಗತ್ಯ ಇಂಗ್ಲಿಷ್ 1": "localisation per profile kn.md §9: card 12 'Do you speak Korean?' → 'Do you speak Kannada?' (learner's own language)",
+    "ಲೋಕಾಭಿರಾಮ ಮಾತುಕತೆ": "localisation per profile kn.md §9: card 6 'Have you been to Korea?' → 'Have you been to India?'",
+    "ಮೆಚ್ಚುಗೆ ಮತ್ತು ಇಷ್ಟ": "localisation per profile kn.md §9: card 8 'Your Korean is really good!' → 'Your Kannada is really good!'",
+    "ಕಾಲ್ ಮತ್ತು ಚಾಟ್ ಸಂಕ್ಷಿಪ್ತ ರೂಪ": "localisation per profile kn.md §9 (Minji→Divya; surname in the formal call, Mr. Kim→Mr. Rao): cards 0 'Hello, this is Divya.', 1 'Can I speak to Mr. Rao?'",
+    "ಪ್ರಯಾಣ (ವಿಮಾನ ನಿಲ್ದಾಣ ಮತ್ತು ಹೋಟೆಲ್)": "localisation per profile kn.md §9: card 8 reservation name 'under Kim' → 'under Rao' (surname)",
+    "ಆಸ್ಪತ್ರೆ ಮತ್ತು ತುರ್ತು ಪರಿಸ್ಥಿತಿ": "localisation per profile kn.md §9: card 15 'the Korean embassy' → 'the Indian embassy' (learner's own embassy)",
+    "ಉಚ್ಚಾರಣೆ: ಎಚ್ಚರ": "kn-only cards appended per profile kn.md §9 and brief kn-A (cards 26–50, after the 26 shared cards, which are unchanged): bus, car, book, film, school (no added final or initial vowel); happy, dinner (no doubled consonant); zoo / Jew, zero, easy (z, not j or s); vine / wine, vest / west (v vs w); law / low, caught / coat, saw / so (open aa vs o); asked, months (final clusters); about, photography (stress). coffee is already card 6 and is reused. The letter names F, L, M, N, S, X, H, Z named in the profile cannot be added here because targets must be unique across decks (they are the cards of the alphabet deck): their glide and h- warnings are in the notes of the alphabet deck instead",
+    "ಇಂಡಿಯನ್ ಇಂಗ್ಲಿಷ್: ಇಲ್ಲಿ ಮತ್ತು ವಿದೇಶದಲ್ಲಿ": "kn-only deck (profile kn.md §4.12 / §8 indian-english / §9, 24 cards), started from hi-en's deck with the Hindi-calque group replaced by the Kannada one: the international form is the answer and the Indian or Kannada-shaped form is the cue in the meaning (prepone, out of station, good name, cousin sister, do the needful, revert, passed out, native place, hotel, today itself, here only, isn't it?, shifting, Myself…, discuss about, I have a doubt, angry on me, today morning, I'll go and come, Had your lunch?, Tell me, I simply asked, One minute I'll come, Please adjust). English strings shared with hi-en are identical except the names (Rahul→Kiran, Jaipur→Mysuru). Linked to the kn-only lesson indian-english; no ko-en counterpart",
+    "count": "deck count 22 vs ko-en 21: kn-only deck «ಇಂಡಿಯನ್ ಇಂಗ್ಲಿಷ್: ಇಲ್ಲಿ ಮತ್ತು ವಿದೇಶದಲ್ಲಿ» (profile kn.md §9, DECKNAMES row 22) appended last"
+  }
+}
