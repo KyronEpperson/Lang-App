@@ -1,453 +1,454 @@
-/* TRANSLATE/ADAPT (kn): scaffolded from tools/content/ko/more/a1.js by new_lang.js.
-   Translate/adapt everything that is not English (the ko text) for kn speakers (prompts, why, hint, meanings, pron per profile.json, deck and group names,
-   explanations written from the kn point of view — PILOT-SPEC §3). Keep every English string, lesson id and answer position
-   identical to ko-en unless deviations.json gives a reason (parity.js enforces it). Delete this banner when the file is done. */
-/* ko-en stage A1: new lessons (source of truth). Shorthand is expanded by _dsl.js. */
+/* kn-en stage A1: new lessons (source of truth). Shorthand is expanded by _dsl.js. */
 module.exports = [
-{ id:"it-there", title:"it과 there: 주어 자리 채우기", blurb:"날씨·시간은 it, '~이 있어요'는 there is / there are.", deck:"스몰토크", body:`
-<p>한국어는 "추워요", "카페가 있어요"처럼 주어 없이도 말이 돼요. 영어는 주어 자리가 비면 안 돼요. 그래서 뜻이 없는 <b>it</b>과 <b>there</b>로 그 자리를 채워요.</p>
-<h3>날씨·시간은 It</h3>
-<p>이때 it은 '그것'이 아니에요. 자리만 채우는 말이에요.</p>
-{{ex:It's cold today.|이츠 콜드 투데이|오늘 추워요}}{{ex:It's three o'clock.|이츠 쓰리 어클락|세 시예요}}{{ex:It's raining.|이츠 레이닝|비가 와요}}
-<h3>'~이 있어요'는 There is / There are</h3>
-<p>하나면 <b>There is a …</b>, 여럿이면 <b>There are … -s</b>예요. 말할 때는 There's로 줄여요.</p>
-{{ex:There's a cafe near here.|데어즈 어 캐페이 니어 히어|이 근처에 카페가 있어요}}{{ex:There are two rooms.|데어 아 투 룸즈|방이 두 개 있어요}}
-<h3>질문과 부정</h3>
-{{ex:Is there a bathroom here?|이즈 데어 어 배쓰룸 히어?|여기 화장실 있어요?}}{{ex:Are there any seats?|아 데어 애니 싯츠?|자리 있어요?}}{{ex:There isn't a bus today.|데어 이즌 어 버스 투데이|오늘은 버스가 없어요}}
-<h3>have와 구분하기</h3>
-<p>사람이 가진 것은 <b>have</b>, 어떤 장소에 있는 것은 <b>there is</b>예요.</p>
-{{ex:I have a car.|아이 해버 카|저는 차가 있어요}}{{ex:There's a car outside.|데어즈 어 카 아웃사이드|밖에 차가 있어요}}
-<div class="tip">가장 흔한 실수: <b>Is cold.</b> (X) → <b>It's cold.</b> (O) / <b>Have a cafe here.</b> (X) → <b>There's a cafe here.</b> (O)</div>`,
-check:[["'오늘 더워요'를 영어로 하면?",["Is hot today.","Today hot.","It's hot today.","There is hot today."],2,"날씨는 it으로 주어 자리를 채워요."],["There ___ three people. 빈칸에 알맞은 것은?",["is","are","have","be"],1,"여럿이면 there are예요."],["'여기 화장실 있어요?'를 영어로 하면?",["Is there a bathroom here?","Have a bathroom here?","Is it a bathroom here?","There is bathroom here?"],0,"있는지 물을 때는 Is there a ~?예요."]],
+{ id:"it-there", title:"it ಮತ್ತು there: ಕರ್ತೃವಿನ ಜಾಗ ತುಂಬುವುದು", blurb:"ಹವಾಮಾನ ಮತ್ತು ಸಮಯಕ್ಕೆ it; \"…ಇದೆ\" ಎನ್ನಲು there is / there are.", deck:"ಲೋಕಾಭಿರಾಮ ಮಾತುಕತೆ", body:`
+<p>ಕನ್ನಡದಲ್ಲಿ "ಚಳಿ ಇದೆ", "ತಡವಾಯಿತು", "ಹತ್ತಿರ ಒಂದು ಕೆಫೆ ಇದೆ" ಎನ್ನುತ್ತೇವೆ; "ಅದು" ತರಹದ ಪದ ಸೇರಿಸುವುದಿಲ್ಲ. ಇಂಗ್ಲಿಷ್ ವಾಕ್ಯದಲ್ಲಿ ಕರ್ತೃವಿನ (subject) ಜಾಗ ಖಾಲಿ ಇರಬಾರದು. ಹಾಗಾಗಿ ಅರ್ಥವಿಲ್ಲದ <b>it</b> ಮತ್ತು <b>there</b> ಆ ಜಾಗವನ್ನು ತುಂಬುತ್ತವೆ.</p>
+<h3>ಹವಾಮಾನ ಮತ್ತು ಸಮಯಕ್ಕೆ It</h3>
+<p>ಇಲ್ಲಿ it ಎಂದರೆ "ಅದು" ಅಲ್ಲ. ಇದು ಜಾಗ ತುಂಬುವ ಪದ ಮಾತ್ರ.</p>
+{{ex:It's cold today.|ಇಟ್ಸ್ ಕೋಲ್ಡ್ ಟˈಡೇ|ಇವತ್ತು ಚಳಿ ಇದೆ}}{{ex:It's three o'clock.|ಇಟ್ಸ್ ಥ಼್ರೀ ಅˈಕ್ಲಾಕ್|ಈಗ ಮೂರು ಗಂಟೆ}}{{ex:It's raining.|ಇಟ್ಸ್ ˈರೇನಿಙ್|ಮಳೆ ಬರುತ್ತಿದೆ}}
+<h3>"…ಇದೆ" ಎನ್ನಲು There is / There are</h3>
+<p>ಒಂದೇ ಇದ್ದರೆ <b>There is a …</b>, ಹೆಚ್ಚು ಇದ್ದರೆ <b>There are … -s</b>. ಮಾತಿನಲ್ಲಿ There's ಎಂದು ಚಿಕ್ಕದಾಗುತ್ತದೆ. ಕನ್ನಡದಲ್ಲಿ "ಇದೆ" ವಾಕ್ಯದ ಕೊನೆಗೆ ಬರುತ್ತದೆ; ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ There is ವಾಕ್ಯದ ಮೊದಲಿಗೆ ಬರುತ್ತದೆ.</p>
+{{ex:There's a cafe near here.|ದ಼ೆರ್ಜ಼್ ಅ ಕ್ಯಾˈಫ಼ೇ ನಿರ್ ಹಿರ್|ಇಲ್ಲಿ ಹತ್ತಿರ ಒಂದು ಕೆಫೆ ಇದೆ}}{{ex:There are two rooms.|ದ಼ೆರ್ ಅರ್ ಟೂ ರೂಮ್ಜ಼್|ಎರಡು ರೂಮ್ ಇವೆ}}
+<h3>ಪ್ರಶ್ನೆ ಮತ್ತು ನಿಷೇಧ</h3>
+{{ex:Is there a bathroom here?|ಇಜ಼್ ದ಼ೆರ್ ಅ ˈಬ್ಯಾಥ಼್ರೂಮ್ ಹಿರ್|ಇಲ್ಲಿ ಶೌಚಾಲಯ ಇದೆಯಾ?}}{{ex:Are there any seats?|ಅರ್ ದ಼ೆರ್ ˈಎನಿ ಸೀಟ್ಸ್|ಸೀಟ್ ಇವೆಯಾ?}}{{ex:There isn't a bus today.|ದ಼ೆರ್ ˈಇಜ಼ನ್ಟ್ ಅ ಬಸ್ ಟˈಡೇ|ಇವತ್ತು ಬಸ್ ಇಲ್ಲ}}
+<h3>have ಜೊತೆ ಗೊಂದಲ ಬೇಡ</h3>
+<p>ಒಬ್ಬರ ಹತ್ತಿರ ಇರುವುದಕ್ಕೆ <b>have</b>, ಒಂದು ಜಾಗದಲ್ಲಿ ಇರುವುದಕ್ಕೆ <b>there is</b>. ಕನ್ನಡದಲ್ಲಿ ಎರಡಕ್ಕೂ "ಇದೆ".</p>
+{{ex:I have a car.|ಐ ಹ್ಯಾವ಼್ ಅ ಕಾರ್|ನನ್ನ ಹತ್ತಿರ ಕಾರು ಇದೆ}}{{ex:There's a car outside.|ದ಼ೆರ್ಜ಼್ ಅ ಕಾರ್ ಔಟ್ˈಸೈಡ್|ಹೊರಗೆ ಒಂದು ಕಾರು ಇದೆ}}
+<div class="tip">ಅತಿ ಸಾಮಾನ್ಯ ತಪ್ಪು: <b>Is cold.</b> ✗ → <b>It's cold.</b> ✓ / <b>Is raining.</b> ✗ → <b>It's raining.</b> ✓ / <b>Near here one cafe is there.</b> ✗ → <b>There's a cafe near here.</b> ✓</div>`,
+check:[["\"ಇವತ್ತು ಸೆಕೆ ಇದೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?",["Is hot today.","Today hot.","It's hot today.","There is hot today."],2,"ಹವಾಮಾನ ಹೇಳುವಾಗ ಕರ್ತೃವಿನ ಜಾಗಕ್ಕೆ it ಬರುತ್ತದೆ."],["There ___ three people. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["is","are","have","be"],1,"ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಇದ್ದರೆ there are."],["\"ಇಲ್ಲಿ ಶೌಚಾಲಯ ಇದೆಯಾ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?",["Is there a bathroom here?","Have a bathroom here?","Is it a bathroom here?","There is bathroom here?"],0,"ಇದೆಯೇ ಎಂದು ಕೇಳಲು Is there a …?"]],
 practice:[
-["mc","'비가 와요' =","It's raining.","Is raining.","There is raining.","Rain is.","날씨는 it이 주어예요."],
-["mc","'이 근처에 카페가 있어요' =","There's a cafe near here.","It's a cafe near here.","Have a cafe near here.","There are a cafe near here.","장소에 있는 것은 there is, 하나라서 관사 a를 붙여요."],
-["mc","There ___ two rooms. 빈칸은?","are","is","have","has","복수 rooms라서 are예요."],
-["mc","'세 시예요' =","It's three o'clock.","There's three o'clock.","Is three o'clock.","Three o'clock is.","시간도 it으로 시작해요."],
-["mc","'저는 차가 있어요' =","I have a car.","There is a car me.","I am a car.","It's a car me.","사람이 가진 것은 have예요."],
-["or","오늘 추워요","It's cold today","There's","날씨는 it이 주어예요."],
-["or","밖에 차가 있어요","There's a car outside","cars","하나니까 관사 a와 단수 car를 써요."],
-["or","자리가 두 개 있어요","There are two seats","seat is","둘 이상이면 are와 복수 seats예요."],
-["fi","__ cold today.","오늘 추워요","It's|It is","Is|There's|This","주어 자리를 it으로 채워요."],
-["fi","There __ a bank near here.","근처에 은행이 있어요","is","are|have|be","하나라서 is예요."],
-["fi","__ there any seats?","자리 있어요?","Are","Is|Do|Have","복수 seats라서 Are예요."],
-["ty","오늘 더워요","It's hot today","it · hot · today — 날씨는 it","There's","날씨는 it으로 시작해요."],
-["ty","여기 화장실 있어요?","Is there a bathroom here|Is there a restroom here","is there · bathroom — 관사 주의","the","처음 묻는 하나라서 관사 a를 붙여요."],
-["ty","방이 두 개 있어요","There are two rooms","there are · two · room — 복수","room","둘이니까 복수 rooms예요."]]},
+["mc","\"ಮಳೆ ಬರುತ್ತಿದೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","It's raining.","Is raining.","There is raining.","Rain is.","ಹವಾಮಾನ ಹೇಳುವಾಗ ಕರ್ತೃ it."],
+["mc","\"ಇಲ್ಲಿ ಹತ್ತಿರ ಒಂದು ಕೆಫೆ ಇದೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","There's a cafe near here.","It's a cafe near here.","Have a cafe near here.","There are a cafe near here.","ಒಂದು ಜಾಗದಲ್ಲಿ ಇರುವುದಕ್ಕೆ there is; ಒಂದೇ ಕೆಫೆ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a."],
+["mc","There ___ two rooms.","are","is","have","has","rooms ಬಹುವಚನ, ಹಾಗಾಗಿ are."],
+["mc","\"ಈಗ ಮೂರು ಗಂಟೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","It's three o'clock.","There's three o'clock.","Is three o'clock.","Three o'clock is.","ಸಮಯ ಹೇಳುವಾಗಲೂ ವಾಕ್ಯ it ನಿಂದ ಶುರುವಾಗುತ್ತದೆ."],
+["mc","\"ನನ್ನ ಹತ್ತಿರ ಕಾರು ಇದೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I have a car.","There is a car me.","I am a car.","It's a car me.","ಒಬ್ಬರ ಹತ್ತಿರ ಇರುವುದಕ್ಕೆ have."],
+["or","ಇವತ್ತು ಚಳಿ ಇದೆ","It's cold today","There's","ಹವಾಮಾನ ಹೇಳುವಾಗ ಕರ್ತೃ it."],
+["or","ಹೊರಗೆ ಒಂದು ಕಾರು ಇದೆ","There's a car outside","cars","ಒಂದೇ ಕಾರು: ಆರ್ಟಿಕಲ್ a ಮತ್ತು ಏಕವಚನ car."],
+["or","ಎರಡು ಸೀಟ್ ಇವೆ","There are two seats","seat is","ಎರಡು ಇರುವುದರಿಂದ are ಮತ್ತು ಬಹುವಚನ seats."],
+["fi","__ cold today.","ಇವತ್ತು ಚಳಿ ಇದೆ","It's|It is","Is|There's|This","ಕರ್ತೃವಿನ ಜಾಗಕ್ಕೆ it ಬರುತ್ತದೆ."],
+["fi","There __ a bank near here.","ಇಲ್ಲಿ ಹತ್ತಿರ ಒಂದು ಬ್ಯಾಂಕ್ ಇದೆ","is","are|have|be","ಒಂದೇ ಬ್ಯಾಂಕ್, ಹಾಗಾಗಿ is."],
+["fi","__ there any seats?","ಸೀಟ್ ಇವೆಯಾ?","Are","Is|Do|Have","seats ಬಹುವಚನ, ಹಾಗಾಗಿ Are."],
+["ty","ಇವತ್ತು ಸೆಕೆ ಇದೆ","It's hot today","it · hot · today — ಹವಾಮಾನಕ್ಕೆ it","There's","ಹವಾಮಾನ ಹೇಳುವಾಗ ವಾಕ್ಯ it ನಿಂದ ಶುರುವಾಗುತ್ತದೆ."],
+["ty","ಇಲ್ಲಿ ಶೌಚಾಲಯ ಇದೆಯಾ?","Is there a bathroom here|Is there a restroom here","is there · bathroom — ಆರ್ಟಿಕಲ್ ನೆನಪಿಡಿ","the","ಮೊದಲ ಸಲ ಕೇಳುತ್ತಿರುವ ಒಂದು ವಸ್ತು, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a."],
+["ty","ಎರಡು ರೂಮ್ ಇವೆ","There are two rooms","there are · two · room — ಬಹುವಚನ","room","ಎರಡು ಇರುವುದರಿಂದ ಬಹುವಚನ rooms."]]},
 
-{ id:"plurals", title:"복수 -s와 this / these, my / your", blurb:"둘 이상이면 꼭 -s. this는 하나, these는 여럿.", deck:"쇼핑·계산", body:`
-<p>한국어는 "사과 세 개"처럼 명사 모양이 그대로예요. 영어는 둘 이상이면 명사에 꼭 <b>-s</b>를 붙여요. 한국인이 가장 자주 빼먹는 부분이에요.</p>
-<h3>복수 만들기</h3>
-<div class="tbl"><table><tr><th>규칙</th><th>예</th></tr><tr><td>대부분 -s</td><td class="k">book → books</td></tr><tr><td>s·x·ch·sh 뒤 -es</td><td class="k">box → boxes</td></tr><tr><td>자음 + y → -ies</td><td class="k">city → cities</td></tr><tr><td>불규칙</td><td class="k">man → men · child → children · person → people</td></tr></table></div>
-{{ex:two books|투 북스|책 두 권}}{{ex:three boxes|쓰리 박시즈|상자 세 개}}{{ex:I have two children.|아이 해브 투 칠드런|저는 아이가 둘 있어요}}
-<h3>this / that 은 하나, these / those 는 여럿</h3>
-{{ex:This is my bag.|디스 이즈 마이 백|이건 제 가방이에요}}{{ex:These are my keys.|디즈 아 마이 키즈|이것들은 제 열쇠예요}}{{ex:Those shoes are nice.|도즈 슈즈 아 나이스|저 신발 예뻐요}}
+{ id:"plurals", title:"ಬಹುವಚನ -s, this / these ಮತ್ತು my / your", blurb:"ಎರಡು ಅಥವಾ ಹೆಚ್ಚು ಇದ್ದರೆ -s ಬೇಕೇ ಬೇಕು. this ಒಂದಕ್ಕೆ, these ಹಲವಕ್ಕೆ.", deck:"ಶಾಪಿಂಗ್ ಮತ್ತು ಪಾವತಿ", body:`
+<p>ಕನ್ನಡದಲ್ಲಿ "ಎರಡು ಪುಸ್ತಕ", "ಮೂರು ಸೇಬು" ಎನ್ನಬಹುದು; ಸಂಖ್ಯೆಯ ನಂತರ ನಾಮಪದ ಬದಲಾಗಬೇಕಿಲ್ಲ. ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಎರಡು ಅಥವಾ ಹೆಚ್ಚು ಇದ್ದರೆ ನಾಮಪದಕ್ಕೆ <b>-s</b> ಬೇಕೇ ಬೇಕು: <b>two book</b> ✗ → <b>two books</b> ✓.</p>
+<h3>ಬಹುವಚನ ಮಾಡುವ ಬಗೆ</h3>
+<div class="tbl"><table><tr><th>ನಿಯಮ</th><th>ಉದಾಹರಣೆ</th></tr><tr><td>ಹೆಚ್ಚಿನ ಪದಗಳಿಗೆ -s</td><td class="k">book → books</td></tr><tr><td>s, x, ch, sh ನಂತರ -es</td><td class="k">box → boxes</td></tr><tr><td>ವ್ಯಂಜನ + y → -ies</td><td class="k">city → cities</td></tr><tr><td>ಅನಿಯಮಿತ</td><td class="k">man → men · child → children · person → people</td></tr></table></div>
+{{ex:two books|ಟೂ ಬುಕ್ಸ್|ಎರಡು ಪುಸ್ತಕ}}{{ex:three boxes|ಥ಼್ರೀ ˈಬಾಕ್ಸಿಜ಼್|ಮೂರು ಡಬ್ಬಿ}}{{ex:I have two children.|ಐ ಹ್ಯಾವ಼್ ಟೂ ˈಚಿಲ್ಡ್ರನ್|ನನಗೆ ಇಬ್ಬರು ಮಕ್ಕಳಿದ್ದಾರೆ}}
+<p>ಕೊನೆಯ -s ಅನ್ನು ಸ್ / ಜ಼್ / ಇಜ಼್ ಎಂದು ಹೇಳಿ; ಅದರ ನಂತರ ಸ್ವರ ಸೇರಿಸಬೇಡಿ. people, children ಈಗಾಗಲೇ ಬಹುವಚನ: <b>peoples</b>, <b>childrens</b> ✗.</p>
+<h3>this / that ಒಂದಕ್ಕೆ, these / those ಹಲವಕ್ಕೆ</h3>
+<p>ಕನ್ನಡದ "ಈ" ಮತ್ತು "ಆ" ಒಂದಕ್ಕೂ ಹಲವಕ್ಕೂ ಒಂದೇ (ಈ ಪುಸ್ತಕ, ಈ ಪುಸ್ತಕಗಳು). ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಬೇರೆ ಬೇರೆ ಪದ ಬೇಕು.</p>
+{{ex:This is my bag.|ದ಼ಿಸ್ ಇಜ಼್ ಮೈ ಬ್ಯಾಗ್|ಇದು ನನ್ನ ಬ್ಯಾಗ್}}{{ex:These are my keys.|ದ಼ೀಜ಼್ ಅರ್ ಮೈ ಕೀಜ಼್|ಇವು ನನ್ನ ಕೀಗಳು}}{{ex:Those shoes are nice.|ದ಼ೋಜ಼್ ಶೂಜ಼್ ಅರ್ ನೈಸ್|ಆ ಶೂಗಳು ಚೆನ್ನಾಗಿವೆ}}
 <h3>my, your, his, her, our, their</h3>
-<p>'누구의'를 말하는 단어예요. 이 단어가 있으면 a나 the를 같이 쓰지 않아요.</p>
-{{ex:Is this your phone?|이즈 디스 유어 폰?|이거 당신 휴대폰이에요?}}{{ex:Her brothers live in Busan.|허 브라더즈 리브 인 부산|그녀의 오빠들은 부산에 살아요}}
-<div class="tip">숫자, many, these, those 뒤의 명사는 항상 복수예요: <b>two friend</b> (X) → <b>two friends</b> (O), <b>my a bag</b> (X) → <b>my bag</b> (O)</div>`,
-check:[["I have two ___. 빈칸에 알맞은 것은?",["sister","sisters","a sister","sister's"],1,"둘이니까 복수 sisters예요."],["___ are my keys. 빈칸에 알맞은 것은?",["This","That","These","It"],2,"keys가 복수라서 These예요."],["'이건 제 가방이에요'를 영어로 하면?",["This is my a bag.","This is a my bag.","This is bag my.","This is my bag."],3,"my가 있으면 관사를 붙이지 않아요."]],
+<p>ಇವು ಯಾರದ್ದು ಎಂದು ತೋರಿಸುವ ಪದಗಳು. ಇವು ಇದ್ದರೆ ಜೊತೆಗೆ a ಅಥವಾ the ಬರುವುದಿಲ್ಲ. ಹೆಸರಿನ ಜೊತೆ <b>'s</b> ಬರುತ್ತದೆ: ದಿವ್ಯಾಳ ಫೋನ್ = <b>Divya's phone</b>.</p>
+{{ex:Is this your phone?|ಇಜ಼್ ದ಼ಿಸ್ ಯುರ್ ಫ಼ೋನ್|ಈ ಫೋನ್ ನಿಮ್ಮದಾ?}}{{ex:Her brothers live in Mysuru.|ಹರ್ ˈಬ್ರದ಼ರ್ಜ಼್ ಲಿವ಼್ ಇನ್ ಮೈˈಸುರೂ|ಅವಳ ಅಣ್ಣಂದಿರು ಮೈಸೂರಿನಲ್ಲಿ ಇದ್ದಾರೆ}}
+<div class="tip">ಸಂಖ್ಯೆ, many, these, those ನಂತರ ನಾಮಪದ ಯಾವಾಗಲೂ ಬಹುವಚನ: <b>two friend</b> ✗ → <b>two friends</b> ✓, <b>one of my friend</b> ✗ → <b>one of my friends</b> ✓, <b>my a bag</b> ✗ → <b>my bag</b> ✓</div>`,
+check:[["I have two ___. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["sister","sisters","a sister","sister's"],1,"ಇಬ್ಬರು ಇರುವುದರಿಂದ ಬಹುವಚನ sisters."],["___ are my keys. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["This","That","These","It"],2,"keys ಬಹುವಚನ, ಹಾಗಾಗಿ These."],["\"ಇದು ನನ್ನ ಬ್ಯಾಗ್\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?",["This is my a bag.","This is a my bag.","This is bag my.","This is my bag."],3,"my ಇದ್ದರೆ ಆರ್ಟಿಕಲ್ ಬೇಡ."]],
 practice:[
-["mc","'책 두 권' =","two books","two book","two a book","twos book","둘 이상이면 복수 -s를 붙여요."],
-["mc","child의 복수형은?","children","childs","childes","child","불규칙 복수예요."],
-["mc","___ shoes are nice. (저 신발)","Those","That","This","It","shoes가 복수라서 those예요."],
-["mc","'이건 제 가방이에요' =","This is my bag.","This is a my bag.","This is my a bag.","This is the my bag.","my와 관사는 같이 쓰지 않아요."],
-["mc","box의 복수형은?","boxes","boxs","boxies","box","s, x, ch, sh 뒤에는 -es예요."],
-["or","이것들은 제 열쇠예요","These are my keys","key This","여럿이라 these와 복수 keys를 써요."],
-["or","저는 아이가 둘 있어요","I have two children","child a","둘이니까 복수 children이에요. 관사 a는 빼요."],
-["or","저 신발 예뻐요","Those shoes are nice","That","shoes가 복수라서 those예요."],
-["fi","I have three __.","저는 고양이가 세 마리 있어요","cats","cat|a cat|cat's","셋이니까 복수 cats예요."],
-["fi","__ is my friend.","이 사람은 제 친구예요","This","These|Those|They","한 명이라서 this예요."],
-["fi","Two __, please.","커피 두 잔 주세요","coffees","coffee|a coffee|coffee's","잔 수를 세어 주문할 때는 coffees처럼 복수로 말해요."],
-["ty","이것들은 제 책이에요","These are my books","these · my · book — 복수","book","여럿이라 these와 복수 books예요."],
-["ty","저는 언니가 둘 있어요","I have two sisters","have · two · sister — 복수","sister","둘이니까 복수 sisters예요."],
-["ty","이건 제 가방이에요","This is my bag","this · my · bag — 관사 없이","a","my가 있으면 관사 a를 쓰지 않아요."]]},
-{ id:"present", title:"현재형과 어순: 주어 + 동사 + 목적어", blurb:"한국어는 동사가 끝, 영어는 동사가 두 번째예요.", deck:"자기소개", body:`
-<p>한국어는 "저는 커피를 <b>마셔요</b>"처럼 동사가 맨 끝에 와요. 영어는 <b>누가 → 한다 → 무엇을</b> 순서예요. 조사가 없기 때문에 이 순서가 곧 뜻이에요.</p>
-<h3>주어 + 동사 + 목적어</h3>
-{{ex:I drink coffee.|아이 드링크 커피|저는 커피를 마셔요}}{{ex:I study English.|아이 스터디 잉글리시|저는 영어를 공부해요}}
-<h3>장소와 시간은 뒤에</h3>
-<p>나머지 정보는 <b>장소 → 시간</b> 순서로 뒤에 붙여요.</p>
-{{ex:We live in Seoul.|위 리브 인 서울|우리는 서울에 살아요}}{{ex:I study English every day.|아이 스터디 잉글리시 에브리 데이|저는 매일 영어를 공부해요}}{{ex:They work on weekends.|데이 워크 온 위켄즈|그들은 주말에 일해요}}
-<h3>현재형은 습관과 사실</h3>
-<p>늘 하는 일, 변하지 않는 사실을 말해요. 부정은 동사 앞에 <b>don't</b>를 넣어요.</p>
-{{ex:I don't eat meat.|아이 돈 잇 밋|저는 고기를 안 먹어요}}
-<h3>얼마나 자주: always, usually, sometimes, never</h3>
-<p>이 단어들은 동사 <b>바로 앞</b>에 와요.</p>
-{{ex:I usually get up at seven.|아이 유주얼리 게럽 앳 세븐|저는 보통 7시에 일어나요}}{{ex:I never drink coffee at night.|아이 네버 드링크 커피 앳 나잇|저는 밤에는 커피를 절대 안 마셔요}}
-<div class="tip">한국어 순서대로 옮기면 틀려요: <b>I coffee drink.</b> (X) → <b>I drink coffee.</b> (O). 주어 다음에 바로 동사를 말하는 연습을 하세요.</div>`,
-check:[["'저는 커피를 마셔요'의 바른 어순은?",["I coffee drink.","Coffee I drink.","I drink coffee.","Drink I coffee."],2,"주어 + 동사 + 목적어 순서예요."],["I ___ eat meat. (안 먹어요)",["not","am not","no","don't"],3,"일반동사 부정은 don't예요."],["always의 알맞은 자리는?",["I always drink tea.","Always I drink tea.","I drink always tea.","I drink tea the always."],0,"빈도 부사는 동사 바로 앞에 와요."]],
+["mc","\"ಎರಡು ಪುಸ್ತಕ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","two books","two book","two a book","twos book","ಎರಡು ಅಥವಾ ಹೆಚ್ಚು ಇದ್ದರೆ ಬಹುವಚನ -s ಬೇಕು."],
+["mc","child ಪದದ ಬಹುವಚನ ಯಾವುದು?","children","childs","childes","child","ಇದು ಅನಿಯಮಿತ ಬಹುವಚನ."],
+["mc","___ shoes are nice. (ಆ ಶೂಗಳು)","Those","That","This","It","shoes ಬಹುವಚನ, ಹಾಗಾಗಿ those."],
+["mc","\"ಇದು ನನ್ನ ಬ್ಯಾಗ್\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","This is my bag.","This is a my bag.","This is my a bag.","This is the my bag.","my ಮತ್ತು ಆರ್ಟಿಕಲ್ ಒಟ್ಟಿಗೆ ಬರುವುದಿಲ್ಲ."],
+["mc","box ಪದದ ಬಹುವಚನ ಯಾವುದು?","boxes","boxs","boxies","box","s, x, ch, sh ನಂತರ -es ಬರುತ್ತದೆ."],
+["or","ಇವು ನನ್ನ ಕೀಗಳು","These are my keys","key This","ಹಲವು ಇರುವುದರಿಂದ these ಮತ್ತು ಬಹುವಚನ keys."],
+["or","ನನಗೆ ಇಬ್ಬರು ಮಕ್ಕಳಿದ್ದಾರೆ","I have two children","child a","ಇಬ್ಬರು ಇರುವುದರಿಂದ ಬಹುವಚನ children. ಆರ್ಟಿಕಲ್ a ಬೇಡ."],
+["or","ಆ ಶೂಗಳು ಚೆನ್ನಾಗಿವೆ","Those shoes are nice","That","shoes ಬಹುವಚನ, ಹಾಗಾಗಿ those."],
+["fi","I have three __.","ನನ್ನ ಹತ್ತಿರ ಮೂರು ಬೆಕ್ಕು ಇವೆ","cats","cat|a cat|cat's","ಮೂರು ಇರುವುದರಿಂದ ಬಹುವಚನ cats."],
+["fi","__ is my friend.","ಇವನು ನನ್ನ ಸ್ನೇಹಿತ","This","These|Those|They","ಒಬ್ಬನೇ ಇರುವುದರಿಂದ this."],
+["fi","Two __, please.","ಎರಡು ಕಾಫಿ ಕೊಡಿ","coffees","coffee|a coffee|coffee's","ಕಪ್‌ಗಳ ಲೆಕ್ಕದಲ್ಲಿ ಆರ್ಡರ್ ಮಾಡುವಾಗ coffees ಎಂದು ಬಹುವಚನದಲ್ಲಿ ಹೇಳುತ್ತಾರೆ."],
+["ty","ಇವು ನನ್ನ ಪುಸ್ತಕಗಳು","These are my books","these · my · book — ಬಹುವಚನ","book","ಹಲವು ಇರುವುದರಿಂದ these ಮತ್ತು ಬಹುವಚನ books."],
+["ty","ನನಗೆ ಇಬ್ಬರು ಅಕ್ಕಂದಿರು ಇದ್ದಾರೆ","I have two sisters","have · two · sister — ಬಹುವಚನ","sister","ಇಬ್ಬರು ಇರುವುದರಿಂದ ಬಹುವಚನ sisters."],
+["ty","ಇದು ನನ್ನ ಬ್ಯಾಗ್","This is my bag","this · my · bag — ಆರ್ಟಿಕಲ್ ಇಲ್ಲದೆ","a","my ಇದ್ದರೆ ಆರ್ಟಿಕಲ್ a ಬರುವುದಿಲ್ಲ."]]},
+{ id:"present", title:"Simple Present ಮತ್ತು ಪದಗಳ ಕ್ರಮ: ಕರ್ತೃ + ಕ್ರಿಯಾಪದ + ಕರ್ಮ", blurb:"ಕನ್ನಡದಲ್ಲಿ ಕ್ರಿಯಾಪದ ಕೊನೆಗೆ; ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಕರ್ತೃವಿನ ನಂತರವೇ.", deck:"ಸ್ವಪರಿಚಯ", body:`
+<p>ಕನ್ನಡದಲ್ಲಿ "ನಾನು ಕಾಫಿ <b>ಕುಡಿಯುತ್ತೇನೆ</b>" ಎಂದು ಕ್ರಿಯಾಪದ ಕೊನೆಗೆ ಬರುತ್ತದೆ. ಇಂಗ್ಲಿಷ್‌ನ ಕ್ರಮ <b>ಯಾರು → ಏನು ಮಾಡುತ್ತಾರೆ → ಏನನ್ನು</b>, ಅಂದರೆ ಕರ್ತೃ (subject) + ಕ್ರಿಯಾಪದ + ಕರ್ಮ (object). ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ "-ಅನ್ನು" ತರಹದ ಪ್ರತ್ಯಯ ಇಲ್ಲ; ಪದಗಳ ಕ್ರಮವೇ ಅರ್ಥ ತಿಳಿಸುತ್ತದೆ. ಈ ರೂಪದ ಹೆಸರು Simple Present (ವರ್ತಮಾನ ಕಾಲ).</p>
+<h3>ಕರ್ತೃ + ಕ್ರಿಯಾಪದ + ಕರ್ಮ</h3>
+{{ex:I drink coffee.|ಐ ಡ್ರಿಂಕ್ ˈಕಾಫ಼ಿ|ನಾನು ಕಾಫಿ ಕುಡಿಯುತ್ತೇನೆ}}{{ex:I study English.|ಐ ˈಸ್ಟಡಿ ˈಇಂಗ್ಲಿಶ್|ನಾನು ಇಂಗ್ಲಿಷ್ ಕಲಿಯುತ್ತೇನೆ}}
+<h3>ಜಾಗ ಮತ್ತು ಸಮಯ ಕೊನೆಗೆ</h3>
+<p>ಉಳಿದ ವಿವರಗಳು <b>ಜಾಗ → ಸಮಯ</b> ಕ್ರಮದಲ್ಲಿ ಕೊನೆಗೆ ಬರುತ್ತವೆ.</p>
+{{ex:We live in Bengaluru.|ವಿ ಲಿವ಼್ ಇನ್ ಬೆಂಗˈಲುರೂ|ನಾವು ಬೆಂಗಳೂರಿನಲ್ಲಿ ವಾಸವಾಗಿದ್ದೇವೆ}}{{ex:I study English every day.|ಐ ˈಸ್ಟಡಿ ˈಇಂಗ್ಲಿಶ್ ˈಎವ಼್ರಿ ಡೇ|ನಾನು ಪ್ರತಿದಿನ ಇಂಗ್ಲಿಷ್ ಕಲಿಯುತ್ತೇನೆ}}{{ex:They work on weekends.|ದ಼ೇ ವರ್ಕ್ ಆನ್ ˈವೀಕೆನ್ಡ್ಜ಼್|ಅವರು ವಾರಾಂತ್ಯದಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಾರೆ}}
+<h3>Simple Present: ಅಭ್ಯಾಸ ಮತ್ತು ಸತ್ಯ</h3>
+<p>ಯಾವಾಗಲೂ ಮಾಡುವ ಕೆಲಸ ಮತ್ತು ಬದಲಾಗದ ಸತ್ಯಗಳಿಗೆ ಈ ರೂಪ. ಕನ್ನಡದಲ್ಲಿ "ಇಲ್ಲ" ಕ್ರಿಯಾಪದದ ನಂತರ ಬರುತ್ತದೆ (ತಿನ್ನುವುದಿಲ್ಲ); ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ <b>don't</b> ಕ್ರಿಯಾಪದದ ಮೊದಲು ಬರುತ್ತದೆ.</p>
+{{ex:I don't eat meat.|ಐ ಡೋನ್ಟ್ ಈಟ್ ಮೀಟ್|ನಾನು ಮಾಂಸ ತಿನ್ನುವುದಿಲ್ಲ}}
+<h3>ಎಷ್ಟು ಸಲ: always, usually, sometimes, never</h3>
+<p>ಈ ಪದಗಳು ಕ್ರಿಯಾಪದಕ್ಕೆ <b>ಸರಿಯಾಗಿ ಮೊದಲು</b> ಬರುತ್ತವೆ.</p>
+{{ex:I usually get up at seven.|ಐ ˈಯೂಶ಼ುಅಲಿ ಗೆಟ್ ಅಪ್ ಅಟ್ ˈಸೆವ಼ನ್|ನಾನು ಸಾಮಾನ್ಯವಾಗಿ ಏಳು ಗಂಟೆಗೆ ಏಳುತ್ತೇನೆ}}{{ex:I never drink coffee at night.|ಐ ˈನೆವ಼ರ್ ಡ್ರಿಂಕ್ ˈಕಾಫ಼ಿ ಅಟ್ ನೈಟ್|ನಾನು ರಾತ್ರಿ ಕಾಫಿ ಕುಡಿಯುವುದೇ ಇಲ್ಲ}}
+<div class="tip">ಕನ್ನಡದ ಕ್ರಮದಲ್ಲೇ ಹೇಳಿದರೆ ತಪ್ಪಾಗುತ್ತದೆ: <b>I coffee drink.</b> ✗ → <b>I drink coffee.</b> ✓. ದಿನವೂ ಮಾಡುವ ಕೆಲಸಕ್ಕೆ -ing ಬೇಡ: <b>I am going to office daily.</b> ✗ → <b>I go to the office every day.</b> ✓</div>`,
+check:[["\"ನಾನು ಕಾಫಿ ಕುಡಿಯುತ್ತೇನೆ\" — ಸರಿಯಾದ ಪದಗಳ ಕ್ರಮ ಯಾವುದು?",["I coffee drink.","Coffee I drink.","I drink coffee.","Drink I coffee."],2,"ಕರ್ತೃ + ಕ್ರಿಯಾಪದ + ಕರ್ಮ — ಇದೇ ಕ್ರಮ."],["I ___ eat meat. (ತಿನ್ನುವುದಿಲ್ಲ)",["not","am not","no","don't"],3,"be ಅಲ್ಲದ ಕ್ರಿಯಾಪದದ ನಿಷೇಧಕ್ಕೆ don't."],["always ಪದಕ್ಕೆ ಸರಿಯಾದ ಜಾಗ ಯಾವುದು?",["I always drink tea.","Always I drink tea.","I drink always tea.","I drink tea the always."],0,"always ತರಹದ ಪದಗಳು ಕ್ರಿಯಾಪದಕ್ಕೆ ಸರಿಯಾಗಿ ಮೊದಲು ಬರುತ್ತವೆ."]],
 practice:[
-["mc","'저는 영어를 공부해요' =","I study English.","I English study.","I am study English.","Study I English.","주어 + 동사 + 목적어 순서예요."],
-["mc","'저는 고기를 안 먹어요' =","I don't eat meat.","I not eat meat.","I'm not eat meat.","I eat not meat.","일반동사 부정은 don't예요."],
-["mc","'우리는 서울에 살아요' =","We live in Seoul.","We in Seoul live.","We are live in Seoul.","We live Seoul in.","동사 다음에 장소가 와요."],
-["mc","'저는 보통 7시에 일어나요' =","I usually get up at seven.","Usually I get up seven.","I get usually up at seven.","I am usually get up at seven.","usually는 동사 바로 앞에 와요."],
-["mc","매일 하는 일을 말하는 문장은?","I drink coffee every day.","I'm drinking coffee now.","I drank coffee.","I will drink coffee.","습관은 현재형으로 말해요."],
-["or","저는 매일 커피를 마셔요","I drink coffee every day","the am","습관은 현재형이에요. 일반적인 coffee에는 관사를 붙이지 않아요."],
-["or","저는 책을 많이 읽어요","I read many books","book","many 뒤에는 복수 books가 와요."],
-["or","우리는 주말에 일해요","We work on weekends","are","일반동사 앞에 be동사를 겹쳐 쓰지 않아요."],
-["fi","I __ like fish.","저는 생선을 안 좋아해요","don't|do not","not|am not|no","일반동사 부정은 don't예요."],
-["fi","I __ English every day.","저는 매일 영어를 공부해요","study","am study|studying|to study","현재형은 동사를 그대로 써요."],
-["fi","They live __ Busan.","그들은 부산에 살아요","in","at|on|to","도시 앞에는 in이에요."],
-["ty","저는 차를 마셔요","I drink tea","drink · tea — 관사 없이","a","일반적인 tea에는 관사를 붙이지 않아요."],
-["ty","저는 고양이를 좋아해요","I like cats","like · cat — 복수로","cat","그 동물 전체를 말할 때는 복수 cats예요."],
-["ty","저는 고기를 안 먹어요","I don't eat meat","don't · eat · meat","am","일반동사 부정은 don't예요."]]},
-{ id:"questions", title:"질문 만들기: Do you ~?와 의문사", blurb:"끝만 올리면 안 돼요. Do를 앞에, 의문사는 맨 앞에.", deck:"생존 영어 2", body:`
-<p>한국어는 끝만 올리면 질문이 돼요. 영어는 <b>단어 순서</b>를 바꿔야 질문이에요.</p>
-<h3>be동사: 자리 바꾸기</h3>
-{{ex:Are you okay?|아 유 오케이?|괜찮아요?}}{{ex:Is this your bag?|이즈 디스 유어 백?|이거 당신 가방이에요?}}
-<h3>일반동사: Do를 앞에</h3>
-<p>문장 앞에 <b>Do</b>를 붙여요. 나머지 순서는 그대로예요.</p>
-{{ex:Do you like coffee?|두 유 라익 커피?|커피 좋아하세요?}}{{ex:Do you speak English?|두 유 스픽 잉글리시?|영어 하세요?}}
-<p>대답은 짧게 해요: <b>Yes, I do.</b> / <b>No, I don't.</b></p>
-<h3>의문사는 맨 앞에</h3>
-<p>what(무엇), where(어디), when(언제), who(누구), why(왜), how(어떻게)를 맨 앞에 두고 질문 순서를 그대로 이어요.</p>
-{{ex:Where do you live?|웨어 두 유 리브?|어디 사세요?}}{{ex:What do you do?|왓 두 유 두?|무슨 일 하세요?}}{{ex:Where is the bathroom?|웨어 이즈 더 배쓰룸?|화장실이 어디예요?}}{{ex:How much is this?|하우 머치 이즈 디스?|이거 얼마예요?}}
-<div class="tip">가장 흔한 실수: <b>Where you live?</b> (X) → <b>Where do you live?</b> (O), <b>Are you like coffee?</b> (X) → <b>Do you like coffee?</b> (O)</div>`,
-check:[["'커피 좋아하세요?'를 영어로 하면?",["Are you like coffee?","Do you like coffee?","You do like coffee?","Like you coffee?"],1,"일반동사 질문은 Do로 시작해요."],["'어디 사세요?'를 영어로 하면?",["Where you live?","Where are you live?","Where do you live?","You live where do?"],2,"의문사 + do + 주어 + 동사 순서예요."],["Do you speak English?의 알맞은 대답은?",["Yes, I am.","Yes, I speak.","Yes, I does.","Yes, I do."],3,"Do로 물으면 do로 대답해요."]],
+["mc","\"ನಾನು ಇಂಗ್ಲಿಷ್ ಕಲಿಯುತ್ತೇನೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I study English.","I English study.","I am study English.","Study I English.","ಕರ್ತೃ + ಕ್ರಿಯಾಪದ + ಕರ್ಮ — ಇದೇ ಕ್ರಮ."],
+["mc","\"ನಾನು ಮಾಂಸ ತಿನ್ನುವುದಿಲ್ಲ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I don't eat meat.","I not eat meat.","I'm not eat meat.","I eat not meat.","be ಅಲ್ಲದ ಕ್ರಿಯಾಪದದ ನಿಷೇಧಕ್ಕೆ don't."],
+["mc","\"ನಾವು ಸಿಯೋಲ್‌ನಲ್ಲಿ ವಾಸವಾಗಿದ್ದೇವೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","We live in Seoul.","We in Seoul live.","We are live in Seoul.","We live Seoul in.","ಕ್ರಿಯಾಪದದ ನಂತರ ಜಾಗ ಬರುತ್ತದೆ."],
+["mc","\"ನಾನು ಸಾಮಾನ್ಯವಾಗಿ ಏಳು ಗಂಟೆಗೆ ಏಳುತ್ತೇನೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I usually get up at seven.","Usually I get up seven.","I get usually up at seven.","I am usually get up at seven.","usually ಕ್ರಿಯಾಪದಕ್ಕೆ ಸರಿಯಾಗಿ ಮೊದಲು ಬರುತ್ತದೆ."],
+["mc","ಪ್ರತಿದಿನ ಮಾಡುವ ಕೆಲಸವನ್ನು ಹೇಳುವ ವಾಕ್ಯ ಯಾವುದು?","I drink coffee every day.","I'm drinking coffee now.","I drank coffee.","I will drink coffee.","ಅಭ್ಯಾಸ ಹೇಳಲು Simple Present."],
+["or","ನಾನು ಪ್ರತಿದಿನ ಕಾಫಿ ಕುಡಿಯುತ್ತೇನೆ","I drink coffee every day","the am","ಅಭ್ಯಾಸ ಹೇಳಲು Simple Present. ಸಾಮಾನ್ಯವಾಗಿ ಹೇಳುವ coffee ಮೊದಲು ಆರ್ಟಿಕಲ್ ಬೇಡ."],
+["or","ನಾನು ಅನೇಕ ಪುಸ್ತಕಗಳನ್ನು ಓದುತ್ತೇನೆ","I read many books","book","many ನಂತರ ಬಹುವಚನ books."],
+["or","ನಾವು ವಾರಾಂತ್ಯದಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತೇವೆ","We work on weekends","are","work ಕ್ರಿಯಾಪದ ಇರುವಾಗ ಅದರ ಮೊದಲು are ಸೇರಿಸಬೇಡಿ."],
+["fi","I __ like fish.","ನನಗೆ ಮೀನು ಇಷ್ಟವಿಲ್ಲ","don't|do not","not|am not|no","be ಅಲ್ಲದ ಕ್ರಿಯಾಪದದ ನಿಷೇಧಕ್ಕೆ don't."],
+["fi","I __ English every day.","ನಾನು ಪ್ರತಿದಿನ ಇಂಗ್ಲಿಷ್ ಕಲಿಯುತ್ತೇನೆ","study","am study|studying|to study","Simple Present ನಲ್ಲಿ ಕ್ರಿಯಾಪದ ಹಾಗೆಯೇ ಇರುತ್ತದೆ."],
+["fi","They live __ Busan.","ಅವರು ಬೂಸಾನ್‌ನಲ್ಲಿ ವಾಸವಾಗಿದ್ದಾರೆ","in","at|on|to","ಊರಿನ ಹೆಸರಿನ ಮೊದಲು in."],
+["ty","ನಾನು ಟೀ ಕುಡಿಯುತ್ತೇನೆ","I drink tea","drink · tea — ಆರ್ಟಿಕಲ್ ಇಲ್ಲದೆ","a","ಸಾಮಾನ್ಯವಾಗಿ ಹೇಳುವ tea ಮೊದಲು ಆರ್ಟಿಕಲ್ ಬೇಡ."],
+["ty","ನನಗೆ ಬೆಕ್ಕುಗಳು ಇಷ್ಟ","I like cats","like · cat — ಬಹುವಚನದಲ್ಲಿ","cat","ಆ ಪ್ರಾಣಿಗಳ ಬಗ್ಗೆ ಒಟ್ಟಾಗಿ ಹೇಳುವಾಗ ಬಹುವಚನ cats."],
+["ty","ನಾನು ಮಾಂಸ ತಿನ್ನುವುದಿಲ್ಲ","I don't eat meat","don't · eat · meat","am","be ಅಲ್ಲದ ಕ್ರಿಯಾಪದದ ನಿಷೇಧಕ್ಕೆ don't."]]},
+{ id:"questions", title:"ಪ್ರಶ್ನೆ ಮಾಡುವುದು: Do you …? ಮತ್ತು wh-ಪದ", blurb:"ಕೊನೆಗೆ -ಆ ಸೇರಿಸಿದರೆ ಸಾಲದು. Do ಮೊದಲಿಗೆ, wh-ಪದ ಎಲ್ಲಕ್ಕಿಂತ ಮೊದಲು.", deck:"ಅತ್ಯಗತ್ಯ ಇಂಗ್ಲಿಷ್ 2", body:`
+<p>ಕನ್ನಡದಲ್ಲಿ ವಾಕ್ಯದ ಕೊನೆಗೆ <b>-ಆ</b> ಸೇರಿಸಿದರೆ ಪ್ರಶ್ನೆ ಆಗುತ್ತದೆ: "ನೀವು ಬರುತ್ತೀರಾ?". ಯಾವ ಪದವೂ ಜಾಗ ಬದಲಿಸುವುದಿಲ್ಲ. ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ <b>ಪದಗಳ ಕ್ರಮ</b> ಬದಲಾದರೆ ಮಾತ್ರ ಪ್ರಶ್ನೆ.</p>
+<h3>be (am, is, are): ಜಾಗ ಬದಲಿಸಿ</h3>
+<p>be ಕರ್ತೃವಿನ ಮೊದಲು ಬರುತ್ತದೆ: <b>You are okay.</b> → <b>Are you okay?</b></p>
+{{ex:Are you okay?|ಅರ್ ಯು ಓˈಕೇ|ನೀವು ಚೆನ್ನಾಗಿದ್ದೀರಾ?}}{{ex:Is this your bag?|ಇಜ಼್ ದ಼ಿಸ್ ಯುರ್ ಬ್ಯಾಗ್|ಈ ಬ್ಯಾಗ್ ನಿಮ್ಮದಾ?}}
+<h3>ಬೇರೆ ಕ್ರಿಯಾಪದಗಳು: Do ಮೊದಲಿಗೆ</h3>
+<p>ವಾಕ್ಯದಲ್ಲಿ be ಬಿಟ್ಟು ಬೇರೆ ಕ್ರಿಯಾಪದ ಇದ್ದರೆ ಮೊದಲಿಗೆ <b>Do</b> ಸೇರಿಸಿ. ಉಳಿದ ಕ್ರಮ ಹಾಗೆಯೇ ಇರುತ್ತದೆ.</p>
+{{ex:Do you like coffee?|ಡ ಯು ಲೈಕ್ ˈಕಾಫ಼ಿ|ನಿಮಗೆ ಕಾಫಿ ಇಷ್ಟವಾ?}}{{ex:Do you speak English?|ಡ ಯು ಸ್ಪೀಕ್ ˈಇಂಗ್ಲಿಶ್|ನೀವು ಇಂಗ್ಲಿಷ್ ಮಾತಾಡುತ್ತೀರಾ?}}
+<p>ಉತ್ತರ ಚಿಕ್ಕದು: <b>Yes, I do.</b> / <b>No, I don't.</b></p>
+<h3>wh-ಪದ ಎಲ್ಲಕ್ಕಿಂತ ಮೊದಲು</h3>
+<p>what (ಏನು), where (ಎಲ್ಲಿ), when (ಯಾವಾಗ), who (ಯಾರು), why (ಯಾಕೆ), how (ಹೇಗೆ) ವಾಕ್ಯದ ಮೊದಲಿಗೆ ಬರುತ್ತವೆ; ನಂತರ ಪ್ರಶ್ನೆಯ ಕ್ರಮ ಹಾಗೆಯೇ. ಕನ್ನಡದಲ್ಲಿ "ನೀವು ಎಲ್ಲಿ ಇದ್ದೀರಿ?" ಎಂದು wh-ಪದ ನಡುವೆ ಇರುತ್ತದೆ.</p>
+{{ex:Where do you live?|ವೆರ್ ಡ ಯು ಲಿವ಼್|ನೀವು ಎಲ್ಲಿ ವಾಸವಾಗಿದ್ದೀರಿ?}}{{ex:What do you do?|ವಟ್ ಡ ಯು ಡೂ|ನೀವು ಏನು ಕೆಲಸ ಮಾಡುತ್ತೀರಿ?}}{{ex:Where is the bathroom?|ವೆರ್ ಇಜ಼್ ದ಼ ˈಬ್ಯಾಥ಼್ರೂಮ್|ಶೌಚಾಲಯ ಎಲ್ಲಿದೆ?}}{{ex:How much is this?|ಹೌ ಮಚ್ ಇಜ಼್ ದ಼ಿಸ್|ಇದರ ಬೆಲೆ ಎಷ್ಟು?}}
+<div class="tip">ಅತಿ ಸಾಮಾನ್ಯ ತಪ್ಪು: <b>Where you live?</b> ✗ → <b>Where do you live?</b> ✓, <b>You are coming?</b> ✗ → <b>Are you coming?</b> ✓, <b>Are you like coffee?</b> ✗ → <b>Do you like coffee?</b> ✓. ಕನ್ನಡದ "ಅಲ್ವಾ?" ಎಂಬುದಕ್ಕೆ ಯಾವಾಗಲೂ <b>isn't it?</b> ಸರಿಹೋಗುವುದಿಲ್ಲ; ಅದು "ಇಂಡಿಯನ್ ಇಂಗ್ಲಿಷ್" ಪಾಠದಲ್ಲಿ ಬರುತ್ತದೆ.</div>`,
+check:[["\"ನಿಮಗೆ ಕಾಫಿ ಇಷ್ಟವಾ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?",["Are you like coffee?","Do you like coffee?","You do like coffee?","Like you coffee?"],1,"be ಅಲ್ಲದ ಕ್ರಿಯಾಪದದ ಪ್ರಶ್ನೆ Do ನಿಂದ ಶುರುವಾಗುತ್ತದೆ."],["\"ನೀವು ಎಲ್ಲಿ ವಾಸವಾಗಿದ್ದೀರಿ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?",["Where you live?","Where are you live?","Where do you live?","You live where do?"],2,"wh-ಪದ + do + ಕರ್ತೃ + ಕ್ರಿಯಾಪದ — ಇದೇ ಕ್ರಮ."],["Do you speak English? — ಸರಿಯಾದ ಉತ್ತರ ಯಾವುದು?",["Yes, I am.","Yes, I speak.","Yes, I does.","Yes, I do."],3,"Do ನಿಂದ ಕೇಳಿದರೆ do ನಿಂದ ಉತ್ತರ."]],
 practice:[
-["mc","'영어 하세요?' =","Do you speak English?","Are you speak English?","You speak English do?","Speak you English?","일반동사 질문은 Do로 시작해요."],
-["mc","'어디 사세요?' =","Where do you live?","Where you live?","Where are you live?","Where live you?","의문사 + do + 주어 + 동사예요."],
-["mc","'이거 얼마예요?' =","How much is this?","How much this is?","How much does this?","What much is this?","가격은 How much is ~?로 물어요."],
-["mc","Do you like tea? — 알맞은 대답은?","Yes, I do.","Yes, I am.","Yes, I like.","Yes, I does.","Do로 물으면 do로 대답해요."],
-["mc","'무슨 일 하세요?' (직업) =","What do you do?","What are you do?","What you do?","What do you?","직업은 What do you do?로 물어요."],
-["or","커피 좋아하세요?","Do you like coffee","Are the","일반동사 질문은 Do로 시작해요. 일반적인 coffee에는 관사가 없어요."],
-["or","화장실이 어디예요?","Where is the bathroom","a do","이 건물의 그 화장실이라서 관사 the예요."],
-["or","어디 사세요?","Where do you live","are","일반동사 질문에는 do가 필요해요."],
-["fi","__ you like music?","음악 좋아하세요?","Do","Are|Is|Does","일반동사 like의 질문은 Do예요."],
-["fi","__ do you live?","어디 사세요?","Where","What|Who|When","장소를 물을 때는 where예요."],
-["fi","What time __ it?","몇 시예요?","is","do|does|are","시간은 be동사로 물어요."],
-["ty","영어 하세요?","Do you speak English|Can you speak English","do · speak · English","Are","일반동사 질문은 Do로 시작해요."],
-["ty","화장실이 어디예요?","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom","where · bathroom — 관사 the","a","서로 아는 그 화장실이라 관사 the예요."],
-["ty","개 좋아하세요?","Do you like dogs","do · like · dog — 복수","dog","동물 전체를 말할 때는 복수 dogs예요."]]},
-{ id:"third-s", title:"he·she·it에는 -s: does / doesn't", blurb:"주어가 한 사람이면 동사에 -s. 질문과 부정은 does.", deck:"자기소개", body:`
-<p>현재형에서 주어가 <b>he, she, it</b>이나 한 사람·한 물건이면 동사에 <b>-s</b>를 붙여요. 한국어에 없는 규칙이라 말할 때 자주 빠져요.</p>
-<div class="tbl"><table><tr><th>주어</th><th>동사</th></tr><tr><td>I / you / we / they</td><td class="k">work</td></tr><tr><td>he / she / it / my mom</td><td class="k">works</td></tr></table></div>
-{{ex:She works at a bank.|쉬 웍스 앳 어 뱅크|그녀는 은행에서 일해요}}{{ex:He likes soccer.|히 라익스 사커|그는 축구를 좋아해요}}{{ex:My mom cooks well.|마이 맘 쿡스 웰|우리 엄마는 요리를 잘해요}}
-<h3>모양이 조금 바뀌는 동사</h3>
-{{ex:She has a car.|쉬 해즈 어 카|그녀는 차가 있어요 (have → has)}}{{ex:He goes to work at eight.|히 고우즈 투 워크 앳 에잇|그는 8시에 출근해요 (go → goes)}}{{ex:She studies English.|쉬 스터디즈 잉글리시|그녀는 영어를 공부해요 (study → studies)}}
-<h3>부정과 질문은 does</h3>
-<p><b>doesn't</b>나 <b>Does</b>를 쓰면 -s는 거기로 옮겨 가요. 뒤의 동사는 -s 없이 써요.</p>
-{{ex:He doesn't drink coffee.|히 더즌 드링크 커피|그는 커피를 안 마셔요}}{{ex:Does she live here?|더즈 쉬 리브 히어?|그녀는 여기 살아요?}}
-<div class="tip">가장 흔한 실수: <b>She work here.</b> (X) → <b>She works here.</b> (O), <b>Does she works?</b> (X) → <b>Does she work?</b> (O)</div>`,
-check:[["She ___ in Seoul. 빈칸에 알맞은 것은?",["live","lives","living","is live"],1,"she라서 동사에 -s를 붙여요."],["He ___ like coffee. 빈칸에 알맞은 것은?",["don't","isn't","doesn't","not"],2,"he의 부정은 doesn't예요."],["'그녀는 차가 있어요'를 영어로 하면?",["She has a car.","She have a car.","She haves a car.","She is have a car."],0,"have는 she 뒤에서 has가 돼요."]],
+["mc","\"ನೀವು ಇಂಗ್ಲಿಷ್ ಮಾತಾಡುತ್ತೀರಾ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","Do you speak English?","Are you speak English?","You speak English do?","Speak you English?","be ಅಲ್ಲದ ಕ್ರಿಯಾಪದದ ಪ್ರಶ್ನೆ Do ನಿಂದ ಶುರುವಾಗುತ್ತದೆ."],
+["mc","\"ನೀವು ಎಲ್ಲಿ ವಾಸವಾಗಿದ್ದೀರಿ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","Where do you live?","Where you live?","Where are you live?","Where live you?","wh-ಪದ + do + ಕರ್ತೃ + ಕ್ರಿಯಾಪದ — ಇದೇ ಕ್ರಮ."],
+["mc","\"ಇದರ ಬೆಲೆ ಎಷ್ಟು?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","How much is this?","How much this is?","How much does this?","What much is this?","ಬೆಲೆ ಕೇಳಲು How much is …?"],
+["mc","Do you like tea? — ಸರಿಯಾದ ಉತ್ತರ ಯಾವುದು?","Yes, I do.","Yes, I am.","Yes, I like.","Yes, I does.","Do ನಿಂದ ಕೇಳಿದರೆ do ನಿಂದ ಉತ್ತರ."],
+["mc","\"ನೀವು ಏನು ಕೆಲಸ ಮಾಡುತ್ತೀರಿ?\" (ವೃತ್ತಿ) ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","What do you do?","What are you do?","What you do?","What do you?","ವೃತ್ತಿ ಕೇಳಲು What do you do?"],
+["or","ನಿಮಗೆ ಕಾಫಿ ಇಷ್ಟವಾ?","Do you like coffee","Are the","be ಅಲ್ಲದ ಕ್ರಿಯಾಪದದ ಪ್ರಶ್ನೆ Do ನಿಂದ ಶುರು. ಸಾಮಾನ್ಯವಾಗಿ ಹೇಳುವ coffee ಮೊದಲು ಆರ್ಟಿಕಲ್ ಇಲ್ಲ."],
+["or","ಶೌಚಾಲಯ ಎಲ್ಲಿದೆ?","Where is the bathroom","a do","ಈ ಕಟ್ಟಡದ ಆ ಶೌಚಾಲಯ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ the."],
+["or","ನೀವು ಎಲ್ಲಿ ವಾಸವಾಗಿದ್ದೀರಿ?","Where do you live","are","live ಕ್ರಿಯಾಪದ ಇರುವುದರಿಂದ ಪ್ರಶ್ನೆಗೆ do ಬೇಕು."],
+["fi","__ you like music?","ನಿಮಗೆ ಸಂಗೀತ ಇಷ್ಟವಾ?","Do","Are|Is|Does","like ಕ್ರಿಯಾಪದದ ಪ್ರಶ್ನೆಗೆ Do."],
+["fi","__ do you live?","ನೀವು ಎಲ್ಲಿ ವಾಸವಾಗಿದ್ದೀರಿ?","Where","What|Who|When","ಜಾಗ ಕೇಳಲು where."],
+["fi","What time __ it?","ಈಗ ಎಷ್ಟು ಗಂಟೆ?","is","do|does|are","ಸಮಯ ಕೇಳಲು be (is) ಬೇಕು."],
+["ty","ನೀವು ಇಂಗ್ಲಿಷ್ ಮಾತಾಡುತ್ತೀರಾ?","Do you speak English|Can you speak English","do · speak · English","Are","be ಅಲ್ಲದ ಕ್ರಿಯಾಪದದ ಪ್ರಶ್ನೆ Do ನಿಂದ ಶುರುವಾಗುತ್ತದೆ."],
+["ty","ಶೌಚಾಲಯ ಎಲ್ಲಿದೆ?","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom","where · bathroom — ಆರ್ಟಿಕಲ್ the","a","ಇಬ್ಬರಿಗೂ ಗೊತ್ತಿರುವ ಆ ಶೌಚಾಲಯ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ the."],
+["ty","ನಿಮಗೆ ನಾಯಿಗಳು ಇಷ್ಟವಾ?","Do you like dogs","do · like · dog — ಬಹುವಚನ","dog","ಪ್ರಾಣಿಗಳ ಬಗ್ಗೆ ಒಟ್ಟಾಗಿ ಹೇಳುವಾಗ ಬಹುವಚನ dogs."]]},
+{ id:"third-s", title:"he, she, it ಜೊತೆ -s: does / doesn't", blurb:"ಕರ್ತೃ ಒಬ್ಬರೇ ಆದರೆ ಕ್ರಿಯಾಪದಕ್ಕೆ -s. ಪ್ರಶ್ನೆ ಮತ್ತು ನಿಷೇಧಕ್ಕೆ does.", deck:"ಸ್ವಪರಿಚಯ", body:`
+<p>ಕನ್ನಡದಲ್ಲಿ ಕ್ರಿಯಾಪದ ಪ್ರತಿ ಕರ್ತೃವಿಗೂ ಬದಲಾಗುತ್ತದೆ: ಬರುತ್ತೇನೆ, ಬರುತ್ತೀರಿ, ಬರುತ್ತಾನೆ, ಬರುತ್ತಾಳೆ. ಇಂಗ್ಲಿಷ್‌ನ Simple Present ನಲ್ಲಿ ಉಳಿದಿರುವುದು ಒಂದೇ ಬದಲಾವಣೆ: ಕರ್ತೃ <b>he, she, it</b> ಅಥವಾ ಒಬ್ಬ ವ್ಯಕ್ತಿ, ಒಂದು ವಸ್ತು ಆದರೆ ಕ್ರಿಯಾಪದಕ್ಕೆ <b>-s</b>. ಅದು ಒಂದೇ ಅಕ್ಷರ, ಹಾಗಾಗಿ ಮಾತಿನಲ್ಲಿ ಸುಲಭವಾಗಿ ಬಿಟ್ಟುಹೋಗುತ್ತದೆ.</p>
+<div class="tbl"><table><tr><th>ಕರ್ತೃ</th><th>ಕ್ರಿಯಾಪದ</th></tr><tr><td>I / you / we / they</td><td class="k">work</td></tr><tr><td>he / she / it / my mom</td><td class="k">works</td></tr></table></div>
+{{ex:She works at a bank.|ಶಿ ವರ್ಕ್ಸ್ ಅಟ್ ಅ ಬ್ಯಾಂಕ್|ಅವಳು ಬ್ಯಾಂಕ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಾಳೆ}}{{ex:He likes soccer.|ಹಿ ಲೈಕ್ಸ್ ˈಸಾಕರ್|ಅವನಿಗೆ ಫುಟ್‌ಬಾಲ್ ಇಷ್ಟ}}{{ex:My mom cooks well.|ಮೈ ಮಾಮ್ ಕುಕ್ಸ್ ವೆಲ್|ನನ್ನ ಅಮ್ಮ ಚೆನ್ನಾಗಿ ಅಡುಗೆ ಮಾಡುತ್ತಾರೆ}}
+<p>-s ನಂತರ ಸ್ವರ ಸೇರಿಸಬೇಡಿ: works = <b>ವರ್ಕ್ಸ್</b>, goes = <b>ಗೋಜ಼್</b>.</p>
+<h3>ಸ್ವಲ್ಪ ರೂಪ ಬದಲಾಗುವ ಕ್ರಿಯಾಪದಗಳು</h3>
+{{ex:She has a car.|ಶಿ ಹ್ಯಾಜ಼್ ಅ ಕಾರ್|ಅವಳ ಹತ್ತಿರ ಕಾರು ಇದೆ (have → has)}}{{ex:He goes to work at eight.|ಹಿ ಗೋಜ಼್ ಟ ವರ್ಕ್ ಅಟ್ ಏಟ್|ಅವನು ಎಂಟು ಗಂಟೆಗೆ ಕೆಲಸಕ್ಕೆ ಹೋಗುತ್ತಾನೆ (go → goes)}}{{ex:She studies English.|ಶಿ ˈಸ್ಟಡಿಜ಼್ ˈಇಂಗ್ಲಿಶ್|ಅವಳು ಇಂಗ್ಲಿಷ್ ಕಲಿಯುತ್ತಾಳೆ (study → studies)}}
+<h3>ನಿಷೇಧ ಮತ್ತು ಪ್ರಶ್ನೆಗೆ does</h3>
+<p><b>doesn't</b> ಅಥವಾ <b>Does</b> ಬಂದರೆ -s ಅಲ್ಲಿಗೆ ಹೋಗುತ್ತದೆ. ಮುಂದಿನ ಕ್ರಿಯಾಪದ -s ಇಲ್ಲದ ಮೂಲ ರೂಪ (V1).</p>
+{{ex:He doesn't drink coffee.|ಹಿ ˈಡಜ಼ನ್ಟ್ ಡ್ರಿಂಕ್ ˈಕಾಫ಼ಿ|ಅವನು ಕಾಫಿ ಕುಡಿಯುವುದಿಲ್ಲ}}{{ex:Does she live here?|ಡಜ಼್ ಶಿ ಲಿವ಼್ ಹಿರ್|ಅವಳು ಇಲ್ಲಿ ವಾಸವಾಗಿದ್ದಾಳಾ?}}
+<div class="tip">ಅತಿ ಸಾಮಾನ್ಯ ತಪ್ಪು: <b>She work here.</b> ✗ → <b>She works here.</b> ✓, <b>He don't like tea.</b> ✗ → <b>He doesn't like tea.</b> ✓, <b>Does she works?</b> ✗ → <b>Does she work?</b> ✓</div>`,
+check:[["She ___ in Seoul. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["live","lives","living","is live"],1,"she ಇರುವುದರಿಂದ ಕ್ರಿಯಾಪದಕ್ಕೆ -s."],["He ___ like coffee. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["don't","isn't","doesn't","not"],2,"he ಜೊತೆ ನಿಷೇಧಕ್ಕೆ doesn't."],["\"ಅವಳ ಹತ್ತಿರ ಕಾರು ಇದೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?",["She has a car.","She have a car.","She haves a car.","She is have a car."],0,"she ಜೊತೆ have ಎಂಬುದು has ಆಗುತ್ತದೆ."]],
 practice:[
-["mc","My brother ___ in Busan.","works","work","working","is work","한 사람이라서 works예요."],
-["mc","'그는 커피를 안 마셔요' =","He doesn't drink coffee.","He don't drink coffee.","He doesn't drinks coffee.","He isn't drink coffee.","he의 부정은 doesn't + 동사원형이에요."],
-["mc","'그녀는 여기 살아요?' =","Does she live here?","Do she live here?","Does she lives here?","Is she live here?","Does 뒤 동사는 -s 없이 써요."],
-["mc","have → she ___","has","haves","have","is have","have는 has로 바뀌어요."],
-["mc","study → he ___","studies","studys","study","studyes","자음 + y는 -ies로 바뀌어요."],
-["or","그녀는 은행에서 일해요","She works at a bank","work the","she라서 works예요. 처음 말하는 직장에는 관사 a를 써요."],
-["or","그는 개가 두 마리 있어요","He has two dogs","have dog","he라서 has, 둘이니까 복수 dogs예요."],
-["or","그녀는 고기를 안 먹어요","She doesn't eat meat","eats","doesn't 뒤에는 -s 없는 동사가 와요."],
-["fi","He __ soccer.","그는 축구를 좋아해요","likes","like|liking|is like","he라서 likes예요."],
-["fi","__ she speak English?","그녀는 영어를 해요?","Does","Do|Is|Are","she의 질문은 Does예요."],
-["fi","She __ to work at eight.","그녀는 8시에 출근해요","goes","go|going|gos","go는 goes가 돼요."],
-["ty","그는 차가 있어요","He has a car","has · car — 관사 a","have","he라서 has, 차 한 대라서 관사 a예요."],
-["ty","그녀는 고양이를 좋아해요","She likes cats","likes · cat — 복수","cat","she라서 likes, 고양이 전체는 복수 cats예요."],
-["ty","그는 여기 안 살아요","He doesn't live here","doesn't · live · here","lives","doesn't 뒤에는 동사원형이 와요."]]},
-{ id:"countable", title:"셀 수 있는 명사와 없는 명사: some, any, much, many", blurb:"water에는 a도 -s도 못 붙여요. many는 셀 수 있을 때, much는 없을 때.", deck:"식당 주문", body:`
-<p>영어 명사는 <b>셀 수 있는 것</b>과 <b>셀 수 없는 것</b>으로 나뉘어요. 한국어에는 없는 구분이라 처음엔 낯설어요.</p>
-<div class="tbl"><table><tr><th>셀 수 있음</th><th>셀 수 없음</th></tr><tr><td class="k">an apple, two apples</td><td class="k">water, rice, money, time</td></tr><tr><td>a / an, 숫자, -s 가능</td><td>a / an, 숫자, -s 불가능</td></tr></table></div>
-<h3>some 과 any</h3>
-<p>'조금, 몇 개'는 긍정문에서 <b>some</b>, 부정문과 질문에서 <b>any</b>예요. 단, 부탁하거나 권할 때는 질문이어도 <b>some</b>을 써요: <b>Can I have some water?</b></p>
-{{ex:I have some money.|아이 해브 썸 머니|돈이 좀 있어요}}{{ex:I don't have any money.|아이 돈 해브 애니 머니|돈이 하나도 없어요}}{{ex:Do you have any questions?|두 유 해브 애니 퀘스천즈?|질문 있어요?}}
-<h3>many 와 much</h3>
-<p>셀 수 있으면 <b>many</b> + 복수, 셀 수 없으면 <b>much</b>예요. <b>a lot of</b>는 둘 다 돼요.</p>
-{{ex:How many people?|하우 매니 피플?|몇 명이에요?}}{{ex:How much is it?|하우 머치 이즈 잇?|얼마예요?}}{{ex:I don't have much time.|아이 돈 해브 머치 타임|시간이 별로 없어요}}
-<h3>셀 수 없는 것을 세는 방법</h3>
-{{ex:a glass of water|어 글래스 오브 워러|물 한 잔}}{{ex:a cup of coffee|어 컵 오브 커피|커피 한 잔}}
-<div class="tip">가장 흔한 실수: <b>a water</b>, <b>many money</b>, <b>informations</b> (X) → <b>some water</b>, <b>much money</b>, <b>information</b> (O)</div>`,
-check:[["How ___ people are there? 빈칸에 알맞은 것은?",["much","many","any","a"],1,"people은 셀 수 있어서 many예요."],["다음 중 셀 수 없는 명사는?",["apple","chair","water","friend"],2,"water에는 a나 -s를 붙이지 않아요."],["I don't have ___ money. 빈칸에 알맞은 것은?",["some","a","many","any"],3,"부정문에서는 any를 써요."]],
+["mc","My brother ___ in Busan.","works","work","working","is work","ಕರ್ತೃ ಒಬ್ಬ ವ್ಯಕ್ತಿ, ಹಾಗಾಗಿ works."],
+["mc","\"ಅವನು ಕಾಫಿ ಕುಡಿಯುವುದಿಲ್ಲ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","He doesn't drink coffee.","He don't drink coffee.","He doesn't drinks coffee.","He isn't drink coffee.","he ಜೊತೆ ನಿಷೇಧಕ್ಕೆ doesn't + V1."],
+["mc","\"ಅವಳು ಇಲ್ಲಿ ವಾಸವಾಗಿದ್ದಾಳಾ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","Does she live here?","Do she live here?","Does she lives here?","Is she live here?","Does ನಂತರ ಕ್ರಿಯಾಪದಕ್ಕೆ -s ಇಲ್ಲ."],
+["mc","have → she ___","has","haves","have","is have","have ಎಂಬುದು has ಆಗುತ್ತದೆ."],
+["mc","study → he ___","studies","studys","study","studyes","ವ್ಯಂಜನ + y ಇದ್ದರೆ -ies ಆಗುತ್ತದೆ."],
+["or","ಅವಳು ಬ್ಯಾಂಕ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಾಳೆ","She works at a bank","work the","she ಇರುವುದರಿಂದ works. ಮೊದಲ ಸಲ ಹೇಳುವ ಕೆಲಸದ ಜಾಗಕ್ಕೆ ಆರ್ಟಿಕಲ್ a."],
+["or","ಅವನ ಹತ್ತಿರ ಎರಡು ನಾಯಿ ಇವೆ","He has two dogs","have dog","he ಇರುವುದರಿಂದ has; ಎರಡು ಇರುವುದರಿಂದ ಬಹುವಚನ dogs."],
+["or","ಅವಳು ಮಾಂಸ ತಿನ್ನುವುದಿಲ್ಲ","She doesn't eat meat","eats","doesn't ನಂತರ -s ಇಲ್ಲದ ಕ್ರಿಯಾಪದ ಬರುತ್ತದೆ."],
+["fi","He __ soccer.","ಅವನಿಗೆ ಫುಟ್‌ಬಾಲ್ ಇಷ್ಟ","likes","like|liking|is like","he ಇರುವುದರಿಂದ likes."],
+["fi","__ she speak English?","ಅವಳು ಇಂಗ್ಲಿಷ್ ಮಾತಾಡುತ್ತಾಳಾ?","Does","Do|Is|Are","she ಜೊತೆ ಪ್ರಶ್ನೆಗೆ Does."],
+["fi","She __ to work at eight.","ಅವಳು ಎಂಟು ಗಂಟೆಗೆ ಕೆಲಸಕ್ಕೆ ಹೋಗುತ್ತಾಳೆ","goes","go|going|gos","go ಎಂಬುದು goes ಆಗುತ್ತದೆ."],
+["ty","ಅವನ ಹತ್ತಿರ ಕಾರು ಇದೆ","He has a car","has · car — ಆರ್ಟಿಕಲ್ a","have","he ಇರುವುದರಿಂದ has; ಒಂದೇ ಕಾರು, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a."],
+["ty","ಅವಳಿಗೆ ಬೆಕ್ಕುಗಳು ಇಷ್ಟ","She likes cats","likes · cat — ಬಹುವಚನ","cat","she ಇರುವುದರಿಂದ likes; ಬೆಕ್ಕುಗಳ ಬಗ್ಗೆ ಒಟ್ಟಾಗಿ ಹೇಳುವಾಗ ಬಹುವಚನ cats."],
+["ty","ಅವನು ಇಲ್ಲಿ ವಾಸವಾಗಿಲ್ಲ","He doesn't live here","doesn't · live · here","lives","doesn't ನಂತರ V1 ಬರುತ್ತದೆ."]]},
+{ id:"countable", title:"ಎಣಿಸಬಹುದಾದ ಮತ್ತು ಎಣಿಸಲಾಗದ ನಾಮಪದ: some, any, much, many", blurb:"water ಜೊತೆ a ಕೂಡ ಇಲ್ಲ, -s ಕೂಡ ಇಲ್ಲ. ಎಣಿಸಬಹುದಾದರೆ many, ಎಣಿಸಲಾಗದಿದ್ದರೆ much.", deck:"ಊಟದ ಆರ್ಡರ್", body:`
+<p>ಇಂಗ್ಲಿಷ್ ನಾಮಪದಗಳಲ್ಲಿ ಎರಡು ಗುಂಪು: <b>ಎಣಿಸಬಹುದಾದ</b> (countable) ಮತ್ತು <b>ಎಣಿಸಲಾಗದ</b> (uncountable) ನಾಮಪದ. ಕನ್ನಡ ಈ ವ್ಯತ್ಯಾಸವನ್ನು ಗುರುತಿಸುವುದಿಲ್ಲ: "ಎರಡು ಸಲಹೆ", "ಹಲವು ಮಾಹಿತಿ" ಎನ್ನಬಹುದು. ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ advice, information ಎಣಿಸಲಾಗದ ನಾಮಪದಗಳು.</p>
+<div class="tbl"><table><tr><th>ಎಣಿಸಬಹುದಾದ</th><th>ಎಣಿಸಲಾಗದ</th></tr><tr><td class="k">an apple, two apples</td><td class="k">water, rice, money, time</td></tr><tr><td>a / an, ಸಂಖ್ಯೆ, -s ಬರಬಹುದು</td><td>a / an, ಸಂಖ್ಯೆ, -s ಬರುವುದಿಲ್ಲ</td></tr></table></div>
+<h3>some ಮತ್ತು any</h3>
+<p>"ಸ್ವಲ್ಪ, ಕೆಲವು" ಎನ್ನಲು ಸಾಮಾನ್ಯ ವಾಕ್ಯದಲ್ಲಿ <b>some</b>, ನಿಷೇಧ ವಾಕ್ಯ ಮತ್ತು ಪ್ರಶ್ನೆಯಲ್ಲಿ <b>any</b>. ಆದರೆ ಏನನ್ನಾದರೂ ಕೇಳಿ ಪಡೆಯುವಾಗ ಅಥವಾ ಕೊಡಲು ಮುಂದಾದಾಗ ಪ್ರಶ್ನೆಯಲ್ಲೂ <b>some</b>: <b>Can I have some water?</b></p>
+{{ex:I have some money.|ಐ ಹ್ಯಾವ಼್ ಸಮ್ ˈಮನಿ|ನನ್ನ ಹತ್ತಿರ ಸ್ವಲ್ಪ ಹಣ ಇದೆ}}{{ex:I don't have any money.|ಐ ಡೋನ್ಟ್ ಹ್ಯಾವ಼್ ˈಎನಿ ˈಮನಿ|ನನ್ನ ಹತ್ತಿರ ಹಣವೇ ಇಲ್ಲ}}{{ex:Do you have any questions?|ಡ ಯು ಹ್ಯಾವ಼್ ˈಎನಿ ˈಕ್ವೆಸ್ಚನ್ಜ಼್|ಏನಾದರೂ ಪ್ರಶ್ನೆ ಇದೆಯಾ?}}
+<h3>many ಮತ್ತು much</h3>
+<p>ಎಣಿಸಬಹುದಾದರೆ <b>many</b> + ಬಹುವಚನ, ಎಣಿಸಲಾಗದಿದ್ದರೆ <b>much</b>. <b>a lot of</b> ಎರಡಕ್ಕೂ ಸರಿ.</p>
+{{ex:How many people?|ಹೌ ˈಮೆನಿ ˈಪೀಪಲ್|ಎಷ್ಟು ಜನ?}}{{ex:How much is it?|ಹೌ ಮಚ್ ಇಜ಼್ ಇಟ್|ಅದರ ಬೆಲೆ ಎಷ್ಟು?}}{{ex:I don't have much time.|ಐ ಡೋನ್ಟ್ ಹ್ಯಾವ಼್ ಮಚ್ ಟೈಮ್|ನನಗೆ ಹೆಚ್ಚು ಸಮಯ ಇಲ್ಲ}}
+<h3>ಎಣಿಸಲಾಗದ ವಸ್ತುವಿನ ಅಳತೆ ಹೇಳುವುದು</h3>
+{{ex:a glass of water|ಅ ಗ್ಲ್ಯಾಸ್ ಅವ಼್ ˈವಾಟರ್|ಒಂದು ಲೋಟ ನೀರು}}{{ex:a cup of coffee|ಅ ಕಪ್ ಅವ಼್ ˈಕಾಫ಼ಿ|ಒಂದು ಕಪ್ ಕಾಫಿ}}
+<div class="tip">ಅತಿ ಸಾಮಾನ್ಯ ತಪ್ಪು: <b>a water</b>, <b>many money</b>, <b>informations</b>, <b>advices</b>, <b>furnitures</b> ✗ → <b>some water</b>, <b>much money</b>, <b>information</b>, <b>advice</b>, <b>furniture</b> ✓</div>`,
+check:[["How ___ people are there? ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["much","many","any","a"],1,"people ಎಣಿಸಬಹುದಾದ ನಾಮಪದ, ಹಾಗಾಗಿ many."],["ಇವುಗಳಲ್ಲಿ ಎಣಿಸಲಾಗದ ನಾಮಪದ ಯಾವುದು?",["apple","chair","water","friend"],2,"water ಜೊತೆ a ಅಥವಾ -s ಬರುವುದಿಲ್ಲ."],["I don't have ___ money. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["some","a","many","any"],3,"ನಿಷೇಧ ವಾಕ್ಯದಲ್ಲಿ any ಬರುತ್ತದೆ."]],
 practice:[
-["mc","Can I have ___ water?","some","a","many","an","water는 셀 수 없어서 a나 many를 못 써요."],
-["mc","How ___ time do we have?","much","many","any","a","time은 셀 수 없어서 much예요."],
-["mc","'질문 있어요?' =","Do you have any questions?","Do you have any question?","Do you have a questions?","Do you have much questions?","any 뒤 셀 수 있는 명사는 복수예요."],
-["mc","'물 한 잔' =","a glass of water","a water glass of","one waters","a glass water","셀 수 없는 것은 a glass of로 세요."],
-["mc","I have ___ friends in Seoul.","many","much","a","an","friends는 셀 수 있는 복수라서 many예요."],
-["or","저는 돈이 좀 있어요","I have some money","a moneys","money는 셀 수 없어서 관사 a나 복수 -s를 못 붙여요."],
-["or","사과 두 개 주세요","Two apples please","apple","둘이니까 복수 apples예요."],
-["or","시간이 별로 없어요","I don't have much time","many","time은 셀 수 없어서 much예요."],
-["fi","How __ is this?","이거 얼마예요?","much","many|any|some","가격은 how much로 물어요."],
-["fi","I don't have __ questions.","질문 없어요","any","some|much|a","부정문에서는 any를 써요."],
-["fi","a cup __ coffee","커피 한 잔","of","for|in|a","a cup of ~로 세요."],
-["ty","물 좀 주시겠어요?","Can I have some water|Could I have some water|Can I get some water|Could I get some water","can I have · some · water — 관사 없이","a","water는 셀 수 없어서 관사 a 대신 some을 써요."],
-["ty","질문 있어요?","Do you have any questions","any · question — 복수","question","any 뒤 셀 수 있는 명사는 복수 questions예요."],
-["ty","몇 명이에요?","How many people","how many · people","much","사람은 셀 수 있어서 many예요."]]},
-{ id:"object-have", title:"me, him, her와 have", blurb:"동사 뒤에는 I가 아니라 me. 그리고 만능 동사 have.", deck:"자기소개", body:`
-<p>한국어는 '를'만 붙이면 되지만, 영어는 대명사의 <b>모양 자체</b>가 바뀌어요. 동사나 전치사 <b>뒤</b>에는 이 모양을 써요.</p>
-<div class="tbl"><table><tr><th>주어</th><th>I</th><th>you</th><th>he</th><th>she</th><th>we</th><th>they</th></tr><tr><td>목적어</td><td class="k">me</td><td class="k">you</td><td class="k">him</td><td class="k">her</td><td class="k">us</td><td class="k">them</td></tr></table></div>
-{{ex:She knows me.|쉬 노우즈 미|그녀는 저를 알아요}}{{ex:I like him.|아이 라익 힘|저는 그를 좋아해요}}{{ex:Can you help us?|캔 유 헬프 어스?|우리 좀 도와줄래요?}}{{ex:I work with her.|아이 워크 윋 허|저는 그녀와 같이 일해요}}
-<h3>have: 있다, 가지다</h3>
-<p>'~가 있어요'를 사람 주어로 말할 때 써요. 가족, 물건, 시간 모두 have예요.</p>
-{{ex:I have two brothers.|아이 해브 투 브라더즈|저는 형이 둘 있어요}}{{ex:Do you have a pen?|두 유 해버 펜?|펜 있어요?}}{{ex:I don't have time.|아이 돈 해브 타임|시간이 없어요}}
-<h3>have: 먹다, 마시다</h3>
-<p>식사 이름 앞에는 관사를 붙이지 않아요.</p>
-{{ex:Let's have lunch.|렛츠 해브 런치|점심 먹어요}}{{ex:I have coffee every morning.|아이 해브 커피 에브리 모닝|저는 매일 아침 커피를 마셔요}}
-<div class="tip">가장 흔한 실수: <b>She knows I.</b> (X) → <b>She knows me.</b> (O), <b>I am two brothers.</b> (X) → <b>I have two brothers.</b> (O)</div>`,
-check:[["I like ___. (그를)",["he","his","him","he's"],2,"동사 뒤에는 목적격 him이에요."],["Can you help ___? (우리를)",["us","we","our","ours"],0,"동사 뒤에는 목적격 us예요."],["'펜 있어요?'를 영어로 하면?",["Are you have a pen?","Do you have a pen?","Have you a pen is?","Do you has a pen?"],1,"have는 일반동사라서 Do로 물어요."]],
+["mc","Can I have ___ water?","some","a","many","an","water ಎಣಿಸಲಾಗದ ನಾಮಪದ: a ಅಥವಾ many ಬರುವುದಿಲ್ಲ."],
+["mc","How ___ time do we have?","much","many","any","a","time ಎಣಿಸಲಾಗದ ನಾಮಪದ, ಹಾಗಾಗಿ much."],
+["mc","\"ಏನಾದರೂ ಪ್ರಶ್ನೆ ಇದೆಯಾ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","Do you have any questions?","Do you have any question?","Do you have a questions?","Do you have much questions?","any ನಂತರ ಎಣಿಸಬಹುದಾದ ನಾಮಪದ ಬಹುವಚನದಲ್ಲಿ ಬರುತ್ತದೆ."],
+["mc","\"ಒಂದು ಲೋಟ ನೀರು\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","a glass of water","a water glass of","one waters","a glass water","ಎಣಿಸಲಾಗದ ವಸ್ತುವಿನ ಅಳತೆ ಹೇಳಲು a glass of."],
+["mc","I have ___ friends in Seoul.","many","much","a","an","friends ಎಣಿಸಬಹುದಾದ ನಾಮಪದದ ಬಹುವಚನ, ಹಾಗಾಗಿ many."],
+["or","ನನ್ನ ಹತ್ತಿರ ಸ್ವಲ್ಪ ಹಣ ಇದೆ","I have some money","a moneys","money ಎಣಿಸಲಾಗದ ನಾಮಪದ: ಆರ್ಟಿಕಲ್ a ಇಲ್ಲ, ಬಹುವಚನ -s ಇಲ್ಲ."],
+["or","ಎರಡು ಸೇಬು ಕೊಡಿ","Two apples please","apple","ಎರಡು ಇರುವುದರಿಂದ ಬಹುವಚನ apples."],
+["or","ನನಗೆ ಹೆಚ್ಚು ಸಮಯ ಇಲ್ಲ","I don't have much time","many","time ಎಣಿಸಲಾಗದ ನಾಮಪದ, ಹಾಗಾಗಿ much."],
+["fi","How __ is this?","ಇದರ ಬೆಲೆ ಎಷ್ಟು?","much","many|any|some","ಬೆಲೆ ಕೇಳಲು how much."],
+["fi","I don't have __ questions.","ನನಗೆ ಯಾವ ಪ್ರಶ್ನೆಯೂ ಇಲ್ಲ","any","some|much|a","ನಿಷೇಧ ವಾಕ್ಯದಲ್ಲಿ any ಬರುತ್ತದೆ."],
+["fi","a cup __ coffee","ಒಂದು ಕಪ್ ಕಾಫಿ","of","for|in|a","ಅಳತೆ ಹೇಳಲು a cup of … ಎನ್ನುತ್ತಾರೆ."],
+["ty","ಸ್ವಲ್ಪ ನೀರು ಕೊಡುತ್ತೀರಾ?","Can I have some water|Could I have some water|Can I get some water|Could I get some water","can I have · some · water — ಆರ್ಟಿಕಲ್ ಇಲ್ಲದೆ","a","water ಎಣಿಸಲಾಗದ ನಾಮಪದ: ಆರ್ಟಿಕಲ್ a ಬದಲು some."],
+["ty","ಏನಾದರೂ ಪ್ರಶ್ನೆ ಇದೆಯಾ?","Do you have any questions","any · question — ಬಹುವಚನ","question","any ನಂತರ ಎಣಿಸಬಹುದಾದ ನಾಮಪದ ಬಹುವಚನದಲ್ಲಿ: questions."],
+["ty","ಎಷ್ಟು ಜನ?","How many people","how many · people","much","people ಎಣಿಸಬಹುದಾದ ನಾಮಪದ, ಹಾಗಾಗಿ many."]]},
+{ id:"object-have", title:"me, him, her ಮತ್ತು have", blurb:"ಕ್ರಿಯಾಪದದ ನಂತರ I ಅಲ್ಲ, me. ಜೊತೆಗೆ ಎಲ್ಲ ಕಡೆ ಬೇಕಾಗುವ have.", deck:"ಸ್ವಪರಿಚಯ", body:`
+<p>ಕನ್ನಡದಲ್ಲಿ "-ಅನ್ನು" ಸೇರಿಸಿದರೆ ಕರ್ಮ (object) ಆಗುತ್ತದೆ: ನಾನು → ನನ್ನನ್ನು. ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಸರ್ವನಾಮದ <b>ರೂಪವೇ</b> ಬದಲಾಗುತ್ತದೆ, ಮತ್ತು ಅದು ಕ್ರಿಯಾಪದ ಅಥವಾ preposition <b>ನಂತರ</b> ಬರುತ್ತದೆ.</p>
+<div class="tbl"><table><tr><th>ಕರ್ತೃ</th><th>I</th><th>you</th><th>he</th><th>she</th><th>we</th><th>they</th></tr><tr><td>ಕರ್ಮ</td><td class="k">me</td><td class="k">you</td><td class="k">him</td><td class="k">her</td><td class="k">us</td><td class="k">them</td></tr></table></div>
+{{ex:She knows me.|ಶಿ ನೋಜ಼್ ಮಿ|ಅವಳಿಗೆ ನಾನು ಗೊತ್ತು}}{{ex:I like him.|ಐ ಲೈಕ್ ಹಿಮ್|ನನಗೆ ಅವನು ಇಷ್ಟ}}{{ex:Can you help us?|ಕನ್ ಯು ಹೆಲ್ಪ್ ಅಸ್|ನಮಗೆ ಸಹಾಯ ಮಾಡುತ್ತೀರಾ?}}{{ex:I work with her.|ಐ ವರ್ಕ್ ವಿದ಼್ ಹರ್|ನಾನು ಅವಳ ಜೊತೆ ಕೆಲಸ ಮಾಡುತ್ತೇನೆ}}
+<h3>have: ಇದೆ, ಇದ್ದಾರೆ</h3>
+<p>ಕನ್ನಡದಲ್ಲಿ "ನನ್ನ ಹತ್ತಿರ ಕಾರು ಇದೆ", "ನನಗೆ ಇಬ್ಬರು ಅಣ್ಣಂದಿರು ಇದ್ದಾರೆ" ಎನ್ನುತ್ತೇವೆ. ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ವ್ಯಕ್ತಿಯೇ ಕರ್ತೃ: <b>I have</b>. ಕುಟುಂಬ, ವಸ್ತು, ಸಮಯ ಎಲ್ಲಕ್ಕೂ have; ಇಲ್ಲಿ -ing ಬರುವುದಿಲ್ಲ.</p>
+{{ex:I have two brothers.|ಐ ಹ್ಯಾವ಼್ ಟೂ ˈಬ್ರದ಼ರ್ಜ಼್|ನನಗೆ ಇಬ್ಬರು ಅಣ್ಣಂದಿರು ಇದ್ದಾರೆ}}{{ex:Do you have a pen?|ಡ ಯು ಹ್ಯಾವ಼್ ಅ ಪೆನ್|ನಿಮ್ಮ ಹತ್ತಿರ ಪೆನ್ ಇದೆಯಾ?}}{{ex:I don't have time.|ಐ ಡೋನ್ಟ್ ಹ್ಯಾವ಼್ ಟೈಮ್|ನನಗೆ ಸಮಯ ಇಲ್ಲ}}
+<h3>have: ತಿನ್ನು, ಕುಡಿ</h3>
+<p>ಊಟದ ಹೆಸರಿನ ಮೊದಲು ಆರ್ಟಿಕಲ್ ಇಲ್ಲ.</p>
+{{ex:Let's have lunch.|ಲೆಟ್ಸ್ ಹ್ಯಾವ಼್ ಲನ್ಚ್|ಮಧ್ಯಾಹ್ನದ ಊಟ ಮಾಡೋಣ}}{{ex:I have coffee every morning.|ಐ ಹ್ಯಾವ಼್ ˈಕಾಫ಼ಿ ˈಎವ಼್ರಿ ˈಮೋರ್ನಿಙ್|ನಾನು ಪ್ರತಿದಿನ ಬೆಳಿಗ್ಗೆ ಕಾಫಿ ಕುಡಿಯುತ್ತೇನೆ}}
+<p>ಚಿಕ್ಕ ಸೂಚನೆ: ಕನ್ನಡದಲ್ಲಿ ಮಗು ಅಥವಾ ಸಾಕುಪ್ರಾಣಿ "ಅದು"; ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ <b>he / she</b>. ಗೌರವದಿಂದ ಒಬ್ಬರನ್ನು "ಅವರು" ಎಂದರೂ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ <b>he / she</b>; they ಅಲ್ಲ.</p>
+<div class="tip">ಅತಿ ಸಾಮಾನ್ಯ ತಪ್ಪು: <b>She knows I.</b> ✗ → <b>She knows me.</b> ✓, <b>I am having a car.</b> ✗ → <b>I have a car.</b> ✓, <b>To me two brothers are there.</b> ✗ → <b>I have two brothers.</b> ✓</div>`,
+check:[["I like ___. (ಅವನನ್ನು)",["he","his","him","he's"],2,"ಕ್ರಿಯಾಪದದ ನಂತರ ಕರ್ಮ ರೂಪ him."],["Can you help ___? (ನಮಗೆ)",["us","we","our","ours"],0,"ಕ್ರಿಯಾಪದದ ನಂತರ ಕರ್ಮ ರೂಪ us."],["\"ನಿಮ್ಮ ಹತ್ತಿರ ಪೆನ್ ಇದೆಯಾ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?",["Are you have a pen?","Do you have a pen?","Have you a pen is?","Do you has a pen?"],1,"have ಎಂಬುದು be ಅಲ್ಲ; ಹಾಗಾಗಿ ಪ್ರಶ್ನೆ Do ನಿಂದ ಶುರುವಾಗುತ್ತದೆ."]],
 practice:[
-["mc","She knows ___. (나를)","me","I","my","mine","동사 뒤에는 목적격 me예요."],
-["mc","I like ___. (그들을)","them","they","their","theirs","동사 뒤에는 목적격 them이에요."],
-["mc","'우리 좀 도와줄래요?' =","Can you help us?","Can you help we?","Can you help our?","Can us help you?","동사 뒤에는 us예요."],
-["mc","'점심 먹어요' =","Let's have lunch.","Let's have a lunch.","Let's has lunch.","Let's lunch have.","식사 이름에는 관사를 붙이지 않아요."],
-["mc","'저는 형이 둘 있어요' =","I have two brothers.","I have two brother.","I am two brothers.","There are two brothers me.","가족은 have로 말하고, 둘이니까 복수예요."],
-["or","펜 있어요?","Do you have a pen","the pens","아무 펜 하나라서 관사 a와 단수 pen이에요."],
-["or","저는 그녀를 좋아해요","I like her","she","동사 뒤에는 목적격 her예요."],
-["or","저는 여동생이 둘 있어요","I have two sisters","sister a","둘이니까 복수 sisters예요. 관사 a는 못 써요."],
-["fi","Call __ tonight.","오늘 밤에 저한테 전화해요","me","I|my|mine","동사 뒤에는 me예요."],
-["fi","I work with __.","저는 그와 같이 일해요","him","he|his|he's","전치사 뒤에도 목적격을 써요."],
-["fi","She __ a dog.","그녀는 개를 키워요","has","have|is|haves","she라서 has예요."],
-["ty","저 좀 도와줄래요?","Can you help me|Could you help me","can you · help · me","I","동사 뒤에는 목적격 me예요."],
-["ty","펜 있어요?","Do you have a pen","do you have · pen — 관사 a","the","아무 펜 하나를 찾으니까 관사 a예요."],
-["ty","저는 친구가 많아요","I have many friends|I have a lot of friends","have · many · friend — 복수","friend","many 뒤에는 복수 friends가 와요."]]},
-{ id:"can-like", title:"can, like + -ing, I'd like: 할 수 있는 것과 원하는 것", blurb:"할 수 있는 것, 좋아하는 것, 지금 원하는 것을 말해요.", deck:"스몰토크", body:`
-<p>자기소개와 주문에 바로 쓰는 세 가지 틀이에요.</p>
-<h3>can: 할 수 있어요</h3>
-<p><b>can + 동사원형</b>이에요. 주어가 he, she여도 -s를 붙이지 않아요.</p>
-{{ex:I can swim.|아이 캔 스윔|저는 수영할 수 있어요}}{{ex:I can't drive.|아이 캔트 드라이브|저는 운전 못 해요}}{{ex:Can you speak Korean?|캔 유 스픽 코리언?|한국어 할 수 있어요?}}
-<h3>like + -ing: ~하는 걸 좋아해요</h3>
-<p>취미를 말할 때는 like, love 뒤에 <b>동사 + ing</b>를 써요.</p>
-{{ex:I like cooking.|아이 라익 쿠킹|저는 요리하는 걸 좋아해요}}{{ex:I love watching movies.|아이 러브 왓칭 무비즈|저는 영화 보는 걸 정말 좋아해요}}{{ex:I don't like running.|아이 돈 라익 러닝|저는 달리기를 안 좋아해요}}
-<h3>I'd like: ~주세요, ~하고 싶어요</h3>
-<p><b>I like</b>는 늘 좋아한다는 뜻이고, <b>I'd like</b>는 지금 원한다는 공손한 표현이에요. 주문할 때는 I'd like를 써요.</p>
-{{ex:I'd like a coffee, please.|아이드 라이커 커피 플리즈|커피 한 잔 주세요}}{{ex:Would you like some tea?|우쥬 라익 썸 티?|차 좀 드릴까요?}}
-<div class="tip">가장 흔한 실수: <b>He can swims.</b> (X) → <b>He can swim.</b> (O), 카페에서 <b>I like a coffee.</b> (X) → <b>I'd like a coffee.</b> (O)</div>`,
-check:[["She can ___ very well. 빈칸에 알맞은 것은?",["sings","sing","singing","to sing"],1,"can 뒤에는 동사원형이 와요."],["'저는 요리하는 걸 좋아해요'를 영어로 하면?",["I like cook.","I'd like cook.","I like to cooking.","I like cooking."],3,"like 뒤에는 -ing를 써요."],["카페에서 주문할 때 가장 자연스러운 말은?",["I'd like a coffee, please.","I like a coffee.","I can a coffee.","Give me coffee."],0,"지금 원하는 것은 I'd like로 말해요."]],
+["mc","She knows ___. (ನನ್ನನ್ನು)","me","I","my","mine","ಕ್ರಿಯಾಪದದ ನಂತರ ಕರ್ಮ ರೂಪ me."],
+["mc","I like ___. (ಅವರನ್ನು — ಹಲವರು)","them","they","their","theirs","ಕ್ರಿಯಾಪದದ ನಂತರ ಕರ್ಮ ರೂಪ them."],
+["mc","\"ನಮಗೆ ಸಹಾಯ ಮಾಡುತ್ತೀರಾ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","Can you help us?","Can you help we?","Can you help our?","Can us help you?","ಕ್ರಿಯಾಪದದ ನಂತರ us ಬರುತ್ತದೆ."],
+["mc","\"ಮಧ್ಯಾಹ್ನದ ಊಟ ಮಾಡೋಣ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","Let's have lunch.","Let's have a lunch.","Let's has lunch.","Let's lunch have.","ಊಟದ ಹೆಸರಿನ ಮೊದಲು ಆರ್ಟಿಕಲ್ ಇಲ್ಲ."],
+["mc","\"ನನಗೆ ಇಬ್ಬರು ಅಣ್ಣಂದಿರು ಇದ್ದಾರೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I have two brothers.","I have two brother.","I am two brothers.","There are two brothers me.","ಕುಟುಂಬದವರ ಬಗ್ಗೆ ಹೇಳಲು have; ಇಬ್ಬರು ಇರುವುದರಿಂದ ಬಹುವಚನ."],
+["or","ನಿಮ್ಮ ಹತ್ತಿರ ಪೆನ್ ಇದೆಯಾ?","Do you have a pen","the pens","ಯಾವುದಾದರೂ ಒಂದು ಪೆನ್: ಆರ್ಟಿಕಲ್ a ಮತ್ತು ಏಕವಚನ pen."],
+["or","ನನಗೆ ಅವಳು ಇಷ್ಟ","I like her","she","ಕ್ರಿಯಾಪದದ ನಂತರ ಕರ್ಮ ರೂಪ her."],
+["or","ನನಗೆ ಇಬ್ಬರು ತಂಗಿಯರು ಇದ್ದಾರೆ","I have two sisters","sister a","ಇಬ್ಬರು ಇರುವುದರಿಂದ ಬಹುವಚನ sisters. ಆರ್ಟಿಕಲ್ a ಬರುವುದಿಲ್ಲ."],
+["fi","Call __ tonight.","ಇವತ್ತು ರಾತ್ರಿ ನನಗೆ ಕಾಲ್ ಮಾಡಿ","me","I|my|mine","ಕ್ರಿಯಾಪದದ ನಂತರ me ಬರುತ್ತದೆ."],
+["fi","I work with __.","ನಾನು ಅವನ ಜೊತೆ ಕೆಲಸ ಮಾಡುತ್ತೇನೆ","him","he|his|he's","preposition ನಂತರವೂ ಕರ್ಮ ರೂಪ ಬರುತ್ತದೆ."],
+["fi","She __ a dog.","ಅವಳ ಹತ್ತಿರ ಒಂದು ನಾಯಿ ಇದೆ","has","have|is|haves","she ಇರುವುದರಿಂದ has."],
+["ty","ನನಗೆ ಸಹಾಯ ಮಾಡುತ್ತೀರಾ?","Can you help me|Could you help me","can you · help · me","I","ಕ್ರಿಯಾಪದದ ನಂತರ ಕರ್ಮ ರೂಪ me."],
+["ty","ನಿಮ್ಮ ಹತ್ತಿರ ಪೆನ್ ಇದೆಯಾ?","Do you have a pen","do you have · pen — ಆರ್ಟಿಕಲ್ a","the","ಯಾವುದಾದರೂ ಒಂದು ಪೆನ್ ಬೇಕು, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a."],
+["ty","ನನಗೆ ತುಂಬಾ ಸ್ನೇಹಿತರಿದ್ದಾರೆ","I have many friends|I have a lot of friends","have · many · friend — ಬಹುವಚನ","friend","many ನಂತರ ಬಹುವಚನ friends."]]},
+{ id:"can-like", title:"can, like + -ing, I'd like: ಬರುವುದು ಮತ್ತು ಬೇಕಾದದ್ದು", blurb:"ಏನು ಮಾಡಲು ಬರುತ್ತದೆ, ಏನು ಇಷ್ಟ, ಈಗ ಏನು ಬೇಕು ಎಂದು ಹೇಳಿ.", deck:"ಲೋಕಾಭಿರಾಮ ಮಾತುಕತೆ", body:`
+<p>ಕನ್ನಡದಲ್ಲಿ "ನನಗೆ ಈಜು ಬರುತ್ತದೆ", "ನನಗೆ ಕಾಫಿ ಇಷ್ಟ" ಎಂದು "ನನಗೆ" ಎಂಬ ಪದದಿಂದ ಶುರು ಮಾಡುತ್ತೇವೆ. ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಕರ್ತೃ <b>I</b>: <b>I can swim</b>, <b>I like coffee</b>. ಸ್ವಪರಿಚಯ ಮತ್ತು ಆರ್ಡರ್ ಮಾಡಲು ಬೇಕಾದ ಮೂರು ಮಾದರಿಗಳು ಇಲ್ಲಿವೆ.</p>
+<h3>can: ಬರುತ್ತದೆ, ಸಾಧ್ಯ</h3>
+<p><b>can + V1</b> (ಕ್ರಿಯಾಪದದ ಮೂಲ ರೂಪ). ಕರ್ತೃ he, she ಆದರೂ -s ಇಲ್ಲ. ಕನ್ನಡದ "-ಬಹುದು" ಎಂಬುದಕ್ಕೂ ಹಲವು ಸಲ can.</p>
+{{ex:I can swim.|ಐ ಕನ್ ಸ್ವಿಮ್|ನನಗೆ ಈಜು ಬರುತ್ತದೆ}}{{ex:I can't drive.|ಐ ಕ್ಯಾನ್ಟ್ ಡ್ರೈವ಼್|ನನಗೆ ಡ್ರೈವಿಂಗ್ ಬರುವುದಿಲ್ಲ}}{{ex:Can you speak Kannada?|ಕನ್ ಯು ಸ್ಪೀಕ್ ˈಕಾನಡ|ನಿಮಗೆ ಕನ್ನಡ ಬರುತ್ತದೆಯಾ?}}
+<h3>like + -ing: …ಮಾಡುವುದು ಇಷ್ಟ</h3>
+<p>ಹವ್ಯಾಸ ಹೇಳುವಾಗ like, love ನಂತರ <b>ಕ್ರಿಯಾಪದ + ing</b>.</p>
+{{ex:I like cooking.|ಐ ಲೈಕ್ ˈಕುಕಿಙ್|ನನಗೆ ಅಡುಗೆ ಮಾಡುವುದು ಇಷ್ಟ}}{{ex:I love watching movies.|ಐ ಲವ಼್ ˈವಾಚಿಙ್ ˈಮೂವ಼ಿಜ಼್|ನನಗೆ ಸಿನಿಮಾ ನೋಡುವುದು ತುಂಬಾ ಇಷ್ಟ}}{{ex:I don't like running.|ಐ ಡೋನ್ಟ್ ಲೈಕ್ ˈರನಿಙ್|ನನಗೆ ಓಡುವುದು ಇಷ್ಟವಿಲ್ಲ}}
+<h3>I'd like: …ಕೊಡಿ, …ಬೇಕು</h3>
+<p><b>I like</b> ಎಂದರೆ ಯಾವಾಗಲೂ ಇಷ್ಟ; <b>I'd like</b> ಎಂದರೆ ಈಗ ಬೇಕು ಎಂಬ ಸೌಜನ್ಯದ ಮಾತು. ಆರ್ಡರ್ ಮಾಡುವಾಗ I'd like ಬಳಸಿ.</p>
+{{ex:I'd like a coffee, please.|ಐಡ್ ಲೈಕ್ ಅ ˈಕಾಫ಼ಿ ಪ್ಲೀಜ಼್|ಒಂದು ಕಾಫಿ ಕೊಡಿ}}{{ex:Would you like some tea?|ವಡ್ ಯು ಲೈಕ್ ಸಮ್ ಟೀ|ಸ್ವಲ್ಪ ಟೀ ತೆಗೆದುಕೊಳ್ಳುತ್ತೀರಾ?}}
+<div class="tip">ಅತಿ ಸಾಮಾನ್ಯ ತಪ್ಪು: <b>He can swims.</b> ✗ → <b>He can swim.</b> ✓, <b>I am liking coffee.</b> ✗ → <b>I like coffee.</b> ✓, ಕೆಫೆಯಲ್ಲಿ <b>I like a coffee.</b> ✗ → <b>I'd like a coffee.</b> ✓</div>`,
+check:[["She can ___ very well. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["sings","sing","singing","to sing"],1,"can ನಂತರ V1 ಬರುತ್ತದೆ."],["\"ನನಗೆ ಅಡುಗೆ ಮಾಡುವುದು ಇಷ್ಟ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?",["I like cook.","I'd like cook.","I like to cooking.","I like cooking."],3,"like ನಂತರ -ing ರೂಪ ಬರುತ್ತದೆ."],["ಕೆಫೆಯಲ್ಲಿ ಆರ್ಡರ್ ಮಾಡುವಾಗ ಯಾವ ವಾಕ್ಯ ಹೆಚ್ಚು ಸಹಜ?",["I'd like a coffee, please.","I like a coffee.","I can a coffee.","Give me coffee."],0,"ಈಗ ಬೇಕಾದದ್ದನ್ನು I'd like ಎಂದು ಕೇಳಿ."]],
 practice:[
-["mc","He can ___ Korean.","speak","speaks","speaking","to speak","can 뒤에는 동사원형이 와요."],
-["mc","'저는 운전 못 해요' =","I can't drive.","I don't can drive.","I can't driving.","I'm not can drive.","can의 부정은 can't예요."],
-["mc","'저는 영화 보는 걸 좋아해요' =","I like watching movies.","I like watch movies.","I like watching movie.","I'd like watch movies.","like 뒤는 -ing, 영화 전체는 복수 movies예요."],
-["mc","주문할 때 '커피 한 잔 주세요' =","I'd like a coffee, please.","I like a coffee, please.","I'd like coffee a, please.","I like coffees.","지금 원하는 것은 I'd like로 말해요."],
-["mc","'차 좀 드릴까요?' =","Would you like some tea?","Do you like some tea?","Would you like a tea some?","Are you like tea?","권할 때는 Would you like ~?예요."],
-["or","커피 한 잔 주세요","I'd like a coffee please","the coffees","주문하는 한 잔이라 관사 a와 단수 coffee예요."],
-["or","저는 책 읽는 걸 좋아해요","I like reading books","book read","like 뒤는 -ing, 책 전체는 복수 books예요."],
-["or","수영할 줄 알아요?","Can you swim","swimming","can 뒤에는 동사원형이 와요."],
-["fi","I can't __.","저는 수영 못 해요","swim","swimming|swims|to swim","can't 뒤에는 동사원형이 와요."],
-["fi","I like __ music.","저는 음악 듣는 걸 좋아해요","listening to","listen to|listen|to listening","like 뒤에는 -ing를 써요."],
-["fi","__ like a sandwich, please.","샌드위치 하나 주세요","I'd|I would","I|I'm|I can","주문은 I'd like로 해요."],
-["ty","저는 요리하는 걸 좋아해요","I like cooking|I love cooking|I like to cook","like · cook — -ing","cook","like 뒤에는 -ing를 써요."],
-["ty","샌드위치 하나 주세요","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich|Could I have a sandwich|Could I get a sandwich","I'd like · sandwich — 관사 a","the","아무 샌드위치 하나라서 관사 a예요."],
-["ty","저는 개를 좋아해요","I like dogs|I love dogs","like · dog — 복수","dog","개 전체를 말할 때는 복수 dogs예요."]]},
-{ id:"continuous", title:"지금 하는 중: be + -ing", blurb:"늘 하는 일은 현재형, 지금 하는 일은 be + -ing.", deck:"스몰토크", body:`
-<p>한국어 "일해요"는 습관도 되고 지금 하는 일도 돼요. 영어는 둘을 나눠요. <b>지금 이 순간</b> 하고 있는 일은 <b>be + 동사-ing</b>예요.</p>
-{{ex:I'm working now.|아임 워킹 나우|저 지금 일하고 있어요}}{{ex:She's cooking dinner.|쉬즈 쿠킹 디너|그녀는 저녁을 만들고 있어요}}{{ex:It's raining.|이츠 레이닝|비가 오고 있어요}}
-<h3>질문과 부정</h3>
-{{ex:What are you doing?|와라유 두잉?|지금 뭐 해요?}}{{ex:Are you listening?|아 유 리스닝?|듣고 있어요?}}{{ex:I'm not sleeping.|아임 낫 슬리핑|저 안 자고 있어요}}
-<h3>현재형과 비교</h3>
-<div class="tbl"><table><tr><th>늘 (현재형)</th><th>지금 (be + -ing)</th></tr><tr><td class="k">I work every day.</td><td class="k">I'm working now.</td></tr><tr><td class="k">She drinks tea.</td><td class="k">She's drinking tea.</td></tr></table></div>
-<h3>-ing를 붙이지 않는 동사</h3>
-<p>like, know, want, need, have(가지다)처럼 <b>상태</b>를 말하는 동사는 지금 일이어도 현재형으로 써요.</p>
-{{ex:I know him.|아이 노우 힘|저는 그를 알아요}}{{ex:I want some water.|아이 원트 썸 워러|물이 마시고 싶어요}}
-<div class="tip">가장 흔한 실수: be동사를 빼먹는 것. <b>I working.</b> (X) → <b>I'm working.</b> (O), <b>I'm knowing.</b> (X) → <b>I know.</b> (O)</div>`,
-check:[["'지금 뭐 해요?'를 영어로 하면?",["What do you do now?","What are you doing?","What you doing are?","What are you do?"],1,"지금 하는 일은 be + -ing로 물어요."],["I ___ coffee every morning. 빈칸에 알맞은 것은?",["am drinking","drinking","drink","am drink"],2,"매일 하는 습관은 현재형이에요."],["다음 중 알맞은 문장은?",["I'm knowing him.","I'm wanting coffee.","I'm having a car.","I'm reading a book."],3,"know, want, have(소유)는 -ing를 쓰지 않아요."]],
+["mc","He can ___ Korean.","speak","speaks","speaking","to speak","can ನಂತರ V1 ಬರುತ್ತದೆ."],
+["mc","\"ನನಗೆ ಡ್ರೈವಿಂಗ್ ಬರುವುದಿಲ್ಲ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I can't drive.","I don't can drive.","I can't driving.","I'm not can drive.","can ಪದದ ನಿಷೇಧ ರೂಪ can't."],
+["mc","\"ನನಗೆ ಸಿನಿಮಾ ನೋಡುವುದು ಇಷ್ಟ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I like watching movies.","I like watch movies.","I like watching movie.","I'd like watch movies.","like ನಂತರ -ing; ಸಿನಿಮಾಗಳ ಬಗ್ಗೆ ಒಟ್ಟಾಗಿ ಹೇಳುವಾಗ ಬಹುವಚನ movies."],
+["mc","ಆರ್ಡರ್ ಮಾಡುವಾಗ \"ಒಂದು ಕಾಫಿ ಕೊಡಿ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I'd like a coffee, please.","I like a coffee, please.","I'd like coffee a, please.","I like coffees.","ಈಗ ಬೇಕಾದದ್ದನ್ನು I'd like ಎಂದು ಕೇಳಿ."],
+["mc","\"ಸ್ವಲ್ಪ ಟೀ ತೆಗೆದುಕೊಳ್ಳುತ್ತೀರಾ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","Would you like some tea?","Do you like some tea?","Would you like a tea some?","Are you like tea?","ಏನಾದರೂ ಕೊಡಲು ಮುಂದಾದಾಗ Would you like …?"],
+["or","ಒಂದು ಕಾಫಿ ಕೊಡಿ","I'd like a coffee please","the coffees","ಆರ್ಡರ್ ಮಾಡುವ ಒಂದು ಕಪ್: ಆರ್ಟಿಕಲ್ a ಮತ್ತು ಏಕವಚನ coffee."],
+["or","ನನಗೆ ಪುಸ್ತಕ ಓದುವುದು ಇಷ್ಟ","I like reading books","book read","like ನಂತರ -ing; ಪುಸ್ತಕಗಳ ಬಗ್ಗೆ ಒಟ್ಟಾಗಿ ಹೇಳುವಾಗ ಬಹುವಚನ books."],
+["or","ನಿಮಗೆ ಈಜು ಬರುತ್ತದೆಯಾ?","Can you swim","swimming","can ನಂತರ V1 ಬರುತ್ತದೆ."],
+["fi","I can't __.","ನನಗೆ ಈಜು ಬರುವುದಿಲ್ಲ","swim","swimming|swims|to swim","can't ನಂತರ V1 ಬರುತ್ತದೆ."],
+["fi","I like __ music.","ನನಗೆ ಸಂಗೀತ ಕೇಳುವುದು ಇಷ್ಟ","listening to","listen to|listen|to listening","like ನಂತರ -ing ರೂಪ ಬರುತ್ತದೆ."],
+["fi","__ like a sandwich, please.","ಒಂದು ಸ್ಯಾಂಡ್‌ವಿಚ್ ಕೊಡಿ","I'd|I would","I|I'm|I can","ಆರ್ಡರ್ ಮಾಡಲು I'd like."],
+["ty","ನನಗೆ ಅಡುಗೆ ಮಾಡುವುದು ಇಷ್ಟ","I like cooking|I love cooking|I like to cook","like · cook — -ing ರೂಪ","cook","like ನಂತರ -ing ರೂಪ ಬರುತ್ತದೆ."],
+["ty","ಒಂದು ಸ್ಯಾಂಡ್‌ವಿಚ್ ಕೊಡಿ","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich|Could I have a sandwich|Could I get a sandwich","I'd like · sandwich — ಆರ್ಟಿಕಲ್ a","the","ಯಾವುದಾದರೂ ಒಂದು ಸ್ಯಾಂಡ್‌ವಿಚ್, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a."],
+["ty","ನನಗೆ ನಾಯಿಗಳು ಇಷ್ಟ","I like dogs|I love dogs","like · dog — ಬಹುವಚನ","dog","ನಾಯಿಗಳ ಬಗ್ಗೆ ಒಟ್ಟಾಗಿ ಹೇಳುವಾಗ ಬಹುವಚನ dogs."]]},
+{ id:"continuous", title:"ಈಗ ನಡೆಯುತ್ತಿರುವುದು: be + -ing", blurb:"ಯಾವಾಗಲೂ ಮಾಡುವುದಕ್ಕೆ Simple Present, ಈಗ ಮಾಡುತ್ತಿರುವುದಕ್ಕೆ be + -ing.", deck:"ಲೋಕಾಭಿರಾಮ ಮಾತುಕತೆ", body:`
+<p>ಕನ್ನಡದ "ಮಾಡುತ್ತಿದ್ದೇನೆ" ಇಂಗ್ಲಿಷ್‌ನ <b>am doing</b> ಜೊತೆ ಚೆನ್ನಾಗಿ ಹೊಂದುತ್ತದೆ: <b>ಈ ಕ್ಷಣ</b> ನಡೆಯುತ್ತಿರುವ ಕೆಲಸಕ್ಕೆ <b>be + ಕ್ರಿಯಾಪದ-ing</b> (Present Continuous). ಎರಡು ಕಡೆ ಮಾತ್ರ ಎಚ್ಚರ: ಸ್ಥಿತಿ ತಿಳಿಸುವ ಕ್ರಿಯಾಪದಗಳು ಮತ್ತು ದಿನವೂ ಮಾಡುವ ಕೆಲಸ.</p>
+{{ex:I'm working now.|ಐಮ್ ˈವರ್ಕಿಙ್ ನೌ|ನಾನು ಈಗ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದೇನೆ}}{{ex:She's cooking dinner.|ಶಿಜ಼್ ˈಕುಕಿಙ್ ˈಡಿನರ್|ಅವಳು ರಾತ್ರಿಯ ಊಟ ತಯಾರಿಸುತ್ತಿದ್ದಾಳೆ}}{{ex:It's raining.|ಇಟ್ಸ್ ˈರೇನಿಙ್|ಮಳೆ ಬರುತ್ತಿದೆ}}
+<h3>ಪ್ರಶ್ನೆ ಮತ್ತು ನಿಷೇಧ</h3>
+{{ex:What are you doing?|ವಟ್ ಅರ್ ಯು ˈಡೂಇಙ್|ಏನು ಮಾಡುತ್ತಿದ್ದೀಯಾ?}}{{ex:Are you listening?|ಅರ್ ಯು ˈಲಿಸನಿಙ್|ಕೇಳುತ್ತಿದ್ದೀಯಾ?}}{{ex:I'm not sleeping.|ಐಮ್ ನಾಟ್ ˈಸ್ಲೀಪಿಙ್|ನಾನು ನಿದ್ದೆ ಮಾಡುತ್ತಿಲ್ಲ}}
+<h3>Simple Present ಜೊತೆ ಹೋಲಿಕೆ</h3>
+<div class="tbl"><table><tr><th>ಯಾವಾಗಲೂ (Simple Present)</th><th>ಈಗ (be + -ing)</th></tr><tr><td class="k">I work every day.</td><td class="k">I'm working now.</td></tr><tr><td class="k">She drinks tea.</td><td class="k">She's drinking tea.</td></tr></table></div>
+<h3>-ing ಬಾರದ ಕ್ರಿಯಾಪದಗಳು</h3>
+<p>like, know, want, need, have (ಹತ್ತಿರ ಇರುವುದು) ಇವು ಸ್ಥಿತಿ ತಿಳಿಸುವ ಕ್ರಿಯಾಪದಗಳು (stative verbs). ಈಗಿನ ವಿಷಯವಾದರೂ ಇವುಗಳಿಗೆ Simple Present. ಕನ್ನಡದಲ್ಲಿ ಇವು ಹೆಚ್ಚಾಗಿ ಕ್ರಿಯಾಪದಗಳೇ ಅಲ್ಲ ("ನನಗೆ ಗೊತ್ತು", "ನನಗೆ ಬೇಕು"), ಹಾಗಾಗಿ -ing ಸೇರಿಸುವ ತಪ್ಪು ಸುಲಭವಾಗಿ ಆಗುತ್ತದೆ.</p>
+{{ex:I know him.|ಐ ನೋ ಹಿಮ್|ನನಗೆ ಅವನು ಗೊತ್ತು}}{{ex:I want some water.|ಐ ವಾನ್ಟ್ ಸಮ್ ˈವಾಟರ್|ನನಗೆ ಸ್ವಲ್ಪ ನೀರು ಬೇಕು}}
+<div class="tip">ಅತಿ ಸಾಮಾನ್ಯ ತಪ್ಪು: <b>I working.</b> ✗ → <b>I'm working.</b> ✓ (be ಬಿಡಬೇಡಿ), <b>I'm knowing.</b> ✗ → <b>I know.</b> ✓, <b>I'm having a car.</b> ✗ → <b>I have a car.</b> ✓, <b>I am going to gym daily.</b> ✗ → <b>I go to the gym every day.</b> ✓</div>`,
+check:[["\"ಈಗ ಏನು ಮಾಡುತ್ತಿದ್ದೀಯಾ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?",["What do you do now?","What are you doing?","What you doing are?","What are you do?"],1,"ಈಗ ನಡೆಯುತ್ತಿರುವುದನ್ನು be + -ing ಮೂಲಕ ಕೇಳಿ."],["I ___ coffee every morning. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["am drinking","drinking","drink","am drink"],2,"ಪ್ರತಿದಿನದ ಅಭ್ಯಾಸಕ್ಕೆ Simple Present."],["ಇವುಗಳಲ್ಲಿ ಸರಿಯಾದ ವಾಕ್ಯ ಯಾವುದು?",["I'm knowing him.","I'm wanting coffee.","I'm having a car.","I'm reading a book."],3,"know, want, have (ಹತ್ತಿರ ಇರುವುದು) ಜೊತೆ -ing ಬರುವುದಿಲ್ಲ."]],
 practice:[
-["mc","'저 지금 일하고 있어요' =","I'm working now.","I work now am.","I'm work now.","I working now.","지금 하는 일은 be + -ing예요."],
-["mc","'그녀는 저녁을 만들고 있어요' =","She's cooking dinner.","She cooking dinner.","She's cook dinner.","She's cooking a dinner.","be + -ing이고, 식사 이름에는 관사가 없어요."],
-["mc","매일 하는 일을 말하는 문장은?","I walk to work every day.","I'm walking to work every day.","I walking to work every day.","I'm walk to work every day.","습관은 현재형이에요."],
-["mc","'지금 뭐 해요?' =","What are you doing?","What do you doing?","What are you do?","What you are doing?","의문사 + be + 주어 + -ing예요."],
-["mc","'저는 그를 알아요' =","I know him.","I'm knowing him.","I knowing him.","I'm know him.","know는 -ing를 쓰지 않는 동사예요."],
-["or","저는 책을 읽고 있어요","I'm reading a book","read books","지금 읽는 한 권이라 관사 a와 단수 book이에요."],
-["or","아이들이 놀고 있어요","The kids are playing","kid is","여럿이라 복수 kids와 are를 써요."],
-["or","지금 비가 오고 있어요","It's raining now","rains","지금 일어나는 일은 be + -ing예요."],
-["fi","I'm __ TV.","저는 TV를 보고 있어요","watching","watch|watches|to watch","be 뒤에는 -ing가 와요."],
-["fi","What __ you doing?","뭐 하고 있어요?","are","do|is|does","you에는 are예요."],
-["fi","She __ working today.","그녀는 오늘 일 안 해요","isn't|is not","doesn't|don't|not","be + -ing의 부정은 isn't예요."],
-["ty","저 지금 요리하고 있어요","I'm cooking now|I'm cooking|I'm cooking right now","I'm · cook — -ing · now","cook","지금 하는 일은 be + -ing예요."],
-["ty","저는 영화를 보고 있어요","I'm watching a movie","I'm · watching · movie — 관사 a","the","아무 영화 한 편이라 관사 a예요."],
-["ty","아이들이 자고 있어요","The kids are sleeping|The children are sleeping","kids · are · sleeping — 복수","kid","여럿이라 복수 kids와 are예요."]]},
-{ id:"past", title:"과거형: was / were와 -ed", blurb:"be동사는 was·were, 일반동사는 -ed. 질문과 부정은 did.", deck:"스몰토크", body:`
-<p>한국어의 '-았/었어요'에 해당해요. be동사와 일반동사의 과거가 따로 있어요.</p>
-<h3>be동사의 과거: was / were</h3>
-<p>I, he, she, it에는 <b>was</b>, you, we, they에는 <b>were</b>예요.</p>
-{{ex:I was tired.|아이 워즈 타이어드|피곤했어요}}{{ex:It was fun.|잇 워즈 펀|재미있었어요}}{{ex:We were at home.|위 워 앳 홈|우리는 집에 있었어요}}{{ex:Were you busy?|워 유 비지?|바빴어요?}}
-<h3>일반동사의 과거: -ed</h3>
-<p>동사 끝에 <b>-ed</b>를 붙여요. 주어가 누구든 모양이 같아요.</p>
-{{ex:I worked yesterday.|아이 웍트 예스터데이|어제 일했어요}}{{ex:We watched a movie.|위 왓치트 어 무비|우리는 영화를 봤어요}}{{ex:She called me.|쉬 콜드 미|그녀가 저한테 전화했어요}}
-<h3>부정과 질문은 did</h3>
-<p><b>didn't</b>나 <b>Did</b>를 쓰면 동사는 원래 모양으로 돌아가요.</p>
-{{ex:I didn't work yesterday.|아이 디든 워크 예스터데이|어제 일 안 했어요}}{{ex:Did you call me?|디쥬 콜 미?|저한테 전화했어요?}}
-<div class="tip">가장 흔한 실수: <b>I didn't worked.</b> (X) → <b>I didn't work.</b> (O), <b>I was work.</b> (X) → <b>I worked.</b> (O)</div>`,
-check:[["They ___ at home yesterday. 빈칸에 알맞은 것은?",["was","were","did","are"],1,"they에는 were예요."],["'어제 일 안 했어요'를 영어로 하면?",["I didn't worked yesterday.","I wasn't work yesterday.","I didn't work yesterday.","I not worked yesterday."],2,"didn't 뒤에는 동사원형이 와요."],["Did you ___ the movie? 빈칸에 알맞은 것은?",["watch","watched","watching","watches"],0,"Did 뒤에는 동사원형이 와요."]],
+["mc","\"ನಾನು ಈಗ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದೇನೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I'm working now.","I work now am.","I'm work now.","I working now.","ಈಗ ನಡೆಯುತ್ತಿರುವುದಕ್ಕೆ be + -ing."],
+["mc","\"ಅವಳು ರಾತ್ರಿಯ ಊಟ ತಯಾರಿಸುತ್ತಿದ್ದಾಳೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","She's cooking dinner.","She cooking dinner.","She's cook dinner.","She's cooking a dinner.","be + -ing; ಊಟದ ಹೆಸರಿನ ಮೊದಲು ಆರ್ಟಿಕಲ್ ಇಲ್ಲ."],
+["mc","ಪ್ರತಿದಿನ ಮಾಡುವ ಕೆಲಸವನ್ನು ಹೇಳುವ ವಾಕ್ಯ ಯಾವುದು?","I walk to work every day.","I'm walking to work every day.","I walking to work every day.","I'm walk to work every day.","ಅಭ್ಯಾಸ ಹೇಳಲು Simple Present."],
+["mc","\"ಈಗ ಏನು ಮಾಡುತ್ತಿದ್ದೀಯಾ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","What are you doing?","What do you doing?","What are you do?","What you are doing?","wh-ಪದ + be + ಕರ್ತೃ + -ing — ಇದೇ ಕ್ರಮ."],
+["mc","\"ನನಗೆ ಅವನು ಗೊತ್ತು\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I know him.","I'm knowing him.","I knowing him.","I'm know him.","know ಸ್ಥಿತಿ ತಿಳಿಸುವ ಕ್ರಿಯಾಪದ: -ing ಬರುವುದಿಲ್ಲ."],
+["or","ನಾನು ಒಂದು ಪುಸ್ತಕ ಓದುತ್ತಿದ್ದೇನೆ","I'm reading a book","read books","ಈಗ ಓದುತ್ತಿರುವ ಒಂದು ಪುಸ್ತಕ: ಆರ್ಟಿಕಲ್ a ಮತ್ತು ಏಕವಚನ book."],
+["or","ಮಕ್ಕಳು ಆಡುತ್ತಿದ್ದಾರೆ","The kids are playing","kid is","ಹಲವರು ಇರುವುದರಿಂದ ಬಹುವಚನ kids ಮತ್ತು are."],
+["or","ಈಗ ಮಳೆ ಬರುತ್ತಿದೆ","It's raining now","rains","ಈಗ ನಡೆಯುತ್ತಿರುವುದಕ್ಕೆ be + -ing."],
+["fi","I'm __ TV.","ನಾನು ಟಿವಿ ನೋಡುತ್ತಿದ್ದೇನೆ","watching","watch|watches|to watch","be ನಂತರ -ing ರೂಪ ಬರುತ್ತದೆ."],
+["fi","What __ you doing?","ಏನು ಮಾಡುತ್ತಿದ್ದೀಯಾ?","are","do|is|does","you ಜೊತೆ are."],
+["fi","She __ working today.","ಅವಳು ಇವತ್ತು ಕೆಲಸ ಮಾಡುತ್ತಿಲ್ಲ","isn't|is not","doesn't|don't|not","be + -ing ವಾಕ್ಯದ ನಿಷೇಧಕ್ಕೆ isn't."],
+["ty","ನಾನು ಈಗ ಅಡುಗೆ ಮಾಡುತ್ತಿದ್ದೇನೆ","I'm cooking now|I'm cooking|I'm cooking right now","I'm · cook — -ing ರೂಪ · now","cook","ಈಗ ನಡೆಯುತ್ತಿರುವುದಕ್ಕೆ be + -ing."],
+["ty","ನಾನು ಒಂದು ಸಿನಿಮಾ ನೋಡುತ್ತಿದ್ದೇನೆ","I'm watching a movie","I'm · watching · movie — ಆರ್ಟಿಕಲ್ a","the","ಯಾವುದೋ ಒಂದು ಸಿನಿಮಾ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a."],
+["ty","ಮಕ್ಕಳು ನಿದ್ದೆ ಮಾಡುತ್ತಿದ್ದಾರೆ","The kids are sleeping|The children are sleeping","kids · are · sleeping — ಬಹುವಚನ","kid","ಹಲವರು ಇರುವುದರಿಂದ ಬಹುವಚನ kids ಮತ್ತು are."]]},
+{ id:"past", title:"Simple Past: was / were ಮತ್ತು -ed", blurb:"be ಬದಲು was / were, ಬೇರೆ ಕ್ರಿಯಾಪದಗಳಿಗೆ -ed. ಪ್ರಶ್ನೆ ಮತ್ತು ನಿಷೇಧಕ್ಕೆ did.", deck:"ಲೋಕಾಭಿರಾಮ ಮಾತುಕತೆ", body:`
+<p>ಕನ್ನಡದ "ಮಾಡಿದೆ", "ಇದ್ದೆ" ತರಹದ ರೂಪಗಳಿಗೆ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ Simple Past (ಭೂತಕಾಲ). be ಮತ್ತು ಬೇರೆ ಕ್ರಿಯಾಪದಗಳಿಗೆ ರೂಪ ಬೇರೆ ಬೇರೆ.</p>
+<h3>be: was / were</h3>
+<p>I, he, she, it ಜೊತೆ <b>was</b>; you, we, they ಜೊತೆ <b>were</b>.</p>
+{{ex:I was tired.|ಐ ವಜ಼್ ˈಟೈಅರ್ಡ್|ನನಗೆ ಸುಸ್ತಾಗಿತ್ತು}}{{ex:It was fun.|ಇಟ್ ವಜ಼್ ಫ಼ನ್|ಅದು ಮಜವಾಗಿತ್ತು}}{{ex:We were at home.|ವಿ ವರ್ ಅಟ್ ಹೋಮ್|ನಾವು ಮನೆಯಲ್ಲಿ ಇದ್ದೆವು}}{{ex:Were you busy?|ವರ್ ಯು ˈಬಿಜ಼ಿ|ನೀನು ಬ್ಯುಸಿ ಇದ್ದೆಯಾ?}}
+<h3>ಬೇರೆ ಕ್ರಿಯಾಪದಗಳು: -ed</h3>
+<p>ಕ್ರಿಯಾಪದದ ಕೊನೆಗೆ <b>-ed</b> ಸೇರಿಸಿ. ಕರ್ತೃ ಯಾರೇ ಆದರೂ ರೂಪ ಒಂದೇ. -ed ಅನ್ನು ಟ್ / ಡ್ / ಇಡ್ ಎಂದು ಹೇಳಿ, ನಂತರ ಸ್ವರ ಸೇರಿಸಬೇಡಿ: worked = <b>ವರ್ಕ್ಟ್</b>.</p>
+{{ex:I worked yesterday.|ಐ ವರ್ಕ್ಟ್ ˈಯೆಸ್ಟರ್ಡೇ|ನಾನು ನಿನ್ನೆ ಕೆಲಸ ಮಾಡಿದೆ}}{{ex:We watched a movie.|ವಿ ವಾಚ್ಟ್ ಅ ˈಮೂವ಼ಿ|ನಾವು ಒಂದು ಸಿನಿಮಾ ನೋಡಿದೆವು}}{{ex:She called me.|ಶಿ ಕಾಲ್ಡ್ ಮಿ|ಅವಳು ನನಗೆ ಕಾಲ್ ಮಾಡಿದಳು}}
+<h3>ನಿಷೇಧ ಮತ್ತು ಪ್ರಶ್ನೆಗೆ did</h3>
+<p><b>didn't</b> ಅಥವಾ <b>Did</b> ಬಂದರೆ ಕ್ರಿಯಾಪದ ಮತ್ತೆ ಮೂಲ ರೂಪಕ್ಕೆ (V1) ಬರುತ್ತದೆ.</p>
+{{ex:I didn't work yesterday.|ಐ ˈಡಿಡನ್ಟ್ ವರ್ಕ್ ˈಯೆಸ್ಟರ್ಡೇ|ನಾನು ನಿನ್ನೆ ಕೆಲಸ ಮಾಡಲಿಲ್ಲ}}{{ex:Did you call me?|ಡಿಡ್ ಯು ಕಾಲ್ ಮಿ|ನೀನು ನನಗೆ ಕಾಲ್ ಮಾಡಿದ್ದೆಯಾ?}}
+<div class="tip">ಅತಿ ಸಾಮಾನ್ಯ ತಪ್ಪು: <b>I didn't worked.</b> ✗ → <b>I didn't work.</b> ✓, <b>I was work.</b> ✗ → <b>I worked.</b> ✓. yesterday ತರಹದ ಮುಗಿದ ಸಮಯ ಇದ್ದರೆ Simple Past: <b>I have seen him yesterday.</b> ✗ → <b>I saw him yesterday.</b> ✓</div>`,
+check:[["They ___ at home yesterday. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["was","were","did","are"],1,"they ಜೊತೆ were."],["\"ನಾನು ನಿನ್ನೆ ಕೆಲಸ ಮಾಡಲಿಲ್ಲ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?",["I didn't worked yesterday.","I wasn't work yesterday.","I didn't work yesterday.","I not worked yesterday."],2,"didn't ನಂತರ V1 ಬರುತ್ತದೆ."],["Did you ___ the movie? ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["watch","watched","watching","watches"],0,"Did ನಂತರ V1 ಬರುತ್ತದೆ."]],
 practice:[
-["mc","I ___ tired yesterday.","was","were","did","am","I에는 was예요."],
-["mc","'우리는 영화를 봤어요' =","We watched a movie.","We watch a movie yesterday.","We were watch a movie.","We did watched a movie.","일반동사 과거는 -ed예요."],
-["mc","'어제 전화했어요?' =","Did you call yesterday?","Did you called yesterday?","Were you call yesterday?","Do you called yesterday?","Did 뒤에는 동사원형이 와요."],
-["mc","'재미있었어요' =","It was fun.","It were fun.","It did fun.","It funned.","it에는 was예요."],
-["mc","'바빴어요?' =","Were you busy?","Did you busy?","Was you busy?","Were you busied?","busy는 상태라서 be동사로 물어요."],
-["or","우리는 영화를 봤어요","We watched a movie","watch movies","영화 한 편이라 관사 a와 단수 movie예요."],
-["or","(어린아이가) 저는 친구들과 놀았어요","I played with my friends","friend play","여러 명이라 복수 friends예요."],
-["or","어제 일 안 했어요","I didn't work yesterday","worked","didn't 뒤에는 동사원형이 와요."],
-["fi","We __ at home last night.","우리는 어젯밤에 집에 있었어요","were","was|did|are","we에는 were예요."],
-["fi","I __ soccer yesterday.","어제 축구했어요","played","play|playing|was play","과거는 -ed예요."],
-["fi","__ you work yesterday?","어제 일했어요?","Did","Were|Do|Was","일반동사 과거 질문은 Did예요."],
-["ty","피곤했어요","I was tired","was · tired","were","I에는 was예요."],
-["ty","저는 영화를 봤어요","I watched a movie","watched · movie — 관사 a","the","영화 한 편이라 관사 a를 붙여요."],
-["ty","저는 친구들한테 전화했어요","I called my friends","called · my · friend — 복수","friend","여러 명이라 복수 friends예요."]]},
-{ id:"irregular-past", title:"불규칙 과거: went, ate, saw", blurb:"가장 자주 쓰는 동사일수록 -ed가 아니에요. 12개만 먼저 외워요.", deck:"스몰토크", body:`
-<p>매일 쓰는 동사들은 과거형이 <b>불규칙</b>이에요. 규칙이 없으니 짝으로 외워요.</p>
-<div class="tbl"><table><tr><th>현재</th><th>과거</th><th>현재</th><th>과거</th></tr><tr><td class="k">go</td><td class="k">went</td><td class="k">make</td><td class="k">made</td></tr><tr><td class="k">eat</td><td class="k">ate</td><td class="k">come</td><td class="k">came</td></tr><tr><td class="k">see</td><td class="k">saw</td><td class="k">buy</td><td class="k">bought</td></tr><tr><td class="k">have</td><td class="k">had</td><td class="k">meet</td><td class="k">met</td></tr><tr><td class="k">do</td><td class="k">did</td><td class="k">take</td><td class="k">took</td></tr><tr><td class="k">get</td><td class="k">got</td><td class="k">say</td><td class="k">said</td></tr></table></div>
-{{ex:I went to Busan.|아이 웬 투 부산|부산에 갔어요}}{{ex:We ate pizza.|위 에잇 피짜|우리는 피자를 먹었어요}}{{ex:I saw a movie.|아이 쏘 어 무비|영화를 봤어요}}{{ex:I met my friends.|아이 멧 마이 프렌즈|친구들을 만났어요}}{{ex:I bought a book.|아이 봇 어 북|책을 한 권 샀어요}}
-<h3>질문과 부정에서는 원래 모양으로</h3>
-<p><b>did</b>가 과거를 표시하니까 동사는 원형으로 돌아가요.</p>
-{{ex:What did you do?|왓 디쥬 두?|뭐 했어요?}}{{ex:Where did you go?|웨어 디쥬 고?|어디 갔어요?}}{{ex:I didn't go.|아이 디든 고|안 갔어요}}
-<div class="tip">가장 흔한 실수: <b>I goed.</b> (X) → <b>I went.</b> (O), <b>Did you went?</b> (X) → <b>Did you go?</b> (O)</div>`,
-check:[["go의 과거형은?",["goed","gone","went","going"],2,"go의 과거는 went예요."],["'뭐 했어요?'를 영어로 하면?",["What did you do?","What did you did?","What you did?","What were you do?"],0,"did 뒤에는 동사원형 do가 와요."],["I didn't ___ breakfast. 빈칸에 알맞은 것은?",["ate","eaten","eats","eat"],3,"didn't 뒤에는 동사원형이 와요."]],
+["mc","I ___ tired yesterday.","was","were","did","am","I ಜೊತೆ was."],
+["mc","\"ನಾವು ಒಂದು ಸಿನಿಮಾ ನೋಡಿದೆವು\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","We watched a movie.","We watch a movie yesterday.","We were watch a movie.","We did watched a movie.","be ಅಲ್ಲದ ಕ್ರಿಯಾಪದದ ಭೂತಕಾಲಕ್ಕೆ -ed."],
+["mc","\"ನಿನ್ನೆ ಕಾಲ್ ಮಾಡಿದ್ದೆಯಾ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","Did you call yesterday?","Did you called yesterday?","Were you call yesterday?","Do you called yesterday?","Did ನಂತರ V1 ಬರುತ್ತದೆ."],
+["mc","\"ಅದು ಮಜವಾಗಿತ್ತು\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","It was fun.","It were fun.","It did fun.","It funned.","it ಜೊತೆ was."],
+["mc","\"ನೀನು ಬ್ಯುಸಿ ಇದ್ದೆಯಾ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","Were you busy?","Did you busy?","Was you busy?","Were you busied?","busy ಕ್ರಿಯಾಪದ ಅಲ್ಲ, ಸ್ಥಿತಿ; ಹಾಗಾಗಿ ಪ್ರಶ್ನೆ Were ನಿಂದ."],
+["or","ನಾವು ಒಂದು ಸಿನಿಮಾ ನೋಡಿದೆವು","We watched a movie","watch movies","ಒಂದೇ ಸಿನಿಮಾ: ಆರ್ಟಿಕಲ್ a ಮತ್ತು ಏಕವಚನ movie."],
+["or","(ಚಿಕ್ಕ ಮಗು ಹೇಳುತ್ತದೆ) ನಾನು ನನ್ನ ಸ್ನೇಹಿತರ ಜೊತೆ ಆಡಿದೆ","I played with my friends","friend play","ಹಲವರು ಇರುವುದರಿಂದ ಬಹುವಚನ friends."],
+["or","ನಾನು ನಿನ್ನೆ ಕೆಲಸ ಮಾಡಲಿಲ್ಲ","I didn't work yesterday","worked","didn't ನಂತರ V1 ಬರುತ್ತದೆ."],
+["fi","We __ at home last night.","ನಾವು ನಿನ್ನೆ ರಾತ್ರಿ ಮನೆಯಲ್ಲಿ ಇದ್ದೆವು","were","was|did|are","we ಜೊತೆ were."],
+["fi","I __ soccer yesterday.","ನಾನು ನಿನ್ನೆ ಫುಟ್‌ಬಾಲ್ ಆಡಿದೆ","played","play|playing|was play","ಭೂತಕಾಲಕ್ಕೆ -ed."],
+["fi","__ you work yesterday?","ನೀನು ನಿನ್ನೆ ಕೆಲಸ ಮಾಡಿದೆಯಾ?","Did","Were|Do|Was","be ಅಲ್ಲದ ಕ್ರಿಯಾಪದದ ಭೂತಕಾಲದ ಪ್ರಶ್ನೆಗೆ Did."],
+["ty","ನನಗೆ ಸುಸ್ತಾಗಿತ್ತು","I was tired","was · tired","were","I ಜೊತೆ was."],
+["ty","ನಾನು ಒಂದು ಸಿನಿಮಾ ನೋಡಿದೆ","I watched a movie","watched · movie — ಆರ್ಟಿಕಲ್ a","the","ಒಂದು ಸಿನಿಮಾ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a."],
+["ty","ನಾನು ನನ್ನ ಸ್ನೇಹಿತರಿಗೆ ಕಾಲ್ ಮಾಡಿದೆ","I called my friends","called · my · friend — ಬಹುವಚನ","friend","ಹಲವರು ಇರುವುದರಿಂದ ಬಹುವಚನ friends."]]},
+{ id:"irregular-past", title:"ಅನಿಯಮಿತ ಭೂತಕಾಲ: went, ate, saw", blurb:"ಹೆಚ್ಚು ಬಳಸುವ ಕ್ರಿಯಾಪದಗಳಿಗೇ -ed ಇಲ್ಲ. ಮೊದಲು 12 ನೆನಪಿಟ್ಟುಕೊಳ್ಳಿ.", deck:"ಲೋಕಾಭಿರಾಮ ಮಾತುಕತೆ", body:`
+<p>ದಿನವೂ ಬಳಸುವ ಕ್ರಿಯಾಪದಗಳ ಭೂತಕಾಲದ ರೂಪ (V2) <b>ಅನಿಯಮಿತ</b>. ಇದಕ್ಕೆ ನಿಯಮ ಇಲ್ಲ; ಶಾಲೆಯಲ್ಲಿ ಕಲಿತ ಹಾಗೆ V1, V2 ಜೋಡಿಯಾಗಿ ನೆನಪಿಟ್ಟುಕೊಳ್ಳಿ.</p>
+<div class="tbl"><table><tr><th>V1</th><th>V2</th><th>V1</th><th>V2</th></tr><tr><td class="k">go</td><td class="k">went</td><td class="k">make</td><td class="k">made</td></tr><tr><td class="k">eat</td><td class="k">ate</td><td class="k">come</td><td class="k">came</td></tr><tr><td class="k">see</td><td class="k">saw</td><td class="k">buy</td><td class="k">bought</td></tr><tr><td class="k">have</td><td class="k">had</td><td class="k">meet</td><td class="k">met</td></tr><tr><td class="k">do</td><td class="k">did</td><td class="k">take</td><td class="k">took</td></tr><tr><td class="k">get</td><td class="k">got</td><td class="k">say</td><td class="k">said</td></tr></table></div>
+{{ex:I went to Mysuru.|ಐ ವೆನ್ಟ್ ಟ ಮೈˈಸುರೂ|ನಾನು ಮೈಸೂರಿಗೆ ಹೋದೆ}}{{ex:We ate pizza.|ವಿ ಏಟ್ ˈಪೀಟ್ಸ|ನಾವು ಪಿಜ್ಜಾ ತಿಂದೆವು}}{{ex:I saw a movie.|ಐ ಸಾ ಅ ˈಮೂವ಼ಿ|ನಾನು ಒಂದು ಸಿನಿಮಾ ನೋಡಿದೆ}}{{ex:I met my friends.|ಐ ಮೆಟ್ ಮೈ ಫ಼್ರೆನ್ಡ್ಜ಼್|ನಾನು ನನ್ನ ಸ್ನೇಹಿತರನ್ನು ಭೇಟಿಯಾದೆ}}{{ex:I bought a book.|ಐ ಬಾಟ್ ಅ ಬುಕ್|ನಾನು ಒಂದು ಪುಸ್ತಕ ಕೊಂಡೆ}}
+<h3>ಪ್ರಶ್ನೆ ಮತ್ತು ನಿಷೇಧದಲ್ಲಿ ಮತ್ತೆ V1</h3>
+<p>ಭೂತಕಾಲವನ್ನು <b>did</b> ತೋರಿಸುತ್ತದೆ; ಹಾಗಾಗಿ ಕ್ರಿಯಾಪದ V1 ಆಗಿಯೇ ಇರುತ್ತದೆ.</p>
+{{ex:What did you do?|ವಟ್ ಡಿಡ್ ಯು ಡೂ|ನೀನು ಏನು ಮಾಡಿದೆ?}}{{ex:Where did you go?|ವೆರ್ ಡಿಡ್ ಯು ಗೋ|ನೀನು ಎಲ್ಲಿಗೆ ಹೋಗಿದ್ದೆ?}}{{ex:I didn't go.|ಐ ˈಡಿಡನ್ಟ್ ಗೋ|ನಾನು ಹೋಗಲಿಲ್ಲ}}
+<div class="tip">ಅತಿ ಸಾಮಾನ್ಯ ತಪ್ಪು: <b>I goed.</b> ✗ → <b>I went.</b> ✓, <b>Did you went?</b> ✗ → <b>Did you go?</b> ✓, <b>I didn't went.</b> ✗ → <b>I didn't go.</b> ✓</div>`,
+check:[["go ಪದದ ಭೂತಕಾಲದ ರೂಪ (V2) ಯಾವುದು?",["goed","gone","went","going"],2,"go ಪದದ ಭೂತಕಾಲ went."],["\"ನೀನು ಏನು ಮಾಡಿದೆ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?",["What did you do?","What did you did?","What you did?","What were you do?"],0,"did ನಂತರ V1 ಬರುತ್ತದೆ: do."],["I didn't ___ breakfast. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["ate","eaten","eats","eat"],3,"didn't ನಂತರ V1 ಬರುತ್ತದೆ."]],
 practice:[
-["mc","eat의 과거형은?","ate","eated","eat","eaten","eat의 과거는 ate예요."],
-["mc","'어디 갔어요?' =","Where did you go?","Where did you went?","Where you went?","Where were you go?","did 뒤에는 동사원형이 와요."],
-["mc","'저는 책을 한 권 샀어요' =","I bought a book.","I buyed a book.","I bought book.","I did bought a book.","buy의 과거는 bought, 한 권이라 관사 a예요."],
-["mc","see의 과거형은?","saw","seed","seen","sawed","see의 과거는 saw예요."],
-["mc","'저는 안 갔어요' =","I didn't go.","I didn't went.","I wasn't go.","I not went.","didn't 뒤에는 동사원형이 와요."],
-["or","저는 영화를 봤어요","I saw a movie","see movies","한 편이라 관사 a와 단수 movie예요. see의 과거는 saw예요."],
-["or","우리는 피자를 먹었어요","We ate pizza","eated","eat의 과거는 ate예요."],
-["or","저는 친구들을 만났어요","I met my friends","friend meet","여러 명이라 복수 friends예요."],
-["fi","I __ to Jeju last year.","작년에 제주에 갔어요","went","go|goed|gone","go의 과거는 went예요."],
-["fi","What did you __?","뭐 먹었어요?","eat","ate|eaten|eating","did 뒤에는 동사원형이 와요."],
-["fi","She __ a new phone.","그녀는 새 휴대폰을 샀어요","bought","buyed|buy|buys","buy의 과거는 bought예요."],
-["ty","저는 부산에 갔어요","I went to Busan","went · to · Busan","go","go의 과거는 went예요."],
-["ty","저는 책을 한 권 샀어요","I bought a book","bought · book — 관사 a","the","한 권이라 관사 a를 붙여요."],
-["ty","저는 친구들을 만났어요","I met my friends|I saw my friends","met · my · friend — 복수","friend","여러 명이라 복수 friends예요."]]},
-{ id:"the", title:"the 다시 보기: 처음엔 a, 다음엔 the", blurb:"처음 꺼낼 땐 a, 서로 아는 것이 되면 the.", deck:"길 묻기·교통", body:`
-<p>관사는 한 번에 익혀지지 않아요. 여기서는 <b>the</b>를 쓰는 때와 <b>아무것도 안 쓰는 때</b>를 다시 연습해요.</p>
-<h3>처음엔 a, 다시 말할 땐 the</h3>
-<p>듣는 사람이 처음 듣는 것이면 a, 방금 말해서 이제 아는 것이면 the예요.</p>
-{{ex:I bought a shirt. The shirt is blue.|아이 봇 어 셔트. 더 셔트 이즈 블루|셔츠를 하나 샀어요. 그 셔츠는 파란색이에요}}
-<h3>상황상 하나뿐이면 the</h3>
-<p>이 방의 창문, 이 근처의 역처럼 무엇인지 뻔하면 처음부터 the예요.</p>
-{{ex:Can you open the window?|캔 유 오픈 더 윈도우?|창문 좀 열어 줄래요?}}{{ex:Where's the subway station?|웨어즈 더 서브웨이 스테이션?|지하철역이 어디예요?}}{{ex:The sun is hot today.|더 썬 이즈 핫 투데이|오늘 햇볕이 뜨거워요}}
-<h3>관사를 안 쓰는 표현</h3>
-<p>자주 쓰는 장소·교통·식사 표현은 통째로 외워요.</p>
-{{ex:I go to work by bus.|아이 고우 투 워크 바이 버스|저는 버스로 출근해요}}{{ex:I'm at home.|아임 앳 홈|저 집에 있어요}}{{ex:I go to bed at eleven.|아이 고우 투 베드 앳 일레븐|저는 11시에 자요}}
-<div class="tip">스스로 물어보세요: "듣는 사람이 <b>어느 것인지</b> 알까?" 알면 the, 모르면 a예요.</div>`,
-check:[["I have a cat. ___ cat is white. 빈칸에 알맞은 것은?",["A","An","The","(없음)"],2,"방금 말한 그 고양이라서 the예요."],["I go to ___ work by bus. 빈칸에 알맞은 것은?",["a","the","an","(없음)"],3,"go to work에는 관사를 쓰지 않아요."],["이 방의 창문을 열어 달라고 할 때 알맞은 말은?",["Can you open a window?","Can you open the window?","Can you open window?","Can you open an window?"],1,"둘 다 아는 그 창문이라서 the예요."]],
+["mc","eat ಪದದ ಭೂತಕಾಲದ ರೂಪ (V2) ಯಾವುದು?","ate","eated","eat","eaten","eat ಪದದ ಭೂತಕಾಲ ate."],
+["mc","\"ನೀನು ಎಲ್ಲಿಗೆ ಹೋಗಿದ್ದೆ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","Where did you go?","Where did you went?","Where you went?","Where were you go?","did ನಂತರ V1 ಬರುತ್ತದೆ."],
+["mc","\"ನಾನು ಒಂದು ಪುಸ್ತಕ ಕೊಂಡೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I bought a book.","I buyed a book.","I bought book.","I did bought a book.","buy ಪದದ ಭೂತಕಾಲ bought; ಒಂದೇ ಪುಸ್ತಕ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a."],
+["mc","see ಪದದ ಭೂತಕಾಲದ ರೂಪ (V2) ಯಾವುದು?","saw","seed","seen","sawed","see ಪದದ ಭೂತಕಾಲ saw."],
+["mc","\"ನಾನು ಹೋಗಲಿಲ್ಲ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I didn't go.","I didn't went.","I wasn't go.","I not went.","didn't ನಂತರ V1 ಬರುತ್ತದೆ."],
+["or","ನಾನು ಒಂದು ಸಿನಿಮಾ ನೋಡಿದೆ","I saw a movie","see movies","ಒಂದೇ ಸಿನಿಮಾ: ಆರ್ಟಿಕಲ್ a ಮತ್ತು ಏಕವಚನ movie. see ಪದದ ಭೂತಕಾಲ saw."],
+["or","ನಾವು ಪಿಜ್ಜಾ ತಿಂದೆವು","We ate pizza","eated","eat ಪದದ ಭೂತಕಾಲ ate."],
+["or","ನಾನು ನನ್ನ ಸ್ನೇಹಿತರನ್ನು ಭೇಟಿಯಾದೆ","I met my friends","friend meet","ಹಲವರು ಇರುವುದರಿಂದ ಬಹುವಚನ friends."],
+["fi","I __ to Jeju last year.","ನಾನು ಹೋದ ವರ್ಷ ಜೆಜುಗೆ ಹೋಗಿದ್ದೆ","went","go|goed|gone","go ಪದದ ಭೂತಕಾಲ went."],
+["fi","What did you __?","ನೀನು ಏನು ತಿಂದೆ?","eat","ate|eaten|eating","did ನಂತರ V1 ಬರುತ್ತದೆ."],
+["fi","She __ a new phone.","ಅವಳು ಹೊಸ ಫೋನ್ ಕೊಂಡಳು","bought","buyed|buy|buys","buy ಪದದ ಭೂತಕಾಲ bought."],
+["ty","ನಾನು ಬೂಸಾನ್‌ಗೆ ಹೋದೆ","I went to Busan","went · to · Busan","go","go ಪದದ ಭೂತಕಾಲ went."],
+["ty","ನಾನು ಒಂದು ಪುಸ್ತಕ ಕೊಂಡೆ","I bought a book","bought · book — ಆರ್ಟಿಕಲ್ a","the","ಒಂದು ಪುಸ್ತಕ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a."],
+["ty","ನಾನು ನನ್ನ ಸ್ನೇಹಿತರನ್ನು ಭೇಟಿಯಾದೆ","I met my friends|I saw my friends","met · my · friend — ಬಹುವಚನ","friend","ಹಲವರು ಇರುವುದರಿಂದ ಬಹುವಚನ friends."]]},
+{ id:"the", title:"the ಮತ್ತೊಮ್ಮೆ: ಮೊದಲು a, ನಂತರ the", blurb:"ಮೊದಲ ಸಲ ಹೇಳುವಾಗ a; ಇಬ್ಬರಿಗೂ ಗೊತ್ತಾದ ಮೇಲೆ the.", deck:"ದಾರಿ ಮತ್ತು ಸಾರಿಗೆ", body:`
+<p>ಕನ್ನಡದಲ್ಲಿ ಆರ್ಟಿಕಲ್ ಇಲ್ಲ, ಹಾಗಾಗಿ ಇದು ಒಂದೇ ಸಲಕ್ಕೆ ಅಭ್ಯಾಸವಾಗುವುದಿಲ್ಲ. ಇಲ್ಲಿ <b>the</b> ಯಾವಾಗ ಬೇಕು ಮತ್ತು <b>ಆರ್ಟಿಕಲ್ ಯಾವಾಗ ಬೇಡ</b> ಎಂದು ಮತ್ತೆ ಅಭ್ಯಾಸ ಮಾಡಿ. "ಆ" ಮತ್ತು "ಈ" ಎಂದರೆ that ಮತ್ತು this; ಅವು ಯಾವಾಗಲೂ the ಅಲ್ಲ.</p>
+<h3>ಮೊದಲು a, ಮತ್ತೆ ಹೇಳುವಾಗ the</h3>
+<p>ಕೇಳುವವರಿಗೆ ಹೊಸದಾದರೆ a; ಈಗ ತಾನೇ ಹೇಳಿ ಗೊತ್ತಾಗಿದ್ದರೆ the.</p>
+{{ex:I bought a shirt. The shirt is blue.|ಐ ಬಾಟ್ ಅ ಶರ್ಟ್. ದ಼ ಶರ್ಟ್ ಇಜ಼್ ಬ್ಲೂ|ನಾನು ಒಂದು ಶರ್ಟ್ ಕೊಂಡೆ. ಆ ಶರ್ಟ್ ನೀಲಿ ಬಣ್ಣದ್ದು}}
+<h3>ಸಂದರ್ಭದಲ್ಲಿ ಒಂದೇ ಇದ್ದರೆ the</h3>
+<p>ಈ ರೂಮಿನ ಕಿಟಕಿ, ಹತ್ತಿರದ ಸ್ಟೇಷನ್ — ಯಾವುದು ಎಂದು ಸ್ಪಷ್ಟವಾಗಿದ್ದರೆ ಮೊದಲಿನಿಂದಲೇ the.</p>
+{{ex:Can you open the window?|ಕನ್ ಯು ˈಓಪನ್ ದ಼ ˈವಿನ್ಡೋ|ಕಿಟಕಿ ತೆಗೆಯುತ್ತೀರಾ?}}{{ex:Where's the subway station?|ವೆರ್ಜ಼್ ದ಼ ˈಸಬ್ವೇ ˈಸ್ಟೇಶನ್|ಮೆಟ್ರೋ (subway) ಸ್ಟೇಷನ್ ಎಲ್ಲಿದೆ?}}{{ex:The sun is hot today.|ದ಼ ಸನ್ ಇಜ಼್ ಹಾಟ್ ಟˈಡೇ|ಇವತ್ತು ಬಿಸಿಲು ಜೋರಾಗಿದೆ}}
+<h3>ಆರ್ಟಿಕಲ್ ಇಲ್ಲದ ಮಾತುಗಳು</h3>
+<p>ಜಾಗ, ಸಾರಿಗೆ, ಊಟದ ಕೆಲವು ಮಾತುಗಳನ್ನು ಇಡಿಯಾಗಿ ನೆನಪಿಟ್ಟುಕೊಳ್ಳಿ. ಸಾಮಾನ್ಯವಾಗಿ ಹೇಳುವ ಬಹುವಚನ ಮತ್ತು ಎಣಿಸಲಾಗದ ನಾಮಪದಕ್ಕೂ the ಬೇಡ (<b>The life is hard.</b> ✗ → <b>Life is hard.</b> ✓); ಹೆಚ್ಚಿನ ಹೆಸರುಗಳಿಗೂ ಬೇಡ (<b>the Bengaluru</b> ✗).</p>
+{{ex:I go to work by bus.|ಐ ಗೋ ಟ ವರ್ಕ್ ಬೈ ಬಸ್|ನಾನು ಬಸ್‌ನಲ್ಲಿ ಕೆಲಸಕ್ಕೆ ಹೋಗುತ್ತೇನೆ}}{{ex:I'm at home.|ಐಮ್ ಅಟ್ ಹೋಮ್|ನಾನು ಮನೆಯಲ್ಲಿ ಇದ್ದೇನೆ}}{{ex:I go to bed at eleven.|ಐ ಗೋ ಟ ಬೆಡ್ ಅಟ್ ಇˈಲೆವ಼ನ್|ನಾನು ಹನ್ನೊಂದು ಗಂಟೆಗೆ ಮಲಗುತ್ತೇನೆ}}
+<div class="tip">ನಿಮ್ಮನ್ನೇ ಕೇಳಿಕೊಳ್ಳಿ: "ಕೇಳುವವರಿಗೆ <b>ಯಾವುದು</b> ಎಂದು ಗೊತ್ತಿದೆಯೇ?" ಗೊತ್ತಿದ್ದರೆ the, ಇಲ್ಲದಿದ್ದರೆ a.</div>`,
+check:[["I have a cat. ___ cat is white. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["A","An","The","(ಏನೂ ಬೇಡ)"],2,"ಈಗ ತಾನೇ ಹೇಳಿದ ಅದೇ ಬೆಕ್ಕು, ಹಾಗಾಗಿ the."],["I go to ___ work by bus. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["a","the","an","(ಏನೂ ಬೇಡ)"],3,"go to work ಎಂಬಲ್ಲಿ ಆರ್ಟಿಕಲ್ ಇಲ್ಲ."],["ಈ ರೂಮಿನ ಕಿಟಕಿ ತೆಗೆಯಲು ಹೇಳುವಾಗ ಯಾವ ವಾಕ್ಯ ಸರಿ?",["Can you open a window?","Can you open the window?","Can you open window?","Can you open an window?"],1,"ಇಬ್ಬರಿಗೂ ಗೊತ್ತಿರುವ ಆ ಕಿಟಕಿ, ಹಾಗಾಗಿ the."]],
 practice:[
-["mc","I bought a shirt. ___ shirt is blue.","The","A","An","Some","방금 말한 그 셔츠라서 the예요."],
-["mc","'역이 어디예요?' =","Where's the station?","Where's a station?","Where's station?","Where the station?","이 근처의 그 역이라서 the예요."],
-["mc","다음 중 알맞은 문장은?","I go to work by bus.","I go to the work by the bus.","I go to a work by bus.","I go to work by a bus.","go to work, by bus에는 관사가 없어요."],
-["mc","'해가 뜨거워요' =","The sun is hot.","A sun is hot.","Sun is hot.","The suns is hot.","하나뿐인 것에는 the를 붙여요."],
-["mc","'저 집에 있어요' =","I'm at home.","I'm at the home.","I'm at a home.","I'm home at.","at home에는 관사가 없어요."],
-["or","창문 좀 열어 줄래요?","Can you open the window","a windows","둘 다 아는 그 창문이라 관사 the예요."],
-["or","저는 버스로 출근해요","I go to work by bus","the a","go to work, by bus에는 관사를 쓰지 않아요."],
-["or","그 개는 커요","The dog is big","A dogs","이미 말한 그 개라서 관사 the예요."],
-["fi","I saw a movie. __ movie was great.","영화를 봤어요. 그 영화 정말 좋았어요","The","A|An|Some","방금 말한 그 영화라서 the예요."],
-["fi","Where's __ bathroom?","화장실이 어디예요?","the","a|an|some","이 건물의 그 화장실이라서 the예요."],
-["fi","I have __ idea.","좋은 생각이 있어요","an","a|the|some","처음 꺼내는 하나이고 모음 소리로 시작해서 an이에요."],
-["ty","문 좀 닫아 줄래요?","Can you close the door|Could you close the door","can you · close · door — 관사 the","a","둘 다 아는 그 문이라 관사 the예요."],
-["ty","역이 어디예요?","Where is the station|Where's the station","where · station — 관사 the","a","이 근처의 그 역이라 관사 the예요."],
-["ty","저는 집에 있어요","I'm at home|I'm home","I'm · at · home — 관사 없이","the","home 앞에는 관사를 쓰지 않아요."]]},
-{ id:"adjectives", title:"형용사와 비교: bigger, more expensive, the best", blurb:"형용사는 명사 앞에. 비교는 -er / more, 최고는 the -est / the most.", deck:"쇼핑·계산", body:`
-<p>형용사는 명사 <b>앞</b>이나 be동사 <b>뒤</b>에 와요. 쇼핑할 때 꼭 필요한 비교 표현까지 같이 익혀요.</p>
-{{ex:a big bag|어 빅 백|큰 가방}}{{ex:This bag is big.|디스 백 이즈 빅|이 가방은 커요}}{{ex:It's too small.|이츠 투 스몰|너무 작아요}}
-<h3>비교: -er 또는 more</h3>
-<p>짧은 단어는 <b>-er</b>, 긴 단어는 앞에 <b>more</b>를 붙여요. '~보다'는 <b>than</b>이에요.</p>
-<div class="tbl"><table><tr><th>원래</th><th>더 ~한</th><th>가장 ~한</th></tr><tr><td class="k">cheap</td><td class="k">cheaper</td><td class="k">the cheapest</td></tr><tr><td class="k">big</td><td class="k">bigger</td><td class="k">the biggest</td></tr><tr><td class="k">expensive</td><td class="k">more expensive</td><td class="k">the most expensive</td></tr><tr><td class="k">good</td><td class="k">better</td><td class="k">the best</td></tr><tr><td class="k">bad</td><td class="k">worse</td><td class="k">the worst</td></tr></table></div>
-{{ex:This one is cheaper.|디스 원 이즈 치퍼|이게 더 싸요}}{{ex:It's more expensive than that one.|이츠 모어 익스펜시브 댄 댓 원|저것보다 더 비싸요}}{{ex:Do you have a bigger size?|두 유 해버 비거 사이즈?|더 큰 사이즈 있어요?}}
-<h3>최상급에는 the</h3>
-{{ex:This is the best restaurant here.|디스 이즈 더 베스트 레스토란트 히어|여기서 제일 좋은 식당이에요}}{{ex:Which is the cheapest?|위치 이즈 더 치피스트?|어느 게 제일 싸요?}}
-<div class="tip">가장 흔한 실수: <b>more cheaper</b>, <b>more good</b> (X) → <b>cheaper</b>, <b>better</b> (O). -er와 more는 같이 쓰지 않아요.</div>`,
-check:[["big의 비교급은?",["more big","biger","bigger","most big"],2,"짧은 단어는 -er, 끝 자음을 한 번 더 써요."],["This is ___ expensive than that. 빈칸에 알맞은 것은?",["more","most","much","very"],0,"긴 단어의 비교급은 more를 붙여요."],["good의 최상급은?",["the goodest","the most good","the better","the best"],3,"good – better – the best예요."]],
+["mc","I bought a shirt. ___ shirt is blue.","The","A","An","Some","ಈಗ ತಾನೇ ಹೇಳಿದ ಅದೇ ಶರ್ಟ್, ಹಾಗಾಗಿ the."],
+["mc","\"ಸ್ಟೇಷನ್ ಎಲ್ಲಿದೆ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","Where's the station?","Where's a station?","Where's station?","Where the station?","ಇಲ್ಲಿ ಹತ್ತಿರದ ಆ ಸ್ಟೇಷನ್, ಹಾಗಾಗಿ the."],
+["mc","ಇವುಗಳಲ್ಲಿ ಸರಿಯಾದ ವಾಕ್ಯ ಯಾವುದು?","I go to work by bus.","I go to the work by the bus.","I go to a work by bus.","I go to work by a bus.","go to work, by bus — ಎರಡರಲ್ಲೂ ಆರ್ಟಿಕಲ್ ಇಲ್ಲ."],
+["mc","\"ಸೂರ್ಯನ ಬಿಸಿಲು ಜೋರಾಗಿದೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","The sun is hot.","A sun is hot.","Sun is hot.","The suns is hot.","ಒಂದೇ ಒಂದು ಇರುವ ವಸ್ತುವಿಗೆ the."],
+["mc","\"ನಾನು ಮನೆಯಲ್ಲಿ ಇದ್ದೇನೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I'm at home.","I'm at the home.","I'm at a home.","I'm home at.","at home ಎಂಬಲ್ಲಿ ಆರ್ಟಿಕಲ್ ಇಲ್ಲ."],
+["or","ಕಿಟಕಿ ತೆಗೆಯುತ್ತೀರಾ?","Can you open the window","a windows","ಇಬ್ಬರಿಗೂ ಗೊತ್ತಿರುವ ಆ ಕಿಟಕಿ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ the."],
+["or","ನಾನು ಬಸ್‌ನಲ್ಲಿ ಕೆಲಸಕ್ಕೆ ಹೋಗುತ್ತೇನೆ","I go to work by bus","the a","go to work, by bus — ಎರಡರಲ್ಲೂ ಆರ್ಟಿಕಲ್ ಬೇಡ."],
+["or","ಆ ನಾಯಿ ದೊಡ್ಡದು","The dog is big","A dogs","ಈಗಾಗಲೇ ಹೇಳಿದ ಆ ನಾಯಿ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ the."],
+["fi","I saw a movie. __ movie was great.","ನಾನು ಒಂದು ಸಿನಿಮಾ ನೋಡಿದೆ. ಆ ಸಿನಿಮಾ ತುಂಬಾ ಚೆನ್ನಾಗಿತ್ತು","The","A|An|Some","ಈಗ ತಾನೇ ಹೇಳಿದ ಅದೇ ಸಿನಿಮಾ, ಹಾಗಾಗಿ the."],
+["fi","Where's __ bathroom?","ಶೌಚಾಲಯ ಎಲ್ಲಿದೆ?","the","a|an|some","ಈ ಕಟ್ಟಡದ ಆ ಶೌಚಾಲಯ, ಹಾಗಾಗಿ the."],
+["fi","I have __ idea.","ನನಗೊಂದು ಐಡಿಯಾ ಬಂದಿದೆ","an","a|the|some","ಮೊದಲ ಸಲ ಹೇಳುವ ಒಂದು ವಿಷಯ; idea ಸ್ವರದ ಧ್ವನಿಯಿಂದ ಶುರುವಾಗುತ್ತದೆ, ಹಾಗಾಗಿ an."],
+["ty","ಬಾಗಿಲು ಮುಚ್ಚುತ್ತೀರಾ?","Can you close the door|Could you close the door","can you · close · door — ಆರ್ಟಿಕಲ್ the","a","ಇಬ್ಬರಿಗೂ ಗೊತ್ತಿರುವ ಆ ಬಾಗಿಲು, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ the."],
+["ty","ಸ್ಟೇಷನ್ ಎಲ್ಲಿದೆ?","Where is the station|Where's the station","where · station — ಆರ್ಟಿಕಲ್ the","a","ಇಲ್ಲಿ ಹತ್ತಿರದ ಆ ಸ್ಟೇಷನ್, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ the."],
+["ty","ನಾನು ಮನೆಯಲ್ಲಿ ಇದ್ದೇನೆ","I'm at home|I'm home","I'm · at · home — ಆರ್ಟಿಕಲ್ ಇಲ್ಲದೆ","the","home ಮೊದಲು ಆರ್ಟಿಕಲ್ ಬರುವುದಿಲ್ಲ."]]},
+{ id:"adjectives", title:"ಗುಣವಾಚಕ ಮತ್ತು ಹೋಲಿಕೆ: bigger, more expensive, the best", blurb:"ಗುಣವಾಚಕ ನಾಮಪದದ ಮೊದಲು. ಹೋಲಿಕೆಗೆ -er / more; ಎಲ್ಲಕ್ಕಿಂತ ಹೆಚ್ಚು ಎನ್ನಲು the -est / the most.", deck:"ಶಾಪಿಂಗ್ ಮತ್ತು ಪಾವತಿ", body:`
+<p>ಗುಣವಾಚಕ ಕನ್ನಡದ ಹಾಗೆಯೇ ನಾಮಪದದ <b>ಮೊದಲು</b> ಬರುತ್ತದೆ, ಇಲ್ಲವೇ be <b>ನಂತರ</b>. ಕನ್ನಡದಲ್ಲಿ ಹೋಲಿಸಲು "-ಗಿಂತ" ಸೇರಿಸುತ್ತೇವೆ; ಗುಣವಾಚಕ ಬದಲಾಗುವುದಿಲ್ಲ (ಇದಕ್ಕಿಂತ ದೊಡ್ಡದು). ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಗುಣವಾಚಕವೇ ಬದಲಾಗುತ್ತದೆ. ಶಾಪಿಂಗ್ ಮಾಡುವಾಗ ಇದು ತುಂಬಾ ಬೇಕು.</p>
+{{ex:a big bag|ಅ ಬಿಗ್ ಬ್ಯಾಗ್|ದೊಡ್ಡ ಬ್ಯಾಗ್}}{{ex:This bag is big.|ದ಼ಿಸ್ ಬ್ಯಾಗ್ ಇಜ಼್ ಬಿಗ್|ಈ ಬ್ಯಾಗ್ ದೊಡ್ಡದು}}{{ex:It's too small.|ಇಟ್ಸ್ ಟೂ ಸ್ಮಾಲ್|ಇದು ತೀರಾ ಚಿಕ್ಕದು}}
+<h3>ಹೋಲಿಕೆ (comparative): -er ಅಥವಾ more</h3>
+<p>ಚಿಕ್ಕ ಪದಕ್ಕೆ <b>-er</b>, ಉದ್ದ ಪದದ ಮೊದಲು <b>more</b>. "-ಗಿಂತ" ಎನ್ನಲು <b>than</b>.</p>
+<div class="tbl"><table><tr><th>ಮೂಲ ರೂಪ</th><th>ಇನ್ನೂ ಹೆಚ್ಚು (comparative)</th><th>ಎಲ್ಲಕ್ಕಿಂತ ಹೆಚ್ಚು (superlative)</th></tr><tr><td class="k">cheap</td><td class="k">cheaper</td><td class="k">the cheapest</td></tr><tr><td class="k">big</td><td class="k">bigger</td><td class="k">the biggest</td></tr><tr><td class="k">expensive</td><td class="k">more expensive</td><td class="k">the most expensive</td></tr><tr><td class="k">good</td><td class="k">better</td><td class="k">the best</td></tr><tr><td class="k">bad</td><td class="k">worse</td><td class="k">the worst</td></tr></table></div>
+{{ex:This one is cheaper.|ದ಼ಿಸ್ ವನ್ ಇಜ಼್ ˈಚೀಪರ್|ಇದು ಇನ್ನೂ ಅಗ್ಗ}}{{ex:It's more expensive than that one.|ಇಟ್ಸ್ ಮೋರ್ ಇಕ್ˈಸ್ಪೆನ್ಸಿವ಼್ ದ಼ನ್ ದ಼್ಯಾಟ್ ವನ್|ಇದು ಅದಕ್ಕಿಂತ ದುಬಾರಿ}}{{ex:Do you have a bigger size?|ಡ ಯು ಹ್ಯಾವ಼್ ಅ ˈಬಿಗರ್ ಸೈಜ಼್|ಇದಕ್ಕಿಂತ ದೊಡ್ಡ ಸೈಜ್ ಇದೆಯಾ?}}
+<h3>superlative ಜೊತೆ the</h3>
+{{ex:This is the best restaurant here.|ದ಼ಿಸ್ ಇಜ಼್ ದ಼ ಬೆಸ್ಟ್ ˈರೆಸ್ಟರಾನ್ಟ್ ಹಿರ್|ಇಲ್ಲಿನ ಅತ್ಯುತ್ತಮ ರೆಸ್ಟೋರೆಂಟ್ ಇದು}}{{ex:Which is the cheapest?|ವಿಚ್ ಇಜ಼್ ದ಼ ˈಚೀಪಿಸ್ಟ್|ಎಲ್ಲಕ್ಕಿಂತ ಅಗ್ಗ ಯಾವುದು?}}
+<div class="tip">ಅತಿ ಸಾಮಾನ್ಯ ತಪ್ಪು: <b>more cheaper</b>, <b>more better</b>, <b>more good</b> ✗ → <b>cheaper</b>, <b>better</b> ✓. -er ಮತ್ತು more ಒಟ್ಟಿಗೆ ಬರುವುದಿಲ್ಲ. <b>too</b> ಎಂದರೆ "ಬೇಕಾದ್ದಕ್ಕಿಂತ ಹೆಚ್ಚು"; ಭಾರತದಲ್ಲಿ too good ಎಂದರೆ "ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ", ವಿದೇಶದಲ್ಲಿ ಅದಕ್ಕೆ <b>very good</b>.</div>`,
+check:[["big ಪದದ comparative ರೂಪ ಯಾವುದು?",["more big","biger","bigger","most big"],2,"ಚಿಕ್ಕ ಪದಕ್ಕೆ -er; ಇಲ್ಲಿ ಕೊನೆಯ ವ್ಯಂಜನವನ್ನು ಎರಡು ಸಲ ಬರೆಯಬೇಕು."],["This is ___ expensive than that. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["more","most","much","very"],0,"ಉದ್ದ ಪದದ ಹೋಲಿಕೆಗೆ more."],["good ಪದದ superlative ರೂಪ ಯಾವುದು?",["the goodest","the most good","the better","the best"],3,"good – better – the best ಎಂದು ಬದಲಾಗುತ್ತದೆ."]],
 practice:[
-["mc","cheap의 비교급은?","cheaper","more cheap","cheapper","most cheap","짧은 단어는 -er를 붙여요."],
-["mc","'이게 더 비싸요' =","This is more expensive.","This is expensiver.","This is most expensive.","This more expensive is.","긴 단어는 more를 붙여요."],
-["mc","'더 큰 사이즈 있어요?' =","Do you have a bigger size?","Do you have bigger a size?","Do you have a more big size?","Do you have a size bigger than?","관사 + 형용사 + 명사 순서예요."],
-["mc","good의 비교급은?","better","gooder","more good","best","good – better – best예요."],
-["mc","'여기가 제일 좋은 식당이에요' =","This is the best restaurant.","This is a best restaurant.","This is the most good restaurant.","This is best the restaurant.","최상급 앞에는 the를 붙여요."],
-["or","더 큰 사이즈 있어요?","Do you have a bigger size","the sizes","아무 사이즈 하나를 찾으니까 관사 a예요."],
-["or","이게 제일 싸요","This is the cheapest","a cheaper","최상급 앞에는 관사 the를 붙여요."],
-["or","이게 저것보다 싸요","This is cheaper than that","more","-er 형용사에는 more를 붙이지 않아요."],
-["fi","It's __ small.","너무 작아요","too","much|more|most","'너무'는 too예요."],
-["fi","This is cheaper __ that one.","이게 저것보다 싸요","than","then|that|more","'~보다'는 than이에요."],
-["fi","It's the __ expensive one.","제일 비싼 거예요","most","more|much|very","긴 단어의 최상급은 the most예요."],
-["ty","더 작은 사이즈 있어요?","Do you have a smaller size","smaller · size — 관사 a","the","아무 사이즈 하나를 찾으니까 관사 a예요."],
-["ty","이게 제일 좋아요","This is the best|This one is the best","the · best — 관사 the","a","최상급 앞에는 관사 the를 붙여요."],
-["ty","이게 더 싸요","This is cheaper|This one is cheaper","cheap — 비교급","more","짧은 단어는 -er를 붙여요."]]},
-{ id:"going-to", title:"계획 말하기: be going to", blurb:"이미 마음먹은 일은 be going to + 동사.", deck:"스몰토크", body:`
-<p>'~할 거예요'처럼 <b>미리 정한 계획</b>을 말할 때 써요. 틀은 <b>be + going to + 동사원형</b>이에요.</p>
-{{ex:I'm going to visit Busan.|아임 고잉 투 비짓 부산|저는 부산에 갈 거예요}}{{ex:She's going to buy a car.|쉬즈 고잉 투 바이 어 카|그녀는 차를 살 거예요}}{{ex:We're going to have dinner.|위어 고잉 투 해브 디너|우리는 저녁을 먹을 거예요}}
-<h3>부정과 질문</h3>
-{{ex:I'm not going to go.|아임 낫 고잉 투 고|저는 안 갈 거예요}}{{ex:Are you going to come?|아 유 고잉 투 컴?|올 거예요?}}{{ex:What are you going to do this weekend?|왓 아 유 고잉 투 두 디스 위켄드?|이번 주말에 뭐 할 거예요?}}
-<h3>보이는 대로 예상할 때도</h3>
-{{ex:It's going to rain.|이츠 고잉 투 레인|비가 올 거예요}}
-<h3>함께 쓰는 시간 표현</h3>
-<p>tomorrow(내일), tonight(오늘 밤), this weekend(이번 주말), next week(다음 주)를 문장 끝에 붙여요.</p>
-<div class="tip">말할 때는 going to가 <b>gonna(거나)</b>처럼 들려요. 그리고 be동사를 빼먹지 마세요: <b>I going to go.</b> (X) → <b>I'm going to go.</b> (O)</div>`,
-check:[["'내일 친구를 만날 거예요'를 영어로 하면?",["I going to meet my friend tomorrow.","I'm going to meet my friend tomorrow.","I'm going meet my friend tomorrow.","I'm go to meet my friend tomorrow."],1,"be + going to + 동사원형이에요."],["She ___ going to study. 빈칸에 알맞은 것은?",["am","are","is","be"],2,"she에는 is예요."],["'주말에 뭐 할 거예요?'를 영어로 하면?",["What are you going to do this weekend?","What do you going to do this weekend?","What you are going to do this weekend?","What are you going do this weekend?"],0,"의문사 + be + 주어 + going to예요."]],
+["mc","cheap ಪದದ comparative ರೂಪ ಯಾವುದು?","cheaper","more cheap","cheapper","most cheap","ಚಿಕ್ಕ ಪದಕ್ಕೆ -er ಸೇರುತ್ತದೆ."],
+["mc","\"ಇದು ಇನ್ನೂ ದುಬಾರಿ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","This is more expensive.","This is expensiver.","This is most expensive.","This more expensive is.","ಉದ್ದ ಪದದ ಮೊದಲು more."],
+["mc","\"ಇದಕ್ಕಿಂತ ದೊಡ್ಡ ಸೈಜ್ ಇದೆಯಾ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","Do you have a bigger size?","Do you have bigger a size?","Do you have a more big size?","Do you have a size bigger than?","ಆರ್ಟಿಕಲ್ + ಗುಣವಾಚಕ + ನಾಮಪದ — ಇದೇ ಕ್ರಮ."],
+["mc","good ಪದದ comparative ರೂಪ ಯಾವುದು?","better","gooder","more good","best","good – better – best ಎಂದು ಬದಲಾಗುತ್ತದೆ."],
+["mc","\"ಇಲ್ಲಿನ ಅತ್ಯುತ್ತಮ ರೆಸ್ಟೋರೆಂಟ್ ಇದು\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","This is the best restaurant.","This is a best restaurant.","This is the most good restaurant.","This is best the restaurant.","superlative ಮೊದಲು the ಬರುತ್ತದೆ."],
+["or","ಇದಕ್ಕಿಂತ ದೊಡ್ಡ ಸೈಜ್ ಇದೆಯಾ?","Do you have a bigger size","the sizes","ಯಾವುದಾದರೂ ಒಂದು ಸೈಜ್ ಕೇಳುತ್ತಿದ್ದೀರಿ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a."],
+["or","ಇದೇ ಎಲ್ಲಕ್ಕಿಂತ ಅಗ್ಗ","This is the cheapest","a cheaper","superlative ಮೊದಲು ಆರ್ಟಿಕಲ್ the ಬರುತ್ತದೆ."],
+["or","ಇದು ಅದಕ್ಕಿಂತ ಅಗ್ಗ","This is cheaper than that","more","-er ಇರುವ ಗುಣವಾಚಕದ ಜೊತೆ more ಬರುವುದಿಲ್ಲ."],
+["fi","It's __ small.","ಇದು ತೀರಾ ಚಿಕ್ಕದು","too","much|more|most","\"ಬೇಕಾದ್ದಕ್ಕಿಂತ ಹೆಚ್ಚು\" ಎನ್ನಲು too."],
+["fi","This is cheaper __ that one.","ಇದು ಅದಕ್ಕಿಂತ ಅಗ್ಗ","than","then|that|more","\"-ಗಿಂತ\" ಎನ್ನಲು than."],
+["fi","It's the __ expensive one.","ಇದೇ ಎಲ್ಲಕ್ಕಿಂತ ದುಬಾರಿ","most","more|much|very","ಉದ್ದ ಪದದ superlative ರೂಪಕ್ಕೆ the most."],
+["ty","ಇದಕ್ಕಿಂತ ಚಿಕ್ಕ ಸೈಜ್ ಇದೆಯಾ?","Do you have a smaller size","smaller · size — ಆರ್ಟಿಕಲ್ a","the","ಯಾವುದಾದರೂ ಒಂದು ಸೈಜ್ ಕೇಳುತ್ತಿದ್ದೀರಿ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a."],
+["ty","ಇದೇ ಎಲ್ಲಕ್ಕಿಂತ ಚೆನ್ನಾಗಿದೆ","This is the best|This one is the best","the · best — ಆರ್ಟಿಕಲ್ the","a","superlative ಮೊದಲು ಆರ್ಟಿಕಲ್ the ಬರುತ್ತದೆ."],
+["ty","ಇದು ಇನ್ನೂ ಅಗ್ಗ","This is cheaper|This one is cheaper","cheap — comparative ರೂಪ","more","ಚಿಕ್ಕ ಪದಕ್ಕೆ -er ಸೇರುತ್ತದೆ."]]},
+{ id:"going-to", title:"ಯೋಜನೆ ಹೇಳುವುದು: be going to", blurb:"ಈಗಾಗಲೇ ನಿರ್ಧರಿಸಿದ ಕೆಲಸಕ್ಕೆ be going to + ಕ್ರಿಯಾಪದ.", deck:"ಲೋಕಾಭಿರಾಮ ಮಾತುಕತೆ", body:`
+<p>ಕನ್ನಡದಲ್ಲಿ "ನಾಳೆ ಹೋಗುತ್ತೇನೆ" ಎಂದು ಒಂದೇ ರೂಪದಲ್ಲಿ ಮುಂದಿನ ವಿಷಯವನ್ನೂ ಹೇಳುತ್ತೇವೆ. ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ <b>ಮೊದಲೇ ನಿರ್ಧರಿಸಿದ ಯೋಜನೆ</b> ಹೇಳಲು ಪ್ರತ್ಯೇಕ ಮಾದರಿ ಇದೆ: <b>be + going to + V1</b> (ಕ್ರಿಯಾಪದದ ಮೂಲ ರೂಪ).</p>
+{{ex:I'm going to visit Mysuru.|ಐಮ್ ˈಗೋಇಙ್ ಟ ˈವ಼ಿಜ಼ಿಟ್ ಮೈˈಸುರೂ|ನಾನು ಮೈಸೂರಿಗೆ ಹೋಗಲಿದ್ದೇನೆ}}{{ex:She's going to buy a car.|ಶಿಜ಼್ ˈಗೋಇಙ್ ಟ ಬೈ ಅ ಕಾರ್|ಅವಳು ಕಾರು ಕೊಳ್ಳಲಿದ್ದಾಳೆ}}{{ex:We're going to have dinner.|ವಿರ್ ˈಗೋಇಙ್ ಟ ಹ್ಯಾವ಼್ ˈಡಿನರ್|ನಾವು ರಾತ್ರಿಯ ಊಟ ಮಾಡಲಿದ್ದೇವೆ}}
+<h3>ನಿಷೇಧ ಮತ್ತು ಪ್ರಶ್ನೆ</h3>
+{{ex:I'm not going to go.|ಐಮ್ ನಾಟ್ ˈಗೋಇಙ್ ಟ ಗೋ|ನಾನು ಹೋಗುವುದಿಲ್ಲ}}{{ex:Are you going to come?|ಅರ್ ಯು ˈಗೋಇಙ್ ಟ ಕಮ್|ನೀನು ಬರುತ್ತೀಯಾ?}}{{ex:What are you going to do this weekend?|ವಟ್ ಅರ್ ಯು ˈಗೋಇಙ್ ಟ ಡೂ ದ಼ಿಸ್ ˈವೀಕೆನ್ಡ್|ಈ ವಾರಾಂತ್ಯ ಏನು ಮಾಡಲಿದ್ದೀಯಾ?}}
+<h3>ಕಣ್ಣಿಗೆ ಕಾಣುವುದರಿಂದ ಊಹಿಸುವಾಗಲೂ</h3>
+{{ex:It's going to rain.|ಇಟ್ಸ್ ˈಗೋಇಙ್ ಟ ರೇನ್|ಮಳೆ ಬರುವ ಹಾಗಿದೆ}}
+<h3>ಜೊತೆಗೆ ಬರುವ ಸಮಯದ ಪದಗಳು</h3>
+<p>tomorrow (ನಾಳೆ), tonight (ಇವತ್ತು ರಾತ್ರಿ), this weekend (ಈ ವಾರಾಂತ್ಯ), next week (ಮುಂದಿನ ವಾರ) ವಾಕ್ಯದ ಕೊನೆಗೆ ಬರುತ್ತವೆ.</p>
+<div class="tip">ಮಾತಿನಲ್ಲಿ going to ಎಂಬುದು <b>gonna</b> ಎಂದು ಕೇಳಿಸುತ್ತದೆ. be ಬಿಡಬೇಡಿ: <b>I going to go.</b> ✗ → <b>I'm going to go.</b> ✓</div>`,
+check:[["\"ನಾನು ನಾಳೆ ನನ್ನ ಸ್ನೇಹಿತನನ್ನು ಭೇಟಿಯಾಗಲಿದ್ದೇನೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?",["I going to meet my friend tomorrow.","I'm going to meet my friend tomorrow.","I'm going meet my friend tomorrow.","I'm go to meet my friend tomorrow."],1,"be + going to + V1 — ಇದೇ ಮಾದರಿ."],["She ___ going to study. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["am","are","is","be"],2,"she ಜೊತೆ is."],["\"ಈ ವಾರಾಂತ್ಯ ಏನು ಮಾಡಲಿದ್ದೀಯಾ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?",["What are you going to do this weekend?","What do you going to do this weekend?","What you are going to do this weekend?","What are you going do this weekend?"],0,"wh-ಪದ + be + ಕರ್ತೃ + going to — ಇದೇ ಕ್ರಮ."]],
 practice:[
-["mc","'저는 부산에 갈 거예요' =","I'm going to go to Busan.","I going to go to Busan.","I'm going go to Busan.","I'm go to Busan going.","be + going to + 동사원형이에요."],
-["mc","They ___ going to come.","are","is","am","be","they에는 are예요."],
-["mc","'비가 올 거예요' =","It's going to rain.","It going to rain.","It's going rain.","It's going to rains.","going to 뒤에는 동사원형이 와요."],
-["mc","'저는 안 갈 거예요' =","I'm not going to go.","I don't going to go.","I'm not going go.","I'm going not to go.","be동사 뒤에 not을 넣어요."],
-["mc","'올 거예요?' =","Are you going to come?","Do you going to come?","Are you going come?","You are going to come do?","be동사를 앞으로 보내요."],
-["or","그녀는 차를 살 거예요","She's going to buy a car","the cars","차 한 대라서 관사 a와 단수 car예요."],
-["or","저는 친구들을 만날 거예요","I'm going to meet my friends","friend","여러 명이라 복수 friends예요."],
-["or","우리는 저녁을 먹을 거예요","We're going to have dinner","a","식사 이름 dinner에는 관사를 쓰지 않아요."],
-["fi","I'm going __ study tonight.","오늘 밤에 공부할 거예요","to","for|at|will","going to + 동사원형이에요."],
-["fi","__ you going to come?","올 거예요?","Are","Do|Is|Will","you에는 Are예요."],
-["fi","It's going to __ tomorrow.","내일 비가 올 거예요","rain","rains|raining|rained","going to 뒤에는 동사원형이 와요."],
-["ty","저는 영화를 볼 거예요","I'm going to watch a movie|I'm going to see a movie","going to · watch · movie — 관사 a","the","아무 영화 한 편이라 관사 a예요."],
-["ty","뭐 할 거예요?","What are you going to do","what · going to · do","will","계획을 물을 때는 be going to예요."],
-["ty","저는 친구들을 만날 거예요","I'm going to meet my friends|I'm going to see my friends","going to · meet · friend — 복수","friend","여러 명이라 복수 friends예요."]]},
-{ id:"joining", title:"문장 잇기: and, but, or, so, because", blurb:"짧은 문장 두 개를 하나로. so와 because는 순서가 반대예요.", deck:"감정·반응", body:`
-<p>짧은 문장만 말하면 뚝뚝 끊겨요. 이 다섯 단어로 문장을 이으면 훨씬 자연스러워요.</p>
+["mc","\"ನಾನು ಬೂಸಾನ್‌ಗೆ ಹೋಗಲಿದ್ದೇನೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I'm going to go to Busan.","I going to go to Busan.","I'm going go to Busan.","I'm go to Busan going.","be + going to + V1 — ಇದೇ ಮಾದರಿ."],
+["mc","They ___ going to come.","are","is","am","be","they ಜೊತೆ are."],
+["mc","\"ಮಳೆ ಬರುವ ಹಾಗಿದೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","It's going to rain.","It going to rain.","It's going rain.","It's going to rains.","going to ನಂತರ V1 ಬರುತ್ತದೆ."],
+["mc","\"ನಾನು ಹೋಗುವುದಿಲ್ಲ\" (ಯೋಜನೆ) ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I'm not going to go.","I don't going to go.","I'm not going go.","I'm going not to go.","be ನಂತರ not ಬರುತ್ತದೆ."],
+["mc","\"ನೀನು ಬರುತ್ತೀಯಾ?\" (ಯೋಜನೆ) ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","Are you going to come?","Do you going to come?","Are you going come?","You are going to come do?","ಪ್ರಶ್ನೆಯಲ್ಲಿ be ಕರ್ತೃವಿನ ಮೊದಲು ಬರುತ್ತದೆ."],
+["or","ಅವಳು ಕಾರು ಕೊಳ್ಳಲಿದ್ದಾಳೆ","She's going to buy a car","the cars","ಒಂದು ಕಾರು: ಆರ್ಟಿಕಲ್ a ಮತ್ತು ಏಕವಚನ car."],
+["or","ನಾನು ನನ್ನ ಸ್ನೇಹಿತರನ್ನು ಭೇಟಿಯಾಗಲಿದ್ದೇನೆ","I'm going to meet my friends","friend","ಹಲವರು ಇರುವುದರಿಂದ ಬಹುವಚನ friends."],
+["or","ನಾವು ರಾತ್ರಿಯ ಊಟ ಮಾಡಲಿದ್ದೇವೆ","We're going to have dinner","a","ಊಟದ ಹೆಸರು dinner ಮೊದಲು ಆರ್ಟಿಕಲ್ ಬರುವುದಿಲ್ಲ."],
+["fi","I'm going __ study tonight.","ನಾನು ಇವತ್ತು ರಾತ್ರಿ ಓದಲಿದ್ದೇನೆ","to","for|at|will","going to + V1 — ಇದೇ ಮಾದರಿ."],
+["fi","__ you going to come?","ನೀನು ಬರುತ್ತೀಯಾ?","Are","Do|Is|Will","you ಜೊತೆ Are."],
+["fi","It's going to __ tomorrow.","ನಾಳೆ ಮಳೆ ಬರಲಿದೆ","rain","rains|raining|rained","going to ನಂತರ V1 ಬರುತ್ತದೆ."],
+["ty","ನಾನು ಒಂದು ಸಿನಿಮಾ ನೋಡಲಿದ್ದೇನೆ","I'm going to watch a movie|I'm going to see a movie","going to · watch · movie — ಆರ್ಟಿಕಲ್ a","the","ಯಾವುದೋ ಒಂದು ಸಿನಿಮಾ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a."],
+["ty","ನೀನು ಏನು ಮಾಡಲಿದ್ದೀಯಾ?","What are you going to do","what · going to · do","will","ಯೋಜನೆ ಕೇಳಲು be going to."],
+["ty","ನಾನು ನನ್ನ ಸ್ನೇಹಿತರನ್ನು ಭೇಟಿಯಾಗಲಿದ್ದೇನೆ","I'm going to meet my friends|I'm going to see my friends","going to · meet · friend — ಬಹುವಚನ","friend","ಹಲವರು ಇರುವುದರಿಂದ ಬಹುವಚನ friends."]]},
+{ id:"joining", title:"ವಾಕ್ಯ ಜೋಡಿಸುವುದು: and, but, or, so, because", blurb:"ಎರಡು ಚಿಕ್ಕ ವಾಕ್ಯಗಳನ್ನು ಒಂದು ಮಾಡಿ. so ಮತ್ತು because ಇರುವಾಗ ಕ್ರಮ ತಿರುಗುತ್ತದೆ.", deck:"ಭಾವನೆ ಮತ್ತು ಪ್ರತಿಕ್ರಿಯೆ", body:`
+<p>ಕನ್ನಡದಲ್ಲಿ "ಊಟ ಮಾಡಿ ಬಂದೆ" ಎಂದು ಕ್ರಿಯಾಪದದ ರೂಪದಿಂದಲೇ ಎರಡು ಕೆಲಸಗಳನ್ನು ಜೋಡಿಸುತ್ತೇವೆ. ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಅದಕ್ಕೆ ಜೋಡಿಸುವ ಪದಗಳು ಬೇಕು (and, but, because). ಈ ಐದು ಪದ ಬಳಸಿದರೆ ಮಾತು ತುಂಡು ತುಂಡಾಗಿ ಕೇಳಿಸುವುದಿಲ್ಲ.</p>
 <h3>and, but, or</h3>
-{{ex:I like coffee and tea.|아이 라익 커피 앤 티|저는 커피와 차를 좋아해요}}{{ex:I'm tired but happy.|아임 타이어드 벗 해피|피곤하지만 행복해요}}{{ex:Coffee or tea?|커피 오어 티?|커피 아니면 차?}}
-<h3>so: 그래서</h3>
-<p><b>이유 + so + 결과</b> 순서예요. 한국어 '~해서'와 순서가 같아요.</p>
-{{ex:I was tired, so I went home.|아이 워즈 타이어드 쏘 아이 웬 홈|피곤해서 집에 갔어요}}
-<h3>because: 왜냐하면</h3>
-<p><b>결과 + because + 이유</b> 순서예요. 한국어와 반대라서 주의해요.</p>
-{{ex:I went home because I was tired.|아이 웬 홈 비코즈 아이 워즈 타이어드|피곤해서 집에 갔어요}}{{ex:I stayed home because it was raining.|아이 스테이드 홈 비코즈 잇 워즈 레이닝|비가 와서 집에 있었어요}}
-<h3>too: ~도</h3>
-{{ex:I like it too.|아이 라이킷 투|저도 좋아해요}}
-<div class="tip">so와 because를 한 문장에 같이 쓰지 않아요: <b>Because I was tired, so I went home.</b> (X). 둘 중 하나만 고르세요.</div>`,
-check:[["I was sick, ___ I stayed home. 빈칸에 알맞은 것은?",["because","but","so","or"],2,"이유 다음에 결과가 오면 so예요."],["I stayed home ___ I was sick. 빈칸에 알맞은 것은?",["because","so","but","and"],0,"결과 다음에 이유가 오면 because예요."],["'커피 드실래요, 차 드실래요?'에 알맞은 말은?",["Coffee and tea?","Coffee but tea?","Coffee so tea?","Coffee or tea?"],3,"둘 중 하나를 고를 때는 or예요."]],
+{{ex:I like coffee and tea.|ಐ ಲೈಕ್ ˈಕಾಫ಼ಿ ಅನ್ಡ್ ಟೀ|ನನಗೆ ಕಾಫಿ ಮತ್ತು ಟೀ ಇಷ್ಟ}}{{ex:I'm tired but happy.|ಐಮ್ ˈಟೈಅರ್ಡ್ ಬಟ್ ˈಹ್ಯಾಪಿ|ಸುಸ್ತಾಗಿದೆ, ಆದರೆ ಖುಷಿಯಾಗಿದ್ದೇನೆ}}{{ex:Coffee or tea?|ˈಕಾಫ಼ಿ ಅರ್ ಟೀ|ಕಾಫಿ ಅಥವಾ ಟೀ?}}
+<h3>so: ಹಾಗಾಗಿ</h3>
+<p><b>ಕಾರಣ + so + ಪರಿಣಾಮ</b>. ಕನ್ನಡದ "ಹಾಗಾಗಿ" ಇರುವ ವಾಕ್ಯದ ಕ್ರಮವೇ ಇದು.</p>
+{{ex:I was tired, so I went home.|ಐ ವಜ಼್ ˈಟೈಅರ್ಡ್ ಸೋ ಐ ವೆನ್ಟ್ ಹೋಮ್|ನನಗೆ ಸುಸ್ತಾಗಿತ್ತು, ಹಾಗಾಗಿ ಮನೆಗೆ ಹೋದೆ}}
+<h3>because: ಏಕೆಂದರೆ</h3>
+<p><b>ಪರಿಣಾಮ + because + ಕಾರಣ</b>. ಕನ್ನಡದಲ್ಲಿ ಕಾರಣ ಸಾಮಾನ್ಯವಾಗಿ ಮೊದಲು ಬರುತ್ತದೆ ("ಸುಸ್ತಾಗಿದ್ದರಿಂದ ಮನೆಗೆ ಹೋದೆ"); ಇಲ್ಲಿ ಕ್ರಮ ತಿರುಗುತ್ತದೆ.</p>
+{{ex:I went home because I was tired.|ಐ ವೆನ್ಟ್ ಹೋಮ್ ಬಿಕಜ಼್ ಐ ವಜ಼್ ˈಟೈಅರ್ಡ್|ಸುಸ್ತಾಗಿದ್ದರಿಂದ ನಾನು ಮನೆಗೆ ಹೋದೆ}}{{ex:I stayed home because it was raining.|ಐ ಸ್ಟೇಡ್ ಹೋಮ್ ಬಿಕಜ಼್ ಇಟ್ ವಜ಼್ ˈರೇನಿಙ್|ಮಳೆ ಬರುತ್ತಿದ್ದರಿಂದ ನಾನು ಮನೆಯಲ್ಲೇ ಇದ್ದೆ}}
+<h3>too: …ಕೂಡ</h3>
+<p>ಕನ್ನಡದ "-ಊ" (ನನಗೂ) ಪದಕ್ಕೇ ಸೇರಿಕೊಳ್ಳುತ್ತದೆ; too ವಾಕ್ಯದ ಕೊನೆಗೆ ಬರುತ್ತದೆ: <b>I also am coming.</b> ✗ → <b>I'm coming too.</b> ✓</p>
+{{ex:I like it too.|ಐ ಲೈಕ್ ಇಟ್ ಟೂ|ನನಗೂ ಅದು ಇಷ್ಟ}}
+<div class="tip">so ಮತ್ತು because ಒಂದೇ ವಾಕ್ಯದಲ್ಲಿ ಒಟ್ಟಿಗೆ ಬೇಡ: <b>Because I was tired, so I went home.</b> ✗. ಹಾಗೆಯೇ <b>Although it rained, but we went.</b> ✗ → <b>Although it rained, we went.</b> ✓. ಎರಡರಲ್ಲಿ ಒಂದನ್ನು ಮಾತ್ರ ಆರಿಸಿ.</div>`,
+check:[["I was sick, ___ I stayed home. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["because","but","so","or"],2,"ಕಾರಣದ ನಂತರ ಪರಿಣಾಮ ಬಂದರೆ so."],["I stayed home ___ I was sick. ಖಾಲಿ ಜಾಗದಲ್ಲಿ ಏನು ಬರಬೇಕು?",["because","so","but","and"],0,"ಪರಿಣಾಮದ ನಂತರ ಕಾರಣ ಬಂದರೆ because."],["\"ಕಾಫಿ ಬೇಕಾ, ಟೀ ಬೇಕಾ?\" ಎಂದು ಕೇಳಲು ಯಾವುದು ಸರಿ?",["Coffee and tea?","Coffee but tea?","Coffee so tea?","Coffee or tea?"],3,"ಎರಡರಲ್ಲಿ ಒಂದನ್ನು ಆರಿಸಲು or."]],
 practice:[
-["mc","I like dogs ___ I don't like cats.","but","so","or","because","반대되는 내용은 but으로 이어요."],
-["mc","I was hungry, ___ I ate a sandwich.","so","because","but","or","이유 다음에 결과가 오면 so예요."],
-["mc","I ate a sandwich ___ I was hungry.","because","so","but","or","결과 다음에 이유가 오면 because예요."],
-["mc","'커피 아니면 차?' =","Coffee or tea?","Coffee and tea?","Coffee so tea?","Coffee but tea?","둘 중 하나는 or예요."],
-["mc","'피곤하지만 행복해요' =","I'm tired but happy.","I'm tired so happy.","I'm tired because happy.","I'm tired or happy.","'~지만'은 but이에요."],
-["or","저는 고양이와 개를 좋아해요","I like cats and dogs","cat dog","동물 전체는 복수 cats, dogs로 말해요."],
-["or","커피 한 잔이랑 샌드위치 하나 주세요","A coffee and a sandwich please","the or","하나씩 주문하니까 각각 관사 a를 붙여요."],
-["or","배고파서 먹었어요","I was hungry so I ate","because","이유 다음에 결과가 오면 so예요."],
-["fi","I'm tired __ happy.","피곤하지만 행복해요","but","so|because|or","'~지만'은 but이에요."],
-["fi","I stayed home __ it was raining.","비가 와서 집에 있었어요","because","so|but|or","결과 다음에 이유가 오면 because예요."],
-["fi","Coffee __ tea?","커피 아니면 차?","or","so|but|because","둘 중 하나는 or예요."],
-["ty","저는 커피와 차를 좋아해요","I like coffee and tea","like · coffee · and · tea — 관사 없이","a","일반적인 coffee, tea에는 관사를 붙이지 않아요."],
-["ty","피곤하지만 행복해요","I'm tired but happy|I'm tired but I'm happy","tired · but · happy","so","'~지만'은 but이에요."],
-["ty","저는 개와 고양이를 좋아해요","I like dogs and cats|I like cats and dogs","dog · and · cat — 복수","dog","동물 전체는 복수 dogs, cats로 말해요."]]},
-{ id:"konglish", title:"콩글리시: 한국에서만 통하는 영어", blurb:"핸드폰, 노트북, 파이팅! 한국에서는 다 통하지만 외국에서는 못 알아듣는 말을 바른 영어로 바꿔요.", deck:"영화·드라마·슬랭", body:`
-<p>콩글리시는 틀린 영어라기보다 영어에서 온 <b>한국어 단어</b>예요. 한국에서는 누구나 알아듣지만, 영어권 사람에게 그대로 말하면 못 알아듣거나 전혀 다른 뜻으로 들어요. 한국어로 말할 때는 그대로 쓰고, 영어로 말할 때만 바꾸면 돼요.</p>
-<h3>물건 이름</h3>
-<div class="tbl"><table><tr><th>한국에서</th><th>영어로</th><th>그대로 말하면</th></tr><tr><td>핸드폰</td><td class="k">cell phone, phone</td><td>hand phone은 영어권에서 거의 안 써요. 보통 그냥 phone</td></tr><tr><td>노트북</td><td class="k">laptop</td><td>notebook은 공책이에요</td></tr><tr><td>아파트</td><td class="k">apartment</td><td>apart는 '떨어져서'라는 뜻이에요</td></tr><tr><td>에어컨</td><td class="k">air conditioner, AC</td><td>aircon은 영국·호주·동남아에서는 쓰지만 미국에서는 거의 안 써요. 미국에서는 AC('에이씨')</td></tr><tr><td>리모컨</td><td class="k">remote</td><td>remote control을 줄여서 remote예요</td></tr><tr><td>콘센트</td><td class="k">outlet</td><td>consent는 '동의'예요. 영국에서는 socket</td></tr><tr><td>핸들 (자동차)</td><td class="k">steering wheel</td><td>handle은 문이나 컵의 손잡이예요</td></tr></table></div>
-{{ex:I need a new laptop.|아이 니더 뉴 랩탑|새 노트북이 필요해요}}{{ex:I live in an apartment.|아이 리브 인 언 어파트먼트|저는 아파트에 살아요}}{{ex:The air conditioner isn't working.|디 에어 컨디셔너 이즌트 워킹|에어컨이 안 돼요}}{{ex:Can you pass me the remote?|캔 유 패스 미 더 리모트?|리모컨 좀 건네줄래요?}}{{ex:Where's the outlet?|웨어즈 디 아웃렛?|콘센트 어디 있어요?}}
-<p>단어를 바꿨으면 관사도 챙겨요. laptop, apartment는 셀 수 있는 명사라서 <b>a laptop</b>, <b>an apartment</b>예요. 방에 하나뿐인 리모컨은 <b>the remote</b>예요.</p>
-<h3>생활 속 표현</h3>
-<div class="tbl"><table><tr><th>한국에서</th><th>영어로</th><th>그대로 말하면</th></tr><tr><td>파이팅!</td><td class="k">You can do it! / Good luck!</td><td>fighting은 '싸우는 중'이라서 응원으로 들리지 않아요</td></tr><tr><td>서비스 (공짜)</td><td class="k">It's on the house. / It's free.</td><td>service는 가게의 응대예요: The service was great.</td></tr><tr><td>원샷!</td><td class="k">Bottoms up!</td><td>건배하면서 잔을 비우자고 하는 말이에요. 술자리에서 one shot은 '(술) 샷 한 잔'으로 들려요</td></tr><tr><td>셀카</td><td class="k">selfie</td><td>selca라는 영어 단어는 없어요</td></tr><tr><td>아이쇼핑</td><td class="k">window shopping</td><td>eye shopping이라는 말은 없어요</td></tr><tr><td>컨닝</td><td class="k">cheating</td><td>cunning은 '교활한'이라는 뜻이에요</td></tr><tr><td>사인</td><td class="k">signature / autograph</td><td>서류에 하는 서명은 signature, 연예인에게 받는 사인은 autograph예요. sign은 '서명하다'라는 동사나 표지판이에요</td></tr><tr><td>헬스 (헬스장)</td><td class="k">the gym</td><td>health는 '건강'이에요. 운동한다는 말은 work out</td></tr></table></div>
-{{ex:You can do it!|유 캔 두 잇!|할 수 있어! (파이팅!)}}{{ex:Good luck!|굿 럭!|행운을 빌어! (시험·면접 앞에서 파이팅!)}}{{ex:It's on the house.|잇츠 온 더 하우스|서비스예요 (가게에서 공짜로 줄 때)}}{{ex:Bottoms up!|바럼즈 업!|원샷!}}{{ex:Let's take a selfie.|렛츠 테이커 셀피|셀카 찍자}}{{ex:I'm just window shopping.|아임 저스트 윈도우 샤핑|그냥 아이쇼핑하는 중이에요}}{{ex:Can I get your autograph?|캔 아이 겟 유어 오토그래프?|사인 좀 해 주실래요? (연예인에게)}}{{ex:I go to the gym every day.|아이 고우 투 더 짐 에브리 데이|저는 매일 헬스장에 가요}}
-<h3>한국어 문장을 그대로 옮기면</h3>
-<p>단어는 다 영어인데 문장이 어색한 경우예요. 문법은 맞아도 영어권 사람은 이렇게 말하지 않거나, 뜻이 다르게 들려요.</p>
-<div class="tbl"><table><tr><th>한국어</th><th>그대로 옮기면</th><th>자연스러운 영어</th></tr><tr><td>약속이 있어요</td><td>I have a promise.</td><td class="k">I have plans.</td></tr><tr><td>(권할 때 거절) 괜찮아요</td><td>I'm okay. (이것만 말하면 애매해요)</td><td class="k">No, thanks. / I'm good, thanks.</td></tr><tr><td>김치 알아요? / 김치 먹어 봤어요?</td><td>Do you know kimchi?</td><td class="k">Have you heard of kimchi? / Have you tried kimchi?</td></tr><tr><td>친구들이랑 놀았어요</td><td>I played with my friends.</td><td class="k">I hung out with my friends.</td></tr><tr><td>컨디션이 안 좋아요</td><td>My condition is bad.</td><td class="k">I'm not feeling well.</td></tr><tr><td>부러워요!</td><td>I envy you. (틀리진 않지만 무거워요)</td><td class="k">Lucky you! / I'm so jealous.</td></tr></table></div>
-<p>promise는 '꼭 하겠다는 다짐'이라서 만날 약속은 <b>plans</b>예요. I'm okay, thanks.나 I'm good.도 거절로 쓰지만, I'm okay만 말하면 한국어 '괜찮아요'처럼 '좋다'인지 '됐다'인지 헷갈릴 수 있어요. 분명하게 거절하려면 <b>No, thanks.</b>가 가장 안전해요. Do you know kimchi?는 김치를 '잘 아느냐'고 묻는 것처럼 어색하게 들려요. 들어 봤는지는 <b>Have you heard of ~?</b>, 먹어 봤는지는 <b>Have you tried ~?</b>로 물어요. 어른이 친구와 노는 건 play가 아니라 <b>hang out</b>이고, 과거형은 hung out이에요. condition은 주로 병이나 물건의 상태를 말할 때 써요. I envy you는 틀린 말은 아니지만 조금 진지하게 들려요. 가볍게 '부럽다!'라고 할 때는 <b>Lucky you!</b>나 <b>I'm so jealous!</b>예요. 여기서 jealous는 질투가 아니라 장난스러운 부러움이에요.</p>
-{{ex:I have plans.|아이 해브 플랜즈|약속이 있어요}}{{ex:No, thanks.|노, 땡스|아니요, 괜찮아요 (거절)}}{{ex:Have you heard of kimchi?|해뷰 허드 오브 김치?|김치 알아요? (들어 봤어요?)}}{{ex:Have you tried kimchi?|해뷰 트라이드 김치?|김치 먹어 봤어요?}}{{ex:I hung out with my friends.|아이 헝아웃 위드 마이 프렌즈|친구들이랑 놀았어요}}{{ex:I'm not feeling well.|아임 낫 필링 웰|몸이 좀 안 좋아요}}{{ex:Lucky you!|럭키 유!|좋겠다! 부럽다!}}
-<div class="tip">콩글리시를 부끄러워할 필요는 없어요. 한국에서는 잘 통하는 말이니까요. 영어로 말할 때만 한 번 더 확인하세요: "이 단어, 영어권에서도 같은 뜻일까?" 영어로 말할 때는 이렇게 바꿔요: <b>Fighting!</b> → <b>You can do it!</b> / <b>I have a promise.</b> → <b>I have plans.</b></div>`,
-check:[["'노트북 가져왔어요?' (컴퓨터)를 영어로 하면?",["Did you bring your notebook?","Did you bring your laptop?","Did you bring laptop?","Did you bring your labtop?"],1,"컴퓨터는 laptop이에요. notebook은 공책으로 들려요."],["'컨디션이 안 좋아요'(몸이 안 좋아요)를 가장 자연스럽게 말하면?",["I'm not feeling well.","My condition is bad.","I'm bad condition.","My condition is not good feeling."],0,"몸이 안 좋을 때는 I'm not feeling well.이라고 해요. condition은 병이나 물건의 상태를 말할 때 주로 써요."],["식당 직원이 공짜 음식을 주면서 하는 말로 가장 자연스러운 것은?",["It's service.","It's a service.","It's for service.","It's on the house."],3,"가게에서 공짜로 주는 것은 on the house예요. service는 응대라는 뜻이에요."]],
+["mc","I like dogs ___ I don't like cats.","but","so","or","because","ವಿರುದ್ಧವಾದ ವಿಷಯಗಳನ್ನು ಜೋಡಿಸಲು but."],
+["mc","I was hungry, ___ I ate a sandwich.","so","because","but","or","ಕಾರಣದ ನಂತರ ಪರಿಣಾಮ ಬಂದರೆ so."],
+["mc","I ate a sandwich ___ I was hungry.","because","so","but","or","ಪರಿಣಾಮದ ನಂತರ ಕಾರಣ ಬಂದರೆ because."],
+["mc","\"ಕಾಫಿ ಅಥವಾ ಟೀ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","Coffee or tea?","Coffee and tea?","Coffee so tea?","Coffee but tea?","ಎರಡರಲ್ಲಿ ಒಂದು ಎನ್ನಲು or."],
+["mc","\"ಸುಸ್ತಾಗಿದೆ, ಆದರೆ ಖುಷಿಯಾಗಿದ್ದೇನೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?","I'm tired but happy.","I'm tired so happy.","I'm tired because happy.","I'm tired or happy.","\"ಆದರೆ\" ಎನ್ನಲು but."],
+["or","ನನಗೆ ಬೆಕ್ಕುಗಳು ಮತ್ತು ನಾಯಿಗಳು ಇಷ್ಟ","I like cats and dogs","cat dog","ಪ್ರಾಣಿಗಳ ಬಗ್ಗೆ ಒಟ್ಟಾಗಿ ಹೇಳುವಾಗ ಬಹುವಚನ: cats, dogs."],
+["or","ಒಂದು ಕಾಫಿ ಮತ್ತು ಒಂದು ಸ್ಯಾಂಡ್‌ವಿಚ್ ಕೊಡಿ","A coffee and a sandwich please","the or","ಒಂದೊಂದೇ ಆರ್ಡರ್ ಮಾಡುತ್ತಿದ್ದೀರಿ, ಹಾಗಾಗಿ ಎರಡಕ್ಕೂ ಆರ್ಟಿಕಲ್ a."],
+["or","ಹಸಿವಾಗಿತ್ತು, ಹಾಗಾಗಿ ತಿಂದೆ","I was hungry so I ate","because","ಕಾರಣದ ನಂತರ ಪರಿಣಾಮ ಬಂದರೆ so."],
+["fi","I'm tired __ happy.","ಸುಸ್ತಾಗಿದೆ, ಆದರೆ ಖುಷಿಯಾಗಿದ್ದೇನೆ","but","so|because|or","\"ಆದರೆ\" ಎನ್ನಲು but."],
+["fi","I stayed home __ it was raining.","ಮಳೆ ಬರುತ್ತಿದ್ದರಿಂದ ನಾನು ಮನೆಯಲ್ಲೇ ಇದ್ದೆ","because","so|but|or","ಪರಿಣಾಮದ ನಂತರ ಕಾರಣ ಬಂದರೆ because."],
+["fi","Coffee __ tea?","ಕಾಫಿ ಅಥವಾ ಟೀ?","or","so|but|because","ಎರಡರಲ್ಲಿ ಒಂದು ಎನ್ನಲು or."],
+["ty","ನನಗೆ ಕಾಫಿ ಮತ್ತು ಟೀ ಇಷ್ಟ","I like coffee and tea","like · coffee · and · tea — ಆರ್ಟಿಕಲ್ ಇಲ್ಲದೆ","a","ಸಾಮಾನ್ಯವಾಗಿ ಹೇಳುವ coffee, tea ಮೊದಲು ಆರ್ಟಿಕಲ್ ಬೇಡ."],
+["ty","ಸುಸ್ತಾಗಿದೆ, ಆದರೆ ಖುಷಿಯಾಗಿದ್ದೇನೆ","I'm tired but happy|I'm tired but I'm happy","tired · but · happy","so","\"ಆದರೆ\" ಎನ್ನಲು but."],
+["ty","ನನಗೆ ನಾಯಿಗಳು ಮತ್ತು ಬೆಕ್ಕುಗಳು ಇಷ್ಟ","I like dogs and cats|I like cats and dogs","dog · and · cat — ಬಹುವಚನ","dog","ಪ್ರಾಣಿಗಳ ಬಗ್ಗೆ ಒಟ್ಟಾಗಿ ಹೇಳುವಾಗ ಬಹುವಚನ: dogs, cats."]]},
+{ id:"indian-english", title:"ಇಂಡಿಯನ್ ಇಂಗ್ಲಿಷ್: ಇಲ್ಲಿ ಸರಿ, ವಿದೇಶದಲ್ಲಿ ವಿಚಿತ್ರ", blurb:"prepone, out of station, good name — ಭಾರತದಲ್ಲಿ ಎಲ್ಲರಿಗೂ ಅರ್ಥವಾಗುತ್ತವೆ. ವಿದೇಶದಲ್ಲಿ ಏನು ಹೇಳಬೇಕು ಎಂದು ತಿಳಿಯಿರಿ.", deck:"ಇಂಡಿಯನ್ ಇಂಗ್ಲಿಷ್: ಇಲ್ಲಿ ಮತ್ತು ವಿದೇಶದಲ್ಲಿ", body:`
+<p>ಇಂಡಿಯನ್ ಇಂಗ್ಲಿಷ್ ಅಮೆರಿಕನ್ ಅಥವಾ ಬ್ರಿಟಿಷ್ ಇಂಗ್ಲಿಷ್‌ನ ಹಾಗೆಯೇ ಇಂಗ್ಲಿಷ್‌ನ ಒಂದು ನಿಜವಾದ ಬಗೆ. ಅದರ ಪದಗಳು ಮತ್ತು ಮಾತುಗಳು ಭಾರತದಲ್ಲಿ ಎಲ್ಲರಿಗೂ ಅರ್ಥವಾಗುತ್ತವೆ; ಭಾರತೀಯ ಸಹೋದ್ಯೋಗಿಗಳ ಜೊತೆ ಅವನ್ನು ಹಿಂಜರಿಕೆ ಇಲ್ಲದೆ ಬಳಸಿ. ಆದರೆ ವಿದೇಶದಲ್ಲಿ, ಅಥವಾ ವಿದೇಶಿ ಕ್ಲೈಂಟ್ ಜೊತೆ ಮಾತಾಡುವಾಗ, ಕೆಲವು ಮಾತುಗಳು ಕೇಳುವವರಿಗೆ ಗೊಂದಲ ತರುತ್ತವೆ. ಅಲ್ಲಿನ ಜನ ಏನು ಕೇಳಲು ನಿರೀಕ್ಷಿಸುತ್ತಾರೆ ಎಂದು ಈ ಪಾಠ ತೋರಿಸುತ್ತದೆ.</p>
+<h3>ಭಾರತದಲ್ಲಿ ಸರಿ, ವಿದೇಶದಲ್ಲಿ ಹೀಗೆ ಹೇಳಿ</h3>
+<div class="tbl"><table><tr><th>ಭಾರತದಲ್ಲಿ</th><th>ವಿದೇಶದಲ್ಲಿ</th></tr><tr><td>prepone</td><td class="k">move up / bring forward</td></tr><tr><td>out of station</td><td class="k">out of town</td></tr><tr><td>What is your good name?</td><td class="k">What's your name?</td></tr><tr><td>cousin brother / cousin sister</td><td class="k">cousin</td></tr><tr><td>passed out (ಓದು ಮುಗಿಸಿದೆ)</td><td class="k">graduated</td></tr><tr><td>revert (ಉತ್ತರ ಕೊಡುವುದು)</td><td class="k">get back to you / reply</td></tr><tr><td>native place</td><td class="k">hometown</td></tr><tr><td>do the needful</td><td class="k">please take care of it</td></tr><tr><td>shift (ಮನೆ ಬದಲಿಸುವುದು)</td><td class="k">move</td></tr><tr><td>hotel (ಊಟದ ಜಾಗ) · tiffin</td><td class="k">restaurant · a light meal / lunch box</td></tr><tr><td>today itself · I'm here only</td><td class="k">today · I'm right here</td></tr><tr><td>…, isn't it? / …, no? (ಎಲ್ಲ ವಾಕ್ಯಕ್ಕೂ)</td><td class="k">…, aren't you? / …, don't you? / …, right?</td></tr></table></div>
+<p>ಕೆಲವು ಮಾತುಗಳಿಗೆ ವಿದೇಶದಲ್ಲಿ ಬೇರೆಯೇ ಅರ್ಥ ಇದೆ: <b>passed out</b> ಎಂದರೆ ಅಲ್ಲಿ "ಪ್ರಜ್ಞೆ ತಪ್ಪಿತು", <b>revert</b> ಎಂದರೆ "ಹಳೆಯ ಸ್ಥಿತಿಗೆ ಮರಳುವುದು". prepone ಪದವನ್ನು ಅಲ್ಲಿ ಹೆಚ್ಚಿನವರು ಕೇಳಿಯೇ ಇಲ್ಲ. ಕನ್ನಡದ "ಅಲ್ವಾ?" ಎಲ್ಲ ವಾಕ್ಯಕ್ಕೂ ಒಂದೇ; ಇಂಗ್ಲಿಷ್‌ನ question tag ವಾಕ್ಯಕ್ಕೆ ತಕ್ಕಂತೆ ಬದಲಾಗುತ್ತದೆ. ಕನ್ನಡದ "-ಏ" (ಇವತ್ತೇ, ಇಲ್ಲಿಯೇ) ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ itself, only ಆಗಿ ಬರುತ್ತದೆ; ವಿದೇಶದಲ್ಲಿ ಅವು ಬೇಡ.</p>
+{{ex:Can we move the meeting up?|ಕನ್ ವಿ ಮೂವ಼್ ದ಼ ˈಮೀಟಿಙ್ ಅಪ್|ಮೀಟಿಂಗ್ ಸ್ವಲ್ಪ ಮೊದಲೇ ಇಟ್ಟುಕೊಳ್ಳಬಹುದಾ?}}{{ex:I'm out of town this week.|ಐಮ್ ಔಟ್ ಅವ಼್ ಟೌನ್ ದ಼ಿಸ್ ವೀಕ್|ನಾನು ಈ ವಾರ ಊರಲ್ಲಿ ಇಲ್ಲ}}{{ex:I graduated in 2019.|ಐ ˈಗ್ರ್ಯಾಜುಏಟಿಡ್ ಇನ್ ˈಟ್ವೆನ್ಟಿ ನೈನ್ˈಟೀನ್|ನಾನು 2019 ರಲ್ಲಿ ಡಿಗ್ರಿ ಮುಗಿಸಿದೆ}}{{ex:You're coming tomorrow, aren't you?|ಯುರ್ ˈಕಮಿಙ್ ಟˈಮಾರೋ ಆರ್ನ್ಟ್ ಯು|ನೀನು ನಾಳೆ ಬರುತ್ತೀಯ, ಅಲ್ವಾ?}}
+<h3>ಯಾವ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲೂ ತಪ್ಪು</h3>
+<p>ಕೆಲವು ರೂಢಿಗಳು ಯಾವ ಬಗೆಯ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲೂ ತಪ್ಪು. doubt ಎಂದರೆ "ಅನುಮಾನ"; discuss ಪದದಲ್ಲೇ "ಬಗ್ಗೆ" ಎಂಬ ಅರ್ಥ ಸೇರಿದೆ, ಹಾಗಾಗಿ about ಬೇಡ. "ನನ್ನ ಮೇಲೆ ಕೋಪ" ಎಂಬ ಕನ್ನಡದ ಮಾತಿನಿಂದ angry on ಬರುತ್ತದೆ, "ಇವತ್ತು ಬೆಳಿಗ್ಗೆ" ಎಂಬುದರಿಂದ today morning ಬರುತ್ತದೆ.</p>
+<div class="tbl"><table><tr><th>✗</th><th>✓</th></tr><tr><td>Myself Kiran.</td><td class="k">I'm Kiran. / My name is Kiran.</td></tr><tr><td>discuss about the plan</td><td class="k">discuss the plan</td></tr><tr><td>revert back · return back</td><td class="k">get back to you · return</td></tr><tr><td>I have a doubt. (ಪ್ರಶ್ನೆ ಕೇಳಲು)</td><td class="k">I have a question.</td></tr><tr><td>angry on me</td><td class="k">angry with me</td></tr><tr><td>today morning</td><td class="k">this morning</td></tr></table></div>
+{{ex:Hi, I'm Kiran.|ಹೈ ಐಮ್ ˈಕಿರನ್|ನಮಸ್ಕಾರ, ನಾನು ಕಿರಣ್}}{{ex:Let's discuss the plan.|ಲೆಟ್ಸ್ ಡಿˈಸ್ಕಸ್ ದ಼ ಪ್ಲ್ಯಾನ್|ಪ್ಲಾನ್ ಬಗ್ಗೆ ಮಾತಾಡೋಣ}}{{ex:I have a question.|ಐ ಹ್ಯಾವ಼್ ಅ ˈಕ್ವೆಸ್ಚನ್|ನನಗೊಂದು ಪ್ರಶ್ನೆ ಇದೆ}}
+<h3>ಕನ್ನಡದಿಂದ ನೇರ ಅನುವಾದ</h3>
+<div class="tbl"><table><tr><th>ಕನ್ನಡ</th><th>ನೇರ ಅನುವಾದ</th><th>ವಿದೇಶದಲ್ಲಿ</th></tr><tr><td>ಹೋಗಿ ಬರುತ್ತೇನೆ</td><td>I'll go and come.</td><td class="k">See you later.</td></tr><tr><td>ಊಟ ಆಯ್ತಾ? (ಕುಶಲ ಕೇಳಲು)</td><td>Had your lunch?</td><td class="k">How's it going?</td></tr><tr><td>ಹೇಳಿ (ಕಾಲ್ ಶುರುವಿನಲ್ಲಿ)</td><td>Tell me.</td><td class="k">What's up? / How can I help you?</td></tr><tr><td>ಸುಮ್ಮನೆ ಕೇಳಿದೆ</td><td>I simply asked.</td><td class="k">I was just asking.</td></tr><tr><td>ಸ್ವಲ್ಪ adjust ಮಾಡಿ</td><td>Please adjust.</td><td class="k">Could you make some room? / Please bear with us.</td></tr><tr><td>ಒಂದು ನಿಮಿಷ, ಬರುತ್ತೇನೆ</td><td>One minute, I'll come.</td><td class="k">I'll be right back.</td></tr></table></div>
+{{ex:See you later.|ಸೀ ಯು ˈಲೇಟರ್|ಮತ್ತೆ ಸಿಗೋಣ (ಹೋಗಿ ಬರುತ್ತೇನೆ)}}{{ex:How's it going?|ಹೌಜ಼್ ಇಟ್ ˈಗೋಇಙ್|ಹೇಗಿದ್ದೀಯಾ? ಏನು ಸಮಾಚಾರ?}}{{ex:I was just asking.|ಐ ವಜ಼್ ಜಸ್ಟ್ ˈಆ್ಯಸ್ಕಿಙ್|ಸುಮ್ಮನೆ ಕೇಳಿದೆ}}{{ex:I'll be right back.|ಐಲ್ ಬಿ ರೈಟ್ ಬ್ಯಾಕ್|ಒಂದು ನಿಮಿಷ, ಈಗ ಬರುತ್ತೇನೆ}}
+<div class="tip">ಇಂಡಿಯನ್ ಇಂಗ್ಲಿಷ್ ಬಗ್ಗೆ ನಾಚಿಕೆ ಪಡಬೇಕಿಲ್ಲ. ಕೇಳುವವರು ಯಾರು ಎಂದು ನೋಡಿ ಪದ ಆರಿಸಿ: ಭಾರತೀಯ ತಂಡದ ಜೊತೆ <b>out of station</b>, ವಿದೇಶಿ ಕ್ಲೈಂಟ್ ಜೊತೆ <b>out of town</b>.</div>`,
+check:[["ವಿದೇಶಿ ಕ್ಲೈಂಟ್ ಜೊತೆ ಮೀಟಿಂಗ್ ಮೊದಲೇ ಇಟ್ಟುಕೊಳ್ಳಬೇಕಾದರೆ ಏನು ಹೇಳಬೇಕು?",["Can we prepone the meeting?","Can we move the meeting up?","Can we before the meeting?","Can we early the meeting?"],1,"prepone ಭಾರತದಲ್ಲಿ ಸರಿ; ವಿದೇಶದಲ್ಲಿ ಹಲವರಿಗೆ ಅದು ಗೊತ್ತಿಲ್ಲ: move up ಅಥವಾ bring forward."],["\"ನನಗೊಂದು ಪ್ರಶ್ನೆ ಇದೆ\" — ವಿದೇಶದಲ್ಲಿ ಸ್ಪಷ್ಟವಾದ ವಾಕ್ಯ ಯಾವುದು?",["I have one doubt.","I have a doubt.","I have doubt.","I have a question."],3,"doubt ಎಂದರೆ ಅನುಮಾನ; ಪ್ರಶ್ನೆಗೆ question. ಒಂದು ಪ್ರಶ್ನೆ — ಆರ್ಟಿಕಲ್ a."],["ಹೊರಡುವಾಗ \"ಹೋಗಿ ಬರುತ್ತೇನೆ\" ಎನ್ನಲು ವಿದೇಶದಲ್ಲಿ ಸಹಜವಾದ ಮಾತು ಯಾವುದು?",["See you later.","I'll go and come.","I go and come.","I'll come and go."],0,"\"ಹೋಗಿ ಬರುತ್ತೇನೆ\" ಕನ್ನಡದ ಮಾತು; ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ See you later."]],
 practice:[
-["mc","'노트북 있어요?' (컴퓨터) =","Do you have a laptop?","Do you have a notebook?","Do you have laptop?","Do you have an laptop?","컴퓨터는 laptop이고, 한 대라서 관사 a를 붙여요."],
-["mc","시험 보러 가는 친구에게 '파이팅!'을 가장 자연스럽게 말하면?","Good luck!","Fighting!","Fight!","You fighting!","fighting은 '싸우는 중'이라 응원으로 들리지 않아요."],
-["mc","'저 지금 헬스장 가요' =","I'm going to the gym.","I'm going to the health.","I'm going to health.","I'm going to gym.","헬스장은 the gym이에요. health는 '건강'이에요."],
-["mc","친구와 만날 약속이 있을 때 '약속이 있어요'를 가장 자연스럽게 말하면?","I have plans.","I have a promise.","I have promises.","I'm promise.","만날 약속은 plans예요. promise는 '꼭 하겠다는 다짐'이에요."],
-["mc","술자리에서 '원샷!'을 영어로 하면?","Bottoms up!","One shot!","One shot, please!","Shot one!","잔을 비우자는 원샷은 Bottoms up!이에요. One shot은 '샷 한 잔'으로 들려요."],
-["or","저는 아파트에 살아요","I live in an apartment","apart a","아파트는 apartment, 모음 소리로 시작해서 관사 an이에요."],
-["or","에어컨이 안 돼요","The air conditioner isn't working","A aircon","방에 있는 그 에어컨이라 관사 the예요. 에어컨은 air conditioner예요."],
-["or","리모컨 좀 건네줄래요?","Can you pass me the remote","a","방에 있는 그 리모컨이라 관사 the예요."],
-["or","친구들이랑 놀았어요","I hung out with my friends","played friend","어른이 노는 건 hang out이고, 여러 명이라 복수 friends예요."],
-["fi","Where's the __?","콘센트가 어디 있어요?","outlet|socket|plug|power outlet","consent|handle|remote","콘센트는 outlet이에요. consent는 '동의'예요."],
-["fi","I'm just __ shopping.","그냥 아이쇼핑하는 중이에요","window","eye|eyes|look","아이쇼핑은 window shopping이에요."],
-["fi","No, __.","(음료를 권할 때) 아니요, 괜찮아요","thanks|thank you|I'm good|I'm okay|I'm fine","okay|fine|good","거절은 No, thanks로 분명하게 해요."],
-["ty","새 노트북이 필요해요","I need a new laptop|I need a new laptop computer","need · new · laptop — 관사 a","notebook","컴퓨터는 laptop이고, 한 대라서 관사 a예요."],
-["ty","저는 매일 헬스장에 가요","I go to the gym every day|I work out at the gym every day|I go to the gym daily|Every day I go to the gym","go to · gym · every day — 관사 the","health a","헬스장은 gym이고, go to the gym은 관사 the와 같이 써요."],
-["ty","셀카 찍자","Let's take a selfie|Let's take a selfie together","let's take · selfie — 관사 a","selca","셀카는 selfie, 한 장이라서 관사 a예요."],
-["ty","김치 먹어 봤어요?","Have you tried kimchi|Have you ever tried kimchi|Have you had kimchi|Have you ever had kimchi|Have you eaten kimchi|Have you ever eaten kimchi|Have you tried kimchi before|Have you had kimchi before|Did you ever try kimchi","have you · tried · kimchi","know","음식 경험은 Have you tried ~?로 물어요."]]},
+["mc","\"ನಿಮ್ಮ ಹೆಸರೇನು?\" — ವಿದೇಶದಲ್ಲಿ ಸಹಜವಾದ ಪ್ರಶ್ನೆ ಯಾವುದು?","What's your name?","What is your good name?","What is you name?","Your name is what?","good name ಭಾರತದಲ್ಲಿ ಸರಿ; ವಿದೇಶದಲ್ಲಿ What's your name? ಸಾಕು."],
+["mc","\"ನಾನು ಈ ವಾರ ಊರಲ್ಲಿ ಇಲ್ಲ\" — ವಿದೇಶದಲ್ಲಿ?","I'm out of town this week.","I'm out of station this week.","I'm out of the town this week.","I'm outside city this week.","out of station ಭಾರತದಲ್ಲಿ ಸರಿ; ವಿದೇಶದಲ್ಲಿ out of town."],
+["mc","\"ನಾನು 2019 ರಲ್ಲಿ ಡಿಗ್ರಿ ಮುಗಿಸಿದೆ\" — ವಿದೇಶದಲ್ಲಿ?","I graduated in 2019.","I passed out in 2019.","I was passed out in 2019.","I graduated on 2019.","ವಿದೇಶದಲ್ಲಿ passed out ಎಂದರೆ \"ಪ್ರಜ್ಞೆ ತಪ್ಪಿತು\"; ಓದು ಮುಗಿಸಿದ್ದಕ್ಕೆ graduated."],
+["mc","ಪರಿಚಯ ಮಾಡಿಕೊಳ್ಳಲು ಸರಿಯಾದ ವಾಕ್ಯ ಯಾವುದು?","I'm Kiran.","Myself Kiran.","Myself is Kiran.","I am myself Kiran.","Myself Kiran ಯಾವ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲೂ ಸರಿಯಲ್ಲ: I'm Kiran ಅಥವಾ My name is Kiran."],
+["mc","ಮೀಟಿಂಗ್ ನಡುವೆ ಒಂದು ನಿಮಿಷ ಹೊರಗೆ ಹೋಗುವಾಗ ವಿದೇಶದಲ್ಲಿ ಏನು ಹೇಳುತ್ತಾರೆ?","I'll be right back.","One minute, I'll come.","I'll come one minute.","One minute, I come.","\"ಒಂದು ನಿಮಿಷ, ಬರುತ್ತೇನೆ\" ಎಂಬುದರ ನೇರ ಅನುವಾದ ಬೇಡ; ವಿದೇಶದಲ್ಲಿ I'll be right back."],
+["or","ನಾನು ಒಂದು ಪ್ರಶ್ನೆ ಕೇಳಬಹುದಾ?","Can I ask a question","doubt the","doubt ಎಂದರೆ ಅನುಮಾನ; ಪ್ರಶ್ನೆಗೆ question. ಒಂದು ಪ್ರಶ್ನೆ — ಆರ್ಟಿಕಲ್ a."],
+["or","ನಾನು ಈ ವಾರ ಊರಲ್ಲಿ ಇಲ್ಲ","I'm out of town this week","station the","out of station ಭಾರತದಲ್ಲಿ ಸರಿ; ವಿದೇಶದಲ್ಲಿ out of town — town ಮೊದಲು ಆರ್ಟಿಕಲ್ ಇಲ್ಲ."],
+["or","ಮೀಟಿಂಗ್ ಮೊದಲೇ ಇಟ್ಟುಕೊಳ್ಳೋಣ","Let's move the meeting up","prepone a","prepone ವಿದೇಶದಲ್ಲಿ ಅಷ್ಟಾಗಿ ಅರ್ಥವಾಗುವುದಿಲ್ಲ: move up. ಯಾವ ಮೀಟಿಂಗ್ ಎಂದು ಇಬ್ಬರಿಗೂ ಗೊತ್ತು — ಆರ್ಟಿಕಲ್ the."],
+["or","ಅವರು ನನ್ನ ಊರಿನ ಸ್ನೇಹಿತರು","They're friends from my hometown","friend native","native place ಭಾರತದಲ್ಲಿ ಸರಿ; ವಿದೇಶದಲ್ಲಿ hometown. ಹಲವರು ಇರುವುದರಿಂದ ಬಹುವಚನ friends."],
+["fi","I'll get __ to you tomorrow.","ನಾನು ನಾಳೆ ನಿಮಗೆ ಉತ್ತರ ಕೊಡುತ್ತೇನೆ (ವಿದೇಶದಲ್ಲಿ)","back","revert|reply|return","revert ಭಾರತದಲ್ಲಿ ಸರಿ; ವಿದೇಶದಲ್ಲಿ I'll get back to you."],
+["fi","She's my __.","ಅವಳು ನನ್ನ ಕಸಿನ್ — ಚಿಕ್ಕಪ್ಪನ ಮಗಳು (ವಿದೇಶದಲ್ಲಿ)","cousin","cousin sister|sister cousin|real cousin","cousin sister ಭಾರತದಲ್ಲಿ ಸರಿ; ವಿದೇಶದಲ್ಲಿ cousin ಒಂದೇ ಸಾಕು."],
+["fi","He's angry __ me.","ಅವನಿಗೆ ನನ್ನ ಮೇಲೆ ಕೋಪ ಬಂದಿದೆ","with|at","on|to|over","\"ನನ್ನ ಮೇಲೆ\" ಎಂದು on ಬೇಡ; angry ಜೊತೆ with."],
+["ty","ನನಗೆ ಸ್ವಲ್ಪ ಸಲಹೆ ಬೇಕು","I need some advice|I need advice|I want some advice|I'd like some advice","need · advice — ಎಣಿಸಲಾಗದ ನಾಮಪದ","advices","advice ಎಣಿಸಲಾಗದ ನಾಮಪದ: advices ಎಂಬ ರೂಪ ಇಲ್ಲ."],
+["ty","ನನಗೆ ರಿಪೋರ್ಟ್ ಕಳುಹಿಸುತ್ತೀರಾ?","Could you send me the report|Can you send me the report|Could you please send me the report|Can you please send me the report|Please send me the report|Can you send me the report please|Could you send me the report please|Can you send the report to me|Could you send the report to me","could you · send · report — ಆರ್ಟಿಕಲ್ the","a","ಯಾವ ರಿಪೋರ್ಟ್ ಎಂದು ಇಬ್ಬರಿಗೂ ಗೊತ್ತು — ಆರ್ಟಿಕಲ್ the. Kindly ಭಾರತದ ಆಫೀಸ್ ಇಂಗ್ಲಿಷ್; ವಿದೇಶದಲ್ಲಿ please ಅಥವಾ Could you ಹೆಚ್ಚು ಸಾಮಾನ್ಯ."],
+["ty","ನನಗೊಂದು ಪ್ರಶ್ನೆ ಇದೆ","I have a question|I've got a question","have · question — ಆರ್ಟಿಕಲ್ a","doubt","doubt ಎಂದರೆ ಅನುಮಾನ; ಪ್ರಶ್ನೆಗೆ question. ಒಂದು ಪ್ರಶ್ನೆ — ಆರ್ಟಿಕಲ್ a."],
+["ty","ಸುಮ್ಮನೆ ಕೇಳಿದೆ","I was just asking|I'm just asking|Just asking","was · just · asking","simply","\"ಸುಮ್ಮನೆ\" ಎನ್ನಲು ಇಲ್ಲಿ simply ಅಲ್ಲ, just: I was just asking."]]},
 ];
