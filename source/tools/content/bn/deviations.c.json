@@ -1,0 +1,8 @@
+{
+  "lessons": {
+    "banglish": "bn-only lesson (profile bn.md §8 'add' / §4.11, §4.4 / §9 trap table): Bangladeshi-English traps presented as 'fine at home, say this abroad' — verbs translated word for word (give an exam, eat medicine), time phrases (this morning, last night), kinship (cousin), lakh / crore, words with a local meaning (hotel, coaching, mess), mass nouns with -s, more better, state verbs in -ing; placed after smalltalk via profile.json lessonOrder.after; deck বাংলিশ ফাঁদ; replaces the ko-only lesson konglish (no ko-en counterpart, mirrors zh chinglish / hi indian-english)"
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["banglish"]
+}

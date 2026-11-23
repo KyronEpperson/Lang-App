@@ -1,476 +1,476 @@
 {
- "about": "Roadmap titles for bn. Fill every \"t\" (short, the way a course lesson title reads). \"ko\" and \"kind\" are reference only. Keep quoted target-language words (e.g. 감사합니다, ser/estar) as they are. Only the Korean roadmap (the course Bengali speakers get, bn-ko) is translated; empty \"t\" falls back to English in the app (rmT). Written directly in road.py's output shape because road.py cannot run (see NOTES.md).",
+ "about": "Roadmap titles for bn. Fill every \"t\" (short, the way a course lesson title reads). \"ko\" and \"kind\" are reference only. Keep quoted target-language words as they are. Empty \"t\" falls back to English in the app (rmT).",
  "road": {
   "Standard (Seoul) Korean": {
-   "t": "প্রমিত (সিউল) কোরিয়ান",
+   "t": "",
    "ko": "표준어",
    "kind": "variant",
    "roadmap": "ko"
   },
   "Common order of Korean beginner courses (TTMIK, Sogang, How to Study Korean)": {
-   "t": "কোরিয়ান প্রাথমিক কোর্সগুলোর সাধারণ ক্রম (TTMIK, Sogang, How to Study Korean)",
+   "t": "",
    "ko": "한국어 초급 교재들의 공통 순서",
    "kind": "basis",
    "roadmap": "ko"
   },
   "Script and first words": {
-   "t": "লিপি ও প্রথম শব্দ",
+   "t": "",
    "ko": "글자와 첫 표현",
    "kind": "stage",
    "roadmap": "ko"
   },
   "Hangul": {
-   "t": "হাঙ্গুল",
+   "t": "",
    "ko": "한글",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Sound changes: why 감사합니다 sounds different": {
-   "t": "ধ্বনি পরিবর্তন: 감사합니다 কেন অন্যরকম শোনায়",
+   "t": "",
    "ko": "소리 변화: 비음화와 격음화",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Meeting people": {
-   "t": "পরিচয় হওয়া",
+   "t": "",
    "ko": "사람 만나기",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Politeness in brief": {
-   "t": "সংক্ষেপে ভদ্রতা",
+   "t": "",
    "ko": "높임말 한눈에",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Nouns and things": {
-   "t": "বিশেষ্য ও জিনিসপত্র",
+   "t": "",
    "ko": "명사와 사물",
    "kind": "stage",
    "roadmap": "ko"
   },
   "Nouns, 이에요/예요, 은/는": {
-   "t": "বিশেষ্য, 이에요/예요, 은/는",
+   "t": "",
    "ko": "명사, 이에요/예요, 은/는",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "있어요/없어요, 이/가, place 에": {
-   "t": "있어요/없어요, 이/가, জায়গা বোঝাতে 에",
+   "t": "",
    "ko": "있어요/없어요, 이/가, 장소 에",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Pronouns and first question words": {
-   "t": "সর্বনাম ও প্রথম প্রশ্নবোধক শব্দ",
+   "t": "",
    "ko": "대명사와 의문사",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Two number systems": {
-   "t": "সংখ্যার দুই পদ্ধতি",
+   "t": "",
    "ko": "두 가지 숫자",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Counters and 주세요": {
-   "t": "কাউন্টার ও 주세요",
+   "t": "",
    "ko": "단위 명사와 주세요",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Eating out": {
-   "t": "বাইরে খাওয়া",
+   "t": "",
    "ko": "식당에서",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Verbs and sentences": {
-   "t": "ক্রিয়া ও বাক্য",
+   "t": "",
    "ko": "동사와 문장",
    "kind": "stage",
    "roadmap": "ko"
   },
   "Verbs: 다, stems and kinds": {
-   "t": "ক্রিয়া: 다, ধাতু ও ধরন",
+   "t": "",
    "ko": "동사: 다, 어간, 종류",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Present 요-form": {
-   "t": "বর্তমান 요-রূপ",
+   "t": "",
    "ko": "현재 요-형",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Word order and 을/를": {
-   "t": "শব্দক্রম ও 을/를",
+   "t": "",
    "ko": "어순과 을/를",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "에 vs 에서": {
-   "t": "에 বনাম 에서",
+   "t": "",
    "ko": "에 vs 에서",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Getting around": {
-   "t": "চলাফেরা",
+   "t": "",
    "ko": "길 찾기와 교통",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Past tense": {
-   "t": "অতীত কাল",
+   "t": "",
    "ko": "과거 시제",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "안 and -지 않아요": {
-   "t": "안 ও -지 않아요",
+   "t": "",
    "ko": "안, -지 않아요",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "도 and 만: also, only": {
-   "t": "도 ও 만: ও, শুধু",
+   "t": "",
    "ko": "도와 만",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Putting sentences together": {
-   "t": "বাক্য গড়া",
+   "t": "",
    "ko": "문장 만들기",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Saying what you want": {
-   "t": "কী চান তা বলা",
+   "t": "",
    "ko": "원하는 것 말하기",
    "kind": "stage",
    "roadmap": "ko"
   },
   "Want and like: -고 싶어요, 좋아해요": {
-   "t": "চাওয়া ও পছন্দ: -고 싶어요, 좋아해요",
+   "t": "",
    "ko": "-고 싶어요, 좋아해요",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Future: -(으)ㄹ 거예요": {
-   "t": "ভবিষ্যৎ: -(으)ㄹ 거예요",
+   "t": "",
    "ko": "미래: -(으)ㄹ 거예요",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Can and can't: -(으)ㄹ 수 있어요, 못": {
-   "t": "পারা ও না পারা: -(으)ㄹ 수 있어요, 못",
+   "t": "",
    "ko": "-(으)ㄹ 수 있어요, 못",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Have to: -아/어야 해요": {
-   "t": "করতেই হবে: -아/어야 해요",
+   "t": "",
    "ko": "의무: -아/어야 해요",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Making plans": {
-   "t": "পরিকল্পনা করা",
+   "t": "",
    "ko": "약속 잡기",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Titles and honorifics": {
-   "t": "উপাধি ও সম্মানসূচক রূপ",
+   "t": "",
    "ko": "호칭과 높임",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Asking politely": {
-   "t": "ভদ্রভাবে অনুরোধ",
+   "t": "",
    "ko": "공손하게 부탁하기",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Honorific verbs": {
-   "t": "সম্মানসূচক ক্রিয়া",
+   "t": "",
    "ko": "높임 동사",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Longer sentences": {
-   "t": "লম্বা বাক্য",
+   "t": "",
    "ko": "긴 문장",
    "kind": "stage",
    "roadmap": "ko"
   },
   "Joining sentences: -고, -아/어서, -지만": {
-   "t": "বাক্য জোড়া: -고, -아/어서, -지만",
+   "t": "",
    "ko": "문장 잇기: -고, -아/어서, -지만",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Telling a story in the past": {
-   "t": "অতীতের গল্প বলা",
+   "t": "",
    "ko": "과거 이야기하기",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Adjectives before nouns: -(으)ㄴ": {
-   "t": "বিশেষ্যের আগে বিশেষণ: -(으)ㄴ",
+   "t": "",
    "ko": "관형형: -(으)ㄴ",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Comparing: 보다 더, 제일": {
-   "t": "তুলনা: 보다 더, 제일",
+   "t": "",
    "ko": "비교: 보다 더, 제일",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Office Korean: -(스)ㅂ니다": {
-   "t": "অফিসের কোরিয়ান: -(스)ㅂ니다",
+   "t": "",
    "ko": "직장 한국어: -(스)ㅂ니다",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "Texting and casual speech": {
-   "t": "মেসেজ ও ঘরোয়া কথা",
+   "t": "",
    "ko": "문자와 반말",
    "kind": "lesson title",
    "roadmap": "ko"
   },
   "General (American) English": {
-   "t": "",
+   "t": "সাধারণ (আমেরিকান) ইংরেজি",
    "ko": "미국식 영어",
    "kind": "variant",
    "roadmap": "en"
   },
   "CEFR A1-B1 order, adjusted for Korean speakers": {
-   "t": "",
+   "t": "CEFR A1–B1-এর ক্রম, কোরিয়ানভাষীদের জন্য মানানসই করা",
    "ko": "CEFR A1-B1 순서 (한국어 화자에 맞게 조정)",
    "kind": "basis",
    "roadmap": "en"
   },
   "A1 · First sentences": {
-   "t": "",
+   "t": "A1 · প্রথম বাক্য",
    "ko": "A1 · 첫 문장",
    "kind": "stage",
    "roadmap": "en"
   },
   "The alphabet and spelling aloud": {
-   "t": "",
+   "t": "ইংরেজি বর্ণমালা ও বানান করে বলা",
    "ko": "알파벳과 철자 말하기",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Pronunciation traps: R/L, F/P, TH": {
-   "t": "",
+   "t": "উচ্চারণের ফাঁদ: R/L, F/P, TH",
    "ko": "발음 함정: R/L, F/P, TH",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "be, subject pronouns, every sentence needs a subject": {
-   "t": "",
+   "t": "be ক্রিয়া, কর্তা সর্বনাম, প্রতিটি বাক্যে কর্তা (subject) লাগে",
    "ko": "be동사, 주어 대명사, 주어는 꼭 필요",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "It's cold · there is / there are": {
-   "t": "",
+   "t": "It's cold · there is / there are",
    "ko": "It's cold · there is / there are",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "a / an and the: the basics": {
-   "t": "",
+   "t": "a / an ও the: প্রাথমিক নিয়ম",
    "ko": "a / an과 the 기초",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Plurals, this / these, my / your": {
-   "t": "",
+   "t": "বহুবচন, this / these, my / your",
    "ko": "복수 -s, this / these, my / your",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Present simple and subject-verb-object": {
-   "t": "",
+   "t": "Present Simple ও কর্তা-ক্রিয়া-কর্ম ক্রম",
    "ko": "현재 시제와 주어-동사-목적어",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Questions: do, then question words": {
-   "t": "",
+   "t": "প্রশ্ন: do, তারপর প্রশ্নবোধক শব্দ",
    "ko": "의문문: do, 의문사",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "He/she/it: -s, does / doesn't": {
-   "t": "",
+   "t": "he / she / it: -s, does / doesn't",
    "ko": "3인칭 단수 -s, does / doesn't",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "at / in / on": {
-   "t": "",
+   "t": "preposition: at / in / on",
    "ko": "전치사 at / in / on",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Countable and uncountable: some, any, much, many": {
-   "t": "",
+   "t": "গণনাযোগ্য ও গণনাযোগ্য নয়: some, any, much, many",
    "ko": "셀 수 있는 명사: some, any, much, many",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "A1 · Doing things": {
-   "t": "",
+   "t": "A1 · কাজের কথা বলা",
    "ko": "A1 · 행동 말하기",
    "kind": "stage",
    "roadmap": "en"
   },
   "Object pronouns and have": {
-   "t": "",
+   "t": "কর্ম সর্বনাম (me, him) ও have",
    "ko": "목적격 대명사와 have",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "can, like + -ing, I'd like": {
-   "t": "",
+   "t": "can, like + -ing, I'd like",
    "ko": "can, like + -ing, I'd like",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Present continuous vs present simple": {
-   "t": "",
+   "t": "Present Continuous বনাম Present Simple",
    "ko": "현재진행 vs 현재",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "was / were and regular past -ed": {
-   "t": "",
+   "t": "was / were ও নিয়মিত past -ed",
    "ko": "was / were, 규칙 과거 -ed",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Irregular past, past questions": {
-   "t": "",
+   "t": "অনিয়মিত past, past-এর প্রশ্ন",
    "ko": "불규칙 과거, 과거 의문문",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "the: first vs second mention": {
-   "t": "",
+   "t": "the: প্রথমবার বনাম দ্বিতীয়বার বলা",
    "ko": "the: 처음 말할 때와 다시 말할 때",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Adjectives, comparatives, superlatives": {
-   "t": "",
+   "t": "বিশেষণ, তুলনার রূপ, সবচেয়ে-র রূপ",
    "ko": "형용사, 비교급, 최상급",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "going to: plans": {
-   "t": "",
+   "t": "going to: পরিকল্পনা",
    "ko": "going to: 계획",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "and, but, or, so, because": {
-   "t": "",
+   "t": "সংযোজক শব্দ: and, but, or, so, because",
    "ko": "and, but, or, so, because",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "A2 · Building range": {
-   "t": "",
+   "t": "A2 · প্রকাশের পরিধি বাড়ানো",
    "ko": "A2 · 표현 넓히기",
    "kind": "stage",
    "roadmap": "en"
   },
   "Past continuous": {
-   "t": "",
+   "t": "Past Continuous",
    "ko": "과거진행",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "will vs going to": {
-   "t": "",
+   "t": "will বনাম going to",
    "ko": "will vs going to",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Present perfect: experience": {
-   "t": "",
+   "t": "Present Perfect: অভিজ্ঞতা",
    "ko": "현재완료: 경험",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "have to, must, should, might": {
-   "t": "",
+   "t": "modal: have to, must, should, might",
    "ko": "have to, must, should, might",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Verb + to or -ing": {
-   "t": "",
+   "t": "ক্রিয়া + to বা -ing",
    "ko": "동사 + to / -ing",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "the for one-of-a-kind, no article with plurals": {
-   "t": "",
+   "t": "একমাত্র জিনিসের আগে the, বহুবচনে আর্টিকেল ছাড়া",
    "ko": "유일한 것의 the, 복수의 무관사",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "First conditional: if": {
-   "t": "",
+   "t": "শর্তের বাক্য 1: if",
    "ko": "조건문 1: if",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "who / that: describing people and things": {
-   "t": "",
+   "t": "who / that: মানুষ ও জিনিসের বর্ণনা",
    "ko": "관계대명사 who / that",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "B1 · Telling more": {
-   "t": "",
+   "t": "B1 · আরও বিস্তারিত বলা",
    "ko": "B1 · 더 길게 말하기",
    "kind": "stage",
    "roadmap": "en"
   },
   "Present perfect with for / since": {
-   "t": "",
+   "t": "Present Perfect: for / since",
    "ko": "현재완료 for / since",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Narrative tenses": {
-   "t": "",
+   "t": "গল্প বলার tense",
    "ko": "이야기 시제",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Second and third conditional": {
-   "t": "",
+   "t": "শর্তের বাক্য 2 ও 3",
    "ko": "조건문 2, 3",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Passive": {
-   "t": "",
+   "t": "Passive (কর্মবাচ্য)",
    "ko": "수동태",
    "kind": "lesson title",
    "roadmap": "en"
   },
   "Reported speech": {
-   "t": "",
+   "t": "পরোক্ষ উক্তি (reported speech)",
    "ko": "간접화법",
    "kind": "lesson title",
    "roadmap": "en"

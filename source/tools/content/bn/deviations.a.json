@@ -1,0 +1,15 @@
+{
+  "lessons": {},
+  "items": {},
+  "decks": {
+    "নিজের পরিচয়": "localisation per profile bn.md §9 (Minji→Rafi, Korea→Bangladesh, Seoul→Dhaka; same positions as zh / hi): cards 0 'My name is Rafi.', 4 'I'm from Bangladesh.', 5 'I live in Dhaka.'",
+    "জরুরি ইংরেজি 1": "localisation per profile bn.md §9: card 12 'Do you speak Korean?' → 'Do you speak Bangla?' (learner's own language; 'Bangla' per the lead note, and the card note says many English speakers say Bengali)",
+    "হালকা আলাপ": "localisation per profile bn.md §9: card 6 'Have you been to Korea?' → 'Have you been to Bangladesh?'",
+    "প্রশংসা ও ভালো লাগা": "localisation per profile bn.md §9: card 8 'Your Korean is really good!' → 'Your Bangla is really good!'",
+    "ফোন ও চ্যাটের সংক্ষেপ": "localisation per profile bn.md §9 (Minji→Rafi; Mr. Kim→Mr. Khan, a Bangladeshi family name the en-US voice reads unambiguously): cards 0 'Hello, this is Rafi.', 1 'Can I speak to Mr. Khan?'",
+    "ভ্রমণ (বিমানবন্দর ও হোটেল)": "localisation per profile bn.md §9: card 8 reservation name 'under Kim' → 'under Khan' (family name)",
+    "হাসপাতাল ও জরুরি অবস্থা": "localisation per profile bn.md §9: card 15 'the Korean embassy' → 'the Bangladesh embassy' (learner's own embassy)",
+    "বাংলিশ ফাঁদ": "bn-only deck (profile bn.md §9 trap table and deck-content notes, DECKNAMES row 21; 43 cards), appended last, after the shared alphabet deck. Cards 0–29 give the standard / American form for the 20 trap rows (uncountables information / advice / furniture; more better; I am knowing; lakh / crore; lift / flat / mobile; give an exam; eat medicine; drink a cigarette; today morning / yesterday night; cousin brother; good name; hotel = restaurant; current is gone; My head is paining; passed HSC; marks / result; coaching; discuss about / married with / return back; Myself Rafi; off day; bachelor / mess). Cards 30–42 are the bn-only pronunciation cards that §9 adds here instead of changing the shared pronunciation deck (zoo / Jew, vine / wine, ship / sheep, full / fool, see / she, heart / hurt, school; very, berry and hotel already exist in deck 18 and are not duplicated). Linked to the bn-only lesson banglish; no ko-en counterpart",
+    "count": "deck count 22 vs ko-en 21: the bn-only deck «বাংলিশ ফাঁদ» (profile bn.md §9, DECKNAMES row 21) is appended last, so bn-en has one deck more than the reference course"
+  }
+}
