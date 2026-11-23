@@ -1,7 +1,26 @@
 {
-  "lessons": {},
+  "lessons": {
+    "czenglish": "cs-only lesson (profile cs.md §8 'add' / §4.9 / §9): Czenglish traps — false friends (actual/current, eventually/possibly, sympathetic/nice, control/check-up, concrete/specific, gymnasium/high school, novel/novella, billion/trillion), one Czech word vs two English words (teach/learn, say/tell, lend/borrow, do/make, fun/funny) and calques (How is it called?, Can I have a question?, He is 22 years, everything what, basic school, I'm from Czech); placed after smalltalk via profile.json lessonOrder.after; deck «Falešní přátelé a čechismy»; no ko-en counterpart (mirrors zh chinglish, ru runglish; replaces ko's own konglish in more/a1.js); its practice set meets the article-plural rule on its own (order 4/4, type 3/4)",
+    "perfect-3": "cs-only lesson (profile cs.md §8 add, §4.1): «Předpřítomný, nebo minulý čas? Jeden český čas, dva anglické» — Present Perfect vs Past Simple in both directions, the best-measured Czech error (Gráf 2017: Present Perfect involved in 73% of tense-choice errors, missing 58 times and wrongly used 37 times in 50 advanced speakers). Three Czech-to-English decisions: Czech present + duration → Present Perfect (I've lived here for five years); Czech past + result now → Present Perfect (I've lost my keys, My bike has been stolen); Czech past + finished time → Past Simple whatever the 'trigger' word (I saw it on my birthday, I visited Lisbon last summer, We met in 2019); one note on American usage (I just ate = I've just eaten, both accepted). ko-en has no such lesson; the English side (examples, 3-question check, 15-item practice set) is new, written for cs. mc and fill items carry the tense point alone; 3 of 3 order items and 3 of 4 type items are double hinges (tense + article or plural) so the standing rule holds. Placed after perfect-2 via profile.json lessonOrder.after; deck «Představování» (deck 2, as perfect-2)."
+  },
   "items": {},
-  "decks": {},
-  "extraLessons": [],
+  "decks": {
+    "Představování": "localisation per profile cs.md §9 (Minji→Lenka, Korea→the Czech Republic, Seoul→Prague): cards 0 'My name is Lenka.', 4 'I'm from the Czech Republic.', 5 'I live in Prague.'",
+    "Základní fráze 1": "localisation per profile cs.md §9: card 12 'Do you speak Korean?' → 'Do you speak Czech?' (learner's own language)",
+    "Čísla, čas a datum": "cs-only cards appended per profile cs.md §9 (cards 17–18): 'Two hundred fifty crowns' (crowns as the home currency, §9 'Crowns and numbers') and 'It's four thirty.' (note «půl páté, ne „half five“», §9 deck content changes). Original 17 cards unchanged",
+    "Nezávazná konverzace": "localisation per profile cs.md §9: card 6 'Have you been to Korea?' → 'Have you been to the Czech Republic?'",
+    "Komplimenty a sympatie": "localisation per profile cs.md §9: card 8 'Your Korean is really good!' → 'Your Czech is really good!'",
+    "Práce a e-maily": "cs-only cards appended per profile cs.md §9 deck content changes (invoice, colleague) (cards 19–20): 'I'll send you the invoice.', 'This is my colleague, Martin.' Original 19 cards unchanged",
+    "Telefon a chatové zkratky": "localisation per profile cs.md §9 (Minji→Lenka; surnames only in work/phone scenes, Mr. Kim→Mr. Novak): cards 0 'Hello, this is Lenka.', 1 'Can I speak to Mr. Novak?'",
+    "Cestování (letiště a hotel)": "localisation per profile cs.md §9: card 8 reservation name 'under Kim' → 'under Novak' (surname without diacritics)",
+    "Lékař a nouzové situace": "localisation per profile cs.md §9: card 15 'the Korean embassy' → 'the Czech embassy' (learner's own embassy)",
+    "Pozor na výslovnost": "cs-only cards appended per profile cs.md §4.10 / §6 / §9 (cards 26–45): event, development, comfortable, vegetable (stress and syllable count); sing / singing (ŋ without g or k); wine / vine, west / vest (w vs v); bad / bed (æ vs e), bad / bat, bag / back, dog / dock (final voicing); ship / sheep (ɪ vs iː); these (pairs with the shared card this). hotel and this are already shared cards and are reused, not duplicated. Original 26 cards unchanged",
+    "Falešní přátelé a čechismy": "cs-only deck (profile cs.md §9 false-friend table, DECKNAMES row 22): 24 cards built only from the rows marked as sourced (actual, eventually, sympathetic, control, concrete, gymnasium, novel, billion, notebook, accurate, punctual, dress, basic school, How is it called, Can I have a question, learn/teach, say/tell, 22 years, everything what, funny/fun, Welcome in, a book from, count with, host/guest); linked to the cs-only lesson czenglish; no ko-en counterpart",
+    "count": "deck count 22 vs ko-en 21: cs-only deck «Falešní přátelé a čechismy» (profile cs.md §9, DECKNAMES row 22) appended last"
+  },
+  "extraLessons": [
+    "czenglish",
+    "perfect-3"
+  ],
   "droppedLessons": []
 }
