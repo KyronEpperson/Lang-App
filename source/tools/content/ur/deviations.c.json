@@ -1,0 +1,8 @@
+{
+  "lessons": {
+    "pakistani-english": "ur-only lesson (profile ur.md §8 'add' / §4.11 / §9): Pakistani English usages that are fine at home and puzzle listeners abroad (out of station, cousin-brother, pass out, batchmate, shopper, copy, petrol pump, the light has gone, papers / numbers, timings, thrice, Where are you put up?, prepone, expired), forms that are wrong or misleading in any variety (open / close the light, drink a cigarette, same to same, too much difficult, my head is paining, elder to, Myself Ali, isn't it? after every sentence) and Urdu calques (eat medicine, give an exam, good name, real brother); replaces the scaffold's Korean-only lesson konglish; placed after smalltalk via profile.json lessonOrder.after; deck 22 «پاکستانی انگریزی: یہاں اور باہر»; no ko-en counterpart (mirrors hi indian-english, zh chinglish)"
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["pakistani-english"]
+}
