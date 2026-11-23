@@ -1,0 +1,8 @@
+{
+  "lessons": {
+    "indian-english": "pa-only lesson (profile pa.md §8 'add' / §4.11 / §9), written in place of the scaffold's Korean-only lesson konglish: Indian English usages that are fine in India and puzzle listeners abroad (prepone, out of station, good name, cousin sister, passed out, revert, years back, native place, mention not, do the needful, kindly, take lunch, shifting, today itself, now only), forms wrong in any variety (Myself Aman, discuss about, return back, I have a doubt, Do one thing) and the Punjabi calques of §8 (eat medicine, give an exam, close the light, pull a photo, eat my head, I belong to Ludhiana, What is the time?, isn't it? after every sentence). English side starts from hi-en's indian-english (checks unchanged; practice localised Rahul → Aman, Delhi → Chandigarh / Ludhiana, with three items swapped or added for the Punjabi calques: turn off the light, take an exam, take a photo; 16 items, meets the article-plural standing rule). Placed after smalltalk via profile.json lessonOrder.after; deck 22 «ਇੰਡੀਅਨ ਇੰਗਲਿਸ਼: ਭਾਰਤ ਬਨਾਮ ਵਿਦੇਸ਼»; no ko-en counterpart (mirrors hi indian-english, zh chinglish)"
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["indian-english"]
+}
