@@ -2,7 +2,7 @@
 
 Files:
 - `ui.json`: 784 exact keys and 274 pattern templates, all filled.
-- `roadmap.json`: the 40 Korean-roadmap titles are filled. The other 1,782 strings are empty, so they fall back to English.
+- `roadmap.json`: the 40 Korean-roadmap titles (tl-ko) and the 39 English-roadmap titles (tl-en, added 2026-11-23, §6) are filled. The other 1,743 strings are empty, so they fall back to English.
 - The generated pack is `packs/i18n-tl.js`.
 
 Build: `python3 tools/i18n/gen.py tl && node tools/i18n/validate.js tl`. It passes with 2 warning classes, the same two that `ceb` and `es` have:
@@ -162,3 +162,61 @@ Also worth a glance: the day abbreviations are 3 letters (*Lin Lun Mar Miy Huw B
 - length-ratio outliers.
 
 It does **not** check verb focus or naturalness; those need the native check (§4).
+
+## 6. English course (tl-en): roadmap titles and grammar terms (added 2026-11-23)
+
+The same pack now also serves **tl-en** (English for Tagalog speakers). Nothing in `ui.json` was changed for it: the validator reports 784/784 exact keys and 274/274 templates translated, so there was nothing to add. What was added:
+
+- `roadmap.json`: the 39 strings of the `en` roadmap (1 variant, 1 basis, 4 stages, 33 lesson titles). `gen.py` now emits `road` 79.
+- This term list. It is the closed list of `docs/profiles/tl.md` §3; the tl-ko list in §1 is unchanged and still governs every existing string.
+
+**Grammar terms used in the English-roadmap titles** (English school terms stay English, as ordinary nouns inside Filipino; everything else is Filipino):
+
+| English | In Filipino text | Note |
+|---|---|---|
+| article / no article | article / walang article | |
+| noun, pronoun, verb, adjective | noun, pronoun, verb, adjective | *mga* + term for an unnumbered plural (*Mga adjective*) |
+| subject / object | subject / object | *subject pronoun*, *object pronoun*, *subject-verb-object* |
+| plural | plural | |
+| countable / uncountable | nabibilang / hindi nabibilang | |
+| question word | question word | same as tl-ko |
+| regular / irregular | regular / irregular na … | *regular na past -ed*, *irregular na past* |
+| present simple | simple present | profile: «present tense (simple present)»; the titles use *simple present*, because *present tense* alone does not contrast with *present continuous* |
+| present continuous / past continuous | present continuous / past continuous | |
+| past | past | *mga tanong sa past* |
+| present perfect | present perfect | |
+| tense | tense | *Mga tense sa pagkukuwento* (Narrative tenses) |
+| first / second / third conditional | first / second / third conditional | |
+| comparative / superlative | comparative / superlative | |
+| passive | passive | |
+| reported speech | reported speech | |
+| sentence | **pangungusap** | tl-en only; the tl-ko titles and the three interface strings keep *sentence* (see below) |
+| question | tanong | |
+| pronunciation | bigkas | *Mga bitag sa bigkas* |
+| alphabet / spelling aloud | alpabeto / pagbaybay nang malakas | |
+| vs | laban sa | as in the tl-ko title *에 laban sa 에서* |
+
+Quoted English (*be, a / an, the, do, does / doesn't, will, going to, who / that, for / since, It's cold, there is / there are*) is kept exactly, with no affix or linker attached. Ten titles are identical to English because they consist only of quoted English or kept terms (*at / in / on*, *Past continuous*, *Passive*, *Reported speech*, *First conditional: if* …).
+
+**Known differences between the two courses in this one pack (for the lead):**
+- *sentence* (tl-ko titles, and the interface strings *Pagbuo ng sentence*, *pagbuo ng sentence*, the drills blurb) against *pangungusap* (tl-en titles and lesson prose). Profile `tl.md` §10 item 5.
+- The basis line «CEFR A1-B1 order, adjusted for Korean speakers» is translated literally (*…iniangkop para sa mga nagsasalita ng Koreano*). For tl-en it should say Tagalog speakers; that needs a per-course string, not a different translation of this key.
+- The keys worded for Korean (*Koreano, Hangul, romanization*, the Hangul examples) are untouched. An English course needs per-course overrides (`COURSE.UI`) for the ones it shows; the de and zh dictionaries show the intended English-course wording (*romanization* → pronunciation aid = *bigkas*, *Hangul / Korean* → *Ingles*).
+- The three tab labels over 8 characters (*Pagsasanay* 10, *Pag-unlad* 9, *Mga drill* 9) are untouched; profile `tl.md` §10 proposes *Praktis*, *Progreso*, *Drill* for the tab only.
+
+**For the Tagalog speaker's check (English-roadmap titles):**
+
+| English | Tagalog now | Doubt |
+|---|---|---|
+| General (American) English | Pangkalahatang Ingles (Amerikano) | Or *American English* left in English? |
+| The alphabet and spelling aloud | Ang alpabeto at pagbaybay nang malakas | *pagbaybay nang malakas* for spelling a word out loud? |
+| Pronunciation traps: R/L, F/P, TH | Mga bitag sa bigkas: R/L, F/P, TH | *bitag* for "traps"? |
+| a / an and the: the basics | a / an at the: ang mga batayan | Or *mga pangunahing kaalaman*? |
+| A1 · Doing things | A1 · Pagsasabi ng ginagawa | Free rendering ("saying what you do") |
+| A2 · Building range | A2 · Pagpapalawak ng kaya mong sabihin | Free rendering ("widening what you can say") |
+| B1 · Telling more | B1 · Mas mahabang pagkukuwento | Free rendering |
+| the: first vs second mention | the: unang banggit laban sa ikalawang banggit | *banggit* natural? *laban sa* for "vs"? |
+| the for one-of-a-kind, no article with plurals | the para sa nag-iisa lang, walang article sa plural | *nag-iisa lang* for "one of a kind"? |
+| Questions: do, then question words | Mga tanong: do, saka mga question word | *saka* for "then"? |
+| Present perfect with for / since | Present perfect na may for / since | |
+| Narrative tenses | Mga tense sa pagkukuwento | |
