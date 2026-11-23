@@ -1,0 +1,17 @@
+{
+  "lessons": {},
+  "items": {},
+  "decks": {
+    "自我介紹": "localisation per profile yue.md §9 (Minji→Amy, Korea→Hong Kong, Seoul→Kowloon): cards 0 'My name is Amy.', 4 'I'm from Hong Kong.', 5 'I live in Kowloon.'",
+    "求生英文 1": "localisation per profile yue.md §9: card 12 'Do you speak Korean?' → 'Do you speak Cantonese?' (learner's own language)",
+    "閒談": "localisation per profile yue.md §9: card 6 'Have you been to Korea?' → 'Have you been to Hong Kong?'",
+    "讚美與好感": "localisation per profile yue.md §9: card 8 'Your Korean is really good!' → 'Your Cantonese is really good!'",
+    "電話與短訊縮寫": "localisation per profile yue.md §9 (Minji→Amy, Mr. Kim→Mr. Chan): cards 0 'Hello, this is Amy.', 1 'Can I speak to Mr. Chan?'",
+    "旅行（機場與酒店）": "localisation per profile yue.md §9: card 8 reservation name 'under Kim' → 'under Chan' (surname)",
+    "醫院與緊急情況": "localisation per profile yue.md §9: card 15 'the Korean embassy' → 'my consulate' ('I need to contact my consulate.'; neutral wording, the consulate depends on the passport held)",
+    "發音易錯": "yue-only cards appended per profile yue.md §4 item 4 / §9 (cards 26–42): n / l night, know / low; TH free (vs three), they / day; v / w wary, vest / west; z / s zip / sip; sh / s show / so; vowels full / fool, bad / bed. Pairs whose other half already exists reuse the shared cards (rice / lice, right / light, three, very, leave / live, walk / work). Original 26 cards unchanged",
+    "港式英文陷阱": "yue-only deck (profile yue.md §4 items 6, 7, 10, 12, 13, 15 / §9 row 22): one Chinese verb vs several English verbs, calques from Cantonese, local words unclear abroad, British / American pairs; linked to the yue-only lesson hk-english; no ko-en counterpart",
+    "字尾發音": "yue-only deck (profile yue.md §4 items 2 and 4 / §9 row 23): final voicing, final clusters, plural and past endings, diphthong + consonant, initial clusters; linked to plurals / third-s / past / pron; no ko-en counterpart",
+    "count": "deck count 23 vs ko-en 21 (20 topic decks + the shared alphabet deck): yue-only decks 港式英文陷阱 and 字尾發音 (profile yue.md §9) appended last"
+  }
+}
