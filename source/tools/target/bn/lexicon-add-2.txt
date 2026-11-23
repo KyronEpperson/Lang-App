@@ -1,0 +1,23 @@
+# lexicon-add-2: EN-BN-2 (lessons-2.js). Derived forms (base word + ending) are unverified:model even when the base is sourced.
+কলমটা	kôlomṭa	unverified:model
+ফোনটা	fonṭa	unverified:model
+বইটি	boiṭi	unverified:model
+তিনজন	tinjon	unverified:model
+দশজন	dôshjon	unverified:model
+শহরে	shôhore	unverified:model
+গ্রামে	grame	unverified:model
+বাড়িতে	baṛite	unverified:model
+আমেরিকায়	amerikay	unverified:model
+আমেরিকাতে	amerikate	unverified:model
+ঢাকাতে	ḍhakate	unverified:model
+ছেলেরা	chhelera	unverified:model
+মেয়েরা	meyera	unverified:model
+ভাইরা	bhaira	unverified:model
+বোনেরা	bonera	unverified:model
+বন্ধুটা	bondhuṭa	unverified:model
+ছেলেটা	chheleṭa	unverified:model
+# homograph-fixing phrases: করে / বলে as the simple present (3rd person ordinary), as printed in the opened Chalita tables (kôre, bôle)
+কাজ করে	kaj kôre	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%85%E0%A6%AA%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE_%E0%A6%95%E0%A6%B0%E0%A6%BE
+বাংলা বলে	bangla bôle	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%AC%E0%A6%B2%E0%A6%BE
+শহরটা	shôhorṭa	unverified:model
+গ্রামটা	gramṭa	unverified:model

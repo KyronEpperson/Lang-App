@@ -1,0 +1,19 @@
+# lexicon-add-3: EN-BN-3 (lessons-3.js). bengali<TAB>romanisation<TAB>source. A sourced line is the profile §6.3 conversion of what that page printed;
+# derived forms (base word + ending) that the page does not print are unverified:model even when the base is sourced.
+বললে	bolle	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%AC%E0%A6%B2%E0%A6%BE
+দেখলে	dekhle	https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A6%BE
+গেলো	gelo	unverified:model
+করলা	korla	unverified:model
+গেলা	gela	unverified:model
+বাজারের	bajarer	https://kaikki.org/dictionary/Bengali/meaning/%E0%A6%AC/%E0%A6%AC%E0%A6%BE/%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0.html
+চাল	chal	https://wiki.1209k.com/content/wiktionary_en_all_maxi_2024-05/A/%E0%A6%9A%E0%A6%BE%E0%A6%B2
+মোড়ে	moṛe	unverified:model
+বেশি	beshi	unverified:model
+কফির	kofir	unverified:model
+আলুর	alur	unverified:model
+কেজিটা	kejiṭa	unverified:model
+বইকে	boike	unverified:model
+ভাইকে	bhaike	unverified:model
+মাকে	make	unverified:model
+পছন্দ করে	pôchhondo kôre	unverified:model
+পরে আসব	pore ashbo	unverified:model

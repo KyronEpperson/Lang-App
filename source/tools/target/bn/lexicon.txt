@@ -1,0 +1,723 @@
+# en-bn lexicon: Bengali (Bengali script) -> the en-bn romanisation, for tools/target/bn/respell.js (profile docs/profiles/en-bn.md §6).
+# Format: bengali<TAB>romanisation<TAB>source. One word (or one fixed multi-word phrase) per line. `#` starts a comment.
+# The romanisation writes the SOUND in the profile §6.3 key. It is not a letter-by-letter transliteration.
+# Source column: a source id below, a URL that was opened, or `unverified:model` (no page was opened for this line: the reading is
+# the model's own; replace it with a sourced reading when you can, and never ship a card whose point is a sound on such a line
+# without checking it). A source id may be followed by a short note in brackets.
+# Seeded homographs: করে দেখে বলে খেলে খেলো খেলেন আসল আসলে পরে.
+# Homographs: two lines with the same key and different readings, each with `homograph:<gloss>` in its source column. The tool then
+# refuses the word on its own and asks for a longer entry (multi-word line) that fixes the reading.
+#
+# Sources (all opened 2026-11-22; Wiktionary pages through the kiwix mirror of the English Wiktionary, April 2023).
+# Every page was read through a web tool that returns a model-written summary of the page, not the raw page: some rows came back
+# garbled (MSU skatcollish, chechTTi; UT chatra) and were not used. A sourced line is as good as that summary; re-check a line
+# against the page itself before you rely on a fine point.
+#source wt-ach https://www.wiktionary.com/wiki/%E0%A6%86%E0%A6%9B- Wiktionary আছ-: Chalita conjugation of থাকা (আছি, ছিলাম, থাকব ...) and the pronoun labels
+#source wt-kora https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%85%E0%A6%AA%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE_%E0%A6%95%E0%A6%B0%E0%A6%BE Wiktionary অপেক্ষা করা: full Chalita table of করা
+#source wt-kore https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%95%E0%A6%B0%E0%A7%87 Wiktionary করে (perfective participle), IPA /kore/
+#source wt-bola https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%AC%E0%A6%B2%E0%A6%BE Wiktionary বলা: Chalita table
+#source wt-para https://kaweah.freedombox.rocks/kiwix/content/wiktionary_en_all_maxi_2023-04/A/%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A6%BE Wiktionary পারা: Chalita table
+#source wt-jaoya https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%AF%E0%A6%BE%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE Wiktionary যাওয়া: table, IPA /dʒa.wa/
+#source wt-khaoya https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%96%E0%A6%BE%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE Wiktionary খাওয়া: table
+#source wt-dekha https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A6%BE Wiktionary দেখা: table, IPA /ˈd̪ækʰa/
+#source wt-chaoya https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%9A%E0%A6%BE%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE Wiktionary চাওয়া: table
+#source wt-laga https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%B2%E0%A6%BE%E0%A6%97%E0%A6%BE Wiktionary লাগা: table
+#source wt-deoya https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%A6%E0%A7%87%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE Wiktionary দেওয়া: table
+#source wt-asha https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%86%E0%A6%B8%E0%A6%BE Wiktionary আসা: table
+#source wt-hoya https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%B9%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE Wiktionary হওয়া: table
+#source wt-boro https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%AC%E0%A6%A1%E0%A6%BC Wiktionary বড়, adjective: Dhaka /bɔɹo/
+#source wt-sundor https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%B8%E0%A7%81%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0 Wiktionary সুন্দর: Dhaka /ʃund̪ɔɹ/ (first of two)
+#source wt-dhonnobad https://kaweah.freedombox.rocks/kiwix/wiktionary_en_all_maxi_2023-04/%E0%A6%A7%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%BE%E0%A6%A6 Wiktionary ধন্যবাদ: /d̪ʱonːobad̪/
+#source msu-verbs https://openbooks.lib.msu.edu/basicbangla/chapter/chapter-1-6-essential-verbs/ MSU Basic Bangla 2.3 (textbook): verb nouns, O = ɔ, E = æ
+#source msu-num https://openbooks.lib.msu.edu/basicbangla/chapter/chapter-2-1-bangla-numerals/ MSU Basic Bangla 3.7 (textbook): numerals 1-100 (prints digits + romanisation)
+#source wp-num https://en.wikipedia.org/wiki/Bengali_numerals Wikipedia "Bengali numerals": number words in script + romanisation (letter-based; used for spelling and explicit vowels only)
+#source ut-script https://bangla.la.utexas.edu/resources/the-bangla-script/ University of Texas "The Bangla Script": conjunct and phola chart (ɔ, æ marked)
+#source ut-time https://bangla.la.utexas.edu/resources/telling-time-in-bangla/ University of Texas "Telling time in Bangla" (writes o for both ɔ and o: used only where that does not matter)
+#source wv https://kwx.liehendr.com/content/wikivoyage_en_all_maxi_2025-02/A/Bengali Wikivoyage Bengali phrasebook (mirror, 2025-02): English respellings, aw = ɔ, oh = o, a/ack = æ
+#
+# How a printed form becomes this key (mechanical; a line counts as verified only if it is this conversion of what the page printed):
+#   Wiktionary tables: ô -> ô, ê -> æ, ō -> o, c -> ch, ch -> chh, cc -> cch, cch -> cchh, ĵ -> j, ẏ -> y, ś -> sh, oẇa / ōẇa / ōẏa -> oya, kkh stays kkh.
+#   Wiktionary IPA: ɔ -> ô, o -> o, æ / ɛ -> æ, ʃ -> sh, t̪ d̪ -> t d, ʈ ɖ -> ṭ ḍ, ɹ / ɾ -> r (ṛ where the spelling has ড় ঢ়), ʰ ʱ -> h, Cː -> CC.
+#   MSU: O -> ô, E -> æ, T -> ṭ, D -> ḍ, R -> ṛ, c -> ch, ch -> chh; a nasal the spelling marks with ঁ gets its tilde from the spelling.
+#     MSU's lowercase o is not trusted for ô versus o (it prints ponero, shottor): those lines are unverified:model.
+#   UT: ɔ -> ô, c -> ch, ch -> chh, T -> ṭ, D -> ḍ, dʰ -> dh, khkh -> kkh (geminate aspirate rule of the key).
+#   Wikivoyage: aw -> ô, oh -> o, a / ack -> æ, ah -> a, ih -> i, oo -> u, eh -> e, rr -> ṛ, tt -> ṭ, dd -> ḍ, n before a consonant after a vowel the spelling marks with ঁ -> tilde.
+#   Consonant letters, ঁ and hyphens always follow the spelling (the key writes every letter's own value); the source decides the vowels,
+#   whether an inherent vowel is said, ô versus o, e versus æ, s versus sh, and doubling.
+
+# ---------- letters (names said alone) ----------
+অ	ô	unverified:model
+আ	a	unverified:model
+ই	i	unverified:model
+ঈ	i	unverified:model
+উ	u	unverified:model
+ঊ	u	unverified:model
+ঋ	ri	unverified:model
+এ	e	unverified:model
+ঐ	oi	unverified:model
+ও	o	unverified:model
+ঔ	ou	unverified:model
+ক	kô	unverified:model
+খ	khô	unverified:model
+গ	gô	unverified:model
+ঘ	ghô	unverified:model
+চ	chô	unverified:model
+ছ	chhô	unverified:model
+জ	jô	unverified:model
+ঝ	jhô	unverified:model
+ট	ṭô	unverified:model
+ঠ	ṭhô	unverified:model
+ড	ḍô	unverified:model
+ঢ	ḍhô	unverified:model
+ণ	nô	unverified:model
+ত	tô	unverified:model
+থ	thô	unverified:model
+দ	dô	unverified:model
+ধ	dhô	unverified:model
+ন	nô	unverified:model
+প	pô	unverified:model
+ফ	fô	unverified:model
+ব	bô	unverified:model
+ভ	bhô	unverified:model
+ম	mô	unverified:model
+য	jô	unverified:model
+র	rô	unverified:model
+ল	lô	unverified:model
+শ	shô	unverified:model
+ষ	shô	unverified:model
+স	shô	unverified:model
+হ	hô	unverified:model
+ড়	ṛô	unverified:model
+ঢ়	ṛhô	unverified:model
+য়	yô	unverified:model
+ক্ষ	khô	unverified:model
+
+# ---------- syllables of the vowel-sign lesson (UT chart, ক row) ----------
+কা	ka	ut-script
+কি	ki	ut-script
+কী	ki	ut-script
+কু	ku	ut-script
+কূ	ku	ut-script
+কৃ	kri	ut-script
+কে	ke	ut-script (UT: ke/kæ; ke is the question word "who" and the case ending)
+কৈ	koi	ut-script
+কো	ko	ut-script
+কৌ	kou	ut-script
+বা	ba	ut-script
+
+# ---------- endings and classifiers written alone (-টা) ----------
+টা	ṭa	ut-time
+টি	ṭi	unverified:model
+জন	jon	unverified:model
+গুলো	gulo	unverified:model
+রা	ra	unverified:model
+তে	te	unverified:model
+লে	le	unverified:model
+লা	la	unverified:model
+এর	er	unverified:model
+
+# ---------- greetings and courtesy ----------
+আসসালামু	assalamu	unverified:model
+আলাইকুম	alaikum	unverified:model
+ওয়ালাইকুম	walaikum	unverified:model
+আসসালাম	assalam	unverified:model
+সালাম	salam	unverified:model
+নমস্কার	nômoshkar	wv
+ধন্যবাদ	dhonnobad	wt-dhonnobad
+শুভ	shubho	unverified:model
+সকাল	shôkal	unverified:model
+সন্ধ্যা	shôndha	unverified:model (UT ut-time prints shondha: consonants and the silent য-ফলা agree; ô not checked)
+রাত্রি	ratri	ut-time
+হ্যাঁ	hæ̃	ut-script
+না	na	wv
+জি	ji	unverified:model
+আচ্ছা	acchha	unverified:model
+ঠিক	ṭhik	unverified:model
+মাফ	maf	unverified:model
+ক্ষমা	khôma	unverified:model
+দুঃখিত	dukkhito	wv
+শুনুন	shunun	unverified:model
+দয়া	dôya	wv
+আবার	abar	unverified:model
+খোদা	khoda	unverified:model
+হাফেজ	hafej	unverified:model
+কেমন	kemon	unverified:model
+
+# ---------- pronouns ----------
+আমি	ami	wv
+তুমি	tumi	wt-ach (pronoun label)
+আপনি	apni	wv
+তুই	tui	wt-ach (pronoun label)
+সে	she	unverified:model
+তিনি	tini	wt-ach (pronoun label)
+ইনি	ini	wt-ach (pronoun label)
+উনি	uni	wt-ach (pronoun label)
+আমরা	amra	unverified:model
+তোমরা	tomra	unverified:model
+আপনারা	apnara	unverified:model
+তারা	tara	unverified:model
+আমার	amar	unverified:model
+তোমার	tomar	unverified:model
+আপনার	apnar	unverified:model
+তার	tar	unverified:model
+তাঁর	tãr	unverified:model
+ওর	or	unverified:model
+ওনার	onar	unverified:model
+আমাদের	amader	unverified:model
+তোমাদের	tomader	unverified:model
+আপনাদের	apnader	unverified:model
+তাদের	tader	unverified:model
+আমাকে	amake	unverified:model
+তোমাকে	tomake	unverified:model
+আপনাকে	apnake	unverified:model
+তাকে	take	unverified:model
+ওকে	oke	unverified:model
+
+# ---------- question words, negation ----------
+কী	ki	wv
+কি	ki	ut-script
+কার	kar	unverified:model
+কাকে	kake	unverified:model
+কারা	kara	unverified:model
+কোথায়	kothay	unverified:model
+কোথা	kotha	unverified:model
+কখন	kôkhon	unverified:model
+কবে	kôbe	unverified:model
+কেন	keno	unverified:model
+কত	kôto	wv
+কোন	kon	unverified:model
+কোনো	kono	unverified:model
+কোনটা	konṭa	unverified:model
+কিছু	kichhu	unverified:model
+কেউ	keu	unverified:model
+নই	noi	unverified:model
+নয়	nôy	unverified:model
+নেই	nei	unverified:model
+নি	ni	unverified:model
+
+# ---------- this, that, classifiers ----------
+এই	ei	wv
+ওই	oi	unverified:model
+সেই	shei	unverified:model
+যে	je	wv
+এটা	eṭa	unverified:model
+ওটা	oṭa	unverified:model
+সেটা	sheṭa	unverified:model
+এটার	eṭar	unverified:model
+ওটার	oṭar	unverified:model
+এগুলো	egulo	unverified:model
+ওগুলো	ogulo	unverified:model
+বইটা	boiṭa	unverified:model
+একটা	ækṭa	unverified:model
+একজন	ækjon	unverified:model
+দুইটা	duiṭa	unverified:model
+দুইজন	duijon	unverified:model
+তিনটা	tinṭa	unverified:model
+চারটা	charṭa	unverified:model
+পাঁচটা	pãchṭa	unverified:model
+ছয়টা	chhôyṭa	unverified:model
+সাতটা	shatṭa	unverified:model
+আটটা	aṭṭa	unverified:model
+নয়টা	nôyṭa	unverified:model
+দশটা	dôshṭa	unverified:model
+এগারোটা	ægaroṭa	unverified:model
+বারোটা	baroṭa	unverified:model
+কয়টা	kôyṭa	unverified:model
+দেড়টা	deṛṭa	ut-time
+আড়াইটা	aṛaiṭa	ut-time
+শাড়িটা	shaṛiṭa	unverified:model
+
+# ---------- numbers ----------
+শূন্য	shunno	ut-script
+এক	æk	msu-num (sound; spelling from wp-num)
+দুই	dui	msu-num (sound; spelling from wp-num)
+তিন	tin	msu-num (sound; spelling from wp-num)
+চার	char	msu-num (sound; spelling from wp-num)
+পাঁচ	pãch	wp-num
+ছয়	chhôy	msu-num (sound; spelling from wp-num)
+সাত	shat	wp-num
+আট	aṭ	msu-num (sound; spelling from wp-num)
+নয়	nôy	msu-num (sound; spelling from wp-num; নয় "is not" is said the same)
+দশ	dôsh	msu-num (sound; spelling from wp-num)
+এগারো	ægaro	msu-num (sound; spelling from wp-num)
+বারো	baro	msu-num (sound; spelling from wp-num)
+তেরো	tæro	msu-num (sound; spelling from wp-num)
+চৌদ্দ	choddo	unverified:model (MSU prints coddo: lowercase o, not trusted)
+পনেরো	pônero	unverified:model (MSU prints ponero, Wikipedia pônero: not settled)
+ষোলো	sholo	msu-num (sound; spelling from wp-num)
+সতেরো	shôtero	msu-num (sound; spelling from wp-num)
+আঠারো	aṭharo	wp-num
+উনিশ	unish	msu-num (sound; wp-num spells it ঊনিশ)
+বিশ	bish	msu-num (sound; spelling from wp-num)
+একুশ	ekush	msu-num (sound; spelling from wp-num)
+বাইশ	baish	unverified:model (MSU prints baish for the digit, but no opened page printed this spelling)
+তেইশ	teish	unverified:model (MSU prints teish for the digit, but no opened page printed this spelling)
+চব্বিশ	chobbish	unverified:model
+পঁচিশ	põchish	unverified:model (MSU prints pocish; its lowercase o is not trusted)
+ছাব্বিশ	chhabbish	unverified:model (MSU prints chabbish for the digit, but no opened page printed this spelling)
+সাতাশ	shatash	unverified:model (MSU prints shatash for the digit, but no opened page printed this spelling)
+ত্রিশ	trish	msu-num (sound; spelling from wp-num)
+চল্লিশ	chollish	unverified:model
+পঞ্চাশ	pônchash	msu-num (sound; spelling from wp-num)
+ষাট	shaṭ	msu-num (sound; spelling from wp-num)
+সত্তর	shôttor	unverified:model
+আশি	ashi	msu-num (sound; spelling from wp-num)
+নব্বই	nôbboi	unverified:model
+একশো	æksho	msu-num (sound; wp-num spells একশ, wv prints একশো ACK-shoh)
+দুইশো	duisho	unverified:model
+পাঁচশো	pãchsho	unverified:model
+হাজার	hajar	wv
+
+# ---------- be, have, verbs (Chalita forms) ----------
+আছি	achhi	wt-ach
+আছো	achho	wt-ach (spelled আছ there)
+আছে	achhe	wt-ach
+আছেন	achhen	wt-ach
+ছিলাম	chhilam	wt-ach
+ছিলে	chhile	wt-ach
+ছিল	chhilo	wt-ach
+ছিলো	chhilo	wt-ach (spelled ছিল there)
+ছিলেন	chhilen	wt-ach
+থাকা	thaka	wt-ach
+থাকি	thaki	unverified:model
+থাকো	thako	unverified:model
+থাকে	thake	unverified:model
+থাকেন	thaken	unverified:model
+থাকছি	thakchhi	wt-ach
+থাকব	thakbo	wt-ach
+থাকবে	thakbe	wt-ach
+থাকবেন	thakben	wt-ach
+থাকতে	thakte	wt-ach
+থেকে	theke	wt-ach (perfect participle; the postposition "from" is said the same)
+করা	kôra	wt-kora
+করি	kori	wt-kora
+করো	kôro	wt-kora (spelled কর there)
+করে	kôre	wt-kora homograph:he/she does (simple present)
+করে	kore	wt-kore homograph:having done (perfect participle)
+করেন	kôren	wt-kora
+করছি	korchhi	wt-kora
+করছ	korchho	wt-kora
+করছে	korchhe	wt-kora
+করছেন	korchhen	wt-kora
+করেছি	korechhi	wt-kora
+করেছে	korechhe	wt-kora
+করেছেন	korechhen	wt-kora
+করলাম	korlam	wt-kora
+করলে	korle	wt-kora
+করল	korlo	wt-kora
+করলো	korlo	wt-kora (spelled করল there)
+করলেন	korlen	wt-kora
+করব	korbo	wt-kora
+করবো	korbo	wt-kora (spelled করব there)
+করবে	korbe	wt-kora
+করবেন	korben	wt-kora
+করতে	korte	wt-kora
+করুন	korun	wv
+বলা	bôla	msu-verbs
+বলি	boli	wt-bola
+বলো	bôlo	wt-bola (spelled বল there)
+বলে	bôle	wt-bola homograph:he/she says (simple present)
+বলে	bole	unverified:model homograph:having said; that, because
+বলেন	bôlen	wt-bola
+বলছি	bolchhi	wt-bola
+বলছে	bolchhe	wt-bola
+বলছেন	bolchhen	wt-bola
+বললাম	bollam	wt-bola
+বলল	bollo	wt-bola
+বললেন	bollen	wt-bola
+বলব	bolbo	wt-bola
+বলবে	bolbe	wt-bola
+বলবেন	bolben	wt-bola
+বলতে	bolte	wt-bola
+বলুন	bolun	unverified:model
+পারি	pari	wt-para
+পারো	paro	wt-para
+পারে	pare	wt-para
+পারেন	paren	wt-para
+পারছি	parchhi	wt-para
+পারলাম	parlam	wt-para
+পারব	parbo	wt-para
+পারবেন	parben	wt-para
+পারতে	parte	wt-para
+যাওয়া	jaoya	wt-jaoya
+যাই	jai	wt-jaoya
+যাও	jao	wt-jaoya
+যায়	jay	wt-jaoya
+যান	jan	wt-jaoya
+যাচ্ছি	jacchhi	wt-jaoya
+যাচ্ছ	jacchho	wt-jaoya
+যাচ্ছে	jacchhe	wt-jaoya
+যাচ্ছেন	jacchhen	wt-jaoya
+গেলাম	gelam	wt-jaoya
+গেলে	gele	wt-jaoya
+গেল	gelo	wt-jaoya
+গেলেন	gelen	wt-jaoya
+যাব	jabo	wt-jaoya (spelled যাবো there)
+যাবো	jabo	wt-jaoya
+যাবে	jabe	wt-jaoya
+যাবেন	jaben	wt-jaoya
+যেতে	jete	wt-jaoya
+গিয়ে	giye	wt-jaoya
+খাওয়া	khaoya	wt-khaoya
+খাই	khai	wt-khaoya
+খাও	khao	wt-khaoya
+খায়	khay	wt-khaoya
+খান	khan	wt-khaoya
+খাচ্ছি	khacchhi	wt-khaoya
+খাচ্ছ	khacchho	wt-khaoya
+খাচ্ছে	khacchhe	wt-khaoya
+খাচ্ছেন	khacchhen	wt-khaoya
+খেলাম	khelam	wt-khaoya
+খেলে	khele	wt-khaoya homograph:you ate (তুমি, simple past of খাওয়া)
+খেলে	khæle	unverified:model homograph:plays (simple present of খেলা)
+খেলো	khelo	wt-khaoya homograph:(s)he ate (simple past of খাওয়া)
+খেলো	khælo	unverified:model homograph:play! / you play (খেলা)
+খেলেন	khelen	wt-khaoya homograph:you / he ate, polite (simple past of খাওয়া)
+খেলেন	khælen	unverified:model homograph:plays, polite (খেলা)
+খাব	khabo	wt-khaoya
+খাবে	khabe	wt-khaoya
+খাবেন	khaben	wt-khaoya
+খেতে	khete	wt-khaoya
+খেয়ে	kheye	wt-khaoya
+দেখা	dækha	wt-dekha
+দেখি	dekhi	wt-dekha
+দেখো	dækho	wt-dekha (spelled দেখ there)
+দেখে	dækhe	wt-dekha homograph:he/she sees (simple present)
+দেখে	dekhe	wt-dekha homograph:having seen (perfect participle)
+দেখেন	dækhen	wt-dekha
+দেখছি	dekhchhi	wt-dekha
+দেখছে	dekhchhe	wt-dekha
+দেখছেন	dekhchhen	wt-dekha
+দেখলাম	dekhlam	wt-dekha
+দেখল	dekhlo	wt-dekha
+দেখলেন	dekhlen	wt-dekha
+দেখব	dekhbo	wt-dekha
+দেখবে	dekhbe	wt-dekha
+দেখবেন	dekhben	wt-dekha
+দেখতে	dekhte	wt-dekha
+দেখুন	dekhun	unverified:model
+চাওয়া	chaoya	wt-chaoya
+চাই	chai	wt-chaoya
+চাও	chao	wt-chaoya
+চায়	chay	wt-chaoya
+চান	chan	wt-chaoya
+চাইছি	chaichhi	wt-chaoya
+চাইলাম	chailam	wt-chaoya
+চাইব	chaibo	wt-chaoya
+চেয়ে	cheye	wt-chaoya (perfect participle; the comparative postposition is said the same)
+লাগা	laga	wt-laga
+লাগে	lage	wt-laga
+লাগছে	lagchhe	wt-laga
+লাগল	laglo	wt-laga
+লাগলো	laglo	wt-laga (spelled লাগল there)
+লাগবে	lagbe	wt-laga
+লেগে	lege	wt-laga
+দেওয়া	deoya	msu-verbs
+দাও	dao	wt-deoya
+দেয়	dæy	wt-deoya
+দেন	dæn	wt-deoya
+দিচ্ছি	dicchhi	wt-deoya
+দিচ্ছে	dicchhe	wt-deoya
+দিলাম	dilam	wt-deoya
+দিল	dilo	wt-deoya
+দিলেন	dilen	wt-deoya
+দিতে	dite	wt-deoya
+দিয়ে	diye	wt-deoya
+দিন	din	ut-time (day; the polite request "give" is said the same)
+দেব	debo	unverified:model
+দেবেন	deben	unverified:model
+নেওয়া	neoya	msu-verbs
+নিন	nin	unverified:model
+নেব	nebo	unverified:model
+আসা	asha	wt-asha
+আসি	ashi	wt-asha
+আসো	asho	wt-asha
+আসে	ashe	wt-asha
+আসেন	ashen	wt-asha
+আসছি	ashchhi	wt-asha
+আসছে	ashchhe	wt-asha
+আসলাম	ashlam	wt-asha
+আসলে	ashle	wt-asha homograph:if (one) comes; you came
+আসলে	ashole	unverified:model homograph:actually, in fact
+আসল	ashlo	wt-asha homograph:(s)he came (simple past)
+আসল	ashol	unverified:model homograph:real, genuine (adjective)
+আসব	ashbo	wt-asha
+আসবে	ashbe	wt-asha
+আসবেন	ashben	wt-asha
+আসতে	ashte	wt-asha
+এসে	eshe	wt-asha
+আসুন	ashun	unverified:model
+আস্তে	aste	unverified:model
+হওয়া	hôoya	wt-hoya
+হই	hoi	wt-hoya
+হয়	hoy	wt-hoya
+হন	hon	wt-hoya
+হচ্ছে	hocchhe	wt-hoya
+হলাম	holam	wt-hoya
+হল	holo	wt-hoya (verb; the noun "hall" is not in this lexicon)
+হলো	holo	wt-hoya (spelled হল there)
+হবে	hobe	wt-hoya
+হবেন	hoben	wt-hoya
+হতে	hote	wt-hoya
+হয়ে	hoye	wt-hoya
+পড়া	pôṛa	msu-verbs
+পড়ি	poṛi	unverified:model
+পড়ছি	poṛchhi	unverified:model
+লেখা	lekha	msu-verbs
+লিখি	likhi	unverified:model
+শেখা	shekha	msu-verbs
+শিখি	shikhi	unverified:model
+শিখছি	shikhchhi	unverified:model
+কেনা	kena	msu-verbs
+কিনি	kini	unverified:model
+কিনব	kinbo	unverified:model
+কিনতে	kinte	unverified:model
+বোঝা	bojha	msu-verbs
+বুঝি	bujhi	unverified:model
+বুঝতে	bujhte	unverified:model
+শোনা	shona	msu-verbs
+খোঁজা	khõja	msu-verbs
+আনা	ana	msu-verbs
+জানা	jana	msu-verbs
+জানি	jani	unverified:model
+জানেন	janen	unverified:model
+ভাবা	bhaba	msu-verbs
+রাখা	rakha	msu-verbs
+বাঁচা	bãcha	msu-verbs
+হাঁটা	hãṭa	msu-verbs
+হাসা	hasha	msu-verbs
+থামা	thama	msu-verbs
+থামুন	thamun	unverified:model
+বসুন	boshun	unverified:model
+ভালোবাসা	bhalobasha	msu-verbs
+ভালোবাসি	bhalobashi	unverified:model
+পাওয়া	paoya	msu-verbs
+বেড়ানো	beṛano	msu-verbs
+দৌড়ানো	douṛano	msu-verbs
+ঘুমাই	ghumai	unverified:model
+
+# ---------- postpositions, conjunctions, adverbs ----------
+সাথে	shathe	unverified:model
+সঙ্গে	shôngge	unverified:model
+জন্য	jonno	ut-script
+কাছে	kachhe	unverified:model
+দিকে	dike	wv (in ডানদিকে)
+পরে	pore	unverified:model homograph:after, later
+পরে	pôre	unverified:model homograph:(s)he wears (পরা)
+আগে	age	unverified:model
+উপরে	upore	unverified:model
+নিচে	niche	unverified:model
+ভিতরে	bhitore	unverified:model
+পাশে	pashe	unverified:model
+সামনে	shamne	unverified:model
+পিছনে	pichhone	unverified:model
+মধ্যে	moddhe	unverified:model
+আর	ar	unverified:model
+এবং	ebong	unverified:model
+কিন্তু	kintu	unverified:model
+তাই	tai	unverified:model
+কারণ	karon	unverified:model
+যদি	jodi	unverified:model
+তাহলে	tahole	unverified:model
+খুব	khub	unverified:model
+এখন	ækhon	wv
+এখনও	ækhono	unverified:model
+আজ	aj	wv
+কাল	kal	unverified:model
+আগামীকাল	agamikal	wv
+গতকাল	gôtokal	wv
+এখানে	ekhane	unverified:model
+ওখানে	okhane	unverified:model
+সেখানে	shekhane	unverified:model
+সোজা	shoja	wv
+একদম	ækdôm	wv
+দূরে	dure	unverified:model
+একটু	ekṭu	unverified:model
+অনেক	ônek	unverified:model
+সব	shôb	unverified:model
+সবাই	shôbai	unverified:model
+প্রতিদিন	protidin	unverified:model (প্রতি proti: ut-script)
+প্রতি	proti	ut-script
+তাড়াতাড়ি	taṛataṛi	unverified:model
+
+# ---------- directions ----------
+ডান	ḍan	wv (in ডানদিকে)
+বাঁ	bã	ut-script
+বাম	bam	unverified:model
+ডানে	ḍane	unverified:model
+বাঁয়ে	bãye	unverified:model
+ডানদিকে	ḍandike	wv
+বাঁদিকে	bãdike	wv
+মোড়	moṛ	unverified:model
+
+# ---------- describing ----------
+ভালো	bhalo	wv
+খারাপ	kharap	wv
+বড়	bôṛo	wt-boro
+ছোট	chhoṭo	unverified:model
+সুন্দর	shundôr	wt-sundor
+নতুন	notun	unverified:model
+পুরনো	purono	unverified:model
+গরম	gôrom	unverified:model
+ঠান্ডা	ṭhanḍa	unverified:model
+মিষ্টি	mishṭi	unverified:model
+ঝাল	jhal	unverified:model
+সস্তা	shôsta	unverified:model
+দামি	dami	unverified:model
+সুখী	shukhi	unverified:model
+খুশি	khushi	unverified:model
+ব্যস্ত	bæsto	unverified:model
+লম্বা	lômba	ut-script
+লাল	lal	unverified:model
+সাদা	shada	unverified:model
+কালো	kalo	unverified:model
+অর্ধেক	ôrdhek	unverified:model
+দরকার	dôrkar	unverified:model
+দারুণ	darun	unverified:model
+চমৎকার	chômotkar	unverified:model
+শক্ত	shôkto	ut-script
+বন্ধ	bôndho	ut-script
+মজা	môja	ut-script
+
+# ---------- family and people ----------
+মা	ma	unverified:model
+বাবা	baba	unverified:model
+আব্বা	abba	unverified:model
+আম্মা	amma	ut-script
+আম্মু	ammu	unverified:model
+আব্বু	abbu	unverified:model
+ভাই	bhai	unverified:model
+ভাইয়া	bhaiya	unverified:model
+বোন	bon	unverified:model
+আপা	apa	unverified:model
+দাদা	dada	unverified:model
+দাদি	dadi	unverified:model
+নানা	nana	unverified:model
+নানি	nani	unverified:model
+চাচা	chacha	unverified:model
+খালা	khala	unverified:model
+মামা	mama	unverified:model
+ছেলে	chhele	unverified:model
+মেয়ে	meye	unverified:model
+স্বামী	shami	ut-script
+স্ত্রী	stri	unverified:model
+বন্ধু	bondhu	unverified:model
+পরিবার	poribar	unverified:model
+বাচ্চা	baccha	unverified:model
+ছাত্র	chhatro	unverified:model (ut-script prints chatra, glossed "students")
+ছাত্রী	chhatri	unverified:model
+শিক্ষক	shikkhok	unverified:model
+ডাক্তার	ḍaktar	unverified:model
+রাহীম	rahim	unverified:model
+
+# ---------- food and drink ----------
+ভাত	bhat	wv
+মাছ	machh	wv
+চা	cha	wv
+পানি	pani	wv
+রুটি	ruṭi	wv
+জল	jôl	unverified:model
+মাংস	mangsho	unverified:model
+ডাল	ḍal	unverified:model
+ডিম	ḍim	unverified:model
+কফি	kofi	unverified:model
+দুধ	dudh	unverified:model
+চিনি	chini	unverified:model
+লবণ	lôbon	unverified:model
+ফল	fôl	unverified:model
+আম	am	unverified:model
+কলা	kôla	unverified:model
+সবজি	shôbji	unverified:model
+খাবার	khabar	unverified:model
+বিরিয়ানি	biriyani	unverified:model
+পরোটা	poroṭa	unverified:model
+মরিচ	morich	unverified:model
+পেঁয়াজ	pẽyaj	unverified:model
+আলু	alu	unverified:model
+মুরগি	murgi	unverified:model
+গরু	goru	unverified:model
+ভর্তা	bhôrta	unverified:model
+রান্না	ranna	unverified:model
+নাস্তা	nashta	unverified:model
+
+# ---------- places, things, work ----------
+বাড়ি	baṛi	unverified:model
+ঘর	ghôr	unverified:model
+দোকান	dokan	unverified:model
+বাজার	bajar	unverified:model
+রাস্তা	rasta	unverified:model
+স্কুল	skul	unverified:model
+অফিস	ofish	unverified:model
+হাসপাতাল	hashpatal	unverified:model
+বই	boi	unverified:model
+কলম	kôlom	unverified:model
+খাতা	khata	unverified:model
+ফোন	fon	unverified:model
+গাড়ি	gaṛi	unverified:model
+রিকশা	riksha	unverified:model
+বাস	bas	unverified:model
+ট্রেন	ṭren	unverified:model
+শহর	shôhor	unverified:model
+গ্রাম	gram	ut-script
+দেশ	desh	unverified:model
+বাংলাদেশ	bangladesh	unverified:model
+বাংলাদেশি	bangladeshi	unverified:model
+ঢাকা	ḍhaka	unverified:model
+ঢাকায়	ḍhakay	unverified:model
+আমেরিকা	amerika	unverified:model
+বাংলা	bangla	ut-script
+ইংরেজি	ingreji	unverified:model
+ভাষা	bhasha	unverified:model
+শাড়ি	shaṛi	unverified:model
+জামা	jama	unverified:model
+কাজ	kaj	unverified:model
+টাকা	ṭaka	unverified:model
+দাম	dam	unverified:model
+কেজি	keji	unverified:model
+টিকিট	ṭikiṭ	unverified:model
+নাম	nam	unverified:model
+বয়স	bôyosh	unverified:model
+পছন্দ	pôchhondo	unverified:model
+চাঁদ	chãd	ut-script
+ব্যথা	bætha	ut-script
+ব্যবসা	bæbsha	ut-script
+প্রথম	prothom	ut-script
+শিক্ষা	shikkha	ut-script
+স্থান	sthan	ut-script
+উত্তর	uttor	ut-script
+নম্বর	nômbor	ut-script
+জন্ম	jônmo	ut-script
+
+# ---------- time and days ----------
+বাজে	baje	unverified:model
+বেজে	beje	ut-time
+বাজতে	bajte	ut-time
+সাড়ে	shaṛe	unverified:model
+সোয়া	shoya	unverified:model
+পৌনে	poune	unverified:model
+বেলা	bela	ut-time
+বার	bar	ut-time
+রাত	rat	ut-time
+ভোর	bhor	ut-time
+দুপুর	dupur	ut-time
+বিকাল	bikal	ut-time
+বিকেল	bikel	unverified:model
+সময়	shômoy	unverified:model
+ঘণ্টা	ghônṭa	unverified:model
+মিনিট	miniṭ	unverified:model
+সপ্তাহ	shôptaho	unverified:model
+মাস	mash	unverified:model
+বছর	bôchhor	unverified:model
+সোমবার	shombar	wv
+মঙ্গলবার	monggolbar	wv
+বুধবার	budhbar	wv
+বৃহস্পতিবার	brihoshpotibar	wv
+শুক্রবার	shukrobar	ut-script
+শনিবার	shonibar	wv
+রবিবার	robibar	wv
+
+# ---------- fixed phrases: a word whose reading depends on the next or previous word ----------
+আপনাকে দেখে	apnake dekhe	wt-dekha (দেখে here is the perfect participle "having seen")
+সে করে	she kôre	wt-kora
+সে দেখে	she dækhe	wt-dekha
+সে বলে	she bôle	wt-bola

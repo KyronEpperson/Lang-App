@@ -1,0 +1,420 @@
+# en-am lexicon: Amharic (fidel) -> learner romanisation, the en-am pron line. Read by tools/target/am/respell.js.
+# One word per line: fidel<TAB>romanisation<TAB>source. Lines starting with # are comments. respell.js throws on any word not listed here.
+#
+# Romanisation key (profile docs/profiles/en-am.md section 6). One spelling per fidel unit, no context rules:
+#   vowel orders: 1st e (ደ de), 2nd u, 3rd i, 4th a, 5th é (ቤ bé), 6th i where the source says it is pronounced, nothing where it is silent, 7th o.
+#   ሀ ሐ ኀ አ ዐ: first order is a (Addis Ababa merger, LDC note). Labialised -wa letters: bwa, lwa, kwa, gwa, k'wa.
+#   consonants: sh ሸ, ch ቸ, j ጀ, zh ዠ, ny ኘ (and ኝ), y የ, w ወ, v ቨ.
+#   ejectives take an apostrophe: t' ጠ, k' ቀ, p' ጰ, ch' ጨ, s' ጸ/ፀ (BGN/PCGN writes ts'; the course calls it the ejective s).
+#   a glottal stop between vowels (ዓ, ዕ inside a word) is an apostrophe after the vowel: se'at, bi'ir.
+#   gemination (a long consonant, never written in fidel) is a doubled letter: bunna, abbat; for a two-letter consonant the first letter
+#   doubles: ssh, cch, nny, tt', kk', cch'. Taken from the source named on the line. A final long consonant is written only where the source writes it (birr, widd).
+#   Prefixes ከ- በ- ለ- የ- are joined to the word with no hyphen (keamérika).
+#
+# Sources (all opened on 2026-11-22):
+#   PC   = Peace Corps Ethiopia, Amharic Language Manual (2015), slideshare copy "amharic-peace-corps-language-manual-2015-for-merge"; transliteration as printed.
+#          PC under-marks gemination in places (amist, asïr, t'ät'ahu); where another opened source marks a long consonant, that source is used and PC's print is noted.
+#   OMG  = omniglot.com/language/phrases/amharic.php        OMGN = omniglot.com/language/numbers/amharic.htm
+#   PRD  = preply.com/en/blog/directions-in-amharic          PRW  = preply.com/en/blog/amharic-words/
+#   PRV  = preply.com/en/blog/stem-changing-verbs-amharic/   PGC  = polyglotclub.com/wiki/Language/Amharic/Vocabulary/Common-Verbs
+#   SUB  = sublearn.com/learn/am/phrases/ተቀመጥ
+#   WKT  = Wiktionary entries ብዕር, ግራ (en.wiktionary), ስድስት and ጠጣ (Wiktionary mirrors of 2023-04 / 2024-05)
+#   LDC  = LDC2019S22 performer notes, Amharic peculiarities (Appen Butler Hill, 2015)
+#   BGN  = BGN/PCGN Romanization of Amharic (geonames.nga.mil): vowel orders and consonant values for single fidel letters
+#   composed: X = built from the named attested parts (a prefix, a suffix, a paradigm form). Not itself seen in a source.
+#   unverified:model = no source opened for this word; the romanisation is the model's. Check these first.
+#
+# Homographs: one fidel string has one line. ገና is gena (still; Christmas is genna), አለ is alle (there is; he said is ale).
+# The other reading is given in the English note of the card or lesson, never in the pron.
+ብር	birr	PC
+ነው	new	PC
+ደህና	dehna	PC; OMG
+ቤት	bét	PC; PRW
+ናት	nat	PC
+ነሽ	nesh	PC
+ማን	man	PC; OMG
+ይህ	yih	PC
+ነህ	neh	PC
+ነኝ	neny	PC; OMG
+የት	yet	PC
+ትግስት	tigist	PC
+ናቸው	nacchew	PC
+ነዎት	newot	PC
+እኔ	iné	PC
+እሷ	isswa	PC
+ነች	nech	PC
+አቶ	ato	PC
+እርስዎ	irswo	PC; OMG
+ሴት	sét	PC
+ሁለት	hulet	PC (OMGN hulätt: final length not written)
+አራት	arat	PC (OMGN aratt: final length not written)
+አለኝ	alleny	PC
+ሰላም	selam	PC; OMG
+አንተ	ante	PC; OMG
+ስሜ	simé	PC; OMG
+ቆንጆ	k'onjo	PC
+ይህች	yihich	PC
+ውቢት	wibit	PC
+ትልቅ	tilik'	PC
+አንቺ	anchi	PC; OMG
+ስምሽ	simish	PC; OMG
+ሻይ	shay	PC
+ጠዋት	t'ewat	PC
+እሱ	issu	PC
+የለኝም	yellenyim	PC
+ሶስት	sost	PC; OMGN
+ተማሪ	temari	PC
+ትንሽ	tinish	PC; OMG
+ምንድን	mindin	PC
+አደርክ	adderk	PC; OMG
+ነን	nen	PC
+እነሱ	innessu	PC
+ወንድ	wend	PC
+እናቴ	innaté	PC
+አባትሽ	abbatish	PC
+ቤቴ	bété	PC
+ቤትሽ	bétish	PC
+ያች	yach	PC
+አለህ	alleh	PC; OMG
+አለሽ	allesh	PC; OMG
+እንጀራ	injera	PC
+አላት	allat	PC
+አደርሽ	addersh	OMG (PC prints adärš)
+ስምህ	simih	PC; OMG
+አባት	abbat	PC
+ቤትህ	bétih	PC
+አለዎት	allewot	PC
+ውብ	wib	PC
+እሺ	isshi	PC
+ውሻ	wisha	PC
+አደሩ	adderu	PC; OMG
+ዋልክ	walk	PC
+ዋልሽ	walsh	PC
+አመሹ	amesshu	PC; OMG
+እደሩ	ideru	PC
+አገሬ	ageré	PC
+እኛ	innya	PC
+እህት	ihit	PC
+ጓደኛ	gwadennya	PC
+አባቴ	abbaté	PC
+እና	inna	PC
+ኢትዮጵያ	ityop'ya	PC
+አለ	alle	PC (there is; short l is he said)
+አይደለም	aydellem	OMG (PC prints aydäläm)
+አባትዎ	abbatwo	PC
+ድመት	dimmet	PC
+አገር	ager	PC
+አመሸሽ	amesshesh	OMG (PC prints amäšäš)
+አሜሪካ	amérika	PC
+እናንተ	innante	PC
+ናችሁ	nacchihu	PC
+እሳቸው	issachew	PC
+ኢትዮጵያዊ	ityop'yawi	PC
+ወንድም	wendim	PC
+ቤተሰብ	béteseb	PC
+አያት	ayat	PC
+አባትህ	abbatih	PC
+እነዚህ	innezih	PC
+ግን	gin	PC
+ልጆች	lijoch	PC
+ስራ	sira	PC
+ዋሉ	walu	PC; OMG
+አመሸህ	amessheh	OMG (PC copy garbled)
+አሜሪካዊት	amérikawit	PC
+እናት	innat	PC
+ልጅ	lij	PC
+እነዚያ	inneziya	PC
+እግዚአብሔር	igziabihér	PC
+ይመስገን	yimmesgen	PC
+አገርህ	agerih	PC
+የአቶ	yeato	PC
+ብዙ	bizu	PC
+አሉ	allu	PC
+አዳማ	adama	PC
+እደሪ	ideri	PC
+የለሽም	yelleshim	PC
+የለም	yellem	PC; OMG
+ድመቶች	dimmetoch	PC (prints dïmätoč; length taken from PC ድመት dïmmät)
+አሉኝ	alluny	PC
+የለዎትም	yellewotim	PC
+የለህም	yellehim	PC
+አይደለችም	aydellechim	composed: OMG አይደለም + -ች (PC prints aydäläčïm)
+ወደ	wede	PC; PRV
+ቡና	bunna	PC
+እፈልጋለሁ	ifelligallehu	OMG stem (ትፈልጋለህ təfälləgalläh); PC prints ïfälïgallähu
+አዎ	awo	PC
+አዲስ	addis	PC
+ስንት	sint	PC
+ሰዓት	se'at	PC
+መጽሀፍ	mes'haf	PC
+በጣም	bet'am	PC; OMG
+አንድ	and	PC; OMGN
+አበበች	abebech	PC
+ቤቱ	bétu	PC
+እባክሽ	ibakish	PC; OMG
+ወጥ	wet'	PC
+መሄድ	mehéd	PC; PGC
+እወዳለሁ	iweddallehu	PC ይወዳሉ yïwäddalu and OMG እወድሀለሁ əwäddəhallähw mark the long d (PC prints ïwädallähu)
+ጠጣሁ	t'ett'ahu	PRV (PC prints t'ät'ahu)
+ውሃ	wiha	PC
+ሂሳብ	hisab	PC
+እሄዳለሁ	ihédallehu	PC; PRV
+ትሄጃለሽ	tihéjallesh	PC
+አልሄድኩም	alhédkum	PC
+ዋጋው	wagaw	PC; OMG
+ዶሮ	doro	PC
+እንዴት	indét	PC
+ሃያ	haya	PC; OMGN
+አስራ	assira	composed: OMGN አስር assər + PC asïra
+አልወድም	alweddim	composed: long d as in እወዳለሁ (PC prints alwädïm)
+ትፈልጊያለሽ	tifelligiyallesh	OMG
+አስር	assir	OMGN (PC prints asïr)
+ትፈልጋለህ	tifelligalleh	OMG
+ይሄዳሉ	yihédallu	composed: PC stem + -allu as PC አሉ allu (PC prints yïhedalu)
+ምን	min	PC
+ቡናው	bunnaw	PC
+ይቅርታ	yik'irta	PC; OMG
+ዛሬ	zaré	PC
+ከጠዋቱ	ket'ewatu	PC
+ቀይ	k'ey	PC; PRW
+አምቦ	ambo	PC
+አልፈልግም	alfelligim	composed: OMG stem fälləg (PC prints alfälïgïm)
+ሄድኩ	hédku	PC; PRV
+ትሄዳለህ	tihédalleh	PC; PRV
+አልሄድም	alhédim	PC
+አልሄድሽም	alhédshim	PC
+ትወዳለህ	tiweddalleh	composed: long d as in እወዳለሁ + -alleh as PC ትሄዳለህ (PC prints tïwädaläh)
+አይሄድም	ayihédim	PC
+ገበያ	gebeya	PC; PRW
+ጥሩ	t'ru	PC
+እባክህ	ibakih	PC; OMG
+መቶ	meto	PC; OMGN
+ከቀኑ	kek'enu	PC
+እርሳስ	irsas	PC
+ፍርፍር	firfir	PC
+ቢራ	birra	PC
+መተኛት	metenyat	PC
+ይፈልጋሉ	yifelligallu	composed: OMG stem + -allu as PC አሉ (PC prints yïfälïgalu)
+ገበያው	gebeyaw	PC
+ሄደ	héde	PC; PGC; PRV
+መቼ	meché	PC
+ወይስ	weyis	PC
+አልሄድክም	alhédkim	PC
+አልሄደችም	alhédechim	PC
+ልጁ	liju	PC
+ሰው	sew	PC
+በሩን	berun	PC; PRV
+ትናንት	tinant	PC
+ነገ	nege	PC
+እጠጣለሁ	it'ett'allehu	PRV (PC prints ït'ät'allähu)
+ትወጃለሽ	tiwejjallesh	composed: long d (as in እወዳለሁ) palatalised to jj + -allesh as PC ትሄጃለሽ (PC prints tïwäjaläš)
+ሰኞ	sennyo	PC; PRW
+ወንድሜ	wendimé	PC
+አምስት	ammist	OMGN (PC prints amist)
+አልጫ	allich'a	PC (prints allïča; ጫ is the ejective ch')
+ጥብስ	t'ibs	PC
+ቀን	k'en	PC; OMG
+አልሄደም	alhédem	PC
+እበላለሁ	ibelallehu	PC
+ኳስ	kwas	PC
+ሀሙስ	hamus	PC
+ሳምንት	samint	PC
+ቋንቋ	k'wank'wa	PC
+ዓለም	alem	PC
+ማር	mar	PC
+ስምንት	simmint	OMGN (PC prints sïmïnt)
+ዘጠኝ	zet'eny	PC; OMGN
+ሀበሻ	habesha	PC
+ምስር	misir	PC
+ክትፎ	kitfo	PC
+እንቁላል	ink'ulal	PC
+አልጠጣም	alt'ett'am	composed: WKT ጠጣ ṭäṭṭa (PC prints alt'ät'am)
+መብላት	mebilat	PC
+መጠጣት	met'et'at	PC
+ማንበብ	manibeb	PC
+ትምህርት	timihirt	PC; PRW
+ወይም	weyim	PC
+አልሄዱም	alhédum	PC
+አትሄድም	atihédim	PC
+ጨው	ch'ew	PC
+ከየት	keyet	PC; OMG
+ይሻለኛል	yishalenyal	PC
+ውድ	widd	PC
+አይሄዱም	ayihédum	PC
+አርብ	arb	PC
+አርባ	arba	PC; OMGN
+ይወዳሉ	yiweddallu	PC (prints yïwäddalu; -allu as PC አሉ allu)
+ጠጣ	t'ett'a	WKT; PRV
+ከአዲስ	keaddis	PC
+መጽሐፍ	mes'haf	PC (printed as መጽሃፍ; same sound, LDC homophone note)
+ከበደ	kebbede	LDC (የከበደ yəkəbbədə)
+ቡናውን	bunnawn	PC
+ብዕር	bi'ir	WKT
+ገና	gena	LDC (gəna still; gənna Christmas)
+ቀኝ	k'eny	PRD
+መልካም	melkam	OMG
+ጤና	t'éna	PC; OMG
+ይስጥልኝ	yist'illiny	OMG (PC prints yïst'ïlïñ)
+አመሰግናለሁ	amesegginallehu	PRW (ämäsäggənalləhu); OMG (amäsäggänallähw)
+ግራ	gira	WKT; PRD
+ሂድ	hid	OMG
+ሂጂ	hijji	OMG
+እባክዎ	ibakwo	OMG
+ጉዞ	guzo	OMG
+ይሂዱ	yihidu	PRD
+አማርኛ	amarinnya	OMG
+ስድስት	siddist	WKT; OMGN
+ሰባት	sebat	PRW (OMGN säbatt: final length not written)
+ብለህ	billeh	OMG
+ጋር	gar	OMG
+እወስዳለሁ	iwesdallehu	PRV
+ኧረ	ere	LDC
+ሀገር	hager	LDC
+ሃገር	hager	LDC
+ሦስት	sost	PC (printed as ሶስት; same sound, LDC)
+ተቀመጥ	tek'emet'	SUB
+ይቀመጡ	yik'emet'u	SUB
+ተቀመጪ	tek'emech'i	composed: SUB ተቀመጥ + palatalised ejective (SUB prints Teqemechī)
+በር	ber	composed: PC በሩን bärun
+ፍቅር	fik'ir	composed: OMG ለፍቅራችን läfəqraččən
+ምግቡ	migibu	composed: OMG ምግብ məgəb
+መኪና	mekina	PC
+በመኪና	bemekina	composed: በ + PC መኪና
+ከአሜሪካ	keamérika	composed: ከ + PC አሜሪካ
+በአዲስ	beaddis	composed: በ + PC አዲስ
+ልጇ	lijwa	composed: PC ልጅ + -wa as PC እሷ isswa
+በቤት	bebét	composed: በ + PC ቤት
+ሄድሽ	hédsh	composed: PC አልሄድሽም
+ሄድክ	hédk	composed: PC አልሄድክም
+ሄደች	hédech	composed: PC አልሄደችም
+ሄዱ	hédu	composed: PC አልሄዱም
+ሄድን	hédin	composed: PC ሄድኩ + -n
+ይሄዳል	yihédal	composed: PC stem yïhed-
+ትሄዳለች	tihédallech	composed: PC stem + -allech (aux as PC አለ)
+እንሄዳለን	inhédallen	composed: PC stem + -allen
+አሜሪካዊ	amérikawi	composed: PC አሜሪካዊት
+ቤቷ	bétwa	composed: PC ቤት + -wa as PC እሷ
+ቤቶች	bétoch	composed: PC ቤት + -och as PC ልጆች
+ቤቶቹ	bétochu	composed: ቤቶች + -u as PC ቤቱ
+ቤትዎ	bétwo	composed: PC ቤት + -wo as PC አባትዎ
+በቤቱ	bebétu	composed: በ + PC ቤቱ
+ከኢትዮጵያ	keityop'ya	composed: ከ + PC ኢትዮጵያ
+በኢትዮጵያ	beityop'ya	composed: በ + PC ኢትዮጵያ
+ስምዎ	simwo	composed: PC ስምሽ + -wo as PC አባትዎ
+አትሄጂም	atihéjim	composed: PC አትሄድም + j as PC ትሄጃለሽ
+ልጆቹ	lijochu	composed: PC ልጆች + -u
+ትጠጣለህ	tit'ett'alleh	composed: PRV እጠጣለሁ
+አልጠጣሁም	alt'ett'ahum	composed: PRV ጠጣሁ
+ጠጣህ	t'ett'ah	composed: PRV ጠጣሁ
+ጠጣች	t'ett'ach	composed: PRV ጠጣሁ
+አልመጣችም	almet'achim	composed: PGC መጣ mät'a
+ለአንቺ	leanchi	composed: ለ + PC አንቺ
+ለእርስዎ	leirswo	composed: ለ + PC እርስዎ
+ለአበበች	leabebech	composed: ለ + PC አበበች
+እናትህ	innatih	composed: PC እናት + -ih
+እህቴ	ihité	composed: PC እህት + -é
+እህትሽ	ihitish	composed: PC እህት + -ish
+ወንድምሽ	wendimish	composed: PC ወንድም + -ish
+መጽሀፉ	mes'hafu	composed: PC መጽሀፍ + -u
+በስተቀኝ	besitek'eny	composed: PRD በስተ ቀኝ bäsɨtə qäñ
+ምንድነው	mindinew	composed: PC ምንድን + ነው
+ከወጥ	kewet'	composed: ከ + PC ወጥ
+በአውቶቡስ	beawtobus	unverified:model
+አበባ	abeba	unverified:model (PC prints the English exonym Ababa)
+ጎንደር	gonder	unverified:model
+ከጎንደር	kegonder	unverified:model
+ጎንደርም	gonderim	unverified:model
+ሆቴሉ	hotélu	unverified:model
+ከሆቴሉ	kehotélu	unverified:model
+አዳም	adam	unverified:model
+ልብ	libb	unverified:model (profile §6.1 cites Anberbir et al. 2011 /lɨbb/; not opened here)
+ስልክ	silk	unverified:model (profile §6.1 cites /sɨlk/; not opened here)
+ሽፍታ	shifta	unverified:model (profile §6.1 cites Anberbir and Takara 2009; not opened here)
+አሪፍ	arif	unverified:model
+ሩቅ	ruk'	unverified:model
+ይቺ	yichi	unverified:model
+ነይ	ney	unverified:model
+ና	na	unverified:model
+ሸሚዝ	shemiz	unverified:model
+በላሁ	bellahu	unverified:model
+ዘጋሁት	zeggahut	unverified:model
+ዘጋህ	zeggah	unverified:model
+ዛፍ	zaf	unverified:model
+ዛፉ	zafu	unverified:model
+ጅብ	jib	unverified:model
+ሃይቅ	hayk'	unverified:model
+ቀጥ	k'et'	unverified:model
+ብለው	billew	composed: long l as in OMG ብለህ bəlläh (OMG prints ብለው beläw, PRD bläw)
+እዚህ	izzih	unverified:model
+ይታጠፉ	yitat'efu	unverified:model
+ራስ	ras	unverified:model
+አቧራ	abwara	unverified:model
+ትጠጫለሽ	tit'ecch'allesh	unverified:model
+ያ	ya	composed: PC ያች yač
+በ	be	BGN
+ቡ	bu	BGN
+ቢ	bi	BGN
+ባ	ba	BGN
+ቤ	bé	BGN
+ብ	bi	BGN
+ቦ	bo	BGN
+ሉ	lu	BGN
+ሊ	li	BGN
+ላ	la	BGN
+ሌ	lé	BGN
+ል	li	BGN
+ሎ	lo	BGN
+ሙ	mu	BGN
+ሚ	mi	BGN
+ማ	ma	BGN
+መ	me	BGN
+ሀ	ha	BGN; LDC
+ሃ	ha	BGN; LDC
+ሐ	ha	BGN; LDC
+ኀ	ha	BGN; LDC
+ኸ	he	BGN
+ለ	le	BGN
+ሰ	se	BGN
+ሠ	se	BGN
+ሸ	she	BGN
+ቀ	k'e	BGN
+ቨ	ve	BGN
+ተ	te	BGN
+ቸ	che	BGN
+ረ	re	BGN
+ነ	ne	BGN
+ኘ	nye	BGN
+ኔ	né	BGN
+ኖ	no	BGN
+አ	a	BGN; LDC
+ዐ	a	BGN; LDC
+ከ	ke	BGN
+ኩ	ku	BGN
+ወ	we	BGN
+ዋ	wa	BGN
+ዘ	ze	BGN
+ዠ	zhe	BGN
+የ	ye	BGN
+ደ	de	BGN
+ጀ	je	BGN
+ገ	ge	BGN
+ጠ	t'e	BGN
+ጣ	t'a	BGN
+ጨ	ch'e	BGN
+ጰ	p'e	BGN
+ጸ	s'e	BGN (BGN writes ts')
+ፀ	s'e	BGN (BGN writes ts')
+ፈ	fe	BGN
+ፐ	pe	BGN
+ቧ	bwa	BGN
+ሏ	lwa	BGN
+ኳ	kwa	BGN
+ጓ	gwa	BGN
+ት	ti	BGN
+ም	mi	BGN
+ስ	si	BGN
+ሁ	hu	BGN
+ሽ	shi	BGN
+ዎ	wo	BGN
+ቱ	tu	BGN
+ጇ	jwa	BGN
