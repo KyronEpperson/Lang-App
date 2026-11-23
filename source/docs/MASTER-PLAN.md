@@ -43,6 +43,7 @@ Any pair = target half + native half (+ pair layer). 61 + 61 pieces of work cove
 1. **Label:** hand-tuned courses carry a small asterisk-style mark in the "language to learn" picker, with a one-line legend ("hand-tuned for speakers of your language"). Standard courses carry no mark.
 2. **Pilot:** Spanish → Korean is the assembled (standard) pilot. Japanese → Korean is hand-tuned and comes after the pilot.
 3. **Timing:** engine change starts after the usage reset (about 2026-11-24), not before.
+4. **Requested pair (Kii, 2026-11-22): Bisaya (Cebuano) → Korean.** First pair after the Spanish → Korean pilot. Needs the engine change, a Cebuano native half (interface dictionary and meanings; none exists yet), and reuses Korean's target half from the pilot. Standard course unless Kii asks for hand-tuning.
 
 ---
 
