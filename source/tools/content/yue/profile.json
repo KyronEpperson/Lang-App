@@ -14,8 +14,8 @@
     "keywords": "冠詞|眾數"
   },
   "labels": {
-    "mcBlankCue": " 空格應填甚麼？",
-    "typeHintCue": " — 用這些字詞",
+    "mcBlankCue": " 空格應該填咩？",
+    "typeHintCue": " — 用呢啲字詞",
     "cueTest": "[\\u3400-\\u4dbf\\u4e00-\\u9fff]"
   },
   "lessonOrder": {

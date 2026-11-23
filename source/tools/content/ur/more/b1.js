@@ -30,7 +30,7 @@ practice:[
 ["fi","Have you finished __?","کیا آپ نے ختم کر لیا؟","yet|already","ever|never|since","سوال کے آخر میں \"اب تک\" کے لیے yet آتا ہے۔"],
 ["ty","میں تین سال سے یہاں رہ رہی ہوں","I've lived here for three years|I've been living here for three years","الفاظ: I've lived · here · for · three · year — جمع","year","تین سال: اسم جمع میں آئے گا (years)۔ اردو میں \"تین سال\" میں لفظ نہیں بدلتا، انگریزی میں -s لگتا ہے۔"],
 ["ty","آپ یہاں کب سے ہیں؟","How long have you been here","الفاظ: how long · have you · been here","are","\"کب سے\" = How long have you + تیسری فارم۔"],
-["ty","میں وہ کتاب پہلے ہی پڑھ چکا ہوں","I've already read the book|I've read the book already|I already read the book","الفاظ: already · read · book — آرٹیکل the","a","وہی کتاب جس کا دونوں کو پتا ہے، اس لیے آرٹیکل the۔"]]},
+["ty","میں وہ کتاب پہلے ہی پڑھ چکا ہوں","I've already read the book|I've read the book already|I already read the book|I've already read that book|I've read that book already|I already read that book","الفاظ: already · read · book — آرٹیکل the","a","وہی کتاب جس کا دونوں کو پتا ہے، اس لیے آرٹیکل the۔"]]},
 { id:"stative-since", title:"\"سے\" = since؟ حالت والے فعل اور \"کب سے\"", blurb:"\"میں 2015 سے یہاں رہ رہا ہوں\" = I've lived here since 2015؛ یہاں I am living نہیں آتا۔", deck:"اپنا تعارف", body:`
 <p>"میں دو سال سے کراچی میں رہ رہا ہوں"، "میں اسے دس سال سے جانتا ہوں": اردو میں یہ جملے بالکل سیدھے ہیں۔ انگریزی میں ان کے اندر تین پھندے ہیں: غلط فعل پر -ing، غلط ٹینس اور غلط "سے"۔ تینوں پاکستان میں بہت عام ہیں اور یہاں سمجھ بھی لیے جاتے ہیں، مگر باہر کے سننے والے کو کھٹکتے ہیں۔</p>
 <h3>1. حالت بتانے والے فعل (stative verbs) پر -ing نہیں لگتا</h3>
@@ -94,7 +94,7 @@ practice:[
 ["fi","I was sleeping __ you called.","جب تم نے فون کیا تو میں سو رہی تھی","when","than|so|had","\"جب\" کے لیے when آتا ہے۔"],
 ["fi","The bus had already __.","بس پہلے ہی جا چکی تھی","left|gone","leave|leaving|leaves","had کے بعد تیسری فارم آتی ہے۔"],
 ["fi","First we ate. __ we watched a movie.","پہلے ہم نے کھانا کھایا۔ پھر ہم نے فلم دیکھی","Then|After that|Next","Than|Because|When","\"پھر\" کے لیے then آتا ہے۔"],
-["ty","فلم پہلے ہی شروع ہو چکی تھی","The movie had already started|The movie had started already|The movie already started","الفاظ: the movie · had · already · started — آرٹیکل the","a","وہی فلم جو دیکھنی تھی، اس لیے آرٹیکل the۔"],
+["ty","فلم پہلے ہی شروع ہو چکی تھی","The movie had already started|The movie had started already|The movie already started|The film had already started|The film had started already|The film already started","الفاظ: the movie · had · already · started — آرٹیکل the","a","وہی فلم جو دیکھنی تھی، اس لیے آرٹیکل the۔"],
 ["ty","مجھے ایک پرانا دوست ملا","I met an old friend|I saw an old friend|I ran into an old friend","الفاظ: met · old friend — آرٹیکل an","a","old واول کی آواز سے شروع ہوتا ہے، اس لیے آرٹیکل an۔"],
 ["ty","میں پیدل گھر جا رہی تھی","I was walking home","الفاظ: was · walking · home","had","پس منظر Past Continuous میں بتایا جاتا ہے۔"]]},
 { id:"conditionals", title:"اگر ایسا ہوتا: خیالی بات اور پچھتاوا (would, would have)", blurb:"حال کی خیالی بات would سے، گزری ہوئی بات کا پچھتاوا would have سے۔", deck:"جذبات اور ردعمل", body:`
@@ -125,7 +125,7 @@ practice:[
 ["fi","I wish I __ more time.","کاش میرے پاس اور وقت ہوتا","had","have|would have|will have","I wish کے بعد دوسری فارم آتی ہے۔"],
 ["ty","میں تمہاری جگہ ہوتا تو چلا جاتا","If I were you I'd go|I'd go if I were you|If I was you I'd go","الفاظ: if I were you · I'd · go","am","If I were you, I'd کے ساتھ مشورہ دیا جاتا ہے۔"],
 ["ty","کاش میرے پاس ایک گاڑی ہوتی","I wish I had a car","الفاظ: I wish · had · car — آرٹیکل a","the","کوئی بھی ایک گاڑی، اس لیے آرٹیکل a۔"],
-["ty","مجھے ٹیکسی لے لینی چاہیے تھی","I should have taken a taxi|I should have got a taxi|I should have gotten a taxi","الفاظ: should have · taken · taxi — آرٹیکل a","the","کوئی بھی ایک ٹیکسی، اس لیے آرٹیکل a۔"]]},
+["ty","مجھے ٹیکسی لے لینی چاہیے تھی","I should have taken a taxi|I should have got a taxi|I should have gotten a taxi|I should've taken a taxi|I should've got a taxi|I should've gotten a taxi","الفاظ: should have · taken · taxi — آرٹیکل a","the","کوئی بھی ایک ٹیکسی، اس لیے آرٹیکل a۔"]]},
 { id:"passive", title:"جب کرنے والا اہم نہ ہو: Passive Voice (be + تیسری فارم)", blurb:"جب یہ بتانا ہو کہ کیا ہوا، یہ نہیں کہ کس نے کیا۔", deck:"دفتر اور ای میل", body:`
 <p>اردو کے "چوری ہو گیا"، "بنایا گیا"، "منسوخ کر دی گئی" جیسی بات کے لیے۔ ڈھانچہ: <b>be (am / is / are / was / were) + تیسری فارم</b>۔ یہ تب ٹھیک بیٹھتا ہے جب کرنے والا معلوم نہ ہو یا اہم نہ ہو۔</p>
 {{ex:My phone was stolen.|/maɪ ˈfoʊn wəz ˈstoʊlən/|میرا فون چوری ہو گیا}}{{ex:This was made in Pakistan.|/ˈðɪs wəz ˈmeɪd ɪn ˈpækɪstæn/|یہ پاکستان میں بنا ہے}}{{ex:The meeting was canceled.|/ðə ˈmiːtɪŋ wəz ˈkænsld/|میٹنگ منسوخ ہو گئی}}
@@ -138,21 +138,21 @@ practice:[
 <p>دفتری اردو ("مطلع کیا جاتا ہے کہ …") کی طرح پاکستان کی دفتری انگریزی میں بھی Passive Voice بہت آتا ہے: <b>It is informed that the office will remain closed on Friday.</b> باہر ایسی بات عام طور پر سیدھی کہی جاتی ہے: <b>The office will be closed on Friday.</b> جب کرنے والا معلوم ہو اور اہم بھی ہو تو Active Voice میں کہیں۔</p>
 <div class="tbl"><table><tr><th>✗</th><th>✓</th></tr><tr><td>My phone stolen.</td><td class="k">My phone was stolen.</td></tr></table></div>
 <div class="tip">عام غلطی یہ ہے کہ be چھوٹ جاتا ہے۔ Passive Voice میں be (am / is / are / was / were) ضرور لگائیں۔</div>`,
-check:[["خالی جگہ پُر کریں: My bag ___ stolen yesterday",["is","was","did","has"],1,"کل کی بات ہے، اس لیے was + تیسری فارم۔"],["خالی جگہ پُر کریں: This phone ___ made in Korea",["was","did","has","does"],0,"Passive Voice میں be (یہاں was) + تیسری فارم آتی ہے۔"],["انگریزی میں: \"میٹنگ منسوخ ہو گئی\"",["The meeting canceled.","The meeting was cancel.","The meeting did canceled.","The meeting was canceled."],3,"be (یہاں was) + تیسری فارم canceled۔"]],
+check:[["خالی جگہ پُر کریں: My bag ___ stolen yesterday",["is","was","did","has"],1,"کل کی بات ہے، اس لیے was + تیسری فارم۔"],["خالی جگہ پُر کریں: This phone ___ made in Pakistan",["was","did","has","does"],0,"Passive Voice میں be (یہاں was) + تیسری فارم آتی ہے۔"],["انگریزی میں: \"میٹنگ منسوخ ہو گئی\"",["The meeting canceled.","The meeting was cancel.","The meeting did canceled.","The meeting was canceled."],3,"be (یہاں was) + تیسری فارم canceled۔"]],
 practice:[
 ["mc","خالی جگہ پُر کریں: My phone ___ stolen","was","did","has","is steal","Passive Voice میں be + تیسری فارم آتی ہے۔"],
-["mc","انگریزی میں: \"یہ کوریا میں بنا تھا\"","This was made in Korea.","This made in Korea.","This was make in Korea.","This did made in Korea.","be (یہاں was) + تیسری فارم made۔"],
+["mc","انگریزی میں: \"یہ پاکستان میں بنا تھا\"","This was made in Pakistan.","This made in Pakistan.","This was make in Pakistan.","This did made in Pakistan.","be (یہاں was) + تیسری فارم made۔"],
 ["mc","انگریزی میں (Passive Voice): \"یہاں انگریزی بولی جاتی ہے\"","English is spoken here.","English speaks here.","English is speak here.","English spoken is here.","ہمیشہ ہونے والی بات: is + تیسری فارم۔"],
 ["mc","انگریزی میں: \"میٹنگ منسوخ ہو گئی\"","The meeting was canceled.","The meeting canceled was.","The meeting was cancel.","The meeting did canceled.","be (یہاں was) + تیسری فارم۔"],
 ["mc","انگریزی میں: \"ناشتہ 7 بجے دیا جاتا ہے\"","Breakfast is served at seven.","Breakfast serves at seven.","Breakfast is serve at seven.","The breakfast is serving at seven.","کھانے کے وقت کے نام (breakfast) سے پہلے آرٹیکل نہیں لگتا، اور is + تیسری فارم۔"],
 ["or","میرا بیگ چوری ہو گیا","My bag was stolen","stole","be کے بعد تیسری فارم stolen آتی ہے۔"],
 ["or","میٹنگ منسوخ ہو گئی","The meeting was canceled","A meetings","وہی میٹنگ جس کا دونوں کو پتا ہے، اس لیے آرٹیکل the۔"],
 ["or","کھڑکی ٹوٹی ہوئی تھی","The window was broken","a windows","یہیں کی وہی کھڑکی، اس لیے آرٹیکل the۔"],
-["fi","This was __ in Korea.","یہ کوریا میں بنا تھا","made","make|making|makes","be کے بعد تیسری فارم آتی ہے۔"],
+["fi","This was __ in Pakistan.","یہ پاکستان میں بنا تھا","made","make|making|makes","be کے بعد تیسری فارم آتی ہے۔"],
 ["fi","The room __ cleaned every day.","کمرہ روز صاف کیا جاتا ہے","is|gets","does|has|did","ہمیشہ ہونے والی بات: is + تیسری فارم۔"],
-["fi","It was written __ Han Kang.","یہ ہان کانگ نے لکھی ہے","by","from|of|with","کرنے والے کا نام by کے بعد آتا ہے۔"],
+["fi","It was written __ Mohsin Hamid.","یہ محسن حامد نے لکھی ہے","by","from|of|with","کرنے والے کا نام by کے بعد آتا ہے۔"],
 ["ty","میرا فون چوری ہو گیا (was کے ساتھ)","My phone was stolen|My phone got stolen","الفاظ: my phone · was · stolen","stole","be + تیسری فارم stolen۔"],
-["ty","وہ میٹنگ منسوخ ہو گئی (was کے ساتھ)","The meeting was canceled|The meeting was cancelled|The meeting got canceled","الفاظ: the meeting · was · canceled — آرٹیکل the","a","وہی میٹنگ جس کا دونوں کو پتا ہے، اس لیے آرٹیکل the۔"],
+["ty","وہ میٹنگ منسوخ ہو گئی (was کے ساتھ)","The meeting was canceled|The meeting was cancelled|The meeting got canceled|The meeting got cancelled|That meeting was canceled|That meeting was cancelled","الفاظ: the meeting · was · canceled — آرٹیکل the","a","وہی میٹنگ جس کا دونوں کو پتا ہے، اس لیے آرٹیکل the۔"],
 ["ty","دروازے کو تالا لگا ہوا تھا","The door was locked","الفاظ: the door · was · locked — آرٹیکل the","a","یہیں کا وہی دروازہ، اس لیے آرٹیکل the۔"]]},
 { id:"reported", title:"کسی کی بات آگے بتانا: Indirect Speech (said, told, asked)", blurb:"بات آگے بتاتے وقت ضمیر بدلتا ہے اور ٹینس ایک قدم پیچھے جاتا ہے؛ tell کے بعد سننے والا آتا ہے۔", deck:"کال اور چیٹ کی شارٹ فارم", body:`
 <p>کسی کی کہی ہوئی بات آگے بتانے کا طریقہ؛ سکول میں اسے Narration یا Direct / Indirect Speech کہتے ہیں۔ اردو میں "کہ" کے بعد بولنے والے کے اپنے الفاظ ویسے ہی رہتے ہیں: "اس نے کہا کہ <b>میں</b> تھکی ہوئی <b>ہوں</b>"۔ انگریزی میں دو چیزیں بدلتی ہیں: <b>ضمیر</b> (I کی جگہ she) اور <b>ٹینس</b>، جو ایک قدم ماضی کی طرف جاتا ہے (am کی جگہ was)۔</p>
@@ -175,12 +175,12 @@ practice:[
 ["mc","انگریزی میں: \"اس نے پوچھا کہ کیا میں ٹھیک ہوں\"","She asked if I was okay.","She asked was I okay.","She asked if was I okay.","She said if I was okay.","ہاں / نہیں والا سوال if سے آگے بتایا جاتا ہے۔"],
 ["mc","انگریزی میں: \"اس نے پوچھا کہ میں کہاں رہتا ہوں\"","He asked where I lived.","He asked where did I live.","He asked where I did lived.","He asked me where lived I.","آگے بتائے گئے سوال میں عام جملے کی ترتیب رہتی ہے۔"],
 ["or","اس نے کہا کہ وہ تھکی ہوئی ہے","She said she was tired","told","سننے والا نہیں بتایا گیا، اس لیے said۔"],
-["or","اس نے کہا کہ اس نے ایک گاڑی خریدی ہے","He said he bought a car","the cars","ایک گاڑی، پہلی بار ذکر: آرٹیکل a۔"],
+["or","اس نے کہا کہ اس نے ایک گاڑی خریدی","He said he bought a car","the cars","ایک گاڑی، پہلی بار ذکر: آرٹیکل a۔"],
 ["or","اس نے کہا کہ اسے وہ کتاب پسند آئی","She said she liked the book","a books","وہی کتاب جس کا دونوں کو پتا ہے، اس لیے آرٹیکل the۔"],
 ["fi","She __ she was tired.","اس نے کہا کہ وہ تھکی ہوئی ہے","said","told|asked|say","سننے والا نہیں بتایا گیا، اس لیے said۔"],
 ["fi","He told __ he was busy.","اس نے مجھے بتایا کہ وہ مصروف ہے","me","I|my|to","told کے بعد سننے والا آتا ہے: me۔"],
 ["fi","She asked __ I was okay.","اس نے پوچھا کہ کیا میں ٹھیک ہوں","if|whether","that|what|did","ہاں / نہیں والا سوال if سے آگے بتایا جاتا ہے۔"],
-["ty","اس (لڑکے) نے کہا کہ وہ مصروف ہے","He said he was busy|He said that he was busy|He told me he was busy","الفاظ: he said · he was · busy","is","بات آگے بتاتے وقت ٹینس ایک قدم ماضی کی طرف جاتا ہے: is کی جگہ was۔"],
-["ty","اس (لڑکی) نے کہا کہ اس کے پاس ایک گاڑی ہے","She said she had a car|She said that she had a car|She told me she had a car","الفاظ: she said · had · car — آرٹیکل a","the","ایک گاڑی، پہلی بار ذکر: آرٹیکل a۔"],
-["ty","اس (لڑکے) نے کہا کہ اس نے وہ فلم دیکھی ہے","He said he saw the movie|He said he had seen the movie|He said he watched the movie|He told me he saw the movie","الفاظ: he said · saw · movie — آرٹیکل the","a","وہی فلم جس کا دونوں کو پتا ہے، اس لیے آرٹیکل the۔"]]},
+["ty","اس (لڑکے) نے کہا کہ وہ مصروف ہے (was کے ساتھ)","He said he was busy|He said that he was busy|He told me he was busy","الفاظ: he said · he was · busy","is","بات آگے بتاتے وقت ٹینس ایک قدم ماضی کی طرف جاتا ہے: is کی جگہ was۔"],
+["ty","اس (لڑکی) نے کہا کہ اس کے پاس ایک گاڑی ہے (had کے ساتھ)","She said she had a car|She said that she had a car|She told me she had a car","الفاظ: she said · had · car — آرٹیکل a","the","ایک گاڑی، پہلی بار ذکر: آرٹیکل a۔"],
+["ty","اس (لڑکے) نے کہا کہ اس نے وہ فلم دیکھی ہے","He said he saw the movie|He said he had seen the movie|He said he watched the movie|He told me he saw the movie|He said he'd seen the movie|He said that he had seen the movie|He said he saw that movie|He said he had seen that movie|He said he saw the film|He said he had seen the film","الفاظ: he said · saw · movie — آرٹیکل the","a","وہی فلم جس کا دونوں کو پتا ہے، اس لیے آرٹیکل the۔"]]},
 ];

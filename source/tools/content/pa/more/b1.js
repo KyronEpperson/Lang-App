@@ -93,7 +93,7 @@ practice:[
 ["fi","The bus had already __.","ਬੱਸ ਜਾ ਚੁੱਕੀ ਸੀ","left|gone","leave|leaving|leaves","had ਤੋਂ ਬਾਅਦ V3 ਆਉਂਦਾ ਹੈ।"],
 ["fi","First we ate. __ we watched a movie.","ਪਹਿਲਾਂ ਅਸੀਂ ਖਾਧਾ। ਫਿਰ ਅਸੀਂ ਫ਼ਿਲਮ ਦੇਖੀ","Then|After that|Next","Than|Because|When","\"ਫਿਰ\" = then।"],
 ["ty","ਫ਼ਿਲਮ ਪਹਿਲਾਂ ਹੀ ਸ਼ੁਰੂ ਹੋ ਚੁੱਕੀ ਸੀ","The movie had already started|The movie had started already|The movie already started","the movie · had · already · started — ਆਰਟੀਕਲ the","a","ਉਹੀ ਫ਼ਿਲਮ ਜਿਹੜੀ ਦੇਖਣੀ ਸੀ — ਆਰਟੀਕਲ the।"],
-["ty","ਮੈਨੂੰ ਇੱਕ ਪੁਰਾਣਾ ਦੋਸਤ ਮਿਲਿਆ","I met an old friend|I saw an old friend|I ran into an old friend","met · old friend — ਆਰਟੀਕਲ an","a","old ਸਵਰ ਦੀ ਆਵਾਜ਼ ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ, ਇਸ ਲਈ ਆਰਟੀਕਲ an।"],
+["ty","ਮੈਨੂੰ ਇੱਕ ਪੁਰਾਣਾ ਦੋਸਤ ਮਿਲਿਆ","I met an old friend|I saw an old friend|I ran into an old friend|I bumped into an old friend","met · old friend — ਆਰਟੀਕਲ an","a","old ਸਵਰ ਦੀ ਆਵਾਜ਼ ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ, ਇਸ ਲਈ ਆਰਟੀਕਲ an।"],
 ["ty","ਮੈਂ ਤੁਰ ਕੇ ਘਰ ਜਾ ਰਿਹਾ ਸੀ (walk ਨਾਲ)","I was walking home","was · walking · home","had","ਮਾਹੌਲ Past Continuous ਵਿੱਚ ਦੱਸਦੇ ਹਨ।"]]},
 { id:"conditionals", title:"If ਵਾਲੇ ਵਾਕ 2 ਤੇ 3: ਕਲਪਨਾ ਤੇ ਪਛਤਾਵਾ", blurb:"ਅੱਜ ਤੋਂ ਉਲਟ ਗੱਲ ਹੋਵੇ ਤਾਂ would, ਬੀਤੇ ਦਾ ਪਛਤਾਵਾ ਹੋਵੇ ਤਾਂ would have — ਪੰਜਾਬੀ ਦਾ \"ਹੁੰਦਾ\" ਦੋਵਾਂ ਵਿੱਚ ਚੱਲਦਾ ਹੈ।", deck:"ਜਜ਼ਬਾਤ ਤੇ ਹੁੰਗਾਰੇ", body:`
 <p>ਜੋ ਸੱਚ ਨਹੀਂ ਹੈ, ਉਸ ਦੀ ਕਲਪਨਾ ਲਈ। ਪੰਜਾਬੀ ਵਿੱਚ ਇੱਕੋ ਢਾਂਚਾ ਦੋਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ: "ਜੇ ਮੇਰੇ ਕੋਲ ਟਾਈਮ <b>ਹੁੰਦਾ</b> ਤਾਂ ਮੈਂ ਘੁੰਮਣ <b>ਜਾਂਦਾ</b>" ਅੱਜ ਦੀ ਗੱਲ ਵੀ ਹੋ ਸਕਦੀ ਹੈ ਤੇ ਬੀਤੇ ਦੀ ਵੀ; "ਜੇ ਮੈਨੂੰ ਪਤਾ ਹੁੰਦਾ ਤਾਂ…" ਵੀ ਇਸੇ ਤਰ੍ਹਾਂ। ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਸਮੇਂ ਦੇ ਹਿਸਾਬ ਨਾਲ ਦੋ ਵੱਖਰੇ ਢਾਂਚੇ ਹਨ।</p>
@@ -120,9 +120,9 @@ practice:[
 ["fi","If I __ you, I'd go.","ਮੈਂ ਤੇਰੀ ਥਾਂ ਹੁੰਦਾ ਤਾਂ ਚਲਾ ਜਾਂਦਾ","were|was","am|be|would be","If I were you ਪੱਕਾ ਢਾਂਚਾ ਹੈ।"],
 ["fi","I would __ helped.","ਮੈਂ (ਉਸ ਵੇਲੇ) ਮਦਦ ਕਰ ਦਿੰਦੀ","have","had|has|having","ਬੀਤੀ ਗੱਲ: would have + V3।"],
 ["fi","I wish I __ more time.","ਕਾਸ਼ ਮੇਰੇ ਕੋਲ ਹੋਰ ਟਾਈਮ ਹੁੰਦਾ","had","have|would have|will have","I wish ਤੋਂ ਬਾਅਦ Simple Past।"],
-["ty","ਮੈਂ ਤੇਰੀ ਥਾਂ ਹੁੰਦਾ ਤਾਂ ਚਲਾ ਜਾਂਦਾ","If I were you I'd go|I'd go if I were you|If I was you I'd go","if I were you · I'd · go","am","If I were you, I'd… — ਪੱਕਾ ਢਾਂਚਾ।"],
+["ty","ਮੈਂ ਤੇਰੀ ਥਾਂ ਹੁੰਦਾ ਤਾਂ ਚਲਾ ਜਾਂਦਾ (ਹੁਣ ਦੀ ਸਲਾਹ)","If I were you I'd go|I'd go if I were you|If I was you I'd go","if I were you · I'd · go","am","If I were you, I'd… — ਪੱਕਾ ਢਾਂਚਾ।"],
 ["ty","ਕਾਸ਼ ਮੇਰੇ ਕੋਲ ਇੱਕ ਕਾਰ ਹੁੰਦੀ","I wish I had a car","I wish · had · car — ਆਰਟੀਕਲ a","the","ਕੋਈ ਵੀ ਇੱਕ ਕਾਰ — ਆਰਟੀਕਲ a।"],
-["ty","ਮੈਨੂੰ ਟੈਕਸੀ ਲੈ ਲੈਣੀ ਚਾਹੀਦੀ ਸੀ","I should have taken a taxi|I should have got a taxi|I should have gotten a taxi","should have · taken · taxi — ਆਰਟੀਕਲ a","the","ਕੋਈ ਵੀ ਇੱਕ ਟੈਕਸੀ — ਆਰਟੀਕਲ a।"]]},
+["ty","ਮੈਨੂੰ ਟੈਕਸੀ ਲੈ ਲੈਣੀ ਚਾਹੀਦੀ ਸੀ","I should have taken a taxi|I should have got a taxi|I should have gotten a taxi|I should've taken a taxi","should have · taken · taxi — ਆਰਟੀਕਲ a","the","ਕੋਈ ਵੀ ਇੱਕ ਟੈਕਸੀ — ਆਰਟੀਕਲ a।"]]},
 { id:"passive", title:"Passive Voice: be + V3 (\"ਕੀਤਾ ਗਿਆ\")", blurb:"ਜਦੋਂ \"ਕਿਸ ਨੇ ਕੀਤਾ\" ਨਾਲੋਂ ਵੱਧ ਜ਼ਰੂਰੀ ਹੋਵੇ ਕਿ ਕੀ ਹੋਇਆ। ਦਫ਼ਤਰੀ ਈਮੇਲ ਵਿੱਚ ਇਸ ਨੂੰ ਘੱਟ ਰੱਖੋ।", deck:"ਦਫ਼ਤਰ ਤੇ ਈਮੇਲ", body:`
 <p>"ਚੋਰੀ ਹੋ ਗਿਆ", "ਕੈਂਸਲ ਕਰ ਦਿੱਤੀ ਗਈ" — ਜਦੋਂ ਇਹ ਵੱਧ ਜ਼ਰੂਰੀ ਹੋਵੇ ਕਿ <b>ਕੀ ਹੋਇਆ</b>, ਨਾ ਕਿ <b>ਕਿਸ ਨੇ ਕੀਤਾ</b>। ਢਾਂਚਾ ਹੈ <b>be + V3</b>।</p>
 {{ex:My phone was stolen.|ਮਾਈ ਫ਼ੋਨ ਵਜ਼ ˈਸ੍ਟੋਲਨ|ਮੇਰਾ ਫ਼ੋਨ ਚੋਰੀ ਹੋ ਗਿਆ}}{{ex:This was made in India.|ਦ਼ਿਸ ਵਜ਼ ਮੇਡ ਇਨ ˈਇੰਡੀਆ|ਇਹ ਭਾਰਤ ਵਿੱਚ ਬਣਿਆ ਹੈ}}{{ex:The meeting was canceled.|ਦ਼ ˈਮੀਟਿਙ ਵਜ਼ ˈਕੈਨ੍ਸਲ੍ਡ|ਮੀਟਿੰਗ ਕੈਂਸਲ ਹੋ ਗਈ}}
@@ -136,21 +136,21 @@ practice:[
 <h3>ਦਫ਼ਤਰੀ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ Passive ਘੱਟ ਰੱਖੋ</h3>
 <p>ਸਰਕਾਰੀ ਚਿੱਠੀਆਂ ਦੇ "ਸੂਚਿਤ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਕਿ…" ਵਾਂਗ ਭਾਰਤੀ ਦਫ਼ਤਰੀ ਈਮੇਲ ਵਿੱਚ <b>It is informed that…</b> ਜਾਂ <b>Your request has been received and will be done.</b> ਬਹੁਤ ਮਿਲਦੇ ਹਨ। ਵਿਦੇਸ਼ ਵਿੱਚ ਇਹ ਭਾਰੇ ਲੱਗਦੇ ਹਨ। ਕਰਨ ਵਾਲਾ ਪਤਾ ਹੋਵੇ ਤਾਂ Active ਵਧੀਆ ਹੈ: <b>We'll send the report today.</b>, <b>I've received your request.</b></p>
 <div class="tip">ਸਭ ਤੋਂ ਆਮ ਗ਼ਲਤੀ: be ਛੱਡ ਦੇਣਾ। <b>My phone stolen.</b> ✗ → <b>My phone was stolen.</b> ✓</div>`,
-check:[["My bag ___ stolen yesterday. ਖ਼ਾਲੀ ਥਾਂ ਵਿੱਚ ਕੀ ਆਵੇਗਾ?",["is","was","did","has"],1,"ਕੱਲ੍ਹ ਦੀ ਗੱਲ ਹੈ, ਇਸ ਲਈ was + V3।"],["This phone ___ made in Korea. ਖ਼ਾਲੀ ਥਾਂ ਵਿੱਚ ਕੀ ਆਵੇਗਾ?",["was","did","has","does"],0,"Passive ਵਿੱਚ be + V3 ਆਉਂਦਾ ਹੈ।"],["\"ਮੀਟਿੰਗ ਕੈਂਸਲ ਹੋ ਗਈ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?",["The meeting canceled.","The meeting was cancel.","The meeting did canceled.","The meeting was canceled."],3,"be + V3 ਚਾਹੀਦਾ ਹੈ: was canceled।"]],
+check:[["My bag ___ stolen yesterday. ਖ਼ਾਲੀ ਥਾਂ ਵਿੱਚ ਕੀ ਆਵੇਗਾ?",["is","was","did","has"],1,"ਕੱਲ੍ਹ ਦੀ ਗੱਲ ਹੈ, ਇਸ ਲਈ was + V3।"],["This phone ___ made in India. ਖ਼ਾਲੀ ਥਾਂ ਵਿੱਚ ਕੀ ਆਵੇਗਾ?",["was","did","has","does"],0,"Passive ਵਿੱਚ be + V3 ਆਉਂਦਾ ਹੈ।"],["\"ਮੀਟਿੰਗ ਕੈਂਸਲ ਹੋ ਗਈ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?",["The meeting canceled.","The meeting was cancel.","The meeting did canceled.","The meeting was canceled."],3,"be + V3 ਚਾਹੀਦਾ ਹੈ: was canceled।"]],
 practice:[
 ["mc","My phone ___ stolen.","was","did","has","is steal","Passive ਵਿੱਚ be + V3 ਆਉਂਦਾ ਹੈ।"],
-["mc","\"ਇਹ ਕੋਰੀਆ ਵਿੱਚ ਬਣਿਆ ਹੈ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","This was made in Korea.","This made in Korea.","This was make in Korea.","This did made in Korea.","be + V3 ਚਾਹੀਦਾ ਹੈ: was made।"],
+["mc","\"ਇਹ ਭਾਰਤ ਵਿੱਚ ਬਣਿਆ ਹੈ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","This was made in India.","This made in India.","This was make in India.","This did made in India.","be + V3 ਚਾਹੀਦਾ ਹੈ: was made।"],
 ["mc","\"ਇੱਥੇ ਅੰਗਰੇਜ਼ੀ ਬੋਲੀ ਜਾਂਦੀ ਹੈ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","English is spoken here.","English speaks here.","English is speak here.","English spoken is here.","ਹਮੇਸ਼ਾ ਹੋਣ ਵਾਲੀ ਗੱਲ: is + V3।"],
 ["mc","\"ਮੀਟਿੰਗ ਕੈਂਸਲ ਹੋ ਗਈ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","The meeting was canceled.","The meeting canceled was.","The meeting was cancel.","The meeting did canceled.","was + V3; be ਛੁੱਟਣਾ ਨਹੀਂ ਚਾਹੀਦਾ।"],
 ["mc","\"ਨਾਸ਼ਤਾ ਸੱਤ ਵਜੇ ਦਿੱਤਾ ਜਾਂਦਾ ਹੈ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","Breakfast is served at seven.","Breakfast serves at seven.","Breakfast is serve at seven.","The breakfast is serving at seven.","breakfast ਤੋਂ ਪਹਿਲਾਂ ਆਰਟੀਕਲ ਨਹੀਂ; is + V3।"],
 ["or","ਮੇਰਾ ਬੈਗ ਚੋਰੀ ਹੋ ਗਿਆ","My bag was stolen","stole","be ਤੋਂ ਬਾਅਦ V3 stolen, V2 stole ਨਹੀਂ।"],
 ["or","ਮੀਟਿੰਗ ਕੈਂਸਲ ਹੋ ਗਈ","The meeting was canceled","A meetings","ਉਹੀ ਮੀਟਿੰਗ ਜਿਸ ਨੂੰ ਦੋਵੇਂ ਜਾਣਦੇ ਹਨ — ਆਰਟੀਕਲ the।"],
 ["or","ਖਿੜਕੀ ਟੁੱਟੀ ਹੋਈ ਸੀ","The window was broken","a windows","ਇਹੀ ਖਿੜਕੀ — ਆਰਟੀਕਲ the।"],
-["fi","This was __ in Korea.","ਇਹ ਕੋਰੀਆ ਵਿੱਚ ਬਣਿਆ ਹੈ","made","make|making|makes","be ਤੋਂ ਬਾਅਦ V3 ਆਉਂਦਾ ਹੈ।"],
+["fi","This was __ in India.","ਇਹ ਭਾਰਤ ਵਿੱਚ ਬਣਿਆ ਹੈ","made","make|making|makes","be ਤੋਂ ਬਾਅਦ V3 ਆਉਂਦਾ ਹੈ।"],
 ["fi","The room __ cleaned every day.","ਕਮਰਾ ਰੋਜ਼ ਸਾਫ਼ ਕੀਤਾ ਜਾਂਦਾ ਹੈ","is|gets","does|has|did","ਹਮੇਸ਼ਾ ਹੋਣ ਵਾਲੀ ਗੱਲ: is + V3।"],
-["fi","It was written __ Han Kang.","ਇਹ ਹਾਨ ਕਾਂਗ ਨੇ ਲਿਖੀ ਹੈ","by","from|of|with","ਕਿਸ ਨੇ ਕੀਤਾ, ਇਹ by ਨਾਲ ਦੱਸਦੇ ਹਨ।"],
+["fi","It was written __ Amrita Pritam.","ਇਹ ਅੰਮ੍ਰਿਤਾ ਪ੍ਰੀਤਮ ਨੇ ਲਿਖੀ ਹੈ","by","from|of|with","ਕਿਸ ਨੇ ਕੀਤਾ, ਇਹ by ਨਾਲ ਦੱਸਦੇ ਹਨ।"],
 ["ty","ਮੇਰਾ ਫ਼ੋਨ ਚੋਰੀ ਹੋ ਗਿਆ","My phone was stolen|My phone got stolen","my phone · was · stolen","stole","be + V3 stolen; be ਨਾ ਛੱਡੋ।"],
-["ty","ਮੀਟਿੰਗ ਕੈਂਸਲ ਹੋ ਗਈ","The meeting was canceled|The meeting was cancelled|The meeting got canceled","the meeting · was · canceled — ਆਰਟੀਕਲ the","a","ਉਹੀ ਮੀਟਿੰਗ ਜਿਸ ਨੂੰ ਦੋਵੇਂ ਜਾਣਦੇ ਹਨ — ਆਰਟੀਕਲ the।"],
+["ty","ਮੀਟਿੰਗ ਕੈਂਸਲ ਹੋ ਗਈ","The meeting was canceled|The meeting was cancelled|The meeting got canceled|The meeting got cancelled","the meeting · was · canceled — ਆਰਟੀਕਲ the","a","ਉਹੀ ਮੀਟਿੰਗ ਜਿਸ ਨੂੰ ਦੋਵੇਂ ਜਾਣਦੇ ਹਨ — ਆਰਟੀਕਲ the।"],
 ["ty","ਬੂਹੇ ਨੂੰ ਤਾਲਾ ਲੱਗਾ ਹੋਇਆ ਸੀ","The door was locked","the door · was · locked — ਆਰਟੀਕਲ the","a","ਇਹੀ ਬੂਹਾ — ਆਰਟੀਕਲ the।"]]},
 { id:"reported", title:"Indirect Speech: ਕਿਸੇ ਦੀ ਗੱਲ ਅੱਗੇ ਦੱਸਣੀ", blurb:"She said she was tired. ਪੜਨਾਂਵ ਬਦਲੋ, ਟੈਂਸ ਇੱਕ ਕਦਮ ਪਿੱਛੇ ਕਰੋ, tell ਤੋਂ ਬਾਅਦ ਸੁਣਨ ਵਾਲਾ।", deck:"ਕਾਲ ਤੇ ਚੈਟ ਦੇ ਛੋਟੇ ਰੂਪ", body:`
 <p>ਕਿਸੇ ਹੋਰ ਦੀ ਕਹੀ ਗੱਲ ਅੱਗੇ ਦੱਸਣ ਲਈ Indirect Speech (ਸਕੂਲ ਦੀਆਂ ਕਿਤਾਬਾਂ ਵਿੱਚ Narration)। ਪੰਜਾਬੀ ਵਿੱਚ "ਕਿ" ਤੋਂ ਬਾਅਦ ਅਕਸਰ ਬੋਲਣ ਵਾਲੇ ਦੇ ਆਪਣੇ ਸ਼ਬਦ ਉਵੇਂ ਹੀ ਰਹਿੰਦੇ ਹਨ: "ਉਸ ਨੇ ਕਿਹਾ ਕਿ <b>ਮੈਂ</b> ਥੱਕਿਆ <b>ਹਾਂ</b>" — ਥੱਕਿਆ ਉਹ ਹੈ, ਦੱਸਣ ਵਾਲਾ ਨਹੀਂ। ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਦੋ ਚੀਜ਼ਾਂ ਬਦਲਦੀਆਂ ਹਨ: <b>ਪੜਨਾਂਵ</b> (I → he / she) ਤੇ <b>ਟੈਂਸ, ਇੱਕ ਕਦਮ ਪਿੱਛੇ</b>।</p>
@@ -177,7 +177,7 @@ practice:[
 ["fi","She __ she was tired.","ਉਸ ਨੇ ਕਿਹਾ ਕਿ ਉਹ ਥੱਕੀ ਹੋਈ ਹੈ","said","told|asked|say","ਸੁਣਨ ਵਾਲਾ ਨਹੀਂ ਹੈ, ਇਸ ਲਈ said।"],
 ["fi","He told __ he was busy.","ਉਸ ਨੇ ਮੈਨੂੰ ਕਿਹਾ ਕਿ ਉਹ ਰੁੱਝਿਆ ਹੋਇਆ ਹੈ","me","I|my|to","told ਤੋਂ ਬਾਅਦ ਸੁਣਨ ਵਾਲਾ (me) ਆਉਂਦਾ ਹੈ।"],
 ["fi","She asked __ I was okay.","ਉਸ ਨੇ ਪੁੱਛਿਆ ਕਿ ਮੈਂ ਠੀਕ ਹਾਂ ਜਾਂ ਨਹੀਂ","if|whether","that|what|did","ਹਾਂ-ਨਾਂਹ ਵਾਲਾ ਸਵਾਲ if ਨਾਲ।"],
-["ty","ਉਸ (ਮੁੰਡੇ) ਨੇ ਕਿਹਾ ਕਿ ਉਹ ਰੁੱਝਿਆ ਹੋਇਆ ਹੈ","He said he was busy|He said that he was busy|He told me he was busy","he said · he was · busy","is","ਅੱਗੇ ਦੱਸਣ ਵੇਲੇ ਟੈਂਸ ਇੱਕ ਕਦਮ ਪਿੱਛੇ: is → was।"],
-["ty","ਉਸ (ਕੁੜੀ) ਨੇ ਕਿਹਾ ਕਿ ਉਸ ਕੋਲ ਇੱਕ ਕਾਰ ਹੈ","She said she had a car|She said that she had a car|She told me she had a car","she said · had · car — ਆਰਟੀਕਲ a","the","ਪਹਿਲੀ ਵਾਰ ਜ਼ਿਕਰ, ਇੱਕ ਕਾਰ — ਆਰਟੀਕਲ a।"],
+["ty","ਉਸ (ਮੁੰਡੇ) ਨੇ ਕਿਹਾ ਕਿ ਉਹ ਰੁੱਝਿਆ ਹੋਇਆ ਹੈ (said ਤੋਂ ਬਾਅਦ ਟੈਂਸ ਇੱਕ ਕਦਮ ਪਿੱਛੇ)","He said he was busy|He said that he was busy|He told me he was busy","he said · he was · busy","is","ਅੱਗੇ ਦੱਸਣ ਵੇਲੇ ਟੈਂਸ ਇੱਕ ਕਦਮ ਪਿੱਛੇ: is → was।"],
+["ty","ਉਸ (ਕੁੜੀ) ਨੇ ਕਿਹਾ ਕਿ ਉਸ ਕੋਲ ਇੱਕ ਕਾਰ ਹੈ (said ਤੋਂ ਬਾਅਦ ਟੈਂਸ ਇੱਕ ਕਦਮ ਪਿੱਛੇ)","She said she had a car|She said that she had a car|She told me she had a car","she said · had · car — ਆਰਟੀਕਲ a","the","ਪਹਿਲੀ ਵਾਰ ਜ਼ਿਕਰ, ਇੱਕ ਕਾਰ — ਆਰਟੀਕਲ a।"],
 ["ty","ਉਸ (ਮੁੰਡੇ) ਨੇ ਕਿਹਾ ਕਿ ਉਸ ਨੇ ਫ਼ਿਲਮ ਦੇਖ ਲਈ ਹੈ","He said he saw the movie|He said he had seen the movie|He said he watched the movie|He told me he saw the movie","he said · saw · movie — ਆਰਟੀਕਲ the","a","ਉਹੀ ਫ਼ਿਲਮ ਜਿਸ ਨੂੰ ਦੋਵੇਂ ਜਾਣਦੇ ਹਨ — ਆਰਟੀਕਲ the।"]]},
 ];

@@ -86,7 +86,7 @@ Speak of the devil! | Have you seen Mark today? | Speak of the devil! Here he co
 I'm feeling under the weather. | Are you coming to the party tonight? | I don't think so. I'm feeling under the weather. | آج رات پارٹی میں آ رہی ہو؟ / شاید نہیں۔ میری طبیعت کچھ ناساز ہے۔
 Spill the tea. | I heard something crazy about Jen and Mike. | Wait, what? Spill the tea! | میں نے جین اور مائیک کے بارے میں ایک زبردست بات سنی ہے۔ / ایک منٹ، کیا؟ بتاؤ نا، کیا گپ شپ ہے!
 No spoilers! | Did you finish the show? The ending is... | No spoilers! I'm only on episode 3. | تم نے وہ ڈراما پورا دیکھ لیا؟ اس کا اختتام تو… / کہانی مت بتانا! میں ابھی تیسری قسط پر ہوں۔
-Who's your bias? | Who's your bias? | Definitely the lead singer. What about you? | تمہارا پسندیدہ ممبر کون ہے؟ / لیڈ سنگر، اور کون! اور تمہارا؟
+Who's your favorite player? | Who's your favorite player? | Definitely the captain. What about you? | تمہارا پسندیدہ کھلاڑی کون ہے؟ / کپتان، اور کون! اور تمہارا؟
 `;
 
 exports.EXAMPLES = `

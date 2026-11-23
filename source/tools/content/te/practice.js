@@ -65,7 +65,7 @@ module.exports = {
 
     { t: "type", p: "నా దగ్గర ఒక ఐడియా ఉంది", a: ["I have an idea", "I've got an idea", "I have got an idea"], hint: "have · idea (అచ్చు శబ్దం ముందు ఏ ఆర్టికల్?)", x: ["a"], why: "idea అచ్చు శబ్దంతో మొదలవుతుంది, అందుకే ఆర్టికల్ an." },
     { t: "type", p: "నాకు కుక్కలంటే ఇష్టం (కుక్కలన్నీ, మామూలుగా)", a: ["I like dogs", "I love dogs"], hint: "like · dog (మొత్తం జాతికి బహువచనం)", x: ["dog", "a"], why: "మొత్తం జాతి గురించి ఆర్టికల్ లేకుండా బహువచనం: dogs." },
-    { t: "type", p: "(కలిసి) మధ్యాహ్న భోజనం చేద్దాం", a: ["Let's have lunch", "Let's eat lunch", "Let's get lunch"], hint: "let's · have · lunch (భోజనం పేరు ముందు ఆర్టికల్ వస్తుందా?)", x: ["a", "the"], why: "భోజనం పేరు ముందు ఆర్టికల్ రాదు." }
+    { t: "type", p: "(కలిసి) మధ్యాహ్న భోజనం చేద్దాం", a: ["Let's have lunch", "Let's eat lunch", "Let's get lunch", "Let us have lunch", "Let us eat lunch", "Let us get lunch", "Let's have lunch together", "Let's eat lunch together", "Let's get lunch together", "Let us have lunch together", "Let us eat lunch together", "Let us get lunch together"], hint: "let's · have · lunch (భోజనం పేరు ముందు ఆర్టికల్ వస్తుందా?)", x: ["a", "the"], why: "భోజనం పేరు ముందు ఆర్టికల్ రాదు." }
   ],
 
   be: [
@@ -75,17 +75,17 @@ module.exports = {
     { t: "mc", q: "Do you like coffee? కి \"అవును\" అని జవాబు ఏది?", o: ["Yes, I do.", "Yes, I am.", "Yes, I like.", "Yes, I does."], why: "do తో అడిగారు కాబట్టి do తోనే జవాబు." },
     { t: "mc", q: "\"ఆమె మాంసం తినదు\" ఇంగ్లీష్‌లో?", o: ["She doesn't eat meat.", "She don't eat meat.", "She isn't eat meat.", "She doesn't eats meat."], why: "she కి వ్యతిరేక వాక్యం: doesn't + -s లేని V1." },
 
-    { t: "order", p: "మా అన్నయ్య సియోల్‌లో పని చేస్తాడు", a: ["My", "brother", "works", "in", "Seoul"], x: ["work", "is"], why: "కర్త ఒక్క వ్యక్తి (he) కాబట్టి works: he / she / it తో వచ్చే -s. వేరే క్రియ ఉంది కాబట్టి be రాదు." },
+    { t: "order", p: "మా అన్నయ్య హైదరాబాద్‌లో పని చేస్తాడు", a: ["My", "brother", "works", "in", "Hyderabad"], x: ["work", "is"], why: "కర్త ఒక్క వ్యక్తి (he) కాబట్టి works: he / she / it తో వచ్చే -s. వేరే క్రియ ఉంది కాబట్టి be రాదు." },
     { t: "order", p: "నేను విద్యార్థిని కాను", a: ["I'm", "not", "a", "student"], x: ["don't", "the"], why: "be కి వ్యతిరేకం not; హోదా పేరు ముందు ఆర్టికల్ a వస్తుంది." },
     { t: "order", p: "ఆమెకు రెండు కుక్కలు ఉన్నాయి", a: ["She", "has", "two", "dogs"], x: ["have", "dog"], why: "she తర్వాత has; రెండు కాబట్టి బహువచనం -s: dogs." },
 
-    { t: "fill", q: "My brother __ in Seoul.", p: "మా అన్నయ్య సియోల్‌లో ఉంటాడు", a: ["lives"], o: ["live", "is live", "living"], why: "కర్త he కాబట్టి క్రియకు -s: lives." },
+    { t: "fill", q: "My brother __ in Hyderabad.", p: "మా అన్నయ్య హైదరాబాద్‌లో ఉంటాడు", a: ["lives"], o: ["live", "is live", "living"], why: "కర్త he కాబట్టి క్రియకు -s: lives." },
     { t: "fill", q: "__ you tired?", p: "అలసిపోయావా?", a: ["Are"], o: ["Do", "Is", "Does"], why: "tired స్థితి కాబట్టి be తో అడగాలి; you తో are." },
     { t: "fill", q: "We __ hungry.", p: "మాకు ఆకలిగా ఉంది", a: ["are"], o: ["is", "am", "do"], why: "hungry స్థితి కాబట్టి be వస్తుంది; we తో are." },
 
     { t: "type", p: "అతను టీచర్", a: ["He's a teacher", "He is a teacher"], hint: "teacher (be + ఉద్యోగం ముందు ఆర్టికల్)", x: ["the"], why: "తెలుగులో క్రియ లేకపోయినా ఇంగ్లీష్‌లో is తప్పనిసరి; ఉద్యోగం పేరు ముందు ఆర్టికల్ a." },
     { t: "type", p: "నాకు కాఫీ ఇష్టం లేదు", a: ["I don't like coffee", "I do not like coffee"], hint: "don't · like · coffee (వేరే క్రియకు వ్యతిరేకం)", x: ["am"], why: "like వేరే క్రియ కాబట్టి వ్యతిరేకం don't (I'm not like ✗)." },
-    { t: "type", p: "ఆమెకు (ఒక) పిల్లి ఉందా?", a: ["Does she have a cat"], hint: "does · have · cat (ఒకటి కాబట్టి ఆర్టికల్)", x: ["has"], why: "does వస్తే క్రియ V1: have. ఒక పిల్లి కాబట్టి ఆర్టికల్ a." }
+    { t: "type", p: "ఆమెకు (ఒక) పిల్లి ఉందా?", a: ["Does she have a cat", "Has she got a cat"], hint: "does · have · cat (ఒకటి కాబట్టి ఆర్టికల్)", x: ["has"], why: "does వస్తే క్రియ V1: have. ఒక పిల్లి కాబట్టి ఆర్టికల్ a." }
   ],
 
   polite: [
@@ -111,7 +111,7 @@ module.exports = {
   tense: [
     { t: "mc", q: "\"ఇప్పుడు కాఫీ తాగుతున్నాను\" ఇంగ్లీష్‌లో?", o: ["I'm drinking coffee right now.", "I drink coffee right now.", "I drank coffee right now.", "I drinking coffee right now."], why: "ఇప్పుడు జరుగుతున్న పనికి be + -ing." },
     { t: "mc", q: "\"పోయిన వీకెండ్ బీచ్‌కి వెళ్ళాను\" ఇంగ్లీష్‌లో?", o: ["I went to the beach last weekend.", "I go to the beach last weekend.", "I goed to the beach last weekend.", "I went to beach last weekend."], why: "go కి V2 went. బీచ్ ముందు ఆర్టికల్ the వస్తుంది: the beach." },
-    { t: "mc", q: "వచ్చే నెల ప్లాన్ చెబుతూ: \"జెజుకి వెళ్ళబోతున్నాను\"", o: ["I'm going to visit Jeju next month.", "I visit Jeju next month.", "I visited Jeju next month.", "I'm going visit Jeju next month."], why: "ముందే వేసుకున్న ప్లాన్‌కు be going to + V1." },
+    { t: "mc", q: "వచ్చే నెల ప్లాన్ చెబుతూ: \"గోవాకి వెళ్ళబోతున్నాను\"", o: ["I'm going to visit Goa next month.", "I visit Goa next month.", "I visited Goa next month.", "I'm going visit Goa next month."], why: "ముందే వేసుకున్న ప్లాన్‌కు be going to + V1." },
     { t: "mc", q: "కాలింగ్ బెల్ మోగింది. అప్పటికప్పుడు: \"నేను తలుపు తీస్తాను!\"", o: ["I'll get the door!", "I'm going to get the door!", "I get the door!", "I getting the door!"], why: "మాట్లాడుతున్న క్షణంలో తీసుకున్న నిర్ణయానికి will." },
     { t: "mc", q: "see కి V2 (past) ఏది?", o: ["saw", "seed", "seen", "sawed"], why: "see ఇర్రెగ్యులర్ క్రియ: see, saw, seen." },
 
@@ -133,7 +133,7 @@ module.exports = {
     { t: "mc", q: "\"మే 3న\" ఇంగ్లీష్‌లో?", o: ["on May 3rd", "in May 3rd", "at May 3rd", "to May 3rd"], why: "తేదీ ముందు on." },
     { t: "mc", q: "\"(ఇప్పుడు) బస్సులో ఉన్నాను\" ఇంగ్లీష్‌లో?", o: ["I'm on the bus.", "I'm at the bus.", "I'm on bus.", "I'm to the bus."], why: "బస్సు, రైలు లాంటి వాటికి on; ఇప్పుడు ఎక్కిన బస్సు కాబట్టి ఆర్టికల్ the వస్తుంది." },
     { t: "mc", q: "\"రాత్రి పూట\" ఇంగ్లీష్‌లో?", o: ["at night", "on night", "in night", "at the night"], why: "night మినహాయింపు: ఆర్టికల్ లేకుండా at night." },
-    { t: "mc", q: "సరైన వాక్యం ఏది?", o: ["I live in Seoul.", "I live at Seoul.", "I live on Seoul.", "I live in the Seoul."], why: "ఊరి పేరు ముందు in; ఊరి పేరుకు ఆర్టికల్ the రాదు." },
+    { t: "mc", q: "సరైన వాక్యం ఏది?", o: ["I live in Hyderabad.", "I live at Hyderabad.", "I live on Hyderabad.", "I live in the Hyderabad."], why: "ఊరి పేరు ముందు in; ఊరి పేరుకు ఆర్టికల్ the రాదు." },
 
     { t: "order", p: "(మనకు తెలిసిన) స్టేషన్ దగ్గర కలుద్దాం", a: ["Let's", "meet", "at", "the", "station"], x: ["in", "a"], why: "ఒక బిందువుకు at; ఏ స్టేషనో ఇద్దరికీ తెలుసు కాబట్టి ఆర్టికల్ the." },
     { t: "order", p: "నా ఫోన్ (ఆ) టేబుల్ మీద ఉంది", a: ["My", "phone", "is", "on", "the", "table"], x: ["in", "a"], why: "ఉపరితలం మీద = on; కళ్ళ ముందున్న టేబుల్ కాబట్టి ఆర్టికల్ the." },
@@ -145,7 +145,7 @@ module.exports = {
 
     { t: "type", p: "నేను ఉదయం పూట కాఫీ తాగుతాను", a: ["I drink coffee in the morning", "In the morning I drink coffee", "I have coffee in the morning", "In the morning I have coffee"], hint: "coffee · morning (in + ఆర్టికల్)", x: ["at"], why: "రోజులో ఒక పూటకు in; in the morning లో ఆర్టికల్ the తప్పనిసరి." },
     { t: "type", p: "నేను ఇప్పుడు ఇంట్లో ఉన్నాను", a: ["I'm at home", "I am at home", "I'm at home now", "I am at home now", "I'm home", "I am home", "I'm home now", "I am home now"], hint: "at · home (ఆర్టికల్ లేకుండా)", x: ["the"], why: "at home లో ఆర్టికల్ the రాదు." },
-    { t: "type", p: "వచ్చే వీకెండ్ కలుద్దాం", a: ["See you next weekend"], hint: "see · next weekend (next ముందు ప్రిపొజిషన్ వస్తుందా?)", x: ["on"], why: "next ముందు ప్రిపొజిషన్ రాదు." }
+    { t: "type", p: "వచ్చే వీకెండ్ కలుద్దాం", a: ["See you next weekend", "Let's meet next weekend", "Let us meet next weekend", "Let's meet up next weekend", "Let us meet up next weekend"], hint: "see · next weekend (next ముందు ప్రిపొజిషన్ వస్తుందా?)", x: ["on"], why: "next ముందు ప్రిపొజిషన్ రాదు." }
   ],
 
   smalltalk: [
@@ -153,7 +153,7 @@ module.exports = {
     { t: "mc", q: "I don't drink coffee. కి \"నేనూ అంతే (నేనూ తాగను)\" అనాలంటే?", o: ["Me neither.", "Me too.", "So do I.", "Me also."], why: "వ్యతిరేక వాక్యానికి ఊ కొట్టేటప్పుడు Me neither." },
     { t: "mc", q: "సంభాషణను మర్యాదగా ముగించడానికి ఏమంటారు?", o: ["Well, I should get going.", "Okay, bye now go.", "I'm leaving you.", "Stop talking, please."], why: "I should get going అనేది మెల్లగా సెలవు తీసుకునే మాట." },
     { t: "mc", q: "మొదటిసారి కలిసిన వ్యక్తితో మాట కలపడానికి ఏది మంచిది?", o: ["Nice weather today, huh?", "How much do you make?", "Are you married?", "Did you gain weight?"], why: "వాతావరణం అన్నిటికంటే సురక్షితమైన small talk విషయం. జీతం, పెళ్ళి, బరువు వ్యక్తిగత విషయాలు." },
-    { t: "mc", q: "I went to Busan last weekend. విని ఆసక్తి చూపించే మాట ఏది?", o: ["Oh, really? That sounds fun!", "Why?", "So what?", "Me neither."], why: "Oh, really?, That sounds fun! తో ఆసక్తి చూపిస్తాం." },
+    { t: "mc", q: "I went to Vizag last weekend. విని ఆసక్తి చూపించే మాట ఏది?", o: ["Oh, really? That sounds fun!", "Why?", "So what?", "Me neither."], why: "Oh, really?, That sounds fun! తో ఆసక్తి చూపిస్తాం." },
 
     { t: "order", p: "వీకెండ్‌కి ఏమైనా ప్లాన్‌లు ఉన్నాయా?", a: ["Any", "plans", "for", "the", "weekend"], x: ["plan", "a"], why: "ఈ ప్రశ్నలో బహువచనం plans వస్తుంది; రాబోయే ఈ వీకెండ్ కాబట్టి ఆర్టికల్ the." },
     { t: "order", p: "మీతో మాట్లాడటం సంతోషంగా ఉంది", a: ["It", "was", "nice", "talking", "to", "you"], x: ["talk"], why: "సంభాషణ ముగించేటప్పుడు చెప్పే మాట. nice తర్వాత talking వస్తుంది." },
@@ -171,7 +171,7 @@ module.exports = {
   phrasal: [
     { t: "mc", q: "\"అది ఆన్ చెయ్యి\" ఇంగ్లీష్‌లో?", o: ["Turn it on.", "Turn on it.", "Turn it of.", "On turn it."], why: "సర్వనామం it ఫ్రేజల్ వెర్బ్ మధ్యలో వస్తుంది: turn it on." },
     { t: "mc", q: "\"పాలు అయిపోయాయి\" ఇంగ్లీష్‌లో?", o: ["We ran out of milk.", "We ran out milk.", "We ran of out milk.", "We ran off of milk."], why: "run out of = అయిపోవడం. of ని వదిలేయకండి." },
-    { t: "mc", q: "\"నేను దేగులో పెరిగాను\" ఇంగ్లీష్‌లో?", o: ["I grew up in Daegu.", "I grew in Daegu up.", "I growed up in Daegu.", "I grew out in Daegu."], why: "grow up = పెరగడం; దాని V2 grew up." },
+    { t: "mc", q: "\"నేను గుంటూరులో పెరిగాను\" ఇంగ్లీష్‌లో?", o: ["I grew up in Guntur.", "I grew in Guntur up.", "I growed up in Guntur.", "I grew out in Guntur."], why: "grow up = పెరగడం; దాని V2 grew up." },
     { t: "mc", q: "\"నా పిల్లిని కొంచెం చూసుకుంటారా?\" ఇంగ్లీష్‌లో?", o: ["Can you look after my cat?", "Can you look my cat after?", "Can you look for my cat?", "Can you look out my cat?"], why: "look after = చూసుకోవడం. ఇది విడదీయలేని ఫ్రేజల్ వెర్బ్ (look for అంటే \"వెతకడం\")." },
     { t: "mc", q: "\"ఏడు గంటలకు వచ్చి నిన్ను తీసుకెళ్తాను\" ఇంగ్లీష్‌లో?", o: ["I'll pick you up at seven.", "I'll pick up you at seven.", "I'll pick you at seven up.", "I'll up pick you at seven."], why: "సర్వనామం you, pick కీ up కీ మధ్యలో వస్తుంది." },
 
@@ -200,7 +200,7 @@ module.exports = {
     { t: "order", p: "వారానికి రెండుసార్లు", a: ["twice", "a", "week"], x: ["the", "one"], why: "\"వారానికి ఇన్నిసార్లు\" అనడానికి ఆర్టికల్ a వస్తుంది: twice a week." },
 
     { t: "fill", q: "It's __ quarter past ten.", p: "పది గంటల పదిహేను నిమిషాలు అయింది", a: ["a"], o: ["the", "one", "an"], why: "quarter (పావుగంట) ముందు ఆర్టికల్ a వస్తుంది." },
-    { t: "fill", q: "That's fifty __ won.", p: "ఇది యాభై వేల వాన్ (కొరియా కరెన్సీ)", a: ["thousand"], o: ["thousands", "hundred", "million"], why: "50,000 = fifty thousand. సంఖ్య తర్వాత thousand కి బహువచనం -s రాదు." },
+    { t: "fill", q: "That's fifty __ rupees.", p: "ఇది యాభై వేల రూపాయలు", a: ["thousand"], o: ["thousands", "hundred", "million"], why: "50,000 = fifty thousand. సంఖ్య తర్వాత thousand కి బహువచనం -s రాదు." },
     { t: "fill", q: "I'll be there in ten __.", p: "పది నిమిషాల్లో అక్కడ ఉంటాను", a: ["minutes"], o: ["minute", "a minute", "the minutes"], why: "పది నిమిషాలు కాబట్టి బహువచనం: minutes." },
 
     { t: "type", p: "మూడున్నర అయింది", a: ["It's three thirty", "It is three thirty", "It's half past three", "It is half past three", "It's 3:30", "It is 3:30", "Three thirty", "Half past three"], hint: "three · thirty (గంట, నిమిషాలు వరుసగా)", x: ["thirteen"], why: "గంట, నిమిషాలు వరుసగా చదవండి: three thirty. thirteen (13) తో కలిపేయకండి." },
@@ -240,11 +240,11 @@ module.exports = {
     { t: "order", p: "అది నాకు నచ్చే రకం కాదు", a: ["It's", "not", "my", "cup", "of", "tea"], x: ["the"], why: "not my cup of tea ని మొత్తంగా గుర్తుపెట్టుకోండి. my ఉన్న చోట ఆర్టికల్ రాదు." },
 
     { t: "fill", q: "Kill two __ with one stone.", p: "ఒక్క దెబ్బకు రెండు పిట్టలు", a: ["birds"], o: ["bird", "a bird", "the bird"], why: "రెండు పిట్టలు కాబట్టి బహువచనం: birds." },
-    { t: "fill", q: "Speak of the __!", p: "నీకు నూరేళ్ళు ఆయుష్షు! (అనుకుంటుండగానే వచ్చావు)", a: ["devil"], o: ["tiger", "angel", "bird"], why: "మనం \"నూరేళ్ళు ఆయుష్షు\" అనే సందర్భంలో ఇంగ్లీష్‌లో devil (దెయ్యం) అంటారు." },
+    { t: "fill", q: "Speak of the __!", p: "నీకు నూరేళ్ళు ఆయుష్షు! (అనుకుంటుండగానే వచ్చావు)", a: ["devil"], o: ["ghost", "angel", "bird"], why: "మనం \"నూరేళ్ళు ఆయుష్షు\" అనే సందర్భంలో ఇంగ్లీష్‌లో devil (దెయ్యం) అంటారు." },
     { t: "fill", q: "I'm feeling under __ weather.", p: "నా ఒంట్లో కొంచెం బాగాలేదు", a: ["the"], o: ["a", "an", "my"], why: "under the weather: ఆర్టికల్ the అలాగే ఉండాలి." },
 
     { t: "type", p: "ఇది చాలా తేలిక (cake జాతీయం)", a: ["It's a piece of cake", "It is a piece of cake"], hint: "piece · cake (ఆర్టికల్ మరచిపోకండి)", x: ["the"], why: "a piece of cake: ఆర్టికల్ a తప్పనిసరి." },
     { t: "type", p: "అంతా బాగా జరగాలని కోరుకుంటున్నాను (fingers జాతీయం)", a: ["I'll keep my fingers crossed", "I will keep my fingers crossed", "Fingers crossed"], hint: "keep · finger · crossed (వేళ్ళు ఎన్ని?)", x: ["finger"], why: "రెండు వేళ్ళు మెలిపెడతారు కాబట్టి బహువచనం: fingers." },
-    { t: "type", p: "ఈరోజుకు ఇక్కడితో ఆపేద్దాం (day జాతీయం)", a: ["Let's call it a day"], hint: "call it · day (the కాదు)", x: ["the"], why: "call it a day: ఆర్టికల్ the కాదు, a." }
+    { t: "type", p: "ఈరోజుకు ఇక్కడితో ఆపేద్దాం (day జాతీయం)", a: ["Let's call it a day", "Let us call it a day"], hint: "call it · day (the కాదు)", x: ["the"], why: "call it a day: ఆర్టికల్ the కాదు, a." }
   ]
 };

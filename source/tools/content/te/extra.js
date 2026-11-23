@@ -86,7 +86,7 @@ Speak of the devil! | Have you seen Mark today? | Speak of the devil! Here he co
 I'm feeling under the weather. | Are you coming to the party tonight? | I don't think so. I'm feeling under the weather. | ఈ రాత్రి పార్టీకి వస్తున్నావా? / రాలేననుకుంటా. ఒంట్లో కొంచెం నలతగా ఉంది.
 Spill the tea. | I heard something crazy about Jen and Mike. | Wait, what? Spill the tea! | జెన్, మైక్ గురించి ఒక షాకింగ్ విషయం విన్నాను. / ఆగు, ఏంటది? ఆ గాసిప్ ఏంటో చెప్పు!
 No spoilers! | Did you finish the show? The ending is... | No spoilers! I'm only on episode 3. | ఆ సిరీస్ పూర్తి చేశావా? ముగింపులో… / కథ చెప్పేయకు! నేనింకా 3వ ఎపిసోడ్‌లోనే ఉన్నా.
-Who's your bias? | Who's your bias? | Definitely the lead singer. What about you? | నీ ఫేవరెట్ మెంబర్ ఎవరు? / ఇంకెవరు, లీడ్ సింగరే. నీకు?
+Who's your favorite actor? | Who's your favorite actor? | Definitely Mahesh Babu. What about you? | నీ ఫేవరెట్ యాక్టర్ ఎవరు? / ఇంకెవరు, మహేష్ బాబే. నీకు?
 `;
 
 exports.EXAMPLES = `

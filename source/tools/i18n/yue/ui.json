@@ -1,6 +1,6 @@
 {
  "lang": "yue",
- "about": "Interface translations for yue (Cantonese, Hong Kong; Traditional characters, written Cantonese). The only course this interface serves is yue-ko (Korean for Cantonese speakers), so \"Korean\", \"Hangul\" and \"romanization\" keys are translated literally (韓文, 韓文字母, 羅馬拼音). See NOTES.md. Build: python3 tools/i18n/gen.py yue && node tools/i18n/validate.js yue",
+ "about": "Interface translations for yue (Cantonese, Hong Kong; Traditional characters, written Cantonese). This pack serves yue-en (English for Cantonese speakers), so the legacy \"Korean\", \"Hangul\" and \"romanization\" keys say English / 音標, as the key contexts ask for <lang>-en courses. A future yue-ko course overrides those keys in its course UI file. See NOTES.md. Build: python3 tools/i18n/gen.py yue && node tools/i18n/validate.js yue",
  "header": null,
  "reference_ko_notes": [
   "Glossary: session=학습, review=복습, deck=덱, card=카드, due=복습할/복습 대기, streak=연속 학습,",
@@ -14,7 +14,7 @@
  ],
  "exact": {
   "Korean starter": {
-   "t": "韓文入門",
+   "t": "英文入門",
    "ko": "영어 첫걸음",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -101,14 +101,14 @@
    "where": "html <summary> text"
   },
   "Korean (required)": {
-   "t": "韓文（必填）",
+   "t": "英文（必填）",
    "ko": "배울 표현 (필수)",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "html <input> @placeholder"
   },
   "Romanization (auto if blank)": {
-   "t": "羅馬拼音（留空就自動生成）",
+   "t": "音標（留空就自動生成）",
    "ko": "발음 표기 (비워 두면 자동)",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -140,7 +140,7 @@
    "where": "html <summary> text"
   },
   "Korean, romanization, meaning, note — one per line (romanization/note optional)": {
-   "t": "韓文、羅馬拼音、意思、備註——每行一個（羅馬拼音同備註可以唔填）",
+   "t": "英文、音標、意思、備註——每行一個（音標同備註可以唔填）",
    "ko": "표현, 발음 표기, 뜻, 메모 — 한 줄에 하나씩 (발음 표기·메모는 선택)",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -174,7 +174,7 @@
    "where": "html <div> @aria-label"
   },
   "Due": {
-   "t": "要溫",
+   "t": "要溫習",
    "ko": "복습할 카드",
    "kind": "label",
    "context": "filter chip: only cards due for review",
@@ -230,14 +230,14 @@
    "where": "html <option> text"
   },
   "Blur romanization in Browse": {
-   "t": "瀏覽時模糊羅馬拼音",
+   "t": "瀏覽時模糊音標",
    "ko": "둘러보기에서 발음 표기 흐리게",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "html <input> text"
   },
   "flip ·": {
-   "t": "翻轉 ·",
+   "t": "翻面 ·",
    "ko": "뒤집기 ·",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -251,7 +251,7 @@
    "where": "html text"
   },
   "got it ·": {
-   "t": "記得 ·",
+   "t": "記住咗 ·",
    "ko": "알아요 ·",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -347,35 +347,35 @@
    "where": "html text"
   },
   "Read 한→en": {
-   "t": "閱讀 한→粵",
+   "t": "閱讀 英→中",
    "ko": "읽기 영→한",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "html <button> text"
   },
   "Recall en→한": {
-   "t": "回想 粵→한",
+   "t": "回想 中→英",
    "ko": "떠올리기 한→영",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "html <button> text"
   },
   "Listen 🔊→en": {
-   "t": "聆聽 🔊→粵",
+   "t": "聆聽 🔊→中",
    "ko": "듣기 🔊→한",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <button> text"
   },
   "⌨️ Type 한": {
-   "t": "⌨️ 打 한",
+   "t": "⌨️ 打英文",
    "ko": "⌨️ 영어 입력",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "html <button> text"
   },
   "🎚️ Polite ↔ casual drill · 10": {
-   "t": "🎚️ 禮貌 ↔ 半語操練 · 10",
+   "t": "🎚️ 正式 ↔ 隨意操練 · 10",
    "ko": "🎚️ 존댓말 ↔ 반말 훈련 · 10",
    "kind": "sentence",
    "where": "html <button> text"
@@ -388,7 +388,7 @@
    "where": "html <button> text"
   },
   "⚡ 2-minute blitz": {
-   "t": "⚡ 2 分鐘快閃",
+   "t": "⚡ 2 分鐘極速挑戰",
    "ko": "⚡ 2분 스피드 퀴즈",
    "kind": "label",
    "where": "html <button> text"
@@ -400,7 +400,7 @@
    "where": "html <button> text"
   },
   "Show romanization in practice": {
-   "t": "練習時顯示羅馬拼音",
+   "t": "練習時顯示音標",
    "ko": "연습할 때 발음 표기 보기",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -413,7 +413,7 @@
    "where": "html <h2> text"
   },
   "Type the romanization. Hangul blocks stack consonant + vowel (+ final). Your level here is also used in sessions.": {
-   "t": "打出羅馬拼音。韓文音節塊由輔音 + 元音（+ 收音）疊成。你喺度揀嘅程度，每日學習都會用。",
+   "t": "打出讀音。你喺度揀嘅程度，每日學習都會用。",
    "ko": "발음 표기를 입력하세요. 한글 글자는 자음 + 모음 (+ 받침)으로 쌓여요. 여기서 고른 레벨은 학습에도 쓰여요.",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -434,7 +434,7 @@
    "where": "html <button> text"
   },
   "Words + finals": {
-   "t": "生字 + 收音",
+   "t": "生字 + 字尾輔音",
    "ko": "단어 + 받침",
    "kind": "label",
    "where": "html <button> text"
@@ -459,7 +459,7 @@
    "where": "html <button> text"
   },
   "🎚️ Polite ↔ casual": {
-   "t": "🎚️ 禮貌 ↔ 半語",
+   "t": "🎚️ 正式 ↔ 隨意",
    "ko": "🎚️ 존댓말 ↔ 반말",
    "kind": "label",
    "where": "html <button> text"
@@ -498,20 +498,20 @@
    "where": "html <button> text"
   },
   "How a block is built": {
-   "t": "音節塊點砌",
+   "t": "英文字點樣串",
    "ko": "글자는 이렇게 만들어져요",
    "kind": "sentence",
    "where": "html <h3> text"
   },
   "(han). Vertical vowels (ㅏㅓㅣ) sit right of the consonant; horizontal vowels (ㅗㅜㅡ) sit below. A final consonant always goes at the bottom.": {
-   "t": "(han)。直嘅元音（ㅏㅓㅣ）放喺輔音右邊；橫嘅元音（ㅗㅜㅡ）放喺下面。收音一定喺最底。",
+   "t": "(han)。英文嘅串法唔一定反映發音：聽吓把聲，留意重音喺邊個音節。",
    "ko": "(han). 세로 모음(ㅏㅓㅣ)은 자음 오른쪽에, 가로 모음(ㅗㅜㅡ)은 자음 아래에 와요. 받침은 항상 맨 아래에 들어가요.",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "html text"
   },
   "day streak": {
-   "t": "連續打卡日數",
+   "t": "連續日數",
    "ko": "일 연속 학습",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -537,7 +537,7 @@
    "where": "html <h3> text"
   },
   "Reviews coming up": {
-   "t": "就嚟要溫",
+   "t": "就嚟要溫習",
    "ko": "다가오는 복습",
    "kind": "label",
    "where": "html <h3> text"
@@ -562,7 +562,7 @@
    "where": "html <button> text"
   },
   "Level 1": {
-   "t": "等級 1",
+   "t": "第 1 級",
    "ko": "레벨 1",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -596,7 +596,7 @@
    "where": "html <label> text"
   },
   "Share your streak": {
-   "t": "分享連續打卡",
+   "t": "分享連續紀錄",
    "ko": "연속 학습 자랑하기",
    "kind": "label",
    "where": "html <h3> text"
@@ -609,14 +609,14 @@
    "where": "html <button> text"
   },
   "Certificates": {
-   "t": "證書",
+   "t": "結業證書",
    "ko": "수료증",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <h3> text"
   },
   "80% mastery of every deck in a group + all checks": {
-   "t": "一組入面每個卡組掌握 80% + 所有課堂測驗合格",
+   "t": "一組入面每個卡組掌握 80% + 所有課後小測合格",
    "ko": "그룹의 모든 덱 80% 마스터 + 확인 문제 모두 통과",
    "kind": "sentence",
    "where": "html <span> text"
@@ -719,13 +719,13 @@
    "where": "html <input> text"
   },
   "Unlock everything (skip the guided path)": {
-   "t": "全部解鎖（跳過引導路線）",
+   "t": "全部解鎖（略過引導路線）",
    "ko": "전부 열기 (학습 순서 건너뛰기)",
    "kind": "sentence",
    "where": "html <input> text"
   },
   "한국어 UI (menu labels in Korean)": {
-   "t": "한국어 介面（選單用韓文顯示）",
+   "t": "中文介面（選單用中文顯示）",
    "ko": "한국어 UI (메뉴를 한국어로)",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content; legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -1195,7 +1195,7 @@
    "where": "js admin() <button>"
   },
   "Heart": {
-   "t": "讚",
+   "t": "讚好",
    "ko": "하트",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1271,7 +1271,7 @@
    "where": "js j()"
   },
   "Browser storage is full or blocked — progress may not persist here": {
-   "t": "瀏覽器儲存空間滿咗或者被封鎖——進度可能唔會喺度保存",
+   "t": "瀏覽器儲存空間滿咗或者封鎖咗——進度可能唔會喺度保存",
    "ko": "브라우저 저장 공간이 가득 찼거나 막혀 있어요 — 여기서는 진도가 저장되지 않을 수 있어요",
    "kind": "sentence",
    "where": "js flushSave()"
@@ -1313,7 +1313,7 @@
    "where": "js j()"
   },
   "That code didn't work — check it or request a new one.": {
-   "t": "個驗證碼用唔到——檢查下或者攞過個新嘅。",
+   "t": "個驗證碼用唔到——檢查吓或者攞過個新嘅。",
    "ko": "코드가 맞지 않아요 — 다시 확인하거나 새 코드를 요청하세요.",
    "kind": "sentence",
    "where": "js j()"
@@ -1382,7 +1382,7 @@
    "where": "js sbSendLink()"
   },
   "Email just sent — check your inbox (and spam) before trying again.": {
-   "t": "啱啱寄咗電郵——再試之前，先睇下收件匣（同垃圾郵件）。",
+   "t": "啱啱寄咗電郵——再試之前，先睇吓收件匣（同垃圾郵件）。",
    "ko": "방금 이메일을 보냈어요 — 다시 시도하기 전에 받은편지함(스팸함 포함)을 확인하세요.",
    "kind": "sentence",
    "where": "js sbSendLink()"
@@ -1476,7 +1476,7 @@
    "where": "js sh() <h3>"
   },
   "Enter your email and we'll send a sign-in link and a 6-digit code. No password. Your progress merges with what's already on this device.": {
-   "t": "輸入你嘅電郵，我哋會寄一條登入連結同一個 6 位數驗證碼俾你。唔使密碼。你嘅進度會同呢部裝置已有嘅合併。",
+   "t": "輸入你嘅電郵，我哋會寄一條登入連結同一個 6 位數驗證碼畀你。唔使密碼。你嘅進度會同呢部裝置已有嘅合併。",
    "ko": "이메일을 입력하면 로그인 링크와 6자리 코드를 보내 드려요. 비밀번호는 필요 없어요. 진도는 이 기기에 있는 기록과 합쳐져요.",
    "kind": "sentence",
    "where": "js sh() <p>"
@@ -1501,13 +1501,13 @@
    "where": "js msg()"
   },
   "Check your email.": {
-   "t": "去睇下你嘅電郵。",
+   "t": "去睇吓你嘅電郵。",
    "ko": "이메일을 확인하세요.",
    "kind": "sentence",
    "where": "js em() <b>"
   },
   "Tap the link, or enter the code below.": {
-   "t": "撳條連結，或者喺下面輸入驗證碼。",
+   "t": "按條連結，或者喺下面輸入驗證碼。",
    "ko": "링크를 누르거나 아래에 코드를 입력하세요.",
    "kind": "sentence",
    "where": "js em()"
@@ -1525,7 +1525,7 @@
    "where": "js pl()"
   },
   "Hangul, flashcards with audio, quizzes and a 5-minute daily session. Before you start — how should we save your progress?": {
-   "t": "韓文字母、有聲字卡、小測，仲有每日 5 分鐘嘅學習。開始之前——你想點樣儲存進度？",
+   "t": "有聲字卡、小測，仲有每日 5 分鐘嘅學習。開始之前——你想點樣儲存進度？",
    "ko": "소리 나는 플래시카드, 퀴즈, 하루 5분 학습. 시작하기 전에 — 진도를 어떻게 저장할까요?",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -1538,7 +1538,7 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "We email you a sign-in link + 6-digit code. No password. Your progress follows you to any phone or laptop.": {
-   "t": "我哋會電郵一條登入連結 + 6 位數驗證碼俾你。唔使密碼。你用邊部手機或者電腦，進度都會跟住你。",
+   "t": "我哋會電郵一條登入連結 + 6 位數驗證碼畀你。唔使密碼。你用邊部手機或者電腦，進度都會跟住你。",
    "ko": "로그인 링크와 6자리 코드를 이메일로 보내 드려요. 비밀번호는 필요 없어요. 어떤 폰이나 노트북에서도 진도가 이어져요.",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -1654,7 +1654,7 @@
    "where": "js r()"
   },
   "Learning Korean 5 minutes a day with Lang App 🇰🇷": {
-   "t": "我用緊 Lang App 每日學 5 分鐘韓文 🇰🇷",
+   "t": "我用緊 Lang App 每日學 5 分鐘英文 🇺🇸",
    "ko": "Lang App으로 하루 5분 영어 공부 중 🇺🇸",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -1688,7 +1688,7 @@
    "where": "js STR()"
   },
   "Got it": {
-   "t": "記得",
+   "t": "記住咗",
    "ko": "알아요",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1767,7 +1767,7 @@
    "where": "html <button> text"
   },
   "tap to flip · swipe to answer": {
-   "t": "撳一下翻轉 · 掃一掃作答",
+   "t": "按一下翻面 · 滑動作答",
    "ko": "탭해서 뒤집기 · 밀어서 답하기",
    "kind": "sentence",
    "where": "js boxTxt() <span>"
@@ -1793,7 +1793,7 @@
    "where": "js boxTxt() <button>"
   },
   "Got it:": {
-   "t": "記得：",
+   "t": "記住咗：",
    "ko": "알아요:",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -1870,33 +1870,33 @@
    "where": "js pv() <button>"
   },
   "👆 Tap": {
-   "t": "👆 撳",
+   "t": "👆 按",
    "ko": "👆 탭해서",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js ov() <b>"
   },
   "the card to flip": {
-   "t": "張卡就會翻轉",
+   "t": "張卡就會翻面",
    "ko": "카드를 뒤집어요",
    "kind": "label",
    "where": "js ov()"
   },
   "👉 Swipe right": {
-   "t": "👉 向右掃",
+   "t": "👉 向右滑",
    "ko": "👉 오른쪽으로 밀면",
    "kind": "label",
    "where": "js ov() <b>"
   },
   "= Got it ·": {
-   "t": "= 記得 ·",
+   "t": "= 記住咗 ·",
    "ko": "= 알아요 ·",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "👈 left": {
-   "t": "👈 向左",
+   "t": "👈 向左滑",
    "ko": "👈 왼쪽은",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2026,7 +2026,7 @@
    "where": "js u()"
   },
   "Browsing · tap 🔊 to hear": {
-   "t": "瀏覽緊 · 撳 🔊 聽",
+   "t": "瀏覽緊 · 按 🔊 聽",
    "ko": "둘러보는 중 · 🔊를 누르면 들려요",
    "kind": "sentence",
    "where": "js u()"
@@ -2056,7 +2056,7 @@
    "where": "js SPK() <div>"
   },
   "Got it — quiz me": {
-   "t": "記得——考我",
+   "t": "記住咗——考我",
    "ko": "알겠어요 — 퀴즈 내 주세요",
    "kind": "sentence",
    "where": "js goLbl()"
@@ -2081,13 +2081,13 @@
    "where": "js lp()"
   },
   "No cards due right now.": {
-   "t": "而家冇卡要溫。",
+   "t": "而家冇卡要溫習。",
    "ko": "지금 복습할 카드가 없어요.",
    "kind": "sentence",
    "where": "js msg()"
   },
   "Nothing due in this deck right now.": {
-   "t": "呢個卡組而家冇嘢要溫。",
+   "t": "呢個卡組而家冇卡要溫習。",
    "ko": "이 덱에는 지금 복습할 카드가 없어요.",
    "kind": "sentence",
    "where": "js msg()"
@@ -2111,7 +2111,7 @@
    "where": "js next() <a>"
   },
   "No match. Try the English meaning.": {
-   "t": "搵唔到。試下用中文意思搜尋。",
+   "t": "搵唔到。試吓用中文意思搜尋。",
    "ko": "결과가 없어요. 한국어 뜻으로 검색해 보세요.",
    "kind": "sentence",
    "where": "js hits() <p>"
@@ -2124,7 +2124,7 @@
    "where": "js (top level)"
   },
   "⏰ All due": {
-   "t": "⏰ 全部要溫",
+   "t": "⏰ 全部要溫習",
    "ko": "⏰ 복습할 카드 전부",
    "kind": "label",
    "where": "js quickReview()"
@@ -2162,7 +2162,7 @@
    "where": "js b()"
   },
   "모두 열렸어요 · Everything unlocked": {
-   "t": "모두 열렸어요 · 全部已解鎖",
+   "t": "全部已解鎖",
    "ko": "모두 열렸어요 · 전체 잠금 해제",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
@@ -2206,7 +2206,7 @@
    "where": "html <h3> text"
   },
   "Polite ↔ casual": {
-   "t": "禮貌 ↔ 半語",
+   "t": "正式 ↔ 隨意",
    "ko": "존댓말 ↔ 반말",
    "kind": "label",
    "where": "html <button> text"
@@ -2325,14 +2325,14 @@
    "where": "js renderTypeQ() <div>"
   },
   "type it in Hangul": {
-   "t": "用韓文字母打",
+   "t": "用英文打",
    "ko": "영어로 입력하세요",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "js renderTypeQ() <div>"
   },
   "Type the Korean, or tap Check again to give up.": {
-   "t": "打韓文，或者再撳「檢查」放棄。",
+   "t": "打英文，或者再按「檢查」放棄。",
    "ko": "영어로 입력하세요. 포기하려면 확인을 한 번 더 누르세요.",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -2346,13 +2346,13 @@
    "where": "js (top level)"
   },
   "tap the words in order": {
-   "t": "順序撳啲字",
+   "t": "順序按啲字",
    "ko": "단어를 순서대로 누르세요",
    "kind": "sentence",
    "where": "js draw() <div>"
   },
   "Skip": {
-   "t": "跳過",
+   "t": "略過",
    "ko": "건너뛰기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2405,28 +2405,28 @@
    "where": "js o() <div>"
   },
   "Make it polite (요-form)": {
-   "t": "轉做禮貌講法（요體）",
+   "t": "轉做正式講法",
    "ko": "존댓말로 바꾸세요 (요-형)",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js opts() <div>"
   },
   "Make it casual (반말)": {
-   "t": "轉做半語（반말）",
+   "t": "轉做隨意講法",
    "ko": "반말로 바꾸세요",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js opts() <div>"
   },
   "casual → polite: add 요 (or the honorific verb)": {
-   "t": "半語 → 禮貌：加 요（或者用尊敬動詞）",
+   "t": "隨意 → 正式：換個有禮貌啲嘅講法",
    "ko": "반말 → 존댓말: 요를 붙여요 (또는 높임 동사)",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js ok()"
   },
   "polite → casual: drop 요": {
-   "t": "禮貌 → 半語：刪咗 요",
+   "t": "正式 → 隨意：換個隨意啲嘅講法",
    "ko": "존댓말 → 반말: 요를 빼요",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
@@ -2547,7 +2547,7 @@
    "where": "js it() <input> @placeholder"
   },
   "Romanization": {
-   "t": "羅馬拼音",
+   "t": "讀音",
    "ko": "발음 표기",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -2560,7 +2560,7 @@
    "where": "js a() <span>"
   },
   "), or type the Hangul itself.": {
-   "t": "），或者直接打韓文字母。",
+   "t": "），或者直接打個英文字。",
    "ko": "), 또는 한글을 직접 입력해도 돼요.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing; legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -2612,7 +2612,7 @@
    "where": "js pass()"
   },
   "Flip it, listen, then tap Got it once it sticks.": {
-   "t": "翻轉、聽一聽，記得咗就撳「記得」。",
+   "t": "翻面、聽一聽，記熟咗就按「記住咗」。",
    "ko": "뒤집고, 들어 보고, 외워지면 알아요를 누르세요.",
    "kind": "sentence",
    "where": "js x() <p>"
@@ -2689,7 +2689,7 @@
    "where": "html <button> text"
   },
   "Streak at risk": {
-   "t": "連續打卡就嚟斷",
+   "t": "連續紀錄就嚟斷",
    "ko": "연속 학습이 끊길 위기",
    "kind": "label",
    "where": "js atRisk() <b>"
@@ -2809,7 +2809,7 @@
    "where": "js lessonNext()"
   },
   "due": {
-   "t": "要溫",
+   "t": "要溫習",
    "ko": "복습 대기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2861,7 +2861,7 @@
    "where": "js lessonNext() <button>"
   },
   "Review due cards": {
-   "t": "溫要溫嘅卡",
+   "t": "溫習到期嘅卡",
    "ko": "복습할 카드 복습",
    "kind": "label",
    "where": "js lessonNext() <span>"
@@ -2888,7 +2888,7 @@
    "where": "js STR()"
   },
   "Hangul drill": {
-   "t": "韓文字母操練",
+   "t": "閱讀操練",
    "ko": "읽기 훈련",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -2993,7 +2993,7 @@
    "where": "html <h2> text"
   },
   "Streak": {
-   "t": "連續打卡",
+   "t": "連續日數",
    "ko": "연속 학습",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3025,7 +3025,7 @@
    "where": "js names2()"
   },
   "polite↔casual": {
-   "t": "禮貌↔半語",
+   "t": "正式↔隨意",
    "ko": "존댓말↔반말",
    "kind": "label",
    "where": "js names2()"
@@ -3155,7 +3155,7 @@
    "where": "js wks()"
   },
   "Trip to Korea": {
-   "t": "去韓國旅行",
+   "t": "去外地旅行",
    "ko": "해외여행 준비",
    "kind": "label",
    "where": "js PLAN_PRESETS()"
@@ -3173,14 +3173,14 @@
    "where": "js ids()"
   },
   "안녕하세요 👋 Two quick questions": {
-   "t": "안녕하세요 👋 兩條快問題",
+   "t": "你好 👋 兩條快問題",
    "ko": "안녕하세요 👋 간단한 질문 두 개만 할게요",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js box() <h2>"
   },
   "Can you already read Hangul?": {
-   "t": "你識唔識讀韓文字母？",
+   "t": "你已經識讀英文未？",
    "ko": "영어를 읽을 수 있나요?",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -3207,7 +3207,7 @@
    "where": "js box() <button>"
   },
   "What do you want Korean for?": {
-   "t": "你學韓文想用嚟做乜？",
+   "t": "你學英文想用嚟做乜？",
    "ko": "영어를 왜 배우고 싶으세요?",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -3259,7 +3259,7 @@
    "where": "js GOALS()"
   },
   "K-dramas & music": {
-   "t": "韓劇同音樂",
+   "t": "劇集同音樂",
    "ko": "드라마 & 음악",
    "kind": "label",
    "where": "js GOALS()"
@@ -3271,44 +3271,44 @@
    "where": "js GOALS()"
   },
   "Skip tour": {
-   "t": "跳過導覽",
+   "t": "略過導覽",
    "ko": "안내 건너뛰기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js ov() <button>"
   },
   "One button, one session. Due reviews, new cards, a quick quiz and drills, mixed for you.": {
-   "t": "一個掣，一節學習。要溫嘅卡、新卡、快速小測同操練，幫你混埋一齊。",
+   "t": "一個掣，一節學習。要溫習嘅卡、新卡、快速小測同操練，幫你混埋一齊。",
    "ko": "버튼 하나로 학습 한 번. 복습할 카드, 새 카드, 빠른 퀴즈와 훈련을 알아서 섞어 드려요.",
    "kind": "sentence",
    "where": "js TOUR()"
   },
   "Learn 5 cards at a time, quiz them, then 5 more. Tests, weak spots, blitz and exams live here too.": {
-   "t": "每次學 5 張卡，小測完再學 5 張。全部測一次、弱項、快閃同考試都喺度。",
+   "t": "每次學 5 張卡，小測完再學 5 張。全部測一次、弱項、極速挑戰同考試都喺度。",
    "ko": "카드를 5장씩 배우고 퀴즈로 확인한 뒤 또 5장. 테스트, 약점 공략, 스피드 퀴즈, 시험도 여기 있어요.",
    "kind": "sentence",
    "where": "js TOUR()"
   },
   "Spaced repetition. \"All due\" across decks, swipe right for got it, left for again. Browse any deck as a list.": {
-   "t": "間隔重複。「全部要溫」包晒所有卡組，向右掃係記得，向左係再嚟。任何卡組都可以用清單瀏覽。",
+   "t": "間隔重複。「全部要溫習」包晒所有卡組，向右滑係記住咗，向左係再嚟。任何卡組都可以用清單瀏覽。",
    "ko": "간격 반복 복습이에요. 모든 덱의 \"복습할 카드 전부\"를 모아 보고, 오른쪽으로 밀면 알아요, 왼쪽은 다시. 덱을 목록으로 둘러볼 수도 있어요.",
    "kind": "sentence",
    "where": "js TOUR()"
   },
   "Reading, listening, sentence building, role-play, numbers, polite ↔ casual — pick a drill.": {
-   "t": "閱讀、聆聽、砌句、角色扮演、數字、禮貌 ↔ 半語——揀一個操練。",
+   "t": "閱讀、聆聽、砌句、角色扮演、數字、正式 ↔ 隨意——揀一個操練。",
    "ko": "읽기, 듣기, 문장 만들기, 역할극, 숫자, 존댓말 ↔ 반말 — 훈련을 골라 보세요.",
    "kind": "sentence",
    "where": "js TOUR()"
   },
   "Streak, levels, forecasts, how you learn, backups and every setting.": {
-   "t": "連續打卡、等級、預測、你點樣學、備份同所有設定。",
+   "t": "連續日數、等級、預測、你點樣學、備份同所有設定。",
    "ko": "연속 학습, 레벨, 복습 예측, 학습 패턴, 백업과 모든 설정이 있어요.",
    "kind": "sentence",
    "where": "js TOUR()"
   },
   "⚡ Blitz": {
-   "t": "⚡ 快閃",
+   "t": "⚡ 極速挑戰",
    "ko": "⚡ 스피드 퀴즈",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3329,7 +3329,7 @@
    "where": "html <button> text"
   },
   "🎚️ Polite↔casual": {
-   "t": "🎚️ 禮貌↔半語",
+   "t": "🎚️ 正式↔隨意",
    "ko": "🎚️ 존댓말↔반말",
    "kind": "label",
    "where": "js QUICK()"
@@ -3457,7 +3457,7 @@
    "where": "js b() <button>"
   },
   "Quick check": {
-   "t": "課堂測驗",
+   "t": "課後小測",
    "ko": "확인 문제",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3510,7 +3510,7 @@
    "where": "js step() <div>"
   },
   "· now pass the quick check above": {
-   "t": "· 而家要通過上面嘅課堂測驗",
+   "t": "· 而家要通過上面嘅課後小測",
    "ko": "· 이제 위의 확인 문제를 통과하세요",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -3530,20 +3530,20 @@
    "where": "js step() <a>"
   },
   "Enter a dictionary form ending in 다.": {
-   "t": "輸入以 다 結尾嘅原形。",
+   "t": "輸入動詞原形（例如 go）。",
    "ko": "다로 끝나는 기본형을 입력하세요.",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js r() <p>"
   },
   "polite present": {
-   "t": "禮貌 · 現在式",
+   "t": "正式 · 現在式",
    "ko": "존댓말 현재",
    "kind": "label",
    "where": "js PATTERNS()"
   },
   "polite past": {
-   "t": "禮貌 · 過去式",
+   "t": "正式 · 過去式",
    "ko": "존댓말 과거",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3575,14 +3575,14 @@
    "where": "js l() <p>"
   },
   "dictionary form, e.g. 먹다": {
-   "t": "原形，例如 먹다",
+   "t": "動詞原形，例如 eat",
    "ko": "기본형, 예: 먹다",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js rows() <input> @placeholder"
   },
   "Search a pattern, e.g. 에서 or 'want'": {
-   "t": "搜尋句式，例如 에서 或者「想」",
+   "t": "搜尋句式，例如 at 或者「想」",
    "ko": "패턴 검색, 예: 에서 또는 '원하다'",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
@@ -3616,7 +3616,7 @@
    "where": "js rows() <button>"
   },
   "Try 가다 · 먹다 · 하다 · 마시다 · 예쁘다 · 듣다 · 돕다 · 살다 · 모르다": {
-   "t": "試下 가다 · 먹다 · 하다 · 마시다 · 예쁘다 · 듣다 · 돕다 · 살다 · 모르다",
+   "t": "試吓 go · eat · do · drink · see · hear · help · live · know",
    "ko": "가다 · 먹다 · 하다 · 마시다 · 예쁘다 · 듣다 · 돕다 · 살다 · 모르다 를 넣어 보세요",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
@@ -3656,49 +3656,49 @@
    "where": "html <button> text"
   },
   "verb stem + 지": {
-   "t": "動詞詞幹 + 지",
+   "t": "動詞詞幹 + 詞尾",
    "ko": "동사 어간 + 지",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js toks()"
   },
   "verb + 도 (even if)": {
-   "t": "動詞 + 도（就算）",
+   "t": "動詞 + 「就算」",
    "ko": "동사 + 도 (~해도)",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js toks()"
   },
   "+ 요 (polite)": {
-   "t": "+ 요（禮貌）",
+   "t": "+ 正式講法",
    "ko": "+ 요 (존댓말)",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js stem()"
   },
   "verb · past (았/었어요)": {
-   "t": "動詞 · 過去式（았/었어요）",
+   "t": "動詞 · 過去式",
    "ko": "동사 · 과거 (았/었어요)",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js stem()"
   },
   "don't (지 마)": {
-   "t": "唔好（지 마）",
+   "t": "唔好……（禁止）",
    "ko": "~하지 마 (지 마)",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js toks()"
   },
   "is it okay? (-아/어도 돼요)": {
-   "t": "可唔可以？（-아/어도 돼요）",
+   "t": "可唔可以……？",
    "ko": "~해도 돼요? (-아/어도 돼요)",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js toks()"
   },
   "not okay? (-(으)면 안 돼요)": {
-   "t": "唔可以？（-(으)면 안 돼요）",
+   "t": "唔可以……？",
    "ko": "~하면 안 돼요? (-(으)면 안 돼요)",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
@@ -3866,7 +3866,7 @@
    "where": "js vs()"
   },
   "Tap again to confirm": {
-   "t": "再撳一次確認",
+   "t": "再按一次確認",
    "ko": "한 번 더 누르면 실행돼요",
    "kind": "label",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -3892,26 +3892,26 @@
    "where": "js b()"
   },
   "Long-press / right-click the image to share it.": {
-   "t": "長按 / 右撳張圖嚟分享。",
+   "t": "長按 / 按右鍵就可以分享張圖。",
    "ko": "이미지를 길게 누르거나 오른쪽 클릭해서 공유하세요.",
    "kind": "sentence",
    "where": "js a()"
   },
   "Streak card": {
-   "t": "打卡分享卡",
+   "t": "連續紀錄分享卡",
    "ko": "연속 학습 카드",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js img()"
   },
   "Or long-press / right-click the image to share it.": {
-   "t": "或者長按 / 右撳張圖嚟分享。",
+   "t": "或者長按 / 按右鍵分享張圖。",
    "ko": "또는 이미지를 길게 누르거나 오른쪽 클릭해서 공유하세요.",
    "kind": "sentence",
    "where": "js a()"
   },
   "Long-press or right-click the image to save or share it.": {
-   "t": "長按或者右撳張圖嚟儲存或分享。",
+   "t": "長按或者按右鍵就可以儲存或分享張圖。",
    "ko": "이미지를 길게 누르거나 오른쪽 클릭해서 저장하거나 공유하세요.",
    "kind": "sentence",
    "where": "js a()"
@@ -3957,7 +3957,7 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "DAY STREAK": {
-   "t": "連續打卡日數",
+   "t": "連續日數",
    "ko": "일 연속 학습",
    "kind": "canvas",
    "context": "drawn on a canvas image (share card / certificate), uppercase in English; keep short",
@@ -3992,28 +3992,28 @@
    "where": "js stats()"
   },
   "STREAK": {
-   "t": "連續打卡",
+   "t": "連續日數",
    "ko": "연속 학습",
    "kind": "canvas",
    "context": "drawn on a canvas image (share card / certificate), uppercase in English; keep short",
    "where": "js stats()"
   },
   "CERTIFICATE OF COMPLETION": {
-   "t": "完成證書",
+   "t": "結業證書",
    "ko": "수료증",
    "kind": "canvas",
    "context": "drawn on a canvas image (share card / certificate), uppercase in English; keep short",
    "where": "js x()"
   },
   "KOREAN STARTER": {
-   "t": "韓文入門",
+   "t": "英文入門",
    "ko": "영어 첫걸음",
    "kind": "canvas",
    "context": "drawn on a canvas image (share card / certificate), uppercase in English; keep short; legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "js cards()"
   },
   "cards mastered to 80%+ · all lesson checks passed": {
-   "t": "卡掌握到 80% 以上 · 所有課堂測驗合格",
+   "t": "卡掌握到 80% 以上 · 所有課後小測合格",
    "ko": "카드 80% 이상 마스터 · 레슨 확인 문제 모두 통과",
    "kind": "sentence",
    "where": "js cards()"
@@ -4033,7 +4033,7 @@
    "where": "js TITLES()"
   },
   "Student": {
-   "t": "學生",
+   "t": "學員",
    "ko": "학생",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4075,35 +4075,35 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Talker": {
-   "t": "傾偈達人",
+   "t": "健談",
    "ko": "수다쟁이",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Traveler": {
-   "t": "旅人",
+   "t": "旅行者",
    "ko": "여행자",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Local": {
-   "t": "地膽",
+   "t": "本地通",
    "ko": "현지인",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js v()"
   },
   "Learn Korean, 5 minutes a day": {
-   "t": "學韓文，每日 5 分鐘",
+   "t": "學英文，每日 5 分鐘",
    "ko": "하루 5분, 영어 공부",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "js sub()"
   },
   "목표 달성! Daily goal reached 🎉": {
-   "t": "목표 달성! 今日目標達成 🎉",
+   "t": "目標達成！今日目標完成 🎉",
    "ko": "목표 달성! 오늘 목표를 채웠어요 🎉",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
@@ -4117,27 +4117,27 @@
    "where": "js days()"
   },
   "= Got it  ·": {
-   "t": "= 記得  ·",
+   "t": "= 記住咗  ·",
    "ko": "= 알아요  ·",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Korean progress": {
-   "t": "韓文進度",
+   "t": "英文進度",
    "ko": "영어 학습 진도",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "tap to skip": {
-   "t": "撳一下跳過",
+   "t": "按一下略過",
    "ko": "탭해서 건너뛰기",
    "kind": "label",
    "where": "js skip()"
   },
   "tap anywhere to continue": {
-   "t": "撳任何地方繼續",
+   "t": "按任何地方繼續",
    "ko": "아무 곳이나 탭해서 계속하기",
    "kind": "label",
    "where": "js eTag()"
@@ -4174,13 +4174,13 @@
    "where": "js PAUSE_EXTRA()"
   },
   "Tap to start again": {
-   "t": "撳一下重新開始",
+   "t": "按一下重新開始",
    "ko": "탭해서 다시 시작",
    "kind": "label",
    "where": "js PAUSE_EXTRA()"
   },
   "사자성어 · four-character idiom": {
-   "t": "사자성어 · 四字成語",
+   "t": "習語",
    "ko": "사자성어 · 네 글자 관용구",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
@@ -4194,13 +4194,13 @@
    "where": "js (top level)"
   },
   "good afternoon": {
-   "t": "午安",
+   "t": "你好",
    "ko": "좋은 오후예요",
    "kind": "label",
    "where": "js x()"
   },
   "good evening": {
-   "t": "晚上好",
+   "t": "你好",
    "ko": "좋은 저녁이에요",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4248,14 +4248,14 @@
    "where": "js STR()"
   },
   "Auto-flip": {
-   "t": "自動翻轉",
+   "t": "自動翻面",
    "ko": "자동 뒤집기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js STR()"
   },
   "Hide romanization": {
-   "t": "隱藏羅馬拼音",
+   "t": "隱藏音標",
    "ko": "발음 표기 숨기기",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -4313,38 +4313,38 @@
    "where": "html <button> @aria-label"
   },
   "Pronunciation hint": {
-   "t": "發音提示",
+   "t": "音標",
    "ko": "발음 힌트",
    "kind": "label",
    "where": "js ENGINE_I18N()"
   },
   "Show pronunciation in practice": {
-   "t": "練習時顯示發音提示",
+   "t": "練習時顯示音標",
    "ko": "연습할 때 발음 보기",
    "kind": "label",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Aa pronunciation: on": {
-   "t": "Aa 發音提示：開",
+   "t": "Aa 音標：開",
    "ko": "Aa 발음: 켜짐",
    "kind": "label",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Aa pronunciation: off": {
-   "t": "Aa 發音提示：關",
+   "t": "Aa 音標：關",
    "ko": "Aa 발음: 꺼짐",
    "kind": "label",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Aa romanization: on": {
-   "t": "Aa 羅馬拼音：開",
+   "t": "Aa 音標：開",
    "ko": "Aa 발음 표기: 켜짐",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Aa romanization: off": {
-   "t": "Aa 羅馬拼音：關",
+   "t": "Aa 音標：關",
    "ko": "Aa 발음 표기: 꺼짐",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -4393,7 +4393,7 @@
    "where": "js register()"
   },
   "Pronunciation hint (auto if blank)": {
-   "t": "發音提示（留空就自動生成）",
+   "t": "音標（留空就自動生成）",
    "ko": "발음 힌트 (비워 두면 자동)",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -4524,7 +4524,7 @@
    "where": "html <button> text"
   },
   "Tap again to erase this course": {
-   "t": "再撳一次就清除呢個課程",
+   "t": "再按一次就清除呢個課程",
    "ko": "한 번 더 누르면 이 코스 진도를 지워요",
    "kind": "sentence",
    "where": "js g()"
@@ -4548,7 +4548,7 @@
    "where": "js u()"
   },
   "Language · 언어": {
-   "t": "語言 · 언어",
+   "t": "語言 · Language",
    "ko": "언어",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
@@ -4672,7 +4672,7 @@
    ]
   },
   "Due for review": {
-   "t": "要溫",
+   "t": "要溫習",
    "ko": null,
    "kind": "label",
    "context": "LL — Pause scene tag",
@@ -4682,7 +4682,7 @@
    ]
   },
   "Idiom": {
-   "t": "成語",
+   "t": "習語",
    "ko": null,
    "kind": "label",
    "context": "LL — Pause scene tag",
@@ -4812,7 +4812,7 @@
    ]
   },
   "tap the words": {
-   "t": "撳啲字",
+   "t": "按啲字",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice runner heading suffix (shown as <heading> · tap the words)",
@@ -4822,7 +4822,7 @@
    ]
   },
   "tap the answer": {
-   "t": "撳答案",
+   "t": "按答案",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice runner heading suffix",
@@ -4842,7 +4842,7 @@
    ]
   },
   "Tap the words below": {
-   "t": "撳下面啲字",
+   "t": "按下面啲字",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice runner tiles placeholder",
@@ -4992,7 +4992,7 @@
    ]
   },
   "Coming soon · tap to preview": {
-   "t": "即將推出 · 撳一下預覽",
+   "t": "即將推出 · 按一下預覽",
    "ko": null,
    "kind": "sentence",
    "context": "language home LLin — Language home step 2 locked list heading (after 🔒)",
@@ -5062,7 +5062,7 @@
    ]
   },
   "Check your email": {
-   "t": "去睇下你嘅電郵",
+   "t": "去睇吓你嘅電郵",
    "ko": null,
    "kind": "label",
    "context": "pre-native preBi/preLine — Welcome step 2 message (bold part)",
@@ -5132,7 +5132,7 @@
    ]
   },
   "Good afternoon": {
-   "t": "午安",
+   "t": "你好",
    "ko": null,
    "kind": "label",
    "context": "i18nGet (optional gloss) — Today greeting gloss",
@@ -5142,7 +5142,7 @@
    ]
   },
   "Good evening": {
-   "t": "晚上好",
+   "t": "你好",
    "ko": null,
    "kind": "label",
    "context": "i18nGet (optional gloss) — Today greeting gloss",
@@ -5161,7 +5161,7 @@
    ]
   },
   "Show pronunciation hints in practice": {
-   "t": "練習時顯示發音提示",
+   "t": "練習時顯示音標",
    "ko": null,
    "kind": "sentence",
    "where": "requested from JS (docs/LL-KEYS.md #105)",
@@ -5170,7 +5170,7 @@
    ]
   },
   "Blur pronunciation hints in Browse": {
-   "t": "瀏覽時模糊發音提示",
+   "t": "瀏覽時模糊音標",
    "ko": null,
    "kind": "sentence",
    "where": "requested from JS (docs/LL-KEYS.md #106)",
@@ -5179,7 +5179,7 @@
    ]
   },
   "Pronunciation hint (optional)": {
-   "t": "發音提示（選填）",
+   "t": "音標（選填）",
    "ko": null,
    "kind": "sentence",
    "where": "requested from JS (docs/LL-KEYS.md #107)",
@@ -5188,7 +5188,7 @@
    ]
   },
   "English, pronunciation, meaning, note — one per line (pronunciation/note optional)": {
-   "t": "英文、發音、意思、備註——每行一個（發音同備註可以唔填）",
+   "t": "英文、音標、意思、備註——每行一個（音標同備註可以唔填）",
    "ko": null,
    "kind": "sentence",
    "where": "requested from JS (docs/LL-KEYS.md #109)",
@@ -5215,7 +5215,7 @@
    ]
   },
   "Could not load. Check your connection.": {
-   "t": "載入唔到。檢查下網絡連線。",
+   "t": "載入唔到。檢查吓網絡連線。",
    "ko": null,
    "kind": "sentence",
    "context": "shown as a short toast",
@@ -5260,7 +5260,7 @@
    "where": "html <input> text"
   },
   "Hand-tuned for speakers of your language": {
-   "t": "專為講你嘅語言嘅人調整",
+   "t": "專為講你母語嘅人編寫",
    "ko": "이 언어 사용자에 맞춰 만든 코스",
    "kind": "sentence",
    "context": "legend under the course list (language home): a small ✦ next to a course means its lessons were written specifically for speakers of the learner's language, not a standard course assembled from shared material",
@@ -5358,7 +5358,7 @@
    "example": "Change language · Hello there"
   },
   "Got it: {x}": {
-   "t": "記得：{1}",
+   "t": "記住咗：{1}",
    "ko": "알아요: {1}",
    "slots": "{1}=x",
    "example": "Got it: Hello there"
@@ -5370,7 +5370,7 @@
    "example": "Again: Hello there"
   },
   "{n}/{n} · {n} due · {x}": {
-   "t": "{1}/{2} · {3} 張要溫 · {4}",
+   "t": "{1}/{2} · {3} 張要溫習 · {4}",
    "ko": "{1}/{2} · 복습 대기 {3} · {4}",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=x",
    "example": "5/2 · 3 due · Hello there",
@@ -5398,14 +5398,14 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} cards due": {
-   "t": "{1} 張卡要溫",
+   "t": "{1} 張卡要溫習",
    "ko": "복습할 카드 {1}장",
    "slots": "{1}=n",
    "example": "5 cards due",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} due": {
-   "t": "{1} 張要溫",
+   "t": "{1} 張要溫習",
    "ko": "복습 대기 {1}",
    "slots": "{1}=n",
    "example": "5 due",
@@ -5426,13 +5426,13 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Level {n}": {
-   "t": "等級 {1}",
+   "t": "第 {1} 級",
    "ko": "레벨 {1}",
    "slots": "{1}=n",
    "example": "Level 5"
   },
   "Level {n} · {x}": {
-   "t": "等級 {1} · {2}",
+   "t": "第 {1} 級 · {2}",
    "ko": "레벨 {1} · {2}",
    "slots": "{1}=n, {2}=x",
    "example": "Level 5 · Hello there"
@@ -5451,14 +5451,14 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} XP to Level {n} · {s} at Level {n}": {
-   "t": "仲差 {1} XP 到等級 {2} · 等級 {4}：{3}",
+   "t": "仲差 {1} XP 到第 {2} 級 · 第 {4} 級：{3}",
    "ko": "레벨 {2}까지 {1} XP · 레벨 {4}부터 {3}",
    "slots": "{1}=n, {2}=n, {3}=s, {4}=n",
    "example": "5 XP to Level 2 · Greetings at Level 3",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} XP to Level {n}": {
-   "t": "仲差 {1} XP 到等級 {2}",
+   "t": "仲差 {1} XP 到第 {2} 級",
    "ko": "레벨 {2}까지 {1} XP",
    "slots": "{1}=n, {2}=n",
    "example": "5 XP to Level 2",
@@ -5606,14 +5606,14 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n}/{n} · {n} due": {
-   "t": "{1}/{2} · {3} 張要溫",
+   "t": "{1}/{2} · {3} 張要溫習",
    "ko": "{1}/{2} · 복습 {3}",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "5/2 · 3 due",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n}/{n} · {n}% · {n} due": {
-   "t": "{1}/{2} · {3}% · {4} 張要溫",
+   "t": "{1}/{2} · {3}% · {4} 張要溫習",
    "ko": "{1}/{2} · {3}% · 복습 {4}",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n",
    "example": "5/2 · 3% · 4 due",
@@ -5681,7 +5681,7 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} cards · tap to add or remove decks": {
-   "t": "{1} 張卡 · 撳一下加入或移除卡組",
+   "t": "{1} 張卡 · 按一下加入或移除卡組",
    "ko": "카드 {1}장 · 탭해서 덱 추가·삭제",
    "slots": "{1}=n",
    "example": "5 cards · tap to add or remove decks",
@@ -5791,13 +5791,13 @@
    "example": "New 5 · not added yet · 80% to pass"
   },
   "Polite ↔ casual · passed": {
-   "t": "禮貌 ↔ 半語 · 合格",
+   "t": "正式 ↔ 隨意 · 合格",
    "ko": "존댓말 ↔ 반말 · 통과",
    "slots": "",
    "example": "Polite ↔ casual · passed"
   },
   "Polite ↔ casual · 80% to pass": {
-   "t": "禮貌 ↔ 半語 · 80% 合格",
+   "t": "正式 ↔ 隨意 · 80% 合格",
    "ko": "존댓말 ↔ 반말 · 80% 이상이면 통과",
    "slots": "",
    "example": "Polite ↔ casual · 80% to pass"
@@ -6257,13 +6257,13 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Flashcard: {s} ({s}). Press to flip, arrow keys to answer.": {
-   "t": "字卡：{1}（{2}）。撳一下翻轉，用方向鍵作答。",
+   "t": "字卡：{1}（{2}）。按一下翻面，用方向鍵作答。",
    "ko": "플래시카드: {1} ({2}). 눌러서 뒤집고, 방향키로 답하세요.",
    "slots": "{1}=s, {2}=s",
    "example": "Flashcard: Greetings (Travel). Press to flip, arrow keys to answer."
   },
   "Flashcard: {x}. Press to flip, arrow keys to answer.": {
-   "t": "字卡：{1}。撳一下翻轉，用方向鍵作答。",
+   "t": "字卡：{1}。按一下翻面，用方向鍵作答。",
    "ko": "플래시카드: {1}. 눌러서 뒤집고, 방향키로 답하세요.",
    "slots": "{1}=x",
    "example": "Flashcard: Hello there. Press to flip, arrow keys to answer."
@@ -6287,14 +6287,14 @@
    "example": "Hello there · which one is it?"
   },
   "No cards due right now. Next ones come due in {n} days.": {
-   "t": "而家冇卡要溫。下一批喺 {1} 日後要溫。",
+   "t": "而家冇卡要溫習。下一批 {1} 日後要溫習。",
    "ko": "지금 복습할 카드가 없어요. 다음 복습은 {1}일 뒤예요.",
    "slots": "{1}=n",
    "example": "No cards due right now. Next ones come due in 5 days.",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "No cards due right now. Next ones come due in {n} day.": {
-   "t": "而家冇卡要溫。下一批喺 {1} 日後要溫。",
+   "t": "而家冇卡要溫習。下一批 {1} 日後要溫習。",
    "ko": "지금 복습할 카드가 없어요. 다음 복습은 {1}일 뒤예요.",
    "slots": "{1}=n",
    "example": "No cards due right now. Next ones come due in 5 day.",
@@ -6325,20 +6325,20 @@
    "example": "Something went wrong: Hello there"
   },
   "레벨 업! Level {n} · {s} 🎉": {
-   "t": "레벨 업! 等級 {1} · {2} 🎉",
+   "t": "升級！第 {1} 級 · {2} 🎉",
    "ko": "레벨 업! 레벨 {1} · {2} 🎉",
    "slots": "{1}=n, {2}=s",
    "example": "레벨 업! Level 5 · Greetings 🎉"
   },
   "🛡️ Streak shield used for yesterday. {n} left.": {
-   "t": "🛡️ 用咗打卡護盾保住尋日。仲有 {1} 個。",
+   "t": "🛡️ 用咗一個連續護盾保住尋日。仲有 {1} 個。",
    "ko": "🛡️ 어제 연속 학습 보호막을 썼어요. {1}개 남았어요.",
    "slots": "{1}=n",
    "example": "🛡️ Streak shield used for yesterday. 5 left.",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "🛡️ Streak shield earned ({n}/2). A missed day won't break your streak.": {
-   "t": "🛡️ 攞到打卡護盾（{1}/2）。漏咗一日都唔會斷連續打卡。",
+   "t": "🛡️ 攞到連續護盾（{1}/2）。漏咗一日都唔會斷連續紀錄。",
    "ko": "🛡️ 연속 학습 보호막을 얻었어요 ({1}/2). 하루 빠져도 연속 학습이 끊기지 않아요.",
    "slots": "{1}=n",
    "example": "🛡️ Streak shield earned (5/2). A missed day won't break your streak."
@@ -6350,7 +6350,7 @@
    "example": "🏆 Hello there mastered · +50 XP"
   },
   "🎓 Certificate earned: {x} · +100 XP": {
-   "t": "🎓 攞到證書：{1} · +100 XP",
+   "t": "🎓 攞到結業證書：{1} · +100 XP",
    "ko": "🎓 수료증 획득: {1} · +100 XP",
    "slots": "{1}=x",
    "example": "🎓 Certificate earned: Hello there · +100 XP"
@@ -6547,13 +6547,13 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "3 questions on this lesson · passed ✓.": {
-   "t": "呢課 3 條題目 · 合格 ✓。",
+   "t": "呢課 3 題小測 · 合格 ✓。",
    "ko": "이 레슨 확인 문제 3개 · 통과 ✓.",
    "slots": "",
    "example": "3 questions on this lesson · passed ✓."
   },
   "3 questions on this lesson.": {
-   "t": "呢課 3 條題目。",
+   "t": "呢課 3 題小測。",
    "ko": "이 레슨 확인 문제 3개.",
    "slots": "",
    "example": "3 questions on this lesson."
@@ -6571,7 +6571,7 @@
    "example": "5/2 · lesson done ✓"
   },
   "{n}/{n} · now pass the quick check above": {
-   "t": "{1}/{2} · 而家要通過上面嘅課堂測驗",
+   "t": "{1}/{2} · 而家要通過上面嘅課後小測",
    "ko": "{1}/{2} · 이제 위의 확인 문제를 통과하세요",
    "slots": "{1}=n, {2}=n",
    "example": "5/2 · now pass the quick check above"
@@ -6610,7 +6610,7 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "🛡️ Streak shields: {n}/2 · earn one every 7-day streak; a missed day spends one instead of breaking the streak.": {
-   "t": "🛡️ 打卡護盾：{1}/2 · 每連續打卡 7 日攞一個；漏咗一日會用一個護盾，連續打卡唔會斷。",
+   "t": "🛡️ 連續護盾：{1}/2 · 每連續學 7 日攞一個；漏咗一日會用一個護盾，連續紀錄唔會斷。",
    "ko": "🛡️ 연속 학습 보호막: {1}/2 · 7일 연속 학습할 때마다 하나씩 얻어요. 하루 빠지면 연속 학습 대신 보호막이 하나 쓰여요.",
    "slots": "{1}=n",
    "example": "🛡️ Streak shields: 5/2 · earn one every 7-day streak; a missed day spends one instead of breaking the streak."
@@ -6758,7 +6758,7 @@
    "example": "Anonymous · Hello there"
   },
   "Due for review · {x}": {
-   "t": "要溫 · {1}",
+   "t": "要溫習 · {1}",
    "ko": "복습할 카드 · {1}",
    "slots": "{1}=x",
    "example": "Due for review · Hello there"
@@ -6770,7 +6770,7 @@
    "example": "Word to learn · Hello there"
   },
   "안녕하세요, {x}!": {
-   "t": "안녕하세요，{1}！",
+   "t": "你好，{1}！",
    "ko": "안녕하세요, {1}님!",
    "slots": "{1}=x",
    "example": "안녕하세요, Hello there!"
@@ -6904,7 +6904,7 @@
    "example": "Hello there (auto)"
   },
   "{n} cards learned · {n} due": {
-   "t": "學咗 {1} 張卡 · {2} 張要溫",
+   "t": "學咗 {1} 張卡 · {2} 張要溫習",
    "ko": "카드 {1}장 익힘 · 복습 대기 {2}",
    "slots": "{1}=n, {2}=n",
    "example": "5 cards learned · 2 due",
@@ -6965,7 +6965,7 @@
    "example": "Listen: Hello there"
   },
   "{n} decks · {n} cards mastered to 80%+ · all lesson checks passed": {
-   "t": "{1} 個卡組 · {2} 張卡掌握到 80% 以上 · 所有課堂測驗合格",
+   "t": "{1} 個卡組 · {2} 張卡掌握到 80% 以上 · 所有課後小測合格",
    "ko": "덱 {1}개 · 카드 {2}장 80% 이상 마스터 · 확인 문제 모두 통과",
    "slots": "{1}=n, {2}=n",
    "example": "5 decks · 2 cards mastered to 80%+ · all lesson checks passed",
@@ -7020,7 +7020,7 @@
    "context": "{0} = target language name in the UI language — Type drill / typed quiz / say-it / practice placeholder (LL)"
   },
   "Type the {x}, or tap Check again to give up.": {
-   "t": "打{1}，或者再撳「檢查」放棄。",
+   "t": "打{1}，或者再按「檢查」放棄。",
    "ko": null,
    "slots": "{1}=x",
    "example": "Type the Hello there, or tap Check again to give up.",
@@ -7090,7 +7090,7 @@
    "context": "{0} = streak days — Today streak line when the pack has no greeting gloss (DOM translator (JS-built text))"
   },
   "Level up! Level {n} · {x} 🎉": {
-   "t": "升級！等級 {1} · {2} 🎉",
+   "t": "升級！第 {1} 級 · {2} 🎉",
    "ko": null,
    "slots": "{1}=n, {2}=x",
    "example": "Level up! Level 5 · Hello there 🎉",
@@ -7111,7 +7111,7 @@
    "context": "review status line: current card is new · learned/total in this deck; count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} due · {n}/{n} learned": {
-   "t": "{1} 張要溫 · 學咗 {2}/{3}",
+   "t": "{1} 張要溫習 · 學咗 {2}/{3}",
    "ko": "복습 대기 {1} · {2}/{3} 익힘",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "5 due · 2/3 learned",

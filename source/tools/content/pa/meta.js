@@ -58,7 +58,7 @@ exports.PLAN_PRESETS = {
 };
 
 /* native names for the shared level titles in gen.js (Beginner, Student, Talker, Traveler, Local, Pro, Master) */
-exports.TITLES = ["ਸ਼ੁਰੂਆਤੀ", "ਵਿਦਿਆਰਥੀ", "ਗਾਲੜੀ", "ਮੁਸਾਫ਼ਰ", "ਲੋਕਲ", "ਮਾਹਰ", "ਉਸਤਾਦ"];
+exports.TITLES = ["ਸਿਖਾਂਦਰੂ", "ਵਿਦਿਆਰਥੀ", "ਗਾਲੜੀ", "ਮੁਸਾਫ਼ਰ", "ਲੋਕਲ", "ਮਾਹਰ", "ਉਸਤਾਦ"];
 
 /* native labels for the pause-screen phrase sets; gen.js prefixes the shared English label ("Compliment · ") */
 exports.PAUSE_LABELS = { compliment: "ਤਾਰੀਫ਼", expression: "ਰੋਜ਼ ਦੇ ਬੋਲ", polite: "ਸਲੀਕਾ", saying: "ਕਹਾਵਤਾਂ ਤੇ ਵਿਚਾਰ" };

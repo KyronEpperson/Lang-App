@@ -31,9 +31,9 @@ Style authority: `docs/profiles/ur.md` §2, §3 and §10. The interface writer l
 
 ## Level titles (one ladder, the same in `tools/content/ur/meta.js` TITLES and here)
 
-Beginner مبتدی · Student طالب علم · Talker باتونی · Traveler مسافر · Local مقامی · Pro ماہر · Master ماسٹر
+Beginner مبتدی · Student طالب علم · Talker باتونی · Traveler مسافر · Local مقامی · Pro ماہر · Master استاد
 
-- Before the review `meta.js` had «استاد» for Master and the interface had «ماسٹر». The interface also translates the older ladder (Sprout کونپل · Student · Senior سینئر · Pro · Master · Sensei استاد), where «استاد» is already taken by Sensei, so the review kept «ماسٹر» for Master and changed `meta.js`. A native speaker may prefer another pair; whatever is chosen must be changed in both files.
+- Before the review `meta.js` had «استاد» for Master and the interface had «ماسٹر». The interface also translates the older ladder (Sprout کونپل · Student · Senior سینئر · Pro · Master · Sensei استاد), where «استاد» is already taken by Sensei, so the review kept «ماسٹر» for Master and changed `meta.js`. In the pre-merge review (2026-11-23) the lead chose the other pair: Master «استاد» and Sensei «سینسی» (from ko-worded), in `ui.json` and `meta.js` TITLES[6] together. A native speaker may still prefer another pair; whatever is chosen must be changed in both files.
 
 ## Counts, slots, weekdays
 
@@ -41,7 +41,7 @@ Beginner مبتدی · Student طالب علم · Talker باتونی · Travele
 - «{1} دن بعد» is used for "in N days" at every number (profile §10 asks for a native check of this one).
 - Changed in the review: "Last {n} reviews …" was «پچھلی دہرائی: {1}» ("the last review: 50"); it is now «حالیہ دہرائی: {1} کارڈ» in all six patterns.
 - Language-name slots stand at the start or after a colon: «{1}: آپ کا لیول کیا ہے؟», «{1} میں لکھیں», «کورس: {1}», «{1} سیکھیں، روزانہ 5 منٹ».
-- Weekday headers are single letters, Sunday first: ا پ م ب ج ج ہ (اتوار، پیر، منگل، بدھ، جمعرات، جمعہ، ہفتہ). Thursday and Friday are both «ج». `Intl` has no Urdu narrow weekday (it prints S M T W T F S). If two letters fit the grid, a native speaker should choose the pair.
+- Weekday headers (since the pre-merge review): ات پی من بد جر جم ہف (اتوار، پیر، منگل، بدھ، جمعرات، جمعہ، ہفتہ). `Intl` has no Urdu narrow weekday (it prints S M T W T F S). If two letters fit the grid, a native speaker should choose the pair.
 - Western digits everywhere; the engine must pass `ur` or `ur-PK` to `Intl`, never `ur-IN`.
 
 ## Direction
@@ -61,5 +61,22 @@ Beginner مبتدی · Student طالب علم · Talker باتونی · Travele
 1. «مطالعہ» (Read), «مہارتیں» (Drills), «پیش رفت» (Progress), «دہرائی» (Review) as tab labels.
 2. «آتا ہے» for "Got it" and «پکا / پکے» for "mastered".
 3. «سہ پہر بخیر» for "Good afternoon" (the deck card glosses the English greeting as «سلام (دوپہر کے وقت)»).
-4. «ماسٹر» against «استاد» for the top level.
+4. «استاد» (Master) and «سینسی» (Sensei).
 5. «اٹکا ہوا کارڈ» for "leech", «لگاتار دن کی ڈھال» for "streak shield".
+
+## Pre-merge review, 2026-11-23
+
+Twelve wordings adopted from the independent ko-worded dictionary (lead ruling):
+- Write it «لکھیں» (was «انگریزی میں لکھیں»; clears the length warning).
+- Got it «یاد ہے» in every Got it string, including the pattern `Got it: {x}` and two help texts that quote the button.
+- Master «استاد», Sensei «سینسی».
+- Lesson done «سبق مکمل۔ انعام: 25 XP» (a leading + jumps sides in RTL).
+- box 3+ «باکس 3 یا اوپر»: ko-worded's shape, but the base term «باکس» kept for consistency with the other box strings.
+- What did A / B say? «شخص A / B نے کیا کہا؟» (an Urdu-initial prompt).
+- Not quite «ابھی درست نہیں».
+- Put the words in order «الفاظ ترتیب سے لگائیں».
+- You've got this! «یہ آپ سے ہو جائے گا!».
+- Verb conjugator «فعل کی گردان», Conjugate «گردان کریں».
+- Next «اگلا».
+
+Weekday headers are now a distinct two-letter set: ات · پی · من · بد · جر · جم · ہف. The `.day` cell is a seventh of the week row at .7rem, with no width or overflow rule in `src/app.html`, so full names could not be confirmed to fit. «جر» (جمعرات) against «جم» (جمعہ) needs a native check.

@@ -107,3 +107,27 @@ Only scanned: `DECKNAMES.md`, `tools/i18n/pa/NOTES.md`, `deviations.b/c/d.json`,
 - `i18n/validate.js`: exact=784 patterns=275 warnings=1 / PASS (warning: "Write it" → «ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਲਿਖੋ» length)
 - `node --check` on all eight course JS files: OK. No Hangul under `tools/content/pa`. All files NFC; no Devanagari, Shahmukhi or Gurmukhi digits in the Punjabi text.
 - Count strings at 0 | 1 | 2 | 21: «0 ਦਿਨ | 1 ਦਿਨ | 2 ਦਿਨ | 21 ਦਿਨ»; «0 ਕਾਰਡ | 1 ਕਾਰਡ | 2 ਕਾਰਡ | 21 ਕਾਰਡ»; «ਦੁਹਰਾਉਣੇ ਹਨ: 0 | 1 | 2 | 21»; «ਹਫ਼ਤੇ: 0 | 1 | 2 | 21»; «ਟੈਸਟ: 0 · ਪਿਛਲਾ 0% | … | ਟੈਸਟ: 21 · ਪਿਛਲਾ 21%»; «ਬਾਕੀ: 0 · ਡੈੱਕ: 0 | … | ਬਾਕੀ: 21 · ਡੈੱਕ: 21»; «· ਨਵੇਂ ਕਾਰਡ: ~0 ਦਿਨ | ~1 ਦਿਨ | ~2 ਦਿਨ | ~21 ਦਿਨ»; «ਪੂਰੇ ਪਾਠ: 0/0 | 1/1 | 2/2 | 21/21». Every pattern is number-neutral (invariant noun or label + colon).
+
+## Pre-merge review, 2026-11-23
+
+Reviewer (not a native speaker) applied the pre-merge report and the lead's rulings. All checks pass (last lines below).
+
+### Changed
+- **Typed answers (all 128 type items listed from the pack and read).** Prompts cued so only the accepted English fits (16): it-there «(There ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ)», countable «ਕੀ ਤੁਹਾਡੇ ਕੋਈ ਸਵਾਲ ਹਨ?», continuous / past-continuous «(The ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ)», tense and going-to ×3 «(going to ਨਾਲ)», first-conditional and modals subjectless with «(ਕਰਤਾ you, we ਜਾਂ I)», phrasal «(ਕਰਤਾ we ਜਾਂ I)», reported ×2 «(said ਤੋਂ ਬਾਅਦ ਟੈਂਸ ਇੱਕ ਕਦਮ ਪਿੱਛੇ)», conditionals «(ਹੁਣ ਦੀ ਸਲਾਹ)», indian-english ×2 «(ਵਿਦੇਸ਼ ਵਿੱਚ)». Equally correct wordings accepted via deviations (22 items, 47 answers in the pack, full forms included): washroom (lead ruling 8), have got, It for ਇਹ, which, watched / amazing, lots of, love to, mornings, How did … go, adorable / lovely, bumped into, should've, the USA, got cancelled, fingers-crossed variants. Every contraction has its full form in the pack.
+- **Korean setting localised** (shared English, 28 item deviations plus the two deck deviations below): Seoul→Amritsar, Busan→Chandigarh (Goa in smalltalk), Jeju→Goa, Daegu→Jalandhar, Korea→Canada (travel, living) / India (made in), Korean→Punjabi (can-like) / Spanish (relative), kimchi→sushi, K-pop→bhangra, won→rupees, Han Kang→Amrita Pritam, Jenny Park→Jenny Brown; email-check distractors "You suffered a lot." / "Good suffering." → "Thanks for your hardworking!" / "Very good hard work you did."; idioms distractor tiger→ghost. "Who's your bias?" → "Who's your favorite singer?" (card + dialogue). Rice / lice, fan / pan, coffee / copy pairs left: the deck's first cards are parity-compared and the notes already treat them as easy / Punjabi-relevant.
+- **Restaurant:** "I'll have the steak." → "I'll have the paneer tikka.", "Medium rare, please." → "Not too spicy, please." (cards, notes, dialogues; deck deviation).
+- **Pron:** see PRON-RULES.md (bed / name kept as ੇ with a get / gate, let / late warning; final ਾ and ਙ explained in the key; banana, breakfast, pleasure notes; vowel + h warning in pron_pa.js). Lesson `pron`: the cluster claim now says s + consonant (ਪ੍ਰ-type clusters exist). Lesson `articles`: «a / an (an engineer)».
+- **Deck 12:** parallel compliments in ਤੁਸੀਂ (shoes, funny, proud, did it); ਤੂੰ kept only on the explicitly close cards (I miss you, You mean a lot to me).
+- **Interface:** see tools/i18n/pa/NOTES.md §8 (Got it, Feedback, quiz, streak, native, Text size, Try again, Welcome, Which one, Beginner; meta.js TITLES in step).
+
+### For a native speaker (left unchanged)
+- `That's so annoying.` «ਇਹ ਤਾਂ ਬੜੀ ਖਿਝ ਚੜ੍ਹਾਉਂਦਾ ਹੈ» — perhaps «ਇਹ ਤਾਂ ਬੜਾ ਖਿਝਾਉਂਦਾ ਹੈ».
+- Items 2 (second ਲ), 4–6, 9–10 of the list above; the ਸ਼ੁਭ… greeting calques; `Got it` «ਯਾਦ ਹੈ» also dismisses tips.
+- New wording to check: «ਬਹੁਤੀਆਂ ਮਿਰਚਾਂ ਨਾ ਪਾਉਣਾ», «ਤੁਸੀਂ ਬੜਾ ਹਸਾਉਂਦੇ ਹੋ», «ਲਗਾਤਾਰ ਦਿਨਾਂ ਦੀ ਢਾਲ», the email distractors.
+
+### Phone check for the owner (rendering; not testable here, no Gurmukhi font)
+- ਜ਼ ਫ਼ ਸ਼ are standard letters (base + U+0A3C in NFC); stock fonts should draw them. Check anyway.
+- ਵ਼ ਥ਼ ਦ਼ are not standard letters: check the dot sits under the letter on Android (Noto Sans Gurmukhi), iOS (Gurmukhi MN / Mukta Mahee) and Windows (Raavi): ˈਵ਼ੇਰੀ, ਥ਼ਿੰਕ, ਦ਼ਿਸ.
+- Halant before ਵ shapes as a subjoined (pairin) vava: ˈਕ੍ਵੇਸ੍ਚਨ, ਟ੍ਵੇਂਟੀ, ˈਪੈਸ੍ਵਰ੍ਡ, ˈਸਬ੍ਵੇ, ਟ੍ਵਾਈਸ — readable, but check.
+- ਰ੍ਵ਼ may become a subjoined ਵ with a nukta under it: ˈਨਰ੍ਵ਼ਸ, ˈਇੰਟਰ੍ਵ਼ਿਊ, ਲੁਕ ˈਫ਼ੌਰ੍ਵਰ੍ਡ. If unreadable, report it to the pron-tool owner.
+- Also ੍ਯ (ˈਮਿਲ੍ਯਨ, ˈਅਨ੍ਯਨ੍ਜ਼, ˈਫ਼ਿਗ੍ਯਰ) and the `html[lang=pa] nav a` line-height rule (lead note).

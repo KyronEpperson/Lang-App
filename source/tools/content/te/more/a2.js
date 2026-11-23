@@ -32,7 +32,7 @@ practice:[
 <h3>మాట ఇవ్వడం, సహాయం చేస్తాననడం</h3>
 {{ex:I'll help you.|ఐల్ హెల్ప్ యు|నేను నీకు సహాయం చేస్తాను}}{{ex:I'll call you later.|ఐల్ కాల్ యు ˈలేటర్|నేను నీకు తర్వాత ఫోన్ చేస్తాను}}{{ex:I won't be late.|ఐ వోంట్ బి లేట్|నేను ఆలస్యం చేయను}}
 <h3>అంచనా</h3>
-{{ex:It'll be fine.|ఇటల్ బి ఫైన్|అంతా బాగానే ఉంటుంది}}{{ex:I think it will rain.|ఐ థ఼ింక్ ఇట్ వల్ రేన్|వర్షం పడుతుందని అనుకుంటున్నాను}}
+{{ex:It'll be fine.|ˈఇటల్ బి ఫైన్|అంతా బాగానే ఉంటుంది}}{{ex:I think it will rain.|ఐ థ఼ింక్ ఇట్ వల్ రేన్|వర్షం పడుతుందని అనుకుంటున్నాను}}
 <h3>అలవాటుకు will కాదు</h3>
 <p>తెలుగులో "వెళ్తాను" అనే ఒకే రూపం అలవాటుకూ, భవిష్యత్తుకూ వస్తుంది. ఇంగ్లీష్‌లో ఇవి రెండు వేర్వేరు రూపాలు: అలవాటుకు <b>Simple Present</b>; ఇప్పుడే తీసుకున్న నిర్ణయానికి, ఇచ్చే మాటకు, అంచనాకు <b>will</b>.</p>
 <div class="tbl"><table><tr><th>తెలుగు</th><th>ఇంగ్లీష్</th></tr><tr><td>"నేను రోజూ ఆఫీసుకి వెళ్తాను" (అలవాటు)</td><td class="k">I go to the office every day.</td></tr><tr><td>"నేను రేపు ఫోన్ చేస్తాను" (మాట)</td><td class="k">I'll call you tomorrow.</td></tr></table></div>
@@ -40,13 +40,13 @@ practice:[
 <h3>will, be going to</h3>
 <div class="tbl"><table><tr><th></th><th>ఎప్పుడు</th><th>ఉదాహరణ</th></tr><tr><td class="k">will</td><td>ఇప్పుడే తీసుకున్న నిర్ణయం, మాట</td><td>I'll get the door.</td></tr><tr><td class="k">be going to</td><td>ముందే వేసుకున్న ప్లాన్</td><td>I'm going to visit Vizag next month.</td></tr></table></div>
 <div class="tip">ఎక్కువగా జరిగే తప్పు: <b>I will to go.</b>, <b>I'll going.</b> ✗ → <b>I'll go.</b> ✓ will తర్వాత V1 మాత్రమే వస్తుంది.</div>`,
-check:[["ఫోన్ మోగుతోంది. \"నేను చూస్తాను\" ఇంగ్లీష్‌లో?",["I'm going to get it.","I get it.","I'll get it.","I'm getting it will."],2,"అక్కడికక్కడే తీసుకున్న నిర్ణయానికి will."],["I ___ be late. (నేను ఆలస్యం చేయను)",["won't","willn't","don't will","not will"],0,"will కి వ్యతిరేక రూపం won't."],["ముందే వేసుకున్న ప్లాన్ చెప్పే వాక్యం ఏది?",["I'll get the door.","I will to visit Jeju.","I visit Jeju will.","I'm going to visit Jeju next month."],3,"ముందే వేసుకున్న ప్లాన్‌కు be going to."]],
+check:[["ఫోన్ మోగుతోంది. \"నేను చూస్తాను\" ఇంగ్లీష్‌లో?",["I'm going to get it.","I get it.","I'll get it.","I'm getting it will."],2,"అక్కడికక్కడే తీసుకున్న నిర్ణయానికి will."],["I ___ be late. (నేను ఆలస్యం చేయను)",["won't","willn't","don't will","not will"],0,"will కి వ్యతిరేక రూపం won't."],["ముందే వేసుకున్న ప్లాన్ చెప్పే వాక్యం ఏది?",["I'll get the door.","I will to visit Goa.","I visit Goa will.","I'm going to visit Goa next month."],3,"ముందే వేసుకున్న ప్లాన్‌కు be going to."]],
 practice:[
 ["mc","\"నేను నీకు సహాయం చేస్తాను\" ఇంగ్లీష్‌లో?","I'll help you.","I help you will.","I'll helping you.","I'll to help you.","will తర్వాత V1 వస్తుంది."],
 ["mc","రెస్టారెంట్‌లో ఇప్పుడే నిర్ణయించుకుని: \"నేను పాస్తా తీసుకుంటాను\" ఇంగ్లీష్‌లో?","I'll have the pasta.","I'm have the pasta.","I'll having the pasta.","I will to have the pasta.","అక్కడికక్కడే తీసుకున్న నిర్ణయానికి will + V1."],
 ["mc","\"నేను ఆలస్యం చేయను\" ఇంగ్లీష్‌లో?","I won't be late.","I willn't be late.","I don't will be late.","I won't late.","will not కుదిస్తే won't. late విశేషణం కాబట్టి be కూడా కావాలి."],
 ["mc","\"నువ్వు వస్తావా?\" ఇంగ్లీష్‌లో?","Will you come?","Do you will come?","Will you coming?","Will come you?","ప్రశ్నలో Will, తర్వాత కర్త, తర్వాత V1."],
-["mc","ముందే వేసుకున్న ప్లాన్ చెప్పే వాక్యం ఏది?","I'm going to visit Jeju next month.","I'll get the door.","I visit Jeju next month will.","I will to visit Jeju.","ముందే వేసుకున్న ప్లాన్‌కు be going to."],
+["mc","ముందే వేసుకున్న ప్లాన్ చెప్పే వాక్యం ఏది?","I'm going to visit Goa next month.","I'll get the door.","I visit Goa next month will.","I will to visit Goa.","ముందే వేసుకున్న ప్లాన్‌కు be going to."],
 ["or","నేను నీకు తర్వాత ఫోన్ చేస్తాను","I'll call you later","calling","will తర్వాత V1 వస్తుంది, -ing రూపం కాదు."],
 ["or","నేను ఒక కాఫీ తీసుకుంటాను","I'll have a coffee","the coffees","ఆర్డర్ చేసేది ఒక కప్పు కాబట్టి ఆర్టికల్ a. బహువచనం కాదు."],
 ["or","తలుపు నేను తీస్తాను","I'll open the door","a doors","ఇక్కడ ఉన్న ఆ తలుపే కాబట్టి ఆర్టికల్ the."],
@@ -73,15 +73,15 @@ check:[["\"మీరు ఎప్పుడైనా జపాన్ వెళ్
 practice:[
 ["mc","\"నేను జపాన్ వెళ్ళి వచ్చాను\" (అనుభవం) ఇంగ్లీష్‌లో?","I've been to Japan.","I've go to Japan.","I was been to Japan.","I've went to Japan.","have తర్వాత V3 రూపం been."],
 ["mc","see కి V3 రూపం ఏది?","seen","saw","seed","seeing","మూడు రూపాలు: see, saw, seen."],
-["mc","\"మీరు ఎప్పుడైనా కిమ్చి తిన్నారా?\" ఇంగ్లీష్‌లో?","Have you ever eaten kimchi?","Did you ever eaten kimchi?","Have you ever ate kimchi?","Do you have eaten kimchi?","అనుభవం అడగడానికి Have you ever + V3."],
+["mc","\"మీరు ఎప్పుడైనా బిర్యానీ తిన్నారా?\" ఇంగ్లీష్‌లో?","Have you ever eaten biryani?","Did you ever eaten biryani?","Have you ever ate biryani?","Do you have eaten biryani?","అనుభవం అడగడానికి Have you ever + V3."],
 ["mc","\"నేను అది ఎప్పుడూ చూడలేదు\" ఇంగ్లీష్‌లో?","I've never seen it.","I never have saw it.","I've never see it.","I didn't never seen it.","\"ఎప్పుడూ లేదు\" = have + never + V3."],
-["mc","\"పోయిన సంవత్సరం\" అని ఉన్నప్పుడు సరైన వాక్యం ఏది?","I went to Jeju last year.","I've been to Jeju last year.","I have go to Jeju last year.","I've went to Jeju last year.","ముగిసిన సమయం చెబితే Simple Past."],
+["mc","\"పోయిన సంవత్సరం\" అని ఉన్నప్పుడు సరైన వాక్యం ఏది?","I went to Goa last year.","I've been to Goa last year.","I have go to Goa last year.","I've went to Goa last year.","ముగిసిన సమయం చెబితే Simple Past."],
 ["or","నేను ఆ సినిమా చూశాను","I've seen the movie","a saw","ఇద్దరికీ తెలిసిన ఆ సినిమా కాబట్టి ఆర్టికల్ the."],
-["or","నేను రెండుసార్లు కొరియా వెళ్ళి వచ్చాను","I've been to Korea twice","went","have తర్వాత V3 రూపం been వస్తుంది."],
+["or","నేను రెండుసార్లు జపాన్ వెళ్ళి వచ్చాను","I've been to Japan twice","went","have తర్వాత V3 రూపం been వస్తుంది."],
 ["or","నేను ఎప్పుడూ పామును చూడలేదు","I've never seen a snake","the snakes","ఏదో ఒక పాము అని అర్థం కాబట్టి ఆర్టికల్ a."],
-["fi","Have you ever __ to Busan?","మీరు ఎప్పుడైనా బూసాన్ వెళ్ళారా?","been","be|went|go","have తర్వాత V3 రూపం been."],
+["fi","Have you ever __ to Goa?","మీరు ఎప్పుడైనా గోవా వెళ్ళారా?","been","be|went|go","have తర్వాత V3 రూపం been."],
 ["fi","I've __ eaten that.","నేను అది ఎప్పుడూ తినలేదు","never","ever|no|not never","\"ఎప్పుడూ లేదు\" = never."],
-["fi","She __ visited Korea twice.","ఆమె రెండుసార్లు కొరియా వచ్చింది","has","have|is|did","she తో has."],
+["fi","She __ visited Japan twice.","ఆమె రెండుసార్లు జపాన్ వెళ్ళింది","has","have|is|did","she తో has."],
 ["ty","మీరు ఎప్పుడైనా జపాన్ వెళ్ళారా?","Have you ever been to Japan|Have you been to Japan","have you ever · been · Japan","went","అనుభవం అడగడానికి Have you ever been to …?"],
 ["ty","నేను ఆ పుస్తకం చదివాను (I've తో)","I've read the book|I've read that book","I've · read · book (ఆర్టికల్ the)","a","ఇద్దరికీ తెలిసిన ఆ పుస్తకం కాబట్టి ఆర్టికల్ the."],
 ["ty","నేను ఎప్పుడూ పిల్లిని పెంచలేదు (had తో)","I've never had a cat","never · had · cat (ఆర్టికల్ a)","the","ఏదో ఒక పిల్లి అని అర్థం కాబట్టి ఆర్టికల్ a."]]},
@@ -121,6 +121,7 @@ practice:[
 {{ex:You're coming, aren't you?|యుర్ ˈకమిఙ్ ఆర్న్ట్ యు|నువ్వు వస్తున్నావు, కదా?}}{{ex:She doesn't know, does she?|షి ˈడజ఼ంట్ నో డజ఼్ షి|ఆమెకు తెలియదు, కదా?}}{{ex:They went home, didn't they?|ద఼ే వెంట్ హోమ్ ˈడిడంట్ ద఼ే|వాళ్ళు ఇంటికి వెళ్ళారు, కదా?}}{{ex:You can drive, can't you?|యు కన్ డ్రైవ఼్ క్యాంట్ యు|నీకు డ్రైవింగ్ వచ్చు, కదా?}}
 <p><b>You are coming, isn't it?</b> ✗ → <b>You're coming, aren't you?</b> ✓ <b>isn't it?</b> వచ్చేది కర్త it / this / that (లేదా ఒక వస్తువు పేరు), క్రియ is అయినప్పుడు మాత్రమే:</p>
 {{ex:It's a nice day, isn't it?|ఇట్స్ అ నైస్ డే ˈఇజ఼ంట్ ఇట్|ఈరోజు వాతావరణం బాగుంది, కదా?}}
+<p>ఒక్క మినహాయింపు: <b>I am</b> కి tag <b>aren't I?</b> (amn't I? అనరు).</p>{{ex:I'm late, aren't I?|ఐమ్ లేట్ ఆర్న్ట్ ఐ|నేను లేట్ అయ్యాను, కదా?}}
 <h3>గుర్తు రాకపోతే right?</h3>
 <p><b>right?</b> ఏ వాక్యం తర్వాతైనా సరిపోతుంది, స్నేహంగా వినిపిస్తుంది.</p>
 {{ex:You're from Hyderabad, right?|యుర్ ఫ్రమ్ ˈహైడరబ్యాడ్ రైట్|మీది హైదరాబాద్, కదా?}}
@@ -149,9 +150,9 @@ practice:[
 ["fi","You like coffee, __ you?","నీకు కాఫీ ఇష్టం, కదా?","don't","aren't|isn't|doesn't","like కి సహాయక క్రియ do. వాక్యంలో not లేదు కాబట్టి tag లో n't: don't you."],
 ["fi","She can't swim, __ she?","ఆమెకు ఈత రాదు, కదా?","can","can't|does|is","వాక్యంలో can't ఉంది కాబట్టి tag లో n't లేకుండా can."],
 ["fi","Do you know where the station __?","స్టేషన్ ఎక్కడ ఉందో మీకు తెలుసా?","is","does|is it|it is","వాక్యం లోపల ఉన్న ప్రశ్నలో క్రియ చివర వస్తుంది: the station is."],
-["ty","మీకు ఇద్దరు అన్నదమ్ములు ఉన్నారు, కదా?","You have two brothers, don't you|You have two brothers, right|You've got two brothers, haven't you|You've got two brothers, right","two brothers · don't you (బహువచనం)","brother","two తర్వాత బహువచనం: brothers. have కి tag don't you."],
-["ty","ఆమె డాక్టర్, కదా?","She's a doctor, isn't she|She's a doctor, right","a doctor · isn't she (ఆర్టికల్ a)","it","ఉద్యోగం పేరు ముందు ఆర్టికల్ a. she కాబట్టి isn't she, isn't it కాదు."],
-["ty","టైమ్ ఎంతైందో మీకు తెలుసా? (Do you know తో)","Do you know what time it is|Do you know what the time is|Can you tell me what time it is|Could you tell me what time it is","what time · it is","does","వాక్యం లోపల ఉన్న ప్రశ్నలో మామూలు వరుస: it is. is it కాదు."],
+["ty","మీకు ఇద్దరు అన్నదమ్ములు ఉన్నారు, కదా?","You have two brothers, don't you|You have two brothers, right|You've got two brothers, haven't you|You have got two brothers, haven't you|You've got two brothers, right|You have got two brothers, right","two brothers · don't you (బహువచనం)","brother","two తర్వాత బహువచనం: brothers. have కి tag don't you.",{nc:1}],
+["ty","ఆమె డాక్టర్, కదా?","She's a doctor, isn't she|She is a doctor, isn't she|She's a doctor, right|She is a doctor, right","a doctor · isn't she (ఆర్టికల్ a)","it","ఉద్యోగం పేరు ముందు ఆర్టికల్ a. she కాబట్టి isn't she, isn't it కాదు.",{nc:1}],
+["ty","టైమ్ ఎంతైందో మీకు తెలుసా? (Do you know తో)","Do you know what time it is|Do you know what the time is|Can you tell me what time it is|Could you tell me what time it is","what time · it is","does","వాక్యం లోపల ఉన్న ప్రశ్నలో మామూలు వరుస: it is. is it కాదు.",{nc:1}],
 ["ty","మీరు ఎందుకు లేట్ అయ్యారు?","Why are you late|Why were you late","why · are · late","did","wh- పదం తర్వాత సహాయక క్రియ, తర్వాత కర్త: Why are you …"]]},
 { id:"to-ing", title:"క్రియ తర్వాత to లేదా -ing: want to, enjoy -ing", blurb:"want తర్వాత to, enjoy తర్వాత -ing. ఏ క్రియకు ఏది వస్తుందో ముందే నిర్ణయమై ఉంటుంది.", deck:"సరదా కబుర్లు", body:`
 <p>రెండు క్రియలు వరుసగా వచ్చినప్పుడు, మొదటి క్రియను బట్టి రెండోది <b>to + V1</b> గానో, <b>-ing</b> రూపంగానో వస్తుంది. తెలుగు అనువాదం చూసి ఏది వస్తుందో చెప్పలేం, అందుకే ఎక్కువగా వాడే క్రియలను గుంపులుగా గుర్తుపెట్టుకోండి.</p>
@@ -196,7 +197,7 @@ practice:[
 check:[["I play ___ soccer. ఖాళీలో ఏది సరిపోతుంది?",["a","the","an","(ఆర్టికల్ లేదు)"],3,"ఆటల పేర్ల ముందు ఆర్టికల్ రాదు."],["She's from ___ United States. ఖాళీలో ఏది సరిపోతుంది?",["the","a","an","(ఆర్టికల్ లేదు)"],0,"United States ముందు the వస్తుంది."],["\"కుక్కలు ముద్దుగా ఉంటాయి\" (కుక్కలన్నీ) ఇంగ్లీష్‌లో?",["The dog are cute.","Dogs are cute.","A dogs are cute.","Dog is cute."],1,"జాతి మొత్తం గురించి చెప్పేటప్పుడు ఆర్టికల్ లేకుండా బహువచనం."]],
 practice:[
 ["mc","I play ___ piano.","the","a","an","some","వాయిద్యం పేరు ముందు the వస్తుంది."],
-["mc","\"నేను కొరియాలో ఉంటాను\" ఇంగ్లీష్‌లో?","I live in Korea.","I live in the Korea.","I live in a Korea.","I live Korea in.","చాలా దేశాల పేర్ల ముందు ఆర్టికల్ రాదు."],
+["mc","\"నేను ఇండియాలో ఉంటాను\" ఇంగ్లీష్‌లో?","I live in India.","I live in the India.","I live in an India.","I live India in.","చాలా దేశాల పేర్ల ముందు ఆర్టికల్ రాదు."],
 ["mc","\"నేను ఫుట్‌బాల్ ఆడతాను\" ఇంగ్లీష్‌లో?","I play soccer.","I play the soccer.","I play a soccer.","I play soccers.","ఆటల పేర్ల ముందు ఆర్టికల్ రాదు. అమెరికాలో ఫుట్‌బాల్‌ను soccer అంటారు."],
 ["mc","\"పిల్లులు ముద్దుగా ఉంటాయి\" (పిల్లులన్నీ) ఇంగ్లీష్‌లో?","Cats are cute.","The cat are cute.","A cats are cute.","Cat is cute.","జాతి మొత్తం గురించి చెప్పేటప్పుడు ఆర్టికల్ లేకుండా బహువచనం."],
 ["mc","She's from ___ United States.","the","a","an","some","United States ముందు the వస్తుంది."],
@@ -236,7 +237,7 @@ practice:[
 ["fi","__ you need help, call me.","సహాయం కావాలంటే నాకు ఫోన్ చెయ్యి","If|When","So|But|Because","\"కావాలంటే\" = if."],
 ["ty","నాకు టైమ్ ఉంటే సహాయం చేస్తాను","I'll help if I have time|I'll help you if I have time|If I have time I'll help|If I have time I'll help you","I'll help · if · have time","will","if పక్కన will రాదు."],
 ["ty","వర్షం పడితే నేను టాక్సీలో వెళ్తాను (take తో)","If it rains I'll take a taxi|I'll take a taxi if it rains|If it rains I'll get a taxi","if · rains · take · taxi (ఆర్టికల్ a)","the","ఏదో ఒక టాక్సీ కాబట్టి ఆర్టికల్ a."],
-["ty","నువ్వు బస్సు మిస్ అవుతావు","You'll miss the bus|We'll miss the bus|I'll miss the bus","miss · bus (ఆర్టికల్ the)","a","ఎక్కాలనుకున్న ఆ బస్సే కాబట్టి ఆర్టికల్ the."]]},
+["ty","నువ్వు బస్సు మిస్ అవుతావు","You'll miss the bus","miss · bus (ఆర్టికల్ the)","a","ఎక్కాలనుకున్న ఆ బస్సే కాబట్టి ఆర్టికల్ the."]]},
 { id:"relative", title:"who / that: మనిషిని, వస్తువును వివరించడం", blurb:"తెలుగులో వివరణ ముందు వస్తుంది, ఇంగ్లీష్‌లో నామవాచకం తర్వాత.", deck:"షాపింగ్, చెల్లింపులు", body:`
 <p>తెలుగులో "<b>నేను కొన్న</b> పుస్తకం" అని వివరణ నామవాచకానికి ముందు వస్తుంది, who / which లాంటి మాట ఏదీ ఉండదు. ఇంగ్లీష్‌లో ముందు నామవాచకం, <b>తర్వాత</b> వివరణ: the book <b>that I bought</b>. ఇదే who / which / that తో వచ్చే ఉపవాక్యం.</p>
 <h3>మనుషులకు who</h3>
@@ -251,7 +252,7 @@ practice:[
 <h3>కర్తను, కర్మను మళ్ళీ చెప్పకండి</h3>
 <p><b>The man who came yesterday, he is my uncle.</b> ✗ → <b>The man who came yesterday is my uncle.</b> ✓ <b>the book which I read it</b> ✗ → <b>the book I read</b> ✓ who / that ఆ మనిషి లేదా వస్తువు స్థానంలోనే ఉన్నాయి కాబట్టి he, it మళ్ళీ రావు.</p>
 <div class="tip">వరుస ఒక్కటే గుర్తుపెట్టుకోండి: <b>ముందు నామవాచకం, తర్వాత వివరణ.</b> "నేను కొన్న పుస్తకం" → the book (that) I bought. ఇక్కడ what రాదు: <b>the book what I bought</b> ✗</div>`,
-check:[["I have a friend ___ lives in Busan. ఖాళీలో ఏది సరిపోతుంది?",["which","who","what","he"],1,"మనిషిని వివరించడానికి who."],["\"నేను కొన్న పుస్తకం\" ఇంగ్లీష్‌లో?",["the I bought book","the book what I bought","the book that I bought","the bought book I"],2,"ముందు నామవాచకం, తర్వాత that తో వివరణ."],["సరైన వాక్యం ఏది?",["The lives next door man is kind.","The who lives next door man is kind.","Man the who lives next door is kind.","The man who lives next door is kind."],3,"వివరణ నామవాచకం తర్వాత వస్తుంది."]],
+check:[["I have a friend ___ lives in Vizag. ఖాళీలో ఏది సరిపోతుంది?",["which","who","what","he"],1,"మనిషిని వివరించడానికి who."],["\"నేను కొన్న పుస్తకం\" ఇంగ్లీష్‌లో?",["the I bought book","the book what I bought","the book that I bought","the bought book I"],2,"ముందు నామవాచకం, తర్వాత that తో వివరణ."],["సరైన వాక్యం ఏది?",["The lives next door man is kind.","The who lives next door man is kind.","Man the who lives next door is kind.","The man who lives next door is kind."],3,"వివరణ నామవాచకం తర్వాత వస్తుంది."]],
 practice:[
 ["mc","I have a friend ___ speaks English.","who","which","what","she","మనిషిని వివరించడానికి who."],
 ["mc","\"నేను కొన్న పుస్తకం\" ఇంగ్లీష్‌లో?","the book that I bought","the I bought book","the book what I bought","the bought I book","ముందు నామవాచకం, తర్వాత వివరణ."],
@@ -265,6 +266,6 @@ practice:[
 ["fi","the book __ I read","నేను చదివిన పుస్తకం","that|which","who|what|it","వస్తువును that తో వివరిస్తారు."],
 ["fi","the cafe __ we met","మనం కలిసిన కేఫ్","where","who|what|it","చోటును where తో వివరిస్తారు."],
 ["ty","ఇది నేను కొన్న పుస్తకం","This is the book I bought|This is the book that I bought|It's the book I bought|It's the book that I bought","the book · I bought (ఆర్టికల్ the)","a","నేను కొన్న ఆ పుస్తకమే కాబట్టి ఆర్టికల్ the."],
-["ty","నాకు కొరియన్ మాట్లాడే ఒక స్నేహితుడు ఉన్నాడు","I have a friend who speaks Korean|I have a friend that speaks Korean","a friend · who · speaks Korean (ఆర్టికల్ a)","the","మొదటిసారి చెబుతున్న ఒక స్నేహితుడు కాబట్టి ఆర్టికల్ a."],
+["ty","నాకు జపనీస్ మాట్లాడే ఒక స్నేహితుడు ఉన్నాడు","I have a friend who speaks Japanese|I have a friend that speaks Japanese","a friend · who · speaks Japanese (ఆర్టికల్ a)","the","మొదటిసారి చెబుతున్న ఒక స్నేహితుడు కాబట్టి ఆర్టికల్ a."],
 ["ty","మనం చూసిన సినిమా చాలా బాగుంది","The movie we saw was great|The movie we saw was good|The movie that we saw was great|The movie that we saw was good","the movie · we saw · was great","what","ముందు నామవాచకం, తర్వాత వివరణ."]]},
 ];

@@ -261,6 +261,7 @@ const practiceInfo = [];
   const RULE = mkRule(PROFILE.standingRule, { pn, words, ART, anyPair });
   const CONTR = { "i'm": 'i am', "i'll": 'i will', "i'd": 'i would', "i've": 'i have', "it's": 'it is', "that's": 'that is', "don't": 'do not', "doesn't": 'does not', "he's": 'he is', "she's": 'she is', "we're": 'we are', "we've": 'we have', "can't": 'cannot', "isn't": 'is not' };
   const NO_REVERSE = new Set(["i've", "we've"]); /* "I've" before a plain noun object is not natural AmE, so "I have" does not demand it */
+  const CONTR_PAIRS = Object.entries(CONTR), DSL_STEPS = require('./more/_dsl.js').steps;
   const allStrings = it => [it.q, it.p, it.why, it.hint, ...(it.o || []), ...(it.a || []), ...(it.x || [])].filter(isStr);
   for (const id of lessonIds) {
     const items = P[id];
@@ -277,7 +278,7 @@ const practiceInfo = [];
     items.forEach((it, i) => {
       const w = 'PRACTICE.' + id + '#' + i + ' (' + (it && it.t) + ')';
       if (!it || typeof it !== 'object') { fail(w + ' not an object'); return; }
-      const allowed = { mc: ['t', 'q', 'o', 'why'], order: ['t', 'p', 'a', 'x', 'why'], fill: ['t', 'q', 'p', 'a', 'o', 'why'], type: ['t', 'p', 'a', 'hint', 'x', 'why'] }[it.t];
+      const allowed = { mc: ['t', 'q', 'o', 'why'], order: ['t', 'p', 'a', 'x', 'why'], fill: ['t', 'q', 'p', 'a', 'o', 'why'], type: ['t', 'p', 'a', 'hint', 'x', 'why', 'nc'] }[it.t];
       if (!allowed) { fail(w + ' unknown type'); return; }
       Object.keys(it).forEach(k => ok(allowed.includes(k), w + ' unexpected field ' + k));
       allStrings(it).forEach(s => { ok(!/[<>]/.test(s), w + ' contains < or >: ' + s); ok(!/[\r\n\t]/.test(s), w + ' control char'); ok(s === s.trim() && s.length > 0, w + ' empty/untrimmed string'); });
@@ -313,16 +314,12 @@ const practiceInfo = [];
         const n0 = words(it.a[0]).length;
         ok(n0 >= 2 && n0 <= 7, w + ' a[0] must be 2-7 words: ' + it.a[0]);
         ok(it.x === undefined || (Array.isArray(it.x) && it.x.length >= 1 && it.x.length <= 2 && it.x.every(nonEmpty)), w + ' x must be 1-2 tiles');
+        ok(it.nc === undefined || it.nc === 1, w + ' nc must be 1');
+        if (it.nc) return; /* nc: 1 = no contraction processing; a is exactly as authored */
         const V = new Set(it.a.map(pn));
-        it.a.forEach(v => {
-          const s = pn(v);
-          for (const [c, e] of Object.entries(CONTR)) {
-            const re = new RegExp('(^| )' + c + '( |$)');
-            if (re.test(s)) ok(V.has(s.replace(re, '$1' + e + '$2')), w + ' contraction "' + c + '" without full form: ' + v);
-            const re2 = new RegExp('(^| )' + e + '( |$)');
-            if (!NO_REVERSE.has(c) && re2.test(s)) ok(V.has(s.replace(re2, '$1' + c + '$2')), w + ' full form "' + e + '" without contraction: ' + v);
-          }
-        });
+        /* contraction/full-form closure, by the generator's own context rules (more/_dsl.js steps): only the pair's plain reading is
+           demanded, and nothing the rules refuse (inverted tags, clause-final auxiliaries, ambiguous 's / 'd) */
+        it.a.forEach(v => DSL_STEPS(v, CONTR_PAIRS, NO_REVERSE).forEach(st => { if (st.std) ok(V.has(pn(st.s)), w + ' contraction/full-form variant missing: ' + st.s + ' (from ' + v + ')'); }));
       }
     });
     if (RULE) for (const g of (RULE.groups || Object.keys(RULE.hit).map(t => [t]))) {

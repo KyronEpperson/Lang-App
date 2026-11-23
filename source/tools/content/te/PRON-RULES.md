@@ -35,3 +35,10 @@ The Telugu meaning side keeps the ordinary Telugu spelling (రవి, హైద
 - `vine` వ఼ైన్ / `wine` వైన్ stay as the v / w pair.
 - ZWNJ (U+200C) is never written inside an aid. The review's ZWNJ pass touched meanings, notes and prose only (checked: no `pron` field contains U+200C).
 - A repeated English string carries the same aid in every file: `pron_check.js` reports diff 0 and conflicts 0 over 815 pairs.
+
+## 4. Pre-merge review, 2026-11-23 (lead rulings)
+
+- **Rule 2 amended:** every word of two or more syllables carries ˈ, also where the zh IPA leaves a function word unstressed. `pron_te.js` supplies the mark from a stressed zh occurrence of the same sounds, else from its `HAND_STRESS` table, and throws for any other word. `pron_lookup.json` was rebuilt; 19 aids changed (about అˈబౌట్, across అˈక్రాస్, around అˈరౌండ్, into ˈఇంట, under ˈఅండర్, until అంˈటిల్, after ˈయాఫ్టర్, within విˈద఼ిన్, because బిˈకజ఼్, although ఆల్ˈద఼ో, our ˈఔఅర్, it'll ˈఇటల్, twenty ˈట్వెంటి / ninety ˈనైంటి as the first word of a year). New rows were remapped word by word from the old→new lookup forms. pron_check: diff 0, conflicts 0.
+- **Word-initial యా** (æ at the start of a word: after, apple, ask, address, ankle, at) stays as the Telugu loan spelling; the `pron` lesson key now has the row «పదం మొదట్లో యా = cat లోని అచ్చు మాత్రమే; ముందు య శబ్దం లేదు», and the `After you.` card says the same.
+- New aids from the converter: «Who's your favorite actor?» /ˈhuːz jʊr ˈfeɪvərɪt ˈæktər/ → హూజ఼్ యుర్ ˈఫేవ఼రిట్ ˈయాక్టర్; «I'm late, aren't I?» /aɪm ˈleɪt ˈɑːrnt aɪ/ → ఐమ్ లేట్ ఆర్న్ట్ ఐ.
+- U+0C3C is kept (font decision pending with the owner; no IPA conversion).

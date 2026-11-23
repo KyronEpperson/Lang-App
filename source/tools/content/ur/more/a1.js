@@ -28,7 +28,7 @@ practice:[
 ["fi","There __ a bank near here.","پاس ہی ایک بینک ہے","is","are|have|be","بینک ایک ہے، اس لیے is۔"],
 ["fi","__ there any seats?","کیا سیٹیں ہیں؟","Are","Is|Do|Have","seats جمع ہے، اس لیے Are۔"],
 ["ty","آج گرمی ہے","It's hot today","الفاظ: it · hot · today — موسم کے لیے it","There's","موسم کا جملہ it سے شروع ہوتا ہے۔"],
-["ty","یہاں باتھ روم ہے؟","Is there a bathroom here|Is there a restroom here","الفاظ: is there · bathroom — آرٹیکل کا خیال رکھیں","the","کسی ایک باتھ روم کے بارے میں پہلی بار پوچھ رہے ہیں، اس لیے آرٹیکل a۔"],
+["ty","یہاں باتھ روم ہے؟","Is there a bathroom here|Is there a restroom here|Is there a washroom here|Is there a toilet here","الفاظ: is there · bathroom — آرٹیکل کا خیال رکھیں","the","کسی ایک باتھ روم کے بارے میں پہلی بار پوچھ رہے ہیں، اس لیے آرٹیکل a۔"],
 ["ty","دو کمرے ہیں (there are استعمال کریں)","There are two rooms","الفاظ: there are · two · room — جمع","room","two کے بعد اسم جمع میں آتا ہے: rooms۔"]]},
 
 { id:"plurals", title:"جمع کا -s، this / these اور my / your", blurb:"دو یا زیادہ ہوں تو -s ضرور لگائیں۔ this ایک کے لیے، these کئی کے لیے۔", deck:"خریداری اور ادائیگی", body:`
@@ -79,7 +79,7 @@ check:[["\"میں کافی پیتا ہوں\" کی درست ترتیب کون س�
 practice:[
 ["mc","انگریزی میں: \"میں انگریزی پڑھتا ہوں\"","I study English.","I English study.","I am study English.","Study I English.","ترتیب: فاعل + فعل + مفعول۔"],
 ["mc","انگریزی میں: \"میں گوشت نہیں کھاتی\"","I don't eat meat.","I not eat meat.","I'm not eat meat.","I eat not meat.","عام فعل کا منفی don't سے بنتا ہے۔"],
-["mc","انگریزی میں: \"ہم سیول میں رہتے ہیں\"","We live in Seoul.","We in Seoul live.","We are live in Seoul.","We live Seoul in.","فعل کے بعد جگہ آتی ہے، اور live سے پہلے are نہیں لگتا۔"],
+["mc","انگریزی میں: \"ہم کراچی میں رہتے ہیں\"","We live in Karachi.","We in Karachi live.","We are live in Karachi.","We live Karachi in.","فعل کے بعد جگہ آتی ہے، اور live سے پہلے are نہیں لگتا۔"],
 ["mc","انگریزی میں: \"میں عام طور پر سات بجے اٹھتا ہوں\"","I usually get up at seven.","Usually I get up seven.","I get usually up at seven.","I am usually get up at seven.","usually عام فعل سے بالکل پہلے آتا ہے۔"],
 ["mc","کون سا جملہ روز کی عادت بتاتا ہے؟","I drink coffee every day.","I'm drinking coffee now.","I drank coffee.","I will drink coffee.","عادت Simple Present میں بتائی جاتی ہے۔"],
 ["or","میں روز کافی پیتا ہوں","I drink coffee every day","the am","عادت Simple Present میں آتی ہے، اور عام معنی میں coffee کے ساتھ آرٹیکل نہیں لگتا۔"],
@@ -87,9 +87,9 @@ practice:[
 ["or","ہم ویک اینڈ پر کام کرتے ہیں","We work on weekends","are","عام فعل سے پہلے be نہیں لگتا: We are work غلط ہے۔"],
 ["fi","I __ like fish.","مجھے مچھلی پسند نہیں","don't|do not","not|am not|no","عام فعل کا منفی don't سے بنتا ہے۔"],
 ["fi","I __ English every day.","میں روز انگریزی پڑھتا ہوں","study","am study|studying|to study","Simple Present میں فعل کی پہلی فارم آتی ہے۔"],
-["fi","They live __ Busan.","وہ بوسان میں رہتے ہیں","in","at|on|to","شہر کے نام سے پہلے in آتا ہے۔"],
+["fi","They live __ Lahore.","وہ لاہور میں رہتے ہیں","in","at|on|to","شہر کے نام سے پہلے in آتا ہے۔"],
 ["ty","میں چائے پیتا ہوں","I drink tea","الفاظ: drink · tea — آرٹیکل کے بغیر","a","عام معنی میں tea کے ساتھ آرٹیکل نہیں لگتا۔"],
-["ty","مجھے بلیاں پسند ہیں","I like cats","الفاظ: like · cat — جمع","cat","پوری قسم کی بات ہو تو اسم جمع میں آتا ہے: cats۔"],
+["ty","مجھے بلیاں پسند ہیں","I like cats|I love cats","الفاظ: like · cat — جمع","cat","پوری قسم کی بات ہو تو اسم جمع میں آتا ہے: cats۔"],
 ["ty","میں گوشت نہیں کھاتا","I don't eat meat","الفاظ: don't · eat · meat","am","عام فعل کا منفی don't سے بنتا ہے۔"]]},
 { id:"questions", title:"سوال بنانا: Do you …? اور سوالیہ لفظ", blurb:"صرف لہجہ بدلنا کافی نہیں۔ Do شروع میں، اور سوالیہ لفظ اس سے بھی پہلے۔", deck:"سب سے ضروری 2", body:`
 <p>اردو میں سوال لہجے سے بن جاتا ہے ("آپ چائے پیتے ہیں؟") یا شروع میں "کیا" لگا کر۔ انگریزی میں <b>الفاظ کی ترتیب</b> بدلنی پڑتی ہے، اور عام فعل کے ساتھ امدادی فعل (helping verb) <b>do</b> آتا ہے، جس جیسا کوئی لفظ اردو میں نہیں۔</p>
@@ -120,7 +120,7 @@ practice:[
 ["fi","__ do you live?","آپ کہاں رہتے ہیں؟","Where","What|Who|When","جگہ پوچھنے کے لیے where آتا ہے۔"],
 ["fi","What time __ it?","کیا وقت ہوا ہے؟","is","do|does|are","وقت be سے پوچھا جاتا ہے۔"],
 ["ty","کیا آپ انگریزی بولتے ہیں؟","Do you speak English|Can you speak English","الفاظ: do · speak · English","Are","speak کا سوال Do سے شروع ہوتا ہے۔"],
-["ty","باتھ روم کہاں ہے؟","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom","الفاظ: where · bathroom — آرٹیکل the","a","وہی باتھ روم جسے دونوں جانتے ہیں، اس لیے آرٹیکل the۔"],
+["ty","باتھ روم کہاں ہے؟","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom|Where is the washroom|Where's the washroom|Where is the toilet|Where's the toilet","الفاظ: where · bathroom — آرٹیکل the","a","وہی باتھ روم جسے دونوں جانتے ہیں، اس لیے آرٹیکل the۔"],
 ["ty","آپ کو کتے پسند ہیں؟","Do you like dogs","الفاظ: do · like · dog — جمع","dog","پوری قسم کی بات ہو تو اسم جمع میں آتا ہے: dogs۔"]]},
 { id:"third-s", title:"فعل پر -s: he / she / it کے ساتھ، اور does / doesn't", blurb:"فاعل ایک شخص یا ایک چیز ہو تو فعل پر -s۔ سوال اور منفی does سے۔", deck:"اپنا تعارف", body:`
 <p>اردو میں فعل فاعل کے مطابق کئی طرح بدلتا ہے: کرتا ہے / کرتی ہے / کرتے ہیں۔ انگریزی کے Simple Present میں ایک ہی تبدیلی ہے: فاعل <b>he, she, it</b> یا کوئی ایک شخص یا چیز ہو تو فعل پر <b>-s</b> لگتا ہے۔ یہ he / she / it والا -s ایک ہی حرف ہے، اس لیے بولتے وقت آسانی سے رہ جاتا ہے۔ اسے صاف بولیں اور ضرور لکھیں۔</p>
@@ -146,8 +146,8 @@ practice:[
 ["fi","He __ soccer.","اسے (لڑکے کو) فٹ بال پسند ہے","likes","like|liking|is like","he کے ساتھ فعل پر -s لگتا ہے: likes۔"],
 ["fi","__ she speak English?","کیا وہ (لڑکی) انگریزی بولتی ہے؟","Does","Do|Is|Are","she کا سوال Does سے بنتا ہے۔"],
 ["fi","She __ to work at eight.","وہ (لڑکی) آٹھ بجے کام پر جاتی ہے","goes","go|going|gos","she کے ساتھ go بدل کر goes ہو جاتا ہے۔"],
-["ty","اس (لڑکے) کے پاس گاڑی ہے","He has a car","الفاظ: has · car — آرٹیکل a","have","he کے ساتھ has؛ گاڑی ایک ہے، اس لیے آرٹیکل a۔"],
-["ty","اسے (لڑکی کو) بلیاں پسند ہیں","She likes cats","الفاظ: likes · cat — جمع","cat","she کے ساتھ likes؛ پوری قسم کی بات ہے، اس لیے جمع cats۔"],
+["ty","اس (لڑکے) کے پاس گاڑی ہے","He has a car|He has got a car","الفاظ: has · car — آرٹیکل a","have","he کے ساتھ has؛ گاڑی ایک ہے، اس لیے آرٹیکل a۔"],
+["ty","اسے (لڑکی کو) بلیاں پسند ہیں","She likes cats|She loves cats","الفاظ: likes · cat — جمع","cat","she کے ساتھ likes؛ پوری قسم کی بات ہے، اس لیے جمع cats۔"],
 ["ty","وہ (لڑکا) یہاں نہیں رہتا","He doesn't live here","الفاظ: doesn't · live · here","lives","doesn't کے بعد فعل کی پہلی فارم آتی ہے۔"]]},
 { id:"countable", title:"قابلِ شمار اور ناقابلِ شمار اسم: some, any, much, many", blurb:"لفظ water کے ساتھ نہ a لگتا ہے نہ -s۔ گنے جا سکیں تو many، نہ گنے جا سکیں تو much۔", deck:"ریسٹورنٹ میں", body:`
 <p>انگریزی کے اسم دو طرح کے ہیں: <b>قابلِ شمار</b> (جو گنے جا سکیں) اور <b>ناقابلِ شمار</b> (جو گنے نہ جا سکیں)۔ مشکل یہ ہے کہ یہ تقسیم اردو سے ہمیشہ نہیں ملتی۔ اردو میں "دو مشورے" کہا جا سکتا ہے اور "معلومات" خود جمع ہے، مگر انگریزی میں advice, information, luggage (سامان), furniture اور work (کام) ناقابلِ شمار ہیں۔</p>
@@ -177,7 +177,7 @@ practice:[
 ["fi","I don't have __ questions.","میرا کوئی سوال نہیں ہے","any","some|much|a","منفی جملے میں any آتا ہے۔"],
 ["fi","a cup __ coffee","کافی کا ایک کپ","of","for|in|a","کپ گن کر بتانا ہو تو a cup of آتا ہے۔"],
 ["ty","مجھے تھوڑا پانی مل سکتا ہے؟","Can I have some water|Could I have some water|Can I get some water|Could I get some water","الفاظ: can I have · some · water — آرٹیکل کے بغیر","a","water ناقابلِ شمار ہے، اس لیے آرٹیکل a کی جگہ some آتا ہے۔"],
-["ty","آپ کا کوئی سوال ہے؟","Do you have any questions","الفاظ: do you have · any · question — جمع","question","سوال میں any کے بعد قابلِ شمار اسم عام طور پر جمع میں آتا ہے: questions۔"],
+["ty","آپ کا کوئی سوال ہے؟ (any کے ساتھ)","Do you have any questions","الفاظ: do you have · any · question — جمع","question","سوال میں any کے بعد قابلِ شمار اسم عام طور پر جمع میں آتا ہے: questions۔"],
 ["ty","کتنے لوگ؟","How many people","الفاظ: how many · people","much","people گنے جا سکتے ہیں، اس لیے many۔"]]},
 { id:"object-have", title:"ضمیر کی دوسری شکل (me, him, her) اور have", blurb:"فعل کے بعد I نہیں، me آتا ہے۔ اور \"میرے پاس … ہے\" کے لیے have۔", deck:"اپنا تعارف", body:`
 <p>اردو میں "میں" کے ساتھ "کو" آئے تو وہ "مجھے" بن جاتا ہے۔ انگریزی میں بھی ضمیر (pronoun) کی شکل بدلتی ہے: فعل یا preposition (حرفِ جار) کے <b>بعد</b> I نہیں، <b>me</b> آتا ہے۔</p>
@@ -207,7 +207,7 @@ practice:[
 ["fi","I work with __.","میں اس (لڑکے) کے ساتھ کام کرتا ہوں","him","he|his|he's","preposition کے بعد بھی مفعول والی شکل آتی ہے: him۔"],
 ["fi","She __ a dog.","اس (لڑکی) کے پاس ایک کتا ہے","has","have|is|haves","she کے ساتھ has آتا ہے۔"],
 ["ty","کیا آپ میری مدد کر سکتے ہیں؟","Can you help me|Could you help me","الفاظ: can you · help · me","I","فعل کے بعد I نہیں، me آتا ہے۔"],
-["ty","آپ کے پاس پین ہے؟","Do you have a pen","الفاظ: do you have · pen — آرٹیکل a","the","کوئی بھی ایک پین چاہیے، اس لیے آرٹیکل a۔"],
+["ty","آپ کے پاس پین ہے؟","Do you have a pen|Have you got a pen","الفاظ: do you have · pen — آرٹیکل a","the","کوئی بھی ایک پین چاہیے، اس لیے آرٹیکل a۔"],
 ["ty","میرے بہت سے دوست ہیں","I have many friends|I have a lot of friends","الفاظ: have · many · friend — جمع","friend","many کے بعد اسم جمع میں آتا ہے: friends۔"]]},
 { id:"can-like", title:"کیا کر سکتے ہیں اور کیا چاہیے: can, like + -ing, I'd like", blurb:"جو کر سکتے ہیں، جو پسند ہے اور جو ابھی چاہیے، تینوں باتیں کہنا سیکھیں۔", deck:"ہلکی پھلکی گپ شپ", body:`
 <p>اپنے تعارف اور آرڈر میں فوراً کام آنے والے تین سانچے۔</p>
@@ -237,7 +237,7 @@ practice:[
 ["fi","I can't __.","میں تیر نہیں سکتا","swim","swimming|swims|to swim","can't کے بعد فعل کی پہلی فارم آتی ہے۔"],
 ["fi","I like __ music.","مجھے موسیقی سننا پسند ہے","listening to","listen to|listen|to listening","like کے بعد -ing والی شکل آتی ہے۔"],
 ["fi","__ like a sandwich, please.","ایک سینڈوچ دے دیں","I'd|I would","I|I'm|I can","آرڈر I'd like سے کیا جاتا ہے۔"],
-["ty","مجھے کھانا پکانا پسند ہے","I like cooking|I love cooking|I like to cook","الفاظ: like · cook — -ing والی شکل","cook","like کے بعد -ing والی شکل آتی ہے۔"],
+["ty","مجھے کھانا پکانا پسند ہے","I like cooking|I love cooking|I like to cook|I love to cook","الفاظ: like · cook — -ing والی شکل","cook","like کے بعد -ing والی شکل آتی ہے۔"],
 ["ty","آرڈر کرتے وقت: ایک سینڈوچ دے دیں","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich|Could I have a sandwich|Could I get a sandwich","الفاظ: I'd like · sandwich — آرٹیکل a","the","کوئی بھی ایک سینڈوچ، اس لیے آرٹیکل a۔"],
 ["ty","مجھے کتے پسند ہیں","I like dogs|I love dogs","الفاظ: like · dog — جمع","dog","پوری قسم کی بات ہو تو اسم جمع میں آتا ہے: dogs۔"]]},
 { id:"continuous", title:"ابھی ہو رہا ہے: be + -ing (Present Continuous)", blurb:"روز کا کام Simple Present میں، ابھی ہوتا ہوا کام be + -ing میں۔ know اور want پر -ing نہیں لگتا۔", deck:"ہلکی پھلکی گپ شپ", body:`
@@ -267,7 +267,7 @@ practice:[
 ["fi","What __ you doing?","تم کیا کر رہے ہو؟","are","do|is|does","you کے ساتھ are آتا ہے۔"],
 ["fi","She __ working today.","وہ آج کام نہیں کر رہی","isn't|is not","doesn't|don't|not","be + -ing کا منفی isn't سے بنتا ہے۔"],
 ["ty","میں ابھی کھانا پکا رہا ہوں","I'm cooking now|I'm cooking|I'm cooking right now","الفاظ: I'm · cook · now — -ing والی شکل","cook","ابھی ہوتا ہوا کام: be + -ing۔"],
-["ty","میں ایک فلم دیکھ رہی ہوں","I'm watching a movie","الفاظ: I'm · watching · movie — آرٹیکل a","the","کوئی خاص فلم نہیں، اس لیے آرٹیکل a۔"],
+["ty","میں ایک فلم دیکھ رہی ہوں","I'm watching a movie|I'm watching a film","الفاظ: I'm · watching · movie — آرٹیکل a","the","کوئی خاص فلم نہیں، اس لیے آرٹیکل a۔"],
 ["ty","بچے سو رہے ہیں","The kids are sleeping|The children are sleeping","الفاظ: kids · are · sleeping — جمع","kid","بچے ایک سے زیادہ ہیں: جمع kids، اور اس کے ساتھ are۔"]]},
 { id:"past", title:"گزرا ہوا وقت: was / were اور -ed (Simple Past)", blurb:"فعل be کا ماضی was / were ہے، اور عام فعل پر -ed لگتا ہے۔ سوال اور منفی did سے۔", deck:"ہلکی پھلکی گپ شپ", body:`
 <p>یہ Simple Past ہے (سکول میں: Past Indefinite)۔ be کا ماضی الگ ہے اور عام فعل کا الگ، اور دونوں ایک ساتھ نہیں آتے۔</p>
@@ -296,7 +296,7 @@ practice:[
 ["fi","I __ soccer yesterday.","میں نے کل فٹ بال کھیلا","played","play|playing|was play","ماضی کے لیے فعل پر -ed لگتا ہے۔"],
 ["fi","__ you work yesterday?","تم نے کل کام کیا؟","Did","Were|Do|Was","عام فعل کے ماضی کا سوال Did سے بنتا ہے۔"],
 ["ty","میں تھکا ہوا تھا","I was tired","الفاظ: was · tired","were","I کے ساتھ was آتا ہے۔"],
-["ty","میں نے ایک فلم دیکھی (watch سے)","I watched a movie","الفاظ: watched · movie — آرٹیکل a","the","فلم ایک ہے اور پہلی بار ذکر ہو رہا ہے، اس لیے آرٹیکل a۔"],
+["ty","میں نے ایک فلم دیکھی (watch سے)","I watched a movie|I watched a film","الفاظ: watched · movie — آرٹیکل a","the","فلم ایک ہے اور پہلی بار ذکر ہو رہا ہے، اس لیے آرٹیکل a۔"],
 ["ty","میں نے اپنے دوستوں کو فون کیا","I called my friends","الفاظ: called · my · friend — جمع","friend","دوست ایک سے زیادہ ہیں، اس لیے جمع friends۔"]]},
 { id:"irregular-past", title:"بے قاعدہ فعل کا ماضی: went, ate, saw", blurb:"جو فعل سب سے زیادہ کام آتے ہیں، انہی پر -ed نہیں لگتا۔ پہلے یہ 12 یاد کریں۔", deck:"ہلکی پھلکی گپ شپ", body:`
 <p>روز کام آنے والے بہت سے فعل <b>بے قاعدہ</b> ہیں: ان کی دوسری فارم -ed سے نہیں بنتی۔ سکول میں فعل کی تین فارم یاد کرائی جاتی ہیں (go – went – gone)۔ Simple Past میں ہمیشہ <b>دوسری فارم</b> آتی ہے۔</p>
@@ -316,10 +316,10 @@ practice:[
 ["or","میں نے ایک فلم دیکھی","I saw a movie","see movies","فلم ایک ہے: آرٹیکل a اور واحد movie؛ see کی دوسری فارم saw ہے۔"],
 ["or","ہم نے پیزا کھایا","We ate pizza","eated","eat کی دوسری فارم ate ہے۔"],
 ["or","میں اپنے دوستوں سے ملا","I met my friends","friend meet","دوست ایک سے زیادہ ہیں، اس لیے جمع friends۔"],
-["fi","I __ to Jeju last year.","میں پچھلے سال جیجو گئی تھی","went","go|goed|gone","go کی دوسری فارم went ہے۔"],
+["fi","I __ to Murree last year.","میں پچھلے سال مری گئی تھی","went","go|goed|gone","go کی دوسری فارم went ہے۔"],
 ["fi","What did you __?","تم نے کیا کھایا؟","eat","ate|eaten|eating","did کے بعد فعل کی پہلی فارم آتی ہے۔"],
 ["fi","She __ a new phone.","اس نے نیا فون خریدا","bought","buyed|buy|buys","buy کی دوسری فارم bought ہے۔"],
-["ty","میں بوسان گیا","I went to Busan","الفاظ: went · to · Busan","go","go کی دوسری فارم went ہے۔"],
+["ty","میں لاہور گیا","I went to Lahore","الفاظ: went · to · Lahore","go","go کی دوسری فارم went ہے۔"],
 ["ty","میں نے ایک کتاب خریدی","I bought a book","الفاظ: bought · book — آرٹیکل a","the","کتاب ایک ہے اور پہلی بار ذکر ہو رہا ہے، اس لیے آرٹیکل a۔"],
 ["ty","میں اپنے دوستوں سے ملی","I met my friends|I saw my friends","الفاظ: met · my · friend — جمع","friend","دوست ایک سے زیادہ ہیں، اس لیے جمع friends۔"]]},
 { id:"the", title:"آرٹیکل the: پہلی بار a، اگلی بار the", blurb:"پہلی بار ذکر ہو تو a، دونوں کو معلوم ہو تو the، اور عام بات ہو تو کچھ نہیں۔", deck:"راستہ اور سواری", body:`
@@ -336,7 +336,7 @@ practice:[
 <p>جگہ اور سواری کے کچھ عام فقرے بھی آرٹیکل کے بغیر ہیں۔ انہیں ایسے ہی یاد کر لیں۔</p>
 {{ex:I go to work by bus.|/aɪ ˈgoʊ tə ˈwɜːrk baɪ ˈbʌs/|میں بس سے کام پر جاتا ہوں}}{{ex:I'm at home.|/aɪm ət ˈhoʊm/|میں گھر پر ہوں}}{{ex:I go to bed at eleven.|/aɪ ˈgoʊ tə ˈbed ət ɪˈlevn/|میں گیارہ بجے سوتی ہوں}}
 <div class="tip">خود سے پوچھیں: "کیا سننے والا جانتا ہے کہ <b>کون سی</b> چیز مراد ہے؟" جانتا ہے تو the، نہیں جانتا تو a، اور عام بات ہو تو کچھ نہیں۔</div>`,
-check:[["خالی جگہ پُر کریں: I have a cat. ___ cat is white",["A","An","The","(کچھ نہیں)"],2,"اسی بلی کا ذکر ابھی ہوا ہے، اس لیے the۔"],["خالی جگہ پُر کریں: I go to ___ work by bus",["a","the","an","(کچھ نہیں)"],3,"go to work میں آرٹیکل نہیں لگتا۔"],["اسی کمرے کی کھڑکی کھلوانی ہو تو کیا کہیں گے؟",["Can you open a window?","Can you open the window?","Can you open window?","Can you open an window?"],1,"وہی کھڑکی جسے دونوں جانتے ہیں، اس لیے the۔"]],
+check:[["خالی جگہ پُر کریں: I have a cat. ___ cat is white",["A","An","The","(کچھ نہیں)"],2,"اسی بلی کا ذکر ابھی ہوا ہے، اس لیے the۔"],["خالی جگہ پُر کریں: I go to ___ work by bus",["a","the","an","(کچھ نہیں)"],3,"go to work میں آرٹیکل نہیں لگتا۔"],["اسی کمرے کی کھڑکی کھلوانی ہو تو کیا کہتے ہیں؟",["Can you open a window?","Can you open the window?","Can you open window?","Can you open an window?"],1,"وہی کھڑکی جسے دونوں جانتے ہیں، اس لیے the۔"]],
 practice:[
 ["mc","خالی جگہ پُر کریں: I bought a shirt. ___ shirt is blue","The","A","An","Some","اسی قمیض کا ذکر ابھی ہوا ہے، اس لیے the۔"],
 ["mc","انگریزی میں: \"اسٹیشن کہاں ہے؟\"","Where's the station?","Where's a station?","Where's station?","Where the station?","قریب کا وہی اسٹیشن جسے دونوں جانتے ہیں، اس لیے the۔"],
@@ -349,7 +349,7 @@ practice:[
 ["fi","I saw a movie. __ movie was great.","میں نے ایک فلم دیکھی۔ فلم بہت اچھی تھی","The","A|An|Some","اسی فلم کا ذکر ابھی ہوا ہے، اس لیے The۔"],
 ["fi","Where's __ bathroom?","باتھ روم کہاں ہے؟","the","a|an|some","اسی عمارت کا باتھ روم، اس لیے the۔"],
 ["fi","I have __ idea.","میرے ذہن میں ایک خیال آیا ہے","an","a|the|some","پہلی بار ذکر ہے، اور idea واول (حرفِ علت) کی آواز سے شروع ہوتا ہے، اس لیے an۔"],
-["ty","کیا آپ دروازہ بند کر سکتے ہیں؟","Can you close the door|Could you close the door","الفاظ: can you · close · door — آرٹیکل the","a","وہی دروازہ جسے دونوں جانتے ہیں، اس لیے آرٹیکل the۔"],
+["ty","کیا آپ دروازہ بند کر سکتے ہیں؟","Can you close the door|Could you close the door|Can you shut the door|Could you shut the door","الفاظ: can you · close · door — آرٹیکل the","a","وہی دروازہ جسے دونوں جانتے ہیں، اس لیے آرٹیکل the۔"],
 ["ty","اسٹیشن کہاں ہے؟","Where is the station|Where's the station","الفاظ: where · station — آرٹیکل the","a","قریب کا وہی اسٹیشن، اس لیے آرٹیکل the۔"],
 ["ty","میں گھر پر ہوں","I'm at home|I'm home","الفاظ: I'm · at · home — آرٹیکل کے بغیر","the","home سے پہلے آرٹیکل نہیں لگتا۔"]]},
 { id:"adjectives", title:"صفت اور موازنہ: bigger, more expensive, the best", blurb:"صفت اسم سے پہلے آتی ہے۔ موازنے میں -er یا more، سب سے بڑھ کر ہو تو the -est یا the most۔", deck:"خریداری اور ادائیگی", body:`
@@ -379,8 +379,8 @@ practice:[
 ["fi","This is cheaper __ that one.","یہ اس والے سے سستا ہے","than","then|that|more","موازنے میں \"سے\" کے لیے than آتا ہے۔"],
 ["fi","It's the __ expensive one.","یہ سب سے مہنگا والا ہے","most","more|much|very","لمبے لفظ کا Superlative the most سے بنتا ہے۔"],
 ["ty","آپ کے پاس اس سے چھوٹا سائز ہے؟","Do you have a smaller size","الفاظ: smaller · size — آرٹیکل a","the","کوئی بھی ایک چھوٹا سائز چاہیے، اس لیے آرٹیکل a۔"],
-["ty","یہ سب سے اچھا ہے","This is the best|This one is the best","الفاظ: the · best — آرٹیکل the","a","Superlative سے پہلے آرٹیکل the آتا ہے۔"],
-["ty","یہ زیادہ سستا ہے","This is cheaper|This one is cheaper","الفاظ: cheap — Comparative","more","چھوٹے لفظ پر -er لگتا ہے، more نہیں۔"]]},
+["ty","یہ سب سے اچھا ہے (This سے شروع کریں)","This is the best|This one is the best","الفاظ: the · best — آرٹیکل the","a","Superlative سے پہلے آرٹیکل the آتا ہے۔"],
+["ty","یہ زیادہ سستا ہے (This سے شروع کریں)","This is cheaper|This one is cheaper","الفاظ: cheap — Comparative","more","چھوٹے لفظ پر -er لگتا ہے، more نہیں۔"]]},
 { id:"going-to", title:"منصوبہ بتانا: be going to", blurb:"جو کام پہلے سے طے ہو، اس کے لیے be going to + فعل۔", deck:"ہلکی پھلکی گپ شپ", body:`
 <p>اردو کے "میں … کرنے والا ہوں" کی طرح یہ <b>پہلے سے طے منصوبہ</b> بتاتا ہے۔ سانچہ: <b>be + going to + فعل کی پہلی فارم</b>۔ یہاں going کا مطلب "جانا" نہیں ہے؛ یہ صرف آنے والے وقت کا نشان ہے۔</p>
 {{ex:I'm going to visit Lahore.|/aɪm ˈgoʊɪŋ tə ˈvɪzɪt ləˈhɔːr/|میں لاہور جانے والا ہوں}}{{ex:She's going to buy a car.|/ʃiz ˈgoʊɪŋ tə ˈbaɪ ə ˈkɑːr/|وہ گاڑی خریدنے والی ہے}}{{ex:We're going to have dinner.|/wɪr ˈgoʊɪŋ tə ˈhæv ˈdɪnər/|ہم رات کا کھانا کھانے والے ہیں}}
@@ -393,7 +393,7 @@ practice:[
 <div class="tip">بول چال میں going to اکثر <b>gonna</b> سنائی دیتا ہے۔ اور be نہ چھوڑیں: <b>I going to go.</b> ✗ درست: <b>I'm going to go.</b> ✓</div>`,
 check:[["انگریزی میں: \"میں کل اپنے دوست سے ملنے والا ہوں\"",["I going to meet my friend tomorrow.","I'm going to meet my friend tomorrow.","I'm going meet my friend tomorrow.","I'm go to meet my friend tomorrow."],1,"سانچہ: be + going to + فعل کی پہلی فارم۔"],["خالی جگہ پُر کریں: She ___ going to study",["am","are","is","be"],2,"she کے ساتھ is آتا ہے۔"],["انگریزی میں: \"اس ویک اینڈ پر تم کیا کرنے والے ہو؟\"",["What are you going to do this weekend?","What do you going to do this weekend?","What you are going to do this weekend?","What are you going do this weekend?"],0,"ترتیب: سوالیہ لفظ + be + فاعل + going to۔"]],
 practice:[
-["mc","انگریزی میں: \"میں بوسان جانے والا ہوں\"","I'm going to go to Busan.","I going to go to Busan.","I'm going go to Busan.","I'm go to Busan going.","سانچہ: be + going to + فعل کی پہلی فارم۔"],
+["mc","انگریزی میں: \"میں اسلام آباد جانے والا ہوں\"","I'm going to go to Islamabad.","I going to go to Islamabad.","I'm going go to Islamabad.","I'm go to Islamabad going.","سانچہ: be + going to + فعل کی پہلی فارم۔"],
 ["mc","خالی جگہ پُر کریں: They ___ going to come","are","is","am","be","they کے ساتھ are آتا ہے۔"],
 ["mc","انگریزی میں: \"بارش ہونے والی ہے\"","It's going to rain.","It going to rain.","It's going rain.","It's going to rains.","going to کے بعد فعل کی پہلی فارم آتی ہے۔"],
 ["mc","انگریزی میں: \"میں جانے والا نہیں ہوں\"","I'm not going to go.","I don't going to go.","I'm not going go.","I'm going not to go.","not ہمیشہ be کے فوراً بعد آتا ہے۔"],
@@ -404,7 +404,7 @@ practice:[
 ["fi","I'm going __ study tonight.","میں آج رات پڑھنے والی ہوں","to","for|at|will","going to + فعل کی پہلی فارم۔"],
 ["fi","__ you going to come?","تم آنے والے ہو؟","Are","Do|Is|Will","you کے ساتھ Are آتا ہے۔"],
 ["fi","It's going to __ tomorrow.","کل بارش ہونے والی ہے","rain","rains|raining|rained","going to کے بعد فعل کی پہلی فارم آتی ہے۔"],
-["ty","میں ایک فلم دیکھنے والا ہوں","I'm going to watch a movie|I'm going to see a movie","الفاظ: going to · watch · movie — آرٹیکل a","the","کوئی خاص فلم نہیں، اس لیے آرٹیکل a۔"],
+["ty","میں ایک فلم دیکھنے والا ہوں","I'm going to watch a movie|I'm going to see a movie|I'm going to watch a film|I'm going to see a film","الفاظ: going to · watch · movie — آرٹیکل a","the","کوئی خاص فلم نہیں، اس لیے آرٹیکل a۔"],
 ["ty","تم کیا کرنے والے ہو؟","What are you going to do","الفاظ: what · going to · do","will","منصوبہ be going to سے پوچھا جاتا ہے۔"],
 ["ty","میں اپنے دوستوں سے ملنے والی ہوں","I'm going to meet my friends|I'm going to see my friends","الفاظ: going to · meet · friend — جمع","friend","دوست ایک سے زیادہ ہیں، اس لیے جمع friends۔"]]},
 { id:"joining", title:"جملے جوڑنا: and, but, or, so, because", blurb:"دو چھوٹے جملوں کو ایک بنائیں۔ because یا so، although یا but: جوڑی میں سے ایک ہی لفظ۔", deck:"جذبات اور ردعمل", body:`
@@ -436,25 +436,25 @@ practice:[
 ["fi","I'm tired __ happy.","میں تھکی ہوئی ہوں مگر خوش ہوں","but","so|because|or","\"مگر\" کے لیے but آتا ہے۔"],
 ["fi","I stayed home __ it was raining.","میں گھر پر رہا کیونکہ بارش ہو رہی تھی","because","so|but|or","پہلے نتیجہ، پھر وجہ ہو تو because آتا ہے۔"],
 ["fi","Coffee __ tea?","کافی یا چائے؟","or","so|but|because","دو میں سے ایک چننا ہو تو or آتا ہے۔"],
-["ty","مجھے کافی اور چائے پسند ہے","I like coffee and tea","الفاظ: like · coffee · and · tea — آرٹیکل کے بغیر","a","عام معنی میں coffee اور tea کے ساتھ آرٹیکل نہیں لگتا۔"],
+["ty","مجھے کافی اور چائے پسند ہے","I like coffee and tea|I like tea and coffee","الفاظ: like · coffee · and · tea — آرٹیکل کے بغیر","a","عام معنی میں coffee اور tea کے ساتھ آرٹیکل نہیں لگتا۔"],
 ["ty","میں تھکا ہوا ہوں مگر خوش ہوں","I'm tired but happy|I'm tired but I'm happy","الفاظ: tired · but · happy","so","\"مگر\" کے لیے but آتا ہے۔"],
 ["ty","مجھے کتے اور بلیاں پسند ہیں","I like dogs and cats|I like cats and dogs","الفاظ: dog · and · cat — جمع","dog","پوری قسم کی بات ہو تو اسم جمع میں آتے ہیں: dogs, cats۔"]]},
 { id:"pakistani-english", title:"پاکستانی انگریزی: یہاں ٹھیک، باہر عجیب", blurb:"لفظ out of station اور shopper پاکستان میں سب سمجھتے ہیں۔ باہر کے لوگوں سے کیا کہیں، یہ سیکھیں۔", deck:"پاکستانی انگریزی: یہاں اور باہر", body:`
 <p>پاکستانی انگریزی انگریزی کی اپنی ایک قسم ہے، غلط انگریزی نہیں۔ اس کے الفاظ پاکستان میں سب سمجھتے ہیں، اس لیے یہاں انہیں بے جھجک بولیں۔ مگر باہر کے لوگ ان میں سے کچھ الفاظ نہیں سمجھتے، یا کچھ اور سمجھ لیتے ہیں۔ یہ سبق بتاتا ہے کہ باہر کے سننے والے کیا سننے کی توقع رکھتے ہیں۔</p>
 <h3>پاکستان میں ٹھیک، باہر یہ کہیں</h3>
-<div class="tbl"><table><tr><th>پاکستان میں</th><th>باہر</th></tr><tr><td>out of station</td><td class="k">out of town</td></tr><tr><td>cousin-brother / cousin-sister</td><td class="k">cousin</td></tr><tr><td>pass out (تعلیم مکمل کرنا) · batchmate</td><td class="k">graduate · classmate</td></tr><tr><td>shopper (تھیلا) · copy (لکھنے والی)</td><td class="k">bag · notebook</td></tr><tr><td>petrol pump</td><td class="k">gas station</td></tr><tr><td>The light has gone.</td><td class="k">The power is out.</td></tr><tr><td>papers · numbers</td><td class="k">exams · grades</td></tr><tr><td>timings · thrice</td><td class="k">hours · three times</td></tr><tr><td>Where are you put up?</td><td class="k">Where are you staying?</td></tr><tr><td>I am elder to you.</td><td class="k">I'm older than you.</td></tr><tr><td>prepone · expired (وفات پا گئے)</td><td class="k">move up · passed away</td></tr></table></div>
+<div class="tbl"><table><tr><th>پاکستان میں</th><th>باہر</th></tr><tr><td>out of station</td><td class="k">out of town</td></tr><tr><td>cousin-brother / cousin-sister</td><td class="k">cousin</td></tr><tr><td>pass out (تعلیم مکمل کرنا) · batchmate</td><td class="k">graduate · classmate</td></tr><tr><td>shopper (تھیلا) · copy (لکھنے والی)</td><td class="k">bag · notebook</td></tr><tr><td>petrol pump</td><td class="k">gas station</td></tr><tr><td>The light has gone.</td><td class="k">The power is out.</td></tr><tr><td>papers · numbers</td><td class="k">exams · grades</td></tr><tr><td>timings · thrice</td><td class="k">hours · three times</td></tr><tr><td>Where are you put up?</td><td class="k">Where are you staying?</td></tr><tr><td>I am elder to you.</td><td class="k">I'm older than you.</td></tr><tr><td>prepone · expired (وفات پا گئے)</td><td class="k">move up · passed away</td></tr><tr><td>…, isn't it? (ہر جملے کے بعد)</td><td class="k">… aren't you? / … don't you?</td></tr></table></div>
 <p>کچھ الفاظ کا باہر مطلب ہی دوسرا ہے: <b>pass out</b> کا مطلب "بے ہوش ہو جانا" ہے، <b>shopper</b> کا مطلب "خریدار"، اور <b>expired</b> وہاں عام طور پر پاسپورٹ یا دوا جیسی چیزوں کے لیے آتا ہے جن کی مدت ختم ہو گئی ہو؛ کسی شخص کے لیے یہ روکھا لگتا ہے، اس لیے <b>passed away</b> کہتے ہیں۔ اسی طرح <b>elder</b> باہر صرف اسم سے پہلے آتا ہے (my elder brother)؛ موازنے میں <b>older than</b> کہتے ہیں۔</p>
 {{ex:I'm out of town this week.|/aɪm ˈaʊt əv ˈtaʊn ˈðɪs ˈwiːk/|میں اس ہفتے شہر سے باہر ہوں}}{{ex:The power is out.|/ðə ˈpaʊər ɪz ˈaʊt/|بجلی چلی گئی ہے}}{{ex:I graduated in 2019.|/aɪ ˈgrædʒueɪtɪd ɪn ˈtwenti ˌnaɪnˈtiːn/|میں نے 2019 میں گریجویشن کی}}{{ex:Where are you staying?|/ˈwer ər ju ˈsteɪɪŋ/|تم کہاں ٹھہرے ہو؟}}{{ex:I'm older than you.|/aɪm ˈoʊldər ðən ˈjuː/|میں تم سے بڑا ہوں}}
 <h3>یہ ہر جگہ غلط یا الجھانے والے ہیں</h3>
 <p>ان میں سے کئی اردو سے لفظ بہ لفظ بنے ہیں۔ اردو میں بتی "کھولی" اور "بند" کی جاتی ہے اور سگریٹ "پی" جاتی ہے؛ انگریزی میں ایسا نہیں کہتے۔</p>
-<div class="tbl"><table><tr><th>✗</th><th>✓</th></tr><tr><td>open / close the light</td><td class="k">turn on / turn off the light</td></tr><tr><td>drink a cigarette</td><td class="k">smoke</td></tr><tr><td>same to same</td><td class="k">exactly the same</td></tr><tr><td>too much difficult</td><td class="k">very difficult</td></tr><tr><td>My head is paining.</td><td class="k">My head hurts.</td></tr><tr><td>Myself Ali.</td><td class="k">I'm Ali. / My name is Ali.</td></tr><tr><td>…, isn't it? (ہر جملے کے بعد)</td><td class="k">… aren't you? / … don't you?</td></tr></table></div>
+<div class="tbl"><table><tr><th>✗</th><th>✓</th></tr><tr><td>open / close the light</td><td class="k">turn on / turn off the light</td></tr><tr><td>drink a cigarette</td><td class="k">smoke</td></tr><tr><td>same to same</td><td class="k">exactly the same</td></tr><tr><td>too much difficult</td><td class="k">very difficult</td></tr><tr><td>My head is paining.</td><td class="k">My head hurts.</td></tr><tr><td>Myself Ali.</td><td class="k">I'm Ali. / My name is Ali.</td></tr></table></div>
 {{ex:Can you turn on the light?|/kən ju ˈtɜːrn ˈɑːn ðə ˈlaɪt/|کیا آپ بتی جلا سکتے ہیں؟}}{{ex:He doesn't smoke.|/hi ˈdʌznt ˈsmoʊk/|وہ سگریٹ نہیں پیتا}}{{ex:It's very difficult.|/ɪts ˈveri ˈdɪfɪkəlt/|یہ بہت مشکل ہے}}{{ex:Hi, I'm Ali.|/ˈhaɪ aɪm ˈɑːli/|ہیلو، میں علی ہوں}}
 <h3>اردو سے لفظ بہ لفظ ترجمہ</h3>
 <div class="tbl"><table><tr><th>اردو</th><th>لفظ بہ لفظ ✗</th><th>درست ✓</th></tr><tr><td>دوا کھانا</td><td>eat medicine</td><td class="k">take medicine</td></tr><tr><td>امتحان دینا</td><td>give an exam</td><td class="k">take an exam</td></tr><tr><td>آپ کا اسم شریف؟</td><td>What is your good name?</td><td class="k">What's your name?</td></tr><tr><td>سگا بھائی</td><td>my real brother</td><td class="k">my brother</td></tr></table></div>
 <p>انگریزی میں give an exam استاد کے لیے آتا ہے، جو امتحان لیتا ہے؛ طالب علم کے لیے take an exam ہے۔ "سگا" بتانے کی ضرورت نہیں پڑتی: brother کا مطلب سگا بھائی ہی ہے، اور چچا یا ماموں کا بیٹا cousin ہے۔</p>
 {{ex:I need to take my medicine.|/aɪ ˈniːd tə ˈteɪk maɪ ˈmedɪsn/|مجھے دوا کھانی ہے}}{{ex:I'm taking an exam tomorrow.|/aɪm ˈteɪkɪŋ ən ɪgˈzæm təˈmɑːroʊ/|میں کل امتحان دے رہی ہوں}}{{ex:What's your name?|/ˈwʌts jʊr ˈneɪm/|آپ کا نام کیا ہے؟}}{{ex:This is my brother.|/ˈðɪs ɪz maɪ ˈbrʌðər/|یہ میرا بھائی ہے}}
 <div class="tip">پاکستانی انگریزی پر شرمانے کی کوئی بات نہیں۔ بس سننے والے کو دیکھ کر لفظ چنیں: پاکستانی ساتھیوں کے ساتھ <b>out of station</b>، باہر کے لوگوں کے ساتھ <b>out of town</b>۔</div>`,
-check:[["باہر کے کسی دوست کو بتانا ہے کہ بجلی چلی گئی ہے۔ کیا کہیں گے؟",["The light has gone.","The power is out.","The light is went.","The power is go."],1,"\"لائٹ چلی گئی\" پاکستان میں سب سمجھتے ہیں؛ باہر The power is out کہا جاتا ہے۔"],["\"بتی جلا دیں\" کے لیے درست جملہ کون سا ہے؟",["Please open the light.","Please on the light.","Please start the light.","Please turn on the light."],3,"بتی کھولی نہیں جاتی: turn on۔ بند کرنے کے لیے turn off۔"],["باہر اپنا تعارف کراتے وقت سب سے مناسب جملہ کون سا ہے؟",["Hi, I'm Ali.","Myself Ali.","Myself is Ali.","I am myself Ali."],0,"تعارف I'm Ali یا My name is Ali سے ہوتا ہے، Myself سے نہیں۔"]],
+check:[["باہر کے کسی دوست کو بتانا ہے کہ بجلی چلی گئی ہے۔ کیا کہا جائے؟",["The light has gone.","The power is out.","The light is went.","The power is go."],1,"\"لائٹ چلی گئی\" پاکستان میں سب سمجھتے ہیں؛ باہر The power is out کہا جاتا ہے۔"],["\"بتی جلا دیں\" کے لیے درست جملہ کون سا ہے؟",["Please open the light.","Please on the light.","Please start the light.","Please turn on the light."],3,"بتی کھولی نہیں جاتی: turn on۔ بند کرنے کے لیے turn off۔"],["باہر اپنا تعارف کراتے وقت سب سے مناسب جملہ کون سا ہے؟",["Hi, I'm Ali.","Myself Ali.","Myself is Ali.","I am myself Ali."],0,"تعارف I'm Ali یا My name is Ali سے ہوتا ہے، Myself سے نہیں۔"]],
 practice:[
 ["mc","باہر کے لوگوں سے انگریزی میں: \"میں اس ہفتے شہر سے باہر ہوں\"","I'm out of town this week.","I'm out of station this week.","I'm out of the town this week.","I'm outside city this week.","out of station پاکستان میں چلتا ہے؛ باہر out of town کہا جاتا ہے۔"],
 ["mc","باہر کے لوگوں سے انگریزی میں: \"میں نے 2019 میں گریجویشن کی\"","I graduated in 2019.","I passed out in 2019.","I was passed out in 2019.","I graduated on 2019.","باہر passed out کا مطلب \"بے ہوش ہو گیا\" ہے؛ تعلیم مکمل ہونے کے لیے graduated۔"],

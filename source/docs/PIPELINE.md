@@ -49,7 +49,8 @@ tools/content/
   validate.js       node validate.js [lang=ko] [pack]
   parity.js         node parity.js <lang> [pack] [--ref ko-en pack]
   new_lang.js       node new_lang.js <lang> [--out dir] [--force]
-  more/_dsl.js      practice shorthand (mc/or/fi/ty) -> PRACTICE-SPEC items; contraction variants; cue injection from the profile
+  more/_dsl.js      practice shorthand (mc/or/fi/ty) -> PRACTICE-SPEC items; contraction variants (see below); cue injection from the profile
+  contractions_test.js  node contractions_test.js   (input -> accepted forms cases for the contraction rules in more/_dsl.js)
   e2e_en.js         node e2e_en.js <lang> <id…>   (if the first arg is not a scaffolded language, it is treated as a lesson id and lang = ko)
   link_roadmap.py   no args: rewrite the en roadmap links in packs/roadmaps.js from course-ko-en (one English roadmap); --check <lang>: read-only
   ko/               decks.js extra.js lessons.js practice.js more/{a1,a2,b1}.js  (moved unchanged)
@@ -71,6 +72,24 @@ tools/i18n/
   <lang>/ui.json    same shape; values may be strings or {"t": text, ...reference fields}
 packs/course-<lang>-en.js, packs/i18n-<lang>.js   generated, never hand-edited
 ```
+
+**Contraction variants of `ty` answers (more/_dsl.js).** Every `a` variant of a `ty` row is expanded/contracted through the pronoun
+and auxiliary pairs in `PAIRS` (I'm ↔ I am, don't ↔ do not, …), with context rules so that only real English is accepted:
+* an inverted negative contraction is never expanded: before a personal pronoun (`…, don't you`, `isn't she`), at the start of a
+  clause (tags after a comma, `Isn't the weather nice`), or after a wh-word before its subject (`Why isn't the bus here`); imperative
+  `Don't + verb` still expands;
+* a positive auxiliary is never contracted at the end of a clause or before punctuation (`what time it is`, `Yes, I am`), nor in
+  `what is it`;
+* `'s` is `has` before got/gotten/been/had (`He's got a car` → `He has got a car`), is left as written before any other past
+  participle (is/has is ambiguous), and is `is` otherwise; `'d` is `had` before `better` or a participle (`I'd seen` → `I had seen`),
+  `would` before a base verb (`I'd like`), and is left as written before read/put/come… (base form = participle);
+* possessive `'s` (`my brother's car`), `let's` and `o'clock` are never touched.
+
+Optional per-item switch `nc: 1`: a 7th element `{nc: 1}` on a `ty` row (`['ty', p, 'a|a2', hint, 'x1 x2', why, {nc: 1}]`) turns
+contraction processing off in both directions, so `a` is exactly the listed variants; the pack item carries `nc: 1` (the app ignores
+it). A hand-written `type` item in practice.js may carry `nc: 1` too. validate.js applies the same rules (it demands a pair's plain
+counterpart only where the generator would produce it) and skips the pair check for `nc: 1` items. Run
+`node tools/content/contractions_test.js` after changing the rules.
 
 ## 3. profile.json (tools/content/<lang>/profile.json)
 
@@ -148,7 +167,8 @@ profile and add a row to this table.
   `{{ex:…}}` tokens (pron per policy); exactly 3 checks with 4 distinct options, an index from 0 to 3 and a native explanation; the
   correct-index distribution is varied.
 * Practice (PRACTICE-SPEC): 12–16 items in mc → order → fill → type blocks with the per-type counts and field shapes; no native
-  script in English answers; native prompts, `why` and hints; contraction/full-form pairs; the standing rule from the profile.
+  script in English answers; native prompts, `why` and hints; contraction/full-form pairs (same context rules as
+  more/_dsl.js; skipped for `nc: 1` items); the standing rule from the profile.
 * PATTERNS (at least 20), PAUSE sets (at least 18 each, no duplicates), idioms (at least 24, none duplicating a card target).
 
 **tools/content/parity.js** fails on any difference from ko-en not explained in `deviations.json`:

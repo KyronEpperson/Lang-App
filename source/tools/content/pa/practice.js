@@ -58,15 +58,15 @@ module.exports = {
     { t: "mc", q: "\"ਉਹ (ਔਰਤ) ਕੰਮ ਤੇ ਹੈ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?", o: ["She's at work.","She at work.","She does at work.","She are at work."], why: "ਥਾਂ ਦੱਸਣ ਲਈ be ਆਉਂਦਾ ਹੈ; \"ਉਹ\" ਔਰਤ ਹੈ ਤਾਂ she, ਤੇ she ਨਾਲ is।" },
     { t: "mc", q: "Do you like coffee? ਦਾ \"ਹਾਂ\" ਵਿੱਚ ਜਵਾਬ ਕੀ ਹੈ?", o: ["Yes, I do.","Yes, I am.","Yes, I like.","Yes, I does."], why: "do ਨਾਲ ਪੁੱਛਿਆ ਹੈ, ਇਸ ਲਈ ਜਵਾਬ ਵੀ do ਨਾਲ: Yes, I do।" },
     { t: "mc", q: "\"ਉਹ ਮੀਟ ਨਹੀਂ ਖਾਂਦੀ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?", o: ["She doesn't eat meat.","She don't eat meat.","She isn't eat meat.","She doesn't eats meat."], why: "\"ਖਾਂਦੀ\" ਔਰਤ ਲਈ ਹੈ, ਇਸ ਲਈ she। ਨਾਂਹ ਲਈ doesn't + V1, ਬਿਨਾਂ -s ਦੇ: eat।" },
-    { t: "order", p: "ਮੇਰਾ ਭਰਾ ਸਿਓਲ ਵਿੱਚ ਕੰਮ ਕਰਦਾ ਹੈ", a: ["My","brother","works","in","Seoul"], x: ["work","is"], why: "ਕਰਤਾ ਇੱਕ ਜਣਾ (he) ਹੈ, ਇਸ ਲਈ works; work ਆਪ ਕਿਰਿਆ ਹੈ, ਇਸ ਦੇ ਨਾਲ is ਨਹੀਂ ਲੱਗਦਾ।" },
+    { t: "order", p: "ਮੇਰਾ ਭਰਾ ਅੰਮ੍ਰਿਤਸਰ ਵਿੱਚ ਕੰਮ ਕਰਦਾ ਹੈ", a: ["My","brother","works","in","Amritsar"], x: ["work","is"], why: "ਕਰਤਾ ਇੱਕ ਜਣਾ (he) ਹੈ, ਇਸ ਲਈ works; work ਆਪ ਕਿਰਿਆ ਹੈ, ਇਸ ਦੇ ਨਾਲ is ਨਹੀਂ ਲੱਗਦਾ।" },
     { t: "order", p: "ਮੈਂ ਵਿਦਿਆਰਥੀ ਨਹੀਂ ਹਾਂ", a: ["I'm","not","a","student"], x: ["don't","the"], why: "be ਦਾ ਨਾਂਹ-ਵਾਚਕ ਰੂਪ not ਨਾਲ ਬਣਦਾ ਹੈ, ਤੇ ਪਛਾਣ ਤੋਂ ਪਹਿਲਾਂ ਆਰਟੀਕਲ a ਲੱਗਦਾ ਹੈ।" },
     { t: "order", p: "ਉਸ (ਕੁੜੀ) ਕੋਲ ਦੋ ਕੁੱਤੇ ਹਨ", a: ["She","has","two","dogs"], x: ["have","dog"], why: "she ਨਾਲ has ਆਉਂਦਾ ਹੈ; ਕੁੱਤੇ ਦੋ ਹਨ, ਇਸ ਲਈ ਬਹੁਵਚਨ dogs।" },
-    { t: "fill", q: "My brother __ in Seoul.", p: "ਮੇਰਾ ਭਰਾ ਸਿਓਲ ਵਿੱਚ ਰਹਿੰਦਾ ਹੈ", a: ["lives"], o: ["live","is live","living"], why: "ਕਰਤਾ he ਹੈ, ਇਸ ਲਈ ਕਿਰਿਆ ਨਾਲ -s ਲੱਗਦਾ ਹੈ: lives।" },
+    { t: "fill", q: "My brother __ in Amritsar.", p: "ਮੇਰਾ ਭਰਾ ਅੰਮ੍ਰਿਤਸਰ ਵਿੱਚ ਰਹਿੰਦਾ ਹੈ", a: ["lives"], o: ["live","is live","living"], why: "ਕਰਤਾ he ਹੈ, ਇਸ ਲਈ ਕਿਰਿਆ ਨਾਲ -s ਲੱਗਦਾ ਹੈ: lives।" },
     { t: "fill", q: "__ you tired?", p: "ਕੀ ਤੁਸੀਂ ਥੱਕੇ ਹੋਏ ਹੋ?", a: ["Are"], o: ["Do","Is","Does"], why: "tired ਹਾਲਤ ਹੈ, ਇਸ ਲਈ ਸਵਾਲ be ਨਾਲ ਬਣਦਾ ਹੈ; you ਨਾਲ are।" },
     { t: "fill", q: "We __ hungry.", p: "ਸਾਨੂੰ ਭੁੱਖ ਲੱਗੀ ਹੈ", a: ["are"], o: ["is","am","do"], why: "\"ਸਾਨੂੰ ਭੁੱਖ ਲੱਗੀ ਹੈ\" ਵਿੱਚ ਅੰਗਰੇਜ਼ੀ ਦਾ ਕਰਤਾ we ਹੈ; hungry ਹਾਲਤ ਹੈ, ਇਸ ਲਈ be, ਤੇ we ਨਾਲ are।" },
     { t: "type", p: "ਉਹ (ਆਦਮੀ) ਅਧਿਆਪਕ ਹੈ", a: ["He's a teacher","He is a teacher"], hint: "teacher — be + ਪੇਸ਼ੇ ਤੋਂ ਪਹਿਲਾਂ ਆਰਟੀਕਲ", x: ["the"], why: "ਪਛਾਣ ਦੱਸਣ ਲਈ be ਆਉਂਦਾ ਹੈ; ਪੇਸ਼ੇ ਤੋਂ ਪਹਿਲਾਂ ਆਰਟੀਕਲ a ਲੱਗਦਾ ਹੈ।" },
     { t: "type", p: "ਮੈਨੂੰ ਕੌਫ਼ੀ ਪਸੰਦ ਨਹੀਂ", a: ["I don't like coffee","I do not like coffee"], hint: "don't · like · coffee — like ਦਾ ਨਾਂਹ-ਵਾਚਕ ਰੂਪ", x: ["am"], why: "like ਆਪ ਕਿਰਿਆ ਹੈ, ਇਸ ਲਈ ਨਾਂਹ don't ਨਾਲ ਬਣਦੀ ਹੈ (I'm not like ਗ਼ਲਤ ਹੈ)।" },
-    { t: "type", p: "ਕੀ ਉਸ (ਕੁੜੀ) ਕੋਲ ਇੱਕ ਬਿੱਲੀ ਹੈ?", a: ["Does she have a cat"], hint: "does · have · cat — ਇੱਕ ਬਿੱਲੀ ਤੋਂ ਪਹਿਲਾਂ ਆਰਟੀਕਲ", x: ["has"], why: "does ਆਵੇ ਤਾਂ ਕਿਰਿਆ V1 ਰਹਿੰਦੀ ਹੈ: have। ਬਿੱਲੀ ਇੱਕ ਹੈ, ਇਸ ਲਈ ਆਰਟੀਕਲ a।" }
+    { t: "type", p: "ਕੀ ਉਸ (ਕੁੜੀ) ਕੋਲ ਇੱਕ ਬਿੱਲੀ ਹੈ?", a: ["Does she have a cat","Has she got a cat"], hint: "does · have · cat — ਇੱਕ ਬਿੱਲੀ ਤੋਂ ਪਹਿਲਾਂ ਆਰਟੀਕਲ", x: ["has"], why: "does ਆਵੇ ਤਾਂ ਕਿਰਿਆ V1 ਰਹਿੰਦੀ ਹੈ: have। ਬਿੱਲੀ ਇੱਕ ਹੈ, ਇਸ ਲਈ ਆਰਟੀਕਲ a।" }
   ],
   polite: [
     { t: "mc", q: "ਕੈਫ਼ੇ ਵਿੱਚ ਇੱਕ ਲਾਟੇ ਆਰਡਰ ਕਰਨ ਲਈ ਸਭ ਤੋਂ ਸੁਭਾਵਿਕ ਵਾਕ ਕਿਹੜਾ ਹੈ?", o: ["Can I get a latte, please?","Give me latte.","I want latte.","Latte, give me."], why: "ਦੁਕਾਨ ਜਾਂ ਕੈਫ਼ੇ ਵਿੱਚ Can I get ~? ਸੁਭਾਵਿਕ ਲੱਗਦਾ ਹੈ। ਲਾਟੇ ਇੱਕ ਹੈ, ਇਸ ਲਈ ਆਰਟੀਕਲ a ਵੀ ਲੱਗੇਗਾ।" },
@@ -87,7 +87,7 @@ module.exports = {
   tense: [
     { t: "mc", q: "\"ਮੈਂ ਹੁਣੇ ਕੌਫ਼ੀ ਪੀ ਰਹੀ ਹਾਂ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?", o: ["I'm drinking coffee right now.","I drink coffee right now.","I drank coffee right now.","I drinking coffee right now."], why: "ਹੁਣੇ ਚੱਲ ਰਿਹਾ ਕੰਮ = Present Continuous: be + -ing।" },
     { t: "mc", q: "\"ਪਿਛਲੇ ਵੀਕਐਂਡ ਮੈਂ ਬੀਚ ਤੇ ਗਿਆ ਸੀ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?", o: ["I went to the beach last weekend.","I go to the beach last weekend.","I goed to the beach last weekend.","I went to beach last weekend."], why: "go ਦੀ V2 went ਹੈ, ਤੇ beach ਨਾਲ ਆਰਟੀਕਲ the ਲੱਗਦਾ ਹੈ: the beach।" },
-    { t: "mc", q: "ਅਗਲੇ ਮਹੀਨੇ ਦਾ ਪਲਾਨ: \"ਮੈਂ ਜੇਜੂ ਘੁੰਮਣ ਜਾਣ ਵਾਲਾ ਹਾਂ\"", o: ["I'm going to visit Jeju next month.","I visit Jeju next month.","I visited Jeju next month.","I'm going visit Jeju next month."], why: "ਪਹਿਲਾਂ ਤੋਂ ਬਣਾਇਆ ਪਲਾਨ = be going to + V1।" },
+    { t: "mc", q: "ਅਗਲੇ ਮਹੀਨੇ ਦਾ ਪਲਾਨ: \"ਮੈਂ ਗੋਆ ਘੁੰਮਣ ਜਾਣ ਵਾਲਾ ਹਾਂ\"", o: ["I'm going to visit Goa next month.","I visit Goa next month.","I visited Goa next month.","I'm going visit Goa next month."], why: "ਪਹਿਲਾਂ ਤੋਂ ਬਣਾਇਆ ਪਲਾਨ = be going to + V1।" },
     { t: "mc", q: "ਘੰਟੀ ਵੱਜੀ ਹੈ। ਉਸੇ ਵੇਲੇ ਕਹੋ: \"ਦਰਵਾਜ਼ਾ ਮੈਂ ਖੋਲ੍ਹਦਾ ਹਾਂ!\"", o: ["I'll get the door!","I'm going to get the door!","I get the door!","I getting the door!"], why: "ਬੋਲਦੇ ਵੇਲੇ ਕੀਤਾ ਫ਼ੈਸਲਾ = will।" },
     { t: "mc", q: "see ਦੀ V2 (ਦੂਜੀ ਫ਼ਾਰਮ) ਕੀ ਹੈ?", o: ["saw","seed","seen","sawed"], why: "see ਅਨਿਯਮਿਤ ਕਿਰਿਆ ਹੈ: see - saw - seen।" },
     { t: "order", p: "ਮੈਂ ਬੈਂਕ ਵਿੱਚ ਕੰਮ ਕਰਦਾ ਹਾਂ (ਹਮੇਸ਼ਾ)", a: ["I","work","at","a","bank"], x: ["the","working"], why: "ਹਮੇਸ਼ਾ ਦਾ ਕੰਮ = Simple Present। ਬੈਂਕ ਦੀ ਗੱਲ ਪਹਿਲੀ ਵਾਰ ਹੋ ਰਹੀ ਹੈ, ਕੋਈ ਇੱਕ ਬੈਂਕ, ਇਸ ਲਈ ਆਰਟੀਕਲ a।" },
@@ -98,21 +98,21 @@ module.exports = {
     { t: "fill", q: "I'm going __ visit my parents.", p: "ਮੈਂ ਆਪਣੇ ਮਾਪਿਆਂ ਕੋਲ ਜਾਣ ਵਾਲੀ ਹਾਂ", a: ["to"], o: ["for","at","on"], why: "ਪਲਾਨ = be going to + V1।" },
     { t: "type", p: "ਅੱਜ ਮੈਂ ਘਰੋਂ ਕੰਮ ਕਰ ਰਿਹਾ ਹਾਂ", a: ["I'm working from home today","I am working from home today","Today I'm working from home","Today I am working from home"], hint: "work · from home · today — ਹੁਣ ਚੱਲ ਰਿਹਾ ਕੰਮ", x: ["work"], why: "ਅੱਜ ਚੱਲ ਰਿਹਾ ਕੰਮ = be + -ing।" },
     { t: "type", p: "ਪਿਛਲੇ ਵੀਕਐਂਡ ਮੈਂ ਬੀਚ ਤੇ ਗਈ ਸੀ", a: ["I went to the beach last weekend","Last weekend I went to the beach"], hint: "go · beach · last weekend — V2 ਤੇ ਆਰਟੀਕਲ", x: ["a"], why: "go ਦੀ V2 went ਹੈ; beach ਨਾਲ ਆਰਟੀਕਲ the ਲੱਗਦਾ ਹੈ: the beach।" },
-    { t: "type", p: "ਮੈਂ ਇੱਕ ਕੁਕਿੰਗ ਕਲਾਸ ਲੈਣ ਵਾਲਾ ਹਾਂ (ਪਲਾਨ)", a: ["I'm going to take a cooking class","I am going to take a cooking class"], hint: "going to · take · cooking class — ਇੱਕ ਕਲਾਸ ਤੋਂ ਪਹਿਲਾਂ ਆਰਟੀਕਲ", x: ["the"], why: "ਪਹਿਲਾਂ ਤੋਂ ਬਣਾਇਆ ਪਲਾਨ = going to। ਕਲਾਸ ਦੀ ਗੱਲ ਪਹਿਲੀ ਵਾਰ ਹੋ ਰਹੀ ਹੈ, ਇਸ ਲਈ ਆਰਟੀਕਲ a।" }
+    { t: "type", p: "ਮੈਂ ਇੱਕ ਕੁਕਿੰਗ ਕਲਾਸ ਲੈਣ ਵਾਲਾ ਹਾਂ (ਪਲਾਨ; going to ਨਾਲ)", a: ["I'm going to take a cooking class","I am going to take a cooking class"], hint: "going to · take · cooking class — ਇੱਕ ਕਲਾਸ ਤੋਂ ਪਹਿਲਾਂ ਆਰਟੀਕਲ", x: ["the"], why: "ਪਹਿਲਾਂ ਤੋਂ ਬਣਾਇਆ ਪਲਾਨ = going to। ਕਲਾਸ ਦੀ ਗੱਲ ਪਹਿਲੀ ਵਾਰ ਹੋ ਰਹੀ ਹੈ, ਇਸ ਲਈ ਆਰਟੀਕਲ a।" }
   ],
   prep: [
     { t: "mc", q: "\"ਮਈ ਵਿੱਚ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?", o: ["in May","on May","at May","to May"], why: "ਮਹੀਨੇ ਤੋਂ ਪਹਿਲਾਂ in ਲੱਗਦਾ ਹੈ।" },
     { t: "mc", q: "\"3 ਮਈ ਨੂੰ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?", o: ["on May 3rd","in May 3rd","at May 3rd","to May 3rd"], why: "ਤਾਰੀਖ਼ ਤੋਂ ਪਹਿਲਾਂ on ਲੱਗਦਾ ਹੈ: ਇੱਥੇ \"ਨੂੰ\" = on।" },
     { t: "mc", q: "\"ਮੈਂ (ਹੁਣ) ਬੱਸ ਵਿੱਚ ਹਾਂ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?", o: ["I'm on the bus.","I'm at the bus.","I'm on bus.","I'm to the bus."], why: "ਬੱਸ ਤੇ ਟ੍ਰੇਨ ਨਾਲ on ਆਉਂਦਾ ਹੈ। ਬੱਸ ਉਹੀ ਹੈ ਜਿਸ ਵਿੱਚ ਮੈਂ ਬੈਠਾ ਹਾਂ, ਇਸ ਲਈ ਆਰਟੀਕਲ the।" },
     { t: "mc", q: "\"ਰਾਤ ਨੂੰ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?", o: ["at night","on night","in night","at the night"], why: "night ਦਾ ਆਪਣਾ ਨਿਯਮ ਹੈ: ਬਿਨਾਂ ਆਰਟੀਕਲ ਦੇ at night।" },
-    { t: "mc", q: "ਸਹੀ ਵਾਕ ਚੁਣੋ।", o: ["I live in Seoul.","I live at Seoul.","I live on Seoul.","I live in the Seoul."], why: "ਸ਼ਹਿਰ ਤੋਂ ਪਹਿਲਾਂ in ਲੱਗਦਾ ਹੈ; ਸ਼ਹਿਰ ਦੇ ਨਾਂ ਨਾਲ ਆਰਟੀਕਲ the ਨਹੀਂ ਲੱਗਦਾ।" },
+    { t: "mc", q: "ਸਹੀ ਵਾਕ ਚੁਣੋ।", o: ["I live in Amritsar.","I live at Amritsar.","I live on Amritsar.","I live in the Amritsar."], why: "ਸ਼ਹਿਰ ਤੋਂ ਪਹਿਲਾਂ in ਲੱਗਦਾ ਹੈ; ਸ਼ਹਿਰ ਦੇ ਨਾਂ ਨਾਲ ਆਰਟੀਕਲ the ਨਹੀਂ ਲੱਗਦਾ।" },
     { t: "order", p: "(ਉਹ ਸਟੇਸ਼ਨ ਜੋ ਦੋਵੇਂ ਜਾਣਦੇ ਹਾਂ) ਸਟੇਸ਼ਨ ਤੇ ਮਿਲਦੇ ਹਾਂ", a: ["Let's","meet","at","the","station"], x: ["in","a"], why: "ਇੱਕ ਬਿੰਦੂ = at। ਸਟੇਸ਼ਨ ਉਹੀ ਹੈ ਜਿਸ ਨੂੰ ਦੋਵੇਂ ਜਾਣਦੇ ਹਨ, ਇਸ ਲਈ ਆਰਟੀਕਲ the।" },
     { t: "order", p: "ਮੇਰਾ ਫ਼ੋਨ (ਸਾਹਮਣੇ ਵਾਲੇ) ਮੇਜ਼ ਤੇ ਪਿਆ ਹੈ", a: ["My","phone","is","on","the","table"], x: ["in","a"], why: "ਸਤਹ ਉੱਤੇ = on। ਮੇਜ਼ ਸਾਹਮਣੇ ਵਾਲਾ ਹੀ ਹੈ, ਇਸ ਲਈ ਆਰਟੀਕਲ the।" },
     { t: "order", p: "ਅਗਲੇ ਹਫ਼ਤੇ ਮਿਲਦੇ ਹਾਂ", a: ["See","you","next","week"], x: ["on"], why: "next ਤੋਂ ਪਹਿਲਾਂ ਕੋਈ preposition ਨਹੀਂ ਲੱਗਦਾ।" },
     { t: "fill", q: "The meeting is __ three.", p: "ਮੀਟਿੰਗ ਤਿੰਨ ਵਜੇ ਹੈ", a: ["at"], o: ["on","to","of"], why: "ਘੜੀ ਦੇ ਸਮੇਂ ਤੋਂ ਪਹਿਲਾਂ at ਲੱਗਦਾ ਹੈ: \"ਤਿੰਨ ਵਜੇ\" = at three।" },
     { t: "fill", q: "I was born __ 1998.", p: "ਮੇਰਾ ਜਨਮ 1998 ਵਿੱਚ ਹੋਇਆ ਸੀ", a: ["in"], o: ["on","at","to"], why: "ਸਾਲ ਤੋਂ ਪਹਿਲਾਂ in ਲੱਗਦਾ ਹੈ।" },
     { t: "fill", q: "See you __ Friday.", p: "ਸ਼ੁੱਕਰਵਾਰ ਨੂੰ ਮਿਲਦੇ ਹਾਂ", a: ["on"], o: ["in","at","to"], why: "ਦਿਨ ਦੇ ਨਾਂ ਤੋਂ ਪਹਿਲਾਂ on ਲੱਗਦਾ ਹੈ: \"ਸ਼ੁੱਕਰਵਾਰ ਨੂੰ\" = on Friday।" },
-    { t: "type", p: "ਮੈਂ ਸਵੇਰੇ ਕੌਫ਼ੀ ਪੀਂਦੀ ਹਾਂ", a: ["I drink coffee in the morning","In the morning I drink coffee","I have coffee in the morning","In the morning I have coffee"], hint: "coffee · morning — in + ਆਰਟੀਕਲ", x: ["at"], why: "ਦਿਨ ਦੇ ਹਿੱਸੇ ਤੋਂ ਪਹਿਲਾਂ in, ਤੇ ਨਾਲ ਆਰਟੀਕਲ the ਜ਼ਰੂਰ: in the morning।" },
+    { t: "type", p: "ਮੈਂ ਸਵੇਰੇ ਕੌਫ਼ੀ ਪੀਂਦੀ ਹਾਂ", a: ["I drink coffee in the morning","In the morning I drink coffee","I have coffee in the morning","In the morning I have coffee","I drink coffee in the mornings"], hint: "coffee · morning — in + ਆਰਟੀਕਲ", x: ["at"], why: "ਦਿਨ ਦੇ ਹਿੱਸੇ ਤੋਂ ਪਹਿਲਾਂ in, ਤੇ ਨਾਲ ਆਰਟੀਕਲ the ਜ਼ਰੂਰ: in the morning।" },
     { t: "type", p: "ਮੈਂ ਹੁਣ ਘਰ ਹਾਂ", a: ["I'm at home","I am at home","I'm at home now","I am at home now","I'm home","I am home","I'm home now","I am home now"], hint: "at · home — ਬਿਨਾਂ ਆਰਟੀਕਲ ਦੇ", x: ["the"], why: "at home ਨਾਲ ਆਰਟੀਕਲ the ਨਹੀਂ ਲੱਗਦਾ।" },
     { t: "type", p: "ਅਗਲੇ ਵੀਕਐਂਡ ਮਿਲਦੇ ਹਾਂ (See you ਨਾਲ)", a: ["See you next weekend"], hint: "see · next weekend — next ਤੋਂ ਪਹਿਲਾਂ preposition?", x: ["on"], why: "next ਤੋਂ ਪਹਿਲਾਂ ਕੋਈ preposition ਨਹੀਂ ਲੱਗਦਾ।" }
   ],
@@ -121,21 +121,21 @@ module.exports = {
     { t: "mc", q: "I don't drink coffee. ਸੁਣ ਕੇ ਕਹੋ: \"ਮੈਂ ਵੀ ਨਹੀਂ ਪੀਂਦਾ\"", o: ["Me neither.","Me too.","So do I.","Me also."], why: "ਨਾਂਹ ਵਾਲੇ ਵਾਕ ਨਾਲ ਸਹਿਮਤੀ = Me neither।" },
     { t: "mc", q: "ਗੱਲਬਾਤ ਸਲੀਕੇ ਨਾਲ ਮੁਕਾਉਣ ਲਈ ਕੀ ਕਹੋਗੇ?", o: ["Well, I should get going.","Okay, bye now go.","I'm leaving you.","Stop talking, please."], why: "I should get going ਨਰਮੀ ਨਾਲ ਵਿਦਾ ਲੈਣ ਦਾ ਤਰੀਕਾ ਹੈ।" },
     { t: "mc", q: "ਪਹਿਲੀ ਵਾਰ ਮਿਲੇ ਬੰਦੇ ਨਾਲ ਗੱਲ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਕਿਹੜਾ ਵਾਕ ਠੀਕ ਹੈ?", o: ["Nice weather today, huh?","How much do you make?","Are you married?","Did you gain weight?"], why: "ਮੌਸਮ ਸਭ ਤੋਂ ਸੁਰੱਖਿਅਤ ਵਿਸ਼ਾ ਹੈ। ਤਨਖ਼ਾਹ, ਵਿਆਹ ਤੇ ਭਾਰ ਬਾਰੇ ਸਵਾਲ ਵਿਦੇਸ਼ ਵਿੱਚ ਨਿੱਜੀ ਮੰਨੇ ਜਾਂਦੇ ਹਨ।" },
-    { t: "mc", q: "I went to Busan last weekend. ਸੁਣ ਕੇ ਦਿਲਚਸਪੀ ਦਿਖਾਉਣ ਵਾਲਾ ਹੁੰਗਾਰਾ ਕਿਹੜਾ ਹੈ?", o: ["Oh, really? That sounds fun!","Why?","So what?","Me neither."], why: "Oh, really? ਤੇ That sounds fun! ਨਾਲ ਦਿਲਚਸਪੀ ਦਿਖਾਓ।" },
+    { t: "mc", q: "I went to Goa last weekend. ਸੁਣ ਕੇ ਦਿਲਚਸਪੀ ਦਿਖਾਉਣ ਵਾਲਾ ਹੁੰਗਾਰਾ ਕਿਹੜਾ ਹੈ?", o: ["Oh, really? That sounds fun!","Why?","So what?","Me neither."], why: "Oh, really? ਤੇ That sounds fun! ਨਾਲ ਦਿਲਚਸਪੀ ਦਿਖਾਓ।" },
     { t: "order", p: "ਵੀਕਐਂਡ ਦਾ ਕੋਈ ਪਲਾਨ ਹੈ?", a: ["Any","plans","for","the","weekend"], x: ["plan","a"], why: "ਇਸ ਸਵਾਲ ਵਿੱਚ ਬਹੁਵਚਨ plans ਆਉਂਦਾ ਹੈ; ਗੱਲ ਇਸੇ ਆਉਣ ਵਾਲੇ ਵੀਕਐਂਡ ਦੀ ਹੈ, ਇਸ ਲਈ ਆਰਟੀਕਲ the।" },
     { t: "order", p: "ਤੁਹਾਡੇ ਨਾਲ ਗੱਲ ਕਰ ਕੇ ਚੰਗਾ ਲੱਗਿਆ", a: ["It","was","nice","talking","to","you"], x: ["talk"], why: "ਇਹ ਗੱਲਬਾਤ ਮੁਕਾਉਣ ਵੇਲੇ ਦਾ ਵਾਕ ਹੈ; nice ਤੋਂ ਬਾਅਦ talking ਆਉਂਦਾ ਹੈ।" },
     { t: "order", p: "ਮੈਨੂੰ ਡਰਾਉਣੀਆਂ ਫ਼ਿਲਮਾਂ ਪਸੰਦ ਨਹੀਂ", a: ["I","don't","like","horror","movies"], x: ["movie","the"], why: "ਫ਼ਿਲਮਾਂ ਦੀ ਆਮ ਗੱਲ ਹੋ ਰਹੀ ਹੈ: ਬਿਨਾਂ ਆਰਟੀਕਲ ਦੇ ਬਹੁਵਚਨ movies।" },
     { t: "fill", q: "Pretty good! How __ you?", p: "ਵਧੀਆ! ਤੂੰ ਸੁਣਾ?", a: ["about"], o: ["for","with","of"], why: "ਛੋਟਾ ਜਵਾਬ ਦੇ ਕੇ How about you? ਨਾਲ ਮੋੜ ਕੇ ਪੁੱਛਣਾ ਸਲੀਕਾ ਹੈ।" },
     { t: "fill", q: "I know, __?", p: "ਹੈ ਨਾ! / ਮੈਂ ਵੀ ਇਹੀ ਕਹਿੰਦਾ ਹਾਂ!", a: ["right"], o: ["light","yes","true"], why: "I know, right? ਜ਼ੋਰਦਾਰ ਸਹਿਮਤੀ ਦਾ ਹੁੰਗਾਰਾ ਹੈ। R ਵਾਲਾ right — L ਵਾਲਾ light ਨਹੀਂ।" },
     { t: "fill", q: "Have you seen any good __ lately?", p: "ਅੱਜ-ਕੱਲ੍ਹ ਕੁਝ ਵਧੀਆ ਦੇਖਿਆ ਹੈ?", a: ["shows","movies"], o: ["show","movie","a show"], why: "ਇਹੋ ਜਿਹੇ ਸਵਾਲ ਵਿੱਚ any ਤੋਂ ਬਾਅਦ ਗਿਣਨਯੋਗ ਨਾਂਵ ਬਹੁਵਚਨ ਵਿੱਚ ਆਉਂਦਾ ਹੈ: shows, movies।" },
-    { t: "type", p: "ਤੁਹਾਡਾ ਵੀਕਐਂਡ ਕਿਵੇਂ ਰਿਹਾ?", a: ["How was your weekend"], hint: "how · weekend — Simple Past ਵਿੱਚ", x: ["is"], why: "ਵੀਕਐਂਡ ਬੀਤ ਚੁੱਕਾ ਹੈ, ਇਸ ਲਈ was ਨਾਲ ਪੁੱਛੋ।" },
-    { t: "type", p: "ਅੱਜ ਮੌਸਮ ਵਧੀਆ ਹੈ", a: ["Nice weather today huh","Nice weather today","It's nice weather today","It is nice weather today","The weather is nice today","The weather's nice today"], hint: "nice · weather · today — ਆਰਟੀਕਲ ਲੱਗੇਗਾ?", x: ["a"], why: "weather ਨਾ-ਗਿਣਨਯੋਗ ਹੈ, ਇਸ ਲਈ ਆਰਟੀਕਲ a ਨਹੀਂ ਲੱਗਦਾ (a nice weather ਗ਼ਲਤ ਹੈ)।" },
+    { t: "type", p: "ਤੁਹਾਡਾ ਵੀਕਐਂਡ ਕਿਵੇਂ ਰਿਹਾ?", a: ["How was your weekend","How did your weekend go"], hint: "how · weekend — Simple Past ਵਿੱਚ", x: ["is"], why: "ਵੀਕਐਂਡ ਬੀਤ ਚੁੱਕਾ ਹੈ, ਇਸ ਲਈ was ਨਾਲ ਪੁੱਛੋ।" },
+    { t: "type", p: "ਅੱਜ ਮੌਸਮ ਵਧੀਆ ਹੈ", a: ["Nice weather today huh","Nice weather today","It's nice weather today","It is nice weather today","The weather is nice today","The weather's nice today","The weather is good today","The weather's good today","It's a nice day today","It is a nice day today","It's a nice day","It is a nice day"], hint: "nice · weather · today — ਆਰਟੀਕਲ ਲੱਗੇਗਾ?", x: ["a"], why: "weather ਨਾ-ਗਿਣਨਯੋਗ ਹੈ, ਇਸ ਲਈ ਆਰਟੀਕਲ a ਨਹੀਂ ਲੱਗਦਾ (a nice weather ਗ਼ਲਤ ਹੈ)।" },
     { t: "type", p: "ਮੈਨੂੰ ਫ਼ਿਲਮਾਂ (movies) ਦੇਖਣਾ ਪਸੰਦ ਹੈ", a: ["I like watching movies","I like to watch movies","I love watching movies","I love to watch movies"], hint: "like · watch · movie — ਆਮ ਗੱਲ ਲਈ ਬਹੁਵਚਨ", x: ["movie"], why: "ਫ਼ਿਲਮਾਂ ਦੀ ਆਮ ਗੱਲ ਹੋ ਰਹੀ ਹੈ, ਇਸ ਲਈ ਬਹੁਵਚਨ movies।" }
   ],
   phrasal: [
     { t: "mc", q: "\"ਇਸ ਨੂੰ ਚਾਲੂ ਕਰ ਦਿਓ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?", o: ["Turn it on.","Turn on it.","Turn it of.","On turn it."], why: "ਪੜਨਾਂਵ it ਫ਼ਰੇਜ਼ਲ ਵਰਬ ਦੇ ਵਿਚਕਾਰ ਆਉਂਦਾ ਹੈ: turn it on।" },
     { t: "mc", q: "\"ਸਾਡਾ ਦੁੱਧ ਮੁੱਕ ਗਿਆ ਹੈ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?", o: ["We ran out of milk.","We ran out milk.","We ran of out milk.","We ran off of milk."], why: "run out of = ਮੁੱਕ ਜਾਣਾ। of ਨਾ ਛੱਡੋ।" },
-    { t: "mc", q: "\"ਮੈਂ ਡੇਗੂ ਵਿੱਚ ਵੱਡਾ ਹੋਇਆ ਹਾਂ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?", o: ["I grew up in Daegu.","I grew in Daegu up.","I growed up in Daegu.","I grew out in Daegu."], why: "grow up = ਵੱਡਾ ਹੋਣਾ; ਇਸ ਦੀ V2 grew up ਹੈ।" },
+    { t: "mc", q: "\"ਮੈਂ ਜਲੰਧਰ ਵਿੱਚ ਵੱਡਾ ਹੋਇਆ ਹਾਂ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?", o: ["I grew up in Jalandhar.","I grew in Jalandhar up.","I growed up in Jalandhar.","I grew out in Jalandhar."], why: "grow up = ਵੱਡਾ ਹੋਣਾ; ਇਸ ਦੀ V2 grew up ਹੈ।" },
     { t: "mc", q: "\"ਕੀ ਤੁਸੀਂ ਮੇਰੀ ਬਿੱਲੀ ਦੀ ਦੇਖਭਾਲ ਕਰ ਸਕਦੇ ਹੋ?\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?", o: ["Can you look after my cat?","Can you look my cat after?","Can you look for my cat?","Can you look out my cat?"], why: "look after = ਦੇਖਭਾਲ ਕਰਨਾ; ਇਹ ਵੰਡਿਆ ਨਹੀਂ ਜਾਂਦਾ (look for = ਲੱਭਣਾ)।" },
     { t: "mc", q: "\"ਮੈਂ ਤੈਨੂੰ ਸੱਤ ਵਜੇ ਲੈਣ ਆਵਾਂਗਾ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?", o: ["I'll pick you up at seven.","I'll pick up you at seven.","I'll pick you at seven up.","I'll up pick you at seven."], why: "ਪੜਨਾਂਵ you, pick ਤੇ up ਦੇ ਵਿਚਕਾਰ ਆਉਂਦਾ ਹੈ।" },
     { t: "order", p: "ਮੈਂ ਆਪਣੀ ਐਨਕ ਲੱਭ ਰਿਹਾ ਹਾਂ", a: ["I'm","looking","for","my","glasses"], x: ["glass","after"], why: "ਐਨਕ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਹਮੇਸ਼ਾ ਬਹੁਵਚਨ ਹੁੰਦੀ ਹੈ: glasses (glass = ਗਲਾਸ ਜਾਂ ਕੱਚ)। ਲੱਭਣਾ = look for।" },
@@ -146,7 +146,7 @@ module.exports = {
     { t: "fill", q: "We ran out of __.", p: "ਸਾਡੇ ਅੰਡੇ ਮੁੱਕ ਗਏ ਹਨ", a: ["eggs"], o: ["egg","an egg","the egg"], why: "ਅੰਡੇ ਗਿਣਨਯੋਗ ਹਨ; ਮੁੱਕ ਜਾਣ ਦੀ ਗੱਲ ਵਿੱਚ ਬਹੁਵਚਨ eggs ਆਉਂਦਾ ਹੈ।" },
     { t: "type", p: "ਇਸ ਨੂੰ ਬੰਦ ਕਰ ਦਿਓ (turn ਨਾਲ)", a: ["Turn it off","Turn it off please","Please turn it off","Can you turn it off","Can you turn it off please","Could you turn it off","Could you turn it off please"], hint: "turn · off — ਪੜਨਾਂਵ ਵਿਚਕਾਰ", x: ["on"], why: "ਪੜਨਾਂਵ it, turn ਤੇ off ਦੇ ਵਿਚਕਾਰ ਆਉਂਦਾ ਹੈ।" },
     { t: "type", p: "ਮੈਂ ਦੋ ਬਿੱਲੀਆਂ ਦੀ ਦੇਖਭਾਲ ਕਰਦੀ ਹਾਂ", a: ["I look after two cats","I take care of two cats"], hint: "look after · two · cat — ਦੋ ਹੋਣ ਤਾਂ ਬਹੁਵਚਨ", x: ["cat"], why: "look after = ਦੇਖਭਾਲ ਕਰਨਾ। ਬਿੱਲੀਆਂ ਦੋ ਹਨ, ਇਸ ਲਈ ਬਹੁਵਚਨ cats।" },
-    { t: "type", p: "ਸਾਡਾ ਦੁੱਧ ਮੁੱਕ ਗਿਆ ਹੈ (out of ਨਾਲ)", a: ["We ran out of milk","We've run out of milk","We have run out of milk","We're out of milk","We are out of milk","I ran out of milk","I'm out of milk","I am out of milk"], hint: "run out of · milk — ਆਰਟੀਕਲ ਲੱਗੇਗਾ?", x: ["a"], why: "milk ਨਾ-ਗਿਣਨਯੋਗ ਹੈ, ਇਸ ਲਈ ਆਰਟੀਕਲ a ਨਹੀਂ ਲੱਗਦਾ।" }
+    { t: "type", p: "ਦੁੱਧ ਮੁੱਕ ਗਿਆ ਹੈ (out of ਨਾਲ; ਕਰਤਾ we ਜਾਂ I)", a: ["We ran out of milk","We've run out of milk","We have run out of milk","We're out of milk","We are out of milk","I ran out of milk","I'm out of milk","I am out of milk"], hint: "run out of · milk — ਆਰਟੀਕਲ ਲੱਗੇਗਾ?", x: ["a"], why: "milk ਨਾ-ਗਿਣਨਯੋਗ ਹੈ, ਇਸ ਲਈ ਆਰਟੀਕਲ a ਨਹੀਂ ਲੱਗਦਾ।" }
   ],
   numbers: [
     { t: "mc", q: "10,000 (ਦਸ ਹਜ਼ਾਰ) ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?", o: ["ten thousand","one thousand","ten thousands","a hundred thousand"], why: "ਤਿੰਨ-ਤਿੰਨ ਅੰਕ: 10 + thousand। ਗਿਣਤੀ ਤੋਂ ਬਾਅਦ thousand ਨਾਲ ਬਹੁਵਚਨ -s ਨਹੀਂ ਲੱਗਦਾ।" },
@@ -158,7 +158,7 @@ module.exports = {
     { t: "order", p: "ਇਹ ਪੰਦਰਾਂ ਡਾਲਰ ਦਾ ਹੈ", a: ["It's","fifteen","dollars"], x: ["dollar","fifty"], why: "ਇੱਕ ਡਾਲਰ ਤੋਂ ਵੱਧ ਹੋਵੇ ਤਾਂ ਬਹੁਵਚਨ: dollars।" },
     { t: "order", p: "ਹਫ਼ਤੇ ਵਿੱਚ ਦੋ ਵਾਰ", a: ["twice","a","week"], x: ["the","one"], why: "\"ਹਫ਼ਤੇ ਵਿੱਚ … ਵਾਰ\" ਲਈ in ਨਹੀਂ, ਆਰਟੀਕਲ a ਆਉਂਦਾ ਹੈ: twice a week।" },
     { t: "fill", q: "It's __ quarter past ten.", p: "ਸਵਾ ਦਸ ਵੱਜੇ ਹਨ", a: ["a"], o: ["the","one","an"], why: "quarter (ਪੰਦਰਾਂ ਮਿੰਟ) ਤੋਂ ਪਹਿਲਾਂ ਆਰਟੀਕਲ a ਲੱਗਦਾ ਹੈ।" },
-    { t: "fill", q: "That's fifty __ won.", p: "ਇਹ ਪੰਜਾਹ ਹਜ਼ਾਰ ਵੌਨ ਹੋਏ (ਵੌਨ = ਕੋਰੀਆ ਦੀ ਕਰੰਸੀ)", a: ["thousand"], o: ["thousands","hundred","million"], why: "50,000 = fifty thousand। ਗਿਣਤੀ ਤੋਂ ਬਾਅਦ thousand ਨਾਲ ਬਹੁਵਚਨ -s ਨਹੀਂ ਲੱਗਦਾ।" },
+    { t: "fill", q: "That's fifty __ rupees.", p: "ਇਹ ਪੰਜਾਹ ਹਜ਼ਾਰ ਰੁਪਏ ਹੋਏ", a: ["thousand"], o: ["thousands","hundred","million"], why: "50,000 = fifty thousand। ਗਿਣਤੀ ਤੋਂ ਬਾਅਦ thousand ਨਾਲ ਬਹੁਵਚਨ -s ਨਹੀਂ ਲੱਗਦਾ।" },
     { t: "fill", q: "I'll be there in ten __.", p: "ਮੈਂ ਦਸ ਮਿੰਟਾਂ ਵਿੱਚ ਪਹੁੰਚ ਜਾਵਾਂਗਾ", a: ["minutes"], o: ["minute","a minute","the minutes"], why: "ਦਸ ਮਿੰਟ ਹਨ, ਇਸ ਲਈ ਬਹੁਵਚਨ minutes। ਪੰਜਾਬੀ ਵਿੱਚ \"ਦਸ ਮਿੰਟ\" ਕਹਿ ਕੇ ਸ਼ਬਦ ਨਹੀਂ ਬਦਲਦਾ, ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ -s ਲੱਗੇਗਾ।" },
     { t: "type", p: "ਸਾਢੇ ਤਿੰਨ ਵੱਜੇ ਹਨ", a: ["It's three thirty","It is three thirty","It's half past three","It is half past three","It's 3:30","It is 3:30","Three thirty","Half past three"], hint: "three · thirty — ਘੰਟਾ ਤੇ ਮਿੰਟ ਸਿੱਧੇ", x: ["thirteen"], why: "ਘੰਟਾ ਤੇ ਮਿੰਟ ਸਿੱਧੇ ਪੜ੍ਹੋ: three thirty। 13 (thirteen) ਨਾਲ ਨਾ ਰਲਾਓ।" },
     { t: "type", p: "ਇਹ ਵੀਹ ਡਾਲਰ ਦਾ ਹੈ", a: ["It's twenty dollars","It is twenty dollars","That's twenty dollars","That is twenty dollars","It's 20 dollars","It is 20 dollars","That's 20 dollars","That is 20 dollars","Twenty dollars","20 dollars"], hint: "twenty · dollar — ਦੋ ਜਾਂ ਵੱਧ ਹੋਣ ਤਾਂ ਬਹੁਵਚਨ", x: ["dollar"], why: "ਡਾਲਰ ਦੋ ਜਾਂ ਵੱਧ ਹੋਣ ਤਾਂ ਬਹੁਵਚਨ: dollars।" },
@@ -190,10 +190,10 @@ module.exports = {
     { t: "order", p: "ਮੈਨੂੰ ਡਟ ਕੇ ਪੜ੍ਹਾਈ ਕਰਨੀ ਪਵੇਗੀ", a: ["I","need","to","hit","the","books"], x: ["book","a"], why: "hit the books — ਆਰਟੀਕਲ the ਤੇ ਬਹੁਵਚਨ books, ਜਿਉਂ ਦੇ ਤਿਉਂ।" },
     { t: "order", p: "ਇਹ ਮੇਰੀ ਪਸੰਦ ਦੀ ਚੀਜ਼ ਨਹੀਂ", a: ["It's","not","my","cup","of","tea"], x: ["the"], why: "not my cup of tea ਪੂਰਾ ਯਾਦ ਕਰੋ; my ਦੀ ਥਾਂ ਆਰਟੀਕਲ ਨਹੀਂ ਲੱਗਦਾ।" },
     { t: "fill", q: "Kill two __ with one stone.", p: "ਇੱਕ ਤੀਰ ਨਾਲ ਦੋ ਨਿਸ਼ਾਨੇ", a: ["birds"], o: ["bird","a bird","the bird"], why: "ਪੰਛੀ ਦੋ ਹਨ, ਇਸ ਲਈ ਬਹੁਵਚਨ birds।" },
-    { t: "fill", q: "Speak of the __!", p: "ਸ਼ੈਤਾਨ ਦਾ ਨਾਂ ਲਿਆ, ਸ਼ੈਤਾਨ ਹਾਜ਼ਰ!", a: ["devil"], o: ["tiger","angel","bird"], why: "ਪੰਜਾਬੀ ਵਾਂਗ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਵੀ ਇੱਥੇ ਸ਼ੈਤਾਨ ਹੀ ਆਉਂਦਾ ਹੈ: devil।" },
+    { t: "fill", q: "Speak of the __!", p: "ਸ਼ੈਤਾਨ ਦਾ ਨਾਂ ਲਿਆ, ਸ਼ੈਤਾਨ ਹਾਜ਼ਰ!", a: ["devil"], o: ["ghost","angel","bird"], why: "ਪੰਜਾਬੀ ਵਾਂਗ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਵੀ ਇੱਥੇ ਸ਼ੈਤਾਨ ਹੀ ਆਉਂਦਾ ਹੈ: devil।" },
     { t: "fill", q: "I'm feeling under __ weather.", p: "ਮੇਰੀ ਤਬੀਅਤ ਕੁਝ ਠੀਕ ਨਹੀਂ", a: ["the"], o: ["a","an","my"], why: "under the weather — ਆਰਟੀਕਲ the, ਜਿਉਂ ਦਾ ਤਿਉਂ।" },
     { t: "type", p: "ਇਹ ਖੱਬੇ ਹੱਥ ਦੀ ਖੇਡ ਹੈ (cake ਵਾਲਾ ਮੁਹਾਵਰਾ)", a: ["It's a piece of cake","It is a piece of cake"], hint: "piece · cake — ਆਰਟੀਕਲ ਨਾ ਭੁੱਲੋ", x: ["the"], why: "a piece of cake — ਆਰਟੀਕਲ a ਜ਼ਰੂਰ ਲਾਓ।" },
-    { t: "type", p: "ਰੱਬ ਕਰੇ ਤੇਰਾ ਕੰਮ ਬਣ ਜਾਵੇ (fingers ਵਾਲਾ ਮੁਹਾਵਰਾ)", a: ["I'll keep my fingers crossed","I will keep my fingers crossed","Fingers crossed"], hint: "keep · finger · crossed — ਉਂਗਲਾਂ ਕਿੰਨੀਆਂ?", x: ["finger"], why: "ਦੋ ਉਂਗਲਾਂ ਇੱਕ-ਦੂਜੀ ਤੇ ਚੜ੍ਹਾਈਆਂ ਜਾਂਦੀਆਂ ਹਨ, ਇਸ ਲਈ ਬਹੁਵਚਨ fingers।" },
+    { t: "type", p: "ਰੱਬ ਕਰੇ ਤੇਰਾ ਕੰਮ ਬਣ ਜਾਵੇ (fingers ਵਾਲਾ ਮੁਹਾਵਰਾ)", a: ["I'll keep my fingers crossed","I will keep my fingers crossed","Fingers crossed","I'm keeping my fingers crossed","I am keeping my fingers crossed","I'll keep my fingers crossed for you","I will keep my fingers crossed for you","I'm keeping my fingers crossed for you","I am keeping my fingers crossed for you","Fingers crossed for you"], hint: "keep · finger · crossed — ਉਂਗਲਾਂ ਕਿੰਨੀਆਂ?", x: ["finger"], why: "ਦੋ ਉਂਗਲਾਂ ਇੱਕ-ਦੂਜੀ ਤੇ ਚੜ੍ਹਾਈਆਂ ਜਾਂਦੀਆਂ ਹਨ, ਇਸ ਲਈ ਬਹੁਵਚਨ fingers।" },
     { t: "type", p: "ਅੱਜ ਲਈ ਇੰਨਾ ਹੀ ਕਾਫ਼ੀ ਹੈ (call ਵਾਲਾ ਮੁਹਾਵਰਾ)", a: ["Let's call it a day"], hint: "call it · day — the ਨਹੀਂ", x: ["the"], why: "call it a day — ਆਰਟੀਕਲ the ਨਹੀਂ, a।" }
   ]
 };

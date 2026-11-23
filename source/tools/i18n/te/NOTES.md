@@ -17,7 +17,7 @@ Author: not a native speaker. Everything needs a Telugu speaker's check (§6). A
 - Results are plain statements (సేవ్ అయింది, కాపీ అయింది); the app's own actions use "we" (చేర్చాం, పంపాం, తొలగించలేకపోయాం).
 - Western digits only, NFC, ASCII punctuation, no em dash (an English dash became a colon, a comma or two sentences).
 - ళ్ళ (మళ్ళీ, వెళ్ళండి), నుంచి, ఇంగ్లీష్, ఈమెయిల్, ఈరోజు.
-- ZWNJ (U+200C), one policy for course and interface (lead ruling, applied in review): (1) between a loan written with a final pollu and a Telugu ending: డెక్‌లు, రివిజన్‌కు, ఇంగ్లీష్‌లో, సెట్టింగ్‌లు, and since the review also నంబర్‌లు, పాయింట్‌లు, రౌండ్‌లు, సర్టిఫికెట్‌లు, సైట్‌ల, యూజర్‌లందరికీ; (2) inside compound loans where the letters would otherwise fuse: పాస్‌వర్డ్, వెబ్‌సైట్, ఇన్‌బాక్స్, డౌన్‌లోడ్, ల్యాప్‌టాప్ (course: ఫుట్‌బాల్, శాండ్‌విచ్, బాత్‌రూమ్, బ్రేక్‌ఫాస్ట్). Loans nativised with a final -ఉ follow ordinary Telugu sandhi and take no ZWNJ: కార్డులు, పోస్టులు, రిపోర్టులు, స్కోర్లు (స్కోరు), సెకన్లు (సెకను). Never inside a pronunciation aid. No ZWNJ in tab labels. Export / Import are ఎగుమతి / దిగుమతి, and "flashcard" is two words (ఫ్లాష్ కార్డు), partly to avoid more of these.
+- ZWNJ (U+200C), one policy for course and interface (lead ruling, applied in review): (1) between a loan written with a final pollu and a Telugu ending: డెక్‌లు, రివిజన్‌కు, ఇంగ్లీష్‌లో, సెట్టింగ్‌లు, and since the review also నంబర్‌లు, పాయింట్‌లు, రౌండ్‌లు, సర్టిఫికెట్‌లు, సైట్‌ల, యూజర్‌లందరికీ; (2) inside compound loans where the letters would otherwise fuse: పాస్‌వర్డ్, వెబ్‌సైట్, ఇన్‌బాక్స్, డౌన్‌లోడ్, ల్యాప్‌టాప్ (course: ఫుట్‌బాల్, శాండ్‌విచ్, బాత్‌రూమ్, బ్రేక్‌ఫాస్ట్). Loans nativised with a final -ఉ follow ordinary Telugu sandhi and take no ZWNJ: కార్డులు, పోస్టులు, రిపోర్టులు, స్కోర్లు (స్కోరు), సెకన్లు (సెకను). Never inside a pronunciation aid. No ZWNJ in tab labels. Export / Import are ఎక్స్‌పోర్ట్ / ఇంపోర్ట్ (changed in the pre-merge review, 2026-11-23: ఎగుమతి / దిగుమతి read as trade export / import), and "flashcard" is two words (ఫ్లాష్ కార్డు), partly to avoid more of these.
 
 ## 2. Counts and slots
 
@@ -29,11 +29,11 @@ Author: not a native speaker. Everything needs a Telugu speaker's check (§6). A
 
 ## 3. Glossary used (one term per concept)
 
-Tabs: ఈరోజు, సాధన, రివిజన్, పాఠాలు, చదవడం, ప్రగతి, స్పందన; Drills డ్రిల్స్ (8 code points, 2 graphemes: the widest, measure it).
+Tabs: ఈరోజు, సాధన, రివిజన్, పాఠాలు, చదవడం, ప్రగతి, అభిప్రాయం (was స్పందన; pre-merge review: measure at 390px); Drills డ్రిల్స్ (8 code points, 2 graphemes: the widest, measure it).
 
-lesson పాఠం · practice సాధన · review రివిజన్ · due "రివిజన్ చేయాల్సిన(వి)", chip «చేయాల్సినవి», counter «రివిజన్: n» · deck డెక్ · card కార్డు · streak వరుస రోజులు (in the typing drill "streak" = «వరుసగా సరైనవి») · session సెషన్ · quiz క్విజ్ · exam పరీక్ష · quick check చిన్న టెస్ట్ · Test everything మొత్తం టెస్ట్ · pass (a run through the cards) విడత · round రౌండ్ · Mix మిక్స్ · Mixed (mode) అన్నీ కలిపి · recall గుర్తు · learned నేర్చుకున్నవి · mastered / mastery పట్టు సాధించినవి / పట్టు · box బాక్స్ · level లెవెల్ · Got it తెలుసు · Again మళ్ళీ · Check సరిచూడండి · Skip దాటవేయండి · hint సూచన · Why కారణం · answer జవాబు · Correct! సరైనది! · Not quite పూర్తిగా సరికాదు · weak spots బలహీనతలు · hardest అతి కష్టమైనవి · missed తప్పినవి · blitz స్పీడ్ క్విజ్ · leech మొండి కార్డు · suspend నిలిపివేయండి · bury రేపటికి వాయిదా · restore తిరిగి చేర్చండి · Browse జాబితా · My phrases నా వాక్యాలు · phrase వాక్యం · pronunciation (hint) ఉచ్చారణ (సూచన) · Polite ↔ casual మర్యాదగా ↔ మామూలుగా · grammar వ్యాకరణం · pattern నిర్మాణం · unlock తెరవండి, locked లాక్ అయినవి · account ఖాతా · device పరికరం · nickname ముద్దుపేరు · streak shield రక్షణ కవచం · certificate సర్టిఫికెట్ · badge బ్యాడ్జ్ · planned రాబోయేవి · reply (board) రిప్లై · voice ఆడ గొంతు / మగ గొంతు.
+lesson పాఠం · practice సాధన · review రివిజన్ · due "రివిజన్ చేయాల్సిన(వి)", chip «చేయాల్సినవి», counter «రివిజన్: n» · deck డెక్ · card కార్డు · streak వరుస రోజులు (in the typing drill "streak" = «వరుసగా సరైనవి») · session సెషన్ · quiz క్విజ్ · exam పరీక్ష · quick check చిన్న టెస్ట్ · Test everything మొత్తం టెస్ట్ · pass (a run through the cards) విడత · round రౌండ్ · Mix మిక్స్ · Mixed (mode) అన్నీ కలిపి · recall గుర్తు · learned నేర్చుకున్నవి · mastered / mastery పట్టు సాధించినవి / పట్టు · box బాక్స్ · level లెవెల్ · Got it గుర్తుంది · Again మళ్ళీ · Check సరిచూడండి · Skip దాటవేయండి · hint సూచన · Why కారణం · answer జవాబు · Correct! సరైనది! · Not quite పూర్తిగా సరికాదు · weak spots బలహీనతలు · hardest అతి కష్టమైనవి · missed తప్పినవి · blitz స్పీడ్ క్విజ్ · leech మొండి కార్డు · suspend నిలిపివేయండి · bury రేపటికి వాయిదా · restore తిరిగి చేర్చండి · Browse జాబితా · My phrases నా వాక్యాలు · phrase వాక్యం · pronunciation (hint) ఉచ్చారణ (సూచన) · Polite ↔ casual మర్యాదగా ↔ మామూలుగా · grammar వ్యాకరణం · pattern నిర్మాణం · unlock తెరవండి, locked లాక్ అయినవి · account ఖాతా · device పరికరం · nickname నిక్‌నేమ్ · streak shield రక్షణ కవచం · certificate సర్టిఫికెట్ · badge బ్యాడ్జ్ · planned రాబోయేవి · reply (board) జవాబు · voice ఆడ గొంతు / మగ గొంతు.
 
-- `Type` = «రాయండి» (the verb; chip «⌨️ రాయండి EN»). Typing an answer is always రాయండి (profile: «ఇంగ్లీష్‌లో రాయండి»); "టైప్ చేయండి" is kept for the search box, the sign-in code and DELETE.
+- `Type` = «రకం» since the pre-merge review (lead ruling 2026-11-23: the key also labels the feedback-type radiogroup; keys.json context says verb, so the engine should split the key). The chip «⌨️ రాయండి EN» is a separate key. Typing an answer is always రాయండి (profile: «ఇంగ్లీష్‌లో రాయండి»); "టైప్ చేయండి" is kept for the search box, the sign-in code and DELETE.
 - `Category` = «వర్గం», `Text size` = «అక్షరాల సైజు».
 - Mode chips: «చదవండి en→తెలుగు», «గుర్తు తెలుగు→en», «వినండి 🔊→తెలుగు».
 - Weekdays: ఆది సోమ మంగళ బుధ గురు శుక్ర శని (2 to 3 graphemes).
@@ -59,7 +59,7 @@ The validator lists 39 labels longer than 1.6 x the English. Telugu -ండి v
 4. «5 చొప్పున నేర్చుకోండి» (Learn 5 at a time), «మొత్తం టెస్ట్».
 5. Level titles (§3), above all «నేర్పరి», «ఆరంభం», «బాటసారి».
 6. «మర్యాదగా ↔ మామూలుగా», «శైలి» (register).
-7. «ముద్దుపేరు» for nickname; «అజ్ఞాత» for Anonymous; «రక్షణ కవచం».
+7. «నిక్‌నేమ్» for nickname (was «ముద్దుపేరు», a family pet name); «అజ్ఞాత» for Anonymous; «రక్షణ కవచం».
 8. Greetings: «శుభోదయం», «శుభ మధ్యాహ్నం», «శుభ సాయంత్రం», «నమస్కారం, {name}!».
 9. «ఓ మోస్తరుగా వచ్చు» (I get by), «కొంచెం వచ్చు», «ఇప్పుడే మొదలు».
 10. «సిలబుల్‌లు», «ఒత్తి పలికే సిలబుల్» in the reading-drill help.
@@ -70,3 +70,5 @@ The validator lists 39 labels longer than 1.6 x the English. Telugu -ండి v
 - The roadmap basis string is translated as written ("adjusted for Korean speakers" = «కొరియన్ మాట్లాడేవారి కోసం సర్దుబాటు చేసినది»), as the other languages did. It is wrong for a Telugu learner; the English source would have to change.
 - "No match. Try the English meaning." is «ఏదీ దొరకలేదు. అర్థంతో వెతికి చూడండి.» (no language named, since the meaning side is Telugu here).
 - The profile asks for `html[lang=te] nav a{overflow:visible;line-height:1.5}`; that is engine work.
+
+- Pre-merge review 2026-11-23: Feedback family స్పందన → అభిప్రాయం (అభిప్రాయాల బోర్డు, అభిప్రాయ సందేశం); Not sure «సరిగ్గా తెలియదు»; Reply «జవాబు»; long buttons shortened (CSV ఎక్స్‌పోర్ట్, డెక్ రీసెట్, డెక్‌లు షఫుల్, పాఠానికి, మళ్ళీ చేయండి, ఆటో ఫ్లిప్ …).

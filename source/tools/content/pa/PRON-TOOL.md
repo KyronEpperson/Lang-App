@@ -26,3 +26,4 @@ All 70 worked rows and every key and rule example but one come out of the conver
 8. **ɑ, ɔ and ɜ without ː are refused** (hi accepts them). The §6 table lists only ɑː, ɔː, ɜːr and ɔɪ, and zh has none.
 9. **j or w with no vowel after it is refused:** the tables give no spelling for it.
 10. **Consonant + h warns and still prints** (rule 4 says "must warn"). No zh row has it.
+11. **Vowel + h warns and still prints** (pre-merge review 2026-11-23, lead ruling 4). A ਹ straight after a vowel, with no ˈ between, is read by Punjabi readers as a tone on the vowel with the h dropped (ਕਹਿ, ਪਹਿਲਾਂ): /ˈælkəhɔːl/ → ˈਐਲ੍ਕਹੌਲ warns. The only such word in the course, *behind* (ਬਿˈਹਾਈਂਡ), has a ˈ before the ਹ and a card note, so it does not warn.

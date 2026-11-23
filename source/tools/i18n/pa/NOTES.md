@@ -16,34 +16,34 @@ Author: not a native speaker. Everything needs a native check; the priority list
 
 | English | Punjabi |
 |---|---|
-| Today / Practice / Review / Lessons / Read / Progress / Feedback (tabs) | ਅੱਜ / ਅਭਿਆਸ / ਦੁਹਰਾਈ / ਪਾਠ / ਪੜ੍ਹੋ / ਤਰੱਕੀ / ਸੁਝਾਅ |
+| Today / Practice / Review / Lessons / Read / Progress / Feedback (tabs) | ਅੱਜ / ਅਭਿਆਸ / ਦੁਹਰਾਈ / ਪਾਠ / ਪੜ੍ਹੋ / ਤਰੱਕੀ / ਫ਼ੀਡਬੈਕ |
 | Drills | ਡਰਿੱਲ |
 | deck / card / flashcard | ਡੈੱਕ / ਕਾਰਡ / ਫ਼ਲੈਸ਼ਕਾਰਡ |
 | review (noun) / review (button) / due | ਦੁਹਰਾਈ / ਦੁਹਰਾਓ / ਦੁਹਰਾਉਣੇ ਹਨ |
-| quiz / lesson quick check / exam / blitz | ਟੈਸਟ / ਮਿੰਨੀ-ਟੈਸਟ / ਇਮਤਿਹਾਨ / ਤੇਜ਼ ਰਾਊਂਡ |
-| Got it / Again / Try again / Retry | ਆਉਂਦਾ ਹੈ / ਦੁਬਾਰਾ / ਦੁਬਾਰਾ / ਦੁਬਾਰਾ ਕਰੋ |
+| quiz / lesson quick check / exam / blitz | ਕੁਇਜ਼ / ਮਿੰਨੀ-ਟੈਸਟ / ਇਮਤਿਹਾਨ / ਤੇਜ਼ ਰਾਊਂਡ (Test everything = ਸਭ ਕੁਝ ਟੈਸਟ ਕਰੋ) |
+| Got it / Again / Try again / Retry | ਯਾਦ ਹੈ / ਦੁਬਾਰਾ / ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ / ਦੁਬਾਰਾ ਕਰੋ |
 | Check / Skip / Next / Back / Done / Close / Cancel | ਜਾਂਚੋ / ਛੱਡੋ / ਅੱਗੇ / ਪਿੱਛੇ / ਹੋ ਗਿਆ / ਬੰਦ ਕਰੋ / ਰੱਦ ਕਰੋ |
 | Correct! / Not quite / Missed | ਸਹੀ! / ਪੂਰਾ ਸਹੀ ਨਹੀਂ / ਗ਼ਲਤ |
 | hint / answer / why / rule | ਇਸ਼ਾਰਾ / ਜਵਾਬ / ਕਾਰਨ / ਨਿਯਮ |
 | new / learning / learned / mastered | ਨਵੇਂ / ਸਿੱਖ ਰਹੇ / ਸਿੱਖੇ / ਪੱਕੇ |
-| streak / streak shield | ਲੜੀ (counts: ਲਗਾਤਾਰ ਦਿਨ) / ਲੜੀ ਦੀ ਢਾਲ |
+| streak / streak shield | ਲਗਾਤਾਰ ਦਿਨ (answer streak in drills: ਲਗਾਤਾਰ ਸਹੀ) / ਲਗਾਤਾਰ ਦਿਨਾਂ ਦੀ ਢਾਲ |
 | level / XP / points / box / interval | ਲੈਵਲ / XP / ਅੰਕ / ਬਾਕਸ / ਵਕਫ਼ਾ |
 | goal / plan / session / round / pass (1/3) | ਟੀਚਾ / ਪਲਾਨ / ਸੈਸ਼ਨ / ਰਾਊਂਡ / ਗੇੜ |
 | suspend / bury / leech / restore | ਰੋਕੋ / ਟਾਲੋ (ਕੱਲ੍ਹ ਤੱਕ) / ਅੜਿਆ ਕਾਰਡ / ਵਾਪਸ ਲਿਆਓ |
 | weak spots / hardest cards / mix / mixed / shuffle | ਕਮਜ਼ੋਰ ਥਾਵਾਂ / ਸਭ ਤੋਂ ਔਖੇ ਕਾਰਡ / ਮਿਕਸ / ਰਲਵਾਂ / ਸ਼ਫ਼ਲ ਕਰੋ |
 | My phrases / note / meaning / example / dialogue / idiom | ਮੇਰੇ ਵਾਕ / ਨੋਟ / ਅਰਥ / ਉਦਾਹਰਨ / ਗੱਲਬਾਤ / ਮੁਹਾਵਰਾ |
 | pronunciation (hint, romanization) | ਉਚਾਰਨ |
-| Type (verb, quiz chip `⌨️ ਲਿਖੋ EN`) / Category / Text size | ਲਿਖੋ / ਕਿਸਮ / ਅੱਖਰ |
+| Type (verb, quiz chip `⌨️ ਲਿਖੋ EN`) / Category / Text size | ਲਿਖੋ / ਕਿਸਮ / ਅੱਖਰਾਂ ਦਾ ਆਕਾਰ |
 | polite ↔ casual (also "Register") | ਨਿਮਰ ↔ ਬੋਲਚਾਲ |
 | grammar / verb / noun / number | ਵਿਆਕਰਨ / ਕਿਰਿਆ / ਨਾਂਵ / ਸੰਖਿਆ (the Numbers drill is ਗਿਣਤੀ) |
 | account / device / sync / sign in / sign out / nickname | ਅਕਾਊਂਟ / ਡਿਵਾਈਸ / ਸਿੰਕ / ਸਾਈਨ ਇਨ ਕਰੋ / ਸਾਈਨ ਆਊਟ ਕਰੋ / ਨਿੱਕਨੇਮ |
 | save / delete (account, note) / erase (progress) / remove / merge / add | ਸੇਵ ਕਰੋ / ਡਿਲੀਟ ਕਰੋ / ਮਿਟਾਓ / ਹਟਾਓ / ਮਿਲਾਓ / ਜੋੜੋ |
 | unlock / locked | ਅਨਲਾਕ ਕਰੋ / ਬੰਦ |
-| feedback board / post / public | ਸੁਝਾਅ ਬੋਰਡ / ਪੋਸਟ (feminine) / ਜਨਤਕ |
+| feedback board / post / public | ਫ਼ੀਡਬੈਕ ਬੋਰਡ / ਪੋਸਟ (feminine) / ਜਨਤਕ |
 | certificate / badge / accent colour | ਸਰਟੀਫ਼ਿਕੇਟ / ਬੈਜ / ਥੀਮ ਰੰਗ |
 | voice (woman / man) | ਆਵਾਜ਼ (ਔਰਤ / ਆਦਮੀ) |
 | audio speed: slow / normal / native | ਹੌਲੀ / ਆਮ / ਅਸਲੀ |
-| level titles: Beginner, Student, Talker, Traveler, Local, Pro, Master | ਸ਼ੁਰੂਆਤੀ, ਵਿਦਿਆਰਥੀ, ਗਾਲੜੀ, ਮੁਸਾਫ਼ਰ, ਲੋਕਲ, ਮਾਹਰ, ਉਸਤਾਦ |
+| level titles: Beginner, Student, Talker, Traveler, Local, Pro, Master | ਸਿਖਾਂਦਰੂ, ਵਿਦਿਆਰਥੀ, ਗਾਲੜੀ, ਮੁਸਾਫ਼ਰ, ਲੋਕਲ, ਮਾਹਰ, ਉਸਤਾਦ |
 | legacy titles: Sprout, Senior, Sensei | ਕਰੂੰਬਲ, ਸੀਨੀਅਰ, ਮਹਾਰਥੀ («ਗੁਰੂ» avoided on purpose: religious weight) |
 | weekday headers Su–Sa | ਐ ਸੋ ਮੰ ਬੁੱ ਵੀ ਸ਼ੁੱ ਸ਼ (the `Intl` narrow forms for `pa`) |
 
@@ -100,3 +100,7 @@ Language-name slots stand at the start of the line or after a colon (`{1}: ਤ�
 - "tap" is always «ਟੈਪ ਕਰੋ» (2 strings said «ਦਬਾਓ»; «ਦਬਾਓ» stays for "press" / "long-press"). `every card × 3 passes` uses «ਗੇੜ» like the quiz header. `Delete everything` (privacy heading about the account) uses «ਡਿਲੀਟ». "right now" in three error messages is «ਇਸ ਵੇਲੇ». `목표 달성! Daily goal reached 🎉` no longer says the goal twice. Oblique plurals «ਸਾਰੇ ਡੈੱਕਾਂ ਦੇ», «ਉੱਚੇ ਬਾਕਸਾਂ ਵਿੱਚ».
 - U+0A5C ੜ is an ordinary letter (ਪੜ੍ਹੋ, ਲੜੀ, ਗਾਲੜੀ: 105 strings) and is not one of the six precomposed dotted letters; the file has none of U+0A33, 0A36, 0A59, 0A5A, 0A5B, 0A5E and every `t` equals its NFC form.
 - Open for the build: `tools/content/pa/meta.js` `TITLES` has «ਨਵਾਂ ਸਿਖਿਆਰਥੀ» and «ਸਥਾਨਕ ਵਾਸੀ» where this file has «ਸ਼ੁਰੂਆਤੀ» and «ਲੋਕਲ» (section 4 asks for the same seven words).
+
+## 8. Pre-merge review, 2026-11-23 (lead rulings on the reviewer's picks)
+
+Changed in ui.json, with the base file kept for everything else: `Got it` family «ਯਾਦ ਹੈ» (was «ਆਉਂਦਾ ਹੈ»; the same key also dismisses tips, where «ਯਾਦ ਹੈ» reads less well — a split key would need an engine change); Feedback family «ਫ਼ੀਡਬੈਕ» (masculine; was «ਸੁਝਾਅ», which covers only suggestions); quiz strings «ਕੁਇਜ਼» (was «ਟੈਸਟ», which collided with `Test everything`); day streak «ਲਗਾਤਾਰ ਦਿਨ» everywhere (was «ਲੜੀ»), answer streaks in drills «ਲਗਾਤਾਰ ਸਹੀ»; `native` (audio speed) «ਅਸਲ ਰਫ਼ਤਾਰ»; `Text size` «ਅੱਖਰਾਂ ਦਾ ਆਕਾਰ»; `Try again` «ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼» (short button); `Welcome to Lang App` «Lang App ਵਿੱਚ ਜੀ ਆਇਆਂ ਨੂੰ»; `Which one did you hear?` «ਤੁਸੀਂ ਕਿਹੜਾ ਸੁਣਿਆ?»; `Beginner` «ਸਿਖਾਂਦਰੂ» (also `tools/content/pa/meta.js` TITLES). Older notes above that name the replaced forms are superseded by this section.

@@ -8,8 +8,11 @@ python3 - <<'PY0'
 import glob,subprocess,sys,os,tempfile
 src=open('src/app.html',encoding='utf8').read()
 assert src.count('/*__PACKS__*/')==1, 'packs marker missing or duplicated in src/app.html'
+HELD=set(l.strip() for l in open('packs/HELD.txt',encoding='utf8') if l.strip() and not l.startswith('#')) if os.path.exists('packs/HELD.txt') else set()
+PACKS=[f for f in sorted(glob.glob('packs/*.js')) if os.path.basename(f) not in HELD]
+if HELD: print('held back (packs/HELD.txt):',sorted(HELD))
 out=[]
-for f in sorted(glob.glob('packs/*.js')):
+for f in PACKS:
     js=open(f,encoding='utf8').read()
     if '</script' in js.lower(): sys.exit('pack contains </script>: '+f)
     r=subprocess.run(['node','--check',f],capture_output=True,text=True)
@@ -22,7 +25,7 @@ import hashlib,json,re,shutil
 os.makedirs('korean-site/packs',exist_ok=True)
 for old in glob.glob('korean-site/packs/*.js'): os.remove(old)
 inline=[]; man={'courses':{},'i18n':{}}
-for f in sorted(glob.glob('packs/*.js')):
+for f in PACKS:
     name=os.path.basename(f)[:-3]; js=open(f,encoding='utf8').read(); wrapped='/* pack: '+name+'.js */\n;(function(){\n'+js+'\n})();'
     if not re.match(r'(course|i18n)-',name): inline.append(wrapped); continue
     fn='packs/%s.%s.js'%(name,hashlib.sha256(wrapped.encode('utf8')).hexdigest()[:8]); open('korean-site/'+fn,'w',encoding='utf8').write(wrapped+'\n')

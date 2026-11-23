@@ -58,7 +58,7 @@ exports.PLAN_PRESETS = {
 };
 
 /* native names for the shared level titles in gen.js (Beginner, Student, Talker, Traveler, Local, Pro, Master) */
-exports.TITLES = ["مبتدی", "طالب علم", "باتونی", "مسافر", "مقامی", "ماہر", "ماسٹر"];
+exports.TITLES = ["مبتدی", "طالب علم", "باتونی", "مسافر", "مقامی", "ماہر", "استاد"];
 
 /* native labels for the pause-screen phrase sets; gen.js prefixes the shared English label ("Compliment · ") */
 exports.PAUSE_LABELS = { compliment: "تعریف", expression: "روزمرہ جملے", polite: "آداب", saying: "کہاوتیں اور اقوال" };

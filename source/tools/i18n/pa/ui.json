@@ -75,7 +75,7 @@
    "where": "html <a> text"
   },
   "Feedback": {
-   "t": "ਸੁਝਾਅ",
+   "t": "ਫ਼ੀਡਬੈਕ",
    "ko": "피드백",
    "kind": "label",
    "context": "bottom-nav tab: send feedback",
@@ -223,7 +223,7 @@
    "where": "js (top level)"
   },
   "native": {
-   "t": "ਅਸਲੀ",
+   "t": "ਅਸਲ ਰਫ਼ਤਾਰ",
    "ko": "원어민 속도",
    "kind": "label",
    "context": "audio speed option: native-speaker speed",
@@ -251,7 +251,7 @@
    "where": "html text"
   },
   "got it ·": {
-   "t": "ਆਉਂਦਾ ਹੈ ·",
+   "t": "ਯਾਦ ਹੈ ·",
    "ko": "알아요 ·",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -265,7 +265,7 @@
    "where": "html text"
   },
   "quiz answer ·": {
-   "t": "ਟੈਸਟ ਦਾ ਜਵਾਬ ·",
+   "t": "ਕੁਇਜ਼ ਦਾ ਜਵਾਬ ·",
    "ko": "퀴즈 답 ·",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -306,7 +306,7 @@
    "where": "html <b> text"
   },
   ": 5 new cards, quiz them, 5 more, quiz those mixed with everything so far, until the deck is done.": {
-   "t": ": 5 ਨਵੇਂ ਕਾਰਡ, ਉਹਨਾਂ ਦਾ ਟੈਸਟ, ਫਿਰ 5 ਹੋਰ, ਫਿਰ ਹੁਣ ਤੱਕ ਦੇ ਸਾਰੇ ਕਾਰਡ ਰਲਾ ਕੇ ਟੈਸਟ — ਜਦੋਂ ਤੱਕ ਡੈੱਕ ਪੂਰਾ ਨਹੀਂ ਹੋ ਜਾਂਦਾ।",
+   "t": ": 5 ਨਵੇਂ ਕਾਰਡ, ਉਹਨਾਂ ਦਾ ਕੁਇਜ਼, ਫਿਰ 5 ਹੋਰ, ਫਿਰ ਹੁਣ ਤੱਕ ਦੇ ਸਾਰੇ ਕਾਰਡ ਰਲਾ ਕੇ ਕੁਇਜ਼ — ਜਦੋਂ ਤੱਕ ਡੈੱਕ ਪੂਰਾ ਨਹੀਂ ਹੋ ਜਾਂਦਾ।",
    "ko": ": 새 카드 5장을 배우고 퀴즈, 또 5장을 배우고 지금까지 배운 것과 섞어서 퀴즈 — 덱을 끝낼 때까지 반복해요.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -596,7 +596,7 @@
    "where": "html <label> text"
   },
   "Share your streak": {
-   "t": "ਆਪਣੀ ਲੜੀ ਸ਼ੇਅਰ ਕਰੋ",
+   "t": "ਆਪਣੇ ਲਗਾਤਾਰ ਦਿਨ ਸ਼ੇਅਰ ਕਰੋ",
    "ko": "연속 학습 자랑하기",
    "kind": "label",
    "where": "html <h3> text"
@@ -647,7 +647,7 @@
    "where": "html <h3> text"
   },
   "Quiz accuracy": {
-   "t": "ਟੈਸਟ ਵਿੱਚ ਸਹੀ ਜਵਾਬ",
+   "t": "ਕੁਇਜ਼ ਵਿੱਚ ਸਹੀ ਜਵਾਬ",
    "ko": "퀴즈 정확도",
    "kind": "label",
    "where": "html <h3> text"
@@ -770,7 +770,7 @@
    "where": "html <span> text"
   },
   "Text size": {
-   "t": "ਅੱਖਰ",
+   "t": "ਅੱਖਰਾਂ ਦਾ ਆਕਾਰ",
    "ko": "글자 크기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -864,7 +864,7 @@
    "where": "html text"
   },
   "Feedback board": {
-   "t": "ਸੁਝਾਅ ਬੋਰਡ",
+   "t": "ਫ਼ੀਡਬੈਕ ਬੋਰਡ",
    "ko": "피드백 게시판",
    "kind": "label",
    "where": "html <b> text"
@@ -955,7 +955,7 @@
    "where": "html <b> text"
   },
   ": Progress → Account → Delete my account. Removes your account and synced progress permanently; your feedback posts stay but are unlinked from you.": {
-   "t": ": ਤਰੱਕੀ → ਅਕਾਊਂਟ → ਮੇਰਾ ਅਕਾਊਂਟ ਡਿਲੀਟ ਕਰੋ। ਇਸ ਨਾਲ ਤੁਹਾਡਾ ਅਕਾਊਂਟ ਤੇ ਸਿੰਕ ਹੋਈ ਤਰੱਕੀ ਹਮੇਸ਼ਾ ਲਈ ਹਟ ਜਾਂਦੀ ਹੈ; \"ਸੁਝਾਅ\" ਵਿੱਚ ਤੁਹਾਡੀਆਂ ਪੋਸਟਾਂ ਰਹਿੰਦੀਆਂ ਹਨ, ਪਰ ਤੁਹਾਡੇ ਨਾਲ ਜੁੜੀਆਂ ਨਹੀਂ ਰਹਿੰਦੀਆਂ।",
+   "t": ": ਤਰੱਕੀ → ਅਕਾਊਂਟ → ਮੇਰਾ ਅਕਾਊਂਟ ਡਿਲੀਟ ਕਰੋ। ਇਸ ਨਾਲ ਤੁਹਾਡਾ ਅਕਾਊਂਟ ਤੇ ਸਿੰਕ ਹੋਈ ਤਰੱਕੀ ਹਮੇਸ਼ਾ ਲਈ ਹਟ ਜਾਂਦੀ ਹੈ; \"ਫ਼ੀਡਬੈਕ\" ਵਿੱਚ ਤੁਹਾਡੀਆਂ ਪੋਸਟਾਂ ਰਹਿੰਦੀਆਂ ਹਨ, ਪਰ ਤੁਹਾਡੇ ਨਾਲ ਜੁੜੀਆਂ ਨਹੀਂ ਰਹਿੰਦੀਆਂ।",
    "ko": ": 진도 → 계정 → 계정 삭제. 계정과 동기화된 진도가 영구 삭제돼요. 피드백 글은 남지만 내 계정과의 연결은 끊어져요.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -982,7 +982,7 @@
    "where": "html <h3> text"
   },
   "Use the Feedback tab. If it's private, post without your name and say how to reach you — or just sign in and tick \"Show my name\".": {
-   "t": "\"ਸੁਝਾਅ\" ਟੈਬ ਵਰਤੋ। ਜੇ ਗੱਲ ਨਿੱਜੀ ਹੈ, ਤਾਂ ਨਾਂ ਤੋਂ ਬਿਨਾਂ ਪੋਸਟ ਕਰੋ ਤੇ ਦੱਸੋ ਕਿ ਤੁਹਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਿਵੇਂ ਕਰੀਏ — ਜਾਂ ਬੱਸ ਸਾਈਨ ਇਨ ਕਰੋ ਤੇ \"ਮੇਰਾ ਨਾਂ ਦਿਖਾਓ\" ਚੁਣੋ।",
+   "t": "\"ਫ਼ੀਡਬੈਕ\" ਟੈਬ ਵਰਤੋ। ਜੇ ਗੱਲ ਨਿੱਜੀ ਹੈ, ਤਾਂ ਨਾਂ ਤੋਂ ਬਿਨਾਂ ਪੋਸਟ ਕਰੋ ਤੇ ਦੱਸੋ ਕਿ ਤੁਹਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਿਵੇਂ ਕਰੀਏ — ਜਾਂ ਬੱਸ ਸਾਈਨ ਇਨ ਕਰੋ ਤੇ \"ਮੇਰਾ ਨਾਂ ਦਿਖਾਓ\" ਚੁਣੋ।",
    "ko": "피드백 탭을 이용하세요. 비공개로 전하고 싶다면 이름 없이 올리고 연락 방법을 남겨 주세요 — 아니면 로그인하고 \"내 이름 표시\"를 체크하세요.",
    "kind": "sentence",
    "where": "html <p> text"
@@ -1001,7 +1001,7 @@
    "where": "html <button> text"
   },
   "Tell us what you think": {
-   "t": "ਆਪਣੇ ਸੁਝਾਅ ਦੱਸੋ",
+   "t": "ਸਾਨੂੰ ਆਪਣੀ ਰਾਏ ਦੱਸੋ",
    "ko": "의견을 들려주세요",
    "kind": "sentence",
    "where": "html <h3> text"
@@ -1052,7 +1052,7 @@
    "where": "html <textarea> @placeholder"
   },
   "Feedback message": {
-   "t": "ਤੁਹਾਡਾ ਸੁਝਾਅ",
+   "t": "ਫ਼ੀਡਬੈਕ ਸੁਨੇਹਾ",
    "ko": "피드백 내용",
    "kind": "label",
    "where": "html <textarea> @aria-label"
@@ -1070,19 +1070,19 @@
    "where": "html <p> text"
   },
   "Send feedback": {
-   "t": "ਸੁਝਾਅ ਭੇਜੋ",
+   "t": "ਫ਼ੀਡਬੈਕ ਭੇਜੋ",
    "ko": "피드백 보내기",
    "kind": "label",
    "where": "html <button> text"
   },
   "Community feedback": {
-   "t": "ਸਭ ਦੇ ਸੁਝਾਅ",
+   "t": "ਸਭ ਦਾ ਫ਼ੀਡਬੈਕ",
    "ko": "커뮤니티 피드백",
    "kind": "label",
    "where": "html <h3> text"
   },
   "Refresh feedback": {
-   "t": "ਸੁਝਾਅ ਤਾਜ਼ਾ ਕਰੋ",
+   "t": "ਫ਼ੀਡਬੈਕ ਤਾਜ਼ਾ ਕਰੋ",
    "ko": "피드백 새로고침",
    "kind": "label",
    "where": "html <button> @aria-label"
@@ -1107,19 +1107,19 @@
    "where": "html <span> text"
   },
   "The community board lives on the website version of the app.": {
-   "t": "ਸੁਝਾਅ ਬੋਰਡ ਐਪ ਦੇ ਵੈੱਬਸਾਈਟ ਵਰਜ਼ਨ ਵਿੱਚ ਹੈ।",
+   "t": "ਫ਼ੀਡਬੈਕ ਬੋਰਡ ਐਪ ਦੇ ਵੈੱਬਸਾਈਟ ਵਰਜ਼ਨ ਵਿੱਚ ਹੈ।",
    "ko": "커뮤니티 게시판은 웹사이트 버전에서 볼 수 있어요.",
    "kind": "sentence",
    "where": "js box() <div>"
   },
   "Couldn't load feedback right now.": {
-   "t": "ਇਸ ਵੇਲੇ ਸੁਝਾਅ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕੇ।",
+   "t": "ਇਸ ਵੇਲੇ ਫ਼ੀਡਬੈਕ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕਿਆ।",
    "ko": "지금은 피드백을 불러올 수 없어요.",
    "kind": "sentence",
    "where": "js nt() <div>"
   },
   "Try again": {
-   "t": "ਦੁਬਾਰਾ",
+   "t": "ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼",
    "ko": "다시 시도",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1235,7 +1235,7 @@
    "where": "js pl() <button>"
   },
   "No feedback yet — be the first.": {
-   "t": "ਅਜੇ ਕੋਈ ਸੁਝਾਅ ਨਹੀਂ — ਪਹਿਲਾ ਸੁਝਾਅ ਤੁਸੀਂ ਭੇਜੋ।",
+   "t": "ਅਜੇ ਕੋਈ ਫ਼ੀਡਬੈਕ ਨਹੀਂ — ਪਹਿਲਾ ਫ਼ੀਡਬੈਕ ਤੁਸੀਂ ਭੇਜੋ।",
    "ko": "아직 피드백이 없어요 — 첫 글을 남겨 보세요.",
    "kind": "sentence",
    "where": "js lv() <div>"
@@ -1259,7 +1259,7 @@
    "where": "js last()"
   },
   "Feedback sending works on the website version.": {
-   "t": "ਸੁਝਾਅ ਭੇਜਣਾ ਵੈੱਬਸਾਈਟ ਵਰਜ਼ਨ ਵਿੱਚ ਕੰਮ ਕਰਦਾ ਹੈ।",
+   "t": "ਫ਼ੀਡਬੈਕ ਭੇਜਣਾ ਵੈੱਬਸਾਈਟ ਵਰਜ਼ਨ ਵਿੱਚ ਕੰਮ ਕਰਦਾ ਹੈ।",
    "ko": "피드백 보내기는 웹사이트 버전에서 할 수 있어요.",
    "kind": "sentence",
    "where": "js last()"
@@ -1519,13 +1519,13 @@
    "where": "js em()"
   },
   "Welcome to Lang App": {
-   "t": "Lang App ਵਿੱਚ ਸੁਆਗਤ ਹੈ",
+   "t": "Lang App ਵਿੱਚ ਜੀ ਆਇਆਂ ਨੂੰ",
    "ko": "Lang App에 오신 걸 환영해요",
    "kind": "label",
    "where": "js pl()"
   },
   "Hangul, flashcards with audio, quizzes and a 5-minute daily session. Before you start — how should we save your progress?": {
-   "t": "ਉਚਾਰਨ, ਆਡੀਓ ਵਾਲੇ ਫ਼ਲੈਸ਼ਕਾਰਡ, ਟੈਸਟ ਤੇ ਰੋਜ਼ ਦਾ 5 ਮਿੰਟ ਦਾ ਸੈਸ਼ਨ। ਸ਼ੁਰੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ — ਤੁਹਾਡੀ ਤਰੱਕੀ ਕਿਵੇਂ ਸੇਵ ਕਰੀਏ?",
+   "t": "ਉਚਾਰਨ, ਆਡੀਓ ਵਾਲੇ ਫ਼ਲੈਸ਼ਕਾਰਡ, ਕੁਇਜ਼ ਤੇ ਰੋਜ਼ ਦਾ 5 ਮਿੰਟ ਦਾ ਸੈਸ਼ਨ। ਸ਼ੁਰੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ — ਤੁਹਾਡੀ ਤਰੱਕੀ ਕਿਵੇਂ ਸੇਵ ਕਰੀਏ?",
    "ko": "소리 나는 플래시카드, 퀴즈, 하루 5분 학습. 시작하기 전에 — 진도를 어떻게 저장할까요?",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -1688,7 +1688,7 @@
    "where": "js STR()"
   },
   "Got it": {
-   "t": "ਆਉਂਦਾ ਹੈ",
+   "t": "ਯਾਦ ਹੈ",
    "ko": "알아요",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1793,7 +1793,7 @@
    "where": "js boxTxt() <button>"
   },
   "Got it:": {
-   "t": "ਆਉਂਦਾ ਹੈ:",
+   "t": "ਯਾਦ ਹੈ:",
    "ko": "알아요:",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -1889,7 +1889,7 @@
    "where": "js ov() <b>"
   },
   "= Got it ·": {
-   "t": "= ਆਉਂਦਾ ਹੈ ·",
+   "t": "= ਯਾਦ ਹੈ ·",
    "ko": "= 알아요 ·",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -1995,7 +1995,7 @@
    "where": "js deleteCustom()"
   },
   "last quiz scores": {
-   "t": "ਪਿਛਲੇ ਟੈਸਟ ਦੇ ਸਕੋਰ",
+   "t": "ਪਿਛਲੇ ਕੁਇਜ਼ ਦੇ ਸਕੋਰ",
    "ko": "최근 퀴즈 점수",
    "kind": "label",
    "where": "js spark() <svg> @aria-label"
@@ -2056,7 +2056,7 @@
    "where": "js SPK() <div>"
   },
   "Got it — quiz me": {
-   "t": "ਠੀਕ ਹੈ — ਟੈਸਟ ਲਓ",
+   "t": "ਠੀਕ ਹੈ — ਕੁਇਜ਼ ਲਓ",
    "ko": "알겠어요 — 퀴즈 내 주세요",
    "kind": "sentence",
    "where": "js goLbl()"
@@ -2268,7 +2268,7 @@
    "where": "js b()"
   },
   "Retry quiz": {
-   "t": "ਟੈਸਟ ਦੁਬਾਰਾ ਦਿਓ",
+   "t": "ਕੁਇਜ਼ ਦੁਬਾਰਾ ਦਿਓ",
    "ko": "퀴즈 다시 풀기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2399,7 +2399,7 @@
    "where": "js o() <button>"
   },
   "Which one did you hear?": {
-   "t": "ਤੁਸੀਂ ਕੀ ਸੁਣਿਆ?",
+   "t": "ਤੁਸੀਂ ਕਿਹੜਾ ਸੁਣਿਆ?",
    "ko": "어떤 걸 들었나요?",
    "kind": "sentence",
    "where": "js o() <div>"
@@ -2612,7 +2612,7 @@
    "where": "js pass()"
   },
   "Flip it, listen, then tap Got it once it sticks.": {
-   "t": "ਕਾਰਡ ਪਲਟੋ, ਸੁਣੋ, ਤੇ ਜਦੋਂ ਯਾਦ ਹੋ ਜਾਵੇ ਤਾਂ \"ਆਉਂਦਾ ਹੈ\" ਟੈਪ ਕਰੋ।",
+   "t": "ਕਾਰਡ ਪਲਟੋ, ਸੁਣੋ, ਤੇ ਜਦੋਂ ਯਾਦ ਹੋ ਜਾਵੇ ਤਾਂ \"ਯਾਦ ਹੈ\" ਟੈਪ ਕਰੋ।",
    "ko": "뒤집고, 들어 보고, 외워지면 알아요를 누르세요.",
    "kind": "sentence",
    "where": "js x() <p>"
@@ -2625,7 +2625,7 @@
    "where": "js STR()"
   },
   "New quiz": {
-   "t": "ਨਵਾਂ ਟੈਸਟ",
+   "t": "ਨਵਾਂ ਕੁਇਜ਼",
    "ko": "새 퀴즈",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2689,7 +2689,7 @@
    "where": "html <button> text"
   },
   "Streak at risk": {
-   "t": "ਲੜੀ ਖ਼ਤਰੇ ਵਿੱਚ",
+   "t": "ਲਗਾਤਾਰ ਦਿਨ ਖ਼ਤਰੇ ਵਿੱਚ",
    "ko": "연속 학습이 끊길 위기",
    "kind": "label",
    "where": "js atRisk() <b>"
@@ -2874,7 +2874,7 @@
    "where": "html <label> text"
   },
   "Quick quiz": {
-   "t": "ਛੋਟਾ ਟੈਸਟ",
+   "t": "ਛੋਟਾ ਕੁਇਜ਼",
    "ko": "빠른 퀴즈",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2979,7 +2979,7 @@
    "where": "html <h3> text"
   },
   "Quiz": {
-   "t": "ਟੈਸਟ",
+   "t": "ਕੁਇਜ਼",
    "ko": "퀴즈",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2993,7 +2993,7 @@
    "where": "html <h2> text"
   },
   "Streak": {
-   "t": "ਲੜੀ",
+   "t": "ਲਗਾਤਾਰ ਦਿਨ",
    "ko": "연속 학습",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3059,7 +3059,7 @@
    "where": "js names2()"
   },
   "quiz": {
-   "t": "ਟੈਸਟ",
+   "t": "ਕੁਇਜ਼",
    "ko": "퀴즈",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3278,19 +3278,19 @@
    "where": "js ov() <button>"
   },
   "One button, one session. Due reviews, new cards, a quick quiz and drills, mixed for you.": {
-   "t": "ਇੱਕ ਬਟਨ, ਇੱਕ ਸੈਸ਼ਨ। ਦੁਹਰਾਉਣ ਵਾਲੇ ਕਾਰਡ, ਨਵੇਂ ਕਾਰਡ, ਇੱਕ ਛੋਟਾ ਟੈਸਟ ਤੇ ਡਰਿੱਲ — ਤੁਹਾਡੇ ਲਈ ਰਲਾ ਕੇ।",
+   "t": "ਇੱਕ ਬਟਨ, ਇੱਕ ਸੈਸ਼ਨ। ਦੁਹਰਾਉਣ ਵਾਲੇ ਕਾਰਡ, ਨਵੇਂ ਕਾਰਡ, ਇੱਕ ਛੋਟਾ ਕੁਇਜ਼ ਤੇ ਡਰਿੱਲ — ਤੁਹਾਡੇ ਲਈ ਰਲਾ ਕੇ।",
    "ko": "버튼 하나로 학습 한 번. 복습할 카드, 새 카드, 빠른 퀴즈와 훈련을 알아서 섞어 드려요.",
    "kind": "sentence",
    "where": "js TOUR()"
   },
   "Learn 5 cards at a time, quiz them, then 5 more. Tests, weak spots, blitz and exams live here too.": {
-   "t": "ਇੱਕ ਵਾਰ ਵਿੱਚ 5 ਕਾਰਡ ਸਿੱਖੋ, ਉਹਨਾਂ ਦਾ ਟੈਸਟ ਦਿਓ, ਫਿਰ 5 ਹੋਰ। ਟੈਸਟ, ਕਮਜ਼ੋਰ ਥਾਵਾਂ, ਤੇਜ਼ ਰਾਊਂਡ ਤੇ ਇਮਤਿਹਾਨ ਵੀ ਇੱਥੇ ਹੀ ਹਨ।",
+   "t": "ਇੱਕ ਵਾਰ ਵਿੱਚ 5 ਕਾਰਡ ਸਿੱਖੋ, ਉਹਨਾਂ ਦਾ ਕੁਇਜ਼ ਦਿਓ, ਫਿਰ 5 ਹੋਰ। ਟੈਸਟ, ਕਮਜ਼ੋਰ ਥਾਵਾਂ, ਤੇਜ਼ ਰਾਊਂਡ ਤੇ ਇਮਤਿਹਾਨ ਵੀ ਇੱਥੇ ਹੀ ਹਨ।",
    "ko": "카드를 5장씩 배우고 퀴즈로 확인한 뒤 또 5장. 테스트, 약점 공략, 스피드 퀴즈, 시험도 여기 있어요.",
    "kind": "sentence",
    "where": "js TOUR()"
   },
   "Spaced repetition. \"All due\" across decks, swipe right for got it, left for again. Browse any deck as a list.": {
-   "t": "ਵਕਫ਼ੇ ਨਾਲ ਦੁਹਰਾਈ। ਸਾਰੇ ਡੈੱਕਾਂ ਦੇ ਦੁਹਰਾਉਣ ਵਾਲੇ ਕਾਰਡ ਇਕੱਠੇ; \"ਆਉਂਦਾ ਹੈ\" ਲਈ ਸੱਜੇ ਸਵਾਈਪ ਕਰੋ, \"ਦੁਬਾਰਾ\" ਲਈ ਖੱਬੇ। ਕੋਈ ਵੀ ਡੈੱਕ ਸੂਚੀ ਵਾਂਗ ਬ੍ਰਾਊਜ਼ ਕਰੋ।",
+   "t": "ਵਕਫ਼ੇ ਨਾਲ ਦੁਹਰਾਈ। ਸਾਰੇ ਡੈੱਕਾਂ ਦੇ ਦੁਹਰਾਉਣ ਵਾਲੇ ਕਾਰਡ ਇਕੱਠੇ; \"ਯਾਦ ਹੈ\" ਲਈ ਸੱਜੇ ਸਵਾਈਪ ਕਰੋ, \"ਦੁਬਾਰਾ\" ਲਈ ਖੱਬੇ। ਕੋਈ ਵੀ ਡੈੱਕ ਸੂਚੀ ਵਾਂਗ ਬ੍ਰਾਊਜ਼ ਕਰੋ।",
    "ko": "간격 반복 복습이에요. 모든 덱의 \"복습할 카드 전부\"를 모아 보고, 오른쪽으로 밀면 알아요, 왼쪽은 다시. 덱을 목록으로 둘러볼 수도 있어요.",
    "kind": "sentence",
    "where": "js TOUR()"
@@ -3302,7 +3302,7 @@
    "where": "js TOUR()"
   },
   "Streak, levels, forecasts, how you learn, backups and every setting.": {
-   "t": "ਲੜੀ, ਲੈਵਲ, ਅਗਲੇ ਦਿਨਾਂ ਦਾ ਅੰਦਾਜ਼ਾ, ਸਿੱਖਣ ਦਾ ਢੰਗ, ਬੈਕਅੱਪ ਤੇ ਸਾਰੀਆਂ ਸੈਟਿੰਗਾਂ।",
+   "t": "ਲਗਾਤਾਰ ਦਿਨ, ਲੈਵਲ, ਅਗਲੇ ਦਿਨਾਂ ਦਾ ਅੰਦਾਜ਼ਾ, ਸਿੱਖਣ ਦਾ ਢੰਗ, ਬੈਕਅੱਪ ਤੇ ਸਾਰੀਆਂ ਸੈਟਿੰਗਾਂ।",
    "ko": "연속 학습, 레벨, 복습 예측, 학습 패턴, 백업과 모든 설정이 있어요.",
    "kind": "sentence",
    "where": "js TOUR()"
@@ -3818,7 +3818,7 @@
    "where": "html <h3> text"
   },
   "No quizzes yet.": {
-   "t": "ਅਜੇ ਕੋਈ ਟੈਸਟ ਨਹੀਂ।",
+   "t": "ਅਜੇ ਕੋਈ ਕੁਇਜ਼ ਨਹੀਂ।",
    "ko": "아직 푼 퀴즈가 없어요.",
    "kind": "sentence",
    "where": "js p() <p>"
@@ -3898,7 +3898,7 @@
    "where": "js a()"
   },
   "Streak card": {
-   "t": "ਲੜੀ ਕਾਰਡ",
+   "t": "ਲਗਾਤਾਰ ਦਿਨਾਂ ਦਾ ਕਾਰਡ",
    "ko": "연속 학습 카드",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3978,7 +3978,7 @@
    "where": "js bl()"
   },
   "QUIZ": {
-   "t": "ਟੈਸਟ",
+   "t": "ਕੁਇਜ਼",
    "ko": "퀴즈",
    "kind": "canvas",
    "context": "drawn on a canvas image (share card / certificate), uppercase in English; keep short",
@@ -3992,7 +3992,7 @@
    "where": "js stats()"
   },
   "STREAK": {
-   "t": "ਲੜੀ",
+   "t": "ਲਗਾਤਾਰ ਦਿਨ",
    "ko": "연속 학습",
    "kind": "canvas",
    "context": "drawn on a canvas image (share card / certificate), uppercase in English; keep short",
@@ -4068,7 +4068,7 @@
    "where": "js TITLES()"
   },
   "Beginner": {
-   "t": "ਸ਼ੁਰੂਆਤੀ",
+   "t": "ਸਿਖਾਂਦਰੂ",
    "ko": "입문",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4117,7 +4117,7 @@
    "where": "js days()"
   },
   "= Got it  ·": {
-   "t": "= ਆਉਂਦਾ ਹੈ  ·",
+   "t": "= ਯਾਦ ਹੈ  ·",
    "ko": "= 알아요  ·",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -5358,7 +5358,7 @@
    "example": "Change language · Hello there"
   },
   "Got it: {x}": {
-   "t": "ਆਉਂਦਾ ਹੈ: {1}",
+   "t": "ਯਾਦ ਹੈ: {1}",
    "ko": "알아요: {1}",
    "slots": "{1}=x",
    "example": "Got it: Hello there"
@@ -5620,14 +5620,14 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} quiz · last {n}%": {
-   "t": "ਟੈਸਟ: {1} · ਪਿਛਲਾ {2}%",
+   "t": "ਕੁਇਜ਼: {1} · ਪਿਛਲਾ {2}%",
    "ko": "퀴즈 {1}번 · 최근 {2}%",
    "slots": "{1}=n, {2}=n",
    "example": "5 quiz · last 2%",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} quizzes · last {n}%": {
-   "t": "ਟੈਸਟ: {1} · ਪਿਛਲਾ {2}%",
+   "t": "ਕੁਇਜ਼: {1} · ਪਿਛਲਾ {2}%",
    "ko": "퀴즈 {1}번 · 최근 {2}%",
    "slots": "{1}=n, {2}=n",
    "example": "5 quizzes · last 2%",
@@ -5827,7 +5827,7 @@
    "example": "Exam re-drill · 80% to pass"
   },
   "Quiz the whole mix ({n})": {
-   "t": "ਪੂਰੇ ਮਿਕਸ ਦਾ ਟੈਸਟ ({1})",
+   "t": "ਪੂਰੇ ਮਿਕਸ ਦਾ ਕੁਇਜ਼ ({1})",
    "ko": "섞인 카드 전부 퀴즈 ({1})",
    "slots": "{1}=n",
    "example": "Quiz the whole mix (5)"
@@ -5875,14 +5875,14 @@
    "example": "Hello there · 5/2 · pass 3/3 · read"
   },
   "Quiz · {n}/{n} · new 5 + {n} learned · read": {
-   "t": "ਟੈਸਟ · {1}/{2} · ਨਵੇਂ 5 + ਸਿੱਖੇ: {3} · ਪੜ੍ਹਨਾ",
+   "t": "ਕੁਇਜ਼ · {1}/{2} · ਨਵੇਂ 5 + ਸਿੱਖੇ: {3} · ਪੜ੍ਹਨਾ",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 + 익힌 카드 {3}장 · 읽기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Quiz · 5/2 · new 5 + 3 learned · read",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Quiz · {n}/{n} · new 5 · read": {
-   "t": "ਟੈਸਟ · {1}/{2} · ਨਵੇਂ 5 · ਪੜ੍ਹਨਾ",
+   "t": "ਕੁਇਜ਼ · {1}/{2} · ਨਵੇਂ 5 · ਪੜ੍ਹਨਾ",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 · 읽기",
    "slots": "{1}=n, {2}=n",
    "example": "Quiz · 5/2 · new 5 · read"
@@ -5930,14 +5930,14 @@
    "example": "Hello there · 5/2 · pass 3/3 · recall"
   },
   "Quiz · {n}/{n} · new 5 + {n} learned · recall": {
-   "t": "ਟੈਸਟ · {1}/{2} · ਨਵੇਂ 5 + ਸਿੱਖੇ: {3} · ਯਾਦ ਕਰਨਾ",
+   "t": "ਕੁਇਜ਼ · {1}/{2} · ਨਵੇਂ 5 + ਸਿੱਖੇ: {3} · ਯਾਦ ਕਰਨਾ",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 + 익힌 카드 {3}장 · 떠올리기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Quiz · 5/2 · new 5 + 3 learned · recall",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Quiz · {n}/{n} · new 5 · recall": {
-   "t": "ਟੈਸਟ · {1}/{2} · ਨਵੇਂ 5 · ਯਾਦ ਕਰਨਾ",
+   "t": "ਕੁਇਜ਼ · {1}/{2} · ਨਵੇਂ 5 · ਯਾਦ ਕਰਨਾ",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 · 떠올리기",
    "slots": "{1}=n, {2}=n",
    "example": "Quiz · 5/2 · new 5 · recall"
@@ -5985,14 +5985,14 @@
    "example": "Hello there · 5/2 · pass 3/3 · listen"
   },
   "Quiz · {n}/{n} · new 5 + {n} learned · listen": {
-   "t": "ਟੈਸਟ · {1}/{2} · ਨਵੇਂ 5 + ਸਿੱਖੇ: {3} · ਸੁਣਨਾ",
+   "t": "ਕੁਇਜ਼ · {1}/{2} · ਨਵੇਂ 5 + ਸਿੱਖੇ: {3} · ਸੁਣਨਾ",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 + 익힌 카드 {3}장 · 듣기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Quiz · 5/2 · new 5 + 3 learned · listen",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Quiz · {n}/{n} · new 5 · listen": {
-   "t": "ਟੈਸਟ · {1}/{2} · ਨਵੇਂ 5 · ਸੁਣਨਾ",
+   "t": "ਕੁਇਜ਼ · {1}/{2} · ਨਵੇਂ 5 · ਸੁਣਨਾ",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 · 듣기",
    "slots": "{1}=n, {2}=n",
    "example": "Quiz · 5/2 · new 5 · listen"
@@ -6040,14 +6040,14 @@
    "example": "Hello there · 5/2 · pass 3/3 · type"
   },
   "Quiz · {n}/{n} · new 5 + {n} learned · type": {
-   "t": "ਟੈਸਟ · {1}/{2} · ਨਵੇਂ 5 + ਸਿੱਖੇ: {3} · ਲਿਖਣਾ",
+   "t": "ਕੁਇਜ਼ · {1}/{2} · ਨਵੇਂ 5 + ਸਿੱਖੇ: {3} · ਲਿਖਣਾ",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 + 익힌 카드 {3}장 · 입력",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Quiz · 5/2 · new 5 + 3 learned · type",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Quiz · {n}/{n} · new 5 · type": {
-   "t": "ਟੈਸਟ · {1}/{2} · ਨਵੇਂ 5 · ਲਿਖਣਾ",
+   "t": "ਕੁਇਜ਼ · {1}/{2} · ਨਵੇਂ 5 · ਲਿਖਣਾ",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 · 입력",
    "slots": "{1}=n, {2}=n",
    "example": "Quiz · 5/2 · new 5 · type"
@@ -6095,14 +6095,14 @@
    "example": "Hello there · 5/2 · pass 3/3 · mixed"
   },
   "Quiz · {n}/{n} · new 5 + {n} learned · mixed": {
-   "t": "ਟੈਸਟ · {1}/{2} · ਨਵੇਂ 5 + ਸਿੱਖੇ: {3} · ਰਲਵਾਂ",
+   "t": "ਕੁਇਜ਼ · {1}/{2} · ਨਵੇਂ 5 + ਸਿੱਖੇ: {3} · ਰਲਵਾਂ",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 + 익힌 카드 {3}장 · 섞어서",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Quiz · 5/2 · new 5 + 3 learned · mixed",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Quiz · {n}/{n} · new 5 · mixed": {
-   "t": "ਟੈਸਟ · {1}/{2} · ਨਵੇਂ 5 · ਰਲਵਾਂ",
+   "t": "ਕੁਇਜ਼ · {1}/{2} · ਨਵੇਂ 5 · ਰਲਵਾਂ",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 · 섞어서",
    "slots": "{1}=n, {2}=n",
    "example": "Quiz · 5/2 · new 5 · mixed"
@@ -6331,14 +6331,14 @@
    "example": "레벨 업! Level 5 · Greetings 🎉"
   },
   "🛡️ Streak shield used for yesterday. {n} left.": {
-   "t": "🛡️ ਕੱਲ੍ਹ ਲਈ ਲੜੀ ਦੀ ਢਾਲ ਵਰਤੀ ਗਈ। ਬਾਕੀ: {1}।",
+   "t": "🛡️ ਕੱਲ੍ਹ ਲਈ ਲਗਾਤਾਰ ਦਿਨਾਂ ਦੀ ਢਾਲ ਵਰਤੀ ਗਈ। ਬਾਕੀ: {1}।",
    "ko": "🛡️ 어제 연속 학습 보호막을 썼어요. {1}개 남았어요.",
    "slots": "{1}=n",
    "example": "🛡️ Streak shield used for yesterday. 5 left.",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "🛡️ Streak shield earned ({n}/2). A missed day won't break your streak.": {
-   "t": "🛡️ ਲੜੀ ਦੀ ਢਾਲ ਮਿਲੀ ({1}/2)। ਇੱਕ ਦਿਨ ਖੁੰਝਣ ਨਾਲ ਤੁਹਾਡੀ ਲੜੀ ਨਹੀਂ ਟੁੱਟੇਗੀ।",
+   "t": "🛡️ ਲਗਾਤਾਰ ਦਿਨਾਂ ਦੀ ਢਾਲ ਮਿਲੀ ({1}/2)। ਇੱਕ ਦਿਨ ਖੁੰਝਣ ਨਾਲ ਤੁਹਾਡੇ ਲਗਾਤਾਰ ਦਿਨ ਨਹੀਂ ਟੁੱਟਣਗੇ।",
    "ko": "🛡️ 연속 학습 보호막을 얻었어요 ({1}/2). 하루 빠져도 연속 학습이 끊기지 않아요.",
    "slots": "{1}=n",
    "example": "🛡️ Streak shield earned (5/2). A missed day won't break your streak."
@@ -6389,19 +6389,19 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Couldn't delete right now ({x}). Try again, or post in Feedback.": {
-   "t": "ਇਸ ਵੇਲੇ ਡਿਲੀਟ ਨਹੀਂ ਹੋ ਸਕਿਆ ({1})। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ, ਜਾਂ \"ਸੁਝਾਅ\" ਵਿੱਚ ਲਿਖੋ।",
+   "t": "ਇਸ ਵੇਲੇ ਡਿਲੀਟ ਨਹੀਂ ਹੋ ਸਕਿਆ ({1})। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ, ਜਾਂ \"ਫ਼ੀਡਬੈਕ\" ਵਿੱਚ ਲਿਖੋ।",
    "ko": "지금은 삭제할 수 없어요 ({1}). 다시 시도하거나 피드백에 남겨 주세요.",
    "slots": "{1}=x",
    "example": "Couldn't delete right now (Hello there). Try again, or post in Feedback."
   },
   "This permanently deletes your account ({s}) and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type": {
-   "t": "ਇਸ ਨਾਲ ਤੁਹਾਡਾ ਅਕਾਊਂਟ ({1}) ਤੇ ਸਿੰਕ ਹੋਈ ਤਰੱਕੀ ਹਮੇਸ਼ਾ ਲਈ ਡਿਲੀਟ ਹੋ ਜਾਵੇਗੀ। ਇਹ ਵਾਪਸ ਨਹੀਂ ਹੋ ਸਕਦਾ। \"ਸੁਝਾਅ\" ਵਿੱਚ ਤੁਹਾਡੀਆਂ ਪੋਸਟਾਂ ਰਹਿਣਗੀਆਂ, ਪਰ ਤੁਹਾਡੇ ਨਾਲ ਜੁੜੀਆਂ ਨਹੀਂ ਰਹਿਣਗੀਆਂ। ਪੱਕਾ ਕਰਨ ਲਈ",
+   "t": "ਇਸ ਨਾਲ ਤੁਹਾਡਾ ਅਕਾਊਂਟ ({1}) ਤੇ ਸਿੰਕ ਹੋਈ ਤਰੱਕੀ ਹਮੇਸ਼ਾ ਲਈ ਡਿਲੀਟ ਹੋ ਜਾਵੇਗੀ। ਇਹ ਵਾਪਸ ਨਹੀਂ ਹੋ ਸਕਦਾ। \"ਫ਼ੀਡਬੈਕ\" ਵਿੱਚ ਤੁਹਾਡੀਆਂ ਪੋਸਟਾਂ ਰਹਿਣਗੀਆਂ, ਪਰ ਤੁਹਾਡੇ ਨਾਲ ਜੁੜੀਆਂ ਨਹੀਂ ਰਹਿਣਗੀਆਂ। ਪੱਕਾ ਕਰਨ ਲਈ",
    "ko": "계정({1})과 동기화된 진도가 영구 삭제돼요. 되돌릴 수 없어요. 피드백 글은 남지만 더 이상 내 계정과 연결되지 않아요. 확인하려면",
    "slots": "{1}=s",
    "example": "This permanently deletes your account (Greetings) and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type"
   },
   "This permanently deletes your account () and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type": {
-   "t": "ਇਸ ਨਾਲ ਤੁਹਾਡਾ ਅਕਾਊਂਟ () ਤੇ ਸਿੰਕ ਹੋਈ ਤਰੱਕੀ ਹਮੇਸ਼ਾ ਲਈ ਡਿਲੀਟ ਹੋ ਜਾਵੇਗੀ। ਇਹ ਵਾਪਸ ਨਹੀਂ ਹੋ ਸਕਦਾ। \"ਸੁਝਾਅ\" ਵਿੱਚ ਤੁਹਾਡੀਆਂ ਪੋਸਟਾਂ ਰਹਿਣਗੀਆਂ, ਪਰ ਤੁਹਾਡੇ ਨਾਲ ਜੁੜੀਆਂ ਨਹੀਂ ਰਹਿਣਗੀਆਂ। ਪੱਕਾ ਕਰਨ ਲਈ",
+   "t": "ਇਸ ਨਾਲ ਤੁਹਾਡਾ ਅਕਾਊਂਟ () ਤੇ ਸਿੰਕ ਹੋਈ ਤਰੱਕੀ ਹਮੇਸ਼ਾ ਲਈ ਡਿਲੀਟ ਹੋ ਜਾਵੇਗੀ। ਇਹ ਵਾਪਸ ਨਹੀਂ ਹੋ ਸਕਦਾ। \"ਫ਼ੀਡਬੈਕ\" ਵਿੱਚ ਤੁਹਾਡੀਆਂ ਪੋਸਟਾਂ ਰਹਿਣਗੀਆਂ, ਪਰ ਤੁਹਾਡੇ ਨਾਲ ਜੁੜੀਆਂ ਨਹੀਂ ਰਹਿਣਗੀਆਂ। ਪੱਕਾ ਕਰਨ ਲਈ",
    "ko": "계정과 동기화된 진도가 영구 삭제돼요. 되돌릴 수 없어요. 피드백 글은 남지만 더 이상 내 계정과 연결되지 않아요. 확인하려면",
    "slots": "",
    "example": "This permanently deletes your account () and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type"
@@ -6427,7 +6427,7 @@
    "example": "Hello there · day 5 🔥"
   },
   "· {n} days · a Quick session keeps it": {
-   "t": "· {1} ਦਿਨ · ਛੋਟੇ ਸੈਸ਼ਨ ਨਾਲ ਲੜੀ ਬਣੀ ਰਹੇਗੀ",
+   "t": "· {1} ਦਿਨ · ਛੋਟੇ ਸੈਸ਼ਨ ਨਾਲ ਲਗਾਤਾਰ ਦਿਨ ਬਣੇ ਰਹਿਣਗੇ",
    "ko": "· {1}일째 · 짧게 학습하면 지킬 수 있어요",
    "slots": "{1}=n",
    "example": "· 5 days · a Quick session keeps it",
@@ -6610,7 +6610,7 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "🛡️ Streak shields: {n}/2 · earn one every 7-day streak; a missed day spends one instead of breaking the streak.": {
-   "t": "🛡️ ਲੜੀ ਦੀਆਂ ਢਾਲਾਂ: {1}/2 · ਹਰ 7 ਦਿਨਾਂ ਦੀ ਲੜੀ ਉੱਤੇ ਇੱਕ ਮਿਲਦੀ ਹੈ; ਦਿਨ ਖੁੰਝਣ ਨਾਲ ਲੜੀ ਟੁੱਟਣ ਦੀ ਥਾਂ ਇੱਕ ਢਾਲ ਖ਼ਰਚ ਹੁੰਦੀ ਹੈ।",
+   "t": "🛡️ ਲਗਾਤਾਰ ਦਿਨਾਂ ਦੀਆਂ ਢਾਲਾਂ: {1}/2 · ਹਰ 7 ਲਗਾਤਾਰ ਦਿਨਾਂ ਉੱਤੇ ਇੱਕ ਮਿਲਦੀ ਹੈ; ਦਿਨ ਖੁੰਝਣ ਨਾਲ ਲਗਾਤਾਰ ਦਿਨ ਟੁੱਟਣ ਦੀ ਥਾਂ ਇੱਕ ਢਾਲ ਖ਼ਰਚ ਹੁੰਦੀ ਹੈ।",
    "ko": "🛡️ 연속 학습 보호막: {1}/2 · 7일 연속 학습할 때마다 하나씩 얻어요. 하루 빠지면 연속 학습 대신 보호막이 하나 쓰여요.",
    "slots": "{1}=n",
    "example": "🛡️ Streak shields: 5/2 · earn one every 7-day streak; a missed day spends one instead of breaking the streak."
@@ -6683,7 +6683,7 @@
    "example": "Start typing"
   },
   "Start typing · streak {n}": {
-   "t": "ਲਿਖਣਾ ਸ਼ੁਰੂ ਕਰੋ · ਲੜੀ {1}",
+   "t": "ਲਿਖਣਾ ਸ਼ੁਰੂ ਕਰੋ · ਲਗਾਤਾਰ ਸਹੀ: {1}",
    "ko": "입력해 보세요 · 연속 {1}",
    "slots": "{1}=n",
    "example": "Start typing · streak 5"
@@ -6695,13 +6695,13 @@
    "example": "Start typing · best 5"
   },
   "Start typing · streak {n} · best {n}": {
-   "t": "ਲਿਖਣਾ ਸ਼ੁਰੂ ਕਰੋ · ਲੜੀ {1} · ਸਭ ਤੋਂ ਵਧੀਆ {2}",
+   "t": "ਲਿਖਣਾ ਸ਼ੁਰੂ ਕਰੋ · ਲਗਾਤਾਰ ਸਹੀ: {1} · ਸਭ ਤੋਂ ਵਧੀਆ {2}",
    "ko": "입력해 보세요 · 연속 {1} · 최고 {2}",
    "slots": "{1}=n, {2}=n",
    "example": "Start typing · streak 5 · best 2"
   },
   "{n}% · {n} tried · streak {n}": {
-   "t": "{1}% · ਕੋਸ਼ਿਸ਼ਾਂ: {2} · ਲੜੀ {3}",
+   "t": "{1}% · ਕੋਸ਼ਿਸ਼ਾਂ: {2} · ਲਗਾਤਾਰ ਸਹੀ: {3}",
    "ko": "{1}% · {2}번 시도 · 연속 {3}",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "5% · 2 tried · streak 3",
@@ -6715,7 +6715,7 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n}% · {n} tried · streak {n} · best {n}": {
-   "t": "{1}% · ਕੋਸ਼ਿਸ਼ਾਂ: {2} · ਲੜੀ {3} · ਸਭ ਤੋਂ ਵਧੀਆ {4}",
+   "t": "{1}% · ਕੋਸ਼ਿਸ਼ਾਂ: {2} · ਲਗਾਤਾਰ ਸਹੀ: {3} · ਸਭ ਤੋਂ ਵਧੀਆ {4}",
    "ko": "{1}% · {2}번 시도 · 연속 {3} · 최고 {4}",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n",
    "example": "5% · 2 tried · streak 3 · best 4",
@@ -6848,13 +6848,13 @@
    "example": "5/2 · Progress"
   },
   "Feedback · quick actions": {
-   "t": "ਸੁਝਾਅ · ਸ਼ਾਰਟਕੱਟ",
+   "t": "ਫ਼ੀਡਬੈਕ · ਸ਼ਾਰਟਕੱਟ",
    "ko": "피드백 · 빠른 실행",
    "slots": "",
    "example": "Feedback · quick actions"
   },
   "{n}/{n} · Feedback": {
-   "t": "{1}/{2} · ਸੁਝਾਅ",
+   "t": "{1}/{2} · ਫ਼ੀਡਬੈਕ",
    "ko": "{1}/{2} · 피드백",
    "slots": "{1}=n, {2}=n",
    "example": "5/2 · Feedback"

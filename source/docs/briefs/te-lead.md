@@ -11,7 +11,7 @@ State: READY FOR REVIEW, NOT READY FOR RELEASE (font blocker)
 No native Telugu speaker has checked any of this. `tools/content/te/REVIEW.md` lists what to check first. No screen was rendered and no audio was heard.
 
 ## RELEASE BLOCKER: the dot under a letter (Telugu nukta U+0C3C)
-The pronunciation aids are English respelled in Telugu script. Sounds Telugu lacks (z, f, v-as-fricative, th) are written with the Telugu nukta U+0C3C under a letter (జ఼, ఫ఼ ...).
+The pronunciation aids are English respelled in Telugu script. Sounds Telugu lacks are written with the Telugu nukta U+0C3C under a letter: v వ఼, θ థ఼, ð ద఼, z జ఼, ʒ ఝ఼ (rare). f is plain ఫ, with no dot.
 - The stock Android 12 to 16 system Telugu font has NO glyph for U+0C3C (checked in the AOSP font files). On those phones the dot shows as a dotted circle or a box.
 - Noto Sans Telugu 2.005 has the glyph. Two positioning bugs (#22, #25) are fixed in its repository but not in a release.
 - iOS and Windows are unverified.

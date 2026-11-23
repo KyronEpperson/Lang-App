@@ -251,7 +251,7 @@
    "where": "html text"
   },
   "got it ·": {
-   "t": "آتا ہے ·",
+   "t": "یاد ہے ·",
    "ko": "알아요 ·",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -272,7 +272,7 @@
    "where": "html text"
   },
   "next": {
-   "t": "آگے",
+   "t": "اگلا",
    "ko": "다음",
    "kind": "label",
    "context": "keyboard-hint caption: Enter = next",
@@ -1688,7 +1688,7 @@
    "where": "js STR()"
   },
   "Got it": {
-   "t": "آتا ہے",
+   "t": "یاد ہے",
    "ko": "알아요",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1793,7 +1793,7 @@
    "where": "js boxTxt() <button>"
   },
   "Got it:": {
-   "t": "آتا ہے:",
+   "t": "یاد ہے:",
    "ko": "알아요:",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -1889,7 +1889,7 @@
    "where": "js ov() <b>"
   },
   "= Got it ·": {
-   "t": "= آتا ہے ·",
+   "t": "= یاد ہے ·",
    "ko": "= 알아요 ·",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -1949,7 +1949,7 @@
    "where": "html <p> text"
   },
   "box 3+": {
-   "t": "باکس 3+",
+   "t": "باکس 3 یا اوپر",
    "ko": "상자 3+",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2056,13 +2056,13 @@
    "where": "js SPK() <div>"
   },
   "Got it — quiz me": {
-   "t": "ٹھیک ہے — کوئز لیں",
+   "t": "یاد ہے — کوئز لیں",
    "ko": "알겠어요 — 퀴즈 내 주세요",
    "kind": "sentence",
    "where": "js goLbl()"
   },
   "Next": {
-   "t": "آگے",
+   "t": "اگلا",
    "ko": "다음",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2366,7 +2366,7 @@
    "where": "js (top level)"
   },
   "Not quite": {
-   "t": "درست نہیں",
+   "t": "ابھی درست نہیں",
    "ko": "아쉬워요",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2439,13 +2439,13 @@
    "where": "js opts() <div>"
   },
   "What did B say?": {
-   "t": "B نے کیا کہا؟",
+   "t": "شخص B نے کیا کہا؟",
    "ko": "B는 뭐라고 했나요?",
    "kind": "sentence",
    "where": "js type()"
   },
   "What did A say?": {
-   "t": "A نے کیا کہا؟",
+   "t": "شخص A نے کیا کہا؟",
    "ko": "A는 뭐라고 했나요?",
    "kind": "sentence",
    "where": "js type()"
@@ -2612,7 +2612,7 @@
    "where": "js pass()"
   },
   "Flip it, listen, then tap Got it once it sticks.": {
-   "t": "کارڈ پلٹیں، سنیں، اور جب یاد ہو جائے تو \"آتا ہے\" پر ٹیپ کریں۔",
+   "t": "کارڈ پلٹیں، سنیں، اور جب یاد ہو جائے تو \"یاد ہے\" پر ٹیپ کریں۔",
    "ko": "뒤집고, 들어 보고, 외워지면 알아요를 누르세요.",
    "kind": "sentence",
    "where": "js x() <p>"
@@ -3290,7 +3290,7 @@
    "where": "js TOUR()"
   },
   "Spaced repetition. \"All due\" across decks, swipe right for got it, left for again. Browse any deck as a list.": {
-   "t": "وقفوں سے دہرائی۔ \"تمام دہرائی\" میں ہر ڈیک کے کارڈ ایک ساتھ؛ \"آتا ہے\" کے لیے دائیں سوائپ کریں، \"دوبارہ\" کے لیے بائیں۔ کسی بھی ڈیک کو فہرست کی طرح براؤز کریں۔",
+   "t": "وقفوں سے دہرائی۔ \"تمام دہرائی\" میں ہر ڈیک کے کارڈ ایک ساتھ؛ \"یاد ہے\" کے لیے دائیں سوائپ کریں، \"دوبارہ\" کے لیے بائیں۔ کسی بھی ڈیک کو فہرست کی طرح براؤز کریں۔",
    "ko": "간격 반복 복습이에요. 모든 덱의 \"복습할 카드 전부\"를 모아 보고, 오른쪽으로 밀면 알아요, 왼쪽은 다시. 덱을 목록으로 둘러볼 수도 있어요.",
    "kind": "sentence",
    "where": "js TOUR()"
@@ -3392,7 +3392,7 @@
    "where": "js STR()"
   },
   "Verb conjugator": {
-   "t": "فعل کی شکلیں",
+   "t": "فعل کی گردان",
    "ko": "동사 활용",
    "kind": "label",
    "where": "js STR()"
@@ -3497,7 +3497,7 @@
    "where": "html <button> text"
   },
   "Lesson done. +25 XP": {
-   "t": "سبق مکمل۔ +25 XP",
+   "t": "سبق مکمل۔ انعام: 25 XP",
    "ko": "레슨 완료! +25 XP",
    "kind": "label",
    "where": "js maybeDone()"
@@ -3589,7 +3589,7 @@
    "where": "js rows() <input> @placeholder"
   },
   "Conjugate": {
-   "t": "شکلیں دکھائیں",
+   "t": "گردان کریں",
    "ko": "활용하기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3712,49 +3712,49 @@
    "where": "js li()"
   },
   "Su": {
-   "t": "ا",
+   "t": "ات",
    "ko": "일",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js (top level)"
   },
   "Mo": {
-   "t": "پ",
+   "t": "پی",
    "ko": "월",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js (top level) <link>"
   },
   "Tu": {
-   "t": "م",
+   "t": "من",
    "ko": "화",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js (top level)"
   },
   "We": {
-   "t": "ب",
+   "t": "بد",
    "ko": "수",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <button> text"
   },
   "Th": {
-   "t": "ج",
+   "t": "جر",
    "ko": "목",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js (top level)"
   },
   "Fr": {
-   "t": "ج",
+   "t": "جم",
    "ko": "금",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js (top level)"
   },
   "Sa": {
-   "t": "ہ",
+   "t": "ہف",
    "ko": "토",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4054,14 +4054,14 @@
    "where": "js (top level)"
   },
   "Master": {
-   "t": "ماسٹر",
+   "t": "استاد",
    "ko": "달인",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js TITLES()"
   },
   "Sensei": {
-   "t": "استاد",
+   "t": "سینسی",
    "ko": "사범",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4117,7 +4117,7 @@
    "where": "js days()"
   },
   "= Got it  ·": {
-   "t": "= آتا ہے  ·",
+   "t": "= یاد ہے  ·",
    "ko": "= 알아요  ·",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -4156,7 +4156,7 @@
    "where": "js PAUSE_EXTRA()"
   },
   "You've got this!": {
-   "t": "ہمت رکھیں!",
+   "t": "یہ آپ سے ہو جائے گا!",
    "ko": "할 수 있어요!",
    "kind": "sentence",
    "where": "js PAUSE_EXTRA()"
@@ -4722,7 +4722,7 @@
    ]
   },
   "Not quite.": {
-   "t": "درست نہیں۔",
+   "t": "ابھی درست نہیں۔",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice runner feedback",
@@ -4782,7 +4782,7 @@
    ]
   },
   "Put the words in order": {
-   "t": "جملہ بنائیں",
+   "t": "الفاظ ترتیب سے لگائیں",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice runner item heading",
@@ -4802,7 +4802,7 @@
    ]
   },
   "Write it": {
-   "t": "انگریزی میں لکھیں",
+   "t": "لکھیں",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice runner item heading",
@@ -5358,7 +5358,7 @@
    "example": "Change language · Hello there"
   },
   "Got it: {x}": {
-   "t": "آتا ہے: {1}",
+   "t": "یاد ہے: {1}",
    "ko": "알아요: {1}",
    "slots": "{1}=x",
    "example": "Got it: Hello there"

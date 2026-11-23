@@ -164,3 +164,23 @@ node tools/i18n/validate.js te <scratch>      exact=784 patterns=275 warnings=1
 ```
 
 `node --check` passes on every touched JS file. No Korean characters under `tools/content/te`. All text NFC, Western digits. Count strings re-rendered at 0, 1, 2 and 21 («పాయింట్‌లు: 21», «నిమిషాలు: 1», «మిగిలిన రౌండ్‌లు: 0», «కార్డులు: 2»): label, colon, number in every case.
+
+## Pre-merge review, 2026-11-23
+
+Applied after merge (reviewer not a native Telugu speaker).
+
+**Blockers**
+- `question-tags` type #12, #13, #14 now carry `{nc:1}` (no contraction processing): the pack no longer accepts "do not you", "have not you", "is not she" or "what time it's". The full forms are listed by hand ("She is a doctor, isn't she", "You have got two brothers, haven't you"). The tag itself has no full form; that is the one intended exception to "every contraction also in full".
+- `first-conditional` type #13 «నువ్వు బస్సు మిస్ అవుతావు»: "We'll / I'll miss the bus" (wrong person) removed; deviation.
+
+**Typed-answer pass** (all 128 type items listed by script and read): answers added through deviations: prep #13 (Let's / Let us meet (up) next weekend), articles #13 (… together, Let us …), idioms #13 (Let us call it a day), be #13, third-s #11, plurals #12, object-have #12, #13 (have got / lots of), present #12, third-s #12 (love), joining #11 (tea and coffee), adjectives #13 (It's cheaper). Every contracted answer now has its full form in the generated pack (script check), except the tags above.
+
+**Localisation** (Korean setting → Telugu states / India; grammar points unchanged; deviations with reasons): Seoul → Hyderabad, Busan → Vizag, Jeju → Goa, Daegu → Guntur, Korea (made in / live in) → India, Korea (visit) → Japan, Korean → Telugu / Japanese, kimchi → biryani, won → rupees, K-pop → cricket, Han Kang → R. K. Narayan, tiger → ghost, "You suffered a lot." / "Good suffering." → "Thanks for your hard works!" / "You did a hard work.", Jenny Park → Jenny Miller, card and dialogue "Who's your bias?" → "Who's your favorite actor?" (Mahesh Babu). 36 practice/check items + 1 card + 1 dialogue. The pronunciation deck pairs were left: fan / pan and coffee / copy are real Telugu problems (ఫ read as pʰ), rice / lice is already presented as easy for Telugu speakers.
+
+**Other corrections**: pron rule 2 amended and all aids regenerated (see PRON-RULES.md §4); word-initial యా key row and card line; bias/hero note rewritten; «one coffee → a coffee» calque row replaced by «Give me one pen → Can I borrow a pen?», Coke note softened; «aren't I?» added to `question-tags`; te-lead.md line on the dotted letters corrected (f is plain ఫ).
+
+**Interface** (ui.json, lead ruling): Feedback family అభిప్రాయం, Got it గుర్తుంది, Reply జవాబు, Export / Import ఎక్స్‌పోర్ట్ / ఇంపోర్ట్, Type రకం (from the other dictionary, with ZWNJ); Not sure «సరిగ్గా తెలియదు», Nickname «నిక్‌నేమ్» (own); long buttons shortened. NOTES.md updated. Open: the keys.json context says `Type` is the verb; the engine should split the key. The tab «అభిప్రాయం» is wider than «స్పందన»: measure at 390px.
+
+**For a native speaker to decide (unchanged)**: ZWNJ plurals of everyday loans (డాలర్‌లు vs డాలర్లు); «వేరే క్రియ» vs «ప్రధాన క్రియ»; chips «నిమిషాలు: 2» vs «2 నిమిషాలు»; «ఒత్తిడి» for stress (clash with «ఒత్తు»); the new review sentences (initial యా row, hero note, aren't I, localised prompts); «నిక్‌నేమ్», «సరిగ్గా తెలియదు» and the shortened button labels.
+
+**Still open**: the U+0C3C font decision (owner).

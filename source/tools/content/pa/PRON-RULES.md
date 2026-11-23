@@ -47,3 +47,10 @@ These are the anglicised pronunciations an American speaker would use, not the P
 - `breakfast`: the card note describes the first vowel in words; the aid writes ੇ. Check the note against the audio.
 - ੇ is used for both *bed* and *name*; the `pron` lesson explains this, but a learner may still read ਬੇਡ as "bade".
 - Weak forms in sentence aids (ਕਨ for *can*, ਡ for *do*) look odd in isolation; they are tool output and were left.
+
+## Pre-merge review, 2026-11-23
+
+- **bed vs name: ੇ kept for both.** No clean distinct Gurmukhi spelling exists for the short *bed* vowel: ੈ / ਐ already stands for *bad*, and every "short" marker (addak, visarga, a halant on a vowel) is banned or reads as something else. Moving *bed* to ੈ would trade the bed / bade merger for a bed / bad merger. Instead the `pron` lesson key now warns that *get* ਗੇਟ and *let* ਲੇਟ are not the Punjabi "gate" and "late", and the `breakfast` note says the ੇ there is the short one.
+- **Key additions in the `pron` lesson:** a final unstressed ਾ is a light schwa (banana ਬˈਨੈਨਾ, India ˈਇੰਡੀਆ), and ਙ is the ng sound with no g after it (ˈਮੌਰ੍ਨਿਙ, ਸਿਙ). The `banana` and `pleasure` notes now match their aids.
+- **pron_pa.js warns on vowel + h** (PRON-TOOL decision 11).
+- New aids, all converter output: *I'll have the paneer tikka.* ਆਈਲ ਹੈਵ਼ ਦ਼ ਪˈਨਿਰ ˈਟਿਕਾ, *Not too spicy, please.* ਨਾਟ ਟੂ ˈਸ੍ਪਾਈਸੀ ਪ੍ਲੀਜ਼, *Who's your favorite singer?* ਹੂਜ਼ ਯੁਰ ˈਫ਼ੇਵ਼ਰਿਟ ˈਸਿਙਰ.

@@ -46,6 +46,43 @@ function tokenize(word) {
   return out;
 }
 
+/* Stress for a 2+ syllable word that has no ˈ (rule 2 as amended). Order: (1) a ˌ in the word becomes ˈ; (2) the position zh uses
+   for the same sounds in a stressed occurrence anywhere in tools/content/zh; (3) HAND_STRESS (citation stress, Merriam-Webster).
+   A word none of these covers throws, so a new word is never left unmarked. */
+const HAND_STRESS = {
+  /* key = the sounds without marks; value = the IPA with ˈ */
+  'ɪntə': 'ˈɪntə', 'ɪntu': 'ˈɪntu', 'ʌndər': 'ˈʌndər', 'oʊvər': 'ˈoʊvər', 'æftər': 'ˈæftər', 'ənˈtɪl': 'ənˈtɪl', 'əntɪl': 'ənˈtɪl',
+  'əbaʊt': 'əˈbaʊt', 'əkrɔːs': 'əˈkrɔːs', 'əraʊnd': 'əˈraʊnd', 'bɪfɔːr': 'bɪˈfɔːr', 'bɪkʌz': 'bɪˈkʌz', 'bɪkəz': 'bɪˈkəz',
+  'bɪtwiːn': 'bɪˈtwiːn', 'wɪðaʊt': 'wɪˈðaʊt', 'wɪθaʊt': 'wɪˈθaʊt', 'əgen': 'əˈgen', 'əgenst': 'əˈgenst', 'əpɑːn': 'əˈpɑːn',
+  'ʌntɪl': 'ʌnˈtɪl', 'dʊrɪŋ': 'ˈdʊrɪŋ', 'ɔːlsoʊ': 'ˈɔːlsoʊ', 'eni': 'ˈeni', 'ʌðər': 'ˈʌðər', 'əlɔːŋ': 'əˈlɔːŋ', 'əwer': 'əˈwer',
+  'ɑːntu': 'ˈɑːntu', 'ɑːntə': 'ˈɑːntə', 'bɪsaɪd': 'bɪˈsaɪd', 'bɪhaɪnd': 'bɪˈhaɪnd', 'bɪloʊ': 'bɪˈloʊ', 'əbʌv': 'əˈbʌv',
+  'wɪðɪn': 'wɪˈðɪn', 'ɔːlðoʊ': 'ɔːlˈðoʊ', 'aʊər': 'ˈaʊər', 'ɪtl': 'ˈɪtl'
+};
+let STRESSED = null;
+function stressMap() {
+  if (STRESSED) return STRESSED;
+  STRESSED = {};
+  for (const p of zhPairs()) for (const g of p.ipa.replace(/[\/‖]/g, ' ').split(/\s+/)) {
+    if (!g || (g.match(/ˈ/g) || []).length !== 1) continue;
+    let seg; try { seg = tokenize(g); } catch (x) { continue; }
+    const key = seg.filter(x => x.t !== 'S').map(x => x.k).join('');
+    let n = 0, pos = -1; for (const x of seg) { if (x.t === 'S') { if (x.primary) pos = n; } else n++; }
+    if (pos >= 0 && !(key in STRESSED)) STRESSED[key] = pos;
+  }
+  return STRESSED;
+}
+function supplyStress(seg, ph, word) {
+  const sec = seg.findIndex(x => x.t === 'S' && !x.primary);
+  if (sec >= 0) { seg[sec] = { t: 'S', primary: true }; return; }
+  const key = ph.map(x => x.k).join('');
+  let pos = stressMap()[key];
+  if (pos === undefined && HAND_STRESS[key]) { const h = tokenize(HAND_STRESS[key]); pos = h.findIndex(x => x.t === 'S'); }
+  if (pos === undefined || pos < 0) throw new Error('ipaToTe: rule 2 needs ˈ on /' + word + '/ (2+ syllables, no stress in the IPA, none found in zh or HAND_STRESS)');
+  /* insert before the pos-th sound */
+  let n = 0;
+  for (let i = 0; i < seg.length; i++) { if (seg[i].t === 'S') continue; if (n === pos) { seg.splice(i, 0, { t: 'S', primary: true }); return; } n++; }
+}
+
 function convWord(word) {
   const bad = m => { throw new Error('ipaToTe: ' + m + ' in /' + word + '/'); };
   const seg = tokenize(word);
@@ -66,7 +103,9 @@ function convWord(word) {
         ph.slice(i + 1).every(y => y.t === 'C')) x.syl = true;
   });
   const syll = ph.filter(x => x.t === 'V' || x.syl).length;
-  /* rule 2: ˈ only in words of 2+ syllables, every ˌ dropped */
+  /* rule 2 (amended 2026-11-23, lead ruling after the pre-merge review): every word of 2+ syllables carries ˈ, even where the
+     zh IPA leaves a function word unstressed (about, into, under …); one-syllable words carry none; every ˌ is dropped. */
+  if (syll >= 2 && !seg.some(x => x.t === 'S' && x.primary)) supplyStress(seg, ph, word);
   const s = seg.filter(x => x.t !== 'S' || (x.primary && syll >= 2));
   let out = '';
   /* state: what the last written sound was. 'C' = a consonant letter that can take a sign; 'V' = a vowel (or sunna after one); '' = word start or ˈ */

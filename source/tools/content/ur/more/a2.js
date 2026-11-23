@@ -26,7 +26,7 @@ practice:[
 ["fi","What __ you doing?","تم کیا کر رہے تھے؟","were","was|did|does","you کے ساتھ were آتا ہے۔"],
 ["fi","I was sleeping __ you called.","جب تم نے فون کیا تو میں سو رہا تھا","when","so|than|or","\"جب\" کے لیے when آتا ہے۔"],
 ["ty","میں کام کر رہا تھا","I was working","الفاظ: was · work — -ing والی شکل","were","I کے ساتھ was، اور فعل پر -ing۔"],
-["ty","میں ایک فلم دیکھ رہی تھی","I was watching a movie","الفاظ: was · watching · movie — آرٹیکل a","the","کوئی خاص فلم نہیں، اس لیے آرٹیکل a۔"],
+["ty","میں ایک فلم دیکھ رہی تھی","I was watching a movie|I was watching a film","الفاظ: was · watching · movie — آرٹیکل a","the","کوئی خاص فلم نہیں، اس لیے آرٹیکل a۔"],
 ["ty","بچے کھیل رہے تھے","The kids were playing|The children were playing","الفاظ: the kids · were · playing — جمع","kid","بچے ایک سے زیادہ ہیں: جمع kids، اور اس کے ساتھ were۔"]]},
 { id:"will", title:"ابھی کا فیصلہ، وعدہ اور اندازہ: will", blurb:"موقع پر کیا ہوا فیصلہ will سے، پہلے سے بنا ہوا منصوبہ be going to سے۔", deck:"ہلکی پھلکی گپ شپ", body:`
 <p><b>will + فعل کی پہلی فارم</b>۔ اردو کے "گا / گی / گے" کی طرح یہ آنے والے وقت کی بات کرتا ہے، اور ہر فاعل کے ساتھ ایک ہی رہتا ہے (he will؛ he wills نہیں)۔ بول چال میں تقریباً ہمیشہ چھوٹی شکل آتی ہے: <b>I'll, you'll, it'll</b>۔ منفی <b>won't</b> ہے۔</p>
@@ -41,13 +41,13 @@ practice:[
 <p>اردو میں دونوں جگہ "گا" آ جاتا ہے ("میں دروازہ کھول دوں گا"، "میں اگلے مہینے لاہور جاؤں گا")، اس لیے انگریزی میں سوچ کر چننا پڑتا ہے: فیصلہ ابھی ہوا ہے یا پہلے سے تھا؟</p>
 <div class="tbl"><table><tr><th>✗</th><th>✓</th></tr><tr><td>I will to go.</td><td class="k">I'll go.</td></tr><tr><td>I'll going.</td><td class="k">I'll go.</td></tr></table></div>
 <div class="tip">will کے بعد صرف پہلی فارم آتی ہے: نہ to، نہ -ing۔</div>`,
-check:[["انگریزی میں (فون بج رہا ہے): \"میں اٹھاتا ہوں\"",["I'm going to get it.","I get it.","I'll get it.","I'm getting it will."],2,"موقع پر کیا ہوا فیصلہ will سے بنتا ہے۔"],["خالی جگہ پُر کریں: I ___ be late (مجھے دیر نہیں ہو گی)",["won't","willn't","don't will","not will"],0,"will کا منفی won't ہے۔"],["پہلے سے طے منصوبہ کس جملے میں ہے؟",["I'll get the door.","I will to visit Jeju.","I visit Jeju will.","I'm going to visit Jeju next month."],3,"پہلے سے طے منصوبے کے لیے be going to آتا ہے۔"]],
+check:[["انگریزی میں (فون بج رہا ہے): \"میں اٹھاتا ہوں\"",["I'm going to get it.","I get it.","I'll get it.","I'm getting it will."],2,"موقع پر کیا ہوا فیصلہ will سے بنتا ہے۔"],["خالی جگہ پُر کریں: I ___ be late (مجھے دیر نہیں ہو گی)",["won't","willn't","don't will","not will"],0,"will کا منفی won't ہے۔"],["پہلے سے طے منصوبہ کس جملے میں ہے؟",["I'll get the door.","I will to visit Murree.","I visit Murree will.","I'm going to visit Murree next month."],3,"پہلے سے طے منصوبے کے لیے be going to آتا ہے۔"]],
 practice:[
 ["mc","انگریزی میں: \"میں تمہاری مدد کروں گا\"","I'll help you.","I help you will.","I'll helping you.","I'll to help you.","will کے بعد فعل کی پہلی فارم آتی ہے۔"],
 ["mc","انگریزی میں (ریسٹورنٹ میں ابھی فیصلہ کیا): \"میں پاستا لوں گا\"","I'll have the pasta.","I'm have the pasta.","I'll having the pasta.","I will to have the pasta.","موقع پر کیا ہوا فیصلہ will سے بنتا ہے۔"],
 ["mc","انگریزی میں: \"مجھے دیر نہیں ہو گی\"","I won't be late.","I willn't be late.","I don't will be late.","I won't late.","will not کی چھوٹی شکل won't ہے، اور اس کے بعد be آتا ہے۔"],
 ["mc","انگریزی میں: \"کیا تم آؤ گے؟\"","Will you come?","Do you will come?","Will you coming?","Will come you?","سوال کی ترتیب: Will + فاعل + پہلی فارم۔"],
-["mc","پہلے سے طے منصوبہ کس جملے میں ہے؟","I'm going to visit Jeju next month.","I'll get the door.","I visit Jeju next month will.","I will to visit Jeju.","پہلے سے طے منصوبے کے لیے be going to آتا ہے۔"],
+["mc","پہلے سے طے منصوبہ کس جملے میں ہے؟","I'm going to visit Murree next month.","I'll get the door.","I visit Murree next month will.","I will to visit Murree.","پہلے سے طے منصوبے کے لیے be going to آتا ہے۔"],
 ["or","میں تمہیں بعد میں فون کروں گا","I'll call you later","calling","will کے بعد پہلی فارم آتی ہے، -ing نہیں۔"],
 ["or","میں ایک کافی لوں گا","I'll have a coffee","the coffees","ایک کپ کا آرڈر ہے، اس لیے آرٹیکل a۔"],
 ["or","میں دروازہ کھول دیتا ہوں","I'll open the door","a doors","یہی سامنے والا دروازہ ہے، اس لیے آرٹیکل the۔"],
@@ -73,19 +73,19 @@ practice:[
 <p><b>been to</b> = گیا تھا اور واپس آ چکا ہے۔ <b>gone to</b> = گیا ہے اور ابھی وہیں ہے۔ اردو کا "وہ کراچی گئی ہے" یہی دوسرا مطلب دیتا ہے۔</p>
 {{ex:She's gone to Karachi.|/ʃiz ˈgɔːn tə kəˈrɑːtʃi/|وہ کراچی گئی ہے (ابھی یہاں نہیں ہے)}}
 <div class="tip">ایک سطر میں: وقت نہیں بتایا تو <b>I've been to Japan.</b> وقت بتا دیا تو <b>I went to Japan last year.</b> اردو میں یہ پابندی نہیں ہے، اس لیے بولنے سے پہلے دیکھ لیں کہ جملے میں وقت کا لفظ ہے یا نہیں۔</div>`,
-check:[["انگریزی میں: \"کیا آپ کبھی جاپان گئے ہیں؟\"",["Did you ever go Japan?","Have you ever been to Japan?","Have you ever went to Japan?","Are you ever been to Japan?"],1,"تجربہ پوچھنے کے لیے Have you ever + تیسری فارم۔"],["خالی جگہ پُر کریں: I ___ never seen that movie",["am","did","have","was"],2,"have + never + تیسری فارم۔"],["کون سا جملہ درست ہے؟",["I went to Jeju last year.","I've been to Jeju last year.","I have go to Jeju last year.","I've went to Jeju."],0,"last year جیسا ختم شدہ وقت ہو تو Simple Past آتا ہے۔"]],
+check:[["انگریزی میں: \"کیا آپ کبھی جاپان گئے ہیں؟\"",["Did you ever go Japan?","Have you ever been to Japan?","Have you ever went to Japan?","Are you ever been to Japan?"],1,"تجربہ پوچھنے کے لیے Have you ever + تیسری فارم۔"],["خالی جگہ پُر کریں: I ___ never seen that movie",["am","did","have","was"],2,"have + never + تیسری فارم۔"],["کون سا جملہ درست ہے؟",["I went to Murree last year.","I've been to Murree last year.","I have go to Murree last year.","I've went to Murree."],0,"last year جیسا ختم شدہ وقت ہو تو Simple Past آتا ہے۔"]],
 practice:[
 ["mc","انگریزی میں: \"میں جاپان جا چکا ہوں\"","I've been to Japan.","I've go to Japan.","I was been to Japan.","I've went to Japan.","have کے بعد تیسری فارم been آتی ہے۔"],
 ["mc","فعل see کی تیسری فارم کیا ہے؟","seen","saw","seed","seeing","تینوں فارم: see – saw – seen۔"],
-["mc","انگریزی میں: \"کیا آپ نے کبھی کمچی کھائی ہے؟\"","Have you ever eaten kimchi?","Did you ever eaten kimchi?","Have you ever ate kimchi?","Do you have eaten kimchi?","تجربہ پوچھنے کے لیے Have you ever + تیسری فارم۔"],
+["mc","انگریزی میں: \"کیا آپ نے کبھی سوشی کھائی ہے؟\"","Have you ever eaten sushi?","Did you ever eaten sushi?","Have you ever ate sushi?","Do you have eaten sushi?","تجربہ پوچھنے کے لیے Have you ever + تیسری فارم۔"],
 ["mc","انگریزی میں: \"میں نے یہ کبھی نہیں دیکھا\"","I've never seen it.","I never have saw it.","I've never see it.","I didn't never seen it.","have + never + تیسری فارم۔"],
-["mc","\"پچھلے سال\" کے ساتھ کون سا جملہ درست ہے؟","I went to Jeju last year.","I've been to Jeju last year.","I have go to Jeju last year.","I've went to Jeju last year.","ختم شدہ وقت بتا دیا جائے تو Simple Past آتا ہے، Present Perfect نہیں۔"],
+["mc","\"پچھلے سال\" کے ساتھ کون سا جملہ درست ہے؟","I went to Murree last year.","I've been to Murree last year.","I have go to Murree last year.","I've went to Murree last year.","ختم شدہ وقت بتا دیا جائے تو Simple Past آتا ہے، Present Perfect نہیں۔"],
 ["or","میں نے وہ فلم دیکھی ہوئی ہے","I've seen the movie","a saw","وہی فلم جس کا دونوں کو پتا ہے، اس لیے آرٹیکل the۔"],
-["or","میں دو بار کوریا جا چکی ہوں","I've been to Korea twice","went","have کے بعد تیسری فارم been آتی ہے۔"],
+["or","میں دو بار دبئی جا چکی ہوں","I've been to Dubai twice","went","have کے بعد تیسری فارم been آتی ہے۔"],
 ["or","میں نے کبھی سانپ نہیں دیکھا","I've never seen a snake","the snakes","کوئی خاص سانپ نہیں، اس لیے آرٹیکل a۔"],
-["fi","Have you ever __ to Busan?","کیا آپ کبھی بوسان گئے ہیں؟","been","be|went|go","have کے بعد تیسری فارم been آتی ہے۔"],
+["fi","Have you ever __ to Lahore?","کیا آپ کبھی لاہور گئے ہیں؟","been","be|went|go","have کے بعد تیسری فارم been آتی ہے۔"],
 ["fi","I've __ eaten that.","میں نے وہ کبھی نہیں کھایا","never","ever|no|not never","\"کبھی نہیں\" کے لیے never آتا ہے۔"],
-["fi","She __ visited Korea twice.","وہ دو بار کوریا جا چکی ہے","has","have|is|did","she کے ساتھ has آتا ہے۔"],
+["fi","She __ visited Dubai twice.","وہ دو بار دبئی جا چکی ہے","has","have|is|did","she کے ساتھ has آتا ہے۔"],
 ["ty","کیا آپ کبھی جاپان گئے ہیں؟ (been to کے ساتھ)","Have you ever been to Japan|Have you been to Japan","الفاظ: have you ever · been · Japan","went","تجربہ پوچھنے کے لیے Have you ever been to آتا ہے۔"],
 ["ty","میں وہ کتاب پڑھ چکا ہوں","I've read the book|I've read that book","الفاظ: I've · read · book — آرٹیکل the","a","وہی کتاب جس کا دونوں کو پتا ہے، اس لیے آرٹیکل the۔"],
 ["ty","میرے پاس کبھی بلی نہیں رہی (have کے ساتھ)","I've never had a cat","الفاظ: never · had · cat — آرٹیکل a","the","کوئی خاص بلی نہیں، اس لیے آرٹیکل a۔"]]},
@@ -119,7 +119,7 @@ practice:[
 ["fi","It __ rain tomorrow.","کل شاید بارش ہو","might|may|could","must to|has to|should to","امکان کے لیے might آتا ہے۔"],
 ["ty","مجھے کام کرنا ہے","I have to work|I must work|I need to work","الفاظ: have to · work","should","ضروری کام کے لیے have to آتا ہے۔"],
 ["ty","آپ کو ڈاکٹر کو دکھانا چاہیے","You should see a doctor|You should go to a doctor|You should go see a doctor|You should go to the doctor","الفاظ: should · see · doctor — آرٹیکل a","the","کوئی خاص ڈاکٹر نہیں، اس لیے آرٹیکل a۔"],
-["ty","آپ کو ایک ٹکٹ خریدنا ہے (have to کے ساتھ)","You have to buy a ticket|I have to buy a ticket|We have to buy a ticket","الفاظ: have to · buy · ticket — آرٹیکل a","the","ایک ٹکٹ، اس لیے آرٹیکل a۔"]]},
+["ty","ایک ٹکٹ خریدنا ہے (have to کے ساتھ)","You have to buy a ticket|I have to buy a ticket|We have to buy a ticket","الفاظ: have to · buy · ticket — آرٹیکل a","the","ایک ٹکٹ، اس لیے آرٹیکل a۔"]]},
 { id:"to-ing", title:"فعل کے بعد to یا -ing: want to, enjoy -ing", blurb:"فیصلہ پہلا فعل کرتا ہے: want کے بعد to آتا ہے، enjoy کے بعد -ing۔", deck:"ہلکی پھلکی گپ شپ", body:`
 <p>اردو میں دوسرا فعل ایک ہی شکل میں آتا ہے: "جانا چاہتا ہوں"، "پکانا پسند ہے"، "ملنے کا انتظار ہے"۔ انگریزی میں تین شکلیں ہیں: <b>to + فعل</b>، <b>-ing والی شکل</b>، اور <b>preposition + -ing</b>۔ کون سی آئے گی، یہ <b>پہلا فعل</b> طے کرتا ہے، اس لیے انہیں گروپ بنا کر یاد کریں۔</p>
 <div class="tbl"><table><tr><th>جن کے بعد to + فعل</th><th>جن کے بعد -ing والی شکل</th></tr><tr><td class="k">want, need, hope, plan, decide, would like</td><td class="k">enjoy, finish, mind, keep, stop</td></tr></table></div>
@@ -166,7 +166,7 @@ practice:[
 check:[["خالی جگہ پُر کریں: I play ___ soccer",["a","the","an","(کچھ نہیں)"],3,"کھیل کے نام سے پہلے آرٹیکل نہیں لگتا۔"],["خالی جگہ پُر کریں: She's from ___ United States",["the","a","an","(کچھ نہیں)"],0,"United States سے پہلے the لگتا ہے۔"],["انگریزی میں (عام بات): \"کتے پیارے ہوتے ہیں\"",["The dog are cute.","Dogs are cute.","A dogs are cute.","Dog is cute."],1,"عام بات میں آرٹیکل نہیں لگتا اور اسم جمع میں آتا ہے۔"]],
 practice:[
 ["mc","خالی جگہ پُر کریں: I play ___ piano","the","a","an","some","ساز کے نام سے پہلے the لگتا ہے۔"],
-["mc","انگریزی میں: \"میں کوریا میں رہتا ہوں\"","I live in Korea.","I live in the Korea.","I live in a Korea.","I live Korea in.","زیادہ تر ملکوں کے نام سے پہلے آرٹیکل نہیں لگتا۔"],
+["mc","انگریزی میں: \"میں پاکستان میں رہتا ہوں\"","I live in Pakistan.","I live in the Pakistan.","I live in a Pakistan.","I live Pakistan in.","زیادہ تر ملکوں کے نام سے پہلے آرٹیکل نہیں لگتا۔"],
 ["mc","انگریزی میں: \"میں فٹ بال کھیلتا ہوں\"","I play soccer.","I play the soccer.","I play a soccer.","I play soccers.","کھیل کے نام سے پہلے آرٹیکل نہیں لگتا۔"],
 ["mc","انگریزی میں (عام بات): \"بلیاں پیاری ہوتی ہیں\"","Cats are cute.","The cat are cute.","A cats are cute.","Cat is cute.","عام بات میں آرٹیکل نہیں لگتا اور اسم جمع میں آتا ہے۔"],
 ["mc","خالی جگہ پُر کریں: She's from ___ United States","the","a","an","some","United States سے پہلے the لگتا ہے۔"],
@@ -176,7 +176,7 @@ practice:[
 ["fi","I speak __.","میں انگریزی بولتی ہوں","English","the English|an English|a English","زبان کے نام سے پہلے آرٹیکل نہیں لگتا۔"],
 ["fi","The sun rises in __ east.","سورج مشرق سے نکلتا ہے","the","a|an|some","سمت (east, west) سے پہلے the لگتا ہے۔"],
 ["fi","I love __.","مجھے موسیقی بہت پسند ہے","music","the musics|a music|musics","عام بات میں آرٹیکل نہیں لگتا؛ music ناقابلِ شمار ہے، اس پر -s بھی نہیں لگتا۔"],
-["ty","میں امریکہ سے ہوں","I'm from the United States|I'm from the US|I'm from America","الفاظ: I'm from · United States — آرٹیکل the","a","United States سے پہلے آرٹیکل the لگتا ہے۔"],
+["ty","میں امریکہ سے ہوں","I'm from the United States|I'm from the US|I'm from America|I'm from the USA","الفاظ: I'm from · United States — آرٹیکل the","a","United States سے پہلے آرٹیکل the لگتا ہے۔"],
 ["ty","میں گٹار بجاتا ہوں","I play the guitar|I play guitar","الفاظ: play · guitar — آرٹیکل the","a","ساز کے نام سے پہلے آرٹیکل the لگتا ہے۔"],
 ["ty","بلیاں پیاری ہوتی ہیں (عام بات)","Cats are cute","الفاظ: cat · are · cute — آرٹیکل کے بغیر، جمع میں","The cat","عام بات میں آرٹیکل نہیں لگتا، اور اسم جمع میں آتا ہے: cats۔"]]},
 { id:"first-conditional", title:"اگر … تو (ممکن بات): If + Simple Present, will", blurb:"\"اگر بارش ہوئی تو …\" والے جملے۔ if والے حصے میں will نہیں آتا۔", deck:"دفتر اور ای میل", body:`
@@ -207,7 +207,7 @@ practice:[
 ["fi","__ you need help, call me.","مدد چاہیے ہو تو مجھے فون کرنا","If|When","So|But|Because","\"اگر\" کے لیے if آتا ہے۔"],
 ["ty","وقت ملا تو میں مدد کروں گا","I'll help if I have time|I'll help you if I have time|If I have time I'll help|If I have time I'll help you","الفاظ: I'll help · if · have time","will","if کے بعد will نہیں آتا۔"],
 ["ty","بارش ہوئی تو میں ٹیکسی لے لوں گا","If it rains I'll take a taxi|I'll take a taxi if it rains|If it rains I'll get a taxi","الفاظ: if · rains · take · taxi — آرٹیکل a","the","کوئی بھی ٹیکسی، اس لیے آرٹیکل a۔"],
-["ty","تم سے بس چھوٹ جائے گی","You'll miss the bus|We'll miss the bus|I'll miss the bus","الفاظ: miss · bus — آرٹیکل the","a","وہی بس جو پکڑنی ہے، اس لیے آرٹیکل the۔"]]},
+["ty","بس چھوٹ جائے گی","You'll miss the bus|We'll miss the bus|I'll miss the bus","الفاظ: miss · bus — آرٹیکل the","a","وہی بس جو پکڑنی ہے، اس لیے آرٹیکل the۔"]]},
 { id:"relative", title:"اسم کے بعد وضاحت: who / that والا حصہ", blurb:"اردو میں \"جو …\" والا حصہ پہلے آتا ہے، انگریزی میں اسم کے فوراً بعد۔", deck:"خریداری اور ادائیگی", body:`
 <p>اردو کہتی ہے: "<b>جو کتاب میں نے خریدی</b>، وہ اچھی ہے"۔ انگریزی پہلے اسم بولتی ہے اور وضاحت اس کے <b>فوراً بعد</b> جوڑتی ہے: the book <b>that I bought</b>۔ جوڑنے کا کام who اور that کرتے ہیں۔</p>
 <h3>انسان کے لیے who</h3>
@@ -226,7 +226,7 @@ practice:[
 <p>اور لمبی وضاحت اسم سے پہلے نہ رکھیں؛ اسے بھی اسم کے بعد لائیں:</p>
 <div class="tbl"><table><tr><th>✗</th><th>✓</th></tr><tr><td>an under construction bridge</td><td class="k">a bridge that is under construction</td></tr></table></div>
 <div class="tip">ترتیب یاد رکھیں: <b>پہلے اسم، پھر وضاحت۔</b> "وہ کتاب جو میں نے خریدی" = the book (that) I bought۔ یہاں what نہیں آتا: <b>the book what I bought</b> ✗</div>`,
-check:[["خالی جگہ پُر کریں: I have a friend ___ lives in Busan",["which","who","what","he"],1,"انسان کے لیے who آتا ہے۔"],["انگریزی میں: \"وہ کتاب جو میں نے خریدی\"",["the I bought book","the book what I bought","the book that I bought","the bought book I"],2,"پہلے اسم، پھر that والا حصہ۔"],["کون سا جملہ درست ہے؟",["The lives next door man is kind.","The who lives next door man is kind.","Man the who lives next door is kind.","The man who lives next door is kind."],3,"وضاحت اسم کے بعد آتی ہے۔"]],
+check:[["خالی جگہ پُر کریں: I have a friend ___ lives in Karachi",["which","who","what","he"],1,"انسان کے لیے who آتا ہے۔"],["انگریزی میں: \"وہ کتاب جو میں نے خریدی\"",["the I bought book","the book what I bought","the book that I bought","the bought book I"],2,"پہلے اسم، پھر that والا حصہ۔"],["کون سا جملہ درست ہے؟",["The lives next door man is kind.","The who lives next door man is kind.","Man the who lives next door is kind.","The man who lives next door is kind."],3,"وضاحت اسم کے بعد آتی ہے۔"]],
 practice:[
 ["mc","خالی جگہ پُر کریں: I have a friend ___ speaks English","who","which","what","she","انسان کے لیے who آتا ہے۔"],
 ["mc","انگریزی میں: \"وہ کتاب جو میں نے خریدی\"","the book that I bought","the I bought book","the book what I bought","the bought I book","پہلے اسم، پھر وضاحت۔"],
@@ -239,7 +239,7 @@ practice:[
 ["fi","the man __ lives here","وہ آدمی جو یہاں رہتا ہے","who|that","what|he|which","انسان کے لیے who آتا ہے (that بھی چل جاتا ہے، which نہیں)۔"],
 ["fi","the book __ I read","وہ کتاب جو میں نے پڑھی","that|which","who|what|it","چیز کے لیے that آتا ہے (which بھی چل جاتا ہے)۔"],
 ["fi","the cafe __ we met","وہ کیفے جہاں ہم ملے تھے","where","who|what|it","جگہ کے لیے where آتا ہے۔"],
-["ty","یہ وہ کتاب ہے جو میں نے خریدی","This is the book I bought|This is the book that I bought|It's the book I bought|It's the book that I bought","الفاظ: the book · I bought — آرٹیکل the","a","وہی کتاب جو میں نے خریدی، اس لیے آرٹیکل the۔"],
-["ty","میرا ایک دوست ہے جو کوریائی زبان بولتا ہے","I have a friend who speaks Korean|I have a friend that speaks Korean","الفاظ: a friend · who · speaks Korean — آرٹیکل a","the","ایک دوست، پہلی بار ذکر: آرٹیکل a۔"],
-["ty","جو فلم ہم نے دیکھی وہ زبردست تھی","The movie we saw was great|The movie we saw was good|The movie that we saw was great|The movie that we saw was good","الفاظ: the movie · we saw · was great","what","پہلے اسم، پھر وضاحت؛ یہاں what نہیں آتا۔"]]},
+["ty","یہ وہ کتاب ہے جو میں نے خریدی","This is the book I bought|This is the book that I bought|It's the book I bought|It's the book that I bought|This is the book which I bought|It's the book which I bought","الفاظ: the book · I bought — آرٹیکل the","a","وہی کتاب جو میں نے خریدی، اس لیے آرٹیکل the۔"],
+["ty","میرا ایک دوست ہے جو چینی زبان بولتا ہے","I have a friend who speaks Chinese|I have a friend that speaks Chinese","الفاظ: a friend · who · speaks Chinese — آرٹیکل a","the","ایک دوست، پہلی بار ذکر: آرٹیکل a۔"],
+["ty","جو فلم ہم نے دیکھی وہ زبردست تھی","The movie we saw was great|The movie we saw was good|The movie that we saw was great|The movie that we saw was good|The movie which we saw was great|The movie which we saw was good|The film we saw was great|The film we saw was good|The film that we saw was great|The film that we saw was good","الفاظ: the movie · we saw · was great","what","پہلے اسم، پھر وضاحت؛ یہاں what نہیں آتا۔"]]},
 ];

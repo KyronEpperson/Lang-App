@@ -32,8 +32,8 @@ How long does it take? | How long does it take to get downtown? | About fifteen 
 Is this seat taken? | Excuse me, is this seat taken? | No, go ahead. | ਸੁਣੋ ਜੀ, ਕੀ ਇੱਥੇ ਕੋਈ ਬੈਠਾ ਹੈ? / ਨਹੀਂ, ਬੈਠ ਜਾਓ।
 A table for two, please. | Hi! How many? | A table for two, please. | ਹੈਲੋ! ਕਿੰਨੇ ਜਣੇ ਹੋ? / ਦੋ ਜਣਿਆਂ ਲਈ ਟੇਬਲ ਚਾਹੀਦਾ ਹੈ।
 What do you recommend? | What do you recommend? | The salmon is really popular. | ਤੁਸੀਂ ਕੀ ਖਾਣ ਦੀ ਸਲਾਹ ਦਿਓਗੇ? / ਸੈਮਨ ਮੱਛੀ ਬਹੁਤ ਪਸੰਦ ਕੀਤੀ ਜਾਂਦੀ ਹੈ।
-I'll have the steak. | Are you ready to order? | Yes, I'll have the steak, please. | ਆਰਡਰ ਲਿਖ ਲਵਾਂ? / ਹਾਂ ਜੀ, ਮੈਂ ਸਟੇਕ ਲਵਾਂਗਾ।
-Medium rare, please. | How would you like your steak? | Medium rare, please. | ਸਟੇਕ ਕਿੰਨਾ ਪੱਕਿਆ ਹੋਇਆ ਚਾਹੀਦਾ ਹੈ? / ਮੀਡੀਅਮ ਰੇਅਰ ਕਰ ਦਿਓ।
+I'll have the paneer tikka. | Are you ready to order? | Yes, I'll have the paneer tikka, please. | ਆਰਡਰ ਲਿਖ ਲਵਾਂ? / ਹਾਂ ਜੀ, ਮੈਂ ਪਨੀਰ ਟਿੱਕਾ ਲਵਾਂਗਾ।
+Not too spicy, please. | How spicy would you like it? | Not too spicy, please. | ਕਿੰਨਾ ਤਿੱਖਾ ਬਣਾਈਏ? / ਬਹੁਤੀਆਂ ਮਿਰਚਾਂ ਨਾ ਪਾਉਣਾ।
 I'm allergic to peanuts. | Does this have nuts in it? I'm allergic to peanuts. | Let me check with the kitchen. | ਕੀ ਇਸ ਵਿੱਚ ਗਿਰੀਆਂ ਪਈਆਂ ਹਨ? ਮੈਨੂੰ ਮੂੰਗਫਲੀ ਤੋਂ ਐਲਰਜੀ ਹੈ। / ਮੈਂ ਰਸੋਈ ਵਿੱਚੋਂ ਪੁੱਛ ਕੇ ਦੱਸਦੀ ਹਾਂ।
 Everything was great. | How was everything? | Everything was great, thank you! | ਖਾਣਾ ਕਿਵੇਂ ਲੱਗਾ? / ਸਭ ਕੁਝ ਬਹੁਤ ਸੁਆਦ ਸੀ, ਸ਼ੁਕਰੀਆ!
 Can we get the check, please? | Can we get the check, please? | Sure, I'll be right back with it. | ਬਿੱਲ ਲੈ ਆਓਗੇ? / ਹਾਂ ਜੀ, ਹੁਣੇ ਲੈ ਕੇ ਆਇਆ।
@@ -85,7 +85,7 @@ Speak of the devil! | Have you seen Mark today? | Speak of the devil! Here he co
 I'm feeling under the weather. | Are you coming to the party tonight? | I don't think so. I'm feeling under the weather. | ਅੱਜ ਰਾਤ ਪਾਰਟੀ ਤੇ ਆ ਰਹੀ ਹੈਂ? / ਲੱਗਦਾ ਤਾਂ ਨਹੀਂ। ਮੇਰੀ ਤਬੀਅਤ ਕੁਝ ਢਿੱਲੀ ਹੈ।
 Spill the tea. | I heard something crazy about Jen and Mike. | Wait, what? Spill the tea! | ਮੈਂ ਜੈੱਨ ਤੇ ਮਾਈਕ ਬਾਰੇ ਇੱਕ ਕਮਾਲ ਦੀ ਗੱਲ ਸੁਣੀ ਹੈ। / ਹੈਂ, ਕੀ? ਸਾਰੀ ਗੱਲ ਦੱਸ!
 No spoilers! | Did you finish the show? The ending is... | No spoilers! I'm only on episode 3. | ਤੂੰ ਉਹ ਸ਼ੋਅ ਪੂਰਾ ਦੇਖ ਲਿਆ? ਅੰਤ ਵਿੱਚ ਤਾਂ… / ਕਹਾਣੀ ਨਾ ਦੱਸੀਂ! ਮੈਂ ਅਜੇ ਤੀਜੇ ਐਪੀਸੋਡ ਤੇ ਹਾਂ।
-Who's your bias? | Who's your bias? | Definitely the lead singer. What about you? | ਤੇਰਾ ਸਭ ਤੋਂ ਮਨਪਸੰਦ ਮੈਂਬਰ ਕੌਣ ਹੈ? / ਬਿਨਾਂ ਸ਼ੱਕ ਮੁੱਖ ਗਾਇਕ। ਤੇ ਤੇਰਾ?
+Who's your favorite singer? | Who's your favorite singer? | Definitely Diljit Dosanjh. What about you? | ਤੇਰਾ ਸਭ ਤੋਂ ਮਨਪਸੰਦ ਗਾਇਕ ਕੌਣ ਹੈ? / ਬਿਨਾਂ ਸ਼ੱਕ ਦਿਲਜੀਤ ਦੋਸਾਂਝ। ਤੇ ਤੇਰਾ?
 `;
 
 exports.EXAMPLES = `

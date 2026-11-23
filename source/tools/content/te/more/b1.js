@@ -95,19 +95,19 @@ practice:[
 <div class="tbl"><table><tr><th>Active Voice</th><th>Passive Voice</th></tr><tr><td class="k">Someone stole my bag.</td><td class="k">My bag was stolen.</td></tr><tr><td class="k">They canceled the flight.</td><td class="k">The flight was canceled.</td></tr></table></div>
 <p>ఇండియాలో ఆఫీసు ఈమెయిల్‌లో కనిపించే <b>It is informed that …</b>, <b>You are requested to …</b> విదేశాల్లో చాలా బిగుసుకుపోయినట్టు వినిపిస్తాయి. మామూలుగా రాయండి: <b>Please note that …</b>, <b>Could you please …?</b></p>
 <div class="tip">ఎక్కువగా జరిగే తప్పు: be వదిలేయడం. <b>My phone stolen.</b> ✗ → <b>My phone was stolen.</b> ✓</div>`,
-check:[["My bag ___ stolen yesterday. ఖాళీలో ఏది సరిపోతుంది?",["is","was","did","has"],1,"నిన్న జరిగింది కాబట్టి was + V3."],["This phone ___ made in Korea. ఖాళీలో ఏది సరిపోతుంది?",["was","did","has","does"],0,"Passive Voice అంటే be + V3."],["\"మీటింగ్ రద్దయింది\" ఇంగ్లీష్‌లో?",["The meeting canceled.","The meeting was cancel.","The meeting did canceled.","The meeting was canceled."],3,"be తర్వాత V3 రూపం canceled."]],
+check:[["My bag ___ stolen yesterday. ఖాళీలో ఏది సరిపోతుంది?",["is","was","did","has"],1,"నిన్న జరిగింది కాబట్టి was + V3."],["This phone ___ made in India. ఖాళీలో ఏది సరిపోతుంది?",["was","did","has","does"],0,"Passive Voice అంటే be + V3."],["\"మీటింగ్ రద్దయింది\" ఇంగ్లీష్‌లో?",["The meeting canceled.","The meeting was cancel.","The meeting did canceled.","The meeting was canceled."],3,"be తర్వాత V3 రూపం canceled."]],
 practice:[
 ["mc","My phone ___ stolen.","was","did","has","is steal","Passive Voice అంటే be + V3."],
-["mc","\"ఇది కొరియాలో తయారైంది\" ఇంగ్లీష్‌లో?","This was made in Korea.","This made in Korea.","This was make in Korea.","This did made in Korea.","be తర్వాత V3 రూపం made."],
+["mc","\"ఇది ఇండియాలో తయారైంది\" ఇంగ్లీష్‌లో?","This was made in India.","This made in India.","This was make in India.","This did made in India.","be తర్వాత V3 రూపం made."],
 ["mc","\"ఇక్కడ ఇంగ్లీష్ మాట్లాడతారు\" (Passive Voice లో) ఇంగ్లీష్‌లో?","English is spoken here.","English speaks here.","English is speak here.","English spoken is here.","ఎప్పుడూ జరిగేదానికి is + V3."],
 ["mc","\"మీటింగ్ రద్దయింది\" ఇంగ్లీష్‌లో?","The meeting was canceled.","The meeting canceled was.","The meeting was cancel.","The meeting did canceled.","Passive Voice అంటే be + V3: was canceled."],
 ["mc","\"బ్రేక్‌ఫాస్ట్ 7 గంటలకు వడ్డిస్తారు\" ఇంగ్లీష్‌లో?","Breakfast is served at seven.","Breakfast serves at seven.","Breakfast is serve at seven.","The breakfast is serving at seven.","భోజనం పేరు ముందు ఆర్టికల్ రాదు. తర్వాత is + V3."],
 ["or","నా బ్యాగ్ ఎవరో దొంగిలించారు","My bag was stolen","stole","be తర్వాత V3 రూపం stolen వస్తుంది."],
 ["or","మీటింగ్ రద్దయింది","The meeting was canceled","A meetings","ఇద్దరికీ తెలిసిన ఆ మీటింగ్ కాబట్టి ఆర్టికల్ the."],
 ["or","కిటికీ పగిలిపోయింది","The window was broken","a windows","ఇక్కడ ఉన్న ఆ కిటికీ కాబట్టి ఆర్టికల్ the."],
-["fi","This was __ in Korea.","ఇది కొరియాలో తయారైంది","made","make|making|makes","be తర్వాత V3 వస్తుంది."],
+["fi","This was __ in India.","ఇది ఇండియాలో తయారైంది","made","make|making|makes","be తర్వాత V3 వస్తుంది."],
 ["fi","The room __ cleaned every day.","గదిని రోజూ శుభ్రం చేస్తారు","is|gets","does|has|did","ఎప్పుడూ జరిగేదానికి is + V3."],
-["fi","It was written __ Han Kang.","దీన్ని హాన్ కాంగ్ రాశారు","by","from|of|with","ఎవరు చేశారో by తో చెబుతారు."],
+["fi","It was written __ R. K. Narayan.","దీన్ని ఆర్. కె. నారాయణ్ రాశారు","by","from|of|with","ఎవరు చేశారో by తో చెబుతారు."],
 ["ty","నా ఫోన్ ఎవరో దొంగిలించారు (Passive Voice లో)","My phone was stolen|My phone got stolen","my phone · was · stolen","stole","be తర్వాత V3 రూపం stolen."],
 ["ty","ఆ మీటింగ్ రద్దయింది","The meeting was canceled|The meeting was cancelled|The meeting got canceled","the meeting · was · canceled (ఆర్టికల్ the)","a","ఇద్దరికీ తెలిసిన ఆ మీటింగ్ కాబట్టి ఆర్టికల్ the."],
 ["ty","తలుపుకి తాళం వేసి ఉంది (was తో)","The door was locked","the door · was · locked (ఆర్టికల్ the)","a","ఇక్కడ ఉన్న ఆ తలుపు కాబట్టి ఆర్టికల్ the."]]},

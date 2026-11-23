@@ -75,7 +75,7 @@
    "where": "html <a> text"
   },
   "Feedback": {
-   "t": "స్పందన",
+   "t": "అభిప్రాయం",
    "ko": "피드백",
    "kind": "label",
    "context": "bottom-nav tab: send feedback",
@@ -134,7 +134,7 @@
    "where": "html <button> text"
   },
   "Bulk import (paste CSV / TSV)": {
-   "t": "ఒకేసారి దిగుమతి (CSV / TSV పేస్ట్ చేయండి)",
+   "t": "ఒకేసారి ఇంపోర్ట్ (CSV / TSV పేస్ట్ చేయండి)",
    "ko": "한꺼번에 가져오기 (CSV / TSV 붙여넣기)",
    "kind": "sentence",
    "where": "html <summary> text"
@@ -153,14 +153,14 @@
    "where": "html <span> text"
   },
   "Export CSV": {
-   "t": "CSV ఎగుమతి చేయండి",
+   "t": "CSV ఎక్స్‌పోర్ట్",
    "ko": "CSV 내보내기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <button> text"
   },
   "Import 0": {
-   "t": "దిగుమతి చేయండి: 0",
+   "t": "ఇంపోర్ట్: 0",
    "ko": "0개 가져오기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -251,7 +251,7 @@
    "where": "html text"
   },
   "got it ·": {
-   "t": "తెలుసు ·",
+   "t": "గుర్తుంది ·",
    "ko": "알아요 ·",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -293,7 +293,7 @@
    "where": "html <button> text"
   },
   "Reset deck": {
-   "t": "డెక్ రీసెట్ చేయండి",
+   "t": "డెక్ రీసెట్",
    "ko": "덱 초기화",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -602,7 +602,7 @@
    "where": "html <h3> text"
   },
   "Make card": {
-   "t": "కార్డు తయారుచేయండి",
+   "t": "కార్డు చేయండి",
    "ko": "카드 만들기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -660,7 +660,7 @@
    "where": "html <h3> text"
   },
   "Copy export": {
-   "t": "ఎగుమతి కాపీ చేయండి",
+   "t": "ఎక్స్‌పోర్ట్ కాపీ",
    "ko": "내보내기 복사",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -674,7 +674,7 @@
    "where": "html <button> text"
   },
   "Import": {
-   "t": "దిగుమతి",
+   "t": "ఇంపోర్ట్",
    "ko": "가져오기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -688,7 +688,7 @@
    "where": "html <label> text"
   },
   "Paste an export here": {
-   "t": "ఎగుమతి చేసిన టెక్స్ట్ ఇక్కడ పేస్ట్ చేయండి",
+   "t": "ఎక్స్‌పోర్ట్ ఇక్కడ పేస్ట్ చేయండి",
    "ko": "내보낸 데이터를 여기에 붙여넣으세요",
    "kind": "label",
    "where": "html <textarea> @placeholder"
@@ -707,13 +707,13 @@
    "where": "html <button> text"
   },
   "Export = your whole progress as text. Use it to move between devices when account sync is off.": {
-   "t": "ఎగుమతి = మీ మొత్తం ప్రగతి టెక్స్ట్ రూపంలో. ఖాతా సింక్ ఆఫ్‌లో ఉన్నప్పుడు పరికరాల మధ్య మార్చడానికి వాడండి.",
+   "t": "ఎక్స్‌పోర్ట్ = మీ మొత్తం ప్రగతి టెక్స్ట్ రూపంలో. ఖాతా సింక్ ఆఫ్‌లో ఉన్నప్పుడు పరికరాల మధ్య మార్చడానికి వాడండి.",
    "ko": "내보내기 = 전체 진도를 텍스트로 저장해요. 계정 동기화를 쓰지 않을 때 기기를 옮기는 데 쓰세요.",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Shuffle decks": {
-   "t": "డెక్‌లను షఫుల్ చేయండి",
+   "t": "డెక్‌లు షఫుల్",
    "ko": "덱 섞기",
    "kind": "label",
    "where": "html <input> text"
@@ -797,7 +797,7 @@
    "where": "html text"
   },
   "Sign in to sync": {
-   "t": "సింక్ కోసం సైన్ ఇన్ చేయండి",
+   "t": "సింక్‌కు సైన్ ఇన్",
    "ko": "로그인해서 동기화",
    "kind": "label",
    "where": "html <button> text"
@@ -845,7 +845,7 @@
    "where": "html <b> text"
   },
   "(browser storage): your progress, settings, nickname and custom phrases. Clearing site data or switching devices removes it unless you sign in.": {
-   "t": "(బ్రౌజర్ స్టోరేజ్): మీ ప్రగతి, సెట్టింగ్‌లు, ముద్దుపేరు, మీరు చేర్చిన వాక్యాలు. సైన్ ఇన్ చేయకపోతే, సైట్ డేటా క్లియర్ చేసినా, పరికరం మార్చినా ఇవి పోతాయి.",
+   "t": "(బ్రౌజర్ స్టోరేజ్): మీ ప్రగతి, సెట్టింగ్‌లు, నిక్‌నేమ్, మీరు చేర్చిన వాక్యాలు. సైన్ ఇన్ చేయకపోతే, సైట్ డేటా క్లియర్ చేసినా, పరికరం మార్చినా ఇవి పోతాయి.",
    "ko": "(브라우저 저장소): 진도, 설정, 닉네임, 직접 추가한 표현. 로그인하지 않으면 사이트 데이터를 지우거나 기기를 바꿀 때 사라져요.",
    "kind": "sentence",
    "where": "html text"
@@ -864,7 +864,7 @@
    "where": "html text"
   },
   "Feedback board": {
-   "t": "స్పందన బోర్డు",
+   "t": "అభిప్రాయాల బోర్డు",
    "ko": "피드백 게시판",
    "kind": "label",
    "where": "html <b> text"
@@ -929,7 +929,7 @@
    "where": "html <b> text"
   },
   ": Progress → Backup → Share file or Copy export; Import on any device.": {
-   "t": ": ప్రగతి → బ్యాకప్ → ఫైల్ షేర్ చేయండి లేదా ఎగుమతి కాపీ చేయండి; ఏ పరికరంలోనైనా దిగుమతి చేయండి.",
+   "t": ": ప్రగతి → బ్యాకప్ → ఫైల్ షేర్ చేయండి లేదా ఎక్స్‌పోర్ట్ కాపీ చేయండి; ఏ పరికరంలోనైనా ఇంపోర్ట్ చేయండి.",
    "ko": ": 진도 → 백업 → 파일 공유 또는 내보내기 복사, 다른 기기에서 가져오기.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -955,7 +955,7 @@
    "where": "html <b> text"
   },
   ": Progress → Account → Delete my account. Removes your account and synced progress permanently; your feedback posts stay but are unlinked from you.": {
-   "t": ": ప్రగతి → ఖాతా → నా ఖాతా తొలగించండి. మీ ఖాతా, సింక్ అయిన ప్రగతి శాశ్వతంగా పోతాయి; మీ స్పందన పోస్టులు ఉంటాయి, కానీ వాటికి మీతో సంబంధం ఉండదు.",
+   "t": ": ప్రగతి → ఖాతా → నా ఖాతా తొలగించండి. మీ ఖాతా, సింక్ అయిన ప్రగతి శాశ్వతంగా పోతాయి; మీ అభిప్రాయ పోస్టులు ఉంటాయి, కానీ వాటికి మీతో సంబంధం ఉండదు.",
    "ko": ": 진도 → 계정 → 계정 삭제. 계정과 동기화된 진도가 영구 삭제돼요. 피드백 글은 남지만 내 계정과의 연결은 끊어져요.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -982,7 +982,7 @@
    "where": "html <h3> text"
   },
   "Use the Feedback tab. If it's private, post without your name and say how to reach you — or just sign in and tick \"Show my name\".": {
-   "t": "స్పందన ట్యాబ్ వాడండి. విషయం ప్రైవేట్ అయితే, పేరు లేకుండా పోస్ట్ చేసి మిమ్మల్ని ఎలా సంప్రదించాలో రాయండి. లేదా సైన్ ఇన్ చేసి \"నా పేరు చూపించండి\" టిక్ చేయండి.",
+   "t": "అభిప్రాయం ట్యాబ్ వాడండి. విషయం ప్రైవేట్ అయితే, పేరు లేకుండా పోస్ట్ చేసి మిమ్మల్ని ఎలా సంప్రదించాలో రాయండి. లేదా సైన్ ఇన్ చేసి \"నా పేరు చూపించండి\" టిక్ చేయండి.",
    "ko": "피드백 탭을 이용하세요. 비공개로 전하고 싶다면 이름 없이 올리고 연락 방법을 남겨 주세요 — 아니면 로그인하고 \"내 이름 표시\"를 체크하세요.",
    "kind": "sentence",
    "where": "html <p> text"
@@ -1013,7 +1013,7 @@
    "where": "html <p> text"
   },
   "Type": {
-   "t": "రాయండి",
+   "t": "టైప్ చేయండి",
    "ko": "입력",
    "kind": "label",
    "context": "a verb meaning \"type on the keyboard\", not \"kind\"",
@@ -1052,7 +1052,7 @@
    "where": "html <textarea> @placeholder"
   },
   "Feedback message": {
-   "t": "స్పందన సందేశం",
+   "t": "అభిప్రాయ సందేశం",
    "ko": "피드백 내용",
    "kind": "label",
    "where": "html <textarea> @aria-label"
@@ -1070,19 +1070,19 @@
    "where": "html <p> text"
   },
   "Send feedback": {
-   "t": "స్పందన పంపండి",
+   "t": "అభిప్రాయం పంపండి",
    "ko": "피드백 보내기",
    "kind": "label",
    "where": "html <button> text"
   },
   "Community feedback": {
-   "t": "అందరి స్పందనలు",
+   "t": "అందరి అభిప్రాయాలు",
    "ko": "커뮤니티 피드백",
    "kind": "label",
    "where": "html <h3> text"
   },
   "Refresh feedback": {
-   "t": "స్పందనలు రిఫ్రెష్ చేయండి",
+   "t": "అభిప్రాయాలు రిఫ్రెష్ చేయండి",
    "ko": "피드백 새로고침",
    "kind": "label",
    "where": "html <button> @aria-label"
@@ -1107,19 +1107,19 @@
    "where": "html <span> text"
   },
   "The community board lives on the website version of the app.": {
-   "t": "స్పందన బోర్డు యాప్ వెబ్‌సైట్ వెర్షన్‌లో ఉంటుంది.",
+   "t": "అభిప్రాయాల బోర్డు యాప్ వెబ్‌సైట్ వెర్షన్‌లో ఉంటుంది.",
    "ko": "커뮤니티 게시판은 웹사이트 버전에서 볼 수 있어요.",
    "kind": "sentence",
    "where": "js box() <div>"
   },
   "Couldn't load feedback right now.": {
-   "t": "ఇప్పుడు స్పందనలు లోడ్ కాలేదు.",
+   "t": "ఇప్పుడు అభిప్రాయాలు లోడ్ కాలేదు.",
    "ko": "지금은 피드백을 불러올 수 없어요.",
    "kind": "sentence",
    "where": "js nt() <div>"
   },
   "Try again": {
-   "t": "మళ్ళీ ప్రయత్నించండి",
+   "t": "మళ్ళీ చేయండి",
    "ko": "다시 시도",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1208,20 +1208,20 @@
    "where": "js admin() <button> @aria-label"
   },
   "↩ Reply": {
-   "t": "↩ రిప్లై",
+   "t": "↩ జవాబు",
    "ko": "↩ 답글",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js reply() <button>"
   },
   "Write a reply…": {
-   "t": "రిప్లై రాయండి…",
+   "t": "జవాబు రాయండి…",
    "ko": "답글을 입력하세요…",
    "kind": "sentence",
    "where": "js n() <textarea> @placeholder"
   },
   "Reply": {
-   "t": "రిప్లై",
+   "t": "జవాబు",
    "ko": "답글",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1235,7 +1235,7 @@
    "where": "js pl() <button>"
   },
   "No feedback yet — be the first.": {
-   "t": "ఇంకా స్పందనలు లేవు. మొదటిది మీరే రాయండి.",
+   "t": "ఇంకా అభిప్రాయాలు లేవు. మొదటిది మీరే రాయండి.",
    "ko": "아직 피드백이 없어요 — 첫 글을 남겨 보세요.",
    "kind": "sentence",
    "where": "js lv() <div>"
@@ -1259,7 +1259,7 @@
    "where": "js last()"
   },
   "Feedback sending works on the website version.": {
-   "t": "స్పందన పంపడం వెబ్‌సైట్ వెర్షన్‌లో పనిచేస్తుంది.",
+   "t": "అభిప్రాయం పంపడం వెబ్‌సైట్ వెర్షన్‌లో పనిచేస్తుంది.",
    "ko": "피드백 보내기는 웹사이트 버전에서 할 수 있어요.",
    "kind": "sentence",
    "where": "js last()"
@@ -1339,7 +1339,7 @@
    "where": "js d() <button>"
   },
   "Resend email": {
-   "t": "ఈమెయిల్ మళ్ళీ పంపండి",
+   "t": "మళ్ళీ పంపండి",
    "ko": "이메일 다시 보내기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1544,7 +1544,7 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "👤 Just a nickname — this device only": {
-   "t": "👤 ముద్దుపేరు చాలు: ఈ పరికరంలో మాత్రమే",
+   "t": "👤 నిక్‌నేమ్ చాలు: ఈ పరికరంలో మాత్రమే",
    "ko": "👤 닉네임만 — 이 기기에만 저장",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -1586,7 +1586,7 @@
    "where": "js later()"
   },
   "Nickname": {
-   "t": "ముద్దుపేరు",
+   "t": "నిక్‌నేమ్",
    "ko": "닉네임",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1599,7 +1599,7 @@
    "where": "js step3() <h1>"
   },
   "Start learning": {
-   "t": "నేర్చుకోవడం మొదలుపెట్టండి",
+   "t": "మొదలుపెట్టండి",
    "ko": "학습 시작하기",
    "kind": "label",
    "where": "js step3() <button>"
@@ -1688,7 +1688,7 @@
    "where": "js STR()"
   },
   "Got it": {
-   "t": "తెలుసు",
+   "t": "గుర్తుంది",
    "ko": "알아요",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1793,7 +1793,7 @@
    "where": "js boxTxt() <button>"
   },
   "Got it:": {
-   "t": "తెలుసు:",
+   "t": "గుర్తుంది:",
    "ko": "알아요:",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -1863,7 +1863,7 @@
    "where": "js DECKS()"
   },
   "Not sure": {
-   "t": "సందేహం",
+   "t": "సరిగ్గా తెలియదు",
    "ko": "잘 모르겠어요",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1922,7 +1922,7 @@
    "where": "js s()"
   },
   "↶ Undo": {
-   "t": "↶ వెనక్కి తీసుకోండి",
+   "t": "↶ వెనక్కి",
    "ko": "↶ 되돌리기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2056,7 +2056,7 @@
    "where": "js SPK() <div>"
   },
   "Got it — quiz me": {
-   "t": "తెలుసు, క్విజ్ పెట్టండి",
+   "t": "అర్థమైంది, క్విజ్ పెట్టండి",
    "ko": "알겠어요 — 퀴즈 내 주세요",
    "kind": "sentence",
    "where": "js goLbl()"
@@ -2236,7 +2236,7 @@
    "where": "js i()"
   },
   "80% to pass": {
-   "t": "పాస్ కావడానికి 80%",
+   "t": "పాస్‌కు 80%",
    "ko": "80% 이상이면 통과",
    "kind": "label",
    "where": "js pct() <div>"
@@ -3380,7 +3380,7 @@
    "where": "js at()"
   },
   "Backup · export / import": {
-   "t": "బ్యాకప్ · ఎగుమతి / దిగుమతి",
+   "t": "బ్యాకప్ · ఎక్స్‌పోర్ట్ / ఇంపోర్ట్",
    "ko": "백업 · 내보내기 / 가져오기",
    "kind": "sentence",
    "where": "js at()"
@@ -3589,7 +3589,7 @@
    "where": "js rows() <input> @placeholder"
   },
   "Conjugate": {
-   "t": "రూపాలు చూపించండి",
+   "t": "రూపాలు",
    "ko": "활용하기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3824,7 +3824,7 @@
    "where": "js p() <p>"
   },
   "Export copied.": {
-   "t": "ఎగుమతి కాపీ అయింది.",
+   "t": "ఎక్స్‌పోర్ట్ కాపీ అయింది.",
    "ko": "내보낸 데이터를 복사했어요.",
    "kind": "sentence",
    "where": "js ta()"
@@ -3836,7 +3836,7 @@
    "where": "js ta()"
   },
   "That is not a valid export.": {
-   "t": "ఇది సరైన ఎగుమతి టెక్స్ట్ కాదు.",
+   "t": "ఇది సరైన ఎక్స్‌పోర్ట్ టెక్స్ట్ కాదు.",
    "ko": "올바른 내보내기 데이터가 아니에요.",
    "kind": "sentence",
    "where": "js obj()"
@@ -3872,14 +3872,14 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Share card": {
-   "t": "కార్డు షేర్ చేయండి",
+   "t": "కార్డు షేర్",
    "ko": "공유 카드",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js img()"
   },
   "Save PNG": {
-   "t": "PNG సేవ్ చేయండి",
+   "t": "PNG సేవ్",
    "ko": "PNG 저장",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4131,7 +4131,7 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "tap to skip": {
-   "t": "దాటవేయడానికి నొక్కండి",
+   "t": "నొక్కి దాటవేయండి",
    "ko": "탭해서 건너뛰기",
    "kind": "label",
    "where": "js skip()"
@@ -4248,7 +4248,7 @@
    "where": "js STR()"
   },
   "Auto-flip": {
-   "t": "ఆటోమేటిక్‌గా తిప్పండి",
+   "t": "ఆటో ఫ్లిప్",
    "ko": "자동 뒤집기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4512,7 +4512,7 @@
    "where": "js stats()"
   },
   "Export = this course's progress as text (other courses are exported separately). Use it to move between devices when account sync is off.": {
-   "t": "ఎగుమతి = ఈ కోర్సు ప్రగతి టెక్స్ట్ రూపంలో (మిగతా కోర్సులు విడిగా ఎగుమతి అవుతాయి). ఖాతా సింక్ ఆఫ్‌లో ఉన్నప్పుడు పరికరాల మధ్య మార్చడానికి వాడండి.",
+   "t": "ఎక్స్‌పోర్ట్ = ఈ కోర్సు ప్రగతి టెక్స్ట్ రూపంలో (మిగతా కోర్సులు విడిగా ఎక్స్‌పోర్ట్ అవుతాయి). ఖాతా సింక్ ఆఫ్‌లో ఉన్నప్పుడు పరికరాల మధ్య మార్చడానికి వాడండి.",
    "ko": "내보내기 = 이 코스의 진도를 텍스트로 저장해요 (다른 코스는 따로 내보내요). 계정 동기화를 쓰지 않을 때 기기를 옮기는 데 쓰세요.",
    "kind": "sentence",
    "where": "html <p> text"
@@ -4530,7 +4530,7 @@
    "where": "js g()"
   },
   "Merges into the course the export came from; nothing is lost.": {
-   "t": "ఎగుమతి ఏ కోర్సు నుంచి వచ్చిందో అందులోనే కలుస్తుంది; ఏదీ పోదు.",
+   "t": "ఎక్స్‌పోర్ట్ ఏ కోర్సు నుంచి వచ్చిందో అందులోనే కలుస్తుంది; ఏదీ పోదు.",
    "ko": "내보낸 코스의 진도와 합쳐져요. 사라지는 건 없어요.",
    "kind": "sentence",
    "where": "js r()"
@@ -4962,7 +4962,7 @@
    ]
   },
   "Back to lesson": {
-   "t": "పాఠానికి తిరిగి వెళ్ళండి",
+   "t": "పాఠానికి",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice end screen",
@@ -5634,19 +5634,19 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Import {n}": {
-   "t": "దిగుమతి చేయండి: {1}",
+   "t": "ఇంపోర్ట్ చేయండి: {1}",
    "ko": "{1}개 가져오기",
    "slots": "{1}=n",
    "example": "Import 5"
   },
   "Imported {n}": {
-   "t": "దిగుమతి అయినవి: {1}",
+   "t": "ఇంపోర్ట్ అయినవి: {1}",
    "ko": "{1}개 가져옴",
    "slots": "{1}=n",
    "example": "Imported 5"
   },
   "Imported {n} cards.": {
-   "t": "దిగుమతి అయిన కార్డులు: {1}",
+   "t": "ఇంపోర్ట్ అయిన కార్డులు: {1}",
    "ko": "카드 {1}장을 가져왔어요.",
    "slots": "{1}=n",
    "example": "Imported 5 cards.",
@@ -6375,7 +6375,7 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Export copied ({n} KB).": {
-   "t": "ఎగుమతి కాపీ అయింది ({1} KB).",
+   "t": "ఎక్స్‌పోర్ట్ కాపీ అయింది ({1} KB).",
    "ko": "내보낸 데이터를 복사했어요 ({1} KB).",
    "slots": "{1}=n",
    "example": "Export copied (5 KB).",
@@ -6389,19 +6389,19 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Couldn't delete right now ({x}). Try again, or post in Feedback.": {
-   "t": "ఇప్పుడు తొలగించలేకపోయాం ({1}). మళ్ళీ ప్రయత్నించండి, లేదా స్పందనలో రాయండి.",
+   "t": "ఇప్పుడు తొలగించలేకపోయాం ({1}). మళ్ళీ ప్రయత్నించండి, లేదా అభిప్రాయంలో రాయండి.",
    "ko": "지금은 삭제할 수 없어요 ({1}). 다시 시도하거나 피드백에 남겨 주세요.",
    "slots": "{1}=x",
    "example": "Couldn't delete right now (Hello there). Try again, or post in Feedback."
   },
   "This permanently deletes your account ({s}) and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type": {
-   "t": "దీనివల్ల మీ ఖాతా ({1}), సింక్ అయిన మీ ప్రగతి శాశ్వతంగా తొలగిపోతాయి. దీన్ని వెనక్కి తీసుకోలేం. మీ స్పందన పోస్టులు ఉంటాయి, కానీ వాటికి మీతో సంబంధం ఉండదు.",
+   "t": "దీనివల్ల మీ ఖాతా ({1}), సింక్ అయిన మీ ప్రగతి శాశ్వతంగా తొలగిపోతాయి. దీన్ని వెనక్కి తీసుకోలేం. మీ అభిప్రాయ పోస్టులు ఉంటాయి, కానీ వాటికి మీతో సంబంధం ఉండదు.",
    "ko": "계정({1})과 동기화된 진도가 영구 삭제돼요. 되돌릴 수 없어요. 피드백 글은 남지만 더 이상 내 계정과 연결되지 않아요. 확인하려면",
    "slots": "{1}=s",
    "example": "This permanently deletes your account (Greetings) and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type"
   },
   "This permanently deletes your account () and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type": {
-   "t": "దీనివల్ల మీ ఖాతా, సింక్ అయిన మీ ప్రగతి శాశ్వతంగా తొలగిపోతాయి. దీన్ని వెనక్కి తీసుకోలేం. మీ స్పందన పోస్టులు ఉంటాయి, కానీ వాటికి మీతో సంబంధం ఉండదు.",
+   "t": "దీనివల్ల మీ ఖాతా, సింక్ అయిన మీ ప్రగతి శాశ్వతంగా తొలగిపోతాయి. దీన్ని వెనక్కి తీసుకోలేం. మీ అభిప్రాయ పోస్టులు ఉంటాయి, కానీ వాటికి మీతో సంబంధం ఉండదు.",
    "ko": "계정과 동기화된 진도가 영구 삭제돼요. 되돌릴 수 없어요. 피드백 글은 남지만 더 이상 내 계정과 연결되지 않아요. 확인하려면",
    "slots": "",
    "example": "This permanently deletes your account () and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type"
@@ -6848,13 +6848,13 @@
    "example": "5/2 · Progress"
   },
   "Feedback · quick actions": {
-   "t": "స్పందన · త్వరిత చర్యలు",
+   "t": "అభిప్రాయం · త్వరిత చర్యలు",
    "ko": "피드백 · 빠른 실행",
    "slots": "",
    "example": "Feedback · quick actions"
   },
   "{n}/{n} · Feedback": {
-   "t": "{1}/{2} · స్పందన",
+   "t": "{1}/{2} · అభిప్రాయం",
    "ko": "{1}/{2} · 피드백",
    "slots": "{1}=n, {2}=n",
    "example": "5/2 · Feedback"

@@ -130,3 +130,44 @@ i18n gen.py ur       wrote …/i18n-ur-r.js · exact 784 patterns 275 road 39
 i18n validate.js ur  exact=784 patterns=275 warnings=1
                      PASS
 ```
+
+## Pre-merge review, 2026-11-23
+
+Reviewer: not a native speaker. The changes below come from the pre-merge review and the lead's rulings. Parity passes; the deviations are in `deviations.review.json`, merged into `deviations.json`.
+
+**Changed**
+- `pron` sound key: iː was anchored to «دیر» (/eː/), the same word that anchors /e/ and /eɪ/. It is now «تیر», and the vowel pair «دِل / دیر» is now «دِن / دِین». **Native check: confirm تیر and دِن / دِین.**
+- Typed answers:
+  - Wrong person accepted in 3 items: `modals`, `first-conditional`, `phrasal`. Fixed by making the Urdu prompt subjectless.
+  - 6 prompts cued: `alphabet` (How do you), `countable` (any), `adjectives` ×2 (This), `reported` ×2 (was / had).
+  - 21 items accept more answers:
+    - washroom / toilet (2 items)
+    - film (7 items)
+    - that book / that meeting / that movie
+    - which (2 items)
+    - should've and he'd
+    - the USA
+    - tea and coffee
+    - love cats ×2, love to cook, shut the door
+    - has got / Have you got
+  - Every contracted accepted answer has its full form in the pack.
+- Korean setting replaced throughout (28 practice items and checks, plus 1 deck card and 1 dialog):
+  - Seoul / Busan → Lahore, Karachi, Islamabad
+  - Jeju → Murree, Daegu → Multan, Korea → Pakistan or Dubai
+  - kimchi → sushi, won → rupees, Han Kang → Mohsin Hamid, K-pop → cricket
+  - Jenny Park → Jenny Brown
+  - The `email` distractors "You suffered a lot." and "Good suffering." → "Thanks for all your hard works." and "You did a hard work."
+  - The `idioms` distractor tiger → cat
+  - The card and dialog "Who's your bias?" → "Who's your favorite player?"
+- Deck 18: vine / wine → vet / wet, so that no card is about alcohol.
+- Learner-gendered wording: 21 prompts that ended «کیا کہیں گے؟ / دیں گے؟ / …» now use impersonal forms («کیا کہتے ہیں؟», «کیسے کہا جائے؟»). Also fixed: one sentence in the `smalltalk` body and 6 card notes (Have a good one!, One moment, Cash or card?, three, they, How do you say this in English?).
+- Card meanings: *It's too big.* «یہ کچھ زیادہ ہی بڑا ہے»; *You're so funny.* «تم بہت مزاحیہ ہو».
+- "…, isn't it?" moved into the «پاکستان میں ٹھیک، باہر یہ کہیں» table of `pakistani-english`. Its deck 22 note now starts «پاکستان میں:». The card did not move.
+- `reported` order item: the Urdu now matches the accepted simple-past answer.
+- Level title Master «ماسٹر» → «استاد» in `meta.js`, with the interface changed to match (Sensei «سینسی»). See `tools/i18n/ur/NOTES.md`.
+
+**Not changed: for a native speaker to decide**
+- *my real brother* and *give an exam* still sit in the ✗ calque table. They may belong in the "fine in Pakistan" group.
+- Weekday headers «جر» (Thursday) against «جم» (Friday).
+- «باتونی» as a level title.
+- The R/L and F/P minimal pairs in deck 18 are left in place. A replacement needs a native view on which pairs Urdu speakers really confuse.

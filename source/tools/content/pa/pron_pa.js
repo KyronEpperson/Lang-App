@@ -97,6 +97,9 @@ function convWord(word, warn) {
       if (x.k === 'ŋ' && !(prev && prev.t === 'V')) bad('ŋ with no vowel straight before it');
     }
     if (x.k === 'h' && afterC) warn('consonant + h with no ˈ between in /' + word + '/ writes the subjoined ha, which Punjabi reads as a tone mark (§6 rule 4 hand case): check the row by hand');
+    /* review 2026-11-23: a ਹ straight after a vowel (no ˈ between) is read by Punjabi readers as a tone on that vowel, with the h
+       dropped (ਕਹਿ, ਪਹਿਲਾਂ): /ˈælkəhɔːl/ -> ˈਐਲ੍ਕਹੌਲ. Warn so the row is checked by hand (a card note, or a ˈ the IPA justifies). */
+    if (x.k === 'h' && prev && prev.t === 'V') warn('vowel + h with no ˈ between in /' + word + '/: Punjabi reads a ਹ after a vowel as a tone and drops the h; check the row by hand (note, or stress mark)');
     out += CONS[x.k];
     /* rule 4: halant on a consonant with no vowel after it inside the word, kept where ˈ splits a cluster and before ˈ + vowel
        (the vowel is then a vowel letter). None on the last consonant; none before a syllabic l / n (rule 6: this consonant carries the

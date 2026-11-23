@@ -28,8 +28,8 @@ practice:[
 ["fi","There __ a bank near here.","ਇੱਥੇ ਨੇੜੇ ਇੱਕ ਬੈਂਕ ਹੈ","is","are|have|be","ਇੱਕ ਬੈਂਕ ਹੈ, ਇਸ ਲਈ is।"],
 ["fi","__ there any seats?","ਕੀ ਸੀਟਾਂ ਖ਼ਾਲੀ ਹਨ?","Are","Is|Do|Have","seats ਬਹੁਵਚਨ ਹੈ, ਇਸ ਲਈ Are।"],
 ["ty","ਅੱਜ ਗਰਮੀ ਹੈ","It's hot today","it · hot · today — ਮੌਸਮ ਲਈ it","There's","ਮੌਸਮ ਵਾਲਾ ਵਾਕ it ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ।"],
-["ty","ਕੀ ਇੱਥੇ ਬਾਥਰੂਮ ਹੈ?","Is there a bathroom here|Is there a restroom here","is there · bathroom — ਆਰਟੀਕਲ ਦਾ ਧਿਆਨ ਰੱਖੋ","the","ਪਹਿਲੀ ਵਾਰ ਕਿਸੇ ਇੱਕ ਚੀਜ਼ ਬਾਰੇ ਪੁੱਛ ਰਹੇ ਹੋ, ਇਸ ਲਈ ਆਰਟੀਕਲ a।"],
-["ty","ਦੋ ਕਮਰੇ ਹਨ","There are two rooms","there are · two · room — ਬਹੁਵਚਨ","room","ਦੋ ਹਨ, ਇਸ ਲਈ ਬਹੁਵਚਨ rooms।"]]},
+["ty","ਕੀ ਇੱਥੇ ਬਾਥਰੂਮ ਹੈ?","Is there a bathroom here|Is there a restroom here|Is there a washroom here","is there · bathroom — ਆਰਟੀਕਲ ਦਾ ਧਿਆਨ ਰੱਖੋ","the","ਪਹਿਲੀ ਵਾਰ ਕਿਸੇ ਇੱਕ ਚੀਜ਼ ਬਾਰੇ ਪੁੱਛ ਰਹੇ ਹੋ, ਇਸ ਲਈ ਆਰਟੀਕਲ a।"],
+["ty","ਦੋ ਕਮਰੇ ਹਨ (There ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ)","There are two rooms","there are · two · room — ਬਹੁਵਚਨ","room","ਦੋ ਹਨ, ਇਸ ਲਈ ਬਹੁਵਚਨ rooms।"]]},
 
 { id:"plurals", title:"ਬਹੁਵਚਨ -s, this / these ਤੇ my / your", blurb:"ਦੋ ਜਾਂ ਵੱਧ ਹੋਣ ਤਾਂ -s ਜ਼ਰੂਰ। this ਇੱਕ ਲਈ, these ਕਈਆਂ ਲਈ।", deck:"ਖ਼ਰੀਦਦਾਰੀ ਤੇ ਭੁਗਤਾਨ", body:`
 <p>ਪੰਜਾਬੀ ਵਿੱਚ ਵੀ ਬਹੁਵਚਨ ਹੁੰਦਾ ਹੈ (ਮੁੰਡਾ → ਮੁੰਡੇ, ਕੁੜੀ → ਕੁੜੀਆਂ), ਪਰ ਗਿਣਤੀ ਤੋਂ ਬਾਅਦ ਕਈ ਨਾਂਵ ਨਹੀਂ ਬਦਲਦੇ: "ਦੋ ਦੋਸਤ", "ਦੋ ਘਰ", "ਤਿੰਨ ਦਿਨ"। ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਦੋ ਜਾਂ ਵੱਧ ਹੋਣ ਤਾਂ ਹਰ ਗਿਣਨਯੋਗ ਨਾਂਵ ਨਾਲ <b>-s</b> ਲੱਗਦਾ ਹੈ: <b>two friend</b> ✗ → <b>two friends</b> ✓</p>
@@ -58,7 +58,7 @@ practice:[
 ["fi","__ is my friend.","ਇਹ ਮੇਰਾ ਦੋਸਤ ਹੈ","This","These|Those|They","ਇੱਕ ਜਣਾ ਹੈ, ਇਸ ਲਈ this।"],
 ["fi","Two __, please.","ਦੋ ਕੌਫ਼ੀ ਦੇ ਦਿਓ","coffees","coffee|a coffee|coffee's","ਆਰਡਰ ਵਿੱਚ ਕੱਪ ਗਿਣੋ ਤਾਂ coffee ਵੀ ਬਹੁਵਚਨ ਬਣ ਜਾਂਦੀ ਹੈ: two coffees।"],
 ["ty","ਇਹ ਮੇਰੀਆਂ ਕਿਤਾਬਾਂ ਹਨ","These are my books","these · my · book — ਬਹੁਵਚਨ","book","ਕਈ ਹਨ, ਇਸ ਲਈ these ਤੇ ਬਹੁਵਚਨ books।"],
-["ty","ਮੇਰੀਆਂ ਦੋ ਭੈਣਾਂ ਹਨ","I have two sisters","have · two · sister — ਬਹੁਵਚਨ","sister","ਦੋ ਹਨ, ਇਸ ਲਈ ਬਹੁਵਚਨ sisters।"],
+["ty","ਮੇਰੀਆਂ ਦੋ ਭੈਣਾਂ ਹਨ","I have two sisters|I've got two sisters","have · two · sister — ਬਹੁਵਚਨ","sister","ਦੋ ਹਨ, ਇਸ ਲਈ ਬਹੁਵਚਨ sisters।"],
 ["ty","ਇਹ ਮੇਰਾ ਬੈਗ ਹੈ","This is my bag","this · my · bag — ਆਰਟੀਕਲ ਤੋਂ ਬਿਨਾਂ","a","my ਹੋਵੇ ਤਾਂ ਆਰਟੀਕਲ a ਨਹੀਂ ਲੱਗਦਾ।"]]},
 { id:"present", title:"Simple Present ਤੇ ਸ਼ਬਦ-ਤਰਤੀਬ: ਕਰਤਾ + ਕਿਰਿਆ + ਕਰਮ", blurb:"ਪੰਜਾਬੀ ਵਿੱਚ ਕਿਰਿਆ ਅਖ਼ੀਰ ਤੇ ਆਉਂਦੀ ਹੈ, ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਕਰਤਾ ਤੋਂ ਠੀਕ ਬਾਅਦ।", deck:"ਆਪਣੀ ਜਾਣ-ਪਛਾਣ", body:`
 <p>ਪੰਜਾਬੀ ਵਿੱਚ ਕਿਰਿਆ ਵਾਕ ਦੇ ਅਖ਼ੀਰ ਤੇ ਆਉਂਦੀ ਹੈ: "ਮੈਂ ਚਾਹ <b>ਪੀਂਦਾ ਹਾਂ</b>" (ਕਰਤਾ-ਕਰਮ-ਕਿਰਿਆ)। ਅੰਗਰੇਜ਼ੀ ਦੀ ਸ਼ਬਦ-ਤਰਤੀਬ ਹੈ <b>ਕੌਣ → ਕੀ ਕਰਦਾ ਹੈ → ਕੀ</b> (ਕਰਤਾ-ਕਿਰਿਆ-ਕਰਮ)। ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ "ਨੂੰ" ਵਰਗਾ ਕੋਈ ਨਿਸ਼ਾਨ ਨਹੀਂ ਹੁੰਦਾ, ਇਸ ਲਈ ਅਰਥ ਤਰਤੀਬ ਤੋਂ ਹੀ ਪਤਾ ਲੱਗਦਾ ਹੈ। ਇਸ ਟੈਂਸ (ਕਾਲ) ਦਾ ਨਾਂ Simple Present ਹੈ (ਜਿਸ ਨੂੰ Present Indefinite ਵੀ ਕਹਿੰਦੇ ਹਨ)।</p>
@@ -79,7 +79,7 @@ check:[["\"ਮੈਂ ਕੌਫ਼ੀ ਪੀਂਦਾ ਹਾਂ\" ਦੀ ਸਹ�
 practice:[
 ["mc","\"ਮੈਂ ਅੰਗਰੇਜ਼ੀ ਪੜ੍ਹਦਾ ਹਾਂ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","I study English.","I English study.","I am study English.","Study I English.","ਤਰਤੀਬ ਹੈ ਕਰਤਾ + ਕਿਰਿਆ + ਕਰਮ।"],
 ["mc","\"ਮੈਂ ਮੀਟ ਨਹੀਂ ਖਾਂਦੀ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","I don't eat meat.","I not eat meat.","I'm not eat meat.","I eat not meat.","ਨਾਂਹ ਲਈ ਕਿਰਿਆ ਤੋਂ ਪਹਿਲਾਂ don't; ਇਕੱਲਾ not ਨਹੀਂ।"],
-["mc","\"ਅਸੀਂ ਸਿਓਲ ਰਹਿੰਦੇ ਹਾਂ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","We live in Seoul.","We in Seoul live.","We are live in Seoul.","We live Seoul in.","ਕਿਰਿਆ ਤੋਂ ਬਾਅਦ ਥਾਂ ਆਉਂਦੀ ਹੈ, ਤੇ in ਸ਼ਹਿਰ ਦੇ ਨਾਂ ਤੋਂ ਪਹਿਲਾਂ।"],
+["mc","\"ਅਸੀਂ ਅੰਮ੍ਰਿਤਸਰ ਰਹਿੰਦੇ ਹਾਂ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","We live in Amritsar.","We in Amritsar live.","We are live in Amritsar.","We live Amritsar in.","ਕਿਰਿਆ ਤੋਂ ਬਾਅਦ ਥਾਂ ਆਉਂਦੀ ਹੈ, ਤੇ in ਸ਼ਹਿਰ ਦੇ ਨਾਂ ਤੋਂ ਪਹਿਲਾਂ।"],
 ["mc","\"ਮੈਂ ਆਮ ਤੌਰ ਤੇ ਸੱਤ ਵਜੇ ਉੱਠਦਾ ਹਾਂ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","I usually get up at seven.","Usually I get up seven.","I get usually up at seven.","I am usually get up at seven.","usually ਕਿਰਿਆ ਤੋਂ ਠੀਕ ਪਹਿਲਾਂ ਆਉਂਦਾ ਹੈ।"],
 ["mc","ਕਿਹੜਾ ਵਾਕ ਰੋਜ਼ ਦੀ ਆਦਤ ਦੱਸਦਾ ਹੈ?","I drink coffee every day.","I'm drinking coffee now.","I drank coffee.","I will drink coffee.","ਆਦਤ ਲਈ Simple Present।"],
 ["or","ਮੈਂ ਰੋਜ਼ ਕੌਫ਼ੀ ਪੀਂਦੀ ਹਾਂ","I drink coffee every day","the am","ਆਦਤ ਲਈ Simple Present। ਆਮ ਗੱਲ ਵਿੱਚ coffee ਨਾਲ ਆਰਟੀਕਲ ਨਹੀਂ ਲੱਗਦਾ।"],
@@ -87,7 +87,7 @@ practice:[
 ["or","ਅਸੀਂ ਵੀਕਐਂਡ ਤੇ ਕੰਮ ਕਰਦੇ ਹਾਂ","We work on weekends","are","work ਆਪ ਕਿਰਿਆ ਹੈ; ਇਸ ਤੋਂ ਪਹਿਲਾਂ are ਨਹੀਂ ਲੱਗਦਾ।"],
 ["fi","I __ like fish.","ਮੈਨੂੰ ਮੱਛੀ ਪਸੰਦ ਨਹੀਂ","don't|do not","not|am not|no","like ਨਾਲ ਨਾਂਹ ਲਈ don't ਲੱਗਦਾ ਹੈ।"],
 ["fi","I __ English every day.","ਮੈਂ ਰੋਜ਼ ਅੰਗਰੇਜ਼ੀ ਪੜ੍ਹਦੀ ਹਾਂ","study","am study|studying|to study","Simple Present ਵਿੱਚ I ਨਾਲ ਕਿਰਿਆ ਦਾ ਮੂਲ ਰੂਪ ਆਉਂਦਾ ਹੈ: study।"],
-["fi","They live __ Busan.","ਉਹ ਬੁਸਾਨ ਰਹਿੰਦੇ ਹਨ","in","at|on|to","ਸ਼ਹਿਰ ਦੇ ਨਾਂ ਤੋਂ ਪਹਿਲਾਂ in।"],
+["fi","They live __ Chandigarh.","ਉਹ ਚੰਡੀਗੜ੍ਹ ਰਹਿੰਦੇ ਹਨ","in","at|on|to","ਸ਼ਹਿਰ ਦੇ ਨਾਂ ਤੋਂ ਪਹਿਲਾਂ in।"],
 ["ty","ਮੈਂ ਚਾਹ ਪੀਂਦਾ ਹਾਂ","I drink tea","drink · tea — ਆਰਟੀਕਲ ਤੋਂ ਬਿਨਾਂ","a","ਆਮ ਗੱਲ ਵਿੱਚ tea ਨਾਲ ਆਰਟੀਕਲ ਨਹੀਂ ਲੱਗਦਾ।"],
 ["ty","ਮੈਨੂੰ ਬਿੱਲੀਆਂ ਪਸੰਦ ਹਨ","I like cats","like · cat — ਬਹੁਵਚਨ ਵਿੱਚ","cat","ਸਾਰੀਆਂ ਬਿੱਲੀਆਂ ਦੀ ਆਮ ਗੱਲ ਹੋਵੇ ਤਾਂ ਬਹੁਵਚਨ cats।"],
 ["ty","ਮੈਂ ਮੀਟ ਨਹੀਂ ਖਾਂਦਾ","I don't eat meat","don't · eat · meat","am","ਨਾਂਹ ਲਈ ਕਿਰਿਆ ਤੋਂ ਪਹਿਲਾਂ don't।"]]},
@@ -120,7 +120,7 @@ practice:[
 ["fi","__ do you live?","ਤੁਸੀਂ ਕਿੱਥੇ ਰਹਿੰਦੇ ਹੋ?","Where","What|Who|When","ਥਾਂ ਪੁੱਛਣ ਲਈ where।"],
 ["fi","What time __ it?","ਕਿੰਨੇ ਵੱਜੇ ਹਨ?","is","do|does|are","ਸਮਾਂ be ਨਾਲ ਪੁੱਛਿਆ ਜਾਂਦਾ ਹੈ: is।"],
 ["ty","ਕੀ ਤੁਸੀਂ ਅੰਗਰੇਜ਼ੀ ਬੋਲਦੇ ਹੋ?","Do you speak English|Can you speak English","do · speak · English","Are","speak ਵਾਲਾ ਸਵਾਲ Do ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ।"],
-["ty","ਬਾਥਰੂਮ ਕਿੱਥੇ ਹੈ?","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom","where · bathroom — ਆਰਟੀਕਲ the","a","ਉਹ ਬਾਥਰੂਮ ਜਿਸ ਦਾ ਦੋਵਾਂ ਨੂੰ ਪਤਾ ਹੈ — ਆਰਟੀਕਲ the।"],
+["ty","ਬਾਥਰੂਮ ਕਿੱਥੇ ਹੈ?","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom|Where is the washroom|Where's the washroom","where · bathroom — ਆਰਟੀਕਲ the","a","ਉਹ ਬਾਥਰੂਮ ਜਿਸ ਦਾ ਦੋਵਾਂ ਨੂੰ ਪਤਾ ਹੈ — ਆਰਟੀਕਲ the।"],
 ["ty","ਕੀ ਤੁਹਾਨੂੰ ਕੁੱਤੇ ਪਸੰਦ ਹਨ?","Do you like dogs","do · like · dog — ਬਹੁਵਚਨ","dog","ਸਾਰੇ ਕੁੱਤਿਆਂ ਦੀ ਆਮ ਗੱਲ ਹੋਵੇ ਤਾਂ ਬਹੁਵਚਨ dogs।"]]},
 { id:"third-s", title:"he, she, it ਨਾਲ -s: does / doesn't", blurb:"ਕਰਤਾ he, she, it ਜਾਂ ਕੋਈ ਇੱਕ ਜਣਾ ਹੋਵੇ ਤਾਂ ਕਿਰਿਆ ਨਾਲ -s। ਸਵਾਲ ਤੇ ਨਾਂਹ ਲਈ does।", deck:"ਆਪਣੀ ਜਾਣ-ਪਛਾਣ", body:`
 <p>ਪੰਜਾਬੀ ਵਿੱਚ ਕਿਰਿਆ ਲਿੰਗ ਤੇ ਵਚਨ ਦੇ ਹਿਸਾਬ ਨਾਲ ਬਦਲਦੀ ਹੈ: ਕਰਦਾ ਹੈ / ਕਰਦੀ ਹੈ / ਕਰਦੇ ਹਨ। ਅੰਗਰੇਜ਼ੀ ਦੇ Simple Present ਵਿੱਚ ਸਿਰਫ਼ ਇੱਕ ਨਿਸ਼ਾਨ ਹੈ: ਕਰਤਾ <b>he, she, it</b> ਜਾਂ ਕੋਈ ਇੱਕ ਜਣਾ / ਇੱਕ ਚੀਜ਼ ਹੋਵੇ (ਅਨਯ ਪੁਰਖ ਇੱਕਵਚਨ), ਤਾਂ ਕਿਰਿਆ ਨਾਲ <b>-s</b> ਲੱਗਦਾ ਹੈ। ਆਦਮੀ ਹੋਵੇ ਜਾਂ ਔਰਤ, -s ਉਹੀ ਰਹਿੰਦਾ ਹੈ। ਇਹ ਛੋਟੀ ਜਿਹੀ ਆਵਾਜ਼ ਬੋਲਣ ਵੇਲੇ ਅਕਸਰ ਰਹਿ ਜਾਂਦੀ ਹੈ, ਇਸ ਲਈ ਇਸ ਨੂੰ ਸਾਫ਼ ਬੋਲੋ ਤੇ ਲਿਖਣਾ ਨਾ ਭੁੱਲੋ।</p>
@@ -132,9 +132,9 @@ practice:[
 <p><b>doesn't</b> ਜਾਂ <b>Does</b> ਆ ਜਾਵੇ ਤਾਂ -s ਉੱਥੇ ਚਲਾ ਜਾਂਦਾ ਹੈ। ਪਿੱਛੇ ਕਿਰਿਆ V1 (ਪਹਿਲੀ ਫ਼ਾਰਮ) ਵਿੱਚ ਆਉਂਦੀ ਹੈ, -s ਤੋਂ ਬਿਨਾਂ।</p>
 {{ex:He doesn't drink coffee.|ਹੀ ˈਡਜ਼ੰਟ ਡ੍ਰਿੰਕ ˈਕੌਫ਼ੀ|ਉਹ ਕੌਫ਼ੀ ਨਹੀਂ ਪੀਂਦਾ}}{{ex:Does she live here?|ਡਜ਼ ਸ਼ੀ ਲਿਵ਼ ਹਿਰ|ਕੀ ਉਹ ਇੱਥੇ ਰਹਿੰਦੀ ਹੈ?}}
 <div class="tip">ਸਭ ਤੋਂ ਆਮ ਗ਼ਲਤੀਆਂ: <b>She work here.</b> ✗ → <b>She works here.</b> ✓, <b>He don't know.</b> ✗ → <b>He doesn't know.</b> ✓, <b>Does she works?</b> ✗ → <b>Does she work?</b> ✓</div>`,
-check:[["She ___ in Seoul. ਖ਼ਾਲੀ ਥਾਂ ਵਿੱਚ ਕੀ ਆਵੇਗਾ?",["live","lives","living","is live"],1,"ਕਰਤਾ she ਹੈ, ਇਸ ਲਈ ਕਿਰਿਆ ਨਾਲ -s: lives।"],["He ___ like coffee. ਖ਼ਾਲੀ ਥਾਂ ਵਿੱਚ ਕੀ ਆਵੇਗਾ?",["don't","isn't","doesn't","not"],2,"he ਨਾਲ ਨਾਂਹ ਲਈ doesn't।"],["\"ਉਸ (ਕੁੜੀ) ਕੋਲ ਕਾਰ ਹੈ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?",["She has a car.","She have a car.","She haves a car.","She is have a car."],0,"she ਨਾਲ have ਬਦਲ ਕੇ has ਬਣ ਜਾਂਦਾ ਹੈ।"]],
+check:[["She ___ in Amritsar. ਖ਼ਾਲੀ ਥਾਂ ਵਿੱਚ ਕੀ ਆਵੇਗਾ?",["live","lives","living","is live"],1,"ਕਰਤਾ she ਹੈ, ਇਸ ਲਈ ਕਿਰਿਆ ਨਾਲ -s: lives।"],["He ___ like coffee. ਖ਼ਾਲੀ ਥਾਂ ਵਿੱਚ ਕੀ ਆਵੇਗਾ?",["don't","isn't","doesn't","not"],2,"he ਨਾਲ ਨਾਂਹ ਲਈ doesn't।"],["\"ਉਸ (ਕੁੜੀ) ਕੋਲ ਕਾਰ ਹੈ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?",["She has a car.","She have a car.","She haves a car.","She is have a car."],0,"she ਨਾਲ have ਬਦਲ ਕੇ has ਬਣ ਜਾਂਦਾ ਹੈ।"]],
 practice:[
-["mc","My brother ___ in Busan.","works","work","working","is work","ਕਰਤਾ ਇੱਕ ਜਣਾ ਹੈ (my brother = he), ਇਸ ਲਈ works।"],
+["mc","My brother ___ in Chandigarh.","works","work","working","is work","ਕਰਤਾ ਇੱਕ ਜਣਾ ਹੈ (my brother = he), ਇਸ ਲਈ works।"],
 ["mc","\"ਉਹ (ਮੁੰਡਾ) ਕੌਫ਼ੀ ਨਹੀਂ ਪੀਂਦਾ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","He doesn't drink coffee.","He don't drink coffee.","He doesn't drinks coffee.","He isn't drink coffee.","he ਨਾਲ ਨਾਂਹ: doesn't + V1।"],
 ["mc","\"ਕੀ ਉਹ (ਕੁੜੀ) ਇੱਥੇ ਰਹਿੰਦੀ ਹੈ?\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","Does she live here?","Do she live here?","Does she lives here?","Is she live here?","Does ਤੋਂ ਬਾਅਦ ਕਿਰਿਆ -s ਤੋਂ ਬਿਨਾਂ ਆਉਂਦੀ ਹੈ।"],
 ["mc","have → she ___","has","haves","have","is have","she ਨਾਲ have ਬਦਲ ਕੇ has ਬਣ ਜਾਂਦਾ ਹੈ।"],
@@ -145,7 +145,7 @@ practice:[
 ["fi","He __ soccer.","ਉਸ (ਮੁੰਡੇ) ਨੂੰ ਫ਼ੁੱਟਬਾਲ ਪਸੰਦ ਹੈ","likes","like|liking|is like","he ਨਾਲ likes।"],
 ["fi","__ she speak English?","ਕੀ ਉਹ (ਕੁੜੀ) ਅੰਗਰੇਜ਼ੀ ਬੋਲਦੀ ਹੈ?","Does","Do|Is|Are","she ਵਾਲਾ ਸਵਾਲ Does ਨਾਲ ਬਣਦਾ ਹੈ।"],
 ["fi","She __ to work at eight.","ਉਹ (ਕੁੜੀ) ਅੱਠ ਵਜੇ ਕੰਮ ਤੇ ਜਾਂਦੀ ਹੈ","goes","go|going|gos","go ਨਾਲ -es ਲੱਗਦਾ ਹੈ: goes।"],
-["ty","ਉਸ (ਮੁੰਡੇ) ਕੋਲ ਕਾਰ ਹੈ","He has a car","has · car — ਆਰਟੀਕਲ a","have","he ਨਾਲ has; ਇੱਕ ਕਾਰ ਹੈ, ਇਸ ਲਈ ਆਰਟੀਕਲ a।"],
+["ty","ਉਸ (ਮੁੰਡੇ) ਕੋਲ ਕਾਰ ਹੈ","He has a car|He has got a car","has · car — ਆਰਟੀਕਲ a","have","he ਨਾਲ has; ਇੱਕ ਕਾਰ ਹੈ, ਇਸ ਲਈ ਆਰਟੀਕਲ a।"],
 ["ty","ਉਸ (ਕੁੜੀ) ਨੂੰ ਬਿੱਲੀਆਂ ਪਸੰਦ ਹਨ","She likes cats","likes · cat — ਬਹੁਵਚਨ","cat","she ਨਾਲ likes; ਸਾਰੀਆਂ ਬਿੱਲੀਆਂ ਦੀ ਆਮ ਗੱਲ ਹੈ, ਇਸ ਲਈ ਬਹੁਵਚਨ cats।"],
 ["ty","ਉਹ (ਮੁੰਡਾ) ਇੱਥੇ ਨਹੀਂ ਰਹਿੰਦਾ","He doesn't live here","doesn't · live · here","lives","doesn't ਤੋਂ ਬਾਅਦ V1 ਆਉਂਦਾ ਹੈ।"]]},
 { id:"countable", title:"ਗਿਣਨਯੋਗ ਤੇ ਨਾ-ਗਿਣਨਯੋਗ ਨਾਂਵ: some, any, much, many", blurb:"water ਨਾਲ ਨਾ a ਲੱਗਦਾ ਹੈ, ਨਾ -s। many ਗਿਣਨਯੋਗ ਨਾਂਵ ਲਈ, much ਨਾ-ਗਿਣਨਯੋਗ ਲਈ।", deck:"ਰੈਸਟੋਰੈਂਟ ਵਿੱਚ", body:`
@@ -167,7 +167,7 @@ practice:[
 ["mc","How ___ time do we have?","much","many","any","a","time ਨਾ-ਗਿਣਨਯੋਗ ਹੈ, ਇਸ ਲਈ much।"],
 ["mc","\"ਕੀ ਤੁਹਾਡਾ ਕੋਈ ਸਵਾਲ ਹੈ?\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","Do you have any questions?","Do you have any question?","Do you have a questions?","Do you have much questions?","ਸਵਾਲ ਵਿੱਚ any ਤੋਂ ਬਾਅਦ ਗਿਣਨਯੋਗ ਨਾਂਵ ਆਮ ਤੌਰ ਤੇ ਬਹੁਵਚਨ ਵਿੱਚ ਆਉਂਦਾ ਹੈ: questions।"],
 ["mc","\"ਪਾਣੀ ਦਾ ਇੱਕ ਗਲਾਸ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","a glass of water","a water glass of","one waters","a glass water","ਨਾ-ਗਿਣਨਯੋਗ ਚੀਜ਼ a glass of ਨਾਲ ਗਿਣੀ ਜਾਂਦੀ ਹੈ।"],
-["mc","I have ___ friends in Seoul.","many","much","a","an","friends ਗਿਣਨਯੋਗ ਹੈ ਤੇ ਬਹੁਵਚਨ ਵਿੱਚ ਹੈ, ਇਸ ਲਈ many।"],
+["mc","I have ___ friends in Amritsar.","many","much","a","an","friends ਗਿਣਨਯੋਗ ਹੈ ਤੇ ਬਹੁਵਚਨ ਵਿੱਚ ਹੈ, ਇਸ ਲਈ many।"],
 ["or","ਮੇਰੇ ਕੋਲ ਕੁਝ ਪੈਸੇ ਹਨ","I have some money","a moneys","money ਨਾ-ਗਿਣਨਯੋਗ ਹੈ: ਨਾ ਆਰਟੀਕਲ a, ਨਾ ਬਹੁਵਚਨ ਦਾ -s।"],
 ["or","ਦੋ ਸੇਬ ਦੇ ਦਿਓ","Two apples please","apple","ਦੋ ਹਨ, ਇਸ ਲਈ ਬਹੁਵਚਨ apples। ਪੰਜਾਬੀ ਵਿੱਚ \"ਦੋ ਸੇਬ\" ਵਿੱਚ ਸ਼ਬਦ ਨਹੀਂ ਬਦਲਦਾ, ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ -s ਲੱਗੇਗਾ।"],
 ["or","ਮੇਰੇ ਕੋਲ ਬਹੁਤਾ ਸਮਾਂ ਨਹੀਂ ਹੈ","I don't have much time","many","time ਨਾ-ਗਿਣਨਯੋਗ ਹੈ, ਇਸ ਲਈ much।"],
@@ -175,7 +175,7 @@ practice:[
 ["fi","I don't have __ questions.","ਮੇਰਾ ਕੋਈ ਸਵਾਲ ਨਹੀਂ ਹੈ","any","some|much|a","ਨਾਂਹ-ਵਾਚਕ ਵਾਕ ਵਿੱਚ any ਆਉਂਦਾ ਹੈ।"],
 ["fi","a cup __ coffee","ਕੌਫ਼ੀ ਦਾ ਇੱਕ ਕੱਪ","of","for|in|a","ਗਿਣਨ ਲਈ a cup of …; ਪੰਜਾਬੀ ਦਾ \"ਦਾ\" ਇੱਥੇ of ਹੈ।"],
 ["ty","ਕੀ ਮੈਨੂੰ ਥੋੜ੍ਹਾ ਪਾਣੀ ਮਿਲ ਸਕਦਾ ਹੈ? (can ਤੇ some ਵਰਤੋ)","Can I have some water|Could I have some water|Can I get some water|Could I get some water","can I have · some · water — ਆਰਟੀਕਲ ਤੋਂ ਬਿਨਾਂ","a","water ਨਾ-ਗਿਣਨਯੋਗ ਹੈ, ਇਸ ਲਈ ਆਰਟੀਕਲ a ਦੀ ਥਾਂ some।"],
-["ty","ਕੀ ਤੁਹਾਡਾ ਕੋਈ ਸਵਾਲ ਹੈ?","Do you have any questions","any · question — ਬਹੁਵਚਨ","question","ਸਵਾਲ ਵਿੱਚ any ਤੋਂ ਬਾਅਦ ਗਿਣਨਯੋਗ ਨਾਂਵ ਆਮ ਤੌਰ ਤੇ ਬਹੁਵਚਨ ਵਿੱਚ ਆਉਂਦਾ ਹੈ: questions।"],
+["ty","ਕੀ ਤੁਹਾਡੇ ਕੋਈ ਸਵਾਲ ਹਨ?","Do you have any questions","any · question — ਬਹੁਵਚਨ","question","ਸਵਾਲ ਵਿੱਚ any ਤੋਂ ਬਾਅਦ ਗਿਣਨਯੋਗ ਨਾਂਵ ਆਮ ਤੌਰ ਤੇ ਬਹੁਵਚਨ ਵਿੱਚ ਆਉਂਦਾ ਹੈ: questions।"],
 ["ty","ਕਿੰਨੇ ਜਣੇ? (3 ਸ਼ਬਦ)","How many people","how many · people","much","people ਗਿਣਨਯੋਗ ਹੈ, ਇਸ ਲਈ many।"]]},
 { id:"object-have", title:"me, him, her ਤੇ have", blurb:"ਕਿਰਿਆ ਤੋਂ ਬਾਅਦ I ਨਹੀਂ, me। \"ਮੇਰੇ ਕੋਲ … ਹੈ\" = I have। his / her ਮਾਲਕ ਦੇ ਹਿਸਾਬ ਨਾਲ।", deck:"ਆਪਣੀ ਜਾਣ-ਪਛਾਣ", body:`
 <p>ਪੰਜਾਬੀ ਵਿੱਚ "ਨੂੰ" ਲੱਗਦਾ ਹੈ (ਮੈਨੂੰ, ਉਸ ਨੂੰ); ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਪੜਨਾਂਵ ਦਾ <b>ਰੂਪ ਹੀ</b> ਬਦਲ ਜਾਂਦਾ ਹੈ। ਕਿਰਿਆ ਜਾਂ preposition ਤੋਂ <b>ਬਾਅਦ</b> ਇਹ ਰੂਪ ਆਉਂਦਾ ਹੈ। "ਉਸ ਨੂੰ" ਲਈ ਵੀ ਚੁਣਨਾ ਪੈਂਦਾ ਹੈ: ਆਦਮੀ ਲਈ <b>him</b>, ਔਰਤ ਲਈ <b>her</b>, ਚੀਜ਼ ਲਈ <b>it</b>।</p>
@@ -204,8 +204,8 @@ practice:[
 ["fi","I work with __.","ਮੈਂ ਉਸ (ਮੁੰਡੇ) ਨਾਲ ਕੰਮ ਕਰਦੀ ਹਾਂ","him","he|his|he's","preposition ਤੋਂ ਬਾਅਦ ਵੀ ਕਰਮ ਵਾਲਾ ਰੂਪ ਆਉਂਦਾ ਹੈ: him।"],
 ["fi","She __ a dog.","ਉਸ (ਕੁੜੀ) ਕੋਲ ਇੱਕ ਕੁੱਤਾ ਹੈ","has","have|is|haves","she ਨਾਲ has।"],
 ["ty","ਕੀ ਤੁਸੀਂ ਮੇਰੀ ਮਦਦ ਕਰ ਸਕਦੇ ਹੋ?","Can you help me|Could you help me","can you · help · me","I","ਕਿਰਿਆ ਤੋਂ ਬਾਅਦ me ਆਉਂਦਾ ਹੈ, I ਨਹੀਂ।"],
-["ty","ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਪੈੱਨ ਹੈ?","Do you have a pen","do you have · pen — ਆਰਟੀਕਲ a","the","ਕੋਈ ਵੀ ਇੱਕ ਪੈੱਨ ਚਾਹੀਦਾ ਹੈ, ਇਸ ਲਈ ਆਰਟੀਕਲ a।"],
-["ty","ਮੇਰੇ ਬਹੁਤ ਦੋਸਤ ਹਨ","I have many friends|I have a lot of friends","have · many · friend — ਬਹੁਵਚਨ","friend","many ਤੋਂ ਬਾਅਦ ਬਹੁਵਚਨ: friends। ਪੰਜਾਬੀ ਵਿੱਚ \"ਬਹੁਤ ਦੋਸਤ\" ਵਿੱਚ ਸ਼ਬਦ ਨਹੀਂ ਬਦਲਦਾ, ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ -s ਲੱਗੇਗਾ।"]]},
+["ty","ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਪੈੱਨ ਹੈ?","Do you have a pen|Have you got a pen","do you have · pen — ਆਰਟੀਕਲ a","the","ਕੋਈ ਵੀ ਇੱਕ ਪੈੱਨ ਚਾਹੀਦਾ ਹੈ, ਇਸ ਲਈ ਆਰਟੀਕਲ a।"],
+["ty","ਮੇਰੇ ਬਹੁਤ ਦੋਸਤ ਹਨ","I have many friends|I have a lot of friends|I have lots of friends","have · many · friend — ਬਹੁਵਚਨ","friend","many ਤੋਂ ਬਾਅਦ ਬਹੁਵਚਨ: friends। ਪੰਜਾਬੀ ਵਿੱਚ \"ਬਹੁਤ ਦੋਸਤ\" ਵਿੱਚ ਸ਼ਬਦ ਨਹੀਂ ਬਦਲਦਾ, ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ -s ਲੱਗੇਗਾ।"]]},
 { id:"can-like", title:"can, like + -ing, I'd like: ਕੀ ਆਉਂਦਾ ਹੈ ਤੇ ਕੀ ਚਾਹੀਦਾ ਹੈ", blurb:"ਜੋ ਤੁਹਾਨੂੰ ਆਉਂਦਾ ਹੈ, ਜੋ ਪਸੰਦ ਹੈ ਤੇ ਜੋ ਹੁਣ ਚਾਹੀਦਾ ਹੈ — ਤਿੰਨੇ ਗੱਲਾਂ ਕਹਿਣੀਆਂ ਸਿੱਖੋ।", deck:"ਹਲਕੀ-ਫੁਲਕੀ ਗੱਲਬਾਤ", body:`
 <p>ਪੰਜਾਬੀ ਵਿੱਚ ਇਹ ਤਿੰਨੇ ਗੱਲਾਂ "ਮੈਨੂੰ" ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦੀਆਂ ਹਨ: "ਮੈਨੂੰ ਤੈਰਨਾ ਆਉਂਦਾ ਹੈ", "ਮੈਨੂੰ ਚਾਹ ਪਸੰਦ ਹੈ", "ਮੈਨੂੰ ਕੌਫ਼ੀ ਚਾਹੀਦੀ ਹੈ"। ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਬੰਦਾ ਕਰਤਾ ਬਣ ਕੇ ਸਭ ਤੋਂ ਅੱਗੇ ਆਉਂਦਾ ਹੈ: <b>I can</b>, <b>I like</b>, <b>I'd like</b>। ਵਾਕ <b>To me</b> ਨਾਲ ਸ਼ੁਰੂ ਨਹੀਂ ਹੁੰਦਾ।</p>
 <h3>can: ਆਉਂਦਾ ਹੈ, ਕਰ ਸਕਦਾ ਹਾਂ</h3>
@@ -220,7 +220,7 @@ practice:[
 <div class="tip">ਸਭ ਤੋਂ ਆਮ ਗ਼ਲਤੀਆਂ: <b>He can swims.</b> ✗ → <b>He can swim.</b> ✓, ਕੈਫ਼ੇ ਵਿੱਚ <b>I like a coffee.</b> ✗ → <b>I'd like a coffee.</b> ✓</div>`,
 check:[["She can ___ very well. ਖ਼ਾਲੀ ਥਾਂ ਵਿੱਚ ਕੀ ਆਵੇਗਾ?",["sings","sing","singing","to sing"],1,"can ਤੋਂ ਬਾਅਦ V1 ਆਉਂਦਾ ਹੈ।"],["\"ਮੈਨੂੰ ਖਾਣਾ ਬਣਾਉਣਾ ਪਸੰਦ ਹੈ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?",["I like cook.","I'd like cook.","I like to cooking.","I like cooking."],3,"like ਤੋਂ ਬਾਅਦ -ing ਰੂਪ ਆਉਂਦਾ ਹੈ।"],["ਕੈਫ਼ੇ ਵਿੱਚ ਆਰਡਰ ਕਰਨ ਲਈ ਸਭ ਤੋਂ ਢੁਕਵਾਂ ਵਾਕ ਕਿਹੜਾ ਹੈ?",["I'd like a coffee, please.","I like a coffee.","I can a coffee.","Give me coffee."],0,"ਜੋ ਹੁਣ ਚਾਹੀਦਾ ਹੈ, ਉਹ I'd like ਨਾਲ ਮੰਗੋ।"]],
 practice:[
-["mc","He can ___ Korean.","speak","speaks","speaking","to speak","can ਤੋਂ ਬਾਅਦ V1 ਆਉਂਦਾ ਹੈ; he ਨਾਲ ਵੀ -s ਨਹੀਂ ਲੱਗਦਾ।"],
+["mc","He can ___ Punjabi.","speak","speaks","speaking","to speak","can ਤੋਂ ਬਾਅਦ V1 ਆਉਂਦਾ ਹੈ; he ਨਾਲ ਵੀ -s ਨਹੀਂ ਲੱਗਦਾ।"],
 ["mc","\"ਮੈਨੂੰ ਗੱਡੀ ਚਲਾਉਣੀ ਨਹੀਂ ਆਉਂਦੀ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","I can't drive.","I don't can drive.","I can't driving.","I'm not can drive.","can ਦਾ ਨਾਂਹ ਵਾਲਾ ਰੂਪ can't ਹੈ।"],
 ["mc","\"ਮੈਨੂੰ ਫ਼ਿਲਮਾਂ ਦੇਖਣਾ ਪਸੰਦ ਹੈ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","I like watching movies.","I like watch movies.","I like watching movie.","I'd like watch movies.","like ਤੋਂ ਬਾਅਦ -ing; ਆਮ ਗੱਲ ਹੈ, ਇਸ ਲਈ ਬਹੁਵਚਨ movies।"],
 ["mc","ਆਰਡਰ ਕਰਨ ਵੇਲੇ \"ਮੈਨੂੰ ਇੱਕ ਕੌਫ਼ੀ ਚਾਹੀਦੀ ਹੈ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","I'd like a coffee, please.","I like a coffee, please.","I'd like coffee a, please.","I like coffees.","ਜੋ ਹੁਣ ਚਾਹੀਦਾ ਹੈ, ਉਹ I'd like ਨਾਲ ਮੰਗੋ।"],
@@ -231,7 +231,7 @@ practice:[
 ["fi","I can't __.","ਮੈਨੂੰ ਤੈਰਨਾ ਨਹੀਂ ਆਉਂਦਾ","swim","swimming|swims|to swim","can't ਤੋਂ ਬਾਅਦ V1 ਆਉਂਦਾ ਹੈ।"],
 ["fi","I like __ music.","ਮੈਨੂੰ ਸੰਗੀਤ ਸੁਣਨਾ ਪਸੰਦ ਹੈ","listening to","listen to|listen|to listening","like ਤੋਂ ਬਾਅਦ -ing ਰੂਪ ਆਉਂਦਾ ਹੈ: listening to।"],
 ["fi","__ like a sandwich, please.","ਮੈਨੂੰ ਇੱਕ ਸੈਂਡਵਿਚ ਚਾਹੀਦਾ ਹੈ","I'd|I would","I|I'm|I can","ਆਰਡਰ I'd like ਨਾਲ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।"],
-["ty","ਮੈਨੂੰ ਖਾਣਾ ਬਣਾਉਣਾ ਪਸੰਦ ਹੈ","I like cooking|I love cooking|I like to cook","like · cook — -ing ਰੂਪ","cook","like ਤੋਂ ਬਾਅਦ -ing ਰੂਪ ਆਉਂਦਾ ਹੈ।"],
+["ty","ਮੈਨੂੰ ਖਾਣਾ ਬਣਾਉਣਾ ਪਸੰਦ ਹੈ","I like cooking|I love cooking|I like to cook|I love to cook","like · cook — -ing ਰੂਪ","cook","like ਤੋਂ ਬਾਅਦ -ing ਰੂਪ ਆਉਂਦਾ ਹੈ।"],
 ["ty","(ਕੈਫ਼ੇ ਵਿੱਚ ਆਰਡਰ) ਮੈਨੂੰ ਇੱਕ ਸੈਂਡਵਿਚ ਚਾਹੀਦਾ ਹੈ","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich|Could I have a sandwich|Could I get a sandwich","I'd like · sandwich — ਆਰਟੀਕਲ a","the","ਕੋਈ ਵੀ ਇੱਕ ਸੈਂਡਵਿਚ, ਇਸ ਲਈ ਆਰਟੀਕਲ a।"],
 ["ty","ਮੈਨੂੰ ਕੁੱਤੇ ਪਸੰਦ ਹਨ","I like dogs|I love dogs","like · dog — ਬਹੁਵਚਨ","dog","ਸਾਰੇ ਕੁੱਤਿਆਂ ਦੀ ਆਮ ਗੱਲ ਹੋਵੇ ਤਾਂ ਬਹੁਵਚਨ dogs।"]]},
 { id:"continuous", title:"ਹੁਣ ਚੱਲ ਰਿਹਾ ਕੰਮ: be + -ing", blurb:"\"ਕਰਦਾ ਹਾਂ\" = Simple Present, \"ਕਰ ਰਿਹਾ ਹਾਂ\" = be + -ing। ਪਰ know, want, have ਨਾਲ -ing ਨਹੀਂ ਲੱਗਦਾ।", deck:"ਹਲਕੀ-ਫੁਲਕੀ ਗੱਲਬਾਤ", body:`
@@ -260,7 +260,7 @@ practice:[
 ["fi","She __ working today.","ਉਹ (ਕੁੜੀ) ਅੱਜ ਕੰਮ ਨਹੀਂ ਕਰ ਰਹੀ","isn't|is not","doesn't|don't|not","be + -ing ਦਾ ਨਾਂਹ ਵਾਲਾ ਰੂਪ: isn't।"],
 ["ty","ਮੈਂ ਹੁਣ ਖਾਣਾ ਬਣਾ ਰਿਹਾ ਹਾਂ (cook ਵਰਤੋ)","I'm cooking now|I'm cooking|I'm cooking right now","I'm · cook — -ing ਰੂਪ · now","cook","ਹੁਣ ਚੱਲ ਰਿਹਾ ਕੰਮ: be + -ing।"],
 ["ty","ਮੈਂ ਇੱਕ ਫ਼ਿਲਮ ਦੇਖ ਰਹੀ ਹਾਂ (movie ਵਰਤੋ)","I'm watching a movie","I'm · watching · movie — ਆਰਟੀਕਲ a","the","ਕੋਈ ਇੱਕ ਫ਼ਿਲਮ, ਜਿਸ ਦਾ ਜ਼ਿਕਰ ਪਹਿਲੀ ਵਾਰ ਹੈ — ਆਰਟੀਕਲ a।"],
-["ty","ਬੱਚੇ ਸੌਂ ਰਹੇ ਹਨ","The kids are sleeping|The children are sleeping","the kids · are · sleeping — ਬਹੁਵਚਨ","kid","ਕਈ ਬੱਚੇ ਹਨ, ਇਸ ਲਈ ਬਹੁਵਚਨ kids ਤੇ are; ਆਪਣੇ ਘਰ ਦੇ ਜਾਣੇ-ਪਛਾਣੇ ਬੱਚੇ ਹਨ, ਇਸ ਲਈ ਆਰਟੀਕਲ the।"]]},
+["ty","ਬੱਚੇ ਸੌਂ ਰਹੇ ਹਨ (The ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ)","The kids are sleeping|The children are sleeping","the kids · are · sleeping — ਬਹੁਵਚਨ","kid","ਕਈ ਬੱਚੇ ਹਨ, ਇਸ ਲਈ ਬਹੁਵਚਨ kids ਤੇ are; ਆਪਣੇ ਘਰ ਦੇ ਜਾਣੇ-ਪਛਾਣੇ ਬੱਚੇ ਹਨ, ਇਸ ਲਈ ਆਰਟੀਕਲ the।"]]},
 { id:"past", title:"Simple Past: was / were ਤੇ -ed", blurb:"be ਦਾ past ਹੈ was / were; ਹੋਰ ਕਿਰਿਆਵਾਂ ਨਾਲ -ed। ਸਵਾਲ ਤੇ ਨਾਂਹ ਲਈ did।", deck:"ਹਲਕੀ-ਫੁਲਕੀ ਗੱਲਬਾਤ", body:`
 <p>ਬੀਤੀ ਗੱਲ ਲਈ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ Simple Past ਹੈ (ਜਿਸ ਨੂੰ Past Indefinite ਵੀ ਕਹਿੰਦੇ ਹਨ)। ਧਿਆਨ ਰੱਖੋ: ਪੰਜਾਬੀ ਦਾ "ਸੀ" ਹਰ ਵਾਰ <b>was</b> ਨਹੀਂ ਹੁੰਦਾ। "ਮੈਂ ਥੱਕਿਆ ਹੋਇਆ ਸੀ" = <b>I was tired</b>, ਪਰ "ਮੈਂ ਕੰਮ ਕੀਤਾ ਸੀ" = <b>I worked</b>; <b>I was worked</b> ✗। be ਦਾ past ਵੱਖਰਾ ਹੈ ਤੇ ਹੋਰ ਕਿਰਿਆਵਾਂ ਦਾ ਵੱਖਰਾ।</p>
 <h3>be ਦਾ past: was / were</h3>
@@ -307,10 +307,10 @@ practice:[
 ["or","ਮੈਂ ਇੱਕ ਫ਼ਿਲਮ ਦੇਖੀ","I saw a movie","see movies","ਇੱਕ ਫ਼ਿਲਮ ਸੀ, ਇਸ ਲਈ ਆਰਟੀਕਲ a ਤੇ ਇੱਕਵਚਨ movie। see ਦਾ V2 saw ਹੈ।"],
 ["or","ਅਸੀਂ ਪੀਜ਼ਾ ਖਾਧਾ","We ate pizza","eated","eat ਦਾ V2 ate ਹੈ।"],
 ["or","ਮੈਂ ਆਪਣੇ ਦੋਸਤਾਂ ਨੂੰ ਮਿਲਿਆ","I met my friends","friend meet","ਕਈ ਦੋਸਤ ਹਨ, ਇਸ ਲਈ ਬਹੁਵਚਨ friends।"],
-["fi","I __ to Jeju last year.","ਮੈਂ ਪਿਛਲੇ ਸਾਲ ਜੇਜੂ ਗਈ ਸੀ","went","go|goed|gone","go ਦਾ V2 went ਹੈ।"],
+["fi","I __ to Goa last year.","ਮੈਂ ਪਿਛਲੇ ਸਾਲ ਗੋਆ ਗਈ ਸੀ","went","go|goed|gone","go ਦਾ V2 went ਹੈ।"],
 ["fi","What did you __?","ਤੁਸੀਂ ਕੀ ਖਾਧਾ?","eat","ate|eaten|eating","did ਤੋਂ ਬਾਅਦ V1 ਆਉਂਦਾ ਹੈ: eat।"],
 ["fi","She __ a new phone.","ਉਸ (ਕੁੜੀ) ਨੇ ਨਵਾਂ ਫ਼ੋਨ ਖ਼ਰੀਦਿਆ","bought","buyed|buy|buys","buy ਦਾ V2 bought ਹੈ।"],
-["ty","ਮੈਂ ਬੁਸਾਨ ਗਿਆ ਸੀ","I went to Busan","went · to · Busan","go","go ਦਾ V2 went ਹੈ।"],
+["ty","ਮੈਂ ਚੰਡੀਗੜ੍ਹ ਗਿਆ ਸੀ","I went to Chandigarh","went · to · Chandigarh","go","go ਦਾ V2 went ਹੈ।"],
 ["ty","ਮੈਂ ਇੱਕ ਕਿਤਾਬ ਖ਼ਰੀਦੀ","I bought a book","bought · book — ਆਰਟੀਕਲ a","the","ਇੱਕ ਕਿਤਾਬ, ਜਿਸ ਦਾ ਜ਼ਿਕਰ ਪਹਿਲੀ ਵਾਰ ਹੈ — ਆਰਟੀਕਲ a।"],
 ["ty","ਮੈਂ ਆਪਣੇ ਦੋਸਤਾਂ ਨੂੰ ਮਿਲਿਆ","I met my friends|I saw my friends","met · my · friend — ਬਹੁਵਚਨ","friend","ਕਈ ਦੋਸਤ ਹਨ, ਇਸ ਲਈ ਬਹੁਵਚਨ friends।"]]},
 { id:"the", title:"the ਦੁਬਾਰਾ: ਪਹਿਲੀ ਵਾਰ a, ਅਗਲੀ ਵਾਰ the", blurb:"ਪਹਿਲੀ ਵਾਰ ਜ਼ਿਕਰ ਹੋਵੇ ਤਾਂ a; ਜਿਸ ਚੀਜ਼ ਦਾ ਦੋਵਾਂ ਨੂੰ ਪਤਾ ਹੋਵੇ, ਉਸ ਨਾਲ the; ਆਮ ਗੱਲ ਵਿੱਚ ਕੋਈ ਆਰਟੀਕਲ ਨਹੀਂ।", deck:"ਰਾਹ ਤੇ ਆਵਾਜਾਈ", body:`
@@ -366,8 +366,8 @@ practice:[
 ["fi","This is cheaper __ that one.","ਇਹ ਉਸ ਨਾਲੋਂ ਸਸਤਾ ਹੈ","than","then|that|more","ਤੁਲਨਾ ਵਾਲਾ \"ਤੋਂ / ਨਾਲੋਂ\" = than।"],
 ["fi","It's the __ expensive one.","ਇਹ ਸਭ ਤੋਂ ਮਹਿੰਗਾ ਹੈ","most","more|much|very","ਲੰਮੇ ਸ਼ਬਦ ਦਾ superlative: the most।"],
 ["ty","ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਇਸ ਤੋਂ ਛੋਟਾ ਸਾਈਜ਼ ਹੈ? (6 ਸ਼ਬਦ)","Do you have a smaller size","smaller · size — ਆਰਟੀਕਲ a","the","ਕੋਈ ਵੀ ਇੱਕ ਛੋਟਾ ਸਾਈਜ਼ ਚਾਹੀਦਾ ਹੈ, ਇਸ ਲਈ ਆਰਟੀਕਲ a।"],
-["ty","ਇਹ ਸਭ ਤੋਂ ਵਧੀਆ ਹੈ","This is the best|This one is the best","the · best — ਆਰਟੀਕਲ the","a","superlative ਤੋਂ ਪਹਿਲਾਂ ਆਰਟੀਕਲ the ਲੱਗਦਾ ਹੈ।"],
-["ty","ਇਹ ਜ਼ਿਆਦਾ ਸਸਤਾ ਹੈ","This is cheaper|This one is cheaper","cheap — comparative ਬਣਾਓ","more","ਛੋਟੇ ਸ਼ਬਦ ਨਾਲ -er ਲੱਗਦਾ ਹੈ, more ਨਹੀਂ।"]]},
+["ty","ਇਹ ਸਭ ਤੋਂ ਵਧੀਆ ਹੈ","This is the best|This one is the best|It's the best","the · best — ਆਰਟੀਕਲ the","a","superlative ਤੋਂ ਪਹਿਲਾਂ ਆਰਟੀਕਲ the ਲੱਗਦਾ ਹੈ।"],
+["ty","ਇਹ ਜ਼ਿਆਦਾ ਸਸਤਾ ਹੈ","This is cheaper|This one is cheaper|It's cheaper","cheap — comparative ਬਣਾਓ","more","ਛੋਟੇ ਸ਼ਬਦ ਨਾਲ -er ਲੱਗਦਾ ਹੈ, more ਨਹੀਂ।"]]},
 { id:"going-to", title:"ਪਲਾਨ ਦੱਸਣਾ: be going to", blurb:"ਜੋ ਕੰਮ ਕਰਨ ਦਾ ਮਨ ਪਹਿਲਾਂ ਹੀ ਬਣਾ ਲਿਆ ਹੈ: be going to + ਕਿਰਿਆ।", deck:"ਹਲਕੀ-ਫੁਲਕੀ ਗੱਲਬਾਤ", body:`
 <p>"ਮੈਂ … ਕਰਨ ਵਾਲਾ ਹਾਂ" — ਜਦੋਂ <b>ਪਲਾਨ ਪਹਿਲਾਂ ਤੋਂ ਬਣਿਆ ਹੋਵੇ</b>, ਤਾਂ ਇਹ ਢਾਂਚਾ ਵਰਤੋ: <b>be + going to + V1</b>।</p>
 {{ex:I'm going to visit Chandigarh.|ਆਈਮ ˈਗੋਇਙ ਟ ˈਵ਼ਿਜ਼ਿਟ ˈਚੰਡਿਗਾਰ|ਮੈਂ ਚੰਡੀਗੜ੍ਹ ਜਾਣ ਵਾਲੀ ਹਾਂ}}{{ex:She's going to buy a car.|ਸ਼ੀਜ਼ ˈਗੋਇਙ ਟ ਬਾਈ ਅ ਕਾਰ|ਉਹ ਕਾਰ ਖ਼ਰੀਦਣ ਵਾਲੀ ਹੈ}}{{ex:We're going to have dinner.|ਵਿਰ ˈਗੋਇਙ ਟ ਹੈਵ਼ ˈਡਿਨਰ|ਅਸੀਂ ਰਾਤ ਦਾ ਖਾਣਾ ਖਾਣ ਵਾਲੇ ਹਾਂ}}
@@ -380,7 +380,7 @@ practice:[
 <div class="tip">ਬੋਲਣ ਵੇਲੇ going to ਅਕਸਰ <b>gonna</b> ਵਾਂਗ ਸੁਣਦਾ ਹੈ। ਤੇ be ਨਾ ਛੱਡੋ: <b>I going to go.</b> ✗ → <b>I'm going to go.</b> ✓</div>`,
 check:[["\"ਮੈਂ ਕੱਲ੍ਹ ਨੂੰ ਆਪਣੇ ਦੋਸਤ ਨੂੰ ਮਿਲਣ ਵਾਲਾ ਹਾਂ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?",["I going to meet my friend tomorrow.","I'm going to meet my friend tomorrow.","I'm going meet my friend tomorrow.","I'm go to meet my friend tomorrow."],1,"ਢਾਂਚਾ: be + going to + V1।"],["She ___ going to study. ਖ਼ਾਲੀ ਥਾਂ ਵਿੱਚ ਕੀ ਆਵੇਗਾ?",["am","are","is","be"],2,"she ਨਾਲ is।"],["\"ਇਸ ਵੀਕਐਂਡ ਤੁਸੀਂ ਕੀ ਕਰਨ ਵਾਲੇ ਹੋ?\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?",["What are you going to do this weekend?","What do you going to do this weekend?","What you are going to do this weekend?","What are you going do this weekend?"],0,"ਤਰਤੀਬ: wh-ਸ਼ਬਦ + be + ਕਰਤਾ + going to।"]],
 practice:[
-["mc","\"ਮੈਂ ਬੁਸਾਨ ਜਾਣ ਵਾਲਾ ਹਾਂ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","I'm going to go to Busan.","I going to go to Busan.","I'm going go to Busan.","I'm go to Busan going.","ਢਾਂਚਾ: be + going to + V1।"],
+["mc","\"ਮੈਂ ਚੰਡੀਗੜ੍ਹ ਜਾਣ ਵਾਲਾ ਹਾਂ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","I'm going to go to Chandigarh.","I going to go to Chandigarh.","I'm going go to Chandigarh.","I'm go to Chandigarh going.","ਢਾਂਚਾ: be + going to + V1।"],
 ["mc","They ___ going to come.","are","is","am","be","they ਨਾਲ are।"],
 ["mc","\"ਮੀਂਹ ਪੈਣ ਵਾਲਾ ਹੈ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","It's going to rain.","It going to rain.","It's going rain.","It's going to rains.","going to ਤੋਂ ਬਾਅਦ V1 ਆਉਂਦਾ ਹੈ: rain।"],
 ["mc","\"ਮੈਂ ਨਹੀਂ ਜਾਣ ਵਾਲੀ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?","I'm not going to go.","I don't going to go.","I'm not going go.","I'm going not to go.","not ਨੂੰ be ਤੋਂ ਠੀਕ ਬਾਅਦ ਲਾਓ: I'm not going to …"],
@@ -391,9 +391,9 @@ practice:[
 ["fi","I'm going __ study tonight.","ਮੈਂ ਅੱਜ ਰਾਤ ਪੜ੍ਹਨ ਵਾਲੀ ਹਾਂ","to","for|at|will","ਢਾਂਚਾ: going to + V1।"],
 ["fi","__ you going to come?","ਕੀ ਤੁਸੀਂ ਆਉਣ ਵਾਲੇ ਹੋ?","Are","Do|Is|Will","you ਨਾਲ Are।"],
 ["fi","It's going to __ tomorrow.","ਕੱਲ੍ਹ ਨੂੰ ਮੀਂਹ ਪੈਣ ਵਾਲਾ ਹੈ","rain","rains|raining|rained","going to ਤੋਂ ਬਾਅਦ V1 ਆਉਂਦਾ ਹੈ: rain।"],
-["ty","ਮੈਂ ਇੱਕ ਫ਼ਿਲਮ ਦੇਖਣ ਵਾਲਾ ਹਾਂ (movie ਵਰਤੋ)","I'm going to watch a movie|I'm going to see a movie","going to · watch · movie — ਆਰਟੀਕਲ a","the","ਕੋਈ ਇੱਕ ਫ਼ਿਲਮ, ਇਸ ਲਈ ਆਰਟੀਕਲ a।"],
-["ty","ਤੁਸੀਂ ਕੀ ਕਰਨ ਵਾਲੇ ਹੋ?","What are you going to do","what · going to · do","will","ਪਲਾਨ ਪੁੱਛਣ ਲਈ be going to।"],
-["ty","ਮੈਂ ਆਪਣੇ ਦੋਸਤਾਂ ਨੂੰ ਮਿਲਣ ਵਾਲੀ ਹਾਂ","I'm going to meet my friends|I'm going to see my friends","going to · meet · friend — ਬਹੁਵਚਨ","friend","ਕਈ ਦੋਸਤ ਹਨ, ਇਸ ਲਈ ਬਹੁਵਚਨ friends।"]]},
+["ty","ਮੈਂ ਇੱਕ ਫ਼ਿਲਮ ਦੇਖਣ ਵਾਲਾ ਹਾਂ (going to ਤੇ movie ਵਰਤੋ)","I'm going to watch a movie|I'm going to see a movie","going to · watch · movie — ਆਰਟੀਕਲ a","the","ਕੋਈ ਇੱਕ ਫ਼ਿਲਮ, ਇਸ ਲਈ ਆਰਟੀਕਲ a।"],
+["ty","ਤੁਸੀਂ ਕੀ ਕਰਨ ਵਾਲੇ ਹੋ? (going to ਨਾਲ)","What are you going to do","what · going to · do","will","ਪਲਾਨ ਪੁੱਛਣ ਲਈ be going to।"],
+["ty","ਮੈਂ ਆਪਣੇ ਦੋਸਤਾਂ ਨੂੰ ਮਿਲਣ ਵਾਲੀ ਹਾਂ (going to ਨਾਲ)","I'm going to meet my friends|I'm going to see my friends","going to · meet · friend — ਬਹੁਵਚਨ","friend","ਕਈ ਦੋਸਤ ਹਨ, ਇਸ ਲਈ ਬਹੁਵਚਨ friends।"]]},
 { id:"joining", title:"ਵਾਕ ਜੋੜਨਾ: and, but, or, so, because", blurb:"ਦੋ ਛੋਟੇ ਵਾਕ ਜੋੜ ਕੇ ਇੱਕ ਬਣਾਓ। because ਜਾਂ so — ਦੋਵੇਂ ਇਕੱਠੇ ਨਹੀਂ।", deck:"ਜਜ਼ਬਾਤ ਤੇ ਹੁੰਗਾਰੇ", body:`
 <p>ਸਿਰਫ਼ ਛੋਟੇ-ਛੋਟੇ ਵਾਕ ਬੋਲੋ ਤਾਂ ਗੱਲ ਟੁੱਟਵੀਂ ਲੱਗਦੀ ਹੈ। ਇਹ ਪੰਜ ਯੋਜਕ (ਜੋੜਨ ਵਾਲੇ ਸ਼ਬਦ) ਵਰਤੋ ਤਾਂ ਗੱਲ ਬਹੁਤ ਸੁਭਾਵਿਕ ਲੱਗਦੀ ਹੈ।</p>
 <h3>and, but, or</h3>
@@ -455,6 +455,6 @@ practice:[
 ["fi","I moved to Chandigarh five years __.","ਮੈਂ ਪੰਜ ਸਾਲ ਪਹਿਲਾਂ ਚੰਡੀਗੜ੍ਹ ਆਇਆ ਸੀ (ਵਿਦੇਸ਼ ਵਿੱਚ)","ago","back|before|from","years back ਭਾਰਤ ਵਿੱਚ ਚੱਲਦਾ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ years ago।"],
 ["ty","ਮੈਨੂੰ ਕੁਝ ਸਲਾਹ ਚਾਹੀਦੀ ਹੈ","I need some advice|I need advice|I want some advice|I'd like some advice","need · advice — ਨਾ-ਗਿਣਨਯੋਗ","advices","advice ਨਾ-ਗਿਣਨਯੋਗ ਹੈ: advices ਨਹੀਂ ਹੁੰਦਾ।"],
 ["ty","ਕੀ ਤੁਸੀਂ ਮੈਨੂੰ ਰਿਪੋਰਟ ਭੇਜ ਸਕਦੇ ਹੋ?","Could you send me the report|Can you send me the report|Could you please send me the report|Can you please send me the report|Please send me the report|Can you send me the report please|Could you send me the report please|Can you send the report to me|Could you send the report to me","could you · send · report — ਆਰਟੀਕਲ the","a","ਕਿਹੜੀ ਰਿਪੋਰਟ, ਦੋਵਾਂ ਨੂੰ ਪਤਾ ਹੈ — ਆਰਟੀਕਲ the। Kindly ਵੀ ਚੱਲਦਾ ਹੈ, ਪਰ ਵਿਦੇਸ਼ ਵਿੱਚ please ਜਾਂ Could you ਜ਼ਿਆਦਾ ਆਮ ਹੈ।"],
-["ty","ਚਲੋ, ਇੱਕ ਫ਼ੋਟੋ ਖਿੱਚੀਏ","Let's take a photo|Let's take a picture|Let's take a pic","let's · take · photo — ਆਰਟੀਕਲ a","pull the","ਫ਼ੋਟੋ ਨਾਲ pull ਨਹੀਂ, take ਲੱਗਦਾ ਹੈ; ਇੱਕ ਫ਼ੋਟੋ — ਆਰਟੀਕਲ a।"],
-["ty","ਮੈਂ ਲੁਧਿਆਣੇ ਤੋਂ ਹਾਂ","I'm from Ludhiana|I come from Ludhiana","I'm · from · Ludhiana","belong","I belong to Ludhiana ਭਾਰਤ ਵਿੱਚ ਚੱਲਦਾ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ ਆਪਣਾ ਸ਼ਹਿਰ ਦੱਸਣ ਲਈ I'm from Ludhiana।"]]},
+["ty","ਚਲੋ, ਇੱਕ ਫ਼ੋਟੋ ਖਿੱਚੀਏ (ਵਿਦੇਸ਼ ਵਿੱਚ)","Let's take a photo|Let's take a picture|Let's take a pic","let's · take · photo — ਆਰਟੀਕਲ a","pull the","ਫ਼ੋਟੋ ਨਾਲ pull ਨਹੀਂ, take ਲੱਗਦਾ ਹੈ; ਇੱਕ ਫ਼ੋਟੋ — ਆਰਟੀਕਲ a।"],
+["ty","ਮੈਂ ਲੁਧਿਆਣੇ ਤੋਂ ਹਾਂ (ਵਿਦੇਸ਼ ਵਿੱਚ)","I'm from Ludhiana|I come from Ludhiana","I'm · from · Ludhiana","belong","I belong to Ludhiana ਭਾਰਤ ਵਿੱਚ ਚੱਲਦਾ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ ਆਪਣਾ ਸ਼ਹਿਰ ਦੱਸਣ ਲਈ I'm from Ludhiana।"]]},
 ];
