@@ -1,242 +1,268 @@
-/* TRANSLATE/ADAPT (pa): scaffolded from tools/content/ko/lessons.js by new_lang.js.
-   Translate/adapt everything that is not English (the ko text) for pa speakers (prompts, why, hint, meanings, pron per profile.json, deck and group names,
-   explanations written from the pa point of view — PILOT-SPEC §3). Keep every English string, lesson id and answer position
-   identical to ko-en unless deviations.json gives a reason (parity.js enforces it). Delete this banner when the file is done. */
 exports.LESSONS = [
-{ id:"alphabet", title:"1 · 알파벳: 글자 이름과 철자 불러 주기", blurb:"글자는 읽을 줄 알아도 영어 이름은 헷갈리죠? 이름·이메일 철자를 영어로 또박또박 불러 봐요.", deck:"알파벳", body:`
-<p>호텔 예약, 전화 상담, 카페 주문에서 꼭 듣는 말이 있어요. "철자가 어떻게 돼요?" 내 이름, 이메일 주소, 예약 번호를 불러 주려면 글자마다 <b>영어 이름</b>을 알아야 해요. 한국에서 배운 읽는 법(제트, 알 등)과 다른 이름도 있어서, 한 번 정리해 두면 훨씬 편해요.</p>
-<h3>글자 26개의 이름</h3>
-<p>굵은 글자 다섯 개 <b>A E I O U</b>가 모음이에요. 나머지는 자음이에요.</p>
-<div class="tbl"><table><tr><td class="k"><b>A</b> 에이</td><td class="k">B 비 (b)</td><td class="k">C 씨</td><td class="k">D 디</td><td class="k"><b>E</b> 이</td></tr><tr><td class="k">F 에프</td><td class="k">G 지 (g)</td><td class="k">H 에이치</td><td class="k"><b>I</b> 아이</td><td class="k">J 제이</td></tr><tr><td class="k">K 케이</td><td class="k">L 엘</td><td class="k">M 엠</td><td class="k">N 엔</td><td class="k"><b>O</b> 오우</td></tr><tr><td class="k">P 피</td><td class="k">Q 큐</td><td class="k">R 아r</td><td class="k">S 에스</td><td class="k">T 티</td></tr><tr><td class="k"><b>U</b> 유</td><td class="k">V 비 (v)</td><td class="k">W 더블유</td><td class="k">X 엑스</td><td class="k">Y 와이</td></tr><tr><td class="k">Z 지 (z)</td><td></td><td></td><td></td><td></td></tr></table></div>
-<h3>한국 사람이 자주 헷갈리는 이름</h3>
-<div class="tbl"><table><tr><th>글자</th><th>영어 이름</th><th>주의할 점</th></tr><tr><td class="k">G / J / Z</td><td>지 (g) / 제이 / 지 (z)</td><td>G는 '쥐'에 가까운 '지', Z는 성대를 울리는 z 소리의 zee예요. 미국에서 '제트'는 안 통해요</td></tr><tr><td class="k">E / I</td><td>이 / 아이</td><td>E가 '이', I가 '아이'예요. 이메일 주소에서 특히 많이 틀려요</td></tr><tr><td class="k">B / V</td><td>비 (b) / 비 (v)</td><td>B는 두 입술, V는 윗니를 아랫입술에 대요</td></tr><tr><td class="k">P / F</td><td>피 / 에프</td><td>F는 '에프' 끝에서 윗니를 아랫입술에 대요</td></tr><tr><td class="k">L / R</td><td>엘 / 아r</td><td>R은 '알'이 아니에요. 혀를 뒤로 말고 어디에도 닿지 않게 해요</td></tr><tr><td class="k">W</td><td>더블유</td><td>double u, 'U 두 개'라는 뜻이에요. 세 음절을 다 말해요</td></tr></table></div>
-<h3>철자 묻고 불러 주기</h3>
-<p>잘 안 들리는 글자는 <b>"B as in boy"</b>처럼 그 글자로 시작하는 쉬운 단어를 붙여서 확인해요.</p>
-{{ex:How do you spell that?|하우 두 유 스펠 댓?|철자가 어떻게 돼요?}}{{ex:How do you spell your last name?|하우 두 유 스펠 유어 래스트 네임?|성은 철자가 어떻게 돼요?}}{{ex:Can you spell that, please?|캔 유 스펠 댓, 플리즈?|철자 좀 불러 주시겠어요?}}{{ex:It starts with a capital T.|잇 스타츠 위드 어 캐피털 티|대문자 T로 시작해요}}{{ex:B as in boy.|비 애즈 인 보이|boy의 B요}}{{ex:Is that M as in Mary?|이즈 댓 엠 애즈 인 메리?|Mary의 M 맞아요?}}{{ex:There are two Ls in hello.|데어 아 투 엘즈 인 헬로우|hello에는 L이 두 개 있어요}}
-<h3>글자 이름 앞의 a와 an</h3>
-<p>관사는 철자가 아니라 <b>이름의 첫소리</b>로 정해요. F(에프), H(에이치), L(엘), M(엠), N(엔), R(아r), S(에스), X(엑스)는 이름이 모음 소리로 시작해서 <b>an F, an H, an L, an M, an N, an R, an S, an X</b>예요.</p>
-<p>반대로 U는 모음 글자지만 이름이 y 소리 '유'로 시작해서 <b>a U</b>예요. a university와 같은 원리예요.</p>
-<div class="tip">이메일 불러 주기 공식: 대문자는 <b>capital T</b>, 같은 글자 두 개는 <b>double L</b>, @는 <b>at</b>, 점(.)은 <b>dot</b>이에요. 예: jay.park@mail.com → "jay dot park at mail dot com".</div>`},
+{ id:"alphabet", title:"1 · ਅੰਗਰੇਜ਼ੀ ਵਰਣਮਾਲਾ: ਅੱਖਰਾਂ ਦੇ ਨਾਂ ਤੇ ਸਪੈਲਿੰਗ ਦੱਸਣਾ", blurb:"A, B, C ਤੁਸੀਂ ਪਛਾਣ ਲੈਂਦੇ ਹੋ, ਪਰ ਕੀ ਫ਼ੋਨ ਤੇ ਆਪਣਾ ਨਾਂ ਜਾਂ ਈਮੇਲ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਸਾਫ਼-ਸਾਫ਼ ਸਪੈਲ ਕਰ ਲੈਂਦੇ ਹੋ? ਅੱਖਰਾਂ ਦੇ ਅੰਗਰੇਜ਼ੀ ਨਾਂ ਪੱਕੇ ਕਰੋ।", deck:"ਅੰਗਰੇਜ਼ੀ ਵਰਣਮਾਲਾ", body:`
+<p>ਹੋਟਲ ਦੀ ਬੁਕਿੰਗ, ਕਸਟਮਰ ਕੇਅਰ ਦੀ ਕਾਲ, ਏਅਰਪੋਰਟ ਦਾ ਕਾਊਂਟਰ — ਹਰ ਥਾਂ ਇਹ ਸਵਾਲ ਆਉਂਦਾ ਹੈ: "ਸਪੈਲਿੰਗ ਕੀ ਹੈ?" ਆਪਣਾ ਨਾਂ, ਈਮੇਲ ਪਤਾ ਜਾਂ ਬੁਕਿੰਗ ਕੋਡ ਦੱਸਣ ਲਈ ਹਰ ਅੱਖਰ ਦਾ <b>ਅੰਗਰੇਜ਼ੀ ਨਾਂ</b> ਸਾਫ਼ ਬੋਲਣਾ ਜ਼ਰੂਰੀ ਹੈ। ਅੱਖਰ ਤੁਸੀਂ ਸਕੂਲ ਤੋਂ ਪਛਾਣਦੇ ਹੋ; ਇਹ ਪਾਠ ਉਹਨਾਂ ਦੇ ਨਾਂ ਬਾਰੇ ਹੈ। ਕੁਝ ਨਾਂ ਭਾਰਤ ਤੇ ਅਮਰੀਕਾ ਵਿੱਚ ਵੱਖਰੇ ਬੋਲੇ ਜਾਂਦੇ ਹਨ (Z, H), ਤੇ ਫ਼ੋਨ ਤੇ ਕੁਝ ਅੱਖਰ ਇੱਕੋ ਜਿਹੇ ਸੁਣਦੇ ਹਨ।</p>
+<h3>26 ਅੱਖਰ ਤੇ ਉਹਨਾਂ ਦੇ ਨਾਂ</h3>
+<p>ਹਰ ਅੱਖਰ ਦੇ ਦੋ ਰੂਪ ਹਨ: ਵੱਡਾ (capital) A ਤੇ ਛੋਟਾ (small) a। ਮੋਟੇ ਛਪੇ ਪੰਜ ਅੱਖਰ — <b>A E I O U</b> — ਸਵਰ ਹਨ, ਬਾਕੀ ਵਿਅੰਜਨ। ਹਰ ਨਾਂ ਦਾ ਉਚਾਰਨ ਨਾਲ ਗੁਰਮੁਖੀ ਵਿੱਚ ਲਿਖਿਆ ਹੈ; ਪੈਰ-ਬਿੰਦੀ, ਹਲੰਤ ਤੇ ˈ ਨੂੰ ਪੜ੍ਹਨ ਦਾ ਤਰੀਕਾ ਅਗਲੇ ਪਾਠ ਵਿੱਚ ਹੈ।</p>
+<div class="tbl"><table><tr><td class="k"><b>A</b> ਏ</td><td class="k">B ਬੀ</td><td class="k">C ਸੀ</td><td class="k">D ਡੀ</td><td class="k"><b>E</b> ਈ</td></tr><tr><td class="k">F ਏਫ਼</td><td class="k">G ਜੀ</td><td class="k">H ਏਚ</td><td class="k"><b>I</b> ਆਈ</td><td class="k">J ਜੇ</td></tr><tr><td class="k">K ਕੇ</td><td class="k">L ਏਲ</td><td class="k">M ਏਮ</td><td class="k">N ਏਨ</td><td class="k"><b>O</b> ਓ</td></tr><tr><td class="k">P ਪੀ</td><td class="k">Q ਕਿਊ</td><td class="k">R ਆਰ</td><td class="k">S ਏਸ</td><td class="k">T ਟੀ</td></tr><tr><td class="k"><b>U</b> ਯੂ</td><td class="k">V ਵ਼ੀ</td><td class="k">W ˈਡਬਲਿਊ</td><td class="k">X ਏਕ੍ਸ</td><td class="k">Y ਵਾਈ</td></tr><tr><td class="k">Z ਜ਼ੀ</td><td></td><td></td><td></td><td></td></tr></table></div>
+<h3>ਇਹ ਨਾਂ ਆਪਸ ਵਿੱਚ ਰਲ ਜਾਂਦੇ ਹਨ</h3>
+<div class="tbl"><table><tr><th>ਅੱਖਰ</th><th>ਅਮਰੀਕੀ ਨਾਂ</th><th>ਧਿਆਨ ਦਿਓ</th></tr><tr><td class="k">Z</td><td>ਜ਼ੀ</td><td>ਭਾਰਤ, ਬ੍ਰਿਟੇਨ ਤੇ ਕੈਨੇਡਾ ਵਿੱਚ zed ਕਹਿੰਦੇ ਹਨ, ਤੇ ਉੱਥੇ ਉਹੀ ਠੀਕ ਹੈ; ਅਮਰੀਕਾ ਵਿੱਚ zee। ਦੋਵਾਂ ਵਿੱਚ ਜ਼ ਦੀ ਗੂੰਜ ਰੱਖੋ — ਜ ਨਹੀਂ</td></tr><tr><td class="k">H</td><td>ਏਚ</td><td>ਭਾਰਤ ਵਿੱਚ ਅਕਸਰ "ਹੈੱਚ" ਸੁਣਦਾ ਹੈ; ਅਮਰੀਕਾ ਵਿੱਚ ਸ਼ੁਰੂ ਵਿੱਚ ਹ ਨਹੀਂ ਬੋਲਦੇ</td></tr><tr><td class="k">G / J</td><td>ਜੀ / ਜੇ</td><td>G ਦਾ ਨਾਂ ਜੀ, J ਦਾ ਜੇ। ਫ਼ੋਨ ਤੇ ਇਹ ਦੋਵੇਂ ਸਭ ਤੋਂ ਵੱਧ ਉਲਟਦੇ ਹਨ</td></tr><tr><td class="k">E / I</td><td>ਈ / ਆਈ</td><td>E ਦਾ ਨਾਂ ਈ, I ਦਾ ਆਈ। ਈਮੇਲ ਪਤੇ ਵਿੱਚ ਖ਼ਾਸ ਧਿਆਨ ਰੱਖੋ</td></tr><tr><td class="k">V / W</td><td>ਵ਼ੀ / ˈਡਬਲਿਊ</td><td>V ਵਿੱਚ ਉੱਪਰਲੇ ਦੰਦ ਹੇਠਲੇ ਬੁੱਲ੍ਹ ਤੇ। W ਦਾ ਨਾਂ double u ਹੈ ("ਦੋ U"); ਤਿੰਨੇ ਹਿੱਸੇ ਬੋਲੋ</td></tr><tr><td class="k">B / P / D / T, M / N</td><td>ਬੀ / ਪੀ / ਡੀ / ਟੀ, ਏਮ / ਏਨ</td><td>ਫ਼ੋਨ ਤੇ ਇੱਕੋ ਜਿਹੇ ਸੁਣਦੇ ਹਨ: ਨਾਲ ਕੋਈ ਸ਼ਬਦ ਜੋੜ ਕੇ ਪੱਕਾ ਕਰੋ (ਹੇਠਾਂ ਦੇਖੋ)</td></tr></table></div>
+<h3>ਸਪੈਲਿੰਗ ਪੁੱਛਣਾ ਤੇ ਦੱਸਣਾ</h3>
+<p>ਜਿਹੜਾ ਅੱਖਰ ਸਾਫ਼ ਨਾ ਸੁਣੇ, ਉਸ ਦੇ ਨਾਲ ਉਸੇ ਅੱਖਰ ਤੋਂ ਸ਼ੁਰੂ ਹੋਣ ਵਾਲਾ ਕੋਈ ਸੌਖਾ ਸ਼ਬਦ ਜੋੜੋ: <b>B as in boy</b>। ਭਾਰਤ ਵਿੱਚ <b>B for boy</b> ਵੀ ਚੱਲਦਾ ਹੈ ਤੇ ਸਮਝ ਆ ਜਾਂਦਾ ਹੈ; ਅਮਰੀਕਾ ਵਿੱਚ as in ਵੱਧ ਸੁਣਦਾ ਹੈ। ਆਪਣਾ ਨਾਂ ਅੱਖਰ-ਅੱਖਰ ਕਰ ਕੇ ਦੱਸੋ: Simran → <b>S-I-M-R-A-N</b>।</p>
+{{ex:How do you spell that?|ਹਾਊ ਡ ਯੂ ਸ੍ਪੇਲ ਦ਼ੈਟ|ਇਸ ਦੀ ਸਪੈਲਿੰਗ ਕੀ ਹੈ?}}{{ex:How do you spell your last name?|ਹਾਊ ਡ ਯੂ ਸ੍ਪੇਲ ਯੁਰ ਲੈਸ੍ਟ ਨੇਮ|ਤੁਹਾਡੇ ਸਰਨੇਮ (last name) ਦੀ ਸਪੈਲਿੰਗ ਕੀ ਹੈ?}}{{ex:Can you spell that, please?|ਕਨ ਯੂ ਸ੍ਪੇਲ ਦ਼ੈਟ ਪ੍ਲੀਜ਼|ਕੀ ਤੁਸੀਂ ਇਸ ਦੀ ਸਪੈਲਿੰਗ ਦੱਸ ਸਕਦੇ ਹੋ?}}{{ex:It starts with a capital T.|ਇਟ ਸ੍ਟਾਰ੍ਟ੍ਸ ਵਿਦ਼ ਅ ˈਕੈਪਿਟਲ ਟੀ|ਇਹ ਵੱਡੇ T ਤੋਂ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ}}{{ex:B as in boy.|ਬੀ ਅਜ਼ ਇਨ ਬੌਈ|boy ਵਾਲਾ B}}{{ex:Is that M as in Mary?|ਇਜ਼ ਦ਼ੈਟ ਏਮ ਅਜ਼ ਇਨ ˈਮੇਰੀ|ਕੀ ਇਹ Mary ਵਾਲਾ M ਹੈ?}}{{ex:There are two Ls in hello.|ਦ਼ੇਰ ਅਰ ਟੂ ਏਲ੍ਜ਼ ਇਨ ਹˈਲੋ|hello ਵਿੱਚ ਦੋ L ਹਨ}}
+<h3>ਅੱਖਰ ਦੇ ਨਾਂ ਤੋਂ ਪਹਿਲਾਂ a ਜਾਂ an</h3>
+<p>a / an ਅੱਖਰ ਦੇਖ ਕੇ ਨਹੀਂ, ਨਾਂ ਦੀ <b>ਪਹਿਲੀ ਆਵਾਜ਼</b> ਸੁਣ ਕੇ ਚੁਣਿਆ ਜਾਂਦਾ ਹੈ — ਉਹੀ ਨਿਯਮ ਜੋ an hour ਤੇ a university ਵਿੱਚ ਹੈ। F (ਏਫ਼), H (ਏਚ), L (ਏਲ), M (ਏਮ), N (ਏਨ), R (ਆਰ), S (ਏਸ), X (ਏਕ੍ਸ) ਦੇ ਨਾਂ ਸਵਰ ਦੀ ਆਵਾਜ਼ ਤੋਂ ਸ਼ੁਰੂ ਹੁੰਦੇ ਹਨ, ਇਸ ਲਈ ਆਰਟੀਕਲ an: <b>an F, an H, an L, an M, an N, an R, an S, an X</b>।</p>
+<p>U ਸਵਰ ਹੈ, ਪਰ ਉਸ ਦਾ ਨਾਂ ਯੂ "ਯ" ਦੀ ਆਵਾਜ਼ ਤੋਂ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ, ਇਸ ਲਈ <b>a U</b>। H ਨੂੰ "ਹੈੱਚ" ਕਹਿਣ ਵਾਲੇ a H ਕਹਿੰਦੇ ਹਨ; ਅਮਰੀਕੀ ਨਾਂ ਏਚ ਸਵਰ ਤੋਂ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ, ਇਸ ਲਈ ਉਸ ਨਾਲ an H।</p>
+<div class="tip">ਈਮੇਲ ਬੋਲ ਕੇ ਦੱਸਣ ਦਾ ਤਰੀਕਾ: ਵੱਡਾ ਅੱਖਰ = <b>capital T</b>, ਇੱਕੋ ਅੱਖਰ ਦੋ ਵਾਰ = <b>double E</b>, @ = <b>at</b>, ਬਿੰਦੀ (.) = <b>dot</b>। ਜਿਵੇਂ <b>simran.gill@mail.com</b> → <b>simran dot gill at mail dot com</b>। ਭਾਰਤ ਵਿੱਚ @ ਨੂੰ ਅਕਸਰ <b>at the rate</b> ਕਹਿੰਦੇ ਹਨ; ਵਿਦੇਸ਼ ਵਿੱਚ ਸਿਰਫ਼ at ਕਹੋ। ਕੈਨੇਡਾ ਵਿੱਚ colour, centre ਲਿਖਦੇ ਹਨ ਤੇ Z ਨੂੰ zed ਕਹਿੰਦੇ ਹਨ; ਇਸ ਕੋਰਸ ਦੀ ਵਿਆਕਰਨ ਤੇ ਲਗਭਗ ਸਾਰੇ ਸ਼ਬਦ ਉੱਥੇ ਵੀ ਇਹੀ ਹਨ।</div>`},
 
-{ id:"pron", title:"1 · 발음 함정: R/L·F/P·TH·V/B", blurb:"한국어에 없는 소리 다섯 가지와 강세 — 이것만 잡아도 알아듣는 사람이 확 늘어요.", deck:"발음 주의", body:`
-<p>영어에는 한국어에 없는 소리가 몇 개 있어요. 원어민은 이 소리로 단어를 구분하기 때문에, 조금만 신경 써도 훨씬 잘 통해요. 핵심은 <b>입 모양</b>이에요. 거울을 보면서 연습해 보세요.</p>
-<h3>R과 L</h3>
-<p><b>L</b>은 혀끝을 윗니 뒤 잇몸에 <b>붙였다 떼요</b>. <b>R</b>은 혀끝이 <b>어디에도 닿지 않아요</b>. 입술을 살짝 둥글게 내밀고 혀를 뒤로 당긴 채 "(우)롸" 하듯 시작해요.</p>
-{{ex:rice|롸이스|쌀, 밥}}{{ex:lice|라이스|이 (벌레)}}{{ex:right|롸잇|오른쪽, 맞는}}{{ex:light|라잇|빛, 가벼운}}
-<h3>F·V와 P·B</h3>
-<div class="tbl"><table><tr><th>소리</th><th>입 모양</th><th>예</th></tr><tr><td class="k">F</td><td>윗니를 아랫입술에 대고 바람만</td><td>fan, coffee</td></tr><tr><td class="k">P</td><td>두 입술을 붙였다 터뜨림</td><td>pan, copy</td></tr><tr><td class="k">V</td><td>F 입 모양 + 성대 울림</td><td>very, vote</td></tr><tr><td class="k">B</td><td>P 입 모양 + 성대 울림</td><td>berry, boat</td></tr></table></div>
-{{ex:fan|팬 (f)|선풍기}}{{ex:pan|팬 (p)|프라이팬}}{{ex:very|베리 (v)|매우}}{{ex:berry|베리 (b)|딸기류 열매}}
-<h3>TH</h3>
-<p>혀끝을 윗니와 아랫니 사이로 <b>살짝 내밀고</b> 바람을 내보내요. 바람만 나가면 <i>think</i>의 th, 성대가 울리면 <i>this</i>의 th예요. ㅆ이나 ㄸ으로 바꾸면 <i>sink</i>, <i>tree</i>처럼 다른 단어로 들려요.</p>
-{{ex:think|띵크 (th)|생각하다}}{{ex:three|쓰리 (th)|숫자 3}}{{ex:this|디스 (th)|이것}}
-<h3>끝 자음에 '으'를 붙이지 마세요</h3>
-<p>한국어 습관대로 milk를 "밀크으", bus를 "버스으"처럼 말하면 음절이 하나 더 생겨요. 영어의 끝 자음은 <b>모음 없이 짧게</b> 끝나요. 끝소리가 뜻을 바꾸기도 해요: bag(가방) / back(등), cab(택시) / cap(모자).</p>
-<h3>강세가 생명이에요</h3>
-<p>영어는 단어마다 한 음절을 <b>세고, 길고, 높게</b> 말해요. 발음이 정확해도 강세가 틀리면 못 알아들어요.</p>
-<div class="tbl"><table><tr><th>단어</th><th>강세</th><th>한글 느낌</th></tr><tr><td class="k">banana</td><td>ba-<b>NA</b>-na</td><td>버<b>내</b>너</td></tr><tr><td class="k">hotel</td><td>ho-<b>TEL</b></td><td>호우<b>텔</b></td></tr><tr><td class="k">McDonald's</td><td>mc-<b>DON</b>-ald's</td><td>먹<b>다</b>널즈</td></tr><tr><td class="k">thirteen / thirty</td><td>thir-<b>TEEN</b> / <b>THIR</b>-ty</td><td>써<b>틴</b> / <b>써</b>리</td></tr></table></div>
-<div class="tip">체크 방법: F·V는 윗니가 아랫입술에, TH는 혀끝이 이 사이에 <b>보여야</b> 해요. 거울에 보이면 맞게 하고 있는 거예요!</div>`},
+{ id:"pron", title:"1 · ਉਚਾਰਨ ਦੇ ਜਾਲ: school · V/W · TH · F/Z · ਜ਼ੋਰ", blurb:"ਪਹਿਲਾਂ ਗੁਰਮੁਖੀ ਵਿੱਚ ਲਿਖਿਆ ਉਚਾਰਨ ਪੜ੍ਹਨਾ ਸਿੱਖੋ, ਫਿਰ ਉਹ ਆਵਾਜ਼ਾਂ ਜੋ ਪੰਜਾਬੀ ਵਿੱਚ ਨਹੀਂ ਹਨ — ਇਹ ਫੜ ਲਓ ਤਾਂ ਵਿਦੇਸ਼ ਵਿੱਚ ਵੀ ਲੋਕ ਤੁਹਾਡੀ ਗੱਲ ਸੌਖੀ ਸਮਝਣਗੇ।", deck:"ਉਚਾਰਨ ਦੇ ਜਾਲ", body:`
+<p>ਇੰਡੀਅਨ ਇੰਗਲਿਸ਼ ਦਾ ਆਪਣਾ ਉਚਾਰਨ ਹੈ, ਤੇ ਉਸ ਨੂੰ ਪੂਰਾ ਬਦਲਣ ਦੀ ਲੋੜ ਨਹੀਂ। ਪਰ ਕੁਝ ਆਵਾਜ਼ਾਂ ਨਾਲ ਸ਼ਬਦ ਹੀ ਬਦਲ ਜਾਂਦਾ ਹੈ: wine ਤੇ vine, three ਤੇ tree। ਇਸ ਪਾਠ ਵਿੱਚ ਉਹੀ ਆਵਾਜ਼ਾਂ ਹਨ। ਸਭ ਤੋਂ ਜ਼ਰੂਰੀ ਹੈ <b>ਮੂੰਹ ਦੀ ਬਣਤਰ</b>, ਇਸ ਲਈ ਸ਼ੀਸ਼ੇ ਅੱਗੇ ਅਭਿਆਸ ਕਰੋ।</p>
+<h3>ਗੁਰਮੁਖੀ ਵਿੱਚ ਲਿਖਿਆ ਉਚਾਰਨ ਕਿਵੇਂ ਪੜ੍ਹੀਏ</h3>
+<p>ਇਸ ਕੋਰਸ ਵਿੱਚ ਹਰ ਸ਼ਬਦ ਤੇ ਵਾਕ ਦੇ ਨਾਲ ਉਸ ਦਾ ਉਚਾਰਨ ਗੁਰਮੁਖੀ ਵਿੱਚ ਲਿਖਿਆ ਹੈ। ਇਹ ਆਮ ਪੰਜਾਬੀ ਸਪੈਲਿੰਗ ਨਹੀਂ ਹੈ; ਇਸ ਦੇ ਤਿੰਨ ਨਿਸ਼ਾਨ ਯਾਦ ਰੱਖੋ।</p>
+<div class="tbl"><table><tr><th>ਨਿਸ਼ਾਨ</th><th>ਮਤਲਬ</th><th>ਉਦਾਹਰਨ</th></tr><tr><td class="k">ਪੈਰ-ਬਿੰਦੀ: ਵ਼ ਥ਼ ਦ਼</td><td>ਉਹ ਆਵਾਜ਼ ਜੋ ਪੰਜਾਬੀ ਵਿੱਚ ਨਹੀਂ — ਸਾਦਾ ਵ, ਥ, ਦ ਨਾ ਬੋਲੋ। ਫ਼, ਜ਼, ਸ਼ ਉਹੀ ਹਨ ਜੋ ਫ਼ੋਨ, ਜ਼ਰੂਰੀ, ਸ਼ਹਿਰ ਵਿੱਚ</td><td>very ˈਵ਼ੇਰੀ, think ਥ਼ਿੰਕ, this ਦ਼ਿਸ</td></tr><tr><td class="k">ਹਲੰਤ ੍</td><td>ਇੱਥੇ ਕੋਈ ਸਵਰ ਨਹੀਂ; ਅਗਲੇ ਅੱਖਰ ਨਾਲ ਜੋੜ ਕੇ ਬੋਲੋ</td><td>school ਸ੍ਕੂਲ, milk ਮਿਲ੍ਕ</td></tr><tr><td class="k">ˈ</td><td>ਜ਼ੋਰ ਦਾ ਨਿਸ਼ਾਨ: ˈ ਤੋਂ ਬਾਅਦ ਵਾਲੇ ਹਿੱਸੇ ਤੇ ਜ਼ੋਰ ਦਿਓ; ਬਾਕੀ ਹਿੱਸੇ ਹਲਕੇ ਤੇ ਛੋਟੇ</td><td>banana ਬˈਨੈਨਾ, hotel ਹੋˈਟੇਲ</td></tr></table></div>
+<p>ਸ਼ਬਦ ਦੇ ਆਖ਼ਰੀ ਅੱਖਰ ਤੇ ਹਲੰਤ ਨਹੀਂ ਲੱਗਦਾ: ਪੰਜਾਬੀ ਵਾਂਗ ਉਹ ਆਪੇ ਬਿਨਾਂ ਸਵਰ ਦੇ ਬੋਲਿਆ ਜਾਂਦਾ ਹੈ (dog ਡੌਗ)। ਇਕੱਲਾ ਅੱਖਰ, ਜਿਵੇਂ the ਦ਼ ਜਾਂ to ਟ, ਹਲਕੇ "ਅ" ਨਾਲ ਬੋਲੋ। ਸਵਰਾਂ ਵਿੱਚ: <b>ੈ</b> = bad ਵਾਲੀ ਖੁੱਲ੍ਹੀ ਆਵਾਜ਼; <b>ੇ</b> = bed ਤੇ name — bed ਵਿੱਚ ਛੋਟੀ, name ਵਿੱਚ ਲੰਮੀ। hot, job, stop ਵਿੱਚ <b>ਾ</b> ਅਮਰੀਕੀ "ਆ" ਹੈ (ਹਾਟ)। ਆਡੀਓ ਸੁਣੋ।</p>
+<h3>ਵਾਧੂ ਸਵਰ ਨਾ ਪਾਓ: school, station</h3>
+<p>ਪੰਜਾਬੀ ਸ਼ਬਦ ਦੇ ਸ਼ੁਰੂ ਵਿੱਚ ਦੋ ਵਿਅੰਜਨ ਜੁੜ ਕੇ ਨਹੀਂ ਆਉਂਦੇ, ਇਸ ਲਈ ਅਸੀਂ ਵਿਚਕਾਰ "ਅ" ਪਾ ਦਿੰਦੇ ਹਾਂ (ਸ-ਕੂਲ, ਪ-ਲੇਟ, ਫ਼ਿ-ਲਮ) ਜਾਂ ਅੱਗੇ "ਇ" ਲਾ ਦਿੰਦੇ ਹਾਂ (ਇਸਕੂਲ, ਇਸਟੇਸ਼ਨ)। ਆਮ ਪੰਜਾਬੀ ਸਪੈਲਿੰਗ ਇਹ ਫ਼ਰਕ ਦਿਖਾਉਂਦੀ ਹੀ ਨਹੀਂ, ਇਸੇ ਲਈ ਇੱਥੇ ਹਲੰਤ ਹੈ: <b>ਸ੍ਕੂਲ</b> — ਸ ਤੋਂ ਸਿੱਧੇ ਕ ਤੇ ਜਾਓ। ਸਕੂਲ ਨਹੀਂ, ਇਸਕੂਲ ਵੀ ਨਹੀਂ।</p>
+<div class="tbl"><table><tr><th>ਸ਼ਬਦ</th><th>ਪੰਜਾਬੀ ਵਿੱਚ ਲਿਖਦੇ ਹਾਂ</th><th>ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਬੋਲੋ</th></tr><tr><td class="k">school</td><td>ਸਕੂਲ</td><td>ਸ੍ਕੂਲ</td></tr><tr><td class="k">station</td><td>ਸਟੇਸ਼ਨ</td><td>ˈਸ੍ਟੇਸ਼ਨ</td></tr><tr><td class="k">plate</td><td>ਪਲੇਟ</td><td>ਪ੍ਲੇਟ</td></tr><tr><td class="k">film</td><td>ਫ਼ਿਲਮ</td><td>ਫ਼ਿਲ੍ਮ</td></tr></table></div>
+{{ex:school|ਸ੍ਕੂਲ|ਸਕੂਲ}}{{ex:station|ˈਸ੍ਟੇਸ਼ਨ|ਸਟੇਸ਼ਨ}}{{ex:plate|ਪ੍ਲੇਟ|ਪਲੇਟ}}{{ex:film|ਫ਼ਿਲ੍ਮ|ਫ਼ਿਲਮ}}
+<p>ਸ਼ਬਦ ਦੇ ਅਖ਼ੀਰ ਵਿੱਚ ਵੀ ਇਹੀ ਨਿਯਮ ਹੈ: milk ਮਿਲ੍ਕ, asked ਐਸ੍ਕ੍ਟ। ਤੇ ਅਖ਼ੀਰਲੀ ਆਵਾਜ਼ ਸਾਫ਼ ਬੋਲੋ, ਕਿਉਂਕਿ ਉਸ ਨਾਲ ਅਰਥ ਬਦਲਦਾ ਹੈ: bag (ਬੈਗ, ਬੈਗ) / back (ਬੈਕ, ਪਿੱਠ)।</p>
+<h3>ਵ਼ ਤੇ ਵ: V ਤੇ W</h3>
+<p>ਪੰਜਾਬੀ ਵਿੱਚ ਇੱਕੋ ਵ ਹੈ; ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਦੋ ਵੱਖਰੀਆਂ ਆਵਾਜ਼ਾਂ ਹਨ। <b>V (ਵ਼)</b>: ਉੱਪਰਲੇ ਦੰਦ ਹੇਠਲੇ ਬੁੱਲ੍ਹ ਤੇ, ਨਾਲ ਗੂੰਜ ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਲੰਮਾ ਖਿੱਚ ਸਕੋ। <b>W (ਵ)</b>: ਬੁੱਲ੍ਹ ਗੋਲ ਕਰ ਕੇ ਅੱਗੇ, ਦੰਦ ਬੁੱਲ੍ਹ ਨੂੰ ਨਹੀਂ ਛੂੰਹਦੇ। ਸ਼ੀਸ਼ੇ ਵਿੱਚ ਦੇਖੋ: V ਵਿੱਚ ਉੱਪਰਲੇ ਦੰਦ ਦਿਸਦੇ ਹਨ, W ਵਿੱਚ ਨਹੀਂ।</p>
+{{ex:vine|ਵ਼ਾਈਨ|ਅੰਗੂਰ ਦੀ ਵੇਲ}}{{ex:wine|ਵਾਈਨ|ਵਾਈਨ (ਅੰਗੂਰਾਂ ਦੀ ਸ਼ਰਾਬ)}}{{ex:very|ˈਵ਼ੇਰੀ|ਬਹੁਤ}}{{ex:wary|ˈਵੇਰੀ|ਚੌਕਸ}}{{ex:vest|ਵ਼ੇਸ੍ਟ|ਬਿਨਾਂ ਬਾਹਾਂ ਦੀ ਜੈਕਟ}}{{ex:west|ਵੇਸ੍ਟ|ਪੱਛਮ}}
+<h3>ਥ਼ ਤੇ ਦ਼: TH</h3>
+<p>ਜੀਭ ਦੀ ਨੋਕ ਉੱਪਰਲੇ ਤੇ ਹੇਠਲੇ ਦੰਦਾਂ ਵਿਚਕਾਰੋਂ <b>ਥੋੜ੍ਹੀ ਜਿਹੀ ਬਾਹਰ</b> ਕੱਢੋ ਤੇ ਹਵਾ ਨਿਕਲਦੀ ਰਹਿਣ ਦਿਓ। ਸਿਰਫ਼ ਹਵਾ ਨਿਕਲੇ ਤਾਂ <i>think</i> ਵਾਲਾ th (ਥ਼); ਗਲਾ ਵੀ ਗੂੰਜੇ ਤਾਂ <i>this</i> ਵਾਲਾ th (ਦ਼)। ਪੰਜਾਬੀ ਦਾ ਥ ਜਾਂ ਦ ਬੋਲੋਗੇ ਤਾਂ ਸੁਣਨ ਵਾਲੇ ਨੂੰ three ਦੀ ਥਾਂ <i>tree</i> ਤੇ they ਦੀ ਥਾਂ <i>day</i> ਸੁਣ ਸਕਦਾ ਹੈ।</p>
+{{ex:think|ਥ਼ਿੰਕ|ਸੋਚਣਾ}}{{ex:three|ਥ਼੍ਰੀ|ਤਿੰਨ}}{{ex:tree|ਟ੍ਰੀ|ਰੁੱਖ}}{{ex:this|ਦ਼ਿਸ|ਇਹ}}
+<h3>ਫ਼ ਤੇ ਜ਼: F ਤੇ Z</h3>
+<p><b>F (ਫ਼)</b>: ਉੱਪਰਲੇ ਦੰਦ ਹੇਠਲੇ ਬੁੱਲ੍ਹ ਤੇ ਰੱਖ ਕੇ ਹਵਾ ਕੱਢੋ; ਬੁੱਲ੍ਹ ਬੰਦ ਨਹੀਂ ਹੁੰਦੇ। ਬੁੱਲ੍ਹ ਬੰਦ ਕਰ ਕੇ ਬੋਲਿਆ ਫ ਅੰਗਰੇਜ਼ੀ ਸੁਣਨ ਵਾਲੇ ਨੂੰ P ਵਰਗਾ ਲੱਗਦਾ ਹੈ: <i>fan</i> ਦੀ ਥਾਂ <i>pan</i>। <b>Z (ਜ਼)</b> ਗੂੰਜਦਾ ਹੋਇਆ "ਸ" ਹੈ, ਜ ਨਹੀਂ: zoo ਨੂੰ "ਜੂ" ਕਹੋ ਤਾਂ <i>Jew</i> ਸੁਣਦਾ ਹੈ। usually, television ਵਿੱਚ ਜ਼ ਨੂੰ ਸ਼ ਵਾਂਗ ਨਰਮ ਬੋਲੋ, ਪਰ ਗੂੰਜ ਨਾਲ। V ਤੇ B ਦਾ ਫ਼ਰਕ ਵੀ ਇੱਥੇ ਹੀ ਹੈ: very (ਵ਼) / berry (ਬ)।</p>
+{{ex:fan|ਫ਼ੈਨ|ਪੱਖਾ}}{{ex:pan|ਪੈਨ|ਤਵਾ / ਕੜਾਹੀ}}{{ex:coffee|ˈਕੌਫ਼ੀ|ਕੌਫ਼ੀ}}{{ex:zoo|ਜ਼ੂ|ਚਿੜੀਆਘਰ}}{{ex:berry|ˈਬੇਰੀ|ਬੇਰ ਵਰਗਾ ਛੋਟਾ ਫਲ}}
+<h3>ਜ਼ੋਰ: ਇੱਕ ਹਿੱਸਾ ਭਾਰਾ, ਬਾਕੀ ਹਲਕੇ</h3>
+<p>ਪੰਜਾਬੀ ਵਿੱਚ ਸ਼ਬਦ ਦੇ ਸਾਰੇ ਹਿੱਸੇ ਲਗਭਗ ਬਰਾਬਰ ਜ਼ੋਰ ਨਾਲ ਬੋਲੇ ਜਾਂਦੇ ਹਨ। ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਦੋ ਜਾਂ ਵੱਧ ਹਿੱਸਿਆਂ ਵਾਲੇ ਹਰ ਸ਼ਬਦ ਦਾ <b>ਇੱਕ ਹਿੱਸਾ ਜ਼ੋਰ ਨਾਲ, ਲੰਮਾ ਤੇ ਉੱਚਾ</b> ਬੋਲਿਆ ਜਾਂਦਾ ਹੈ, ਤੇ ਬਾਕੀ ਹਿੱਸੇ ਛੋਟੇ ਤੇ ਹਲਕੇ, ਅਕਸਰ ਹਲਕੇ "ਅ" (schwa) ਨਾਲ। ਆਵਾਜ਼ਾਂ ਠੀਕ ਹੋਣ ਪਰ ਜ਼ੋਰ ਗ਼ਲਤ ਹੋਵੇ, ਤਾਂ ਵੀ ਸ਼ਬਦ ਪਛਾਣਿਆ ਨਹੀਂ ਜਾਂਦਾ। ਅੱਧਕ ਵਾਲੀ ਆਦਤ ਵੀ ਛੱਡੋ: happy, city ਵਿੱਚ p ਤੇ t ਇੱਕੋ ਵਾਰ ਬੋਲੇ ਜਾਂਦੇ ਹਨ, ਦੱਬ ਕੇ ਨਹੀਂ।</p>
+<div class="tbl"><table><tr><th>ਸ਼ਬਦ</th><th>ਜ਼ੋਰ</th><th>ਗੁਰਮੁਖੀ ਵਿੱਚ</th></tr><tr><td class="k">banana</td><td>ba-<b>NA</b>-na</td><td>ਬˈਨੈਨਾ</td></tr><tr><td class="k">hotel</td><td>ho-<b>TEL</b></td><td>ਹੋˈਟੇਲ</td></tr><tr><td class="k">about</td><td>a-<b>BOUT</b></td><td>ਅˈਬਾਊਟ</td></tr><tr><td class="k">photography</td><td>pho-<b>TO</b>-gra-phy</td><td>ਫ਼ˈਟਾਗ੍ਰਫ਼ੀ</td></tr><tr><td class="k">thirteen / thirty</td><td>thir-<b>TEEN</b> / <b>THIR</b>-ty</td><td>ਥ਼ਰ੍ˈਟੀਨ / ˈਥ਼ਰ੍ਟੀ</td></tr></table></div>
+{{ex:about|ਅˈਬਾਊਟ|ਬਾਰੇ}}{{ex:photography|ਫ਼ˈਟਾਗ੍ਰਫ਼ੀ|ਫ਼ੋਟੋਗ੍ਰਾਫ਼ੀ}}
+<h3>ਸੁਰ ਨਹੀਂ ਬਦਲਦੀ, ਤੇ h ਹਮੇਸ਼ਾ ਬੋਲੋ</h3>
+<p>ਪੰਜਾਬੀ ਵਿੱਚ ਸੁਰ ਨਾਲ ਸ਼ਬਦ ਬਦਲ ਜਾਂਦਾ ਹੈ (ਕੋੜਾ / ਘੋੜਾ)। ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਸ਼ਬਦ ਦੀ ਸੁਰ ਅਰਥ ਨਹੀਂ ਬਦਲਦੀ। ਸਿੱਧੇ ਵਾਕ ਦੇ ਅਖ਼ੀਰ ਤੇ ਆਵਾਜ਼ ਹੇਠਾਂ ਆਉਂਦੀ ਹੈ; ਉੱਪਰ ਚੁੱਕੋ ਤਾਂ ਵਾਕ ਸਵਾਲ ਵਰਗਾ ਸੁਣਦਾ ਹੈ। ਤੇ h ਹਮੇਸ਼ਾ ਸਾਹ ਵਾਲਾ ਹ ਹੈ, ਸ਼ਬਦ ਦੇ ਵਿਚਕਾਰ ਵੀ: behind, perhaps — ਇਸ ਨੂੰ ਪੰਜਾਬੀ ਦੇ ਵਿਚਕਾਰਲੇ ਹ ਵਾਂਗ ਸੁਰ ਵਿੱਚ ਨਾ ਬਦਲੋ।</p>
+<h3>p, t, k ਨਾਲ ਹਲਕੀ ਹਵਾ</h3>
+<p>ਜ਼ੋਰ ਵਾਲੇ ਹਿੱਸੇ ਦੇ ਸ਼ੁਰੂ ਵਿੱਚ p, t, k ਨਾਲ ਹਲਕੀ ਜਿਹੀ ਹਵਾ ਨਿਕਲਦੀ ਹੈ, ਕੁਝ-ਕੁਝ ਫ, ਠ, ਖ ਵਾਂਗ: pen, time, coffee। ਇਹ ਹਵਾ ਉਚਾਰਨ ਵਿੱਚ ਲਿਖੀ ਨਹੀਂ ਗਈ; ਆਡੀਓ ਵਿੱਚ ਸੁਣੋ।</p>
+<h3>r ਤੇ l: ਇਹ ਸੌਖਾ ਹੈ</h3>
+<p>ਰ / ਲ ਤੇ ਪ / ਬ ਪੰਜਾਬੀ ਵਿੱਚ ਵੀ ਵੱਖਰੇ ਹਨ, ਇਸ ਲਈ rice / lice ਵਰਗੇ ਜੋੜੇ ਤੁਹਾਡੇ ਲਈ ਸੌਖੇ ਹਨ। ਛੋਟਾ ਤੇ ਲੰਮਾ ਸਵਰ ਵੀ ਪੰਜਾਬੀ ਵਿੱਚ ਹੈ (ਿ / ੀ): live ਲਿਵ਼ / leave ਲੀਵ਼। ਬੱਸ ਇੰਨਾ ਧਿਆਨ ਰੱਖੋ ਕਿ ਅੰਗਰੇਜ਼ੀ R ਵਿੱਚ ਜੀਭ ਦੀ ਨੋਕ ਕਿਤੇ ਨਹੀਂ ਛੂੰਹਦੀ; ਮਸੂੜੇ ਨਾਲ ਲੱਗੇ ਤਾਂ L ਬਣ ਜਾਂਦਾ ਹੈ।</p>
+{{ex:rice|ਰਾਈਸ|ਚੌਲ}}{{ex:lice|ਲਾਈਸ|ਜੂੰਆਂ}}{{ex:right|ਰਾਈਟ|ਸੱਜਾ / ਸਹੀ}}{{ex:light|ਲਾਈਟ|ਰੌਸ਼ਨੀ / ਹਲਕਾ}}
+<div class="tip">ਪਰਖਣ ਦਾ ਤਰੀਕਾ: ਸ਼ੀਸ਼ੇ ਵਿੱਚ ਦੇਖੋ। F ਤੇ V ਵਿੱਚ ਉੱਪਰਲੇ ਦੰਦ ਹੇਠਲੇ ਬੁੱਲ੍ਹ ਤੇ, TH ਵਿੱਚ ਜੀਭ ਦੀ ਨੋਕ ਦੰਦਾਂ ਵਿਚਕਾਰ <b>ਦਿਸਣੀ</b> ਚਾਹੀਦੀ ਹੈ; W ਵਿੱਚ ਦੰਦ ਨਹੀਂ ਦਿਸਦੇ। ਇੰਡੀਅਨ ਇੰਗਲਿਸ਼ ਦਾ ਟ / ਡ ਤੇ ਲੰਮਾ ੇ / ੋ ਹਰ ਥਾਂ ਸਮਝ ਆ ਜਾਂਦਾ ਹੈ, ਇਸ ਲਈ ਮਿਹਨਤ ਉੱਪਰਲੀਆਂ ਆਵਾਜ਼ਾਂ ਤੇ ਲਾਓ।</div>`},
 
-{ id:"articles", title:"2 · a와 the: 관사 감 잡기", blurb:"한국어에 없는 관사, 세 가지 경우만 기억하면 돼요.", deck:"자기소개", body:`
-<p>한국어에는 관사가 없어서 가장 많이 틀리는 부분이에요. 완벽하지 않아도 대화는 통하지만, 기본 세 가지만 알면 훨씬 자연스러워져요.</p>
-<h3>a / an — 처음 말하는 '하나'</h3>
-<p>셀 수 있는 명사 하나를 <b>처음</b> 말할 때 써요. 직업 앞에도 꼭 붙여요.</p>
-{{ex:I'm a student.|아임 어 스튜던트|저는 학생이에요}}{{ex:I have a dog.|아이 해버 독|개를 한 마리 키워요}}
-<p><b>an</b>은 철자가 아니라 <b>소리</b>로 정해요. 모음 소리로 시작하면 an이에요.</p>
-<div class="tbl"><table><tr><th>a</th><th>an</th></tr><tr><td class="k">a university (유-)</td><td class="k">an hour (아워 — h 묵음)</td></tr><tr><td class="k">a uniform</td><td class="k">an idea</td></tr><tr><td class="k">a one-way ticket (원-)</td><td class="k">an MBA (엠-)</td></tr></table></div>
-<h3>the — 서로 아는 '그것'</h3>
-<p>이미 말했거나, 상황상 무엇인지 둘 다 아는 것에 써요. 하나뿐인 것(the sun, the internet)에도 써요.</p>
-{{ex:I have a dog. The dog is so cute.|아이 해버 독. 더 독 이즈 쏘 큐트|개를 키워요. 그 개가 정말 귀여워요}}{{ex:Can you close the door?|캔 유 클로즈 더 도어?|문 좀 닫아 줄래요? (이 방의 그 문)}}
-<h3>관사 없음 — 일반적인 이야기</h3>
-<p>'~라는 것 전체'를 말할 때는 복수형이나 셀 수 없는 명사를 관사 없이 써요. 식사 이름, 언어, 운동도 관사가 없어요.</p>
-{{ex:I love dogs.|아이 러브 독즈|저는 개를 좋아해요 (개라는 동물 전체)}}{{ex:I don't drink coffee.|아이 돈 드링크 커피|저는 커피를 안 마셔요}}{{ex:Let's have lunch.|렛츠 해브 런치|점심 먹어요}}
-<div class="tip">가장 흔한 실수 1위: <b>I'm teacher.</b> (X) → <b>I'm a teacher.</b> (O). 직업 앞의 a는 절대 빼먹지 마세요!</div>`},
+{ id:"articles", title:"2 · a ਤੇ the: ਆਰਟੀਕਲ ਦੀ ਸਮਝ", blurb:"ਪੰਜਾਬੀ ਵਿੱਚ ਆਰਟੀਕਲ ਨਹੀਂ ਹੁੰਦੇ। ਤਿੰਨ ਹਾਲਤਾਂ ਯਾਦ ਰੱਖੋ, ਬੱਸ।", deck:"ਆਪਣੀ ਜਾਣ-ਪਛਾਣ", body:`
+<p>ਪੰਜਾਬੀ ਵਿੱਚ ਆਰਟੀਕਲ ਨਹੀਂ ਹੁੰਦੇ, ਇਸ ਲਈ a ਤੇ the ਰਹਿ ਜਾਂਦੇ ਹਨ — ਜਾਂ ਗ਼ਲਤ ਥਾਂ ਲੱਗ ਜਾਂਦੇ ਹਨ। ਕਦੇ-ਕਦੇ "ਇੱਕ" a ਦਾ ਕੰਮ ਕਰਦਾ ਹੈ (ਇੱਕ ਮੁੰਡਾ ਆਇਆ) ਤੇ "ਉਹ" the ਦਾ, ਪਰ ਪੰਜਾਬੀ ਵਿੱਚ ਇਹ ਮਰਜ਼ੀ ਦੀ ਗੱਲ ਹੈ; ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਆਰਟੀਕਲ ਜ਼ਰੂਰੀ ਹੈ। ਤਿੰਨ ਹਾਲਤਾਂ ਯਾਦ ਰੱਖੋ।</p>
+<h3>a / an — ਪਹਿਲੀ ਵਾਰ ਦੱਸੀ "ਕੋਈ ਇੱਕ" ਚੀਜ਼</h3>
+<p>ਗਿਣਨਯੋਗ (ਜਿਸ ਨੂੰ ਗਿਣ ਸਕੀਏ) ਨਾਂਵ ਇੱਕ ਹੋਵੇ ਤੇ ਉਸ ਦੀ ਗੱਲ <b>ਪਹਿਲੀ ਵਾਰ</b> ਹੋ ਰਹੀ ਹੋਵੇ, ਤਾਂ a। ਪੇਸ਼ੇ ਤੋਂ ਪਹਿਲਾਂ ਵੀ ਹਮੇਸ਼ਾ a।</p>
+{{ex:I'm a student.|ਆਈਮ ਅ ˈਸ੍ਟੂਡੰਟ|ਮੈਂ ਵਿਦਿਆਰਥੀ ਹਾਂ}}{{ex:I have a dog.|ਆਈ ਹੈਵ਼ ਅ ਡੌਗ|ਮੇਰੇ ਕੋਲ ਇੱਕ ਕੁੱਤਾ ਹੈ}}{{ex:I have a question.|ਆਈ ਹੈਵ਼ ਅ ˈਕ੍ਵੇਸ੍ਚਨ|ਮੇਰਾ ਇੱਕ ਸਵਾਲ ਹੈ}}
+<p>ਪੰਜਾਬੀ ਦੇ "ਇੱਕ" ਲਈ ਆਮ ਤੌਰ ਤੇ a ਆਉਂਦਾ ਹੈ, one ਨਹੀਂ: <b>I have one question</b> ਉਦੋਂ ਹੀ ਕਹੋ ਜਦੋਂ ਗਿਣਤੀ ਤੇ ਜ਼ੋਰ ਹੋਵੇ (ਇੱਕ, ਦੋ ਨਹੀਂ)। <b>an</b> ਸਪੈਲਿੰਗ ਦੇਖ ਕੇ ਨਹੀਂ, <b>ਆਵਾਜ਼</b> ਸੁਣ ਕੇ ਚੁਣੋ: ਸ਼ਬਦ ਸਵਰ ਦੀ ਆਵਾਜ਼ ਤੋਂ ਸ਼ੁਰੂ ਹੋਵੇ ਤਾਂ an।</p>
+<div class="tbl"><table><tr><th>a</th><th>an</th></tr><tr><td class="k">a university ("ਯ" ਦੀ ਆਵਾਜ਼)</td><td class="k">an hour (h ਬੋਲਿਆ ਨਹੀਂ ਜਾਂਦਾ)</td></tr><tr><td class="k">a uniform</td><td class="k">an idea</td></tr><tr><td class="k">a one-way ticket ("ਵ" ਦੀ ਆਵਾਜ਼)</td><td class="k">an MBA (ਏਮ-)</td></tr></table></div>
+<h3>the — ਉਹ ਚੀਜ਼ ਜਿਸ ਨੂੰ ਦੋਵੇਂ ਜਾਣਦੇ ਹਨ</h3>
+<p>ਜਿਸ ਚੀਜ਼ ਦੀ ਗੱਲ ਪਹਿਲਾਂ ਹੋ ਚੁੱਕੀ ਹੈ, ਜਾਂ ਮੌਕੇ ਤੋਂ ਦੋਵਾਂ ਨੂੰ ਪਤਾ ਹੈ ਕਿ ਕਿਹੜੀ, ਉਸ ਨਾਲ the। ਜਿਹੜੀ ਚੀਜ਼ ਇੱਕੋ ਹੈ (the sun, the internet), ਉਸ ਨਾਲ ਵੀ। ਪੰਜਾਬੀ ਵਿੱਚ the ਲਈ ਅਕਸਰ ਕੋਈ ਸ਼ਬਦ ਹੁੰਦਾ ਹੀ ਨਹੀਂ: "ਦਰਵਾਜ਼ਾ ਬੰਦ ਕਰ ਦਿਓ" → close <b>the</b> door।</p>
+{{ex:I have a dog. The dog is so cute.|ਆਈ ਹੈਵ਼ ਅ ਡੌਗ। ਦ਼ ਡੌਗ ਇਜ਼ ਸੋ ਕਿਊਟ|ਮੇਰੇ ਕੋਲ ਇੱਕ ਕੁੱਤਾ ਹੈ। ਉਹ ਕੁੱਤਾ ਬਹੁਤ ਪਿਆਰਾ ਹੈ}}{{ex:Can you close the door?|ਕਨ ਯੂ ਕ੍ਲੋਜ਼ ਦ਼ ਡੌਰ|ਦਰਵਾਜ਼ਾ ਬੰਦ ਕਰ ਦਿਓਗੇ? (ਇਸੇ ਕਮਰੇ ਦਾ ਦਰਵਾਜ਼ਾ)}}
+<h3>ਕੋਈ ਆਰਟੀਕਲ ਨਹੀਂ — ਆਮ ਗੱਲ</h3>
+<p>ਜਦੋਂ ਕਿਸੇ ਚੀਜ਼ ਦੀ ਆਮ ਗੱਲ ਹੋਵੇ, ਤਾਂ ਬਹੁਵਚਨ ਜਾਂ ਨਾ-ਗਿਣਨਯੋਗ ਨਾਂਵ ਬਿਨਾਂ ਆਰਟੀਕਲ ਦੇ ਆਉਂਦਾ ਹੈ। ਖਾਣੇ ਦੇ ਵੇਲਿਆਂ (lunch), ਭਾਸ਼ਾਵਾਂ, ਖੇਡਾਂ ਤੇ ਬਹੁਤੇ ਦੇਸ਼ਾਂ ਦੇ ਨਾਂ ਨਾਲ ਵੀ ਕੋਈ ਆਰਟੀਕਲ ਨਹੀਂ ਲੱਗਦਾ: <b>the Canada ✗ → Canada ✓</b>, <b>The life is hard ✗ → Life is hard ✓</b>।</p>
+{{ex:I love dogs.|ਆਈ ਲਵ਼ ਡੌਗ੍ਜ਼|ਮੈਨੂੰ ਕੁੱਤੇ ਬਹੁਤ ਪਸੰਦ ਹਨ (ਸਾਰੇ ਕੁੱਤੇ, ਆਮ ਗੱਲ)}}{{ex:I don't drink coffee.|ਆਈ ਡੋਂਟ ਡ੍ਰਿੰਕ ˈਕੌਫ਼ੀ|ਮੈਂ ਕੌਫ਼ੀ ਨਹੀਂ ਪੀਂਦਾ}}{{ex:Let's have lunch.|ਲੇਟ੍ਸ ਹੈਵ਼ ਲੰਚ|ਚੱਲੋ, ਦੁਪਹਿਰ ਦਾ ਖਾਣਾ ਖਾਈਏ}}
+<div class="tip">ਸਭ ਤੋਂ ਆਮ ਗ਼ਲਤੀ: <b>I'm teacher. ✗ → I'm a teacher. ✓</b> ਪੇਸ਼ੇ ਤੋਂ ਪਹਿਲਾਂ a ਕਦੇ ਨਾ ਛੱਡੋ।</div>`},
 
-{ id:"be", title:"3 · be동사와 일반동사", blurb:"am/is/are와 do/does — 섞어 쓰지 않는 게 핵심이에요.", deck:"자기소개", body:`
-<p>영어 문장에는 동사가 꼭 하나 있어요. 그 동사가 <b>be동사</b>인지 <b>일반동사</b>인지에 따라 부정문·의문문 만드는 법이 달라져요.</p>
-<h3>두 종류의 동사</h3>
-<div class="tbl"><table><tr><th></th><th>be동사</th><th>일반동사</th></tr><tr><td>뜻</td><td>~이다, ~에 있다, ~한 상태다</td><td>행동·습관 (먹다, 살다, 좋아하다)</td></tr><tr><td>예</td><td class="k">I am tired.</td><td class="k">I like coffee.</td></tr><tr><td>부정</td><td class="k">I'm not tired.</td><td class="k">I don't like coffee.</td></tr><tr><td>질문</td><td class="k">Are you tired?</td><td class="k">Do you like coffee?</td></tr></table></div>
-<p>be동사는 주어에 따라 모양이 바뀌어요: <b>I am</b> / <b>you·we·they are</b> / <b>he·she·it is</b>. 말할 때는 거의 항상 줄여요: I'm, you're, she's.</p>
-{{ex:I'm hungry.|아임 헝그리|배고파요}}{{ex:She's at work.|쉬즈 앳 워크|그녀는 회사에 있어요}}{{ex:Are you okay?|아 유 오케이?|괜찮아요?}}
-<h3>절대 같이 쓰지 마세요</h3>
-<p>한국어 "저는 ~해요"를 옮기다 보면 be동사와 일반동사를 겹쳐 쓰기 쉬워요.</p>
-{{ex:I like K-pop.|아이 라익 케이팝|케이팝을 좋아해요 (O — I am like X)}}{{ex:I live in Busan.|아이 리브 인 부산|부산에 살아요 (O — I am live X)}}
-<h3>he·she·it에는 -s</h3>
-<p>주어가 한 사람(나·너 제외)이면 현재형 일반동사에 <b>-s</b>를 붙이고, 부정·질문에는 <b>does</b>를 써요. does를 쓰면 동사의 -s는 빠져요.</p>
-{{ex:My brother works in Seoul.|마이 브라더 웍스 인 서울|우리 형은 서울에서 일해요}}{{ex:Does he speak English?|더즈 히 스픽 잉글리시?|그는 영어를 해요?}}{{ex:She doesn't eat meat.|쉬 더즌트 잇 밋|그녀는 고기를 안 먹어요}}
-<div class="tip">헷갈리면 이렇게 물어보세요: "이 문장에 be 말고 <b>다른 동사</b>(like, live, want, go…)가 있나?" 있으면 do/does, 없으면(상태·정체·위치) be동사예요.</div>`},
+{ id:"be", title:"3 · be (am, is, are) ਤੇ ਬਾਕੀ ਕਿਰਿਆਵਾਂ", blurb:"am / is / are ਤੇ do / does ਨੂੰ ਇੱਕੋ ਵਾਕ ਵਿੱਚ ਨਾ ਰਲਾਓ — ਤੇ \"ਉਹ\" ਲਈ he, she ਜਾਂ it ਚੁਣੋ।", deck:"ਆਪਣੀ ਜਾਣ-ਪਛਾਣ", body:`
+<p>ਪੰਜਾਬੀ ਦੇ ਲਗਭਗ ਹਰ ਵਾਕ ਦੇ ਅਖ਼ੀਰ ਵਿੱਚ ਹਾਂ / ਹੈ / ਹਨ ਆਉਂਦਾ ਹੈ: "ਮੈਂ ਥੱਕਿਆ ਹਾਂ", "ਮੈਂ ਚਾਹ ਪੀਂਦਾ ਹਾਂ"। ਇਸ ਲਈ ਲੱਗਦਾ ਹੈ ਕਿ ਅੰਗਰੇਜ਼ੀ ਦੇ ਹਰ ਵਾਕ ਵਿੱਚ ਵੀ am / is ਚਾਹੀਦਾ ਹੈ। ਇਉਂ ਨਹੀਂ ਹੈ। ਅੰਗਰੇਜ਼ੀ ਵਾਕ ਦੀ ਕਿਰਿਆ ਜਾਂ ਤਾਂ <b>be (am, is, are)</b> ਹੁੰਦੀ ਹੈ ਜਾਂ <b>ਕੋਈ ਹੋਰ ਕਿਰਿਆ</b> (like, live, work, agree…), ਤੇ ਇਸੇ ਤੋਂ ਤੈਅ ਹੁੰਦਾ ਹੈ ਕਿ ਨਾਂਹ-ਵਾਚਕ ਵਾਕ ਤੇ ਸਵਾਲ ਕਿਵੇਂ ਬਣਨਗੇ।</p>
+<h3>ਦੋ ਤਰ੍ਹਾਂ ਦੀਆਂ ਕਿਰਿਆਵਾਂ</h3>
+<div class="tbl"><table><tr><th></th><th>be</th><th>ਹੋਰ ਕਿਰਿਆ</th></tr><tr><td>ਕੰਮ</td><td>ਪਛਾਣ, ਥਾਂ, ਹਾਲਤ (ਹਾਂ, ਹੈ, … ਵਿੱਚ ਹੈ)</td><td>ਬਾਕੀ ਸਭ: ਪਸੰਦ ਕਰਨਾ, ਰਹਿਣਾ, ਖਾਣਾ, ਸਹਿਮਤ ਹੋਣਾ</td></tr><tr><td>ਉਦਾਹਰਨ</td><td class="k">I am tired.</td><td class="k">I like coffee.</td></tr><tr><td>ਨਾਂਹ-ਵਾਚਕ</td><td class="k">I'm not tired.</td><td class="k">I don't like coffee.</td></tr><tr><td>ਸਵਾਲ</td><td class="k">Are you tired?</td><td class="k">Do you like coffee?</td></tr></table></div>
+<p>be ਦਾ ਰੂਪ ਕਰਤਾ (subject) ਦੇ ਹਿਸਾਬ ਨਾਲ ਬਦਲਦਾ ਹੈ: <b>I am</b> / <b>you, we, they are</b> / <b>he, she, it is</b>। ਬੋਲਚਾਲ ਵਿੱਚ ਲਗਭਗ ਹਮੇਸ਼ਾ ਛੋਟਾ ਰੂਪ ਆਉਂਦਾ ਹੈ: I'm, you're, she's। ਕਰਤਾ ਕਦੇ ਨਾ ਛੱਡੋ: "ਥੱਕਿਆ ਹਾਂ" ਪੰਜਾਬੀ ਵਿੱਚ ਪੂਰਾ ਵਾਕ ਹੈ, ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ <b>I'm tired</b> (Am tired ✗)।</p>
+{{ex:I'm hungry.|ਆਈਮ ˈਹੰਗ੍ਰੀ|ਮੈਨੂੰ ਭੁੱਖ ਲੱਗੀ ਹੈ}}{{ex:She's at work.|ਸ਼ੀਜ਼ ਅਟ ਵਰ੍ਕ|ਉਹ (ਔਰਤ) ਕੰਮ ਤੇ ਹੈ}}{{ex:Are you okay?|ਅਰ ਯੂ ਓˈਕੇ|ਤੂੰ ਠੀਕ ਹੈਂ?}}
+<h3>"ਉਹ" = he, she ਜਾਂ it</h3>
+<p>ਪੰਜਾਬੀ ਦੇ "ਉਹ" ਤੋਂ ਪਤਾ ਨਹੀਂ ਲੱਗਦਾ ਕਿ ਗੱਲ ਆਦਮੀ ਦੀ ਹੈ ਜਾਂ ਔਰਤ ਦੀ; ਇਹ ਕਿਰਿਆ ਦੱਸਦੀ ਹੈ (ਉਹ ਆਇਆ / ਉਹ ਆਈ)। ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਕਿਰਿਆ ਇਹ ਨਹੀਂ ਦੱਸਦੀ, ਇਸ ਲਈ ਪੜਨਾਂਵ ਚੁਣਨਾ ਪੈਂਦਾ ਹੈ: <b>he</b> (ਆਦਮੀ), <b>she</b> (ਔਰਤ), <b>it</b> (ਚੀਜ਼) — ਤਿੰਨਾਂ ਨਾਲ is। ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਚੀਜ਼ਾਂ ਦਾ ਲਿੰਗ ਨਹੀਂ ਹੁੰਦਾ: ਫ਼ੋਨ, ਕਾਰ, ਕਿਤਾਬ ਸਭ it। Aman, Kiran ਵਰਗੇ ਨਾਂ ਮੁੰਡੇ ਦੇ ਵੀ ਹੁੰਦੇ ਹਨ ਤੇ ਕੁੜੀ ਦੇ ਵੀ; ਨਾਂ ਤੋਂ ਬਾਅਦ he ਜਾਂ she ਸੋਚ ਕੇ ਚੁਣੋ।</p>
+{{ex:He's my brother.|ਹੀਜ਼ ਮਾਈ ˈਬ੍ਰਦ਼ਰ|ਉਹ ਮੇਰਾ ਭਰਾ ਹੈ}}{{ex:She's my sister.|ਸ਼ੀਜ਼ ਮਾਈ ˈਸਿਸ੍ਟਰ|ਉਹ ਮੇਰੀ ਭੈਣ ਹੈ}}{{ex:It's my phone.|ਇਟ੍ਸ ਮਾਈ ਫ਼ੋਨ|ਉਹ ਮੇਰਾ ਫ਼ੋਨ ਹੈ}}
+<h3>be ਤੇ ਹੋਰ ਕਿਰਿਆ ਇਕੱਠੀਆਂ ਨਾ ਲਾਓ</h3>
+<p>"ਮੈਂ ਸਹਿਮਤ ਹਾਂ" ਵਿੱਚ "ਹਾਂ" ਹੈ, ਪਰ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ agree ਆਪ ਕਿਰਿਆ ਹੈ: <b>I am agree ✗ → I agree ✓</b>। ਇਸੇ ਤਰ੍ਹਾਂ "ਮੈਨੂੰ ਕ੍ਰਿਕਟ ਪਸੰਦ ਹੈ" → I like cricket, I am like ਨਹੀਂ। know, want, understand ਹਾਲਤ ਦੱਸਣ ਵਾਲੀਆਂ ਕਿਰਿਆਵਾਂ ਹਨ; ਇਹਨਾਂ ਨਾਲ be + -ing ਵੀ ਨਹੀਂ ਲੱਗਦਾ: <b>She is knowing ✗ → She knows ✓</b>।</p>
+{{ex:I agree.|ਆਈ ਅˈਗ੍ਰੀ|ਮੈਂ ਸਹਿਮਤ ਹਾਂ (I am agree ✗)}}{{ex:I like cricket.|ਆਈ ਲਾਈਕ ˈਕ੍ਰਿਕਿਟ|ਮੈਨੂੰ ਕ੍ਰਿਕਟ ਪਸੰਦ ਹੈ (I am like ✗)}}{{ex:I live in Chandigarh.|ਆਈ ਲਿਵ਼ ਇਨ ˈਚੰਡਿਗਾਰ|ਮੈਂ ਚੰਡੀਗੜ੍ਹ ਰਹਿੰਦੀ ਹਾਂ (I am live ✗)}}
+<h3>he, she, it ਨਾਲ -s</h3>
+<p>ਕਰਤਾ ਇੱਕ ਜਣਾ ਜਾਂ ਇੱਕ ਚੀਜ਼ ਹੋਵੇ (he, she, it — ਵਿਆਕਰਨ ਦੀ ਭਾਸ਼ਾ ਵਿੱਚ ਅਨਯ ਪੁਰਖ ਇੱਕਵਚਨ), ਤਾਂ Simple Present (ਜਿਸ ਨੂੰ Present Indefinite ਵੀ ਕਹਿੰਦੇ ਹਨ) ਦੀ ਕਿਰਿਆ ਨਾਲ <b>-s</b> ਲੱਗਦਾ ਹੈ। ਨਾਂਹ-ਵਾਚਕ ਵਾਕ ਤੇ ਸਵਾਲ ਵਿੱਚ <b>does</b> ਆਉਂਦਾ ਹੈ, ਤੇ ਫਿਰ ਕਿਰਿਆ ਦਾ -s ਹਟ ਜਾਂਦਾ ਹੈ। ਪੰਜਾਬੀ ਵਿੱਚ ਇਹ ਮੇਲ "ਕਰਦਾ ਹੈ / ਕਰਦੀ ਹੈ" ਵਿੱਚ ਦਿਸਦਾ ਹੈ; ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਸਿਰਫ਼ ਇੱਕ ਛੋਟੇ ਜਿਹੇ -s ਵਿੱਚ, ਇਸ ਲਈ ਬੋਲਦੇ ਵੇਲੇ ਇਸ ਨੂੰ ਨਾ ਛੱਡੋ।</p>
+{{ex:My brother works in Amritsar.|ਮਾਈ ˈਬ੍ਰਦ਼ਰ ਵਰ੍ਕ੍ਸ ਇਨ ਅਮ੍ˈਰਿਟ੍ਸਰ|ਮੇਰਾ ਭਰਾ ਅੰਮ੍ਰਿਤਸਰ ਵਿੱਚ ਕੰਮ ਕਰਦਾ ਹੈ}}{{ex:Does he speak English?|ਡਜ਼ ਹੀ ਸ੍ਪੀਕ ˈਇੰਗ੍ਲਿਸ਼|ਕੀ ਉਹ ਅੰਗਰੇਜ਼ੀ ਬੋਲਦਾ ਹੈ?}}{{ex:She doesn't eat meat.|ਸ਼ੀ ˈਡਜ਼ੰਟ ਈਟ ਮੀਟ|ਉਹ ਮੀਟ ਨਹੀਂ ਖਾਂਦੀ}}
+<div class="tip">ਉਲਝਣ ਹੋਵੇ ਤਾਂ ਆਪਣੇ ਆਪ ਨੂੰ ਪੁੱਛੋ: "ਇਸ ਵਾਕ ਵਿੱਚ be ਤੋਂ ਇਲਾਵਾ <b>ਕੋਈ ਹੋਰ ਕਿਰਿਆ</b> (like, live, want, go, agree…) ਹੈ?" ਹੈ, ਤਾਂ do / does; ਨਹੀਂ ਹੈ (ਸਿਰਫ਼ ਪਛਾਣ, ਥਾਂ ਜਾਂ ਹਾਲਤ), ਤਾਂ be। ਛੋਟੇ ਜਵਾਬ ਵੀ ਇਸੇ ਤੋਂ ਬਣਦੇ ਹਨ: Are you tired? — Yes, I am. / Do you like tea? — Yes, I do.</div>`},
 
-{ id:"polite", title:"4 · 공손하게 부탁하기", blurb:"Can you → Could you → Would you mind. 'Give me'는 이제 그만!", deck:"생존 영어 1", body:`
-<p>영어에는 존댓말 어미가 없지만, <b>부탁하는 방식</b>으로 공손함을 표현해요. 같은 내용도 문장 틀에 따라 무례하게도, 정중하게도 들려요.</p>
-<h3>공손함의 계단</h3>
-<div class="tbl"><table><tr><th>표현</th><th>느낌</th><th>쓰는 곳</th></tr><tr><td class="k">Give me ~.</td><td>명령. 무례하게 들려요</td><td>쓰지 마세요</td></tr><tr><td class="k">Can you ~?</td><td>캐주얼한 부탁</td><td>친구, 가게</td></tr><tr><td class="k">Could you ~?</td><td>공손한 부탁</td><td>처음 보는 사람, 직장</td></tr><tr><td class="k">Would you mind ~ing?</td><td>아주 공손함</td><td>큰 부탁, 윗사람</td></tr></table></div>
-{{ex:Could you help me?|쿠쥬 헬프 미?|도와주시겠어요?}}{{ex:Could you say that again?|쿠쥬 쎄이 댓 어게인?|다시 말씀해 주시겠어요?}}{{ex:Would you mind taking a picture of us?|우쥬 마인드 테이킹 어 픽처 오브 어스?|저희 사진 좀 찍어 주셔도 괜찮을까요?}}
-<h3>주문할 때는 Can I get ~? / I'd like ~</h3>
-<p>"I want ~"는 아이가 조르는 것처럼 들릴 수 있어요. 가게에서는 이렇게 말해요.</p>
-{{ex:Can I get a latte, please?|캔 아이 게러 라테이, 플리즈?|라테 한 잔 주세요}}{{ex:I'd like a window seat.|아이드 라익 어 윈도우 씻|창가 자리로 주세요}}
-<h3>Would you mind…?의 함정</h3>
-<p>mind는 '꺼리다'라는 뜻이에요. 그래서 <b>"No"가 OK</b>라는 뜻이 돼요!</p>
-{{ex:Would you mind opening the window?|우쥬 마인드 오프닝 더 윈도우?|창문 좀 열어 주셔도 될까요?}}{{ex:No, not at all.|노, 낫 앳 올|네, 그럼요 (전혀 안 꺼려요)}}
-<div class="tip">마법의 단어 <b>please</b>와 <b>thank you</b>는 아무리 많이 써도 지나치지 않아요. 문장 끝에 please만 붙여도 훨씬 부드러워져요. 억양도 중요해요: 끝을 살짝 올리면 부탁, 내리면 명령처럼 들려요.</div>`},
+{ id:"polite", title:"4 · ਨਿਮਰਤਾ ਨਾਲ ਬੇਨਤੀ ਕਰਨਾ", blurb:"Can you → Could you → Would you mind। Give me ਹੁਣ ਛੱਡ ਦਿਓ।", deck:"ਸਭ ਤੋਂ ਜ਼ਰੂਰੀ 1", body:`
+<p>ਪੰਜਾਬੀ ਵਿੱਚ ਨਿਮਰਤਾ "ਤੁਸੀਂ", "ਜੀ" ਤੇ ਕਿਰਿਆ ਦੇ ਰੂਪ ਵਿੱਚ ਹੁੰਦੀ ਹੈ (ਦੇ → ਦਿਓ ਜੀ)। ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ you ਇੱਕੋ ਹੈ ਤੇ ਕਿਰਿਆ ਨਹੀਂ ਬਦਲਦੀ; ਨਿਮਰਤਾ <b>ਬੇਨਤੀ ਦੇ ਢਾਂਚੇ</b> ਵਿੱਚ ਹੁੰਦੀ ਹੈ: could, would, please। "ਇੱਕ ਕੌਫ਼ੀ ਦਿਓ" ਦਾ ਸਿੱਧਾ ਅਨੁਵਾਦ <b>Give me one coffee ✗</b> ਹੁਕਮ ਵਰਗਾ ਸੁਣਦਾ ਹੈ → <b>Could I have a coffee? ✓</b></p>
+<h3>ਨਿਮਰਤਾ ਦੀ ਪੌੜੀ</h3>
+<div class="tbl"><table><tr><th>ਵਾਕ</th><th>ਅਸਰ</th><th>ਕਿੱਥੇ</th></tr><tr><td class="k">Give me ~.</td><td>ਹੁਕਮ; ਰੁੱਖਾ ਲੱਗਦਾ ਹੈ</td><td>ਨਾ ਵਰਤੋ</td></tr><tr><td class="k">Can you ~?</td><td>ਸਾਦੀ ਬੇਨਤੀ</td><td>ਦੋਸਤ, ਦੁਕਾਨ</td></tr><tr><td class="k">Could you ~?</td><td>ਨਿਮਰ ਬੇਨਤੀ</td><td>ਅਣਜਾਣ ਲੋਕ, ਦਫ਼ਤਰ</td></tr><tr><td class="k">Would you mind ~ing?</td><td>ਬਹੁਤ ਨਿਮਰ</td><td>ਵੱਡਾ ਕੰਮ, ਵੱਡੇ ਅਹੁਦੇ ਵਾਲੇ</td></tr></table></div>
+{{ex:Could you help me?|ਕਡ ਯੂ ਹੇਲ੍ਪ ਮੀ|ਕੀ ਤੁਸੀਂ ਮੇਰੀ ਮਦਦ ਕਰ ਸਕਦੇ ਹੋ?}}{{ex:Could you say that again?|ਕਡ ਯੂ ਸੇ ਦ਼ੈਟ ਅˈਗੇਨ|ਕੀ ਤੁਸੀਂ ਦੁਬਾਰਾ ਕਹਿ ਸਕਦੇ ਹੋ?}}{{ex:Would you mind taking a picture of us?|ਵਡ ਯੂ ਮਾਈਂਡ ˈਟੇਕਿਙ ਅ ˈਪਿਕ੍ਚਰ ਅਵ਼ ਅਸ|ਕੀ ਤੁਸੀਂ ਸਾਡੀ ਇੱਕ ਫ਼ੋਟੋ ਖਿੱਚ ਦਿਓਗੇ?}}
+<h3>ਆਰਡਰ ਕਰਨ ਵੇਲੇ: Can I get ~? / I'd like ~</h3>
+<p><b>I want ~</b> ਜ਼ਿੱਦ ਕਰਦੇ ਬੱਚੇ ਵਰਗਾ ਸੁਣ ਸਕਦਾ ਹੈ। ਦੁਕਾਨ ਜਾਂ ਰੈਸਟੋਰੈਂਟ ਵਿੱਚ ਇਉਂ ਕਹੋ।</p>
+{{ex:Can I get a latte, please?|ਕਨ ਆਈ ਗੇਟ ਅ ˈਲਾਟੇ ਪ੍ਲੀਜ਼|ਕੀ ਮੈਨੂੰ ਇੱਕ ਲਾਟੇ ਮਿਲ ਸਕਦੀ ਹੈ?}}{{ex:I'd like a window seat.|ਆਈਡ ਲਾਈਕ ਅ ˈਵਿੰਡੋ ਸੀਟ|ਮੈਨੂੰ ਖਿੜਕੀ ਵਾਲੀ ਸੀਟ ਚਾਹੀਦੀ ਹੈ}}
+<h3>Would you mind…? ਦਾ ਜਾਲ</h3>
+<p>mind ਦਾ ਮਤਲਬ ਹੈ "ਬੁਰਾ ਮੰਨਣਾ"। ਇਸ ਲਈ ਇੱਥੇ <b>No ਦਾ ਮਤਲਬ "ਠੀਕ ਹੈ"</b> ਹੁੰਦਾ ਹੈ।</p>
+{{ex:Would you mind opening the window?|ਵਡ ਯੂ ਮਾਈਂਡ ˈਓਪਨਿਙ ਦ਼ ˈਵਿੰਡੋ|ਕੀ ਤੁਸੀਂ ਖਿੜਕੀ ਖੋਲ੍ਹ ਦਿਓਗੇ? (ਬੁਰਾ ਤਾਂ ਨਹੀਂ ਮੰਨੋਗੇ?)}}{{ex:No, not at all.|ਨੋ ਨਾਟ ਅਟ ਔਲ|ਨਹੀਂ, ਬਿਲਕੁਲ ਨਹੀਂ (ਯਾਨੀ: ਹਾਂ, ਖੋਲ੍ਹ ਦਿੰਦਾ ਹਾਂ)}}
+<p>Thank you ਦਾ ਜਵਾਬ <b>You're welcome</b> ਹੈ, Please ਨਹੀਂ। ਤੇ <b>Kindly</b> + ਹੁਕਮ (Kindly send it) ਭਾਰਤੀ ਦਫ਼ਤਰਾਂ ਵਿੱਚ ਚੱਲਦਾ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ ਇਹ ਰੁੱਖਾ ਜਿਹਾ ਲੱਗਦਾ ਹੈ — Could you please… ਕਹੋ।</p>
+{{ex:You're welcome.|ਯੁਰ ˈਵੇਲ੍ਕਮ|ਕੋਈ ਗੱਲ ਨਹੀਂ (Thank you ਦਾ ਜਵਾਬ)}}
+<div class="tip"><b>please</b> ਤੇ <b>thank you</b> ਜਿੰਨੀ ਵਾਰ ਮਰਜ਼ੀ ਕਹੋ, ਵੱਧ ਨਹੀਂ ਹੁੰਦੇ। ਵਾਕ ਦੇ ਅਖ਼ੀਰ ਵਿੱਚ ਸਿਰਫ਼ please ਲਾਉਣ ਨਾਲ ਵੀ ਗੱਲ ਨਰਮ ਹੋ ਜਾਂਦੀ ਹੈ। ਅਣਜਾਣ ਬੰਦੇ ਨੂੰ ਵੀ ਤੇ ਦੋਸਤ ਨੂੰ ਵੀ you ਹੀ ਕਹਿੰਦੇ ਹਨ; ਤੂੰ / ਤੁਸੀਂ ਵਾਲਾ ਫ਼ਰਕ could ਤੇ would ਨਾਲ ਦਿਖਾਓ।</div>`},
 
-{ id:"tense", title:"5 · 시제 한눈에 정리: 현재·과거·미래", blurb:"습관은 현재, 지금은 진행형, 계획은 going to.", deck:"스몰토크", body:`
-<p>한국어는 "먹어요" 하나로 습관도, 지금 하는 일도, 가까운 미래도 말할 수 있어요. 영어는 이걸 나눠서 말해요. 스몰토크에 꼭 필요한 다섯 가지만 익혀요.</p>
-<h3>현재형 vs 현재진행형</h3>
-<div class="tbl"><table><tr><th>형태</th><th>뜻</th><th>예</th></tr><tr><td class="k">현재형</td><td>습관, 늘 그런 사실</td><td>I drink coffee every morning.</td></tr><tr><td class="k">be + ~ing</td><td>지금 하는 중 / 정해 둔 가까운 일정</td><td>I'm drinking coffee right now.</td></tr></table></div>
-{{ex:I work at a bank.|아이 워크 앳 어 뱅크|은행에서 일해요 (늘)}}{{ex:I'm working from home today.|아임 워킹 프럼 홈 투데이|오늘은 재택근무 중이에요}}
-<h3>과거형</h3>
-<p>규칙 동사는 <b>-ed</b>, 자주 쓰는 동사는 대부분 불규칙이에요: go → went, eat → ate, see → saw, have → had, get → got.</p>
-{{ex:I went to the beach last weekend.|아이 웬 투 더 비-치 래스트 위켄드|지난 주말에 바닷가에 갔어요}}{{ex:Did you have fun?|디쥬 해브 펀?|재밌었어요?}}
-<h3>미래: will vs be going to</h3>
-<div class="tbl"><table><tr><th></th><th>언제</th><th>예</th></tr><tr><td class="k">will</td><td>말하는 순간 결정, 약속</td><td>I'll get the door!</td></tr><tr><td class="k">be going to</td><td>미리 세운 계획</td><td>I'm going to visit Jeju next month.</td></tr></table></div>
-{{ex:I'll call you later.|아일 콜 유 레이러|나중에 전화할게}}{{ex:I'm going to take a cooking class.|아임 고잉 투 테이커 쿠킹 클래스|요리 수업 들을 거예요}}
-<p>말할 때 going to는 <b>gonna(거나)</b>처럼 들려요. 글로 쓸 때는 going to로 써요.</p>
-<div class="tip">"How was your weekend?"엔 과거형, "Any plans for the weekend?"엔 going to로 대답하면 돼요. 질문의 시제를 그대로 따라 하는 게 가장 쉬운 방법이에요.</div>`},
+{ id:"tense", title:"5 · ਟੈਂਸ ਇੱਕ ਨਜ਼ਰ ਵਿੱਚ: ਵਰਤਮਾਨ, ਭੂਤ ਤੇ ਭਵਿੱਖ", blurb:"ਆਦਤ ਲਈ Simple Present, ਹੁਣ ਚੱਲਦੇ ਕੰਮ ਲਈ -ing, ਪਲਾਨ ਲਈ going to।", deck:"ਹਲਕੀ-ਫੁਲਕੀ ਗੱਲਬਾਤ", body:`
+<p>ਚੰਗੀ ਖ਼ਬਰ: ਪੰਜਾਬੀ ਦੇ ਟੈਂਸ (ਕਾਲ) ਅੰਗਰੇਜ਼ੀ ਨਾਲ ਕਾਫ਼ੀ ਮਿਲਦੇ ਹਨ। ਧਿਆਨ ਉਹਨਾਂ ਥਾਵਾਂ ਤੇ ਚਾਹੀਦਾ ਹੈ ਜਿੱਥੇ ਇਹ ਮੇਲ ਧੋਖਾ ਦਿੰਦਾ ਹੈ। ਹਲਕੀ-ਫੁਲਕੀ ਗੱਲਬਾਤ ਲਈ ਇਹ ਪੰਜ ਰੂਪ ਕਾਫ਼ੀ ਹਨ।</p>
+<div class="tbl"><table><tr><th>ਪੰਜਾਬੀ</th><th>ਅੰਗਰੇਜ਼ੀ</th><th>ਉਦਾਹਰਨ</th></tr><tr><td>ਕਰਦਾ ਹੈ</td><td>Simple Present</td><td class="k">He works.</td></tr><tr><td>ਕਰ ਰਿਹਾ ਹੈ</td><td>Present Continuous</td><td class="k">He's working.</td></tr><tr><td>ਕੀਤਾ</td><td>Simple Past (Past Indefinite)</td><td class="k">He worked.</td></tr><tr><td>ਕੀਤਾ ਹੈ</td><td>Present Perfect — ਪਰ yesterday ਵਰਗੇ ਬੀਤੇ ਸਮੇਂ ਨਾਲ Simple Past</td><td class="k">He has worked.</td></tr><tr><td>ਕਰੇਗਾ</td><td>will / be going to</td><td class="k">He'll work.</td></tr></table></div>
+<h3>Simple Present ਤੇ Present Continuous</h3>
+<div class="tbl"><table><tr><th>ਰੂਪ</th><th>ਮਤਲਬ</th><th>ਉਦਾਹਰਨ</th></tr><tr><td class="k">V1 (ਪਹਿਲੀ ਫ਼ਾਰਮ)</td><td>ਆਦਤ, ਹਮੇਸ਼ਾ ਦੀ ਗੱਲ</td><td>I drink coffee every morning.</td></tr><tr><td class="k">be + -ing</td><td>ਹੁਣੇ ਚੱਲ ਰਿਹਾ ਕੰਮ / ਪੱਕਾ ਹੋ ਚੁੱਕਾ ਨੇੜਲਾ ਪ੍ਰੋਗਰਾਮ</td><td>I'm drinking coffee right now.</td></tr></table></div>
+{{ex:I work at a bank.|ਆਈ ਵਰ੍ਕ ਅਟ ਅ ਬੈਂਕ|ਮੈਂ ਬੈਂਕ ਵਿੱਚ ਕੰਮ ਕਰਦੀ ਹਾਂ (ਹਮੇਸ਼ਾ)}}{{ex:I'm working from home today.|ਆਈਮ ˈਵਰ੍ਕਿਙ ਫ਼੍ਰਮ ਹੋਮ ਟˈਡੇ|ਅੱਜ ਮੈਂ ਘਰੋਂ ਕੰਮ ਕਰ ਰਹੀ ਹਾਂ}}
+<p>ਧੋਖੇ ਵਾਲਾ ਮੇਲ: "ਮੈਂ ਦੋ ਸਾਲਾਂ ਤੋਂ ਇੱਥੇ ਰਹਿ ਰਿਹਾ ਹਾਂ" ਵਿੱਚ "ਰਿਹਾ ਹਾਂ" ਹੈ, ਪਰ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ "ਤੋਂ" ਵਾਲੀ ਗੱਲ Present Continuous ਨਹੀਂ ਹੁੰਦੀ: <b>I am living here from two years ✗ → I've lived here for two years ✓</b> (Present Perfect)। ਇਸ ਦਾ ਪੂਰਾ ਪਾਠ ਅੱਗੇ ਆਵੇਗਾ।</p>
+<h3>Simple Past</h3>
+<p>ਨਿਯਮਿਤ ਕਿਰਿਆ ਨਾਲ <b>-ed</b> ਲੱਗਦਾ ਹੈ; ਸਭ ਤੋਂ ਵੱਧ ਵਰਤੀਆਂ ਜਾਣ ਵਾਲੀਆਂ ਕਿਰਿਆਵਾਂ ਅਨਿਯਮਿਤ ਹਨ (V1 → V2): go → went, eat → ate, see → saw, have → had, get → got। ਸਵਾਲ ਤੇ ਨਾਂਹ ਵਿੱਚ did + V1: <b>I didn't went ✗ → I didn't go ✓</b>।</p>
+{{ex:I went to the beach last weekend.|ਆਈ ਵੇਂਟ ਟ ਦ਼ ਬੀਚ ਲੈਸ੍ਟ ˈਵੀਕੇਂਡ|ਪਿਛਲੇ ਵੀਕਐਂਡ ਮੈਂ ਬੀਚ ਤੇ ਗਿਆ ਸੀ}}{{ex:Did you have fun?|ਡਿਡ ਯੂ ਹੈਵ਼ ਫ਼ਨ|ਮਜ਼ਾ ਆਇਆ?}}
+<p>"ਕੱਲ੍ਹ" ਦੇ ਦੋ ਅਰਥ ਹਨ: yesterday ਤੇ tomorrow। ਪੰਜਾਬੀ ਵਿੱਚ ਕਿਰਿਆ ਦੱਸਦੀ ਹੈ ਕਿਹੜਾ (ਗਿਆ ਸੀ / ਜਾਵਾਂਗਾ); ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਸ਼ਬਦ ਵੀ ਵੱਖਰਾ ਚੁਣਨਾ ਪੈਂਦਾ ਹੈ।</p>
+<h3>ਭਵਿੱਖ: will ਤੇ be going to</h3>
+<div class="tbl"><table><tr><th></th><th>ਕਦੋਂ</th><th>ਉਦਾਹਰਨ</th></tr><tr><td class="k">will</td><td>ਬੋਲਦੇ ਵੇਲੇ ਕੀਤਾ ਫ਼ੈਸਲਾ, ਵਾਅਦਾ</td><td>I'll get the door!</td></tr><tr><td class="k">be going to</td><td>ਪਹਿਲਾਂ ਤੋਂ ਬਣਾਇਆ ਪਲਾਨ</td><td>I'm going to visit Shimla next month.</td></tr></table></div>
+{{ex:I'll call you later.|ਆਈਲ ਕੌਲ ਯੂ ˈਲੇਟਰ|ਮੈਂ ਤੈਨੂੰ ਬਾਅਦ ਵਿੱਚ ਫ਼ੋਨ ਕਰਾਂਗਾ}}{{ex:I'm going to take a cooking class.|ਆਈਮ ˈਗੋਇਙ ਟ ਟੇਕ ਅ ˈਕੁਕਿਙ ਕ੍ਲੈਸ|ਮੈਂ ਕੁਕਿੰਗ ਕਲਾਸ ਲੈਣ ਵਾਲਾ ਹਾਂ}}
+<p>ਬੋਲਚਾਲ ਵਿੱਚ going to ਅਕਸਰ <b>gonna</b> ਵਰਗਾ ਸੁਣਦਾ ਹੈ। ਲਿਖਣ ਵੇਲੇ going to ਹੀ ਲਿਖੋ।</p>
+<div class="tip">"How was your weekend?" ਦਾ ਜਵਾਬ Simple Past ਵਿੱਚ ਦਿਓ, "Any plans for the weekend?" ਦਾ going to ਨਾਲ। ਸਵਾਲ ਵਾਲਾ ਟੈਂਸ ਹੀ ਜਵਾਬ ਵਿੱਚ ਵਰਤਣਾ ਸਭ ਤੋਂ ਸੌਖਾ ਤਰੀਕਾ ਹੈ।</div>`},
 
-{ id:"prep", title:"6 · 전치사 in / on / at", blurb:"넓으면 in, 하루면 on, 한 점이면 at.", deck:"숫자·시간·날짜", body:`
-<p>in, on, at은 시간과 장소 모두에 쓰여요. <b>범위가 넓을수록 in, 좁을수록 at</b>이라고 기억하면 대부분 맞아요.</p>
-<h3>시간</h3>
-<div class="tbl"><table><tr><th>전치사</th><th>범위</th><th>예</th></tr><tr><td class="k">in</td><td>월·연도·계절·하루 중 때</td><td>in May, in 2026, in summer, in the morning</td></tr><tr><td class="k">on</td><td>요일·날짜·특정한 날</td><td>on Monday, on May 3rd, on my birthday</td></tr><tr><td class="k">at</td><td>정확한 시각·짧은 순간</td><td>at 7, at noon, at night</td></tr></table></div>
-{{ex:See you on Friday.|씨 유 온 프라이데이|금요일에 봐요}}{{ex:The meeting is at three.|더 미팅 이즈 앳 쓰리|회의는 3시예요}}{{ex:I was born in 1998.|아이 워즈 본 인 나인틴 나인티에잇|1998년에 태어났어요}}
-<h3>장소</h3>
-<div class="tbl"><table><tr><th>전치사</th><th>느낌</th><th>예</th></tr><tr><td class="k">in</td><td>공간 안, 도시·나라</td><td>in the car, in Seoul, in Korea</td></tr><tr><td class="k">on</td><td>표면 위, 거리, 대중교통</td><td>on the table, on Main Street, on the bus</td></tr><tr><td class="k">at</td><td>한 지점, 장소를 '목적'으로</td><td>at the station, at work, at home</td></tr></table></div>
-{{ex:I'm on the bus.|아임 온 더 버스|버스 타고 있어요}}{{ex:Let's meet at the station.|렛츠 밋 앳 더 스테이션|역에서 만나요}}
-<h3>전치사를 쓰지 않는 경우</h3>
-<p><b>next, last, this, every, tomorrow, yesterday</b> 앞에는 전치사를 쓰지 않아요.</p>
-{{ex:See you next week.|씨 유 넥스트 윅|다음 주에 봐요 (on next week X)}}
-<div class="tip">예외도 외워 두세요: <b>at night</b>(밤에), <b>in the morning / afternoon / evening</b>. 주말은 미국 <b>on the weekend</b>, 영국 <b>at the weekend</b>예요.</div>`},
+{ id:"prep", title:"6 · in / on / at: ਸਮੇਂ ਤੇ ਥਾਂ ਦੇ preposition", blurb:"ਵੱਡਾ ਘੇਰਾ in, ਇੱਕ ਦਿਨ on, ਇੱਕ ਬਿੰਦੂ at — ਤੇ ਇਹ ਸ਼ਬਦ ਨਾਂਵ ਤੋਂ ਪਹਿਲਾਂ ਆਉਂਦੇ ਹਨ।", deck:"ਗਿਣਤੀ, ਸਮਾਂ ਤੇ ਤਾਰੀਖ਼", body:`
+<p>ਪੰਜਾਬੀ ਵਿੱਚ ਸੰਬੰਧਕ ਨਾਂਵ ਤੋਂ ਪਿੱਛੋਂ ਆਉਂਦਾ ਹੈ (ਘਰ <b>ਵਿੱਚ</b>, ਮੇਜ਼ <b>ਤੇ</b>); ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ preposition (ਪ੍ਰੈਪੋਜ਼ੀਸ਼ਨ) ਨਾਂਵ ਤੋਂ ਪਹਿਲਾਂ ਆਉਂਦਾ ਹੈ (<b>in</b> the house, <b>on</b> the table)। ਦੂਜੀ ਮੁਸ਼ਕਲ: ਇੱਕ ਪੰਜਾਬੀ ਸੰਬੰਧਕ ਦੇ ਕਈ ਅੰਗਰੇਜ਼ੀ ਜੋੜ ਹਨ। "ਸੋਮਵਾਰ ਨੂੰ" = <b>on</b> Monday, ਪਰ "ਸ਼ਾਮ ਨੂੰ" = <b>in</b> the evening। ਇਸ ਲਈ ਸ਼ਬਦ-ਦਰ-ਸ਼ਬਦ ਅਨੁਵਾਦ ਨਾ ਕਰੋ। ਮੋਟਾ ਨਿਯਮ: <b>ਘੇਰਾ ਜਿੰਨਾ ਵੱਡਾ, ਓਨਾ in; ਜਿੰਨਾ ਛੋਟਾ, ਓਨਾ at</b>।</p>
+<h3>ਸਮਾਂ</h3>
+<div class="tbl"><table><tr><th>preposition</th><th>ਘੇਰਾ</th><th>ਉਦਾਹਰਨ</th></tr><tr><td class="k">in</td><td>ਮਹੀਨਾ, ਸਾਲ, ਰੁੱਤ, ਦਿਨ ਦਾ ਹਿੱਸਾ</td><td>in May, in 2026, in summer, in the morning</td></tr><tr><td class="k">on</td><td>ਦਿਨ, ਤਾਰੀਖ਼, ਕੋਈ ਖ਼ਾਸ ਦਿਨ</td><td>on Monday, on May 3rd, on my birthday</td></tr><tr><td class="k">at</td><td>ਘੜੀ ਦਾ ਸਮਾਂ, ਛੋਟਾ ਜਿਹਾ ਪਲ</td><td>at 7, at noon, at night</td></tr></table></div>
+{{ex:See you on Friday.|ਸੀ ਯੂ ਆਨ ˈਫ਼੍ਰਾਈਡੇ|ਸ਼ੁੱਕਰਵਾਰ ਨੂੰ ਮਿਲਦੇ ਹਾਂ}}{{ex:The meeting is at three.|ਦ਼ ˈਮੀਟਿਙ ਇਜ਼ ਅਟ ਥ਼੍ਰੀ|ਮੀਟਿੰਗ ਤਿੰਨ ਵਜੇ ਹੈ}}{{ex:I was born in 1998.|ਆਈ ਵਜ਼ ਬੌਰ੍ਨ ਇਨ ਨਾਈਂˈਟੀਨ ਨਾਈਂਟੀ ਏਟ|ਮੇਰਾ ਜਨਮ 1998 ਵਿੱਚ ਹੋਇਆ ਸੀ}}
+<p>"ਤਿੰਨ ਵਜੇ" ਵਿੱਚ ਕੋਈ ਸੰਬੰਧਕ ਨਹੀਂ, ਪਰ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ <b>at</b> three ਚਾਹੀਦਾ ਹੈ।</p>
+<h3>ਥਾਂ</h3>
+<div class="tbl"><table><tr><th>preposition</th><th>ਮਤਲਬ</th><th>ਉਦਾਹਰਨ</th></tr><tr><td class="k">in</td><td>ਕਿਸੇ ਥਾਂ ਦੇ ਅੰਦਰ; ਸ਼ਹਿਰ, ਦੇਸ਼</td><td>in the car, in Amritsar, in India</td></tr><tr><td class="k">on</td><td>ਸਤਹ ਉੱਤੇ; ਸੜਕ; ਬੱਸ, ਟ੍ਰੇਨ</td><td>on the table, on Main Street, on the bus</td></tr><tr><td class="k">at</td><td>ਇੱਕ ਬਿੰਦੂ; ਉਹ ਥਾਂ ਜਿੱਥੇ ਕੋਈ ਕੰਮ ਹੁੰਦਾ ਹੈ</td><td>at the station, at work, at home</td></tr></table></div>
+{{ex:I'm on the bus.|ਆਈਮ ਆਨ ਦ਼ ਬਸ|ਮੈਂ ਬੱਸ ਵਿੱਚ ਹਾਂ}}{{ex:Let's meet at the station.|ਲੇਟ੍ਸ ਮੀਟ ਅਟ ਦ਼ ˈਸ੍ਟੇਸ਼ਨ|ਸਟੇਸ਼ਨ ਤੇ ਮਿਲਦੇ ਹਾਂ}}
+<h3>ਜਿੱਥੇ ਕੋਈ preposition ਨਹੀਂ ਲੱਗਦਾ</h3>
+<p><b>next, last, this, every, tomorrow, yesterday</b> ਤੋਂ ਪਹਿਲਾਂ ਕੋਈ preposition ਨਹੀਂ ਲੱਗਦਾ: "ਅਗਲੇ ਸੋਮਵਾਰ ਨੂੰ" → next Monday (on next Monday ✗)। <b>home</b> ਨਾਲ ਵੀ ਨਹੀਂ: "ਮੈਂ ਘਰ ਜਾ ਰਿਹਾ ਹਾਂ" → I'm going home (going to home ✗)। ਕੁਝ ਕਿਰਿਆਵਾਂ ਸਿੱਧਾ ਕਰਮ ਲੈਂਦੀਆਂ ਹਨ: discuss the plan (discuss about ✗), reach Delhi (reach to ✗)। ਤੇ "ਉਸ ਨਾਲ ਵਿਆਹ" → married <b>to</b> him (married with ✗)।</p>
+{{ex:See you next week.|ਸੀ ਯੂ ਨੇਕ੍ਸ੍ਟ ਵੀਕ|ਅਗਲੇ ਹਫ਼ਤੇ ਮਿਲਦੇ ਹਾਂ (on next week ✗)}}
+<div class="tip">ਇਹ ਯਾਦ ਕਰ ਲਓ: <b>at night</b> (ਰਾਤ ਨੂੰ), ਪਰ <b>in the morning / afternoon / evening</b> (at evening ✗)। ਵੀਕਐਂਡ ਲਈ ਅਮਰੀਕਾ ਵਿੱਚ <b>on the weekend</b>, ਬ੍ਰਿਟੇਨ ਵਿੱਚ <b>at the weekend</b>।</div>`},
 
-{ id:"smalltalk", title:"7 · 스몰토크 문화", blurb:"How are you?는 질문이 아니라 인사예요. 안전한 주제와 피할 주제.", deck:"스몰토크", body:`
-<p>영어권에서는 엘리베이터, 계산대, 회의 시작 전에 처음 보는 사람과도 가볍게 이야기를 나눠요. 깊은 대화가 아니라 <b>분위기를 부드럽게 하는 짧은 대화</b>예요.</p>
-<h3>How are you?는 인사예요</h3>
-<p>진짜 컨디션을 묻는 게 아니에요. 짧게 대답하고 <b>되물어 주는 것</b>이 매너예요.</p>
-{{ex:Hey, how's it going?|헤이, 하우즈 잇 고잉?|안녕, 잘 지내?}}{{ex:Pretty good! How about you?|프리티 굿! 하우 어바웃 유?|잘 지내! 너는?}}
-<h3>안전한 주제 vs 피할 주제</h3>
-<div class="tbl"><table><tr><th>안전해요</th><th>초면엔 피해요</th></tr><tr><td>날씨, 주말·휴가 계획</td><td>나이, 결혼·연애 여부</td></tr><tr><td>음식, 맛집, 여행</td><td>체중·외모 평가 ("살쪘어요?")</td></tr><tr><td>드라마·영화·스포츠</td><td>연봉, 집값</td></tr><tr><td>일 (가볍게), 동네</td><td>정치, 종교</td></tr></table></div>
-<p>한국에서는 나이를 먼저 묻는 게 자연스럽지만, 영어권에서는 실례가 될 수 있어요.</p>
-<h3>대화를 이어 가는 기술</h3>
-<p>대답 + <b>정보 하나 더</b> + <b>되묻기</b>. 이 세 박자면 대화가 끊기지 않아요.</p>
-{{ex:It was great! I went hiking. What about you?|잇 워즈 그레잇! 아이 웬 하이킹. 왓 어바웃 유?|좋았어요! 등산 갔었어요. 당신은요?}}
-<p>맞장구도 중요해요: <b>Oh, really?</b> / <b>That sounds fun!</b> / <b>No way!</b> / <b>I know, right?</b></p>
-<h3>자연스럽게 끝내기</h3>
-{{ex:Well, I should get going.|웰, 아이 슈드 겟 고잉|그럼 이만 가 볼게요}}{{ex:It was nice talking to you.|잇 워즈 나이스 토킹 투 유|이야기 즐거웠어요}}
-<div class="tip">부정문에 맞장구칠 때는 <b>Me neither</b>예요. "I don't like horror movies." → "Me neither." (Me too X). 미국 구어에서는 Me either도 들리지만 Me neither가 표준이에요.</div>`},
+{ id:"smalltalk", title:"7 · ਹਲਕੀ-ਫੁਲਕੀ ਗੱਲਬਾਤ ਦਾ ਸਲੀਕਾ", blurb:"How are you? ਸਵਾਲ ਨਹੀਂ, ਹਾਲ-ਚਾਲ ਪੁੱਛਣ ਦੀ ਰਸਮ ਹੈ। ਕਿਹੜੇ ਵਿਸ਼ੇ ਠੀਕ ਹਨ ਤੇ ਕਿਹੜਿਆਂ ਤੋਂ ਬਚਣਾ ਹੈ।", deck:"ਹਲਕੀ-ਫੁਲਕੀ ਗੱਲਬਾਤ", body:`
+<p>ਅੰਗਰੇਜ਼ੀ ਬੋਲਣ ਵਾਲੇ ਦੇਸ਼ਾਂ ਵਿੱਚ ਲੋਕ ਲਿਫ਼ਟ ਵਿੱਚ, ਦੁਕਾਨ ਦੇ ਕਾਊਂਟਰ ਤੇ ਜਾਂ ਮੀਟਿੰਗ ਸ਼ੁਰੂ ਹੋਣ ਤੋਂ ਪਹਿਲਾਂ ਅਣਜਾਣ ਬੰਦੇ ਨਾਲ ਵੀ ਦੋ-ਚਾਰ ਗੱਲਾਂ ਕਰ ਲੈਂਦੇ ਹਨ। ਇਹ ਡੂੰਘੀ ਗੱਲਬਾਤ ਨਹੀਂ; ਇਹ <b>ਮਾਹੌਲ ਸੁਖਾਵਾਂ ਕਰਨ ਵਾਲੀ ਛੋਟੀ ਜਿਹੀ ਗੱਲਬਾਤ</b> ਹੈ (small talk)।</p>
+<h3>How are you? ਰਸਮੀ ਸਵਾਲ ਹੈ</h3>
+<p>ਇਹ ਸੱਚੀਂ ਤੁਹਾਡੀ ਸਿਹਤ ਦਾ ਹਾਲ ਨਹੀਂ ਪੁੱਛਦਾ — ਜਿਵੇਂ "ਹੋਰ, ਕੀ ਹਾਲ ਹੈ?" ਦਾ ਜਵਾਬ "ਵਧੀਆ" ਹੁੰਦਾ ਹੈ। ਛੋਟਾ ਜਵਾਬ ਦਿਓ ਤੇ <b>ਮੋੜ ਕੇ ਪੁੱਛੋ</b>।</p>
+{{ex:Hey, how's it going?|ਹੇ ਹਾਊਜ਼ ਇਟ ˈਗੋਇਙ|ਹੋਰ, ਕੀ ਹਾਲ ਹੈ?}}{{ex:Pretty good! How about you?|ˈਪ੍ਰਿਟੀ ਗੁਡ। ਹਾਊ ਅਬਾਊਟ ਯੂ|ਵਧੀਆ! ਤੂੰ ਸੁਣਾ?}}
+<h3>ਠੀਕ ਵਿਸ਼ੇ ਤੇ ਬਚਣ ਵਾਲੇ ਵਿਸ਼ੇ</h3>
+<div class="tbl"><table><tr><th>ਠੀਕ ਹਨ</th><th>ਪਹਿਲੀ ਮੁਲਾਕਾਤ ਵਿੱਚ ਨਾ ਪੁੱਛੋ</th></tr><tr><td>ਮੌਸਮ, ਵੀਕਐਂਡ ਜਾਂ ਛੁੱਟੀਆਂ ਦਾ ਪਲਾਨ</td><td>ਉਮਰ, ਵਿਆਹ, ਬੱਚੇ</td></tr><tr><td>ਖਾਣਾ, ਰੈਸਟੋਰੈਂਟ, ਘੁੰਮਣਾ-ਫਿਰਨਾ</td><td>ਭਾਰ ਜਾਂ ਸ਼ਕਲ-ਸੂਰਤ ਬਾਰੇ ਟਿੱਪਣੀ ("ਮੋਟੇ ਹੋ ਗਏ ਹੋ")</td></tr><tr><td>ਫ਼ਿਲਮਾਂ, ਸੰਗੀਤ, ਕ੍ਰਿਕਟ</td><td>ਤਨਖ਼ਾਹ, ਕਿਰਾਇਆ, ਘਰ ਦੀ ਕੀਮਤ</td></tr><tr><td>ਕੰਮ (ਹਲਕੀ ਗੱਲ), ਆਪਣਾ ਇਲਾਕਾ</td><td>ਰਾਜਨੀਤੀ, ਧਰਮ</td></tr></table></div>
+<p>ਸਾਡੇ ਇੱਥੇ "ਤਨਖ਼ਾਹ ਕਿੰਨੀ ਹੈ?", "ਵਿਆਹ ਹੋ ਗਿਆ?", "ਰੋਟੀ ਖਾਧੀ?" ਅਪਣੱਤ ਦੇ ਸਵਾਲ ਹਨ; ਵਿਦੇਸ਼ ਵਿੱਚ ਪਹਿਲੀ ਮੁਲਾਕਾਤ ਵਿੱਚ ਇਹ ਬਹੁਤ ਨਿੱਜੀ ਲੱਗਦੇ ਹਨ। ਜਾਣ-ਪਛਾਣ ਵੇਲੇ <b>What's your name?</b> ਕਹੋ (What is your good name? ਸਿਰਫ਼ ਭਾਰਤ ਵਿੱਚ ਚੱਲਦਾ ਹੈ) ਤੇ <b>I'm from Punjab</b> (I belong to Punjab ਵਿਦੇਸ਼ ਵਿੱਚ ਅਜੀਬ ਲੱਗਦਾ ਹੈ)।</p>
+<h3>ਗੱਲਬਾਤ ਅੱਗੇ ਤੋਰਨ ਦਾ ਤਰੀਕਾ</h3>
+<p>ਜਵਾਬ + <b>ਇੱਕ ਹੋਰ ਗੱਲ</b> + <b>ਮੋੜਵਾਂ ਸਵਾਲ</b>। ਇਹਨਾਂ ਤਿੰਨ ਕਦਮਾਂ ਨਾਲ ਗੱਲ ਨਹੀਂ ਟੁੱਟਦੀ।</p>
+{{ex:It was great! I went hiking. What about you?|ਇਟ ਵਜ਼ ਗ੍ਰੇਟ। ਆਈ ਵੇਂਟ ˈਹਾਈਕਿਙ। ਵਟ ਅਬਾਊਟ ਯੂ|ਬਹੁਤ ਵਧੀਆ ਰਿਹਾ! ਮੈਂ ਪਹਾੜਾਂ ਵਿੱਚ ਪੈਦਲ ਘੁੰਮਣ ਗਿਆ ਸੀ। ਤੇ ਤੁਸੀਂ?}}
+<p>ਹੁੰਗਾਰਾ ਭਰਨਾ ਵੀ ਜ਼ਰੂਰੀ ਹੈ: <b>Oh, really?</b> / <b>That sounds fun!</b> / <b>No way!</b> / <b>I know, right?</b></p>
+<h3>ਗੱਲ ਸਲੀਕੇ ਨਾਲ ਮੁਕਾਉਣਾ</h3>
+{{ex:Well, I should get going.|ਵੇਲ ਆਈ ਸ਼ਡ ਗੇਟ ˈਗੋਇਙ|ਚੰਗਾ, ਹੁਣ ਮੈਂ ਚੱਲਦਾ ਹਾਂ}}{{ex:It was nice talking to you.|ਇਟ ਵਜ਼ ਨਾਈਸ ˈਟੌਕਿਙ ਟ ਯੂ|ਤੁਹਾਡੇ ਨਾਲ ਗੱਲ ਕਰ ਕੇ ਚੰਗਾ ਲੱਗਿਆ}}
+<div class="tip">ਨਾਂਹ ਵਾਲੇ ਵਾਕ ਨਾਲ ਸਹਿਮਤ ਹੋਣ ਲਈ <b>Me neither</b> ਕਹੋ: "I don't like horror movies." → "Me neither." (Me too ✗)। ਅਮਰੀਕੀ ਬੋਲਚਾਲ ਵਿੱਚ Me either ਵੀ ਸੁਣਦਾ ਹੈ, ਪਰ ਮਿਆਰੀ ਰੂਪ Me neither ਹੈ।</div>`},
 
-{ id:"phrasal", title:"8 · 구동사 입문", blurb:"동사 + 작은 단어 = 완전히 새로운 뜻. 원어민 대화의 절반이에요.", deck:"구동사", body:`
-<p>구동사(phrasal verb)는 <b>동사 + up/out/off/on 같은 작은 단어</b>가 합쳐져 새로운 뜻을 만든 거예요. 교과서식 단어(postpone, discover)보다 일상 대화에서 훨씬 많이 들려요.</p>
-<div class="tbl"><table><tr><th>딱딱한 단어</th><th>구동사 (일상)</th><th>뜻</th></tr><tr><td>postpone</td><td class="k">put off</td><td>미루다</td></tr><tr><td>discover</td><td class="k">find out</td><td>알게 되다</td></tr><tr><td>exercise</td><td class="k">work out</td><td>운동하다</td></tr><tr><td>tolerate</td><td class="k">put up with</td><td>참다</td></tr></table></div>
-<h3>작은 단어에 힌트가 있어요</h3>
-<p><b>up</b>은 '완전히·위로', <b>out</b>은 '밖으로·끝까지', <b>off</b>는 '떨어져·멈춤', <b>on</b>은 '붙어서·계속'이라는 느낌이 있어요.</p>
-{{ex:I grew up in Daegu.|아이 그루 업 인 대구|대구에서 자랐어요}}{{ex:We ran out of milk.|위 래나우로브 밀크|우유가 다 떨어졌어요}}{{ex:Turn off your phone, please.|터노프 유어 폰, 플리즈|휴대폰 꺼 주세요}}
-<h3>대명사는 가운데에!</h3>
-<p>목적어를 받는 구동사 중 많은 것은 둘로 나눌 수 있어요. 명사는 앞뒤 어디든 괜찮지만, <b>it·them·me 같은 대명사는 반드시 가운데</b>에 와요.</p>
-{{ex:Turn on the light. / Turn the light on.|턴 온 더 라잇 / 턴 더 라잇 온|불 켜 줘 (둘 다 O)}}{{ex:Turn it on.|터니론|그거 켜 줘 (turn on it X)}}{{ex:I'll pick you up at seven.|아일 픽 유 업 앳 쎄븐|7시에 데리러 갈게}}
-<h3>나눌 수 없는 구동사</h3>
-<p>look after, look for, get along with처럼 전치사가 붙는 것은 나누지 않아요: <i>look after my cat</i>, <i>look after her</i>.</p>
-<div class="tip">구동사는 단어처럼 <b>통째로</b> 외우세요. 예문과 함께 외우면 대명사 위치도 자연스럽게 익혀져요. 하루에 세 개씩만 실제로 써 보세요!</div>`},
+{ id:"phrasal", title:"8 · ਫ਼ਰੇਜ਼ਲ ਵਰਬ ਦੀ ਸ਼ੁਰੂਆਤ", blurb:"ਕਿਰਿਆ + ਇੱਕ ਛੋਟਾ ਸ਼ਬਦ = ਬਿਲਕੁਲ ਨਵਾਂ ਅਰਥ। ਰੋਜ਼ ਦੀ ਅੰਗਰੇਜ਼ੀ ਇਹਨਾਂ ਨਾਲ ਭਰੀ ਪਈ ਹੈ।", deck:"ਫ਼ਰੇਜ਼ਲ ਵਰਬ", body:`
+<p>ਫ਼ਰੇਜ਼ਲ ਵਰਬ (phrasal verb) = <b>ਕਿਰਿਆ + up / out / off / on ਵਰਗਾ ਛੋਟਾ ਸ਼ਬਦ</b>, ਜੋ ਮਿਲ ਕੇ ਨਵਾਂ ਅਰਥ ਬਣਾਉਂਦੇ ਹਨ। ਪੰਜਾਬੀ ਵਿੱਚ ਵੀ ਕੁਝ ਇਹੋ ਜਿਹਾ ਹੁੰਦਾ ਹੈ: "ਕਰਨਾ" ਤੋਂ "ਕਰ ਦੇਣਾ", "ਕਰ ਲੈਣਾ", "ਕਰ ਬੈਠਣਾ" — ਦੂਜਾ ਸ਼ਬਦ ਅਰਥ ਦਾ ਰੰਗ ਬਦਲ ਦਿੰਦਾ ਹੈ। ਕਿਤਾਬੀ ਸ਼ਬਦਾਂ (postpone, discover) ਨਾਲੋਂ ਰੋਜ਼ ਦੀ ਬੋਲਚਾਲ ਵਿੱਚ ਇਹ ਕਿਤੇ ਵੱਧ ਸੁਣਦੇ ਹਨ।</p>
+<div class="tbl"><table><tr><th>ਕਿਤਾਬੀ ਸ਼ਬਦ</th><th>ਫ਼ਰੇਜ਼ਲ ਵਰਬ (ਬੋਲਚਾਲ)</th><th>ਅਰਥ</th></tr><tr><td>postpone</td><td class="k">put off</td><td>ਅੱਗੇ ਪਾਉਣਾ</td></tr><tr><td>discover</td><td class="k">find out</td><td>ਪਤਾ ਲੱਗਣਾ</td></tr><tr><td>exercise</td><td class="k">work out</td><td>ਕਸਰਤ ਕਰਨਾ</td></tr><tr><td>tolerate</td><td class="k">put up with</td><td>ਬਰਦਾਸ਼ਤ ਕਰਨਾ</td></tr></table></div>
+<h3>ਛੋਟੇ ਸ਼ਬਦ ਵਿੱਚ ਇਸ਼ਾਰਾ ਹੁੰਦਾ ਹੈ</h3>
+<p><b>up</b> = ਉੱਪਰ ਜਾਂ ਪੂਰੀ ਤਰ੍ਹਾਂ; <b>out</b> = ਬਾਹਰ ਜਾਂ ਅਖ਼ੀਰ ਤੱਕ; <b>off</b> = ਵੱਖ ਜਾਂ ਬੰਦ; <b>on</b> = ਜੁੜਿਆ ਜਾਂ ਚਾਲੂ।</p>
+{{ex:I grew up in Ludhiana.|ਆਈ ਗ੍ਰੂ ਅਪ ਇਨ ਲੂਡੀˈਆਨਾ|ਮੈਂ ਲੁਧਿਆਣੇ ਵਿੱਚ ਵੱਡਾ ਹੋਇਆ ਹਾਂ}}{{ex:We ran out of milk.|ਵੀ ਰੈਨ ਆਊਟ ਅਵ਼ ਮਿਲ੍ਕ|ਸਾਡਾ ਦੁੱਧ ਮੁੱਕ ਗਿਆ ਹੈ}}{{ex:Turn off your phone, please.|ਟਰ੍ਨ ਔਫ਼ ਯੁਰ ਫ਼ੋਨ ਪ੍ਲੀਜ਼|ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਫ਼ੋਨ ਬੰਦ ਕਰ ਦਿਓ}}
+<p>ਪੰਜਾਬੀ ਵਿੱਚ ਦਰਵਾਜ਼ਾ ਵੀ "ਬੰਦ" ਹੁੰਦਾ ਹੈ ਤੇ ਬੱਤੀ ਵੀ; ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਦਰਵਾਜ਼ਾ close ਹੁੰਦਾ ਹੈ, ਪਰ ਬੱਤੀ, ਫ਼ੋਨ ਤੇ ਟੀਵੀ <b>turn off</b>: close the light ✗ → turn off the light ✓।</p>
+<h3>ਪੜਨਾਂਵ ਵਿਚਕਾਰ ਆਉਂਦਾ ਹੈ</h3>
+<p>ਕਰਮ ਲੈਣ ਵਾਲੇ ਕਈ ਫ਼ਰੇਜ਼ਲ ਵਰਬ ਦੋ ਹਿੱਸਿਆਂ ਵਿੱਚ ਵੰਡੇ ਜਾ ਸਕਦੇ ਹਨ। ਨਾਂਵ ਅੱਗੇ ਜਾਂ ਪਿੱਛੇ ਕਿਤੇ ਵੀ ਆ ਸਕਦਾ ਹੈ, ਪਰ <b>it, them, me ਵਰਗਾ ਪੜਨਾਂਵ ਹਮੇਸ਼ਾ ਵਿਚਕਾਰ</b> ਆਉਂਦਾ ਹੈ।</p>
+{{ex:Turn on the light. / Turn the light on.|ਟਰ੍ਨ ਆਨ ਦ਼ ਲਾਈਟ / ਟਰ੍ਨ ਦ਼ ਲਾਈਟ ਆਨ|ਬੱਤੀ ਜਗਾ ਦਿਓ (ਦੋਵੇਂ ਠੀਕ)}}{{ex:Turn it on.|ਟਰ੍ਨ ਇਟ ਆਨ|ਇਸ ਨੂੰ ਚਾਲੂ ਕਰ ਦਿਓ (turn on it ✗)}}{{ex:I'll pick you up at seven.|ਆਈਲ ਪਿਕ ਯੂ ਅਪ ਅਟ ˈਸੇਵ਼ਨ|ਮੈਂ ਤੈਨੂੰ ਸੱਤ ਵਜੇ ਲੈਣ ਆਵਾਂਗਾ}}
+<h3>ਜਿਹੜੇ ਵੰਡੇ ਨਹੀਂ ਜਾਂਦੇ</h3>
+<p>look after, look for, get along with ਵਰਗੇ ਫ਼ਰੇਜ਼ਲ ਵਰਬ, ਜਿਨ੍ਹਾਂ ਦੇ ਅਖ਼ੀਰ ਵਿੱਚ preposition ਹੈ, ਵੰਡੇ ਨਹੀਂ ਜਾਂਦੇ: <i>look after my cat</i>, <i>look after her</i>।</p>
+<div class="tip">ਫ਼ਰੇਜ਼ਲ ਵਰਬ ਨੂੰ ਇੱਕ ਸ਼ਬਦ ਵਾਂਗ <b>ਪੂਰੇ ਦਾ ਪੂਰਾ</b> ਯਾਦ ਕਰੋ, ਵਾਕ ਸਮੇਤ; ਇਸ ਨਾਲ ਪੜਨਾਂਵ ਦੀ ਥਾਂ ਵੀ ਆਪੇ ਯਾਦ ਹੋ ਜਾਂਦੀ ਹੈ। ਰੋਜ਼ ਤਿੰਨ ਵਰਤ ਕੇ ਦੇਖੋ।</div>`},
 
-{ id:"numbers", title:"9 · 숫자·시간·가격 말하기", blurb:"'만'이 없는 영어 숫자, 13과 30 구분, 가격 읽는 법.", deck:"숫자·시간·날짜", body:`
-<p>숫자는 여행과 일에서 바로 쓰이는데, 한국어와 단위가 달라서 실수가 많아요.</p>
-<h3>세 자리씩 끊어요</h3>
-<p>한국어는 네 자리(만, 억), 영어는 <b>세 자리(thousand, million, billion)</b>로 끊어요. 쉼표 위치가 바로 단위예요.</p>
-<div class="tbl"><table><tr><th>숫자</th><th>한국어</th><th>영어</th></tr><tr><td class="k">10,000</td><td>만</td><td>ten thousand</td></tr><tr><td class="k">50,000</td><td>오만</td><td>fifty thousand</td></tr><tr><td class="k">100,000</td><td>십만</td><td>one hundred thousand</td></tr><tr><td class="k">1,000,000</td><td>백만</td><td>one million</td></tr><tr><td class="k">100,000,000</td><td>일억</td><td>one hundred million</td></tr></table></div>
-<h3>-teen과 -ty</h3>
-<p>13~19는 <b>뒤</b>를, 30·40·50…은 <b>앞</b>을 세게 말해요. 미국식 thirty는 t가 굴러서 "써리"처럼 들려요.</p>
-{{ex:thirteen|써틴|숫자 13}}{{ex:thirty|써리|숫자 30}}{{ex:fifteen / fifty|피프틴 / 피프티|숫자 15 / 50}}
-<h3>시간</h3>
-<p>가장 쉬운 방법은 시와 분을 그대로 읽는 거예요. 1~9분은 "oh"를 붙여요.</p>
-{{ex:It's seven fifteen.|잇츠 쎄븐 피프틴|7시 15분이에요}}{{ex:It's nine oh five.|잇츠 나인 오 파이브|9시 5분이에요}}{{ex:It's a quarter past ten.|잇츠 어 쿼러 패스트 텐|10시 15분이에요}}
-<h3>가격과 연도</h3>
-<p>가격은 달러와 센트를 따로 읽거나, 그냥 숫자 두 개로 읽어요. 연도는 두 자리씩 끊어요.</p>
-{{ex:It's four ninety-nine.|잇츠 포 나인티나인|4달러 99센트예요}}{{ex:That's twelve fifty.|댓츠 트웰브 피프티|12달러 50센트입니다}}{{ex:twenty twenty-six|트웬티 트웬티식스|2026년}}
-<div class="tip">날짜 표기 주의! 미국은 <b>월/일</b>(5/3 = 5월 3일), 영국은 <b>일/월</b>(5/3 = 3월 5일)이에요. 헷갈리면 May 3rd처럼 월을 글자로 쓰는 게 안전해요.</div>`},
+{ id:"numbers", title:"9 · ਗਿਣਤੀ, ਸਮਾਂ ਤੇ ਕੀਮਤ ਬੋਲਣਾ", blurb:"ਲੱਖ ਤੇ ਕਰੋੜ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਕਿਵੇਂ ਬਣਦੇ ਹਨ, 13 ਤੇ 30 ਦਾ ਫ਼ਰਕ, ਤੇ ਕੀਮਤ ਪੜ੍ਹਨ ਦਾ ਤਰੀਕਾ।", deck:"ਗਿਣਤੀ, ਸਮਾਂ ਤੇ ਤਾਰੀਖ਼", body:`
+<p>ਗਿਣਤੀ ਸਫ਼ਰ ਤੇ ਕੰਮ ਵਿੱਚ ਫ਼ੌਰਨ ਕੰਮ ਆਉਂਦੀ ਹੈ, ਪਰ ਭਾਰਤੀ ਤੇ ਅੰਤਰਰਾਸ਼ਟਰੀ ਗਿਣਤੀ ਦੀਆਂ ਇਕਾਈਆਂ ਵੱਖਰੀਆਂ ਹਨ, ਇਸ ਲਈ ਇੱਥੇ ਗ਼ਲਤੀਆਂ ਆਮ ਹਨ।</p>
+<h3>ਤਿੰਨ-ਤਿੰਨ ਅੰਕਾਂ ਵਿੱਚ ਵੰਡੋ</h3>
+<p>ਭਾਰਤ ਵਿੱਚ ਅੰਕ ਪਹਿਲਾਂ ਤਿੰਨ, ਫਿਰ ਦੋ-ਦੋ ਕਰ ਕੇ ਵੰਡੇ ਜਾਂਦੇ ਹਨ: 1,00,000 (ਲੱਖ), 1,00,00,000 (ਕਰੋੜ)। ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਹਮੇਸ਼ਾ <b>ਤਿੰਨ-ਤਿੰਨ</b> ਕਰ ਕੇ: 100,000। ਕੌਮੇ ਦੀ ਥਾਂ ਹੀ ਇਕਾਈ ਦੱਸਦੀ ਹੈ: thousand, million, billion। lakh ਤੇ crore ਇੰਡੀਅਨ ਇੰਗਲਿਸ਼ ਵਿੱਚ ਚੱਲਦੇ ਹਨ, ਪਰ ਵਿਦੇਸ਼ ਵਿੱਚ ਬਹੁਤੇ ਲੋਕ ਇਹ ਨਹੀਂ ਸਮਝਦੇ।</p>
+<div class="tbl"><table><tr><th>ਭਾਰਤੀ ਲਿਖਤ</th><th>ਪੰਜਾਬੀ</th><th>ਅੰਗਰੇਜ਼ੀ</th></tr><tr><td class="k">10,000</td><td>ਦਸ ਹਜ਼ਾਰ</td><td>ten thousand</td></tr><tr><td class="k">50,000</td><td>ਪੰਜਾਹ ਹਜ਼ਾਰ</td><td>fifty thousand</td></tr><tr><td class="k">1,00,000</td><td>ਇੱਕ ਲੱਖ</td><td>one hundred thousand (100,000)</td></tr><tr><td class="k">10,00,000</td><td>ਦਸ ਲੱਖ</td><td>one million (1,000,000)</td></tr><tr><td class="k">1,00,00,000</td><td>ਇੱਕ ਕਰੋੜ</td><td>ten million (10,000,000)</td></tr></table></div>
+<h3>-teen ਤੇ -ty</h3>
+<p>13 ਤੋਂ 19 ਤੱਕ ਜ਼ੋਰ <b>ਅਖ਼ੀਰਲੇ</b> ਹਿੱਸੇ ਤੇ, 30, 40, 50… ਵਿੱਚ <b>ਪਹਿਲੇ</b> ਹਿੱਸੇ ਤੇ। ਅਮਰੀਕੀ thirty ਵਿੱਚ ਵਿਚਕਾਰਲਾ t ਨਰਮ ਹੋ ਕੇ ਲਗਭਗ "ਡ" ਵਰਗਾ ਸੁਣਦਾ ਹੈ।</p>
+{{ex:thirteen|ਥ਼ਰ੍ˈਟੀਨ|ਗਿਣਤੀ 13}}{{ex:thirty|ˈਥ਼ਰ੍ਟੀ|ਗਿਣਤੀ 30}}{{ex:fifteen / fifty|ਫ਼ਿਫ਼੍ˈਟੀਨ / ˈਫ਼ਿਫ਼੍ਟੀ|ਗਿਣਤੀ 15 / 50}}
+<h3>ਸਮਾਂ</h3>
+<p>ਸਭ ਤੋਂ ਸੌਖਾ ਤਰੀਕਾ: ਘੰਟਾ ਤੇ ਮਿੰਟ ਸਿੱਧੇ ਪੜ੍ਹੋ। 1 ਤੋਂ 9 ਮਿੰਟ ਹੋਣ ਤਾਂ ਵਿਚਕਾਰ <b>oh</b> ਲਾਓ। ਪੰਜਾਬੀ ਦੇ ਸਵਾ, ਸਾਢੇ ਤੇ ਪੌਣੇ ਲਈ: ਸਵਾ ਦਸ = a quarter past ten, ਸਾਢੇ ਦਸ = half past ten (ਜਾਂ ten thirty), ਪੌਣੇ ਗਿਆਰਾਂ = a quarter to eleven। ਡੇਢ = one and a half, ਢਾਈ = two and a half।</p>
+{{ex:It's seven fifteen.|ਇਟ੍ਸ ˈਸੇਵ਼ਨ ਫ਼ਿਫ਼੍ˈਟੀਨ|ਸੱਤ ਵੱਜ ਕੇ ਪੰਦਰਾਂ ਮਿੰਟ ਹੋਏ ਹਨ}}{{ex:It's nine oh five.|ਇਟ੍ਸ ਨਾਈਨ ਓ ਫ਼ਾਈਵ਼|ਨੌਂ ਵੱਜ ਕੇ ਪੰਜ ਮਿੰਟ ਹੋਏ ਹਨ}}{{ex:It's a quarter past ten.|ਇਟ੍ਸ ਅ ˈਕ੍ਵੌਰ੍ਟਰ ਪੈਸ੍ਟ ਟੇਨ|ਸਵਾ ਦਸ ਵੱਜੇ ਹਨ}}
+<h3>ਕੀਮਤ ਤੇ ਸਾਲ</h3>
+<p>ਡਾਲਰ ਦੀ ਕੀਮਤ ਦੋ ਹਿੱਸਿਆਂ ਵਿੱਚ ਪੜ੍ਹੀ ਜਾਂਦੀ ਹੈ: ਡਾਲਰ ਤੇ ਸੈਂਟ, ਜਾਂ ਬੱਸ ਦੋ ਗਿਣਤੀਆਂ। ਰੁਪਇਆਂ ਦੀ ਕੀਮਤ ਪੂਰੀ ਗਿਣਤੀ ਵਿੱਚ: five hundred rupees। ਸਾਲ ਦੋ-ਦੋ ਅੰਕਾਂ ਵਿੱਚ ਪੜ੍ਹੋ।</p>
+{{ex:It's four ninety-nine.|ਇਟ੍ਸ ਫ਼ੌਰ ਨਾਈਂਟੀ ਨਾਈਨ|ਇਹ 4 ਡਾਲਰ 99 ਸੈਂਟ ਦਾ ਹੈ}}{{ex:That's twelve fifty.|ਦ਼ੈਟ੍ਸ ਟ੍ਵੇਲ੍ਵ਼ ˈਫ਼ਿਫ਼੍ਟੀ|12 ਡਾਲਰ 50 ਸੈਂਟ ਹੋਏ}}{{ex:twenty twenty-six|ˈਟ੍ਵੇਂਟੀ ਟ੍ਵੇਂਟੀ ਸਿਕ੍ਸ|ਸਾਲ 2026}}
+<div class="tip">ਤਾਰੀਖ਼ ਵਿੱਚ ਧਿਆਨ! ਭਾਰਤ ਤੇ ਬ੍ਰਿਟੇਨ ਵਿੱਚ <b>ਦਿਨ/ਮਹੀਨਾ</b> (5/3 = 5 ਮਾਰਚ), ਅਮਰੀਕਾ ਵਿੱਚ <b>ਮਹੀਨਾ/ਦਿਨ</b> (5/3 = 3 ਮਈ)। ਭੁਲੇਖੇ ਤੋਂ ਬਚਣ ਲਈ ਮਹੀਨਾ ਸ਼ਬਦਾਂ ਵਿੱਚ ਲਿਖੋ: May 3rd।</div>`},
 
-{ id:"email", title:"10 · 이메일 영어", blurb:"인사 → 목적 → 요청 → 마무리. 짧고 분명하게.", deck:"직장·이메일", body:`
-<p>영어 업무 이메일은 <b>짧고, 목적이 분명하고, 친절하게</b>가 원칙이에요. 한국식으로 길게 사과하거나 겸손을 표현하면 오히려 요점이 흐려져요.</p>
-<h3>기본 구조</h3>
-<div class="tbl"><table><tr><th>부분</th><th>예시</th></tr><tr><td>인사</td><td class="k">Hi Sarah, / Dear Mr. Smith,</td></tr><tr><td>첫 줄 (안부·목적)</td><td class="k">I hope you're doing well. I'm writing to ask about…</td></tr><tr><td>본문 (요청)</td><td class="k">Could you send me… by Friday?</td></tr><tr><td>마무리</td><td class="k">Let me know if you have any questions.</td></tr><tr><td>맺음말</td><td class="k">Best regards, / Best, / Thanks,</td></tr></table></div>
-<h3>인사는 Hi가 기본</h3>
-<p>미국 회사에서는 처음 연락하는 사람에게도 <b>Hi + 이름</b>이 무난해요. 아주 격식 있는 경우에만 Dear를 써요. 이름 대신 직함만 쓰는 건(Dear Manager) 어색해요.</p>
-{{ex:I hope this email finds you well.|아이 호프 디스 이메일 파인즈 유 웰|잘 지내고 계시길 바랍니다}}{{ex:I'm writing to follow up on our meeting.|아임 롸이팅 투 팔로우 업 온 아워 미팅|지난 회의 관련해서 후속으로 연락드립니다}}
-<h3>요청은 부드럽게, 기한은 분명하게</h3>
-{{ex:Could you send me the report by Thursday?|쿠쥬 쎈드 미 더 리포트 바이 써즈데이?|목요일까지 보고서 보내 주실 수 있나요?}}{{ex:Thanks for your patience.|땡스 포 유어 페이션스|기다려 주셔서 감사합니다}}
-<p>ASAP는 상대를 재촉하는 느낌이 있어요. 가능하면 <b>by + 날짜</b>로 기한을 주세요.</p>
-<h3>"수고하셨습니다"는?</h3>
-<p>영어에 딱 맞는 말은 없어요. 상황에 맞게 바꿔 말해요.</p>
-<ul><li>프로젝트가 끝났을 때: <b>Thanks for all your hard work!</b></li><li>금요일 이메일 끝: <b>Have a great weekend!</b></li><li>도움을 받았을 때: <b>I really appreciate your help.</b></li></ul>
-<div class="tip">"Sorry for the late reply"를 매번 쓸 필요는 없어요. 대신 <b>Thanks for your patience</b>를 쓰면 사과 없이도 예의 바르고 긍정적으로 들려요.</div>`},
+{ id:"email", title:"10 · ਈਮੇਲ ਦੀ ਅੰਗਰੇਜ਼ੀ", blurb:"ਸੰਬੋਧਨ → ਮਕਸਦ → ਬੇਨਤੀ → ਸਮਾਪਤੀ। ਛੋਟੀ ਤੇ ਸਾਫ਼।", deck:"ਦਫ਼ਤਰ ਤੇ ਈਮੇਲ", body:`
+<p>ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਕੰਮ ਦੀ ਈਮੇਲ ਦਾ ਅਸੂਲ ਹੈ: <b>ਛੋਟੀ, ਮਕਸਦ ਸਾਫ਼, ਲਹਿਜਾ ਨਿੱਘਾ</b>। ਭਾਰਤੀ ਦਫ਼ਤਰਾਂ ਤੇ ਅਰਜ਼ੀਆਂ ਵਾਲੀ ਭਾਸ਼ਾ — Respected Sir, Kindly do the needful, PFA, Please revert — ਵਿਦੇਸ਼ ਵਿੱਚ ਪੁਰਾਣੀ ਜਾਂ ਅਜੀਬ ਲੱਗਦੀ ਹੈ।</p>
+<h3>ਮੁੱਢਲਾ ਢਾਂਚਾ</h3>
+<div class="tbl"><table><tr><th>ਹਿੱਸਾ</th><th>ਉਦਾਹਰਨ</th></tr><tr><td>ਸੰਬੋਧਨ</td><td class="k">Hi Sarah, / Dear Mr. Singh,</td></tr><tr><td>ਪਹਿਲੀ ਲਾਈਨ (ਹਾਲ-ਚਾਲ, ਮਕਸਦ)</td><td class="k">I hope you're doing well. I'm writing to ask about…</td></tr><tr><td>ਮੁੱਖ ਗੱਲ (ਬੇਨਤੀ)</td><td class="k">Could you send me… by Friday?</td></tr><tr><td>ਸਮਾਪਤੀ</td><td class="k">Let me know if you have any questions.</td></tr><tr><td>ਅਖ਼ੀਰਲੇ ਸ਼ਬਦ</td><td class="k">Best regards, / Best, / Thanks,</td></tr></table></div>
+<h3>ਸੰਬੋਧਨ: Hi + ਨਾਂ</h3>
+<p>ਅਮਰੀਕੀ ਦਫ਼ਤਰਾਂ ਵਿੱਚ ਪਹਿਲੀ ਵਾਰ ਲਿਖਣ ਵੇਲੇ ਵੀ <b>Hi + ਪਹਿਲਾ ਨਾਂ</b> ਠੀਕ ਹੈ। ਬਹੁਤ ਰਸਮੀ ਮੌਕੇ ਤੇ Dear + <b>Mr. / Ms. + ਸਰਨੇਮ</b>: Dear Mr. Singh, Dear Ms. Kaur। ਸਿਰਫ਼ ਅਹੁਦਾ (Dear Manager) ਜਾਂ ਪਹਿਲੇ ਨਾਂ ਨਾਲ Sir / Madam (<b>Aman Sir ✗</b>) ਨਾ ਲਿਖੋ।</p>
+{{ex:I hope this email finds you well.|ਆਈ ਹੋਪ ਦ਼ਿਸ ˈਈਮੇਲ ਫ਼ਾਈਂਡ੍ਜ਼ ਯੂ ਵੇਲ|ਉਮੀਦ ਹੈ ਤੁਸੀਂ ਠੀਕ-ਠਾਕ ਹੋਵੋਗੇ}}{{ex:I'm writing to follow up on our meeting.|ਆਈਮ ˈਰਾਈਟਿਙ ਟ ˈਫ਼ਾਲੋ ਅਪ ਆਨ ਆਊਅਰ ˈਮੀਟਿਙ|ਮੈਂ ਸਾਡੀ ਮੀਟਿੰਗ ਦੀ ਗੱਲ ਅੱਗੇ ਤੋਰਨ ਲਈ ਲਿਖ ਰਿਹਾ ਹਾਂ}}
+<h3>ਬੇਨਤੀ ਨਰਮ, ਤਾਰੀਖ਼ ਸਾਫ਼</h3>
+{{ex:Could you send me the report by Thursday?|ਕਡ ਯੂ ਸੇਂਡ ਮੀ ਦ਼ ਰਿˈਪੌਰ੍ਟ ਬਾਈ ˈਥ਼ਰ੍ਜ਼੍ਡੇ|ਕੀ ਤੁਸੀਂ ਵੀਰਵਾਰ ਤੱਕ ਮੈਨੂੰ ਰਿਪੋਰਟ ਭੇਜ ਸਕਦੇ ਹੋ?}}{{ex:Thanks for your patience.|ਥ਼ੈਂਕ੍ਸ ਫ਼ਰ ਯੁਰ ˈਪੇਸ਼ਨ੍ਸ|ਉਡੀਕ ਕਰਨ ਲਈ ਧੰਨਵਾਦ}}
+<p>ASAP ਵਿੱਚ ਕਾਹਲੀ ਪਾਉਣ ਵਾਲੀ ਗੱਲ ਹੈ; ਹੋ ਸਕੇ ਤਾਂ <b>by + ਦਿਨ ਜਾਂ ਤਾਰੀਖ਼</b> ਲਿਖੋ।</p>
+<h3>ਭਾਰਤੀ ਦਫ਼ਤਰੀ ਅੰਗਰੇਜ਼ੀ ਦੀ ਥਾਂ</h3>
+<ul><li>Kindly do the needful. → <b>Could you please take care of this?</b></li><li>PFA the report. → <b>I've attached the report.</b></li><li>Please revert. → <b>Please reply.</b> ਆਪਣੇ ਵੱਲੋਂ: <b>I'll get back to you.</b></li></ul>
+{{ex:I've attached the report.|ਆਈਵ਼ ਅˈਟੈਚ੍ਟ ਦ਼ ਰਿˈਪੌਰ੍ਟ|ਮੈਂ ਰਿਪੋਰਟ ਨਾਲ ਨੱਥੀ ਕੀਤੀ ਹੈ}}{{ex:I'll get back to you.|ਆਈਲ ਗੇਟ ਬੈਕ ਟ ਯੂ|ਮੈਂ ਤੁਹਾਨੂੰ ਬਾਅਦ ਵਿੱਚ ਜਵਾਬ ਦਿਆਂਗਾ}}
+<h3>ਧੰਨਵਾਦ ਤੇ ਸ਼ੁਭ ਇੱਛਾ</h3>
+<ul><li>ਪ੍ਰੋਜੈਕਟ ਮੁੱਕਣ ਤੇ: <b>Thanks for all your hard work!</b></li><li>ਸ਼ੁੱਕਰਵਾਰ ਦੀ ਈਮੇਲ ਦੇ ਅਖ਼ੀਰ ਵਿੱਚ: <b>Have a great weekend!</b></li><li>ਮਦਦ ਮਿਲਣ ਤੇ: <b>I really appreciate your help.</b></li></ul>
+<p>ਵਿਦੇਸ਼ ਦੇ ਕਾਲਜ, ਮਕਾਨ-ਮਾਲਕ ਜਾਂ ਕੰਪਨੀ ਨੂੰ ਲਿਖਣ ਵੇਲੇ ਵੀ ਇਹੀ ਢਾਂਚਾ ਚੱਲਦਾ ਹੈ: ਪਹਿਲੀ ਲਾਈਨ ਵਿੱਚ ਦੱਸੋ ਕਿ ਤੁਸੀਂ ਕੌਣ ਹੋ ਤੇ ਕਿਉਂ ਲਿਖ ਰਹੇ ਹੋ। ਕੈਨੇਡਾ, ਬ੍ਰਿਟੇਨ ਤੇ ਆਸਟ੍ਰੇਲੀਆ ਵਿੱਚ ਸਪੈਲਿੰਗ ਬ੍ਰਿਟਿਸ਼ ਹੈ (colour, centre); ਬਾਕੀ ਸਭ ਇਹੀ ਹੈ।</p>
+<div class="tip">ਹਰ ਵਾਰ "Sorry for the late reply" ਲਿਖਣ ਦੀ ਲੋੜ ਨਹੀਂ। <b>Thanks for your patience</b> ਮਾਫ਼ੀ ਮੰਗੇ ਬਿਨਾਂ ਵੀ ਨਿਮਰ ਤੇ ਚੰਗਾ ਲੱਗਦਾ ਹੈ।</div>`},
 
-{ id:"idioms", title:"11 · 관용구와 슬랭 쓰는 법", blurb:"직역하면 이상한 표현들. 언제, 누구에게 써야 할까요?", deck:"영어 관용구", body:`
-<p>관용구(idiom)는 단어 뜻을 합쳐도 전체 뜻이 나오지 않는 표현이에요. "a piece of cake"는 케이크 이야기가 아니라 "아주 쉽다"는 뜻이죠. 영화·드라마를 자막 없이 보려면 꼭 알아야 해요.</p>
-<h3>그림으로 기억하세요</h3>
-<p>대부분의 관용구는 머릿속에 장면을 그리면 쉽게 외워져요.</p>
-{{ex:It's a piece of cake.|잇츠 어 피스 오브 케익|식은 죽 먹기예요 (케이크 한 조각 먹듯 쉽다)}}{{ex:It costs an arm and a leg.|잇 코스츠 언 암 앤 어 레그|엄청 비싸요 (팔다리를 줘야 할 만큼)}}{{ex:I'm all ears.|아임 올 이어즈|잘 듣고 있어요 (온몸이 귀)}}
-<h3>한국어와 비슷한 표현</h3>
-<div class="tbl"><table><tr><th>영어</th><th>한국어</th></tr><tr><td class="k">Speak of the devil!</td><td>호랑이도 제 말 하면 온다</td></tr><tr><td class="k">Kill two birds with one stone</td><td>일석이조</td></tr><tr><td class="k">When pigs fly</td><td>해가 서쪽에서 뜨면</td></tr><tr><td class="k">A blessing in disguise</td><td>전화위복</td></tr></table></div>
-<h3>관용구 vs 슬랭</h3>
-<p><b>관용구</b>는 오래된 표현이라 나이와 상관없이, 직장에서도 써요(Let's call it a day). <b>슬랭</b>은 젊은 층의 유행어라 친구끼리만 써요(No cap, That song slaps). 슬랭은 빨리 바뀌고, 어른이 쓰면 어색하게 들릴 수도 있어요.</p>
-{{ex:Let's call it a day.|렛츠 콜 잇 어 데이|오늘은 여기까지 해요 (회의에서도 OK)}}{{ex:No cap, this is the best pizza ever.|노 캡, 디스 이즈 더 베스트 핏자 에버|진짜로, 이거 인생 피자야 (친구끼리만)}}
-<div class="tip">관용구는 너무 많이 넣으면 오히려 부자연스러워요. 대화 한 번에 하나 정도, 상황에 딱 맞을 때 쓰면 "영어 잘한다!"는 인상을 줄 수 있어요.</div>`}
+{ id:"idioms", title:"11 · ਮੁਹਾਵਰੇ ਤੇ ਸਲੈਂਗ ਕਿਵੇਂ ਵਰਤੀਏ", blurb:"ਸ਼ਬਦ-ਦਰ-ਸ਼ਬਦ ਅਨੁਵਾਦ ਕਰੋ ਤਾਂ ਅਜੀਬ ਲੱਗਣ ਵਾਲੇ ਵਾਕ। ਕਦੋਂ ਤੇ ਕਿਸ ਨਾਲ ਵਰਤੀਏ?", deck:"ਅੰਗਰੇਜ਼ੀ ਮੁਹਾਵਰੇ", body:`
+<p>ਮੁਹਾਵਰਾ (idiom) ਉਹ ਹੁੰਦਾ ਹੈ ਜਿਸ ਦਾ ਅਰਥ ਸ਼ਬਦਾਂ ਦੇ ਅਰਥ ਜੋੜ ਕੇ ਨਹੀਂ ਨਿਕਲਦਾ। "a piece of cake" ਕੇਕ ਦੀ ਗੱਲ ਨਹੀਂ; ਇਸ ਦਾ ਮਤਲਬ ਹੈ "ਬਹੁਤ ਸੌਖਾ" — ਜਿਵੇਂ ਪੰਜਾਬੀ ਵਿੱਚ "ਖੱਬੇ ਹੱਥ ਦੀ ਖੇਡ"। ਫ਼ਿਲਮਾਂ ਤੇ ਵੈੱਬ ਸੀਰੀਜ਼ ਸਬਟਾਈਟਲ ਤੋਂ ਬਿਨਾਂ ਸਮਝਣ ਲਈ ਇਹ ਜ਼ਰੂਰੀ ਹਨ।</p>
+<h3>ਤਸਵੀਰ ਬਣਾ ਕੇ ਯਾਦ ਕਰੋ</h3>
+<p>ਬਹੁਤੇ ਮੁਹਾਵਰੇ ਮਨ ਵਿੱਚ ਤਸਵੀਰ ਬਣਾਉਣ ਨਾਲ ਸੌਖੇ ਯਾਦ ਹੋ ਜਾਂਦੇ ਹਨ।</p>
+{{ex:It's a piece of cake.|ਇਟ੍ਸ ਅ ਪੀਸ ਅਵ਼ ਕੇਕ|ਇਹ ਖੱਬੇ ਹੱਥ ਦੀ ਖੇਡ ਹੈ (ਕੇਕ ਦਾ ਟੁਕੜਾ ਖਾਣ ਜਿੰਨਾ ਸੌਖਾ)}}{{ex:It costs an arm and a leg.|ਇਟ ਕੌਸ੍ਟ੍ਸ ਅਨ ਆਰ੍ਮ ਅੰਡ ਅ ਲੇਗ|ਇਹ ਬਹੁਤ ਮਹਿੰਗਾ ਹੈ (ਇੰਨਾ ਕਿ ਬਾਂਹ ਤੇ ਲੱਤ ਦੇਣੀ ਪਵੇ)}}{{ex:I'm all ears.|ਆਈਮ ਔਲ ਇਰ੍ਜ਼|ਮੈਂ ਪੂਰੇ ਧਿਆਨ ਨਾਲ ਸੁਣ ਰਿਹਾ ਹਾਂ (ਸਾਰਾ ਸਰੀਰ ਕੰਨ ਬਣ ਗਿਆ)}}
+<h3>ਪੰਜਾਬੀ ਨਾਲ ਮਿਲਦੇ-ਜੁਲਦੇ ਮੁਹਾਵਰੇ</h3>
+<div class="tbl"><table><tr><th>ਅੰਗਰੇਜ਼ੀ</th><th>ਪੰਜਾਬੀ ਵਿੱਚ</th></tr><tr><td class="k">Speak of the devil!</td><td>ਸ਼ੈਤਾਨ ਦਾ ਨਾਂ ਲਿਆ, ਸ਼ੈਤਾਨ ਹਾਜ਼ਰ</td></tr><tr><td class="k">Kill two birds with one stone</td><td>ਇੱਕ ਤੀਰ ਨਾਲ ਦੋ ਨਿਸ਼ਾਨੇ</td></tr><tr><td class="k">When pigs fly</td><td>ਜਦੋਂ ਸੂਰਜ ਪੱਛਮ ਤੋਂ ਚੜ੍ਹੇਗਾ (ਯਾਨੀ ਕਦੇ ਨਹੀਂ)</td></tr><tr><td class="k">A blessing in disguise</td><td>ਮਾੜੀ ਲੱਗਦੀ ਗੱਲ ਜੋ ਬਾਅਦ ਵਿੱਚ ਚੰਗੀ ਨਿਕਲੇ</td></tr></table></div>
+<p>ਉਲਟਾ ਰਾਹ ਨਹੀਂ ਚੱਲਦਾ: ਪੰਜਾਬੀ ਮੁਹਾਵਰੇ ਦਾ ਸ਼ਬਦ-ਦਰ-ਸ਼ਬਦ ਅਨੁਵਾਦ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਕੋਈ ਨਹੀਂ ਸਮਝਦਾ। "ਮੇਰਾ ਸਿਰ ਨਾ ਖਾ" → <b>Don't eat my head ✗ → Stop bugging me ✓</b>। ਤੇ <b>It's like that only</b> ਇੰਡੀਅਨ ਇੰਗਲਿਸ਼ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ That's just how it is ਕਹੋ।</p>
+<h3>ਮੁਹਾਵਰਾ ਤੇ ਸਲੈਂਗ</h3>
+<p><b>ਮੁਹਾਵਰੇ</b> ਪੁਰਾਣੇ ਤੇ ਪੱਕੇ ਹੁੰਦੇ ਹਨ; ਹਰ ਉਮਰ ਦੇ ਲੋਕ ਵਰਤਦੇ ਹਨ, ਦਫ਼ਤਰ ਵਿੱਚ ਵੀ (Let's call it a day)। <b>ਸਲੈਂਗ</b> ਨੌਜਵਾਨਾਂ ਦੀ ਚੱਲਦੀ ਬੋਲੀ ਹੈ ਤੇ ਸਿਰਫ਼ ਦੋਸਤਾਂ ਵਿੱਚ ਚੱਲਦਾ ਹੈ (No cap, That song slaps)। ਸਲੈਂਗ ਛੇਤੀ ਬਦਲ ਜਾਂਦਾ ਹੈ, ਤੇ ਵੱਡੀ ਉਮਰ ਵਾਲੇ ਦੇ ਮੂੰਹੋਂ ਅਜੀਬ ਲੱਗ ਸਕਦਾ ਹੈ।</p>
+{{ex:Let's call it a day.|ਲੇਟ੍ਸ ਕੌਲ ਇਟ ਅ ਡੇ|ਅੱਜ ਲਈ ਇੰਨਾ ਹੀ ਕਾਫ਼ੀ ਹੈ (ਮੀਟਿੰਗ ਵਿੱਚ ਵੀ ਠੀਕ)}}{{ex:No cap, this is the best pizza ever.|ਨੋ ਕੈਪ ਦ਼ਿਸ ਇਜ਼ ਦ਼ ਬੇਸ੍ਟ ˈਪੀਟ੍ਸਾ ˈਏਵ਼ਰ|ਸੱਚੀਂ, ਇਹ ਹੁਣ ਤੱਕ ਦਾ ਸਭ ਤੋਂ ਵਧੀਆ ਪੀਜ਼ਾ ਹੈ (ਸਿਰਫ਼ ਦੋਸਤਾਂ ਵਿੱਚ)}}
+<div class="tip">ਬਹੁਤੇ ਮੁਹਾਵਰੇ ਇਕੱਠੇ ਵਰਤੋ ਤਾਂ ਗੱਲ ਬਣਾਉਟੀ ਲੱਗਦੀ ਹੈ। ਇੱਕ ਗੱਲਬਾਤ ਵਿੱਚ ਇੱਕ, ਉਹ ਵੀ ਮੌਕੇ ਮੁਤਾਬਕ — ਇੰਨਾ ਕਾਫ਼ੀ ਹੈ।</div>`}
+
 ];
 
 exports.CHECKS = {
   alphabet: [
-    ["영어 이름이 '지'인 글자는? (z 소리가 아니라 입술을 내민 '쥐'에 가까운 소리예요)", ["J","G","Z","C"], 1, "G의 이름은 '지'예요. J는 '제이', Z는 z 소리의 zee(지 (z)), C는 '씨'예요."],
-    ["올바른 것은?", ["a F","an U","a M","an F"], 3, "F의 이름 '에프'는 모음 소리로 시작해서 an F예요. M(엠)도 an M, U(유)는 y 소리라서 a U예요."],
-    ["단어의 철자를 물어볼 때 쓰는 말은?", ["How do you spell that?","How do you spelling that?","How spell you that?","How does it spell?"], 0, "do 뒤에는 동사원형 spell이 와요: How do you spell that?"]
+    ["ਕਿਹੜੇ ਅੱਖਰ ਦਾ ਅੰਗਰੇਜ਼ੀ ਨਾਂ \"ਜੀ\" ਹੈ? (ਸਾਦਾ ਜ — ਪੈਰ-ਬਿੰਦੀ ਵਾਲਾ ਜ਼ ਨਹੀਂ)", ["J","G","Z","C"], 1, "G ਦਾ ਨਾਂ ਜੀ ਹੈ। J ਦਾ ਨਾਂ ਜੇ, Z ਦਾ ਜ਼ੀ (ਭਾਰਤ ਵਿੱਚ zed), C ਦਾ ਸੀ।"],
+    ["ਸਹੀ ਕਿਹੜਾ ਹੈ?", ["a F","an U","a M","an F"], 3, "F ਦਾ ਨਾਂ ਏਫ਼ ਸਵਰ ਦੀ ਆਵਾਜ਼ ਤੋਂ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ, ਇਸ ਲਈ an F। M (ਏਮ) ਨਾਲ ਵੀ an M; U (ਯੂ) \"ਯ\" ਦੀ ਆਵਾਜ਼ ਤੋਂ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ, ਇਸ ਲਈ a U।"],
+    ["ਕਿਸੇ ਸ਼ਬਦ ਦੀ ਸਪੈਲਿੰਗ ਪੁੱਛਣ ਲਈ ਕੀ ਕਹੋਗੇ?", ["How do you spell that?","How do you spelling that?","How spell you that?","How does it spell?"], 0, "do ਤੋਂ ਬਾਅਦ V1 ਆਉਂਦੀ ਹੈ, ਯਾਨੀ spell: How do you spell that?"]
   ],
   pron: [
-    ["R 소리를 낼 때 혀끝은 어디에 있나요?", ["윗니 뒤 잇몸에 붙인다","이 사이로 내민다","어디에도 닿지 않는다","아랫입술에 댄다"], 2, "R은 혀끝이 아무 데도 닿지 않아요. 붙이면 L이 돼요."],
-    ["think의 th를 바르게 내는 방법은?", ["혀끝을 이 사이로 살짝 내밀고 바람을 낸다","두 입술을 붙였다 뗀다","윗니를 아랫입술에 댄다","혀를 뒤로 만다"], 0, "TH는 혀끝이 이 사이에 보여야 해요. s로 말하면 sink가 돼요."],
-    ["hotel의 강세는 어디에 있나요?", ["ho (앞)","강세가 없다","둘 다 똑같이","tel (뒤)"], 3, "ho-TEL. 뒤를 세고 길게 말해요: 호우텔."]
+    ["R ਬੋਲਦੇ ਵੇਲੇ ਜੀਭ ਦੀ ਨੋਕ ਕਿੱਥੇ ਹੁੰਦੀ ਹੈ?", ["ਉੱਪਰਲੇ ਦੰਦਾਂ ਪਿੱਛੇ ਮਸੂੜੇ ਨਾਲ ਲੱਗੀ ਹੁੰਦੀ ਹੈ","ਦੰਦਾਂ ਵਿਚਕਾਰੋਂ ਬਾਹਰ ਨਿਕਲੀ ਹੁੰਦੀ ਹੈ","ਕਿਤੇ ਨਹੀਂ ਛੂੰਹਦੀ","ਹੇਠਲੇ ਬੁੱਲ੍ਹ ਤੇ ਹੁੰਦੀ ਹੈ"], 2, "ਅੰਗਰੇਜ਼ੀ R ਵਿੱਚ ਜੀਭ ਦੀ ਨੋਕ ਕਿਤੇ ਨਹੀਂ ਛੂੰਹਦੀ। ਮਸੂੜੇ ਨਾਲ ਲੱਗੇ ਤਾਂ L ਬਣ ਜਾਂਦਾ ਹੈ।"],
+    ["think ਦਾ th (ਥ਼) ਠੀਕ ਕਿਵੇਂ ਬੋਲੀਏ?", ["ਜੀਭ ਦੀ ਨੋਕ ਦੰਦਾਂ ਵਿਚਕਾਰੋਂ ਥੋੜ੍ਹੀ ਬਾਹਰ ਕੱਢ ਕੇ ਹਵਾ ਛੱਡੋ","ਦੋਵੇਂ ਬੁੱਲ੍ਹ ਜੋੜ ਕੇ ਖੋਲ੍ਹੋ","ਉੱਪਰਲੇ ਦੰਦ ਹੇਠਲੇ ਬੁੱਲ੍ਹ ਤੇ ਰੱਖੋ","ਜੀਭ ਪਿੱਛੇ ਨੂੰ ਮੋੜੋ"], 0, "TH ਵਿੱਚ ਜੀਭ ਦੀ ਨੋਕ ਦੰਦਾਂ ਵਿਚਕਾਰ ਦਿਸਣੀ ਚਾਹੀਦੀ ਹੈ ਤੇ ਹਵਾ ਨਿਕਲਦੀ ਰਹੇ — ਪੰਜਾਬੀ ਦਾ ਥ ਨਹੀਂ। s ਬੋਲੋ ਤਾਂ sink ਬਣ ਜਾਂਦਾ ਹੈ।"],
+    ["hotel ਵਿੱਚ ਜ਼ੋਰ ਕਿਸ ਹਿੱਸੇ ਤੇ ਹੈ?", ["ho (ਪਹਿਲੇ ਤੇ)","ਕਿਸੇ ਤੇ ਨਹੀਂ","ਦੋਵਾਂ ਤੇ ਬਰਾਬਰ","tel (ਦੂਜੇ ਤੇ)"], 3, "ho-TEL: ਦੂਜਾ ਹਿੱਸਾ ਜ਼ੋਰ ਨਾਲ ਤੇ ਲੰਮਾ ਬੋਲੋ — ਹੋˈਟੇਲ। ਭਾਰਤ ਵਿੱਚ ਜ਼ੋਰ ਅਕਸਰ ਪਹਿਲੇ ਹਿੱਸੇ ਤੇ ਸੁਣਦਾ ਹੈ।"]
   ],
   articles: [
-    ["I'm ___ engineer. 빈칸에 알맞은 것은?", ["a","an","the","(없음)"], 1, "engineer는 모음 소리(엔)로 시작하므로 an이에요. 직업 앞에는 꼭 관사를 붙여요."],
-    ["식당에 앉아서 직원에게: Can I see ___ menu?", ["the","a","an","(없음)"], 0, "이 식당의 바로 그 메뉴판이니까 the예요."],
-    ["'저는 고양이를 좋아해요' (고양이라는 동물 전체)", ["I like a cat.","I like the cat.","I like cat.","I like cats."], 3, "일반적인 대상을 말할 땐 관사 없이 복수형을 써요. a cat은 '고양이 한 마리', the cat은 '그 고양이'예요."]
+    ["I'm ___ engineer. ਖ਼ਾਲੀ ਥਾਂ ਵਿੱਚ ਕੀ ਆਵੇਗਾ?", ["a","an","the","(ਕੁਝ ਨਹੀਂ)"], 1, "engineer ਸਵਰ ਦੀ ਆਵਾਜ਼ ਤੋਂ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ, ਇਸ ਲਈ an। ਪੇਸ਼ੇ ਤੋਂ ਪਹਿਲਾਂ ਆਰਟੀਕਲ ਜ਼ਰੂਰ ਲੱਗਦਾ ਹੈ।"],
+    ["ਰੈਸਟੋਰੈਂਟ ਵਿੱਚ ਬੈਠ ਕੇ ਵੇਟਰ ਨੂੰ: Can I see ___ menu?", ["the","a","an","(ਕੁਝ ਨਹੀਂ)"], 0, "ਇਸੇ ਰੈਸਟੋਰੈਂਟ ਦਾ ਮੈਨਿਊ ਹੈ; ਦੋਵੇਂ ਜਾਣਦੇ ਹਨ ਕਿਹੜਾ, ਇਸ ਲਈ the।"],
+    ["\"ਮੈਨੂੰ ਬਿੱਲੀਆਂ ਪਸੰਦ ਹਨ\" (ਸਾਰੀਆਂ ਬਿੱਲੀਆਂ, ਆਮ ਗੱਲ)", ["I like a cat.","I like the cat.","I like cat.","I like cats."], 3, "ਆਮ ਗੱਲ ਲਈ ਬਿਨਾਂ ਆਰਟੀਕਲ ਦੇ ਬਹੁਵਚਨ: cats। a cat = ਕੋਈ ਇੱਕ ਬਿੱਲੀ, the cat = ਉਹ ਖ਼ਾਸ ਬਿੱਲੀ।"]
   ],
   be: [
-    ["올바른 문장은?", ["I am like K-pop.","I like K-pop.","I liking K-pop.","I am likes K-pop."], 1, "like는 일반동사라 be동사(am)와 같이 쓰지 않아요."],
-    ["'우리 언니는 서울에 살아요' =", ["My sister live in Seoul.","My sister is live in Seoul.","My sister living in Seoul.","My sister lives in Seoul."], 3, "주어가 she(3인칭 단수)라서 동사에 -s를 붙여요: lives."],
-    ["Are you hungry?에 '아니요'라고 대답할 때", ["No, I don't.","No, I'm not.","No, I amn't.","No, I doesn't."], 1, "be동사로 물었으니 be동사로 대답해요: No, I'm not."]
+    ["ਸਹੀ ਵਾਕ ਕਿਹੜਾ ਹੈ?", ["I am like K-pop.","I like K-pop.","I liking K-pop.","I am likes K-pop."], 1, "like ਆਪ ਕਿਰਿਆ ਹੈ; ਇਸ ਦੇ ਨਾਲ am ਨਹੀਂ ਲੱਗਦਾ। \"ਮੈਨੂੰ … ਪਸੰਦ ਹੈ\" ਵਾਲਾ \"ਹੈ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਨਹੀਂ ਆਉਂਦਾ।"],
+    ["\"ਮੇਰੀ ਭੈਣ ਸਿਓਲ ਵਿੱਚ ਰਹਿੰਦੀ ਹੈ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?", ["My sister live in Seoul.","My sister is live in Seoul.","My sister living in Seoul.","My sister lives in Seoul."], 3, "ਕਰਤਾ she ਹੈ, ਇਸ ਲਈ ਕਿਰਿਆ ਨਾਲ -s ਲੱਗਦਾ ਹੈ: lives। live ਆਪ ਕਿਰਿਆ ਹੈ, ਨਾਲ is ਨਹੀਂ ਲੱਗਦਾ।"],
+    ["Are you hungry? ਦਾ \"ਨਹੀਂ\" ਵਿੱਚ ਜਵਾਬ ਕੀ ਹੈ?", ["No, I don't.","No, I'm not.","No, I amn't.","No, I doesn't."], 1, "be ਨਾਲ ਪੁੱਛਿਆ ਹੈ, ਇਸ ਲਈ ਜਵਾਬ ਵੀ be ਨਾਲ: No, I'm not।"]
   ],
   polite: [
-    ["처음 보는 사람에게 가장 공손한 부탁은?", ["Give me directions.","I want directions.","Could you give me directions?","Directions, now."], 2, "Could you ~?가 공손한 부탁의 기본이에요. Give me는 명령처럼 들려요."],
-    ["Would you mind opening the window?에 '네, 열어 드릴게요'라는 뜻의 대답은?", ["No, not at all.","Yes, I mind.","Yes, I would.","No, I can't."], 0, "mind = 꺼리다. 'No(안 꺼려요)'가 '해 드릴게요'라는 뜻이에요."],
-    ["Would you mind 뒤에 오는 동사 형태는?", ["동사원형 (open)","to + 동사원형 (to open)","과거형 (opened)","~ing (opening)"], 3, "mind 뒤에는 ~ing가 와요: Would you mind waiting?"]
+    ["ਕਿਸੇ ਅਣਜਾਣ ਬੰਦੇ ਨੂੰ ਸਭ ਤੋਂ ਨਿਮਰ ਬੇਨਤੀ ਕਿਹੜੀ ਹੈ?", ["Give me directions.","I want directions.","Could you give me directions?","Directions, now."], 2, "Could you ~? ਨਿਮਰ ਬੇਨਤੀ ਦਾ ਮੁੱਢਲਾ ਢਾਂਚਾ ਹੈ। Give me ਹੁਕਮ ਵਰਗਾ ਸੁਣਦਾ ਹੈ।"],
+    ["Would you mind opening the window? ਦਾ ਕਿਹੜਾ ਜਵਾਬ ਕਹਿੰਦਾ ਹੈ: \"ਹਾਂ, ਖੋਲ੍ਹ ਦਿੰਦਾ ਹਾਂ\"?", ["No, not at all.","Yes, I mind.","Yes, I would.","No, I can't."], 0, "mind = ਬੁਰਾ ਮੰਨਣਾ। No (ਬੁਰਾ ਨਹੀਂ ਲੱਗੇਗਾ) ਦਾ ਮਤਲਬ ਹੈ \"ਖੋਲ੍ਹ ਦਿੰਦਾ ਹਾਂ\"।"],
+    ["Would you mind ਤੋਂ ਬਾਅਦ ਕਿਰਿਆ ਦਾ ਕਿਹੜਾ ਰੂਪ ਆਉਂਦਾ ਹੈ?", ["V1 (open)","to + V1 (to open)","V2 (opened)","~ing (opening)"], 3, "mind ਤੋਂ ਬਾਅਦ -ing ਰੂਪ ਆਉਂਦਾ ਹੈ: Would you mind waiting?"]
   ],
   tense: [
-    ["'저 매일 아침 커피 마셔요' (습관)", ["I'm drinking coffee every morning.","I drank coffee every morning.","I drink coffee every morning.","I will drink coffee every morning."], 2, "습관은 현재형이에요. 진행형은 '지금 마시는 중'이에요."],
-    ["친구 지갑이 없는 걸 보고 그 자리에서: '내가 낼게!'", ["I'll pay!","I'm going to pay!","I pay!","I paid!"], 0, "말하는 순간 결정한 일은 will이에요. going to는 미리 세운 계획이에요."],
-    ["go의 과거형은?", ["goed","gone","going","went"], 3, "go는 불규칙 동사예요: go - went - gone."]
+    ["\"ਮੈਂ ਰੋਜ਼ ਸਵੇਰੇ ਕੌਫ਼ੀ ਪੀਂਦਾ ਹਾਂ\" (ਆਦਤ)", ["I'm drinking coffee every morning.","I drank coffee every morning.","I drink coffee every morning.","I will drink coffee every morning."], 2, "ਆਦਤ = Simple Present। Present Continuous ਦਾ ਮਤਲਬ ਹੁੰਦਾ ਹੈ \"ਹੁਣੇ ਪੀ ਰਿਹਾ ਹਾਂ\"।"],
+    ["ਦੋਸਤ ਬਟੂਆ ਭੁੱਲ ਆਇਆ ਹੈ। ਉਸੇ ਵੇਲੇ ਕਹੋ: \"ਪੈਸੇ ਮੈਂ ਦੇ ਦਿੰਦਾ ਹਾਂ!\"", ["I'll pay!","I'm going to pay!","I pay!","I paid!"], 0, "ਬੋਲਦੇ ਵੇਲੇ ਕੀਤਾ ਫ਼ੈਸਲਾ = will। going to ਪਹਿਲਾਂ ਤੋਂ ਬਣਾਏ ਪਲਾਨ ਲਈ ਹੈ।"],
+    ["go ਦੀ V2 (ਦੂਜੀ ਫ਼ਾਰਮ) ਕੀ ਹੈ?", ["goed","gone","going","went"], 3, "go ਅਨਿਯਮਿਤ ਕਿਰਿਆ ਹੈ: go - went - gone।"]
   ],
   prep: [
-    ["'7시에 만나요' = Let's meet ___ 7.", ["in","at","on","to"], 1, "정확한 시각 앞에는 at이에요."],
-    ["'월요일에' = ___ Monday", ["on","in","at","by"], 0, "요일과 날짜 앞에는 on이에요."],
-    ["올바른 문장은?", ["See you on next week.","See you at next week.","See you in next week.","See you next week."], 3, "next, last, this, every 앞에는 전치사를 쓰지 않아요."]
+    ["\"ਸੱਤ ਵਜੇ ਮਿਲਦੇ ਹਾਂ\" = Let's meet ___ 7.", ["in","at","on","to"], 1, "ਘੜੀ ਦੇ ਸਮੇਂ ਤੋਂ ਪਹਿਲਾਂ at ਲੱਗਦਾ ਹੈ।"],
+    ["\"ਸੋਮਵਾਰ ਨੂੰ\" = ___ Monday", ["on","in","at","by"], 0, "ਦਿਨ ਤੇ ਤਾਰੀਖ਼ ਤੋਂ ਪਹਿਲਾਂ on: ਇੱਥੇ \"ਨੂੰ\" = on।"],
+    ["ਸਹੀ ਵਾਕ ਕਿਹੜਾ ਹੈ?", ["See you on next week.","See you at next week.","See you in next week.","See you next week."], 3, "next, last, this, every ਤੋਂ ਪਹਿਲਾਂ ਕੋਈ preposition ਨਹੀਂ ਲੱਗਦਾ।"]
   ],
   smalltalk: [
-    ["카페 직원이 How are you today?라고 할 때 가장 자연스러운 대답은?", ["Why do you ask?","Good, thanks! How about you?","I'm tired and my boss is mean.","Yes."], 1, "How are you?는 인사예요. 짧게 대답하고 되물어 주면 완벽해요."],
-    ["초면에 피하는 게 좋은 질문은?", ["How was your weekend?","Have you been here before?","How old are you?","Do you like this place?"], 2, "영어권에서는 나이를 먼저 묻는 게 실례가 될 수 있어요."],
-    ["I don't like horror movies.에 동의할 때", ["Me too.","So do I.","Me neither.","Me also."], 2, "부정문에 맞장구칠 땐 Me neither(또는 Neither do I)예요."]
+    ["ਕੈਫ਼ੇ ਦਾ ਕਰਮਚਾਰੀ ਕਹਿੰਦਾ ਹੈ: How are you today? ਸਭ ਤੋਂ ਸੁਭਾਵਿਕ ਜਵਾਬ ਕਿਹੜਾ ਹੈ?", ["Why do you ask?","Good, thanks! How about you?","I'm tired and my boss is mean.","Yes."], 1, "How are you? ਹਾਲ-ਚਾਲ ਪੁੱਛਣ ਦੀ ਰਸਮ ਹੈ। ਛੋਟਾ ਜਵਾਬ ਦਿਓ ਤੇ ਮੋੜ ਕੇ ਪੁੱਛੋ।"],
+    ["ਪਹਿਲੀ ਮੁਲਾਕਾਤ ਵਿੱਚ ਕਿਹੜਾ ਸਵਾਲ ਨਾ ਪੁੱਛਣਾ ਹੀ ਚੰਗਾ ਹੈ?", ["How was your weekend?","Have you been here before?","How old are you?","Do you like this place?"], 2, "ਅੰਗਰੇਜ਼ੀ ਬੋਲਣ ਵਾਲੇ ਦੇਸ਼ਾਂ ਵਿੱਚ ਪਹਿਲੀ ਮੁਲਾਕਾਤ ਵਿੱਚ ਉਮਰ ਪੁੱਛਣਾ ਬੇਅਦਬੀ ਲੱਗ ਸਕਦਾ ਹੈ।"],
+    ["I don't like horror movies. ਨਾਲ ਸਹਿਮਤ ਹੋਣ ਲਈ ਕੀ ਕਹੋਗੇ?", ["Me too.","So do I.","Me neither.","Me also."], 2, "ਨਾਂਹ ਵਾਲੇ ਵਾਕ ਨਾਲ ਸਹਿਮਤੀ = Me neither (ਜਾਂ Neither do I)।"]
   ],
   phrasal: [
-    ["'그거 좀 꺼 줄래?' 올바른 문장은?", ["Can you turn off it?","Can you off turn it?","Can you turn it of?","Can you turn it off?"], 3, "대명사(it)는 구동사 가운데에 와요: turn it off."],
-    ["run out of의 뜻은?", ["밖으로 뛰어나가다","~이 다 떨어지다","~에서 도망치다","늦게 도착하다"], 1, "We ran out of milk. = 우유가 다 떨어졌어요."],
-    ["'회의를 다음 주로 미루자' =", ["Let's put off the meeting until next week.","Let's put on the meeting until next week.","Let's put up the meeting until next week.","Let's put out the meeting until next week."], 0, "put off = 미루다. put on은 '입다·켜다', put out은 '(불을) 끄다'예요."]
+    ["\"ਇਸ ਨੂੰ ਬੰਦ ਕਰ ਦਿਓਗੇ?\" ਸਹੀ ਵਾਕ ਕਿਹੜਾ ਹੈ?", ["Can you turn off it?","Can you off turn it?","Can you turn it of?","Can you turn it off?"], 3, "ਪੜਨਾਂਵ it ਫ਼ਰੇਜ਼ਲ ਵਰਬ ਦੇ ਵਿਚਕਾਰ ਆਉਂਦਾ ਹੈ: turn it off।"],
+    ["run out of ਦਾ ਅਰਥ ਕੀ ਹੈ?", ["ਭੱਜ ਕੇ ਬਾਹਰ ਜਾਣਾ","(ਕੋਈ ਚੀਜ਼) ਮੁੱਕ ਜਾਣਾ","ਕਿਤੋਂ ਭੱਜ ਜਾਣਾ","ਦੇਰ ਨਾਲ ਪਹੁੰਚਣਾ"], 1, "We ran out of milk. = ਸਾਡਾ ਦੁੱਧ ਮੁੱਕ ਗਿਆ ਹੈ।"],
+    ["\"ਮੀਟਿੰਗ ਅਗਲੇ ਹਫ਼ਤੇ ਤੱਕ ਅੱਗੇ ਪਾ ਦੇਈਏ\" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?", ["Let's put off the meeting until next week.","Let's put on the meeting until next week.","Let's put up the meeting until next week.","Let's put out the meeting until next week."], 0, "put off = ਅੱਗੇ ਪਾਉਣਾ। put on = (ਕੱਪੜੇ) ਪਾਉਣਾ ਜਾਂ ਚਾਲੂ ਕਰਨਾ; put out = (ਅੱਗ) ਬੁਝਾਉਣਾ।"]
   ],
   numbers: [
-    ["50,000(오만)을 영어로 하면?", ["five ten thousand","fifty hundred","five million","fifty thousand"], 3, "영어는 세 자리씩 끊어요: 50 + thousand = fifty thousand."],
-    ["thirteen은 어디를 세게 말하나요?", ["thir (앞)","teen (뒤)","둘 다 똑같이","강세가 없다"], 1, "-teen 숫자는 뒤에 강세가 있어요. thirty는 앞이에요."],
-    ["$12.50을 가장 자연스럽게 읽으면?", ["one two five zero","twelve fifty","twelve point five dollar","twelve dollar fifty cent"], 1, "가격은 숫자 두 덩어리로 읽어요: twelve fifty."]
+    ["50,000 (ਪੰਜਾਹ ਹਜ਼ਾਰ) ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ?", ["five ten thousand","fifty hundred","five million","fifty thousand"], 3, "ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਤਿੰਨ-ਤਿੰਨ ਅੰਕ: 50 + thousand = fifty thousand।"],
+    ["thirteen ਵਿੱਚ ਜ਼ੋਰ ਕਿਸ ਹਿੱਸੇ ਤੇ ਹੈ?", ["thir (ਪਹਿਲੇ ਤੇ)","teen (ਦੂਜੇ ਤੇ)","ਦੋਵਾਂ ਤੇ ਬਰਾਬਰ","ਕਿਸੇ ਤੇ ਨਹੀਂ"], 1, "-teen ਵਾਲੀ ਗਿਣਤੀ ਵਿੱਚ ਜ਼ੋਰ ਪਿੱਛੇ ਹੁੰਦਾ ਹੈ; thirty ਵਿੱਚ ਅੱਗੇ।"],
+    ["$12.50 ਆਮ ਬੋਲਚਾਲ ਵਿੱਚ ਕਿਵੇਂ ਪੜ੍ਹੋਗੇ?", ["one two five zero","twelve fifty","twelve point five dollar","twelve dollar fifty cent"], 1, "ਕੀਮਤ ਦੋ ਗਿਣਤੀਆਂ ਵਾਂਗ ਪੜ੍ਹੋ: twelve fifty।"]
   ],
   email: [
-    ["처음 연락하는 거래처 담당자 Jenny Park에게 가장 무난한 인사는?", ["Hey dude,","Yo Jenny,","Hi Jenny,","To manager,"], 2, "미국 업무 이메일에선 Hi + 이름이 가장 무난해요. 아주 격식 있을 땐 Dear Ms. Park,"],
-    ["프로젝트를 마친 팀에게 '수고하셨습니다'를 전하려면?", ["You suffered a lot.","Thanks for all your hard work!","Good suffering.","Please work harder."], 1, "영어엔 수고하셨습니다에 딱 맞는 말이 없어요. 노력에 고마움을 표현해요."],
-    ["기한을 정중하게 요청하는 문장은?", ["Send it ASAP.","You must send it.","Send now.","Could you send it by Thursday?"], 3, "Could you ~? + by + 날짜로 부드럽지만 분명하게 요청해요."]
+    ["ਕਿਸੇ ਹੋਰ ਕੰਪਨੀ ਦੀ Jenny Park ਨੂੰ ਪਹਿਲੀ ਵਾਰ ਈਮੇਲ ਲਿਖ ਰਹੇ ਹੋ। ਸਭ ਤੋਂ ਠੀਕ ਸੰਬੋਧਨ ਕਿਹੜਾ ਹੈ?", ["Hey dude,","Yo Jenny,","Hi Jenny,","To manager,"], 2, "ਅਮਰੀਕੀ ਦਫ਼ਤਰੀ ਈਮੇਲ ਵਿੱਚ Hi + ਪਹਿਲਾ ਨਾਂ ਸਭ ਤੋਂ ਠੀਕ ਹੈ। ਬਹੁਤ ਰਸਮੀ ਮੌਕੇ ਤੇ: Dear Ms. Park,"],
+    ["ਪ੍ਰੋਜੈਕਟ ਪੂਰਾ ਕਰਨ ਵਾਲੀ ਟੀਮ ਦੀ ਮਿਹਨਤ ਦੀ ਕਦਰ ਕਿਵੇਂ ਕਰੋਗੇ?", ["You suffered a lot.","Thanks for all your hard work!","Good suffering.","Please work harder."], 1, "ਮਿਹਨਤ ਲਈ ਧੰਨਵਾਦ ਕਰੋ: Thanks for all your hard work! ਸ਼ਬਦ-ਦਰ-ਸ਼ਬਦ ਅਨੁਵਾਦ (You suffered a lot) ਅਜੀਬ ਲੱਗਦਾ ਹੈ।"],
+    ["ਆਖ਼ਰੀ ਤਾਰੀਖ਼ ਦੱਸ ਕੇ ਕੀਤੀ ਨਿਮਰ ਬੇਨਤੀ ਕਿਹੜੀ ਹੈ?", ["Send it ASAP.","You must send it.","Send now.","Could you send it by Thursday?"], 3, "Could you ~? + by + ਦਿਨ: ਬੇਨਤੀ ਨਰਮ ਵੀ ਹੈ ਤੇ ਸਾਫ਼ ਵੀ।"]
   ],
   idioms: [
-    ["The test was a piece of cake.의 뜻은?", ["시험이 아주 쉬웠어요","시험 중에 케이크를 먹었어요","시험이 아주 어려웠어요","시험을 망쳤어요"], 0, "a piece of cake = 식은 죽 먹기."],
-    ["I'm feeling under the weather.의 뜻은?", ["날씨가 나빠요","밖에 있어요","몸이 좀 안 좋아요","비를 맞았어요"], 2, "날씨와 상관없이 '컨디션이 안 좋다'는 뜻이에요."],
-    ["회사 상사에게 보고할 때 쓰기에 가장 어색한 것은?", ["Let's call it a day.","Let's get the ball rolling.","I'll keep my fingers crossed.","No cap, this report slaps."], 3, "No cap, slaps는 친구끼리 쓰는 슬랭이에요. 관용구는 직장에서도 써요."]
+    ["The test was a piece of cake. ਦਾ ਕੀ ਮਤਲਬ ਹੈ?", ["ਟੈਸਟ ਬਹੁਤ ਸੌਖਾ ਸੀ","ਟੈਸਟ ਦੌਰਾਨ ਕੇਕ ਖਾਧਾ","ਟੈਸਟ ਬਹੁਤ ਔਖਾ ਸੀ","ਟੈਸਟ ਖ਼ਰਾਬ ਹੋ ਗਿਆ"], 0, "a piece of cake = ਖੱਬੇ ਹੱਥ ਦੀ ਖੇਡ, ਬਹੁਤ ਸੌਖਾ ਕੰਮ।"],
+    ["I'm feeling under the weather. ਦਾ ਕੀ ਮਤਲਬ ਹੈ?", ["ਮੌਸਮ ਖ਼ਰਾਬ ਹੈ","ਮੈਂ ਬਾਹਰ ਹਾਂ","ਮੇਰੀ ਤਬੀਅਤ ਕੁਝ ਠੀਕ ਨਹੀਂ","ਮੈਂ ਮੀਂਹ ਵਿੱਚ ਭਿੱਜ ਗਿਆ"], 2, "ਇਸ ਦਾ ਮੌਸਮ ਨਾਲ ਕੋਈ ਸੰਬੰਧ ਨਹੀਂ; ਮਤਲਬ ਹੈ \"ਤਬੀਅਤ ਕੁਝ ਢਿੱਲੀ ਹੈ\"।"],
+    ["ਦਫ਼ਤਰ ਵਿੱਚ ਬੌਸ ਨੂੰ ਰਿਪੋਰਟ ਦਿੰਦੇ ਵੇਲੇ ਕਿਹੜਾ ਵਾਕ ਸਭ ਤੋਂ ਅਜੀਬ ਲੱਗੇਗਾ?", ["Let's call it a day.","Let's get the ball rolling.","I'll keep my fingers crossed.","No cap, this report slaps."], 3, "No cap ਤੇ slaps ਦੋਸਤਾਂ ਵਿੱਚ ਚੱਲਣ ਵਾਲਾ ਸਲੈਂਗ ਹੈ। ਮੁਹਾਵਰੇ ਦਫ਼ਤਰ ਵਿੱਚ ਵੀ ਚੱਲਦੇ ਹਨ।"]
   ]
 };
