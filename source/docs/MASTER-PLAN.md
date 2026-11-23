@@ -45,7 +45,7 @@ Any pair = target half + native half (+ pair layer). 61 + 61 pieces of work cove
 3. **Timing:** engine change starts after the usage reset (about 2026-11-24), not before.
 4. **Next block after the pilot (Kii, 2026-11-22): every Asian language → Korean.** 16 pairs, in this order:
    - Interface already exists (cheapest; Japanese and Chinese hand-tuned, the rest standard): Japanese, Chinese, Vietnamese, Thai, Indonesian, Hindi.
-   - Needs a native half first (interface dictionary and meanings): Bisaya / Cebuano (asked for by name, so first of this group), Tagalog, Cantonese (convert the Chinese interface to Traditional characters), Taiwanese Hokkien (same conversion), Bengali, Urdu, Punjabi, Telugu, Kannada, Marathi.
+   - Needs a native half first (interface dictionary and meanings): Bisaya / Cebuano (HAND-TUNED, Kii 2026-11-22: a friend asked for it; first of this group; research the mistakes Cebuano speakers make in Korean, and ask the friend to check it before launch), Tagalog, Cantonese (convert the Chinese interface to Traditional characters), Taiwanese Hokkien (same conversion), Bengali, Urdu, Punjabi, Telugu, Kannada, Marathi.
    - Open: whether Arabic, Persian and Turkish (West Asia) belong in this block.
    Korean's target half comes from the Spanish → Korean pilot and is reused by all 16.
 
