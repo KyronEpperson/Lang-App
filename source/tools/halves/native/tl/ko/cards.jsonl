@@ -111,7 +111,7 @@
 {"id":"ko.c0111","meaning":"Saan nabibili ito?","note":"사다 = bumili. 팔아요? = nagbebenta ba kayo nito?"}
 {"id":"ko.c0112","meaning":"Nasaan ang bayaran?","note":"계산 = bayad. 계산대 = counter."}
 {"id":"ko.c0113","meaning":"May upuan / mesa ba?","note":"Pagpasok sa restaurant o café."}
-{"id":"ko.c0114","meaning":"Dalawang tao","note":"Sagot sa 몇 명이세요? (ilan kayo?). 한 명이요 = isa. 세 명이요 = tatlo."}
+{"id":"ko.c0114","meaning":"Dalawang tao","note":"Sagot sa 몇 명이세요? (ilan po kayo?). 한 명이요 = isa. 세 명이요 = tatlo."}
 {"id":"ko.c0115","meaning":"Puwede ba akong umupo rito?","note":"앉다 = umupo."}
 {"id":"ko.c0116","meaning":"May charger ba kayo?","note":"Madalas nagpapahiram ang café. 콘센트 = saksakan."}
 {"id":"ko.c0117","meaning":"Nasaan ang saksakan?","note":"Galing ang 콘센트 sa 'concentric plug'."}
@@ -566,8 +566,8 @@
 {"id":"ko.c0566","meaning":"Ako rin","note":"Casual: 나도."}
 {"id":"ko.c0567","meaning":"Talaga?","note":"Mas malambot kaysa 진짜요?. Parehong okay."}
 {"id":"ko.c0568","meaning":"Kita ulit tayo","note":"또 = ulit. 내일 봐요 = kita tayo bukas."}
-{"id":"ko.c0569","meaning":"Ingat / Paalam (sa taong aalis)","note":"Lit. 'umalis nang mapayapa' (가세요 = umalis po kayo). Sabihin kapag ang KAUSAP mo ang aalis."}
-{"id":"ko.c0570","meaning":"Paalam (sa taong maiiwan)","note":"Lit. 'manatili nang mapayapa' (계세요 = manatili po kayo). Sabihin kapag IKAW ang aalis at maiiwan ang kausap mo."}
+{"id":"ko.c0569","meaning":"Ingat / Paalam (sa taong aalis)","note":"Lit. 'umalis nang mapayapa' (가세요 = umalis, honorific). Sabihin kapag ang KAUSAP mo ang aalis."}
+{"id":"ko.c0570","meaning":"Paalam (sa taong maiiwan)","note":"Lit. 'manatili nang mapayapa' (계세요 = manatili, honorific). Sabihin kapag IKAW ang aalis at maiiwan ang kausap mo."}
 {"id":"ko.c0571","meaning":"Kokontakin kita","note":"ㄹ게요 = gagawin ko (pangako). 연락 = kontak."}
 {"id":"ko.c0572","meaning":"tubig","note":"물 주세요 = pahingi ng tubig."}
 {"id":"ko.c0573","meaning":"kanin, pagkain","note":"밥 먹자 = kain tayo."}

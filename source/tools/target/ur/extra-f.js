@@ -17,7 +17,6 @@ exports.DIALOG = `
 چلیں، چائے پیتے ہیں؟ | کلاس ہو گئی۔ چلیں، چائے پیتے ہیں؟ | ٹھیک ہے، چلیں۔ | Class is over. Shall we go for tea? / OK, let's go.
 کیا آپ میرے ساتھ کھانا کھائیں گی؟ | کیا آپ میرے ساتھ کھانا کھائیں گی؟ | شکریہ، لیکن ہم صرف دوست ہیں۔ | Will you have dinner with me? / Thank you, but we're just friends.
 کیا میں آپ کو فون کر سکتا ہوں؟ | کیا میں آپ کو فون کر سکتا ہوں؟ | جی نہیں، شکریہ۔ | May I call you? / No, thank you.
-آپ بھی نہ! | آپ سب سے پیاری لڑکی ہیں۔ | آپ بھی نہ! | You're the sweetest girl there is. / Oh, stop it!
 مجھے بھی آپ اچھے لگتے ہیں۔ | مجھے آپ بہت اچھی لگتی ہیں۔ | مجھے بھی آپ اچھے لگتے ہیں۔ | I really like you. / I like you too.
 آپ بہت اچھے ہیں، لیکن میں ایسا نہیں سوچتی۔ | کیا ہم صرف دوست ہیں؟ | آپ بہت اچھے ہیں، لیکن میں ایسا نہیں سوچتی۔ | Are we just friends? / You're very nice, but I don't feel that way.
 معاف کیجیے، میری شادی ہو گئی ہے۔ | کل شام کو چائے پر چلیں؟ | معاف کیجیے، میری شادی ہو گئی ہے۔ | Shall we go for tea tomorrow evening? / Sorry, I'm married.

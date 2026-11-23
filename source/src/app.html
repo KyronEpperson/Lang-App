@@ -562,7 +562,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.68.0 · 2026-11-23';
+const APP_VERSION='2.69.0 · 2026-11-23';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -1332,7 +1332,7 @@ function showLangHome(opts){ opts=opts||{}; closeSheet(); const old=$('langHome'
   const focus=()=>setTimeout(()=>{ const b=w.querySelector('.lh-row'); if(b&&!document.getElementById('fxIntro')) b.focus({preventScroll:true}); },60);
   const soonT2=ln=>{ const s2=pre2('Coming soon','출시 예정'); return ln+' · coming soon'+(s2?' · '+s2:''); };
   const soonT=k=>soonT2(LANGS[k].name);
-  const step1=()=>{ native=null; lhDir(null); const live=liveNatives(); const soon=Object.keys(LANGS).filter(k=>!live.includes(k)&&!LANGS[k].t);
+  const step1=()=>{ native=null; lhDir(null); const bySelf=(x,y)=>String(LANGS[x].self).localeCompare(String(LANGS[y].self),'en',{sensitivity:'base'}); const live=liveNatives().slice().sort(bySelf); const soon=Object.keys(LANGS).filter(k=>!live.includes(k)&&!LANGS[k].t).sort(bySelf); /* both lists alphabetical by the name shown (Latin first, then other scripts) */
     w.innerHTML=`<div class="wbox"><div class="lh-top"><span class="lh-brand">${LOGO_SVG}Lang App</span>${xBtn()}</div><div><h1 class="lh-q">${escT(preT('What language do you speak?','어떤 언어를 사용하세요?'))}</h1></div>
       <div class="lh-list" role="list">${live.map(k=>`<div role="listitem"><button class="lh-row" type="button" data-native="${k}" lang="${hLang(k)}"><span class="lh-flag" aria-hidden="true">${FLG(k)}</span><span class="lh-name"><b>${LANGS[k].self}</b></span><span class="lh-go" aria-hidden="true">›</span></button></div>`).join('')}</div>
       ${soon.length?`<p class="lh-soon">🔒 ${escT(preBi('Coming soon','출시 예정'))}</p><div class="lh-locked" role="list" aria-label="${escT(preBi('Coming soon','출시 예정'))}">${soon.map(k=>lock(FLG(k),LANGS[k].self,soonT(k))).join('')}</div>`:''}</div>`; focus(); };

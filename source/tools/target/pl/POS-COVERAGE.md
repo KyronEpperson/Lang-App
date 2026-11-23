@@ -34,7 +34,7 @@ Each outline links to a new core deck. The place suggested is after the lessons 
 - **Teaches:** *i* (and) vs *a* (and, with a contrast or a new subject); *ale*; *albo*; *że* after *wiem, myślę, mówię*, always after a comma; *bo* (casual) and *ponieważ*; *jeśli* and *kiedy* with the present.
 - **English-speaker trap:** using *i* for every "and" (*Ja piję kawę i ty herbatę* instead of *a ty herbatę*); dropping *że* the way English drops "that" (*Myślę to dobry pomysł*); leaving out the comma before *że, bo, kiedy*.
 - **Examples:** *Ja piję kawę, a Anna herbatę.* · *Wiem, że jesteś zmęczony.* · *Jeśli masz czas, zadzwoń.*
-- **Deck:** Top conjunctions (17 cards already have examples).
+- **Deck:** Top conjunctions (18 cards already have examples).
 
 ### 2. `interjections`: au, ojej, łał, halo: reacting in Polish (after `greetings`)
 - **Teaches:** 12–15 reactions grouped by feeling: pain (*au, ała*), surprise and delight (*och, ach, łał, jejku, rety*), sympathy and dismay (*ojej, oj, szkoda*), relief (*uff*), disgust (*fuj*), praise (*brawo, super*), and the social ones (*hej, pa, dzięki, halo*). *Kurczę* as the polite stand-in for a swear word.

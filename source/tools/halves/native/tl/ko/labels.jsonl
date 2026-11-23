@@ -16,12 +16,12 @@
 {"id":"plan.social","text":"Magkaroon ng kaibigan at ka-date"}
 {"id":"plan.conv","text":"Makipag-usap sa loob ng 90 araw"}
 {"id":"ko.z.compliment","text":"papuri"}
-{"id":"ko.z.compliment.01","text":"Ang astig mo / Ang porma mo"}
+{"id":"ko.z.compliment.01","text":"Ang porma mo / Bongga!"}
 {"id":"ko.z.compliment.02","text":"Ikaw ang pinakamagaling"}
 {"id":"ko.z.compliment.03","text":"Ang galing niyan"}
 {"id":"ko.z.compliment.04","text":"Magaling ang ginawa mo"}
 {"id":"ko.z.compliment.05","text":"Ang ganda ng taste mo"}
-{"id":"ko.z.compliment.06","text":"Ang bait po ninyo"}
+{"id":"ko.z.compliment.06","text":"Ang bait mo"}
 {"id":"ko.z.compliment.07","text":"Ang talino mo"}
 {"id":"ko.z.compliment.08","text":"Ang saya mong kasama"}
 {"id":"ko.z.compliment.09","text":"Ang ganda ng ngiti mo"}
@@ -31,19 +31,19 @@
 {"id":"ko.z.compliment.13","text":"Ramdam kong may kakampi ako kapag kasama ka"}
 {"id":"ko.z.compliment.14","text":"Ang astig mo"}
 {"id":"ko.z.compliment.15","text":"Ang ganda ng ugali mo"}
-{"id":"ko.z.compliment.16","text":"Ang galing po ninyong mag-Koreano"}
+{"id":"ko.z.compliment.16","text":"Magaling ang Koreano mo"}
 {"id":"ko.z.compliment.17","text":"May dating ka"}
 {"id":"ko.z.compliment.18","text":"Taong mainit ang puso"}
 {"id":"ko.z.compliment.19","text":"Marami akong natututunan sa iyo"}
 {"id":"ko.z.compliment.20","text":"Panatag ako kapag kasama ka"}
-{"id":"ko.z.compliment.21","text":"Ang sipag po ninyo"}
+{"id":"ko.z.compliment.21","text":"Ang sipag mo"}
 {"id":"ko.z.compliment.22","text":"Maalalahanin ka"}
 {"id":"ko.z.expression","text":"pang-araw-araw na expression"}
 {"id":"ko.z.expression.01","text":"Talaga?"}
 {"id":"ko.z.expression.02","text":"Ah, ganoon pala"}
 {"id":"ko.z.expression.03","text":"Tama"}
 {"id":"ko.z.expression.04","text":"Siyempre"}
-{"id":"ko.z.expression.05","text":"Hmm… hindi ako sigurado"}
+{"id":"ko.z.expression.05","text":"Hmm… ewan ko lang"}
 {"id":"ko.z.expression.06","text":"Siguro"}
 {"id":"ko.z.expression.07","text":"Okay lang"}
 {"id":"ko.z.expression.08","text":"Gets ko"}
@@ -53,7 +53,7 @@
 {"id":"ko.z.expression.12","text":"Grabe / Hindi nga"}
 {"id":"ko.z.expression.13","text":"Kaya pala"}
 {"id":"ko.z.expression.14","text":"Imposible naman"}
-{"id":"ko.z.expression.15","text":"Natural lang / Siyempre naman"}
+{"id":"ko.z.expression.15","text":"Natural lang iyon"}
 {"id":"ko.z.expression.16","text":"Di ba? Kaya nga"}
 {"id":"ko.z.expression.17","text":"Ay, Diyos ko"}
 {"id":"ko.z.expression.18","text":"Oo naman"}
@@ -63,7 +63,7 @@
 {"id":"ko.z.expression.22","text":"Salamat sa pagkain (bago kumain)"}
 {"id":"ko.z.expression.23","text":"Salamat sa pagkain, busog na ako (pagkatapos kumain)"}
 {"id":"ko.z.expression.24","text":"Ingat pauwi"}
-{"id":"ko.z.expression.25","text":"Magandang araw sa iyo"}
+{"id":"ko.z.expression.25","text":"Sana maganda ang araw mo"}
 {"id":"ko.z.expression.26","text":"Ano ang ibig sabihin niyan?"}
 {"id":"ko.z.polite","text":"batayang paggalang"}
 {"id":"ko.z.polite.01","text":"Pahingi / Pakibigay"}

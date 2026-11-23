@@ -6,8 +6,8 @@ module.exports = {
 হ্যান্ডসাম | hænḍsam | handsome | English loan, to a man. Warm.
 স্মার্ট | smarṭ | smart; sharp-looking | Loan. In Bangladesh it praises looks and style as much as brains. Mild.
 মায়াবী | mayabi | enchanting; gentle and charming | A local favourite, often of eyes: মায়াবী চোখ. Warm to bold.
-লক্ষ্মী | lôkkhi | sweet; good-natured | Of a kind, gentle person; also said to children. Mild.
-মজার | mojar | funny; fun (person) | মজার মানুষ = a fun person. Mild.
+লক্ষ্মী | lokkhi | sweet; good-natured | Of a kind, gentle person; also said to children. Mild.
+মজার | môjar | funny; fun (person) | মজার মানুষ = a fun person. Mild.
 বুদ্ধিমান | buddhiman | clever; intelligent | Of a man; of a woman: বুদ্ধিমতী. Mild.
 রোমান্টিক | romanṭik | romantic | Loan. Warm.
 চোখ | chokh | eyes; an eye | One word for one or both: তোমার চোখ. Safe to praise.
@@ -34,8 +34,8 @@ module.exports = {
 তোমার হাসি দেখলে আমার মন ভালো হয়ে যায়। | tomar hashi dekhle amar mon bhalo hoye jay. | Seeing you smile makes my day. | Warm to bold.
 তোমার চুলগুলো খুব সুন্দর। | tomar chulgulo khub shundôr. | Your hair is lovely. | To anyone, most often to a woman. Warm.
 তোমার গলাটা খুব মিষ্টি। | tomar gôlaṭa khub mishṭi. | Your voice is so sweet. | Often after someone sings. Warm.
-তুমি খুব মজার মানুষ। | tumi khub mojar manush. | You're such a fun person. | To anyone. Mild and safe.
-তুমি খুব লক্ষ্মী। | tumi khub lôkkhi. | You're such a sweetheart. | To anyone kind; also to a child. Mild.
+তুমি খুব মজার মানুষ। | tumi khub môjar manush. | You're such a fun person. | To anyone. Mild and safe.
+তুমি খুব লক্ষ্মী। | tumi khub lokkhi. | You're such a sweetheart. | To anyone kind; also to a child. Mild.
 তুমি অনেক বুদ্ধিমান। | tumi ônek buddhiman. | You're really clever. | To a man; to a woman: তুমি অনেক বুদ্ধিমতী. Mild.
 তোমার স্টাইলটা দারুণ। | tomar sṭailṭa darun. | I love your style. | To anyone. Mild.
 তোমার নামটা খুব সুন্দর। | tomar namṭa khub shundôr. | You have a lovely name. | A classic first line. Mild.

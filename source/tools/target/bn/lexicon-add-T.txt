@@ -79,7 +79,7 @@
 নাচা	nacha	unverified:model
 ঘোরা	ghora	unverified:model
 বের	ber	unverified:model
-চলে	chôle	unverified:model
+চলে	chole	unverified:model
 বিশ্বাস	bisshash	unverified:model
 শুরু	shuru	unverified:model
 চিন্তা	chinta	unverified:model
@@ -94,7 +94,7 @@
 একা	æka	unverified:model
 প্রিয়	priyo	unverified:model
 সহজ	shôhoj	unverified:model
-কঠিন	kôṭhin	unverified:model
+কঠিন	koṭhin	unverified:model
 অসুস্থ	ôshustho	unverified:model
 সুস্থ	shustho	unverified:model
 অসাধারণ	ôshadharon	unverified:model
@@ -145,14 +145,14 @@
 ওরা	ora	unverified:model
 এসব	eshôb	unverified:model
 নিজের	nijer	unverified:model
-সবকিছু	shobkichhu	unverified:model
+সবকিছু	shôbkichhu	unverified:model
 কিছুই	kichhui	unverified:model
 যা	ja	unverified:model
 সেগুলো	shegulo	unverified:model
 এরা	era	unverified:model
 নিজে	nije	unverified:model
 নিয়ে	niye	unverified:model
-উপর	upôr	unverified:model
+উপর	upor	unverified:model
 মতো	môto	unverified:model
 পর্যন্ত	pôrjonto	unverified:model
 সম্পর্কে	shômpôrke	unverified:model
@@ -168,8 +168,8 @@
 যদিও	jodio	unverified:model
 অথবা	ôthoba	unverified:model
 যাতে	jate	unverified:model
-তবুও	tôbuo	unverified:model
-নইলে	nôile	unverified:model
+তবুও	tobuo	unverified:model
+নইলে	noile	unverified:model
 যেমন	jæmon	unverified:model
 বরং	bôrong	unverified:model
 এমনকি	æmonki	unverified:model
@@ -199,7 +199,7 @@
 কিভাবে	kibhabe	unverified:model
 প্লিজ	plij	unverified:model
 উচিত	uchit	unverified:model
-অন্য	ônno	unverified:model
+অন্য	onno	unverified:model
 একই	æki	unverified:model
 কয়েক	kôyek	unverified:model
 প্রত্যেক	prottek	unverified:model
@@ -263,8 +263,8 @@
 হ্যান্ডসাম	hænḍsam	unverified:model
 স্মার্ট	smarṭ	unverified:model
 মায়াবী	mayabi	unverified:model
-লক্ষ্মী	lôkkhi	unverified:model
-মজার	mojar	unverified:model
+লক্ষ্মী	lokkhi	unverified:model
+মজার	môjar	unverified:model
 বুদ্ধিমান	buddhiman	unverified:model
 রোমান্টিক	romanṭik	unverified:model
 চোখ	chokh	unverified:model
@@ -301,4 +301,5 @@
 খেলি	khæli	unverified:model
 দেরি করে	deri kôre	unverified:model
 পরিষ্কার করে	porishkar kôre	unverified:model
-খুঁজে	khuje	unverified:model
+খুঁজে	khũje	unverified:model
+বলেছ	bolechho	unverified:model

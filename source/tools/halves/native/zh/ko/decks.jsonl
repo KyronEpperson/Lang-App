@@ -1,0 +1,43 @@
+{"id":"ko.d.hangul-vowels","label":"韩文元音","desc":"10 个基本元音：学会它们，任何词都能拼读出来。罗马音不是拼音：eo 是一个元音（嘴张大、不圆唇），eu 也是一个元音（嘴角向两边拉平），e 和 ae 读音相同，像“也 ye”里的 e，不是“饿”。yu 读作“优”，不是“鱼”。"}
+{"id":"ko.d.hangul-consonants","label":"韩文辅音","desc":"14 个基本辅音，以及它们在音节末尾怎么变。罗马音不是拼音：ch 接近拼音 q，j 接近拼音 j，都不是翘舌音；r 是舌尖轻弹一下，不是“日”；h 比拼音 h 轻，只是轻轻呼气；si 读作“西”。收音 k、t、p 摆好口型就停住，不要加元音。"}
+{"id":"ko.d.hangul-advanced","label":"韩文进阶字母","desc":"紧音、送气音、复合元音、双收音。罗马音里的 kk、tt、pp、ss、jj 是紧音，不是长音：喉咙收紧，完全不送气。k、t、p、ch 是送气音，气要比拼音 k、t、p、q 更强。"}
+{"id":"ko.d.pronunciation-tips","label":"发音要点","desc":"让实际读音和拼写不一样的音变规则。"}
+{"id":"ko.d.survival-phrases","label":"生存短句","desc":"在韩国过一天够用的 12 句话。"}
+{"id":"ko.d.introductions","label":"自我介绍","desc":"名字、来自哪里、年龄、职业、爱好：初次见面的固定说法。"}
+{"id":"ko.d.survival-phrases-2","label":"生存短句 2","desc":"求助、请人重复、付钱、迷路时问路。"}
+{"id":"ko.d.asking-around","label":"问在哪里","desc":"洗手间、出口、座位、Wi-Fi、营业时间：各种“……在哪儿”的问题。"}
+{"id":"ko.d.cafe-convenience-store","label":"咖啡馆和便利店","desc":"大小杯、热的冰的、积分卡、加热食物、袋子。"}
+{"id":"ko.d.numbers-in-the-wild","label":"街头数字","desc":"价格、电话号码、楼层和时间的实际写法。"}
+{"id":"ko.d.counters","label":"量词","desc":"怎么数东西、人、杯、瓶、动物。"}
+{"id":"ko.d.weather-feelings","label":"天气与心情","desc":"聊天气、说心情：最常见的两种开场白。"}
+{"id":"ko.d.connectors","label":"连接词","desc":"和、所以、但是、然后：讲故事用的“胶水”。"}
+{"id":"ko.d.doctor-pharmacy","label":"看病与药店","desc":"症状、药、过敏、处方。"}
+{"id":"ko.d.housing-errands","label":"租房与办事","desc":"房租、押金、快递、垃圾分类、洗衣。"}
+{"id":"ko.d.honorifics","label":"尊敬形","desc":"尊敬做动作的人：드시다、주무시다、계시다 和 -(으)시-。"}
+{"id":"ko.d.places-buildings","label":"地点与建筑","desc":"咖啡馆、健身房、图书馆、博物馆、家：说“我要去……”时用到的地方。"}
+{"id":"ko.d.hobbies","label":"爱好","desc":"用地道的词回答 취미가 뭐예요?"}
+{"id":"ko.d.food-words","label":"食物词汇","desc":"每份菜单上都有的菜和食材。"}
+{"id":"ko.d.drinks","label":"饮品","desc":"咖啡、茶、烧酒、啤酒，以及怎么再点一杯。"}
+{"id":"ko.d.activities","label":"日常活动","desc":"“我做……”的日常动词，礼貌体。"}
+{"id":"ko.d.tv-entertainment","label":"影视娱乐","desc":"电视剧、综艺、类型、集数、追剧。"}
+{"id":"ko.d.position-direction-words","label":"方位词","desc":"上面、旁边、对面、出口和楼层：说东西在哪儿，也能找到它。"}
+{"id":"ko.d.core-verbs","label":"核心动词","desc":"每天都用的 12 个动词，礼貌体。"}
+{"id":"ko.d.particles","label":"助词","desc":"标明话题、主语、宾语和地点的小词。"}
+{"id":"ko.d.numbers","label":"数字","desc":"固有词数字和汉字词数字，以及各自什么时候用。"}
+{"id":"ko.d.sweet-talk","label":"甜言蜜语","desc":"可爱、漂亮、想你：说给亲近的人听。"}
+{"id":"ko.d.cute-things-to-say","label":"暖心的话","desc":"说到心坎里的夸奖和关心。"}
+{"id":"ko.d.flirting","label":"搭讪示好","desc":"要联系方式、约人出去、表白心意。"}
+{"id":"ko.d.casual-texting","label":"聊天消息","desc":"KakaoTalk 缩写，和朋友之间真正会发的话。"}
+{"id":"ko.d.hype-cool","label":"捧场与夸赞","desc":"朋友之间的夸奖、鼓励和流行语。"}
+{"id":"ko.d.hanging-out","label":"约朋友玩","desc":"邀请、商量时间地点、散场道别。"}
+{"id":"ko.d.k-pop-fan-culture","label":"K-pop 饭圈","desc":"从 최애 到 떼창 的饭圈词汇。"}
+{"id":"ko.d.social-media-slang","label":"社交媒体与网络用语","desc":"Instagram、表情包和当下的流行语。"}
+{"id":"ko.d.dating-deeper","label":"恋爱进阶","desc":"确定关系、真心的夸奖、道歉、给对方安心。"}
+{"id":"ko.d.work-office","label":"职场办公","desc":"开会、截止日期、请同事帮忙、准时下班、회식。"}
+{"id":"ko.d.small-talk","label":"寒暄闲聊","desc":"近况、天气、周末计划，以及得体的道别。"}
+{"id":"ko.d.food-ordering","label":"点餐","desc":"点菜、食物的量词、饭桌上的两句话。"}
+{"id":"ko.d.directions-transport","label":"问路与交通","desc":"左转右转直走，地铁、公交、出租车用语。"}
+{"id":"ko.d.time-days","label":"时间与日期","desc":"今天明天、星期几、现在几点。"}
+{"id":"ko.d.family-people","label":"家人与称呼","desc":"妈妈、爸爸、兄弟姐妹、朋友、老师，以及年龄怎样改变称呼。"}
+{"id":"ko.d.adjectives","label":"形容词","desc":"好、坏、大、小、热、冷、忙、有意思。"}
+{"id":"ko.d.k-drama-phrases","label":"韩剧台词","desc":"每集都能听到的反应和台词。"}

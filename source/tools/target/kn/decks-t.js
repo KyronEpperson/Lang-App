@@ -136,7 +136,7 @@ module.exports = {
 ಕೂತ್ಕೊಳ್ಳು | kūtkoḷḷu | sit down | ಕೂತ್ಕೋತೀನಿ = I sit. Polite: ಕೂತ್ಕೊಳ್ಳಿ. Irregular past: ಕೂತ್ಕೊಂಡೆ.
 ನಿಲ್ಲು | nillu | stand; stop | ನಿಲ್ತೀನಿ = I stand. Irregular past: ನಿಂತೆ. "Stop (the auto)" is ನಿಲ್ಲಿಸಿ.
 ಮಲಗು | malagu | sleep; lie down | ಮಲಗ್ತೀನಿ = I go to bed. Past: ಮಲಗಿದೆ.
-ಕರಿ | kari | call (someone) | ಕರೀತೀನಿ = I call. Past: ಕರೆದೆ. On the phone: ಫೋನ್ ಮಾಡು.
+ಕರೆ | kare | call (someone); invite | ಕರೀತೀನಿ = I call. Past: ಕರೆದೆ. On the phone: ಫೋನ್ ಮಾಡು.
 ಹುಡುಕು | huḍuku | look for; search | ಹುಡುಕ್ತೀನಿ = I look for. Past: ಹುಡುಕಿದೆ.
 ಸಿಗು | sigu | be found; get; meet | ನನಗೆ ಸಿಕ್ತು = I got it. ಸಿಗೋಣ = let's meet.
 ಮಾರು | māru | sell | ಮಾರ್ತೀನಿ = I sell. Past: ಮಾರಿದೆ.
@@ -265,7 +265,7 @@ module.exports = {
 ಪೂರ್ತಿ | pūrti | completely; whole | ಪೂರ್ತಿ ಮುಗೀತು = it's all done.
 ಸುಮಾರು | sumāru | about; roughly | ಸುಮಾರು ಹತ್ತು ಗಂಟೆಗೆ = around ten o'clock.
 ಅಷ್ಟು | ashṭu | that much; so (much) | ಅಷ್ಟು ಜಾಸ್ತಿ? = that much?
-ಇಷ್ಟು | ishṭu | this much | Long ಇ, short ಉ. Not ಇಷ್ಟ, "liking".
+ಇಷ್ಟು | ishṭu | this much | Ends in -ಉ. Not ಇಷ್ಟ, "liking".
 ಹೀಗೆ | hīge | like this; this way | ಹೀಗೆ ಮಾಡಿ = do it like this.
 ಹಾಗೆ | hāge | like that; that way | ಹಾಗೆ ಹೇಳಬೇಡಿ = don't say that.
 ಸುಮ್ಮನೆ | summane | just; for no reason; quietly | ಸುಮ್ಮನೆ ಕೇಳಿದೆ = I just asked.
@@ -327,13 +327,13 @@ module.exports = {
 ತಾನು | tānu | oneself; he or she (himself, herself) | Points back to the subject: ತನ್ನ ಮನೆ = his own house.
 `,
   "Top case endings and postpositions": `
-ಶಾಲೆಗೆ | shālege | to (dative -ಗೆ, here on ಶಾಲೆ "school") | -ಗೆ after a vowel; -ಕ್ಕೆ after -ಅ (ಮರಕ್ಕೆ); -ಇಗೆ after -ಉ (ಊರಿಗೆ).
-ಶಾಲೆಯಲ್ಲಿ | shāleyalli | in; at (locative -ಅಲ್ಲಿ) | ಶಾಲೆ + ಯ + ಅಲ್ಲಿ. Spoken short form: ಶಾಲೇಲಿ.
-ಶಾಲೆಯಿಂದ | shāleyinda | from; by (instrumental -ಇಂದ) | Also "by means of": ಬಸ್ಸಿನಿಂದ.
-ಶಾಲೆಯ | shāleya | of; 's (genitive -ಅ) | Comes before the noun or postposition: ಶಾಲೆಯ ಹತ್ತಿರ.
-ಪುಸ್ತಕವನ್ನು | pustakavannu | (object ending -ಅನ್ನು) | Marks a definite object: ಈ ಪುಸ್ತಕವನ್ನು ಓದಿ. Spoken -ಅನ್ನ.
-ಶಾಲೆಗಿಂತ | shāleginta | than (-ಗಿಂತ / -ಕ್ಕಿಂತ) | The dative + -ಇಂತ: ಅದಕ್ಕಿಂತ, ನನಗಿಂತ.
-ನಿಮಗೋಸ್ಕರ | nimagōskara | for (the sake of) (-ಗೋಸ್ಕರ) | The dative + ಓಸ್ಕರ. Also -ಗಾಗಿ: ನಿಮಗಾಗಿ.
+ಶಾಲೆಗೆ | shālege | to school (-ಗೆ = to; dative) | -ಗೆ after a vowel; -ಕ್ಕೆ after -ಅ (ಮರಕ್ಕೆ); -ಇಗೆ after -ಉ (ಊರಿಗೆ).
+ಶಾಲೆಯಲ್ಲಿ | shāleyalli | at school (-ಅಲ್ಲಿ = in, at) | ಶಾಲೆ + ಯ + ಅಲ್ಲಿ. Spoken short form: ಶಾಲೇಲಿ.
+ಶಾಲೆಯಿಂದ | shāleyinda | from school (-ಇಂದ = from, by) | Also "by means of": ಬಸ್ಸಿನಿಂದ.
+ಶಾಲೆಯ | shāleya | of the school; the school's (-ಅ = of) | Comes before the noun or postposition: ಶಾಲೆಯ ಹತ್ತಿರ.
+ಪುಸ್ತಕವನ್ನು | pustakavannu | the book, as object (-ಅನ್ನು) | Marks a definite object: ಈ ಪುಸ್ತಕವನ್ನು ಓದಿ. Spoken -ಅನ್ನ.
+ಶಾಲೆಗಿಂತ | shāleginta | than the school (-ಗಿಂತ = than) | The dative + -ಇಂತ: ಅದಕ್ಕಿಂತ, ನನಗಿಂತ.
+ನಿಮಗೋಸ್ಕರ | nimagōskara | for you (-ಗೋಸ್ಕರ = for the sake of) | The dative + ಓಸ್ಕರ. Also -ಗಾಗಿ: ನಿಮಗಾಗಿ.
 ಜೊತೆ | jote | with (together with) | After the of-form: ಅಮ್ಮನ ಜೊತೆ. Also ಜೊತೆಗೆ.
 ಹತ್ತಿರ | hattira | near; with (someone has) | ಬ್ಯಾಂಕಿನ ಹತ್ತಿರ = near the bank. ನನ್ನ ಹತ್ತಿರ ದುಡ್ಡು ಇಲ್ಲ = I have no money on me.
 ಮೇಲೆ | mēle | on; above; upstairs | ಮೇಜಿನ ಮೇಲೆ = on the table.

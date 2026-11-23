@@ -281,6 +281,56 @@
       "name": "Compliments",
       "group": "Watch out",
       "desc": "Kind things to say about food, work and people, and how to answer"
+    },
+    {
+      "name": "Top nouns",
+      "group": "Core words",
+      "desc": "The most-used nouns, each with en, ei or et"
+    },
+    {
+      "name": "Top verbs",
+      "group": "Core words",
+      "desc": "The most-used verbs, with the present and the irregular past"
+    },
+    {
+      "name": "Top adjectives",
+      "group": "Core words",
+      "desc": "The most-used adjectives, with their neuter and plural forms"
+    },
+    {
+      "name": "Top adverbs",
+      "group": "Core words",
+      "desc": "Not, very, always, here, home: the most-used adverbs"
+    },
+    {
+      "name": "Top pronouns",
+      "group": "Core words",
+      "desc": "I, me, my, this, who, something: the whole useful set"
+    },
+    {
+      "name": "Top prepositions",
+      "group": "Core words",
+      "desc": "i, på, til, for and the other most-used prepositions"
+    },
+    {
+      "name": "Top conjunctions",
+      "group": "Core words",
+      "desc": "at, så, når, hvis: the words that join ideas"
+    },
+    {
+      "name": "Top interjections",
+      "group": "Core words",
+      "desc": "Au!, Uff!, Skål!: what people really exclaim"
+    },
+    {
+      "name": "Top words",
+      "group": "Core words",
+      "desc": "Articles, yes and no, question words, numbers and quantity words"
+    },
+    {
+      "name": "Flirting",
+      "group": "Conversation",
+      "desc": "Sweet compliments, asking someone out, and kind ways to say yes or no"
     }
   ],
   "titles": [

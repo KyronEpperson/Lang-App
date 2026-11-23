@@ -34,7 +34,6 @@ module.exports = {
 کیا آپ میرے ساتھ کھانا کھائیں گی؟ | kyā āp mere sāth khānā khāẽ gī? | Will you have dinner with me? (to a woman) | To a man: کھائیں گے. Bold for a first ask.
 جی، ضرور، مجھے اچھا لگے گا۔ | jī, zarūr, mujhe acchhā lage gā. | Yes, I'd like that. | A warm yes; anyone can say it.
 مجھے بھی آپ اچھے لگتے ہیں۔ | mujhe bhī āp acchhe lagte haĩ. | I like you too. (to a man) | To a woman: اچھی لگتی ہیں. Warm.
-آپ بھی نہ! | āp bhī na! | Oh, stop it! | Pleased and playful. Often written آپ بھی نا. Mild.
 واقعی؟ آپ کو ایسا لگتا ہے؟ | vāqaī? āp ko aisā lagtā hai? | Really? You think so? | Anyone to anyone. Pleased and modest; a playful deflection.
 شکریہ، لیکن ہم صرف دوست ہیں۔ | shukriyā, lekin ham sirf dost haĩ. | Thanks, but we're just friends. | A kind, clear no.
 معاف کیجیے، میری شادی ہو گئی ہے۔ | māf kījie, merī shādī ho gaī hai. | Sorry, I'm married. | A kind, clear no; literally "my wedding has happened".

@@ -316,7 +316,7 @@
   {
    "name": "Top adverbs",
    "group": "Core words",
-   "desc": "Time, frequency, degree and manner: always, again, too, almost, every day"
+   "desc": "Time, frequency, degree and manner: sometimes, too, rather, almost, every day"
   },
   {
    "name": "Top pronouns",
@@ -331,7 +331,7 @@
   {
    "name": "Top conjunctions",
    "group": "Core words",
-   "desc": "and, or, but, because, if, when, so, while"
+   "desc": "and, or, but, because, if, when, while, than"
   },
   {
    "name": "Top interjections",

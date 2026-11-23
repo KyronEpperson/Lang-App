@@ -13,7 +13,7 @@ const FILE = path.resolve(process.argv[2] || path.join(__dirname, '../../korean-
   await p.goto('file://' + FILE); await p.waitForTimeout(1200);
   const res = await p.evaluate(() => {
     const out = {};
-    for (const cid of ['en-ko', 'es-ko', 'ceb-ko']) {
+    for (const cid of ['en-ko', 'es-ko', 'ceb-ko', 'tl-ko']) {
       const w = document.getElementById('welcome'); if (w) w.remove();
       if (!COURSES[cid]) { out[cid] = { missing: true }; continue; }
       applyCourse(cid);
@@ -91,7 +91,7 @@ const FILE = path.resolve(process.argv[2] || path.join(__dirname, '../../korean-
   });
   await b.close();
   let bad = 0;
-  for (const cid of ['en-ko', 'es-ko', 'ceb-ko']) { const r = res[cid]; if (r.missing) { console.log(cid + ': MISSING'); bad++; continue; } console.log(cid + ': ' + JSON.stringify(r.stats) + ' · failures ' + r.fails.length); r.fails.forEach(f => console.log('  ' + f)); bad += r.fails.length; }
+  for (const cid of ['en-ko', 'es-ko', 'ceb-ko', 'tl-ko']) { const r = res[cid]; if (r.missing) { console.log(cid + ': MISSING'); bad++; continue; } console.log(cid + ': ' + JSON.stringify(r.stats) + ' · failures ' + r.fails.length); r.fails.forEach(f => console.log('  ' + f)); bad += r.fails.length; }
   console.log('other-language sanity: ' + JSON.stringify(res.other)); if (!res.other.en) bad++;
   const chk = (n, c, d) => { console.log((c ? 'PASS ' : 'FAIL ') + n + (c ? '' : ' :: ' + JSON.stringify(d))); if (!c) bad++; };
   chk('contractions accepted, near-misses rejected', !res.ctr.length, res.ctr); chk('bare 저 only for type items (loose)', res.loose);

@@ -71,7 +71,6 @@ payong | PAH-yohng | umbrella |
 kuryente | koor-YEHN-teh | electricity | Walang kuryente. = There's a power cut.
 dyaryo | JAHR-yoh | newspaper | 
 eroplano | eh-roh-PLAH-noh | airplane | 
-restawran | rehs-TOW-rahn | restaurant | Also written restaurant.
 kulay | KOO-lai | color | Anong kulay? = What color?
 nars | nahrs | nurse | Same as English.
 drayber | DRAI-behr | driver | Jeep drivers are often called Kuya or Manong.
@@ -173,7 +172,6 @@ masipag | mah-SEE-pahg | hard-working | Warm praise in Filipino culture.
 malinis | mah-LEE-nees | clean | 
 maliwanag | mah-lee-WAH-nahg | bright; clear | 
 sarado | sah-RAH-doh | closed | Spanish loan.
-normal | NOHR-mahl | normal | 
 malalim | mah-LAH-leem | deep | 
 malawak | mah-LAH-wahk | wide; spacious | 
 kulot | KOO-loht | curly (hair) | 
@@ -252,7 +250,7 @@ sa | sah | to; at; in; from | The place and direction marker.
 na | nah | already; now (also the linker) | Kumain na ako. As linker: maganda na bahay → magandang bahay.
 ng | nahng | of; a (non-topic marker) | Said nahng. Marks the doer or object that is not the topic.
 mga | mah-NGAH | plural marker | Said mah-NGAH: mga bata = children.
-ay | ai | linking "is" (formal order) | Ako ay … = I am … (written style).
+ay | ai | topic-first marker (formal) | Ako ay guro = I am a teacher (written style). Not a word for "is".
 ba | bah | question particle | Kumain ka na ba?
 para sa | PAH-rah sah | for (someone) | Para sa iyo ito.
 si | see | marker before a name (topic) | Si Ana = Ana (as topic).

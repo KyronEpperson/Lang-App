@@ -375,7 +375,7 @@
 {"id":"noun-modifiers.11","p":"maliit na bahay","why":"작 + 은."}
 {"id":"noun-modifiers.12","p":"Malaking bahay ito","why":"크 + ㄴ → 큰 집."}
 {"id":"noun-modifiers.13","p":"Mahilig (ako) sa maanghang na pagkain","why":"맵다 → 매운."}
-{"id":"noun-modifiers.14","p":"Magandang araw sa iyo","why":"좋 + 은 → 좋은 하루."}
+{"id":"noun-modifiers.14","p":"Sana maganda ang araw mo","why":"좋 + 은 → 좋은 하루."}
 {"id":"compare.01","q":"'Mas mura ang bus kaysa sa taxi' =","why":"Ang 보다 ang nagmamarka ng 'kaysa'."}
 {"id":"compare.02","q":"'Ito ang pinakamasarap' =","why":"제일 = pinaka-."}
 {"id":"compare.03","q":"'Pahingi pa' =","why":"더 = mas, pa."}
@@ -420,7 +420,7 @@
 {"id":"have-to.14","p":"Hindi (mo) kailangang pumunta","why":"안 가도 돼요."}
 {"id":"honorific.01","q":"Sa nakatatanda: 'Saan po kayo pupunta?' =","why":"Ang nakatatanda ang subject → 가 + 세요. Walang honorific ang simpleng 가요."}
 {"id":"honorific.02","q":"Ang honorific na verb para sa 먹다 / 마시다:","why":"드시다 = kumain / uminom (honorific)."}
-{"id":"honorific.03","q":"'Nandiyan ba ang may-ari?' =","why":"Para sa taong nasa isang lugar, nagiging 계시다 ang 있다 → 계세요."}
+{"id":"honorific.03","q":"'Nandiyan ba ang may-ari? (honorific)' =","why":"Para sa taong nasa isang lugar, nagiging 계시다 ang 있다 → 계세요."}
 {"id":"honorific.04","q":"Pagsasabing pupunta ka (tungkol sa sarili mo):","why":"Huwag kailanman gamitin ang 시 tungkol sa sarili mo."}
 {"id":"honorific.05","q":"'Kailan po kayo dumating?' (honorific na past) =","why":"오 + 시 + 었어요 → 오셨어요."}
 {"id":"honorific.06","p":"Ano po ang pangalan ninyo? (honorific)","why":"성함 ang honorific na salita para sa 이름."}

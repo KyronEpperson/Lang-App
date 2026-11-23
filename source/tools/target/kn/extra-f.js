@@ -1,8 +1,8 @@
 /* en-kn extras for decks-f.js, the Flirting deck (writer EN-KN-CORE). DIALOG: card | A | B | English A / English B. EXAMPLES: card | sentence | English. PATTERNS: frame | English frame | example | English. */
 exports.DIALOG = `
 ನಿಮ್ಮ ನಗು ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ. | ನಿಮ್ಮ ನಗು ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ. | ಅಯ್ಯೋ, ಥ್ಯಾಂಕ್ಸ್! | You have a lovely smile. / Oh, thank you!
-ಇವತ್ತು ನೀವು ತುಂಬಾ ಸುಂದರವಾಗಿ ಕಾಣ್ತಾ ಇದ್ದೀರಿ. | ಸಾರಿ, ಸ್ವಲ್ಪ ಲೇಟ್ ಆಯ್ತು. | ಪರವಾಗಿಲ್ಲ. ಇವತ್ತು ನೀವು ತುಂಬಾ ಸುಂದರವಾಗಿ ಕಾಣ್ತಾ ಇದ್ದೀರಿ. | Sorry, I'm a bit late. / It's fine. You look beautiful today.
-ಇವತ್ತು ಹ್ಯಾಂಡ್ಸಮ್ ಆಗಿ ಕಾಣ್ತಾ ಇದ್ದೀರಿ. | ಹೊಸ ಶರ್ಟ್ ಹೇಗಿದೆ? | ಇವತ್ತು ಹ್ಯಾಂಡ್ಸಮ್ ಆಗಿ ಕಾಣ್ತಾ ಇದ್ದೀರಿ. | How's my new shirt? / You look handsome today.
+ಇವತ್ತು ನೀವು ತುಂಬಾ ಸುಂದರವಾಗಿ ಕಾಣ್ತಾ ಇದ್ದೀರಿ. | ಸಾರಿ, ಸ್ವಲ್ಪ ತಡ ಆಯ್ತು. | ಪರವಾಗಿಲ್ಲ. ಇವತ್ತು ನೀವು ತುಂಬಾ ಸುಂದರವಾಗಿ ಕಾಣ್ತಾ ಇದ್ದೀರಿ. | Sorry, I'm a bit late. / It's fine. You look beautiful today.
+ಇವತ್ತು ಹ್ಯಾಂಡ್ಸಮ್ ಆಗಿ ಕಾಣ್ತಾ ಇದ್ದೀರಿ. | ನನ್ನ ಹೊಸ ಬಟ್ಟೆ ಹೇಗಿದೆ? | ಇವತ್ತು ಹ್ಯಾಂಡ್ಸಮ್ ಆಗಿ ಕಾಣ್ತಾ ಇದ್ದೀರಿ. | How do my new clothes look? / You look handsome today.
 ನೀವು ನನ್ನನ್ನು ತುಂಬಾ ನಗಿಸ್ತೀರಿ. | ಯಾಕೆ ನಗ್ತಾ ಇದ್ದೀರಿ? | ನೀವು ನನ್ನನ್ನು ತುಂಬಾ ನಗಿಸ್ತೀರಿ. | Why are you laughing? / You make me laugh a lot.
 ನಿಮ್ಮ ಕಣ್ಣು ತುಂಬಾ ಸುಂದರವಾಗಿದೆ. | ನಿಮ್ಮ ಕಣ್ಣು ತುಂಬಾ ಸುಂದರವಾಗಿದೆ. | ಥ್ಯಾಂಕ್ಸ್, ಅಮ್ಮನ ಕಣ್ಣು. | You have beautiful eyes. / Thanks, they're my mother's eyes.
 ನೀವು ತುಂಬಾ ಚೆನ್ನಾಗಿ ಹಾಡ್ತೀರಿ. | ಹಾಡು ಹೇಗಿತ್ತು? | ನೀವು ತುಂಬಾ ಚೆನ್ನಾಗಿ ಹಾಡ್ತೀರಿ. | How was the song? / You sing beautifully.

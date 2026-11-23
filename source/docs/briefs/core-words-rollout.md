@@ -12,3 +12,9 @@ Also waiting for a slot: Puerto Rican Spanish course plan (Kii 2026-11-23: build
 
 ## Tagalog → Korean writers (brief: tools/halves/native/tl/ko/work/README.md + docs/profiles/tl-ko.md)
 Launch w1..w4 as slots free (priority over the waiting deck writers). Launched: (update here)
+
+## Status 2026-11-23 01:25
+- Shipped 2.68.0: decks for ar ceb de fr hi id it ja nan pt ru th vi yue zh (and am earlier). NOTE: 2.68.0 also carried the then-current packs of bn cs da kn nl pl sv te ur (writers mid-run; harness passed). Next ship replaces them with the finished ones.
+- Finished since, not yet shipped as final: sv te nl da.
+- Running: tl ur pa kn bn no pl cs ptpt.
+- ceb-ko shipped in 2.68.0 (hand-tuned). tl/ja/zh halves merged, cold reviews running. Profiles for vi/th/id/hi → Korean running; writers launch after the Korean content merge (mk_native.js <lang>).

@@ -4,18 +4,18 @@ exports.DIALOG = `
 ಅಯ್ಯೋ | ನನ್ನ ಫೋನ್ ಕೆಳಗೆ ಬಿತ್ತು. | ಅಯ್ಯೋ! ಸರಿ ಇದೆಯಾ? | My phone fell. / Oh no! Is it OK?
 ಅಬ್ಬಾ | ಕೆಲಸ ಮುಗೀತು. | ಅಬ್ಬಾ! ಈಗ ಮನೆಗೆ ಹೋಗೋಣ. | The work's done. / Phew! Now let's go home.
 ಅಯ್ಯಪ್ಪ | ಈ ಸೀರೆ ಹತ್ತು ಸಾವಿರ ರೂಪಾಯಿ. | ಅಯ್ಯಪ್ಪ! ತುಂಬಾ ಜಾಸ್ತಿ. | This sari is ten thousand rupees. / Good grief! That's far too much.
-ಓಹೋ | ಅವರು ನನ್ನ ಅಕ್ಕನ ಗಂಡ. | ಓಹೋ, ಹಾಗಾ! | He's my older sister's husband. / Oh, I see!
+ಓಹೋ | ಅವರು ನನ್ನ ಅಕ್ಕನ ಗಂಡ. | ಓಹೋ, ಗೊತ್ತಾಯ್ತು! | He's my older sister's husband. / Oh, I see!
 ಆಹಾ | ಇದು ಅಮ್ಮ ಮಾಡಿದ ಬಿಸಿಬೇಳೆ ಬಾತ್. | ಆಹಾ, ತುಂಬಾ ರುಚಿಯಾಗಿದೆ! | This is bisibele bath that Mom made. / Ah, it's delicious!
-ಛೆ | ಬಸ್ ಈಗ ತಾನೇ ಹೋಯ್ತು. | ಛೆ! ಮುಂದಿನ ಬಸ್ ಯಾವಾಗ? | The bus just left. / Tsk! When's the next bus?
+ಛೆ | ಬಸ್ ಈಗ ಹೋಯ್ತು. | ಛೆ! ಮುಂದಿನ ಬಸ್ ಯಾವಾಗ? | The bus just left. / Tsk! When's the next bus?
 ಥೂ | ಈ ಹಾಲು ಹಳೆಯದು. | ಥೂ! ಕುಡಿಯಬೇಡಿ. | This milk is old. / Yuck! Don't drink it.
 ಹೌದಾ | ನಾನು ನಾಳೆ ಅಮೆರಿಕಕ್ಕೆ ಹೋಗ್ತೀನಿ. | ಹೌದಾ? ಎಷ್ಟು ದಿನ? | I'm going to America tomorrow. / Really? For how many days?
 ಅಲ್ವಾ | ಈ ಕಾಫಿ ಚೆನ್ನಾಗಿದೆ, ಅಲ್ವಾ? | ಹೌದು, ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ. | This coffee is good, isn't it? / Yes, it's really good.
 ಹೂಂ | ನಾಳೆ ಬೇಗ ಬರ್ತೀರಾ? | ಹೂಂ, ಬರ್ತೀನಿ. | Will you come early tomorrow? / Mm-hmm, I'll come.
 ಹಾಂ | ರವಿ, ಊಟಕ್ಕೆ ಬಾ! | ಹಾಂ? ಏನು? | Ravi, come and eat! / Huh? What?
-ಪಾಪ | ಅವಳಿಗೆ ಜ್ವರ, ಇವತ್ತು ಶಾಲೆಗೆ ಹೋಗಲ್ಲ. | ಪಾಪ! ಬೇಗ ಹುಷಾರಾಗಲಿ. | She has a fever, she isn't going to school today. / Poor thing! I hope she gets well soon.
-ಸೂಪರ್ | ನಾನು ಪರೀಕ್ಷೆಯಲ್ಲಿ ಪಾಸ್ ಆದೆ! | ಸೂಪರ್! ಪಾರ್ಟಿ ಎಲ್ಲಿ? | I passed the exam! / Super! Where's the party?
-ಹುಷಾರು | ನಾನು ಬೈಕಿನಲ್ಲಿ ಹೋಗ್ತೀನಿ. | ಹುಷಾರು! ಮಳೆ ಬರ್ತಾ ಇದೆ. | I'm going by bike. / Careful! It's raining.
-ಬಿಡಿ | ಸಾರಿ, ನಿಮ್ಮ ಪೆನ್ ಕಳೆದುಹೋಯ್ತು. | ಬಿಡಿ, ಪರವಾಗಿಲ್ಲ. | Sorry, I lost your pen. / Forget it, it's fine.
+ಪಾಪ | ಅವಳಿಗೆ ಜ್ವರ, ಇವತ್ತು ಶಾಲೆಗೆ ಹೋಗಲ್ಲ. | ಪಾಪ! ಈಗ ಹೇಗಿದ್ದಾಳೆ? | She has a fever, she isn't going to school today. / Poor thing! How is she now?
+ಸೂಪರ್ | ನನಗೆ ಹೊಸ ಕೆಲಸ ಸಿಕ್ತು! | ಸೂಪರ್! ತುಂಬಾ ಖುಷಿ ಆಯ್ತು. | I got a new job! / Super! I'm so happy for you.
+ಹುಷಾರು | ನಾನು ಈಗ ಹೊರಗೆ ಹೋಗ್ತೀನಿ. | ಹುಷಾರು! ಮಳೆ ಬರ್ತಾ ಇದೆ. | I'm going out now. / Careful! It's raining.
+ಬಿಡಿ | ಸಾರಿ, ನಿಮ್ಮ ಪುಸ್ತಕ ಕಳೆದುಹೋಯ್ತು. | ಬಿಡಿ, ಪರವಾಗಿಲ್ಲ. | Sorry, I lost your book. / Forget it, it's fine.
 ಅರೆ | ಅರೆ, ನೀವು ಇಲ್ಲಿ? | ಹೌದು, ನಾನು ಇಲ್ಲೇ ಕೆಲಸ ಮಾಡ್ತೀನಿ. | Hey, you here? / Yes, I work right here.
 ದೇವರೇ | ಮಗು ಕಾಣ್ತಾ ಇಲ್ಲ! | ಅಯ್ಯೋ ದೇವರೇ! ಎಲ್ಲಿ ಹೋಯ್ತು? | I can't see the baby! / Oh God! Where has she gone?
 ಹಲೋ | ಹಲೋ, ರವಿ ಇದ್ದಾರಾ? | ಹಲೋ, ಇಲ್ಲ, ಅವರು ಆಫೀಸಿಗೆ ಹೋಗಿದ್ದಾರೆ. | Hello, is Ravi there? / Hello, no, he's gone to the office.
@@ -49,8 +49,8 @@ exports.EXAMPLES = `
 ಬೇಕು | ನಿಮಗೆ ಏನು ಬೇಕು? | What would you like?
 ಗೊತ್ತು | ನನಗೆ ಅವರ ಮನೆ ಗೊತ್ತು. | I know where his house is.
 ಗೊತ್ತಾಗು | ಈಗ ಗೊತ್ತಾಯ್ತು, ಥ್ಯಾಂಕ್ಸ್. | Now I get it, thanks.
-ಓದು | ನಾನು ದಿನಾ ಪೇಪರ್ ಓದ್ತೀನಿ. | I read the paper every day.
-ಬರೆ | ನಾನು ಅಮ್ಮನಿಗೆ ಒಂದು ಪತ್ರ ಬರೆದೆ. | I wrote Mom a letter.
+ಓದು | ನಾನು ದಿನಾ ಕನ್ನಡ ಪುಸ್ತಕ ಓದ್ತೀನಿ. | I read a Kannada book every day.
+ಬರೆ | ನಾನು ಅಮ್ಮನಿಗೆ ಒಂದು ಕಾಗದ ಬರೆದೆ. | I wrote Mom a letter.
 ಕಲಿ | ನನ್ನ ಮಗ ಶಾಲೆಯಲ್ಲಿ ಇಂಗ್ಲಿಷ್ ಕಲೀತಾನೆ. | My son learns English at school.
 ಹೇಳಿಕೊಡು | ನನಗೆ ಸ್ವಲ್ಪ ಕನ್ನಡ ಹೇಳಿಕೊಡಿ. | Please teach me a little Kannada.
 ಕೂತ್ಕೊಳ್ಳು | ಬನ್ನಿ, ಇಲ್ಲಿ ಕೂತ್ಕೊಳ್ಳಿ. | Come, sit here.
@@ -97,7 +97,7 @@ exports.EXAMPLES = `
 ಉದ್ದ | ಇದು ತುಂಬಾ ಉದ್ದ ರಸ್ತೆ. | This is a very long road.
 ಎತ್ತರ | ನಿಮ್ಮ ಅಣ್ಣ ತುಂಬಾ ಎತ್ತರ. | Your older brother is very tall.
 ಕೆಂಪು | ಆ ಕೆಂಪು ಸೀರೆ ತೋರಿಸಿ. | Please show me that red sari.
-ಬಿಳಿ | ನನಗೆ ಒಂದು ಬಿಳಿ ಶರ್ಟ್ ಬೇಕು. | I need a white shirt.
+ಬಿಳಿ | ನನಗೆ ಬಿಳಿ ಬಟ್ಟೆ ಇಷ್ಟ. | I like white clothes.
 ಕಪ್ಪು | ಅವನ ಕಾರು ಕಪ್ಪು. | His car is black.
 ಸಿಹಿ | ಈ ಕಾಫಿ ತುಂಬಾ ಸಿಹಿ. | This coffee is very sweet.
 ಖಾರ | ಈ ಸಾರು ತುಂಬಾ ಖಾರ. | This saaru is very spicy.
@@ -121,7 +121,7 @@ exports.EXAMPLES = `
 ಆಗ | ಆಗ ನಾನು ಮೈಸೂರಿನಲ್ಲಿ ಇದ್ದೆ. | I was in Mysuru then.
 ಇನ್ನೂ | ಅವರು ಇನ್ನೂ ಆಫೀಸಿನಲ್ಲಿ ಇದ್ದಾರೆ. | He's still at the office.
 ಈಗಾಗಲೇ | ನಾನು ಈಗಾಗಲೇ ಟಿಕೆಟ್ ತಗೊಂಡೆ. | I've already bought the ticket.
-ಚೆನ್ನಾಗಿ | ರಾತ್ರಿ ಚೆನ್ನಾಗಿ ನಿದ್ದೆ ಬಂತಾ? | Did you sleep well last night?
+ಚೆನ್ನಾಗಿ | ಈ ಅಂಗಡಿಯಲ್ಲಿ ದೋಸೆ ಚೆನ್ನಾಗಿ ಮಾಡ್ತಾರೆ. | They make dosa well at this place.
 ಬೇಗ | ನಾಳೆ ಬೇಗ ಬನ್ನಿ. | Come early tomorrow.
 ತಡವಾಗಿ | ಇವತ್ತು ಬಸ್ ತಡವಾಗಿ ಬಂತು. | The bus came late today.
 ನಿಧಾನವಾಗಿ | ಸ್ವಲ್ಪ ನಿಧಾನವಾಗಿ ಹೋಗಿ. | Go a bit slower, please.
@@ -132,7 +132,7 @@ exports.EXAMPLES = `
 ಮೊದಲು | ಮೊದಲು ಊಟ ಮಾಡಿ, ಆಮೇಲೆ ಹೋಗಿ. | Eat first, then go.
 ಕೊನೆಗೆ | ಕೊನೆಗೆ ನಮಗೆ ಆಟೋ ಸಿಕ್ತು. | Finally we got an auto.
 ತಕ್ಷಣ | ಡಾಕ್ಟರ್ ಹತ್ತಿರ ತಕ್ಷಣ ಹೋಗಿ. | Go to the doctor at once.
-ಜಾಸ್ತಿ | ಇವತ್ತು ಟ್ರಾಫಿಕ್ ಜಾಸ್ತಿ. | There's a lot of traffic today.
+ಜಾಸ್ತಿ | ಇವತ್ತು ಬಸ್ಸಿನಲ್ಲಿ ಜನ ಜಾಸ್ತಿ. | There are a lot of people on the bus today.
 ಕಡಿಮೆ | ಈ ಅಂಗಡಿಯಲ್ಲಿ ಬೆಲೆ ಕಡಿಮೆ. | Prices are low in this shop.
 ಸುಮಾರು | ಸುಮಾರು ಅರ್ಧ ಗಂಟೆ ಆಗುತ್ತೆ. | It'll take about half an hour.
 ಅಷ್ಟು | ನನಗೆ ಅಷ್ಟು ಬೇಡ. | I don't need that much.
@@ -195,7 +195,7 @@ exports.EXAMPLES = `
 ಶಾಲೆಗೆ | ಮಕ್ಕಳು ಎಂಟು ಗಂಟೆಗೆ ಶಾಲೆಗೆ ಹೋಗ್ತಾರೆ. | The children go to school at eight.
 ಶಾಲೆಯಲ್ಲಿ | ನನ್ನ ಅಮ್ಮ ಒಂದು ಶಾಲೆಯಲ್ಲಿ ಟೀಚರ್. | My mom is a teacher at a school.
 ಶಾಲೆಯಿಂದ | ಮಗ ಶಾಲೆಯಿಂದ ಬಂದ. | My son is back from school.
-ಶಾಲೆಯ | ಶಾಲೆಯ ಹತ್ತಿರ ಒಂದು ಪಾರ್ಕ್ ಇದೆ. | There's a park near the school.
+ಶಾಲೆಯ | ಶಾಲೆಯ ಹತ್ತಿರ ಒಂದು ಅಂಗಡಿ ಇದೆ. | There's a shop near the school.
 ಪುಸ್ತಕವನ್ನು | ಆ ಪುಸ್ತಕವನ್ನು ನನಗೆ ಕೊಡಿ. | Please give me that book.
 ಶಾಲೆಗಿಂತ | ಆಸ್ಪತ್ರೆ ಶಾಲೆಗಿಂತ ದೊಡ್ಡದು. | The hospital is bigger than the school.
 ನಿಮಗೋಸ್ಕರ | ಇದು ನಿಮಗೋಸ್ಕರ. | This is for you.

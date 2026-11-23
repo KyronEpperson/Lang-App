@@ -1,8 +1,8 @@
 /* en-kn extras for decks-c.js, the Compliments deck (writer EN-KN-CORE). DIALOG: card | A | B | English A / English B. EXAMPLES: card | sentence | English. PATTERNS: frame | English frame | example | English. */
 exports.DIALOG = `
 ಊಟ ಸೂಪರ್ ಆಗಿತ್ತು! | ಊಟ ಸೂಪರ್ ಆಗಿತ್ತು! | ಏನೋ ಸುಮ್ನೆ ಮಾಡಿದೆ. ಇನ್ನೂ ಸ್ವಲ್ಪ ತಗೊಳ್ಳಿ. | The meal was superb! / Oh, I just threw it together. Have a little more.
-ಹೊಟ್ಟೆ ತುಂಬಿತು, ತುಂಬಾ ಚೆನ್ನಾಗಿತ್ತು. | ಇನ್ನೊಂದು ದೋಸೆ ಹಾಕ್ಲಾ? | ಬೇಡ, ಹೊಟ್ಟೆ ತುಂಬಿತು, ತುಂಬಾ ಚೆನ್ನಾಗಿತ್ತು. | Shall I give you another dosa? / No thanks, I'm full, it was really good.
-ಭೇಷ್! | ಅಜ್ಜ, ನಾನು ಪರೀಕ್ಷೆಯಲ್ಲಿ ಪಾಸ್ ಆದೆ! | ಭೇಷ್! ತುಂಬಾ ಖುಷಿ ಆಯ್ತು. | Grandpa, I passed the exam! / Bravo! I'm so happy.
+ಹೊಟ್ಟೆ ತುಂಬಿತು, ತುಂಬಾ ಚೆನ್ನಾಗಿತ್ತು. | ಇನ್ನೊಂದು ದೋಸೆ ಬೇಕಾ? | ಬೇಡ, ಹೊಟ್ಟೆ ತುಂಬಿತು, ತುಂಬಾ ಚೆನ್ನಾಗಿತ್ತು. | Would you like another dosa? / No thanks, I'm full, it was really good.
+ಭೇಷ್! | ಅಜ್ಜ, ಈ ಚಿತ್ರ ನಾನೇ ಮಾಡಿದೆ! | ಭೇಷ್! ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ. | Grandpa, I made this picture myself! / Bravo! It's very good.
 ನೀವು ತುಂಬಾ ಒಳ್ಳೆಯವರು. | ನಿಮ್ಮ ಬ್ಯಾಗ್ ನಾನು ತಗೊಂಡು ಬರ್ತೀನಿ. | ಥ್ಯಾಂಕ್ಸ್, ನೀವು ತುಂಬಾ ಒಳ್ಳೆಯವರು. | I'll carry your bag for you. / Thanks, you're very kind.
 ಇವತ್ತು ನೀವು ತುಂಬಾ ಚೆನ್ನಾಗಿ ಕಾಣ್ತಾ ಇದ್ದೀರಿ. | ಇವತ್ತು ನೀವು ತುಂಬಾ ಚೆನ್ನಾಗಿ ಕಾಣ್ತಾ ಇದ್ದೀರಿ. | ಥ್ಯಾಂಕ್ಸ್, ನಿಮ್ಮ ಪ್ರೀತಿ. | You look great today. / Thanks, that's kind of you.
 ನಿಮ್ಮ ಮನೆ ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ. | ಬನ್ನಿ, ಒಳಗೆ ಬನ್ನಿ. | ನಮಸ್ಕಾರ. ನಿಮ್ಮ ಮನೆ ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ. | Come in, come inside. / Hello. Your home is lovely.

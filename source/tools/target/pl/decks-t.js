@@ -41,7 +41,6 @@ drzwi | dzhvyee | door | Plural only. Genitive: drzwi. Plural only, even for one
 pomysł | POH-mihsw | idea | Masculine. Genitive: pomysłu. Dobry pomysł!
 wiadomość | vyah-DOH-mohsh'ch' | message; piece of news | Feminine. Genitive: wiadomości.
 policja | poh-LEETS-yah | police | Feminine. Genitive: policji. Singular in Polish.
-gra | grah | game | Feminine. Genitive: gry.
 żona | ZHOH-nah | wife | Feminine. Genitive: żony.
 mąż | mohNsh | husband | Masculine. Genitive: męża.
 miasto | MYAH-stoh | town; city | Neuter. Genitive: miasta. w mieście = in town.
@@ -84,6 +83,7 @@ kawa | KAH-vah | coffee | Feminine. Genitive: kawy.
 prezent | PREH-zehnt | present; gift | Masculine. Genitive: prezentu. Not "the present time".
 obiad | OH-byaht | lunch (main midday meal) | Masculine. Genitive: obiadu. The big meal, around 2 to 4 pm.
 okno | OHK-noh | window | Neuter. Genitive: okna.
+gra | grah | game | Feminine. Genitive: gry.
 urodziny | oo-roh-JYEE-nih | birthday | Plural only. Genitive: urodzin. Plural only.
 klucz | klooch | key | Masculine. Genitive: klucza.
 minuta | myee-NOO-tah | minute | Feminine. Genitive: minuty.
@@ -134,7 +134,6 @@ wierzyć | VYEH-zhihch' | to believe | ja wierzę, on wierzy. Imperfective; perf
 lubić | LOO-byeech' | to like | ja lubię, on lubi. Imperfective; perfective polubić.
 pracować | prah-TSOH-vahch' | to work | ja pracuję, on pracuje. The -uję class.
 czekać | CHEH-kahch' | to wait | ja czekam, on czeka. Imperfective; perfective poczekać. Wait for: czekać na + accusative.
-grać | grahch' | to play | ja gram, on gra. Imperfective; perfective zagrać. grać w piłkę = play football.
 nazywać się | nah-ZIH-vahch' shyeh | to be called | ja nazywam się, on nazywa się. Nazywam się Anna Nowak.
 słuchać | SWOO-khahch' | to listen | ja słucham, on słucha. Imperfective; perfective posłuchać. Takes the genitive: słuchać muzyki.
 jechać | YEH-khahch' | to go (by transport, now) | ja jadę, on jedzie. Imperfective; perfective pojechać. The habit: jeździć.
@@ -168,6 +167,7 @@ jeść | yehsh'ch' | to eat | ja jem, on je. Imperfective; perfective zjeść. I
 mieszkać | MYEH-shkahch' | to live (somewhere) | ja mieszkam, on mieszka.
 bać się | bahch' shyeh | to be afraid | ja boję się, on boi się. Takes the genitive: boję się psów.
 patrzeć | PAHT-shehch' | to look; to watch | ja patrzę, on patrzy. Imperfective; perfective popatrzeć.
+grać | grahch' | to play | ja gram, on gra. Imperfective; perfective zagrać. grać w piłkę = play football.
 siedzieć | SHYEH-jyehch' | to sit; to be sitting | ja siedzę, on siedzi. To sit down: usiąść.
 kupić | KOO-pyeech' | to buy | ja kupię, on kupi (future). Perfective; imperfective kupować.
 uczyć się | OO-chihch' shyeh | to learn; to study | ja uczę się, on uczy się. Imperfective; perfective nauczyć się. Without się: to teach.
@@ -211,7 +211,6 @@ myć | mihch' | to wash | ja myję, on myje. Imperfective; perfective umyć.
   "Top adjectives": `
 dobry | DOH-brih | good | Feminine dobra, neuter dobre. Better: lepszy.
 cały | TSAH-wih | whole; entire | Feminine cała, neuter całe.
-jasny | YAH-snih | light; bright; clear | Feminine jasna, neuter jasne. Jasne! = Sure!
 stary | STAH-rih | old | Feminine stara, neuter stare.
 nowy | NOH-vih | new | Feminine nowa, neuter nowe.
 mały | MAH-wih | small; little | Feminine mała, neuter małe. Smaller: mniejszy.
@@ -260,6 +259,7 @@ smutny | SMOOT-nih | sad | Feminine smutna, neuter smutne.
 biedny | BYEHD-nih | poor | Feminine biedna, neuter biedne.
 gorący | goh-ROHN-tsih | hot | Feminine gorąca, neuter gorące.
 ulubiony | oo-loo-BYOH-nih | favourite | Feminine ulubiona, neuter ulubione.
+jasny | YAH-snih | light; bright; clear | Feminine jasna, neuter jasne. Jasne! = Sure!
 łatwy | WAH-tfih | easy | Feminine łatwa, neuter łatwe.
 szybki | SHIHP-kyee | fast | Feminine szybka, neuter szybkie.
 pusty | POO-stih | empty | Feminine pusta, neuter puste.
@@ -294,10 +294,11 @@ jeszcze | YEH-shcheh | still; yet; more | Jeszcze raz = once more.
 też | tehsh | also; too | Ja też = me too.
 naprawdę | nah-PRAH-vdeh | really | Naprawdę? = Really?
 nigdy | NYEEG-dih | never | Needs nie: Nigdy nie piję.
+nawet | NAH-veht | even | 
 właśnie | VWAH-sh'nyeh | exactly; just now | Właśnie! = Exactly!
 zawsze | ZAH-fsheh | always | 
 trochę | TROH-kheh | a little; a bit | Takes the genitive: trochę wody.
-więcej | VYEHN-tsehy | more | 
+więcej | VYEHN-tsehy | more (amount) | 
 razem | RAH-zehm | together | 
 dalej | DAH-lehy | further; on | I co dalej? = And then what?
 lepiej | LEH-pyehy | better (how) | Comparative of dobrze.
@@ -309,23 +310,40 @@ dziś | jyeesh' | today | Also dzisiaj.
 potem | POH-tehm | then; afterwards | 
 stąd | stohnt | from here | 
 dużo | DOO-zhoh | a lot; much; many | Takes the genitive: dużo ludzi.
+przykro | PSHIH-kroh | sorry (sad) | Przykro mi = I'm sorry.
 tyle | TIH-leh | so much; so many | 
+bardziej | BAHR-jyehy | more (with adjectives and verbs) | bardziej zmęczony = more tired.
 zbyt | zbiht | too (much) | zbyt drogi = too expensive.
 szybko | SHIHP-koh | quickly | 
+świetnie | SH'FYEHT-nyeh | great (how); excellently | Świetnie! = Great!
 zaraz | ZAH-rahs | in a moment; right away | Zaraz wracam = back in a minute.
 nadal | NAH-dahl | still (as before) | 
 później | POO-zh'nyehy | later | 
 długo | DWOO-goh | for a long time | 
 kiedyś | KYEH-dihsh' | once; some day | 
+wciąż | fchyohNsh | still (keeps on) | 
 jutro | YOO-troh | tomorrow | 
+znowu | ZNOH-voo | again | Also znów.
+dokładnie | doh-KWAHD-nyeh | exactly; precisely | 
 wcześniej | FCHEH-sh'nyehy | earlier | 
 prawie | PRAH-vyeh | almost | 
 gdzieś | gjyehsh' | somewhere | 
+dość | dohsh'ch' | enough; quite | Mam dość! = I've had enough!
+ciągle | CHYOHNG-gleh | all the time; constantly | 
+właściwie | vwah-SH'CHYEE-vyeh | actually; in fact | 
+również | ROO-vnyehsh | likewise; as well (formal) | 
 wczoraj | FCHOH-rahy | yesterday | 
+poważnie | poh-VAH-zhnyeh | seriously | Poważnie? = Are you serious?
 rano | RAH-noh | in the morning | 
+inaczej | ee-NAH-chehy | differently; otherwise | 
+przynajmniej | pshih-NAHYM-nyehy | at least | 
+całkiem | TSAHW-kyehm | quite; fairly | 
 także | TAHG-zheh | also (more careful) | 
+dopiero | doh-PYEH-roh | only (not until) | dopiero jutro = not until tomorrow.
 raczej | RAH-chehy | rather | 
+wcale | FTSAH-leh | not at all | Needs nie: wcale nie.
 czasem | CHAH-sehm | sometimes | Also czasami.
+ostatnio | oh-STAHT-nyoh | lately; recently | 
 wieczorem | vyeh-CHOH-rehm | in the evening | 
 mniej | mnyehy | less; fewer | 
 zupełnie | zoo-PEHW-nyeh | completely | 
@@ -349,6 +367,7 @@ mnie | mnyeh | me (object, or after a preposition) | dla mnie = for me.
 mi | myee | to me; me (unstressed) | Podoba mi się = I like it.
 ja | yah | I | Often dropped: Jestem = I am.
 go | goh | him; it (object) | After a preposition: niego.
+ci | chyee | to you; you (unstressed, a friend) | Dam ci = I'll give you. Stressed: tobie.
 ty | tih | you (one friend) | Friends and family. Learners say pan / pani.
 cię | chyeh | you (object, unstressed) | Kocham cię. After a preposition: ciebie.
 coś | tsohsh' | something | 
@@ -380,7 +399,9 @@ siebie | SHYEH-byeh | oneself (stressed) | do siebie = to my / your / his place.
 my | mih | we | Often dropped: Jesteśmy = we are.
 nikt | nyeekt | nobody | Needs nie: Nikt nie wie.
 im | eem | to them | 
+taki | TAH-kyee | such; so (with an adjective) | Feminine taka, neuter takie.
 oni | OH-nyee | they (a group with a man) | 
+wam | vahm | to you (several) | 
 jakiś | YAH-kyeesh' | some (or other) | Feminine jakaś, neuter jakieś.
 jaki | YAH-kyee | what kind of; what … like | Feminine jaka, neuter jakie.
 każdy | KAH-zhdih | each; every; everyone | Feminine każda, neuter każde.
@@ -396,9 +417,9 @@ tamten | TAHM-tehn | that (over there) | Feminine tamta, neuter tamto.
 czyj | chihy | whose | Feminine czyja, neuter czyje.
 `,
   "Top prepositions": `
-w | f | in; at | + locative for where; + accusative for days. Before some clusters: we.
+w | f | in; at | + locative (where); + accusative (days). Sounds v before a voiced sound: w domu. Also we.
 na | nah | on; at; for | + locative for where; + accusative for where to.
-z | s | with; from | + instrumental = with; + genitive = from. Also ze.
+z | s | with; from | + instrumental = with; + genitive = from. Sounds z before a voiced sound: z mamą. Also ze.
 do | doh | to; into; until | + genitive: do domu.
 o | oh | about; at (a time) | + locative = about; o ósmej = at eight.
 za | zah | behind; for (in return); in (time) | + instrumental = behind; + accusative = for.
@@ -441,6 +462,7 @@ gdy | gdih | when (more formal) |
 albo | AHL-boh | or (a choice) | 
 niż | nyeesh | than | większy niż = bigger than.
 aby | AH-bih | in order to (formal) | 
+jako | YAH-koh | as (in the role of) | jako lekarz = as a doctor.
 zanim | ZAH-nyeem | before (doing) | 
 ani | AH-nyee | nor; not even | ani… ani = neither… nor.
 ponieważ | poh-NYEH-vahsh | because (careful) | 
@@ -495,16 +517,21 @@ dlaczego | dlah-CHEH-goh | why |
 chyba | KHIH-bah | probably; I guess | Chyba tak = I think so.
 czemu | CHEH-moo | why (casual) | 
 niech | nyehkh | let (him, her, it) | Niech pan siada = Do sit down.
+cóż | tsoosh | well (resigned) | Cóż, trudno = Oh well.
 wiele | VYEH-leh | many; much | Takes the genitive plural.
 kilka | KYEEL-kah | a few; several | Takes the genitive plural.
 ile | EE-leh | how much; how many | Ile to kosztuje?
 skąd | skohnt | where from | 
+można | MOH-zhnah | one can; it's allowed | Czy można? = May I?
+trzeba | TSHEH-bah | one must; it's necessary | Trzeba iść = we have to go.
+aż | ahsh | as much as; all the way to | aż do Gdańska = all the way to Gdańsk.
 przecież | PSHEH-chyehsh | after all; but (you know) | Przecież wiesz! = But you know!
 oto | OH-toh | here is; here are | Oto mój dom.
 dokąd | DOH-kohnt | where to | 
 pół | poow | half | pół godziny = half an hour.
 okej | OH-kehy | OK | 
 zero | ZEH-roh | zero | 
+dwie | dvyeh | two (with feminine nouns) | dwie kawy. Masculine: dwa.
 trzy | tshih | three | Trzy złote.
 cztery | CHTEH-rih | four | 
 sześć | shehsh'ch' | six | 
@@ -520,7 +547,6 @@ szesnaście | sheh-SNAH-sh'chyeh | sixteen |
 siedemnaście | shyeh-dehm-NAH-sh'chyeh | seventeen | 
 osiemnaście | oh-shyehm-NAH-sh'chyeh | eighteen | 
 dziewiętnaście | jyeh-vyehnt-NAH-sh'chyeh | nineteen | 
-dwie | dvyeh | two (with feminine nouns) | dwie kawy. Masculine: dwa.
 sto | stoh | a hundred | 
 tysiąc | TIH-shyohnts | a thousand | 
 pierwszy | PYEHR-fshih | first | Feminine pierwsza: Jest pierwsza = it's one o'clock.

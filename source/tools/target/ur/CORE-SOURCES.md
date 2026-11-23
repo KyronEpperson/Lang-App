@@ -7,15 +7,15 @@ Written 2026-11-23. New files: `decks-t.js` and `extra-t.js` (the nine Core word
 | Top nouns | 98 | 15 | 0 |
 | Top verbs | 92 | 67 | 0 |
 | Top adjectives | 60 | 37 | 0 |
-| Top adverbs | 46 | 31 | 0 |
+| Top adverbs | 44 | 31 | 0 |
 | Top pronouns | 41 | 41 | 0 |
 | Top postpositions | 25 | 25 | 0 |
 | Top conjunctions | 15 | 15 | 0 |
 | Top interjections | 14 | 0 | 14 |
 | Top words | 50 | 0 | 0 |
-| Flirting | 39 | 0 | 21 |
+| Flirting | 38 | 0 | 20 |
 | Compliments | 28 | 0 | 11 |
-| **Total** | **508** | **231** | **46** |
+| **Total** | **505** | **231** | **45** |
 
 ## 1. The real limit on these decks: the pron tool's word list
 
@@ -31,7 +31,7 @@ A useful side effect: the tool's list was built from the course's lessons and de
 
 How a card got its rank (one rule, applied by a script):
 - The list holds **word forms, not lemmas**. Spelling variants were folded to the course spelling first (لئے → لیے, چاہئے → چاہیے, پتہ → پتا, نہيں / ہيں with an Arabic ye → نہیں / ہیں).
-- A card's rank is the **best rank among its own forms**: for a verb, the stem and its -نا, -نے, -تا, -تی, -تے, -و, -یں, -ے, -ا, -ی forms (irregular verbs by their real forms: ہونا by ہے / ہیں / تھا, کرنا by کر / کرتے, جانا by جا / گیا, دینا by دیا / دے, and so on); for a noun or adjective in -ā, the -e and -oṅ forms (and -ī for adjectives); for anything else, the word itself.
+- A card's rank is the **best rank among its own forms**: for a verb, the stem and its -نا, -نے, -تا, -تی, -تے, -و, -یں, -ے, -ا, -ی forms (irregular verbs and verbs whose stem is another word by their real forms only: ہونا by ہے / ہیں / تھا, کرنا by کر / کرتے, جانا by جا / گیا, دینا by دیا / دے, سونا without سو, چلانا without چلا, تیرنا without تیرے); for a noun or adjective in -ā, the -e and -oṅ forms (and -ī for adjectives); for a pronoun or a word in `Top words` in -ā, the -ī and -e forms (میرا by میرے, اپنا by اپنے; پہلا by پہلی only, since پہلے is the adverb); for anything else, the word itself. Multi-word cards have no rank, except compound postpositions (below).
 - Words that share a spelling share a rank: اِس / اُس (13), اِن / اُن (43), اِسے / اُسے (45), اِنہیں / اُنہیں (243), اُدھر / اِدھر (977) are all the one unmarked spelling. مِیں "in" takes the rank of میں (2), which also counts "I". کیا "what" (16) also counts کیا "did".
 - Compound postpositions are ranked by their content word (کے ساتھ by ساتھ, کی طرف by طرف), as the en-hi course did. That is an approximation: ساتھ, پہلے, نیچے and اوپر are also adverbs.
 - Inside each deck the ranked cards run in rank order. **A card with no rank was placed by judgement right after a ranked card it belongs with** (for example the noun + کرنا verbs after the verb they build on, سب کچھ and کچھ نہیں after کچھ).
@@ -41,9 +41,9 @@ Quirks: subtitle text over-ranks some words (بیگ 680, پروگرام 295, ک�
 
 **Cards whose order is judgement, not the source:**
 - Top nouns: شوق, چاول, میسج, عید, ای میل, طبیعت, طالب علم (7 of 98).
-- Top verbs: پسند کرنا, بات کرنا, کام کرنا, مدد کرنا, نہانا, آرام کرنا, فون کرنا, شادی کرنا, سفر کرنا, صاف کرنا, معاف کرنا, جلدی کرنا, میسج کرنا (13 of 92).
+- Top verbs: پسند کرنا, بات کرنا, کام کرنا, مدد کرنا, نہانا, بند کرنا, تیرنا, آرام کرنا, فون کرنا, شادی کرنا, سفر کرنا, صاف کرنا, معاف کرنا, جلدی کرنا, میسج کرنا (15 of 92; every compound with کرنا is placed by judgement, and تیرنا's only match in the list was تیرے "your", so it has no rank).
 - Top adjectives: سوکھا, کڑوا, کھٹا, کچا, شادی شدہ (5 of 60).
-- Top adverbs: اب تک, سب سے, کبھی کبھی, کبھی نہیں, بعد میں, ابھی تک, ابھی ابھی, پھر سے, دیر سے, ہر جگہ, آج کل, ہر روز (12 of 46).
+- Top adverbs: اب تک, سب سے, کبھی کبھی, کبھی نہیں, بعد میں, ابھی تک, ابھی ابھی, پھر سے, دیر سے, ہر جگہ, آج کل, ہر روز (12 of 44).
 - Top pronouns: سب کچھ, کچھ نہیں, کوئی نہیں, کوئی اور, ہر کوئی, آپ کو, میں نے, آپ نے, اُنہوں نے, ایک دوسرے, آپ کا, اُس کا, اِس کا, اُن کا, اِن کا (15 of 41: all the two-word forms).
 - Top postpositions: کے یہاں, سے زیادہ, سے کم (3 of 25).
 - Top conjunctions: جب سے, یا پھر, جب کہ, اس لیے کہ, جب تک, جیسے ہی, پھر بھی (7 of 15: all the two- and three-word ones).
@@ -58,8 +58,9 @@ Quirks: subtitle text over-ranks some words (بیگ 680, پروگرام 295, ک�
 - **Articles:** Urdu has none. `Top words` carries what does the job of determiners: اِس, اُس, اِن, اُن (this / that before a postposition), ہر, سارا, تھوڑا, ایسا. ایک is already a card.
 - **Particles** (بھی, ہی, نہ, مت, جی, چاہیے) are in `Top words`. تو is in `Top conjunctions` (اگر … تو), with its emphasis use in the note.
 - **Pronouns:** possessives (میرا, آپ کا …), the fused object forms (مجھے, اُسے, اُنہیں …) and the نے forms (میں نے, آپ نے, اُنہوں نے) are in `Top pronouns`, because Urdu grammars teach them as forms of the pronoun. The relative pronoun is only جس (oblique): جو is not in the tool's list (section 6).
+- **Inflected twins:** اکیلا (adjective) and سیدھا (adjective) are cards; their -e forms اکیلے (alone) and سیدھے (straight on) were dropped from Top adverbs so that no deck pair holds one word in two forms. ایسے and کیسے stay in Top adverbs beside ایسا and کیسا in Top words because they are used as different words: کیسے is the question "how?" (آپ کیسے آئے؟), کیسا asks "what kind of / how is it" and agrees (کھانا کیسا ہے؟); ایسے is "this way", ایسا is "such, like this" before or for a noun. The lead may drop them if they count as twins.
 - **Place words:** the bare adverbs اوپر, نیچے, اندر, باہر, پہلے are in `Top adverbs`. The postposition deck has کے اوپر, کے نیچے, سے پہلے, کے سامنے, کے پیچھے, کے پاس, کے قریب, سے دور. کے اندر and کے باہر were left out so the two decks do not hold near-twins; سامنے, پیچھے, پاس, قریب and ساتھ are not adverb cards for the same reason.
-- **Verbs** are in the -نا form. Each note gives the میں form for a man and a woman (میں کرتا ہوں / کرتی ہوں) or the one form a beginner needs, and flags the irregular ones (ہونا, کرنا, جانا, دینا, لینا, پینا). Twelve noun + کرنا verbs are cards (بات کرنا, کام کرنا, مدد کرنا …).
+- **Verbs** are in the -نا form. Each note gives the میں form for a man and a woman (میں کرتا ہوں / کرتی ہوں) or the one form a beginner needs, and flags the irregular ones (ہونا, کرنا, جانا, دینا, لینا, پینا). Thirteen کرنا compounds are cards: ten with a noun (بات کرنا, کام کرنا, مدد کرنا …) and three with an adjective or adverb (بند کرنا, صاف کرنا, جلدی کرنا).
 - **Homograph marks.** Following the profile (§2.8), the bare-word cards that the tool cannot read unmarked carry one mark: اِس, اُس, اِن, اُن, اِسے, اُسے, اِنہیں, اُنہیں, اُس کا, اِس کا, اُن کا, اِن کا, اُنہوں نے, اُدھر, اِدھر, and **مِیں** ("in"). مِیں and the existing card مَیں ("I", in Aspirates, nasals and vowel marks) differ only by the mark, but they are different words with different sounds (mẽ / maĩ), and the validator compares exact text, so both stay. The same goes for the conjunction تو (to) next to the existing card تُو (tū, "you").
 - **Ordinals** (پہلا to چوتھا), آدھا and ڈھائی are in `Top words`. The days of the week are there too; ہفتہ (Saturday) is left out because ہفتہ is already a card meaning "week".
 
@@ -106,7 +107,7 @@ From the compliments plan, Deck 1 #1 was rewritten because "The food is deliciou
 
 ## 5. Flirting and Compliments
 
-- **Flirting** starts from Deck 2 of `docs/plans/compliments-ur.md` and keeps its stance: mostly mild and indirect. In Pakistan open flirting is uncommon and can offend in public or in front of family, so most cards praise someone's company, words or laugh rather than their looks; the notes mark each card mild, warm or bold and say who says it to whom. Layer 1 has only **7** single words (the brief asks for 15–25) because حسین, ذہین, ہوشیار, مزاحیہ, شریف, دل, مسکراہٹ, آواز, بال, چہرہ, انداز, محبت and the loans سمارٹ / ہینڈسم / کیوٹ are not in the tool's list (section 6). Layer 2 has 18 phrases, layer 3 has 14 moves and replies: a warm yes, a playful deflection, and four clear, kind ways to say no (we're just friends; I'm married; you're nice but I don't feel that way; no, thank you). 21 dialogues, including one that ends in a yes (تم مجھے بہت اچھی لگتی ہو۔ → تم بھی مجھے بہت اچھے لگتے ہو۔) and three that end in a gracious no.
+- **Flirting** starts from Deck 2 of `docs/plans/compliments-ur.md` and keeps its stance: mostly mild and indirect. In Pakistan open flirting is uncommon and can offend in public or in front of family, so most cards praise someone's company, words or laugh rather than their looks; the notes mark each card mild, warm or bold and say who says it to whom. Layer 1 has only **7** single words (the brief asks for 15–25) because حسین, ذہین, ہوشیار, مزاحیہ, شریف, دل, مسکراہٹ, آواز, بال, چہرہ, انداز, محبت and the loans سمارٹ / ہینڈسم / کیوٹ are not in the tool's list (section 6). Layer 2 has 18 phrases, layer 3 has 13 moves and replies: a warm yes, a playful deflection (واقعی؟ آپ کو ایسا لگتا ہے؟), and four clear, kind ways to say no (we're just friends; I'm married; you're nice but I don't feel that way; no, thank you). 20 dialogues, including two that end in a yes (تم مجھے بہت اچھی لگتی ہو۔ → تم بھی مجھے بہت اچھے لگتے ہو۔; کیا ہم پھر مل سکتے ہیں؟ → جی، ضرور، مجھے اچھا لگے گا۔) and four that end in a gracious no. The plan's آپ بھی نا! ("oh, stop it!") was left out: نا is not in the tool's list, and writing it نہ would give the wrong reading (na for nā).
 - **Compliments** (28 cards) is Deck 1 of the plan, rebuilt where a plan word is not in the tool's list. Kept: the cook's praise آپ کے ہاتھ میں بہت ذائقہ ہے, ماشاء اللہ with children and new things, the learner lines and the modest replies. Changed: شاباش, بہت خوب, واہ (not in the list) → کیا بات ہے!; آپ بہت اچھے انسان ہیں (انسان) → آپ بہت اچھے دوست ہیں; یہ آپ کی محبت ہے (محبت) → یہ تو آپ کی مہربانی ہے; ذرہ نوازی, مزاحیہ, ذہین, محنتی, جچ رہا, سوٹ dropped. Added: food, effort, home, garden, teacher and "did you like it?" cards, and returning a compliment.
 
 ## 6. Words left out because the pron tool does not know them, or reads them wrong (for the lead)

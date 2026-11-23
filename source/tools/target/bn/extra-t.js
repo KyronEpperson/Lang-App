@@ -73,7 +73,7 @@ exports.EXAMPLES = `
 চিন্তা করা | চিন্তা করো না। | Don't worry.
 ভুলে যাওয়া | আমি তার নাম ভুলে যাই। | I forget his name.
 ভালো | খাবারটা খুব ভালো। | The food is very good.
-ঠিক | তুমি ঠিক। | You're right.
+ঠিক | তুমি ঠিক বলেছ। | You're right.
 সত্যি | এটা সত্যি। | This is true.
 ভুল | এটা ভুল। | This is wrong.
 বড় | আমার বড় ভাই ঢাকায় থাকে। | My older brother lives in Dhaka.

@@ -1,19 +1,19 @@
 /* en-cs extras for decks-f.js (writer EN-CS-T). DIALOG: card | A | B | English A / English B. EXAMPLES: card | sentence | English. */
 exports.DIALOG = `
 Jste krásná. | Jak vypadám? | Jste krásná. | How do I look? / You're beautiful.
-Dnes vypadáte krásně. | Dobrý večer, Evo. Dnes vypadáte krásně. | Děkuji, to je od vás milé. | Good evening, Eva. You look beautiful today. / Thank you, that's sweet of you.
+Dnes vypadáte krásně. | Dobrý večer. Dnes vypadáte krásně. | Děkuji, to je od vás milé. | Good evening. You look beautiful today. / Thank you, that's sweet of you.
 Máte krásné oči. | Máte krásné oči. | Děkuji. Mám je po mámě. | You have beautiful eyes. / Thank you. I got them from my mom.
 Máte hezký úsměv. | Máte hezký úsměv. | Opravdu? Děkuji. | You have a nice smile. / Really? Thank you.
-Sluší vám to. | Mám nové šaty. | Sluší vám to. | I have a new dress. / You look great.
-To vám sluší. | Je to nová bunda? To vám sluší. | Díky, koupil jsem ji včera. | Is that a new jacket? It looks good on you. / Thanks, I bought it yesterday.
+Sluší vám to. | Mám novou bundu. | Sluší vám to. | I have a new jacket. / You look great.
+To vám sluší. | Máte nové tričko? To vám sluší. | Díky, koupil jsem ho včera. | Is that a new T-shirt? It looks good on you. / Thanks, I bought it yesterday.
 Jste moc milý. | Tady je vaše káva. Zaplatím ji. | Jste moc milý. | Here's your coffee. I'll pay for it. / You're very sweet.
-To je od vás milé. | Mám pro vás květiny. | To je od vás milé! | I have flowers for you. / That's sweet of you!
-S vámi je legrace. | S vámi je legrace, Petře. | S vámi taky. | You're fun to be with, Petr. / So are you.
+To je od vás milé. | Mám pro vás dárek. | To je od vás milé! | I have a present for you. / That's sweet of you!
+S vámi je legrace. | S vámi je legrace. | S vámi taky. | You're fun to be with. / So are you.
 Máte krásný hlas. | Máte krásný hlas. Zpíváte? | Jen doma. | You have a beautiful voice. Do you sing? / Only at home.
 Vypadáte úžasně. | Vypadáte úžasně! | Vy taky. | You look amazing! / So do you.
 Můžu vás pozvat na kávu? | Můžu vás pozvat na kávu? | Ano, moc ráda. | Can I buy you a coffee? / Yes, I'd love to.
 Ano, moc ráda. | Půjdete se mnou v sobotu na večeři? | Ano, moc ráda. | Will you go to dinner with me on Saturday? / Yes, I'd love to.
-Proč ne? | Půjdeme spolu do kina? | Proč ne? | Shall we go to the movies together? / Why not?
+Proč ne? | Půjdeme spolu na kávu? | Proč ne? | Shall we go for a coffee together? / Why not?
 Máte čas v sobotu? | Máte čas v sobotu? | Ano, mám. Proč? | Are you free on Saturday? / Yes, I am. Why?
 Můžu dostat vaše číslo? | Můžu dostat vaše číslo? | Ano, tady je. | Can I have your number? / Yes, here it is.
 To říkáte všem. | Jste ta nejkrásnější žena tady. | To říkáte všem. | You're the most beautiful woman here. / You say that to everyone.

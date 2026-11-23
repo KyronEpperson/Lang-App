@@ -287,6 +287,61 @@
    "name": "Traps for English speakers",
    "group": "Conversation",
    "desc": "False friends and calques, ਨੇ in the past, ਤੂੰ, ਕੱਲ੍ਹ, and the tone and doubling slips"
+  },
+  {
+   "name": "Compliments",
+   "group": "Conversation",
+   "desc": "Praise for food, work, skills, homes and effort, and the modest ways Punjabis answer it."
+  },
+  {
+   "name": "Flirting",
+   "group": "Conversation",
+   "desc": "Words people flirt with, phrases built from them, asking someone out, and kind ways to say no. For people who already know each other: open flirting with strangers is unusual in Punjab."
+  },
+  {
+   "name": "Top nouns",
+   "group": "Core words",
+   "desc": "The most-used nouns, with their gender."
+  },
+  {
+   "name": "Top verbs",
+   "group": "Core words",
+   "desc": "The most-used verbs, with the ਮੈਂ form for a man and a woman."
+  },
+  {
+   "name": "Top adjectives",
+   "group": "Core words",
+   "desc": "The most-used describing words, and whether they change."
+  },
+  {
+   "name": "Top adverbs",
+   "group": "Core words",
+   "desc": "Time, place, manner and degree: now, here, slowly, quite."
+  },
+  {
+   "name": "Top pronouns",
+   "group": "Core words",
+   "desc": "I, you, my, this, someone, and the forms before a postposition."
+  },
+  {
+   "name": "Top postpositions",
+   "group": "Core words",
+   "desc": "Punjabi's prepositions come after the noun: ਵਿੱਚ, ਨੂੰ, ਤੋਂ, ਨਾਲ and the rest."
+  },
+  {
+   "name": "Top conjunctions",
+   "group": "Core words",
+   "desc": "Joining words: and, if, when, then, even if, so that."
+  },
+  {
+   "name": "Top interjections",
+   "group": "Core words",
+   "desc": "What people really exclaim: ਵਾਹ, ਹਾਏ, ਓਏ, ਬੱਲੇ ਬੱਲੇ."
+  },
+  {
+   "name": "Top words",
+   "group": "Core words",
+   "desc": "Little words, question words, numbers, ordinals, days and times."
   }
  ],
  "titles": [

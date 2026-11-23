@@ -117,11 +117,11 @@ dát | daaht | to give; to put (once) | Perfective: dám = I'll give. Pair: dáv
 pomoct | POH-mohtst | to help | Perfective: pomůžu = I'll help. Pair: pomáhat.
 muset | MOO-seht | to have to; must | musím, musíte.
 vzít | vzeet | to take | Perfective: vezmu = I'll take. Pair: brát. Irregular.
-nechat | NEH-khaht | to leave; to let | Perfective: nechám. Pair: nechávat.
+nechat | NEH-khaht | to leave; to let | Perfective: nechám = I'll leave. Pair: nechávat.
 stát | staaht | to cost; to stand | stojí = it costs. Stát se = to happen.
 žít | zheet | to live (be alive) | žiju. Where you live: bydlet.
 zůstat | ZOOHS-taht | to stay | Perfective: zůstanu = I'll stay. Pair: zůstávat.
-hrát | hraaht | to play | hraju. -uju group in the I-form.
+hrát | hraaht | to play | hraju, hrajete. Irregular.
 věřit | VYEH-rzhiht | to believe | věřím.
 přijít | PRSHIH-yeet | to come | Perfective: přijdu = I'll come. Pair: přicházet.
 chtít | khtyeet | to want | chci, chcete. Irregular.
@@ -136,7 +136,7 @@ jet | yeht | to go (by vehicle) | jedu, jedete. Future: pojedu.
 slyšet | SLIH-sheht | to hear | slyším.
 čekat | CHEH-kaht | to wait | čekám. Perfective: počkat (Počkejte! = Wait!).
 ukázat | OO-kaah-zaht | to show | Perfective: ukážu = I'll show. Pair: ukazovat.
-hledat | HLEH-daht | to look for | hledám. No ne- trap: nehledám.
+hledat | HLEH-daht | to look for | hledám. Found it: najít.
 koupit | KOHW-piht | to buy | Perfective: koupím = I'll buy. Pair: kupovat.
 zkusit | SKOO-siht | to try | Perfective: zkusím = I'll try. Pair: zkoušet.
 jíst | yeest | to eat | jím, jíte. Irregular.
@@ -145,17 +145,17 @@ sedět | SEH-dyeht | to sit; to be sitting | sedím.
 vypadat | VIH-pah-daht | to look (seem) | vypadám. Vypadáte dobře = You look well.
 moct | mohtst | can; to be able to | můžu, můžete. Irregular. Also written moci.
 znamenat | ZNAH-meh-naht | to mean | Co to znamená? = What does it mean?
-otevřít | OH-teh-vrzheet | to open | Perfective: otevřu. Pair: otevírat.
+otevřít | OH-teh-vrzheet | to open | Perfective: otevřu = I'll open. Pair: otevírat.
 milovat | MIH-loh-vaht | to love | miluju. Strong: real love, or a thing you adore.
 znát | znaaht | to know (a person, a place) | znám. A fact: vědět.
-zapomenout | ZAH-poh-meh-nohwt | to forget | Perfective: zapomenu. Pair: zapomínat.
+zapomenout | ZAH-poh-meh-nohwt | to forget | Perfective: zapomenu = I'll forget. Pair: zapomínat.
 číst | cheest | to read | čtu, čtete. Irregular.
-ztratit | STRAH-tyiht | to lose | Perfective: ztratím. Pair: ztrácet.
+ztratit | STRAH-tyiht | to lose | Perfective: ztratím = I'll lose. Pair: ztrácet.
 pít | peet | to drink | piju, pijete.
 psát | psaaht | to write | píšu. Perfective: napsat.
 platit | PLAH-tyiht | to pay | platím. Perfective: zaplatit.
 volat | VOH-laht | to call (on the phone) | volám. Perfective: zavolat.
-zavřít | ZAH-vrzheet | to close | Perfective: zavřu. Pair: zavírat.
+zavřít | ZAH-vrzheet | to close | Perfective: zavřu = I'll close. Pair: zavírat.
 stačit | STAH-chiht | to be enough | stačí = that's enough.
 bydlet | BIH-dleht | to live (somewhere) | bydlím. Bydlím v Praze.
 vařit | VAH-rzhiht | to cook | vařím. Perfective: uvařit.
@@ -367,7 +367,7 @@ jaký | YAH-kee | what kind; what … like | jaká, jaké.
 oni | OH-nyih | they (men, or a mixed group) | Only women or things: ony.
 jiný | YIH-nee | other; different | jiná, jiné.
 ono | OH-noh | it (neuter) | Rare as a subject. Spoken filler: Ono to…
-čí | chee | whose | čí, čí, čí: one form here.
+čí | chee | whose | Soft: one form for all genders.
 ony | OH-nih | they (women, or things) | A mixed group: oni.
 `,
   "Top prepositions": `

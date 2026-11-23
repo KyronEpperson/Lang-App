@@ -1,14 +1,14 @@
 /* en-cs extras for decks-t.js (writer EN-CS-T). DIALOG: card | A | B | English A / English B. EXAMPLES: card | sentence | English. */
 exports.DIALOG = `
 no | Máte čas? | No… dnes ne. | Do you have time? / Well… not today.
-hej | Hej, počkejte! | Ano? | Hey, wait! / Yes?
+hej | Hej, počkej! | Co je? | Hey, wait! (to a friend) / What is it?
 aha | Banka je zavřená. | Aha, děkuji. | The bank is closed. / I see, thank you.
 ach | Vlak dnes nejede. | Ach ne! | The train isn't running today. / Oh no!
 haló | Haló? | Dobrý den, tady Novák. | Hello? / Good day, Novák speaking.
 páni | To je můj nový byt. | Páni, ten je velký! | This is my new apartment. / Wow, it's big!
 bože | Je už deset. | Bože, jdu pozdě! | It's already ten. / Oh God, I'm late!
 díky | Tady je vaše káva. | Díky! | Here's your coffee. / Thanks!
-čau | Čau, Evo! | Čau, Anno! | Hi, Eva! / Hi, Anna!
+čau | Čau! | Čau, jak se máš? | Hi! / Hi, how are you?
 nazdar | Nazdar! Jak se máš? | Dobře, díky. | Hey! How are you? / Fine, thanks.
 jejda | Jejda, promiňte! | To nic. | Oops, sorry! / It's nothing.
 au | Au! | Co se stalo? | Ouch! / What happened?
@@ -18,12 +18,12 @@ ty jo | Mám nové auto. | Ty jo! | I have a new car. / Wow!
 ach jo | Zase prší. | Ach jo. | It's raining again. / Oh well.
 jé | Tady je dárek pro vás. | Jé, děkuji! | Here's a present for you. / Ooh, thank you!
 pozor | Pozor, auto! | Děkuji! | Watch out, a car! / Thank you!
-bacha | Bacha, schod! | Díky. | Watch out, a step! / Thanks.
+bacha | Bacha, je to horké! | Díky. | Careful, it's hot! / Thanks.
 fajn | Přijdu v pět. | Fajn. | I'll come at five. / Fine.
-super | Mám lístky na koncert. | Super! | I have tickets for the concert. / Great!
+super | Mám nové tričko. | Super! | I have a new T-shirt. / Great!
 sakra | Sakra, nemám klíč! | Nevadí, já ho mám. | Damn, I don't have my key! / Never mind, I have it.
 uf | Uf, jsme tady. | Konečně! | Phew, we're here. / Finally!
-zdravím | Zdravím! | Dobrý den, pane Nováku. | Hello! / Good day, Mr. Novák.
+zdravím | Zdravím! | Dobrý den. | Hello! / Good day.
 promiň | Promiň, jdu pozdě. | To nic. | Sorry, I'm late. / That's OK.
 škoda | Dnes nemám čas. | Škoda. | I don't have time today. / What a pity.
 pardon | Pardon, to je moje místo. | Aha, promiňte. | Sorry, that's my seat. / Oh, excuse me.
@@ -58,15 +58,15 @@ vzít | Vezmu si tu černou bundu. | I'll take the black jacket.
 slyšet | Slyšíte mě? | Can you hear me?
 bydlet | Bydlím v Praze. | I live in Prague.
 čekat | Čekám na Evu. | I'm waiting for Eva.
-jíst | Jíte maso? | Do you eat meat?
-pít | Piju kávu bez cukru. | I drink coffee without sugar.
+jíst | Jíte rybu? | Do you eat fish?
+pít | Ráno piju kávu. | In the morning I drink coffee.
 spát | V sobotu spím dlouho. | On Saturday I sleep late.
 pracovat | Pracuju v Brně. | I work in Brno.
 rozumět | Nerozumím, promiňte. | I don't understand, sorry.
 psát | Píšu dopis. | I'm writing a letter.
 číst | Čtu knihu. | I'm reading a book.
 koupit | Koupím chléb a mléko. | I'll buy bread and milk.
-platit | Platím kartou. | I'm paying by card.
+platit | Platím já. | I'm paying.
 jet | Zítra jedu do Plzně. | Tomorrow I'm going to Plzeň.
 přijít | Přijdu v pět. | I'll come at five.
 začít | Film začne v osm. | The movie starts at eight.
@@ -205,7 +205,7 @@ moje | Moje kniha je nová. | My book is new.
 tvůj | To je tvůj telefon? | Is that your phone? (to a friend)
 tvoje | Tvoje káva je tady. | Your coffee is here. (to a friend)
 váš | Je to váš klíč? | Is this your key?
-vaše | Je to vaše taška? | Is this your bag?
+vaše | Je to vaše auto? | Is this your car?
 náš | Náš dům je malý. | Our house is small.
 naše | Naše kancelář je tady. | Our office is here.
 jeho | Jeho sestra je studentka. | His sister is a student.
@@ -228,7 +228,7 @@ ten | Ten vlak jede do Brna. | That train goes to Brno.
 ta | Ta polévka je výborná. | The soup is excellent.
 nějaký | Máte nějaký plán? | Do you have a plan?
 žádný | Nemám žádný problém. | I don't have any problem.
-jiný | Máte jinou barvu? | Do you have another color?
+jiný | Máte jiné tričko? | Do you have another T-shirt?
 sám | Jsem tady sám. | I'm here alone. (a man)
 na | Jdu na poštu. | I'm going to the post office.
 ve | Ve středu nepracuju. | I don't work on Wednesday.
@@ -242,17 +242,17 @@ po | Po obědě jdu domů. | After lunch I'm going home.
 od | To je dárek od Petra. | That's a present from Petr.
 u | Jsem u Evy. | I'm at Eva's.
 před | Čekám před školou. | I'm waiting in front of the school.
-bez | Kávu bez cukru, prosím. | Coffee without sugar, please.
+bez | Kávu bez mléka, prosím. | Coffee without milk, please.
 kvůli | Nepřijdu kvůli práci. | I won't come because of work.
 přes | Jděte přes náměstí. | Go across the square.
-mezi | Pošta je mezi bankou a hotelem. | The post office is between the bank and the hotel.
+mezi | Pošta je mezi školou a hotelem. | The post office is between the school and the hotel.
 podle | Podle mě je to dobré. | In my opinion it's good.
 proti | Nemám nic proti. | I have nothing against it.
 pod | Kočka je pod stolem. | The cat is under the table.
 kolem | Jděte kolem pošty. | Go past the post office.
 během | Během dne pracuju. | During the day I work.
 kromě | Pracuju každý den kromě neděle. | I work every day except Sunday.
-vedle | Banka je vedle pošty. | The bank is next to the post office.
+vedle | Hotel je vedle pošty. | The hotel is next to the post office.
 mimo | Bydlím mimo centrum. | I live outside the center.
 se mnou | Půjdete se mnou? | Will you come with me?
 okolo | Přijdu okolo osmé. | I'll come around eight.

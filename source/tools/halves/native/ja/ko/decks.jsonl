@@ -1,0 +1,43 @@
+{"id":"ko.d.hangul-vowels","label":"ハングル・母音","desc":"基本の母音10個。これが読めれば、どんな単語も音にできます。ローマ字の eo と eu はそれぞれ1つの母音で、「エオ」「エウ」とは読みません。eo は口を大きく開けた「オ」、o は唇を丸めた「オ」、eu は唇を横に引いた「ウ」、u は唇を丸めて突き出す「ウ」です。e と ae はどちらも「エ」です。"}
+{"id":"ko.d.hangul-consonants","label":"ハングル・子音","desc":"基本の子音14個と、文字の最後（パッチム）での音の変わり方。ローマ字の g, d, b, j は語頭では濁らず、「カ・タ・パ・チャ」に近い息の弱い音です（母音にはさまれると濁ります）。k, t, p, ch は強い息を出す音。r は日本語のラ行と同じで、文字の最後では l になり、舌先をつけたまま止めます。h は母音にはさまれるとほとんど聞こえません。ng は「りんご」の「ん」です。"}
+{"id":"ko.d.hangul-advanced","label":"ハングル・発展","desc":"濃音と激音、二重母音、二重パッチム。ローマ字の kk, tt, pp, ss, jj は長い音ではなく濃音です。前に小さい「っ」があるつもりで、のどを締め、息を出さずに言います（appa は「アッパ」に近い音）。激音 k, t, p, ch は濃音にせず、強い息を出しましょう。wa, wo, wi の w ははっきり言います。oe, wae, we はどれも「ウェ」です。"}
+{"id":"ko.d.pronunciation-tips","label":"発音のコツ","desc":"実際の発音がつづりどおりにならない、音の変化のルール。"}
+{"id":"ko.d.survival-phrases","label":"サバイバルフレーズ","desc":"韓国で1日を乗り切るための12のフレーズ。"}
+{"id":"ko.d.introductions","label":"自己紹介","desc":"名前、出身、年齢、仕事、趣味。初対面の会話の流れです。"}
+{"id":"ko.d.survival-phrases-2","label":"サバイバルフレーズ2","desc":"助けを求める、聞き返す、支払う、道に迷ったとき。"}
+{"id":"ko.d.asking-around","label":"場所をたずねる","desc":"トイレ、出口、席、Wi-Fi、営業時間。「〜はどこですか」をまとめて。"}
+{"id":"ko.d.cafe-convenience-store","label":"カフェ・コンビニ","desc":"サイズ、ホットかアイスか、ポイントカード、温め、袋。"}
+{"id":"ko.d.numbers-in-the-wild","label":"街の数字","desc":"値段、電話番号、階、時刻。実際に書かれている形で。"}
+{"id":"ko.d.counters","label":"助数詞","desc":"もの、人、カップ、瓶、動物の数え方。"}
+{"id":"ko.d.weather-feelings","label":"天気・気持ち","desc":"天気の話と今の気持ち。会話を始める定番の2つです。"}
+{"id":"ko.d.connectors","label":"接続詞","desc":"そして、だから、でも、その次に。話をつなぐ言葉です。"}
+{"id":"ko.d.doctor-pharmacy","label":"病院・薬局","desc":"症状、薬、アレルギー、処方箋。"}
+{"id":"ko.d.housing-errands","label":"住まい・用事","desc":"家賃、保証金、宅配便、ごみの分別、洗濯。"}
+{"id":"ko.d.honorifics","label":"敬語","desc":"動作をする人を高める尊敬語：드시다（召し上がる）、주무시다（お休みになる）、계시다（いらっしゃる）と -(으)시-。"}
+{"id":"ko.d.places-buildings","label":"場所・建物","desc":"カフェ、ジム、図書館、博物館、家。「〜に行きます」と言う場所です。"}
+{"id":"ko.d.hobbies","label":"趣味","desc":"취미가 뭐예요?（趣味は何ですか）に、実際に使う単語で答えましょう。"}
+{"id":"ko.d.food-words","label":"食べ物の単語","desc":"どのメニューにも出てくる料理と食材。"}
+{"id":"ko.d.drinks","label":"飲み物","desc":"コーヒー、お茶、焼酎、ビール、そして「もう1杯」の頼み方。"}
+{"id":"ko.d.activities","label":"ふだんの活動","desc":"「〜します」と言う日常の動詞。ヘヨ体で。"}
+{"id":"ko.d.tv-entertainment","label":"テレビ・エンタメ","desc":"ドラマ、バラエティ、ジャンル、何話目か、一気見。"}
+{"id":"ko.d.position-direction-words","label":"位置・方向","desc":"上、横、向かい、出口、階。ものの場所を言う・探すための言葉。"}
+{"id":"ko.d.core-verbs","label":"基本動詞","desc":"毎日使う12の動詞。ヘヨ体で。"}
+{"id":"ko.d.particles","label":"助詞","desc":"「は」「が」「を」「に・で」にあたる助詞。日本語とほぼ同じしくみです。"}
+{"id":"ko.d.numbers","label":"数","desc":"固有語の数と漢字語の数、それぞれの使い分け。"}
+{"id":"ko.d.sweet-talk","label":"甘い言葉","desc":"かわいい、きれい、会いたい。親しい相手に。"}
+{"id":"ko.d.cute-things-to-say","label":"きゅんとくるひと言","desc":"相手の心に届くほめ言葉と気づかいのひと言。"}
+{"id":"ko.d.flirting","label":"アプローチ","desc":"連絡先を聞く、デートに誘う、気持ちを伝える。"}
+{"id":"ko.d.casual-texting","label":"カジュアルなメッセージ","desc":"カカオトークの略語と、友達同士で本当に送るひと言。"}
+{"id":"ko.d.hype-cool","label":"ノリ・ほめ言葉","desc":"友達へのほめ言葉、励まし、スラング。"}
+{"id":"ko.d.hanging-out","label":"遊びに行く","desc":"誘う、場所と時間を決める、別れぎわ。"}
+{"id":"ko.d.k-pop-fan-culture","label":"K-POP・ファン文化","desc":"최애 から 떼창 まで、ファンダムの言葉。"}
+{"id":"ko.d.social-media-slang","label":"SNS・スラング","desc":"インスタ、ミーム、今どきのスラング。"}
+{"id":"ko.d.dating-deeper","label":"深まる恋","desc":"関係をはっきりさせる、心からのほめ言葉、謝る、安心させる。"}
+{"id":"ko.d.work-office","label":"仕事・オフィス","desc":"会議、締め切り、同僚への頼みごと、定時に帰る、회식（会社の飲み会）。"}
+{"id":"ko.d.small-talk","label":"雑談","desc":"近況、天気、週末の予定、感じのいい別れ方。"}
+{"id":"ko.d.food-ordering","label":"食事・注文","desc":"注文、食べ物の助数詞、食事のあいさつ2つ。"}
+{"id":"ko.d.directions-transport","label":"道案内・交通","desc":"左・右・まっすぐ、地下鉄、バス、タクシーで使う言葉。"}
+{"id":"ko.d.time-days","label":"時間・曜日","desc":"今日・明日、曜日、今何時か。"}
+{"id":"ko.d.family-people","label":"家族・人","desc":"母、父、きょうだい、友達、先生。年齢で呼び方が変わります。"}
+{"id":"ko.d.adjectives","label":"形容詞","desc":"いい、悪い、大きい、小さい、暑い、寒い、忙しい、楽しい。"}
+{"id":"ko.d.k-drama-phrases","label":"韓国ドラマのセリフ","desc":"どの回にも出てくるリアクションとセリフ。"}

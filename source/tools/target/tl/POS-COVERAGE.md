@@ -19,6 +19,8 @@ Writer EN-TL-CORE, 2026-11-23. Checked against the 27 lessons in `lessons-1.js` 
 
 ## Proposed lessons
 
+Note: the lessons below use some words that are not yet cards in the linked decks. *kaya* (so), *lagi*, *Naku!*, *Aray!*, *Hala!*, *mula sa*, *tungkol sa* and *sa harap / likod ng* are left out until `respell.js` LEX lists them; CORE-SOURCES.md §4 gives the LEX entry each one needs.
+
 **1. Joining ideas: at, pero, kasi, kung, kaya** (conjunctions)
 - Teaches: *at* / *o*; *pero*; *kasi* (spoken) vs *dahil* (careful) for "because"; *kung* "if", *kapag* "when(ever)"; *kaya* "so"; *habang* "while".
 - English-speaker trap: using *kung* for "when" in the past (Tagalog uses *nang* or *noong*), and starting a sentence with *Dahil…* then forgetting the main clause.

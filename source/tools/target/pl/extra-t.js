@@ -29,7 +29,7 @@ serio | Wygrałem sto złotych! | Serio? | I won a hundred złoty! / Seriously?
 `;
 
 exports.EXAMPLES = `
-ja | Ja jestem z Krakowa, a ty? | I'm from Kraków, and you?
+ja | Ja jestem z Krakowa, a pan? | I'm from Kraków, and you, sir?
 ty | Ty jesteś Kasia, prawda? | You're Kasia, right?
 on | On jest moim bratem. | He's my brother.
 ona | Ona mieszka w Warszawie. | She lives in Warsaw.
@@ -45,32 +45,32 @@ mnie | Czy pan mnie słyszy? | Can you hear me?
 mi | Podoba mi się Kraków. | I like Kraków.
 cię | Kocham cię, mamo. | I love you, Mum.
 ciebie | To jest dla ciebie. | This is for you.
-go | Znasz Marka? Tak, znam go. | Do you know Marek? Yes, I know him.
+go | Czy pan zna Marka? Tak, znam go. | Do you know Marek? Yes, I know him.
 jego | To jest jego samochód. | This is his car.
 jej | To jest jej mieszkanie. | This is her flat.
-ją | Znasz Ewę? Tak, znam ją. | Do you know Ewa? Yes, I know her.
+ją | Czy pani zna Ewę? Tak, znam ją. | Do you know Ewa? Yes, I know her.
 mu | Kupię mu książkę. | I'll buy him a book.
 nas | Mama czeka na nas. | Mum is waiting for us.
 nam | Pani Ewa nam pomaga. | Mrs Ewa is helping us.
 was | Widzę was! | I can see you (all)!
 ich | To są ich dzieci. | These are their children.
-im | Daj im trochę czasu. | Give them a little time.
+im | Powiem im jutro. | I'll tell them tomorrow.
 się | Jak się pan nazywa? | What's your name? (to a man)
 siebie | Idę do siebie. | I'm going back to my place.
-sobie | Kup sobie coś. | Buy yourself something.
+sobie | Kupię sobie kawę. | I'll buy myself a coffee.
 mój | To jest mój pokój. | This is my room.
-twój | Gdzie jest twój telefon? | Where's your phone?
+twój | Gdzie jest twój telefon? | Where's your phone? (to a friend)
 nasz | Nasz dom jest blisko. | Our house is near.
 wasz | Czy to jest wasz pies? | Is this your dog? (to several people)
 swój | Każdy ma swój pokój. | Everyone has their own room.
 to | To jest dobry pomysł. | That's a good idea.
 kto | Kto tam? | Who's there?
-co | Co robisz w sobotę? | What are you doing on Saturday?
+co | Co pan robi w sobotę? | What are you doing on Saturday?
 który | Który autobus jedzie do centrum? | Which bus goes to the centre?
-jaki | Jaki jest twój numer? | What's your number?
+jaki | Jaki jest pana numer? | What's your number? (to a man)
 czyj | Czyj to telefon? | Whose phone is this?
 ktoś | Ktoś dzwoni. | Someone's calling.
-coś | Chcesz coś do picia? | Do you want something to drink?
+coś | Czy pani chce coś do picia? | Would you like something to drink?
 nikt | Nikt nie wie. | Nobody knows.
 nic | Nic nie rozumiem. | I don't understand anything.
 wszystko | Wszystko w porządku? | Is everything all right?
@@ -81,6 +81,9 @@ ten | Ten dom jest bardzo stary. | This house is very old.
 tamten | Tamten pan jest lekarzem. | That man over there is a doctor.
 żaden | Nie mam żadnego problemu. | I have no problem at all.
 jakiś | Jakiś pan czeka na panią. | Some man is waiting for you.
+ci | Dam ci mój numer. | I'll give you my number. (to a friend)
+wam | Pokażę wam Kraków. | I'll show you (all) Kraków.
+taki | To taki ładny dzień! | It's such a nice day!
 być | Marek jest w pracy. | Marek is at work.
 mieć | Mam dwa bilety. | I have two tickets.
 móc | Czy mogę zapłacić kartą? | Can I pay by card?
@@ -88,12 +91,12 @@ wiedzieć | Nie wiem, gdzie jest dworzec. | I don't know where the station is.
 chcieć | Chcę kawę z mlekiem. | I want coffee with milk.
 musieć | Muszę iść do pracy. | I have to go to work.
 mówić | Mówię trochę po polsku. | I speak a little Polish.
-robić | Co robisz wieczorem? | What are you doing this evening?
-iść | Idę do sklepu, chcesz coś? | I'm going to the shop, do you want anything?
+robić | Co pani robi wieczorem? | What are you doing this evening?
+iść | Idę do sklepu po chleb. | I'm going to the shop for bread.
 widzieć | Widzę dworzec. | I can see the station.
 znać | Znam dobrą kawiarnię. | I know a good café.
 myśleć | Myślę, że to dobry pomysł. | I think it's a good idea.
-dać | Daj mi chwilę. | Give me a moment.
+dać | Proszę mi dać chwilę. | Please give me a moment.
 pomóc | Czy może mi pan pomóc? | Can you help me?
 rozmawiać | Rozmawiamy o pracy. | We're talking about work.
 zostać | Jutro zostanę w domu. | Tomorrow I'll stay at home.
@@ -117,28 +120,28 @@ dzwonić | Mama dzwoni codziennie. | Mum calls every day.
 kupić | Muszę kupić chleb. | I have to buy bread.
 próbować | Próbuję mówić po polsku. | I'm trying to speak Polish.
 przychodzić | Marek zawsze przychodzi późno. | Marek always comes late.
-przestać | Przestań, proszę! | Stop it, please!
-zapomnieć | Nie zapomnij biletu! | Don't forget your ticket!
+przestać | Przestań, proszę! | Stop it, please! (to a friend)
+zapomnieć | Nie zapomnij biletu! | Don't forget your ticket! (to a friend)
 pamiętać | Pamiętam ten dzień. | I remember that day.
 rozumieć | Rozumiem, dziękuję. | I understand, thank you.
 słuchać | Lubię słuchać muzyki. | I like listening to music.
-patrzeć | Patrz, tam jest Anna! | Look, Anna's over there!
+patrzeć | Patrz, tam jest Anna! | Look, Anna's over there! (to a friend)
 kochać | Kocham moją rodzinę. | I love my family.
 lubić | Lubię herbatę z cytryną. | I like tea with lemon.
 prosić | Proszę o rachunek. | The bill, please.
 pytać | Pytam o drogę. | I'm asking the way.
 czuć | Czuję się dobrze. | I feel well.
 bać się | Boję się psów. | I'm afraid of dogs.
-martwić się | Nie martw się! | Don't worry!
+martwić się | Proszę się nie martwić. | Please don't worry.
 potrzebować | Potrzebuję pomocy. | I need help.
 umieć | Umiem pływać. | I can swim.
 mieszkać | Mieszkamy w Poznaniu. | We live in Poznań.
-jeść | Co jesz na śniadanie? | What do you eat for breakfast?
+jeść | Co pan je na śniadanie? | What do you eat for breakfast?
 pić | Piję wodę. | I'm drinking water.
 płacić | Płacę kartą. | I'm paying by card.
 nazywać się | Nazywam się Piotr Nowak. | My name is Piotr Nowak.
 uczyć się | Uczę się polskiego. | I'm learning Polish.
-wyglądać | Wyglądasz na zmęczonego. | You look tired. (to a man)
+wyglądać | Pan wygląda na zmęczonego. | You look tired. (to a man)
 podobać się | Podoba mi się to miasto. | I like this town.
 dobry | To dobry lekarz. | He's a good doctor.
 nowy | Mam nowy telefon. | I have a new phone.
@@ -147,7 +150,7 @@ duży | To jest duże miasto. | It's a big city.
 mały | Mam mały pokój. | I have a small room.
 ważny | To bardzo ważne. | That's very important.
 ostatni | To jest ostatni autobus. | This is the last bus.
-pewny | Jesteś pewna? | Are you sure? (to a woman)
+pewny | Czy pani jest pewna? | Are you sure? (to a woman)
 gotowy | Obiad jest gotowy. | Lunch is ready.
 młody | Mój brat jest młody. | My brother is young.
 długi | To był długi dzień. | It was a long day.
@@ -156,7 +159,7 @@ zły | To nie jest zły pomysł. | That's not a bad idea.
 trudny | Ten test jest trudny. | This test is difficult.
 szczęśliwy | Jestem bardzo szczęśliwa. | I'm very happy. (a woman)
 zmęczony | Jestem zmęczony. | I'm tired. (a man)
-głodny | Jesteś głodny? | Are you hungry? (to a man)
+głodny | Czy pan jest głodny? | Are you hungry? (to a man)
 wolny | Czy to miejsce jest wolne? | Is this seat free?
 zajęty | Przepraszam, jestem teraz zajęta. | Sorry, I'm busy now. (a woman)
 ciekawy | To ciekawa książka. | It's an interesting book.
@@ -209,7 +212,14 @@ oczywiście | Oczywiście, proszę bardzo. | Of course, here you go.
 niestety | Niestety nie mam czasu. | Unfortunately I don't have time.
 pewnie | Pewnie jest w domu. | He's probably at home.
 wieczorem | Wieczorem oglądam film. | In the evening I watch a film.
-długo | Długo czekasz? | Have you been waiting long?
+nawet | Nawet mama nie wie. | Even Mum doesn't know.
+znowu | Znowu pada. | It's raining again.
+dokładnie | Dokładnie tak! | Exactly!
+przynajmniej | Przynajmniej mamy czas. | At least we have time.
+ostatnio | Ostatnio dużo pracuję. | Lately I've been working a lot.
+dopiero | Dopiero jutro mam czas. | I don't have time until tomorrow.
+przykro | Przykro mi, nie mam czasu. | I'm sorry, I don't have time.
+długo | Długo pani czeka? | Have you been waiting long? (to a woman)
 w | Jestem w pracy. | I'm at work.
 na | Czekam na przystanku. | I'm waiting at the stop.
 z | Idę do kina z Anną. | I'm going to the cinema with Anna.
@@ -232,19 +242,20 @@ około | Będę około piątej. | I'll be there around five.
 i | Mam brata i siostrę. | I have a brother and a sister.
 a | Ja piję kawę, a Anna herbatę. | I drink coffee, and Anna drinks tea.
 ale | Chcę iść, ale nie mam czasu. | I want to go, but I don't have time.
-że | Wiem, że jesteś zmęczony. | I know you're tired. (to a man)
+że | Wiem, że Marek jest zmęczony. | I know Marek is tired.
 bo | Idę spać, bo jestem zmęczona. | I'm going to bed because I'm tired. (a woman)
 ponieważ | Nie pracuję dziś, ponieważ jestem chory. | I'm not working today because I'm ill. (a man)
-jeśli | Jeśli masz czas, zadzwoń. | If you have time, call.
+jeśli | Jeśli mam czas, czytam. | If I have time, I read.
 kiedy | Kiedy pada, jestem w domu. | When it rains, I stay at home.
 albo | Kawa albo herbata? | Coffee or tea?
 więc | Pada, więc jedziemy autobusem. | It's raining, so we're taking the bus.
 żeby | Uczę się polskiego, żeby rozmawiać z babcią. | I'm learning Polish to talk with my grandma.
 chociaż | Idę na spacer, chociaż pada. | I'm going for a walk, although it's raining.
 jednak | Jednak zostanę w domu. | I'll stay at home after all.
-zanim | Zadzwoń, zanim przyjdziesz. | Call before you come.
+zanim | Proszę zadzwonić, zanim pan przyjdzie. | Please call before you come.
 niż | Kraków jest mniejszy niż Warszawa. | Kraków is smaller than Warsaw.
 czyli | Jutro, czyli w sobotę. | Tomorrow, that is, on Saturday.
+jako | Pracuję jako nauczyciel. | I work as a teacher. (a man)
 gdyby | Gdybym miał czas, pojechałbym do Gdańska. | If I had time, I'd go to Gdańsk. (a man)
 `;
 

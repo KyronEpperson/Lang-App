@@ -319,7 +319,7 @@
     {
       "name": "Top words",
       "group": "Core words",
-      "desc": "Question words, numbers to a thousand, ordinals, and the little particles"
+      "desc": "Question words, the numbers the other decks skip, ordinals, and the little particles"
     }
   ],
   "titles": [

@@ -277,7 +277,7 @@ else {
   const seed={'ko-app2':JSON.stringify({nick:'K',welcomed:1,onboard:{skipped:1},hintSeen:1,tourDone:1,free:1}),'la-meta':JSON.stringify({v:1,native:'en',course:'en-ko',picked:1,seenHome:1,prefs:{}})};
   const {ctx,p}=await newCtx(seed); await p.evaluate(()=>{ window.ALLH=s=>/[가-힣ㄱ-ㅣ]/.test(s); }); await fxInject(p,false);
   mc.fxNativeList=await p.evaluate(async()=>{ showLangHome({closable:true}); const h=document.getElementById('langHome'); const row=h.querySelector('[data-native="ja"]'); if(!row||!/日本語/.test(row.textContent)||[...h.querySelectorAll('.lh-lock')].some(x=>/日本語/.test(x.textContent))) return 'step1';
-    const natives=[...h.querySelectorAll('[data-native]')].map(b=>b.dataset.native).join(); if(natives.indexOf('en,ko,ja')!==0) return 'order '+natives; row.click();
+    const natives=[...h.querySelectorAll('[data-native]')].map(b=>b.dataset.native).join(); { const ks=natives.split(','); const srt=ks.slice().sort((x,y)=>String(LANGS[x].self).localeCompare(String(LANGS[y].self),'en',{sensitivity:'base'})); if(ks.join()!==srt.join()||!ks.includes('en')||!ks.includes('ko')) return 'order '+natives; } /* alphabetical by the name shown */ row.click();
     const t2=h.innerText; if(!h.querySelector('[data-course="ja-en"]')||!/何を学びたいですか？/.test(t2)||!/← 戻る/.test(t2)||!/近日公開 · タップでプレビュー/.test(t2)||ALLH(t2)||!/英語/.test(t2)) return 'step2 '+t2.slice(0,200);
     const lk=h.querySelector('.lh-lock[data-road="fr"]'); if(lk){ lk.click(); const t3=h.innerText; if(!/近日公開 · \d+ レッスン予定/.test(t3)||!/順番は変わることがあります。/.test(t3)||ALLH(t3)) return 'step3 '+t3.slice(0,160); h.querySelector('.lh-back2').click(); }
     h.querySelector('[data-course="ja-en"]').click(); await new Promise(z=>setTimeout(z,200));
@@ -399,7 +399,7 @@ else {
     const was=COURSE; let fb; try{ const x=Object.assign({},c,{id:'en-kx'}); delete x.TRAINER; COURSE=x; fb=!CF('script')&&!modeOk('pick')&&!modeOk('build')&&!CF('register')&&kouiTip('좋아요')===''&&answersFor('서')&&!answersFor('서').answers.has('suh'); } finally { COURSE=was; }
     out.noFallback=!!fb&&answersFor('서').answers.has('suh'); return out; }); await ctx.close(); Object.assign(mc,r); }
 // pack integrity for every course
-res.checks.packs=await (async()=>{ const {ctx,p}=await newCtx(null); const r=await p.evaluate(()=>{ const out={}; Object.values(COURSES).forEach(c=>{ const rt=courseRT(c); const raw=c.builtin?Object.keys(c.DECKS).filter(d=>d!==MYDECK):Object.keys(c.DECKS); const tg=[]; raw.forEach(d=>(c.DECKS[d]||[]).forEach(x=>tg.push(c.target==='de'?String(x[0]).trim():String(x[0]).toLowerCase().trim()) /* German: sie / Sie, ihr / Ihr are different words */));
+res.checks.packs=await (async()=>{ const {ctx,p}=await newCtx(null); const r=await p.evaluate(()=>{ const out={}; Object.values(COURSES).forEach(c=>{ const rt=courseRT(c); const raw=c.builtin?Object.keys(c.DECKS).filter(d=>d!==MYDECK):Object.keys(c.DECKS); const tg=[]; raw.forEach(d=>(c.DECKS[d]||[]).forEach(x=>tg.push((c.target==='de'||c.target==='da')?String(x[0]).trim():String(x[0]).toLowerCase().trim()) /* German sie / Sie, ihr / Ihr and Danish i / I are different words */));
     const grouped=raw.every(d=>(c.GROUPS||[]).some(g=>g[1].includes(d))&&(c.GROUPS||[]).filter(g=>g[1].includes(d)).length===1), tagged=raw.every(d=>Object.values(c.TAGS||{}).some(a=>a.includes(d)));
     const keys=new Set(); raw.forEach(d=>(c.DECKS[d]||[]).forEach(x=>keys.add(x[0]))); const L=c.LESSONS||[];
     const dupMeaning=raw.filter(d=>{ const m=(c.DECKS[d]||[]).map(x=>x[2]); return new Set(m).size!==m.length; });
