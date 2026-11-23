@@ -1,0 +1,29 @@
+{
+  "native": "pl",
+  "nativeNameEn": "Polish",
+  "name": {
+    "en": "English",
+    "pl": "Angielski"
+  },
+  "ttsLang": "en-US",
+  "nativeScript": null,
+  "pron": "required",
+  "pronPattern": "^(?=.*ˈ)/[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/(?: /[abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɜɪʊʌθðʃʒŋːˈˌ‖]+)*/)*$",
+  "pronScript": "ˈ",
+  "standingRule": {
+    "kind": "article-plural",
+    "keywords": "przedim|mnog|policzaln",
+    "flags": "i"
+  },
+  "labels": {
+    "mcBlankCue": " Co pasuje w lukę?",
+    "typeHintCue": " — z tych wyrazów",
+    "cueTest": "[ąćęłńóśźżĄĆĘŁŃÓŚŹŻ]|\\b(?:[Cc]zy|[Jj]ak|[Jj]aki|[Jj]aka|[Jj]akie|[Kk]to|[Gg]dzie|[Kk]iedy|[Dd]laczego|[Ii]le|[Nn]ie|[Tt]ak|[Jj]est|[Ll]ub|[Aa]lbo|[Oo]raz|[Cc]zyli|[Pp]rzed|[Pp]rzez|[Pp]rzy|[Bb]ez|[Dd]la|[Pp]o angielsku|[Aa]ngielsku|[Aa]ngielski|[Pp]olsku|[Zz]danie|[Zz]daniu|[Zz]dania|[Ff]orma|[Ff]ormy|[Ww]yraz|[Ww]yrazy|[Ww]ybierz|[Ww]pisz|[Ww]staw|[Nn]apisz|[Oo]dpowiedz|[Pp]rzedimek|[Pp]rzedimka|[Pp]rzedimki|[Pp]rzedimkiem|[Ll]iczba|[Ll]iczbie|[Ll]iczby|[Mm]noga|[Mm]nogiej|[Pp]ojedyncza|[Pp]ojedynczej|[Cc]zas|[Cc]zasu|[Cc]zasie|[Cc]zasownik|[Rr]zeczownik|[Pp]ytanie|[Pp]ytaniu|[Pp]oprawne|[Pp]oprawna|[Pp]oprawny|[Pp]asuje|[Zz]naczy|[Oo]znacza|[Tt]utaj|[Tt]ylko|[Jj]eden|[Jj]edna|[Jj]edno|[Dd]wa|[Dd]wie|[Tt]rzy|[Rr]az|[Tt]eraz|[Ww]czoraj|[Jj]utro|[Dd]zisiaj|[Zz]awsze|[Nn]igdy|[Tt]ego|[Tt]ym|[Tt]ych|[Jj]estem|[Mm]am|[Mm]asz|[Ww]iele|[Kk]ilka|[Bb]ardzo|[Dd]obrze|[Jj]eszcze|[Rr]zeczy|[Oo]soba|[Oo]soby|[Kk]ogo|[Cc]zego|[Cc]zym|[Tt]am|[Oo]na|[Oo]ni|[Ww]y)\\b"
+  },
+  "lessonOrder": {
+    "after": {
+      "ponglish": "smalltalk",
+      "articles-3": "passive"
+    }
+  }
+}

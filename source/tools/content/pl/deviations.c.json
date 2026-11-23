@@ -1,0 +1,8 @@
+{
+  "lessons": {
+    "ponglish": "pl-only lesson (profile pl.md §8 'add' / §4.4 / §9): Ponglish traps — false friends (aktualny/current, ewentualnie/possibly, sympatyczny/nice, pensja/salary, recepta/prescription, fabryka/factory, dres/tracksuit, magazyn/warehouse, sałata/lettuce, ordynarny/rude), one Polish word vs two English words (robić: do/make, pożyczyć: borrow/lend, uczyć się/uczyć: learn/study/teach), calques (mam 20 lat, dziś rano, z góry dziękuję, interested/bored, advices) and it for objects; placed after smalltalk via profile.json lessonOrder.after; deck „Fałszywi przyjaciele i kalki”; replaces the ko-only konglish slot, no ko-en counterpart (mirrors zh chinglish / ru runglish). English side starts from ru runglish (She works at a factory, Can I give you some advice?, I need some advice, make coffee, My phone is old. It doesn't work.) with the Russian-only items replaced by Polish ones as profile §8 lists (prescription/receipt, warehouse/magazine, current/actual, lend/borrow, I'm twenty years old, interested in history, made a mistake); its practice set meets the article-plural rule on its own (order 4/4, type 3/4)"
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["ponglish"]
+}
