@@ -1,253 +1,249 @@
-/* TRANSLATE/ADAPT (kn): scaffolded from tools/content/ko/practice.js by new_lang.js.
-   Translate/adapt everything that is not English (the ko text) for kn speakers (prompts, why, hint, meanings, pron per profile.json, deck and group names,
-   explanations written from the kn point of view — PILOT-SPEC §3). Keep every English string, lesson id and answer position
-   identical to ko-en unless deviations.json gives a reason (parity.js enforces it). Delete this banner when the file is done. */
-/* Practice sets for the ko-en course (docs/PRACTICE-SPEC.md v1).
-   Prompts, why and hint are Korean; answers are English.
+/* Practice sets for the kn-en course (docs/PRACTICE-SPEC.md v1).
+   Prompts, why and hint are Kannada; answers are English.
    Per lesson: 5 mc -> 3 order -> 3 fill -> 3 type.
-   Standing article/plural check: at least 2 of 3 order items and 2 of 3 type items hinge on a/an/the or plural -s. */
+   Standing article/plural check (profile §7): at least 2 of 3 order items and 2 of 3 type items hinge on a/an/the or plural -s. */
 
 /* adds the same sentence with "please" at the end, after each base variant */
 const pl = list => list.flatMap(s => [s, s + ' please']);
 
 module.exports = {
   alphabet: [
-    { t: "mc", q: "이름이 see(보다)와 똑같이 들리는 글자는?", o: ["C", "S", "Z", "K"], why: "C의 이름 '씨'는 see와 같은 소리예요. S는 '에스', Z는 zee, K는 '케이'예요." },
-    { t: "mc", q: "Q 바로 다음에 오는 글자는?", o: ["R", "P", "S", "O"], why: "순서는 …O, P, Q, R, S…예요. Q(큐) 다음은 R(아r)이에요." },
-    { t: "mc", q: "올바른 것은?", o: ["an M", "a M", "an B", "an U"], why: "M의 이름 '엠'은 모음 소리로 시작해서 관사 an을 써요. B(비)는 a B, U(유)는 y 소리로 시작해서 a U예요." },
-    { t: "mc", q: "다음 중 모음 글자는?", o: ["U", "R", "S", "W"], why: "영어의 모음 글자는 A, E, I, O, U 다섯 개예요. R, S, W는 자음이에요." },
-    { t: "mc", q: "W의 영어 이름은?", o: ["double u", "double v", "u u", "v v"], why: "모양은 V 두 개 같지만 이름은 double u(더블유), 'U 두 개'예요." },
+    { t: "mc", q: "ಯಾವ ಅಕ್ಷರದ ಹೆಸರು see (ನೋಡು) ಪದದ ಹಾಗೆಯೇ ಕೇಳಿಸುತ್ತದೆ?", o: ["C", "S", "Z", "K"], why: "C ಹೆಸರು ಸೀ; see ಪದದ ಉಚ್ಚಾರಣೆಯೂ ಅದೇ. S ಹೆಸರು ಎಸ್, Z ಹೆಸರು zee, K ಹೆಸರು ಕೇ." },
+    { t: "mc", q: "Q ನಂತರ ಬರುವ ಅಕ್ಷರ ಯಾವುದು?", o: ["R", "P", "S", "O"], why: "ಕ್ರಮ ಹೀಗಿದೆ: …O, P, Q, R, S… ಹಾಗಾಗಿ Q ನಂತರ R." },
+    { t: "mc", q: "ಯಾವುದು ಸರಿ?", o: ["an M", "a M", "an B", "an U"], why: "M ಹೆಸರು (ಎಮ್) ಸ್ವರ ಧ್ವನಿಯಿಂದ ಶುರುವಾಗುತ್ತದೆ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ an. B (ಬೀ) ಜೊತೆ a B. U (ಯೂ) \"ಯ\" ಧ್ವನಿಯಿಂದ ಶುರುವಾಗುತ್ತದೆ, ಹಾಗಾಗಿ a U." },
+    { t: "mc", q: "ಇವುಗಳಲ್ಲಿ ಸ್ವರಾಕ್ಷರ ಯಾವುದು?", o: ["U", "R", "S", "W"], why: "ಇಂಗ್ಲಿಷ್‌ನ ಸ್ವರಾಕ್ಷರಗಳು ಐದು: A, E, I, O, U. R, S, W ವ್ಯಂಜನಗಳು." },
+    { t: "mc", q: "W ಅಕ್ಷರದ ಇಂಗ್ಲಿಷ್ ಹೆಸರು ಏನು?", o: ["double u", "double v", "u u", "v v"], why: "ನೋಡಲು ಎರಡು V ಸೇರಿದ ಹಾಗಿದ್ದರೂ ಹೆಸರು double u, ಅಂದರೆ \"ಎರಡು U\"." },
 
-    { t: "order", p: "그거 철자가 어떻게 돼요?", a: ["How", "do", "you", "spell", "that"], x: ["spelling", "does"], why: "일반동사 spell로 묻는 질문이라 do를 앞에 써요. 주어가 you라서 does가 아니고, spell은 원형 그대로예요." },
-    { t: "order", p: "제 이름은 S로 시작해요", a: ["My", "name", "starts", "with", "an", "S"], x: ["a", "start"], why: "S의 이름 '에스'는 모음 소리로 시작해서 관사 an이에요. 주어 my name은 하나라서 starts예요." },
-    { t: "order", p: "hello에는 L이 두 개 있어요", a: ["There", "are", "two", "Ls", "in", "hello"], x: ["is", "L"], why: "L이 두 개니까 복수 Ls로 쓰고, 복수라서 is가 아니라 are예요." },
+    { t: "order", p: "ಅದರ ಸ್ಪೆಲ್ಲಿಂಗ್ ಏನು?", a: ["How", "do", "you", "spell", "that"], x: ["spelling", "does"], why: "spell ಕ್ರಿಯಾಪದ ಬಳಸಿ ಪ್ರಶ್ನೆ ಕೇಳುವಾಗ ಮೊದಲಿಗೆ do ಬರುತ್ತದೆ. ಕರ್ತೃ you, ಹಾಗಾಗಿ does ಅಲ್ಲ; spell V1 ರೂಪದಲ್ಲೇ ಇರುತ್ತದೆ." },
+    { t: "order", p: "ನನ್ನ ಹೆಸರು S ಅಕ್ಷರದಿಂದ ಶುರುವಾಗುತ್ತದೆ", a: ["My", "name", "starts", "with", "an", "S"], x: ["a", "start"], why: "S ಹೆಸರು (ಎಸ್) ಸ್ವರ ಧ್ವನಿಯಿಂದ ಶುರುವಾಗುತ್ತದೆ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ an. ಕರ್ತೃ my name ಒಂದೇ, ಹಾಗಾಗಿ starts." },
+    { t: "order", p: "hello ಪದದಲ್ಲಿ ಎರಡು L ಇವೆ", a: ["There", "are", "two", "Ls", "in", "hello"], x: ["is", "L"], why: "L ಎರಡು ಇವೆ, ಹಾಗಾಗಿ ಬಹುವಚನ Ls; ಬಹುವಚನದ ಜೊತೆ is ಅಲ್ಲ, are." },
 
-    { t: "fill", q: "How do you __ your name?", p: "이름 철자를 어떻게 써요?", a: ["spell"], o: ["spelling", "spells", "spelled"], why: "do 뒤에는 동사원형이 와요: How do you spell…?" },
-    { t: "fill", q: "It starts __ a B.", p: "B로 시작해요", a: ["with"], o: ["by", "for", "in"], why: "'~로 시작하다'는 start with예요." },
-    { t: "fill", q: "That's M __ in Mary.", p: "Mary의 M이에요", a: ["as"], o: ["so", "than", "of"], why: "글자를 단어로 확인할 때는 'M as in Mary'처럼 as in을 써요." },
+    { t: "fill", q: "How do you __ your name?", p: "ನಿಮ್ಮ ಹೆಸರಿನ ಸ್ಪೆಲ್ಲಿಂಗ್ ಏನು?", a: ["spell"], o: ["spelling", "spells", "spelled"], why: "do ನಂತರ V1 ಬರುತ್ತದೆ: How do you spell…?" },
+    { t: "fill", q: "It starts __ a B.", p: "ಅದು B ಅಕ್ಷರದಿಂದ ಶುರುವಾಗುತ್ತದೆ", a: ["with"], o: ["by", "for", "in"], why: "\"ಇಂಥ ಅಕ್ಷರದಿಂದ ಶುರುವಾಗುವುದು\" = start with." },
+    { t: "fill", q: "That's M __ in Mary.", p: "ಅದು Mary ಪದದಲ್ಲಿರುವ M", a: ["as"], o: ["so", "than", "of"], why: "ಅಕ್ಷರವನ್ನು ಒಂದು ಪದದ ಮೂಲಕ ಖಚಿತಪಡಿಸುವಾಗ as in ಬಳಸುತ್ತಾರೆ: M as in Mary." },
 
-    { t: "type", p: "(관사를 넣어서) A로 시작해요", a: ["It starts with an A", "It begins with an A"], hint: "start · A — A의 이름은 모음 소리로 시작해요", x: ["the", "start"], why: "A의 이름 '에이'는 모음 소리로 시작해서 관사 an이에요. 주어 it에는 starts예요." },
-    { t: "type", p: "(you와 spell로) 이름 철자가 어떻게 돼요?", a: ["How do you spell your name"], hint: "spell · your name — do로 물어요", x: ["spelling", "does"], why: "일반동사 spell로 묻는 질문이라 do를 써요. 주어 you에는 does가 아니에요." },
-    { t: "type", p: "(It으로 시작해서) T가 두 개 있어요", a: ["It has two Ts", "There are two Ts", "It has two T's", "There are two T's"], hint: "two · T — 둘이면 복수형", x: ["T", "have"], why: "T가 둘이니까 복수 Ts로 써요. 주어 it에는 have가 아니라 has예요." }
+    { t: "type", p: "(ಆರ್ಟಿಕಲ್ ಸೇರಿಸಿ) ಅದು A ಅಕ್ಷರದಿಂದ ಶುರುವಾಗುತ್ತದೆ", a: ["It starts with an A", "It begins with an A"], hint: "start · A — A ಹೆಸರು ಸ್ವರ ಧ್ವನಿಯಿಂದ ಶುರುವಾಗುತ್ತದೆ", x: ["the", "start"], why: "A ಹೆಸರು (ಏ) ಸ್ವರ ಧ್ವನಿಯಿಂದ ಶುರುವಾಗುತ್ತದೆ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ an. ಕರ್ತೃ it ಜೊತೆ starts." },
+    { t: "type", p: "(you ಮತ್ತು spell ಬಳಸಿ) ನಿಮ್ಮ ಹೆಸರಿನ ಸ್ಪೆಲ್ಲಿಂಗ್ ಏನು?", a: ["How do you spell your name"], hint: "spell · your name — do ಬಳಸಿ ಕೇಳಿ", x: ["spelling", "does"], why: "spell ಕ್ರಿಯಾಪದ ಬಳಸಿ ಪ್ರಶ್ನೆ ಕೇಳುವಾಗ do ಬೇಕು. ಕರ್ತೃ you ಜೊತೆ does ಬರುವುದಿಲ್ಲ." },
+    { t: "type", p: "(It ಪದದಿಂದ ಶುರು ಮಾಡಿ) ಅದರಲ್ಲಿ ಎರಡು T ಇವೆ", a: ["It has two Ts", "There are two Ts", "It has two T's", "There are two T's"], hint: "two · T — ಎರಡು ಇದ್ದರೆ ಬಹುವಚನ", x: ["T", "have"], why: "T ಎರಡು ಇವೆ, ಹಾಗಾಗಿ ಬಹುವಚನ Ts. ಕರ್ತೃ it ಜೊತೆ have ಅಲ್ಲ, has." }
   ],
 
   pron: [
-    { t: "mc", q: "'쌀, 밥'을 뜻하는 단어는?", o: ["rice", "lice", "rise", "nice"], why: "R로 시작하는 rice가 쌀이에요. 혀끝을 잇몸에 붙이는 L로 말하면 lice(이)가 돼요." },
-    { t: "mc", q: "'선풍기'를 뜻하는 단어는?", o: ["fan", "pan", "van", "ban"], why: "F는 윗니를 아랫입술에 대고 바람만 내요. 두 입술을 터뜨리는 P로 말하면 pan(프라이팬)이에요." },
-    { t: "mc", q: "'생각하다'를 뜻하는 단어는?", o: ["think", "sink", "thing", "pink"], why: "TH는 혀끝을 이 사이로 살짝 내밀어요. s로 말하면 sink(싱크대)가 돼요." },
-    { t: "mc", q: "'투표하다'를 뜻하는 단어는?", o: ["vote", "boat", "goat", "bought"], why: "V는 F 입 모양에 성대를 울려요. 두 입술을 붙이는 B로 말하면 boat(배)가 돼요." },
-    { t: "mc", q: "'오른쪽'을 뜻하는 단어는?", o: ["right", "light", "fight", "bright"], why: "R로 시작하는 right가 오른쪽이에요. L로 시작하는 light는 빛이에요." },
+    { t: "mc", q: "\"ಅಕ್ಕಿ, ಅನ್ನ\" ಎಂಬ ಅರ್ಥದ ಪದ ಯಾವುದು?", o: ["rice", "lice", "rise", "nice"], why: "R ಅಕ್ಷರದಿಂದ ಶುರುವಾಗುವ rice ಎಂದರೆ ಅಕ್ಕಿ. L ಹೇಳಿದರೆ ಅದು lice (ಹೇನುಗಳು) ಆಗುತ್ತದೆ." },
+    { t: "mc", q: "\"ಗಾಳಿ ಬೀಸುವ ಫ್ಯಾನ್\" ಎಂಬ ಅರ್ಥದ ಪದ ಯಾವುದು?", o: ["fan", "pan", "van", "ban"], why: "F ಹೇಳುವಾಗ ಮೇಲಿನ ಹಲ್ಲು ಕೆಳತುಟಿಗೆ ತಾಗಿ ಗಾಳಿ ಮಾತ್ರ ಬರುತ್ತದೆ. ಎರಡೂ ತುಟಿ ಮುಚ್ಚಿ P ಹೇಳಿದರೆ ಅದು pan (ಬಾಣಲೆ)." },
+    { t: "mc", q: "\"ಯೋಚಿಸು\" ಎಂಬ ಅರ್ಥದ ಪದ ಯಾವುದು?", o: ["think", "sink", "thing", "pink"], why: "TH ಹೇಳುವಾಗ ನಾಲಿಗೆಯ ತುದಿ ಹಲ್ಲುಗಳ ನಡುವೆ ಸ್ವಲ್ಪ ಹೊರಗೆ ಬರುತ್ತದೆ. s ಹೇಳಿದರೆ ಅದು sink (ಪಾತ್ರೆ ತೊಳೆಯುವ ಸಿಂಕ್) ಆಗುತ್ತದೆ." },
+    { t: "mc", q: "\"ಮತ ಹಾಕು\" ಎಂಬ ಅರ್ಥದ ಪದ ಯಾವುದು?", o: ["vote", "boat", "goat", "bought"], why: "V ಹೇಳುವಾಗ F ಹೇಳುವ ಆಕಾರಕ್ಕೆ ಗಂಟಲಿನ ಧ್ವನಿ ಸೇರುತ್ತದೆ. ಎರಡೂ ತುಟಿ ಮುಚ್ಚಿ B ಹೇಳಿದರೆ ಅದು boat (ದೋಣಿ)." },
+    { t: "mc", q: "\"ಬಲಗಡೆ\" ಎಂಬ ಅರ್ಥದ ಪದ ಯಾವುದು?", o: ["right", "light", "fight", "bright"], why: "R ಅಕ್ಷರದಿಂದ ಶುರುವಾಗುವ right ಎಂದರೆ ಬಲಗಡೆ. L ಅಕ್ಷರದಿಂದ ಶುರುವಾಗುವ light ಎಂದರೆ ಬೆಳಕು." },
 
-    { t: "order", p: "이건 바나나예요", a: ["This", "is", "a", "banana"], x: ["an", "Dis"], why: "banana는 자음 소리로 시작해서 관사 a를 써요. this는 TH로 써요." },
-    { t: "order", p: "나무 세 그루", a: ["three", "trees"], x: ["tree", "free"], why: "셋이니까 복수 -s를 붙여 trees예요. three는 TH, tree는 TR로 시작해요." },
-    { t: "order", p: "저는 커피를 좋아해요", a: ["I", "like", "coffee"], x: ["copy"], why: "coffee는 윗니를 아랫입술에 대는 F예요. P로 쓰면 copy(복사)가 돼요." },
+    { t: "order", p: "ಇದು ಬಾಳೆಹಣ್ಣು", a: ["This", "is", "a", "banana"], x: ["an", "Dis"], why: "banana ವ್ಯಂಜನ ಧ್ವನಿಯಿಂದ ಶುರುವಾಗುತ್ತದೆ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a. this ಪದದ ಸ್ಪೆಲ್ಲಿಂಗ್‌ನಲ್ಲಿ TH ಇದೆ." },
+    { t: "order", p: "ಮೂರು ಮರಗಳು", a: ["three", "trees"], x: ["tree", "free"], why: "ಮೂರು ಇವೆ, ಹಾಗಾಗಿ ಬಹುವಚನ -s ಸೇರಿ trees. three ಪದದ ಮೊದಲಿಗೆ TH, tree ಪದದ ಮೊದಲಿಗೆ TR." },
+    { t: "order", p: "ನನಗೆ ಕಾಫಿ ಇಷ್ಟ", a: ["I", "like", "coffee"], x: ["copy"], why: "coffee ಪದದಲ್ಲಿರುವುದು ಮೇಲಿನ ಹಲ್ಲು ಕೆಳತುಟಿಗೆ ತಾಗುವ F. P ಬರೆದರೆ ಅದು copy (ನಕಲು) ಆಗುತ್ತದೆ." },
 
-    { t: "fill", q: "I eat __ice every day.", p: "저는 매일 밥을 먹어요", a: ["r"], o: ["l", "n", "w"], why: "밥은 R로 시작하는 rice예요. L로 쓰면 lice(이)가 돼요." },
-    { t: "fill", q: "I __ink so.", p: "그런 것 같아요", a: ["th"], o: ["s", "t", "p"], why: "think는 TH로 시작해요. s로 쓰면 sink(싱크대)가 돼요." },
-    { t: "fill", q: "This is my __.", p: "이건 제 가방이에요", a: ["bag"], o: ["back", "bug", "beg"], why: "가방은 g로 끝나는 bag이에요. k 소리로 끝나면 back(등)이 돼요." },
+    { t: "fill", q: "I eat __ice every day.", p: "ನಾನು ದಿನಾ ಅನ್ನ ತಿನ್ನುತ್ತೇನೆ", a: ["r"], o: ["l", "n", "w"], why: "ಅನ್ನ = R ಅಕ್ಷರದಿಂದ ಶುರುವಾಗುವ rice. L ಬರೆದರೆ ಅದು lice (ಹೇನುಗಳು)." },
+    { t: "fill", q: "I __ink so.", p: "ನನಗೆ ಹಾಗೆ ಅನಿಸುತ್ತದೆ", a: ["th"], o: ["s", "t", "p"], why: "think ಪದದ ಮೊದಲಿಗೆ TH. s ಬರೆದರೆ ಅದು sink (ಪಾತ್ರೆ ತೊಳೆಯುವ ಸಿಂಕ್)." },
+    { t: "fill", q: "This is my __.", p: "ಇದು ನನ್ನ ಬ್ಯಾಗ್", a: ["bag"], o: ["back", "bug", "beg"], why: "ಬ್ಯಾಗ್ = g ಧ್ವನಿಯಲ್ಲಿ ಮುಗಿಯುವ bag. k ಧ್ವನಿಯಲ್ಲಿ ಮುಗಿದರೆ ಅದು back (ಬೆನ್ನು)." },
 
-    { t: "type", p: "나무 세 그루", a: ["three trees"], hint: "three · tree — 셋이면 복수형", x: ["tree"], why: "three는 TH, tree는 TR로 시작하고, 셋이니까 복수 -s를 붙여요." },
-    { t: "type", p: "보트 두 척", a: ["two boats"], hint: "two · boat — 둘이면 복수형", x: ["boat", "votes"], why: "배는 B로 시작하는 boat이고, 둘이니까 복수 -s를 붙여요. V로 쓰면 vote(투표)예요." },
-    { t: "type", p: "매우 가벼운", a: ["very light"], hint: "very · light — V와 L로 시작해요", x: ["berry"], why: "very는 V(윗니+아랫입술), light는 L(혀끝을 잇몸에)로 시작해요." }
+    { t: "type", p: "ಮೂರು ಮರಗಳು", a: ["three trees"], hint: "three · tree — ಮೂರು ಇದ್ದರೆ ಬಹುವಚನ", x: ["tree"], why: "three ಪದದ ಮೊದಲಿಗೆ TH, tree ಪದದ ಮೊದಲಿಗೆ TR; ಮೂರು ಇವೆ, ಹಾಗಾಗಿ ಬಹುವಚನ -s." },
+    { t: "type", p: "ಎರಡು ದೋಣಿಗಳು", a: ["two boats"], hint: "two · boat — ಎರಡು ಇದ್ದರೆ ಬಹುವಚನ", x: ["boat", "votes"], why: "ದೋಣಿ = B ಅಕ್ಷರದಿಂದ ಶುರುವಾಗುವ boat; ಎರಡು ಇವೆ, ಹಾಗಾಗಿ ಬಹುವಚನ -s. V ಬರೆದರೆ ಅದು vote (ಮತ)." },
+    { t: "type", p: "ತುಂಬಾ ಹಗುರ", a: ["very light"], hint: "very · light — ಮೊದಲ ಅಕ್ಷರಗಳು V ಮತ್ತು L", x: ["berry"], why: "very ಪದದ ಮೊದಲಿಗೆ V (ಮೇಲಿನ ಹಲ್ಲು ಕೆಳತುಟಿಗೆ), light ಪದದ ಮೊದಲಿಗೆ L (ನಾಲಿಗೆಯ ತುದಿ ವಸಡಿಗೆ)." }
   ],
 
   articles: [
-    { t: "mc", q: "'저는 학생이에요' =", o: ["I'm a student.", "I'm student.", "I'm an student.", "I'm the student."], why: "직업·신분 앞에는 관사 a를 꼭 붙여요." },
-    { t: "mc", q: "'아이디어가 하나 있어요' =", o: ["I have an idea.", "I have a idea.", "I have idea.", "I have ideas."], why: "idea는 모음 소리로 시작해서 관사 an을 써요." },
-    { t: "mc", q: "'한 시간'을 영어로 하면?", o: ["an hour", "a hour", "one hours", "hour"], why: "hour의 h는 소리가 나지 않아요. 모음 소리로 시작하니 관사 an이에요." },
-    { t: "mc", q: "'저는 개를 정말 좋아해요' (개라는 동물 전체)", o: ["I love dogs.", "I love a dog.", "I love the dog.", "I love dog."], why: "일반적인 대상은 관사 없이 복수형으로 말해요." },
-    { t: "mc", q: "'개를 한 마리 키워요. 그 개는 정말 귀여워요' =", o: ["I have a dog. The dog is so cute.", "I have the dog. A dog is so cute.", "I have dog. The dog is so cute.", "I have a dog. A dog is so cute."], why: "처음 말할 땐 관사 a, 이미 말한 것을 다시 말할 땐 the예요." },
+    { t: "mc", q: "\"ನಾನು ವಿದ್ಯಾರ್ಥಿ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["I'm a student.", "I'm student.", "I'm an student.", "I'm the student."], why: "ವೃತ್ತಿ ಅಥವಾ ಸ್ಥಾನದ ಹೆಸರಿನ ಮೊದಲು ಆರ್ಟಿಕಲ್ a ಬೇಕೇ ಬೇಕು. ಕನ್ನಡದಲ್ಲಿ ಅಲ್ಲಿ ಏನೂ ಇಲ್ಲ, ಹಾಗಾಗಿ ಅದು ಬಿಟ್ಟುಹೋಗುತ್ತದೆ." },
+    { t: "mc", q: "\"ನನ್ನ ಹತ್ತಿರ ಒಂದು ಐಡಿಯಾ ಇದೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["I have an idea.", "I have a idea.", "I have idea.", "I have ideas."], why: "idea ಸ್ವರ ಧ್ವನಿಯಿಂದ ಶುರುವಾಗುತ್ತದೆ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ an." },
+    { t: "mc", q: "\"ಒಂದು ಗಂಟೆ\" (ಅವಧಿ) ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["an hour", "a hour", "one hours", "hour"], why: "hour ಪದದ h ಹೇಳುವುದಿಲ್ಲ. ಪದ ಸ್ವರ ಧ್ವನಿಯಿಂದ ಶುರುವಾಗುತ್ತದೆ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ an." },
+    { t: "mc", q: "\"ನನಗೆ ನಾಯಿಗಳೆಂದರೆ ತುಂಬಾ ಇಷ್ಟ\" (ನಾಯಿ ಎಂಬ ಪ್ರಾಣಿ, ಒಟ್ಟಾಗಿ)", o: ["I love dogs.", "I love a dog.", "I love the dog.", "I love dog."], why: "ಒಂದು ಬಗೆಯನ್ನು ಒಟ್ಟಾಗಿ ಹೇಳುವಾಗ ಆರ್ಟಿಕಲ್ ಇಲ್ಲದ ಬಹುವಚನ." },
+    { t: "mc", q: "\"ನನ್ನ ಹತ್ತಿರ ಒಂದು ನಾಯಿ ಇದೆ. ಆ ನಾಯಿ ತುಂಬಾ ಮುದ್ದಾಗಿದೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["I have a dog. The dog is so cute.", "I have the dog. A dog is so cute.", "I have dog. The dog is so cute.", "I have a dog. A dog is so cute."], why: "ಮೊದಲ ಸಲ ಹೇಳುವಾಗ ಆರ್ಟಿಕಲ್ a; ಅದನ್ನೇ ಮತ್ತೆ ಹೇಳುವಾಗ the." },
 
-    { t: "order", p: "저는 선생님이에요", a: ["I'm", "a", "teacher"], x: ["the", "an"], why: "직업 앞에는 관사 a를 붙여요. teacher는 자음 소리라 an이 아니에요." },
-    { t: "order", p: "(이 방의) 문 좀 닫아 줄래요?", a: ["Can", "you", "close", "the", "door"], x: ["a"], why: "둘 다 아는 바로 그 문이라 관사 the예요." },
-    { t: "order", p: "저는 커피를 안 마셔요", a: ["I", "don't", "drink", "coffee"], x: ["a", "the"], why: "커피를 일반적으로 말할 땐 관사를 쓰지 않아요." },
+    { t: "order", p: "ನಾನು ಶಿಕ್ಷಕ", a: ["I'm", "a", "teacher"], x: ["the", "an"], why: "ವೃತ್ತಿಯ ಹೆಸರಿನ ಮೊದಲು ಆರ್ಟಿಕಲ್ a ಬೇಕು. teacher ವ್ಯಂಜನ ಧ್ವನಿಯಿಂದ ಶುರುವಾಗುತ್ತದೆ, ಹಾಗಾಗಿ an ಅಲ್ಲ." },
+    { t: "order", p: "(ಈ ಕೋಣೆಯ) ಬಾಗಿಲು ಮುಚ್ಚುತ್ತೀಯಾ?", a: ["Can", "you", "close", "the", "door"], x: ["a"], why: "ಯಾವ ಬಾಗಿಲು ಎಂದು ಇಬ್ಬರಿಗೂ ಗೊತ್ತು, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ the." },
+    { t: "order", p: "ನಾನು ಕಾಫಿ ಕುಡಿಯುವುದಿಲ್ಲ", a: ["I", "don't", "drink", "coffee"], x: ["a", "the"], why: "ಕಾಫಿಯನ್ನು ಸಾಮಾನ್ಯವಾಗಿ ಹೇಳುವಾಗ ಆರ್ಟಿಕಲ್ ಬರುವುದಿಲ್ಲ." },
 
-    { t: "fill", q: "I'm __ university student.", p: "저는 대학생이에요", a: ["a"], o: ["an", "the", "two"], why: "university는 '유' 소리로 시작해서 관사 a예요. 철자가 아니라 소리로 정해요." },
-    { t: "fill", q: "I have __ older sister.", p: "언니가 한 명 있어요", a: ["an"], o: ["a", "the", "two"], why: "older는 모음 소리로 시작해서 관사 an이에요." },
-    { t: "fill", q: "I don't like __.", p: "저는 고양이를 안 좋아해요 (고양이라는 동물 전체)", a: ["cats"], o: ["cat", "a cat", "the cat"], why: "일반적인 대상은 관사 없이 복수형 cats로 말해요." },
+    { t: "fill", q: "I'm __ university student.", p: "ನಾನು ಯೂನಿವರ್ಸಿಟಿ ವಿದ್ಯಾರ್ಥಿ", a: ["a"], o: ["an", "the", "two"], why: "university \"ಯೂ\" ಧ್ವನಿಯಿಂದ ಶುರುವಾಗುತ್ತದೆ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a. ನೋಡಬೇಕಾದದ್ದು ಸ್ಪೆಲ್ಲಿಂಗ್ ಅಲ್ಲ, ಧ್ವನಿ." },
+    { t: "fill", q: "I have __ older sister.", p: "ನನಗೆ ಒಬ್ಬಳು ಅಕ್ಕ ಇದ್ದಾಳೆ", a: ["an"], o: ["a", "the", "two"], why: "older ಸ್ವರ ಧ್ವನಿಯಿಂದ ಶುರುವಾಗುತ್ತದೆ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ an." },
+    { t: "fill", q: "I don't like __.", p: "ನನಗೆ ಬೆಕ್ಕುಗಳೆಂದರೆ ಇಷ್ಟ ಇಲ್ಲ (ಬೆಕ್ಕು ಎಂಬ ಪ್ರಾಣಿ, ಒಟ್ಟಾಗಿ)", a: ["cats"], o: ["cat", "a cat", "the cat"], why: "ಒಂದು ಬಗೆಯನ್ನು ಒಟ್ಟಾಗಿ ಹೇಳುವಾಗ ಆರ್ಟಿಕಲ್ ಇಲ್ಲದ ಬಹುವಚನ: cats." },
 
-    { t: "type", p: "아이디어가 하나 있어요", a: ["I have an idea", "I've got an idea", "I have got an idea"], hint: "have · idea — 모음 소리 앞 관사", x: ["a"], why: "idea는 모음 소리로 시작해서 관사 an을 써요." },
-    { t: "type", p: "저는 개를 좋아해요 (개라는 동물 전체)", a: ["I like dogs", "I love dogs"], hint: "like · dog — 전체를 말할 땐 복수형", x: ["dog", "a"], why: "일반적인 대상은 관사 없이 복수형 dogs로 말해요." },
-    { t: "type", p: "(같이) 점심 먹어요", a: ["Let's have lunch", "Let's eat lunch", "Let's get lunch"], hint: "let's · have · lunch — 식사 이름 앞 관사", x: ["a", "the"], why: "식사 이름 앞에는 관사를 쓰지 않아요." }
+    { t: "type", p: "ನನ್ನ ಹತ್ತಿರ ಒಂದು ಐಡಿಯಾ ಇದೆ", a: ["I have an idea", "I've got an idea", "I have got an idea"], hint: "have · idea — ಸ್ವರ ಧ್ವನಿಯ ಮೊದಲು ಬರುವ ಆರ್ಟಿಕಲ್", x: ["a"], why: "idea ಸ್ವರ ಧ್ವನಿಯಿಂದ ಶುರುವಾಗುತ್ತದೆ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ an." },
+    { t: "type", p: "ನನಗೆ ನಾಯಿಗಳೆಂದರೆ ಇಷ್ಟ (ನಾಯಿ ಎಂಬ ಪ್ರಾಣಿ, ಒಟ್ಟಾಗಿ)", a: ["I like dogs", "I love dogs"], hint: "like · dog — ಒಟ್ಟಾಗಿ ಹೇಳುವಾಗ ಬಹುವಚನ", x: ["dog", "a"], why: "ಒಂದು ಬಗೆಯನ್ನು ಒಟ್ಟಾಗಿ ಹೇಳುವಾಗ ಆರ್ಟಿಕಲ್ ಇಲ್ಲದ ಬಹುವಚನ: dogs." },
+    { t: "type", p: "(ಒಟ್ಟಿಗೆ) ಮಧ್ಯಾಹ್ನದ ಊಟ ಮಾಡೋಣ", a: ["Let's have lunch", "Let's eat lunch", "Let's get lunch"], hint: "let's · have · lunch — ಊಟದ ಹೆಸರಿನ ಮೊದಲು ಆರ್ಟಿಕಲ್ ಬೇಕೇ?", x: ["a", "the"], why: "ಊಟದ ಹೆಸರಿನ ಮೊದಲು ಆರ್ಟಿಕಲ್ ಬರುವುದಿಲ್ಲ." }
   ],
 
   be: [
-    { t: "mc", q: "'저는 피곤해요' =", o: ["I'm tired.", "I tired.", "I do tired.", "I am tire."], why: "상태를 말할 땐 be동사가 꼭 필요해요." },
-    { t: "mc", q: "'그는 영어를 해요?' =", o: ["Does he speak English?", "Do he speak English?", "Is he speak English?", "Does he speaks English?"], why: "he에는 does를 쓰고, does 뒤 동사는 -s 없는 원형이에요." },
-    { t: "mc", q: "'그녀는 회사에 있어요' =", o: ["She's at work.", "She at work.", "She does at work.", "She are at work."], why: "위치를 말할 땐 be동사, she에는 is예요." },
-    { t: "mc", q: "Do you like coffee?에 '네'라고 대답할 때", o: ["Yes, I do.", "Yes, I am.", "Yes, I like.", "Yes, I does."], why: "do로 물었으니 do로 대답해요." },
-    { t: "mc", q: "'그녀는 고기를 안 먹어요' =", o: ["She doesn't eat meat.", "She don't eat meat.", "She isn't eat meat.", "She doesn't eats meat."], why: "she의 부정은 doesn't + -s 없는 동사원형이에요." },
+    { t: "mc", q: "\"ನನಗೆ ಸುಸ್ತಾಗಿದೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["I'm tired.", "I tired.", "I do tired.", "I am tire."], why: "ಹೇಗಿದ್ದೇನೆ ಎಂದು ಹೇಳುವಾಗ be ಬೇಕೇ ಬೇಕು. ಕನ್ನಡದಲ್ಲಿ ಮಾಡುವ ಹಾಗೆ ಕ್ರಿಯಾಪದ ಬಿಡುವ ಹಾಗಿಲ್ಲ." },
+    { t: "mc", q: "\"ಅವನು ಇಂಗ್ಲಿಷ್ ಮಾತನಾಡುತ್ತಾನೆಯೇ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["Does he speak English?", "Do he speak English?", "Is he speak English?", "Does he speaks English?"], why: "he ಜೊತೆ does; does ನಂತರ ಕ್ರಿಯಾಪದ -s ಇಲ್ಲದ V1 ರೂಪದಲ್ಲಿ ಇರುತ್ತದೆ." },
+    { t: "mc", q: "\"ಅವಳು ಆಫೀಸ್‌ನಲ್ಲಿ ಇದ್ದಾಳೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["She's at work.", "She at work.", "She does at work.", "She are at work."], why: "ಎಲ್ಲಿದ್ದಾಳೆ ಎಂದು ಹೇಳುವಾಗ be; she ಜೊತೆ is." },
+    { t: "mc", q: "Do you like coffee? ಪ್ರಶ್ನೆಗೆ \"ಹೌದು\" ಎಂಬ ಉತ್ತರ ಯಾವುದು?", o: ["Yes, I do.", "Yes, I am.", "Yes, I like.", "Yes, I does."], why: "do ಬಳಸಿ ಕೇಳಿದ ಪ್ರಶ್ನೆಗೆ do ಬಳಸಿಯೇ ಉತ್ತರ." },
+    { t: "mc", q: "\"ಅವಳು ಮಾಂಸ ತಿನ್ನುವುದಿಲ್ಲ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["She doesn't eat meat.", "She don't eat meat.", "She isn't eat meat.", "She doesn't eats meat."], why: "she ಜೊತೆ ನಿಷೇಧಕ್ಕೆ doesn't + -s ಇಲ್ಲದ V1 ರೂಪ." },
 
-    { t: "order", p: "우리 형은 서울에서 일해요", a: ["My", "brother", "works", "in", "Seoul"], x: ["work", "is"], why: "주어가 한 사람(he)이라 works처럼 -s를 붙이고, be동사는 쓰지 않아요." },
-    { t: "order", p: "저는 학생이 아니에요", a: ["I'm", "not", "a", "student"], x: ["don't", "the"], why: "be동사 부정은 not이고, 신분 앞에는 관사 a를 붙여요." },
-    { t: "order", p: "그녀는 개를 두 마리 키워요", a: ["She", "has", "two", "dogs"], x: ["have", "dog"], why: "she 뒤에는 has, 두 마리니까 dogs처럼 복수 -s를 붙여요." },
+    { t: "order", p: "ನನ್ನ ಅಣ್ಣ ಸಿಯೋಲ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಾನೆ", a: ["My", "brother", "works", "in", "Seoul"], x: ["work", "is"], why: "ಕರ್ತೃ ಒಬ್ಬ ವ್ಯಕ್ತಿ (he), ಹಾಗಾಗಿ ಕ್ರಿಯಾಪದಕ್ಕೆ -s ಸೇರಿ works. ಇಲ್ಲಿ be ಬರುವುದಿಲ್ಲ." },
+    { t: "order", p: "ನಾನು ವಿದ್ಯಾರ್ಥಿ ಅಲ್ಲ", a: ["I'm", "not", "a", "student"], x: ["don't", "the"], why: "be ಜೊತೆ ನಿಷೇಧಕ್ಕೆ not; ಸ್ಥಾನದ ಹೆಸರಿನ ಮೊದಲು ಆರ್ಟಿಕಲ್ a." },
+    { t: "order", p: "ಅವಳ ಹತ್ತಿರ ಎರಡು ನಾಯಿಗಳಿವೆ", a: ["She", "has", "two", "dogs"], x: ["have", "dog"], why: "she ಜೊತೆ has; ಎರಡು ಇವೆ, ಹಾಗಾಗಿ ಬಹುವಚನ -s ಸೇರಿ dogs." },
 
-    { t: "fill", q: "My brother __ in Seoul.", p: "우리 형은 서울에 살아요", a: ["lives"], o: ["live", "is live", "living"], why: "주어가 he라서 동사에 -s를 붙여요: lives." },
-    { t: "fill", q: "__ you tired?", p: "피곤해요?", a: ["Are"], o: ["Do", "Is", "Does"], why: "tired는 상태라 be동사로 물어요. you에는 are예요." },
-    { t: "fill", q: "We __ hungry.", p: "우리는 배고파요", a: ["are"], o: ["is", "am", "do"], why: "hungry는 상태라 be동사, we에는 are예요." },
+    { t: "fill", q: "My brother __ in Seoul.", p: "ನನ್ನ ಅಣ್ಣ ಸಿಯೋಲ್‌ನಲ್ಲಿ ವಾಸವಾಗಿದ್ದಾನೆ", a: ["lives"], o: ["live", "is live", "living"], why: "ಕರ್ತೃ he, ಹಾಗಾಗಿ ಕ್ರಿಯಾಪದಕ್ಕೆ -s ಸೇರುತ್ತದೆ: lives." },
+    { t: "fill", q: "__ you tired?", p: "ನಿನಗೆ ಸುಸ್ತಾಗಿದೆಯಾ?", a: ["Are"], o: ["Do", "Is", "Does"], why: "tired ಒಂದು ಸ್ಥಿತಿ, ಹಾಗಾಗಿ be ಬಳಸಿ ಕೇಳಬೇಕು; you ಜೊತೆ are." },
+    { t: "fill", q: "We __ hungry.", p: "ನಮಗೆ ಹಸಿವಾಗಿದೆ", a: ["are"], o: ["is", "am", "do"], why: "hungry ಒಂದು ಸ್ಥಿತಿ, ಹಾಗಾಗಿ be; we ಜೊತೆ are." },
 
-    { t: "type", p: "그는 선생님이에요", a: ["He's a teacher", "He is a teacher"], hint: "teacher — be동사 + 직업 앞 관사", x: ["the"], why: "정체를 말하니 be동사, 직업 앞에는 관사 a를 붙여요." },
-    { t: "type", p: "저는 커피를 안 좋아해요", a: ["I don't like coffee", "I do not like coffee"], hint: "don't · like · coffee — 일반동사 부정", x: ["am"], why: "like는 일반동사라 부정은 don't예요 (I'm not like X)." },
-    { t: "type", p: "그녀는 고양이를 한 마리 키워요?", a: ["Does she have a cat"], hint: "does · have · cat — 한 마리 앞 관사", x: ["has"], why: "does를 쓰면 동사는 원형 have, 한 마리니까 관사 a를 붙여요." }
+    { t: "type", p: "ಅವನು ಶಿಕ್ಷಕ", a: ["He's a teacher", "He is a teacher"], hint: "teacher — be + ವೃತ್ತಿಯ ಹೆಸರಿನ ಮೊದಲು ಆರ್ಟಿಕಲ್", x: ["the"], why: "ಯಾರು ಎಂದು ಹೇಳುವಾಗ be; ವೃತ್ತಿಯ ಹೆಸರಿನ ಮೊದಲು ಆರ್ಟಿಕಲ್ a." },
+    { t: "type", p: "ನನಗೆ ಕಾಫಿ ಇಷ್ಟ ಇಲ್ಲ", a: ["I don't like coffee", "I do not like coffee"], hint: "don't · like · coffee — like ಜೊತೆ ನಿಷೇಧ", x: ["am"], why: "like ಜೊತೆ ನಿಷೇಧಕ್ಕೆ don't (I'm not like ✗)." },
+    { t: "type", p: "ಅವಳ ಹತ್ತಿರ ಒಂದು ಬೆಕ್ಕು ಇದೆಯೇ?", a: ["Does she have a cat"], hint: "does · have · cat — ಒಂದು ಬೆಕ್ಕು: ಯಾವ ಆರ್ಟಿಕಲ್?", x: ["has"], why: "does ಬಂದರೆ ಕ್ರಿಯಾಪದ V1 ರೂಪದಲ್ಲಿ: have. ಬೆಕ್ಕು ಒಂದೇ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a." }
   ],
 
   polite: [
-    { t: "mc", q: "카페에서 라테 한 잔을 주문할 때 가장 자연스러운 말은?", o: ["Can I get a latte, please?", "Give me latte.", "I want latte.", "Latte, give me."], why: "가게에서는 Can I get ~?이 자연스러워요. 한 잔이니 관사 a도 붙여요." },
-    { t: "mc", q: "처음 보는 사람에게 도움을 청할 때 가장 공손한 말은?", o: ["Could you help me?", "Help me.", "You help me.", "I want help."], why: "Could you ~?는 처음 보는 사람에게 쓰는 공손한 부탁이에요." },
-    { t: "mc", q: "상대의 말을 못 알아들었을 때 공손하게 다시 묻는 말은?", o: ["Could you say that again?", "Say again.", "What you say?", "Again say, please."], why: "Could you say that again?이 정중하게 다시 묻는 표현이에요." },
-    { t: "mc", q: "아주 공손하게 '저희 사진 좀 찍어 주실래요?'", o: ["Would you mind taking a picture of us?", "Would you mind take a picture of us?", "Would you mind to take a picture of us?", "Would you mind took a picture of us?"], why: "mind 뒤에는 ~ing가 와요: taking." },
-    { t: "mc", q: "비행기에서 '창가 자리로 주세요'", o: ["I'd like a window seat.", "I'd like window seat.", "I like a window seat.", "I'd like the window seats."], why: "I'd like ~가 정중한 요청이에요. 자리 하나니까 관사 a를 붙여요." },
+    { t: "mc", q: "ಕೆಫೆಯಲ್ಲಿ ಒಂದು ಲಾಟೆ ಆರ್ಡರ್ ಮಾಡುವಾಗ ಅತ್ಯಂತ ಸಹಜವಾದ ಮಾತು ಯಾವುದು?", o: ["Can I get a latte, please?", "Give me latte.", "I want latte.", "Latte, give me."], why: "ಅಂಗಡಿ, ಕೆಫೆಯಲ್ಲಿ Can I get ~? ಸಹಜ. ಲಾಟೆ ಒಂದೇ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a ಕೂಡ ಬೇಕು." },
+    { t: "mc", q: "ಅಪರಿಚಿತರ ಹತ್ತಿರ ಸಹಾಯ ಕೇಳುವಾಗ ಅತ್ಯಂತ ವಿನಯದ ಮಾತು ಯಾವುದು?", o: ["Could you help me?", "Help me.", "You help me.", "I want help."], why: "Could you ~? ಎಂಬುದು ಅಪರಿಚಿತರನ್ನು ಕೇಳುವಾಗ ಬಳಸುವ ವಿನಯದ ರೂಪ." },
+    { t: "mc", q: "ಎದುರಿನವರ ಮಾತು ಅರ್ಥವಾಗದಿದ್ದಾಗ ವಿನಯದಿಂದ ಮತ್ತೆ ಕೇಳುವ ಮಾತು ಯಾವುದು?", o: ["Could you say that again?", "Say again.", "What you say?", "Again say, please."], why: "Could you say that again? ಎಂಬುದು ವಿನಯದಿಂದ ಮತ್ತೆ ಕೇಳುವ ರೀತಿ." },
+    { t: "mc", q: "ತುಂಬಾ ವಿನಯದಿಂದ: \"ನಮ್ಮದೊಂದು ಫೋಟೋ ತೆಗೆದುಕೊಡುತ್ತೀರಾ?\"", o: ["Would you mind taking a picture of us?", "Would you mind take a picture of us?", "Would you mind to take a picture of us?", "Would you mind took a picture of us?"], why: "mind ನಂತರ -ing ರೂಪ ಬರುತ್ತದೆ: taking." },
+    { t: "mc", q: "ವಿಮಾನದಲ್ಲಿ: \"ನನಗೆ ಕಿಟಕಿ ಪಕ್ಕದ ಸೀಟ್ ಬೇಕು\"", o: ["I'd like a window seat.", "I'd like window seat.", "I like a window seat.", "I'd like the window seats."], why: "I'd like ~ ವಿನಯದ ಕೋರಿಕೆ. ಸೀಟ್ ಒಂದೇ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a." },
 
-    { t: "order", p: "라테 한 잔 주시겠어요?", a: ["Can", "I", "get", "a", "latte"], x: ["the", "give"], why: "처음 주문하는 한 잔이니 관사 a예요." },
-    { t: "order", p: "(이 방의) 창문 좀 열어 주셔도 될까요?", a: ["Would", "you", "mind", "opening", "the", "window"], x: ["open", "a"], why: "mind 뒤에는 ~ing, 둘 다 아는 그 창문이라 관사 the예요." },
-    { t: "order", p: "좀 더 천천히 말해 주시겠어요?", a: ["Could", "you", "speak", "more", "slowly"], x: ["slow"], why: "Could you ~?로 공손하게 부탁해요." },
+    { t: "order", p: "ಒಂದು ಲಾಟೆ ಕೊಡುತ್ತೀರಾ?", a: ["Can", "I", "get", "a", "latte"], x: ["the", "give"], why: "ಮೊದಲ ಸಲ ಆರ್ಡರ್ ಮಾಡುತ್ತಿರುವ ಒಂದು ಲಾಟೆ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a." },
+    { t: "order", p: "(ಈ ಕೋಣೆಯ) ಕಿಟಕಿ ತೆರೆಯುತ್ತೀರಾ? (ತುಂಬಾ ವಿನಯದಿಂದ)", a: ["Would", "you", "mind", "opening", "the", "window"], x: ["open", "a"], why: "mind ನಂತರ -ing ರೂಪ; ಯಾವ ಕಿಟಕಿ ಎಂದು ಇಬ್ಬರಿಗೂ ಗೊತ್ತು, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ the." },
+    { t: "order", p: "ಸ್ವಲ್ಪ ನಿಧಾನವಾಗಿ ಮಾತನಾಡುತ್ತೀರಾ?", a: ["Could", "you", "speak", "more", "slowly"], x: ["slow"], why: "Could you ~? ಬಳಸಿ ವಿನಯದಿಂದ ಕೇಳಿ." },
 
-    { t: "fill", q: "Would you mind __ the door?", p: "문 좀 닫아 주셔도 될까요?", a: ["closing"], o: ["close", "to close", "closed"], why: "mind 뒤에는 ~ing가 와요." },
-    { t: "fill", q: "Can I get __ iced coffee?", p: "아이스커피 한 잔 주시겠어요?", a: ["an"], o: ["a", "two", "many"], why: "iced는 모음 소리('아')로 시작해서 관사 an이에요." },
-    { t: "fill", q: "No, not at __.", p: "(Would you mind ~?에 대한 대답) 네, 그럼요", a: ["all"], o: ["any", "one", "ever"], why: "No, not at all은 '전혀 안 꺼려요', 즉 '네, 해 드릴게요'라는 뜻이에요." },
+    { t: "fill", q: "Would you mind __ the door?", p: "ಬಾಗಿಲು ಮುಚ್ಚುತ್ತೀರಾ? (ನಿಮಗೆ ತೊಂದರೆ ಇಲ್ಲದಿದ್ದರೆ)", a: ["closing"], o: ["close", "to close", "closed"], why: "mind ನಂತರ -ing ರೂಪ ಬರುತ್ತದೆ." },
+    { t: "fill", q: "Can I get __ iced coffee?", p: "ಒಂದು ಐಸ್ಡ್ ಕಾಫಿ ಕೊಡುತ್ತೀರಾ?", a: ["an"], o: ["a", "two", "many"], why: "iced ಸ್ವರ ಧ್ವನಿಯಿಂದ (ಐ) ಶುರುವಾಗುತ್ತದೆ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ an." },
+    { t: "fill", q: "No, not at __.", p: "(Would you mind ~? ಪ್ರಶ್ನೆಗೆ ಉತ್ತರ) ಖಂಡಿತ, ಏನೂ ತೊಂದರೆ ಇಲ್ಲ", a: ["all"], o: ["any", "one", "ever"], why: "No, not at all = \"ಏನೂ ತೊಂದರೆ ಇಲ್ಲ\", ಅಂದರೆ \"ಆಗಲಿ, ಮಾಡುತ್ತೇನೆ\"." },
 
-    { t: "type", p: "좀 도와주시겠어요? (공손하게)", a: ["Could you help me", "Could you help me please", "Could you please help me", "Would you help me", "Would you help me please", "Would you mind helping me"], hint: "could · help — 공손한 부탁", x: ["can"], why: "처음 보는 사람에게는 Could you ~?로 부탁해요." },
-    { t: "type", p: "창가 자리로 주세요", a: pl(["I'd like a window seat", "I would like a window seat", "Can I get a window seat", "Could I get a window seat", "Can I have a window seat", "Could I have a window seat"]), hint: "I'd like · window seat — 자리 하나 앞 관사", x: ["the"], why: "자리 하나를 처음 말하니 관사 a를 붙여요: a window seat." },
-    { t: "type", p: "커피 두 잔 주세요", a: pl(["Can I get two coffees", "Could I get two coffees", "Can I have two coffees", "Could I have two coffees", "I'd like two coffees", "I would like two coffees", "Two coffees"]), hint: "two · coffee — 두 잔이면 복수형", x: ["coffee"], why: "주문할 땐 커피를 잔 단위로 세서 two coffees처럼 복수 -s를 붙여요." }
+    { t: "type", p: "(Could you ಬಳಸಿ, ವಿನಯದಿಂದ) ನನಗೆ ಸ್ವಲ್ಪ ಸಹಾಯ ಮಾಡುತ್ತೀರಾ?", a: ["Could you help me", "Could you help me please", "Could you please help me", "Would you help me", "Would you help me please", "Would you mind helping me"], hint: "could · help — ವಿನಯದ ಕೋರಿಕೆ", x: ["can"], why: "ಅಪರಿಚಿತರನ್ನು ಕೇಳುವಾಗ Could you ~? ಬಳಸಿ." },
+    { t: "type", p: "(I'd like ಬಳಸಿ) ನನಗೆ ಕಿಟಕಿ ಪಕ್ಕದ ಸೀಟ್ ಬೇಕು", a: pl(["I'd like a window seat", "I would like a window seat", "Can I get a window seat", "Could I get a window seat", "Can I have a window seat", "Could I have a window seat"]), hint: "I'd like · window seat — ಒಂದು ಸೀಟ್: ಯಾವ ಆರ್ಟಿಕಲ್?", x: ["the"], why: "ಒಂದು ಸೀಟ್ ಅನ್ನು ಮೊದಲ ಸಲ ಹೇಳುತ್ತಿದ್ದೀರಿ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a: a window seat." },
+    { t: "type", p: "(ಕೆಫೆಯಲ್ಲಿ, Can I get ಬಳಸಿ) ಎರಡು ಕಾಫಿ ಕೊಡುತ್ತೀರಾ?", a: pl(["Can I get two coffees", "Could I get two coffees", "Can I have two coffees", "Could I have two coffees", "I'd like two coffees", "I would like two coffees", "Two coffees"]), hint: "two · coffee — ಎರಡು ಇದ್ದರೆ ಬಹುವಚನ", x: ["coffee"], why: "ಆರ್ಡರ್ ಮಾಡುವಾಗ ಕಾಫಿಯನ್ನು ಕಪ್ ಲೆಕ್ಕದಲ್ಲಿ ಹೇಳುತ್ತಾರೆ, ಹಾಗಾಗಿ ಬಹುವಚನ -s ಸೇರಿ two coffees." }
   ],
 
   tense: [
-    { t: "mc", q: "'지금 커피 마시는 중이에요' =", o: ["I'm drinking coffee right now.", "I drink coffee right now.", "I drank coffee right now.", "I drinking coffee right now."], why: "지금 하는 중인 일은 be + ~ing예요." },
-    { t: "mc", q: "'지난 주말에 바닷가에 갔어요' =", o: ["I went to the beach last weekend.", "I go to the beach last weekend.", "I goed to the beach last weekend.", "I went to beach last weekend."], why: "go의 과거형은 went예요. 바닷가는 관사 the를 붙여 the beach라고 해요." },
-    { t: "mc", q: "다음 달 계획을 말할 때: '제주도에 갈 거예요'", o: ["I'm going to visit Jeju next month.", "I visit Jeju next month.", "I visited Jeju next month.", "I'm going visit Jeju next month."], why: "미리 세운 계획은 be going to + 동사원형이에요." },
-    { t: "mc", q: "초인종이 울려요. 그 자리에서: '내가 나갈게!'", o: ["I'll get the door!", "I'm going to get the door!", "I get the door!", "I getting the door!"], why: "말하는 순간 결정한 일은 will이에요." },
-    { t: "mc", q: "see의 과거형은?", o: ["saw", "seed", "seen", "sawed"], why: "see는 불규칙 동사예요: see - saw - seen." },
+    { t: "mc", q: "\"ಈಗ ಕಾಫಿ ಕುಡಿಯುತ್ತಿದ್ದೇನೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["I'm drinking coffee right now.", "I drink coffee right now.", "I drank coffee right now.", "I drinking coffee right now."], why: "ಈಗ ನಡೆಯುತ್ತಿರುವ ಕೆಲಸಕ್ಕೆ be + -ing." },
+    { t: "mc", q: "\"ಕಳೆದ ವಾರಾಂತ್ಯ ಬೀಚ್‌ಗೆ ಹೋಗಿದ್ದೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["I went to the beach last weekend.", "I go to the beach last weekend.", "I goed to the beach last weekend.", "I went to beach last weekend."], why: "go ಕ್ರಿಯಾಪದದ V2 ರೂಪ went. ಬೀಚ್ ಎನ್ನುವಾಗ ಆರ್ಟಿಕಲ್ the ಸೇರಿಸಿ the beach ಎನ್ನುತ್ತಾರೆ." },
+    { t: "mc", q: "ಮುಂದಿನ ತಿಂಗಳ ಪ್ಲಾನ್ ಹೇಳುವಾಗ: \"ಜೆಜು ದ್ವೀಪಕ್ಕೆ ಹೋಗಬೇಕೆಂದಿದ್ದೇನೆ\"", o: ["I'm going to visit Jeju next month.", "I visit Jeju next month.", "I visited Jeju next month.", "I'm going visit Jeju next month."], why: "ಮೊದಲೇ ಮಾಡಿಕೊಂಡ ಪ್ಲಾನ್‌ಗೆ be going to + V1." },
+    { t: "mc", q: "ಕಾಲಿಂಗ್ ಬೆಲ್ ಬಾರಿಸುತ್ತಿದೆ. ಆ ಕ್ಷಣದಲ್ಲೇ: \"ನಾನು ಬಾಗಿಲು ತೆರೆಯುತ್ತೇನೆ!\"", o: ["I'll get the door!", "I'm going to get the door!", "I get the door!", "I getting the door!"], why: "ಮಾತನಾಡುವ ಕ್ಷಣದಲ್ಲೇ ಮಾಡಿದ ನಿರ್ಧಾರಕ್ಕೆ will." },
+    { t: "mc", q: "see ಕ್ರಿಯಾಪದದ V2 (Simple Past ರೂಪ) ಯಾವುದು?", o: ["saw", "seed", "seen", "sawed"], why: "see ಅನಿಯಮಿತ ಕ್ರಿಯಾಪದ: see - saw - seen." },
 
-    { t: "order", p: "저는 은행에서 일해요 (늘)", a: ["I", "work", "at", "a", "bank"], x: ["the", "working"], why: "늘 하는 일은 현재형, 은행 하나를 처음 말하니 관사 a예요." },
-    { t: "order", p: "나중에 전화할게", a: ["I'll", "call", "you", "later"], x: ["calling"], why: "말하는 순간 정한 약속은 will이에요." },
-    { t: "order", p: "영화를 두 편 봤어요", a: ["I", "saw", "two", "movies"], x: ["movie", "see"], why: "see의 과거형은 saw, 두 편이니 movies처럼 복수 -s를 붙여요." },
+    { t: "order", p: "ನಾನು ಬ್ಯಾಂಕ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತೇನೆ (ಯಾವಾಗಲೂ)", a: ["I", "work", "at", "a", "bank"], x: ["the", "working"], why: "ಯಾವಾಗಲೂ ಮಾಡುವ ಕೆಲಸಕ್ಕೆ Simple Present; ಒಂದು ಬ್ಯಾಂಕ್ ಅನ್ನು ಮೊದಲ ಸಲ ಹೇಳುತ್ತಿದ್ದೀರಿ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a." },
+    { t: "order", p: "ಆಮೇಲೆ ಫೋನ್ ಮಾಡುತ್ತೇನೆ", a: ["I'll", "call", "you", "later"], x: ["calling"], why: "ಮಾತನಾಡುವ ಕ್ಷಣದಲ್ಲಿ ಕೊಡುವ ಮಾತಿಗೆ will." },
+    { t: "order", p: "ನಾನು ಎರಡು ಸಿನಿಮಾ ನೋಡಿದೆ", a: ["I", "saw", "two", "movies"], x: ["movie", "see"], why: "see ಕ್ರಿಯಾಪದದ V2 ರೂಪ saw; ಎರಡು ಸಿನಿಮಾ, ಹಾಗಾಗಿ ಬಹುವಚನ -s ಸೇರಿ movies. ಕನ್ನಡದಲ್ಲಿ \"ಎರಡು ಸಿನಿಮಾ\" ಎನ್ನಬಹುದು; ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ -s ಬೇಕೇ ಬೇಕು." },
 
-    { t: "fill", q: "I __ pizza last night.", p: "어젯밤에 피자를 먹었어요", a: ["ate", "had"], o: ["eat", "eated", "eating"], why: "eat의 과거형은 ate예요 (have라면 had)." },
-    { t: "fill", q: "__ you have fun?", p: "재밌었어요?", a: ["Did"], o: ["Does", "Are", "Were"], why: "지난 일을 물을 땐 Did + 동사원형이에요." },
-    { t: "fill", q: "I'm going __ visit my parents.", p: "부모님 댁에 갈 거예요", a: ["to"], o: ["for", "at", "on"], why: "계획은 be going to + 동사원형이에요." },
+    { t: "fill", q: "I __ pizza last night.", p: "ನಿನ್ನೆ ರಾತ್ರಿ ಪಿಜ್ಜಾ ತಿಂದೆ", a: ["ate", "had"], o: ["eat", "eated", "eating"], why: "eat ಕ್ರಿಯಾಪದದ V2 ರೂಪ ate (have ಬಳಸಿದರೆ had)." },
+    { t: "fill", q: "__ you have fun?", p: "ಮಜಾ ಮಾಡಿದೆಯಾ?", a: ["Did"], o: ["Does", "Are", "Were"], why: "ಮುಗಿದುಹೋದ ಸಂಗತಿಯ ಬಗ್ಗೆ ಕೇಳುವಾಗ Did + V1." },
+    { t: "fill", q: "I'm going __ visit my parents.", p: "ನಾನು ಅಪ್ಪ ಅಮ್ಮನ ಮನೆಗೆ ಹೋಗಬೇಕೆಂದಿದ್ದೇನೆ", a: ["to"], o: ["for", "at", "on"], why: "ಪ್ಲಾನ್ ಹೇಳಲು be going to + V1." },
 
-    { t: "type", p: "오늘은 재택근무 중이에요", a: ["I'm working from home today", "I am working from home today", "Today I'm working from home", "Today I am working from home"], hint: "work · from home · today — 지금 하는 중", x: ["work"], why: "오늘 하고 있는 일은 be + ~ing예요." },
-    { t: "type", p: "지난 주말에 바닷가에 갔어요", a: ["I went to the beach last weekend", "Last weekend I went to the beach"], hint: "go · beach · last weekend — 과거형과 관사", x: ["a"], why: "go의 과거형은 went, 바닷가는 관사 the를 붙여 the beach라고 해요." },
-    { t: "type", p: "요리 수업을 하나 들을 거예요 (계획)", a: ["I'm going to take a cooking class", "I am going to take a cooking class"], hint: "going to · take · cooking class — 수업 하나 앞 관사", x: ["the"], why: "미리 세운 계획은 going to, 수업 하나를 처음 말하니 관사 a예요." }
+    { t: "type", p: "ಇವತ್ತು ಮನೆಯಿಂದಲೇ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದೇನೆ", a: ["I'm working from home today", "I am working from home today", "Today I'm working from home", "Today I am working from home"], hint: "work · from home · today — ಈಗ ನಡೆಯುತ್ತಿರುವ ಕೆಲಸ", x: ["work"], why: "ಇವತ್ತು ನಡೆಯುತ್ತಿರುವ ಕೆಲಸಕ್ಕೆ be + -ing." },
+    { t: "type", p: "ಕಳೆದ ವಾರಾಂತ್ಯ ಬೀಚ್‌ಗೆ ಹೋಗಿದ್ದೆ", a: ["I went to the beach last weekend", "Last weekend I went to the beach"], hint: "go · beach · last weekend — V2 ರೂಪ ಮತ್ತು ಆರ್ಟಿಕಲ್", x: ["a"], why: "go ಕ್ರಿಯಾಪದದ V2 ರೂಪ went; ಬೀಚ್ ಎನ್ನುವಾಗ ಆರ್ಟಿಕಲ್ the ಸೇರಿಸಿ the beach ಎನ್ನುತ್ತಾರೆ." },
+    { t: "type", p: "ನಾನು ಒಂದು ಅಡುಗೆ ಕ್ಲಾಸ್‌ಗೆ ಸೇರಬೇಕೆಂದಿದ್ದೇನೆ (ಪ್ಲಾನ್)", a: ["I'm going to take a cooking class", "I am going to take a cooking class"], hint: "going to · take · cooking class — ಒಂದು ಕ್ಲಾಸ್: ಯಾವ ಆರ್ಟಿಕಲ್?", x: ["the"], why: "ಮೊದಲೇ ಮಾಡಿಕೊಂಡ ಪ್ಲಾನ್‌ಗೆ going to; ಒಂದು ಕ್ಲಾಸ್ ಅನ್ನು ಮೊದಲ ಸಲ ಹೇಳುತ್ತಿದ್ದೀರಿ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a." }
   ],
 
   prep: [
-    { t: "mc", q: "'5월에' =", o: ["in May", "on May", "at May", "to May"], why: "월 앞에는 in이에요." },
-    { t: "mc", q: "'5월 3일에' =", o: ["on May 3rd", "in May 3rd", "at May 3rd", "to May 3rd"], why: "날짜 앞에는 on이에요." },
-    { t: "mc", q: "'(지금) 버스 타고 있어요' =", o: ["I'm on the bus.", "I'm at the bus.", "I'm on bus.", "I'm to the bus."], why: "대중교통에는 on을 쓰고, 지금 탄 그 버스라 관사 the를 붙여요." },
-    { t: "mc", q: "'밤에' =", o: ["at night", "on night", "in night", "at the night"], why: "night는 예외로 관사 없이 at night예요." },
-    { t: "mc", q: "올바른 문장은?", o: ["I live in Seoul.", "I live at Seoul.", "I live on Seoul.", "I live in the Seoul."], why: "도시 앞에는 in, 도시 이름에는 관사 the를 붙이지 않아요." },
+    { t: "mc", q: "\"ಮೇ ತಿಂಗಳಲ್ಲಿ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["in May", "on May", "at May", "to May"], why: "ತಿಂಗಳ ಹೆಸರಿನ ಮೊದಲು in." },
+    { t: "mc", q: "\"ಮೇ 3 ರಂದು\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["on May 3rd", "in May 3rd", "at May 3rd", "to May 3rd"], why: "ತಾರೀಕಿನ ಮೊದಲು on." },
+    { t: "mc", q: "\"(ಈಗ) ನಾನು ಬಸ್‌ನಲ್ಲಿ ಇದ್ದೇನೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["I'm on the bus.", "I'm at the bus.", "I'm on bus.", "I'm to the bus."], why: "ಬಸ್, ರೈಲು ಇಂಥ ವಾಹನಗಳಿಗೆ on; ಈಗ ನೀವು ಇರುವ ಬಸ್, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ the ಕೂಡ ಬೇಕು." },
+    { t: "mc", q: "\"ರಾತ್ರಿ ಹೊತ್ತಿನಲ್ಲಿ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["at night", "on night", "in night", "at the night"], why: "night ಒಂದು ಅಪವಾದ: ಆರ್ಟಿಕಲ್ ಇಲ್ಲದೆ at night." },
+    { t: "mc", q: "ಯಾವ ವಾಕ್ಯ ಸರಿ?", o: ["I live in Seoul.", "I live at Seoul.", "I live on Seoul.", "I live in the Seoul."], why: "ಊರಿನ ಹೆಸರಿನ ಮೊದಲು in; ಊರಿನ ಹೆಸರಿಗೆ ಆರ್ಟಿಕಲ್ the ಸೇರುವುದಿಲ್ಲ." },
 
-    { t: "order", p: "(우리가 아는 그) 역에서 만나요", a: ["Let's", "meet", "at", "the", "station"], x: ["in", "a"], why: "한 지점은 at, 둘 다 아는 그 역이라 관사 the예요." },
-    { t: "order", p: "제 휴대폰은 (그) 테이블 위에 있어요", a: ["My", "phone", "is", "on", "the", "table"], x: ["in", "a"], why: "표면 위는 on, 눈앞의 그 테이블이라 관사 the예요." },
-    { t: "order", p: "다음 주에 봐요", a: ["See", "you", "next", "week"], x: ["on"], why: "next 앞에는 전치사를 쓰지 않아요." },
+    { t: "order", p: "(ನಮಗೆ ಗೊತ್ತಿರುವ ಆ) ಸ್ಟೇಷನ್‌ನಲ್ಲಿ ಸಿಗೋಣ", a: ["Let's", "meet", "at", "the", "station"], x: ["in", "a"], why: "ಒಂದು ಬಿಂದುವಿಗೆ at; ಯಾವ ಸ್ಟೇಷನ್ ಎಂದು ಇಬ್ಬರಿಗೂ ಗೊತ್ತು, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ the." },
+    { t: "order", p: "ನನ್ನ ಫೋನ್ (ಆ) ಟೇಬಲ್ ಮೇಲೆ ಇದೆ", a: ["My", "phone", "is", "on", "the", "table"], x: ["in", "a"], why: "ಮೇಲ್ಮೈ ಮೇಲೆ ಇದ್ದರೆ on; ಕಣ್ಣೆದುರಿಗೆ ಇರುವ ಟೇಬಲ್, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ the." },
+    { t: "order", p: "ಮುಂದಿನ ವಾರ ಸಿಗೋಣ", a: ["See", "you", "next", "week"], x: ["on"], why: "next ಮೊದಲು preposition ಬರುವುದಿಲ್ಲ." },
 
-    { t: "fill", q: "The meeting is __ three.", p: "회의는 3시예요", a: ["at"], o: ["on", "to", "of"], why: "정확한 시각 앞에는 at이에요." },
-    { t: "fill", q: "I was born __ 1998.", p: "1998년에 태어났어요", a: ["in"], o: ["on", "at", "to"], why: "연도 앞에는 in이에요." },
-    { t: "fill", q: "See you __ Friday.", p: "금요일에 봐요", a: ["on"], o: ["in", "at", "to"], why: "요일 앞에는 on이에요." },
+    { t: "fill", q: "The meeting is __ three.", p: "ಮೀಟಿಂಗ್ ಮೂರು ಗಂಟೆಗೆ ಇದೆ", a: ["at"], o: ["on", "to", "of"], why: "ನಿಖರ ಸಮಯದ ಮೊದಲು at." },
+    { t: "fill", q: "I was born __ 1998.", p: "ನಾನು ಹುಟ್ಟಿದ್ದು 1998 ರಲ್ಲಿ", a: ["in"], o: ["on", "at", "to"], why: "ವರ್ಷದ ಮೊದಲು in." },
+    { t: "fill", q: "See you __ Friday.", p: "ಶುಕ್ರವಾರ ಸಿಗೋಣ", a: ["on"], o: ["in", "at", "to"], why: "ವಾರದ ದಿನದ ಮೊದಲು on. ಕನ್ನಡದಲ್ಲಿ ಪ್ರತ್ಯಯ ಇಲ್ಲದಿದ್ದರೂ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ on ಬೇಕು." },
 
-    { t: "type", p: "저는 아침에 커피를 마셔요", a: ["I drink coffee in the morning", "In the morning I drink coffee", "I have coffee in the morning", "In the morning I have coffee"], hint: "coffee · morning — in + 관사", x: ["at"], why: "하루 중 때는 in이고, in the morning처럼 관사 the를 꼭 붙여요." },
-    { t: "type", p: "저 지금 집에 있어요", a: ["I'm at home", "I am at home", "I'm at home now", "I am at home now", "I'm home", "I am home", "I'm home now", "I am home now"], hint: "at · home — 관사 없이", x: ["the"], why: "at home은 관사 the 없이 써요." },
-    { t: "type", p: "다음 주말에 봐요", a: ["See you next weekend"], hint: "see · next weekend — next 앞 전치사?", x: ["on"], why: "next 앞에는 전치사를 쓰지 않아요." }
+    { t: "type", p: "ನಾನು ಬೆಳಿಗ್ಗೆ ಕಾಫಿ ಕುಡಿಯುತ್ತೇನೆ", a: ["I drink coffee in the morning", "In the morning I drink coffee", "I have coffee in the morning", "In the morning I have coffee"], hint: "coffee · morning — in + ಆರ್ಟಿಕಲ್", x: ["at"], why: "ದಿನದ ಭಾಗಕ್ಕೆ in; in the morning ಎನ್ನುವಾಗ ಆರ್ಟಿಕಲ್ the ಬೇಕೇ ಬೇಕು." },
+    { t: "type", p: "ನಾನು ಈಗ ಮನೆಯಲ್ಲಿ ಇದ್ದೇನೆ", a: ["I'm at home", "I am at home", "I'm at home now", "I am at home now", "I'm home", "I am home", "I'm home now", "I am home now"], hint: "at · home — ಆರ್ಟಿಕಲ್ ಇಲ್ಲದೆ", x: ["the"], why: "at home ಎನ್ನುವಾಗ ಆರ್ಟಿಕಲ್ the ಬರುವುದಿಲ್ಲ." },
+    { t: "type", p: "ಮುಂದಿನ ವಾರಾಂತ್ಯ ಸಿಗೋಣ", a: ["See you next weekend"], hint: "see · next weekend — next ಮೊದಲು preposition ಬೇಕೇ?", x: ["on"], why: "next ಮೊದಲು preposition ಬರುವುದಿಲ್ಲ." }
   ],
 
   smalltalk: [
-    { t: "mc", q: "동료가 How was your weekend?라고 물으면", o: ["It was great! I went hiking.", "It is great! I go hiking.", "It will be great!", "Yes, it was."], why: "지난 일을 물었으니 과거형으로, 정보 하나를 더해 대답해요." },
-    { t: "mc", q: "I don't drink coffee.에 '저도요 (저도 안 마셔요)'", o: ["Me neither.", "Me too.", "So do I.", "Me also."], why: "부정문에 맞장구칠 땐 Me neither예요." },
-    { t: "mc", q: "대화를 자연스럽게 끝낼 때", o: ["Well, I should get going.", "Okay, bye now go.", "I'm leaving you.", "Stop talking, please."], why: "I should get going은 부드럽게 자리를 뜨는 표현이에요." },
-    { t: "mc", q: "처음 만난 사람에게 꺼내기 좋은 말은?", o: ["Nice weather today, huh?", "How much do you make?", "Are you married?", "Did you gain weight?"], why: "날씨는 가장 안전한 스몰토크 주제예요." },
-    { t: "mc", q: "I went to Busan last weekend.에 관심을 보이는 맞장구는?", o: ["Oh, really? That sounds fun!", "Why?", "So what?", "Me neither."], why: "Oh, really?와 That sounds fun!으로 관심을 보여요." },
+    { t: "mc", q: "ಸಹೋದ್ಯೋಗಿ How was your weekend? ಎಂದು ಕೇಳಿದಾಗ ಯಾವ ಉತ್ತರ ಸರಿ?", o: ["It was great! I went hiking.", "It is great! I go hiking.", "It will be great!", "Yes, it was."], why: "ಮುಗಿದುಹೋದ ವಾರಾಂತ್ಯದ ಬಗ್ಗೆ ಕೇಳಿದ್ದಾರೆ, ಹಾಗಾಗಿ Simple Past; ಜೊತೆಗೆ ಇನ್ನೊಂದು ಮಾಹಿತಿ ಸೇರಿಸಿ." },
+    { t: "mc", q: "I don't drink coffee. ಎಂಬ ಮಾತಿಗೆ \"ನಾನೂ ಕುಡಿಯುವುದಿಲ್ಲ\" ಎನ್ನಲು", o: ["Me neither.", "Me too.", "So do I.", "Me also."], why: "ನಿಷೇಧ ವಾಕ್ಯಕ್ಕೆ ಒಪ್ಪಿಗೆ ಸೂಚಿಸಲು Me neither." },
+    { t: "mc", q: "ಮಾತುಕತೆಯನ್ನು ಸಹಜವಾಗಿ ಮುಗಿಸಲು ಯಾವುದು ಸರಿ?", o: ["Well, I should get going.", "Okay, bye now go.", "I'm leaving you.", "Stop talking, please."], why: "I should get going ಎಂಬುದು ಮೃದುವಾಗಿ ಹೊರಡುವ ಮಾತು." },
+    { t: "mc", q: "ಮೊದಲ ಸಲ ಭೇಟಿಯಾದವರ ಜೊತೆ ಮಾತು ಶುರು ಮಾಡಲು ಯಾವುದು ಒಳ್ಳೆಯದು?", o: ["Nice weather today, huh?", "How much do you make?", "Are you married?", "Did you gain weight?"], why: "ಹವಾಮಾನ ಅತ್ಯಂತ ಸುರಕ್ಷಿತ ವಿಷಯ. ಸಂಬಳ, ಮದುವೆ, ತೂಕ ಮೊದಲ ಭೇಟಿಯಲ್ಲಿ ಬೇಡ." },
+    { t: "mc", q: "I went to Busan last weekend. ಎಂಬ ಮಾತಿಗೆ ಆಸಕ್ತಿ ತೋರಿಸುವ ಪ್ರತಿಕ್ರಿಯೆ ಯಾವುದು?", o: ["Oh, really? That sounds fun!", "Why?", "So what?", "Me neither."], why: "Oh, really? ಮತ್ತು That sounds fun! ಆಸಕ್ತಿ ತೋರಿಸುವ ಮಾತುಗಳು." },
 
-    { t: "order", p: "주말에 계획 있어요?", a: ["Any", "plans", "for", "the", "weekend"], x: ["plan", "a"], why: "계획을 묻는 이 표현은 복수형 plans를 쓰고, 이번 주말이라 관사 the예요." },
-    { t: "order", p: "이야기 즐거웠어요", a: ["It", "was", "nice", "talking", "to", "you"], x: ["talk"], why: "대화를 끝낼 때 쓰는 인사예요. nice 뒤에 talking이 와요." },
-    { t: "order", p: "저는 공포 영화를 안 좋아해요", a: ["I", "don't", "like", "horror", "movies"], x: ["movie", "the"], why: "영화 전반을 말하니 관사 없이 복수형 movies예요." },
+    { t: "order", p: "ವಾರಾಂತ್ಯಕ್ಕೆ ಏನಾದರೂ ಪ್ಲಾನ್ ಇದೆಯಾ?", a: ["Any", "plans", "for", "the", "weekend"], x: ["plan", "a"], why: "ಪ್ಲಾನ್ ಕೇಳುವ ಈ ಮಾತಿನಲ್ಲಿ ಬಹುವಚನ plans ಬರುತ್ತದೆ; ಈ ವಾರಾಂತ್ಯ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ the." },
+    { t: "order", p: "ನಿಮ್ಮ ಜೊತೆ ಮಾತಾಡಿ ಖುಷಿಯಾಯಿತು", a: ["It", "was", "nice", "talking", "to", "you"], x: ["talk"], why: "ಮಾತುಕತೆ ಮುಗಿಸುವಾಗ ಹೇಳುವ ಮಾತು. nice ನಂತರ talking ಬರುತ್ತದೆ." },
+    { t: "order", p: "ನನಗೆ ಹಾರರ್ ಸಿನಿಮಾಗಳು ಇಷ್ಟ ಇಲ್ಲ", a: ["I", "don't", "like", "horror", "movies"], x: ["movie", "the"], why: "ಸಿನಿಮಾಗಳನ್ನು ಒಟ್ಟಾಗಿ ಹೇಳುತ್ತಿದ್ದೀರಿ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ ಇಲ್ಲದ ಬಹುವಚನ movies." },
 
-    { t: "fill", q: "Pretty good! How __ you?", p: "잘 지내! 너는?", a: ["about"], o: ["for", "with", "of"], why: "짧게 대답하고 How about you?로 되물어 주는 게 매너예요." },
-    { t: "fill", q: "I know, __?", p: "그러니까요! / 내 말이!", a: ["right"], o: ["light", "yes", "true"], why: "I know, right?는 강하게 동의하는 맞장구예요. R로 시작해요." },
-    { t: "fill", q: "Have you seen any good __ lately?", p: "요즘 재밌는 거 봤어요?", a: ["shows", "movies"], o: ["show", "movie", "a show"], why: "이렇게 any 뒤에서 셀 수 있는 명사를 물을 땐 복수형을 써요." },
+    { t: "fill", q: "Pretty good! How __ you?", p: "ಚೆನ್ನಾಗಿದ್ದೇನೆ! ನೀನು?", a: ["about"], o: ["for", "with", "of"], why: "ಚಿಕ್ಕದಾಗಿ ಉತ್ತರಿಸಿ How about you? ಎಂದು ತಿರುಗಿ ಕೇಳುವುದು ರೂಢಿ." },
+    { t: "fill", q: "I know, __?", p: "ಅಲ್ವಾ! / ನಾನೂ ಅದನ್ನೇ ಹೇಳುತ್ತಿದ್ದೆ!", a: ["right"], o: ["light", "yes", "true"], why: "I know, right? ಎಂಬುದು ಬಲವಾಗಿ ಒಪ್ಪುವ ಮಾತು. ಮೊದಲ ಅಕ್ಷರ R." },
+    { t: "fill", q: "Have you seen any good __ lately?", p: "ಇತ್ತೀಚೆಗೆ ಯಾವುದಾದರೂ ಒಳ್ಳೆಯ ಶೋ ಅಥವಾ ಸಿನಿಮಾ ನೋಡಿದ್ದೀರಾ?", a: ["shows", "movies"], o: ["show", "movie", "a show"], why: "ಹೀಗೆ any ನಂತರ ಎಣಿಸಬಹುದಾದ ನಾಮಪದದ ಬಗ್ಗೆ ಕೇಳುವಾಗ ಬಹುವಚನ ಬರುತ್ತದೆ." },
 
-    { t: "type", p: "주말 어땠어요?", a: ["How was your weekend"], hint: "how · weekend — 과거형으로", x: ["is"], why: "지난 주말이니 과거형 was로 물어요." },
-    { t: "type", p: "오늘 날씨 좋네요", a: ["Nice weather today huh", "Nice weather today", "It's nice weather today", "It is nice weather today", "The weather is nice today", "The weather's nice today"], hint: "nice · weather · today — 관사를 붙일까요?", x: ["a"], why: "weather는 셀 수 없는 명사라 관사 a를 붙이지 않아요 (a nice weather X)." },
-    { t: "type", p: "저는 영화 보는 걸 좋아해요", a: ["I like watching movies", "I like to watch movies", "I love watching movies", "I love to watch movies"], hint: "like · watch · movie — 전체를 말할 땐 복수형", x: ["movie"], why: "영화 전반을 말하니 복수형 movies예요." }
+    { t: "type", p: "ನಿಮ್ಮ ವಾರಾಂತ್ಯ ಹೇಗಿತ್ತು?", a: ["How was your weekend"], hint: "how · weekend — Simple Past ಬಳಸಿ", x: ["is"], why: "ಮುಗಿದುಹೋದ ವಾರಾಂತ್ಯ, ಹಾಗಾಗಿ was ಬಳಸಿ ಕೇಳಿ." },
+    { t: "type", p: "ಇವತ್ತು ಹವಾಮಾನ ಚೆನ್ನಾಗಿದೆ, ಅಲ್ವಾ?", a: ["Nice weather today huh", "Nice weather today", "It's nice weather today", "It is nice weather today", "The weather is nice today", "The weather's nice today"], hint: "nice · weather · today — ಆರ್ಟಿಕಲ್ a ಬೇಕೇ?", x: ["a"], why: "weather ಎಣಿಸಲಾಗದ ನಾಮಪದ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a ಬರುವುದಿಲ್ಲ (a nice weather ✗)." },
+    { t: "type", p: "ನನಗೆ ಸಿನಿಮಾ ನೋಡುವುದು ಇಷ್ಟ", a: ["I like watching movies", "I like to watch movies", "I love watching movies", "I love to watch movies"], hint: "like · watch · movie — ಒಟ್ಟಾಗಿ ಹೇಳುವಾಗ ಬಹುವಚನ", x: ["movie"], why: "ಸಿನಿಮಾಗಳನ್ನು ಒಟ್ಟಾಗಿ ಹೇಳುತ್ತಿದ್ದೀರಿ, ಹಾಗಾಗಿ ಬಹುವಚನ movies." }
   ],
 
   phrasal: [
-    { t: "mc", q: "'그거 켜 줘' =", o: ["Turn it on.", "Turn on it.", "Turn it of.", "On turn it."], why: "대명사 it은 구동사 가운데에 와요: turn it on." },
-    { t: "mc", q: "'우유가 다 떨어졌어요' =", o: ["We ran out of milk.", "We ran out milk.", "We ran of out milk.", "We ran off of milk."], why: "run out of = ~이 다 떨어지다. of를 빼먹지 마세요." },
-    { t: "mc", q: "'대구에서 자랐어요' =", o: ["I grew up in Daegu.", "I grew in Daegu up.", "I growed up in Daegu.", "I grew out in Daegu."], why: "grow up = 자라다, 과거형은 grew up이에요." },
-    { t: "mc", q: "'제 고양이 좀 돌봐 줄 수 있어요?' =", o: ["Can you look after my cat?", "Can you look my cat after?", "Can you look for my cat?", "Can you look out my cat?"], why: "look after = 돌보다. 나눌 수 없는 구동사예요 (look for는 '찾다')." },
-    { t: "mc", q: "'7시에 데리러 갈게' =", o: ["I'll pick you up at seven.", "I'll pick up you at seven.", "I'll pick you at seven up.", "I'll up pick you at seven."], why: "대명사 you는 pick과 up 사이에 와요." },
+    { t: "mc", q: "\"ಅದನ್ನು ಆನ್ ಮಾಡು\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["Turn it on.", "Turn on it.", "Turn it of.", "On turn it."], why: "ಸರ್ವನಾಮ it ಫ್ರೇಸಲ್ ವರ್ಬ್‌ನ ನಡುವೆ ಬರುತ್ತದೆ: turn it on." },
+    { t: "mc", q: "\"ಹಾಲು ಖಾಲಿಯಾಗಿದೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["We ran out of milk.", "We ran out milk.", "We ran of out milk.", "We ran off of milk."], why: "run out of = ಖಾಲಿಯಾಗು. of ಬಿಡಬೇಡಿ." },
+    { t: "mc", q: "\"ನಾನು ಬೆಳೆದದ್ದು ಡೇಗು ನಗರದಲ್ಲಿ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["I grew up in Daegu.", "I grew in Daegu up.", "I growed up in Daegu.", "I grew out in Daegu."], why: "grow up = ಬೆಳೆದು ದೊಡ್ಡವರಾಗು; V2 ರೂಪ grew up." },
+    { t: "mc", q: "\"ನನ್ನ ಬೆಕ್ಕನ್ನು ಸ್ವಲ್ಪ ನೋಡಿಕೊಳ್ಳುತ್ತೀಯಾ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["Can you look after my cat?", "Can you look my cat after?", "Can you look for my cat?", "Can you look out my cat?"], why: "look after = ನೋಡಿಕೊ. ಇದನ್ನು ಬೇರೆ ಮಾಡಲಾಗದು (look for = ಹುಡುಕು)." },
+    { t: "mc", q: "\"ಏಳು ಗಂಟೆಗೆ ನಿನ್ನನ್ನು ಕರೆದುಕೊಂಡು ಹೋಗಲು ಬರುತ್ತೇನೆ\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["I'll pick you up at seven.", "I'll pick up you at seven.", "I'll pick you at seven up.", "I'll up pick you at seven."], why: "ಸರ್ವನಾಮ you ಬರುವುದು pick ಮತ್ತು up ನಡುವೆ." },
 
-    { t: "order", p: "제 안경을 찾고 있어요", a: ["I'm", "looking", "for", "my", "glasses"], x: ["glass", "after"], why: "안경은 항상 복수형 glasses예요 (glass는 유리잔). '찾다'는 look for예요." },
-    { t: "order", p: "계획을 하나 생각해 내 봐요", a: ["Let's", "come", "up", "with", "a", "plan"], x: ["the", "an"], why: "come up with = 생각해 내다. 아직 없는 계획 하나라 관사 a예요." },
-    { t: "order", p: "내가 데리러 갈게", a: ["I'll", "pick", "you", "up"], x: ["on"], why: "대명사 you는 pick과 up 사이에 와요." },
+    { t: "order", p: "ನಾನು ನನ್ನ ಕನ್ನಡಕ ಹುಡುಕುತ್ತಿದ್ದೇನೆ", a: ["I'm", "looking", "for", "my", "glasses"], x: ["glass", "after"], why: "ಕನ್ನಡಕ ಯಾವಾಗಲೂ ಬಹುವಚನ: glasses (glass = ಗಾಜಿನ ಲೋಟ). \"ಹುಡುಕು\" = look for." },
+    { t: "order", p: "ಒಂದು ಪ್ಲಾನ್ ಯೋಚಿಸೋಣ", a: ["Let's", "come", "up", "with", "a", "plan"], x: ["the", "an"], why: "come up with = ಯೋಚಿಸಿ ಹೊಸದನ್ನು ಮುಂದಿಡು. ಇನ್ನೂ ಇಲ್ಲದ ಒಂದು ಪ್ಲಾನ್, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a." },
+    { t: "order", p: "ನಾನು ನಿನ್ನನ್ನು ಕರೆದುಕೊಂಡು ಹೋಗಲು ಬರುತ್ತೇನೆ", a: ["I'll", "pick", "you", "up"], x: ["on"], why: "ಸರ್ವನಾಮ you ಬರುವುದು pick ಮತ್ತು up ನಡುವೆ." },
 
-    { t: "fill", q: "Can you turn it __?", p: "그거 꺼 줄래요?", a: ["off"], o: ["of", "on", "out"], why: "끄다는 turn off예요. of와 철자를 헷갈리지 마세요." },
-    { t: "fill", q: "I work __ every morning.", p: "저는 매일 아침 운동해요", a: ["out"], o: ["up", "off", "on"], why: "work out = 운동하다." },
-    { t: "fill", q: "We ran out of __.", p: "달걀이 다 떨어졌어요", a: ["eggs"], o: ["egg", "an egg", "the egg"], why: "달걀처럼 셀 수 있는 것이 다 떨어졌을 땐 복수형 eggs예요." },
+    { t: "fill", q: "Can you turn it __?", p: "ಅದನ್ನು ಆಫ್ ಮಾಡುತ್ತೀಯಾ?", a: ["off"], o: ["of", "on", "out"], why: "ಆಫ್ ಮಾಡು = turn off. of ಜೊತೆ ಸ್ಪೆಲ್ಲಿಂಗ್ ಗೊಂದಲ ಬೇಡ." },
+    { t: "fill", q: "I work __ every morning.", p: "ನಾನು ದಿನಾ ಬೆಳಿಗ್ಗೆ ವ್ಯಾಯಾಮ ಮಾಡುತ್ತೇನೆ", a: ["out"], o: ["up", "off", "on"], why: "work out = ವ್ಯಾಯಾಮ ಮಾಡು." },
+    { t: "fill", q: "We ran out of __.", p: "ಮೊಟ್ಟೆಗಳು ಖಾಲಿಯಾಗಿವೆ", a: ["eggs"], o: ["egg", "an egg", "the egg"], why: "ಮೊಟ್ಟೆಯ ಹಾಗೆ ಎಣಿಸಬಹುದಾದ ವಸ್ತು ಖಾಲಿಯಾದಾಗ ಬಹುವಚನ: eggs." },
 
-    { t: "type", p: "그거 좀 꺼 주세요", a: ["Turn it off", "Turn it off please", "Please turn it off", "Can you turn it off", "Can you turn it off please", "Could you turn it off", "Could you turn it off please"], hint: "turn · off — 대명사는 가운데", x: ["on"], why: "대명사 it은 turn과 off 사이에 와요." },
-    { t: "type", p: "저는 고양이 두 마리를 돌봐요", a: ["I look after two cats", "I take care of two cats"], hint: "look after · two · cat — 둘이면 복수형", x: ["cat"], why: "look after = 돌보다. 두 마리니까 복수 -s를 붙여 cats예요." },
-    { t: "type", p: "우유가 다 떨어졌어요", a: ["We ran out of milk", "We've run out of milk", "We have run out of milk", "We're out of milk", "We are out of milk", "I ran out of milk", "I'm out of milk", "I am out of milk"], hint: "run out of · milk — 관사를 붙일까요?", x: ["a"], why: "milk는 셀 수 없는 명사라 관사 a를 붙이지 않아요." }
+    { t: "type", p: "ಅದನ್ನು ಆಫ್ ಮಾಡಿ", a: ["Turn it off", "Turn it off please", "Please turn it off", "Can you turn it off", "Can you turn it off please", "Could you turn it off", "Could you turn it off please"], hint: "turn · off — ಸರ್ವನಾಮ ನಡುವೆ", x: ["on"], why: "ಸರ್ವನಾಮ it ಬರುವುದು turn ಮತ್ತು off ನಡುವೆ." },
+    { t: "type", p: "ನಾನು ಎರಡು ಬೆಕ್ಕುಗಳನ್ನು ನೋಡಿಕೊಳ್ಳುತ್ತೇನೆ", a: ["I look after two cats", "I take care of two cats"], hint: "look after · two · cat — ಎರಡು ಇದ್ದರೆ ಬಹುವಚನ", x: ["cat"], why: "look after = ನೋಡಿಕೊ. ಎರಡು ಬೆಕ್ಕು, ಹಾಗಾಗಿ ಬಹುವಚನ -s ಸೇರಿ cats." },
+    { t: "type", p: "ಹಾಲು ಖಾಲಿಯಾಗಿದೆ", a: ["We ran out of milk", "We've run out of milk", "We have run out of milk", "We're out of milk", "We are out of milk", "I ran out of milk", "I'm out of milk", "I am out of milk"], hint: "run out of · milk — ಆರ್ಟಿಕಲ್ a ಬೇಕೇ?", x: ["a"], why: "milk ಎಣಿಸಲಾಗದ ನಾಮಪದ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a ಬರುವುದಿಲ್ಲ." }
   ],
 
   numbers: [
-    { t: "mc", q: "10,000(만)을 영어로 하면?", o: ["ten thousand", "one thousand", "ten thousands", "a hundred thousand"], why: "세 자리씩 끊어요: 10 + thousand. 숫자 뒤 thousand에는 복수 -s를 붙이지 않아요." },
-    { t: "mc", q: "1,000,000(백만)을 영어로 하면?", o: ["one million", "one hundred thousand", "ten million", "one millions"], why: "쉼표 두 개 = million이에요. 숫자 뒤 million에는 복수 -s를 붙이지 않아요." },
-    { t: "mc", q: "9:05를 읽는 법은?", o: ["nine oh five", "nine five", "nine and five", "five nine"], why: "1~9분 앞에는 oh를 붙여요." },
-    { t: "mc", q: "$4.99를 자연스럽게 읽으면?", o: ["four ninety-nine", "four point nine nine", "four dollar ninety-nine", "forty-nine nine"], why: "가격은 숫자 두 덩어리로 읽어요: four ninety-nine." },
-    { t: "mc", q: "2026년을 영어로 읽으면?", o: ["twenty twenty-six", "two zero two six", "twenty two six", "two twenty-six"], why: "연도는 두 자리씩 끊어 읽어요." },
+    { t: "mc", q: "10,000 (ಹತ್ತು ಸಾವಿರ) ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["ten thousand", "one thousand", "ten thousands", "a hundred thousand"], why: "ಮೂರು ಮೂರು ಅಂಕಿ: 10 + thousand. ಸಂಖ್ಯೆಯ ನಂತರ ಬರುವ thousand ಪದಕ್ಕೆ ಬಹುವಚನ -s ಸೇರುವುದಿಲ್ಲ." },
+    { t: "mc", q: "10,00,000 (ಹತ್ತು ಲಕ್ಷ) ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["one million", "one hundred thousand", "ten million", "one millions"], why: "ಹತ್ತು ಲಕ್ಷ = 1,000,000; ಎರಡು ಅಲ್ಪವಿರಾಮ ಇದ್ದರೆ million. ಸಂಖ್ಯೆಯ ನಂತರ ಬರುವ million ಪದಕ್ಕೆ ಬಹುವಚನ -s ಸೇರುವುದಿಲ್ಲ." },
+    { t: "mc", q: "9:05 ಓದುವುದು ಹೇಗೆ?", o: ["nine oh five", "nine five", "nine and five", "five nine"], why: "1–9 ನಿಮಿಷಗಳ ಮೊದಲು oh ಸೇರಿಸುತ್ತಾರೆ." },
+    { t: "mc", q: "$4.99 ಅನ್ನು ಸಹಜವಾಗಿ ಓದುವುದು ಹೇಗೆ?", o: ["four ninety-nine", "four point nine nine", "four dollar ninety-nine", "forty-nine nine"], why: "ಬೆಲೆಯನ್ನು ಎರಡು ಸಂಖ್ಯೆಗಳಾಗಿ ಓದುತ್ತಾರೆ: four ninety-nine." },
+    { t: "mc", q: "2026 ನೇ ಇಸವಿಯನ್ನು ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಓದುವುದು ಹೇಗೆ?", o: ["twenty twenty-six", "two zero two six", "twenty two six", "two twenty-six"], why: "ವರ್ಷವನ್ನು ಎರಡೆರಡು ಅಂಕಿಯಾಗಿ ಓದುತ್ತಾರೆ." },
 
-    { t: "order", p: "7시 15분이에요", a: ["It's", "seven", "fifteen"], x: ["fifty"], why: "15는 fifteen(뒤에 강세), 50은 fifty(앞에 강세)예요." },
-    { t: "order", p: "15달러예요", a: ["It's", "fifteen", "dollars"], x: ["dollar", "fifty"], why: "1달러보다 많으면 dollars처럼 복수 -s를 붙여요." },
-    { t: "order", p: "일주일에 두 번", a: ["twice", "a", "week"], x: ["the", "one"], why: "'~에 몇 번'은 관사 a로 말해요: twice a week." },
+    { t: "order", p: "ಈಗ ಏಳು ಹದಿನೈದು (7:15)", a: ["It's", "seven", "fifteen"], x: ["fifty"], why: "15 = fifteen (ಒತ್ತು ಕೊನೆಯ ಭಾಗಕ್ಕೆ), 50 = fifty (ಒತ್ತು ಮೊದಲ ಭಾಗಕ್ಕೆ)." },
+    { t: "order", p: "ಅದಕ್ಕೆ ಹದಿನೈದು ಡಾಲರ್", a: ["It's", "fifteen", "dollars"], x: ["dollar", "fifty"], why: "ಒಂದು ಡಾಲರ್‌ಗಿಂತ ಹೆಚ್ಚಾದರೆ ಬಹುವಚನ -s ಸೇರಿ dollars." },
+    { t: "order", p: "ವಾರಕ್ಕೆ ಎರಡು ಸಲ", a: ["twice", "a", "week"], x: ["the", "one"], why: "\"ವಾರಕ್ಕೆ ಇಷ್ಟು ಸಲ\" ಎನ್ನುವಾಗ ಆರ್ಟಿಕಲ್ a: twice a week." },
 
-    { t: "fill", q: "It's __ quarter past ten.", p: "10시 15분이에요", a: ["a"], o: ["the", "one", "an"], why: "quarter(15분) 앞에는 관사 a를 붙여요." },
-    { t: "fill", q: "That's fifty __ won.", p: "5만 원이에요", a: ["thousand"], o: ["thousands", "hundred", "million"], why: "50,000은 fifty thousand예요. 숫자 뒤 thousand에는 복수 -s를 붙이지 않아요." },
-    { t: "fill", q: "I'll be there in ten __.", p: "10분 후에 도착할게요", a: ["minutes"], o: ["minute", "a minute", "the minutes"], why: "10분이니 복수형 minutes예요." },
+    { t: "fill", q: "It's __ quarter past ten.", p: "ಈಗ ಹತ್ತೂ ಕಾಲು (10:15)", a: ["a"], o: ["the", "one", "an"], why: "quarter (ಕಾಲು ಗಂಟೆ) ಮೊದಲು ಆರ್ಟಿಕಲ್ a ಬರುತ್ತದೆ; one ಅಲ್ಲ." },
+    { t: "fill", q: "That's fifty __ won.", p: "ಅದಕ್ಕೆ ಐವತ್ತು ಸಾವಿರ ವೊನ್ (ಕೊರಿಯಾದ ಹಣ)", a: ["thousand"], o: ["thousands", "hundred", "million"], why: "50,000 = fifty thousand. ಸಂಖ್ಯೆಯ ನಂತರ ಬರುವ thousand ಪದಕ್ಕೆ ಬಹುವಚನ -s ಸೇರುವುದಿಲ್ಲ." },
+    { t: "fill", q: "I'll be there in ten __.", p: "ಹತ್ತು ನಿಮಿಷದಲ್ಲಿ ಬರುತ್ತೇನೆ", a: ["minutes"], o: ["minute", "a minute", "the minutes"], why: "ಹತ್ತು ನಿಮಿಷ, ಹಾಗಾಗಿ ಬಹುವಚನ: minutes. ಕನ್ನಡದಲ್ಲಿ \"ಹತ್ತು ನಿಮಿಷ\" ಸಾಕು; ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ -s ಬೇಕು." },
 
-    { t: "type", p: "3시 반이에요", a: ["It's three thirty", "It is three thirty", "It's half past three", "It is half past three", "It's 3:30", "It is 3:30", "Three thirty", "Half past three"], hint: "three · thirty — 시와 분을 그대로", x: ["thirteen"], why: "시와 분을 그대로 읽어요: three thirty. 13(thirteen)과 헷갈리지 마세요." },
-    { t: "type", p: "20달러예요", a: ["It's twenty dollars", "It is twenty dollars", "That's twenty dollars", "That is twenty dollars", "It's 20 dollars", "It is 20 dollars", "That's 20 dollars", "That is 20 dollars", "Twenty dollars", "20 dollars"], hint: "twenty · dollar — 2 이상이면 복수형", x: ["dollar"], why: "2달러 이상이니 dollars처럼 복수 -s를 붙여요." },
-    { t: "type", p: "저는 일주일에 두 번 운동해요", a: ["I work out twice a week", "I exercise twice a week"], hint: "work out · twice · week — '~에'는 어떤 관사?", x: ["the"], why: "'일주일에'는 관사 a를 써서 a week예요 (the week X)." }
+    { t: "type", p: "ಈಗ ಮೂರೂವರೆ (3:30)", a: ["It's three thirty", "It is three thirty", "It's half past three", "It is half past three", "It's 3:30", "It is 3:30", "Three thirty", "Half past three"], hint: "three · thirty — ಗಂಟೆ ಮತ್ತು ನಿಮಿಷವನ್ನು ಹಾಗೆಯೇ", x: ["thirteen"], why: "ಗಂಟೆ ಮತ್ತು ನಿಮಿಷವನ್ನು ಹಾಗೆಯೇ ಓದಿ: three thirty. 13 (thirteen) ಜೊತೆ ಗೊಂದಲ ಬೇಡ." },
+    { t: "type", p: "ಅದಕ್ಕೆ ಇಪ್ಪತ್ತು ಡಾಲರ್", a: ["It's twenty dollars", "It is twenty dollars", "That's twenty dollars", "That is twenty dollars", "It's 20 dollars", "It is 20 dollars", "That's 20 dollars", "That is 20 dollars", "Twenty dollars", "20 dollars"], hint: "twenty · dollar — ಎರಡು ಅಥವಾ ಹೆಚ್ಚಾದರೆ ಬಹುವಚನ", x: ["dollar"], why: "ಎರಡು ಡಾಲರ್ ಅಥವಾ ಹೆಚ್ಚು, ಹಾಗಾಗಿ ಬಹುವಚನ -s ಸೇರಿ dollars." },
+    { t: "type", p: "ನಾನು ವಾರಕ್ಕೆ ಎರಡು ಸಲ ವ್ಯಾಯಾಮ ಮಾಡುತ್ತೇನೆ", a: ["I work out twice a week", "I exercise twice a week"], hint: "work out · twice · week — \"ವಾರಕ್ಕೆ\" ಎನ್ನಲು ಯಾವ ಆರ್ಟಿಕಲ್?", x: ["the"], why: "\"ವಾರಕ್ಕೆ\" ಎನ್ನಲು ಆರ್ಟಿಕಲ್ a ಬಳಸಿ a week ಎನ್ನುತ್ತಾರೆ (the week ✗)." }
   ],
 
   email: [
-    { t: "mc", q: "Dear로 시작할 때 가장 자연스러운 인사는?", o: ["Dear Mr. Smith,", "Dear Manager,", "Dear Smith Mr.,", "Dear Sir Smith,"], why: "Dear 뒤에는 직함만 쓰지 말고 이름을 써요." },
-    { t: "mc", q: "보고서를 첨부했다고 알릴 때", o: ["I've attached the report.", "I've attached report.", "I attaching the report.", "I've attach the report."], why: "상대가 받을 바로 그 보고서이니 관사 the를 붙여요." },
-    { t: "mc", q: "'마감이 언제예요?' =", o: ["What's the deadline?", "What's deadline?", "When is a deadline?", "What deadline is?"], why: "이 일의 바로 그 마감이니 관사 the예요." },
-    { t: "mc", q: "답장이 늦었을 때 사과 대신 쓸 수 있는 긍정적인 표현은?", o: ["Thanks for your patience.", "Sorry, sorry, sorry.", "You waited too long.", "Thanks for your patients."], why: "Thanks for your patience는 사과 없이도 예의 바르게 들려요. patients(환자들)와 철자를 구분하세요." },
-    { t: "mc", q: "금요일 이메일 끝에 쓰기 좋은 인사는?", o: ["Have a great weekend!", "Have great weekend!", "Have a great weekends!", "Have the great weekend!"], why: "주말 하나를 말하니 관사 a를 붙이고 weekend는 단수예요." },
+    { t: "mc", q: "Dear ಬಳಸಿ ಶುರು ಮಾಡುವಾಗ ಅತ್ಯಂತ ಸಹಜವಾದ ಸಂಬೋಧನೆ ಯಾವುದು?", o: ["Dear Mr. Smith,", "Dear Manager,", "Dear Smith Mr.,", "Dear Sir Smith,"], why: "Dear ನಂತರ ಹುದ್ದೆಯ ಹೆಸರು ಮಾತ್ರ ಬರೆಯಬೇಡಿ; ವ್ಯಕ್ತಿಯ ಹೆಸರು ಬರೆಯಿರಿ: Mr. / Ms. + ಸರ್‌ನೇಮ್." },
+    { t: "mc", q: "ರಿಪೋರ್ಟ್ ಲಗತ್ತಿಸಿದ್ದೇನೆ ಎಂದು ತಿಳಿಸಲು ಯಾವುದು ಸರಿ?", o: ["I've attached the report.", "I've attached report.", "I attaching the report.", "I've attach the report."], why: "ಓದುವವರಿಗೆ ಸಿಗಲಿರುವ ಅದೇ ರಿಪೋರ್ಟ್, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ the." },
+    { t: "mc", q: "\"ಗಡುವು ಯಾವಾಗ?\" ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ?", o: ["What's the deadline?", "What's deadline?", "When is a deadline?", "What deadline is?"], why: "ಈ ಕೆಲಸದ ಗಡುವು — ಯಾವುದು ಎಂದು ಇಬ್ಬರಿಗೂ ಗೊತ್ತು, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ the." },
+    { t: "mc", q: "ಉತ್ತರ ತಡವಾದಾಗ ಕ್ಷಮೆ ಕೇಳುವ ಬದಲು ಬಳಸಬಹುದಾದ ಸಕಾರಾತ್ಮಕ ಮಾತು ಯಾವುದು?", o: ["Thanks for your patience.", "Sorry, sorry, sorry.", "You waited too long.", "Thanks for your patients."], why: "Thanks for your patience ಕ್ಷಮೆ ಕೇಳದೆಯೂ ವಿನಯವಾಗಿ ಕೇಳಿಸುತ್ತದೆ. patients (ರೋಗಿಗಳು) ಜೊತೆ ಸ್ಪೆಲ್ಲಿಂಗ್ ಗೊಂದಲ ಬೇಡ." },
+    { t: "mc", q: "ಶುಕ್ರವಾರದ ಇಮೇಲ್ ಕೊನೆಗೆ ಬರೆಯಲು ಯಾವುದು ಸರಿ?", o: ["Have a great weekend!", "Have great weekend!", "Have a great weekends!", "Have the great weekend!"], why: "ಒಂದು ವಾರಾಂತ್ಯ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a ಬೇಕು; weekend ಏಕವಚನದಲ್ಲಿ ಇರುತ್ತದೆ." },
 
-    { t: "order", p: "보고서를 첨부했습니다", a: ["I've", "attached", "the", "report"], x: ["a"], why: "상대가 받을 바로 그 보고서이니 관사 the예요." },
-    { t: "order", p: "회의 일정을 잡읍시다", a: ["Let's", "schedule", "a", "meeting"], x: ["the"], why: "아직 정하지 않은 회의 하나라서 관사 a예요." },
-    { t: "order", p: "확인하고 다시 연락드릴게요", a: ["I'll", "get", "back", "to", "you"], x: ["for"], why: "get back to you = 다시 연락드리다. to를 써요." },
+    { t: "order", p: "ರಿಪೋರ್ಟ್ ಲಗತ್ತಿಸಿದ್ದೇನೆ", a: ["I've", "attached", "the", "report"], x: ["a"], why: "ಓದುವವರಿಗೆ ಸಿಗಲಿರುವ ಅದೇ ರಿಪೋರ್ಟ್, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ the." },
+    { t: "order", p: "ಒಂದು ಮೀಟಿಂಗ್ ನಿಗದಿ ಮಾಡೋಣ", a: ["Let's", "schedule", "a", "meeting"], x: ["the"], why: "ಇನ್ನೂ ನಿಗದಿಯಾಗದ ಒಂದು ಮೀಟಿಂಗ್, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a." },
+    { t: "order", p: "ನೋಡಿ ನಿಮಗೆ ಮತ್ತೆ ತಿಳಿಸುತ್ತೇನೆ", a: ["I'll", "get", "back", "to", "you"], x: ["for"], why: "get back to you = ಮತ್ತೆ ಸಂಪರ್ಕಿಸಿ ತಿಳಿಸು. ಇಲ್ಲಿ to ಬರುತ್ತದೆ." },
 
-    { t: "fill", q: "Could you send me the file __ Friday?", p: "금요일까지 파일 보내 주실 수 있나요?", a: ["by"], o: ["until", "in", "at"], why: "기한(~까지)은 by + 날짜예요." },
-    { t: "fill", q: "I'm writing __ ask about the schedule.", p: "일정에 대해 여쭤보려고 연락드립니다", a: ["to"], o: ["for", "about", "at"], why: "목적은 I'm writing to + 동사원형이에요." },
-    { t: "fill", q: "Thanks for all your hard __!", p: "그동안 정말 고생 많으셨어요", a: ["work"], o: ["works", "working", "job"], why: "work(일)는 셀 수 없는 명사라 복수 -s를 붙이지 않아요." },
+    { t: "fill", q: "Could you send me the file __ Friday?", p: "ಶುಕ್ರವಾರದೊಳಗೆ ಫೈಲ್ ಕಳುಹಿಸುತ್ತೀರಾ?", a: ["by"], o: ["until", "in", "at"], why: "ಗಡುವು (ಇಂಥ ದಿನದೊಳಗೆ) ಹೇಳಲು by + ದಿನ." },
+    { t: "fill", q: "I'm writing __ ask about the schedule.", p: "ವೇಳಾಪಟ್ಟಿಯ ಬಗ್ಗೆ ಕೇಳಲು ಬರೆಯುತ್ತಿದ್ದೇನೆ", a: ["to"], o: ["for", "about", "at"], why: "ಉದ್ದೇಶ ಹೇಳಲು I'm writing to + V1." },
+    { t: "fill", q: "Thanks for all your hard __!", p: "ನಿಮ್ಮ ಎಲ್ಲ ಶ್ರಮಕ್ಕೆ ಧನ್ಯವಾದ!", a: ["work"], o: ["works", "working", "job"], why: "work (ಕೆಲಸ, ಶ್ರಮ) ಎಣಿಸಲಾಗದ ನಾಮಪದ, ಹಾಗಾಗಿ ಬಹುವಚನ -s ಸೇರುವುದಿಲ್ಲ." },
 
-    { t: "type", p: "저 내일 쉬어요 (휴무예요)", a: ["I'm off tomorrow", "I am off tomorrow", "I'm off work tomorrow", "I am off work tomorrow", "I have tomorrow off", "I'm taking tomorrow off", "I am taking tomorrow off", "I have a day off tomorrow"], hint: "off · tomorrow — be동사 + off", x: ["do"], why: "쉬는 날은 be off로 말해요." },
-    { t: "type", p: "파일을 첨부했습니다", a: ["I've attached the file", "I have attached the file", "I attached the file"], hint: "attach · file — 바로 그 파일", x: ["a"], why: "상대가 받을 바로 그 파일이니 관사 the예요." },
-    { t: "type", p: "좋은 주말 보내세요!", a: ["Have a great weekend", "Have a nice weekend", "Have a good weekend"], hint: "have · great · weekend — 주말 하나 앞 관사", x: ["the"], why: "주말 하나를 말하니 관사 a를 붙여요: a great weekend." }
+    { t: "type", p: "(off ಬಳಸಿ) ನಾಳೆ ನನಗೆ ರಜೆ, ಕೆಲಸಕ್ಕೆ ಬರುವುದಿಲ್ಲ", a: ["I'm off tomorrow", "I am off tomorrow", "I'm off work tomorrow", "I am off work tomorrow", "I have tomorrow off", "I'm taking tomorrow off", "I am taking tomorrow off", "I have a day off tomorrow"], hint: "off · tomorrow — be + off ಬಳಸಿ", x: ["do"], why: "ಕೆಲಸಕ್ಕೆ ರಜೆ ಇರುವ ದಿನದ ಬಗ್ಗೆ ಹೇಳಲು be off ಬಳಸುತ್ತಾರೆ." },
+    { t: "type", p: "ಫೈಲ್ ಲಗತ್ತಿಸಿದ್ದೇನೆ", a: ["I've attached the file", "I have attached the file", "I attached the file"], hint: "attach · file — ಅದೇ ಫೈಲ್: ಯಾವ ಆರ್ಟಿಕಲ್?", x: ["a"], why: "ಓದುವವರಿಗೆ ಸಿಗಲಿರುವ ಅದೇ ಫೈಲ್, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ the." },
+    { t: "type", p: "ವಾರಾಂತ್ಯ ಚೆನ್ನಾಗಿ ಕಳೆಯಿರಿ!", a: ["Have a great weekend", "Have a nice weekend", "Have a good weekend"], hint: "have · great · weekend — ಒಂದು ವಾರಾಂತ್ಯ: ಯಾವ ಆರ್ಟಿಕಲ್?", x: ["the"], why: "ಒಂದು ವಾರಾಂತ್ಯ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ a ಬೇಕು: a great weekend." }
   ],
 
   idioms: [
-    { t: "mc", q: "'식은 죽 먹기예요' =", o: ["It's a piece of cake.", "It's piece of cake.", "It's a piece of cakes.", "It's the piece of cake."], why: "관용구는 통째로 외워요: 관사 a를 넣고 cake는 단수예요." },
-    { t: "mc", q: "'엄청 비싸요' =", o: ["It costs an arm and a leg.", "It costs a arm and a leg.", "It costs arm and leg.", "It costs an arm and an leg."], why: "arm은 모음 소리라 관사 an, leg는 자음 소리라 a예요." },
-    { t: "mc", q: "'오늘은 여기까지 해요' (회의에서도 OK)", o: ["Let's call it a day.", "Let's call it the day.", "Let's call a day.", "Let's call it day."], why: "call it a day는 관사 a까지 통째로 외우는 관용구예요." },
-    { t: "mc", q: "'날아갈 듯 기뻐요' =", o: ["I'm on cloud nine.", "I'm on cloud nines.", "I'm in cloud nine.", "I'm on the cloud nine."], why: "on cloud nine은 관사도 복수 -s도 없이 써요." },
-    { t: "mc", q: "친구끼리만 쓰는 슬랭은?", o: ["No cap", "Let's call it a day", "It's a piece of cake", "I'm all ears"], why: "No cap은 '진짜로'라는 뜻의 젊은 층 슬랭이에요. 나머지는 직장에서도 쓰는 관용구예요." },
+    { t: "mc", q: "\"ಅದು ತುಂಬಾ ಸುಲಭ\" ಎಂಬ ಅರ್ಥದ ನುಡಿಗಟ್ಟು ಯಾವುದು?", o: ["It's a piece of cake.", "It's piece of cake.", "It's a piece of cakes.", "It's the piece of cake."], why: "ನುಡಿಗಟ್ಟನ್ನು ಇಡಿಯಾಗಿ ಕಲಿಯಿರಿ: ಆರ್ಟಿಕಲ್ a ಇರಬೇಕು, cake ಏಕವಚನದಲ್ಲಿ ಇರಬೇಕು." },
+    { t: "mc", q: "\"ಅದು ವಿಪರೀತ ದುಬಾರಿ\" ಎಂಬ ಅರ್ಥದ ನುಡಿಗಟ್ಟು ಯಾವುದು?", o: ["It costs an arm and a leg.", "It costs a arm and a leg.", "It costs arm and leg.", "It costs an arm and an leg."], why: "arm ಸ್ವರ ಧ್ವನಿಯಿಂದ ಶುರುವಾಗುತ್ತದೆ, ಹಾಗಾಗಿ ಆರ್ಟಿಕಲ್ an; leg ವ್ಯಂಜನ ಧ್ವನಿಯಿಂದ, ಹಾಗಾಗಿ a." },
+    { t: "mc", q: "\"ಇವತ್ತಿಗೆ ಇಷ್ಟು ಸಾಕು\" (ಮೀಟಿಂಗ್‌ನಲ್ಲೂ ಹೇಳಬಹುದು)", o: ["Let's call it a day.", "Let's call it the day.", "Let's call a day.", "Let's call it day."], why: "call it a day — ಆರ್ಟಿಕಲ್ a ಸಹಿತ ಇಡಿಯಾಗಿ ಕಲಿಯಬೇಕಾದ ನುಡಿಗಟ್ಟು." },
+    { t: "mc", q: "\"ನನಗೆ ಆಕಾಶದಲ್ಲಿ ತೇಲಿದಷ್ಟು ಖುಷಿಯಾಗಿದೆ\" ಎಂಬ ಅರ್ಥದ ನುಡಿಗಟ್ಟು ಯಾವುದು?", o: ["I'm on cloud nine.", "I'm on cloud nines.", "I'm in cloud nine.", "I'm on the cloud nine."], why: "on cloud nine: ಇಲ್ಲಿ ಆರ್ಟಿಕಲ್ ಇಲ್ಲ, ಬಹುವಚನ -s ಕೂಡ ಇಲ್ಲ." },
+    { t: "mc", q: "ಗೆಳೆಯರ ನಡುವೆ ಮಾತ್ರ ಬಳಸುವ ಸ್ಲ್ಯಾಂಗ್ ಯಾವುದು?", o: ["No cap", "Let's call it a day", "It's a piece of cake", "I'm all ears"], why: "No cap ಎಂದರೆ \"ನಿಜವಾಗಲೂ\"; ಇದು ಯುವಜನರ ಸ್ಲ್ಯಾಂಗ್. ಉಳಿದವು ಆಫೀಸ್‌ನಲ್ಲೂ ಬಳಸುವ ನುಡಿಗಟ್ಟುಗಳು." },
 
-    { t: "order", p: "잘 듣고 있어요", a: ["I'm", "all", "ears"], x: ["ear"], why: "'온몸이 귀'라는 표현이라 복수형 ears예요." },
-    { t: "order", p: "공부 좀 열심히 해야 해", a: ["I", "need", "to", "hit", "the", "books"], x: ["book", "a"], why: "hit the books — 관사 the와 복수형 books를 그대로 써요." },
-    { t: "order", p: "제 취향은 아니에요", a: ["It's", "not", "my", "cup", "of", "tea"], x: ["the"], why: "not my cup of tea를 통째로 외워요. my 자리에 관사를 넣지 않아요." },
+    { t: "order", p: "ಗಮನವಿಟ್ಟು ಕೇಳುತ್ತಿದ್ದೇನೆ", a: ["I'm", "all", "ears"], x: ["ear"], why: "\"ಮೈಯೆಲ್ಲಾ ಕಿವಿ\" ಎಂಬ ಅರ್ಥದ ಮಾತು, ಹಾಗಾಗಿ ಬಹುವಚನ ears." },
+    { t: "order", p: "ನಾನು ಕುಳಿತು ಚೆನ್ನಾಗಿ ಓದಬೇಕು", a: ["I", "need", "to", "hit", "the", "books"], x: ["book", "a"], why: "hit the books — ಆರ್ಟಿಕಲ್ the ಮತ್ತು ಬಹುವಚನ books ಹಾಗೆಯೇ ಇರಬೇಕು." },
+    { t: "order", p: "ಅದು ನನ್ನ ಅಭಿರುಚಿಗೆ ಹೊಂದುವುದಿಲ್ಲ", a: ["It's", "not", "my", "cup", "of", "tea"], x: ["the"], why: "not my cup of tea ಎಂಬುದನ್ನು ಇಡಿಯಾಗಿ ಕಲಿಯಿರಿ. my ಇರುವ ಜಾಗದಲ್ಲಿ ಆರ್ಟಿಕಲ್ ಬರುವುದಿಲ್ಲ." },
 
-    { t: "fill", q: "Kill two __ with one stone.", p: "일석이조", a: ["birds"], o: ["bird", "a bird", "the bird"], why: "새 두 마리니까 복수형 birds예요." },
-    { t: "fill", q: "Speak of the __!", p: "호랑이도 제 말 하면 온다더니!", a: ["devil"], o: ["tiger", "angel", "bird"], why: "영어에선 호랑이 대신 devil(악마)이 와요." },
-    { t: "fill", q: "I'm feeling under __ weather.", p: "몸이 좀 안 좋아요", a: ["the"], o: ["a", "an", "my"], why: "under the weather — 관사 the를 그대로 써요." },
+    { t: "fill", q: "Kill two __ with one stone.", p: "ಒಂದೇ ಕಲ್ಲಿಗೆ ಎರಡು ಹಕ್ಕಿ", a: ["birds"], o: ["bird", "a bird", "the bird"], why: "ಎರಡು ಹಕ್ಕಿ, ಹಾಗಾಗಿ ಬಹುವಚನ: birds." },
+    { t: "fill", q: "Speak of the __!", p: "ನಿನಗೆ ನೂರು ವರ್ಷ ಆಯಸ್ಸು! (ಈಗ ತಾನೇ ನಿನ್ನ ಬಗ್ಗೆ ಮಾತಾಡುತ್ತಿದ್ದೆವು)", a: ["devil"], o: ["tiger", "angel", "bird"], why: "ನೆನೆದವರೇ ಎದುರಿಗೆ ಬಂದಾಗ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ devil (ದೆವ್ವ) ಎನ್ನುತ್ತಾರೆ: Speak of the devil!" },
+    { t: "fill", q: "I'm feeling under __ weather.", p: "ನನಗೆ ಸ್ವಲ್ಪ ಹುಷಾರಿಲ್ಲ", a: ["the"], o: ["a", "an", "my"], why: "under the weather — ಆರ್ಟಿಕಲ್ the ಹಾಗೆಯೇ ಇರಬೇಕು." },
 
-    { t: "type", p: "식은 죽 먹기예요", a: ["It's a piece of cake", "It is a piece of cake"], hint: "piece · cake — 관사를 잊지 마세요", x: ["the"], why: "a piece of cake — 관사 a를 꼭 붙여요." },
-    { t: "type", p: "잘되길 빌게요", a: ["I'll keep my fingers crossed", "I will keep my fingers crossed", "Fingers crossed"], hint: "keep · finger · crossed — 손가락은 몇 개?", x: ["finger"], why: "손가락 두 개를 꼬니까 복수형 fingers예요." },
-    { t: "type", p: "오늘은 여기까지 해요", a: ["Let's call it a day"], hint: "call it · day — the가 아니에요", x: ["the"], why: "call it a day — 관사 the가 아니라 a예요." }
+    { t: "type", p: "ಅದು ತುಂಬಾ ಸುಲಭ (cake ಇರುವ ನುಡಿಗಟ್ಟು)", a: ["It's a piece of cake", "It is a piece of cake"], hint: "piece · cake — ಆರ್ಟಿಕಲ್ ಮರೆಯಬೇಡಿ", x: ["the"], why: "a piece of cake — ಆರ್ಟಿಕಲ್ a ಬೇಕೇ ಬೇಕು." },
+    { t: "type", p: "ನಿನಗೆ ಒಳ್ಳೆಯದಾಗಲಿ ಎಂದು ಹಾರೈಸುತ್ತೇನೆ (fingers ಇರುವ ನುಡಿಗಟ್ಟು)", a: ["I'll keep my fingers crossed", "I will keep my fingers crossed", "Fingers crossed"], hint: "keep · finger · crossed — ಬೆರಳು ಎಷ್ಟು?", x: ["finger"], why: "ಎರಡು ಬೆರಳುಗಳನ್ನು ಒಂದರ ಮೇಲೊಂದು ಇಡುತ್ತಾರೆ, ಹಾಗಾಗಿ ಬಹುವಚನ fingers." },
+    { t: "type", p: "ಇವತ್ತಿಗೆ ಇಷ್ಟು ಸಾಕು (call ಇರುವ ನುಡಿಗಟ್ಟು)", a: ["Let's call it a day"], hint: "call it · day — the ಅಲ್ಲ", x: ["the"], why: "call it a day — ಆರ್ಟಿಕಲ್ the ಅಲ್ಲ, a." }
   ]
 };
