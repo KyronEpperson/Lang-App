@@ -1,453 +1,464 @@
-/* TRANSLATE/ADAPT (bn): scaffolded from tools/content/ko/more/a1.js by new_lang.js.
-   Translate/adapt everything that is not English (the ko text) for bn speakers (prompts, why, hint, meanings, pron per profile.json, deck and group names,
-   explanations written from the bn point of view — PILOT-SPEC §3). Keep every English string, lesson id and answer position
-   identical to ko-en unless deviations.json gives a reason (parity.js enforces it). Delete this banner when the file is done. */
-/* ko-en stage A1: new lessons (source of truth). Shorthand is expanded by _dsl.js. */
+/* bn-en stage A1: new lessons (source of truth). Shorthand is expanded by _dsl.js. */
 module.exports = [
-{ id:"it-there", title:"it과 there: 주어 자리 채우기", blurb:"날씨·시간은 it, '~이 있어요'는 there is / there are.", deck:"스몰토크", body:`
-<p>한국어는 "추워요", "카페가 있어요"처럼 주어 없이도 말이 돼요. 영어는 주어 자리가 비면 안 돼요. 그래서 뜻이 없는 <b>it</b>과 <b>there</b>로 그 자리를 채워요.</p>
-<h3>날씨·시간은 It</h3>
-<p>이때 it은 '그것'이 아니에요. 자리만 채우는 말이에요.</p>
-{{ex:It's cold today.|이츠 콜드 투데이|오늘 추워요}}{{ex:It's three o'clock.|이츠 쓰리 어클락|세 시예요}}{{ex:It's raining.|이츠 레이닝|비가 와요}}
-<h3>'~이 있어요'는 There is / There are</h3>
-<p>하나면 <b>There is a …</b>, 여럿이면 <b>There are … -s</b>예요. 말할 때는 There's로 줄여요.</p>
-{{ex:There's a cafe near here.|데어즈 어 캐페이 니어 히어|이 근처에 카페가 있어요}}{{ex:There are two rooms.|데어 아 투 룸즈|방이 두 개 있어요}}
-<h3>질문과 부정</h3>
-{{ex:Is there a bathroom here?|이즈 데어 어 배쓰룸 히어?|여기 화장실 있어요?}}{{ex:Are there any seats?|아 데어 애니 싯츠?|자리 있어요?}}{{ex:There isn't a bus today.|데어 이즌 어 버스 투데이|오늘은 버스가 없어요}}
-<h3>have와 구분하기</h3>
-<p>사람이 가진 것은 <b>have</b>, 어떤 장소에 있는 것은 <b>there is</b>예요.</p>
-{{ex:I have a car.|아이 해버 카|저는 차가 있어요}}{{ex:There's a car outside.|데어즈 어 카 아웃사이드|밖에 차가 있어요}}
-<div class="tip">가장 흔한 실수: <b>Is cold.</b> (X) → <b>It's cold.</b> (O) / <b>Have a cafe here.</b> (X) → <b>There's a cafe here.</b> (O)</div>`,
-check:[["'오늘 더워요'를 영어로 하면?",["Is hot today.","Today hot.","It's hot today.","There is hot today."],2,"날씨는 it으로 주어 자리를 채워요."],["There ___ three people. 빈칸에 알맞은 것은?",["is","are","have","be"],1,"여럿이면 there are예요."],["'여기 화장실 있어요?'를 영어로 하면?",["Is there a bathroom here?","Have a bathroom here?","Is it a bathroom here?","There is bathroom here?"],0,"있는지 물을 때는 Is there a ~?예요."]],
+{ id:"it-there", title:"it আর there: কর্তার জায়গা ফাঁকা থাকে না", blurb:"আবহাওয়া আর সময়ে it; \"আছে\" বোঝাতে there is / there are।", deck:"হালকা আলাপ", body:`
+<p>বাংলায় "আজ ঠান্ডা", "বৃষ্টি হচ্ছে", "কাছেই একটা ক্যাফে আছে" বলতে আলাদা কোনো কর্তা (subject) লাগে না। ইংরেজিতে কর্তার জায়গা ফাঁকা রাখা যায় না। তাই অর্থহীন <b>it</b> আর <b>there</b> দিয়ে জায়গাটা ভরতে হয়।</p>
+<h3>আবহাওয়া ও সময়: It</h3>
+<p>এখানে it মানে "এটা" নয়; শব্দটা শুধু কর্তার জায়গা ভরে। সঙ্গে be ক্রিয়া (is) থাকতেই হবে।</p>
+{{ex:It's cold today.|ইট্স ˈকৌল্ড টাˈডেই|আজ ঠান্ডা}}{{ex:It's three o'clock.|ইট্স ˈথ়্রী আˈক্লাːক|তিনটা বাজে}}{{ex:It's raining.|ইট্স ˈরেইনিং|বৃষ্টি হচ্ছে}}
+<h3>"আছে" বোঝাতে: There is / There are</h3>
+<p>বাংলায় জিনিস একটা হোক বা অনেক, "আছে" একই থাকে। ইংরেজিতে একটা হলে <b>There is a …</b>, একাধিক হলে <b>There are … -s</b>। বলার সময় There is ছোট হয়ে There's হয়।</p>
+{{ex:There's a cafe near here.|দ়ের্জ় আ ক্যাˈফেই নির ˈহির|কাছেই একটা ক্যাফে আছে}}{{ex:There are two rooms.|দ়ের আর ˈটূ ˈরূম্জ়|দুইটা রুম আছে}}
+<h3>প্রশ্ন ও না-বাচক বাক্য</h3>
+{{ex:Is there a bathroom here?|ইজ় দ়ের আ ˈব্যাথ়্রূম ˈহির|এখানে কি বাথরুম আছে?}}{{ex:Are there any seats?|আর দ়ের ˈএনি ˈসীট্স|সিট আছে?}}{{ex:There isn't a bus today.|দ়ের ˈইজ়ান্ট আ ˈবাস টাˈডেই|আজ কোনো বাস নেই}}
+<h3>have-এর সঙ্গে পার্থক্য</h3>
+<p>বাংলায় দুই জায়গাতেই "আছে": "আমার একটা গাড়ি আছে" আর "বাইরে একটা গাড়ি আছে"। ইংরেজিতে কারও <b>নিজের</b> কিছু থাকলে <b>have</b>, কোনো <b>জায়গায়</b> কিছু থাকলে <b>there is</b>।</p>
+{{ex:I have a car.|আই ˈহ্যাভ় আ ˈকাːর|আমার একটা গাড়ি আছে}}{{ex:There's a car outside.|দ়ের্জ় আ ˈকাːর আউট্ˈসাইড|বাইরে একটা গাড়ি আছে}}
+<div class="tip">সবচেয়ে বেশি যে ভুল হয়: <b>Is cold.</b> ✗ → <b>It's cold.</b> ✓ / <b>Have a cafe here.</b> ✗ → <b>There's a cafe here.</b> ✓</div>`,
+check:[["\"আজ গরম পড়েছে\" ইংরেজিতে?",["Is hot today.","Today hot.","It's hot today.","There is hot today."],2,"আবহাওয়ার কথায় কর্তার জায়গায় it বসে।"],["There ___ three people. শূন্যস্থানে কী বসবে?",["is","are","have","be"],1,"তিনজন মানে একাধিক, তাই there are।"],["\"এখানে কি বাথরুম আছে?\" ইংরেজিতে?",["Is there a bathroom here?","Have a bathroom here?","Is it a bathroom here?","There is bathroom here?"],0,"কোথাও কিছু আছে কি না জানতে Is there a …? বলুন।"]],
 practice:[
-["mc","'비가 와요' =","It's raining.","Is raining.","There is raining.","Rain is.","날씨는 it이 주어예요."],
-["mc","'이 근처에 카페가 있어요' =","There's a cafe near here.","It's a cafe near here.","Have a cafe near here.","There are a cafe near here.","장소에 있는 것은 there is, 하나라서 관사 a를 붙여요."],
-["mc","There ___ two rooms. 빈칸은?","are","is","have","has","복수 rooms라서 are예요."],
-["mc","'세 시예요' =","It's three o'clock.","There's three o'clock.","Is three o'clock.","Three o'clock is.","시간도 it으로 시작해요."],
-["mc","'저는 차가 있어요' =","I have a car.","There is a car me.","I am a car.","It's a car me.","사람이 가진 것은 have예요."],
-["or","오늘 추워요","It's cold today","There's","날씨는 it이 주어예요."],
-["or","밖에 차가 있어요","There's a car outside","cars","하나니까 관사 a와 단수 car를 써요."],
-["or","자리가 두 개 있어요","There are two seats","seat is","둘 이상이면 are와 복수 seats예요."],
-["fi","__ cold today.","오늘 추워요","It's|It is","Is|There's|This","주어 자리를 it으로 채워요."],
-["fi","There __ a bank near here.","근처에 은행이 있어요","is","are|have|be","하나라서 is예요."],
-["fi","__ there any seats?","자리 있어요?","Are","Is|Do|Have","복수 seats라서 Are예요."],
-["ty","오늘 더워요","It's hot today","it · hot · today — 날씨는 it","There's","날씨는 it으로 시작해요."],
-["ty","여기 화장실 있어요?","Is there a bathroom here|Is there a restroom here","is there · bathroom — 관사 주의","the","처음 묻는 하나라서 관사 a를 붙여요."],
-["ty","방이 두 개 있어요","There are two rooms","there are · two · room — 복수","room","둘이니까 복수 rooms예요."]]},
+["mc","\"বৃষ্টি হচ্ছে\" ইংরেজিতে?","It's raining.","Is raining.","There is raining.","Rain is.","আবহাওয়ার কথায় কর্তা it।"],
+["mc","\"কাছেই একটা ক্যাফে আছে\" ইংরেজিতে?","There's a cafe near here.","It's a cafe near here.","Have a cafe near here.","There are a cafe near here.","কোনো জায়গায় কিছু থাকলে there is; ক্যাফে একটা, তাই আর্টিকেল a।"],
+["mc","There ___ two rooms. শূন্যস্থানে কী বসবে?","are","is","have","has","rooms বহুবচন, তাই are।"],
+["mc","\"তিনটা বাজে\" ইংরেজিতে?","It's three o'clock.","There's three o'clock.","Is three o'clock.","Three o'clock is.","সময় বলতেও it দিয়ে শুরু করুন।"],
+["mc","\"আমার একটা গাড়ি আছে\" ইংরেজিতে?","I have a car.","There is a car me.","I am a car.","It's a car me.","কারও নিজের কিছু থাকলে have।"],
+["or","আজ ঠান্ডা","It's cold today","There's","আবহাওয়ার কথায় কর্তা it।"],
+["or","বাইরে একটা গাড়ি আছে","There's a car outside","cars","গাড়ি একটা, তাই আর্টিকেল a আর একবচন car।"],
+["or","দুইটা সিট আছে","There are two seats","seat is","দুই বা তার বেশি হলে are আর বহুবচন seats।"],
+["fi","__ cold today.","আজ ঠান্ডা","It's|It is","Is|There's|This","কর্তার জায়গায় it বসান; be ক্রিয়া is-ও বাদ দেওয়া যায় না।"],
+["fi","There __ a bank near here.","কাছেই একটা ব্যাংক আছে","is","are|have|be","ব্যাংক একটা, তাই is।"],
+["fi","__ there any seats?","সিট আছে?","Are","Is|Do|Have","seats বহুবচন, তাই Are।"],
+["ty","আজ গরম পড়েছে","It's hot today","it · hot · today — আবহাওয়ায় it","There's","আবহাওয়ার কথা it দিয়ে শুরু হয়।"],
+["ty","এখানে কি বাথরুম আছে?","Is there a bathroom here|Is there a restroom here","is there · bathroom — আর্টিকেল খেয়াল করুন","the","প্রথমবার একটা বাথরুমের কথা জিজ্ঞেস করছেন, তাই আর্টিকেল a।"],
+["ty","দুইটা রুম আছে","There are two rooms","there are · two · room — বহুবচন","room","দুইটা, তাই বহুবচন rooms।"]]},
 
-{ id:"plurals", title:"복수 -s와 this / these, my / your", blurb:"둘 이상이면 꼭 -s. this는 하나, these는 여럿.", deck:"쇼핑·계산", body:`
-<p>한국어는 "사과 세 개"처럼 명사 모양이 그대로예요. 영어는 둘 이상이면 명사에 꼭 <b>-s</b>를 붙여요. 한국인이 가장 자주 빼먹는 부분이에요.</p>
-<h3>복수 만들기</h3>
-<div class="tbl"><table><tr><th>규칙</th><th>예</th></tr><tr><td>대부분 -s</td><td class="k">book → books</td></tr><tr><td>s·x·ch·sh 뒤 -es</td><td class="k">box → boxes</td></tr><tr><td>자음 + y → -ies</td><td class="k">city → cities</td></tr><tr><td>불규칙</td><td class="k">man → men · child → children · person → people</td></tr></table></div>
-{{ex:two books|투 북스|책 두 권}}{{ex:three boxes|쓰리 박시즈|상자 세 개}}{{ex:I have two children.|아이 해브 투 칠드런|저는 아이가 둘 있어요}}
-<h3>this / that 은 하나, these / those 는 여럿</h3>
-{{ex:This is my bag.|디스 이즈 마이 백|이건 제 가방이에요}}{{ex:These are my keys.|디즈 아 마이 키즈|이것들은 제 열쇠예요}}{{ex:Those shoes are nice.|도즈 슈즈 아 나이스|저 신발 예뻐요}}
+{ id:"plurals", title:"বহুবচনের -s, this / these, my / your", blurb:"দুই বা তার বেশি হলে -s লাগবেই। this একটার জন্য, these অনেকের জন্য।", deck:"কেনাকাটা ও বিল", body:`
+<p>বাংলায় "দুইটা বই", "তিনজন বন্ধু" বললে সংখ্যার গায়ে -টা / -জন লাগে, কিন্তু বিশেষ্য (noun) বদলায় না। ইংরেজিতে দুই বা তার বেশি হলে বিশেষ্যের শেষে <b>-s</b> লাগবেই: <b>two books</b>, <b>three friends</b>। এটাই বহুবচন (plural)। বাংলাভাষীরা এই -s খুব সহজে বাদ দিয়ে ফেলেন।</p>
+<h3>বহুবচন বানানোর নিয়ম</h3>
+<div class="tbl"><table><tr><th>নিয়ম</th><th>উদাহরণ</th></tr><tr><td>বেশির ভাগ শব্দে -s</td><td class="k">book → books</td></tr><tr><td>s, x, ch, sh-এর পরে -es</td><td class="k">box → boxes</td></tr><tr><td>ব্যঞ্জনবর্ণ + y → -ies</td><td class="k">city → cities</td></tr><tr><td>অনিয়মিত</td><td class="k">man → men · woman → women · child → children · person → people</td></tr></table></div>
+{{ex:two books|ˈটূ ˈবুক্স|দুইটা বই}}{{ex:three boxes|ˈথ়্রী ˈবাːক্সিজ়|তিনটা বাক্স}}{{ex:I have two children.|আই ˈহ্যাভ় ˈটূ ˈচিল্ড্রান|আমার দুই সন্তান আছে}}
+<p>অনিয়মিত বহুবচনের শেষে আবার -s বসে না: <b>womens</b> ✗ → <b>women</b> ✓, <b>childrens</b> ✗ → <b>children</b> ✓। আর বাংলায় -রা বা -গুলো না বসালেও চলে ("আমার অনেক বন্ধু আছে"), কিন্তু ইংরেজিতে -s লাগবেই: <b>I have many friends.</b></p>
+<h3>this / that একটার জন্য, these / those অনেকের জন্য</h3>
+<p>বাংলায় "এই বই" আর "এই বইগুলো": দুটোতেই "এই"। ইংরেজিতে শব্দটাই বদলে যায়।</p>
+{{ex:This is my bag.|ˈদ়িস ইজ় মাই ˈব্যাগ|এটা আমার ব্যাগ}}{{ex:These are my keys.|ˈদ়ীজ় আর মাই ˈকীজ়|এগুলো আমার চাবি}}{{ex:Those shoes are nice.|ˈদ়ৌজ় ˈশূজ় আর ˈনাইস|ওই জুতাগুলো সুন্দর}}
 <h3>my, your, his, her, our, their</h3>
-<p>'누구의'를 말하는 단어예요. 이 단어가 있으면 a나 the를 같이 쓰지 않아요.</p>
-{{ex:Is this your phone?|이즈 디스 유어 폰?|이거 당신 휴대폰이에요?}}{{ex:Her brothers live in Busan.|허 브라더즈 리브 인 부산|그녀의 오빠들은 부산에 살아요}}
-<div class="tip">숫자, many, these, those 뒤의 명사는 항상 복수예요: <b>two friend</b> (X) → <b>two friends</b> (O), <b>my a bag</b> (X) → <b>my bag</b> (O)</div>`,
-check:[["I have two ___. 빈칸에 알맞은 것은?",["sister","sisters","a sister","sister's"],1,"둘이니까 복수 sisters예요."],["___ are my keys. 빈칸에 알맞은 것은?",["This","That","These","It"],2,"keys가 복수라서 These예요."],["'이건 제 가방이에요'를 영어로 하면?",["This is my a bag.","This is a my bag.","This is bag my.","This is my bag."],3,"my가 있으면 관사를 붙이지 않아요."]],
+<p>এগুলো মালিকানা বোঝানো শব্দ: জিনিসটা কার, তা বলে। বাংলায় "তার" দিয়ে ছেলে-মেয়ে দুজনকেই বোঝায়; ইংরেজিতে ছেলের বেলায় <b>his</b>, মেয়ের বেলায় <b>her</b>। এই শব্দগুলো থাকলে সঙ্গে a বা the বসে না। বাংলায় "আমার ব্যাগটা" বলা যায়, কিন্তু ইংরেজিতে শুধু <b>my bag</b>।</p>
+{{ex:Is this your phone?|ইজ় ˈদ়িস ইউর ˈফৌন|এটা কি আপনার ফোন?}}{{ex:Her brothers live in Dhaka.|হার ˈব্রাদ়ার্জ় ˈলিভ় ইন ˈডাːকা|তার (মেয়ে) ভাইয়েরা ঢাকায় থাকে}}
+<div class="tip">সংখ্যা, many, these, those-এর পরে বিশেষ্য সব সময় বহুবচন: <b>two friend</b> ✗ → <b>two friends</b> ✓, <b>my a bag</b> ✗ → <b>my bag</b> ✓</div>`,
+check:[["I have two ___. শূন্যস্থানে কী বসবে?",["sister","sisters","a sister","sister's"],1,"দুইজন, তাই বহুবচন sisters।"],["___ are my keys. শূন্যস্থানে কী বসবে?",["This","That","These","It"],2,"keys বহুবচন, তাই These।"],["\"এটা আমার ব্যাগ\" ইংরেজিতে?",["This is my a bag.","This is a my bag.","This is bag my.","This is my bag."],3,"my থাকলে আর্টিকেল বসে না।"]],
 practice:[
-["mc","'책 두 권' =","two books","two book","two a book","twos book","둘 이상이면 복수 -s를 붙여요."],
-["mc","child의 복수형은?","children","childs","childes","child","불규칙 복수예요."],
-["mc","___ shoes are nice. (저 신발)","Those","That","This","It","shoes가 복수라서 those예요."],
-["mc","'이건 제 가방이에요' =","This is my bag.","This is a my bag.","This is my a bag.","This is the my bag.","my와 관사는 같이 쓰지 않아요."],
-["mc","box의 복수형은?","boxes","boxs","boxies","box","s, x, ch, sh 뒤에는 -es예요."],
-["or","이것들은 제 열쇠예요","These are my keys","key This","여럿이라 these와 복수 keys를 써요."],
-["or","저는 아이가 둘 있어요","I have two children","child a","둘이니까 복수 children이에요. 관사 a는 빼요."],
-["or","저 신발 예뻐요","Those shoes are nice","That","shoes가 복수라서 those예요."],
-["fi","I have three __.","저는 고양이가 세 마리 있어요","cats","cat|a cat|cat's","셋이니까 복수 cats예요."],
-["fi","__ is my friend.","이 사람은 제 친구예요","This","These|Those|They","한 명이라서 this예요."],
-["fi","Two __, please.","커피 두 잔 주세요","coffees","coffee|a coffee|coffee's","잔 수를 세어 주문할 때는 coffees처럼 복수로 말해요."],
-["ty","이것들은 제 책이에요","These are my books","these · my · book — 복수","book","여럿이라 these와 복수 books예요."],
-["ty","저는 언니가 둘 있어요","I have two sisters","have · two · sister — 복수","sister","둘이니까 복수 sisters예요."],
-["ty","이건 제 가방이에요","This is my bag","this · my · bag — 관사 없이","a","my가 있으면 관사 a를 쓰지 않아요."]]},
-{ id:"present", title:"현재형과 어순: 주어 + 동사 + 목적어", blurb:"한국어는 동사가 끝, 영어는 동사가 두 번째예요.", deck:"자기소개", body:`
-<p>한국어는 "저는 커피를 <b>마셔요</b>"처럼 동사가 맨 끝에 와요. 영어는 <b>누가 → 한다 → 무엇을</b> 순서예요. 조사가 없기 때문에 이 순서가 곧 뜻이에요.</p>
-<h3>주어 + 동사 + 목적어</h3>
-{{ex:I drink coffee.|아이 드링크 커피|저는 커피를 마셔요}}{{ex:I study English.|아이 스터디 잉글리시|저는 영어를 공부해요}}
-<h3>장소와 시간은 뒤에</h3>
-<p>나머지 정보는 <b>장소 → 시간</b> 순서로 뒤에 붙여요.</p>
-{{ex:We live in Seoul.|위 리브 인 서울|우리는 서울에 살아요}}{{ex:I study English every day.|아이 스터디 잉글리시 에브리 데이|저는 매일 영어를 공부해요}}{{ex:They work on weekends.|데이 워크 온 위켄즈|그들은 주말에 일해요}}
-<h3>현재형은 습관과 사실</h3>
-<p>늘 하는 일, 변하지 않는 사실을 말해요. 부정은 동사 앞에 <b>don't</b>를 넣어요.</p>
-{{ex:I don't eat meat.|아이 돈 잇 밋|저는 고기를 안 먹어요}}
-<h3>얼마나 자주: always, usually, sometimes, never</h3>
-<p>이 단어들은 동사 <b>바로 앞</b>에 와요.</p>
-{{ex:I usually get up at seven.|아이 유주얼리 게럽 앳 세븐|저는 보통 7시에 일어나요}}{{ex:I never drink coffee at night.|아이 네버 드링크 커피 앳 나잇|저는 밤에는 커피를 절대 안 마셔요}}
-<div class="tip">한국어 순서대로 옮기면 틀려요: <b>I coffee drink.</b> (X) → <b>I drink coffee.</b> (O). 주어 다음에 바로 동사를 말하는 연습을 하세요.</div>`,
-check:[["'저는 커피를 마셔요'의 바른 어순은?",["I coffee drink.","Coffee I drink.","I drink coffee.","Drink I coffee."],2,"주어 + 동사 + 목적어 순서예요."],["I ___ eat meat. (안 먹어요)",["not","am not","no","don't"],3,"일반동사 부정은 don't예요."],["always의 알맞은 자리는?",["I always drink tea.","Always I drink tea.","I drink always tea.","I drink tea the always."],0,"빈도 부사는 동사 바로 앞에 와요."]],
+["mc","\"দুইটা বই\" ইংরেজিতে?","two books","two book","two a book","twos book","দুই বা তার বেশি হলে বহুবচনের -s লাগে।"],
+["mc","child-এর বহুবচন?","children","childs","childes","child","এটা অনিয়মিত বহুবচন: child → children।"],
+["mc","___ shoes are nice. (ওই জুতাগুলো)","Those","That","This","It","shoes বহুবচন, তাই those।"],
+["mc","\"এটা আমার ব্যাগ\" ইংরেজিতে?","This is my bag.","This is a my bag.","This is my a bag.","This is the my bag.","my-এর সঙ্গে আর্টিকেল বসে না।"],
+["mc","box-এর বহুবচন?","boxes","boxs","boxies","box","s, x, ch, sh-এর পরে -es বসে।"],
+["or","এগুলো আমার চাবি","These are my keys","key This","একাধিক জিনিস, তাই these আর বহুবচন keys।"],
+["or","আমার দুই সন্তান আছে","I have two children","child a","দুইজন, তাই বহুবচন children; আর্টিকেল a বসবে না।"],
+["or","ওই জুতাগুলো সুন্দর","Those shoes are nice","That","shoes বহুবচন, তাই those।"],
+["fi","I have three __.","আমার তিনটা বিড়াল আছে","cats","cat|a cat|cat's","তিনটা, তাই বহুবচন cats।"],
+["fi","__ is my friend.","এ হলো আমার বন্ধু","This","These|Those|They","একজন, তাই this।"],
+["fi","Two __, please.","দুইটা কফি দিন","coffees","coffee|a coffee|coffee's","অর্ডার করার সময় কাপ গুনে বলা হয়, তাই বহুবচন coffees।"],
+["ty","এগুলো আমার বই","These are my books","these · my · book — বহুবচন","book","একাধিক জিনিস, তাই these আর বহুবচন books।"],
+["ty","আমার দুই বোন আছে","I have two sisters","have · two · sister — বহুবচন","sister","দুইজন, তাই বহুবচন sisters। বাংলায় \"দুই বোন\", ইংরেজিতে -s চাই।"],
+["ty","এটা আমার ব্যাগ","This is my bag","this · my · bag — আর্টিকেল ছাড়া","a","my থাকলে আর্টিকেল a বসে না।"]]},
+{ id:"present", title:"Present Simple ও শব্দের ক্রম: কর্তা + ক্রিয়া + কর্ম", blurb:"বাংলায় ক্রিয়া বাক্যের শেষে, ইংরেজিতে কর্তার ঠিক পরে।", deck:"নিজের পরিচয়", body:`
+<p>বাংলায় ক্রিয়া বাক্যের শেষে বসে: "আমি কফি <b>খাই</b>"। ইংরেজির ক্রম হলো <b>কে → কী করে → কী</b>, অর্থাৎ কর্তা (subject) + ক্রিয়া + কর্ম (object)। ইংরেজিতে -কে, -এ-র মতো বিভক্তি নেই, তাই শব্দের ক্রমই অর্থ ঠিক করে।</p>
+<h3>কর্তা + ক্রিয়া + কর্ম</h3>
+{{ex:I drink coffee.|আই ˈড্রিংক ˈকফি|আমি কফি খাই}}{{ex:I study English.|আই ˈস্টাডি ˈইংগ্লিশ|আমি ইংরেজি পড়ি}}
+<h3>জায়গা আর সময় পরে</h3>
+<p>বাকি তথ্য ক্রিয়া ও কর্মের পরে বসে, <b>জায়গা → সময়</b> ক্রমে।</p>
+{{ex:We live in Dhaka.|ওয়ি ˈলিভ় ইন ˈডাːকা|আমরা ঢাকায় থাকি}}{{ex:I study English every day.|আই ˈস্টাডি ˈইংগ্লিশ ˈএভ়্রি ˈডেই|আমি প্রতিদিন ইংরেজি পড়ি}}{{ex:They work on weekends.|দ়েই ˈওয়ার্ক আːন ˈওয়ীকেন্ড্জ়|তারা সাপ্তাহিক ছুটির দিনে কাজ করে}}
+<h3>Present Simple: অভ্যাস আর সত্য</h3>
+<p>যা নিয়মিত করেন বা যা সব সময় সত্য, তা Present Simple-এ বলুন। বাংলায় ক্রিয়া কর্তা অনুযায়ী বদলায় (আমি করি, তুমি করো); ইংরেজিতে I, you, we, they-এর সঙ্গে ক্রিয়া একই থাকে। না-বাচক বাক্যে বাংলার "না" বসে ক্রিয়ার পরে, কিন্তু ইংরেজির <b>don't</b> বসে ক্রিয়ার <b>আগে</b>।</p>
+{{ex:I don't eat meat.|আই ˈডৌন্ট ˈঈট ˈমীট|আমি মাংস খাই না}}
+<h3>কত ঘন ঘন: always, usually, sometimes, never</h3>
+<p>এই শব্দগুলো ক্রিয়ার <b>ঠিক আগে</b> বসে।</p>
+{{ex:I usually get up at seven.|আই ˈইঊঝ়ুআলি ˈগেট ˈআপ আট ˈসেভ়ান|আমি সাধারণত সাতটায় উঠি}}{{ex:I never drink coffee at night.|আই ˈনেভ়ার ˈড্রিংক ˈকফি আট ˈনাইট|আমি রাতে কখনো কফি খাই না}}
+<div class="tip">বাংলার ক্রমে শব্দ বসালে ভুল হবে: <b>I coffee drink.</b> ✗ → <b>I drink coffee.</b> ✓ কর্তার পরেই ক্রিয়া বলার অভ্যাস করুন।</div>`,
+check:[["\"আমি কফি খাই\"-এর সঠিক শব্দের ক্রম কোনটি?",["I coffee drink.","Coffee I drink.","I drink coffee.","Drink I coffee."],2,"ক্রম হলো কর্তা + ক্রিয়া + কর্ম।"],["I ___ eat meat. (খাই না)",["not","am not","no","don't"],3,"be ছাড়া অন্য ক্রিয়ার না-বাচক বাক্যে don't বসে।"],["always কোথায় বসবে?",["I always drink tea.","Always I drink tea.","I drink always tea.","I drink tea the always."],0,"কত ঘন ঘন, তা বোঝানো শব্দ ক্রিয়ার ঠিক আগে বসে।"]],
 practice:[
-["mc","'저는 영어를 공부해요' =","I study English.","I English study.","I am study English.","Study I English.","주어 + 동사 + 목적어 순서예요."],
-["mc","'저는 고기를 안 먹어요' =","I don't eat meat.","I not eat meat.","I'm not eat meat.","I eat not meat.","일반동사 부정은 don't예요."],
-["mc","'우리는 서울에 살아요' =","We live in Seoul.","We in Seoul live.","We are live in Seoul.","We live Seoul in.","동사 다음에 장소가 와요."],
-["mc","'저는 보통 7시에 일어나요' =","I usually get up at seven.","Usually I get up seven.","I get usually up at seven.","I am usually get up at seven.","usually는 동사 바로 앞에 와요."],
-["mc","매일 하는 일을 말하는 문장은?","I drink coffee every day.","I'm drinking coffee now.","I drank coffee.","I will drink coffee.","습관은 현재형으로 말해요."],
-["or","저는 매일 커피를 마셔요","I drink coffee every day","the am","습관은 현재형이에요. 일반적인 coffee에는 관사를 붙이지 않아요."],
-["or","저는 책을 많이 읽어요","I read many books","book","many 뒤에는 복수 books가 와요."],
-["or","우리는 주말에 일해요","We work on weekends","are","일반동사 앞에 be동사를 겹쳐 쓰지 않아요."],
-["fi","I __ like fish.","저는 생선을 안 좋아해요","don't|do not","not|am not|no","일반동사 부정은 don't예요."],
-["fi","I __ English every day.","저는 매일 영어를 공부해요","study","am study|studying|to study","현재형은 동사를 그대로 써요."],
-["fi","They live __ Busan.","그들은 부산에 살아요","in","at|on|to","도시 앞에는 in이에요."],
-["ty","저는 차를 마셔요","I drink tea","drink · tea — 관사 없이","a","일반적인 tea에는 관사를 붙이지 않아요."],
-["ty","저는 고양이를 좋아해요","I like cats","like · cat — 복수로","cat","그 동물 전체를 말할 때는 복수 cats예요."],
-["ty","저는 고기를 안 먹어요","I don't eat meat","don't · eat · meat","am","일반동사 부정은 don't예요."]]},
-{ id:"questions", title:"질문 만들기: Do you ~?와 의문사", blurb:"끝만 올리면 안 돼요. Do를 앞에, 의문사는 맨 앞에.", deck:"생존 영어 2", body:`
-<p>한국어는 끝만 올리면 질문이 돼요. 영어는 <b>단어 순서</b>를 바꿔야 질문이에요.</p>
-<h3>be동사: 자리 바꾸기</h3>
-{{ex:Are you okay?|아 유 오케이?|괜찮아요?}}{{ex:Is this your bag?|이즈 디스 유어 백?|이거 당신 가방이에요?}}
-<h3>일반동사: Do를 앞에</h3>
-<p>문장 앞에 <b>Do</b>를 붙여요. 나머지 순서는 그대로예요.</p>
-{{ex:Do you like coffee?|두 유 라익 커피?|커피 좋아하세요?}}{{ex:Do you speak English?|두 유 스픽 잉글리시?|영어 하세요?}}
-<p>대답은 짧게 해요: <b>Yes, I do.</b> / <b>No, I don't.</b></p>
-<h3>의문사는 맨 앞에</h3>
-<p>what(무엇), where(어디), when(언제), who(누구), why(왜), how(어떻게)를 맨 앞에 두고 질문 순서를 그대로 이어요.</p>
-{{ex:Where do you live?|웨어 두 유 리브?|어디 사세요?}}{{ex:What do you do?|왓 두 유 두?|무슨 일 하세요?}}{{ex:Where is the bathroom?|웨어 이즈 더 배쓰룸?|화장실이 어디예요?}}{{ex:How much is this?|하우 머치 이즈 디스?|이거 얼마예요?}}
-<div class="tip">가장 흔한 실수: <b>Where you live?</b> (X) → <b>Where do you live?</b> (O), <b>Are you like coffee?</b> (X) → <b>Do you like coffee?</b> (O)</div>`,
-check:[["'커피 좋아하세요?'를 영어로 하면?",["Are you like coffee?","Do you like coffee?","You do like coffee?","Like you coffee?"],1,"일반동사 질문은 Do로 시작해요."],["'어디 사세요?'를 영어로 하면?",["Where you live?","Where are you live?","Where do you live?","You live where do?"],2,"의문사 + do + 주어 + 동사 순서예요."],["Do you speak English?의 알맞은 대답은?",["Yes, I am.","Yes, I speak.","Yes, I does.","Yes, I do."],3,"Do로 물으면 do로 대답해요."]],
+["mc","\"আমি ইংরেজি পড়ি\" ইংরেজিতে?","I study English.","I English study.","I am study English.","Study I English.","ক্রম হলো কর্তা + ক্রিয়া + কর্ম।"],
+["mc","\"আমি মাংস খাই না\" ইংরেজিতে?","I don't eat meat.","I not eat meat.","I'm not eat meat.","I eat not meat.","be ছাড়া অন্য ক্রিয়ার না-বাচক বাক্যে don't বসে, ক্রিয়ার আগে।"],
+["mc","\"আমরা সিউলে থাকি\" ইংরেজিতে?","We live in Seoul.","We in Seoul live.","We are live in Seoul.","We live Seoul in.","ক্রিয়ার পরে জায়গা বসে।"],
+["mc","\"আমি সাধারণত সাতটায় উঠি\" ইংরেজিতে?","I usually get up at seven.","Usually I get up seven.","I get usually up at seven.","I am usually get up at seven.","usually ক্রিয়ার ঠিক আগে বসে।"],
+["mc","কোন বাক্যটি প্রতিদিনের অভ্যাস বোঝায়?","I drink coffee every day.","I'm drinking coffee now.","I drank coffee.","I will drink coffee.","অভ্যাস Present Simple-এ বলা হয়।"],
+["or","আমি প্রতিদিন কফি খাই","I drink coffee every day","the am","অভ্যাস Present Simple-এ বলা হয়। সাধারণভাবে coffee বললে আর্টিকেল বসে না।"],
+["or","আমি অনেক বই পড়ি","I read many books","book","many-এর পরে বহুবচন books বসে।"],
+["or","আমরা সাপ্তাহিক ছুটির দিনে কাজ করি","We work on weekends","are","be ছাড়া অন্য ক্রিয়ার আগে আবার be ক্রিয়া বসে না।"],
+["fi","I __ like fish.","আমি মাছ পছন্দ করি না","don't|do not","not|am not|no","be ছাড়া অন্য ক্রিয়ার না-বাচক বাক্যে don't বসে।"],
+["fi","I __ English every day.","আমি প্রতিদিন ইংরেজি পড়ি","study","am study|studying|to study","Present Simple-এ I-এর সঙ্গে ক্রিয়ার মূল রূপ বসে।"],
+["fi","They live __ Busan.","তারা বুসানে থাকে","in","at|on|to","শহরের নামের আগে in বসে।"],
+["ty","আমি চা খাই","I drink tea","drink · tea — আর্টিকেল ছাড়া","a","সাধারণভাবে tea বললে আর্টিকেল বসে না।"],
+["ty","আমি বিড়াল পছন্দ করি","I like cats","like · cat — বহুবচনে","cat","সব বিড়ালের কথা সাধারণভাবে বললে বহুবচন cats।"],
+["ty","আমি মাংস খাই না","I don't eat meat","don't · eat · meat","am","be ছাড়া অন্য ক্রিয়ার না-বাচক বাক্যে don't বসে।"]]},
+{ id:"questions", title:"প্রশ্ন করা: Do you …? ও প্রশ্নবোধক শব্দ", blurb:"শুধু \"কি\" বসালে বা সুর তুললে হয় না। Do সামনে, প্রশ্নবোধক শব্দ একদম শুরুতে।", deck:"জরুরি ইংরেজি 2", body:`
+<p>বাংলায় বাক্যে "কি" বসালে বা শেষে সুর তুললেই প্রশ্ন হয়: "তুমি কি চা খাও?" ইংরেজিতে প্রশ্ন করতে <b>শব্দের ক্রম</b> বদলাতে হয়।</p>
+<h3>be ক্রিয়া: জায়গা বদল</h3>
+<p>am, is, are কর্তার আগে চলে আসে।</p>
+{{ex:Are you okay?|আর ইউ ঔˈকেই|তুমি ঠিক আছ?}}{{ex:Is this your bag?|ইজ় ˈদ়িস ইউর ˈব্যাগ|এটা কি আপনার ব্যাগ?}}
+<h3>অন্য ক্রিয়া: সামনে Do</h3>
+<p>বাক্যে be ছাড়া অন্য ক্রিয়া (like, live, speak) থাকলে সামনে <b>Do</b> বসান। বাকি ক্রম যেমন ছিল তেমনই থাকে। বাংলার "কি"-র কাজটা এখানে Do করে।</p>
+{{ex:Do you like coffee?|ডা ইউ ˈলাইক ˈকফি|আপনি কি কফি পছন্দ করেন?}}{{ex:Do you speak English?|ডা ইউ ˈস্পীক ˈইংগ্লিশ|আপনি কি ইংরেজি বলেন?}}
+<p>উত্তর ছোট করে দিন: <b>Yes, I do.</b> / <b>No, I don't.</b></p>
+<h3>প্রশ্নবোধক শব্দ একদম শুরুতে</h3>
+<p>বাংলায় প্রশ্নবোধক শব্দ বাক্যের ভেতরেই থাকে: "তুমি <b>কোথায়</b> থাকো?" ইংরেজিতে what (কী), where (কোথায়), when (কখন), who (কে), why (কেন), how (কীভাবে) একদম শুরুতে আসে, তারপর প্রশ্নের ক্রম।</p>
+{{ex:Where do you live?|ˈওয়ের ডা ইউ ˈলিভ়|আপনি কোথায় থাকেন?}}{{ex:What do you do?|ˈওয়াট ডা ইউ ˈডূ|আপনি কী করেন? (পেশা)}}{{ex:Where is the bathroom?|ˈওয়ের ইজ় দ়া ˈব্যাথ়্রূম|বাথরুমটা কোথায়?}}{{ex:How much is this?|ˈহাউ ˈমাচ ইজ় ˈদ়িস|এটার দাম কত?}}
+<div class="tip">সবচেয়ে বেশি যে ভুল হয়: <b>Where you live?</b> ✗ / <b>You live where?</b> ✗ → <b>Where do you live?</b> ✓, <b>Are you like coffee?</b> ✗ → <b>Do you like coffee?</b> ✓</div>`,
+check:[["\"আপনি কি কফি পছন্দ করেন?\" ইংরেজিতে?",["Are you like coffee?","Do you like coffee?","You do like coffee?","Like you coffee?"],1,"be ছাড়া অন্য ক্রিয়ার প্রশ্ন Do দিয়ে শুরু হয়।"],["\"আপনি কোথায় থাকেন?\" ইংরেজিতে?",["Where you live?","Where are you live?","Where do you live?","You live where do?"],2,"ক্রম হলো প্রশ্নবোধক শব্দ + do + কর্তা + ক্রিয়া।"],["Do you speak English?-এর সঠিক উত্তর কোনটি?",["Yes, I am.","Yes, I speak.","Yes, I does.","Yes, I do."],3,"Do দিয়ে প্রশ্ন করলে do দিয়ে উত্তর দিন।"]],
 practice:[
-["mc","'영어 하세요?' =","Do you speak English?","Are you speak English?","You speak English do?","Speak you English?","일반동사 질문은 Do로 시작해요."],
-["mc","'어디 사세요?' =","Where do you live?","Where you live?","Where are you live?","Where live you?","의문사 + do + 주어 + 동사예요."],
-["mc","'이거 얼마예요?' =","How much is this?","How much this is?","How much does this?","What much is this?","가격은 How much is ~?로 물어요."],
-["mc","Do you like tea? — 알맞은 대답은?","Yes, I do.","Yes, I am.","Yes, I like.","Yes, I does.","Do로 물으면 do로 대답해요."],
-["mc","'무슨 일 하세요?' (직업) =","What do you do?","What are you do?","What you do?","What do you?","직업은 What do you do?로 물어요."],
-["or","커피 좋아하세요?","Do you like coffee","Are the","일반동사 질문은 Do로 시작해요. 일반적인 coffee에는 관사가 없어요."],
-["or","화장실이 어디예요?","Where is the bathroom","a do","이 건물의 그 화장실이라서 관사 the예요."],
-["or","어디 사세요?","Where do you live","are","일반동사 질문에는 do가 필요해요."],
-["fi","__ you like music?","음악 좋아하세요?","Do","Are|Is|Does","일반동사 like의 질문은 Do예요."],
-["fi","__ do you live?","어디 사세요?","Where","What|Who|When","장소를 물을 때는 where예요."],
-["fi","What time __ it?","몇 시예요?","is","do|does|are","시간은 be동사로 물어요."],
-["ty","영어 하세요?","Do you speak English|Can you speak English","do · speak · English","Are","일반동사 질문은 Do로 시작해요."],
-["ty","화장실이 어디예요?","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom","where · bathroom — 관사 the","a","서로 아는 그 화장실이라 관사 the예요."],
-["ty","개 좋아하세요?","Do you like dogs","do · like · dog — 복수","dog","동물 전체를 말할 때는 복수 dogs예요."]]},
-{ id:"third-s", title:"he·she·it에는 -s: does / doesn't", blurb:"주어가 한 사람이면 동사에 -s. 질문과 부정은 does.", deck:"자기소개", body:`
-<p>현재형에서 주어가 <b>he, she, it</b>이나 한 사람·한 물건이면 동사에 <b>-s</b>를 붙여요. 한국어에 없는 규칙이라 말할 때 자주 빠져요.</p>
-<div class="tbl"><table><tr><th>주어</th><th>동사</th></tr><tr><td>I / you / we / they</td><td class="k">work</td></tr><tr><td>he / she / it / my mom</td><td class="k">works</td></tr></table></div>
-{{ex:She works at a bank.|쉬 웍스 앳 어 뱅크|그녀는 은행에서 일해요}}{{ex:He likes soccer.|히 라익스 사커|그는 축구를 좋아해요}}{{ex:My mom cooks well.|마이 맘 쿡스 웰|우리 엄마는 요리를 잘해요}}
-<h3>모양이 조금 바뀌는 동사</h3>
-{{ex:She has a car.|쉬 해즈 어 카|그녀는 차가 있어요 (have → has)}}{{ex:He goes to work at eight.|히 고우즈 투 워크 앳 에잇|그는 8시에 출근해요 (go → goes)}}{{ex:She studies English.|쉬 스터디즈 잉글리시|그녀는 영어를 공부해요 (study → studies)}}
-<h3>부정과 질문은 does</h3>
-<p><b>doesn't</b>나 <b>Does</b>를 쓰면 -s는 거기로 옮겨 가요. 뒤의 동사는 -s 없이 써요.</p>
-{{ex:He doesn't drink coffee.|히 더즌 드링크 커피|그는 커피를 안 마셔요}}{{ex:Does she live here?|더즈 쉬 리브 히어?|그녀는 여기 살아요?}}
-<div class="tip">가장 흔한 실수: <b>She work here.</b> (X) → <b>She works here.</b> (O), <b>Does she works?</b> (X) → <b>Does she work?</b> (O)</div>`,
-check:[["She ___ in Seoul. 빈칸에 알맞은 것은?",["live","lives","living","is live"],1,"she라서 동사에 -s를 붙여요."],["He ___ like coffee. 빈칸에 알맞은 것은?",["don't","isn't","doesn't","not"],2,"he의 부정은 doesn't예요."],["'그녀는 차가 있어요'를 영어로 하면?",["She has a car.","She have a car.","She haves a car.","She is have a car."],0,"have는 she 뒤에서 has가 돼요."]],
+["mc","\"আপনি কি ইংরেজি বলেন?\" ইংরেজিতে?","Do you speak English?","Are you speak English?","You speak English do?","Speak you English?","be ছাড়া অন্য ক্রিয়ার প্রশ্ন Do দিয়ে শুরু হয়।"],
+["mc","\"আপনি কোথায় থাকেন?\" ইংরেজিতে?","Where do you live?","Where you live?","Where are you live?","Where live you?","ক্রম হলো প্রশ্নবোধক শব্দ + do + কর্তা + ক্রিয়া।"],
+["mc","\"এটার দাম কত?\" ইংরেজিতে?","How much is this?","How much this is?","How much does this?","What much is this?","দাম জানতে How much is …? বলুন।"],
+["mc","Do you like tea? — সঠিক উত্তর কোনটি?","Yes, I do.","Yes, I am.","Yes, I like.","Yes, I does.","Do দিয়ে প্রশ্ন করলে do দিয়ে উত্তর দিন।"],
+["mc","\"আপনি কী করেন?\" (পেশা) ইংরেজিতে?","What do you do?","What are you do?","What you do?","What do you?","পেশা জানতে What do you do? বলা হয়।"],
+["or","আপনি কি কফি পছন্দ করেন?","Do you like coffee","Are the","be ছাড়া অন্য ক্রিয়ার প্রশ্ন Do দিয়ে শুরু হয়। সাধারণভাবে coffee বললে আর্টিকেল বসে না।"],
+["or","বাথরুমটা কোথায়?","Where is the bathroom","a do","এই ভবনের নির্দিষ্ট বাথরুমটা, তাই আর্টিকেল the।"],
+["or","আপনি কোথায় থাকেন?","Where do you live","are","be ছাড়া অন্য ক্রিয়ার প্রশ্নে do লাগে।"],
+["fi","__ you like music?","আপনি কি গান পছন্দ করেন?","Do","Are|Is|Does","like-এর প্রশ্নে Do বসে।"],
+["fi","__ do you live?","আপনি কোথায় থাকেন?","Where","What|Who|When","জায়গা জানতে where।"],
+["fi","What time __ it?","কয়টা বাজে?","is","do|does|are","সময় জানতে be ক্রিয়া দিয়ে প্রশ্ন করা হয়।"],
+["ty","আপনি কি ইংরেজি বলেন?","Do you speak English|Can you speak English","do · speak · English","Are","be ছাড়া অন্য ক্রিয়ার প্রশ্ন Do দিয়ে শুরু হয়।"],
+["ty","বাথরুমটা কোথায়?","Where is the bathroom|Where is the restroom|Where's the bathroom|Where's the restroom","where · bathroom — আর্টিকেল the","a","দুজনেই বুঝছেন কোন বাথরুম, তাই আর্টিকেল the।"],
+["ty","আপনি কি কুকুর পছন্দ করেন?","Do you like dogs","do · like · dog — বহুবচন","dog","সব কুকুরের কথা সাধারণভাবে বললে বহুবচন dogs।"]]},
+{ id:"third-s", title:"he, she, it-এর সঙ্গে -s: does / doesn't", blurb:"কর্তা একজন বা একটা হলে ক্রিয়ায় -s। প্রশ্ন আর না-বাচক বাক্যে does।", deck:"নিজের পরিচয়", body:`
+<p>বাংলায় "সে কাজ করে" আর "তারা কাজ করে": ক্রিয়া একই। ইংরেজির Present Simple-এ কর্তা <b>he, she, it</b> বা যেকোনো একজন মানুষ / একটা জিনিস হলে ক্রিয়ার শেষে <b>-s</b> বসে: <b>He works</b>, কিন্তু <b>They work</b>। একটি গবেষণায় বাংলাভাষী শিক্ষার্থীদের ইংরেজি লেখায় কর্তা আর ক্রিয়ার এই মিলের ভুলই সবচেয়ে বেশি পাওয়া গেছে।</p>
+<div class="tbl"><table><tr><th>কর্তা</th><th>ক্রিয়া</th></tr><tr><td>I / you / we / they</td><td class="k">work</td></tr><tr><td>he / she / it / my mom</td><td class="k">works</td></tr></table></div>
+{{ex:She works at a bank.|শি ˈওয়ার্ক্স আট আ ˈব্যাংক|সে (মেয়ে) একটা ব্যাংকে কাজ করে}}{{ex:He likes soccer.|হি ˈলাইক্স ˈসাːকার|সে (ছেলে) ফুটবল পছন্দ করে}}{{ex:My mom cooks well.|মাই ˈমাːম ˈকুক্স ˈওয়েল|আমার মা ভালো রান্না করেন}}
+<p>আমেরিকায় ফুটবলকে বলে <b>soccer</b>; ব্রিটিশ ইংরেজিতে football।</p>
+<h3>যেসব ক্রিয়ার রূপ একটু বদলায়</h3>
+{{ex:She has a car.|শি ˈহ্যাজ় আ ˈকাːর|তার (মেয়ে) একটা গাড়ি আছে (have → has)}}{{ex:He goes to work at eight.|হি ˈগৌজ় টা ˈওয়ার্ক আট ˈএইট|সে (ছেলে) আটটায় কাজে যায় (go → goes)}}{{ex:She studies English.|শি ˈস্টাডিজ় ˈইংগ্লিশ|সে (মেয়ে) ইংরেজি পড়ে (study → studies)}}
+<h3>না-বাচক বাক্য ও প্রশ্নে does</h3>
+<p><b>doesn't</b> বা <b>Does</b> বসালে -s সেখানেই চলে যায়। পরের ক্রিয়া মূল রূপে থাকে, -s ছাড়া।</p>
+{{ex:He doesn't drink coffee.|হি ˈডাজ়ান্ট ˈড্রিংক ˈকফি|সে (ছেলে) কফি খায় না}}{{ex:Does she live here?|ডাজ় শি ˈলিভ় ˈহির|সে (মেয়ে) কি এখানে থাকে?}}
+<div class="tip">সবচেয়ে বেশি যে ভুল হয়: <b>She work here.</b> ✗ → <b>She works here.</b> ✓, <b>Does she works?</b> ✗ → <b>Does she work?</b> ✓</div>`,
+check:[["She ___ in Seoul. শূন্যস্থানে কী বসবে?",["live","lives","living","is live"],1,"কর্তা she, তাই ক্রিয়ায় -s বসে।"],["He ___ like coffee. শূন্যস্থানে কী বসবে?",["don't","isn't","doesn't","not"],2,"he-এর না-বাচক বাক্যে doesn't বসে।"],["\"তার (মেয়ে) একটা গাড়ি আছে\" ইংরেজিতে?",["She has a car.","She have a car.","She haves a car.","She is have a car."],0,"she-এর সঙ্গে have বদলে has হয়।"]],
 practice:[
-["mc","My brother ___ in Busan.","works","work","working","is work","한 사람이라서 works예요."],
-["mc","'그는 커피를 안 마셔요' =","He doesn't drink coffee.","He don't drink coffee.","He doesn't drinks coffee.","He isn't drink coffee.","he의 부정은 doesn't + 동사원형이에요."],
-["mc","'그녀는 여기 살아요?' =","Does she live here?","Do she live here?","Does she lives here?","Is she live here?","Does 뒤 동사는 -s 없이 써요."],
-["mc","have → she ___","has","haves","have","is have","have는 has로 바뀌어요."],
-["mc","study → he ___","studies","studys","study","studyes","자음 + y는 -ies로 바뀌어요."],
-["or","그녀는 은행에서 일해요","She works at a bank","work the","she라서 works예요. 처음 말하는 직장에는 관사 a를 써요."],
-["or","그는 개가 두 마리 있어요","He has two dogs","have dog","he라서 has, 둘이니까 복수 dogs예요."],
-["or","그녀는 고기를 안 먹어요","She doesn't eat meat","eats","doesn't 뒤에는 -s 없는 동사가 와요."],
-["fi","He __ soccer.","그는 축구를 좋아해요","likes","like|liking|is like","he라서 likes예요."],
-["fi","__ she speak English?","그녀는 영어를 해요?","Does","Do|Is|Are","she의 질문은 Does예요."],
-["fi","She __ to work at eight.","그녀는 8시에 출근해요","goes","go|going|gos","go는 goes가 돼요."],
-["ty","그는 차가 있어요","He has a car","has · car — 관사 a","have","he라서 has, 차 한 대라서 관사 a예요."],
-["ty","그녀는 고양이를 좋아해요","She likes cats","likes · cat — 복수","cat","she라서 likes, 고양이 전체는 복수 cats예요."],
-["ty","그는 여기 안 살아요","He doesn't live here","doesn't · live · here","lives","doesn't 뒤에는 동사원형이 와요."]]},
-{ id:"countable", title:"셀 수 있는 명사와 없는 명사: some, any, much, many", blurb:"water에는 a도 -s도 못 붙여요. many는 셀 수 있을 때, much는 없을 때.", deck:"식당 주문", body:`
-<p>영어 명사는 <b>셀 수 있는 것</b>과 <b>셀 수 없는 것</b>으로 나뉘어요. 한국어에는 없는 구분이라 처음엔 낯설어요.</p>
-<div class="tbl"><table><tr><th>셀 수 있음</th><th>셀 수 없음</th></tr><tr><td class="k">an apple, two apples</td><td class="k">water, rice, money, time</td></tr><tr><td>a / an, 숫자, -s 가능</td><td>a / an, 숫자, -s 불가능</td></tr></table></div>
-<h3>some 과 any</h3>
-<p>'조금, 몇 개'는 긍정문에서 <b>some</b>, 부정문과 질문에서 <b>any</b>예요. 단, 부탁하거나 권할 때는 질문이어도 <b>some</b>을 써요: <b>Can I have some water?</b></p>
-{{ex:I have some money.|아이 해브 썸 머니|돈이 좀 있어요}}{{ex:I don't have any money.|아이 돈 해브 애니 머니|돈이 하나도 없어요}}{{ex:Do you have any questions?|두 유 해브 애니 퀘스천즈?|질문 있어요?}}
-<h3>many 와 much</h3>
-<p>셀 수 있으면 <b>many</b> + 복수, 셀 수 없으면 <b>much</b>예요. <b>a lot of</b>는 둘 다 돼요.</p>
-{{ex:How many people?|하우 매니 피플?|몇 명이에요?}}{{ex:How much is it?|하우 머치 이즈 잇?|얼마예요?}}{{ex:I don't have much time.|아이 돈 해브 머치 타임|시간이 별로 없어요}}
-<h3>셀 수 없는 것을 세는 방법</h3>
-{{ex:a glass of water|어 글래스 오브 워러|물 한 잔}}{{ex:a cup of coffee|어 컵 오브 커피|커피 한 잔}}
-<div class="tip">가장 흔한 실수: <b>a water</b>, <b>many money</b>, <b>informations</b> (X) → <b>some water</b>, <b>much money</b>, <b>information</b> (O)</div>`,
-check:[["How ___ people are there? 빈칸에 알맞은 것은?",["much","many","any","a"],1,"people은 셀 수 있어서 many예요."],["다음 중 셀 수 없는 명사는?",["apple","chair","water","friend"],2,"water에는 a나 -s를 붙이지 않아요."],["I don't have ___ money. 빈칸에 알맞은 것은?",["some","a","many","any"],3,"부정문에서는 any를 써요."]],
+["mc","My brother ___ in Busan.","works","work","working","is work","কর্তা একজন (my brother = he), তাই works।"],
+["mc","\"সে (ছেলে) কফি খায় না\" ইংরেজিতে?","He doesn't drink coffee.","He don't drink coffee.","He doesn't drinks coffee.","He isn't drink coffee.","he-এর না-বাচক বাক্যে doesn't + ক্রিয়ার মূল রূপ।"],
+["mc","\"সে (মেয়ে) কি এখানে থাকে?\" ইংরেজিতে?","Does she live here?","Do she live here?","Does she lives here?","Is she live here?","Does-এর পরে ক্রিয়ায় -s বসে না।"],
+["mc","have → she ___","has","haves","have","is have","she-এর সঙ্গে have বদলে has হয়।"],
+["mc","study → he ___","studies","studys","study","studyes","ব্যঞ্জনবর্ণ + y বদলে -ies হয়।"],
+["or","সে (মেয়ে) একটা ব্যাংকে কাজ করে","She works at a bank","work the","কর্তা she, তাই works। কর্মস্থলের কথা প্রথমবার বলছেন, তাই আর্টিকেল a।"],
+["or","তার (ছেলে) দুইটা কুকুর আছে","He has two dogs","have dog","কর্তা he, তাই has; দুইটা, তাই বহুবচন dogs।"],
+["or","সে (মেয়ে) মাংস খায় না","She doesn't eat meat","eats","doesn't-এর পরে ক্রিয়ায় -s বসে না।"],
+["fi","He __ soccer.","সে (ছেলে) ফুটবল পছন্দ করে","likes","like|liking|is like","কর্তা he, তাই likes।"],
+["fi","__ she speak English?","সে (মেয়ে) কি ইংরেজি বলে?","Does","Do|Is|Are","she-এর প্রশ্নে Does বসে।"],
+["fi","She __ to work at eight.","সে (মেয়ে) আটটায় কাজে যায়","goes","go|going|gos","she-এর সঙ্গে go বদলে goes হয়।"],
+["ty","তার (ছেলে) একটা গাড়ি আছে","He has a car","has · car — আর্টিকেল a","have","কর্তা he, তাই has; গাড়ি একটা, তাই আর্টিকেল a।"],
+["ty","সে (মেয়ে) বিড়াল পছন্দ করে","She likes cats","likes · cat — বহুবচন","cat","কর্তা she, তাই likes; সব বিড়ালের কথা সাধারণভাবে বললে বহুবচন cats।"],
+["ty","সে (ছেলে) এখানে থাকে না","He doesn't live here","doesn't · live · here","lives","doesn't-এর পরে ক্রিয়ার মূল রূপ বসে।"]]},
+{ id:"countable", title:"গণনাযোগ্য ও গণনাযোগ্য নয়: some, any, much, many", blurb:"water-এর আগে a বসে না, শেষে -s-ও না। গোনা গেলে many, না গেলে much।", deck:"রেস্টুরেন্টে অর্ডার", body:`
+<p>ইংরেজিতে বিশেষ্য দুই রকম: যা <b>গোনা যায়</b> (গণনাযোগ্য) আর যা <b>গোনা যায় না</b> (গণনাযোগ্য নয়)। বাংলায় এই ভাগ নেই: "অনেক বই" আর "অনেক পানি", দুটোতেই "অনেক"। ইংরেজিতে এই ভাগ অনুযায়ী আর্টিকেল, -s আর many / much বদলায়।</p>
+<div class="tbl"><table><tr><th>গোনা যায়</th><th>গোনা যায় না</th></tr><tr><td class="k">an apple, two apples</td><td class="k">water, rice, money, time</td></tr><tr><td>a / an, সংখ্যা, -s বসে</td><td>a / an, সংখ্যা, -s বসে না</td></tr></table></div>
+<p>কিছু শব্দ বাংলায় গোনা গেলেও ইংরেজিতে গোনা যায় না: <b>information, advice, furniture, equipment, homework, research, evidence</b>। এগুলোর আগে a বসে না, শেষে -s-ও বসে না।</p>
+<h3>some ও any</h3>
+<p>"কিছু, কয়েকটা" বোঝাতে হ্যাঁ-বাচক বাক্যে <b>some</b>, না-বাচক বাক্য ও প্রশ্নে <b>any</b>। তবে কিছু চাইলে বা সাধলে প্রশ্নেও <b>some</b> বসে: <b>Can I have some water?</b></p>
+{{ex:I have some money.|আই ˈহ্যাভ় ˈসাম ˈমানি|আমার কাছে কিছু টাকা আছে}}{{ex:I don't have any money.|আই ˈডৌন্ট ˈহ্যাভ় ˈএনি ˈমানি|আমার কাছে কোনো টাকা নেই}}{{ex:Do you have any questions?|ডা ইউ ˈহ্যাভ় ˈএনি ˈক্ওয়েস্চান্জ়|আপনার কোনো প্রশ্ন আছে?}}
+<h3>many ও much</h3>
+<p>গোনা গেলে <b>many</b> + বহুবচন, না গেলে <b>much</b>। <b>a lot of</b> দুই জায়গাতেই চলে।</p>
+{{ex:How many people?|ˈহাউ ˈমেনি ˈপীপাল|কতজন মানুষ?}}{{ex:How much is it?|ˈহাউ ˈমাচ ইজ় ইট|দাম কত?}}{{ex:I don't have much time.|আই ˈডৌন্ট ˈহ্যাভ় ˈমাচ ˈটাইম|আমার হাতে বেশি সময় নেই}}
+<h3>যা গোনা যায় না, তা গোনার উপায়</h3>
+{{ex:a glass of water|আ ˈগ্ল্যাস আভ় ˈওয়টার|এক গ্লাস পানি}}{{ex:a cup of coffee|আ ˈকাপ আভ় ˈকফি|এক কাপ কফি}}
+<div class="tip">সবচেয়ে বেশি যে ভুল হয়: <b>a water</b>, <b>many money</b>, <b>informations</b>, <b>an advice</b> ✗ → <b>some water</b>, <b>a lot of money</b>, <b>information</b>, <b>some advice</b> ✓</div>`,
+check:[["How ___ people are there? শূন্যস্থানে কী বসবে?",["much","many","any","a"],1,"people গোনা যায়, তাই many।"],["নিচের কোন বিশেষ্যটি গণনাযোগ্য নয়?",["apple","chair","water","friend"],2,"water-এর আগে a বসে না, শেষে -s-ও বসে না।"],["I don't have ___ money. শূন্যস্থানে কী বসবে?",["some","a","many","any"],3,"না-বাচক বাক্যে any বসে।"]],
 practice:[
-["mc","Can I have ___ water?","some","a","many","an","water는 셀 수 없어서 a나 many를 못 써요."],
-["mc","How ___ time do we have?","much","many","any","a","time은 셀 수 없어서 much예요."],
-["mc","'질문 있어요?' =","Do you have any questions?","Do you have any question?","Do you have a questions?","Do you have much questions?","any 뒤 셀 수 있는 명사는 복수예요."],
-["mc","'물 한 잔' =","a glass of water","a water glass of","one waters","a glass water","셀 수 없는 것은 a glass of로 세요."],
-["mc","I have ___ friends in Seoul.","many","much","a","an","friends는 셀 수 있는 복수라서 many예요."],
-["or","저는 돈이 좀 있어요","I have some money","a moneys","money는 셀 수 없어서 관사 a나 복수 -s를 못 붙여요."],
-["or","사과 두 개 주세요","Two apples please","apple","둘이니까 복수 apples예요."],
-["or","시간이 별로 없어요","I don't have much time","many","time은 셀 수 없어서 much예요."],
-["fi","How __ is this?","이거 얼마예요?","much","many|any|some","가격은 how much로 물어요."],
-["fi","I don't have __ questions.","질문 없어요","any","some|much|a","부정문에서는 any를 써요."],
-["fi","a cup __ coffee","커피 한 잔","of","for|in|a","a cup of ~로 세요."],
-["ty","물 좀 주시겠어요?","Can I have some water|Could I have some water|Can I get some water|Could I get some water","can I have · some · water — 관사 없이","a","water는 셀 수 없어서 관사 a 대신 some을 써요."],
-["ty","질문 있어요?","Do you have any questions","any · question — 복수","question","any 뒤 셀 수 있는 명사는 복수 questions예요."],
-["ty","몇 명이에요?","How many people","how many · people","much","사람은 셀 수 있어서 many예요."]]},
-{ id:"object-have", title:"me, him, her와 have", blurb:"동사 뒤에는 I가 아니라 me. 그리고 만능 동사 have.", deck:"자기소개", body:`
-<p>한국어는 '를'만 붙이면 되지만, 영어는 대명사의 <b>모양 자체</b>가 바뀌어요. 동사나 전치사 <b>뒤</b>에는 이 모양을 써요.</p>
-<div class="tbl"><table><tr><th>주어</th><th>I</th><th>you</th><th>he</th><th>she</th><th>we</th><th>they</th></tr><tr><td>목적어</td><td class="k">me</td><td class="k">you</td><td class="k">him</td><td class="k">her</td><td class="k">us</td><td class="k">them</td></tr></table></div>
-{{ex:She knows me.|쉬 노우즈 미|그녀는 저를 알아요}}{{ex:I like him.|아이 라익 힘|저는 그를 좋아해요}}{{ex:Can you help us?|캔 유 헬프 어스?|우리 좀 도와줄래요?}}{{ex:I work with her.|아이 워크 윋 허|저는 그녀와 같이 일해요}}
-<h3>have: 있다, 가지다</h3>
-<p>'~가 있어요'를 사람 주어로 말할 때 써요. 가족, 물건, 시간 모두 have예요.</p>
-{{ex:I have two brothers.|아이 해브 투 브라더즈|저는 형이 둘 있어요}}{{ex:Do you have a pen?|두 유 해버 펜?|펜 있어요?}}{{ex:I don't have time.|아이 돈 해브 타임|시간이 없어요}}
-<h3>have: 먹다, 마시다</h3>
-<p>식사 이름 앞에는 관사를 붙이지 않아요.</p>
-{{ex:Let's have lunch.|렛츠 해브 런치|점심 먹어요}}{{ex:I have coffee every morning.|아이 해브 커피 에브리 모닝|저는 매일 아침 커피를 마셔요}}
-<div class="tip">가장 흔한 실수: <b>She knows I.</b> (X) → <b>She knows me.</b> (O), <b>I am two brothers.</b> (X) → <b>I have two brothers.</b> (O)</div>`,
-check:[["I like ___. (그를)",["he","his","him","he's"],2,"동사 뒤에는 목적격 him이에요."],["Can you help ___? (우리를)",["us","we","our","ours"],0,"동사 뒤에는 목적격 us예요."],["'펜 있어요?'를 영어로 하면?",["Are you have a pen?","Do you have a pen?","Have you a pen is?","Do you has a pen?"],1,"have는 일반동사라서 Do로 물어요."]],
+["mc","Can I have ___ water?","some","a","many","an","water গণনাযোগ্য নয়, তাই a বা many বসে না; কিছু চাইলে প্রশ্নেও some বসে।"],
+["mc","How ___ time do we have?","much","many","any","a","time গণনাযোগ্য নয়, তাই much।"],
+["mc","\"আপনার কোনো প্রশ্ন আছে?\" ইংরেজিতে?","Do you have any questions?","Do you have any question?","Do you have a questions?","Do you have much questions?","any-এর পরে গণনাযোগ্য বিশেষ্য বহুবচন হয়।"],
+["mc","\"এক গ্লাস পানি\" ইংরেজিতে?","a glass of water","a water glass of","one waters","a glass water","যা গোনা যায় না, তা a glass of দিয়ে গোনা হয়।"],
+["mc","I have ___ friends in Seoul.","many","much","a","an","friends গণনাযোগ্য আর বহুবচন, তাই many।"],
+["or","আমার কাছে কিছু টাকা আছে","I have some money","a moneys","money গণনাযোগ্য নয়: আর্টিকেল a বা বহুবচনের -s বসে না।"],
+["or","দুইটা আপেল দিন","Two apples please","apple","দুইটা, তাই বহুবচন apples।"],
+["or","আমার হাতে বেশি সময় নেই","I don't have much time","many","time গোনা যায় না, তাই much।"],
+["fi","How __ is this?","এটার দাম কত?","much","many|any|some","দাম জানতে how much।"],
+["fi","I don't have __ questions.","আমার কোনো প্রশ্ন নেই","any","some|much|a","না-বাচক বাক্যে any বসে।"],
+["fi","a cup __ coffee","এক কাপ কফি","of","for|in|a","a cup of … দিয়ে গোনা হয়।"],
+["ty","আমি কি একটু পানি পেতে পারি?","Can I have some water|Could I have some water|Can I get some water|Could I get some water","can I have · some · water — আর্টিকেল ছাড়া","a","water গণনাযোগ্য নয়, তাই আর্টিকেল a-এর বদলে some।"],
+["ty","আপনার কোনো প্রশ্ন আছে?","Do you have any questions","any · question — বহুবচন","question","any-এর পরে গণনাযোগ্য বিশেষ্য বহুবচন হয়: questions।"],
+["ty","কতজন মানুষ?","How many people","how many · people","much","মানুষ গোনা যায়, তাই many।"]]},
+{ id:"object-have", title:"me, him, her এবং have", blurb:"ক্রিয়ার পরে I নয়, me। আর নানা কাজের ক্রিয়া have।", deck:"নিজের পরিচয়", body:`
+<p>বাংলায় "আমি" থেকে "আমাকে", "সে" থেকে "তাকে" হয়। ইংরেজিতেও সর্বনামের (pronoun) রূপ বদলায়: ক্রিয়া বা preposition-এর <b>পরে</b> কর্মের (object) রূপ বসে। মনে রাখুন, বাংলার "তাকে" ছেলে হলে <b>him</b>, মেয়ে হলে <b>her</b>।</p>
+<div class="tbl"><table><tr><th>কর্তা</th><th>I</th><th>you</th><th>he</th><th>she</th><th>we</th><th>they</th></tr><tr><td>কর্ম</td><td class="k">me</td><td class="k">you</td><td class="k">him</td><td class="k">her</td><td class="k">us</td><td class="k">them</td></tr></table></div>
+{{ex:She knows me.|শি ˈনৌজ় মি|সে (মেয়ে) আমাকে চেনে}}{{ex:I like him.|আই ˈলাইক হিম|আমি তাকে (ছেলে) পছন্দ করি}}{{ex:Can you help us?|কান ইউ ˈহেল্প আস|আমাদের একটু সাহায্য করবেন?}}{{ex:I work with her.|আই ˈওয়ার্ক ওয়িদ় হার|আমি তার (মেয়ে) সঙ্গে কাজ করি}}
+<h3>have: আছে</h3>
+<p>বাংলায় বলি "<b>আমার</b> একটা গাড়ি আছে": যার জিনিস, সে থাকে "আমার" রূপে। ইংরেজিতে সে-ই কর্তা: <b>I have a car.</b> তাই <b>My a car is.</b> ✗ বা <b>I am a car.</b> ✗ নয়। পরিবার, জিনিস, সময়: সবই have দিয়ে বলা হয়।</p>
+{{ex:I have two brothers.|আই ˈহ্যাভ় ˈটূ ˈব্রাদ়ার্জ়|আমার দুই ভাই আছে}}{{ex:Do you have a pen?|ডা ইউ ˈহ্যাভ় আ ˈপেন|আপনার কাছে কলম আছে?}}{{ex:I don't have time.|আই ˈডৌন্ট ˈহ্যাভ় ˈটাইম|আমার সময় নেই}}
+<h3>have: খাওয়া</h3>
+<p>খাওয়া বা পান করা বোঝাতেও have চলে। breakfast, lunch, dinner-এর আগে আর্টিকেল বসে না।</p>
+{{ex:Let's have lunch.|ˈলেট্স ˈহ্যাভ় ˈলান্চ|চলো দুপুরের খাবার খাই}}{{ex:I have coffee every morning.|আই ˈহ্যাভ় ˈকফি ˈএভ়্রি ˈমর্নিং|আমি প্রতিদিন সকালে কফি খাই}}
+<div class="tip">সবচেয়ে বেশি যে ভুল হয়: <b>She knows I.</b> ✗ → <b>She knows me.</b> ✓, <b>I am two brothers.</b> ✗ → <b>I have two brothers.</b> ✓</div>`,
+check:[["I like ___. (তাকে, ছেলে)",["he","his","him","he's"],2,"ক্রিয়ার পরে কর্মের রূপ him বসে।"],["Can you help ___? (আমাদের)",["us","we","our","ours"],0,"ক্রিয়ার পরে কর্মের রূপ us বসে।"],["\"আপনার কাছে কলম আছে?\" ইংরেজিতে?",["Are you have a pen?","Do you have a pen?","Have you a pen is?","Do you has a pen?"],1,"have-এর প্রশ্নও Do দিয়ে শুরু হয়।"]],
 practice:[
-["mc","She knows ___. (나를)","me","I","my","mine","동사 뒤에는 목적격 me예요."],
-["mc","I like ___. (그들을)","them","they","their","theirs","동사 뒤에는 목적격 them이에요."],
-["mc","'우리 좀 도와줄래요?' =","Can you help us?","Can you help we?","Can you help our?","Can us help you?","동사 뒤에는 us예요."],
-["mc","'점심 먹어요' =","Let's have lunch.","Let's have a lunch.","Let's has lunch.","Let's lunch have.","식사 이름에는 관사를 붙이지 않아요."],
-["mc","'저는 형이 둘 있어요' =","I have two brothers.","I have two brother.","I am two brothers.","There are two brothers me.","가족은 have로 말하고, 둘이니까 복수예요."],
-["or","펜 있어요?","Do you have a pen","the pens","아무 펜 하나라서 관사 a와 단수 pen이에요."],
-["or","저는 그녀를 좋아해요","I like her","she","동사 뒤에는 목적격 her예요."],
-["or","저는 여동생이 둘 있어요","I have two sisters","sister a","둘이니까 복수 sisters예요. 관사 a는 못 써요."],
-["fi","Call __ tonight.","오늘 밤에 저한테 전화해요","me","I|my|mine","동사 뒤에는 me예요."],
-["fi","I work with __.","저는 그와 같이 일해요","him","he|his|he's","전치사 뒤에도 목적격을 써요."],
-["fi","She __ a dog.","그녀는 개를 키워요","has","have|is|haves","she라서 has예요."],
-["ty","저 좀 도와줄래요?","Can you help me|Could you help me","can you · help · me","I","동사 뒤에는 목적격 me예요."],
-["ty","펜 있어요?","Do you have a pen","do you have · pen — 관사 a","the","아무 펜 하나를 찾으니까 관사 a예요."],
-["ty","저는 친구가 많아요","I have many friends|I have a lot of friends","have · many · friend — 복수","friend","many 뒤에는 복수 friends가 와요."]]},
-{ id:"can-like", title:"can, like + -ing, I'd like: 할 수 있는 것과 원하는 것", blurb:"할 수 있는 것, 좋아하는 것, 지금 원하는 것을 말해요.", deck:"스몰토크", body:`
-<p>자기소개와 주문에 바로 쓰는 세 가지 틀이에요.</p>
-<h3>can: 할 수 있어요</h3>
-<p><b>can + 동사원형</b>이에요. 주어가 he, she여도 -s를 붙이지 않아요.</p>
-{{ex:I can swim.|아이 캔 스윔|저는 수영할 수 있어요}}{{ex:I can't drive.|아이 캔트 드라이브|저는 운전 못 해요}}{{ex:Can you speak Korean?|캔 유 스픽 코리언?|한국어 할 수 있어요?}}
-<h3>like + -ing: ~하는 걸 좋아해요</h3>
-<p>취미를 말할 때는 like, love 뒤에 <b>동사 + ing</b>를 써요.</p>
-{{ex:I like cooking.|아이 라익 쿠킹|저는 요리하는 걸 좋아해요}}{{ex:I love watching movies.|아이 러브 왓칭 무비즈|저는 영화 보는 걸 정말 좋아해요}}{{ex:I don't like running.|아이 돈 라익 러닝|저는 달리기를 안 좋아해요}}
-<h3>I'd like: ~주세요, ~하고 싶어요</h3>
-<p><b>I like</b>는 늘 좋아한다는 뜻이고, <b>I'd like</b>는 지금 원한다는 공손한 표현이에요. 주문할 때는 I'd like를 써요.</p>
-{{ex:I'd like a coffee, please.|아이드 라이커 커피 플리즈|커피 한 잔 주세요}}{{ex:Would you like some tea?|우쥬 라익 썸 티?|차 좀 드릴까요?}}
-<div class="tip">가장 흔한 실수: <b>He can swims.</b> (X) → <b>He can swim.</b> (O), 카페에서 <b>I like a coffee.</b> (X) → <b>I'd like a coffee.</b> (O)</div>`,
-check:[["She can ___ very well. 빈칸에 알맞은 것은?",["sings","sing","singing","to sing"],1,"can 뒤에는 동사원형이 와요."],["'저는 요리하는 걸 좋아해요'를 영어로 하면?",["I like cook.","I'd like cook.","I like to cooking.","I like cooking."],3,"like 뒤에는 -ing를 써요."],["카페에서 주문할 때 가장 자연스러운 말은?",["I'd like a coffee, please.","I like a coffee.","I can a coffee.","Give me coffee."],0,"지금 원하는 것은 I'd like로 말해요."]],
+["mc","She knows ___. (আমাকে)","me","I","my","mine","ক্রিয়ার পরে কর্মের রূপ me বসে।"],
+["mc","I like ___. (তাদের)","them","they","their","theirs","ক্রিয়ার পরে কর্মের রূপ them বসে।"],
+["mc","\"আমাদের একটু সাহায্য করবেন?\" ইংরেজিতে?","Can you help us?","Can you help we?","Can you help our?","Can us help you?","ক্রিয়ার পরে us বসে।"],
+["mc","\"চলো দুপুরের খাবার খাই\" ইংরেজিতে?","Let's have lunch.","Let's have a lunch.","Let's has lunch.","Let's lunch have.","lunch-এর মতো খাবারের বেলার নামের আগে আর্টিকেল বসে না।"],
+["mc","\"আমার দুই ভাই আছে\" ইংরেজিতে?","I have two brothers.","I have two brother.","I am two brothers.","There are two brothers me.","পরিবারের কথা have দিয়ে বলা হয়; দুইজন, তাই বহুবচন।"],
+["or","আপনার কাছে কলম আছে?","Do you have a pen","the pens","যেকোনো একটা কলম, তাই আর্টিকেল a আর একবচন pen।"],
+["or","আমি তাকে (মেয়ে) পছন্দ করি","I like her","she","ক্রিয়ার পরে কর্মের রূপ her বসে।"],
+["or","আমার দুই বোন আছে","I have two sisters","sister a","দুইজন, তাই বহুবচন sisters; আর্টিকেল a বসবে না।"],
+["fi","Call __ tonight.","আজ রাতে আমাকে ফোন করো","me","I|my|mine","ক্রিয়ার পরে me বসে।"],
+["fi","I work with __.","আমি তার (ছেলে) সঙ্গে কাজ করি","him","he|his|he's","preposition-এর পরেও কর্মের রূপ বসে।"],
+["fi","She __ a dog.","তার (মেয়ে) একটা কুকুর আছে","has","have|is|haves","কর্তা she, তাই has।"],
+["ty","আমাকে একটু সাহায্য করবেন?","Can you help me|Could you help me","can you · help · me","I","ক্রিয়ার পরে কর্মের রূপ me বসে।"],
+["ty","আপনার কাছে কলম আছে?","Do you have a pen","do you have · pen — আর্টিকেল a","the","যেকোনো একটা কলম খুঁজছেন, তাই আর্টিকেল a।"],
+["ty","আমার অনেক বন্ধু আছে","I have many friends|I have a lot of friends","have · many · friend — বহুবচন","friend","many-এর পরে বহুবচন friends বসে।"]]},
+{ id:"can-like", title:"can, like + -ing, I'd like: যা পারেন আর যা চান", blurb:"কী পারেন, কী ভালো লাগে আর এখন কী চান, তা বলুন।", deck:"হালকা আলাপ", body:`
+<p>নিজের পরিচয় দিতে আর অর্ডার করতে এই তিনটি ছাঁচ সরাসরি কাজে লাগে।</p>
+<h3>can: পারি</h3>
+<p>বাংলার "পারি" = <b>can + ক্রিয়ার মূল রূপ</b>। কর্তা he বা she হলেও -s বসে না।</p>
+{{ex:I can swim.|আই কান ˈস্ওয়িম|আমি সাঁতার কাটতে পারি}}{{ex:I can't drive.|আই ˈক্যান্ট ˈড্রাইভ়|আমি গাড়ি চালাতে পারি না}}{{ex:Can you speak Bangla?|কান ইউ ˈস্পীক ˈবাːংগ্লা|আপনি কি বাংলা বলতে পারেন?}}
+<h3>like + -ing: … করতে ভালো লাগে</h3>
+<p>বাংলায় বলি "<b>আমার</b> রান্না করতে ভালো লাগে"; ইংরেজিতে যার ভালো লাগে, সে-ই কর্তা: <b>I like …</b>। শখের কথা বলতে like, love-এর পরে <b>ক্রিয়া + ing</b> বসান।</p>
+{{ex:I like cooking.|আই ˈলাইক ˈকুকিং|আমার রান্না করতে ভালো লাগে}}{{ex:I love watching movies.|আই ˈলাভ় ˈওয়াːচিং ˈমূভ়িজ়|সিনেমা দেখতে আমার খুব ভালো লাগে}}{{ex:I don't like running.|আই ˈডৌন্ট ˈলাইক ˈরানিং|আমার দৌড়াতে ভালো লাগে না}}
+<h3>I'd like: … দিন, … চাই</h3>
+<p><b>I like</b> মানে জিনিসটা সব সময়ই পছন্দ করি; <b>I'd like</b> মানে এখন চাই, আর কথাটা ভদ্র শোনায়। অর্ডার করার সময় I'd like বলুন।</p>
+{{ex:I'd like a coffee, please.|আইড ˈলাইক আ ˈকফি ˈপ্লীজ়|একটা কফি দিন}}{{ex:Would you like some tea?|ওয়াড ইউ ˈলাইক ˈসাম ˈটী|একটু চা খাবেন?}}
+<div class="tip">সবচেয়ে বেশি যে ভুল হয়: <b>He can swims.</b> ✗ → <b>He can swim.</b> ✓, ক্যাফেতে <b>I like a coffee.</b> ✗ → <b>I'd like a coffee.</b> ✓</div>`,
+check:[["She can ___ very well. শূন্যস্থানে কী বসবে?",["sings","sing","singing","to sing"],1,"can-এর পরে ক্রিয়ার মূল রূপ বসে।"],["\"আমার রান্না করতে ভালো লাগে\" ইংরেজিতে?",["I like cook.","I'd like cook.","I like to cooking.","I like cooking."],3,"like-এর পরে -ing রূপ বসে।"],["ক্যাফেতে অর্ডার করার সময় কোনটি সবচেয়ে স্বাভাবিক?",["I'd like a coffee, please.","I like a coffee.","I can a coffee.","Give me coffee."],0,"এখন যা চান, তা I'd like দিয়ে বলুন।"]],
 practice:[
-["mc","He can ___ Korean.","speak","speaks","speaking","to speak","can 뒤에는 동사원형이 와요."],
-["mc","'저는 운전 못 해요' =","I can't drive.","I don't can drive.","I can't driving.","I'm not can drive.","can의 부정은 can't예요."],
-["mc","'저는 영화 보는 걸 좋아해요' =","I like watching movies.","I like watch movies.","I like watching movie.","I'd like watch movies.","like 뒤는 -ing, 영화 전체는 복수 movies예요."],
-["mc","주문할 때 '커피 한 잔 주세요' =","I'd like a coffee, please.","I like a coffee, please.","I'd like coffee a, please.","I like coffees.","지금 원하는 것은 I'd like로 말해요."],
-["mc","'차 좀 드릴까요?' =","Would you like some tea?","Do you like some tea?","Would you like a tea some?","Are you like tea?","권할 때는 Would you like ~?예요."],
-["or","커피 한 잔 주세요","I'd like a coffee please","the coffees","주문하는 한 잔이라 관사 a와 단수 coffee예요."],
-["or","저는 책 읽는 걸 좋아해요","I like reading books","book read","like 뒤는 -ing, 책 전체는 복수 books예요."],
-["or","수영할 줄 알아요?","Can you swim","swimming","can 뒤에는 동사원형이 와요."],
-["fi","I can't __.","저는 수영 못 해요","swim","swimming|swims|to swim","can't 뒤에는 동사원형이 와요."],
-["fi","I like __ music.","저는 음악 듣는 걸 좋아해요","listening to","listen to|listen|to listening","like 뒤에는 -ing를 써요."],
-["fi","__ like a sandwich, please.","샌드위치 하나 주세요","I'd|I would","I|I'm|I can","주문은 I'd like로 해요."],
-["ty","저는 요리하는 걸 좋아해요","I like cooking|I love cooking|I like to cook","like · cook — -ing","cook","like 뒤에는 -ing를 써요."],
-["ty","샌드위치 하나 주세요","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich|Could I have a sandwich|Could I get a sandwich","I'd like · sandwich — 관사 a","the","아무 샌드위치 하나라서 관사 a예요."],
-["ty","저는 개를 좋아해요","I like dogs|I love dogs","like · dog — 복수","dog","개 전체를 말할 때는 복수 dogs예요."]]},
-{ id:"continuous", title:"지금 하는 중: be + -ing", blurb:"늘 하는 일은 현재형, 지금 하는 일은 be + -ing.", deck:"스몰토크", body:`
-<p>한국어 "일해요"는 습관도 되고 지금 하는 일도 돼요. 영어는 둘을 나눠요. <b>지금 이 순간</b> 하고 있는 일은 <b>be + 동사-ing</b>예요.</p>
-{{ex:I'm working now.|아임 워킹 나우|저 지금 일하고 있어요}}{{ex:She's cooking dinner.|쉬즈 쿠킹 디너|그녀는 저녁을 만들고 있어요}}{{ex:It's raining.|이츠 레이닝|비가 오고 있어요}}
-<h3>질문과 부정</h3>
-{{ex:What are you doing?|와라유 두잉?|지금 뭐 해요?}}{{ex:Are you listening?|아 유 리스닝?|듣고 있어요?}}{{ex:I'm not sleeping.|아임 낫 슬리핑|저 안 자고 있어요}}
-<h3>현재형과 비교</h3>
-<div class="tbl"><table><tr><th>늘 (현재형)</th><th>지금 (be + -ing)</th></tr><tr><td class="k">I work every day.</td><td class="k">I'm working now.</td></tr><tr><td class="k">She drinks tea.</td><td class="k">She's drinking tea.</td></tr></table></div>
-<h3>-ing를 붙이지 않는 동사</h3>
-<p>like, know, want, need, have(가지다)처럼 <b>상태</b>를 말하는 동사는 지금 일이어도 현재형으로 써요.</p>
-{{ex:I know him.|아이 노우 힘|저는 그를 알아요}}{{ex:I want some water.|아이 원트 썸 워러|물이 마시고 싶어요}}
-<div class="tip">가장 흔한 실수: be동사를 빼먹는 것. <b>I working.</b> (X) → <b>I'm working.</b> (O), <b>I'm knowing.</b> (X) → <b>I know.</b> (O)</div>`,
-check:[["'지금 뭐 해요?'를 영어로 하면?",["What do you do now?","What are you doing?","What you doing are?","What are you do?"],1,"지금 하는 일은 be + -ing로 물어요."],["I ___ coffee every morning. 빈칸에 알맞은 것은?",["am drinking","drinking","drink","am drink"],2,"매일 하는 습관은 현재형이에요."],["다음 중 알맞은 문장은?",["I'm knowing him.","I'm wanting coffee.","I'm having a car.","I'm reading a book."],3,"know, want, have(소유)는 -ing를 쓰지 않아요."]],
+["mc","He can ___ Korean.","speak","speaks","speaking","to speak","can-এর পরে ক্রিয়ার মূল রূপ বসে।"],
+["mc","\"আমি গাড়ি চালাতে পারি না\" ইংরেজিতে?","I can't drive.","I don't can drive.","I can't driving.","I'm not can drive.","can-এর না-বাচক রূপ can't।"],
+["mc","\"আমার সিনেমা দেখতে ভালো লাগে\" ইংরেজিতে?","I like watching movies.","I like watch movies.","I like watching movie.","I'd like watch movies.","like-এর পরে -ing; সিনেমার কথা সাধারণভাবে বললে বহুবচন movies।"],
+["mc","অর্ডার করার সময় \"একটা কফি দিন\" ইংরেজিতে?","I'd like a coffee, please.","I like a coffee, please.","I'd like coffee a, please.","I like coffees.","এখন যা চান, তা I'd like দিয়ে বলুন।"],
+["mc","\"একটু চা খাবেন?\" ইংরেজিতে?","Would you like some tea?","Do you like some tea?","Would you like a tea some?","Are you like tea?","কাউকে কিছু সাধতে Would you like …? বলুন।"],
+["or","একটা কফি দিন","I'd like a coffee please","the coffees","এক কাপ অর্ডার করছেন, তাই আর্টিকেল a আর একবচন coffee।"],
+["or","আমার বই পড়তে ভালো লাগে","I like reading books","book read","like-এর পরে -ing; বইয়ের কথা সাধারণভাবে বললে বহুবচন books।"],
+["or","তুমি সাঁতার কাটতে পারো?","Can you swim","swimming","can-এর পরে ক্রিয়ার মূল রূপ বসে।"],
+["fi","I can't __.","আমি সাঁতার কাটতে পারি না","swim","swimming|swims|to swim","can't-এর পরে ক্রিয়ার মূল রূপ বসে।"],
+["fi","I like __ music.","আমার গান শুনতে ভালো লাগে","listening to","listen to|listen|to listening","like-এর পরে -ing রূপ বসে।"],
+["fi","__ like a sandwich, please.","একটা স্যান্ডউইচ দিন","I'd|I would","I|I'm|I can","অর্ডার করতে I'd like বলুন।"],
+["ty","আমার রান্না করতে ভালো লাগে","I like cooking|I love cooking|I like to cook","like · cook — -ing","cook","like-এর পরে -ing রূপ বসে।"],
+["ty","(অর্ডার করছেন) একটা স্যান্ডউইচ দিন","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich|Could I have a sandwich|Could I get a sandwich","I'd like · sandwich — আর্টিকেল a","the","যেকোনো একটা স্যান্ডউইচ, তাই আর্টিকেল a।"],
+["ty","আমি কুকুর পছন্দ করি","I like dogs|I love dogs","like · dog — বহুবচন","dog","সব কুকুরের কথা সাধারণভাবে বললে বহুবচন dogs।"]]},
+{ id:"continuous", title:"এখন যা করছেন: be + -ing", blurb:"নিয়মিত কাজ Present Simple-এ, এই মুহূর্তের কাজ be + -ing দিয়ে।", deck:"হালকা আলাপ", body:`
+<p>বাংলার "করছি" আর ইংরেজির <b>am doing</b> প্রায় এক: <b>এই মুহূর্তে</b> যা চলছে। তফাত হলো, বাংলায় "করছি" একটাই শব্দ, আর ইংরেজিতে দুটো অংশ লাগে: <b>be ক্রিয়া (am / is / are) + ক্রিয়া-ing</b>। এই ছাঁচের নাম Present Continuous।</p>
+{{ex:I'm working now.|আইম ˈওয়ার্কিং ˈনাউ|আমি এখন কাজ করছি}}{{ex:She's cooking dinner.|শিজ় ˈকুকিং ˈডিনার|সে (মেয়ে) রাতের খাবার রান্না করছে}}{{ex:It's raining.|ইট্স ˈরেইনিং|বৃষ্টি হচ্ছে}}
+<h3>প্রশ্ন ও না-বাচক বাক্য</h3>
+{{ex:What are you doing?|ˈওয়াট আর ইউ ˈডূইং|তুমি কী করছ?}}{{ex:Are you listening?|আর ইউ ˈলিসানিং|তুমি শুনছ?}}{{ex:I'm not sleeping.|আইম ˈনাːট ˈস্লীপিং|আমি ঘুমাচ্ছি না}}
+<h3>Present Simple-এর সঙ্গে তুলনা</h3>
+<div class="tbl"><table><tr><th>নিয়মিত (Present Simple)</th><th>এখন (be + -ing)</th></tr><tr><td class="k">I work every day.</td><td class="k">I'm working now.</td></tr><tr><td class="k">She drinks tea.</td><td class="k">She's drinking tea.</td></tr></table></div>
+<h3>যেসব ক্রিয়ায় -ing বসে না</h3>
+<p>বাংলায় "আমি চাচ্ছি", "আমি বুঝতে পারছি" বলা যায়। ইংরেজিতে তা হয় না: like, know, want, need, understand, have (আছে অর্থে) <b>অবস্থা</b> বোঝায়, তাই এখনকার কথা হলেও Present Simple-এ থাকে।</p>
+{{ex:I know him.|আই ˈনৌ হিম|আমি তাকে (ছেলে) চিনি}}{{ex:I want some water.|আই ˈওয়াːন্ট ˈসাম ˈওয়টার|আমার একটু পানি চাই}}
+<div class="tip">সবচেয়ে বেশি যে ভুল হয়: be ক্রিয়া বাদ দেওয়া। <b>I working.</b> ✗ → <b>I'm working.</b> ✓ আর অবস্থা বোঝানো ক্রিয়ায় -ing: <b>I'm knowing.</b> ✗ → <b>I know.</b> ✓</div>`,
+check:[["\"তুমি এখন কী করছ?\" ইংরেজিতে?",["What do you do now?","What are you doing?","What you doing are?","What are you do?"],1,"এই মুহূর্তের কাজ be + -ing দিয়ে জিজ্ঞেস করা হয়।"],["I ___ coffee every morning. শূন্যস্থানে কী বসবে?",["am drinking","drinking","drink","am drink"],2,"প্রতিদিনের অভ্যাস Present Simple-এ বলা হয়।"],["নিচের কোন বাক্যটি ঠিক?",["I'm knowing him.","I'm wanting coffee.","I'm having a car.","I'm reading a book."],3,"know, want আর have (আছে অর্থে)-এ -ing বসে না।"]],
 practice:[
-["mc","'저 지금 일하고 있어요' =","I'm working now.","I work now am.","I'm work now.","I working now.","지금 하는 일은 be + -ing예요."],
-["mc","'그녀는 저녁을 만들고 있어요' =","She's cooking dinner.","She cooking dinner.","She's cook dinner.","She's cooking a dinner.","be + -ing이고, 식사 이름에는 관사가 없어요."],
-["mc","매일 하는 일을 말하는 문장은?","I walk to work every day.","I'm walking to work every day.","I walking to work every day.","I'm walk to work every day.","습관은 현재형이에요."],
-["mc","'지금 뭐 해요?' =","What are you doing?","What do you doing?","What are you do?","What you are doing?","의문사 + be + 주어 + -ing예요."],
-["mc","'저는 그를 알아요' =","I know him.","I'm knowing him.","I knowing him.","I'm know him.","know는 -ing를 쓰지 않는 동사예요."],
-["or","저는 책을 읽고 있어요","I'm reading a book","read books","지금 읽는 한 권이라 관사 a와 단수 book이에요."],
-["or","아이들이 놀고 있어요","The kids are playing","kid is","여럿이라 복수 kids와 are를 써요."],
-["or","지금 비가 오고 있어요","It's raining now","rains","지금 일어나는 일은 be + -ing예요."],
-["fi","I'm __ TV.","저는 TV를 보고 있어요","watching","watch|watches|to watch","be 뒤에는 -ing가 와요."],
-["fi","What __ you doing?","뭐 하고 있어요?","are","do|is|does","you에는 are예요."],
-["fi","She __ working today.","그녀는 오늘 일 안 해요","isn't|is not","doesn't|don't|not","be + -ing의 부정은 isn't예요."],
-["ty","저 지금 요리하고 있어요","I'm cooking now|I'm cooking|I'm cooking right now","I'm · cook — -ing · now","cook","지금 하는 일은 be + -ing예요."],
-["ty","저는 영화를 보고 있어요","I'm watching a movie","I'm · watching · movie — 관사 a","the","아무 영화 한 편이라 관사 a예요."],
-["ty","아이들이 자고 있어요","The kids are sleeping|The children are sleeping","kids · are · sleeping — 복수","kid","여럿이라 복수 kids와 are예요."]]},
-{ id:"past", title:"과거형: was / were와 -ed", blurb:"be동사는 was·were, 일반동사는 -ed. 질문과 부정은 did.", deck:"스몰토크", body:`
-<p>한국어의 '-았/었어요'에 해당해요. be동사와 일반동사의 과거가 따로 있어요.</p>
-<h3>be동사의 과거: was / were</h3>
-<p>I, he, she, it에는 <b>was</b>, you, we, they에는 <b>were</b>예요.</p>
-{{ex:I was tired.|아이 워즈 타이어드|피곤했어요}}{{ex:It was fun.|잇 워즈 펀|재미있었어요}}{{ex:We were at home.|위 워 앳 홈|우리는 집에 있었어요}}{{ex:Were you busy?|워 유 비지?|바빴어요?}}
-<h3>일반동사의 과거: -ed</h3>
-<p>동사 끝에 <b>-ed</b>를 붙여요. 주어가 누구든 모양이 같아요.</p>
-{{ex:I worked yesterday.|아이 웍트 예스터데이|어제 일했어요}}{{ex:We watched a movie.|위 왓치트 어 무비|우리는 영화를 봤어요}}{{ex:She called me.|쉬 콜드 미|그녀가 저한테 전화했어요}}
-<h3>부정과 질문은 did</h3>
-<p><b>didn't</b>나 <b>Did</b>를 쓰면 동사는 원래 모양으로 돌아가요.</p>
-{{ex:I didn't work yesterday.|아이 디든 워크 예스터데이|어제 일 안 했어요}}{{ex:Did you call me?|디쥬 콜 미?|저한테 전화했어요?}}
-<div class="tip">가장 흔한 실수: <b>I didn't worked.</b> (X) → <b>I didn't work.</b> (O), <b>I was work.</b> (X) → <b>I worked.</b> (O)</div>`,
-check:[["They ___ at home yesterday. 빈칸에 알맞은 것은?",["was","were","did","are"],1,"they에는 were예요."],["'어제 일 안 했어요'를 영어로 하면?",["I didn't worked yesterday.","I wasn't work yesterday.","I didn't work yesterday.","I not worked yesterday."],2,"didn't 뒤에는 동사원형이 와요."],["Did you ___ the movie? 빈칸에 알맞은 것은?",["watch","watched","watching","watches"],0,"Did 뒤에는 동사원형이 와요."]],
+["mc","\"আমি এখন কাজ করছি\" ইংরেজিতে?","I'm working now.","I work now am.","I'm work now.","I working now.","এই মুহূর্তের কাজ: be + -ing। be ক্রিয়া বাদ দেওয়া যায় না।"],
+["mc","\"সে (মেয়ে) রাতের খাবার রান্না করছে\" ইংরেজিতে?","She's cooking dinner.","She cooking dinner.","She's cook dinner.","She's cooking a dinner.","be + -ing; dinner-এর মতো খাবারের বেলার নামের আগে আর্টিকেল বসে না।"],
+["mc","কোন বাক্যটি প্রতিদিনের কাজ বোঝায়?","I walk to work every day.","I'm walking to work every day.","I walking to work every day.","I'm walk to work every day.","অভ্যাস Present Simple-এ বলা হয়।"],
+["mc","\"তুমি কী করছ?\" ইংরেজিতে?","What are you doing?","What do you doing?","What are you do?","What you are doing?","ক্রম হলো প্রশ্নবোধক শব্দ + be + কর্তা + -ing।"],
+["mc","\"আমি তাকে (ছেলে) চিনি\" ইংরেজিতে?","I know him.","I'm knowing him.","I knowing him.","I'm know him.","know অবস্থা বোঝায়, তাই -ing বসে না।"],
+["or","আমি একটা বই পড়ছি","I'm reading a book","read books","এখন একটা বই পড়ছেন, তাই আর্টিকেল a আর একবচন book।"],
+["or","বাচ্চারা খেলছে","The kids are playing","kid is","একাধিক, তাই বহুবচন kids আর are।"],
+["or","এখন বৃষ্টি হচ্ছে","It's raining now","rains","এই মুহূর্তে যা হচ্ছে: be + -ing।"],
+["fi","I'm __ TV.","আমি টিভি দেখছি","watching","watch|watches|to watch","be-এর পরে -ing রূপ বসে।"],
+["fi","What __ you doing?","তুমি কী করছ?","are","do|is|does","you-এর সঙ্গে are বসে।"],
+["fi","She __ working today.","সে (মেয়ে) আজ কাজ করছে না","isn't|is not","doesn't|don't|not","be + -ing-এর না-বাচক রূপ isn't।"],
+["ty","আমি এখন রান্না করছি","I'm cooking now|I'm cooking|I'm cooking right now","I'm · cook — -ing · now","cook","এই মুহূর্তের কাজ: be + -ing।"],
+["ty","আমি একটা সিনেমা দেখছি","I'm watching a movie","I'm · watching · movie — আর্টিকেল a","the","যেকোনো একটা সিনেমা, তাই আর্টিকেল a।"],
+["ty","বাচ্চারা ঘুমাচ্ছে","The kids are sleeping|The children are sleeping","kids · are · sleeping — বহুবচন","kid","একাধিক, তাই বহুবচন kids আর are।"]]},
+{ id:"past", title:"Past Simple: was / were ও -ed", blurb:"be ক্রিয়ায় was / were, অন্য ক্রিয়ায় -ed। প্রশ্ন আর না-বাচক বাক্যে did।", deck:"হালকা আলাপ", body:`
+<p>বাংলার "করলাম", "করেছিলাম", "ছিলাম"-এর জায়গায় ইংরেজির Past Simple। be ক্রিয়া আর অন্য ক্রিয়ার past রূপ আলাদা। একটা ফাঁদ মনে রাখুন: বাংলায় "গতকাল করেছি" বলা যায়, কিন্তু ইংরেজিতে yesterday, last night-এর মতো শেষ হয়ে যাওয়া সময়ের সঙ্গে Past Simple-ই বসে: <b>I did it yesterday.</b></p>
+<h3>be ক্রিয়ার past রূপ: was / were</h3>
+<p>বাংলার "ছিলাম / ছিল"। I, he, she, it-এর সঙ্গে <b>was</b>; you, we, they-এর সঙ্গে <b>were</b>।</p>
+{{ex:I was tired.|আই ওয়াজ় ˈটাইআর্ড|আমি ক্লান্ত ছিলাম}}{{ex:It was fun.|ইট ওয়াজ় ˈফান|মজা হয়েছিল}}{{ex:We were at home.|ওয়ি ওয়ার আট ˈহৌম|আমরা বাসায় ছিলাম}}{{ex:Were you busy?|ওয়ার ইউ ˈবিজ়ি|তুমি কি ব্যস্ত ছিলে?}}
+<h3>অন্য ক্রিয়ার past রূপ: -ed</h3>
+<p>ক্রিয়ার শেষে <b>-ed</b> বসান। বাংলায় কর্তা বদলালে ক্রিয়া বদলায় (করলাম, করল); ইংরেজিতে সব কর্তার সঙ্গে একই রূপ। -ed-এর উচ্চারণ তিন রকম: worked-এ ট, called-এ ড, wanted-এ ইড।</p>
+{{ex:I worked yesterday.|আই ˈওয়ার্ক্ট ˈইয়েস্টার্ডেই|আমি গতকাল কাজ করেছি}}{{ex:We watched a movie.|ওয়ি ˈওয়াːচ্ট আ ˈমূভ়ি|আমরা একটা সিনেমা দেখেছি}}{{ex:She called me.|শি ˈকল্ড মি|সে (মেয়ে) আমাকে ফোন করেছিল}}
+<h3>না-বাচক বাক্য ও প্রশ্নে did</h3>
+<p><b>didn't</b> বা <b>Did</b> বসালে ক্রিয়া মূল রূপে ফিরে যায়।</p>
+{{ex:I didn't work yesterday.|আই ˈডিডান্ট ˈওয়ার্ক ˈইয়েস্টার্ডেই|আমি গতকাল কাজ করিনি}}{{ex:Did you call me?|ডিড ইউ ˈকল মি|তুমি কি আমাকে ফোন করেছিলে?}}
+<div class="tip">সবচেয়ে বেশি যে ভুল হয়: <b>I didn't worked.</b> ✗ → <b>I didn't work.</b> ✓, <b>I was work.</b> ✗ → <b>I worked.</b> ✓</div>`,
+check:[["They ___ at home yesterday. শূন্যস্থানে কী বসবে?",["was","were","did","are"],1,"they-এর সঙ্গে were বসে।"],["\"আমি গতকাল কাজ করিনি\" ইংরেজিতে?",["I didn't worked yesterday.","I wasn't work yesterday.","I didn't work yesterday.","I not worked yesterday."],2,"didn't-এর পরে ক্রিয়ার মূল রূপ বসে।"],["Did you ___ the movie? শূন্যস্থানে কী বসবে?",["watch","watched","watching","watches"],0,"Did-এর পরে ক্রিয়ার মূল রূপ বসে।"]],
 practice:[
-["mc","I ___ tired yesterday.","was","were","did","am","I에는 was예요."],
-["mc","'우리는 영화를 봤어요' =","We watched a movie.","We watch a movie yesterday.","We were watch a movie.","We did watched a movie.","일반동사 과거는 -ed예요."],
-["mc","'어제 전화했어요?' =","Did you call yesterday?","Did you called yesterday?","Were you call yesterday?","Do you called yesterday?","Did 뒤에는 동사원형이 와요."],
-["mc","'재미있었어요' =","It was fun.","It were fun.","It did fun.","It funned.","it에는 was예요."],
-["mc","'바빴어요?' =","Were you busy?","Did you busy?","Was you busy?","Were you busied?","busy는 상태라서 be동사로 물어요."],
-["or","우리는 영화를 봤어요","We watched a movie","watch movies","영화 한 편이라 관사 a와 단수 movie예요."],
-["or","(어린아이가) 저는 친구들과 놀았어요","I played with my friends","friend play","여러 명이라 복수 friends예요."],
-["or","어제 일 안 했어요","I didn't work yesterday","worked","didn't 뒤에는 동사원형이 와요."],
-["fi","We __ at home last night.","우리는 어젯밤에 집에 있었어요","were","was|did|are","we에는 were예요."],
-["fi","I __ soccer yesterday.","어제 축구했어요","played","play|playing|was play","과거는 -ed예요."],
-["fi","__ you work yesterday?","어제 일했어요?","Did","Were|Do|Was","일반동사 과거 질문은 Did예요."],
-["ty","피곤했어요","I was tired","was · tired","were","I에는 was예요."],
-["ty","저는 영화를 봤어요","I watched a movie","watched · movie — 관사 a","the","영화 한 편이라 관사 a를 붙여요."],
-["ty","저는 친구들한테 전화했어요","I called my friends","called · my · friend — 복수","friend","여러 명이라 복수 friends예요."]]},
-{ id:"irregular-past", title:"불규칙 과거: went, ate, saw", blurb:"가장 자주 쓰는 동사일수록 -ed가 아니에요. 12개만 먼저 외워요.", deck:"스몰토크", body:`
-<p>매일 쓰는 동사들은 과거형이 <b>불규칙</b>이에요. 규칙이 없으니 짝으로 외워요.</p>
-<div class="tbl"><table><tr><th>현재</th><th>과거</th><th>현재</th><th>과거</th></tr><tr><td class="k">go</td><td class="k">went</td><td class="k">make</td><td class="k">made</td></tr><tr><td class="k">eat</td><td class="k">ate</td><td class="k">come</td><td class="k">came</td></tr><tr><td class="k">see</td><td class="k">saw</td><td class="k">buy</td><td class="k">bought</td></tr><tr><td class="k">have</td><td class="k">had</td><td class="k">meet</td><td class="k">met</td></tr><tr><td class="k">do</td><td class="k">did</td><td class="k">take</td><td class="k">took</td></tr><tr><td class="k">get</td><td class="k">got</td><td class="k">say</td><td class="k">said</td></tr></table></div>
-{{ex:I went to Busan.|아이 웬 투 부산|부산에 갔어요}}{{ex:We ate pizza.|위 에잇 피짜|우리는 피자를 먹었어요}}{{ex:I saw a movie.|아이 쏘 어 무비|영화를 봤어요}}{{ex:I met my friends.|아이 멧 마이 프렌즈|친구들을 만났어요}}{{ex:I bought a book.|아이 봇 어 북|책을 한 권 샀어요}}
-<h3>질문과 부정에서는 원래 모양으로</h3>
-<p><b>did</b>가 과거를 표시하니까 동사는 원형으로 돌아가요.</p>
-{{ex:What did you do?|왓 디쥬 두?|뭐 했어요?}}{{ex:Where did you go?|웨어 디쥬 고?|어디 갔어요?}}{{ex:I didn't go.|아이 디든 고|안 갔어요}}
-<div class="tip">가장 흔한 실수: <b>I goed.</b> (X) → <b>I went.</b> (O), <b>Did you went?</b> (X) → <b>Did you go?</b> (O)</div>`,
-check:[["go의 과거형은?",["goed","gone","went","going"],2,"go의 과거는 went예요."],["'뭐 했어요?'를 영어로 하면?",["What did you do?","What did you did?","What you did?","What were you do?"],0,"did 뒤에는 동사원형 do가 와요."],["I didn't ___ breakfast. 빈칸에 알맞은 것은?",["ate","eaten","eats","eat"],3,"didn't 뒤에는 동사원형이 와요."]],
+["mc","I ___ tired yesterday.","was","were","did","am","I-এর সঙ্গে was বসে।"],
+["mc","\"আমরা একটা সিনেমা দেখেছিলাম\" ইংরেজিতে?","We watched a movie.","We watch a movie yesterday.","We were watch a movie.","We did watched a movie.","be ছাড়া অন্য ক্রিয়ার past রূপে -ed বসে।"],
+["mc","\"তুমি কি গতকাল ফোন করেছিলে?\" ইংরেজিতে?","Did you call yesterday?","Did you called yesterday?","Were you call yesterday?","Do you called yesterday?","Did-এর পরে ক্রিয়ার মূল রূপ বসে।"],
+["mc","\"মজা হয়েছিল\" ইংরেজিতে?","It was fun.","It were fun.","It did fun.","It funned.","it-এর সঙ্গে was বসে।"],
+["mc","\"তুমি কি ব্যস্ত ছিলে?\" ইংরেজিতে?","Were you busy?","Did you busy?","Was you busy?","Were you busied?","busy বিশেষণ, তাই প্রশ্ন be ক্রিয়া দিয়ে হয়।"],
+["or","আমরা একটা সিনেমা দেখেছিলাম","We watched a movie","watch movies","সিনেমা একটা, তাই আর্টিকেল a আর একবচন movie।"],
+["or","(ছোট বাচ্চা বলছে) আমি বন্ধুদের সঙ্গে খেলেছি","I played with my friends","friend play","একাধিক বন্ধু, তাই বহুবচন friends।"],
+["or","আমি গতকাল কাজ করিনি","I didn't work yesterday","worked","didn't-এর পরে ক্রিয়ার মূল রূপ বসে।"],
+["fi","We __ at home last night.","আমরা গতকাল রাতে বাসায় ছিলাম","were","was|did|are","we-এর সঙ্গে were বসে।"],
+["fi","I __ soccer yesterday.","আমি গতকাল ফুটবল খেলেছি","played","play|playing|was play","গতকালের কথা, তাই past রূপ: -ed।"],
+["fi","__ you work yesterday?","তুমি কি গতকাল কাজ করেছ?","Did","Were|Do|Was","be ছাড়া অন্য ক্রিয়ার past-এর প্রশ্ন Did দিয়ে হয়।"],
+["ty","আমি ক্লান্ত ছিলাম","I was tired","was · tired","were","I-এর সঙ্গে was বসে।"],
+["ty","আমি একটা সিনেমা দেখেছিলাম","I watched a movie","watched · movie — আর্টিকেল a","the","সিনেমা একটা, তাই আর্টিকেল a বসে।"],
+["ty","আমি আমার বন্ধুদের ফোন করেছিলাম","I called my friends","called · my · friend — বহুবচন","friend","একাধিক বন্ধু, তাই বহুবচন friends।"]]},
+{ id:"irregular-past", title:"অনিয়মিত past: went, ate, saw", blurb:"যে ক্রিয়া যত বেশি চলে, তার past রূপ তত কম -ed দিয়ে হয়। আগে এই 12টি শিখে নিন।", deck:"হালকা আলাপ", body:`
+<p>রোজকার সবচেয়ে চেনা ক্রিয়াগুলো <b>অনিয়মিত</b>: এদের past রূপ -ed দিয়ে হয় না। কোনো নিয়ম নেই, তাই জোড়ায় জোড়ায় মুখস্থ করুন, স্কুলে যেভাবে ক্রিয়ার রূপের তালিকা পড়েছেন।</p>
+<div class="tbl"><table><tr><th>মূল রূপ</th><th>past রূপ</th><th>মূল রূপ</th><th>past রূপ</th></tr><tr><td class="k">go</td><td class="k">went</td><td class="k">make</td><td class="k">made</td></tr><tr><td class="k">eat</td><td class="k">ate</td><td class="k">come</td><td class="k">came</td></tr><tr><td class="k">see</td><td class="k">saw</td><td class="k">buy</td><td class="k">bought</td></tr><tr><td class="k">have</td><td class="k">had</td><td class="k">meet</td><td class="k">met</td></tr><tr><td class="k">do</td><td class="k">did</td><td class="k">take</td><td class="k">took</td></tr><tr><td class="k">get</td><td class="k">got</td><td class="k">say</td><td class="k">said</td></tr></table></div>
+{{ex:I went to Cox's Bazar.|আই ˈওয়েন্ট টা ˈকাːক্সিজ় বাˈজ়াːর|আমি কক্সবাজার গিয়েছিলাম}}{{ex:We ate pizza.|ওয়ি ˈএইট ˈপীট্সা|আমরা পিৎজা খেয়েছি}}{{ex:I saw a movie.|আই ˈস আ ˈমূভ়ি|আমি একটা সিনেমা দেখেছি}}{{ex:I met my friends.|আই ˈমেট মাই ˈফ্রেন্ড্জ়|আমি বন্ধুদের সঙ্গে দেখা করেছি}}{{ex:I bought a book.|আই ˈবট আ ˈবুক|আমি একটা বই কিনেছি}}
+<h3>প্রশ্ন ও না-বাচক বাক্যে মূল রূপ</h3>
+<p><b>did</b> নিজেই past বুঝিয়ে দেয়, তাই ক্রিয়া মূল রূপে ফিরে যায়।</p>
+{{ex:What did you do?|ˈওয়াট ডিড ইউ ˈডূ|তুমি কী করেছ?}}{{ex:Where did you go?|ˈওয়ের ডিড ইউ ˈগৌ|তুমি কোথায় গিয়েছিলে?}}{{ex:I didn't go.|আই ˈডিডান্ট ˈগৌ|আমি যাইনি}}
+<div class="tip">সবচেয়ে বেশি যে ভুল হয়: <b>I goed.</b> ✗ → <b>I went.</b> ✓, <b>Did you went?</b> ✗ → <b>Did you go?</b> ✓</div>`,
+check:[["go-এর past রূপ?",["goed","gone","went","going"],2,"go-এর past রূপ went।"],["\"তুমি কী করেছ?\" ইংরেজিতে?",["What did you do?","What did you did?","What you did?","What were you do?"],0,"did-এর পরে মূল রূপ do বসে।"],["I didn't ___ breakfast. শূন্যস্থানে কী বসবে?",["ate","eaten","eats","eat"],3,"didn't-এর পরে ক্রিয়ার মূল রূপ বসে।"]],
 practice:[
-["mc","eat의 과거형은?","ate","eated","eat","eaten","eat의 과거는 ate예요."],
-["mc","'어디 갔어요?' =","Where did you go?","Where did you went?","Where you went?","Where were you go?","did 뒤에는 동사원형이 와요."],
-["mc","'저는 책을 한 권 샀어요' =","I bought a book.","I buyed a book.","I bought book.","I did bought a book.","buy의 과거는 bought, 한 권이라 관사 a예요."],
-["mc","see의 과거형은?","saw","seed","seen","sawed","see의 과거는 saw예요."],
-["mc","'저는 안 갔어요' =","I didn't go.","I didn't went.","I wasn't go.","I not went.","didn't 뒤에는 동사원형이 와요."],
-["or","저는 영화를 봤어요","I saw a movie","see movies","한 편이라 관사 a와 단수 movie예요. see의 과거는 saw예요."],
-["or","우리는 피자를 먹었어요","We ate pizza","eated","eat의 과거는 ate예요."],
-["or","저는 친구들을 만났어요","I met my friends","friend meet","여러 명이라 복수 friends예요."],
-["fi","I __ to Jeju last year.","작년에 제주에 갔어요","went","go|goed|gone","go의 과거는 went예요."],
-["fi","What did you __?","뭐 먹었어요?","eat","ate|eaten|eating","did 뒤에는 동사원형이 와요."],
-["fi","She __ a new phone.","그녀는 새 휴대폰을 샀어요","bought","buyed|buy|buys","buy의 과거는 bought예요."],
-["ty","저는 부산에 갔어요","I went to Busan","went · to · Busan","go","go의 과거는 went예요."],
-["ty","저는 책을 한 권 샀어요","I bought a book","bought · book — 관사 a","the","한 권이라 관사 a를 붙여요."],
-["ty","저는 친구들을 만났어요","I met my friends|I saw my friends","met · my · friend — 복수","friend","여러 명이라 복수 friends예요."]]},
-{ id:"the", title:"the 다시 보기: 처음엔 a, 다음엔 the", blurb:"처음 꺼낼 땐 a, 서로 아는 것이 되면 the.", deck:"길 묻기·교통", body:`
-<p>관사는 한 번에 익혀지지 않아요. 여기서는 <b>the</b>를 쓰는 때와 <b>아무것도 안 쓰는 때</b>를 다시 연습해요.</p>
-<h3>처음엔 a, 다시 말할 땐 the</h3>
-<p>듣는 사람이 처음 듣는 것이면 a, 방금 말해서 이제 아는 것이면 the예요.</p>
-{{ex:I bought a shirt. The shirt is blue.|아이 봇 어 셔트. 더 셔트 이즈 블루|셔츠를 하나 샀어요. 그 셔츠는 파란색이에요}}
-<h3>상황상 하나뿐이면 the</h3>
-<p>이 방의 창문, 이 근처의 역처럼 무엇인지 뻔하면 처음부터 the예요.</p>
-{{ex:Can you open the window?|캔 유 오픈 더 윈도우?|창문 좀 열어 줄래요?}}{{ex:Where's the subway station?|웨어즈 더 서브웨이 스테이션?|지하철역이 어디예요?}}{{ex:The sun is hot today.|더 썬 이즈 핫 투데이|오늘 햇볕이 뜨거워요}}
-<h3>관사를 안 쓰는 표현</h3>
-<p>자주 쓰는 장소·교통·식사 표현은 통째로 외워요.</p>
-{{ex:I go to work by bus.|아이 고우 투 워크 바이 버스|저는 버스로 출근해요}}{{ex:I'm at home.|아임 앳 홈|저 집에 있어요}}{{ex:I go to bed at eleven.|아이 고우 투 베드 앳 일레븐|저는 11시에 자요}}
-<div class="tip">스스로 물어보세요: "듣는 사람이 <b>어느 것인지</b> 알까?" 알면 the, 모르면 a예요.</div>`,
-check:[["I have a cat. ___ cat is white. 빈칸에 알맞은 것은?",["A","An","The","(없음)"],2,"방금 말한 그 고양이라서 the예요."],["I go to ___ work by bus. 빈칸에 알맞은 것은?",["a","the","an","(없음)"],3,"go to work에는 관사를 쓰지 않아요."],["이 방의 창문을 열어 달라고 할 때 알맞은 말은?",["Can you open a window?","Can you open the window?","Can you open window?","Can you open an window?"],1,"둘 다 아는 그 창문이라서 the예요."]],
+["mc","eat-এর past রূপ?","ate","eated","eat","eaten","eat-এর past রূপ ate।"],
+["mc","\"তুমি কোথায় গিয়েছিলে?\" ইংরেজিতে?","Where did you go?","Where did you went?","Where you went?","Where were you go?","did-এর পরে ক্রিয়ার মূল রূপ বসে।"],
+["mc","\"আমি একটা বই কিনেছি\" ইংরেজিতে?","I bought a book.","I buyed a book.","I bought book.","I did bought a book.","buy-এর past রূপ bought; বই একটা, তাই আর্টিকেল a।"],
+["mc","see-এর past রূপ?","saw","seed","seen","sawed","see-এর past রূপ saw।"],
+["mc","\"আমি যাইনি\" ইংরেজিতে?","I didn't go.","I didn't went.","I wasn't go.","I not went.","didn't-এর পরে ক্রিয়ার মূল রূপ বসে।"],
+["or","আমি একটা সিনেমা দেখেছি","I saw a movie","see movies","সিনেমা একটা, তাই আর্টিকেল a আর একবচন movie। see-এর past রূপ saw।"],
+["or","আমরা পিৎজা খেয়েছি","We ate pizza","eated","eat-এর past রূপ ate।"],
+["or","আমি বন্ধুদের সঙ্গে দেখা করেছি","I met my friends","friend meet","একাধিক বন্ধু, তাই বহুবচন friends।"],
+["fi","I __ to Jeju last year.","আমি গত বছর জেজু গিয়েছিলাম","went","go|goed|gone","go-এর past রূপ went।"],
+["fi","What did you __?","তুমি কী খেয়েছ?","eat","ate|eaten|eating","did-এর পরে ক্রিয়ার মূল রূপ বসে।"],
+["fi","She __ a new phone.","সে (মেয়ে) একটা নতুন ফোন কিনেছে","bought","buyed|buy|buys","buy-এর past রূপ bought।"],
+["ty","আমি বুসান গিয়েছিলাম","I went to Busan","went · to · Busan","go","go-এর past রূপ went।"],
+["ty","আমি একটা বই কিনেছি","I bought a book","bought · book — আর্টিকেল a","the","বই একটা, তাই আর্টিকেল a বসে।"],
+["ty","আমি আমার বন্ধুদের সঙ্গে দেখা করেছি","I met my friends|I saw my friends","met · my · friend — বহুবচন","friend","একাধিক বন্ধু, তাই বহুবচন friends।"]]},
+{ id:"the", title:"আবার the: প্রথমবার a, পরের বার the", blurb:"প্রথমবার বললে a; দুজনেই জিনিসটা চিনলে the।", deck:"পথ জিজ্ঞাসা ও যাতায়াত", body:`
+<p>আর্টিকেল (a, an, the) এক দিনে আয়ত্তে আসে না, কারণ বাংলায় এমন আলাদা শব্দ নেই। বাংলার -টা / -টি অনেক সময় the-এর কাজ করে ("বইটা"), কিন্তু সব জায়গায় মেলে না। এখানে <b>the</b> কখন বসে আর কখন <b>কিছুই বসে না</b>, তা আবার অনুশীলন করুন।</p>
+<h3>প্রথমবার a, আবার বললে the</h3>
+<p>শ্রোতা জিনিসটার কথা প্রথম শুনলে a; একটু আগে বলা হয়েছে বলে এখন চেনেন, তাহলে the।</p>
+{{ex:I bought a shirt. The shirt is blue.|আই ˈবট আ ˈশার্ট। দ়া ˈশার্ট ইজ় ˈব্লূ|আমি একটা শার্ট কিনেছি। শার্টটা নীল}}
+<h3>পরিস্থিতি থেকেই বোঝা গেলে the</h3>
+<p>এই ঘরের জানালা, কাছের স্টেশন: কোনটার কথা বলছেন তা স্পষ্ট হলে শুরু থেকেই the।</p>
+{{ex:Can you open the window?|কান ইউ ˈঔপান দ়া ˈওয়িন্ডৌ|জানালাটা একটু খুলবেন?}}{{ex:Where's the subway station?|ˈওয়ের্জ় দ়া ˈসাব্ওয়েই ˈস্টেইশান|সাবওয়ে স্টেশনটা কোথায়?}}{{ex:The sun is hot today.|দ়া ˈসান ইজ় ˈহাːট টাˈডেই|আজ রোদ খুব কড়া}}
+<h3>যেখানে -টা আছে, কিন্তু the বসে না</h3>
+<p>বাংলায় "আমার বইটা", "ঢাকা শহরটা" বলা যায়। ইংরেজিতে my, your-এর সঙ্গে the বসে না; মানুষ, শহর আর বেশির ভাগ দেশের নামের আগেও বসে না: <b>the my book</b> ✗ → <b>my book</b> ✓, <b>the Dhaka</b> ✗ → <b>Dhaka</b> ✓</p>
+<h3>আর্টিকেল ছাড়া বাঁধা কথা</h3>
+<p>জায়গা, যাতায়াত আর খাওয়ার কিছু চেনা কথা আর্টিকেল ছাড়াই হয়। এগুলো আস্ত মুখস্থ করুন।</p>
+{{ex:I go to work by bus.|আই ˈগৌ টা ˈওয়ার্ক বাই ˈবাস|আমি বাসে করে কাজে যাই}}{{ex:I'm at home.|আইম আট ˈহৌম|আমি বাসায় আছি}}{{ex:I go to bed at eleven.|আই ˈগৌ টা ˈবেড আট ইˈলেভ়ান|আমি এগারোটায় ঘুমাতে যাই}}
+<div class="tip">নিজেকে জিজ্ঞেস করুন: "শ্রোতা কি জানেন <b>কোনটা</b>?" জানলে the, না জানলে a।</div>`,
+check:[["I have a cat. ___ cat is white. শূন্যস্থানে কী বসবে?",["A","An","The","(কিছুই না)"],2,"একটু আগে বলা সেই বিড়ালটা, তাই the।"],["I go to ___ work by bus. শূন্যস্থানে কী বসবে?",["a","the","an","(কিছুই না)"],3,"go to work-এ আর্টিকেল বসে না।"],["এই ঘরের জানালাটা খুলতে বলবেন। কোনটি ঠিক?",["Can you open a window?","Can you open the window?","Can you open window?","Can you open an window?"],1,"দুজনেই জানেন কোন জানালা, তাই the।"]],
 practice:[
-["mc","I bought a shirt. ___ shirt is blue.","The","A","An","Some","방금 말한 그 셔츠라서 the예요."],
-["mc","'역이 어디예요?' =","Where's the station?","Where's a station?","Where's station?","Where the station?","이 근처의 그 역이라서 the예요."],
-["mc","다음 중 알맞은 문장은?","I go to work by bus.","I go to the work by the bus.","I go to a work by bus.","I go to work by a bus.","go to work, by bus에는 관사가 없어요."],
-["mc","'해가 뜨거워요' =","The sun is hot.","A sun is hot.","Sun is hot.","The suns is hot.","하나뿐인 것에는 the를 붙여요."],
-["mc","'저 집에 있어요' =","I'm at home.","I'm at the home.","I'm at a home.","I'm home at.","at home에는 관사가 없어요."],
-["or","창문 좀 열어 줄래요?","Can you open the window","a windows","둘 다 아는 그 창문이라 관사 the예요."],
-["or","저는 버스로 출근해요","I go to work by bus","the a","go to work, by bus에는 관사를 쓰지 않아요."],
-["or","그 개는 커요","The dog is big","A dogs","이미 말한 그 개라서 관사 the예요."],
-["fi","I saw a movie. __ movie was great.","영화를 봤어요. 그 영화 정말 좋았어요","The","A|An|Some","방금 말한 그 영화라서 the예요."],
-["fi","Where's __ bathroom?","화장실이 어디예요?","the","a|an|some","이 건물의 그 화장실이라서 the예요."],
-["fi","I have __ idea.","좋은 생각이 있어요","an","a|the|some","처음 꺼내는 하나이고 모음 소리로 시작해서 an이에요."],
-["ty","문 좀 닫아 줄래요?","Can you close the door|Could you close the door","can you · close · door — 관사 the","a","둘 다 아는 그 문이라 관사 the예요."],
-["ty","역이 어디예요?","Where is the station|Where's the station","where · station — 관사 the","a","이 근처의 그 역이라 관사 the예요."],
-["ty","저는 집에 있어요","I'm at home|I'm home","I'm · at · home — 관사 없이","the","home 앞에는 관사를 쓰지 않아요."]]},
-{ id:"adjectives", title:"형용사와 비교: bigger, more expensive, the best", blurb:"형용사는 명사 앞에. 비교는 -er / more, 최고는 the -est / the most.", deck:"쇼핑·계산", body:`
-<p>형용사는 명사 <b>앞</b>이나 be동사 <b>뒤</b>에 와요. 쇼핑할 때 꼭 필요한 비교 표현까지 같이 익혀요.</p>
-{{ex:a big bag|어 빅 백|큰 가방}}{{ex:This bag is big.|디스 백 이즈 빅|이 가방은 커요}}{{ex:It's too small.|이츠 투 스몰|너무 작아요}}
-<h3>비교: -er 또는 more</h3>
-<p>짧은 단어는 <b>-er</b>, 긴 단어는 앞에 <b>more</b>를 붙여요. '~보다'는 <b>than</b>이에요.</p>
-<div class="tbl"><table><tr><th>원래</th><th>더 ~한</th><th>가장 ~한</th></tr><tr><td class="k">cheap</td><td class="k">cheaper</td><td class="k">the cheapest</td></tr><tr><td class="k">big</td><td class="k">bigger</td><td class="k">the biggest</td></tr><tr><td class="k">expensive</td><td class="k">more expensive</td><td class="k">the most expensive</td></tr><tr><td class="k">good</td><td class="k">better</td><td class="k">the best</td></tr><tr><td class="k">bad</td><td class="k">worse</td><td class="k">the worst</td></tr></table></div>
-{{ex:This one is cheaper.|디스 원 이즈 치퍼|이게 더 싸요}}{{ex:It's more expensive than that one.|이츠 모어 익스펜시브 댄 댓 원|저것보다 더 비싸요}}{{ex:Do you have a bigger size?|두 유 해버 비거 사이즈?|더 큰 사이즈 있어요?}}
-<h3>최상급에는 the</h3>
-{{ex:This is the best restaurant here.|디스 이즈 더 베스트 레스토란트 히어|여기서 제일 좋은 식당이에요}}{{ex:Which is the cheapest?|위치 이즈 더 치피스트?|어느 게 제일 싸요?}}
-<div class="tip">가장 흔한 실수: <b>more cheaper</b>, <b>more good</b> (X) → <b>cheaper</b>, <b>better</b> (O). -er와 more는 같이 쓰지 않아요.</div>`,
-check:[["big의 비교급은?",["more big","biger","bigger","most big"],2,"짧은 단어는 -er, 끝 자음을 한 번 더 써요."],["This is ___ expensive than that. 빈칸에 알맞은 것은?",["more","most","much","very"],0,"긴 단어의 비교급은 more를 붙여요."],["good의 최상급은?",["the goodest","the most good","the better","the best"],3,"good – better – the best예요."]],
+["mc","I bought a shirt. ___ shirt is blue.","The","A","An","Some","একটু আগে বলা সেই শার্টটা, তাই the।"],
+["mc","\"স্টেশনটা কোথায়?\" ইংরেজিতে?","Where's the station?","Where's a station?","Where's station?","Where the station?","কাছের সেই স্টেশনটা, তাই the।"],
+["mc","নিচের কোন বাক্যটি ঠিক?","I go to work by bus.","I go to the work by the bus.","I go to a work by bus.","I go to work by a bus.","go to work আর by bus-এ আর্টিকেল বসে না।"],
+["mc","\"সূর্য গরম\" ইংরেজিতে?","The sun is hot.","A sun is hot.","Sun is hot.","The suns is hot.","যা একটাই আছে, তার আগে the বসে।"],
+["mc","\"আমি বাসায় আছি\" ইংরেজিতে?","I'm at home.","I'm at the home.","I'm at a home.","I'm home at.","at home-এ আর্টিকেল বসে না।"],
+["or","জানালাটা একটু খুলবেন?","Can you open the window","a windows","দুজনেই জানেন কোন জানালা, তাই আর্টিকেল the।"],
+["or","আমি বাসে করে কাজে যাই","I go to work by bus","the a","go to work আর by bus-এ আর্টিকেল বসে না।"],
+["or","কুকুরটা বড়","The dog is big","A dogs","আগেই বলা সেই কুকুরটা, তাই আর্টিকেল the।"],
+["fi","I saw a movie. __ movie was great.","আমি একটা সিনেমা দেখেছি। সিনেমাটা দারুণ ছিল","The","A|An|Some","একটু আগে বলা সেই সিনেমাটা, তাই the।"],
+["fi","Where's __ bathroom?","বাথরুমটা কোথায়?","the","a|an|some","এই ভবনের নির্দিষ্ট বাথরুমটা, তাই the।"],
+["fi","I have __ idea.","আমার একটা বুদ্ধি আছে","an","a|the|some","প্রথমবার বলা একটা জিনিস, আর idea স্বরধ্বনি দিয়ে শুরু, তাই an।"],
+["ty","দরজাটা একটু বন্ধ করবেন?","Can you close the door|Could you close the door","can you · close · door — আর্টিকেল the","a","দুজনেই জানেন কোন দরজা, তাই আর্টিকেল the।"],
+["ty","স্টেশনটা কোথায়?","Where is the station|Where's the station","where · station — আর্টিকেল the","a","কাছের সেই স্টেশনটা, তাই আর্টিকেল the।"],
+["ty","আমি বাসায় আছি","I'm at home|I'm home","I'm · at · home — আর্টিকেল ছাড়া","the","home-এর আগে আর্টিকেল বসে না।"]]},
+{ id:"adjectives", title:"বিশেষণ ও তুলনা: bigger, more expensive, the best", blurb:"বিশেষণ বিশেষ্যের আগে। তুলনায় -er / more; সবচেয়ে বোঝাতে the -est / the most।", deck:"কেনাকাটা ও বিল", body:`
+<p>বিশেষণ (adjective) বাংলার মতোই বিশেষ্যের <b>আগে</b> বসে ("বড় ব্যাগ" = big bag), অথবা be ক্রিয়ার <b>পরে</b>। তবে বাংলায় "ব্যাগটা বড়" বলতে ক্রিয়া লাগে না; ইংরেজিতে is বাদ দেওয়া যায় না। কেনাকাটায় দরকারি তুলনার রূপও এখানে শিখে নিন।</p>
+{{ex:a big bag|আ ˈবিগ ˈব্যাগ|একটা বড় ব্যাগ}}{{ex:This bag is big.|ˈদ়িস ˈব্যাগ ইজ় ˈবিগ|এই ব্যাগটা বড়}}{{ex:It's too small.|ইট্স ˈটূ ˈস্মল|এটা বেশি ছোট}}
+<h3>তুলনা: -er অথবা more</h3>
+<p>বাংলায় তুলনা হয় আলাদা শব্দ দিয়ে: "আরও বড়", "এর চেয়ে দামি"। ইংরেজিতে ছোট শব্দের শেষে <b>-er</b>, লম্বা শব্দের আগে <b>more</b>; দুটো একসঙ্গে কখনো নয়। "চেয়ে" = <b>than</b>।</p>
+<div class="tbl"><table><tr><th>মূল রূপ</th><th>তুলনার রূপ</th><th>সবচেয়ে-র রূপ</th></tr><tr><td class="k">cheap</td><td class="k">cheaper</td><td class="k">the cheapest</td></tr><tr><td class="k">big</td><td class="k">bigger</td><td class="k">the biggest</td></tr><tr><td class="k">expensive</td><td class="k">more expensive</td><td class="k">the most expensive</td></tr><tr><td class="k">good</td><td class="k">better</td><td class="k">the best</td></tr><tr><td class="k">bad</td><td class="k">worse</td><td class="k">the worst</td></tr></table></div>
+{{ex:This one is cheaper.|ˈদ়িস ˈওয়ান ইজ় ˈচীপার|এটা আরও সস্তা}}{{ex:It's more expensive than that one.|ইট্স ˈমর ইক্ˈস্পেন্সিভ় দ়ান ˈদ়্যাট ˈওয়ান|এটা ওটার চেয়ে দামি}}{{ex:Do you have a bigger size?|ডা ইউ ˈহ্যাভ় আ ˈবিগার ˈসাইজ়|আরও বড় সাইজ আছে?}}
+<h3>সবচেয়ে-র রূপের আগে the</h3>
+{{ex:This is the best restaurant here.|ˈদ়িস ইজ় দ়া ˈবেস্ট ˈরেস্টারাːন্ট ˈহির|এখানে এটাই সবচেয়ে ভালো রেস্টুরেন্ট}}{{ex:Which is the cheapest?|ˈওয়িচ ইজ় দ়া ˈচীপিস্ট|কোনটা সবচেয়ে সস্তা?}}
+<div class="tip">সবচেয়ে বেশি যে ভুল হয়: <b>more cheaper</b>, <b>more better</b>, <b>more good</b> ✗ → <b>cheaper</b>, <b>better</b> ✓ বাংলার "আরও" ভেবে more বসাবেন না: -er থাকলে more লাগে না।</div>`,
+check:[["big-এর তুলনার রূপ?",["more big","biger","bigger","most big"],2,"ছোট শব্দে -er বসে; শেষের ব্যঞ্জনবর্ণ দুবার লেখা হয়।"],["This is ___ expensive than that. শূন্যস্থানে কী বসবে?",["more","most","much","very"],0,"লম্বা শব্দের তুলনার রূপে more বসে।"],["good-এর সবচেয়ে-র রূপ?",["the goodest","the most good","the better","the best"],3,"good-এর তিন রূপ: good – better – the best।"]],
 practice:[
-["mc","cheap의 비교급은?","cheaper","more cheap","cheapper","most cheap","짧은 단어는 -er를 붙여요."],
-["mc","'이게 더 비싸요' =","This is more expensive.","This is expensiver.","This is most expensive.","This more expensive is.","긴 단어는 more를 붙여요."],
-["mc","'더 큰 사이즈 있어요?' =","Do you have a bigger size?","Do you have bigger a size?","Do you have a more big size?","Do you have a size bigger than?","관사 + 형용사 + 명사 순서예요."],
-["mc","good의 비교급은?","better","gooder","more good","best","good – better – best예요."],
-["mc","'여기가 제일 좋은 식당이에요' =","This is the best restaurant.","This is a best restaurant.","This is the most good restaurant.","This is best the restaurant.","최상급 앞에는 the를 붙여요."],
-["or","더 큰 사이즈 있어요?","Do you have a bigger size","the sizes","아무 사이즈 하나를 찾으니까 관사 a예요."],
-["or","이게 제일 싸요","This is the cheapest","a cheaper","최상급 앞에는 관사 the를 붙여요."],
-["or","이게 저것보다 싸요","This is cheaper than that","more","-er 형용사에는 more를 붙이지 않아요."],
-["fi","It's __ small.","너무 작아요","too","much|more|most","'너무'는 too예요."],
-["fi","This is cheaper __ that one.","이게 저것보다 싸요","than","then|that|more","'~보다'는 than이에요."],
-["fi","It's the __ expensive one.","제일 비싼 거예요","most","more|much|very","긴 단어의 최상급은 the most예요."],
-["ty","더 작은 사이즈 있어요?","Do you have a smaller size","smaller · size — 관사 a","the","아무 사이즈 하나를 찾으니까 관사 a예요."],
-["ty","이게 제일 좋아요","This is the best|This one is the best","the · best — 관사 the","a","최상급 앞에는 관사 the를 붙여요."],
-["ty","이게 더 싸요","This is cheaper|This one is cheaper","cheap — 비교급","more","짧은 단어는 -er를 붙여요."]]},
-{ id:"going-to", title:"계획 말하기: be going to", blurb:"이미 마음먹은 일은 be going to + 동사.", deck:"스몰토크", body:`
-<p>'~할 거예요'처럼 <b>미리 정한 계획</b>을 말할 때 써요. 틀은 <b>be + going to + 동사원형</b>이에요.</p>
-{{ex:I'm going to visit Busan.|아임 고잉 투 비짓 부산|저는 부산에 갈 거예요}}{{ex:She's going to buy a car.|쉬즈 고잉 투 바이 어 카|그녀는 차를 살 거예요}}{{ex:We're going to have dinner.|위어 고잉 투 해브 디너|우리는 저녁을 먹을 거예요}}
-<h3>부정과 질문</h3>
-{{ex:I'm not going to go.|아임 낫 고잉 투 고|저는 안 갈 거예요}}{{ex:Are you going to come?|아 유 고잉 투 컴?|올 거예요?}}{{ex:What are you going to do this weekend?|왓 아 유 고잉 투 두 디스 위켄드?|이번 주말에 뭐 할 거예요?}}
-<h3>보이는 대로 예상할 때도</h3>
-{{ex:It's going to rain.|이츠 고잉 투 레인|비가 올 거예요}}
-<h3>함께 쓰는 시간 표현</h3>
-<p>tomorrow(내일), tonight(오늘 밤), this weekend(이번 주말), next week(다음 주)를 문장 끝에 붙여요.</p>
-<div class="tip">말할 때는 going to가 <b>gonna(거나)</b>처럼 들려요. 그리고 be동사를 빼먹지 마세요: <b>I going to go.</b> (X) → <b>I'm going to go.</b> (O)</div>`,
-check:[["'내일 친구를 만날 거예요'를 영어로 하면?",["I going to meet my friend tomorrow.","I'm going to meet my friend tomorrow.","I'm going meet my friend tomorrow.","I'm go to meet my friend tomorrow."],1,"be + going to + 동사원형이에요."],["She ___ going to study. 빈칸에 알맞은 것은?",["am","are","is","be"],2,"she에는 is예요."],["'주말에 뭐 할 거예요?'를 영어로 하면?",["What are you going to do this weekend?","What do you going to do this weekend?","What you are going to do this weekend?","What are you going do this weekend?"],0,"의문사 + be + 주어 + going to예요."]],
+["mc","cheap-এর তুলনার রূপ?","cheaper","more cheap","cheapper","most cheap","ছোট শব্দে -er বসে।"],
+["mc","\"এটা আরও দামি\" ইংরেজিতে?","This is more expensive.","This is expensiver.","This is most expensive.","This more expensive is.","লম্বা শব্দের আগে more বসে।"],
+["mc","\"আরও বড় সাইজ আছে?\" ইংরেজিতে?","Do you have a bigger size?","Do you have bigger a size?","Do you have a more big size?","Do you have a size bigger than?","ক্রম হলো আর্টিকেল + বিশেষণ + বিশেষ্য।"],
+["mc","good-এর তুলনার রূপ?","better","gooder","more good","best","good-এর তিন রূপ: good – better – best।"],
+["mc","\"এটাই সবচেয়ে ভালো রেস্টুরেন্ট\" ইংরেজিতে?","This is the best restaurant.","This is a best restaurant.","This is the most good restaurant.","This is best the restaurant.","সবচেয়ে-র রূপের আগে the বসে।"],
+["or","আরও বড় সাইজ আছে?","Do you have a bigger size","the sizes","যেকোনো একটা সাইজ খুঁজছেন, তাই আর্টিকেল a।"],
+["or","এটাই সবচেয়ে সস্তা","This is the cheapest","a cheaper","সবচেয়ে-র রূপের আগে আর্টিকেল the বসে।"],
+["or","এটা ওটার চেয়ে সস্তা","This is cheaper than that","more","-er থাকলে more বসে না।"],
+["fi","It's __ small.","এটা বেশি ছোট","too","much|more|most","\"দরকারের চেয়ে বেশি\" বোঝাতে too।"],
+["fi","This is cheaper __ that one.","এটা ওটার চেয়ে সস্তা","than","then|that|more","\"চেয়ে\" = than।"],
+["fi","It's the __ expensive one.","এটাই সবচেয়ে দামি","most","more|much|very","লম্বা শব্দের সবচেয়ে-র রূপ: the most।"],
+["ty","আরও ছোট সাইজ আছে?","Do you have a smaller size","do you have · smaller · size — আর্টিকেল a","the","যেকোনো একটা সাইজ খুঁজছেন, তাই আর্টিকেল a।"],
+["ty","এটাই সবচেয়ে ভালো","This is the best|This one is the best","the · best — আর্টিকেল the","a","সবচেয়ে-র রূপের আগে আর্টিকেল the বসে।"],
+["ty","এটা আরও সস্তা","This is cheaper|This one is cheaper","cheap — তুলনার রূপ","more","ছোট শব্দে -er বসে; সঙ্গে more নয়।"]]},
+{ id:"going-to", title:"পরিকল্পনা বলা: be going to", blurb:"আগে থেকেই ঠিক করা কাজ: be going to + ক্রিয়া।", deck:"হালকা আলাপ", body:`
+<p>বাংলার "করব" দিয়ে পরিকল্পনা, প্রতিশ্রুতি, হঠাৎ নেওয়া সিদ্ধান্ত সবই বোঝায়। ইংরেজিতে <b>আগে থেকেই ঠিক করা পরিকল্পনা</b> বলতে <b>be + going to + ক্রিয়ার মূল রূপ</b> বসে।</p>
+{{ex:I'm going to visit Cox's Bazar.|আইম ˈগৌইং টা ˈভ়িজ়িট ˈকাːক্সিজ় বাˈজ়াːর|আমি কক্সবাজার বেড়াতে যাব}}{{ex:She's going to buy a car.|শিজ় ˈগৌইং টা ˈবাই আ ˈকাːর|সে (মেয়ে) একটা গাড়ি কিনবে}}{{ex:We're going to have dinner.|ওয়ির ˈগৌইং টা ˈহ্যাভ় ˈডিনার|আমরা রাতের খাবার খাব}}
+<h3>না-বাচক বাক্য ও প্রশ্ন</h3>
+{{ex:I'm not going to go.|আইম ˈনাːট ˈগৌইং টা ˈগৌ|আমি যাব না}}{{ex:Are you going to come?|আর ইউ ˈগৌইং টা ˈকাম|তুমি আসবে?}}{{ex:What are you going to do this weekend?|ˈওয়াট আর ইউ ˈগৌইং টা ˈডূ ˈদ়িস ˈওয়ীকেন্ড|এই সাপ্তাহিক ছুটিতে তুমি কী করবে?}}
+<h3>চোখে যা দেখছেন, তা থেকে অনুমান</h3>
+{{ex:It's going to rain.|ইট্স ˈগৌইং টা ˈরেইন|বৃষ্টি হবে (আকাশ দেখেই বোঝা যাচ্ছে)}}
+<h3>সঙ্গে যে সময় বোঝানো শব্দ বসে</h3>
+<p>tomorrow (আগামীকাল), tonight (আজ রাতে), this weekend (এই সাপ্তাহিক ছুটিতে), next week (আগামী সপ্তাহে) বাক্যের শেষে বসান।</p>
+<div class="tip">বলার সময় going to প্রায়ই <b>gonna</b>-র মতো শোনায়। আর be ক্রিয়া বাদ দেবেন না: <b>I going to go.</b> ✗ → <b>I'm going to go.</b> ✓</div>`,
+check:[["\"আমি আগামীকাল আমার বন্ধুর সঙ্গে দেখা করব\" ইংরেজিতে?",["I going to meet my friend tomorrow.","I'm going to meet my friend tomorrow.","I'm going meet my friend tomorrow.","I'm go to meet my friend tomorrow."],1,"ছাঁচটা হলো be + going to + ক্রিয়ার মূল রূপ।"],["She ___ going to study. শূন্যস্থানে কী বসবে?",["am","are","is","be"],2,"she-এর সঙ্গে is বসে।"],["\"এই সাপ্তাহিক ছুটিতে তুমি কী করবে?\" ইংরেজিতে?",["What are you going to do this weekend?","What do you going to do this weekend?","What you are going to do this weekend?","What are you going do this weekend?"],0,"ক্রম হলো প্রশ্নবোধক শব্দ + be + কর্তা + going to।"]],
 practice:[
-["mc","'저는 부산에 갈 거예요' =","I'm going to go to Busan.","I going to go to Busan.","I'm going go to Busan.","I'm go to Busan going.","be + going to + 동사원형이에요."],
-["mc","They ___ going to come.","are","is","am","be","they에는 are예요."],
-["mc","'비가 올 거예요' =","It's going to rain.","It going to rain.","It's going rain.","It's going to rains.","going to 뒤에는 동사원형이 와요."],
-["mc","'저는 안 갈 거예요' =","I'm not going to go.","I don't going to go.","I'm not going go.","I'm going not to go.","be동사 뒤에 not을 넣어요."],
-["mc","'올 거예요?' =","Are you going to come?","Do you going to come?","Are you going come?","You are going to come do?","be동사를 앞으로 보내요."],
-["or","그녀는 차를 살 거예요","She's going to buy a car","the cars","차 한 대라서 관사 a와 단수 car예요."],
-["or","저는 친구들을 만날 거예요","I'm going to meet my friends","friend","여러 명이라 복수 friends예요."],
-["or","우리는 저녁을 먹을 거예요","We're going to have dinner","a","식사 이름 dinner에는 관사를 쓰지 않아요."],
-["fi","I'm going __ study tonight.","오늘 밤에 공부할 거예요","to","for|at|will","going to + 동사원형이에요."],
-["fi","__ you going to come?","올 거예요?","Are","Do|Is|Will","you에는 Are예요."],
-["fi","It's going to __ tomorrow.","내일 비가 올 거예요","rain","rains|raining|rained","going to 뒤에는 동사원형이 와요."],
-["ty","저는 영화를 볼 거예요","I'm going to watch a movie|I'm going to see a movie","going to · watch · movie — 관사 a","the","아무 영화 한 편이라 관사 a예요."],
-["ty","뭐 할 거예요?","What are you going to do","what · going to · do","will","계획을 물을 때는 be going to예요."],
-["ty","저는 친구들을 만날 거예요","I'm going to meet my friends|I'm going to see my friends","going to · meet · friend — 복수","friend","여러 명이라 복수 friends예요."]]},
-{ id:"joining", title:"문장 잇기: and, but, or, so, because", blurb:"짧은 문장 두 개를 하나로. so와 because는 순서가 반대예요.", deck:"감정·반응", body:`
-<p>짧은 문장만 말하면 뚝뚝 끊겨요. 이 다섯 단어로 문장을 이으면 훨씬 자연스러워요.</p>
+["mc","\"আমি বুসান যাব\" ইংরেজিতে?","I'm going to go to Busan.","I going to go to Busan.","I'm going go to Busan.","I'm go to Busan going.","ছাঁচটা হলো be + going to + ক্রিয়ার মূল রূপ।"],
+["mc","They ___ going to come.","are","is","am","be","they-এর সঙ্গে are বসে।"],
+["mc","\"বৃষ্টি হবে\" ইংরেজিতে?","It's going to rain.","It going to rain.","It's going rain.","It's going to rains.","going to-এর পরে ক্রিয়ার মূল রূপ বসে।"],
+["mc","\"আমি যাব না\" ইংরেজিতে?","I'm not going to go.","I don't going to go.","I'm not going go.","I'm going not to go.","be ক্রিয়ার পরে not বসে।"],
+["mc","\"তুমি আসবে?\" ইংরেজিতে?","Are you going to come?","Do you going to come?","Are you going come?","You are going to come do?","প্রশ্নে be ক্রিয়া সামনে চলে আসে।"],
+["or","সে (মেয়ে) একটা গাড়ি কিনবে","She's going to buy a car","the cars","গাড়ি একটা, তাই আর্টিকেল a আর একবচন car।"],
+["or","আমি আমার বন্ধুদের সঙ্গে দেখা করব","I'm going to meet my friends","friend","একাধিক বন্ধু, তাই বহুবচন friends।"],
+["or","আমরা রাতের খাবার খাব","We're going to have dinner","a","dinner-এর মতো খাবারের বেলার নামের আগে আর্টিকেল বসে না।"],
+["fi","I'm going __ study tonight.","আমি আজ রাতে পড়ব","to","for|at|will","going to + ক্রিয়ার মূল রূপ।"],
+["fi","__ you going to come?","তুমি আসবে?","Are","Do|Is|Will","you-এর সঙ্গে Are বসে।"],
+["fi","It's going to __ tomorrow.","আগামীকাল বৃষ্টি হবে","rain","rains|raining|rained","going to-এর পরে ক্রিয়ার মূল রূপ বসে।"],
+["ty","(আগেই ঠিক করেছেন) আমি একটা সিনেমা দেখব","I'm going to watch a movie|I'm going to see a movie","going to · watch · movie — আর্টিকেল a","the","যেকোনো একটা সিনেমা, তাই আর্টিকেল a।"],
+["ty","(পরিকল্পনা জানতে চান) তুমি কী করবে?","What are you going to do","what · going to · do","will","পরিকল্পনা জানতে be going to দিয়ে প্রশ্ন করুন।"],
+["ty","(আগেই ঠিক করেছেন) আমি আমার বন্ধুদের সঙ্গে দেখা করব","I'm going to meet my friends|I'm going to see my friends","going to · meet · friend — বহুবচন","friend","একাধিক বন্ধু, তাই বহুবচন friends।"]]},
+{ id:"joining", title:"বাক্য জোড়া লাগানো: and, but, or, so, because", blurb:"দুটো ছোট বাক্য এক করুন। so-র পরে ফল, because-এর পরে কারণ।", deck:"অনুভূতি ও প্রতিক্রিয়া", body:`
+<p>শুধু ছোট ছোট বাক্য বললে কথা কাটা কাটা শোনায়। এই পাঁচটি সংযোজক শব্দ দিয়ে বাক্য জুড়লে কথা অনেক স্বাভাবিক হয়।</p>
 <h3>and, but, or</h3>
-{{ex:I like coffee and tea.|아이 라익 커피 앤 티|저는 커피와 차를 좋아해요}}{{ex:I'm tired but happy.|아임 타이어드 벗 해피|피곤하지만 행복해요}}{{ex:Coffee or tea?|커피 오어 티?|커피 아니면 차?}}
-<h3>so: 그래서</h3>
-<p><b>이유 + so + 결과</b> 순서예요. 한국어 '~해서'와 순서가 같아요.</p>
-{{ex:I was tired, so I went home.|아이 워즈 타이어드 쏘 아이 웬 홈|피곤해서 집에 갔어요}}
-<h3>because: 왜냐하면</h3>
-<p><b>결과 + because + 이유</b> 순서예요. 한국어와 반대라서 주의해요.</p>
-{{ex:I went home because I was tired.|아이 웬 홈 비코즈 아이 워즈 타이어드|피곤해서 집에 갔어요}}{{ex:I stayed home because it was raining.|아이 스테이드 홈 비코즈 잇 워즈 레이닝|비가 와서 집에 있었어요}}
-<h3>too: ~도</h3>
-{{ex:I like it too.|아이 라이킷 투|저도 좋아해요}}
-<div class="tip">so와 because를 한 문장에 같이 쓰지 않아요: <b>Because I was tired, so I went home.</b> (X). 둘 중 하나만 고르세요.</div>`,
-check:[["I was sick, ___ I stayed home. 빈칸에 알맞은 것은?",["because","but","so","or"],2,"이유 다음에 결과가 오면 so예요."],["I stayed home ___ I was sick. 빈칸에 알맞은 것은?",["because","so","but","and"],0,"결과 다음에 이유가 오면 because예요."],["'커피 드실래요, 차 드실래요?'에 알맞은 말은?",["Coffee and tea?","Coffee but tea?","Coffee so tea?","Coffee or tea?"],3,"둘 중 하나를 고를 때는 or예요."]],
+{{ex:I like coffee and tea.|আই ˈলাইক ˈকফি আন্ড ˈটী|আমি কফি আর চা পছন্দ করি}}{{ex:I'm tired but happy.|আইম ˈটাইআর্ড বাট ˈহ্যাপি|আমি ক্লান্ত, কিন্তু খুশি}}{{ex:Coffee or tea?|ˈকফি আর ˈটী|কফি না চা?}}
+<h3>so: তাই</h3>
+<p>ক্রম হলো <b>কারণ + so + ফল</b>, বাংলার "তাই"-এর মতোই।</p>
+{{ex:I was tired, so I went home.|আই ওয়াজ় ˈটাইআর্ড সৌ আই ˈওয়েন্ট ˈহৌম|আমি ক্লান্ত ছিলাম, তাই বাসায় চলে গেলাম}}
+<h3>because: কারণ</h3>
+<p>ক্রম হলো <b>ফল + because + কারণ</b>, বাংলার "কারণ"-এর মতোই।</p>
+{{ex:I went home because I was tired.|আই ˈওয়েন্ট ˈহৌম বিকাজ় আই ওয়াজ় ˈটাইআর্ড|আমি বাসায় চলে গেলাম, কারণ আমি ক্লান্ত ছিলাম}}{{ex:I stayed home because it was raining.|আই ˈস্টেইড ˈহৌম বিকাজ় ইট ওয়াজ় ˈরেইনিং|আমি বাসায় ছিলাম, কারণ বৃষ্টি হচ্ছিল}}
+<h3>too: -ও</h3>
+{{ex:I like it too.|আই ˈলাইক ইট ˈটূ|আমারও এটা ভালো লাগে}}
+<div class="tip">বাংলায় "যেহেতু … তাই" আর "যদিও … তবুও" জোড়ায় বসে। ইংরেজিতে একটাই যথেষ্ট: <b>Because I was tired, so I went home.</b> ✗ so আর because-এর যেকোনো একটা বেছে নিন। একইভাবে although আর but একসঙ্গে বসে না।</div>`,
+check:[["I was sick, ___ I stayed home. শূন্যস্থানে কী বসবে?",["because","but","so","or"],2,"কারণের পরে ফল এলে so বসে।"],["I stayed home ___ I was sick. শূন্যস্থানে কী বসবে?",["because","so","but","and"],0,"ফলের পরে কারণ এলে because বসে।"],["\"কফি খাবেন, না চা?\" বোঝাতে কোনটি ঠিক?",["Coffee and tea?","Coffee but tea?","Coffee so tea?","Coffee or tea?"],3,"দুটোর মধ্যে একটা বেছে নিতে or।"]],
 practice:[
-["mc","I like dogs ___ I don't like cats.","but","so","or","because","반대되는 내용은 but으로 이어요."],
-["mc","I was hungry, ___ I ate a sandwich.","so","because","but","or","이유 다음에 결과가 오면 so예요."],
-["mc","I ate a sandwich ___ I was hungry.","because","so","but","or","결과 다음에 이유가 오면 because예요."],
-["mc","'커피 아니면 차?' =","Coffee or tea?","Coffee and tea?","Coffee so tea?","Coffee but tea?","둘 중 하나는 or예요."],
-["mc","'피곤하지만 행복해요' =","I'm tired but happy.","I'm tired so happy.","I'm tired because happy.","I'm tired or happy.","'~지만'은 but이에요."],
-["or","저는 고양이와 개를 좋아해요","I like cats and dogs","cat dog","동물 전체는 복수 cats, dogs로 말해요."],
-["or","커피 한 잔이랑 샌드위치 하나 주세요","A coffee and a sandwich please","the or","하나씩 주문하니까 각각 관사 a를 붙여요."],
-["or","배고파서 먹었어요","I was hungry so I ate","because","이유 다음에 결과가 오면 so예요."],
-["fi","I'm tired __ happy.","피곤하지만 행복해요","but","so|because|or","'~지만'은 but이에요."],
-["fi","I stayed home __ it was raining.","비가 와서 집에 있었어요","because","so|but|or","결과 다음에 이유가 오면 because예요."],
-["fi","Coffee __ tea?","커피 아니면 차?","or","so|but|because","둘 중 하나는 or예요."],
-["ty","저는 커피와 차를 좋아해요","I like coffee and tea","like · coffee · and · tea — 관사 없이","a","일반적인 coffee, tea에는 관사를 붙이지 않아요."],
-["ty","피곤하지만 행복해요","I'm tired but happy|I'm tired but I'm happy","tired · but · happy","so","'~지만'은 but이에요."],
-["ty","저는 개와 고양이를 좋아해요","I like dogs and cats|I like cats and dogs","dog · and · cat — 복수","dog","동물 전체는 복수 dogs, cats로 말해요."]]},
-{ id:"konglish", title:"콩글리시: 한국에서만 통하는 영어", blurb:"핸드폰, 노트북, 파이팅! 한국에서는 다 통하지만 외국에서는 못 알아듣는 말을 바른 영어로 바꿔요.", deck:"영화·드라마·슬랭", body:`
-<p>콩글리시는 틀린 영어라기보다 영어에서 온 <b>한국어 단어</b>예요. 한국에서는 누구나 알아듣지만, 영어권 사람에게 그대로 말하면 못 알아듣거나 전혀 다른 뜻으로 들어요. 한국어로 말할 때는 그대로 쓰고, 영어로 말할 때만 바꾸면 돼요.</p>
-<h3>물건 이름</h3>
-<div class="tbl"><table><tr><th>한국에서</th><th>영어로</th><th>그대로 말하면</th></tr><tr><td>핸드폰</td><td class="k">cell phone, phone</td><td>hand phone은 영어권에서 거의 안 써요. 보통 그냥 phone</td></tr><tr><td>노트북</td><td class="k">laptop</td><td>notebook은 공책이에요</td></tr><tr><td>아파트</td><td class="k">apartment</td><td>apart는 '떨어져서'라는 뜻이에요</td></tr><tr><td>에어컨</td><td class="k">air conditioner, AC</td><td>aircon은 영국·호주·동남아에서는 쓰지만 미국에서는 거의 안 써요. 미국에서는 AC('에이씨')</td></tr><tr><td>리모컨</td><td class="k">remote</td><td>remote control을 줄여서 remote예요</td></tr><tr><td>콘센트</td><td class="k">outlet</td><td>consent는 '동의'예요. 영국에서는 socket</td></tr><tr><td>핸들 (자동차)</td><td class="k">steering wheel</td><td>handle은 문이나 컵의 손잡이예요</td></tr></table></div>
-{{ex:I need a new laptop.|아이 니더 뉴 랩탑|새 노트북이 필요해요}}{{ex:I live in an apartment.|아이 리브 인 언 어파트먼트|저는 아파트에 살아요}}{{ex:The air conditioner isn't working.|디 에어 컨디셔너 이즌트 워킹|에어컨이 안 돼요}}{{ex:Can you pass me the remote?|캔 유 패스 미 더 리모트?|리모컨 좀 건네줄래요?}}{{ex:Where's the outlet?|웨어즈 디 아웃렛?|콘센트 어디 있어요?}}
-<p>단어를 바꿨으면 관사도 챙겨요. laptop, apartment는 셀 수 있는 명사라서 <b>a laptop</b>, <b>an apartment</b>예요. 방에 하나뿐인 리모컨은 <b>the remote</b>예요.</p>
-<h3>생활 속 표현</h3>
-<div class="tbl"><table><tr><th>한국에서</th><th>영어로</th><th>그대로 말하면</th></tr><tr><td>파이팅!</td><td class="k">You can do it! / Good luck!</td><td>fighting은 '싸우는 중'이라서 응원으로 들리지 않아요</td></tr><tr><td>서비스 (공짜)</td><td class="k">It's on the house. / It's free.</td><td>service는 가게의 응대예요: The service was great.</td></tr><tr><td>원샷!</td><td class="k">Bottoms up!</td><td>건배하면서 잔을 비우자고 하는 말이에요. 술자리에서 one shot은 '(술) 샷 한 잔'으로 들려요</td></tr><tr><td>셀카</td><td class="k">selfie</td><td>selca라는 영어 단어는 없어요</td></tr><tr><td>아이쇼핑</td><td class="k">window shopping</td><td>eye shopping이라는 말은 없어요</td></tr><tr><td>컨닝</td><td class="k">cheating</td><td>cunning은 '교활한'이라는 뜻이에요</td></tr><tr><td>사인</td><td class="k">signature / autograph</td><td>서류에 하는 서명은 signature, 연예인에게 받는 사인은 autograph예요. sign은 '서명하다'라는 동사나 표지판이에요</td></tr><tr><td>헬스 (헬스장)</td><td class="k">the gym</td><td>health는 '건강'이에요. 운동한다는 말은 work out</td></tr></table></div>
-{{ex:You can do it!|유 캔 두 잇!|할 수 있어! (파이팅!)}}{{ex:Good luck!|굿 럭!|행운을 빌어! (시험·면접 앞에서 파이팅!)}}{{ex:It's on the house.|잇츠 온 더 하우스|서비스예요 (가게에서 공짜로 줄 때)}}{{ex:Bottoms up!|바럼즈 업!|원샷!}}{{ex:Let's take a selfie.|렛츠 테이커 셀피|셀카 찍자}}{{ex:I'm just window shopping.|아임 저스트 윈도우 샤핑|그냥 아이쇼핑하는 중이에요}}{{ex:Can I get your autograph?|캔 아이 겟 유어 오토그래프?|사인 좀 해 주실래요? (연예인에게)}}{{ex:I go to the gym every day.|아이 고우 투 더 짐 에브리 데이|저는 매일 헬스장에 가요}}
-<h3>한국어 문장을 그대로 옮기면</h3>
-<p>단어는 다 영어인데 문장이 어색한 경우예요. 문법은 맞아도 영어권 사람은 이렇게 말하지 않거나, 뜻이 다르게 들려요.</p>
-<div class="tbl"><table><tr><th>한국어</th><th>그대로 옮기면</th><th>자연스러운 영어</th></tr><tr><td>약속이 있어요</td><td>I have a promise.</td><td class="k">I have plans.</td></tr><tr><td>(권할 때 거절) 괜찮아요</td><td>I'm okay. (이것만 말하면 애매해요)</td><td class="k">No, thanks. / I'm good, thanks.</td></tr><tr><td>김치 알아요? / 김치 먹어 봤어요?</td><td>Do you know kimchi?</td><td class="k">Have you heard of kimchi? / Have you tried kimchi?</td></tr><tr><td>친구들이랑 놀았어요</td><td>I played with my friends.</td><td class="k">I hung out with my friends.</td></tr><tr><td>컨디션이 안 좋아요</td><td>My condition is bad.</td><td class="k">I'm not feeling well.</td></tr><tr><td>부러워요!</td><td>I envy you. (틀리진 않지만 무거워요)</td><td class="k">Lucky you! / I'm so jealous.</td></tr></table></div>
-<p>promise는 '꼭 하겠다는 다짐'이라서 만날 약속은 <b>plans</b>예요. I'm okay, thanks.나 I'm good.도 거절로 쓰지만, I'm okay만 말하면 한국어 '괜찮아요'처럼 '좋다'인지 '됐다'인지 헷갈릴 수 있어요. 분명하게 거절하려면 <b>No, thanks.</b>가 가장 안전해요. Do you know kimchi?는 김치를 '잘 아느냐'고 묻는 것처럼 어색하게 들려요. 들어 봤는지는 <b>Have you heard of ~?</b>, 먹어 봤는지는 <b>Have you tried ~?</b>로 물어요. 어른이 친구와 노는 건 play가 아니라 <b>hang out</b>이고, 과거형은 hung out이에요. condition은 주로 병이나 물건의 상태를 말할 때 써요. I envy you는 틀린 말은 아니지만 조금 진지하게 들려요. 가볍게 '부럽다!'라고 할 때는 <b>Lucky you!</b>나 <b>I'm so jealous!</b>예요. 여기서 jealous는 질투가 아니라 장난스러운 부러움이에요.</p>
-{{ex:I have plans.|아이 해브 플랜즈|약속이 있어요}}{{ex:No, thanks.|노, 땡스|아니요, 괜찮아요 (거절)}}{{ex:Have you heard of kimchi?|해뷰 허드 오브 김치?|김치 알아요? (들어 봤어요?)}}{{ex:Have you tried kimchi?|해뷰 트라이드 김치?|김치 먹어 봤어요?}}{{ex:I hung out with my friends.|아이 헝아웃 위드 마이 프렌즈|친구들이랑 놀았어요}}{{ex:I'm not feeling well.|아임 낫 필링 웰|몸이 좀 안 좋아요}}{{ex:Lucky you!|럭키 유!|좋겠다! 부럽다!}}
-<div class="tip">콩글리시를 부끄러워할 필요는 없어요. 한국에서는 잘 통하는 말이니까요. 영어로 말할 때만 한 번 더 확인하세요: "이 단어, 영어권에서도 같은 뜻일까?" 영어로 말할 때는 이렇게 바꿔요: <b>Fighting!</b> → <b>You can do it!</b> / <b>I have a promise.</b> → <b>I have plans.</b></div>`,
-check:[["'노트북 가져왔어요?' (컴퓨터)를 영어로 하면?",["Did you bring your notebook?","Did you bring your laptop?","Did you bring laptop?","Did you bring your labtop?"],1,"컴퓨터는 laptop이에요. notebook은 공책으로 들려요."],["'컨디션이 안 좋아요'(몸이 안 좋아요)를 가장 자연스럽게 말하면?",["I'm not feeling well.","My condition is bad.","I'm bad condition.","My condition is not good feeling."],0,"몸이 안 좋을 때는 I'm not feeling well.이라고 해요. condition은 병이나 물건의 상태를 말할 때 주로 써요."],["식당 직원이 공짜 음식을 주면서 하는 말로 가장 자연스러운 것은?",["It's service.","It's a service.","It's for service.","It's on the house."],3,"가게에서 공짜로 주는 것은 on the house예요. service는 응대라는 뜻이에요."]],
+["mc","I like dogs ___ I don't like cats.","but","so","or","because","উল্টো কথা জুড়তে but।"],
+["mc","I was hungry, ___ I ate a sandwich.","so","because","but","or","কারণের পরে ফল এলে so বসে।"],
+["mc","I ate a sandwich ___ I was hungry.","because","so","but","or","ফলের পরে কারণ এলে because বসে।"],
+["mc","\"কফি না চা?\" ইংরেজিতে?","Coffee or tea?","Coffee and tea?","Coffee so tea?","Coffee but tea?","দুটোর মধ্যে একটা বোঝাতে or।"],
+["mc","\"আমি ক্লান্ত, কিন্তু খুশি\" ইংরেজিতে?","I'm tired but happy.","I'm tired so happy.","I'm tired because happy.","I'm tired or happy.","\"কিন্তু\" = but।"],
+["or","আমি বিড়াল আর কুকুর পছন্দ করি","I like cats and dogs","cat dog","সব বিড়াল আর কুকুরের কথা সাধারণভাবে বললে বহুবচন: cats, dogs।"],
+["or","একটা কফি আর একটা স্যান্ডউইচ দিন","A coffee and a sandwich please","the or","একটা করে অর্ডার করছেন, তাই দুটোর আগেই আর্টিকেল a।"],
+["or","আমার খিদে পেয়েছিল, তাই খেয়েছি","I was hungry so I ate","because","কারণের পরে ফল এলে so বসে।"],
+["fi","I'm tired __ happy.","আমি ক্লান্ত, কিন্তু খুশি","but","so|because|or","\"কিন্তু\" = but।"],
+["fi","I stayed home __ it was raining.","আমি বাসায় ছিলাম, কারণ বৃষ্টি হচ্ছিল","because","so|but|or","ফলের পরে কারণ এলে because বসে।"],
+["fi","Coffee __ tea?","কফি না চা?","or","so|but|because","দুটোর মধ্যে একটা বোঝাতে or।"],
+["ty","আমি কফি আর চা পছন্দ করি","I like coffee and tea","like · coffee · and · tea — আর্টিকেল ছাড়া","a","সাধারণভাবে coffee, tea বললে আর্টিকেল বসে না।"],
+["ty","আমি ক্লান্ত, কিন্তু খুশি","I'm tired but happy|I'm tired but I'm happy","tired · but · happy","so","\"কিন্তু\" = but।"],
+["ty","আমি কুকুর আর বিড়াল পছন্দ করি","I like dogs and cats|I like cats and dogs","dog · and · cat — বহুবচন","dog","সব কুকুর আর বিড়ালের কথা সাধারণভাবে বললে বহুবচন: dogs, cats।"]]},
+{ id:"banglish", title:"বাংলিশ ফাঁদ: যে ইংরেজি দেশের বাইরে চলে না", blurb:"give an exam, cousin brother, ten lakh: দেশে সবাই বোঝে। বিদেশে কী বলবেন, তা শিখে নিন।", deck:"বাংলিশ ফাঁদ", body:`
+<p>বাংলাদেশে আমরা যে ইংরেজি বলি, তার কিছু শব্দ আর বাক্য এসেছে সরাসরি বাংলা থেকে। এতে লজ্জার কিছু নেই: দেশে সবাই বোঝে, কাজও চলে। তবে দেশের বাইরের মানুষ অনেক সময় বোঝেন না, বা অন্য কিছু বোঝেন। নিয়মটা সহজ: দেশে যেমন চলছে চলুক; বিদেশিদের সঙ্গে কথা বলার সময় নিচের রূপগুলো বলুন।</p>
+<h3>বাংলার ক্রিয়া সরাসরি বসালে</h3>
+<p>বাংলায় পরীক্ষা "দিই", আর ওষুধ, চা, সিগারেট সবই "খাই"। ইংরেজিতে প্রতিটার ক্রিয়া আলাদা।</p>
+<div class="tbl"><table><tr><th>বাংলায়</th><th>সরাসরি অনুবাদ করলে</th><th>বিদেশে বলুন</th></tr><tr><td>পরীক্ষা দেওয়া</td><td>give an exam</td><td class="k">take an exam</td></tr><tr><td>ওষুধ খাওয়া</td><td>eat medicine</td><td class="k">take medicine</td></tr><tr><td>চা খাওয়া</td><td>eat tea</td><td class="k">have tea / drink tea</td></tr><tr><td>সিগারেট খাওয়া</td><td>eat / drink a cigarette</td><td class="k">smoke</td></tr><tr><td>… নিয়ে আলোচনা করা</td><td>discuss about …</td><td class="k">discuss … (about ছাড়া)</td></tr><tr><td>… -এর সঙ্গে বিয়ে হওয়া</td><td>married with …</td><td class="k">married to …</td></tr><tr><td>ফিরে আসা</td><td>return back</td><td class="k">return / come back</td></tr></table></div>
+{{ex:I took an exam yesterday.|আই ˈটুক আন ইগ্ˈজ়্যাম ˈইয়েস্টার্ডেই|আমি গতকাল একটা পরীক্ষা দিয়েছি}}{{ex:I took some medicine.|আই ˈটুক ˈসাম ˈমেডিসান|আমি ওষুধ খেয়েছি}}{{ex:Let's have tea.|ˈলেট্স ˈহ্যাভ় ˈটী|চলো চা খাই}}{{ex:He doesn't smoke.|হি ˈডাজ়ান্ট ˈস্মৌক|সে (ছেলে) সিগারেট খায় না}}{{ex:We discussed the plan.|ওয়ি ডিˈস্কাস্ট দ়া ˈপ্ল্যান|আমরা পরিকল্পনাটা নিয়ে আলোচনা করেছি}}
+<p>give an exam শুনলে বিদেশিরা ভাবেন আপনি শিক্ষক, পরীক্ষা নিচ্ছেন। ক্রিয়া বদলানোর সঙ্গে আর্টিকেলও খেয়াল করুন: exam গণনাযোগ্য, তাই একটা পরীক্ষার আগে <b>an</b> লাগে; medicine সাধারণত গোনা হয় না, তাই <b>some medicine</b>।</p>
+<h3>সময়, আত্মীয়, সংখ্যা আর পরিচয়</h3>
+<div class="tbl"><table><tr><th>দেশে যা বলি</th><th>বিদেশে বলুন</th><th>মনে রাখুন</th></tr><tr><td>today morning</td><td class="k">this morning</td><td>"আজ সকালে" সরাসরি অনুবাদ করলে চলে না</td></tr><tr><td>yesterday night</td><td class="k">last night</td><td>"গতকাল রাতে" = last night</td></tr><tr><td>cousin brother / cousin sister</td><td class="k">cousin</td><td>চাচাতো, মামাতো, খালাতো, ফুফাতো ভাই-বোন সবাই cousin</td></tr><tr><td>ten lakh / two crore</td><td class="k">one million / twenty million</td><td>লাখ আর কোটি দেশের বাইরে অচেনা: 1 লাখ = a hundred thousand, 1 কোটি = ten million</td></tr><tr><td>What is your good name?</td><td class="k">What's your name?</td><td>"ভালো নাম" থেকে এসেছে; পুরো নাম জানতে চাইলে your full name</td></tr><tr><td>Myself Rafi.</td><td class="k">I'm Rafi.</td><td>নিজের পরিচয় I'm … দিয়ে দিন</td></tr><tr><td>off day</td><td class="k">day off</td><td>শব্দের ক্রম উল্টো</td></tr></table></div>
+{{ex:I woke up late this morning.|আই ˈওয়ৌক ˈআপ ˈলেইট ˈদ়িস ˈমর্নিং|আজ সকালে আমি দেরিতে উঠেছি}}{{ex:I didn't sleep well last night.|আই ˈডিডান্ট ˈস্লীপ ˈওয়েল ˈল্যাস্ট ˈনাইট|গতকাল রাতে আমার ভালো ঘুম হয়নি}}{{ex:I have a cousin in Sylhet.|আই ˈহ্যাভ় আ ˈকাজ়ান ইন সিল্ˈহেট|সিলেটে আমার একজন কাজিন আছে}}{{ex:He's my older brother.|হিজ় মাই ˈঔল্ডার ˈব্রাদ়ার|সে আমার বড় ভাই}}{{ex:One million taka.|ˈওয়ান ˈমিলিয়ান ˈটাːকা|10 লাখ টাকা}}{{ex:I'm Rafi.|আইম ˈরাːফি|আমি রাফি}}{{ex:Tomorrow is my day off.|টাˈমাːরৌ ইজ় মাই ˈডেই ˈঅফ|আগামীকাল আমার ছুটি}}
+<p>ইংরেজিতে "বড় ভাই", "ছোট বোন"-এর আলাদা শব্দ নেই; দরকার হলে <b>older</b> / <b>younger</b> বসান: my older brother, my younger sister। আর cousin গণনাযোগ্য, তাই একজন হলে <b>a cousin</b>, একাধিক হলে <b>cousins</b>।</p>
+<h3>যেসব শব্দের অর্থ বাইরে আলাদা</h3>
+<div class="tbl"><table><tr><th>দেশে</th><th>বিদেশে বলুন</th><th>সরাসরি বললে যা বোঝায়</th></tr><tr><td>হোটেল (খাওয়ার জায়গা)</td><td class="k">restaurant</td><td>hotel মানে শুধু থাকার জায়গা</td></tr><tr><td>কারেন্ট চলে গেছে</td><td class="k">The power is out.</td><td>current is gone বা load-shedding বেশির ভাগ দেশে অচেনা</td></tr><tr><td>কোচিং</td><td class="k">tutoring / a prep course</td><td>coaching বললে সাধারণত খেলার প্রশিক্ষণ বোঝায়</td></tr><tr><td>মার্কস, রেজাল্ট</td><td class="k">grades / score</td><td>আমেরিকায় marks-এর জায়গায় grades বা score বলে</td></tr><tr><td>এসএসসি / এইচএসসি পাস করেছি</td><td class="k">I finished high school.</td><td>SSC, HSC নামগুলো বাইরে অচেনা</td></tr><tr><td>ব্যাচেলর (ভাড়াটিয়া)</td><td class="k">single</td><td>bachelor মানে অবিবাহিত পুরুষ; শব্দটা এখন কম চলে</td></tr><tr><td>মেস</td><td class="k">a shared apartment</td><td>mess মানে অগোছালো, নোংরা অবস্থা</td></tr></table></div>
+{{ex:Let's eat at a restaurant.|ˈলেট্স ˈঈট আট আ ˈরেস্টারাːন্ট|চলো রেস্টুরেন্টে খাই}}{{ex:The power is out.|দ়া ˈপাউআর ইজ় ˈআউট|কারেন্ট চলে গেছে}}{{ex:I finished high school last year.|আই ˈফিনিশ্ট ˈহাই ˈস্কূল ˈল্যাস্ট ˈইয়ির|আমি গত বছর এইচএসসি পাস করেছি}}
+<p>lift, flat, petrol, biscuit, torch, mobile ভুল নয়: এগুলো ব্রিটিশ ইংরেজি। আমেরিকায় বলে <b>elevator, apartment, gas, cookie, flashlight, cell phone</b>। এই কোর্সে আমেরিকান শব্দটা শেখানো হয়।</p>
+<h3>ব্যাকরণের চারটি চেনা অভ্যাস</h3>
+<p>এগুলো দেশের ইংরেজিতে প্রায়ই শোনা যায়; বিদেশে পরের রূপটা বলুন।</p>
+<p><b>informations, advices, equipments, furnitures</b> → <b>information, advice, equipment, furniture</b>। এগুলো গণনাযোগ্য নয়: শেষে -s বসে না, আগে a / an-ও বসে না।</p>
+<p><b>more better, more easier</b> → <b>better, easier</b>। -er থাকলে more লাগে না।</p>
+<p><b>I am knowing him. I am wanting water.</b> → <b>I know him. I want some water.</b> অবস্থা বোঝানো ক্রিয়ায় -ing বসে না।</p>
+<p><b>I have fever. My head is paining.</b> → <b>I have a fever. I have a headache.</b> অসুখের এই নামগুলোর আগে আর্টিকেল a বসে।</p>
+{{ex:I need some information.|আই ˈনীড ˈসাম ইন্ফার্ˈমেইশান|আমার কিছু তথ্য দরকার}}{{ex:She gave me good advice.|শি ˈগেইভ় মি ˈগুড আড্ˈভ়াইস|সে (মেয়ে) আমাকে ভালো পরামর্শ দিয়েছে}}{{ex:This one is better.|ˈদ়িস ˈওয়ান ইজ় ˈবেটার|এটা আরও ভালো}}{{ex:I know him.|আই ˈনৌ হিম|আমি তাকে (ছেলে) চিনি}}{{ex:I have a fever.|আই ˈহ্যাভ় আ ˈফীভ়ার|আমার জ্বর হয়েছে}}{{ex:I have a headache.|আই ˈহ্যাভ় আ ˈহেডেইক|আমার মাথা ব্যথা করছে}}
+<div class="tip">এসব কথা দেশে বললে কোনো সমস্যা নেই। বিদেশিদের সঙ্গে কথা বলার আগে শুধু একবার ভাবুন: "কথাটা কি বাংলা থেকে সরাসরি এসেছে?" এলে বদলে নিন: <b>I gave an exam.</b> → <b>I took an exam.</b> / <b>my cousin brother</b> → <b>my cousin</b></div>`,
+check:[["\"আমি গতকাল একটা পরীক্ষা দিয়েছি\" বিদেশে কীভাবে বলবেন?",["I gave an exam yesterday.","I took an exam yesterday.","I did give exam yesterday.","I took exam yesterday."],1,"পরীক্ষা দেওয়া = take an exam; give an exam বললে মনে হয় আপনি পরীক্ষা নিচ্ছেন।"],["দেশের বাইরে কোন বাক্যটি স্বাভাবিক শোনায়?",["I need some informations.","She gave me an advice.","We bought new furnitures.","I need some information."],3,"information গণনাযোগ্য নয়: শেষে -s বসে না, আগে a / an-ও বসে না।"],["\"আমার চাচাতো ভাই ঢাকায় থাকে\" বিদেশে কীভাবে বলবেন?",["My cousin lives in Dhaka.","My cousin brother lives in Dhaka.","My cousin brother live in Dhaka.","My brother cousin lives in Dhaka."],0,"চাচাতো, মামাতো ভাই-বোন সবাই cousin; সঙ্গে brother বসে না।"]],
 practice:[
-["mc","'노트북 있어요?' (컴퓨터) =","Do you have a laptop?","Do you have a notebook?","Do you have laptop?","Do you have an laptop?","컴퓨터는 laptop이고, 한 대라서 관사 a를 붙여요."],
-["mc","시험 보러 가는 친구에게 '파이팅!'을 가장 자연스럽게 말하면?","Good luck!","Fighting!","Fight!","You fighting!","fighting은 '싸우는 중'이라 응원으로 들리지 않아요."],
-["mc","'저 지금 헬스장 가요' =","I'm going to the gym.","I'm going to the health.","I'm going to health.","I'm going to gym.","헬스장은 the gym이에요. health는 '건강'이에요."],
-["mc","친구와 만날 약속이 있을 때 '약속이 있어요'를 가장 자연스럽게 말하면?","I have plans.","I have a promise.","I have promises.","I'm promise.","만날 약속은 plans예요. promise는 '꼭 하겠다는 다짐'이에요."],
-["mc","술자리에서 '원샷!'을 영어로 하면?","Bottoms up!","One shot!","One shot, please!","Shot one!","잔을 비우자는 원샷은 Bottoms up!이에요. One shot은 '샷 한 잔'으로 들려요."],
-["or","저는 아파트에 살아요","I live in an apartment","apart a","아파트는 apartment, 모음 소리로 시작해서 관사 an이에요."],
-["or","에어컨이 안 돼요","The air conditioner isn't working","A aircon","방에 있는 그 에어컨이라 관사 the예요. 에어컨은 air conditioner예요."],
-["or","리모컨 좀 건네줄래요?","Can you pass me the remote","a","방에 있는 그 리모컨이라 관사 the예요."],
-["or","친구들이랑 놀았어요","I hung out with my friends","played friend","어른이 노는 건 hang out이고, 여러 명이라 복수 friends예요."],
-["fi","Where's the __?","콘센트가 어디 있어요?","outlet|socket|plug|power outlet","consent|handle|remote","콘센트는 outlet이에요. consent는 '동의'예요."],
-["fi","I'm just __ shopping.","그냥 아이쇼핑하는 중이에요","window","eye|eyes|look","아이쇼핑은 window shopping이에요."],
-["fi","No, __.","(음료를 권할 때) 아니요, 괜찮아요","thanks|thank you|I'm good|I'm okay|I'm fine","okay|fine|good","거절은 No, thanks로 분명하게 해요."],
-["ty","새 노트북이 필요해요","I need a new laptop|I need a new laptop computer","need · new · laptop — 관사 a","notebook","컴퓨터는 laptop이고, 한 대라서 관사 a예요."],
-["ty","저는 매일 헬스장에 가요","I go to the gym every day|I work out at the gym every day|I go to the gym daily|Every day I go to the gym","go to · gym · every day — 관사 the","health a","헬스장은 gym이고, go to the gym은 관사 the와 같이 써요."],
-["ty","셀카 찍자","Let's take a selfie|Let's take a selfie together","let's take · selfie — 관사 a","selca","셀카는 selfie, 한 장이라서 관사 a예요."],
-["ty","김치 먹어 봤어요?","Have you tried kimchi|Have you ever tried kimchi|Have you had kimchi|Have you ever had kimchi|Have you eaten kimchi|Have you ever eaten kimchi|Have you tried kimchi before|Have you had kimchi before|Did you ever try kimchi","have you · tried · kimchi","know","음식 경험은 Have you tried ~?로 물어요."]]},
+["mc","\"আমি ওষুধ খেয়েছি\" বিদেশে কীভাবে বলবেন?","I took some medicine.","I ate some medicine.","I drank some medicine.","I took a medicines.","ওষুধ খাওয়া = take medicine; eat নয়।"],
+["mc","দেশের বাইরে \"10 লাখ টাকা\" কীভাবে বলবেন?","one million taka","ten lakh taka","ten lakhs taka","one crore taka","লাখ দেশের বাইরে অচেনা: 10 লাখ = one million।"],
+["mc","\"গতকাল রাতে\" বিদেশে কীভাবে বলবেন?","last night","yesterday night","today night","past night","\"গতকাল রাতে\" = last night; \"আজ সকালে\" = this morning।"],
+["mc","দেশের বাইরে কোন বাক্যটি স্বাভাবিক শোনায়?","This one is better.","This one is more better.","This one is more good.","This one is gooder.","good-এর তুলনার রূপ better; সঙ্গে more বসে না।"],
+["mc","বিদেশে নতুন কারও নাম জানতে চাইলে কোনটি সবচেয়ে স্বাভাবিক?","What's your name?","What is your good name?","Your good name, please?","Who is your name?","good name কথাটা বাংলার \"ভালো নাম\" থেকে এসেছে; বাইরে শুধু name বলুন।"],
+["or","আমি গতকাল একটা পরীক্ষা দিয়েছি","I took an exam yesterday","gave a","পরীক্ষা দেওয়া = take an exam। exam স্বরধ্বনি দিয়ে শুরু, তাই আর্টিকেল an, a নয়।"],
+["or","আমার কিছু তথ্য দরকার","I need some information","informations an","information গণনাযোগ্য নয়: শেষে -s বসে না, আগে আর্টিকেল an-ও বসে না।"],
+["or","আমার কাজিনরা ঢাকায় থাকে","My cousins live in Dhaka","cousin brothers","একাধিক কাজিন, তাই বহুবচন cousins; সঙ্গে brothers বসে না।"],
+["or","আজ সকালে আমি চা খেয়েছি","I had tea this morning","ate today","চা খাওয়া = have tea; \"আজ সকালে\" = this morning।"],
+["fi","We need new __.","আমাদের নতুন যন্ত্রপাতি দরকার","equipment","equipments|an equipment|equipmentes","equipment গোনা যায় না, তাই শেষে -s বসে না।"],
+["fi","She is married __ a doctor.","তার (মেয়ে) বিয়ে হয়েছে একজন ডাক্তারের সঙ্গে","to","with|by|at","বাংলায় \"সঙ্গে\" হলেও ইংরেজিতে married to।"],
+["fi","Tomorrow is my day __.","আগামীকাল আমার ছুটির দিন","off","of|out|leave","ছুটির দিন = day off; off day নয়।"],
+["ty","সে (মেয়ে) আমাকে ভালো পরামর্শ দিয়েছে","She gave me good advice|She gave me some good advice","gave · good · advice — আর্টিকেল ছাড়া","advices an","advice গণনাযোগ্য নয়: আগে আর্টিকেল an বসে না, শেষে -s-ও বসে না।"],
+["ty","সিলেটে আমার একজন কাজিন আছে","I have a cousin in Sylhet|I have one cousin in Sylhet","have · cousin · in Sylhet — আর্টিকেল a","the brother","cousin গণনাযোগ্য আর এখানে একজন, তাই আর্টিকেল a; সঙ্গে brother বসে না।"],
+["ty","আমার জ্বর হয়েছে","I have a fever|I've got a fever","have · fever — আর্টিকেল a","the am","জ্বর বোঝাতে a fever: আর্টিকেল a বাদ দেওয়া যায় না।"],
+["ty","আমি তাকে (ছেলে) চিনি","I know him","know · him — -ing ছাড়া","knowing am","know অবস্থা বোঝায়, তাই I am knowing নয়, I know।"]]},
 ];
