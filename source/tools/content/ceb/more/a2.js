@@ -2,7 +2,7 @@
 module.exports = [
 { id:"past-continuous", title:"Past progressive: was / were + -ing", blurb:"Ang imong gibuhat niadtong orasa. Mao kini ang background sa istorya.", deck:"Pagbati ug reaksyon", body:`
 <p>Mogamit ta og <b>past progressive</b> para sa <b>lihok nga nagpadayon pa sa usa ka higayon sa nangagi</b>. Pareho ra kini sa present progressive, pero ang be verb himoong past: <b>was / were</b> + -ing form.</p>
-<p>Sa Bisaya, ang <i>Nagluto ko</i> pwede karon o ganina; ang time word ra ang magsulti. Sa Iningles, ang be verb mismo ang mausab: <b>I am cooking</b> (karon) → <b>I was cooking</b> (niadto).</p>
+<p>Sa Bisaya, ang <i>Nagluto ko</i> puwede karon o ganina; ang time word ra ang magsulti. Sa Iningles, ang be verb mismo ang mausab: <b>I am cooking</b> (karon) → <b>I was cooking</b> (niadto).</p>
 {{ex:I was sleeping.|/aɪ wəz ˈsliːpɪŋ/|Natulog ko niadtong orasa}}{{ex:We were watching TV.|/wi wər ˈwɑːtʃɪŋ ˌtiː ˈviː/|Nagtan-aw mi og TV niadtong orasa}}{{ex:It was raining.|/ɪt wəz ˈreɪnɪŋ/|Nag-ulan niadtong orasa}}
 <h3>Mga pangutana</h3>
 {{ex:What were you doing?|/ˈwʌt wər ju ˈduːɪŋ/|Unsay imong gibuhat niadtong orasa?}}{{ex:Were you working at nine?|/wər ju ˈwɜːrkɪŋ ət ˈnaɪn/|Nagtrabaho ka ba sa alas nuybe?}}
@@ -64,7 +64,7 @@ practice:[
 <h3>Mga past participle nga kanunay gamiton</h3>
 <div class="tbl"><table><tr><th>base form</th><th>past form</th><th>past participle</th></tr><tr><td class="k">be</td><td class="k">was</td><td class="k">been</td></tr><tr><td class="k">eat</td><td class="k">ate</td><td class="k">eaten</td></tr><tr><td class="k">see</td><td class="k">saw</td><td class="k">seen</td></tr><tr><td class="k">do</td><td class="k">did</td><td class="k">done</td></tr><tr><td class="k">try</td><td class="k">tried</td><td class="k">tried</td></tr></table></div>
 <h3>Kon naay oras nga gihisgotan, past form</h3>
-<p>Kon naay time word nga nahuman na, sama sa <b>last year, yesterday, in 2020</b>, dili gamiton ang present perfect. Bantayi kini: ang <i>na</i> sa Bisaya pwede bisan naay <i>gahapon</i> (<i>Gipasa na nako gahapon</i>), pero sa Iningles dili pwede ang <b>have</b> uban sa <b>yesterday</b>.</p>
+<p>Kon naay time word nga nahuman na, sama sa <b>last year, yesterday, in 2020</b>, dili gamiton ang present perfect. Bantayi kini: ang <i>na</i> sa Bisaya puwede bisan naay <i>gahapon</i> (<i>Gipasa na nako gahapon</i>), pero sa Iningles dili puwede ang <b>have</b> uban sa <b>yesterday</b>.</p>
 {{ex:I went to Japan last year.|/aɪ ˈwent tə dʒəˈpæn ˈlæst ˈjɪr/|Niadto ko sa Japan sa niaging tuig}}{{ex:I submitted it yesterday.|/aɪ səbˈmɪtɪd ɪt ˈjestərdeɪ/|Gipasa na nako kini gahapon}}
 <div class="tip">Kasagarang sayop: <b>I've been to Japan last year.</b> ✗ → <b>I went to Japan last year.</b> ✓ <b>I have submitted it yesterday.</b> ✗ → <b>I submitted it yesterday.</b> ✓</div>`,
 check:[["'Nakaadto na ka ba sa Japan?' sa Iningles?",["Did you ever go Japan?","Have you ever been to Japan?","Have you ever went to Japan?","Are you ever been to Japan?"],1,"Ang kasinatian: \"Have you ever\" + past participle."],["I ___ never seen that movie. Unsay sakto sa blangko?",["am","did","have","was"],2,"\"have\" + \"never\" + past participle."],["Hain ang sakto nga sentence?",["I went to Jeju last year.","I've been to Jeju last year.","I have go to Jeju last year.","I've went to Jeju."],0,"Kon naay oras nga gihisgotan sama sa \"last year\", past form ang gamiton."]],
@@ -84,7 +84,7 @@ practice:[
 ["ty","Nakabasa na ko sa maong libro","I've read the book|I've read that book","I've · read · book — kinahanglan ang article","a","Article \"the\" kay nahibaloan na kon unsang libro."],
 ["ty","Wala pa gyud ko makabaton og iring","I've never had a cat","never · had · cat — kinahanglan ang article","the","Bisan unsang usa ka iring, mao nga article \"a\"."]]},
 { id:"aspect-tense", title:"nag-, ni-, mo-, na, pa: gikan sa aspect ngadto sa tense", blurb:"Ang verb sa Bisaya nagpakita kon nahuman na ba ang lihok. Ang verb sa Iningles nagpakita kon kanus-a.", deck:"Istorya-istorya", body:`
-<p>Ang verb sa Bisaya nagpakita og <b>aspect</b> (nahuman na, nagpadayon pa, o wala pa masugdi), dili kon kanus-a. Ang <i>Nagkaon ko</i> pwede <b>I'm eating</b> o <b>I was eating</b>. Sa Iningles, ang verb kinahanglan gyud nga magpakita og <b>tense</b> (ang porma sa verb nga nagpakita sa panahon). Mao nga sa kada sentence, naa kay dugang desisyon nga wala sa Bisaya.</p>
+<p>Ang verb sa Bisaya nagpakita og <b>aspect</b> (nahuman na, nagpadayon pa, o wala pa masugdi), dili kon kanus-a. Ang <i>Nagkaon ko</i> puwede <b>I'm eating</b> o <b>I was eating</b>. Sa Iningles, ang verb kinahanglan gyud nga magpakita og <b>tense</b> (ang porma sa verb nga nagpakita sa panahon). Mao nga sa kada sentence, naa kay dugang desisyon nga wala sa Bisaya.</p>
 <h3>Gikan sa Bisaya ngadto sa Iningles</h3>
 <div class="tbl"><table><tr><th>Bisaya</th><th>Iningles</th><th>Pananglitan</th></tr><tr><td>nag- + karon</td><td class="k">am / is / are + -ing</td><td>Nagluto siya karon → She's cooking now.</td></tr><tr><td>nag- + ganina, gahapon</td><td class="k">was / were + -ing</td><td>Nagluto siya dihang niabot ko → She was cooking when I arrived.</td></tr><tr><td>nag- / mo- + kada adlaw</td><td class="k">simple present tense</td><td>Motrabaho siya kada adlaw → She works every day.</td></tr><tr><td>ni- / gi- / naka-</td><td class="k">past form</td><td>Niadto ko gahapon → I went yesterday.</td></tr><tr><td>mo- / mag- + ugma</td><td class="k">will / be going to</td><td>Motawag ko ugma → I'll call tomorrow.</td></tr><tr><td>na</td><td class="k">already / present perfect</td><td>Nakapalit na ko → I've already bought it.</td></tr><tr><td>na + oras nga nahuman na</td><td class="k">past form</td><td>Gipasa na nako gahapon → I submitted it yesterday.</td></tr><tr><td>pa</td><td class="k">still</td><td>Naghulat pa ko → I'm still waiting.</td></tr><tr><td>wala pa</td><td class="k">haven't … yet</td><td>Wala pa nako mabasa → I haven't read it yet.</td></tr><tr><td>wala na / dili na</td><td class="k">no longer / not … anymore</td><td>Wala na siya nagtrabaho didto → He no longer works there.</td></tr><tr><td>sukad</td><td class="k">since + present perfect</td><td>Sukad 2022 → She has worked here since 2022.</td></tr></table></div>
 {{ex:She's cooking now.|/ʃiz ˈkʊkɪŋ ˈnaʊ/|Nagluto siya (babaye) karon}}{{ex:She was cooking when I arrived.|/ʃi wəz ˈkʊkɪŋ wen aɪ əˈraɪvd/|Nagluto siya (babaye) dihang niabot ko}}{{ex:I've already bought the tickets.|/aɪv ɔːlˈredi ˈbɔːt ðə ˈtɪkɪts/|Nakapalit na ko sa mga tiket}}{{ex:I'm still waiting.|/aɪm ˈstɪl ˈweɪtɪŋ/|Naghulat pa ko}}{{ex:I haven't read it yet.|/aɪ ˈhævnt ˈred ɪt ˈjet/|Wala pa nako kini mabasa}}{{ex:He no longer works at the bank.|/hi ˈnoʊ ˈlɔːŋgər ˈwɜːrks ət ðə ˈbæŋk/|Wala na siya (lalaki) nagtrabaho sa bangko}}
@@ -118,7 +118,7 @@ practice:[
 {{ex:I have to work tomorrow.|/aɪ ˈhæf tə ˈwɜːrk təˈmɑːroʊ/|Kinahanglan kong motrabaho ugma}}{{ex:She has to go now.|/ʃi ˈhæs tə ˈgoʊ ˈnaʊ/|Kinahanglan na siyang (babaye) molakaw karon}}
 <h3>Lahi ang "don't have to" ug "must not"</h3>
 <p>Bantayi: ang <i>dili kinahanglan</i> kay <b>don't have to</b>, dili <b>must not</b>.</p>
-<div class="tbl"><table><tr><th>Sentence</th><th>Kahulogan</th></tr><tr><td class="k">You don't have to come.</td><td>Dili kinahanglan nga moanhi ka (walay obligasyon)</td></tr><tr><td class="k">You must not smoke here.</td><td>Dili ka pwede manigarilyo dinhi (gidili)</td></tr></table></div>
+<div class="tbl"><table><tr><th>Sentence</th><th>Kahulogan</th></tr><tr><td class="k">You don't have to come.</td><td>Dili kinahanglan nga moanhi ka (walay obligasyon)</td></tr><tr><td class="k">You must not smoke here.</td><td>Dili ka puwede manigarilyo dinhi (gidili)</td></tr></table></div>
 <h3>should: maayo unta</h3>
 {{ex:You should see a doctor.|/ju ʃəd ˈsiː ə ˈdɑːktər/|Maayo unta nga magpatan-aw ka sa doktor}}{{ex:You shouldn't worry.|/ju ˈʃʊdnt ˈwɜːri/|Dili ka angay mabalaka}}
 <h3>might: basin</h3>
@@ -130,7 +130,7 @@ practice:[
 ["mc","'Dili kinahanglan nga moanhi ka' sa Iningles?","You don't have to come.","You must not come.","You don't must come.","You haven't come to.","Ang \"dili kinahanglan\" kay \"don't have to\"; ang \"must not\" kay gidili."],
 ["mc","'Maayo unta nga magpatan-aw ka sa doktor' sa Iningles?","You should see a doctor.","You should to see a doctor.","You should seeing a doctor.","You might a doctor see.","\"should\" + base form; usa ka doktor, mao nga article \"a\"."],
 ["mc","'Basin moulan' sa Iningles?","It might rain.","It might rains.","It might to rain.","It mights rain.","\"might\" + base form, walay -s sa verb."],
-["mc","'Dili ka pwede manigarilyo dinhi' sa Iningles?","You must not smoke here.","You don't have to smoke here.","You not must smoke here.","You must not to smoke here.","Ang gidili kay \"must not\"."],
+["mc","'Dili ka puwede manigarilyo dinhi' sa Iningles?","You must not smoke here.","You don't have to smoke here.","You not must smoke here.","You must not to smoke here.","Ang gidili kay \"must not\"."],
 ["or","Magpatan-aw ka unta sa doktor","You should see a doctor","the doctors","Bisan kinsang usa ka doktor, mao nga article \"a\"."],
 ["or","Kinahanglan na kong molakaw karon","I have to go now","going","Human sa \"have to\", base form ang sunod."],
 ["or","Kinahanglan kang mopalit og usa ka tiket","You have to buy a ticket","the tickets","Usa ra ka tiket, mao nga article \"a\" ug singular nga \"ticket\"."],
@@ -147,8 +147,8 @@ practice:[
 {{ex:I want to go home.|/aɪ ˈwɑːnt tə ˈgoʊ ˈhoʊm/|Gusto kong mopauli}}{{ex:I need to study.|/aɪ ˈniːd tə ˈstʌdi/|Kinahanglan kong magtuon}}{{ex:I'd like to order.|/aɪd ˈlaɪk tu ˈɔːrdər/|Gusto unta kong mo-order}}{{ex:I decided to learn English.|/aɪ dɪˈsaɪdɪd tə ˈlɜːrn ˈɪŋglɪʃ/|Nakadesisyon ko nga magtuon og Iningles}}
 <h3>Human sa enjoy, finish, mind: -ing form</h3>
 {{ex:I enjoy cooking.|/aɪ ɪnˈdʒɔɪ ˈkʊkɪŋ/|Ganahan kong magluto}}{{ex:I finished working.|/aɪ ˈfɪnɪʃt ˈwɜːrkɪŋ/|Nahuman na ko og trabaho}}{{ex:I don't mind waiting.|/aɪ ˈdoʊnt ˈmaɪnd ˈweɪtɪŋ/|Okey ra nako nga maghulat}}
-<h3>Mga verb nga pwede ang duha</h3>
-<p>Ang <b>like, love, start</b> pwede sundan og "to" o og -ing form.</p>
+<h3>Mga verb nga puwede ang duha</h3>
+<p>Ang <b>like, love, start</b> puwede sundan og "to" o og -ing form.</p>
 <div class="tip">Kasagarang sayop: <b>I want go.</b> ✗, <b>I enjoy to cook.</b> ✗ → <b>I want to go.</b> ✓, <b>I enjoy cooking.</b> ✓</div>`,
 check:[["I want ___ home. Unsay sakto sa blangko?",["go","going","to go","to going"],2,"Human sa \"want\", \"to\" + base form."],["I enjoy ___ movies. Unsay sakto sa blangko?",["watching","to watch","watch","to watching"],0,"Human sa \"enjoy\", -ing form."],["'Gusto unta kong mo-order' sa Iningles?",["I'd like order.","I'd like ordering.","I like to ordering.","I'd like to order."],3,"Human sa \"would like\", \"to\" + base form."]],
 practice:[
@@ -194,10 +194,10 @@ practice:[
 ["ty","Motukar ko og gitara","I play the guitar|I play guitar","play · guitar — kinahanglan ang article","a","Sa atubangan sa instrumento, article \"the\" ang gamiton."],
 ["ty","Cute ang mga iring (tanang iring)","Cats are cute","cat — plural nga walay article","The cat","Kon kinatibuk-an ang gipasabot, plural nga \"cats\" ug walay article."]]},
 { id:"first-conditional", title:"First conditional: If + simple present, will", blurb:"\"Kon ..., mo-...\". Walay \"will\" human sa \"if\".", deck:"Trabaho ug email", body:`
-<p>Para kini sa butang nga pwede gyud mahitabo. Ang porma: <b>If + simple present tense, will + base form</b>. Bisan umaabot pa ang kahulogan, ang bahin nga naay <b>if</b> magpabilin sa <b>simple present tense</b>.</p>
+<p>Para kini sa butang nga puwede gyud mahitabo. Ang porma: <b>If + simple present tense, will + base form</b>. Bisan umaabot pa ang kahulogan, ang bahin nga naay <b>if</b> magpabilin sa <b>simple present tense</b>.</p>
 <p>Sa Bisaya, <i>Kon moulan, magpabilin ko sa balay</i>: pareho ang porma sa duha ka bahin. Sa Iningles, ang bahin sa resulta ra ang naay <b>will</b>.</p>
 {{ex:If it rains, I'll stay home.|/ɪf ɪt ˈreɪnz aɪl ˈsteɪ ˈhoʊm/|Kon moulan, magpabilin ko sa balay}}{{ex:If you don't hurry, you'll miss the bus.|/ɪf ju ˈdoʊnt ˈhɜːri jul ˈmɪs ðə ˈbʌs/|Kon dili ka magdali, mabiyaan ka sa bus}}
-<h3>Pwede balihon ang han-ay</h3>
+<h3>Puwede balihon ang han-ay</h3>
 <p>Kon ibutang ang <b>if</b> sa luyo, wala nay comma.</p>
 {{ex:I'll help you if I have time.|/aɪl ˈhelp ju ɪf aɪ ˈhæv ˈtaɪm/|Tabangan tika kon naa koy panahon}}
 <h3>Uban sa sugo</h3>
@@ -229,7 +229,7 @@ practice:[
 <h3>Butang: that</h3>
 {{ex:the book that I bought|/ðə ˈbʊk ðət aɪ ˈbɔːt/|ang libro nga akong gipalit}}{{ex:This is the phone that I want.|/ˈðɪs ɪz ðə ˈfoʊn ðət aɪ ˈwɑːnt/|Mao kini ang cellphone nga akong gusto}}
 <h3>Kanunay tangtangon ang "that"</h3>
-<p>Kon subject + verb dayon ang sunod, pwede tangtangon ang <b>that</b>. Sa pagsulti, hapit kanunay kining tangtangon.</p>
+<p>Kon subject + verb dayon ang sunod, puwede tangtangon ang <b>that</b>. Sa pagsulti, hapit kanunay kining tangtangon.</p>
 {{ex:The movie we saw was great.|/ðə ˈmuːvi wi ˈsɔː wəz ˈgreɪt/|Nindot kaayo ang salida nga among gitan-aw}}
 <h3>Lugar: where</h3>
 {{ex:the cafe where we met|/ðə kæˈfeɪ wer wi ˈmet/|ang kapehan diin ta nagkita}}
@@ -240,7 +240,7 @@ practice:[
 ["mc","'ang libro nga akong gipalit' sa Iningles?","the book that I bought","the I bought book","the book what I bought","the bought I book","Noun una, unya ang paghulagway."],
 ["mc","'ang lalaki nga nagpuyo sa silingang balay' sa Iningles?","the man who lives next door","the lives next door man","the man lives who next door","the man what lives next door","Sa tawo, \"who\" ang gamiton."],
 ["mc","This is the phone ___ I want.","that","who","what","it","Sa butang, \"that\" ang gamiton."],
-["mc","'ang salida nga among gitan-aw' sa Iningles?","the movie we saw","the we saw movie","the movie what we saw","movie the that we saw","Pwede tangtangon ang \"that\"."],
+["mc","'ang salida nga among gitan-aw' sa Iningles?","the movie we saw","the we saw movie","the movie what we saw","movie the that we saw","Puwede tangtangon ang \"that\"."],
 ["or","Mao kini ang libro nga akong gipalit","This is the book I bought","a what","Ang mismong libro nga akong gipalit, mao nga article \"the\"."],
 ["or","Naa koy higala nga kabalo moluto","I have a friend who cooks","the which","Usa ka higala nga karon pa nahisgotan, mao nga article \"a\"."],
 ["or","Nindot kaayo ang salida nga among gitan-aw","The movie we saw was great","A movies","Ang mismong salida nga among gitan-aw, mao nga article \"the\"."],

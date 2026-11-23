@@ -1,7 +1,7 @@
 /* ceb-en stage A1: new lessons for Cebuano (Bisaya) speakers (English side shared with ko-en). Shorthand is expanded by _dsl.js. */
 module.exports = [
 { id:"it-there", title:"it ug there: pun-on ang lugar sa subject", blurb:"Para sa panahon ug oras: it. Para sa naay ug walay: there is / there are.", deck:"Istorya-istorya", body:`
-<p>Sa Bisaya, kompleto na ang <i>Init karon</i>, <i>Sayon ra</i> ug <i>Naay kapehan dinhi</i> bisan walay subject. Sa Iningles, dili pwede nga blangko ang lugar sa subject. Mao nga gamiton ta ang <b>it</b> ug <b>there</b>: wala silay kaugalingong kahulogan, mopuno lang sila sa lugar sa subject.</p>
+<p>Sa Bisaya, kompleto na ang <i>Init karon</i>, <i>Sayon ra</i> ug <i>Naay kapehan dinhi</i> bisan walay subject. Sa Iningles, dili puwede nga blangko ang lugar sa subject. Mao nga gamiton ta ang <b>it</b> ug <b>there</b>: wala silay kaugalingong kahulogan, mopuno lang sila sa lugar sa subject.</p>
 <h3>Panahon, oras ug kahimtang: It</h3>
 <p>Dinhi, ang <b>it</b> dili "kini" o "kana". Tigpuno lang kini sa lugar sa subject. Ayaw sab kalimti ang be verb: <b>It is</b>, pinamubo <b>It's</b>.</p>
 {{ex:It's cold today.|/ɪts ˈkoʊld təˈdeɪ/|Bugnaw karon}}{{ex:It's three o'clock.|/ɪts ˈθriː əˈklɑːk/|Alas tres na}}{{ex:It's raining.|/ɪts ˈreɪnɪŋ/|Nag-ulan}}{{ex:It's easy.|/ɪts ˈiːzi/|Sayon ra}}
@@ -153,20 +153,20 @@ practice:[
 ["ty","Dili siya dinhi nagpuyo (lalaki)","He doesn't live here","doesn't · live · here — walay -s ang verb","lives","Human sa \"doesn't\", base form ang verb."]]},
 { id:"countable", title:"Countable ug uncountable noun: some, any, much, many", blurb:"Ang water dili butangan og a o -s. many kon maihap, much kon dili maihap.", deck:"Pag-order sa restawran", body:`
 <p>Sa Bisaya, usa ra ang <i>daghan</i> (<i>daghang tawo</i>, <i>daghang tubig</i>) ug usa ra ang <i>gamay</i>. Sa Iningles, bahinon una ang mga noun: <b>countable noun</b> (maihap) ug <b>uncountable noun</b> (dili maihap). Ang pulong nga gamiton nag-agad niini.</p>
-<div class="tbl"><table><tr><th>Countable (maihap)</th><th>Uncountable (dili maihap)</th></tr><tr><td class="k">an apple, two apples</td><td class="k">water, rice, money, time</td></tr><tr><td>pwede ang a / an, numero ug -s</td><td>dili pwede ang a / an, numero ug -s</td></tr></table></div>
+<div class="tbl"><table><tr><th>Countable (maihap)</th><th>Uncountable (dili maihap)</th></tr><tr><td class="k">an apple, two apples</td><td class="k">water, rice, money, time</td></tr><tr><td>puwede ang a / an, numero ug -s</td><td>dili puwede ang a / an, numero ug -s</td></tr></table></div>
 <p>Bantayi kining mga pulong. Uncountable sila sa Iningles bisan morag maihap: <b>information, advice, equipment, furniture, luggage, homework</b>. Walay -s ug walay a / an.</p>
 <h3>some ug any</h3>
 <p>Para sa "pipila" o "gamay": <b>some</b> sa statement, <b>any</b> sa negative ug sa pangutana. Pero kon mangayo ka o motanyag, <b>some</b> gihapon bisan pangutana: <b>Can I have some water?</b></p>
 {{ex:I have some money.|/aɪ ˈhæv ˈsʌm ˈmʌni/|Naa koy gamay nga kuwarta}}{{ex:I don't have any money.|/aɪ ˈdoʊnt ˈhæv ˈeni ˈmʌni/|Wala gyud koy kuwarta}}{{ex:Do you have any questions?|/də ju ˈhæv ˈeni ˈkwestʃənz/|Naa ba kay mga pangutana?}}
 <h3>many ug much</h3>
-<p>Ang <i>daghan</i>: <b>many</b> + plural kon maihap, <b>much</b> kon dili maihap. Ang <b>a lot of</b> pwede sa duha. Ang <i>gamay</i>: <b>a few</b> kon maihap, <b>a little</b> kon dili maihap.</p>
+<p>Ang <i>daghan</i>: <b>many</b> + plural kon maihap, <b>much</b> kon dili maihap. Ang <b>a lot of</b> puwede sa duha. Ang <i>gamay</i>: <b>a few</b> kon maihap, <b>a little</b> kon dili maihap.</p>
 {{ex:How many people?|/ˈhaʊ ˈmeni ˈpiːpl/|Pila ka tawo?}}{{ex:How much is it?|/ˈhaʊ ˈmʌtʃ ɪz ɪt/|Tagpila?}}{{ex:I don't have much time.|/aɪ ˈdoʊnt ˈhæv ˈmʌtʃ ˈtaɪm/|Wala kaayo koy panahon}}
 <h3>Unsaon pag-ihap sa dili maihap</h3>
 {{ex:a glass of water|/ə ˈglæs əv ˈwɔːtər/|usa ka baso nga tubig}}{{ex:a cup of coffee|/ə ˈkʌp əv ˈkɔːfi/|usa ka tasa nga kape}}{{ex:a piece of advice|/ə ˈpiːs əv ədˈvaɪs/|usa ka tambag}}
 <div class="tip">Kasagarang sayop: <b>a water</b>, <b>many money</b>, <b>informations</b>, <b>furnitures</b> ✗ → <b>some water</b>, <b>much money</b>, <b>information</b>, <b>furniture</b> ✓</div>`,
 check:[["How ___ people are there? Unsay sakto sa blangko?",["much","many","any","a"],1,"Maihap ang \"people\", mao nga \"many\"."],["Hain niini ang uncountable noun (dili maihap)?",["apple","chair","water","friend"],2,"Ang \"water\" dili butangan og \"a\" o -s."],["I don't have ___ money. Unsay sakto sa blangko?",["some","a","many","any"],3,"Sa negative, \"any\" ang gamiton."]],
 practice:[
-["mc","Can I have ___ water? Unsay sakto sa blangko?","some","a","many","an","Dili maihap ang \"water\", mao nga dili pwede ang \"a\" o \"many\"."],
+["mc","Can I have ___ water? Unsay sakto sa blangko?","some","a","many","an","Dili maihap ang \"water\", mao nga dili puwede ang \"a\" o \"many\"."],
 ["mc","How ___ time do we have? Unsay sakto sa blangko?","much","many","any","a","Dili maihap ang \"time\", mao nga \"much\"."],
 ["mc","'Naa ba kay mga pangutana?' sa Iningles?","Do you have any questions?","Do you have any question?","Do you have a questions?","Do you have much questions?","Human sa \"any\", plural ang countable noun."],
 ["mc","'usa ka baso nga tubig' sa Iningles?","a glass of water","a water glass of","one waters","a glass water","Ang dili maihap ihapon gamit ang \"a glass of\"."],
@@ -177,13 +177,13 @@ practice:[
 ["fi","How __ is this?","Tagpila kini?","much","many|any|some","Ang presyo pangutan-on og \"how much\"."],
 ["fi","I don't have __ questions.","Wala koy pangutana","any","some|much|a","Sa negative, \"any\" ang gamiton."],
 ["fi","a cup __ coffee","usa ka tasa nga kape","of","for|in|a","\"a cup of …\" ang pag-ihap."],
-["ty","Pwede ko mangayo og tubig?","Can I have some water|Could I have some water|Can I get some water|Could I get some water","can I have · some · water — walay article","a","Dili maihap ang \"water\", mao nga \"some\" ang gamiton, dili ang article \"a\"."],
+["ty","Puwede ko mangayo og tubig?","Can I have some water|Could I have some water|Can I get some water|Could I get some water","can I have · some · water — walay article","a","Dili maihap ang \"water\", mao nga \"some\" ang gamiton, dili ang article \"a\"."],
 ["ty","Naa ba kay mga pangutana?","Do you have any questions","any · question — plural ang gamiton","question","Human sa \"any\", plural ang countable noun: \"questions\"."],
 ["ty","Pila ka tawo?","How many people","how many · people — maihap ang tawo","much","Maihap ang tawo, mao nga \"many\"."]]},
 { id:"object-have", title:"me, him, her ug ang verb nga have", blurb:"Human sa verb, me ang gamiton, dili I. Ug ang have, nga daghan og gamit.", deck:"Pagpaila sa kaugalingon", body:`
 <p>Sa Bisaya, mausab sab ang pronoun: ang <i>ko</i> mahimong <i>nako</i>, ang <i>siya</i> mahimong <i>niya</i>. Sa Iningles, <b>human</b> sa verb o preposition, object pronoun ang gamiton. Ug hinumdomi: ang <i>siya</i>, <i>niya</i> ug <i>iyang</i> walay lalaki o babaye, pero sa Iningles kinahanglan kang mopili: <b>he / him / his</b> o <b>she / her / her</b>.</p>
 <div class="tbl"><table><tr><th>Subject</th><th>I</th><th>you</th><th>he</th><th>she</th><th>we</th><th>they</th></tr><tr><td>Object</td><td class="k">me</td><td class="k">you</td><td class="k">him</td><td class="k">her</td><td class="k">us</td><td class="k">them</td></tr></table></div>
-{{ex:She knows me.|/ʃi ˈnoʊz mi/|Kaila siya nako (babaye)}}{{ex:I like him.|/aɪ ˈlaɪk hɪm/|Ganahan ko niya (lalaki)}}{{ex:Can you help us?|/kən ju ˈhelp əs/|Pwede ka motabang namo?}}{{ex:I work with her.|/aɪ ˈwɜːrk wɪð hər/|Kauban nako siya sa trabaho (babaye)}}
+{{ex:She knows me.|/ʃi ˈnoʊz mi/|Kaila siya nako (babaye)}}{{ex:I like him.|/aɪ ˈlaɪk hɪm/|Ganahan ko niya (lalaki)}}{{ex:Can you help us?|/kən ju ˈhelp əs/|Puwede ka motabang namo?}}{{ex:I work with her.|/aɪ ˈwɜːrk wɪð hər/|Kauban nako siya sa trabaho (babaye)}}
 <p>Sa lugar sa subject, subject pronoun gihapon: <b>Me and her are friends.</b> ✗ → <b>She and I are friends.</b> ✓. Ug ang <i>ilang kaugalingon</i> kay <b>themselves</b>, dili <b>their self</b>.</p>
 <h3>have: naa koy…</h3>
 <p>Ang <i>naa koy</i> ug <i>naa siyay</i> (tawo ang tag-iya) kay <b>have</b>. Pamilya, butang, panahon: have tanan.</p>
@@ -196,22 +196,22 @@ check:[["I like ___. (siya, lalaki) Unsay sakto sa blangko?",["he","his","him","
 practice:[
 ["mc","She knows ___. (ako) Unsay sakto sa blangko?","me","I","my","mine","Human sa verb, object pronoun ang gamiton: \"me\"."],
 ["mc","I like ___. (sila) Unsay sakto sa blangko?","them","they","their","theirs","Human sa verb, object pronoun ang gamiton: \"them\"."],
-["mc","'Pwede ka motabang namo?' sa Iningles?","Can you help us?","Can you help we?","Can you help our?","Can us help you?","Human sa verb, \"us\" ang gamiton."],
+["mc","'Puwede ka motabang namo?' sa Iningles?","Can you help us?","Can you help we?","Can you help our?","Can us help you?","Human sa verb, \"us\" ang gamiton."],
 ["mc","'Maniudto ta' sa Iningles?","Let's have lunch.","Let's have a lunch.","Let's has lunch.","Let's lunch have.","Walay article sa atubangan sa \"lunch\"."],
 ["mc","'Naa koy duha ka igsoong lalaki' sa Iningles?","I have two brothers.","I have two brother.","I am two brothers.","There are two brothers me.","Sa pamilya, \"have\" ang gamiton. Duha, mao nga plural."],
 ["or","Naa ka bay bolpen?","Do you have a pen","the pens","Bisan unsang bolpen, usa ra: article \"a\" ug singular nga \"pen\", dili plural."],
 ["or","Ganahan ko niya (babaye)","I like her","she","Human sa verb, object pronoun ang gamiton: \"her\"."],
-["or","Naa koy duha ka igsoong babaye","I have two sisters","sister a","Duha, mao nga plural: \"sisters\". Dili pwede ang article \"a\"."],
+["or","Naa koy duha ka igsoong babaye","I have two sisters","sister a","Duha, mao nga plural: \"sisters\". Dili puwede ang article \"a\"."],
 ["fi","Call __ tonight.","Tawgi ko karong gabii","me","I|my|mine","Human sa verb, \"me\" ang gamiton."],
 ["fi","I work with __.","Kauban nako siya sa trabaho (lalaki)","him","he|his|he's","Human sa preposition, object pronoun sab ang gamiton: \"him\"."],
 ["fi","She __ a dog.","Naa siyay iro (babaye)","has","have|is|haves","Kon \"she\" ang subject, \"has\"."],
-["ty","Pwede ko nimo tabangan?","Can you help me|Could you help me","can you · help · me — object pronoun ang gamiton","I","Human sa verb, object pronoun ang gamiton: \"me\"."],
+["ty","Puwede ko nimo tabangan?","Can you help me|Could you help me","can you · help · me — object pronoun ang gamiton","I","Human sa verb, object pronoun ang gamiton: \"me\"."],
 ["ty","Naa ka bay bolpen?","Do you have a pen","do you have · pen — gamita ang article \"a\"","the","Bisan unsang bolpen ang gipangita, mao nga article \"a\"."],
 ["ty","Daghan kog higala","I have many friends|I have a lot of friends","have · many · friend — plural ang gamiton","friend","Human sa \"many\", plural ang noun: \"friends\"."]]},
 { id:"can-like", title:"can, like + -ing, I'd like: ang imong mahimo ug ang imong gusto", blurb:"Isulti kon unsay imong mahimo, unsay imong ganahan, ug unsay gusto nimo karon.", deck:"Istorya-istorya", body:`
 <p>Tulo ka sumbanan nga magamit dayon nimo sa pagpaila sa kaugalingon ug sa pag-order.</p>
-<h3>can: kamao, maka-, pwede</h3>
-<p>Ang <i>kamao</i>, <i>maka-</i> ug <i>pwede</i> kay <b>can + base form</b>. Bisan he o she ang subject, walay -s ang verb.</p>
+<h3>can: kamao, maka-, puwede</h3>
+<p>Ang <i>kamao</i>, <i>maka-</i> ug <i>puwede</i> kay <b>can + base form</b>. Bisan he o she ang subject, walay -s ang verb.</p>
 {{ex:I can swim.|/aɪ kən ˈswɪm/|Kamao ko molangoy}}{{ex:I can't drive.|/aɪ ˈkænt ˈdraɪv/|Dili ko kamao magmaneho}}{{ex:Can you speak Cebuano?|/kən ju ˈspiːk seɪˈbwɑːnoʊ/|Makasulti ka ba og Bisaya?}}
 <h3>like + -ing: ganahan ko mo…</h3>
 <p>Sa mga kalingawan, human sa like ug love, ang <b>-ing form</b> sa verb ang gamiton.</p>
@@ -237,7 +237,7 @@ practice:[
 ["ty","Gusto unta ko og usa ka sandwich","I'd like a sandwich|I'd like a sandwich please|Can I have a sandwich|Can I get a sandwich|Could I have a sandwich|Could I get a sandwich","I'd like · sandwich — article \"a\" kay usa ra","the","Bisan unsang sandwich, usa ra, mao nga article \"a\"."],
 ["ty","Ganahan ko og mga iro","I like dogs|I love dogs","like · dog — plural ang gamiton","dog","Kon ang tanang iro ang gipasabot, plural ang gamiton: \"dogs\"."]]},
 { id:"continuous", title:"Ang gibuhat karon mismo: be verb + -ing", blurb:"Ang naandan, simple present tense. Ang gibuhat karon mismo, be verb + -ing.", deck:"Istorya-istorya", body:`
-<p>Sa Bisaya, ang <i>nag-</i> nagpakita nga nagsugod na ang lihok, pero wala kini mag-ingon kon kanus-a: ang <i>Nagkaon ko</i> pwede "karon" o "ganina". Sa Iningles, ang lihok nga nagpadayon <b>karon mismo</b> isulti og <b>be verb + -ing</b>. Mao ni ang present progressive (gitawag sab og present continuous).</p>
+<p>Sa Bisaya, ang <i>nag-</i> nagpakita nga nagsugod na ang lihok, pero wala kini mag-ingon kon kanus-a: ang <i>Nagkaon ko</i> puwede "karon" o "ganina". Sa Iningles, ang lihok nga nagpadayon <b>karon mismo</b> isulti og <b>be verb + -ing</b>. Mao ni ang present progressive (gitawag sab og present continuous).</p>
 {{ex:I'm working now.|/aɪm ˈwɜːrkɪŋ ˈnaʊ/|Nagtrabaho ko karon}}{{ex:She's cooking dinner.|/ʃiz ˈkʊkɪŋ ˈdɪnər/|Nagluto siya og panihapon (babaye)}}{{ex:It's raining.|/ɪts ˈreɪnɪŋ/|Nag-ulan}}
 <h3>Pangutana ug negative</h3>
 {{ex:What are you doing?|/ˈwʌt ər ju ˈduːɪŋ/|Unsay imong gibuhat karon?}}{{ex:Are you listening?|/ər ju ˈlɪsənɪŋ/|Naminaw ka ba?}}{{ex:I'm not sleeping.|/aɪm ˈnɑːt ˈsliːpɪŋ/|Wala ko natulog}}
@@ -323,7 +323,7 @@ practice:[
 {{ex:I bought a shirt. The shirt is blue.|/aɪ ˈbɔːt ə ˈʃɜːrt ‖ ðə ˈʃɜːrt ɪz ˈbluː/|Nipalit ko og sinina. Asul ang sinina}}
 <h3>the kon klaro kon hain</h3>
 <p>Ang bintana niining kuwartoha, ang estasyon duol dinhi: kon klaro kon hain ang gipasabot, the dayon.</p>
-{{ex:Can you open the window?|/kən ju ˈoʊpən ðə ˈwɪndoʊ/|Pwede nimo ablihan ang bintana?}}{{ex:Where's the subway station?|/ˈwerz ðə ˈsʌbweɪ ˈsteɪʃn/|Asa ang estasyon sa subway?}}{{ex:The sun is hot today.|/ðə ˈsʌn ɪz ˈhɑːt təˈdeɪ/|Init kaayo ang adlaw karon}}
+{{ex:Can you open the window?|/kən ju ˈoʊpən ðə ˈwɪndoʊ/|Puwede nimo ablihan ang bintana?}}{{ex:Where's the subway station?|/ˈwerz ðə ˈsʌbweɪ ˈsteɪʃn/|Asa ang estasyon sa subway?}}{{ex:The sun is hot today.|/ðə ˈsʌn ɪz ˈhɑːt təˈdeɪ/|Init kaayo ang adlaw karon}}
 <h3>Ayaw butangi og the tungod lang kay naay ang</h3>
 <p>Sa Bisaya, ang <i>ang</i> mouban bisan sa mga ngalan ug sa mga butang sa kinatibuk-an. Sa Iningles, walay the ang ngalan sa eskuwelahan o kompanya, ug ang ideya sa kinatibuk-an.</p>
 {{ex:I work at Jollibee.|/aɪ ˈwɜːrk ət ˈdʒɑːlibiː/|Nagtrabaho ko sa Jollibee}}{{ex:Technology is a great help.|/tekˈnɑːlədʒi ɪz ə ˈgreɪt ˈhelp/|Dakong tabang ang teknolohiya}}
@@ -339,17 +339,17 @@ practice:[
 ["mc","Hain niini ang sakto nga sentence?","I go to work by bus.","I go to the work by the bus.","I go to a work by bus.","I go to work by a bus.","Walay article sa \"go to work\" ug \"by bus\"."],
 ["mc","'Init ang adlaw' sa Iningles?","The sun is hot.","A sun is hot.","Sun is hot.","The suns is hot.","Usa ra ang adlaw sa langit, mao nga butangan og \"the\"."],
 ["mc","'Naa ko sa balay' sa Iningles?","I'm at home.","I'm at the home.","I'm at a home.","I'm home at.","Walay article sa \"at home\"."],
-["or","Pwede nimo ablihan ang bintana?","Can you open the window","a windows","Ang bintana nga pareho ninyong nahibaloan, mao nga article \"the\"."],
+["or","Puwede nimo ablihan ang bintana?","Can you open the window","a windows","Ang bintana nga pareho ninyong nahibaloan, mao nga article \"the\"."],
 ["or","Mosakay ko og bus padulong sa trabaho","I go to work by bus","the a","Walay article sa \"go to work\" ug \"by bus\"."],
 ["or","Dako ang iro (ang nahisgotan na)","The dog is big","A dogs","Ang iro nga nahisgotan na, mao nga article \"the\"."],
 ["fi","I saw a movie. __ movie was great.","Nitan-aw ko og salida. Nindot kaayo ang salida","The","A|An|Some","Ang salida nga bag-o lang nahisgotan, mao nga \"the\"."],
 ["fi","Where's __ bathroom?","Asa ang banyo?","the","a|an|some","Ang banyo niining lugara ang gipasabot, mao nga \"the\"."],
 ["fi","I have __ idea.","Naa koy ideya","an","a|the|some","Bag-o pang gihisgotan ug usa ra, ug nagsugod sa tingog nga vowel, mao nga \"an\"."],
-["ty","Pwede nimo sirad-an ang pultahan?","Can you close the door|Could you close the door","can you · close · door — gamita ang article \"the\"","a","Ang pultahan nga pareho ninyong nahibaloan, mao nga article \"the\"."],
+["ty","Puwede nimo sirad-an ang pultahan?","Can you close the door|Could you close the door","can you · close · door — gamita ang article \"the\"","a","Ang pultahan nga pareho ninyong nahibaloan, mao nga article \"the\"."],
 ["ty","Asa ang estasyon?","Where is the station|Where's the station","where · station — gamita ang article \"the\"","a","Ang estasyon duol dinhi ang gipasabot, mao nga article \"the\"."],
 ["ty","Naa ko sa balay","I'm at home|I'm home","I'm · at · home — walay article","the","Walay article sa atubangan sa \"home\"."]]},
 { id:"adjectives", title:"Adjective ug pagtandi: bigger, more expensive, the best", blurb:"Ang adjective sa atubangan sa noun. mas = -er / more, pinaka- = the -est / the most.", deck:"Pagpamalit ug pagbayad", body:`
-<p>Sa Bisaya, pwede ang <i>dakong balay</i> ug pwede sab ang <i>balay nga dako</i>. Sa Iningles, ang adjective naa <b>sa atubangan</b> sa noun, o <b>human</b> sa be verb. Walay <i>nga</i> taliwala nila.</p>
+<p>Sa Bisaya, puwede ang <i>dakong balay</i> ug puwede sab ang <i>balay nga dako</i>. Sa Iningles, ang adjective naa <b>sa atubangan</b> sa noun, o <b>human</b> sa be verb. Walay <i>nga</i> taliwala nila.</p>
 {{ex:a big house|/ə ˈbɪg ˈhaʊs/|dakong balay}}{{ex:a big bag|/ə ˈbɪg ˈbæg/|dako nga bag}}{{ex:This bag is big.|/ˈðɪs ˈbæg ɪz ˈbɪg/|Dako kining bag}}{{ex:It's too small.|/ɪts ˈtuː ˈsmɔːl/|Gamay ra kaayo}}
 <h3>Pagtandi: -er o more</h3>
 <p>Ang <i>mas</i> sa Bisaya mahimong <b>-er</b> sa mubo nga pulong ug <b>more</b> sa taas nga pulong. Mao ni ang comparative. Ang <i>kaysa</i> kay <b>than</b>.</p>
@@ -434,12 +434,12 @@ practice:[
 <p>Ang Iningles sa Pilipinas dili sayop nga Iningles. Naa lang kiniy kaugalingong mga pulong nga masabtan sa tanang Pinoy, pero sa gawas sa nasod dili masabtan o lahi og kahulogan. Sa balay ug sa opisina dinhi, padayon lang. Kon langyaw ang imong kaistorya (kliyente, tig-interbyu, amo sa laing nasod), mao ni ang isulti.</p>
 <h3>Mga pulong nga atoa ra</h3>
 <div class="tbl"><table><tr><th>Sa Pinas</th><th>Sa gawas</th><th>Timan-i</th></tr><tr><td>CR, comfort room</td><td class="k">restroom, bathroom</td><td>dili masabtan ang CR sa gawas</td></tr><tr><td>open / close the light</td><td class="k">turn on / turn off the light</td><td>ang open ug close para sa pultahan ug bintana</td></tr><tr><td>brownout</td><td class="k">power outage, blackout</td><td>kon mawala ang kuryente</td></tr><tr><td>ref</td><td class="k">fridge, refrigerator</td><td>sa gawas, ang ref kay referee sa dula</td></tr><tr><td>aircon</td><td class="k">air conditioner, AC</td><td>sa Amerika, AC ang kasagaran</td></tr><tr><td>rubber shoes</td><td class="k">sneakers</td><td></td></tr><tr><td>What's your course?</td><td class="k">What's your major?</td><td>sa gawas, ang course usa ra ka subject o klase</td></tr><tr><td>batchmate</td><td class="k">classmate</td><td>o: someone from my year</td></tr><tr><td>It's so traffic.</td><td class="k">The traffic is really bad.</td><td>noun ang traffic, dili adjective</td></tr><tr><td>I'll commute.</td><td class="k">I'll take the bus.</td><td>sa gawas, ang commute kay pag-adto sa trabaho, bisan unsay sakyanan</td></tr><tr><td>load</td><td class="k">prepaid credit</td><td>ang load sa gawas kay karga</td></tr><tr><td>salvage (= patyon)</td><td class="k">kill</td><td>sa gawas, ang salvage kay pagluwas, sukwahi sa atong gamit</td></tr><tr><td>high blood (= nasuko pag-ayo)</td><td class="k">very angry</td><td>sa gawas, sakit ang high blood pressure</td></tr><tr><td>dialect</td><td class="k">language</td><td>ang Bisaya usa ka language, dili dialect</td></tr></table></div>
-{{ex:Where's the restroom?|/ˈwerz ðə ˈrestruːm/|Asa ang CR?}}{{ex:Can you turn on the light?|/kən ju ˈtɜːrn ˈɑːn ðə ˈlaɪt/|Pwede nimo pasigaon ang suga?}}{{ex:There was a power outage.|/ðer wəz ə ˈpaʊər ˈaʊtɪdʒ/|Naay brownout ganina}}{{ex:The milk is in the fridge.|/ðə ˈmɪlk ɪz ɪn ðə ˈfrɪdʒ/|Naa sa ref ang gatas}}{{ex:The traffic is really bad.|/ðə ˈtræfɪk ɪz ˈriːəli ˈbæd/|Grabe ang traffic}}{{ex:What's your major?|/ˈwʌts jʊr ˈmeɪdʒər/|Unsay imong kurso?}}
+{{ex:Where's the restroom?|/ˈwerz ðə ˈrestruːm/|Asa ang CR?}}{{ex:Can you turn on the light?|/kən ju ˈtɜːrn ˈɑːn ðə ˈlaɪt/|Puwede nimo pasigaon ang suga?}}{{ex:There was a power outage.|/ðer wəz ə ˈpaʊər ˈaʊtɪdʒ/|Naay brownout ganina}}{{ex:The milk is in the fridge.|/ðə ˈmɪlk ɪz ɪn ðə ˈfrɪdʒ/|Naa sa ref ang gatas}}{{ex:The traffic is really bad.|/ðə ˈtræfɪk ɪz ˈriːəli ˈbæd/|Grabe ang traffic}}{{ex:What's your major?|/ˈwʌts jʊr ˈmeɪdʒər/|Unsay imong kurso?}}
 <p>Kon ilisan nimo ang pulong, ayaw kalimti ang article: <b>the</b> restroom, <b>the</b> light, <b>a</b> power outage.</p>
 <h3>Direktang hubad gikan sa Bisaya</h3>
 <div class="tbl"><table><tr><th>Bisaya</th><th>Direktang hubad ✗</th><th>Natural nga Iningles ✓</th></tr><tr><td>Pahulama ko sa imong bolpen</td><td>Can you borrow me your pen?</td><td class="k">Can you lend me your pen?</td></tr><tr><td>Kadiyot lang (sa telepono)</td><td>For a while.</td><td class="k">One moment, please.</td></tr><tr><td>Manaog ko dinhi</td><td>I'll go down here.</td><td class="k">I'll get off here.</td></tr><tr><td>Mauna na ko</td><td>I'll go ahead.</td><td class="k">I'm leaving now.</td></tr><tr><td>Wala na siya dinhi</td><td>He is already not here.</td><td class="k">He is no longer here.</td></tr><tr><td>Hangtod karon, wala pa koy tubag</td><td>Until now, I have no reply.</td><td class="k">I still have no reply.</td></tr></table></div>
 <p>Usa ra ang <i>hulam</i> sa Bisaya, pero duha sa Iningles: <b>borrow</b> kon ikaw ang mokuha, <b>lend</b> kon ikaw ang mohatag. Ang <i>wala na</i> kay <b>no longer</b>, ug ang <i>hangtod karon … pa</i> kay <b>still</b>. Ug ang <i>siya</i>: susiha kanunay kon <b>he</b> ba o <b>she</b>. <b>Ms. Abad said he would sign.</b> ✗ → <b>Ms. Abad said she would sign.</b> ✓</p>
-{{ex:Can you lend me your pen?|/kən ju ˈlend mi jʊr ˈpen/|Pwede ko nimo pahulamon sa imong bolpen?}}{{ex:One moment, please.|/ˈwʌn ˈmoʊmənt ˈpliːz/|Kadiyot lang, palihug}}{{ex:I'll get off here.|/aɪl ˈget ˈɔːf ˈhɪr/|Manaog ko dinhi}}{{ex:I'm leaving now.|/aɪm ˈliːvɪŋ ˈnaʊ/|Mauna na ko}}{{ex:He is no longer here.|/hi ɪz ˈnoʊ ˈlɔːŋgər ˈhɪr/|Wala na siya dinhi (lalaki)}}{{ex:I still have no reply.|/aɪ ˈstɪl ˈhæv ˈnoʊ rɪˈplaɪ/|Hangtod karon, wala pa koy tubag}}
+{{ex:Can you lend me your pen?|/kən ju ˈlend mi jʊr ˈpen/|Puwede ko nimo pahulamon sa imong bolpen?}}{{ex:One moment, please.|/ˈwʌn ˈmoʊmənt ˈpliːz/|Kadiyot lang, palihug}}{{ex:I'll get off here.|/aɪl ˈget ˈɔːf ˈhɪr/|Manaog ko dinhi}}{{ex:I'm leaving now.|/aɪm ˈliːvɪŋ ˈnaʊ/|Mauna na ko}}{{ex:He is no longer here.|/hi ɪz ˈnoʊ ˈlɔːŋgər ˈhɪr/|Wala na siya dinhi (lalaki)}}{{ex:I still have no reply.|/aɪ ˈstɪl ˈhæv ˈnoʊ rɪˈplaɪ/|Hangtod karon, wala pa koy tubag}}
 <h3>Gamay nga pulong nga nailisan, ug -s nga sobra</h3>
 <p>Kini, dili na "atoa ra": sa eksamin ug sa trabaho, isipon kining sayop. Dili mailisan ang gamay nga pulong nga kauban sa verb, ug walay plural ang uncountable noun.</p>
 <div class="tbl"><table><tr><th>✗</th><th>✓</th></tr><tr><td>fill up the form</td><td class="k">fill out the form</td></tr><tr><td>based from</td><td class="k">based on</td></tr><tr><td>result to</td><td class="k">result in</td></tr><tr><td>cope up with</td><td class="k">cope with</td></tr><tr><td>discuss about the plan</td><td class="k">discuss the plan</td></tr><tr><td>informations, equipments, furnitures</td><td class="k">information, equipment, furniture</td></tr></table></div>
@@ -448,7 +448,7 @@ practice:[
 check:[["Langyaw ang imong kaistorya. Unsaon nimo pagpangutana kon asa ang CR?",["Where is the CR?","Where is the restroom?","Where is restroom?","Where is the comfort?"],1,"Sa gawas sa Pilipinas, \"restroom\" o \"bathroom\" ang gigamit, ug kinahanglan ang article \"the\"."],["Gusto nimong hulamon ang bolpen sa imong kauban. Unsay sakto nga isulti?",["Can you borrow me your pen?","Can I lend your pen?","Can you lend me your pen?","Can you borrow your pen to me?"],2,"\"Lend\" kon siya ang mohatag, \"borrow\" kon ikaw ang mokuha: \"Can you lend me …?\" o \"Can I borrow …?\""],["Hain niini ang sakto nga sentence?",["I need some information.","I need some informations.","I need an information.","I need many informations."],0,"Uncountable noun ang \"information\": walay plural -s ug walay \"an\"."]],
 practice:[
 ["mc","Langyaw ang imong kaistorya. 'Asa ang CR?' sa Iningles?","Where is the restroom?","Where is the CR?","Where is restroom?","Where is the comfort?","Sa gawas, \"restroom\" o \"bathroom\" ang gigamit, ug kinahanglan ang article \"the\"."],
-["mc","'Pwede nimo pasigaon ang suga?' sa Iningles?","Can you turn on the light?","Can you open the light?","Can you open a light?","Can you turn the light open?","Ang suga pasigaon og \"turn on\". Ang \"open\" para sa pultahan ug bintana."],
+["mc","'Puwede nimo pasigaon ang suga?' sa Iningles?","Can you turn on the light?","Can you open the light?","Can you open a light?","Can you turn the light open?","Ang suga pasigaon og \"turn on\". Ang \"open\" para sa pultahan ug bintana."],
 ["mc","Sa telepono: 'Kadiyot lang, palihug' sa Iningles?","One moment, please.","For a while, please.","Wait a while only.","A while, please.","Ang \"for a while\" nagpasabot nga dugay-dugay. Sa telepono: \"One moment, please.\""],
 ["mc","Pilia ang sakto nga sentence.","Please fill out this form.","Please fill up this form.","Please fill this form.","Please fill off this form.","Ang porma sulatan og \"fill out\" o \"fill in\". Ang \"fill up\" para sa tangke o baso nga pun-on."],
 ["mc","'Wala na siya dinhi (lalaki)' sa Iningles?","He is no longer here.","He is already not here.","She is no longer here.","He is not already here.","Ang \"wala na\" kay \"no longer\", dili \"already not\". Lalaki ang gihisgotan, mao nga \"he\"."],
@@ -457,7 +457,7 @@ practice:[
 ["or","Naay brownout ganina","There was a power outage","the brownout","Sa gawas, \"power outage\" ang tawag sa brownout. Usa ra ug bag-o pang gihisgotan, mao nga article \"a\", dili \"the\"."],
 ["or","Nanaog ko sa bus","I got off the bus","down went","Sa pagkanaog sa sakyanan, \"get off\" ang gamiton, dili \"go down\"."],
 ["fi","It's based __ a true story.","Gibase kini sa tinuod nga istorya","on","from|in|to","Kanunay \"based on\", dili \"based from\"."],
-["fi","Can you __ me your umbrella?","Pwede ko nimo pahulamon sa imong payong?","lend|loan","borrow|borrowed|lends","Siya ang mohatag, mao nga \"lend\". Ang \"borrow\" para sa mokuha: \"Can I borrow your umbrella?\""],
+["fi","Can you __ me your umbrella?","Puwede ko nimo pahulamon sa imong payong?","lend|loan","borrow|borrowed|lends","Siya ang mohatag, mao nga \"lend\". Ang \"borrow\" para sa mokuha: \"Can I borrow your umbrella?\""],
 ["fi","I __ have no reply.","Hangtod karon, wala pa koy tubag","still","until now|already|yet","Ang \"hangtod karon … pa\" kay \"still\" sa Iningles, dili \"until now\"."],
 ["ty","Asa ang CR? (langyaw ang imong kaistorya)","Where is the restroom|Where's the restroom|Where is the bathroom|Where's the bathroom","where · restroom — kinahanglan ang article \"the\"","CR a","Sa gawas, \"restroom\" o \"bathroom\" ang gamiton. Ang CR niining lugara ang gipasabot, mao nga article \"the\"."],
 ["ty","Kinahanglan ko og impormasyon","I need some information|I need information","need · some · information — walay plural -s","informations an","Uncountable noun ang \"information\": walay plural -s ug walay article \"an\"."],
