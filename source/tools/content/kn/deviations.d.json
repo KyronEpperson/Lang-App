@@ -1,0 +1,11 @@
+{
+  "lessons": {
+    "stative-since": "kn-only lesson (profile kn.md §8 add, §4.3): states vs actions with the continuous (I am knowing ✗, She is having a car ✗), Kannada -ಇಂದ → since / for / from, and -ಇಂದ + ಇದ್ದೇನೆ / ಮಾಡುತ್ತಿದ್ದೇನೆ → Present Perfect (states) or Present Perfect Continuous (actions), How long…? for ಎಷ್ಟು ಸಮಯದಿಂದ. Dative-subject states (ನನಗೆ ಗೊತ್ತು, ನನ್ನ ಹತ್ತಿರ ಇದೆ) give no model for know / have (Demszky et al. STATIVE PROGRESSIVE; SJSU §1.1); ko-en has no such lesson. Same id and English side (checks and practice) as hi-en's stative-since; practice meets the article-plural standing rule. Placed after perfect-2 (profile.json lessonOrder.after), deck ಸ್ವಪರಿಚಯ (deck 2, the deck of perfect-2)."
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": [
+    "stative-since"
+  ],
+  "droppedLessons": []
+}

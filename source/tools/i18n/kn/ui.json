@@ -1,6 +1,6 @@
 {
  "lang": "kn",
- "about": "Interface translations for kn (Tagalog / Filipino). The only course this interface serves is tl-ko (Korean for Tagalog speakers), so \"Korean\", \"Hangul\" and \"romanization\" keys are translated literally for Korean, and \"English\" keys literally (Ingles). Fill every \"t\" (leave the other fields: they are reference only). Exact keys: the English UI string -> your text. Patterns: the template -> your text with {1}..{k} standing for the slots in template order (reorder freely; every slot must appear). Slot types: n = integer count; f = decimal number; s = short text (lazy match), e.g. a deck or lesson name; x = free text (greedy match); e = e-mail address; d = text without \"·\", e.g. a deck name inside a \"·\"-separated line. Follow docs/profiles/tl-ko.md (register, glossary) and tools/i18n/tl/NOTES.md (loanwords, tab names, open doubts). Then: python3 tools/i18n/gen.py kn && node tools/i18n/validate.js kn",
+ "about": "Interface translations for kn. Fill every \"t\" (leave the other fields: they are reference only). Exact keys: the English UI string -> your text. Patterns: the template -> your text with {1}..{k} standing for the slots in template order (reorder freely; every slot must appear). Slot types: n = integer count; f = decimal number; s = short text (lazy match), e.g. a deck or lesson name; x = free text (greedy match); e = e-mail address; d = text without \"·\", e.g. a deck name inside a \"·\"-separated line. Follow docs/profiles/kn.md for register and glossary. Then: python3 tools/i18n/gen.py kn && node tools/i18n/validate.js kn",
  "header": null,
  "reference_ko_notes": [
   "Glossary: session=학습, review=복습, deck=덱, card=카드, due=복습할/복습 대기, streak=연속 학습,",
@@ -14,14 +14,14 @@
  ],
  "exact": {
   "Korean starter": {
-   "t": "ಕೊರಿಯನ್ ಆರಂಭ",
+   "t": "ಇಂಗ್ಲಿಷ್ ಮೊದಲ ಹೆಜ್ಜೆ",
    "ko": "영어 첫걸음",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Search everything": {
-   "t": "ಎಲ್ಲವನ್ನೂ ಹುಡುಕಿ",
+   "t": "ಎಲ್ಲದರಲ್ಲೂ ಹುಡುಕಿ",
    "ko": "전체 검색",
    "kind": "label",
    "where": "html <button> @aria-label"
@@ -47,7 +47,7 @@
    "where": "html <a> text"
   },
   "Review": {
-   "t": "ರಿವ್ಯೂ",
+   "t": "ಪುನರ್ಮನನ",
    "ko": "복습",
    "kind": "label",
    "context": "bottom-nav tab: flashcard review (noun, not \"to review\")",
@@ -75,47 +75,47 @@
    "where": "html <a> text"
   },
   "Feedback": {
-   "t": "ಅಭಿಪ್ರಾಯ",
+   "t": "ಅನಿಸಿಕೆ",
    "ko": "피드백",
    "kind": "label",
    "context": "bottom-nav tab: send feedback",
    "where": "html <a> text"
   },
   "Privacy": {
-   "t": "ಗೌಪ್ಯತೆ",
+   "t": "ಗೋಪ್ಯತೆ",
    "ko": "개인정보",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <a> text"
   },
   "How do I say… (search all decks)": {
-   "t": "ಇದನ್ನು ಹೇಗೆ ಹೇಳುವುದು… (ಎಲ್ಲಾ ಡೆಕ್ಕುಗಳಲ್ಲಿ ಹುಡುಕಿ)",
+   "t": "ಹೇಗೆ ಹೇಳುವುದು… (ಎಲ್ಲ ಡೆಕ್‌ಗಳಲ್ಲಿ ಹುಡುಕಿ)",
    "ko": "이건 어떻게 말해요? (전체 덱 검색)",
    "kind": "sentence",
    "where": "html <input> @placeholder"
   },
   "＋ Add your own phrase to \"My phrases\"": {
-   "t": "＋ \"ನನ್ನ ನುಡಿಗಟ್ಟುಗಳು\"ಗೆ ನಿಮ್ಮದೇ ನುಡಿಗಟ್ಟು ಸೇರಿಸಿ",
+   "t": "＋ \"ನನ್ನ ವಾಕ್ಯಗಳು\" ಡೆಕ್‌ಗೆ ನಿಮ್ಮದೇ ವಾಕ್ಯ ಸೇರಿಸಿ",
    "ko": "＋ \"내 표현\"에 나만의 표현 추가",
    "kind": "sentence",
    "where": "html <summary> text"
   },
   "Korean (required)": {
-   "t": "ಕೊರಿಯನ್ (ಅಗತ್ಯ)",
+   "t": "ಇಂಗ್ಲಿಷ್ (ಕಡ್ಡಾಯ)",
    "ko": "배울 표현 (필수)",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "html <input> @placeholder"
   },
   "Romanization (auto if blank)": {
-   "t": "ರೋಮನ್ ಲಿಪಿ (ಖಾಲಿ ಬಿಟ್ಟರೆ ತಾನಾಗಿ)",
+   "t": "ಉಚ್ಚಾರಣೆ (ಖಾಲಿ ಬಿಟ್ಟರೆ ತಾನಾಗಿ ಬರುತ್ತದೆ)",
    "ko": "발음 표기 (비워 두면 자동)",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "html <input> @placeholder"
   },
   "Meaning (required)": {
-   "t": "ಅರ್ಥ (ಅಗತ್ಯ)",
+   "t": "ಅರ್ಥ (ಕಡ್ಡಾಯ)",
    "ko": "뜻 (필수)",
    "kind": "label",
    "where": "html <input> @placeholder"
@@ -134,40 +134,40 @@
    "where": "html <button> text"
   },
   "Bulk import (paste CSV / TSV)": {
-   "t": "ಒಟ್ಟಿಗೆ ಆಮದು (CSV / TSV ಅಂಟಿಸಿ)",
+   "t": "ಒಟ್ಟಿಗೆ ಇಂಪೋರ್ಟ್ (CSV / TSV ಪೇಸ್ಟ್ ಮಾಡಿ)",
    "ko": "한꺼번에 가져오기 (CSV / TSV 붙여넣기)",
    "kind": "sentence",
    "where": "html <summary> text"
   },
   "Korean, romanization, meaning, note — one per line (romanization/note optional)": {
-   "t": "ಕೊರಿಯನ್, ರೋಮನ್ ಲಿಪಿ, ಅರ್ಥ, ಟಿಪ್ಪಣಿ — ಸಾಲಿಗೆ ಒಂದು (ರೋಮನ್ ಲಿಪಿ/ಟಿಪ್ಪಣಿ ಐಚ್ಛಿಕ)",
+   "t": "ಇಂಗ್ಲಿಷ್, ಉಚ್ಚಾರಣೆ, ಅರ್ಥ, ಟಿಪ್ಪಣಿ — ಪ್ರತಿ ಸಾಲಿಗೆ ಒಂದು ಕಾರ್ಡ್ (ಉಚ್ಚಾರಣೆ ಮತ್ತು ಟಿಪ್ಪಣಿ ಐಚ್ಛಿಕ)",
    "ko": "표현, 발음 표기, 뜻, 메모 — 한 줄에 하나씩 (발음 표기·메모는 선택)",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "html <textarea> @placeholder"
   },
   "Preview appears here": {
-   "t": "ಮುನ್ನೋಟ ಇಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ",
+   "t": "ಪ್ರಿವ್ಯೂ ಇಲ್ಲಿ ಕಾಣುತ್ತದೆ",
    "ko": "여기에 미리보기가 나와요",
    "kind": "label",
    "where": "html <span> text"
   },
   "Export CSV": {
-   "t": "CSV ರಫ್ತು",
+   "t": "CSV ಎಕ್ಸ್‌ಪೋರ್ಟ್",
    "ko": "CSV 내보내기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <button> text"
   },
   "Import 0": {
-   "t": "ಆಮದು 0",
+   "t": "ಇಂಪೋರ್ಟ್: 0",
    "ko": "0개 가져오기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <button> text"
   },
   "Decks": {
-   "t": "ಡೆಕ್ಕುಗಳು",
+   "t": "ಡೆಕ್‌ಗಳು",
    "ko": "덱",
    "kind": "label",
    "context": "heading over the deck list",
@@ -181,14 +181,14 @@
    "where": "html <button> text"
   },
   "All": {
-   "t": "ಎಲ್ಲಾ",
+   "t": "ಎಲ್ಲ",
    "ko": "전체",
    "kind": "label",
    "context": "filter chip: all cards",
    "where": "html <button> text"
   },
   "📖 Browse": {
-   "t": "📖 ನೋಡಿ",
+   "t": "📖 ಬ್ರೌಸ್",
    "ko": "📖 둘러보기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -223,14 +223,14 @@
    "where": "js (top level)"
   },
   "native": {
-   "t": "ಸಹಜ",
+   "t": "ಸಹಜ ವೇಗ",
    "ko": "원어민 속도",
    "kind": "label",
    "context": "audio speed option: native-speaker speed",
    "where": "html <option> text"
   },
   "Blur romanization in Browse": {
-   "t": "\"ನೋಡಿ\" ವಿಭಾಗದಲ್ಲಿ ರೋಮನ್ ಲಿಪಿ ಮಸುಕು",
+   "t": "ಬ್ರೌಸ್ ಮಾಡುವಾಗ ಉಚ್ಚಾರಣೆ ಮಸುಕು ಮಾಡಿ",
    "ko": "둘러보기에서 발음 표기 흐리게",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -251,14 +251,14 @@
    "where": "html text"
   },
   "got it ·": {
-   "t": "ಗೊತ್ತಿದೆ ·",
+   "t": "ಗೊತ್ತು ·",
    "ko": "알아요 ·",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "html text"
   },
   "play ·": {
-   "t": "ಪ್ಲೇ ·",
+   "t": "ಕೇಳಿ ·",
    "ko": "재생 ·",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -286,40 +286,40 @@
    "where": "html <kbd> text"
   },
   "Shuffle": {
-   "t": "ಶಫಲ್",
+   "t": "ಶಫಲ್ ಮಾಡಿ",
    "ko": "섞기",
    "kind": "label",
    "context": "button",
    "where": "html <button> text"
   },
   "Reset deck": {
-   "t": "ಡೆಕ್ ರೀಸೆಟ್",
+   "t": "ಡೆಕ್ ರೀಸೆಟ್ ಮಾಡಿ",
    "ko": "덱 초기화",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <button> text"
   },
   "Learn 5 at a time": {
-   "t": "ಒಮ್ಮೆಗೆ 5 ಕಲಿಯಿರಿ",
+   "t": "ಒಮ್ಮೆಗೆ 5 ಕಾರ್ಡ್ ಕಲಿಯಿರಿ",
    "ko": "5개씩 배우기",
    "kind": "sentence",
    "where": "html <b> text"
   },
   ": 5 new cards, quiz them, 5 more, quiz those mixed with everything so far, until the deck is done.": {
-   "t": ": 5 ಹೊಸ ಕಾರ್ಡುಗಳು, ಅವುಗಳ ಕ್ವಿಜ್, ಇನ್ನೂ 5, ಈವರೆಗಿನ ಎಲ್ಲದರ ಜೊತೆ ಬೆರೆಸಿ ಕ್ವಿಜ್, ಡೆಕ್ ಮುಗಿಯುವವರೆಗೆ.",
+   "t": ": 5 ಹೊಸ ಕಾರ್ಡ್, ಅವುಗಳ ಕ್ವಿಜ್, ಮತ್ತೆ 5 ಕಾರ್ಡ್, ನಂತರ ಅಲ್ಲಿಯವರೆಗಿನ ಎಲ್ಲ ಕಾರ್ಡ್ ಸೇರಿಸಿ ಕ್ವಿಜ್ — ಡೆಕ್ ಮುಗಿಯುವವರೆಗೆ.",
    "ko": ": 새 카드 5장을 배우고 퀴즈, 또 5장을 배우고 지금까지 배운 것과 섞어서 퀴즈 — 덱을 끝낼 때까지 반복해요.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "html text"
   },
   "Test everything": {
-   "t": "ಎಲ್ಲವನ್ನೂ ಪರೀಕ್ಷಿಸಿ",
+   "t": "ಎಲ್ಲವನ್ನೂ ಟೆಸ್ಟ್ ಮಾಡಿ",
    "ko": "전체 테스트",
    "kind": "label",
    "where": "html <b> text"
   },
   ": every card × 3 passes. Mixed = read, listen, recall.": {
-   "t": ": ಪ್ರತಿ ಕಾರ್ಡ್ × 3 ಸುತ್ತು. ಮಿಶ್ರ = ಓದು, ಆಲಿಕೆ, ನೆನಪು.",
+   "t": ": ಪ್ರತಿ ಕಾರ್ಡ್ × 3 ಸಲ. ಮಿಶ್ರ = ಓದು, ಕೇಳುವುದು, ನೆನಪು.",
    "ko": ": 모든 카드를 3번씩 풀어요. 섞어서 = 읽기, 듣기, 떠올리기.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -347,35 +347,35 @@
    "where": "html text"
   },
   "Read 한→en": {
-   "t": "ಓದು 한→ಕನ್ನಡ",
+   "t": "ಓದಿ EN→ಕನ್ನಡ",
    "ko": "읽기 영→한",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "html <button> text"
   },
   "Recall en→한": {
-   "t": "ನೆನಪು ಕನ್ನಡ→한",
+   "t": "ನೆನಪು ಕನ್ನಡ→EN",
    "ko": "떠올리기 한→영",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "html <button> text"
   },
   "Listen 🔊→en": {
-   "t": "ಆಲಿಕೆ 🔊→ಕನ್ನಡ",
+   "t": "ಕೇಳಿ 🔊→ಕನ್ನಡ",
    "ko": "듣기 🔊→한",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <button> text"
   },
   "⌨️ Type 한": {
-   "t": "⌨️ ಟೈಪ್ 한",
+   "t": "⌨️ ಟೈಪ್ ಮಾಡಿ EN",
    "ko": "⌨️ 영어 입력",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "html <button> text"
   },
   "🎚️ Polite ↔ casual drill · 10": {
-   "t": "🎚️ ವಿನಯ ↔ ಸಲುಗೆ ಡ್ರಿಲ್ · 10",
+   "t": "🎚️ ಗೌರವ ↔ ಸಲುಗೆ ಡ್ರಿಲ್ · 10",
    "ko": "🎚️ 존댓말 ↔ 반말 훈련 · 10",
    "kind": "sentence",
    "where": "html <button> text"
@@ -388,7 +388,7 @@
    "where": "html <button> text"
   },
   "⚡ 2-minute blitz": {
-   "t": "⚡ 2 ನಿಮಿಷದ ಬ್ಲಿಟ್ಜ್",
+   "t": "⚡ 2 ನಿಮಿಷದ ವೇಗದ ಸುತ್ತು",
    "ko": "⚡ 2분 스피드 퀴즈",
    "kind": "label",
    "where": "html <button> text"
@@ -400,7 +400,7 @@
    "where": "html <button> text"
   },
   "Show romanization in practice": {
-   "t": "ಅಭ್ಯಾಸದಲ್ಲಿ ರೋಮನ್ ಲಿಪಿ ತೋರಿಸಿ",
+   "t": "ಅಭ್ಯಾಸದಲ್ಲಿ ಉಚ್ಚಾರಣೆ ತೋರಿಸಿ",
    "ko": "연습할 때 발음 표기 보기",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -413,14 +413,14 @@
    "where": "html <h2> text"
   },
   "Type the romanization. Hangul blocks stack consonant + vowel (+ final). Your level here is also used in sessions.": {
-   "t": "ರೋಮನ್ ಲಿಪಿಯಲ್ಲಿ ಟೈಪ್ ಮಾಡಿ. ಹಂಗುಲ್ ಬ್ಲಾಕಿನಲ್ಲಿ ವ್ಯಂಜನ + ಸ್ವರ (+ ಕೊನೆಯ ವ್ಯಂಜನ) ಒಂದರ ಮೇಲೊಂದು ಜೋಡಣೆಯಾಗುತ್ತವೆ. ಇಲ್ಲಿನ ನಿಮ್ಮ ಮಟ್ಟವನ್ನು ಸೆಷನಿನಲ್ಲೂ ಬಳಸಲಾಗುತ್ತದೆ.",
+   "t": "ಉಚ್ಚಾರಣೆ ಟೈಪ್ ಮಾಡಿ. ಇಂಗ್ಲಿಷ್ ಪದಗಳು ಚಿಕ್ಕ ಭಾಗಗಳಿಂದ ಕೂಡಿವೆ: ವ್ಯಂಜನ + ಸ್ವರ (+ ಕೊನೆಯ ವ್ಯಂಜನ). ಇಲ್ಲಿ ಆರಿಸಿದ ಲೆವೆಲ್ ಸೆಷನ್‌ಗಳಿಗೂ ಅನ್ವಯಿಸುತ್ತದೆ.",
    "ko": "발음 표기를 입력하세요. 한글 글자는 자음 + 모음 (+ 받침)으로 쌓여요. 여기서 고른 레벨은 학습에도 쓰여요.",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "html <p> text"
   },
   "Syllables": {
-   "t": "ಅಕ್ಷರಗಳು",
+   "t": "ಪದದ ಭಾಗಗಳು",
    "ko": "음절",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -459,13 +459,13 @@
    "where": "html <button> text"
   },
   "🎚️ Polite ↔ casual": {
-   "t": "🎚️ ವಿನಯ ↔ ಸಲುಗೆ",
+   "t": "🎚️ ಗೌರವ ↔ ಸಲುಗೆ",
    "ko": "🎚️ 존댓말 ↔ 반말",
    "kind": "label",
    "where": "html <button> text"
   },
   "🎧 Listen": {
-   "t": "🎧 ಆಲಿಸಿ",
+   "t": "🎧 ಕೇಳುವುದು",
    "ko": "🎧 듣기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -479,7 +479,7 @@
    "where": "html <button> text"
   },
   "🎭 Role-play": {
-   "t": "🎭 ಪಾತ್ರಾಭಿನಯ",
+   "t": "🎭 ರೋಲ್-ಪ್ಲೇ",
    "ko": "🎭 역할극",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -498,27 +498,27 @@
    "where": "html <button> text"
   },
   "How a block is built": {
-   "t": "ಒಂದು ಬ್ಲಾಕ್ ಹೇಗೆ ರೂಪುಗೊಳ್ಳುತ್ತದೆ",
+   "t": "ಪದ ಹೇಗೆ ರೂಪುಗೊಳ್ಳುತ್ತದೆ",
    "ko": "글자는 이렇게 만들어져요",
    "kind": "sentence",
    "where": "html <h3> text"
   },
   "(han). Vertical vowels (ㅏㅓㅣ) sit right of the consonant; horizontal vowels (ㅗㅜㅡ) sit below. A final consonant always goes at the bottom.": {
-   "t": "(han). ನಿಂತ ಸ್ವರಗಳು (ㅏㅓㅣ) ವ್ಯಂಜನದ ಬಲಕ್ಕೆ ಬರುತ್ತವೆ; ಮಲಗಿದ ಸ್ವರಗಳು (ㅗㅜㅡ) ಕೆಳಗೆ ಬರುತ್ತವೆ. ಕೊನೆಯ ವ್ಯಂಜನ ಯಾವಾಗಲೂ ಅತ್ಯಂತ ಕೆಳಗೆ ಹೋಗುತ್ತದೆ.",
+   "t": "(han). ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಸ್ಪೆಲ್ಲಿಂಗ್ ನೋಡಿ ಉಚ್ಚಾರಣೆ ಯಾವಾಗಲೂ ಗೊತ್ತಾಗುವುದಿಲ್ಲ: ಆಡಿಯೋ ಕೇಳಿ, ಒತ್ತು ಬೀಳುವ ಭಾಗ ಗಮನಿಸಿ.",
    "ko": "(han). 세로 모음(ㅏㅓㅣ)은 자음 오른쪽에, 가로 모음(ㅗㅜㅡ)은 자음 아래에 와요. 받침은 항상 맨 아래에 들어가요.",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "html text"
   },
   "day streak": {
-   "t": "ದಿನಗಳ ಸ್ಟ್ರೀಕ್",
+   "t": "ಸತತ ದಿನ",
    "ko": "일 연속 학습",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <span> text"
   },
   "cards learned": {
-   "t": "ಕಲಿತ ಕಾರ್ಡುಗಳು",
+   "t": "ಕಲಿತ ಕಾರ್ಡ್",
    "ko": "익힌 카드",
    "kind": "label",
    "where": "html <span> text"
@@ -531,32 +531,32 @@
    "where": "html <p> text"
   },
   "How you learn": {
-   "t": "ನೀವು ಹೇಗೆ ಕಲಿಯುತ್ತೀರಿ",
+   "t": "ನೀವು ಕಲಿಯುವ ರೀತಿ",
    "ko": "나의 학습 패턴",
    "kind": "label",
    "where": "html <h3> text"
   },
   "Reviews coming up": {
-   "t": "ಮುಂಬರುವ ರಿವ್ಯೂಗಳು",
+   "t": "ಮುಂದೆ ಬರುವ ಪುನರ್ಮನನ",
    "ko": "다가오는 복습",
    "kind": "label",
    "where": "html <h3> text"
   },
   "Cards by box": {
-   "t": "ಪೆಟ್ಟಿಗೆವಾರು ಕಾರ್ಡುಗಳು",
+   "t": "ಬಾಕ್ಸ್‌ವಾರು ಕಾರ್ಡ್",
    "ko": "상자별 카드",
    "kind": "label",
    "where": "html <h3> text"
   },
   "Intervals adapt to your retention (±) ·": {
-   "t": "ಮಧ್ಯಂತರಗಳು ನಿಮ್ಮ ನೆನಪಿಗೆ ತಕ್ಕಂತೆ ಬದಲಾಗುತ್ತವೆ (±) ·",
+   "t": "ನಿಮ್ಮ ನೆನಪಿಗೆ ತಕ್ಕಂತೆ ಅಂತರ ಬದಲಾಗುತ್ತದೆ (±) ·",
    "ko": "복습 간격은 기억률에 맞춰 조정돼요 (±) ·",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "html <span> text"
   },
   "Reset to defaults": {
-   "t": "ಡೀಫಾಲ್ಟಿಗೆ ಮರಳಿಸಿ",
+   "t": "ಡೀಫಾಲ್ಟ್‌ಗೆ ಮರಳಿ",
    "ko": "기본값으로 되돌리기",
    "kind": "label",
    "where": "html <button> text"
@@ -590,19 +590,19 @@
    "where": "html text"
   },
   "New cards/day": {
-   "t": "ಹೊಸ ಕಾರ್ಡುಗಳು/ದಿನ",
+   "t": "ದಿನಕ್ಕೆ ಹೊಸ ಕಾರ್ಡ್",
    "ko": "하루 새 카드",
    "kind": "label",
    "where": "html <label> text"
   },
   "Share your streak": {
-   "t": "ನಿಮ್ಮ ಸ್ಟ್ರೀಕ್ ಹಂಚಿಕೊಳ್ಳಿ",
+   "t": "ನಿಮ್ಮ ಸತತ ದಿನ ಹಂಚಿಕೊಳ್ಳಿ",
    "ko": "연속 학습 자랑하기",
    "kind": "label",
    "where": "html <h3> text"
   },
   "Make card": {
-   "t": "ಕಾರ್ಡ್ ಮಾಡಿ",
+   "t": "ಕಾರ್ಡ್ ತಯಾರಿಸಿ",
    "ko": "카드 만들기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -616,32 +616,32 @@
    "where": "html <h3> text"
   },
   "80% mastery of every deck in a group + all checks": {
-   "t": "ಗುಂಪಿನ ಪ್ರತಿ ಡೆಕ್ 80% ಕರಗತ + ಎಲ್ಲಾ ಪರಿಶೀಲನೆಗಳು",
+   "t": "ಗುಂಪಿನ ಪ್ರತಿ ಡೆಕ್‌ನಲ್ಲಿ 80% ಕರಗತ + ಎಲ್ಲ ಕಿರು ಪರೀಕ್ಷೆ",
    "ko": "그룹의 모든 덱 80% 마스터 + 확인 문제 모두 통과",
    "kind": "sentence",
    "where": "html <span> text"
   },
   "Weekly badges": {
-   "t": "ವಾರದ ಬ್ಯಾಡ್ಜುಗಳು",
+   "t": "ವಾರದ ಬ್ಯಾಡ್ಜ್‌ಗಳು",
    "ko": "주간 배지",
    "kind": "label",
    "where": "html <h3> text"
   },
   "Calibration": {
-   "t": "ಹೊಂದಾಣಿಕೆ",
+   "t": "ಊಹೆಯ ನಿಖರತೆ",
    "ko": "자신감 보정",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <h3> text"
   },
   "Suspended cards": {
-   "t": "ತಡೆಹಿಡಿದ ಕಾರ್ಡುಗಳು",
+   "t": "ತಡೆಹಿಡಿದ ಕಾರ್ಡ್‌ಗಳು",
    "ko": "보류한 카드",
    "kind": "label",
    "where": "html <h3> text"
   },
   "Hardest cards": {
-   "t": "ಅತಿ ಕಷ್ಟದ ಕಾರ್ಡುಗಳು",
+   "t": "ಅತಿ ಕಷ್ಟದ ಕಾರ್ಡ್‌ಗಳು",
    "ko": "가장 어려운 카드",
    "kind": "label",
    "where": "html <h3> text"
@@ -660,7 +660,7 @@
    "where": "html <h3> text"
   },
   "Copy export": {
-   "t": "ರಫ್ತು ನಕಲಿಸಿ",
+   "t": "ಎಕ್ಸ್‌ಪೋರ್ಟ್ ನಕಲಿಸಿ",
    "ko": "내보내기 복사",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -674,7 +674,7 @@
    "where": "html <button> text"
   },
   "Import": {
-   "t": "ಆಮದು",
+   "t": "ಇಂಪೋರ್ಟ್",
    "ko": "가져오기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -688,13 +688,13 @@
    "where": "html <label> text"
   },
   "Paste an export here": {
-   "t": "ರಫ್ತು ಮಾಡಿದ್ದನ್ನು ಇಲ್ಲಿ ಅಂಟಿಸಿ",
+   "t": "ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಇಲ್ಲಿ ಪೇಸ್ಟ್ ಮಾಡಿ",
    "ko": "내보낸 데이터를 여기에 붙여넣으세요",
    "kind": "label",
    "where": "html <textarea> @placeholder"
   },
   "Merges with what is here; nothing is lost.": {
-   "t": "ಇಲ್ಲಿರುವುದರ ಜೊತೆ ವಿಲೀನವಾಗುತ್ತದೆ; ಏನೂ ಕಳೆದುಹೋಗುವುದಿಲ್ಲ.",
+   "t": "ಇಲ್ಲಿ ಈಗಾಗಲೇ ಇರುವ ಡೇಟಾ ಜೊತೆ ವಿಲೀನವಾಗುತ್ತದೆ; ಏನೂ ಕಳೆದುಹೋಗುವುದಿಲ್ಲ.",
    "ko": "지금 기록과 합쳐져요. 사라지는 건 없어요.",
    "kind": "sentence",
    "where": "html <span> text"
@@ -707,70 +707,70 @@
    "where": "html <button> text"
   },
   "Export = your whole progress as text. Use it to move between devices when account sync is off.": {
-   "t": "ರಫ್ತು = ನಿಮ್ಮ ಸಂಪೂರ್ಣ ಪ್ರಗತಿ, ಪಠ್ಯವಾಗಿ. ಖಾತೆ ಸಿಂಕ್ ಆಫ್ ಇರುವಾಗ ಸಾಧನಗಳ ನಡುವೆ ಬದಲಾಯಿಸಲು ಇದನ್ನು ಬಳಸಿ.",
+   "t": "ಎಕ್ಸ್‌ಪೋರ್ಟ್ = ನಿಮ್ಮ ಇಡೀ ಪ್ರಗತಿ, ಪಠ್ಯ ರೂಪದಲ್ಲಿ. ಖಾತೆ ಸಿಂಕ್ ಆಫ್ ಇರುವಾಗ ಒಂದು ಸಾಧನದಿಂದ ಇನ್ನೊಂದಕ್ಕೆ ಹೋಗಲು ಇದನ್ನು ಬಳಸಿ.",
    "ko": "내보내기 = 전체 진도를 텍스트로 저장해요. 계정 동기화를 쓰지 않을 때 기기를 옮기는 데 쓰세요.",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Shuffle decks": {
-   "t": "ಡೆಕ್ಕುಗಳನ್ನು ಶಫಲ್ ಮಾಡಿ",
+   "t": "ಡೆಕ್ ಶಫಲ್ ಮಾಡಿ",
    "ko": "덱 섞기",
    "kind": "label",
    "where": "html <input> text"
   },
   "Unlock everything (skip the guided path)": {
-   "t": "ಎಲ್ಲವನ್ನೂ ಅನ್ಲಾಕ್ ಮಾಡಿ (ಮಾರ್ಗದರ್ಶಿ ದಾರಿ ಬಿಟ್ಟುಬಿಡಿ)",
+   "t": "ಎಲ್ಲವನ್ನೂ ಅನ್‌ಲಾಕ್ ಮಾಡಿ (ಮಾರ್ಗದರ್ಶಿ ದಾರಿ ಬಿಟ್ಟು)",
    "ko": "전부 열기 (학습 순서 건너뛰기)",
    "kind": "sentence",
    "where": "html <input> text"
   },
   "한국어 UI (menu labels in Korean)": {
-   "t": "한국어 UI (ಮೆನು ಹೆಸರುಗಳು ಕೊರಿಯನ್ ಭಾಷೆಯಲ್ಲಿ)",
+   "t": "ಕನ್ನಡ ಇಂಟರ್‌ಫೇಸ್ (ಮೆನು ಕನ್ನಡದಲ್ಲಿ)",
    "ko": "한국어 UI (메뉴를 한국어로)",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content; legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "html <input> text"
   },
   "Vibration feedback": {
-   "t": "ಕಂಪನ",
+   "t": "ವೈಬ್ರೇಷನ್",
    "ko": "진동 피드백",
    "kind": "label",
    "where": "html <input> text"
   },
   "Sound effects": {
-   "t": "ಧ್ವನಿ ಪರಿಣಾಮಗಳು",
+   "t": "ಸೌಂಡ್ ಎಫೆಕ್ಟ್",
    "ko": "효과음",
    "kind": "label",
    "where": "html <input> text"
   },
   "3D effects": {
-   "t": "3D ಪರಿಣಾಮಗಳು",
+   "t": "3D ಎಫೆಕ್ಟ್",
    "ko": "3D 효과",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <input> text"
   },
   "Redo setup questions": {
-   "t": "ಸೆಟಪ್ ಪ್ರಶ್ನೆಗಳನ್ನು ಮತ್ತೆ ಮಾಡಿ",
+   "t": "ಸೆಟಪ್ ಪ್ರಶ್ನೆಗಳಿಗೆ ಮತ್ತೆ ಉತ್ತರಿಸಿ",
    "ko": "설정 질문 다시 하기",
    "kind": "label",
    "where": "html <button> text"
   },
   "Show the tour": {
-   "t": "ಪರಿಚಯ ಪ್ರವಾಸ ತೋರಿಸಿ",
+   "t": "ಟೂರ್ ತೋರಿಸಿ",
    "ko": "둘러보기 안내 다시 보기",
    "kind": "label",
    "where": "html <button> text"
   },
   "Accent": {
-   "t": "ಬಣ್ಣ",
+   "t": "ಥೀಮ್ ಬಣ್ಣ",
    "ko": "강조 색상",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <span> text"
   },
   "Text size": {
-   "t": "ಅಕ್ಷರದ ಗಾತ್ರ",
+   "t": "ಅಕ್ಷರ ಗಾತ್ರ",
    "ko": "글자 크기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -791,7 +791,7 @@
    "where": "html <button> text"
   },
   "This device only": {
-   "t": "ಈ ಸಾಧನದಲ್ಲಿ ಮಾತ್ರ",
+   "t": "ಈ ಸಾಧನ ಮಾತ್ರ",
    "ko": "이 기기에만 저장",
    "kind": "label",
    "where": "html text"
@@ -815,25 +815,25 @@
    "where": "html <button> text"
   },
   "Erase all progress": {
-   "t": "ಎಲ್ಲಾ ಪ್ರಗತಿ ಅಳಿಸಿ",
+   "t": "ಇಡೀ ಪ್ರಗತಿ ಅಳಿಸಿ",
    "ko": "모든 진도 지우기",
    "kind": "label",
    "where": "js STR()"
   },
   "Privacy & terms": {
-   "t": "ಗೌಪ್ಯತೆ ಮತ್ತು ನಿಯಮಗಳು",
+   "t": "ಗೋಪ್ಯತೆ ಮತ್ತು ನಿಯಮಗಳು",
    "ko": "개인정보 및 이용약관",
    "kind": "label",
    "where": "js step1() <a>"
   },
   "Short version: your learning data is yours, nothing is sold, there are no ads, and you can take it with you or delete it any time.": {
-   "t": "ಸಂಕ್ಷಿಪ್ತವಾಗಿ: ನಿಮ್ಮ ಕಲಿಕೆಯ ಡೇಟಾ ನಿಮ್ಮದು, ಏನನ್ನೂ ಮಾರುವುದಿಲ್ಲ, ಜಾಹೀರಾತುಗಳಿಲ್ಲ, ಮತ್ತು ಯಾವಾಗ ಬೇಕಾದರೂ ಅದನ್ನು ತೆಗೆದುಕೊಂಡು ಹೋಗಬಹುದು ಅಥವಾ ಅಳಿಸಬಹುದು.",
+   "t": "ಚಿಕ್ಕದಾಗಿ ಹೇಳುವುದಾದರೆ: ನಿಮ್ಮ ಕಲಿಕೆಯ ಡೇಟಾ ನಿಮ್ಮದೇ, ಏನನ್ನೂ ಮಾರುವುದಿಲ್ಲ, ಜಾಹೀರಾತು ಇಲ್ಲ, ಮತ್ತು ನೀವು ಅದನ್ನು ಯಾವಾಗ ಬೇಕಾದರೂ ಜೊತೆಗೆ ಒಯ್ಯಬಹುದು ಅಥವಾ ಅಳಿಸಬಹುದು.",
    "ko": "요약: 학습 데이터는 여러분의 것이에요. 어떤 것도 판매하지 않고, 광고도 없으며, 언제든 가져가거나 삭제할 수 있어요.",
    "kind": "sentence",
    "where": "html <p> text"
   },
   "What's stored, and where": {
-   "t": "ಏನು ಉಳಿಸಲಾಗುತ್ತದೆ, ಎಲ್ಲಿ",
+   "t": "ಏನು ಸೇವ್ ಆಗುತ್ತದೆ, ಎಲ್ಲಿ",
    "ko": "무엇을 어디에 저장하나요",
    "kind": "label",
    "where": "html <h3> text"
@@ -845,32 +845,32 @@
    "where": "html <b> text"
   },
   "(browser storage): your progress, settings, nickname and custom phrases. Clearing site data or switching devices removes it unless you sign in.": {
-   "t": "(ಬ್ರೌಸರ್ ಸಂಗ್ರಹ): ನಿಮ್ಮ ಪ್ರಗತಿ, ಸೆಟ್ಟಿಂಗ್ಸ್, ಅಡ್ಡಹೆಸರು ಮತ್ತು ನಿಮ್ಮದೇ ನುಡಿಗಟ್ಟುಗಳು. ಸೈಟ್ ಡೇಟಾ ಅಳಿಸಿದರೆ ಅಥವಾ ಸಾಧನ ಬದಲಾಯಿಸಿದರೆ, ನೀವು ಸೈನ್ ಇನ್ ಮಾಡದಿದ್ದರೆ ಇದು ಹೋಗುತ್ತದೆ.",
+   "t": "(ಬ್ರೌಸರ್ ಸ್ಟೋರೇಜ್): ನಿಮ್ಮ ಪ್ರಗತಿ, ಸೆಟ್ಟಿಂಗ್ಸ್, ಅಡ್ಡಹೆಸರು ಮತ್ತು ನೀವೇ ಸೇರಿಸಿದ ವಾಕ್ಯಗಳು. ಸೈನ್ ಇನ್ ಮಾಡದಿದ್ದರೆ, ಸೈಟ್ ಡೇಟಾ ಅಳಿಸಿದಾಗ ಅಥವಾ ಸಾಧನ ಬದಲಿಸಿದಾಗ ಇದು ಹೋಗುತ್ತದೆ.",
    "ko": "(브라우저 저장소): 진도, 설정, 닉네임, 직접 추가한 표현. 로그인하지 않으면 사이트 데이터를 지우거나 기기를 바꿀 때 사라져요.",
    "kind": "sentence",
    "where": "html text"
   },
   "If you sign in with email": {
-   "t": "ನೀವು ಇಮೇಲ್ ಮೂಲಕ ಸೈನ್ ಇನ್ ಮಾಡಿದರೆ",
+   "t": "ಇಮೇಲ್ ಮೂಲಕ ಸೈನ್ ಇನ್ ಮಾಡಿದರೆ",
    "ko": "이메일로 로그인하면",
    "kind": "sentence",
    "where": "html <b> text"
   },
   ": your email address and a copy of your progress, kept in our database (Supabase) so it syncs across devices. Only you can read your row.": {
-   "t": ": ನಿಮ್ಮ ಇಮೇಲ್ ವಿಳಾಸ ಮತ್ತು ನಿಮ್ಮ ಪ್ರಗತಿಯ ಒಂದು ಪ್ರತಿ, ಸಾಧನಗಳ ನಡುವೆ ಸಿಂಕ್ ಆಗಲು ನಮ್ಮ ಡೇಟಾಬೇಸಿನಲ್ಲಿ (Supabase) ಇಡಲಾಗುತ್ತದೆ. ನಿಮ್ಮ ಸಾಲನ್ನು ನೀವು ಮಾತ್ರ ಓದಬಹುದು.",
+   "t": ": ನಿಮ್ಮ ಇಮೇಲ್ ವಿಳಾಸ ಮತ್ತು ನಿಮ್ಮ ಪ್ರಗತಿಯ ಒಂದು ಪ್ರತಿ ನಮ್ಮ ಡೇಟಾಬೇಸ್‌ನಲ್ಲಿ (Supabase) ಇರುತ್ತದೆ, ಎಲ್ಲ ಸಾಧನಗಳಲ್ಲಿ ಸಿಂಕ್ ಆಗಲು. ನಿಮ್ಮ ದಾಖಲೆಯನ್ನು ನೀವು ಮಾತ್ರ ಓದಬಹುದು.",
    "ko": ": 이메일 주소와 진도 사본을 데이터베이스(Supabase)에 보관해 여러 기기에서 동기화해요. 내 데이터는 나만 읽을 수 있어요.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "html text"
   },
   "Feedback board": {
-   "t": "ಅಭಿಪ್ರಾಯ ಫಲಕ",
+   "t": "ಅನಿಸಿಕೆ ಬೋರ್ಡ್",
    "ko": "피드백 게시판",
    "kind": "label",
    "where": "html <b> text"
   },
   ": anything you post is": {
-   "t": ": ನೀವು ಪೋಸ್ಟ್ ಮಾಡುವುದೆಲ್ಲವೂ",
+   "t": ": ನೀವು ಪೋಸ್ಟ್ ಮಾಡುವ ಎಲ್ಲವೂ",
    "ko": ": 올린 글은 모두",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -884,20 +884,20 @@
    "where": "html <b> text"
   },
   "to all users. Your name is shown only if you tick \"Show my name\". We also store the page you posted from, the app version and your browser type (never shown publicly) to help fix bugs.": {
-   "t": "ಆಗಿರುತ್ತದೆ, ಎಲ್ಲಾ ಬಳಕೆದಾರರಿಗೂ ಕಾಣುತ್ತದೆ. \"ನನ್ನ ಹೆಸರು ತೋರಿಸಿ\" ಗುರುತು ಮಾಡಿದರೆ ಮಾತ್ರ ನಿಮ್ಮ ಹೆಸರು ಕಾಣಿಸುತ್ತದೆ. ಬಗ್ ಸರಿಪಡಿಸಲು ನೆರವಾಗುವಂತೆ ನೀವು ಪೋಸ್ಟ್ ಮಾಡಿದ ಪುಟ, ಆ್ಯಪ್ ಆವೃತ್ತಿ ಮತ್ತು ನಿಮ್ಮ ಬ್ರೌಸರ್ ಬಗೆಯನ್ನೂ ಉಳಿಸುತ್ತೇವೆ (ಎಂದಿಗೂ ಸಾರ್ವಜನಿಕವಾಗಿ ತೋರಿಸುವುದಿಲ್ಲ).",
+   "t": "— ಎಲ್ಲ ಬಳಕೆದಾರರಿಗೂ ಕಾಣುತ್ತದೆ. \"ನನ್ನ ಹೆಸರು ತೋರಿಸಿ\" ಆರಿಸಿದರೆ ಮಾತ್ರ ನಿಮ್ಮ ಹೆಸರು ಕಾಣುತ್ತದೆ. ಬಗ್ ಸರಿಪಡಿಸಲು ನೆರವಾಗಲೆಂದು ನೀವು ಯಾವ ಪುಟದಿಂದ ಪೋಸ್ಟ್ ಮಾಡಿದ್ದೀರಿ, ಆ್ಯಪ್ ಆವೃತ್ತಿ ಮತ್ತು ನಿಮ್ಮ ಬ್ರೌಸರ್ ಬಗೆ ಇವನ್ನೂ ಸೇವ್ ಮಾಡುತ್ತೇವೆ (ಇವು ಎಂದೂ ಸಾರ್ವಜನಿಕವಾಗಿ ಕಾಣುವುದಿಲ್ಲ).",
    "ko": "로 모든 사용자에게 보여요. 이름은 \"내 이름 표시\"를 체크했을 때만 보여요. 버그 수정을 위해 글을 올린 페이지, 앱 버전, 브라우저 종류도 저장해요(공개되지 않아요).",
    "kind": "sentence",
    "where": "html text"
   },
   "Analytics": {
-   "t": "ಅನಾಲಿಟಿಕ್ಸ್",
+   "t": "ಅನಲಿಟಿಕ್ಸ್",
    "ko": "통계",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <b> text"
   },
   ": anonymous page-view counts via Vercel Web Analytics — no cookies, no cross-site tracking, no personal profile.": {
-   "t": ": Vercel Web Analytics ಮೂಲಕ ಹೆಸರಿಲ್ಲದ ಪುಟ-ವೀಕ್ಷಣೆ ಎಣಿಕೆಗಳು — ಕುಕೀಗಳಿಲ್ಲ, ಬೇರೆ ಸೈಟುಗಳಲ್ಲಿ ಹಿಂಬಾಲಿಸುವುದಿಲ್ಲ, ವೈಯಕ್ತಿಕ ಪ್ರೊಫೈಲ್ ಇಲ್ಲ.",
+   "t": ": Vercel Web Analytics ಮೂಲಕ ಅನಾಮಧೇಯ ಪುಟ-ವೀಕ್ಷಣೆ ಎಣಿಕೆ — ಕುಕೀ ಇಲ್ಲ, ಸೈಟ್‌ಗಳ ನಡುವೆ ಟ್ರ್ಯಾಕಿಂಗ್ ಇಲ್ಲ, ವೈಯಕ್ತಿಕ ಪ್ರೊಫೈಲ್ ಇಲ್ಲ.",
    "ko": ": Vercel Web Analytics로 익명 페이지 조회수만 집계해요 — 쿠키, 사이트 간 추적, 개인 프로필 없음.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -910,7 +910,7 @@
    "where": "html <b> text"
   },
   ": if the app crashes, a short technical error message is recorded (no progress data, no email) so it can be fixed.": {
-   "t": ": ಆ್ಯಪ್ ಕ್ರ್ಯಾಶ್ ಆದರೆ, ಸರಿಪಡಿಸಲು ಒಂದು ಚಿಕ್ಕ ತಾಂತ್ರಿಕ ದೋಷ ಸಂದೇಶವನ್ನು ದಾಖಲಿಸಲಾಗುತ್ತದೆ (ಪ್ರಗತಿ ಡೇಟಾ ಇಲ್ಲ, ಇಮೇಲ್ ಇಲ್ಲ).",
+   "t": ": ಆ್ಯಪ್ ಕ್ರ್ಯಾಶ್ ಆದರೆ, ಅದನ್ನು ಸರಿಪಡಿಸಲು ಒಂದು ಚಿಕ್ಕ ತಾಂತ್ರಿಕ ದೋಷ ಸಂದೇಶ ದಾಖಲಾಗುತ್ತದೆ (ಪ್ರಗತಿಯ ಡೇಟಾ ಇಲ್ಲ, ಇಮೇಲ್ ಇಲ್ಲ).",
    "ko": ": 앱에 오류가 나면 고칠 수 있도록 짧은 기술 오류 메시지만 기록해요(진도 데이터나 이메일은 포함하지 않아요).",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -923,13 +923,13 @@
    "where": "html <h3> text"
   },
   "Back up / move": {
-   "t": "ಬ್ಯಾಕಪ್ / ಸ್ಥಳಾಂತರ",
+   "t": "ಬ್ಯಾಕಪ್ / ಸಾಧನ ಬದಲಾವಣೆ",
    "ko": "백업 / 옮기기",
    "kind": "label",
    "where": "html <b> text"
   },
   ": Progress → Backup → Share file or Copy export; Import on any device.": {
-   "t": ": ಪ್ರಗತಿ → ಬ್ಯಾಕಪ್ → ಫೈಲ್ ಹಂಚಿಕೊಳ್ಳಿ ಅಥವಾ ರಫ್ತು ನಕಲಿಸಿ; ಯಾವುದೇ ಸಾಧನದಲ್ಲಿ ಆಮದು ಮಾಡಿ.",
+   "t": ": ಪ್ರಗತಿ → ಬ್ಯಾಕಪ್ → \"ಫೈಲ್ ಹಂಚಿಕೊಳ್ಳಿ\" ಅಥವಾ \"ಎಕ್ಸ್‌ಪೋರ್ಟ್ ನಕಲಿಸಿ\"; ನಂತರ ಯಾವುದೇ ಸಾಧನದಲ್ಲಿ ಇಂಪೋರ್ಟ್ ಮಾಡಿ.",
    "ko": ": 진도 → 백업 → 파일 공유 또는 내보내기 복사, 다른 기기에서 가져오기.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -949,27 +949,27 @@
    "where": "html text"
   },
   "Delete everything": {
-   "t": "ಎಲ್ಲವನ್ನೂ ಅಳಿಸಿ",
+   "t": "ಎಲ್ಲವನ್ನೂ ಅಳಿಸುವುದು",
    "ko": "전부 삭제",
    "kind": "label",
    "where": "html <b> text"
   },
   ": Progress → Account → Delete my account. Removes your account and synced progress permanently; your feedback posts stay but are unlinked from you.": {
-   "t": ": ಪ್ರಗತಿ → ಖಾತೆ → ನನ್ನ ಖಾತೆ ಅಳಿಸಿ. ನಿಮ್ಮ ಖಾತೆ ಮತ್ತು ಸಿಂಕ್ ಆದ ಪ್ರಗತಿಯನ್ನು ಶಾಶ್ವತವಾಗಿ ತೆಗೆದುಹಾಕುತ್ತದೆ; ನಿಮ್ಮ ಅಭಿಪ್ರಾಯ ಪೋಸ್ಟುಗಳು ಉಳಿಯುತ್ತವೆ, ಆದರೆ ನಿಮ್ಮಿಂದ ಬೇರ್ಪಡುತ್ತವೆ.",
+   "t": ": ಪ್ರಗತಿ → ಖಾತೆ → \"ನನ್ನ ಖಾತೆ ಅಳಿಸಿ\". ಇದರಿಂದ ನಿಮ್ಮ ಖಾತೆ ಮತ್ತು ಸಿಂಕ್ ಆದ ಪ್ರಗತಿ ಶಾಶ್ವತವಾಗಿ ಅಳಿಸಿಹೋಗುತ್ತದೆ; ನಿಮ್ಮ ಅನಿಸಿಕೆ ಪೋಸ್ಟ್‌ಗಳು ಉಳಿಯುತ್ತವೆ, ಆದರೆ ನಿಮ್ಮ ಹೆಸರಿನ ಜೊತೆ ಅವುಗಳ ಸಂಬಂಧ ಇರುವುದಿಲ್ಲ.",
    "ko": ": 진도 → 계정 → 계정 삭제. 계정과 동기화된 진도가 영구 삭제돼요. 피드백 글은 남지만 내 계정과의 연결은 끊어져요.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "html text"
   },
   "Board rules": {
-   "t": "ಫಲಕದ ನಿಯಮಗಳು",
+   "t": "ಬೋರ್ಡ್ ನಿಯಮಗಳು",
    "ko": "게시판 규칙",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <h3> text"
   },
   "Be kind, stay on topic, no spam, no personal information (yours or anyone else's). Posts that break these may be hidden. Don't post passwords, phone numbers or addresses.": {
-   "t": "ದಯೆಯಿಂದಿರಿ, ವಿಷಯದಿಂದ ಹೊರಗೆ ಹೋಗಬೇಡಿ, ಸ್ಪ್ಯಾಮ್ ಬೇಡ, ವೈಯಕ್ತಿಕ ಮಾಹಿತಿ ಬೇಡ (ನಿಮ್ಮದೂ ಬೇರೆಯವರದೂ). ಇವುಗಳನ್ನು ಮೀರಿದ ಪೋಸ್ಟುಗಳನ್ನು ಮರೆಮಾಡಬಹುದು. ಪಾಸ್ವರ್ಡ್, ಫೋನ್ ನಂಬರ್ ಅಥವಾ ವಿಳಾಸ ಪೋಸ್ಟ್ ಮಾಡಬೇಡಿ.",
+   "t": "ಸೌಜನ್ಯದಿಂದ ಇರಿ, ವಿಷಯಕ್ಕೆ ಸೀಮಿತವಾಗಿರಿ, ಸ್ಪ್ಯಾಮ್ ಬೇಡ, ವೈಯಕ್ತಿಕ ಮಾಹಿತಿ ಬೇಡ (ನಿಮ್ಮದಾಗಲಿ, ಬೇರೆಯವರದ್ದಾಗಲಿ). ನಿಯಮ ಮೀರಿದ ಪೋಸ್ಟ್‌ಗಳನ್ನು ಮರೆಮಾಡಬಹುದು. ಪಾಸ್‌ವರ್ಡ್, ಫೋನ್ ನಂಬರ್ ಅಥವಾ ವಿಳಾಸ ಪೋಸ್ಟ್ ಮಾಡಬೇಡಿ.",
    "ko": "친절하게, 주제에 맞게 써 주세요. 스팸이나 개인정보(본인 것이든 남의 것이든)는 안 돼요. 규칙을 어긴 글은 숨겨질 수 있어요. 비밀번호, 전화번호, 주소는 올리지 마세요.",
    "kind": "sentence",
    "where": "html <p> text"
@@ -982,13 +982,13 @@
    "where": "html <h3> text"
   },
   "Use the Feedback tab. If it's private, post without your name and say how to reach you — or just sign in and tick \"Show my name\".": {
-   "t": "\"ಅಭಿಪ್ರಾಯ\" ಟ್ಯಾಬ್ ಬಳಸಿ. ಖಾಸಗಿ ವಿಷಯವಾದರೆ, ಹೆಸರಿಲ್ಲದೆ ಪೋಸ್ಟ್ ಮಾಡಿ ಮತ್ತು ನಿಮ್ಮನ್ನು ಹೇಗೆ ಸಂಪರ್ಕಿಸುವುದು ಎಂದು ತಿಳಿಸಿ — ಅಥವಾ ಸೈನ್ ಇನ್ ಮಾಡಿ \"ನನ್ನ ಹೆಸರು ತೋರಿಸಿ\" ಗುರುತು ಮಾಡಿ.",
+   "t": "\"ಅನಿಸಿಕೆ\" ಟ್ಯಾಬ್ ಬಳಸಿ. ವಿಷಯ ಖಾಸಗಿಯಾಗಿದ್ದರೆ, ಹೆಸರಿಲ್ಲದೆ ಪೋಸ್ಟ್ ಮಾಡಿ, ನಿಮ್ಮನ್ನು ಹೇಗೆ ಸಂಪರ್ಕಿಸಬೇಕು ಎಂದು ತಿಳಿಸಿ — ಅಥವಾ ಸೈನ್ ಇನ್ ಮಾಡಿ \"ನನ್ನ ಹೆಸರು ತೋರಿಸಿ\" ಆರಿಸಿ.",
    "ko": "피드백 탭을 이용하세요. 비공개로 전하고 싶다면 이름 없이 올리고 연락 방법을 남겨 주세요 — 아니면 로그인하고 \"내 이름 표시\"를 체크하세요.",
    "kind": "sentence",
    "where": "html <p> text"
   },
   "Lang App is a free learning tool provided as-is. Last updated Nov 2026.": {
-   "t": "Lang App ಉಚಿತ ಕಲಿಕೆಯ ಸಾಧನ, ಇದ್ದಂತೆಯೇ ನೀಡಲಾಗಿದೆ. ಕೊನೆಯ ನವೀಕರಣ ನವೆಂಬರ್ 2026.",
+   "t": "Lang App ಒಂದು ಉಚಿತ ಕಲಿಕೆಯ ಸಾಧನ; ಇದ್ದ ಹಾಗೆಯೇ ಒದಗಿಸಲಾಗಿದೆ. ಕೊನೆಯ ಅಪ್‌ಡೇಟ್: ನವೆಂಬರ್ 2026.",
    "ko": "Lang App은 있는 그대로 제공되는 무료 학습 도구예요. 최종 업데이트: 2026년 11월.",
    "kind": "sentence",
    "where": "html <p> text"
@@ -1001,13 +1001,13 @@
    "where": "html <button> text"
   },
   "Tell us what you think": {
-   "t": "ನಿಮ್ಮ ಅಭಿಪ್ರಾಯ ತಿಳಿಸಿ",
+   "t": "ನಿಮ್ಮ ಅನಿಸಿಕೆ ತಿಳಿಸಿ",
    "ko": "의견을 들려주세요",
    "kind": "sentence",
    "where": "html <h3> text"
   },
   "Bugs, missing phrases, wrong pronunciations, ideas — anything. It goes straight to the person building this.": {
-   "t": "ಬಗ್, ಇಲ್ಲದ ನುಡಿಗಟ್ಟು, ತಪ್ಪು ಉಚ್ಚಾರಣೆ, ಹೊಸ ಆಲೋಚನೆ — ಏನಾದರೂ. ಇದು ನೇರವಾಗಿ ಇದನ್ನು ನಿರ್ಮಿಸುತ್ತಿರುವ ವ್ಯಕ್ತಿಗೆ ತಲುಪುತ್ತದೆ.",
+   "t": "ಬಗ್, ಬಿಟ್ಟುಹೋದ ವಾಕ್ಯ, ತಪ್ಪು ಉಚ್ಚಾರಣೆ, ಹೊಸ ಐಡಿಯಾ — ಏನು ಬೇಕಾದರೂ. ಇದು ನೇರವಾಗಿ ಈ ಆ್ಯಪ್ ತಯಾರಿಸುವವರಿಗೆ ತಲುಪುತ್ತದೆ.",
    "ko": "버그, 빠진 표현, 틀린 발음, 아이디어 — 뭐든 좋아요. 앱을 만드는 사람에게 바로 전달돼요.",
    "kind": "sentence",
    "where": "html <p> text"
@@ -1020,7 +1020,7 @@
    "where": "js (top level)"
   },
   "💡 Idea": {
-   "t": "💡 ಆಲೋಚನೆ",
+   "t": "💡 ಐಡಿಯಾ",
    "ko": "💡 아이디어",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1052,7 +1052,7 @@
    "where": "html <textarea> @placeholder"
   },
   "Feedback message": {
-   "t": "ಅಭಿಪ್ರಾಯ ಸಂದೇಶ",
+   "t": "ನಿಮ್ಮ ಅನಿಸಿಕೆ",
    "ko": "피드백 내용",
    "kind": "label",
    "where": "html <textarea> @aria-label"
@@ -1064,31 +1064,31 @@
    "where": "html text"
   },
   "Your post appears on the public board below. Don't include passwords, phone numbers or addresses.": {
-   "t": "ನಿಮ್ಮ ಪೋಸ್ಟ್ ಕೆಳಗಿನ ಸಾರ್ವಜನಿಕ ಫಲಕದಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ. ಪಾಸ್ವರ್ಡ್, ಫೋನ್ ನಂಬರ್ ಅಥವಾ ವಿಳಾಸ ಸೇರಿಸಬೇಡಿ.",
+   "t": "ನಿಮ್ಮ ಪೋಸ್ಟ್ ಕೆಳಗಿನ ಸಾರ್ವಜನಿಕ ಬೋರ್ಡ್‌ನಲ್ಲಿ ಕಾಣುತ್ತದೆ. ಪಾಸ್‌ವರ್ಡ್, ಫೋನ್ ನಂಬರ್ ಅಥವಾ ವಿಳಾಸ ಬರೆಯಬೇಡಿ.",
    "ko": "글은 아래 공개 게시판에 올라가요. 비밀번호, 전화번호, 주소는 적지 마세요.",
    "kind": "sentence",
    "where": "html <p> text"
   },
   "Send feedback": {
-   "t": "ಅಭಿಪ್ರಾಯ ಕಳುಹಿಸಿ",
+   "t": "ಅನಿಸಿಕೆ ಕಳುಹಿಸಿ",
    "ko": "피드백 보내기",
    "kind": "label",
    "where": "html <button> text"
   },
   "Community feedback": {
-   "t": "ಸಮುದಾಯದ ಅಭಿಪ್ರಾಯ",
+   "t": "ಸಮುದಾಯದ ಅನಿಸಿಕೆ",
    "ko": "커뮤니티 피드백",
    "kind": "label",
    "where": "html <h3> text"
   },
   "Refresh feedback": {
-   "t": "ಅಭಿಪ್ರಾಯ ರಿಫ್ರೆಶ್ ಮಾಡಿ",
+   "t": "ಅನಿಸಿಕೆ ರಿಫ್ರೆಶ್ ಮಾಡಿ",
    "ko": "피드백 새로고침",
    "kind": "label",
    "where": "html <button> @aria-label"
   },
   "Posts are public to everyone using the app — please don't share personal info.": {
-   "t": "ಪೋಸ್ಟುಗಳು ಆ್ಯಪ್ ಬಳಸುವ ಎಲ್ಲರಿಗೂ ಸಾರ್ವಜನಿಕ — ದಯವಿಟ್ಟು ವೈಯಕ್ತಿಕ ಮಾಹಿತಿ ಹಂಚಿಕೊಳ್ಳಬೇಡಿ.",
+   "t": "ಪೋಸ್ಟ್‌ಗಳು ಆ್ಯಪ್ ಬಳಸುವ ಎಲ್ಲರಿಗೂ ಕಾಣುತ್ತವೆ — ವೈಯಕ್ತಿಕ ಮಾಹಿತಿ ಹಂಚಿಕೊಳ್ಳಬೇಡಿ.",
    "ko": "글은 앱을 쓰는 모든 사람에게 공개돼요 — 개인정보는 공유하지 마세요.",
    "kind": "sentence",
    "where": "html <p> text"
@@ -1107,13 +1107,13 @@
    "where": "html <span> text"
   },
   "The community board lives on the website version of the app.": {
-   "t": "ಸಮುದಾಯ ಫಲಕ ಆ್ಯಪಿನ ವೆಬ್ಸೈಟ್ ಆವೃತ್ತಿಯಲ್ಲಿದೆ.",
+   "t": "ಸಮುದಾಯ ಬೋರ್ಡ್ ಆ್ಯಪ್‌ನ ವೆಬ್‌ಸೈಟ್ ಆವೃತ್ತಿಯಲ್ಲಿದೆ.",
    "ko": "커뮤니티 게시판은 웹사이트 버전에서 볼 수 있어요.",
    "kind": "sentence",
    "where": "js box() <div>"
   },
   "Couldn't load feedback right now.": {
-   "t": "ಈಗ ಅಭಿಪ್ರಾಯಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಲಿಲ್ಲ.",
+   "t": "ಈಗ ಅನಿಸಿಕೆ ಲೋಡ್ ಆಗಲಿಲ್ಲ.",
    "ko": "지금은 피드백을 불러올 수 없어요.",
    "kind": "sentence",
    "where": "js nt() <div>"
@@ -1140,7 +1140,7 @@
    "where": "js who()"
   },
   "❤️ loved by the dev": {
-   "t": "❤️ ಡೆವಲಪರಿಗೆ ಇಷ್ಟವಾಯಿತು",
+   "t": "❤️ ಡೆವಲಪರ್‌ಗೆ ಇಷ್ಟವಾಯಿತು",
    "ko": "❤️ 개발자가 좋아해요",
    "kind": "sentence",
    "where": "js badges() <span>"
@@ -1167,7 +1167,7 @@
    "where": "js (top level) <style>"
   },
   "Unhide": {
-   "t": "ತೋರಿಸಿ",
+   "t": "ಮತ್ತೆ ತೋರಿಸಿ",
    "ko": "숨김 해제",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1181,7 +1181,7 @@
    "where": "js STR()"
   },
   "👁 Unhide": {
-   "t": "👁 ತೋರಿಸಿ",
+   "t": "👁 ಮತ್ತೆ ತೋರಿಸಿ",
    "ko": "👁 숨김 해제",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1195,7 +1195,7 @@
    "where": "js admin() <button>"
   },
   "Heart": {
-   "t": "ಹೃದಯ",
+   "t": "ಇಷ್ಟ",
    "ko": "하트",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1235,43 +1235,43 @@
    "where": "js pl() <button>"
   },
   "No feedback yet — be the first.": {
-   "t": "ಇನ್ನೂ ಯಾವ ಅಭಿಪ್ರಾಯವೂ ಇಲ್ಲ — ಮೊದಲಿಗರಾಗಿ.",
+   "t": "ಇನ್ನೂ ಯಾವ ಅನಿಸಿಕೆಯೂ ಇಲ್ಲ — ಮೊದಲು ನೀವೇ ಬರೆಯಿರಿ.",
    "ko": "아직 피드백이 없어요 — 첫 글을 남겨 보세요.",
    "kind": "sentence",
    "where": "js lv() <div>"
   },
   "Could not update — are you signed in as admin?": {
-   "t": "ನವೀಕರಿಸಲಾಗಲಿಲ್ಲ — ನೀವು ಅಡ್ಮಿನ್ ಆಗಿ ಸೈನ್ ಇನ್ ಆಗಿದ್ದೀರಾ?",
+   "t": "ಅಪ್‌ಡೇಟ್ ಆಗಲಿಲ್ಲ — ನೀವು ಅಡ್ಮಿನ್ ಆಗಿ ಸೈನ್ ಇನ್ ಮಾಡಿದ್ದೀರಾ?",
    "ko": "업데이트하지 못했어요 — 관리자로 로그인했나요?",
    "kind": "sentence",
    "where": "js r()"
   },
   "Posted — thank you!": {
-   "t": "ಪೋಸ್ಟ್ ಆಯಿತು — ಧನ್ಯವಾದಗಳು!",
+   "t": "ಪೋಸ್ಟ್ ಆಗಿದೆ — ಧನ್ಯವಾದ!",
    "ko": "올렸어요 — 고마워요!",
    "kind": "sentence",
    "where": "js ok() <b>"
   },
   "Give it a few seconds before sending another.": {
-   "t": "ಇನ್ನೊಂದು ಕಳುಹಿಸುವ ಮೊದಲು ಕೆಲವು ಸೆಕೆಂಡು ಕಾಯಿರಿ.",
+   "t": "ಇನ್ನೊಂದು ಕಳುಹಿಸುವ ಮೊದಲು ಕೆಲವು ಸೆಕೆಂಡ್ ಕಾಯಿರಿ.",
    "ko": "몇 초 뒤에 다시 보내 주세요.",
    "kind": "sentence",
    "where": "js last()"
   },
   "Feedback sending works on the website version.": {
-   "t": "ಅಭಿಪ್ರಾಯ ಕಳುಹಿಸುವುದು ವೆಬ್ಸೈಟ್ ಆವೃತ್ತಿಯಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ.",
+   "t": "ಅನಿಸಿಕೆ ಕಳುಹಿಸುವುದು ವೆಬ್‌ಸೈಟ್ ಆವೃತ್ತಿಯಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ.",
    "ko": "피드백 보내기는 웹사이트 버전에서 할 수 있어요.",
    "kind": "sentence",
    "where": "js last()"
   },
   "Could not send right now — try again in a moment.": {
-   "t": "ಈಗ ಕಳುಹಿಸಲಾಗಲಿಲ್ಲ — ಸ್ವಲ್ಪ ಹೊತ್ತಿನ ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+   "t": "ಈಗ ಕಳುಹಿಸಲು ಆಗಲಿಲ್ಲ — ಸ್ವಲ್ಪ ಹೊತ್ತಿನ ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
    "ko": "지금은 보낼 수 없어요 — 잠시 후 다시 시도해 주세요.",
    "kind": "sentence",
    "where": "js j()"
   },
   "Browser storage is full or blocked — progress may not persist here": {
-   "t": "ಬ್ರೌಸರ್ ಸಂಗ್ರಹ ತುಂಬಿದೆ ಅಥವಾ ತಡೆಯಲಾಗಿದೆ — ಇಲ್ಲಿ ಪ್ರಗತಿ ಉಳಿಯದಿರಬಹುದು",
+   "t": "ಬ್ರೌಸರ್ ಸ್ಟೋರೇಜ್ ತುಂಬಿದೆ ಅಥವಾ ಬ್ಲಾಕ್ ಆಗಿದೆ — ಇಲ್ಲಿ ಪ್ರಗತಿ ಉಳಿಯದೇ ಇರಬಹುದು",
    "ko": "브라우저 저장 공간이 가득 찼거나 막혀 있어요 — 여기서는 진도가 저장되지 않을 수 있어요",
    "kind": "sentence",
    "where": "js flushSave()"
@@ -1283,57 +1283,57 @@
    "where": "js el()"
   },
   "Saving…": {
-   "t": "ಉಳಿಸಲಾಗುತ್ತಿದೆ…",
+   "t": "ಸೇವ್ ಆಗುತ್ತಿದೆ…",
    "ko": "저장 중…",
    "kind": "sentence",
    "where": "js el()"
   },
   "Saved on this device only": {
-   "t": "ಈ ಸಾಧನದಲ್ಲಿ ಮಾತ್ರ ಉಳಿಸಲಾಗಿದೆ",
+   "t": "ಈ ಸಾಧನದಲ್ಲಿ ಮಾತ್ರ ಸೇವ್ ಆಗಿದೆ",
    "ko": "이 기기에만 저장됨",
    "kind": "sentence",
    "where": "js el()"
   },
   "Sync failed — saved locally": {
-   "t": "ಸಿಂಕ್ ವಿಫಲವಾಯಿತು — ಸಾಧನದಲ್ಲೇ ಉಳಿಸಲಾಗಿದೆ",
+   "t": "ಸಿಂಕ್ ಆಗಲಿಲ್ಲ — ಈ ಸಾಧನದಲ್ಲಿ ಸೇವ್ ಆಗಿದೆ",
    "ko": "동기화 실패 — 이 기기에 저장했어요",
    "kind": "sentence",
    "where": "js el()"
   },
   "Offline — will sync when you reconnect": {
-   "t": "ಆಫ್ಲೈನ್ — ಮತ್ತೆ ಸಂಪರ್ಕ ಸಿಕ್ಕಾಗ ಸಿಂಕ್ ಆಗುತ್ತದೆ",
+   "t": "ಆಫ್‌ಲೈನ್ — ಮತ್ತೆ ಸಂಪರ್ಕ ಸಿಕ್ಕಾಗ ಸಿಂಕ್ ಆಗುತ್ತದೆ",
    "ko": "오프라인 — 다시 연결되면 동기화할게요",
    "kind": "sentence",
    "where": "js syncPush()"
   },
   "Too many tries — wait a minute and try again.": {
-   "t": "ತುಂಬಾ ಪ್ರಯತ್ನಗಳು — ಒಂದು ನಿಮಿಷ ಕಾದು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+   "t": "ತುಂಬಾ ಸಲ ಪ್ರಯತ್ನಿಸಿದ್ದೀರಿ — ಒಂದು ನಿಮಿಷ ಕಾಯ್ದು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
    "ko": "시도 횟수가 너무 많아요 — 1분 뒤에 다시 시도해 주세요.",
    "kind": "sentence",
    "where": "js j()"
   },
   "That code didn't work — check it or request a new one.": {
-   "t": "ಆ ಕೋಡ್ ಕೆಲಸ ಮಾಡಲಿಲ್ಲ — ಅದನ್ನು ಪರಿಶೀಲಿಸಿ ಅಥವಾ ಹೊಸದನ್ನು ಕೇಳಿ.",
+   "t": "ಆ ಕೋಡ್ ಕೆಲಸ ಮಾಡಲಿಲ್ಲ — ಅದನ್ನು ಪರಿಶೀಲಿಸಿ ಅಥವಾ ಹೊಸ ಕೋಡ್ ಕೇಳಿ.",
    "ko": "코드가 맞지 않아요 — 다시 확인하거나 새 코드를 요청하세요.",
    "kind": "sentence",
    "where": "js j()"
   },
   "Sign-in code": {
-   "t": "ಸೈನ್ ಇನ್ ಕೋಡ್",
+   "t": "ಸೈನ್-ಇನ್ ಕೋಡ್",
    "ko": "로그인 코드",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js d() <input> @aria-label"
   },
   "Or type the 6-digit code from the email (works inside the home-screen app):": {
-   "t": "ಅಥವಾ ಇಮೇಲಿನಲ್ಲಿರುವ 6 ಅಂಕಿಯ ಕೋಡ್ ಟೈಪ್ ಮಾಡಿ (ಹೋಮ್ ಸ್ಕ್ರೀನ್ ಆ್ಯಪಿನೊಳಗೂ ಕೆಲಸ ಮಾಡುತ್ತದೆ):",
+   "t": "ಅಥವಾ ಇಮೇಲ್‌ನಲ್ಲಿ ಬಂದ 6 ಅಂಕಿಯ ಕೋಡ್ ಟೈಪ್ ಮಾಡಿ (ಹೋಮ್-ಸ್ಕ್ರೀನ್ ಆ್ಯಪ್‌ನಲ್ಲೂ ಕೆಲಸ ಮಾಡುತ್ತದೆ):",
    "ko": "또는 이메일로 받은 6자리 코드를 입력하세요 (홈 화면 앱에서도 돼요):",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Sign in with code": {
-   "t": "ಕೋಡ್ ಬಳಸಿ ಸೈನ್ ಇನ್",
+   "t": "ಕೋಡ್ ಬಳಸಿ ಸೈನ್ ಇನ್ ಮಾಡಿ",
    "ko": "코드로 로그인",
    "kind": "label",
    "where": "js d() <button>"
@@ -1346,7 +1346,7 @@
    "where": "js d() <button>"
   },
   "New email sent — use the newest code.": {
-   "t": "ಹೊಸ ಇಮೇಲ್ ಕಳುಹಿಸಲಾಗಿದೆ — ಇತ್ತೀಚಿನ ಕೋಡ್ ಬಳಸಿ.",
+   "t": "ಹೊಸ ಇಮೇಲ್ ಕಳುಹಿಸಲಾಗಿದೆ — ಎಲ್ಲಕ್ಕಿಂತ ಹೊಸ ಕೋಡ್ ಬಳಸಿ.",
    "ko": "새 이메일을 보냈어요 — 가장 최근 코드를 쓰세요.",
    "kind": "sentence",
    "where": "js st()"
@@ -1358,7 +1358,7 @@
    "where": "js inp()"
   },
   "Enter the 6-digit code from the email.": {
-   "t": "ಇಮೇಲಿನಲ್ಲಿರುವ 6 ಅಂಕಿಯ ಕೋಡ್ ನಮೂದಿಸಿ.",
+   "t": "ಇಮೇಲ್‌ನಲ್ಲಿ ಬಂದ 6 ಅಂಕಿಯ ಕೋಡ್ ಟೈಪ್ ಮಾಡಿ.",
    "ko": "이메일로 받은 6자리 코드를 입력하세요.",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -1376,31 +1376,31 @@
    "where": "js code()"
   },
   "That email address doesn't look right.": {
-   "t": "ಆ ಇಮೇಲ್ ವಿಳಾಸ ಸರಿ ಇದ್ದಂತಿಲ್ಲ.",
+   "t": "ಆ ಇಮೇಲ್ ವಿಳಾಸ ಸರಿ ಇದ್ದಂತೆ ಕಾಣುತ್ತಿಲ್ಲ.",
    "ko": "이메일 주소가 올바르지 않은 것 같아요.",
    "kind": "sentence",
    "where": "js sbSendLink()"
   },
   "Email just sent — check your inbox (and spam) before trying again.": {
-   "t": "ಈಗಷ್ಟೇ ಇಮೇಲ್ ಕಳುಹಿಸಲಾಗಿದೆ — ಮತ್ತೆ ಪ್ರಯತ್ನಿಸುವ ಮೊದಲು ನಿಮ್ಮ ಇನ್ಬಾಕ್ಸ್ (ಮತ್ತು ಸ್ಪ್ಯಾಮ್) ನೋಡಿ.",
+   "t": "ಇಮೇಲ್ ಈಗಷ್ಟೇ ಕಳುಹಿಸಲಾಗಿದೆ — ಮತ್ತೆ ಪ್ರಯತ್ನಿಸುವ ಮೊದಲು ನಿಮ್ಮ ಇನ್‌ಬಾಕ್ಸ್ (ಮತ್ತು ಸ್ಪ್ಯಾಮ್) ನೋಡಿ.",
    "ko": "방금 이메일을 보냈어요 — 다시 시도하기 전에 받은편지함(스팸함 포함)을 확인하세요.",
    "kind": "sentence",
    "where": "js sbSendLink()"
   },
   "Could not send the email": {
-   "t": "ಇಮೇಲ್ ಕಳುಹಿಸಲಾಗಲಿಲ್ಲ",
+   "t": "ಇಮೇಲ್ ಕಳುಹಿಸಲು ಆಗಲಿಲ್ಲ",
    "ko": "이메일을 보내지 못했어요",
    "kind": "sentence",
    "where": "js msg()"
   },
   "Email limit reached — wait a minute, or use the last code you got.": {
-   "t": "ಇಮೇಲ್ ಮಿತಿ ತಲುಪಿದೆ — ಒಂದು ನಿಮಿಷ ಕಾಯಿರಿ, ಅಥವಾ ನಿಮಗೆ ಬಂದ ಕೊನೆಯ ಕೋಡ್ ಬಳಸಿ.",
+   "t": "ಇಮೇಲ್ ಮಿತಿ ಮುಗಿದಿದೆ — ಒಂದು ನಿಮಿಷ ಕಾಯಿರಿ, ಅಥವಾ ಕೊನೆಯದಾಗಿ ಬಂದ ಕೋಡ್ ಬಳಸಿ.",
    "ko": "이메일 발송 한도에 도달했어요 — 1분 기다리거나 마지막으로 받은 코드를 쓰세요.",
    "kind": "sentence",
    "where": "js j()"
   },
   "Sign out": {
-   "t": "ಸೈನ್ ಔಟ್",
+   "t": "ಸೈನ್ ಔಟ್ ಮಾಡಿ",
    "ko": "로그아웃",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1414,27 +1414,27 @@
    "where": "html text"
   },
   "· this device only": {
-   "t": "· ಈ ಸಾಧನದಲ್ಲಿ ಮಾತ್ರ",
+   "t": "· ಈ ಸಾಧನ ಮಾತ್ರ",
    "ko": "· 이 기기에만 저장",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "js d()"
   },
   "· progress is lost if site data is cleared": {
-   "t": "· ಸೈಟ್ ಡೇಟಾ ಅಳಿಸಿದರೆ ಪ್ರಗತಿ ಹೋಗುತ್ತದೆ",
+   "t": "· ಸೈಟ್ ಡೇಟಾ ಅಳಿಸಿದರೆ ಪ್ರಗತಿ ಕಳೆದುಹೋಗುತ್ತದೆ",
    "ko": "· 사이트 데이터를 지우면 진도가 사라져요",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "js d() <span>"
   },
   "Your progress is safe in your account either way.": {
-   "t": "ಯಾವುದನ್ನು ಆರಿಸಿದರೂ ನಿಮ್ಮ ಪ್ರಗತಿ ನಿಮ್ಮ ಖಾತೆಯಲ್ಲಿ ಸುರಕ್ಷಿತವಾಗಿರುತ್ತದೆ.",
+   "t": "ಏನೇ ಆರಿಸಿದರೂ ನಿಮ್ಮ ಪ್ರಗತಿ ನಿಮ್ಮ ಖಾತೆಯಲ್ಲಿ ಸುರಕ್ಷಿತವಾಗಿರುತ್ತದೆ.",
    "ko": "어느 쪽을 골라도 진도는 계정에 안전하게 남아요.",
    "kind": "sentence",
    "where": "js sh() <p>"
   },
   "Sign out · keep a copy on this device": {
-   "t": "ಸೈನ್ ಔಟ್ · ಈ ಸಾಧನದಲ್ಲಿ ಒಂದು ಪ್ರತಿ ಇಡಿ",
+   "t": "ಸೈನ್ ಔಟ್ · ಈ ಸಾಧನದಲ್ಲಿ ಒಂದು ಪ್ರತಿ ಇರಲಿ",
    "ko": "로그아웃 · 이 기기에 사본 남기기",
    "kind": "sentence",
    "where": "js sh() <button>"
@@ -1446,19 +1446,19 @@
    "where": "js sh() <button>"
   },
   "(shared / borrowed device)": {
-   "t": "(ಹಂಚಿಕೊಂಡ / ಎರವಲು ಸಾಧನ)",
+   "t": "(ಹಂಚಿಕೊಂಡ / ಬೇರೆಯವರ ಸಾಧನ)",
    "ko": "(공용 / 빌린 기기)",
    "kind": "label",
    "where": "js sh() <span>"
   },
   "Signed out and cleared this device.": {
-   "t": "ಸೈನ್ ಔಟ್ ಆಗಿದೆ, ಈ ಸಾಧನವನ್ನು ಖಾಲಿ ಮಾಡಲಾಗಿದೆ.",
+   "t": "ಸೈನ್ ಔಟ್ ಆಗಿದೆ, ಈ ಸಾಧನದ ಡೇಟಾ ಅಳಿಸಲಾಗಿದೆ.",
    "ko": "로그아웃하고 이 기기의 데이터를 지웠어요.",
    "kind": "sentence",
    "where": "js out()"
   },
   "Signed out. A copy stays on this device.": {
-   "t": "ಸೈನ್ ಔಟ್ ಆಗಿದೆ. ಒಂದು ಪ್ರತಿ ಈ ಸಾಧನದಲ್ಲಿ ಉಳಿದಿದೆ.",
+   "t": "ಸೈನ್ ಔಟ್ ಆಗಿದೆ. ಒಂದು ಪ್ರತಿ ಈ ಸಾಧನದಲ್ಲಿ ಉಳಿಯುತ್ತದೆ.",
    "ko": "로그아웃했어요. 이 기기에 사본이 남아 있어요.",
    "kind": "sentence",
    "where": "js out()"
@@ -1470,19 +1470,19 @@
    "where": "js sh() <input> @placeholder"
   },
   "Sync across devices": {
-   "t": "ಸಾಧನಗಳ ನಡುವೆ ಸಿಂಕ್ ಮಾಡಿ",
+   "t": "ಎಲ್ಲ ಸಾಧನಗಳಲ್ಲಿ ಸಿಂಕ್ ಮಾಡಿ",
    "ko": "여러 기기에서 동기화",
    "kind": "label",
    "where": "js sh() <h3>"
   },
   "Enter your email and we'll send a sign-in link and a 6-digit code. No password. Your progress merges with what's already on this device.": {
-   "t": "ನಿಮ್ಮ ಇಮೇಲ್ ನಮೂದಿಸಿ, ನಾವು ಸೈನ್ ಇನ್ ಲಿಂಕ್ ಮತ್ತು 6 ಅಂಕಿಯ ಕೋಡ್ ಕಳುಹಿಸುತ್ತೇವೆ. ಪಾಸ್ವರ್ಡ್ ಬೇಕಿಲ್ಲ. ನಿಮ್ಮ ಪ್ರಗತಿ ಈ ಸಾಧನದಲ್ಲಿ ಈಗಾಗಲೇ ಇರುವುದರ ಜೊತೆ ವಿಲೀನವಾಗುತ್ತದೆ.",
+   "t": "ನಿಮ್ಮ ಇಮೇಲ್ ಬರೆಯಿರಿ; ನಾವು ಸೈನ್-ಇನ್ ಲಿಂಕ್ ಮತ್ತು 6 ಅಂಕಿಯ ಕೋಡ್ ಕಳುಹಿಸುತ್ತೇವೆ. ಪಾಸ್‌ವರ್ಡ್ ಬೇಡ. ನಿಮ್ಮ ಪ್ರಗತಿ ಈ ಸಾಧನದಲ್ಲಿ ಈಗಾಗಲೇ ಇರುವ ಪ್ರಗತಿಯ ಜೊತೆ ವಿಲೀನವಾಗುತ್ತದೆ.",
    "ko": "이메일을 입력하면 로그인 링크와 6자리 코드를 보내 드려요. 비밀번호는 필요 없어요. 진도는 이 기기에 있는 기록과 합쳐져요.",
    "kind": "sentence",
    "where": "js sh() <p>"
   },
   "Send sign-in link": {
-   "t": "ಸೈನ್ ಇನ್ ಲಿಂಕ್ ಕಳುಹಿಸಿ",
+   "t": "ಸೈನ್-ಇನ್ ಲಿಂಕ್ ಕಳುಹಿಸಿ",
    "ko": "로그인 링크 보내기",
    "kind": "label",
    "where": "js sh() <button>"
@@ -1507,44 +1507,44 @@
    "where": "js em() <b>"
   },
   "Tap the link, or enter the code below.": {
-   "t": "ಲಿಂಕ್ ಟ್ಯಾಪ್ ಮಾಡಿ, ಅಥವಾ ಕೆಳಗೆ ಕೋಡ್ ನಮೂದಿಸಿ.",
+   "t": "ಲಿಂಕ್ ಒತ್ತಿ, ಅಥವಾ ಕೆಳಗೆ ಕೋಡ್ ಟೈಪ್ ಮಾಡಿ.",
    "ko": "링크를 누르거나 아래에 코드를 입력하세요.",
    "kind": "sentence",
    "where": "js em()"
   },
   "Could not send the link": {
-   "t": "ಲಿಂಕ್ ಕಳುಹಿಸಲಾಗಲಿಲ್ಲ",
+   "t": "ಲಿಂಕ್ ಕಳುಹಿಸಲು ಆಗಲಿಲ್ಲ",
    "ko": "링크를 보내지 못했어요",
    "kind": "sentence",
    "where": "js em()"
   },
   "Welcome to Lang App": {
-   "t": "Lang Appಗೆ ಸ್ವಾಗತ",
+   "t": "Lang App ಗೆ ಸ್ವಾಗತ",
    "ko": "Lang App에 오신 걸 환영해요",
    "kind": "label",
    "where": "js pl()"
   },
   "Hangul, flashcards with audio, quizzes and a 5-minute daily session. Before you start — how should we save your progress?": {
-   "t": "ಹಂಗುಲ್, ಆಡಿಯೋ ಇರುವ ಫ್ಲ್ಯಾಶ್ ಕಾರ್ಡುಗಳು, ಕ್ವಿಜ್ ಮತ್ತು ದಿನಕ್ಕೆ 5 ನಿಮಿಷದ ಸೆಷನ್. ಶುರು ಮಾಡುವ ಮೊದಲು — ನಿಮ್ಮ ಪ್ರಗತಿಯನ್ನು ಹೇಗೆ ಉಳಿಸೋಣ?",
+   "t": "ಉಚ್ಚಾರಣೆ, ಆಡಿಯೋ ಇರುವ ಫ್ಲ್ಯಾಶ್‌ಕಾರ್ಡ್, ಕ್ವಿಜ್ ಮತ್ತು ದಿನಕ್ಕೆ 5 ನಿಮಿಷದ ಸೆಷನ್. ಪ್ರಾರಂಭಿಸುವ ಮೊದಲು — ನಿಮ್ಮ ಪ್ರಗತಿಯನ್ನು ಹೇಗೆ ಸೇವ್ ಮಾಡಬೇಕು?",
    "ko": "소리 나는 플래시카드, 퀴즈, 하루 5분 학습. 시작하기 전에 — 진도를 어떻게 저장할까요?",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "📧 Email — save across devices": {
-   "t": "📧 ಇಮೇಲ್ — ಎಲ್ಲಾ ಸಾಧನಗಳಲ್ಲಿ ಉಳಿಸಿ",
+   "t": "📧 ಇಮೇಲ್ — ಎಲ್ಲ ಸಾಧನಗಳಲ್ಲಿ ಸೇವ್",
    "ko": "📧 이메일 — 여러 기기에 저장",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "We email you a sign-in link + 6-digit code. No password. Your progress follows you to any phone or laptop.": {
-   "t": "ನಾವು ನಿಮಗೆ ಸೈನ್ ಇನ್ ಲಿಂಕ್ + 6 ಅಂಕಿಯ ಕೋಡ್ ಇಮೇಲ್ ಮಾಡುತ್ತೇವೆ. ಪಾಸ್ವರ್ಡ್ ಬೇಕಿಲ್ಲ. ಯಾವುದೇ ಫೋನ್ ಅಥವಾ ಲ್ಯಾಪ್ಟಾಪಿನಲ್ಲೂ ನಿಮ್ಮ ಪ್ರಗತಿ ನಿಮಗೆ ಸಿಗುತ್ತದೆ.",
+   "t": "ನಾವು ನಿಮಗೆ ಸೈನ್-ಇನ್ ಲಿಂಕ್ + 6 ಅಂಕಿಯ ಕೋಡ್ ಇಮೇಲ್ ಮಾಡುತ್ತೇವೆ. ಪಾಸ್‌ವರ್ಡ್ ಬೇಡ. ನಿಮ್ಮ ಪ್ರಗತಿ ಯಾವುದೇ ಫೋನ್ ಅಥವಾ ಲ್ಯಾಪ್‌ಟಾಪ್‌ನಲ್ಲಿ ನಿಮ್ಮ ಜೊತೆಗೇ ಇರುತ್ತದೆ.",
    "ko": "로그인 링크와 6자리 코드를 이메일로 보내 드려요. 비밀번호는 필요 없어요. 어떤 폰이나 노트북에서도 진도가 이어져요.",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "👤 Just a nickname — this device only": {
-   "t": "👤 ಅಡ್ಡಹೆಸರು ಮಾತ್ರ — ಈ ಸಾಧನದಲ್ಲಿ ಮಾತ್ರ",
+   "t": "👤 ಅಡ್ಡಹೆಸರು ಸಾಕು — ಈ ಸಾಧನ ಮಾತ್ರ",
    "ko": "👤 닉네임만 — 이 기기에만 저장",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -1556,31 +1556,31 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Progress lives in this browser and is lost if you clear site data, switch devices, or the browser evicts storage.": {
-   "t": "ಪ್ರಗತಿ ಈ ಬ್ರೌಸರಿನಲ್ಲಿ ಮಾತ್ರ ಇರುತ್ತದೆ; ಸೈಟ್ ಡೇಟಾ ಅಳಿಸಿದರೆ, ಸಾಧನ ಬದಲಾಯಿಸಿದರೆ ಅಥವಾ ಬ್ರೌಸರ್ ಸಂಗ್ರಹವನ್ನು ತೆರವುಗೊಳಿಸಿದರೆ ಅದು ಹೋಗುತ್ತದೆ.",
+   "t": "ಪ್ರಗತಿ ಈ ಬ್ರೌಸರ್‌ನಲ್ಲೇ ಇರುತ್ತದೆ; ಸೈಟ್ ಡೇಟಾ ಅಳಿಸಿದರೆ, ಸಾಧನ ಬದಲಿಸಿದರೆ ಅಥವಾ ಬ್ರೌಸರ್ ಸ್ಟೋರೇಜ್ ತೆರವು ಮಾಡಿದರೆ ಕಳೆದುಹೋಗುತ್ತದೆ.",
    "ko": "진도는 이 브라우저에만 저장돼요. 사이트 데이터를 지우거나, 기기를 바꾸거나, 브라우저가 저장 공간을 비우면 사라져요.",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "You can add an email later in Progress.": {
-   "t": "ನಂತರ \"ಪ್ರಗತಿ\" ವಿಭಾಗದಲ್ಲಿ ಇಮೇಲ್ ಸೇರಿಸಬಹುದು.",
+   "t": "ನಂತರ \"ಪ್ರಗತಿ\" ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಇಮೇಲ್ ಸೇರಿಸಬಹುದು.",
    "ko": "이메일은 나중에 진도 탭에서 추가할 수 있어요.",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "No ads, nothing sold.": {
-   "t": "ಜಾಹೀರಾತುಗಳಿಲ್ಲ, ಏನನ್ನೂ ಮಾರುವುದಿಲ್ಲ.",
+   "t": "ಜಾಹೀರಾತು ಇಲ್ಲ, ಏನನ್ನೂ ಮಾರುವುದಿಲ್ಲ.",
    "ko": "광고 없음, 데이터 판매 없음.",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Save across devices": {
-   "t": "ಎಲ್ಲಾ ಸಾಧನಗಳಲ್ಲಿ ಉಳಿಸಿ",
+   "t": "ಎಲ್ಲ ಸಾಧನಗಳಲ್ಲಿ ಉಳಿಸಿ",
    "ko": "여러 기기에 저장",
    "kind": "label",
    "where": "js step2() <h1>"
   },
   "Start on this device while I wait": {
-   "t": "ನಾನು ಕಾಯುವಾಗ ಈ ಸಾಧನದಲ್ಲಿ ಶುರು ಮಾಡುತ್ತೇನೆ",
+   "t": "ಕಾಯುವಾಗ ಈ ಸಾಧನದಲ್ಲೇ ಪ್ರಾರಂಭಿಸಿ",
    "ko": "기다리는 동안 이 기기에서 시작",
    "kind": "sentence",
    "where": "js later()"
@@ -1593,19 +1593,19 @@
    "where": "js step1() <b>"
   },
   "What should we call you?": {
-   "t": "ನಿಮ್ಮನ್ನು ಏನೆಂದು ಕರೆಯಲಿ?",
+   "t": "ನಿಮ್ಮನ್ನು ಏನೆಂದು ಕರೆಯಬೇಕು?",
    "ko": "어떻게 불러 드릴까요?",
    "kind": "sentence",
    "where": "js step3() <h1>"
   },
   "Start learning": {
-   "t": "ಕಲಿಯಲು ಶುರು ಮಾಡಿ",
+   "t": "ಕಲಿಕೆ ಪ್ರಾರಂಭಿಸಿ",
    "ko": "학습 시작하기",
    "kind": "label",
    "where": "js step3() <button>"
   },
   "Saved in this browser only. Clearing site data or switching devices loses progress — add an email any time in Progress to keep it safe.": {
-   "t": "ಈ ಬ್ರೌಸರಿನಲ್ಲಿ ಮಾತ್ರ ಉಳಿಸಲಾಗಿದೆ. ಸೈಟ್ ಡೇಟಾ ಅಳಿಸಿದರೆ ಅಥವಾ ಸಾಧನ ಬದಲಾಯಿಸಿದರೆ ಪ್ರಗತಿ ಹೋಗುತ್ತದೆ — ಸುರಕ್ಷಿತವಾಗಿಡಲು ಯಾವಾಗ ಬೇಕಾದರೂ \"ಪ್ರಗತಿ\" ವಿಭಾಗದಲ್ಲಿ ಇಮೇಲ್ ಸೇರಿಸಿ.",
+   "t": "ಈ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಮಾತ್ರ ಸೇವ್ ಆಗಿದೆ. ಸೈಟ್ ಡೇಟಾ ಅಳಿಸಿದರೆ ಅಥವಾ ಸಾಧನ ಬದಲಿಸಿದರೆ ಪ್ರಗತಿ ಕಳೆದುಹೋಗುತ್ತದೆ — ಅದನ್ನು ಸುರಕ್ಷಿತವಾಗಿಡಲು ಯಾವಾಗ ಬೇಕಾದರೂ \"ಪ್ರಗತಿ\" ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಇಮೇಲ್ ಸೇರಿಸಿ.",
    "ko": "이 브라우저에만 저장돼요. 사이트 데이터를 지우거나 기기를 바꾸면 진도가 사라져요 — 안전하게 지키려면 언제든 진도 탭에서 이메일을 추가하세요.",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -1630,7 +1630,7 @@
    "where": "js sh() <b>"
   },
   "to confirm.": {
-   "t": "ಎಂದು ಟೈಪ್ ಮಾಡಿ ಖಚಿತಪಡಿಸಿ.",
+   "t": "ಎಂದು ಟೈಪ್ ಮಾಡಿ.",
    "ko": "를 입력해 확인하세요.",
    "kind": "sentence",
    "where": "js sh()"
@@ -1648,20 +1648,20 @@
    "where": "js msg()"
   },
   "Account deleted. This device was cleared.": {
-   "t": "ಖಾತೆ ಅಳಿಸಲಾಗಿದೆ. ಈ ಸಾಧನವನ್ನು ಖಾಲಿ ಮಾಡಲಾಗಿದೆ.",
+   "t": "ಖಾತೆ ಅಳಿಸಲಾಗಿದೆ. ಈ ಸಾಧನದ ಡೇಟಾ ಅಳಿಸಲಾಗಿದೆ.",
    "ko": "계정을 삭제했어요. 이 기기의 데이터도 지웠어요.",
    "kind": "sentence",
    "where": "js r()"
   },
   "Learning Korean 5 minutes a day with Lang App 🇰🇷": {
-   "t": "Lang App ಜೊತೆ ದಿನಕ್ಕೆ 5 ನಿಮಿಷ ಕೊರಿಯನ್ ಕಲಿಯುತ್ತಿದ್ದೇನೆ 🇰🇷",
+   "t": "ಇಂಗ್ಲಿಷ್ — ದಿನಕ್ಕೆ 5 ನಿಮಿಷ, Lang App 🇺🇸",
    "ko": "Lang App으로 하루 5분 영어 공부 중 🇺🇸",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "js data()"
   },
   "Link copied — paste it anywhere": {
-   "t": "ಲಿಂಕ್ ನಕಲಿಸಲಾಗಿದೆ — ಎಲ್ಲಿ ಬೇಕಾದರೂ ಅಂಟಿಸಿ",
+   "t": "ಲಿಂಕ್ ನಕಲಾಗಿದೆ — ಎಲ್ಲಿ ಬೇಕಾದರೂ ಪೇಸ್ಟ್ ಮಾಡಿ",
    "ko": "링크를 복사했어요 — 어디든 붙여넣으세요",
    "kind": "sentence",
    "where": "js data()"
@@ -1674,7 +1674,7 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Reload": {
-   "t": "ರೀಲೋಡ್",
+   "t": "ರೀಲೋಡ್ ಮಾಡಿ",
    "ko": "새로고침",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1688,7 +1688,7 @@
    "where": "js STR()"
   },
   "Got it": {
-   "t": "ಗೊತ್ತಿದೆ",
+   "t": "ಗೊತ್ತು",
    "ko": "알아요",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1709,13 +1709,13 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "✎ edit note": {
-   "t": "✎ ಟಿಪ್ಪಣಿ ತಿದ್ದಿ",
+   "t": "✎ ಟಿಪ್ಪಣಿ ಬದಲಿಸಿ",
    "ko": "✎ 메모 수정",
    "kind": "label",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "edit note": {
-   "t": "ಟಿಪ್ಪಣಿ ತಿದ್ದಿ",
+   "t": "ಟಿಪ್ಪಣಿ ಬದಲಿಸಿ",
    "ko": "메모 수정",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1742,38 +1742,38 @@
    "where": "js boxTxt() <button>"
   },
   "Plays 3 times with pauses — repeat out loud": {
-   "t": "ವಿರಾಮಗಳೊಂದಿಗೆ 3 ಬಾರಿ ಪ್ಲೇ ಆಗುತ್ತದೆ — ಜೋರಾಗಿ ಹೇಳಿ",
+   "t": "ಬಿಡುವು ಕೊಟ್ಟು 3 ಸಲ ಕೇಳಿಸುತ್ತದೆ — ಗಟ್ಟಿಯಾಗಿ ಮತ್ತೆ ಹೇಳಿ",
    "ko": "잠깐씩 쉬며 3번 들려줘요 — 소리 내어 따라 하세요",
    "kind": "sentence",
    "where": "js boxTxt() <button> @title"
   },
   "Skip until tomorrow": {
-   "t": "ನಾಳೆಯವರೆಗೆ ಬಿಟ್ಟುಬಿಡಿ",
+   "t": "ನಾಳೆಗೆ ಮುಂದೂಡಿ",
    "ko": "내일까지 건너뛰기",
    "kind": "label",
    "where": "js boxTxt() <button> @title"
   },
   "Hide from reviews until you restore it": {
-   "t": "ನೀವು ಮರಳಿ ತರುವವರೆಗೆ ರಿವ್ಯೂಗಳಿಂದ ಮರೆಮಾಡಿ",
+   "t": "ನೀವು ಮರಳಿ ತರುವವರೆಗೆ ಪುನರ್ಮನನದಿಂದ ಮರೆಮಾಡಿ",
    "ko": "되돌릴 때까지 복습에서 숨기기",
    "kind": "sentence",
    "where": "js boxTxt() <button> @title"
   },
   "🔊 Listen": {
-   "t": "🔊 ಆಲಿಸಿ",
+   "t": "🔊 ಕೇಳಿ",
    "ko": "🔊 듣기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <button> text"
   },
   "tap to flip · swipe to answer": {
-   "t": "ತಿರುಗಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ · ಉತ್ತರಿಸಲು ಸ್ವೈಪ್ ಮಾಡಿ",
+   "t": "ತಿರುಗಿಸಲು ಒತ್ತಿ · ಉತ್ತರಿಸಲು ಸ್ವೈಪ್ ಮಾಡಿ",
    "ko": "탭해서 뒤집기 · 밀어서 답하기",
    "kind": "sentence",
    "where": "js boxTxt() <span>"
   },
   "🗣 shadow ×3": {
-   "t": "🗣 ಅನುಕರಿಸಿ ×3",
+   "t": "🗣 ಜೊತೆಗೇ ಹೇಳಿ ×3",
    "ko": "🗣 따라 말하기 ×3",
    "kind": "label",
    "where": "js boxTxt() <button>"
@@ -1793,7 +1793,7 @@
    "where": "js boxTxt() <button>"
   },
   "Got it:": {
-   "t": "ಗೊತ್ತಿದೆ:",
+   "t": "ಗೊತ್ತು:",
    "ko": "알아요:",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -1806,19 +1806,19 @@
    "where": "js k()"
   },
   "Suspended. Restore it from Progress.": {
-   "t": "ತಡೆಹಿಡಿಯಲಾಗಿದೆ. \"ಪ್ರಗತಿ\" ವಿಭಾಗದಿಂದ ಮರಳಿ ತನ್ನಿ.",
+   "t": "ತಡೆಹಿಡಿಯಲಾಗಿದೆ. \"ಪ್ರಗತಿ\" ಟ್ಯಾಬ್‌ನಿಂದ ಮರಳಿ ತನ್ನಿ.",
    "ko": "보류했어요. 진도 탭에서 되돌릴 수 있어요.",
    "kind": "sentence",
    "where": "js k()"
   },
   "🗣 listen… repeat": {
-   "t": "🗣 ಆಲಿಸಿ… ಮತ್ತೆ ಹೇಳಿ",
+   "t": "🗣 ಕೇಳಿ… ಮತ್ತೆ ಹೇಳಿ",
    "ko": "🗣 듣고… 따라 하기",
    "kind": "label",
    "where": "js shT()"
   },
   "Your own hint or mnemonic": {
-   "t": "ನಿಮ್ಮದೇ ಸುಳಿವು ಅಥವಾ ನೆನಪಿನ ತಂತ್ರ",
+   "t": "ನಿಮ್ಮದೇ ಸುಳಿವು ಅಥವಾ ನೆನಪಿಡುವ ಉಪಾಯ",
    "ko": "나만의 힌트나 암기법",
    "kind": "sentence",
    "where": "js f() <textarea> @placeholder"
@@ -1838,7 +1838,7 @@
    "where": "js STR()"
   },
   "Note saved.": {
-   "t": "ಟಿಪ್ಪಣಿ ಉಳಿಸಲಾಗಿದೆ.",
+   "t": "ಟಿಪ್ಪಣಿ ಸೇವ್ ಆಗಿದೆ.",
    "ko": "메모를 저장했어요.",
    "kind": "sentence",
    "where": "js v()"
@@ -1850,7 +1850,7 @@
    "where": "js v()"
   },
   "Do you know this one?": {
-   "t": "ಇದು ನಿಮಗೆ ಗೊತ್ತಾ?",
+   "t": "ಇದು ನಿಮಗೆ ಗೊತ್ತೇ?",
    "ko": "이거 알아요?",
    "kind": "sentence",
    "where": "js pv() <span>"
@@ -1870,26 +1870,26 @@
    "where": "js pv() <button>"
   },
   "👆 Tap": {
-   "t": "👆 ಟ್ಯಾಪ್",
+   "t": "👆 ಒತ್ತಿ",
    "ko": "👆 탭해서",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js ov() <b>"
   },
   "the card to flip": {
-   "t": "ಮಾಡಿ, ಕಾರ್ಡ್ ತಿರುಗುತ್ತದೆ",
+   "t": "= ಕಾರ್ಡ್ ತಿರುಗುತ್ತದೆ",
    "ko": "카드를 뒤집어요",
    "kind": "label",
    "where": "js ov()"
   },
   "👉 Swipe right": {
-   "t": "👉 ಬಲಕ್ಕೆ ಸ್ವೈಪ್",
+   "t": "👉 ಬಲಕ್ಕೆ ಸ್ವೈಪ್ ಮಾಡಿ",
    "ko": "👉 오른쪽으로 밀면",
    "kind": "label",
    "where": "js ov() <b>"
   },
   "= Got it ·": {
-   "t": "= ಗೊತ್ತಿದೆ ·",
+   "t": "= ಗೊತ್ತು ·",
    "ko": "= 알아요 ·",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -1910,26 +1910,26 @@
    "where": "js ov()"
   },
   "plays the pronunciation": {
-   "t": "ಉಚ್ಚಾರಣೆ ಕೇಳಿಸುತ್ತದೆ",
+   "t": "= ಉಚ್ಚಾರಣೆ ಕೇಳಿಸುತ್ತದೆ",
    "ko": "누르면 발음을 들려줘요",
    "kind": "label",
    "where": "js ov()"
   },
   "🩹 Marked as a leech and parked from sessions. Manage it in Progress.": {
-   "t": "🩹 ಕಷ್ಟದ ಕಾರ್ಡ್ ಎಂದು ಗುರುತಿಸಿ ಸೆಷನ್ನುಗಳಿಂದ ಪಕ್ಕಕ್ಕಿಡಲಾಗಿದೆ. \"ಪ್ರಗತಿ\" ವಿಭಾಗದಲ್ಲಿ ನಿರ್ವಹಿಸಿ.",
+   "t": "🩹 ಇದು ಪದೇ ಪದೇ ತಪ್ಪುವ ಮೊಂಡು ಕಾರ್ಡ್ ಎಂದು ಗುರುತಿಸಿ ಸೆಷನ್‌ಗಳಿಂದ ಹೊರಗಿಡಲಾಗಿದೆ. \"ಪ್ರಗತಿ\" ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಇದನ್ನು ನಿರ್ವಹಿಸಿ.",
    "ko": "🩹 거머리 카드로 표시하고 학습에서 잠시 뺐어요. 진도 탭에서 관리할 수 있어요.",
    "kind": "sentence",
    "where": "js s()"
   },
   "↶ Undo": {
-   "t": "↶ ರದ್ದು",
+   "t": "↶ ಹಿಂಪಡೆಯಿರಿ",
    "ko": "↶ 되돌리기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js b()"
   },
   "Undone.": {
-   "t": "ರದ್ದುಮಾಡಲಾಗಿದೆ.",
+   "t": "ಹಿಂಪಡೆಯಲಾಗಿದೆ.",
    "ko": "되돌렸어요.",
    "kind": "sentence",
    "where": "js bar()"
@@ -1949,7 +1949,7 @@
    "where": "html <p> text"
   },
   "box 3+": {
-   "t": "ಪೆಟ್ಟಿಗೆ 3+",
+   "t": "ಬಾಕ್ಸ್ 3+",
    "ko": "상자 3+",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1963,19 +1963,19 @@
    "where": "js isNew()"
   },
   "No phrases yet. Use \"＋ Add your own phrase\" above — anything you hear today goes here and joins review, practice and search.": {
-   "t": "ಇನ್ನೂ ನುಡಿಗಟ್ಟುಗಳಿಲ್ಲ. ಮೇಲಿನ \"＋ ನಿಮ್ಮದೇ ನುಡಿಗಟ್ಟು ಸೇರಿಸಿ\" ಬಳಸಿ — ಇಂದು ನೀವು ಕೇಳಿದ್ದೆಲ್ಲಾ ಇಲ್ಲಿ ಬರುತ್ತದೆ, ಮತ್ತು ರಿವ್ಯೂ, ಅಭ್ಯಾಸ, ಹುಡುಕಾಟಕ್ಕೆ ಸೇರುತ್ತದೆ.",
+   "t": "ಇನ್ನೂ ಯಾವ ವಾಕ್ಯವೂ ಇಲ್ಲ. ಮೇಲಿನ \"＋ ನಿಮ್ಮದೇ ವಾಕ್ಯ ಸೇರಿಸಿ\" ಬಳಸಿ — ಇಂದು ನೀವು ಕೇಳಿದ ಯಾವುದೇ ವಾಕ್ಯ ಇಲ್ಲಿ ಬಂದು ಪುನರ್ಮನನ, ಅಭ್ಯಾಸ ಮತ್ತು ಹುಡುಕಾಟಕ್ಕೆ ಸೇರುತ್ತದೆ.",
    "ko": "아직 표현이 없어요. 위의 \"＋ 나만의 표현 추가\"를 써 보세요 — 오늘 들은 표현을 여기 넣으면 복습, 연습, 검색에 함께 나와요.",
    "kind": "sentence",
    "where": "js stage() <div>"
   },
   "My phrases · empty": {
-   "t": "ನನ್ನ ನುಡಿಗಟ್ಟುಗಳು · ಖಾಲಿ",
+   "t": "ನನ್ನ ವಾಕ್ಯಗಳು · ಖಾಲಿ",
    "ko": "내 표현 · 비어 있음",
    "kind": "label",
    "where": "js stage()"
   },
   "My phrases": {
-   "t": "ನನ್ನ ನುಡಿಗಟ್ಟುಗಳು",
+   "t": "ನನ್ನ ವಾಕ್ಯಗಳು",
    "ko": "내 표현",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1995,7 +1995,7 @@
    "where": "js deleteCustom()"
   },
   "last quiz scores": {
-   "t": "ಕೊನೆಯ ಕ್ವಿಜ್ ಅಂಕಗಳು",
+   "t": "ಇತ್ತೀಚಿನ ಕ್ವಿಜ್ ಸ್ಕೋರ್",
    "ko": "최근 퀴즈 점수",
    "kind": "label",
    "where": "js spark() <svg> @aria-label"
@@ -2014,7 +2014,7 @@
    "where": "js lb() @title"
   },
   "Deck link copied.": {
-   "t": "ಡೆಕ್ ಲಿಂಕ್ ನಕಲಿಸಲಾಗಿದೆ.",
+   "t": "ಡೆಕ್ ಲಿಂಕ್ ನಕಲಾಗಿದೆ.",
    "ko": "덱 링크를 복사했어요.",
    "kind": "sentence",
    "where": "js u()"
@@ -2026,13 +2026,13 @@
    "where": "js u()"
   },
   "Browsing · tap 🔊 to hear": {
-   "t": "ನೋಡುತ್ತಿದ್ದೀರಿ · ಕೇಳಲು 🔊 ಟ್ಯಾಪ್ ಮಾಡಿ",
+   "t": "ಬ್ರೌಸ್ · ಕೇಳಲು 🔊 ಒತ್ತಿ",
    "ko": "둘러보는 중 · 🔊를 누르면 들려요",
    "kind": "sentence",
    "where": "js u()"
   },
   "Already in My phrases": {
-   "t": "ಈಗಾಗಲೇ ನನ್ನ ನುಡಿಗಟ್ಟುಗಳಲ್ಲಿದೆ",
+   "t": "\"ನನ್ನ ವಾಕ್ಯಗಳು\" ಡೆಕ್‌ನಲ್ಲಿ ಈಗಾಗಲೇ ಇದೆ",
    "ko": "이미 내 표현에 있어요",
    "kind": "label",
    "where": "js ko()"
@@ -2044,7 +2044,7 @@
    "where": "js ko()"
   },
   "Added to My phrases.": {
-   "t": "ನನ್ನ ನುಡಿಗಟ್ಟುಗಳಿಗೆ ಸೇರಿಸಲಾಗಿದೆ.",
+   "t": "\"ನನ್ನ ವಾಕ್ಯಗಳು\" ಡೆಕ್‌ಗೆ ಸೇರಿಸಲಾಗಿದೆ.",
    "ko": "내 표현에 추가했어요.",
    "kind": "sentence",
    "where": "js ko()"
@@ -2056,7 +2056,7 @@
    "where": "js SPK() <div>"
   },
   "Got it — quiz me": {
-   "t": "ಗೊತ್ತಾಯಿತು — ಕ್ವಿಜ್ ಕೊಡಿ",
+   "t": "ಗೊತ್ತು — ಕ್ವಿಜ್ ಕೊಡಿ",
    "ko": "알겠어요 — 퀴즈 내 주세요",
    "kind": "sentence",
    "where": "js goLbl()"
@@ -2069,49 +2069,49 @@
    "where": "html <div> text"
   },
   "which one is it?": {
-   "t": "ಯಾವುದು?",
+   "t": "ಇದು ಯಾವುದು?",
    "ko": "어느 쪽일까요?",
    "kind": "sentence",
    "where": "js romT() <div>"
   },
   "All caught up": {
-   "t": "ಎಲ್ಲಾ ಮುಗಿದಿದೆ",
+   "t": "ಎಲ್ಲ ಮುಗಿದಿದೆ",
    "ko": "다 끝냈어요",
    "kind": "label",
    "where": "js lp()"
   },
   "No cards due right now.": {
-   "t": "ಈಗ ರಿವ್ಯೂಗೆ ಯಾವ ಕಾರ್ಡೂ ಬಾಕಿ ಇಲ್ಲ.",
+   "t": "ಈಗ ಬಾಕಿ ಕಾರ್ಡ್ ಇಲ್ಲ.",
    "ko": "지금 복습할 카드가 없어요.",
    "kind": "sentence",
    "where": "js msg()"
   },
   "Nothing due in this deck right now.": {
-   "t": "ಈ ಡೆಕ್ಕಿನಲ್ಲಿ ಈಗ ಏನೂ ಬಾಕಿ ಇಲ್ಲ.",
+   "t": "ಈ ಡೆಕ್‌ನಲ್ಲಿ ಈಗ ಬಾಕಿ ಏನೂ ಇಲ್ಲ.",
    "ko": "이 덱에는 지금 복습할 카드가 없어요.",
    "kind": "sentence",
    "where": "js msg()"
   },
   "Deck finished.": {
-   "t": "ಡೆಕ್ ಮುಗಿಯಿತು.",
+   "t": "ಡೆಕ್ ಮುಗಿದಿದೆ.",
    "ko": "덱을 끝냈어요.",
    "kind": "sentence",
    "where": "js msg()"
   },
   "Review this deck anyway": {
-   "t": "ಆದರೂ ಈ ಡೆಕ್ ರಿವ್ಯೂ ಮಾಡಿ",
+   "t": "ಆದರೂ ಈ ಡೆಕ್ ಮನನ ಮಾಡಿ",
    "ko": "그래도 이 덱 복습하기",
    "kind": "label",
    "where": "js next() <button>"
   },
   "Start a session": {
-   "t": "ಸೆಷನ್ ಶುರು ಮಾಡಿ",
+   "t": "ಸೆಷನ್ ಪ್ರಾರಂಭಿಸಿ",
    "ko": "학습 시작하기",
    "kind": "label",
    "where": "js next() <a>"
   },
   "No match. Try the English meaning.": {
-   "t": "ಹೊಂದಿಕೆ ಇಲ್ಲ. ಇಂಗ್ಲಿಷ್ ಅರ್ಥದಲ್ಲಿ ಹುಡುಕಿ.",
+   "t": "ಏನೂ ಸಿಗಲಿಲ್ಲ. ಕನ್ನಡ ಅರ್ಥ ಬರೆದು ನೋಡಿ.",
    "ko": "결과가 없어요. 한국어 뜻으로 검색해 보세요.",
    "kind": "sentence",
    "where": "js hits() <p>"
@@ -2124,7 +2124,7 @@
    "where": "js (top level)"
   },
   "⏰ All due": {
-   "t": "⏰ ಎಲ್ಲಾ ಬಾಕಿ",
+   "t": "⏰ ಎಲ್ಲ ಬಾಕಿ",
    "ko": "⏰ 복습할 카드 전부",
    "kind": "label",
    "where": "js quickReview()"
@@ -2136,46 +2136,46 @@
    "where": "js STR()"
   },
   "Done ▴": {
-   "t": "ಮುಗಿಯಿತು ▴",
+   "t": "ಆಯಿತು ▴",
    "ko": "완료 ▴",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js STR()"
   },
   "Hide locked": {
-   "t": "ಲಾಕ್ ಆದವು ಮರೆಮಾಡಿ",
+   "t": "ಲಾಕ್ ಡೆಕ್ ಮರೆಮಾಡಿ",
    "ko": "잠긴 덱 숨기기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js STR()"
   },
   "🔓 Unlock all": {
-   "t": "🔓 ಎಲ್ಲಾ ಅನ್ಲಾಕ್",
+   "t": "🔓 ಎಲ್ಲ ಅನ್‌ಲಾಕ್ ಮಾಡಿ",
    "ko": "🔓 모두 열기",
    "kind": "label",
    "where": "js tmp() <button>"
   },
   "Finish 60% of the previous deck to unlock this one.": {
-   "t": "ಇದನ್ನು ಅನ್ಲಾಕ್ ಮಾಡಲು ಹಿಂದಿನ ಡೆಕ್ಕಿನ 60% ಮುಗಿಸಿ.",
+   "t": "ಇದನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ಹಿಂದಿನ ಡೆಕ್‌ನ 60% ಮುಗಿಸಿ.",
    "ko": "이전 덱을 60% 끝내면 열려요.",
    "kind": "sentence",
    "where": "js b()"
   },
   "모두 열렸어요 · Everything unlocked": {
-   "t": "모두 열렸어요 · ಎಲ್ಲವೂ ಅನ್ಲಾಕ್ ಆಗಿದೆ",
+   "t": "ಎಲ್ಲವೂ ಅನ್‌ಲಾಕ್ ಆಗಿದೆ",
    "ko": "모두 열렸어요 · 전체 잠금 해제",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js unlockAll()"
   },
   "My phrases is empty.": {
-   "t": "ನನ್ನ ನುಡಿಗಟ್ಟುಗಳು ಖಾಲಿಯಾಗಿದೆ.",
+   "t": "\"ನನ್ನ ವಾಕ್ಯಗಳು\" ಡೆಕ್ ಖಾಲಿ ಇದೆ.",
    "ko": "내 표현이 비어 있어요.",
    "kind": "sentence",
    "where": "js csv()"
   },
   "CSV copied.": {
-   "t": "CSV ನಕಲಿಸಲಾಗಿದೆ.",
+   "t": "CSV ನಕಲಾಗಿದೆ.",
    "ko": "CSV를 복사했어요.",
    "kind": "sentence",
    "where": "js csv()"
@@ -2193,7 +2193,7 @@
    "where": "js s()"
   },
   "Back in rotation.": {
-   "t": "ಮತ್ತೆ ರಿವ್ಯೂ ಸರದಿಯಲ್ಲಿದೆ.",
+   "t": "ಮತ್ತೆ ಪುನರ್ಮನನಕ್ಕೆ ಸೇರಿದೆ.",
    "ko": "다시 복습에 넣었어요.",
    "kind": "sentence",
    "where": "js s()"
@@ -2206,19 +2206,19 @@
    "where": "html <h3> text"
   },
   "Polite ↔ casual": {
-   "t": "ವಿನಯ ↔ ಸಲುಗೆ",
+   "t": "ಗೌರವ ↔ ಸಲುಗೆ",
    "ko": "존댓말 ↔ 반말",
    "kind": "label",
    "where": "html <button> text"
   },
   "Pick a deck with at least 4 cards.": {
-   "t": "ಕನಿಷ್ಠ 4 ಕಾರ್ಡುಗಳಿರುವ ಡೆಕ್ ಆರಿಸಿ.",
+   "t": "ಕನಿಷ್ಠ 4 ಕಾರ್ಡ್ ಇರುವ ಡೆಕ್ ಆರಿಸಿ.",
    "ko": "카드가 4장 이상인 덱을 고르세요.",
    "kind": "sentence",
    "where": "js pool()"
   },
   "Test everything × 3": {
-   "t": "ಎಲ್ಲವನ್ನೂ ಪರೀಕ್ಷಿಸಿ × 3",
+   "t": "ಎಲ್ಲವನ್ನೂ ಟೆಸ್ಟ್ ಮಾಡಿ × 3",
    "ko": "전체 테스트 × 3",
    "kind": "label",
    "where": "js teach() <button>"
@@ -2230,7 +2230,7 @@
    "where": "js teach() <button>"
   },
   "Daily new-card cap reached. Learning anyway since you asked.": {
-   "t": "ದಿನದ ಹೊಸ ಕಾರ್ಡ್ ಮಿತಿ ತಲುಪಿದೆ. ನೀವು ಕೇಳಿದ್ದರಿಂದ ಮುಂದುವರಿಸುತ್ತಿದ್ದೇವೆ.",
+   "t": "ದಿನದ ಹೊಸ ಕಾರ್ಡ್ ಮಿತಿ ಮುಗಿದಿದೆ. ನೀವು ಕೇಳಿದ್ದರಿಂದ ಕಲಿಕೆ ಮುಂದುವರಿಯುತ್ತಿದೆ.",
    "ko": "오늘 새 카드 한도에 도달했어요. 원하셨으니 그래도 배울게요.",
    "kind": "sentence",
    "where": "js i()"
@@ -2256,26 +2256,26 @@
    "where": "js b()"
   },
   "Next 5 cards": {
-   "t": "ಮುಂದಿನ 5 ಕಾರ್ಡುಗಳು",
+   "t": "ಮುಂದಿನ 5 ಕಾರ್ಡ್",
    "ko": "다음 카드 5장",
    "kind": "label",
    "where": "js b()"
   },
   "Review these 5 again": {
-   "t": "ಈ 5 ಅನ್ನು ಮತ್ತೆ ರಿವ್ಯೂ ಮಾಡಿ",
+   "t": "ಈ 5 ಕಾರ್ಡ್ ಮತ್ತೆ ಮನನ ಮಾಡಿ",
    "ko": "이 5장 다시 보기",
    "kind": "label",
    "where": "js b()"
   },
   "Retry quiz": {
-   "t": "ಕ್ವಿಜ್ ಮತ್ತೆ ಮಾಡಿ",
+   "t": "ಮತ್ತೆ ಕ್ವಿಜ್",
    "ko": "퀴즈 다시 풀기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js b()"
   },
   "Save & exit": {
-   "t": "ಉಳಿಸಿ, ನಿರ್ಗಮಿಸಿ",
+   "t": "ಉಳಿಸಿ, ಹೊರಬನ್ನಿ",
    "ko": "저장하고 나가기",
    "kind": "label",
    "where": "js STR()"
@@ -2288,26 +2288,26 @@
    "where": "js b() <span>"
   },
   "Unlock a few more decks first.": {
-   "t": "ಮೊದಲು ಇನ್ನೂ ಕೆಲವು ಡೆಕ್ಕುಗಳನ್ನು ಅನ್ಲಾಕ್ ಮಾಡಿ.",
+   "t": "ಮೊದಲು ಇನ್ನೂ ಕೆಲವು ಡೆಕ್ ಅನ್‌ಲಾಕ್ ಮಾಡಿ.",
    "ko": "먼저 덱을 몇 개 더 열어 주세요.",
    "kind": "sentence",
    "where": "js pool()"
   },
   "no feedback until the end": {
-   "t": "ಕೊನೆಯವರೆಗೆ ಸರಿ-ತಪ್ಪು ತೋರಿಸುವುದಿಲ್ಲ",
+   "t": "ಫಲಿತಾಂಶ ಕೊನೆಯಲ್ಲಿ ಮಾತ್ರ",
    "ko": "끝날 때까지 정답을 알려 주지 않아요",
    "kind": "sentence",
    "where": "js q() <span>"
   },
   "Missed": {
-   "t": "ತಪ್ಪಿದವು",
+   "t": "ತಪ್ಪು",
    "ko": "틀린 카드",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js names2()"
   },
   "Exam re-drill": {
-   "t": "ಪರೀಕ್ಷೆಯ ಮರು-ಡ್ರಿಲ್",
+   "t": "ಪರೀಕ್ಷೆ ಮರು-ಡ್ರಿಲ್",
    "ko": "시험 오답 다시 풀기",
    "kind": "label",
    "where": "js pool2()"
@@ -2325,14 +2325,14 @@
    "where": "js renderTypeQ() <div>"
   },
   "type it in Hangul": {
-   "t": "ಹಂಗುಲಿನಲ್ಲಿ ಟೈಪ್ ಮಾಡಿ",
+   "t": "ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಬರೆಯಿರಿ",
    "ko": "영어로 입력하세요",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "js renderTypeQ() <div>"
   },
   "Type the Korean, or tap Check again to give up.": {
-   "t": "ಕೊರಿಯನ್ ಟೈಪ್ ಮಾಡಿ, ಅಥವಾ ಬಿಟ್ಟುಕೊಡಲು \"ಪರಿಶೀಲಿಸಿ\" ಅನ್ನು ಮತ್ತೆ ಟ್ಯಾಪ್ ಮಾಡಿ.",
+   "t": "ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಬರೆಯಿರಿ, ಅಥವಾ ಬಿಟ್ಟುಬಿಡಲು ಮತ್ತೆ \"ಪರಿಶೀಲಿಸಿ\" ಒತ್ತಿ.",
    "ko": "영어로 입력하세요. 포기하려면 확인을 한 번 더 누르세요.",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -2346,7 +2346,7 @@
    "where": "js (top level)"
   },
   "tap the words in order": {
-   "t": "ಪದಗಳನ್ನು ಕ್ರಮವಾಗಿ ಟ್ಯಾಪ್ ಮಾಡಿ",
+   "t": "ಪದಗಳನ್ನು ಕ್ರಮವಾಗಿ ಒತ್ತಿ",
    "ko": "단어를 순서대로 누르세요",
    "kind": "sentence",
    "where": "js draw() <div>"
@@ -2366,7 +2366,7 @@
    "where": "js (top level)"
   },
   "Not quite": {
-   "t": "ಇನ್ನೂ ಸರಿಯಿಲ್ಲ",
+   "t": "ಪೂರ್ತಿ ಸರಿಯಲ್ಲ",
    "ko": "아쉬워요",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2380,19 +2380,19 @@
    "where": "js romT() <button>"
   },
   "Listen, then pick the meaning": {
-   "t": "ಆಲಿಸಿ, ನಂತರ ಅರ್ಥ ಆರಿಸಿ",
+   "t": "ಕೇಳಿ, ನಂತರ ಅರ್ಥ ಆರಿಸಿ",
    "ko": "듣고 뜻을 고르세요",
    "kind": "sentence",
    "where": "js romT() <div>"
   },
   "Show rule ↗": {
-   "t": "ನಿಯಮ ನೋಡಿ ↗",
+   "t": "ನಿಯಮ ತೋರಿಸಿ ↗",
    "ko": "규칙 보기 ↗",
    "kind": "label",
    "where": "js why() <a>"
   },
   "🔊 Play": {
-   "t": "🔊 ಪ್ಲೇ",
+   "t": "🔊 ಪ್ಲೇ ಮಾಡಿ",
    "ko": "🔊 재생",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2405,35 +2405,35 @@
    "where": "js o() <div>"
   },
   "Make it polite (요-form)": {
-   "t": "ವಿನಯ ರೂಪಕ್ಕೆ ಬದಲಿಸಿ (요-ರೂಪ)",
+   "t": "ಗೌರವದ ರೂಪಕ್ಕೆ ಬದಲಿಸಿ",
    "ko": "존댓말로 바꾸세요 (요-형)",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js opts() <div>"
   },
   "Make it casual (반말)": {
-   "t": "ಸಲುಗೆ ರೂಪಕ್ಕೆ ಬದಲಿಸಿ (반말)",
+   "t": "ಸಲುಗೆಯ ರೂಪಕ್ಕೆ ಬದಲಿಸಿ",
    "ko": "반말로 바꾸세요",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js opts() <div>"
   },
   "casual → polite: add 요 (or the honorific verb)": {
-   "t": "ಸಲುಗೆ → ವಿನಯ: 요 ಸೇರಿಸಿ (ಅಥವಾ ಗೌರವಸೂಚಕ ಕ್ರಿಯಾಪದ)",
+   "t": "ಸಲುಗೆ → ಗೌರವ: ಹೆಚ್ಚು ಸೌಜನ್ಯದ ರೂಪ ಆರಿಸಿ",
    "ko": "반말 → 존댓말: 요를 붙여요 (또는 높임 동사)",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js ok()"
   },
   "polite → casual: drop 요": {
-   "t": "ವಿನಯ → ಸಲುಗೆ: 요 ತೆಗೆಯಿರಿ",
+   "t": "ಗೌರವ → ಸಲುಗೆ: ನೇರವಾದ ರೂಪ ಆರಿಸಿ",
    "ko": "존댓말 → 반말: 요를 빼요",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js ok()"
   },
   "How is this actually said?": {
-   "t": "ಇದನ್ನು ನಿಜವಾಗಿ ಹೇಗೆ ಉಚ್ಚರಿಸುತ್ತಾರೆ?",
+   "t": "ನಿಜವಾಗಿ ಇದನ್ನು ಹೇಗೆ ಹೇಳುತ್ತಾರೆ?",
    "ko": "실제로는 어떻게 발음할까요?",
    "kind": "sentence",
    "where": "js opts() <div>"
@@ -2451,13 +2451,13 @@
    "where": "js type()"
   },
   "Where would you hear this?": {
-   "t": "ಇದನ್ನು ಎಲ್ಲಿ ಕೇಳುತ್ತೀರಿ?",
+   "t": "ಇದನ್ನು ಎಲ್ಲಿ ಕೇಳಬಹುದು?",
    "ko": "이 말은 어디서 들을까요?",
    "kind": "sentence",
    "where": "js type()"
   },
   "🎧 Listen to the dialogue": {
-   "t": "🎧 ಸಂಭಾಷಣೆ ಆಲಿಸಿ",
+   "t": "🎧 ಸಂಭಾಷಣೆ ಕೇಳಿ",
    "ko": "🎧 대화를 들어 보세요",
    "kind": "sentence",
    "where": "js say() <div>"
@@ -2477,40 +2477,40 @@
    "where": "html <button> text"
   },
   "🎭 You are B. Reply to A.": {
-   "t": "🎭 ನೀವು B. A ಹೇಳಿದ್ದಕ್ಕೆ ಉತ್ತರಿಸಿ.",
+   "t": "🎭 ನೀವು B. A ಗೆ ಉತ್ತರಿಸಿ.",
    "ko": "🎭 당신은 B예요. A에게 대답하세요.",
    "kind": "sentence",
    "where": "js opts() <div>"
   },
   "reply": {
-   "t": "ಉತ್ತರಿಸಿ",
+   "t": "ಉತ್ತರ",
    "ko": "대답",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js (top level)"
   },
   "🗣 Listen, then say it out loud, then compare": {
-   "t": "🗣 ಆಲಿಸಿ, ನಂತರ ಜೋರಾಗಿ ಹೇಳಿ, ನಂತರ ಹೋಲಿಸಿ",
+   "t": "🗣 ಕೇಳಿ, ಗಟ್ಟಿಯಾಗಿ ಹೇಳಿ, ನಂತರ ಹೋಲಿಸಿ ನೋಡಿ",
    "ko": "🗣 듣고, 소리 내어 말하고, 비교해 보세요",
    "kind": "sentence",
    "where": "js syl() <div>"
   },
   "🔊 listen": {
-   "t": "🔊 ಆಲಿಸಿ",
+   "t": "🔊 ಕೇಳಿ",
    "ko": "🔊 듣기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js syl() <div>"
   },
   "Start": {
-   "t": "ಶುರು ಮಾಡಿ",
+   "t": "ಪ್ರಾರಂಭಿಸಿ",
    "ko": "시작",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js (top level)"
   },
   "Next phrase": {
-   "t": "ಮುಂದಿನ ನುಡಿಗಟ್ಟು",
+   "t": "ಮುಂದಿನ ವಾಕ್ಯ",
    "ko": "다음 표현",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2535,7 +2535,7 @@
    "where": "js s()"
   },
   "Again, or mark it and move on": {
-   "t": "ಮತ್ತೆ ಹೇಳಿ, ಅಥವಾ ಗುರುತಿಸಿ ಮುಂದೆ ಹೋಗಿ",
+   "t": "ಮತ್ತೆ ಮಾಡಿ, ಅಥವಾ ಗುರುತು ಹಾಕಿ ಮುಂದೆ ಹೋಗಿ",
    "ko": "다시 하거나, 표시하고 넘어가세요",
    "kind": "sentence",
    "where": "js old()"
@@ -2547,34 +2547,34 @@
    "where": "js it() <input> @placeholder"
   },
   "Romanization": {
-   "t": "ರೋಮನ್ ಲಿಪಿ",
+   "t": "ಉಚ್ಚಾರಣೆ",
    "ko": "발음 표기",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "html <input> @placeholder"
   },
   "Type the sound in English letters (e.g.": {
-   "t": "ಧ್ವನಿಯನ್ನು ಇಂಗ್ಲಿಷ್ ಅಕ್ಷರಗಳಲ್ಲಿ ಟೈಪ್ ಮಾಡಿ (ಉದಾ.",
+   "t": "ಧ್ವನಿಯನ್ನು ಅಕ್ಷರಗಳಲ್ಲಿ ಟೈಪ್ ಮಾಡಿ (ಉದಾ.",
    "ko": "소리를 알파벳으로 입력하세요 (예:",
    "kind": "sentence",
    "where": "js a() <span>"
   },
   "), or type the Hangul itself.": {
-   "t": "), ಅಥವಾ ಹಂಗುಲಿನಲ್ಲೇ ಟೈಪ್ ಮಾಡಿ.",
+   "t": "), ಅಥವಾ ಇಂಗ್ಲಿಷ್ ಪದವನ್ನೇ ಟೈಪ್ ಮಾಡಿ.",
    "ko": "), 또는 한글을 직접 입력해도 돼요.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing; legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "js a()"
   },
   "Done": {
-   "t": "ಮುಗಿಯಿತು",
+   "t": "ಆಯಿತು",
    "ko": "완료",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js STR()"
   },
   "No new cards left. You have seen everything.": {
-   "t": "ಹೊಸ ಕಾರ್ಡುಗಳು ಉಳಿದಿಲ್ಲ. ನೀವು ಎಲ್ಲವನ್ನೂ ನೋಡಿದ್ದೀರಿ.",
+   "t": "ಹೊಸ ಕಾರ್ಡ್ ಉಳಿದಿಲ್ಲ. ನೀವು ಎಲ್ಲವನ್ನೂ ನೋಡಿದ್ದೀರಿ.",
    "ko": "새 카드가 더 없어요. 전부 다 봤어요.",
    "kind": "sentence",
    "where": "js five()"
@@ -2612,7 +2612,7 @@
    "where": "js pass()"
   },
   "Flip it, listen, then tap Got it once it sticks.": {
-   "t": "ತಿರುಗಿಸಿ, ಆಲಿಸಿ, ನೆನಪಿನಲ್ಲಿ ಉಳಿದ ಮೇಲೆ \"ಗೊತ್ತಿದೆ\" ಟ್ಯಾಪ್ ಮಾಡಿ.",
+   "t": "ಕಾರ್ಡ್ ತಿರುಗಿಸಿ, ಕೇಳಿ; ನೆನಪಿನಲ್ಲಿ ಉಳಿದ ಮೇಲೆ \"ಗೊತ್ತು\" ಒತ್ತಿ.",
    "ko": "뒤집고, 들어 보고, 외워지면 알아요를 누르세요.",
    "kind": "sentence",
    "where": "js x() <p>"
@@ -2632,13 +2632,13 @@
    "where": "js STR()"
   },
   "Not enough weak cards yet. Do a session first.": {
-   "t": "ಇನ್ನೂ ಸಾಕಷ್ಟು ದುರ್ಬಲ ಕಾರ್ಡುಗಳಿಲ್ಲ. ಮೊದಲು ಒಂದು ಸೆಷನ್ ಮಾಡಿ.",
+   "t": "ಇನ್ನೂ ಸಾಕಷ್ಟು ದುರ್ಬಲ ಕಾರ್ಡ್ ಇಲ್ಲ. ಮೊದಲು ಒಂದು ಸೆಷನ್ ಮಾಡಿ.",
    "ko": "아직 약한 카드가 충분하지 않아요. 먼저 학습을 해 보세요.",
    "kind": "sentence",
    "where": "js pool()"
   },
   "Start typing": {
-   "t": "ಟೈಪ್ ಶುರು",
+   "t": "ಟೈಪಿಂಗ್ ಪ್ರಾರಂಭಿಸಿ",
    "ko": "입력해 보세요",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2657,114 +2657,114 @@
    "where": "js QUICK()"
   },
   "Goal done. Keep going?": {
-   "t": "ಗುರಿ ತಲುಪಿದೆ. ಮುಂದುವರಿಸೋಣವೇ?",
+   "t": "ಗುರಿ ತಲುಪಿದ್ದೀರಿ. ಮುಂದುವರಿಸುತ್ತೀರಾ?",
    "ko": "목표 달성! 계속할까요?",
    "kind": "sentence",
    "where": "js lessonNext()"
   },
   "Sentence builder": {
-   "t": "ವಾಕ್ಯ ರಚನೆ",
+   "t": "ವಾಕ್ಯ ಜೋಡಣೆ",
    "ko": "문장 만들기",
    "kind": "label",
    "where": "js mean()"
   },
   "Listening": {
-   "t": "ಆಲಿಕೆ",
+   "t": "ಕೇಳುವುದು",
    "ko": "듣기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js u()"
   },
   "Number dictation": {
-   "t": "ಸಂಖ್ಯೆ ಉಕ್ತಲೇಖನ",
+   "t": "ಸಂಖ್ಯೆ ಕೇಳಿ ಬರೆಯುವುದು",
    "ko": "숫자 받아쓰기",
    "kind": "label",
    "where": "js lessonNext() <span>"
   },
   "Role-play": {
-   "t": "ಪಾತ್ರಾಭಿನಯ",
+   "t": "ರೋಲ್-ಪ್ಲೇ",
    "ko": "역할극",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <button> text"
   },
   "Streak at risk": {
-   "t": "ಸ್ಟ್ರೀಕ್ ಅಪಾಯದಲ್ಲಿದೆ",
+   "t": "ಸತತ ದಿನ ಅಪಾಯದಲ್ಲಿದೆ",
    "ko": "연속 학습이 끊길 위기",
    "kind": "label",
    "where": "js atRisk() <b>"
   },
   "⏰ Study time": {
-   "t": "⏰ ಓದುವ ಸಮಯ",
+   "t": "⏰ ಕಲಿಕೆಯ ಸಮಯ",
    "ko": "⏰ 공부 시간",
    "kind": "label",
    "where": "js atRisk()"
   },
   "Daily reminder time": {
-   "t": "ದೈನಿಕ ಜ್ಞಾಪನೆಯ ಸಮಯ",
+   "t": "ದಿನದ ರಿಮೈಂಡರ್ ಸಮಯ",
    "ko": "매일 알림 시간",
    "kind": "label",
    "where": "js atRisk() <input> @aria-label"
   },
   "Add a daily reminder to your calendar": {
-   "t": "ನಿಮ್ಮ ಕ್ಯಾಲೆಂಡರಿಗೆ ದೈನಿಕ ಜ್ಞಾಪನೆ ಸೇರಿಸಿ",
+   "t": "ನಿಮ್ಮ ಕ್ಯಾಲೆಂಡರ್‌ಗೆ ದಿನದ ರಿಮೈಂಡರ್ ಸೇರಿಸಿ",
    "ko": "캘린더에 매일 알림 추가",
    "kind": "sentence",
    "where": "js atRisk() <button> @title"
   },
   "📅 Reminder": {
-   "t": "📅 ಜ್ಞಾಪನೆ",
+   "t": "📅 ರಿಮೈಂಡರ್",
    "ko": "📅 알림",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js atRisk() <button>"
   },
   "Tonight's phrase": {
-   "t": "ಇಂದು ರಾತ್ರಿಯ ನುಡಿಗಟ್ಟು",
+   "t": "ಇಂದು ರಾತ್ರಿಯ ವಾಕ್ಯ",
    "ko": "오늘 밤의 표현",
    "kind": "label",
    "where": "js tonight() <span>"
   },
   "Phrase of the day": {
-   "t": "ಇಂದಿನ ನುಡಿಗಟ್ಟು",
+   "t": "ಇಂದಿನ ವಾಕ್ಯ",
    "ko": "오늘의 표현",
    "kind": "label",
    "where": "js STR()"
   },
   "Already in your review queue": {
-   "t": "ಈಗಾಗಲೇ ನಿಮ್ಮ ರಿವ್ಯೂ ಸರದಿಯಲ್ಲಿದೆ",
+   "t": "ಈಗಾಗಲೇ ನಿಮ್ಮ ಪುನರ್ಮನನ ಪಟ್ಟಿಯಲ್ಲಿದೆ",
    "ko": "이미 복습 목록에 있어요",
    "kind": "sentence",
    "where": "js tonight() <span>"
   },
   "Not in your queue yet": {
-   "t": "ಇನ್ನೂ ನಿಮ್ಮ ಸರದಿಯಲ್ಲಿಲ್ಲ",
+   "t": "ಇನ್ನೂ ನಿಮ್ಮ ಪಟ್ಟಿಯಲ್ಲಿಲ್ಲ",
    "ko": "아직 복습 목록에 없어요",
    "kind": "sentence",
    "where": "js tonight() <span>"
   },
   "+ Add to review": {
-   "t": "+ ರಿವ್ಯೂಗೆ ಸೇರಿಸಿ",
+   "t": "+ ಪುನರ್ಮನನಕ್ಕೆ ಸೇರಿಸಿ",
    "ko": "+ 복습에 추가",
    "kind": "label",
    "where": "js tonight() <button>"
   },
   "Review it": {
-   "t": "ರಿವ್ಯೂ ಮಾಡಿ",
+   "t": "ಮನನ ಮಾಡಿ",
    "ko": "복습하기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js cand() <a>"
   },
   "Go": {
-   "t": "ಹೋಗೋಣ",
+   "t": "ತೆರೆಯಿರಿ",
    "ko": "가기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js (top level) <style>"
   },
   "Deck of the week": {
-   "t": "ವಾರದ ಡೆಕ್",
+   "t": "ಈ ವಾರದ ಡೆಕ್",
    "ko": "이번 주의 덱",
    "kind": "label",
    "where": "js STR()"
@@ -2783,20 +2783,20 @@
    "where": "js STR()"
   },
   "learn 5 at a time": {
-   "t": "ಒಮ್ಮೆಗೆ 5 ಕಲಿಯಿರಿ",
+   "t": "ಒಮ್ಮೆಗೆ 5 ಕಾರ್ಡ್ ಕಲಿಯಿರಿ",
    "ko": "5개씩 배우기",
    "kind": "sentence",
    "where": "js d() <small>"
   },
   "all done": {
-   "t": "ಎಲ್ಲಾ ಮುಗಿದಿದೆ",
+   "t": "ಎಲ್ಲ ಮುಗಿದಿದೆ",
    "ko": "모두 끝",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js KOUI()"
   },
   "new cards today / daily cap": {
-   "t": "ಇಂದಿನ ಹೊಸ ಕಾರ್ಡುಗಳು / ದಿನದ ಮಿತಿ",
+   "t": "ಇಂದಿನ ಹೊಸ ಕಾರ್ಡ್ / ದಿನದ ಮಿತಿ",
    "ko": "오늘 새 카드 / 하루 한도",
    "kind": "sentence",
    "where": "js lessonNext() <span> @title"
@@ -2837,7 +2837,7 @@
    "where": "html <span> text"
   },
   "Start session": {
-   "t": "ಸೆಷನ್ ಶುರು ಮಾಡಿ",
+   "t": "ಸೆಷನ್ ಪ್ರಾರಂಭಿಸಿ",
    "ko": "학습 시작",
    "kind": "label",
    "where": "js STR()"
@@ -2861,13 +2861,13 @@
    "where": "js lessonNext() <button>"
   },
   "Review due cards": {
-   "t": "ಬಾಕಿ ಕಾರ್ಡುಗಳ ರಿವ್ಯೂ",
+   "t": "ಬಾಕಿ ಕಾರ್ಡ್ ಮನನ ಮಾಡಿ",
    "ko": "복습할 카드 복습",
    "kind": "label",
    "where": "js lessonNext() <span>"
   },
   "New cards": {
-   "t": "ಹೊಸ ಕಾರ್ಡುಗಳು",
+   "t": "ಹೊಸ ಕಾರ್ಡ್‌ಗಳು",
    "ko": "새 카드",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2888,38 +2888,38 @@
    "where": "js STR()"
   },
   "Hangul drill": {
-   "t": "ಹಂಗುಲ್ ಡ್ರಿಲ್",
+   "t": "ಓದುವ ಡ್ರಿಲ್",
    "ko": "읽기 훈련",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "js groupOf()"
   },
   "type to read": {
-   "t": "ಓದಲು ಟೈಪ್ ಮಾಡಿ",
+   "t": "ಟೈಪ್ ಮಾಡಿ ಓದಿ",
    "ko": "입력하며 읽기",
    "kind": "label",
    "where": "js d() <small>"
   },
   "Open the file to add the daily reminder.": {
-   "t": "ದೈನಿಕ ಜ್ಞಾಪನೆ ಸೇರಿಸಲು ಫೈಲ್ ತೆರೆಯಿರಿ.",
+   "t": "ದಿನದ ರಿಮೈಂಡರ್ ಸೇರಿಸಲು ಫೈಲ್ ತೆರೆಯಿರಿ.",
    "ko": "파일을 열어 매일 알림을 추가하세요.",
    "kind": "sentence",
    "where": "js blob()"
   },
   "Could not save here.": {
-   "t": "ಇಲ್ಲಿ ಉಳಿಸಲಾಗಲಿಲ್ಲ.",
+   "t": "ಇಲ್ಲಿ ಸೇವ್ ಮಾಡಲು ಆಗಲಿಲ್ಲ.",
    "ko": "여기서는 저장할 수 없어요.",
    "kind": "sentence",
    "where": "js blob()"
   },
   "Downloads are not available in this view.": {
-   "t": "ಈ ವೀಕ್ಷಣೆಯಲ್ಲಿ ಡೌನ್ಲೋಡ್ ಸಾಧ್ಯವಿಲ್ಲ.",
+   "t": "ಈ ವ್ಯೂನಲ್ಲಿ ಡೌನ್‌ಲೋಡ್ ಲಭ್ಯವಿಲ್ಲ.",
    "ko": "이 화면에서는 다운로드할 수 없어요.",
    "kind": "sentence",
    "where": "js a()"
   },
   "Added. It will show up in Review today.": {
-   "t": "ಸೇರಿಸಲಾಗಿದೆ. ಇಂದು ರಿವ್ಯೂನಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ.",
+   "t": "ಸೇರಿಸಲಾಗಿದೆ. ಇಂದು ಇದು \"ಪುನರ್ಮನನ\" ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಕಾಣುತ್ತದೆ.",
    "ko": "추가했어요. 오늘 복습에 나올 거예요.",
    "kind": "sentence",
    "where": "js c()"
@@ -2932,7 +2932,7 @@
    "where": "js it() <span>"
   },
   "End": {
-   "t": "ಕೊನೆಗೊಳಿಸಿ",
+   "t": "ಮುಕ್ತಾಯ",
    "ko": "끝내기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2953,26 +2953,26 @@
    "where": "js names2()"
   },
   "Perfect on": {
-   "t": "ಪೂರ್ತಿ ಸರಿ",
+   "t": "ಪೂರ್ತಿ ಸರಿ:",
    "ko": "완벽했어요:",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js names2()"
   },
   "Clean sweep. Tomorrow brings new cards.": {
-   "t": "ಒಂದೂ ತಪ್ಪಿಲ್ಲ. ನಾಳೆ ಹೊಸ ಕಾರ್ಡುಗಳು ಬರುತ್ತವೆ.",
+   "t": "ಎಲ್ಲವೂ ಸರಿ. ನಾಳೆ ಹೊಸ ಕಾರ್ಡ್‌ಗಳು ಬರುತ್ತವೆ.",
    "ko": "전부 맞혔어요. 내일 새 카드가 기다려요.",
    "kind": "sentence",
    "where": "js names2()"
   },
   "Steady. Missed cards come back as reviews.": {
-   "t": "ಚೆನ್ನಾಗಿದೆ. ತಪ್ಪಿದ ಕಾರ್ಡುಗಳು ರಿವ್ಯೂ ಆಗಿ ಮತ್ತೆ ಬರುತ್ತವೆ.",
+   "t": "ಚೆನ್ನಾಗಿ ಸಾಗುತ್ತಿದೆ. ತಪ್ಪಿದ ಕಾರ್ಡ್‌ಗಳು ಪುನರ್ಮನನದಲ್ಲಿ ಮತ್ತೆ ಬರುತ್ತವೆ.",
    "ko": "꾸준해요. 틀린 카드는 복습으로 다시 나와요.",
    "kind": "sentence",
    "where": "js names2()"
   },
   "Cards": {
-   "t": "ಕಾರ್ಡುಗಳು",
+   "t": "ಕಾರ್ಡ್‌ಗಳು",
    "ko": "카드",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2986,14 +2986,14 @@
    "where": "html <h3> text"
   },
   "Reading": {
-   "t": "ಓದುವಿಕೆ",
+   "t": "ಓದು",
    "ko": "읽기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <h2> text"
   },
   "Streak": {
-   "t": "ಸ್ಟ್ರೀಕ್",
+   "t": "ಸತತ ದಿನ",
    "ko": "연속 학습",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3012,26 +3012,26 @@
    "where": "js STR()"
   },
   "cards": {
-   "t": "ಕಾರ್ಡುಗಳು",
+   "t": "ಕಾರ್ಡ್",
    "ko": "카드",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <section> text"
   },
   "sentence builder": {
-   "t": "ವಾಕ್ಯ ರಚನೆ",
+   "t": "ವಾಕ್ಯ ಜೋಡಣೆ",
    "ko": "문장 만들기",
    "kind": "label",
    "where": "js names2()"
   },
   "polite↔casual": {
-   "t": "ವಿನಯ↔ಸಲುಗೆ",
+   "t": "ಗೌರವ↔ಸಲುಗೆ",
    "ko": "존댓말↔반말",
    "kind": "label",
    "where": "js names2()"
   },
   "listening": {
-   "t": "ಆಲಿಕೆ",
+   "t": "ಕೇಳುವುದು",
    "ko": "듣기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3045,14 +3045,14 @@
    "where": "html <button> text"
   },
   "role-play": {
-   "t": "ಪಾತ್ರಾಭಿನಯ",
+   "t": "ರೋಲ್-ಪ್ಲೇ",
    "ko": "역할극",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js APP_VERSION()"
   },
   "flashcards": {
-   "t": "ಫ್ಲ್ಯಾಶ್ ಕಾರ್ಡುಗಳು",
+   "t": "ಫ್ಲ್ಯಾಶ್‌ಕಾರ್ಡ್",
    "ko": "플래시카드",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3066,7 +3066,7 @@
    "where": "js (top level)"
   },
   "reading": {
-   "t": "ಓದುವಿಕೆ",
+   "t": "ಓದು",
    "ko": "읽기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3080,21 +3080,21 @@
    "where": "html text"
   },
   "Everyday": {
-   "t": "ದೈನಂದಿನ",
+   "t": "ದಿನನಿತ್ಯ",
    "ko": "일상",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js GROUPS()"
   },
   "Social": {
-   "t": "ಸಾಮಾಜಿಕ",
+   "t": "ಒಡನಾಟ",
    "ko": "사교",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js (top level)"
   },
   "Study plan": {
-   "t": "ಕಲಿಕೆಯ ಯೋಜನೆ",
+   "t": "ಕಲಿಕೆಯ ಪ್ಲಾನ್",
    "ko": "학습 계획",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3108,7 +3108,7 @@
    "where": "js pl()"
   },
   "Make one": {
-   "t": "ಒಂದನ್ನು ಮಾಡಿ",
+   "t": "ಪ್ಲಾನ್ ಮಾಡಿ",
    "ko": "만들기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3129,58 +3129,58 @@
    "where": "js k()"
   },
   "Pick a goal. The plan sets which decks and lessons to do each week, your daily new-card cap, and session size.": {
-   "t": "ಒಂದು ಗುರಿ ಆರಿಸಿ. ಪ್ರತಿ ವಾರ ಯಾವ ಡೆಕ್ಕುಗಳು ಮತ್ತು ಪಾಠಗಳನ್ನು ಮಾಡಬೇಕು, ದಿನಕ್ಕೆ ಎಷ್ಟು ಹೊಸ ಕಾರ್ಡುಗಳು, ಸೆಷನ್ ಎಷ್ಟು ದೊಡ್ಡದು ಎಂಬುದನ್ನು ಯೋಜನೆ ನಿರ್ಧರಿಸುತ್ತದೆ.",
+   "t": "ಒಂದು ಗುರಿ ಆರಿಸಿ. ಪ್ರತಿ ವಾರ ಯಾವ ಡೆಕ್ ಮತ್ತು ಪಾಠ ಮಾಡಬೇಕು, ದಿನಕ್ಕೆ ಎಷ್ಟು ಹೊಸ ಕಾರ್ಡ್, ಸೆಷನ್ ಎಷ್ಟು ಉದ್ದ ಎಂಬುದನ್ನು ಪ್ಲಾನ್ ನಿರ್ಧರಿಸುತ್ತದೆ.",
    "ko": "목표를 고르세요. 계획에 따라 매주 할 덱과 레슨, 하루 새 카드 한도, 학습 분량이 정해져요.",
    "kind": "sentence",
    "where": "js box() <p>"
   },
   "Weeks": {
-   "t": "ವಾರಗಳು",
+   "t": "ವಾರ",
    "ko": "주",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js pl() <label>"
   },
   "Remove plan": {
-   "t": "ಯೋಜನೆ ತೆಗೆದುಹಾಕಿ",
+   "t": "ಪ್ಲಾನ್ ತೆಗೆದುಹಾಕಿ",
    "ko": "계획 삭제",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js pl() <button>"
   },
   "Plan set.": {
-   "t": "ಯೋಜನೆ ಸಿದ್ಧವಾಗಿದೆ.",
+   "t": "ಪ್ಲಾನ್ ಸಿದ್ಧ.",
    "ko": "계획을 세웠어요.",
    "kind": "sentence",
    "where": "js wks()"
   },
   "Trip to Korea": {
-   "t": "ಕೊರಿಯಾ ಪ್ರವಾಸ",
+   "t": "ವಿದೇಶ ಪ್ರವಾಸದ ತಯಾರಿ",
    "ko": "해외여행 준비",
    "kind": "label",
    "where": "js PLAN_PRESETS()"
   },
   "Make friends & date": {
-   "t": "ಸ್ನೇಹಿತರು ಮತ್ತು ಡೇಟಿಂಗ್",
+   "t": "ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಸ್ನೇಹ ಬೆಳೆಸಿ",
    "ko": "친구 사귀기 & 데이트",
    "kind": "label",
    "where": "js PLAN_PRESETS()"
   },
   "Conversational in 90 days": {
-   "t": "90 ದಿನದಲ್ಲಿ ಮಾತುಕತೆ",
+   "t": "90 ದಿನದಲ್ಲಿ ಮಾತುಕತೆಗೆ ಸಿದ್ಧ",
    "ko": "90일 만에 회화하기",
    "kind": "label",
    "where": "js ids()"
   },
   "안녕하세요 👋 Two quick questions": {
-   "t": "안녕하세요 👋 ಎರಡು ಚಿಕ್ಕ ಪ್ರಶ್ನೆಗಳು",
+   "t": "ನಮಸ್ಕಾರ 👋 ಎರಡು ಚಿಕ್ಕ ಪ್ರಶ್ನೆ",
    "ko": "안녕하세요 👋 간단한 질문 두 개만 할게요",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js box() <h2>"
   },
   "Can you already read Hangul?": {
-   "t": "ನಿಮಗೆ ಈಗಾಗಲೇ ಹಂಗುಲ್ ಓದಲು ಬರುತ್ತದೆಯೇ?",
+   "t": "ನಿಮಗೆ ಇಂಗ್ಲಿಷ್ ಓದಲು ಬರುತ್ತದೆಯೇ?",
    "ko": "영어를 읽을 수 있나요?",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -3207,7 +3207,7 @@
    "where": "js box() <button>"
   },
   "What do you want Korean for?": {
-   "t": "ನಿಮಗೆ ಕೊರಿಯನ್ ಯಾವುದಕ್ಕೆ ಬೇಕು?",
+   "t": "ಇಂಗ್ಲಿಷ್ ಯಾವ ಉದ್ದೇಶಕ್ಕೆ ಕಲಿಯುತ್ತೀರಿ?",
    "ko": "영어를 왜 배우고 싶으세요?",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -3241,7 +3241,7 @@
    "where": "js (top level)"
   },
   "Set me up": {
-   "t": "ಸಿದ್ಧಪಡಿಸಿ",
+   "t": "ಸೆಟಪ್ ಮಾಡಿ",
    "ko": "이대로 시작할게요",
    "kind": "label",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -3253,13 +3253,13 @@
    "where": "js GOALS()"
   },
   "Dating, friends & nights out": {
-   "t": "ಡೇಟಿಂಗ್, ಸ್ನೇಹಿತರು ಮತ್ತು ರಾತ್ರಿ ಸುತ್ತಾಟ",
+   "t": "ಡೇಟಿಂಗ್, ಗೆಳೆಯರು ಮತ್ತು ಹೊರಗಿನ ಸುತ್ತಾಟ",
    "ko": "데이트, 친구 & 밤 문화",
    "kind": "sentence",
    "where": "js GOALS()"
   },
   "K-dramas & music": {
-   "t": "ಕೆ-ಡ್ರಾಮಾ ಮತ್ತು ಸಂಗೀತ",
+   "t": "ಸಿನಿಮಾ, ಸೀರೀಸ್ ಮತ್ತು ಸಂಗೀತ",
    "ko": "드라마 & 음악",
    "kind": "label",
    "where": "js GOALS()"
@@ -3271,44 +3271,44 @@
    "where": "js GOALS()"
   },
   "Skip tour": {
-   "t": "ಪ್ರವಾಸ ಬಿಡಿ",
+   "t": "ಟೂರ್ ಬೇಡ",
    "ko": "안내 건너뛰기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js ov() <button>"
   },
   "One button, one session. Due reviews, new cards, a quick quiz and drills, mixed for you.": {
-   "t": "ಒಂದು ಬಟನ್, ಒಂದು ಸೆಷನ್. ಬಾಕಿ ರಿವ್ಯೂ, ಹೊಸ ಕಾರ್ಡುಗಳು, ಚಿಕ್ಕ ಕ್ವಿಜ್ ಮತ್ತು ಡ್ರಿಲ್, ನಿಮಗಾಗಿ ಬೆರೆಸಿ.",
+   "t": "ಒಂದು ಬಟನ್, ಒಂದು ಸೆಷನ್. ಬಾಕಿ ಕಾರ್ಡ್, ಹೊಸ ಕಾರ್ಡ್, ಒಂದು ಚಿಕ್ಕ ಕ್ವಿಜ್ ಮತ್ತು ಡ್ರಿಲ್ — ಎಲ್ಲ ಸೇರಿಸಿ ನಿಮಗಾಗಿ.",
    "ko": "버튼 하나로 학습 한 번. 복습할 카드, 새 카드, 빠른 퀴즈와 훈련을 알아서 섞어 드려요.",
    "kind": "sentence",
    "where": "js TOUR()"
   },
   "Learn 5 cards at a time, quiz them, then 5 more. Tests, weak spots, blitz and exams live here too.": {
-   "t": "ಒಮ್ಮೆಗೆ 5 ಕಾರ್ಡುಗಳನ್ನು ಕಲಿಯಿರಿ, ಅವುಗಳ ಕ್ವಿಜ್ ಮಾಡಿ, ನಂತರ ಇನ್ನೂ 5. ಎಲ್ಲವನ್ನೂ ಪರೀಕ್ಷಿಸಿ, ದುರ್ಬಲ ಅಂಶಗಳು, ಬ್ಲಿಟ್ಜ್ ಮತ್ತು ಪರೀಕ್ಷೆಗಳೂ ಇಲ್ಲೇ ಇವೆ.",
+   "t": "ಒಮ್ಮೆಗೆ 5 ಕಾರ್ಡ್ ಕಲಿಯಿರಿ, ಅವುಗಳ ಕ್ವಿಜ್ ಮಾಡಿ, ನಂತರ ಇನ್ನೂ 5. ಟೆಸ್ಟ್, ದುರ್ಬಲ ಅಂಶಗಳು, ವೇಗದ ಸುತ್ತು ಮತ್ತು ಪರೀಕ್ಷೆ ಕೂಡ ಇಲ್ಲೇ ಇವೆ.",
    "ko": "카드를 5장씩 배우고 퀴즈로 확인한 뒤 또 5장. 테스트, 약점 공략, 스피드 퀴즈, 시험도 여기 있어요.",
    "kind": "sentence",
    "where": "js TOUR()"
   },
   "Spaced repetition. \"All due\" across decks, swipe right for got it, left for again. Browse any deck as a list.": {
-   "t": "ಅಂತರದ ಪುನರಾವರ್ತನೆ. ಎಲ್ಲಾ ಡೆಕ್ಕುಗಳಿಂದ \"ಎಲ್ಲಾ ಬಾಕಿ\"; ಗೊತ್ತಿದ್ದರೆ ಬಲಕ್ಕೆ ಸ್ವೈಪ್, ಮತ್ತೆ ಬೇಕಿದ್ದರೆ ಎಡಕ್ಕೆ. ಯಾವುದೇ ಡೆಕ್ಕನ್ನು ಪಟ್ಟಿಯಾಗಿ ನೋಡಿ.",
+   "t": "ಅಂತರವಿಟ್ಟು ಪುನರ್ಮನನ. \"ಎಲ್ಲ ಬಾಕಿ\" ಎಲ್ಲ ಡೆಕ್‌ಗಳ ಬಾಕಿ ಕಾರ್ಡ್ ಒಟ್ಟಿಗೆ ತರುತ್ತದೆ; \"ಗೊತ್ತು\" ಎನ್ನಲು ಬಲಕ್ಕೆ, \"ಮತ್ತೆ\" ಎನ್ನಲು ಎಡಕ್ಕೆ ಸ್ವೈಪ್ ಮಾಡಿ. ಯಾವುದೇ ಡೆಕ್ ಅನ್ನು ಪಟ್ಟಿಯಾಗಿ ಬ್ರೌಸ್ ಮಾಡಿ.",
    "ko": "간격 반복 복습이에요. 모든 덱의 \"복습할 카드 전부\"를 모아 보고, 오른쪽으로 밀면 알아요, 왼쪽은 다시. 덱을 목록으로 둘러볼 수도 있어요.",
    "kind": "sentence",
    "where": "js TOUR()"
   },
   "Reading, listening, sentence building, role-play, numbers, polite ↔ casual — pick a drill.": {
-   "t": "ಓದುವಿಕೆ, ಆಲಿಕೆ, ವಾಕ್ಯ ರಚನೆ, ಪಾತ್ರಾಭಿನಯ, ಸಂಖ್ಯೆಗಳು, ವಿನಯ ↔ ಸಲುಗೆ — ಒಂದು ಡ್ರಿಲ್ ಆರಿಸಿ.",
+   "t": "ಓದು, ಕೇಳುವುದು, ವಾಕ್ಯ ಜೋಡಣೆ, ರೋಲ್-ಪ್ಲೇ, ಸಂಖ್ಯೆಗಳು, ಗೌರವ ↔ ಸಲುಗೆ — ಒಂದು ಡ್ರಿಲ್ ಆರಿಸಿ.",
    "ko": "읽기, 듣기, 문장 만들기, 역할극, 숫자, 존댓말 ↔ 반말 — 훈련을 골라 보세요.",
    "kind": "sentence",
    "where": "js TOUR()"
   },
   "Streak, levels, forecasts, how you learn, backups and every setting.": {
-   "t": "ಸ್ಟ್ರೀಕ್, ಲೆವೆಲ್, ಮುನ್ಸೂಚನೆ, ನೀವು ಹೇಗೆ ಕಲಿಯುತ್ತೀರಿ, ಬ್ಯಾಕಪ್ ಮತ್ತು ಎಲ್ಲಾ ಸೆಟ್ಟಿಂಗ್ಸ್.",
+   "t": "ಸತತ ದಿನ, ಲೆವೆಲ್, ಮುನ್ನೋಟ, ನೀವು ಕಲಿಯುವ ರೀತಿ, ಬ್ಯಾಕಪ್ ಮತ್ತು ಎಲ್ಲ ಸೆಟ್ಟಿಂಗ್ಸ್.",
    "ko": "연속 학습, 레벨, 복습 예측, 학습 패턴, 백업과 모든 설정이 있어요.",
    "kind": "sentence",
    "where": "js TOUR()"
   },
   "⚡ Blitz": {
-   "t": "⚡ ಬ್ಲಿಟ್ಜ್",
+   "t": "⚡ ವೇಗದ ಸುತ್ತು",
    "ko": "⚡ 스피드 퀴즈",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3322,14 +3322,14 @@
    "where": "html <button> text"
   },
   "⌨️ Type": {
-   "t": "⌨️ ಟೈಪ್",
+   "t": "⌨️ ಟೈಪ್ ಮಾಡಿ",
    "ko": "⌨️ 입력",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <button> text"
   },
   "🎚️ Polite↔casual": {
-   "t": "🎚️ ವಿನಯ↔ಸಲುಗೆ",
+   "t": "🎚️ ಗೌರವ↔ಸಲುಗೆ",
    "ko": "🎚️ 존댓말↔반말",
    "kind": "label",
    "where": "js QUICK()"
@@ -3348,7 +3348,7 @@
    "where": "js sh() <input> @placeholder"
   },
   "Type to search. ↑↓ to move, Enter to open, Esc to close.": {
-   "t": "ಹುಡುಕಲು ಟೈಪ್ ಮಾಡಿ. ಚಲಿಸಲು ↑↓, ತೆರೆಯಲು Enter, ಮುಚ್ಚಲು Esc.",
+   "t": "ಹುಡುಕಲು ಟೈಪ್ ಮಾಡಿ. ↑↓ ಸರಿಸಲು, Enter ತೆರೆಯಲು, Esc ಮುಚ್ಚಲು.",
    "ko": "입력해서 검색하세요. ↑↓ 이동, Enter 열기, Esc 닫기.",
    "kind": "sentence",
    "where": "js sh() <p>"
@@ -3380,7 +3380,7 @@
    "where": "js at()"
   },
   "Backup · export / import": {
-   "t": "ಬ್ಯಾಕಪ್ · ರಫ್ತು / ಆಮದು",
+   "t": "ಬ್ಯಾಕಪ್ · ಎಕ್ಸ್‌ಪೋರ್ಟ್ / ಇಂಪೋರ್ಟ್",
    "ko": "백업 · 내보내기 / 가져오기",
    "kind": "sentence",
    "where": "js at()"
@@ -3392,7 +3392,7 @@
    "where": "js STR()"
   },
   "Verb conjugator": {
-   "t": "ಕ್ರಿಯಾಪದ ರೂಪಗಳು",
+   "t": "ಕ್ರಿಯಾಪದದ ರೂಪಗಳು",
    "ko": "동사 활용",
    "kind": "label",
    "where": "js STR()"
@@ -3405,7 +3405,7 @@
    "where": "js at()"
   },
   "No matches.": {
-   "t": "ಹೊಂದಿಕೆ ಇಲ್ಲ.",
+   "t": "ಏನೂ ಸಿಗಲಿಲ್ಲ.",
    "ko": "검색 결과가 없어요.",
    "kind": "sentence",
    "where": "js draw() <p>"
@@ -3425,7 +3425,7 @@
    "where": "js un() <span>"
   },
   "🔓 Unlock all lessons & decks": {
-   "t": "🔓 ಎಲ್ಲಾ ಪಾಠಗಳು ಮತ್ತು ಡೆಕ್ಕುಗಳನ್ನು ಅನ್ಲಾಕ್ ಮಾಡಿ",
+   "t": "🔓 ಎಲ್ಲ ಪಾಠ ಮತ್ತು ಡೆಕ್ ಅನ್‌ಲಾಕ್ ಮಾಡಿ",
    "ko": "🔓 모든 레슨과 덱 열기",
    "kind": "sentence",
    "where": "js tmp() <button>"
@@ -3444,39 +3444,39 @@
    "where": "js b()"
   },
   "· lesson counts as done when both are passed (+25 XP)": {
-   "t": "· ಎರಡೂ ಪಾಸ್ ಆದಾಗ ಪಾಠ ಮುಗಿದಂತೆ (+25 XP)",
+   "t": "· ಎರಡೂ ಪಾಸ್ ಆದರೆ ಪಾಠ ಮುಗಿದಂತೆ (+25 XP)",
    "ko": "· 둘 다 통과하면 레슨 완료 (+25 XP)",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "js b()"
   },
   "← All lessons": {
-   "t": "← ಎಲ್ಲಾ ಪಾಠಗಳು",
+   "t": "← ಎಲ್ಲ ಪಾಠಗಳು",
    "ko": "← 전체 레슨",
    "kind": "label",
    "where": "js b() <button>"
   },
   "Quick check": {
-   "t": "ಕಿರು ಪರಿಶೀಲನೆ",
+   "t": "ಕಿರು ಪರೀಕ್ಷೆ",
    "ko": "확인 문제",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js STR()"
   },
   "Then 5 cards from": {
-   "t": "ನಂತರ 5 ಕಾರ್ಡುಗಳು ಇಲ್ಲಿಂದ",
+   "t": "ನಂತರ ಈ ಡೆಕ್‌ನಿಂದ 5 ಕಾರ್ಡ್:",
    "ko": "그다음 카드 5장:",
    "kind": "label",
    "where": "js b() <p>"
   },
   "Mini drill: 5 cards": {
-   "t": "ಮಿನಿ ಡ್ರಿಲ್: 5 ಕಾರ್ಡುಗಳು",
+   "t": "ಕಿರು ಡ್ರಿಲ್: 5 ಕಾರ್ಡ್",
    "ko": "미니 훈련: 카드 5장",
    "kind": "label",
    "where": "js STR()"
   },
   "· need 2 of 3": {
-   "t": "· 3ರಲ್ಲಿ 2 ಬೇಕು",
+   "t": "· ಕನಿಷ್ಠ 2/3 ಸರಿ ಬೇಕು",
    "ko": "· 3문제 중 2문제를 맞혀야 해요",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -3497,27 +3497,27 @@
    "where": "html <button> text"
   },
   "Lesson done. +25 XP": {
-   "t": "ಪಾಠ ಮುಗಿಯಿತು. +25 XP",
+   "t": "ಪಾಠ ಮುಗಿದಿದೆ. +25 XP",
    "ko": "레슨 완료! +25 XP",
    "kind": "label",
    "where": "js maybeDone()"
   },
   "· lesson done ✓": {
-   "t": "· ಪಾಠ ಮುಗಿಯಿತು ✓",
+   "t": "· ಪಾಠ ಮುಗಿದಿದೆ ✓",
    "ko": "· 레슨 완료 ✓",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "js step() <div>"
   },
   "· now pass the quick check above": {
-   "t": "· ಈಗ ಮೇಲಿನ ಕಿರು ಪರಿಶೀಲನೆ ಪಾಸ್ ಮಾಡಿ",
+   "t": "· ಈಗ ಮೇಲಿನ ಕಿರು ಪರೀಕ್ಷೆ ಪಾಸ್ ಮಾಡಿ",
    "ko": "· 이제 위의 확인 문제를 통과하세요",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "js step() <div>"
   },
   "All lessons": {
-   "t": "ಎಲ್ಲಾ ಪಾಠಗಳು",
+   "t": "ಎಲ್ಲ ಪಾಠಗಳು",
    "ko": "전체 레슨",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3530,20 +3530,20 @@
    "where": "js step() <a>"
   },
   "Enter a dictionary form ending in 다.": {
-   "t": "다 ದಿಂದ ಕೊನೆಯಾಗುವ ನಿಘಂಟು ರೂಪ ನಮೂದಿಸಿ.",
+   "t": "ಕ್ರಿಯಾಪದದ ಮೂಲ ರೂಪ (V1) ಬರೆಯಿರಿ, ಉದಾ. go.",
    "ko": "다로 끝나는 기본형을 입력하세요.",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js r() <p>"
   },
   "polite present": {
-   "t": "ವಿನಯ ವರ್ತಮಾನ",
+   "t": "ಗೌರವದ Present",
    "ko": "존댓말 현재",
    "kind": "label",
    "where": "js PATTERNS()"
   },
   "polite past": {
-   "t": "ವಿನಯ ಭೂತಕಾಲ",
+   "t": "ಗೌರವದ Past",
    "ko": "존댓말 과거",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3563,40 +3563,40 @@
    "where": "js (top level)"
   },
   "don't (request)": {
-   "t": "ಬೇಡ (ವಿನಂತಿ)",
+   "t": "ಮಾಡಬೇಡಿ (ವಿನಂತಿ)",
    "ko": "~하지 마세요",
    "kind": "label",
    "where": "js row()"
   },
   "No pattern matches.": {
-   "t": "ಯಾವ ಮಾದರಿಯೂ ಹೊಂದುತ್ತಿಲ್ಲ.",
+   "t": "ಯಾವ ಪ್ಯಾಟರ್ನ್ ಕೂಡ ಸಿಗಲಿಲ್ಲ.",
    "ko": "맞는 문법 패턴이 없어요.",
    "kind": "sentence",
    "where": "js l() <p>"
   },
   "dictionary form, e.g. 먹다": {
-   "t": "ನಿಘಂಟು ರೂಪ, ಉದಾ. 먹다",
+   "t": "ಮೂಲ ರೂಪ (V1), ಉದಾ. eat",
    "ko": "기본형, 예: 먹다",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js rows() <input> @placeholder"
   },
   "Search a pattern, e.g. 에서 or 'want'": {
-   "t": "ಮಾದರಿ ಹುಡುಕಿ, ಉದಾ. 에서 ಅಥವಾ 'ಬೇಕು'",
+   "t": "ಪ್ಯಾಟರ್ನ್ ಹುಡುಕಿ, ಉದಾ. at ಅಥವಾ 'want'",
    "ko": "패턴 검색, 예: 에서 또는 '원하다'",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js rows() <input> @placeholder"
   },
   "Conjugate": {
-   "t": "ರೂಪಗಳು",
+   "t": "ರೂಪ ತೋರಿಸಿ",
    "ko": "활용하기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js rows() <button>"
   },
   "Words from dialogues": {
-   "t": "ಸಂಭಾಷಣೆಗಳಿಂದ ಪದಗಳು",
+   "t": "ಸಂಭಾಷಣೆಗಳ ಪದಗಳು",
    "ko": "대화에 나온 단어",
    "kind": "label",
    "where": "js rows() <b>"
@@ -3616,14 +3616,14 @@
    "where": "js rows() <button>"
   },
   "Try 가다 · 먹다 · 하다 · 마시다 · 예쁘다 · 듣다 · 돕다 · 살다 · 모르다": {
-   "t": "ಪ್ರಯತ್ನಿಸಿ: 가다 · 먹다 · 하다 · 마시다 · 예쁘다 · 듣다 · 돕다 · 살다 · 모르다",
+   "t": "ಪ್ರಯತ್ನಿಸಿ: go · eat · do · drink · see · hear · help · live · know",
    "ko": "가다 · 먹다 · 하다 · 마시다 · 예쁘다 · 듣다 · 돕다 · 살다 · 모르다 를 넣어 보세요",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js rows() <p>"
   },
   "(question word)": {
-   "t": "(ಪ್ರಶ್ನಾರ್ಥಕ ಪದ)",
+   "t": "(wh-ಪದ)",
    "ko": "(의문사)",
    "kind": "label",
    "where": "js toks()"
@@ -3656,49 +3656,49 @@
    "where": "html <button> text"
   },
   "verb stem + 지": {
-   "t": "ಕ್ರಿಯಾಧಾತು + 지",
+   "t": "ಕ್ರಿಯಾಪದ + ಪ್ರತ್ಯಯ",
    "ko": "동사 어간 + 지",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js toks()"
   },
   "verb + 도 (even if)": {
-   "t": "ಕ್ರಿಯಾಪದ + 도 (ಆದರೂ)",
+   "t": "ಕ್ರಿಯಾಪದ + \"ಆದರೂ\"",
    "ko": "동사 + 도 (~해도)",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js toks()"
   },
   "+ 요 (polite)": {
-   "t": "+ 요 (ವಿನಯ)",
+   "t": "+ ಗೌರವದ ರೂಪ",
    "ko": "+ 요 (존댓말)",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js stem()"
   },
   "verb · past (았/었어요)": {
-   "t": "ಕ್ರಿಯಾಪದ · ಭೂತಕಾಲ (았/었어요)",
+   "t": "ಕ್ರಿಯಾಪದ · Past",
    "ko": "동사 · 과거 (았/었어요)",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js stem()"
   },
   "don't (지 마)": {
-   "t": "ಬೇಡ (지 마)",
+   "t": "ಮಾಡಬೇಡಿ (ನಿಷೇಧ)",
    "ko": "~하지 마 (지 마)",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js toks()"
   },
   "is it okay? (-아/어도 돼요)": {
-   "t": "ಪರವಾಗಿಲ್ಲವೇ? (-아/어도 돼요)",
+   "t": "ಪರವಾಗಿಲ್ಲವೇ…?",
    "ko": "~해도 돼요? (-아/어도 돼요)",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js toks()"
   },
   "not okay? (-(으)면 안 돼요)": {
-   "t": "ಕೂಡದೇ? (-(으)면 안 돼요)",
+   "t": "ಮಾಡಬಾರದೇ…?",
    "ko": "~하면 안 돼요? (-(으)면 안 돼요)",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
@@ -3761,13 +3761,13 @@
    "where": "js (top level) <link>"
   },
   "Review a few cards and this fills in: retention by box, speed, and your best hour.": {
-   "t": "ಕೆಲವು ಕಾರ್ಡುಗಳನ್ನು ರಿವ್ಯೂ ಮಾಡಿ, ಇದು ತುಂಬುತ್ತದೆ: ಪೆಟ್ಟಿಗೆವಾರು ನೆನಪು, ವೇಗ, ಮತ್ತು ನಿಮ್ಮ ಉತ್ತಮ ಸಮಯ.",
+   "t": "ಕೆಲವು ಕಾರ್ಡ್ ಮನನ ಮಾಡಿದರೆ ಇದು ತುಂಬುತ್ತದೆ: ಬಾಕ್ಸ್‌ವಾರು ನೆನಪು, ವೇಗ ಮತ್ತು ನಿಮ್ಮ ಅತ್ಯುತ್ತಮ ಗಂಟೆ.",
    "ko": "카드를 몇 장 복습하면 여기에 상자별 기억률, 속도, 가장 잘되는 시간이 채워져요.",
    "kind": "sentence",
    "where": "js el() <p>"
   },
   "Retention when a card comes back from each box. Higher boxes should stay high; a dip means the interval there is too long for you.": {
-   "t": "ಪ್ರತಿ ಪೆಟ್ಟಿಗೆಯಿಂದ ಕಾರ್ಡ್ ಮರಳಿ ಬಂದಾಗ ಎಷ್ಟು ನೆನಪಿದೆ. ಮೇಲಿನ ಪೆಟ್ಟಿಗೆಗಳು ಎತ್ತರದಲ್ಲೇ ಇರಬೇಕು; ಇಳಿದರೆ ಅಲ್ಲಿನ ಮಧ್ಯಂತರ ನಿಮಗೆ ತುಂಬಾ ದೀರ್ಘ ಎಂದರ್ಥ.",
+   "t": "ಪ್ರತಿ ಬಾಕ್ಸ್‌ನಿಂದ ಕಾರ್ಡ್ ಮರಳಿ ಬಂದಾಗ ಎಷ್ಟು ನೆನಪಿತ್ತು ಎಂಬುದು. ಮೇಲಿನ ಬಾಕ್ಸ್‌ಗಳಲ್ಲಿ ಇದು ಹೆಚ್ಚೇ ಇರಬೇಕು; ಕುಸಿದರೆ ಅಲ್ಲಿನ ಅಂತರ ನಿಮಗೆ ತುಂಬಾ ಉದ್ದ ಎಂದರ್ಥ.",
    "ko": "각 상자에서 카드가 돌아왔을 때의 기억률이에요. 높은 상자일수록 높게 유지돼야 하고, 떨어진다면 그 상자의 간격이 나에게 너무 길다는 뜻이에요.",
    "kind": "sentence",
    "where": "js overall() <p>"
@@ -3780,7 +3780,7 @@
    "where": "js (top level)"
   },
   "Finish a deck of the week to earn one.": {
-   "t": "ಒಂದನ್ನು ಗಳಿಸಲು ವಾರದ ಡೆಕ್ ಮುಗಿಸಿ.",
+   "t": "ಬ್ಯಾಡ್ಜ್ ಪಡೆಯಲು ಈ ವಾರದ ಡೆಕ್ ಒಂದನ್ನು ಮುಗಿಸಿ.",
    "ko": "이번 주의 덱을 끝내면 받을 수 있어요.",
    "kind": "sentence",
    "where": "js ws() <p>"
@@ -3793,19 +3793,19 @@
    "where": "js c() <button>"
   },
   "🩹 leech · re-enable": {
-   "t": "🩹 ಕಷ್ಟದ ಕಾರ್ಡ್ · ಮತ್ತೆ ಸಕ್ರಿಯಗೊಳಿಸಿ",
+   "t": "🩹 ಮೊಂಡು ಕಾರ್ಡ್ · ಮರಳಿ ತನ್ನಿ",
    "ko": "🩹 거머리 카드 · 다시 켜기",
    "kind": "label",
    "where": "js c() <button>"
   },
   "Practice these": {
-   "t": "ಇವುಗಳನ್ನು ಅಭ್ಯಾಸ ಮಾಡಿ",
+   "t": "ಇವನ್ನು ಅಭ್ಯಾಸ ಮಾಡಿ",
    "ko": "이 카드 연습하기",
    "kind": "label",
    "where": "js c() <button>"
   },
   "Nothing missed yet.": {
-   "t": "ಇನ್ನೂ ಏನೂ ತಪ್ಪಿಲ್ಲ.",
+   "t": "ಇನ್ನೂ ಯಾವ ತಪ್ಪೂ ಇಲ್ಲ.",
    "ko": "아직 틀린 카드가 없어요.",
    "kind": "sentence",
    "where": "js c() <p>"
@@ -3818,13 +3818,13 @@
    "where": "html <h3> text"
   },
   "No quizzes yet.": {
-   "t": "ಇನ್ನೂ ಕ್ವಿಜ್ ಮಾಡಿಲ್ಲ.",
+   "t": "ಇನ್ನೂ ಯಾವ ಕ್ವಿಜ್ ಕೂಡ ಆಗಿಲ್ಲ.",
    "ko": "아직 푼 퀴즈가 없어요.",
    "kind": "sentence",
    "where": "js p() <p>"
   },
   "Export copied.": {
-   "t": "ರಫ್ತು ನಕಲಿಸಲಾಗಿದೆ.",
+   "t": "ಎಕ್ಸ್‌ಪೋರ್ಟ್ ನಕಲಾಗಿದೆ.",
    "ko": "내보낸 데이터를 복사했어요.",
    "kind": "sentence",
    "where": "js ta()"
@@ -3836,37 +3836,37 @@
    "where": "js ta()"
   },
   "That is not a valid export.": {
-   "t": "ಇದು ಸರಿಯಾದ ರಫ್ತು ಅಲ್ಲ.",
+   "t": "ಇದು ಸರಿಯಾದ ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಅಲ್ಲ.",
    "ko": "올바른 내보내기 데이터가 아니에요.",
    "kind": "sentence",
    "where": "js obj()"
   },
   "Intervals reset.": {
-   "t": "ಮಧ್ಯಂತರಗಳನ್ನು ರೀಸೆಟ್ ಮಾಡಲಾಗಿದೆ.",
+   "t": "ಅಂತರಗಳು ರೀಸೆಟ್ ಆಗಿವೆ.",
    "ko": "복습 간격을 초기화했어요.",
    "kind": "sentence",
    "where": "js applyZoom()"
   },
   "Decks start shuffled": {
-   "t": "ಡೆಕ್ಕುಗಳು ಶಫಲ್ ಆಗಿ ಶುರುವಾಗುತ್ತವೆ",
+   "t": "ಡೆಕ್‌ಗಳು ಶಫಲ್ ಕ್ರಮದಲ್ಲಿ",
    "ko": "덱을 섞어서 시작해요",
    "kind": "label",
    "where": "js applyZoom()"
   },
   "Decks in fixed order": {
-   "t": "ಡೆಕ್ಕುಗಳು ನಿಗದಿತ ಕ್ರಮದಲ್ಲಿ",
+   "t": "ಡೆಕ್‌ಗಳು ನಿಗದಿತ ಕ್ರಮದಲ್ಲಿ",
    "ko": "덱을 정해진 순서로 보여 줘요",
    "kind": "label",
    "where": "js applyZoom()"
   },
   "3D effects off": {
-   "t": "3D ಪರಿಣಾಮಗಳು ಆಫ್",
+   "t": "3D ಎಫೆಕ್ಟ್ ಆಫ್",
    "ko": "3D 효과 끔",
    "kind": "label",
    "where": "js vs()"
   },
   "Tap again to confirm": {
-   "t": "ಖಚಿತಪಡಿಸಲು ಮತ್ತೆ ಟ್ಯಾಪ್ ಮಾಡಿ",
+   "t": "ಖಚಿತಪಡಿಸಲು ಮತ್ತೆ ಒತ್ತಿ",
    "ko": "한 번 더 누르면 실행돼요",
    "kind": "label",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -3886,7 +3886,7 @@
    "where": "js b()"
   },
   "Could not save here. Long-press the image instead.": {
-   "t": "ಇಲ್ಲಿ ಉಳಿಸಲಾಗಲಿಲ್ಲ. ಬದಲಿಗೆ ಚಿತ್ರವನ್ನು ಒತ್ತಿ ಹಿಡಿಯಿರಿ.",
+   "t": "ಇಲ್ಲಿ ಸೇವ್ ಮಾಡಲು ಆಗಲಿಲ್ಲ. ಬದಲಿಗೆ ಚಿತ್ರವನ್ನು ಒತ್ತಿ ಹಿಡಿಯಿರಿ.",
    "ko": "여기서는 저장할 수 없어요. 대신 이미지를 길게 누르세요.",
    "kind": "sentence",
    "where": "js b()"
@@ -3898,7 +3898,7 @@
    "where": "js a()"
   },
   "Streak card": {
-   "t": "ಸ್ಟ್ರೀಕ್ ಕಾರ್ಡ್",
+   "t": "ಸತತ ದಿನದ ಕಾರ್ಡ್",
    "ko": "연속 학습 카드",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3911,13 +3911,13 @@
    "where": "js a()"
   },
   "Long-press or right-click the image to save or share it.": {
-   "t": "ಉಳಿಸಲು ಅಥವಾ ಹಂಚಿಕೊಳ್ಳಲು ಚಿತ್ರವನ್ನು ಒತ್ತಿ ಹಿಡಿಯಿರಿ ಅಥವಾ ರೈಟ್-ಕ್ಲಿಕ್ ಮಾಡಿ.",
+   "t": "ಸೇವ್ ಮಾಡಲು ಅಥವಾ ಹಂಚಿಕೊಳ್ಳಲು ಚಿತ್ರವನ್ನು ಒತ್ತಿ ಹಿಡಿಯಿರಿ ಅಥವಾ ರೈಟ್-ಕ್ಲಿಕ್ ಮಾಡಿ.",
    "ko": "이미지를 길게 누르거나 오른쪽 클릭해서 저장하거나 공유하세요.",
    "kind": "sentence",
    "where": "js a()"
   },
   "Saved.": {
-   "t": "ಉಳಿಸಲಾಗಿದೆ.",
+   "t": "ಸೇವ್ ಆಗಿದೆ.",
    "ko": "저장했어요.",
    "kind": "sentence",
    "where": "js dl()"
@@ -3929,49 +3929,49 @@
    "where": "js file()"
   },
   "Accent red": {
-   "t": "ಕೆಂಪು ಬಣ್ಣ",
+   "t": "ಥೀಮ್ ಬಣ್ಣ: ಕೆಂಪು",
    "ko": "강조 색상: 빨강",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Accent green": {
-   "t": "ಹಸಿರು ಬಣ್ಣ",
+   "t": "ಥೀಮ್ ಬಣ್ಣ: ಹಸಿರು",
    "ko": "강조 색상: 초록",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Accent blue": {
-   "t": "ನೀಲಿ ಬಣ್ಣ",
+   "t": "ಥೀಮ್ ಬಣ್ಣ: ನೀಲಿ",
    "ko": "강조 색상: 파랑",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Accent plum": {
-   "t": "ನೇರಳೆ ಬಣ್ಣ",
+   "t": "ಥೀಮ್ ಬಣ್ಣ: ನೇರಳೆ",
    "ko": "강조 색상: 자주",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "DAY STREAK": {
-   "t": "ದಿನಗಳ ಸ್ಟ್ರೀಕ್",
+   "t": "ಸತತ ದಿನ",
    "ko": "일 연속 학습",
    "kind": "canvas",
    "context": "drawn on a canvas image (share card / certificate), uppercase in English; keep short",
    "where": "js stats()"
   },
   "CARDS LEARNED": {
-   "t": "ಕಲಿತ ಕಾರ್ಡುಗಳು",
+   "t": "ಕಲಿತ ಕಾರ್ಡ್",
    "ko": "익힌 카드",
    "kind": "canvas",
    "context": "drawn on a canvas image (share card / certificate), uppercase in English; keep short",
    "where": "js stats()"
   },
   "CARDS": {
-   "t": "ಕಾರ್ಡುಗಳು",
+   "t": "ಕಾರ್ಡ್",
    "ko": "카드",
    "kind": "canvas",
    "context": "drawn on a canvas image (share card / certificate), uppercase in English; keep short",
@@ -3985,35 +3985,35 @@
    "where": "js r()"
   },
   "READING": {
-   "t": "ಓದುವಿಕೆ",
+   "t": "ಓದು",
    "ko": "읽기",
    "kind": "canvas",
    "context": "drawn on a canvas image (share card / certificate), uppercase in English; keep short",
    "where": "js stats()"
   },
   "STREAK": {
-   "t": "ಸ್ಟ್ರೀಕ್",
+   "t": "ಸತತ ದಿನ",
    "ko": "연속 학습",
    "kind": "canvas",
    "context": "drawn on a canvas image (share card / certificate), uppercase in English; keep short",
    "where": "js stats()"
   },
   "CERTIFICATE OF COMPLETION": {
-   "t": "ಪೂರ್ಣಗೊಳಿಸಿದ ಪ್ರಮಾಣಪತ್ರ",
+   "t": "ಪೂರ್ಣಗೊಳಿಸಿದ್ದಕ್ಕೆ ಪ್ರಮಾಣಪತ್ರ",
    "ko": "수료증",
    "kind": "canvas",
    "context": "drawn on a canvas image (share card / certificate), uppercase in English; keep short",
    "where": "js x()"
   },
   "KOREAN STARTER": {
-   "t": "ಕೊರಿಯನ್ ಆರಂಭ",
+   "t": "ಇಂಗ್ಲಿಷ್ ಮೊದಲ ಹೆಜ್ಜೆ",
    "ko": "영어 첫걸음",
    "kind": "canvas",
    "context": "drawn on a canvas image (share card / certificate), uppercase in English; keep short; legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "js cards()"
   },
   "cards mastered to 80%+ · all lesson checks passed": {
-   "t": "80%+ ಕರಗತವಾದ ಕಾರ್ಡುಗಳು · ಎಲ್ಲಾ ಪಾಠ ಪರಿಶೀಲನೆಗಳು ಪಾಸ್",
+   "t": "80%+ ಕರಗತವಾದ ಕಾರ್ಡ್‌ಗಳು · ಎಲ್ಲ ಕಿರು ಪರೀಕ್ಷೆ ಪಾಸ್",
    "ko": "카드 80% 이상 마스터 · 레슨 확인 문제 모두 통과",
    "kind": "sentence",
    "where": "js cards()"
@@ -4047,7 +4047,7 @@
    "where": "js (top level)"
   },
   "Pro": {
-   "t": "ಪ್ರೊ",
+   "t": "ಪರಿಣತ",
    "ko": "고수",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4061,14 +4061,14 @@
    "where": "js TITLES()"
   },
   "Sensei": {
-   "t": "ಗುರು",
+   "t": "ಆಚಾರ್ಯ",
    "ko": "사범",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js TITLES()"
   },
   "Beginner": {
-   "t": "ಆರಂಭಿಗ",
+   "t": "ಆರಂಭಿಕ",
    "ko": "입문",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4096,48 +4096,48 @@
    "where": "js v()"
   },
   "Learn Korean, 5 minutes a day": {
-   "t": "ಕೊರಿಯನ್ ಕಲಿಯಿರಿ, ದಿನಕ್ಕೆ 5 ನಿಮಿಷ",
+   "t": "ಇಂಗ್ಲಿಷ್ ಕಲಿಯಿರಿ — ದಿನಕ್ಕೆ 5 ನಿಮಿಷ",
    "ko": "하루 5분, 영어 공부",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "js sub()"
   },
   "목표 달성! Daily goal reached 🎉": {
-   "t": "목표 달성! ಇಂದಿನ ಗುರಿ ತಲುಪಿದೆ 🎉",
+   "t": "ದಿನದ ಗುರಿ ತಲುಪಿದ್ದೀರಿ! 🎉",
    "ko": "목표 달성! 오늘 목표를 채웠어요 🎉",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js t()"
   },
   "all seen": {
-   "t": "ಎಲ್ಲಾ ನೋಡಿದ್ದೀರಿ",
+   "t": "ಎಲ್ಲ ನೋಡಿಯಾಗಿದೆ",
    "ko": "모두 봤어요",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js days()"
   },
   "= Got it  ·": {
-   "t": "= ಗೊತ್ತಿದೆ  ·",
+   "t": "= ಗೊತ್ತು  ·",
    "ko": "= 알아요  ·",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Korean progress": {
-   "t": "ಕೊರಿಯನ್ ಪ್ರಗತಿ",
+   "t": "ಇಂಗ್ಲಿಷ್ ಪ್ರಗತಿ",
    "ko": "영어 학습 진도",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "tap to skip": {
-   "t": "ಬಿಡಲು ಟ್ಯಾಪ್ ಮಾಡಿ",
+   "t": "ಬಿಟ್ಟುಬಿಡಲು ಒತ್ತಿ",
    "ko": "탭해서 건너뛰기",
    "kind": "label",
    "where": "js skip()"
   },
   "tap anywhere to continue": {
-   "t": "ಮುಂದುವರಿಸಲು ಎಲ್ಲಿಯಾದರೂ ಟ್ಯಾಪ್ ಮಾಡಿ",
+   "t": "ಮುಂದುವರಿಸಲು ಎಲ್ಲಾದರೂ ಒತ್ತಿ",
    "ko": "아무 곳이나 탭해서 계속하기",
    "kind": "label",
    "where": "js eTag()"
@@ -4150,37 +4150,37 @@
    "where": "js PAUSE_EXTRA()"
   },
   "Learning…": {
-   "t": "ಕಲಿಯುತ್ತಿದ್ದೀರಿ…",
+   "t": "ಕಲಿಕೆ ನಡೆಯುತ್ತಿದೆ…",
    "ko": "학습 중…",
    "kind": "sentence",
    "where": "js PAUSE_EXTRA()"
   },
   "You've got this!": {
-   "t": "ನಿಮ್ಮಿಂದ ಸಾಧ್ಯ!",
+   "t": "ನಿಮ್ಮಿಂದ ಆಗುತ್ತದೆ!",
    "ko": "할 수 있어요!",
    "kind": "sentence",
    "where": "js PAUSE_EXTRA()"
   },
   "You're doing great": {
-   "t": "ತುಂಬಾ ಚೆನ್ನಾಗಿ ಮಾಡುತ್ತಿದ್ದೀರಿ",
+   "t": "ಚೆನ್ನಾಗಿ ಮಾಡುತ್ತಿದ್ದೀರಿ",
    "ko": "정말 잘하고 있어요",
    "kind": "label",
    "where": "js PAUSE_EXTRA()"
   },
   "Take your time": {
-   "t": "ನಿಧಾನವಾಗಿ ಮಾಡಿ",
+   "t": "ಅವಸರ ಬೇಡ",
    "ko": "천천히 해도 돼요",
    "kind": "label",
    "where": "js PAUSE_EXTRA()"
   },
   "Tap to start again": {
-   "t": "ಮತ್ತೆ ಶುರು ಮಾಡಲು ಟ್ಯಾಪ್ ಮಾಡಿ",
+   "t": "ಮತ್ತೆ ಪ್ರಾರಂಭಿಸಲು ಒತ್ತಿ",
    "ko": "탭해서 다시 시작",
    "kind": "label",
    "where": "js PAUSE_EXTRA()"
   },
   "사자성어 · four-character idiom": {
-   "t": "사자성어 · ನಾಲ್ಕು ಅಕ್ಷರದ ನುಡಿಗಟ್ಟು",
+   "t": "ನುಡಿಗಟ್ಟು",
    "ko": "사자성어 · 네 글자 관용구",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
@@ -4207,7 +4207,7 @@
    "where": "js x()"
   },
   "it's late, good work": {
-   "t": "ತಡವಾಯಿತು, ಒಳ್ಳೆಯ ಶ್ರಮ",
+   "t": "ತಡವಾಗಿದೆ, ಚೆನ್ನಾಗಿ ಮಾಡಿದ್ದೀರಿ",
    "ko": "늦었네요, 수고했어요",
    "kind": "label",
    "where": "js x()"
@@ -4220,28 +4220,28 @@
    "where": "js tx()"
   },
   "Study time": {
-   "t": "ಓದುವ ಸಮಯ",
+   "t": "ಕಲಿಕೆಯ ಸಮಯ",
    "ko": "공부 시간",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js STR()"
   },
   "Your track": {
-   "t": "ನಿಮ್ಮ ಹಾದಿ",
+   "t": "ನಿಮ್ಮ ದಾರಿ",
    "ko": "내 트랙",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js STR()"
   },
   "Flashcards": {
-   "t": "ಫ್ಲ್ಯಾಶ್ ಕಾರ್ಡುಗಳು",
+   "t": "ಫ್ಲ್ಯಾಶ್‌ಕಾರ್ಡ್",
    "ko": "플래시카드",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js STR()"
   },
   "Unlock all": {
-   "t": "ಎಲ್ಲಾ ಅನ್ಲಾಕ್",
+   "t": "ಎಲ್ಲ ಅನ್‌ಲಾಕ್ ಮಾಡಿ",
    "ko": "모두 열기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4255,14 +4255,14 @@
    "where": "js STR()"
   },
   "Hide romanization": {
-   "t": "ರೋಮನ್ ಲಿಪಿ ಮರೆಮಾಡಿ",
+   "t": "ಉಚ್ಚಾರಣೆ ಮರೆಮಾಡಿ",
    "ko": "발음 표기 숨기기",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "js STR()"
   },
   "Listen first (new cards)": {
-   "t": "ಮೊದಲು ಆಲಿಸಿ (ಹೊಸ ಕಾರ್ಡುಗಳು)",
+   "t": "ಮೊದಲು ಕೇಳಿ (ಹೊಸ ಕಾರ್ಡ್)",
    "ko": "먼저 듣기 (새 카드)",
    "kind": "label",
    "where": "js STR()"
@@ -4274,13 +4274,13 @@
    "where": "js soon() <h1>"
   },
   "What do you want to learn?": {
-   "t": "ನೀವು ಏನನ್ನು ಕಲಿಯಲು ಬಯಸುತ್ತೀರಿ?",
+   "t": "ಏನು ಕಲಿಯಲು ಬಯಸುತ್ತೀರಿ?",
    "ko": "무엇을 배우고 싶으세요?",
    "kind": "sentence",
    "where": "js nm() <h1>"
   },
   "Coming soon": {
-   "t": "ಶೀಘ್ರದಲ್ಲೇ",
+   "t": "ಶೀಘ್ರದಲ್ಲೇ ಬರಲಿದೆ",
    "ko": "출시 예정",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4313,7 +4313,7 @@
    "where": "html <button> @aria-label"
   },
   "Pronunciation hint": {
-   "t": "ಉಚ್ಚಾರಣೆಯ ಸುಳಿವು",
+   "t": "ಉಚ್ಚಾರಣೆ",
    "ko": "발음 힌트",
    "kind": "label",
    "where": "js ENGINE_I18N()"
@@ -4337,21 +4337,21 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Aa romanization: on": {
-   "t": "Aa ರೋಮನ್ ಲಿಪಿ: ಆನ್",
+   "t": "Aa ಉಚ್ಚಾರಣೆ: ಆನ್",
    "ko": "Aa 발음 표기: 켜짐",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Aa romanization: off": {
-   "t": "Aa ರೋಮನ್ ಲಿಪಿ: ಆಫ್",
+   "t": "Aa ಉಚ್ಚಾರಣೆ: ಆಫ್",
    "ko": "Aa 발음 표기: 꺼짐",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Listen": {
-   "t": "ಆಲಿಸಿ",
+   "t": "ಕೇಳಿ",
    "ko": "듣기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4372,7 +4372,7 @@
    "where": "js (top level) <style>"
   },
   "coming soon": {
-   "t": "ಶೀಘ್ರದಲ್ಲೇ",
+   "t": "ಶೀಘ್ರದಲ್ಲೇ ಬರಲಿದೆ",
    "ko": "출시 예정",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4386,44 +4386,44 @@
    "where": "js PRACTICE()"
   },
   "Courses": {
-   "t": "ಕೋರ್ಸುಗಳು",
+   "t": "ಕೋರ್ಸ್‌ಗಳು",
    "ko": "코스",
    "kind": "label",
    "context": "heading: course list",
    "where": "js register()"
   },
   "Pronunciation hint (auto if blank)": {
-   "t": "ಉಚ್ಚಾರಣೆಯ ಸುಳಿವು (ಖಾಲಿ ಬಿಟ್ಟರೆ ತಾನಾಗಿ)",
+   "t": "ಉಚ್ಚಾರಣೆ (ಖಾಲಿ ಬಿಟ್ಟರೆ ತಾನಾಗಿ ಬರುತ್ತದೆ)",
    "ko": "발음 힌트 (비워 두면 자동)",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "English (required)": {
-   "t": "ಇಂಗ್ಲಿಷ್ (ಅಗತ್ಯ)",
+   "t": "ಇಂಗ್ಲಿಷ್ (ಕಡ್ಡಾಯ)",
    "ko": "영어 표현 (필수)",
    "kind": "label",
    "where": "js ENGINE_I18N()"
   },
   "Type the English": {
-   "t": "ಇಂಗ್ಲಿಷ್ ಟೈಪ್ ಮಾಡಿ",
+   "t": "ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಬರೆಯಿರಿ",
    "ko": "영어로 입력하세요",
    "kind": "label",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "type it in English": {
-   "t": "ಇಂಗ್ಲಿಷಿನಲ್ಲಿ ಟೈಪ್ ಮಾಡಿ",
+   "t": "ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಬರೆಯಿರಿ",
    "ko": "영어로 입력하세요",
    "kind": "label",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Learn English, 5 minutes a day": {
-   "t": "ಇಂಗ್ಲಿಷ್ ಕಲಿಯಿರಿ, ದಿನಕ್ಕೆ 5 ನಿಮಿಷ",
+   "t": "ಇಂಗ್ಲಿಷ್ ಕಲಿಯಿರಿ — ದಿನಕ್ಕೆ 5 ನಿಮಿಷ",
    "ko": "하루 5분, 영어 공부",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Learning English 5 minutes a day with Lang App 🇺🇸": {
-   "t": "Lang App ಜೊತೆ ದಿನಕ್ಕೆ 5 ನಿಮಿಷ ಇಂಗ್ಲಿಷ್ ಕಲಿಯುತ್ತಿದ್ದೇನೆ 🇺🇸",
+   "t": "ಇಂಗ್ಲಿಷ್ — ದಿನಕ್ಕೆ 5 ನಿಮಿಷ, Lang App 🇺🇸",
    "ko": "Lang App으로 하루 5분 영어 공부 중 🇺🇸",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -4436,7 +4436,7 @@
    "where": "js (top level) <title>"
   },
   "#basics": {
-   "t": "#ಮೂಲಭೂತ",
+   "t": "#ಮೂಲಪಾಠ",
    "ko": "#기초",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4450,7 +4450,7 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "#social": {
-   "t": "#ಸಾಮಾಜಿಕ",
+   "t": "#ಒಡನಾಟ",
    "ko": "#친구·사교",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4464,7 +4464,7 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "#media": {
-   "t": "#ಮಾಧ್ಯಮ",
+   "t": "#ಮೀಡಿಯಾ",
    "ko": "#미디어",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4478,7 +4478,7 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "· lesson counts as done when both are passed (+25 XP).": {
-   "t": "· ಎರಡೂ ಪಾಸ್ ಆದಾಗ ಪಾಠ ಮುಗಿದಂತೆ (+25 XP).",
+   "t": "· ಎರಡೂ ಪಾಸ್ ಆದರೆ ಪಾಠ ಮುಗಿದಂತೆ (+25 XP).",
    "ko": "· 둘 다 통과하면 레슨 완료 (+25 XP).",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -4491,7 +4491,7 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "· all seen": {
-   "t": "· ಎಲ್ಲಾ ನೋಡಿದ್ದೀರಿ",
+   "t": "· ಎಲ್ಲ ನೋಡಿಯಾಗಿದೆ",
    "ko": "· 모두 봤어요",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -4512,43 +4512,43 @@
    "where": "js stats()"
   },
   "Export = this course's progress as text (other courses are exported separately). Use it to move between devices when account sync is off.": {
-   "t": "ರಫ್ತು = ಈ ಕೋರ್ಸಿನ ಪ್ರಗತಿ, ಪಠ್ಯವಾಗಿ (ಬೇರೆ ಕೋರ್ಸುಗಳನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ರಫ್ತು ಮಾಡಲಾಗುತ್ತದೆ). ಖಾತೆ ಸಿಂಕ್ ಆಫ್ ಇರುವಾಗ ಸಾಧನಗಳ ನಡುವೆ ಬದಲಾಯಿಸಲು ಇದನ್ನು ಬಳಸಿ.",
+   "t": "ಎಕ್ಸ್‌ಪೋರ್ಟ್ = ಈ ಕೋರ್ಸ್‌ನ ಪ್ರಗತಿ, ಪಠ್ಯ ರೂಪದಲ್ಲಿ (ಬೇರೆ ಕೋರ್ಸ್‌ಗಳು ಬೇರೆಯಾಗಿ ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಆಗುತ್ತವೆ). ಖಾತೆ ಸಿಂಕ್ ಆಫ್ ಇರುವಾಗ ಒಂದು ಸಾಧನದಿಂದ ಇನ್ನೊಂದಕ್ಕೆ ಹೋಗಲು ಇದನ್ನು ಬಳಸಿ.",
    "ko": "내보내기 = 이 코스의 진도를 텍스트로 저장해요 (다른 코스는 따로 내보내요). 계정 동기화를 쓰지 않을 때 기기를 옮기는 데 쓰세요.",
    "kind": "sentence",
    "where": "html <p> text"
   },
   "Erase this course's progress": {
-   "t": "ಈ ಕೋರ್ಸಿನ ಪ್ರಗತಿ ಅಳಿಸಿ",
+   "t": "ಈ ಕೋರ್ಸ್‌ನ ಪ್ರಗತಿ ಅಳಿಸಿ",
    "ko": "이 코스 진도 지우기",
    "kind": "label",
    "where": "html <button> text"
   },
   "Tap again to erase this course": {
-   "t": "ಈ ಕೋರ್ಸ್ ಅಳಿಸಲು ಮತ್ತೆ ಟ್ಯಾಪ್ ಮಾಡಿ",
+   "t": "ಈ ಕೋರ್ಸ್ ಅಳಿಸಲು ಮತ್ತೆ ಒತ್ತಿ",
    "ko": "한 번 더 누르면 이 코스 진도를 지워요",
    "kind": "sentence",
    "where": "js g()"
   },
   "Merges into the course the export came from; nothing is lost.": {
-   "t": "ರಫ್ತು ಬಂದ ಕೋರ್ಸಿನೊಳಗೆ ವಿಲೀನವಾಗುತ್ತದೆ; ಏನೂ ಕಳೆದುಹೋಗುವುದಿಲ್ಲ.",
+   "t": "ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಯಾವ ಕೋರ್ಸ್‌ನದ್ದೋ ಅದೇ ಕೋರ್ಸ್‌ಗೆ ವಿಲೀನವಾಗುತ್ತದೆ; ಏನೂ ಕಳೆದುಹೋಗುವುದಿಲ್ಲ.",
    "ko": "내보낸 코스의 진도와 합쳐져요. 사라지는 건 없어요.",
    "kind": "sentence",
    "where": "js r()"
   },
   "This course's progress was erased. Other courses are untouched.": {
-   "t": "ಈ ಕೋರ್ಸಿನ ಪ್ರಗತಿ ಅಳಿಸಲಾಗಿದೆ. ಬೇರೆ ಕೋರ್ಸುಗಳು ಹಾಗೆಯೇ ಇವೆ.",
+   "t": "ಈ ಕೋರ್ಸ್‌ನ ಪ್ರಗತಿ ಅಳಿಸಲಾಗಿದೆ. ಬೇರೆ ಕೋರ್ಸ್‌ಗಳು ಹಾಗೆಯೇ ಇವೆ.",
    "ko": "이 코스의 진도를 지웠어요. 다른 코스는 그대로예요.",
    "kind": "sentence",
    "where": "js g()"
   },
   "Listening, typing, role-play and saying it out loud — pick a drill.": {
-   "t": "ಆಲಿಕೆ, ಟೈಪಿಂಗ್, ಪಾತ್ರಾಭಿನಯ ಮತ್ತು ಜೋರಾಗಿ ಹೇಳುವುದು — ಒಂದು ಡ್ರಿಲ್ ಆರಿಸಿ.",
+   "t": "ಕೇಳುವುದು, ಟೈಪಿಂಗ್, ರೋಲ್-ಪ್ಲೇ ಮತ್ತು ಗಟ್ಟಿಯಾಗಿ ಹೇಳುವುದು — ಒಂದು ಡ್ರಿಲ್ ಆರಿಸಿ.",
    "ko": "듣기, 입력, 역할극, 소리 내어 말하기 — 훈련을 골라 보세요.",
    "kind": "sentence",
    "where": "js u()"
   },
   "Language · 언어": {
-   "t": "ಭಾಷೆ · 언어",
+   "t": "ಭಾಷೆ",
    "ko": "언어",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
@@ -4562,7 +4562,7 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Three quick questions": {
-   "t": "ಮೂರು ಚಿಕ್ಕ ಪ್ರಶ್ನೆಗಳು",
+   "t": "ಮೂರು ಚಿಕ್ಕ ಪ್ರಶ್ನೆ",
    "ko": null,
    "kind": "label",
    "context": "LL — Onboarding (pack courses)",
@@ -4572,7 +4572,7 @@
    ]
   },
   "Just starting": {
-   "t": "ಈಗಷ್ಟೇ ಶುರು",
+   "t": "ಈಗಷ್ಟೇ ಆರಂಭ",
    "ko": null,
    "kind": "label",
    "context": "LL — Onboarding",
@@ -4582,7 +4582,7 @@
    ]
   },
   "Some basics": {
-   "t": "ಸ್ವಲ್ಪ ಮೂಲಭೂತ ಗೊತ್ತು",
+   "t": "ಸ್ವಲ್ಪ ಗೊತ್ತು",
    "ko": null,
    "kind": "label",
    "context": "LL — Onboarding",
@@ -4592,7 +4592,7 @@
    ]
   },
   "I get by": {
-   "t": "ಹೇಗೋ ನಿಭಾಯಿಸುತ್ತೇನೆ",
+   "t": "ನಿಭಾಯಿಸಬಲ್ಲೆ",
    "ko": null,
    "kind": "label",
    "context": "LL — Onboarding",
@@ -4652,7 +4652,7 @@
    ]
   },
   "Add some cards first.": {
-   "t": "ಮೊದಲು ಕೆಲವು ಕಾರ್ಡುಗಳನ್ನು ಸೇರಿಸಿ.",
+   "t": "ಮೊದಲು ಕೆಲವು ಕಾರ್ಡ್ ಸೇರಿಸಿ.",
    "ko": null,
    "kind": "label",
    "context": "LL — Type drill, empty pool",
@@ -4672,7 +4672,7 @@
    ]
   },
   "Due for review": {
-   "t": "ರಿವ್ಯೂಗೆ ಬಾಕಿ",
+   "t": "ಪುನರ್ಮನನಕ್ಕೆ ಬಾಕಿ",
    "ko": null,
    "kind": "label",
    "context": "LL — Pause scene tag",
@@ -4692,7 +4692,7 @@
    ]
   },
   "Planned": {
-   "t": "ಯೋಜಿತ",
+   "t": "ಯೋಜನೆಯಲ್ಲಿದೆ",
    "ko": null,
    "kind": "label",
    "context": "LL — Lessons list: planned roadmap pill",
@@ -4722,7 +4722,7 @@
    ]
   },
   "Not quite.": {
-   "t": "ಇನ್ನೂ ಸರಿಯಿಲ್ಲ.",
+   "t": "ಪೂರ್ತಿ ಸರಿಯಲ್ಲ.",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice runner feedback",
@@ -4752,7 +4752,7 @@
    ]
   },
   "Type your answer first.": {
-   "t": "ಮೊದಲು ನಿಮ್ಮ ಉತ್ತರ ಟೈಪ್ ಮಾಡಿ.",
+   "t": "ಮೊದಲು ನಿಮ್ಮ ಉತ್ತರ ಬರೆಯಿರಿ.",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice runner feedback",
@@ -4772,7 +4772,7 @@
    ]
   },
   "Choose the right one": {
-   "t": "ಸರಿಯಾದದ್ದನ್ನು ಆರಿಸಿ",
+   "t": "ಸರಿಯಾದ ಆಯ್ಕೆ ಆರಿಸಿ",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice runner item heading",
@@ -4782,7 +4782,7 @@
    ]
   },
   "Put the words in order": {
-   "t": "ಪದಗಳನ್ನು ಕ್ರಮದಲ್ಲಿ ಜೋಡಿಸಿ",
+   "t": "ವಾಕ್ಯ ಜೋಡಿಸಿ",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice runner item heading",
@@ -4802,7 +4802,7 @@
    ]
   },
   "Write it": {
-   "t": "ಬರೆಯಿರಿ",
+   "t": "ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಬರೆಯಿರಿ",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice runner item heading",
@@ -4812,7 +4812,7 @@
    ]
   },
   "tap the words": {
-   "t": "ಪದಗಳನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ",
+   "t": "ಪದಗಳನ್ನು ಒತ್ತಿ",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice runner heading suffix (shown as <heading> · tap the words)",
@@ -4822,7 +4822,7 @@
    ]
   },
   "tap the answer": {
-   "t": "ಉತ್ತರ ಟ್ಯಾಪ್ ಮಾಡಿ",
+   "t": "ಉತ್ತರ ಒತ್ತಿ",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice runner heading suffix",
@@ -4842,7 +4842,7 @@
    ]
   },
   "Tap the words below": {
-   "t": "ಕೆಳಗಿನ ಪದಗಳನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ",
+   "t": "ಕೆಳಗಿನ ಪದಗಳನ್ನು ಒತ್ತಿ",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice runner tiles placeholder",
@@ -4902,7 +4902,7 @@
    ]
   },
   "Back to practice": {
-   "t": "ಅಭ್ಯಾಸಕ್ಕೆ ಹಿಂದಿರುಗಿ",
+   "t": "ಅಭ್ಯಾಸಕ್ಕೆ ಮರಳಿ",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice rule sheet",
@@ -4912,7 +4912,7 @@
    ]
   },
   "First-try score": {
-   "t": "ಮೊದಲ ಪ್ರಯತ್ನದ ಅಂಕ",
+   "t": "ಮೊದಲ ಪ್ರಯತ್ನದ ಸ್ಕೋರ್",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice end screen (followed by  · 80% · )",
@@ -4922,7 +4922,7 @@
    ]
   },
   "best": {
-   "t": "ಉತ್ತಮ",
+   "t": "ಅತ್ಯುತ್ತಮ",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice end screen (followed by  90%)",
@@ -4932,7 +4932,7 @@
    ]
   },
   "Missed on the first try": {
-   "t": "ಮೊದಲ ಪ್ರಯತ್ನದಲ್ಲಿ ತಪ್ಪಿದವು",
+   "t": "ಮೊದಲ ಪ್ರಯತ್ನದಲ್ಲಿ ತಪ್ಪು",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice end screen",
@@ -4942,7 +4942,7 @@
    ]
   },
   "Every item right on the first try.": {
-   "t": "ಎಲ್ಲವೂ ಮೊದಲ ಪ್ರಯತ್ನದಲ್ಲೇ ಸರಿ.",
+   "t": "ಪ್ರತಿ ಪ್ರಶ್ನೆಯೂ ಮೊದಲ ಪ್ರಯತ್ನದಲ್ಲೇ ಸರಿ.",
    "ko": null,
    "kind": "sentence",
    "context": "LL — Practice end screen",
@@ -4962,7 +4962,7 @@
    ]
   },
   "Back to lesson": {
-   "t": "ಪಾಠಕ್ಕೆ ಹಿಂದಿರುಗಿ",
+   "t": "ಪಾಠಕ್ಕೆ ಮರಳಿ",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice end screen",
@@ -4992,7 +4992,7 @@
    ]
   },
   "Coming soon · tap to preview": {
-   "t": "ಶೀಘ್ರದಲ್ಲೇ · ಮುನ್ನೋಟಕ್ಕೆ ಟ್ಯಾಪ್ ಮಾಡಿ",
+   "t": "ಶೀಘ್ರದಲ್ಲೇ ಬರಲಿದೆ · ಪ್ರಿವ್ಯೂ ನೋಡಲು ಒತ್ತಿ",
    "ko": null,
    "kind": "sentence",
    "context": "language home LLin — Language home step 2 locked list heading (after 🔒)",
@@ -5022,7 +5022,7 @@
    ]
   },
   "How should we save your progress?": {
-   "t": "ನಿಮ್ಮ ಪ್ರಗತಿಯನ್ನು ಹೇಗೆ ಉಳಿಸೋಣ?",
+   "t": "ನಿಮ್ಮ ಪ್ರಗತಿಯನ್ನು ಹೇಗೆ ಸೇವ್ ಮಾಡಬೇಕು?",
    "ko": null,
    "kind": "sentence",
    "context": "pre-native preBi/preLine — Welcome step 1 second line",
@@ -5042,7 +5042,7 @@
    ]
   },
   "Saves across all your devices": {
-   "t": "ನಿಮ್ಮ ಎಲ್ಲಾ ಸಾಧನಗಳಲ್ಲಿ ಉಳಿಯುತ್ತದೆ",
+   "t": "ನಿಮ್ಮ ಎಲ್ಲ ಸಾಧನಗಳಲ್ಲಿ ಸೇವ್ ಆಗುತ್ತದೆ",
    "ko": null,
    "kind": "sentence",
    "context": "pre-native preBi/preLine — Welcome step 1",
@@ -5052,7 +5052,7 @@
    ]
   },
   "This device only — lost if browser data is cleared": {
-   "t": "ಈ ಸಾಧನದಲ್ಲಿ ಮಾತ್ರ — ಬ್ರೌಸರ್ ಡೇಟಾ ಅಳಿಸಿದರೆ ಹೋಗುತ್ತದೆ",
+   "t": "ಈ ಸಾಧನ ಮಾತ್ರ — ಬ್ರೌಸರ್ ಡೇಟಾ ಅಳಿಸಿದರೆ ಕಳೆದುಹೋಗುತ್ತದೆ",
    "ko": null,
    "kind": "sentence",
    "context": "pre-native preBi/preLine — Welcome step 1 warning line",
@@ -5072,7 +5072,7 @@
    ]
   },
   "This device only — lost if browser data is cleared. Add an email later in Progress.": {
-   "t": "ಈ ಸಾಧನದಲ್ಲಿ ಮಾತ್ರ — ಬ್ರೌಸರ್ ಡೇಟಾ ಅಳಿಸಿದರೆ ಹೋಗುತ್ತದೆ. ನಂತರ \"ಪ್ರಗತಿ\" ವಿಭಾಗದಲ್ಲಿ ಇಮೇಲ್ ಸೇರಿಸಿ.",
+   "t": "ಈ ಸಾಧನ ಮಾತ್ರ — ಬ್ರೌಸರ್ ಡೇಟಾ ಅಳಿಸಿದರೆ ಕಳೆದುಹೋಗುತ್ತದೆ. ನಂತರ \"ಪ್ರಗತಿ\" ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಇಮೇಲ್ ಸೇರಿಸಿ.",
    "ko": null,
    "kind": "sentence",
    "context": "pre-native preBi/preLine — Welcome step 3 warning line",
@@ -5092,7 +5092,7 @@
    ]
   },
   "Learn a language, 5 minutes a day": {
-   "t": "ದಿನಕ್ಕೆ 5 ನಿಮಿಷ, ಒಂದು ಭಾಷೆ ಕಲಿಯಿರಿ",
+   "t": "ಒಂದು ಭಾಷೆ ಕಲಿಯಿರಿ — ದಿನಕ್ಕೆ 5 ನಿಮಿಷ",
    "ko": null,
    "kind": "sentence",
    "context": "pre-native preBi/preLine — Intro animation subtitle before the native language is known",
@@ -5102,7 +5102,7 @@
    ]
   },
   "Daily goal reached 🎉": {
-   "t": "ಇಂದಿನ ಗುರಿ ತಲುಪಿದೆ 🎉",
+   "t": "ದಿನದ ಗುರಿ ತಲುಪಿದ್ದೀರಿ 🎉",
    "ko": null,
    "kind": "label",
    "context": "DOM translator (JS-built text) — Goal toast for non-Korean courses (DOM translator; was 목표 달성! Daily goal reached 🎉)",
@@ -5112,7 +5112,7 @@
    ]
   },
   "Working late — nice job": {
-   "t": "ತಡರಾತ್ರಿ ಕೆಲಸ — ಭೇಷ್",
+   "t": "ತಡರಾತ್ರಿಯಲ್ಲೂ ಕಲಿಕೆ — ಶಾಭಾಷ್",
    "ko": null,
    "kind": "label",
    "context": "i18nGet (optional gloss) — Today greeting gloss under the English greeting (empty when missing)",
@@ -5152,7 +5152,7 @@
    ]
   },
   "Listen, type, role-play and say it out loud — practice with the cards you have unlocked. Your results here also count in sessions.": {
-   "t": "ಆಲಿಸಿ, ಟೈಪ್ ಮಾಡಿ, ಪಾತ್ರಾಭಿನಯ ಮಾಡಿ, ಜೋರಾಗಿ ಹೇಳಿ — ನೀವು ಅನ್ಲಾಕ್ ಮಾಡಿದ ಕಾರ್ಡುಗಳೊಂದಿಗೆ ಅಭ್ಯಾಸ ಮಾಡಿ. ಇಲ್ಲಿನ ಫಲಿತಾಂಶಗಳು ಸೆಷನ್ನುಗಳಲ್ಲೂ ಎಣಿಕೆಯಾಗುತ್ತವೆ.",
+   "t": "ಕೇಳಿ, ಟೈಪ್ ಮಾಡಿ, ರೋಲ್-ಪ್ಲೇ ಮಾಡಿ, ಗಟ್ಟಿಯಾಗಿ ಹೇಳಿ — ನೀವು ಅನ್‌ಲಾಕ್ ಮಾಡಿದ ಕಾರ್ಡ್‌ಗಳಿಂದ ಅಭ್ಯಾಸ ಮಾಡಿ. ಇಲ್ಲಿನ ಫಲಿತಾಂಶ ಸೆಷನ್‌ಗಳಲ್ಲೂ ಲೆಕ್ಕಕ್ಕೆ ಬರುತ್ತದೆ.",
    "ko": null,
    "kind": "sentence",
    "where": "requested from JS (docs/LL-KEYS.md #104)",
@@ -5161,7 +5161,7 @@
    ]
   },
   "Show pronunciation hints in practice": {
-   "t": "ಅಭ್ಯಾಸದಲ್ಲಿ ಉಚ್ಚಾರಣೆಯ ಸುಳಿವುಗಳನ್ನು ತೋರಿಸಿ",
+   "t": "ಅಭ್ಯಾಸದಲ್ಲಿ ಉಚ್ಚಾರಣೆ ತೋರಿಸಿ",
    "ko": null,
    "kind": "sentence",
    "where": "requested from JS (docs/LL-KEYS.md #105)",
@@ -5170,7 +5170,7 @@
    ]
   },
   "Blur pronunciation hints in Browse": {
-   "t": "\"ನೋಡಿ\" ವಿಭಾಗದಲ್ಲಿ ಉಚ್ಚಾರಣೆಯ ಸುಳಿವುಗಳು ಮಸುಕು",
+   "t": "ಬ್ರೌಸ್ ಮಾಡುವಾಗ ಉಚ್ಚಾರಣೆ ಮಸುಕು ಮಾಡಿ",
    "ko": null,
    "kind": "sentence",
    "where": "requested from JS (docs/LL-KEYS.md #106)",
@@ -5179,7 +5179,7 @@
    ]
   },
   "Pronunciation hint (optional)": {
-   "t": "ಉಚ್ಚಾರಣೆಯ ಸುಳಿವು (ಐಚ್ಛಿಕ)",
+   "t": "ಉಚ್ಚಾರಣೆ (ಐಚ್ಛಿಕ)",
    "ko": null,
    "kind": "sentence",
    "where": "requested from JS (docs/LL-KEYS.md #107)",
@@ -5188,7 +5188,7 @@
    ]
   },
   "English, pronunciation, meaning, note — one per line (pronunciation/note optional)": {
-   "t": "ಇಂಗ್ಲಿಷ್, ಉಚ್ಚಾರಣೆ, ಅರ್ಥ, ಟಿಪ್ಪಣಿ — ಸಾಲಿಗೆ ಒಂದು (ಉಚ್ಚಾರಣೆ/ಟಿಪ್ಪಣಿ ಐಚ್ಛಿಕ)",
+   "t": "ಇಂಗ್ಲಿಷ್, ಉಚ್ಚಾರಣೆ, ಅರ್ಥ, ಟಿಪ್ಪಣಿ — ಪ್ರತಿ ಸಾಲಿಗೆ ಒಂದು ಕಾರ್ಡ್ (ಉಚ್ಚಾರಣೆ ಮತ್ತು ಟಿಪ್ಪಣಿ ಐಚ್ಛಿಕ)",
    "ko": null,
    "kind": "sentence",
    "where": "requested from JS (docs/LL-KEYS.md #109)",
@@ -5206,7 +5206,7 @@
    ]
   },
   "listen · type · role-play": {
-   "t": "ಆಲಿಕೆ · ಟೈಪ್ · ಪಾತ್ರಾಭಿನಯ",
+   "t": "ಕೇಳಿ · ಟೈಪ್ ಮಾಡಿ · ರೋಲ್-ಪ್ಲೇ",
    "ko": null,
    "kind": "label",
    "where": "requested from JS (docs/LL-KEYS.md #117)",
@@ -5215,7 +5215,7 @@
    ]
   },
   "Could not load. Check your connection.": {
-   "t": "ಲೋಡ್ ಆಗಲಿಲ್ಲ. ನಿಮ್ಮ ಸಂಪರ್ಕ ಪರಿಶೀಲಿಸಿ.",
+   "t": "ಲೋಡ್ ಆಗಲಿಲ್ಲ. ನಿಮ್ಮ ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕ ನೋಡಿ.",
    "ko": null,
    "kind": "sentence",
    "context": "shown as a short toast",
@@ -5225,7 +5225,7 @@
    ]
   },
   "A new version is ready. Reload to continue.": {
-   "t": "ಹೊಸ ಆವೃತ್ತಿ ಸಿದ್ಧವಿದೆ. ಮುಂದುವರಿಸಲು ರೀಲೋಡ್ ಮಾಡಿ.",
+   "t": "ಹೊಸ ಆವೃತ್ತಿ ಸಿದ್ಧವಾಗಿದೆ. ಮುಂದುವರಿಸಲು ರೀಲೋಡ್ ಮಾಡಿ.",
    "ko": null,
    "kind": "sentence",
    "context": "shown as a short toast",
@@ -5242,7 +5242,7 @@
    "where": "html <div> @aria-label"
   },
   "⚙ More options": {
-   "t": "⚙ ಹೆಚ್ಚಿನ ಆಯ್ಕೆಗಳು",
+   "t": "⚙ ಹೆಚ್ಚು ಆಯ್ಕೆಗಳು",
    "ko": "⚙ 옵션 더 보기",
    "kind": "label",
    "where": "html <button> text"
@@ -5254,20 +5254,20 @@
    "where": "js on()"
   },
   "Show all options on every screen": {
-   "t": "ಪ್ರತಿ ಪರದೆಯಲ್ಲೂ ಎಲ್ಲಾ ಆಯ್ಕೆಗಳನ್ನು ತೋರಿಸಿ",
+   "t": "ಪ್ರತಿ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ ಎಲ್ಲ ಆಯ್ಕೆ ತೋರಿಸಿ",
    "ko": "모든 화면에서 옵션 전체 표시",
    "kind": "sentence",
    "where": "html <input> text"
   },
   "Hand-tuned for speakers of your language": {
-   "t": "ನಿಮ್ಮ ಭಾಷೆಯವರಿಗಾಗಿ ಕೈಯಾರೆ ಸಿದ್ಧಪಡಿಸಿದ್ದು",
+   "t": "ನಿಮ್ಮ ಭಾಷೆ ಮಾತನಾಡುವವರಿಗಾಗಿಯೇ ವಿಶೇಷವಾಗಿ ಸಿದ್ಧಪಡಿಸಿದ್ದು",
    "ko": "이 언어 사용자에 맞춰 만든 코스",
    "kind": "sentence",
    "context": "legend under the course list (language home): a small ✦ next to a course means its lessons were written specifically for speakers of the learner's language, not a standard course assembled from shared material",
    "where": "js cur() <span>"
   },
   "Go to the next card automatically": {
-   "t": "ತಾನಾಗಿ ಮುಂದಿನ ಕಾರ್ಡಿಗೆ ಹೋಗಿ",
+   "t": "ತಾನಾಗಿ ಮುಂದಿನ ಕಾರ್ಡ್‌ಗೆ ಹೋಗಲಿ",
    "ko": "다음 카드로 자동으로 넘어가기",
    "kind": "sentence",
    "context": "settings checkbox on the Progress tab: after an answer, Review moves on to the next card without a Next button",
@@ -5302,7 +5302,7 @@
    "where": "js v() <button>"
   },
   "Which voice do you want to hear?": {
-   "t": "ನೀವು ಯಾವ ಧ್ವನಿ ಕೇಳಲು ಬಯಸುತ್ತೀರಿ?",
+   "t": "ಯಾವ ಧ್ವನಿ ಕೇಳಲು ಬಯಸುತ್ತೀರಿ?",
    "ko": "어떤 목소리로 들을까요?",
    "kind": "sentence",
    "context": "question in the setup card / Today card: choose the woman's or the man's recorded voice for audio",
@@ -5358,7 +5358,7 @@
    "example": "Change language · Hello there"
   },
   "Got it: {x}": {
-   "t": "ಗೊತ್ತಿದೆ: {1}",
+   "t": "ಗೊತ್ತು: {1}",
    "ko": "알아요: {1}",
    "slots": "{1}=x",
    "example": "Got it: Hello there"
@@ -5370,49 +5370,49 @@
    "example": "Again: Hello there"
   },
   "{n}/{n} · {n} due · {x}": {
-   "t": "{1}/{2} · {3} ಬಾಕಿ · {4}",
+   "t": "{1}/{2} · ಬಾಕಿ: {3} · {4}",
    "ko": "{1}/{2} · 복습 대기 {3} · {4}",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=x",
    "example": "5/2 · 3 due · Hello there",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "· week {n} of {n}": {
-   "t": "· ವಾರ {1} / {2}",
+   "t": "· ವಾರ {1}/{2}",
    "ko": "· {2}주 중 {1}주차",
    "slots": "{1}=n, {2}=n",
    "example": "· week 5 of 2",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct · {f}s per card · best hour {n}:00 ({n}%)": {
-   "t": "ಕೊನೆಯ {1} ರಿವ್ಯೂ · {2}% ಸರಿ · ಕಾರ್ಡಿಗೆ {3} ಸೆ · ಉತ್ತಮ ಸಮಯ {4}:00 ({5}%)",
+   "t": "ಇತ್ತೀಚಿನ ಮನನ: {1} · ಸರಿ: {2}% · ಪ್ರತಿ ಕಾರ್ಡ್‌ಗೆ {3} ಸೆಕೆಂಡ್ · ಅತ್ಯುತ್ತಮ ಗಂಟೆ {4}:00 ({5}%)",
    "ko": "최근 복습 {1}번 · 정답률 {2}% · 카드당 {3}초 · 가장 잘되는 시간 {4}시 ({5}%)",
    "slots": "{1}=n, {2}=n, {3}=f, {4}=n, {5}=n",
    "example": "Last 5 reviews · 2% correct · 1.5s per card · best hour 3:00 (4%)",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct · {f}s per card": {
-   "t": "ಕೊನೆಯ {1} ರಿವ್ಯೂ · {2}% ಸರಿ · ಕಾರ್ಡಿಗೆ {3} ಸೆ",
+   "t": "ಇತ್ತೀಚಿನ ಮನನ: {1} · ಸರಿ: {2}% · ಪ್ರತಿ ಕಾರ್ಡ್‌ಗೆ {3} ಸೆಕೆಂಡ್",
    "ko": "최근 복습 {1}번 · 정답률 {2}% · 카드당 {3}초",
    "slots": "{1}=n, {2}=n, {3}=f",
    "example": "Last 5 reviews · 2% correct · 1.5s per card",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} cards due": {
-   "t": "{1} ಕಾರ್ಡ್ ಬಾಕಿ",
+   "t": "ಬಾಕಿ: {1}",
    "ko": "복습할 카드 {1}장",
    "slots": "{1}=n",
    "example": "5 cards due",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} due": {
-   "t": "{1} ಬಾಕಿ",
+   "t": "ಬಾಕಿ: {1}",
    "ko": "복습 대기 {1}",
    "slots": "{1}=n",
    "example": "5 due",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} due now · {n} tomorrow · {n} this week": {
-   "t": "ಈಗ {1} ಬಾಕಿ · ನಾಳೆ {2} · ಈ ವಾರ {3}",
+   "t": "ಈಗ ಬಾಕಿ: {1} · ನಾಳೆ: {2} · ಈ ವಾರ: {3}",
    "ko": "지금 복습 {1} · 내일 {2} · 이번 주 {3}",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "5 due now · 2 tomorrow · 3 this week",
@@ -5438,27 +5438,27 @@
    "example": "Level 5 · Hello there"
   },
   "{n}/{n} → Lv {n}": {
-   "t": "{1}/{2} → Lv {3}",
+   "t": "{1}/{2} → ಲೆವೆಲ್ {3}",
    "ko": "Lv {3}까지 {1}/{2}",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "5/2 → Lv 3"
   },
   "{n} XP total": {
-   "t": "ಒಟ್ಟು {1} XP",
+   "t": "ಒಟ್ಟು XP: {1}",
    "ko": "총 {1} XP",
    "slots": "{1}=n",
    "example": "5 XP total",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} XP to Level {n} · {s} at Level {n}": {
-   "t": "ಲೆವೆಲ್ {2} ತಲುಪಲು ಇನ್ನೂ {1} XP · ಲೆವೆಲ್ {4} = {3}",
+   "t": "ಲೆವೆಲ್ {2} ತಲುಪಲು ಬೇಕಾದ XP: {1} · ಲೆವೆಲ್ {4}: {3}",
    "ko": "레벨 {2}까지 {1} XP · 레벨 {4}부터 {3}",
    "slots": "{1}=n, {2}=n, {3}=s, {4}=n",
    "example": "5 XP to Level 2 · Greetings at Level 3",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} XP to Level {n}": {
-   "t": "ಲೆವೆಲ್ {2} ತಲುಪಲು ಇನ್ನೂ {1} XP",
+   "t": "ಲೆವೆಲ್ {2} ತಲುಪಲು ಬೇಕಾದ XP: {1}",
    "ko": "레벨 {2}까지 {1} XP",
    "slots": "{1}=n, {2}=n",
    "example": "5 XP to Level 2",
@@ -5500,13 +5500,13 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "best {n}": {
-   "t": "ಉತ್ತಮ {1}",
+   "t": "ಅತ್ಯುತ್ತಮ: {1}",
    "ko": "최고 {1}",
    "slots": "{1}=n",
    "example": "best 5"
   },
   "{n}× missed": {
-   "t": "{1}× ತಪ್ಪು",
+   "t": "ತಪ್ಪು: {1}",
    "ko": "{1}번 틀림",
    "slots": "{1}=n",
    "example": "5× missed",
@@ -5526,33 +5526,33 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n}% · {n} tried": {
-   "t": "{1}% · {2} ಪ್ರಯತ್ನ",
+   "t": "{1}% · ಪ್ರಯತ್ನ: {2}",
    "ko": "{1}% · {2}번 시도",
    "slots": "{1}=n, {2}=n",
    "example": "5% · 2 tried",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "box {n}": {
-   "t": "ಪೆಟ್ಟಿಗೆ {1}",
+   "t": "ಬಾಕ್ಸ್ {1}",
    "ko": "상자 {1}",
    "slots": "{1}=n",
    "example": "box 5"
   },
   "box {n}: {n} reviews": {
-   "t": "ಪೆಟ್ಟಿಗೆ {1}: {2} ರಿವ್ಯೂ",
+   "t": "ಬಾಕ್ಸ್ {1} · ಮನನ: {2}",
    "ko": "상자 {1}: 복습 {2}번",
    "slots": "{1}=n, {2}=n",
    "example": "box 5: 2 reviews",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "suspended · box {n}": {
-   "t": "ತಡೆಹಿಡಿಯಲಾಗಿದೆ · ಪೆಟ್ಟಿಗೆ {1}",
+   "t": "ತಡೆಹಿಡಿಯಲಾಗಿದೆ · ಬಾಕ್ಸ್ {1}",
    "ko": "보류 · 상자 {1}",
    "slots": "{1}=n",
    "example": "suspended · box 5"
   },
   "🩹 leech · box {n}": {
-   "t": "🩹 ಕಷ್ಟದ ಕಾರ್ಡ್ · ಪೆಟ್ಟಿಗೆ {1}",
+   "t": "🩹 ಮೊಂಡು ಕಾರ್ಡ್ · ಬಾಕ್ಸ್ {1}",
    "ko": "🩹 거머리 카드 · 상자 {1}",
    "slots": "{1}=n",
    "example": "🩹 leech · box 5"
@@ -5571,152 +5571,152 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} left": {
-   "t": "ಉಳಿದದ್ದು {1}",
+   "t": "ಬಾಕಿ: {1}",
    "ko": "남은 카드 {1}장",
    "slots": "{1}=n",
    "example": "5 left",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} left · across {n} decks": {
-   "t": "ಉಳಿದದ್ದು {1} · {2} ಡೆಕ್ಕಿನಲ್ಲಿ",
+   "t": "ಬಾಕಿ: {1} · {2} ಡೆಕ್",
    "ko": "남은 카드 {1}장 · 덱 {2}개",
    "slots": "{1}=n, {2}=n",
    "example": "5 left · across 2 decks",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} left · {n}/{n} learned": {
-   "t": "ಉಳಿದದ್ದು {1} · {2}/{3} ಕಲಿತಿದ್ದೀರಿ",
+   "t": "ಬಾಕಿ: {1} · ಕಲಿತದ್ದು: {2}/{3}",
    "ko": "남은 카드 {1}장 · {2}/{3} 익힘",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "5 left · 2/3 learned",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n}/{n} learned": {
-   "t": "{1}/{2} ಕಲಿತಿದ್ದೀರಿ",
+   "t": "ಕಲಿತದ್ದು: {1}/{2}",
    "ko": "{1}/{2} 익힘",
    "slots": "{1}=n, {2}=n",
    "example": "5/2 learned",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n}/{n} learned ·": {
-   "t": "{1}/{2} ಕಲಿತಿದ್ದೀರಿ ·",
+   "t": "ಕಲಿತದ್ದು: {1}/{2} ·",
    "ko": "{1}/{2} 익힘 ·",
    "slots": "{1}=n, {2}=n",
    "example": "5/2 learned ·",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n}/{n} · {n} due": {
-   "t": "{1}/{2} · {3} ಬಾಕಿ",
+   "t": "{1}/{2} · ಬಾಕಿ: {3}",
    "ko": "{1}/{2} · 복습 {3}",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "5/2 · 3 due",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n}/{n} · {n}% · {n} due": {
-   "t": "{1}/{2} · {3}% · {4} ಬಾಕಿ",
+   "t": "{1}/{2} · {3}% · ಬಾಕಿ: {4}",
    "ko": "{1}/{2} · {3}% · 복습 {4}",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n",
    "example": "5/2 · 3% · 4 due",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} quiz · last {n}%": {
-   "t": "{1} ಕ್ವಿಜ್ · ಕೊನೆಯದು {2}%",
+   "t": "ಕ್ವಿಜ್: {1} · ಹಿಂದಿನದು {2}%",
    "ko": "퀴즈 {1}번 · 최근 {2}%",
    "slots": "{1}=n, {2}=n",
    "example": "5 quiz · last 2%",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} quizzes · last {n}%": {
-   "t": "{1} ಕ್ವಿಜ್ · ಕೊನೆಯದು {2}%",
+   "t": "ಕ್ವಿಜ್: {1} · ಹಿಂದಿನದು {2}%",
    "ko": "퀴즈 {1}번 · 최근 {2}%",
    "slots": "{1}=n, {2}=n",
    "example": "5 quizzes · last 2%",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Import {n}": {
-   "t": "ಆಮದು {1}",
+   "t": "ಇಂಪೋರ್ಟ್: {1}",
    "ko": "{1}개 가져오기",
    "slots": "{1}=n",
    "example": "Import 5"
   },
   "Imported {n}": {
-   "t": "{1} ಆಮದಾಗಿದೆ",
+   "t": "ಇಂಪೋರ್ಟ್ ಆಗಿದ್ದು: {1}",
    "ko": "{1}개 가져옴",
    "slots": "{1}=n",
    "example": "Imported 5"
   },
   "Imported {n} cards.": {
-   "t": "{1} ಕಾರ್ಡ್ ಆಮದು ಮಾಡಲಾಗಿದೆ.",
+   "t": "ಇಂಪೋರ್ಟ್ ಆದ ಕಾರ್ಡ್: {1}.",
    "ko": "카드 {1}장을 가져왔어요.",
    "slots": "{1}=n",
    "example": "Imported 5 cards.",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} rows · {n} new": {
-   "t": "{1} ಸಾಲು · {2} ಹೊಸದು",
+   "t": "ಸಾಲು: {1} · ಹೊಸದು: {2}",
    "ko": "{1}줄 · 새 항목 {2}개",
    "slots": "{1}=n, {2}=n",
    "example": "5 rows · 2 new",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} rows · {n} new · {n} already in deck": {
-   "t": "{1} ಸಾಲು · {2} ಹೊಸದು · {3} ಈಗಾಗಲೇ ಡೆಕ್ಕಿನಲ್ಲಿ",
+   "t": "ಸಾಲು: {1} · ಹೊಸದು: {2} · ಡೆಕ್‌ನಲ್ಲಿ ಮೊದಲೇ ಇದ್ದದ್ದು: {3}",
    "ko": "{1}줄 · 새 항목 {2}개 · 이미 덱에 있음 {3}개",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "5 rows · 2 new · 3 already in deck",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Added · {n} in My phrases": {
-   "t": "ಸೇರಿಸಲಾಗಿದೆ · ನನ್ನ ನುಡಿಗಟ್ಟುಗಳಲ್ಲಿ {1}",
+   "t": "ಸೇರಿಸಲಾಗಿದೆ · \"ನನ್ನ ವಾಕ್ಯಗಳು\": {1}",
    "ko": "추가했어요 · 내 표현 {1}개",
    "slots": "{1}=n",
    "example": "Added · 5 in My phrases",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} decks selected": {
-   "t": "ಆಯ್ಕೆ ಮಾಡಿದ ಡೆಕ್: {1}",
+   "t": "ಆರಿಸಿದ ಡೆಕ್: {1}",
    "ko": "덱 {1}개 선택됨",
    "slots": "{1}=n",
    "example": "5 decks selected",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} cards · tap to add or remove decks": {
-   "t": "{1} ಕಾರ್ಡ್ · ಡೆಕ್ ಸೇರಿಸಲು ಅಥವಾ ತೆಗೆಯಲು ಟ್ಯಾಪ್ ಮಾಡಿ",
+   "t": "{1} ಕಾರ್ಡ್ · ಡೆಕ್ ಸೇರಿಸಲು ಅಥವಾ ತೆಗೆಯಲು ಒತ್ತಿ",
    "ko": "카드 {1}장 · 탭해서 덱 추가·삭제",
    "slots": "{1}=n",
    "example": "5 cards · tap to add or remove decks",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "#{s} · {n} decks selected.": {
-   "t": "#{1} · ಆಯ್ಕೆ ಮಾಡಿದ ಡೆಕ್: {2}.",
+   "t": "#{1} · ಆರಿಸಿದ ಡೆಕ್: {2}.",
    "ko": "#{1} · 덱 {2}개 선택됨.",
    "slots": "{1}=s, {2}=n",
    "example": "#Greetings · 5 decks selected.",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Test everything · {n} cards × 3": {
-   "t": "ಎಲ್ಲವನ್ನೂ ಪರೀಕ್ಷಿಸಿ · {1} ಕಾರ್ಡ್ × 3",
+   "t": "ಎಲ್ಲವನ್ನೂ ಟೆಸ್ಟ್ ಮಾಡಿ · {1} ಕಾರ್ಡ್ × 3",
    "ko": "전체 테스트 · 카드 {1}장 × 3",
    "slots": "{1}=n",
    "example": "Test everything · 5 cards × 3",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Continue learning · card {n} of {n}": {
-   "t": "ಕಲಿಕೆ ಮುಂದುವರಿಸಿ · ಕಾರ್ಡ್ {1} / {2}",
+   "t": "ಕಲಿಕೆ ಮುಂದುವರಿಸಿ · ಕಾರ್ಡ್ {1}/{2}",
    "ko": "이어서 배우기 · {2}장 중 {1}번째",
    "slots": "{1}=n, {2}=n",
    "example": "Continue learning · card 5 of 2",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Learn 5 at a time · {n} cards": {
-   "t": "ಒಮ್ಮೆಗೆ 5 ಕಲಿಯಿರಿ · {1} ಕಾರ್ಡ್",
+   "t": "ಒಮ್ಮೆಗೆ 5 ಕಾರ್ಡ್ ಕಲಿಯಿರಿ · {1} ಕಾರ್ಡ್",
    "ko": "5개씩 배우기 · 카드 {1}장",
    "slots": "{1}=n",
    "example": "Learn 5 at a time · 5 cards",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} rounds left": {
-   "t": "ಉಳಿದ ಸುತ್ತು: {1}",
+   "t": "ಬಾಕಿ ಸುತ್ತು: {1}",
    "ko": "{1}라운드 남음",
    "slots": "{1}=n",
    "example": "5 rounds left",
@@ -5771,14 +5771,14 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "New 5 added · now {n} cards in the mix": {
-   "t": "ಹೊಸ 5 ಸೇರಿಸಲಾಗಿದೆ · ಈಗ ಮಿಶ್ರಣದಲ್ಲಿ {1} ಕಾರ್ಡ್",
+   "t": "ಹೊಸ 5 ಸೇರಿವೆ · ಈಗ ಮಿಶ್ರಣದಲ್ಲಿ {1} ಕಾರ್ಡ್",
    "ko": "새 카드 5장 추가 · 이제 {1}장을 섞어서 풀어요",
    "slots": "{1}=n",
    "example": "New 5 added · now 5 cards in the mix",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "New 5 added · now {n} cards in the mix · passed": {
-   "t": "ಹೊಸ 5 ಸೇರಿಸಲಾಗಿದೆ · ಈಗ ಮಿಶ್ರಣದಲ್ಲಿ {1} ಕಾರ್ಡ್ · ಪಾಸ್",
+   "t": "ಹೊಸ 5 ಸೇರಿವೆ · ಈಗ ಮಿಶ್ರಣದಲ್ಲಿ {1} ಕಾರ್ಡ್ · ಪಾಸ್",
    "ko": "새 카드 5장 추가 · 이제 {1}장을 섞어서 풀어요 · 통과",
    "slots": "{1}=n",
    "example": "New 5 added · now 5 cards in the mix · passed",
@@ -5791,37 +5791,37 @@
    "example": "New 5 · not added yet · 80% to pass"
   },
   "Polite ↔ casual · passed": {
-   "t": "ವಿನಯ ↔ ಸಲುಗೆ · ಪಾಸ್",
+   "t": "ಗೌರವ ↔ ಸಲುಗೆ · ಪಾಸ್",
    "ko": "존댓말 ↔ 반말 · 통과",
    "slots": "",
    "example": "Polite ↔ casual · passed"
   },
   "Polite ↔ casual · 80% to pass": {
-   "t": "ವಿನಯ ↔ ಸಲುಗೆ · ಪಾಸ್ ಆಗಲು 80%",
+   "t": "ಗೌರವ ↔ ಸಲುಗೆ · ಪಾಸ್ ಆಗಲು 80%",
    "ko": "존댓말 ↔ 반말 · 80% 이상이면 통과",
    "slots": "",
    "example": "Polite ↔ casual · 80% to pass"
   },
   "Hardest cards · passed": {
-   "t": "ಅತಿ ಕಷ್ಟದ ಕಾರ್ಡುಗಳು · ಪಾಸ್",
+   "t": "ಅತಿ ಕಷ್ಟದ ಕಾರ್ಡ್‌ಗಳು · ಪಾಸ್",
    "ko": "가장 어려운 카드 · 통과",
    "slots": "",
    "example": "Hardest cards · passed"
   },
   "Hardest cards · 80% to pass": {
-   "t": "ಅತಿ ಕಷ್ಟದ ಕಾರ್ಡುಗಳು · ಪಾಸ್ ಆಗಲು 80%",
+   "t": "ಅತಿ ಕಷ್ಟದ ಕಾರ್ಡ್‌ಗಳು · ಪಾಸ್ ಆಗಲು 80%",
    "ko": "가장 어려운 카드 · 80% 이상이면 통과",
    "slots": "",
    "example": "Hardest cards · 80% to pass"
   },
   "Exam re-drill · passed": {
-   "t": "ಪರೀಕ್ಷೆಯ ಮರು-ಡ್ರಿಲ್ · ಪಾಸ್",
+   "t": "ಪರೀಕ್ಷೆ ಮರು-ಡ್ರಿಲ್ · ಪಾಸ್",
    "ko": "시험 오답 다시 풀기 · 통과",
    "slots": "",
    "example": "Exam re-drill · passed"
   },
   "Exam re-drill · 80% to pass": {
-   "t": "ಪರೀಕ್ಷೆಯ ಮರು-ಡ್ರಿಲ್ · ಪಾಸ್ ಆಗಲು 80%",
+   "t": "ಪರೀಕ್ಷೆ ಮರು-ಡ್ರಿಲ್ · ಪಾಸ್ ಆಗಲು 80%",
    "ko": "시험 오답 다시 풀기 · 80% 이상이면 통과",
    "slots": "",
    "example": "Exam re-drill · 80% to pass"
@@ -5839,43 +5839,43 @@
    "example": "5 / 2 · 3%"
   },
   "New 5 · {n}/{n} · pass {n}/3 · read": {
-   "t": "ಹೊಸ 5 · {1}/{2} · ಸುತ್ತು {3}/3 · ಓದು",
+   "t": "ಹೊಸ 5 · {1}/{2} · ಹಂತ {3}/3 · ಓದು",
    "ko": "새 카드 5장 · {1}/{2} · {3}/3회차 · 읽기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "New 5 · 5/2 · pass 3/3 · read"
   },
   "Mix · {n}/{n} · pass {n}/3 · read": {
-   "t": "ಮಿಶ್ರಣ · {1}/{2} · ಸುತ್ತು {3}/3 · ಓದು",
+   "t": "ಮಿಶ್ರಣ · {1}/{2} · ಹಂತ {3}/3 · ಓದು",
    "ko": "섞어서 · {1}/{2} · {3}/3회차 · 읽기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Mix · 5/2 · pass 3/3 · read"
   },
   "Weak spots · {n}/{n} · pass {n}/3 · read": {
-   "t": "ದುರ್ಬಲ ಅಂಶಗಳು · {1}/{2} · ಸುತ್ತು {3}/3 · ಓದು",
+   "t": "ದುರ್ಬಲ ಅಂಶಗಳು · {1}/{2} · ಹಂತ {3}/3 · ಓದು",
    "ko": "약점 공략 · {1}/{2} · {3}/3회차 · 읽기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Weak spots · 5/2 · pass 3/3 · read"
   },
   "Hardest cards · {n}/{n} · pass {n}/3 · read": {
-   "t": "ಅತಿ ಕಷ್ಟದ ಕಾರ್ಡುಗಳು · {1}/{2} · ಸುತ್ತು {3}/3 · ಓದು",
+   "t": "ಅತಿ ಕಷ್ಟದ ಕಾರ್ಡ್‌ಗಳು · {1}/{2} · ಹಂತ {3}/3 · ಓದು",
    "ko": "가장 어려운 카드 · {1}/{2} · {3}/3회차 · 읽기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Hardest cards · 5/2 · pass 3/3 · read"
   },
   "Missed · {n}/{n} · pass {n}/3 · read": {
-   "t": "ತಪ್ಪಿದವು · {1}/{2} · ಸುತ್ತು {3}/3 · ಓದು",
+   "t": "ತಪ್ಪು · {1}/{2} · ಹಂತ {3}/3 · ಓದು",
    "ko": "틀린 카드 · {1}/{2} · {3}/3회차 · 읽기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Missed · 5/2 · pass 3/3 · read"
   },
   "{x} · {n}/{n} · pass {n}/3 · read": {
-   "t": "{1} · {2}/{3} · ಸುತ್ತು {4}/3 · ಓದು",
+   "t": "{1} · {2}/{3} · ಹಂತ {4}/3 · ಓದು",
    "ko": "{1} · {2}/{3} · {4}/3회차 · 읽기",
    "slots": "{1}=x, {2}=n, {3}=n, {4}=n",
    "example": "Hello there · 5/2 · pass 3/3 · read"
   },
   "Quiz · {n}/{n} · new 5 + {n} learned · read": {
-   "t": "ಕ್ವಿಜ್ · {1}/{2} · ಹೊಸ 5 + {3} ಕಲಿತದ್ದು · ಓದು",
+   "t": "ಕ್ವಿಜ್ · {1}/{2} · ಹೊಸ 5 + ಕಲಿತದ್ದು: {3} · ಓದು",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 + 익힌 카드 {3}장 · 읽기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Quiz · 5/2 · new 5 + 3 learned · read",
@@ -5894,43 +5894,43 @@
    "example": "📝 Exam · 5/25 · read"
   },
   "New 5 · {n}/{n} · pass {n}/3 · recall": {
-   "t": "ಹೊಸ 5 · {1}/{2} · ಸುತ್ತು {3}/3 · ನೆನಪು",
+   "t": "ಹೊಸ 5 · {1}/{2} · ಹಂತ {3}/3 · ನೆನಪು",
    "ko": "새 카드 5장 · {1}/{2} · {3}/3회차 · 떠올리기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "New 5 · 5/2 · pass 3/3 · recall"
   },
   "Mix · {n}/{n} · pass {n}/3 · recall": {
-   "t": "ಮಿಶ್ರಣ · {1}/{2} · ಸುತ್ತು {3}/3 · ನೆನಪು",
+   "t": "ಮಿಶ್ರಣ · {1}/{2} · ಹಂತ {3}/3 · ನೆನಪು",
    "ko": "섞어서 · {1}/{2} · {3}/3회차 · 떠올리기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Mix · 5/2 · pass 3/3 · recall"
   },
   "Weak spots · {n}/{n} · pass {n}/3 · recall": {
-   "t": "ದುರ್ಬಲ ಅಂಶಗಳು · {1}/{2} · ಸುತ್ತು {3}/3 · ನೆನಪು",
+   "t": "ದುರ್ಬಲ ಅಂಶಗಳು · {1}/{2} · ಹಂತ {3}/3 · ನೆನಪು",
    "ko": "약점 공략 · {1}/{2} · {3}/3회차 · 떠올리기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Weak spots · 5/2 · pass 3/3 · recall"
   },
   "Hardest cards · {n}/{n} · pass {n}/3 · recall": {
-   "t": "ಅತಿ ಕಷ್ಟದ ಕಾರ್ಡುಗಳು · {1}/{2} · ಸುತ್ತು {3}/3 · ನೆನಪು",
+   "t": "ಅತಿ ಕಷ್ಟದ ಕಾರ್ಡ್‌ಗಳು · {1}/{2} · ಹಂತ {3}/3 · ನೆನಪು",
    "ko": "가장 어려운 카드 · {1}/{2} · {3}/3회차 · 떠올리기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Hardest cards · 5/2 · pass 3/3 · recall"
   },
   "Missed · {n}/{n} · pass {n}/3 · recall": {
-   "t": "ತಪ್ಪಿದವು · {1}/{2} · ಸುತ್ತು {3}/3 · ನೆನಪು",
+   "t": "ತಪ್ಪು · {1}/{2} · ಹಂತ {3}/3 · ನೆನಪು",
    "ko": "틀린 카드 · {1}/{2} · {3}/3회차 · 떠올리기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Missed · 5/2 · pass 3/3 · recall"
   },
   "{x} · {n}/{n} · pass {n}/3 · recall": {
-   "t": "{1} · {2}/{3} · ಸುತ್ತು {4}/3 · ನೆನಪು",
+   "t": "{1} · {2}/{3} · ಹಂತ {4}/3 · ನೆನಪು",
    "ko": "{1} · {2}/{3} · {4}/3회차 · 떠올리기",
    "slots": "{1}=x, {2}=n, {3}=n, {4}=n",
    "example": "Hello there · 5/2 · pass 3/3 · recall"
   },
   "Quiz · {n}/{n} · new 5 + {n} learned · recall": {
-   "t": "ಕ್ವಿಜ್ · {1}/{2} · ಹೊಸ 5 + {3} ಕಲಿತದ್ದು · ನೆನಪು",
+   "t": "ಕ್ವಿಜ್ · {1}/{2} · ಹೊಸ 5 + ಕಲಿತದ್ದು: {3} · ನೆನಪು",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 + 익힌 카드 {3}장 · 떠올리기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Quiz · 5/2 · new 5 + 3 learned · recall",
@@ -5949,153 +5949,153 @@
    "example": "📝 Exam · 5/25 · recall"
   },
   "New 5 · {n}/{n} · pass {n}/3 · listen": {
-   "t": "ಹೊಸ 5 · {1}/{2} · ಸುತ್ತು {3}/3 · ಆಲಿಕೆ",
+   "t": "ಹೊಸ 5 · {1}/{2} · ಹಂತ {3}/3 · ಕೇಳುವುದು",
    "ko": "새 카드 5장 · {1}/{2} · {3}/3회차 · 듣기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "New 5 · 5/2 · pass 3/3 · listen"
   },
   "Mix · {n}/{n} · pass {n}/3 · listen": {
-   "t": "ಮಿಶ್ರಣ · {1}/{2} · ಸುತ್ತು {3}/3 · ಆಲಿಕೆ",
+   "t": "ಮಿಶ್ರಣ · {1}/{2} · ಹಂತ {3}/3 · ಕೇಳುವುದು",
    "ko": "섞어서 · {1}/{2} · {3}/3회차 · 듣기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Mix · 5/2 · pass 3/3 · listen"
   },
   "Weak spots · {n}/{n} · pass {n}/3 · listen": {
-   "t": "ದುರ್ಬಲ ಅಂಶಗಳು · {1}/{2} · ಸುತ್ತು {3}/3 · ಆಲಿಕೆ",
+   "t": "ದುರ್ಬಲ ಅಂಶಗಳು · {1}/{2} · ಹಂತ {3}/3 · ಕೇಳುವುದು",
    "ko": "약점 공략 · {1}/{2} · {3}/3회차 · 듣기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Weak spots · 5/2 · pass 3/3 · listen"
   },
   "Hardest cards · {n}/{n} · pass {n}/3 · listen": {
-   "t": "ಅತಿ ಕಷ್ಟದ ಕಾರ್ಡುಗಳು · {1}/{2} · ಸುತ್ತು {3}/3 · ಆಲಿಕೆ",
+   "t": "ಅತಿ ಕಷ್ಟದ ಕಾರ್ಡ್‌ಗಳು · {1}/{2} · ಹಂತ {3}/3 · ಕೇಳುವುದು",
    "ko": "가장 어려운 카드 · {1}/{2} · {3}/3회차 · 듣기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Hardest cards · 5/2 · pass 3/3 · listen"
   },
   "Missed · {n}/{n} · pass {n}/3 · listen": {
-   "t": "ತಪ್ಪಿದವು · {1}/{2} · ಸುತ್ತು {3}/3 · ಆಲಿಕೆ",
+   "t": "ತಪ್ಪು · {1}/{2} · ಹಂತ {3}/3 · ಕೇಳುವುದು",
    "ko": "틀린 카드 · {1}/{2} · {3}/3회차 · 듣기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Missed · 5/2 · pass 3/3 · listen"
   },
   "{x} · {n}/{n} · pass {n}/3 · listen": {
-   "t": "{1} · {2}/{3} · ಸುತ್ತು {4}/3 · ಆಲಿಕೆ",
+   "t": "{1} · {2}/{3} · ಹಂತ {4}/3 · ಕೇಳುವುದು",
    "ko": "{1} · {2}/{3} · {4}/3회차 · 듣기",
    "slots": "{1}=x, {2}=n, {3}=n, {4}=n",
    "example": "Hello there · 5/2 · pass 3/3 · listen"
   },
   "Quiz · {n}/{n} · new 5 + {n} learned · listen": {
-   "t": "ಕ್ವಿಜ್ · {1}/{2} · ಹೊಸ 5 + {3} ಕಲಿತದ್ದು · ಆಲಿಕೆ",
+   "t": "ಕ್ವಿಜ್ · {1}/{2} · ಹೊಸ 5 + ಕಲಿತದ್ದು: {3} · ಕೇಳುವುದು",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 + 익힌 카드 {3}장 · 듣기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Quiz · 5/2 · new 5 + 3 learned · listen",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Quiz · {n}/{n} · new 5 · listen": {
-   "t": "ಕ್ವಿಜ್ · {1}/{2} · ಹೊಸ 5 · ಆಲಿಕೆ",
+   "t": "ಕ್ವಿಜ್ · {1}/{2} · ಹೊಸ 5 · ಕೇಳುವುದು",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 · 듣기",
    "slots": "{1}=n, {2}=n",
    "example": "Quiz · 5/2 · new 5 · listen"
   },
   "📝 Exam · {n}/25 · listen": {
-   "t": "📝 ಪರೀಕ್ಷೆ · {1}/25 · ಆಲಿಕೆ",
+   "t": "📝 ಪರೀಕ್ಷೆ · {1}/25 · ಕೇಳುವುದು",
    "ko": "📝 시험 · {1}/25 · 듣기",
    "slots": "{1}=n",
    "example": "📝 Exam · 5/25 · listen"
   },
   "New 5 · {n}/{n} · pass {n}/3 · type": {
-   "t": "ಹೊಸ 5 · {1}/{2} · ಸುತ್ತು {3}/3 · ಟೈಪ್",
+   "t": "ಹೊಸ 5 · {1}/{2} · ಹಂತ {3}/3 · ಟೈಪಿಂಗ್",
    "ko": "새 카드 5장 · {1}/{2} · {3}/3회차 · 입력",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "New 5 · 5/2 · pass 3/3 · type"
   },
   "Mix · {n}/{n} · pass {n}/3 · type": {
-   "t": "ಮಿಶ್ರಣ · {1}/{2} · ಸುತ್ತು {3}/3 · ಟೈಪ್",
+   "t": "ಮಿಶ್ರಣ · {1}/{2} · ಹಂತ {3}/3 · ಟೈಪಿಂಗ್",
    "ko": "섞어서 · {1}/{2} · {3}/3회차 · 입력",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Mix · 5/2 · pass 3/3 · type"
   },
   "Weak spots · {n}/{n} · pass {n}/3 · type": {
-   "t": "ದುರ್ಬಲ ಅಂಶಗಳು · {1}/{2} · ಸುತ್ತು {3}/3 · ಟೈಪ್",
+   "t": "ದುರ್ಬಲ ಅಂಶಗಳು · {1}/{2} · ಹಂತ {3}/3 · ಟೈಪಿಂಗ್",
    "ko": "약점 공략 · {1}/{2} · {3}/3회차 · 입력",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Weak spots · 5/2 · pass 3/3 · type"
   },
   "Hardest cards · {n}/{n} · pass {n}/3 · type": {
-   "t": "ಅತಿ ಕಷ್ಟದ ಕಾರ್ಡುಗಳು · {1}/{2} · ಸುತ್ತು {3}/3 · ಟೈಪ್",
+   "t": "ಅತಿ ಕಷ್ಟದ ಕಾರ್ಡ್‌ಗಳು · {1}/{2} · ಹಂತ {3}/3 · ಟೈಪಿಂಗ್",
    "ko": "가장 어려운 카드 · {1}/{2} · {3}/3회차 · 입력",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Hardest cards · 5/2 · pass 3/3 · type"
   },
   "Missed · {n}/{n} · pass {n}/3 · type": {
-   "t": "ತಪ್ಪಿದವು · {1}/{2} · ಸುತ್ತು {3}/3 · ಟೈಪ್",
+   "t": "ತಪ್ಪು · {1}/{2} · ಹಂತ {3}/3 · ಟೈಪಿಂಗ್",
    "ko": "틀린 카드 · {1}/{2} · {3}/3회차 · 입력",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Missed · 5/2 · pass 3/3 · type"
   },
   "{x} · {n}/{n} · pass {n}/3 · type": {
-   "t": "{1} · {2}/{3} · ಸುತ್ತು {4}/3 · ಟೈಪ್",
+   "t": "{1} · {2}/{3} · ಹಂತ {4}/3 · ಟೈಪಿಂಗ್",
    "ko": "{1} · {2}/{3} · {4}/3회차 · 입력",
    "slots": "{1}=x, {2}=n, {3}=n, {4}=n",
    "example": "Hello there · 5/2 · pass 3/3 · type"
   },
   "Quiz · {n}/{n} · new 5 + {n} learned · type": {
-   "t": "ಕ್ವಿಜ್ · {1}/{2} · ಹೊಸ 5 + {3} ಕಲಿತದ್ದು · ಟೈಪ್",
+   "t": "ಕ್ವಿಜ್ · {1}/{2} · ಹೊಸ 5 + ಕಲಿತದ್ದು: {3} · ಟೈಪಿಂಗ್",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 + 익힌 카드 {3}장 · 입력",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Quiz · 5/2 · new 5 + 3 learned · type",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Quiz · {n}/{n} · new 5 · type": {
-   "t": "ಕ್ವಿಜ್ · {1}/{2} · ಹೊಸ 5 · ಟೈಪ್",
+   "t": "ಕ್ವಿಜ್ · {1}/{2} · ಹೊಸ 5 · ಟೈಪಿಂಗ್",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 · 입력",
    "slots": "{1}=n, {2}=n",
    "example": "Quiz · 5/2 · new 5 · type"
   },
   "📝 Exam · {n}/25 · type": {
-   "t": "📝 ಪರೀಕ್ಷೆ · {1}/25 · ಟೈಪ್",
+   "t": "📝 ಪರೀಕ್ಷೆ · {1}/25 · ಟೈಪಿಂಗ್",
    "ko": "📝 시험 · {1}/25 · 입력",
    "slots": "{1}=n",
    "example": "📝 Exam · 5/25 · type"
   },
   "New 5 · {n}/{n} · pass {n}/3 · mixed": {
-   "t": "ಹೊಸ 5 · {1}/{2} · ಸುತ್ತು {3}/3 · ಮಿಶ್ರ",
+   "t": "ಹೊಸ 5 · {1}/{2} · ಹಂತ {3}/3 · ಮಿಶ್ರ",
    "ko": "새 카드 5장 · {1}/{2} · {3}/3회차 · 섞어서",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "New 5 · 5/2 · pass 3/3 · mixed"
   },
   "Mix · {n}/{n} · pass {n}/3 · mixed": {
-   "t": "ಮಿಶ್ರಣ · {1}/{2} · ಸುತ್ತು {3}/3 · ಮಿಶ್ರ",
+   "t": "ಮಿಶ್ರಣ · {1}/{2} · ಹಂತ {3}/3 · ಮಿಶ್ರ",
    "ko": "섞어서 · {1}/{2} · {3}/3회차 · 섞어서",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Mix · 5/2 · pass 3/3 · mixed"
   },
   "Weak spots · {n}/{n} · pass {n}/3 · mixed": {
-   "t": "ದುರ್ಬಲ ಅಂಶಗಳು · {1}/{2} · ಸುತ್ತು {3}/3 · ಮಿಶ್ರ",
+   "t": "ದುರ್ಬಲ ಅಂಶಗಳು · {1}/{2} · ಹಂತ {3}/3 · ಮಿಶ್ರ",
    "ko": "약점 공략 · {1}/{2} · {3}/3회차 · 섞어서",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Weak spots · 5/2 · pass 3/3 · mixed"
   },
   "Hardest cards · {n}/{n} · pass {n}/3 · mixed": {
-   "t": "ಅತಿ ಕಷ್ಟದ ಕಾರ್ಡುಗಳು · {1}/{2} · ಸುತ್ತು {3}/3 · ಮಿಶ್ರ",
+   "t": "ಅತಿ ಕಷ್ಟದ ಕಾರ್ಡ್‌ಗಳು · {1}/{2} · ಹಂತ {3}/3 · ಮಿಶ್ರ",
    "ko": "가장 어려운 카드 · {1}/{2} · {3}/3회차 · 섞어서",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Hardest cards · 5/2 · pass 3/3 · mixed"
   },
   "Missed · {n}/{n} · pass {n}/3 · mixed": {
-   "t": "ತಪ್ಪಿದವು · {1}/{2} · ಸುತ್ತು {3}/3 · ಮಿಶ್ರ",
+   "t": "ತಪ್ಪು · {1}/{2} · ಹಂತ {3}/3 · ಮಿಶ್ರ",
    "ko": "틀린 카드 · {1}/{2} · {3}/3회차 · 섞어서",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Missed · 5/2 · pass 3/3 · mixed"
   },
   "{x} · {n}/{n} · pass {n}/3 · mixed": {
-   "t": "{1} · {2}/{3} · ಸುತ್ತು {4}/3 · ಮಿಶ್ರ",
+   "t": "{1} · {2}/{3} · ಹಂತ {4}/3 · ಮಿಶ್ರ",
    "ko": "{1} · {2}/{3} · {4}/3회차 · 섞어서",
    "slots": "{1}=x, {2}=n, {3}=n, {4}=n",
    "example": "Hello there · 5/2 · pass 3/3 · mixed"
   },
   "Quiz · {n}/{n} · new 5 + {n} learned · mixed": {
-   "t": "ಕ್ವಿಜ್ · {1}/{2} · ಹೊಸ 5 + {3} ಕಲಿತದ್ದು · ಮಿಶ್ರ",
+   "t": "ಕ್ವಿಜ್ · {1}/{2} · ಹೊಸ 5 + ಕಲಿತದ್ದು: {3} · ಮಿಶ್ರ",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 + 익힌 카드 {3}장 · 섞어서",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Quiz · 5/2 · new 5 + 3 learned · mixed",
@@ -6114,42 +6114,42 @@
    "example": "📝 Exam · 5/25 · mixed"
   },
   "Learn · card {n} of {n} · {x}": {
-   "t": "ಕಲಿಕೆ · ಕಾರ್ಡ್ {1} / {2} · {3}",
+   "t": "ಕಲಿಕೆ · ಕಾರ್ಡ್ {1}/{2} · {3}",
    "ko": "배우기 · {2}장 중 {1}번째 · {3}",
    "slots": "{1}=n, {2}=n, {3}=x",
    "example": "Learn · card 5 of 2 · Hello there",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Learn · new card {n} of {n} · {x}": {
-   "t": "ಕಲಿಕೆ · ಹೊಸ ಕಾರ್ಡ್ {1} / {2} · {3}",
+   "t": "ಕಲಿಕೆ · ಹೊಸ ಕಾರ್ಡ್ {1}/{2} · {3}",
    "ko": "배우기 · 새 카드 {2}장 중 {1}번째 · {3}",
    "slots": "{1}=n, {2}=n, {3}=x",
    "example": "Learn · new card 5 of 2 · Hello there",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Round {n} of {n} · passed": {
-   "t": "ಸುತ್ತು {1} / {2} · ಪಾಸ್",
+   "t": "ಸುತ್ತು {1}/{2} · ಪಾಸ್",
    "ko": "라운드 {1}/{2} · 통과",
    "slots": "{1}=n, {2}=n",
    "example": "Round 5 of 2 · passed",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Round {n} of {n} · 80% to pass": {
-   "t": "ಸುತ್ತು {1} / {2} · ಪಾಸ್ ಆಗಲು 80%",
+   "t": "ಸುತ್ತು {1}/{2} · ಪಾಸ್ ಆಗಲು 80%",
    "ko": "라운드 {1}/{2} · 80% 이상이면 통과",
    "slots": "{1}=n, {2}=n",
    "example": "Round 5 of 2 · 80% to pass",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} cards learned": {
-   "t": "{1} ಕಾರ್ಡ್ ಕಲಿತಿದ್ದೀರಿ",
+   "t": "ಕಲಿತ ಕಾರ್ಡ್: {1}",
    "ko": "카드 {1}장 익힘",
    "slots": "{1}=n",
    "example": "5 cards learned",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{x} complete": {
-   "t": "{1} ಮುಗಿದಿದೆ",
+   "t": "ಮುಗಿದಿದೆ: {1}",
    "ko": "{1} 완료",
    "slots": "{1}=x",
    "example": "Hello there complete"
@@ -6167,21 +6167,21 @@
    "example": "Hello there · 80% to pass"
   },
   "{n} answered · best combo ×{n} · new personal best": {
-   "t": "{1} ಉತ್ತರಿಸಿದ್ದೀರಿ · ಉತ್ತಮ ಕಾಂಬೊ ×{2} · ಹೊಸ ವೈಯಕ್ತಿಕ ದಾಖಲೆ",
+   "t": "ಉತ್ತರ: {1} · ಅತಿ ಉದ್ದದ ಸರಣಿ ×{2} · ಹೊಸ ವೈಯಕ್ತಿಕ ದಾಖಲೆ",
    "ko": "{1}문제 답함 · 최고 콤보 ×{2} · 개인 최고 기록 경신",
    "slots": "{1}=n, {2}=n",
    "example": "5 answered · best combo ×2 · new personal best",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} answered · best combo ×{n} · personal best {n}": {
-   "t": "{1} ಉತ್ತರಿಸಿದ್ದೀರಿ · ಉತ್ತಮ ಕಾಂಬೊ ×{2} · ವೈಯಕ್ತಿಕ ದಾಖಲೆ {3}",
+   "t": "ಉತ್ತರ: {1} · ಅತಿ ಉದ್ದದ ಸರಣಿ ×{2} · ವೈಯಕ್ತಿಕ ದಾಖಲೆ: {3}",
    "ko": "{1}문제 답함 · 최고 콤보 ×{2} · 개인 최고 기록 {3}",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "5 answered · best combo ×2 · personal best 3",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n}s": {
-   "t": "{1} ಸೆ",
+   "t": "{1} ಸೆಕೆಂಡ್",
    "ko": "{1}초",
    "slots": "{1}=n",
    "example": "5s",
@@ -6202,43 +6202,43 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Register · {n}/10": {
-   "t": "ಮಾತಿನ ಶೈಲಿ · {1}/10",
+   "t": "ಗೌರವ ↔ ಸಲುಗೆ · {1}/10",
    "ko": "존댓말·반말 · {1}/10",
    "slots": "{1}=n",
    "example": "Register · 5/10"
   },
   "Re-drill missed ({n})": {
-   "t": "ತಪ್ಪಿದವುಗಳ ಮರು-ಡ್ರಿಲ್ ({1})",
+   "t": "ತಪ್ಪಾದದ್ದು ಮತ್ತೆ ಮಾಡಿ ({1})",
    "ko": "틀린 문제 다시 풀기 ({1})",
    "slots": "{1}=n",
    "example": "Re-drill missed (5)"
   },
   "📝 Exams (last {n})": {
-   "t": "📝 ಪರೀಕ್ಷೆಗಳು (ಕೊನೆಯ {1})",
+   "t": "📝 ಪರೀಕ್ಷೆ (ಇತ್ತೀಚಿನ {1})",
    "ko": "📝 시험 (최근 {1}회)",
    "slots": "{1}=n",
    "example": "📝 Exams (last 5)"
   },
   "Why: {s} ·": {
-   "t": "ಏಕೆ: {1} ·",
+   "t": "ಕಾರಣ: {1} ·",
    "ko": "이유: {1} ·",
    "slots": "{1}=s",
    "example": "Why: Greetings ·"
   },
   "Why: {x}": {
-   "t": "ಏಕೆ: {1}",
+   "t": "ಕಾರಣ: {1}",
    "ko": "이유: {1}",
    "slots": "{1}=x",
    "example": "Why: Hello there"
   },
   "Your line ({x}):": {
-   "t": "ನಿಮ್ಮ ಸಾಲು ({1}):",
+   "t": "ನಿಮ್ಮ ಮಾತು ({1}):",
    "ko": "내 대사 ({1}):",
    "slots": "{1}=x",
    "example": "Your line (Hello there):"
   },
   "🔢 Listen and type the number · {x}": {
-   "t": "🔢 ಆಲಿಸಿ, ಸಂಖ್ಯೆ ಟೈಪ್ ಮಾಡಿ · {1}",
+   "t": "🔢 ಕೇಳಿ, ಸಂಖ್ಯೆ ಟೈಪ್ ಮಾಡಿ · {1}",
    "ko": "🔢 듣고 숫자를 입력하세요 · {1}",
    "slots": "{1}=x",
    "example": "🔢 Listen and type the number · Hello there"
@@ -6250,26 +6250,26 @@
    "example": "🗣 5/3 · repeat"
   },
   "Resend email ({n}s)": {
-   "t": "ಇಮೇಲ್ ಮತ್ತೆ ಕಳುಹಿಸಿ ({1} ಸೆ)",
+   "t": "ಇಮೇಲ್ ಮತ್ತೆ ಕಳುಹಿಸಿ ({1} ಸೆಕೆಂಡ್)",
    "ko": "이메일 다시 보내기 ({1}초)",
    "slots": "{1}=n",
    "example": "Resend email (5s)",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Flashcard: {s} ({s}). Press to flip, arrow keys to answer.": {
-   "t": "ಫ್ಲ್ಯಾಶ್ ಕಾರ್ಡ್: {1} ({2}). ತಿರುಗಿಸಲು ಒತ್ತಿ, ಉತ್ತರಿಸಲು ಬಾಣದ ಕೀಲಿಗಳು.",
+   "t": "ಫ್ಲ್ಯಾಶ್‌ಕಾರ್ಡ್: {1} ({2}). ತಿರುಗಿಸಲು ಒತ್ತಿ, ಉತ್ತರಿಸಲು ಬಾಣದ ಕೀ ಬಳಸಿ.",
    "ko": "플래시카드: {1} ({2}). 눌러서 뒤집고, 방향키로 답하세요.",
    "slots": "{1}=s, {2}=s",
    "example": "Flashcard: Greetings (Travel). Press to flip, arrow keys to answer."
   },
   "Flashcard: {x}. Press to flip, arrow keys to answer.": {
-   "t": "ಫ್ಲ್ಯಾಶ್ ಕಾರ್ಡ್: {1}. ತಿರುಗಿಸಲು ಒತ್ತಿ, ಉತ್ತರಿಸಲು ಬಾಣದ ಕೀಲಿಗಳು.",
+   "t": "ಫ್ಲ್ಯಾಶ್‌ಕಾರ್ಡ್: {1}. ತಿರುಗಿಸಲು ಒತ್ತಿ, ಉತ್ತರಿಸಲು ಬಾಣದ ಕೀ ಬಳಸಿ.",
    "ko": "플래시카드: {1}. 눌러서 뒤집고, 방향키로 답하세요.",
    "slots": "{1}=x",
    "example": "Flashcard: Hello there. Press to flip, arrow keys to answer."
   },
   "Listen to {x}": {
-   "t": "{1} ಆಲಿಸಿ",
+   "t": "ಕೇಳಿ: {1}",
    "ko": "{1} 듣기",
    "slots": "{1}=x",
    "example": "Listen to Hello there"
@@ -6281,20 +6281,20 @@
    "example": "✨ New card · Hello there"
   },
   "{x} · which one is it?": {
-   "t": "{1} · ಯಾವುದು?",
+   "t": "{1} · ಇದು ಯಾವುದು?",
    "ko": "{1} · 어느 쪽일까요?",
    "slots": "{1}=x",
    "example": "Hello there · which one is it?"
   },
   "No cards due right now. Next ones come due in {n} days.": {
-   "t": "ಈಗ ರಿವ್ಯೂಗೆ ಯಾವ ಕಾರ್ಡೂ ಬಾಕಿ ಇಲ್ಲ. ಮುಂದಿನವು {1} ದಿನದಲ್ಲಿ ಬಾಕಿಯಾಗುತ್ತವೆ.",
+   "t": "ಈಗ ಬಾಕಿ ಕಾರ್ಡ್ ಇಲ್ಲ. ಮುಂದಿನ ಕಾರ್ಡ್‌ಗಳಿಗೆ ಬಾಕಿ ದಿನ: {1}.",
    "ko": "지금 복습할 카드가 없어요. 다음 복습은 {1}일 뒤예요.",
    "slots": "{1}=n",
    "example": "No cards due right now. Next ones come due in 5 days.",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "No cards due right now. Next ones come due in {n} day.": {
-   "t": "ಈಗ ರಿವ್ಯೂಗೆ ಯಾವ ಕಾರ್ಡೂ ಬಾಕಿ ಇಲ್ಲ. ಮುಂದಿನವು {1} ದಿನದಲ್ಲಿ ಬಾಕಿಯಾಗುತ್ತವೆ.",
+   "t": "ಈಗ ಬಾಕಿ ಕಾರ್ಡ್ ಇಲ್ಲ. ಮುಂದಿನ ಕಾರ್ಡ್‌ಗಳಿಗೆ ಬಾಕಿ ದಿನ: {1}.",
    "ko": "지금 복습할 카드가 없어요. 다음 복습은 {1}일 뒤예요.",
    "slots": "{1}=n",
    "example": "No cards due right now. Next ones come due in 5 day.",
@@ -6307,7 +6307,7 @@
    "example": "Continue practice · card 5/2"
   },
   "Learn new cards · {x}": {
-   "t": "ಹೊಸ ಕಾರ್ಡುಗಳನ್ನು ಕಲಿಯಿರಿ · {1}",
+   "t": "ಹೊಸ ಕಾರ್ಡ್ ಕಲಿಯಿರಿ · {1}",
    "ko": "새 카드 배우기 · {1}",
    "slots": "{1}=x",
    "example": "Learn new cards · Hello there"
@@ -6319,32 +6319,32 @@
    "example": "Hello there · card 5/2"
   },
   "Something went wrong: {x}": {
-   "t": "ಏನೋ ತಪ್ಪಾಯಿತು: {1}",
+   "t": "ಏನೋ ತಪ್ಪಾಗಿದೆ: {1}",
    "ko": "문제가 생겼어요: {1}",
    "slots": "{1}=x",
    "example": "Something went wrong: Hello there"
   },
   "레벨 업! Level {n} · {s} 🎉": {
-   "t": "레벨 업! ಲೆವೆಲ್ {1} · {2} 🎉",
+   "t": "ಲೆವೆಲ್ ಏರಿತು! ಲೆವೆಲ್ {1} · {2} 🎉",
    "ko": "레벨 업! 레벨 {1} · {2} 🎉",
    "slots": "{1}=n, {2}=s",
    "example": "레벨 업! Level 5 · Greetings 🎉"
   },
   "🛡️ Streak shield used for yesterday. {n} left.": {
-   "t": "🛡️ ನಿನ್ನೆಗಾಗಿ ಸ್ಟ್ರೀಕ್ ಕವಚ ಬಳಸಲಾಗಿದೆ. ಉಳಿದದ್ದು: {1}.",
+   "t": "🛡️ ನಿನ್ನೆಗಾಗಿ ಸತತ ದಿನದ ರಕ್ಷಾಕವಚ ಬಳಕೆಯಾಗಿದೆ. ಬಾಕಿ: {1}.",
    "ko": "🛡️ 어제 연속 학습 보호막을 썼어요. {1}개 남았어요.",
    "slots": "{1}=n",
    "example": "🛡️ Streak shield used for yesterday. 5 left.",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "🛡️ Streak shield earned ({n}/2). A missed day won't break your streak.": {
-   "t": "🛡️ ಸ್ಟ್ರೀಕ್ ಕವಚ ಸಿಕ್ಕಿದೆ ({1}/2). ಒಂದು ದಿನ ತಪ್ಪಿದರೂ ನಿಮ್ಮ ಸ್ಟ್ರೀಕ್ ಮುರಿಯುವುದಿಲ್ಲ.",
+   "t": "🛡️ ಸತತ ದಿನದ ರಕ್ಷಾಕವಚ ಸಿಕ್ಕಿದೆ ({1}/2). ಒಂದು ದಿನ ತಪ್ಪಿದರೂ ನಿಮ್ಮ ಸತತ ದಿನ ಮುರಿಯುವುದಿಲ್ಲ.",
    "ko": "🛡️ 연속 학습 보호막을 얻었어요 ({1}/2). 하루 빠져도 연속 학습이 끊기지 않아요.",
    "slots": "{1}=n",
    "example": "🛡️ Streak shield earned (5/2). A missed day won't break your streak."
   },
   "🏆 {x} mastered · +50 XP": {
-   "t": "🏆 {1} ಕರಗತವಾಗಿದೆ · +50 XP",
+   "t": "🏆 ಕರಗತ: {1} · +50 XP",
    "ko": "🏆 {1} 마스터 · +50 XP",
    "slots": "{1}=x",
    "example": "🏆 Hello there mastered · +50 XP"
@@ -6356,52 +6356,52 @@
    "example": "🎓 Certificate earned: Hello there · +100 XP"
   },
   "🏅 Deck of the week complete: {x}": {
-   "t": "🏅 ವಾರದ ಡೆಕ್ ಮುಗಿದಿದೆ: {1}",
+   "t": "🏅 ಈ ವಾರದ ಡೆಕ್ ಮುಗಿದಿದೆ: {1}",
    "ko": "🏅 이번 주의 덱 완료: {1}",
    "slots": "{1}=x",
    "example": "🏅 Deck of the week complete: Hello there"
   },
   "Set up. Start with {x}.": {
-   "t": "ಸಿದ್ಧವಾಗಿದೆ. ಮೊದಲು ಇದು: {1}.",
+   "t": "ಸೆಟಪ್ ಆಗಿದೆ. ಇಲ್ಲಿಂದ ಪ್ರಾರಂಭಿಸಿ: {1}.",
    "ko": "설정 완료! {1}부터 시작해요.",
    "slots": "{1}=x",
    "example": "Set up. Start with Hello there."
   },
   "Plan set. {n} weeks.": {
-   "t": "ಯೋಜನೆ ಸಿದ್ಧ. {1} ವಾರ.",
+   "t": "ಪ್ಲಾನ್ ಸಿದ್ಧ: {1} ವಾರ.",
    "ko": "계획을 세웠어요. {1}주 과정이에요.",
    "slots": "{1}=n",
    "example": "Plan set. 5 weeks.",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Export copied ({n} KB).": {
-   "t": "ರಫ್ತು ನಕಲಿಸಲಾಗಿದೆ ({1} KB).",
+   "t": "ಎಕ್ಸ್‌ಪೋರ್ಟ್ ನಕಲಾಗಿದೆ ({1} KB).",
    "ko": "내보낸 데이터를 복사했어요 ({1} KB).",
    "slots": "{1}=n",
    "example": "Export copied (5 KB).",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Merged. {n} cards of progress were new.": {
-   "t": "ವಿಲೀನವಾಗಿದೆ. {1} ಕಾರ್ಡಿನ ಪ್ರಗತಿ ಹೊಸದಾಗಿತ್ತು.",
+   "t": "ವಿಲೀನವಾಗಿದೆ. ಪ್ರಗತಿಯಲ್ಲಿ ಹೊಸ ಕಾರ್ಡ್: {1}.",
    "ko": "합쳤어요. 카드 {1}장의 진도가 새로 추가됐어요.",
    "slots": "{1}=n",
    "example": "Merged. 5 cards of progress were new.",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Couldn't delete right now ({x}). Try again, or post in Feedback.": {
-   "t": "ಈಗ ಅಳಿಸಲಾಗಲಿಲ್ಲ ({1}). ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ, ಅಥವಾ \"ಅಭಿಪ್ರಾಯ\" ವಿಭಾಗದಲ್ಲಿ ಪೋಸ್ಟ್ ಮಾಡಿ.",
+   "t": "ಈಗ ಅಳಿಸಲು ಆಗಲಿಲ್ಲ ({1}). ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ, ಅಥವಾ \"ಅನಿಸಿಕೆ\" ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಬರೆಯಿರಿ.",
    "ko": "지금은 삭제할 수 없어요 ({1}). 다시 시도하거나 피드백에 남겨 주세요.",
    "slots": "{1}=x",
    "example": "Couldn't delete right now (Hello there). Try again, or post in Feedback."
   },
   "This permanently deletes your account ({s}) and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type": {
-   "t": "ಇದು ನಿಮ್ಮ ಖಾತೆಯನ್ನು ({1}) ಮತ್ತು ಸಿಂಕ್ ಆದ ಪ್ರಗತಿಯನ್ನು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸುತ್ತದೆ. ಇದನ್ನು ಹಿಂಪಡೆಯಲು ಆಗುವುದಿಲ್ಲ. ನಿಮ್ಮ ಅಭಿಪ್ರಾಯ ಪೋಸ್ಟುಗಳು ಉಳಿಯುತ್ತವೆ, ಆದರೆ ಇನ್ನು ನಿಮಗೆ ಜೋಡಣೆಯಾಗಿರುವುದಿಲ್ಲ.",
+   "t": "ಇದರಿಂದ ನಿಮ್ಮ ಖಾತೆ ({1}) ಮತ್ತು ಸಿಂಕ್ ಆದ ಪ್ರಗತಿ ಶಾಶ್ವತವಾಗಿ ಅಳಿಸಿಹೋಗುತ್ತದೆ. ಇದನ್ನು ಹಿಂಪಡೆಯಲು ಆಗುವುದಿಲ್ಲ. ನಿಮ್ಮ ಅನಿಸಿಕೆ ಪೋಸ್ಟ್‌ಗಳು ಉಳಿಯುತ್ತವೆ, ಆದರೆ ನಿಮ್ಮ ಹೆಸರಿನ ಜೊತೆ ಅವುಗಳ ಸಂಬಂಧ ಇರುವುದಿಲ್ಲ. ಖಚಿತಪಡಿಸಲು",
    "ko": "계정({1})과 동기화된 진도가 영구 삭제돼요. 되돌릴 수 없어요. 피드백 글은 남지만 더 이상 내 계정과 연결되지 않아요. 확인하려면",
    "slots": "{1}=s",
    "example": "This permanently deletes your account (Greetings) and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type"
   },
   "This permanently deletes your account () and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type": {
-   "t": "ಇದು ನಿಮ್ಮ ಖಾತೆಯನ್ನು () ಮತ್ತು ಸಿಂಕ್ ಆದ ಪ್ರಗತಿಯನ್ನು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸುತ್ತದೆ. ಇದನ್ನು ಹಿಂಪಡೆಯಲು ಆಗುವುದಿಲ್ಲ. ನಿಮ್ಮ ಅಭಿಪ್ರಾಯ ಪೋಸ್ಟುಗಳು ಉಳಿಯುತ್ತವೆ, ಆದರೆ ಇನ್ನು ನಿಮಗೆ ಜೋಡಣೆಯಾಗಿರುವುದಿಲ್ಲ.",
+   "t": "ಇದರಿಂದ ನಿಮ್ಮ ಖಾತೆ () ಮತ್ತು ಸಿಂಕ್ ಆದ ಪ್ರಗತಿ ಶಾಶ್ವತವಾಗಿ ಅಳಿಸಿಹೋಗುತ್ತದೆ. ಇದನ್ನು ಹಿಂಪಡೆಯಲು ಆಗುವುದಿಲ್ಲ. ನಿಮ್ಮ ಅನಿಸಿಕೆ ಪೋಸ್ಟ್‌ಗಳು ಉಳಿಯುತ್ತವೆ, ಆದರೆ ನಿಮ್ಮ ಹೆಸರಿನ ಜೊತೆ ಅವುಗಳ ಸಂಬಂಧ ಇರುವುದಿಲ್ಲ. ಖಚಿತಪಡಿಸಲು",
    "ko": "계정과 동기화된 진도가 영구 삭제돼요. 되돌릴 수 없어요. 피드백 글은 남지만 더 이상 내 계정과 연결되지 않아요. 확인하려면",
    "slots": "",
    "example": "This permanently deletes your account () and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type"
@@ -6414,7 +6414,7 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} XP TODAY": {
-   "t": "ಇಂದು {1} XP",
+   "t": "ಇಂದಿನ XP: {1}",
    "ko": "오늘 {1} XP",
    "slots": "{1}=n",
    "example": "5 XP TODAY",
@@ -6427,101 +6427,101 @@
    "example": "Hello there · day 5 🔥"
   },
   "· {n} days · a Quick session keeps it": {
-   "t": "· {1} ದಿನ · ಒಂದು ಚಿಕ್ಕ ಸೆಷನ್ ಇದನ್ನು ಉಳಿಸುತ್ತದೆ",
+   "t": "· {1} ದಿನ · ಒಂದು ಚಿಕ್ಕ ಸೆಷನ್ ಮಾಡಿದರೆ ಸತತ ದಿನ ಉಳಿಯುತ್ತದೆ",
    "ko": "· {1}일째 · 짧게 학습하면 지킬 수 있어요",
    "slots": "{1}=n",
    "example": "· 5 days · a Quick session keeps it",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "· {n} cards from mastery": {
-   "t": "· ಕರಗತವಾಗಲು ಇನ್ನೂ {1} ಕಾರ್ಡ್",
+   "t": "· ಕರಗತವಾಗಲು ಬಾಕಿ: {1}",
    "ko": "· 마스터까지 카드 {1}장",
    "slots": "{1}=n",
    "example": "· 5 cards from mastery",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "· {n} card from mastery": {
-   "t": "· ಕರಗತವಾಗಲು ಇನ್ನೂ {1} ಕಾರ್ಡ್",
+   "t": "· ಕರಗತವಾಗಲು ಬಾಕಿ: {1}",
    "ko": "· 마스터까지 카드 {1}장",
    "slots": "{1}=n",
    "example": "· 5 card from mastery",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n}/{n} learned · pass \"Test everything\" at 80%+ to finish · {n} weekly badges": {
-   "t": "{1}/{2} ಕಲಿತಿದ್ದೀರಿ · ಮುಗಿಸಲು \"ಎಲ್ಲವನ್ನೂ ಪರೀಕ್ಷಿಸಿ\" 80%+ ಅಂಕದಲ್ಲಿ ಪಾಸ್ ಮಾಡಿ · {3} ವಾರದ ಬ್ಯಾಡ್ಜ್",
+   "t": "ಕಲಿತದ್ದು: {1}/{2} · ಮುಗಿಸಲು \"ಎಲ್ಲವನ್ನೂ ಟೆಸ್ಟ್ ಮಾಡಿ\" ಟೆಸ್ಟ್‌ನಲ್ಲಿ 80%+ ಪಡೆಯಿರಿ · ವಾರದ ಬ್ಯಾಡ್ಜ್: {3}",
    "ko": "{1}/{2} 익힘 · \"전체 테스트\"를 80% 이상으로 통과하면 완료 · 주간 배지 {3}개",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "5/2 learned · pass \"Test everything\" at 80%+ to finish · 3 weekly badges",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n}/{n} learned · pass \"Test everything\" at 80%+ to finish · {n} weekly badge": {
-   "t": "{1}/{2} ಕಲಿತಿದ್ದೀರಿ · ಮುಗಿಸಲು \"ಎಲ್ಲವನ್ನೂ ಪರೀಕ್ಷಿಸಿ\" 80%+ ಅಂಕದಲ್ಲಿ ಪಾಸ್ ಮಾಡಿ · {3} ವಾರದ ಬ್ಯಾಡ್ಜ್",
+   "t": "ಕಲಿತದ್ದು: {1}/{2} · ಮುಗಿಸಲು \"ಎಲ್ಲವನ್ನೂ ಟೆಸ್ಟ್ ಮಾಡಿ\" ಟೆಸ್ಟ್‌ನಲ್ಲಿ 80%+ ಪಡೆಯಿರಿ · ವಾರದ ಬ್ಯಾಡ್ಜ್: {3}",
    "ko": "{1}/{2} 익힘 · \"전체 테스트\"를 80% 이상으로 통과하면 완료 · 주간 배지 {3}개",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "5/2 learned · pass \"Test everything\" at 80%+ to finish · 3 weekly badge",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Your track · {x}": {
-   "t": "ನಿಮ್ಮ ಹಾದಿ · {1}",
+   "t": "ನಿಮ್ಮ ದಾರಿ · {1}",
    "ko": "내 트랙 · {1}",
    "slots": "{1}=x",
    "example": "Your track · Hello there"
   },
   "New cards · {s} · daily cap reached": {
-   "t": "ಹೊಸ ಕಾರ್ಡುಗಳು · {1} · ದಿನದ ಮಿತಿ ತಲುಪಿದೆ",
+   "t": "ಹೊಸ ಕಾರ್ಡ್‌ಗಳು · {1} · ದಿನದ ಮಿತಿ ಮುಗಿದಿದೆ",
    "ko": "새 카드 · {1} · 하루 한도 도달",
    "slots": "{1}=s",
    "example": "New cards · Greetings · daily cap reached"
   },
   "New cards · daily cap reached": {
-   "t": "ಹೊಸ ಕಾರ್ಡುಗಳು · ದಿನದ ಮಿತಿ ತಲುಪಿದೆ",
+   "t": "ಹೊಸ ಕಾರ್ಡ್‌ಗಳು · ದಿನದ ಮಿತಿ ಮುಗಿದಿದೆ",
    "ko": "새 카드 · 하루 한도 도달",
    "slots": "",
    "example": "New cards · daily cap reached"
   },
   "New cards · {x}": {
-   "t": "ಹೊಸ ಕಾರ್ಡುಗಳು · {1}",
+   "t": "ಹೊಸ ಕಾರ್ಡ್‌ಗಳು · {1}",
    "ko": "새 카드 · {1}",
    "slots": "{1}=x",
    "example": "New cards · Hello there"
   },
   "week {n} of {n}": {
-   "t": "ವಾರ {1} / {2}",
+   "t": "ವಾರ {1}/{2}",
    "ko": "{2}주 중 {1}주차",
    "slots": "{1}=n, {2}=n",
    "example": "week 5 of 2",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "This week: {x} · lessons {s} · {n} new/day": {
-   "t": "ಈ ವಾರ: {1} · ಪಾಠಗಳು {2} · ದಿನಕ್ಕೆ {3} ಹೊಸದು",
+   "t": "ಈ ವಾರ: {1} · ಪಾಠ {2} · ದಿನಕ್ಕೆ ಹೊಸ ಕಾರ್ಡ್: {3}",
    "ko": "이번 주: {1} · 레슨 {2} · 하루 새 카드 {3}장",
    "slots": "{1}=x, {2}=s, {3}=n",
    "example": "This week: Hello there · lessons Greetings · 5 new/day",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "This week: · lessons {s} · {n} new/day": {
-   "t": "ಈ ವಾರ: · ಪಾಠಗಳು {1} · ದಿನಕ್ಕೆ {2} ಹೊಸದು",
+   "t": "ಈ ವಾರ: · ಪಾಠ {1} · ದಿನಕ್ಕೆ ಹೊಸ ಕಾರ್ಡ್: {2}",
    "ko": "이번 주: · 레슨 {1} · 하루 새 카드 {2}장",
    "slots": "{1}=s, {2}=n",
    "example": "This week: · lessons Greetings · 5 new/day",
    "context": "example is caught first by earlier pattern \"This week: {x} · {n} new/day\"; count slot: the translation must read correctly at 1 and at 2+"
   },
   "This week: {x} · {n} new/day": {
-   "t": "ಈ ವಾರ: {1} · ದಿನಕ್ಕೆ {2} ಹೊಸದು",
+   "t": "ಈ ವಾರ: {1} · ದಿನಕ್ಕೆ ಹೊಸ ಕಾರ್ಡ್: {2}",
    "ko": "이번 주: {1} · 하루 새 카드 {2}장",
    "slots": "{1}=x, {2}=n",
    "example": "This week: Hello there · 5 new/day",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} decks · {n} lessons · {n} weeks · {n} new cards/day": {
-   "t": "{1} ಡೆಕ್ · {2} ಪಾಠ · {3} ವಾರ · ದಿನಕ್ಕೆ {4} ಹೊಸ ಕಾರ್ಡ್",
+   "t": "{1} ಡೆಕ್ · {2} ಪಾಠ · {3} ವಾರ · ದಿನಕ್ಕೆ ಹೊಸ ಕಾರ್ಡ್: {4}",
    "ko": "덱 {1}개 · 레슨 {2}개 · {3}주 · 하루 새 카드 {4}장",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n",
    "example": "5 decks · 2 lessons · 3 weeks · 4 new cards/day",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "You missed {n}": {
-   "t": "ನೀವು {1} ತಪ್ಪಿದ್ದೀರಿ",
+   "t": "ತಪ್ಪು: {1}",
    "ko": "틀린 카드 {1}장:",
    "slots": "{1}=n",
    "example": "You missed 5"
@@ -6540,44 +6540,44 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "📚 Grammar index · {n} patterns": {
-   "t": "📚 ವ್ಯಾಕರಣ ಸೂಚಿ · {1} ಮಾದರಿ",
+   "t": "📚 ವ್ಯಾಕರಣ ಸೂಚಿ · {1} ಪ್ಯಾಟರ್ನ್",
    "ko": "📚 문법 색인 · 패턴 {1}개",
    "slots": "{1}=n",
    "example": "📚 Grammar index · 5 patterns",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "3 questions on this lesson · passed ✓.": {
-   "t": "ಈ ಪಾಠದ ಬಗ್ಗೆ 3 ಪ್ರಶ್ನೆಗಳು · ಪಾಸ್ ✓.",
+   "t": "ಈ ಪಾಠದ ಬಗ್ಗೆ 3 ಪ್ರಶ್ನೆ · ಪಾಸ್ ✓.",
    "ko": "이 레슨 확인 문제 3개 · 통과 ✓.",
    "slots": "",
    "example": "3 questions on this lesson · passed ✓."
   },
   "3 questions on this lesson.": {
-   "t": "ಈ ಪಾಠದ ಬಗ್ಗೆ 3 ಪ್ರಶ್ನೆಗಳು.",
+   "t": "ಈ ಪಾಠದ ಬಗ್ಗೆ 3 ಪ್ರಶ್ನೆ.",
    "ko": "이 레슨 확인 문제 3개.",
    "slots": "",
    "example": "3 questions on this lesson."
   },
   "📖 Browse {x}": {
-   "t": "📖 ನೋಡಿ: {1}",
+   "t": "📖 ಬ್ರೌಸ್: {1}",
    "ko": "📖 {1} 둘러보기",
    "slots": "{1}=x",
    "example": "📖 Browse Hello there"
   },
   "{n}/{n} · lesson done ✓": {
-   "t": "{1}/{2} · ಪಾಠ ಮುಗಿಯಿತು ✓",
+   "t": "{1}/{2} · ಪಾಠ ಮುಗಿದಿದೆ ✓",
    "ko": "{1}/{2} · 레슨 완료 ✓",
    "slots": "{1}=n, {2}=n",
    "example": "5/2 · lesson done ✓"
   },
   "{n}/{n} · now pass the quick check above": {
-   "t": "{1}/{2} · ಈಗ ಮೇಲಿನ ಕಿರು ಪರಿಶೀಲನೆ ಪಾಸ್ ಮಾಡಿ",
+   "t": "{1}/{2} · ಈಗ ಮೇಲಿನ ಕಿರು ಪರೀಕ್ಷೆ ಪಾಸ್ ಮಾಡಿ",
    "ko": "{1}/{2} · 이제 위의 확인 문제를 통과하세요",
    "slots": "{1}=n, {2}=n",
    "example": "5/2 · now pass the quick check above"
   },
   "Card {n} of {n}": {
-   "t": "ಕಾರ್ಡ್ {1} / {2}",
+   "t": "ಕಾರ್ಡ್ {1}/{2}",
    "ko": "{2}장 중 {1}번째",
    "slots": "{1}=n, {2}=n",
    "example": "Card 5 of 2",
@@ -6590,7 +6590,7 @@
    "example": "· passed"
   },
   "{x} · seen {n}×": {
-   "t": "{1} · {2}× ನೋಡಿದ್ದೀರಿ",
+   "t": "{1} · ನೋಡಿದ್ದು: {2} ಸಲ",
    "ko": "{1} · {2}번 나옴",
    "slots": "{1}=x, {2}=n",
    "example": "Hello there · seen 5×",
@@ -6610,55 +6610,55 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "🛡️ Streak shields: {n}/2 · earn one every 7-day streak; a missed day spends one instead of breaking the streak.": {
-   "t": "🛡️ ಸ್ಟ್ರೀಕ್ ಕವಚಗಳು: {1}/2 · ಪ್ರತಿ 7 ದಿನದ ಸ್ಟ್ರೀಕಿಗೆ ಒಂದು ಸಿಗುತ್ತದೆ; ಒಂದು ದಿನ ತಪ್ಪಿದರೆ ಸ್ಟ್ರೀಕ್ ಮುರಿಯುವ ಬದಲು ಒಂದು ಕವಚ ಖರ್ಚಾಗುತ್ತದೆ.",
+   "t": "🛡️ ಸತತ ದಿನದ ರಕ್ಷಾಕವಚ: {1}/2 · ಸತತ 7 ದಿನ ಕಲಿತರೆ ಒಂದು ಸಿಗುತ್ತದೆ; ಒಂದು ದಿನ ತಪ್ಪಿದರೆ ಸತತ ದಿನ ಮುರಿಯುವ ಬದಲು ಒಂದು ರಕ್ಷಾಕವಚ ಖರ್ಚಾಗುತ್ತದೆ.",
    "ko": "🛡️ 연속 학습 보호막: {1}/2 · 7일 연속 학습할 때마다 하나씩 얻어요. 하루 빠지면 연속 학습 대신 보호막이 하나 쓰여요.",
    "slots": "{1}=n",
    "example": "🛡️ Streak shields: 5/2 · earn one every 7-day streak; a missed day spends one instead of breaking the streak."
   },
   "Last 8 weeks · {n} active days · {n} active weeks · green = goal met, amber = some study": {
-   "t": "ಕೊನೆಯ 8 ವಾರ · {1} ಸಕ್ರಿಯ ದಿನ · {2} ಸಕ್ರಿಯ ವಾರ · ಹಸಿರು = ಗುರಿ ತಲುಪಿದ್ದು, ಹಳದಿ = ಸ್ವಲ್ಪ ಓದು",
+   "t": "ಕಳೆದ 8 ವಾರ · ಸಕ್ರಿಯ ದಿನ: {1} · ಸಕ್ರಿಯ ವಾರ: {2} · ಹಸಿರು = ಗುರಿ ತಲುಪಿದ ದಿನ, ಕಿತ್ತಳೆ = ಸ್ವಲ್ಪ ಕಲಿಕೆ",
    "ko": "최근 8주 · 학습한 날 {1}일 · 학습한 주 {2}주 · 초록 = 목표 달성, 주황 = 조금 학습",
    "slots": "{1}=n, {2}=n",
    "example": "Last 8 weeks · 5 active days · 2 active weeks · green = goal met, amber = some study",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct · {n}s per card · best hour {n}:00 ({n}%)": {
-   "t": "ಕೊನೆಯ {1} ರಿವ್ಯೂ · {2}% ಸರಿ · ಕಾರ್ಡಿಗೆ {3} ಸೆ · ಉತ್ತಮ ಸಮಯ {4}:00 ({5}%)",
+   "t": "ಇತ್ತೀಚಿನ ಮನನ: {1} · ಸರಿ: {2}% · ಪ್ರತಿ ಕಾರ್ಡ್‌ಗೆ {3} ಸೆಕೆಂಡ್ · ಅತ್ಯುತ್ತಮ ಗಂಟೆ {4}:00 ({5}%)",
    "ko": "최근 복습 {1}번 · 정답률 {2}% · 카드당 {3}초 · 가장 잘되는 시간 {4}시 ({5}%)",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n, {5}=n",
    "example": "Last 5 reviews · 2% correct · 3s per card · best hour 4:00 (6%)",
    "context": "example is caught first by earlier pattern \"Last {n} reviews · {n}% correct · {f}s per card · best hour {n}:00 ({n}%)\"; count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct · {n}s per card": {
-   "t": "ಕೊನೆಯ {1} ರಿವ್ಯೂ · {2}% ಸರಿ · ಕಾರ್ಡಿಗೆ {3} ಸೆ",
+   "t": "ಇತ್ತೀಚಿನ ಮನನ: {1} · ಸರಿ: {2}% · ಪ್ರತಿ ಕಾರ್ಡ್‌ಗೆ {3} ಸೆಕೆಂಡ್",
    "ko": "최근 복습 {1}번 · 정답률 {2}% · 카드당 {3}초",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Last 5 reviews · 2% correct · 3s per card",
    "context": "example is caught first by earlier pattern \"Last {n} reviews · {n}% correct · {f}s per card\"; count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct · best hour {n}:00 ({n}%)": {
-   "t": "ಕೊನೆಯ {1} ರಿವ್ಯೂ · {2}% ಸರಿ · ಉತ್ತಮ ಸಮಯ {3}:00 ({4}%)",
+   "t": "ಇತ್ತೀಚಿನ ಮನನ: {1} · ಸರಿ: {2}% · ಅತ್ಯುತ್ತಮ ಗಂಟೆ {3}:00 ({4}%)",
    "ko": "최근 복습 {1}번 · 정답률 {2}% · 가장 잘되는 시간 {3}시 ({4}%)",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n",
    "example": "Last 5 reviews · 2% correct · best hour 3:00 (4%)",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct": {
-   "t": "ಕೊನೆಯ {1} ರಿವ್ಯೂ · {2}% ಸರಿ",
+   "t": "ಇತ್ತೀಚಿನ ಮನನ: {1} · ಸರಿ: {2}%",
    "ko": "최근 복습 {1}번 · 정답률 {2}%",
    "slots": "{1}=n, {2}=n",
    "example": "Last 5 reviews · 2% correct",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} due now · {n} tomorrow · {n} in the next 7 days · {n} in 14": {
-   "t": "ಈಗ {1} ಬಾಕಿ · ನಾಳೆ {2} · ಮುಂದಿನ 7 ದಿನದಲ್ಲಿ {3} · 14 ದಿನದಲ್ಲಿ {4}",
+   "t": "ಈಗ ಬಾಕಿ: {1} · ನಾಳೆ: {2} · ಮುಂದಿನ 7 ದಿನ: {3} · 14 ದಿನ: {4}",
    "ko": "지금 복습 {1} · 내일 {2} · 7일 안에 {3} · 14일 안에 {4}",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n",
    "example": "5 due now · 2 tomorrow · 3 in the next 7 days · 4 in 14",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "New → box 1 (today) → {x} · 6 = mastered": {
-   "t": "ಹೊಸದು → ಪೆಟ್ಟಿಗೆ 1 (ಇಂದು) → {1} · 6 = ಕರಗತ",
+   "t": "ಹೊಸದು → ಬಾಕ್ಸ್ 1 (ಇಂದು) → {1} · 6 = ಕರಗತ",
    "ko": "새 카드 → 상자 1 (오늘) → {1} · 6 = 마스터",
    "slots": "{1}=x",
    "example": "New → box 1 (today) → Hello there · 6 = mastered"
@@ -6670,52 +6670,52 @@
    "example": "Hello there · 6 = mastered"
   },
   "{n} predictions · when you said \"yes\" you were right {n}% of the time ({n}/{n}) · when \"not sure\", you still got {n}% ({n}/{n}) · {n} overconfident cards go first in Weak spots": {
-   "t": "{1} ಊಹೆ · ನೀವು \"ಹೌದು\" ಎಂದಾಗ {2}% ಸಲ ಸರಿ ({3}/{4}) · \"ಖಚಿತವಿಲ್ಲ\" ಎಂದಾಗಲೂ {5}% ಸರಿ ({6}/{7}) · ಅತಿ ವಿಶ್ವಾಸದ {8} ಕಾರ್ಡ್ ದುರ್ಬಲ ಅಂಶಗಳಲ್ಲಿ ಮೊದಲಿಗೆ",
+   "t": "ಊಹೆ: {1} · \"ಹೌದು\" ಎಂದಾಗ ಸರಿ: {2}% ({3}/{4}) · \"ಖಚಿತವಿಲ್ಲ\" ಎಂದಾಗಲೂ ಸರಿ: {5}% ({6}/{7}) · ಅತಿ ವಿಶ್ವಾಸದ ಕಾರ್ಡ್ (\"ದುರ್ಬಲ ಅಂಶಗಳು\" ವಿಭಾಗದಲ್ಲಿ ಮೊದಲು): {8}",
    "ko": "예측 {1}번 · \"네\"라고 했을 때 {2}% 맞혔어요 ({3}/{4}) · \"잘 모르겠어요\"라고 했을 때도 {5}% 맞혔어요 ({6}/{7}) · 과신한 카드 {8}장은 약점 공략에 먼저 나와요",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n, {5}=n, {6}=n, {7}=n, {8}=n",
    "example": "5 predictions · when you said \"yes\" you were right 2% of the time (3/4) · when \"not sure\", you still got 6% (7/8) · 9 overconfident cards go first in Weak spots",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Start typing": {
-   "t": "ಟೈಪ್ ಶುರು",
+   "t": "ಟೈಪಿಂಗ್ ಪ್ರಾರಂಭಿಸಿ",
    "ko": "입력해 보세요",
    "slots": "",
    "example": "Start typing"
   },
   "Start typing · streak {n}": {
-   "t": "ಟೈಪ್ ಶುರು · ಸ್ಟ್ರೀಕ್ {1}",
+   "t": "ಟೈಪಿಂಗ್ ಪ್ರಾರಂಭಿಸಿ · ಸತತ ಸರಿ: {1}",
    "ko": "입력해 보세요 · 연속 {1}",
    "slots": "{1}=n",
    "example": "Start typing · streak 5"
   },
   "Start typing · best {n}": {
-   "t": "ಟೈಪ್ ಶುರು · ಉತ್ತಮ {1}",
+   "t": "ಟೈಪಿಂಗ್ ಪ್ರಾರಂಭಿಸಿ · ಅತ್ಯುತ್ತಮ: {1}",
    "ko": "입력해 보세요 · 최고 {1}",
    "slots": "{1}=n",
    "example": "Start typing · best 5"
   },
   "Start typing · streak {n} · best {n}": {
-   "t": "ಟೈಪ್ ಶುರು · ಸ್ಟ್ರೀಕ್ {1} · ಉತ್ತಮ {2}",
+   "t": "ಟೈಪಿಂಗ್ ಪ್ರಾರಂಭಿಸಿ · ಸತತ ಸರಿ: {1} · ಅತ್ಯುತ್ತಮ: {2}",
    "ko": "입력해 보세요 · 연속 {1} · 최고 {2}",
    "slots": "{1}=n, {2}=n",
    "example": "Start typing · streak 5 · best 2"
   },
   "{n}% · {n} tried · streak {n}": {
-   "t": "{1}% · {2} ಪ್ರಯತ್ನ · ಸ್ಟ್ರೀಕ್ {3}",
+   "t": "{1}% · ಪ್ರಯತ್ನ: {2} · ಸತತ ಸರಿ: {3}",
    "ko": "{1}% · {2}번 시도 · 연속 {3}",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "5% · 2 tried · streak 3",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n}% · {n} tried · best {n}": {
-   "t": "{1}% · {2} ಪ್ರಯತ್ನ · ಉತ್ತಮ {3}",
+   "t": "{1}% · ಪ್ರಯತ್ನ: {2} · ಅತ್ಯುತ್ತಮ: {3}",
    "ko": "{1}% · {2}번 시도 · 최고 {3}",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "5% · 2 tried · best 3",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n}% · {n} tried · streak {n} · best {n}": {
-   "t": "{1}% · {2} ಪ್ರಯತ್ನ · ಸ್ಟ್ರೀಕ್ {3} · ಉತ್ತಮ {4}",
+   "t": "{1}% · ಪ್ರಯತ್ನ: {2} · ಸತತ ಸರಿ: {3} · ಅತ್ಯುತ್ತಮ: {4}",
    "ko": "{1}% · {2}번 시도 · 연속 {3} · 최고 {4}",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n",
    "example": "5% · 2 tried · streak 3 · best 4",
@@ -6728,13 +6728,13 @@
    "example": "Syncing as Hello there"
   },
   "{x} · this device only": {
-   "t": "{1} · ಈ ಸಾಧನದಲ್ಲಿ ಮಾತ್ರ",
+   "t": "{1} · ಈ ಸಾಧನ ಮಾತ್ರ",
    "ko": "{1} · 이 기기에만 저장",
    "slots": "{1}=x",
    "example": "Hello there · this device only"
   },
   "Show my name ({x}) publicly": {
-   "t": "ನನ್ನ ಹೆಸರನ್ನು ({1}) ಸಾರ್ವಜನಿಕವಾಗಿ ತೋರಿಸಿ",
+   "t": "ನನ್ನ ಹೆಸರು ({1}) ಎಲ್ಲರಿಗೂ ತೋರಿಸಿ",
    "ko": "내 이름 표시 ({1}) 공개",
    "slots": "{1}=x",
    "example": "Show my name (Hello there) publicly"
@@ -6758,7 +6758,7 @@
    "example": "Anonymous · Hello there"
   },
   "Due for review · {x}": {
-   "t": "ರಿವ್ಯೂಗೆ ಬಾಕಿ · {1}",
+   "t": "ಪುನರ್ಮನನಕ್ಕೆ ಬಾಕಿ · {1}",
    "ko": "복습할 카드 · {1}",
    "slots": "{1}=x",
    "example": "Due for review · Hello there"
@@ -6770,13 +6770,13 @@
    "example": "Word to learn · Hello there"
   },
   "안녕하세요, {x}!": {
-   "t": "안녕하세요, {1}!",
+   "t": "ನಮಸ್ಕಾರ, {1}!",
    "ko": "안녕하세요, {1}님!",
    "slots": "{1}=x",
    "example": "안녕하세요, Hello there!"
   },
   "Today · quick actions": {
-   "t": "ಇಂದು · ತ್ವರಿತ ಕ್ರಿಯೆಗಳು",
+   "t": "ಇಂದು · ಶಾರ್ಟ್‌ಕಟ್",
    "ko": "오늘 · 빠른 실행",
    "slots": "",
    "example": "Today · quick actions"
@@ -6788,7 +6788,7 @@
    "example": "5/2 · Today"
   },
   "Practice · quick actions": {
-   "t": "ಅಭ್ಯಾಸ · ತ್ವರಿತ ಕ್ರಿಯೆಗಳು",
+   "t": "ಅಭ್ಯಾಸ · ಶಾರ್ಟ್‌ಕಟ್",
    "ko": "연습 · 빠른 실행",
    "slots": "",
    "example": "Practice · quick actions"
@@ -6800,19 +6800,19 @@
    "example": "5/2 · Practice"
   },
   "Review · quick actions": {
-   "t": "ರಿವ್ಯೂ · ತ್ವರಿತ ಕ್ರಿಯೆಗಳು",
+   "t": "ಪುನರ್ಮನನ · ಶಾರ್ಟ್‌ಕಟ್",
    "ko": "복습 · 빠른 실행",
    "slots": "",
    "example": "Review · quick actions"
   },
   "{n}/{n} · Review": {
-   "t": "{1}/{2} · ರಿವ್ಯೂ",
+   "t": "{1}/{2} · ಪುನರ್ಮನನ",
    "ko": "{1}/{2} · 복습",
    "slots": "{1}=n, {2}=n",
    "example": "5/2 · Review"
   },
   "Lessons · quick actions": {
-   "t": "ಪಾಠಗಳು · ತ್ವರಿತ ಕ್ರಿಯೆಗಳು",
+   "t": "ಪಾಠಗಳು · ಶಾರ್ಟ್‌ಕಟ್",
    "ko": "레슨 · 빠른 실행",
    "slots": "",
    "example": "Lessons · quick actions"
@@ -6824,7 +6824,7 @@
    "example": "5/2 · Lessons"
   },
   "Read · quick actions": {
-   "t": "ಓದು · ತ್ವರಿತ ಕ್ರಿಯೆಗಳು",
+   "t": "ಓದು · ಶಾರ್ಟ್‌ಕಟ್",
    "ko": "읽기 · 빠른 실행",
    "slots": "",
    "example": "Read · quick actions"
@@ -6836,7 +6836,7 @@
    "example": "5/2 · Read"
   },
   "Progress · quick actions": {
-   "t": "ಪ್ರಗತಿ · ತ್ವರಿತ ಕ್ರಿಯೆಗಳು",
+   "t": "ಪ್ರಗತಿ · ಶಾರ್ಟ್‌ಕಟ್",
    "ko": "진도 · 빠른 실행",
    "slots": "",
    "example": "Progress · quick actions"
@@ -6848,13 +6848,13 @@
    "example": "5/2 · Progress"
   },
   "Feedback · quick actions": {
-   "t": "ಅಭಿಪ್ರಾಯ · ತ್ವರಿತ ಕ್ರಿಯೆಗಳು",
+   "t": "ಅನಿಸಿಕೆ · ಶಾರ್ಟ್‌ಕಟ್",
    "ko": "피드백 · 빠른 실행",
    "slots": "",
    "example": "Feedback · quick actions"
   },
   "{n}/{n} · Feedback": {
-   "t": "{1}/{2} · ಅಭಿಪ್ರಾಯ",
+   "t": "{1}/{2} · ಅನಿಸಿಕೆ",
    "ko": "{1}/{2} · 피드백",
    "slots": "{1}=n, {2}=n",
    "example": "5/2 · Feedback"
@@ -6866,33 +6866,33 @@
    "example": "5/2 · Hello there"
   },
   "Accent {x}": {
-   "t": "{1} ಬಣ್ಣ",
+   "t": "ಥೀಮ್ ಬಣ್ಣ: {1}",
    "ko": "강조 색상: {1}",
    "slots": "{1}=x",
    "example": "Accent Hello there"
   },
   "{x} · ~{n} days of new cards": {
-   "t": "{1} · ~{2} ದಿನದ ಹೊಸ ಕಾರ್ಡುಗಳು",
+   "t": "{1} · ಹೊಸ ಕಾರ್ಡ್: ಇನ್ನೂ ~{2} ದಿನ",
    "ko": "{1} · 새 카드 약 {2}일 분량",
    "slots": "{1}=x, {2}=n",
    "example": "Hello there · ~5 days of new cards",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{x} · ~{n} day of new cards": {
-   "t": "{1} · ~{2} ದಿನದ ಹೊಸ ಕಾರ್ಡುಗಳು",
+   "t": "{1} · ಹೊಸ ಕಾರ್ಡ್: ಇನ್ನೂ ~{2} ದಿನ",
    "ko": "{1} · 새 카드 약 {2}일 분량",
    "slots": "{1}=x, {2}=n",
    "example": "Hello there · ~5 day of new cards",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{x} · all seen": {
-   "t": "{1} · ಎಲ್ಲಾ ನೋಡಿದ್ದೀರಿ",
+   "t": "{1} · ಎಲ್ಲ ನೋಡಿಯಾಗಿದೆ",
    "ko": "{1} · 모두 봤어요",
    "slots": "{1}=x",
    "example": "Hello there · all seen"
   },
   "Practice {x}": {
-   "t": "{1} ಅಭ್ಯಾಸ ಮಾಡಿ",
+   "t": "ಅಭ್ಯಾಸ: {1}",
    "ko": "{1} 연습",
    "slots": "{1}=x",
    "example": "Practice Hello there"
@@ -6904,14 +6904,14 @@
    "example": "Hello there (auto)"
   },
   "{n} cards learned · {n} due": {
-   "t": "{1} ಕಾರ್ಡ್ ಕಲಿತಿದ್ದೀರಿ · {2} ಬಾಕಿ",
+   "t": "ಕಲಿತ ಕಾರ್ಡ್: {1} · ಬಾಕಿ: {2}",
    "ko": "카드 {1}장 익힘 · 복습 대기 {2}",
    "slots": "{1}=n, {2}=n",
    "example": "5 cards learned · 2 due",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} new": {
-   "t": "{1} ಹೊಸದು",
+   "t": "ಹೊಸದು: {1}",
    "ko": "새 카드 {1}장",
    "slots": "{1}=n",
    "example": "5 new",
@@ -6924,7 +6924,7 @@
    "example": "5 🔒 locked"
   },
   "🔒 {n} locked": {
-   "t": "🔒 {1} ಲಾಕ್",
+   "t": "🔒 ಲಾಕ್: {1}",
    "ko": "🔒 {1}개 잠김",
    "slots": "{1}=n",
    "example": "🔒 5 locked",
@@ -6945,138 +6945,138 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "· ~{n} days of new cards": {
-   "t": "· ~{1} ದಿನದ ಹೊಸ ಕಾರ್ಡುಗಳು",
+   "t": "· ಹೊಸ ಕಾರ್ಡ್: ಇನ್ನೂ ~{1} ದಿನ",
    "ko": "· 새 카드 약 {1}일 분량",
    "slots": "{1}=n",
    "example": "· ~5 days of new cards",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "· ~{n} day of new cards": {
-   "t": "· ~{1} ದಿನದ ಹೊಸ ಕಾರ್ಡುಗಳು",
+   "t": "· ಹೊಸ ಕಾರ್ಡ್: ಇನ್ನೂ ~{1} ದಿನ",
    "ko": "· 새 카드 약 {1}일 분량",
    "slots": "{1}=n",
    "example": "· ~5 day of new cards",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Listen: {x}": {
-   "t": "ಆಲಿಸಿ: {1}",
+   "t": "ಕೇಳಿ: {1}",
    "ko": "듣기: {1}",
    "slots": "{1}=x",
    "example": "Listen: Hello there"
   },
   "{n} decks · {n} cards mastered to 80%+ · all lesson checks passed": {
-   "t": "{1} ಡೆಕ್ · 80%+ ಕರಗತವಾದ {2} ಕಾರ್ಡ್ · ಎಲ್ಲಾ ಪಾಠ ಪರಿಶೀಲನೆಗಳು ಪಾಸ್",
+   "t": "{1} ಡೆಕ್ · 80%+ ಕರಗತವಾದ ಕಾರ್ಡ್: {2} · ಎಲ್ಲ ಕಿರು ಪರೀಕ್ಷೆ ಪಾಸ್",
    "ko": "덱 {1}개 · 카드 {2}장 80% 이상 마스터 · 확인 문제 모두 통과",
    "slots": "{1}=n, {2}=n",
    "example": "5 decks · 2 cards mastered to 80%+ · all lesson checks passed",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Merged into {x}. {n} cards of progress were new.": {
-   "t": "{1} ಕೋರ್ಸಿನೊಳಗೆ ವಿಲೀನವಾಗಿದೆ. {2} ಕಾರ್ಡಿನ ಪ್ರಗತಿ ಹೊಸದಾಗಿತ್ತು.",
+   "t": "ವಿಲೀನವಾಗಿದೆ: {1}. ಪ್ರಗತಿಯಲ್ಲಿ ಹೊಸ ಕಾರ್ಡ್: {2}.",
    "ko": "{1} 코스에 합쳤어요. 카드 {2}장의 진도가 새로 추가됐어요.",
    "slots": "{1}=x, {2}=n",
    "example": "Merged into Hello there. 5 cards of progress were new.",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{x} progress": {
-   "t": "{1} ಪ್ರಗತಿ",
+   "t": "ಪ್ರಗತಿ: {1}",
    "ko": "{1} 진도",
    "slots": "{1}=x",
    "example": "Hello there progress"
   },
   "Now learning {x} · progress saved per course": {
-   "t": "ಈಗ {1} ಕಲಿಯುತ್ತಿದ್ದೀರಿ · ಪ್ರಗತಿ ಪ್ರತಿ ಕೋರ್ಸಿಗೂ ಪ್ರತ್ಯೇಕವಾಗಿ ಉಳಿಯುತ್ತದೆ",
+   "t": "ಕೋರ್ಸ್: {1} · ಪ್ರತಿ ಕೋರ್ಸ್‌ನ ಪ್ರಗತಿ ಬೇರೆಯಾಗಿ ಸೇವ್ ಆಗುತ್ತದೆ",
    "ko": null,
    "slots": "{1}=x",
    "example": "Now learning Hello there · progress saved per course",
    "context": "{0} = target language name in the UI language (英語) — Course switched toast (LL)"
   },
   "How much {x} do you know?": {
-   "t": "ನಿಮಗೆ {1} ಎಷ್ಟು ಗೊತ್ತು?",
+   "t": "{1}: ನಿಮ್ಮ ಲೆವೆಲ್ ಯಾವುದು?",
    "ko": null,
    "slots": "{1}=x",
    "example": "How much Hello there do you know?",
    "context": "{0} = target language name in the UI language — Onboarding question (LL)"
   },
   "What do you want {x} for?": {
-   "t": "ನಿಮಗೆ {1} ಯಾವುದಕ್ಕೆ ಬೇಕು?",
+   "t": "{1}: ಯಾವ ಉದ್ದೇಶಕ್ಕೆ ಕಲಿಯುತ್ತೀರಿ?",
    "ko": null,
    "slots": "{1}=x",
    "example": "What do you want Hello there for?",
    "context": "{0} = target language name in the UI language — Onboarding question (LL)"
   },
   "type it in {x}": {
-   "t": "{1} ಭಾಷೆಯಲ್ಲಿ ಟೈಪ್ ಮಾಡಿ",
+   "t": "ಉತ್ತರದ ಭಾಷೆ: {1}",
    "ko": null,
    "slots": "{1}=x",
    "example": "type it in Hello there",
    "context": "{0} = target language name in the UI language — Type drill / typed quiz instruction (LL)"
   },
   "Type in {x}…": {
-   "t": "{1} ಭಾಷೆಯಲ್ಲಿ ಟೈಪ್ ಮಾಡಿ…",
+   "t": "ಉತ್ತರದ ಭಾಷೆ: {1}…",
    "ko": null,
    "slots": "{1}=x",
    "example": "Type in Hello there…",
    "context": "{0} = target language name in the UI language — Type drill / typed quiz / say-it / practice placeholder (LL)"
   },
   "Type the {x}, or tap Check again to give up.": {
-   "t": "{1} ಭಾಷೆಯಲ್ಲಿ ಟೈಪ್ ಮಾಡಿ, ಅಥವಾ ಬಿಟ್ಟುಕೊಡಲು \"ಪರಿಶೀಲಿಸಿ\" ಅನ್ನು ಮತ್ತೆ ಟ್ಯಾಪ್ ಮಾಡಿ.",
+   "t": "ಉತ್ತರದ ಭಾಷೆ: {1}. ಉತ್ತರ ಬರೆಯಿರಿ, ಅಥವಾ ಬಿಟ್ಟುಬಿಡಲು ಮತ್ತೆ \"ಪರಿಶೀಲಿಸಿ\" ಒತ್ತಿ.",
    "ko": null,
    "slots": "{1}=x",
    "example": "Type the Hello there, or tap Check again to give up.",
    "context": "{0} = target language name in the UI language — Typed quiz empty-submit warning (LL)"
   },
   "Planned · {n} more lessons": {
-   "t": "ಯೋಜಿತ · ಇನ್ನೂ {1} ಪಾಠ",
+   "t": "ಯೋಜನೆಯಲ್ಲಿದೆ · ಬರಲಿರುವ ಪಾಠ: {1}",
    "ko": null,
    "slots": "{1}=n",
    "example": "Planned · 5 more lessons",
    "context": "{0} = count (always ≥ 1; English uses the plural form even for 1) — Lessons list: planned roadmap heading (LL)"
   },
   "Best first try {n}% · last {n}% · 1 run": {
-   "t": "ಮೊದಲ ಪ್ರಯತ್ನದ ಉತ್ತಮ {1}% · ಕೊನೆಯದು {2}% · 1 ಸಲ",
+   "t": "ಮೊದಲ ಪ್ರಯತ್ನದ ಅತ್ಯುತ್ತಮ {1}% · ಹಿಂದಿನದು {2}% · ಪ್ರಯತ್ನ: 1",
    "ko": null,
    "slots": "{1}=n, {2}=n",
    "example": "Best first try 5% · last 2% · 1 run",
    "context": "{0},{1} = percent 0–100 — Lesson practice entry, after a run (singular) (LL)"
   },
   "Best first try {n}% · last {n}% · {n} runs": {
-   "t": "ಮೊದಲ ಪ್ರಯತ್ನದ ಉತ್ತಮ {1}% · ಕೊನೆಯದು {2}% · {3} ಸಲ",
+   "t": "ಮೊದಲ ಪ್ರಯತ್ನದ ಅತ್ಯುತ್ತಮ {1}% · ಹಿಂದಿನದು {2}% · ಪ್ರಯತ್ನ: {3}",
    "ko": null,
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Best first try 5% · last 2% · 3 runs",
    "context": "{0},{1} = percent; {2} = run count ≥ 2 — Lesson practice entry, after runs (plural; put AFTER the singular pattern or keep both anchored as here) (LL)"
   },
   "{n} items · from choosing to typing it yourself": {
-   "t": "{1} ಪ್ರಶ್ನೆ · ಆರಿಸುವುದರಿಂದ ಹಿಡಿದು ನೀವೇ ಟೈಪ್ ಮಾಡುವವರೆಗೆ",
+   "t": "{1} ಪ್ರಶ್ನೆ · ಆಯ್ಕೆ ಆರಿಸುವುದರಿಂದ ನೀವೇ ಬರೆಯುವವರೆಗೆ",
    "ko": null,
    "slots": "{1}=n",
    "example": "5 items · from choosing to typing it yourself",
    "context": "{0} = item count (≥ 12 in shipped packs) — Lesson practice entry, before any run (LL)"
   },
   "No {x} keyboard? Use tiles": {
-   "t": "{1} ಕೀಬೋರ್ಡ್ ಇಲ್ಲವೇ? ಟೈಲ್ಸ್ ಬಳಸಿ",
+   "t": "{1}: ಕೀಬೋರ್ಡ್ ಇಲ್ಲವೇ? ಟೈಲ್ ಬಳಸಿ",
    "ko": null,
    "slots": "{1}=x",
    "example": "No Hello there keyboard? Use tiles",
    "context": "{0} = target language name in the UI language — Practice runner: tiles toggle (LL)"
   },
   "Learning {x} 5 minutes a day with Lang App {x}": {
-   "t": "Lang App ಜೊತೆ ದಿನಕ್ಕೆ 5 ನಿಮಿಷ {1} ಕಲಿಯುತ್ತಿದ್ದೇನೆ {2}",
+   "t": "{1} — ದಿನಕ್ಕೆ 5 ನಿಮಿಷ, Lang App {2}",
    "ko": null,
    "slots": "{1}=x, {2}=x",
    "example": "Learning Hello there 5 minutes a day with Lang App Good night",
    "context": "{0} = target language name in the UI language; {1} = flag emoji — Share sheet text (LL)"
   },
   "Learn {x}, 5 minutes a day": {
-   "t": "{1} ಕಲಿಯಿರಿ, ದಿನಕ್ಕೆ 5 ನಿಮಿಷ",
+   "t": "{1} ಕಲಿಯಿರಿ — ದಿನಕ್ಕೆ 5 ನಿಮಿಷ",
    "ko": null,
    "slots": "{1}=x",
    "example": "Learn Hello there, 5 minutes a day",
    "context": "{0} = target language name in the UI language — Intro animation subtitle (pack courses) (LL)"
   },
   "Coming soon · {n} lessons planned": {
-   "t": "ಶೀಘ್ರದಲ್ಲೇ · ಯೋಜಿತ ಪಾಠ: {1}",
+   "t": "ಶೀಘ್ರದಲ್ಲೇ ಬರಲಿದೆ · ಯೋಜಿತ ಪಾಠ: {1}",
    "ko": null,
    "slots": "{1}=n",
    "example": "Coming soon · 5 lessons planned",
@@ -7090,28 +7090,28 @@
    "context": "{0} = streak days — Today streak line when the pack has no greeting gloss (DOM translator (JS-built text))"
   },
   "Level up! Level {n} · {x} 🎉": {
-   "t": "ಲೆವೆಲ್ ಅಪ್! ಲೆವೆಲ್ {1} · {2} 🎉",
+   "t": "ಲೆವೆಲ್ ಏರಿತು! ಲೆವೆಲ್ {1} · {2} 🎉",
    "ko": null,
    "slots": "{1}=n, {2}=x",
    "example": "Level up! Level 5 · Hello there 🎉",
    "context": "{0} = level; {1} = level title from the course pack's TITLES (<English> <native>) — Level-up toast for non-Korean courses (DOM translator; Korean side keeps ^레벨 업! Level …) (DOM translator (JS-built text))"
   },
   "Extra practice · {n}/{n} learned": {
-   "t": "ಹೆಚ್ಚುವರಿ ಅಭ್ಯಾಸ · {1}/{2} ಕಲಿತಿದ್ದೀರಿ",
+   "t": "ಹೆಚ್ಚುವರಿ ಅಭ್ಯಾಸ · ಕಲಿತದ್ದು: {1}/{2}",
    "ko": "추가 연습 · {1}/{2} 익힘",
    "slots": "{1}=n, {2}=n",
    "example": "Extra practice · 5/2 learned",
    "context": "review status line: current card is extra practice · learned/total in this deck; count slot: the translation must read correctly at 1 and at 2+"
   },
   "New card · {n}/{n} learned": {
-   "t": "ಹೊಸ ಕಾರ್ಡ್ · {1}/{2} ಕಲಿತಿದ್ದೀರಿ",
+   "t": "ಹೊಸ ಕಾರ್ಡ್ · ಕಲಿತದ್ದು: {1}/{2}",
    "ko": "새 카드 · {1}/{2} 익힘",
    "slots": "{1}=n, {2}=n",
    "example": "New card · 5/2 learned",
    "context": "review status line: current card is new · learned/total in this deck; count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} due · {n}/{n} learned": {
-   "t": "{1} ಬಾಕಿ · {2}/{3} ಕಲಿತಿದ್ದೀರಿ",
+   "t": "ಬಾಕಿ: {1} · ಕಲಿತದ್ದು: {2}/{3}",
    "ko": "복습 대기 {1} · {2}/{3} 익힘",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "5 due · 2/3 learned",

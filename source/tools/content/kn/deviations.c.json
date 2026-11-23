@@ -1,0 +1,8 @@
+{
+  "lessons": {
+    "indian-english": "kn-only lesson (profile kn.md §8 'add' / §4.12 / §9), written in place of the scaffold's Korean-only konglish: Indian English usages that are normal in India but puzzle listeners abroad (prepone, out of station, good name, cousin brother, passed out, revert, native place, do the needful, shift, hotel, tiffin, today itself, here only, the all-purpose tag isn't it? / no?), forms wrong in any variety (Myself Kiran, discuss about, revert back, I have a doubt, angry on me, today morning) and Kannada calques (I'll go and come, Had your lunch?, Tell me, I simply asked, Please adjust, One minute, I'll come); English side starts from hi-en's indian-english (pan-Indian items kept with identical English strings, Rahul -> Kiran, the Hindi-calque group replaced by the Kannada one); placed after smalltalk via profile.json lessonOrder.after; deck 22 «ಇಂಡಿಯನ್ ಇಂಗ್ಲಿಷ್: ಇಲ್ಲಿ ಮತ್ತು ವಿದೇಶದಲ್ಲಿ»; no ko-en counterpart (mirrors hi indian-english / zh chinglish)"
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["indian-english"]
+}
