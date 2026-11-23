@@ -40,6 +40,114 @@
    "m": {
     "voice_id": "PDoCXqBQFGsvfO0hNkEs"
    }
+  },
+  "es": {
+   "model": "eleven_v4",
+   "f": {
+    "voice_id": "rixsIpPlTphvsJd2mI03"
+   },
+   "m": {
+    "voice_id": "gbTn1bmCvNgk0QEAVyfM"
+   }
+  },
+  "pt": {
+   "model": "eleven_v4",
+   "f": {
+    "voice_id": "RGymW84CSmfVugnA5tvA"
+   },
+   "m": {
+    "voice_id": "9pDzHy2OpOgeXM8SeL0t"
+   }
+  },
+  "zh": {
+   "model": "eleven_v4",
+   "f": {
+    "voice_id": "ByhETIclHirOlWnWKhHc"
+   },
+   "m": {
+    "voice_id": "4VZIsMPtgggwNg7OXbPY"
+   }
+  },
+  "th": {
+   "model": "eleven_v4",
+   "f": {
+    "voice_id": "7XW5JhaNn90bnFojQ5DA"
+   },
+   "m": {
+    "voice_id": "JTfQv1rq84UdcXVunY5m"
+   }
+  },
+  "vi": {
+   "model": "eleven_v4",
+   "f": {
+    "voice_id": "A5w1fw5x0uXded1LDvZp"
+   },
+   "m": {
+    "voice_id": "ueSxRO0nLF1bj93J2hVt"
+   }
+  },
+  "ar": {
+   "model": "eleven_v4",
+   "f": {
+    "voice_id": "XTa3iQyMA6f1qrI4F6kZ"
+   },
+   "m": {
+    "voice_id": "G1HOkzin3NMwRHSq60UI"
+   }
+  },
+  "fr": {
+   "model": "eleven_v4",
+   "f": {
+    "voice_id": "txtf1EDouKke753vN8SL"
+   },
+   "m": {
+    "voice_id": "Qrl71rx6Yg8RvyPYRGCQ"
+   }
+  },
+  "it": {
+   "model": "eleven_v4",
+   "f": {
+    "voice_id": "BZc8d1MPTdZkyGbE9Sin"
+   },
+   "m": {
+    "voice_id": "HuK8QKF35exsCh2e7fLT"
+   }
+  },
+  "tl": {
+   "model": "eleven_v4",
+   "f": {
+    "voice_id": "RnW8EXHv9GqGMgyP0sXG"
+   },
+   "m": {
+    "voice_id": "MUVOVB3VWCo7pumU3SIO"
+   }
+  },
+  "hi": {
+   "model": "eleven_v4",
+   "f": {
+    "voice_id": "9w21nMuk8CWXIME31V1S"
+   },
+   "m": {
+    "voice_id": "zT03pEAEi0VHKciJODfn"
+   }
+  },
+  "pa": {
+   "model": "eleven_v4",
+   "f": {
+    "voice_id": "dDXF3rYCcuphWEQ3oGew"
+   },
+   "m": {
+    "voice_id": "ttyKbP9zTIRyRCN6b2Ye"
+   }
+  },
+  "te": {
+   "model": "eleven_v4",
+   "f": {
+    "voice_id": "4XvBGCPMXWyVQa75dbZg"
+   },
+   "m": {
+    "voice_id": "byBvnAtc0165IHbm4c7a"
+   }
   }
  }
 }
