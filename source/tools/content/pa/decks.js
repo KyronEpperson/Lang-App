@@ -1,441 +1,503 @@
-/* TRANSLATE/ADAPT (pa): scaffolded from tools/content/ko/decks.js by new_lang.js.
-   Translate/adapt everything that is not English (the ko text) for pa speakers (prompts, why, hint, meanings, pron per profile.json, deck and group names,
-   explanations written from the pa point of view — PILOT-SPEC §3). Keep every English string, lesson id and answer position
-   identical to ko-en unless deviations.json gives a reason (parity.js enforces it). Delete this banner when the file is done. */
 /* Deck source: one card per line, fields separated by " | " : target | pron | meaning | note */
 module.exports = {
-"인사": `
-Hello. | 헬로우 | 안녕하세요 | 가장 기본 인사예요. 언제 어디서나, 누구에게나 OK
-Hi! | 하이! | 안녕! / 안녕하세요 | Hello보다 가볍고 친근해요. 미국에선 직장 동료끼리도 Hi를 써요
-Hey! | 헤이! | 야! / 안녕! | 친구끼리 쓰는 말. 처음 보는 사람에게 쓰면 무례하게 들릴 수 있어요
-Good morning. | 굿 모닝 | 좋은 아침이에요 | 정오 전까지 써요. 줄여서 그냥 "Morning!"이라고도 해요
-Good afternoon. | 굿 애프터눈 | 안녕하세요 (오후 인사) | 낮 12시~6시쯤. 약간 격식 있는 느낌이라 가게·회사에서 자주 들려요
-Good evening. | 굿 이브닝 | 안녕하세요 (저녁 인사) | 만날 때 하는 저녁 인사예요. Good night은 헤어질 때만 써요!
-How are you? | 하우 아 유? | 잘 지내요? / 안녕하세요? | 진짜 안부라기보다 인사예요. "Good, thanks. You?"로 가볍게 받아요
-I'm good, thanks. And you? | 아임 굿, 땡스. 앤 쥬? | 잘 지내요, 고마워요. 당신은요? | "I'm fine, thank you"는 교과서 느낌. good이 훨씬 자연스러워요
-What's up? | 왓썹? | 뭐 해? / 별일 없어? | 하늘(up)을 볼 필요 없어요. 보통 "Not much."로 대답해요
-Not much. | 낫 머치 | 별일 없어 | What's up?에 대한 가장 흔한 대답. "Not much, you?"로 되물어요
-How's it going? | 하우즈 잇 고잉? | 어떻게 지내? / 잘 돼 가? | How are you?의 캐주얼 버전. "Pretty good!"으로 받아요
-Nice to meet you. | 나이스 투 미츄 | 만나서 반가워요 | 처음 만났을 때만 써요. 대답은 "Nice to meet you, too."
-Long time no see! | 롱 타임 노 씨! | 오랜만이에요! | 친한 사이에서 써요. 조금 격식 있게는 "It's been a while."
-See you later. | 씨 유 레이러 | 나중에 봐요 | 다시 만날 계획이 없어도 헤어질 때 인사로 그냥 써요
-Take care. | 테익 케어 | 잘 지내요 / 몸조심해요 | 헤어질 때 하는 따뜻한 인사. 문자 끝에도 자주 붙여요
-Have a good one! | 해버 굿 원! | 좋은 하루 보내요! | 가게 직원이 계산 후 자주 해요. "You too!"로 받으면 끝
-Bye! | 바이! | 안녕! (헤어질 때) | "Bye-bye"는 어른끼리 쓰면 조금 귀엽게(아이 말투처럼) 들릴 수 있어요
-Good night. | 굿 나잇 | 잘 자요 / 안녕히 가세요 (밤) | 밤에 헤어지거나 자러 갈 때만 써요. 만날 때는 Good evening
+"ਮਿਲਣ-ਵਿਛੜਨ ਵੇਲੇ": `
+Hello. | ਹˈਲੋ | ਸਤ ਸ੍ਰੀ ਅਕਾਲ / ਹੈਲੋ | ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਹਰ ਕਿਸੇ ਲਈ ਇੱਕੋ Hello ਚੱਲਦਾ ਹੈ; ਪੰਜਾਬੀ ਵਾਂਗ ਸਤ ਸ੍ਰੀ ਅਕਾਲ, ਨਮਸਤੇ ਜਾਂ ਸਲਾਮ ਵਿੱਚੋਂ ਚੁਣਨਾ ਨਹੀਂ ਪੈਂਦਾ।
+Hi! | ਹਾਈ | ਹੈਲੋ! (ਹਲਕਾ-ਫੁਲਕਾ) | Hello ਨਾਲੋਂ ਹਲਕਾ ਤੇ ਦੋਸਤਾਨਾ। ਅਮਰੀਕਾ ਵਿੱਚ ਦਫ਼ਤਰ ਦੇ ਸਾਥੀ ਵੀ ਇੱਕ-ਦੂਜੇ ਨੂੰ Hi ਕਹਿੰਦੇ ਹਨ।
+Hey! | ਹੇ | ਹੋਰ ਬਈ! / ਹੈਲੋ! | ਦੋਸਤਾਂ ਵਿਚਕਾਰ ਚੱਲਦਾ ਹੈ। ਅਣਜਾਣ ਜਾਂ ਵੱਡੀ ਉਮਰ ਦੇ ਬੰਦੇ ਨੂੰ ਕਹੋ ਤਾਂ ਬੇਅਦਬੀ ਲੱਗ ਸਕਦੀ ਹੈ।
+Good morning. | ਗੁਡ ˈਮੌਰ੍ਨਿਙ | ਸ਼ੁਭ ਸਵੇਰ | ਦੁਪਹਿਰ 12 ਵਜੇ ਤੱਕ। ਛੋਟਾ ਰੂਪ: Morning!
+Good afternoon. | ਗੁਡ ਐਫ਼੍ਟਰ੍ˈਨੂਨ | ਨਮਸਕਾਰ (ਦੁਪਹਿਰ ਵੇਲੇ) | ਦੁਪਹਿਰ 12 ਤੋਂ ਸ਼ਾਮ 6 ਵਜੇ ਤੱਕ। ਥੋੜ੍ਹਾ ਰਸਮੀ ਹੈ; ਦੁਕਾਨਾਂ ਤੇ ਦਫ਼ਤਰਾਂ ਵਿੱਚ ਸੁਣਦਾ ਹੈ।
+Good evening. | ਗੁਡ ˈਈਵ਼੍ਨਿਙ | ਨਮਸਕਾਰ (ਸ਼ਾਮ ਵੇਲੇ) | ਸ਼ਾਮ ਨੂੰ ਮਿਲਣ ਵੇਲੇ ਕਹਿੰਦੇ ਹਨ। Good night ਸਿਰਫ਼ ਵਿਛੜਨ ਵੇਲੇ!
+How are you? | ਹਾਊ ਅਰ ਯੂ | ਕੀ ਹਾਲ ਹੈ? | ਇਹ ਸਵਾਲ ਘੱਟ ਤੇ ਸਲਾਮ ਜ਼ਿਆਦਾ ਹੈ, ਇਸ ਲਈ ਲੰਮਾ ਹਾਲ ਨਾ ਸੁਣਾਓ। ਜਵਾਬ: Good, thanks. You?
+I'm good, thanks. And you? | ਆਈਮ ਗੁਡ ਥ਼ੈਂਕ੍ਸ। ਅੰਡ ਯੂ | ਮੈਂ ਠੀਕ ਹਾਂ, ਸ਼ੁਕਰੀਆ। ਤੁਸੀਂ ਸੁਣਾਓ? | ਸਕੂਲ ਵਿੱਚ ਰਟਾਇਆ I'm fine, thank you ਕਿਤਾਬੀ ਲੱਗਦਾ ਹੈ; good ਜ਼ਿਆਦਾ ਸੁਭਾਵਕ ਹੈ।
+What's up? | ਵਟ੍ਸ ਅਪ | ਹੋਰ ਕੀ ਚੱਲਦਾ ਹੈ? | ਪੰਜਾਬੀ ਦੇ "ਹੋਰ ਸੁਣਾ" ਵਰਗਾ ਹੈ: ਹਾਲ ਪੁੱਛਣਾ ਨਹੀਂ, ਦੋਸਤਾਂ ਵਾਲਾ ਸਲਾਮ। ਆਮ ਜਵਾਬ: Not much।
+Not much. | ਨਾਟ ਮਚ | ਕੁਝ ਖ਼ਾਸ ਨਹੀਂ | What's up? ਦਾ ਸਭ ਤੋਂ ਆਮ ਜਵਾਬ। ਮੋੜ ਕੇ ਪੁੱਛੋ: Not much, you?
+How's it going? | ਹਾਊਜ਼ ਇਟ ˈਗੋਇਙ | ਕਿਵੇਂ ਚੱਲ ਰਿਹਾ ਹੈ? | How are you? ਦਾ ਬੇਤਕੱਲੁਫ਼ ਰੂਪ। ਜਵਾਬ: Pretty good!
+Nice to meet you. | ਨਾਈਸ ਟ ਮੀਟ ਯੂ | ਤੁਹਾਨੂੰ ਮਿਲ ਕੇ ਖ਼ੁਸ਼ੀ ਹੋਈ | ਸਿਰਫ਼ ਪਹਿਲੀ ਮੁਲਾਕਾਤ ਤੇ। ਜਵਾਬ: Nice to meet you, too। ਦੁਬਾਰਾ ਮਿਲੋ ਤਾਂ Nice to see you।
+Long time no see! | ਲੌਙ ਟਾਈਮ ਨੋ ਸੀ | ਬੜੇ ਚਿਰ ਬਾਅਦ ਮਿਲੇ! | ਜਾਣ-ਪਛਾਣ ਵਾਲਿਆਂ ਨਾਲ। ਥੋੜ੍ਹਾ ਰਸਮੀ ਰੂਪ: It's been a while।
+See you later. | ਸੀ ਯੂ ˈਲੇਟਰ | ਫਿਰ ਮਿਲਦੇ ਹਾਂ | ਦੁਬਾਰਾ ਮਿਲਣ ਦੀ ਕੋਈ ਪੱਕੀ ਗੱਲ ਨਾ ਵੀ ਹੋਵੇ, ਵਿਛੜਨ ਵੇਲੇ ਇਹੀ ਕਹਿ ਦਿੰਦੇ ਹਨ।
+Take care. | ਟੇਕ ਕੇਰ | ਆਪਣਾ ਖ਼ਿਆਲ ਰੱਖਣਾ | ਵਿਛੜਨ ਵੇਲੇ ਦਾ ਨਿੱਘਾ ਬੋਲ। ਮੈਸੇਜ ਦੇ ਅਖ਼ੀਰ ਤੇ ਵੀ ਲਿਖਦੇ ਹਨ।
+Have a good one! | ਹੈਵ਼ ਅ ਗੁਡ ਵਨ | ਤੁਹਾਡਾ ਦਿਨ ਚੰਗਾ ਲੰਘੇ! | ਦੁਕਾਨ ਵਾਲੇ ਪੈਸੇ ਲੈਣ ਮਗਰੋਂ ਅਕਸਰ ਕਹਿੰਦੇ ਹਨ। ਜਵਾਬ: You too!
+Bye! | ਬਾਈ | ਚੰਗਾ ਫਿਰ! / ਬਾਏ! | ਵੱਡਿਆਂ ਵਿਚਕਾਰ Bye-bye ਥੋੜ੍ਹਾ ਬੱਚਿਆਂ ਵਾਲਾ ਲੱਗ ਸਕਦਾ ਹੈ; ਇਕੱਲਾ Bye ਕਾਫ਼ੀ ਹੈ।
+Good night. | ਗੁਡ ਨਾਈਟ | ਸ਼ੁਭ ਰਾਤ | ਰਾਤ ਨੂੰ ਵਿਛੜਨ ਜਾਂ ਸੌਣ ਜਾਣ ਵੇਲੇ ਹੀ। ਮਿਲਣ ਵੇਲੇ Good evening।
 `,
-"자기소개": `
-My name is Minji. | 마이 네임 이즈 민지 | 제 이름은 민지예요 | 일상에서는 더 짧게 "I'm Minji."라고 많이 해요
-Please call me Jay. | 플리즈 콜 미 제이 | 제이라고 불러 주세요 | 영어 이름이 있거나 이름을 줄여 부르고 싶을 때
-What should I call you? | 왓 슈다이 콜 유? | 뭐라고 부르면 될까요? | 상대 이름 발음이 어렵거나 애칭이 궁금할 때 유용해요
-Where are you from? | 웨어 아 유 프럼? | 어디서 왔어요? / 어느 나라 사람이에요? | 외국에서 가장 먼저 듣는 질문 중 하나예요
-I'm from Korea. | 아임 프럼 코리아 | 한국에서 왔어요 | 도시까지 말하면 대화가 이어져요: "I'm from Busan, in South Korea."
-I live in Seoul. | 아이 리브 인 서울 | 서울에 살아요 | live의 v는 윗니로 아랫입술을 살짝 물고 소리 내요
-I'm a student. | 아임 어 스튜던트 | 저는 학생이에요 | 직업 앞에는 꼭 a/an! "I'm student"는 가장 흔한 실수예요
-What do you do? | 왓 두 유 두? | 무슨 일 하세요? | 직업을 묻는 표준 질문. "What's your job?"보다 부드러워요
-I work at a bank. | 아이 워크 앳 어 뱅크 | 은행에서 일해요 | 회사·장소 앞엔 at: "I work at Samsung."
-I work in marketing. | 아이 워크 인 마케팅 | 마케팅 분야에서 일해요 | 분야·부서 앞엔 in. at(회사)과 구분해요
-I'm 25 years old. | 아임 트웬티파이브 이어즈 올드 | 저는 25살이에요 | 영어권에선 만 나이로 말해요. 나이를 먼저 묻는 건 실례일 수 있어요
-I'm really into hiking. | 아임 륄리 인투 하이킹 | 등산에 푹 빠져 있어요 | "My hobby is…"보다 훨씬 자연스러운 취미 표현이에요
-I like watching movies. | 아이 라익 와칭 무비즈 | 영화 보는 걸 좋아해요 | like 뒤에 동작이 오면 ~ing 또는 to + 동사원형
-I've been learning English for a year. | 아이브 빈 러닝 잉글리시 포러 이어 | 영어를 1년째 배우고 있어요 | 지금까지 계속 해 온 일은 have been + ~ing
-I'm here on vacation. | 아임 히어 온 베이케이션 | 휴가로 왔어요 | 영국식은 "I'm here on holiday."
-I'm married. | 아임 매리드 | 결혼했어요 | 미혼이면 "I'm single." 초면에 결혼 여부를 묻는 건 피하는 게 좋아요
-I have a younger brother. | 아이 해버 영거 브라더 | 남동생이 한 명 있어요 | 영어는 형·오빠·남동생을 older/younger brother로만 구분해요
+"ਆਪਣੀ ਜਾਣ-ਪਛਾਣ": `
+My name is Simran. | ਮਾਈ ਨੇਮ ਇਜ਼ ˈਸਿਮ੍ਰਨ | ਮੇਰਾ ਨਾਂ ਸਿਮਰਨ ਹੈ | ਬੋਲਚਾਲ ਵਿੱਚ ਛੋਟਾ ਰੂਪ ਜ਼ਿਆਦਾ ਚੱਲਦਾ ਹੈ: I'm Simran। Myself Simran ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਗ਼ਲਤ ਹੈ।
+Please call me Jay. | ਪ੍ਲੀਜ਼ ਕੌਲ ਮੀ ਜੇ | ਮੈਨੂੰ ਜੇ ਕਹਿ ਕੇ ਬੁਲਾਓ | ਜਦੋਂ ਤੁਸੀਂ ਆਪਣਾ ਛੋਟਾ ਨਾਂ ਵਰਤਣਾ ਚਾਹੋ। ਵਿਦੇਸ਼ ਵਿੱਚ ਲੰਮੇ ਨਾਂ ਵਾਲੇ ਬਹੁਤੇ ਲੋਕ ਆਪਣੇ ਨਾਂ ਦਾ ਛੋਟਾ ਰੂਪ ਦੱਸ ਦਿੰਦੇ ਹਨ।
+What should I call you? | ਵਟ ਸ਼ਡ ਆਈ ਕੌਲ ਯੂ | ਮੈਂ ਤੁਹਾਨੂੰ ਕੀ ਕਹਿ ਕੇ ਬੁਲਾਵਾਂ? | ਜਦੋਂ ਪਤਾ ਨਾ ਹੋਵੇ ਕਿ ਅਗਲੇ ਦਾ ਪਹਿਲਾ ਨਾਂ ਲੈਣਾ ਹੈ ਜਾਂ Mr. / Ms. ਕਹਿਣਾ ਹੈ, ਜਾਂ ਨਾਂ ਬੋਲਣਾ ਔਖਾ ਲੱਗੇ।
+Where are you from? | ਵੇਰ ਅਰ ਯੂ ਫ਼੍ਰਮ | ਤੁਸੀਂ ਕਿੱਥੋਂ ਹੋ? | ਵਿਦੇਸ਼ ਵਿੱਚ ਸਭ ਤੋਂ ਪਹਿਲਾਂ ਸੁਣੇ ਜਾਣ ਵਾਲੇ ਸਵਾਲਾਂ ਵਿੱਚੋਂ ਇੱਕ। from ਵਾਕ ਦੇ ਅਖ਼ੀਰ ਤੇ ਰਹਿੰਦਾ ਹੈ।
+I'm from India. | ਆਈਮ ਫ਼੍ਰਮ ˈਇੰਡੀਆ | ਮੈਂ ਭਾਰਤ ਤੋਂ ਹਾਂ | ਸੂਬਾ ਵੀ ਦੱਸੋ ਤਾਂ ਗੱਲ ਅੱਗੇ ਤੁਰਦੀ ਹੈ: I'm from Punjab, in India। I belong to India ਵਿਦੇਸ਼ ਵਿੱਚ ਅਜੀਬ ਲੱਗਦਾ ਹੈ।
+I live in Amritsar. | ਆਈ ਲਿਵ਼ ਇਨ ਅਮ੍ˈਰਿਟ੍ਸਰ | ਮੈਂ ਅੰਮ੍ਰਿਤਸਰ ਰਹਿੰਦੀ ਹਾਂ | live ਦੇ ਅਖ਼ੀਰ ਵਿੱਚ ਵ਼ ਹੈ: ਉੱਪਰਲੇ ਦੰਦ ਹੇਠਲੇ ਬੁੱਲ੍ਹ ਤੇ। ਸ਼ਹਿਰ ਦੇ ਨਾਂ ਤੋਂ ਪਹਿਲਾਂ in, ਤੇ ਕੋਈ ਆਰਟੀਕਲ ਨਹੀਂ।
+I'm a student. | ਆਈਮ ਅ ˈਸ੍ਟੂਡੰਟ | ਮੈਂ ਵਿਦਿਆਰਥੀ ਹਾਂ | ਪੇਸ਼ੇ ਤੋਂ ਪਹਿਲਾਂ ਆਰਟੀਕਲ a / an ਜ਼ਰੂਰ ਲੱਗਦਾ ਹੈ। ਪੰਜਾਬੀ ਵਿੱਚ ਆਰਟੀਕਲ ਨਹੀਂ ਹੁੰਦੇ, ਇਸੇ ਲਈ I'm student ਸਭ ਤੋਂ ਆਮ ਗ਼ਲਤੀ ਹੈ।
+What do you do? | ਵਟ ਡ ਯੂ ਡੂ | ਤੁਸੀਂ ਕੀ ਕੰਮ ਕਰਦੇ ਹੋ? | ਕੰਮ-ਧੰਦਾ ਪੁੱਛਣ ਦਾ ਆਮ ਸਵਾਲ; ਇਸ ਦਾ ਮਤਲਬ "ਹੁਣ ਕੀ ਕਰ ਰਹੇ ਹੋ?" ਨਹੀਂ। What's your job? ਨਾਲੋਂ ਨਰਮ ਹੈ।
+I work at a bank. | ਆਈ ਵਰ੍ਕ ਅਟ ਅ ਬੈਂਕ | ਮੈਂ ਬੈਂਕ ਵਿੱਚ ਕੰਮ ਕਰਦਾ ਹਾਂ | ਕੰਪਨੀ ਜਾਂ ਕੰਮ ਵਾਲੀ ਥਾਂ ਤੋਂ ਪਹਿਲਾਂ ਆਮ ਤੌਰ ਤੇ at। bank ਤੋਂ ਪਹਿਲਾਂ a ਨਾ ਭੁੱਲੋ: I work at bank ✗।
+I work in marketing. | ਆਈ ਵਰ੍ਕ ਇਨ ˈਮਾਰ੍ਕਿਟਿਙ | ਮੈਂ ਮਾਰਕੀਟਿੰਗ ਦਾ ਕੰਮ ਕਰਦੀ ਹਾਂ | ਖੇਤਰ ਜਾਂ ਵਿਭਾਗ ਤੋਂ ਪਹਿਲਾਂ in; ਕੰਪਨੀ ਤੋਂ ਪਹਿਲਾਂ at।
+I'm 25 years old. | ਆਈਮ ਟ੍ਵੇਂਟੀˈਫ਼ਾਈਵ਼ ਯਿਰ੍ਜ਼ ਓਲ੍ਡ | ਮੈਂ 25 ਸਾਲਾਂ ਦਾ ਹਾਂ | 25 ਤੋਂ ਬਾਅਦ ਬਹੁਵਚਨ years। ਛੋਟਾ ਰੂਪ: I'm 25। ਵਿਦੇਸ਼ ਵਿੱਚ ਪਹਿਲੀ ਮੁਲਾਕਾਤ ਤੇ ਉਮਰ ਪੁੱਛਣਾ ਠੀਕ ਨਹੀਂ ਮੰਨਿਆ ਜਾਂਦਾ।
+I'm really into hiking. | ਆਈਮ ˈਰੀਅਲੀ ਇੰਟਾ ˈਹਾਈਕਿਙ | ਮੈਨੂੰ ਪਹਾੜਾਂ ਵਿੱਚ ਪੈਦਲ ਘੁੰਮਣ ਦਾ ਬੜਾ ਸ਼ੌਕ ਹੈ | My hobby is… ਨਾਲੋਂ ਕਿਤੇ ਸੁਭਾਵਕ। be into = ਕਿਸੇ ਚੀਜ਼ ਦਾ ਸ਼ੌਕ ਹੋਣਾ।
+I like watching movies. | ਆਈ ਲਾਈਕ ˈਵਾਚਿਙ ˈਮੂਵ਼ੀਜ਼ | ਮੈਨੂੰ ਫ਼ਿਲਮਾਂ ਦੇਖਣਾ ਪਸੰਦ ਹੈ | ਪੰਜਾਬੀ ਵਿੱਚ "ਮੈਨੂੰ … ਪਸੰਦ ਹੈ", ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਬੰਦਾ ਕਰਤਾ ਬਣਦਾ ਹੈ: I like…। like ਤੋਂ ਬਾਅਦ -ing ਜਾਂ to + V1।
+I've been learning English for a year. | ਆਈਵ਼ ਬਿਨ ˈਲਰ੍ਨਿਙ ˈਇੰਗ੍ਲਿਸ਼ ਫ਼ਰ ਅ ਯਿਰ | ਮੈਂ ਇੱਕ ਸਾਲ ਤੋਂ ਅੰਗਰੇਜ਼ੀ ਸਿੱਖ ਰਿਹਾ ਹਾਂ | "ਇੱਕ ਸਾਲ ਤੋਂ" = for a year; from a year ਜਾਂ since a year ਨਹੀਂ। ਤੇ ਇੱਥੇ "ਸਿੱਖ ਰਿਹਾ ਹਾਂ" I am learning ਨਹੀਂ, I've been learning ਬਣਦਾ ਹੈ।
+I'm here on vacation. | ਆਈਮ ਹਿਰ ਆਨ ਵ਼ੇˈਕੇਸ਼ਨ | ਮੈਂ ਇੱਥੇ ਛੁੱਟੀਆਂ ਮਨਾਉਣ ਆਈ ਹਾਂ | ਬ੍ਰਿਟੇਨ ਤੇ ਭਾਰਤ ਵਿੱਚ: on holiday। ਕੰਮ ਲਈ ਆਏ ਹੋ ਤਾਂ on business।
+I'm married. | ਆਈਮ ˈਮੈਰੀਡ | ਮੈਂ ਵਿਆਹਿਆ ਹੋਇਆ ਹਾਂ | ਕੁਆਰੇ ਹੋ ਤਾਂ I'm single। ਕਿਸ ਨਾਲ: married to, with ਨਹੀਂ। ਵਿਦੇਸ਼ ਵਿੱਚ ਪਹਿਲੀ ਮੁਲਾਕਾਤ ਤੇ ਵਿਆਹ ਬਾਰੇ ਨਹੀਂ ਪੁੱਛਦੇ।
+I have a younger brother. | ਆਈ ਹੈਵ਼ ਅ ˈਯੰਗਰ ˈਬ੍ਰਦ਼ਰ | ਮੇਰਾ ਇੱਕ ਛੋਟਾ ਭਰਾ ਹੈ | "ਮੇਰਾ … ਹੈ" = I have; I am having ਨਹੀਂ। ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਵੀਰ ਜਾਂ ਭਾਜੀ ਵਰਗੇ ਵੱਖਰੇ ਸ਼ਬਦ ਨਹੀਂ ਹੁੰਦੇ: older / younger brother।
+This is my brother. He's a driver. | ਦ਼ਿਸ ਇਜ਼ ਮਾਈ ˈਬ੍ਰਦ਼ਰ। ਹੀਜ਼ ਅ ˈਡ੍ਰਾਈਵ਼ਰ | ਇਹ ਮੇਰਾ ਭਰਾ ਹੈ। ਉਹ ਡਰਾਈਵਰ ਹੈ | ਪੰਜਾਬੀ ਦਾ "ਉਹ" ਆਦਮੀ ਲਈ he ਬਣਦਾ ਹੈ। ਪੇਸ਼ੇ ਤੋਂ ਪਹਿਲਾਂ ਆਰਟੀਕਲ a: a driver।
+This is my sister. She's a nurse. | ਦ਼ਿਸ ਇਜ਼ ਮਾਈ ˈਸਿਸ੍ਟਰ। ਸ਼ੀਜ਼ ਅ ਨਰ੍ਸ | ਇਹ ਮੇਰੀ ਭੈਣ ਹੈ। ਉਹ ਨਰਸ ਹੈ | ਉਹੀ "ਉਹ" ਔਰਤ ਲਈ she ਬਣਦਾ ਹੈ। ਪੰਜਾਬੀ ਵਿੱਚ ਫ਼ਰਕ ਨਹੀਂ ਦਿਸਦਾ, ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਚੁਣਨਾ ਪੈਂਦਾ ਹੈ।
+His name is Aman. | ਹਿਜ਼ ਨੇਮ ਇਜ਼ ˈਆਮਨ | ਉਸਦਾ ਨਾਂ ਅਮਨ ਹੈ (ਆਦਮੀ ਦਾ) | his / her ਮਾਲਕ ਦੇ ਹਿਸਾਬ ਨਾਲ ਚੁਣੋ, ਚੀਜ਼ ਦੇ ਹਿਸਾਬ ਨਾਲ ਨਹੀਂ: ਆਦਮੀ ਦੀ ਪਤਨੀ = his wife, her wife ਨਹੀਂ।
+Her name is Simran. | ਹਰ ਨੇਮ ਇਜ਼ ˈਸਿਮ੍ਰਨ | ਉਸਦਾ ਨਾਂ ਸਿਮਰਨ ਹੈ (ਔਰਤ ਦਾ) | ਔਰਤ ਦੀ ਹਰ ਚੀਜ਼ ਤੇ ਹਰ ਰਿਸ਼ਤੇ ਲਈ her: her brother, her husband, her phone।
 `,
-"생존 영어 1": `
-Excuse me. | 익스큐즈 미 | 실례합니다 / 저기요 | 사람을 부르거나 지나갈 때 써요. 부딪친 뒤에는 Sorry!
-Thank you. | 땡큐 | 감사합니다 | th는 혀끝을 이 사이에 살짝. 그래도 "땡큐"로 충분히 통해요
-Thanks a lot. | 땡스 어 랏 | 정말 고마워요 | Thank you보다 가볍고 친근해요
-You're welcome. | 유어 웰컴 | 천만에요 | 캐주얼하게는 "Sure." "No problem." "Anytime."
-No problem. | 노 프라블럼 | 별거 아니에요 | 고맙다는 말에 대한 대답으로 아주 흔해요
-I'm sorry. | 아임 쏘리 | 죄송해요 | 진짜 사과할 때. 가볍게 부딪쳤을 땐 "Sorry!" 한 마디면 돼요
-Yes, please. | 예스, 플리즈 | 네, 주세요 | "Would you like some water?" 같은 제안에 대한 대답
-No, thank you. | 노, 땡큐 | 아니요, 괜찮아요 | 거절할 때 그냥 No보다 훨씬 공손해요. 캐주얼: "I'm good, thanks."
-Sorry? | 쏘리? (끝을 올려서) | 네? 뭐라고요? | 끝을 올리면 "다시 말해 주세요"라는 뜻이 돼요. 미국에선 "Pardon?"보다 흔해요
-Could you say that again? | 쿠쥬 쎄이 댓 어게인? | 다시 말씀해 주시겠어요? | 못 알아들었을 때 당당하게 써요. 원어민도 자주 해요
-Could you speak more slowly? | 쿠쥬 스픽 모어 슬로울리? | 좀 더 천천히 말해 주시겠어요? | please를 붙이면 더 공손해요
-I don't understand. | 아이 돈 언더스탠드 | 이해가 안 돼요 | 조금 딱딱해요. 부드럽게: "Sorry, I didn't quite catch that."
-Do you speak Korean? | 두 유 스픽 코리안? | 한국어 하세요? | "Can you speak…?"보다 "Do you speak…?"가 더 자연스럽고 공손해요
-I speak a little English. | 아이 스픽 어 리를 잉글리시 | 영어를 조금 해요 | little의 tt는 "ㄹ"처럼 굴려요: 리를
-How do you say this in English? | 하우 두 유 쎄이 디스 인 잉글리시? | 이거 영어로 뭐라고 해요? | 물건을 가리키며 쓰면 단어를 바로 배울 수 있어요
-What does this mean? | 왓 더즈 디스 민? | 이게 무슨 뜻이에요? | 메뉴판·표지판을 가리키며 써요
-Can you help me? | 캔 유 헬프 미? | 좀 도와주실래요? | 더 공손하게: "Could you help me?"
+"ਸਭ ਤੋਂ ਜ਼ਰੂਰੀ 1": `
+Excuse me. | ਇਕ੍ˈਸ੍ਕਿਊਜ਼ ਮੀ | ਸੁਣੋ ਜੀ / ਮਾਫ਼ ਕਰਨਾ | ਕਿਸੇ ਨੂੰ ਬੁਲਾਉਣ ਜਾਂ ਰਾਹ ਮੰਗਣ ਵੇਲੇ। ਵਿਦੇਸ਼ ਵਿੱਚ ਅਣਜਾਣ ਬੰਦੇ ਨੂੰ ਭਾਜੀ, ਅੰਕਲ ਜਾਂ ਆਂਟੀ ਨਹੀਂ ਕਹਿੰਦੇ — ਬੱਸ Excuse me। ਟੱਕਰ ਵੱਜ ਜਾਵੇ ਤਾਂ Sorry!
+Thank you. | ਥ਼ੈਂਕ ਯੂ | ਧੰਨਵਾਦ / ਸ਼ੁਕਰੀਆ | th ਲਈ ਜੀਭ ਦੀ ਨੋਕ ਦੰਦਾਂ ਵਿਚਕਾਰ ਰੱਖੋ ਤੇ ਹਵਾ ਨਿਕਲਣ ਦਿਓ: ਥ਼, ਪੰਜਾਬੀ ਦਾ ਥ ਨਹੀਂ। ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਛੋਟੀ-ਛੋਟੀ ਗੱਲ ਤੇ ਵੀ Thank you ਕਹਿੰਦੇ ਹਨ, ਘਰਦਿਆਂ ਨੂੰ ਵੀ।
+Thanks a lot. | ਥ਼ੈਂਕ੍ਸ ਅ ਲਾਟ | ਬਹੁਤ-ਬਹੁਤ ਸ਼ੁਕਰੀਆ | Thank you ਨਾਲੋਂ ਹਲਕਾ ਤੇ ਦੋਸਤਾਨਾ।
+You're welcome. | ਯੁਰ ˈਵੇਲ੍ਕਮ | ਕੋਈ ਗੱਲ ਨਹੀਂ (ਧੰਨਵਾਦ ਦੇ ਜਵਾਬ ਵਿੱਚ) | Thank you ਦੇ ਜਵਾਬ ਵਿੱਚ Please ਜਾਂ Mention not ਨਾ ਕਹੋ। ਹਲਕੇ ਰੂਪ: Sure, No problem, Anytime।
+No problem. | ਨੋ ˈਪ੍ਰਾਬ੍ਲਮ | ਕੋਈ ਮੁਸ਼ਕਲ ਨਹੀਂ | ਧੰਨਵਾਦ ਦਾ ਬਹੁਤ ਆਮ ਜਵਾਬ; ਕਿਸੇ ਦੇ ਕੰਮ ਲਈ ਹਾਮੀ ਭਰਨ ਵੇਲੇ ਵੀ।
+I'm sorry. | ਆਈਮ ˈਸਾਰੀ | ਮੈਨੂੰ ਮਾਫ਼ ਕਰ ਦਿਓ | ਸੱਚੀ ਮਾਫ਼ੀ ਮੰਗਣ ਲਈ। ਹਲਕੀ ਜਿਹੀ ਟੱਕਰ ਤੇ ਬੱਸ Sorry! ਕਾਫ਼ੀ ਹੈ।
+Yes, please. | ਯੇਸ ਪ੍ਲੀਜ਼ | ਹਾਂ ਜੀ, ਦੇ ਦਿਓ | Would you like some water? ਵਰਗੀ ਪੇਸ਼ਕਸ਼ ਦਾ ਜਵਾਬ। ਇਕੱਲਾ Yes ਰੁੱਖਾ ਲੱਗਦਾ ਹੈ।
+No, thank you. | ਨੋ ਥ਼ੈਂਕ ਯੂ | ਨਹੀਂ ਜੀ, ਸ਼ੁਕਰੀਆ | ਇਕੱਲੇ No ਨਾਲੋਂ ਕਿਤੇ ਨਿਮਰ। ਹਲਕਾ ਰੂਪ: I'm good, thanks।
+Sorry? | ˈਸਾਰੀ | ਜੀ? ਕੀ ਕਿਹਾ? | ਅਖ਼ੀਰ ਤੇ ਆਵਾਜ਼ ਉੱਪਰ ਚੁੱਕੋ ਤਾਂ ਮਤਲਬ ਬਣਦਾ ਹੈ "ਦੁਬਾਰਾ ਕਹੋ"। ਅਮਰੀਕਾ ਵਿੱਚ Pardon? ਨਾਲੋਂ ਆਮ ਹੈ। ਇਕੱਲਾ What? ਰੁੱਖਾ ਲੱਗਦਾ ਹੈ।
+Could you say that again? | ਕਡ ਯੂ ਸੇ ਦ਼ੈਟ ਅˈਗੇਨ | ਕੀ ਤੁਸੀਂ ਦੁਬਾਰਾ ਕਹੋਗੇ? | ਸਮਝ ਨਾ ਆਵੇ ਤਾਂ ਬੇਝਿਜਕ ਪੁੱਛੋ; ਅੰਗਰੇਜ਼ੀ ਬੋਲਣ ਵਾਲੇ ਆਪ ਵੀ ਪੁੱਛਦੇ ਹਨ। repeat again ਨਾ ਕਹੋ: repeat ਵਿੱਚ "ਦੁਬਾਰਾ" ਪਹਿਲਾਂ ਹੀ ਹੈ।
+Could you speak more slowly? | ਕਡ ਯੂ ਸ੍ਪੀਕ ਮੌਰ ˈਸ੍ਲੋਲੀ | ਕੀ ਤੁਸੀਂ ਥੋੜ੍ਹਾ ਹੌਲੀ ਬੋਲੋਗੇ? | ਪੰਜਾਬੀ ਵਿੱਚ ਨਿਮਰਤਾ "ਤੁਸੀਂ" ਤੇ "ਜੀ" ਵਿੱਚ ਹੁੰਦੀ ਹੈ, ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ Could you…? ਵਿੱਚ। please ਜੋੜੋ ਤਾਂ ਹੋਰ ਨਿਮਰ।
+I don't understand. | ਆਈ ਡੋਂਟ ਅੰਡਰ੍ˈਸ੍ਟੈਂਡ | ਮੈਨੂੰ ਸਮਝ ਨਹੀਂ ਆਈ | I am not understanding ਗ਼ਲਤ ਹੈ: understand ਨਾਲ -ing ਨਹੀਂ ਲੱਗਦਾ। ਨਰਮ ਰੂਪ: Sorry, I didn't quite catch that।
+Do you speak Punjabi? | ਡ ਯੂ ਸ੍ਪੀਕ ਪੰˈਜਾਬੀ | ਕੀ ਤੁਸੀਂ ਪੰਜਾਬੀ ਬੋਲਦੇ ਹੋ? | Can you speak…? ਨਾਲੋਂ Do you speak…? ਜ਼ਿਆਦਾ ਸੁਭਾਵਕ ਤੇ ਨਿਮਰ ਹੈ। ਭਾਸ਼ਾ ਦੇ ਨਾਂ ਤੋਂ ਪਹਿਲਾਂ ਕੋਈ ਆਰਟੀਕਲ ਨਹੀਂ ਲੱਗਦਾ।
+I speak a little English. | ਆਈ ਸ੍ਪੀਕ ਅ ˈਲਿਟਲ ˈਇੰਗ੍ਲਿਸ਼ | ਮੈਂ ਥੋੜ੍ਹੀ-ਬਹੁਤ ਅੰਗਰੇਜ਼ੀ ਬੋਲ ਲੈਂਦਾ ਹਾਂ | a little = ਥੋੜ੍ਹੀ ਜਿਹੀ, ਪਰ ਕੰਮ ਚੱਲ ਜਾਂਦਾ ਹੈ। a ਤੋਂ ਬਿਨਾਂ little = ਨਾਂਹ ਦੇ ਬਰਾਬਰ।
+How do you say this in English? | ਹਾਊ ਡ ਯੂ ਸੇ ਦ਼ਿਸ ਇਨ ˈਇੰਗ੍ਲਿਸ਼ | ਇਸ ਨੂੰ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਕੀ ਕਹਿੰਦੇ ਹਨ? | ਚੀਜ਼ ਵੱਲ ਇਸ਼ਾਰਾ ਕਰ ਕੇ ਪੁੱਛੋ, ਨਵਾਂ ਸ਼ਬਦ ਉਸੇ ਵੇਲੇ ਸਿੱਖ ਜਾਓਗੇ। ਪੰਜਾਬੀ ਦੇ "ਕੀ ਕਹਿੰਦੇ ਹਨ" ਵਾਂਗ What ਨਹੀਂ: How do you say…?
+What does this mean? | ਵਟ ਡਜ਼ ਦ਼ਿਸ ਮੀਨ | ਇਸ ਦਾ ਕੀ ਮਤਲਬ ਹੈ? | ਮੈਨਿਊ ਜਾਂ ਬੋਰਡ ਵੱਲ ਇਸ਼ਾਰਾ ਕਰ ਕੇ ਪੁੱਛੋ। What means this? ਗ਼ਲਤ ਹੈ: ਸਵਾਲ ਵਿੱਚ does ਚਾਹੀਦਾ ਹੈ।
+Can you help me? | ਕਨ ਯੂ ਹੇਲ੍ਪ ਮੀ | ਕੀ ਤੁਸੀਂ ਮੇਰੀ ਮਦਦ ਕਰ ਸਕਦੇ ਹੋ? | ਹੋਰ ਨਿਮਰ: Could you help me?
 `,
-"생존 영어 2": `
-Where's the restroom? | 웨어즈 더 레스트룸? | 화장실이 어디예요? | 미국: restroom·bathroom, 영국: toilet·loo. "toilet"은 미국에선 변기 자체를 뜻해요
-How much is this? | 하우 머치 이즈 디스? | 이거 얼마예요? | 여러 개면 "How much are these?"
-Is there an ATM around here? | 이즈 데어런 에이티엠 어롸운드 히어? | 이 근처에 ATM 있어요? | 영국에선 cash machine이라고도 해요
-Can I get the Wi-Fi password? | 캔 아이 겟 더 와이파이 패스워드? | 와이파이 비밀번호 알려 주실래요? | 영어로는 "와이파이"가 맞아요. "Is there Wi-Fi here?"도 OK
-I'm lost. | 아임 로스트 | 길을 잃었어요 | 지도를 보여 주며 "Where am I on this map?"도 써 보세요
-Can I pay by card? | 캔 아이 페이 바이 카드? | 카드 돼요? | 미국은 거의 다 카드 OK. 작은 가게는 최소 금액이 있을 수 있어요
-One moment, please. | 원 모먼트, 플리즈 | 잠시만요 | 공손한 표현이라 가게·전화에서 많이 들어요
-Just a second. | 저스트 어 세컨 | 잠깐만 | 캐주얼. 더 짧게 "Just a sec."
-No worries. | 노 워리즈 | 괜찮아요 / 신경 쓰지 마요 | 호주·영국에서 특히 많이 쓰고 미국에서도 흔해요
-That's okay. | 댓츠 오케이 | 괜찮아요 (상대가 사과할 때) | 누가 사과하면 "That's okay!" 또는 "Don't worry about it."
-Of course. | 오브 코스 | 물론이죠 | 부탁을 들어줄 때. 질문에 쓰면 "당연한 걸 왜 물어?"처럼 들릴 수 있어 말투를 부드럽게
-I'm not sure. | 아임 낫 슈어 | 잘 모르겠어요 | I don't know보다 부드러워요
-I have a question. | 아이 해버 퀘스천 | 질문이 있어요 | 수업·회의에서: "Can I ask a question?"
-Can you write it down? | 캔 유 롸이릿 다운? | 적어 주실 수 있어요? | 주소·숫자·이름을 못 알아들었을 때 최고의 해결책
-Can I take a picture? | 캔 아이 테이커 픽처? | 사진 찍어도 돼요? | 박물관·가게에서 먼저 물어보는 게 매너예요
-Could you take a picture of us? | 쿠쥬 테이커 픽처 오브 어스? | 저희 사진 좀 찍어 주실래요? | 찍어 준 뒤엔 "Thank you so much!"
-After you. | 애프터 유 | 먼저 가세요 | 문 앞·엘리베이터에서 양보할 때. 영어권에선 문을 잡아 주는 게 기본 매너예요
-Watch out! | 와치 아웃! | 조심해요! | 위험할 때 크게 외쳐요. "Look out!"도 같은 뜻
+"ਸਭ ਤੋਂ ਜ਼ਰੂਰੀ 2": `
+Where's the restroom? | ਵੇਰ੍ਜ਼ ਦ਼ ˈਰੇਸ੍ਟ੍ਰੂਮ | ਬਾਥਰੂਮ ਕਿੱਥੇ ਹੈ? | ਅਮਰੀਕਾ: restroom ਜਾਂ bathroom; ਕੈਨੇਡਾ: washroom; ਬ੍ਰਿਟੇਨ ਤੇ ਭਾਰਤ: toilet। ਅਮਰੀਕਾ ਵਿੱਚ toilet ਦਾ ਮਤਲਬ ਸੀਟ ਆਪ ਹੈ।
+How much is this? | ਹਾਊ ਮਚ ਇਜ਼ ਦ਼ਿਸ | ਇਹ ਕਿੰਨੇ ਦਾ ਹੈ? | ਕਈ ਚੀਜ਼ਾਂ ਹੋਣ ਤਾਂ ਬਹੁਵਚਨ: How much are these?
+Is there an ATM around here? | ਇਜ਼ ਦ਼ੇਰ ਅਨ ਏ ਟੀ ਏਮ ਅˈਰਾਊਂਡ ਹਿਰ | ਇੱਥੇ ਨੇੜੇ ਕੋਈ ਏ.ਟੀ.ਐਮ. ਹੈ? | ATM ਦਾ ਨਾਂ ਸਵਰ ਦੀ ਆਵਾਜ਼ (ਏ) ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ, ਇਸ ਲਈ an। ਪੰਜਾਬੀ ਦੇ "ਨੇੜੇ … ਹੈ?" ਵਾਂਗ Near here is ATM? ਨਾ ਕਹੋ: Is there…?
+Can I get the Wi-Fi password? | ਕਨ ਆਈ ਗੇਟ ਦ਼ ˈਵਾਈਫ਼ਾਈ ˈਪੈਸ੍ਵਰ੍ਡ | ਵਾਈ-ਫ਼ਾਈ ਦਾ ਪਾਸਵਰਡ ਮਿਲ ਸਕਦਾ ਹੈ? | ਕੈਫ਼ੇ ਜਾਂ ਹੋਟਲ ਵਿੱਚ। ਇਹ ਵੀ ਠੀਕ ਹੈ: Is there Wi-Fi here?
+I'm lost. | ਆਈਮ ਲੌਸ੍ਟ | ਮੈਂ ਰਾਹ ਭੁੱਲ ਗਿਆ ਹਾਂ | ਨਕਸ਼ਾ ਦਿਖਾ ਕੇ ਇਹ ਵੀ ਪੁੱਛ ਸਕਦੇ ਹੋ: Where am I on this map?
+Can I pay by card? | ਕਨ ਆਈ ਪੇ ਬਾਈ ਕਾਰ੍ਡ | ਕਾਰਡ ਚੱਲੇਗਾ? | ਅਮਰੀਕਾ ਵਿੱਚ ਲਗਭਗ ਹਰ ਥਾਂ ਕਾਰਡ ਚੱਲਦਾ ਹੈ। ਛੋਟੀਆਂ ਦੁਕਾਨਾਂ ਵਿੱਚ ਘੱਟੋ-ਘੱਟ ਰਕਮ ਦੀ ਸ਼ਰਤ ਹੋ ਸਕਦੀ ਹੈ।
+One moment, please. | ਵਨ ˈਮੋਮੰਟ ਪ੍ਲੀਜ਼ | ਇੱਕ ਮਿੰਟ ਰੁਕੋ ਜੀ | ਨਿਮਰ ਰੂਪ; ਦੁਕਾਨਾਂ ਵਿੱਚ ਤੇ ਫ਼ੋਨ ਤੇ ਬਹੁਤ ਸੁਣਦਾ ਹੈ।
+Just a second. | ਜਸ੍ਟ ਅ ˈਸੇਕੰਡ | ਬੱਸ ਇੱਕ ਸਕਿੰਟ | ਬੇਤਕੱਲੁਫ਼ ਰੂਪ। ਹੋਰ ਛੋਟਾ: Just a sec।
+No worries. | ਨੋ ˈਵਰੀਜ਼ | ਕੋਈ ਗੱਲ ਨਹੀਂ / ਫ਼ਿਕਰ ਨਾ ਕਰੋ | ਆਸਟ੍ਰੇਲੀਆ ਤੇ ਬ੍ਰਿਟੇਨ ਵਿੱਚ ਬਹੁਤ ਚੱਲਦਾ ਹੈ; ਅਮਰੀਕਾ ਤੇ ਕੈਨੇਡਾ ਵਿੱਚ ਵੀ ਆਮ ਹੈ।
+That's okay. | ਦ਼ੈਟ੍ਸ ਓˈਕੇ | ਕੋਈ ਨਹੀਂ, ਠੀਕ ਹੈ (ਮਾਫ਼ੀ ਦੇ ਜਵਾਬ ਵਿੱਚ) | ਕੋਈ ਮਾਫ਼ੀ ਮੰਗੇ ਤਾਂ That's okay! ਜਾਂ Don't worry about it।
+Of course. | ਅਵ਼ ਕੌਰ੍ਸ | ਹਾਂ, ਬਿਲਕੁਲ | ਕਿਸੇ ਦੀ ਬੇਨਤੀ ਮੰਨਣ ਵੇਲੇ। ਸਿੱਧੇ ਸਵਾਲ ਦੇ ਜਵਾਬ ਵਿੱਚ ਇਹ "ਇਹ ਵੀ ਕੋਈ ਪੁੱਛਣ ਵਾਲੀ ਗੱਲ ਹੈ?" ਵਰਗਾ ਲੱਗ ਸਕਦਾ ਹੈ, ਇਸ ਲਈ ਲਹਿਜਾ ਨਰਮ ਰੱਖੋ।
+I'm not sure. | ਆਈਮ ਨਾਟ ਸ਼ੁਰ | ਮੈਨੂੰ ਪੱਕਾ ਪਤਾ ਨਹੀਂ | I don't know ਨਾਲੋਂ ਨਰਮ। ਪੰਜਾਬੀ ਵਿੱਚ "ਮੈਨੂੰ ਪਤਾ ਨਹੀਂ", ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਕਰਤਾ I।
+I have a question. | ਆਈ ਹੈਵ਼ ਅ ˈਕ੍ਵੇਸ੍ਚਨ | ਮੈਂ ਇੱਕ ਸਵਾਲ ਪੁੱਛਣਾ ਹੈ | ਸਵਾਲ ਲਈ question ਕਹੋ; I have a doubt ਵਿਦੇਸ਼ ਵਿੱਚ "ਮੈਨੂੰ ਸ਼ੱਕ ਹੈ" ਸਮਝਿਆ ਜਾਵੇਗਾ। ਕਲਾਸ ਜਾਂ ਮੀਟਿੰਗ ਵਿੱਚ: Can I ask a question?
+Can you write it down? | ਕਨ ਯੂ ਰਾਈਟ ਇਟ ਡਾਊਨ | ਕੀ ਤੁਸੀਂ ਇਹ ਲਿਖ ਕੇ ਦੇ ਸਕਦੇ ਹੋ? | ਪਤਾ, ਨੰਬਰ ਜਾਂ ਨਾਂ ਸਮਝ ਨਾ ਆਵੇ ਤਾਂ ਸਭ ਤੋਂ ਵਧੀਆ ਹੱਲ। it ਵਿਚਕਾਰ ਆਉਂਦਾ ਹੈ: write it down।
+Can I take a picture? | ਕਨ ਆਈ ਟੇਕ ਅ ˈਪਿਕ੍ਚਰ | ਕੀ ਮੈਂ ਫ਼ੋਟੋ ਖਿੱਚ ਸਕਦਾ ਹਾਂ? | ਫ਼ੋਟੋ "ਖਿੱਚਣ" ਲਈ ਕਿਰਿਆ take ਹੈ, pull ਨਹੀਂ। ਅਜਾਇਬ-ਘਰ ਜਾਂ ਦੁਕਾਨ ਵਿੱਚ ਪਹਿਲਾਂ ਪੁੱਛ ਲੈਣਾ ਚੰਗਾ ਹੈ।
+Could you take a picture of us? | ਕਡ ਯੂ ਟੇਕ ਅ ˈਪਿਕ੍ਚਰ ਅਵ਼ ਅਸ | ਕੀ ਤੁਸੀਂ ਸਾਡੀ ਇੱਕ ਫ਼ੋਟੋ ਖਿੱਚ ਦਿਓਗੇ? | "ਸਾਡੀ ਫ਼ੋਟੋ" = a picture of us; our picture ਇੱਥੇ ਨਹੀਂ। ਮਗਰੋਂ ਕਹੋ: Thank you so much!
+After you. | ˈਐਫ਼੍ਟਰ ਯੂ | ਪਹਿਲਾਂ ਤੁਸੀਂ | ਦਰਵਾਜ਼ੇ ਜਾਂ ਲਿਫ਼ਟ ਅੱਗੇ ਦੂਜੇ ਨੂੰ ਪਹਿਲ ਦੇਣ ਵੇਲੇ। ਪਿੱਛੇ ਆਉਣ ਵਾਲੇ ਲਈ ਦਰਵਾਜ਼ਾ ਫੜ ਕੇ ਰੱਖਣਾ ਉੱਥੇ ਆਮ ਰਿਵਾਜ ਹੈ।
+Watch out! | ਵਾਚ ਆਊਟ | ਬਚ ਕੇ! / ਧਿਆਨ ਨਾਲ! | ਖ਼ਤਰੇ ਵੇਲੇ ਉੱਚੀ ਆਵਾਜ਼ ਵਿੱਚ। Look out! ਦਾ ਵੀ ਇਹੀ ਮਤਲਬ ਹੈ।
 `,
-"길 묻기·교통": `
-How do I get to the subway station? | 하우 두 아이 겟 투 더 썹웨이 스테이션? | 지하철역에 어떻게 가요? | 영국: underground / tube station. 목적지만 바꿔서 쓰면 돼요
-Is it far from here? | 이즈 잇 파 프럼 히어? | 여기서 멀어요? | far의 r은 혀를 살짝 말아요
-Is it within walking distance? | 이즈 잇 위딘 워킹 디스턴스? | 걸어갈 수 있는 거리예요? | "Can I walk there?"도 OK
-Go straight. | 고 스트레잇 | 쭉 가세요 / 직진하세요 | "Go straight for two blocks." 미국은 거리를 block으로 세요
-Turn left at the corner. | 턴 레프트 앳 더 코너 | 모퉁이에서 왼쪽으로 도세요 | 신호등에서는 "at the light"
-It's on your right. | 잇츠 온 유어 롸잇 | 오른쪽에 있어요 | right의 r은 입술을 내밀고 "(우)롸"
-It's across the street. | 잇츠 어크로스 더 스트릿 | 길 건너편에 있어요 | across from ~ = ~의 맞은편
-It's next to the bank. | 잇츠 넥스 투 더 뱅크 | 은행 옆에 있어요 | next to의 t는 하나만 살짝 발음돼요
-Which line goes downtown? | 위치 라인 고즈 다운타운? | 시내 가는 건 몇 호선이에요? | downtown 앞에는 to를 쓰지 않아요
-Where do I transfer? | 웨어 두 아이 트랜스퍼? | 어디서 갈아타요? | 영국에선 change: "Where do I change?"
-Does this bus go to the airport? | 더즈 디스 버스 고 투 디 에어포트? | 이 버스 공항 가요? | 모음 앞 the는 "디"로 발음해요
-Which stop should I get off at? | 위치 스탑 슈다이 게로프 앳? | 어느 정류장에서 내려야 해요? | get off = (버스·지하철에서) 내리다
-One ticket to Boston, please. | 원 티킷 투 보스턴, 플리즈 | 보스턴행 표 한 장 주세요 | 목적지 앞엔 to
-Round trip or one way? | 롸운드 트립 오어 원 웨이? | 왕복이에요, 편도예요? | 영국식: "Return or single?"
-Can you take me to this address? | 캔 유 테익 미 투 디스 애드레스? | 이 주소로 가 주세요 | 택시에서 화면을 보여 주며 쓰면 실수가 없어요
-Could you pull over here? | 쿠쥬 풀 오버 히어? | 여기 세워 주시겠어요? | 택시·차에서 내리고 싶을 때. "Right here is fine."도 OK
-How long does it take? | 하우 롱 더즈 잇 테익? | 얼마나 걸려요? | 대답: "About 20 minutes."
-Is this seat taken? | 이즈 디스 씻 테이큰? | 이 자리 주인 있어요? | 비어 있으면 "No, go ahead."라고 해요. seat는 길게 "씨-잇"
+"ਰਾਹ ਤੇ ਆਵਾਜਾਈ": `
+How do I get to the subway station? | ਹਾਊ ਡ ਆਈ ਗੇਟ ਟ ਦ਼ ˈਸਬ੍ਵੇ ˈਸ੍ਟੇਸ਼ਨ | ਮੈਟਰੋ ਸਟੇਸ਼ਨ ਕਿਵੇਂ ਜਾਵਾਂ? | subway = ਅਮਰੀਕਾ ਦੀ ਮੈਟਰੋ; ਬ੍ਰਿਟੇਨ ਵਿੱਚ underground ਜਾਂ tube। ਥਾਂ ਦਾ ਨਾਂ ਬਦਲ ਕੇ ਇਹੀ ਵਾਕ ਹਰ ਥਾਂ ਵਰਤੋ।
+Is it far from here? | ਇਜ਼ ਇਟ ਫ਼ਾਰ ਫ਼੍ਰਮ ਹਿਰ | ਕੀ ਇਹ ਇੱਥੋਂ ਦੂਰ ਹੈ? | ਅੰਗਰੇਜ਼ੀ ਵਾਕ ਵਿੱਚ ਕਰਤਾ ਜ਼ਰੂਰੀ ਹੈ: Is far? ਨਹੀਂ, Is it far? "ਇੱਥੋਂ" = from here।
+Is it within walking distance? | ਇਜ਼ ਇਟ ਵਿਦ਼ਿਨ ˈਵੌਕਿਙ ˈਡਿਸ੍ਟਨ੍ਸ | ਕੀ ਉੱਥੇ ਪੈਦਲ ਜਾ ਸਕਦੇ ਹਾਂ? | ਸੌਖਾ ਰੂਪ: Can I walk there?
+Go straight. | ਗੋ ਸ੍ਟ੍ਰੇਟ | ਸਿੱਧੇ ਜਾਓ | Go straight for two blocks। ਅਮਰੀਕਾ ਵਿੱਚ ਫ਼ਾਸਲਾ block (ਦੋ ਚੌਕਾਂ ਵਿਚਕਾਰਲਾ ਹਿੱਸਾ) ਨਾਲ ਦੱਸਦੇ ਹਨ। straight ਵਿੱਚ s, t, r ਇਕੱਠੇ ਬੋਲੋ, ਵਿਚਕਾਰ ਕੋਈ ਸਵਰ ਨਹੀਂ।
+Turn left at the corner. | ਟਰ੍ਨ ਲੇਫ਼੍ਟ ਅਟ ਦ਼ ˈਕੌਰ੍ਨਰ | ਮੋੜ ਤੋਂ ਖੱਬੇ ਮੁੜੋ | ਬੱਤੀਆਂ ਤੋਂ ਮੁੜਨਾ ਹੋਵੇ ਤਾਂ at the light। Take a left ਵੀ ਕਹਿੰਦੇ ਹਨ।
+It's on your right. | ਇਟ੍ਸ ਆਨ ਯੁਰ ਰਾਈਟ | ਇਹ ਤੁਹਾਡੇ ਸੱਜੇ ਹੱਥ ਹੈ | ਖੱਬੇ ਹੱਥ: on your left। ਇੱਥੇ on ਲੱਗਦਾ ਹੈ, in ਨਹੀਂ।
+It's across the street. | ਇਟ੍ਸ ਅਕ੍ਰੌਸ ਦ਼ ਸ੍ਟ੍ਰੀਟ | ਇਹ ਸੜਕ ਦੇ ਪਾਰ ਹੈ | across from the bank = ਬੈਂਕ ਦੇ ਸਾਹਮਣੇ। opposite to the bank ਨਹੀਂ: opposite the bank ਜਾਂ across from the bank।
+It's next to the bank. | ਇਟ੍ਸ ਨੇਕ੍ਸ੍ਟ ਟ ਦ਼ ਬੈਂਕ | ਇਹ ਬੈਂਕ ਦੇ ਨਾਲ ਹੈ | ਪੰਜਾਬੀ ਵਿੱਚ "ਦੇ ਨਾਲ" ਨਾਂਵ ਤੋਂ ਪਿੱਛੋਂ ਆਉਂਦਾ ਹੈ, ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ next to ਪਹਿਲਾਂ; ਤੇ bank ਤੋਂ ਪਹਿਲਾਂ ਆਰਟੀਕਲ the।
+Which line goes downtown? | ਵਿਚ ਲਾਈਨ ਗੋਜ਼ ਡਾਊਂˈਟਾਊਨ | ਸ਼ਹਿਰ ਦੇ ਵਿਚਕਾਰ ਕਿਹੜੀ ਲਾਈਨ ਜਾਂਦੀ ਹੈ? | downtown = ਸ਼ਹਿਰ ਦਾ ਵਿਚਕਾਰਲਾ, ਬਜ਼ਾਰਾਂ ਤੇ ਦਫ਼ਤਰਾਂ ਵਾਲਾ ਹਿੱਸਾ। ਇਸ ਤੋਂ ਪਹਿਲਾਂ to ਨਹੀਂ ਲੱਗਦਾ, ਜਿਵੇਂ go home ਵਿੱਚ ਨਹੀਂ ਲੱਗਦਾ।
+Where do I transfer? | ਵੇਰ ਡ ਆਈ ਟ੍ਰੈਨ੍ਸ੍ˈਫ਼ਰ | ਮੈਂ ਗੱਡੀ ਕਿੱਥੋਂ ਬਦਲਾਂ? | ਬ੍ਰਿਟੇਨ ਵਿੱਚ change ਕਹਿੰਦੇ ਹਨ: Where do I change?
+Does this bus go to the airport? | ਡਜ਼ ਦ਼ਿਸ ਬਸ ਗੋ ਟ ਦ਼ੀ ˈਏਰ੍ਪੌਰ੍ਟ | ਕੀ ਇਹ ਬੱਸ ਏਅਰਪੋਰਟ ਜਾਂਦੀ ਹੈ? | ਸਵਾਲ ਵਿੱਚ Does ਆ ਗਿਆ ਤਾਂ ਅੱਗੇ go, goes ਨਹੀਂ। ਸਵਰ ਦੀ ਆਵਾਜ਼ ਤੋਂ ਪਹਿਲਾਂ the ਨੂੰ ਦ਼ੀ ਬੋਲਦੇ ਹਨ।
+Which stop should I get off at? | ਵਿਚ ਸ੍ਟਾਪ ਸ਼ਡ ਆਈ ਗੇਟ ਔਫ਼ ਐਟ | ਮੈਂ ਕਿਹੜੇ ਸਟਾਪ ਤੇ ਉਤਰਾਂ? | get off = (ਬੱਸ ਜਾਂ ਗੱਡੀ ਤੋਂ) ਉਤਰਨਾ; get on = ਚੜ੍ਹਨਾ। at ਵਾਕ ਦੇ ਅਖ਼ੀਰ ਤੇ ਰਹਿੰਦਾ ਹੈ।
+One ticket to Boston, please. | ਵਨ ˈਟਿਕਿਟ ਟ ˈਬੌਸ੍ਟਨ ਪ੍ਲੀਜ਼ | ਬੋਸਟਨ ਦੀ ਇੱਕ ਟਿਕਟ ਦੇ ਦਿਓ | ਜਿੱਥੇ ਜਾਣਾ ਹੈ ਉਸ ਤੋਂ ਪਹਿਲਾਂ to: a ticket to Boston; ਪੰਜਾਬੀ ਦੇ "ਦੀ" ਵਾਂਗ of ਨਹੀਂ।
+Round trip or one way? | ਰਾਊਂਡ ਟ੍ਰਿਪ ਅਰ ਵਨ ਵੇ | ਆਉਣ-ਜਾਣ ਦੀ ਜਾਂ ਸਿਰਫ਼ ਜਾਣ ਦੀ? | ਬ੍ਰਿਟੇਨ ਤੇ ਭਾਰਤ ਵਿੱਚ: Return or single?
+Can you take me to this address? | ਕਨ ਯੂ ਟੇਕ ਮੀ ਟ ਦ਼ਿਸ ˈਐਡ੍ਰੇਸ | ਮੈਨੂੰ ਇਸ ਪਤੇ ਤੇ ਛੱਡ ਦਿਓਗੇ? | ਟੈਕਸੀ ਵਿੱਚ ਫ਼ੋਨ ਦੀ ਸਕਰੀਨ ਦਿਖਾ ਕੇ ਕਹੋ ਤਾਂ ਗ਼ਲਤੀ ਨਹੀਂ ਹੁੰਦੀ।
+Could you pull over here? | ਕਡ ਯੂ ਪੁਲ ˈਓਵ਼ਰ ਹਿਰ | ਕੀ ਤੁਸੀਂ ਇੱਥੇ ਗੱਡੀ ਰੋਕ ਦਿਓਗੇ? | ਟੈਕਸੀ ਜਾਂ ਕਾਰ ਤੋਂ ਉਤਰਨ ਵੇਲੇ। pull over = ਗੱਡੀ ਸੜਕ ਦੇ ਕੰਢੇ ਲਾ ਕੇ ਰੋਕਣੀ। Right here is fine ਵੀ ਠੀਕ ਹੈ।
+How long does it take? | ਹਾਊ ਲੌਙ ਡਜ਼ ਇਟ ਟੇਕ | ਕਿੰਨਾ ਸਮਾਂ ਲੱਗਦਾ ਹੈ? | ਜਵਾਬ: About 20 minutes। "ਕਿੰਨਾ ਸਮਾਂ" ਲਈ ਆਮ ਤੌਰ ਤੇ How long; How much time ਘੱਟ ਚੱਲਦਾ ਹੈ।
+Is this seat taken? | ਇਜ਼ ਦ਼ਿਸ ਸੀਟ ˈਟੇਕਨ | ਕੀ ਇੱਥੇ ਕੋਈ ਬੈਠਾ ਹੈ? | ਸੀਟ ਖ਼ਾਲੀ ਹੋਵੇ ਤਾਂ ਜਵਾਬ ਮਿਲਦਾ ਹੈ: No, go ahead। seat ਲੰਮੀ ਈ ਨਾਲ ਬੋਲੋ; ਛੋਟੀ ਇ ਨਾਲ sit ਬਣ ਜਾਂਦਾ ਹੈ।
 `,
-"식당 주문": `
-A table for two, please. | 어 테이블 포 투, 플리즈 | 두 명이요 | 미국 식당은 보통 직원이 자리를 안내해 줄 때까지 기다려요
-Do you have a reservation? | 두 유 해버 레저베이션? | 예약하셨어요? | 직원이 묻는 말. "Yes, under Kim."처럼 대답해요
-Can I see the menu? | 캔 아이 씨 더 메뉴? | 메뉴판 좀 볼 수 있을까요? | menu 강세는 앞: 메뉴
-What do you recommend? | 왓 두 유 레커멘드? | 추천해 주실 메뉴 있어요? | "What's popular here?"도 좋아요
-I'll have the steak. | 아일 해브 더 스테익 | 스테이크로 할게요 | 주문의 기본 공식: I'll have + 메뉴
-Can I get a Coke? | 캔 아이 게러 코크? | 콜라 한 잔 주실래요? | get a는 "게러"처럼 이어져요. 콜라는 보통 Coke라고 해요
-Medium rare, please. | 미디엄 레어, 플리즈 | 미디엄 레어로 주세요 | "How would you like your steak?"에 대한 대답
-No onions, please. | 노 어니언즈, 플리즈 | 양파는 빼 주세요 | "Can I get it without onions?"도 같은 뜻
-I'm allergic to peanuts. | 아임 얼러직 투 피넛츠 | 땅콩 알레르기가 있어요 | allergic 강세는 가운데 "러". 알레르기는 영어로 allergy(앨러지)
-Is it spicy? | 이즈 잇 스파이시? | 매워요? | 미국의 spicy는 한국 기준으로 안 매울 때가 많아요
-Could we get some water? | 쿳 위 겟 썸 워러? | 물 좀 주시겠어요? | 미국 식당 물은 보통 무료. water는 "워러"처럼 굴려요
-Everything was great. | 에브리띵 워즈 그레잇 | 다 맛있었어요 | 직원이 "How is everything?" 하고 물으면 이렇게 답해요
-Can we get the check, please? | 캔 위 겟 더 첵, 플리즈? | 계산서 주세요 | 영국: the bill. 미국은 보통 자리에서 계산해요
-Can we split the bill? | 캔 위 스플릿 더 빌? | 따로 계산할 수 있나요? | "separate checks"라고도 해요
-It's on me. | 잇츠 온 미 | 제가 살게요 | "My treat!"도 같은 뜻이에요
-Can I get this to go? | 캔 아이 겟 디스 투 고? | 이거 포장돼요? | 남은 음식을 싸 갈 땐 "Can I get a box?"
-Is the tip included? | 이즈 더 팁 인클루디드? | 팁 포함인가요? | 미국 식당은 보통 15~20% 팁을 따로 내요
+"ਰੈਸਟੋਰੈਂਟ ਵਿੱਚ": `
+A table for two, please. | ਅ ˈਟੇਬਲ ਫ਼ਰ ਟੂ ਪ੍ਲੀਜ਼ | ਦੋ ਜਣਿਆਂ ਲਈ ਟੇਬਲ ਚਾਹੀਦਾ ਹੈ | ਅਮਰੀਕਾ ਦੇ ਰੈਸਟੋਰੈਂਟਾਂ ਵਿੱਚ ਆਪੇ ਜਾ ਕੇ ਨਹੀਂ ਬੈਠਦੇ; ਸਟਾਫ਼ ਦੇ ਬਿਠਾਉਣ ਤੱਕ ਉਡੀਕ ਕਰੋ।
+Do you have a reservation? | ਡ ਯੂ ਹੈਵ਼ ਅ ਰੇਜ਼ਰ੍ˈਵ਼ੇਸ਼ਨ | ਕੀ ਤੁਸੀਂ ਬੁਕਿੰਗ ਕਰਵਾਈ ਹੈ? | ਸਟਾਫ਼ ਪੁੱਛਦਾ ਹੈ। ਜਵਾਬ: Yes, under Singh। ਭਾਰਤ ਵਿੱਚ booking ਕਹਿੰਦੇ ਹਨ, ਅਮਰੀਕਾ ਵਿੱਚ reservation।
+Can I see the menu? | ਕਨ ਆਈ ਸੀ ਦ਼ ˈਮੇਨਿਊ | ਮੈਨਿਊ ਦਿਖਾਓਗੇ? | ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਬੱਸ menu ਕਹਿੰਦੇ ਹਨ, menu card ਨਹੀਂ। ਜ਼ੋਰ ਪਹਿਲੇ ਹਿੱਸੇ ਤੇ।
+What do you recommend? | ਵਟ ਡ ਯੂ ਰੇਕˈਮੇਂਡ | ਤੁਸੀਂ ਕੀ ਖਾਣ ਦੀ ਸਲਾਹ ਦਿਓਗੇ? | What's popular here? ਵੀ ਚੰਗਾ ਸਵਾਲ ਹੈ। ਸ਼ਾਕਾਹਾਰੀ ਹੋ ਤਾਂ ਪੁੱਛੋ: Do you have any vegetarian dishes?
+I'll have the steak. | ਆਈਲ ਹੈਵ਼ ਦ਼ ਸ੍ਟੇਕ | ਮੈਂ ਸਟੇਕ ਲਵਾਂਗਾ | ਆਰਡਰ ਦਾ ਪੱਕਾ ਢਾਂਚਾ: I'll have + ਚੀਜ਼। steak ਮਾਸ ਦਾ ਭੁੰਨਿਆ ਟੁਕੜਾ ਹੁੰਦਾ ਹੈ; ਸ਼ਾਕਾਹਾਰੀ ਕਹਿ ਸਕਦੇ ਹਨ: I'll have the veggie burger।
+Can I get a Coke? | ਕਨ ਆਈ ਗੇਟ ਅ ਕੋਕ | ਇੱਕ ਕੋਕ ਮਿਲੇਗੀ? | Give me one Coke ਹੁਕਮ ਵਰਗਾ ਲੱਗਦਾ ਹੈ; Can I get…? ਨਿਮਰ ਹੈ। ਤੇ ਇੱਥੇ one ਨਹੀਂ, ਆਰਟੀਕਲ a।
+Medium rare, please. | ˈਮੀਡੀਅਮ ਰੇਰ ਪ੍ਲੀਜ਼ | ਮੀਡੀਅਮ ਰੇਅਰ ਕਰ ਦਿਓ (ਵਿਚਕਾਰੋਂ ਥੋੜ੍ਹਾ ਕੱਚਾ) | How would you like your steak? ਦਾ ਜਵਾਬ: rare (ਘੱਟ ਪੱਕਿਆ), medium, well done (ਪੂਰਾ ਪੱਕਿਆ)।
+No onions, please. | ਨੋ ˈਅਨ੍ਯਨ੍ਜ਼ ਪ੍ਲੀਜ਼ | ਪਿਆਜ਼ ਨਾ ਪਾਉਣਾ | ਇਹੀ ਢਾਂਚਾ ਹੋਰ ਚੀਜ਼ਾਂ ਲਈ: No egg, please / No meat, please। ਪੰਜਾਬੀ ਵਿੱਚ "ਪਿਆਜ਼" ਇੱਕਵਚਨ ਚੱਲਦਾ ਹੈ, ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਬਹੁਵਚਨ onions।
+I'm allergic to peanuts. | ਆਈਮ ਅˈਲਰ੍ਜਿਕ ਟ ˈਪੀਨਟ੍ਸ | ਮੈਨੂੰ ਮੂੰਗਫਲੀ ਤੋਂ ਐਲਰਜੀ ਹੈ | "… ਤੋਂ ਐਲਰਜੀ" = allergic to; from ਨਹੀਂ। allergic ਵਿੱਚ ਜ਼ੋਰ ਵਿਚਕਾਰਲੇ ਹਿੱਸੇ ਤੇ ਹੈ, ਨਾਂਵ allergy ਵਿੱਚ ਪਹਿਲੇ ਤੇ।
+Is it spicy? | ਇਜ਼ ਇਟ ˈਸ੍ਪਾਈਸੀ | ਕੀ ਇਹ ਤਿੱਖਾ (ਮਿਰਚਾਂ ਵਾਲਾ) ਹੈ? | ਅਮਰੀਕਾ ਦਾ spicy ਪੰਜਾਬੀ ਜੀਭ ਨੂੰ ਅਕਸਰ ਫਿੱਕਾ ਲੱਗਦਾ ਹੈ। ਹੋਰ ਤਿੱਖਾ ਚਾਹੀਦਾ ਹੋਵੇ ਤਾਂ: Can you make it extra spicy?
+Could we get some water? | ਕਡ ਵੀ ਗੇਟ ਸਮ ˈਵੌਟਰ | ਸਾਨੂੰ ਥੋੜ੍ਹਾ ਪਾਣੀ ਮਿਲ ਸਕਦਾ ਹੈ? | water ਨਾ-ਗਿਣਨਯੋਗ ਹੈ: a water ਨਹੀਂ, some water। ਅਮਰੀਕਾ ਦੇ ਰੈਸਟੋਰੈਂਟਾਂ ਵਿੱਚ ਟੂਟੀ ਦਾ ਪਾਣੀ ਆਮ ਤੌਰ ਤੇ ਮੁਫ਼ਤ ਮਿਲਦਾ ਹੈ।
+Everything was great. | ˈਏਵ਼੍ਰੀਥ਼ਿਙ ਵਜ਼ ਗ੍ਰੇਟ | ਸਭ ਕੁਝ ਬਹੁਤ ਸੁਆਦ ਸੀ | ਸਟਾਫ਼ How was everything? ਪੁੱਛੇ ਤਾਂ ਇਹ ਜਵਾਬ ਦਿਓ। everything ਨਾਲ was ਲੱਗਦਾ ਹੈ, were ਨਹੀਂ।
+Can we get the check, please? | ਕਨ ਵੀ ਗੇਟ ਦ਼ ਚੇਕ ਪ੍ਲੀਜ਼ | ਬਿੱਲ ਲੈ ਆਓਗੇ? | ਅਮਰੀਕਾ ਵਿੱਚ check; ਬ੍ਰਿਟੇਨ ਤੇ ਭਾਰਤ ਵਿੱਚ bill।
+Can we split the bill? | ਕਨ ਵੀ ਸ੍ਪ੍ਲਿਟ ਦ਼ ਬਿਲ | ਕੀ ਅਸੀਂ ਬਿੱਲ ਵੰਡ ਸਕਦੇ ਹਾਂ? | ਵਿਦੇਸ਼ ਵਿੱਚ ਦੋਸਤਾਂ ਵਿਚਕਾਰ ਆਪੋ-ਆਪਣਾ ਹਿੱਸਾ ਦੇਣਾ ਆਮ ਗੱਲ ਹੈ। ਇਹ ਵੀ ਕਹਿੰਦੇ ਹਨ: separate checks।
+It's on me. | ਇਟ੍ਸ ਆਨ ਮੀ | ਪੈਸੇ ਮੈਂ ਦਿਆਂਗਾ | My treat! ਦਾ ਵੀ ਇਹੀ ਮਤਲਬ ਹੈ। ਬਿੱਲ ਲਈ ਖਿੱਚ-ਧੂਹ ਉੱਥੇ ਨਹੀਂ ਹੁੰਦੀ; ਇੱਕ ਵਾਰ ਕਹਿਣਾ ਕਾਫ਼ੀ ਹੈ।
+Can I get this to go? | ਕਨ ਆਈ ਗੇਟ ਦ਼ਿਸ ਟ ਗੋ | ਇਹ ਪੈਕ ਕਰ ਦਿਓਗੇ? | ਭਾਰਤ ਵਿੱਚ parcel ਜਾਂ pack ਕਹਿੰਦੇ ਹਨ; ਅਮਰੀਕਾ ਵਿੱਚ to go, ਬ੍ਰਿਟੇਨ ਵਿੱਚ takeaway। ਬਚਿਆ ਖਾਣਾ ਲਿਜਾਣ ਲਈ: Can I get a box?
+Is the tip included? | ਇਜ਼ ਦ਼ ਟਿਪ ਇਨ੍ˈਕ੍ਲੂਡਿਡ | ਕੀ ਟਿੱਪ ਬਿੱਲ ਵਿੱਚ ਜੁੜੀ ਹੋਈ ਹੈ? | ਅਮਰੀਕਾ ਦੇ ਰੈਸਟੋਰੈਂਟਾਂ ਵਿੱਚ ਬਿੱਲ ਤੋਂ ਵੱਖਰੀ 15–20% ਟਿੱਪ ਦੇਣ ਦਾ ਰਿਵਾਜ ਹੈ।
 `,
-"카페·편의점": `
-Can I get an iced Americano? | 캔 아이 게런 아이스트 아메리카노? | 아이스 아메리카노 주세요 | iced의 -d는 거의 안 들려요. 음료 주문은 Can I get ~?이 가장 흔해요
-What size would you like? | 왓 싸이즈 우쥬 라익? | 사이즈는 어떤 걸로 하시겠어요? | 직원이 묻는 말. would you는 "우쥬"
-Small, please. | 스몰, 플리즈 | 작은 걸로 주세요 | 스타벅스는 tall·grande·venti라고 말해요
-For here or to go? | 포 히어 오어 투 고? | 드시고 가세요, 가져가세요? | 영국식: "Eat in or take away?"
-Can I get oat milk instead? | 캔 아이 겟 오트 밀크 인스테드? | 귀리 우유로 바꿔 주실래요? | instead = 대신에. 추가 요금이 붙을 수 있어요
-Less ice, please. | 레스 아이스, 플리즈 | 얼음 적게 주세요 | 얼음 빼고: "No ice, please."
-Decaf, please. | 디캐프, 플리즈 | 디카페인으로 주세요 | decaffeinated의 줄임말이에요
-Can I get a name for the order? | 캔 아이 게러 네임 포 디 오더? | 주문하시는 분 성함이요? | 직원이 컵에 이름을 적으려고 물어요. 쉬운 영어 이름을 하나 정해 두면 편해요
-Do you need a bag? | 두 유 니더 백? | 봉투 필요하세요? | 필요 없으면 "No, I'm good."
-Can I get a receipt? | 캔 아이 게러 리씻? | 영수증 주세요 | receipt의 p는 소리 내지 않아요: 리씻
-Where can I find batteries? | 웨어 캔 아이 파인드 배러리즈? | 건전지 어디 있어요? | 물건 위치를 물을 때 만능 문장
-Do you sell phone chargers? | 두 유 쎌 폰 차저즈? | 휴대폰 충전기 팔아요? | "Do you have ~?"도 같은 뜻
-Can you heat this up? | 캔 유 히리썹? | 이거 데워 주실 수 있어요? | heat this up이 "히리썹"처럼 이어져요
-That's it. | 댓츠 잇 | 그게 다예요 | 직원이 "Anything else?"라고 물을 때
-Here you go. | 히어 유 고 | 여기요 | 돈이나 물건을 건넬 때 써요
-Keep the change. | 킵 더 체인지 | 잔돈은 가지세요 | 택시·배달에서 팁 대신 자주 써요
+"ਕੈਫ਼ੇ ਤੇ ਦੁਕਾਨ": `
+Can I get an iced Americano? | ਕਨ ਆਈ ਗੇਟ ਅਨ ਆਈਸ੍ਟ ਅਮੇਰਿˈਕਾਨੋ | ਇੱਕ ਆਈਸਡ ਅਮੈਰੀਕਾਨੋ ਮਿਲੇਗੀ? | ਸਵਰ ਦੀ ਆਵਾਜ਼ ਤੋਂ ਪਹਿਲਾਂ an: an iced…। ਭਾਰਤ ਦੀ cold coffee ਵਿੱਚ ਦੁੱਧ ਤੇ ਖੰਡ ਹੁੰਦੀ ਹੈ; iced Americano ਬਰਫ਼ ਵਾਲੀ ਕਾਲੀ ਕੌਫ਼ੀ ਹੈ।
+What size would you like? | ਵਟ ਸਾਈਜ਼ ਵਡ ਯੂ ਲਾਈਕ | ਕਿਹੜਾ ਸਾਈਜ਼ ਲਓਗੇ? | ਸਟਾਫ਼ ਪੁੱਛਦਾ ਹੈ। would you like = do you want ਦਾ ਨਿਮਰ ਰੂਪ।
+Small, please. | ਸ੍ਮੌਲ ਪ੍ਲੀਜ਼ | ਛੋਟਾ ਦੇ ਦਿਓ | ਸਾਈਜ਼: small, medium, large। ਕੁਝ ਕੈਫ਼ੇ ਆਪਣੇ ਨਾਂ ਵਰਤਦੇ ਹਨ, ਜਿਵੇਂ tall, grande, venti।
+For here or to go? | ਫ਼ਰ ਹਿਰ ਅਰ ਟ ਗੋ | ਇੱਥੇ ਬੈਠ ਕੇ ਖਾਓਗੇ ਜਾਂ ਲੈ ਕੇ ਜਾਓਗੇ? | ਬ੍ਰਿਟੇਨ ਵਿੱਚ: Eat in or take away? ਜਵਾਬ: For here, please ਜਾਂ To go, please।
+Can I get oat milk instead? | ਕਨ ਆਈ ਗੇਟ ਓਟ ਮਿਲ੍ਕ ਇਨ੍ˈਸ੍ਟੇਡ | ਇਸ ਵਿੱਚ ਓਟ ਮਿਲਕ ਪਾ ਦਿਓਗੇ? | instead = ਉਸ ਦੀ ਥਾਂ। oat milk ਜਵੀ ਤੋਂ ਬਣਿਆ ਦੁੱਧ ਹੈ; ਇਸ ਦੇ ਵੱਖਰੇ ਪੈਸੇ ਲੱਗ ਸਕਦੇ ਹਨ।
+Less ice, please. | ਲੇਸ ਆਈਸ ਪ੍ਲੀਜ਼ | ਬਰਫ਼ ਘੱਟ ਪਾਉਣਾ | ਬਰਫ਼ ਬਿਲਕੁਲ ਨਹੀਂ ਚਾਹੀਦੀ ਤਾਂ: No ice, please। ice ਨਾ-ਗਿਣਨਯੋਗ ਹੈ, ਇਸ ਲਈ less; ਗਿਣਨਯੋਗ ਨਾਂਵ ਨਾਲ fewer।
+Decaf, please. | ˈਡੀਕੈਫ਼ ਪ੍ਲੀਜ਼ | ਕੈਫ਼ੀਨ ਤੋਂ ਬਿਨਾਂ ਵਾਲੀ ਦੇ ਦਿਓ | decaffeinated ਦਾ ਛੋਟਾ ਰੂਪ: ਉਹ ਕੌਫ਼ੀ ਜਿਸ ਵਿੱਚੋਂ ਕੈਫ਼ੀਨ ਕੱਢੀ ਹੋਈ ਹੈ।
+Can I get a name for the order? | ਕਨ ਆਈ ਗੇਟ ਅ ਨੇਮ ਫ਼ਰ ਦ਼ੀ ˈਔਰ੍ਡਰ | ਆਰਡਰ ਕਿਸ ਨਾਂ ਤੇ ਲਿਖਾਂ? | ਸਟਾਫ਼ ਕੱਪ ਤੇ ਨਾਂ ਲਿਖਣ ਲਈ ਪੁੱਛਦਾ ਹੈ। ਆਪਣੇ ਨਾਂ ਦੇ ਅੱਖਰ ਬੋਲ ਕੇ ਦੱਸਣੇ ਸਿੱਖ ਲਓ: S-I-M-R-A-N।
+Do you need a bag? | ਡ ਯੂ ਨੀਡ ਅ ਬੈਗ | ਲਿਫ਼ਾਫ਼ਾ ਚਾਹੀਦਾ ਹੈ? | ਨਾ ਚਾਹੀਦਾ ਹੋਵੇ ਤਾਂ: No, I'm good। ਕਈ ਥਾਂ ਲਿਫ਼ਾਫ਼ੇ ਦੇ ਵੱਖਰੇ ਪੈਸੇ ਲੱਗਦੇ ਹਨ।
+Can I get a receipt? | ਕਨ ਆਈ ਗੇਟ ਅ ਰਿˈਸੀਟ | ਰਸੀਦ ਮਿਲੇਗੀ? | receipt ਵਿੱਚ p ਨਹੀਂ ਬੋਲਦਾ। ਪੈਸੇ ਦੇਣ ਮਗਰੋਂ ਮਿਲੀ ਪਰਚੀ receipt ਹੈ; bill ਉਹ ਹੈ ਜੋ ਪੈਸੇ ਦੇਣ ਤੋਂ ਪਹਿਲਾਂ ਆਉਂਦਾ ਹੈ।
+Where can I find batteries? | ਵੇਰ ਕਨ ਆਈ ਫ਼ਾਈਂਡ ˈਬੈਟਰੀਜ਼ | ਸੈੱਲ ਕਿੱਥੇ ਪਏ ਹਨ? | ਦੁਕਾਨ ਵਿੱਚ ਕੋਈ ਵੀ ਚੀਜ਼ ਲੱਭਣ ਲਈ ਇਹੀ ਵਾਕ। ਭਾਰਤ ਵਿੱਚ cell ਕਹਿੰਦੇ ਹਨ, ਉੱਥੇ batteries — ਬਹੁਵਚਨ ਵਿੱਚ।
+Do you sell phone chargers? | ਡ ਯੂ ਸੇਲ ਫ਼ੋਨ ˈਚਾਰ੍ਜਰ੍ਜ਼ | ਕੀ ਤੁਸੀਂ ਫ਼ੋਨ ਦੇ ਚਾਰਜਰ ਰੱਖਦੇ ਹੋ? | Do you have…? ਦਾ ਵੀ ਇਹੀ ਮਤਲਬ ਹੈ। ਆਮ ਗੱਲ ਪੁੱਛਣ ਵੇਲੇ ਬਹੁਵਚਨ: chargers।
+Can you heat this up? | ਕਨ ਯੂ ਹੀਟ ਦ਼ਿਸ ਅਪ | ਇਹ ਗਰਮ ਕਰ ਦਿਓਗੇ? | heat up = ਗਰਮ ਕਰਨਾ। this ਜਾਂ it ਵਿਚਕਾਰ ਆਉਂਦਾ ਹੈ: heat it up।
+That's it. | ਦ਼ੈਟ੍ਸ ਇਟ | ਬੱਸ, ਇੰਨਾ ਹੀ | ਜਦੋਂ ਸਟਾਫ਼ Anything else? ਪੁੱਛੇ।
+Here you go. | ਹਿਰ ਯੂ ਗੋ | ਆਹ ਲਓ | ਪੈਸੇ ਜਾਂ ਚੀਜ਼ ਫੜਾਉਣ ਵੇਲੇ। ਇਕੱਲਾ Take ਜਾਂ Take it ਰੁੱਖਾ ਲੱਗਦਾ ਹੈ।
+Keep the change. | ਕੀਪ ਦ਼ ਚੇਂਜ | ਬਾਕੀ ਪੈਸੇ ਰੱਖ ਲਓ | ਟੈਕਸੀ ਜਾਂ ਡਿਲਿਵਰੀ ਵਾਲੇ ਨੂੰ ਟਿੱਪ ਵਜੋਂ। change = ਬਕਾਇਆ, ਖੁੱਲ੍ਹੇ ਪੈਸੇ।
 `,
-"쇼핑·계산": `
-I'm just looking, thanks. | 아임 저스트 루킹, 땡스 | 그냥 구경하는 거예요 | 직원이 "Can I help you find anything?" 할 때
-Do you have this in a medium? | 두 유 해브 디스 인 어 미디엄? | 이거 M 사이즈 있어요? | 사이즈는 small / medium / large
-Do you have it in black? | 두 유 해빗 인 블랙? | 검은색 있어요? | 색깔 앞엔 in
-Can I try this on? | 캔 아이 트라이 디스 온? | 입어 봐도 돼요? | try on = (옷·신발을) 입어 보다·신어 보다
-Where's the fitting room? | 웨어즈 더 피팅 룸? | 탈의실 어디예요? | 영국: changing room
-It's too big. | 잇츠 투 빅 | 너무 커요 | 작으면 "It's too small."
-It's a bit tight. | 잇츠 어 빗 타잇 | 조금 껴요 | 헐렁하면 "It's a bit loose."
-Is this on sale? | 이즈 디스 온 쎄일? | 이거 세일해요? | on sale = 할인 중. for sale = 판매 중. 헷갈리기 쉬워요!
-Can you give me a discount? | 캔 유 깁 미 어 디스카운트? | 좀 깎아 주실 수 있어요? | 미국 일반 매장에선 흥정을 거의 안 해요. 시장·중고 거래에서만
-I'll take it. | 아일 테이킷 | 이걸로 할게요 | 살 물건을 정했을 때. 두 개 이상이면 "I'll take them."
-Cash or card? | 캐시 오어 카드? | 현금이요, 카드요? | 계산대에서 꼭 듣는 질문
-Do you take Apple Pay? | 두 유 테익 애플 페이? | 애플페이 돼요? | take = (결제 수단을) 받다
-Can I get a refund? | 캔 아이 게러 리펀드? | 환불돼요? | 영수증을 꼭 챙기세요
-I'd like to exchange this. | 아이드 라익 투 익스체인지 디스 | 이거 교환하고 싶어요 | 이유도 덧붙여요: "It's the wrong size."
-Can you gift wrap it? | 캔 유 기프트 랩 잇? | 선물 포장해 주실 수 있어요? | wrap의 w만 소리 나요: 랩
-Does that include tax? | 더즈 댓 인클루드 택스? | 세금 포함인가요? | 미국은 가격표에 세금이 빠져 있어서 계산할 때 더 나와요
+"ਖ਼ਰੀਦਦਾਰੀ ਤੇ ਭੁਗਤਾਨ": `
+I'm just looking, thanks. | ਆਈਮ ਜਸ੍ਟ ˈਲੁਕਿਙ ਥ਼ੈਂਕ੍ਸ | ਮੈਂ ਬੱਸ ਦੇਖ ਰਹੀ ਹਾਂ, ਸ਼ੁਕਰੀਆ | ਜਦੋਂ ਸਟਾਫ਼ Can I help you find anything? ਪੁੱਛੇ।
+Do you have this in a medium? | ਡ ਯੂ ਹੈਵ਼ ਦ਼ਿਸ ਇਨ ਅ ˈਮੀਡੀਅਮ | ਕੀ ਇਹ ਮੀਡੀਅਮ ਸਾਈਜ਼ ਵਿੱਚ ਹੈ? | ਸਾਈਜ਼: small, medium, large। ਇੱਥੇ medium ਨਾਂਵ ਵਾਂਗ ਵਰਤਿਆ ਹੈ, ਇਸ ਲਈ ਆਰਟੀਕਲ a।
+Do you have it in black? | ਡ ਯੂ ਹੈਵ਼ ਇਟ ਇਨ ਬ੍ਲੈਕ | ਕੀ ਇਹ ਕਾਲੇ ਰੰਗ ਵਿੱਚ ਹੈ? | ਰੰਗ ਤੋਂ ਪਹਿਲਾਂ in, ਤੇ ਕੋਈ ਆਰਟੀਕਲ ਨਹੀਂ: in black।
+Can I try this on? | ਕਨ ਆਈ ਟ੍ਰਾਈ ਦ਼ਿਸ ਆਨ | ਕੀ ਮੈਂ ਇਹ ਪਾ ਕੇ ਦੇਖ ਸਕਦੀ ਹਾਂ? | try on = (ਕੱਪੜੇ, ਜੁੱਤੀ) ਪਾ ਕੇ ਦੇਖਣਾ। ਭਾਰਤ ਵਿੱਚ ਚੱਲਦਾ trial ਉੱਥੇ ਇਸ ਅਰਥ ਵਿੱਚ ਨਹੀਂ ਕਹਿੰਦੇ।
+Where's the fitting room? | ਵੇਰ੍ਜ਼ ਦ਼ ˈਫ਼ਿਟਿਙ ਰੂਮ | ਟਰਾਇਲ ਰੂਮ ਕਿੱਥੇ ਹੈ? | ਭਾਰਤ ਵਿੱਚ trial room ਕਹਿੰਦੇ ਹਨ; ਅਮਰੀਕਾ ਵਿੱਚ fitting room, ਬ੍ਰਿਟੇਨ ਵਿੱਚ changing room।
+It's too big. | ਇਟ੍ਸ ਟੂ ਬਿਗ | ਇਹ ਲੋੜ ਤੋਂ ਵੱਡਾ ਹੈ | too = ਲੋੜ ਤੋਂ ਵੱਧ (ਗੱਲ ਮਾੜੀ ਹੈ); very = ਬਹੁਤ। ਛੋਟਾ ਹੋਵੇ ਤਾਂ: It's too small।
+It's a bit tight. | ਇਟ੍ਸ ਅ ਬਿਟ ਟਾਈਟ | ਇਹ ਥੋੜ੍ਹਾ ਤੰਗ ਹੈ | ਖੁੱਲ੍ਹਾ ਹੋਵੇ ਤਾਂ: It's a bit loose।
+Is this on sale? | ਇਜ਼ ਦ਼ਿਸ ਆਨ ਸੇਲ | ਕੀ ਇਸ ਤੇ ਛੋਟ ਲੱਗੀ ਹੈ? | on sale = ਘਟੇ ਮੁੱਲ ਤੇ; for sale = ਵਿਕਾਊ। ਦੋਵਾਂ ਨੂੰ ਨਾ ਰਲਾਓ।
+Can you give me a discount? | ਕਨ ਯੂ ਗਿਵ਼ ਮੀ ਅ ˈਡਿਸ੍ਕਾਊਂਟ | ਕੁਝ ਘੱਟ ਕਰ ਦਿਓਗੇ? | ਅਮਰੀਕਾ ਦੀਆਂ ਆਮ ਦੁਕਾਨਾਂ ਵਿੱਚ ਮੁੱਲ ਪੱਕਾ ਹੁੰਦਾ ਹੈ, ਭਾਅ ਨਹੀਂ ਕਰਦੇ; ਸਿਰਫ਼ ਮੰਡੀਆਂ ਤੇ ਪੁਰਾਣੇ ਸਮਾਨ ਦੇ ਸੌਦੇ ਵਿੱਚ। discount ਗਿਣਨਯੋਗ ਹੈ: a discount।
+I'll take it. | ਆਈਲ ਟੇਕ ਇਟ | ਮੈਂ ਇਹ ਲੈ ਲਵਾਂਗੀ | ਚੀਜ਼ ਪਸੰਦ ਕਰ ਲੈਣ ਤੇ। ਦੋ ਜਾਂ ਵੱਧ ਚੀਜ਼ਾਂ ਹੋਣ ਤਾਂ: I'll take them।
+Cash or card? | ਕੈਸ਼ ਅਰ ਕਾਰ੍ਡ | ਕੈਸ਼ ਜਾਂ ਕਾਰਡ? | ਕਾਊਂਟਰ ਤੇ ਜ਼ਰੂਰ ਸੁਣੋਗੇ। ਜਵਾਬ: Card, please।
+Do you take Apple Pay? | ਡ ਯੂ ਟੇਕ ˈਐਪਲ ਪੇ | ਕੀ ਤੁਸੀਂ ਐਪਲ ਪੇ ਲੈਂਦੇ ਹੋ? | take = (ਭੁਗਤਾਨ ਦਾ ਤਰੀਕਾ) ਮੰਨਣਾ। ਇਹੀ ਢਾਂਚਾ: Do you take cards?
+Can I get a refund? | ਕਨ ਆਈ ਗੇਟ ਅ ˈਰੀਫ਼ੰਡ | ਕੀ ਮੈਨੂੰ ਪੈਸੇ ਵਾਪਸ ਮਿਲ ਸਕਦੇ ਹਨ? | ਰਸੀਦ ਸਾਂਭ ਕੇ ਰੱਖੋ। ਵਿਦੇਸ਼ ਵਿੱਚ ਚੀਜ਼ ਮੋੜ ਕੇ ਪੈਸੇ ਵਾਪਸ ਲੈਣਾ ਆਮ ਗੱਲ ਹੈ।
+I'd like to exchange this. | ਆਈਡ ਲਾਈਕ ਟੂ ਇਕ੍ਸ੍ˈਚੇਂਜ ਦ਼ਿਸ | ਮੈਂ ਇਹ ਬਦਲਵਾਉਣਾ ਚਾਹੁੰਦੀ ਹਾਂ | ਕਾਰਨ ਵੀ ਦੱਸੋ: It's the wrong size। I'd like = I want ਦਾ ਨਿਮਰ ਰੂਪ।
+Can you gift wrap it? | ਕਨ ਯੂ ਗਿਫ਼੍ਟ ਰੈਪ ਇਟ | ਇਸ ਨੂੰ ਤੋਹਫ਼ੇ ਵਾਂਗ ਪੈਕ ਕਰ ਦਿਓਗੇ? | wrap ਵਿੱਚ w ਨਹੀਂ ਬੋਲਦਾ; ਸ਼ਬਦ r ਤੋਂ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ।
+Does that include tax? | ਡਜ਼ ਦ਼ੈਟ ਇਨ੍ˈਕ੍ਲੂਡ ਟੈਕ੍ਸ | ਕੀ ਇਸ ਵਿੱਚ ਟੈਕਸ ਸ਼ਾਮਲ ਹੈ? | ਭਾਰਤ ਵਿੱਚ MRP ਵਿੱਚ ਟੈਕਸ ਜੁੜਿਆ ਹੁੰਦਾ ਹੈ; ਅਮਰੀਕਾ ਤੇ ਕੈਨੇਡਾ ਵਿੱਚ ਪਰਚੀ ਤੇ ਲਿਖੇ ਮੁੱਲ ਵਿੱਚ ਨਹੀਂ ਹੁੰਦਾ, ਕਾਊਂਟਰ ਤੇ ਜੁੜਦਾ ਹੈ।
 `,
-"숫자·시간·날짜": `
-What time is it? | 왓 타임 이즈 잇? | 지금 몇 시예요? | 모르는 사람에게는 "Excuse me, do you have the time?"
-It's three thirty. | 잇츠 쓰리 써리 | 3시 반이에요 | "half past three"(영국식)도 같은 뜻
-It's a quarter to five. | 잇츠 어 쿼러 투 파이브 | 5시 15분 전이에요 | quarter = 15분. "four forty-five"라고 해도 돼요
-At noon | 앳 눈 | 정오에 / 낮 12시에 | 자정은 midnight. 12 a.m./p.m.보다 헷갈리지 않아요
-What's the date today? | 왓츠 더 데잇 투데이? | 오늘 며칠이에요? | 요일은 "What day is it today?"
-It's May 3rd. | 잇츠 메이 써드 | 5월 3일이에요 | 날짜는 서수로 읽어요: first, second, third, fourth…
-My birthday is in October. | 마이 버스데이 이즈 인 악토버 | 제 생일은 10월이에요 | 월 앞에는 in, 날짜 앞에는 on: on October 5th
-On Monday | 온 먼데이 | 월요일에 | 요일 앞에는 on. 매주라면 on Mondays
-Next weekend | 넥스트 위켄드 | 다음 주말 | next·last·this 앞에는 전치사를 쓰지 않아요
-The day after tomorrow | 더 데이 애프터 터마로우 | 모레 | 그저께는 the day before yesterday
-Thirteen or thirty? | 써틴 오어 써리? | 13이에요, 30이에요? | 13은 뒤(-teen)를 길게, 30은 앞을 세게. 가격 들을 때 꼭 확인해요
-Fifteen dollars | 피프틴 달러즈 | 15달러 | $15.50은 "fifteen fifty"라고 읽어요
-Two hundred and fifty | 투 헌드레드 앤 피프티 | 이백오십 (250) | 미국에선 and를 자주 생략해요: two hundred fifty
-Ten thousand | 텐 싸우전드 | 만 (10,000) | 영어에는 '만' 단위가 없어요! 세 자리씩 끊어서 10 thousand
-One million | 원 밀리언 | 백만 (1,000,000) | 천만 = ten million, 1억 = one hundred million
-Twice a week | 트와이스 어 윅 | 일주일에 두 번 | once(한 번), twice(두 번), three times(세 번)
-In ten minutes | 인 텐 미닛츠 | 10분 후에 | 미래 시간 앞의 in = ~ 후에. "10분 안에"가 아니에요
+"ਗਿਣਤੀ, ਸਮਾਂ ਤੇ ਤਾਰੀਖ਼": `
+What time is it? | ਵਟ ਟਾਈਮ ਇਜ਼ ਇਟ | ਕਿੰਨੇ ਵਜੇ ਹਨ? | ਭਾਰਤ ਵਾਲਾ What is the time? ਵੀ ਠੀਕ ਹੈ; ਅਮਰੀਕਾ ਵਿੱਚ What time is it? ਜ਼ਿਆਦਾ ਆਮ ਹੈ। ਅਣਜਾਣ ਨੂੰ: Excuse me, do you have the time?
+It's three thirty. | ਇਟ੍ਸ ਥ਼੍ਰੀ ˈਥ਼ਰ੍ਟੀ | ਸਾਢੇ ਤਿੰਨ ਵੱਜੇ ਹਨ | "ਸਾਢੇ ਤਿੰਨ" = three thirty ਜਾਂ half past three। ਡੇਢ = one thirty, ਢਾਈ = two thirty। ਸਮਾਂ ਦੱਸਣ ਵੇਲੇ ਕਰਤਾ It ਜ਼ਰੂਰੀ ਹੈ।
+It's a quarter to five. | ਇਟ੍ਸ ਅ ˈਕ੍ਵੌਰ੍ਟਰ ਟ ਫ਼ਾਈਵ਼ | ਪੌਣੇ ਪੰਜ ਵੱਜੇ ਹਨ | ਪੌਣੇ = a quarter to; ਸਵਾ = a quarter past। four forty-five ਵੀ ਕਹਿ ਸਕਦੇ ਹੋ।
+At noon | ਅਟ ਨੂਨ | ਦੁਪਹਿਰ 12 ਵਜੇ | ਰਾਤ ਦੇ 12 ਵਜੇ = at midnight। 12 a.m. ਤੇ 12 p.m. ਨਾਲੋਂ ਇਹ ਸਾਫ਼ ਹੈ। noon ਤੋਂ ਪਹਿਲਾਂ ਕੋਈ ਆਰਟੀਕਲ ਨਹੀਂ ਲੱਗਦਾ।
+What's the date today? | ਵਟ੍ਸ ਦ਼ ਡੇਟ ਟˈਡੇ | ਅੱਜ ਕੀ ਤਾਰੀਖ਼ ਹੈ? | ਦਿਨ ਪੁੱਛਣ ਲਈ: What day is it today?
+It's May 3rd. | ਇਟ੍ਸ ਮੇ ਥ਼ਰ੍ਡ | ਅੱਜ 3 ਮਈ ਹੈ | ਅਮਰੀਕਾ ਵਿੱਚ ਮਹੀਨਾ ਪਹਿਲਾਂ ਲਿਖਦੇ ਹਨ: 5/3 = 3 ਮਈ, ਜਦਕਿ ਭਾਰਤ ਵਿੱਚ 3/5। ਤਾਰੀਖ਼ first, second, third ਵਾਂਗ ਪੜ੍ਹਦੇ ਹਨ।
+My birthday is in October. | ਮਾਈ ˈਬਰ੍ਥ਼੍ਡੇ ਇਜ਼ ਇਨ ਆਕ੍ˈਟੋਬਰ | ਮੇਰਾ ਜਨਮ-ਦਿਨ ਅਕਤੂਬਰ ਵਿੱਚ ਹੈ | ਮਹੀਨੇ ਤੋਂ ਪਹਿਲਾਂ in, ਤਾਰੀਖ਼ ਤੋਂ ਪਹਿਲਾਂ on: on October 5th।
+On Monday | ਆਨ ˈਮੰਡੇ | ਸੋਮਵਾਰ ਨੂੰ | ਪੰਜਾਬੀ ਦਾ "ਨੂੰ" ਦਿਨ ਨਾਲ on ਬਣਦਾ ਹੈ, ਤੇ ਨਾਂਵ ਤੋਂ ਪਹਿਲਾਂ ਲੱਗਦਾ ਹੈ। ਹਰ ਸੋਮਵਾਰ: on Mondays।
+Next weekend | ਨੇਕ੍ਸ੍ਟ ˈਵੀਕੇਂਡ | ਅਗਲੇ ਸ਼ਨੀ-ਐਤਵਾਰ | next, last, this ਤੋਂ ਪਹਿਲਾਂ ਕੋਈ preposition ਨਹੀਂ ਲੱਗਦਾ: on next Monday ✗।
+The day after tomorrow | ਦ਼ ਡੇ ਐਫ਼੍ਟਰ ਟˈਮਾਰੋ | ਪਰਸੋਂ (ਆਉਣ ਵਾਲਾ) | ਬੀਤਿਆ ਪਰਸੋਂ: the day before yesterday। ਪੰਜਾਬੀ ਵਿੱਚ "ਕੱਲ੍ਹ" ਤੇ "ਪਰਸੋਂ" ਦੋਵੇਂ ਪਾਸੇ ਚੱਲਦੇ ਹਨ; ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਸ਼ਬਦ ਵੱਖਰੇ ਹਨ।
+Thirteen or thirty? | ਥ਼ਰ੍ˈਟੀਨ ਅਰ ˈਥ਼ਰ੍ਟੀ | ਤੇਰਾਂ ਜਾਂ ਤੀਹ? | 13 ਵਿੱਚ ਜ਼ੋਰ ਪਿਛਲੇ ਹਿੱਸੇ (-teen) ਤੇ, 30 ਵਿੱਚ ਪਹਿਲੇ ਹਿੱਸੇ ਤੇ। ਮੁੱਲ ਸੁਣਨ ਵੇਲੇ ਪੁੱਛ ਕੇ ਪੱਕਾ ਕਰ ਲਓ।
+Fifteen dollars | ਫ਼ਿਫ਼੍ˈਟੀਨ ˈਡਾਲਰ੍ਜ਼ | ਪੰਦਰਾਂ ਡਾਲਰ | ਪੰਜਾਬੀ ਵਿੱਚ "ਪੰਦਰਾਂ ਡਾਲਰ", ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਬਹੁਵਚਨ: dollars, rupees। $15.50 ਨੂੰ fifteen fifty ਪੜ੍ਹਦੇ ਹਨ।
+Two hundred and fifty | ਟੂ ˈਹੰਡ੍ਰਡ ਅੰਡ ˈਫ਼ਿਫ਼੍ਟੀ | ਢਾਈ ਸੌ (250) | ਗਿਣਤੀ ਵਿੱਚ hundred ਨਾਲ -s ਨਹੀਂ ਲੱਗਦਾ: two hundred। ਅਮਰੀਕਾ ਵਿੱਚ and ਅਕਸਰ ਛੱਡ ਦਿੰਦੇ ਹਨ।
+Ten thousand | ਟੇਨ ˈਥ਼ਾਊਜ਼ੰਡ | ਦਸ ਹਜ਼ਾਰ (10,000) | ਹਜ਼ਾਰ ਤੋਂ ਅੱਗੇ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਲੱਖ ਨਹੀਂ ਹੁੰਦਾ: 1 ਲੱਖ = a hundred thousand (100,000)। ਕਾਮੇ ਤਿੰਨ-ਤਿੰਨ ਅੰਕਾਂ ਮਗਰੋਂ ਲੱਗਦੇ ਹਨ।
+One million | ਵਨ ˈਮਿਲ੍ਯਨ | ਦਸ ਲੱਖ (1,000,000) | 1 ਕਰੋੜ = ten million; 100 ਕਰੋੜ = one billion। lakh ਤੇ crore ਭਾਰਤ ਤੇ ਗੁਆਂਢੀ ਦੇਸ਼ਾਂ ਤੋਂ ਬਾਹਰ ਨਹੀਂ ਸਮਝੇ ਜਾਂਦੇ।
+Twice a week | ਟ੍ਵਾਈਸ ਅ ਵੀਕ | ਹਫ਼ਤੇ ਵਿੱਚ ਦੋ ਵਾਰ | once (ਇੱਕ ਵਾਰ), twice (ਦੋ ਵਾਰ), three times (ਤਿੰਨ ਵਾਰ)। "ਹਫ਼ਤੇ ਵਿੱਚ" ਇੱਥੇ a week ਹੈ; in ਨਹੀਂ ਲੱਗਦਾ।
+In ten minutes | ਇਨ ਟੇਨ ˈਮਿਨਿਟ੍ਸ | ਦਸ ਮਿੰਟਾਂ ਬਾਅਦ | ਆਉਣ ਵਾਲੇ ਸਮੇਂ ਲਈ in = "… ਬਾਅਦ"; after ten minutes ਇੱਥੇ ਨਹੀਂ ਕਹਿੰਦੇ। ten ਤੋਂ ਬਾਅਦ ਬਹੁਵਚਨ minutes।
 `,
-"스몰토크": `
-How was your weekend? | 하우 워즈 유어 위켄드? | 주말 어땠어요? | 월요일 단골 질문. 한두 문장으로 짧게 대답하고 되물어요
-It was pretty relaxing. | 잇 워즈 프리티 릴랙싱 | 꽤 여유로웠어요 | pretty = 꽤. "예쁜"이 아니에요
-Any plans for the weekend? | 애니 플랜즈 포 더 위켄드? | 주말에 계획 있어요? | 금요일 단골 질문. 계획 없으면 "Not really, just relaxing."
-Nice weather today, huh? | 나이스 웨더 투데이, 허? | 오늘 날씨 좋네요 | 날씨는 누구와도 할 수 있는 가장 안전한 화제예요
-It's freezing today. | 잇츠 프리징 투데이 | 오늘 엄청 춥네요 | 더울 땐 "It's boiling!" 또는 "It's so hot!"
-How long have you lived here? | 하우 롱 해뷰 리브드 히어? | 여기 산 지 얼마나 됐어요? | 대답: "About three years."
-Have you been to Korea? | 해뷰 빈 투 코리아? | 한국 가 본 적 있어요? | 경험을 물을 땐 have been to
-What do you do for fun? | 왓 두 유 두 포 펀? | 쉴 때 주로 뭐 해요? | "What's your hobby?"보다 훨씬 자연스러운 취미 질문이에요
-Have you seen any good shows lately? | 해뷰 씬 애니 굿 쇼즈 레잇리? | 요즘 재밌는 거 봤어요? | show = 드라마·예능 같은 TV 프로그램
-That sounds fun. | 댓 싸운즈 펀 | 재밌겠다 | 상대 이야기에 반응할 때. "That sounds great!"도 좋아요
-Same here. | 쎄임 히어 | 저도 그래요 | 캐주얼하게 그냥 "Same!"
-Me neither. | 미 니더 | 저도 안 그래요 | 부정문에 맞장구칠 때. "I don't like it." → "Me neither." (Me too 아님!)
-I know, right? | 아이 노우, 롸잇? | 그러니까요! / 내 말이! | 강하게 동의할 때 쓰는 캐주얼한 표현
-Oh, really? | 오, 륄리? | 아, 정말요? | 관심을 보여 주는 맞장구. 끝을 올려요
-By the way | 바이 더 웨이 | 그런데 / 그나저나 | 화제를 바꿀 때. 문자로는 BTW
-How's work? | 하우즈 워크? | 일은 어때요? | 아는 사이의 안부 질문. "Busy, but good!"처럼 대답해요
-It was nice talking to you. | 잇 워즈 나이스 토킹 투 유 | 이야기 즐거웠어요 | 대화를 자연스럽게 끝낼 때 써요
+"ਹਲਕੀ-ਫੁਲਕੀ ਗੱਲਬਾਤ": `
+How was your weekend? | ਹਾਊ ਵਜ਼ ਯੁਰ ˈਵੀਕੇਂਡ | ਤੁਹਾਡਾ ਸ਼ਨੀ-ਐਤਵਾਰ ਕਿਵੇਂ ਲੰਘਿਆ? | ਸੋਮਵਾਰ ਦਾ ਪੱਕਾ ਸਵਾਲ। ਇੱਕ-ਦੋ ਵਾਕਾਂ ਵਿੱਚ ਜਵਾਬ ਦਿਓ ਤੇ ਮੋੜ ਕੇ ਪੁੱਛੋ: How about yours?
+It was pretty relaxing. | ਇਟ ਵਜ਼ ˈਪ੍ਰਿਟੀ ਰਿˈਲੈਕ੍ਸਿਙ | ਕਾਫ਼ੀ ਆਰਾਮ ਨਾਲ ਲੰਘਿਆ | ਇੱਥੇ pretty = ਕਾਫ਼ੀ; "ਸੋਹਣਾ" ਨਹੀਂ।
+Any plans for the weekend? | ˈਏਨੀ ਪ੍ਲੈਨ੍ਜ਼ ਫ਼ਰ ਦ਼ ˈਵੀਕੇਂਡ | ਸ਼ਨੀ-ਐਤਵਾਰ ਦਾ ਕੋਈ ਪ੍ਰੋਗਰਾਮ? | ਸ਼ੁੱਕਰਵਾਰ ਦਾ ਪੱਕਾ ਸਵਾਲ। ਕੁਝ ਨਾ ਹੋਵੇ ਤਾਂ: Not really, just relaxing।
+Nice weather today, huh? | ਨਾਈਸ ˈਵੇਦ਼ਰ ਟˈਡੇ ਹ | ਅੱਜ ਮੌਸਮ ਵਧੀਆ ਹੈ, ਹੈ ਨਾ? | ਮੌਸਮ ਸਭ ਤੋਂ ਸੁਰੱਖਿਅਤ ਵਿਸ਼ਾ ਹੈ। ਤਨਖ਼ਾਹ, ਉਮਰ, ਵਿਆਹ ਜਾਂ ਬੱਚਿਆਂ ਬਾਰੇ ਸਵਾਲ ਵਿਦੇਸ਼ ਵਿੱਚ ਨਿੱਜੀ ਮੰਨੇ ਜਾਂਦੇ ਹਨ।
+It's freezing today. | ਇਟ੍ਸ ˈਫ਼੍ਰੀਜ਼ਿਙ ਟˈਡੇ | ਅੱਜ ਬਹੁਤ ਠੰਢ ਹੈ | ਪੰਜਾਬੀ ਦੇ "ਠੰਢ ਹੈ" ਵਿੱਚ ਕਰਤਾ ਨਹੀਂ ਹੁੰਦਾ; ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ It ਜ਼ਰੂਰੀ ਹੈ: Is freezing ✗। ਗਰਮੀ ਲਈ: It's boiling! ਜਾਂ It's so hot!
+How long have you lived here? | ਹਾਊ ਲੌਙ ਹਵ਼ ਯੂ ਲਿਵ਼੍ਡ ਹਿਰ | ਤੁਸੀਂ ਇੱਥੇ ਕਦੋਂ ਤੋਂ ਰਹਿੰਦੇ ਹੋ? | "ਕਦੋਂ ਤੋਂ" = How long + have…; Since when you are living here? ਗ਼ਲਤ ਹੈ। ਜਵਾਬ: About three years।
+Have you been to India? | ਹਵ਼ ਯੂ ਬਿਨ ਟੂ ˈਇੰਡੀਆ | ਕੀ ਤੁਸੀਂ ਕਦੇ ਭਾਰਤ ਗਏ ਹੋ? | ਤਜਰਬਾ ਪੁੱਛਣ ਲਈ have been to। ਦੇਸ਼ ਦੇ ਨਾਂ ਤੋਂ ਪਹਿਲਾਂ ਕੋਈ ਆਰਟੀਕਲ ਨਹੀਂ: the India ✗।
+What do you do for fun? | ਵਟ ਡ ਯੂ ਡੂ ਫ਼ਰ ਫ਼ਨ | ਵਿਹਲੇ ਵੇਲੇ ਤੁਸੀਂ ਕੀ ਕਰਦੇ ਹੋ? | What's your hobby? ਨਾਲੋਂ ਕਿਤੇ ਸੁਭਾਵਕ ਸਵਾਲ।
+Have you seen any good shows lately? | ਹਵ਼ ਯੂ ਸੀਨ ˈਏਨੀ ਗੁਡ ਸ਼ੋਜ਼ ˈਲੇਟ੍ਲੀ | ਅੱਜ-ਕੱਲ੍ਹ ਕੋਈ ਵਧੀਆ ਸ਼ੋਅ ਦੇਖਿਆ ਹੈ? | show = ਟੀਵੀ ਦਾ ਪ੍ਰੋਗਰਾਮ ਜਾਂ ਵੈੱਬ ਸੀਰੀਜ਼ (ਭਾਰਤ ਵਿੱਚ serial)। lately ਨਾਲ Present Perfect: Have you seen…?
+That sounds fun. | ਦ਼ੈਟ ਸਾਊਂਡ੍ਜ਼ ਫ਼ਨ | ਇਹ ਤਾਂ ਮਜ਼ੇਦਾਰ ਲੱਗਦਾ ਹੈ | ਅਗਲੇ ਦੀ ਗੱਲ ਤੇ ਹੁੰਗਾਰਾ ਭਰਨ ਲਈ। That sounds great! ਵੀ ਚੰਗਾ ਹੈ।
+Same here. | ਸੇਮ ਹਿਰ | ਮੇਰਾ ਵੀ ਇਹੀ ਹਾਲ ਹੈ | ਹੋਰ ਬੇਤਕੱਲੁਫ਼: Same!
+Me neither. | ਮੀ ˈਨੀਦ਼ਰ | ਮੈਂ ਵੀ ਨਹੀਂ | ਨਾਂਹ ਵਾਲੇ ਵਾਕ ਨਾਲ ਸਹਿਮਤੀ: I don't like it. → Me neither। ਇੱਥੇ Me too ਜਾਂ Me also ਨਹੀਂ ਚੱਲਦਾ।
+I know, right? | ਆਈ ਨੋ ਰਾਈਟ | ਹੋਰ ਕੀ! / ਮੈਂ ਵੀ ਤਾਂ ਇਹੀ ਕਹਿੰਦਾ ਹਾਂ! | ਜ਼ੋਰ ਨਾਲ ਹਾਮੀ ਭਰਨ ਦਾ ਬੇਤਕੱਲੁਫ਼ ਤਰੀਕਾ। ਇਹ ਸਵਾਲ ਨਹੀਂ ਹੈ, ਜਵਾਬ ਦੀ ਲੋੜ ਨਹੀਂ।
+Oh, really? | ਓ ˈਰੀਅਲੀ | ਅੱਛਾ, ਸੱਚੀਂ? | ਦਿਲਚਸਪੀ ਦਿਖਾਉਣ ਵਾਲਾ ਹੁੰਗਾਰਾ; ਅਖ਼ੀਰ ਤੇ ਆਵਾਜ਼ ਉੱਪਰ ਜਾਂਦੀ ਹੈ।
+By the way | ਬਾਈ ਦ਼ ਵੇ | ਵੈਸੇ / ਹਾਂ ਸੱਚ | ਗੱਲ ਬਦਲਣ ਵੇਲੇ। ਮੈਸੇਜ ਵਿੱਚ BTW।
+How's work? | ਹਾਊਜ਼ ਵਰ੍ਕ | ਕੰਮ-ਕਾਰ ਕਿਵੇਂ ਚੱਲਦਾ ਹੈ? | ਜਾਣ-ਪਛਾਣ ਵਾਲੇ ਨੂੰ। ਜਵਾਬ: Busy, but good! ਇੱਥੇ work ਨਾ-ਗਿਣਨਯੋਗ ਹੈ: ਨਾ ਆਰਟੀਕਲ, ਨਾ -s।
+It was nice talking to you. | ਇਟ ਵਜ਼ ਨਾਈਸ ˈਟੌਕਿਙ ਟ ਯੂ | ਤੁਹਾਡੇ ਨਾਲ ਗੱਲ ਕਰ ਕੇ ਚੰਗਾ ਲੱਗਾ | ਗੱਲਬਾਤ ਨੂੰ ਸਲੀਕੇ ਨਾਲ ਮੁਕਾਉਣ ਲਈ। ਇੱਥੇ "ਤੁਹਾਡੇ ਨਾਲ" = to you (with you ਵੀ ਚੱਲਦਾ ਹੈ)।
 `,
-"감정·반응": `
-I'm so happy for you! | 아임 쏘 해피 포 유! | 정말 잘됐다! (축하) | 상대에게 좋은 일이 생겼을 때
-Congratulations! | 컹그래츄레이션스! | 축하해요! | 꼭 -s를 붙여요. 줄여서 "Congrats!"
-That's awesome! | 댓츠 어썸! | 대박! 멋지다! | 미국인이 정말 자주 쓰는 리액션이에요
-No way! | 노 웨이! | 말도 안 돼! / 헐! | 놀랐을 때. 거절할 때도 써요: "No way, I'm not doing that."
-Seriously? | 시리어슬리? | 진심이야? / 진짜로? | 말투에 따라 놀람 또는 짜증을 나타내요
-I'm so tired. | 아임 쏘 타이어드 | 너무 피곤해요 | 완전 지쳤을 땐 "I'm exhausted."
-I'm stressed out. | 아임 스트레스드 아웃 | 스트레스를 너무 받아요 | "I have stress"보다 자연스러워요
-I'm bored. | 아임 보어드 | 심심해요 / 지루해요 | 주의! "I'm boring"은 "나는 지루한 사람이에요"라는 뜻
-I'm excited. | 아임 익싸이티드 | 신나요 / 설레요 | 기대되는 일이 있을 때. -ed는 내가 느끼는 감정
-I'm nervous. | 아임 너버스 | 긴장돼요 | 면접·발표 전에. 상대에게: "Don't be nervous."
-That's too bad. | 댓츠 투 배드 | 아쉽네요 / 안타깝네요 | 가벼운 아쉬움. 심각한 일엔 아래 표현을 써요
-I'm sorry to hear that. | 아임 쏘리 투 히어 댓 | 그런 일이 있었다니 마음이 안 좋네요 | 사과가 아니라 위로예요. sorry = 유감스러운
-What a relief! | 와러 릴리프! | 다행이다! | "Phew!"와 함께 쓰면 더 자연스러워요
-Oh my gosh! | 오 마이 가쉬! | 세상에! | Oh my God를 순화한 표현. 문자로는 OMG
-I'm upset. | 아임 업셋 | 속상해요 / 기분이 상했어요 | 화남과 슬픔의 중간 느낌이에요
-That's so annoying. | 댓츠 쏘 어노잉 | 진짜 짜증 나 | 사람에게 "You're annoying"은 꽤 세게 들려요
-I can't wait! | 아이 캔트 웨잇! | 너무 기대돼! / 빨리 하고 싶어! | 직역하면 "못 기다리겠어"
-It's not a big deal. | 잇츠 나러 빅 딜 | 별일 아니에요 | 상대가 미안해할 때 안심시키는 말
+"ਜਜ਼ਬਾਤ ਤੇ ਹੁੰਗਾਰੇ": `
+I'm so happy for you! | ਆਈਮ ਸੋ ˈਹੈਪੀ ਫ਼ਰ ਯੂ | ਤੇਰੇ ਲਈ ਬਹੁਤ ਖ਼ੁਸ਼ੀ ਹੋਈ! | ਜਦੋਂ ਅਗਲੇ ਨਾਲ ਕੁਝ ਚੰਗਾ ਹੋਇਆ ਹੋਵੇ।
+Congratulations! | ਕਨ੍ਗ੍ਰੈਚˈਲੇਸ਼ਨ੍ਜ਼ | ਵਧਾਈਆਂ! | ਪੰਜਾਬੀ ਦੇ "ਵਧਾਈਆਂ" ਵਾਂਗ ਹਮੇਸ਼ਾ ਬਹੁਵਚਨ: -s ਨਾ ਛੱਡੋ। ਛੋਟਾ ਰੂਪ: Congrats!
+That's awesome! | ਦ਼ੈਟ੍ਸ ˈਔਸਮ | ਕਮਾਲ ਹੈ! / ਬਹੁਤ ਵਧੀਆ! | ਅਮਰੀਕੀ ਲੋਕ ਇਹ ਹੁੰਗਾਰਾ ਬਹੁਤ ਵਰਤਦੇ ਹਨ।
+No way! | ਨੋ ਵੇ | ਹੋ ਹੀ ਨਹੀਂ ਸਕਦਾ! | ਹੈਰਾਨੀ ਵੇਲੇ। ਸਾਫ਼ ਨਾਂਹ ਕਰਨ ਲਈ ਵੀ: No way, I'm not doing that।
+Seriously? | ˈਸਿਰੀਅਸ੍ਲੀ | ਸੱਚੀਂ? / ਮਜ਼ਾਕ ਤਾਂ ਨਹੀਂ ਕਰ ਰਿਹਾ? | ਲਹਿਜੇ ਮੁਤਾਬਕ ਹੈਰਾਨੀ ਜਾਂ ਖਿਝ ਦੱਸਦਾ ਹੈ।
+I'm so tired. | ਆਈਮ ਸੋ ˈਟਾਈਅਰ੍ਡ | ਮੈਂ ਬਹੁਤ ਥੱਕ ਗਿਆ ਹਾਂ | ਪੰਜਾਬੀ ਦਾ "ਥੱਕ ਗਿਆ ਹਾਂ" ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਹਾਲਤ ਹੈ: I'm tired। ਬਿਲਕੁਲ ਚੂਰ ਹੋ ਗਏ ਹੋ ਤਾਂ: I'm exhausted।
+I'm stressed out. | ਆਈਮ ਸ੍ਟ੍ਰੇਸ੍ਟ ਆਊਟ | ਮੈਂ ਬਹੁਤ ਟੈਨਸ਼ਨ ਵਿੱਚ ਹਾਂ | I have tension ਜਾਂ I'm taking tension ਸਿਰਫ਼ ਭਾਰਤ ਵਿੱਚ ਸੁਣਦਾ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ I'm stressed (out) ਕਹੋ।
+I'm bored. | ਆਈਮ ਬੌਰ੍ਡ | ਮੈਂ ਬੋਰ ਹੋ ਰਿਹਾ ਹਾਂ | ਧਿਆਨ ਨਾਲ: I'm boring ਦਾ ਮਤਲਬ ਹੈ "ਮੈਂ ਅਕਾਊ ਬੰਦਾ ਹਾਂ"। ਤੇ I'm getting bore ਗ਼ਲਤ ਹੈ।
+I'm excited. | ਆਈਮ ਇਕ੍ˈਸਾਈਟਿਡ | ਮੈਨੂੰ ਬੜਾ ਚਾਅ ਹੈ | ਕਿਸੇ ਆਉਣ ਵਾਲੀ ਚੰਗੀ ਗੱਲ ਲਈ। -ed = ਜੋ ਮੈਂ ਮਹਿਸੂਸ ਕਰਦਾ ਹਾਂ; -ing = ਉਹ ਚੀਜ਼ ਜੋ ਇਉਂ ਮਹਿਸੂਸ ਕਰਾਉਂਦੀ ਹੈ (exciting)।
+I'm nervous. | ਆਈਮ ˈਨਰ੍ਵ਼ਸ | ਮੈਨੂੰ ਘਬਰਾਹਟ ਹੋ ਰਹੀ ਹੈ | ਇੰਟਰਵਿਊ ਜਾਂ ਪੇਪਰ ਤੋਂ ਪਹਿਲਾਂ। ਪੰਜਾਬੀ ਵਿੱਚ "ਮੈਨੂੰ ਘਬਰਾਹਟ…", ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਕਰਤਾ I: I'm nervous।
+That's too bad. | ਦ਼ੈਟ੍ਸ ਟੂ ਬੈਡ | ਇਹ ਤਾਂ ਮਾੜਾ ਹੋਇਆ | ਹਲਕੇ ਅਫ਼ਸੋਸ ਲਈ। ਗੰਭੀਰ ਗੱਲ ਲਈ ਅਗਲਾ ਕਾਰਡ ਵਰਤੋ।
+I'm sorry to hear that. | ਆਈਮ ˈਸਾਰੀ ਟ ਹਿਰ ਦ਼ੈਟ | ਇਹ ਸੁਣ ਕੇ ਅਫ਼ਸੋਸ ਹੋਇਆ | ਇਹ ਮਾਫ਼ੀ ਨਹੀਂ, ਹਮਦਰਦੀ ਹੈ: ਇੱਥੇ sorry = ਅਫ਼ਸੋਸ।
+What a relief! | ਵਟ ਅ ਰਿˈਲੀਫ਼ | ਸ਼ੁਕਰ ਹੈ! / ਜਾਨ ਵਿੱਚ ਜਾਨ ਆਈ! | What a + ਨਾਂਵ: ਆਰਟੀਕਲ a ਨਾ ਛੱਡੋ। ਨਾਲ ਅਕਸਰ Phew! ਕਹਿੰਦੇ ਹਨ।
+Oh my gosh! | ਓ ਮਾਈ ਗਾਸ਼ | ਹਾਏ ਰੱਬਾ! | Oh my God ਦਾ ਨਰਮ ਰੂਪ, ਜੋ ਕਿਸੇ ਨੂੰ ਮਾੜਾ ਨਹੀਂ ਲੱਗਦਾ। ਮੈਸੇਜ ਵਿੱਚ OMG।
+I'm upset. | ਆਈਮ ਅਪ੍ˈਸੇਟ | ਮੇਰਾ ਮਨ ਖ਼ਰਾਬ ਹੈ | ਗੁੱਸੇ ਤੇ ਉਦਾਸੀ ਦੇ ਵਿਚਕਾਰਲੀ ਹਾਲਤ। ਪੇਟ ਖ਼ਰਾਬ ਹੋਣ ਲਈ: an upset stomach।
+That's so annoying. | ਦ਼ੈਟ੍ਸ ਸੋ ਅˈਨੌਈਇਙ | ਇਹ ਤਾਂ ਬੜੀ ਖਿਝ ਚੜ੍ਹਾਉਂਦਾ ਹੈ | ਕਿਸੇ ਬੰਦੇ ਨੂੰ ਸਿੱਧਾ You're annoying ਕਹਿਣਾ ਕਾਫ਼ੀ ਸਖ਼ਤ ਲੱਗਦਾ ਹੈ।
+I can't wait! | ਆਈ ਕੈਂਟ ਵੇਟ | ਮੈਥੋਂ ਉਡੀਕ ਨਹੀਂ ਹੁੰਦੀ! | ਮਤਲਬ: ਮੈਂ ਬੜੀ ਬੇਸਬਰੀ ਨਾਲ ਉਡੀਕ ਰਿਹਾ ਹਾਂ — ਹਮੇਸ਼ਾ ਚੰਗੀ ਗੱਲ ਲਈ।
+It's not a big deal. | ਇਟ੍ਸ ਨਾਟ ਅ ਬਿਗ ਡੀਲ | ਕੋਈ ਵੱਡੀ ਗੱਲ ਨਹੀਂ | ਜਦੋਂ ਅਗਲਾ ਮਾਫ਼ੀ ਮੰਗ ਰਿਹਾ ਹੋਵੇ, ਉਸ ਨੂੰ ਤਸੱਲੀ ਦੇਣ ਲਈ। ਆਰਟੀਕਲ a ਨਾ ਛੱਡੋ: a big deal।
 `,
-"칭찬·호감 표현": `
-You look great! | 유 룩 그레잇! | 좋아 보여요! / 멋져요! | 외모 칭찬은 "You look ~"로. 아는 사이에서 자연스러워요
-I love your shoes. | 아이 러브 유어 슈즈 | 신발 너무 예뻐요 | love = 정말 마음에 든다. 처음 보는 사람에게도 가볍게 칭찬해요
-That color looks good on you. | 댓 컬러 룩스 굿 온 유 | 그 색 잘 어울려요 | look good on + 사람 = ~에게 잘 어울리다
-You have a great smile. | 유 해버 그레잇 스마일 | 미소가 정말 예뻐요 | 친해진 사이에서 쓰는 따뜻한 칭찬
-You're so funny. | 유어 쏘 퍼니 | 진짜 웃겨요 | funny = 웃긴. fun = 함께 있으면 즐거운
-Great job! | 그레잇 잡! | 잘했어요! | 직장·학교 어디서나. "Nice work!"도 같아요
-I'm proud of you. | 아임 프라우드 오브 유 | 네가 자랑스러워 | 가족·친구에게. 상사가 부하에게 쓰기도 해요
-You did it! | 유 디딧! | 해냈구나! | 목표를 이룬 사람에게
-Your Korean is really good! | 유어 코리안 이즈 륄리 굿! | 한국어 진짜 잘하시네요! | 한국어를 배우는 외국인 친구에게 해 주면 좋아해요
-You have good taste. | 유 해브 굿 테이스트 | 안목이 좋으시네요 / 센스 있어요 | 옷·음악·인테리어 취향 칭찬. "센스"는 영어로 taste예요
-I really enjoyed spending time with you. | 아이 륄리 인조이드 스펜딩 타임 위드 유 | 같이 시간 보내서 정말 즐거웠어요 | 데이트·모임이 끝날 때
-Do you want to grab coffee sometime? | 두 유 워너 그랩 커피 썸타임? | 언제 커피 한잔할래요? | want to는 "워너". grab = 가볍게 먹다·마시다
-I miss you. | 아이 미스 유 | 보고 싶어요 | 지금 떨어져 있는 사람에게. 가족·친구에게도 써요
-You mean a lot to me. | 유 민 어 랏 투 미 | 너는 나한테 정말 소중해 | 친구·연인에게 진심을 전할 때
-You're a lifesaver! | 유어러 라이프세이버! | 덕분에 살았어요! | 작은 도움에도 과장해서 고마움을 표현해요
-You made my day! | 유 메이드 마이 데이! | 덕분에 하루가 행복해졌어요! | 기분 좋은 말이나 선물을 받았을 때
-That's very kind of you. | 댓츠 베리 카인드 오브 유 | 정말 친절하시네요 | 도움이나 칭찬을 받았을 때 공손하게
+"ਤਾਰੀਫ਼ ਤੇ ਪਸੰਦ": `
+You look great! | ਯੂ ਲੁਕ ਗ੍ਰੇਟ | ਤੁਸੀਂ ਬਹੁਤ ਜਚ ਰਹੇ ਹੋ! | ਦਿੱਖ ਦੀ ਤਾਰੀਫ਼: You look + ਵਿਸ਼ੇਸ਼ਣ। ਜਾਣ-ਪਛਾਣ ਵਾਲਿਆਂ ਵਿਚਕਾਰ ਸੁਭਾਵਕ ਹੈ।
+I love your shoes. | ਆਈ ਲਵ਼ ਯੁਰ ਸ਼ੂਜ਼ | ਤੇਰੇ ਬੂਟ ਬੜੇ ਸੋਹਣੇ ਹਨ | ਇੱਥੇ love = ਬਹੁਤ ਪਸੰਦ ਆਉਣਾ, ਪਿਆਰ ਨਹੀਂ। ਉੱਥੇ ਅਣਜਾਣ ਲੋਕ ਵੀ ਇਉਂ ਹਲਕੀ ਤਾਰੀਫ਼ ਕਰ ਦਿੰਦੇ ਹਨ; ਜਵਾਬ ਵਿੱਚ ਬੱਸ Thanks!
+That color looks good on you. | ਦ਼ੈਟ ˈਕਲਰ ਲੁਕ੍ਸ ਗੁਡ ਆਨ ਯੂ | ਇਹ ਰੰਗ ਤੁਹਾਨੂੰ ਜਚਦਾ ਹੈ | look good on + ਬੰਦਾ = ਕਿਸੇ ਨੂੰ ਜਚਣਾ। ਅਮਰੀਕਾ ਵਿੱਚ color ਲਿਖਦੇ ਹਨ; ਭਾਰਤ, ਬ੍ਰਿਟੇਨ ਤੇ ਕੈਨੇਡਾ ਵਿੱਚ colour।
+You have a great smile. | ਯੂ ਹੈਵ਼ ਅ ਗ੍ਰੇਟ ਸ੍ਮਾਈਲ | ਤੁਹਾਡੀ ਮੁਸਕਰਾਹਟ ਬੜੀ ਪਿਆਰੀ ਹੈ | ਪੰਜਾਬੀ ਦਾ "ਤੁਹਾਡੀ … ਹੈ" ਇੱਥੇ You have a… ਬਣਦਾ ਹੈ; ਆਰਟੀਕਲ a ਨਾ ਛੱਡੋ।
+You're so funny. | ਯੁਰ ਸੋ ˈਫ਼ਨੀ | ਤੂੰ ਬੜਾ ਹਸਾਉਂਦਾ ਹੈਂ | funny = ਹਸਾਉਣ ਵਾਲਾ; fun = ਜਿਸ ਨਾਲ ਮਜ਼ਾ ਆਵੇ। ਦੋਵੇਂ ਵੱਖਰੇ ਹਨ।
+Great job! | ਗ੍ਰੇਟ ਜਾਬ | ਸ਼ਾਬਾਸ਼! / ਬਹੁਤ ਵਧੀਆ ਕੰਮ! | ਦਫ਼ਤਰ, ਸਕੂਲ — ਹਰ ਥਾਂ ਚੱਲਦਾ ਹੈ। Nice work! ਵੀ ਇਹੀ ਹੈ।
+I'm proud of you. | ਆਈਮ ਪ੍ਰਾਊਡ ਅਵ਼ ਯੂ | ਮੈਨੂੰ ਤੇਰੇ ਤੇ ਮਾਣ ਹੈ | ਪੰਜਾਬੀ ਦਾ "ਤੇ ਮਾਣ" = proud of; proud on ਨਹੀਂ।
+You did it! | ਯੂ ਡਿਡ ਇਟ | ਤੂੰ ਕਰ ਦਿਖਾਇਆ! | ਜਦੋਂ ਕੋਈ ਆਪਣਾ ਟੀਚਾ ਪੂਰਾ ਕਰ ਲਵੇ।
+Your Punjabi is really good! | ਯੁਰ ਪੰˈਜਾਬੀ ਇਜ਼ ˈਰੀਅਲੀ ਗੁਡ | ਤੁਹਾਡੀ ਪੰਜਾਬੀ ਤਾਂ ਬਹੁਤ ਵਧੀਆ ਹੈ! | ਪੰਜਾਬੀ ਸਿੱਖ ਰਹੇ ਵਿਦੇਸ਼ੀ ਦੋਸਤ ਨੂੰ ਕਹੋ, ਖ਼ੁਸ਼ ਹੋ ਜਾਵੇਗਾ। ਭਾਸ਼ਾ ਦਾ ਨਾਂ ਹਮੇਸ਼ਾ ਵੱਡੇ ਅੱਖਰ ਨਾਲ: Punjabi।
+You have good taste. | ਯੂ ਹੈਵ਼ ਗੁਡ ਟੇਸ੍ਟ | ਤੁਹਾਡੀ ਪਸੰਦ ਬਹੁਤ ਵਧੀਆ ਹੈ | ਕੱਪੜੇ, ਸੰਗੀਤ ਜਾਂ ਘਰ ਦੀ ਸਜਾਵਟ ਦੀ ਤਾਰੀਫ਼। ਇਸ ਅਰਥ ਵਿੱਚ taste ਨਾ-ਗਿਣਨਯੋਗ ਹੈ: a ਨਹੀਂ ਲੱਗਦਾ।
+I really enjoyed spending time with you. | ਆਈ ˈਰੀਅਲੀ ਇੰˈਜੌਈਡ ˈਸ੍ਪੇਂਡਿਙ ਟਾਈਮ ਵਿਦ਼ ਯੂ | ਤੁਹਾਡੇ ਨਾਲ ਸਮਾਂ ਬਿਤਾ ਕੇ ਬਹੁਤ ਚੰਗਾ ਲੱਗਾ | ਮੁਲਾਕਾਤ ਮੁੱਕਣ ਵੇਲੇ। enjoy ਤੋਂ ਬਾਅਦ -ing: enjoyed to spend ✗।
+Do you want to grab coffee sometime? | ਡ ਯੂ ਵਾਂਟ ਟ ਗ੍ਰੈਬ ˈਕੌਫ਼ੀ ˈਸਮ੍ਟਾਈਮ | ਕਿਸੇ ਦਿਨ ਕੌਫ਼ੀ ਪੀਣ ਚੱਲੀਏ? | grab = ਛੇਤੀ-ਛੇਤੀ ਕੁਝ ਖਾਣਾ-ਪੀਣਾ। ਬੋਲਣ ਵਿੱਚ want to ਅਕਸਰ wanna ਸੁਣਦਾ ਹੈ।
+I miss you. | ਆਈ ਮਿਸ ਯੂ | ਮੈਨੂੰ ਤੇਰੀ ਯਾਦ ਆਉਂਦੀ ਹੈ | ਪੰਜਾਬੀ ਵਿੱਚ "ਮੈਨੂੰ ਤੇਰੀ ਯਾਦ…", ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਕਰਤਾ I: I miss you। ਘਰਦਿਆਂ ਤੇ ਦੋਸਤਾਂ ਨੂੰ ਵੀ ਕਹਿੰਦੇ ਹਨ।
+You mean a lot to me. | ਯੂ ਮੀਨ ਅ ਲਾਟ ਟ ਮੀ | ਤੂੰ ਮੇਰੇ ਲਈ ਬਹੁਤ ਖ਼ਾਸ ਹੈਂ | ਦੋਸਤ ਜਾਂ ਜੀਵਨ-ਸਾਥੀ ਨੂੰ ਦਿਲ ਦੀ ਗੱਲ ਕਹਿਣ ਲਈ।
+You're a lifesaver! | ਯੁਰ ਅ ˈਲਾਈਫ਼੍ਸੇਵ਼ਰ | ਤੁਸੀਂ ਤਾਂ ਮੇਰੀ ਜਾਨ ਬਚਾ ਲਈ! | ਛੋਟੀ ਜਿਹੀ ਮਦਦ ਲਈ ਵੀ ਵਧਾ-ਚੜ੍ਹਾ ਕੇ ਧੰਨਵਾਦ ਕਰਨ ਦਾ ਤਰੀਕਾ।
+You made my day! | ਯੂ ਮੇਡ ਮਾਈ ਡੇ | ਤੁਸੀਂ ਤਾਂ ਮੇਰਾ ਦਿਨ ਬਣਾ ਦਿੱਤਾ! | ਜਦੋਂ ਕਿਸੇ ਦੀ ਚੰਗੀ ਗੱਲ ਜਾਂ ਤੋਹਫ਼ੇ ਨਾਲ ਮਨ ਖ਼ੁਸ਼ ਹੋ ਜਾਵੇ।
+That's very kind of you. | ਦ਼ੈਟ੍ਸ ˈਵ਼ੇਰੀ ਕਾਈਂਡ ਅਵ਼ ਯੂ | ਤੁਹਾਡੀ ਬੜੀ ਮਿਹਰਬਾਨੀ | ਮਦਦ ਜਾਂ ਤਾਰੀਫ਼ ਮਿਲਣ ਤੇ ਨਿਮਰ ਜਵਾਬ। very ਦਾ v ਦੰਦ ਬੁੱਲ੍ਹ ਤੇ ਰੱਖ ਕੇ ਬੋਲੋ, w ਵਾਂਗ ਬੁੱਲ੍ਹ ਗੋਲ ਕਰ ਕੇ ਨਹੀਂ।
 `,
-"직장·이메일": `
-I hope this email finds you well. | 아이 호프 디스 이메일 파인즈 유 웰 | 잘 지내고 계시길 바랍니다 | 격식 있는 이메일 첫 인사. 조금 가볍게: "I hope you're doing well."
-I'm writing to ask about the schedule. | 아임 롸이팅 투 애스크 어바웃 더 스케줄 | 일정에 대해 여쭤보려고 연락드립니다 | 메일 목적을 첫 문장에 밝혀요. I'm writing to + 목적
-I've attached the report. | 아이브 어태치드 더 리포트 | 보고서를 첨부했습니다 | "Please find attached…"는 더 딱딱한 표현이에요
-Just a quick reminder about tomorrow's meeting. | 저스트 어 퀵 리마인더 어바웃 터마로우즈 미팅 | 내일 회의 관련해서 다시 한번 알려 드려요 | 독촉을 부드럽게 하는 표현
-Let me know if you have any questions. | 렛 미 노우 이퓨 해브 애니 퀘스천즈 | 궁금한 점 있으면 말씀해 주세요 | 이메일 마무리 단골 문장
-Could you send me the file by Friday? | 쿠쥬 쎈드 미 더 파일 바이 프라이데이? | 금요일까지 파일 보내 주실 수 있나요? | by = ~까지 (기한). until = ~까지 계속
-Sorry for the late reply. | 쏘리 포 더 레잇 리플라이 | 답장이 늦어 죄송합니다 | 조금 덜 미안하게: "Thanks for your patience."
-Thanks for getting back to me. | 땡스 포 게링 백 투 미 | 답장 주셔서 감사합니다 | get back to = 다시 연락하다
-Best regards, | 베스트 리가즈 | ~ 드림 (이메일 맺음말) | 무난한 맺음말. 가까운 사이: "Best," "Thanks,"
-Let's schedule a meeting. | 렛츠 스케줄 어 미팅 | 회의 일정을 잡읍시다 | 미국: 스케줄, 영국: 셰듈
-I'm running late. | 아임 러닝 레잇 | 조금 늦을 것 같아요 | 이동 중에 미리 연락할 때. "I'll be there in 10."
-Can we push the meeting to 3? | 캔 위 푸쉬 더 미팅 투 쓰리? | 회의를 3시로 미룰 수 있을까요? | 앞당길 땐 move up: "Can we move it up to 1?"
-I'll get back to you. | 아일 겟 백 투 유 | 확인하고 다시 연락드릴게요 | 바로 답하기 어려울 때 시간을 버는 표현
-Can you walk me through it? | 캔 유 워크 미 쓰루 잇? | 하나씩 설명해 주실래요? | walk through = 단계별로 안내하다
-Let's touch base next week. | 렛츠 터치 베이스 넥스트 윅 | 다음 주에 잠깐 얘기 나눠요 | 짧게 진행 상황을 공유하자는 뜻
-What's the deadline? | 왓츠 더 데드라인? | 마감이 언제예요? | "When is this due?"도 같은 뜻
-I'm working from home today. | 아임 워킹 프럼 홈 투데이 | 오늘 재택근무해요 | 줄여서 WFH
-I'm off tomorrow. | 아임 오프 터마로우 | 내일 쉬어요 (휴무예요) | 연차는 "I'm taking a day off tomorrow."
-Thanks for all your hard work. | 땡스 포 올 유어 하드 워크 | 그동안 정말 고생 많으셨어요 | "수고하셨습니다"에 딱 맞는 말은 없어요. 퇴근 인사는 그냥 "See you tomorrow!"
+"ਦਫ਼ਤਰ ਤੇ ਈਮੇਲ": `
+I hope this email finds you well. | ਆਈ ਹੋਪ ਦ਼ਿਸ ˈਈਮੇਲ ਫ਼ਾਈਂਡ੍ਜ਼ ਯੂ ਵੇਲ | ਉਮੀਦ ਹੈ ਤੁਸੀਂ ਠੀਕ-ਠਾਕ ਹੋਵੋਗੇ | ਰਸਮੀ ਈਮੇਲ ਦੀ ਪਹਿਲੀ ਸਤਰ। ਹਲਕਾ ਰੂਪ: I hope you're doing well। ਸ਼ੁਰੂ ਵਿੱਚ Respected Sir ਨਹੀਂ: Dear Mr. Singh ਜਾਂ Hi Aman।
+I'm writing to ask about the schedule. | ਆਈਮ ˈਰਾਈਟਿਙ ਟੂ ਐਸ੍ਕ ਅਬਾਊਟ ਦ਼ ˈਸ੍ਕੇਜੂਲ | ਮੈਂ ਸ਼ਡਿਊਲ ਬਾਰੇ ਪੁੱਛਣ ਲਈ ਲਿਖ ਰਹੀ ਹਾਂ | ਈਮੇਲ ਦਾ ਮਕਸਦ ਪਹਿਲੇ ਵਾਕ ਵਿੱਚ ਦੱਸੋ: I'm writing to + ਮਕਸਦ।
+I've attached the report. | ਆਈਵ਼ ਅˈਟੈਚ੍ਟ ਦ਼ ਰਿˈਪੌਰ੍ਟ | ਮੈਂ ਰਿਪੋਰਟ ਨਾਲ ਨੱਥੀ ਕਰ ਦਿੱਤੀ ਹੈ | ਭਾਰਤੀ ਦਫ਼ਤਰਾਂ ਦਾ PFA ਜਾਂ Please find attached ਵਿਦੇਸ਼ ਵਿੱਚ ਪੁਰਾਣਾ ਤੇ ਰੁੱਖਾ ਲੱਗਦਾ ਹੈ; I've attached… ਸਾਫ਼ ਹੈ।
+Just a quick reminder about tomorrow's meeting. | ਜਸ੍ਟ ਅ ਕ੍ਵਿਕ ਰਿˈਮਾਈਂਡਰ ਅਬਾਊਟ ਟˈਮਾਰੋਜ਼ ˈਮੀਟਿਙ | ਕੱਲ੍ਹ ਦੀ ਮੀਟਿੰਗ ਬਾਰੇ ਬੱਸ ਯਾਦ ਕਰਾਉਣਾ ਸੀ | ਨਰਮੀ ਨਾਲ ਯਾਦ ਕਰਾਉਣ ਦਾ ਤਰੀਕਾ। ਇੱਥੇ "ਕੱਲ੍ਹ" ਆਉਣ ਵਾਲਾ ਹੈ: tomorrow।
+Let me know if you have any questions. | ਲੇਟ ਮੀ ਨੋ ਇਫ਼ ਯੂ ਹੈਵ਼ ˈਏਨੀ ˈਕ੍ਵੇਸ੍ਚਨ੍ਜ਼ | ਕੋਈ ਸਵਾਲ ਹੋਵੇ ਤਾਂ ਦੱਸਣਾ | ਈਮੇਲ ਦੇ ਅਖ਼ੀਰ ਦਾ ਪੱਕਾ ਵਾਕ। any ਤੋਂ ਬਾਅਦ ਬਹੁਵਚਨ questions; ਤੇ doubts ਨਹੀਂ।
+Could you send me the file by Friday? | ਕਡ ਯੂ ਸੇਂਡ ਮੀ ਦ਼ ਫ਼ਾਈਲ ਬਾਈ ˈਫ਼੍ਰਾਈਡੇ | ਕੀ ਤੁਸੀਂ ਸ਼ੁੱਕਰਵਾਰ ਤੱਕ ਫ਼ਾਈਲ ਭੇਜ ਸਕਦੇ ਹੋ? | ਪੰਜਾਬੀ ਦਾ "ਤੱਕ" ਦੋ ਸ਼ਬਦ ਬਣਦਾ ਹੈ: by = ਉਸ ਸਮੇਂ ਤੋਂ ਪਹਿਲਾਂ-ਪਹਿਲਾਂ; until = ਉਸ ਸਮੇਂ ਤੱਕ ਲਗਾਤਾਰ। Kindly send… ਨਾਲੋਂ Could you…? ਨਰਮ ਹੈ।
+Sorry for the late reply. | ˈਸਾਰੀ ਫ਼ਰ ਦ਼ ਲੇਟ ਰਿˈਪ੍ਲਾਈ | ਦੇਰ ਨਾਲ ਜਵਾਬ ਦੇਣ ਲਈ ਮਾਫ਼ੀ | ਮਾਫ਼ੀ ਦੀ ਥਾਂ ਧੰਨਵਾਦ ਵੀ ਕਰ ਸਕਦੇ ਹੋ: Thanks for your patience। ਜਵਾਬ = reply; revert ਵਿਦੇਸ਼ ਵਿੱਚ ਇਸ ਅਰਥ ਵਿੱਚ ਨਹੀਂ ਚੱਲਦਾ।
+Thanks for getting back to me. | ਥ਼ੈਂਕ੍ਸ ਫ਼ਰ ˈਗੇਟਿਙ ਬੈਕ ਟ ਮੀ | ਜਵਾਬ ਦੇਣ ਲਈ ਸ਼ੁਕਰੀਆ | get back to = ਮੁੜ ਕੇ ਜਵਾਬ ਦੇਣਾ ਜਾਂ ਸੰਪਰਕ ਕਰਨਾ। for ਤੋਂ ਬਾਅਦ -ing।
+Best regards, | ਬੇਸ੍ਟ ਰਿˈਗਾਰ੍ਡ੍ਜ਼ | ਸ਼ੁਭ ਇੱਛਾਵਾਂ ਸਹਿਤ (ਈਮੇਲ ਦਾ ਅੰਤ) | ਹਰ ਥਾਂ ਚੱਲਣ ਵਾਲਾ ਅੰਤ। ਨੇੜਲਿਆਂ ਲਈ: Best, ਜਾਂ Thanks,। Yours faithfully ਜਾਂ Thanking you ਈਮੇਲ ਵਿੱਚ ਪੁਰਾਣੇ ਲੱਗਦੇ ਹਨ।
+Let's schedule a meeting. | ਲੇਟ੍ਸ ˈਸ੍ਕੇਜੂਲ ਅ ˈਮੀਟਿਙ | ਆਓ ਮੀਟਿੰਗ ਦਾ ਸਮਾਂ ਰੱਖ ਲਈਏ | schedule ਅਮਰੀਕਾ ਵਿੱਚ sk ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ, ਬ੍ਰਿਟੇਨ ਤੇ ਭਾਰਤ ਵਿੱਚ ਅਕਸਰ sh ਨਾਲ; ਦੋਵੇਂ ਠੀਕ ਹਨ।
+I'm running late. | ਆਈਮ ˈਰਨਿਙ ਲੇਟ | ਮੈਨੂੰ ਥੋੜ੍ਹੀ ਦੇਰ ਹੋ ਜਾਵੇਗੀ | ਰਾਹ ਵਿੱਚੋਂ ਪਹਿਲਾਂ ਦੱਸਣ ਲਈ; ਨਾਲ ਸਮਾਂ ਵੀ ਦੱਸੋ: I'll be there in 10। ਪੰਜਾਬੀ ਵਿੱਚ "ਮੈਨੂੰ ਦੇਰ…", ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਕਰਤਾ I।
+Can we push the meeting to 3? | ਕਨ ਵੀ ਪੁਸ਼ ਦ਼ ˈਮੀਟਿਙ ਟ ਥ਼੍ਰੀ | ਕੀ ਮੀਟਿੰਗ 3 ਵਜੇ ਤੇ ਪਾ ਸਕਦੇ ਹਾਂ? | push = ਪਿੱਛੇ ਪਾਉਣਾ (postpone)। ਪਹਿਲਾਂ ਕਰਨ ਲਈ move up: Can we move it up to 1? ਭਾਰਤ ਵਾਲਾ prepone ਵਿਦੇਸ਼ ਵਿੱਚ ਘੱਟ ਸਮਝਿਆ ਜਾਂਦਾ ਹੈ।
+I'll get back to you. | ਆਈਲ ਗੇਟ ਬੈਕ ਟ ਯੂ | ਮੈਂ ਦੇਖ ਕੇ ਤੁਹਾਨੂੰ ਦੱਸਦਾ ਹਾਂ | ਜਦੋਂ ਉਸੇ ਵੇਲੇ ਜਵਾਬ ਨਾ ਦੇ ਸਕੋ। I will revert ਦੀ ਥਾਂ ਇਹੀ ਕਹੋ।
+Can you walk me through it? | ਕਨ ਯੂ ਵੌਕ ਮੀ ਥ਼੍ਰੂ ਇਟ | ਕੀ ਤੁਸੀਂ ਮੈਨੂੰ ਇਹ ਇੱਕ-ਇੱਕ ਕਰ ਕੇ ਸਮਝਾ ਦਿਓਗੇ? | walk through = ਕਦਮ-ਦਰ-ਕਦਮ ਸਮਝਾਉਣਾ; ਤੁਰਨ ਨਾਲ ਕੋਈ ਵਾਸਤਾ ਨਹੀਂ।
+Let's touch base next week. | ਲੇਟ੍ਸ ਟਚ ਬੇਸ ਨੇਕ੍ਸ੍ਟ ਵੀਕ | ਅਗਲੇ ਹਫ਼ਤੇ ਥੋੜ੍ਹੀ ਗੱਲ ਕਰ ਲਵਾਂਗੇ | ਮਤਲਬ: ਛੋਟੀ ਜਿਹੀ ਗੱਲਬਾਤ ਕਰ ਕੇ ਕੰਮ ਦਾ ਹਾਲ ਸਾਂਝਾ ਕਰਨਾ। next week ਤੋਂ ਪਹਿਲਾਂ in ਜਾਂ on ਨਹੀਂ ਲੱਗਦਾ।
+What's the deadline? | ਵਟ੍ਸ ਦ਼ ˈਡੇਡ੍ਲਾਈਨ | ਆਖ਼ਰੀ ਤਾਰੀਖ਼ ਕੀ ਹੈ? | When is this due? ਦਾ ਵੀ ਇਹੀ ਮਤਲਬ ਹੈ। ਭਾਰਤ ਵਾਲਾ last date ਵੀ ਸਮਝਿਆ ਜਾਂਦਾ ਹੈ, ਪਰ ਕੰਮ ਲਈ deadline ਕਹਿੰਦੇ ਹਨ।
+I'm working from home today. | ਆਈਮ ˈਵਰ੍ਕਿਙ ਫ਼੍ਰਮ ਹੋਮ ਟˈਡੇ | ਅੱਜ ਮੈਂ ਘਰੋਂ ਕੰਮ ਕਰ ਰਿਹਾ ਹਾਂ | ਛੋਟਾ ਰੂਪ: WFH। "ਘਰੋਂ" = from home; home ਤੋਂ ਪਹਿਲਾਂ ਕੋਈ ਆਰਟੀਕਲ ਨਹੀਂ ਲੱਗਦਾ।
+I'm off tomorrow. | ਆਈਮ ਔਫ਼ ਟˈਮਾਰੋ | ਕੱਲ੍ਹ ਮੇਰੀ ਛੁੱਟੀ ਹੈ | ਛੁੱਟੀ ਲੈ ਰਹੇ ਹੋ ਤਾਂ: I'm taking a day off tomorrow। I'm on leave ਭਾਰਤ ਤੇ ਬ੍ਰਿਟੇਨ ਵਿੱਚ ਜ਼ਿਆਦਾ ਚੱਲਦਾ ਹੈ।
+Thanks for all your hard work. | ਥ਼ੈਂਕ੍ਸ ਫ਼ਰ ਔਲ ਯੁਰ ਹਾਰ੍ਡ ਵਰ੍ਕ | ਤੁਹਾਡੀ ਸਾਰੀ ਮਿਹਨਤ ਲਈ ਸ਼ੁਕਰੀਆ | ਕੰਮ ਮੁੱਕਣ ਤੇ ਸਾਥੀਆਂ ਦਾ ਧੰਨਵਾਦ ਕਰਨ ਲਈ। work ਨਾ-ਗਿਣਨਯੋਗ ਹੈ: hard works ✗।
+I have an interview tomorrow. | ਆਈ ਹੈਵ਼ ਅਨ ˈਇੰਟਰ੍ਵ਼ਿਊ ਟˈਮਾਰੋ | ਕੱਲ੍ਹ ਮੇਰਾ ਇੰਟਰਵਿਊ ਹੈ | interview ਸਵਰ ਦੀ ਆਵਾਜ਼ ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ, ਇਸ ਲਈ ਆਰਟੀਕਲ an। ਪੰਜਾਬੀ ਦਾ "ਮੇਰਾ … ਹੈ" ਇੱਥੇ I have ਬਣਦਾ ਹੈ।
+I'm looking for a part-time job. | ਆਈਮ ˈਲੁਕਿਙ ਫ਼ਰ ਅ ਪਾਰ੍ਟ ਟਾਈਮ ਜਾਬ | ਮੈਂ ਪਾਰਟ-ਟਾਈਮ ਨੌਕਰੀ ਲੱਭ ਰਹੀ ਹਾਂ | job ਗਿਣਨਯੋਗ ਹੈ: a job। work ਨਾ-ਗਿਣਨਯੋਗ ਹੈ: I'm looking for work, a work ਨਹੀਂ।
+What time does my shift start? | ਵਟ ਟਾਈਮ ਡਜ਼ ਮਾਈ ਸ਼ਿਫ਼੍ਟ ਸ੍ਟਾਰ੍ਟ | ਮੇਰੀ ਸ਼ਿਫ਼ਟ ਕਿੰਨੇ ਵਜੇ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ? | ਸਵਾਲ ਵਿੱਚ does ਤੇ ਫਿਰ start: What time my shift starts? ✗। ਰਾਤ ਦੀ ਸ਼ਿਫ਼ਟ = the night shift।
+Where's the admissions office? | ਵੇਰ੍ਜ਼ ਦ਼ੀ ਅਡ੍ˈਮਿਸ਼ਨ੍ਜ਼ ˈਔਫ਼ਿਸ | ਦਾਖ਼ਲਾ ਦਫ਼ਤਰ ਕਿੱਥੇ ਹੈ? | ਕਾਲਜ ਦਾ ਉਹ ਦਫ਼ਤਰ ਜਿੱਥੇ ਦਾਖ਼ਲੇ ਦਾ ਕੰਮ ਹੁੰਦਾ ਹੈ। ਕਾਲਜ ਵਿੱਚ ਇਹ ਇੱਕੋ ਹੁੰਦਾ ਹੈ, ਇਸ ਲਈ ਆਰਟੀਕਲ the।
 `,
-"전화·문자 줄임말": `
-Hello, this is Minji. | 헬로우, 디스 이즈 민지 | 여보세요, 민지예요 | 전화에서는 "I'm Minji" 대신 "This is Minji"
-Can I speak to Mr. Kim? | 캔 아이 스픽 투 미스터 킴? | 김 선생님과 통화할 수 있을까요? | 더 공손하게: "May I speak to…?"
-Who's calling, please? | 후즈 콜링, 플리즈? | 누구시죠? | 전화 받는 쪽에서 묻는 말
-Hold on a second. | 홀드 온 어 세컨드 | 잠시만 기다려 주세요 | 전화·대화 중에 잠깐 기다려 달라고 할 때
-Sorry, you're breaking up. | 쏘리, 유어 브레이킹 업 | 죄송해요, 소리가 끊겨요 | break up = (전화 소리가) 끊기다. 연인이 헤어지다는 뜻도 있어요
-Can I call you back? | 캔 아이 콜 유 백? | 다시 전화드려도 될까요? | 바쁠 때: "I'm in a meeting. Can I call you back?"
-I'll text you. | 아일 텍스트 유 | 문자할게 | 미국에선 메시지 보내는 걸 text라고 해요
-I'm on my way. | 아임 온 마이 웨이 | 가는 중이야 | 문자로는 OMW
-LOL | 엘오엘 | ㅋㅋㅋ (laughing out loud) | 진짜 크게 웃기보다는 가벼운 ㅋㅋ 느낌이에요
-BRB | 비알비 | 금방 올게 (be right back) | 채팅·게임에서 잠깐 자리 비울 때
-BTW | 비티더블유 | 근데 (by the way) | 화제 전환
-TBH | 티비에이치 | 솔직히 (to be honest) | 문장 앞이나 뒤에 붙여요
-IDK | 아이디케이 | 몰라 (I don't know) | 소문자 idk로 많이 써요
-OMG | 오엠지 | 헐 / 세상에 (oh my God) | 말로도 "오엠지!"라고 해요
-ASAP | 에이에스에이피 / 에이샙 | 최대한 빨리 (as soon as possible) | 직장에서도 쓰지만 상사에게는 날짜를 주는 게 더 공손해요
-TTYL | 티티와이엘 | 나중에 얘기해 (talk to you later) | 대화를 끝낼 때
-NVM | 엔브이엠 | 아냐, 됐어 (never mind) | 질문을 취소할 때
-FYI | 에프와이아이 | 참고로 (for your information) | 업무 메일·메신저에서 많이 써요
+"ਕਾਲ ਤੇ ਚੈਟ ਦੇ ਛੋਟੇ ਰੂਪ": `
+Hello, this is Simran. | ਹˈਲੋ ਦ਼ਿਸ ਇਜ਼ ˈਸਿਮ੍ਰਨ | ਹੈਲੋ, ਮੈਂ ਸਿਮਰਨ ਬੋਲ ਰਹੀ ਹਾਂ | ਫ਼ੋਨ ਤੇ I'm Simran ਜਾਂ Myself Simran ਨਹੀਂ; This is Simran। Simran this side ਸਿਰਫ਼ ਭਾਰਤ ਵਿੱਚ ਚੱਲਦਾ ਹੈ।
+Can I speak to Mr. Singh? | ਕਨ ਆਈ ਸ੍ਪੀਕ ਟ ˈਮਿਸ੍ਟਰ ਸਿਙ | ਕੀ ਮੇਰੀ ਸਿੰਘ ਸਾਹਿਬ ਨਾਲ ਗੱਲ ਹੋ ਸਕਦੀ ਹੈ? | Mr. / Ms. ਨਾਲ ਆਖ਼ਰੀ ਨਾਂ ਲੱਗਦਾ ਹੈ: Mr. Singh; Aman Sir ✗। ਹੋਰ ਨਿਮਰ: May I speak to…?
+Who's calling, please? | ਹੂਜ਼ ˈਕੌਲਿਙ ਪ੍ਲੀਜ਼ | ਕੌਣ ਬੋਲ ਰਿਹਾ ਹੈ ਜੀ? | ਫ਼ੋਨ ਚੁੱਕਣ ਵਾਲਾ ਪੁੱਛਦਾ ਹੈ। Who are you? ਰੁੱਖਾ ਲੱਗਦਾ ਹੈ।
+Hold on a second. | ਹੋਲ੍ਡ ਆਨ ਅ ˈਸੇਕੰਡ | ਇੱਕ ਸਕਿੰਟ ਰੁਕਣਾ | ਫ਼ੋਨ ਜਾਂ ਗੱਲਬਾਤ ਵਿੱਚ ਥੋੜ੍ਹੀ ਉਡੀਕ ਕਰਾਉਣ ਲਈ।
+Sorry, you're breaking up. | ˈਸਾਰੀ ਯੁਰ ˈਬ੍ਰੇਕਿਙ ਅਪ | ਮਾਫ਼ ਕਰਨਾ, ਤੁਹਾਡੀ ਆਵਾਜ਼ ਕੱਟ ਰਹੀ ਹੈ | break up = (ਫ਼ੋਨ ਦੀ ਆਵਾਜ਼) ਕੱਟਣਾ; ਜੋੜੇ ਦਾ ਰਿਸ਼ਤਾ ਟੁੱਟਣਾ ਵੀ। Your voice is cutting ਨਹੀਂ ਕਹਿੰਦੇ।
+Can I call you back? | ਕਨ ਆਈ ਕੌਲ ਯੂ ਬੈਕ | ਕੀ ਮੈਂ ਤੁਹਾਨੂੰ ਬਾਅਦ ਵਿੱਚ ਫ਼ੋਨ ਕਰਾਂ? | ਰੁੱਝੇ ਹੋਵੋ ਤਾਂ: I'm in a meeting. Can I call you back?
+I'll text you. | ਆਈਲ ਟੇਕ੍ਸ੍ਟ ਯੂ | ਮੈਂ ਤੈਨੂੰ ਮੈਸੇਜ ਕਰ ਦਿਆਂਗਾ | ਅਮਰੀਕਾ ਵਿੱਚ ਮੈਸੇਜ ਕਰਨ ਨੂੰ text ਕਹਿੰਦੇ ਹਨ। I'll message you ਵੀ ਠੀਕ ਹੈ; I'll do a message ✗।
+I'm on my way. | ਆਈਮ ਆਨ ਮਾਈ ਵੇ | ਮੈਂ ਰਾਹ ਵਿੱਚ ਹਾਂ / ਬੱਸ ਆ ਰਿਹਾ ਹਾਂ | ਮੈਸੇਜ ਵਿੱਚ OMW।
+LOL | ਏਲ ਓ ਏਲ | ਹਾ ਹਾ (laughing out loud) | ਸੱਚੀਂ ਉੱਚੀ ਹੱਸਣਾ ਨਹੀਂ; ਹਲਕਾ ਜਿਹਾ "ਹਾ ਹਾ"।
+BRB | ਬੀ ਆਰ ਬੀ | ਹੁਣੇ ਆਇਆ (be right back) | ਚੈਟ ਜਾਂ ਗੇਮ ਵਿੱਚੋਂ ਥੋੜ੍ਹੀ ਦੇਰ ਲਈ ਉੱਠਣ ਵੇਲੇ।
+BTW | ਬੀ ਟੀ ˈਡਬਲਿਊ | ਵੈਸੇ (by the way) | ਗੱਲ ਬਦਲਣ ਲਈ।
+TBH | ਟੀ ਬੀ ਏਚ | ਸੱਚ ਦੱਸਾਂ ਤਾਂ (to be honest) | ਵਾਕ ਦੇ ਸ਼ੁਰੂ ਜਾਂ ਅਖ਼ੀਰ ਤੇ ਲੱਗਦਾ ਹੈ।
+IDK | ਆਈ ਡੀ ਕੇ | ਪਤਾ ਨਹੀਂ (I don't know) | ਅਕਸਰ ਛੋਟੇ ਅੱਖਰਾਂ ਵਿੱਚ ਲਿਖਦੇ ਹਨ: idk।
+OMG | ਓ ਏਮ ਜੀ | ਹਾਏ ਰੱਬਾ (oh my God) | ਬੋਲਣ ਵਿੱਚ ਵੀ ਅੱਖਰ-ਅੱਖਰ ਕਹਿ ਦਿੰਦੇ ਹਨ: O-M-G!
+ASAP | ਏ ਏਸ ਏ ਪੀ / ˈਏਸੈਪ | ਜਿੰਨੀ ਛੇਤੀ ਹੋ ਸਕੇ (as soon as possible) | ਦਫ਼ਤਰ ਵਿੱਚ ਵੀ ਚੱਲਦਾ ਹੈ, ਪਰ ਸੀਨੀਅਰ ਨੂੰ ਤਾਰੀਖ਼ ਜਾਂ ਸਮਾਂ ਦੱਸਣਾ ਜ਼ਿਆਦਾ ਨਿਮਰ ਹੈ। ਅੱਖਰ-ਅੱਖਰ ਵੀ ਪੜ੍ਹਦੇ ਹਨ ਤੇ ਇੱਕ ਸ਼ਬਦ ਵਾਂਗ ਵੀ।
+TTYL | ਟੀ ਟੀ ਵਾਈ ਏਲ | ਫਿਰ ਗੱਲ ਕਰਦੇ ਹਾਂ (talk to you later) | ਗੱਲਬਾਤ ਮੁਕਾਉਣ ਵੇਲੇ।
+NVM | ਏਨ ਵ਼ੀ ਏਮ | ਛੱਡੋ, ਕੋਈ ਨਹੀਂ (never mind) | ਆਪਣਾ ਸਵਾਲ ਜਾਂ ਗੱਲ ਵਾਪਸ ਲੈਣ ਵੇਲੇ।
+FYI | ਏਫ਼ ਵਾਈ ਆਈ | ਤੁਹਾਡੀ ਜਾਣਕਾਰੀ ਲਈ (for your information) | ਦਫ਼ਤਰੀ ਈਮੇਲ ਤੇ ਚੈਟ ਵਿੱਚ ਬਹੁਤ ਚੱਲਦਾ ਹੈ।
 `,
-"여행(공항·호텔)": `
-Here's my passport. | 히어즈 마이 패스포트 | 여기 여권이요 | 체크인·입국 심사에서 건네며
-I'm here for sightseeing. | 아임 히어 포 싸잇씽 | 관광하러 왔어요 | 입국 심사 "What's the purpose of your visit?"에 대한 대답
-I'm staying for a week. | 아임 스테잉 포러 윅 | 일주일 머물 거예요 | "How long are you staying?"에 대한 대답
-I'm staying at the Hilton. | 아임 스테잉 앳 더 힐튼 | 힐튼 호텔에 묵어요 | "Where are you staying?"에 대한 대답
-Window or aisle? | 윈도우 오어 아일? | 창가석이요, 통로석이요? | aisle의 s는 묵음이에요: 아일
-I'd like an aisle seat, please. | 아이드 라익 언 아일 씻, 플리즈 | 통로 쪽 자리로 주세요 | 창가는 a window seat
-Where is the baggage claim? | 웨어리즈 더 배기지 클레임? | 짐 찾는 곳이 어디예요? | 영국에선 baggage reclaim
-My luggage is missing. | 마이 러기지 이즈 미싱 | 짐이 안 나왔어요 | luggage는 셀 수 없어요: a piece of luggage
-I have a reservation under Kim. | 아이 해버 레저베이션 언더 킴 | 김 이름으로 예약했어요 | under + 예약자 이름
-What time is check-out? | 왓 타임 이즈 체카웃? | 체크아웃은 몇 시예요? | 늦게 나가고 싶으면 "Can I get a late check-out?"
-Can I check in early? | 캔 아이 체킨 얼리? | 일찍 체크인할 수 있나요? | check in이 "체킨"처럼 이어져요
-Is breakfast included? | 이즈 브렉퍼스트 인클루디드? | 조식 포함이에요? | breakfast는 "브렉퍼스트". 브레이크가 아니에요
-The air conditioner isn't working. | 디 에어 컨디셔너 이즌트 워킹 | 에어컨이 안 돼요 | "에어컨"은 콩글리시. 줄여서 AC(에이씨)라고 해요
-Could I get some extra towels? | 쿠다이 겟 썸 엑스트라 타월즈? | 수건 좀 더 주실 수 있나요? | could I는 "쿠다이"처럼 이어져요
-Can you hold my bags until 3? | 캔 유 홀드 마이 백즈 언틸 쓰리? | 3시까지 짐 좀 맡아 주실 수 있어요? | 체크아웃 후 짐 보관 요청. hold = 맡아 두다
-My flight was delayed. | 마이 플라잇 워즈 딜레이드 | 비행기가 지연됐어요 | 결항은 canceled
-Where's gate 12? | 웨어즈 게잇 트웰브? | 12번 게이트 어디예요? | 영어는 번호를 뒤에 붙여요
-Do I need to take my laptop out? | 두 아이 니드 투 테익 마이 랩탑 아웃? | 노트북 꺼내야 해요? | 보안 검색대에서. "노트북"은 영어로 laptop이에요
+"ਸਫ਼ਰ (ਏਅਰਪੋਰਟ ਤੇ ਹੋਟਲ)": `
+Here's my passport. | ਹਿਰ੍ਜ਼ ਮਾਈ ˈਪੈਸ੍ਪੌਰ੍ਟ | ਆਹ ਲਓ ਮੇਰਾ ਪਾਸਪੋਰਟ | ਚੈੱਕ-ਇਨ ਜਾਂ ਇਮੀਗ੍ਰੇਸ਼ਨ ਕਾਊਂਟਰ ਤੇ ਫੜਾਉਣ ਵੇਲੇ। Here's… = "ਆਹ ਲਓ…"।
+I'm here for sightseeing. | ਆਈਮ ਹਿਰ ਫ਼ਰ ˈਸਾਈਟ੍ਸੀਇਙ | ਮੈਂ ਘੁੰਮਣ-ਫਿਰਨ ਆਇਆ ਹਾਂ | ਇਮੀਗ੍ਰੇਸ਼ਨ ਅਫ਼ਸਰ ਦੇ ਸਵਾਲ What's the purpose of your visit? ਦਾ ਜਵਾਬ। ਛੋਟਾ ਤੇ ਸਿੱਧਾ ਜਵਾਬ ਦਿਓ।
+I'm staying for a week. | ਆਈਮ ˈਸ੍ਟੇਇਙ ਫ਼ਰ ਅ ਵੀਕ | ਮੈਂ ਇੱਕ ਹਫ਼ਤਾ ਰਹਾਂਗੀ | How long are you staying? ਦਾ ਜਵਾਬ। ਮਿਆਦ ਤੋਂ ਪਹਿਲਾਂ for: for a week, for ten days।
+I'm staying at the Hilton. | ਆਈਮ ˈਸ੍ਟੇਇਙ ਅਟ ਦ਼ ˈਹਿਲ੍ਟਨ | ਮੈਂ ਹਿਲਟਨ ਹੋਟਲ ਵਿੱਚ ਠਹਿਰਿਆ ਹਾਂ | Where are you staying? ਦਾ ਜਵਾਬ। ਹੋਟਲ ਦੇ ਨਾਂ ਤੋਂ ਪਹਿਲਾਂ at the। ਕੁਝ ਦਿਨਾਂ ਲਈ ਠਹਿਰਨਾ = stay; ਪੱਕਾ ਰਹਿਣਾ = live।
+Window or aisle? | ˈਵਿੰਡੋ ਅਰ ਆਈਲ | ਖਿੜਕੀ ਵਾਲੀ ਸੀਟ ਜਾਂ ਰਾਹ ਵਾਲੀ? | aisle ਵਿੱਚ s ਨਹੀਂ ਬੋਲਦਾ। aisle = ਸੀਟਾਂ ਵਿਚਕਾਰਲਾ ਲਾਂਘਾ।
+I'd like an aisle seat, please. | ਆਈਡ ਲਾਈਕ ਅਨ ਆਈਲ ਸੀਟ ਪ੍ਲੀਜ਼ | ਮੈਨੂੰ ਰਾਹ ਵਾਲੀ ਸੀਟ ਦੇ ਦਿਓ | ਖਿੜਕੀ ਵਾਲੀ: a window seat। aisle ਸਵਰ ਦੀ ਆਵਾਜ਼ ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ, ਇਸ ਲਈ an।
+Where is the baggage claim? | ਵੇਰ ਇਜ਼ ਦ਼ ˈਬੈਗਿਜ ਕ੍ਲੇਮ | ਸਮਾਨ ਕਿੱਥੋਂ ਮਿਲੇਗਾ? | ਉਹ ਥਾਂ ਜਿੱਥੇ ਪੱਟੇ ਤੋਂ ਆਪਣਾ ਸਮਾਨ ਚੁੱਕਦੇ ਹਨ। ਬ੍ਰਿਟੇਨ ਵਿੱਚ: baggage reclaim।
+My luggage is missing. | ਮਾਈ ˈਲਗਿਜ ਇਜ਼ ˈਮਿਸਿਙ | ਮੇਰਾ ਸਮਾਨ ਨਹੀਂ ਆਇਆ | luggage ਨਾ-ਗਿਣਨਯੋਗ ਹੈ: luggages ✗। ਗਿਣਨਾ ਹੋਵੇ ਤਾਂ two bags ਜਾਂ two pieces of luggage।
+I have a reservation under Singh. | ਆਈ ਹੈਵ਼ ਅ ਰੇਜ਼ਰ੍ˈਵ਼ੇਸ਼ਨ ਅੰਡਰ ਸਿਙ | ਮੇਰੀ ਬੁਕਿੰਗ ਸਿੰਘ ਦੇ ਨਾਂ ਤੇ ਹੈ | under + ਉਹ ਨਾਂ ਜਿਸ ਤੇ ਬੁਕਿੰਗ ਹੈ। ਵਿਦੇਸ਼ੀ ਫ਼ਾਰਮਾਂ ਵਿੱਚ Singh ਜਾਂ Kaur ਆਮ ਤੌਰ ਤੇ last name ਵਾਲੇ ਖ਼ਾਨੇ ਵਿੱਚ ਜਾਂਦਾ ਹੈ।
+What time is check-out? | ਵਟ ਟਾਈਮ ਇਜ਼ ˈਚੇਕਾਊਟ | ਚੈੱਕ-ਆਊਟ ਕਿੰਨੇ ਵਜੇ ਹੈ? | ਦੇਰ ਨਾਲ ਨਿਕਲਣਾ ਹੋਵੇ ਤਾਂ: Can I get a late check-out?
+Can I check in early? | ਕਨ ਆਈ ਚੇਕ ਇਨ ˈਅਰ੍ਲੀ | ਕੀ ਮੈਂ ਛੇਤੀ ਚੈੱਕ-ਇਨ ਕਰ ਸਕਦੀ ਹਾਂ? | ਕਿਰਿਆ ਦੋ ਸ਼ਬਦਾਂ ਵਿੱਚ ਲਿਖਦੇ ਹਨ: check in; ਨਾਂਵ ਜੋੜ ਕੇ: check-in। ਬੋਲਣ ਵਿੱਚ ਦੋਵੇਂ ਸ਼ਬਦ ਜੁੜ ਜਾਂਦੇ ਹਨ।
+Is breakfast included? | ਇਜ਼ ˈਬ੍ਰੇਕ੍ਫ਼ਸ੍ਟ ਇਨ੍ˈਕ੍ਲੂਡਿਡ | ਕੀ ਨਾਸ਼ਤਾ ਕਿਰਾਏ ਵਿੱਚ ਸ਼ਾਮਲ ਹੈ? | breakfast ਦਾ ਪਹਿਲਾ ਹਿੱਸਾ ਛੋਟੀ ਏ ਨਾਲ ਬੋਲਦਾ ਹੈ, break ਵਾਂਗ ਨਹੀਂ। ਖਾਣੇ ਦੇ ਨਾਂ ਤੋਂ ਪਹਿਲਾਂ ਕੋਈ ਆਰਟੀਕਲ ਨਹੀਂ।
+The air conditioner isn't working. | ਦ਼ੀ ਏਰ ਕੰˈਡਿਸ਼ਨਰ ˈਇਜ਼ੰਟ ˈਵਰ੍ਕਿਙ | ਏ.ਸੀ. ਨਹੀਂ ਚੱਲ ਰਿਹਾ | ਛੋਟਾ ਰੂਪ AC ਅਮਰੀਕਾ ਵਿੱਚ ਵੀ ਚੱਲਦਾ ਹੈ। ਮਸ਼ੀਨ "ਚੱਲਦੀ" ਨਹੀਂ, work ਕਰਦੀ ਹੈ: isn't working।
+Could I get some extra towels? | ਕਡ ਆਈ ਗੇਟ ਸਮ ˈਏਕ੍ਸ੍ਟ੍ਰਾ ˈਟਾਊਅਲ੍ਜ਼ | ਕੁਝ ਹੋਰ ਤੌਲੀਏ ਮਿਲ ਸਕਦੇ ਹਨ? | Could I…? ਹੋਟਲ ਵਿੱਚ ਕੁਝ ਮੰਗਣ ਦਾ ਨਿਮਰ ਤਰੀਕਾ ਹੈ। towels ਬਹੁਵਚਨ ਵਿੱਚ।
+Can you hold my bags until 3? | ਕਨ ਯੂ ਹੋਲ੍ਡ ਮਾਈ ਬੈਗ੍ਜ਼ ਅੰਟਿਲ ਥ਼੍ਰੀ | ਕੀ ਤੁਸੀਂ 3 ਵਜੇ ਤੱਕ ਮੇਰੇ ਬੈਗ ਰੱਖ ਲਓਗੇ? | ਚੈੱਕ-ਆਊਟ ਮਗਰੋਂ ਸਮਾਨ ਰਖਵਾਉਣ ਲਈ। ਇੱਥੇ "ਤੱਕ" = until (ਉਸ ਸਮੇਂ ਤੱਕ ਲਗਾਤਾਰ), by ਨਹੀਂ।
+My flight was delayed. | ਮਾਈ ਫ਼੍ਲਾਈਟ ਵਜ਼ ਡਿˈਲੇਡ | ਮੇਰੀ ਫ਼ਲਾਈਟ ਲੇਟ ਹੋ ਗਈ | ਰੱਦ ਹੋ ਜਾਵੇ ਤਾਂ canceled। ਫ਼ਲਾਈਟ ਲਈ My flight got late ਨਹੀਂ; was delayed।
+Where's gate 12? | ਵੇਰ੍ਜ਼ ਗੇਟ ਟ੍ਵੇਲ੍ਵ਼ | ਗੇਟ ਨੰਬਰ 12 ਕਿੱਥੇ ਹੈ? | ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਨੰਬਰ ਪਿੱਛੋਂ ਲੱਗਦਾ ਹੈ ਤੇ number ਨਹੀਂ ਕਹਿੰਦੇ: gate 12, room 305। ਆਰਟੀਕਲ ਵੀ ਨਹੀਂ ਲੱਗਦਾ।
+Do I need to take my laptop out? | ਡ ਆਈ ਨੀਡ ਟ ਟੇਕ ਮਾਈ ˈਲੈਪ੍ਟਾਪ ਆਊਟ | ਕੀ ਲੈਪਟਾਪ ਬਾਹਰ ਕੱਢਣਾ ਪਵੇਗਾ? | ਸੁਰੱਖਿਆ ਜਾਂਚ ਵੇਲੇ। take out = ਬਾਹਰ ਕੱਢਣਾ; ਚੀਜ਼ ਵਿਚਕਾਰ ਆ ਸਕਦੀ ਹੈ: take it out।
+What's the purpose of your visit? | ਵਟ੍ਸ ਦ਼ ˈਪਰ੍ਪਸ ਅਵ਼ ਯੁਰ ˈਵ਼ਿਜ਼ਿਟ | ਤੁਸੀਂ ਕਿਸ ਕੰਮ ਲਈ ਆਏ ਹੋ? | ਇਮੀਗ੍ਰੇਸ਼ਨ ਕਾਊਂਟਰ ਦਾ ਪਹਿਲਾ ਸਵਾਲ। ਜਵਾਬ ਛੋਟਾ ਰੱਖੋ: I'm here to study / I'm here on vacation। visit ਦਾ v ਦੰਦ ਬੁੱਲ੍ਹ ਤੇ ਰੱਖ ਕੇ।
+I'm here to study. | ਆਈਮ ਹਿਰ ਟ ˈਸ੍ਟਡੀ | ਮੈਂ ਇੱਥੇ ਪੜ੍ਹਨ ਆਇਆ ਹਾਂ | ਮਕਸਦ ਦੱਸਣ ਲਈ to + V1: here to study; here for study ✗। study ਵਿੱਚ s ਤੇ t ਇਕੱਠੇ ਬੋਲੋ, ਸ਼ੁਰੂ ਵਿੱਚ ਕੋਈ ਸਵਰ ਨਹੀਂ।
+I'm staying with my uncle. | ਆਈਮ ˈਸ੍ਟੇਇਙ ਵਿਦ਼ ਮਾਈ ˈਅੰਕਲ | ਮੈਂ ਆਪਣੇ ਚਾਚਾ ਜੀ ਕੋਲ ਠਹਿਰਾਂਗੀ | ਚਾਚਾ, ਮਾਮਾ, ਤਾਇਆ, ਫੁੱਫੜ, ਮਾਸੜ — ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਸਭ uncle ਹਨ। "ਕੋਲ ਠਹਿਰਨਾ" = stay with।
+Do you have anything to declare? | ਡ ਯੂ ਹੈਵ਼ ˈਏਨੀਥ਼ਿਙ ਟ ਡਿˈਕ੍ਲੇਰ | ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਦੱਸਣ ਵਾਲੀ ਕੋਈ ਚੀਜ਼ ਹੈ? | ਕਸਟਮ ਵਾਲੇ ਪੁੱਛਦੇ ਹਨ: ਕੋਈ ਅਜਿਹੀ ਚੀਜ਼ ਜੋ ਦੱਸਣੀ ਜ਼ਰੂਰੀ ਹੈ, ਜਿਵੇਂ ਖਾਣ ਦੀਆਂ ਚੀਜ਼ਾਂ ਜਾਂ ਵੱਡੀ ਰਕਮ। ਕੁਝ ਨਾ ਹੋਵੇ ਤਾਂ: No, nothing to declare।
 `,
-"병원·긴급": `
-Help! | 헬프! | 도와주세요! | 위급할 때 크게 외쳐요
-Call 911! | 콜 나인 원 원! | 911에 전화해 주세요! | 미국 긴급번호는 911(나인 원 원), 영국은 999
-I need a doctor. | 아이 니더 닥터 | 의사가 필요해요 | 급하면 "I need an ambulance."
-I don't feel well. | 아이 돈 필 웰 | 몸이 안 좋아요 | 가장 무난한 표현이에요
-I have a headache. | 아이 해버 헤데익 | 머리가 아파요 | 아픈 곳 + ache: stomachache, toothache
-I have a fever. | 아이 해버 피버 | 열이 나요 | f는 윗니를 아랫입술에 대고 바람을 내보내요
-My stomach hurts. | 마이 스터먹 허츠 | 배가 아파요 | 아픈 부위 + hurts. stomach는 "스터먹"
-I have a sore throat. | 아이 해버 쏘어 쓰롯 | 목이 아파요 | sore = 쓰리고 아픈. 목 전체(neck)가 아니라 목구멍이에요
-I feel dizzy. | 아이 필 디지 | 어지러워요 | 메스꺼우면 "I feel sick." / "I feel nauseous."
-I sprained my ankle. | 아이 스프레인드 마이 앵클 | 발목을 삐었어요 | sprain = 삐다. 손목은 wrist
-Is there a pharmacy near here? | 이즈 데어러 파머시 니어 히어? | 이 근처에 약국 있어요? | 미국에선 drugstore(CVS 등)라고도 해요
-Do I need a prescription? | 두 아이 니더 프리스크립션? | 처방전이 필요한가요? | 미국은 처방전 없이 살 수 있는 약을 over-the-counter라고 해요
-I lost my wallet. | 아이 로스트 마이 월릿 | 지갑을 잃어버렸어요 | 휴대폰이면 phone. 분실물 센터는 lost and found
-Someone stole my phone. | 썸원 스톨 마이 폰 | 누가 제 휴대폰을 훔쳐 갔어요 | steal(훔치다)의 과거형 stole
-Where is the police station? | 웨어리즈 더 폴리스 스테이션? | 경찰서가 어디예요? | police 강세는 뒤: 폴리-스
-I need to contact the Korean embassy. | 아이 니드 투 칸택트 더 코리안 엠버시 | 한국 대사관에 연락해야 해요 | 여권 분실 시 꼭 필요한 문장이에요
-I have travel insurance. | 아이 해브 트래블 인슈어런스 | 여행자 보험이 있어요 | 병원비가 비싼 나라에선 꼭 가입하고 가세요
+"ਡਾਕਟਰ ਤੇ ਐਮਰਜੈਂਸੀ": `
+Help! | ਹੇਲ੍ਪ | ਬਚਾਓ! | ਖ਼ਤਰੇ ਵੇਲੇ ਉੱਚੀ ਆਵਾਜ਼ ਵਿੱਚ। ਆਮ ਮਦਦ ਮੰਗਣ ਲਈ: Can you help me?
+Call 911! | ਕੌਲ ਨਾਈਨ ਵਨ ਵਨ | 911 ਤੇ ਫ਼ੋਨ ਕਰੋ! | ਅਮਰੀਕਾ ਤੇ ਕੈਨੇਡਾ ਦਾ ਐਮਰਜੈਂਸੀ ਨੰਬਰ 911 ਹੈ (ਭਾਰਤ ਦੇ 112 ਵਾਂਗ); ਬ੍ਰਿਟੇਨ ਵਿੱਚ 999। ਅੰਕ ਇੱਕ-ਇੱਕ ਕਰ ਕੇ ਪੜ੍ਹਦੇ ਹਨ: nine-one-one।
+I need a doctor. | ਆਈ ਨੀਡ ਅ ˈਡਾਕ੍ਟਰ | ਮੈਨੂੰ ਡਾਕਟਰ ਦੀ ਲੋੜ ਹੈ | ਪੰਜਾਬੀ ਵਿੱਚ "ਮੈਨੂੰ … ਦੀ ਲੋੜ ਹੈ", ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਕਰਤਾ I: I need…। ਬਹੁਤ ਜ਼ਰੂਰੀ ਹੋਵੇ ਤਾਂ: I need an ambulance।
+I don't feel well. | ਆਈ ਡੋਂਟ ਫ਼ੀਲ ਵੇਲ | ਮੇਰੀ ਤਬੀਅਤ ਠੀਕ ਨਹੀਂ | ਸਭ ਤੋਂ ਆਮ ਤੇ ਹਰ ਥਾਂ ਚੱਲਣ ਵਾਲਾ ਰੂਪ। I'm not feeling well ਵੀ ਠੀਕ ਹੈ।
+I have a headache. | ਆਈ ਹੈਵ਼ ਅ ˈਹੇਡੇਕ | ਮੇਰਾ ਸਿਰ ਦੁਖਦਾ ਹੈ | My head is paining ✗। ਦਰਦ ਲਈ: ਅੰਗ + ache (stomachache, toothache), ਤੇ ਆਰਟੀਕਲ a।
+I have a fever. | ਆਈ ਹੈਵ਼ ਅ ˈਫ਼ੀਵ਼ਰ | ਮੈਨੂੰ ਬੁਖ਼ਾਰ ਹੈ | "ਮੈਨੂੰ ਬੁਖ਼ਾਰ ਹੈ" = I have a fever; Fever is coming to me ✗। fever ਦਾ ਫ਼ ਦੰਦਾਂ ਤੇ ਬੁੱਲ੍ਹ ਨਾਲ ਬੋਲੋ, ਪੰਜਾਬੀ ਦਾ ਫ ਨਹੀਂ।
+My stomach hurts. | ਮਾਈ ˈਸ੍ਟਮਕ ਹਰ੍ਟ੍ਸ | ਮੇਰਾ ਢਿੱਡ ਦੁਖਦਾ ਹੈ | ਅੰਗ + hurts। stomach ਦੇ ਅਖ਼ੀਰ ਵਿੱਚ ch ਦੀ ਆਵਾਜ਼ k ਹੈ।
+I have a sore throat. | ਆਈ ਹੈਵ਼ ਅ ਸੌਰ ਥ਼੍ਰੋਟ | ਮੇਰਾ ਗਲਾ ਖ਼ਰਾਬ ਹੈ | sore = ਦੁਖਦਾ, ਛਿੱਲਿਆ ਹੋਇਆ। throat ਗਲੇ ਦਾ ਅੰਦਰਲਾ ਹਿੱਸਾ ਹੈ; ਬਾਹਰੋਂ ਧੌਣ neck ਹੈ।
+I feel dizzy. | ਆਈ ਫ਼ੀਲ ˈਡਿਜ਼ੀ | ਮੈਨੂੰ ਚੱਕਰ ਆ ਰਹੇ ਹਨ | ਪੰਜਾਬੀ ਵਿੱਚ "ਮੈਨੂੰ ਚੱਕਰ…", ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਕਰਤਾ I: I feel dizzy। ਜੀ ਕੱਚਾ ਹੋਵੇ ਤਾਂ: I feel sick ਜਾਂ I feel nauseous।
+I sprained my ankle. | ਆਈ ਸ੍ਪ੍ਰੇਂਡ ਮਾਈ ˈਐਂਕਲ | ਮੇਰੇ ਗਿੱਟੇ ਵਿੱਚ ਮੋਚ ਆ ਗਈ | sprain = ਮੋਚ ਆਉਣੀ। ਗੁੱਟ = wrist। sprained ਵਿੱਚ s, p, r ਇਕੱਠੇ ਬੋਲੋ।
+Is there a pharmacy near here? | ਇਜ਼ ਦ਼ੇਰ ਅ ˈਫ਼ਾਰ੍ਮਸੀ ਨਿਰ ਹਿਰ | ਇੱਥੇ ਨੇੜੇ ਕੋਈ ਦਵਾਈਆਂ ਦੀ ਦੁਕਾਨ ਹੈ? | ਭਾਰਤ ਵਿੱਚ medical store ਜਾਂ chemist ਕਹਿੰਦੇ ਹਨ; ਅਮਰੀਕਾ ਵਿੱਚ pharmacy ਜਾਂ drugstore।
+Do I need a prescription? | ਡ ਆਈ ਨੀਡ ਅ ਪ੍ਰਿˈਸ੍ਕ੍ਰਿਪ੍ਸ਼ਨ | ਕੀ ਡਾਕਟਰ ਦੀ ਪਰਚੀ ਚਾਹੀਦੀ ਹੈ? | ਵਿਦੇਸ਼ ਵਿੱਚ ਬਹੁਤੀਆਂ ਦਵਾਈਆਂ ਪਰਚੀ ਤੋਂ ਬਿਨਾਂ ਨਹੀਂ ਮਿਲਦੀਆਂ। ਜੋ ਬਿਨਾਂ ਪਰਚੀ ਮਿਲ ਜਾਣ ਉਹ over-the-counter ਹਨ।
+I lost my wallet. | ਆਈ ਲੌਸ੍ਟ ਮਾਈ ˈਵਾਲਿਟ | ਮੇਰਾ ਬਟੂਆ ਗੁਆਚ ਗਿਆ | ਪੰਜਾਬੀ ਵਿੱਚ ਚੀਜ਼ "ਗੁਆਚ ਜਾਂਦੀ ਹੈ", ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਕਰਤਾ I: I lost…। ਗੁਆਚੇ ਸਮਾਨ ਦਾ ਦਫ਼ਤਰ: lost and found।
+Someone stole my phone. | ˈਸਮ੍ਵਨ ਸ੍ਟੋਲ ਮਾਈ ਫ਼ੋਨ | ਕਿਸੇ ਨੇ ਮੇਰਾ ਫ਼ੋਨ ਚੋਰੀ ਕਰ ਲਿਆ | stole, steal ਦਾ V2 ਹੈ। ਇਹ ਵੀ ਕਹਿੰਦੇ ਹਨ: My phone was stolen।
+Where is the police station? | ਵੇਰ ਇਜ਼ ਦ਼ ਪˈਲੀਸ ˈਸ੍ਟੇਸ਼ਨ | ਥਾਣਾ ਕਿੱਥੇ ਹੈ? | police ਵਿੱਚ ਜ਼ੋਰ ਦੂਜੇ ਹਿੱਸੇ ਤੇ ਹੈ ਤੇ ਪਹਿਲਾ ਸਵਰ ਬਹੁਤ ਹਲਕਾ। station ਵਿੱਚ s ਤੇ t ਇਕੱਠੇ।
+I need to contact the Indian embassy. | ਆਈ ਨੀਡ ਟ ˈਕਾਂਟੈਕ੍ਟ ਦ਼ੀ ˈਇੰਡੀਅਨ ˈਏਂਬਸੀ | ਮੈਂ ਭਾਰਤੀ ਦੂਤਾਵਾਸ ਨਾਲ ਸੰਪਰਕ ਕਰਨਾ ਹੈ | ਪਾਸਪੋਰਟ ਗੁਆਚ ਜਾਵੇ ਤਾਂ ਸਭ ਤੋਂ ਜ਼ਰੂਰੀ ਵਾਕ। contact ਤੋਂ ਬਾਅਦ with ਨਹੀਂ ਲੱਗਦਾ: contact the embassy।
+I have travel insurance. | ਆਈ ਹੈਵ਼ ˈਟ੍ਰੈਵ਼ਲ ਇਨ੍ˈਸ਼ੁਰਨ੍ਸ | ਮੇਰੇ ਕੋਲ ਸਫ਼ਰ ਦਾ ਬੀਮਾ ਹੈ | "ਮੇਰੇ ਕੋਲ … ਹੈ" = I have; I am having ਨਹੀਂ। insurance ਨਾ-ਗਿਣਨਯੋਗ ਹੈ: ਆਰਟੀਕਲ ਨਹੀਂ ਲੱਗਦਾ। ਅਮਰੀਕਾ ਵਿੱਚ ਇਲਾਜ ਬਹੁਤ ਮਹਿੰਗਾ ਹੈ।
 `,
-"구동사": `
-pick up | 피컵 | (차로) 데리러 가다 / 줍다 | "I'll pick you up at 7." 대명사(you, it)는 가운데에 와요
-give up | 기법 | 포기하다 | "Don't give up!" 무엇을 포기하는지는 ~ing: give up smoking
-figure out | 피겨라웃 | 알아내다 / 해결하다 | "I can't figure out this app." (이 앱 어떻게 쓰는지 모르겠어)
-find out | 파인다웃 | (사실을) 알게 되다 | 정보를 알아낼 때. figure out은 머리를 써서 풀 때
-look for | 룩 포 | 찾다 (찾는 중이다) | "I'm looking for my keys." 찾아냈으면 find
-look after | 룩 애프터 | 돌보다 | "Can you look after my cat?" 미국에선 take care of도 많이 써요
-look forward to | 룩 포워드 투 | ~을 기대하다 | to 뒤에 명사나 ~ing: "I'm looking forward to seeing you."
-run out of | 러나우로브 | ~이 다 떨어지다 | 무엇이 떨어졌는지는 of 뒤에: "We ran out of milk." (우유가 다 떨어졌어)
-turn on | 터논 | 켜다 | 전기·기계를 켤 때: "Turn on the light." 대명사는 가운데: "Turn it on."
-turn off | 터노프 | 끄다 | 대명사는 가운데: "Turn it off." (turn off it X)
-turn down | 턴 다운 | 거절하다 / (소리를) 줄이다 | 두 가지 뜻 모두 자주 써요: "She turned down the offer." / "Turn it down!"
-put off | 푸로프 | 미루다 | 일상 대화에선 postpone보다 훨씬 많이 써요: "Stop putting it off!"
-show up | 쇼우 업 | 나타나다 / 오다 | 약속 장소에 나타날 때: "He didn't show up to the party." (파티에 안 왔어)
-hang out | 행아웃 | 놀다 / 어울리다 | 친구랑 노는 건 play가 아니라 hang out! (play는 아이들이나 게임·운동)
-check out | 체카웃 | 확인하다 / 한번 보다 | "Check out this video!" 호텔 체크아웃이라는 뜻도 있어요
-work out | 워카웃 | 운동하다 / 잘 풀리다 | 헬스장 운동은 exercise보다 work out: "I work out every day." / "It'll work out." (잘될 거야)
-come up with | 커멉 위드 | (아이디어를) 생각해 내다 | 아이디어·핑계·해결책을 떠올릴 때: "She came up with a great idea."
-get along with | 게럴롱 위드 | ~와 잘 지내다 | 사이가 좋을 때: "I get along with my coworkers." (동료들과 잘 지내요)
-calm down | 캄 다운 | 진정하다 | calm의 l은 소리 나지 않아요. 화난 사람에게 쓰면 더 화나게 할 수도 있어요
-set up | 쎄럽 | 설치하다 / 마련하다 | 기기 설치·회의 준비 등: "Can you help me set up my printer?"
-break up | 브레이컵 | 헤어지다 | "They broke up last month." 누구와: break up with
-fill out | 필 아웃 | (서류를) 작성하다 | "Please fill out this form." 영국식은 fill in
-grow up | 그로우 업 | 자라다 | 자란 곳을 말할 때: "I grew up in Daegu." (대구에서 자랐어요)
-wake up | 웨이컵 | 잠에서 깨다 | 깨어나는 순간은 wake up, 침대에서 나오는 건 get up
+"ਫ਼ਰੇਜ਼ਲ ਵਰਬ": `
+pick up | ਪਿਕ ਅਪ | (ਗੱਡੀ ਵਿੱਚ) ਲੈਣ ਜਾਣਾ / ਚੁੱਕਣਾ | I'll pick you up at 7। ਪੜਨਾਂਵ (you, it) ਵਿਚਕਾਰ ਆਉਂਦਾ ਹੈ।
+give up | ਗਿਵ਼ ਅਪ | ਹਾਰ ਮੰਨਣੀ / ਛੱਡ ਦੇਣਾ | Don't give up! ਕੀ ਛੱਡਣਾ ਹੈ, ਉਹ -ing ਰੂਪ ਵਿੱਚ: give up sugar, give up trying।
+figure out | ˈਫ਼ਿਗ੍ਯਰ ਆਊਟ | ਸਮਝ ਲੈਣਾ / ਹੱਲ ਕੱਢਣਾ | I can't figure out this app = ਮੈਨੂੰ ਸਮਝ ਨਹੀਂ ਆ ਰਹੀ ਕਿ ਇਹ ਐਪ ਕਿਵੇਂ ਚੱਲਦੀ ਹੈ।
+find out | ਫ਼ਾਈਂਡ ਆਊਟ | ਪਤਾ ਲੱਗਣਾ / ਪਤਾ ਕਰਨਾ | ਕੋਈ ਗੱਲ ਜਾਂ ਜਾਣਕਾਰੀ ਪਤਾ ਕਰਨ ਲਈ। figure out ਦਿਮਾਗ਼ ਲਾ ਕੇ ਹੱਲ ਕੱਢਣਾ ਹੈ।
+look for | ਲੁਕ ਫ਼ੌਰ | ਲੱਭਣਾ (ਭਾਲ ਕਰਨੀ) | I'm looking for my keys। ਪੰਜਾਬੀ ਦਾ "ਲੱਭਣਾ" ਦੋ ਸ਼ਬਦ ਬਣਦਾ ਹੈ: ਭਾਲ ਚੱਲ ਰਹੀ ਹੋਵੇ ਤਾਂ look for, ਚੀਜ਼ ਲੱਭ ਜਾਵੇ ਤਾਂ find।
+look after | ਲੁਕ ˈਐਫ਼੍ਟਰ | ਦੇਖਭਾਲ ਕਰਨੀ | Can you look after my cat? ਅਮਰੀਕਾ ਵਿੱਚ take care of ਵੀ ਬਹੁਤ ਚੱਲਦਾ ਹੈ।
+look forward to | ਲੁਕ ˈਫ਼ੌਰ੍ਵਰ੍ਡ ਟੂ | ਚਾਅ ਨਾਲ ਉਡੀਕਣਾ | to ਤੋਂ ਬਾਅਦ ਨਾਂਵ ਜਾਂ -ing ਰੂਪ: I'm looking forward to seeing you; to see you ✗।
+run out of | ਰਨ ਆਊਟ ਅਵ਼ | (ਕੋਈ ਚੀਜ਼) ਮੁੱਕ ਜਾਣੀ | ਜੋ ਚੀਜ਼ ਮੁੱਕੀ ਹੈ ਉਹ of ਤੋਂ ਬਾਅਦ: We ran out of milk = ਸਾਡਾ ਦੁੱਧ ਮੁੱਕ ਗਿਆ।
+turn on | ਟਰ੍ਨ ਆਨ | (ਬੱਤੀ, ਮਸ਼ੀਨ) ਚਲਾਉਣਾ / ਜਗਾਉਣਾ | Turn on the light। open the light ✗। ਪੜਨਾਂਵ ਵਿਚਕਾਰ: Turn it on।
+turn off | ਟਰ੍ਨ ਔਫ਼ | (ਬੱਤੀ, ਮਸ਼ੀਨ) ਬੰਦ ਕਰਨਾ | ਪੰਜਾਬੀ ਵਿੱਚ ਬੱਤੀ "ਬੰਦ" ਕਰਦੇ ਹਨ, ਪਰ close the light ✗। ਪੜਨਾਂਵ ਵਿਚਕਾਰ: Turn it off; turn off it ✗।
+turn down | ਟਰ੍ਨ ਡਾਊਨ | ਨਾਂਹ ਕਰ ਦੇਣੀ / (ਆਵਾਜ਼) ਘੱਟ ਕਰਨੀ | ਦੋਵੇਂ ਅਰਥ ਆਮ ਹਨ: She turned down the offer / Turn it down!
+put off | ਪੁਟ ਔਫ਼ | ਅੱਗੇ ਪਾਉਣਾ / ਟਾਲਣਾ | ਬੋਲਚਾਲ ਵਿੱਚ postpone ਨਾਲੋਂ ਕਿਤੇ ਆਮ: Stop putting it off!
+show up | ਸ਼ੋ ਅਪ | ਪਹੁੰਚਣਾ / ਆ ਜਾਣਾ | ਜਿੱਥੇ ਆਉਣ ਦੀ ਗੱਲ ਹੋਈ ਸੀ ਉੱਥੇ ਪਹੁੰਚਣਾ: He didn't show up to the party = ਉਹ ਪਾਰਟੀ ਵਿੱਚ ਆਇਆ ਹੀ ਨਹੀਂ।
+hang out | ਹੈਙ ਆਊਟ | ਦੋਸਤਾਂ ਨਾਲ ਵਿਹਲਾ ਸਮਾਂ ਬਿਤਾਉਣਾ | ਵੱਡੇ ਦੋਸਤਾਂ ਨਾਲ play ਨਹੀਂ ਕਰਦੇ, hang out ਕਰਦੇ ਹਨ; play ਬੱਚਿਆਂ, ਖੇਡਾਂ ਤੇ ਗੇਮਾਂ ਲਈ ਹੈ।
+check out | ਚੇਕ ਆਊਟ | ਦੇਖਣਾ / ਨਜ਼ਰ ਮਾਰਨੀ | Check out this video! ਹੋਟਲ ਛੱਡਣ ਵਾਲਾ ਅਰਥ ਵੀ ਹੈ।
+work out | ਵਰ੍ਕ ਆਊਟ | ਕਸਰਤ ਕਰਨੀ / ਗੱਲ ਬਣ ਜਾਣੀ | ਜਿੰਮ ਦੀ ਕਸਰਤ ਲਈ exercise ਨਾਲੋਂ ਆਮ: I work out every day। ਦੂਜਾ ਅਰਥ: It'll work out = ਸਭ ਠੀਕ ਹੋ ਜਾਵੇਗਾ।
+come up with | ਕਮ ਅਪ ਵਿਦ਼ | (ਖ਼ਿਆਲ, ਹੱਲ) ਸੋਚ ਕੇ ਕੱਢਣਾ | ਖ਼ਿਆਲ, ਬਹਾਨਾ ਜਾਂ ਹੱਲ ਸੁੱਝਣ ਲਈ: She came up with a great idea।
+get along with | ਗੇਟ ਅˈਲੌਙ ਵਿਦ਼ | (ਕਿਸੇ ਨਾਲ) ਬਣਨੀ | I get along with my coworkers = ਮੇਰੀ ਆਪਣੇ ਸਾਥੀਆਂ ਨਾਲ ਚੰਗੀ ਬਣਦੀ ਹੈ।
+calm down | ਕਾਮ ਡਾਊਨ | ਸ਼ਾਂਤ ਹੋਣਾ | calm ਵਿੱਚ l ਨਹੀਂ ਬੋਲਦਾ। ਗੁੱਸੇ ਵਾਲੇ ਬੰਦੇ ਨੂੰ ਕਹੋ ਤਾਂ ਉਹ ਹੋਰ ਭੜਕ ਸਕਦਾ ਹੈ।
+set up | ਸੇਟ ਅਪ | ਲਾਉਣਾ / ਤਿਆਰ ਕਰਨਾ | ਮਸ਼ੀਨ ਲਾਉਣ ਜਾਂ ਮੀਟਿੰਗ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰਨ ਲਈ: Can you help me set up my printer?
+break up | ਬ੍ਰੇਕ ਅਪ | ਰਿਸ਼ਤਾ ਟੁੱਟਣਾ / ਵੱਖ ਹੋਣਾ | They broke up last month। ਕਿਸ ਨਾਲ: break up with।
+fill out | ਫ਼ਿਲ ਆਊਟ | (ਫ਼ਾਰਮ) ਭਰਨਾ | Please fill out this form। ਬ੍ਰਿਟੇਨ ਤੇ ਭਾਰਤ ਵਿੱਚ fill in ਜਾਂ fill up ਵੀ ਕਹਿੰਦੇ ਹਨ।
+grow up | ਗ੍ਰੋ ਅਪ | ਵੱਡੇ ਹੋਣਾ / ਪਲਣਾ | ਜਿੱਥੇ ਬਚਪਨ ਬੀਤਿਆ ਉਹ ਦੱਸਣ ਲਈ: I grew up in Ludhiana = ਮੈਂ ਲੁਧਿਆਣੇ ਵਿੱਚ ਵੱਡਾ ਹੋਇਆ।
+wake up | ਵੇਕ ਅਪ | ਜਾਗਣਾ / ਅੱਖ ਖੁੱਲ੍ਹਣੀ | ਅੱਖ ਖੁੱਲ੍ਹਣੀ wake up ਹੈ; ਬਿਸਤਰੇ ਵਿੱਚੋਂ ਉੱਠਣਾ get up।
 `,
-"발음 주의": `
-rice | 롸이스 | 쌀 / 밥 | R: 입술을 둥글게 내밀고, 혀끝은 어디에도 닿지 않게. lice와 구분해요
-lice | 라이스 | 이 (머리에 사는 벌레) | L: 혀끝을 윗니 뒤 잇몸에 붙였다 떼요. "I like rice"를 lice로 말하면 큰일!
-right | 롸잇 | 오른쪽 / 맞는 | R로 시작. light와 구분
-light | 라잇 | 빛 / 가벼운 | L로 시작. 혀끝이 윗잇몸에 닿아요
-fan | 팬 (f) | 선풍기 / 팬 (좋아하는 사람) | F: 윗니를 아랫입술에 살짝 대고 바람을 내보내요
-pan | 팬 (p) | 프라이팬 | P: 두 입술을 붙였다가 터뜨려요
-coffee | 커피 (f) | 커피 | 가운데 f를 살려요. p로 말하면 copy(카피)처럼 들려요
-copy | 카피 | 복사하다 / 복사본 | 가운데가 p. 미국식은 "카피"에 가까워요
-think | 띵크 (th) | 생각하다 | TH: 혀끝을 윗니와 아랫니 사이에 살짝 내밀고 바람. s로 말하면 sink
-sink | 씽크 | 싱크대 / 가라앉다 | 혀가 이 뒤에 숨어 있는 s 소리
-three | 쓰리 (th) | 숫자 3 | 혀를 이 사이에! t로 말하면 tree처럼 들려요
-tree | 트리 | 나무 | tr은 "츄리"에 가깝게 들리기도 해요
-this | 디스 (th) | 이것 | 성대를 울리는 th. 혀끝을 이 사이에 두고 "드"
-very | 베리 (v) | 매우 | V: 윗니를 아랫입술에 대고 성대를 울려요. b로 말하면 berry
-berry | 베리 (b) | 베리 (딸기 같은 열매) | 두 입술을 붙였다 떼는 b
-vote | 보웃 (v) | 투표하다 | v로 시작. boat와 구분
-boat | 보웃 (b) | 배 / 보트 | b로 시작. "보트"보다 "보웃"에 가까워요
-walk | 웍 | 걷다 | l은 소리 나지 않아요. 입을 크게 벌린 "어"
-work | 워r크 | 일하다 | 혀를 뒤로 말아 r을 넣어요. walk와 헷갈리기 쉬운 짝꿍
-beach | 비-치 | 해변 | "이-"를 길게! 짧게 말하면 욕처럼 들릴 수 있어요
-leave | 리-브 | 떠나다 | 길게 "리-". 짧은 live(살다)와 구분해요
-live | 리브 (짧게) | 살다 | 짧고 힘을 빼서 "리브". leave보다 입을 덜 벌려요
-banana | 버내너 | 바나나 | 강세는 가운데 "내". "바나나"라고 또박또박 읽으면 못 알아들어요
-hotel | 호우텔 | 호텔 | 강세는 뒤 "텔". 앞을 세게 말하면 어색해요
-milk | 밀크 (크는 아주 약하게) | 우유 | 끝에 "으"를 붙이지 마요. 끝 자음은 입 모양만 살짝
-McDonald's | 먹다널즈 | 맥도날드 | 강세는 "다". 미국에서 "맥도날드"라고 하면 잘 못 알아들어요
+"ਉਚਾਰਨ ਦੇ ਜਾਲ": `
+rice | ਰਾਈਸ | ਚੌਲ | ਅੰਗਰੇਜ਼ੀ ਦਾ r ਪੰਜਾਬੀ ਦੇ ਰ ਵਾਂਗ ਜੀਭ ਨੂੰ ਥਰਕਾ ਕੇ ਨਹੀਂ ਬੋਲਦੇ: ਜੀਭ ਦੀ ਨੋਕ ਕਿਤੇ ਨਹੀਂ ਛੂੰਹਦੀ। ਰ ਤੇ ਲ ਦਾ ਫ਼ਰਕ ਪੰਜਾਬੀ ਵਿੱਚ ਹੈ, ਇਸ ਲਈ lice ਨਾਲ ਰਲਣ ਦਾ ਡਰ ਨਹੀਂ।
+lice | ਲਾਈਸ | ਜੂੰਆਂ | l ਪੰਜਾਬੀ ਦੇ ਲ ਵਰਗਾ ਹੈ: ਜੀਭ ਦੀ ਨੋਕ ਉੱਪਰਲੇ ਮਸੂੜੇ ਨਾਲ ਲੱਗਦੀ ਹੈ। ਇਹ louse ਦਾ ਬਹੁਵਚਨ ਹੈ।
+right | ਰਾਈਟ | ਸੱਜਾ / ਠੀਕ | gh ਨਹੀਂ ਬੋਲਦਾ। r ਨੂੰ ਨਰਮ ਰੱਖੋ, ਜੀਭ ਨਾ ਥਰਕਾਓ।
+light | ਲਾਈਟ | ਰੌਸ਼ਨੀ / ਬੱਤੀ / ਹਲਕਾ | gh ਨਹੀਂ ਬੋਲਦਾ। ਬਿਜਲੀ ਲਈ light ਕਹਿਣਾ ("ਲਾਈਟ ਚਲੀ ਗਈ") ਭਾਰਤੀ ਵਰਤੋਂ ਹੈ; ਉੱਥੇ power ਜਾਂ electricity ਕਹਿੰਦੇ ਹਨ।
+fan | ਫ਼ੈਨ | ਪੱਖਾ / ਪ੍ਰਸ਼ੰਸਕ | ਫ਼: ਉੱਪਰਲੇ ਦੰਦ ਹੇਠਲੇ ਬੁੱਲ੍ਹ ਤੇ ਰੱਖ ਕੇ ਹਵਾ ਕੱਢੋ। ਪੰਜਾਬੀ ਦਾ ਫ (ਬੁੱਲ੍ਹ ਜੋੜ ਕੇ, ਹਵਾ ਦੇ ਫੱਕੇ ਨਾਲ) ਬੋਲੋ ਤਾਂ pan ਵਰਗਾ ਸੁਣਦਾ ਹੈ।
+pan | ਪੈਨ | ਤਵਾ / ਫ਼ਰਾਈ ਪੈਨ | p ਲਈ ਦੋਵੇਂ ਬੁੱਲ੍ਹ ਜੁੜ ਕੇ ਖੁੱਲ੍ਹਦੇ ਹਨ। ਸ਼ਬਦ ਦੇ ਸ਼ੁਰੂ ਵਿੱਚ ਅੰਗਰੇਜ਼ੀ ਦਾ p ਥੋੜ੍ਹੀ ਹਵਾ ਨਾਲ ਨਿਕਲਦਾ ਹੈ, ਪਰ ਬੁੱਲ੍ਹ ਜੁੜਦੇ ਜ਼ਰੂਰ ਹਨ।
+coffee | ˈਕੌਫ਼ੀ | ਕੌਫ਼ੀ | ਵਿਚਕਾਰ ਫ਼ ਹੈ, ਦੰਦ ਬੁੱਲ੍ਹ ਤੇ। ਪੰਜਾਬੀ ਦੇ ਫ ਨਾਲ ਬੋਲੋ ਤਾਂ copy ਵਰਗਾ ਸੁਣ ਸਕਦਾ ਹੈ।
+copy | ˈਕਾਪੀ | ਨਕਲ / ਕਾਪੀ ਕਰਨਾ | ਵਿਚਕਾਰ p ਹੈ: ਬੁੱਲ੍ਹ ਜੁੜਦੇ ਹਨ। ਅਮਰੀਕਾ ਵਿੱਚ ਪਹਿਲਾ ਸਵਰ ਖੁੱਲ੍ਹਾ ਆ ਹੈ। ਲਿਖਣ ਵਾਲੀ ਕਾਪੀ ਉੱਥੇ notebook ਹੈ।
+think | ਥ਼ਿੰਕ | ਸੋਚਣਾ | ਥ਼: ਜੀਭ ਦੀ ਨੋਕ ਦੰਦਾਂ ਵਿਚਕਾਰ ਰੱਖ ਕੇ ਹਵਾ ਲਗਾਤਾਰ ਨਿਕਲਣ ਦਿਓ। ਪੰਜਾਬੀ ਦਾ ਥ ਹਵਾ ਰੋਕ ਕੇ ਛੱਡਦਾ ਹੈ; ਉਹ ਸਮਝ ਆ ਜਾਂਦਾ ਹੈ, ਪਰ ਅੰਗਰੇਜ਼ੀ ਦੀ ਆਵਾਜ਼ ਇਹ ਨਹੀਂ।
+sink | ਸਿੰਕ | ਸਿੰਕ / ਡੁੱਬਣਾ | s ਵਿੱਚ ਜੀਭ ਦੰਦਾਂ ਦੇ ਪਿੱਛੇ ਰਹਿੰਦੀ ਹੈ। think ਨਾਲ ਜੋੜੀ ਬਣਾ ਕੇ ਸੁਣੋ।
+three | ਥ਼੍ਰੀ | ਤਿੰਨ | ਥ਼ ਤੇ r ਇਕੱਠੇ, ਵਿਚਕਾਰ ਕੋਈ ਸਵਰ ਨਹੀਂ। ਟ ਨਾਲ ਬੋਲੋ ਤਾਂ tree ਬਣ ਜਾਂਦਾ ਹੈ।
+tree | ਟ੍ਰੀ | ਰੁੱਖ | ਅੰਗਰੇਜ਼ੀ ਦਾ t ਪੰਜਾਬੀ ਦੇ ਟ ਦੇ ਨੇੜੇ ਹੈ, ਬੱਸ ਜੀਭ ਪਿੱਛੇ ਨੂੰ ਨਾ ਮੋੜੋ। t ਤੇ r ਇਕੱਠੇ ਬੋਲੋ।
+this | ਦ਼ਿਸ | ਇਹ | ਦ਼: ਜੀਭ ਦੀ ਨੋਕ ਦੰਦਾਂ ਵਿਚਕਾਰ, ਗਲੇ ਦੀ ਗੂੰਜ ਨਾਲ ਹਵਾ ਲਗਾਤਾਰ। ਪੰਜਾਬੀ ਦਾ ਦ ਹਵਾ ਰੋਕਦਾ ਹੈ ਤੇ ਡ ਨਾਲ ਬੋਲੋ ਤਾਂ dis ਵਰਗਾ ਸੁਣਦਾ ਹੈ।
+very | ˈਵ਼ੇਰੀ | ਬਹੁਤ | ਵ਼: ਉੱਪਰਲੇ ਦੰਦ ਹੇਠਲੇ ਬੁੱਲ੍ਹ ਤੇ, ਗਲੇ ਦੀ ਗੂੰਜ ਨਾਲ। ਪੰਜਾਬੀ ਦਾ ਵ ਅੰਗਰੇਜ਼ੀ ਦੇ v ਤੇ w ਦੇ ਵਿਚਕਾਰ ਹੈ; ਇੱਥੇ ਦੰਦ ਜ਼ਰੂਰ ਲਾਓ।
+berry | ˈਬੇਰੀ | ਬੇਰੀ (ਛੋਟਾ ਰਸਦਾਰ ਫਲ) | b ਲਈ ਦੋਵੇਂ ਬੁੱਲ੍ਹ ਜੁੜਦੇ ਹਨ, ਪੰਜਾਬੀ ਦੇ ਬ ਵਾਂਗ। very ਨਾਲ ਜੋੜੀ ਬਣਾ ਕੇ ਸੁਣੋ।
+vote | ਵ਼ੋਟ | ਵੋਟ ਪਾਉਣੀ | ਵ਼ ਨਾਲ ਸ਼ੁਰੂ, ਦੰਦ ਬੁੱਲ੍ਹ ਤੇ। ਸਵਰ ਇੱਕੋ ਥਾਂ ਨਹੀਂ ਟਿਕਦਾ: ਓ ਤੋਂ ਊ ਵੱਲ ਤਿਲਕਦਾ ਹੈ।
+boat | ਬੋਟ | ਕਿਸ਼ਤੀ | b ਨਾਲ ਸ਼ੁਰੂ। ਸਵਰ vote ਵਾਲਾ ਹੀ ਹੈ, ਓ ਤੋਂ ਊ ਵੱਲ ਤਿਲਕਦਾ।
+walk | ਵੌਕ | ਤੁਰਨਾ | l ਨਹੀਂ ਬੋਲਦਾ। ਸ਼ੁਰੂ ਵਿੱਚ w: ਬੁੱਲ੍ਹ ਗੋਲ, ਦੰਦ ਬੁੱਲ੍ਹ ਨੂੰ ਨਹੀਂ ਛੂੰਹਦੇ। ਸਵਰ ਖੁੱਲ੍ਹਾ ਤੇ ਲੰਮਾ।
+work | ਵਰ੍ਕ | ਕੰਮ ਕਰਨਾ | ਸਵਰ walk ਤੋਂ ਵੱਖਰਾ ਹੈ: ਅ ਵਰਗਾ, r ਦੇ ਰੰਗ ਵਾਲਾ। ਸ਼ੁਰੂ ਵਿੱਚ w: ਬੁੱਲ੍ਹ ਗੋਲ।
+beach | ਬੀਚ | ਸਮੁੰਦਰ ਦਾ ਕੰਢਾ | ਲੰਮੀ ਈ! ਛੋਟੀ ਇ ਨਾਲ ਬੋਲੋ ਤਾਂ ਗਾਲ੍ਹ ਵਰਗਾ ਸੁਣ ਸਕਦਾ ਹੈ।
+leave | ਲੀਵ਼ | ਜਾਣਾ / ਛੱਡਣਾ | ਲੰਮੀ ਈ। ਪੰਜਾਬੀ ਵਿੱਚ ਇ ਤੇ ਈ ਦਾ ਫ਼ਰਕ ਹੈ, ਇਸ ਲਈ live ਨਾਲ ਜੋੜੀ ਸੌਖੀ ਹੈ; ਧਿਆਨ ਅਖ਼ੀਰਲੇ ਵ਼ ਵੱਲ ਦਿਓ।
+live | ਲਿਵ਼ | ਰਹਿਣਾ | ਛੋਟੀ ਇ। ਅਖ਼ੀਰ ਵਿੱਚ ਵ਼: ਦੰਦ ਬੁੱਲ੍ਹ ਤੇ। ਇਹ ਕਿਰਿਆ ਹੈ; ਵਿਸ਼ੇਸ਼ਣ live ("ਸਿੱਧਾ ਪ੍ਰਸਾਰਣ") ਦਾ ਉਚਾਰਨ ਵੱਖਰਾ ਹੈ।
+banana | ਬˈਨੈਨਾ | ਕੇਲਾ | ਜ਼ੋਰ ਵਿਚਕਾਰਲੇ ਹਿੱਸੇ ਤੇ: ਬˈਨੈਨਾ। ਪਹਿਲਾ ਤੇ ਅਖ਼ੀਰਲਾ ਸਵਰ ਹਲਕਾ ਅ ਹੈ, ਪੂਰਾ ਆ ਨਹੀਂ।
+hotel | ਹੋˈਟੇਲ | ਹੋਟਲ | ਜ਼ੋਰ ਦੂਜੇ ਹਿੱਸੇ ਤੇ: ਹੋˈਟੇਲ। ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ hotel ਸਿਰਫ਼ ਠਹਿਰਨ ਦੀ ਥਾਂ ਹੈ; ਖਾਣਾ ਖਾਣ ਦੀ ਥਾਂ restaurant ਹੈ।
+milk | ਮਿਲ੍ਕ | ਦੁੱਧ | l ਤੇ k ਇਕੱਠੇ, ਵਿਚਕਾਰ ਕੋਈ ਸਵਰ ਨਹੀਂ: ਮਿਲ੍ਕ। "ਮਿਲਕ" ਨੂੰ "ਮਿਲਿਕ" ਨਾ ਬਣਾਓ।
+McDonald's | ਮਕ੍ˈਡਾਨਲ੍ਡ੍ਜ਼ | ਮੈਕਡੌਨਲਡਜ਼ | ਜ਼ੋਰ ਵਿਚਕਾਰਲੇ ਹਿੱਸੇ ਤੇ ਹੈ ਤੇ ਪਹਿਲਾ ਹਿੱਸਾ ਬਹੁਤ ਹਲਕਾ: ਮਕ੍ˈਡਾਨਲ੍ਡ੍ਜ਼।
+vine | ਵ਼ਾਈਨ | ਅੰਗੂਰ ਦੀ ਵੇਲ | ਵ਼: ਦੰਦ ਬੁੱਲ੍ਹ ਤੇ। wine ਨਾਲ ਫ਼ਰਕ ਸੁਣਨ ਲਈ ਇਹ ਸਭ ਤੋਂ ਵਧੀਆ ਜੋੜੀ ਹੈ।
+wine | ਵਾਈਨ | ਵਾਈਨ (ਅੰਗੂਰਾਂ ਦੀ ਸ਼ਰਾਬ) | ਵ: ਬੁੱਲ੍ਹ ਗੋਲ, ਦੰਦ ਬੁੱਲ੍ਹ ਨੂੰ ਨਹੀਂ ਛੂੰਹਦੇ। ਪੰਜਾਬੀ ਦਾ ਵ ਦੋਵਾਂ ਦੇ ਵਿਚਕਾਰਲੀ ਆਵਾਜ਼ ਹੈ।
+vest | ਵ਼ੇਸ੍ਟ | ਬਿਨਾਂ ਬਾਹਾਂ ਦੀ ਜੈਕਟ | ਵ਼ ਨਾਲ ਸ਼ੁਰੂ, ਦੰਦ ਬੁੱਲ੍ਹ ਤੇ। ਅਮਰੀਕਾ ਵਿੱਚ vest = ਬਿਨਾਂ ਬਾਹਾਂ ਦੀ ਜੈਕਟ; ਬ੍ਰਿਟੇਨ ਵਿੱਚ ਬਨੈਣ।
+west | ਵੇਸ੍ਟ | ਪੱਛਮ | ਵ ਨਾਲ ਸ਼ੁਰੂ, ਬੁੱਲ੍ਹ ਗੋਲ। vest ਤੇ west ਪੰਜਾਬੀ ਕੰਨ ਨੂੰ ਇੱਕੋ ਜਿਹੇ ਲੱਗਦੇ ਹਨ, ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਵੱਖਰੇ ਹਨ।
+wary | ˈਵੇਰੀ | ਚੌਕਸ / ਖ਼ਬਰਦਾਰ | ਵ (ਬੁੱਲ੍ਹ ਗੋਲ)। very (ਵ਼, ਦੰਦ ਬੁੱਲ੍ਹ ਤੇ) ਨਾਲ ਜੋੜੀ ਬਣਾ ਕੇ ਸੁਣੋ।
+zoo | ਜ਼ੂ | ਚਿੜੀਆ-ਘਰ | ਜ਼ ਪੈਰ-ਬਿੰਦੀ ਵਾਲਾ: ਭਿਣ-ਭਿਣ ਕਰਦੀ ਆਵਾਜ਼, ਜੀਭ ਮਸੂੜੇ ਨੂੰ ਨਹੀਂ ਛੂੰਹਦੀ। ਜ ਨਾਲ ਬੋਲੋ ਤਾਂ Jew ਵਰਗਾ ਸੁਣਦਾ ਹੈ।
+Jew | ਜੂ | ਯਹੂਦੀ | ਜ ਬਿੰਦੀ ਤੋਂ ਬਿਨਾਂ, ਪੰਜਾਬੀ ਵਾਲਾ ਜ। zoo ਨਾਲ ਫ਼ਰਕ ਸੁਣਨ ਲਈ ਜੋੜੀ।
+zero | ˈਜ਼ਿਰੋ | ਸਿਫ਼ਰ | ਜ਼ ਪੈਰ-ਬਿੰਦੀ ਵਾਲਾ: ˈਜ਼ਿਰੋ। "ਜੀਰੋ" ਨਹੀਂ।
+easy | ˈਈਜ਼ੀ | ਸੌਖਾ | ਵਿਚਕਾਰ ਜ਼: ˈਈਜ਼ੀ। "ਈਜੀ" ਨਹੀਂ।
+van | ਵ਼ੈਨ | ਵੈਨ | ਵ਼: ਦੰਦ ਬੁੱਲ੍ਹ ਤੇ। fan (ਫ਼) ਦੀ ਗੂੰਜ ਵਾਲੀ ਜੋੜੀ: ਮੂੰਹ ਦੀ ਬਣਤਰ ਇੱਕੋ, ਬੱਸ ਗਲਾ ਗੂੰਜਦਾ ਹੈ।
+school | ਸ੍ਕੂਲ | ਸਕੂਲ | s ਤੇ k ਇਕੱਠੇ; ਨਾ ਸ਼ੁਰੂ ਵਿੱਚ ਕੋਈ ਸਵਰ, ਨਾ ਵਿਚਕਾਰ: "ਇਸਕੂਲ" ਨਹੀਂ, "ਸਕੂਲ" ਵਿੱਚ ਸ ਤੋਂ ਬਾਅਦ ਅ ਵੀ ਨਹੀਂ।
+station | ˈਸ੍ਟੇਸ਼ਨ | ਸਟੇਸ਼ਨ | s ਤੇ t ਇਕੱਠੇ: ˈਸ੍ਟੇਸ਼ਨ। "ਸਟੇਸ਼ਨ" ਬੋਲਦਿਆਂ ਸ ਤੋਂ ਬਾਅਦ ਅ ਨਾ ਆਉਣ ਦਿਓ।
+about | ਅˈਬਾਊਟ | ਬਾਰੇ / ਲਗਭਗ | ਪਹਿਲਾ ਅ ਹਲਕਾ ਤੇ ਛੋਟਾ, ਜ਼ੋਰ ਦੂਜੇ ਹਿੱਸੇ ਤੇ: ਅˈਬਾਊਟ। "ਏ-ਬਾਊਟ" ਨਹੀਂ।
+photography | ਫ਼ˈਟਾਗ੍ਰਫ਼ੀ | ਫ਼ੋਟੋਗ੍ਰਾਫ਼ੀ | ਜ਼ੋਰ ਦੂਜੇ ਹਿੱਸੇ ਤੇ: ਫ਼ˈਟਾਗ੍ਰਫ਼ੀ। photo ਵਿੱਚ ਜ਼ੋਰ ਪਹਿਲੇ ਹਿੱਸੇ ਤੇ ਹੈ, photography ਵਿੱਚ ਨਹੀਂ।
+street | ਸ੍ਟ੍ਰੀਟ | ਗਲੀ / ਸੜਕ | s, t, r ਤਿੰਨੇ ਇਕੱਠੇ: ਸ੍ਟ੍ਰੀਟ। ਹਲੰਤ (੍) ਦੱਸਦਾ ਹੈ ਕਿ ਵਿਚਕਾਰ ਕੋਈ ਸਵਰ ਨਹੀਂ; "ਸਟਰੀਟ" ਨਹੀਂ।
+sport | ਸ੍ਪੌਰ੍ਟ | ਖੇਡ | s ਤੇ p ਇਕੱਠੇ, ਸ਼ੁਰੂ ਵਿੱਚ ਕੋਈ ਸਵਰ ਨਹੀਂ: "ਸਪੋਰਟ" ਨਹੀਂ, "ਇਸਪੋਰਟ" ਵੀ ਨਹੀਂ। ਅਖ਼ੀਰ ਵਿੱਚ r ਤੇ t ਵੀ ਇਕੱਠੇ।
+plate | ਪ੍ਲੇਟ | ਪਲੇਟ | p ਤੇ l ਇਕੱਠੇ: ਪ੍ਲੇਟ। "ਪਲੇਟ" ਵਿੱਚ ਪ ਤੋਂ ਬਾਅਦ ਅ ਨਾ ਬੋਲੋ।
+class | ਕ੍ਲੈਸ | ਜਮਾਤ / ਕਲਾਸ | k ਤੇ l ਇਕੱਠੇ: ਕ੍ਲੈਸ। "ਕਲਾਸ" ਵਿੱਚ ਕ ਤੋਂ ਬਾਅਦ ਅ ਨਹੀਂ; ਅਮਰੀਕਾ ਵਿੱਚ ਸਵਰ ਐ ਹੈ।
+film | ਫ਼ਿਲ੍ਮ | ਫ਼ਿਲਮ | l ਤੇ m ਇਕੱਠੇ, ਇੱਕੋ ਹਿੱਸਾ: ਫ਼ਿਲ੍ਮ। "ਫ਼ਿਲਮ" ਵਿੱਚ ਲ ਤੋਂ ਬਾਅਦ ਵਾਲਾ ਅ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਨਹੀਂ ਹੈ।
+world | ਵਰ੍ਲ੍ਡ | ਦੁਨੀਆ | ਅਖ਼ੀਰ ਵਿੱਚ r, l, d ਤਿੰਨੇ ਇਕੱਠੇ, ਵਿਚਕਾਰ ਕੋਈ ਸਵਰ ਨਹੀਂ। ਸ਼ੁਰੂ ਵਿੱਚ w: ਬੁੱਲ੍ਹ ਗੋਲ।
+asked | ਐਸ੍ਕ੍ਟ | ਪੁੱਛਿਆ (ask ਦਾ V2) | ਅਖ਼ੀਰ ਵਿੱਚ s, k, t ਇਕੱਠੇ; -ed ਇੱਥੇ ਸਿਰਫ਼ t ਬੋਲਦਾ ਹੈ। "ਆਸਕਡ" ਜਾਂ "ਆਸਕਿਡ" ਨਹੀਂ।
+happy | ˈਹੈਪੀ | ਖ਼ੁਸ਼ | pp ਲਿਖਿਆ ਹੈ ਪਰ p ਇੱਕੋ ਵਾਰ ਬੋਲਦਾ ਹੈ: ˈਹੈਪੀ। ਪੰਜਾਬੀ ਦੇ ਅੱਧਕ ਵਾਂਗ ਦੱਬ ਕੇ "ਹੈੱਪੀ" ਨਹੀਂ।
+city | ˈਸਿਟੀ | ਸ਼ਹਿਰ | t ਨੂੰ ਦੱਬ ਕੇ ਦੂਹਰਾ ਨਾ ਕਰੋ: ˈਸਿਟੀ, "ਸਿੱਟੀ" ਨਹੀਂ। ਅਮਰੀਕਾ ਵਿੱਚ ਇਹ t ਬਹੁਤ ਨਰਮ ਬੋਲਦਾ ਹੈ।
+behind | ਬਿˈਹਾਈਂਡ | ਪਿੱਛੇ | h ਸਾਹ ਵਾਲਾ ਪੂਰਾ ਬੋਲੋ: ਬਿˈਹਾਈਂਡ। ਪੰਜਾਬੀ ਵਿੱਚ ਸ਼ਬਦ ਦੇ ਵਿਚਕਾਰਲਾ ਹ ਅਕਸਰ ਸੁਰ ਬਣ ਜਾਂਦਾ ਹੈ; ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਨਹੀਂ।
+pleasure | ˈਪ੍ਲੇਜ਼ਰ | ਖ਼ੁਸ਼ੀ / ਅਨੰਦ | ਵਿਚਕਾਰ s ਦੀ ਆਵਾਜ਼ ਨਰਮ ਤੇ ਗੂੰਜ ਵਾਲੀ ਹੈ, ਸ਼ ਦੀ ਗੂੰਜ ਵਾਲੀ ਜੋੜੀ: ˈਪ੍ਲੇਜ਼ਰ। "ਪਲੇਜਰ" ਨਹੀਂ। p ਤੇ l ਇਕੱਠੇ।
 `,
-"영어 관용구": `
-It's a piece of cake. | 잇츠 어 피스 오브 케익 | 식은 죽 먹기예요 | 아주 쉬운 일. "The test was a piece of cake."
-I'm on cloud nine. | 아임 온 클라우드 나인 | 날아갈 듯 기뻐요 | 엄청 행복할 때
-It costs an arm and a leg. | 잇 코스츠 언 암 앤 어 레그 | 엄청 비싸요 | 팔다리를 내줄 만큼 비싸다는 뜻
-Let's call it a day. | 렛츠 콜 잇 어 데이 | 오늘은 여기까지 해요 | 일·공부를 마칠 때. 회의에서도 자연스러워요
-I'm feeling under the weather. | 아임 필링 언더 더 웨더 | 몸이 좀 안 좋아요 | 감기 기운처럼 가볍게 아플 때. 날씨와는 상관없어요
-I need to hit the books. | 아이 니드 투 힛 더 북스 | 공부 좀 열심히 해야 해 | 시험 전에. 책을 때리는 게 아니에요
-Once in a blue moon | 원스 인 어 블루 문 | 아주 가끔 | 아주 드문 일에: "I only eat fast food once in a blue moon."
-Better late than never. | 베러 레잇 댄 네버 | 늦더라도 안 하는 것보단 낫죠 | 늦게 시작한 사람을 격려할 때
-Don't beat around the bush. | 돈 비러롸운 더 부쉬 | 돌려 말하지 마요 | 본론을 말해 달라는 뜻
-It's not my cup of tea. | 잇츠 낫 마이 커퍼 티 | 제 취향은 아니에요 | 부드럽게 싫다고 할 때 좋아요
-Let's get the ball rolling. | 렛츠 겟 더 볼 롤링 | 자, 시작해 봅시다 | 회의·프로젝트 시작할 때
-I'll keep my fingers crossed. | 아일 킵 마이 핑거즈 크로스드 | 잘되길 빌게요 | 검지와 중지를 꼬는 제스처와 함께 써요
-Hang in there. | 행 인 데어 | 조금만 버텨 / 힘내 | 힘든 시기를 보내는 사람에게
-Speak of the devil! | 스픽 오브 더 데블! | 호랑이도 제 말 하면 온다더니! | 얘기하던 사람이 나타났을 때
-The ball is in your court. | 더 볼 이즈 인 유어 코트 | 이제 당신이 결정할 차례예요 | 테니스에서 온 표현
-My lips are sealed. | 마이 립스 아 씰드 | 비밀 지킬게요 | 입술을 봉했다는 뜻
-It's on the tip of my tongue. | 잇츠 온 더 팁 오브 마이 텅 | 혀끝에서 맴도는데… | 생각날 듯 말 듯할 때
-I'm all ears. | 아임 올 이어즈 | 잘 듣고 있어요 / 어서 말해 봐요 | 귀를 쫑긋 세우고 듣는다는 뜻
-When pigs fly. | 웬 픽스 플라이 | 해가 서쪽에서 뜨겠다 | 절대 일어나지 않을 일. "He'll clean his room when pigs fly."
+"ਅੰਗਰੇਜ਼ੀ ਮੁਹਾਵਰੇ": `
+It's a piece of cake. | ਇਟ੍ਸ ਅ ਪੀਸ ਅਵ਼ ਕੇਕ | ਇਹ ਤਾਂ ਖੱਬੇ ਹੱਥ ਦੀ ਖੇਡ ਹੈ | ਬਹੁਤ ਸੌਖਾ ਕੰਮ: The test was a piece of cake। ਸ਼ਬਦ-ਸ਼ਬਦ ਅਰਥ "ਕੇਕ ਦਾ ਟੁਕੜਾ" ਹੈ।
+I'm on cloud nine. | ਆਈਮ ਆਨ ਕ੍ਲਾਊਡ ਨਾਈਨ | ਮੈਂ ਖ਼ੁਸ਼ੀ ਨਾਲ ਫੁੱਲੀ ਨਹੀਂ ਸਮਾਉਂਦੀ | ਬੇਹੱਦ ਖ਼ੁਸ਼ੀ ਵੇਲੇ। ਸ਼ਬਦ-ਸ਼ਬਦ: "ਮੈਂ ਨੌਵੇਂ ਬੱਦਲ ਤੇ ਹਾਂ"।
+It costs an arm and a leg. | ਇਟ ਕੌਸ੍ਟ੍ਸ ਅਨ ਆਰ੍ਮ ਅੰਡ ਅ ਲੇਗ | ਇਹ ਬਹੁਤ ਹੀ ਮਹਿੰਗਾ ਹੈ | ਇੰਨਾ ਮਹਿੰਗਾ ਕਿ ਬਦਲੇ ਵਿੱਚ ਬਾਂਹ ਤੇ ਲੱਤ ਦੇਣੀ ਪਵੇ। It ਨਾਲ costs: -s ਨਾ ਛੱਡੋ।
+Let's call it a day. | ਲੇਟ੍ਸ ਕੌਲ ਇਟ ਅ ਡੇ | ਚਲੋ, ਅੱਜ ਲਈ ਇੰਨਾ ਹੀ | ਕੰਮ ਜਾਂ ਪੜ੍ਹਾਈ ਮੁਕਾਉਣ ਵੇਲੇ। ਮੀਟਿੰਗ ਵਿੱਚ ਵੀ ਚੱਲਦਾ ਹੈ।
+I'm feeling under the weather. | ਆਈਮ ˈਫ਼ੀਲਿਙ ਅੰਡਰ ਦ਼ ˈਵੇਦ਼ਰ | ਮੇਰੀ ਤਬੀਅਤ ਕੁਝ ਢਿੱਲੀ ਹੈ | ਹਲਕੀ ਬਿਮਾਰੀ ਲਈ, ਜਿਵੇਂ ਜ਼ੁਕਾਮ। ਮੌਸਮ ਨਾਲ ਕੋਈ ਵਾਸਤਾ ਨਹੀਂ।
+I need to hit the books. | ਆਈ ਨੀਡ ਟ ਹਿਟ ਦ਼ ਬੁਕ੍ਸ | ਹੁਣ ਮੈਨੂੰ ਡਟ ਕੇ ਪੜ੍ਹਨਾ ਪਵੇਗਾ | ਪੇਪਰਾਂ ਤੋਂ ਪਹਿਲਾਂ। ਕਿਤਾਬਾਂ ਨੂੰ ਮਾਰਨਾ ਨਹੀਂ; hit the books = ਪੜ੍ਹਾਈ ਵਿੱਚ ਜੁਟ ਜਾਣਾ।
+Once in a blue moon | ਵਨ੍ਸ ਇਨ ਅ ਬ੍ਲੂ ਮੂਨ | ਕਦੇ-ਕਦਾਈਂ (ਬਹੁਤ ਘੱਟ) | ਬਹੁਤ ਘੱਟ ਹੋਣ ਵਾਲੀ ਗੱਲ: I only eat fast food once in a blue moon।
+Better late than never. | ˈਬੇਟਰ ਲੇਟ ਦ਼ਨ ˈਨੇਵ਼ਰ | ਦੇਰ ਆਏ, ਦਰੁਸਤ ਆਏ | ਦੇਰ ਨਾਲ ਸ਼ੁਰੂ ਕਰਨ ਵਾਲੇ ਦਾ ਹੌਸਲਾ ਵਧਾਉਣ ਲਈ।
+Don't beat around the bush. | ਡੋਂਟ ਬੀਟ ਅਰਾਊਂਡ ਦ਼ ਬੁਸ਼ | ਗੱਲ ਨਾ ਘੁਮਾਓ, ਸਿੱਧੀ ਗੱਲ ਕਰੋ | ਜਦੋਂ ਚਾਹੋ ਕਿ ਅਗਲਾ ਅਸਲ ਗੱਲ ਤੇ ਆਵੇ। ਸ਼ਬਦ-ਸ਼ਬਦ: "ਝਾੜੀ ਦੇ ਦੁਆਲੇ ਸੋਟੀ ਨਾ ਮਾਰੋ"।
+It's not my cup of tea. | ਇਟ੍ਸ ਨਾਟ ਮਾਈ ਕਪ ਅਵ਼ ਟੀ | ਇਹ ਮੇਰੀ ਪਸੰਦ ਦੀ ਚੀਜ਼ ਨਹੀਂ | ਨਰਮੀ ਨਾਲ ਨਾਪਸੰਦ ਦੱਸਣ ਲਈ। ਚਾਹ ਨਾਲ ਕੋਈ ਵਾਸਤਾ ਨਹੀਂ।
+Let's get the ball rolling. | ਲੇਟ੍ਸ ਗੇਟ ਦ਼ ਬੌਲ ˈਰੋਲਿਙ | ਚਲੋ, ਕੰਮ ਸ਼ੁਰੂ ਕਰੀਏ | ਮੀਟਿੰਗ ਜਾਂ ਪ੍ਰੋਜੈਕਟ ਸ਼ੁਰੂ ਕਰਨ ਵੇਲੇ। ਸ਼ਬਦ-ਸ਼ਬਦ: "ਗੇਂਦ ਰੋੜ੍ਹੀਏ"।
+I'll keep my fingers crossed. | ਆਈਲ ਕੀਪ ਮਾਈ ˈਫ਼ਿੰਗਰ੍ਜ਼ ਕ੍ਰੌਸ੍ਟ | ਮੈਂ ਦੁਆ ਕਰਾਂਗੀ ਕਿ ਸਭ ਠੀਕ ਰਹੇ | ਨਾਲ ਹੱਥ ਦੀਆਂ ਪਹਿਲੀਆਂ ਦੋ ਉਂਗਲਾਂ ਇੱਕ-ਦੂਜੀ ਉੱਤੇ ਚੜ੍ਹਾਉਂਦੇ ਹਨ; ਉੱਥੇ ਇਹ ਚੰਗੀ ਕਿਸਮਤ ਦਾ ਇਸ਼ਾਰਾ ਹੈ।
+Hang in there. | ਹੈਙ ਇਨ ਦ਼ੇਰ | ਹਿੰਮਤ ਰੱਖ / ਡਟਿਆ ਰਹਿ | ਔਖੇ ਵੇਲੇ ਵਿੱਚੋਂ ਲੰਘ ਰਹੇ ਬੰਦੇ ਨੂੰ ਹੌਸਲਾ ਦੇਣ ਲਈ।
+Speak of the devil! | ਸ੍ਪੀਕ ਅਵ਼ ਦ਼ ˈਡੇਵ਼ਲ | ਨਾਂ ਲਿਆ ਤੇ ਹਾਜ਼ਰ! | ਜਿਸ ਦੀ ਗੱਲ ਚੱਲ ਰਹੀ ਹੋਵੇ, ਉਹੀ ਆ ਜਾਵੇ। ਇੱਥੇ devil ਗਾਲ੍ਹ ਨਹੀਂ, ਮਜ਼ਾਕ ਹੈ।
+The ball is in your court. | ਦ਼ ਬੌਲ ਇਜ਼ ਇਨ ਯੁਰ ਕੌਰ੍ਟ | ਹੁਣ ਫ਼ੈਸਲਾ ਤੁਹਾਡੇ ਹੱਥ ਹੈ | ਟੈਨਿਸ ਤੋਂ ਆਇਆ ਮੁਹਾਵਰਾ: ਗੇਂਦ ਤੁਹਾਡੇ ਪਾਸੇ ਹੈ, ਹੁਣ ਵਾਰੀ ਤੁਹਾਡੀ ਹੈ।
+My lips are sealed. | ਮਾਈ ਲਿਪ੍ਸ ਅਰ ਸੀਲ੍ਡ | ਮੈਂ ਕਿਸੇ ਨੂੰ ਨਹੀਂ ਦੱਸਾਂਗਾ | ਭੇਤ ਰੱਖਣ ਦਾ ਵਾਅਦਾ। ਸ਼ਬਦ-ਸ਼ਬਦ: "ਮੇਰੇ ਬੁੱਲ੍ਹ ਸੀਤੇ ਹੋਏ ਹਨ"। lips ਬਹੁਵਚਨ ਹੈ, ਇਸ ਲਈ are।
+It's on the tip of my tongue. | ਇਟ੍ਸ ਆਨ ਦ਼ ਟਿਪ ਅਵ਼ ਮਾਈ ਟਙ | ਜ਼ਬਾਨ ਤੇ ਆਇਆ ਪਿਆ ਹੈ, ਪਰ ਯਾਦ ਨਹੀਂ ਆ ਰਿਹਾ | ਜਦੋਂ ਕੋਈ ਨਾਂ ਜਾਂ ਸ਼ਬਦ ਯਾਦ ਆਉਂਦਾ-ਆਉਂਦਾ ਰਹਿ ਜਾਵੇ। tongue ਦੇ ਅਖ਼ੀਰ ਵਿੱਚ ue ਨਹੀਂ ਬੋਲਦਾ।
+I'm all ears. | ਆਈਮ ਔਲ ਇਰ੍ਜ਼ | ਦੱਸੋ, ਮੈਂ ਪੂਰੇ ਧਿਆਨ ਨਾਲ ਸੁਣ ਰਿਹਾ ਹਾਂ | ਜਦੋਂ ਅਗਲੇ ਦੀ ਗੱਲ ਸੁਣਨ ਲਈ ਪੂਰੀ ਤਰ੍ਹਾਂ ਤਿਆਰ ਹੋਵੋ। ਸ਼ਬਦ-ਸ਼ਬਦ: "ਮੈਂ ਸਾਰੇ ਦਾ ਸਾਰਾ ਕੰਨ ਹਾਂ"।
+When pigs fly. | ਵੇਨ ਪਿਗ੍ਜ਼ ਫ਼੍ਲਾਈ | ਇਹ ਕਦੇ ਨਹੀਂ ਹੋਣਾ | ਜੋ ਗੱਲ ਕਦੇ ਨਹੀਂ ਹੋ ਸਕਦੀ: He'll clean his room when pigs fly। ਸ਼ਬਦ-ਸ਼ਬਦ: "ਜਦੋਂ ਸੂਰ ਉੱਡਣਗੇ"।
 `,
-"영화·드라마·슬랭": `
-Spill the tea. | 스필 더 티 | 썰 좀 풀어 봐 | tea = 가십·소문. 친구 사이 슬랭
-No cap. | 노 캡 | 진짜야, 거짓말 아님 | 젊은 층 슬랭. cap = 거짓말
-That song slaps. | 댓 쏭 슬랩스 | 그 노래 진짜 좋다 | slap = (음악이) 끝내주다. 음식에도 써요
-I'm dead. | 아임 데드 | 개웃겨 / 빵 터졌어 | 문자에서 💀 이모지와 함께 써요. 진짜 죽었다는 뜻 아니에요
-Low-key | 로우키 | 은근히 / 살짝 | "I low-key love this song." 반대는 high-key(대놓고)
-I'm obsessed with this song. | 아임 업세스트 위드 디스 쏭 | 이 노래에 완전 꽂혔어 | obsessed = 푹 빠진. 긍정적으로 많이 써요
-What's it about? | 왓츠 잇 어바웃? | 무슨 내용이야? | 영화·드라마 줄거리를 물을 때
-No spoilers! | 노 스포일러즈! | 스포 금지! | "Don't spoil it!"도 같은 뜻
-I binge-watched the whole season. | 아이 빈지와치트 더 홀 시즌 | 시즌 전체를 정주행했어 | binge-watch = 몰아보기
-The ending was so good. | 디 엔딩 워즈 쏘 굿 | 결말 진짜 좋았어 | 별로였으면 "The ending was disappointing."
-It's a must-watch. | 잇츠 어 머스트와치 | 꼭 봐야 하는 작품이야 | 강력 추천할 때
-Plot twist! | 플랏 트위스트! | 반전! | 일상에서 예상 못 한 일이 생겼을 때도 써요
-It's overrated. | 잇츠 오버레이티드 | 과대평가됐어 | 반대는 underrated(과소평가된)
-That scene gave me chills. | 댓 씬 게이브 미 칠즈 | 그 장면 소름 돋았어 | 감동이나 긴장으로 소름 돋을 때
-Who's your bias? | 후즈 유어 바이어스? | 최애가 누구야? | K-pop 팬덤에서 쓰는 말. 일반적으로는 "Who's your favorite member?"
-Are you kidding me? | 아 유 키딩 미? | 장난해? / 이게 말이 돼? | 드라마 단골 대사. 놀람·짜증 모두 가능
-I've got your back. | 아이브 갓 유어 백 | 내가 네 편이야 | 든든하게 지켜 주겠다는 뜻
-Gotcha. | 가차 | 알았어 / 잡았다! | got you의 줄임말. 이해했다는 뜻으로 가장 많이 써요
-Let's do this! | 렛츠 두 디스! | 가자! 해 보자! | 시작 전에 의욕을 북돋울 때
+"ਫ਼ਿਲਮਾਂ, ਵੈੱਬ ਸੀਰੀਜ਼ ਤੇ ਸਲੈਂਗ": `
+Spill the tea. | ਸ੍ਪਿਲ ਦ਼ ਟੀ | ਸਾਰੀ ਗੱਲ ਦੱਸ, ਕੀ ਹੋਇਆ | ਇੱਥੇ tea = ਚੁਗ਼ਲੀ, ਅੰਦਰ ਦੀ ਖ਼ਬਰ। ਦੋਸਤਾਂ ਵਿਚਕਾਰ ਚੱਲਣ ਵਾਲਾ ਸਲੈਂਗ।
+No cap. | ਨੋ ਕੈਪ | ਸੱਚੀਂ, ਝੂਠ ਨਹੀਂ ਬੋਲਦਾ | ਨੌਜਵਾਨਾਂ ਦਾ ਸਲੈਂਗ। ਇੱਥੇ cap = ਝੂਠ, ਗੱਪ। ਰਸਮੀ ਥਾਂ ਨਾ ਵਰਤੋ।
+That song slaps. | ਦ਼ੈਟ ਸੌਙ ਸ੍ਲੈਪ੍ਸ | ਉਹ ਗਾਣਾ ਤਾਂ ਸਿਰਾ ਹੈ | slap = (ਗਾਣਾ) ਬਹੁਤ ਜ਼ਬਰਦਸਤ ਹੋਣਾ। ਖਾਣੇ ਲਈ ਵੀ ਕਹਿ ਦਿੰਦੇ ਹਨ। song ਇੱਕਵਚਨ ਹੈ, ਇਸ ਲਈ slaps।
+I'm dead. | ਆਈਮ ਡੇਡ | ਹੱਸ-ਹੱਸ ਕੇ ਬੁਰਾ ਹਾਲ ਹੋ ਗਿਆ | ਮੈਸੇਜ ਵਿੱਚ ਖੋਪੜੀ ਵਾਲੇ ਇਮੋਜੀ ਨਾਲ ਲਿਖਦੇ ਹਨ। ਸੱਚੀਂ ਮਰਨ ਦੀ ਗੱਲ ਨਹੀਂ: ਬਹੁਤ ਹਾਸਾ ਆਇਆ।
+Low-key | ਲੋˈਕੀ | ਚੁੱਪ-ਚੁਪੀਤੇ / ਥੋੜ੍ਹਾ-ਥੋੜ੍ਹਾ | I low-key love this song = ਅੰਦਰੋ-ਅੰਦਰੀ ਮੈਨੂੰ ਇਹ ਗਾਣਾ ਬਹੁਤ ਪਸੰਦ ਹੈ। ਉਲਟ: high-key (ਖੁੱਲ੍ਹ ਕੇ)।
+I'm obsessed with this song. | ਆਈਮ ਅਬ੍ˈਸੇਸ੍ਟ ਵਿਦ਼ ਦ਼ਿਸ ਸੌਙ | ਮੈਂ ਤਾਂ ਇਸ ਗਾਣੇ ਦੀ ਦੀਵਾਨੀ ਹੋ ਗਈ ਹਾਂ | obsessed ਤੋਂ ਬਾਅਦ with। ਬੋਲਚਾਲ ਵਿੱਚ ਚੰਗੇ ਅਰਥ ਵਿੱਚ ਬਹੁਤ ਚੱਲਦਾ ਹੈ।
+What's it about? | ਵਟ੍ਸ ਇਟ ਅˈਬਾਊਟ | ਇਹ ਕਿਸ ਬਾਰੇ ਹੈ? | ਫ਼ਿਲਮ ਜਾਂ ਸੀਰੀਜ਼ ਦੀ ਕਹਾਣੀ ਪੁੱਛਣ ਲਈ। about ਵਾਕ ਦੇ ਅਖ਼ੀਰ ਤੇ ਰਹਿੰਦਾ ਹੈ।
+No spoilers! | ਨੋ ˈਸ੍ਪੌਈਲਰ੍ਜ਼ | ਕਹਾਣੀ ਨਾ ਦੱਸੀਂ! | spoiler = ਉਹ ਗੱਲ ਜੋ ਅੱਗੇ ਦੀ ਕਹਾਣੀ ਖੋਲ੍ਹ ਕੇ ਮਜ਼ਾ ਖ਼ਰਾਬ ਕਰ ਦੇਵੇ। Don't spoil it! ਦਾ ਵੀ ਇਹੀ ਮਤਲਬ ਹੈ।
+I binge-watched the whole season. | ਆਈ ˈਬਿੰਜ੍ਵਾਚ੍ਟ ਦ਼ ਹੋਲ ˈਸੀਜ਼ਨ | ਮੈਂ ਪੂਰਾ ਸੀਜ਼ਨ ਇੱਕੋ ਵਾਰ ਵਿੱਚ ਦੇਖ ਲਿਆ | binge-watch = ਇੱਕ ਤੋਂ ਬਾਅਦ ਇੱਕ ਐਪੀਸੋਡ ਲਗਾਤਾਰ ਦੇਖੀ ਜਾਣਾ।
+The ending was so good. | ਦ਼ੀ ˈਏਂਡਿਙ ਵਜ਼ ਸੋ ਗੁਡ | ਅੰਤ ਬਹੁਤ ਵਧੀਆ ਸੀ | ਚੰਗਾ ਨਾ ਲੱਗੇ ਤਾਂ: The ending was disappointing। ਇੱਕ ਖ਼ਾਸ ਅੰਤ ਦੀ ਗੱਲ ਹੈ, ਇਸ ਲਈ ਆਰਟੀਕਲ The।
+It's a must-watch. | ਇਟ੍ਸ ਅ ˈਮਸ੍ਟ੍ਵਾਚ | ਇਹ ਜ਼ਰੂਰ ਦੇਖਣ ਵਾਲੀ ਚੀਜ਼ ਹੈ | ਜ਼ੋਰ ਦੇ ਕੇ ਸਿਫ਼ਾਰਸ਼ ਕਰਨ ਲਈ। must-watch ਇੱਥੇ ਨਾਂਵ ਹੈ, ਇਸ ਲਈ ਆਰਟੀਕਲ a।
+Plot twist! | ਪ੍ਲਾਟ ਟ੍ਵਿਸ੍ਟ | ਕਹਾਣੀ ਵਿੱਚ ਮੋੜ! | ਰੋਜ਼ ਦੀ ਜ਼ਿੰਦਗੀ ਵਿੱਚ ਕੋਈ ਅਣਸੋਚੀ ਗੱਲ ਹੋ ਜਾਵੇ ਤਾਂ ਵੀ ਮਜ਼ਾਕ ਵਿੱਚ ਕਹਿੰਦੇ ਹਨ।
+It's overrated. | ਇਟ੍ਸ ਓਵ਼ਰ੍ˈਰੇਟਿਡ | ਇਸ ਦੀ ਲੋੜ ਤੋਂ ਵੱਧ ਤਾਰੀਫ਼ ਹੁੰਦੀ ਹੈ | ਉਲਟ: underrated (ਜਿਸ ਦੀ ਬਣਦੀ ਕਦਰ ਨਹੀਂ ਪਈ)।
+That scene gave me chills. | ਦ਼ੈਟ ਸੀਨ ਗੇਵ਼ ਮੀ ਚਿਲ੍ਜ਼ | ਉਹ ਸੀਨ ਦੇਖ ਕੇ ਮੇਰੇ ਲੂੰ-ਕੰਡੇ ਖੜ੍ਹੇ ਹੋ ਗਏ | ਡਰ ਨਾਲ ਵੀ ਤੇ ਬਹੁਤ ਵਧੀਆ ਲੱਗਣ ਨਾਲ ਵੀ। chills ਹਮੇਸ਼ਾ ਬਹੁਵਚਨ ਵਿੱਚ।
+Who's your bias? | ਹੂਜ਼ ਯੁਰ ˈਬਾਈਅਸ | ਤੇਰਾ ਸਭ ਤੋਂ ਮਨਪਸੰਦ ਮੈਂਬਰ ਕੌਣ ਹੈ? | ਗਾਉਣ ਵਾਲੇ ਗਰੁੱਪਾਂ ਦੇ ਪ੍ਰਸ਼ੰਸਕ ਆਪਸ ਵਿੱਚ ਪੁੱਛਦੇ ਹਨ। ਆਮ ਬੋਲਚਾਲ ਵਿੱਚ: Who's your favorite member?
+Are you kidding me? | ਅਰ ਯੂ ˈਕਿਡਿਙ ਮੀ | ਮਜ਼ਾਕ ਕਰ ਰਿਹਾ ਹੈਂ? | ਫ਼ਿਲਮਾਂ ਵਿੱਚ ਬਹੁਤ ਸੁਣਦਾ ਹੈ। ਹੈਰਾਨੀ ਲਈ ਵੀ, ਖਿਝ ਲਈ ਵੀ।
+I've got your back. | ਆਈਵ਼ ਗਾਟ ਯੁਰ ਬੈਕ | ਮੈਂ ਤੇਰੇ ਨਾਲ ਖੜ੍ਹਾ ਹਾਂ | ਮਤਲਬ: ਔਖੇ ਵੇਲੇ ਮੈਂ ਤੇਰਾ ਸਾਥ ਦਿਆਂਗਾ। ਪਿੱਠ ਨਾਲ ਕੋਈ ਵਾਸਤਾ ਨਹੀਂ।
+Gotcha. | ˈਗਾਚਾ | ਸਮਝ ਗਿਆ / ਫੜ ਲਿਆ! | got you ਦਾ ਛੋਟਾ ਰੂਪ। ਬਹੁਤੀ ਵਾਰ "ਸਮਝ ਗਿਆ" ਦੇ ਅਰਥ ਵਿੱਚ; ਸਿਰਫ਼ ਬੋਲਚਾਲ ਵਿੱਚ।
+Let's do this! | ਲੇਟ੍ਸ ਡੂ ਦ਼ਿਸ | ਚਲੋ, ਹੋ ਜਾਓ ਸ਼ੁਰੂ! | ਕੋਈ ਕੰਮ ਸ਼ੁਰੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਜੋਸ਼ ਭਰਨ ਲਈ।
 `,
-"알파벳": `
-A | 에이 | 글자 A (소문자 a) | apple(사과)의 A. 이름은 '아'가 아니라 '에이'예요
-B | 비 (b) | 글자 B (소문자 b) | boy의 B. 두 입술을 붙였다 떼요. V와 이름이 같게 들리지 않게 조심해요
-C | 씨 | 글자 C (소문자 c) | coffee의 C. 이름이 see(보다)와 똑같은 소리예요
-D | 디 | 글자 D (소문자 d) | dog의 D. 이름은 '디'예요. T(티)와 달리 성대를 울려 부드럽게 시작해요
-E | 이 | 글자 E (소문자 e) | email의 E. 이름은 '이'예요. '아이'는 I의 이름이에요
-F | 에프 | 글자 F (소문자 f) | fan의 F. 윗니를 아랫입술에 대고 바람을 내요. P(피)와 구분해요
-G | 지 (g) | 글자 G (소문자 g) | game의 G. 입술을 내밀어 '쥐'에 가깝게. J(제이)와 이름이 달라요
-H | 에이치 | 글자 H (소문자 h) | hotel의 H. 이름이 모음 소리 '에'로 시작해서 an H라고 해요
-I | 아이 | 글자 I (소문자 i) | idea의 I. '나'를 뜻하는 I와 같은 소리예요. E(이)와 헷갈리지 마세요
-J | 제이 | 글자 J (소문자 j) | job의 J. G(지)와 바꿔 말하기 쉬워요
-K | 케이 | 글자 K (소문자 k) | key의 K. K-pop의 그 '케이'예요
-L | 엘 | 글자 L (소문자 l) | light의 L. 혀끝을 윗잇몸에 붙이며 '엘'로 끝내요
-M | 엠 | 글자 M (소문자 m) | milk의 M. 입술을 다물며 끝내요. summer처럼 M이 두 개면 double M이라고 불러요
-N | 엔 | 글자 N (소문자 n) | name의 N. 전화로는 M과 헷갈리기 쉬워 "N as in name"처럼 확인해요
-O | 오우 | 글자 O (소문자 o) | OK의 O. 이름은 '오'가 아니라 끝을 살짝 오므린 '오우'예요
-P | 피 | 글자 P (소문자 p) | pan의 P. 두 입술을 터뜨려요. F(에프)와 구분해요
-Q | 큐 | 글자 Q (소문자 q) | question의 Q. 단어에서는 거의 항상 뒤에 U가 와요 (qu)
-R | 아r | 글자 R (소문자 r) | rice의 R. '알'이 아니라 혀를 뒤로 말아 '아r'. L(엘)과 꼭 구분해요
-S | 에스 | 글자 S (소문자 s) | sorry의 S. 이름은 '에스'예요. '씨'는 C의 이름이에요
-T | 티 | 글자 T (소문자 t) | taxi의 T. 대문자는 capital T, 두 개면 double T라고 해요
-U | 유 | 글자 U (소문자 u) | university의 U. 이름이 '유'(y 소리)로 시작해서 an U가 아니라 a U
-V | 비 (v) | 글자 V (소문자 v) | very의 V. 윗니를 아랫입술에 대고 성대를 울려요. B와 구분해요
-W | 더블유 | 글자 W (소문자 w) | water의 W. 이름은 double u, 'U 두 개'라는 뜻이에요 (double v 아님)
-X | 엑스 | 글자 X (소문자 x) | X-ray(엑스레이)의 X. 이름이 모음 소리로 시작해서 an X-ray, an X
-Y | 와이 | 글자 Y (소문자 y) | yes의 Y. 이름이 why(왜)와 똑같은 소리예요
-Z | 지 (z) | 글자 Z (소문자 z) | zoo의 Z. 미국에서는 zee예요. '제트'라고 하면 잘 못 알아들어요
+"ਅੰਗਰੇਜ਼ੀ ਵਰਣਮਾਲਾ": `
+A | ਏ | ਅੱਖਰ A (ਛੋਟਾ a) | apple ਦਾ A। ਅੱਖਰ ਦਾ ਨਾਂ "ਏ" ਹੈ, ਭਾਵੇਂ ਸ਼ਬਦਾਂ ਵਿੱਚ ਇਹ ਕਈ ਵੱਖਰੀਆਂ ਆਵਾਜ਼ਾਂ ਦਿੰਦਾ ਹੈ।
+B | ਬੀ | ਅੱਖਰ B (ਛੋਟਾ b) | boy ਦਾ B। ਨਾਂ ਬੋਲਣ ਵੇਲੇ ਦੋਵੇਂ ਬੁੱਲ੍ਹ ਜੁੜਦੇ ਹਨ; V ਦੇ ਨਾਂ ਵਿੱਚ ਦੰਦ ਬੁੱਲ੍ਹ ਤੇ ਲੱਗਦੇ ਹਨ।
+C | ਸੀ | ਅੱਖਰ C (ਛੋਟਾ c) | coffee ਦਾ C। ਅੱਖਰ ਦਾ ਨਾਂ see (ਦੇਖਣਾ) ਵਾਂਗ ਬੋਲਦਾ ਹੈ।
+D | ਡੀ | ਅੱਖਰ D (ਛੋਟਾ d) | dog ਦਾ D। ਨਾਂ ਲੰਮੀ ਈ ਨਾਲ ਮੁੱਕਦਾ ਹੈ। ਫ਼ੋਨ ਤੇ D, B ਤੇ T ਇੱਕੋ ਜਿਹੇ ਸੁਣ ਸਕਦੇ ਹਨ: D as in dog।
+E | ਈ | ਅੱਖਰ E (ਛੋਟਾ e) | email ਦਾ E। ਅੱਖਰ ਦਾ ਨਾਂ "ਈ" ਹੈ। ਧਿਆਨ ਨਾਲ: "ਆਈ" I ਦਾ ਨਾਂ ਹੈ।
+F | ਏਫ਼ | ਅੱਖਰ F (ਛੋਟਾ f) | fan ਦਾ F। ਅਖ਼ੀਰ ਵਿੱਚ ਫ਼: ਦੰਦ ਬੁੱਲ੍ਹ ਤੇ। ਨਾਂ ਸਵਰ ਦੀ ਆਵਾਜ਼ ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ, ਇਸ ਲਈ an F।
+G | ਜੀ | ਅੱਖਰ G (ਛੋਟਾ g) | game ਦਾ G। ਨਾਂ "ਜੀ" ਹੈ; J ਦਾ ਨਾਂ "ਜੇ" ਹੈ। ਸਪੈਲਿੰਗ ਦੱਸਣ ਵੇਲੇ ਇਹ ਦੋਵੇਂ ਸਭ ਤੋਂ ਵੱਧ ਰਲਦੇ ਹਨ।
+H | ਏਚ | ਅੱਖਰ H (ਛੋਟਾ h) | hotel ਦਾ H। ਨਾਂ "ਏਚ" ਹੈ, ਸ਼ੁਰੂ ਵਿੱਚ h ਤੋਂ ਬਿਨਾਂ; "ਹੈੱਚ" ਨਹੀਂ। ਇਸ ਲਈ an H।
+I | ਆਈ | ਅੱਖਰ I (ਛੋਟਾ i) | idea ਦਾ I। ਨਾਂ ਉਸੇ ਤਰ੍ਹਾਂ ਬੋਲਦਾ ਹੈ ਜਿਵੇਂ I (ਮੈਂ)। E (ਈ) ਨਾਲ ਨਾ ਰਲਾਓ।
+J | ਜੇ | ਅੱਖਰ J (ਛੋਟਾ j) | job ਦਾ J। ਨਾਂ "ਜੇ" ਹੈ, ਪੰਜਾਬੀ ਦੇ ਜ ਵਾਲੀ ਆਵਾਜ਼ ਨਾਲ। G (ਜੀ) ਨਾਲ ਨਾ ਰਲਾਓ।
+K | ਕੇ | ਅੱਖਰ K (ਛੋਟਾ k) | key ਦਾ K। ਨਾਂ "ਕੇ" ਹੈ। know ਤੇ knife ਵਰਗੇ ਸ਼ਬਦਾਂ ਦੇ ਸ਼ੁਰੂ ਵਿੱਚ K ਨਹੀਂ ਬੋਲਦਾ।
+L | ਏਲ | ਅੱਖਰ L (ਛੋਟਾ l) | light ਦਾ L। ਨਾਂ "ਐਲ" ਸਵਰ ਦੀ ਆਵਾਜ਼ ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ: an L। ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ l ਇੱਕੋ ਹੈ; ਪੰਜਾਬੀ ਦੇ ਦੂਜੇ, ਮੁੜਵੇਂ ਲ ਵਰਗੀ ਕੋਈ ਆਵਾਜ਼ ਨਹੀਂ।
+M | ਏਮ | ਅੱਖਰ M (ਛੋਟਾ m) | milk ਦਾ M। summer ਵਾਂਗ ਦੋ M ਇਕੱਠੇ ਹੋਣ ਤਾਂ ਸਪੈਲਿੰਗ ਦੱਸਣ ਵੇਲੇ double M ਕਹਿੰਦੇ ਹਨ।
+N | ਏਨ | ਅੱਖਰ N (ਛੋਟਾ n) | name ਦਾ N। ਫ਼ੋਨ ਤੇ M ਤੇ N ਰਲ ਜਾਂਦੇ ਹਨ, ਇਸ ਲਈ ਪੱਕਾ ਕਰਦੇ ਹਨ: N as in name।
+O | ਓ | ਅੱਖਰ O (ਛੋਟਾ o) | OK ਦਾ O। ਨਾਂ ਸਿੱਧਾ "ਓ" ਨਹੀਂ; ਅਖ਼ੀਰ ਤੇ ਬੁੱਲ੍ਹ ਗੋਲ ਹੋ ਕੇ ਊ ਵੱਲ ਜਾਂਦੇ ਹਨ। ਫ਼ੋਨ ਨੰਬਰ ਵਿੱਚ 0 ਨੂੰ ਵੀ ਅਕਸਰ O ਪੜ੍ਹਦੇ ਹਨ।
+P | ਪੀ | ਅੱਖਰ P (ਛੋਟਾ p) | pan ਦਾ P। ਨਾਂ "ਪੀ" ਬੁੱਲ੍ਹ ਜੋੜ ਕੇ ਬੋਲਦੇ ਹਨ। F ਦਾ ਨਾਂ ਵੱਖਰਾ ਹੈ ਤੇ ਉਸ ਵਿੱਚ ਦੰਦ ਬੁੱਲ੍ਹ ਤੇ ਲੱਗਦੇ ਹਨ।
+Q | ਕਿਊ | ਅੱਖਰ Q (ਛੋਟਾ q) | question ਦਾ Q। ਸ਼ਬਦਾਂ ਵਿੱਚ ਇਸ ਤੋਂ ਬਾਅਦ ਲਗਭਗ ਹਮੇਸ਼ਾ U ਆਉਂਦਾ ਹੈ (qu)। ਕਤਾਰ ਲਈ ਸ਼ਬਦ queue ਦਾ ਉਚਾਰਨ ਵੀ ਇਹੀ ਹੈ।
+R | ਆਰ | ਅੱਖਰ R (ਛੋਟਾ r) | rice ਦਾ R। ਅਮਰੀਕਾ ਵਿੱਚ ਨਾਂ ਦੇ ਅਖ਼ੀਰ ਤੇ r ਸੁਣਦਾ ਹੈ, ਪਰ ਜੀਭ ਥਰਕਦੀ ਨਹੀਂ। ਨਾਂ ਸਵਰ ਦੀ ਆਵਾਜ਼ ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ: an R।
+S | ਏਸ | ਅੱਖਰ S (ਛੋਟਾ s) | sorry ਦਾ S। ਨਾਂ "ਐਸ" ਹੈ: an S। ਧਿਆਨ ਨਾਲ: "ਸੀ" C ਦਾ ਨਾਂ ਹੈ।
+T | ਟੀ | ਅੱਖਰ T (ਛੋਟਾ t) | taxi ਦਾ T। ਵੱਡਾ ਅੱਖਰ capital T ਹੈ; ਦੋ ਇਕੱਠੇ ਹੋਣ ਤਾਂ double T।
+U | ਯੂ | ਅੱਖਰ U (ਛੋਟਾ u) | university ਦਾ U। ਨਾਂ y ਦੀ ਆਵਾਜ਼ (ਯ) ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ, ਇਸ ਲਈ a U, an U ਨਹੀਂ; ਇਸੇ ਤਰ੍ਹਾਂ a university।
+V | ਵ਼ੀ | ਅੱਖਰ V (ਛੋਟਾ v) | very ਦਾ V। ਨਾਂ ਵ਼ ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ: ਦੰਦ ਬੁੱਲ੍ਹ ਤੇ। ਬੁੱਲ੍ਹ ਗੋਲ ਕਰ ਕੇ ਬੋਲੋ ਤਾਂ we ਵਰਗਾ ਸੁਣਦਾ ਹੈ।
+W | ˈਡਬਲਿਊ | ਅੱਖਰ W (ਛੋਟਾ w) | water ਦਾ W। ਨਾਂ double u ਹੈ, ਯਾਨੀ "ਦੋ U"। ਅੱਖਰ ਦੀ ਆਵਾਜ਼ ਬੁੱਲ੍ਹ ਗੋਲ ਕਰ ਕੇ ਨਿਕਲਦੀ ਹੈ, ਦੰਦ ਨਹੀਂ ਲੱਗਦੇ।
+X | ਏਕ੍ਸ | ਅੱਖਰ X (ਛੋਟਾ x) | X-ray ਦਾ X। ਨਾਂ "ਐਕਸ" ਸਵਰ ਦੀ ਆਵਾਜ਼ ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ: an X-ray, an X।
+Y | ਵਾਈ | ਅੱਖਰ Y (ਛੋਟਾ y) | yes ਦਾ Y। ਅੱਖਰ ਦਾ ਨਾਂ why (ਕਿਉਂ) ਵਾਂਗ ਬੋਲਦਾ ਹੈ।
+Z | ਜ਼ੀ | ਅੱਖਰ Z (ਛੋਟਾ z) | zoo ਦਾ Z। ਅਮਰੀਕਾ ਵਿੱਚ ਨਾਂ zee ਹੈ; ਭਾਰਤ, ਬ੍ਰਿਟੇਨ ਤੇ ਕੈਨੇਡਾ ਵਿੱਚ zed। ਦੋਵੇਂ ਠੀਕ ਹਨ, ਪਰ ਦੋਵਾਂ ਵਿੱਚ ਜ਼ ਹੈ, ਜ ਨਹੀਂ।
+`,
+"ਇੰਡੀਅਨ ਇੰਗਲਿਸ਼: ਭਾਰਤ ਬਨਾਮ ਵਿਦੇਸ਼": `
+Can we move the meeting up? | ਕਨ ਵੀ ਮੂਵ਼ ਦ਼ ˈਮੀਟਿਙ ਅਪ | ਕੀ ਮੀਟਿੰਗ ਪਹਿਲਾਂ ਕਰ ਸਕਦੇ ਹਾਂ? | prepone the meeting ਭਾਰਤ ਵਿੱਚ ਚੱਲਦਾ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ prepone ਘੱਟ ਸਮਝਿਆ ਜਾਂਦਾ ਹੈ, ਉੱਥੇ move up ਜਾਂ bring forward ਕਹਿੰਦੇ ਹਨ।
+I'm out of town this week. | ਆਈਮ ਆਊਟ ਅਵ਼ ਟਾਊਨ ਦ਼ਿਸ ਵੀਕ | ਇਸ ਹਫ਼ਤੇ ਮੈਂ ਸ਼ਹਿਰੋਂ ਬਾਹਰ ਹਾਂ | I'm out of station ਭਾਰਤ ਵਿੱਚ ਚੱਲਦਾ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ out of town ਕਹਿੰਦੇ ਹਨ।
+What's your name? | ਵਟ੍ਸ ਯੁਰ ਨੇਮ | ਤੁਹਾਡਾ ਨਾਂ ਕੀ ਹੈ? | What is your good name? ("ਤੁਹਾਡਾ ਸ਼ੁਭ ਨਾਂ") ਭਾਰਤ ਵਿੱਚ ਨਿਮਰ ਮੰਨਿਆ ਜਾਂਦਾ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ ਅਜੀਬ ਲੱਗਦਾ ਹੈ। ਬੱਸ What's your name?
+She's my cousin. | ਸ਼ੀਜ਼ ਮਾਈ ˈਕਜ਼ਨ | ਉਹ ਮੇਰੀ ਚਾਚੇ ਦੀ ਕੁੜੀ ਹੈ (ਜਾਂ ਮਾਮੇ, ਭੂਆ, ਮਾਸੀ ਦੀ) | cousin sister / cousin brother ਭਾਰਤ ਵਿੱਚ ਚੱਲਦਾ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ ਸਿਰਫ਼ cousin, ਤੇ ਮੁੰਡਾ ਹੈ ਜਾਂ ਕੁੜੀ ਇਹ he / she ਤੋਂ ਪਤਾ ਲੱਗਦਾ ਹੈ।
+I graduated in 2019. | ਆਈ ˈਗ੍ਰੈਜੂਏਟਿਡ ਇਨ ˈਟ੍ਵੇਂਟੀ ਨਾਈਂˈਟੀਨ | ਮੈਂ 2019 ਵਿੱਚ ਡਿਗਰੀ ਪੂਰੀ ਕੀਤੀ | I passed out in 2019 ਭਾਰਤ ਵਿੱਚ ਚੱਲਦਾ ਹੈ, ਪਰ ਵਿਦੇਸ਼ ਵਿੱਚ passed out ਦਾ ਮਤਲਬ "ਬੇਹੋਸ਼ ਹੋ ਗਿਆ" ਸਮਝਿਆ ਜਾਵੇਗਾ।
+I'll get back to you by Friday. | ਆਈਲ ਗੇਟ ਬੈਕ ਟ ਯੂ ਬਾਈ ˈਫ਼੍ਰਾਈਡੇ | ਮੈਂ ਸ਼ੁੱਕਰਵਾਰ ਤੱਕ ਤੁਹਾਨੂੰ ਜਵਾਬ ਦੇ ਦਿਆਂਗੀ | I will revert by Friday ਭਾਰਤ ਵਿੱਚ ਚੱਲਦਾ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ revert = ਪਹਿਲਾਂ ਵਾਲੀ ਹਾਲਤ ਵਿੱਚ ਮੁੜਨਾ। revert back ਹਰ ਥਾਂ ਗ਼ਲਤ।
+I moved here five years ago. | ਆਈ ਮੂਵ਼੍ਡ ਹਿਰ ਫ਼ਾਈਵ਼ ਯਿਰ੍ਜ਼ ਅˈਗੋ | ਮੈਂ ਪੰਜ ਸਾਲ ਪਹਿਲਾਂ ਇੱਥੇ ਆਇਆ ਸੀ | five years back ਭਾਰਤ ਵਿੱਚ ਚੱਲਦਾ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ years ago ਜ਼ਿਆਦਾ ਸੁਭਾਵਕ ਹੈ। "ਪਹਿਲਾਂ" ਇੱਥੇ ago ਹੈ, before ਨਹੀਂ।
+My hometown is Amritsar. | ਮਾਈ ˈਹੋਮ੍ਟਾਊਨ ਇਜ਼ ਅਮ੍ˈਰਿਟ੍ਸਰ | ਮੇਰਾ ਜੱਦੀ ਸ਼ਹਿਰ ਅੰਮ੍ਰਿਤਸਰ ਹੈ | My native place is Amritsar ਭਾਰਤ ਵਿੱਚ ਚੱਲਦਾ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ hometown ਜਾਂ I'm originally from Amritsar।
+Don't mention it. | ਡੋਂਟ ˈਮੇਨ੍ਸ਼ਨ ਇਟ | ਕੋਈ ਗੱਲ ਨਹੀਂ, ਇਹ ਤਾਂ ਮੇਰਾ ਫ਼ਰਜ਼ ਸੀ | Mention not ਭਾਰਤ ਵਿੱਚ ਚੱਲਦਾ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ Don't mention it, You're welcome ਜਾਂ No problem।
+Could you please check this? | ਕਡ ਯੂ ਪ੍ਲੀਜ਼ ਚੇਕ ਦ਼ਿਸ | ਕੀ ਤੁਸੀਂ ਇਹ ਇੱਕ ਵਾਰ ਦੇਖ ਲਓਗੇ? | Kindly check this ਭਾਰਤ ਵਿੱਚ ਨਿਮਰ ਲੱਗਦਾ ਹੈ, ਪਰ ਵਿਦੇਸ਼ ਵਿੱਚ ਹੁਕਮ ਵਰਗਾ; Could you please…? ਜ਼ਿਆਦਾ ਨਰਮ ਹੈ।
+Please let me know. | ਪ੍ਲੀਜ਼ ਲੇਟ ਮੀ ਨੋ | ਮੈਨੂੰ ਦੱਸ ਦੇਣਾ ਜੀ | Please intimate me ਭਾਰਤ ਦੀਆਂ ਦਫ਼ਤਰੀ ਈਮੇਲਾਂ ਵਿੱਚ ਚੱਲਦਾ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ intimate ਦਾ ਆਮ ਮਤਲਬ "ਬਹੁਤ ਨਿੱਜੀ, ਨੇੜਲਾ" ਹੈ। let me know ਕਹੋ।
+We're moving to Chandigarh next month. | ਵਿਰ ˈਮੂਵ਼ਿਙ ਟ ˈਚੰਡਿਗਾਰ ਨੇਕ੍ਸ੍ਟ ਮਨ੍ਥ਼ | ਅਗਲੇ ਮਹੀਨੇ ਅਸੀਂ ਚੰਡੀਗੜ੍ਹ ਜਾ ਕੇ ਰਹਿਣ ਲੱਗਾਂਗੇ | We are shifting to Chandigarh ਭਾਰਤ ਵਿੱਚ ਚੱਲਦਾ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ ਘਰ ਜਾਂ ਸ਼ਹਿਰ ਬਦਲਣ ਲਈ moving।
+I'm from Punjab. | ਆਈਮ ਫ਼੍ਰਮ ਪੰˈਜਾਬ | ਮੈਂ ਪੰਜਾਬ ਤੋਂ ਹਾਂ | I belong to Punjab ਭਾਰਤ ਵਿੱਚ ਚੱਲਦਾ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ ਅਜੀਬ ਲੱਗਦਾ ਹੈ। ਬੱਸ I'm from…।
+Hi, I'm Aman. | ਹਾਈ ਆਈਮ ˈਆਮਨ | ਹੈਲੋ, ਮੈਂ ਅਮਨ ਹਾਂ | Myself Aman ਹਰ ਥਾਂ ਗ਼ਲਤ ਹੈ। ਕਹੋ: I'm Aman ਜਾਂ My name is Aman।
+I have a quick question. | ਆਈ ਹੈਵ਼ ਅ ਕ੍ਵਿਕ ˈਕ੍ਵੇਸ੍ਚਨ | ਮੇਰਾ ਇੱਕ ਛੋਟਾ ਜਿਹਾ ਸਵਾਲ ਹੈ | I have a doubt (= ਸਵਾਲ) ਭਾਰਤ ਵਿੱਚ ਚੱਲਦਾ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ doubt ਦਾ ਮਤਲਬ ਸ਼ੱਕ ਹੈ।
+Let's discuss the plan. | ਲੇਟ੍ਸ ਡਿˈਸ੍ਕਸ ਦ਼ ਪ੍ਲੈਨ | ਆਓ, ਪਲਾਨ ਬਾਰੇ ਗੱਲ ਕਰੀਏ | discuss about the plan ਹਰ ਥਾਂ ਗ਼ਲਤ ਹੈ: discuss ਤੋਂ ਬਾਅਦ about ਨਹੀਂ ਲੱਗਦਾ। talk about ਵਿੱਚ about ਲੱਗਦਾ ਹੈ।
+Here's an idea. | ਹਿਰ੍ਜ਼ ਅਨ ਆਈˈਡੀਆ | ਮੇਰੇ ਕੋਲ ਇੱਕ ਸਲਾਹ ਹੈ | Do one thing… ("ਇੱਕ ਕੰਮ ਕਰੋ") ਹਰ ਥਾਂ ਅਜੀਬ ਲੱਗਦਾ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ Here's an idea ਜਾਂ Why don't you…?
+You're coming tomorrow, aren't you? | ਯੁਰ ˈਕਮਿਙ ਟˈਮਾਰੋ ਆਰ੍ਨ੍ਟ ਯੂ | ਤੂੰ ਕੱਲ੍ਹ ਆ ਰਿਹਾ ਹੈਂ, ਹੈ ਨਾ? | "ਹੈ ਨਾ?" ਲਈ ਹਰ ਵਾਕ ਮਗਰੋਂ isn't it? ਭਾਰਤ ਵਿੱਚ ਬੋਲਚਾਲ ਵਿੱਚ ਸੁਣਦਾ ਹੈ, ਪਰ ਵਿਦੇਸ਼ ਵਿੱਚ ਅਜੀਬ ਲੱਗਦਾ ਹੈ; ਟੈਗ ਵਾਕ ਮੁਤਾਬਕ ਬਦਲਦਾ ਹੈ: you're → aren't you, you like → don't you।
+Let's go see a movie. | ਲੇਟ੍ਸ ਗੋ ਸੀ ਅ ˈਮੂਵ਼ੀ | ਚੱਲ, ਫ਼ਿਲਮ ਦੇਖਣ ਚੱਲੀਏ | Let's see a picture ("ਪਿਕਚਰ ਦੇਖਣੀ") ਪੁਰਾਣੀ ਭਾਰਤੀ ਵਰਤੋਂ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ movie ਜਾਂ film।
+Let's have lunch together. | ਲੇਟ੍ਸ ਹੈਵ਼ ਲੰਚ ਟˈਗੇਦ਼ਰ | ਚੱਲ, ਇਕੱਠੇ ਦੁਪਹਿਰ ਦੀ ਰੋਟੀ ਖਾਈਏ | take lunch ਭਾਰਤ ਵਿੱਚ ਚੱਲਦਾ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ have lunch, have dinner।
+Can you finish it today? | ਕਨ ਯੂ ˈਫ਼ਿਨਿਸ਼ ਇਟ ਟˈਡੇ | ਕੀ ਤੁਸੀਂ ਇਹ ਅੱਜ ਹੀ ਮੁਕਾ ਸਕਦੇ ਹੋ? | today itself ਭਾਰਤ ਵਿੱਚ ਚੱਲਦਾ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ ਬੱਸ today ਜਾਂ by the end of today। "ਹੀ" ਲਈ itself ਦੀ ਲੋੜ ਨਹੀਂ।
+I'm leaving right now. | ਆਈਮ ˈਲੀਵ਼ਿਙ ਰਾਈਟ ਨਾਊ | ਮੈਂ ਹੁਣੇ ਨਿਕਲ ਰਿਹਾ ਹਾਂ | I'm leaving now only ਭਾਰਤ ਵਿੱਚ ਚੱਲਦਾ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ right now। ਇੱਥੇ "ਹੀ" only ਨਹੀਂ ਬਣਦਾ।
+Please take care of it. | ਪ੍ਲੀਜ਼ ਟੇਕ ਕੇਰ ਅਵ਼ ਇਟ | ਇਹ ਕੰਮ ਤੁਸੀਂ ਸੰਭਾਲ ਲੈਣਾ ਜੀ | Please do the needful ਭਾਰਤ ਦੇ ਦਫ਼ਤਰਾਂ ਵਿੱਚ ਆਮ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ ਪੁਰਾਣਾ ਲੱਗਦਾ ਹੈ। ਸਾਫ਼ ਦੱਸੋ ਕਿ ਕੀ ਕਰਨਾ ਹੈ, ਜਾਂ take care of it।
+Did you take your medicine? | ਡਿਡ ਯੂ ਟੇਕ ਯੁਰ ˈਮੇਡਿਸਨ | ਤੁਸੀਂ ਦਵਾਈ ਖਾ ਲਈ? | ਪੰਜਾਬੀ ਵਿੱਚ ਦਵਾਈ "ਖਾਂਦੇ" ਹਨ, ਪਰ eat medicine ਹਰ ਥਾਂ ਗ਼ਲਤ ਹੈ: ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਦਵਾਈ take ਕਰਦੇ ਹਨ।
+I have to take an exam tomorrow. | ਆਈ ਹੈਫ਼ ਟ ਟੇਕ ਅਨ ਇਗ੍ˈਜ਼ੈਮ ਟˈਮਾਰੋ | ਕੱਲ੍ਹ ਮੈਂ ਪੇਪਰ ਦੇਣਾ ਹੈ | ਪੰਜਾਬੀ ਵਿੱਚ ਪੇਪਰ "ਦਿੰਦੇ" ਹਨ ਤੇ give an exam ਭਾਰਤ ਵਿੱਚ ਚੱਲਦਾ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ ਵਿਦਿਆਰਥੀ exam take ਕਰਦਾ ਹੈ, give ਉਹ ਕਰਦਾ ਹੈ ਜੋ ਪੇਪਰ ਲੈਂਦਾ ਹੈ।
+Please turn off the light. | ਪ੍ਲੀਜ਼ ਟਰ੍ਨ ਔਫ਼ ਦ਼ ਲਾਈਟ | ਬੱਤੀ ਬੰਦ ਕਰ ਦਿਓ ਜੀ | ਪੰਜਾਬੀ ਵਿੱਚ ਬੱਤੀ "ਬੰਦ" ਕਰਦੇ ਹਨ, ਪਰ close the light ਹਰ ਥਾਂ ਗ਼ਲਤ ਹੈ: turn off। ਜਗਾਉਣ ਲਈ turn on, open ਨਹੀਂ।
+Let's take a photo. | ਲੇਟ੍ਸ ਟੇਕ ਅ ˈਫ਼ੋਟੋ | ਆਓ, ਇੱਕ ਫ਼ੋਟੋ ਖਿੱਚੀਏ | ਫ਼ੋਟੋ "ਖਿੱਚਣ" ਲਈ pull a photo ਹਰ ਥਾਂ ਗ਼ਲਤ ਹੈ: take a photo। click a photo ਭਾਰਤ ਵਿੱਚ ਚੱਲਦਾ ਹੈ; ਵਿਦੇਸ਼ ਵਿੱਚ take।
 `
 };
