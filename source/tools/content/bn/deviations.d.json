@@ -1,0 +1,9 @@
+{
+  "lessons": {
+    "articles-3": "bn-only lesson (profile bn.md §8 add, §4.1): «কখন আর্টিকেল বসে না: the না কিছুই না?» — articles revisited at B1 with the weight on the zero article, the hardest measured article slot for Bangladeshi university students (64.5% of zero-article slots wrong against 27.4% for a/an and 20.9% for the, Arafath 2010): zero article for generic plurals, uncountables and abstract nouns (Cats sleep a lot, Time is money, Life is short), the for nouns defined by a phrase or clause (the music here, the coffee you made) and with superlatives / ordinals / unique things (body only), a / an for one-of-many nouns even with a description (an engineer who…, an interesting article), zero-article fixed phrases (go to bed, go to work / school, at home / work, by train / bus), plus a bn-specific body section «-টা / -টি দেখলেই the নয়» (আমার বইটা → my book, Dhaka, Dhaka University without the). The Korean course's own articles-3 (ko profile ownLessons) is not part of the shared side; the scaffolded copy of it was replaced. English side (check and practice) copied verbatim from the Russian course's articles-3 (tools/content/ru/more/b1.js) as the bn-D brief says, with one localisation per profile §9: Moscow → Dhaka in the engineer mc item (all four options) and the matching body row. Placed after passive via profile.json lessonOrder.after; deck «হালকা আলাপ» (deck 10, as ru/zh)."
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["articles-3"],
+  "droppedLessons": []
+}

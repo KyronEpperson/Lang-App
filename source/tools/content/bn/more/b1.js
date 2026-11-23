@@ -1,178 +1,177 @@
-/* TRANSLATE/ADAPT (bn): scaffolded from tools/content/ko/more/b1.js by new_lang.js.
-   Translate/adapt everything that is not English (the ko text) for bn speakers (prompts, why, hint, meanings, pron per profile.json, deck and group names,
-   explanations written from the bn point of view — PILOT-SPEC §3). Keep every English string, lesson id and answer position
-   identical to ko-en unless deviations.json gives a reason (parity.js enforces it). Delete this banner when the file is done. */
-/* ko-en stage B1: new lessons (source of truth). Shorthand is expanded by _dsl.js. */
+/* bn-en stage B1: lessons for Bengali speakers. Shorthand is expanded by _dsl.js. */
 module.exports = [
-{ id:"perfect-2", title:"현재완료 2: for와 since, 지금까지 쭉", blurb:"과거에 시작해서 지금도 계속되는 일. for + 기간, since + 시작점.", deck:"자기소개", body:`
-<p>현재완료의 두 번째 쓰임이에요. <b>과거에 시작해서 지금까지 이어지는 일</b>을 말해요. 한국어 '~한 지 ~ 됐어요'에 해당해요.</p>
-{{ex:I've lived in Seoul for five years.|아이브 리브드 인 서울 포 파이브 이어즈|서울에 산 지 5년 됐어요}}{{ex:I've worked here since 2020.|아이브 웍트 히어 신스 투웨니 투웨니|2020년부터 여기서 일하고 있어요}}{{ex:I've known her for a long time.|아이브 노운 허 포러 롱 타임|그녀를 안 지 오래됐어요}}
-<h3>for 와 since</h3>
-<div class="tbl"><table><tr><th>for + 기간</th><th>since + 시작점</th></tr><tr><td class="k">for three years</td><td class="k">since 2020</td></tr><tr><td class="k">for two hours</td><td class="k">since Monday</td></tr></table></div>
-<h3>How long ~?</h3>
-{{ex:How long have you been here?|하우 롱 해뷰 빈 히어?|여기 얼마나 계셨어요?}}{{ex:How long have you studied English?|하우 롱 해뷰 스터디드 잉글리시?|영어 공부한 지 얼마나 됐어요?}}
+{ id:"perfect-2", title:"Present Perfect 2: for আর since, এখন পর্যন্ত", blurb:"অতীতে শুরু, এখনো চলছে। for + কত সময়, since + কখন থেকে।", deck:"নিজের পরিচয়", body:`
+<p>Present Perfect-এর দ্বিতীয় কাজ: <b>অতীতে শুরু হয়ে এখনো চলছে</b>, এমন কিছু বলা। বাংলায় এখানে বর্তমানের রূপ বসে: "আমি পাঁচ বছর <b>ধরে</b> ঢাকায় <b>আছি</b>"। ইংরেজিতে বর্তমানের রূপ চলে না, লাগে <b>have + V3</b>।</p>
+{{ex:I've lived in Dhaka for five years.|আইভ় ˈলিভ়্ড ইন ˈডাːকা ফার ˈফাইভ় ˈইয়ির্জ়|আমি পাঁচ বছর ধরে ঢাকায় আছি}}{{ex:I've worked here since 2020.|আইভ় ˈওয়ার্ক্ট ˈহির সিন্স ˈট্ওয়েন্টি ˈট্ওয়েন্টি|আমি 2020 সাল থেকে এখানে কাজ করছি}}{{ex:I've known her for a long time.|আইভ় ˈনৌন হার ফার আ ˈলং ˈটাইম|আমি তাকে অনেক দিন ধরে চিনি}}
+<h3>for আর since</h3>
+<p>ধরে = <b>for</b> (কত সময়), থেকে = <b>since</b> (কখন থেকে)।</p>
+<div class="tbl"><table><tr><th>for + কত সময়</th><th>since + কখন থেকে</th></tr><tr><td class="k">for three years</td><td class="k">since 2020</td></tr><tr><td class="k">for two hours</td><td class="k">since Monday</td></tr></table></div>
+<h3>How long …?</h3>
+{{ex:How long have you been here?|ˈহাউ ˈলং হাভ় ইউ বিন ˈহির|আপনি কত দিন ধরে এখানে আছেন?}}{{ex:How long have you studied English?|ˈহাউ ˈলং হাভ় ইউ ˈস্টাডিড ˈইংগ্লিশ|তুমি কত দিন ধরে ইংরেজি শিখছ?}}
 <h3>just, already, yet</h3>
-{{ex:I've just finished.|아이브 저스트 피니쉬트|방금 끝냈어요}}{{ex:I've already seen it.|아이브 올레디 씬 잇|이미 봤어요}}{{ex:Have you eaten yet?|해뷰 이튼 옛?|벌써 먹었어요?}}
-<div class="tip">가장 흔한 실수: 현재형으로 말하는 것. <b>I live here for five years.</b> (X) → <b>I've lived here for five years.</b> (O)</div>`,
-check:[["I've lived here ___ three years. 빈칸에 알맞은 것은?",["since","for","during","from"],1,"기간 앞에는 for예요."],["I've worked here ___ 2020. 빈칸에 알맞은 것은?",["for","in","since","at"],2,"시작점 앞에는 since예요."],["'여기 얼마나 계셨어요?'를 영어로 하면?",["How long have you been here?","How long are you here?","How long did you been here?","How long you have been here?"],0,"How long have you + 과거분사예요."]],
+{{ex:I've just finished.|আইভ় ˈজাস্ট ˈফিনিশ্ট|আমি এইমাত্র শেষ করেছি}}{{ex:I've already seen it.|আইভ় অল্ˈরেডি ˈসীন ইট|আমি এটা আগেই দেখেছি}}{{ex:Have you eaten yet?|হাভ় ইউ ˈঈটান ˈইয়েট|তুমি কি এর মধ্যে খেয়েছ?}}
+<div class="tip">সবচেয়ে বেশি যে ভুল হয়: বাংলার মতো বর্তমানের রূপে বলা। <b>I live here for five years.</b> ✗, <b>I am living here since five years.</b> ✗ → <b>I've lived here for five years.</b> ✓</div>`,
+check:[["I've lived here ___ three years. শূন্যস্থানে কী বসবে?",["since","for","during","from"],1,"কত সময় ধরে, তা বলতে for বসে।"],["I've worked here ___ 2020. শূন্যস্থানে কী বসবে?",["for","in","since","at"],2,"কখন থেকে, তা বলতে since বসে।"],["\"আপনি কত দিন ধরে এখানে আছেন?\" ইংরেজিতে?",["How long have you been here?","How long are you here?","How long did you been here?","How long you have been here?"],0,"How long have you + V3 বসে।"]],
 practice:[
-["mc","I've known him ___ ten years.","for","since","from","during","기간 앞에는 for예요."],
-["mc","She's lived here ___ 2019.","since","for","in","at","시작점 앞에는 since예요."],
-["mc","'여기 얼마나 계셨어요?' =","How long have you been here?","How long are you here?","How long did you been here?","How long you have been here?","How long have you + 과거분사예요."],
-["mc","'방금 끝냈어요' =","I've just finished.","I just have finish.","I've just finish.","I'm just finished have.","have + just + 과거분사예요."],
-["mc","'벌써 먹었어요?' =","Have you eaten yet?","Did you eaten yet?","Have you ate yet?","Have you eat already yet?","질문에서 '벌써'는 yet이에요."],
-["or","저는 여기서 5년 살았어요","I've lived here for five years","year since","5년이니까 복수 years, 기간 앞에는 for예요."],
-["or","저는 그 영화를 이미 봤어요","I've already seen the movie","a saw","서로 아는 그 영화라서 관사 the예요."],
-["or","얼마나 기다렸어요?","How long have you waited","did","How long have you + 과거분사예요."],
-["fi","I've worked here __ two years.","여기서 일한 지 2년 됐어요","for","since|from|during","기간 앞에는 for예요."],
-["fi","I've been here __ Monday.","월요일부터 여기 있어요","since","for|at|during","시작점 앞에는 since예요."],
-["fi","Have you finished __?","벌써 끝냈어요?","yet|already","ever|never|since","질문에서 '벌써'는 yet이에요."],
-["ty","저는 여기서 3년 살았어요","I've lived here for three years|I've been living here for three years","I've lived · here · for · three · year — 복수","year","3년이니까 복수 years예요."],
-["ty","여기 얼마나 계셨어요?","How long have you been here","how long · have you · been here","are","How long have you + 과거분사예요."],
-["ty","저는 그 책을 이미 읽었어요","I've already read the book|I've read the book already|I already read the book","already · read · book — 관사 the","a","서로 아는 그 책이라서 관사 the예요."]]},
-{ id:"narrative", title:"이야기 시제: 과거, 과거진행, 과거완료", blurb:"배경은 과거진행, 사건은 과거형, 더 먼저 일어난 일은 had + p.p.", deck:"영화·드라마·슬랭", body:`
-<p>있었던 일을 이야기할 때는 세 가지 시제를 섞어 써요. 각자 맡은 역할이 달라요.</p>
-<div class="tbl"><table><tr><th>시제</th><th>역할</th><th>예</th></tr><tr><td class="k">과거진행</td><td>배경, 하던 일</td><td>I was walking home.</td></tr><tr><td class="k">과거형</td><td>일어난 사건</td><td>I saw an old friend.</td></tr><tr><td class="k">과거완료</td><td>그보다 먼저 일어난 일</td><td>He had moved to Busan.</td></tr></table></div>
-<h3>배경 + 사건</h3>
-{{ex:I was walking home when I saw an old friend.|아이 워즈 워킹 홈 웬 아이 쏘 언 올드 프렌드|집에 걸어가다가 옛 친구를 만났어요}}
-<h3>과거완료: had + 과거분사</h3>
-<p>과거의 어느 때보다 <b>더 먼저</b> 일어난 일이에요.</p>
-{{ex:When I arrived, the movie had already started.|웬 아이 어라이브드 더 무비 해드 올레디 스타티드|도착했을 때 영화는 이미 시작했어요}}{{ex:I had never seen snow before.|아이 해드 네버 씬 스노우 비포|그전에는 눈을 본 적이 없었어요}}
-<h3>순서를 알려 주는 말</h3>
-<p>first(먼저), then(그다음에), after that(그 후에), finally(마침내)로 이어 가요.</p>
-{{ex:First we ate dinner. Then we watched a movie.|퍼스트 위 에잇 디너. 덴 위 왓치트 어 무비|먼저 저녁을 먹었어요. 그다음에 영화를 봤어요}}
-<div class="tip">then(그다음에)과 than(~보다)은 발음이 비슷하지만 다른 단어예요. 이야기에는 <b>then</b>이에요.</div>`,
-check:[["When I arrived, the train ___ already left. 빈칸에 알맞은 것은?",["has","was","had","did"],2,"더 먼저 일어난 일은 had + 과거분사예요."],["I ___ walking home when it started to rain. 빈칸에 알맞은 것은?",["was","had","did","have"],0,"하던 일(배경)은 과거진행이에요."],["그보다 더 먼저 일어난 일을 나타내는 문장은?",["I was eating.","I ate.","I eat.","I had eaten."],3,"had + 과거분사가 과거완료예요."]],
+["mc","I've known him ___ ten years.","for","since","from","during","কত সময় ধরে, তা বলতে for বসে।"],
+["mc","She's lived here ___ 2019.","since","for","in","at","কখন থেকে, তা বলতে since বসে।"],
+["mc","\"আপনি কত দিন ধরে এখানে আছেন?\" ইংরেজিতে?","How long have you been here?","How long are you here?","How long did you been here?","How long you have been here?","How long have you + V3 বসে।"],
+["mc","\"আমি এইমাত্র শেষ করেছি\" ইংরেজিতে?","I've just finished.","I just have finish.","I've just finish.","I'm just finished have.","have + just + V3 বসে।"],
+["mc","\"তুমি কি এর মধ্যে খেয়েছ?\" ইংরেজিতে?","Have you eaten yet?","Did you eaten yet?","Have you ate yet?","Have you eat already yet?","প্রশ্নে \"এর মধ্যে\" বোঝাতে yet বসে।"],
+["or","আমি পাঁচ বছর ধরে এখানে থাকছি","I've lived here for five years","year since","পাঁচ বছর, তাই বহুবচন years; কত সময় ধরে, তাই for।"],
+["or","আমি সিনেমাটা আগেই দেখেছি","I've already seen the movie","a saw","দুজনেরই জানা সিনেমাটা, তাই আর্টিকেল the।"],
+["or","তুমি কতক্ষণ অপেক্ষা করেছ?","How long have you waited","did","How long have you + V3 বসে।"],
+["fi","I've worked here __ two years.","আমি দুই বছর ধরে এখানে কাজ করছি","for","since|from|during","কত সময় ধরে, তা বলতে for বসে।"],
+["fi","I've been here __ Monday.","আমি সোমবার থেকে এখানে আছি","since","for|at|during","কখন থেকে, তা বলতে since বসে।"],
+["fi","Have you finished __?","তুমি কি এর মধ্যে শেষ করেছ?","yet|already","ever|never|since","প্রশ্নে \"এর মধ্যে\" বোঝাতে yet বসে।"],
+["ty","আমি তিন বছর ধরে এখানে থাকছি","I've lived here for three years|I've been living here for three years","I've lived · here · for · three · year — বহুবচন","year","তিন বছর, তাই বহুবচন years।"],
+["ty","আপনি কত দিন ধরে এখানে আছেন?","How long have you been here","how long · have you · been here","are","How long have you + V3 বসে।"],
+["ty","আমি বইটা আগেই পড়েছি","I've already read the book|I've read the book already|I already read the book","already · read · book — আর্টিকেল the","a","দুজনেরই জানা বইটা, তাই আর্টিকেল the।"]]},
+{ id:"narrative", title:"গল্প বলার tense: Past Simple, Past Continuous, Past Perfect", blurb:"পটভূমি Past Continuous, ঘটনা Past Simple, তারও আগের ঘটনা had + V3।", deck:"সিনেমা, সিরিজ ও স্ল্যাং", body:`
+<p>ঘটে যাওয়া কিছুর গল্প বলতে তিনটি tense মিলিয়ে ব্যবহার করা হয়, আর প্রতিটির কাজ আলাদা। বাংলার "করছিলাম", "করলাম" আর "আগেই করেছিলাম"-এর সঙ্গে এগুলো অনেকটা মেলে।</p>
+<div class="tbl"><table><tr><th>tense</th><th>কাজ</th><th>উদাহরণ</th></tr><tr><td class="k">Past Continuous</td><td>পটভূমি, যা চলছিল</td><td>I was walking home.</td></tr><tr><td class="k">Past Simple</td><td>যা ঘটল</td><td>I saw an old friend.</td></tr><tr><td class="k">Past Perfect</td><td>তারও আগে যা ঘটেছিল</td><td>He had moved to Sylhet.</td></tr></table></div>
+<h3>পটভূমি + ঘটনা</h3>
+{{ex:I was walking home when I saw an old friend.|আই ওয়াজ় ˈওয়কিং ˈহৌম ওয়েন আই ˈস আন ˈঔল্ড ˈফ্রেন্ড|হেঁটে বাসায় ফিরছিলাম, এমন সময় এক পুরোনো বন্ধুর সঙ্গে দেখা হলো}}
+<h3>Past Perfect: had + V3</h3>
+<p>অতীতের একটা সময়ের <b>আরও আগে</b> যা ঘটেছিল।</p>
+{{ex:When I arrived, the movie had already started.|ওয়েন আই আˈরাইভ়্ড দ়া ˈমূভ়ি হাড অল্ˈরেডি ˈস্টাːর্টিড|আমি যখন পৌঁছালাম, সিনেমা ততক্ষণে শুরু হয়ে গিয়েছিল}}{{ex:I had never seen snow before.|আই হাড ˈনেভ়ার ˈসীন ˈস্নৌ বিˈফর|এর আগে আমি কখনো তুষার দেখিনি}}
+<h3>ক্রম বোঝানো শব্দ</h3>
+<p>first (প্রথমে), then (তারপর), after that (এরপর), finally (শেষে) দিয়ে গল্প এগিয়ে নিন।</p>
+{{ex:First we ate dinner. Then we watched a movie.|ˈফার্স্ট ওয়ি ˈএইট ˈডিনার। ˈদ়েন ওয়ি ˈওয়াːচ্ট আ ˈমূভ়ি|প্রথমে আমরা রাতের খাবার খেলাম। তারপর একটা সিনেমা দেখলাম}}
+<div class="tip">then (তারপর) আর than (চেয়ে) শুনতে কাছাকাছি, কিন্তু আলাদা শব্দ। গল্পে লাগে <b>then</b>।</div>`,
+check:[["When I arrived, the train ___ already left. শূন্যস্থানে কী বসবে?",["has","was","had","did"],2,"আরও আগে ঘটা কাজে had + V3 বসে।"],["I ___ walking home when it started to rain. শূন্যস্থানে কী বসবে?",["was","had","did","have"],0,"যে কাজটা চলছিল (পটভূমি), সেটা Past Continuous।"],["কোন বাক্যটি আরও আগে ঘটা কাজ বোঝায়?",["I was eating.","I ate.","I eat.","I had eaten."],3,"had + V3 হলো Past Perfect।"]],
 practice:[
-["mc","When I got there, the movie ___ already started.","had","has","was","did","더 먼저 일어난 일은 had + 과거분사예요."],
-["mc","I ___ cooking when the phone rang.","was","had","did","have","하던 일은 과거진행이에요."],
-["mc","'도착했을 때 기차는 이미 떠났어요' =","When I arrived, the train had already left.","When I arrived, the train already leaves.","When I had arrived, the train left already had.","When I arrive, the train has left already.","더 먼저 일어난 일에 had + 과거분사를 써요."],
-["mc","이야기를 이을 때 '그다음에' =","then","than","that","them","then은 '그다음에', than은 '~보다'예요."],
-["mc","'그전에는 눈을 본 적이 없었어요' =","I had never seen snow before.","I never have saw snow before.","I had never see snow before.","I was never seen snow before.","had + never + 과거분사예요."],
-["or","기차는 이미 떠났어요","The train had already left","a has","타려던 그 기차라서 관사 the예요."],
-["or","저는 옛 친구를 만났어요","I met an old friend","a friends","old는 모음 소리로 시작해서 관사 an이에요."],
-["or","저는 집에 걸어가고 있었어요","I was walking home","had","배경은 과거진행이에요."],
-["fi","I was sleeping __ you called.","전화했을 때 자고 있었어요","when","than|so|had","'~했을 때'는 when이에요."],
-["fi","The bus had already __.","버스는 이미 떠났어요","left|gone","leave|leaving|leaves","had 뒤에는 과거분사가 와요."],
-["fi","First we ate. __ we watched a movie.","먼저 먹었어요. 그다음에 영화를 봤어요","Then|After that|Next","Than|Because|When","'그다음에'는 then이에요."],
-["ty","영화는 이미 시작했어요","The movie had already started|The movie had started already|The movie already started","the movie · had · already · started — 관사 the","a","보려던 그 영화라서 관사 the예요."],
-["ty","저는 옛 친구를 만났어요","I met an old friend|I saw an old friend|I ran into an old friend","met · old friend — 관사 an","a","old는 모음 소리로 시작해서 관사 an이에요."],
-["ty","저는 집에 걸어가고 있었어요","I was walking home","was · walking · home","had","배경은 과거진행으로 말해요."]]},
-{ id:"conditionals", title:"조건문 2·3: 가정과 후회", blurb:"지금 사실과 반대면 would, 지나간 일의 후회는 would have.", deck:"감정·반응", body:`
-<p>실제가 아닌 일을 상상할 때 써요. 한국어 '~라면 ~할 텐데', '~했더라면 ~했을 텐데'예요.</p>
-<h3>조건문 2: 지금 사실과 반대</h3>
-<p><b>If + 과거형, would + 동사</b>예요. 과거형을 쓰지만 뜻은 지금이에요.</p>
-{{ex:If I had time, I would travel.|이프 아이 해드 타임 아이 우드 트래블|시간이 있으면 여행할 텐데}}{{ex:If I were you, I'd take it.|이프 아이 워 유 아이드 테이킷|내가 너라면 그걸 받을 거야}}{{ex:What would you do?|왓 우쥬 두?|당신이라면 어떻게 하겠어요?}}
-<h3>조건문 3: 지나간 일과 반대</h3>
-<p><b>If + had + 과거분사, would have + 과거분사</b>예요.</p>
-{{ex:If I had studied, I would have passed.|이프 아이 해드 스터디드 아이 우드 해브 패스트|공부했더라면 합격했을 텐데}}
-<h3>후회: should have, I wish</h3>
-{{ex:I should have called.|아이 슈드 해브 콜드|전화했어야 했는데}}{{ex:I wish I had more time.|아이 위시 아이 해드 모어 타임|시간이 더 있으면 좋겠어요}}
-<div class="tbl"><table><tr><th>종류</th><th>if 쪽</th><th>결과 쪽</th></tr><tr><td>1 (가능한 일)</td><td class="k">현재형</td><td class="k">will</td></tr><tr><td>2 (지금과 반대)</td><td class="k">과거형</td><td class="k">would</td></tr><tr><td>3 (과거와 반대)</td><td class="k">had + p.p.</td><td class="k">would have + p.p.</td></tr></table></div>
-<div class="tip">If I were you는 굳어진 표현이에요. I 뒤에도 was가 아니라 <b>were</b>를 써요.</div>`,
-check:[["If I ___ rich, I would travel. 빈칸에 알맞은 것은?",["am","were","will be","would be"],1,"지금 사실과 반대면 과거형(were)이에요."],["If I had studied, I ___ passed. 빈칸에 알맞은 것은?",["would","will have","would have","had"],2,"과거와 반대면 would have + 과거분사예요."],["'전화했어야 했는데'를 영어로 하면?",["I should have called.","I should called.","I should had call.","I would call should."],0,"후회는 should have + 과거분사예요."]],
+["mc","When I got there, the movie ___ already started.","had","has","was","did","আরও আগে ঘটা কাজে had + V3 বসে।"],
+["mc","I ___ cooking when the phone rang.","was","had","did","have","যে কাজটা চলছিল, সেটা Past Continuous।"],
+["mc","\"আমি যখন পৌঁছালাম, ট্রেন ততক্ষণে ছেড়ে গিয়েছিল\" ইংরেজিতে?","When I arrived, the train had already left.","When I arrived, the train already leaves.","When I had arrived, the train left already had.","When I arrive, the train has left already.","আরও আগে ঘটা কাজে had + V3 বসে।"],
+["mc","গল্প এগিয়ে নিতে \"তারপর\" ইংরেজিতে?","then","than","that","them","then মানে \"তারপর\", than মানে \"চেয়ে\"।"],
+["mc","\"এর আগে আমি কখনো তুষার দেখিনি\" ইংরেজিতে?","I had never seen snow before.","I never have saw snow before.","I had never see snow before.","I was never seen snow before.","had + never + V3 বসে।"],
+["or","ট্রেনটা ততক্ষণে ছেড়ে গিয়েছিল","The train had already left","a has","যে ট্রেনটা ধরার কথা সেটাই, তাই আর্টিকেল the।"],
+["or","এক পুরোনো বন্ধুর সঙ্গে আমার দেখা হলো","I met an old friend","a friends","old স্বরধ্বনি দিয়ে শুরু, তাই আর্টিকেল an।"],
+["or","আমি হেঁটে বাসায় ফিরছিলাম","I was walking home","had","পটভূমি বলতে Past Continuous।"],
+["fi","I was sleeping __ you called.","তুমি যখন ফোন করলে, আমি ঘুমাচ্ছিলাম","when","than|so|had","\"যখন\" বোঝাতে when বসে।"],
+["fi","The bus had already __.","বাসটা ততক্ষণে ছেড়ে গিয়েছিল","left|gone","leave|leaving|leaves","had-এর পরে V3 বসে।"],
+["fi","First we ate. __ we watched a movie.","প্রথমে আমরা খেলাম। তারপর একটা সিনেমা দেখলাম","Then|After that|Next","Than|Because|When","\"তারপর\" বোঝাতে then বসে।"],
+["ty","সিনেমাটা ততক্ষণে শুরু হয়ে গিয়েছিল","The movie had already started|The movie had started already|The movie already started","the movie · had · already · started — আর্টিকেল the","a","যে সিনেমাটা দেখার কথা সেটাই, তাই আর্টিকেল the।"],
+["ty","এক পুরোনো বন্ধুর সঙ্গে আমার দেখা হলো","I met an old friend|I saw an old friend|I ran into an old friend","met · old friend — আর্টিকেল an","a","old স্বরধ্বনি দিয়ে শুরু, তাই আর্টিকেল an।"],
+["ty","আমি হেঁটে বাসায় ফিরছিলাম","I was walking home","was · walking · home","had","পটভূমি বলতে Past Continuous।"]]},
+{ id:"conditionals", title:"শর্তের বাক্য 2 ও 3: কল্পনা আর আফসোস", blurb:"এখনকার বাস্তবের উল্টো হলে would, পেরিয়ে যাওয়া কিছুর আফসোসে would have।", deck:"অনুভূতি ও প্রতিক্রিয়া", body:`
+<p>যা বাস্তব নয়, তা কল্পনা করে বলার উপায়। বাংলায়: "সময় থাকলে ঘুরতে যেতাম", "পড়লে পাস করতাম"। বাংলার "করতাম" দিয়ে আগের অভ্যাসও বোঝায় ("ছোটবেলায় খেলতাম")। ইংরেজিতে দুটো আলাদা: অভ্যাসের জন্য <b>used to</b>, আর কল্পনার জন্য if-এর অংশের সঙ্গে <b>would</b>।</p>
+<h3>শর্তের বাক্য 2: এখনকার বাস্তবের উল্টো</h3>
+<p><b>If + past রূপ, would + ক্রিয়া</b>। রূপটা past, কিন্তু কথাটা এখনকার।</p>
+{{ex:If I had time, I would travel.|ইফ আই ˈহ্যাড ˈটাইম আই ওয়াড ˈট্র‍্যাভ়াল|সময় থাকলে আমি ঘুরতে যেতাম}}{{ex:If I were you, I'd take it.|ইফ আই ওয়ার ˈইঊ আইড ˈটেইক ইট|আমি তোমার জায়গায় থাকলে ওটা নিতাম}}{{ex:What would you do?|ˈওয়াট ওয়াড ইউ ˈডূ|তুমি হলে কী করতে?}}
+<h3>শর্তের বাক্য 3: অতীতের বাস্তবের উল্টো</h3>
+<p><b>If + had + V3, would have + V3</b>।</p>
+{{ex:If I had studied, I would have passed.|ইফ আই হাড ˈস্টাডিড আই ওয়াড আভ় ˈপ্যাস্ট|পড়াশোনা করলে আমি পাস করতাম}}
+<h3>আফসোস: should have, I wish</h3>
+{{ex:I should have called.|আই শাড আভ় ˈকল্ড|আমার ফোন করা উচিত ছিল}}{{ex:I wish I had more time.|আই ˈওয়িশ আই ˈহ্যাড ˈমর ˈটাইম|আরেকটু সময় থাকলে ভালো হতো}}
+<div class="tbl"><table><tr><th>ধরন</th><th>if-এর অংশ</th><th>ফলাফলের অংশ</th></tr><tr><td>1 (ঘটতে পারে)</td><td class="k">Present Simple</td><td class="k">will</td></tr><tr><td>2 (এখনকার উল্টো)</td><td class="k">past রূপ</td><td class="k">would</td></tr><tr><td>3 (অতীতের উল্টো)</td><td class="k">had + V3</td><td class="k">would have + V3</td></tr></table></div>
+<div class="tip">If I were you একটা বাঁধা কথা। এখানে I-এর পরেও was নয়, <b>were</b> বসে।</div>`,
+check:[["If I ___ rich, I would travel. শূন্যস্থানে কী বসবে?",["am","were","will be","would be"],1,"এখনকার বাস্তবের উল্টো হলে past রূপ (were) বসে।"],["If I had studied, I ___ passed. শূন্যস্থানে কী বসবে?",["would","will have","would have","had"],2,"অতীতের উল্টো হলে would have + V3।"],["\"আমার ফোন করা উচিত ছিল\" ইংরেজিতে?",["I should have called.","I should called.","I should had call.","I would call should."],0,"আফসোস বোঝাতে should have + V3।"]],
 practice:[
-["mc","If I ___ time, I would help.","had","have","will have","would have","지금 사실과 반대면 if 쪽은 과거형이에요."],
-["mc","'내가 너라면 그걸 살 거야' =","If I were you, I'd buy it.","If I am you, I'll buy it.","If I were you, I buy it.","If I would be you, I'd buy it.","If I were you, I'd ~는 굳어진 표현이에요."],
-["mc","If I had known, I ___ come.","would have","would","will have","had","과거와 반대면 would have + 과거분사예요."],
-["mc","'전화했어야 했는데' =","I should have called.","I should called.","I should had call.","I must called.","후회는 should have + 과거분사예요."],
-["mc","'당신이라면 어떻게 하겠어요?' =","What would you do?","What will you did?","What would you did?","What you would do?","가정은 would + 동사원형이에요."],
-["or","시간이 있으면 여행할 텐데","If I had time I'd travel","have will","지금 사실과 반대면 과거형 had와 would를 써요."],
-["or","저라면 택시를 탈 거예요","I'd take a taxi","the taxis","아무 택시 한 대라서 관사 a예요."],
-["or","표를 샀어야 했는데","I should have bought a ticket","the buy","표 한 장이라 관사 a예요."],
-["fi","If I __ you, I'd go.","내가 너라면 갈 거야","were|was","am|be|would be","If I were you는 굳어진 표현이에요."],
-["fi","I would __ helped.","도와줬을 텐데","have","had|has|having","would have + 과거분사예요."],
-["fi","I wish I __ more time.","시간이 더 있으면 좋겠어요","had","have|would have|will have","I wish 뒤에는 과거형을 써요."],
-["ty","내가 너라면 갈 거야","If I were you I'd go|I'd go if I were you|If I was you I'd go","if I were you · I'd · go","am","If I were you, I'd ~예요."],
-["ty","차가 있으면 좋을 텐데","I wish I had a car","I wish · had · car — 관사 a","the","아무 차 한 대라서 관사 a예요."],
-["ty","택시를 탔어야 했는데","I should have taken a taxi|I should have got a taxi|I should have gotten a taxi","should have · taken · taxi — 관사 a","the","아무 택시 한 대라서 관사 a예요."]]},
-{ id:"passive", title:"수동태: be + 과거분사", blurb:"누가 했는지보다 무슨 일이 생겼는지가 중요할 때.", deck:"직장·이메일", body:`
-<p>'~되다, ~당하다'를 말할 때 써요. 틀은 <b>be동사 + 과거분사</b>예요. 누가 했는지 모르거나 중요하지 않을 때 자연스러워요.</p>
-{{ex:My phone was stolen.|마이 폰 워즈 스톨른|휴대폰을 도난당했어요}}{{ex:This was made in Korea.|디스 워즈 메이드 인 코리아|이건 한국에서 만들어졌어요}}{{ex:The meeting was canceled.|더 미팅 워즈 캔슬드|회의가 취소됐어요}}
-<h3>현재: 늘 그렇게 되는 일</h3>
-{{ex:English is spoken here.|잉글리시 이즈 스포큰 히어|여기서는 영어를 써요}}{{ex:Breakfast is served at seven.|브렉퍼스트 이즈 서브드 앳 세븐|조식은 7시에 제공돼요}}
-<h3>누가 했는지는 by</h3>
-{{ex:It was written by Han Kang.|잇 워즈 리튼 바이 한강|한강이 쓴 거예요}}
-<h3>능동과 수동</h3>
-<div class="tbl"><table><tr><th>능동</th><th>수동</th></tr><tr><td class="k">Someone stole my bag.</td><td class="k">My bag was stolen.</td></tr><tr><td class="k">They canceled the flight.</td><td class="k">The flight was canceled.</td></tr></table></div>
-<div class="tip">가장 흔한 실수: be동사를 빼먹는 것. <b>My phone stolen.</b> (X) → <b>My phone was stolen.</b> (O)</div>`,
-check:[["My bag ___ stolen yesterday. 빈칸에 알맞은 것은?",["is","was","did","has"],1,"어제 일이라서 was + 과거분사예요."],["This phone ___ made in Korea. 빈칸에 알맞은 것은?",["was","did","has","does"],0,"수동태는 be동사 + 과거분사예요."],["'회의가 취소됐어요'를 영어로 하면?",["The meeting canceled.","The meeting was cancel.","The meeting did canceled.","The meeting was canceled."],3,"be동사 + 과거분사 canceled예요."]],
+["mc","If I ___ time, I would help.","had","have","will have","would have","এখনকার বাস্তবের উল্টো হলে if-এর অংশে past রূপ বসে।"],
+["mc","\"আমি তোমার জায়গায় থাকলে ওটা কিনতাম\" ইংরেজিতে?","If I were you, I'd buy it.","If I am you, I'll buy it.","If I were you, I buy it.","If I would be you, I'd buy it.","If I were you, I'd … একটা বাঁধা কথা।"],
+["mc","If I had known, I ___ come.","would have","would","will have","had","অতীতের উল্টো হলে would have + V3।"],
+["mc","\"আমার ফোন করা উচিত ছিল\" ইংরেজিতে?","I should have called.","I should called.","I should had call.","I must called.","আফসোস বোঝাতে should have + V3।"],
+["mc","\"তুমি হলে কী করতে?\" ইংরেজিতে?","What would you do?","What will you did?","What would you did?","What you would do?","কল্পনার কথায় would + ক্রিয়ার মূল রূপ।"],
+["or","সময় থাকলে আমি ঘুরতে যেতাম","If I had time I'd travel","have will","এখনকার বাস্তবের উল্টো, তাই past রূপ had আর would।"],
+["or","আমি হলে একটা ট্যাক্সি নিতাম","I'd take a taxi","the taxis","যেকোনো একটা ট্যাক্সি, তাই আর্টিকেল a।"],
+["or","আমার একটা টিকিট কেনা উচিত ছিল","I should have bought a ticket","the buy","একটা টিকিট, তাই আর্টিকেল a।"],
+["fi","If I __ you, I'd go.","আমি তোমার জায়গায় থাকলে যেতাম","were|was","am|be|would be","If I were you একটা বাঁধা কথা।"],
+["fi","I would __ helped.","আমি সাহায্য করতাম","have","had|has|having","would-এর পরে have + V3 বসে।"],
+["fi","I wish I __ more time.","আরেকটু সময় থাকলে ভালো হতো","had","have|would have|will have","I wish-এর পরে past রূপ বসে।"],
+["ty","আমি তোমার জায়গায় থাকলে যেতাম","If I were you I'd go|I'd go if I were you|If I was you I'd go","if I were you · I'd · go","am","If I were you, I'd … একটা বাঁধা কথা।"],
+["ty","আমার একটা গাড়ি থাকলে ভালো হতো","I wish I had a car","I wish · had · car — আর্টিকেল a","the","যেকোনো একটা গাড়ি, তাই আর্টিকেল a।"],
+["ty","আমার একটা ট্যাক্সি নেওয়া উচিত ছিল","I should have taken a taxi|I should have got a taxi|I should have gotten a taxi","should have · taken · taxi — আর্টিকেল a","the","যেকোনো একটা ট্যাক্সি, তাই আর্টিকেল a।"]]},
+{ id:"passive", title:"Passive (কর্মবাচ্য): be + V3", blurb:"কে করল তার চেয়ে কী ঘটল, সেটাই যখন বড় কথা।", deck:"অফিস ও ইমেইল", body:`
+<p>কাজটা <b>কে করল</b> তা অজানা বা গুরুত্বহীন হলে passive (কর্মবাচ্য) ব্যবহার করা হয়। বাংলায় আমরা সাধারণত অন্যভাবে বলি ("আমার ফোন চুরি হয়েছে", "মিটিংটা বাতিল হয়েছে") অথবা "করা হয়" বসাই; be + V3-এর মতো কোনো ছক বাংলায় নেই। ইংরেজির ছক: <b>be ক্রিয়া + V3</b>। কোন tense, তা দেখায় be ক্রিয়াটাই।</p>
+{{ex:My phone was stolen.|মাই ˈফৌন ওয়াজ় ˈস্টৌলান|আমার ফোন চুরি হয়েছে}}{{ex:This was made in Bangladesh.|ˈদ়িস ওয়াজ় ˈমেইড ইন বাːংগ্লাˈডেশ|এটা বাংলাদেশে তৈরি}}{{ex:The meeting was canceled.|দ়া ˈমীটিং ওয়াজ় ˈক্যান্সাল্ড|মিটিংটা বাতিল হয়েছে}}
+<h3>Present: যা সব সময় এভাবেই হয়</h3>
+{{ex:English is spoken here.|ˈইংগ্লিশ ইজ় ˈস্পৌকান ˈহির|এখানে ইংরেজি বলা হয়}}{{ex:Breakfast is served at seven.|ˈব্রেক্ফাস্ট ইজ় ˈসার্ভ়্ড আট ˈসেভ়ান|সকালের নাশতা সাতটায় দেওয়া হয়}}
+<h3>কে করল, তা বলতে by</h3>
+{{ex:It was written by Tagore.|ইট ওয়াজ় ˈরিটান বাই টাˈগর|এটা রবীন্দ্রনাথ ঠাকুরের লেখা}}
+<h3>active আর passive</h3>
+<div class="tbl"><table><tr><th>active (কর্তৃবাচ্য)</th><th>passive (কর্মবাচ্য)</th></tr><tr><td class="k">Someone stole my bag.</td><td class="k">My bag was stolen.</td></tr><tr><td class="k">They canceled the flight.</td><td class="k">The flight was canceled.</td></tr></table></div>
+<div class="tip">সবচেয়ে বেশি যে ভুল হয়: be ক্রিয়া বাদ দেওয়া, বা V3-এর জায়গায় অন্য রূপ বসানো। <b>My phone stolen.</b> ✗, <b>My phone was steal.</b> ✗ → <b>My phone was stolen.</b> ✓</div>`,
+check:[["My bag ___ stolen yesterday. শূন্যস্থানে কী বসবে?",["is","was","did","has"],1,"গতকালের ঘটনা, তাই was + V3।"],["This phone ___ made in Korea. শূন্যস্থানে কী বসবে?",["was","did","has","does"],0,"passive-এর ছক: be ক্রিয়া + V3।"],["\"মিটিংটা বাতিল হয়েছে\" ইংরেজিতে?",["The meeting canceled.","The meeting was cancel.","The meeting did canceled.","The meeting was canceled."],3,"be ক্রিয়া + V3, এখানে was canceled।"]],
 practice:[
-["mc","My phone ___ stolen.","was","did","has","is steal","수동태는 be동사 + 과거분사예요."],
-["mc","'이건 한국에서 만들어졌어요' =","This was made in Korea.","This made in Korea.","This was make in Korea.","This did made in Korea.","be동사 + 과거분사 made예요."],
-["mc","'여기서는 영어를 써요' (수동) =","English is spoken here.","English speaks here.","English is speak here.","English spoken is here.","늘 그런 일은 is + 과거분사예요."],
-["mc","'회의가 취소됐어요' =","The meeting was canceled.","The meeting canceled was.","The meeting was cancel.","The meeting did canceled.","be동사 + 과거분사예요."],
-["mc","'조식은 7시에 제공돼요' =","Breakfast is served at seven.","Breakfast serves at seven.","Breakfast is serve at seven.","The breakfast is serving at seven.","식사 이름에는 관사가 없고, is + 과거분사예요."],
-["or","제 가방을 도난당했어요","My bag was stolen","stole","be동사 뒤에는 과거분사 stolen이 와요."],
-["or","회의가 취소됐어요","The meeting was canceled","A meetings","서로 아는 그 회의라서 관사 the예요."],
-["or","창문이 깨졌어요","The window was broken","a windows","여기 있는 그 창문이라 관사 the예요."],
-["fi","This was __ in Korea.","이건 한국에서 만들어졌어요","made","make|making|makes","be동사 뒤에는 과거분사가 와요."],
-["fi","The room __ cleaned every day.","방은 매일 청소돼요","is|gets","does|has|did","늘 그런 일은 is + 과거분사예요."],
-["fi","It was written __ Han Kang.","한강이 쓴 거예요","by","from|of|with","누가 했는지는 by로 말해요."],
-["ty","제 휴대폰을 도난당했어요","My phone was stolen|My phone got stolen","my phone · was · stolen","stole","be동사 + 과거분사 stolen이에요."],
-["ty","그 회의는 취소됐어요","The meeting was canceled|The meeting was cancelled|The meeting got canceled","the meeting · was · canceled — 관사 the","a","서로 아는 그 회의라서 관사 the예요."],
-["ty","문이 잠겨 있었어요","The door was locked","the door · was · locked — 관사 the","a","여기 있는 그 문이라 관사 the예요."]]},
-{ id:"reported", title:"간접화법: 남의 말 전하기", blurb:"She said she was tired. 시제를 한 칸 뒤로, tell 뒤에는 사람.", deck:"전화·문자 줄임말", body:`
-<p>다른 사람이 한 말을 전할 때 써요. 한국어 '~라고 했어요'예요. 전하는 말의 <b>시제를 한 칸 과거로</b> 옮겨요.</p>
-<div class="tbl"><table><tr><th>원래 말</th><th>전할 때</th></tr><tr><td class="k">"I'm tired."</td><td class="k">She said she was tired.</td></tr><tr><td class="k">"I'll come."</td><td class="k">He said he would come.</td></tr><tr><td class="k">"I can help."</td><td class="k">She said she could help.</td></tr></table></div>
-{{ex:She said she was tired.|쉬 세드 쉬 워즈 타이어드|그녀는 피곤하다고 했어요}}{{ex:He said he would come.|히 세드 히 우드 컴|그는 오겠다고 했어요}}
-<h3>say 와 tell</h3>
-<p><b>tell</b> 뒤에는 꼭 듣는 사람이 와요. <b>say</b> 뒤에는 오지 않아요.</p>
-{{ex:He told me he was busy.|히 톨드 미 히 워즈 비지|그는 저한테 바쁘다고 했어요}}
-<h3>질문을 전할 때</h3>
-<p>예/아니오 질문은 <b>if</b>, 의문사 질문은 의문사를 그대로 쓰고, 뒤는 <b>평서문 순서</b>(주어 + 동사)예요.</p>
-{{ex:She asked if I was okay.|쉬 애스크트 이프 아이 워즈 오케이|그녀는 제가 괜찮은지 물었어요}}{{ex:He asked where I lived.|히 애스크트 웨어 아이 리브드|그는 제가 어디 사는지 물었어요}}
-<div class="tip">가장 흔한 실수: <b>He said me …</b> (X) → <b>He told me …</b> (O), <b>He asked where did I live.</b> (X) → <b>He asked where I lived.</b> (O)</div>`,
-check:[["She said she ___ tired. 빈칸에 알맞은 것은?",["is being","was","be","will"],1,"전하는 말은 시제를 과거로 옮겨요."],["He ___ me he would come. 빈칸에 알맞은 것은?",["said","say","told","tell to"],2,"듣는 사람(me)이 있으면 told예요."],["'그는 제가 어디 사는지 물었어요'를 영어로 하면?",["He asked where I lived.","He asked where did I live.","He asked where do I live.","He asked me where lived I."],0,"전하는 질문은 평서문 순서예요."]],
+["mc","My phone ___ stolen.","was","did","has","is steal","passive-এর ছক: be ক্রিয়া + V3।"],
+["mc","\"এটা কোরিয়ায় তৈরি\" ইংরেজিতে?","This was made in Korea.","This made in Korea.","This was make in Korea.","This did made in Korea.","be ক্রিয়া + V3, এখানে made।"],
+["mc","\"এখানে ইংরেজি বলা হয়\" ইংরেজিতে?","English is spoken here.","English speaks here.","English is speak here.","English spoken is here.","সব সময় যা হয়, তা বলতে is + V3।"],
+["mc","\"মিটিংটা বাতিল হয়েছে\" ইংরেজিতে?","The meeting was canceled.","The meeting canceled was.","The meeting was cancel.","The meeting did canceled.","be ক্রিয়া + V3।"],
+["mc","\"সকালের নাশতা সাতটায় দেওয়া হয়\" ইংরেজিতে?","Breakfast is served at seven.","Breakfast serves at seven.","Breakfast is serve at seven.","The breakfast is serving at seven.","খাবারের বেলার নামের আগে আর্টিকেল বসে না; তারপর is + V3।"],
+["or","আমার ব্যাগ চুরি হয়েছে","My bag was stolen","stole","be ক্রিয়ার পরে V3 বসে, এখানে stolen।"],
+["or","মিটিংটা বাতিল হয়েছে","The meeting was canceled","A meetings","দুজনেরই জানা মিটিংটা, তাই আর্টিকেল the।"],
+["or","জানালাটা ভাঙা ছিল","The window was broken","a windows","এখানকার নির্দিষ্ট জানালাটা, তাই আর্টিকেল the।"],
+["fi","This was __ in Korea.","এটা কোরিয়ায় তৈরি","made","make|making|makes","be ক্রিয়ার পরে V3 বসে।"],
+["fi","The room __ cleaned every day.","ঘরটা প্রতিদিন পরিষ্কার করা হয়","is|gets","does|has|did","সব সময় যা হয়, তা বলতে is + V3।"],
+["fi","It was written __ Han Kang.","এটা হান কাং-এর লেখা","by","from|of|with","কে করল, তা বলতে by বসে।"],
+["ty","আমার ফোন চুরি হয়েছে","My phone was stolen|My phone got stolen","my phone · was · stolen","stole","be ক্রিয়া + V3, এখানে stolen।"],
+["ty","মিটিংটা বাতিল হয়েছে","The meeting was canceled|The meeting was cancelled|The meeting got canceled","the meeting · was · canceled — আর্টিকেল the","a","দুজনেরই জানা মিটিংটা, তাই আর্টিকেল the।"],
+["ty","দরজাটা তালা দেওয়া ছিল","The door was locked","the door · was · locked — আর্টিকেল the","a","এখানকার নির্দিষ্ট দরজাটা, তাই আর্টিকেল the।"]]},
+{ id:"reported", title:"পরোক্ষ উক্তি: অন্যের কথা জানানো", blurb:"She said she was tired. tense এক ধাপ পেছায়, tell-এর পরে মানুষ।", deck:"ফোন ও চ্যাটের সংক্ষেপ", body:`
+<p>অন্য কেউ কী বলেছে, তা জানানোর উপায় (পরোক্ষ উক্তি)। বাংলায় সাধারণত "যে" বসিয়ে আসল কথাটাই রেখে দিই: সে বলল যে "আমি যাব"। ইংরেজিতে সর্বনাম বদলায়, আর <b>tense এক ধাপ অতীতে সরে যায়</b>: He said he would go.</p>
+<div class="tbl"><table><tr><th>আসল কথা</th><th>জানানোর সময়</th></tr><tr><td class="k">"I'm tired."</td><td class="k">She said she was tired.</td></tr><tr><td class="k">"I'll come."</td><td class="k">He said he would come.</td></tr><tr><td class="k">"I can help."</td><td class="k">She said she could help.</td></tr></table></div>
+{{ex:She said she was tired.|শি ˈসেড শি ওয়াজ় ˈটাইআর্ড|সে বলল যে সে ক্লান্ত}}{{ex:He said he would come.|হি ˈসেড হি ওয়াড ˈকাম|সে বলল যে সে আসবে}}
+<h3>say আর tell</h3>
+<p><b>tell</b>-এর পরে অবশ্যই বলতে হয় কাকে বলা হলো। <b>say</b>-এর পরে তা বসে না।</p>
+{{ex:He told me he was busy.|হি ˈটৌল্ড মি হি ওয়াজ় ˈবিজ়ি|সে আমাকে বলল যে সে ব্যস্ত}}
+<h3>প্রশ্ন জানানো</h3>
+<p>হ্যাঁ / না-প্রশ্নে <b>if</b> বসে; প্রশ্নবোধক শব্দ থাকলে সেটাই থাকে। পরের অংশে শব্দের ক্রম <b>সাধারণ বাক্যের মতো</b> (কর্তা + ক্রিয়া)।</p>
+{{ex:She asked if I was okay.|শি ˈঅ্যাস্ক্ট ইফ আই ওয়াজ় ঔˈকেই|সে জানতে চাইল আমি ঠিক আছি কি না}}{{ex:He asked where I lived.|হি ˈঅ্যাস্ক্ট ˈওয়ের আই ˈলিভ়্ড|সে জানতে চাইল আমি কোথায় থাকি}}
+<div class="tip">সবচেয়ে বেশি যে ভুল হয়: <b>He said me …</b> ✗ → <b>He told me …</b> ✓, <b>He asked where did I live.</b> ✗ → <b>He asked where I lived.</b> ✓</div>`,
+check:[["She said she ___ tired. শূন্যস্থানে কী বসবে?",["is being","was","be","will"],1,"অন্যের কথা জানাতে tense অতীতে সরে যায়।"],["He ___ me he would come. শূন্যস্থানে কী বসবে?",["said","say","told","tell to"],2,"কাকে বলা হলো (me) থাকলে told বসে।"],["\"সে জানতে চাইল আমি কোথায় থাকি\" ইংরেজিতে?",["He asked where I lived.","He asked where did I live.","He asked where do I live.","He asked me where lived I."],0,"জানানো প্রশ্নে শব্দের ক্রম সাধারণ বাক্যের মতো।"]],
 practice:[
-["mc","She said she ___ busy.","was","is being","be","were being","전하는 말은 시제를 과거로 옮겨요."],
-["mc","He ___ me he was late.","told","said","say","tells to","듣는 사람이 있으면 told예요."],
-["mc","'그는 오겠다고 했어요' =","He said he would come.","He said he will came.","He told he would come.","He said me he would come.","will은 would로 바뀌어요."],
-["mc","'그녀는 제가 괜찮은지 물었어요' =","She asked if I was okay.","She asked was I okay.","She asked if was I okay.","She said if I was okay.","예/아니오 질문은 if로 전해요."],
-["mc","'그는 제가 어디 사는지 물었어요' =","He asked where I lived.","He asked where did I live.","He asked where I did lived.","He asked me where lived I.","전하는 질문은 평서문 순서예요."],
-["or","그녀는 피곤하다고 했어요","She said she was tired","told","듣는 사람이 없으면 said예요."],
-["or","그는 차를 샀다고 했어요","He said he bought a car","the cars","처음 말하는 차 한 대라서 관사 a예요."],
-["or","그녀는 그 책이 좋았다고 했어요","She said she liked the book","a books","서로 아는 그 책이라서 관사 the예요."],
-["fi","She __ she was tired.","그녀는 피곤하다고 했어요","said","told|asked|say","듣는 사람이 없으면 said예요."],
-["fi","He told __ he was busy.","그는 저한테 바쁘다고 했어요","me","I|my|to","told 뒤에는 듣는 사람이 와요."],
-["fi","She asked __ I was okay.","그녀는 제가 괜찮은지 물었어요","if|whether","that|what|did","예/아니오 질문은 if로 전해요."],
-["ty","그는 바쁘다고 했어요","He said he was busy|He said that he was busy|He told me he was busy","he said · he was · busy","is","전하는 말은 시제를 과거로 옮겨요."],
-["ty","그녀는 차가 있다고 했어요","She said she had a car|She said that she had a car|She told me she had a car","she said · had · car — 관사 a","the","처음 말하는 차 한 대라서 관사 a예요."],
-["ty","그는 그 영화를 봤다고 했어요","He said he saw the movie|He said he had seen the movie|He said he watched the movie|He told me he saw the movie","he said · saw · movie — 관사 the","a","서로 아는 그 영화라서 관사 the예요."]]},
-{ id:"articles-3", title:"관사 총정리: 관사 없음, the, 굳어진 표현", blurb:"'~라는 것 전체'는 관사 없이, 어느 것인지 정해지면 the. 굳어진 표현은 통째로 외워요.", deck:"자기소개", body:`
-<p>관사를 마무리하는 시간이에요. 한국어에는 관사가 없어서 실수가 두 방향으로 나와요. 꼭 필요한 a나 the를 빼먹기도 하고, 불안한 마음에 필요 없는 the를 붙이기도 해요. 긴 문장에서도 쓸 수 있게 스스로 던질 질문 세 개로 정리해요.</p>
-<h3>1. '~라는 것 전체'인가요? 관사 없이</h3>
-<p>어떤 종류 전체를 말할 때 셀 수 있는 명사는 <b>관사 없는 복수</b>로, money, coffee 같은 셀 수 없는 명사와 life, education 같은 추상명사는 <b>관사 없이 그대로</b> 써요. 한국어로 "인생은 짧아요", "교육은 중요해요"라고 할 때 아무것도 붙이지 않는 것과 같아요.</p>
-{{ex:Cats sleep a lot.|캣츠 슬립 어 랏|고양이는 잠을 많이 자요 (고양이 전체)}}{{ex:Life is short.|라이프 이즈 쇼트|인생은 짧아요}}{{ex:Education is important.|에주케이션 이즈 임포턴트|교육은 중요해요}}{{ex:Money isn't everything.|머니 이즌트 에브리띵|돈이 전부는 아니에요}}
-<p><b>The life is short.</b> (X) → <b>Life is short.</b> (O). <b>The cats sleep a lot.</b>은 틀린 문장은 아니지만 '그 고양이들'이라는 뜻이 돼요.</p>
-<h3>2. 어느 것인지 정해졌나요? the</h3>
-<p>같은 단어라도 뒤에 붙은 말이 <b>어느 것인지</b> 정해 주면 the를 붙여요. 한국어는 "네가 만든 커피"처럼 꾸미는 말을 앞에 둘 뿐 따로 표시가 없어서, 이 the를 특히 자주 빼먹어요.</p>
-{{ex:I like movies.|아이 라익 무비즈|저는 영화를 좋아해요 (영화 전체)}}{{ex:The movie we saw was great.|더 무비 위 쏘 워즈 그레이트|우리가 본 영화 정말 좋았어요}}{{ex:The coffee you made was great.|더 커피 유 메이드 워즈 그레잇|네가 만든 커피 정말 맛있었어}}
-<h3>'그'와 the는 같지 않아요</h3>
-<p>'그'를 볼 때마다 the로 옮기고, '그'가 없으면 관사도 빼는 습관이 있어요. 하지만 the는 '그'라는 뜻이 아니라 "서로 어느 것인지 안다"는 표시예요. 그래서 한국어에 '그'가 없어도 the가 필요할 때가 많아요. 반대로 둘 다 아는 것을 콕 집어 말하는 '그'는 that이 자연스러울 때도 있어요.</p>
-<div class="tbl"><table><tr><th>한국어</th><th>영어</th></tr><tr><td>화장실 어디예요? ('그' 없음)</td><td class="k">Where's the restroom?</td></tr><tr><td>오늘 하늘 정말 파래요 ('그' 없음)</td><td class="k">The sky is so blue today.</td></tr><tr><td>그 영화 정말 좋았어! (둘 다 본 영화를 콕 집어)</td><td class="k">I loved that movie!</td></tr></table></div>
-{{ex:Where's the restroom?|웨어즈 더 레스트룸?|화장실이 어디예요?}}{{ex:The sky is so blue today.|더 스카이 이즈 쏘 블루 투데이|오늘 하늘 정말 파래요}}{{ex:I loved that movie!|아이 러브드 댓 무비!|그 영화 정말 좋았어!}}
-<h3>3. 굳어진 표현인가요? 통째로 외워요</h3>
-<p>이유를 따지기보다 덩어리로 외우는 게 빨라요. bed, school, work는 원래 목적(자기, 공부하기, 일하기)으로 갈 때 관사 없이 써요.</p>
-<div class="tbl"><table><tr><th>관사 없음</th><th>관사 있음</th></tr><tr><td class="k">go to bed</td><td class="k">in the morning / in the evening</td></tr><tr><td class="k">by bus / by subway</td><td class="k">play the piano / play the guitar</td></tr><tr><td class="k">at home / at work</td><td class="k">go to the gym</td></tr><tr><td class="k">have lunch / have dinner</td><td class="k">go to the movies</td></tr></table></div>
-{{ex:I go to bed at eleven.|아이 고우 투 베드 앳 일레븐|저는 11시에 자요}}{{ex:I have lunch at noon.|아이 해브 런치 앳 눈|저는 12시에 점심을 먹어요}}{{ex:I go to the gym in the morning.|아이 고우 투 더 짐 인 더 모닝|저는 아침에 헬스장에 가요}}{{ex:My sister plays the guitar.|마이 시스터 플레이즈 더 기타|제 여동생은 기타를 쳐요}}
-<div class="tip">긴 문장에서 막히면 순서대로 물어보세요. ① 종류 전체인가? → 관사 없이 (셀 수 있으면 복수) ② 어느 것인지 서로 아나? → the ③ 여럿 중 아무 하나인가? → a / an. 굳어진 표현은 이 질문과 상관없이 통째로 외워요.</div>`,
-check:[["'음악은 사람을 행복하게 해요'(음악 전체)를 영어로 하면?",["The music makes people happy.","Music makes people happy.","A music makes people happy.","Music makes the peoples happy."],1,"음악 전체는 관사 없이 music, 사람들 전체도 관사 없이 people이에요."],["___ food we ordered was cold. 빈칸에 알맞은 것은?",["A","(없음)","The","An"],2,"we ordered가 어느 음식인지 정해 주니까 the예요."],["다음 중 관사가 바르게 쓰인 문장은?",["I go to the bed at eleven.","I go to gym in morning.","I have the lunch at noon.","I go to the gym in the morning."],3,"go to bed, have lunch는 관사 없이, go to the gym, in the morning은 the와 함께 써요."]],
+["mc","She said she ___ busy.","was","is being","be","were being","অন্যের কথা জানাতে tense অতীতে সরে যায়।"],
+["mc","He ___ me he was late.","told","said","say","tells to","কাকে বলা হলো থাকলে told বসে।"],
+["mc","\"সে বলল যে সে আসবে\" ইংরেজিতে?","He said he would come.","He said he will came.","He told he would come.","He said me he would come.","will বদলে would হয়।"],
+["mc","\"সে জানতে চাইল আমি ঠিক আছি কি না\" ইংরেজিতে?","She asked if I was okay.","She asked was I okay.","She asked if was I okay.","She said if I was okay.","হ্যাঁ / না-প্রশ্ন জানাতে if বসে।"],
+["mc","\"সে জানতে চাইল আমি কোথায় থাকি\" ইংরেজিতে?","He asked where I lived.","He asked where did I live.","He asked where I did lived.","He asked me where lived I.","জানানো প্রশ্নে শব্দের ক্রম সাধারণ বাক্যের মতো।"],
+["or","সে (মেয়ে) বলল যে সে ক্লান্ত","She said she was tired","told","কাকে বলা হলো না থাকলে said বসে।"],
+["or","সে (ছেলে) বলল যে সে একটা গাড়ি কিনেছে","He said he bought a car","the cars","প্রথমবার বলা একটা গাড়ি, তাই আর্টিকেল a।"],
+["or","সে (মেয়ে) বলল যে বইটা তার ভালো লেগেছে","She said she liked the book","a books","দুজনেরই জানা বইটা, তাই আর্টিকেল the।"],
+["fi","She __ she was tired.","সে বলল যে সে ক্লান্ত","said","told|asked|say","কাকে বলা হলো না থাকলে said বসে।"],
+["fi","He told __ he was busy.","সে আমাকে বলল যে সে ব্যস্ত","me","I|my|to","told-এর পরে বসে, কাকে বলা হলো।"],
+["fi","She asked __ I was okay.","সে জানতে চাইল আমি ঠিক আছি কি না","if|whether","that|what|did","হ্যাঁ / না-প্রশ্ন জানাতে if বসে।"],
+["ty","সে (ছেলে) বলল যে সে ব্যস্ত","He said he was busy|He said that he was busy|He told me he was busy","he said · he was · busy","is","অন্যের কথা জানাতে tense অতীতে সরে যায়।"],
+["ty","সে (মেয়ে) বলল যে তার একটা গাড়ি আছে","She said she had a car|She said that she had a car|She told me she had a car","she said · had · car — আর্টিকেল a","the","প্রথমবার বলা একটা গাড়ি, তাই আর্টিকেল a।"],
+["ty","সে (ছেলে) বলল যে সে সিনেমাটা দেখেছে","He said he saw the movie|He said he had seen the movie|He said he watched the movie|He told me he saw the movie","he said · saw · movie — আর্টিকেল the","a","দুজনেরই জানা সিনেমাটা, তাই আর্টিকেল the।"]]},
+{ id:"articles-3", title:"কখন আর্টিকেল বসে না: the না কিছুই না?", blurb:"সাধারণ কথা আর্টিকেল ছাড়া, কোনটা তা পরিষ্কার হলে the। -টা / -টি দেখলেই the নয়।", deck:"হালকা আলাপ", body:`
+<p>বাংলায় আর্টিকেল নেই, তাই ভুল হয় দুই দিকেই: দরকারি a / an বাদ পড়ে (<b>I'm engineer.</b> ✗), আবার যেখানে কিছুই বসে না সেখানে the ঢুকে যায় (<b>The life is hard.</b> ✗)। কঠিন হলো দ্বিতীয়টা, অর্থাৎ কখন আর্টিকেল বসে <b>না</b>। লম্বা বাক্যে নিজেকে তিনটি প্রশ্ন করুন।</p>
+<h3>1. কথাটা কি সাধারণভাবে বলা? তাহলে আর্টিকেল ছাড়া</h3>
+<p>কোনো কিছু নিয়ে সাধারণভাবে বললে গণনাযোগ্য বিশেষ্য হয় <b>আর্টিকেল ছাড়া বহুবচন</b>। যা গোনা যায় না (money, coffee) আর life, time-এর মতো ধারণা বসে <b>আর্টিকেল ছাড়াই</b>। বাংলাতেও "জীবন ছোট", "সময়ই টাকা" বলতে বাড়তি কিছু লাগে না।</p>
+{{ex:Cats sleep a lot.|ˈক্যাট্স ˈস্লীপ আ ˈলাːট|বিড়াল অনেক ঘুমায়}}{{ex:Time is money.|ˈটাইম ইজ় ˈমানি|সময়ই টাকা}}{{ex:Coffee keeps me awake.|ˈকফি ˈকীপ্স মি আˈওয়েইক|কফি খেলে আমার ঘুম আসে না}}
+<p><b>The life is hard.</b> ✗ → <b>Life is hard.</b> ✓ <b>The money isn't everything.</b> ✗ → <b>Money isn't everything.</b> ✓</p>
+<h3>2. কোনটা, তা কি পরিষ্কার? তাহলে the</h3>
+<p>একই শব্দের আগে <b>the</b> বসে, যখন পাশের কথাটুকু (of …, in …, বা who / that দিয়ে জোড়া বাক্যাংশ) ঠিক করে দেয় কোনটার কথা হচ্ছে।</p>
+{{ex:Life is short.|ˈলাইফ ইজ় ˈশর্ট|জীবন ছোট}}{{ex:The life of a teacher is busy.|দ়া ˈলাইফ আভ় আ ˈটীচার ইজ় ˈবিজ়ি|একজন শিক্ষকের জীবন ব্যস্ত}}{{ex:I like music.|আই ˈলাইক ˈমিঊজ়িক|আমার গান ভালো লাগে (সাধারণভাবে)}}{{ex:I like the music in this cafe.|আই ˈলাইক দ়া ˈমিঊজ়িক ইন ˈদ়িস ক্যাˈফেই|এই ক্যাফের গান আমার ভালো লাগে}}{{ex:The coffee you made was great.|দ়া ˈকফি ইউ ˈমেইড ওয়াজ় ˈগ্রেইট|তোমার বানানো কফিটা দারুণ ছিল}}
+<p>সবচেয়ে-র রূপ (-est / most), first, second-এর মতো ক্রম বোঝানো শব্দ আর যা পৃথিবীতে একটিই আছে, তার আগেও the বসে: "সবচেয়ে ভালো" বা "প্রথম" তো একটাই হয়।</p>
+{{ex:It's the best movie I've ever seen.|ইট্স দ়া ˈবেস্ট ˈমূভ়ি আইভ় ˈএভ়ার ˈসীন|এটা আমার দেখা সবচেয়ে ভালো সিনেমা}}
+<p>তবে বর্ণনা থাকলেই the নয়। জিনিসটা অনেকের মধ্যে একটা হলে লম্বা বর্ণনার পরেও a / an বসে।</p>
+{{ex:My brother is an engineer who works in Dhaka.|মাই ˈব্রাদ়ার ইজ় আন এন্জিˈনির হু ˈওয়ার্ক্স ইন ˈডাːকা|আমার ভাই একজন ইঞ্জিনিয়ার, ঢাকায় কাজ করে}}
+<h3>-টা / -টি দেখলেই the নয়</h3>
+<p>বাংলার -টা / -টি অনেক সময় the-এর কাজ করে (বইটা → the book)। কিন্তু বাংলা এটা এমন জায়গাতেও বসায়, যেখানে ইংরেজিতে কোনো আর্টিকেল বসে না: my, your-এর মতো মালিকানা বোঝানো শব্দের পরে, আর নামের সঙ্গে। মানুষ, শহর, বেশির ভাগ দেশ, বিশ্ববিদ্যালয় আর কোম্পানির নামের আগে the বসে না।</p>
+<div class="tbl"><table><tr><th>বাংলা</th><th>ইংরেজি</th></tr><tr><td>আমার বইটা</td><td class="k">my book (my the book ✗)</td></tr><tr><td>ঢাকা শহরটা বড়</td><td class="k">Dhaka is big. (The Dhaka ✗)</td></tr><tr><td>সে ঢাকা বিশ্ববিদ্যালয়ে পড়ে</td><td class="k">She studies at Dhaka University. (at the Dhaka University ✗)</td></tr></table></div>
+{{ex:She studies at Dhaka University.|শি ˈস্টাডিজ় আট ˈডাːকা ইঊনিˈভ়ার্সাটি|সে ঢাকা বিশ্ববিদ্যালয়ে পড়ে}}
+<h3>3. বাঁধা কথা? তাহলে আর্টিকেল ছাড়া</h3>
+<p>bed, school, work যখন তাদের আসল কাজের অর্থে আসে (ঘুমানো, পড়া, কাজ করা), তখন আর্টিকেল বসে না। by + যানবাহন, খাবারের বেলা আর at night-এও বসে না। এগুলো পুরোটা একসঙ্গে মনে রাখাই সহজ।</p>
+<div class="tbl"><table><tr><th>বাঁধা কথা</th><th>অর্থ</th></tr><tr><td class="k">go to bed</td><td>ঘুমাতে যাওয়া</td></tr><tr><td class="k">go to school / go to work</td><td>স্কুলে যাওয়া / কাজে যাওয়া</td></tr><tr><td class="k">at home / at work</td><td>বাসায় / কাজে</td></tr><tr><td class="k">by train / by bus</td><td>ট্রেনে / বাসে</td></tr><tr><td class="k">have breakfast / have lunch</td><td>নাশতা করা / দুপুরের খাবার খাওয়া</td></tr><tr><td class="k">at night</td><td>রাতে</td></tr></table></div>
+{{ex:I go to work by train.|আই ˈগৌ টা ˈওয়ার্ক বাই ˈট্রেইন|আমি ট্রেনে করে কাজে যাই}}{{ex:I went to bed early.|আই ˈওয়েন্ট টা ˈবেড ˈআর্লি|আমি তাড়াতাড়ি ঘুমাতে গিয়েছিলাম}}{{ex:She's at work now.|শিজ় আট ˈওয়ার্ক ˈনাউ|সে এখন কাজে আছে}}{{ex:I sat on the bed.|আই ˈস্যাট আːন দ়া ˈবেড|আমি বিছানাটায় বসলাম (আসবাব হিসেবে বিছানা)}}
+<div class="tip">সন্দেহ হলে নিজেকে জিজ্ঞেস করুন: কথাটা কি সাধারণভাবে বলা, নাকি কোনটা তা পরিষ্কার? সাধারণ হলে আর্টিকেল ছাড়া (গণনাযোগ্য হলে বহুবচন); কোনটা তা পরিষ্কার হলে the; অনেকের মধ্যে একটা হলে a / an। বাংলা বাক্যে -টা আছে কি নেই, তা দেখে ঠিক করবেন না।</div>`,
+check:[["\"আমি ট্রেনে করে কাজে যাই\" ইংরেজিতে?",["I go to the work by the train.","I go to a work by train.","I go to work by train.","I go to work by a train."],2,"go to work আর by train বাঁধা কথা, আর্টিকেল বসে না।"],["I like ___ music they play here. শূন্যস্থানে কী বসবে?",["the","a","an","(কিছুই না)"],0,"they play here ঠিক করে দিচ্ছে কোন music, তাই আর্টিকেল the।"],["\"জীবন ছোট\" (সাধারণভাবে) ইংরেজিতে?",["The life is short.","A life is short.","Lives is short.","Life is short."],3,"life-এর মতো ধারণা সাধারণ অর্থে আর্টিকেল ছাড়া বসে।"]],
 practice:[
-["mc","'토끼는 당근을 좋아해요' (토끼 전체) =","Rabbits love carrots.","The rabbits love the carrots.","A rabbit love carrot.","Rabbit loves carrots.","종류 전체는 관사 없는 복수예요."],
-["mc","'건강은 중요해요' =","Health is important.","The health is important.","Healths are important.","A health is important.","추상명사를 일반적으로 말할 때는 관사 없이 써요."],
-["mc","'네가 사 온 빵 맛있었어' =","The bread you bought was good.","Bread you bought was good.","A bread you bought was good.","The breads you bought was good.","you bought가 어느 빵인지 정해 주니까 관사 the예요."],
-["mc","'저는 아침에 운동해요' =","I work out in the morning.","I work out in morning.","I work out in a morning.","I work out at the morning.","in the morning은 관사 the와 함께 굳어진 표현이에요."],
-["mc","'저는 지하철로 출근해요' =","I go to work by subway.","I go to the work by subway.","I go to a work by subway.","I go to work by a subway.","go to work, by subway는 관사 없이 쓰는 굳어진 표현이에요."],
-["or","사랑은 어려워요","Love is hard","The","사랑 같은 추상명사를 일반적으로 말할 때는 관사 the를 붙이지 않아요."],
-["or","아이들은 사탕을 좋아해요","Kids like candy","The kid","아이들 전체는 관사 없이 복수 kids예요."],
-["or","네가 만든 케이크 정말 맛있었어","The cake you made was delicious","A cakes","you made가 어느 케이크인지 정해 주니까 관사 the예요."],
-["or","저는 헬스장에 다녀요","I go to the gym","health at","go to the gym은 관사 the와 함께 외워요."],
-["fi","I usually go to __ at midnight.","저는 보통 자정에 자요","bed|sleep","the bed|a bed|beds","잠자리에 드는 건 관사 없이 go to bed예요."],
-["fi","I loved __ book you gave me.","네가 준 책 정말 좋았어","the|that","a|an|some","you gave me가 어느 책인지 정해 주니까 the예요."],
-["fi","I'm at __ right now.","저 지금 회사에 있어요","work|the office|my office","the work|a work|works","at work는 관사 없이 쓰는 굳어진 표현이에요."],
-["ty","저는 아침에 커피를 마셔요","I drink coffee in the morning|I have coffee in the morning|In the morning I drink coffee|In the morning I have coffee|I drink coffee in the mornings|I have coffee in the mornings|I drink a cup of coffee in the morning|I have a cup of coffee in the morning","drink · coffee · in · morning — 관사 주의","a","일반적인 coffee에는 관사가 없고, in the morning은 관사 the와 함께 써요."],
-["ty","네가 만든 파스타 정말 맛있었어 (delicious로)","The pasta you made was delicious|The pasta you made was really delicious|The pasta you made was so delicious|The pasta you made was very delicious|The pasta that you made was delicious|The pasta that you made was really delicious|The pasta that you made was so delicious|The pasta that you made was very delicious","the pasta · you made · delicious — 관사 the","a","you made가 어느 파스타인지 정해 주니까 관사 the예요."],
-["ty","돈이 전부는 아니에요","Money isn't everything","money · everything — 관사 없이","The","money처럼 셀 수 없는 명사를 일반적으로 말할 때는 관사 없이 써요."],
-["ty","저는 보통 11시에 자요","I usually go to bed at eleven|I usually go to bed at 11|I usually go to bed at 11 pm|I usually go to bed at eleven pm|I usually go to sleep at eleven|I usually go to sleep at 11|I usually go to sleep at 11 pm|I usually go to sleep at eleven pm|I usually go to bed at eleven o'clock","usually · go to bed · eleven — 관사 없이","the","go to bed는 관사 없이 쓰는 굳어진 표현이에요."]]},
+["mc","\"সময়ই টাকা\" ইংরেজিতে?","Time is money.","The time is money.","A time is money.","Time is a money.","time-এর মতো ধারণা সাধারণ অর্থে আর্টিকেল ছাড়া বসে; money গণনাযোগ্য নয়, তাই a-ও বসে না।"],
+["mc","\"আমি তাড়াতাড়ি ঘুমাতে গিয়েছিলাম\" ইংরেজিতে?","I went to bed early.","I went to the bed early.","I went to a bed early.","I went to beds early.","go to bed (ঘুমাতে যাওয়া) বাঁধা কথা, আর্টিকেল বসে না।"],
+["mc","\"তোমার বানানো কফিটা দারুণ ছিল\" ইংরেজিতে?","The coffee you made was great.","Coffee you made was great.","A coffee you made was great.","The coffees you made was great.","you made ঠিক করে দিচ্ছে কোন কফি, তাই আর্টিকেল the।"],
+["mc","\"আমার ভাই একজন ইঞ্জিনিয়ার, ঢাকায় কাজ করে\" ইংরেজিতে?","My brother is an engineer who works in Dhaka.","My brother is engineer who works in Dhaka.","My brother is a engineer who works in Dhaka.","My brother is the engineers who works in Dhaka.","বর্ণনা আছে, কিন্তু ইঞ্জিনিয়ার অনেকের মধ্যে একজন, তাই আর্টিকেল an।"],
+["mc","\"সে এখন কাজে আছে\" ইংরেজিতে?","She's at work now.","She's at the work now.","She's at a work now.","She's at works now.","at work বাঁধা কথা, আর্টিকেল বসে না।"],
+["or","বিড়াল অনেক ঘুমায়","Cats sleep a lot","The cat","সব বিড়ালের কথা, তাই আর্টিকেল ছাড়া বহুবচন cats।"],
+["or","এখানকার গান আমার ভালো লাগে","I like the music here","a musics","here ঠিক করে দিচ্ছে কোন music, তাই আর্টিকেল the; music গণনাযোগ্য নয়, তাই -s বসে না।"],
+["or","আমি বাসে করে স্কুলে যাই","I go to school by bus","the a","go to school আর by bus বাঁধা কথা, আর্টিকেল বসে না।"],
+["fi","__ is short.","জীবন ছোট","Life","The life|A life|Lives","life-এর মতো ধারণা সাধারণ অর্থে আর্টিকেল ছাড়া বসে।"],
+["fi","I'm __ home now.","আমি এখন বাসায় আছি","at","at the|in the|to","at home বাঁধা কথা, আর্টিকেল বসে না।"],
+["fi","I read __ interesting article about sleep.","ঘুম নিয়ে একটা মজার লেখা পড়লাম","an","a|the|two","লেখাটা অনেকের মধ্যে একটা, তাই বর্ণনা থাকলেও আর্টিকেল an (interesting স্বরধ্বনি দিয়ে শুরু)।"],
+["ty","আমি তাড়াতাড়ি ঘুমাতে গিয়েছিলাম","I went to bed early","went to · bed · early — আর্টিকেল ছাড়া","the","go to bed বাঁধা কথা, আর্টিকেল বসে না।"],
+["ty","তোমার বানানো কফিটা দারুণ ছিল","The coffee you made was great|The coffee you made was good|The coffee you made was delicious|The coffee that you made was great|The coffee that you made was good|The coffee that you made was delicious","the coffee · you made · great — আর্টিকেল the","a","you made ঠিক করে দিচ্ছে কোন কফি, তাই আর্টিকেল the।"],
+["ty","আমি ট্রেনে করে কাজে যাই","I go to work by train|I commute by train|I take the train to work","go to work · by train — আর্টিকেল ছাড়া","the","go to work আর by train বাঁধা কথা, আর্টিকেল বসে না।"]]},
 ];
