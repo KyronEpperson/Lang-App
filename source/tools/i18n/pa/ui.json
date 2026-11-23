@@ -14,7 +14,7 @@
  ],
  "exact": {
   "Korean starter": {
-   "t": "ਕੋਰੀਆਈ ਦੀ ਸ਼ੁਰੂਆਤ",
+   "t": "ਅੰਗਰੇਜ਼ੀ ਦੀ ਸ਼ੁਰੂਆਤ",
    "ko": "영어 첫걸음",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -61,7 +61,7 @@
    "where": "html <a> text"
   },
   "Read": {
-   "t": "ਪੜ੍ਹਨਾ",
+   "t": "ਪੜ੍ਹੋ",
    "ko": "읽기",
    "kind": "label",
    "context": "bottom-nav tab: reading / writing drills (noun-like tab name)",
@@ -75,21 +75,21 @@
    "where": "html <a> text"
   },
   "Feedback": {
-   "t": "ਫ਼ੀਡਬੈਕ",
+   "t": "ਸੁਝਾਅ",
    "ko": "피드백",
    "kind": "label",
    "context": "bottom-nav tab: send feedback",
    "where": "html <a> text"
   },
   "Privacy": {
-   "t": "ਪਰਦੇਦਾਰੀ",
+   "t": "ਪ੍ਰਾਈਵੇਸੀ",
    "ko": "개인정보",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <a> text"
   },
   "How do I say… (search all decks)": {
-   "t": "ਕਿਵੇਂ ਕਹੀਏ… (ਸਾਰੇ ਡੈੱਕਾਂ ਵਿੱਚ ਖੋਜੋ)",
+   "t": "ਕਿਵੇਂ ਕਹੀਏ… (ਸਾਰੇ ਡੈੱਕ ਖੋਜੋ)",
    "ko": "이건 어떻게 말해요? (전체 덱 검색)",
    "kind": "sentence",
    "where": "html <input> @placeholder"
@@ -101,21 +101,21 @@
    "where": "html <summary> text"
   },
   "Korean (required)": {
-   "t": "ਕੋਰੀਆਈ (ਜ਼ਰੂਰੀ)",
+   "t": "ਅੰਗਰੇਜ਼ੀ (ਜ਼ਰੂਰੀ)",
    "ko": "배울 표현 (필수)",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "html <input> @placeholder"
   },
   "Romanization (auto if blank)": {
-   "t": "ਰੋਮਨ (ਖ਼ਾਲੀ ਹੋਵੇ ਤਾਂ ਆਪਣੇ ਆਪ)",
+   "t": "ਉਚਾਰਨ (ਖ਼ਾਲੀ ਛੱਡੋ ਤਾਂ ਆਪਣੇ ਆਪ)",
    "ko": "발음 표기 (비워 두면 자동)",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "html <input> @placeholder"
   },
   "Meaning (required)": {
-   "t": "ਮਤਲਬ (ਜ਼ਰੂਰੀ)",
+   "t": "ਅਰਥ (ਜ਼ਰੂਰੀ)",
    "ko": "뜻 (필수)",
    "kind": "label",
    "where": "html <input> @placeholder"
@@ -134,20 +134,20 @@
    "where": "html <button> text"
   },
   "Bulk import (paste CSV / TSV)": {
-   "t": "ਇਕੱਠੇ ਇੰਪੋਰਟ ਕਰੋ (CSV / TSV ਪੇਸਟ ਕਰੋ)",
+   "t": "ਇਕੱਠੇ ਇੰਪੋਰਟ (CSV / TSV ਪੇਸਟ ਕਰੋ)",
    "ko": "한꺼번에 가져오기 (CSV / TSV 붙여넣기)",
    "kind": "sentence",
    "where": "html <summary> text"
   },
   "Korean, romanization, meaning, note — one per line (romanization/note optional)": {
-   "t": "ਕੋਰੀਆਈ, ਰੋਮਨ, ਮਤਲਬ, ਨੋਟ — ਹਰ ਲਾਈਨ ਵਿੱਚ ਇੱਕ (ਰੋਮਨ/ਨੋਟ ਜ਼ਰੂਰੀ ਨਹੀਂ)",
+   "t": "ਅੰਗਰੇਜ਼ੀ, ਉਚਾਰਨ, ਅਰਥ, ਨੋਟ — ਹਰ ਲਾਈਨ ਵਿੱਚ ਇੱਕ ਕਾਰਡ (ਉਚਾਰਨ ਤੇ ਨੋਟ ਜ਼ਰੂਰੀ ਨਹੀਂ)",
    "ko": "표현, 발음 표기, 뜻, 메모 — 한 줄에 하나씩 (발음 표기·메모는 선택)",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "html <textarea> @placeholder"
   },
   "Preview appears here": {
-   "t": "ਪ੍ਰੀਵਿਊ ਇੱਥੇ ਦਿਸੇਗਾ",
+   "t": "ਪ੍ਰੀਵਿਊ ਇੱਥੇ ਦਿਖੇਗਾ",
    "ko": "여기에 미리보기가 나와요",
    "kind": "label",
    "where": "html <span> text"
@@ -160,7 +160,7 @@
    "where": "html <button> text"
   },
   "Import 0": {
-   "t": "ਇੰਪੋਰਟ 0",
+   "t": "ਇੰਪੋਰਟ: 0",
    "ko": "0개 가져오기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -174,7 +174,7 @@
    "where": "html <div> @aria-label"
   },
   "Due": {
-   "t": "ਦੁਹਰਾਈ ਲਈ",
+   "t": "ਦੁਹਰਾਉਣੇ ਹਨ",
    "ko": "복습할 카드",
    "kind": "label",
    "context": "filter chip: only cards due for review",
@@ -223,14 +223,14 @@
    "where": "js (top level)"
   },
   "native": {
-   "t": "ਨੇਟਿਵ",
+   "t": "ਅਸਲੀ",
    "ko": "원어민 속도",
    "kind": "label",
    "context": "audio speed option: native-speaker speed",
    "where": "html <option> text"
   },
   "Blur romanization in Browse": {
-   "t": "ਬ੍ਰਾਊਜ਼ ਵਿੱਚ ਰੋਮਨ ਧੁੰਦਲਾ ਕਰੋ",
+   "t": "ਬ੍ਰਾਊਜ਼ ਵਿੱਚ ਉਚਾਰਨ ਧੁੰਦਲਾ ਕਰੋ",
    "ko": "둘러보기에서 발음 표기 흐리게",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -244,14 +244,14 @@
    "where": "html text"
   },
   "again ·": {
-   "t": "ਫਿਰ ਤੋਂ ·",
+   "t": "ਦੁਬਾਰਾ ·",
    "ko": "다시 ·",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "html text"
   },
   "got it ·": {
-   "t": "ਯਾਦ ਹੈ ·",
+   "t": "ਆਉਂਦਾ ਹੈ ·",
    "ko": "알아요 ·",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -265,7 +265,7 @@
    "where": "html text"
   },
   "quiz answer ·": {
-   "t": "ਕੁਇਜ਼ ਦਾ ਜਵਾਬ ·",
+   "t": "ਟੈਸਟ ਦਾ ਜਵਾਬ ·",
    "ko": "퀴즈 답 ·",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -300,26 +300,26 @@
    "where": "html <button> text"
   },
   "Learn 5 at a time": {
-   "t": "ਇੱਕ ਵਾਰ ਵਿੱਚ 5 ਸਿੱਖੋ",
+   "t": "5-5 ਕਾਰਡ ਕਰਕੇ ਸਿੱਖੋ",
    "ko": "5개씩 배우기",
    "kind": "sentence",
    "where": "html <b> text"
   },
   ": 5 new cards, quiz them, 5 more, quiz those mixed with everything so far, until the deck is done.": {
-   "t": ": 5 ਨਵੇਂ ਕਾਰਡ, ਉਹਨਾਂ ਦਾ ਕੁਇਜ਼, 5 ਹੋਰ, ਫਿਰ ਹੁਣ ਤੱਕ ਦੇ ਸਾਰੇ ਕਾਰਡ ਰਲਾ ਕੇ ਕੁਇਜ਼, ਜਦੋਂ ਤੱਕ ਡੈੱਕ ਪੂਰਾ ਨਾ ਹੋ ਜਾਵੇ।",
+   "t": ": 5 ਨਵੇਂ ਕਾਰਡ, ਉਹਨਾਂ ਦਾ ਟੈਸਟ, ਫਿਰ 5 ਹੋਰ, ਫਿਰ ਹੁਣ ਤੱਕ ਦੇ ਸਾਰੇ ਕਾਰਡ ਰਲਾ ਕੇ ਟੈਸਟ — ਜਦੋਂ ਤੱਕ ਡੈੱਕ ਪੂਰਾ ਨਹੀਂ ਹੋ ਜਾਂਦਾ।",
    "ko": ": 새 카드 5장을 배우고 퀴즈, 또 5장을 배우고 지금까지 배운 것과 섞어서 퀴즈 — 덱을 끝낼 때까지 반복해요.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "html text"
   },
   "Test everything": {
-   "t": "ਸਭ ਕੁਝ ਪਰਖੋ",
+   "t": "ਸਭ ਕੁਝ ਟੈਸਟ ਕਰੋ",
    "ko": "전체 테스트",
    "kind": "label",
    "where": "html <b> text"
   },
   ": every card × 3 passes. Mixed = read, listen, recall.": {
-   "t": ": ਹਰ ਕਾਰਡ × 3 ਗੇੜ। ਰਲਵਾਂ = ਪੜ੍ਹੋ, ਸੁਣੋ, ਯਾਦ ਕਰੋ।",
+   "t": ": ਹਰ ਕਾਰਡ × 3 ਗੇੜ। ਰਲਵਾਂ = ਪੜ੍ਹਨਾ, ਸੁਣਨਾ, ਯਾਦ ਕਰਨਾ।",
    "ko": ": 모든 카드를 3번씩 풀어요. 섞어서 = 읽기, 듣기, 떠올리기.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -347,48 +347,48 @@
    "where": "html text"
   },
   "Read 한→en": {
-   "t": "ਪੜ੍ਹੋ 한→ਪੰਜਾਬੀ",
+   "t": "ਪੜ੍ਹੋ en→ਪੰ",
    "ko": "읽기 영→한",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "html <button> text"
   },
   "Recall en→한": {
-   "t": "ਯਾਦ ਕਰੋ ਪੰਜਾਬੀ→한",
+   "t": "ਯਾਦ ਕਰੋ ਪੰ→en",
    "ko": "떠올리기 한→영",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "html <button> text"
   },
   "Listen 🔊→en": {
-   "t": "ਸੁਣੋ 🔊→ਪੰਜਾਬੀ",
+   "t": "ਸੁਣੋ 🔊→ਪੰ",
    "ko": "듣기 🔊→한",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <button> text"
   },
   "⌨️ Type 한": {
-   "t": "⌨️ ਟਾਈਪ ਕਰੋ 한",
+   "t": "⌨️ ਲਿਖੋ EN",
    "ko": "⌨️ 영어 입력",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "html <button> text"
   },
   "🎚️ Polite ↔ casual drill · 10": {
-   "t": "🎚️ ਨਿਮਰ ↔ ਆਮ ਬੋਲਚਾਲ ਡਰਿੱਲ · 10",
+   "t": "🎚️ ਨਿਮਰ ↔ ਬੋਲਚਾਲ ਡਰਿੱਲ · 10",
    "ko": "🎚️ 존댓말 ↔ 반말 훈련 · 10",
    "kind": "sentence",
    "where": "html <button> text"
   },
   "Weak spots": {
-   "t": "ਕਮਜ਼ੋਰੀਆਂ",
+   "t": "ਕਮਜ਼ੋਰ ਥਾਵਾਂ",
    "ko": "약점 공략",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <button> text"
   },
   "⚡ 2-minute blitz": {
-   "t": "⚡ 2 ਮਿੰਟ ਦਾ ਬਲਿਟਜ਼",
+   "t": "⚡ 2 ਮਿੰਟ ਦਾ ਤੇਜ਼ ਰਾਊਂਡ",
    "ko": "⚡ 2분 스피드 퀴즈",
    "kind": "label",
    "where": "html <button> text"
@@ -400,7 +400,7 @@
    "where": "html <button> text"
   },
   "Show romanization in practice": {
-   "t": "ਅਭਿਆਸ ਵਿੱਚ ਰੋਮਨ ਦਿਖਾਓ",
+   "t": "ਅਭਿਆਸ ਵਿੱਚ ਉਚਾਰਨ ਦਿਖਾਓ",
    "ko": "연습할 때 발음 표기 보기",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -413,14 +413,14 @@
    "where": "html <h2> text"
   },
   "Type the romanization. Hangul blocks stack consonant + vowel (+ final). Your level here is also used in sessions.": {
-   "t": "ਰੋਮਨ ਵਿੱਚ ਟਾਈਪ ਕਰੋ। ਹੰਗੁਲ ਬਲਾਕ ਵਿੱਚ ਵਿਅੰਜਨ + ਸਵਰ (+ ਆਖ਼ਰੀ ਵਿਅੰਜਨ) ਇਕੱਠੇ ਜੁੜਦੇ ਹਨ। ਇੱਥੇ ਵਾਲਾ ਤੁਹਾਡਾ ਲੈਵਲ ਸੈਸ਼ਨਾਂ ਵਿੱਚ ਵੀ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।",
+   "t": "ਉਚਾਰਨ ਲਿਖੋ। ਅੰਗਰੇਜ਼ੀ ਸ਼ਬਦ ਸਿਲੇਬਲ ਤੋਂ ਬਣਦੇ ਹਨ: ਵਿਅੰਜਨ + ਸਵਰ (+ ਅਖ਼ੀਰਲਾ ਵਿਅੰਜਨ)। ਇੱਥੇ ਚੁਣਿਆ ਲੈਵਲ ਸੈਸ਼ਨ ਵਿੱਚ ਵੀ ਲਾਗੂ ਹੁੰਦਾ ਹੈ।",
    "ko": "발음 표기를 입력하세요. 한글 글자는 자음 + 모음 (+ 받침)으로 쌓여요. 여기서 고른 레벨은 학습에도 쓰여요.",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "html <p> text"
   },
   "Syllables": {
-   "t": "ਉਚਾਰਖੰਡ",
+   "t": "ਸਿਲੇਬਲ",
    "ko": "음절",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -434,13 +434,13 @@
    "where": "html <button> text"
   },
   "Words + finals": {
-   "t": "ਸ਼ਬਦ + ਆਖ਼ਰੀ ਵਿਅੰਜਨ",
+   "t": "ਸ਼ਬਦ + ਅਖ਼ੀਰਲੀ ਆਵਾਜ਼",
    "ko": "단어 + 받침",
    "kind": "label",
    "where": "html <button> text"
   },
   "⌨️ Type it": {
-   "t": "⌨️ ਟਾਈਪ ਕਰੋ",
+   "t": "⌨️ ਲਿਖੋ",
    "ko": "⌨️ 입력하기",
    "kind": "label",
    "where": "html <button> text"
@@ -459,7 +459,7 @@
    "where": "html <button> text"
   },
   "🎚️ Polite ↔ casual": {
-   "t": "🎚️ ਨਿਮਰ ↔ ਆਮ",
+   "t": "🎚️ ਨਿਮਰ ↔ ਬੋਲਚਾਲ",
    "ko": "🎚️ 존댓말 ↔ 반말",
    "kind": "label",
    "where": "html <button> text"
@@ -492,26 +492,26 @@
    "where": "html <button> text"
   },
   "🔀 Sound changes": {
-   "t": "🔀 ਧੁਨੀ-ਬਦਲਾਅ",
+   "t": "🔀 ਆਵਾਜ਼ ਦੇ ਬਦਲਾਅ",
    "ko": "🔀 소리 변화",
    "kind": "label",
    "where": "html <button> text"
   },
   "How a block is built": {
-   "t": "ਬਲਾਕ ਕਿਵੇਂ ਬਣਦਾ ਹੈ",
+   "t": "ਸ਼ਬਦ ਕਿਵੇਂ ਬਣਦਾ ਹੈ",
    "ko": "글자는 이렇게 만들어져요",
    "kind": "sentence",
    "where": "html <h3> text"
   },
   "(han). Vertical vowels (ㅏㅓㅣ) sit right of the consonant; horizontal vowels (ㅗㅜㅡ) sit below. A final consonant always goes at the bottom.": {
-   "t": "(han)। ਖੜ੍ਹੇ ਸਵਰ (ㅏㅓㅣ) ਵਿਅੰਜਨ ਦੇ ਸੱਜੇ ਪਾਸੇ ਆਉਂਦੇ ਹਨ; ਲੇਟਵੇਂ ਸਵਰ (ㅗㅜㅡ) ਹੇਠਾਂ ਆਉਂਦੇ ਹਨ। ਆਖ਼ਰੀ ਵਿਅੰਜਨ ਹਮੇਸ਼ਾ ਸਭ ਤੋਂ ਹੇਠਾਂ ਜਾਂਦਾ ਹੈ।",
+   "t": "(han)। ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਸਪੈਲਿੰਗ ਤੋਂ ਹਮੇਸ਼ਾ ਉਚਾਰਨ ਦਾ ਪਤਾ ਨਹੀਂ ਲੱਗਦਾ: ਆਡੀਓ ਸੁਣੋ ਤੇ ਜ਼ੋਰ ਵਾਲੇ ਸਿਲੇਬਲ ਵੱਲ ਧਿਆਨ ਦਿਓ।",
    "ko": "(han). 세로 모음(ㅏㅓㅣ)은 자음 오른쪽에, 가로 모음(ㅗㅜㅡ)은 자음 아래에 와요. 받침은 항상 맨 아래에 들어가요.",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "html text"
   },
   "day streak": {
-   "t": "ਦਿਨਾਂ ਦੀ ਸਟ੍ਰੀਕ",
+   "t": "ਲਗਾਤਾਰ ਦਿਨ",
    "ko": "일 연속 학습",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -537,7 +537,7 @@
    "where": "html <h3> text"
   },
   "Reviews coming up": {
-   "t": "ਆਉਣ ਵਾਲੀਆਂ ਦੁਹਰਾਈਆਂ",
+   "t": "ਆਉਣ ਵਾਲੀ ਦੁਹਰਾਈ",
    "ko": "다가오는 복습",
    "kind": "label",
    "where": "html <h3> text"
@@ -549,14 +549,14 @@
    "where": "html <h3> text"
   },
   "Intervals adapt to your retention (±) ·": {
-   "t": "ਅੰਤਰਾਲ ਤੁਹਾਡੀ ਯਾਦਦਾਸ਼ਤ ਮੁਤਾਬਕ ਬਦਲਦੇ ਹਨ (±) ·",
+   "t": "ਵਕਫ਼ੇ ਤੁਹਾਡੀ ਯਾਦਦਾਸ਼ਤ ਮੁਤਾਬਕ ਬਦਲਦੇ ਹਨ (±) ·",
    "ko": "복습 간격은 기억률에 맞춰 조정돼요 (±) ·",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "html <span> text"
   },
   "Reset to defaults": {
-   "t": "ਡਿਫ਼ੌਲਟ 'ਤੇ ਵਾਪਸ",
+   "t": "ਡਿਫ਼ਾਲਟ ਵਾਪਸ ਲਿਆਓ",
    "ko": "기본값으로 되돌리기",
    "kind": "label",
    "where": "html <button> text"
@@ -590,13 +590,13 @@
    "where": "html text"
   },
   "New cards/day": {
-   "t": "ਨਵੇਂ ਕਾਰਡ/ਦਿਨ",
+   "t": "ਰੋਜ਼ ਨਵੇਂ ਕਾਰਡ",
    "ko": "하루 새 카드",
    "kind": "label",
    "where": "html <label> text"
   },
   "Share your streak": {
-   "t": "ਆਪਣੀ ਸਟ੍ਰੀਕ ਸ਼ੇਅਰ ਕਰੋ",
+   "t": "ਆਪਣੀ ਲੜੀ ਸ਼ੇਅਰ ਕਰੋ",
    "ko": "연속 학습 자랑하기",
    "kind": "label",
    "where": "html <h3> text"
@@ -616,7 +616,7 @@
    "where": "html <h3> text"
   },
   "80% mastery of every deck in a group + all checks": {
-   "t": "ਗਰੁੱਪ ਦੇ ਹਰ ਡੈੱਕ ਵਿੱਚ 80% ਪੱਕਾ + ਸਾਰੀਆਂ ਜਾਂਚਾਂ",
+   "t": "ਗਰੁੱਪ ਦੇ ਹਰ ਡੈੱਕ ਵਿੱਚ 80% ਕਾਰਡ ਪੱਕੇ + ਸਾਰੇ ਮਿੰਨੀ-ਟੈਸਟ",
    "ko": "그룹의 모든 덱 80% 마스터 + 확인 문제 모두 통과",
    "kind": "sentence",
    "where": "html <span> text"
@@ -647,7 +647,7 @@
    "where": "html <h3> text"
   },
   "Quiz accuracy": {
-   "t": "ਕੁਇਜ਼ ਵਿੱਚ ਸ਼ੁੱਧਤਾ",
+   "t": "ਟੈਸਟ ਵਿੱਚ ਸਹੀ ਜਵਾਬ",
    "ko": "퀴즈 정확도",
    "kind": "label",
    "where": "html <h3> text"
@@ -694,20 +694,20 @@
    "where": "html <textarea> @placeholder"
   },
   "Merges with what is here; nothing is lost.": {
-   "t": "ਇੱਥੇ ਪਹਿਲਾਂ ਵਾਲੇ ਨਾਲ ਜੁੜ ਜਾਂਦਾ ਹੈ; ਕੁਝ ਨਹੀਂ ਗੁਆਚਦਾ।",
+   "t": "ਇੱਥੇ ਪਹਿਲਾਂ ਤੋਂ ਮੌਜੂਦ ਡਾਟਾ ਨਾਲ ਮਿਲ ਜਾਂਦਾ ਹੈ; ਕੁਝ ਨਹੀਂ ਗੁਆਚਦਾ।",
    "ko": "지금 기록과 합쳐져요. 사라지는 건 없어요.",
    "kind": "sentence",
    "where": "html <span> text"
   },
   "Merge in": {
-   "t": "ਜੋੜੋ",
+   "t": "ਮਿਲਾਓ",
    "ko": "합치기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <button> text"
   },
   "Export = your whole progress as text. Use it to move between devices when account sync is off.": {
-   "t": "ਐਕਸਪੋਰਟ = ਤੁਹਾਡੀ ਸਾਰੀ ਤਰੱਕੀ, ਟੈਕਸਟ ਵਜੋਂ। ਜਦੋਂ ਅਕਾਊਂਟ ਸਿੰਕ ਬੰਦ ਹੋਵੇ ਤਾਂ ਡਿਵਾਈਸ ਬਦਲਣ ਲਈ ਇਸ ਨੂੰ ਵਰਤੋ।",
+   "t": "ਐਕਸਪੋਰਟ = ਤੁਹਾਡੀ ਪੂਰੀ ਤਰੱਕੀ ਟੈਕਸਟ ਦੇ ਰੂਪ ਵਿੱਚ। ਜਦੋਂ ਅਕਾਊਂਟ ਸਿੰਕ ਬੰਦ ਹੋਵੇ, ਇਸ ਨਾਲ ਇੱਕ ਡਿਵਾਈਸ ਤੋਂ ਦੂਜੇ ਉੱਤੇ ਜਾਓ।",
    "ko": "내보내기 = 전체 진도를 텍스트로 저장해요. 계정 동기화를 쓰지 않을 때 기기를 옮기는 데 쓰세요.",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -719,13 +719,13 @@
    "where": "html <input> text"
   },
   "Unlock everything (skip the guided path)": {
-   "t": "ਸਭ ਕੁਝ ਅਨਲੌਕ ਕਰੋ (ਗਾਈਡ ਵਾਲਾ ਰਾਹ ਛੱਡੋ)",
+   "t": "ਸਭ ਕੁਝ ਅਨਲਾਕ ਕਰੋ (ਗਾਈਡ ਵਾਲਾ ਰਾਹ ਛੱਡੋ)",
    "ko": "전부 열기 (학습 순서 건너뛰기)",
    "kind": "sentence",
    "where": "html <input> text"
   },
   "한국어 UI (menu labels in Korean)": {
-   "t": "한국어 UI (ਮੀਨੂ ਦੇ ਲੇਬਲ ਕੋਰੀਆਈ ਵਿੱਚ)",
+   "t": "ਪੰਜਾਬੀ ਇੰਟਰਫ਼ੇਸ (ਮੀਨੂ ਪੰਜਾਬੀ ਵਿੱਚ)",
    "ko": "한국어 UI (메뉴를 한국어로)",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content; legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -751,7 +751,7 @@
    "where": "html <input> text"
   },
   "Redo setup questions": {
-   "t": "ਸੈੱਟਅੱਪ ਦੇ ਸਵਾਲ ਦੁਬਾਰਾ",
+   "t": "ਸੈੱਟਅੱਪ ਦੇ ਸਵਾਲ ਦੁਬਾਰਾ ਭਰੋ",
    "ko": "설정 질문 다시 하기",
    "kind": "label",
    "where": "html <button> text"
@@ -763,14 +763,14 @@
    "where": "html <button> text"
   },
   "Accent": {
-   "t": "ਰੰਗ",
+   "t": "ਥੀਮ ਰੰਗ",
    "ko": "강조 색상",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <span> text"
   },
   "Text size": {
-   "t": "ਅੱਖਰਾਂ ਦਾ ਆਕਾਰ",
+   "t": "ਅੱਖਰ",
    "ko": "글자 크기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -803,7 +803,7 @@
    "where": "html <button> text"
   },
   "Delete my account": {
-   "t": "ਮੇਰਾ ਅਕਾਊਂਟ ਮਿਟਾਓ",
+   "t": "ਮੇਰਾ ਅਕਾਊਂਟ ਡਿਲੀਟ ਕਰੋ",
    "ko": "계정 삭제",
    "kind": "label",
    "where": "html <button> text"
@@ -821,19 +821,19 @@
    "where": "js STR()"
   },
   "Privacy & terms": {
-   "t": "ਪਰਦੇਦਾਰੀ ਅਤੇ ਸ਼ਰਤਾਂ",
+   "t": "ਪ੍ਰਾਈਵੇਸੀ ਤੇ ਸ਼ਰਤਾਂ",
    "ko": "개인정보 및 이용약관",
    "kind": "label",
    "where": "js step1() <a>"
   },
   "Short version: your learning data is yours, nothing is sold, there are no ads, and you can take it with you or delete it any time.": {
-   "t": "ਛੋਟੇ ਵਿੱਚ: ਤੁਹਾਡਾ ਸਿੱਖਣ ਦਾ ਡਾਟਾ ਤੁਹਾਡਾ ਹੈ, ਕੁਝ ਵੇਚਿਆ ਨਹੀਂ ਜਾਂਦਾ, ਕੋਈ ਇਸ਼ਤਿਹਾਰ ਨਹੀਂ, ਅਤੇ ਤੁਸੀਂ ਇਸ ਨੂੰ ਕਦੇ ਵੀ ਨਾਲ ਲੈ ਜਾ ਸਕਦੇ ਹੋ ਜਾਂ ਮਿਟਾ ਸਕਦੇ ਹੋ।",
+   "t": "ਸੰਖੇਪ ਵਿੱਚ: ਤੁਹਾਡਾ ਸਿੱਖਣ ਦਾ ਡਾਟਾ ਤੁਹਾਡਾ ਹੈ, ਕੁਝ ਵੇਚਿਆ ਨਹੀਂ ਜਾਂਦਾ, ਕੋਈ ਇਸ਼ਤਿਹਾਰ ਨਹੀਂ, ਤੇ ਤੁਸੀਂ ਇਸ ਨੂੰ ਕਦੇ ਵੀ ਨਾਲ ਲੈ ਜਾ ਸਕਦੇ ਹੋ ਜਾਂ ਮਿਟਾ ਸਕਦੇ ਹੋ।",
    "ko": "요약: 학습 데이터는 여러분의 것이에요. 어떤 것도 판매하지 않고, 광고도 없으며, 언제든 가져가거나 삭제할 수 있어요.",
    "kind": "sentence",
    "where": "html <p> text"
   },
   "What's stored, and where": {
-   "t": "ਕੀ ਸਾਂਭਿਆ ਜਾਂਦਾ ਹੈ, ਅਤੇ ਕਿੱਥੇ",
+   "t": "ਕੀ ਸੇਵ ਹੁੰਦਾ ਹੈ, ਤੇ ਕਿੱਥੇ",
    "ko": "무엇을 어디에 저장하나요",
    "kind": "label",
    "where": "html <h3> text"
@@ -845,7 +845,7 @@
    "where": "html <b> text"
   },
   "(browser storage): your progress, settings, nickname and custom phrases. Clearing site data or switching devices removes it unless you sign in.": {
-   "t": "(ਬ੍ਰਾਊਜ਼ਰ ਸਟੋਰੇਜ): ਤੁਹਾਡੀ ਤਰੱਕੀ, ਸੈਟਿੰਗਾਂ, ਨਿੱਕਨੇਮ ਅਤੇ ਆਪਣੇ ਵਾਕ। ਸਾਈਟ ਡਾਟਾ ਸਾਫ਼ ਕਰਨ ਜਾਂ ਡਿਵਾਈਸ ਬਦਲਣ ਨਾਲ ਇਹ ਮਿਟ ਜਾਂਦਾ ਹੈ, ਜੇ ਤੁਸੀਂ ਸਾਈਨ ਇਨ ਨਾ ਕੀਤਾ ਹੋਵੇ।",
+   "t": "(ਬ੍ਰਾਊਜ਼ਰ ਸਟੋਰੇਜ): ਤੁਹਾਡੀ ਤਰੱਕੀ, ਸੈਟਿੰਗਾਂ, ਨਿੱਕਨੇਮ ਤੇ ਤੁਹਾਡੇ ਜੋੜੇ ਵਾਕ। ਸਾਈਟ ਡਾਟਾ ਸਾਫ਼ ਕਰਨ ਜਾਂ ਡਿਵਾਈਸ ਬਦਲਣ ਨਾਲ ਇਹ ਹਟ ਜਾਂਦਾ ਹੈ, ਜੇ ਤੁਸੀਂ ਸਾਈਨ ਇਨ ਨਹੀਂ ਕੀਤਾ।",
    "ko": "(브라우저 저장소): 진도, 설정, 닉네임, 직접 추가한 표현. 로그인하지 않으면 사이트 데이터를 지우거나 기기를 바꿀 때 사라져요.",
    "kind": "sentence",
    "where": "html text"
@@ -857,20 +857,20 @@
    "where": "html <b> text"
   },
   ": your email address and a copy of your progress, kept in our database (Supabase) so it syncs across devices. Only you can read your row.": {
-   "t": ": ਤੁਹਾਡਾ ਈਮੇਲ ਪਤਾ ਅਤੇ ਤੁਹਾਡੀ ਤਰੱਕੀ ਦੀ ਇੱਕ ਕਾਪੀ, ਸਾਡੇ ਡਾਟਾਬੇਸ (Supabase) ਵਿੱਚ ਰੱਖੀ ਜਾਂਦੀ ਹੈ ਤਾਂ ਜੋ ਇਹ ਸਾਰੇ ਡਿਵਾਈਸਾਂ ਵਿੱਚ ਸਿੰਕ ਹੋਵੇ। ਤੁਹਾਡੀ ਕਤਾਰ ਸਿਰਫ਼ ਤੁਸੀਂ ਪੜ੍ਹ ਸਕਦੇ ਹੋ।",
+   "t": ": ਤੁਹਾਡਾ ਈਮੇਲ ਪਤਾ ਤੇ ਤੁਹਾਡੀ ਤਰੱਕੀ ਦੀ ਇੱਕ ਕਾਪੀ ਸਾਡੇ ਡਾਟਾਬੇਸ (Supabase) ਵਿੱਚ ਰੱਖੀ ਜਾਂਦੀ ਹੈ, ਤਾਂ ਜੋ ਹਰ ਡਿਵਾਈਸ ਉੱਤੇ ਸਿੰਕ ਹੋਵੇ। ਤੁਹਾਡਾ ਰਿਕਾਰਡ ਸਿਰਫ਼ ਤੁਸੀਂ ਪੜ੍ਹ ਸਕਦੇ ਹੋ।",
    "ko": ": 이메일 주소와 진도 사본을 데이터베이스(Supabase)에 보관해 여러 기기에서 동기화해요. 내 데이터는 나만 읽을 수 있어요.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "html text"
   },
   "Feedback board": {
-   "t": "ਫ਼ੀਡਬੈਕ ਬੋਰਡ",
+   "t": "ਸੁਝਾਅ ਬੋਰਡ",
    "ko": "피드백 게시판",
    "kind": "label",
    "where": "html <b> text"
   },
   ": anything you post is": {
-   "t": ": ਤੁਸੀਂ ਜੋ ਵੀ ਪੋਸਟ ਕਰਦੇ ਹੋ, ਉਹ ਸਾਰੇ ਯੂਜ਼ਰਾਂ ਲਈ",
+   "t": ": ਤੁਸੀਂ ਜੋ ਵੀ ਪੋਸਟ ਕਰਦੇ ਹੋ, ਉਹ ਐਪ ਵਰਤਣ ਵਾਲੇ ਸਭ ਲੋਕਾਂ ਲਈ",
    "ko": ": 올린 글은 모두",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -884,7 +884,7 @@
    "where": "html <b> text"
   },
   "to all users. Your name is shown only if you tick \"Show my name\". We also store the page you posted from, the app version and your browser type (never shown publicly) to help fix bugs.": {
-   "t": "ਹੁੰਦਾ ਹੈ। ਤੁਹਾਡਾ ਨਾਂ ਸਿਰਫ਼ ਤਾਂ ਦਿਸਦਾ ਹੈ ਜੇ ਤੁਸੀਂ \"ਮੇਰਾ ਨਾਂ ਦਿਖਾਓ\" 'ਤੇ ਟਿੱਕ ਕਰੋ। ਬੱਗ ਠੀਕ ਕਰਨ ਲਈ ਅਸੀਂ ਉਹ ਪੰਨਾ ਜਿੱਥੋਂ ਤੁਸੀਂ ਪੋਸਟ ਕੀਤਾ, ਐਪ ਦਾ ਵਰਜ਼ਨ ਅਤੇ ਤੁਹਾਡੇ ਬ੍ਰਾਊਜ਼ਰ ਦੀ ਕਿਸਮ ਵੀ ਸਾਂਭਦੇ ਹਾਂ (ਕਦੇ ਜਨਤਕ ਨਹੀਂ ਦਿਖਾਈ ਜਾਂਦੀ)।",
+   "t": "ਹੁੰਦਾ ਹੈ। ਤੁਹਾਡਾ ਨਾਂ ਤਾਂ ਹੀ ਦਿਖਦਾ ਹੈ ਜੇ ਤੁਸੀਂ \"ਮੇਰਾ ਨਾਂ ਦਿਖਾਓ\" ਚੁਣੋ। ਅਸੀਂ ਇਹ ਵੀ ਸੇਵ ਕਰਦੇ ਹਾਂ ਕਿ ਤੁਸੀਂ ਕਿਸ ਪੰਨੇ ਤੋਂ ਪੋਸਟ ਕੀਤਾ, ਐਪ ਦਾ ਵਰਜ਼ਨ ਤੇ ਤੁਹਾਡੇ ਬ੍ਰਾਊਜ਼ਰ ਦੀ ਕਿਸਮ (ਇਹ ਕਦੇ ਜਨਤਕ ਨਹੀਂ ਦਿਖਦਾ), ਤਾਂ ਜੋ ਬੱਗ ਠੀਕ ਕੀਤੇ ਜਾ ਸਕਣ।",
    "ko": "로 모든 사용자에게 보여요. 이름은 \"내 이름 표시\"를 체크했을 때만 보여요. 버그 수정을 위해 글을 올린 페이지, 앱 버전, 브라우저 종류도 저장해요(공개되지 않아요).",
    "kind": "sentence",
    "where": "html text"
@@ -897,20 +897,20 @@
    "where": "html <b> text"
   },
   ": anonymous page-view counts via Vercel Web Analytics — no cookies, no cross-site tracking, no personal profile.": {
-   "t": ": Vercel Web Analytics ਰਾਹੀਂ ਬਿਨਾਂ ਨਾਂ ਦੇ ਪੇਜ ਵਿਊ ਦੀ ਗਿਣਤੀ — ਕੋਈ ਕੁਕੀ ਨਹੀਂ, ਕੋਈ ਕਰਾਸ-ਸਾਈਟ ਟਰੈਕਿੰਗ ਨਹੀਂ, ਕੋਈ ਨਿੱਜੀ ਪ੍ਰੋਫ਼ਾਈਲ ਨਹੀਂ।",
+   "t": ": Vercel Web Analytics ਰਾਹੀਂ ਬੇਨਾਮ ਪੇਜ-ਵਿਊ ਦੀ ਗਿਣਤੀ — ਕੋਈ ਕੂਕੀ ਨਹੀਂ, ਸਾਈਟਾਂ ਵਿਚਕਾਰ ਕੋਈ ਟ੍ਰੈਕਿੰਗ ਨਹੀਂ, ਕੋਈ ਨਿੱਜੀ ਪ੍ਰੋਫ਼ਾਈਲ ਨਹੀਂ।",
    "ko": ": Vercel Web Analytics로 익명 페이지 조회수만 집계해요 — 쿠키, 사이트 간 추적, 개인 프로필 없음.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "html text"
   },
   "Error reports": {
-   "t": "ਗ਼ਲਤੀ ਦੀਆਂ ਰਿਪੋਰਟਾਂ",
+   "t": "ਐਰਰ ਰਿਪੋਰਟਾਂ",
    "ko": "오류 보고",
    "kind": "label",
    "where": "html <b> text"
   },
   ": if the app crashes, a short technical error message is recorded (no progress data, no email) so it can be fixed.": {
-   "t": ": ਜੇ ਐਪ ਕਰੈਸ਼ ਹੋ ਜਾਵੇ, ਤਾਂ ਇੱਕ ਛੋਟਾ ਤਕਨੀਕੀ ਗ਼ਲਤੀ ਸੁਨੇਹਾ ਦਰਜ ਹੁੰਦਾ ਹੈ (ਕੋਈ ਤਰੱਕੀ ਡਾਟਾ ਨਹੀਂ, ਕੋਈ ਈਮੇਲ ਨਹੀਂ) ਤਾਂ ਜੋ ਇਸ ਨੂੰ ਠੀਕ ਕੀਤਾ ਜਾ ਸਕੇ।",
+   "t": ": ਜੇ ਐਪ ਕਰੈਸ਼ ਹੋ ਜਾਵੇ ਤਾਂ ਇੱਕ ਛੋਟਾ ਤਕਨੀਕੀ ਐਰਰ ਸੁਨੇਹਾ ਦਰਜ ਹੁੰਦਾ ਹੈ (ਤਰੱਕੀ ਦਾ ਡਾਟਾ ਜਾਂ ਈਮੇਲ ਨਹੀਂ), ਤਾਂ ਜੋ ਉਸ ਨੂੰ ਠੀਕ ਕੀਤਾ ਜਾ ਸਕੇ।",
    "ko": ": 앱에 오류가 나면 고칠 수 있도록 짧은 기술 오류 메시지만 기록해요(진도 데이터나 이메일은 포함하지 않아요).",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -923,13 +923,13 @@
    "where": "html <h3> text"
   },
   "Back up / move": {
-   "t": "ਬੈਕਅੱਪ / ਤਬਦੀਲ",
+   "t": "ਬੈਕਅੱਪ / ਡਿਵਾਈਸ ਬਦਲਣਾ",
    "ko": "백업 / 옮기기",
    "kind": "label",
    "where": "html <b> text"
   },
   ": Progress → Backup → Share file or Copy export; Import on any device.": {
-   "t": ": ਤਰੱਕੀ → ਬੈਕਅੱਪ → ਫ਼ਾਈਲ ਸ਼ੇਅਰ ਕਰੋ ਜਾਂ ਐਕਸਪੋਰਟ ਕਾਪੀ ਕਰੋ; ਕਿਸੇ ਵੀ ਡਿਵਾਈਸ ਉੱਤੇ ਇੰਪੋਰਟ।",
+   "t": ": ਤਰੱਕੀ → ਬੈਕਅੱਪ → ਫ਼ਾਈਲ ਸ਼ੇਅਰ ਕਰੋ ਜਾਂ ਐਕਸਪੋਰਟ ਕਾਪੀ ਕਰੋ; ਫਿਰ ਕਿਸੇ ਵੀ ਡਿਵਾਈਸ ਉੱਤੇ ਇੰਪੋਰਟ ਕਰੋ।",
    "ko": ": 진도 → 백업 → 파일 공유 또는 내보내기 복사, 다른 기기에서 가져오기.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -942,20 +942,20 @@
    "where": "html <b> text"
   },
   ": choose \"remove my progress from this device\".": {
-   "t": ": \"ਇਸ ਡਿਵਾਈਸ ਤੋਂ ਮੇਰੀ ਤਰੱਕੀ ਹਟਾਓ\" ਚੁਣੋ।",
+   "t": ": \"ਸਾਈਨ ਆਊਟ · ਇਸ ਡਿਵਾਈਸ ਤੋਂ ਮੇਰੀ ਤਰੱਕੀ ਹਟਾਓ\" ਚੁਣੋ।",
    "ko": ": \"이 기기에서 내 진도 지우기\"를 선택하세요.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "html text"
   },
   "Delete everything": {
-   "t": "ਸਭ ਕੁਝ ਮਿਟਾਓ",
+   "t": "ਸਭ ਕੁਝ ਡਿਲੀਟ ਕਰਨਾ",
    "ko": "전부 삭제",
    "kind": "label",
    "where": "html <b> text"
   },
   ": Progress → Account → Delete my account. Removes your account and synced progress permanently; your feedback posts stay but are unlinked from you.": {
-   "t": ": ਤਰੱਕੀ → ਅਕਾਊਂਟ → ਮੇਰਾ ਅਕਾਊਂਟ ਮਿਟਾਓ। ਤੁਹਾਡਾ ਅਕਾਊਂਟ ਅਤੇ ਸਿੰਕ ਹੋਈ ਤਰੱਕੀ ਪੱਕੇ ਤੌਰ 'ਤੇ ਮਿਟ ਜਾਂਦੀ ਹੈ; ਤੁਹਾਡੀਆਂ ਫ਼ੀਡਬੈਕ ਪੋਸਟਾਂ ਰਹਿੰਦੀਆਂ ਹਨ ਪਰ ਤੁਹਾਡੇ ਨਾਲੋਂ ਵੱਖ ਹੋ ਜਾਂਦੀਆਂ ਹਨ।",
+   "t": ": ਤਰੱਕੀ → ਅਕਾਊਂਟ → ਮੇਰਾ ਅਕਾਊਂਟ ਡਿਲੀਟ ਕਰੋ। ਇਸ ਨਾਲ ਤੁਹਾਡਾ ਅਕਾਊਂਟ ਤੇ ਸਿੰਕ ਹੋਈ ਤਰੱਕੀ ਹਮੇਸ਼ਾ ਲਈ ਹਟ ਜਾਂਦੀ ਹੈ; \"ਸੁਝਾਅ\" ਵਿੱਚ ਤੁਹਾਡੀਆਂ ਪੋਸਟਾਂ ਰਹਿੰਦੀਆਂ ਹਨ, ਪਰ ਤੁਹਾਡੇ ਨਾਲ ਜੁੜੀਆਂ ਨਹੀਂ ਰਹਿੰਦੀਆਂ।",
    "ko": ": 진도 → 계정 → 계정 삭제. 계정과 동기화된 진도가 영구 삭제돼요. 피드백 글은 남지만 내 계정과의 연결은 끊어져요.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -969,7 +969,7 @@
    "where": "html <h3> text"
   },
   "Be kind, stay on topic, no spam, no personal information (yours or anyone else's). Posts that break these may be hidden. Don't post passwords, phone numbers or addresses.": {
-   "t": "ਚੰਗੇ ਢੰਗ ਨਾਲ ਪੇਸ਼ ਆਓ, ਵਿਸ਼ੇ 'ਤੇ ਰਹੋ, ਸਪੈਮ ਨਹੀਂ, ਕੋਈ ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਨਹੀਂ (ਤੁਹਾਡੀ ਜਾਂ ਕਿਸੇ ਹੋਰ ਦੀ)। ਇਹ ਨਿਯਮ ਤੋੜਨ ਵਾਲੀਆਂ ਪੋਸਟਾਂ ਲੁਕਾਈਆਂ ਜਾ ਸਕਦੀਆਂ ਹਨ। ਪਾਸਵਰਡ, ਫ਼ੋਨ ਨੰਬਰ ਜਾਂ ਪਤੇ ਪੋਸਟ ਨਾ ਕਰੋ।",
+   "t": "ਪਿਆਰ ਨਾਲ ਪੇਸ਼ ਆਓ, ਵਿਸ਼ੇ ਉੱਤੇ ਰਹੋ, ਸਪੈਮ ਨਹੀਂ, ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਨਹੀਂ (ਆਪਣੀ ਜਾਂ ਕਿਸੇ ਹੋਰ ਦੀ)। ਨਿਯਮ ਤੋੜਨ ਵਾਲੀਆਂ ਪੋਸਟਾਂ ਲੁਕਾਈਆਂ ਜਾ ਸਕਦੀਆਂ ਹਨ। ਪਾਸਵਰਡ, ਫ਼ੋਨ ਨੰਬਰ ਜਾਂ ਪਤੇ ਪੋਸਟ ਨਾ ਕਰੋ।",
    "ko": "친절하게, 주제에 맞게 써 주세요. 스팸이나 개인정보(본인 것이든 남의 것이든)는 안 돼요. 규칙을 어긴 글은 숨겨질 수 있어요. 비밀번호, 전화번호, 주소는 올리지 마세요.",
    "kind": "sentence",
    "where": "html <p> text"
@@ -982,13 +982,13 @@
    "where": "html <h3> text"
   },
   "Use the Feedback tab. If it's private, post without your name and say how to reach you — or just sign in and tick \"Show my name\".": {
-   "t": "ਫ਼ੀਡਬੈਕ ਟੈਬ ਵਰਤੋ। ਜੇ ਗੱਲ ਨਿੱਜੀ ਹੈ, ਤਾਂ ਬਿਨਾਂ ਨਾਂ ਦੇ ਪੋਸਟ ਕਰੋ ਅਤੇ ਦੱਸੋ ਕਿ ਤੁਹਾਡੇ ਤੱਕ ਕਿਵੇਂ ਪਹੁੰਚੀਏ — ਜਾਂ ਸਾਈਨ ਇਨ ਕਰਕੇ \"ਮੇਰਾ ਨਾਂ ਦਿਖਾਓ\" 'ਤੇ ਟਿੱਕ ਕਰੋ।",
+   "t": "\"ਸੁਝਾਅ\" ਟੈਬ ਵਰਤੋ। ਜੇ ਗੱਲ ਨਿੱਜੀ ਹੈ, ਤਾਂ ਨਾਂ ਤੋਂ ਬਿਨਾਂ ਪੋਸਟ ਕਰੋ ਤੇ ਦੱਸੋ ਕਿ ਤੁਹਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਿਵੇਂ ਕਰੀਏ — ਜਾਂ ਬੱਸ ਸਾਈਨ ਇਨ ਕਰੋ ਤੇ \"ਮੇਰਾ ਨਾਂ ਦਿਖਾਓ\" ਚੁਣੋ।",
    "ko": "피드백 탭을 이용하세요. 비공개로 전하고 싶다면 이름 없이 올리고 연락 방법을 남겨 주세요 — 아니면 로그인하고 \"내 이름 표시\"를 체크하세요.",
    "kind": "sentence",
    "where": "html <p> text"
   },
   "Lang App is a free learning tool provided as-is. Last updated Nov 2026.": {
-   "t": "Lang App ਇੱਕ ਮੁਫ਼ਤ ਸਿੱਖਣ ਵਾਲਾ ਟੂਲ ਹੈ, ਜਿਵੇਂ ਹੈ ਤਿਵੇਂ ਦਿੱਤਾ ਗਿਆ। ਆਖ਼ਰੀ ਅੱਪਡੇਟ: ਨਵੰਬਰ 2026।",
+   "t": "Lang App ਸਿੱਖਣ ਦਾ ਇੱਕ ਮੁਫ਼ਤ ਟੂਲ ਹੈ, ਜਿਵੇਂ ਹੈ ਉਵੇਂ ਹੀ ਦਿੱਤਾ ਜਾਂਦਾ ਹੈ। ਆਖ਼ਰੀ ਅੱਪਡੇਟ: ਨਵੰਬਰ 2026।",
    "ko": "Lang App은 있는 그대로 제공되는 무료 학습 도구예요. 최종 업데이트: 2026년 11월.",
    "kind": "sentence",
    "where": "html <p> text"
@@ -1001,26 +1001,26 @@
    "where": "html <button> text"
   },
   "Tell us what you think": {
-   "t": "ਸਾਨੂੰ ਆਪਣੀ ਰਾਏ ਦੱਸੋ",
+   "t": "ਆਪਣੇ ਸੁਝਾਅ ਦੱਸੋ",
    "ko": "의견을 들려주세요",
    "kind": "sentence",
    "where": "html <h3> text"
   },
   "Bugs, missing phrases, wrong pronunciations, ideas — anything. It goes straight to the person building this.": {
-   "t": "ਬੱਗ, ਗੁੰਮ ਵਾਕ, ਗ਼ਲਤ ਉਚਾਰਨ, ਸੁਝਾਅ — ਕੁਝ ਵੀ। ਇਹ ਸਿੱਧਾ ਇਹ ਐਪ ਬਣਾਉਣ ਵਾਲੇ ਕੋਲ ਜਾਂਦਾ ਹੈ।",
+   "t": "ਬੱਗ, ਰਹਿ ਗਏ ਵਾਕ, ਗ਼ਲਤ ਉਚਾਰਨ, ਆਈਡੀਆ — ਕੁਝ ਵੀ। ਇਹ ਸਿੱਧਾ ਐਪ ਬਣਾਉਣ ਵਾਲੇ ਕੋਲ ਪਹੁੰਚਦਾ ਹੈ।",
    "ko": "버그, 빠진 표현, 틀린 발음, 아이디어 — 뭐든 좋아요. 앱을 만드는 사람에게 바로 전달돼요.",
    "kind": "sentence",
    "where": "html <p> text"
   },
   "Type": {
-   "t": "ਟਾਈਪ ਕਰੋ",
+   "t": "ਲਿਖੋ",
    "ko": "입력",
    "kind": "label",
    "context": "a verb meaning \"type on the keyboard\", not \"kind\"",
    "where": "js (top level)"
   },
   "💡 Idea": {
-   "t": "💡 ਸੁਝਾਅ",
+   "t": "💡 ਆਈਡੀਆ",
    "ko": "💡 아이디어",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1034,13 +1034,13 @@
    "where": "html <button> text"
   },
   "📝 Content fix": {
-   "t": "📝 ਸਮੱਗਰੀ ਸੁਧਾਰ",
+   "t": "📝 ਕੰਟੈਂਟ ਸੁਧਾਰ",
    "ko": "📝 내용 수정",
    "kind": "label",
    "where": "html <button> text"
   },
   "❤️ Love it": {
-   "t": "❤️ ਬਹੁਤ ਵਧੀਆ",
+   "t": "❤️ ਪਸੰਦ ਆਇਆ",
    "ko": "❤️ 좋아요",
    "kind": "label",
    "where": "html <button> text"
@@ -1052,7 +1052,7 @@
    "where": "html <textarea> @placeholder"
   },
   "Feedback message": {
-   "t": "ਫ਼ੀਡਬੈਕ ਸੁਨੇਹਾ",
+   "t": "ਤੁਹਾਡਾ ਸੁਝਾਅ",
    "ko": "피드백 내용",
    "kind": "label",
    "where": "html <textarea> @aria-label"
@@ -1064,31 +1064,31 @@
    "where": "html text"
   },
   "Your post appears on the public board below. Don't include passwords, phone numbers or addresses.": {
-   "t": "ਤੁਹਾਡੀ ਪੋਸਟ ਹੇਠਾਂ ਜਨਤਕ ਬੋਰਡ ਉੱਤੇ ਦਿਸੇਗੀ। ਪਾਸਵਰਡ, ਫ਼ੋਨ ਨੰਬਰ ਜਾਂ ਪਤੇ ਨਾ ਲਿਖੋ।",
+   "t": "ਤੁਹਾਡੀ ਪੋਸਟ ਹੇਠਾਂ ਜਨਤਕ ਬੋਰਡ ਉੱਤੇ ਦਿਖੇਗੀ। ਪਾਸਵਰਡ, ਫ਼ੋਨ ਨੰਬਰ ਜਾਂ ਪਤੇ ਨਾ ਲਿਖੋ।",
    "ko": "글은 아래 공개 게시판에 올라가요. 비밀번호, 전화번호, 주소는 적지 마세요.",
    "kind": "sentence",
    "where": "html <p> text"
   },
   "Send feedback": {
-   "t": "ਫ਼ੀਡਬੈਕ ਭੇਜੋ",
+   "t": "ਸੁਝਾਅ ਭੇਜੋ",
    "ko": "피드백 보내기",
    "kind": "label",
    "where": "html <button> text"
   },
   "Community feedback": {
-   "t": "ਸਭ ਦਾ ਫ਼ੀਡਬੈਕ",
+   "t": "ਸਭ ਦੇ ਸੁਝਾਅ",
    "ko": "커뮤니티 피드백",
    "kind": "label",
    "where": "html <h3> text"
   },
   "Refresh feedback": {
-   "t": "ਫ਼ੀਡਬੈਕ ਰਿਫ੍ਰੈਸ਼ ਕਰੋ",
+   "t": "ਸੁਝਾਅ ਤਾਜ਼ਾ ਕਰੋ",
    "ko": "피드백 새로고침",
    "kind": "label",
    "where": "html <button> @aria-label"
   },
   "Posts are public to everyone using the app — please don't share personal info.": {
-   "t": "ਪੋਸਟਾਂ ਐਪ ਵਰਤਣ ਵਾਲੇ ਹਰ ਕਿਸੇ ਲਈ ਜਨਤਕ ਹਨ — ਕਿਰਪਾ ਕਰਕੇ ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਸ਼ੇਅਰ ਨਾ ਕਰੋ।",
+   "t": "ਪੋਸਟਾਂ ਐਪ ਵਰਤਣ ਵਾਲੇ ਹਰ ਕਿਸੇ ਨੂੰ ਦਿਖਦੀਆਂ ਹਨ — ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਸ਼ੇਅਰ ਨਾ ਕਰੋ।",
    "ko": "글은 앱을 쓰는 모든 사람에게 공개돼요 — 개인정보는 공유하지 마세요.",
    "kind": "sentence",
    "where": "html <p> text"
@@ -1107,19 +1107,19 @@
    "where": "html <span> text"
   },
   "The community board lives on the website version of the app.": {
-   "t": "ਕਮਿਊਨਿਟੀ ਬੋਰਡ ਐਪ ਦੇ ਵੈੱਬਸਾਈਟ ਵਾਲੇ ਵਰਜ਼ਨ ਉੱਤੇ ਹੈ।",
+   "t": "ਸੁਝਾਅ ਬੋਰਡ ਐਪ ਦੇ ਵੈੱਬਸਾਈਟ ਵਰਜ਼ਨ ਵਿੱਚ ਹੈ।",
    "ko": "커뮤니티 게시판은 웹사이트 버전에서 볼 수 있어요.",
    "kind": "sentence",
    "where": "js box() <div>"
   },
   "Couldn't load feedback right now.": {
-   "t": "ਇਸ ਵੇਲੇ ਫ਼ੀਡਬੈਕ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕਿਆ।",
+   "t": "ਇਸ ਵੇਲੇ ਸੁਝਾਅ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕੇ।",
    "ko": "지금은 피드백을 불러올 수 없어요.",
    "kind": "sentence",
    "where": "js nt() <div>"
   },
   "Try again": {
-   "t": "ਫਿਰ ਕੋਸ਼ਿਸ਼",
+   "t": "ਦੁਬਾਰਾ",
    "ko": "다시 시도",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1195,20 +1195,20 @@
    "where": "js admin() <button>"
   },
   "Heart": {
-   "t": "ਦਿਲ",
+   "t": "ਪਸੰਦ ਕਰੋ",
    "ko": "하트",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js admin() <button> @aria-label"
   },
   "Mark complete": {
-   "t": "ਪੂਰਾ ਮਾਰਕ ਕਰੋ",
+   "t": "ਪੂਰਾ ਹੋਇਆ ਮਾਰਕ ਕਰੋ",
    "ko": "완료로 표시",
    "kind": "label",
    "where": "js admin() <button> @aria-label"
   },
   "↩ Reply": {
-   "t": "↩ ਜਵਾਬ",
+   "t": "↩ ਜਵਾਬ ਦਿਓ",
    "ko": "↩ 답글",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1235,7 +1235,7 @@
    "where": "js pl() <button>"
   },
   "No feedback yet — be the first.": {
-   "t": "ਅਜੇ ਕੋਈ ਫ਼ੀਡਬੈਕ ਨਹੀਂ — ਪਹਿਲੇ ਬਣੋ।",
+   "t": "ਅਜੇ ਕੋਈ ਸੁਝਾਅ ਨਹੀਂ — ਪਹਿਲਾ ਸੁਝਾਅ ਤੁਸੀਂ ਭੇਜੋ।",
    "ko": "아직 피드백이 없어요 — 첫 글을 남겨 보세요.",
    "kind": "sentence",
    "where": "js lv() <div>"
@@ -1247,37 +1247,37 @@
    "where": "js r()"
   },
   "Posted — thank you!": {
-   "t": "ਪੋਸਟ ਹੋ ਗਿਆ — ਧੰਨਵਾਦ!",
+   "t": "ਪੋਸਟ ਹੋ ਗਈ — ਧੰਨਵਾਦ!",
    "ko": "올렸어요 — 고마워요!",
    "kind": "sentence",
    "where": "js ok() <b>"
   },
   "Give it a few seconds before sending another.": {
-   "t": "ਹੋਰ ਭੇਜਣ ਤੋਂ ਪਹਿਲਾਂ ਕੁਝ ਸਕਿੰਟ ਰੁਕੋ।",
+   "t": "ਅਗਲਾ ਭੇਜਣ ਤੋਂ ਪਹਿਲਾਂ ਕੁਝ ਸਕਿੰਟ ਰੁਕੋ।",
    "ko": "몇 초 뒤에 다시 보내 주세요.",
    "kind": "sentence",
    "where": "js last()"
   },
   "Feedback sending works on the website version.": {
-   "t": "ਫ਼ੀਡਬੈਕ ਭੇਜਣਾ ਵੈੱਬਸਾਈਟ ਵਾਲੇ ਵਰਜ਼ਨ ਉੱਤੇ ਚੱਲਦਾ ਹੈ।",
+   "t": "ਸੁਝਾਅ ਭੇਜਣਾ ਵੈੱਬਸਾਈਟ ਵਰਜ਼ਨ ਵਿੱਚ ਕੰਮ ਕਰਦਾ ਹੈ।",
    "ko": "피드백 보내기는 웹사이트 버전에서 할 수 있어요.",
    "kind": "sentence",
    "where": "js last()"
   },
   "Could not send right now — try again in a moment.": {
-   "t": "ਇਸ ਵੇਲੇ ਭੇਜਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ — ਥੋੜ੍ਹੀ ਦੇਰ ਬਾਅਦ ਫਿਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+   "t": "ਇਸ ਵੇਲੇ ਭੇਜਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ — ਥੋੜ੍ਹੀ ਦੇਰ ਬਾਅਦ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
    "ko": "지금은 보낼 수 없어요 — 잠시 후 다시 시도해 주세요.",
    "kind": "sentence",
    "where": "js j()"
   },
   "Browser storage is full or blocked — progress may not persist here": {
-   "t": "ਬ੍ਰਾਊਜ਼ਰ ਸਟੋਰੇਜ ਭਰੀ ਹੋਈ ਹੈ ਜਾਂ ਬਲੌਕ ਹੈ — ਹੋ ਸਕਦਾ ਹੈ ਤਰੱਕੀ ਇੱਥੇ ਨਾ ਸਾਂਭੀ ਜਾਵੇ",
+   "t": "ਬ੍ਰਾਊਜ਼ਰ ਸਟੋਰੇਜ ਭਰ ਗਈ ਹੈ ਜਾਂ ਬਲਾਕ ਹੈ — ਸ਼ਾਇਦ ਇੱਥੇ ਤਰੱਕੀ ਸੇਵ ਨਾ ਰਹੇ",
    "ko": "브라우저 저장 공간이 가득 찼거나 막혀 있어요 — 여기서는 진도가 저장되지 않을 수 있어요",
    "kind": "sentence",
    "where": "js flushSave()"
   },
   "Synced to your account": {
-   "t": "ਤੁਹਾਡੇ ਅਕਾਊਂਟ ਨਾਲ ਸਿੰਕ ਹੈ",
+   "t": "ਤੁਹਾਡੇ ਅਕਾਊਂਟ ਵਿੱਚ ਸਿੰਕ ਹੋ ਗਿਆ",
    "ko": "계정에 동기화됨",
    "kind": "label",
    "where": "js el()"
@@ -1289,64 +1289,64 @@
    "where": "js el()"
   },
   "Saved on this device only": {
-   "t": "ਸਿਰਫ਼ ਇਸ ਡਿਵਾਈਸ ਉੱਤੇ ਸੇਵ ਹੈ",
+   "t": "ਸਿਰਫ਼ ਇਸ ਡਿਵਾਈਸ ਉੱਤੇ ਸੇਵ ਹੋਇਆ",
    "ko": "이 기기에만 저장됨",
    "kind": "sentence",
    "where": "js el()"
   },
   "Sync failed — saved locally": {
-   "t": "ਸਿੰਕ ਨਹੀਂ ਹੋਇਆ — ਇੱਥੇ ਸੇਵ ਹੈ",
+   "t": "ਸਿੰਕ ਨਹੀਂ ਹੋ ਸਕਿਆ — ਇਸ ਡਿਵਾਈਸ ਉੱਤੇ ਸੇਵ ਹੈ",
    "ko": "동기화 실패 — 이 기기에 저장했어요",
    "kind": "sentence",
    "where": "js el()"
   },
   "Offline — will sync when you reconnect": {
-   "t": "ਆਫ਼ਲਾਈਨ — ਕਨੈਕਟ ਹੋਣ 'ਤੇ ਸਿੰਕ ਹੋਵੇਗਾ",
+   "t": "ਆਫ਼ਲਾਈਨ — ਦੁਬਾਰਾ ਕਨੈਕਟ ਹੁੰਦੇ ਹੀ ਸਿੰਕ ਹੋ ਜਾਵੇਗਾ",
    "ko": "오프라인 — 다시 연결되면 동기화할게요",
    "kind": "sentence",
    "where": "js syncPush()"
   },
   "Too many tries — wait a minute and try again.": {
-   "t": "ਬਹੁਤ ਵਾਰ ਕੋਸ਼ਿਸ਼ ਹੋ ਗਈ — ਇੱਕ ਮਿੰਟ ਰੁਕ ਕੇ ਫਿਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+   "t": "ਬਹੁਤ ਜ਼ਿਆਦਾ ਕੋਸ਼ਿਸ਼ਾਂ — ਇੱਕ ਮਿੰਟ ਰੁਕ ਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
    "ko": "시도 횟수가 너무 많아요 — 1분 뒤에 다시 시도해 주세요.",
    "kind": "sentence",
    "where": "js j()"
   },
   "That code didn't work — check it or request a new one.": {
-   "t": "ਇਹ ਕੋਡ ਨਹੀਂ ਚੱਲਿਆ — ਇਸ ਨੂੰ ਜਾਂਚੋ ਜਾਂ ਨਵਾਂ ਮੰਗੋ।",
+   "t": "ਇਹ ਕੋਡ ਨਹੀਂ ਚੱਲਿਆ — ਜਾਂਚੋ ਜਾਂ ਨਵਾਂ ਕੋਡ ਮੰਗਵਾਓ।",
    "ko": "코드가 맞지 않아요 — 다시 확인하거나 새 코드를 요청하세요.",
    "kind": "sentence",
    "where": "js j()"
   },
   "Sign-in code": {
-   "t": "ਸਾਈਨ ਇਨ ਕੋਡ",
+   "t": "ਸਾਈਨ-ਇਨ ਕੋਡ",
    "ko": "로그인 코드",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js d() <input> @aria-label"
   },
   "Or type the 6-digit code from the email (works inside the home-screen app):": {
-   "t": "ਜਾਂ ਈਮੇਲ ਵਿੱਚੋਂ 6 ਅੰਕਾਂ ਵਾਲਾ ਕੋਡ ਟਾਈਪ ਕਰੋ (ਹੋਮ ਸਕ੍ਰੀਨ ਵਾਲੀ ਐਪ ਵਿੱਚ ਵੀ ਚੱਲਦਾ ਹੈ):",
+   "t": "ਜਾਂ ਈਮੇਲ ਵਿੱਚ ਆਇਆ 6 ਅੰਕਾਂ ਦਾ ਕੋਡ ਲਿਖੋ (ਹੋਮ-ਸਕ੍ਰੀਨ ਐਪ ਵਿੱਚ ਵੀ ਚੱਲਦਾ ਹੈ):",
    "ko": "또는 이메일로 받은 6자리 코드를 입력하세요 (홈 화면 앱에서도 돼요):",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Sign in with code": {
-   "t": "ਕੋਡ ਨਾਲ ਸਾਈਨ ਇਨ",
+   "t": "ਕੋਡ ਨਾਲ ਸਾਈਨ ਇਨ ਕਰੋ",
    "ko": "코드로 로그인",
    "kind": "label",
    "where": "js d() <button>"
   },
   "Resend email": {
-   "t": "ਈਮੇਲ ਫਿਰ ਭੇਜੋ",
+   "t": "ਈਮੇਲ ਦੁਬਾਰਾ ਭੇਜੋ",
    "ko": "이메일 다시 보내기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js d() <button>"
   },
   "New email sent — use the newest code.": {
-   "t": "ਨਵੀਂ ਈਮੇਲ ਭੇਜੀ ਗਈ — ਸਭ ਤੋਂ ਨਵਾਂ ਕੋਡ ਵਰਤੋ।",
+   "t": "ਨਵੀਂ ਈਮੇਲ ਭੇਜ ਦਿੱਤੀ — ਸਭ ਤੋਂ ਨਵਾਂ ਕੋਡ ਵਰਤੋ।",
    "ko": "새 이메일을 보냈어요 — 가장 최근 코드를 쓰세요.",
    "kind": "sentence",
    "where": "js st()"
@@ -1358,7 +1358,7 @@
    "where": "js inp()"
   },
   "Enter the 6-digit code from the email.": {
-   "t": "ਈਮੇਲ ਵਿੱਚੋਂ 6 ਅੰਕਾਂ ਵਾਲਾ ਕੋਡ ਭਰੋ।",
+   "t": "ਈਮੇਲ ਵਿੱਚ ਆਇਆ 6 ਅੰਕਾਂ ਦਾ ਕੋਡ ਲਿਖੋ।",
    "ko": "이메일로 받은 6자리 코드를 입력하세요.",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -1376,13 +1376,13 @@
    "where": "js code()"
   },
   "That email address doesn't look right.": {
-   "t": "ਇਹ ਈਮੇਲ ਪਤਾ ਠੀਕ ਨਹੀਂ ਲੱਗਦਾ।",
+   "t": "ਇਹ ਈਮੇਲ ਪਤਾ ਸਹੀ ਨਹੀਂ ਲੱਗਦਾ।",
    "ko": "이메일 주소가 올바르지 않은 것 같아요.",
    "kind": "sentence",
    "where": "js sbSendLink()"
   },
   "Email just sent — check your inbox (and spam) before trying again.": {
-   "t": "ਈਮੇਲ ਹੁਣੇ ਭੇਜੀ ਗਈ ਹੈ — ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਆਪਣਾ ਇਨਬਾਕਸ (ਅਤੇ ਸਪੈਮ) ਦੇਖੋ।",
+   "t": "ਈਮੇਲ ਹੁਣੇ ਭੇਜੀ ਗਈ ਹੈ — ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਆਪਣਾ ਇਨਬਾਕਸ (ਤੇ ਸਪੈਮ) ਦੇਖੋ।",
    "ko": "방금 이메일을 보냈어요 — 다시 시도하기 전에 받은편지함(스팸함 포함)을 확인하세요.",
    "kind": "sentence",
    "where": "js sbSendLink()"
@@ -1400,7 +1400,7 @@
    "where": "js j()"
   },
   "Sign out": {
-   "t": "ਸਾਈਨ ਆਊਟ",
+   "t": "ਸਾਈਨ ਆਊਟ ਕਰੋ",
    "ko": "로그아웃",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1421,7 +1421,7 @@
    "where": "js d()"
   },
   "· progress is lost if site data is cleared": {
-   "t": "· ਸਾਈਟ ਡਾਟਾ ਸਾਫ਼ ਹੋਣ 'ਤੇ ਤਰੱਕੀ ਮਿਟ ਜਾਂਦੀ ਹੈ",
+   "t": "· ਸਾਈਟ ਡਾਟਾ ਸਾਫ਼ ਹੋਣ ਨਾਲ ਤਰੱਕੀ ਗੁਆਚ ਜਾਂਦੀ ਹੈ",
    "ko": "· 사이트 데이터를 지우면 진도가 사라져요",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -1446,19 +1446,19 @@
    "where": "js sh() <button>"
   },
   "(shared / borrowed device)": {
-   "t": "(ਸਾਂਝਾ / ਮੰਗਿਆ ਡਿਵਾਈਸ)",
+   "t": "(ਸਾਂਝਾ / ਮੰਗਵਾਂ ਡਿਵਾਈਸ)",
    "ko": "(공용 / 빌린 기기)",
    "kind": "label",
    "where": "js sh() <span>"
   },
   "Signed out and cleared this device.": {
-   "t": "ਸਾਈਨ ਆਊਟ ਹੋ ਗਿਆ ਅਤੇ ਇਹ ਡਿਵਾਈਸ ਸਾਫ਼ ਕਰ ਦਿੱਤਾ।",
+   "t": "ਸਾਈਨ ਆਊਟ ਹੋ ਗਿਆ ਤੇ ਇਸ ਡਿਵਾਈਸ ਦਾ ਡਾਟਾ ਸਾਫ਼ ਹੋ ਗਿਆ।",
    "ko": "로그아웃하고 이 기기의 데이터를 지웠어요.",
    "kind": "sentence",
    "where": "js out()"
   },
   "Signed out. A copy stays on this device.": {
-   "t": "ਸਾਈਨ ਆਊਟ ਹੋ ਗਿਆ। ਇੱਕ ਕਾਪੀ ਇਸ ਡਿਵਾਈਸ ਉੱਤੇ ਰਹਿੰਦੀ ਹੈ।",
+   "t": "ਸਾਈਨ ਆਊਟ ਹੋ ਗਿਆ। ਇਸ ਡਿਵਾਈਸ ਉੱਤੇ ਕਾਪੀ ਰਹੇਗੀ।",
    "ko": "로그아웃했어요. 이 기기에 사본이 남아 있어요.",
    "kind": "sentence",
    "where": "js out()"
@@ -1470,19 +1470,19 @@
    "where": "js sh() <input> @placeholder"
   },
   "Sync across devices": {
-   "t": "ਸਾਰੇ ਡਿਵਾਈਸਾਂ ਵਿੱਚ ਸਿੰਕ",
+   "t": "ਹਰ ਡਿਵਾਈਸ ਉੱਤੇ ਸਿੰਕ ਕਰੋ",
    "ko": "여러 기기에서 동기화",
    "kind": "label",
    "where": "js sh() <h3>"
   },
   "Enter your email and we'll send a sign-in link and a 6-digit code. No password. Your progress merges with what's already on this device.": {
-   "t": "ਆਪਣੀ ਈਮੇਲ ਭਰੋ, ਅਸੀਂ ਸਾਈਨ ਇਨ ਲਿੰਕ ਅਤੇ 6 ਅੰਕਾਂ ਵਾਲਾ ਕੋਡ ਭੇਜਾਂਗੇ। ਕੋਈ ਪਾਸਵਰਡ ਨਹੀਂ। ਤੁਹਾਡੀ ਤਰੱਕੀ ਇਸ ਡਿਵਾਈਸ ਉੱਤੇ ਪਹਿਲਾਂ ਵਾਲੀ ਤਰੱਕੀ ਨਾਲ ਜੁੜ ਜਾਂਦੀ ਹੈ।",
+   "t": "ਆਪਣੀ ਈਮੇਲ ਲਿਖੋ, ਅਸੀਂ ਸਾਈਨ-ਇਨ ਲਿੰਕ ਤੇ 6 ਅੰਕਾਂ ਦਾ ਕੋਡ ਭੇਜਾਂਗੇ। ਪਾਸਵਰਡ ਨਹੀਂ ਚਾਹੀਦਾ। ਤੁਹਾਡੀ ਤਰੱਕੀ ਇਸ ਡਿਵਾਈਸ ਉੱਤੇ ਪਹਿਲਾਂ ਤੋਂ ਮੌਜੂਦ ਤਰੱਕੀ ਨਾਲ ਮਿਲ ਜਾਵੇਗੀ।",
    "ko": "이메일을 입력하면 로그인 링크와 6자리 코드를 보내 드려요. 비밀번호는 필요 없어요. 진도는 이 기기에 있는 기록과 합쳐져요.",
    "kind": "sentence",
    "where": "js sh() <p>"
   },
   "Send sign-in link": {
-   "t": "ਸਾਈਨ ਇਨ ਲਿੰਕ ਭੇਜੋ",
+   "t": "ਸਾਈਨ-ਇਨ ਲਿੰਕ ਭੇਜੋ",
    "ko": "로그인 링크 보내기",
    "kind": "label",
    "where": "js sh() <button>"
@@ -1507,7 +1507,7 @@
    "where": "js em() <b>"
   },
   "Tap the link, or enter the code below.": {
-   "t": "ਲਿੰਕ 'ਤੇ ਟੈਪ ਕਰੋ, ਜਾਂ ਹੇਠਾਂ ਕੋਡ ਭਰੋ।",
+   "t": "ਲਿੰਕ ਉੱਤੇ ਟੈਪ ਕਰੋ, ਜਾਂ ਹੇਠਾਂ ਕੋਡ ਲਿਖੋ।",
    "ko": "링크를 누르거나 아래에 코드를 입력하세요.",
    "kind": "sentence",
    "where": "js em()"
@@ -1519,32 +1519,32 @@
    "where": "js em()"
   },
   "Welcome to Lang App": {
-   "t": "Lang App ਵਿੱਚ ਜੀ ਆਇਆਂ ਨੂੰ",
+   "t": "Lang App ਵਿੱਚ ਸੁਆਗਤ ਹੈ",
    "ko": "Lang App에 오신 걸 환영해요",
    "kind": "label",
    "where": "js pl()"
   },
   "Hangul, flashcards with audio, quizzes and a 5-minute daily session. Before you start — how should we save your progress?": {
-   "t": "ਹੰਗੁਲ, ਆਡੀਓ ਵਾਲੇ ਫ਼ਲੈਸ਼ਕਾਰਡ, ਕੁਇਜ਼ ਅਤੇ ਰੋਜ਼ 5 ਮਿੰਟ ਦਾ ਸੈਸ਼ਨ। ਸ਼ੁਰੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ — ਤੁਹਾਡੀ ਤਰੱਕੀ ਕਿਵੇਂ ਸੇਵ ਕਰੀਏ?",
+   "t": "ਉਚਾਰਨ, ਆਡੀਓ ਵਾਲੇ ਫ਼ਲੈਸ਼ਕਾਰਡ, ਟੈਸਟ ਤੇ ਰੋਜ਼ ਦਾ 5 ਮਿੰਟ ਦਾ ਸੈਸ਼ਨ। ਸ਼ੁਰੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ — ਤੁਹਾਡੀ ਤਰੱਕੀ ਕਿਵੇਂ ਸੇਵ ਕਰੀਏ?",
    "ko": "소리 나는 플래시카드, 퀴즈, 하루 5분 학습. 시작하기 전에 — 진도를 어떻게 저장할까요?",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "📧 Email — save across devices": {
-   "t": "📧 ਈਮੇਲ — ਸਾਰੇ ਡਿਵਾਈਸਾਂ ਵਿੱਚ ਸੇਵ",
+   "t": "📧 ਈਮੇਲ — ਹਰ ਡਿਵਾਈਸ ਉੱਤੇ ਸੇਵ",
    "ko": "📧 이메일 — 여러 기기에 저장",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "We email you a sign-in link + 6-digit code. No password. Your progress follows you to any phone or laptop.": {
-   "t": "ਅਸੀਂ ਤੁਹਾਨੂੰ ਸਾਈਨ ਇਨ ਲਿੰਕ + 6 ਅੰਕਾਂ ਵਾਲਾ ਕੋਡ ਈਮੇਲ ਕਰਦੇ ਹਾਂ। ਕੋਈ ਪਾਸਵਰਡ ਨਹੀਂ। ਤੁਹਾਡੀ ਤਰੱਕੀ ਹਰ ਫ਼ੋਨ ਜਾਂ ਲੈਪਟਾਪ ਉੱਤੇ ਤੁਹਾਡੇ ਨਾਲ ਰਹਿੰਦੀ ਹੈ।",
+   "t": "ਅਸੀਂ ਤੁਹਾਨੂੰ ਸਾਈਨ-ਇਨ ਲਿੰਕ + 6 ਅੰਕਾਂ ਦਾ ਕੋਡ ਈਮੇਲ ਕਰਦੇ ਹਾਂ। ਪਾਸਵਰਡ ਨਹੀਂ ਚਾਹੀਦਾ। ਤੁਹਾਡੀ ਤਰੱਕੀ ਹਰ ਫ਼ੋਨ ਤੇ ਲੈਪਟਾਪ ਉੱਤੇ ਤੁਹਾਡੇ ਨਾਲ ਰਹਿੰਦੀ ਹੈ।",
    "ko": "로그인 링크와 6자리 코드를 이메일로 보내 드려요. 비밀번호는 필요 없어요. 어떤 폰이나 노트북에서도 진도가 이어져요.",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "👤 Just a nickname — this device only": {
-   "t": "👤 ਸਿਰਫ਼ ਨਿੱਕਨੇਮ — ਸਿਰਫ਼ ਇਹ ਡਿਵਾਈਸ",
+   "t": "👤 ਬੱਸ ਨਿੱਕਨੇਮ — ਸਿਰਫ਼ ਇਹ ਡਿਵਾਈਸ",
    "ko": "👤 닉네임만 — 이 기기에만 저장",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -1556,13 +1556,13 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Progress lives in this browser and is lost if you clear site data, switch devices, or the browser evicts storage.": {
-   "t": "ਤਰੱਕੀ ਇਸ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਰਹਿੰਦੀ ਹੈ ਅਤੇ ਮਿਟ ਜਾਂਦੀ ਹੈ ਜੇ ਤੁਸੀਂ ਸਾਈਟ ਡਾਟਾ ਸਾਫ਼ ਕਰੋ, ਡਿਵਾਈਸ ਬਦਲੋ, ਜਾਂ ਬ੍ਰਾਊਜ਼ਰ ਸਟੋਰੇਜ ਖ਼ਾਲੀ ਕਰ ਦੇਵੇ।",
+   "t": "ਤਰੱਕੀ ਇਸੇ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਰਹਿੰਦੀ ਹੈ, ਤੇ ਸਾਈਟ ਡਾਟਾ ਸਾਫ਼ ਕਰਨ, ਡਿਵਾਈਸ ਬਦਲਣ ਜਾਂ ਬ੍ਰਾਊਜ਼ਰ ਵੱਲੋਂ ਸਟੋਰੇਜ ਹਟਾਉਣ ਨਾਲ ਗੁਆਚ ਜਾਂਦੀ ਹੈ।",
    "ko": "진도는 이 브라우저에만 저장돼요. 사이트 데이터를 지우거나, 기기를 바꾸거나, 브라우저가 저장 공간을 비우면 사라져요.",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "You can add an email later in Progress.": {
-   "t": "ਤੁਸੀਂ ਬਾਅਦ ਵਿੱਚ ਤਰੱਕੀ ਵਿੱਚ ਜਾ ਕੇ ਈਮੇਲ ਜੋੜ ਸਕਦੇ ਹੋ।",
+   "t": "ਤੁਸੀਂ ਬਾਅਦ ਵਿੱਚ \"ਤਰੱਕੀ\" ਵਿੱਚ ਈਮੇਲ ਜੋੜ ਸਕਦੇ ਹੋ।",
    "ko": "이메일은 나중에 진도 탭에서 추가할 수 있어요.",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -1574,13 +1574,13 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Save across devices": {
-   "t": "ਸਾਰੇ ਡਿਵਾਈਸਾਂ ਵਿੱਚ ਸੇਵ",
+   "t": "ਹਰ ਡਿਵਾਈਸ ਉੱਤੇ ਸੇਵ ਕਰੋ",
    "ko": "여러 기기에 저장",
    "kind": "label",
    "where": "js step2() <h1>"
   },
   "Start on this device while I wait": {
-   "t": "ਉਡੀਕਦੇ ਹੋਏ ਇਸ ਡਿਵਾਈਸ ਉੱਤੇ ਸ਼ੁਰੂ ਕਰੋ",
+   "t": "ਉਡੀਕ ਦੌਰਾਨ ਇਸੇ ਡਿਵਾਈਸ ਉੱਤੇ ਸ਼ੁਰੂ ਕਰੋ",
    "ko": "기다리는 동안 이 기기에서 시작",
    "kind": "sentence",
    "where": "js later()"
@@ -1593,7 +1593,7 @@
    "where": "js step1() <b>"
   },
   "What should we call you?": {
-   "t": "ਅਸੀਂ ਤੁਹਾਨੂੰ ਕੀ ਬੁਲਾਈਏ?",
+   "t": "ਅਸੀਂ ਤੁਹਾਨੂੰ ਕੀ ਕਹਿ ਕੇ ਬੁਲਾਈਏ?",
    "ko": "어떻게 불러 드릴까요?",
    "kind": "sentence",
    "where": "js step3() <h1>"
@@ -1605,19 +1605,19 @@
    "where": "js step3() <button>"
   },
   "Saved in this browser only. Clearing site data or switching devices loses progress — add an email any time in Progress to keep it safe.": {
-   "t": "ਸਿਰਫ਼ ਇਸ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਸੇਵ ਹੈ। ਸਾਈਟ ਡਾਟਾ ਸਾਫ਼ ਕਰਨ ਜਾਂ ਡਿਵਾਈਸ ਬਦਲਣ ਨਾਲ ਤਰੱਕੀ ਮਿਟ ਜਾਂਦੀ ਹੈ — ਇਸ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਲਈ ਕਦੇ ਵੀ ਤਰੱਕੀ ਵਿੱਚ ਈਮੇਲ ਜੋੜੋ।",
+   "t": "ਸਿਰਫ਼ ਇਸੇ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਸੇਵ ਹੈ। ਸਾਈਟ ਡਾਟਾ ਸਾਫ਼ ਕਰਨ ਜਾਂ ਡਿਵਾਈਸ ਬਦਲਣ ਨਾਲ ਤਰੱਕੀ ਗੁਆਚ ਜਾਂਦੀ ਹੈ — ਇਸ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਲਈ ਕਦੇ ਵੀ \"ਤਰੱਕੀ\" ਵਿੱਚ ਈਮੇਲ ਜੋੜੋ।",
    "ko": "이 브라우저에만 저장돼요. 사이트 데이터를 지우거나 기기를 바꾸면 진도가 사라져요 — 안전하게 지키려면 언제든 진도 탭에서 이메일을 추가하세요.",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Delete account": {
-   "t": "ਅਕਾਊਂਟ ਮਿਟਾਓ",
+   "t": "ਅਕਾਊਂਟ ਡਿਲੀਟ ਕਰੋ",
    "ko": "계정 삭제",
    "kind": "label",
    "where": "js sh()"
   },
   "Type DELETE to confirm": {
-   "t": "ਪੱਕਾ ਕਰਨ ਲਈ DELETE ਟਾਈਪ ਕਰੋ",
+   "t": "ਪੱਕਾ ਕਰਨ ਲਈ DELETE ਲਿਖੋ",
    "ko": "확인하려면 DELETE를 입력하세요",
    "kind": "label",
    "where": "js sh() <input> @aria-label"
@@ -1630,31 +1630,31 @@
    "where": "js sh() <b>"
   },
   "to confirm.": {
-   "t": "ਟਾਈਪ ਕਰਕੇ ਪੱਕਾ ਕਰੋ।",
+   "t": "ਲਿਖੋ।",
    "ko": "를 입력해 확인하세요.",
    "kind": "sentence",
    "where": "js sh()"
   },
   "Delete forever": {
-   "t": "ਹਮੇਸ਼ਾ ਲਈ ਮਿਟਾਓ",
+   "t": "ਹਮੇਸ਼ਾ ਲਈ ਡਿਲੀਟ ਕਰੋ",
    "ko": "영구 삭제",
    "kind": "label",
    "where": "js sh() <button>"
   },
   "Deleting…": {
-   "t": "ਮਿਟਾਇਆ ਜਾ ਰਿਹਾ ਹੈ…",
+   "t": "ਡਿਲੀਟ ਹੋ ਰਿਹਾ ਹੈ…",
    "ko": "삭제하는 중…",
    "kind": "sentence",
    "where": "js msg()"
   },
   "Account deleted. This device was cleared.": {
-   "t": "ਅਕਾਊਂਟ ਮਿਟਾ ਦਿੱਤਾ ਗਿਆ। ਇਹ ਡਿਵਾਈਸ ਸਾਫ਼ ਕਰ ਦਿੱਤਾ ਗਿਆ।",
+   "t": "ਅਕਾਊਂਟ ਡਿਲੀਟ ਹੋ ਗਿਆ। ਇਸ ਡਿਵਾਈਸ ਦਾ ਡਾਟਾ ਸਾਫ਼ ਹੋ ਗਿਆ।",
    "ko": "계정을 삭제했어요. 이 기기의 데이터도 지웠어요.",
    "kind": "sentence",
    "where": "js r()"
   },
   "Learning Korean 5 minutes a day with Lang App 🇰🇷": {
-   "t": "Lang App ਨਾਲ ਰੋਜ਼ 5 ਮਿੰਟ ਵਿੱਚ ਕੋਰੀਆਈ ਸਿੱਖਣਾ 🇰🇷",
+   "t": "ਅੰਗਰੇਜ਼ੀ — ਰੋਜ਼ 5 ਮਿੰਟ, Lang App ਨਾਲ 🇺🇸",
    "ko": "Lang App으로 하루 5분 영어 공부 중 🇺🇸",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -1674,21 +1674,21 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Reload": {
-   "t": "ਰੀਲੋਡ",
+   "t": "ਰੀਲੋਡ ਕਰੋ",
    "ko": "새로고침",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js t()"
   },
   "Again": {
-   "t": "ਫਿਰ ਤੋਂ",
+   "t": "ਦੁਬਾਰਾ",
    "ko": "다시",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js STR()"
   },
   "Got it": {
-   "t": "ਯਾਦ ਹੈ",
+   "t": "ਆਉਂਦਾ ਹੈ",
    "ko": "알아요",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1736,13 +1736,13 @@
    "where": "js boxTxt() <button>"
   },
   "🔍 break it down": {
-   "t": "🔍 ਤੋੜ ਕੇ ਦੇਖੋ",
+   "t": "🔍 ਤੋੜ ਕੇ ਸਮਝੋ",
    "ko": "🔍 하나씩 뜯어보기",
    "kind": "label",
    "where": "js boxTxt() <button>"
   },
   "Plays 3 times with pauses — repeat out loud": {
-   "t": "ਵਿੱਚ ਵਿੱਚ ਰੁਕ ਕੇ 3 ਵਾਰ ਵੱਜਦਾ ਹੈ — ਉੱਚੀ ਆਵਾਜ਼ ਵਿੱਚ ਦੁਹਰਾਓ",
+   "t": "3 ਵਾਰ ਰੁਕ-ਰੁਕ ਕੇ ਚੱਲਦਾ ਹੈ — ਉੱਚੀ ਬੋਲ ਕੇ ਦੁਹਰਾਓ",
    "ko": "잠깐씩 쉬며 3번 들려줘요 — 소리 내어 따라 하세요",
    "kind": "sentence",
    "where": "js boxTxt() <button> @title"
@@ -1754,7 +1754,7 @@
    "where": "js boxTxt() <button> @title"
   },
   "Hide from reviews until you restore it": {
-   "t": "ਜਦੋਂ ਤੱਕ ਵਾਪਸ ਨਾ ਲਿਆਓ, ਦੁਹਰਾਈ ਤੋਂ ਲੁਕਾਓ",
+   "t": "ਵਾਪਸ ਲਿਆਉਣ ਤੱਕ ਦੁਹਰਾਈ ਤੋਂ ਲੁਕਾਓ",
    "ko": "되돌릴 때까지 복습에서 숨기기",
    "kind": "sentence",
    "where": "js boxTxt() <button> @title"
@@ -1773,7 +1773,7 @@
    "where": "js boxTxt() <span>"
   },
   "🗣 shadow ×3": {
-   "t": "🗣 ਨਾਲ ਬੋਲੋ ×3",
+   "t": "🗣 ਨਾਲ-ਨਾਲ ਬੋਲੋ ×3",
    "ko": "🗣 따라 말하기 ×3",
    "kind": "label",
    "where": "js boxTxt() <button>"
@@ -1793,7 +1793,7 @@
    "where": "js boxTxt() <button>"
   },
   "Got it:": {
-   "t": "ਯਾਦ ਹੈ:",
+   "t": "ਆਉਂਦਾ ਹੈ:",
    "ko": "알아요:",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -1806,25 +1806,25 @@
    "where": "js k()"
   },
   "Suspended. Restore it from Progress.": {
-   "t": "ਰੋਕ ਦਿੱਤਾ। ਤਰੱਕੀ ਵਿੱਚੋਂ ਵਾਪਸ ਲਿਆਓ।",
+   "t": "ਰੋਕ ਦਿੱਤਾ। \"ਤਰੱਕੀ\" ਵਿੱਚੋਂ ਵਾਪਸ ਲਿਆਓ।",
    "ko": "보류했어요. 진도 탭에서 되돌릴 수 있어요.",
    "kind": "sentence",
    "where": "js k()"
   },
   "🗣 listen… repeat": {
-   "t": "🗣 ਸੁਣੋ… ਦੁਹਰਾਓ",
+   "t": "🗣 ਸੁਣੋ… ਫਿਰ ਬੋਲੋ",
    "ko": "🗣 듣고… 따라 하기",
    "kind": "label",
    "where": "js shT()"
   },
   "Your own hint or mnemonic": {
-   "t": "ਤੁਹਾਡਾ ਆਪਣਾ ਇਸ਼ਾਰਾ ਜਾਂ ਯਾਦ ਰੱਖਣ ਦੀ ਜੁਗਤ",
+   "t": "ਆਪਣਾ ਇਸ਼ਾਰਾ ਜਾਂ ਯਾਦ ਰੱਖਣ ਦਾ ਤਰੀਕਾ",
    "ko": "나만의 힌트나 암기법",
    "kind": "sentence",
    "where": "js f() <textarea> @placeholder"
   },
   "Delete": {
-   "t": "ਮਿਟਾਓ",
+   "t": "ਡਿਲੀਟ ਕਰੋ",
    "ko": "삭제",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1883,13 +1883,13 @@
    "where": "js ov()"
   },
   "👉 Swipe right": {
-   "t": "👉 ਸੱਜੇ ਸਵਾਈਪ",
+   "t": "👉 ਸੱਜੇ ਸਵਾਈਪ ਕਰੋ",
    "ko": "👉 오른쪽으로 밀면",
    "kind": "label",
    "where": "js ov() <b>"
   },
   "= Got it ·": {
-   "t": "= ਯਾਦ ਹੈ ·",
+   "t": "= ਆਉਂਦਾ ਹੈ ·",
    "ko": "= 알아요 ·",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -1903,33 +1903,33 @@
    "where": "js ov() <b>"
   },
   "= Again": {
-   "t": "= ਫਿਰ ਤੋਂ",
+   "t": "= ਦੁਬਾਰਾ",
    "ko": "= 다시",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "js ov()"
   },
   "plays the pronunciation": {
-   "t": "ਦਬਾਉਣ ਨਾਲ ਉਚਾਰਨ ਵੱਜਦਾ ਹੈ",
+   "t": "ਉਚਾਰਨ ਸੁਣਾਉਂਦਾ ਹੈ",
    "ko": "누르면 발음을 들려줘요",
    "kind": "label",
    "where": "js ov()"
   },
   "🩹 Marked as a leech and parked from sessions. Manage it in Progress.": {
-   "t": "🩹 ਲੀਚ ਵਜੋਂ ਮਾਰਕ ਕਰਕੇ ਸੈਸ਼ਨਾਂ ਤੋਂ ਪਾਸੇ ਕਰ ਦਿੱਤਾ। ਤਰੱਕੀ ਵਿੱਚ ਸੰਭਾਲੋ।",
+   "t": "🩹 ਇਹ ਕਾਰਡ ਵਾਰ-ਵਾਰ ਅੜ ਰਿਹਾ ਹੈ, ਇਸ ਲਈ ਸੈਸ਼ਨ ਤੋਂ ਹਟਾ ਦਿੱਤਾ ਗਿਆ। \"ਤਰੱਕੀ\" ਵਿੱਚ ਜਾ ਕੇ ਇਸ ਨੂੰ ਸੰਭਾਲੋ।",
    "ko": "🩹 거머리 카드로 표시하고 학습에서 잠시 뺐어요. 진도 탭에서 관리할 수 있어요.",
    "kind": "sentence",
    "where": "js s()"
   },
   "↶ Undo": {
-   "t": "↶ ਵਾਪਸ ਕਰੋ",
+   "t": "↶ ਵਾਪਸ ਲਓ",
    "ko": "↶ 되돌리기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js b()"
   },
   "Undone.": {
-   "t": "ਵਾਪਸ ਕਰ ਦਿੱਤਾ।",
+   "t": "ਵਾਪਸ ਲੈ ਲਿਆ।",
    "ko": "되돌렸어요.",
    "kind": "sentence",
    "where": "js bar()"
@@ -1942,7 +1942,7 @@
    "where": "js (top level)"
   },
   "learning": {
-   "t": "ਸਿੱਖੇ ਜਾ ਰਹੇ",
+   "t": "ਸਿੱਖ ਰਹੇ",
    "ko": "학습 중",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -1963,7 +1963,7 @@
    "where": "js isNew()"
   },
   "No phrases yet. Use \"＋ Add your own phrase\" above — anything you hear today goes here and joins review, practice and search.": {
-   "t": "ਅਜੇ ਕੋਈ ਵਾਕ ਨਹੀਂ। ਉੱਪਰ \"＋ ਆਪਣਾ ਵਾਕ ਜੋੜੋ\" ਵਰਤੋ — ਅੱਜ ਜੋ ਵੀ ਸੁਣੋ ਉਹ ਇੱਥੇ ਆਉਂਦਾ ਹੈ ਅਤੇ ਦੁਹਰਾਈ, ਅਭਿਆਸ ਅਤੇ ਖੋਜ ਵਿੱਚ ਸ਼ਾਮਲ ਹੁੰਦਾ ਹੈ।",
+   "t": "ਅਜੇ ਕੋਈ ਵਾਕ ਨਹੀਂ। ਉੱਪਰ \"＋ ਆਪਣਾ ਵਾਕ ਜੋੜੋ\" ਵਰਤੋ — ਅੱਜ ਜੋ ਵੀ ਸੁਣੋ, ਉਹ ਇੱਥੇ ਆਵੇਗਾ ਤੇ ਦੁਹਰਾਈ, ਅਭਿਆਸ ਤੇ ਖੋਜ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋ ਜਾਵੇਗਾ।",
    "ko": "아직 표현이 없어요. 위의 \"＋ 나만의 표현 추가\"를 써 보세요 — 오늘 들은 표현을 여기 넣으면 복습, 연습, 검색에 함께 나와요.",
    "kind": "sentence",
    "where": "js stage() <div>"
@@ -1995,7 +1995,7 @@
    "where": "js deleteCustom()"
   },
   "last quiz scores": {
-   "t": "ਪਿਛਲੇ ਕੁਇਜ਼ ਦੇ ਸਕੋਰ",
+   "t": "ਪਿਛਲੇ ਟੈਸਟ ਦੇ ਸਕੋਰ",
    "ko": "최근 퀴즈 점수",
    "kind": "label",
    "where": "js spark() <svg> @aria-label"
@@ -2026,25 +2026,25 @@
    "where": "js u()"
   },
   "Browsing · tap 🔊 to hear": {
-   "t": "ਬ੍ਰਾਊਜ਼ ਕਰ ਰਹੇ ਹੋ · ਸੁਣਨ ਲਈ 🔊 ਟੈਪ ਕਰੋ",
+   "t": "ਬ੍ਰਾਊਜ਼ · ਸੁਣਨ ਲਈ 🔊 ਟੈਪ ਕਰੋ",
    "ko": "둘러보는 중 · 🔊를 누르면 들려요",
    "kind": "sentence",
    "where": "js u()"
   },
   "Already in My phrases": {
-   "t": "ਪਹਿਲਾਂ ਹੀ ਮੇਰੇ ਵਾਕ ਵਿੱਚ ਹੈ",
+   "t": "\"ਮੇਰੇ ਵਾਕ\" ਵਿੱਚ ਪਹਿਲਾਂ ਹੀ ਹੈ",
    "ko": "이미 내 표현에 있어요",
    "kind": "label",
    "where": "js ko()"
   },
   "Added by you": {
-   "t": "ਤੁਹਾਡਾ ਜੋੜਿਆ",
+   "t": "ਤੁਸੀਂ ਜੋੜਿਆ",
    "ko": "직접 추가함",
    "kind": "label",
    "where": "js ko()"
   },
   "Added to My phrases.": {
-   "t": "ਮੇਰੇ ਵਾਕ ਵਿੱਚ ਜੋੜ ਦਿੱਤਾ।",
+   "t": "\"ਮੇਰੇ ਵਾਕ\" ਵਿੱਚ ਜੁੜ ਗਿਆ।",
    "ko": "내 표현에 추가했어요.",
    "kind": "sentence",
    "where": "js ko()"
@@ -2056,7 +2056,7 @@
    "where": "js SPK() <div>"
   },
   "Got it — quiz me": {
-   "t": "ਸਮਝ ਆ ਗਿਆ — ਕੁਇਜ਼ ਲਓ",
+   "t": "ਠੀਕ ਹੈ — ਟੈਸਟ ਲਓ",
    "ko": "알겠어요 — 퀴즈 내 주세요",
    "kind": "sentence",
    "where": "js goLbl()"
@@ -2075,19 +2075,19 @@
    "where": "js romT() <div>"
   },
   "All caught up": {
-   "t": "ਸਭ ਪੂਰਾ",
+   "t": "ਸਭ ਪੂਰਾ ਹੋ ਗਿਆ",
    "ko": "다 끝냈어요",
    "kind": "label",
    "where": "js lp()"
   },
   "No cards due right now.": {
-   "t": "ਇਸ ਵੇਲੇ ਦੁਹਰਾਉਣ ਲਈ ਕੋਈ ਕਾਰਡ ਨਹੀਂ।",
+   "t": "ਹੁਣ ਦੁਹਰਾਉਣ ਲਈ ਕੋਈ ਕਾਰਡ ਨਹੀਂ।",
    "ko": "지금 복습할 카드가 없어요.",
    "kind": "sentence",
    "where": "js msg()"
   },
   "Nothing due in this deck right now.": {
-   "t": "ਇਸ ਡੈੱਕ ਵਿੱਚ ਇਸ ਵੇਲੇ ਦੁਹਰਾਉਣ ਲਈ ਕੁਝ ਨਹੀਂ।",
+   "t": "ਇਸ ਡੈੱਕ ਵਿੱਚ ਹੁਣ ਦੁਹਰਾਉਣ ਲਈ ਕੁਝ ਨਹੀਂ।",
    "ko": "이 덱에는 지금 복습할 카드가 없어요.",
    "kind": "sentence",
    "where": "js msg()"
@@ -2111,7 +2111,7 @@
    "where": "js next() <a>"
   },
   "No match. Try the English meaning.": {
-   "t": "ਕੋਈ ਮੇਲ ਨਹੀਂ ਮਿਲਿਆ। ਅੰਗਰੇਜ਼ੀ ਮਤਲਬ ਲਿਖ ਕੇ ਦੇਖੋ।",
+   "t": "ਕੁਝ ਨਹੀਂ ਮਿਲਿਆ। ਪੰਜਾਬੀ ਵਿੱਚ ਅਰਥ ਲਿਖ ਕੇ ਦੇਖੋ।",
    "ko": "결과가 없어요. 한국어 뜻으로 검색해 보세요.",
    "kind": "sentence",
    "where": "js hits() <p>"
@@ -2124,7 +2124,7 @@
    "where": "js (top level)"
   },
   "⏰ All due": {
-   "t": "⏰ ਸਾਰੇ ਦੁਹਰਾਓ",
+   "t": "⏰ ਸਾਰੀ ਦੁਹਰਾਈ",
    "ko": "⏰ 복습할 카드 전부",
    "kind": "label",
    "where": "js quickReview()"
@@ -2143,33 +2143,33 @@
    "where": "js STR()"
   },
   "Hide locked": {
-   "t": "ਲੌਕ ਵਾਲੇ ਲੁਕਾਓ",
+   "t": "ਬੰਦ ਡੈੱਕ ਲੁਕਾਓ",
    "ko": "잠긴 덱 숨기기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js STR()"
   },
   "🔓 Unlock all": {
-   "t": "🔓 ਸਭ ਅਨਲੌਕ",
+   "t": "🔓 ਸਭ ਅਨਲਾਕ ਕਰੋ",
    "ko": "🔓 모두 열기",
    "kind": "label",
    "where": "js tmp() <button>"
   },
   "Finish 60% of the previous deck to unlock this one.": {
-   "t": "ਇਸ ਨੂੰ ਅਨਲੌਕ ਕਰਨ ਲਈ ਪਿਛਲਾ ਡੈੱਕ 60% ਪੂਰਾ ਕਰੋ।",
+   "t": "ਇਸ ਨੂੰ ਅਨਲਾਕ ਕਰਨ ਲਈ ਪਿਛਲੇ ਡੈੱਕ ਦਾ 60% ਪੂਰਾ ਕਰੋ।",
    "ko": "이전 덱을 60% 끝내면 열려요.",
    "kind": "sentence",
    "where": "js b()"
   },
   "모두 열렸어요 · Everything unlocked": {
-   "t": "모두 열렸어요 · ਸਭ ਕੁਝ ਅਨਲੌਕ ਹੋ ਗਿਆ",
+   "t": "ਸਭ ਕੁਝ ਅਨਲਾਕ ਹੈ",
    "ko": "모두 열렸어요 · 전체 잠금 해제",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js unlockAll()"
   },
   "My phrases is empty.": {
-   "t": "ਮੇਰੇ ਵਾਕ ਖ਼ਾਲੀ ਹੈ।",
+   "t": "\"ਮੇਰੇ ਵਾਕ\" ਖ਼ਾਲੀ ਹੈ।",
    "ko": "내 표현이 비어 있어요.",
    "kind": "sentence",
    "where": "js csv()"
@@ -2181,19 +2181,19 @@
    "where": "js csv()"
   },
   "Copy the text above": {
-   "t": "ਉੱਪਰ ਵਾਲਾ ਟੈਕਸਟ ਕਾਪੀ ਕਰੋ",
+   "t": "ਉੱਪਰਲਾ ਟੈਕਸਟ ਕਾਪੀ ਕਰੋ",
    "ko": "위의 텍스트를 복사하세요",
    "kind": "label",
    "where": "js csv()"
   },
   "Restored.": {
-   "t": "ਵਾਪਸ ਲਿਆਂਦਾ।",
+   "t": "ਵਾਪਸ ਆ ਗਿਆ।",
    "ko": "되돌렸어요.",
    "kind": "sentence",
    "where": "js s()"
   },
   "Back in rotation.": {
-   "t": "ਫਿਰ ਦੁਹਰਾਈ ਵਿੱਚ ਸ਼ਾਮਲ।",
+   "t": "ਦੁਬਾਰਾ ਦੁਹਰਾਈ ਵਿੱਚ ਸ਼ਾਮਲ।",
    "ko": "다시 복습에 넣었어요.",
    "kind": "sentence",
    "where": "js s()"
@@ -2206,7 +2206,7 @@
    "where": "html <h3> text"
   },
   "Polite ↔ casual": {
-   "t": "ਨਿਮਰ ↔ ਆਮ",
+   "t": "ਨਿਮਰ ↔ ਬੋਲਚਾਲ",
    "ko": "존댓말 ↔ 반말",
    "kind": "label",
    "where": "html <button> text"
@@ -2218,7 +2218,7 @@
    "where": "js pool()"
   },
   "Test everything × 3": {
-   "t": "ਸਭ ਕੁਝ ਪਰਖੋ × 3",
+   "t": "ਸਭ ਕੁਝ ਟੈਸਟ ਕਰੋ × 3",
    "ko": "전체 테스트 × 3",
    "kind": "label",
    "where": "js teach() <button>"
@@ -2230,13 +2230,13 @@
    "where": "js teach() <button>"
   },
   "Daily new-card cap reached. Learning anyway since you asked.": {
-   "t": "ਰੋਜ਼ ਦੇ ਨਵੇਂ ਕਾਰਡਾਂ ਦੀ ਹੱਦ ਪੂਰੀ ਹੋ ਗਈ। ਤੁਸੀਂ ਕਿਹਾ ਸੀ, ਇਸ ਲਈ ਫਿਰ ਵੀ ਸਿਖਾ ਰਹੇ ਹਾਂ।",
+   "t": "ਰੋਜ਼ ਦੇ ਨਵੇਂ ਕਾਰਡਾਂ ਦੀ ਹੱਦ ਪੂਰੀ ਹੋ ਗਈ। ਤੁਹਾਡੇ ਕਹਿਣ ਉੱਤੇ ਸਿੱਖਣਾ ਫਿਰ ਵੀ ਜਾਰੀ ਹੈ।",
    "ko": "오늘 새 카드 한도에 도달했어요. 원하셨으니 그래도 배울게요.",
    "kind": "sentence",
    "where": "js i()"
   },
   "80% to pass": {
-   "t": "ਪਾਸ ਹੋਣ ਲਈ 80%",
+   "t": "ਪਾਸ ਲਈ 80%",
    "ko": "80% 이상이면 통과",
    "kind": "label",
    "where": "js pct() <div>"
@@ -2262,13 +2262,13 @@
    "where": "js b()"
   },
   "Review these 5 again": {
-   "t": "ਇਹ 5 ਫਿਰ ਦੁਹਰਾਓ",
+   "t": "ਇਹ 5 ਦੁਬਾਰਾ ਦੁਹਰਾਓ",
    "ko": "이 5장 다시 보기",
    "kind": "label",
    "where": "js b()"
   },
   "Retry quiz": {
-   "t": "ਕੁਇਜ਼ ਦੁਬਾਰਾ",
+   "t": "ਟੈਸਟ ਦੁਬਾਰਾ ਦਿਓ",
    "ko": "퀴즈 다시 풀기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2288,26 +2288,26 @@
    "where": "js b() <span>"
   },
   "Unlock a few more decks first.": {
-   "t": "ਪਹਿਲਾਂ ਕੁਝ ਹੋਰ ਡੈੱਕ ਅਨਲੌਕ ਕਰੋ।",
+   "t": "ਪਹਿਲਾਂ ਕੁਝ ਹੋਰ ਡੈੱਕ ਅਨਲਾਕ ਕਰੋ।",
    "ko": "먼저 덱을 몇 개 더 열어 주세요.",
    "kind": "sentence",
    "where": "js pool()"
   },
   "no feedback until the end": {
-   "t": "ਨਤੀਜਾ ਅਖ਼ੀਰ ਵਿੱਚ",
+   "t": "ਜਵਾਬ ਅਖ਼ੀਰ ਵਿੱਚ",
    "ko": "끝날 때까지 정답을 알려 주지 않아요",
    "kind": "sentence",
    "where": "js q() <span>"
   },
   "Missed": {
-   "t": "ਗ਼ਲਤ ਹੋਏ",
+   "t": "ਗ਼ਲਤ",
    "ko": "틀린 카드",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js names2()"
   },
   "Exam re-drill": {
-   "t": "ਇਮਤਿਹਾਨ ਦੁਬਾਰਾ",
+   "t": "ਇਮਤਿਹਾਨ ਦੀਆਂ ਗ਼ਲਤੀਆਂ",
    "ko": "시험 오답 다시 풀기",
    "kind": "label",
    "where": "js pool2()"
@@ -2319,20 +2319,20 @@
    "where": "js pb() <div>"
   },
   "type the letter": {
-   "t": "ਅੱਖਰ ਟਾਈਪ ਕਰੋ",
+   "t": "ਅੱਖਰ ਲਿਖੋ",
    "ko": "글자를 입력하세요",
    "kind": "label",
    "where": "js renderTypeQ() <div>"
   },
   "type it in Hangul": {
-   "t": "ਹੰਗੁਲ ਵਿੱਚ ਟਾਈਪ ਕਰੋ",
+   "t": "ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਲਿਖੋ",
    "ko": "영어로 입력하세요",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "js renderTypeQ() <div>"
   },
   "Type the Korean, or tap Check again to give up.": {
-   "t": "ਕੋਰੀਆਈ ਟਾਈਪ ਕਰੋ, ਜਾਂ ਹਾਰ ਮੰਨਣ ਲਈ ਫਿਰ ਜਾਂਚੋ ਦਬਾਓ।",
+   "t": "ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਲਿਖੋ, ਜਾਂ ਛੱਡਣ ਲਈ ਦੁਬਾਰਾ \"ਜਾਂਚੋ\" ਟੈਪ ਕਰੋ।",
    "ko": "영어로 입력하세요. 포기하려면 확인을 한 번 더 누르세요.",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -2346,7 +2346,7 @@
    "where": "js (top level)"
   },
   "tap the words in order": {
-   "t": "ਸ਼ਬਦਾਂ ਨੂੰ ਤਰਤੀਬ ਨਾਲ ਟੈਪ ਕਰੋ",
+   "t": "ਸ਼ਬਦ ਤਰਤੀਬ ਨਾਲ ਟੈਪ ਕਰੋ",
    "ko": "단어를 순서대로 누르세요",
    "kind": "sentence",
    "where": "js draw() <div>"
@@ -2373,20 +2373,20 @@
    "where": "js noW()"
   },
   "🔊 Replay": {
-   "t": "🔊 ਫਿਰ ਸੁਣੋ",
+   "t": "🔊 ਦੁਬਾਰਾ ਸੁਣੋ",
    "ko": "🔊 다시 듣기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js romT() <button>"
   },
   "Listen, then pick the meaning": {
-   "t": "ਸੁਣੋ, ਫਿਰ ਮਤਲਬ ਚੁਣੋ",
+   "t": "ਸੁਣੋ, ਫਿਰ ਅਰਥ ਚੁਣੋ",
    "ko": "듣고 뜻을 고르세요",
    "kind": "sentence",
    "where": "js romT() <div>"
   },
   "Show rule ↗": {
-   "t": "ਨਿਯਮ ਦੇਖੋ ↗",
+   "t": "ਨਿਯਮ ਦਿਖਾਓ ↗",
    "ko": "규칙 보기 ↗",
    "kind": "label",
    "where": "js why() <a>"
@@ -2399,41 +2399,41 @@
    "where": "js o() <button>"
   },
   "Which one did you hear?": {
-   "t": "ਤੁਸੀਂ ਕਿਹੜਾ ਸੁਣਿਆ?",
+   "t": "ਤੁਸੀਂ ਕੀ ਸੁਣਿਆ?",
    "ko": "어떤 걸 들었나요?",
    "kind": "sentence",
    "where": "js o() <div>"
   },
   "Make it polite (요-form)": {
-   "t": "ਨਿਮਰ ਬਣਾਓ (요-ਰੂਪ)",
+   "t": "ਇਸ ਨੂੰ ਨਿਮਰ ਬਣਾਓ",
    "ko": "존댓말로 바꾸세요 (요-형)",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js opts() <div>"
   },
   "Make it casual (반말)": {
-   "t": "ਆਮ ਬਣਾਓ (반말)",
+   "t": "ਇਸ ਨੂੰ ਬੋਲਚਾਲ ਵਾਲਾ ਬਣਾਓ",
    "ko": "반말로 바꾸세요",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js opts() <div>"
   },
   "casual → polite: add 요 (or the honorific verb)": {
-   "t": "ਆਮ → ਨਿਮਰ: 요 ਜੋੜੋ (ਜਾਂ ਸਤਿਕਾਰ ਵਾਲੀ ਕਿਰਿਆ)",
+   "t": "ਬੋਲਚਾਲ → ਨਿਮਰ: ਵੱਧ ਅਦਬ ਵਾਲਾ ਰੂਪ ਚੁਣੋ",
    "ko": "반말 → 존댓말: 요를 붙여요 (또는 높임 동사)",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js ok()"
   },
   "polite → casual: drop 요": {
-   "t": "ਨਿਮਰ → ਆਮ: 요 ਹਟਾਓ",
+   "t": "ਨਿਮਰ → ਬੋਲਚਾਲ: ਸਿੱਧਾ ਰੂਪ ਚੁਣੋ",
    "ko": "존댓말 → 반말: 요를 빼요",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js ok()"
   },
   "How is this actually said?": {
-   "t": "ਇਹ ਅਸਲ ਵਿੱਚ ਕਿਵੇਂ ਕਹਿੰਦੇ ਹਨ?",
+   "t": "ਅਸਲ ਵਿੱਚ ਇਹ ਕਿਵੇਂ ਕਿਹਾ ਜਾਂਦਾ ਹੈ?",
    "ko": "실제로는 어떻게 발음할까요?",
    "kind": "sentence",
    "where": "js opts() <div>"
@@ -2451,7 +2451,7 @@
    "where": "js type()"
   },
   "Where would you hear this?": {
-   "t": "ਇਹ ਤੁਸੀਂ ਕਿੱਥੇ ਸੁਣੋਗੇ?",
+   "t": "ਤੁਸੀਂ ਇਹ ਕਿੱਥੇ ਸੁਣੋਗੇ?",
    "ko": "이 말은 어디서 들을까요?",
    "kind": "sentence",
    "where": "js type()"
@@ -2490,7 +2490,7 @@
    "where": "js (top level)"
   },
   "🗣 Listen, then say it out loud, then compare": {
-   "t": "🗣 ਸੁਣੋ, ਫਿਰ ਉੱਚੀ ਬੋਲੋ, ਫਿਰ ਮਿਲਾਓ",
+   "t": "🗣 ਸੁਣੋ, ਫਿਰ ਉੱਚੀ ਬੋਲੋ, ਫਿਰ ਮਿਲਾ ਕੇ ਦੇਖੋ",
    "ko": "🗣 듣고, 소리 내어 말하고, 비교해 보세요",
    "kind": "sentence",
    "where": "js syl() <div>"
@@ -2517,7 +2517,7 @@
    "where": "js syl() <button>"
   },
   "I nailed it": {
-   "t": "ਇੱਕਦਮ ਸਹੀ",
+   "t": "ਸਹੀ ਬੋਲਿਆ",
    "ko": "완벽했어요",
    "kind": "label",
    "where": "js syl() <input>"
@@ -2529,38 +2529,38 @@
    "where": "js s()"
   },
   "🐢 compare (slow)": {
-   "t": "🐢 ਮਿਲਾਓ (ਹੌਲੀ)",
+   "t": "🐢 ਮਿਲਾ ਕੇ ਦੇਖੋ (ਹੌਲੀ)",
    "ko": "🐢 비교하기 (천천히)",
    "kind": "label",
    "where": "js s()"
   },
   "Again, or mark it and move on": {
-   "t": "ਫਿਰ ਤੋਂ, ਜਾਂ ਮਾਰਕ ਕਰਕੇ ਅੱਗੇ ਵਧੋ",
+   "t": "ਦੁਬਾਰਾ, ਜਾਂ ਨਿਸ਼ਾਨ ਲਾ ਕੇ ਅੱਗੇ ਵਧੋ",
    "ko": "다시 하거나, 표시하고 넘어가세요",
    "kind": "sentence",
    "where": "js old()"
   },
   "type the sound, e.g. ga": {
-   "t": "ਆਵਾਜ਼ ਟਾਈਪ ਕਰੋ, ਜਿਵੇਂ ga",
+   "t": "ਆਵਾਜ਼ ਲਿਖੋ, ਜਿਵੇਂ ga",
    "ko": "소리를 입력하세요, 예: ga",
    "kind": "sentence",
    "where": "js it() <input> @placeholder"
   },
   "Romanization": {
-   "t": "ਰੋਮਨ",
+   "t": "ਉਚਾਰਨ",
    "ko": "발음 표기",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "html <input> @placeholder"
   },
   "Type the sound in English letters (e.g.": {
-   "t": "ਆਵਾਜ਼ ਅੰਗਰੇਜ਼ੀ ਅੱਖਰਾਂ ਵਿੱਚ ਟਾਈਪ ਕਰੋ (ਜਿਵੇਂ",
+   "t": "ਆਵਾਜ਼ ਨੂੰ ਅੱਖਰਾਂ ਵਿੱਚ ਲਿਖੋ (ਜਿਵੇਂ",
    "ko": "소리를 알파벳으로 입력하세요 (예:",
    "kind": "sentence",
    "where": "js a() <span>"
   },
   "), or type the Hangul itself.": {
-   "t": "), ਜਾਂ ਸਿੱਧਾ ਹੰਗੁਲ ਟਾਈਪ ਕਰੋ।",
+   "t": "), ਜਾਂ ਅੰਗਰੇਜ਼ੀ ਸ਼ਬਦ ਹੀ ਲਿਖੋ।",
    "ko": "), 또는 한글을 직접 입력해도 돼요.",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing; legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -2606,46 +2606,46 @@
    "where": "html text"
   },
   "Retry these 5": {
-   "t": "ਇਹ 5 ਦੁਬਾਰਾ",
+   "t": "ਇਹ 5 ਦੁਬਾਰਾ ਕਰੋ",
    "ko": "이 5장 다시 풀기",
    "kind": "label",
    "where": "js pass()"
   },
   "Flip it, listen, then tap Got it once it sticks.": {
-   "t": "ਪਲਟੋ, ਸੁਣੋ, ਫਿਰ ਯਾਦ ਹੋਣ 'ਤੇ ਯਾਦ ਹੈ ਦਬਾਓ।",
+   "t": "ਕਾਰਡ ਪਲਟੋ, ਸੁਣੋ, ਤੇ ਜਦੋਂ ਯਾਦ ਹੋ ਜਾਵੇ ਤਾਂ \"ਆਉਂਦਾ ਹੈ\" ਟੈਪ ਕਰੋ।",
    "ko": "뒤집고, 들어 보고, 외워지면 알아요를 누르세요.",
    "kind": "sentence",
    "where": "js x() <p>"
   },
   "Retry": {
-   "t": "ਦੁਬਾਰਾ",
+   "t": "ਦੁਬਾਰਾ ਕਰੋ",
    "ko": "다시 풀기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js STR()"
   },
   "New quiz": {
-   "t": "ਨਵਾਂ ਕੁਇਜ਼",
+   "t": "ਨਵਾਂ ਟੈਸਟ",
    "ko": "새 퀴즈",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js STR()"
   },
   "Not enough weak cards yet. Do a session first.": {
-   "t": "ਅਜੇ ਕਾਫ਼ੀ ਕਮਜ਼ੋਰ ਕਾਰਡ ਨਹੀਂ। ਪਹਿਲਾਂ ਇੱਕ ਸੈਸ਼ਨ ਕਰੋ।",
+   "t": "ਅਜੇ ਕਮਜ਼ੋਰ ਕਾਰਡ ਕਾਫ਼ੀ ਨਹੀਂ ਹਨ। ਪਹਿਲਾਂ ਇੱਕ ਸੈਸ਼ਨ ਕਰੋ।",
    "ko": "아직 약한 카드가 충분하지 않아요. 먼저 학습을 해 보세요.",
    "kind": "sentence",
    "where": "js pool()"
   },
   "Start typing": {
-   "t": "ਟਾਈਪ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰੋ",
+   "t": "ਲਿਖਣਾ ਸ਼ੁਰੂ ਕਰੋ",
    "ko": "입력해 보세요",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js hangulNext()"
   },
   "Learn again from the start": {
-   "t": "ਸ਼ੁਰੂ ਤੋਂ ਫਿਰ ਸਿੱਖੋ",
+   "t": "ਸ਼ੁਰੂ ਤੋਂ ਦੁਬਾਰਾ ਸਿੱਖੋ",
    "ko": "처음부터 다시 배우기",
    "kind": "sentence",
    "where": "js pos()"
@@ -2657,13 +2657,13 @@
    "where": "js QUICK()"
   },
   "Goal done. Keep going?": {
-   "t": "ਟੀਚਾ ਪੂਰਾ। ਹੋਰ ਕਰੀਏ?",
+   "t": "ਟੀਚਾ ਪੂਰਾ। ਜਾਰੀ ਰੱਖੀਏ?",
    "ko": "목표 달성! 계속할까요?",
    "kind": "sentence",
    "where": "js lessonNext()"
   },
   "Sentence builder": {
-   "t": "ਵਾਕ ਬਣਾਓ",
+   "t": "ਵਾਕ ਬਣਾਉਣਾ",
    "ko": "문장 만들기",
    "kind": "label",
    "where": "js mean()"
@@ -2689,13 +2689,13 @@
    "where": "html <button> text"
   },
   "Streak at risk": {
-   "t": "ਸਟ੍ਰੀਕ ਖ਼ਤਰੇ ਵਿੱਚ",
+   "t": "ਲੜੀ ਖ਼ਤਰੇ ਵਿੱਚ",
    "ko": "연속 학습이 끊길 위기",
    "kind": "label",
    "where": "js atRisk() <b>"
   },
   "⏰ Study time": {
-   "t": "⏰ ਪੜ੍ਹਨ ਦਾ ਸਮਾਂ",
+   "t": "⏰ ਪੜ੍ਹਾਈ ਦਾ ਸਮਾਂ",
    "ko": "⏰ 공부 시간",
    "kind": "label",
    "where": "js atRisk()"
@@ -2707,7 +2707,7 @@
    "where": "js atRisk() <input> @aria-label"
   },
   "Add a daily reminder to your calendar": {
-   "t": "ਆਪਣੇ ਕੈਲੰਡਰ ਵਿੱਚ ਰੋਜ਼ ਦਾ ਰਿਮਾਈਂਡਰ ਜੋੜੋ",
+   "t": "ਕੈਲੰਡਰ ਵਿੱਚ ਰੋਜ਼ ਦਾ ਰਿਮਾਈਂਡਰ ਜੋੜੋ",
    "ko": "캘린더에 매일 알림 추가",
    "kind": "sentence",
    "where": "js atRisk() <button> @title"
@@ -2732,13 +2732,13 @@
    "where": "js STR()"
   },
   "Already in your review queue": {
-   "t": "ਪਹਿਲਾਂ ਹੀ ਤੁਹਾਡੀ ਦੁਹਰਾਈ ਦੀ ਕਤਾਰ ਵਿੱਚ ਹੈ",
+   "t": "ਪਹਿਲਾਂ ਹੀ ਤੁਹਾਡੀ ਦੁਹਰਾਈ ਸੂਚੀ ਵਿੱਚ ਹੈ",
    "ko": "이미 복습 목록에 있어요",
    "kind": "sentence",
    "where": "js tonight() <span>"
   },
   "Not in your queue yet": {
-   "t": "ਅਜੇ ਤੁਹਾਡੀ ਕਤਾਰ ਵਿੱਚ ਨਹੀਂ",
+   "t": "ਅਜੇ ਤੁਹਾਡੀ ਸੂਚੀ ਵਿੱਚ ਨਹੀਂ",
    "ko": "아직 복습 목록에 없어요",
    "kind": "sentence",
    "where": "js tonight() <span>"
@@ -2750,7 +2750,7 @@
    "where": "js tonight() <button>"
   },
   "Review it": {
-   "t": "ਇਸ ਨੂੰ ਦੁਹਰਾਓ",
+   "t": "ਦੁਹਰਾਓ",
    "ko": "복습하기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2764,13 +2764,13 @@
    "where": "js (top level) <style>"
   },
   "Deck of the week": {
-   "t": "ਹਫ਼ਤੇ ਦਾ ਡੈੱਕ",
+   "t": "ਇਸ ਹਫ਼ਤੇ ਦਾ ਡੈੱਕ",
    "ko": "이번 주의 덱",
    "kind": "label",
    "where": "js STR()"
   },
   "· done ✓": {
-   "t": "· ਪੂਰਾ ✓",
+   "t": "· ਹੋ ਗਿਆ ✓",
    "ko": "· 완료 ✓",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -2783,13 +2783,13 @@
    "where": "js STR()"
   },
   "learn 5 at a time": {
-   "t": "ਇੱਕ ਵਾਰ ਵਿੱਚ 5 ਸਿੱਖੋ",
+   "t": "5-5 ਕਾਰਡ ਕਰਕੇ ਸਿੱਖੋ",
    "ko": "5개씩 배우기",
    "kind": "sentence",
    "where": "js d() <small>"
   },
   "all done": {
-   "t": "ਸਭ ਪੂਰਾ",
+   "t": "ਸਭ ਹੋ ਗਿਆ",
    "ko": "모두 끝",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2809,7 +2809,7 @@
    "where": "js lessonNext()"
   },
   "due": {
-   "t": "ਦੁਹਰਾਈ ਲਈ",
+   "t": "ਦੁਹਰਾਉਣੇ ਹਨ",
    "ko": "복습 대기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2861,7 +2861,7 @@
    "where": "js lessonNext() <button>"
   },
   "Review due cards": {
-   "t": "ਬਾਕੀ ਕਾਰਡ ਦੁਹਰਾਓ",
+   "t": "ਦੁਹਰਾਉਣ ਵਾਲੇ ਕਾਰਡ",
    "ko": "복습할 카드 복습",
    "kind": "label",
    "where": "js lessonNext() <span>"
@@ -2874,7 +2874,7 @@
    "where": "html <label> text"
   },
   "Quick quiz": {
-   "t": "ਛੋਟਾ ਕੁਇਜ਼",
+   "t": "ਛੋਟਾ ਟੈਸਟ",
    "ko": "빠른 퀴즈",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2888,14 +2888,14 @@
    "where": "js STR()"
   },
   "Hangul drill": {
-   "t": "ਹੰਗੁਲ ਡਰਿੱਲ",
+   "t": "ਉਚਾਰਨ ਡਰਿੱਲ",
    "ko": "읽기 훈련",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "js groupOf()"
   },
   "type to read": {
-   "t": "ਪੜ੍ਹਨ ਲਈ ਟਾਈਪ ਕਰੋ",
+   "t": "ਟਾਈਪ ਕਰਕੇ ਪੜ੍ਹੋ",
    "ko": "입력하며 읽기",
    "kind": "label",
    "where": "js d() <small>"
@@ -2919,7 +2919,7 @@
    "where": "js a()"
   },
   "Added. It will show up in Review today.": {
-   "t": "ਜੋੜ ਦਿੱਤਾ। ਇਹ ਅੱਜ ਦੁਹਰਾਈ ਵਿੱਚ ਆਵੇਗਾ।",
+   "t": "ਜੋੜ ਦਿੱਤਾ। ਇਹ ਅੱਜ \"ਦੁਹਰਾਈ\" ਵਿੱਚ ਦਿਖੇਗਾ।",
    "ko": "추가했어요. 오늘 복습에 나올 거예요.",
    "kind": "sentence",
    "where": "js c()"
@@ -2953,7 +2953,7 @@
    "where": "js names2()"
   },
   "Perfect on": {
-   "t": "ਬਿਲਕੁਲ ਸਹੀ:",
+   "t": "ਪੂਰੇ ਸਹੀ:",
    "ko": "완벽했어요:",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2966,7 +2966,7 @@
    "where": "js names2()"
   },
   "Steady. Missed cards come back as reviews.": {
-   "t": "ਵਧੀਆ ਚੱਲ ਰਿਹਾ ਹੈ। ਗ਼ਲਤ ਹੋਏ ਕਾਰਡ ਦੁਹਰਾਈ ਵਿੱਚ ਵਾਪਸ ਆਉਣਗੇ।",
+   "t": "ਵਧੀਆ ਚੱਲ ਰਿਹਾ ਹੈ। ਗ਼ਲਤ ਕਾਰਡ ਦੁਹਰਾਈ ਵਿੱਚ ਮੁੜ ਆਉਣਗੇ।",
    "ko": "꾸준해요. 틀린 카드는 복습으로 다시 나와요.",
    "kind": "sentence",
    "where": "js names2()"
@@ -2979,7 +2979,7 @@
    "where": "html <h3> text"
   },
   "Quiz": {
-   "t": "ਕੁਇਜ਼",
+   "t": "ਟੈਸਟ",
    "ko": "퀴즈",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -2993,20 +2993,20 @@
    "where": "html <h2> text"
   },
   "Streak": {
-   "t": "ਸਟ੍ਰੀਕ",
+   "t": "ਲੜੀ",
    "ko": "연속 학습",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <b> text"
   },
   "Another round": {
-   "t": "ਇੱਕ ਰਾਊਂਡ ਹੋਰ",
+   "t": "ਇੱਕ ਹੋਰ ਰਾਊਂਡ",
    "ko": "한 번 더",
    "kind": "label",
    "where": "js STR()"
   },
   "Share recap card": {
-   "t": "ਸਾਰ ਕਾਰਡ ਸ਼ੇਅਰ ਕਰੋ",
+   "t": "ਰੀਕੈਪ ਕਾਰਡ ਸ਼ੇਅਰ ਕਰੋ",
    "ko": "요약 카드 공유",
    "kind": "label",
    "where": "js STR()"
@@ -3025,7 +3025,7 @@
    "where": "js names2()"
   },
   "polite↔casual": {
-   "t": "ਨਿਮਰ↔ਆਮ",
+   "t": "ਨਿਮਰ↔ਬੋਲਚਾਲ",
    "ko": "존댓말↔반말",
    "kind": "label",
    "where": "js names2()"
@@ -3059,7 +3059,7 @@
    "where": "js names2()"
   },
   "quiz": {
-   "t": "ਕੁਇਜ਼",
+   "t": "ਟੈਸਟ",
    "ko": "퀴즈",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3087,14 +3087,14 @@
    "where": "js GROUPS()"
   },
   "Social": {
-   "t": "ਮੇਲ-ਜੋਲ",
+   "t": "ਮੇਲਜੋਲ",
    "ko": "사교",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js (top level)"
   },
   "Study plan": {
-   "t": "ਪੜ੍ਹਾਈ ਦੀ ਯੋਜਨਾ",
+   "t": "ਪੜ੍ਹਾਈ ਦਾ ਪਲਾਨ",
    "ko": "학습 계획",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3122,14 +3122,14 @@
    "where": "js (top level)"
   },
   "finished": {
-   "t": "ਪੂਰਾ",
+   "t": "ਪੂਰਾ ਹੋਇਆ",
    "ko": "완료",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js k()"
   },
   "Pick a goal. The plan sets which decks and lessons to do each week, your daily new-card cap, and session size.": {
-   "t": "ਇੱਕ ਟੀਚਾ ਚੁਣੋ। ਯੋਜਨਾ ਤੈਅ ਕਰਦੀ ਹੈ ਕਿ ਹਰ ਹਫ਼ਤੇ ਕਿਹੜੇ ਡੈੱਕ ਅਤੇ ਪਾਠ ਕਰਨੇ ਹਨ, ਰੋਜ਼ ਦੇ ਨਵੇਂ ਕਾਰਡਾਂ ਦੀ ਹੱਦ, ਅਤੇ ਸੈਸ਼ਨ ਦਾ ਆਕਾਰ।",
+   "t": "ਇੱਕ ਟੀਚਾ ਚੁਣੋ। ਪਲਾਨ ਤੈਅ ਕਰਦਾ ਹੈ ਕਿ ਹਰ ਹਫ਼ਤੇ ਕਿਹੜੇ ਡੈੱਕ ਤੇ ਪਾਠ ਕਰਨੇ ਹਨ, ਰੋਜ਼ ਕਿੰਨੇ ਨਵੇਂ ਕਾਰਡ ਆਉਣਗੇ ਤੇ ਸੈਸ਼ਨ ਕਿੰਨਾ ਲੰਮਾ ਹੋਵੇਗਾ।",
    "ko": "목표를 고르세요. 계획에 따라 매주 할 덱과 레슨, 하루 새 카드 한도, 학습 분량이 정해져요.",
    "kind": "sentence",
    "where": "js box() <p>"
@@ -3142,45 +3142,45 @@
    "where": "js pl() <label>"
   },
   "Remove plan": {
-   "t": "ਯੋਜਨਾ ਹਟਾਓ",
+   "t": "ਪਲਾਨ ਹਟਾਓ",
    "ko": "계획 삭제",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js pl() <button>"
   },
   "Plan set.": {
-   "t": "ਯੋਜਨਾ ਤੈਅ ਹੋ ਗਈ।",
+   "t": "ਪਲਾਨ ਤਿਆਰ।",
    "ko": "계획을 세웠어요.",
    "kind": "sentence",
    "where": "js wks()"
   },
   "Trip to Korea": {
-   "t": "ਕੋਰੀਆ ਦਾ ਸਫ਼ਰ",
+   "t": "ਸਫ਼ਰ ਦੀ ਤਿਆਰੀ",
    "ko": "해외여행 준비",
    "kind": "label",
    "where": "js PLAN_PRESETS()"
   },
   "Make friends & date": {
-   "t": "ਦੋਸਤੀ ਅਤੇ ਡੇਟਿੰਗ",
+   "t": "ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਦੋਸਤ ਬਣਾਓ",
    "ko": "친구 사귀기 & 데이트",
    "kind": "label",
    "where": "js PLAN_PRESETS()"
   },
   "Conversational in 90 days": {
-   "t": "90 ਦਿਨਾਂ ਵਿੱਚ ਗੱਲਬਾਤ",
+   "t": "90 ਦਿਨਾਂ ਵਿੱਚ ਗੱਲਬਾਤ ਜੋਗੇ",
    "ko": "90일 만에 회화하기",
    "kind": "label",
    "where": "js ids()"
   },
   "안녕하세요 👋 Two quick questions": {
-   "t": "안녕하세요 👋 ਦੋ ਛੋਟੇ ਸਵਾਲ",
+   "t": "ਹੈਲੋ 👋 ਦੋ ਛੋਟੇ ਸਵਾਲ",
    "ko": "안녕하세요 👋 간단한 질문 두 개만 할게요",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js box() <h2>"
   },
   "Can you already read Hangul?": {
-   "t": "ਕੀ ਤੁਸੀਂ ਹੰਗੁਲ ਪੜ੍ਹ ਸਕਦੇ ਹੋ?",
+   "t": "ਕੀ ਤੁਸੀਂ ਅੰਗਰੇਜ਼ੀ ਪੜ੍ਹ ਲੈਂਦੇ ਹੋ?",
    "ko": "영어를 읽을 수 있나요?",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -3201,13 +3201,13 @@
    "where": "js (top level)"
   },
   "Yes, fluently": {
-   "t": "ਹਾਂ, ਚੰਗੀ ਤਰ੍ਹਾਂ",
+   "t": "ਹਾਂ, ਆਰਾਮ ਨਾਲ",
    "ko": "네, 술술 읽어요",
    "kind": "label",
    "where": "js box() <button>"
   },
   "What do you want Korean for?": {
-   "t": "ਤੁਹਾਨੂੰ ਕੋਰੀਆਈ ਕਿਸ ਲਈ ਚਾਹੀਦੀ ਹੈ?",
+   "t": "ਤੁਸੀਂ ਅੰਗਰੇਜ਼ੀ ਕਿਸ ਲਈ ਸਿੱਖਣਾ ਚਾਹੁੰਦੇ ਹੋ?",
    "ko": "영어를 왜 배우고 싶으세요?",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -3241,31 +3241,31 @@
    "where": "js (top level)"
   },
   "Set me up": {
-   "t": "ਤਿਆਰ ਕਰੋ",
+   "t": "ਸੈੱਟਅੱਪ ਕਰੋ",
    "ko": "이대로 시작할게요",
    "kind": "label",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Travel & getting around": {
-   "t": "ਸਫ਼ਰ ਅਤੇ ਘੁੰਮਣਾ-ਫਿਰਨਾ",
+   "t": "ਸਫ਼ਰ ਤੇ ਆਉਣਾ-ਜਾਣਾ",
    "ko": "여행 & 이동",
    "kind": "label",
    "where": "js GOALS()"
   },
   "Dating, friends & nights out": {
-   "t": "ਡੇਟਿੰਗ, ਦੋਸਤ ਅਤੇ ਰਾਤ ਦੀਆਂ ਮਹਿਫ਼ਲਾਂ",
+   "t": "ਡੇਟਿੰਗ, ਦੋਸਤ ਤੇ ਘੁੰਮਣਾ-ਫਿਰਨਾ",
    "ko": "데이트, 친구 & 밤 문화",
    "kind": "sentence",
    "where": "js GOALS()"
   },
   "K-dramas & music": {
-   "t": "ਕੇ-ਡਰਾਮੇ ਅਤੇ ਸੰਗੀਤ",
+   "t": "ਫ਼ਿਲਮਾਂ, ਸੀਰੀਜ਼ ਤੇ ਸੰਗੀਤ",
    "ko": "드라마 & 음악",
    "kind": "label",
    "where": "js GOALS()"
   },
   "Work & study": {
-   "t": "ਕੰਮ ਅਤੇ ਪੜ੍ਹਾਈ",
+   "t": "ਕੰਮ ਤੇ ਪੜ੍ਹਾਈ",
    "ko": "일 & 공부",
    "kind": "label",
    "where": "js GOALS()"
@@ -3278,37 +3278,37 @@
    "where": "js ov() <button>"
   },
   "One button, one session. Due reviews, new cards, a quick quiz and drills, mixed for you.": {
-   "t": "ਇੱਕ ਬਟਨ, ਇੱਕ ਸੈਸ਼ਨ। ਬਾਕੀ ਦੁਹਰਾਈਆਂ, ਨਵੇਂ ਕਾਰਡ, ਛੋਟਾ ਕੁਇਜ਼ ਅਤੇ ਡਰਿੱਲਾਂ, ਤੁਹਾਡੇ ਲਈ ਰਲਾ ਕੇ।",
+   "t": "ਇੱਕ ਬਟਨ, ਇੱਕ ਸੈਸ਼ਨ। ਦੁਹਰਾਉਣ ਵਾਲੇ ਕਾਰਡ, ਨਵੇਂ ਕਾਰਡ, ਇੱਕ ਛੋਟਾ ਟੈਸਟ ਤੇ ਡਰਿੱਲ — ਤੁਹਾਡੇ ਲਈ ਰਲਾ ਕੇ।",
    "ko": "버튼 하나로 학습 한 번. 복습할 카드, 새 카드, 빠른 퀴즈와 훈련을 알아서 섞어 드려요.",
    "kind": "sentence",
    "where": "js TOUR()"
   },
   "Learn 5 cards at a time, quiz them, then 5 more. Tests, weak spots, blitz and exams live here too.": {
-   "t": "ਇੱਕ ਵਾਰ ਵਿੱਚ 5 ਕਾਰਡ ਸਿੱਖੋ, ਉਹਨਾਂ ਦਾ ਕੁਇਜ਼ ਦਿਓ, ਫਿਰ 5 ਹੋਰ। ਟੈਸਟ, ਕਮਜ਼ੋਰੀਆਂ, ਬਲਿਟਜ਼ ਅਤੇ ਇਮਤਿਹਾਨ ਵੀ ਇੱਥੇ ਹਨ।",
+   "t": "ਇੱਕ ਵਾਰ ਵਿੱਚ 5 ਕਾਰਡ ਸਿੱਖੋ, ਉਹਨਾਂ ਦਾ ਟੈਸਟ ਦਿਓ, ਫਿਰ 5 ਹੋਰ। ਟੈਸਟ, ਕਮਜ਼ੋਰ ਥਾਵਾਂ, ਤੇਜ਼ ਰਾਊਂਡ ਤੇ ਇਮਤਿਹਾਨ ਵੀ ਇੱਥੇ ਹੀ ਹਨ।",
    "ko": "카드를 5장씩 배우고 퀴즈로 확인한 뒤 또 5장. 테스트, 약점 공략, 스피드 퀴즈, 시험도 여기 있어요.",
    "kind": "sentence",
    "where": "js TOUR()"
   },
   "Spaced repetition. \"All due\" across decks, swipe right for got it, left for again. Browse any deck as a list.": {
-   "t": "ਸਪੇਸਡ ਰਿਪੀਟੀਸ਼ਨ। ਸਾਰੇ ਡੈੱਕਾਂ ਵਿੱਚੋਂ \"ਸਾਰੇ ਦੁਹਰਾਓ\", ਯਾਦ ਹੈ ਲਈ ਸੱਜੇ ਸਵਾਈਪ, ਫਿਰ ਤੋਂ ਲਈ ਖੱਬੇ। ਕੋਈ ਵੀ ਡੈੱਕ ਸੂਚੀ ਵਜੋਂ ਬ੍ਰਾਊਜ਼ ਕਰੋ।",
+   "t": "ਵਕਫ਼ੇ ਨਾਲ ਦੁਹਰਾਈ। ਸਾਰੇ ਡੈੱਕਾਂ ਦੇ ਦੁਹਰਾਉਣ ਵਾਲੇ ਕਾਰਡ ਇਕੱਠੇ; \"ਆਉਂਦਾ ਹੈ\" ਲਈ ਸੱਜੇ ਸਵਾਈਪ ਕਰੋ, \"ਦੁਬਾਰਾ\" ਲਈ ਖੱਬੇ। ਕੋਈ ਵੀ ਡੈੱਕ ਸੂਚੀ ਵਾਂਗ ਬ੍ਰਾਊਜ਼ ਕਰੋ।",
    "ko": "간격 반복 복습이에요. 모든 덱의 \"복습할 카드 전부\"를 모아 보고, 오른쪽으로 밀면 알아요, 왼쪽은 다시. 덱을 목록으로 둘러볼 수도 있어요.",
    "kind": "sentence",
    "where": "js TOUR()"
   },
   "Reading, listening, sentence building, role-play, numbers, polite ↔ casual — pick a drill.": {
-   "t": "ਪੜ੍ਹਨਾ, ਸੁਣਨਾ, ਵਾਕ ਬਣਾਉਣਾ, ਰੋਲ-ਪਲੇ, ਗਿਣਤੀ, ਨਿਮਰ ↔ ਆਮ — ਕੋਈ ਡਰਿੱਲ ਚੁਣੋ।",
+   "t": "ਪੜ੍ਹਨਾ, ਸੁਣਨਾ, ਵਾਕ ਬਣਾਉਣਾ, ਰੋਲ-ਪਲੇ, ਗਿਣਤੀ, ਨਿਮਰ ↔ ਬੋਲਚਾਲ — ਕੋਈ ਡਰਿੱਲ ਚੁਣੋ।",
    "ko": "읽기, 듣기, 문장 만들기, 역할극, 숫자, 존댓말 ↔ 반말 — 훈련을 골라 보세요.",
    "kind": "sentence",
    "where": "js TOUR()"
   },
   "Streak, levels, forecasts, how you learn, backups and every setting.": {
-   "t": "ਸਟ੍ਰੀਕ, ਲੈਵਲ, ਅਨੁਮਾਨ, ਤੁਸੀਂ ਕਿਵੇਂ ਸਿੱਖਦੇ ਹੋ, ਬੈਕਅੱਪ ਅਤੇ ਸਾਰੀਆਂ ਸੈਟਿੰਗਾਂ।",
+   "t": "ਲੜੀ, ਲੈਵਲ, ਅਗਲੇ ਦਿਨਾਂ ਦਾ ਅੰਦਾਜ਼ਾ, ਸਿੱਖਣ ਦਾ ਢੰਗ, ਬੈਕਅੱਪ ਤੇ ਸਾਰੀਆਂ ਸੈਟਿੰਗਾਂ।",
    "ko": "연속 학습, 레벨, 복습 예측, 학습 패턴, 백업과 모든 설정이 있어요.",
    "kind": "sentence",
    "where": "js TOUR()"
   },
   "⚡ Blitz": {
-   "t": "⚡ ਬਲਿਟਜ਼",
+   "t": "⚡ ਤੇਜ਼ ਰਾਊਂਡ",
    "ko": "⚡ 스피드 퀴즈",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3322,14 +3322,14 @@
    "where": "html <button> text"
   },
   "⌨️ Type": {
-   "t": "⌨️ ਟਾਈਪ",
+   "t": "⌨️ ਲਿਖੋ",
    "ko": "⌨️ 입력",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <button> text"
   },
   "🎚️ Polite↔casual": {
-   "t": "🎚️ ਨਿਮਰ↔ਆਮ",
+   "t": "🎚️ ਨਿਮਰ↔ਬੋਲਚਾਲ",
    "ko": "🎚️ 존댓말↔반말",
    "kind": "label",
    "where": "js QUICK()"
@@ -3348,7 +3348,7 @@
    "where": "js sh() <input> @placeholder"
   },
   "Type to search. ↑↓ to move, Enter to open, Esc to close.": {
-   "t": "ਖੋਜਣ ਲਈ ਟਾਈਪ ਕਰੋ। ↑↓ ਨਾਲ ਚੁਣੋ, Enter ਨਾਲ ਖੋਲ੍ਹੋ, Esc ਨਾਲ ਬੰਦ ਕਰੋ।",
+   "t": "ਖੋਜਣ ਲਈ ਟਾਈਪ ਕਰੋ। ↑↓ ਨਾਲ ਚੱਲੋ, Enter ਨਾਲ ਖੋਲ੍ਹੋ, Esc ਨਾਲ ਬੰਦ ਕਰੋ।",
    "ko": "입력해서 검색하세요. ↑↓ 이동, Enter 열기, Esc 닫기.",
    "kind": "sentence",
    "where": "js sh() <p>"
@@ -3367,7 +3367,7 @@
    "where": "js GROUPS()"
   },
   "Drills": {
-   "t": "ਡਰਿੱਲਾਂ",
+   "t": "ਡਰਿੱਲ",
    "ko": "훈련",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3398,7 +3398,7 @@
    "where": "js STR()"
   },
   "Actions": {
-   "t": "ਕਾਰਵਾਈਆਂ",
+   "t": "ਕਮਾਂਡ",
    "ko": "실행",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3425,7 +3425,7 @@
    "where": "js un() <span>"
   },
   "🔓 Unlock all lessons & decks": {
-   "t": "🔓 ਸਾਰੇ ਪਾਠ ਅਤੇ ਡੈੱਕ ਅਨਲੌਕ ਕਰੋ",
+   "t": "🔓 ਸਾਰੇ ਪਾਠ ਤੇ ਡੈੱਕ ਅਨਲਾਕ ਕਰੋ",
    "ko": "🔓 모든 레슨과 덱 열기",
    "kind": "sentence",
    "where": "js tmp() <button>"
@@ -3438,13 +3438,13 @@
    "where": "js b() <p>"
   },
   "(lesson already done)": {
-   "t": "(ਪਾਠ ਪਹਿਲਾਂ ਹੀ ਪੂਰਾ)",
+   "t": "(ਪਾਠ ਪਹਿਲਾਂ ਹੀ ਪੂਰਾ ਹੈ)",
    "ko": "(이미 끝낸 레슨)",
    "kind": "label",
    "where": "js b()"
   },
   "· lesson counts as done when both are passed (+25 XP)": {
-   "t": "· ਦੋਵੇਂ ਪਾਸ ਹੋਣ 'ਤੇ ਪਾਠ ਪੂਰਾ ਗਿਣਿਆ ਜਾਂਦਾ ਹੈ (+25 XP)",
+   "t": "· ਦੋਵੇਂ ਪਾਸ ਹੋਣ ਨਾਲ ਪਾਠ ਪੂਰਾ ਗਿਣਿਆ ਜਾਂਦਾ ਹੈ (+25 XP)",
    "ko": "· 둘 다 통과하면 레슨 완료 (+25 XP)",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -3457,26 +3457,26 @@
    "where": "js b() <button>"
   },
   "Quick check": {
-   "t": "ਛੋਟੀ ਜਾਂਚ",
+   "t": "ਮਿੰਨੀ-ਟੈਸਟ",
    "ko": "확인 문제",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js STR()"
   },
   "Then 5 cards from": {
-   "t": "ਫਿਰ ਇਸ ਡੈੱਕ ਵਿੱਚੋਂ 5 ਕਾਰਡ:",
+   "t": "ਫਿਰ 5 ਕਾਰਡ ਇਸ ਡੈੱਕ ਤੋਂ:",
    "ko": "그다음 카드 5장:",
    "kind": "label",
    "where": "js b() <p>"
   },
   "Mini drill: 5 cards": {
-   "t": "ਮਿਨੀ ਡਰਿੱਲ: 5 ਕਾਰਡ",
+   "t": "ਮਿੰਨੀ ਡਰਿੱਲ: 5 ਕਾਰਡ",
    "ko": "미니 훈련: 카드 5장",
    "kind": "label",
    "where": "js STR()"
   },
   "· need 2 of 3": {
-   "t": "· 3 ਵਿੱਚੋਂ 2 ਚਾਹੀਦੇ",
+   "t": "· 3 ਵਿੱਚੋਂ 2 ਚਾਹੀਦੇ ਹਨ",
    "ko": "· 3문제 중 2문제를 맞혀야 해요",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -3490,7 +3490,7 @@
    "where": "js ok() <b>"
   },
   "Redo": {
-   "t": "ਦੁਬਾਰਾ ਕਰੋ",
+   "t": "ਦੁਬਾਰਾ",
    "ko": "다시 하기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -3510,7 +3510,7 @@
    "where": "js step() <div>"
   },
   "· now pass the quick check above": {
-   "t": "· ਹੁਣ ਉੱਪਰ ਵਾਲੀ ਛੋਟੀ ਜਾਂਚ ਪਾਸ ਕਰੋ",
+   "t": "· ਹੁਣ ਉੱਪਰਲਾ ਮਿੰਨੀ-ਟੈਸਟ ਪਾਸ ਕਰੋ",
    "ko": "· 이제 위의 확인 문제를 통과하세요",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -3530,27 +3530,27 @@
    "where": "js step() <a>"
   },
   "Enter a dictionary form ending in 다.": {
-   "t": "다 ਨਾਲ ਖ਼ਤਮ ਹੋਣ ਵਾਲਾ ਡਿਕਸ਼ਨਰੀ ਰੂਪ ਭਰੋ।",
+   "t": "ਕਿਰਿਆ ਦਾ ਮੂਲ ਰੂਪ (V1) ਲਿਖੋ, ਜਿਵੇਂ go।",
    "ko": "다로 끝나는 기본형을 입력하세요.",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js r() <p>"
   },
   "polite present": {
-   "t": "ਨਿਮਰ ਵਰਤਮਾਨ",
+   "t": "ਨਿਮਰ Present",
    "ko": "존댓말 현재",
    "kind": "label",
    "where": "js PATTERNS()"
   },
   "polite past": {
-   "t": "ਨਿਮਰ ਭੂਤਕਾਲ",
+   "t": "ਨਿਮਰ Past",
    "ko": "존댓말 과거",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js PATTERNS()"
   },
   "shall we?": {
-   "t": "ਕਰੀਏ?",
+   "t": "ਕੀ ਅਸੀਂ…?",
    "ko": "~할까요?",
    "kind": "sentence",
    "where": "js (top level)"
@@ -3575,34 +3575,34 @@
    "where": "js l() <p>"
   },
   "dictionary form, e.g. 먹다": {
-   "t": "ਡਿਕਸ਼ਨਰੀ ਰੂਪ, ਜਿਵੇਂ 먹다",
+   "t": "ਮੂਲ ਰੂਪ (V1), ਜਿਵੇਂ eat",
    "ko": "기본형, 예: 먹다",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js rows() <input> @placeholder"
   },
   "Search a pattern, e.g. 에서 or 'want'": {
-   "t": "ਪੈਟਰਨ ਖੋਜੋ, ਜਿਵੇਂ 에서 ਜਾਂ 'ਚਾਹੁਣਾ'",
+   "t": "ਪੈਟਰਨ ਖੋਜੋ, ਜਿਵੇਂ at ਜਾਂ 'want'",
    "ko": "패턴 검색, 예: 에서 또는 '원하다'",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js rows() <input> @placeholder"
   },
   "Conjugate": {
-   "t": "ਰੂਪ ਬਣਾਓ",
+   "t": "ਰੂਪ ਦਿਖਾਓ",
    "ko": "활용하기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js rows() <button>"
   },
   "Words from dialogues": {
-   "t": "ਗੱਲਬਾਤਾਂ ਵਿੱਚੋਂ ਸ਼ਬਦ",
+   "t": "ਗੱਲਬਾਤ ਵਿੱਚੋਂ ਸ਼ਬਦ",
    "ko": "대화에 나온 단어",
    "kind": "label",
    "where": "js rows() <b>"
   },
   "· vocabulary that appears in dialogues but has no card yet": {
-   "t": "· ਉਹ ਸ਼ਬਦ ਜੋ ਗੱਲਬਾਤਾਂ ਵਿੱਚ ਆਉਂਦੇ ਹਨ ਪਰ ਅਜੇ ਉਹਨਾਂ ਦਾ ਕਾਰਡ ਨਹੀਂ",
+   "t": "· ਉਹ ਸ਼ਬਦ ਜੋ ਗੱਲਬਾਤ ਵਿੱਚ ਆਉਂਦੇ ਹਨ ਪਰ ਜਿਨ੍ਹਾਂ ਦਾ ਅਜੇ ਕਾਰਡ ਨਹੀਂ ਹੈ",
    "ko": "· 대화에는 나오지만 아직 카드가 없는 단어",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -3616,14 +3616,14 @@
    "where": "js rows() <button>"
   },
   "Try 가다 · 먹다 · 하다 · 마시다 · 예쁘다 · 듣다 · 돕다 · 살다 · 모르다": {
-   "t": "ਅਜ਼ਮਾਓ 가다 · 먹다 · 하다 · 마시다 · 예쁘다 · 듣다 · 돕다 · 살다 · 모르다",
+   "t": "ਅਜ਼ਮਾਓ: go · eat · do · drink · see · hear · help · live · know",
    "ko": "가다 · 먹다 · 하다 · 마시다 · 예쁘다 · 듣다 · 돕다 · 살다 · 모르다 를 넣어 보세요",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js rows() <p>"
   },
   "(question word)": {
-   "t": "(ਸਵਾਲੀਆ ਸ਼ਬਦ)",
+   "t": "(wh-ਸ਼ਬਦ)",
    "ko": "(의문사)",
    "kind": "label",
    "where": "js toks()"
@@ -3649,56 +3649,56 @@
    "where": "js stem()"
   },
   "number": {
-   "t": "ਗਿਣਤੀ",
+   "t": "ਸੰਖਿਆ",
    "ko": "숫자",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <button> text"
   },
   "verb stem + 지": {
-   "t": "ਕਿਰਿਆ ਦਾ ਸਟੈਮ + 지",
+   "t": "ਕਿਰਿਆ + ਪਿਛੇਤਰ",
    "ko": "동사 어간 + 지",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js toks()"
   },
   "verb + 도 (even if)": {
-   "t": "ਕਿਰਿਆ + 도 (ਭਾਵੇਂ)",
+   "t": "ਕਿਰਿਆ + \"ਭਾਵੇਂ\"",
    "ko": "동사 + 도 (~해도)",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js toks()"
   },
   "+ 요 (polite)": {
-   "t": "+ 요 (ਨਿਮਰ)",
+   "t": "+ ਨਿਮਰ ਰੂਪ",
    "ko": "+ 요 (존댓말)",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js stem()"
   },
   "verb · past (았/었어요)": {
-   "t": "ਕਿਰਿਆ · ਭੂਤਕਾਲ (았/었어요)",
+   "t": "ਕਿਰਿਆ · Past",
    "ko": "동사 · 과거 (았/었어요)",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js stem()"
   },
   "don't (지 마)": {
-   "t": "ਨਾ ਕਰ (지 마)",
+   "t": "ਨਾ ਕਰੋ (ਮਨਾਹੀ)",
    "ko": "~하지 마 (지 마)",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js toks()"
   },
   "is it okay? (-아/어도 돼요)": {
-   "t": "ਕੀ ਠੀਕ ਹੈ? (-아/어도 돼요)",
+   "t": "ਕੀ ਠੀਕ ਹੈ…?",
    "ko": "~해도 돼요? (-아/어도 돼요)",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "js toks()"
   },
   "not okay? (-(으)면 안 돼요)": {
-   "t": "ਠੀਕ ਨਹੀਂ? (-(으)면 안 돼요)",
+   "t": "ਕੀ ਠੀਕ ਨਹੀਂ…?",
    "ko": "~하면 안 돼요? (-(으)면 안 돼요)",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
@@ -3712,62 +3712,62 @@
    "where": "js li()"
   },
   "Su": {
-   "t": "ਐਤ",
+   "t": "ਐ",
    "ko": "일",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js (top level)"
   },
   "Mo": {
-   "t": "ਸੋਮ",
+   "t": "ਸੋ",
    "ko": "월",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js (top level) <link>"
   },
   "Tu": {
-   "t": "ਮੰਗਲ",
+   "t": "ਮੰ",
    "ko": "화",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js (top level)"
   },
   "We": {
-   "t": "ਬੁੱਧ",
+   "t": "ਬੁੱ",
    "ko": "수",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "html <button> text"
   },
   "Th": {
-   "t": "ਵੀਰ",
+   "t": "ਵੀ",
    "ko": "목",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js (top level)"
   },
   "Fr": {
-   "t": "ਸ਼ੁੱਕਰ",
+   "t": "ਸ਼ੁੱ",
    "ko": "금",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js (top level)"
   },
   "Sa": {
-   "t": "ਸ਼ਨੀ",
+   "t": "ਸ਼",
    "ko": "토",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js (top level) <link>"
   },
   "Review a few cards and this fills in: retention by box, speed, and your best hour.": {
-   "t": "ਕੁਝ ਕਾਰਡ ਦੁਹਰਾਓ ਅਤੇ ਇਹ ਭਰ ਜਾਵੇਗਾ: ਬਾਕਸ ਮੁਤਾਬਕ ਯਾਦਦਾਸ਼ਤ, ਰਫ਼ਤਾਰ, ਅਤੇ ਤੁਹਾਡਾ ਸਭ ਤੋਂ ਵਧੀਆ ਘੰਟਾ।",
+   "t": "ਕੁਝ ਕਾਰਡ ਦੁਹਰਾਓ, ਤਾਂ ਇਹ ਭਰ ਜਾਵੇਗਾ: ਬਾਕਸ ਮੁਤਾਬਕ ਯਾਦਦਾਸ਼ਤ, ਰਫ਼ਤਾਰ ਤੇ ਤੁਹਾਡਾ ਸਭ ਤੋਂ ਵਧੀਆ ਘੰਟਾ।",
    "ko": "카드를 몇 장 복습하면 여기에 상자별 기억률, 속도, 가장 잘되는 시간이 채워져요.",
    "kind": "sentence",
    "where": "js el() <p>"
   },
   "Retention when a card comes back from each box. Higher boxes should stay high; a dip means the interval there is too long for you.": {
-   "t": "ਹਰ ਬਾਕਸ ਤੋਂ ਕਾਰਡ ਵਾਪਸ ਆਉਣ 'ਤੇ ਕਿੰਨਾ ਯਾਦ ਰਿਹਾ। ਉੱਚੇ ਬਾਕਸ ਉੱਚੇ ਰਹਿਣੇ ਚਾਹੀਦੇ ਹਨ; ਗਿਰਾਵਟ ਦਾ ਮਤਲਬ ਹੈ ਕਿ ਉੱਥੇ ਅੰਤਰਾਲ ਤੁਹਾਡੇ ਲਈ ਬਹੁਤ ਲੰਮਾ ਹੈ।",
+   "t": "ਹਰ ਬਾਕਸ ਤੋਂ ਕਾਰਡ ਮੁੜਨ ਵੇਲੇ ਕਿੰਨਾ ਯਾਦ ਰਿਹਾ। ਉੱਚੇ ਬਾਕਸਾਂ ਵਿੱਚ ਇਹ ਉੱਚਾ ਰਹਿਣਾ ਚਾਹੀਦਾ ਹੈ; ਗਿਰਾਵਟ ਦਾ ਮਤਲਬ ਹੈ ਕਿ ਉੱਥੇ ਵਕਫ਼ਾ ਤੁਹਾਡੇ ਲਈ ਬਹੁਤ ਲੰਮਾ ਹੈ।",
    "ko": "각 상자에서 카드가 돌아왔을 때의 기억률이에요. 높은 상자일수록 높게 유지돼야 하고, 떨어진다면 그 상자의 간격이 나에게 너무 길다는 뜻이에요.",
    "kind": "sentence",
    "where": "js overall() <p>"
@@ -3780,7 +3780,7 @@
    "where": "js (top level)"
   },
   "Finish a deck of the week to earn one.": {
-   "t": "ਇੱਕ ਕਮਾਉਣ ਲਈ ਹਫ਼ਤੇ ਦਾ ਡੈੱਕ ਪੂਰਾ ਕਰੋ।",
+   "t": "ਬੈਜ ਲੈਣ ਲਈ ਇਸ ਹਫ਼ਤੇ ਦਾ ਡੈੱਕ ਪੂਰਾ ਕਰੋ।",
    "ko": "이번 주의 덱을 끝내면 받을 수 있어요.",
    "kind": "sentence",
    "where": "js ws() <p>"
@@ -3793,7 +3793,7 @@
    "where": "js c() <button>"
   },
   "🩹 leech · re-enable": {
-   "t": "🩹 ਲੀਚ · ਫਿਰ ਚਾਲੂ ਕਰੋ",
+   "t": "🩹 ਅੜਿਆ ਕਾਰਡ · ਦੁਬਾਰਾ ਚਾਲੂ ਕਰੋ",
    "ko": "🩹 거머리 카드 · 다시 켜기",
    "kind": "label",
    "where": "js c() <button>"
@@ -3805,7 +3805,7 @@
    "where": "js c() <button>"
   },
   "Nothing missed yet.": {
-   "t": "ਅਜੇ ਕੁਝ ਗ਼ਲਤ ਨਹੀਂ ਹੋਇਆ।",
+   "t": "ਅਜੇ ਕੋਈ ਗ਼ਲਤੀ ਨਹੀਂ।",
    "ko": "아직 틀린 카드가 없어요.",
    "kind": "sentence",
    "where": "js c() <p>"
@@ -3818,7 +3818,7 @@
    "where": "html <h3> text"
   },
   "No quizzes yet.": {
-   "t": "ਅਜੇ ਕੋਈ ਕੁਇਜ਼ ਨਹੀਂ।",
+   "t": "ਅਜੇ ਕੋਈ ਟੈਸਟ ਨਹੀਂ।",
    "ko": "아직 푼 퀴즈가 없어요.",
    "kind": "sentence",
    "where": "js p() <p>"
@@ -3830,7 +3830,7 @@
    "where": "js ta()"
   },
   "Copy the text above.": {
-   "t": "ਉੱਪਰ ਵਾਲਾ ਟੈਕਸਟ ਕਾਪੀ ਕਰੋ।",
+   "t": "ਉੱਪਰਲਾ ਟੈਕਸਟ ਕਾਪੀ ਕਰੋ।",
    "ko": "위의 텍스트를 복사하세요.",
    "kind": "sentence",
    "where": "js ta()"
@@ -3842,13 +3842,13 @@
    "where": "js obj()"
   },
   "Intervals reset.": {
-   "t": "ਅੰਤਰਾਲ ਰੀਸੈੱਟ ਹੋ ਗਏ।",
+   "t": "ਵਕਫ਼ੇ ਰੀਸੈੱਟ ਹੋ ਗਏ।",
    "ko": "복습 간격을 초기화했어요.",
    "kind": "sentence",
    "where": "js applyZoom()"
   },
   "Decks start shuffled": {
-   "t": "ਡੈੱਕ ਸ਼ਫ਼ਲ ਹੋ ਕੇ ਸ਼ੁਰੂ",
+   "t": "ਡੈੱਕ ਸ਼ਫ਼ਲ ਹੋ ਕੇ ਸ਼ੁਰੂ ਹੁੰਦੇ ਹਨ",
    "ko": "덱을 섞어서 시작해요",
    "kind": "label",
    "where": "js applyZoom()"
@@ -3866,7 +3866,7 @@
    "where": "js vs()"
   },
   "Tap again to confirm": {
-   "t": "ਪੱਕਾ ਕਰਨ ਲਈ ਫਿਰ ਟੈਪ ਕਰੋ",
+   "t": "ਪੱਕਾ ਕਰਨ ਲਈ ਦੁਬਾਰਾ ਟੈਪ ਕਰੋ",
    "ko": "한 번 더 누르면 실행돼요",
    "kind": "label",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -3886,32 +3886,32 @@
    "where": "js b()"
   },
   "Could not save here. Long-press the image instead.": {
-   "t": "ਇੱਥੇ ਸੇਵ ਨਹੀਂ ਹੋ ਸਕਿਆ। ਇਸ ਦੀ ਬਜਾਏ ਤਸਵੀਰ ਨੂੰ ਦਬਾ ਕੇ ਰੱਖੋ।",
+   "t": "ਇੱਥੇ ਸੇਵ ਨਹੀਂ ਹੋ ਸਕਿਆ। ਇਸ ਦੀ ਥਾਂ ਤਸਵੀਰ ਨੂੰ ਦੇਰ ਤੱਕ ਦਬਾਓ।",
    "ko": "여기서는 저장할 수 없어요. 대신 이미지를 길게 누르세요.",
    "kind": "sentence",
    "where": "js b()"
   },
   "Long-press / right-click the image to share it.": {
-   "t": "ਸ਼ੇਅਰ ਕਰਨ ਲਈ ਤਸਵੀਰ ਨੂੰ ਦਬਾ ਕੇ ਰੱਖੋ / ਰਾਈਟ-ਕਲਿੱਕ ਕਰੋ।",
+   "t": "ਸ਼ੇਅਰ ਕਰਨ ਲਈ ਤਸਵੀਰ ਨੂੰ ਦੇਰ ਤੱਕ ਦਬਾਓ / ਰਾਈਟ-ਕਲਿੱਕ ਕਰੋ।",
    "ko": "이미지를 길게 누르거나 오른쪽 클릭해서 공유하세요.",
    "kind": "sentence",
    "where": "js a()"
   },
   "Streak card": {
-   "t": "ਸਟ੍ਰੀਕ ਕਾਰਡ",
+   "t": "ਲੜੀ ਕਾਰਡ",
    "ko": "연속 학습 카드",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js img()"
   },
   "Or long-press / right-click the image to share it.": {
-   "t": "ਜਾਂ ਸ਼ੇਅਰ ਕਰਨ ਲਈ ਤਸਵੀਰ ਨੂੰ ਦਬਾ ਕੇ ਰੱਖੋ / ਰਾਈਟ-ਕਲਿੱਕ ਕਰੋ।",
+   "t": "ਜਾਂ ਸ਼ੇਅਰ ਕਰਨ ਲਈ ਤਸਵੀਰ ਨੂੰ ਦੇਰ ਤੱਕ ਦਬਾਓ / ਰਾਈਟ-ਕਲਿੱਕ ਕਰੋ।",
    "ko": "또는 이미지를 길게 누르거나 오른쪽 클릭해서 공유하세요.",
    "kind": "sentence",
    "where": "js a()"
   },
   "Long-press or right-click the image to save or share it.": {
-   "t": "ਸੇਵ ਜਾਂ ਸ਼ੇਅਰ ਕਰਨ ਲਈ ਤਸਵੀਰ ਨੂੰ ਦਬਾ ਕੇ ਰੱਖੋ ਜਾਂ ਰਾਈਟ-ਕਲਿੱਕ ਕਰੋ।",
+   "t": "ਸੇਵ ਜਾਂ ਸ਼ੇਅਰ ਕਰਨ ਲਈ ਤਸਵੀਰ ਨੂੰ ਦੇਰ ਤੱਕ ਦਬਾਓ ਜਾਂ ਰਾਈਟ-ਕਲਿੱਕ ਕਰੋ।",
    "ko": "이미지를 길게 누르거나 오른쪽 클릭해서 저장하거나 공유하세요.",
    "kind": "sentence",
    "where": "js a()"
@@ -3929,35 +3929,35 @@
    "where": "js file()"
   },
   "Accent red": {
-   "t": "ਲਾਲ ਰੰਗ",
+   "t": "ਥੀਮ ਲਾਲ",
    "ko": "강조 색상: 빨강",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Accent green": {
-   "t": "ਹਰਾ ਰੰਗ",
+   "t": "ਥੀਮ ਹਰਾ",
    "ko": "강조 색상: 초록",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Accent blue": {
-   "t": "ਨੀਲਾ ਰੰਗ",
+   "t": "ਥੀਮ ਨੀਲਾ",
    "ko": "강조 색상: 파랑",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Accent plum": {
-   "t": "ਜਾਮਣੀ ਰੰਗ",
+   "t": "ਥੀਮ ਜਾਮਨੀ",
    "ko": "강조 색상: 자주",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "DAY STREAK": {
-   "t": "ਦਿਨਾਂ ਦੀ ਸਟ੍ਰੀਕ",
+   "t": "ਲਗਾਤਾਰ ਦਿਨ",
    "ko": "일 연속 학습",
    "kind": "canvas",
    "context": "drawn on a canvas image (share card / certificate), uppercase in English; keep short",
@@ -3978,7 +3978,7 @@
    "where": "js bl()"
   },
   "QUIZ": {
-   "t": "ਕੁਇਜ਼",
+   "t": "ਟੈਸਟ",
    "ko": "퀴즈",
    "kind": "canvas",
    "context": "drawn on a canvas image (share card / certificate), uppercase in English; keep short",
@@ -3992,28 +3992,28 @@
    "where": "js stats()"
   },
   "STREAK": {
-   "t": "ਸਟ੍ਰੀਕ",
+   "t": "ਲੜੀ",
    "ko": "연속 학습",
    "kind": "canvas",
    "context": "drawn on a canvas image (share card / certificate), uppercase in English; keep short",
    "where": "js stats()"
   },
   "CERTIFICATE OF COMPLETION": {
-   "t": "ਪੂਰਾ ਕਰਨ ਦਾ ਸਰਟੀਫ਼ਿਕੇਟ",
+   "t": "ਕੋਰਸ ਪੂਰਾ ਕਰਨ ਦਾ ਸਰਟੀਫ਼ਿਕੇਟ",
    "ko": "수료증",
    "kind": "canvas",
    "context": "drawn on a canvas image (share card / certificate), uppercase in English; keep short",
    "where": "js x()"
   },
   "KOREAN STARTER": {
-   "t": "ਕੋਰੀਆਈ ਦੀ ਸ਼ੁਰੂਆਤ",
+   "t": "ਅੰਗਰੇਜ਼ੀ ਦੀ ਸ਼ੁਰੂਆਤ",
    "ko": "영어 첫걸음",
    "kind": "canvas",
    "context": "drawn on a canvas image (share card / certificate), uppercase in English; keep short; legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "js cards()"
   },
   "cards mastered to 80%+ · all lesson checks passed": {
-   "t": "ਕਾਰਡ 80%+ ਤੱਕ ਪੱਕੇ · ਪਾਠਾਂ ਦੀਆਂ ਸਾਰੀਆਂ ਜਾਂਚਾਂ ਪਾਸ",
+   "t": "80%+ ਤੱਕ ਪੱਕੇ ਕਾਰਡ · ਸਾਰੇ ਮਿੰਨੀ-ਟੈਸਟ ਪਾਸ",
    "ko": "카드 80% 이상 마스터 · 레슨 확인 문제 모두 통과",
    "kind": "sentence",
    "where": "js cards()"
@@ -4026,7 +4026,7 @@
    "where": "html <h3> text"
   },
   "Sprout": {
-   "t": "ਪੁੰਗਰ",
+   "t": "ਕਰੂੰਬਲ",
    "ko": "새싹",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4047,7 +4047,7 @@
    "where": "js (top level)"
   },
   "Pro": {
-   "t": "ਪ੍ਰੋ",
+   "t": "ਮਾਹਰ",
    "ko": "고수",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4061,14 +4061,14 @@
    "where": "js TITLES()"
   },
   "Sensei": {
-   "t": "ਸੇਨਸੇਈ",
+   "t": "ਮਹਾਰਥੀ",
    "ko": "사범",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js TITLES()"
   },
   "Beginner": {
-   "t": "ਸਿਖਾਂਦਰੂ",
+   "t": "ਸ਼ੁਰੂਆਤੀ",
    "ko": "입문",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4082,7 +4082,7 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Traveler": {
-   "t": "ਮੁਸਾਫ਼ਿਰ",
+   "t": "ਮੁਸਾਫ਼ਰ",
    "ko": "여행자",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4096,14 +4096,14 @@
    "where": "js v()"
   },
   "Learn Korean, 5 minutes a day": {
-   "t": "ਕੋਰੀਆਈ ਸਿੱਖੋ, ਰੋਜ਼ 5 ਮਿੰਟ",
+   "t": "ਅੰਗਰੇਜ਼ੀ — ਰੋਜ਼ 5 ਮਿੰਟ",
    "ko": "하루 5분, 영어 공부",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "js sub()"
   },
   "목표 달성! Daily goal reached 🎉": {
-   "t": "목표 달성! ਰੋਜ਼ ਦਾ ਟੀਚਾ ਪੂਰਾ 🎉",
+   "t": "ਰੋਜ਼ ਦਾ ਟੀਚਾ ਪੂਰਾ! 🎉",
    "ko": "목표 달성! 오늘 목표를 채웠어요 🎉",
    "kind": "sentence",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
@@ -4117,14 +4117,14 @@
    "where": "js days()"
   },
   "= Got it  ·": {
-   "t": "= ਯਾਦ ਹੈ  ·",
+   "t": "= ਆਉਂਦਾ ਹੈ  ·",
    "ko": "= 알아요  ·",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Korean progress": {
-   "t": "ਕੋਰੀਆਈ ਵਿੱਚ ਤਰੱਕੀ",
+   "t": "ਅੰਗਰੇਜ਼ੀ ਦੀ ਤਰੱਕੀ",
    "ko": "영어 학습 진도",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -4150,37 +4150,37 @@
    "where": "js PAUSE_EXTRA()"
   },
   "Learning…": {
-   "t": "ਸਿੱਖਣਾ ਜਾਰੀ…",
+   "t": "ਸਿੱਖਣਾ ਜਾਰੀ ਹੈ…",
    "ko": "학습 중…",
    "kind": "sentence",
    "where": "js PAUSE_EXTRA()"
   },
   "You've got this!": {
-   "t": "ਤੁਸੀਂ ਕਰ ਸਕਦੇ ਹੋ!",
+   "t": "ਤੁਸੀਂ ਕਰ ਲਵੋਗੇ!",
    "ko": "할 수 있어요!",
    "kind": "sentence",
    "where": "js PAUSE_EXTRA()"
   },
   "You're doing great": {
-   "t": "ਬਹੁਤ ਵਧੀਆ ਚੱਲ ਰਿਹਾ ਹੈ",
+   "t": "ਤੁਸੀਂ ਬਹੁਤ ਵਧੀਆ ਕਰ ਰਹੇ ਹੋ",
    "ko": "정말 잘하고 있어요",
    "kind": "label",
    "where": "js PAUSE_EXTRA()"
   },
   "Take your time": {
-   "t": "ਆਰਾਮ ਨਾਲ",
+   "t": "ਆਰਾਮ ਨਾਲ ਕਰੋ",
    "ko": "천천히 해도 돼요",
    "kind": "label",
    "where": "js PAUSE_EXTRA()"
   },
   "Tap to start again": {
-   "t": "ਫਿਰ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ",
+   "t": "ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ",
    "ko": "탭해서 다시 시작",
    "kind": "label",
    "where": "js PAUSE_EXTRA()"
   },
   "사자성어 · four-character idiom": {
-   "t": "사자성어 · ਚਾਰ ਅੱਖਰਾਂ ਵਾਲਾ ਮੁਹਾਵਰਾ",
+   "t": "ਮੁਹਾਵਰਾ",
    "ko": "사자성어 · 네 글자 관용구",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
@@ -4207,7 +4207,7 @@
    "where": "js x()"
   },
   "it's late, good work": {
-   "t": "ਦੇਰ ਹੋ ਗਈ, ਸ਼ਾਬਾਸ਼",
+   "t": "ਦੇਰ ਹੋ ਗਈ, ਵਧੀਆ ਕੰਮ",
    "ko": "늦었네요, 수고했어요",
    "kind": "label",
    "where": "js x()"
@@ -4220,7 +4220,7 @@
    "where": "js tx()"
   },
   "Study time": {
-   "t": "ਪੜ੍ਹਨ ਦਾ ਸਮਾਂ",
+   "t": "ਪੜ੍ਹਾਈ ਦਾ ਸਮਾਂ",
    "ko": "공부 시간",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4241,21 +4241,21 @@
    "where": "js STR()"
   },
   "Unlock all": {
-   "t": "ਸਭ ਅਨਲੌਕ ਕਰੋ",
+   "t": "ਸਭ ਅਨਲਾਕ ਕਰੋ",
    "ko": "모두 열기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js STR()"
   },
   "Auto-flip": {
-   "t": "ਆਪੇ ਪਲਟੇ",
+   "t": "ਆਪਣੇ ਆਪ ਪਲਟੇ",
    "ko": "자동 뒤집기",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
    "where": "js STR()"
   },
   "Hide romanization": {
-   "t": "ਰੋਮਨ ਲੁਕਾਓ",
+   "t": "ਉਚਾਰਨ ਲੁਕਾਓ",
    "ko": "발음 표기 숨기기",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -4313,7 +4313,7 @@
    "where": "html <button> @aria-label"
   },
   "Pronunciation hint": {
-   "t": "ਉਚਾਰਨ ਸੰਕੇਤ",
+   "t": "ਉਚਾਰਨ",
    "ko": "발음 힌트",
    "kind": "label",
    "where": "js ENGINE_I18N()"
@@ -4337,14 +4337,14 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Aa romanization: on": {
-   "t": "Aa ਰੋਮਨ: ਚਾਲੂ",
+   "t": "Aa ਉਚਾਰਨ: ਚਾਲੂ",
    "ko": "Aa 발음 표기: 켜짐",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Aa romanization: off": {
-   "t": "Aa ਰੋਮਨ: ਬੰਦ",
+   "t": "Aa ਉਚਾਰਨ: ਬੰਦ",
    "ko": "Aa 발음 표기: 꺼짐",
    "kind": "label",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -4393,7 +4393,7 @@
    "where": "js register()"
   },
   "Pronunciation hint (auto if blank)": {
-   "t": "ਉਚਾਰਨ ਸੰਕੇਤ (ਖ਼ਾਲੀ ਹੋਵੇ ਤਾਂ ਆਪਣੇ ਆਪ)",
+   "t": "ਉਚਾਰਨ (ਖ਼ਾਲੀ ਛੱਡੋ ਤਾਂ ਆਪਣੇ ਆਪ)",
    "ko": "발음 힌트 (비워 두면 자동)",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -4405,25 +4405,25 @@
    "where": "js ENGINE_I18N()"
   },
   "Type the English": {
-   "t": "ਅੰਗਰੇਜ਼ੀ ਟਾਈਪ ਕਰੋ",
+   "t": "ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਲਿਖੋ",
    "ko": "영어로 입력하세요",
    "kind": "label",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "type it in English": {
-   "t": "ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਟਾਈਪ ਕਰੋ",
+   "t": "ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਲਿਖੋ",
    "ko": "영어로 입력하세요",
    "kind": "label",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Learn English, 5 minutes a day": {
-   "t": "ਅੰਗਰੇਜ਼ੀ ਸਿੱਖੋ, ਰੋਜ਼ 5 ਮਿੰਟ",
+   "t": "ਅੰਗਰੇਜ਼ੀ — ਰੋਜ਼ 5 ਮਿੰਟ",
    "ko": "하루 5분, 영어 공부",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Learning English 5 minutes a day with Lang App 🇺🇸": {
-   "t": "Lang App ਨਾਲ ਰੋਜ਼ 5 ਮਿੰਟ ਵਿੱਚ ਅੰਗਰੇਜ਼ੀ ਸਿੱਖਣਾ 🇺🇸",
+   "t": "ਅੰਗਰੇਜ਼ੀ — ਰੋਜ਼ 5 ਮਿੰਟ, Lang App ਨਾਲ 🇺🇸",
    "ko": "Lang App으로 하루 5분 영어 공부 중 🇺🇸",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -4450,7 +4450,7 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "#social": {
-   "t": "#ਮੇਲ-ਜੋਲ",
+   "t": "#ਮੇਲਜੋਲ",
    "ko": "#친구·사교",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4478,14 +4478,14 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "· lesson counts as done when both are passed (+25 XP).": {
-   "t": "· ਦੋਵੇਂ ਪਾਸ ਹੋਣ 'ਤੇ ਪਾਠ ਪੂਰਾ ਗਿਣਿਆ ਜਾਂਦਾ ਹੈ (+25 XP)।",
+   "t": "· ਦੋਵੇਂ ਪਾਸ ਹੋਣ ਨਾਲ ਪਾਠ ਪੂਰਾ ਗਿਣਿਆ ਜਾਂਦਾ ਹੈ (+25 XP)।",
    "ko": "· 둘 다 통과하면 레슨 완료 (+25 XP).",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "(lesson already done).": {
-   "t": "(ਪਾਠ ਪਹਿਲਾਂ ਹੀ ਪੂਰਾ)।",
+   "t": "(ਪਾਠ ਪਹਿਲਾਂ ਹੀ ਪੂਰਾ ਹੈ)।",
    "ko": "(이미 완료한 레슨).",
    "kind": "sentence",
    "where": "not verbatim in src/app.html (assembled at runtime)"
@@ -4505,14 +4505,14 @@
    "where": "js g()"
   },
   "DRILLS": {
-   "t": "ਡਰਿੱਲਾਂ",
+   "t": "ਡਰਿੱਲ",
    "ko": "훈련",
    "kind": "canvas",
    "context": "drawn on a canvas image (share card / certificate), uppercase in English; keep short",
    "where": "js stats()"
   },
   "Export = this course's progress as text (other courses are exported separately). Use it to move between devices when account sync is off.": {
-   "t": "ਐਕਸਪੋਰਟ = ਇਸ ਕੋਰਸ ਦੀ ਤਰੱਕੀ, ਟੈਕਸਟ ਵਜੋਂ (ਬਾਕੀ ਕੋਰਸ ਵੱਖਰੇ ਐਕਸਪੋਰਟ ਹੁੰਦੇ ਹਨ)। ਜਦੋਂ ਅਕਾਊਂਟ ਸਿੰਕ ਬੰਦ ਹੋਵੇ ਤਾਂ ਡਿਵਾਈਸ ਬਦਲਣ ਲਈ ਇਸ ਨੂੰ ਵਰਤੋ।",
+   "t": "ਐਕਸਪੋਰਟ = ਇਸ ਕੋਰਸ ਦੀ ਤਰੱਕੀ ਟੈਕਸਟ ਦੇ ਰੂਪ ਵਿੱਚ (ਦੂਜੇ ਕੋਰਸ ਵੱਖਰੇ ਐਕਸਪੋਰਟ ਹੁੰਦੇ ਹਨ)। ਜਦੋਂ ਅਕਾਊਂਟ ਸਿੰਕ ਬੰਦ ਹੋਵੇ, ਇਸ ਨਾਲ ਇੱਕ ਡਿਵਾਈਸ ਤੋਂ ਦੂਜੇ ਉੱਤੇ ਜਾਓ।",
    "ko": "내보내기 = 이 코스의 진도를 텍스트로 저장해요 (다른 코스는 따로 내보내요). 계정 동기화를 쓰지 않을 때 기기를 옮기는 데 쓰세요.",
    "kind": "sentence",
    "where": "html <p> text"
@@ -4524,38 +4524,38 @@
    "where": "html <button> text"
   },
   "Tap again to erase this course": {
-   "t": "ਇਹ ਕੋਰਸ ਮਿਟਾਉਣ ਲਈ ਫਿਰ ਟੈਪ ਕਰੋ",
+   "t": "ਇਸ ਕੋਰਸ ਨੂੰ ਮਿਟਾਉਣ ਲਈ ਦੁਬਾਰਾ ਟੈਪ ਕਰੋ",
    "ko": "한 번 더 누르면 이 코스 진도를 지워요",
    "kind": "sentence",
    "where": "js g()"
   },
   "Merges into the course the export came from; nothing is lost.": {
-   "t": "ਜਿਸ ਕੋਰਸ ਤੋਂ ਐਕਸਪੋਰਟ ਆਇਆ ਸੀ, ਉਸ ਵਿੱਚ ਜੁੜ ਜਾਂਦਾ ਹੈ; ਕੁਝ ਨਹੀਂ ਗੁਆਚਦਾ।",
+   "t": "ਜਿਸ ਕੋਰਸ ਤੋਂ ਐਕਸਪੋਰਟ ਆਇਆ ਹੈ, ਉਸੇ ਵਿੱਚ ਮਿਲ ਜਾਂਦਾ ਹੈ; ਕੁਝ ਨਹੀਂ ਗੁਆਚਦਾ।",
    "ko": "내보낸 코스의 진도와 합쳐져요. 사라지는 건 없어요.",
    "kind": "sentence",
    "where": "js r()"
   },
   "This course's progress was erased. Other courses are untouched.": {
-   "t": "ਇਸ ਕੋਰਸ ਦੀ ਤਰੱਕੀ ਮਿਟਾ ਦਿੱਤੀ ਗਈ। ਬਾਕੀ ਕੋਰਸਾਂ ਨੂੰ ਕੁਝ ਨਹੀਂ ਹੋਇਆ।",
+   "t": "ਇਸ ਕੋਰਸ ਦੀ ਤਰੱਕੀ ਮਿਟਾ ਦਿੱਤੀ ਗਈ। ਦੂਜੇ ਕੋਰਸ ਜਿਵੇਂ ਸਨ ਉਵੇਂ ਹੀ ਹਨ।",
    "ko": "이 코스의 진도를 지웠어요. 다른 코스는 그대로예요.",
    "kind": "sentence",
    "where": "js g()"
   },
   "Listening, typing, role-play and saying it out loud — pick a drill.": {
-   "t": "ਸੁਣਨਾ, ਟਾਈਪ ਕਰਨਾ, ਰੋਲ-ਪਲੇ ਅਤੇ ਉੱਚੀ ਬੋਲਣਾ — ਕੋਈ ਡਰਿੱਲ ਚੁਣੋ।",
+   "t": "ਸੁਣਨਾ, ਲਿਖਣਾ, ਰੋਲ-ਪਲੇ ਤੇ ਉੱਚੀ ਬੋਲਣਾ — ਕੋਈ ਡਰਿੱਲ ਚੁਣੋ।",
    "ko": "듣기, 입력, 역할극, 소리 내어 말하기 — 훈련을 골라 보세요.",
    "kind": "sentence",
    "where": "js u()"
   },
   "Language · 언어": {
-   "t": "ਭਾਸ਼ਾ · 언어",
+   "t": "ਭਾਸ਼ਾ",
    "ko": "언어",
    "kind": "label",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content",
    "where": "html <button> @title"
   },
   "· finished": {
-   "t": "· ਪੂਰਾ",
+   "t": "· ਪੂਰਾ ਹੋਇਆ",
    "ko": "· 완료",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -4572,7 +4572,7 @@
    ]
   },
   "Just starting": {
-   "t": "ਬੱਸ ਸ਼ੁਰੂਆਤ",
+   "t": "ਬਿਲਕੁਲ ਸ਼ੁਰੂਆਤ",
    "ko": null,
    "kind": "label",
    "context": "LL — Onboarding",
@@ -4582,7 +4582,7 @@
    ]
   },
   "Some basics": {
-   "t": "ਕੁਝ ਬੁਨਿਆਦੀ",
+   "t": "ਥੋੜ੍ਹੀ ਬੁਨਿਆਦ",
    "ko": null,
    "kind": "label",
    "context": "LL — Onboarding",
@@ -4592,7 +4592,7 @@
    ]
   },
   "I get by": {
-   "t": "ਕੰਮ ਚੱਲ ਜਾਂਦਾ ਹੈ",
+   "t": "ਕੰਮ ਚੱਲਦਾ ਹੈ",
    "ko": null,
    "kind": "label",
    "context": "LL — Onboarding",
@@ -4672,7 +4672,7 @@
    ]
   },
   "Due for review": {
-   "t": "ਦੁਹਰਾਉਣ ਦੀ ਵਾਰੀ",
+   "t": "ਦੁਹਰਾਉਣ ਦਾ ਵੇਲਾ",
    "ko": null,
    "kind": "label",
    "context": "LL — Pause scene tag",
@@ -4692,7 +4692,7 @@
    ]
   },
   "Planned": {
-   "t": "ਯੋਜਨਾ ਵਿੱਚ",
+   "t": "ਪਲਾਨ ਵਿੱਚ",
    "ko": null,
    "kind": "label",
    "context": "LL — Lessons list: planned roadmap pill",
@@ -4752,7 +4752,7 @@
    ]
   },
   "Type your answer first.": {
-   "t": "ਪਹਿਲਾਂ ਆਪਣਾ ਜਵਾਬ ਟਾਈਪ ਕਰੋ।",
+   "t": "ਪਹਿਲਾਂ ਆਪਣਾ ਜਵਾਬ ਲਿਖੋ।",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice runner feedback",
@@ -4772,7 +4772,7 @@
    ]
   },
   "Choose the right one": {
-   "t": "ਸਹੀ ਚੁਣੋ",
+   "t": "ਸਹੀ ਵਿਕਲਪ ਚੁਣੋ",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice runner item heading",
@@ -4782,7 +4782,7 @@
    ]
   },
   "Put the words in order": {
-   "t": "ਸ਼ਬਦਾਂ ਨੂੰ ਤਰਤੀਬ ਵਿੱਚ ਲਗਾਓ",
+   "t": "ਵਾਕ ਬਣਾਓ",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice runner item heading",
@@ -4802,7 +4802,7 @@
    ]
   },
   "Write it": {
-   "t": "ਲਿਖੋ",
+   "t": "ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਲਿਖੋ",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice runner item heading",
@@ -4812,7 +4812,7 @@
    ]
   },
   "tap the words": {
-   "t": "ਸ਼ਬਦ ਟੈਪ ਕਰੋ",
+   "t": "ਸ਼ਬਦਾਂ ਉੱਤੇ ਟੈਪ ਕਰੋ",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice runner heading suffix (shown as <heading> · tap the words)",
@@ -4822,7 +4822,7 @@
    ]
   },
   "tap the answer": {
-   "t": "ਜਵਾਬ ਟੈਪ ਕਰੋ",
+   "t": "ਜਵਾਬ ਉੱਤੇ ਟੈਪ ਕਰੋ",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice runner heading suffix",
@@ -4842,7 +4842,7 @@
    ]
   },
   "Tap the words below": {
-   "t": "ਹੇਠਾਂ ਸ਼ਬਦ ਟੈਪ ਕਰੋ",
+   "t": "ਹੇਠਲੇ ਸ਼ਬਦਾਂ ਉੱਤੇ ਟੈਪ ਕਰੋ",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice runner tiles placeholder",
@@ -4852,7 +4852,7 @@
    ]
   },
   "The missing part…": {
-   "t": "ਗੁੰਮ ਹਿੱਸਾ…",
+   "t": "ਰਹਿ ਗਿਆ ਹਿੱਸਾ…",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice runner fill placeholder",
@@ -4872,7 +4872,7 @@
    ]
   },
   "Show the rule": {
-   "t": "ਨਿਯਮ ਦੇਖੋ",
+   "t": "ਨਿਯਮ ਦਿਖਾਓ",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice runner top bar",
@@ -4902,7 +4902,7 @@
    ]
   },
   "Back to practice": {
-   "t": "ਅਭਿਆਸ 'ਤੇ ਵਾਪਸ",
+   "t": "ਅਭਿਆਸ ਉੱਤੇ ਵਾਪਸ",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice rule sheet",
@@ -4952,7 +4952,7 @@
    ]
   },
   "Practice again": {
-   "t": "ਫਿਰ ਅਭਿਆਸ ਕਰੋ",
+   "t": "ਦੁਬਾਰਾ ਅਭਿਆਸ ਕਰੋ",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice end screen",
@@ -4962,7 +4962,7 @@
    ]
   },
   "Back to lesson": {
-   "t": "ਪਾਠ 'ਤੇ ਵਾਪਸ",
+   "t": "ਪਾਠ ਉੱਤੇ ਵਾਪਸ",
    "ko": null,
    "kind": "label",
    "context": "LL — Practice end screen",
@@ -4992,7 +4992,7 @@
    ]
   },
   "Coming soon · tap to preview": {
-   "t": "ਜਲਦੀ ਆ ਰਿਹਾ ਹੈ · ਝਲਕ ਲਈ ਟੈਪ ਕਰੋ",
+   "t": "ਜਲਦੀ ਆ ਰਿਹਾ ਹੈ · ਪ੍ਰੀਵਿਊ ਲਈ ਟੈਪ ਕਰੋ",
    "ko": null,
    "kind": "sentence",
    "context": "language home LLin — Language home step 2 locked list heading (after 🔒)",
@@ -5042,7 +5042,7 @@
    ]
   },
   "Saves across all your devices": {
-   "t": "ਤੁਹਾਡੇ ਸਾਰੇ ਡਿਵਾਈਸਾਂ ਵਿੱਚ ਸੇਵ ਹੁੰਦਾ ਹੈ",
+   "t": "ਤੁਹਾਡੇ ਹਰ ਡਿਵਾਈਸ ਉੱਤੇ ਸੇਵ ਹੁੰਦੀ ਹੈ",
    "ko": null,
    "kind": "sentence",
    "context": "pre-native preBi/preLine — Welcome step 1",
@@ -5052,7 +5052,7 @@
    ]
   },
   "This device only — lost if browser data is cleared": {
-   "t": "ਸਿਰਫ਼ ਇਹ ਡਿਵਾਈਸ — ਬ੍ਰਾਊਜ਼ਰ ਡਾਟਾ ਸਾਫ਼ ਹੋਣ 'ਤੇ ਮਿਟ ਜਾਂਦਾ ਹੈ",
+   "t": "ਸਿਰਫ਼ ਇਹ ਡਿਵਾਈਸ — ਬ੍ਰਾਊਜ਼ਰ ਡਾਟਾ ਸਾਫ਼ ਹੋਣ ਨਾਲ ਗੁਆਚ ਜਾਂਦੀ ਹੈ",
    "ko": null,
    "kind": "sentence",
    "context": "pre-native preBi/preLine — Welcome step 1 warning line",
@@ -5072,7 +5072,7 @@
    ]
   },
   "This device only — lost if browser data is cleared. Add an email later in Progress.": {
-   "t": "ਸਿਰਫ਼ ਇਹ ਡਿਵਾਈਸ — ਬ੍ਰਾਊਜ਼ਰ ਡਾਟਾ ਸਾਫ਼ ਹੋਣ 'ਤੇ ਮਿਟ ਜਾਂਦਾ ਹੈ। ਬਾਅਦ ਵਿੱਚ ਤਰੱਕੀ ਵਿੱਚ ਈਮੇਲ ਜੋੜੋ।",
+   "t": "ਸਿਰਫ਼ ਇਹ ਡਿਵਾਈਸ — ਬ੍ਰਾਊਜ਼ਰ ਡਾਟਾ ਸਾਫ਼ ਹੋਣ ਨਾਲ ਗੁਆਚ ਜਾਂਦੀ ਹੈ। ਬਾਅਦ ਵਿੱਚ \"ਤਰੱਕੀ\" ਵਿੱਚ ਈਮੇਲ ਜੋੜੋ।",
    "ko": null,
    "kind": "sentence",
    "context": "pre-native preBi/preLine — Welcome step 3 warning line",
@@ -5082,7 +5082,7 @@
    ]
   },
   "Hello": {
-   "t": "ਸਤ ਸ੍ਰੀ ਅਕਾਲ",
+   "t": "ਹੈਲੋ",
    "ko": null,
    "kind": "label",
    "context": "pre-native preBi/preLine — Intro animation title before the native language is known (Hello · …, <nick>!)",
@@ -5112,7 +5112,7 @@
    ]
   },
   "Working late — nice job": {
-   "t": "ਦੇਰ ਤੱਕ ਕੰਮ — ਸ਼ਾਬਾਸ਼",
+   "t": "ਦੇਰ ਤੱਕ ਲੱਗੇ ਹੋ — ਸ਼ਾਬਾਸ਼",
    "ko": null,
    "kind": "label",
    "context": "i18nGet (optional gloss) — Today greeting gloss under the English greeting (empty when missing)",
@@ -5152,7 +5152,7 @@
    ]
   },
   "Listen, type, role-play and say it out loud — practice with the cards you have unlocked. Your results here also count in sessions.": {
-   "t": "ਸੁਣੋ, ਟਾਈਪ ਕਰੋ, ਰੋਲ-ਪਲੇ ਕਰੋ ਅਤੇ ਉੱਚੀ ਬੋਲੋ — ਅਨਲੌਕ ਕੀਤੇ ਕਾਰਡਾਂ ਨਾਲ ਅਭਿਆਸ ਕਰੋ। ਇੱਥੇ ਦੇ ਨਤੀਜੇ ਸੈਸ਼ਨਾਂ ਵਿੱਚ ਵੀ ਗਿਣੇ ਜਾਂਦੇ ਹਨ।",
+   "t": "ਸੁਣੋ, ਲਿਖੋ, ਰੋਲ-ਪਲੇ ਕਰੋ ਤੇ ਉੱਚੀ ਬੋਲੋ — ਅਨਲਾਕ ਕੀਤੇ ਕਾਰਡਾਂ ਨਾਲ ਅਭਿਆਸ ਕਰੋ। ਇੱਥੋਂ ਦੇ ਨਤੀਜੇ ਸੈਸ਼ਨ ਵਿੱਚ ਵੀ ਗਿਣੇ ਜਾਂਦੇ ਹਨ।",
    "ko": null,
    "kind": "sentence",
    "where": "requested from JS (docs/LL-KEYS.md #104)",
@@ -5161,7 +5161,7 @@
    ]
   },
   "Show pronunciation hints in practice": {
-   "t": "ਅਭਿਆਸ ਵਿੱਚ ਉਚਾਰਨ ਸੰਕੇਤ ਦਿਖਾਓ",
+   "t": "ਅਭਿਆਸ ਵਿੱਚ ਉਚਾਰਨ ਦਿਖਾਓ",
    "ko": null,
    "kind": "sentence",
    "where": "requested from JS (docs/LL-KEYS.md #105)",
@@ -5170,7 +5170,7 @@
    ]
   },
   "Blur pronunciation hints in Browse": {
-   "t": "ਬ੍ਰਾਊਜ਼ ਵਿੱਚ ਉਚਾਰਨ ਸੰਕੇਤ ਧੁੰਦਲੇ ਕਰੋ",
+   "t": "ਬ੍ਰਾਊਜ਼ ਵਿੱਚ ਉਚਾਰਨ ਧੁੰਦਲਾ ਕਰੋ",
    "ko": null,
    "kind": "sentence",
    "where": "requested from JS (docs/LL-KEYS.md #106)",
@@ -5179,7 +5179,7 @@
    ]
   },
   "Pronunciation hint (optional)": {
-   "t": "ਉਚਾਰਨ ਸੰਕੇਤ (ਜ਼ਰੂਰੀ ਨਹੀਂ)",
+   "t": "ਉਚਾਰਨ (ਜ਼ਰੂਰੀ ਨਹੀਂ)",
    "ko": null,
    "kind": "sentence",
    "where": "requested from JS (docs/LL-KEYS.md #107)",
@@ -5188,7 +5188,7 @@
    ]
   },
   "English, pronunciation, meaning, note — one per line (pronunciation/note optional)": {
-   "t": "ਅੰਗਰੇਜ਼ੀ, ਉਚਾਰਨ, ਮਤਲਬ, ਨੋਟ — ਹਰ ਲਾਈਨ ਵਿੱਚ ਇੱਕ (ਉਚਾਰਨ/ਨੋਟ ਜ਼ਰੂਰੀ ਨਹੀਂ)",
+   "t": "ਅੰਗਰੇਜ਼ੀ, ਉਚਾਰਨ, ਅਰਥ, ਨੋਟ — ਹਰ ਲਾਈਨ ਵਿੱਚ ਇੱਕ ਕਾਰਡ (ਉਚਾਰਨ ਤੇ ਨੋਟ ਜ਼ਰੂਰੀ ਨਹੀਂ)",
    "ko": null,
    "kind": "sentence",
    "where": "requested from JS (docs/LL-KEYS.md #109)",
@@ -5206,7 +5206,7 @@
    ]
   },
   "listen · type · role-play": {
-   "t": "ਸੁਣੋ · ਟਾਈਪ · ਰੋਲ-ਪਲੇ",
+   "t": "ਸੁਣਨਾ · ਲਿਖਣਾ · ਰੋਲ-ਪਲੇ",
    "ko": null,
    "kind": "label",
    "where": "requested from JS (docs/LL-KEYS.md #117)",
@@ -5215,7 +5215,7 @@
    ]
   },
   "Could not load. Check your connection.": {
-   "t": "ਲੋਡ ਨਹੀਂ ਹੋ ਸਕਿਆ। ਆਪਣਾ ਕਨੈਕਸ਼ਨ ਜਾਂਚੋ।",
+   "t": "ਲੋਡ ਨਹੀਂ ਹੋ ਸਕਿਆ। ਆਪਣਾ ਕਨੈਕਸ਼ਨ ਦੇਖੋ।",
    "ko": null,
    "kind": "sentence",
    "context": "shown as a short toast",
@@ -5235,7 +5235,7 @@
    ]
   },
   "Category": {
-   "t": "ਸ਼੍ਰੇਣੀ",
+   "t": "ਕਿਸਮ",
    "ko": "분류",
    "kind": "label",
    "context": "screen-reader label",
@@ -5267,7 +5267,7 @@
    "where": "js cur() <span>"
   },
   "Go to the next card automatically": {
-   "t": "ਆਪਣੇ ਆਪ ਅਗਲੇ ਕਾਰਡ 'ਤੇ ਜਾਓ",
+   "t": "ਆਪਣੇ ਆਪ ਅਗਲੇ ਕਾਰਡ ਉੱਤੇ ਜਾਓ",
    "ko": "다음 카드로 자동으로 넘어가기",
    "kind": "sentence",
    "context": "settings checkbox on the Progress tab: after an answer, Review moves on to the next card without a Next button",
@@ -5309,14 +5309,14 @@
    "where": "js voiceAskHtml() <b>"
   },
   "Voice: woman. Switch to man's voice": {
-   "t": "ਆਵਾਜ਼: ਔਰਤ। ਆਦਮੀ ਦੀ ਆਵਾਜ਼ 'ਤੇ ਬਦਲੋ",
+   "t": "ਆਵਾਜ਼: ਔਰਤ। ਆਦਮੀ ਦੀ ਆਵਾਜ਼ ਚੁਣੋ",
    "ko": "목소리: 여자. 남자 목소리로 바꾸기",
    "kind": "sentence",
    "context": "accessible name and tooltip of the top-bar voice button (shows 👩): the woman's voice is on; pressing switches to the man's voice",
    "where": "js lab()"
   },
   "Voice: man. Switch to woman's voice": {
-   "t": "ਆਵਾਜ਼: ਆਦਮੀ। ਔਰਤ ਦੀ ਆਵਾਜ਼ 'ਤੇ ਬਦਲੋ",
+   "t": "ਆਵਾਜ਼: ਆਦਮੀ। ਔਰਤ ਦੀ ਆਵਾਜ਼ ਚੁਣੋ",
    "ko": "목소리: 남자. 여자 목소리로 바꾸기",
    "kind": "sentence",
    "context": "accessible name and tooltip of the top-bar voice button (shows 👨): the man's voice is on; pressing switches to the woman's voice",
@@ -5346,7 +5346,7 @@
  },
  "patterns": {
   "{n}/{n} · Drills": {
-   "t": "{1}/{2} · ਡਰਿੱਲਾਂ",
+   "t": "{1}/{2} · ਡਰਿੱਲ",
    "ko": "{1}/{2} · 훈련",
    "slots": "{1}=n, {2}=n",
    "example": "5/2 · Drills"
@@ -5358,19 +5358,19 @@
    "example": "Change language · Hello there"
   },
   "Got it: {x}": {
-   "t": "ਯਾਦ ਹੈ: {1}",
+   "t": "ਆਉਂਦਾ ਹੈ: {1}",
    "ko": "알아요: {1}",
    "slots": "{1}=x",
    "example": "Got it: Hello there"
   },
   "Again: {x}": {
-   "t": "ਫਿਰ ਤੋਂ: {1}",
+   "t": "ਦੁਬਾਰਾ: {1}",
    "ko": "다시: {1}",
    "slots": "{1}=x",
    "example": "Again: Hello there"
   },
   "{n}/{n} · {n} due · {x}": {
-   "t": "{1}/{2} · ਦੁਹਰਾਈ ਲਈ {3} · {4}",
+   "t": "{1}/{2} · ਦੁਹਰਾਉਣੇ ਹਨ: {3} · {4}",
    "ko": "{1}/{2} · 복습 대기 {3} · {4}",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=x",
    "example": "5/2 · 3 due · Hello there",
@@ -5384,35 +5384,35 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct · {f}s per card · best hour {n}:00 ({n}%)": {
-   "t": "ਹਾਲੀਆ ਦੁਹਰਾਈ: {1} · {2}% ਸਹੀ · {3} ਸਕਿੰਟ ਪ੍ਰਤੀ ਕਾਰਡ · ਵਧੀਆ ਘੰਟਾ {4}:00 ({5}%)",
+   "t": "ਪਿਛਲੀ ਦੁਹਰਾਈ: {1} · ਸਹੀ: {2}% · ਹਰ ਕਾਰਡ: {3} ਸਕਿੰਟ · ਸਭ ਤੋਂ ਵਧੀਆ ਘੰਟਾ: {4}:00 ({5}%)",
    "ko": "최근 복습 {1}번 · 정답률 {2}% · 카드당 {3}초 · 가장 잘되는 시간 {4}시 ({5}%)",
    "slots": "{1}=n, {2}=n, {3}=f, {4}=n, {5}=n",
    "example": "Last 5 reviews · 2% correct · 1.5s per card · best hour 3:00 (4%)",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct · {f}s per card": {
-   "t": "ਹਾਲੀਆ ਦੁਹਰਾਈ: {1} · {2}% ਸਹੀ · {3} ਸਕਿੰਟ ਪ੍ਰਤੀ ਕਾਰਡ",
+   "t": "ਪਿਛਲੀ ਦੁਹਰਾਈ: {1} · ਸਹੀ: {2}% · ਹਰ ਕਾਰਡ: {3} ਸਕਿੰਟ",
    "ko": "최근 복습 {1}번 · 정답률 {2}% · 카드당 {3}초",
    "slots": "{1}=n, {2}=n, {3}=f",
    "example": "Last 5 reviews · 2% correct · 1.5s per card",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} cards due": {
-   "t": "ਦੁਹਰਾਈ ਲਈ {1} ਕਾਰਡ",
+   "t": "ਦੁਹਰਾਉਣੇ ਹਨ: {1}",
    "ko": "복습할 카드 {1}장",
    "slots": "{1}=n",
    "example": "5 cards due",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} due": {
-   "t": "ਦੁਹਰਾਈ ਲਈ {1}",
+   "t": "ਦੁਹਰਾਉਣੇ ਹਨ: {1}",
    "ko": "복습 대기 {1}",
    "slots": "{1}=n",
    "example": "5 due",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} due now · {n} tomorrow · {n} this week": {
-   "t": "ਹੁਣ {1} · ਕੱਲ੍ਹ {2} · ਇਸ ਹਫ਼ਤੇ {3}",
+   "t": "ਹੁਣ ਦੁਹਰਾਉਣੇ ਹਨ: {1} · ਕੱਲ੍ਹ: {2} · ਇਸ ਹਫ਼ਤੇ: {3}",
    "ko": "지금 복습 {1} · 내일 {2} · 이번 주 {3}",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "5 due now · 2 tomorrow · 3 this week",
@@ -5438,27 +5438,27 @@
    "example": "Level 5 · Hello there"
   },
   "{n}/{n} → Lv {n}": {
-   "t": "{1}/{2} → Lv {3}",
+   "t": "{1}/{2} → ਲੈਵਲ {3}",
    "ko": "Lv {3}까지 {1}/{2}",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "5/2 → Lv 3"
   },
   "{n} XP total": {
-   "t": "ਕੁੱਲ {1} XP",
+   "t": "ਕੁੱਲ XP: {1}",
    "ko": "총 {1} XP",
    "slots": "{1}=n",
    "example": "5 XP total",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} XP to Level {n} · {s} at Level {n}": {
-   "t": "ਲੈਵਲ {2} ਤੱਕ {1} XP · ਲੈਵਲ {4} 'ਤੇ {3}",
+   "t": "ਲੈਵਲ {2} ਤੱਕ ਬਾਕੀ XP: {1} · ਲੈਵਲ {4}: {3}",
    "ko": "레벨 {2}까지 {1} XP · 레벨 {4}부터 {3}",
    "slots": "{1}=n, {2}=n, {3}=s, {4}=n",
    "example": "5 XP to Level 2 · Greetings at Level 3",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} XP to Level {n}": {
-   "t": "ਲੈਵਲ {2} ਤੱਕ {1} XP",
+   "t": "ਲੈਵਲ {2} ਤੱਕ ਬਾਕੀ XP: {1}",
    "ko": "레벨 {2}까지 {1} XP",
    "slots": "{1}=n, {2}=n",
    "example": "5 XP to Level 2",
@@ -5500,13 +5500,13 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "best {n}": {
-   "t": "ਸਭ ਤੋਂ ਵਧੀਆ {1}",
+   "t": "ਸਭ ਤੋਂ ਵਧੀਆ: {1}",
    "ko": "최고 {1}",
    "slots": "{1}=n",
    "example": "best 5"
   },
   "{n}× missed": {
-   "t": "{1}× ਗ਼ਲਤ",
+   "t": "ਗ਼ਲਤ: {1}",
    "ko": "{1}번 틀림",
    "slots": "{1}=n",
    "example": "5× missed",
@@ -5539,20 +5539,20 @@
    "example": "box 5"
   },
   "box {n}: {n} reviews": {
-   "t": "ਬਾਕਸ {1}: ਦੁਹਰਾਈ {2}",
+   "t": "ਬਾਕਸ {1} · ਦੁਹਰਾਈ: {2}",
    "ko": "상자 {1}: 복습 {2}번",
    "slots": "{1}=n, {2}=n",
    "example": "box 5: 2 reviews",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "suspended · box {n}": {
-   "t": "ਰੋਕਿਆ · ਬਾਕਸ {1}",
+   "t": "ਰੋਕਿਆ ਹੋਇਆ · ਬਾਕਸ {1}",
    "ko": "보류 · 상자 {1}",
    "slots": "{1}=n",
    "example": "suspended · box 5"
   },
   "🩹 leech · box {n}": {
-   "t": "🩹 ਲੀਚ · ਬਾਕਸ {1}",
+   "t": "🩹 ਅੜਿਆ ਕਾਰਡ · ਬਾਕਸ {1}",
    "ko": "🩹 거머리 카드 · 상자 {1}",
    "slots": "{1}=n",
    "example": "🩹 leech · box 5"
@@ -5571,70 +5571,70 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} left": {
-   "t": "{1} ਬਾਕੀ",
+   "t": "ਬਾਕੀ: {1}",
    "ko": "남은 카드 {1}장",
    "slots": "{1}=n",
    "example": "5 left",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} left · across {n} decks": {
-   "t": "{1} ਬਾਕੀ · ਡੈੱਕ: {2}",
+   "t": "ਬਾਕੀ: {1} · ਡੈੱਕ: {2}",
    "ko": "남은 카드 {1}장 · 덱 {2}개",
    "slots": "{1}=n, {2}=n",
    "example": "5 left · across 2 decks",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} left · {n}/{n} learned": {
-   "t": "{1} ਬਾਕੀ · {2}/{3} ਸਿੱਖੇ",
+   "t": "ਬਾਕੀ: {1} · ਸਿੱਖੇ: {2}/{3}",
    "ko": "남은 카드 {1}장 · {2}/{3} 익힘",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "5 left · 2/3 learned",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n}/{n} learned": {
-   "t": "{1}/{2} ਸਿੱਖੇ",
+   "t": "ਸਿੱਖੇ: {1}/{2}",
    "ko": "{1}/{2} 익힘",
    "slots": "{1}=n, {2}=n",
    "example": "5/2 learned",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n}/{n} learned ·": {
-   "t": "{1}/{2} ਸਿੱਖੇ ·",
+   "t": "ਸਿੱਖੇ: {1}/{2} ·",
    "ko": "{1}/{2} 익힘 ·",
    "slots": "{1}=n, {2}=n",
    "example": "5/2 learned ·",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n}/{n} · {n} due": {
-   "t": "{1}/{2} · ਦੁਹਰਾਈ ਲਈ {3}",
+   "t": "{1}/{2} · ਦੁਹਰਾਉਣੇ ਹਨ: {3}",
    "ko": "{1}/{2} · 복습 {3}",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "5/2 · 3 due",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n}/{n} · {n}% · {n} due": {
-   "t": "{1}/{2} · {3}% · ਦੁਹਰਾਈ ਲਈ {4}",
+   "t": "{1}/{2} · {3}% · ਦੁਹਰਾਉਣੇ ਹਨ: {4}",
    "ko": "{1}/{2} · {3}% · 복습 {4}",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n",
    "example": "5/2 · 3% · 4 due",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} quiz · last {n}%": {
-   "t": "{1} ਕੁਇਜ਼ · ਪਿਛਲਾ {2}%",
+   "t": "ਟੈਸਟ: {1} · ਪਿਛਲਾ {2}%",
    "ko": "퀴즈 {1}번 · 최근 {2}%",
    "slots": "{1}=n, {2}=n",
    "example": "5 quiz · last 2%",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} quizzes · last {n}%": {
-   "t": "{1} ਕੁਇਜ਼ · ਪਿਛਲਾ {2}%",
+   "t": "ਟੈਸਟ: {1} · ਪਿਛਲਾ {2}%",
    "ko": "퀴즈 {1}번 · 최근 {2}%",
    "slots": "{1}=n, {2}=n",
    "example": "5 quizzes · last 2%",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Import {n}": {
-   "t": "ਇੰਪੋਰਟ {1}",
+   "t": "ਇੰਪੋਰਟ: {1}",
    "ko": "{1}개 가져오기",
    "slots": "{1}=n",
    "example": "Import 5"
@@ -5646,7 +5646,7 @@
    "example": "Imported 5"
   },
   "Imported {n} cards.": {
-   "t": "ਕਾਰਡ ਇੰਪੋਰਟ ਹੋਏ: {1}।",
+   "t": "ਇੰਪੋਰਟ ਹੋਏ ਕਾਰਡ: {1}।",
    "ko": "카드 {1}장을 가져왔어요.",
    "slots": "{1}=n",
    "example": "Imported 5 cards.",
@@ -5660,14 +5660,14 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} rows · {n} new · {n} already in deck": {
-   "t": "ਲਾਈਨਾਂ: {1} · ਨਵੀਆਂ: {2} · ਪਹਿਲਾਂ ਹੀ ਡੈੱਕ ਵਿੱਚ: {3}",
+   "t": "ਲਾਈਨਾਂ: {1} · ਨਵੀਆਂ: {2} · ਡੈੱਕ ਵਿੱਚ ਪਹਿਲਾਂ ਤੋਂ: {3}",
    "ko": "{1}줄 · 새 항목 {2}개 · 이미 덱에 있음 {3}개",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "5 rows · 2 new · 3 already in deck",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Added · {n} in My phrases": {
-   "t": "ਜੋੜ ਦਿੱਤਾ · ਮੇਰੇ ਵਾਕ ਵਿੱਚ {1}",
+   "t": "ਜੋੜ ਦਿੱਤਾ · \"ਮੇਰੇ ਵਾਕ\" ਵਿੱਚ: {1}",
    "ko": "추가했어요 · 내 표현 {1}개",
    "slots": "{1}=n",
    "example": "Added · 5 in My phrases",
@@ -5695,7 +5695,7 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Test everything · {n} cards × 3": {
-   "t": "ਸਭ ਕੁਝ ਪਰਖੋ · {1} ਕਾਰਡ × 3",
+   "t": "ਸਭ ਕੁਝ ਟੈਸਟ ਕਰੋ · {1} ਕਾਰਡ × 3",
    "ko": "전체 테스트 · 카드 {1}장 × 3",
    "slots": "{1}=n",
    "example": "Test everything · 5 cards × 3",
@@ -5709,41 +5709,41 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Learn 5 at a time · {n} cards": {
-   "t": "ਇੱਕ ਵਾਰ ਵਿੱਚ 5 ਸਿੱਖੋ · {1} ਕਾਰਡ",
+   "t": "5-5 ਕਾਰਡ ਕਰਕੇ ਸਿੱਖੋ · {1} ਕਾਰਡ",
    "ko": "5개씩 배우기 · 카드 {1}장",
    "slots": "{1}=n",
    "example": "Learn 5 at a time · 5 cards",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} rounds left": {
-   "t": "{1} ਰਾਊਂਡ ਬਾਕੀ",
+   "t": "ਬਾਕੀ ਰਾਊਂਡ: {1}",
    "ko": "{1}라운드 남음",
    "slots": "{1}=n",
    "example": "5 rounds left",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Weak spots · {n}": {
-   "t": "ਕਮਜ਼ੋਰੀਆਂ · {1}",
+   "t": "ਕਮਜ਼ੋਰ ਥਾਵਾਂ · {1}",
    "ko": "약점 공략 · {1}",
    "slots": "{1}=n",
    "example": "Weak spots · 5"
   },
   "Weak spots · {n} cards": {
-   "t": "ਕਮਜ਼ੋਰੀਆਂ · {1} ਕਾਰਡ",
+   "t": "ਕਮਜ਼ੋਰ ਥਾਵਾਂ · {1} ਕਾਰਡ",
    "ko": "약점 공략 · 카드 {1}장",
    "slots": "{1}=n",
    "example": "Weak spots · 5 cards",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Weak spots · {n} cards · passed": {
-   "t": "ਕਮਜ਼ੋਰੀਆਂ · {1} ਕਾਰਡ · ਪਾਸ",
+   "t": "ਕਮਜ਼ੋਰ ਥਾਵਾਂ · {1} ਕਾਰਡ · ਪਾਸ",
    "ko": "약점 공략 · 카드 {1}장 · 통과",
    "slots": "{1}=n",
    "example": "Weak spots · 5 cards · passed",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Weak spots · {n} cards · 80% to pass": {
-   "t": "ਕਮਜ਼ੋਰੀਆਂ · {1} ਕਾਰਡ · ਪਾਸ ਹੋਣ ਲਈ 80%",
+   "t": "ਕਮਜ਼ੋਰ ਥਾਵਾਂ · {1} ਕਾਰਡ · ਪਾਸ ਲਈ 80%",
    "ko": "약점 공략 · 카드 {1}장 · 80% 이상이면 통과",
    "slots": "{1}=n",
    "example": "Weak spots · 5 cards · 80% to pass",
@@ -5764,40 +5764,40 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Mix · {n} cards · 80% to pass": {
-   "t": "ਮਿਕਸ · {1} ਕਾਰਡ · ਪਾਸ ਹੋਣ ਲਈ 80%",
+   "t": "ਮਿਕਸ · {1} ਕਾਰਡ · ਪਾਸ ਲਈ 80%",
    "ko": "섞어서 · 카드 {1}장 · 80% 이상이면 통과",
    "slots": "{1}=n",
    "example": "Mix · 5 cards · 80% to pass",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "New 5 added · now {n} cards in the mix": {
-   "t": "ਨਵੇਂ 5 ਜੋੜੇ · ਹੁਣ ਮਿਕਸ ਵਿੱਚ {1} ਕਾਰਡ",
+   "t": "ਨਵੇਂ 5 ਜੁੜੇ · ਹੁਣ ਮਿਕਸ ਵਿੱਚ: {1} ਕਾਰਡ",
    "ko": "새 카드 5장 추가 · 이제 {1}장을 섞어서 풀어요",
    "slots": "{1}=n",
    "example": "New 5 added · now 5 cards in the mix",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "New 5 added · now {n} cards in the mix · passed": {
-   "t": "ਨਵੇਂ 5 ਜੋੜੇ · ਹੁਣ ਮਿਕਸ ਵਿੱਚ {1} ਕਾਰਡ · ਪਾਸ",
+   "t": "ਨਵੇਂ 5 ਜੁੜੇ · ਹੁਣ ਮਿਕਸ ਵਿੱਚ: {1} ਕਾਰਡ · ਪਾਸ",
    "ko": "새 카드 5장 추가 · 이제 {1}장을 섞어서 풀어요 · 통과",
    "slots": "{1}=n",
    "example": "New 5 added · now 5 cards in the mix · passed",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "New 5 · not added yet · 80% to pass": {
-   "t": "ਨਵੇਂ 5 · ਅਜੇ ਜੋੜੇ ਨਹੀਂ · ਪਾਸ ਹੋਣ ਲਈ 80%",
+   "t": "ਨਵੇਂ 5 · ਅਜੇ ਜੋੜੇ ਨਹੀਂ · ਪਾਸ ਲਈ 80%",
    "ko": "새 카드 5장 · 아직 추가 안 됨 · 80% 이상이면 통과",
    "slots": "",
    "example": "New 5 · not added yet · 80% to pass"
   },
   "Polite ↔ casual · passed": {
-   "t": "ਨਿਮਰ ↔ ਆਮ · ਪਾਸ",
+   "t": "ਨਿਮਰ ↔ ਬੋਲਚਾਲ · ਪਾਸ",
    "ko": "존댓말 ↔ 반말 · 통과",
    "slots": "",
    "example": "Polite ↔ casual · passed"
   },
   "Polite ↔ casual · 80% to pass": {
-   "t": "ਨਿਮਰ ↔ ਆਮ · ਪਾਸ ਹੋਣ ਲਈ 80%",
+   "t": "ਨਿਮਰ ↔ ਬੋਲਚਾਲ · ਪਾਸ ਲਈ 80%",
    "ko": "존댓말 ↔ 반말 · 80% 이상이면 통과",
    "slots": "",
    "example": "Polite ↔ casual · 80% to pass"
@@ -5809,25 +5809,25 @@
    "example": "Hardest cards · passed"
   },
   "Hardest cards · 80% to pass": {
-   "t": "ਸਭ ਤੋਂ ਔਖੇ ਕਾਰਡ · ਪਾਸ ਹੋਣ ਲਈ 80%",
+   "t": "ਸਭ ਤੋਂ ਔਖੇ ਕਾਰਡ · ਪਾਸ ਲਈ 80%",
    "ko": "가장 어려운 카드 · 80% 이상이면 통과",
    "slots": "",
    "example": "Hardest cards · 80% to pass"
   },
   "Exam re-drill · passed": {
-   "t": "ਇਮਤਿਹਾਨ ਦੁਬਾਰਾ · ਪਾਸ",
+   "t": "ਇਮਤਿਹਾਨ ਦੀਆਂ ਗ਼ਲਤੀਆਂ · ਪਾਸ",
    "ko": "시험 오답 다시 풀기 · 통과",
    "slots": "",
    "example": "Exam re-drill · passed"
   },
   "Exam re-drill · 80% to pass": {
-   "t": "ਇਮਤਿਹਾਨ ਦੁਬਾਰਾ · ਪਾਸ ਹੋਣ ਲਈ 80%",
+   "t": "ਇਮਤਿਹਾਨ ਦੀਆਂ ਗ਼ਲਤੀਆਂ · ਪਾਸ ਲਈ 80%",
    "ko": "시험 오답 다시 풀기 · 80% 이상이면 통과",
    "slots": "",
    "example": "Exam re-drill · 80% to pass"
   },
   "Quiz the whole mix ({n})": {
-   "t": "ਸਾਰੇ ਮਿਕਸ ਦਾ ਕੁਇਜ਼ ({1})",
+   "t": "ਪੂਰੇ ਮਿਕਸ ਦਾ ਟੈਸਟ ({1})",
    "ko": "섞인 카드 전부 퀴즈 ({1})",
    "slots": "{1}=n",
    "example": "Quiz the whole mix (5)"
@@ -5851,7 +5851,7 @@
    "example": "Mix · 5/2 · pass 3/3 · read"
   },
   "Weak spots · {n}/{n} · pass {n}/3 · read": {
-   "t": "ਕਮਜ਼ੋਰੀਆਂ · {1}/{2} · ਗੇੜ {3}/3 · ਪੜ੍ਹਨਾ",
+   "t": "ਕਮਜ਼ੋਰ ਥਾਵਾਂ · {1}/{2} · ਗੇੜ {3}/3 · ਪੜ੍ਹਨਾ",
    "ko": "약점 공략 · {1}/{2} · {3}/3회차 · 읽기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Weak spots · 5/2 · pass 3/3 · read"
@@ -5863,7 +5863,7 @@
    "example": "Hardest cards · 5/2 · pass 3/3 · read"
   },
   "Missed · {n}/{n} · pass {n}/3 · read": {
-   "t": "ਗ਼ਲਤ ਹੋਏ · {1}/{2} · ਗੇੜ {3}/3 · ਪੜ੍ਹਨਾ",
+   "t": "ਗ਼ਲਤ · {1}/{2} · ਗੇੜ {3}/3 · ਪੜ੍ਹਨਾ",
    "ko": "틀린 카드 · {1}/{2} · {3}/3회차 · 읽기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Missed · 5/2 · pass 3/3 · read"
@@ -5875,14 +5875,14 @@
    "example": "Hello there · 5/2 · pass 3/3 · read"
   },
   "Quiz · {n}/{n} · new 5 + {n} learned · read": {
-   "t": "ਕੁਇਜ਼ · {1}/{2} · ਨਵੇਂ 5 + {3} ਸਿੱਖੇ · ਪੜ੍ਹਨਾ",
+   "t": "ਟੈਸਟ · {1}/{2} · ਨਵੇਂ 5 + ਸਿੱਖੇ: {3} · ਪੜ੍ਹਨਾ",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 + 익힌 카드 {3}장 · 읽기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Quiz · 5/2 · new 5 + 3 learned · read",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Quiz · {n}/{n} · new 5 · read": {
-   "t": "ਕੁਇਜ਼ · {1}/{2} · ਨਵੇਂ 5 · ਪੜ੍ਹਨਾ",
+   "t": "ਟੈਸਟ · {1}/{2} · ਨਵੇਂ 5 · ਪੜ੍ਹਨਾ",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 · 읽기",
    "slots": "{1}=n, {2}=n",
    "example": "Quiz · 5/2 · new 5 · read"
@@ -5906,7 +5906,7 @@
    "example": "Mix · 5/2 · pass 3/3 · recall"
   },
   "Weak spots · {n}/{n} · pass {n}/3 · recall": {
-   "t": "ਕਮਜ਼ੋਰੀਆਂ · {1}/{2} · ਗੇੜ {3}/3 · ਯਾਦ ਕਰਨਾ",
+   "t": "ਕਮਜ਼ੋਰ ਥਾਵਾਂ · {1}/{2} · ਗੇੜ {3}/3 · ਯਾਦ ਕਰਨਾ",
    "ko": "약점 공략 · {1}/{2} · {3}/3회차 · 떠올리기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Weak spots · 5/2 · pass 3/3 · recall"
@@ -5918,7 +5918,7 @@
    "example": "Hardest cards · 5/2 · pass 3/3 · recall"
   },
   "Missed · {n}/{n} · pass {n}/3 · recall": {
-   "t": "ਗ਼ਲਤ ਹੋਏ · {1}/{2} · ਗੇੜ {3}/3 · ਯਾਦ ਕਰਨਾ",
+   "t": "ਗ਼ਲਤ · {1}/{2} · ਗੇੜ {3}/3 · ਯਾਦ ਕਰਨਾ",
    "ko": "틀린 카드 · {1}/{2} · {3}/3회차 · 떠올리기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Missed · 5/2 · pass 3/3 · recall"
@@ -5930,14 +5930,14 @@
    "example": "Hello there · 5/2 · pass 3/3 · recall"
   },
   "Quiz · {n}/{n} · new 5 + {n} learned · recall": {
-   "t": "ਕੁਇਜ਼ · {1}/{2} · ਨਵੇਂ 5 + {3} ਸਿੱਖੇ · ਯਾਦ ਕਰਨਾ",
+   "t": "ਟੈਸਟ · {1}/{2} · ਨਵੇਂ 5 + ਸਿੱਖੇ: {3} · ਯਾਦ ਕਰਨਾ",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 + 익힌 카드 {3}장 · 떠올리기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Quiz · 5/2 · new 5 + 3 learned · recall",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Quiz · {n}/{n} · new 5 · recall": {
-   "t": "ਕੁਇਜ਼ · {1}/{2} · ਨਵੇਂ 5 · ਯਾਦ ਕਰਨਾ",
+   "t": "ਟੈਸਟ · {1}/{2} · ਨਵੇਂ 5 · ਯਾਦ ਕਰਨਾ",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 · 떠올리기",
    "slots": "{1}=n, {2}=n",
    "example": "Quiz · 5/2 · new 5 · recall"
@@ -5961,7 +5961,7 @@
    "example": "Mix · 5/2 · pass 3/3 · listen"
   },
   "Weak spots · {n}/{n} · pass {n}/3 · listen": {
-   "t": "ਕਮਜ਼ੋਰੀਆਂ · {1}/{2} · ਗੇੜ {3}/3 · ਸੁਣਨਾ",
+   "t": "ਕਮਜ਼ੋਰ ਥਾਵਾਂ · {1}/{2} · ਗੇੜ {3}/3 · ਸੁਣਨਾ",
    "ko": "약점 공략 · {1}/{2} · {3}/3회차 · 듣기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Weak spots · 5/2 · pass 3/3 · listen"
@@ -5973,7 +5973,7 @@
    "example": "Hardest cards · 5/2 · pass 3/3 · listen"
   },
   "Missed · {n}/{n} · pass {n}/3 · listen": {
-   "t": "ਗ਼ਲਤ ਹੋਏ · {1}/{2} · ਗੇੜ {3}/3 · ਸੁਣਨਾ",
+   "t": "ਗ਼ਲਤ · {1}/{2} · ਗੇੜ {3}/3 · ਸੁਣਨਾ",
    "ko": "틀린 카드 · {1}/{2} · {3}/3회차 · 듣기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Missed · 5/2 · pass 3/3 · listen"
@@ -5985,14 +5985,14 @@
    "example": "Hello there · 5/2 · pass 3/3 · listen"
   },
   "Quiz · {n}/{n} · new 5 + {n} learned · listen": {
-   "t": "ਕੁਇਜ਼ · {1}/{2} · ਨਵੇਂ 5 + {3} ਸਿੱਖੇ · ਸੁਣਨਾ",
+   "t": "ਟੈਸਟ · {1}/{2} · ਨਵੇਂ 5 + ਸਿੱਖੇ: {3} · ਸੁਣਨਾ",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 + 익힌 카드 {3}장 · 듣기",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Quiz · 5/2 · new 5 + 3 learned · listen",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Quiz · {n}/{n} · new 5 · listen": {
-   "t": "ਕੁਇਜ਼ · {1}/{2} · ਨਵੇਂ 5 · ਸੁਣਨਾ",
+   "t": "ਟੈਸਟ · {1}/{2} · ਨਵੇਂ 5 · ਸੁਣਨਾ",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 · 듣기",
    "slots": "{1}=n, {2}=n",
    "example": "Quiz · 5/2 · new 5 · listen"
@@ -6004,56 +6004,56 @@
    "example": "📝 Exam · 5/25 · listen"
   },
   "New 5 · {n}/{n} · pass {n}/3 · type": {
-   "t": "ਨਵੇਂ 5 · {1}/{2} · ਗੇੜ {3}/3 · ਟਾਈਪ ਕਰਨਾ",
+   "t": "ਨਵੇਂ 5 · {1}/{2} · ਗੇੜ {3}/3 · ਲਿਖਣਾ",
    "ko": "새 카드 5장 · {1}/{2} · {3}/3회차 · 입력",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "New 5 · 5/2 · pass 3/3 · type"
   },
   "Mix · {n}/{n} · pass {n}/3 · type": {
-   "t": "ਮਿਕਸ · {1}/{2} · ਗੇੜ {3}/3 · ਟਾਈਪ ਕਰਨਾ",
+   "t": "ਮਿਕਸ · {1}/{2} · ਗੇੜ {3}/3 · ਲਿਖਣਾ",
    "ko": "섞어서 · {1}/{2} · {3}/3회차 · 입력",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Mix · 5/2 · pass 3/3 · type"
   },
   "Weak spots · {n}/{n} · pass {n}/3 · type": {
-   "t": "ਕਮਜ਼ੋਰੀਆਂ · {1}/{2} · ਗੇੜ {3}/3 · ਟਾਈਪ ਕਰਨਾ",
+   "t": "ਕਮਜ਼ੋਰ ਥਾਵਾਂ · {1}/{2} · ਗੇੜ {3}/3 · ਲਿਖਣਾ",
    "ko": "약점 공략 · {1}/{2} · {3}/3회차 · 입력",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Weak spots · 5/2 · pass 3/3 · type"
   },
   "Hardest cards · {n}/{n} · pass {n}/3 · type": {
-   "t": "ਸਭ ਤੋਂ ਔਖੇ ਕਾਰਡ · {1}/{2} · ਗੇੜ {3}/3 · ਟਾਈਪ ਕਰਨਾ",
+   "t": "ਸਭ ਤੋਂ ਔਖੇ ਕਾਰਡ · {1}/{2} · ਗੇੜ {3}/3 · ਲਿਖਣਾ",
    "ko": "가장 어려운 카드 · {1}/{2} · {3}/3회차 · 입력",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Hardest cards · 5/2 · pass 3/3 · type"
   },
   "Missed · {n}/{n} · pass {n}/3 · type": {
-   "t": "ਗ਼ਲਤ ਹੋਏ · {1}/{2} · ਗੇੜ {3}/3 · ਟਾਈਪ ਕਰਨਾ",
+   "t": "ਗ਼ਲਤ · {1}/{2} · ਗੇੜ {3}/3 · ਲਿਖਣਾ",
    "ko": "틀린 카드 · {1}/{2} · {3}/3회차 · 입력",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Missed · 5/2 · pass 3/3 · type"
   },
   "{x} · {n}/{n} · pass {n}/3 · type": {
-   "t": "{1} · {2}/{3} · ਗੇੜ {4}/3 · ਟਾਈਪ ਕਰਨਾ",
+   "t": "{1} · {2}/{3} · ਗੇੜ {4}/3 · ਲਿਖਣਾ",
    "ko": "{1} · {2}/{3} · {4}/3회차 · 입력",
    "slots": "{1}=x, {2}=n, {3}=n, {4}=n",
    "example": "Hello there · 5/2 · pass 3/3 · type"
   },
   "Quiz · {n}/{n} · new 5 + {n} learned · type": {
-   "t": "ਕੁਇਜ਼ · {1}/{2} · ਨਵੇਂ 5 + {3} ਸਿੱਖੇ · ਟਾਈਪ ਕਰਨਾ",
+   "t": "ਟੈਸਟ · {1}/{2} · ਨਵੇਂ 5 + ਸਿੱਖੇ: {3} · ਲਿਖਣਾ",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 + 익힌 카드 {3}장 · 입력",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Quiz · 5/2 · new 5 + 3 learned · type",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Quiz · {n}/{n} · new 5 · type": {
-   "t": "ਕੁਇਜ਼ · {1}/{2} · ਨਵੇਂ 5 · ਟਾਈਪ ਕਰਨਾ",
+   "t": "ਟੈਸਟ · {1}/{2} · ਨਵੇਂ 5 · ਲਿਖਣਾ",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 · 입력",
    "slots": "{1}=n, {2}=n",
    "example": "Quiz · 5/2 · new 5 · type"
   },
   "📝 Exam · {n}/25 · type": {
-   "t": "📝 ਇਮਤਿਹਾਨ · {1}/25 · ਟਾਈਪ ਕਰਨਾ",
+   "t": "📝 ਇਮਤਿਹਾਨ · {1}/25 · ਲਿਖਣਾ",
    "ko": "📝 시험 · {1}/25 · 입력",
    "slots": "{1}=n",
    "example": "📝 Exam · 5/25 · type"
@@ -6071,7 +6071,7 @@
    "example": "Mix · 5/2 · pass 3/3 · mixed"
   },
   "Weak spots · {n}/{n} · pass {n}/3 · mixed": {
-   "t": "ਕਮਜ਼ੋਰੀਆਂ · {1}/{2} · ਗੇੜ {3}/3 · ਰਲਵਾਂ",
+   "t": "ਕਮਜ਼ੋਰ ਥਾਵਾਂ · {1}/{2} · ਗੇੜ {3}/3 · ਰਲਵਾਂ",
    "ko": "약점 공략 · {1}/{2} · {3}/3회차 · 섞어서",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Weak spots · 5/2 · pass 3/3 · mixed"
@@ -6083,7 +6083,7 @@
    "example": "Hardest cards · 5/2 · pass 3/3 · mixed"
   },
   "Missed · {n}/{n} · pass {n}/3 · mixed": {
-   "t": "ਗ਼ਲਤ ਹੋਏ · {1}/{2} · ਗੇੜ {3}/3 · ਰਲਵਾਂ",
+   "t": "ਗ਼ਲਤ · {1}/{2} · ਗੇੜ {3}/3 · ਰਲਵਾਂ",
    "ko": "틀린 카드 · {1}/{2} · {3}/3회차 · 섞어서",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Missed · 5/2 · pass 3/3 · mixed"
@@ -6095,14 +6095,14 @@
    "example": "Hello there · 5/2 · pass 3/3 · mixed"
   },
   "Quiz · {n}/{n} · new 5 + {n} learned · mixed": {
-   "t": "ਕੁਇਜ਼ · {1}/{2} · ਨਵੇਂ 5 + {3} ਸਿੱਖੇ · ਰਲਵਾਂ",
+   "t": "ਟੈਸਟ · {1}/{2} · ਨਵੇਂ 5 + ਸਿੱਖੇ: {3} · ਰਲਵਾਂ",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 + 익힌 카드 {3}장 · 섞어서",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Quiz · 5/2 · new 5 + 3 learned · mixed",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Quiz · {n}/{n} · new 5 · mixed": {
-   "t": "ਕੁਇਜ਼ · {1}/{2} · ਨਵੇਂ 5 · ਰਲਵਾਂ",
+   "t": "ਟੈਸਟ · {1}/{2} · ਨਵੇਂ 5 · ਰਲਵਾਂ",
    "ko": "퀴즈 · {1}/{2} · 새 카드 5장 · 섞어서",
    "slots": "{1}=n, {2}=n",
    "example": "Quiz · 5/2 · new 5 · mixed"
@@ -6135,7 +6135,7 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Round {n} of {n} · 80% to pass": {
-   "t": "ਰਾਊਂਡ {1}/{2} · ਪਾਸ ਹੋਣ ਲਈ 80%",
+   "t": "ਰਾਊਂਡ {1}/{2} · ਪਾਸ ਲਈ 80%",
    "ko": "라운드 {1}/{2} · 80% 이상이면 통과",
    "slots": "{1}=n, {2}=n",
    "example": "Round 5 of 2 · 80% to pass",
@@ -6149,7 +6149,7 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{x} complete": {
-   "t": "{1} ਪੂਰਾ",
+   "t": "ਪੂਰਾ: {1}",
    "ko": "{1} 완료",
    "slots": "{1}=x",
    "example": "Hello there complete"
@@ -6161,20 +6161,20 @@
    "example": "Hello there · passed"
   },
   "{x} · 80% to pass": {
-   "t": "{1} · ਪਾਸ ਹੋਣ ਲਈ 80%",
+   "t": "{1} · ਪਾਸ ਲਈ 80%",
    "ko": "{1} · 80% 이상이면 통과",
    "slots": "{1}=x",
    "example": "Hello there · 80% to pass"
   },
   "{n} answered · best combo ×{n} · new personal best": {
-   "t": "{1} ਜਵਾਬ · ਵਧੀਆ ਕੰਬੋ ×{2} · ਨਵਾਂ ਨਿੱਜੀ ਰਿਕਾਰਡ",
+   "t": "ਜਵਾਬ: {1} · ਸਭ ਤੋਂ ਲੰਮਾ ਕੰਬੋ ×{2} · ਨਵਾਂ ਨਿੱਜੀ ਰਿਕਾਰਡ",
    "ko": "{1}문제 답함 · 최고 콤보 ×{2} · 개인 최고 기록 경신",
    "slots": "{1}=n, {2}=n",
    "example": "5 answered · best combo ×2 · new personal best",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} answered · best combo ×{n} · personal best {n}": {
-   "t": "{1} ਜਵਾਬ · ਵਧੀਆ ਕੰਬੋ ×{2} · ਨਿੱਜੀ ਰਿਕਾਰਡ {3}",
+   "t": "ਜਵਾਬ: {1} · ਸਭ ਤੋਂ ਲੰਮਾ ਕੰਬੋ ×{2} · ਨਿੱਜੀ ਰਿਕਾਰਡ: {3}",
    "ko": "{1}문제 답함 · 최고 콤보 ×{2} · 개인 최고 기록 {3}",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "5 answered · best combo ×2 · personal best 3",
@@ -6202,31 +6202,31 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Register · {n}/10": {
-   "t": "ਬੋਲਚਾਲ ਦਾ ਪੱਧਰ · {1}/10",
+   "t": "ਨਿਮਰ ↔ ਬੋਲਚਾਲ · {1}/10",
    "ko": "존댓말·반말 · {1}/10",
    "slots": "{1}=n",
    "example": "Register · 5/10"
   },
   "Re-drill missed ({n})": {
-   "t": "ਗ਼ਲਤ ਹੋਏ ਦੁਬਾਰਾ ({1})",
+   "t": "ਗ਼ਲਤ ਦੁਬਾਰਾ ਕਰੋ ({1})",
    "ko": "틀린 문제 다시 풀기 ({1})",
    "slots": "{1}=n",
    "example": "Re-drill missed (5)"
   },
   "📝 Exams (last {n})": {
-   "t": "📝 ਇਮਤਿਹਾਨ (ਪਿਛਲੇ {1})",
+   "t": "📝 ਇਮਤਿਹਾਨ (ਪਿਛਲੇ: {1})",
    "ko": "📝 시험 (최근 {1}회)",
    "slots": "{1}=n",
    "example": "📝 Exams (last 5)"
   },
   "Why: {s} ·": {
-   "t": "ਕਿਉਂ: {1} ·",
+   "t": "ਕਾਰਨ: {1} ·",
    "ko": "이유: {1} ·",
    "slots": "{1}=s",
    "example": "Why: Greetings ·"
   },
   "Why: {x}": {
-   "t": "ਕਿਉਂ: {1}",
+   "t": "ਕਾਰਨ: {1}",
    "ko": "이유: {1}",
    "slots": "{1}=x",
    "example": "Why: Hello there"
@@ -6238,38 +6238,38 @@
    "example": "Your line (Hello there):"
   },
   "🔢 Listen and type the number · {x}": {
-   "t": "🔢 ਸੁਣ ਕੇ ਗਿਣਤੀ ਟਾਈਪ ਕਰੋ · {1}",
+   "t": "🔢 ਸੁਣੋ ਤੇ ਸੰਖਿਆ ਲਿਖੋ · {1}",
    "ko": "🔢 듣고 숫자를 입력하세요 · {1}",
    "slots": "{1}=x",
    "example": "🔢 Listen and type the number · Hello there"
   },
   "🗣 {n}/3 · repeat": {
-   "t": "🗣 {1}/3 · ਦੁਹਰਾਓ",
+   "t": "🗣 {1}/3 · ਬੋਲੋ",
    "ko": "🗣 {1}/3 · 따라 하기",
    "slots": "{1}=n",
    "example": "🗣 5/3 · repeat"
   },
   "Resend email ({n}s)": {
-   "t": "ਈਮੇਲ ਫਿਰ ਭੇਜੋ ({1} ਸਕਿੰਟ)",
+   "t": "ਈਮੇਲ ਦੁਬਾਰਾ ਭੇਜੋ ({1} ਸਕਿੰਟ)",
    "ko": "이메일 다시 보내기 ({1}초)",
    "slots": "{1}=n",
    "example": "Resend email (5s)",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Flashcard: {s} ({s}). Press to flip, arrow keys to answer.": {
-   "t": "ਫ਼ਲੈਸ਼ਕਾਰਡ: {1} ({2})। ਪਲਟਣ ਲਈ ਦਬਾਓ, ਜਵਾਬ ਲਈ ਤੀਰ ਵਾਲੀਆਂ ਕੁੰਜੀਆਂ।",
+   "t": "ਫ਼ਲੈਸ਼ਕਾਰਡ: {1} ({2})। ਪਲਟਣ ਲਈ ਦਬਾਓ, ਜਵਾਬ ਲਈ ਐਰੋ ਕੀਜ਼ ਵਰਤੋ।",
    "ko": "플래시카드: {1} ({2}). 눌러서 뒤집고, 방향키로 답하세요.",
    "slots": "{1}=s, {2}=s",
    "example": "Flashcard: Greetings (Travel). Press to flip, arrow keys to answer."
   },
   "Flashcard: {x}. Press to flip, arrow keys to answer.": {
-   "t": "ਫ਼ਲੈਸ਼ਕਾਰਡ: {1}। ਪਲਟਣ ਲਈ ਦਬਾਓ, ਜਵਾਬ ਲਈ ਤੀਰ ਵਾਲੀਆਂ ਕੁੰਜੀਆਂ।",
+   "t": "ਫ਼ਲੈਸ਼ਕਾਰਡ: {1}। ਪਲਟਣ ਲਈ ਦਬਾਓ, ਜਵਾਬ ਲਈ ਐਰੋ ਕੀਜ਼ ਵਰਤੋ।",
    "ko": "플래시카드: {1}. 눌러서 뒤집고, 방향키로 답하세요.",
    "slots": "{1}=x",
    "example": "Flashcard: Hello there. Press to flip, arrow keys to answer."
   },
   "Listen to {x}": {
-   "t": "{1} ਸੁਣੋ",
+   "t": "ਸੁਣੋ: {1}",
    "ko": "{1} 듣기",
    "slots": "{1}=x",
    "example": "Listen to Hello there"
@@ -6287,14 +6287,14 @@
    "example": "Hello there · which one is it?"
   },
   "No cards due right now. Next ones come due in {n} days.": {
-   "t": "ਇਸ ਵੇਲੇ ਦੁਹਰਾਉਣ ਲਈ ਕੋਈ ਕਾਰਡ ਨਹੀਂ। ਅਗਲੇ ਕਾਰਡ {1} ਦਿਨਾਂ ਵਿੱਚ ਆਉਣਗੇ।",
+   "t": "ਹੁਣ ਦੁਹਰਾਉਣ ਲਈ ਕੋਈ ਕਾਰਡ ਨਹੀਂ। ਅਗਲੀ ਦੁਹਰਾਈ ਤੱਕ ਦਿਨ: {1}।",
    "ko": "지금 복습할 카드가 없어요. 다음 복습은 {1}일 뒤예요.",
    "slots": "{1}=n",
    "example": "No cards due right now. Next ones come due in 5 days.",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "No cards due right now. Next ones come due in {n} day.": {
-   "t": "ਇਸ ਵੇਲੇ ਦੁਹਰਾਉਣ ਲਈ ਕੋਈ ਕਾਰਡ ਨਹੀਂ। ਅਗਲੇ ਕਾਰਡ {1} ਦਿਨ ਵਿੱਚ ਆਉਣਗੇ।",
+   "t": "ਹੁਣ ਦੁਹਰਾਉਣ ਲਈ ਕੋਈ ਕਾਰਡ ਨਹੀਂ। ਅਗਲੀ ਦੁਹਰਾਈ ਤੱਕ ਦਿਨ: {1}।",
    "ko": "지금 복습할 카드가 없어요. 다음 복습은 {1}일 뒤예요.",
    "slots": "{1}=n",
    "example": "No cards due right now. Next ones come due in 5 day.",
@@ -6325,26 +6325,26 @@
    "example": "Something went wrong: Hello there"
   },
   "레벨 업! Level {n} · {s} 🎉": {
-   "t": "레벨 업! ਲੈਵਲ {1} · {2} 🎉",
+   "t": "ਲੈਵਲ ਅੱਪ! ਲੈਵਲ {1} · {2} 🎉",
    "ko": "레벨 업! 레벨 {1} · {2} 🎉",
    "slots": "{1}=n, {2}=s",
    "example": "레벨 업! Level 5 · Greetings 🎉"
   },
   "🛡️ Streak shield used for yesterday. {n} left.": {
-   "t": "🛡️ ਬੀਤੇ ਕੱਲ੍ਹ ਲਈ ਸਟ੍ਰੀਕ ਸ਼ੀਲਡ ਵਰਤੀ ਗਈ। {1} ਬਾਕੀ।",
+   "t": "🛡️ ਕੱਲ੍ਹ ਲਈ ਲੜੀ ਦੀ ਢਾਲ ਵਰਤੀ ਗਈ। ਬਾਕੀ: {1}।",
    "ko": "🛡️ 어제 연속 학습 보호막을 썼어요. {1}개 남았어요.",
    "slots": "{1}=n",
    "example": "🛡️ Streak shield used for yesterday. 5 left.",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "🛡️ Streak shield earned ({n}/2). A missed day won't break your streak.": {
-   "t": "🛡️ ਸਟ੍ਰੀਕ ਸ਼ੀਲਡ ਮਿਲੀ ({1}/2)। ਇੱਕ ਦਿਨ ਖੁੰਝਣ ਨਾਲ ਤੁਹਾਡੀ ਸਟ੍ਰੀਕ ਨਹੀਂ ਟੁੱਟੇਗੀ।",
+   "t": "🛡️ ਲੜੀ ਦੀ ਢਾਲ ਮਿਲੀ ({1}/2)। ਇੱਕ ਦਿਨ ਖੁੰਝਣ ਨਾਲ ਤੁਹਾਡੀ ਲੜੀ ਨਹੀਂ ਟੁੱਟੇਗੀ।",
    "ko": "🛡️ 연속 학습 보호막을 얻었어요 ({1}/2). 하루 빠져도 연속 학습이 끊기지 않아요.",
    "slots": "{1}=n",
    "example": "🛡️ Streak shield earned (5/2). A missed day won't break your streak."
   },
   "🏆 {x} mastered · +50 XP": {
-   "t": "🏆 {1} ਪੱਕਾ · +50 XP",
+   "t": "🏆 ਪੱਕਾ: {1} · +50 XP",
    "ko": "🏆 {1} 마스터 · +50 XP",
    "slots": "{1}=x",
    "example": "🏆 Hello there mastered · +50 XP"
@@ -6356,19 +6356,19 @@
    "example": "🎓 Certificate earned: Hello there · +100 XP"
   },
   "🏅 Deck of the week complete: {x}": {
-   "t": "🏅 ਹਫ਼ਤੇ ਦਾ ਡੈੱਕ ਪੂਰਾ: {1}",
+   "t": "🏅 ਇਸ ਹਫ਼ਤੇ ਦਾ ਡੈੱਕ ਪੂਰਾ: {1}",
    "ko": "🏅 이번 주의 덱 완료: {1}",
    "slots": "{1}=x",
    "example": "🏅 Deck of the week complete: Hello there"
   },
   "Set up. Start with {x}.": {
-   "t": "ਤਿਆਰ ਹੈ। {1} ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ।",
+   "t": "ਸੈੱਟਅੱਪ ਹੋ ਗਿਆ। ਇੱਥੋਂ ਸ਼ੁਰੂ ਕਰੋ: {1}।",
    "ko": "설정 완료! {1}부터 시작해요.",
    "slots": "{1}=x",
    "example": "Set up. Start with Hello there."
   },
   "Plan set. {n} weeks.": {
-   "t": "ਯੋਜਨਾ ਤੈਅ ਹੋ ਗਈ। ਹਫ਼ਤੇ: {1}।",
+   "t": "ਪਲਾਨ ਤਿਆਰ। ਹਫ਼ਤੇ: {1}।",
    "ko": "계획을 세웠어요. {1}주 과정이에요.",
    "slots": "{1}=n",
    "example": "Plan set. 5 weeks.",
@@ -6382,26 +6382,26 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Merged. {n} cards of progress were new.": {
-   "t": "ਜੋੜ ਦਿੱਤਾ। ਤਰੱਕੀ ਵਿੱਚ ਨਵੇਂ ਕਾਰਡ: {1}।",
+   "t": "ਮਿਲ ਗਿਆ। ਤਰੱਕੀ ਦੇ ਨਵੇਂ ਕਾਰਡ: {1}।",
    "ko": "합쳤어요. 카드 {1}장의 진도가 새로 추가됐어요.",
    "slots": "{1}=n",
    "example": "Merged. 5 cards of progress were new.",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Couldn't delete right now ({x}). Try again, or post in Feedback.": {
-   "t": "ਇਸ ਵੇਲੇ ਮਿਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਿਆ ({1})। ਫਿਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ, ਜਾਂ ਫ਼ੀਡਬੈਕ ਵਿੱਚ ਪੋਸਟ ਕਰੋ।",
+   "t": "ਇਸ ਵੇਲੇ ਡਿਲੀਟ ਨਹੀਂ ਹੋ ਸਕਿਆ ({1})। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ, ਜਾਂ \"ਸੁਝਾਅ\" ਵਿੱਚ ਲਿਖੋ।",
    "ko": "지금은 삭제할 수 없어요 ({1}). 다시 시도하거나 피드백에 남겨 주세요.",
    "slots": "{1}=x",
    "example": "Couldn't delete right now (Hello there). Try again, or post in Feedback."
   },
   "This permanently deletes your account ({s}) and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type": {
-   "t": "ਇਹ ਤੁਹਾਡਾ ਅਕਾਊਂਟ ({1}) ਅਤੇ ਸਿੰਕ ਹੋਈ ਤਰੱਕੀ ਪੱਕੇ ਤੌਰ 'ਤੇ ਮਿਟਾ ਦਿੰਦਾ ਹੈ। ਇਹ ਵਾਪਸ ਨਹੀਂ ਹੋ ਸਕਦਾ। ਤੁਹਾਡੀਆਂ ਫ਼ੀਡਬੈਕ ਪੋਸਟਾਂ ਰਹਿੰਦੀਆਂ ਹਨ ਪਰ ਤੁਹਾਡੇ ਨਾਲ ਜੁੜੀਆਂ ਨਹੀਂ ਰਹਿੰਦੀਆਂ। ਹੇਠਾਂ",
+   "t": "ਇਸ ਨਾਲ ਤੁਹਾਡਾ ਅਕਾਊਂਟ ({1}) ਤੇ ਸਿੰਕ ਹੋਈ ਤਰੱਕੀ ਹਮੇਸ਼ਾ ਲਈ ਡਿਲੀਟ ਹੋ ਜਾਵੇਗੀ। ਇਹ ਵਾਪਸ ਨਹੀਂ ਹੋ ਸਕਦਾ। \"ਸੁਝਾਅ\" ਵਿੱਚ ਤੁਹਾਡੀਆਂ ਪੋਸਟਾਂ ਰਹਿਣਗੀਆਂ, ਪਰ ਤੁਹਾਡੇ ਨਾਲ ਜੁੜੀਆਂ ਨਹੀਂ ਰਹਿਣਗੀਆਂ। ਪੱਕਾ ਕਰਨ ਲਈ",
    "ko": "계정({1})과 동기화된 진도가 영구 삭제돼요. 되돌릴 수 없어요. 피드백 글은 남지만 더 이상 내 계정과 연결되지 않아요. 확인하려면",
    "slots": "{1}=s",
    "example": "This permanently deletes your account (Greetings) and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type"
   },
   "This permanently deletes your account () and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type": {
-   "t": "ਇਹ ਤੁਹਾਡਾ ਅਕਾਊਂਟ () ਅਤੇ ਸਿੰਕ ਹੋਈ ਤਰੱਕੀ ਪੱਕੇ ਤੌਰ 'ਤੇ ਮਿਟਾ ਦਿੰਦਾ ਹੈ। ਇਹ ਵਾਪਸ ਨਹੀਂ ਹੋ ਸਕਦਾ। ਤੁਹਾਡੀਆਂ ਫ਼ੀਡਬੈਕ ਪੋਸਟਾਂ ਰਹਿੰਦੀਆਂ ਹਨ ਪਰ ਤੁਹਾਡੇ ਨਾਲ ਜੁੜੀਆਂ ਨਹੀਂ ਰਹਿੰਦੀਆਂ। ਹੇਠਾਂ",
+   "t": "ਇਸ ਨਾਲ ਤੁਹਾਡਾ ਅਕਾਊਂਟ () ਤੇ ਸਿੰਕ ਹੋਈ ਤਰੱਕੀ ਹਮੇਸ਼ਾ ਲਈ ਡਿਲੀਟ ਹੋ ਜਾਵੇਗੀ। ਇਹ ਵਾਪਸ ਨਹੀਂ ਹੋ ਸਕਦਾ। \"ਸੁਝਾਅ\" ਵਿੱਚ ਤੁਹਾਡੀਆਂ ਪੋਸਟਾਂ ਰਹਿਣਗੀਆਂ, ਪਰ ਤੁਹਾਡੇ ਨਾਲ ਜੁੜੀਆਂ ਨਹੀਂ ਰਹਿਣਗੀਆਂ। ਪੱਕਾ ਕਰਨ ਲਈ",
    "ko": "계정과 동기화된 진도가 영구 삭제돼요. 되돌릴 수 없어요. 피드백 글은 남지만 더 이상 내 계정과 연결되지 않아요. 확인하려면",
    "slots": "",
    "example": "This permanently deletes your account () and your synced progress. It can't be undone. Your feedback posts stay but are no longer linked to you. Type"
@@ -6414,7 +6414,7 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} XP TODAY": {
-   "t": "{1} XP ਅੱਜ",
+   "t": "ਅੱਜ ਦਾ XP: {1}",
    "ko": "오늘 {1} XP",
    "slots": "{1}=n",
    "example": "5 XP TODAY",
@@ -6427,35 +6427,35 @@
    "example": "Hello there · day 5 🔥"
   },
   "· {n} days · a Quick session keeps it": {
-   "t": "· {1} ਦਿਨ · ਇੱਕ ਛੋਟਾ ਸੈਸ਼ਨ ਇਸ ਨੂੰ ਬਚਾ ਲਵੇਗਾ",
+   "t": "· {1} ਦਿਨ · ਛੋਟੇ ਸੈਸ਼ਨ ਨਾਲ ਲੜੀ ਬਣੀ ਰਹੇਗੀ",
    "ko": "· {1}일째 · 짧게 학습하면 지킬 수 있어요",
    "slots": "{1}=n",
    "example": "· 5 days · a Quick session keeps it",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "· {n} cards from mastery": {
-   "t": "· ਪੱਕਾ ਹੋਣ ਵਿੱਚ {1} ਕਾਰਡ ਬਾਕੀ",
+   "t": "· ਪੱਕਾ ਹੋਣ ਲਈ ਬਾਕੀ: {1}",
    "ko": "· 마스터까지 카드 {1}장",
    "slots": "{1}=n",
    "example": "· 5 cards from mastery",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "· {n} card from mastery": {
-   "t": "· ਪੱਕਾ ਹੋਣ ਵਿੱਚ {1} ਕਾਰਡ ਬਾਕੀ",
+   "t": "· ਪੱਕਾ ਹੋਣ ਲਈ ਬਾਕੀ: {1}",
    "ko": "· 마스터까지 카드 {1}장",
    "slots": "{1}=n",
    "example": "· 5 card from mastery",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n}/{n} learned · pass \"Test everything\" at 80%+ to finish · {n} weekly badges": {
-   "t": "{1}/{2} ਸਿੱਖੇ · ਪੂਰਾ ਕਰਨ ਲਈ \"ਸਭ ਕੁਝ ਪਰਖੋ\" 80%+ ਨਾਲ ਪਾਸ ਕਰੋ · {3} ਹਫ਼ਤਾਵਾਰੀ ਬੈਜ",
+   "t": "ਸਿੱਖੇ: {1}/{2} · ਪੂਰਾ ਕਰਨ ਲਈ \"ਸਭ ਕੁਝ ਟੈਸਟ ਕਰੋ\" ਵਿੱਚ 80%+ ਲਿਆਓ · ਹਫ਼ਤਾਵਾਰੀ ਬੈਜ: {3}",
    "ko": "{1}/{2} 익힘 · \"전체 테스트\"를 80% 이상으로 통과하면 완료 · 주간 배지 {3}개",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "5/2 learned · pass \"Test everything\" at 80%+ to finish · 3 weekly badges",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n}/{n} learned · pass \"Test everything\" at 80%+ to finish · {n} weekly badge": {
-   "t": "{1}/{2} ਸਿੱਖੇ · ਪੂਰਾ ਕਰਨ ਲਈ \"ਸਭ ਕੁਝ ਪਰਖੋ\" 80%+ ਨਾਲ ਪਾਸ ਕਰੋ · {3} ਹਫ਼ਤਾਵਾਰੀ ਬੈਜ",
+   "t": "ਸਿੱਖੇ: {1}/{2} · ਪੂਰਾ ਕਰਨ ਲਈ \"ਸਭ ਕੁਝ ਟੈਸਟ ਕਰੋ\" ਵਿੱਚ 80%+ ਲਿਆਓ · ਹਫ਼ਤਾਵਾਰੀ ਬੈਜ: {3}",
    "ko": "{1}/{2} 익힘 · \"전체 테스트\"를 80% 이상으로 통과하면 완료 · 주간 배지 {3}개",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "5/2 learned · pass \"Test everything\" at 80%+ to finish · 3 weekly badge",
@@ -6493,21 +6493,21 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "This week: {x} · lessons {s} · {n} new/day": {
-   "t": "ਇਸ ਹਫ਼ਤੇ: {1} · ਪਾਠ {2} · {3} ਨਵੇਂ/ਦਿਨ",
+   "t": "ਇਸ ਹਫ਼ਤੇ: {1} · ਪਾਠ {2} · ਰੋਜ਼ ਨਵੇਂ ਕਾਰਡ: {3}",
    "ko": "이번 주: {1} · 레슨 {2} · 하루 새 카드 {3}장",
    "slots": "{1}=x, {2}=s, {3}=n",
    "example": "This week: Hello there · lessons Greetings · 5 new/day",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "This week: · lessons {s} · {n} new/day": {
-   "t": "ਇਸ ਹਫ਼ਤੇ: · ਪਾਠ {1} · {2} ਨਵੇਂ/ਦਿਨ",
+   "t": "ਇਸ ਹਫ਼ਤੇ: · ਪਾਠ {1} · ਰੋਜ਼ ਨਵੇਂ ਕਾਰਡ: {2}",
    "ko": "이번 주: · 레슨 {1} · 하루 새 카드 {2}장",
    "slots": "{1}=s, {2}=n",
    "example": "This week: · lessons Greetings · 5 new/day",
    "context": "example is caught first by earlier pattern \"This week: {x} · {n} new/day\"; count slot: the translation must read correctly at 1 and at 2+"
   },
   "This week: {x} · {n} new/day": {
-   "t": "ਇਸ ਹਫ਼ਤੇ: {1} · {2} ਨਵੇਂ/ਦਿਨ",
+   "t": "ਇਸ ਹਫ਼ਤੇ: {1} · ਰੋਜ਼ ਨਵੇਂ ਕਾਰਡ: {2}",
    "ko": "이번 주: {1} · 하루 새 카드 {2}장",
    "slots": "{1}=x, {2}=n",
    "example": "This week: Hello there · 5 new/day",
@@ -6521,7 +6521,7 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "You missed {n}": {
-   "t": "{1} ਗ਼ਲਤ ਹੋਏ",
+   "t": "ਗ਼ਲਤ: {1}",
    "ko": "틀린 카드 {1}장:",
    "slots": "{1}=n",
    "example": "You missed 5"
@@ -6533,7 +6533,7 @@
    "example": "Open lesson · Hello there"
   },
   "{n}/{n} lessons done": {
-   "t": "{1}/{2} ਪਾਠ ਪੂਰੇ",
+   "t": "ਪੂਰੇ ਪਾਠ: {1}/{2}",
    "ko": "레슨 {1}/{2} 완료",
    "slots": "{1}=n, {2}=n",
    "example": "5/2 lessons done",
@@ -6547,19 +6547,19 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "3 questions on this lesson · passed ✓.": {
-   "t": "ਇਸ ਪਾਠ ਉੱਤੇ 3 ਸਵਾਲ · ਪਾਸ ✓।",
+   "t": "ਇਸ ਪਾਠ ਬਾਰੇ 3 ਸਵਾਲ · ਪਾਸ ✓।",
    "ko": "이 레슨 확인 문제 3개 · 통과 ✓.",
    "slots": "",
    "example": "3 questions on this lesson · passed ✓."
   },
   "3 questions on this lesson.": {
-   "t": "ਇਸ ਪਾਠ ਉੱਤੇ 3 ਸਵਾਲ।",
+   "t": "ਇਸ ਪਾਠ ਬਾਰੇ 3 ਸਵਾਲ।",
    "ko": "이 레슨 확인 문제 3개.",
    "slots": "",
    "example": "3 questions on this lesson."
   },
   "📖 Browse {x}": {
-   "t": "📖 {1} ਬ੍ਰਾਊਜ਼ ਕਰੋ",
+   "t": "📖 ਬ੍ਰਾਊਜ਼: {1}",
    "ko": "📖 {1} 둘러보기",
    "slots": "{1}=x",
    "example": "📖 Browse Hello there"
@@ -6571,7 +6571,7 @@
    "example": "5/2 · lesson done ✓"
   },
   "{n}/{n} · now pass the quick check above": {
-   "t": "{1}/{2} · ਹੁਣ ਉੱਪਰ ਵਾਲੀ ਛੋਟੀ ਜਾਂਚ ਪਾਸ ਕਰੋ",
+   "t": "{1}/{2} · ਹੁਣ ਉੱਪਰਲਾ ਮਿੰਨੀ-ਟੈਸਟ ਪਾਸ ਕਰੋ",
    "ko": "{1}/{2} · 이제 위의 확인 문제를 통과하세요",
    "slots": "{1}=n, {2}=n",
    "example": "5/2 · now pass the quick check above"
@@ -6590,68 +6590,68 @@
    "example": "· passed"
   },
   "{x} · seen {n}×": {
-   "t": "{1} · {2}× ਦੇਖਿਆ",
+   "t": "{1} · {2} ਵਾਰ ਦੇਖਿਆ",
    "ko": "{1} · {2}번 나옴",
    "slots": "{1}=x, {2}=n",
    "example": "Hello there · seen 5×",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "irregular: {x}": {
-   "t": "ਬੇਨਿਯਮੀ: {1}",
+   "t": "ਅਨਿਯਮਿਤ: {1}",
    "ko": "불규칙: {1}",
    "slots": "{1}=x",
    "example": "irregular: Hello there"
   },
   "{s} · {n} decks · {n} cards · {n} lessons · {n} dialogues": {
-   "t": "{1} · {2} ਡੈੱਕ · {3} ਕਾਰਡ · {4} ਪਾਠ · {5} ਗੱਲਬਾਤਾਂ",
+   "t": "{1} · {2} ਡੈੱਕ · {3} ਕਾਰਡ · {4} ਪਾਠ · ਗੱਲਬਾਤ: {5}",
    "ko": "{1} · 덱 {2}개 · 카드 {3}장 · 레슨 {4}개 · 대화 {5}개",
    "slots": "{1}=s, {2}=n, {3}=n, {4}=n, {5}=n",
    "example": "Greetings · 5 decks · 2 cards · 3 lessons · 4 dialogues",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "🛡️ Streak shields: {n}/2 · earn one every 7-day streak; a missed day spends one instead of breaking the streak.": {
-   "t": "🛡️ ਸਟ੍ਰੀਕ ਸ਼ੀਲਡਾਂ: {1}/2 · ਹਰ 7 ਦਿਨਾਂ ਦੀ ਸਟ੍ਰੀਕ 'ਤੇ ਇੱਕ ਮਿਲਦੀ ਹੈ; ਖੁੰਝਿਆ ਦਿਨ ਸਟ੍ਰੀਕ ਤੋੜਨ ਦੀ ਬਜਾਏ ਇੱਕ ਸ਼ੀਲਡ ਵਰਤ ਲੈਂਦਾ ਹੈ।",
+   "t": "🛡️ ਲੜੀ ਦੀਆਂ ਢਾਲਾਂ: {1}/2 · ਹਰ 7 ਦਿਨਾਂ ਦੀ ਲੜੀ ਉੱਤੇ ਇੱਕ ਮਿਲਦੀ ਹੈ; ਦਿਨ ਖੁੰਝਣ ਨਾਲ ਲੜੀ ਟੁੱਟਣ ਦੀ ਥਾਂ ਇੱਕ ਢਾਲ ਖ਼ਰਚ ਹੁੰਦੀ ਹੈ।",
    "ko": "🛡️ 연속 학습 보호막: {1}/2 · 7일 연속 학습할 때마다 하나씩 얻어요. 하루 빠지면 연속 학습 대신 보호막이 하나 쓰여요.",
    "slots": "{1}=n",
    "example": "🛡️ Streak shields: 5/2 · earn one every 7-day streak; a missed day spends one instead of breaking the streak."
   },
   "Last 8 weeks · {n} active days · {n} active weeks · green = goal met, amber = some study": {
-   "t": "ਪਿਛਲੇ 8 ਹਫ਼ਤੇ · ਸਰਗਰਮ ਦਿਨ: {1} · ਸਰਗਰਮ ਹਫ਼ਤੇ: {2} · ਹਰਾ = ਟੀਚਾ ਪੂਰਾ, ਪੀਲਾ = ਥੋੜ੍ਹੀ ਪੜ੍ਹਾਈ",
+   "t": "ਪਿਛਲੇ 8 ਹਫ਼ਤੇ · ਸਰਗਰਮ ਦਿਨ: {1} · ਸਰਗਰਮ ਹਫ਼ਤੇ: {2} · ਹਰਾ = ਟੀਚਾ ਪੂਰਾ, ਸੰਤਰੀ = ਥੋੜ੍ਹੀ ਪੜ੍ਹਾਈ",
    "ko": "최근 8주 · 학습한 날 {1}일 · 학습한 주 {2}주 · 초록 = 목표 달성, 주황 = 조금 학습",
    "slots": "{1}=n, {2}=n",
    "example": "Last 8 weeks · 5 active days · 2 active weeks · green = goal met, amber = some study",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct · {n}s per card · best hour {n}:00 ({n}%)": {
-   "t": "ਹਾਲੀਆ ਦੁਹਰਾਈ: {1} · {2}% ਸਹੀ · {3} ਸਕਿੰਟ ਪ੍ਰਤੀ ਕਾਰਡ · ਵਧੀਆ ਘੰਟਾ {4}:00 ({5}%)",
+   "t": "ਪਿਛਲੀ ਦੁਹਰਾਈ: {1} · ਸਹੀ: {2}% · ਹਰ ਕਾਰਡ: {3} ਸਕਿੰਟ · ਸਭ ਤੋਂ ਵਧੀਆ ਘੰਟਾ: {4}:00 ({5}%)",
    "ko": "최근 복습 {1}번 · 정답률 {2}% · 카드당 {3}초 · 가장 잘되는 시간 {4}시 ({5}%)",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n, {5}=n",
    "example": "Last 5 reviews · 2% correct · 3s per card · best hour 4:00 (6%)",
    "context": "example is caught first by earlier pattern \"Last {n} reviews · {n}% correct · {f}s per card · best hour {n}:00 ({n}%)\"; count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct · {n}s per card": {
-   "t": "ਹਾਲੀਆ ਦੁਹਰਾਈ: {1} · {2}% ਸਹੀ · {3} ਸਕਿੰਟ ਪ੍ਰਤੀ ਕਾਰਡ",
+   "t": "ਪਿਛਲੀ ਦੁਹਰਾਈ: {1} · ਸਹੀ: {2}% · ਹਰ ਕਾਰਡ: {3} ਸਕਿੰਟ",
    "ko": "최근 복습 {1}번 · 정답률 {2}% · 카드당 {3}초",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Last 5 reviews · 2% correct · 3s per card",
    "context": "example is caught first by earlier pattern \"Last {n} reviews · {n}% correct · {f}s per card\"; count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct · best hour {n}:00 ({n}%)": {
-   "t": "ਹਾਲੀਆ ਦੁਹਰਾਈ: {1} · {2}% ਸਹੀ · ਵਧੀਆ ਘੰਟਾ {3}:00 ({4}%)",
+   "t": "ਪਿਛਲੀ ਦੁਹਰਾਈ: {1} · ਸਹੀ: {2}% · ਸਭ ਤੋਂ ਵਧੀਆ ਘੰਟਾ: {3}:00 ({4}%)",
    "ko": "최근 복습 {1}번 · 정답률 {2}% · 가장 잘되는 시간 {3}시 ({4}%)",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n",
    "example": "Last 5 reviews · 2% correct · best hour 3:00 (4%)",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Last {n} reviews · {n}% correct": {
-   "t": "ਹਾਲੀਆ ਦੁਹਰਾਈ: {1} · {2}% ਸਹੀ",
+   "t": "ਪਿਛਲੀ ਦੁਹਰਾਈ: {1} · ਸਹੀ: {2}%",
    "ko": "최근 복습 {1}번 · 정답률 {2}%",
    "slots": "{1}=n, {2}=n",
    "example": "Last 5 reviews · 2% correct",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} due now · {n} tomorrow · {n} in the next 7 days · {n} in 14": {
-   "t": "ਹੁਣ {1} · ਕੱਲ੍ਹ {2} · ਅਗਲੇ 7 ਦਿਨਾਂ ਵਿੱਚ {3} · 14 ਵਿੱਚ {4}",
+   "t": "ਹੁਣ ਦੁਹਰਾਉਣੇ ਹਨ: {1} · ਕੱਲ੍ਹ: {2} · ਅਗਲੇ 7 ਦਿਨ: {3} · ਅਗਲੇ 14 ਦਿਨ: {4}",
    "ko": "지금 복습 {1} · 내일 {2} · 7일 안에 {3} · 14일 안에 {4}",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n",
    "example": "5 due now · 2 tomorrow · 3 in the next 7 days · 4 in 14",
@@ -6670,38 +6670,38 @@
    "example": "Hello there · 6 = mastered"
   },
   "{n} predictions · when you said \"yes\" you were right {n}% of the time ({n}/{n}) · when \"not sure\", you still got {n}% ({n}/{n}) · {n} overconfident cards go first in Weak spots": {
-   "t": "{1} ਅਨੁਮਾਨ · ਜਦੋਂ ਤੁਸੀਂ \"ਹਾਂ\" ਕਿਹਾ, ਤੁਸੀਂ {2}% ਵਾਰ ਸਹੀ ਸੀ ({3}/{4}) · \"ਪੱਕਾ ਨਹੀਂ\" ਕਹਿਣ 'ਤੇ ਵੀ {5}% ਸਹੀ ({6}/{7}) · ਵਾਧੂ ਭਰੋਸੇ ਵਾਲੇ ਕਾਰਡ ({8}) ਕਮਜ਼ੋਰੀਆਂ ਵਿੱਚ ਪਹਿਲਾਂ ਆਉਂਦੇ ਹਨ",
+   "t": "ਅੰਦਾਜ਼ੇ: {1} · \"ਹਾਂ\" ਕਹਿਣ ਵੇਲੇ ਸਹੀ: {2}% ({3}/{4}) · \"ਪੱਕਾ ਨਹੀਂ\" ਕਹਿਣ ਵੇਲੇ ਵੀ ਸਹੀ: {5}% ({6}/{7}) · ਲੋੜ ਤੋਂ ਵੱਧ ਭਰੋਸੇ ਵਾਲੇ ਕਾਰਡ: {8} · \"ਕਮਜ਼ੋਰ ਥਾਵਾਂ\" ਵਿੱਚ ਸਭ ਤੋਂ ਪਹਿਲਾਂ",
    "ko": "예측 {1}번 · \"네\"라고 했을 때 {2}% 맞혔어요 ({3}/{4}) · \"잘 모르겠어요\"라고 했을 때도 {5}% 맞혔어요 ({6}/{7}) · 과신한 카드 {8}장은 약점 공략에 먼저 나와요",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n, {5}=n, {6}=n, {7}=n, {8}=n",
    "example": "5 predictions · when you said \"yes\" you were right 2% of the time (3/4) · when \"not sure\", you still got 6% (7/8) · 9 overconfident cards go first in Weak spots",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Start typing": {
-   "t": "ਟਾਈਪ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰੋ",
+   "t": "ਲਿਖਣਾ ਸ਼ੁਰੂ ਕਰੋ",
    "ko": "입력해 보세요",
    "slots": "",
    "example": "Start typing"
   },
   "Start typing · streak {n}": {
-   "t": "ਟਾਈਪ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰੋ · ਸਟ੍ਰੀਕ {1}",
+   "t": "ਲਿਖਣਾ ਸ਼ੁਰੂ ਕਰੋ · ਲੜੀ {1}",
    "ko": "입력해 보세요 · 연속 {1}",
    "slots": "{1}=n",
    "example": "Start typing · streak 5"
   },
   "Start typing · best {n}": {
-   "t": "ਟਾਈਪ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰੋ · ਸਭ ਤੋਂ ਵਧੀਆ {1}",
+   "t": "ਲਿਖਣਾ ਸ਼ੁਰੂ ਕਰੋ · ਸਭ ਤੋਂ ਵਧੀਆ {1}",
    "ko": "입력해 보세요 · 최고 {1}",
    "slots": "{1}=n",
    "example": "Start typing · best 5"
   },
   "Start typing · streak {n} · best {n}": {
-   "t": "ਟਾਈਪ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰੋ · ਸਟ੍ਰੀਕ {1} · ਸਭ ਤੋਂ ਵਧੀਆ {2}",
+   "t": "ਲਿਖਣਾ ਸ਼ੁਰੂ ਕਰੋ · ਲੜੀ {1} · ਸਭ ਤੋਂ ਵਧੀਆ {2}",
    "ko": "입력해 보세요 · 연속 {1} · 최고 {2}",
    "slots": "{1}=n, {2}=n",
    "example": "Start typing · streak 5 · best 2"
   },
   "{n}% · {n} tried · streak {n}": {
-   "t": "{1}% · ਕੋਸ਼ਿਸ਼ਾਂ: {2} · ਸਟ੍ਰੀਕ {3}",
+   "t": "{1}% · ਕੋਸ਼ਿਸ਼ਾਂ: {2} · ਲੜੀ {3}",
    "ko": "{1}% · {2}번 시도 · 연속 {3}",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "5% · 2 tried · streak 3",
@@ -6715,14 +6715,14 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n}% · {n} tried · streak {n} · best {n}": {
-   "t": "{1}% · ਕੋਸ਼ਿਸ਼ਾਂ: {2} · ਸਟ੍ਰੀਕ {3} · ਸਭ ਤੋਂ ਵਧੀਆ {4}",
+   "t": "{1}% · ਕੋਸ਼ਿਸ਼ਾਂ: {2} · ਲੜੀ {3} · ਸਭ ਤੋਂ ਵਧੀਆ {4}",
    "ko": "{1}% · {2}번 시도 · 연속 {3} · 최고 {4}",
    "slots": "{1}=n, {2}=n, {3}=n, {4}=n",
    "example": "5% · 2 tried · streak 3 · best 4",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Syncing as {x}": {
-   "t": "{1} ਵਜੋਂ ਸਿੰਕ ਹੋ ਰਿਹਾ ਹੈ",
+   "t": "ਸਿੰਕ ਹੋ ਰਿਹਾ ਹੈ: {1}",
    "ko": "동기화 중: {1}",
    "slots": "{1}=x",
    "example": "Syncing as Hello there"
@@ -6734,7 +6734,7 @@
    "example": "Hello there · this device only"
   },
   "Show my name ({x}) publicly": {
-   "t": "ਮੇਰਾ ਨਾਂ ({1}) ਜਨਤਕ ਦਿਖਾਓ",
+   "t": "ਮੇਰਾ ਨਾਂ ({1}) ਸਭ ਨੂੰ ਦਿਖਾਓ",
    "ko": "내 이름 표시 ({1}) 공개",
    "slots": "{1}=x",
    "example": "Show my name (Hello there) publicly"
@@ -6758,7 +6758,7 @@
    "example": "Anonymous · Hello there"
   },
   "Due for review · {x}": {
-   "t": "ਦੁਹਰਾਉਣ ਦੀ ਵਾਰੀ · {1}",
+   "t": "ਦੁਹਰਾਉਣ ਦਾ ਵੇਲਾ · {1}",
    "ko": "복습할 카드 · {1}",
    "slots": "{1}=x",
    "example": "Due for review · Hello there"
@@ -6770,13 +6770,13 @@
    "example": "Word to learn · Hello there"
   },
   "안녕하세요, {x}!": {
-   "t": "안녕하세요, {1}!",
+   "t": "ਹੈਲੋ, {1}!",
    "ko": "안녕하세요, {1}님!",
    "slots": "{1}=x",
    "example": "안녕하세요, Hello there!"
   },
   "Today · quick actions": {
-   "t": "ਅੱਜ · ਝਟਪਟ ਕਾਰਵਾਈਆਂ",
+   "t": "ਅੱਜ · ਸ਼ਾਰਟਕੱਟ",
    "ko": "오늘 · 빠른 실행",
    "slots": "",
    "example": "Today · quick actions"
@@ -6788,7 +6788,7 @@
    "example": "5/2 · Today"
   },
   "Practice · quick actions": {
-   "t": "ਅਭਿਆਸ · ਝਟਪਟ ਕਾਰਵਾਈਆਂ",
+   "t": "ਅਭਿਆਸ · ਸ਼ਾਰਟਕੱਟ",
    "ko": "연습 · 빠른 실행",
    "slots": "",
    "example": "Practice · quick actions"
@@ -6800,7 +6800,7 @@
    "example": "5/2 · Practice"
   },
   "Review · quick actions": {
-   "t": "ਦੁਹਰਾਈ · ਝਟਪਟ ਕਾਰਵਾਈਆਂ",
+   "t": "ਦੁਹਰਾਈ · ਸ਼ਾਰਟਕੱਟ",
    "ko": "복습 · 빠른 실행",
    "slots": "",
    "example": "Review · quick actions"
@@ -6812,7 +6812,7 @@
    "example": "5/2 · Review"
   },
   "Lessons · quick actions": {
-   "t": "ਪਾਠ · ਝਟਪਟ ਕਾਰਵਾਈਆਂ",
+   "t": "ਪਾਠ · ਸ਼ਾਰਟਕੱਟ",
    "ko": "레슨 · 빠른 실행",
    "slots": "",
    "example": "Lessons · quick actions"
@@ -6824,19 +6824,19 @@
    "example": "5/2 · Lessons"
   },
   "Read · quick actions": {
-   "t": "ਪੜ੍ਹਨਾ · ਝਟਪਟ ਕਾਰਵਾਈਆਂ",
+   "t": "ਪੜ੍ਹੋ · ਸ਼ਾਰਟਕੱਟ",
    "ko": "읽기 · 빠른 실행",
    "slots": "",
    "example": "Read · quick actions"
   },
   "{n}/{n} · Read": {
-   "t": "{1}/{2} · ਪੜ੍ਹਨਾ",
+   "t": "{1}/{2} · ਪੜ੍ਹੋ",
    "ko": "{1}/{2} · 읽기",
    "slots": "{1}=n, {2}=n",
    "example": "5/2 · Read"
   },
   "Progress · quick actions": {
-   "t": "ਤਰੱਕੀ · ਝਟਪਟ ਕਾਰਵਾਈਆਂ",
+   "t": "ਤਰੱਕੀ · ਸ਼ਾਰਟਕੱਟ",
    "ko": "진도 · 빠른 실행",
    "slots": "",
    "example": "Progress · quick actions"
@@ -6848,13 +6848,13 @@
    "example": "5/2 · Progress"
   },
   "Feedback · quick actions": {
-   "t": "ਫ਼ੀਡਬੈਕ · ਝਟਪਟ ਕਾਰਵਾਈਆਂ",
+   "t": "ਸੁਝਾਅ · ਸ਼ਾਰਟਕੱਟ",
    "ko": "피드백 · 빠른 실행",
    "slots": "",
    "example": "Feedback · quick actions"
   },
   "{n}/{n} · Feedback": {
-   "t": "{1}/{2} · ਫ਼ੀਡਬੈਕ",
+   "t": "{1}/{2} · ਸੁਝਾਅ",
    "ko": "{1}/{2} · 피드백",
    "slots": "{1}=n, {2}=n",
    "example": "5/2 · Feedback"
@@ -6866,20 +6866,20 @@
    "example": "5/2 · Hello there"
   },
   "Accent {x}": {
-   "t": "{1} ਰੰਗ",
+   "t": "ਥੀਮ ਰੰਗ: {1}",
    "ko": "강조 색상: {1}",
    "slots": "{1}=x",
    "example": "Accent Hello there"
   },
   "{x} · ~{n} days of new cards": {
-   "t": "{1} · ~{2} ਦਿਨਾਂ ਦੇ ਨਵੇਂ ਕਾਰਡ",
+   "t": "{1} · ਨਵੇਂ ਕਾਰਡ: ~{2} ਦਿਨ",
    "ko": "{1} · 새 카드 약 {2}일 분량",
    "slots": "{1}=x, {2}=n",
    "example": "Hello there · ~5 days of new cards",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{x} · ~{n} day of new cards": {
-   "t": "{1} · ~{2} ਦਿਨ ਦੇ ਨਵੇਂ ਕਾਰਡ",
+   "t": "{1} · ਨਵੇਂ ਕਾਰਡ: ~{2} ਦਿਨ",
    "ko": "{1} · 새 카드 약 {2}일 분량",
    "slots": "{1}=x, {2}=n",
    "example": "Hello there · ~5 day of new cards",
@@ -6892,7 +6892,7 @@
    "example": "Hello there · all seen"
   },
   "Practice {x}": {
-   "t": "{1} ਦਾ ਅਭਿਆਸ",
+   "t": "ਅਭਿਆਸ: {1}",
    "ko": "{1} 연습",
    "slots": "{1}=x",
    "example": "Practice Hello there"
@@ -6904,7 +6904,7 @@
    "example": "Hello there (auto)"
   },
   "{n} cards learned · {n} due": {
-   "t": "ਸਿੱਖੇ ਕਾਰਡ: {1} · ਦੁਹਰਾਈ ਲਈ {2}",
+   "t": "ਸਿੱਖੇ ਕਾਰਡ: {1} · ਦੁਹਰਾਉਣੇ ਹਨ: {2}",
    "ko": "카드 {1}장 익힘 · 복습 대기 {2}",
    "slots": "{1}=n, {2}=n",
    "example": "5 cards learned · 2 due",
@@ -6918,13 +6918,13 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} 🔒 locked": {
-   "t": "{1} 🔒 ਲੌਕ",
+   "t": "🔒 ਬੰਦ: {1}",
    "ko": "{1}개 잠김",
    "slots": "{1}=n",
    "example": "5 🔒 locked"
   },
   "🔒 {n} locked": {
-   "t": "🔒 {1} ਲੌਕ",
+   "t": "🔒 ਬੰਦ: {1}",
    "ko": "🔒 {1}개 잠김",
    "slots": "{1}=n",
    "example": "🔒 5 locked",
@@ -6945,14 +6945,14 @@
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "· ~{n} days of new cards": {
-   "t": "· ~{1} ਦਿਨਾਂ ਦੇ ਨਵੇਂ ਕਾਰਡ",
+   "t": "· ਨਵੇਂ ਕਾਰਡ: ~{1} ਦਿਨ",
    "ko": "· 새 카드 약 {1}일 분량",
    "slots": "{1}=n",
    "example": "· ~5 days of new cards",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "· ~{n} day of new cards": {
-   "t": "· ~{1} ਦਿਨ ਦੇ ਨਵੇਂ ਕਾਰਡ",
+   "t": "· ਨਵੇਂ ਕਾਰਡ: ~{1} ਦਿਨ",
    "ko": "· 새 카드 약 {1}일 분량",
    "slots": "{1}=n",
    "example": "· ~5 day of new cards",
@@ -6965,118 +6965,118 @@
    "example": "Listen: Hello there"
   },
   "{n} decks · {n} cards mastered to 80%+ · all lesson checks passed": {
-   "t": "{1} ਡੈੱਕ · {2} ਕਾਰਡ 80%+ ਤੱਕ ਪੱਕੇ · ਪਾਠਾਂ ਦੀਆਂ ਸਾਰੀਆਂ ਜਾਂਚਾਂ ਪਾਸ",
+   "t": "{1} ਡੈੱਕ · 80%+ ਤੱਕ ਪੱਕੇ ਕਾਰਡ: {2} · ਸਾਰੇ ਮਿੰਨੀ-ਟੈਸਟ ਪਾਸ",
    "ko": "덱 {1}개 · 카드 {2}장 80% 이상 마스터 · 확인 문제 모두 통과",
    "slots": "{1}=n, {2}=n",
    "example": "5 decks · 2 cards mastered to 80%+ · all lesson checks passed",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "Merged into {x}. {n} cards of progress were new.": {
-   "t": "{1} ਵਿੱਚ ਜੋੜ ਦਿੱਤਾ। ਤਰੱਕੀ ਵਿੱਚ ਨਵੇਂ ਕਾਰਡ: {2}।",
+   "t": "ਮਿਲ ਗਿਆ: {1}। ਤਰੱਕੀ ਦੇ ਨਵੇਂ ਕਾਰਡ: {2}।",
    "ko": "{1} 코스에 합쳤어요. 카드 {2}장의 진도가 새로 추가됐어요.",
    "slots": "{1}=x, {2}=n",
    "example": "Merged into Hello there. 5 cards of progress were new.",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   },
   "{x} progress": {
-   "t": "{1} ਵਿੱਚ ਤਰੱਕੀ",
+   "t": "ਤਰੱਕੀ: {1}",
    "ko": "{1} 진도",
    "slots": "{1}=x",
    "example": "Hello there progress"
   },
   "Now learning {x} · progress saved per course": {
-   "t": "ਹੁਣ ਦਾ ਕੋਰਸ: {1} · ਤਰੱਕੀ ਹਰ ਕੋਰਸ ਦੀ ਵੱਖਰੀ ਸੇਵ ਹੁੰਦੀ ਹੈ",
+   "t": "ਕੋਰਸ: {1} · ਹਰ ਕੋਰਸ ਦੀ ਤਰੱਕੀ ਵੱਖਰੀ ਸੇਵ ਹੁੰਦੀ ਹੈ",
    "ko": null,
    "slots": "{1}=x",
    "example": "Now learning Hello there · progress saved per course",
    "context": "{0} = target language name in the UI language (英語) — Course switched toast (LL)"
   },
   "How much {x} do you know?": {
-   "t": "ਤੁਹਾਨੂੰ ਕਿੰਨੀ {1} ਆਉਂਦੀ ਹੈ?",
+   "t": "{1}: ਤੁਹਾਡਾ ਲੈਵਲ ਕੀ ਹੈ?",
    "ko": null,
    "slots": "{1}=x",
    "example": "How much Hello there do you know?",
    "context": "{0} = target language name in the UI language — Onboarding question (LL)"
   },
   "What do you want {x} for?": {
-   "t": "ਤੁਹਾਨੂੰ {1} ਕਿਸ ਲਈ ਚਾਹੀਦੀ ਹੈ?",
+   "t": "{1}: ਤੁਸੀਂ ਕਿਸ ਲਈ ਸਿੱਖਣਾ ਚਾਹੁੰਦੇ ਹੋ?",
    "ko": null,
    "slots": "{1}=x",
    "example": "What do you want Hello there for?",
    "context": "{0} = target language name in the UI language — Onboarding question (LL)"
   },
   "type it in {x}": {
-   "t": "{1} ਵਿੱਚ ਟਾਈਪ ਕਰੋ",
+   "t": "ਜਵਾਬ ਦੀ ਭਾਸ਼ਾ: {1}",
    "ko": null,
    "slots": "{1}=x",
    "example": "type it in Hello there",
    "context": "{0} = target language name in the UI language — Type drill / typed quiz instruction (LL)"
   },
   "Type in {x}…": {
-   "t": "{1} ਵਿੱਚ ਟਾਈਪ ਕਰੋ…",
+   "t": "ਜਵਾਬ ਦੀ ਭਾਸ਼ਾ: {1}…",
    "ko": null,
    "slots": "{1}=x",
    "example": "Type in Hello there…",
    "context": "{0} = target language name in the UI language — Type drill / typed quiz / say-it / practice placeholder (LL)"
   },
   "Type the {x}, or tap Check again to give up.": {
-   "t": "{1} ਟਾਈਪ ਕਰੋ, ਜਾਂ ਹਾਰ ਮੰਨਣ ਲਈ ਫਿਰ ਜਾਂਚੋ ਦਬਾਓ।",
+   "t": "ਜਵਾਬ ਦੀ ਭਾਸ਼ਾ: {1}। ਜਵਾਬ ਲਿਖੋ, ਜਾਂ ਛੱਡਣ ਲਈ ਦੁਬਾਰਾ \"ਜਾਂਚੋ\" ਟੈਪ ਕਰੋ।",
    "ko": null,
    "slots": "{1}=x",
    "example": "Type the Hello there, or tap Check again to give up.",
    "context": "{0} = target language name in the UI language — Typed quiz empty-submit warning (LL)"
   },
   "Planned · {n} more lessons": {
-   "t": "ਯੋਜਨਾ ਵਿੱਚ · {1} ਹੋਰ ਪਾਠ",
+   "t": "ਪਲਾਨ ਵਿੱਚ · ਹੋਰ ਪਾਠ: {1}",
    "ko": null,
    "slots": "{1}=n",
    "example": "Planned · 5 more lessons",
    "context": "{0} = count (always ≥ 1; English uses the plural form even for 1) — Lessons list: planned roadmap heading (LL)"
   },
   "Best first try {n}% · last {n}% · 1 run": {
-   "t": "ਪਹਿਲੀ ਕੋਸ਼ਿਸ਼ ਵਿੱਚ ਵਧੀਆ {1}% · ਪਿਛਲਾ {2}% · 1 ਵਾਰ",
+   "t": "ਪਹਿਲੀ ਕੋਸ਼ਿਸ਼ ਦਾ ਸਭ ਤੋਂ ਵਧੀਆ ਸਕੋਰ {1}% · ਪਿਛਲਾ {2}% · ਕੋਸ਼ਿਸ਼ਾਂ: 1",
    "ko": null,
    "slots": "{1}=n, {2}=n",
    "example": "Best first try 5% · last 2% · 1 run",
    "context": "{0},{1} = percent 0–100 — Lesson practice entry, after a run (singular) (LL)"
   },
   "Best first try {n}% · last {n}% · {n} runs": {
-   "t": "ਪਹਿਲੀ ਕੋਸ਼ਿਸ਼ ਵਿੱਚ ਵਧੀਆ {1}% · ਪਿਛਲਾ {2}% · {3} ਵਾਰ",
+   "t": "ਪਹਿਲੀ ਕੋਸ਼ਿਸ਼ ਦਾ ਸਭ ਤੋਂ ਵਧੀਆ ਸਕੋਰ {1}% · ਪਿਛਲਾ {2}% · ਕੋਸ਼ਿਸ਼ਾਂ: {3}",
    "ko": null,
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "Best first try 5% · last 2% · 3 runs",
    "context": "{0},{1} = percent; {2} = run count ≥ 2 — Lesson practice entry, after runs (plural; put AFTER the singular pattern or keep both anchored as here) (LL)"
   },
   "{n} items · from choosing to typing it yourself": {
-   "t": "{1} ਸਵਾਲ · ਚੁਣਨ ਤੋਂ ਲੈ ਕੇ ਆਪ ਟਾਈਪ ਕਰਨ ਤੱਕ",
+   "t": "{1} ਸਵਾਲ · ਚੁਣਨ ਤੋਂ ਲੈ ਕੇ ਖ਼ੁਦ ਲਿਖਣ ਤੱਕ",
    "ko": null,
    "slots": "{1}=n",
    "example": "5 items · from choosing to typing it yourself",
    "context": "{0} = item count (≥ 12 in shipped packs) — Lesson practice entry, before any run (LL)"
   },
   "No {x} keyboard? Use tiles": {
-   "t": "{1} ਕੀਬੋਰਡ ਨਹੀਂ? ਟਾਈਲਾਂ ਵਰਤੋ",
+   "t": "{1}: ਕੀਬੋਰਡ ਨਹੀਂ ਹੈ? ਟਾਈਲਾਂ ਨਾਲ ਚੁਣੋ",
    "ko": null,
    "slots": "{1}=x",
    "example": "No Hello there keyboard? Use tiles",
    "context": "{0} = target language name in the UI language — Practice runner: tiles toggle (LL)"
   },
   "Learning {x} 5 minutes a day with Lang App {x}": {
-   "t": "Lang App ਨਾਲ ਰੋਜ਼ 5 ਮਿੰਟ ਵਿੱਚ {1} ਸਿੱਖਣਾ {2}",
+   "t": "{1} — ਰੋਜ਼ 5 ਮਿੰਟ, Lang App ਨਾਲ {2}",
    "ko": null,
    "slots": "{1}=x, {2}=x",
    "example": "Learning Hello there 5 minutes a day with Lang App Good night",
    "context": "{0} = target language name in the UI language; {1} = flag emoji — Share sheet text (LL)"
   },
   "Learn {x}, 5 minutes a day": {
-   "t": "{1} ਸਿੱਖੋ, ਰੋਜ਼ 5 ਮਿੰਟ",
+   "t": "{1} — ਰੋਜ਼ 5 ਮਿੰਟ",
    "ko": null,
    "slots": "{1}=x",
    "example": "Learn Hello there, 5 minutes a day",
    "context": "{0} = target language name in the UI language — Intro animation subtitle (pack courses) (LL)"
   },
   "Coming soon · {n} lessons planned": {
-   "t": "ਜਲਦੀ ਆ ਰਿਹਾ ਹੈ · {1} ਪਾਠਾਂ ਦੀ ਯੋਜਨਾ",
+   "t": "ਜਲਦੀ ਆ ਰਿਹਾ ਹੈ · ਪਲਾਨ ਕੀਤੇ ਪਾਠ: {1}",
    "ko": null,
    "slots": "{1}=n",
    "example": "Coming soon · 5 lessons planned",
@@ -7090,28 +7090,28 @@
    "context": "{0} = streak days — Today streak line when the pack has no greeting gloss (DOM translator (JS-built text))"
   },
   "Level up! Level {n} · {x} 🎉": {
-   "t": "ਲੈਵਲ ਵਧਿਆ! ਲੈਵਲ {1} · {2} 🎉",
+   "t": "ਲੈਵਲ ਅੱਪ! ਲੈਵਲ {1} · {2} 🎉",
    "ko": null,
    "slots": "{1}=n, {2}=x",
    "example": "Level up! Level 5 · Hello there 🎉",
    "context": "{0} = level; {1} = level title from the course pack's TITLES (<English> <native>) — Level-up toast for non-Korean courses (DOM translator; Korean side keeps ^레벨 업! Level …) (DOM translator (JS-built text))"
   },
   "Extra practice · {n}/{n} learned": {
-   "t": "ਵਾਧੂ ਅਭਿਆਸ · {1}/{2} ਸਿੱਖੇ",
+   "t": "ਵਾਧੂ ਅਭਿਆਸ · ਸਿੱਖੇ: {1}/{2}",
    "ko": "추가 연습 · {1}/{2} 익힘",
    "slots": "{1}=n, {2}=n",
    "example": "Extra practice · 5/2 learned",
    "context": "review status line: current card is extra practice · learned/total in this deck; count slot: the translation must read correctly at 1 and at 2+"
   },
   "New card · {n}/{n} learned": {
-   "t": "ਨਵਾਂ ਕਾਰਡ · {1}/{2} ਸਿੱਖੇ",
+   "t": "ਨਵਾਂ ਕਾਰਡ · ਸਿੱਖੇ: {1}/{2}",
    "ko": "새 카드 · {1}/{2} 익힘",
    "slots": "{1}=n, {2}=n",
    "example": "New card · 5/2 learned",
    "context": "review status line: current card is new · learned/total in this deck; count slot: the translation must read correctly at 1 and at 2+"
   },
   "{n} due · {n}/{n} learned": {
-   "t": "ਦੁਹਰਾਈ ਲਈ {1} · {2}/{3} ਸਿੱਖੇ",
+   "t": "ਦੁਹਰਾਉਣੇ ਹਨ: {1} · ਸਿੱਖੇ: {2}/{3}",
    "ko": "복습 대기 {1} · {2}/{3} 익힘",
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "5 due · 2/3 learned",

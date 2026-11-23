@@ -1,0 +1,17 @@
+{
+  "lessons": {},
+  "items": {},
+  "decks": {
+    "ਆਪਣੀ ਜਾਣ-ਪਛਾਣ": "localisation per profile pa.md §9 (Minji→Simran, Korea→India, Seoul→Amritsar; same positions as hi/zh): cards 0 'My name is Simran.', 4 'I'm from India.', 5 'I live in Amritsar.'. pa-only cards appended per §9 «ਆਪਣੀ ਜਾਣ-ਪਛਾਣ» (cards 17–20): two he / she pairs for the one Punjabi ਉਹ — 'This is my brother. He's a driver.', 'This is my sister. She's a nurse.', 'His name is Aman.', 'Her name is Simran.'. Original 17 cards otherwise unchanged",
+    "ਸਭ ਤੋਂ ਜ਼ਰੂਰੀ 1": "localisation per profile pa.md §9: card 12 'Do you speak Korean?' → 'Do you speak Punjabi?' (learner's own language)",
+    "ਹਲਕੀ-ਫੁਲਕੀ ਗੱਲਬਾਤ": "localisation per profile pa.md §9: card 6 'Have you been to Korea?' → 'Have you been to India?'",
+    "ਤਾਰੀਫ਼ ਤੇ ਪਸੰਦ": "localisation per profile pa.md §9: card 8 'Your Korean is really good!' → 'Your Punjabi is really good!'",
+    "ਦਫ਼ਤਰ ਤੇ ਈਮੇਲ": "pa-only cards appended per profile pa.md §9 «ਦਫ਼ਤਰ ਤੇ ਈਮੇਲ» / DECKNAMES row 13 (interview, shift, part-time job, college office; cards 19–22): 'I have an interview tomorrow.', 'I'm looking for a part-time job.', 'What time does my shift start?', 'Where's the admissions office?'. Original 19 cards unchanged",
+    "ਕਾਲ ਤੇ ਚੈਟ ਦੇ ਛੋਟੇ ਰੂਪ": "localisation per profile pa.md §9 (Minji→Simran; Mr. Kim→Mr. Singh): cards 0 'Hello, this is Simran.', 1 'Can I speak to Mr. Singh?'",
+    "ਸਫ਼ਰ (ਏਅਰਪੋਰਟ ਤੇ ਹੋਟਲ)": "localisation per profile pa.md §9: card 8 reservation name 'under Kim' → 'under Singh'. pa-only immigration-desk cards appended per §9 «ਸਫ਼ਰ» (cards 18–21): 'What's the purpose of your visit?', 'I'm here to study.', 'I'm staying with my uncle.', 'Do you have anything to declare?'. Original 18 cards otherwise unchanged",
+    "ਡਾਕਟਰ ਤੇ ਐਮਰਜੈਂਸੀ": "localisation per profile pa.md §9: card 15 'the Korean embassy' → 'the Indian embassy' (learner's own embassy)",
+    "ਉਚਾਰਨ ਦੇ ਜਾਲ": "pa-only cards appended per profile pa.md §9 «ਉਚਾਰਨ ਦੇ ਜਾਲ» (cards 26–49). Cards 26–38 are the 13 hi-en appended (the hi-en card Jew was dropped at review, lead ruling): vine / wine, vest / west, wary, zoo, zero, easy, van, school, station, about, photography. Cards 39–49 are the Punjabi cluster and length set: street, sport, plate, class, film, world, asked (halant clusters), happy, city (no doubling), behind (h, no pitch), pleasure (soft ਜ਼). Original 26 cards unchanged",
+    "ਇੰਡੀਅਨ ਇੰਗਲਿਸ਼: ਭਾਰਤ ਬਨਾਮ ਵਿਦੇਸ਼": "pa-only deck (profile pa.md §4 / §8 indian-english / §9, DECKNAMES row 22; 27 cards): the international form of Indian English usages — the 23 of hi-en's deck (prepone, out of station, good name, cousin sister, passed out, revert, years back, native place, mention not, kindly, intimate, shifting, belong to, Myself…, I have a doubt, discuss about, Do one thing, isn't it?, see a picture, take lunch, today itself, now only, do the needful) with pa names and places, plus the 4 Punjabi calques of §8 (eat medicine, give an exam, close the light, pull / click a photo); linked to the pa-only lesson indian-english; no ko-en counterpart",
+    "count": "deck count 22 vs ko-en 21: pa-only deck «ਇੰਡੀਅਨ ਇੰਗਲਿਸ਼: ਭਾਰਤ ਬਨਾਮ ਵਿਦੇਸ਼» (profile pa.md §9, DECKNAMES row 22) appended last"
+  }
+}

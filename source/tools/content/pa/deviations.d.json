@@ -1,0 +1,11 @@
+{
+  "lessons": {
+    "stative-since": "pa-only lesson (profile pa.md §8 add, §4.2): states vs actions with the continuous (I am knowing ✗, She is having a car ✗), Punjabi ਤੋਂ → since / for / from, and ਤੋਂ + ਰਿਹਾ ਹੈ → Present Perfect (states) or Present Perfect Continuous (actions), How long…? for ਕਦੋਂ ਤੋਂ. ko-en has no such lesson. English side (checks and practice) taken unchanged from hi-en's stative-since, as profile §8 recommends; lesson-body rows localised (Delhi → Amritsar / Ludhiana). Practice meets the article-plural standing rule. Placed after perfect-2 (profile.json lessonOrder.after), deck ਆਪਣੀ ਜਾਣ-ਪਛਾਣ (deck 2, the deck of perfect-2)."
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": [
+    "stative-since"
+  ],
+  "droppedLessons": []
+}
