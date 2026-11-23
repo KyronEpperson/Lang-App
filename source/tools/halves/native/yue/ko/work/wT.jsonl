@@ -1,328 +1,328 @@
-{"f":"trainer","id":"hangul.mean.나무","src":"tree","tgt":""}
-{"f":"trainer","id":"hangul.mean.바다","src":"sea","tgt":""}
-{"f":"trainer","id":"hangul.mean.가수","src":"singer","tgt":""}
-{"f":"trainer","id":"hangul.mean.구두","src":"dress shoes","tgt":""}
-{"f":"trainer","id":"hangul.mean.고기","src":"meat","tgt":""}
-{"f":"trainer","id":"hangul.mean.모자","src":"hat","tgt":""}
-{"f":"trainer","id":"hangul.mean.바지","src":"pants","tgt":""}
-{"f":"trainer","id":"hangul.mean.지도","src":"map","tgt":""}
-{"f":"trainer","id":"hangul.mean.하나","src":"one","tgt":""}
-{"f":"trainer","id":"hangul.mean.어머니","src":"mother","tgt":""}
-{"f":"trainer","id":"hangul.mean.아버지","src":"father","tgt":""}
-{"f":"trainer","id":"hangul.mean.머리","src":"head / hair","tgt":""}
-{"f":"trainer","id":"hangul.mean.다리","src":"leg / bridge","tgt":""}
-{"f":"trainer","id":"hangul.mean.소리","src":"sound","tgt":""}
-{"f":"trainer","id":"hangul.mean.노래","src":"song","tgt":""}
-{"f":"trainer","id":"hangul.mean.피자","src":"pizza","tgt":""}
-{"f":"trainer","id":"hangul.mean.커피","src":"coffee","tgt":""}
-{"f":"trainer","id":"hangul.mean.치마","src":"skirt","tgt":""}
-{"f":"trainer","id":"hangul.mean.토마토","src":"tomato","tgt":""}
-{"f":"trainer","id":"hangul.mean.포도","src":"grape","tgt":""}
-{"f":"trainer","id":"hangul.mean.기차","src":"train","tgt":""}
-{"f":"trainer","id":"hangul.mean.하루","src":"one day","tgt":""}
-{"f":"trainer","id":"hangul.mean.이모","src":"aunt (mom's side)","tgt":""}
-{"f":"trainer","id":"hangul.mean.누나","src":"older sister (male speaker)","tgt":""}
-{"f":"trainer","id":"hangul.mean.야구","src":"baseball","tgt":""}
-{"f":"trainer","id":"hangul.mean.여자","src":"woman","tgt":""}
-{"f":"trainer","id":"hangul.mean.요리","src":"cooking","tgt":""}
-{"f":"trainer","id":"hangul.mean.유리","src":"glass","tgt":""}
-{"f":"trainer","id":"hangul.mean.우유","src":"milk","tgt":""}
-{"f":"trainer","id":"hangul.mean.아이","src":"child","tgt":""}
-{"f":"trainer","id":"hangul.mean.오이","src":"cucumber","tgt":""}
-{"f":"trainer","id":"hangul.mean.나비","src":"butterfly","tgt":""}
-{"f":"trainer","id":"hangul.mean.부자","src":"rich person","tgt":""}
-{"f":"trainer","id":"hangul.mean.주소","src":"address","tgt":""}
-{"f":"trainer","id":"hangul.mean.비누","src":"soap","tgt":""}
-{"f":"trainer","id":"hangul.mean.가게","src":"shop","tgt":""}
-{"f":"trainer","id":"hangul.mean.해","src":"sun / year","tgt":""}
-{"f":"trainer","id":"hangul.mean.배","src":"boat / pear / belly","tgt":""}
-{"f":"trainer","id":"hangul.mean.개","src":"dog","tgt":""}
-{"f":"trainer","id":"hangul.mean.나라","src":"country","tgt":""}
-{"f":"trainer","id":"hangul.mean.서울","src":"Seoul","tgt":""}
-{"f":"trainer","id":"hangul.mean.한국","src":"Korea","tgt":""}
-{"f":"trainer","id":"hangul.mean.사람","src":"person","tgt":""}
-{"f":"trainer","id":"hangul.mean.물","src":"water","tgt":""}
-{"f":"trainer","id":"hangul.mean.밥","src":"rice / meal","tgt":""}
-{"f":"trainer","id":"hangul.mean.김치","src":"kimchi","tgt":""}
-{"f":"trainer","id":"hangul.mean.집","src":"house","tgt":""}
-{"f":"trainer","id":"hangul.mean.산","src":"mountain","tgt":""}
-{"f":"trainer","id":"hangul.mean.강","src":"river","tgt":""}
-{"f":"trainer","id":"hangul.mean.눈","src":"eye / snow","tgt":""}
-{"f":"trainer","id":"hangul.mean.문","src":"door","tgt":""}
-{"f":"trainer","id":"hangul.mean.손","src":"hand","tgt":""}
-{"f":"trainer","id":"hangul.mean.발","src":"foot","tgt":""}
-{"f":"trainer","id":"hangul.mean.책","src":"book","tgt":""}
-{"f":"trainer","id":"hangul.mean.달","src":"moon / month","tgt":""}
-{"f":"trainer","id":"hangul.mean.별","src":"star","tgt":""}
-{"f":"trainer","id":"hangul.mean.밤","src":"night / chestnut","tgt":""}
-{"f":"trainer","id":"hangul.mean.공","src":"ball","tgt":""}
-{"f":"trainer","id":"hangul.mean.방","src":"room","tgt":""}
-{"f":"trainer","id":"hangul.mean.돈","src":"money","tgt":""}
-{"f":"trainer","id":"hangul.mean.술","src":"alcohol","tgt":""}
-{"f":"trainer","id":"hangul.mean.말","src":"word / horse","tgt":""}
-{"f":"trainer","id":"hangul.mean.길","src":"road","tgt":""}
-{"f":"trainer","id":"hangul.mean.봄","src":"spring","tgt":""}
-{"f":"trainer","id":"hangul.mean.감","src":"persimmon","tgt":""}
-{"f":"trainer","id":"hangul.mean.입","src":"mouth","tgt":""}
-{"f":"trainer","id":"hangul.mean.친구","src":"friend","tgt":""}
-{"f":"trainer","id":"hangul.mean.선생님","src":"teacher","tgt":""}
-{"f":"trainer","id":"hangul.mean.학생","src":"student","tgt":""}
-{"f":"trainer","id":"hangul.mean.사랑","src":"love","tgt":""}
-{"f":"trainer","id":"hangul.mean.안녕","src":"hi / bye","tgt":""}
-{"f":"trainer","id":"hangul.mean.감사","src":"thanks","tgt":""}
-{"f":"trainer","id":"hangul.mean.한글","src":"Hangul","tgt":""}
-{"f":"trainer","id":"hangul.mean.시간","src":"time","tgt":""}
-{"f":"trainer","id":"hangul.mean.음악","src":"music","tgt":""}
-{"f":"trainer","id":"hangul.mean.영어","src":"English","tgt":""}
-{"f":"trainer","id":"hangul.mean.생일","src":"birthday","tgt":""}
-{"f":"trainer","id":"hangul.mean.운동","src":"exercise","tgt":""}
-{"f":"trainer","id":"hangul.mean.이름","src":"name","tgt":""}
-{"f":"trainer","id":"hangul.mean.얼굴","src":"face","tgt":""}
-{"f":"trainer","id":"hangul.mean.꽃","src":"flower","tgt":""}
-{"f":"trainer","id":"hangul.mean.딸","src":"daughter","tgt":""}
-{"f":"trainer","id":"hangul.mean.빨리","src":"quickly","tgt":""}
-{"f":"trainer","id":"hangul.mean.쌀","src":"rice (uncooked)","tgt":""}
-{"f":"trainer","id":"hangul.mean.진짜","src":"really","tgt":""}
-{"f":"trainer","id":"hangul.mean.과일","src":"fruit","tgt":""}
-{"f":"trainer","id":"hangul.mean.원","src":"won","tgt":""}
-{"f":"trainer","id":"hangul.mean.회사","src":"company","tgt":""}
-{"f":"trainer","id":"hangul.mean.귀","src":"ear","tgt":""}
-{"f":"trainer","id":"hangul.mean.왜","src":"why","tgt":""}
-{"f":"trainer","id":"hangul.mean.의사","src":"doctor","tgt":""}
-{"f":"trainer","id":"hangul.mean.얘기","src":"talk / story","tgt":""}
-{"f":"trainer","id":"hangul.mean.옷","src":"clothes","tgt":""}
-{"f":"trainer","id":"hangul.mean.부엌","src":"kitchen","tgt":""}
-{"f":"trainer","id":"hangul.mean.앞","src":"front","tgt":""}
-{"f":"trainer","id":"hangul.mean.닭","src":"chicken","tgt":""}
-{"f":"trainer","id":"hangul.mean.값","src":"price","tgt":""}
-{"f":"trainer","id":"hangul.mean.뭐","src":"what","tgt":""}
-{"f":"trainer","id":"hangul.mean.외국","src":"foreign country","tgt":""}
-{"f":"trainer","id":"hangul.mean.위","src":"up / stomach","tgt":""}
-{"f":"trainer","id":"hangul.mean.끝","src":"end","tgt":""}
-{"f":"trainer","id":"hangul.ui.placeholder","src":"type the sound, e.g. ga","tgt":""}
-{"f":"trainer","id":"hangul.ui.ariaLabel","src":"Romanization","tgt":""}
-{"f":"trainer","id":"hangul.ui.levelSyllable","src":"syllable","tgt":""}
-{"f":"trainer","id":"hangul.ui.levelWord","src":"word","tgt":""}
-{"f":"trainer","id":"hangul.ui.empty","src":"Type the sound in English letters (e.g. <b>ga</b>), or type the Hangul itself.","tgt":""}
-{"f":"trainer","id":"hangul.ui.pickPrompt","src":"Which one did you hear?","tgt":""}
-{"f":"trainer","id":"onboard.title","src":"안녕하세요 👋 Two quick questions","tgt":""}
-{"f":"trainer","id":"onboard.read","src":"Can you already read Hangul?","tgt":""}
-{"f":"trainer","id":"onboard.readNo","src":"Not yet","tgt":""}
-{"f":"trainer","id":"onboard.readSlow","src":"Slowly","tgt":""}
-{"f":"trainer","id":"onboard.readYes","src":"Yes, fluently","tgt":""}
-{"f":"trainer","id":"onboard.goal","src":"What do you want Korean for?","tgt":""}
-{"f":"trainer","id":"onboard.time","src":"How much time a day?","tgt":""}
-{"f":"trainer","id":"onboard.started","src":"Set up. Start with %1.","tgt":""}
-{"f":"trainer","id":"gloss.PART.에서","src":"at / from (action place)","tgt":""}
-{"f":"trainer","id":"gloss.PART.하고","src":"and / with","tgt":""}
-{"f":"trainer","id":"gloss.PART.한테","src":"to (person)","tgt":""}
-{"f":"trainer","id":"gloss.PART.에게","src":"to (person)","tgt":""}
-{"f":"trainer","id":"gloss.PART.으로","src":"toward / by","tgt":""}
-{"f":"trainer","id":"gloss.PART.까지","src":"until / up to","tgt":""}
-{"f":"trainer","id":"gloss.PART.부터","src":"from (time)","tgt":""}
-{"f":"trainer","id":"gloss.PART.보다","src":"than","tgt":""}
-{"f":"trainer","id":"gloss.PART.처럼","src":"like","tgt":""}
-{"f":"trainer","id":"gloss.PART.은","src":"topic","tgt":""}
-{"f":"trainer","id":"gloss.PART.는","src":"topic","tgt":""}
-{"f":"trainer","id":"gloss.PART.이","src":"subject","tgt":""}
-{"f":"trainer","id":"gloss.PART.가","src":"subject","tgt":""}
-{"f":"trainer","id":"gloss.PART.을","src":"object","tgt":""}
-{"f":"trainer","id":"gloss.PART.를","src":"object","tgt":""}
-{"f":"trainer","id":"gloss.PART.에","src":"to / at","tgt":""}
-{"f":"trainer","id":"gloss.PART.도","src":"also","tgt":""}
-{"f":"trainer","id":"gloss.PART.로","src":"toward / by","tgt":""}
-{"f":"trainer","id":"gloss.PART.와","src":"and / with","tgt":""}
-{"f":"trainer","id":"gloss.PART.과","src":"and / with","tgt":""}
-{"f":"trainer","id":"gloss.PART.만","src":"only","tgt":""}
-{"f":"trainer","id":"gloss.PART.의","src":"possessive","tgt":""}
-{"f":"trainer","id":"gloss.PART.랑","src":"with (casual)","tgt":""}
-{"f":"trainer","id":"gloss.ENDS.주시겠어요","src":"would you mind (very polite request)","tgt":""}
-{"f":"trainer","id":"gloss.ENDS.셨어요","src":"honorific past (-시-)","tgt":""}
-{"f":"trainer","id":"gloss.ENDS.으세요","src":"honorific / polite request","tgt":""}
-{"f":"trainer","id":"gloss.ENDS.주세요","src":"please do","tgt":""}
-{"f":"trainer","id":"gloss.ENDS.드립니다","src":"formal humble (I give/do for you)","tgt":""}
-{"f":"trainer","id":"gloss.ENDS.세요","src":"polite request / honorific","tgt":""}
-{"f":"trainer","id":"gloss.ENDS.게요","src":"I will (promise)","tgt":""}
-{"f":"trainer","id":"gloss.ENDS.까요","src":"shall we?","tgt":""}
-{"f":"trainer","id":"gloss.ENDS.래요","src":"want to?","tgt":""}
-{"f":"trainer","id":"gloss.ENDS.겠습니다","src":"formal future / will","tgt":""}
-{"f":"trainer","id":"gloss.ENDS.습니다","src":"formal","tgt":""}
-{"f":"trainer","id":"gloss.ENDS.입니다","src":"formal \"is\"","tgt":""}
-{"f":"trainer","id":"gloss.ENDS.ㅂ니다","src":"formal","tgt":""}
-{"f":"trainer","id":"gloss.ENDS.네요","src":"noticing","tgt":""}
-{"f":"trainer","id":"gloss.ENDS.예요","src":"is (after vowel)","tgt":""}
-{"f":"trainer","id":"gloss.ENDS.이에요","src":"is (after consonant)","tgt":""}
-{"f":"trainer","id":"gloss.ENDS.해요","src":"polite present (하다)","tgt":""}
-{"f":"trainer","id":"gloss.ENDS.어요","src":"polite present","tgt":""}
-{"f":"trainer","id":"gloss.ENDS.아요","src":"polite present","tgt":""}
-{"f":"trainer","id":"gloss.ENDS.자","src":"let's","tgt":""}
-{"f":"trainer","id":"gloss.ENDS.요","src":"polite ending","tgt":""}
-{"f":"trainer","id":"gloss.QW.뭐","src":"what","tgt":""}
-{"f":"trainer","id":"gloss.QW.뭐예요","src":"what is","tgt":""}
-{"f":"trainer","id":"gloss.QW.어디","src":"where","tgt":""}
-{"f":"trainer","id":"gloss.QW.언제","src":"when","tgt":""}
-{"f":"trainer","id":"gloss.QW.누구","src":"who","tgt":""}
-{"f":"trainer","id":"gloss.QW.왜","src":"why","tgt":""}
-{"f":"trainer","id":"gloss.QW.어떻게","src":"how","tgt":""}
-{"f":"trainer","id":"gloss.QW.얼마","src":"how much","tgt":""}
-{"f":"trainer","id":"gloss.QW.몇","src":"how many","tgt":""}
-{"f":"trainer","id":"gloss.QW.어느","src":"which","tgt":""}
-{"f":"trainer","id":"gloss.CONN.그리고","src":"and then","tgt":""}
-{"f":"trainer","id":"gloss.CONN.그래서","src":"so","tgt":""}
-{"f":"trainer","id":"gloss.CONN.그런데","src":"but","tgt":""}
-{"f":"trainer","id":"gloss.CONN.근데","src":"but (casual)","tgt":""}
-{"f":"trainer","id":"gloss.CONN.하지만","src":"but","tgt":""}
-{"f":"trainer","id":"gloss.CONN.먼저","src":"first","tgt":""}
-{"f":"trainer","id":"gloss.CONN.그다음에","src":"after that","tgt":""}
-{"f":"trainer","id":"gloss.CONN.마지막으로","src":"lastly","tgt":""}
-{"f":"trainer","id":"gloss.CONN.아니면","src":"or","tgt":""}
-{"f":"trainer","id":"gloss.CONN.그럼","src":"then","tgt":""}
-{"f":"trainer","id":"gloss.CONN.그러면","src":"then","tgt":""}
-{"f":"trainer","id":"gloss.CONN.네","src":"yes","tgt":""}
-{"f":"trainer","id":"gloss.CONN.아니요","src":"no","tgt":""}
-{"f":"trainer","id":"gloss.CONN.저는","src":"as for me (저 + 는)","tgt":""}
-{"f":"trainer","id":"gloss.CONN.저","src":"I (humble)","tgt":""}
-{"f":"trainer","id":"gloss.CONN.나","src":"I (casual)","tgt":""}
-{"f":"trainer","id":"gloss.CONN.너","src":"you (casual)","tgt":""}
-{"f":"trainer","id":"gloss.CONN.우리","src":"we / our","tgt":""}
-{"f":"trainer","id":"gloss.CONN.같이","src":"together","tgt":""}
-{"f":"trainer","id":"gloss.CONN.너무","src":"too / very","tgt":""}
-{"f":"trainer","id":"gloss.CONN.진짜","src":"really","tgt":""}
-{"f":"trainer","id":"gloss.CONN.정말","src":"really","tgt":""}
-{"f":"trainer","id":"gloss.CONN.조금","src":"a little","tgt":""}
-{"f":"trainer","id":"gloss.CONN.좀","src":"a bit / please","tgt":""}
-{"f":"trainer","id":"gloss.CONN.지금","src":"now","tgt":""}
-{"f":"trainer","id":"gloss.CONN.오늘","src":"today","tgt":""}
-{"f":"trainer","id":"gloss.CONN.내일","src":"tomorrow","tgt":""}
-{"f":"trainer","id":"gloss.CONN.어제","src":"yesterday","tgt":""}
-{"f":"trainer","id":"gloss.CONN.안","src":"not","tgt":""}
-{"f":"trainer","id":"gloss.CONN.못","src":"can't","tgt":""}
-{"f":"trainer","id":"gloss.CONN.잘","src":"well","tgt":""}
-{"f":"trainer","id":"gloss.CONN.또","src":"again","tgt":""}
-{"f":"trainer","id":"gloss.CONN.늦게","src":"late","tgt":""}
-{"f":"trainer","id":"gloss.CONN.빨리","src":"quickly","tgt":""}
-{"f":"trainer","id":"gloss.CONN.다","src":"all","tgt":""}
-{"f":"trainer","id":"gloss.CONN.많이","src":"a lot","tgt":""}
-{"f":"trainer","id":"gloss.CONN.아직","src":"yet / still","tgt":""}
-{"f":"trainer","id":"gloss.CONN.이거","src":"this one","tgt":""}
-{"f":"trainer","id":"gloss.CONN.그거","src":"that one","tgt":""}
-{"f":"trainer","id":"gloss.CONN.저거","src":"that one (far)","tgt":""}
-{"f":"trainer","id":"gloss.CONN.여기","src":"here","tgt":""}
-{"f":"trainer","id":"gloss.CONN.거기","src":"there","tgt":""}
-{"f":"trainer","id":"gloss.CONN.저기","src":"over there","tgt":""}
-{"f":"trainer","id":"gloss.COUNT.개","src":"things","tgt":""}
-{"f":"trainer","id":"gloss.COUNT.명","src":"people","tgt":""}
-{"f":"trainer","id":"gloss.COUNT.잔","src":"cups","tgt":""}
-{"f":"trainer","id":"gloss.COUNT.병","src":"bottles","tgt":""}
-{"f":"trainer","id":"gloss.COUNT.마리","src":"animals","tgt":""}
-{"f":"trainer","id":"gloss.COUNT.권","src":"books","tgt":""}
-{"f":"trainer","id":"gloss.COUNT.장","src":"sheets","tgt":""}
-{"f":"trainer","id":"gloss.COUNT.살","src":"years old","tgt":""}
-{"f":"trainer","id":"gloss.COUNT.시간","src":"hours","tgt":""}
-{"f":"trainer","id":"gloss.COUNT.번","src":"times","tgt":""}
-{"f":"trainer","id":"gloss.COUNT.분","src":"minutes / people (polite)","tgt":""}
-{"f":"trainer","id":"gloss.COUNT.시","src":"o'clock","tgt":""}
-{"f":"trainer","id":"gloss.COUNT.원","src":"won","tgt":""}
-{"f":"trainer","id":"gloss.tpl.question","src":"%1 (question word)","tgt":""}
-{"f":"trainer","id":"gloss.tpl.counter","src":"counter · %1","tgt":""}
-{"f":"trainer","id":"gloss.tpl.number","src":"number %1","tgt":""}
-{"f":"trainer","id":"gloss.tpl.jiMa","src":"don't (지 마)","tgt":""}
-{"f":"trainer","id":"gloss.tpl.adoDwaeyo","src":"is it okay? (-아/어도 돼요)","tgt":""}
-{"f":"trainer","id":"gloss.tpl.myeonAnDwaeyo","src":"not okay? (-(으)면 안 돼요)","tgt":""}
-{"f":"trainer","id":"gloss.tpl.doEvenIf","src":"verb + 도 (even if)","tgt":""}
-{"f":"trainer","id":"gloss.tpl.jiStem","src":"verb stem + 지","tgt":""}
-{"f":"trainer","id":"gloss.tpl.past","src":"verb · past (았/었어요)","tgt":""}
+{"f":"trainer","id":"hangul.mean.나무","src":"tree","tgt":"樹"}
+{"f":"trainer","id":"hangul.mean.바다","src":"sea","tgt":"海"}
+{"f":"trainer","id":"hangul.mean.가수","src":"singer","tgt":"歌手"}
+{"f":"trainer","id":"hangul.mean.구두","src":"dress shoes","tgt":"皮鞋"}
+{"f":"trainer","id":"hangul.mean.고기","src":"meat","tgt":"肉"}
+{"f":"trainer","id":"hangul.mean.모자","src":"hat","tgt":"帽"}
+{"f":"trainer","id":"hangul.mean.바지","src":"pants","tgt":"褲"}
+{"f":"trainer","id":"hangul.mean.지도","src":"map","tgt":"地圖"}
+{"f":"trainer","id":"hangul.mean.하나","src":"one","tgt":"一"}
+{"f":"trainer","id":"hangul.mean.어머니","src":"mother","tgt":"母親"}
+{"f":"trainer","id":"hangul.mean.아버지","src":"father","tgt":"父親"}
+{"f":"trainer","id":"hangul.mean.머리","src":"head / hair","tgt":"頭 / 頭髮"}
+{"f":"trainer","id":"hangul.mean.다리","src":"leg / bridge","tgt":"腳 / 橋"}
+{"f":"trainer","id":"hangul.mean.소리","src":"sound","tgt":"聲音"}
+{"f":"trainer","id":"hangul.mean.노래","src":"song","tgt":"歌"}
+{"f":"trainer","id":"hangul.mean.피자","src":"pizza","tgt":"薄餅"}
+{"f":"trainer","id":"hangul.mean.커피","src":"coffee","tgt":"咖啡"}
+{"f":"trainer","id":"hangul.mean.치마","src":"skirt","tgt":"裙"}
+{"f":"trainer","id":"hangul.mean.토마토","src":"tomato","tgt":"番茄"}
+{"f":"trainer","id":"hangul.mean.포도","src":"grape","tgt":"提子"}
+{"f":"trainer","id":"hangul.mean.기차","src":"train","tgt":"火車"}
+{"f":"trainer","id":"hangul.mean.하루","src":"one day","tgt":"一日"}
+{"f":"trainer","id":"hangul.mean.이모","src":"aunt (mom's side)","tgt":"阿姨（媽媽嗰邊）"}
+{"f":"trainer","id":"hangul.mean.누나","src":"older sister (male speaker)","tgt":"家姐（男仔叫）"}
+{"f":"trainer","id":"hangul.mean.야구","src":"baseball","tgt":"棒球"}
+{"f":"trainer","id":"hangul.mean.여자","src":"woman","tgt":"女人"}
+{"f":"trainer","id":"hangul.mean.요리","src":"cooking","tgt":"煮餸"}
+{"f":"trainer","id":"hangul.mean.유리","src":"glass","tgt":"玻璃"}
+{"f":"trainer","id":"hangul.mean.우유","src":"milk","tgt":"牛奶"}
+{"f":"trainer","id":"hangul.mean.아이","src":"child","tgt":"細路"}
+{"f":"trainer","id":"hangul.mean.오이","src":"cucumber","tgt":"青瓜"}
+{"f":"trainer","id":"hangul.mean.나비","src":"butterfly","tgt":"蝴蝶"}
+{"f":"trainer","id":"hangul.mean.부자","src":"rich person","tgt":"有錢人"}
+{"f":"trainer","id":"hangul.mean.주소","src":"address","tgt":"地址"}
+{"f":"trainer","id":"hangul.mean.비누","src":"soap","tgt":"番梘"}
+{"f":"trainer","id":"hangul.mean.가게","src":"shop","tgt":"舖頭"}
+{"f":"trainer","id":"hangul.mean.해","src":"sun / year","tgt":"太陽 / 年"}
+{"f":"trainer","id":"hangul.mean.배","src":"boat / pear / belly","tgt":"船 / 梨 / 肚"}
+{"f":"trainer","id":"hangul.mean.개","src":"dog","tgt":"狗"}
+{"f":"trainer","id":"hangul.mean.나라","src":"country","tgt":"國家"}
+{"f":"trainer","id":"hangul.mean.서울","src":"Seoul","tgt":"首爾"}
+{"f":"trainer","id":"hangul.mean.한국","src":"Korea","tgt":"韓國"}
+{"f":"trainer","id":"hangul.mean.사람","src":"person","tgt":"人"}
+{"f":"trainer","id":"hangul.mean.물","src":"water","tgt":"水"}
+{"f":"trainer","id":"hangul.mean.밥","src":"rice / meal","tgt":"飯"}
+{"f":"trainer","id":"hangul.mean.김치","src":"kimchi","tgt":"泡菜"}
+{"f":"trainer","id":"hangul.mean.집","src":"house","tgt":"屋企"}
+{"f":"trainer","id":"hangul.mean.산","src":"mountain","tgt":"山"}
+{"f":"trainer","id":"hangul.mean.강","src":"river","tgt":"河"}
+{"f":"trainer","id":"hangul.mean.눈","src":"eye / snow","tgt":"眼 / 雪"}
+{"f":"trainer","id":"hangul.mean.문","src":"door","tgt":"門"}
+{"f":"trainer","id":"hangul.mean.손","src":"hand","tgt":"手"}
+{"f":"trainer","id":"hangul.mean.발","src":"foot","tgt":"腳板"}
+{"f":"trainer","id":"hangul.mean.책","src":"book","tgt":"書"}
+{"f":"trainer","id":"hangul.mean.달","src":"moon / month","tgt":"月亮 / 月"}
+{"f":"trainer","id":"hangul.mean.별","src":"star","tgt":"星"}
+{"f":"trainer","id":"hangul.mean.밤","src":"night / chestnut","tgt":"夜晚 / 栗子"}
+{"f":"trainer","id":"hangul.mean.공","src":"ball","tgt":"波"}
+{"f":"trainer","id":"hangul.mean.방","src":"room","tgt":"房"}
+{"f":"trainer","id":"hangul.mean.돈","src":"money","tgt":"錢"}
+{"f":"trainer","id":"hangul.mean.술","src":"alcohol","tgt":"酒"}
+{"f":"trainer","id":"hangul.mean.말","src":"word / horse","tgt":"說話 / 馬"}
+{"f":"trainer","id":"hangul.mean.길","src":"road","tgt":"路"}
+{"f":"trainer","id":"hangul.mean.봄","src":"spring","tgt":"春天"}
+{"f":"trainer","id":"hangul.mean.감","src":"persimmon","tgt":"柿"}
+{"f":"trainer","id":"hangul.mean.입","src":"mouth","tgt":"口"}
+{"f":"trainer","id":"hangul.mean.친구","src":"friend","tgt":"朋友"}
+{"f":"trainer","id":"hangul.mean.선생님","src":"teacher","tgt":"老師"}
+{"f":"trainer","id":"hangul.mean.학생","src":"student","tgt":"學生"}
+{"f":"trainer","id":"hangul.mean.사랑","src":"love","tgt":"愛"}
+{"f":"trainer","id":"hangul.mean.안녕","src":"hi / bye","tgt":"你好 / 拜拜"}
+{"f":"trainer","id":"hangul.mean.감사","src":"thanks","tgt":"多謝"}
+{"f":"trainer","id":"hangul.mean.한글","src":"Hangul","tgt":"韓文字母"}
+{"f":"trainer","id":"hangul.mean.시간","src":"time","tgt":"時間"}
+{"f":"trainer","id":"hangul.mean.음악","src":"music","tgt":"音樂"}
+{"f":"trainer","id":"hangul.mean.영어","src":"English","tgt":"英文"}
+{"f":"trainer","id":"hangul.mean.생일","src":"birthday","tgt":"生日"}
+{"f":"trainer","id":"hangul.mean.운동","src":"exercise","tgt":"運動"}
+{"f":"trainer","id":"hangul.mean.이름","src":"name","tgt":"名"}
+{"f":"trainer","id":"hangul.mean.얼굴","src":"face","tgt":"面"}
+{"f":"trainer","id":"hangul.mean.꽃","src":"flower","tgt":"花"}
+{"f":"trainer","id":"hangul.mean.딸","src":"daughter","tgt":"女（女兒）"}
+{"f":"trainer","id":"hangul.mean.빨리","src":"quickly","tgt":"快啲"}
+{"f":"trainer","id":"hangul.mean.쌀","src":"rice (uncooked)","tgt":"米（未煮）"}
+{"f":"trainer","id":"hangul.mean.진짜","src":"really","tgt":"真係"}
+{"f":"trainer","id":"hangul.mean.과일","src":"fruit","tgt":"生果"}
+{"f":"trainer","id":"hangul.mean.원","src":"won","tgt":"韓元"}
+{"f":"trainer","id":"hangul.mean.회사","src":"company","tgt":"公司"}
+{"f":"trainer","id":"hangul.mean.귀","src":"ear","tgt":"耳仔"}
+{"f":"trainer","id":"hangul.mean.왜","src":"why","tgt":"點解"}
+{"f":"trainer","id":"hangul.mean.의사","src":"doctor","tgt":"醫生"}
+{"f":"trainer","id":"hangul.mean.얘기","src":"talk / story","tgt":"傾偈 / 故事"}
+{"f":"trainer","id":"hangul.mean.옷","src":"clothes","tgt":"衫"}
+{"f":"trainer","id":"hangul.mean.부엌","src":"kitchen","tgt":"廚房"}
+{"f":"trainer","id":"hangul.mean.앞","src":"front","tgt":"前面"}
+{"f":"trainer","id":"hangul.mean.닭","src":"chicken","tgt":"雞"}
+{"f":"trainer","id":"hangul.mean.값","src":"price","tgt":"價錢"}
+{"f":"trainer","id":"hangul.mean.뭐","src":"what","tgt":"乜嘢"}
+{"f":"trainer","id":"hangul.mean.외국","src":"foreign country","tgt":"外國"}
+{"f":"trainer","id":"hangul.mean.위","src":"up / stomach","tgt":"上面 / 胃"}
+{"f":"trainer","id":"hangul.mean.끝","src":"end","tgt":"尾 / 完"}
+{"f":"trainer","id":"hangul.ui.placeholder","src":"type the sound, e.g. ga","tgt":"打讀音，例如 ga"}
+{"f":"trainer","id":"hangul.ui.ariaLabel","src":"Romanization","tgt":"羅馬拼音"}
+{"f":"trainer","id":"hangul.ui.levelSyllable","src":"syllable","tgt":"音節"}
+{"f":"trainer","id":"hangul.ui.levelWord","src":"word","tgt":"生字"}
+{"f":"trainer","id":"hangul.ui.empty","src":"Type the sound in English letters (e.g. <b>ga</b>), or type the Hangul itself.","tgt":"用英文字母打讀音（例如 <b>ga</b>），或者直接打韓文字母。"}
+{"f":"trainer","id":"hangul.ui.pickPrompt","src":"Which one did you hear?","tgt":"你聽到邊個？"}
+{"f":"trainer","id":"onboard.title","src":"안녕하세요 👋 Two quick questions","tgt":"안녕하세요 👋 兩條小問題"}
+{"f":"trainer","id":"onboard.read","src":"Can you already read Hangul?","tgt":"你識唔識讀韓文字母？"}
+{"f":"trainer","id":"onboard.readNo","src":"Not yet","tgt":"未識"}
+{"f":"trainer","id":"onboard.readSlow","src":"Slowly","tgt":"慢慢讀得"}
+{"f":"trainer","id":"onboard.readYes","src":"Yes, fluently","tgt":"識，讀得好流利"}
+{"f":"trainer","id":"onboard.goal","src":"What do you want Korean for?","tgt":"你學韓文想用嚟做乜？"}
+{"f":"trainer","id":"onboard.time","src":"How much time a day?","tgt":"每日有幾多時間？"}
+{"f":"trainer","id":"onboard.started","src":"Set up. Start with %1.","tgt":"設定好喇。由 %1 開始。"}
+{"f":"trainer","id":"gloss.PART.에서","src":"at / from (action place)","tgt":"喺（做嘢嘅地方）/ 由"}
+{"f":"trainer","id":"gloss.PART.하고","src":"and / with","tgt":"同"}
+{"f":"trainer","id":"gloss.PART.한테","src":"to (person)","tgt":"俾 / 對（人）"}
+{"f":"trainer","id":"gloss.PART.에게","src":"to (person)","tgt":"俾 / 對（人）"}
+{"f":"trainer","id":"gloss.PART.으로","src":"toward / by","tgt":"向 / 用（方法）"}
+{"f":"trainer","id":"gloss.PART.까지","src":"until / up to","tgt":"直到 / 到"}
+{"f":"trainer","id":"gloss.PART.부터","src":"from (time)","tgt":"由（時間）"}
+{"f":"trainer","id":"gloss.PART.보다","src":"than","tgt":"比"}
+{"f":"trainer","id":"gloss.PART.처럼","src":"like","tgt":"好似"}
+{"f":"trainer","id":"gloss.PART.은","src":"topic","tgt":"話題助詞"}
+{"f":"trainer","id":"gloss.PART.는","src":"topic","tgt":"話題助詞"}
+{"f":"trainer","id":"gloss.PART.이","src":"subject","tgt":"主格助詞"}
+{"f":"trainer","id":"gloss.PART.가","src":"subject","tgt":"主格助詞"}
+{"f":"trainer","id":"gloss.PART.을","src":"object","tgt":"賓格助詞"}
+{"f":"trainer","id":"gloss.PART.를","src":"object","tgt":"賓格助詞"}
+{"f":"trainer","id":"gloss.PART.에","src":"to / at","tgt":"去 / 喺（地方、時間）"}
+{"f":"trainer","id":"gloss.PART.도","src":"also","tgt":"都"}
+{"f":"trainer","id":"gloss.PART.로","src":"toward / by","tgt":"向 / 用（方法）"}
+{"f":"trainer","id":"gloss.PART.와","src":"and / with","tgt":"同"}
+{"f":"trainer","id":"gloss.PART.과","src":"and / with","tgt":"同"}
+{"f":"trainer","id":"gloss.PART.만","src":"only","tgt":"淨係"}
+{"f":"trainer","id":"gloss.PART.의","src":"possessive","tgt":"嘅（所屬）"}
+{"f":"trainer","id":"gloss.PART.랑","src":"with (casual)","tgt":"同（口語）"}
+{"f":"trainer","id":"gloss.ENDS.주시겠어요","src":"would you mind (very polite request)","tgt":"可唔可以……（好客氣嘅請求）"}
+{"f":"trainer","id":"gloss.ENDS.셨어요","src":"honorific past (-시-)","tgt":"尊敬形過去式（-시-）"}
+{"f":"trainer","id":"gloss.ENDS.으세요","src":"honorific / polite request","tgt":"尊敬形 / 有禮貌嘅請求"}
+{"f":"trainer","id":"gloss.ENDS.주세요","src":"please do","tgt":"唔該……"}
+{"f":"trainer","id":"gloss.ENDS.드립니다","src":"formal humble (I give/do for you)","tgt":"正式體謙讓（我為你做）"}
+{"f":"trainer","id":"gloss.ENDS.세요","src":"polite request / honorific","tgt":"有禮貌嘅請求 / 尊敬形"}
+{"f":"trainer","id":"gloss.ENDS.게요","src":"I will (promise)","tgt":"我會……（答應）"}
+{"f":"trainer","id":"gloss.ENDS.까요","src":"shall we?","tgt":"……好唔好？（提議）"}
+{"f":"trainer","id":"gloss.ENDS.래요","src":"want to?","tgt":"想唔想……？"}
+{"f":"trainer","id":"gloss.ENDS.겠습니다","src":"formal future / will","tgt":"正式體將來式 / 意願"}
+{"f":"trainer","id":"gloss.ENDS.습니다","src":"formal","tgt":"正式體"}
+{"f":"trainer","id":"gloss.ENDS.입니다","src":"formal \"is\"","tgt":"正式體嘅「係」"}
+{"f":"trainer","id":"gloss.ENDS.ㅂ니다","src":"formal","tgt":"正式體"}
+{"f":"trainer","id":"gloss.ENDS.네요","src":"noticing","tgt":"……喎（發現、感嘆）"}
+{"f":"trainer","id":"gloss.ENDS.예요","src":"is (after vowel)","tgt":"係（接元音）"}
+{"f":"trainer","id":"gloss.ENDS.이에요","src":"is (after consonant)","tgt":"係（接收音）"}
+{"f":"trainer","id":"gloss.ENDS.해요","src":"polite present (하다)","tgt":"禮貌體現在式（하다）"}
+{"f":"trainer","id":"gloss.ENDS.어요","src":"polite present","tgt":"禮貌體現在式"}
+{"f":"trainer","id":"gloss.ENDS.아요","src":"polite present","tgt":"禮貌體現在式"}
+{"f":"trainer","id":"gloss.ENDS.자","src":"let's","tgt":"……啦（一齊做）"}
+{"f":"trainer","id":"gloss.ENDS.요","src":"polite ending","tgt":"禮貌詞尾"}
+{"f":"trainer","id":"gloss.QW.뭐","src":"what","tgt":"乜嘢"}
+{"f":"trainer","id":"gloss.QW.뭐예요","src":"what is","tgt":"係乜嘢"}
+{"f":"trainer","id":"gloss.QW.어디","src":"where","tgt":"邊度"}
+{"f":"trainer","id":"gloss.QW.언제","src":"when","tgt":"幾時"}
+{"f":"trainer","id":"gloss.QW.누구","src":"who","tgt":"邊個"}
+{"f":"trainer","id":"gloss.QW.왜","src":"why","tgt":"點解"}
+{"f":"trainer","id":"gloss.QW.어떻게","src":"how","tgt":"點樣"}
+{"f":"trainer","id":"gloss.QW.얼마","src":"how much","tgt":"幾多（錢）"}
+{"f":"trainer","id":"gloss.QW.몇","src":"how many","tgt":"幾"}
+{"f":"trainer","id":"gloss.QW.어느","src":"which","tgt":"邊（邊間、邊本）"}
+{"f":"trainer","id":"gloss.CONN.그리고","src":"and then","tgt":"跟住 / 同埋"}
+{"f":"trainer","id":"gloss.CONN.그래서","src":"so","tgt":"所以"}
+{"f":"trainer","id":"gloss.CONN.그런데","src":"but","tgt":"但係 / 係呢"}
+{"f":"trainer","id":"gloss.CONN.근데","src":"but (casual)","tgt":"但係（口語）"}
+{"f":"trainer","id":"gloss.CONN.하지만","src":"but","tgt":"不過"}
+{"f":"trainer","id":"gloss.CONN.먼저","src":"first","tgt":"首先"}
+{"f":"trainer","id":"gloss.CONN.그다음에","src":"after that","tgt":"然後"}
+{"f":"trainer","id":"gloss.CONN.마지막으로","src":"lastly","tgt":"最後"}
+{"f":"trainer","id":"gloss.CONN.아니면","src":"or","tgt":"定係 / 或者"}
+{"f":"trainer","id":"gloss.CONN.그럼","src":"then","tgt":"咁"}
+{"f":"trainer","id":"gloss.CONN.그러면","src":"then","tgt":"咁樣嘅話"}
+{"f":"trainer","id":"gloss.CONN.네","src":"yes","tgt":"係"}
+{"f":"trainer","id":"gloss.CONN.아니요","src":"no","tgt":"唔係"}
+{"f":"trainer","id":"gloss.CONN.저는","src":"as for me (저 + 는)","tgt":"我呢（저 + 는）"}
+{"f":"trainer","id":"gloss.CONN.저","src":"I (humble)","tgt":"我（謙稱）"}
+{"f":"trainer","id":"gloss.CONN.나","src":"I (casual)","tgt":"我（半語）"}
+{"f":"trainer","id":"gloss.CONN.너","src":"you (casual)","tgt":"你（半語）"}
+{"f":"trainer","id":"gloss.CONN.우리","src":"we / our","tgt":"我哋 / 我哋嘅"}
+{"f":"trainer","id":"gloss.CONN.같이","src":"together","tgt":"一齊"}
+{"f":"trainer","id":"gloss.CONN.너무","src":"too / very","tgt":"太 / 好"}
+{"f":"trainer","id":"gloss.CONN.진짜","src":"really","tgt":"真係"}
+{"f":"trainer","id":"gloss.CONN.정말","src":"really","tgt":"真係"}
+{"f":"trainer","id":"gloss.CONN.조금","src":"a little","tgt":"少少"}
+{"f":"trainer","id":"gloss.CONN.좀","src":"a bit / please","tgt":"少少 / 唔該"}
+{"f":"trainer","id":"gloss.CONN.지금","src":"now","tgt":"而家"}
+{"f":"trainer","id":"gloss.CONN.오늘","src":"today","tgt":"今日"}
+{"f":"trainer","id":"gloss.CONN.내일","src":"tomorrow","tgt":"聽日"}
+{"f":"trainer","id":"gloss.CONN.어제","src":"yesterday","tgt":"尋日"}
+{"f":"trainer","id":"gloss.CONN.안","src":"not","tgt":"唔"}
+{"f":"trainer","id":"gloss.CONN.못","src":"can't","tgt":"做唔到"}
+{"f":"trainer","id":"gloss.CONN.잘","src":"well","tgt":"好好咁 / 叻"}
+{"f":"trainer","id":"gloss.CONN.또","src":"again","tgt":"又 / 再"}
+{"f":"trainer","id":"gloss.CONN.늦게","src":"late","tgt":"遲"}
+{"f":"trainer","id":"gloss.CONN.빨리","src":"quickly","tgt":"快啲"}
+{"f":"trainer","id":"gloss.CONN.다","src":"all","tgt":"全部"}
+{"f":"trainer","id":"gloss.CONN.많이","src":"a lot","tgt":"好多"}
+{"f":"trainer","id":"gloss.CONN.아직","src":"yet / still","tgt":"仲 / 未"}
+{"f":"trainer","id":"gloss.CONN.이거","src":"this one","tgt":"呢個"}
+{"f":"trainer","id":"gloss.CONN.그거","src":"that one","tgt":"嗰個"}
+{"f":"trainer","id":"gloss.CONN.저거","src":"that one (far)","tgt":"嗰個（遠啲）"}
+{"f":"trainer","id":"gloss.CONN.여기","src":"here","tgt":"呢度"}
+{"f":"trainer","id":"gloss.CONN.거기","src":"there","tgt":"嗰度"}
+{"f":"trainer","id":"gloss.CONN.저기","src":"over there","tgt":"嗰邊（遠啲）"}
+{"f":"trainer","id":"gloss.COUNT.개","src":"things","tgt":"個"}
+{"f":"trainer","id":"gloss.COUNT.명","src":"people","tgt":"個（人）"}
+{"f":"trainer","id":"gloss.COUNT.잔","src":"cups","tgt":"杯"}
+{"f":"trainer","id":"gloss.COUNT.병","src":"bottles","tgt":"樽"}
+{"f":"trainer","id":"gloss.COUNT.마리","src":"animals","tgt":"隻"}
+{"f":"trainer","id":"gloss.COUNT.권","src":"books","tgt":"本"}
+{"f":"trainer","id":"gloss.COUNT.장","src":"sheets","tgt":"張"}
+{"f":"trainer","id":"gloss.COUNT.살","src":"years old","tgt":"歲"}
+{"f":"trainer","id":"gloss.COUNT.시간","src":"hours","tgt":"個鐘"}
+{"f":"trainer","id":"gloss.COUNT.번","src":"times","tgt":"次"}
+{"f":"trainer","id":"gloss.COUNT.분","src":"minutes / people (polite)","tgt":"分鐘 / 位（尊敬）"}
+{"f":"trainer","id":"gloss.COUNT.시","src":"o'clock","tgt":"點（鐘）"}
+{"f":"trainer","id":"gloss.COUNT.원","src":"won","tgt":"韓元"}
+{"f":"trainer","id":"gloss.tpl.question","src":"%1 (question word)","tgt":"%1（疑問詞）"}
+{"f":"trainer","id":"gloss.tpl.counter","src":"counter · %1","tgt":"量詞 · %1"}
+{"f":"trainer","id":"gloss.tpl.number","src":"number %1","tgt":"數字 %1"}
+{"f":"trainer","id":"gloss.tpl.jiMa","src":"don't (지 마)","tgt":"唔好……（지 마）"}
+{"f":"trainer","id":"gloss.tpl.adoDwaeyo","src":"is it okay? (-아/어도 돼요)","tgt":"可唔可以……？（-아/어도 돼요）"}
+{"f":"trainer","id":"gloss.tpl.myeonAnDwaeyo","src":"not okay? (-(으)면 안 돼요)","tgt":"唔可以……？（-(으)면 안 돼요）"}
+{"f":"trainer","id":"gloss.tpl.doEvenIf","src":"verb + 도 (even if)","tgt":"動詞 + 도（就算）"}
+{"f":"trainer","id":"gloss.tpl.jiStem","src":"verb stem + 지","tgt":"動詞詞幹 + 지"}
+{"f":"trainer","id":"gloss.tpl.past","src":"verb · past (았/었어요)","tgt":"動詞 · 過去式（았/었어요）"}
 {"f":"trainer","id":"gloss.tpl.particleYo","src":"%1 + %2 = %3 + 요","tgt":"%1 + %2 = %3 + 요","pre":1}
-{"f":"trainer","id":"gloss.tpl.questionYo","src":"%1 + 요 (polite)","tgt":""}
-{"f":"trainer","id":"gloss.tpl.verb","src":"verb · %1","tgt":""}
+{"f":"trainer","id":"gloss.tpl.questionYo","src":"%1 + 요 (polite)","tgt":"%1 + 요（禮貌）"}
+{"f":"trainer","id":"gloss.tpl.verb","src":"verb · %1","tgt":"動詞 · %1"}
 {"f":"trainer","id":"gloss.tpl.particle","src":"%1 + %2 = %3","tgt":"%1 + %2 = %3","pre":1}
-{"f":"trainer","id":"gloss.tpl.digits","src":"number","tgt":""}
-{"f":"trainer","id":"gloss.tpl.word","src":"noun / word","tgt":""}
-{"f":"trainer","id":"build.extra.어제 친구를 만났어요","src":"Yesterday I met a friend","tgt":""}
-{"f":"trainer","id":"build.extra.먼저 카페에 갔어요","src":"First we went to a café","tgt":""}
-{"f":"trainer","id":"build.extra.그리고 커피를 마셨어요","src":"And we drank coffee","tgt":""}
-{"f":"trainer","id":"build.extra.그다음에 영화를 봤어요","src":"After that we watched a movie","tgt":""}
-{"f":"trainer","id":"build.extra.그래서 집에 늦게 왔어요","src":"So I got home late","tgt":""}
-{"f":"trainer","id":"build.extra.지난 주말에 뭐 했어요","src":"What did you do last weekend","tgt":""}
-{"f":"trainer","id":"build.extra.아까 점심 먹었어요","src":"I had lunch a while ago","tgt":""}
-{"f":"trainer","id":"build.extra.그런데 영화가 너무 길었어요","src":"But the movie was too long","tgt":""}
-{"f":"trainer","id":"build.extra.매운 거 안 먹어요","src":"I don't eat spicy food","tgt":""}
-{"f":"trainer","id":"build.extra.매운 거 못 먹어요","src":"I can't eat spicy food","tgt":""}
-{"f":"trainer","id":"build.extra.한국어 할 수 있어요","src":"Can you speak Korean","tgt":""}
-{"f":"trainer","id":"build.extra.조금 할 수 있어요","src":"I can, a little","tgt":""}
-{"f":"trainer","id":"build.extra.오늘은 못 가요","src":"I can't go today","tgt":""}
-{"f":"trainer","id":"build.extra.오늘 운동 안 해요","src":"I'm not working out today","tgt":""}
-{"f":"trainer","id":"build.extra.잘 모르겠어요","src":"I'm not sure","tgt":""}
-{"f":"trainer","id":"build.extra.길을 몰라요","src":"I don't know the way","tgt":""}
-{"f":"trainer","id":"build.extra.지금 갈 수 없어요","src":"I can't go now","tgt":""}
-{"f":"trainer","id":"build.extra.커피 안 마셔요","src":"I don't drink coffee","tgt":""}
-{"f":"trainer","id":"build.ui.prompt","src":"tap the words in order","tgt":""}
-{"f":"trainer","id":"build.ui.answer","src":"Answer","tgt":""}
-{"f":"trainer","id":"build.ui.notQuite","src":"Not quite","tgt":""}
-{"f":"trainer","id":"numbers.hint.price","src":"price in won (Sino)","tgt":""}
-{"f":"trainer","id":"numbers.hint.time","src":"time (native hour, Sino minutes) — type like 3:30","tgt":""}
-{"f":"trainer","id":"numbers.hint.phone","src":"phone number (digits, 0 = 공)","tgt":""}
-{"f":"trainer","id":"numbers.hint.floor","src":"floor (Sino) — B for basement","tgt":""}
-{"f":"trainer","id":"numbers.hint.count","src":"count (native + %1 %2)","tgt":""}
-{"f":"trainer","id":"numbers.hint.age","src":"age (native + 살)","tgt":""}
-{"f":"trainer","id":"numbers.hint.minutes","src":"minutes (Sino + 분)","tgt":""}
-{"f":"trainer","id":"numbers.counter.개","src":"things","tgt":""}
-{"f":"trainer","id":"numbers.counter.명","src":"people","tgt":""}
-{"f":"trainer","id":"numbers.counter.잔","src":"cups","tgt":""}
-{"f":"trainer","id":"numbers.counter.병","src":"bottles","tgt":""}
-{"f":"trainer","id":"numbers.counter.마리","src":"animals","tgt":""}
-{"f":"trainer","id":"numbers.counter.장","src":"sheets","tgt":""}
-{"f":"trainer","id":"numbers.ui.prompt","src":"🔢 Listen and type the number · %1","tgt":""}
-{"f":"trainer","id":"numbers.ui.placeholder","src":"digits","tgt":""}
-{"f":"trainer","id":"sound.rules.받침 → %1","src":"final consonant said as %1 (only 7 finals survive)","tgt":""}
-{"f":"trainer","id":"sound.rules.ㄴ 첨가 → ㄹㄹ","src":"ㄴ is added, then becomes ㄹ next to ㄹ","tgt":""}
-{"f":"trainer","id":"sound.rules.ㅎ 탈락","src":"ㅎ goes silent between vowels","tgt":""}
-{"f":"trainer","id":"sound.rules.연음","src":"linking: the final consonant slides into the next syllable","tgt":""}
-{"f":"trainer","id":"sound.rules.구개음화","src":"ㄷ / ㅌ before 이 are said ㅈ / ㅊ","tgt":""}
-{"f":"trainer","id":"sound.rules.격음화","src":"ㅎ next to ㄱ ㄷ ㅂ ㅈ makes them airy ㅋ ㅌ ㅍ ㅊ","tgt":""}
-{"f":"trainer","id":"sound.rules.경음화","src":"the next consonant becomes tense","tgt":""}
-{"f":"trainer","id":"sound.rules.비음화","src":"nasal: ㅂ ㄷ ㄱ soften to ㅁ ㄴ ㅇ before ㄴ / ㅁ","tgt":""}
-{"f":"trainer","id":"sound.rules.유음화","src":"ㄴ meets ㄹ: both become ㄹ","tgt":""}
-{"f":"trainer","id":"sound.rules.받침 중화","src":"final consonant neutralised to its basic sound","tgt":""}
-{"f":"trainer","id":"sound.rules.ㅢ → 이","src":"ㅢ not at the start of a word is said 이","tgt":""}
-{"f":"trainer","id":"sound.ui.prompt","src":"How is this actually said?","tgt":""}
-{"f":"trainer","id":"register.toPolite","src":"Make it polite (요-form)","tgt":""}
-{"f":"trainer","id":"register.toCasual","src":"Make it casual (반말)","tgt":""}
-{"f":"trainer","id":"register.whyPolite","src":"casual → polite: add 요 (or the honorific verb)","tgt":""}
-{"f":"trainer","id":"register.whyCasual","src":"polite → casual: drop 요","tgt":""}
-{"f":"trainer","id":"conj.labels.polite","src":"polite present","tgt":""}
-{"f":"trainer","id":"conj.labels.past","src":"polite past","tgt":""}
-{"f":"trainer","id":"conj.labels.future","src":"future","tgt":""}
-{"f":"trainer","id":"conj.labels.casual","src":"casual","tgt":""}
-{"f":"trainer","id":"conj.labels.formal","src":"formal","tgt":""}
-{"f":"trainer","id":"conj.labels.kkayo","src":"shall we?","tgt":""}
-{"f":"trainer","id":"conj.labels.want","src":"want to","tgt":""}
-{"f":"trainer","id":"conj.labels.dontDo","src":"don't (request)","tgt":""}
-{"f":"trainer","id":"conj.labels.neg","src":"negative","tgt":""}
+{"f":"trainer","id":"gloss.tpl.digits","src":"number","tgt":"數字"}
+{"f":"trainer","id":"gloss.tpl.word","src":"noun / word","tgt":"名詞 / 生字"}
+{"f":"trainer","id":"build.extra.어제 친구를 만났어요","src":"Yesterday I met a friend","tgt":"尋日我見咗個朋友"}
+{"f":"trainer","id":"build.extra.먼저 카페에 갔어요","src":"First we went to a café","tgt":"我哋首先去咗咖啡店"}
+{"f":"trainer","id":"build.extra.그리고 커피를 마셨어요","src":"And we drank coffee","tgt":"跟住飲咗咖啡"}
+{"f":"trainer","id":"build.extra.그다음에 영화를 봤어요","src":"After that we watched a movie","tgt":"然後睇咗套戲"}
+{"f":"trainer","id":"build.extra.그래서 집에 늦게 왔어요","src":"So I got home late","tgt":"所以我好夜先返到屋企"}
+{"f":"trainer","id":"build.extra.지난 주말에 뭐 했어요","src":"What did you do last weekend","tgt":"你上個週末做咗乜嘢？"}
+{"f":"trainer","id":"build.extra.아까 점심 먹었어요","src":"I had lunch a while ago","tgt":"我啱啱食咗晏"}
+{"f":"trainer","id":"build.extra.그런데 영화가 너무 길었어요","src":"But the movie was too long","tgt":"但係套戲太長"}
+{"f":"trainer","id":"build.extra.매운 거 안 먹어요","src":"I don't eat spicy food","tgt":"我唔食辣嘢"}
+{"f":"trainer","id":"build.extra.매운 거 못 먹어요","src":"I can't eat spicy food","tgt":"我食唔到辣"}
+{"f":"trainer","id":"build.extra.한국어 할 수 있어요","src":"Can you speak Korean","tgt":"你識唔識講韓文？"}
+{"f":"trainer","id":"build.extra.조금 할 수 있어요","src":"I can, a little","tgt":"識少少"}
+{"f":"trainer","id":"build.extra.오늘은 못 가요","src":"I can't go today","tgt":"我今日去唔到"}
+{"f":"trainer","id":"build.extra.오늘 운동 안 해요","src":"I'm not working out today","tgt":"我今日唔做運動"}
+{"f":"trainer","id":"build.extra.잘 모르겠어요","src":"I'm not sure","tgt":"我唔太清楚"}
+{"f":"trainer","id":"build.extra.길을 몰라요","src":"I don't know the way","tgt":"我唔識路"}
+{"f":"trainer","id":"build.extra.지금 갈 수 없어요","src":"I can't go now","tgt":"我而家冇辦法去"}
+{"f":"trainer","id":"build.extra.커피 안 마셔요","src":"I don't drink coffee","tgt":"我唔飲咖啡"}
+{"f":"trainer","id":"build.ui.prompt","src":"tap the words in order","tgt":"順序撳啲字"}
+{"f":"trainer","id":"build.ui.answer","src":"Answer","tgt":"答案"}
+{"f":"trainer","id":"build.ui.notQuite","src":"Not quite","tgt":"差少少"}
+{"f":"trainer","id":"numbers.hint.price","src":"price in won (Sino)","tgt":"價錢（韓元，漢字詞數字）"}
+{"f":"trainer","id":"numbers.hint.time","src":"time (native hour, Sino minutes) — type like 3:30","tgt":"時間（點鐘用固有詞數字，分鐘用漢字詞數字）：照 3:30 咁打"}
+{"f":"trainer","id":"numbers.hint.phone","src":"phone number (digits, 0 = 공)","tgt":"電話號碼（打數字，0 = 공）"}
+{"f":"trainer","id":"numbers.hint.floor","src":"floor (Sino) — B for basement","tgt":"樓層（漢字詞數字）：地庫打 B"}
+{"f":"trainer","id":"numbers.hint.count","src":"count (native + %1 %2)","tgt":"數量（固有詞數字 + %1 %2）"}
+{"f":"trainer","id":"numbers.hint.age","src":"age (native + 살)","tgt":"年齡（固有詞數字 + 살）"}
+{"f":"trainer","id":"numbers.hint.minutes","src":"minutes (Sino + 분)","tgt":"分鐘（漢字詞數字 + 분）"}
+{"f":"trainer","id":"numbers.counter.개","src":"things","tgt":"個"}
+{"f":"trainer","id":"numbers.counter.명","src":"people","tgt":"人"}
+{"f":"trainer","id":"numbers.counter.잔","src":"cups","tgt":"杯"}
+{"f":"trainer","id":"numbers.counter.병","src":"bottles","tgt":"樽"}
+{"f":"trainer","id":"numbers.counter.마리","src":"animals","tgt":"隻"}
+{"f":"trainer","id":"numbers.counter.장","src":"sheets","tgt":"張"}
+{"f":"trainer","id":"numbers.ui.prompt","src":"🔢 Listen and type the number · %1","tgt":"🔢 聽完打數字 · %1"}
+{"f":"trainer","id":"numbers.ui.placeholder","src":"digits","tgt":"數字"}
+{"f":"trainer","id":"sound.rules.받침 → %1","src":"final consonant said as %1 (only 7 finals survive)","tgt":"收音讀成 %1（收尾只得 7 個音）"}
+{"f":"trainer","id":"sound.rules.ㄴ 첨가 → ㄹㄹ","src":"ㄴ is added, then becomes ㄹ next to ㄹ","tgt":"加咗個 ㄴ，貼住 ㄹ 又變成 ㄹ"}
+{"f":"trainer","id":"sound.rules.ㅎ 탈락","src":"ㅎ goes silent between vowels","tgt":"ㅎ 喺兩個元音中間唔發音"}
+{"f":"trainer","id":"sound.rules.연음","src":"linking: the final consonant slides into the next syllable","tgt":"連音：收音移去下一個音節"}
+{"f":"trainer","id":"sound.rules.구개음화","src":"ㄷ / ㅌ before 이 are said ㅈ / ㅊ","tgt":"ㄷ / ㅌ 喺 이 前面讀成 ㅈ / ㅊ"}
+{"f":"trainer","id":"sound.rules.격음화","src":"ㅎ next to ㄱ ㄷ ㅂ ㅈ makes them airy ㅋ ㅌ ㅍ ㅊ","tgt":"ㅎ 貼住 ㄱ ㄷ ㅂ ㅈ，令佢哋變成送氣嘅 ㅋ ㅌ ㅍ ㅊ"}
+{"f":"trainer","id":"sound.rules.경음화","src":"the next consonant becomes tense","tgt":"後面嘅輔音變成緊音"}
+{"f":"trainer","id":"sound.rules.비음화","src":"nasal: ㅂ ㄷ ㄱ soften to ㅁ ㄴ ㅇ before ㄴ / ㅁ","tgt":"鼻音化：ㅂ ㄷ ㄱ 喺 ㄴ / ㅁ 前面變成 ㅁ ㄴ ㅇ"}
+{"f":"trainer","id":"sound.rules.유음화","src":"ㄴ meets ㄹ: both become ㄹ","tgt":"ㄴ 遇到 ㄹ，兩個都讀 ㄹ"}
+{"f":"trainer","id":"sound.rules.받침 중화","src":"final consonant neutralised to its basic sound","tgt":"收音讀返佢嘅代表音"}
+{"f":"trainer","id":"sound.rules.ㅢ → 이","src":"ㅢ not at the start of a word is said 이","tgt":"唔喺字頭嘅 ㅢ 讀成 이"}
+{"f":"trainer","id":"sound.ui.prompt","src":"How is this actually said?","tgt":"實際點讀？"}
+{"f":"trainer","id":"register.toPolite","src":"Make it polite (요-form)","tgt":"改做禮貌體（요體）"}
+{"f":"trainer","id":"register.toCasual","src":"Make it casual (반말)","tgt":"改做半語（반말）"}
+{"f":"trainer","id":"register.whyPolite","src":"casual → polite: add 요 (or the honorific verb)","tgt":"半語 → 禮貌體：加 요（或者換做尊敬形動詞）"}
+{"f":"trainer","id":"register.whyCasual","src":"polite → casual: drop 요","tgt":"禮貌體 → 半語：刪走 요"}
+{"f":"trainer","id":"conj.labels.polite","src":"polite present","tgt":"禮貌體現在式"}
+{"f":"trainer","id":"conj.labels.past","src":"polite past","tgt":"禮貌體過去式"}
+{"f":"trainer","id":"conj.labels.future","src":"future","tgt":"將來式"}
+{"f":"trainer","id":"conj.labels.casual","src":"casual","tgt":"半語"}
+{"f":"trainer","id":"conj.labels.formal","src":"formal","tgt":"正式體"}
+{"f":"trainer","id":"conj.labels.kkayo","src":"shall we?","tgt":"……好唔好？（提議）"}
+{"f":"trainer","id":"conj.labels.want","src":"want to","tgt":"想……"}
+{"f":"trainer","id":"conj.labels.dontDo","src":"don't (request)","tgt":"唔好……（請求）"}
+{"f":"trainer","id":"conj.labels.neg","src":"negative","tgt":"否定"}
 {"f":"trainer","id":"conj.irregular.ㄷ→ㄹ","src":"ㄷ→ㄹ","tgt":"ㄷ→ㄹ","pre":1}
 {"f":"trainer","id":"conj.irregular.ㅂ→우","src":"ㅂ→우","tgt":"ㅂ→우","pre":1}
-{"f":"trainer","id":"conj.irregular.ㅡ drop","src":"ㅡ drop","tgt":""}
+{"f":"trainer","id":"conj.irregular.ㅡ drop","src":"ㅡ drop","tgt":"ㅡ 脫落"}
 {"f":"trainer","id":"conj.irregular.르","src":"르","tgt":"르","pre":1}
-{"f":"trainer","id":"conj.ui.empty","src":"Enter a dictionary form ending in 다.","tgt":""}
-{"f":"trainer","id":"conj.ui.irregular","src":"irregular: %1","tgt":""}
-{"f":"trainer","id":"conj.ui.title","src":"Verb conjugator","tgt":""}
-{"f":"trainer","id":"conj.ui.placeholder","src":"dictionary form, e.g. 먹다","tgt":""}
-{"f":"trainer","id":"conj.ui.button","src":"Conjugate","tgt":""}
-{"f":"trainer","id":"conj.ui.tryLine","src":"Try 가다 · 먹다 · 하다 · 마시다 · 예쁘다 · 듣다 · 돕다 · 살다 · 모르다","tgt":""}
-{"f":"trainer","id":"quiz.why","src":"Why: %1","tgt":""}
-{"f":"trainer","id":"quiz.rule","src":"Show rule ↗","tgt":""}
-{"f":"trainer","id":"koui.수고했어요","src":"good work","tgt":""}
-{"f":"trainer","id":"koui.다음에 봐요","src":"see you next time","tgt":""}
-{"f":"trainer","id":"koui.잘했어요","src":"well done","tgt":""}
-{"f":"trainer","id":"koui.대박","src":"amazing","tgt":""}
-{"f":"trainer","id":"koui.좋아요","src":"good","tgt":""}
-{"f":"trainer","id":"koui.다시 해 봐요","src":"try again","tgt":""}
-{"f":"trainer","id":"koui.맞아요","src":"correct","tgt":""}
-{"f":"trainer","id":"koui.완벽해요","src":"perfect","tgt":""}
-{"f":"trainer","id":"koui.다 했어요","src":"all done","tgt":""}
-{"f":"trainer","id":"koui.목표 달성","src":"goal reached","tgt":""}
-{"f":"trainer","id":"koui.레벨 업","src":"level up","tgt":""}
-{"f":"trainer","id":"koui.내 표현","src":"my phrases","tgt":""}
-{"f":"trainer","id":"koui.모두 열렸어요","src":"everything unlocked","tgt":""}
-{"f":"trainer","id":"koui.한글","src":"the Korean alphabet","tgt":""}
-{"f":"trainer","id":"strokes.replay","src":"↻ stroke order","tgt":""}
+{"f":"trainer","id":"conj.ui.empty","src":"Enter a dictionary form ending in 다.","tgt":"打一個以 다 結尾嘅原形。"}
+{"f":"trainer","id":"conj.ui.irregular","src":"irregular: %1","tgt":"不規則：%1"}
+{"f":"trainer","id":"conj.ui.title","src":"Verb conjugator","tgt":"動詞變化"}
+{"f":"trainer","id":"conj.ui.placeholder","src":"dictionary form, e.g. 먹다","tgt":"原形，例如 먹다"}
+{"f":"trainer","id":"conj.ui.button","src":"Conjugate","tgt":"變化"}
+{"f":"trainer","id":"conj.ui.tryLine","src":"Try 가다 · 먹다 · 하다 · 마시다 · 예쁘다 · 듣다 · 돕다 · 살다 · 모르다","tgt":"試下 가다 · 먹다 · 하다 · 마시다 · 예쁘다 · 듣다 · 돕다 · 살다 · 모르다"}
+{"f":"trainer","id":"quiz.why","src":"Why: %1","tgt":"點解：%1"}
+{"f":"trainer","id":"quiz.rule","src":"Show rule ↗","tgt":"睇規則 ↗"}
+{"f":"trainer","id":"koui.수고했어요","src":"good work","tgt":"辛苦晒"}
+{"f":"trainer","id":"koui.다음에 봐요","src":"see you next time","tgt":"下次見"}
+{"f":"trainer","id":"koui.잘했어요","src":"well done","tgt":"做得好"}
+{"f":"trainer","id":"koui.대박","src":"amazing","tgt":"勁呀"}
+{"f":"trainer","id":"koui.좋아요","src":"good","tgt":"好"}
+{"f":"trainer","id":"koui.다시 해 봐요","src":"try again","tgt":"再試下"}
+{"f":"trainer","id":"koui.맞아요","src":"correct","tgt":"啱"}
+{"f":"trainer","id":"koui.완벽해요","src":"perfect","tgt":"完美"}
+{"f":"trainer","id":"koui.다 했어요","src":"all done","tgt":"全部搞掂"}
+{"f":"trainer","id":"koui.목표 달성","src":"goal reached","tgt":"達成目標"}
+{"f":"trainer","id":"koui.레벨 업","src":"level up","tgt":"升級"}
+{"f":"trainer","id":"koui.내 표현","src":"my phrases","tgt":"我嘅短句"}
+{"f":"trainer","id":"koui.모두 열렸어요","src":"everything unlocked","tgt":"全部解鎖"}
+{"f":"trainer","id":"koui.한글","src":"the Korean alphabet","tgt":"韓文字母"}
+{"f":"trainer","id":"strokes.replay","src":"↻ stroke order","tgt":"↻ 筆順"}

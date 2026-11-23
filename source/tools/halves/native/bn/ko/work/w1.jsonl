@@ -64,13 +64,13 @@
 {"f":"labels","id":"ko.z.expression.16","k":"text","src":"I know, right","tgt":"ঠিকই তো"}
 {"f":"labels","id":"ko.z.expression.17","k":"text","src":"Oh my","tgt":"আহা রে / উফ"}
 {"f":"labels","id":"ko.z.expression.18","k":"text","src":"Of course","tgt":"নিশ্চয়ই"}
-{"f":"labels","id":"ko.z.expression.19","k":"text","src":"I'm not sure","tgt":"ঠিক নিশ্চিত না"}
+{"f":"labels","id":"ko.z.expression.19","k":"text","src":"I'm not sure","tgt":"আমি ঠিক নিশ্চিত নই"}
 {"f":"labels","id":"ko.z.expression.20","k":"text","src":"Long time no see","tgt":"অনেক দিন পর দেখা"}
 {"f":"labels","id":"ko.z.expression.21","k":"text","src":"Good work today","tgt":"অনেক খেটেছেন, ধন্যবাদ"}
 {"f":"labels","id":"ko.z.expression.22","k":"text","src":"Thanks for the meal (before eating)","tgt":"খাবারের জন্য ধন্যবাদ (খাওয়ার আগে)"}
 {"f":"labels","id":"ko.z.expression.23","k":"text","src":"That was delicious (after eating)","tgt":"খুব ভালো খেলাম, ধন্যবাদ (খাওয়ার পরে)"}
 {"f":"labels","id":"ko.z.expression.24","k":"text","src":"Get home safe","tgt":"সাবধানে বাসায় যাবেন"}
-{"f":"labels","id":"ko.z.expression.25","k":"text","src":"Have a good day","tgt":"দিনটা ভালো কাটুক"}
+{"f":"labels","id":"ko.z.expression.25","k":"text","src":"Have a good day","tgt":"আপনার দিনটা ভালো কাটুক"}
 {"f":"labels","id":"ko.z.expression.26","k":"text","src":"What does it mean?","tgt":"এর মানে কী?"}
 {"f":"labels","id":"ko.z.polite","k":"text","src":"polite basics","tgt":"ভদ্রতার মূল কথা"}
 {"f":"labels","id":"ko.z.polite.01","k":"text","src":"Please (give me)","tgt":"দিন (কিছু চাইতে)"}
@@ -87,8 +87,8 @@
 {"f":"labels","id":"ko.z.polite.12","k":"text","src":"Goodbye (you're staying)","tgt":"ভালো থাকবেন (যিনি থাকছেন তাঁকে)"}
 {"f":"labels","id":"ko.z.polite.13","k":"text","src":"Goodbye (you're leaving)","tgt":"সাবধানে যাবেন (যিনি যাচ্ছেন তাঁকে)"}
 {"f":"labels","id":"ko.z.polite.14","k":"text","src":"Please help me","tgt":"সাহায্য করুন"}
-{"f":"labels","id":"ko.z.polite.15","k":"text","src":"Nice to meet you (first time)","tgt":"পরিচিত হয়ে খুশি হলাম (প্রথম দেখায়)"}
-{"f":"labels","id":"ko.z.polite.16","k":"text","src":"Nice to meet you","tgt":"দেখা হয়ে খুব খুশি হলাম"}
+{"f":"labels","id":"ko.z.polite.15","k":"text","src":"Nice to meet you (first time)","tgt":"প্রথমবার দেখা হলো, খুব খুশি হলাম"}
+{"f":"labels","id":"ko.z.polite.16","k":"text","src":"Nice to meet you","tgt":"পরিচিত হয়ে ভালো লাগল"}
 {"f":"labels","id":"ko.z.polite.17","k":"text","src":"After you / Go ahead","tgt":"আপনি আগে যান"}
 {"f":"labels","id":"ko.z.polite.18","k":"text","src":"Coming through, excuse me","tgt":"একটু জায়গা দিন, যাচ্ছি"}
 {"f":"labels","id":"ko.z.saying","k":"text","src":"saying","tgt":"প্রবাদ"}
@@ -405,7 +405,7 @@
 {"f":"cards","id":"ko.c0073","k":"note","src":"Look at the last Hangul block: 이에요 after a final consonant (저는 킴이에요), 예요 after a vowel (저는 리사예요).","tgt":"শেষ হাঙ্গুল ব্লকটা দেখুন: শেষ ব্যঞ্জন থাকলে 이에요 (저는 킴이에요), স্বর থাকলে 예요 (저는 리사예요)।"}
 {"f":"cards","id":"ko.c0074","k":"meaning","src":"What's your name?","tgt":"আপনার নাম কী?"}
 {"f":"cards","id":"ko.c0074","k":"note","src":"Polite: 성함이 어떻게 되세요? for elders or formal settings.","tgt":"বয়স্কদের সাথে বা আনুষ্ঠানিক জায়গায়: 성함이 어떻게 되세요?"}
-{"f":"cards","id":"ko.c0075","k":"meaning","src":"Nice to meet you","tgt":"দেখা হয়ে ভালো লাগল"}
+{"f":"cards","id":"ko.c0075","k":"meaning","src":"Nice to meet you","tgt":"আপনার সাথে পরিচিত হয়ে ভালো লাগল"}
 {"f":"cards","id":"ko.c0075","k":"note","src":"Lit. 'glad because we met'. Formal: 반갑습니다.","tgt":"আক্ষরিক: \"দেখা হলো বলে খুশি\"। আনুষ্ঠানিক: 반갑습니다।"}
 {"f":"cards","id":"ko.c0076","k":"meaning","src":"Where are you from?","tgt":"আপনি কোথা থেকে এসেছেন?"}
 {"f":"cards","id":"ko.c0076","k":"note","src":"에서 = from. 어디 = where.","tgt":"에서 = থেকে। 어디 = কোথায়।"}
@@ -437,10 +437,10 @@
 {"f":"cards","id":"ko.c0089","k":"note","src":"Say it, then 다시 말해 주세요.","tgt":"এটা বলে তারপর বলুন 다시 말해 주세요।"}
 {"f":"cards","id":"ko.c0090","k":"meaning","src":"Please say it again","tgt":"আরেকবার বলুন"}
 {"f":"cards","id":"ko.c0090","k":"note","src":"다시 = again.","tgt":"다시 = আবার।"}
-{"f":"cards","id":"ko.c0091","k":"meaning","src":"Can you speak English?","tgt":"আপনি ইংরেজি বলতে পারেন?","rw":"mentions English"}
+{"f":"cards","id":"ko.c0091","k":"meaning","src":"Can you speak English?","tgt":"আপনি কি ইংরেজি বলতে পারেন?","rw":"mentions English"}
 {"f":"cards","id":"ko.c0091","k":"note","src":"할 수 있다 = can do.","tgt":"할 수 있다 = পারা।"}
 {"f":"cards","id":"ko.c0644","k":"meaning","src":"Do you speak ___?","tgt":"আপনি কি ___ বলতে পারেন?"}
-{"f":"cards","id":"ko.c0644","k":"note","src":"Language + 할 수 있어요?: 영어, 스페인어, 중국어 할 수 있어요? Most languages are the country name + 어 (see the Countries deck); English is 영어.","tgt":"ভাষা + 할 수 있어요?: 영어, 스페인어, 중국어 할 수 있어요? বেশির ভাগ ভাষা হলো দেশের নাম + 어 («দেশ» ডেক দেখুন); ইংরেজি হলো 영어।","rw":"mentions English"}
+{"f":"cards","id":"ko.c0644","k":"note","src":"Language + 할 수 있어요?: 영어, 스페인어, 중국어 할 수 있어요? Most languages are the country name + 어 (see the Countries deck); English is 영어.","tgt":"ভাষা + 할 수 있어요?: 영어, 스페인어, 중국어 할 수 있어요? বেশির ভাগ ভাষা হলো দেশের নাম + 어 («দেশ» ডেক দেখুন); ইংরেজি হলো 영어। বাংলা এর ব্যতিক্রম: এর নাম দেশের নাম দিয়ে বানানো নয়।","rw":"mentions English"}
 {"f":"cards","id":"ko.c0092","k":"meaning","src":"What is this?","tgt":"এটা কী?"}
 {"f":"cards","id":"ko.c0092","k":"note","src":"Point and ask. Works for food, signs, everything.","tgt":"দেখিয়ে জিজ্ঞেস করুন। খাবার, সাইনবোর্ড, সবকিছুতে চলে।"}
 {"f":"cards","id":"ko.c0093","k":"meaning","src":"I'm going to use the bathroom","tgt":"একটু টয়লেটে যাচ্ছি"}
@@ -457,7 +457,7 @@
 {"f":"cards","id":"ko.c0098","k":"note","src":"길 = road/way. 잃다 = to lose.","tgt":"길 = পথ। 잃다 = হারানো।"}
 {"f":"cards","id":"ko.c0099","k":"meaning","src":"Where is the hospital?","tgt":"হাসপাতাল কোথায়?"}
 {"f":"cards","id":"ko.c0099","k":"note","src":"약국 (yakguk) = pharmacy. 경찰서 = police station.","tgt":"약국 (yakguk) = ফার্মেসি। 경찰서 = থানা।"}
-{"f":"cards","id":"ko.c0100","k":"meaning","src":"Slowly, please","tgt":"আস্তে আস্তে"}
+{"f":"cards","id":"ko.c0100","k":"meaning","src":"Slowly, please","tgt":"একটু আস্তে…"}
 {"f":"cards","id":"ko.c0100","k":"note","src":"Shortest version of 천천히 말해 주세요.","tgt":"সবচেয়ে ছোট রূপ; পুরোটা হলো 천천히 말해 주세요।"}
 {"f":"cards","id":"ko.c0101","k":"meaning","src":"Where is the bathroom?","tgt":"টয়লেট কোথায় আছে?"}
 {"f":"cards","id":"ko.c0101","k":"note","src":"Full form. Short: 화장실 어디예요? Both fine.","tgt":"পুরো রূপ। ছোট রূপ: 화장실 어디예요? দুটোই ঠিক।"}
@@ -473,8 +473,8 @@
 {"f":"cards","id":"ko.c0106","k":"note","src":"GS25, CU, 세븐일레븐. There's always one.","tgt":"জিএস25, সিইউ, 세븐일레븐। একটা না একটা থাকেই।"}
 {"f":"cards","id":"ko.c0107","k":"meaning","src":"Where's the nearest station?","tgt":"সবচেয়ে কাছের স্টেশন কোথায়?"}
 {"f":"cards","id":"ko.c0107","k":"note","src":"제일 가까운 = the nearest.","tgt":"제일 가까운 = সবচেয়ে কাছের।"}
-{"f":"cards","id":"ko.c0108","k":"meaning","src":"Where's the exit?","tgt":"বের হওয়ার পথ কোথায়?"}
-{"f":"cards","id":"ko.c0108","k":"note","src":"입구 = entrance. 출구 = exit.","tgt":"입구 = ঢোকার পথ। 출구 = বের হওয়ার পথ।"}
+{"f":"cards","id":"ko.c0108","k":"meaning","src":"Where's the exit?","tgt":"বের হওয়ার পথ (এক্সিট) কোথায়?"}
+{"f":"cards","id":"ko.c0108","k":"note","src":"입구 = entrance. 출구 = exit.","tgt":"입구 = ঢোকার পথ। 출구 = বের হওয়ার পথ, এক্সিট।"}
 {"f":"cards","id":"ko.c0109","k":"meaning","src":"Which exit number?","tgt":"কত নম্বর এক্সিট?"}
 {"f":"cards","id":"ko.c0109","k":"note","src":"Subway exits are numbered. 3번 출구 = exit 3.","tgt":"সাবওয়ের এক্সিটে নম্বর থাকে। 3번 출구 = 3 নম্বর এক্সিট।"}
 {"f":"cards","id":"ko.c0110","k":"meaning","src":"Where is this? / Where am I?","tgt":"এটা কোন জায়গা? / আমি কোথায়?"}
@@ -662,7 +662,7 @@
 {"f":"cards","id":"ko.c0201","k":"meaning","src":"after that","tgt":"এরপর"}
 {"f":"cards","id":"ko.c0201","k":"note","src":"그다음에 영화 봤어요.","tgt":"그다음에 영화 봤어요.","pre":1}
 {"f":"cards","id":"ko.c0202","k":"meaning","src":"first","tgt":"প্রথমে"}
-{"f":"cards","id":"ko.c0202","k":"note","src":"먼저 손 씻어요 = wash hands first.","tgt":"먼저 손 씻어요 = আগে হাত ধোন।"}
+{"f":"cards","id":"ko.c0202","k":"note","src":"먼저 손 씻어요 = wash hands first.","tgt":"먼저 손 씻어요 = আগে হাত ধুয়ে নিন।"}
 {"f":"cards","id":"ko.c0203","k":"meaning","src":"lastly","tgt":"সবশেষে"}
 {"f":"cards","id":"ko.c0203","k":"note","src":"Closes a sequence.","tgt":"একটা ধারাবাহিক বর্ণনা শেষ করে।"}
 {"f":"cards","id":"ko.c0204","k":"meaning","src":"because","tgt":"কারণ"}

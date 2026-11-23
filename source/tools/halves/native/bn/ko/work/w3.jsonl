@@ -316,7 +316,7 @@
 {"f":"patterns","id":"ko.p024","k":"meaning","src":"don't (command)","tgt":"…করবেন না (নিষেধ)"}
 {"f":"patterns","id":"ko.p025","k":"meaning","src":"noticing / mild surprise","tgt":"হঠাৎ খেয়াল করা / হালকা অবাক হওয়া"}
 {"f":"patterns","id":"ko.p026","k":"meaning","src":"soft contrast, background info","tgt":"নরম বৈপরীত্য, পটভূমির তথ্য"}
-{"f":"patterns","id":"ko.p027","k":"meaning","src":"is (after consonant / after vowel)","tgt":"A = B (শেষে ব্যঞ্জন থাকলে / শেষে স্বর থাকলে)"}
+{"f":"patterns","id":"ko.p027","k":"meaning","src":"is (after consonant / after vowel)","tgt":"হওয়া, যেমন 'আমি শিক্ষার্থী' (শেষে ব্যঞ্জন থাকলে / শেষে স্বর থাকলে)"}
 {"f":"patterns","id":"ko.p028","k":"meaning","src":"there is, have / there isn't","tgt":"আছে, কারো আছে / নেই"}
 {"f":"patterns","id":"ko.p029","k":"meaning","src":"go in order to","tgt":"…করতে যাওয়া"}
 {"f":"patterns","id":"ko.p030","k":"meaning","src":"want to","tgt":"…করতে চাই"}
@@ -648,7 +648,7 @@
 {"f":"practice","id":"pronouns-questions.01","k":"why","src":"누구 = who.","tgt":"누구 = কে।"}
 {"f":"practice","id":"pronouns-questions.02","k":"q","src":"'How much is this?' =","tgt":"'এটার দাম কত?' ="}
 {"f":"practice","id":"pronouns-questions.02","k":"why","src":"얼마 = how much (price).","tgt":"얼마 = কত (দাম)।"}
-{"f":"practice","id":"pronouns-questions.03","k":"q","src":"'Over there' (far from both of us) =","tgt":"'ওই যে দূরে' (দুজনের থেকেই দূরে) ="}
+{"f":"practice","id":"pronouns-questions.03","k":"q","src":"'Over there' (far from both of us) =","tgt":"'ওই যে দূরে' (দুইজনের থেকেই দূরে) ="}
 {"f":"practice","id":"pronouns-questions.03","k":"why","src":"저 = far; 저기 = that place over there.","tgt":"저 = দূরে; 저기 = দূরের ওই জায়গা।"}
 {"f":"practice","id":"pronouns-questions.04","k":"q","src":"The polite word for 'I' =","tgt":"ভদ্রভাবে 'আমি' ="}
 {"f":"practice","id":"pronouns-questions.04","k":"why","src":"저 is polite; 나 is for close friends.","tgt":"저 ভদ্র; 나 ঘনিষ্ঠ বন্ধুদের সাথে।"}

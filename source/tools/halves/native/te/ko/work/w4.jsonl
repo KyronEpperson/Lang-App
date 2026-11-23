@@ -5,7 +5,7 @@
 {"f":"sentences","id":"ko.s0132","k":"gloss","src":"(I) didn't eat","tgt":"(నేను) తినలేదు"}
 {"f":"sentences","id":"ko.s0133","k":"gloss","src":"The weather isn't good","tgt":"వాతావరణం బాగా లేదు"}
 {"f":"sentences","id":"ko.s0134","k":"gloss","src":"(I) don't study","tgt":"(నేను) చదువుకోను"}
-{"f":"sentences","id":"ko.s0135","k":"gloss","src":"(I) don't exercise on weekends","tgt":"(నేను) వారాంతంలో వ్యాయామం చేయను"}
+{"f":"sentences","id":"ko.s0135","k":"gloss","src":"(I) don't exercise on weekends","tgt":"(నేను) వీకెండ్లో వ్యాయామం చేయను"}
 {"f":"sentences","id":"ko.s0136","k":"gloss","src":"(I) don't like coffee","tgt":"నాకు కాఫీ ఇష్టం లేదు"}
 {"f":"sentences","id":"ko.s0137","k":"gloss","src":"(I) don't go","tgt":"(నేను) వెళ్ళను"}
 {"f":"sentences","id":"ko.s0138","k":"gloss","src":"(I) don't eat meat","tgt":"(నేను) మాంసం తినను"}
@@ -13,15 +13,15 @@
 {"f":"sentences","id":"ko.s0140","k":"gloss","src":"I'm not a student","tgt":"నేను స్టూడెంట్ని కాదు"}
 {"f":"sentences","id":"ko.s0141","k":"gloss","src":"(She) isn't a doctor","tgt":"(ఆవిడ) డాక్టర్ కాదు"}
 {"f":"sentences","id":"ko.s0142","k":"gloss","src":"(I) don't have time","tgt":"నాకు టైం లేదు"}
-{"f":"checks","id":"negation.k1","k":"q","src":"'I don't study' =","tgt":"'నేను చదువుకోను' ="}
+{"f":"checks","id":"negation.k1","k":"q","src":"'I don't study' =","tgt":"'నేను చదువుకోను' (వర్తమానం) ="}
 {"f":"checks","id":"negation.k1","k":"why","src":"With noun + 하다, 안 goes before 해요.","tgt":"నామవాచకం + 하다 అయితే, 안 అనేది 해요 ముందు వస్తుంది."}
 {"f":"checks","id":"negation.k2","k":"q","src":"'I'm not a student' =","tgt":"'నేను స్టూడెంట్ని కాదు' ="}
 {"f":"checks","id":"negation.k2","k":"why","src":"Nouns are negated with 이/가 아니에요.","tgt":"నామవాచకాన్ని 이/가 아니에요 తో కాదంటాం."}
 {"f":"checks","id":"negation.k3","k":"q","src":"'I don't have time' =","tgt":"'నాకు టైం లేదు' ="}
 {"f":"checks","id":"negation.k3","k":"why","src":"The negative of 있어요 is 없어요.","tgt":"있어요 అనే క్రియకు వ్యతిరేకం 없어요."}
-{"f":"practice","id":"negation.01","k":"q","src":"'(I) don't drink coffee' =","tgt":"'(నేను) కాఫీ తాగను' ="}
+{"f":"practice","id":"negation.01","k":"q","src":"'(I) don't drink coffee' =","tgt":"'(నేను) కాఫీ తాగను' (వర్తమానం) ="}
 {"f":"practice","id":"negation.01","k":"why","src":"안 goes right before the verb.","tgt":"안 క్రియకు సరిగ్గా ముందు వస్తుంది."}
-{"f":"practice","id":"negation.02","k":"q","src":"'(I) don't exercise' =","tgt":"'(నేను) వ్యాయామం చేయను' ="}
+{"f":"practice","id":"negation.02","k":"q","src":"'(I) don't exercise' =","tgt":"'(నేను) వ్యాయామం చేయను' (వర్తమానం) ="}
 {"f":"practice","id":"negation.02","k":"why","src":"With noun + 하다, 안 goes before 해요.","tgt":"నామవాచకం + 하다 అయితే, 안 అనేది 해요 ముందు వస్తుంది."}
 {"f":"practice","id":"negation.03","k":"q","src":"'(She) isn't a doctor' =","tgt":"'(ఆవిడ) డాక్టర్ కాదు' ="}
 {"f":"practice","id":"negation.03","k":"why","src":"Nouns take 이/가 아니에요.","tgt":"నామవాచకాలకు 이/가 아니에요."}
@@ -29,15 +29,15 @@
 {"f":"practice","id":"negation.04","k":"why","src":"The negative of 있어요 is 없어요.","tgt":"있어요 అనే క్రియకు వ్యతిరేకం 없어요."}
 {"f":"practice","id":"negation.05","k":"q","src":"Same meaning as 안 가요:","tgt":"ఇది కూడా 안 가요 అనే అర్థమే:"}
 {"f":"practice","id":"negation.05","k":"why","src":"Stem + 지 않아요 = 안 + verb.","tgt":"ధాతువు + 지 않아요 = 안 + క్రియ."}
-{"f":"practice","id":"negation.06","k":"p","src":"(I) don't study","tgt":"(నేను) చదువుకోను"}
+{"f":"practice","id":"negation.06","k":"p","src":"(I) don't study","tgt":"(నేను) చదువుకోను (వర్తమానం)"}
 {"f":"practice","id":"negation.06","k":"why","src":"Noun + 안 + 해요.","tgt":"నామవాచకం + 안 + 해요."}
-{"f":"practice","id":"negation.07","k":"p","src":"(I) don't drink coffee","tgt":"(నేను) కాఫీ తాగను"}
+{"f":"practice","id":"negation.07","k":"p","src":"(I) don't drink coffee","tgt":"(నేను) కాఫీ తాగను (వర్తమానం)"}
 {"f":"practice","id":"negation.07","k":"why","src":"Object, 안, verb.","tgt":"కర్మ, 안, క్రియ."}
 {"f":"practice","id":"negation.08","k":"p","src":"I'm not a student","tgt":"నేను స్టూడెంట్ని కాదు"}
 {"f":"practice","id":"negation.08","k":"why","src":"Nouns: 이/가 아니에요.","tgt":"నామవాచకాలు: 이/가 아니에요."}
-{"f":"practice","id":"negation.09","k":"p","src":"(I) don't drink coffee","tgt":"(నేను) కాఫీ తాగను"}
+{"f":"practice","id":"negation.09","k":"p","src":"(I) don't drink coffee","tgt":"(నేను) కాఫీ తాగను (వర్తమానం)"}
 {"f":"practice","id":"negation.09","k":"why","src":"안 directly before the verb.","tgt":"క్రియకు సరిగ్గా ముందు 안."}
-{"f":"practice","id":"negation.10","k":"p","src":"(I) don't eat","tgt":"(నేను) తినను"}
+{"f":"practice","id":"negation.10","k":"p","src":"(I) don't eat","tgt":"(నేను) తినను (వర్తమానం)"}
 {"f":"practice","id":"negation.10","k":"why","src":"Stem + 지 않아요.","tgt":"ధాతువు + 지 않아요."}
 {"f":"practice","id":"negation.11","k":"p","src":"I don't have time","tgt":"నాకు టైం లేదు"}
 {"f":"practice","id":"negation.11","k":"why","src":"Never 안 있어요; use 없어요.","tgt":"안 있어요 అని ఎప్పుడూ అనరు; 없어요 వాడండి."}
@@ -61,32 +61,32 @@
 {"f":"sentences","id":"ko.s0152","k":"gloss","src":"(I) only eat rice","tgt":"(నేను) అన్నం మాత్రమే తింటాను"}
 {"f":"sentences","id":"ko.s0153","k":"gloss","src":"It's at home too","tgt":"ఇంట్లో కూడా ఉంది"}
 {"f":"sentences","id":"ko.s0154","k":"gloss","src":"(I) study at school too","tgt":"(నేను) స్కూల్లో కూడా చదువుకుంటాను"}
-{"f":"sentences","id":"ko.s0155","k":"gloss","src":"(I) only exercise on weekends","tgt":"(నేను) వారాంతంలో మాత్రమే వ్యాయామం చేస్తాను"}
+{"f":"sentences","id":"ko.s0155","k":"gloss","src":"(I) only exercise on weekends","tgt":"(నేను) వీకెండ్లో మాత్రమే వ్యాయామం చేస్తాను"}
 {"f":"checks","id":"do-man.k1","k":"q","src":"'Me too' =","tgt":"'నేను కూడా' ="}
 {"f":"checks","id":"do-man.k1","k":"why","src":"도 replaces 은/는 — it never stacks on it.","tgt":"도 అనేది 은/는 స్థానంలో వస్తుంది — దాని మీద ఎప్పుడూ చేరదు."}
 {"f":"checks","id":"do-man.k2","k":"q","src":"'Just water, please' =","tgt":"'నీళ్ళు మాత్రమే ఇవ్వండి' ="}
 {"f":"checks","id":"do-man.k2","k":"why","src":"만 = only; it replaces 을/를.","tgt":"만 = మాత్రమే; ఇది 을/를 స్థానంలో వస్తుంది."}
-{"f":"checks","id":"do-man.k3","k":"q","src":"'I study at school too' =","tgt":"'నేను స్కూల్లో కూడా చదువుకుంటాను' ="}
+{"f":"checks","id":"do-man.k3","k":"q","src":"'I study at school too' =","tgt":"'నేను స్కూల్లో కూడా చదువుకుంటాను' (వర్తమానం) ="}
 {"f":"checks","id":"do-man.k3","k":"why","src":"에서 stays; 도 goes after it.","tgt":"에서 అలాగే ఉంటుంది; 도 దాని తర్వాత వస్తుంది."}
 {"f":"practice","id":"do-man.01","k":"q","src":"'Me too' =","tgt":"'నేను కూడా' ="}
 {"f":"practice","id":"do-man.01","k":"why","src":"도 replaces 은/는 — it never stacks.","tgt":"도 అనేది 은/는 స్థానంలో వస్తుంది — రెండూ కలిసి ఎప్పుడూ రావు."}
-{"f":"practice","id":"do-man.02","k":"q","src":"'(I) only drink coffee' =","tgt":"'(నేను) కాఫీ మాత్రమే తాగుతాను' ="}
+{"f":"practice","id":"do-man.02","k":"q","src":"'(I) only drink coffee' =","tgt":"'(నేను) కాఫీ మాత్రమే తాగుతాను' (వర్తమానం) ="}
 {"f":"practice","id":"do-man.02","k":"why","src":"만 = only; it replaces 을/를.","tgt":"만 = మాత్రమే; ఇది 을/를 స్థానంలో వస్తుంది."}
 {"f":"practice","id":"do-man.03","k":"q","src":"'(I) have a cat too' =","tgt":"'నా దగ్గర పిల్లి కూడా ఉంది' ="}
 {"f":"practice","id":"do-man.03","k":"why","src":"도 replaces 이/가.","tgt":"도 అనేది 이/가 స్థానంలో వస్తుంది."}
 {"f":"practice","id":"do-man.04","k":"q","src":"'It's at home too' =","tgt":"'ఇంట్లో కూడా ఉంది' ="}
 {"f":"practice","id":"do-man.04","k":"why","src":"에 stays; 도 goes after it. 집도 있어요 = I have a house too.","tgt":"에 అలాగే ఉంటుంది; 도 దాని తర్వాత. 집도 있어요 = నా దగ్గర ఇల్లు కూడా ఉంది."}
-{"f":"practice","id":"do-man.05","k":"q","src":"'(I) only exercise on weekends' =","tgt":"'(నేను) వారాంతంలో మాత్రమే వ్యాయామం చేస్తాను' ="}
+{"f":"practice","id":"do-man.05","k":"q","src":"'(I) only exercise on weekends' =","tgt":"'(నేను) వీకెండ్లో మాత్రమే వ్యాయామం చేస్తాను' (వర్తమానం) ="}
 {"f":"practice","id":"do-man.05","k":"why","src":"에 + 만, in that order.","tgt":"에 + 만, ఈ క్రమంలోనే."}
 {"f":"practice","id":"do-man.06","k":"p","src":"Just water, please","tgt":"నీళ్ళు మాత్రమే ఇవ్వండి"}
 {"f":"practice","id":"do-man.06","k":"why","src":"만 = only.","tgt":"만 = మాత్రమే."}
 {"f":"practice","id":"do-man.07","k":"p","src":"My friend came too","tgt":"నా ఫ్రెండ్ కూడా వచ్చారు"}
 {"f":"practice","id":"do-man.07","k":"why","src":"도 replaces 가.","tgt":"도 అనేది 가 స్థానంలో వస్తుంది."}
-{"f":"practice","id":"do-man.08","k":"p","src":"(I) study at school too","tgt":"(నేను) స్కూల్లో కూడా చదువుకుంటాను"}
+{"f":"practice","id":"do-man.08","k":"p","src":"(I) study at school too","tgt":"(నేను) స్కూల్లో కూడా చదువుకుంటాను (వర్తమానం)"}
 {"f":"practice","id":"do-man.08","k":"why","src":"에서 stays; 도 goes after it.","tgt":"에서 అలాగే ఉంటుంది; 도 దాని తర్వాత వస్తుంది."}
 {"f":"practice","id":"do-man.09","k":"p","src":"I'm a student too","tgt":"నేను కూడా స్టూడెంట్నే"}
 {"f":"practice","id":"do-man.09","k":"why","src":"'Too' → 도, replacing 는.","tgt":"'కూడా' → 도, 는 స్థానంలో."}
-{"f":"practice","id":"do-man.10","k":"p","src":"(I) only drink coffee","tgt":"(నేను) కాఫీ మాత్రమే తాగుతాను"}
+{"f":"practice","id":"do-man.10","k":"p","src":"(I) only drink coffee","tgt":"(నేను) కాఫీ మాత్రమే తాగుతాను (వర్తమానం)"}
 {"f":"practice","id":"do-man.10","k":"why","src":"'Only' → 만, replacing 를.","tgt":"'మాత్రమే' → 만, 를 స్థానంలో."}
 {"f":"practice","id":"do-man.11","k":"p","src":"It's at home too","tgt":"ఇంట్లో కూడా ఉంది"}
 {"f":"practice","id":"do-man.11","k":"why","src":"에 + 도 = at home too.","tgt":"에 + 도 = ఇంట్లో కూడా."}
@@ -107,7 +107,7 @@
 {"f":"sentences","id":"ko.s0162","k":"gloss","src":"(I) buy coffee — new verb","tgt":"(నేను) కాఫీ కొంటాను — కొత్త క్రియ"}
 {"f":"sentences","id":"ko.s0163","k":"gloss","src":"(I) don't drink coffee — 안 before the verb","tgt":"(నేను) కాఫీ తాగను — క్రియ ముందు 안"}
 {"f":"sentences","id":"ko.s0164","k":"gloss","src":"Do you drink coffee? — same words, rising tone","tgt":"మీరు కాఫీ తాగుతారా? — అవే పదాలు, స్వరం పైకి"}
-{"f":"checks","id":"sentences.k1","k":"q","src":"'I drink coffee at a café' =","tgt":"'నేను కేఫ్లో కాఫీ తాగుతాను' ="}
+{"f":"checks","id":"sentences.k1","k":"q","src":"'I drink coffee at a café' =","tgt":"'నేను కేఫ్లో కాఫీ తాగుతాను' (వర్తమానం) ="}
 {"f":"checks","id":"sentences.k1","k":"why","src":"Place of action → 에서; verb last.","tgt":"పని జరిగే చోటు → 에서; క్రియ చివర."}
 {"f":"checks","id":"sentences.k2","k":"q","src":"'The coffee is tasty' =","tgt":"'కాఫీ రుచిగా ఉంది' ="}
 {"f":"checks","id":"sentences.k2","k":"why","src":"Describing verbs take 이/가, not 을/를.","tgt":"విశేషణ క్రియలకు 이/가 వస్తుంది, 을/를 కాదు."}
@@ -119,25 +119,25 @@
 {"f":"checks","id":"sentences.k3","k":"why","src":"Everything stacks up in front of the verb.","tgt":"అన్నీ క్రియ ముందే పేరుకుంటాయి — తెలుగులో లాగే."}
 {"f":"practice","id":"sentences.01","k":"q","src":"'The coffee is tasty' =","tgt":"'కాఫీ రుచిగా ఉంది' ="}
 {"f":"practice","id":"sentences.01","k":"why","src":"Describing verbs take 이/가.","tgt":"విశేషణ క్రియలకు 이/가."}
-{"f":"practice","id":"sentences.02","k":"q","src":"'(I) drink coffee at a café' =","tgt":"'(నేను) కేఫ్లో కాఫీ తాగుతాను' ="}
+{"f":"practice","id":"sentences.02","k":"q","src":"'(I) drink coffee at a café' =","tgt":"'(నేను) కేఫ్లో కాఫీ తాగుతాను' (వర్తమానం) ="}
 {"f":"practice","id":"sentences.02","k":"why","src":"Action location → 에서; object → 를; verb last.","tgt":"పని జరిగే చోటు → 에서; కర్మ → 를; క్రియ చివర."}
 {"f":"practice","id":"sentences.03","k":"q","src":"Which follows the usual order (who · when · where · what · verb)?","tgt":"సాధారణ క్రమం (ఎవరు · ఎప్పుడు · ఎక్కడ · ఏమిటి · క్రియ) ఏ వాక్యంలో ఉంది?"}
 {"f":"practice","id":"sentences.03","k":"why","src":"Everything stacks in front of the verb.","tgt":"అన్నీ క్రియ ముందే పేరుకుంటాయి."}
-{"f":"practice","id":"sentences.04","k":"q","src":"'(I) buy coffee' =","tgt":"'(నేను) కాఫీ కొంటాను' ="}
+{"f":"practice","id":"sentences.04","k":"q","src":"'(I) buy coffee' =","tgt":"'(నేను) కాఫీ కొంటాను' (వర్తమానం) ="}
 {"f":"practice","id":"sentences.04","k":"why","src":"Buying is done to the coffee → 를.","tgt":"కొనడం అనే పని కాఫీ మీద జరుగుతుంది → 를."}
-{"f":"practice","id":"sentences.05","k":"q","src":"'Do you drink coffee?' (spoken) =","tgt":"'మీరు కాఫీ తాగుతారా?' (మాటల్లో) ="}
+{"f":"practice","id":"sentences.05","k":"q","src":"'Do you drink coffee?' (spoken) =","tgt":"'మీరు కాఫీ తాగుతారా?' (మాటల్లో, వర్తమానం) ="}
 {"f":"practice","id":"sentences.05","k":"why","src":"Same words, rising tone.","tgt":"అవే పదాలు, స్వరం పైకి."}
-{"f":"practice","id":"sentences.06","k":"p","src":"(I) drink water","tgt":"(నేను) నీళ్ళు తాగుతాను"}
+{"f":"practice","id":"sentences.06","k":"p","src":"(I) drink water","tgt":"(నేను) నీళ్ళు తాగుతాను (వర్తమానం)"}
 {"f":"practice","id":"sentences.06","k":"why","src":"Object + 을, verb last.","tgt":"కర్మ + 을, క్రియ చివర."}
-{"f":"practice","id":"sentences.07","k":"p","src":"(I) buy coffee","tgt":"(నేను) కాఫీ కొంటాను"}
+{"f":"practice","id":"sentences.07","k":"p","src":"(I) buy coffee","tgt":"(నేను) కాఫీ కొంటాను (వర్తమానం)"}
 {"f":"practice","id":"sentences.07","k":"why","src":"Buying is done to the coffee → 를.","tgt":"కొనడం అనే పని కాఫీ మీద జరుగుతుంది → 를."}
-{"f":"practice","id":"sentences.08","k":"p","src":"Today I drink coffee with a friend","tgt":"ఈరోజు నేను ఫ్రెండ్తో కాఫీ తాగుతాను"}
+{"f":"practice","id":"sentences.08","k":"p","src":"Today I drink coffee with a friend","tgt":"ఈరోజు నేను ఫ్రెండ్తో కాఫీ తాగుతాను (వర్తమానం)"}
 {"f":"practice","id":"sentences.08","k":"why","src":"Usually when · with whom · what · verb; the verb is always last.","tgt":"సాధారణంగా ఎప్పుడు · ఎవరితో · ఏమిటి · క్రియ; క్రియ ఎప్పుడూ చివరే."}
 {"f":"practice","id":"sentences.09","k":"p","src":"The coffee is tasty","tgt":"కాఫీ రుచిగా ఉంది"}
 {"f":"practice","id":"sentences.09","k":"why","src":"Describing verb → 이/가; 커피 ends in a vowel → 가.","tgt":"విశేషణ క్రియ → 이/가; 커피 అనే పదం అచ్చుతో ముగుస్తుంది → 가."}
-{"f":"practice","id":"sentences.10","k":"p","src":"(I) go to a café","tgt":"(నేను) కేఫ్కి వెళ్తాను"}
+{"f":"practice","id":"sentences.10","k":"p","src":"(I) go to a café","tgt":"(నేను) కేఫ్కి వెళ్తాను (వర్తమానం)"}
 {"f":"practice","id":"sentences.10","k":"why","src":"Destination → 에.","tgt":"గమ్యం → 에."}
-{"f":"practice","id":"sentences.11","k":"p","src":"(I) study at a café with a friend","tgt":"(నేను) ఫ్రెండ్తో కలిసి కేఫ్లో చదువుకుంటాను"}
+{"f":"practice","id":"sentences.11","k":"p","src":"(I) study at a café with a friend","tgt":"(నేను) ఫ్రెండ్తో కలిసి కేఫ్లో చదువుకుంటాను (వర్తమానం)"}
 {"f":"practice","id":"sentences.11","k":"why","src":"하고 = with / and.","tgt":"하고 = తో / మరియు."}
 {"f":"practice","id":"sentences.12","k":"p","src":"(I) drink coffee at a café","tgt":"(నేను) కేఫ్లో కాఫీ తాగుతాను (వర్తమానం)"}
 {"f":"practice","id":"sentences.12","k":"why","src":"Place of action + 에서, object + 를, verb last.","tgt":"పని జరిగే చోటు + 에서, కర్మ + 를, క్రియ చివర."}
@@ -235,7 +235,7 @@
 {"f":"practice","id":"numbers.12","k":"why","src":"Age = native number + 살.","tgt":"వయసు = అచ్చ కొరియన్ సంఖ్య + 살."}
 {"f":"practice","id":"numbers.13","k":"p","src":"It's 2 o'clock (write the number in Hangul)","tgt":"ఇప్పుడు 2 గంటలు (సంఖ్య హంగుల్లో రాయండి)"}
 {"f":"practice","id":"numbers.13","k":"why","src":"Hours are native: 둘 → 두 시.","tgt":"గంటలు అచ్చ కొరియన్: 둘 → 두 시."}
-{"f":"practice","id":"numbers.14","k":"p","src":"It's 3,000 won (write the number in Hangul)","tgt":"3,000 వోన్లు (సంఖ్య హంగుల్లో రాయండి)"}
+{"f":"practice","id":"numbers.14","k":"p","src":"It's 3,000 won (write the number in Hangul)","tgt":"3,000 వోన్లు అవుతుంది (సంఖ్య హంగుల్లో రాయండి)"}
 {"f":"practice","id":"numbers.14","k":"why","src":"Money is Sino: 삼천 원. Native 세 is for hours and counted things.","tgt":"డబ్బు సైనో-కొరియన్: 삼천 원. అచ్చ కొరియన్ 세 గంటలకు, లెక్కపెట్టే వస్తువులకు."}
 {"f":"lessons","id":"food","k":"title","src":"19 · Eating out","tgt":"19 · బయట తినడం"}
 {"f":"lessons","id":"food","k":"blurb","src":"Ordering, counters, and the two meal phrases everyone says.","tgt":"ఆర్డర్ చేయడం, కౌంటర్లు, అందరూ అనే రెండు భోజనం మాటలు."}
@@ -243,13 +243,13 @@
 {"f":"sentences","id":"ko.s0182","k":"gloss","src":"This one, please (point at the menu)","tgt":"ఇది ఇవ్వండి (మెనూలో చూపిస్తూ)"}
 {"f":"sentences","id":"ko.s0183","k":"gloss","src":"Water, please","tgt":"నీళ్ళు ఇవ్వండి"}
 {"f":"sentences","id":"ko.s0184","k":"gloss","src":"Check, please","tgt":"బిల్ ఇవ్వండి"}
-{"f":"sentences","id":"ko.s0185","k":"gloss","src":"Two gimbap, please","tgt":"రెండు గింబాప్లు ఇవ్వండి"}
+{"f":"sentences","id":"ko.s0185","k":"gloss","src":"Two gimbap, please","tgt":"రెండు కింబాప్లు ఇవ్వండి"}
 {"f":"sentences","id":"ko.s0186","k":"gloss","src":"Three beers, please","tgt":"మూడు బీర్లు ఇవ్వండి"}
 {"f":"sentences","id":"ko.s0187","k":"gloss","src":"Before eating: 'I will eat well'","tgt":"తినే ముందు: 'భోజనానికి ధన్యవాదాలు' (అక్షరాలా 'బాగా తింటాను')"}
 {"f":"sentences","id":"ko.s0188","k":"gloss","src":"After eating: 'I ate well'","tgt":"తిన్నాక: 'భోజనం చాలా బాగుంది' (అక్షరాలా 'బాగా తిన్నాను')"}
 {"f":"checks","id":"food.k1","k":"q","src":"To call a waiter you say:","tgt":"వెయిటర్ని పిలవడానికి ఏమంటారు:"}
 {"f":"checks","id":"food.k1","k":"why","src":"저기요 = excuse me (there). 야 is rude to staff.","tgt":"저기요 = ఏమండీ (అక్కడ ఉన్నవారిని పిలవడం). సిబ్బందితో 야 అనడం అమర్యాద."}
-{"f":"checks","id":"food.k2","k":"q","src":"'Two gimbap, please' =","tgt":"'రెండు గింబాప్లు ఇవ్వండి' ="}
+{"f":"checks","id":"food.k2","k":"q","src":"'Two gimbap, please' =","tgt":"'రెండు కింబాప్లు ఇవ్వండి' ="}
 {"f":"checks","id":"food.k2","k":"why","src":"Native 둘 → 두 before the counter 개 (things).","tgt":"కౌంటర్ 개 (వస్తువులు) ముందు అచ్చ కొరియన్ 둘 → 두."}
 {"f":"checks","id":"food.k3","k":"q","src":"Said AFTER eating:","tgt":"తిన్న తర్వాత (ముందు కాదు) అనే మాట:"}
 {"f":"checks","id":"food.k3","k":"why","src":"먹었 = past (I ate well). 먹겠 = future (I will eat well).","tgt":"먹었 = భూతకాలం (బాగా తిన్నాను). 먹겠 = భవిష్యత్తు (బాగా తింటాను)."}
@@ -257,17 +257,17 @@
 {"f":"practice","id":"food.01","k":"why","src":"저기요 = 'excuse me', to get someone's attention.","tgt":"저기요 = 'ఏమండీ', ఎవరి దృష్టినైనా ఆకర్షించడానికి."}
 {"f":"practice","id":"food.02","k":"q","src":"Before you start eating, you say:","tgt":"తినడం మొదలుపెట్టే ముందు ఏమంటారు:"}
 {"f":"practice","id":"food.02","k":"why","src":"먹겠습니다 = 'I will eat (well)'; 먹었습니다 is past, for after the meal.","tgt":"먹겠습니다 = 'బాగా తింటాను'; 먹었습니다 భూతకాలం, భోజనం అయ్యాక అనేది."}
-{"f":"practice","id":"food.03","k":"q","src":"'Two gimbap, please' =","tgt":"'రెండు గింబాప్లు ఇవ్వండి' ="}
+{"f":"practice","id":"food.03","k":"q","src":"'Two gimbap, please' =","tgt":"'రెండు కింబాప్లు ఇవ్వండి' ="}
 {"f":"practice","id":"food.03","k":"why","src":"Noun + native number + 개 for things; 둘 → 두.","tgt":"నామవాచకం + అచ్చ కొరియన్ సంఖ్య + వస్తువులకు 개; 둘 → 두."}
 {"f":"practice","id":"food.04","k":"q","src":"'Three beers (glasses), please' =","tgt":"'మూడు బీర్లు (గ్లాసులు) ఇవ్వండి' ="}
 {"f":"practice","id":"food.04","k":"why","src":"Glasses take 잔, with the native number 세 in front of it.","tgt":"గ్లాసులకు 잔, దాని ముందు అచ్చ కొరియన్ 세."}
 {"f":"practice","id":"food.05","k":"q","src":"'Check, please' =","tgt":"'బిల్ ఇవ్వండి' ="}
 {"f":"practice","id":"food.05","k":"why","src":"계산 = paying the bill; 해 주세요 = please do it.","tgt":"계산 = బిల్ కట్టడం; 해 주세요 = చేసి పెట్టండి."}
-{"f":"practice","id":"food.06","k":"p","src":"Two gimbap, please","tgt":"రెండు గింబాప్లు ఇవ్వండి"}
+{"f":"practice","id":"food.06","k":"p","src":"Two gimbap, please","tgt":"రెండు కింబాప్లు ఇవ్వండి"}
 {"f":"practice","id":"food.06","k":"why","src":"Noun + number + counter + 주세요.","tgt":"నామవాచకం + సంఖ్య + కౌంటర్ + 주세요."}
 {"f":"practice","id":"food.07","k":"p","src":"One coffee, please","tgt":"ఒక కాఫీ ఇవ్వండి"}
 {"f":"practice","id":"food.07","k":"why","src":"하나 → 한 before the counter 잔.","tgt":"కౌంటర్ 잔 ముందు 하나 → 한."}
-{"f":"practice","id":"food.08","k":"p","src":"Please make it not spicy","tgt":"కారం లేకుండా చేసి పెట్టండి"}
+{"f":"practice","id":"food.08","k":"p","src":"Please make it not spicy","tgt":"కారం లేకుండా చేయండి"}
 {"f":"practice","id":"food.08","k":"why","src":"맵지 않게 = not spicy; 해 주세요 = please make it.","tgt":"맵지 않게 = కారంగా లేకుండా; 해 주세요 = చేసి పెట్టండి."}
 {"f":"practice","id":"food.09","k":"p","src":"Two beers (glasses), please","tgt":"రెండు బీర్లు (గ్లాసులు) ఇవ్వండి"}
 {"f":"practice","id":"food.09","k":"why","src":"Cups and glasses → 잔.","tgt":"కప్పులు, గ్లాసులు → 잔."}
@@ -277,7 +277,7 @@
 {"f":"practice","id":"food.11","k":"why","src":"하다 → 해 before 주세요: 계산해 주세요.","tgt":"주세요 ముందు 하다 → 해: 계산해 주세요."}
 {"f":"practice","id":"food.12","k":"p","src":"Water, please","tgt":"నీళ్ళు ఇవ్వండి"}
 {"f":"practice","id":"food.12","k":"why","src":"Noun + 주세요 is the all-purpose order.","tgt":"నామవాచకం + 주세요: ఏది ఆర్డర్ చేయడానికైనా సరిపోతుంది."}
-{"f":"practice","id":"food.13","k":"p","src":"Three gimbap, please (write the number in Hangul)","tgt":"మూడు గింబాప్లు ఇవ్వండి (సంఖ్య హంగుల్లో రాయండి)"}
+{"f":"practice","id":"food.13","k":"p","src":"Three gimbap, please (write the number in Hangul)","tgt":"మూడు కింబాప్లు ఇవ్వండి (సంఖ్య హంగుల్లో రాయండి)"}
 {"f":"practice","id":"food.13","k":"why","src":"셋 shortens to 세 before 개.","tgt":"개 ముందు 셋 కుదించి 세 అవుతుంది."}
 {"f":"practice","id":"food.14","k":"p","src":"One coffee, please (write the number in Hangul)","tgt":"ఒక కాఫీ ఇవ్వండి (సంఖ్య హంగుల్లో రాయండి)"}
 {"f":"practice","id":"food.14","k":"why","src":"Counting cups is native (한 잔), not Sino 일.","tgt":"కప్పులు లెక్కపెట్టడం అచ్చ కొరియన్ (한 잔), సైనో-కొరియన్ 일 కాదు."}
@@ -364,7 +364,7 @@
 {"f":"practice","id":"titles.14","k":"why","src":"Teachers are 선생님, never a name or 씨.","tgt":"టీచర్లు 선생님; పేరుతో గానీ 씨 తో గానీ ఎప్పుడూ కాదు."}
 {"f":"lessons","id":"plans","k":"title","src":"22 · Making plans","tgt":"22 · ప్లాన్లు వేయడం"}
 {"f":"lessons","id":"plans","k":"blurb","src":"Suggest, invite, agree: ㄹ까요 / ㄹ래요 / 자, and 같이.","tgt":"సూచించడం, ఆహ్వానించడం, ఒప్పుకోవడం: ㄹ까요 / ㄹ래요 / 자, ఇంకా 같이."}
-{"f":"sentences","id":"ko.s0198","k":"gloss","src":"What shall we do this weekend?","tgt":"ఈ వారాంతం మనం ఏం చేద్దాం?"}
+{"f":"sentences","id":"ko.s0198","k":"gloss","src":"What shall we do this weekend?","tgt":"ఈ వీకెండ్ మనం ఏం చేద్దాం?"}
 {"f":"sentences","id":"ko.s0199","k":"gloss","src":"Want to have dinner together?","tgt":"కలిసి డిన్నర్ చేస్తారా?"}
 {"f":"sentences","id":"ko.s0200","k":"gloss","src":"Sure, what time shall we meet?","tgt":"సరే, ఎన్ని గంటలకు కలుద్దాం?"}
 {"f":"sentences","id":"ko.s0201","k":"gloss","src":"See you at 7 at Hongik Univ. station exit 2","tgt":"7 గంటలకు హోంగ్దే ఇప్గు స్టేషన్ 2వ ఎగ్జిట్ దగ్గర కలుద్దాం"}
@@ -391,7 +391,7 @@
 {"f":"practice","id":"plans.04","k":"why","src":"Consonant stem → 을까요.","tgt":"హల్లు ధాతువు → 을까요."}
 {"f":"practice","id":"plans.05","k":"q","src":"Saying yes to an invite with enthusiasm:","tgt":"ఆహ్వానానికి ఉత్సాహంగా 'సరే' అనడం:"}
 {"f":"practice","id":"plans.05","k":"why","src":"좋아요 = sounds good; the others turn it down.","tgt":"좋아요 = బాగుంది; మిగతావి కాదంటాయి."}
-{"f":"practice","id":"plans.06","k":"p","src":"What shall we do this weekend?","tgt":"ఈ వారాంతం మనం ఏం చేద్దాం?"}
+{"f":"practice","id":"plans.06","k":"p","src":"What shall we do this weekend?","tgt":"ఈ వీకెండ్ మనం ఏం చేద్దాం?"}
 {"f":"practice","id":"plans.06","k":"why","src":"Time + 에, then 뭐 + 할까요.","tgt":"సమయం + 에, తర్వాత 뭐 + 할까요."}
 {"f":"practice","id":"plans.07","k":"p","src":"What time shall we meet?","tgt":"ఎన్ని గంటలకు కలుద్దాం?"}
 {"f":"practice","id":"plans.07","k":"why","src":"몇 시에 = at what time; 보다 doubles as 'meet'.","tgt":"몇 시에 = ఎన్ని గంటలకు; 보다 అనే క్రియకు 'కలవడం' అనే అర్థం కూడా ఉంది."}
@@ -399,7 +399,7 @@
 {"f":"practice","id":"plans.08","k":"why","src":"Destination + 에 with 가다.","tgt":"가다 తో గమ్యం + 에."}
 {"f":"practice","id":"plans.09","k":"p","src":"Do you want to watch a movie?","tgt":"సినిమా చూస్తారా?"}
 {"f":"practice","id":"plans.09","k":"why","src":"Vowel stem 보 + ㄹ래요 = 볼래요.","tgt":"అచ్చు ధాతువు 보 + ㄹ래요 = 볼래요."}
-{"f":"practice","id":"plans.10","k":"p","src":"What shall we do this weekend?","tgt":"ఈ వారాంతం మనం ఏం చేద్దాం?"}
+{"f":"practice","id":"plans.10","k":"p","src":"What shall we do this weekend?","tgt":"ఈ వీకెండ్ మనం ఏం చేద్దాం?"}
 {"f":"practice","id":"plans.10","k":"why","src":"하 + ㄹ까요 = 할까요.","tgt":"하 + ㄹ까요 = 할까요.","pre":1}
 {"f":"practice","id":"plans.11","k":"p","src":"Let's hang out together! (to a friend)","tgt":"కలిసి సరదాగా తిరుగుదాం! (ఫ్రెండ్తో)"}
 {"f":"practice","id":"plans.11","k":"why","src":"-자 attaches straight to the stem: 놀 + 자.","tgt":"-자 నేరుగా ధాతువుకు అతుక్కుంటుంది: 놀 + 자."}
@@ -454,7 +454,7 @@
 {"f":"practice","id":"texting.11","k":"why","src":"내일 봐 = see you tomorrow (casual).","tgt":"내일 봐 = రేపు కలుద్దాం (సాధారణ)."}
 {"f":"practice","id":"texting.12","k":"p","src":"Text a friend: 'What are you up to?'","tgt":"ఫ్రెండ్కి మెసేజ్: 'ఏం చేస్తున్నావు?'"}
 {"f":"practice","id":"texting.12","k":"why","src":"The universal casual opener.","tgt":"అందరూ వాడే సాధారణ మొదటి మాట."}
-{"f":"practice","id":"texting.13","k":"p","src":"Text a friend: 'I'm on my way'","tgt":"ఫ్రెండ్కి మెసేజ్: 'ఇప్పుడే వస్తున్నా'"}
+{"f":"practice","id":"texting.13","k":"p","src":"Text a friend: 'I'm on my way'","tgt":"ఫ్రెండ్కి మెసేజ్: 'ఇప్పుడే బయల్దేరుతున్నా'"}
 {"f":"practice","id":"texting.13","k":"why","src":"Casual: no 요, no particles.","tgt":"సాధారణ: 요 లేదు, పార్టికల్లు లేవు."}
 {"f":"practice","id":"texting.14","k":"p","src":"Text a senior coworker: 'Yes, confirmed' (friendly-polite)","tgt":"సీనియర్ కొలీగ్కి మెసేజ్: 'అలాగేనండి, చెక్ చేశాను' (స్నేహపూర్వక మర్యాద)"}
 {"f":"practice","id":"texting.14","k":"why","src":"Politeness still exists: 넵 or 네, never ㅇㅇ, with seniors.","tgt":"మర్యాద ఇంకా ఉంటుంది: సీనియర్లతో 넵 లేదా 네, ఎప్పుడూ ㅇㅇ కాదు."}
@@ -525,11 +525,11 @@
 {"f":"practice","id":"joining.02","k":"why","src":"Reason + 서; no past before 서.","tgt":"కారణం + 서; 서 ముందు భూతకాలం ఉండదు."}
 {"f":"practice","id":"joining.03","k":"q","src":"'It's cheap and tasty' =","tgt":"'చౌకగా, రుచిగా ఉంది' ="}
 {"f":"practice","id":"joining.03","k":"why","src":"Stem + 고.","tgt":"ధాతువు + 고."}
-{"f":"practice","id":"joining.04","k":"q","src":"'(I) go to a café and study (there)' =","tgt":"'(నేను) కేఫ్కి వెళ్ళి (అక్కడ) చదువుకుంటాను' ="}
+{"f":"practice","id":"joining.04","k":"q","src":"'(I) go to a café and study (there)' =","tgt":"'(నేను) కేఫ్కి వెళ్ళి (అక్కడ) చదువుకుంటాను' (వర్తమానం) ="}
 {"f":"practice","id":"joining.04","k":"why","src":"가서 links two steps of one trip.","tgt":"가서 ఒకే ప్రయాణంలోని రెండు అడుగులను కలుపుతుంది."}
 {"f":"practice","id":"joining.05","k":"q","src":"Which ending means 'but'?","tgt":"'కానీ' అనే అర్థం ఉన్న ముగింపు ఏది?"}
 {"f":"practice","id":"joining.05","k":"why","src":"-지만 = but.","tgt":"-지만 = కానీ."}
-{"f":"practice","id":"joining.06","k":"p","src":"(I) eat and (then) drink coffee","tgt":"(నేను) అన్నం తిని (తర్వాత) కాఫీ తాగుతాను"}
+{"f":"practice","id":"joining.06","k":"p","src":"(I) eat and (then) drink coffee","tgt":"(నేను) అన్నం తిని (తర్వాత) కాఫీ తాగుతాను (వర్తమానం)"}
 {"f":"practice","id":"joining.06","k":"why","src":"먹 + 고 = and.","tgt":"먹 + 고 = తిని (మరియు)."}
 {"f":"practice","id":"joining.07","k":"p","src":"It's expensive but good","tgt":"ఖరీదైనది కానీ బాగుంది"}
 {"f":"practice","id":"joining.07","k":"why","src":"-지만 = but.","tgt":"-지만 = కానీ."}
@@ -555,7 +555,7 @@
 {"f":"sentences","id":"ko.s0226","k":"gloss","src":"After that we watched a movie","tgt":"ఆ తర్వాత సినిమా చూశాం"}
 {"f":"sentences","id":"ko.s0227","k":"gloss","src":"But the movie was too long","tgt":"కానీ సినిమా మరీ పొడవుగా సాగింది"}
 {"f":"sentences","id":"ko.s0228","k":"gloss","src":"So I got home late","tgt":"అందుకే ఇంటికి ఆలస్యంగా వచ్చాను"}
-{"f":"sentences","id":"ko.s0229","k":"gloss","src":"What did you do last weekend?","tgt":"పోయిన వారాంతం మీరు ఏం చేశారు?"}
+{"f":"sentences","id":"ko.s0229","k":"gloss","src":"What did you do last weekend?","tgt":"పోయిన వీకెండ్ మీరు ఏం చేశారు?"}
 {"f":"sentences","id":"ko.s0230","k":"gloss","src":"I had lunch a while ago","tgt":"ఇందాక మధ్యాహ్న భోజనం చేశాను"}
 {"f":"checks","id":"story.k1","k":"q","src":"'So I got home late' =","tgt":"'అందుకే ఇంటికి ఆలస్యంగా వచ్చాను' ="}
 {"f":"checks","id":"story.k1","k":"why","src":"그래서 = so / therefore.","tgt":"그래서 = అందుకే / కాబట్టి."}
@@ -587,17 +587,17 @@
 {"f":"practice","id":"story.09","k":"why","src":"그리고 = and (then).","tgt":"그리고 = మరియు (తర్వాత)."}
 {"f":"practice","id":"story.10","k":"p","src":"Yesterday I met a friend","tgt":"నిన్న నేను ఒక ఫ్రెండ్ని కలిశాను"}
 {"f":"practice","id":"story.10","k":"why","src":"어제 needs the past: 만나 + 았어요 → 만났어요.","tgt":"어제 అంటే భూతకాలం కావాలి: 만나 + 았어요 → 만났어요."}
-{"f":"practice","id":"story.11","k":"p","src":"What did you do last weekend?","tgt":"పోయిన వారాంతం మీరు ఏం చేశారు?"}
+{"f":"practice","id":"story.11","k":"p","src":"What did you do last weekend?","tgt":"పోయిన వీకెండ్ మీరు ఏం చేశారు?"}
 {"f":"practice","id":"story.11","k":"why","src":"Time words take 에.","tgt":"సమయం పదాలకు 에."}
 {"f":"practice","id":"story.12","k":"p","src":"I had lunch a while ago","tgt":"ఇందాక మధ్యాహ్న భోజనం చేశాను"}
 {"f":"practice","id":"story.12","k":"why","src":"Time word first, then past tense.","tgt":"ముందు సమయం పదం, తర్వాత భూతకాలం."}
 {"f":"practice","id":"story.13","k":"p","src":"So I rested at home","tgt":"అందుకే ఇంట్లో విశ్రాంతి తీసుకున్నాను"}
 {"f":"practice","id":"story.13","k":"why","src":"Resting happens at home → 집에서; 쉬 + 었어요.","tgt":"విశ్రాంతి ఇంట్లో జరిగే పని → 집에서; 쉬 + 었어요."}
-{"f":"practice","id":"story.14","k":"p","src":"But I didn't drink coffee (use 안)","tgt":"కానీ నేను కాఫీ తాగలేదు (안 వాడండి)"}
+{"f":"practice","id":"story.14","k":"p","src":"But I didn't drink coffee (use 안)","tgt":"కానీ (నేను) కాఫీ తాగలేదు (안 వాడండి)"}
 {"f":"practice","id":"story.14","k":"why","src":"안 goes right before the verb, even in the past.","tgt":"భూతకాలంలో కూడా 안 క్రియకు సరిగ్గా ముందు వస్తుంది."}
 {"f":"lessons","id":"noun-modifiers","k":"title","src":"27 · Describing nouns: 좋은 날씨, 큰 가방","tgt":"27 · నామవాచకాన్ని వర్ణించడం: 좋은 날씨, 큰 가방"}
-{"f":"lessons","id":"noun-modifiers","k":"blurb","src":"Put an adjective in front of a noun: a big bag, good weather, spicy food.","tgt":"విశేషణాన్ని నామవాచకం ముందు పెట్టండి: పెద్ద సంచి, మంచి వాతావరణం, కారమైన ఆహారం."}
-{"f":"sentences","id":"ko.s0231","k":"gloss","src":"a big bag (크다)","tgt":"పెద్ద సంచి (크다)"}
+{"f":"lessons","id":"noun-modifiers","k":"blurb","src":"Put an adjective in front of a noun: a big bag, good weather, spicy food.","tgt":"విశేషణాన్ని నామవాచకం ముందు పెట్టండి: పెద్ద బ్యాగ్, మంచి వాతావరణం, కారమైన ఆహారం."}
+{"f":"sentences","id":"ko.s0231","k":"gloss","src":"a big bag (크다)","tgt":"పెద్ద బ్యాగ్ (크다)"}
 {"f":"sentences","id":"ko.s0232","k":"gloss","src":"a pretty flower (예쁘다)","tgt":"అందమైన పువ్వు (예쁘다)"}
 {"f":"sentences","id":"ko.s0233","k":"gloss","src":"good weather (좋다)","tgt":"మంచి వాతావరణం (좋다)"}
 {"f":"sentences","id":"ko.s0234","k":"gloss","src":"a small house (작다)","tgt":"చిన్న ఇల్లు (작다)"}
@@ -606,16 +606,16 @@
 {"f":"sentences","id":"ko.s0237","k":"gloss","src":"spicy food (맵다)","tgt":"కారమైన ఆహారం (맵다)"}
 {"f":"sentences","id":"ko.s0238","k":"gloss","src":"cold weather (춥다)","tgt":"చల్లటి వాతావరణం (춥다)"}
 {"f":"sentences","id":"ko.s0239","k":"gloss","src":"a long movie (길다)","tgt":"పొడవైన సినిమా (길다)"}
-{"f":"sentences","id":"ko.s0240","k":"gloss","src":"(I) have a big bag","tgt":"నా దగ్గర పెద్ద సంచి ఉంది"}
+{"f":"sentences","id":"ko.s0240","k":"gloss","src":"(I) have a big bag","tgt":"నా దగ్గర పెద్ద బ్యాగ్ ఉంది"}
 {"f":"sentences","id":"ko.s0241","k":"gloss","src":"(I) like spicy food","tgt":"నాకు కారమైన ఆహారం అంటే ఇష్టం"}
 {"f":"sentences","id":"ko.s0242","k":"gloss","src":"Have a good day","tgt":"మీ రోజు బాగా గడవాలి"}
-{"f":"checks","id":"noun-modifiers.k1","k":"q","src":"'a big bag' =","tgt":"'పెద్ద సంచి' ="}
+{"f":"checks","id":"noun-modifiers.k1","k":"q","src":"'a big bag' =","tgt":"'పెద్ద బ్యాగ్' ="}
 {"f":"checks","id":"noun-modifiers.k1","k":"why","src":"Vowel stem + ㄴ, in front of the noun.","tgt":"అచ్చు ధాతువు + ㄴ, నామవాచకం ముందు."}
 {"f":"checks","id":"noun-modifiers.k2","k":"q","src":"'tasty food' =","tgt":"'రుచికరమైన ఆహారం' ="}
 {"f":"checks","id":"noun-modifiers.k2","k":"why","src":"있다 words take 는.","tgt":"있다 పదాలకు 는."}
 {"f":"checks","id":"noun-modifiers.k3","k":"q","src":"'spicy food' =","tgt":"'కారమైన ఆహారం' ="}
 {"f":"checks","id":"noun-modifiers.k3","k":"why","src":"ㅂ stem: 맵다 → 매운.","tgt":"ㅂ ధాతువు: 맵다 → 매운."}
-{"f":"practice","id":"noun-modifiers.01","k":"q","src":"'a big bag' =","tgt":"'పెద్ద సంచి' ="}
+{"f":"practice","id":"noun-modifiers.01","k":"q","src":"'a big bag' =","tgt":"'పెద్ద బ్యాగ్' ="}
 {"f":"practice","id":"noun-modifiers.01","k":"why","src":"크 + ㄴ → 큰.","tgt":"크 + ㄴ → 큰.","pre":1}
 {"f":"practice","id":"noun-modifiers.02","k":"q","src":"'tasty food' =","tgt":"'రుచికరమైన ఆహారం' ="}
 {"f":"practice","id":"noun-modifiers.02","k":"why","src":"있다 words take 는.","tgt":"있다 పదాలకు 는."}
@@ -625,7 +625,7 @@
 {"f":"practice","id":"noun-modifiers.04","k":"why","src":"Consonant stem + 은.","tgt":"హల్లు ధాతువు + 은."}
 {"f":"practice","id":"noun-modifiers.05","k":"q","src":"'a long movie' =","tgt":"'పొడవైన సినిమా' ="}
 {"f":"practice","id":"noun-modifiers.05","k":"why","src":"ㄹ drops: 길다 → 긴.","tgt":"ㄹ పోతుంది: 길다 → 긴."}
-{"f":"practice","id":"noun-modifiers.06","k":"p","src":"(I) have a big bag","tgt":"నా దగ్గర పెద్ద సంచి ఉంది"}
+{"f":"practice","id":"noun-modifiers.06","k":"p","src":"(I) have a big bag","tgt":"నా దగ్గర పెద్ద బ్యాగ్ ఉంది"}
 {"f":"practice","id":"noun-modifiers.06","k":"why","src":"큰 + noun; the particle goes on the noun.","tgt":"큰 + నామవాచకం; పార్టికల్ నామవాచకం మీదే."}
 {"f":"practice","id":"noun-modifiers.07","k":"p","src":"(I) like spicy food","tgt":"నాకు కారమైన ఆహారం అంటే ఇష్టం"}
 {"f":"practice","id":"noun-modifiers.07","k":"why","src":"맵다 → 매운.","tgt":"맵다 → 매운.","pre":1}
@@ -637,7 +637,7 @@
 {"f":"practice","id":"noun-modifiers.10","k":"why","src":"있다 words take 는.","tgt":"있다 పదాలకు 는."}
 {"f":"practice","id":"noun-modifiers.11","k":"p","src":"a small house","tgt":"చిన్న ఇల్లు"}
 {"f":"practice","id":"noun-modifiers.11","k":"why","src":"작 + 은.","tgt":"작 + 은.","pre":1}
-{"f":"practice","id":"noun-modifiers.12","k":"p","src":"It's a big house","tgt":"ఇది పెద్ద ఇల్లు"}
+{"f":"practice","id":"noun-modifiers.12","k":"p","src":"It's a big house","tgt":"(ఇది) పెద్ద ఇల్లు"}
 {"f":"practice","id":"noun-modifiers.12","k":"why","src":"크 + ㄴ → 큰 집.","tgt":"크 + ㄴ → 큰 집.","pre":1}
 {"f":"practice","id":"noun-modifiers.13","k":"p","src":"(I) like spicy food","tgt":"నాకు కారమైన ఆహారం అంటే ఇష్టం"}
 {"f":"practice","id":"noun-modifiers.13","k":"why","src":"맵다 → 매운.","tgt":"맵다 → 매운.","pre":1}
@@ -648,8 +648,8 @@
 {"f":"sentences","id":"ko.s0243","k":"gloss","src":"The bus is cheaper than a taxi","tgt":"బస్ టాక్సీ కంటే చౌక"}
 {"f":"sentences","id":"ko.s0244","k":"gloss","src":"Today is colder than yesterday","tgt":"ఈరోజు నిన్నటి కంటే ఎక్కువ చలిగా ఉంది"}
 {"f":"sentences","id":"ko.s0245","k":"gloss","src":"The bus is cheaper than a taxi (same meaning)","tgt":"టాక్సీ కంటే బస్ చౌక (అదే అర్థం)"}
-{"f":"sentences","id":"ko.s0246","k":"gloss","src":"More, please","tgt":"ఇంకొంచెం ఇవ్వండి"}
-{"f":"sentences","id":"ko.s0247","k":"gloss","src":"Do you have a bigger bag?","tgt":"ఇంకా పెద్ద సంచి ఉందా?"}
+{"f":"sentences","id":"ko.s0246","k":"gloss","src":"More, please","tgt":"ఇంకా ఇవ్వండి"}
+{"f":"sentences","id":"ko.s0247","k":"gloss","src":"Do you have a bigger bag?","tgt":"ఇంకా పెద్ద బ్యాగ్ ఉందా?"}
 {"f":"sentences","id":"ko.s0248","k":"gloss","src":"It's less spicy","tgt":"కారం తక్కువ"}
 {"f":"sentences","id":"ko.s0249","k":"gloss","src":"This is the tastiest","tgt":"ఇది అన్నిటికంటే రుచిగా ఉంది"}
 {"f":"sentences","id":"ko.s0250","k":"gloss","src":"What is your favourite food?","tgt":"మీకు అన్నిటికంటే ఇష్టమైన ఆహారం ఏది?"}
@@ -659,14 +659,14 @@
 {"f":"checks","id":"compare.k1","k":"why","src":"보다 goes on the thing you compare against.","tgt":"దేనితో పోలుస్తున్నారో దానికి 보다 వస్తుంది — తెలుగు 'కంటే' లాగే."}
 {"f":"checks","id":"compare.k2","k":"q","src":"'This is the tastiest' =","tgt":"'ఇది అన్నిటికంటే రుచిగా ఉంది' ="}
 {"f":"checks","id":"compare.k2","k":"why","src":"제일 = the most.","tgt":"제일 = అన్నిటికంటే."}
-{"f":"checks","id":"compare.k3","k":"q","src":"'More, please' =","tgt":"'ఇంకొంచెం ఇవ్వండి' ="}
-{"f":"checks","id":"compare.k3","k":"why","src":"더 = more.","tgt":"더 = ఇంకా / ఎక్కువ."}
+{"f":"checks","id":"compare.k3","k":"q","src":"'More, please' =","tgt":"'ఇంకా ఇవ్వండి' ="}
+{"f":"checks","id":"compare.k3","k":"why","src":"더 = more.","tgt":"더 = ఎక్కువ (ఇంకా)."}
 {"f":"practice","id":"compare.01","k":"q","src":"'The bus is cheaper than a taxi' =","tgt":"'బస్ టాక్సీ కంటే చౌక' ="}
 {"f":"practice","id":"compare.01","k":"why","src":"보다 marks the 'than' item.","tgt":"보다 'కంటే' వస్తువును గుర్తిస్తుంది."}
 {"f":"practice","id":"compare.02","k":"q","src":"'This is the tastiest' =","tgt":"'ఇది అన్నిటికంటే రుచిగా ఉంది' ="}
 {"f":"practice","id":"compare.02","k":"why","src":"제일 = the most.","tgt":"제일 = అన్నిటికంటే."}
-{"f":"practice","id":"compare.03","k":"q","src":"'More, please' =","tgt":"'ఇంకొంచెం ఇవ్వండి' ="}
-{"f":"practice","id":"compare.03","k":"why","src":"더 = more.","tgt":"더 = ఇంకా / ఎక్కువ."}
+{"f":"practice","id":"compare.03","k":"q","src":"'More, please' =","tgt":"'ఇంకా ఇవ్వండి' ="}
+{"f":"practice","id":"compare.03","k":"why","src":"더 = more.","tgt":"더 = ఎక్కువ (ఇంకా)."}
 {"f":"practice","id":"compare.04","k":"q","src":"'Today is colder than yesterday' =","tgt":"'ఈరోజు నిన్నటి కంటే ఎక్కువ చలిగా ఉంది' ="}
 {"f":"practice","id":"compare.04","k":"why","src":"어제보다 = than yesterday.","tgt":"어제보다 = నిన్నటి కంటే."}
 {"f":"practice","id":"compare.05","k":"q","src":"'It's less spicy' =","tgt":"'కారం తక్కువ' ="}
@@ -676,21 +676,21 @@
 {"f":"practice","id":"compare.07","k":"p","src":"This is the tastiest","tgt":"ఇది అన్నిటికంటే రుచిగా ఉంది"}
 {"f":"practice","id":"compare.07","k":"why","src":"제일 before the describing word.","tgt":"వర్ణించే పదానికి ముందు 제일."}
 {"f":"practice","id":"compare.08","k":"p","src":"Which is better?","tgt":"రెండిట్లో ఏది బాగుంది?"}
-{"f":"practice","id":"compare.08","k":"why","src":"더 = more.","tgt":"더 = ఎక్కువ."}
+{"f":"practice","id":"compare.08","k":"why","src":"더 = more.","tgt":"더 = ఎక్కువ (ఇంకా)."}
 {"f":"practice","id":"compare.09","k":"p","src":"The bus is cheaper than a taxi","tgt":"బస్ టాక్సీ కంటే చౌక"}
 {"f":"practice","id":"compare.09","k":"why","src":"보다 = than.","tgt":"보다 = కంటే."}
 {"f":"practice","id":"compare.10","k":"p","src":"This is the tastiest","tgt":"ఇది అన్నిటికంటే రుచిగా ఉంది"}
 {"f":"practice","id":"compare.10","k":"why","src":"제일 / 가장 = the most.","tgt":"제일 / 가장 = అన్నిటికంటే."}
-{"f":"practice","id":"compare.11","k":"p","src":"More, please","tgt":"ఇంకొంచెం ఇవ్వండి"}
-{"f":"practice","id":"compare.11","k":"why","src":"더 = more.","tgt":"더 = ఇంకా / ఎక్కువ."}
+{"f":"practice","id":"compare.11","k":"p","src":"More, please","tgt":"ఇంకా ఇవ్వండి"}
+{"f":"practice","id":"compare.11","k":"why","src":"더 = more.","tgt":"더 = ఎక్కువ (ఇంకా)."}
 {"f":"practice","id":"compare.12","k":"p","src":"The bus is cheaper than a taxi","tgt":"బస్ టాక్సీ కంటే చౌక"}
 {"f":"practice","id":"compare.12","k":"why","src":"보다 goes on 택시.","tgt":"보다 అనేది 택시 మీద వస్తుంది."}
 {"f":"practice","id":"compare.13","k":"p","src":"This is the tastiest","tgt":"ఇది అన్నిటికంటే రుచిగా ఉంది"}
 {"f":"practice","id":"compare.13","k":"why","src":"제일 = the most.","tgt":"제일 = అన్నిటికంటే."}
-{"f":"practice","id":"compare.14","k":"p","src":"More, please","tgt":"ఇంకొంచెం ఇవ్వండి"}
-{"f":"practice","id":"compare.14","k":"why","src":"더 = more.","tgt":"더 = ఇంకా / ఎక్కువ."}
+{"f":"practice","id":"compare.14","k":"p","src":"More, please","tgt":"ఇంకా ఇవ్వండి"}
+{"f":"practice","id":"compare.14","k":"why","src":"더 = more.","tgt":"더 = ఎక్కువ (ఇంకా)."}
 {"f":"lessons","id":"cant","k":"title","src":"29 · Can't, can, and don't know","tgt":"29 · చేయలేను, చేయగలను, తెలియదు"}
-{"f":"lessons","id":"cant","k":"blurb","src":"못 vs 안, -(으)ㄹ 수 있어요 / 없어요, and 몰라요 vs 모르겠어요.","tgt":"못 vs 안, -(으)ㄹ 수 있어요 / 없어요, ఇంకా 몰라요 vs 모르겠어요."}
+{"f":"lessons","id":"cant","k":"blurb","src":"못 vs 안, -(으)ㄹ 수 있어요 / 없어요, and 몰라요 vs 모르겠어요.","tgt":"못, 안 తేడా; -(으)ㄹ 수 있어요 / 없어요; 몰라요, 모르겠어요 తేడా."}
 {"f":"sentences","id":"ko.s0253","k":"gloss","src":"I don't eat spicy food (by choice)","tgt":"నేను కారం తినను (నా ఇష్టంతో)"}
 {"f":"sentences","id":"ko.s0254","k":"gloss","src":"I can't eat spicy food (it's too much)","tgt":"నేను కారం తినలేను (తట్టుకోలేను)"}
 {"f":"sentences","id":"ko.s0255","k":"gloss","src":"I can't go today","tgt":"ఈరోజు వెళ్ళలేను"}
@@ -703,7 +703,7 @@
 {"f":"sentences","id":"ko.s0262","k":"gloss","src":"I'm not sure","tgt":"నాకు సరిగ్గా తెలియదు"}
 {"f":"sentences","id":"ko.s0263","k":"gloss","src":"I don't know the way","tgt":"నాకు దారి తెలియదు"}
 {"f":"sentences","id":"ko.s0264","k":"gloss","src":"I don't know either","tgt":"నాకు కూడా తెలియదు"}
-{"f":"checks","id":"cant.k1","k":"q","src":"'I can't go today' (something stops me) =","tgt":"'ఈరోజు వెళ్ళలేను' (ఏదో అడ్డు వస్తోంది) ="}
+{"f":"checks","id":"cant.k1","k":"q","src":"'I can't go today' (something stops me) =","tgt":"'ఈరోజు వెళ్ళలేను' (వర్తమానం, ఏదో అడ్డు వస్తోంది) ="}
 {"f":"checks","id":"cant.k1","k":"why","src":"못 = can't; 안 = choose not to.","tgt":"못 = చేయలేను; 안 = చేయకూడదని మీరే ఎంచుకోవడం."}
 {"f":"checks","id":"cant.k2","k":"q","src":"'I can eat kimchi' =","tgt":"'నేను కిమ్చి తినగలను' ="}
 {"f":"checks","id":"cant.k2","k":"why","src":"Consonant stem + 을 수 있어요 = can.","tgt":"హల్లు ధాతువు + 을 수 있어요 = చేయగలను."}
@@ -797,19 +797,19 @@
 {"f":"checks","id":"honorific.k3","k":"q","src":"Which is wrong?","tgt":"ఏది తప్పు?"}
 {"f":"checks","id":"honorific.k3","k":"why","src":"Never use 시 about yourself.","tgt":"మీ గురించి మీరు ఎప్పుడూ 시 వాడకండి."}
 {"f":"practice","id":"honorific.01","k":"q","src":"To an elder: 'Where are you going?' =","tgt":"పెద్దవారితో: 'ఎక్కడికి వెళ్తున్నారు?' ="}
-{"f":"practice","id":"honorific.01","k":"why","src":"Elder is the subject → 가 + 세요. Plain 가요 lacks the honorific.","tgt":"పెద్దవారే కర్త → 가 + 세요. మామూలు 가요 లో గౌరవం లేదు."}
-{"f":"practice","id":"honorific.02","k":"q","src":"The honorific verb for 먹다 / 마시다:","tgt":"먹다 / 마시다 కి గౌరవ క్రియ:"}
+{"f":"practice","id":"honorific.01","k":"why","src":"Elder is the subject → 가 + 세요. Plain 가요 lacks the honorific.","tgt":"పెద్దవారే కర్త → 가 + 세요. మామూలు 가요 అనే రూపంలో గౌరవం లేదు."}
+{"f":"practice","id":"honorific.02","k":"q","src":"The honorific verb for 먹다 / 마시다:","tgt":"గౌరవ క్రియ (먹다 / 마시다 బదులు):"}
 {"f":"practice","id":"honorific.02","k":"why","src":"드시다 = eat / drink (honorific).","tgt":"드시다 = తినడం / తాగడం (గౌరవ)."}
 {"f":"practice","id":"honorific.03","k":"q","src":"'Is the owner in?' =","tgt":"'ఓనర్ గారు ఉన్నారా?' ="}
 {"f":"practice","id":"honorific.03","k":"why","src":"For a person being somewhere, 있다 becomes 계시다 → 계세요.","tgt":"ఒక వ్యక్తి ఎక్కడైనా ఉండటానికి 있다 బదులు 계시다 → 계세요."}
 {"f":"practice","id":"honorific.04","k":"q","src":"Saying you are going (about yourself):","tgt":"మీ గురించి మీరే 'నేను వెళ్తున్నాను' అనడం:"}
-{"f":"practice","id":"honorific.04","k":"why","src":"Never use 시 about yourself.","tgt":"మీ గురించి ఎప్పుడూ 시 వాడకండి."}
+{"f":"practice","id":"honorific.04","k":"why","src":"Never use 시 about yourself.","tgt":"మీ గురించి మీరు ఎప్పుడూ 시 వాడకండి."}
 {"f":"practice","id":"honorific.05","k":"q","src":"'When did you arrive?' (honorific past) =","tgt":"'మీరు ఎప్పుడు వచ్చారు?' (గౌరవ భూతకాలం) ="}
 {"f":"practice","id":"honorific.05","k":"why","src":"오 + 시 + 었어요 → 오셨어요.","tgt":"오 + 시 + 었어요 → 오셨어요.","pre":1}
 {"f":"practice","id":"honorific.06","k":"p","src":"What is your name? (honorific)","tgt":"మీ పేరు ఏమిటి? (గౌరవ)"}
 {"f":"practice","id":"honorific.06","k":"why","src":"성함 is the honorific word for 이름.","tgt":"이름 అనే పదానికి గౌరవ రూపం 성함."}
 {"f":"practice","id":"honorific.07","k":"p","src":"Good night (to an elder)","tgt":"హాయిగా నిద్రపోండి (పెద్దవారితో)"}
-{"f":"practice","id":"honorific.07","k":"why","src":"자다 swaps entirely to 주무시다.","tgt":"자다 పూర్తిగా 주무시다 గా మారిపోతుంది."}
+{"f":"practice","id":"honorific.07","k":"why","src":"자다 swaps entirely to 주무시다.","tgt":"자다 బదులు పూర్తిగా వేరే క్రియ: 주무시다."}
 {"f":"practice","id":"honorific.08","k":"p","src":"Please sit here","tgt":"ఇక్కడ కూర్చోండి"}
 {"f":"practice","id":"honorific.08","k":"why","src":"Consonant stem 앉 + 으세요.","tgt":"హల్లు ధాతువు 앉 + 으세요."}
 {"f":"practice","id":"honorific.09","k":"p","src":"Please sit here (to an elder)","tgt":"ఇక్కడ కూర్చోండి (పెద్దవారితో)"}
@@ -856,8 +856,8 @@
 {"f":"practice","id":"requests.08","k":"why","src":"Consonant stem + 으면 안 돼요?","tgt":"హల్లు ధాతువు + 으면 안 돼요?"}
 {"f":"practice","id":"requests.09","k":"p","src":"Would you mind taking a photo (for us)?","tgt":"(మా) ఫోటో తీసి పెడతారా?"}
 {"f":"practice","id":"requests.09","k":"why","src":"찍어 + 주시겠어요 = would you take (it) for me.","tgt":"찍어 + 주시겠어요 = (నా కోసం) తీసి పెడతారా."}
-{"f":"practice","id":"requests.10","k":"p","src":"By any chance, is there a bathroom?","tgt":"టాయిలెట్ ఏమైనా ఉందా?"}
-{"f":"practice","id":"requests.10","k":"why","src":"혹시 = by any chance; it opens the question.","tgt":"혹시 = ఏమైనా / ఒకవేళ; ఇది ప్రశ్నను మొదలుపెడుతుంది."}
+{"f":"practice","id":"requests.10","k":"p","src":"By any chance, is there a bathroom?","tgt":"బాత్రూమ్ ఏమైనా ఉందా?"}
+{"f":"practice","id":"requests.10","k":"why","src":"혹시 = by any chance; it opens the question.","tgt":"혹시 = ఏమైనా, ఒకవేళ; ఇది ప్రశ్నను మొదలుపెడుతుంది."}
 {"f":"practice","id":"requests.11","k":"p","src":"May I charge here?","tgt":"ఇక్కడ ఛార్జ్ చేసుకోవచ్చా?"}
 {"f":"practice","id":"requests.11","k":"why","src":"-아/어도 돼요 = may I.","tgt":"-아/어도 돼요 = …వచ్చా?"}
 {"f":"practice","id":"requests.12","k":"p","src":"Water, please (soften it with 좀)","tgt":"నీళ్ళు ఇవ్వండి (좀 తో మెత్తబరచండి)"}
@@ -867,7 +867,7 @@
 {"f":"practice","id":"requests.14","k":"p","src":"Would it be okay if I sit here? (use -(으)면 안 돼요)","tgt":"ఇక్కడ కూర్చోకూడదా? (-(으)면 안 돼요 వాడండి)"}
 {"f":"practice","id":"requests.14","k":"why","src":"Consonant stem 앉 + 으면 안 돼요. This 안 is part of the set phrase, not a plain 'not'.","tgt":"హల్లు ధాతువు 앉 + 으면 안 돼요. ఇక్కడ 안 స్థిరమైన మాటలో భాగం, మామూలు 'కాదు' కాదు."}
 {"f":"lessons","id":"office","k":"title","src":"33 · Office Korean","tgt":"33 · ఆఫీసు కొరియన్"}
-{"f":"lessons","id":"office","k":"blurb","src":"Titles, the 수고 family, email openers and closers, and surviving 회식.","tgt":"హోదాలు, 수고 కుటుంబం, ఈమెయిల్ మొదలు, ముగింపు మాటలు, 회식 లో నెగ్గుకురావడం."}
+{"f":"lessons","id":"office","k":"blurb","src":"Titles, the 수고 family, email openers and closers, and surviving 회식.","tgt":"హోదాలు, 수고 కుటుంబం, ఈమెయిల్ మొదలు, ముగింపు మాటలు, 회식 (టీమ్ డిన్నర్) నెగ్గుకురావడం."}
 {"f":"sentences","id":"ko.s0286","k":"gloss","src":"Keep up the good work (to someone still working, as you leave)","tgt":"పని బాగా సాగాలి (మీరు వెళ్తూ, ఇంకా పనిలో ఉన్నవారితో)"}
 {"f":"sentences","id":"ko.s0287","k":"gloss","src":"Good work today (to a senior, after work)","tgt":"ఈరోజు బాగా కష్టపడ్డారు (పని అయ్యాక, సీనియర్తో)"}
 {"f":"sentences","id":"ko.s0288","k":"gloss","src":"Good work (to a junior or peer)","tgt":"బాగా చేశారు (జూనియర్తో లేదా తోటివారితో)"}
@@ -881,7 +881,7 @@
 {"f":"checks","id":"office.k1","k":"why","src":"수고하세요 = keep up the good work (they stay).","tgt":"수고하세요 = పని బాగా సాగాలి (వారు ఉండిపోతున్నారు)."}
 {"f":"checks","id":"office.k2","k":"q","src":"Address a manager named 김민수 as:","tgt":"김민수 అనే మేనేజర్ని ఇలా పిలవండి:"}
 {"f":"checks","id":"office.k2","k":"why","src":"Title + 님, not the name.","tgt":"హోదా + 님, పేరు కాదు."}
-{"f":"checks","id":"office.k3","k":"q","src":"Politely declining a drink at 회식:","tgt":"회식 లో డ్రింక్ని మర్యాదగా వద్దనడం:"}
+{"f":"checks","id":"office.k3","k":"q","src":"Politely declining a drink at 회식:","tgt":"회식 సమయంలో డ్రింక్ని మర్యాదగా వద్దనడం:"}
 {"f":"checks","id":"office.k3","k":"why","src":"Give a reason; 운전 is the universal one.","tgt":"కారణం చెప్పండి; అందరూ ఒప్పుకునేది 운전."}
 {"f":"practice","id":"office.01","k":"q","src":"Leaving while a coworker is still working, you say:","tgt":"కొలీగ్ ఇంకా పనిలో ఉండగా మీరు బయల్దేరుతూ అనేది:"}
 {"f":"practice","id":"office.01","k":"why","src":"수고하세요 = keep up the good work, to someone who stays.","tgt":"수고하세요 = పని బాగా సాగాలి, ఉండిపోయేవారితో."}

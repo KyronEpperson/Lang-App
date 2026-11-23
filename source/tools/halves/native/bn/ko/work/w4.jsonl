@@ -100,7 +100,7 @@
 {"f":"lessons","id":"sentences","k":"blurb","src":"Four sentence shapes that cover most of what you'll say, then how to grow them.","tgt":"চারটি বাক্য-ছাঁচ, যাতে আপনার বেশিরভাগ কথা ধরে যায়, আর সেগুলো কীভাবে বড় করবেন।"}
 {"f":"sentences","id":"ko.s0156","k":"gloss","src":"The coffee is tasty","tgt":"কফিটা খেতে ভালো"}
 {"f":"sentences","id":"ko.s0157","k":"gloss","src":"(I) go to a café","tgt":"ক্যাফেতে যাই"}
-{"f":"sentences","id":"ko.s0158","k":"gloss","src":"(I) drink","tgt":"খাই (পান করি)"}
+{"f":"sentences","id":"ko.s0158","k":"gloss","src":"(I) drink","tgt":"পান করি"}
 {"f":"sentences","id":"ko.s0159","k":"gloss","src":"(I) drink coffee at a café","tgt":"ক্যাফেতে কফি খাই"}
 {"f":"sentences","id":"ko.s0160","k":"gloss","src":"Today I'm drinking coffee at a café with a friend","tgt":"আজ আমি বন্ধুর সাথে ক্যাফেতে কফি খাচ্ছি"}
 {"f":"sentences","id":"ko.s0161","k":"gloss","src":"(I) drink water — new noun","tgt":"পানি খাই — নতুন বিশেষ্য"}
@@ -149,7 +149,7 @@
 {"f":"lessons","id":"want-like","k":"blurb","src":"Say what you want to do and what you like. Two patterns you will use every day.","tgt":"কী করতে চান আর কী পছন্দ করেন, তা বলুন। দুটি ছাঁচ, যা রোজ কাজে লাগবে।"}
 {"f":"sentences","id":"ko.s0165","k":"gloss","src":"(I) want to go","tgt":"যেতে চাই"}
 {"f":"sentences","id":"ko.s0166","k":"gloss","src":"(I) want to eat","tgt":"খেতে চাই"}
-{"f":"sentences","id":"ko.s0167","k":"gloss","src":"(I) want to see (it) / I miss you","tgt":"দেখতে চাই / আপনার কথা খুব মনে পড়ছে"}
+{"f":"sentences","id":"ko.s0167","k":"gloss","src":"(I) want to see (it) / I miss you","tgt":"দেখতে চাই / আপনাকে মিস করছি"}
 {"f":"sentences","id":"ko.s0168","k":"gloss","src":"(I) want to drink coffee","tgt":"কফি খেতে চাই"}
 {"f":"sentences","id":"ko.s0169","k":"gloss","src":"(I) want to go to Korea","tgt":"কোরিয়া যেতে চাই"}
 {"f":"sentences","id":"ko.s0170","k":"gloss","src":"What do you want to eat?","tgt":"কী খেতে চান?"}
@@ -173,7 +173,7 @@
 {"f":"practice","id":"want-like.03","k":"why","src":"먹 + 고 싶어요.","tgt":"먹 + 고 싶어요.","pre":1}
 {"f":"practice","id":"want-like.04","k":"q","src":"'(I) don't want to go' =","tgt":"'(আমি) যেতে চাই না' ="}
 {"f":"practice","id":"want-like.04","k":"why","src":"안 in front of the verb.","tgt":"ক্রিয়ার সামনে 안।"}
-{"f":"practice","id":"want-like.05","k":"q","src":"'I miss you' =","tgt":"'আপনার কথা খুব মনে পড়ছে' ="}
+{"f":"practice","id":"want-like.05","k":"q","src":"'I miss you' =","tgt":"'আপনাকে মিস করছি' ="}
 {"f":"practice","id":"want-like.05","k":"why","src":"Literally 'I want to see (you)'.","tgt":"আক্ষরিক অর্থে 'আপনাকে দেখতে চাই'।"}
 {"f":"practice","id":"want-like.06","k":"p","src":"(I) want to drink coffee","tgt":"(আমি) কফি খেতে চাই"}
 {"f":"practice","id":"want-like.06","k":"why","src":"마시 + 고 싶어요.","tgt":"마시 + 고 싶어요.","pre":1}
@@ -367,7 +367,7 @@
 {"f":"sentences","id":"ko.s0198","k":"gloss","src":"What shall we do this weekend?","tgt":"সপ্তাহান্তে কী করব?"}
 {"f":"sentences","id":"ko.s0199","k":"gloss","src":"Want to have dinner together?","tgt":"একসাথে রাতের খাবার খাবেন?"}
 {"f":"sentences","id":"ko.s0200","k":"gloss","src":"Sure, what time shall we meet?","tgt":"ঠিক আছে, কয়টায় দেখা করব?"}
-{"f":"sentences","id":"ko.s0201","k":"gloss","src":"See you at 7 at Hongik Univ. station exit 2","tgt":"7টায় হোংইক বিশ্ববিদ্যালয় স্টেশনের 2 নম্বর এক্সিটে দেখা হবে"}
+{"f":"sentences","id":"ko.s0201","k":"gloss","src":"See you at 7 at Hongik Univ. station exit 2","tgt":"7টায় হোংদে (হোংইক বিশ্ববিদ্যালয়) স্টেশনের 2 নম্বর এক্সিটে দেখা হবে"}
 {"f":"sentences","id":"ko.s0202","k":"gloss","src":"Sounds good / Deal!","tgt":"ঠিক আছে / ডান!"}
 {"f":"sentences","id":"ko.s0203","k":"gloss","src":"Sorry, I have plans that day","tgt":"সরি, সেদিন আমার প্ল্যান আছে"}
 {"f":"sentences","id":"ko.s0204","k":"gloss","src":"Next time for sure","tgt":"পরের বার অবশ্যই যাব"}
@@ -422,7 +422,7 @@
 {"f":"checks","id":"texting.k1","k":"o[2]","src":"no","tgt":"না"}
 {"f":"checks","id":"texting.k1","k":"o[3]","src":"bye","tgt":"বিদায়"}
 {"f":"checks","id":"texting.k1","k":"why","src":"ㅋ = the k in 크크 laughter.","tgt":"ㅋ = হাসির শব্দ 크크 থেকে, তার প্রথম ব্যঞ্জন।"}
-{"f":"checks","id":"texting.k2","k":"q","src":"Casual 'yeah' in a text:","tgt":"মেসেজে ঘরোয়া 'হুঁ':"}
+{"f":"checks","id":"texting.k2","k":"q","src":"Casual 'yeah' in a text:","tgt":"মেসেজে ঘরোয়া 'হ্যাঁ':"}
 {"f":"checks","id":"texting.k2","k":"why","src":"ㅇㅇ = 응응.","tgt":"ㅇㅇ = 응응.","pre":1}
 {"f":"checks","id":"texting.k3","k":"q","src":"Texting your older coworker, you should:","tgt":"বয়সে বড় সহকর্মীকে মেসেজ লিখলে:"}
 {"f":"checks","id":"texting.k3","k":"o[0]","src":"keep 요 and use 네/넵","tgt":"요 রাখুন আর 네/넵 লিখুন"}
@@ -432,7 +432,7 @@
 {"f":"checks","id":"texting.k3","k":"why","src":"Shorthand is for friends; politeness stays with seniors.","tgt":"সংক্ষেপ বন্ধুদের জন্য; সিনিয়রদের সাথে ভদ্রতা থাকে।"}
 {"f":"practice","id":"texting.01","k":"q","src":"How do you text 'lol'?","tgt":"মেসেজে 'হাহা' কীভাবে লেখেন?"}
 {"f":"practice","id":"texting.01","k":"why","src":"ㅋ is a laugh sound; more ㅋ = funnier.","tgt":"ㅋ হাসির শব্দ; যত বেশি ㅋ, তত বেশি মজা।"}
-{"f":"practice","id":"texting.02","k":"q","src":"A casual 'yeah' in a text:","tgt":"মেসেজে ঘরোয়া 'হুঁ':"}
+{"f":"practice","id":"texting.02","k":"q","src":"A casual 'yeah' in a text:","tgt":"মেসেজে ঘরোয়া 'হ্যাঁ':"}
 {"f":"practice","id":"texting.02","k":"why","src":"ㅇㅇ is short for 응 (yeah). ㄴㄴ = no.","tgt":"ㅇㅇ হলো 응 (হ্যাঁ) শব্দের ছোট রূপ। ㄴㄴ = না।"}
 {"f":"practice","id":"texting.03","k":"q","src":"Texting your boss 'Yes, confirmed':","tgt":"বসকে মেসেজ: 'জি, দেখেছি':"}
 {"f":"practice","id":"texting.03","k":"why","src":"With seniors, keep it polite; 넵 is the friendly work 'yes'.","tgt":"সিনিয়রদের সাথে ভদ্র থাকুন; অফিসে 넵 হলো আন্তরিক 'জি'।"}
@@ -454,7 +454,7 @@
 {"f":"practice","id":"texting.11","k":"why","src":"내일 봐 = see you tomorrow (casual).","tgt":"내일 봐 = আগামীকাল দেখা হবে (ঘরোয়া)।"}
 {"f":"practice","id":"texting.12","k":"p","src":"Text a friend: 'What are you up to?'","tgt":"বন্ধুকে মেসেজ: 'কী করছ?'"}
 {"f":"practice","id":"texting.12","k":"why","src":"The universal casual opener.","tgt":"সবচেয়ে চেনা ঘরোয়া শুরু।"}
-{"f":"practice","id":"texting.13","k":"p","src":"Text a friend: 'I'm on my way'","tgt":"বন্ধুকে মেসেজ: 'এখনই আসছি'"}
+{"f":"practice","id":"texting.13","k":"p","src":"Text a friend: 'I'm on my way'","tgt":"বন্ধুকে মেসেজ: 'এখনই রওনা দিচ্ছি'"}
 {"f":"practice","id":"texting.13","k":"why","src":"Casual: no 요, no particles.","tgt":"ঘরোয়া: 요 নেই, পার্টিকল নেই।"}
 {"f":"practice","id":"texting.14","k":"p","src":"Text a senior coworker: 'Yes, confirmed' (friendly-polite)","tgt":"সিনিয়র সহকর্মীকে মেসেজ: 'জি, দেখেছি' (ভদ্র, আন্তরিক)"}
 {"f":"practice","id":"texting.14","k":"why","src":"Politeness still exists: 넵 or 네, never ㅇㅇ, with seniors.","tgt":"ভদ্রতা থেকেই যায়: সিনিয়রদের সাথে 넵 বা 네, কখনো ㅇㅇ নয়।"}
@@ -737,177 +737,177 @@
 {"f":"practice","id":"cant.13","k":"why","src":"Circumstances stop you → 못.","tgt":"পরিস্থিতি আটকাচ্ছে → 못।"}
 {"f":"practice","id":"cant.14","k":"p","src":"I don't eat meat (by choice, use 안)","tgt":"আমি মাংস খাই না (নিজের ইচ্ছায়, 안 দিয়ে)"}
 {"f":"practice","id":"cant.14","k":"why","src":"A choice → 안. 못 would mean you can't.","tgt":"নিজের সিদ্ধান্ত → 안। 못 বললে মানে দাঁড়াত, আপনি পারেন না।"}
-{"f":"lessons","id":"have-to","k":"title","src":"30 · Have to: -아/어야 해요","tgt":""}
-{"f":"lessons","id":"have-to","k":"blurb","src":"Say what you must do, ask if you have to, and say when you don't.","tgt":""}
-{"f":"sentences","id":"ko.s0265","k":"gloss","src":"(I) have to go now","tgt":""}
-{"f":"sentences","id":"ko.s0266","k":"gloss","src":"(I) have to eat","tgt":""}
-{"f":"sentences","id":"ko.s0267","k":"gloss","src":"(I) have to work tomorrow","tgt":""}
-{"f":"sentences","id":"ko.s0268","k":"gloss","src":"(I) have to study","tgt":""}
-{"f":"sentences","id":"ko.s0269","k":"gloss","src":"Do I have to go now?","tgt":""}
-{"f":"sentences","id":"ko.s0270","k":"gloss","src":"What do I have to do?","tgt":""}
-{"f":"sentences","id":"ko.s0271","k":"gloss","src":"(I) had to work yesterday","tgt":""}
-{"f":"sentences","id":"ko.s0272","k":"gloss","src":"(You) don't have to go","tgt":""}
-{"f":"sentences","id":"ko.s0273","k":"gloss","src":"(You) don't have to eat it","tgt":""}
-{"f":"checks","id":"have-to.k1","k":"q","src":"'(I) have to go' =","tgt":""}
+{"f":"lessons","id":"have-to","k":"title","src":"30 · Have to: -아/어야 해요","tgt":"30 · করতেই হবে: -아/어야 해요"}
+{"f":"lessons","id":"have-to","k":"blurb","src":"Say what you must do, ask if you have to, and say when you don't.","tgt":"কী করতেই হবে তা বলুন, করতে হবে কি না জিজ্ঞেস করুন, আর কখন করতে হবে না তা বলুন।"}
+{"f":"sentences","id":"ko.s0265","k":"gloss","src":"(I) have to go now","tgt":"এখন যেতে হবে"}
+{"f":"sentences","id":"ko.s0266","k":"gloss","src":"(I) have to eat","tgt":"খেতে হবে"}
+{"f":"sentences","id":"ko.s0267","k":"gloss","src":"(I) have to work tomorrow","tgt":"আগামীকাল কাজ করতে হবে"}
+{"f":"sentences","id":"ko.s0268","k":"gloss","src":"(I) have to study","tgt":"পড়াশোনা করতে হবে"}
+{"f":"sentences","id":"ko.s0269","k":"gloss","src":"Do I have to go now?","tgt":"এখনই যেতে হবে?"}
+{"f":"sentences","id":"ko.s0270","k":"gloss","src":"What do I have to do?","tgt":"কী করতে হবে?"}
+{"f":"sentences","id":"ko.s0271","k":"gloss","src":"(I) had to work yesterday","tgt":"গতকাল কাজ করতে হয়েছিল"}
+{"f":"sentences","id":"ko.s0272","k":"gloss","src":"(You) don't have to go","tgt":"আপনাকে যেতে হবে না"}
+{"f":"sentences","id":"ko.s0273","k":"gloss","src":"(You) don't have to eat it","tgt":"আপনাকে এটা খেতে হবে না"}
+{"f":"checks","id":"have-to.k1","k":"q","src":"'(I) have to go' =","tgt":"'(আমাকে) যেতে হবে' ="}
 {"f":"checks","id":"have-to.k1","k":"why","src":"가요 → 가 + 야 해요.","tgt":"가요 → 가 + 야 해요.","pre":1}
-{"f":"checks","id":"have-to.k2","k":"q","src":"먹다 → 'have to eat' =","tgt":""}
+{"f":"checks","id":"have-to.k2","k":"q","src":"먹다 → 'have to eat' =","tgt":"먹다 → 'খেতে হবে' ="}
 {"f":"checks","id":"have-to.k2","k":"why","src":"먹어요 → 먹어 + 야 해요.","tgt":"먹어요 → 먹어 + 야 해요.","pre":1}
-{"f":"checks","id":"have-to.k3","k":"q","src":"'(You) don't have to go' =","tgt":""}
-{"f":"checks","id":"have-to.k3","k":"why","src":"안 … 도 돼요 = it's okay not to.","tgt":""}
-{"f":"practice","id":"have-to.01","k":"q","src":"'(I) have to go' =","tgt":""}
+{"f":"checks","id":"have-to.k3","k":"q","src":"'(You) don't have to go' =","tgt":"'আপনাকে যেতে হবে না' ="}
+{"f":"checks","id":"have-to.k3","k":"why","src":"안 … 도 돼요 = it's okay not to.","tgt":"안 … 도 돼요 = না করলেও চলবে।"}
+{"f":"practice","id":"have-to.01","k":"q","src":"'(I) have to go' =","tgt":"'(আমাকে) যেতে হবে' ="}
 {"f":"practice","id":"have-to.01","k":"why","src":"가 + 야 해요.","tgt":"가 + 야 해요.","pre":1}
-{"f":"practice","id":"have-to.02","k":"q","src":"먹다 → 'have to eat' =","tgt":""}
+{"f":"practice","id":"have-to.02","k":"q","src":"먹다 → 'have to eat' =","tgt":"먹다 → 'খেতে হবে' ="}
 {"f":"practice","id":"have-to.02","k":"why","src":"먹어 + 야 해요.","tgt":"먹어 + 야 해요.","pre":1}
-{"f":"practice","id":"have-to.03","k":"q","src":"하다 → 'have to do' =","tgt":""}
+{"f":"practice","id":"have-to.03","k":"q","src":"하다 → 'have to do' =","tgt":"하다 → 'করতে হবে' ="}
 {"f":"practice","id":"have-to.03","k":"why","src":"해 + 야 해요.","tgt":"해 + 야 해요.","pre":1}
-{"f":"practice","id":"have-to.04","k":"q","src":"'(You) don't have to go' =","tgt":""}
+{"f":"practice","id":"have-to.04","k":"q","src":"'(You) don't have to go' =","tgt":"'আপনাকে যেতে হবে না' ="}
 {"f":"practice","id":"have-to.04","k":"why","src":"안 … 도 돼요.","tgt":"안 … 도 돼요.","pre":1}
-{"f":"practice","id":"have-to.05","k":"q","src":"'(I) had to go' =","tgt":""}
-{"f":"practice","id":"have-to.05","k":"why","src":"Only 해요 goes into the past.","tgt":""}
-{"f":"practice","id":"have-to.06","k":"p","src":"(I) have to go now","tgt":""}
+{"f":"practice","id":"have-to.05","k":"q","src":"'(I) had to go' =","tgt":"'(আমাকে) যেতে হয়েছিল' ="}
+{"f":"practice","id":"have-to.05","k":"why","src":"Only 해요 goes into the past.","tgt":"শুধু 해요 অংশটা অতীতে যায়।"}
+{"f":"practice","id":"have-to.06","k":"p","src":"(I) have to go now","tgt":"এখন যেতে হবে"}
 {"f":"practice","id":"have-to.06","k":"why","src":"가야 해요.","tgt":"가야 해요.","pre":1}
-{"f":"practice","id":"have-to.07","k":"p","src":"(I) have to work tomorrow","tgt":""}
+{"f":"practice","id":"have-to.07","k":"p","src":"(I) have to work tomorrow","tgt":"আগামীকাল কাজ করতে হবে"}
 {"f":"practice","id":"have-to.07","k":"why","src":"일해 + 야 돼요.","tgt":"일해 + 야 돼요.","pre":1}
-{"f":"practice","id":"have-to.08","k":"p","src":"(I) have to eat","tgt":""}
+{"f":"practice","id":"have-to.08","k":"p","src":"(I) have to eat","tgt":"খেতে হবে"}
 {"f":"practice","id":"have-to.08","k":"why","src":"먹어 + 야 해요.","tgt":"먹어 + 야 해요.","pre":1}
-{"f":"practice","id":"have-to.09","k":"p","src":"(I) have to go","tgt":""}
-{"f":"practice","id":"have-to.09","k":"why","src":"요-form without 요 + 야 해요.","tgt":""}
-{"f":"practice","id":"have-to.10","k":"p","src":"(I) have to study","tgt":""}
+{"f":"practice","id":"have-to.09","k":"p","src":"(I) have to go","tgt":"যেতে হবে"}
+{"f":"practice","id":"have-to.09","k":"why","src":"요-form without 요 + 야 해요.","tgt":"요-রূপ থেকে 요 বাদ দিয়ে + 야 해요।"}
+{"f":"practice","id":"have-to.10","k":"p","src":"(I) have to study","tgt":"পড়াশোনা করতে হবে"}
 {"f":"practice","id":"have-to.10","k":"why","src":"공부해 + 야 돼요.","tgt":"공부해 + 야 돼요.","pre":1}
-{"f":"practice","id":"have-to.11","k":"p","src":"(You) don't have to go","tgt":""}
+{"f":"practice","id":"have-to.11","k":"p","src":"(You) don't have to go","tgt":"আপনাকে যেতে হবে না"}
 {"f":"practice","id":"have-to.11","k":"why","src":"안 가도 돼요.","tgt":"안 가도 돼요.","pre":1}
-{"f":"practice","id":"have-to.12","k":"p","src":"(I) have to go home","tgt":""}
+{"f":"practice","id":"have-to.12","k":"p","src":"(I) have to go home","tgt":"বাসায় যেতে হবে"}
 {"f":"practice","id":"have-to.12","k":"why","src":"가 + 야 해요 / 돼요.","tgt":"가 + 야 해요 / 돼요.","pre":1}
-{"f":"practice","id":"have-to.13","k":"p","src":"(I) have to study today","tgt":""}
+{"f":"practice","id":"have-to.13","k":"p","src":"(I) have to study today","tgt":"আজ পড়াশোনা করতে হবে"}
 {"f":"practice","id":"have-to.13","k":"why","src":"공부해 + 야 해요.","tgt":"공부해 + 야 해요.","pre":1}
-{"f":"practice","id":"have-to.14","k":"p","src":"(You) don't have to go","tgt":""}
+{"f":"practice","id":"have-to.14","k":"p","src":"(You) don't have to go","tgt":"আপনাকে যেতে হবে না"}
 {"f":"practice","id":"have-to.14","k":"why","src":"안 가도 돼요.","tgt":"안 가도 돼요.","pre":1}
-{"f":"lessons","id":"honorific","k":"title","src":"31 · Honorific verbs","tgt":""}
-{"f":"lessons","id":"honorific","k":"blurb","src":"-(으)시- and the special verbs: 드시다, 주무시다, 계시다, 말씀하시다.","tgt":""}
-{"f":"sentences","id":"ko.s0274","k":"gloss","src":"Where are you going? (to an elder)","tgt":""}
-{"f":"sentences","id":"ko.s0275","k":"gloss","src":"When did you arrive? (honorific)","tgt":""}
-{"f":"sentences","id":"ko.s0276","k":"gloss","src":"Please sit here","tgt":""}
-{"f":"sentences","id":"ko.s0277","k":"gloss","src":"Enjoy your meal (lit. eat deliciously)","tgt":""}
-{"f":"sentences","id":"ko.s0278","k":"gloss","src":"Good night (to an elder)","tgt":""}
-{"f":"sentences","id":"ko.s0279","k":"gloss","src":"Is the owner in?","tgt":""}
-{"f":"checks","id":"honorific.k1","k":"q","src":"'Enjoy your meal' to a customer:","tgt":""}
-{"f":"checks","id":"honorific.k1","k":"why","src":"드시다 replaces 먹다 in honorific speech.","tgt":""}
-{"f":"checks","id":"honorific.k2","k":"q","src":"Honorific of 자다 (to sleep):","tgt":""}
+{"f":"lessons","id":"honorific","k":"title","src":"31 · Honorific verbs","tgt":"31 · সম্মানসূচক ক্রিয়া"}
+{"f":"lessons","id":"honorific","k":"blurb","src":"-(으)시- and the special verbs: 드시다, 주무시다, 계시다, 말씀하시다.","tgt":"-(으)시- আর বিশেষ ক্রিয়াগুলো: 드시다, 주무시다, 계시다, 말씀하시다।"}
+{"f":"sentences","id":"ko.s0274","k":"gloss","src":"Where are you going? (to an elder)","tgt":"কোথায় যাচ্ছেন? (বয়স্ক কাউকে)"}
+{"f":"sentences","id":"ko.s0275","k":"gloss","src":"When did you arrive? (honorific)","tgt":"কখন এলেন? (সম্মানসূচক)"}
+{"f":"sentences","id":"ko.s0276","k":"gloss","src":"Please sit here","tgt":"এখানে বসুন"}
+{"f":"sentences","id":"ko.s0277","k":"gloss","src":"Enjoy your meal (lit. eat deliciously)","tgt":"তৃপ্তি করে খান (আক্ষরিক: 'মজা করে খান')"}
+{"f":"sentences","id":"ko.s0278","k":"gloss","src":"Good night (to an elder)","tgt":"শুভ রাত্রি (বয়স্ক কাউকে)"}
+{"f":"sentences","id":"ko.s0279","k":"gloss","src":"Is the owner in?","tgt":"মালিক আছেন?"}
+{"f":"checks","id":"honorific.k1","k":"q","src":"'Enjoy your meal' to a customer:","tgt":"খদ্দেরকে 'তৃপ্তি করে খান':"}
+{"f":"checks","id":"honorific.k1","k":"why","src":"드시다 replaces 먹다 in honorific speech.","tgt":"সম্মানসূচক কথায় 먹다 ক্রিয়ার জায়গায় বসে 드시다।"}
+{"f":"checks","id":"honorific.k2","k":"q","src":"Honorific of 자다 (to sleep):","tgt":"자다 (ঘুমানো) ক্রিয়ার সম্মানসূচক রূপ:"}
 {"f":"checks","id":"honorific.k2","k":"why","src":"안녕히 주무세요.","tgt":"안녕히 주무세요.","pre":1}
-{"f":"checks","id":"honorific.k3","k":"q","src":"Which is wrong?","tgt":""}
-{"f":"checks","id":"honorific.k3","k":"why","src":"Never use 시 about yourself.","tgt":""}
-{"f":"practice","id":"honorific.01","k":"q","src":"To an elder: 'Where are you going?' =","tgt":""}
-{"f":"practice","id":"honorific.01","k":"why","src":"Elder is the subject → 가 + 세요. Plain 가요 lacks the honorific.","tgt":""}
-{"f":"practice","id":"honorific.02","k":"q","src":"The honorific verb for 먹다 / 마시다:","tgt":""}
-{"f":"practice","id":"honorific.02","k":"why","src":"드시다 = eat / drink (honorific).","tgt":""}
-{"f":"practice","id":"honorific.03","k":"q","src":"'Is the owner in?' =","tgt":""}
-{"f":"practice","id":"honorific.03","k":"why","src":"For a person being somewhere, 있다 becomes 계시다 → 계세요.","tgt":""}
-{"f":"practice","id":"honorific.04","k":"q","src":"Saying you are going (about yourself):","tgt":""}
-{"f":"practice","id":"honorific.04","k":"why","src":"Never use 시 about yourself.","tgt":""}
-{"f":"practice","id":"honorific.05","k":"q","src":"'When did you arrive?' (honorific past) =","tgt":""}
+{"f":"checks","id":"honorific.k3","k":"q","src":"Which is wrong?","tgt":"কোনটি ভুল?"}
+{"f":"checks","id":"honorific.k3","k":"why","src":"Never use 시 about yourself.","tgt":"নিজের সম্পর্কে কখনো 시 নয় — বাংলায় 'আমি যান' যেমন ভুল।"}
+{"f":"practice","id":"honorific.01","k":"q","src":"To an elder: 'Where are you going?' =","tgt":"বয়স্ক কাউকে: 'কোথায় যাচ্ছেন?' ="}
+{"f":"practice","id":"honorific.01","k":"why","src":"Elder is the subject → 가 + 세요. Plain 가요 lacks the honorific.","tgt":"বয়স্ক মানুষটি কর্তা → 가 + 세요। সাধারণ 가요 রূপে সম্মানসূচক নেই।"}
+{"f":"practice","id":"honorific.02","k":"q","src":"The honorific verb for 먹다 / 마시다:","tgt":"먹다 / 마시다 ক্রিয়ার সম্মানসূচক রূপ:"}
+{"f":"practice","id":"honorific.02","k":"why","src":"드시다 = eat / drink (honorific).","tgt":"드시다 = খাওয়া / পান করা (সম্মানসূচক)।"}
+{"f":"practice","id":"honorific.03","k":"q","src":"'Is the owner in?' =","tgt":"'মালিক আছেন?' ="}
+{"f":"practice","id":"honorific.03","k":"why","src":"For a person being somewhere, 있다 becomes 계시다 → 계세요.","tgt":"কোনো মানুষ কোথাও থাকা বোঝাতে 있다 হয়ে যায় 계시다 → 계세요।"}
+{"f":"practice","id":"honorific.04","k":"q","src":"Saying you are going (about yourself):","tgt":"নিজে যাচ্ছেন, সে কথা বলতে:"}
+{"f":"practice","id":"honorific.04","k":"why","src":"Never use 시 about yourself.","tgt":"নিজের সম্পর্কে কখনো 시 নয়।"}
+{"f":"practice","id":"honorific.05","k":"q","src":"'When did you arrive?' (honorific past) =","tgt":"'কখন এলেন?' (সম্মানসূচক অতীত) ="}
 {"f":"practice","id":"honorific.05","k":"why","src":"오 + 시 + 었어요 → 오셨어요.","tgt":"오 + 시 + 었어요 → 오셨어요.","pre":1}
-{"f":"practice","id":"honorific.06","k":"p","src":"What is your name? (honorific)","tgt":""}
-{"f":"practice","id":"honorific.06","k":"why","src":"성함 is the honorific word for 이름.","tgt":""}
-{"f":"practice","id":"honorific.07","k":"p","src":"Good night (to an elder)","tgt":""}
-{"f":"practice","id":"honorific.07","k":"why","src":"자다 swaps entirely to 주무시다.","tgt":""}
-{"f":"practice","id":"honorific.08","k":"p","src":"Please sit here","tgt":""}
-{"f":"practice","id":"honorific.08","k":"why","src":"Consonant stem 앉 + 으세요.","tgt":""}
-{"f":"practice","id":"honorific.09","k":"p","src":"Please sit here (to an elder)","tgt":""}
-{"f":"practice","id":"honorific.09","k":"why","src":"After a consonant stem, -으세요.","tgt":""}
-{"f":"practice","id":"honorific.10","k":"p","src":"Is grandma in? (honorific)","tgt":""}
-{"f":"practice","id":"honorific.10","k":"why","src":"A respected person being somewhere → 계세요.","tgt":""}
-{"f":"practice","id":"honorific.11","k":"p","src":"When did you arrive? (to an elder)","tgt":""}
-{"f":"practice","id":"honorific.11","k":"why","src":"Honorific past: 오셨어요.","tgt":""}
-{"f":"practice","id":"honorific.12","k":"p","src":"To an elder: 'Enjoy your meal'","tgt":""}
-{"f":"practice","id":"honorific.12","k":"why","src":"Eating, for an elder, is 드시다 → 드세요.","tgt":""}
-{"f":"practice","id":"honorific.13","k":"p","src":"To an elder: 'Where are you going?'","tgt":""}
-{"f":"practice","id":"honorific.13","k":"why","src":"가 + 세요: the elder is the one going.","tgt":""}
-{"f":"practice","id":"honorific.14","k":"p","src":"About yourself: 'I'm going home'","tgt":""}
-{"f":"practice","id":"honorific.14","k":"why","src":"No 시 about yourself, and destination takes 에.","tgt":""}
-{"f":"lessons","id":"requests","k":"title","src":"32 · Asking for things politely","tgt":""}
-{"f":"lessons","id":"requests","k":"blurb","src":"좀, 혹시, -아/어 주시겠어요?, -(으)면 안 돼요? — the softeners that get a yes.","tgt":""}
-{"f":"sentences","id":"ko.s0280","k":"gloss","src":"By any chance, do you have an English menu?","tgt":"","rw":"mentions English"}
-{"f":"sentences","id":"ko.s0281","k":"gloss","src":"Would you mind speaking slowly?","tgt":""}
-{"f":"sentences","id":"ko.s0282","k":"gloss","src":"Could you move us to a window seat?","tgt":""}
-{"f":"sentences","id":"ko.s0283","k":"gloss","src":"May I charge here?","tgt":""}
-{"f":"sentences","id":"ko.s0284","k":"gloss","src":"Sorry, but that's not possible","tgt":""}
-{"f":"sentences","id":"ko.s0285","k":"gloss","src":"It's fine, never mind","tgt":""}
-{"f":"checks","id":"requests.k1","k":"q","src":"Most polite way to ask someone to take a photo:","tgt":""}
-{"f":"checks","id":"requests.k1","k":"why","src":"좀 + 주시겠어요 = maximum politeness.","tgt":""}
-{"f":"checks","id":"requests.k2","k":"q","src":"'By any chance' =","tgt":""}
-{"f":"checks","id":"requests.k2","k":"why","src":"혹시 opens a polite question.","tgt":""}
-{"f":"checks","id":"requests.k3","k":"q","src":"'May I sit here?' =","tgt":""}
-{"f":"checks","id":"requests.k3","k":"why","src":"-아/어도 돼요 = may I.","tgt":""}
-{"f":"practice","id":"requests.01","k":"q","src":"Make 'Water, please' gentler:","tgt":""}
-{"f":"practice","id":"requests.01","k":"why","src":"좀 slips in after the noun and softens the request.","tgt":""}
-{"f":"practice","id":"requests.02","k":"q","src":"'By any chance, do you have an English menu?' =","tgt":"","rw":"mentions English"}
-{"f":"practice","id":"requests.02","k":"why","src":"혹시 opens the question; 있어요? = do you have?","tgt":""}
-{"f":"practice","id":"requests.03","k":"q","src":"Asking a stranger: 'Would you mind taking a photo (for us)?' =","tgt":""}
-{"f":"practice","id":"requests.03","k":"why","src":"-아/어 주시겠어요 asks them to do it; -아/어도 돼요 asks if you may.","tgt":""}
-{"f":"practice","id":"requests.04","k":"q","src":"'May I charge (my phone) here?' =","tgt":""}
-{"f":"practice","id":"requests.04","k":"why","src":"May I → -아/어도 돼요; 하다 → 해도.","tgt":""}
-{"f":"practice","id":"requests.05","k":"q","src":"Politely refusing: 'Sorry, but that's not possible' =","tgt":""}
-{"f":"practice","id":"requests.05","k":"why","src":"안 돼요 = not possible. It's spelled 돼요, never 되요.","tgt":""}
-{"f":"practice","id":"requests.06","k":"p","src":"Would you mind speaking slowly?","tgt":""}
-{"f":"practice","id":"requests.06","k":"why","src":"Adverb, then verb + 주시겠어요.","tgt":""}
-{"f":"practice","id":"requests.07","k":"p","src":"May I sit here?","tgt":""}
-{"f":"practice","id":"requests.07","k":"why","src":"앉 + 아도 돼요 = may I sit.","tgt":""}
-{"f":"practice","id":"requests.08","k":"p","src":"Would it be okay if I sit here?","tgt":""}
-{"f":"practice","id":"requests.08","k":"why","src":"Consonant stem + 으면 안 돼요?","tgt":""}
-{"f":"practice","id":"requests.09","k":"p","src":"Would you mind taking a photo (for us)?","tgt":""}
-{"f":"practice","id":"requests.09","k":"why","src":"찍어 + 주시겠어요 = would you take (it) for me.","tgt":""}
-{"f":"practice","id":"requests.10","k":"p","src":"By any chance, is there a bathroom?","tgt":""}
-{"f":"practice","id":"requests.10","k":"why","src":"혹시 = by any chance; it opens the question.","tgt":""}
-{"f":"practice","id":"requests.11","k":"p","src":"May I charge here?","tgt":""}
-{"f":"practice","id":"requests.11","k":"why","src":"-아/어도 돼요 = may I.","tgt":""}
-{"f":"practice","id":"requests.12","k":"p","src":"Water, please (soften it with 좀)","tgt":""}
-{"f":"practice","id":"requests.12","k":"why","src":"좀 right after the noun.","tgt":""}
-{"f":"practice","id":"requests.13","k":"p","src":"May I take a photo? (use -아/어도 돼요)","tgt":""}
+{"f":"practice","id":"honorific.06","k":"p","src":"What is your name? (honorific)","tgt":"আপনার নাম কী? (সম্মানসূচক)"}
+{"f":"practice","id":"honorific.06","k":"why","src":"성함 is the honorific word for 이름.","tgt":"성함 হলো 이름 শব্দের সম্মানসূচক রূপ।"}
+{"f":"practice","id":"honorific.07","k":"p","src":"Good night (to an elder)","tgt":"শুভ রাত্রি (বয়স্ক কাউকে)"}
+{"f":"practice","id":"honorific.07","k":"why","src":"자다 swaps entirely to 주무시다.","tgt":"자다 পুরো বদলে হয় 주무시다।"}
+{"f":"practice","id":"honorific.08","k":"p","src":"Please sit here","tgt":"এখানে বসুন"}
+{"f":"practice","id":"honorific.08","k":"why","src":"Consonant stem 앉 + 으세요.","tgt":"ব্যঞ্জনে শেষ ধাতু 앉 + 으세요।"}
+{"f":"practice","id":"honorific.09","k":"p","src":"Please sit here (to an elder)","tgt":"এখানে বসুন (বয়স্ক কাউকে)"}
+{"f":"practice","id":"honorific.09","k":"why","src":"After a consonant stem, -으세요.","tgt":"ব্যঞ্জনে শেষ ধাতুর পরে -으세요।"}
+{"f":"practice","id":"honorific.10","k":"p","src":"Is grandma in? (honorific)","tgt":"দাদি আছেন? (সম্মানসূচক)"}
+{"f":"practice","id":"honorific.10","k":"why","src":"A respected person being somewhere → 계세요.","tgt":"সম্মানিত কেউ কোথাও থাকলে → 계세요।"}
+{"f":"practice","id":"honorific.11","k":"p","src":"When did you arrive? (to an elder)","tgt":"কখন এলেন? (বয়স্ক কাউকে)"}
+{"f":"practice","id":"honorific.11","k":"why","src":"Honorific past: 오셨어요.","tgt":"সম্মানসূচক অতীত: 오셨어요।"}
+{"f":"practice","id":"honorific.12","k":"p","src":"To an elder: 'Enjoy your meal'","tgt":"বয়স্ক কাউকে: 'তৃপ্তি করে খান' (সম্মানসূচক)"}
+{"f":"practice","id":"honorific.12","k":"why","src":"Eating, for an elder, is 드시다 → 드세요.","tgt":"বয়স্ক কারও খাওয়া মানে 드시다 → 드세요।"}
+{"f":"practice","id":"honorific.13","k":"p","src":"To an elder: 'Where are you going?'","tgt":"বয়স্ক কাউকে: 'কোথায় যাচ্ছেন?' (সম্মানসূচক)"}
+{"f":"practice","id":"honorific.13","k":"why","src":"가 + 세요: the elder is the one going.","tgt":"가 + 세요: যাচ্ছেন বয়স্ক মানুষটি।"}
+{"f":"practice","id":"honorific.14","k":"p","src":"About yourself: 'I'm going home'","tgt":"নিজের কথা: 'আমি বাসায় যাচ্ছি'"}
+{"f":"practice","id":"honorific.14","k":"why","src":"No 시 about yourself, and destination takes 에.","tgt":"নিজের বেলায় 시 নয়, আর গন্তব্য নেয় 에।"}
+{"f":"lessons","id":"requests","k":"title","src":"32 · Asking for things politely","tgt":"32 · ভদ্রভাবে কিছু চাওয়া"}
+{"f":"lessons","id":"requests","k":"blurb","src":"좀, 혹시, -아/어 주시겠어요?, -(으)면 안 돼요? — the softeners that get a yes.","tgt":"좀, 혹시, -아/어 주시겠어요?, -(으)면 안 돼요? — নরম করার যে শব্দগুলো 'হ্যাঁ' এনে দেয়।"}
+{"f":"sentences","id":"ko.s0280","k":"gloss","src":"By any chance, do you have an English menu?","tgt":"আচ্ছা, আপনাদের কাছে কি ইংরেজি মেনু আছে?","rw":"mentions English"}
+{"f":"sentences","id":"ko.s0281","k":"gloss","src":"Would you mind speaking slowly?","tgt":"একটু আস্তে বলবেন?"}
+{"f":"sentences","id":"ko.s0282","k":"gloss","src":"Could you move us to a window seat?","tgt":"জানালার পাশের সিটে বদলে দেবেন?"}
+{"f":"sentences","id":"ko.s0283","k":"gloss","src":"May I charge here?","tgt":"এখানে চার্জ দিলে চলবে?"}
+{"f":"sentences","id":"ko.s0284","k":"gloss","src":"Sorry, but that's not possible","tgt":"দুঃখিত, কিন্তু সেটা সম্ভব না"}
+{"f":"sentences","id":"ko.s0285","k":"gloss","src":"It's fine, never mind","tgt":"ঠিক আছে, লাগবে না"}
+{"f":"checks","id":"requests.k1","k":"q","src":"Most polite way to ask someone to take a photo:","tgt":"কাউকে ছবি তুলে দিতে বলার সবচেয়ে ভদ্র উপায়:"}
+{"f":"checks","id":"requests.k1","k":"why","src":"좀 + 주시겠어요 = maximum politeness.","tgt":"좀 + 주시겠어요 = সর্বোচ্চ ভদ্রতা।"}
+{"f":"checks","id":"requests.k2","k":"q","src":"'By any chance' =","tgt":"'কোনোভাবে' (প্রশ্নের শুরুতে, 'আচ্ছা, … কি?') ="}
+{"f":"checks","id":"requests.k2","k":"why","src":"혹시 opens a polite question.","tgt":"혹시 দিয়ে ভদ্র প্রশ্ন শুরু হয়।"}
+{"f":"checks","id":"requests.k3","k":"q","src":"'May I sit here?' =","tgt":"'এখানে বসলে চলবে?' ="}
+{"f":"checks","id":"requests.k3","k":"why","src":"-아/어도 돼요 = may I.","tgt":"-아/어도 돼요 = … করলে চলবে?"}
+{"f":"practice","id":"requests.01","k":"q","src":"Make 'Water, please' gentler:","tgt":"'পানি দিন' আরও নরম করুন:"}
+{"f":"practice","id":"requests.01","k":"why","src":"좀 slips in after the noun and softens the request.","tgt":"좀 বিশেষ্যের পরে ঢুকে অনুরোধ নরম করে।"}
+{"f":"practice","id":"requests.02","k":"q","src":"'By any chance, do you have an English menu?' =","tgt":"'আচ্ছা, আপনাদের কাছে কি ইংরেজি মেনু আছে?' =","rw":"mentions English"}
+{"f":"practice","id":"requests.02","k":"why","src":"혹시 opens the question; 있어요? = do you have?","tgt":"혹시 দিয়ে প্রশ্ন শুরু; 있어요? = আছে?"}
+{"f":"practice","id":"requests.03","k":"q","src":"Asking a stranger: 'Would you mind taking a photo (for us)?' =","tgt":"অচেনা কাউকে: 'আমাদের একটু ছবি তুলে দেবেন?' ="}
+{"f":"practice","id":"requests.03","k":"why","src":"-아/어 주시겠어요 asks them to do it; -아/어도 돼요 asks if you may.","tgt":"-아/어 주시겠어요 দিয়ে তাঁকে কাজটা করে দিতে বলা হয়; -아/어도 돼요 দিয়ে জানতে চাওয়া হয় আপনি করতে পারেন কি না।"}
+{"f":"practice","id":"requests.04","k":"q","src":"'May I charge (my phone) here?' =","tgt":"'এখানে (ফোন) চার্জ দিলে চলবে?' ="}
+{"f":"practice","id":"requests.04","k":"why","src":"May I → -아/어도 돼요; 하다 → 해도.","tgt":"… করলে চলবে? → -아/어도 돼요; 하다 → 해도।"}
+{"f":"practice","id":"requests.05","k":"q","src":"Politely refusing: 'Sorry, but that's not possible' =","tgt":"ভদ্রভাবে না বলা: 'দুঃখিত, কিন্তু সেটা সম্ভব না' ="}
+{"f":"practice","id":"requests.05","k":"why","src":"안 돼요 = not possible. It's spelled 돼요, never 되요.","tgt":"안 돼요 = সম্ভব না। বানান 돼요, কখনো 되요 নয়।"}
+{"f":"practice","id":"requests.06","k":"p","src":"Would you mind speaking slowly?","tgt":"একটু আস্তে বলবেন?"}
+{"f":"practice","id":"requests.06","k":"why","src":"Adverb, then verb + 주시겠어요.","tgt":"ক্রিয়াবিশেষণ, তারপর ক্রিয়া + 주시겠어요।"}
+{"f":"practice","id":"requests.07","k":"p","src":"May I sit here?","tgt":"এখানে বসলে চলবে?"}
+{"f":"practice","id":"requests.07","k":"why","src":"앉 + 아도 돼요 = may I sit.","tgt":"앉 + 아도 돼요 = বসলে চলবে?"}
+{"f":"practice","id":"requests.08","k":"p","src":"Would it be okay if I sit here?","tgt":"এখানে বসলে অসুবিধা আছে?"}
+{"f":"practice","id":"requests.08","k":"why","src":"Consonant stem + 으면 안 돼요?","tgt":"ব্যঞ্জনে শেষ ধাতু + 으면 안 돼요?"}
+{"f":"practice","id":"requests.09","k":"p","src":"Would you mind taking a photo (for us)?","tgt":"আমাদের একটু ছবি তুলে দেবেন?"}
+{"f":"practice","id":"requests.09","k":"why","src":"찍어 + 주시겠어요 = would you take (it) for me.","tgt":"찍어 + 주시겠어요 = তুলে দেবেন?"}
+{"f":"practice","id":"requests.10","k":"p","src":"By any chance, is there a bathroom?","tgt":"আচ্ছা, এখানে কি টয়লেট আছে?"}
+{"f":"practice","id":"requests.10","k":"why","src":"혹시 = by any chance; it opens the question.","tgt":"혹시 = আচ্ছা, … কি?; এটি প্রশ্ন শুরু করে।"}
+{"f":"practice","id":"requests.11","k":"p","src":"May I charge here?","tgt":"এখানে চার্জ দিলে চলবে?"}
+{"f":"practice","id":"requests.11","k":"why","src":"-아/어도 돼요 = may I.","tgt":"-아/어도 돼요 = … করলে চলবে?"}
+{"f":"practice","id":"requests.12","k":"p","src":"Water, please (soften it with 좀)","tgt":"পানি দিন (좀 দিয়ে নরম করুন)"}
+{"f":"practice","id":"requests.12","k":"why","src":"좀 right after the noun.","tgt":"좀 ঠিক বিশেষ্যের পরে।"}
+{"f":"practice","id":"requests.13","k":"p","src":"May I take a photo? (use -아/어도 돼요)","tgt":"ছবি তুললে চলবে? (-아/어도 돼요 দিয়ে)"}
 {"f":"practice","id":"requests.13","k":"why","src":"찍 + 어도 돼요.","tgt":"찍 + 어도 돼요.","pre":1}
-{"f":"practice","id":"requests.14","k":"p","src":"Would it be okay if I sit here? (use -(으)면 안 돼요)","tgt":""}
-{"f":"practice","id":"requests.14","k":"why","src":"Consonant stem 앉 + 으면 안 돼요. This 안 is part of the set phrase, not a plain 'not'.","tgt":""}
-{"f":"lessons","id":"office","k":"title","src":"33 · Office Korean","tgt":""}
-{"f":"lessons","id":"office","k":"blurb","src":"Titles, the 수고 family, email openers and closers, and surviving 회식.","tgt":""}
-{"f":"sentences","id":"ko.s0286","k":"gloss","src":"Keep up the good work (to someone still working, as you leave)","tgt":""}
-{"f":"sentences","id":"ko.s0287","k":"gloss","src":"Good work today (to a senior, after work)","tgt":""}
-{"f":"sentences","id":"ko.s0288","k":"gloss","src":"Good work (to a junior or peer)","tgt":""}
-{"f":"sentences","id":"ko.s0300","k":"gloss","src":"Hello, this is @@ from the marketing team","tgt":""}
-{"f":"sentences","id":"ko.s0290","k":"gloss","src":"I'm writing about the report","tgt":""}
-{"f":"sentences","id":"ko.s0291","k":"gloss","src":"Please take a look","tgt":""}
-{"f":"sentences","id":"ko.s0301","k":"gloss","src":"Thank you. @@","tgt":""}
-{"f":"sentences","id":"ko.s0293","k":"gloss","src":"Please have a drink (pouring for a senior)","tgt":""}
-{"f":"sentences","id":"ko.s0294","k":"gloss","src":"I have to drive, so (no thanks)","tgt":""}
-{"f":"checks","id":"office.k1","k":"q","src":"You're leaving; a coworker at your level is still working. You say:","tgt":""}
-{"f":"checks","id":"office.k1","k":"why","src":"수고하세요 = keep up the good work (they stay).","tgt":""}
-{"f":"checks","id":"office.k2","k":"q","src":"Address a manager named 김민수 as:","tgt":""}
-{"f":"checks","id":"office.k2","k":"why","src":"Title + 님, not the name.","tgt":""}
-{"f":"checks","id":"office.k3","k":"q","src":"Politely declining a drink at 회식:","tgt":""}
-{"f":"checks","id":"office.k3","k":"why","src":"Give a reason; 운전 is the universal one.","tgt":""}
-{"f":"practice","id":"office.01","k":"q","src":"Leaving while a coworker is still working, you say:","tgt":""}
-{"f":"practice","id":"office.01","k":"why","src":"수고하세요 = keep up the good work, to someone who stays.","tgt":""}
-{"f":"practice","id":"office.02","k":"q","src":"To your manager at the end of the day:","tgt":""}
-{"f":"practice","id":"office.02","k":"why","src":"수고했어요 is for juniors or peers; seniors get 수고하셨습니다.","tgt":""}
-{"f":"practice","id":"office.03","k":"q","src":"How do you address your manager (과장)?","tgt":""}
-{"f":"practice","id":"office.03","k":"why","src":"Titles always take 님.","tgt":""}
-{"f":"practice","id":"office.04","k":"q","src":"The standard email closer 'Please take a look':","tgt":""}
-{"f":"practice","id":"office.04","k":"why","src":"부탁드립니다 = I humbly ask.","tgt":""}
-{"f":"practice","id":"office.05","k":"q","src":"Signing an email as @@:","tgt":""}
-{"f":"practice","id":"office.05","k":"why","src":"드림 goes after your own name; never 씨 or 님 for yourself.","tgt":""}
-{"f":"practice","id":"office.06","k":"p","src":"I'll head out first (to the room)","tgt":""}
-{"f":"practice","id":"office.06","k":"why","src":"먼저 퇴근하겠습니다 is the set phrase.","tgt":""}
-{"f":"practice","id":"office.07","k":"p","src":"What time is the meeting?","tgt":""}
-{"f":"practice","id":"office.07","k":"why","src":"몇 시예요? = what time is it?","tgt":""}
-{"f":"practice","id":"office.08","k":"p","src":"Hello, this is @@ from the marketing team","tgt":""}
-{"f":"practice","id":"office.08","k":"why","src":"Team, then your name + 입니다. No 님 for yourself.","tgt":""}
-{"f":"practice","id":"office.09","k":"p","src":"Please take a look (email)","tgt":""}
-{"f":"practice","id":"office.09","k":"why","src":"부탁드립니다 = (I) humbly request.","tgt":""}
-{"f":"practice","id":"office.10","k":"p","src":"Good work today (to a senior, after work)","tgt":""}
-{"f":"practice","id":"office.10","k":"why","src":"Seniors get the honorific past: 수고하셨습니다.","tgt":""}
-{"f":"practice","id":"office.11","k":"p","src":"Manager, could you check this?","tgt":""}
-{"f":"practice","id":"office.11","k":"why","src":"Titles always take 님.","tgt":""}
-{"f":"practice","id":"office.12","k":"p","src":"To your team lead after work: 'Good work today'","tgt":""}
-{"f":"practice","id":"office.12","k":"why","src":"Title + 님, then the senior form 수고하셨습니다.","tgt":""}
-{"f":"practice","id":"office.13","k":"p","src":"Leaving before your boss: 'I'll head out first'","tgt":""}
-{"f":"practice","id":"office.13","k":"why","src":"Say it clearly to the room.","tgt":""}
-{"f":"practice","id":"office.14","k":"p","src":"Manager, could you check this? (very polite)","tgt":""}
-{"f":"practice","id":"office.14","k":"why","src":"Title + 님, then -아/어 주시겠어요 from the requests lesson.","tgt":""}
+{"f":"practice","id":"requests.14","k":"p","src":"Would it be okay if I sit here? (use -(으)면 안 돼요)","tgt":"এখানে বসলে অসুবিধা আছে? (-(으)면 안 돼요 দিয়ে)"}
+{"f":"practice","id":"requests.14","k":"why","src":"Consonant stem 앉 + 으면 안 돼요. This 안 is part of the set phrase, not a plain 'not'.","tgt":"ব্যঞ্জনে শেষ ধাতু 앉 + 으면 안 돼요। এখানে 안 বাঁধা বাক্যাংশের অংশ, সাধারণ 'না' নয়।"}
+{"f":"lessons","id":"office","k":"title","src":"33 · Office Korean","tgt":"33 · অফিসের কোরিয়ান"}
+{"f":"lessons","id":"office","k":"blurb","src":"Titles, the 수고 family, email openers and closers, and surviving 회식.","tgt":"উপাধি, 수고 পরিবারের বাক্য, ইমেইলের শুরু আর শেষ, আর 회식 সামলানো।"}
+{"f":"sentences","id":"ko.s0286","k":"gloss","src":"Keep up the good work (to someone still working, as you leave)","tgt":"কাজ ভালো চলুক (যিনি কাজে থাকছেন তাঁকে, বেরোনোর সময়)"}
+{"f":"sentences","id":"ko.s0287","k":"gloss","src":"Good work today (to a senior, after work)","tgt":"অনেক খেটেছেন, ধন্যবাদ (সিনিয়রকে, কাজ শেষে)"}
+{"f":"sentences","id":"ko.s0288","k":"gloss","src":"Good work (to a junior or peer)","tgt":"ভালো খেটেছেন (জুনিয়র বা সমপদের কাউকে)"}
+{"f":"sentences","id":"ko.s0300","k":"gloss","src":"Hello, this is @@ from the marketing team","tgt":"হ্যালো, আমি মার্কেটিং টিমের @@"}
+{"f":"sentences","id":"ko.s0290","k":"gloss","src":"I'm writing about the report","tgt":"রিপোর্টটির ব্যাপারে যোগাযোগ করছি"}
+{"f":"sentences","id":"ko.s0291","k":"gloss","src":"Please take a look","tgt":"অনুগ্রহ করে একবার দেখে নেবেন"}
+{"f":"sentences","id":"ko.s0301","k":"gloss","src":"Thank you. @@","tgt":"ধন্যবাদ। ইতি, @@"}
+{"f":"sentences","id":"ko.s0293","k":"gloss","src":"Please have a drink (pouring for a senior)","tgt":"এক গ্লাস নিন (সিনিয়রকে ঢেলে দিতে দিতে)"}
+{"f":"sentences","id":"ko.s0294","k":"gloss","src":"I have to drive, so (no thanks)","tgt":"আমাকে গাড়ি চালাতে হবে, তাই (না, ধন্যবাদ)"}
+{"f":"checks","id":"office.k1","k":"q","src":"You're leaving; a coworker at your level is still working. You say:","tgt":"আপনি বেরোচ্ছেন; আপনার সমপদের এক সহকর্মী তখনো কাজ করছেন। বলবেন:"}
+{"f":"checks","id":"office.k1","k":"why","src":"수고하세요 = keep up the good work (they stay).","tgt":"수고하세요 = কাজ ভালো চলুক (তিনি থাকছেন)।"}
+{"f":"checks","id":"office.k2","k":"q","src":"Address a manager named 김민수 as:","tgt":"김민수 নামের ম্যানেজারকে ডাকবেন:"}
+{"f":"checks","id":"office.k2","k":"why","src":"Title + 님, not the name.","tgt":"উপাধি + 님, নাম নয়।"}
+{"f":"checks","id":"office.k3","k":"q","src":"Politely declining a drink at 회식:","tgt":"অফিসের ডিনারে (회식) ভদ্রভাবে পানীয় ফিরিয়ে দিতে:"}
+{"f":"checks","id":"office.k3","k":"why","src":"Give a reason; 운전 is the universal one.","tgt":"একটা কারণ বলুন; 운전 (গাড়ি চালানো) সবাই মেনে নেয়।"}
+{"f":"practice","id":"office.01","k":"q","src":"Leaving while a coworker is still working, you say:","tgt":"সহকর্মী তখনো কাজ করছেন, আপনি বেরোচ্ছেন। বলবেন:"}
+{"f":"practice","id":"office.01","k":"why","src":"수고하세요 = keep up the good work, to someone who stays.","tgt":"수고하세요 = কাজ ভালো চলুক, যিনি থাকছেন তাঁকে।"}
+{"f":"practice","id":"office.02","k":"q","src":"To your manager at the end of the day:","tgt":"দিনের শেষে আপনার ম্যানেজারকে:"}
+{"f":"practice","id":"office.02","k":"why","src":"수고했어요 is for juniors or peers; seniors get 수고하셨습니다.","tgt":"수고했어요 জুনিয়র বা সমপদের জন্য; সিনিয়রদের বলা হয় 수고하셨습니다।"}
+{"f":"practice","id":"office.03","k":"q","src":"How do you address your manager (과장)?","tgt":"আপনার ম্যানেজারকে (과장) কীভাবে ডাকবেন?"}
+{"f":"practice","id":"office.03","k":"why","src":"Titles always take 님.","tgt":"উপাধির সাথে সবসময় 님।"}
+{"f":"practice","id":"office.04","k":"q","src":"The standard email closer 'Please take a look':","tgt":"ইমেইলের শেষের চেনা লাইন 'অনুগ্রহ করে একবার দেখে নেবেন':"}
+{"f":"practice","id":"office.04","k":"why","src":"부탁드립니다 = I humbly ask.","tgt":"부탁드립니다 = বিনীতভাবে অনুরোধ করছি।"}
+{"f":"practice","id":"office.05","k":"q","src":"Signing an email as @@:","tgt":"ইমেইলের শেষে নিজের নাম (@@) লিখবেন এভাবে:"}
+{"f":"practice","id":"office.05","k":"why","src":"드림 goes after your own name; never 씨 or 님 for yourself.","tgt":"드림 বসে নিজের নামের পরে, অনেকটা বাংলা চিঠির 'ইতি'-র মতো; নিজের জন্য কখনো 씨 বা 님 নয়।"}
+{"f":"practice","id":"office.06","k":"p","src":"I'll head out first (to the room)","tgt":"আমি আগে বেরোচ্ছি (অফিসের সবাইকে)"}
+{"f":"practice","id":"office.06","k":"why","src":"먼저 퇴근하겠습니다 is the set phrase.","tgt":"먼저 퇴근하겠습니다 একটি বাঁধা বাক্য।"}
+{"f":"practice","id":"office.07","k":"p","src":"What time is the meeting?","tgt":"মিটিং কয়টায়?"}
+{"f":"practice","id":"office.07","k":"why","src":"몇 시예요? = what time is it?","tgt":"몇 시예요? = কয়টায়?"}
+{"f":"practice","id":"office.08","k":"p","src":"Hello, this is @@ from the marketing team","tgt":"হ্যালো, আমি মার্কেটিং টিমের @@"}
+{"f":"practice","id":"office.08","k":"why","src":"Team, then your name + 입니다. No 님 for yourself.","tgt":"আগে টিম, তারপর নিজের নাম + 입니다। নিজের জন্য 님 নয়।"}
+{"f":"practice","id":"office.09","k":"p","src":"Please take a look (email)","tgt":"অনুগ্রহ করে একবার দেখে নেবেন (ইমেইল)"}
+{"f":"practice","id":"office.09","k":"why","src":"부탁드립니다 = (I) humbly request.","tgt":"부탁드립니다 = বিনীতভাবে অনুরোধ করছি।"}
+{"f":"practice","id":"office.10","k":"p","src":"Good work today (to a senior, after work)","tgt":"অনেক খেটেছেন, ধন্যবাদ (সিনিয়রকে, কাজ শেষে)"}
+{"f":"practice","id":"office.10","k":"why","src":"Seniors get the honorific past: 수고하셨습니다.","tgt":"সিনিয়রদের জন্য সম্মানসূচক অতীত: 수고하셨습니다।"}
+{"f":"practice","id":"office.11","k":"p","src":"Manager, could you check this?","tgt":"ম্যানেজার, এটা একটু দেখে দেবেন?"}
+{"f":"practice","id":"office.11","k":"why","src":"Titles always take 님.","tgt":"উপাধির সাথে সবসময় 님।"}
+{"f":"practice","id":"office.12","k":"p","src":"To your team lead after work: 'Good work today'","tgt":"কাজ শেষে টিম লিডারকে: 'অনেক খেটেছেন, ধন্যবাদ' (সম্মানসূচক)"}
+{"f":"practice","id":"office.12","k":"why","src":"Title + 님, then the senior form 수고하셨습니다.","tgt":"উপাধি + 님, তারপর সিনিয়রদের রূপ 수고하셨습니다।"}
+{"f":"practice","id":"office.13","k":"p","src":"Leaving before your boss: 'I'll head out first'","tgt":"বসের আগে বেরোচ্ছেন: 'আমি আগে বেরোচ্ছি'"}
+{"f":"practice","id":"office.13","k":"why","src":"Say it clearly to the room.","tgt":"অফিসের সবাইকে স্পষ্ট করে বলুন।"}
+{"f":"practice","id":"office.14","k":"p","src":"Manager, could you check this? (very polite)","tgt":"ম্যানেজার, এটা একটু দেখে দেবেন? (খুব ভদ্র)"}
+{"f":"practice","id":"office.14","k":"why","src":"Title + 님, then -아/어 주시겠어요 from the requests lesson.","tgt":"উপাধি + 님, তারপর পাঠ 32-এর -아/어 주시겠어요।"}

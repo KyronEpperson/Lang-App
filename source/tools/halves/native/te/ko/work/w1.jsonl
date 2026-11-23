@@ -322,7 +322,7 @@
 {"f":"cards","id":"ko.c0032","k":"meaning","src":"wa","tgt":"wa: దాదాపు \"వా\""}
 {"f":"cards","id":"ko.c0032","k":"note","src":"ㅗ + ㅏ. 과일 = fruit, 와요 = come.","tgt":"ㅗ + ㅏ. 과일 = పండు, 와요 = వస్తున్నాను."}
 {"f":"cards","id":"ko.c0033","k":"meaning","src":"wo","tgt":"wo: \"వ\" + eo శబ్దం (\"వో\" కాదు)"}
-{"f":"cards","id":"ko.c0033","k":"note","src":"ㅜ + ㅓ. 원 = won, 뭐 = what.","tgt":"ㅜ + ㅓ. 원 = వోన్ (కొరియా డబ్బు), 뭐 = ఏమిటి."}
+{"f":"cards","id":"ko.c0033","k":"note","src":"ㅜ + ㅓ. 원 = won, 뭐 = what.","tgt":"ㅜ + ㅓ. 원 = కొరియా డబ్బు, 뭐 = ఏమిటి."}
 {"f":"cards","id":"ko.c0034","k":"meaning","src":"we","tgt":"oe: ఇప్పుడు దాదాపు \"వే\""}
 {"f":"cards","id":"ko.c0034","k":"note","src":"ㅗ + ㅣ. 회사 = company, 외국 = foreign country.","tgt":"ㅗ + ㅣ. 회사 = కంపెనీ, 외국 = విదేశం."}
 {"f":"cards","id":"ko.c0035","k":"meaning","src":"wi","tgt":"wi: దాదాపు \"వీ\""}
@@ -344,7 +344,7 @@
 {"f":"cards","id":"ko.c0043","k":"meaning","src":"final consonant","tgt":"చివరి హల్లు"}
 {"f":"cards","id":"ko.c0043","k":"note","src":"Only 7 sounds survive at the end of a syllable: k, n, t, l, m, p, ng. 옷 sounds like 'ot', 꽃 like 'kkot'.","tgt":"అక్షరం చివర 7 శబ్దాలే మిగులుతాయి: k, n, t, l, m, p, ng. 옷 దాదాపు \"ఓత్\", 꽃 = kkot (\"త్\" తో ఆగుతుంది); చివర \"ఉ\" చేర్చకండి.","rw":"English sound comparison (\"sounds like …\")"}
 {"f":"cards","id":"ko.c0044","k":"meaning","src":"soft s vs tense s","tgt":"మెత్తని స, గట్టి స"}
-{"f":"cards","id":"ko.c0044","k":"note","src":"살 (sal, flesh) vs 쌀 (ssal, rice). Tense = tighter throat, no air puff.","tgt":"살 (sal, మాంసం) vs 쌀 (ssal, బియ్యం). గట్టి = గొంతు బిగించి, గాలి ఊదకుండా."}
+{"f":"cards","id":"ko.c0044","k":"note","src":"살 (sal, flesh) vs 쌀 (ssal, rice). Tense = tighter throat, no air puff.","tgt":"살 (sal, మాంసం) / 쌀 (ssal, బియ్యం). గట్టి = గొంతు బిగించి, గాలి ఊదకుండా."}
 {"f":"cards","id":"ko.c0045","k":"meaning","src":"g · kk · k (k-row: plain, tense, aspirated)","tgt":"g · kk · k (క-వరుస: సాదా, గట్టి, మహాప్రాణ)"}
 {"f":"cards","id":"ko.c0045","k":"note","src":"가 ga / 까 kka / 카 ka. Aspirated = big puff of air; tense = none, tight.","tgt":"가 ga / 까 kka / 카 ka. మహాప్రాణం = \"ఖ\" లాగా బాగా గాలి; గట్టి = మామూలు \"క\", గాలి లేదు, గొంతు బిగుతు."}
 {"f":"cards","id":"ko.c0046","k":"meaning","src":"d · tt · t (t-row: plain, tense, aspirated)","tgt":"d · tt · t (త-వరుస: సాదా, గట్టి, మహాప్రాణ)"}
@@ -370,7 +370,7 @@
 {"f":"cards","id":"ko.c0056","k":"meaning","src":"same sound in modern Seoul","tgt":"ఇప్పటి సియోల్లో ఒకే శబ్దం"}
 {"f":"cards","id":"ko.c0056","k":"note","src":"개 and 게 sound identical; context decides.","tgt":"개, 게 ఒకేలా వినిపిస్తాయి; సందర్భమే తేలుస్తుంది."}
 {"f":"cards","id":"ko.c0057","k":"meaning","src":"the two 'o's","tgt":"రెండు రకాల \"ఒ\""}
-{"f":"cards","id":"ko.c0057","k":"note","src":"ㅓ = jaw open, lips relaxed (uh). ㅗ = lips round (oh). 서울 vs 소울.","tgt":"ㅓ = దవడ తెరిచి, పెదవులు వదులుగా (గుండ్రం కాదు). ㅗ = పెదవులు గుండ్రంగా (\"ఓ\"). 서울 vs 소울.","rw":"English-spelling sound hint in brackets"}
+{"f":"cards","id":"ko.c0057","k":"note","src":"ㅓ = jaw open, lips relaxed (uh). ㅗ = lips round (oh). 서울 vs 소울.","tgt":"ㅓ = దవడ తెరిచి, పెదవులు వదులుగా (గుండ్రం కాదు). ㅗ = పెదవులు గుండ్రంగా (\"ఓ\"). 서울, 소울 పోల్చి చూడండి.","rw":"English-spelling sound hint in brackets"}
 {"f":"cards","id":"ko.c0058","k":"meaning","src":"lips flat, tongue back","tgt":"పెదవులు చాపి, నాలుక వెనక్కి"}
 {"f":"cards","id":"ko.c0058","k":"note","src":"No English match. Say 'oo' while smiling. 음, 그, 는.","tgt":"తెలుగులో దీనికి అక్షరం లేదు. నవ్వుతూ \"ఉ\" అనండి. 음, 그, 는.","rw":"says English lacks the sound/feature"}
 {"f":"cards","id":"ko.c0059","k":"meaning","src":"questions rise, statements fall","tgt":"ప్రశ్నలో గొంతు పైకి, మామూలు వాక్యంలో కిందికి"}
@@ -417,7 +417,7 @@
 {"f":"cards","id":"ko.c0079","k":"note","src":"Native number + 살. 스물다섯 살 = 25.","tgt":"అచ్చ కొరియన్ సంఖ్య + 살. 스물다섯 살 = 25 ఏళ్ళు."}
 {"f":"cards","id":"ko.c0080","k":"meaning","src":"What do you do?","tgt":"మీరు ఏం పని చేస్తారు?"}
 {"f":"cards","id":"ko.c0080","k":"note","src":"일 = work. 직업이 뭐예요? also works.","tgt":"일 = పని. 직업이 뭐예요? అన్నా సరిపోతుంది."}
-{"f":"cards","id":"ko.c0081","k":"meaning","src":"I'm an office worker","tgt":"నేను ఆఫీసు ఉద్యోగిని"}
+{"f":"cards","id":"ko.c0081","k":"meaning","src":"I'm an office worker","tgt":"నేను ఆఫీసులో ఉద్యోగం చేస్తాను"}
 {"f":"cards","id":"ko.c0081","k":"note","src":"학생 student, 선생님 teacher, 개발자 developer, 간호사 nurse.","tgt":"학생 స్టూడెంట్, 선생님 టీచర్, 개발자 డెవలపర్, 간호사 నర్సు."}
 {"f":"cards","id":"ko.c0082","k":"meaning","src":"I'm studying Korean","tgt":"నేను కొరియన్ నేర్చుకుంటున్నాను"}
 {"f":"cards","id":"ko.c0082","k":"note","src":"공부하다 = to study. Say this and people light up.","tgt":"공부하다 = చదువుకోవడం. ఇది చెబితే కొరియన్ల ముఖం వెలిగిపోతుంది."}
@@ -470,7 +470,7 @@
 {"f":"cards","id":"ko.c0105","k":"meaning","src":"Is there toilet paper?","tgt":"టాయిలెట్ పేపర్ ఉందా?"}
 {"f":"cards","id":"ko.c0105","k":"note","src":"휴지 = tissue/toilet paper. Carry some anyway.","tgt":"휴지 = టిష్యూ / టాయిలెట్ పేపర్. అయినా మీ దగ్గర కొంత ఉంచుకోండి."}
 {"f":"cards","id":"ko.c0106","k":"meaning","src":"Where's a convenience store?","tgt":"కన్వీనియన్స్ స్టోర్ ఎక్కడ?"}
-{"f":"cards","id":"ko.c0106","k":"note","src":"GS25, CU, 세븐일레븐. There's always one.","tgt":"GS25, CU, 세븐일레븐. ఎక్కడైనా ఒకటి దగ్గర్లోనే ఉంటుంది."}
+{"f":"cards","id":"ko.c0106","k":"note","src":"GS25, CU, 세븐일레븐. There's always one.","tgt":"జీఎస్25, సీయూ, 세븐일레븐. ఎక్కడైనా ఒకటి దగ్గర్లోనే ఉంటుంది."}
 {"f":"cards","id":"ko.c0107","k":"meaning","src":"Where's the nearest station?","tgt":"దగ్గరలోని స్టేషన్ ఎక్కడ?"}
 {"f":"cards","id":"ko.c0107","k":"note","src":"제일 가까운 = the nearest.","tgt":"제일 가까운 = అన్నిటికంటే దగ్గరగా ఉన్న."}
 {"f":"cards","id":"ko.c0108","k":"meaning","src":"Where's the exit?","tgt":"ఎగ్జిట్ ఎక్కడ?"}
@@ -567,7 +567,7 @@
 {"f":"cards","id":"ko.c0153","k":"note","src":"Subway lines: 호선 with Sino numbers. 9호선 = guhoseon.","tgt":"మెట్రో లైన్లు: సైనో-కొరియన్ సంఖ్య + 호선. 9호선 = guhoseon."}
 {"f":"cards","id":"ko.c0154","k":"meaning","src":"Exit 4","tgt":"4వ ఎగ్జిట్"}
 {"f":"cards","id":"ko.c0154","k":"note","src":"번 = number. 몇 번 출구? = which exit?","tgt":"번 = నంబర్. 몇 번 출구? = ఎన్నో ఎగ్జిట్?"}
-{"f":"cards","id":"ko.c0155","k":"meaning","src":"2 people","tgt":"ఇద్దరు మనుషులు"}
+{"f":"cards","id":"ko.c0155","k":"meaning","src":"2 people","tgt":"ఇద్దరం"}
 {"f":"cards","id":"ko.c0155","k":"note","src":"명 = person counter, native: 한 명, 두 명, 세 명, 네 명.","tgt":"명 = మనుషులకు కౌంటర్, అచ్చ కొరియన్: 한 명, 두 명, 세 명, 네 명. మన \"ఇద్దరు, ముగ్గురు\" లాంటిదే."}
 {"f":"cards","id":"ko.c0156","k":"meaning","src":"3 bottles of beer","tgt":"3 బీరు సీసాలు"}
 {"f":"cards","id":"ko.c0156","k":"note","src":"병 = bottle, native number. 잔 = glass.","tgt":"병 = సీసా, అచ్చ కొరియన్ సంఖ్య. 잔 = గ్లాసు."}
@@ -651,7 +651,7 @@
 {"f":"cards","id":"ko.c0195","k":"note","src":"설레다 = the butterflies feeling. Very K-drama.","tgt":"설레다 = కడుపులో సీతాకోకచిలుకలు ఎగిరినట్టు ఉండే భావన. పక్కా K-డ్రామా."}
 {"f":"cards","id":"ko.c0196","k":"meaning","src":"I'm annoyed","tgt":"నాకు చిరాకుగా ఉంది"}
 {"f":"cards","id":"ko.c0196","k":"note","src":"짜증 = irritation. 짜증 나! casual.","tgt":"짜증 = చిరాకు. 짜증 나! సాధారణ."}
-{"f":"cards","id":"ko.c0197","k":"meaning","src":"and (then)","tgt":"ఇంకా, ఆ తర్వాత"}
+{"f":"cards","id":"ko.c0197","k":"meaning","src":"and (then)","tgt":"మరియు / ఇంకా"}
 {"f":"cards","id":"ko.c0197","k":"note","src":"Joins sentences. 밥 먹었어요. 그리고 커피 마셨어요.","tgt":"వాక్యాలను కలుపుతుంది. 밥 먹었어요. 그리고 커피 마셨어요."}
 {"f":"cards","id":"ko.c0198","k":"meaning","src":"so / therefore","tgt":"అందుకే / కాబట్టి"}
 {"f":"cards","id":"ko.c0198","k":"note","src":"비가 왔어요. 그래서 집에 있었어요.","tgt":"비가 왔어요. 그래서 집에 있었어요.","pre":1}
@@ -742,7 +742,7 @@
 {"f":"cards","id":"ko.c0241","k":"meaning","src":"contract","tgt":"ఒప్పంద పత్రం"}
 {"f":"cards","id":"ko.c0241","k":"note","src":"계약 = contract. 사인하다 = to sign.","tgt":"계약 = ఒప్పందం. 사인하다 = సంతకం చేయడం."}
 {"f":"cards","id":"ko.c0242","k":"meaning","src":"I send parcels from the convenience store","tgt":"నేను కన్వీనియన్స్ స్టోర్ నుంచి పార్సిళ్ళు పంపుతాను"}
-{"f":"cards","id":"ko.c0242","k":"note","src":"GS25/CU have parcel counters. Cheap and easy.","tgt":"GS25/CU లలో పార్సిల్ కౌంటర్లు ఉంటాయి. చౌక, సులువు."}
+{"f":"cards","id":"ko.c0242","k":"note","src":"GS25/CU have parcel counters. Cheap and easy.","tgt":"జీఎస్25, సీయూ లలో పార్సిల్ కౌంటర్లు ఉంటాయి. చౌక, సులువు."}
 {"f":"cards","id":"ko.c0243","k":"meaning","src":"please eat (honorific)","tgt":"తీసుకోండి (గౌరవ: తినండి / తాగండి)"}
 {"f":"cards","id":"ko.c0243","k":"note","src":"드시다 = honorific of 먹다/마시다. 맛있게 드세요 = enjoy your meal.","tgt":"드시다 = 먹다/마시다 కి గౌరవ రూపం. 맛있게 드세요 = బాగా తినండి."}
 {"f":"cards","id":"ko.c0244","k":"meaning","src":"please sleep (honorific)","tgt":"నిద్రపోండి (గౌరవ)"}
@@ -794,7 +794,7 @@
 {"f":"cards","id":"ko.c0267","k":"meaning","src":"bank","tgt":"బ్యాంకు"}
 {"f":"cards","id":"ko.c0267","k":"note","src":"Also means ginkgo — context decides.","tgt":"జింకో చెట్టు అని కూడా అర్థం; సందర్భమే తేలుస్తుంది."}
 {"f":"cards","id":"ko.c0268","k":"meaning","src":"convenience store","tgt":"కన్వీనియన్స్ స్టోర్"}
-{"f":"cards","id":"ko.c0268","k":"note","src":"GS25, CU, 세븐일레븐.","tgt":"GS25, CU, 세븐일레븐."}
+{"f":"cards","id":"ko.c0268","k":"note","src":"GS25, CU, 세븐일레븐.","tgt":"జీఎస్25, సీయూ, 세븐일레븐."}
 {"f":"cards","id":"ko.c0269","k":"meaning","src":"restaurant","tgt":"రెస్టారెంట్"}
 {"f":"cards","id":"ko.c0269","k":"note","src":"레스토랑 = Western-style restaurant.","tgt":"레스토랑 = పాశ్చాత్య తరహా రెస్టారెంట్."}
 {"f":"cards","id":"ko.c0270","k":"meaning","src":"market","tgt":"మార్కెట్ / సంత"}
@@ -802,7 +802,7 @@
 {"f":"cards","id":"ko.c0271","k":"meaning","src":"department store","tgt":"డిపార్ట్మెంట్ స్టోర్"}
 {"f":"cards","id":"ko.c0271","k":"note","src":"Lotte, Shinsegae, Hyundai.","tgt":"లొట్టే, షిన్సెగే, హ్యుందాయ్."}
 {"f":"cards","id":"ko.c0272","k":"meaning","src":"movie theater","tgt":"సినిమా హాలు"}
-{"f":"cards","id":"ko.c0272","k":"note","src":"CGV, 메가박스, 롯데시네마.","tgt":"CGV, 메가박스, 롯데시네마."}
+{"f":"cards","id":"ko.c0272","k":"note","src":"CGV, 메가박스, 롯데시네마.","tgt":"సీజీవీ, 메가박스, 롯데시네마."}
 {"f":"cards","id":"ko.c0273","k":"meaning","src":"park","tgt":"పార్కు"}
 {"f":"cards","id":"ko.c0273","k":"note","src":"한강공원 = Han River park.","tgt":"한강공원 = హాన్ నది పార్కు."}
 {"f":"cards","id":"ko.c0274","k":"meaning","src":"hotel","tgt":"హోటల్ (బస చేసేది)"}
@@ -839,7 +839,7 @@
 {"f":"cards","id":"ko.c0289","k":"note","src":"National pastime — expect full gear on easy trails.","tgt":"జాతీయ కాలక్షేపం: సులువైన దారుల్లోనూ జనం పూర్తి గేర్తో కనిపిస్తారు."}
 {"f":"cards","id":"ko.c0290","k":"meaning","src":"fishing","tgt":"చేపలు పట్టడం"}
 {"f":"cards","id":"ko.c0291","k":"meaning","src":"shopping","tgt":"షాపింగ్"}
-{"f":"cards","id":"ko.c0291","k":"note","src":"쇼핑해요 = I go shopping.","tgt":"쇼핑해요 = షాపింగ్ చేస్తాను."}
+{"f":"cards","id":"ko.c0291","k":"note","src":"쇼핑해요 = I go shopping.","tgt":"쇼핑해요 = షాపింగ్కి వెళ్తాను."}
 {"f":"cards","id":"ko.c0292","k":"meaning","src":"camping","tgt":"క్యాంపింగ్"}
 {"f":"cards","id":"ko.c0292","k":"note","src":"차박 = car camping.","tgt":"차박 = కారులోనే పడుకునే క్యాంపింగ్."}
 {"f":"cards","id":"ko.c0293","k":"meaning","src":"kimchi","tgt":"కిమ్చి"}
@@ -904,7 +904,7 @@
 {"f":"cards","id":"ko.c0324","k":"note","src":"얼음 빼 주세요 = no ice please.","tgt":"얼음 빼 주세요 = ఐస్ వేయకండి."}
 {"f":"cards","id":"ko.c0325","k":"meaning","src":"One more glass, please","tgt":"ఇంకో గ్లాసు ఇవ్వండి"}
 {"f":"cards","id":"ko.c0325","k":"note","src":"잔 is the counter for glasses/cups.","tgt":"잔 = గ్లాసులు, కప్పులకు కౌంటర్."}
-{"f":"cards","id":"ko.c0326","k":"meaning","src":"cheers (formal vs casual)","tgt":"చీర్స్ (అధికారిక vs సాధారణ)"}
+{"f":"cards","id":"ko.c0326","k":"meaning","src":"cheers (formal vs casual)","tgt":"చీర్స్ (అధికారిక / సాధారణ)"}
 {"f":"cards","id":"ko.c0326","k":"note","src":"짠! among friends; 건배 at dinners.","tgt":"ఫ్రెండ్స్ మధ్య 짠!; విందుల్లో 건배."}
 {"f":"cards","id":"ko.c0327","k":"meaning","src":"I exercise","tgt":"నేను వ్యాయామం చేస్తాను"}
 {"f":"cards","id":"ko.c0327","k":"note","src":"운동하다.","tgt":"운동하다.","pre":1}
@@ -1035,8 +1035,8 @@
 {"f":"cards","id":"ko.c0391","k":"note","src":"Verb stem + 아/어 주세요 = please do X.","tgt":"క్రియా ధాతువు + 아/어 주세요 = ఫలానాది చేసి పెట్టండి."}
 {"f":"cards","id":"ko.c0392","k":"meaning","src":"love (사랑하다)","tgt":"ప్రేమిస్తున్నాను (사랑하다)"}
 {"f":"cards","id":"ko.c0392","k":"note","src":"Casual: 사랑해.","tgt":"సాధారణ: 사랑해."}
-{"f":"cards","id":"ko.c0393","k":"meaning","src":"topic marker ('as for...')","tgt":"విషయ పార్టికల్ (\"…అయితే\", \"… విషయానికొస్తే\")"}
-{"f":"cards","id":"ko.c0393","k":"note","src":"은 after consonant, 는 after vowel. 저는 = as for me.","tgt":"చివరి హల్లు తర్వాత 은, అచ్చు తర్వాత 는. 저는 = నా విషయానికొస్తే / నేను."}
+{"f":"cards","id":"ko.c0393","k":"meaning","src":"topic marker ('as for...')","tgt":"విషయ పార్టికల్ (వాక్యం దేని గురించో చెప్పే గుర్తు)"}
+{"f":"cards","id":"ko.c0393","k":"note","src":"은 after consonant, 는 after vowel. 저는 = as for me.","tgt":"చివరి హల్లు తర్వాత 은, అచ్చు తర్వాత 는. 저는 = నా విషయానికొస్తే / నేను. తెలుగు \"అయితే\" దీనికి దగ్గరగా ఉంటుంది, కానీ 은/는 దాదాపు ప్రతి వాక్యంలో వస్తుంది."}
 {"f":"cards","id":"ko.c0394","k":"meaning","src":"subject marker","tgt":"కర్త పార్టికల్"}
 {"f":"cards","id":"ko.c0394","k":"note","src":"이 after consonant, 가 after vowel. 비가 와요 = rain is falling.","tgt":"చివరి హల్లు తర్వాత 이, అచ్చు తర్వాత 가. 비가 와요 = వర్షం పడుతోంది."}
 {"f":"cards","id":"ko.c0395","k":"meaning","src":"object marker","tgt":"కర్మ పార్టికల్"}
@@ -1307,7 +1307,7 @@
 {"f":"cards","id":"ko.c0527","k":"note","src":"셀카 = selfie. 찍다 = to take (photo).","tgt":"셀카 = సెల్ఫీ. 찍다 = (ఫోటో) తీయడం."}
 {"f":"cards","id":"ko.c0528","k":"meaning","src":"What are we?","tgt":"మన మధ్య ఉన్నది ఏమిటి?"}
 {"f":"cards","id":"ko.c0528","k":"note","src":"사이 = relationship between people. The DTR line.","tgt":"사이 = మనుషుల మధ్య సంబంధం. బంధానికి పేరు పెట్టే ప్రశ్న."}
-{"f":"cards","id":"ko.c0529","k":"meaning","src":"I want to date seriously","tgt":"నేను సీరియస్గా డేట్ చేయాలనుకుంటున్నాను"}
+{"f":"cards","id":"ko.c0529","k":"meaning","src":"I want to date seriously","tgt":"నాకు సీరియస్గా డేట్ చేయాలని ఉంది"}
 {"f":"cards","id":"ko.c0529","k":"note","src":"진지하다 = serious.","tgt":"진지하다 = సీరియస్గా ఉండటం."}
 {"f":"cards","id":"ko.c0530","k":"meaning","src":"You're really warm-hearted","tgt":"నువ్వు చాలా ఆప్యాయంగా ఉంటావు"}
 {"f":"cards","id":"ko.c0530","k":"note","src":"다정하다 = affectionate, kind. Compliment beyond looks.","tgt":"다정하다 = ఆప్యాయంగా, దయగా ఉండటం. అందానికి మించిన పొగడ్త."}
@@ -1560,7 +1560,7 @@
 {"f":"cards","id":"ko.c0657","k":"meaning","src":"child","tgt":"బిడ్డ"}
 {"f":"cards","id":"ko.c0657","k":"note","src":"Spoken: 애. Polite for someone's child: 아드님 / 따님.","tgt":"మాటల్లో: 애. ఇతరుల బిడ్డకు మర్యాదగా: 아드님 / 따님."}
 {"f":"cards","id":"ko.c0658","k":"meaning","src":"time; hours","tgt":"సమయం; గంటలు"}
-{"f":"cards","id":"ko.c0658","k":"note","src":"시간 있어요? = are you free? Counted: 두 시간 = two hours.","tgt":"시간 있어요? = ఖాళీగా ఉన్నారా? లెక్కిస్తే: 두 시간 = రెండు గంటలు."}
+{"f":"cards","id":"ko.c0658","k":"note","src":"시간 있어요? = are you free? Counted: 두 시간 = two hours.","tgt":"시간 있어요? = మీకు టైం ఉందా? లెక్కిస్తే: 두 시간 = రెండు గంటలు."}
 {"f":"cards","id":"ko.c0659","k":"meaning","src":"mother (respectful)","tgt":"తల్లి (గౌరవంగా)"}
 {"f":"cards","id":"ko.c0659","k":"note","src":"Family talk: 엄마. Someone else's: 어머님.","tgt":"ఇంట్లో: 엄마. ఇతరుల తల్లి: 어머님."}
 {"f":"cards","id":"ko.c0660","k":"meaning","src":"next; next time","tgt":"తర్వాతి; ఇంకోసారి"}

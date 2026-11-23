@@ -42,8 +42,8 @@
 {"f":"cards","id":"ko.c0735","k":"note","src":"선물이에요 = it's a present for you.","tgt":"선물이에요 = এটা আপনার জন্য উপহার।"}
 {"f":"cards","id":"ko.c0736","k":"meaning","src":"subway","tgt":"পাতাল রেল (মেট্রো)"}
 {"f":"cards","id":"ko.c0736","k":"note","src":"지하철로 가요 = I go by subway.","tgt":"지하철로 가요 = আমি মেট্রোতে যাই।"}
-{"f":"cards","id":"ko.c0737","k":"meaning","src":"weekend","tgt":"সপ্তাহান্ত; ছুটির দিন"}
-{"f":"cards","id":"ko.c0737","k":"note","src":"주말 잘 보내세요 = have a good weekend.","tgt":"주말 잘 보내세요 = ছুটির দিনগুলো ভালো কাটুক।"}
+{"f":"cards","id":"ko.c0737","k":"meaning","src":"weekend","tgt":"সপ্তাহান্ত"}
+{"f":"cards","id":"ko.c0737","k":"note","src":"주말 잘 보내세요 = have a good weekend.","tgt":"주말 잘 보내세요 = সপ্তাহান্তটা ভালো কাটুক।"}
 {"f":"cards","id":"ko.c0738","k":"meaning","src":"birthday","tgt":"জন্মদিন"}
 {"f":"cards","id":"ko.c0738","k":"note","src":"생일 축하해요 = happy birthday.","tgt":"생일 축하해요 = শুভ জন্মদিন।"}
 {"f":"cards","id":"ko.c0739","k":"meaning","src":"cat","tgt":"বিড়াল"}
@@ -129,7 +129,7 @@
 {"f":"cards","id":"ko.c0779","k":"meaning","src":"to ride; to get on","tgt":"চড়া (যানবাহনে); ওঠা"}
 {"f":"cards","id":"ko.c0779","k":"note","src":"타요. 버스를 타요 (을/를).","tgt":"타요. 버스를 타요 (을/를).","pre":1}
 {"f":"cards","id":"ko.c0780","k":"meaning","src":"to send; to spend (time)","tgt":"পাঠানো; (সময়) কাটানো"}
-{"f":"cards","id":"ko.c0780","k":"note","src":"보내요. 주말 잘 보내세요 = have a good weekend.","tgt":"보내요। 주말 잘 보내세요 = ছুটির দিনগুলো ভালো কাটুক।"}
+{"f":"cards","id":"ko.c0780","k":"note","src":"보내요. 주말 잘 보내세요 = have a good weekend.","tgt":"보내요। 주말 잘 보내세요 = সপ্তাহান্তটা ভালো কাটুক।"}
 {"f":"cards","id":"ko.c0781","k":"meaning","src":"to go regularly; to attend","tgt":"নিয়মিত যাওয়া; যাতায়াত করা"}
 {"f":"cards","id":"ko.c0781","k":"note","src":"다녀요. 회사에 다녀요 = I work at a company.","tgt":"다녀요। 회사에 다녀요 = আমি একটা কোম্পানিতে চাকরি করি।"}
 {"f":"cards","id":"ko.c0782","k":"meaning","src":"to open","tgt":"খোলা"}
@@ -171,7 +171,7 @@
 {"f":"cards","id":"ko.c0800","k":"meaning","src":"to cry","tgt":"কাঁদা"}
 {"f":"cards","id":"ko.c0800","k":"note","src":"울어요. ㄹ drops: 우세요, 우는 아이.","tgt":"울어요। ㄹ বাদ পড়ে: 우세요, 우는 아이।"}
 {"f":"cards","id":"ko.c0801","k":"meaning","src":"to get along; to spend days","tgt":"দিন কাটানো; মিলেমিশে থাকা"}
-{"f":"cards","id":"ko.c0801","k":"note","src":"지내요. 잘 지냈어요? = how have you been?","tgt":"지내요। 잘 지냈어요? = কেমন ছিলেন?"}
+{"f":"cards","id":"ko.c0801","k":"note","src":"지내요. 잘 지냈어요? = how have you been?","tgt":"지내요। 잘 지냈어요? = এতদিন কেমন ছিলেন?"}
 {"f":"cards","id":"ko.c0802","k":"meaning","src":"to sell","tgt":"বিক্রি করা"}
 {"f":"cards","id":"ko.c0802","k":"note","src":"팔아요. ㄹ drops: 파세요, 파는 곳.","tgt":"팔아요। ㄹ বাদ পড়ে: 파세요, 파는 곳।"}
 {"f":"cards","id":"ko.c0803","k":"meaning","src":"to be born","tgt":"জন্মানো"}
@@ -383,7 +383,7 @@
 {"f":"cards","id":"ko.c0906","k":"meaning","src":"very","tgt":"খুব"}
 {"f":"cards","id":"ko.c0906","k":"note","src":"Neutral. Spoken more: 정말, 진짜, 너무.","tgt":"নিরপেক্ষ শব্দ। মুখের কথায় বেশি: 정말, 진짜, 너무।"}
 {"f":"cards","id":"ko.c0907","k":"meaning","src":"just; for no reason","tgt":"এমনি; কোনো কারণ ছাড়া"}
-{"f":"cards","id":"ko.c0907","k":"note","src":"그냥요 = no reason; 그냥 그래요 = so-so.","tgt":"그냥요 = এমনি; 그냥 그래요 = মোটামুটি।"}
+{"f":"cards","id":"ko.c0907","k":"note","src":"그냥요 = no reason; 그냥 그래요 = so-so.","tgt":"그냥요 = এমনি; 그냥 그래요 = চলছে আর কি।"}
 {"f":"cards","id":"ko.c0908","k":"meaning","src":"almost; hardly","tgt":"প্রায়; প্রায় না"}
 {"f":"cards","id":"ko.c0908","k":"note","src":"거의 다 왔어요 = almost there; 거의 안 먹어요 = I hardly eat.","tgt":"거의 다 왔어요 = প্রায় পৌঁছে গেছি; 거의 안 먹어요 = প্রায় খাই-ই না।"}
 {"f":"cards","id":"ko.c0909","k":"meaning","src":"soon","tgt":"শিগগির; একটু পরেই"}
@@ -391,7 +391,7 @@
 {"f":"cards","id":"ko.c0910","k":"meaning","src":"each other","tgt":"পরস্পর; একে অপরকে"}
 {"f":"cards","id":"ko.c0910","k":"note","src":"서로 도와요 = we help each other.","tgt":"서로 도와요 = আমরা একে অপরকে সাহায্য করি।"}
 {"f":"cards","id":"ko.c0911","k":"meaning","src":"really; truly","tgt":"সত্যি; সত্যিই"}
-{"f":"cards","id":"ko.c0911","k":"note","src":"정말 맛있어요. 정말요? = really?","tgt":"정말 맛있어요। 정말요? = সত্যি?"}
+{"f":"cards","id":"ko.c0911","k":"note","src":"정말 맛있어요. 정말요? = really?","tgt":"정말 맛있어요। 정말요? = তাই নাকি?"}
 {"f":"cards","id":"ko.c0912","k":"meaning","src":"alone; by yourself","tgt":"একা"}
 {"f":"cards","id":"ko.c0912","k":"note","src":"혼자 왔어요 = I came alone.","tgt":"혼자 왔어요 = একা এসেছি।"}
 {"f":"cards","id":"ko.c0913","k":"meaning","src":"now (from now on); finally","tgt":"এখন (এখন থেকে); অবশেষে"}
@@ -557,7 +557,7 @@
 {"f":"cards","id":"ko.c0993","k":"meaning","src":"about; around (a time or amount)","tgt":"প্রায়; মোটামুটি (সময় বা পরিমাণ)"}
 {"f":"cards","id":"ko.c0993","k":"note","src":"세 시쯤 = around three; 얼마쯤 = about how much.","tgt":"세 시쯤 = তিনটার দিকে; 얼마쯤 = মোটামুটি কত।"}
 {"f":"cards","id":"ko.c0994","k":"meaning","src":"every; each","tgt":"প্রতি; প্রত্যেক"}
-{"f":"cards","id":"ko.c0994","k":"note","src":"날마다 = every day; 주말마다 = every weekend.","tgt":"날마다 = প্রতিদিন; 주말마다 = প্রতি ছুটির দিনে।"}
+{"f":"cards","id":"ko.c0994","k":"note","src":"날마다 = every day; 주말마다 = every weekend.","tgt":"날마다 = প্রতিদিন; 주말마다 = প্রতি সপ্তাহান্তে।"}
 {"f":"cards","id":"ko.c0995","k":"meaning","src":"hey (after a name, casual)","tgt":"এই (নামের পরে ডাক, ঘরোয়া)"}
 {"f":"cards","id":"ko.c0995","k":"note","src":"Consonant: 아 (민정아); vowel: 야 (지수야). Only to friends and younger people.","tgt":"ব্যঞ্জন: 아 (민정아); স্বর: 야 (지수야)। শুধু বন্ধু আর ছোটদের।"}
 {"f":"cards","id":"ko.c0996","k":"meaning","src":"subject marker (honorific)","tgt":"কর্তা পার্টিকল (সম্মানসূচক)"}
@@ -699,13 +699,13 @@
 {"f":"cards","id":"ko.c1064","k":"meaning","src":"every; all (before a noun)","tgt":"সব; প্রত্যেক (বিশেষ্যের আগে)"}
 {"f":"cards","id":"ko.c1064","k":"note","src":"모든 사람 = everyone.","tgt":"모든 사람 = সবাই।"}
 {"f":"cards","id":"ko.c1065","k":"meaning","src":"this (time); this coming","tgt":"এবার; এই আসছে"}
-{"f":"cards","id":"ko.c1065","k":"note","src":"이번 주말 = this weekend; 이번이 처음이에요.","tgt":"이번 주말 = এই ছুটির দিনে; 이번이 처음이에요।"}
+{"f":"cards","id":"ko.c1065","k":"note","src":"이번 주말 = this weekend; 이번이 처음이에요.","tgt":"이번 주말 = এই সপ্তাহান্তে; 이번이 처음이에요।"}
 {"f":"cards","id":"ko.c1066","k":"meaning","src":"how many; a few","tgt":"কয়টা; কয়েকটা"}
 {"f":"cards","id":"ko.c1066","k":"note","src":"몇 개? = how many? 몇 명 = a few people.","tgt":"몇 개? = কয়টা? 몇 명 = কয়েকজন।"}
 {"f":"cards","id":"ko.c1067","k":"meaning","src":"what (kind of) (before a noun)","tgt":"কী (ধরনের) (বিশেষ্যের আগে)"}
 {"f":"cards","id":"ko.c1067","k":"note","src":"무슨 일 있어요? = is something wrong?","tgt":"무슨 일 있어요? = কিছু হয়েছে?"}
 {"f":"cards","id":"ko.c1068","k":"meaning","src":"last; past (before a noun)","tgt":"গত (বিশেষ্যের আগে)"}
-{"f":"cards","id":"ko.c1068","k":"note","src":"지난 주말 = last weekend; 지난달 = last month.","tgt":"지난 주말 = গত ছুটির দিনে; 지난달 = গত মাস।"}
+{"f":"cards","id":"ko.c1068","k":"note","src":"지난 주말 = last weekend; 지난달 = last month.","tgt":"지난 주말 = গত সপ্তাহান্তে; 지난달 = গত মাস।"}
 {"f":"cards","id":"ko.c1069","k":"meaning","src":"new (before a noun)","tgt":"নতুন (বিশেষ্যের আগে)"}
 {"f":"cards","id":"ko.c1069","k":"note","src":"새 옷 = new clothes; 새해 = New Year.","tgt":"새 옷 = নতুন জামা; 새해 = নববর্ষ।"}
 {"f":"cards","id":"ko.c1070","k":"meaning","src":"that's right","tgt":"ঠিক বলেছেন"}
@@ -934,7 +934,7 @@
 {"f":"cards","id":"ko.c1181","k":"note","src":"Asking for the recipe is praise in itself.","tgt":"রেসিপি জানতে চাওয়াটাই একটা প্রশংসা।"}
 {"f":"cards","id":"ko.c1182","k":"meaning","src":"You're really good at this","tgt":"আপনি সত্যিই খুব ভালো পারেন"}
 {"f":"cards","id":"ko.c1182","k":"note","src":"For any skill. To elders, praise with -시- and no grading words.","tgt":"যেকোনো দক্ষতায়। বয়স্কদের -시- দিয়ে প্রশংসা করুন, নম্বর দেওয়ার মতো শব্দ ছাড়া।"}
-{"f":"cards","id":"ko.c1183","k":"meaning","src":"That's a good idea","tgt":"ভালো বুদ্ধি"}
+{"f":"cards","id":"ko.c1183","k":"meaning","src":"That's a good idea","tgt":"ভালো আইডিয়া"}
 {"f":"cards","id":"ko.c1183","k":"note","src":"To colleagues and friends. To a boss: 좋은 생각이신 것 같아요.","tgt":"সহকর্মী আর বন্ধুদের। বসকে: 좋은 생각이신 것 같아요।"}
 {"f":"cards","id":"ko.c1184","k":"meaning","src":"You're so thorough","tgt":"আপনি কত খুঁটিনাটি খেয়াল রাখেন"}
 {"f":"cards","id":"ko.c1184","k":"note","src":"A big compliment at work.","tgt":"অফিসে বড় প্রশংসা।"}
@@ -1238,78 +1238,78 @@
 {"f":"dialog","id":"ko.g007","k":"tr","src":"Are you okay? Hurt? / Yes, I'm fine.","tgt":"আপনি ঠিক আছেন? ব্যথা পেয়েছেন? / জি, ঠিক আছি।"}
 {"f":"dialog","id":"ko.g008","k":"tr","src":"Sorry, please speak slowly. / Ah, sure, I'll slow down.","tgt":"দুঃখিত, একটু আস্তে বলুন। / ও, জি। আস্তে বলছি।"}
 {"f":"dialog","id":"ko.g009","k":"tr","src":"Your Korean is good! / No, I'm still not good.","tgt":"আপনি তো খুব ভালো কোরিয়ান বলেন! / আরে না, এখনো ভালো পারি না।"}
-{"f":"dialog","id":"ko.g010","k":"tr","src":"Excuse me, coming through. / Go ahead.","tgt":"এক মিনিট, একটু যেতে দিন। / জি, যান।"}
-{"f":"dialog","id":"ko.g011","k":"tr","src":"Excuse me! The menu, please. / Yes, one moment.","tgt":"শুনছেন! মেনুটা একটু দিন। / জি, এক মিনিট।"}
+{"f":"dialog","id":"ko.g010","k":"tr","src":"Excuse me, coming through. / Go ahead.","tgt":"একটু যেতে দিন, পার হচ্ছি। / জি, যান।"}
+{"f":"dialog","id":"ko.g011","k":"tr","src":"Excuse me! The menu, please. / Yes, one moment.","tgt":"শুনছেন! মেনুটা একটু দিন। / জি, একটু অপেক্ষা করুন।"}
 {"f":"dialog","id":"ko.g012","k":"tr","src":"Excuse me, please help me. / Sure, what do you need?","tgt":"শুনছেন, একটু সাহায্য করুন। / জি, আপনার কী লাগবে?"}
 {"f":"dialog","id":"ko.g013","k":"tr","src":"Sorry, say that again please. / The subway station is on the left.","tgt":"দুঃখিত, আরেকবার বলুন। / মেট্রো স্টেশনটা বাঁ দিকে।"}
 {"f":"dialog","id":"ko.g014","k":"tr","src":"Can you speak English? / A little. I'll speak slowly.","tgt":"আপনি কি ইংরেজি বলতে পারেন? / একটু একটু। আমি আস্তে বলব।","rw":"mentions English"}
 {"f":"dialog","id":"ko.g015","k":"tr","src":"What is this? / Tteokbokki. It's a bit spicy.","tgt":"এটা কী? / তকবোকি। একটু ঝাল।"}
-{"f":"dialog","id":"ko.g016","k":"tr","src":"Do you take cards? / Yes. Insert it here.","tgt":"কার্ডে হবে? / জি, হবে। এখানে ঢোকান।"}
+{"f":"dialog","id":"ko.g016","k":"tr","src":"Do you take cards? / Yes. Insert it here.","tgt":"কার্ডে দেওয়া যায়? / জি, যায়। এখানে ঢোকান।"}
 {"f":"dialog","id":"ko.g017","k":"tr","src":"What's the wifi password? / It's on the receipt.","tgt":"ওয়াইফাইয়ের পাসওয়ার্ড কী? / রসিদে লেখা আছে।"}
-{"f":"dialog","id":"ko.g018","k":"tr","src":"I'm lost. Where is this? / This is Hongdae. Where are you going?","tgt":"আমি পথ হারিয়ে ফেলেছি। এটা কোন জায়গা? / এটা হোংদে। আপনি কোথায় যাচ্ছেন?"}
+{"f":"dialog","id":"ko.g018","k":"tr","src":"I'm lost. Where is this? / This is Hongdae. Where are you going?","tgt":"আমি পথ হারিয়েছি। এটা কোন জায়গা? / এটা হোংদে। আপনি কোথায় যাচ্ছেন?"}
 {"f":"dialog","id":"ko.g019","k":"tr","src":"What's your name? / I'm @@. What's yours?","tgt":"আপনার নাম কী? / আমি @@। আপনার নাম কী?"}
-{"f":"dialog","id":"ko.g020","k":"tr","src":"Nice to meet you. / Nice to meet you too.","tgt":"আপনার সাথে দেখা হয়ে ভালো লাগল। / আমারও ভালো লাগল।"}
+{"f":"dialog","id":"ko.g020","k":"tr","src":"Nice to meet you. / Nice to meet you too.","tgt":"দেখা হয়ে ভালো লাগল। / আমারও ভালো লাগল।"}
 {"f":"dialog","id":"ko.g021","k":"tr","src":"Where are you from? / From the Philippines. Cebu.","tgt":"আপনি কোথা থেকে এসেছেন? / ফিলিপাইন থেকে এসেছি। সেবু।"}
 {"f":"dialog","id":"ko.g022","k":"tr","src":"Excuse me, how old are you? / 28. And you?","tgt":"মাফ করবেন, আপনার বয়স কত? / আটাশ। আপনার?"}
-{"f":"dialog","id":"ko.g023","k":"tr","src":"What do you do? / I work at an IT company.","tgt":"আপনি কী কাজ করেন? / একটা আইটি কোম্পানিতে কাজ করি।"}
+{"f":"dialog","id":"ko.g023","k":"tr","src":"What do you do? / I work at an IT company.","tgt":"আপনি কী করেন? / একটা আইটি কোম্পানিতে কাজ করি।"}
 {"f":"dialog","id":"ko.g024","k":"tr","src":"Do you study Korean? / Yes, a little every day.","tgt":"আপনি কোরিয়ান শেখেন? / জি, প্রতিদিন একটু একটু করে।"}
 {"f":"dialog","id":"ko.g025","k":"tr","src":"What's your hobby? / Running and music.","tgt":"আপনার শখ কী? / দৌড়ানো আর গান।"}
-{"f":"dialog","id":"ko.g026","k":"tr","src":"Long time no see! How've you been? / Good, thanks. You?","tgt":"অনেক দিন পর! কেমন ছিলেন? / জি, ভালো ছিলাম। আপনি কেমন ছিলেন?"}
+{"f":"dialog","id":"ko.g026","k":"tr","src":"Long time no see! How've you been? / Good, thanks. You?","tgt":"অনেক দিন পর! এতদিন কেমন ছিলেন? / জি, ভালো ছিলাম। আপনি এতদিন কেমন ছিলেন?"}
 {"f":"dialog","id":"ko.g027","k":"tr","src":"How are things lately? / Busy. But fun.","tgt":"আজকাল কেমন চলছে? / ব্যস্ত। তবে মজা লাগছে।"}
-{"f":"dialog","id":"ko.g028","k":"tr","src":"Nice weather today. / Yes, perfect for a walk.","tgt":"আজ আবহাওয়াটা খুব ভালো। / জি, হাঁটার জন্য একদম ঠিক।"}
-{"f":"dialog","id":"ko.g029","k":"tr","src":"What are you doing this weekend? / Going hiking. Want to come?","tgt":"ছুটির দিনে কী করছেন? / পাহাড়ে হাইকিংয়ে যাচ্ছি। একসাথে যাবেন?"}
+{"f":"dialog","id":"ko.g028","k":"tr","src":"Nice weather today. / Yes, perfect for a walk.","tgt":"আজ আবহাওয়াটা সুন্দর, তাই না? / জি, হাঁটার জন্য একদম ঠিক।"}
+{"f":"dialog","id":"ko.g029","k":"tr","src":"What are you doing this weekend? / Going hiking. Want to come?","tgt":"সপ্তাহান্তে কী করছেন? / পাহাড়ে হাইকিংয়ে যাচ্ছি। একসাথে যাবেন?"}
 {"f":"dialog","id":"ko.g030","k":"tr","src":"Today was fun. See you again! / Yes, I'll be in touch.","tgt":"আজ খুব মজা হলো। আবার দেখা হবে! / জি, যোগাযোগ করব।"}
 {"f":"dialog","id":"ko.g031","k":"tr","src":"I'll head out first. Goodbye (stay well). / Bye (go well).","tgt":"আমি আগে উঠছি। ভালো থাকবেন। / জি, সাবধানে যাবেন।"}
 {"f":"dialog","id":"ko.g032","k":"tr","src":"I'm bored. Let's hang out! / Deal! Where should we meet?","tgt":"বোর লাগছে। চলো আড্ডা দিই! / ডান! কোথায় দেখা করব?"}
-{"f":"dialog","id":"ko.g033","k":"tr","src":"Are you free tomorrow? / In the afternoon. Why?","tgt":"আগামীকাল সময় আছে? / বিকেলে আছে। কেন?"}
-{"f":"dialog","id":"ko.g034","k":"tr","src":"I'm going to a café, wanna come? / Sure, let's go.","tgt":"আমি ক্যাফেতে যাচ্ছি, যাবে? / ঠিক আছে, চলো যাই।"}
+{"f":"dialog","id":"ko.g033","k":"tr","src":"Are you free tomorrow? / In the afternoon. Why?","tgt":"আগামীকাল ফাঁকা আছ? / বিকেলে আছি। কেন?"}
+{"f":"dialog","id":"ko.g034","k":"tr","src":"I'm going to a café, wanna come? / Sure, let's go.","tgt":"আমি ক্যাফেতে যাচ্ছি, একসাথে যাবে? / ঠিক আছে, চলো যাই।"}
 {"f":"dialog","id":"ko.g035","k":"tr","src":"I'm hungry. Wanna go eat? / Yes! What should we eat?","tgt":"খিদে পেয়েছে। খেতে যাবে? / হ্যাঁ! কী খাব?"}
 {"f":"dialog","id":"ko.g036","k":"tr","src":"When should we meet? / How about Saturday?","tgt":"আমরা কবে দেখা করব? / শনিবার কেমন?"}
 {"f":"dialog","id":"ko.g037","k":"tr","src":"Where should we meet? / Let's meet at Gangnam station exit 11.","tgt":"কোথায় দেখা করব? / গাংনাম স্টেশনের 11 নম্বর গেটে দেখা করি চলো।"}
-{"f":"dialog","id":"ko.g038","k":"tr","src":"Where are you? Almost here? / Sorry, coming now. 5 minutes!","tgt":"কোথায় তুমি? পৌঁছে গেছ? / সরি, এক্ষুনি আসছি। 5 মিনিট!"}
+{"f":"dialog","id":"ko.g038","k":"tr","src":"Where are you? Almost here? / Sorry, coming now. 5 minutes!","tgt":"কোথায় তুমি? পৌঁছে গেছ? / সরি, এখনই আসছি। 5 মিনিট!"}
 {"f":"dialog","id":"ko.g039","k":"tr","src":"Today was really fun. / Me too. Let's hang out again!","tgt":"আজ সত্যিই খুব মজা হলো। / আমারও। চলো আবার আড্ডা দিই!"}
 {"f":"dialog","id":"ko.g040","k":"tr","src":"Ready to order? / One iced Americano, please.","tgt":"অর্ডার করবেন? / একটা আইস আমেরিকানো দিন।"}
 {"f":"dialog","id":"ko.g041","k":"tr","src":"For here? / No, to go.","tgt":"এখানে বসে খাবেন? / জি না, প্যাক করে।"}
-{"f":"dialog","id":"ko.g042","k":"tr","src":"What sizes do you have? / Tall, grande, venti.","tgt":"কোন কোন সাইজ আছে? / টল, গ্রান্দে, ভেন্টি আছে।"}
-{"f":"dialog","id":"ko.g043","k":"tr","src":"Do you have a points card? / No, that's okay.","tgt":"পয়েন্ট জমাবেন? / জি না, লাগবে না।"}
+{"f":"dialog","id":"ko.g042","k":"tr","src":"What sizes do you have? / Tall, grande, venti.","tgt":"কী কী সাইজ আছে? / টল, গ্রান্দে, ভেন্টি আছে।"}
+{"f":"dialog","id":"ko.g043","k":"tr","src":"Do you have a points card? / No, that's okay.","tgt":"পয়েন্ট জমাবেন? / না, লাগবে না।"}
 {"f":"dialog","id":"ko.g044","k":"tr","src":"Please heat this up. / Sure, it takes a minute.","tgt":"এটা একটু গরম করে দিন। / জি, এক মিনিট লাগবে।"}
 {"f":"dialog","id":"ko.g045","k":"tr","src":"Do you need a bag? / Yes, one please.","tgt":"ব্যাগ লাগবে? / জি, একটা দিন।"}
 {"f":"dialog","id":"ko.g046","k":"tr","src":"Cash or card? / Card.","tgt":"নগদ, না কার্ড? / কার্ডে দেব।"}
 {"f":"dialog","id":"ko.g047","k":"tr","src":"Where is a pharmacy? / On the first floor of that building.","tgt":"ফার্মেসি কোথায়? / ওই ভবনের নিচতলায়।"}
 {"f":"dialog","id":"ko.g048","k":"tr","src":"Where does it hurt? / My head hurts. I have a fever too.","tgt":"কোথায় ব্যথা? / মাথা ব্যথা করছে। জ্বরও আছে।"}
 {"f":"dialog","id":"ko.g049","k":"tr","src":"Do you have painkillers? / Yes, take these after a meal.","tgt":"ব্যথার ওষুধ আছে? / জি, এটা খাওয়ার পরে খাবেন।"}
-{"f":"dialog","id":"ko.g050","k":"tr","src":"Do you have allergies? / Yes, I'm allergic to peanuts.","tgt":"আপনার কোনো অ্যালার্জি আছে? / জি, চিনাবাদামে অ্যালার্জি আছে।"}
-{"f":"dialog","id":"ko.g051","k":"tr","src":"How many times a day? / Three times, 30 minutes after meals.","tgt":"দিনে কয়বার খাব? / দিনে তিনবার, খাওয়ার 30 মিনিট পরে।"}
+{"f":"dialog","id":"ko.g050","k":"tr","src":"Do you have allergies? / Yes, I'm allergic to peanuts.","tgt":"আপনার কোনো অ্যালার্জি আছে? / জি, আমার চিনাবাদামে অ্যালার্জি আছে।"}
+{"f":"dialog","id":"ko.g051","k":"tr","src":"How many times a day? / Three times, 30 minutes after meals.","tgt":"দিনে কতবার খাব? / দিনে তিনবার, খাওয়ার 30 মিনিট পরে।"}
 {"f":"dialog","id":"ko.g052","k":"tr","src":"Package! / Please leave it at the door.","tgt":"পার্সেল এসেছে! / জি, দরজার সামনে রেখে দিন।"}
 {"f":"dialog","id":"ko.g053","k":"tr","src":"How much is rent? / 500,000 won, maintenance included.","tgt":"মাসিক ভাড়া কত? / পাঁচ লাখ ওন। রক্ষণাবেক্ষণ খরচসহ।"}
 {"f":"dialog","id":"ko.g054","k":"tr","src":"Can you dry clean this? / Yes, pick it up tomorrow afternoon.","tgt":"এটা ড্রাই ক্লিন করা যাবে? / জি, আগামীকাল বিকেলে নিতে আসবেন।"}
 {"f":"dialog","id":"ko.g055","k":"tr","src":"I'm starting work with you today. Please take care of me. / Likewise.","tgt":"আজ থেকে একসাথে কাজ করব। আপনার সহযোগিতা আশা করি। / জি, আমিও আপনার সহযোগিতা আশা করি।"}
-{"f":"dialog","id":"ko.g056","k":"tr","src":"How are things? / So-so. Just busy.","tgt":"আজকাল কেমন চলছে? / মোটামুটি। শুধু ব্যস্ততা।"}
+{"f":"dialog","id":"ko.g056","k":"tr","src":"How are things? / So-so. Just busy.","tgt":"আজকাল কেমন চলছে? / চলছে আর কি। শুধু ব্যস্ততা।"}
 {"f":"dialog","id":"ko.g057","k":"tr","src":"I'm a coffee addict. / Me too! At least three cups a day.","tgt":"আমি কফির নেশায় পড়ে গেছি। / আমিও! দিনে অন্তত তিন কাপ খাই।"}
-{"f":"dialog","id":"ko.g058","k":"tr","src":"I'm going to Korea next month. / Really? Where to?","tgt":"আমি আগামী মাসে কোরিয়া যাচ্ছি। / সত্যি? কোথায় যাচ্ছেন?"}
-{"f":"dialog","id":"ko.g059","k":"tr","src":"I should get going. Goodbye. / Okay, get home safe.","tgt":"আজ তাহলে আসি। ভালো থাকবেন। / জি, দেখেশুনে যাবেন।"}
+{"f":"dialog","id":"ko.g058","k":"tr","src":"I'm going to Korea next month. / Really? Where to?","tgt":"আমি আগামী মাসে কোরিয়া যাচ্ছি। / তাই নাকি? কোথায় যাচ্ছেন?"}
+{"f":"dialog","id":"ko.g059","k":"tr","src":"I should get going. Goodbye. / Okay, get home safe.","tgt":"আজ তাহলে আসি। ভালো থাকবেন। / জি, সাবধানে বাসায় যাবেন।"}
 {"f":"dialog","id":"ko.g060","k":"tr","src":"See you next time. / Yes, I'll be in touch!","tgt":"পরে আবার দেখা হবে। / জি, যোগাযোগ করব!"}
 {"f":"dialog","id":"ko.g061","k":"tr","src":"Hey, what are you doing? / Watching Netflix at home. Why?","tgt":"এই, কী করছ? / বাসায় নেটফ্লিক্স দেখছি। কেন?"}
 {"f":"dialog","id":"ko.g062","k":"tr","src":"Are you free tonight? / Yeah, after seven.","tgt":"আজ সন্ধ্যায় সময় হবে? / হ্যাঁ, সাতটার পরে।"}
-{"f":"dialog","id":"ko.g063","k":"tr","src":"Wanna come over? I'll order chicken. / Deal! I'll bring beer.","tgt":"আমাদের বাসায় আসবে? চিকেন অর্ডার করব। / ডান! আমি বিয়ার কিনে আনব।"}
+{"f":"dialog","id":"ko.g063","k":"tr","src":"Wanna come over? I'll order chicken. / Deal! I'll bring beer.","tgt":"আমার বাসায় আসবে? চিকেন অর্ডার করব। / ডান! আমি বিয়ার কিনে আনব।"}
 {"f":"dialog","id":"ko.g064","k":"tr","src":"Today was so fun. Let's hang again. / Sure, see you next week!","tgt":"আজ সত্যিই খুব মজা হলো। চলো আবার আড্ডা দিই। / ঠিক আছে, আগামী সপ্তাহে দেখা হবে!"}
-{"f":"dialog","id":"ko.g065","k":"tr","src":"Can I get your number? / Sure, 010-3322-7788.","tgt":"তোমার নম্বরটা একটু দেবে? / হ্যাঁ, 010-3322-7788।"}
+{"f":"dialog","id":"ko.g065","k":"tr","src":"Can I get your number? / Sure, 010-3322-7788.","tgt":"তোমার নম্বরটা দেবে? / হ্যাঁ, 010-3322-7788।"}
 {"f":"dialog","id":"ko.g066","k":"tr","src":"Do you have Instagram? / Yes, I'll give you my handle.","tgt":"আপনার ইনস্টাগ্রাম আছে? / জি, আইডিটা দিচ্ছি।"}
 {"f":"dialog","id":"ko.g067","k":"tr","src":"Today was lovely. Shall we meet again? / Sure. This time it's on me.","tgt":"আজ খুব ভালো লাগল। আবার দেখা করব নাকি? / ঠিক আছে। এবার আমি খাওয়াব।"}
-{"f":"dialog","id":"ko.g068","k":"tr","src":"It's late. I'll walk you home. / It's fine, I can take the subway.","tgt":"দেরি হয়ে গেছে। আমি পৌঁছে দিই। / থাক, মেট্রোতে চলে যাব।"}
+{"f":"dialog","id":"ko.g068","k":"tr","src":"It's late. I'll walk you home. / It's fine, I can take the subway.","tgt":"দেরি হয়ে গেছে। তোমাকে বাসায় পৌঁছে দেব। / থাক, মেট্রোতে চলে যাব।"}
 {"f":"dialog","id":"ko.g069","k":"tr","src":"You look pretty today. / Thanks. I got a haircut.","tgt":"আজ আপনাকে সুন্দর লাগছে। / ধন্যবাদ। চুল কেটেছি।"}
-{"f":"dialog","id":"ko.g070","k":"tr","src":"You're here! I missed you. / Me too. Did you wait long?","tgt":"এসে গেছেন? খুব মনে পড়ছিল। / আমারও। অনেকক্ষণ অপেক্ষা করেছেন?"}
+{"f":"dialog","id":"ko.g070","k":"tr","src":"You're here! I missed you. / Me too. Did you wait long?","tgt":"এসে গেছেন? আপনাকে মিস করছিলাম। / আমিও। অনেকক্ষণ অপেক্ষা করেছেন?"}
 {"f":"dialog","id":"ko.g071","k":"tr","src":"Did you get home safe? / Yeah, just got in. Thanks for today.","tgt":"ঠিকমতো বাসায় পৌঁছেছ? / হ্যাঁ, এইমাত্র পৌঁছালাম। আজকের জন্য থ্যাংকস।"}
-{"f":"dialog","id":"ko.g072","k":"tr","src":"I'm going to sleep. Night! / Okay, sweet dreams.","tgt":"আমি ঘুমাতে যাচ্ছি। শুভ রাত্রি! / হ্যাঁ, মিষ্টি স্বপ্ন দেখো।"}
+{"f":"dialog","id":"ko.g072","k":"tr","src":"I'm going to sleep. Night! / Okay, sweet dreams.","tgt":"আমি ঘুমাতে যাচ্ছি। শুভ রাত্রি! / হ্যাঁ, সুন্দর স্বপ্ন দেখো।"}
 {"f":"dialog","id":"ko.g073","k":"tr","src":"Did you eat? / Not yet. Wanna eat together?","tgt":"খেয়েছ? / এখনো না। একসাথে খাবে?"}
 {"f":"dialog","id":"ko.g074","k":"tr","src":"What are you up to? / Just lying around. Bored.","tgt":"কী করছ? / এমনি শুয়ে আছি। বোর লাগছে।"}
 {"f":"dialog","id":"ko.g075","k":"tr","src":"Where are you? Almost here? / Sorry, five minutes! Just got off the subway.","tgt":"কোথায় তুমি? পৌঁছে গেছ? / সরি, আর পাঁচ মিনিট! এইমাত্র মেট্রো থেকে নামলাম।"}
 {"f":"dialog","id":"ko.g076","k":"tr","src":"I think I'll be late. / No worries, take your time. I'll be at the café.","tgt":"আমার মনে হয় একটু দেরি হবে। / সমস্যা নেই, ধীরে সুস্থে এসো। আমি ক্যাফেতে থাকব।"}
-{"f":"dialog","id":"ko.g077","k":"tr","src":"Look at this meme lol / That's hilarious lol","tgt":"এই মিমটা দেখো হাহাহা / উফ, সত্যিই হাসির হাহাহাহা"}
+{"f":"dialog","id":"ko.g077","k":"tr","src":"Look at this meme lol / That's hilarious lol","tgt":"এই মিমটা দেখো হাহাহা / উফ, হাসতে হাসতে শেষ হাহাহাহা"}
 {"f":"dialog","id":"ko.g078","k":"tr","src":"I made this. / Wow, that's cool! How did you make it?","tgt":"এটা আমার বানানো। / বাহ, দারুণ! কীভাবে বানালে?"}
 {"f":"dialog","id":"ko.g079","k":"tr","src":"I passed the exam! / Really? Nice job!","tgt":"পরীক্ষায় পাস করেছি! / সত্যি? দারুণ করেছ!"}
 {"f":"dialog","id":"ko.g080","k":"tr","src":"I worked overtime today… / You worked hard. Get some rest.","tgt":"আজ ওভারটাইম করলাম… / অনেক ধকল গেল তোমার। ভালো করে বিশ্রাম নাও।"}
-{"f":"dialog","id":"ko.g081","k":"tr","src":"Wanna grab a drink after work? / Love to! Where?","tgt":"অফিসের পরে একটু ড্রিংক করতে যাবে? / অবশ্যই! কোথায়?"}
+{"f":"dialog","id":"ko.g081","k":"tr","src":"Wanna grab a drink after work? / Love to! Where?","tgt":"অফিসের পরে এক গ্লাস হয়ে যাক? / অবশ্যই! কোথায়?"}
 {"f":"dialog","id":"ko.g082","k":"tr","src":"I'm so nervous about the interview. / You got this! You'll do great.","tgt":"ইন্টারভিউ নিয়ে খুব নার্ভাস লাগছে। / মন শক্ত করো! তুমি ভালো করবে।"}
 {"f":"dialog","id":"ko.g083","k":"tr","src":"What are you doing tomorrow? / I'm off tomorrow. Why?","tgt":"আগামীকাল কী করছেন? / আগামীকাল ছুটি। কেন?"}
 {"f":"dialog","id":"ko.g084","k":"tr","src":"What time is it now? / Half past two.","tgt":"এখন কয়টা বাজে? / আড়াইটা।"}
@@ -1317,20 +1317,20 @@
 {"f":"dialog","id":"ko.g086","k":"tr","src":"How's the weather in Seoul? / Cold today, and the fine dust is bad.","tgt":"সিউলের আবহাওয়া কেমন? / আজ ঠান্ডা, আর ধুলাদূষণও খুব বেশি।"}
 {"f":"dialog","id":"ko.g087","k":"tr","src":"Is it raining outside? / Yes, take an umbrella.","tgt":"বাইরে কি বৃষ্টি হচ্ছে? / জি, ছাতা নিয়ে যান।"}
 {"f":"dialog","id":"ko.g088","k":"tr","src":"You look tired. / Yeah, I couldn't sleep last night.","tgt":"আপনাকে ক্লান্ত দেখাচ্ছে। / জি, গতকাল রাতে ঘুমাতে পারিনি।"}
-{"f":"dialog","id":"ko.g089","k":"tr","src":"I'm bored. / Then shall we watch a movie?","tgt":"বোর লাগছে। / তাহলে সিনেমা দেখব নাকি?"}
+{"f":"dialog","id":"ko.g089","k":"tr","src":"I'm bored. / Then shall we watch a movie?","tgt":"আমার বোর লাগছে। / তাহলে সিনেমা দেখব নাকি?"}
 {"f":"dialog","id":"ko.g090","k":"tr","src":"I won the lottery! / No way! How much?","tgt":"আমি লটারি জিতেছি! / বলো কী! কত?"}
-{"f":"dialog","id":"ko.g091","k":"tr","src":"I lost my wallet… / Oh no! Did you check with the police?","tgt":"মানিব্যাগ হারিয়ে ফেলেছি… / হায় হায়! থানায় গিয়েছিলে?"}
+{"f":"dialog","id":"ko.g091","k":"tr","src":"I lost my wallet… / Oh no! Did you check with the police?","tgt":"মানিব্যাগ হারিয়ে ফেলেছি… / হায় হায়, এখন কী করি! থানায় গিয়েছিলে?"}
 {"f":"dialog","id":"ko.g092","k":"tr","src":"My presentation is tomorrow. / You got this! You can do it.","tgt":"আগামীকাল আমার প্রেজেন্টেশন। / তুমি পারবে! ভালোই করবে।"}
 {"f":"dialog","id":"ko.g093","k":"tr","src":"Please eat plenty. / Thank you, I will!","tgt":"পেট ভরে খান। / জি, খাবারের জন্য ধন্যবাদ!"}
-{"f":"dialog","id":"ko.g094","k":"tr","src":"May I have your name? / I'm Kim Minsu.","tgt":"আপনার শুভ নাম? / আমি কিম মিনসু।"}
+{"f":"dialog","id":"ko.g094","k":"tr","src":"May I have your name? / I'm Kim Minsu.","tgt":"আপনার শুভ নাম কী? / আমি কিম মিনসু।"}
 {"f":"dialog","id":"ko.g095","k":"tr","src":"Please sit here. / Thank you.","tgt":"এখানে বসুন। / ধন্যবাদ।"}
 {"f":"dialog","id":"ko.g096","k":"tr","src":"Anyone home? / Yes, come in!","tgt":"কেউ আছেন? / জি, ভেতরে আসুন!"}
 {"f":"dialog","id":"ko.g097","k":"tr","src":"Teacher, have you been well? / Yes, thanks to you. Long time no see.","tgt":"স্যার, ভালো ছিলেন? / হ্যাঁ, ভালোই ছিলাম। অনেক দিন পর দেখা।"}
 {"f":"dialog","id":"ko.g098","k":"tr","src":"Would you mind taking a photo? / Of course. One, two, three!","tgt":"আচ্ছা, একটু ছবি তুলে দেবেন কি? / জি, অবশ্যই। এক, দুই, তিন!"}
 {"f":"dialog","id":"ko.g099","k":"tr","src":"What are we? / Hmm… I like you. Want to go out?","tgt":"আমাদের সম্পর্কটা কী? / হুম… আমার তোমাকে ভালো লাগে। প্রেম করবে?"}
 {"f":"dialog","id":"ko.g100","k":"tr","src":"Why didn't you text yesterday? / Sorry, my fault. Don't be mad.","tgt":"গতকাল যোগাযোগ করোনি কেন? / সরি, আমারই ভুল। রাগ করে থেকো না।"}
-{"f":"dialog","id":"ko.g101","k":"tr","src":"How is it being with me? / I feel comfortable. That's the best part.","tgt":"আমার সাথে থাকলে কেমন লাগে? / একসাথে থাকলে আরাম লাগে। ওটাই সবচেয়ে ভালো।"}
-{"f":"dialog","id":"ko.g102","k":"tr","src":"Can I hold your hand? / Yeah… is it because you're cold?","tgt":"হাতটা ধরতে পারি? / হুঁ… শীত লাগছে বলে?"}
+{"f":"dialog","id":"ko.g101","k":"tr","src":"How is it being with me? / I feel comfortable. That's the best part.","tgt":"আমার সাথে থাকলে কেমন লাগে? / তোমার সাথে থাকলে স্বস্তি পাই। ওটাই সবচেয়ে ভালো।"}
+{"f":"dialog","id":"ko.g102","k":"tr","src":"Can I hold your hand? / Yeah… is it because you're cold?","tgt":"তোমার হাতটা ধরতে পারি? / হুঁ… শীত লাগছে বলে?"}
 {"f":"dialog","id":"ko.g103","k":"tr","src":"It's our 100th day today! / Really? Happy 100 days. I got you something.","tgt":"আজ আমাদের 100 দিন! / সত্যি? 100 দিনের শুভেচ্ছা। তোমার জন্য একটা উপহার এনেছি।"}
 {"f":"dialog","id":"ko.g104","k":"tr","src":"I have something to tell you. / What is it? Is something wrong?","tgt":"তোমাকে একটা কথা বলার আছে। / কী কথা? কিছু হয়েছে?"}
 {"f":"dialog","id":"ko.g105","k":"tr","src":"What time is the meeting? / Two. Meeting room B.","tgt":"মিটিং কয়টায়? / দুইটায়। মিটিং রুম বি-তে।"}
@@ -1341,38 +1341,38 @@
 {"f":"dialog","id":"ko.g110","k":"tr","src":"What should we have for lunch? / How about kimchi stew?","tgt":"দুপুরে কী খাব? / কিমচি স্ট্যু কেমন হয়?"}
 {"f":"dialog","id":"ko.g111","k":"tr","src":"Ugh, I'm bored. What should I do? / Come out. Let's get chicken.","tgt":"উফ, বোর লাগছে। কী করি? / বেরিয়ে আসো। চলো চিকেন খাই।"}
 {"f":"dialog","id":"ko.g112","k":"tr","src":"I'm so tired today. / Sleep early. See you tomorrow.","tgt":"আজ খুব ক্লান্ত লাগছে। / তাড়াতাড়ি ঘুমাও। আগামীকাল দেখা হবে।"}
-{"f":"dialog","id":"ko.g113","k":"tr","src":"Where are you? / On my way. 10 minutes!","tgt":"কোথায় তুমি? / এখন আসছি। 10 মিনিট!"}
-{"f":"dialog","id":"ko.g114","k":"tr","src":"What's with him? / Dunno. I'm curious too.","tgt":"ওর কী হয়েছে? / জানি না। আমিও ভাবছি।"}
-{"f":"dialog","id":"ko.g115","k":"tr","src":"I saved us seats. / You really are the best.","tgt":"আমি সিট রেখে দিয়েছি। / তুমি আসলেই সেরা।"}
+{"f":"dialog","id":"ko.g113","k":"tr","src":"Where are you? / On my way. 10 minutes!","tgt":"কোথায় তুমি? / আসছি এখনই। 10 মিনিট!"}
+{"f":"dialog","id":"ko.g114","k":"tr","src":"What's with him? / Dunno. I'm curious too.","tgt":"ওর কী হয়েছে? / কী জানি। আমিও ভাবছি।"}
+{"f":"dialog","id":"ko.g115","k":"tr","src":"I saved us seats. / You really are the best.","tgt":"আমি সিট রেখে দিয়েছি। / সত্যিই তুমিই সেরা।"}
 {"f":"dialog","id":"ko.g116","k":"tr","src":"Karaoke tonight? / Let's go! My treat.","tgt":"আজ কারাওকে কেমন হয়? / চলো যাই! আমি খাওয়াব।"}
 {"f":"dialog","id":"ko.g117","k":"tr","src":"I think I'll bomb the presentation. / Don't worry. Just do it like you practiced.","tgt":"মনে হচ্ছে প্রেজেন্টেশনটা গুবলেট করব। / চিন্তা কোরো না। যেভাবে প্র্যাকটিস করেছ, সেভাবেই করো।"}
 {"f":"dialog","id":"ko.g118","k":"tr","src":"Finally done. / Nice work. A beer?","tgt":"অবশেষে শেষ হলো। / ভালো খেটেছ। এক গ্লাস বিয়ার হবে?"}
 {"f":"dialog","id":"ko.g119","k":"tr","src":"How's this? Just bought it. / Cute. It suits you.","tgt":"এটা কেমন? নতুন কিনেছি। / কিউট। তোমাকে খুব মানিয়েছে।"}
-{"f":"dialog","id":"ko.g120","k":"tr","src":"I miss you. / Me too. Let's meet this weekend.","tgt":"তোমাকে মনে পড়ছে। / আমারও। ছুটির দিনে দেখা করি চলো।"}
+{"f":"dialog","id":"ko.g120","k":"tr","src":"I miss you. / Me too. Let's meet this weekend.","tgt":"তোমাকে মিস করছি। / আমিও। সপ্তাহান্তে দেখা করি চলো।"}
 {"f":"dialog","id":"ko.g121","k":"tr","src":"I like you. / …Me too. You should've said sooner.","tgt":"আমি তোমাকে পছন্দ করি। / …আমিও। আগে বলোনি কেন।"}
 {"f":"dialog","id":"ko.g122","k":"tr","src":"Babe, what are you doing? / Thinking about you, obviously.","tgt":"জান, কী করছ? / তোমার কথাই ভাবছিলাম, আর কী।"}
-{"f":"dialog","id":"ko.g123","k":"tr","src":"I'm heading out now. / Get home safe. Text me when you arrive.","tgt":"আমি এখন যাচ্ছি। / দেখেশুনে যেও। পৌঁছে জানিও।"}
-{"f":"dialog","id":"ko.g124","k":"tr","src":"Sleepy. Going to bed. / Okay, sweet dreams.","tgt":"ঘুম পাচ্ছে। ঘুমাতে গেলাম। / হ্যাঁ, মিষ্টি স্বপ্ন দেখো।"}
+{"f":"dialog","id":"ko.g123","k":"tr","src":"I'm heading out now. / Get home safe. Text me when you arrive.","tgt":"আমি এখন যাচ্ছি। / সাবধানে বাসায় যেও। পৌঁছে জানিও।"}
+{"f":"dialog","id":"ko.g124","k":"tr","src":"Sleepy. Going to bed. / Okay, sweet dreams.","tgt":"ঘুম পাচ্ছে। ঘুমাতে গেলাম। / হ্যাঁ, সুন্দর স্বপ্ন দেখো।"}
 {"f":"dialog","id":"ko.g125","k":"tr","src":"Why are you smiling like that? / Your smile just now made my heart skip.","tgt":"ওভাবে হাসছ কেন? / এইমাত্র তোমার হাসি দেখে আমার বুক ধক করে উঠল।"}
 {"f":"dialog","id":"ko.g126","k":"tr","src":"Why'd you text? / No reason. I keep thinking about you.","tgt":"কেন মেসেজ দিলে? / এমনি। বারবার তোমার কথা মনে পড়ছে।"}
-{"f":"dialog","id":"ko.g127","k":"tr","src":"You said you had something to say? / I think I like you.","tgt":"কী যেন বলবে বলেছিলে? / আমার মনে হয় আমি তোমাকে পছন্দ করি।"}
-{"f":"dialog","id":"ko.g128","k":"tr","src":"What are we? / Let's date.","tgt":"আমাদের সম্পর্কটা কী? / চলো আমরা প্রেম করি।"}
+{"f":"dialog","id":"ko.g127","k":"tr","src":"You said you had something to say? / I think I like you.","tgt":"কী যেন বলবে বলেছিলে? / মনে হয় তোমাকে পছন্দ করি।"}
+{"f":"dialog","id":"ko.g128","k":"tr","src":"What are we? / Let's date.","tgt":"আমাদের সম্পর্কটা কী? / চলো প্রেম করি।"}
 {"f":"dialog","id":"ko.g129","k":"tr","src":"I passed! / Really? Congrats!","tgt":"আমি পাস করেছি! / সত্যি? অভিনন্দন!"}
 {"f":"dialog","id":"ko.g130","k":"tr","src":"I'll go first. / Don't go. Stay a little longer.","tgt":"আমি আগে যাচ্ছি। / যেও না। আরেকটু থাকো।"}
-{"f":"dialog","id":"ko.g131","k":"tr","src":"Long time no see. / I missed you. Been well?","tgt":"অনেক দিন পর। / তোমাকে খুব মনে পড়ছিল। ভালো ছিলে?"}
+{"f":"dialog","id":"ko.g131","k":"tr","src":"Long time no see. / I missed you. Been well?","tgt":"অনেক দিন পর। / তোমাকে মিস করছিলাম। ভালো ছিলে?"}
 {"f":"dialog","id":"ko.g132","k":"tr","src":"Who's your bias? / The main vocalist.","tgt":"আপনার সবচেয়ে প্রিয় সদস্য কে? / আমার প্রিয় মেইন ভোকালিস্ট।"}
-{"f":"dialog","id":"ko.g133","k":"tr","src":"What are you listening to lately? / I became a fan of this group. Their stage is amazing.","tgt":"আজকাল কী শুনছেন? / এই গ্রুপটার ভক্ত হয়ে গেছি। স্টেজে ওরা সত্যিই দারুণ।"}
-{"f":"dialog","id":"ko.g134","k":"tr","src":"What are you doing this weekend? / Going to a concert! I even bought a light stick.","tgt":"ছুটির দিনে কী করছেন? / কনসার্টে যাচ্ছি! লাইট স্টিকও কিনেছি।"}
-{"f":"dialog","id":"ko.g135","k":"tr","src":"I'm a fan! Please sign this. / Sure, thanks. What's your name?","tgt":"আমি আপনার ভক্ত! একটা অটোগ্রাফ দিন। / জি, ধন্যবাদ। আপনার নাম কী?"}
+{"f":"dialog","id":"ko.g133","k":"tr","src":"What are you listening to lately? / I became a fan of this group. Their stage is amazing.","tgt":"আজকাল কী শুনছেন? / এই গ্রুপটার ফ্যান হয়ে গেছি। স্টেজে ওরা সত্যিই দারুণ।"}
+{"f":"dialog","id":"ko.g134","k":"tr","src":"What are you doing this weekend? / Going to a concert! I even bought a light stick.","tgt":"সপ্তাহান্তে কী করছেন? / কনসার্টে যাচ্ছি! লাইট স্টিকও কিনেছি।"}
+{"f":"dialog","id":"ko.g135","k":"tr","src":"I'm a fan! Please sign this. / Sure, thanks. What's your name?","tgt":"আমি আপনার ফ্যান! একটা অটোগ্রাফ দিন। / জি, ধন্যবাদ। আপনার নাম কী?"}
 {"f":"dialog","id":"ko.g136","k":"tr","src":"They're making a comeback this month. / Really? Did you see the teaser?","tgt":"শুনলাম এই মাসে ওদের কামব্যাক। / সত্যি? টিজার দেখেছ?"}
 {"f":"dialog","id":"ko.g137","k":"tr","src":"How was the concert? / Got goosebumps during the singalong.","tgt":"কনসার্ট কেমন হলো? / সবাই মিলে গান গাওয়ার সময় গায়ে কাঁটা দিয়েছিল।"}
-{"f":"dialog","id":"ko.g138","k":"tr","src":"Are you on Instagram? / Yes, I just followed you.","tgt":"আপনি ইনস্টাগ্রাম চালান? / জি, এইমাত্র ফলো করলাম।"}
-{"f":"dialog","id":"ko.g139","k":"tr","src":"Posted a photo. Hit like for me. / Already did.","tgt":"ছবি পোস্ট করেছি। একটা লাইক দিও। / অনেক আগেই দিয়েছি।"}
+{"f":"dialog","id":"ko.g138","k":"tr","src":"Are you on Instagram? / Yes, I just followed you.","tgt":"আপনি ইনস্টাগ্রাম চালান? / জি, এইমাত্র আপনাকে ফলো করেছি।"}
+{"f":"dialog","id":"ko.g139","k":"tr","src":"Posted a photo. Hit like for me. / Already did.","tgt":"ছবি পোস্ট করেছি। একটা লাইক দিয়ে দাও। / অনেক আগেই দিয়েছি।"}
 {"f":"dialog","id":"ko.g140","k":"tr","src":"Why did nobody laugh at my joke earlier? / It killed the mood…","tgt":"একটু আগে আমার জোকে কেউ হাসল না কেন? / হঠাৎ সব ঠান্ডা মেরে গেল…"}
-{"f":"dialog","id":"ko.g141","k":"tr","src":"How's the tteokbokki here? / Insanely good. I'm coming back.","tgt":"এখানকার তকবোকি কেমন? / সেই রকম মজা। আবার আসব।"}
-{"f":"dialog","id":"ko.g142","k":"tr","src":"This song is addictive. / For real, been listening all day.","tgt":"এই গানটার নেশা ধরে যায়। / সত্যি, সারাদিন এটাই শুনছি।"}
-{"f":"dialog","id":"ko.g143","k":"tr","src":"What should I wear today? / Go effortless. Jeans and a white tee.","tgt":"আজ কী পরব? / সাদামাটা কিন্তু স্টাইলিশ। জিন্স আর সাদা টি-শার্ট।"}
-{"f":"dialog","id":"ko.g144","k":"tr","src":"What are you doing this weekend? / Having a meal with family.","tgt":"ছুটির দিনে কী করছেন? / পরিবারের সাথে খেতে যাচ্ছি।"}
+{"f":"dialog","id":"ko.g141","k":"tr","src":"How's the tteokbokki here? / Insanely good. I'm coming back.","tgt":"এখানকার তকবোকি কেমন? / মারাত্মক মজাদার। আবার আসব।"}
+{"f":"dialog","id":"ko.g142","k":"tr","src":"This song is addictive. / For real, been listening all day.","tgt":"এই গানটার নেশা ধরে যায়। / সত্যি সত্যি, সারাদিন এটাই শুনছি।"}
+{"f":"dialog","id":"ko.g143","k":"tr","src":"What should I wear today? / Go effortless. Jeans and a white tee.","tgt":"আজ কী পরব? / অনায়াস স্টাইলে যাও। জিন্স আর সাদা টি-শার্ট।"}
+{"f":"dialog","id":"ko.g144","k":"tr","src":"What are you doing this weekend? / Having a meal with family.","tgt":"সপ্তাহান্তে কী করছেন? / পরিবারের সাথে খেতে যাচ্ছি।"}
 {"f":"dialog","id":"ko.g145","k":"tr","src":"Who did you come with? / With a friend.","tgt":"কার সাথে এসেছেন? / বন্ধুর সাথে এসেছি।"}
 {"f":"dialog","id":"ko.g146","k":"tr","src":"Who's that? / That's my older brother.","tgt":"ওই মানুষটা কে? / আমার ভাইয়া।"}
 {"f":"dialog","id":"ko.g147","k":"tr","src":"Unni, how's this? / It suits you. Buy it.","tgt":"আপু, এটা কেমন? / তোমাকে ভালো মানিয়েছে। কিনে ফেলো।"}

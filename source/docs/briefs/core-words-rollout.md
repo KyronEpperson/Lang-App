@@ -29,3 +29,5 @@ Launch w1..w4 as slots free (priority over the waiting deck writers). Launched: 
 - 04:20: bn w4 WAITING; yue-ko profile done, work files made: yue w1..w4 WAITING for slots.
 - 04:30: bn w4 launched. WAITING: yue w1-4, ur w1-4 (profile + work files ready).
 - 05:00: th hi id vi shipped (2.74/2.75). yue w1-4, ur w1 w2 launched; ur w3 w4 WAITING. kn pa profiles running.
+- 05:15: 2.75.0 shipped (th hi id). ur w3 w4 launched. pa profile done + work files: pa w1-4 WAITING. kn profile running. mr w2 done.
+- 05:50: mr merged (0 errors), cold review + ui.json running. te: w2 w3 done. bn: w1 w2 w3 done. App fixes (KakaoTalk tip, zh-HK→yue, pa-PK→en, Urdu font, No matches) in 2.76.0.

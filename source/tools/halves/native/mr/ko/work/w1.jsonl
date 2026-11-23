@@ -42,7 +42,7 @@
 {"f":"labels","id":"ko.z.compliment.17","k":"text","src":"You've got a vibe","tgt":"तुमच्यात एक वेगळीच छाप आहे"}
 {"f":"labels","id":"ko.z.compliment.18","k":"text","src":"A warm person","tgt":"मायाळू माणूस"}
 {"f":"labels","id":"ko.z.compliment.19","k":"text","src":"I learn a lot from you","tgt":"तुमच्याकडून खूप शिकण्यासारखं आहे"}
-{"f":"labels","id":"ko.z.compliment.20","k":"text","src":"I feel at ease with you","tgt":"तुमच्यासोबत निवांत वाटतं"}
+{"f":"labels","id":"ko.z.compliment.20","k":"text","src":"I feel at ease with you","tgt":"तुमच्यासोबत असलं की निवांत वाटतं"}
 {"f":"labels","id":"ko.z.compliment.21","k":"text","src":"You work so hard","tgt":"तुम्ही खूप मेहनत घेता"}
 {"f":"labels","id":"ko.z.compliment.22","k":"text","src":"You're thoughtful","tgt":"तुमचे विचार खोल आहेत"}
 {"f":"labels","id":"ko.z.expression","k":"text","src":"everyday expression","tgt":"रोजचे शब्दप्रयोग"}
@@ -50,7 +50,7 @@
 {"f":"labels","id":"ko.z.expression.02","k":"text","src":"I see","tgt":"अच्छा, असं आहे तर"}
 {"f":"labels","id":"ko.z.expression.03","k":"text","src":"That's right","tgt":"बरोबर"}
 {"f":"labels","id":"ko.z.expression.04","k":"text","src":"Of course","tgt":"हो तर!"}
-{"f":"labels","id":"ko.z.expression.05","k":"text","src":"Well… I'm not sure","tgt":"हम्म… सांगता येत नाही"}
+{"f":"labels","id":"ko.z.expression.05","k":"text","src":"Well… I'm not sure","tgt":"हम्म… नक्की नाही"}
 {"f":"labels","id":"ko.z.expression.06","k":"text","src":"Maybe","tgt":"कदाचित"}
 {"f":"labels","id":"ko.z.expression.07","k":"text","src":"It's okay","tgt":"ठीक आहे / काही हरकत नाही"}
 {"f":"labels","id":"ko.z.expression.08","k":"text","src":"Got it","tgt":"समजलं"}
@@ -64,7 +64,7 @@
 {"f":"labels","id":"ko.z.expression.16","k":"text","src":"I know, right","tgt":"हो ना!"}
 {"f":"labels","id":"ko.z.expression.17","k":"text","src":"Oh my","tgt":"अरे देवा"}
 {"f":"labels","id":"ko.z.expression.18","k":"text","src":"Of course","tgt":"अर्थातच"}
-{"f":"labels","id":"ko.z.expression.19","k":"text","src":"I'm not sure","tgt":"मला नक्की माहीत नाही"}
+{"f":"labels","id":"ko.z.expression.19","k":"text","src":"I'm not sure","tgt":"नक्की सांगता येणार नाही"}
 {"f":"labels","id":"ko.z.expression.20","k":"text","src":"Long time no see","tgt":"खूप दिवसांनी भेट होतेय"}
 {"f":"labels","id":"ko.z.expression.21","k":"text","src":"Good work today","tgt":"आजच्या मेहनतीबद्दल धन्यवाद"}
 {"f":"labels","id":"ko.z.expression.22","k":"text","src":"Thanks for the meal (before eating)","tgt":"जेवणासाठी धन्यवाद (जेवण्याआधी)"}
@@ -424,7 +424,7 @@
 {"f":"cards","id":"ko.c0083","k":"meaning","src":"What's your hobby?","tgt":"तुमचा छंद काय?"}
 {"f":"cards","id":"ko.c0083","k":"note","src":"취미 = hobby. 제 취미는 운동이에요 = my hobby is working out.","tgt":"취미 = छंद. 제 취미는 운동이에요 = माझा छंद व्यायाम आहे."}
 {"f":"cards","id":"ko.c0084","k":"meaning","src":"Please take care of me","tgt":"सांभाळून घ्या"}
-{"f":"cards","id":"ko.c0084","k":"note","src":"Said after introducing yourself at work or in a group. No English equivalent.","tgt":"ऑफिसमध्ये किंवा ग्रुपमध्ये स्वतःची ओळख करून दिल्यावर म्हणतात. शब्दशः \"माझं नीट सांभाळून घ्या, ही विनंती\".","rw":"says English lacks the sound/feature"}
+{"f":"cards","id":"ko.c0084","k":"note","src":"Said after introducing yourself at work or in a group. No English equivalent.","tgt":"ऑफिसमध्ये किंवा ग्रुपमध्ये स्वतःची ओळख करून दिल्यावर म्हणतात. पुढच्या सहकार्यासाठी केलेली नम्र विनंती.","rw":"says English lacks the sound/feature"}
 {"f":"cards","id":"ko.c0085","k":"meaning","src":"Excuse me (to get attention)","tgt":"अहो, जरा ऐका"}
 {"f":"cards","id":"ko.c0085","k":"note","src":"Call a waiter or stop a stranger. Not an apology.","tgt":"वेटरला बोलावताना किंवा अनोळखी व्यक्तीला थांबवताना. ही माफी नाही."}
 {"f":"cards","id":"ko.c0086","k":"meaning","src":"Are you okay?","tgt":"तुम्ही ठीक आहात का?"}
@@ -464,7 +464,7 @@
 {"f":"cards","id":"ko.c0102","k":"meaning","src":"Is there a bathroom here?","tgt":"इथे टॉयलेट आहे का?"}
 {"f":"cards","id":"ko.c0102","k":"note","src":"Cafés and small shops often don't have one inside.","tgt":"कॅफे आणि छोट्या दुकानांत बऱ्याचदा आत टॉयलेट नसतं."}
 {"f":"cards","id":"ko.c0103","k":"meaning","src":"Can I use the bathroom?","tgt":"टॉयलेट वापरू का?"}
-{"f":"cards","id":"ko.c0103","k":"note","src":"아/어도 돼요 = is it okay if I…","tgt":"아/어도 돼요 = …लं तर चालेल का?"}
+{"f":"cards","id":"ko.c0103","k":"note","src":"아/어도 돼요 = is it okay if I…","tgt":"아/어도 돼요 = …ू का?"}
 {"f":"cards","id":"ko.c0104","k":"meaning","src":"What's the bathroom code?","tgt":"टॉयलेटचा कोड काय आहे?"}
 {"f":"cards","id":"ko.c0104","k":"note","src":"Many café bathrooms have a keypad. It's printed on the receipt or ask staff.","tgt":"बऱ्याच कॅफेंच्या टॉयलेटला कीपॅड असतं. कोड पावतीवर छापलेला असतो, नाहीतर स्टाफला विचारा."}
 {"f":"cards","id":"ko.c0105","k":"meaning","src":"Is there toilet paper?","tgt":"टॉयलेट पेपर आहे का?"}
@@ -500,7 +500,7 @@
 {"f":"cards","id":"ko.c0120","k":"meaning","src":"What time do you open?","tgt":"किती वाजता उघडतं?"}
 {"f":"cards","id":"ko.c0120","k":"note","src":"열다 = open.","tgt":"열다 = उघडणे."}
 {"f":"cards","id":"ko.c0121","k":"meaning","src":"How long do I have to wait?","tgt":"किती वेळ थांबावं लागेल?"}
-{"f":"cards","id":"ko.c0121","k":"note","src":"기다리다 = wait. 아/어야 돼요 = have to.","tgt":"기다리다 = वाट पाहणे. 아/어야 돼요 = …ावं लागतं."}
+{"f":"cards","id":"ko.c0121","k":"note","src":"기다리다 = wait. 아/어야 돼요 = have to.","tgt":"기다리다 = वाट पाहणे. 아/어야 돼요 = …ला हवं / …ावं लागतं."}
 {"f":"cards","id":"ko.c0122","k":"meaning","src":"Could you take a photo for us?","tgt":"आमचा फोटो काढून द्याल का?"}
 {"f":"cards","id":"ko.c0122","k":"note","src":"Extra polite with 주실래요. Hand over the phone after.","tgt":"주실래요 मुळे खूप सभ्य. मग फोन हातात द्या."}
 {"f":"cards","id":"ko.c0123","k":"meaning","src":"Receipt, please","tgt":"पावती द्या"}
@@ -580,7 +580,7 @@
 {"f":"cards","id":"ko.c0160","k":"meaning","src":"2026","tgt":"2026","pre":1}
 {"f":"cards","id":"ko.c0160","k":"note","src":"년 = year. 이천이십육년.","tgt":"년 = वर्ष. 이천이십육년."}
 {"f":"cards","id":"ko.c0161","k":"meaning","src":"50 percent","tgt":"50 टक्के"}
-{"f":"cards","id":"ko.c0161","k":"note","src":"퍼센트 from English. 반값 = half price.","tgt":"퍼센트 = पर्सेंट, मराठीतही हाच शब्द वापरतो. 반값 = अर्ध्या किमतीत.","rw":"English loanword explanation"}
+{"f":"cards","id":"ko.c0161","k":"note","src":"퍼센트 from English. 반값 = half price.","tgt":"퍼센트 = पर्सेंट, मराठीतही हाच शब्द वापरतात. 반값 = अर्ध्या किमतीत.","rw":"English loanword explanation"}
 {"f":"cards","id":"ko.c0162","k":"meaning","src":"It takes 30 minutes","tgt":"30 मिनिटं लागतात"}
 {"f":"cards","id":"ko.c0162","k":"note","src":"걸리다 = to take (time).","tgt":"걸리다 = (वेळ) लागणे."}
 {"f":"cards","id":"ko.c0163","k":"meaning","src":"one (thing)","tgt":"एक (वस्तू)"}
@@ -648,7 +648,7 @@
 {"f":"cards","id":"ko.c0194","k":"meaning","src":"I miss you","tgt":"तुमची आठवण येते"}
 {"f":"cards","id":"ko.c0194","k":"note","src":"Polite version. Casual 보고 싶어 is in Sweet talk.","tgt":"सभ्य रूप. अनौपचारिक 보고 싶어 \"गोड बोलणं\" डेकमध्ये आहे."}
 {"f":"cards","id":"ko.c0195","k":"meaning","src":"My heart flutters","tgt":"मनात धडधड होतेय"}
-{"f":"cards","id":"ko.c0195","k":"note","src":"설레다 = the butterflies feeling. Very K-drama.","tgt":"설레다 = पोटात फुलपाखरं उडल्यासारखं. एकदम के-ड्रामा."}
+{"f":"cards","id":"ko.c0195","k":"note","src":"설레다 = the butterflies feeling. Very K-drama.","tgt":"설레다 = मनातली गोड हुरहुर. एकदम के-ड्रामा."}
 {"f":"cards","id":"ko.c0196","k":"meaning","src":"I'm annoyed","tgt":"मला वैताग आलाय"}
 {"f":"cards","id":"ko.c0196","k":"note","src":"짜증 = irritation. 짜증 나! casual.","tgt":"짜증 = चिडचिड. 짜증 나! अनौपचारिक."}
 {"f":"cards","id":"ko.c0197","k":"meaning","src":"and (then)","tgt":"आणि (मग)"}
@@ -1074,7 +1074,7 @@
 {"f":"cards","id":"ko.c0411","k":"meaning","src":"You're pretty","tgt":"तू सुंदर आहेस"}
 {"f":"cards","id":"ko.c0411","k":"note","src":"Also for things: a pretty café.","tgt":"वस्तूंसाठीही: सुंदर कॅफे."}
 {"f":"cards","id":"ko.c0412","k":"meaning","src":"You're handsome","tgt":"तू देखणा आहेस"}
-{"f":"cards","id":"ko.c0412","k":"note","src":"Lit. 'came out well-formed'.","tgt":"शब्दशः \"चेहरा छान घडलाय\"."}
+{"f":"cards","id":"ko.c0412","k":"note","src":"Lit. 'came out well-formed'.","tgt":"शब्दशः \"छान घडलास\"."}
 {"f":"cards","id":"ko.c0413","k":"meaning","src":"I miss you","tgt":"तुझी आठवण येते"}
 {"f":"cards","id":"ko.c0413","k":"note","src":"Lit. 'I want to see you'.","tgt":"शब्दशः \"तुला बघावंसं वाटतं\"."}
 {"f":"cards","id":"ko.c0414","k":"meaning","src":"I like you","tgt":"तू मला आवडतोस/आवडतेस"}
@@ -1189,7 +1189,7 @@
 {"f":"cards","id":"ko.c0468","k":"note","src":"Said about a goal, a beat, a view. Casual.","tgt":"गोल, बीट किंवा दृश्याबद्दल. अनौपचारिक."}
 {"f":"cards","id":"ko.c0469","k":"meaning","src":"That's amazing","tgt":"हे तर भारीच आहे!"}
 {"f":"cards","id":"ko.c0469","k":"note","src":"Safe hype word for any crowd.","tgt":"कोणाहीसमोर चालणारा सुरक्षित शब्द."}
-{"f":"cards","id":"ko.c0470","k":"meaning","src":"Let's go!","tgt":"चला!"}
+{"f":"cards","id":"ko.c0470","k":"meaning","src":"Let's go!","tgt":"चल, जाऊया!"}
 {"f":"cards","id":"ko.c0470","k":"note","src":"Also the pre-game shout.","tgt":"खेळ सुरू होण्याआधीची घोषणाही."}
 {"f":"cards","id":"ko.c0471","k":"meaning","src":"Okay, deal / I'm in","tgt":"ओके, ठरलं!"}
 {"f":"cards","id":"ko.c0471","k":"note","src":"콜 = 'call', accepting a plan.","tgt":"콜 = \"कॉल\", बेत मान्य करणं."}
@@ -1513,7 +1513,7 @@
 {"f":"cards","id":"ko.c0630","k":"note","src":"Also 진짜로. 정말? (jeongmal) is slightly softer.","tgt":"진짜로 असंही. 정말? (jeongmal) थोडं सौम्य."}
 {"f":"cards","id":"ko.c0631","k":"meaning","src":"Awesome / no way","tgt":"भारी! / बापरे!"}
 {"f":"cards","id":"ko.c0631","k":"note","src":"Good or bad surprise. 대박 사건 = huge deal.","tgt":"चांगलं किंवा वाईट आश्चर्य. 대박 사건 = मोठीच गोष्ट."}
-{"f":"cards","id":"ko.c0632","k":"meaning","src":"OMG / what","tgt":"हैं?! / काय?!"}
+{"f":"cards","id":"ko.c0632","k":"meaning","src":"OMG / what","tgt":"अरेच्चा! / काय?!"}
 {"f":"cards","id":"ko.c0632","k":"note","src":"Stunned reaction. Mostly texting and casual speech.","tgt":"थक्क झाल्यावरची प्रतिक्रिया. बहुतेक मेसेजमध्ये आणि अनौपचारिक बोलण्यात."}
 {"f":"cards","id":"ko.c0633","k":"meaning","src":"Oh my / ugh","tgt":"अरे देवा"}
 {"f":"cards","id":"ko.c0633","k":"note","src":"Sigh word for any small misfortune.","tgt":"कोणत्याही छोट्या संकटावरचा उसासा."}

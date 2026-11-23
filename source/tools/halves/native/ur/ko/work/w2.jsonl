@@ -170,838 +170,838 @@
 {"f":"cards","id":"ko.c0799","k":"note","src":"걸어요. ㄷ irregular: ㄷ → ㄹ before a vowel.","tgt":"مؤدب شکل: 걸어요۔ ㄷ بے قاعدہ: حرفِ علت سے پہلے ㄷ → ㄹ۔"}
 {"f":"cards","id":"ko.c0800","k":"meaning","src":"to cry","tgt":"رونا"}
 {"f":"cards","id":"ko.c0800","k":"note","src":"울어요. ㄹ drops: 우세요, 우는 아이.","tgt":"مؤدب شکل: 울어요۔ ㄹ گر جاتا ہے: 우세요، 우는 아이۔"}
-{"f":"cards","id":"ko.c0801","k":"meaning","src":"to get along; to spend days","tgt":""}
-{"f":"cards","id":"ko.c0801","k":"note","src":"지내요. 잘 지냈어요? = how have you been?","tgt":""}
-{"f":"cards","id":"ko.c0802","k":"meaning","src":"to sell","tgt":""}
-{"f":"cards","id":"ko.c0802","k":"note","src":"팔아요. ㄹ drops: 파세요, 파는 곳.","tgt":""}
-{"f":"cards","id":"ko.c0803","k":"meaning","src":"to be born","tgt":""}
+{"f":"cards","id":"ko.c0801","k":"meaning","src":"to get along; to spend days","tgt":"نبھنا؛ دن گزارنا"}
+{"f":"cards","id":"ko.c0801","k":"note","src":"지내요. 잘 지냈어요? = how have you been?","tgt":"مؤدب شکل: 지내요۔ 잘 지냈어요 = اتنے دن کیسے گزرے؟"}
+{"f":"cards","id":"ko.c0802","k":"meaning","src":"to sell","tgt":"بیچنا"}
+{"f":"cards","id":"ko.c0802","k":"note","src":"팔아요. ㄹ drops: 파세요, 파는 곳.","tgt":"مؤدب شکل: 팔아요۔ ㄹ گر جاتا ہے: 파세요، 파는 곳۔"}
+{"f":"cards","id":"ko.c0803","k":"meaning","src":"to be born","tgt":"پیدا ہونا"}
 {"f":"cards","id":"ko.c0803","k":"note","src":"태어나요. 서울에서 태어났어요.","tgt":"태어나요. 서울에서 태어났어요.","pre":1}
-{"f":"cards","id":"ko.c0804","k":"meaning","src":"to teach","tgt":""}
+{"f":"cards","id":"ko.c0804","k":"meaning","src":"to teach","tgt":"پڑھانا؛ سکھانا"}
 {"f":"cards","id":"ko.c0804","k":"note","src":"가르쳐요. 영어를 가르쳐요.","tgt":"가르쳐요. 영어를 가르쳐요.","pre":1}
-{"f":"cards","id":"ko.c0805","k":"meaning","src":"to order (food); to make someone do","tgt":""}
-{"f":"cards","id":"ko.c0805","k":"note","src":"시켜요. 치킨 시킬까요? = shall we order chicken?","tgt":""}
-{"f":"cards","id":"ko.c0806","k":"meaning","src":"to want; to wish for","tgt":""}
-{"f":"cards","id":"ko.c0806","k":"note","src":"원해요. Formal; day to day use -고 싶다.","tgt":""}
-{"f":"cards","id":"ko.c0807","k":"meaning","src":"to forget","tgt":""}
-{"f":"cards","id":"ko.c0807","k":"note","src":"잊어요. Spoken more: 잊어버리다.","tgt":""}
-{"f":"cards","id":"ko.c0808","k":"meaning","src":"to make an effort; to try hard","tgt":""}
+{"f":"cards","id":"ko.c0805","k":"meaning","src":"to order (food); to make someone do","tgt":"(کھانا) منگوانا؛ کسی سے کروانا"}
+{"f":"cards","id":"ko.c0805","k":"note","src":"시켜요. 치킨 시킬까요? = shall we order chicken?","tgt":"مؤدب شکل: 시켜요۔ 치킨 시킬까요 = چکن منگوا لیں؟"}
+{"f":"cards","id":"ko.c0806","k":"meaning","src":"to want; to wish for","tgt":"چاہنا؛ خواہش کرنا"}
+{"f":"cards","id":"ko.c0806","k":"note","src":"원해요. Formal; day to day use -고 싶다.","tgt":"مؤدب شکل: 원해요۔ رسمی لفظ ہے؛ روزمرہ میں -고 싶다۔"}
+{"f":"cards","id":"ko.c0807","k":"meaning","src":"to forget","tgt":"بھولنا"}
+{"f":"cards","id":"ko.c0807","k":"note","src":"잊어요. Spoken more: 잊어버리다.","tgt":"مؤدب شکل: 잊어요۔ بول چال میں زیادہ: 잊어버리다۔"}
+{"f":"cards","id":"ko.c0808","k":"meaning","src":"to make an effort; to try hard","tgt":"کوشش کرنا؛ محنت کرنا"}
 {"f":"cards","id":"ko.c0808","k":"note","src":"노력해요. 더 노력할게요.","tgt":"노력해요. 더 노력할게요.","pre":1}
-{"f":"cards","id":"ko.c0809","k":"meaning","src":"to wash (yourself, food)","tgt":""}
+{"f":"cards","id":"ko.c0809","k":"meaning","src":"to wash (yourself, food)","tgt":"دھونا (خود کو، کھانے کی چیزیں)"}
 {"f":"cards","id":"ko.c0809","k":"note","src":"씻어요. 손 씻어요.","tgt":"씻어요. 손 씻어요.","pre":1}
-{"f":"cards","id":"ko.c0810","k":"meaning","src":"to fight; to argue","tgt":""}
+{"f":"cards","id":"ko.c0810","k":"meaning","src":"to fight; to argue","tgt":"لڑنا؛ جھگڑنا"}
 {"f":"cards","id":"ko.c0810","k":"note","src":"싸워요. 친구랑 싸웠어요.","tgt":"싸워요. 친구랑 싸웠어요.","pre":1}
-{"f":"cards","id":"ko.c0811","k":"meaning","src":"to call (phone)","tgt":""}
-{"f":"cards","id":"ko.c0811","k":"note","src":"전화해요. 이따 전화할게요 = I'll call you later.","tgt":""}
-{"f":"cards","id":"ko.c0812","k":"meaning","src":"to prepare; to get ready","tgt":""}
-{"f":"cards","id":"ko.c0812","k":"note","src":"준비해요. 준비됐어요? = are you ready?","tgt":""}
-{"f":"cards","id":"ko.c0813","k":"meaning","src":"to marry; to get married","tgt":""}
-{"f":"cards","id":"ko.c0813","k":"note","src":"결혼해요. 결혼했어요? = are you married?","tgt":""}
-{"f":"cards","id":"ko.c0814","k":"meaning","src":"to take (a photo); to stamp","tgt":""}
+{"f":"cards","id":"ko.c0811","k":"meaning","src":"to call (phone)","tgt":"فون کرنا"}
+{"f":"cards","id":"ko.c0811","k":"note","src":"전화해요. 이따 전화할게요 = I'll call you later.","tgt":"مؤدب شکل: 전화해요۔ 이따 전화할게요 = میں آپ کو بعد میں فون کروں گا/گی۔"}
+{"f":"cards","id":"ko.c0812","k":"meaning","src":"to prepare; to get ready","tgt":"تیاری کرنا؛ تیار ہونا"}
+{"f":"cards","id":"ko.c0812","k":"note","src":"준비해요. 준비됐어요? = are you ready?","tgt":"مؤدب شکل: 준비해요۔ 준비됐어요 = آپ تیار ہیں؟"}
+{"f":"cards","id":"ko.c0813","k":"meaning","src":"to marry; to get married","tgt":"شادی کرنا"}
+{"f":"cards","id":"ko.c0813","k":"note","src":"결혼해요. 결혼했어요? = are you married?","tgt":"مؤدب شکل: 결혼해요۔ 결혼했어요 = کیا آپ کی شادی ہو چکی ہے؟"}
+{"f":"cards","id":"ko.c0814","k":"meaning","src":"to take (a photo); to stamp","tgt":"(تصویر) کھینچنا؛ مہر لگانا"}
 {"f":"cards","id":"ko.c0814","k":"note","src":"찍어요. 사진 찍어 주세요.","tgt":"찍어요. 사진 찍어 주세요.","pre":1}
-{"f":"cards","id":"ko.c0815","k":"meaning","src":"to arrive","tgt":""}
+{"f":"cards","id":"ko.c0815","k":"meaning","src":"to arrive","tgt":"پہنچنا"}
 {"f":"cards","id":"ko.c0815","k":"note","src":"도착해요. 몇 시에 도착해요?","tgt":"도착해요. 몇 시에 도착해요?","pre":1}
-{"f":"cards","id":"ko.c0816","k":"meaning","src":"to borrow; to rent","tgt":""}
-{"f":"cards","id":"ko.c0816","k":"note","src":"빌려요. 책 빌려도 돼요? To lend: 빌려주다.","tgt":""}
-{"f":"cards","id":"ko.c0817","k":"meaning","src":"to choose; to pick","tgt":""}
-{"f":"cards","id":"ko.c0817","k":"note","src":"골라요. 르 irregular.","tgt":""}
-{"f":"cards","id":"ko.c0818","k":"meaning","src":"to get better (recover)","tgt":""}
-{"f":"cards","id":"ko.c0818","k":"note","src":"나아요. ㅅ irregular. 빨리 나으세요 = get well soon.","tgt":""}
-{"f":"cards","id":"ko.c0819","k":"meaning","src":"to remember","tgt":""}
-{"f":"cards","id":"ko.c0819","k":"note","src":"기억해요. 저 기억하세요? = do you remember me?","tgt":""}
-{"f":"cards","id":"ko.c0820","k":"meaning","src":"to close","tgt":""}
-{"f":"cards","id":"ko.c0820","k":"note","src":"닫아요. Regular, unlike 듣다 / 걷다.","tgt":""}
-{"f":"cards","id":"ko.c0821","k":"meaning","src":"to leave; to depart","tgt":""}
+{"f":"cards","id":"ko.c0816","k":"meaning","src":"to borrow; to rent","tgt":"ادھار لینا؛ کرائے پر لینا"}
+{"f":"cards","id":"ko.c0816","k":"note","src":"빌려요. 책 빌려도 돼요? To lend: 빌려주다.","tgt":"مؤدب شکل: 빌려요۔ 책 빌려도 돼요 (کتاب لے جاؤں؟)۔ ادھار دینا: 빌려주다۔"}
+{"f":"cards","id":"ko.c0817","k":"meaning","src":"to choose; to pick","tgt":"چننا؛ منتخب کرنا"}
+{"f":"cards","id":"ko.c0817","k":"note","src":"골라요. 르 irregular.","tgt":"مؤدب شکل: 골라요۔ 르 بے قاعدہ۔"}
+{"f":"cards","id":"ko.c0818","k":"meaning","src":"to get better (recover)","tgt":"ٹھیک ہونا (بیماری سے)"}
+{"f":"cards","id":"ko.c0818","k":"note","src":"나아요. ㅅ irregular. 빨리 나으세요 = get well soon.","tgt":"مؤدب شکل: 나아요۔ ㅅ بے قاعدہ۔ 빨리 나으세요 = جلدی ٹھیک ہو جائیے۔"}
+{"f":"cards","id":"ko.c0819","k":"meaning","src":"to remember","tgt":"یاد رکھنا"}
+{"f":"cards","id":"ko.c0819","k":"note","src":"기억해요. 저 기억하세요? = do you remember me?","tgt":"مؤدب شکل: 기억해요۔ 저 기억하세요 = کیا آپ کو میں یاد ہوں؟"}
+{"f":"cards","id":"ko.c0820","k":"meaning","src":"to close","tgt":"بند کرنا"}
+{"f":"cards","id":"ko.c0820","k":"note","src":"닫아요. Regular, unlike 듣다 / 걷다.","tgt":"مؤدب شکل: 닫아요۔ باقاعدہ ہے، 듣다 / 걷다 کی طرح نہیں۔"}
+{"f":"cards","id":"ko.c0821","k":"meaning","src":"to leave; to depart","tgt":"روانہ ہونا"}
 {"f":"cards","id":"ko.c0821","k":"note","src":"출발해요. 지금 출발해요.","tgt":"출발해요. 지금 출발해요.","pre":1}
-{"f":"cards","id":"ko.c0822","k":"meaning","src":"to turn on","tgt":""}
-{"f":"cards","id":"ko.c0822","k":"note","src":"켜요. 불 좀 켜 주세요 = turn the light on.","tgt":""}
-{"f":"cards","id":"ko.c0823","k":"meaning","src":"to turn off","tgt":""}
-{"f":"cards","id":"ko.c0823","k":"note","src":"꺼요 (ㅡ drops). 핸드폰 꺼 주세요.","tgt":""}
-{"f":"cards","id":"ko.c0824","k":"meaning","src":"to get better; to improve","tgt":""}
+{"f":"cards","id":"ko.c0822","k":"meaning","src":"to turn on","tgt":"چلانا (بتی، مشین)"}
+{"f":"cards","id":"ko.c0822","k":"note","src":"켜요. 불 좀 켜 주세요 = turn the light on.","tgt":"مؤدب شکل: 켜요۔ 불 좀 켜 주세요 = ذرا بتی جلا دیں۔"}
+{"f":"cards","id":"ko.c0823","k":"meaning","src":"to turn off","tgt":"بند کرنا (سوئچ)"}
+{"f":"cards","id":"ko.c0823","k":"note","src":"꺼요 (ㅡ drops). 핸드폰 꺼 주세요.","tgt":"مؤدب شکل: 꺼요 (ㅡ گر جاتا ہے)۔ 핸드폰 꺼 주세요 (فون بند کر دیں)۔"}
+{"f":"cards","id":"ko.c0824","k":"meaning","src":"to get better; to improve","tgt":"بہتر ہونا؛ سدھرنا"}
 {"f":"cards","id":"ko.c0824","k":"note","src":"좋아져요. 날씨가 좋아졌어요.","tgt":"좋아져요. 날씨가 좋아졌어요.","pre":1}
-{"f":"cards","id":"ko.c0825","k":"meaning","src":"to be the same; to be like","tgt":""}
-{"f":"cards","id":"ko.c0825","k":"note","src":"같아요 · before a noun: 같은. 같은 반 = the same class.","tgt":""}
-{"f":"cards","id":"ko.c0826","k":"meaning","src":"to be so; to be like that","tgt":""}
-{"f":"cards","id":"ko.c0826","k":"note","src":"그래요 · 그런 (ㅎ irregular). 그래요? = really?","tgt":""}
-{"f":"cards","id":"ko.c0827","k":"meaning","src":"to be how (what is it like?)","tgt":""}
-{"f":"cards","id":"ko.c0827","k":"note","src":"어때요? · 어떤 (ㅎ irregular). 날씨 어때요?","tgt":""}
-{"f":"cards","id":"ko.c0828","k":"meaning","src":"to be like this","tgt":""}
-{"f":"cards","id":"ko.c0828","k":"note","src":"이래요 · 이런 (ㅎ irregular). 왜 이래요? = what's wrong with you?","tgt":""}
-{"f":"cards","id":"ko.c0829","k":"meaning","src":"to be different","tgt":""}
-{"f":"cards","id":"ko.c0829","k":"note","src":"달라요 · 다른 (르 irregular).","tgt":""}
-{"f":"cards","id":"ko.c0830","k":"meaning","src":"to be new; to be fresh (feel new)","tgt":""}
-{"f":"cards","id":"ko.c0830","k":"note","src":"새로워요 · 새로운 (ㅂ irregular). For things: 새 (new).","tgt":""}
-{"f":"cards","id":"ko.c0831","k":"meaning","src":"to be important","tgt":""}
+{"f":"cards","id":"ko.c0825","k":"meaning","src":"to be the same; to be like","tgt":"ایک جیسا ہونا؛ جیسا ہونا"}
+{"f":"cards","id":"ko.c0825","k":"note","src":"같아요 · before a noun: 같은. 같은 반 = the same class.","tgt":"شکلیں: 같아요 · اسم سے پہلے: 같은۔ 같은 반 = ایک ہی کلاس۔"}
+{"f":"cards","id":"ko.c0826","k":"meaning","src":"to be so; to be like that","tgt":"ایسا ہونا؛ ویسا ہونا"}
+{"f":"cards","id":"ko.c0826","k":"note","src":"그래요 · 그런 (ㅎ irregular). 그래요? = really?","tgt":"شکلیں: 그래요 · 그런 (ㅎ بے قاعدہ)۔ سوال میں 그래요 = سچ میں؟"}
+{"f":"cards","id":"ko.c0827","k":"meaning","src":"to be how (what is it like?)","tgt":"کیسا ہونا (کیسا ہے؟)"}
+{"f":"cards","id":"ko.c0827","k":"note","src":"어때요? · 어떤 (ㅎ irregular). 날씨 어때요?","tgt":"شکلیں: 어때요 · 어떤 (ㅎ بے قاعدہ)۔ 날씨 어때요 (موسم کیسا ہے؟)"}
+{"f":"cards","id":"ko.c0828","k":"meaning","src":"to be like this","tgt":"اس طرح کا ہونا"}
+{"f":"cards","id":"ko.c0828","k":"note","src":"이래요 · 이런 (ㅎ irregular). 왜 이래요? = what's wrong with you?","tgt":"شکلیں: 이래요 · 이런 (ㅎ بے قاعدہ)۔ 왜 이래요 = آپ کو کیا ہو گیا ہے؟"}
+{"f":"cards","id":"ko.c0829","k":"meaning","src":"to be different","tgt":"مختلف ہونا"}
+{"f":"cards","id":"ko.c0829","k":"note","src":"달라요 · 다른 (르 irregular).","tgt":"شکلیں: 달라요 · 다른 (르 بے قاعدہ)۔"}
+{"f":"cards","id":"ko.c0830","k":"meaning","src":"to be new; to be fresh (feel new)","tgt":"نیا ہونا؛ تازہ لگنا (نیا محسوس ہونا)"}
+{"f":"cards","id":"ko.c0830","k":"note","src":"새로워요 · 새로운 (ㅂ irregular). For things: 새 (new).","tgt":"شکلیں: 새로워요 · 새로운 (ㅂ بے قاعدہ)۔ چیزوں کے لیے: 새 (نیا)۔"}
+{"f":"cards","id":"ko.c0831","k":"meaning","src":"to be important","tgt":"اہم ہونا"}
 {"f":"cards","id":"ko.c0831","k":"note","src":"중요해요 · 중요한.","tgt":"중요해요 · 중요한.","pre":1}
-{"f":"cards","id":"ko.c0832","k":"meaning","src":"to be difficult","tgt":""}
-{"f":"cards","id":"ko.c0832","k":"note","src":"어려워요 · 어려운 (ㅂ irregular). 한국어 어려워요?","tgt":""}
-{"f":"cards","id":"ko.c0833","k":"meaning","src":"to be easy","tgt":""}
-{"f":"cards","id":"ko.c0833","k":"note","src":"쉬워요 · 쉬운 (ㅂ irregular).","tgt":""}
-{"f":"cards","id":"ko.c0834","k":"meaning","src":"to be needed; to need","tgt":""}
-{"f":"cards","id":"ko.c0834","k":"note","src":"필요해요 · 필요한. 뭐가 필요해요? = what do you need?","tgt":""}
-{"f":"cards","id":"ko.c0835","k":"meaning","src":"to be high; to be tall (buildings)","tgt":""}
-{"f":"cards","id":"ko.c0835","k":"note","src":"높아요 · 높은. People are 키가 커요, not 높아요.","tgt":""}
-{"f":"cards","id":"ko.c0836","k":"meaning","src":"to be long","tgt":""}
-{"f":"cards","id":"ko.c0836","k":"note","src":"길어요 · 긴 (ㄹ drops).","tgt":""}
-{"f":"cards","id":"ko.c0837","k":"meaning","src":"to be young","tgt":""}
-{"f":"cards","id":"ko.c0837","k":"note","src":"젊어요 · 젊은. Said [점따].","tgt":""}
-{"f":"cards","id":"ko.c0838","k":"meaning","src":"to be sick; to hurt","tgt":""}
-{"f":"cards","id":"ko.c0838","k":"note","src":"아파요 · 아픈 (ㅡ drops). 어디 아파요?","tgt":""}
-{"f":"cards","id":"ko.c0839","k":"meaning","src":"to be few; to be little","tgt":""}
-{"f":"cards","id":"ko.c0839","k":"note","src":"적어요 · 적은. Opposite of 많다.","tgt":""}
-{"f":"cards","id":"ko.c0840","k":"meaning","src":"to be fast","tgt":""}
-{"f":"cards","id":"ko.c0840","k":"note","src":"빨라요 · 빠른 (르 irregular).","tgt":""}
-{"f":"cards","id":"ko.c0841","k":"meaning","src":"to be wide; to be spacious","tgt":""}
-{"f":"cards","id":"ko.c0841","k":"note","src":"넓어요 · 넓은. Said [널따].","tgt":""}
-{"f":"cards","id":"ko.c0842","k":"meaning","src":"to be strange; to be weird","tgt":""}
+{"f":"cards","id":"ko.c0832","k":"meaning","src":"to be difficult","tgt":"مشکل ہونا"}
+{"f":"cards","id":"ko.c0832","k":"note","src":"어려워요 · 어려운 (ㅂ irregular). 한국어 어려워요?","tgt":"شکلیں: 어려워요 · 어려운 (ㅂ بے قاعدہ)۔ 한국어 어려워요 (کوریائی مشکل ہے؟)"}
+{"f":"cards","id":"ko.c0833","k":"meaning","src":"to be easy","tgt":"آسان ہونا"}
+{"f":"cards","id":"ko.c0833","k":"note","src":"쉬워요 · 쉬운 (ㅂ irregular).","tgt":"شکلیں: 쉬워요 · 쉬운 (ㅂ بے قاعدہ)۔"}
+{"f":"cards","id":"ko.c0834","k":"meaning","src":"to be needed; to need","tgt":"ضرورت ہونا؛ چاہیے ہونا"}
+{"f":"cards","id":"ko.c0834","k":"note","src":"필요해요 · 필요한. 뭐가 필요해요? = what do you need?","tgt":"شکلیں: 필요해요 · 필요한۔ 뭐가 필요해요 = آپ کو کیا چاہیے؟"}
+{"f":"cards","id":"ko.c0835","k":"meaning","src":"to be high; to be tall (buildings)","tgt":"اونچا ہونا؛ بلند ہونا (عمارت)"}
+{"f":"cards","id":"ko.c0835","k":"note","src":"높아요 · 높은. People are 키가 커요, not 높아요.","tgt":"شکلیں: 높아요 · 높은۔ لوگوں کا قد: 키가 커요، 높아요 نہیں۔"}
+{"f":"cards","id":"ko.c0836","k":"meaning","src":"to be long","tgt":"لمبا ہونا"}
+{"f":"cards","id":"ko.c0836","k":"note","src":"길어요 · 긴 (ㄹ drops).","tgt":"شکلیں: 길어요 · 긴 (ㄹ گر جاتا ہے)۔"}
+{"f":"cards","id":"ko.c0837","k":"meaning","src":"to be young","tgt":"جوان ہونا"}
+{"f":"cards","id":"ko.c0837","k":"note","src":"젊어요 · 젊은. Said [점따].","tgt":"شکلیں: 젊어요 · 젊은۔ بولتے ہیں [점따]۔"}
+{"f":"cards","id":"ko.c0838","k":"meaning","src":"to be sick; to hurt","tgt":"بیمار ہونا؛ درد ہونا"}
+{"f":"cards","id":"ko.c0838","k":"note","src":"아파요 · 아픈 (ㅡ drops). 어디 아파요?","tgt":"شکلیں: 아파요 · 아픈 (ㅡ گر جاتا ہے)۔ 어디 아파요 (کہاں درد ہے؟)"}
+{"f":"cards","id":"ko.c0839","k":"meaning","src":"to be few; to be little","tgt":"کم ہونا؛ تھوڑا ہونا"}
+{"f":"cards","id":"ko.c0839","k":"note","src":"적어요 · 적은. Opposite of 많다.","tgt":"شکلیں: 적어요 · 적은۔ 많다 کا الٹ۔"}
+{"f":"cards","id":"ko.c0840","k":"meaning","src":"to be fast","tgt":"تیز ہونا"}
+{"f":"cards","id":"ko.c0840","k":"note","src":"빨라요 · 빠른 (르 irregular).","tgt":"شکلیں: 빨라요 · 빠른 (르 بے قاعدہ)۔"}
+{"f":"cards","id":"ko.c0841","k":"meaning","src":"to be wide; to be spacious","tgt":"چوڑا ہونا؛ کھلا کھلا ہونا"}
+{"f":"cards","id":"ko.c0841","k":"note","src":"넓어요 · 넓은. Said [널따].","tgt":"شکلیں: 넓어요 · 넓은۔ بولتے ہیں [널따]۔"}
+{"f":"cards","id":"ko.c0842","k":"meaning","src":"to be strange; to be weird","tgt":"عجیب ہونا"}
 {"f":"cards","id":"ko.c0842","k":"note","src":"이상해요 · 이상한.","tgt":"이상해요 · 이상한.","pre":1}
-{"f":"cards","id":"ko.c0843","k":"meaning","src":"to be similar","tgt":""}
+{"f":"cards","id":"ko.c0843","k":"meaning","src":"to be similar","tgt":"ملتا جلتا ہونا"}
 {"f":"cards","id":"ko.c0843","k":"note","src":"비슷해요 · 비슷한.","tgt":"비슷해요 · 비슷한.","pre":1}
-{"f":"cards","id":"ko.c0844","k":"meaning","src":"to be short (length, time)","tgt":""}
-{"f":"cards","id":"ko.c0844","k":"note","src":"짧아요 · 짧은. Short people: 키가 작아요.","tgt":""}
-{"f":"cards","id":"ko.c0845","k":"meaning","src":"to be thankful","tgt":""}
-{"f":"cards","id":"ko.c0845","k":"note","src":"고마워요 · 고마운 (ㅂ irregular). Warmer, less formal than 감사합니다.","tgt":""}
-{"f":"cards","id":"ko.c0846","k":"meaning","src":"to be warm","tgt":""}
-{"f":"cards","id":"ko.c0846","k":"note","src":"따뜻해요 · 따뜻한. Also for people: a warm person.","tgt":""}
-{"f":"cards","id":"ko.c0847","k":"meaning","src":"to be low","tgt":""}
+{"f":"cards","id":"ko.c0844","k":"meaning","src":"to be short (length, time)","tgt":"چھوٹا ہونا (لمبائی، وقت)"}
+{"f":"cards","id":"ko.c0844","k":"note","src":"짧아요 · 짧은. Short people: 키가 작아요.","tgt":"شکلیں: 짧아요 · 짧은۔ چھوٹے قد کے لوگ: 키가 작아요۔"}
+{"f":"cards","id":"ko.c0845","k":"meaning","src":"to be thankful","tgt":"شکر گزار ہونا"}
+{"f":"cards","id":"ko.c0845","k":"note","src":"고마워요 · 고마운 (ㅂ irregular). Warmer, less formal than 감사합니다.","tgt":"شکلیں: 고마워요 · 고마운 (ㅂ بے قاعدہ)۔ 감사합니다 سے زیادہ اپنائیت والا، کم رسمی۔"}
+{"f":"cards","id":"ko.c0846","k":"meaning","src":"to be warm","tgt":"گرم ہونا (خوشگوار)؛ گرم جوش ہونا"}
+{"f":"cards","id":"ko.c0846","k":"note","src":"따뜻해요 · 따뜻한. Also for people: a warm person.","tgt":"شکلیں: 따뜻해요 · 따뜻한۔ لوگوں کے لیے بھی: گرم جوش انسان۔"}
+{"f":"cards","id":"ko.c0847","k":"meaning","src":"to be low","tgt":"نیچا ہونا"}
 {"f":"cards","id":"ko.c0847","k":"note","src":"낮아요 · 낮은.","tgt":"낮아요 · 낮은.","pre":1}
-{"f":"cards","id":"ko.c0848","k":"meaning","src":"to be fun; to be enjoyable","tgt":""}
-{"f":"cards","id":"ko.c0848","k":"note","src":"즐거워요 · 즐거운 (ㅂ irregular). 즐거운 주말 보내세요.","tgt":""}
-{"f":"cards","id":"ko.c0849","k":"meaning","src":"to be scary; to be scared","tgt":""}
-{"f":"cards","id":"ko.c0849","k":"note","src":"무서워요 · 무서운 (ㅂ irregular).","tgt":""}
-{"f":"cards","id":"ko.c0850","k":"meaning","src":"to be light (weight)","tgt":""}
-{"f":"cards","id":"ko.c0850","k":"note","src":"가벼워요 · 가벼운 (ㅂ irregular).","tgt":""}
-{"f":"cards","id":"ko.c0851","k":"meaning","src":"to be healthy","tgt":""}
+{"f":"cards","id":"ko.c0848","k":"meaning","src":"to be fun; to be enjoyable","tgt":"مزے دار ہونا؛ لطف آنا"}
+{"f":"cards","id":"ko.c0848","k":"note","src":"즐거워요 · 즐거운 (ㅂ irregular). 즐거운 주말 보내세요.","tgt":"شکلیں: 즐거워요 · 즐거운 (ㅂ بے قاعدہ)۔ 즐거운 주말 보내세요 (ویک اینڈ مزے سے گزاریں)۔"}
+{"f":"cards","id":"ko.c0849","k":"meaning","src":"to be scary; to be scared","tgt":"ڈراؤنا ہونا؛ ڈر لگنا"}
+{"f":"cards","id":"ko.c0849","k":"note","src":"무서워요 · 무서운 (ㅂ irregular).","tgt":"شکلیں: 무서워요 · 무서운 (ㅂ بے قاعدہ)۔"}
+{"f":"cards","id":"ko.c0850","k":"meaning","src":"to be light (weight)","tgt":"ہلکا ہونا (وزن)"}
+{"f":"cards","id":"ko.c0850","k":"note","src":"가벼워요 · 가벼운 (ㅂ irregular).","tgt":"شکلیں: 가벼워요 · 가벼운 (ㅂ بے قاعدہ)۔"}
+{"f":"cards","id":"ko.c0851","k":"meaning","src":"to be healthy","tgt":"صحت مند ہونا"}
 {"f":"cards","id":"ko.c0851","k":"note","src":"건강해요 · 건강한.","tgt":"건강해요 · 건강한.","pre":1}
-{"f":"cards","id":"ko.c0852","k":"meaning","src":"to be bright","tgt":""}
-{"f":"cards","id":"ko.c0852","k":"note","src":"밝아요 · 밝은. Said [박따]. Also: cheerful (a person).","tgt":""}
-{"f":"cards","id":"ko.c0853","k":"meaning","src":"to be comfortable; to be convenient","tgt":""}
+{"f":"cards","id":"ko.c0852","k":"meaning","src":"to be bright","tgt":"روشن ہونا؛ چمکدار ہونا"}
+{"f":"cards","id":"ko.c0852","k":"note","src":"밝아요 · 밝은. Said [박따]. Also: cheerful (a person).","tgt":"شکلیں: 밝아요 · 밝은۔ بولتے ہیں [박따]۔ یہ بھی: ہنس مکھ (انسان)۔"}
+{"f":"cards","id":"ko.c0853","k":"meaning","src":"to be comfortable; to be convenient","tgt":"آرام دہ ہونا؛ سہولت والا ہونا"}
 {"f":"cards","id":"ko.c0853","k":"note","src":"편해요 · 편한.","tgt":"편해요 · 편한.","pre":1}
-{"f":"cards","id":"ko.c0854","k":"meaning","src":"to be clean","tgt":""}
+{"f":"cards","id":"ko.c0854","k":"meaning","src":"to be clean","tgt":"صاف ہونا"}
 {"f":"cards","id":"ko.c0854","k":"note","src":"깨끗해요 · 깨끗한.","tgt":"깨끗해요 · 깨끗한.","pre":1}
-{"f":"cards","id":"ko.c0855","k":"meaning","src":"to be dark","tgt":""}
-{"f":"cards","id":"ko.c0855","k":"note","src":"어두워요 · 어두운 (ㅂ irregular).","tgt":""}
-{"f":"cards","id":"ko.c0856","k":"meaning","src":"to be sorry","tgt":""}
-{"f":"cards","id":"ko.c0856","k":"note","src":"미안해요 · 미안한. Formal apology: 죄송합니다.","tgt":""}
-{"f":"cards","id":"ko.c0857","k":"meaning","src":"to be famous","tgt":""}
+{"f":"cards","id":"ko.c0855","k":"meaning","src":"to be dark","tgt":"اندھیرا ہونا"}
+{"f":"cards","id":"ko.c0855","k":"note","src":"어두워요 · 어두운 (ㅂ irregular).","tgt":"شکلیں: 어두워요 · 어두운 (ㅂ بے قاعدہ)۔"}
+{"f":"cards","id":"ko.c0856","k":"meaning","src":"to be sorry","tgt":"افسوس ہونا؛ شرمندہ ہونا"}
+{"f":"cards","id":"ko.c0856","k":"note","src":"미안해요 · 미안한. Formal apology: 죄송합니다.","tgt":"شکلیں: 미안해요 · 미안한۔ رسمی معافی: 죄송합니다۔"}
+{"f":"cards","id":"ko.c0857","k":"meaning","src":"to be famous","tgt":"مشہور ہونا"}
 {"f":"cards","id":"ko.c0857","k":"note","src":"유명해요 · 유명한.","tgt":"유명해요 · 유명한.","pre":1}
-{"f":"cards","id":"ko.c0858","k":"meaning","src":"to be glad; to be joyful","tgt":""}
-{"f":"cards","id":"ko.c0858","k":"note","src":"기뻐요 · 기쁜 (ㅡ drops).","tgt":""}
-{"f":"cards","id":"ko.c0859","k":"meaning","src":"to be heavy","tgt":""}
-{"f":"cards","id":"ko.c0859","k":"note","src":"무거워요 · 무거운 (ㅂ irregular).","tgt":""}
-{"f":"cards","id":"ko.c0860","k":"meaning","src":"to be special","tgt":""}
+{"f":"cards","id":"ko.c0858","k":"meaning","src":"to be glad; to be joyful","tgt":"خوش ہونا؛ مسرور ہونا"}
+{"f":"cards","id":"ko.c0858","k":"note","src":"기뻐요 · 기쁜 (ㅡ drops).","tgt":"شکلیں: 기뻐요 · 기쁜 (ㅡ گر جاتا ہے)۔"}
+{"f":"cards","id":"ko.c0859","k":"meaning","src":"to be heavy","tgt":"بھاری ہونا"}
+{"f":"cards","id":"ko.c0859","k":"note","src":"무거워요 · 무거운 (ㅂ irregular).","tgt":"شکلیں: 무거워요 · 무거운 (ㅂ بے قاعدہ)۔"}
+{"f":"cards","id":"ko.c0860","k":"meaning","src":"to be special","tgt":"خاص ہونا"}
 {"f":"cards","id":"ko.c0860","k":"note","src":"특별해요 · 특별한.","tgt":"특별해요 · 특별한.","pre":1}
-{"f":"cards","id":"ko.c0861","k":"meaning","src":"to be hot (to the touch)","tgt":""}
-{"f":"cards","id":"ko.c0861","k":"note","src":"뜨거워요 · 뜨거운 (ㅂ irregular). Hot weather is 덥다.","tgt":""}
-{"f":"cards","id":"ko.c0862","k":"meaning","src":"to be kind (helpful)","tgt":""}
-{"f":"cards","id":"ko.c0862","k":"note","src":"친절해요 · 친절한. For staff, strangers.","tgt":""}
-{"f":"cards","id":"ko.c0863","k":"meaning","src":"to be narrow; to be cramped","tgt":""}
+{"f":"cards","id":"ko.c0861","k":"meaning","src":"to be hot (to the touch)","tgt":"گرم ہونا (چھونے میں)"}
+{"f":"cards","id":"ko.c0861","k":"note","src":"뜨거워요 · 뜨거운 (ㅂ irregular). Hot weather is 덥다.","tgt":"شکلیں: 뜨거워요 · 뜨거운 (ㅂ بے قاعدہ)۔ گرم موسم کے لیے 덥다۔"}
+{"f":"cards","id":"ko.c0862","k":"meaning","src":"to be kind (helpful)","tgt":"مہربان ہونا (مدد کرنے والا)"}
+{"f":"cards","id":"ko.c0862","k":"note","src":"친절해요 · 친절한. For staff, strangers.","tgt":"شکلیں: 친절해요 · 친절한۔ عملے اور اجنبیوں کے لیے۔"}
+{"f":"cards","id":"ko.c0863","k":"meaning","src":"to be narrow; to be cramped","tgt":"تنگ ہونا؛ گھٹا گھٹا ہونا"}
 {"f":"cards","id":"ko.c0863","k":"note","src":"좁아요 · 좁은.","tgt":"좁아요 · 좁은.","pre":1}
-{"f":"cards","id":"ko.c0864","k":"meaning","src":"to be uncomfortable; to be inconvenient","tgt":""}
+{"f":"cards","id":"ko.c0864","k":"meaning","src":"to be uncomfortable; to be inconvenient","tgt":"تکلیف دہ ہونا؛ بے آرام ہونا"}
 {"f":"cards","id":"ko.c0864","k":"note","src":"불편해요 · 불편한.","tgt":"불편해요 · 불편한.","pre":1}
-{"f":"cards","id":"ko.c0865","k":"meaning","src":"to be cool; to be refreshing","tgt":""}
-{"f":"cards","id":"ko.c0865","k":"note","src":"시원해요 · 시원한. Also said of hot soup: \"ah, that hits the spot\".","tgt":""}
-{"f":"cards","id":"ko.c0866","k":"meaning","src":"to be glad (to see someone)","tgt":""}
-{"f":"cards","id":"ko.c0866","k":"note","src":"반가워요 · 반가운 (ㅂ irregular).","tgt":""}
-{"f":"cards","id":"ko.c0867","k":"meaning","src":"to be cold (to the touch)","tgt":""}
-{"f":"cards","id":"ko.c0867","k":"note","src":"차가워요 · 차가운 (ㅂ irregular). Cold weather is 춥다.","tgt":""}
-{"f":"cards","id":"ko.c0868","k":"meaning","src":"to be spicy","tgt":""}
-{"f":"cards","id":"ko.c0868","k":"note","src":"매워요 · 매운 (ㅂ irregular).","tgt":""}
-{"f":"cards","id":"ko.c0869","k":"meaning","src":"to be sweet (taste)","tgt":""}
-{"f":"cards","id":"ko.c0869","k":"note","src":"달아요 · 단 (ㄹ drops).","tgt":""}
-{"f":"cards","id":"ko.c0870","k":"meaning","src":"to be slow","tgt":""}
+{"f":"cards","id":"ko.c0865","k":"meaning","src":"to be cool; to be refreshing","tgt":"ٹھنڈک بھرا ہونا؛ تازگی دینا"}
+{"f":"cards","id":"ko.c0865","k":"note","src":"시원해요 · 시원한. Also said of hot soup: \"ah, that hits the spot\".","tgt":"شکلیں: 시원해요 · 시원한۔ گرم سوپ کے لیے بھی کہتے ہیں: \"آہ، مزہ آ گیا\"۔"}
+{"f":"cards","id":"ko.c0866","k":"meaning","src":"to be glad (to see someone)","tgt":"(مل کر) خوشی ہونا"}
+{"f":"cards","id":"ko.c0866","k":"note","src":"반가워요 · 반가운 (ㅂ irregular).","tgt":"شکلیں: 반가워요 · 반가운 (ㅂ بے قاعدہ)۔"}
+{"f":"cards","id":"ko.c0867","k":"meaning","src":"to be cold (to the touch)","tgt":"ٹھنڈا ہونا (چھونے میں)"}
+{"f":"cards","id":"ko.c0867","k":"note","src":"차가워요 · 차가운 (ㅂ irregular). Cold weather is 춥다.","tgt":"شکلیں: 차가워요 · 차가운 (ㅂ بے قاعدہ)۔ ٹھنڈے موسم کے لیے 춥다۔"}
+{"f":"cards","id":"ko.c0868","k":"meaning","src":"to be spicy","tgt":"تیز مرچ والا ہونا"}
+{"f":"cards","id":"ko.c0868","k":"note","src":"매워요 · 매운 (ㅂ irregular).","tgt":"شکلیں: 매워요 · 매운 (ㅂ بے قاعدہ)۔"}
+{"f":"cards","id":"ko.c0869","k":"meaning","src":"to be sweet (taste)","tgt":"میٹھا ہونا (ذائقہ)"}
+{"f":"cards","id":"ko.c0869","k":"note","src":"달아요 · 단 (ㄹ drops).","tgt":"شکلیں: 달아요 · 단 (ㄹ گر جاتا ہے)۔"}
+{"f":"cards","id":"ko.c0870","k":"meaning","src":"to be slow","tgt":"سست ہونا؛ آہستہ ہونا"}
 {"f":"cards","id":"ko.c0870","k":"note","src":"느려요 · 느린.","tgt":"느려요 · 느린.","pre":1}
-{"f":"cards","id":"ko.c0871","k":"meaning","src":"to be dirty","tgt":""}
-{"f":"cards","id":"ko.c0871","k":"note","src":"더러워요 · 더러운 (ㅂ irregular).","tgt":""}
-{"f":"cards","id":"ko.c0872","k":"meaning","src":"to be noisy","tgt":""}
-{"f":"cards","id":"ko.c0872","k":"note","src":"시끄러워요 · 시끄러운 (ㅂ irregular).","tgt":""}
-{"f":"cards","id":"ko.c0873","k":"meaning","src":"to be white","tgt":""}
-{"f":"cards","id":"ko.c0873","k":"note","src":"하얘요 · 하얀 (ㅎ irregular).","tgt":""}
-{"f":"cards","id":"ko.c0874","k":"meaning","src":"to be salty","tgt":""}
+{"f":"cards","id":"ko.c0871","k":"meaning","src":"to be dirty","tgt":"گندا ہونا"}
+{"f":"cards","id":"ko.c0871","k":"note","src":"더러워요 · 더러운 (ㅂ irregular).","tgt":"شکلیں: 더러워요 · 더러운 (ㅂ بے قاعدہ)۔"}
+{"f":"cards","id":"ko.c0872","k":"meaning","src":"to be noisy","tgt":"شور والا ہونا"}
+{"f":"cards","id":"ko.c0872","k":"note","src":"시끄러워요 · 시끄러운 (ㅂ irregular).","tgt":"شکلیں: 시끄러워요 · 시끄러운 (ㅂ بے قاعدہ)۔"}
+{"f":"cards","id":"ko.c0873","k":"meaning","src":"to be white","tgt":"سفید ہونا"}
+{"f":"cards","id":"ko.c0873","k":"note","src":"하얘요 · 하얀 (ㅎ irregular).","tgt":"شکلیں: 하얘요 · 하얀 (ㅎ بے قاعدہ)۔"}
+{"f":"cards","id":"ko.c0874","k":"meaning","src":"to be salty","tgt":"نمکین ہونا"}
 {"f":"cards","id":"ko.c0874","k":"note","src":"짜요 · 짠.","tgt":"짜요 · 짠.","pre":1}
-{"f":"cards","id":"ko.c0875","k":"meaning","src":"to be quiet","tgt":""}
+{"f":"cards","id":"ko.c0875","k":"meaning","src":"to be quiet","tgt":"خاموش ہونا؛ پرسکون ہونا"}
 {"f":"cards","id":"ko.c0875","k":"note","src":"조용해요 · 조용한.","tgt":"조용해요 · 조용한.","pre":1}
-{"f":"cards","id":"ko.c0876","k":"meaning","src":"to be envious (of)","tgt":""}
-{"f":"cards","id":"ko.c0876","k":"note","src":"부러워요 · 부러운 (ㅂ irregular). 부러워요! = lucky you!","tgt":""}
-{"f":"cards","id":"ko.c0877","k":"meaning","src":"to be red","tgt":""}
-{"f":"cards","id":"ko.c0877","k":"note","src":"빨개요 · 빨간 (ㅎ irregular).","tgt":""}
-{"f":"cards","id":"ko.c0878","k":"meaning","src":"to be full (after eating)","tgt":""}
-{"f":"cards","id":"ko.c0878","k":"note","src":"배불러요 · 배부른 (르 irregular).","tgt":""}
-{"f":"cards","id":"ko.c0879","k":"meaning","src":"to be boring; not fun","tgt":""}
-{"f":"cards","id":"ko.c0879","k":"note","src":"재미없어요 · 재미없는 (있다/없다 take -는).","tgt":""}
-{"f":"cards","id":"ko.c0880","k":"meaning","src":"to be yellow","tgt":""}
-{"f":"cards","id":"ko.c0880","k":"note","src":"노래요 · 노란 (ㅎ irregular). 노래요 also = it's a song.","tgt":""}
-{"f":"cards","id":"ko.c0881","k":"meaning","src":"to taste bad","tgt":""}
-{"f":"cards","id":"ko.c0881","k":"note","src":"맛없어요 · 맛없는. Said [마덥따].","tgt":""}
-{"f":"cards","id":"ko.c0882","k":"meaning","src":"to be black","tgt":""}
-{"f":"cards","id":"ko.c0882","k":"note","src":"까매요 · 까만 (ㅎ irregular).","tgt":""}
-{"f":"cards","id":"ko.c0883","k":"meaning","src":"to be lonely","tgt":""}
-{"f":"cards","id":"ko.c0883","k":"note","src":"외로워요 · 외로운 (ㅂ irregular).","tgt":""}
-{"f":"cards","id":"ko.c0884","k":"meaning","src":"to be blue","tgt":""}
-{"f":"cards","id":"ko.c0884","k":"note","src":"파래요 · 파란 (ㅎ irregular).","tgt":""}
-{"f":"cards","id":"ko.c0885","k":"meaning","src":"to be a hassle; can't be bothered","tgt":""}
-{"f":"cards","id":"ko.c0885","k":"note","src":"귀찮아요 · 귀찮은. Very common in speech.","tgt":""}
-{"f":"cards","id":"ko.c0886","k":"meaning","src":"not (short negation)","tgt":""}
-{"f":"cards","id":"ko.c0886","k":"note","src":"Right before the verb: 안 가요. With 하다 verbs: 공부 안 해요.","tgt":""}
-{"f":"cards","id":"ko.c0887","k":"meaning","src":"more","tgt":""}
-{"f":"cards","id":"ko.c0887","k":"note","src":"더 주세요 = more, please; 조금 더 = a bit more.","tgt":""}
-{"f":"cards","id":"ko.c0888","k":"meaning","src":"well","tgt":""}
-{"f":"cards","id":"ko.c0888","k":"note","src":"잘 자요 = sleep well; 잘 몰라요 = I don't really know.","tgt":""}
-{"f":"cards","id":"ko.c0889","k":"meaning","src":"again; also","tgt":""}
-{"f":"cards","id":"ko.c0889","k":"note","src":"또 봐요 = see you again; 또 늦었어요? = late again?","tgt":""}
-{"f":"cards","id":"ko.c0890","k":"meaning","src":"how","tgt":""}
-{"f":"cards","id":"ko.c0890","k":"note","src":"어떻게 가요? = how do I get there? 어떡해 = oh no (from 어떻게 해).","tgt":""}
-{"f":"cards","id":"ko.c0891","k":"meaning","src":"again","tgt":""}
-{"f":"cards","id":"ko.c0891","k":"note","src":"다시 한번 = once more.","tgt":""}
-{"f":"cards","id":"ko.c0892","k":"meaning","src":"all; everything","tgt":""}
-{"f":"cards","id":"ko.c0892","k":"note","src":"다 먹었어요 = I ate it all; 다 왔어요 = we're almost there.","tgt":""}
-{"f":"cards","id":"ko.c0893","k":"meaning","src":"a little; please (softener)","tgt":""}
-{"f":"cards","id":"ko.c0893","k":"note","src":"좀 도와주세요 sounds softer than 도와주세요. Short for 조금.","tgt":""}
-{"f":"cards","id":"ko.c0894","k":"meaning","src":"together (a bit formal)","tgt":""}
-{"f":"cards","id":"ko.c0894","k":"note","src":"Everyday: 같이. 함께해요 = let's do it together.","tgt":""}
-{"f":"cards","id":"ko.c0895","k":"meaning","src":"a lot; much","tgt":""}
-{"f":"cards","id":"ko.c0895","k":"note","src":"많이 드세요 = eat plenty (said by a host).","tgt":""}
-{"f":"cards","id":"ko.c0896","k":"meaning","src":"most (the …-est)","tgt":""}
-{"f":"cards","id":"ko.c0896","k":"note","src":"가장 좋아하는 = my favorite. Spoken more: 제일.","tgt":""}
-{"f":"cards","id":"ko.c0897","k":"meaning","src":"right (away); exactly","tgt":""}
-{"f":"cards","id":"ko.c0897","k":"note","src":"바로 앞 = right in front; 바로 갈게요 = I'll come right away.","tgt":""}
-{"f":"cards","id":"ko.c0898","k":"meaning","src":"all; everyone","tgt":""}
-{"f":"cards","id":"ko.c0898","k":"note","src":"모두 같이 = all together.","tgt":""}
-{"f":"cards","id":"ko.c0899","k":"meaning","src":"why","tgt":""}
-{"f":"cards","id":"ko.c0899","k":"note","src":"왜요? = why? Sounds blunt alone; add 혹시 to soften.","tgt":""}
-{"f":"cards","id":"ko.c0900","k":"meaning","src":"especially","tgt":""}
+{"f":"cards","id":"ko.c0876","k":"meaning","src":"to be envious (of)","tgt":"رشک آنا"}
+{"f":"cards","id":"ko.c0876","k":"note","src":"부러워요 · 부러운 (ㅂ irregular). 부러워요! = lucky you!","tgt":"شکلیں: 부러워요 · 부러운 (ㅂ بے قاعدہ)۔ 부러워요 = واہ، آپ کی تو قسمت اچھی ہے!"}
+{"f":"cards","id":"ko.c0877","k":"meaning","src":"to be red","tgt":"لال ہونا"}
+{"f":"cards","id":"ko.c0877","k":"note","src":"빨개요 · 빨간 (ㅎ irregular).","tgt":"شکلیں: 빨개요 · 빨간 (ㅎ بے قاعدہ)۔"}
+{"f":"cards","id":"ko.c0878","k":"meaning","src":"to be full (after eating)","tgt":"پیٹ بھرا ہونا"}
+{"f":"cards","id":"ko.c0878","k":"note","src":"배불러요 · 배부른 (르 irregular).","tgt":"شکلیں: 배불러요 · 배부른 (르 بے قاعدہ)۔"}
+{"f":"cards","id":"ko.c0879","k":"meaning","src":"to be boring; not fun","tgt":"بور ہونا؛ مزہ نہ آنا"}
+{"f":"cards","id":"ko.c0879","k":"note","src":"재미없어요 · 재미없는 (있다/없다 take -는).","tgt":"شکلیں: 재미없어요 · 재미없는 (있다/없다 کے ساتھ -는 آتا ہے)۔"}
+{"f":"cards","id":"ko.c0880","k":"meaning","src":"to be yellow","tgt":"پیلا ہونا"}
+{"f":"cards","id":"ko.c0880","k":"note","src":"노래요 · 노란 (ㅎ irregular). 노래요 also = it's a song.","tgt":"شکلیں: 노래요 · 노란 (ㅎ بے قاعدہ)۔ 노래요 کا مطلب \"یہ گانا ہے\" بھی ہے۔"}
+{"f":"cards","id":"ko.c0881","k":"meaning","src":"to taste bad","tgt":"بے مزہ ہونا"}
+{"f":"cards","id":"ko.c0881","k":"note","src":"맛없어요 · 맛없는. Said [마덥따].","tgt":"شکلیں: 맛없어요 · 맛없는۔ بولتے ہیں [마덥따]۔"}
+{"f":"cards","id":"ko.c0882","k":"meaning","src":"to be black","tgt":"کالا ہونا"}
+{"f":"cards","id":"ko.c0882","k":"note","src":"까매요 · 까만 (ㅎ irregular).","tgt":"شکلیں: 까매요 · 까만 (ㅎ بے قاعدہ)۔"}
+{"f":"cards","id":"ko.c0883","k":"meaning","src":"to be lonely","tgt":"تنہائی محسوس ہونا"}
+{"f":"cards","id":"ko.c0883","k":"note","src":"외로워요 · 외로운 (ㅂ irregular).","tgt":"شکلیں: 외로워요 · 외로운 (ㅂ بے قاعدہ)۔"}
+{"f":"cards","id":"ko.c0884","k":"meaning","src":"to be blue","tgt":"نیلا ہونا"}
+{"f":"cards","id":"ko.c0884","k":"note","src":"파래요 · 파란 (ㅎ irregular).","tgt":"شکلیں: 파래요 · 파란 (ㅎ بے قاعدہ)۔"}
+{"f":"cards","id":"ko.c0885","k":"meaning","src":"to be a hassle; can't be bothered","tgt":"جھنجھٹ لگنا؛ دل نہ کرنا"}
+{"f":"cards","id":"ko.c0885","k":"note","src":"귀찮아요 · 귀찮은. Very common in speech.","tgt":"شکلیں: 귀찮아요 · 귀찮은۔ بول چال میں بہت عام۔"}
+{"f":"cards","id":"ko.c0886","k":"meaning","src":"not (short negation)","tgt":"نہیں (مختصر انکار)"}
+{"f":"cards","id":"ko.c0886","k":"note","src":"Right before the verb: 안 가요. With 하다 verbs: 공부 안 해요.","tgt":"فعل کے بالکل پہلے: 안 가요۔ 하다 والے فعل کے ساتھ بیچ میں: 공부 안 해요 (اردو کی طرح: پڑھائی نہیں کرتا)۔"}
+{"f":"cards","id":"ko.c0887","k":"meaning","src":"more","tgt":"اور؛ زیادہ"}
+{"f":"cards","id":"ko.c0887","k":"note","src":"더 주세요 = more, please; 조금 더 = a bit more.","tgt":"مثال: 더 주세요 = اور دے دیں؛ 조금 더 = تھوڑا اور۔"}
+{"f":"cards","id":"ko.c0888","k":"meaning","src":"well","tgt":"اچھی طرح"}
+{"f":"cards","id":"ko.c0888","k":"note","src":"잘 자요 = sleep well; 잘 몰라요 = I don't really know.","tgt":"مثال: 잘 자요 = اچھی نیند سوئیں؛ 잘 몰라요 = مجھے ٹھیک سے نہیں پتا۔"}
+{"f":"cards","id":"ko.c0889","k":"meaning","src":"again; also","tgt":"پھر؛ بھی"}
+{"f":"cards","id":"ko.c0889","k":"note","src":"또 봐요 = see you again; 또 늦었어요? = late again?","tgt":"مثال: 또 봐요 = پھر ملیں گے؛ 또 늦었어요 = آج پھر دیر ہو گئی؟"}
+{"f":"cards","id":"ko.c0890","k":"meaning","src":"how","tgt":"کیسے"}
+{"f":"cards","id":"ko.c0890","k":"note","src":"어떻게 가요? = how do I get there? 어떡해 = oh no (from 어떻게 해).","tgt":"مثال: 어떻게 가요 = وہاں کیسے جائیں؟ 어떡해 = ہائے، اب کیا کریں (어떻게 해 سے بنا)۔"}
+{"f":"cards","id":"ko.c0891","k":"meaning","src":"again","tgt":"دوبارہ"}
+{"f":"cards","id":"ko.c0891","k":"note","src":"다시 한번 = once more.","tgt":"مثال: 다시 한번 = ایک بار اور۔"}
+{"f":"cards","id":"ko.c0892","k":"meaning","src":"all; everything","tgt":"سب؛ سب کچھ"}
+{"f":"cards","id":"ko.c0892","k":"note","src":"다 먹었어요 = I ate it all; 다 왔어요 = we're almost there.","tgt":"مثال: 다 먹었어요 = میں نے سب کھا لیا؛ 다 왔어요 = بس پہنچنے والے ہیں۔"}
+{"f":"cards","id":"ko.c0893","k":"meaning","src":"a little; please (softener)","tgt":"تھوڑا؛ ذرا (نرمی لانے والا لفظ)"}
+{"f":"cards","id":"ko.c0893","k":"note","src":"좀 도와주세요 sounds softer than 도와주세요. Short for 조금.","tgt":"سننے میں 좀 도와주세요، صرف 도와주세요 سے نرم ہے۔ یہ 조금 کا مختصر ہے۔"}
+{"f":"cards","id":"ko.c0894","k":"meaning","src":"together (a bit formal)","tgt":"ساتھ مل کر (ذرا رسمی)"}
+{"f":"cards","id":"ko.c0894","k":"note","src":"Everyday: 같이. 함께해요 = let's do it together.","tgt":"روزمرہ میں: 같이۔ 함께해요 = آئیں مل کر کریں۔"}
+{"f":"cards","id":"ko.c0895","k":"meaning","src":"a lot; much","tgt":"بہت سارا؛ زیادہ"}
+{"f":"cards","id":"ko.c0895","k":"note","src":"많이 드세요 = eat plenty (said by a host).","tgt":"مثال: 많이 드세요 = جی بھر کر کھائیے (میزبان کہتا ہے)۔"}
+{"f":"cards","id":"ko.c0896","k":"meaning","src":"most (the …-est)","tgt":"سب سے (زیادہ)"}
+{"f":"cards","id":"ko.c0896","k":"note","src":"가장 좋아하는 = my favorite. Spoken more: 제일.","tgt":"مثال: 가장 좋아하는 = میرا سب سے پسندیدہ۔ بول چال میں زیادہ: 제일۔"}
+{"f":"cards","id":"ko.c0897","k":"meaning","src":"right (away); exactly","tgt":"فوراً؛ بالکل"}
+{"f":"cards","id":"ko.c0897","k":"note","src":"바로 앞 = right in front; 바로 갈게요 = I'll come right away.","tgt":"مثال: 바로 앞 = بالکل سامنے؛ 바로 갈게요 = میں ابھی آتا/آتی ہوں۔"}
+{"f":"cards","id":"ko.c0898","k":"meaning","src":"all; everyone","tgt":"سب؛ سب لوگ"}
+{"f":"cards","id":"ko.c0898","k":"note","src":"모두 같이 = all together.","tgt":"مثال: 모두 같이 = سب ایک ساتھ۔"}
+{"f":"cards","id":"ko.c0899","k":"meaning","src":"why","tgt":"کیوں"}
+{"f":"cards","id":"ko.c0899","k":"note","src":"왜요? = why? Sounds blunt alone; add 혹시 to soften.","tgt":"مثال: 왜요 = کیوں؟ اکیلا بولیں تو روکھا لگتا ہے؛ نرمی کے لیے 혹시 لگائیں۔"}
+{"f":"cards","id":"ko.c0900","k":"meaning","src":"especially","tgt":"خاص طور پر"}
 {"f":"cards","id":"ko.c0900","k":"note","src":"특히 김치를 좋아해요.","tgt":"특히 김치를 좋아해요.","pre":1}
-{"f":"cards","id":"ko.c0901","k":"meaning","src":"yet; still","tgt":""}
-{"f":"cards","id":"ko.c0901","k":"note","src":"아직 안 먹었어요 = I haven't eaten yet.","tgt":""}
-{"f":"cards","id":"ko.c0902","k":"meaning","src":"together","tgt":""}
-{"f":"cards","id":"ko.c0902","k":"note","src":"같이 가요 = let's go together. After a noun it is a particle: 꽃같이 = like a flower.","tgt":""}
-{"f":"cards","id":"ko.c0903","k":"meaning","src":"can't","tgt":""}
-{"f":"cards","id":"ko.c0903","k":"note","src":"Right before the verb: 못 가요 = I can't go. 수영 못 해요.","tgt":""}
-{"f":"cards","id":"ko.c0904","k":"meaning","src":"too; so (very)","tgt":""}
-{"f":"cards","id":"ko.c0904","k":"note","src":"너무 비싸요 = too expensive; 너무 좋아요 = I love it.","tgt":""}
-{"f":"cards","id":"ko.c0905","k":"meaning","src":"already (done earlier)","tgt":""}
-{"f":"cards","id":"ko.c0905","k":"note","src":"이미 끝났어요 = it's already over.","tgt":""}
-{"f":"cards","id":"ko.c0906","k":"meaning","src":"very","tgt":""}
-{"f":"cards","id":"ko.c0906","k":"note","src":"Neutral. Spoken more: 정말, 진짜, 너무.","tgt":""}
-{"f":"cards","id":"ko.c0907","k":"meaning","src":"just; for no reason","tgt":""}
-{"f":"cards","id":"ko.c0907","k":"note","src":"그냥요 = no reason; 그냥 그래요 = so-so.","tgt":""}
-{"f":"cards","id":"ko.c0908","k":"meaning","src":"almost; hardly","tgt":""}
-{"f":"cards","id":"ko.c0908","k":"note","src":"거의 다 왔어요 = almost there; 거의 안 먹어요 = I hardly eat.","tgt":""}
-{"f":"cards","id":"ko.c0909","k":"meaning","src":"soon","tgt":""}
-{"f":"cards","id":"ko.c0909","k":"note","src":"곧 도착해요 = arriving soon.","tgt":""}
-{"f":"cards","id":"ko.c0910","k":"meaning","src":"each other","tgt":""}
-{"f":"cards","id":"ko.c0910","k":"note","src":"서로 도와요 = we help each other.","tgt":""}
-{"f":"cards","id":"ko.c0911","k":"meaning","src":"really; truly","tgt":""}
-{"f":"cards","id":"ko.c0911","k":"note","src":"정말 맛있어요. 정말요? = really?","tgt":""}
-{"f":"cards","id":"ko.c0912","k":"meaning","src":"alone; by yourself","tgt":""}
-{"f":"cards","id":"ko.c0912","k":"note","src":"혼자 왔어요 = I came alone.","tgt":""}
-{"f":"cards","id":"ko.c0913","k":"meaning","src":"now (from now on); finally","tgt":""}
-{"f":"cards","id":"ko.c0913","k":"note","src":"이제 가요 = I'm going now; 이제 알겠어요 = now I get it.","tgt":""}
-{"f":"cards","id":"ko.c0914","k":"meaning","src":"surely; be sure to","tgt":""}
-{"f":"cards","id":"ko.c0914","k":"note","src":"꼭 오세요 = be sure to come.","tgt":""}
-{"f":"cards","id":"ko.c0915","k":"meaning","src":"these days; lately","tgt":""}
+{"f":"cards","id":"ko.c0901","k":"meaning","src":"yet; still","tgt":"ابھی تک؛ اب بھی"}
+{"f":"cards","id":"ko.c0901","k":"note","src":"아직 안 먹었어요 = I haven't eaten yet.","tgt":"مثال: 아직 안 먹었어요 = میں نے ابھی تک نہیں کھایا۔"}
+{"f":"cards","id":"ko.c0902","k":"meaning","src":"together","tgt":"ساتھ"}
+{"f":"cards","id":"ko.c0902","k":"note","src":"같이 가요 = let's go together. After a noun it is a particle: 꽃같이 = like a flower.","tgt":"مثال: 같이 가요 = چلیں ساتھ چلتے ہیں۔ اسم کے بعد یہ پارٹیکل ہے: 꽃같이 = پھول کی طرح۔"}
+{"f":"cards","id":"ko.c0903","k":"meaning","src":"can't","tgt":"نہ کر پانا"}
+{"f":"cards","id":"ko.c0903","k":"note","src":"Right before the verb: 못 가요 = I can't go. 수영 못 해요.","tgt":"فعل کے بالکل پہلے: 못 가요 = میرا جانا نہیں ہو سکے گا۔ 수영 못 해요 (مجھے تیرنا نہیں آتا)۔"}
+{"f":"cards","id":"ko.c0904","k":"meaning","src":"too; so (very)","tgt":"بہت زیادہ؛ حد سے زیادہ"}
+{"f":"cards","id":"ko.c0904","k":"note","src":"너무 비싸요 = too expensive; 너무 좋아요 = I love it.","tgt":"مثال: 너무 비싸요 = بہت مہنگا ہے؛ 너무 좋아요 = مجھے بہت پسند ہے۔"}
+{"f":"cards","id":"ko.c0905","k":"meaning","src":"already (done earlier)","tgt":"پہلے ہی (پہلے سے ہو چکا)"}
+{"f":"cards","id":"ko.c0905","k":"note","src":"이미 끝났어요 = it's already over.","tgt":"مثال: 이미 끝났어요 = یہ پہلے ہی ختم ہو چکا ہے۔"}
+{"f":"cards","id":"ko.c0906","k":"meaning","src":"very","tgt":"بہت"}
+{"f":"cards","id":"ko.c0906","k":"note","src":"Neutral. Spoken more: 정말, 진짜, 너무.","tgt":"عام، سیدھا لفظ۔ بول چال میں زیادہ: 정말، 진짜، 너무۔"}
+{"f":"cards","id":"ko.c0907","k":"meaning","src":"just; for no reason","tgt":"بس؛ یونہی"}
+{"f":"cards","id":"ko.c0907","k":"note","src":"그냥요 = no reason; 그냥 그래요 = so-so.","tgt":"مثال: 그냥요 = یونہی؛ 그냥 그래요 = ٹھیک ٹھاک۔"}
+{"f":"cards","id":"ko.c0908","k":"meaning","src":"almost; hardly","tgt":"تقریباً؛ مشکل سے"}
+{"f":"cards","id":"ko.c0908","k":"note","src":"거의 다 왔어요 = almost there; 거의 안 먹어요 = I hardly eat.","tgt":"مثال: 거의 다 왔어요 = بس پہنچنے والے ہیں؛ 거의 안 먹어요 = میں بہت کم کھاتا/کھاتی ہوں۔"}
+{"f":"cards","id":"ko.c0909","k":"meaning","src":"soon","tgt":"جلد ہی"}
+{"f":"cards","id":"ko.c0909","k":"note","src":"곧 도착해요 = arriving soon.","tgt":"مثال: 곧 도착해요 = جلد پہنچ رہے ہیں۔"}
+{"f":"cards","id":"ko.c0910","k":"meaning","src":"each other","tgt":"ایک دوسرے کو"}
+{"f":"cards","id":"ko.c0910","k":"note","src":"서로 도와요 = we help each other.","tgt":"مثال: 서로 도와요 = ہم ایک دوسرے کی مدد کرتے ہیں۔"}
+{"f":"cards","id":"ko.c0911","k":"meaning","src":"really; truly","tgt":"سچ میں؛ واقعی"}
+{"f":"cards","id":"ko.c0911","k":"note","src":"정말 맛있어요. 정말요? = really?","tgt":"مثال: 정말 맛있어요۔ 정말요 = سچ میں؟"}
+{"f":"cards","id":"ko.c0912","k":"meaning","src":"alone; by yourself","tgt":"اکیلے"}
+{"f":"cards","id":"ko.c0912","k":"note","src":"혼자 왔어요 = I came alone.","tgt":"مثال: 혼자 왔어요 = میں اکیلے آیا/آئی ہوں۔"}
+{"f":"cards","id":"ko.c0913","k":"meaning","src":"now (from now on); finally","tgt":"اب (اب سے)؛ آخرکار"}
+{"f":"cards","id":"ko.c0913","k":"note","src":"이제 가요 = I'm going now; 이제 알겠어요 = now I get it.","tgt":"مثال: 이제 가요 = اب میں چلتا/چلتی ہوں؛ 이제 알겠어요 = اب سمجھ آ گئی۔"}
+{"f":"cards","id":"ko.c0914","k":"meaning","src":"surely; be sure to","tgt":"ضرور؛ لازمی"}
+{"f":"cards","id":"ko.c0914","k":"note","src":"꼭 오세요 = be sure to come.","tgt":"مثال: 꼭 오세요 = ضرور آئیں۔"}
+{"f":"cards","id":"ko.c0915","k":"meaning","src":"these days; lately","tgt":"آج کل؛ ان دنوں"}
 {"f":"cards","id":"ko.c0915","k":"note","src":"요즘 바빠요?","tgt":"요즘 바빠요?","pre":1}
-{"f":"cards","id":"ko.c0916","k":"meaning","src":"continuously; keep (…ing)","tgt":""}
-{"f":"cards","id":"ko.c0916","k":"note","src":"계속 생각나요 = I keep thinking about it.","tgt":""}
-{"f":"cards","id":"ko.c0917","k":"meaning","src":"suddenly","tgt":""}
+{"f":"cards","id":"ko.c0916","k":"meaning","src":"continuously; keep (…ing)","tgt":"مسلسل؛ (…) کرتے رہنا"}
+{"f":"cards","id":"ko.c0916","k":"note","src":"계속 생각나요 = I keep thinking about it.","tgt":"مثال: 계속 생각나요 = بار بار اس کا خیال آتا ہے۔"}
+{"f":"cards","id":"ko.c0917","k":"meaning","src":"suddenly","tgt":"اچانک"}
 {"f":"cards","id":"ko.c0917","k":"note","src":"갑자기 비가 와요.","tgt":"갑자기 비가 와요.","pre":1}
-{"f":"cards","id":"ko.c0918","k":"meaning","src":"not at all","tgt":""}
-{"f":"cards","id":"ko.c0918","k":"note","src":"With a negative: 전혀 몰라요.","tgt":""}
-{"f":"cards","id":"ko.c0919","k":"meaning","src":"quickly; fast","tgt":""}
-{"f":"cards","id":"ko.c0919","k":"note","src":"빨리 와요 = come quickly.","tgt":""}
-{"f":"cards","id":"ko.c0920","k":"meaning","src":"much (more)","tgt":""}
-{"f":"cards","id":"ko.c0920","k":"note","src":"With comparisons: 훨씬 더 좋아요.","tgt":""}
-{"f":"cards","id":"ko.c0921","k":"meaning","src":"hard; diligently","tgt":""}
+{"f":"cards","id":"ko.c0918","k":"meaning","src":"not at all","tgt":"بالکل نہیں"}
+{"f":"cards","id":"ko.c0918","k":"note","src":"With a negative: 전혀 몰라요.","tgt":"انکار کے ساتھ: 전혀 몰라요۔"}
+{"f":"cards","id":"ko.c0919","k":"meaning","src":"quickly; fast","tgt":"جلدی؛ تیزی سے"}
+{"f":"cards","id":"ko.c0919","k":"note","src":"빨리 와요 = come quickly.","tgt":"مثال: 빨리 와요 = جلدی آئیں۔"}
+{"f":"cards","id":"ko.c0920","k":"meaning","src":"much (more)","tgt":"کہیں (زیادہ)"}
+{"f":"cards","id":"ko.c0920","k":"note","src":"With comparisons: 훨씬 더 좋아요.","tgt":"موازنے کے ساتھ: 훨씬 더 좋아요۔"}
+{"f":"cards","id":"ko.c0921","k":"meaning","src":"hard; diligently","tgt":"محنت سے؛ لگن سے"}
 {"f":"cards","id":"ko.c0921","k":"note","src":"열심히 공부해요.","tgt":"열심히 공부해요.","pre":1}
-{"f":"cards","id":"ko.c0922","k":"meaning","src":"often","tgt":""}
-{"f":"cards","id":"ko.c0922","k":"note","src":"자주 와요? = do you come here often?","tgt":""}
-{"f":"cards","id":"ko.c0923","k":"meaning","src":"already (sooner than expected)","tgt":""}
-{"f":"cards","id":"ko.c0923","k":"note","src":"벌써 열 시예요? = it's ten already?","tgt":""}
-{"f":"cards","id":"ko.c0924","k":"meaning","src":"the most; number one","tgt":""}
-{"f":"cards","id":"ko.c0924","k":"note","src":"제일 좋아요 = it's the best.","tgt":""}
-{"f":"cards","id":"ko.c0925","k":"meaning","src":"probably; maybe","tgt":""}
-{"f":"cards","id":"ko.c0925","k":"note","src":"Often with -(으)ㄹ 거예요: 아마 비가 올 거예요.","tgt":""}
-{"f":"cards","id":"ko.c0926","k":"meaning","src":"a little; a bit","tgt":""}
-{"f":"cards","id":"ko.c0926","k":"note","src":"Spoken short form: 좀.","tgt":""}
-{"f":"cards","id":"ko.c0927","k":"meaning","src":"always","tgt":""}
-{"f":"cards","id":"ko.c0927","k":"note","src":"Spoken also: 늘, 언제나.","tgt":""}
-{"f":"cards","id":"ko.c0928","k":"meaning","src":"later","tgt":""}
+{"f":"cards","id":"ko.c0922","k":"meaning","src":"often","tgt":"اکثر"}
+{"f":"cards","id":"ko.c0922","k":"note","src":"자주 와요? = do you come here often?","tgt":"مثال: 자주 와요 = آپ یہاں اکثر آتے ہیں؟"}
+{"f":"cards","id":"ko.c0923","k":"meaning","src":"already (sooner than expected)","tgt":"پہلے ہی (توقع سے جلدی)"}
+{"f":"cards","id":"ko.c0923","k":"note","src":"벌써 열 시예요? = it's ten already?","tgt":"مثال: 벌써 열 시예요 = دس بج بھی گئے؟"}
+{"f":"cards","id":"ko.c0924","k":"meaning","src":"the most; number one","tgt":"سب سے زیادہ؛ نمبر ون"}
+{"f":"cards","id":"ko.c0924","k":"note","src":"제일 좋아요 = it's the best.","tgt":"مثال: 제일 좋아요 = یہ سب سے اچھا ہے۔"}
+{"f":"cards","id":"ko.c0925","k":"meaning","src":"probably; maybe","tgt":"شاید؛ ہو سکتا ہے"}
+{"f":"cards","id":"ko.c0925","k":"note","src":"Often with -(으)ㄹ 거예요: 아마 비가 올 거예요.","tgt":"اکثر -(으)ㄹ 거예요 کے ساتھ: 아마 비가 올 거예요۔"}
+{"f":"cards","id":"ko.c0926","k":"meaning","src":"a little; a bit","tgt":"تھوڑا سا؛ ذرا سا"}
+{"f":"cards","id":"ko.c0926","k":"note","src":"Spoken short form: 좀.","tgt":"بول چال میں مختصر شکل: 좀۔"}
+{"f":"cards","id":"ko.c0927","k":"meaning","src":"always","tgt":"ہمیشہ"}
+{"f":"cards","id":"ko.c0927","k":"note","src":"Spoken also: 늘, 언제나.","tgt":"بول چال میں یہ بھی: 늘، 언제나۔"}
+{"f":"cards","id":"ko.c0928","k":"meaning","src":"later","tgt":"بعد میں"}
 {"f":"cards","id":"ko.c0928","k":"note","src":"나중에 연락할게요.","tgt":"나중에 연락할게요.","pre":1}
-{"f":"cards","id":"ko.c0929","k":"meaning","src":"not really; not particularly","tgt":""}
-{"f":"cards","id":"ko.c0929","k":"note","src":"With a negative: 별로 안 좋아해요. 별로예요 = it's meh.","tgt":""}
-{"f":"cards","id":"ko.c0930","k":"meaning","src":"sometimes","tgt":""}
+{"f":"cards","id":"ko.c0929","k":"meaning","src":"not really; not particularly","tgt":"کچھ خاص نہیں؛ خاص طور پر نہیں"}
+{"f":"cards","id":"ko.c0929","k":"note","src":"With a negative: 별로 안 좋아해요. 별로예요 = it's meh.","tgt":"انکار کے ساتھ: 별로 안 좋아해요۔ 별로예요 = کچھ خاص نہیں ہے۔"}
+{"f":"cards","id":"ko.c0930","k":"meaning","src":"sometimes","tgt":"کبھی کبھی"}
 {"f":"cards","id":"ko.c0930","k":"note","src":"가끔 만나요.","tgt":"가끔 만나요.","pre":1}
-{"f":"cards","id":"ko.c0931","k":"meaning","src":"early","tgt":""}
+{"f":"cards","id":"ko.c0931","k":"meaning","src":"early","tgt":"جلدی (وقت سے پہلے)"}
 {"f":"cards","id":"ko.c0931","k":"note","src":"일찍 일어나요.","tgt":"일찍 일어나요.","pre":1}
-{"f":"cards","id":"ko.c0932","k":"meaning","src":"originally; normally (it's always like that)","tgt":""}
-{"f":"cards","id":"ko.c0932","k":"note","src":"원래 그래요 = it's always like that.","tgt":""}
-{"f":"cards","id":"ko.c0933","k":"meaning","src":"late","tgt":""}
-{"f":"cards","id":"ko.c0933","k":"note","src":"늦게 자요 = I go to bed late.","tgt":""}
-{"f":"cards","id":"ko.c0934","k":"meaning","src":"usually","tgt":""}
-{"f":"cards","id":"ko.c0934","k":"note","src":"보통 몇 시에 자요? Also a noun: regular size.","tgt":""}
-{"f":"cards","id":"ko.c0935","k":"meaning","src":"by any chance","tgt":""}
-{"f":"cards","id":"ko.c0935","k":"note","src":"Softens a question: 혹시 한국 사람이에요?","tgt":""}
-{"f":"cards","id":"ko.c0936","k":"meaning","src":"really; so (spoken)","tgt":""}
-{"f":"cards","id":"ko.c0936","k":"note","src":"Casual: 되게 맛있어. Not in writing.","tgt":""}
-{"f":"cards","id":"ko.c0937","k":"meaning","src":"in a moment; right away","tgt":""}
-{"f":"cards","id":"ko.c0937","k":"note","src":"금방 갈게요 = I'll be right there.","tgt":""}
-{"f":"cards","id":"ko.c0938","k":"meaning","src":"for real; seriously","tgt":""}
-{"f":"cards","id":"ko.c0938","k":"note","src":"Stronger, more casual than 정말.","tgt":""}
-{"f":"cards","id":"ko.c0939","k":"meaning","src":"slowly","tgt":""}
-{"f":"cards","id":"ko.c0939","k":"note","src":"천천히 드세요 = take your time eating.","tgt":""}
-{"f":"cards","id":"ko.c0940","k":"meaning","src":"just now","tgt":""}
-{"f":"cards","id":"ko.c0940","k":"note","src":"방금 왔어요 = I just got here.","tgt":""}
-{"f":"cards","id":"ko.c0941","k":"meaning","src":"I; me (casual)","tgt":""}
-{"f":"cards","id":"ko.c0941","k":"note","src":"To friends and younger people. With 가: 내가. My: 내.","tgt":""}
-{"f":"cards","id":"ko.c0942","k":"meaning","src":"we; us; our","tgt":""}
-{"f":"cards","id":"ko.c0942","k":"note","src":"Also \"my\" for family and home: 우리 엄마, 우리 집.","tgt":""}
-{"f":"cards","id":"ko.c0943","k":"meaning","src":"Mr. / Ms. (after a full or given name)","tgt":""}
-{"f":"cards","id":"ko.c0943","k":"note","src":"Names replace \"you\": 민수 씨, 어디 가요? Never after your own name or a surname alone.","tgt":""}
-{"f":"cards","id":"ko.c0944","k":"meaning","src":"that (thing, near you or mentioned)","tgt":""}
-{"f":"cards","id":"ko.c0944","k":"note","src":"Spoken: 그거. With 이: 그게.","tgt":""}
-{"f":"cards","id":"ko.c0945","k":"meaning","src":"I; me (polite, humble)","tgt":""}
-{"f":"cards","id":"ko.c0945","k":"note","src":"The default with strangers. With 가: 제가. My: 제.","tgt":""}
-{"f":"cards","id":"ko.c0946","k":"meaning","src":"my (polite)","tgt":""}
-{"f":"cards","id":"ko.c0946","k":"note","src":"저 + 의. 제 이름은 … = my name is …","tgt":""}
-{"f":"cards","id":"ko.c0947","k":"meaning","src":"oneself; self","tgt":""}
-{"f":"cards","id":"ko.c0947","k":"note","src":"자신 있어요 = I'm confident. 자신을 사랑하세요.","tgt":""}
-{"f":"cards","id":"ko.c0948","k":"meaning","src":"you (casual, to a friend or a child)","tgt":""}
-{"f":"cards","id":"ko.c0948","k":"note","src":"Only to close friends or younger people. With 가: 네가 (said 니가).","tgt":""}
-{"f":"cards","id":"ko.c0949","k":"meaning","src":"what (spoken)","tgt":""}
-{"f":"cards","id":"ko.c0949","k":"note","src":"뭐 해요? = what are you doing? Formal: 무엇.","tgt":""}
-{"f":"cards","id":"ko.c0950","k":"meaning","src":"who","tgt":""}
-{"f":"cards","id":"ko.c0950","k":"note","src":"누구예요? With 가: 누가 왔어요? = who came?","tgt":""}
-{"f":"cards","id":"ko.c0951","k":"meaning","src":"oneself; honey (between couples)","tgt":""}
-{"f":"cards","id":"ko.c0951","k":"note","src":"자기 일 = one's own business. 자기야 = honey.","tgt":""}
-{"f":"cards","id":"ko.c0952","k":"meaning","src":"what (written, formal)","tgt":""}
-{"f":"cards","id":"ko.c0952","k":"note","src":"무엇을 도와드릴까요? = how may I help you?","tgt":""}
-{"f":"cards","id":"ko.c0953","k":"meaning","src":"that one (spoken)","tgt":""}
-{"f":"cards","id":"ko.c0953","k":"note","src":"그거 좋네요 = that's a good one / good idea.","tgt":""}
-{"f":"cards","id":"ko.c0954","k":"meaning","src":"where; what place","tgt":""}
-{"f":"cards","id":"ko.c0954","k":"note","src":"어디 가요? (often just a greeting: where are you off to?)","tgt":""}
-{"f":"cards","id":"ko.c0955","k":"meaning","src":"this (thing)","tgt":""}
-{"f":"cards","id":"ko.c0955","k":"note","src":"Spoken: 이거. With 이: 이게.","tgt":""}
-{"f":"cards","id":"ko.c0956","k":"meaning","src":"you (spouses, songs, ads)","tgt":""}
-{"f":"cards","id":"ko.c0956","k":"note","src":"Rarely used face to face: it can sound cold or start a fight. Use the person's name or title instead.","tgt":""}
-{"f":"cards","id":"ko.c0957","k":"meaning","src":"there (near you, or the place we mentioned)","tgt":""}
-{"f":"cards","id":"ko.c0957","k":"note","src":"거기 어디예요? = where is that place? Pairs with 여기 / 저기.","tgt":""}
-{"f":"cards","id":"ko.c0958","k":"meaning","src":"this one (spoken)","tgt":""}
-{"f":"cards","id":"ko.c0958","k":"note","src":"이거 얼마예요? Point and say 이거 주세요.","tgt":""}
-{"f":"cards","id":"ko.c0959","k":"meaning","src":"my (casual)","tgt":""}
-{"f":"cards","id":"ko.c0959","k":"note","src":"나 + 의. 내 친구 = my friend.","tgt":""}
-{"f":"cards","id":"ko.c0960","k":"meaning","src":"any; anyone (+ particle)","tgt":""}
-{"f":"cards","id":"ko.c0960","k":"note","src":"아무나 = anyone at all; 아무 때나 = any time.","tgt":""}
-{"f":"cards","id":"ko.c0961","k":"meaning","src":"nobody (with a negative)","tgt":""}
-{"f":"cards","id":"ko.c0961","k":"note","src":"아무도 없어요 = there's nobody here.","tgt":""}
-{"f":"cards","id":"ko.c0962","k":"meaning","src":"that one over there (spoken)","tgt":""}
+{"f":"cards","id":"ko.c0932","k":"meaning","src":"originally; normally (it's always like that)","tgt":"اصل میں؛ معمول کے مطابق (یہ ہمیشہ سے ایسا ہے)"}
+{"f":"cards","id":"ko.c0932","k":"note","src":"원래 그래요 = it's always like that.","tgt":"مثال: 원래 그래요 = یہ ہمیشہ سے ایسا ہی ہے۔"}
+{"f":"cards","id":"ko.c0933","k":"meaning","src":"late","tgt":"دیر سے"}
+{"f":"cards","id":"ko.c0933","k":"note","src":"늦게 자요 = I go to bed late.","tgt":"مثال: 늦게 자요 = میں دیر سے سوتا/سوتی ہوں۔"}
+{"f":"cards","id":"ko.c0934","k":"meaning","src":"usually","tgt":"عام طور پر"}
+{"f":"cards","id":"ko.c0934","k":"note","src":"보통 몇 시에 자요? Also a noun: regular size.","tgt":"مثال: 보통 몇 시에 자요 = آپ عام طور پر کتنے بجے سوتے ہیں؟ یہ اسم بھی ہے: ریگولر سائز۔"}
+{"f":"cards","id":"ko.c0935","k":"meaning","src":"by any chance","tgt":"اتفاق سے؛ کہیں (… تو نہیں؟)"}
+{"f":"cards","id":"ko.c0935","k":"note","src":"Softens a question: 혹시 한국 사람이에요?","tgt":"سوال کو نرم کرتا ہے: 혹시 한국 사람이에요 = کہیں آپ کوریائی تو نہیں؟"}
+{"f":"cards","id":"ko.c0936","k":"meaning","src":"really; so (spoken)","tgt":"بڑا؛ بہت (بول چال)"}
+{"f":"cards","id":"ko.c0936","k":"note","src":"Casual: 되게 맛있어. Not in writing.","tgt":"بے تکلف: 되게 맛있어۔ لکھنے میں نہیں۔"}
+{"f":"cards","id":"ko.c0937","k":"meaning","src":"in a moment; right away","tgt":"پل بھر میں؛ ابھی"}
+{"f":"cards","id":"ko.c0937","k":"note","src":"금방 갈게요 = I'll be right there.","tgt":"مثال: 금방 갈게요 = میں بس ابھی پہنچتا/پہنچتی ہوں۔"}
+{"f":"cards","id":"ko.c0938","k":"meaning","src":"for real; seriously","tgt":"سچ مچ؛ مذاق نہیں"}
+{"f":"cards","id":"ko.c0938","k":"note","src":"Stronger, more casual than 정말.","tgt":"یہ 정말 سے زیادہ زور دار اور بے تکلف ہے۔"}
+{"f":"cards","id":"ko.c0939","k":"meaning","src":"slowly","tgt":"آہستہ آہستہ"}
+{"f":"cards","id":"ko.c0939","k":"note","src":"천천히 드세요 = take your time eating.","tgt":"مثال: 천천히 드세요 = آرام سے کھائیے۔"}
+{"f":"cards","id":"ko.c0940","k":"meaning","src":"just now","tgt":"ابھی ابھی"}
+{"f":"cards","id":"ko.c0940","k":"note","src":"방금 왔어요 = I just got here.","tgt":"مثال: 방금 왔어요 = میں ابھی ابھی پہنچا/پہنچی ہوں۔"}
+{"f":"cards","id":"ko.c0941","k":"meaning","src":"I; me (casual)","tgt":"میں؛ مجھے (بے تکلف)"}
+{"f":"cards","id":"ko.c0941","k":"note","src":"To friends and younger people. With 가: 내가. My: 내.","tgt":"دوستوں اور چھوٹوں سے۔ 가 کے ساتھ: 내가۔ میرا: 내۔"}
+{"f":"cards","id":"ko.c0942","k":"meaning","src":"we; us; our","tgt":"ہم؛ ہمیں؛ ہمارا"}
+{"f":"cards","id":"ko.c0942","k":"note","src":"Also \"my\" for family and home: 우리 엄마, 우리 집.","tgt":"خاندان اور گھر کے لیے \"میرا\" کی جگہ بھی: 우리 엄마، 우리 집 (اردو کی طرح: ہماری امی، ہمارا گھر)۔"}
+{"f":"cards","id":"ko.c0943","k":"meaning","src":"Mr. / Ms. (after a full or given name)","tgt":"نام کے بعد ہلکا لقب (پورے نام یا پہلے نام کے بعد)"}
+{"f":"cards","id":"ko.c0943","k":"note","src":"Names replace \"you\": 민수 씨, 어디 가요? Never after your own name or a surname alone.","tgt":"کوریائی میں نام \"آپ\" کی جگہ لیتا ہے: 민수 씨, 어디 가요 (منسو، کہاں جا رہے ہیں؟)۔ اپنے نام کے بعد یا صرف خاندانی نام کے بعد کبھی نہیں۔"}
+{"f":"cards","id":"ko.c0944","k":"meaning","src":"that (thing, near you or mentioned)","tgt":"وہ (چیز، آپ کے پاس یا جس کی بات ہوئی)"}
+{"f":"cards","id":"ko.c0944","k":"note","src":"Spoken: 그거. With 이: 그게.","tgt":"بول چال میں: 그거۔ 이 کے ساتھ: 그게۔"}
+{"f":"cards","id":"ko.c0945","k":"meaning","src":"I; me (polite, humble)","tgt":"میں؛ مجھے (مؤدب، عاجزی سے)"}
+{"f":"cards","id":"ko.c0945","k":"note","src":"The default with strangers. With 가: 제가. My: 제.","tgt":"اجنبیوں کے ساتھ یہی عام ہے۔ 가 کے ساتھ: 제가۔ میرا: 제۔"}
+{"f":"cards","id":"ko.c0946","k":"meaning","src":"my (polite)","tgt":"میرا (مؤدب)"}
+{"f":"cards","id":"ko.c0946","k":"note","src":"저 + 의. 제 이름은 … = my name is …","tgt":"یعنی 저 + 의۔ مثال: 제 이름은 … = میرا نام … ہے"}
+{"f":"cards","id":"ko.c0947","k":"meaning","src":"oneself; self","tgt":"خود؛ اپنی ذات"}
+{"f":"cards","id":"ko.c0947","k":"note","src":"자신 있어요 = I'm confident. 자신을 사랑하세요.","tgt":"مثال: 자신 있어요 = مجھے خود پر بھروسا ہے۔ 자신을 사랑하세요 (اپنے آپ سے محبت کیجیے)۔"}
+{"f":"cards","id":"ko.c0948","k":"meaning","src":"you (casual, to a friend or a child)","tgt":"تم (بے تکلف، دوست یا بچے سے)"}
+{"f":"cards","id":"ko.c0948","k":"note","src":"Only to close friends or younger people. With 가: 네가 (said 니가).","tgt":"صرف پکے دوستوں یا چھوٹوں سے۔ 가 کے ساتھ: 네가 (بولتے ہیں 니가)۔"}
+{"f":"cards","id":"ko.c0949","k":"meaning","src":"what (spoken)","tgt":"کیا (بول چال)"}
+{"f":"cards","id":"ko.c0949","k":"note","src":"뭐 해요? = what are you doing? Formal: 무엇.","tgt":"مثال: 뭐 해요 = آپ کیا کر رہے ہیں؟ رسمی: 무엇۔"}
+{"f":"cards","id":"ko.c0950","k":"meaning","src":"who","tgt":"کون"}
+{"f":"cards","id":"ko.c0950","k":"note","src":"누구예요? With 가: 누가 왔어요? = who came?","tgt":"مثال: 누구예요 (کون ہے؟)۔ 가 کے ساتھ: 누가 왔어요 = کون آیا؟"}
+{"f":"cards","id":"ko.c0951","k":"meaning","src":"oneself; honey (between couples)","tgt":"خود؛ جان (جوڑوں میں)"}
+{"f":"cards","id":"ko.c0951","k":"note","src":"자기 일 = one's own business. 자기야 = honey.","tgt":"مثال: 자기 일 = اپنا کام۔ 자기야 = جانو۔"}
+{"f":"cards","id":"ko.c0952","k":"meaning","src":"what (written, formal)","tgt":"کیا (تحریری، رسمی)"}
+{"f":"cards","id":"ko.c0952","k":"note","src":"무엇을 도와드릴까요? = how may I help you?","tgt":"مثال: 무엇을 도와드릴까요 = میں آپ کی کیا مدد کروں؟"}
+{"f":"cards","id":"ko.c0953","k":"meaning","src":"that one (spoken)","tgt":"وہ والا (بول چال)"}
+{"f":"cards","id":"ko.c0953","k":"note","src":"그거 좋네요 = that's a good one / good idea.","tgt":"مثال: 그거 좋네요 = یہ تو اچھا ہے / اچھا خیال ہے۔"}
+{"f":"cards","id":"ko.c0954","k":"meaning","src":"where; what place","tgt":"کہاں؛ کون سی جگہ"}
+{"f":"cards","id":"ko.c0954","k":"note","src":"어디 가요? (often just a greeting: where are you off to?)","tgt":"مثال: 어디 가요 (اکثر صرف سلام دعا: کہاں جا رہے ہیں؟)"}
+{"f":"cards","id":"ko.c0955","k":"meaning","src":"this (thing)","tgt":"یہ (چیز)"}
+{"f":"cards","id":"ko.c0955","k":"note","src":"Spoken: 이거. With 이: 이게.","tgt":"بول چال میں: 이거۔ 이 کے ساتھ: 이게۔"}
+{"f":"cards","id":"ko.c0956","k":"meaning","src":"you (spouses, songs, ads)","tgt":"آپ (میاں بیوی میں، گانوں، اشتہاروں میں)"}
+{"f":"cards","id":"ko.c0956","k":"note","src":"Rarely used face to face: it can sound cold or start a fight. Use the person's name or title instead.","tgt":"اردو کے \"آپ\" جیسا نہیں: آمنے سامنے کم ہی بولا جاتا ہے، روکھا لگ سکتا ہے یا جھگڑا شروع کرا سکتا ہے۔ اس کی جگہ نام یا عہدہ استعمال کریں۔"}
+{"f":"cards","id":"ko.c0957","k":"meaning","src":"there (near you, or the place we mentioned)","tgt":"وہاں (آپ کے پاس، یا جس جگہ کی بات ہوئی)"}
+{"f":"cards","id":"ko.c0957","k":"note","src":"거기 어디예요? = where is that place? Pairs with 여기 / 저기.","tgt":"مثال: 거기 어디예요 = وہ جگہ کہاں ہے؟ 여기 / 저기 کے ساتھ اس کی جوڑی بنتی ہے۔"}
+{"f":"cards","id":"ko.c0958","k":"meaning","src":"this one (spoken)","tgt":"یہ والا (بول چال)"}
+{"f":"cards","id":"ko.c0958","k":"note","src":"이거 얼마예요? Point and say 이거 주세요.","tgt":"مثال: 이거 얼마예요 (یہ کتنے کا ہے؟)۔ اشارہ کر کے کہیں: 이거 주세요۔"}
+{"f":"cards","id":"ko.c0959","k":"meaning","src":"my (casual)","tgt":"میرا (بے تکلف)"}
+{"f":"cards","id":"ko.c0959","k":"note","src":"나 + 의. 내 친구 = my friend.","tgt":"یعنی 나 + 의۔ 내 친구 = میرا دوست۔"}
+{"f":"cards","id":"ko.c0960","k":"meaning","src":"any; anyone (+ particle)","tgt":"کوئی بھی (+ پارٹیکل)"}
+{"f":"cards","id":"ko.c0960","k":"note","src":"아무나 = anyone at all; 아무 때나 = any time.","tgt":"مثال: 아무나 = کوئی بھی؛ 아무 때나 = کبھی بھی۔"}
+{"f":"cards","id":"ko.c0961","k":"meaning","src":"nobody (with a negative)","tgt":"کوئی نہیں (انکار کے ساتھ)"}
+{"f":"cards","id":"ko.c0961","k":"note","src":"아무도 없어요 = there's nobody here.","tgt":"مثال: 아무도 없어요 = یہاں کوئی نہیں ہے۔"}
+{"f":"cards","id":"ko.c0962","k":"meaning","src":"that one over there (spoken)","tgt":"وہ والا، وہاں دور (بول چال)"}
 {"f":"cards","id":"ko.c0962","k":"note","src":"저거 뭐예요?","tgt":"저거 뭐예요?","pre":1}
-{"f":"cards","id":"ko.c0963","k":"meaning","src":"nothing (with a negative)","tgt":""}
-{"f":"cards","id":"ko.c0963","k":"note","src":"아무것도 몰라요 = I don't know anything.","tgt":""}
-{"f":"cards","id":"ko.c0964","k":"meaning","src":"something","tgt":""}
-{"f":"cards","id":"ko.c0964","k":"note","src":"뭔가 이상해요 = something's off.","tgt":""}
-{"f":"cards","id":"ko.c0965","k":"meaning","src":"we; us (humble)","tgt":""}
-{"f":"cards","id":"ko.c0965","k":"note","src":"To customers, elders, at work. It lowers your side, so it never includes the listener.","tgt":""}
-{"f":"cards","id":"ko.c0966","k":"meaning","src":"everyone (you all)","tgt":""}
-{"f":"cards","id":"ko.c0966","k":"note","src":"Addressing a group: 여러분, 안녕하세요!","tgt":""}
-{"f":"cards","id":"ko.c0967","k":"meaning","src":"someone","tgt":""}
-{"f":"cards","id":"ko.c0967","k":"note","src":"누군가 왔어요 = someone came. Spoken: 누가.","tgt":""}
-{"f":"cards","id":"ko.c0968","k":"meaning","src":"that (thing, over there)","tgt":""}
-{"f":"cards","id":"ko.c0968","k":"note","src":"Spoken: 저거. With 이: 저게.","tgt":""}
-{"f":"cards","id":"ko.c0969","k":"meaning","src":"this person (honorific)","tgt":""}
-{"f":"cards","id":"ko.c0969","k":"note","src":"Introducing someone: 이분은 김 선생님이세요.","tgt":""}
-{"f":"cards","id":"ko.c0970","k":"meaning","src":"this kid; this person (casual)","tgt":""}
-{"f":"cards","id":"ko.c0970","k":"note","src":"From 이 아이. About a friend standing next to you: 얘는 제 친구예요.","tgt":""}
-{"f":"cards","id":"ko.c0971","k":"meaning","src":"this way; this person (introducing)","tgt":""}
-{"f":"cards","id":"ko.c0971","k":"note","src":"이쪽으로 오세요 = come this way. 이쪽은 제 동생이에요.","tgt":""}
-{"f":"cards","id":"ko.c0972","k":"meaning","src":"that kid; he / she (casual)","tgt":""}
-{"f":"cards","id":"ko.c0972","k":"note","src":"From 그 아이. Common way to say \"he/she\" among friends.","tgt":""}
-{"f":"cards","id":"ko.c0973","k":"meaning","src":"you (to a stranger, lit. that side)","tgt":""}
-{"f":"cards","id":"ko.c0973","k":"note","src":"A way around saying 너 or 당신 to someone whose name you don't know. Can sound distant or a little cheeky.","tgt":""}
-{"f":"cards","id":"ko.c0974","k":"meaning","src":"over that way","tgt":""}
-{"f":"cards","id":"ko.c0974","k":"note","src":"저쪽에 있어요 = it's over there.","tgt":""}
-{"f":"cards","id":"ko.c0975","k":"meaning","src":"that person over there (honorific)","tgt":""}
+{"f":"cards","id":"ko.c0963","k":"meaning","src":"nothing (with a negative)","tgt":"کچھ نہیں (انکار کے ساتھ)"}
+{"f":"cards","id":"ko.c0963","k":"note","src":"아무것도 몰라요 = I don't know anything.","tgt":"مثال: 아무것도 몰라요 = مجھے کچھ نہیں پتا۔"}
+{"f":"cards","id":"ko.c0964","k":"meaning","src":"something","tgt":"کچھ؛ کوئی چیز"}
+{"f":"cards","id":"ko.c0964","k":"note","src":"뭔가 이상해요 = something's off.","tgt":"مثال: 뭔가 이상해요 = کچھ گڑبڑ ہے۔"}
+{"f":"cards","id":"ko.c0965","k":"meaning","src":"we; us (humble)","tgt":"ہم؛ ہمیں (عاجزی سے)"}
+{"f":"cards","id":"ko.c0965","k":"note","src":"To customers, elders, at work. It lowers your side, so it never includes the listener.","tgt":"گاہکوں، بزرگوں سے اور دفتر میں۔ یہ اپنی طرف کو عاجزی سے نیچا رکھتا ہے، اس لیے اس میں سننے والا کبھی شامل نہیں ہوتا۔"}
+{"f":"cards","id":"ko.c0966","k":"meaning","src":"everyone (you all)","tgt":"آپ سب (سب لوگ)"}
+{"f":"cards","id":"ko.c0966","k":"note","src":"Addressing a group: 여러분, 안녕하세요!","tgt":"کسی گروپ سے خطاب کرتے ہوئے: 여러분, 안녕하세요 = آپ سب کو السلام علیکم!"}
+{"f":"cards","id":"ko.c0967","k":"meaning","src":"someone","tgt":"کوئی"}
+{"f":"cards","id":"ko.c0967","k":"note","src":"누군가 왔어요 = someone came. Spoken: 누가.","tgt":"مثال: 누군가 왔어요 = کوئی آیا ہے۔ بول چال میں: 누가۔"}
+{"f":"cards","id":"ko.c0968","k":"meaning","src":"that (thing, over there)","tgt":"وہ (چیز، وہاں دور)"}
+{"f":"cards","id":"ko.c0968","k":"note","src":"Spoken: 저거. With 이: 저게.","tgt":"بول چال میں: 저거۔ 이 کے ساتھ: 저게۔"}
+{"f":"cards","id":"ko.c0969","k":"meaning","src":"this person (honorific)","tgt":"یہ (کسی شخص کے لیے، تعظیمی)"}
+{"f":"cards","id":"ko.c0969","k":"note","src":"Introducing someone: 이분은 김 선생님이세요.","tgt":"کسی کا تعارف کراتے ہوئے: 이분은 김 선생님이세요۔"}
+{"f":"cards","id":"ko.c0970","k":"meaning","src":"this kid; this person (casual)","tgt":"یہ بچہ؛ یہ (بے تکلف)"}
+{"f":"cards","id":"ko.c0970","k":"note","src":"From 이 아이. About a friend standing next to you: 얘는 제 친구예요.","tgt":"یہ 이 아이 سے بنا ہے۔ پاس کھڑے دوست کے بارے میں: 얘는 제 친구예요 (یہ میرا دوست ہے)۔"}
+{"f":"cards","id":"ko.c0971","k":"meaning","src":"this way; this person (introducing)","tgt":"اس طرف؛ یہ (تعارف کراتے ہوئے)"}
+{"f":"cards","id":"ko.c0971","k":"note","src":"이쪽으로 오세요 = come this way. 이쪽은 제 동생이에요.","tgt":"مثال: 이쪽으로 오세요 = اس طرف آئیں۔ 이쪽은 제 동생이에요۔"}
+{"f":"cards","id":"ko.c0972","k":"meaning","src":"that kid; he / she (casual)","tgt":"وہ بچہ؛ وہ (بے تکلف)"}
+{"f":"cards","id":"ko.c0972","k":"note","src":"From 그 아이. Common way to say \"he/she\" among friends.","tgt":"یہ 그 아이 سے بنا ہے۔ دوستوں میں \"وہ\" کہنے کا عام طریقہ۔"}
+{"f":"cards","id":"ko.c0973","k":"meaning","src":"you (to a stranger, lit. that side)","tgt":"آپ (اجنبی سے، لفظی: وہ طرف)"}
+{"f":"cards","id":"ko.c0973","k":"note","src":"A way around saying 너 or 당신 to someone whose name you don't know. Can sound distant or a little cheeky.","tgt":"جس کا نام معلوم نہ ہو، اس سے 너 یا 당신 کہنے سے بچنے کا طریقہ۔ یہ دور دور سا یا ذرا گستاخ لگ سکتا ہے۔"}
+{"f":"cards","id":"ko.c0974","k":"meaning","src":"over that way","tgt":"وہاں والی طرف (دور)"}
+{"f":"cards","id":"ko.c0974","k":"note","src":"저쪽에 있어요 = it's over there.","tgt":"مثال: 저쪽에 있어요 = وہ وہاں اس طرف ہے۔"}
+{"f":"cards","id":"ko.c0975","k":"meaning","src":"that person over there (honorific)","tgt":"وہ (شخص، وہاں دور، تعظیمی)"}
 {"f":"cards","id":"ko.c0975","k":"note","src":"저분이 누구세요?","tgt":"저분이 누구세요?","pre":1}
-{"f":"cards","id":"ko.c0976","k":"meaning","src":"that kid over there (casual)","tgt":""}
-{"f":"cards","id":"ko.c0976","k":"note","src":"From 저 아이. Don't use it about elders.","tgt":""}
-{"f":"cards","id":"ko.c0977","k":"meaning","src":"somewhere","tgt":""}
-{"f":"cards","id":"ko.c0977","k":"note","src":"어딘가에 있을 거예요 = it must be somewhere.","tgt":""}
-{"f":"cards","id":"ko.c0978","k":"meaning","src":"that person; he / she (honorific)","tgt":""}
-{"f":"cards","id":"ko.c0978","k":"note","src":"For someone respected: 그분이 오셨어요.","tgt":""}
-{"f":"cards","id":"ko.c0979","k":"meaning","src":"he (in writing)","tgt":""}
-{"f":"cards","id":"ko.c0979","k":"note","src":"Speech uses the person's name or 그 사람, 걔. 그 also = that (before a noun).","tgt":""}
-{"f":"cards","id":"ko.c0980","k":"meaning","src":"she (in writing)","tgt":""}
-{"f":"cards","id":"ko.c0980","k":"note","src":"Almost never spoken. Use the name, 그 사람 or 걔.","tgt":""}
-{"f":"cards","id":"ko.c0981","k":"meaning","src":"by (means); toward; as","tgt":""}
-{"f":"cards","id":"ko.c0981","k":"note","src":"After a vowel or ㄹ: 로 (버스로, 지하철로); after a consonant: 으로 (손으로).","tgt":""}
-{"f":"cards","id":"ko.c0982","k":"meaning","src":"until; to (an end point); even","tgt":""}
-{"f":"cards","id":"ko.c0982","k":"note","src":"Same after vowels and consonants: 세 시까지, 서울까지.","tgt":""}
-{"f":"cards","id":"ko.c0983","k":"meaning","src":"from (a starting time or point)","tgt":""}
-{"f":"cards","id":"ko.c0983","k":"note","src":"아홉 시부터 = from nine. Pairs with 까지.","tgt":""}
-{"f":"cards","id":"ko.c0984","k":"meaning","src":"polite marker (after any word)","tgt":""}
-{"f":"cards","id":"ko.c0984","k":"note","src":"Makes a bare word polite: 저도요, 커피요, 왜요?","tgt":""}
-{"f":"cards","id":"ko.c0985","k":"meaning","src":"to (a person, spoken)","tgt":""}
-{"f":"cards","id":"ko.c0985","k":"note","src":"친구한테 줘요. Only for people and animals; places take 에.","tgt":""}
-{"f":"cards","id":"ko.c0986","k":"meaning","src":"than","tgt":""}
-{"f":"cards","id":"ko.c0986","k":"note","src":"Goes after the thing you compare against: 버스보다 빨라요 = faster than the bus.","tgt":""}
-{"f":"cards","id":"ko.c0987","k":"meaning","src":"plural marker (-s)","tgt":""}
-{"f":"cards","id":"ko.c0987","k":"note","src":"친구들 = friends. Often left out: Korean doesn't need a plural.","tgt":""}
-{"f":"cards","id":"ko.c0988","k":"meaning","src":"and; with (casual)","tgt":""}
-{"f":"cards","id":"ko.c0988","k":"note","src":"Vowel: 랑 (친구랑); consonant: 이랑 (동생이랑). Spoken version of 하고.","tgt":""}
-{"f":"cards","id":"ko.c0989","k":"meaning","src":"or; as many as","tgt":""}
-{"f":"cards","id":"ko.c0989","k":"note","src":"Vowel: 나 (커피나 차); consonant: 이나 (빵이나 밥). 두 시간이나 = a whole two hours.","tgt":""}
-{"f":"cards","id":"ko.c0990","k":"meaning","src":"to (a person, written or careful)","tgt":""}
-{"f":"cards","id":"ko.c0990","k":"note","src":"Same as 한테, a bit more formal: 선생님에게.","tgt":""}
-{"f":"cards","id":"ko.c0991","k":"meaning","src":"like; as (similar to)","tgt":""}
-{"f":"cards","id":"ko.c0991","k":"note","src":"한국 사람처럼 말해요 = you talk like a Korean.","tgt":""}
-{"f":"cards","id":"ko.c0992","k":"meaning","src":"only; nothing but (with a negative)","tgt":""}
-{"f":"cards","id":"ko.c0992","k":"note","src":"천 원밖에 없어요 = I only have 1,000 won. The verb must be negative.","tgt":""}
-{"f":"cards","id":"ko.c0993","k":"meaning","src":"about; around (a time or amount)","tgt":""}
-{"f":"cards","id":"ko.c0993","k":"note","src":"세 시쯤 = around three; 얼마쯤 = about how much.","tgt":""}
-{"f":"cards","id":"ko.c0994","k":"meaning","src":"every; each","tgt":""}
-{"f":"cards","id":"ko.c0994","k":"note","src":"날마다 = every day; 주말마다 = every weekend.","tgt":""}
-{"f":"cards","id":"ko.c0995","k":"meaning","src":"hey (after a name, casual)","tgt":""}
-{"f":"cards","id":"ko.c0995","k":"note","src":"Consonant: 아 (민정아); vowel: 야 (지수야). Only to friends and younger people.","tgt":""}
-{"f":"cards","id":"ko.c0996","k":"meaning","src":"subject marker (honorific)","tgt":""}
-{"f":"cards","id":"ko.c0996","k":"note","src":"Replaces 이/가 for elders: 할아버지께서 오셨어요.","tgt":""}
-{"f":"cards","id":"ko.c0997","k":"meaning","src":"to (an honored person)","tgt":""}
-{"f":"cards","id":"ko.c0997","k":"note","src":"Honorific 에게: 할머니께 드려요.","tgt":""}
-{"f":"cards","id":"ko.c0998","k":"meaning","src":"from (a person, spoken)","tgt":""}
-{"f":"cards","id":"ko.c0998","k":"note","src":"친구한테서 받았어요. Often shortened to 한테.","tgt":""}
-{"f":"cards","id":"ko.c0999","k":"meaning","src":"each; at a time","tgt":""}
-{"f":"cards","id":"ko.c0999","k":"note","src":"하나씩 = one each; 조금씩 = little by little.","tgt":""}
-{"f":"cards","id":"ko.c1000","k":"meaning","src":"at least; or something","tgt":""}
-{"f":"cards","id":"ko.c1000","k":"note","src":"커피라도 마실래요? = want to at least grab a coffee?","tgt":""}
-{"f":"cards","id":"ko.c1001","k":"meaning","src":"called; saying (quotes a word)","tgt":""}
-{"f":"cards","id":"ko.c1001","k":"note","src":"민수라고 해요 = I'm called Minsu.","tgt":""}
-{"f":"cards","id":"ko.c1002","k":"meaning","src":"as; in accordance with","tgt":""}
-{"f":"cards","id":"ko.c1002","k":"note","src":"마음대로 = as you like; 말한 대로 = as I said.","tgt":""}
-{"f":"cards","id":"ko.c1003","k":"meaning","src":"(starting) from (a place)","tgt":""}
-{"f":"cards","id":"ko.c1003","k":"note","src":"집에서부터 걸어왔어요 = I walked all the way from home.","tgt":""}
-{"f":"cards","id":"ko.c1004","k":"meaning","src":"eat and (then) (-고)","tgt":""}
-{"f":"cards","id":"ko.c1004","k":"note","src":"-고 joins two actions or facts. Same after vowels and consonants: 가고, 먹고.","tgt":""}
-{"f":"cards","id":"ko.c1005","k":"meaning","src":"go and (then) (-아서/어서)","tgt":""}
-{"f":"cards","id":"ko.c1005","k":"note","src":"-아서/어서: one action leads to the next. 가서 먹어요 = I'll go there and eat.","tgt":""}
-{"f":"cards","id":"ko.c1006","k":"meaning","src":"because I'm tired (-아서/어서)","tgt":""}
-{"f":"cards","id":"ko.c1006","k":"note","src":"-아서/어서 = because. Never with -(으)세요 or -(으)ㄹ까요.","tgt":""}
-{"f":"cards","id":"ko.c1007","k":"meaning","src":"if (I) go (-(으)면)","tgt":""}
-{"f":"cards","id":"ko.c1007","k":"note","src":"Vowel stem: -면 (가면); consonant: -으면 (먹으면).","tgt":""}
-{"f":"cards","id":"ko.c1008","k":"meaning","src":"I'm busy, but / so (-(으)ㄴ데 / -는데)","tgt":""}
-{"f":"cards","id":"ko.c1008","k":"note","src":"Sets the scene: 바쁜데 나중에 얘기해요. Verbs: 가는데; adjectives: 바쁜데.","tgt":""}
-{"f":"cards","id":"ko.c1009","k":"meaning","src":"it's expensive, but (-지만)","tgt":""}
-{"f":"cards","id":"ko.c1009","k":"note","src":"-지만 = but. Same after any stem: 좋지만, 비싸지만.","tgt":""}
-{"f":"cards","id":"ko.c1010","k":"meaning","src":"when (I) go (-(으)ㄹ 때)","tgt":""}
-{"f":"cards","id":"ko.c1010","k":"note","src":"Vowel: 갈 때; consonant: 먹을 때. 어릴 때 = when I was little.","tgt":""}
-{"f":"cards","id":"ko.c1011","k":"meaning","src":"since it's raining (-(으)니까)","tgt":""}
-{"f":"cards","id":"ko.c1011","k":"note","src":"-(으)니까 = because, and works with requests: 비가 오니까 우산 가져가세요.","tgt":""}
-{"f":"cards","id":"ko.c1012","k":"meaning","src":"even if it's expensive (-아도/어도)","tgt":""}
+{"f":"cards","id":"ko.c0976","k":"meaning","src":"that kid over there (casual)","tgt":"وہ بچہ، وہاں دور (بے تکلف)"}
+{"f":"cards","id":"ko.c0976","k":"note","src":"From 저 아이. Don't use it about elders.","tgt":"یہ 저 아이 سے بنا ہے۔ بزرگوں کے بارے میں نہ کہیں۔"}
+{"f":"cards","id":"ko.c0977","k":"meaning","src":"somewhere","tgt":"کہیں"}
+{"f":"cards","id":"ko.c0977","k":"note","src":"어딘가에 있을 거예요 = it must be somewhere.","tgt":"مثال: 어딘가에 있을 거예요 = کہیں تو ہوگا۔"}
+{"f":"cards","id":"ko.c0978","k":"meaning","src":"that person; he / she (honorific)","tgt":"وہ (تعظیمی، کسی شخص کے لیے)"}
+{"f":"cards","id":"ko.c0978","k":"note","src":"For someone respected: 그분이 오셨어요.","tgt":"کسی قابلِ احترام شخص کے لیے: 그분이 오셨어요 (وہ تشریف لے آئے)۔"}
+{"f":"cards","id":"ko.c0979","k":"meaning","src":"he (in writing)","tgt":"وہ، مرد (تحریری)"}
+{"f":"cards","id":"ko.c0979","k":"note","src":"Speech uses the person's name or 그 사람, 걔. 그 also = that (before a noun).","tgt":"بول چال میں شخص کا نام، یا 그 사람، 걔۔ اسم سے پہلے 그 کا مطلب \"وہ\" بھی ہے۔"}
+{"f":"cards","id":"ko.c0980","k":"meaning","src":"she (in writing)","tgt":"وہ، عورت (تحریری)"}
+{"f":"cards","id":"ko.c0980","k":"note","src":"Almost never spoken. Use the name, 그 사람 or 걔.","tgt":"بولنے میں تقریباً کبھی نہیں۔ نام، 그 사람 یا 걔 استعمال کریں۔"}
+{"f":"cards","id":"ko.c0981","k":"meaning","src":"by (means); toward; as","tgt":"سے (ذریعہ)؛ کی طرف؛ کے طور پر"}
+{"f":"cards","id":"ko.c0981","k":"note","src":"After a vowel or ㄹ: 로 (버스로, 지하철로); after a consonant: 으로 (손으로).","tgt":"حرفِ علت یا ㄹ کے بعد: 로 (버스로، 지하철로)؛ حرفِ صحیح کے بعد: 으로 (손으로)۔"}
+{"f":"cards","id":"ko.c0982","k":"meaning","src":"until; to (an end point); even","tgt":"تک؛ یہاں تک کہ"}
+{"f":"cards","id":"ko.c0982","k":"note","src":"Same after vowels and consonants: 세 시까지, 서울까지.","tgt":"حرفِ علت اور حرفِ صحیح دونوں کے بعد ایک جیسا: 세 시까지، 서울까지۔"}
+{"f":"cards","id":"ko.c0983","k":"meaning","src":"from (a starting time or point)","tgt":"سے (شروع کا وقت یا نقطہ)"}
+{"f":"cards","id":"ko.c0983","k":"note","src":"아홉 시부터 = from nine. Pairs with 까지.","tgt":"مثال: 아홉 시부터 = نو بجے سے۔ 까지 کے ساتھ اس کی جوڑی بنتی ہے۔"}
+{"f":"cards","id":"ko.c0984","k":"meaning","src":"polite marker (after any word)","tgt":"ادب کی علامت (کسی بھی لفظ کے بعد)"}
+{"f":"cards","id":"ko.c0984","k":"note","src":"Makes a bare word polite: 저도요, 커피요, 왜요?","tgt":"اکیلے لفظ کو مؤدب بناتا ہے: 저도요، 커피요، 왜요۔"}
+{"f":"cards","id":"ko.c0985","k":"meaning","src":"to (a person, spoken)","tgt":"کو (کسی شخص کو، بول چال)"}
+{"f":"cards","id":"ko.c0985","k":"note","src":"친구한테 줘요. Only for people and animals; places take 에.","tgt":"مثال: 친구한테 줘요۔ صرف لوگوں اور جانوروں کے لیے؛ جگہوں کے ساتھ 에۔"}
+{"f":"cards","id":"ko.c0986","k":"meaning","src":"than","tgt":"سے (موازنے میں)"}
+{"f":"cards","id":"ko.c0986","k":"note","src":"Goes after the thing you compare against: 버스보다 빨라요 = faster than the bus.","tgt":"جس سے موازنہ ہو اس کے بعد آتا ہے، اردو کے \"سے\" کی طرح: 버스보다 빨라요 = بس سے تیز۔"}
+{"f":"cards","id":"ko.c0987","k":"meaning","src":"plural marker (-s)","tgt":"جمع کی علامت"}
+{"f":"cards","id":"ko.c0987","k":"note","src":"친구들 = friends. Often left out: Korean doesn't need a plural.","tgt":"مثال: 친구들 = دوست (کئی)۔ اکثر چھوڑ دیا جاتا ہے: کوریائی میں جمع لازمی نہیں۔"}
+{"f":"cards","id":"ko.c0988","k":"meaning","src":"and; with (casual)","tgt":"اور؛ کے ساتھ (بے تکلف)"}
+{"f":"cards","id":"ko.c0988","k":"note","src":"Vowel: 랑 (친구랑); consonant: 이랑 (동생이랑). Spoken version of 하고.","tgt":"حرفِ علت کے بعد: 랑 (친구랑)؛ حرفِ صحیح کے بعد: 이랑 (동생이랑)۔ یہ 하고 کی بول چال والی شکل ہے۔"}
+{"f":"cards","id":"ko.c0989","k":"meaning","src":"or; as many as","tgt":"یا؛ پورے (اتنے)"}
+{"f":"cards","id":"ko.c0989","k":"note","src":"Vowel: 나 (커피나 차); consonant: 이나 (빵이나 밥). 두 시간이나 = a whole two hours.","tgt":"حرفِ علت کے بعد: 나 (커피나 차)؛ حرفِ صحیح کے بعد: 이나 (빵이나 밥)۔ 두 시간이나 = پورے دو گھنٹے۔"}
+{"f":"cards","id":"ko.c0990","k":"meaning","src":"to (a person, written or careful)","tgt":"کو (کسی شخص کو، تحریر میں یا احتیاط سے)"}
+{"f":"cards","id":"ko.c0990","k":"note","src":"Same as 한테, a bit more formal: 선생님에게.","tgt":"یہ 한테 جیسا ہے، ذرا زیادہ رسمی: 선생님에게۔"}
+{"f":"cards","id":"ko.c0991","k":"meaning","src":"like; as (similar to)","tgt":"کی طرح؛ جیسا"}
+{"f":"cards","id":"ko.c0991","k":"note","src":"한국 사람처럼 말해요 = you talk like a Korean.","tgt":"مثال: 한국 사람처럼 말해요 = آپ کوریائی لوگوں کی طرح بولتے ہیں۔"}
+{"f":"cards","id":"ko.c0992","k":"meaning","src":"only; nothing but (with a negative)","tgt":"صرف؛ … کے سوا کچھ نہیں (انکار کے ساتھ)"}
+{"f":"cards","id":"ko.c0992","k":"note","src":"천 원밖에 없어요 = I only have 1,000 won. The verb must be negative.","tgt":"مثال: 천 원밖에 없어요 = میرے پاس صرف 1,000 وون ہیں۔ فعل انکار والا ہونا چاہیے۔"}
+{"f":"cards","id":"ko.c0993","k":"meaning","src":"about; around (a time or amount)","tgt":"تقریباً؛ کے آس پاس (وقت یا مقدار)"}
+{"f":"cards","id":"ko.c0993","k":"note","src":"세 시쯤 = around three; 얼마쯤 = about how much.","tgt":"مثال: 세 시쯤 = تین بجے کے آس پاس؛ 얼마쯤 = تقریباً کتنا۔"}
+{"f":"cards","id":"ko.c0994","k":"meaning","src":"every; each","tgt":"ہر؛ ہر ایک"}
+{"f":"cards","id":"ko.c0994","k":"note","src":"날마다 = every day; 주말마다 = every weekend.","tgt":"مثال: 날마다 = ہر روز؛ 주말마다 = ہر ویک اینڈ۔"}
+{"f":"cards","id":"ko.c0995","k":"meaning","src":"hey (after a name, casual)","tgt":"ارے (نام کے بعد، بے تکلف)"}
+{"f":"cards","id":"ko.c0995","k":"note","src":"Consonant: 아 (민정아); vowel: 야 (지수야). Only to friends and younger people.","tgt":"حرفِ صحیح کے بعد: 아 (민정아)؛ حرفِ علت کے بعد: 야 (지수야)۔ صرف دوستوں اور چھوٹوں سے۔"}
+{"f":"cards","id":"ko.c0996","k":"meaning","src":"subject marker (honorific)","tgt":"فاعل کا پارٹیکل (تعظیمی)"}
+{"f":"cards","id":"ko.c0996","k":"note","src":"Replaces 이/가 for elders: 할아버지께서 오셨어요.","tgt":"بزرگوں کے لیے 이/가 کی جگہ: 할아버지께서 오셨어요 (دادا جان تشریف لائے)۔"}
+{"f":"cards","id":"ko.c0997","k":"meaning","src":"to (an honored person)","tgt":"کو (قابلِ احترام شخص کو)"}
+{"f":"cards","id":"ko.c0997","k":"note","src":"Honorific 에게: 할머니께 드려요.","tgt":"تعظیمی 에게: 할머니께 드려요۔"}
+{"f":"cards","id":"ko.c0998","k":"meaning","src":"from (a person, spoken)","tgt":"سے (کسی شخص سے، بول چال)"}
+{"f":"cards","id":"ko.c0998","k":"note","src":"친구한테서 받았어요. Often shortened to 한테.","tgt":"مثال: 친구한테서 받았어요 (دوست سے ملا)۔ اکثر مختصر ہو کر 한테۔"}
+{"f":"cards","id":"ko.c0999","k":"meaning","src":"each; at a time","tgt":"ہر ایک کو؛ ایک وقت میں"}
+{"f":"cards","id":"ko.c0999","k":"note","src":"하나씩 = one each; 조금씩 = little by little.","tgt":"مثال: 하나씩 = ایک ایک؛ 조금씩 = تھوڑا تھوڑا کر کے۔"}
+{"f":"cards","id":"ko.c1000","k":"meaning","src":"at least; or something","tgt":"کم از کم؛ یا کچھ اور"}
+{"f":"cards","id":"ko.c1000","k":"note","src":"커피라도 마실래요? = want to at least grab a coffee?","tgt":"مثال: 커피라도 마실래요 = کم از کم کافی ہی پی لیں؟"}
+{"f":"cards","id":"ko.c1001","k":"meaning","src":"called; saying (quotes a word)","tgt":"نام کا؛ کہہ کر (لفظ نقل کرتا ہے)"}
+{"f":"cards","id":"ko.c1001","k":"note","src":"민수라고 해요 = I'm called Minsu.","tgt":"مثال: 민수라고 해요 = مجھے منسو کہتے ہیں۔"}
+{"f":"cards","id":"ko.c1002","k":"meaning","src":"as; in accordance with","tgt":"جیسے؛ کے مطابق"}
+{"f":"cards","id":"ko.c1002","k":"note","src":"마음대로 = as you like; 말한 대로 = as I said.","tgt":"مثال: 마음대로 = جیسے آپ کا دل چاہے؛ 말한 대로 = جیسا میں نے کہا۔"}
+{"f":"cards","id":"ko.c1003","k":"meaning","src":"(starting) from (a place)","tgt":"(شروع ہو کر) سے (جگہ)"}
+{"f":"cards","id":"ko.c1003","k":"note","src":"집에서부터 걸어왔어요 = I walked all the way from home.","tgt":"مثال: 집에서부터 걸어왔어요 = میں گھر سے پیدل چل کر آیا/آئی۔"}
+{"f":"cards","id":"ko.c1004","k":"meaning","src":"eat and (then) (-고)","tgt":"کھانا اور پھر (-고)"}
+{"f":"cards","id":"ko.c1004","k":"note","src":"-고 joins two actions or facts. Same after vowels and consonants: 가고, 먹고.","tgt":"لاحقہ -고 دو کام یا باتیں جوڑتا ہے۔ حرفِ علت اور حرفِ صحیح دونوں کے بعد ایک جیسا: 가고، 먹고۔"}
+{"f":"cards","id":"ko.c1005","k":"meaning","src":"go and (then) (-아서/어서)","tgt":"جا کر پھر (-아서/어서)"}
+{"f":"cards","id":"ko.c1005","k":"note","src":"-아서/어서: one action leads to the next. 가서 먹어요 = I'll go there and eat.","tgt":"لاحقہ -아서/어서: ایک کام سے اگلا کام جڑتا ہے۔ 가서 먹어요 = میں وہاں جا کر کھاؤں گا/گی۔"}
+{"f":"cards","id":"ko.c1006","k":"meaning","src":"because I'm tired (-아서/어서)","tgt":"تھکن کی وجہ سے (-아서/어서)"}
+{"f":"cards","id":"ko.c1006","k":"note","src":"-아서/어서 = because. Never with -(으)세요 or -(으)ㄹ까요.","tgt":"لاحقہ -아서/어서 = \"…، اس لیے\" (وجہ پہلے آتی ہے)۔ -(으)세요 یا -(으)ㄹ까요 کے ساتھ کبھی نہیں۔"}
+{"f":"cards","id":"ko.c1007","k":"meaning","src":"if (I) go (-(으)면)","tgt":"(میں) جاؤں تو (-(으)면)"}
+{"f":"cards","id":"ko.c1007","k":"note","src":"Vowel stem: -면 (가면); consonant: -으면 (먹으면).","tgt":"حرفِ علت والا اسٹیم: -면 (가면)؛ حرفِ صحیح والا: -으면 (먹으면)۔"}
+{"f":"cards","id":"ko.c1008","k":"meaning","src":"I'm busy, but / so (-(으)ㄴ데 / -는데)","tgt":"مصروف ہوں، تو / مگر (-(으)ㄴ데 / -는데)"}
+{"f":"cards","id":"ko.c1008","k":"note","src":"Sets the scene: 바쁜데 나중에 얘기해요. Verbs: 가는데; adjectives: 바쁜데.","tgt":"پس منظر بتاتا ہے: 바쁜데 나중에 얘기해요 (مصروف ہوں، بعد میں بات کرتے ہیں)۔ فعل: 가는데؛ صفتی فعل: 바쁜데۔"}
+{"f":"cards","id":"ko.c1009","k":"meaning","src":"it's expensive, but (-지만)","tgt":"مہنگا ہے، لیکن (-지만)"}
+{"f":"cards","id":"ko.c1009","k":"note","src":"-지만 = but. Same after any stem: 좋지만, 비싸지만.","tgt":"لاحقہ -지만 = لیکن۔ ہر اسٹیم کے بعد ایک جیسا: 좋지만، 비싸지만۔"}
+{"f":"cards","id":"ko.c1010","k":"meaning","src":"when (I) go (-(으)ㄹ 때)","tgt":"جاتے وقت (-(으)ㄹ 때)"}
+{"f":"cards","id":"ko.c1010","k":"note","src":"Vowel: 갈 때; consonant: 먹을 때. 어릴 때 = when I was little.","tgt":"حرفِ علت کے بعد: 갈 때؛ حرفِ صحیح کے بعد: 먹을 때۔ 어릴 때 = بچپن میں۔"}
+{"f":"cards","id":"ko.c1011","k":"meaning","src":"since it's raining (-(으)니까)","tgt":"چونکہ بارش ہو رہی ہے (-(으)니까)"}
+{"f":"cards","id":"ko.c1011","k":"note","src":"-(으)니까 = because, and works with requests: 비가 오니까 우산 가져가세요.","tgt":"لاحقہ -(으)니까 = کیونکہ، اور یہ درخواست کے ساتھ بھی چلتا ہے: 비가 오니까 우산 가져가세요 (بارش ہو رہی ہے، چھتری لے جائیں)۔"}
+{"f":"cards","id":"ko.c1012","k":"meaning","src":"even if it's expensive (-아도/어도)","tgt":"مہنگا ہو تب بھی (-아도/어도)"}
 {"f":"cards","id":"ko.c1012","k":"note","src":"비싸도 사고 싶어요.","tgt":"비싸도 사고 싶어요.","pre":1}
-{"f":"cards","id":"ko.c1013","k":"meaning","src":"intending to go (-(으)려고)","tgt":""}
+{"f":"cards","id":"ko.c1013","k":"meaning","src":"intending to go (-(으)려고)","tgt":"جانے کے ارادے سے (-(으)려고)"}
 {"f":"cards","id":"ko.c1013","k":"note","src":"한국에 가려고 한국어를 배워요.","tgt":"한국에 가려고 한국어를 배워요.","pre":1}
-{"f":"cards","id":"ko.c1014","k":"meaning","src":"while walking (-(으)면서)","tgt":""}
-{"f":"cards","id":"ko.c1014","k":"note","src":"Two things at once, same person: 음악 들으면서 걸어요.","tgt":""}
-{"f":"cards","id":"ko.c1015","k":"meaning","src":"(go) in order to eat (-(으)러)","tgt":""}
-{"f":"cards","id":"ko.c1015","k":"note","src":"Only with go / come: 먹으러 가요, 놀러 와요.","tgt":""}
-{"f":"cards","id":"ko.c1016","k":"meaning","src":"while going, then (-다가)","tgt":""}
-{"f":"cards","id":"ko.c1016","k":"note","src":"One action is interrupted: 집에 가다가 친구를 만났어요.","tgt":""}
-{"f":"cards","id":"ko.c1017","k":"meaning","src":"sleep or (-거나)","tgt":""}
-{"f":"cards","id":"ko.c1017","k":"note","src":"-거나 = or, between actions: 주말에 자거나 영화 봐요.","tgt":""}
-{"f":"cards","id":"ko.c1018","k":"meaning","src":"after eating (-(으)ㄴ 후에)","tgt":""}
-{"f":"cards","id":"ko.c1018","k":"note","src":"Vowel: 간 후에; consonant: 먹은 후에. Also -고 나서.","tgt":""}
-{"f":"cards","id":"ko.c1019","k":"meaning","src":"before sleeping (-기 전에)","tgt":""}
-{"f":"cards","id":"ko.c1019","k":"note","src":"Verb + 기 전에: 먹기 전에 = before eating.","tgt":""}
-{"f":"cards","id":"ko.c1020","k":"meaning","src":"as soon as (I) arrive (-자마자)","tgt":""}
+{"f":"cards","id":"ko.c1014","k":"meaning","src":"while walking (-(으)면서)","tgt":"چلتے چلتے (-(으)면서)"}
+{"f":"cards","id":"ko.c1014","k":"note","src":"Two things at once, same person: 음악 들으면서 걸어요.","tgt":"ایک ساتھ دو کام، ایک ہی شخص: 음악 들으면서 걸어요۔"}
+{"f":"cards","id":"ko.c1015","k":"meaning","src":"(go) in order to eat (-(으)러)","tgt":"کھانے کے لیے (جانا) (-(으)러)"}
+{"f":"cards","id":"ko.c1015","k":"note","src":"Only with go / come: 먹으러 가요, 놀러 와요.","tgt":"صرف جانا / آنا کے ساتھ: 먹으러 가요، 놀러 와요۔"}
+{"f":"cards","id":"ko.c1016","k":"meaning","src":"while going, then (-다가)","tgt":"جاتے ہوئے، پھر (-다가)"}
+{"f":"cards","id":"ko.c1016","k":"note","src":"One action is interrupted: 집에 가다가 친구를 만났어요.","tgt":"ایک کام بیچ میں رک جاتا ہے: 집에 가다가 친구를 만났어요۔"}
+{"f":"cards","id":"ko.c1017","k":"meaning","src":"sleep or (-거나)","tgt":"سونا یا (-거나)"}
+{"f":"cards","id":"ko.c1017","k":"note","src":"-거나 = or, between actions: 주말에 자거나 영화 봐요.","tgt":"لاحقہ -거나 = یا، کاموں کے بیچ: 주말에 자거나 영화 봐요۔"}
+{"f":"cards","id":"ko.c1018","k":"meaning","src":"after eating (-(으)ㄴ 후에)","tgt":"کھانے کے بعد (-(으)ㄴ 후에)"}
+{"f":"cards","id":"ko.c1018","k":"note","src":"Vowel: 간 후에; consonant: 먹은 후에. Also -고 나서.","tgt":"حرفِ علت کے بعد: 간 후에؛ حرفِ صحیح کے بعد: 먹은 후에۔ یہ بھی: -고 나서۔"}
+{"f":"cards","id":"ko.c1019","k":"meaning","src":"before sleeping (-기 전에)","tgt":"سونے سے پہلے (-기 전에)"}
+{"f":"cards","id":"ko.c1019","k":"note","src":"Verb + 기 전에: 먹기 전에 = before eating.","tgt":"فعل + 기 전에: 먹기 전에 = کھانے سے پہلے۔"}
+{"f":"cards","id":"ko.c1020","k":"meaning","src":"as soon as (I) arrive (-자마자)","tgt":"(میں) پہنچتے ہی (-자마자)"}
 {"f":"cards","id":"ko.c1020","k":"note","src":"집에 도착하자마자 잤어요.","tgt":"집에 도착하자마자 잤어요.","pre":1}
-{"f":"cards","id":"ko.c1021","k":"meaning","src":"however (written)","tgt":""}
-{"f":"cards","id":"ko.c1021","k":"note","src":"Books and news. In speech: 그런데, 하지만.","tgt":""}
-{"f":"cards","id":"ko.c1022","k":"meaning","src":"that is; namely","tgt":""}
-{"f":"cards","id":"ko.c1022","k":"note","src":"Written, formal.","tgt":""}
-{"f":"cards","id":"ko.c1023","k":"meaning","src":"but; by the way (spoken)","tgt":""}
-{"f":"cards","id":"ko.c1023","k":"note","src":"The spoken short form of 그런데. Starts a new topic too: 근데 밥 먹었어?","tgt":""}
-{"f":"cards","id":"ko.c1024","k":"meaning","src":"therefore (written)","tgt":""}
-{"f":"cards","id":"ko.c1024","k":"note","src":"Formal 그래서.","tgt":""}
-{"f":"cards","id":"ko.c1025","k":"meaning","src":"or (between nouns, formal)","tgt":""}
-{"f":"cards","id":"ko.c1025","k":"note","src":"카드 또는 현금 = card or cash. Speech: 아니면, (이)나.","tgt":""}
-{"f":"cards","id":"ko.c1026","k":"meaning","src":"so; that's why; I mean","tgt":""}
-{"f":"cards","id":"ko.c1026","k":"note","src":"Also \"exactly!\": 그러니까요! Spoken short: 그니까.","tgt":""}
-{"f":"cards","id":"ko.c1027","k":"meaning","src":"but; nevertheless","tgt":""}
-{"f":"cards","id":"ko.c1027","k":"note","src":"Between 그런데 and 하지만 in tone.","tgt":""}
-{"f":"cards","id":"ko.c1028","k":"meaning","src":"if so; in that case","tgt":""}
-{"f":"cards","id":"ko.c1028","k":"note","src":"A bit more formal than 그럼.","tgt":""}
-{"f":"cards","id":"ko.c1029","k":"meaning","src":"and then (while doing that)","tgt":""}
+{"f":"cards","id":"ko.c1021","k":"meaning","src":"however (written)","tgt":"تاہم (تحریری)"}
+{"f":"cards","id":"ko.c1021","k":"note","src":"Books and news. In speech: 그런데, 하지만.","tgt":"کتابیں اور خبریں۔ بول چال میں: 그런데، 하지만۔"}
+{"f":"cards","id":"ko.c1022","k":"meaning","src":"that is; namely","tgt":"یعنی؛ مطلب یہ کہ"}
+{"f":"cards","id":"ko.c1022","k":"note","src":"Written, formal.","tgt":"تحریری، رسمی۔"}
+{"f":"cards","id":"ko.c1023","k":"meaning","src":"but; by the way (spoken)","tgt":"مگر؛ ویسے (بول چال)"}
+{"f":"cards","id":"ko.c1023","k":"note","src":"The spoken short form of 그런데. Starts a new topic too: 근데 밥 먹었어?","tgt":"یہ 그런데 کی بول چال والی مختصر شکل ہے۔ نئی بات بھی شروع کرتا ہے: 근데 밥 먹었어 (ویسے، کھانا کھایا؟)"}
+{"f":"cards","id":"ko.c1024","k":"meaning","src":"therefore (written)","tgt":"لہذا (تحریری)"}
+{"f":"cards","id":"ko.c1024","k":"note","src":"Formal 그래서.","tgt":"رسمی 그래서۔"}
+{"f":"cards","id":"ko.c1025","k":"meaning","src":"or (between nouns, formal)","tgt":"یا (اسموں کے بیچ، رسمی)"}
+{"f":"cards","id":"ko.c1025","k":"note","src":"카드 또는 현금 = card or cash. Speech: 아니면, (이)나.","tgt":"مثال: 카드 또는 현금 = کارڈ یا کیش۔ بول چال: 아니면، (이)나۔"}
+{"f":"cards","id":"ko.c1026","k":"meaning","src":"so; that's why; I mean","tgt":"اس لیے؛ تبھی تو؛ میرا مطلب ہے"}
+{"f":"cards","id":"ko.c1026","k":"note","src":"Also \"exactly!\": 그러니까요! Spoken short: 그니까.","tgt":"\"بالکل!\" کے لیے بھی: 그러니까요۔ بول چال میں مختصر: 그니까۔"}
+{"f":"cards","id":"ko.c1027","k":"meaning","src":"but; nevertheless","tgt":"لیکن؛ پھر بھی"}
+{"f":"cards","id":"ko.c1027","k":"note","src":"Between 그런데 and 하지만 in tone.","tgt":"لہجے میں 그런데 اور 하지만 کے بیچ۔"}
+{"f":"cards","id":"ko.c1028","k":"meaning","src":"if so; in that case","tgt":"اگر ایسا ہے؛ اس صورت میں"}
+{"f":"cards","id":"ko.c1028","k":"note","src":"A bit more formal than 그럼.","tgt":"یہ 그럼 سے ذرا زیادہ رسمی ہے۔"}
+{"f":"cards","id":"ko.c1029","k":"meaning","src":"and then (while doing that)","tgt":"اور پھر (وہ کرتے کرتے)"}
 {"f":"cards","id":"ko.c1029","k":"note","src":"텔레비전을 봤어요. 그러다가 잠들었어요.","tgt":"텔레비전을 봤어요. 그러다가 잠들었어요.","pre":1}
-{"f":"cards","id":"ko.c1030","k":"meaning","src":"besides; on top of that","tgt":""}
+{"f":"cards","id":"ko.c1030","k":"meaning","src":"besides; on top of that","tgt":"اس کے علاوہ؛ اوپر سے"}
 {"f":"cards","id":"ko.c1030","k":"note","src":"비싸요. 게다가 맛도 없어요.","tgt":"비싸요. 게다가 맛도 없어요.","pre":1}
-{"f":"cards","id":"ko.c1031","k":"meaning","src":"ah; oh (I see)","tgt":""}
-{"f":"cards","id":"ko.c1031","k":"note","src":"The all-purpose reaction: 아, 그래요? Also a sigh.","tgt":""}
-{"f":"cards","id":"ko.c1032","k":"meaning","src":"uh; huh?","tgt":""}
-{"f":"cards","id":"ko.c1032","k":"note","src":"Surprise or a casual \"yeah\": 어, 왔어? Casual.","tgt":""}
-{"f":"cards","id":"ko.c1033","k":"meaning","src":"wow","tgt":""}
-{"f":"cards","id":"ko.c1033","k":"note","src":"Neutral, anyone can say it. Longer = more impressed: 와아.","tgt":""}
-{"f":"cards","id":"ko.c1034","k":"meaning","src":"oh!; ooh","tgt":""}
-{"f":"cards","id":"ko.c1034","k":"note","src":"Pleasantly surprised: 오, 멋있다! Also spelled like 오 (five).","tgt":""}
-{"f":"cards","id":"ko.c1035","k":"meaning","src":"yeah; uh-huh (casual)","tgt":""}
-{"f":"cards","id":"ko.c1035","k":"note","src":"Casual \"yes\" to friends. To elders: 네.","tgt":""}
-{"f":"cards","id":"ko.c1036","k":"meaning","src":"right, then; here you go","tgt":""}
-{"f":"cards","id":"ko.c1036","k":"note","src":"Getting started or handing something over: 자, 시작할까요?","tgt":""}
-{"f":"cards","id":"ko.c1037","k":"meaning","src":"hmm","tgt":""}
-{"f":"cards","id":"ko.c1037","k":"note","src":"Thinking before you answer. Fine in any register.","tgt":""}
-{"f":"cards","id":"ko.c1038","k":"meaning","src":"whoa; wooow","tgt":""}
-{"f":"cards","id":"ko.c1038","k":"note","src":"Bigger, more childlike than 와.","tgt":""}
-{"f":"cards","id":"ko.c1039","k":"meaning","src":"hello? (on the phone)","tgt":""}
-{"f":"cards","id":"ko.c1039","k":"note","src":"Only on the phone, or to check if someone hears you. Not a greeting in person.","tgt":""}
-{"f":"cards","id":"ko.c1040","k":"meaning","src":"well…; I'm not sure","tgt":""}
-{"f":"cards","id":"ko.c1040","k":"note","src":"Polite: 글쎄요. Buys time or softens a \"no\".","tgt":""}
-{"f":"cards","id":"ko.c1041","k":"meaning","src":"aw, come on; no way","tgt":""}
-{"f":"cards","id":"ko.c1041","k":"note","src":"Light disbelief or teasing: 에이, 거짓말! Casual.","tgt":""}
-{"f":"cards","id":"ko.c1042","k":"meaning","src":"oh my god (lit. in the world)","tgt":""}
-{"f":"cards","id":"ko.c1042","k":"note","src":"Amazement or shock. Common with older speakers: 세상에, 이게 뭐야!","tgt":""}
-{"f":"cards","id":"ko.c1043","k":"meaning","src":"phew","tgt":""}
-{"f":"cards","id":"ko.c1043","k":"note","src":"Relief. Also a sigh.","tgt":""}
-{"f":"cards","id":"ko.c1044","k":"meaning","src":"ouch","tgt":""}
-{"f":"cards","id":"ko.c1044","k":"note","src":"Sudden pain. Shorter: 아! Children say 아야야.","tgt":""}
-{"f":"cards","id":"ko.c1045","k":"meaning","src":"sigh; oh well","tgt":""}
-{"f":"cards","id":"ko.c1045","k":"note","src":"Tired resignation. Can sound grumpy; be careful with elders.","tgt":""}
-{"f":"cards","id":"ko.c1046","k":"meaning","src":"oh my!; goodness!","tgt":""}
-{"f":"cards","id":"ko.c1046","k":"note","src":"Mostly women and older speakers. 어머나 is stronger.","tgt":""}
-{"f":"cards","id":"ko.c1047","k":"meaning","src":"gasp!; yikes","tgt":""}
-{"f":"cards","id":"ko.c1047","k":"note","src":"Shock, also typed in chats. Casual.","tgt":""}
-{"f":"cards","id":"ko.c1048","k":"meaning","src":"oops!; oh!","tgt":""}
-{"f":"cards","id":"ko.c1048","k":"note","src":"Sudden small surprise or mistake. Casual.","tgt":""}
-{"f":"cards","id":"ko.c1049","k":"meaning","src":"oh no, I forgot!","tgt":""}
-{"f":"cards","id":"ko.c1049","k":"note","src":"When you remember a mistake: 아차, 지갑! Casual.","tgt":""}
-{"f":"cards","id":"ko.c1050","k":"meaning","src":"you scared me!","tgt":""}
-{"f":"cards","id":"ko.c1050","k":"note","src":"When startled. Casual; polite: 깜짝 놀랐어요.","tgt":""}
-{"f":"cards","id":"ko.c1051","k":"meaning","src":"oh, come on (embarrassed, coy)","tgt":""}
-{"f":"cards","id":"ko.c1051","k":"note","src":"Shy or mildly annoyed, often playful. Usually women.","tgt":""}
-{"f":"cards","id":"ko.c1052","k":"meaning","src":"yes!; yay!","tgt":""}
-{"f":"cards","id":"ko.c1052","k":"note","src":"Small personal victory. Also written 앗싸. Casual, a bit playful.","tgt":""}
-{"f":"cards","id":"ko.c1053","k":"meaning","src":"shh","tgt":""}
-{"f":"cards","id":"ko.c1053","k":"note","src":"Asking for quiet. Anyone can say it.","tgt":""}
-{"f":"cards","id":"ko.c1054","k":"meaning","src":"aaah!","tgt":""}
-{"f":"cards","id":"ko.c1054","k":"note","src":"A scream: a bug, a fright, a disaster. Casual.","tgt":""}
-{"f":"cards","id":"ko.c1055","k":"meaning","src":"ta-da!","tgt":""}
-{"f":"cards","id":"ko.c1055","k":"note","src":"Showing off a surprise or a gift. Playful.","tgt":""}
-{"f":"cards","id":"ko.c1056","k":"meaning","src":"yuck; ew","tgt":""}
-{"f":"cards","id":"ko.c1056","k":"note","src":"Disgust, especially at food. Casual; rude to say about someone's cooking.","tgt":""}
-{"f":"cards","id":"ko.c1057","k":"meaning","src":"this / that / that (over there) (before a noun)","tgt":""}
-{"f":"cards","id":"ko.c1057","k":"note","src":"이 사람, 그 책, 저 건물. 그 = near you or already mentioned; 저 = far from both.","tgt":""}
-{"f":"cards","id":"ko.c1058","k":"meaning","src":"one, two, three, four (before a counter)","tgt":""}
+{"f":"cards","id":"ko.c1031","k":"meaning","src":"ah; oh (I see)","tgt":"آہ؛ اوہ (اچھا، یہ بات ہے)"}
+{"f":"cards","id":"ko.c1031","k":"note","src":"The all-purpose reaction: 아, 그래요? Also a sigh.","tgt":"ہر جگہ چلنے والا ردِعمل: 아, 그래요 (اچھا، واقعی؟)۔ آہ بھرنے کے لیے بھی۔"}
+{"f":"cards","id":"ko.c1032","k":"meaning","src":"uh; huh?","tgt":"اں؛ ہیں؟"}
+{"f":"cards","id":"ko.c1032","k":"note","src":"Surprise or a casual \"yeah\": 어, 왔어? Casual.","tgt":"حیرت یا بے تکلف \"ہاں\": 어, 왔어 (ارے، آ گئے/گئیں؟)۔ بے تکلف۔"}
+{"f":"cards","id":"ko.c1033","k":"meaning","src":"wow","tgt":"واہ"}
+{"f":"cards","id":"ko.c1033","k":"note","src":"Neutral, anyone can say it. Longer = more impressed: 와아.","tgt":"سیدھا لفظ، کوئی بھی کہہ سکتا ہے۔ جتنا لمبا، اتنا زیادہ متاثر: 와아۔"}
+{"f":"cards","id":"ko.c1034","k":"meaning","src":"oh!; ooh","tgt":"اوہ!؛ اوہو"}
+{"f":"cards","id":"ko.c1034","k":"note","src":"Pleasantly surprised: 오, 멋있다! Also spelled like 오 (five).","tgt":"خوشگوار حیرت: 오, 멋있다 (اوہ، زبردست!)۔ لکھنے میں 오 (پانچ) جیسا ہی ہے۔"}
+{"f":"cards","id":"ko.c1035","k":"meaning","src":"yeah; uh-huh (casual)","tgt":"ہاں؛ ہوں (بے تکلف)"}
+{"f":"cards","id":"ko.c1035","k":"note","src":"Casual \"yes\" to friends. To elders: 네.","tgt":"دوستوں سے بے تکلف \"ہاں\"۔ بزرگوں سے: 네۔"}
+{"f":"cards","id":"ko.c1036","k":"meaning","src":"right, then; here you go","tgt":"چلیں جی؛ یہ لیں"}
+{"f":"cards","id":"ko.c1036","k":"note","src":"Getting started or handing something over: 자, 시작할까요?","tgt":"شروع کرتے یا کچھ پکڑاتے ہوئے: 자, 시작할까요 (چلیں، شروع کریں؟)"}
+{"f":"cards","id":"ko.c1037","k":"meaning","src":"hmm","tgt":"ہمم"}
+{"f":"cards","id":"ko.c1037","k":"note","src":"Thinking before you answer. Fine in any register.","tgt":"جواب سے پہلے سوچتے ہوئے۔ ہر درجے میں ٹھیک۔"}
+{"f":"cards","id":"ko.c1038","k":"meaning","src":"whoa; wooow","tgt":"واؤ؛ واااہ"}
+{"f":"cards","id":"ko.c1038","k":"note","src":"Bigger, more childlike than 와.","tgt":"یہ 와 سے بڑا اور زیادہ بچوں جیسا ہے۔"}
+{"f":"cards","id":"ko.c1039","k":"meaning","src":"hello? (on the phone)","tgt":"ہیلو؟ (فون پر)"}
+{"f":"cards","id":"ko.c1039","k":"note","src":"Only on the phone, or to check if someone hears you. Not a greeting in person.","tgt":"صرف فون پر، یا یہ دیکھنے کے لیے کہ کوئی سن رہا ہے۔ آمنے سامنے سلام نہیں۔"}
+{"f":"cards","id":"ko.c1040","k":"meaning","src":"well…; I'm not sure","tgt":"کیا کہوں…؛ پکا پتا نہیں"}
+{"f":"cards","id":"ko.c1040","k":"note","src":"Polite: 글쎄요. Buys time or softens a \"no\".","tgt":"مؤدب: 글쎄요۔ وقت لیتا ہے یا \"نہیں\" کو نرم کرتا ہے۔"}
+{"f":"cards","id":"ko.c1041","k":"meaning","src":"aw, come on; no way","tgt":"ارے چھوڑو؛ ہو ہی نہیں سکتا"}
+{"f":"cards","id":"ko.c1041","k":"note","src":"Light disbelief or teasing: 에이, 거짓말! Casual.","tgt":"ہلکی بے یقینی یا چھیڑ: 에이, 거짓말 (ارے چھوڑو، جھوٹ!)۔ بے تکلف۔"}
+{"f":"cards","id":"ko.c1042","k":"meaning","src":"oh my god (lit. in the world)","tgt":"یا اللہ! (لفظی: دنیا میں)"}
+{"f":"cards","id":"ko.c1042","k":"note","src":"Amazement or shock. Common with older speakers: 세상에, 이게 뭐야!","tgt":"حیرت یا صدمہ۔ بڑی عمر کے لوگوں میں عام: 세상에, 이게 뭐야 (یا اللہ، یہ کیا ہے!)"}
+{"f":"cards","id":"ko.c1043","k":"meaning","src":"phew","tgt":"اف (سکون کا سانس)"}
+{"f":"cards","id":"ko.c1043","k":"note","src":"Relief. Also a sigh.","tgt":"سکون کا سانس۔ آہ بھرنا بھی۔"}
+{"f":"cards","id":"ko.c1044","k":"meaning","src":"ouch","tgt":"اوئی"}
+{"f":"cards","id":"ko.c1044","k":"note","src":"Sudden pain. Shorter: 아! Children say 아야야.","tgt":"اچانک درد۔ مختصر: 아۔ بچے کہتے ہیں 아야야۔"}
+{"f":"cards","id":"ko.c1045","k":"meaning","src":"sigh; oh well","tgt":"اوہو؛ چلو خیر"}
+{"f":"cards","id":"ko.c1045","k":"note","src":"Tired resignation. Can sound grumpy; be careful with elders.","tgt":"تھک کر ہار مان لینا۔ چڑچڑا لگ سکتا ہے؛ بزرگوں کے سامنے احتیاط کریں۔"}
+{"f":"cards","id":"ko.c1046","k":"meaning","src":"oh my!; goodness!","tgt":"ہائے اللہ!؛ اوئی ماں!"}
+{"f":"cards","id":"ko.c1046","k":"note","src":"Mostly women and older speakers. 어머나 is stronger.","tgt":"زیادہ تر خواتین اور بڑی عمر کے لوگ۔ 어머나 زیادہ زور دار ہے۔"}
+{"f":"cards","id":"ko.c1047","k":"meaning","src":"gasp!; yikes","tgt":"ہائیں!؛ ارے باپ رے!"}
+{"f":"cards","id":"ko.c1047","k":"note","src":"Shock, also typed in chats. Casual.","tgt":"صدمہ؛ چیٹ میں ٹائپ بھی ہوتا ہے۔ بے تکلف۔"}
+{"f":"cards","id":"ko.c1048","k":"meaning","src":"oops!; oh!","tgt":"اوپس!؛ ارے!"}
+{"f":"cards","id":"ko.c1048","k":"note","src":"Sudden small surprise or mistake. Casual.","tgt":"اچانک چھوٹی حیرت یا غلطی۔ بے تکلف۔"}
+{"f":"cards","id":"ko.c1049","k":"meaning","src":"oh no, I forgot!","tgt":"ارے، یاد ہی نہیں رہا!"}
+{"f":"cards","id":"ko.c1049","k":"note","src":"When you remember a mistake: 아차, 지갑! Casual.","tgt":"جب کوئی غلطی یاد آئے: 아차, 지갑 (ارے، بٹوا!)۔ بے تکلف۔"}
+{"f":"cards","id":"ko.c1050","k":"meaning","src":"you scared me!","tgt":"ڈرا دیا!"}
+{"f":"cards","id":"ko.c1050","k":"note","src":"When startled. Casual; polite: 깜짝 놀랐어요.","tgt":"چونکنے پر۔ بے تکلف؛ مؤدب: 깜짝 놀랐어요۔"}
+{"f":"cards","id":"ko.c1051","k":"meaning","src":"oh, come on (embarrassed, coy)","tgt":"اف، چھوڑو بھی (شرما کر)"}
+{"f":"cards","id":"ko.c1051","k":"note","src":"Shy or mildly annoyed, often playful. Usually women.","tgt":"شرمیلی یا ہلکی چڑ، اکثر مذاق میں۔ عام طور پر خواتین۔"}
+{"f":"cards","id":"ko.c1052","k":"meaning","src":"yes!; yay!","tgt":"یس!؛ ہرے!"}
+{"f":"cards","id":"ko.c1052","k":"note","src":"Small personal victory. Also written 앗싸. Casual, a bit playful.","tgt":"چھوٹی ذاتی جیت۔ 앗싸 بھی لکھا جاتا ہے۔ بے تکلف، ذرا مستی بھرا۔"}
+{"f":"cards","id":"ko.c1053","k":"meaning","src":"shh","tgt":"شش"}
+{"f":"cards","id":"ko.c1053","k":"note","src":"Asking for quiet. Anyone can say it.","tgt":"خاموش رہنے کو کہنا۔ کوئی بھی کہہ سکتا ہے۔"}
+{"f":"cards","id":"ko.c1054","k":"meaning","src":"aaah!","tgt":"آآآ!"}
+{"f":"cards","id":"ko.c1054","k":"note","src":"A scream: a bug, a fright, a disaster. Casual.","tgt":"چیخ: کیڑا، ڈر، کوئی آفت۔ بے تکلف۔"}
+{"f":"cards","id":"ko.c1055","k":"meaning","src":"ta-da!","tgt":"ٹا ڈا!"}
+{"f":"cards","id":"ko.c1055","k":"note","src":"Showing off a surprise or a gift. Playful.","tgt":"کوئی سرپرائز یا تحفہ دکھاتے ہوئے۔ مستی بھرا۔"}
+{"f":"cards","id":"ko.c1056","k":"meaning","src":"yuck; ew","tgt":"چھی؛ اخ"}
+{"f":"cards","id":"ko.c1056","k":"note","src":"Disgust, especially at food. Casual; rude to say about someone's cooking.","tgt":"گھن، خاص طور پر کھانے پر۔ بے تکلف؛ کسی کے پکائے کھانے کے بارے میں کہنا بدتمیزی ہے۔"}
+{"f":"cards","id":"ko.c1057","k":"meaning","src":"this / that / that (over there) (before a noun)","tgt":"یہ / وہ / وہ (وہاں دور) (اسم سے پہلے)"}
+{"f":"cards","id":"ko.c1057","k":"note","src":"이 사람, 그 책, 저 건물. 그 = near you or already mentioned; 저 = far from both.","tgt":"مثال: 이 사람، 그 책، 저 건물۔ 그 = آپ کے پاس یا جس کی بات ہو چکی؛ 저 = دونوں سے دور (اردو کا ایک \"وہ\" یہاں دو لفظ ہے)۔"}
+{"f":"cards","id":"ko.c1058","k":"meaning","src":"one, two, three, four (before a counter)","tgt":"ایک، دو، تین، چار (کاؤنٹر سے پہلے)"}
 {"f":"cards","id":"ko.c1058","k":"note","src":"하나 → 한, 둘 → 두, 셋 → 세, 넷 → 네: 한 잔, 두 명.","tgt":"하나 → 한, 둘 → 두, 셋 → 세, 넷 → 네: 한 잔, 두 명.","pre":1}
-{"f":"cards","id":"ko.c1059","k":"meaning","src":"this kind of / that kind of / that kind of (over there)","tgt":""}
-{"f":"cards","id":"ko.c1059","k":"note","src":"이런 날 = a day like this. 그런 거 아니에요 = it's not like that.","tgt":""}
-{"f":"cards","id":"ko.c1060","k":"meaning","src":"what kind of; some (before a noun)","tgt":""}
-{"f":"cards","id":"ko.c1060","k":"note","src":"어떤 음식 좋아해요? From 어떻다.","tgt":""}
-{"f":"cards","id":"ko.c1061","k":"meaning","src":"other; another; different","tgt":""}
-{"f":"cards","id":"ko.c1061","k":"note","src":"다른 거 있어요? = do you have another one?","tgt":""}
-{"f":"cards","id":"ko.c1062","k":"meaning","src":"various; several","tgt":""}
-{"f":"cards","id":"ko.c1062","k":"note","src":"여러 번 = many times; 여러 가지 = all sorts.","tgt":""}
-{"f":"cards","id":"ko.c1063","k":"meaning","src":"which (before a noun)","tgt":""}
-{"f":"cards","id":"ko.c1063","k":"note","src":"어느 나라 = which country; 어느 쪽 = which way.","tgt":""}
-{"f":"cards","id":"ko.c1064","k":"meaning","src":"every; all (before a noun)","tgt":""}
-{"f":"cards","id":"ko.c1064","k":"note","src":"모든 사람 = everyone.","tgt":""}
-{"f":"cards","id":"ko.c1065","k":"meaning","src":"this (time); this coming","tgt":""}
-{"f":"cards","id":"ko.c1065","k":"note","src":"이번 주말 = this weekend; 이번이 처음이에요.","tgt":""}
-{"f":"cards","id":"ko.c1066","k":"meaning","src":"how many; a few","tgt":""}
-{"f":"cards","id":"ko.c1066","k":"note","src":"몇 개? = how many? 몇 명 = a few people.","tgt":""}
-{"f":"cards","id":"ko.c1067","k":"meaning","src":"what (kind of) (before a noun)","tgt":""}
-{"f":"cards","id":"ko.c1067","k":"note","src":"무슨 일 있어요? = is something wrong?","tgt":""}
-{"f":"cards","id":"ko.c1068","k":"meaning","src":"last; past (before a noun)","tgt":""}
-{"f":"cards","id":"ko.c1068","k":"note","src":"지난 주말 = last weekend; 지난달 = last month.","tgt":""}
-{"f":"cards","id":"ko.c1069","k":"meaning","src":"new (before a noun)","tgt":""}
-{"f":"cards","id":"ko.c1069","k":"note","src":"새 옷 = new clothes; 새해 = New Year.","tgt":""}
-{"f":"cards","id":"ko.c1070","k":"meaning","src":"that's right","tgt":""}
-{"f":"cards","id":"ko.c1070","k":"note","src":"Agreeing: 네, 맞아요. Casual: 맞아.","tgt":""}
-{"f":"cards","id":"ko.c1071","k":"meaning","src":"yes (formal)","tgt":""}
-{"f":"cards","id":"ko.c1071","k":"note","src":"More formal than 네; heard in offices and from older people.","tgt":""}
-{"f":"cards","id":"ko.c1072","k":"meaning","src":"afternoon; p.m.","tgt":""}
-{"f":"cards","id":"ko.c1072","k":"note","src":"오후 세 시 = 3 p.m.","tgt":""}
-{"f":"cards","id":"ko.c1073","k":"meaning","src":"first (before a noun)","tgt":""}
-{"f":"cards","id":"ko.c1073","k":"note","src":"첫눈 = the first snow; 첫 데이트 = a first date.","tgt":""}
-{"f":"cards","id":"ko.c1074","k":"meaning","src":"this year","tgt":""}
+{"f":"cards","id":"ko.c1059","k":"meaning","src":"this kind of / that kind of / that kind of (over there)","tgt":"ایسا / ویسا / ویسا (وہاں والا)"}
+{"f":"cards","id":"ko.c1059","k":"note","src":"이런 날 = a day like this. 그런 거 아니에요 = it's not like that.","tgt":"مثال: 이런 날 = ایسا دن۔ 그런 거 아니에요 = ایسی بات نہیں ہے۔"}
+{"f":"cards","id":"ko.c1060","k":"meaning","src":"what kind of; some (before a noun)","tgt":"کس طرح کا؛ کوئی (اسم سے پہلے)"}
+{"f":"cards","id":"ko.c1060","k":"note","src":"어떤 음식 좋아해요? From 어떻다.","tgt":"مثال: 어떤 음식 좋아해요 (آپ کو کس طرح کا کھانا پسند ہے؟)۔ 어떻다 سے بنا۔"}
+{"f":"cards","id":"ko.c1061","k":"meaning","src":"other; another; different","tgt":"دوسرا؛ کوئی اور؛ مختلف"}
+{"f":"cards","id":"ko.c1061","k":"note","src":"다른 거 있어요? = do you have another one?","tgt":"مثال: 다른 거 있어요 = کوئی دوسرا ہے؟"}
+{"f":"cards","id":"ko.c1062","k":"meaning","src":"various; several","tgt":"مختلف قسم کے؛ کئی"}
+{"f":"cards","id":"ko.c1062","k":"note","src":"여러 번 = many times; 여러 가지 = all sorts.","tgt":"مثال: 여러 번 = کئی بار؛ 여러 가지 = طرح طرح کے۔"}
+{"f":"cards","id":"ko.c1063","k":"meaning","src":"which (before a noun)","tgt":"کون سا (اسم سے پہلے)"}
+{"f":"cards","id":"ko.c1063","k":"note","src":"어느 나라 = which country; 어느 쪽 = which way.","tgt":"مثال: 어느 나라 = کون سا ملک؛ 어느 쪽 = کس طرف۔"}
+{"f":"cards","id":"ko.c1064","k":"meaning","src":"every; all (before a noun)","tgt":"ہر؛ سب (اسم سے پہلے)"}
+{"f":"cards","id":"ko.c1064","k":"note","src":"모든 사람 = everyone.","tgt":"مثال: 모든 사람 = سب لوگ۔"}
+{"f":"cards","id":"ko.c1065","k":"meaning","src":"this (time); this coming","tgt":"اس (بار)؛ آنے والا"}
+{"f":"cards","id":"ko.c1065","k":"note","src":"이번 주말 = this weekend; 이번이 처음이에요.","tgt":"مثال: 이번 주말 = اس ویک اینڈ؛ 이번이 처음이에요 (یہ پہلی بار ہے)۔"}
+{"f":"cards","id":"ko.c1066","k":"meaning","src":"how many; a few","tgt":"کتنے؛ چند"}
+{"f":"cards","id":"ko.c1066","k":"note","src":"몇 개? = how many? 몇 명 = a few people.","tgt":"مثال: 몇 개 = کتنے؟ 몇 명 = چند لوگ۔"}
+{"f":"cards","id":"ko.c1067","k":"meaning","src":"what (kind of) (before a noun)","tgt":"کیا (کس قسم کا) (اسم سے پہلے)"}
+{"f":"cards","id":"ko.c1067","k":"note","src":"무슨 일 있어요? = is something wrong?","tgt":"مثال: 무슨 일 있어요 = کچھ ہوا ہے کیا؟"}
+{"f":"cards","id":"ko.c1068","k":"meaning","src":"last; past (before a noun)","tgt":"پچھلا؛ گزرا ہوا (اسم سے پہلے)"}
+{"f":"cards","id":"ko.c1068","k":"note","src":"지난 주말 = last weekend; 지난달 = last month.","tgt":"مثال: 지난 주말 = پچھلا ویک اینڈ؛ 지난달 = پچھلا مہینہ۔"}
+{"f":"cards","id":"ko.c1069","k":"meaning","src":"new (before a noun)","tgt":"نیا (اسم سے پہلے)"}
+{"f":"cards","id":"ko.c1069","k":"note","src":"새 옷 = new clothes; 새해 = New Year.","tgt":"مثال: 새 옷 = نئے کپڑے؛ 새해 = نیا سال۔"}
+{"f":"cards","id":"ko.c1070","k":"meaning","src":"that's right","tgt":"صحیح بات ہے"}
+{"f":"cards","id":"ko.c1070","k":"note","src":"Agreeing: 네, 맞아요. Casual: 맞아.","tgt":"اتفاق کرتے ہوئے: 네, 맞아요 (جی، صحیح بات ہے)۔ بے تکلف: 맞아۔"}
+{"f":"cards","id":"ko.c1071","k":"meaning","src":"yes (formal)","tgt":"جی ہاں (رسمی)"}
+{"f":"cards","id":"ko.c1071","k":"note","src":"More formal than 네; heard in offices and from older people.","tgt":"یہ 네 سے زیادہ رسمی ہے؛ دفتروں میں اور بڑی عمر کے لوگوں سے سنائی دیتا ہے۔"}
+{"f":"cards","id":"ko.c1072","k":"meaning","src":"afternoon; p.m.","tgt":"سہ پہر؛ دوپہر کے بعد"}
+{"f":"cards","id":"ko.c1072","k":"note","src":"오후 세 시 = 3 p.m.","tgt":"مثال: 오후 세 시 = سہ پہر تین بجے"}
+{"f":"cards","id":"ko.c1073","k":"meaning","src":"first (before a noun)","tgt":"پہلا (اسم سے پہلے)"}
+{"f":"cards","id":"ko.c1073","k":"note","src":"첫눈 = the first snow; 첫 데이트 = a first date.","tgt":"مثال: 첫눈 = پہلی برف؛ 첫 데이트 = پہلی ڈیٹ۔"}
+{"f":"cards","id":"ko.c1074","k":"meaning","src":"this year","tgt":"اس سال"}
 {"f":"cards","id":"ko.c1074","k":"note","src":"올해 몇 살이에요?","tgt":"올해 몇 살이에요?","pre":1}
-{"f":"cards","id":"ko.c1075","k":"meaning","src":"no (casual); no wait","tgt":""}
-{"f":"cards","id":"ko.c1075","k":"note","src":"To friends. Also starts a protest: 아니, 그게 아니라…","tgt":""}
-{"f":"cards","id":"ko.c1076","k":"meaning","src":"thousand","tgt":""}
-{"f":"cards","id":"ko.c1076","k":"note","src":"천 원 = 1,000 won; 삼천 = 3,000.","tgt":""}
-{"f":"cards","id":"ko.c1077","k":"meaning","src":"zero","tgt":""}
-{"f":"cards","id":"ko.c1077","k":"note","src":"영 in maths and scores; 공 in phone numbers: 공일공 = 010.","tgt":""}
-{"f":"cards","id":"ko.c1078","k":"meaning","src":"last year","tgt":""}
-{"f":"cards","id":"ko.c1078","k":"note","src":"Also 지난해.","tgt":""}
-{"f":"cards","id":"ko.c1079","k":"meaning","src":"hi; bye (casual)","tgt":""}
-{"f":"cards","id":"ko.c1079","k":"note","src":"To friends and children, both hello and goodbye.","tgt":""}
-{"f":"cards","id":"ko.c1080","k":"meaning","src":"daytime","tgt":""}
-{"f":"cards","id":"ko.c1080","k":"note","src":"낮에는 더워요 = it's hot during the day.","tgt":""}
-{"f":"cards","id":"ko.c1081","k":"meaning","src":"morning; a.m.","tgt":""}
-{"f":"cards","id":"ko.c1081","k":"note","src":"오전 열 시 = 10 a.m.","tgt":""}
-{"f":"cards","id":"ko.c1082","k":"meaning","src":"early morning; small hours","tgt":""}
-{"f":"cards","id":"ko.c1082","k":"note","src":"새벽 두 시 = 2 a.m.","tgt":""}
-{"f":"cards","id":"ko.c1083","k":"meaning","src":"last week","tgt":""}
-{"f":"cards","id":"ko.c1083","k":"note","src":"One word, no space.","tgt":""}
-{"f":"cards","id":"ko.c1084","k":"meaning","src":"no (spoken)","tgt":""}
-{"f":"cards","id":"ko.c1084","k":"note","src":"Short form of 아니요; softer and more common in speech.","tgt":""}
-{"f":"cards","id":"ko.c1085","k":"meaning","src":"twenty (before a counter)","tgt":""}
-{"f":"cards","id":"ko.c1085","k":"note","src":"스물 → 스무: 스무 살 = twenty years old.","tgt":""}
-{"f":"cards","id":"ko.c1086","k":"meaning","src":"Tuesday","tgt":""}
-{"f":"cards","id":"ko.c1086","k":"note","src":"화 = fire. 월화수목금토일.","tgt":""}
-{"f":"cards","id":"ko.c1087","k":"meaning","src":"Wednesday","tgt":""}
-{"f":"cards","id":"ko.c1087","k":"note","src":"수 = water.","tgt":""}
-{"f":"cards","id":"ko.c1088","k":"meaning","src":"Thursday","tgt":""}
-{"f":"cards","id":"ko.c1088","k":"note","src":"목 = wood.","tgt":""}
-{"f":"cards","id":"ko.c1089","k":"meaning","src":"20 (native)","tgt":""}
-{"f":"cards","id":"ko.c1089","k":"note","src":"Before a counter: 스무.","tgt":""}
-{"f":"cards","id":"ko.c1090","k":"meaning","src":"next year","tgt":""}
+{"f":"cards","id":"ko.c1075","k":"meaning","src":"no (casual); no wait","tgt":"نہیں (بے تکلف)؛ نہیں، رکو"}
+{"f":"cards","id":"ko.c1075","k":"note","src":"To friends. Also starts a protest: 아니, 그게 아니라…","tgt":"دوستوں سے۔ احتجاج کی شروعات بھی: 아니, 그게 아니라… (نہیں، بات یہ نہیں…)"}
+{"f":"cards","id":"ko.c1076","k":"meaning","src":"thousand","tgt":"ہزار"}
+{"f":"cards","id":"ko.c1076","k":"note","src":"천 원 = 1,000 won; 삼천 = 3,000.","tgt":"مثال: 천 원 = 1,000 وون؛ 삼천 = 3,000۔"}
+{"f":"cards","id":"ko.c1077","k":"meaning","src":"zero","tgt":"صفر"}
+{"f":"cards","id":"ko.c1077","k":"note","src":"영 in maths and scores; 공 in phone numbers: 공일공 = 010.","tgt":"ریاضی اور اسکور میں 영؛ فون نمبروں میں 공: 공일공 = 010۔"}
+{"f":"cards","id":"ko.c1078","k":"meaning","src":"last year","tgt":"پچھلا سال"}
+{"f":"cards","id":"ko.c1078","k":"note","src":"Also 지난해.","tgt":"یہ بھی: 지난해۔"}
+{"f":"cards","id":"ko.c1079","k":"meaning","src":"hi; bye (casual)","tgt":"ہائے؛ بائے (بے تکلف)"}
+{"f":"cards","id":"ko.c1079","k":"note","src":"To friends and children, both hello and goodbye.","tgt":"دوستوں اور بچوں سے، ملتے وقت بھی اور رخصت ہوتے وقت بھی۔"}
+{"f":"cards","id":"ko.c1080","k":"meaning","src":"daytime","tgt":"دن کا وقت"}
+{"f":"cards","id":"ko.c1080","k":"note","src":"낮에는 더워요 = it's hot during the day.","tgt":"مثال: 낮에는 더워요 = دن میں گرمی ہوتی ہے۔"}
+{"f":"cards","id":"ko.c1081","k":"meaning","src":"morning; a.m.","tgt":"صبح؛ دوپہر سے پہلے"}
+{"f":"cards","id":"ko.c1081","k":"note","src":"오전 열 시 = 10 a.m.","tgt":"مثال: 오전 열 시 = صبح دس بجے"}
+{"f":"cards","id":"ko.c1082","k":"meaning","src":"early morning; small hours","tgt":"صبح سویرے؛ رات کا پچھلا پہر"}
+{"f":"cards","id":"ko.c1082","k":"note","src":"새벽 두 시 = 2 a.m.","tgt":"مثال: 새벽 두 시 = رات دو بجے"}
+{"f":"cards","id":"ko.c1083","k":"meaning","src":"last week","tgt":"پچھلا ہفتہ"}
+{"f":"cards","id":"ko.c1083","k":"note","src":"One word, no space.","tgt":"ایک لفظ، بیچ میں اسپیس نہیں۔"}
+{"f":"cards","id":"ko.c1084","k":"meaning","src":"no (spoken)","tgt":"جی نہیں (بول چال میں)"}
+{"f":"cards","id":"ko.c1084","k":"note","src":"Short form of 아니요; softer and more common in speech.","tgt":"یہ 아니요 کی مختصر شکل ہے؛ بول چال میں زیادہ نرم اور عام۔"}
+{"f":"cards","id":"ko.c1085","k":"meaning","src":"twenty (before a counter)","tgt":"بیس (کاؤنٹر سے پہلے)"}
+{"f":"cards","id":"ko.c1085","k":"note","src":"스물 → 스무: 스무 살 = twenty years old.","tgt":"کاؤنٹر سے پہلے 스물 → 스무: 스무 살 = عمر بیس سال۔"}
+{"f":"cards","id":"ko.c1086","k":"meaning","src":"Tuesday","tgt":"منگل"}
+{"f":"cards","id":"ko.c1086","k":"note","src":"화 = fire. 월화수목금토일.","tgt":"لفظ 화 = آگ۔ ہفتے کی ترتیب: 월화수목금토일۔"}
+{"f":"cards","id":"ko.c1087","k":"meaning","src":"Wednesday","tgt":"بدھ"}
+{"f":"cards","id":"ko.c1087","k":"note","src":"수 = water.","tgt":"لفظ 수 = پانی۔"}
+{"f":"cards","id":"ko.c1088","k":"meaning","src":"Thursday","tgt":"جمعرات"}
+{"f":"cards","id":"ko.c1088","k":"note","src":"목 = wood.","tgt":"لفظ 목 = لکڑی۔"}
+{"f":"cards","id":"ko.c1089","k":"meaning","src":"20 (native)","tgt":"20 (خالص کوریائی)"}
+{"f":"cards","id":"ko.c1089","k":"note","src":"Before a counter: 스무.","tgt":"کاؤنٹر سے پہلے: 스무۔"}
+{"f":"cards","id":"ko.c1090","k":"meaning","src":"next year","tgt":"اگلا سال"}
 {"f":"cards","id":"ko.c1090","k":"note","src":"내년에 한국에 가요.","tgt":"내년에 한국에 가요.","pre":1}
-{"f":"cards","id":"ko.c1091","k":"meaning","src":"30, 40, 50 (native)","tgt":""}
-{"f":"cards","id":"ko.c1091","k":"note","src":"Mostly for age: 서른 살. Sino-Korean 삼십 is used for money and minutes.","tgt":""}
-{"f":"cards","id":"ko.c1092","k":"meaning","src":"hundred","tgt":""}
-{"f":"cards","id":"ko.c1092","k":"note","src":"백 원; 이백 = 200. Not 일백.","tgt":""}
-{"f":"cards","id":"ko.c1093","k":"meaning","src":"11, 12 (native)","tgt":""}
-{"f":"cards","id":"ko.c1093","k":"note","src":"열 + 하나: 열한 시 = 11 o'clock.","tgt":""}
-{"f":"cards","id":"ko.c1094","k":"meaning","src":"the day after tomorrow","tgt":""}
-{"f":"cards","id":"ko.c1094","k":"note","src":"내일모레 = in a couple of days.","tgt":""}
-{"f":"cards","id":"ko.c1095","k":"meaning","src":"the day before yesterday","tgt":""}
-{"f":"cards","id":"ko.c1095","k":"note","src":"Also 그제.","tgt":""}
-{"f":"cards","id":"ko.c1096","k":"meaning","src":"one (car, machine)","tgt":""}
-{"f":"cards","id":"ko.c1096","k":"note","src":"대 counts vehicles and machines: 차 두 대, 컴퓨터 한 대.","tgt":""}
-{"f":"cards","id":"ko.c1097","k":"meaning","src":"two people (honorific)","tgt":""}
-{"f":"cards","id":"ko.c1097","k":"note","src":"분 is the polite 명: 몇 분이세요? = how many in your party?","tgt":""}
-{"f":"cards","id":"ko.c1098","k":"meaning","src":"one outfit; one suit","tgt":""}
-{"f":"cards","id":"ko.c1098","k":"note","src":"벌 counts sets of clothes: 옷 한 벌.","tgt":""}
-{"f":"cards","id":"ko.c1099","k":"meaning","src":"one flower; one bunch (of grapes)","tgt":""}
-{"f":"cards","id":"ko.c1099","k":"note","src":"장미 한 송이 = one rose.","tgt":""}
-{"f":"cards","id":"ko.c1100","k":"meaning","src":"one roll; one line","tgt":""}
-{"f":"cards","id":"ko.c1100","k":"note","src":"김밥 한 줄 = one gimbap roll; 한 줄로 = in a line.","tgt":""}
-{"f":"cards","id":"ko.c1101","k":"meaning","src":"one plate (of)","tgt":""}
-{"f":"cards","id":"ko.c1101","k":"note","src":"만두 한 접시 = a plate of dumplings.","tgt":""}
-{"f":"cards","id":"ko.c1102","k":"meaning","src":"one slice; one piece","tgt":""}
+{"f":"cards","id":"ko.c1091","k":"meaning","src":"30, 40, 50 (native)","tgt":"30، 40، 50 (خالص کوریائی)"}
+{"f":"cards","id":"ko.c1091","k":"note","src":"Mostly for age: 서른 살. Sino-Korean 삼십 is used for money and minutes.","tgt":"زیادہ تر عمر کے لیے: 서른 살۔ پیسوں اور منٹوں کے لیے سائنو-کوریائی 삼십 آتا ہے۔"}
+{"f":"cards","id":"ko.c1092","k":"meaning","src":"hundred","tgt":"سو"}
+{"f":"cards","id":"ko.c1092","k":"note","src":"백 원; 이백 = 200. Not 일백.","tgt":"مثال: 백 원؛ 이백 = 200۔ 일백 نہیں کہتے۔"}
+{"f":"cards","id":"ko.c1093","k":"meaning","src":"11, 12 (native)","tgt":"11، 12 (خالص کوریائی)"}
+{"f":"cards","id":"ko.c1093","k":"note","src":"열 + 하나: 열한 시 = 11 o'clock.","tgt":"یعنی 열 + 하나: 열한 시 = 11 بجے۔"}
+{"f":"cards","id":"ko.c1094","k":"meaning","src":"the day after tomorrow","tgt":"پرسوں (آنے والا)"}
+{"f":"cards","id":"ko.c1094","k":"note","src":"내일모레 = in a couple of days.","tgt":"مثال: 내일모레 = ایک دو دن میں۔"}
+{"f":"cards","id":"ko.c1095","k":"meaning","src":"the day before yesterday","tgt":"پرسوں (گزرا ہوا)"}
+{"f":"cards","id":"ko.c1095","k":"note","src":"Also 그제.","tgt":"یہ بھی: 그제۔"}
+{"f":"cards","id":"ko.c1096","k":"meaning","src":"one (car, machine)","tgt":"ایک (گاڑی، مشین)"}
+{"f":"cards","id":"ko.c1096","k":"note","src":"대 counts vehicles and machines: 차 두 대, 컴퓨터 한 대.","tgt":"کاؤنٹر 대 گاڑیاں اور مشینیں گنتا ہے: 차 두 대، 컴퓨터 한 대۔"}
+{"f":"cards","id":"ko.c1097","k":"meaning","src":"two people (honorific)","tgt":"دو افراد (تعظیمی)"}
+{"f":"cards","id":"ko.c1097","k":"note","src":"분 is the polite 명: 몇 분이세요? = how many in your party?","tgt":"کاؤنٹر 분، 명 کی مؤدب شکل ہے: 몇 분이세요 = آپ کتنے افراد ہیں؟"}
+{"f":"cards","id":"ko.c1098","k":"meaning","src":"one outfit; one suit","tgt":"ایک جوڑا کپڑے؛ ایک سوٹ"}
+{"f":"cards","id":"ko.c1098","k":"note","src":"벌 counts sets of clothes: 옷 한 벌.","tgt":"کاؤنٹر 벌 کپڑوں کے سیٹ گنتا ہے، اردو کے \"جوڑے\" کی طرح: 옷 한 벌۔"}
+{"f":"cards","id":"ko.c1099","k":"meaning","src":"one flower; one bunch (of grapes)","tgt":"ایک پھول؛ ایک گچھا (انگور)"}
+{"f":"cards","id":"ko.c1099","k":"note","src":"장미 한 송이 = one rose.","tgt":"مثال: 장미 한 송이 = ایک گلاب۔"}
+{"f":"cards","id":"ko.c1100","k":"meaning","src":"one roll; one line","tgt":"ایک رول؛ ایک قطار"}
+{"f":"cards","id":"ko.c1100","k":"note","src":"김밥 한 줄 = one gimbap roll; 한 줄로 = in a line.","tgt":"مثال: 김밥 한 줄 = گمباپ کا ایک رول؛ 한 줄로 = ایک قطار میں۔"}
+{"f":"cards","id":"ko.c1101","k":"meaning","src":"one plate (of)","tgt":"ایک پلیٹ"}
+{"f":"cards","id":"ko.c1101","k":"note","src":"만두 한 접시 = a plate of dumplings.","tgt":"مثال: 만두 한 접시 = ایک پلیٹ ڈمپلنگ۔"}
+{"f":"cards","id":"ko.c1102","k":"meaning","src":"one slice; one piece","tgt":"ایک سلائس؛ ایک ٹکڑا"}
 {"f":"cards","id":"ko.c1102","k":"note","src":"피자 한 조각, 케이크 한 조각.","tgt":"피자 한 조각, 케이크 한 조각.","pre":1}
-{"f":"cards","id":"ko.c1103","k":"meaning","src":"one kind; one thing","tgt":""}
-{"f":"cards","id":"ko.c1103","k":"note","src":"한 가지 더 = one more thing; 여러 가지 = all kinds.","tgt":""}
-{"f":"cards","id":"ko.c1104","k":"meaning","src":"one place","tgt":""}
-{"f":"cards","id":"ko.c1104","k":"note","src":"두 군데 = two places. Spoken, everyday.","tgt":""}
-{"f":"cards","id":"ko.c1105","k":"meaning","src":"one song","tgt":""}
-{"f":"cards","id":"ko.c1105","k":"note","src":"노래 한 곡 = one song (at karaoke).","tgt":""}
-{"f":"cards","id":"ko.c1106","k":"meaning","src":"one (film, story)","tgt":""}
-{"f":"cards","id":"ko.c1106","k":"note","src":"영화 한 편 봐요 = we watch a movie.","tgt":""}
-{"f":"cards","id":"ko.c1107","k":"meaning","src":"one pill; one small round thing","tgt":""}
-{"f":"cards","id":"ko.c1107","k":"note","src":"약 한 알 = one pill.","tgt":""}
-{"f":"cards","id":"ko.c1108","k":"meaning","src":"one can","tgt":""}
-{"f":"cards","id":"ko.c1108","k":"note","src":"맥주 한 캔 = a can of beer.","tgt":""}
-{"f":"cards","id":"ko.c1109","k":"meaning","src":"one game; one round; one tray","tgt":""}
-{"f":"cards","id":"ko.c1109","k":"note","src":"게임 한 판 = one round; 계란 한 판 = a tray of 30 eggs.","tgt":""}
-{"f":"cards","id":"ko.c1110","k":"meaning","src":"one o'clock","tgt":""}
-{"f":"cards","id":"ko.c1110","k":"note","src":"Hours use native numbers: 한 시, 두 시 … 열두 시.","tgt":""}
-{"f":"cards","id":"ko.c1111","k":"meaning","src":"five minutes","tgt":""}
-{"f":"cards","id":"ko.c1111","k":"note","src":"Minutes use Sino-Korean numbers: 오 분, 십 분, 삼십 분.","tgt":""}
-{"f":"cards","id":"ko.c1112","k":"meaning","src":"one year","tgt":""}
-{"f":"cards","id":"ko.c1112","k":"note","src":"Years use Sino-Korean: 일 년, 이 년. Native: 한 해.","tgt":""}
-{"f":"cards","id":"ko.c1113","k":"meaning","src":"three months","tgt":""}
-{"f":"cards","id":"ko.c1113","k":"note","src":"Sino-Korean months: 삼 개월. Native: 석 달.","tgt":""}
-{"f":"cards","id":"ko.c1114","k":"meaning","src":"two portions (servings)","tgt":""}
-{"f":"cards","id":"ko.c1114","k":"note","src":"Korean BBQ is ordered by portion: 삼겹살 이 인분 = pork belly for two.","tgt":""}
-{"f":"cards","id":"ko.c1115","k":"meaning","src":"the first (one)","tgt":""}
-{"f":"cards","id":"ko.c1115","k":"note","src":"번째 makes ordinals: 두 번째 = second, 세 번째 = third.","tgt":""}
-{"f":"cards","id":"ko.c1116","k":"meaning","src":"to be pretty","tgt":""}
-{"f":"cards","id":"ko.c1116","k":"note","src":"예뻐요. Mostly to women, also to kids and things. Mild; everyone hears it. No gender forms in Korean.","tgt":""}
-{"f":"cards","id":"ko.c1117","k":"meaning","src":"to be cute","tgt":""}
-{"f":"cards","id":"ko.c1117","k":"note","src":"귀여워요 (ㅂ irregular). To anyone, men included. Mild and playful.","tgt":""}
-{"f":"cards","id":"ko.c1118","k":"meaning","src":"to be handsome; good-looking","tgt":""}
-{"f":"cards","id":"ko.c1118","k":"note","src":"Said in the past tense: 잘생겼어요. Mostly to men. Warm.","tgt":""}
-{"f":"cards","id":"ko.c1119","k":"meaning","src":"to be beautiful","tgt":""}
-{"f":"cards","id":"ko.c1119","k":"note","src":"아름다워요 (ㅂ irregular). Strong and a bit poetic: for scenery, or a very sincere compliment. Bold.","tgt":""}
-{"f":"cards","id":"ko.c1120","k":"meaning","src":"to be lovely; adorable","tgt":""}
-{"f":"cards","id":"ko.c1120","k":"note","src":"사랑스러워요 (ㅂ irregular). Tender, more for couples. Warm.","tgt":""}
-{"f":"cards","id":"ko.c1121","k":"meaning","src":"charm; appeal","tgt":""}
-{"f":"cards","id":"ko.c1121","k":"note","src":"매력 있어요 = you're attractive. Safe and common. Mild to warm.","tgt":""}
-{"f":"cards","id":"ko.c1122","k":"meaning","src":"to be attractive; charming","tgt":""}
-{"f":"cards","id":"ko.c1122","k":"note","src":"매력적이에요. A notch more serious than 매력 있어요. Warm.","tgt":""}
-{"f":"cards","id":"ko.c1123","k":"meaning","src":"to be smart","tgt":""}
-{"f":"cards","id":"ko.c1123","k":"note","src":"똑똑해요. To anyone. Mild. To an elder, praise their knowledge instead.","tgt":""}
-{"f":"cards","id":"ko.c1124","k":"meaning","src":"to be kind-hearted; nice","tgt":""}
-{"f":"cards","id":"ko.c1124","k":"note","src":"착해요. Big compliment from a partner's family; to equals or juniors only. Mild.","tgt":""}
-{"f":"cards","id":"ko.c1125","k":"meaning","src":"to be affectionate; sweet and caring","tgt":""}
-{"f":"cards","id":"ko.c1125","k":"note","src":"다정해요. A top quality in a partner. Warm.","tgt":""}
-{"f":"cards","id":"ko.c1126","k":"meaning","src":"smile","tgt":""}
-{"f":"cards","id":"ko.c1126","k":"note","src":"미소가 예뻐요. A little literary; speech also uses 웃는 모습. Mild.","tgt":""}
-{"f":"cards","id":"ko.c1127","k":"meaning","src":"eyes","tgt":""}
-{"f":"cards","id":"ko.c1127","k":"note","src":"눈이 예뻐요. Praising eyes is safe and common. (눈 also = snow.) Mild to warm.","tgt":""}
-{"f":"cards","id":"ko.c1128","k":"meaning","src":"eye smile; smiling eyes","tgt":""}
-{"f":"cards","id":"ko.c1128","k":"note","src":"A Korean favourite: eyes curving into crescents when you smile. Warm.","tgt":""}
-{"f":"cards","id":"ko.c1129","k":"meaning","src":"dimple","tgt":""}
-{"f":"cards","id":"ko.c1129","k":"note","src":"보조개가 귀여워요. A classic Korean compliment. Mild.","tgt":""}
-{"f":"cards","id":"ko.c1130","k":"meaning","src":"voice","tgt":""}
-{"f":"cards","id":"ko.c1130","k":"note","src":"목소리가 좋아요. Safe, very common, especially on the phone. Mild.","tgt":""}
-{"f":"cards","id":"ko.c1131","k":"meaning","src":"laugh; laughter","tgt":""}
-{"f":"cards","id":"ko.c1131","k":"note","src":"웃음이 많아요 = you laugh a lot (a good thing). Mild.","tgt":""}
-{"f":"cards","id":"ko.c1132","k":"meaning","src":"vibe; aura; atmosphere","tgt":""}
-{"f":"cards","id":"ko.c1132","k":"note","src":"분위기 있어요 = you have a certain charm. Very Korean compliment. Warm.","tgt":""}
-{"f":"cards","id":"ko.c1133","k":"meaning","src":"style; type","tgt":""}
-{"f":"cards","id":"ko.c1133","k":"note","src":"제 스타일이에요 = you're my type. Mild alone; warm in that phrase.","tgt":""}
-{"f":"cards","id":"ko.c1134","k":"meaning","src":"personality","tgt":""}
-{"f":"cards","id":"ko.c1134","k":"note","src":"성격 좋아요 is high praise. Mild.","tgt":""}
-{"f":"cards","id":"ko.c1135","k":"meaning","src":"good taste; tact","tgt":""}
-{"f":"cards","id":"ko.c1135","k":"note","src":"센스 있어요 = you've got taste / you're thoughtful. Mild.","tgt":""}
-{"f":"cards","id":"ko.c1136","k":"meaning","src":"ideal type","tgt":""}
-{"f":"cards","id":"ko.c1136","k":"note","src":"Koreans ask 이상형이 뭐예요? on first dates and in interviews. Mild as a question.","tgt":""}
-{"f":"cards","id":"ko.c1137","k":"meaning","src":"first impression","tgt":""}
-{"f":"cards","id":"ko.c1137","k":"note","src":"첫인상이 좋았어요 = I liked you from the start. Warm.","tgt":""}
-{"f":"cards","id":"ko.c1138","k":"meaning","src":"good-looking, warm-vibe guy","tgt":""}
-{"f":"cards","id":"ko.c1138","k":"note","src":"Slang, from 훈훈한 남자. For women: 훈녀. Mild, friendly.","tgt":""}
-{"f":"cards","id":"ko.c1139","k":"meaning","src":"heart skipping a beat","tgt":""}
-{"f":"cards","id":"ko.c1139","k":"note","src":"Slang: 심장이 쿵. 심쿵했어요 = you made my heart skip. Warm, playful.","tgt":""}
-{"f":"cards","id":"ko.c1140","k":"meaning","src":"You look even prettier today","tgt":""}
-{"f":"cards","id":"ko.c1140","k":"note","src":"To a woman you know. 오늘따라 = today especially. Warm.","tgt":""}
-{"f":"cards","id":"ko.c1141","k":"meaning","src":"Even your name is pretty","tgt":""}
-{"f":"cards","id":"ko.c1141","k":"note","src":"Right after learning a name. Mild, sweet.","tgt":""}
-{"f":"cards","id":"ko.c1142","k":"meaning","src":"You must hear that you're pretty a lot","tgt":""}
-{"f":"cards","id":"ko.c1142","k":"note","src":"Indirect and smooth. To a woman. Warm.","tgt":""}
-{"f":"cards","id":"ko.c1143","k":"meaning","src":"Why are you so cute?","tgt":""}
-{"f":"cards","id":"ko.c1143","k":"note","src":"Teasing, to anyone. Warm.","tgt":""}
-{"f":"cards","id":"ko.c1144","k":"meaning","src":"Everything you do is cute","tgt":""}
-{"f":"cards","id":"ko.c1144","k":"note","src":"To someone you know well. 짓 = little actions. Warm, playful.","tgt":""}
-{"f":"cards","id":"ko.c1145","k":"meaning","src":"You're very handsome","tgt":""}
-{"f":"cards","id":"ko.c1145","k":"note","src":"Polite -시-; to a man you don't know well. Mild to warm.","tgt":""}
-{"f":"cards","id":"ko.c1146","k":"meaning","src":"You're even better-looking in person","tgt":""}
-{"f":"cards","id":"ko.c1146","k":"note","src":"After seeing photos first (dating app, a friend's phone). Warm.","tgt":""}
-{"f":"cards","id":"ko.c1147","k":"meaning","src":"You look great today","tgt":""}
-{"f":"cards","id":"ko.c1147","k":"note","src":"To anyone dressed up. Mild.","tgt":""}
-{"f":"cards","id":"ko.c1148","k":"meaning","src":"You look cool when you're working","tgt":""}
-{"f":"cards","id":"ko.c1148","k":"note","src":"Classic office or café crush line. Warm.","tgt":""}
-{"f":"cards","id":"ko.c1149","k":"meaning","src":"You're really smart","tgt":""}
-{"f":"cards","id":"ko.c1149","k":"note","src":"To someone your age or younger. Mild.","tgt":""}
-{"f":"cards","id":"ko.c1150","k":"meaning","src":"You're attractive / You have charm","tgt":""}
-{"f":"cards","id":"ko.c1150","k":"note","src":"Safe on a date or between friends. Mild to warm.","tgt":""}
-{"f":"cards","id":"ko.c1151","k":"meaning","src":"You're full of charm","tgt":""}
-{"f":"cards","id":"ko.c1151","k":"note","src":"Polite and playful. Warm.","tgt":""}
-{"f":"cards","id":"ko.c1152","k":"meaning","src":"You have a pretty smile","tgt":""}
-{"f":"cards","id":"ko.c1152","k":"note","src":"Safe on a first meeting. Mild.","tgt":""}
-{"f":"cards","id":"ko.c1153","k":"meaning","src":"Your eye smile is really pretty","tgt":""}
-{"f":"cards","id":"ko.c1153","k":"note","src":"Very Korean compliment. Warm.","tgt":""}
-{"f":"cards","id":"ko.c1154","k":"meaning","src":"Your dimples are so cute","tgt":""}
-{"f":"cards","id":"ko.c1154","k":"note","src":"Mild, sweet.","tgt":""}
-{"f":"cards","id":"ko.c1155","k":"meaning","src":"You have a really nice voice","tgt":""}
-{"f":"cards","id":"ko.c1155","k":"note","src":"Often on the phone or after karaoke. Mild.","tgt":""}
-{"f":"cards","id":"ko.c1156","k":"meaning","src":"I wanted to hear your voice","tgt":""}
-{"f":"cards","id":"ko.c1156","k":"note","src":"Why you called. To someone you're dating. Warm to bold.","tgt":""}
-{"f":"cards","id":"ko.c1157","k":"meaning","src":"You have a certain charm about you","tgt":""}
-{"f":"cards","id":"ko.c1157","k":"note","src":"A refined compliment to men or women. Warm.","tgt":""}
-{"f":"cards","id":"ko.c1158","k":"meaning","src":"You have great style","tgt":""}
-{"f":"cards","id":"ko.c1158","k":"note","src":"Mild; works with near-strangers.","tgt":""}
-{"f":"cards","id":"ko.c1159","k":"meaning","src":"You're my type","tgt":""}
-{"f":"cards","id":"ko.c1159","k":"note","src":"Light and direct. Warm.","tgt":""}
-{"f":"cards","id":"ko.c1160","k":"meaning","src":"You're totally my ideal type","tgt":""}
-{"f":"cards","id":"ko.c1160","k":"note","src":"Bold and playful. Usually after a few dates.","tgt":""}
-{"f":"cards","id":"ko.c1161","k":"meaning","src":"What's your ideal type?","tgt":""}
-{"f":"cards","id":"ko.c1161","k":"note","src":"The classic first-date question. Mild.","tgt":""}
-{"f":"cards","id":"ko.c1162","k":"meaning","src":"I liked my first impression of you","tgt":""}
-{"f":"cards","id":"ko.c1162","k":"note","src":"On a second date. Warm.","tgt":""}
-{"f":"cards","id":"ko.c1163","k":"meaning","src":"And you have a great personality too","tgt":""}
-{"f":"cards","id":"ko.c1163","k":"note","src":"도 = on top of being good-looking. Warm.","tgt":""}
-{"f":"cards","id":"ko.c1164","k":"meaning","src":"You're so sweet and caring","tgt":""}
-{"f":"cards","id":"ko.c1164","k":"note","src":"After a kind gesture. Warm.","tgt":""}
-{"f":"cards","id":"ko.c1165","k":"meaning","src":"Have you eaten? (I care about you)","tgt":""}
-{"f":"cards","id":"ko.c1165","k":"note","src":"Korean's indirect \"I'm thinking of you\". Polite form of the casual 밥 먹었어? Mild.","tgt":""}
-{"f":"cards","id":"ko.c1166","k":"meaning","src":"Let's grab a meal sometime","tgt":""}
-{"f":"cards","id":"ko.c1166","k":"note","src":"Often polite filler; when meant, it opens a date. Ask \"when?\" to show you mean it. Mild.","tgt":""}
-{"f":"cards","id":"ko.c1167","k":"meaning","src":"Want to have dinner together?","tgt":""}
-{"f":"cards","id":"ko.c1167","k":"note","src":"The real invitation. Warm.","tgt":""}
-{"f":"cards","id":"ko.c1168","k":"meaning","src":"I'll buy you a coffee","tgt":""}
-{"f":"cards","id":"ko.c1168","k":"note","src":"Easy opener after class or work. Mild.","tgt":""}
-{"f":"cards","id":"ko.c1169","k":"meaning","src":"Is it OK if I contact you?","tgt":""}
-{"f":"cards","id":"ko.c1169","k":"note","src":"Polite way to ask for KakaoTalk. Mild.","tgt":""}
-{"f":"cards","id":"ko.c1170","k":"meaning","src":"Can I see you again?","tgt":""}
-{"f":"cards","id":"ko.c1170","k":"note","src":"At the end of a first meeting. Warm.","tgt":""}
-{"f":"cards","id":"ko.c1171","k":"meaning","src":"Want to come up for some ramyeon? (joke line)","tgt":""}
-{"f":"cards","id":"ko.c1171","k":"note","src":"From the film One Fine Spring Day (2001), where the line is 라면 먹을래요?; this meme version means an invitation inside. Joke only, never a real move.","tgt":""}
-{"f":"cards","id":"ko.c1172","k":"meaning","src":"Come on, you're joking, right?","tgt":""}
-{"f":"cards","id":"ko.c1172","k":"note","src":"Playful deflection, shy but not a no. Casual and friendly.","tgt":""}
-{"f":"cards","id":"ko.c1173","k":"meaning","src":"You're quite the smooth talker","tgt":""}
-{"f":"cards","id":"ko.c1173","k":"note","src":"Teasing deflection; smiling = interested, flat = not. Mild.","tgt":""}
-{"f":"cards","id":"ko.c1174","k":"meaning","src":"Sure, when shall we meet?","tgt":""}
-{"f":"cards","id":"ko.c1174","k":"note","src":"A warm yes to an invitation.","tgt":""}
-{"f":"cards","id":"ko.c1175","k":"meaning","src":"Thanks for the thought, but I'm fine","tgt":""}
-{"f":"cards","id":"ko.c1175","k":"note","src":"Kind, clear no. Works for a drink or a number.","tgt":""}
-{"f":"cards","id":"ko.c1176","k":"meaning","src":"Sorry, but I'm seeing someone","tgt":""}
-{"f":"cards","id":"ko.c1176","k":"note","src":"Clear no; nobody will push after this.","tgt":""}
-{"f":"cards","id":"ko.c1177","k":"meaning","src":"You're a lovely person, but I'd like to stay friends","tgt":""}
-{"f":"cards","id":"ko.c1177","k":"note","src":"Gentle no to someone you know. 분 keeps it respectful.","tgt":""}
-{"f":"cards","id":"ko.c1178","k":"meaning","src":"I'm not looking to date right now","tgt":""}
-{"f":"cards","id":"ko.c1178","k":"note","src":"Firm but not personal.","tgt":""}
-{"f":"cards","id":"ko.c1179","k":"meaning","src":"The food is really delicious","tgt":""}
-{"f":"cards","id":"ko.c1179","k":"note","src":"-네요 = noticing out loud. Say it to the host or cook during the meal.","tgt":""}
-{"f":"cards","id":"ko.c1180","k":"meaning","src":"You're a really good cook","tgt":""}
-{"f":"cards","id":"ko.c1180","k":"note","src":"솜씨 = skill with your hands. Polite -시-; fine to elders.","tgt":""}
-{"f":"cards","id":"ko.c1181","k":"meaning","src":"How did you make this?","tgt":""}
-{"f":"cards","id":"ko.c1181","k":"note","src":"Asking for the recipe is praise in itself.","tgt":""}
-{"f":"cards","id":"ko.c1182","k":"meaning","src":"You're really good at this","tgt":""}
-{"f":"cards","id":"ko.c1182","k":"note","src":"For any skill. To elders, praise with -시- and no grading words.","tgt":""}
-{"f":"cards","id":"ko.c1183","k":"meaning","src":"That's a good idea","tgt":""}
-{"f":"cards","id":"ko.c1183","k":"note","src":"To colleagues and friends. To a boss: 좋은 생각이신 것 같아요.","tgt":""}
-{"f":"cards","id":"ko.c1184","k":"meaning","src":"You're so thorough","tgt":""}
-{"f":"cards","id":"ko.c1184","k":"note","src":"A big compliment at work.","tgt":""}
-{"f":"cards","id":"ko.c1185","k":"meaning","src":"You're so good-hearted","tgt":""}
-{"f":"cards","id":"ko.c1185","k":"note","src":"To equals or juniors. It sounds odd said to a much older person.","tgt":""}
-{"f":"cards","id":"ko.c1186","k":"meaning","src":"You have a great sense of humor","tgt":""}
-{"f":"cards","id":"ko.c1186","k":"note","src":"Polite; to anyone.","tgt":""}
-{"f":"cards","id":"ko.c1187","k":"meaning","src":"You're very considerate","tgt":""}
-{"f":"cards","id":"ko.c1187","k":"note","src":"배려 = thinking of others. Highly valued.","tgt":""}
-{"f":"cards","id":"ko.c1188","k":"meaning","src":"You're so diligent","tgt":""}
-{"f":"cards","id":"ko.c1188","k":"note","src":"Always busy and on time. Different from 열심히 하시네요 (works hard at it).","tgt":""}
-{"f":"cards","id":"ko.c1189","k":"meaning","src":"Your skin looks great","tgt":""}
-{"f":"cards","id":"ko.c1189","k":"note","src":"A very common, friendly compliment in Korea, to men and women alike.","tgt":""}
-{"f":"cards","id":"ko.c1190","k":"meaning","src":"You look so young for your age","tgt":""}
-{"f":"cards","id":"ko.c1190","k":"note","src":"A favorite compliment, especially to people over 30.","tgt":""}
-{"f":"cards","id":"ko.c1191","k":"meaning","src":"You have a kind face","tgt":""}
-{"f":"cards","id":"ko.c1191","k":"note","src":"Literally \"your impression is good\". Said on first meeting.","tgt":""}
-{"f":"cards","id":"ko.c1192","k":"meaning","src":"Your home is lovely","tgt":""}
-{"f":"cards","id":"ko.c1192","k":"note","src":"Said on a first visit, often with a gift (휴지, fruit).","tgt":""}
-{"f":"cards","id":"ko.c1193","k":"meaning","src":"Your child is so cute","tgt":""}
-{"f":"cards","id":"ko.c1193","k":"note","src":"Parents will usually deflect: 아니에요, 말썽꾸러기예요.","tgt":""}
-{"f":"cards","id":"ko.c1194","k":"meaning","src":"Your child is so polite","tgt":""}
-{"f":"cards","id":"ko.c1194","k":"note","src":"A compliment to the parents too. Very welcome.","tgt":""}
-{"f":"cards","id":"ko.c1195","k":"meaning","src":"That's a nice photo","tgt":""}
-{"f":"cards","id":"ko.c1195","k":"note","src":"Literally \"the photo came out well\".","tgt":""}
-{"f":"cards","id":"ko.c1196","k":"meaning","src":"That outfit suits you","tgt":""}
-{"f":"cards","id":"ko.c1196","k":"note","src":"Polite -세요; to anyone, including elders.","tgt":""}
-{"f":"cards","id":"ko.c1197","k":"meaning","src":"Your pronunciation is really good","tgt":""}
-{"f":"cards","id":"ko.c1197","k":"note","src":"What learners hear right after 한국어 잘하시네요.","tgt":""}
-{"f":"cards","id":"ko.c1198","k":"meaning","src":"I thought you were Korean!","tgt":""}
-{"f":"cards","id":"ko.c1198","k":"note","src":"Friendly exaggeration to a learner.","tgt":""}
-{"f":"cards","id":"ko.c1199","k":"meaning","src":"Where did you learn Korean?","tgt":""}
-{"f":"cards","id":"ko.c1199","k":"note","src":"Usually follows the compliment; itself a compliment.","tgt":""}
-{"f":"cards","id":"ko.c1200","k":"meaning","src":"You've improved a lot","tgt":""}
-{"f":"cards","id":"ko.c1200","k":"note","src":"To a friend or junior. To an elder it sounds like grading.","tgt":"","rw":"English sound comparison (\"sounds like …\")"}
-{"f":"cards","id":"ko.c1201","k":"meaning","src":"I enjoyed your presentation","tgt":""}
-{"f":"cards","id":"ko.c1201","k":"note","src":"The polite way to praise a boss: you report your experience, you don't grade them.","tgt":""}
-{"f":"cards","id":"ko.c1202","k":"meaning","src":"I learned a lot (from you)","tgt":""}
-{"f":"cards","id":"ko.c1202","k":"note","src":"The safest praise for a senior, teacher or boss.","tgt":""}
-{"f":"cards","id":"ko.c1203","k":"meaning","src":"Thank you for all your hard work","tgt":""}
-{"f":"cards","id":"ko.c1203","k":"note","src":"Praises effort. Fine among colleagues; some seniors find 수고 from a junior presumptuous, so to a boss 감사합니다 is safer.","tgt":""}
-{"f":"cards","id":"ko.c1204","k":"meaning","src":"Oh no, not at all","tgt":""}
-{"f":"cards","id":"ko.c1204","k":"note","src":"The first reflex after any compliment: deflect, even if you're pleased.","tgt":""}
-{"f":"cards","id":"ko.c1205","k":"meaning","src":"Oh no, I still have a long way to go","tgt":""}
-{"f":"cards","id":"ko.c1205","k":"note","src":"The standard modest reply, especially about your Korean.","tgt":""}
-{"f":"cards","id":"ko.c1206","k":"meaning","src":"Don't mention it; you're too kind","tgt":""}
-{"f":"cards","id":"ko.c1206","k":"note","src":"Polite and a little formal. To elders and at work.","tgt":""}
-{"f":"cards","id":"ko.c1207","k":"meaning","src":"You're praising me too much","tgt":""}
-{"f":"cards","id":"ko.c1207","k":"note","src":"Literally \"that's too much praise\". Polite, a bit formal.","tgt":""}
-{"f":"cards","id":"ko.c1208","k":"meaning","src":"Thank you for the compliment","tgt":""}
-{"f":"cards","id":"ko.c1208","k":"note","src":"Accepting warmly. More common among younger people.","tgt":""}
-{"f":"cards","id":"ko.c1209","k":"meaning","src":"Thanks for seeing it that way","tgt":""}
-{"f":"cards","id":"ko.c1209","k":"note","src":"Modest and grateful at once.","tgt":""}
-{"f":"cards","id":"ko.c1210","k":"meaning","src":"Oh, it's nothing special","tgt":""}
-{"f":"cards","id":"ko.c1210","k":"note","src":"The host's answer to praise for food or a gift.","tgt":""}
-{"f":"cards","id":"ko.c1211","k":"meaning","src":"It's all thanks to you","tgt":""}
-{"f":"cards","id":"ko.c1211","k":"note","src":"Turns the praise back onto the other person. Warm and humble.","tgt":""}
-{"f":"cards","id":"ko.c1212","k":"meaning","src":"South Korea","tgt":""}
-{"f":"cards","id":"ko.c1212","k":"note","src":"한국 is everyday speech; the official name is 대한민국. 한국 사람 = Korean (person); 한국어 or 한국말 = Korean.","tgt":""}
-{"f":"cards","id":"ko.c1213","k":"meaning","src":"North Korea","tgt":""}
-{"f":"cards","id":"ko.c1213","k":"note","src":"South Korean usage. The official name is 조선민주주의인민공화국.","tgt":""}
-{"f":"cards","id":"ko.c1214","k":"meaning","src":"Japan","tgt":""}
-{"f":"cards","id":"ko.c1214","k":"note","src":"일본 사람 = Japanese (person); 일본어 = Japanese.","tgt":""}
-{"f":"cards","id":"ko.c1215","k":"meaning","src":"China","tgt":""}
-{"f":"cards","id":"ko.c1215","k":"note","src":"중국 사람 = Chinese (person); 중국어 = Chinese.","tgt":""}
-{"f":"cards","id":"ko.c1216","k":"meaning","src":"Taiwan","tgt":""}
-{"f":"cards","id":"ko.c1216","k":"note","src":"대만 사람 = Taiwanese (person). People speak 중국어.","tgt":""}
+{"f":"cards","id":"ko.c1103","k":"meaning","src":"one kind; one thing","tgt":"ایک قسم؛ ایک بات"}
+{"f":"cards","id":"ko.c1103","k":"note","src":"한 가지 더 = one more thing; 여러 가지 = all kinds.","tgt":"مثال: 한 가지 더 = ایک بات اور؛ 여러 가지 = طرح طرح کے۔"}
+{"f":"cards","id":"ko.c1104","k":"meaning","src":"one place","tgt":"ایک جگہ"}
+{"f":"cards","id":"ko.c1104","k":"note","src":"두 군데 = two places. Spoken, everyday.","tgt":"مثال: 두 군데 = دو جگہ۔ بول چال کا روزمرہ لفظ۔"}
+{"f":"cards","id":"ko.c1105","k":"meaning","src":"one song","tgt":"ایک گانا"}
+{"f":"cards","id":"ko.c1105","k":"note","src":"노래 한 곡 = one song (at karaoke).","tgt":"مثال: 노래 한 곡 = ایک گانا (کراوکے میں)۔"}
+{"f":"cards","id":"ko.c1106","k":"meaning","src":"one (film, story)","tgt":"ایک (فلم، کہانی)"}
+{"f":"cards","id":"ko.c1106","k":"note","src":"영화 한 편 봐요 = we watch a movie.","tgt":"مثال: 영화 한 편 봐요 = ہم ایک فلم دیکھتے ہیں۔"}
+{"f":"cards","id":"ko.c1107","k":"meaning","src":"one pill; one small round thing","tgt":"ایک گولی؛ کوئی چھوٹی گول چیز"}
+{"f":"cards","id":"ko.c1107","k":"note","src":"약 한 알 = one pill.","tgt":"مثال: 약 한 알 = دوا کی ایک گولی۔"}
+{"f":"cards","id":"ko.c1108","k":"meaning","src":"one can","tgt":"ایک کین"}
+{"f":"cards","id":"ko.c1108","k":"note","src":"맥주 한 캔 = a can of beer.","tgt":"مثال: 맥주 한 캔 = بیئر کا ایک کین۔"}
+{"f":"cards","id":"ko.c1109","k":"meaning","src":"one game; one round; one tray","tgt":"ایک گیم؛ ایک راؤنڈ؛ ایک ٹرے"}
+{"f":"cards","id":"ko.c1109","k":"note","src":"게임 한 판 = one round; 계란 한 판 = a tray of 30 eggs.","tgt":"مثال: 게임 한 판 = ایک راؤنڈ؛ 계란 한 판 = 30 انڈوں کی ایک ٹرے۔"}
+{"f":"cards","id":"ko.c1110","k":"meaning","src":"one o'clock","tgt":"ایک بجے"}
+{"f":"cards","id":"ko.c1110","k":"note","src":"Hours use native numbers: 한 시, 두 시 … 열두 시.","tgt":"گھنٹوں کے لیے خالص کوریائی عدد: 한 시، 두 시 … 열두 시۔"}
+{"f":"cards","id":"ko.c1111","k":"meaning","src":"five minutes","tgt":"پانچ منٹ"}
+{"f":"cards","id":"ko.c1111","k":"note","src":"Minutes use Sino-Korean numbers: 오 분, 십 분, 삼십 분.","tgt":"منٹوں کے لیے سائنو-کوریائی عدد: 오 분، 십 분، 삼십 분۔"}
+{"f":"cards","id":"ko.c1112","k":"meaning","src":"one year","tgt":"ایک سال"}
+{"f":"cards","id":"ko.c1112","k":"note","src":"Years use Sino-Korean: 일 년, 이 년. Native: 한 해.","tgt":"سالوں کے لیے سائنو-کوریائی: 일 년، 이 년۔ خالص کوریائی: 한 해۔"}
+{"f":"cards","id":"ko.c1113","k":"meaning","src":"three months","tgt":"تین مہینے"}
+{"f":"cards","id":"ko.c1113","k":"note","src":"Sino-Korean months: 삼 개월. Native: 석 달.","tgt":"سائنو-کوریائی مہینے: 삼 개월۔ خالص کوریائی: 석 달۔"}
+{"f":"cards","id":"ko.c1114","k":"meaning","src":"two portions (servings)","tgt":"دو پورشن (دو افراد کا کھانا)"}
+{"f":"cards","id":"ko.c1114","k":"note","src":"Korean BBQ is ordered by portion: 삼겹살 이 인분 = pork belly for two.","tgt":"کوریائی باربی کیو پورشن کے حساب سے منگوایا جاتا ہے: 삼겹살 이 인분 = دو افراد کے لیے سؤر کے پیٹ کا گوشت۔"}
+{"f":"cards","id":"ko.c1115","k":"meaning","src":"the first (one)","tgt":"پہلا (والا)"}
+{"f":"cards","id":"ko.c1115","k":"note","src":"번째 makes ordinals: 두 번째 = second, 세 번째 = third.","tgt":"لفظ 번째 ترتیبی عدد بناتا ہے: 두 번째 = دوسرا، 세 번째 = تیسرا۔"}
+{"f":"cards","id":"ko.c1116","k":"meaning","src":"to be pretty","tgt":"خوبصورت ہونا"}
+{"f":"cards","id":"ko.c1116","k":"note","src":"예뻐요. Mostly to women, also to kids and things. Mild; everyone hears it. No gender forms in Korean.","tgt":"مؤدب شکل: 예뻐요۔ زیادہ تر خواتین سے، بچوں اور چیزوں کے لیے بھی۔ ہلکا؛ سب سنتے رہتے ہیں۔ کوریائی میں مذکر مؤنث کی الگ شکلیں نہیں ہوتیں۔"}
+{"f":"cards","id":"ko.c1117","k":"meaning","src":"to be cute","tgt":"کیوٹ ہونا؛ پیارا ہونا"}
+{"f":"cards","id":"ko.c1117","k":"note","src":"귀여워요 (ㅂ irregular). To anyone, men included. Mild and playful.","tgt":"مؤدب شکل: 귀여워요 (ㅂ بے قاعدہ)۔ کسی سے بھی، مردوں سے بھی۔ ہلکا اور شوخ۔"}
+{"f":"cards","id":"ko.c1118","k":"meaning","src":"to be handsome; good-looking","tgt":"ہینڈسم ہونا؛ اچھا دکھنا"}
+{"f":"cards","id":"ko.c1118","k":"note","src":"Said in the past tense: 잘생겼어요. Mostly to men. Warm.","tgt":"ماضی کی شکل میں کہا جاتا ہے: 잘생겼어요۔ زیادہ تر مردوں سے۔ گرم جوش۔"}
+{"f":"cards","id":"ko.c1119","k":"meaning","src":"to be beautiful","tgt":"بہت حسین ہونا"}
+{"f":"cards","id":"ko.c1119","k":"note","src":"아름다워요 (ㅂ irregular). Strong and a bit poetic: for scenery, or a very sincere compliment. Bold.","tgt":"مؤدب شکل: 아름다워요 (ㅂ بے قاعدہ)۔ زور دار اور ذرا شاعرانہ: مناظر کے لیے، یا بہت سچی تعریف۔ بے باک۔"}
+{"f":"cards","id":"ko.c1120","k":"meaning","src":"to be lovely; adorable","tgt":"پیارا ہونا؛ دلارا ہونا"}
+{"f":"cards","id":"ko.c1120","k":"note","src":"사랑스러워요 (ㅂ irregular). Tender, more for couples. Warm.","tgt":"مؤدب شکل: 사랑스러워요 (ㅂ بے قاعدہ)۔ نرم، زیادہ تر جوڑوں کے لیے۔ گرم جوش۔"}
+{"f":"cards","id":"ko.c1121","k":"meaning","src":"charm; appeal","tgt":"کشش؛ دلکشی"}
+{"f":"cards","id":"ko.c1121","k":"note","src":"매력 있어요 = you're attractive. Safe and common. Mild to warm.","tgt":"مثال: 매력 있어요 = آپ میں کشش ہے۔ محفوظ اور عام۔ ہلکے سے گرم جوش۔"}
+{"f":"cards","id":"ko.c1122","k":"meaning","src":"to be attractive; charming","tgt":"پرکشش ہونا؛ دلکش ہونا"}
+{"f":"cards","id":"ko.c1122","k":"note","src":"매력적이에요. A notch more serious than 매력 있어요. Warm.","tgt":"مؤدب شکل: 매력적이에요۔ 매력 있어요 سے ایک درجہ زیادہ سنجیدہ۔ گرم جوش۔"}
+{"f":"cards","id":"ko.c1123","k":"meaning","src":"to be smart","tgt":"ذہین ہونا؛ ہوشیار ہونا"}
+{"f":"cards","id":"ko.c1123","k":"note","src":"똑똑해요. To anyone. Mild. To an elder, praise their knowledge instead.","tgt":"مؤدب شکل: 똑똑해요۔ کسی سے بھی۔ ہلکا۔ بزرگوں سے کہنا ہو تو ان کے علم کی تعریف کریں۔"}
+{"f":"cards","id":"ko.c1124","k":"meaning","src":"to be kind-hearted; nice","tgt":"نیک دل ہونا؛ بھلا ہونا"}
+{"f":"cards","id":"ko.c1124","k":"note","src":"착해요. Big compliment from a partner's family; to equals or juniors only. Mild.","tgt":"مؤدب شکل: 착해요۔ پارٹنر کے گھر والوں کے منہ سے بڑی تعریف؛ صرف برابر والوں یا چھوٹوں کے لیے۔ ہلکا۔"}
+{"f":"cards","id":"ko.c1125","k":"meaning","src":"to be affectionate; sweet and caring","tgt":"محبت اور فکر کرنے والا ہونا"}
+{"f":"cards","id":"ko.c1125","k":"note","src":"다정해요. A top quality in a partner. Warm.","tgt":"مؤدب شکل: 다정해요۔ پارٹنر کی سب سے بڑی خوبی۔ گرم جوش۔"}
+{"f":"cards","id":"ko.c1126","k":"meaning","src":"smile","tgt":"مسکراہٹ"}
+{"f":"cards","id":"ko.c1126","k":"note","src":"미소가 예뻐요. A little literary; speech also uses 웃는 모습. Mild.","tgt":"مثال: 미소가 예뻐요 (آپ کی مسکراہٹ خوبصورت ہے)۔ ذرا ادبی؛ بول چال میں 웃는 모습 بھی۔ ہلکا۔"}
+{"f":"cards","id":"ko.c1127","k":"meaning","src":"eyes","tgt":"آنکھیں"}
+{"f":"cards","id":"ko.c1127","k":"note","src":"눈이 예뻐요. Praising eyes is safe and common. (눈 also = snow.) Mild to warm.","tgt":"مثال: 눈이 예뻐요۔ آنکھوں کی تعریف محفوظ اور عام ہے۔ (눈 کا مطلب برف بھی ہے۔) ہلکے سے گرم جوش۔"}
+{"f":"cards","id":"ko.c1128","k":"meaning","src":"eye smile; smiling eyes","tgt":"آنکھوں کی مسکراہٹ؛ مسکراتی آنکھیں"}
+{"f":"cards","id":"ko.c1128","k":"note","src":"A Korean favourite: eyes curving into crescents when you smile. Warm.","tgt":"کوریائی لوگوں کی پسندیدہ: مسکراتے وقت آنکھیں ہلال کی طرح مڑ جانا۔ گرم جوش۔"}
+{"f":"cards","id":"ko.c1129","k":"meaning","src":"dimple","tgt":"ڈمپل؛ گال کا گڑھا"}
+{"f":"cards","id":"ko.c1129","k":"note","src":"보조개가 귀여워요. A classic Korean compliment. Mild.","tgt":"مثال: 보조개가 귀여워요۔ کوریا کی ایک کلاسک تعریف۔ ہلکا۔"}
+{"f":"cards","id":"ko.c1130","k":"meaning","src":"voice","tgt":"آواز"}
+{"f":"cards","id":"ko.c1130","k":"note","src":"목소리가 좋아요. Safe, very common, especially on the phone. Mild.","tgt":"مثال: 목소리가 좋아요۔ محفوظ، بہت عام، خاص طور پر فون پر۔ ہلکا۔"}
+{"f":"cards","id":"ko.c1131","k":"meaning","src":"laugh; laughter","tgt":"ہنسی"}
+{"f":"cards","id":"ko.c1131","k":"note","src":"웃음이 많아요 = you laugh a lot (a good thing). Mild.","tgt":"مثال: 웃음이 많아요 = آپ بہت ہنس مکھ ہیں (اچھی بات)۔ ہلکا۔"}
+{"f":"cards","id":"ko.c1132","k":"meaning","src":"vibe; aura; atmosphere","tgt":"وائب؛ شخصیت کا اثر؛ ماحول"}
+{"f":"cards","id":"ko.c1132","k":"note","src":"분위기 있어요 = you have a certain charm. Very Korean compliment. Warm.","tgt":"مثال: 분위기 있어요 = آپ میں ایک الگ ہی بات ہے۔ بہت کوریائی تعریف۔ گرم جوش۔"}
+{"f":"cards","id":"ko.c1133","k":"meaning","src":"style; type","tgt":"اسٹائل؛ ٹائپ"}
+{"f":"cards","id":"ko.c1133","k":"note","src":"제 스타일이에요 = you're my type. Mild alone; warm in that phrase.","tgt":"مثال: 제 스타일이에요 = آپ میرے ٹائپ ہیں۔ اکیلا ہلکا؛ اس جملے میں گرم جوش۔"}
+{"f":"cards","id":"ko.c1134","k":"meaning","src":"personality","tgt":"مزاج؛ شخصیت"}
+{"f":"cards","id":"ko.c1134","k":"note","src":"성격 좋아요 is high praise. Mild.","tgt":"اگر کوئی کہے 성격 좋아요 تو یہ بڑی تعریف ہے۔ ہلکا۔"}
+{"f":"cards","id":"ko.c1135","k":"meaning","src":"good taste; tact","tgt":"اچھی سمجھ؛ سلیقہ"}
+{"f":"cards","id":"ko.c1135","k":"note","src":"센스 있어요 = you've got taste / you're thoughtful. Mild.","tgt":"مثال: 센스 있어요 = آپ کی پسند اچھی ہے / آپ سمجھدار ہیں۔ ہلکا۔"}
+{"f":"cards","id":"ko.c1136","k":"meaning","src":"ideal type","tgt":"آئیڈیل ٹائپ"}
+{"f":"cards","id":"ko.c1136","k":"note","src":"Koreans ask 이상형이 뭐예요? on first dates and in interviews. Mild as a question.","tgt":"کوریائی لوگ پہلی ڈیٹ اور انٹرویو میں پوچھتے ہیں: 이상형이 뭐예요 (آپ کا آئیڈیل ٹائپ کیسا ہے؟)۔ سوال کے طور پر ہلکا۔"}
+{"f":"cards","id":"ko.c1137","k":"meaning","src":"first impression","tgt":"پہلا تاثر"}
+{"f":"cards","id":"ko.c1137","k":"note","src":"첫인상이 좋았어요 = I liked you from the start. Warm.","tgt":"مثال: 첫인상이 좋았어요 = آپ شروع سے ہی اچھے لگے۔ گرم جوش۔"}
+{"f":"cards","id":"ko.c1138","k":"meaning","src":"good-looking, warm-vibe guy","tgt":"خوش شکل اور خوش مزاج لڑکا"}
+{"f":"cards","id":"ko.c1138","k":"note","src":"Slang, from 훈훈한 남자. For women: 훈녀. Mild, friendly.","tgt":"سلینگ، 훈훈한 남자 سے۔ خواتین کے لیے: 훈녀۔ ہلکا، دوستانہ۔"}
+{"f":"cards","id":"ko.c1139","k":"meaning","src":"heart skipping a beat","tgt":"دل دھڑک اٹھنا"}
+{"f":"cards","id":"ko.c1139","k":"note","src":"Slang: 심장이 쿵. 심쿵했어요 = you made my heart skip. Warm, playful.","tgt":"سلینگ: 심장이 쿵۔ 심쿵했어요 = آپ نے تو دل دھڑکا دیا۔ گرم جوش، شوخ۔"}
+{"f":"cards","id":"ko.c1140","k":"meaning","src":"You look even prettier today","tgt":"آج تو آپ اور بھی خوبصورت لگ رہی ہیں"}
+{"f":"cards","id":"ko.c1140","k":"note","src":"To a woman you know. 오늘따라 = today especially. Warm.","tgt":"جان پہچان والی خاتون سے۔ 오늘따라 = خاص طور پر آج۔ گرم جوش۔"}
+{"f":"cards","id":"ko.c1141","k":"meaning","src":"Even your name is pretty","tgt":"آپ کا نام بھی خوبصورت ہے"}
+{"f":"cards","id":"ko.c1141","k":"note","src":"Right after learning a name. Mild, sweet.","tgt":"نام معلوم ہوتے ہی۔ ہلکا، میٹھا۔"}
+{"f":"cards","id":"ko.c1142","k":"meaning","src":"You must hear that you're pretty a lot","tgt":"آپ کو اکثر سننے کو ملتا ہوگا کہ آپ خوبصورت ہیں"}
+{"f":"cards","id":"ko.c1142","k":"note","src":"Indirect and smooth. To a woman. Warm.","tgt":"گھما پھرا کر اور سلیقے سے۔ کسی خاتون سے۔ گرم جوش۔"}
+{"f":"cards","id":"ko.c1143","k":"meaning","src":"Why are you so cute?","tgt":"آپ اتنے کیوٹ کیوں ہیں؟"}
+{"f":"cards","id":"ko.c1143","k":"note","src":"Teasing, to anyone. Warm.","tgt":"چھیڑتے ہوئے، کسی سے بھی۔ گرم جوش۔"}
+{"f":"cards","id":"ko.c1144","k":"meaning","src":"Everything you do is cute","tgt":"آپ کی ہر ادا کیوٹ ہے"}
+{"f":"cards","id":"ko.c1144","k":"note","src":"To someone you know well. 짓 = little actions. Warm, playful.","tgt":"اچھی طرح جاننے والے سے۔ 짓 = چھوٹی چھوٹی حرکتیں۔ گرم جوش، شوخ۔"}
+{"f":"cards","id":"ko.c1145","k":"meaning","src":"You're very handsome","tgt":"آپ بہت ہینڈسم ہیں"}
+{"f":"cards","id":"ko.c1145","k":"note","src":"Polite -시-; to a man you don't know well. Mild to warm.","tgt":"مؤدب -시-؛ ایسے مرد سے جسے آپ زیادہ نہیں جانتے۔ ہلکے سے گرم جوش۔"}
+{"f":"cards","id":"ko.c1146","k":"meaning","src":"You're even better-looking in person","tgt":"آپ سامنے اور بھی ہینڈسم لگتے ہیں"}
+{"f":"cards","id":"ko.c1146","k":"note","src":"After seeing photos first (dating app, a friend's phone). Warm.","tgt":"پہلے تصویریں دیکھنے کے بعد (ڈیٹنگ ایپ، کسی دوست کا فون)۔ گرم جوش۔"}
+{"f":"cards","id":"ko.c1147","k":"meaning","src":"You look great today","tgt":"آج آپ کا لک کمال کا ہے"}
+{"f":"cards","id":"ko.c1147","k":"note","src":"To anyone dressed up. Mild.","tgt":"سجے سنورے کسی سے بھی۔ ہلکا۔"}
+{"f":"cards","id":"ko.c1148","k":"meaning","src":"You look cool when you're working","tgt":"کام کرتے وقت آپ کا انداز کمال کا ہے"}
+{"f":"cards","id":"ko.c1148","k":"note","src":"Classic office or café crush line. Warm.","tgt":"دفتر یا کیفے والے کرش کی کلاسک لائن۔ گرم جوش۔"}
+{"f":"cards","id":"ko.c1149","k":"meaning","src":"You're really smart","tgt":"آپ سچ میں بہت ذہین ہیں"}
+{"f":"cards","id":"ko.c1149","k":"note","src":"To someone your age or younger. Mild.","tgt":"ہم عمر یا چھوٹے سے۔ ہلکا۔"}
+{"f":"cards","id":"ko.c1150","k":"meaning","src":"You're attractive / You have charm","tgt":"آپ میں کشش ہے / آپ دلکش ہیں"}
+{"f":"cards","id":"ko.c1150","k":"note","src":"Safe on a date or between friends. Mild to warm.","tgt":"ڈیٹ پر یا دوستوں میں محفوظ۔ ہلکے سے گرم جوش۔"}
+{"f":"cards","id":"ko.c1151","k":"meaning","src":"You're full of charm","tgt":"آپ میں تو کشش کوٹ کوٹ کر بھری ہے"}
+{"f":"cards","id":"ko.c1151","k":"note","src":"Polite and playful. Warm.","tgt":"مؤدب اور شوخ۔ گرم جوش۔"}
+{"f":"cards","id":"ko.c1152","k":"meaning","src":"You have a pretty smile","tgt":"آپ کی مسکراہٹ خوبصورت ہے"}
+{"f":"cards","id":"ko.c1152","k":"note","src":"Safe on a first meeting. Mild.","tgt":"پہلی ملاقات میں محفوظ۔ ہلکا۔"}
+{"f":"cards","id":"ko.c1153","k":"meaning","src":"Your eye smile is really pretty","tgt":"آپ کی آنکھوں کی مسکراہٹ بہت خوبصورت ہے"}
+{"f":"cards","id":"ko.c1153","k":"note","src":"Very Korean compliment. Warm.","tgt":"بہت کوریائی تعریف۔ گرم جوش۔"}
+{"f":"cards","id":"ko.c1154","k":"meaning","src":"Your dimples are so cute","tgt":"آپ کے ڈمپل بہت کیوٹ ہیں"}
+{"f":"cards","id":"ko.c1154","k":"note","src":"Mild, sweet.","tgt":"ہلکا، میٹھا۔"}
+{"f":"cards","id":"ko.c1155","k":"meaning","src":"You have a really nice voice","tgt":"آپ کی آواز واقعی بہت اچھی ہے"}
+{"f":"cards","id":"ko.c1155","k":"note","src":"Often on the phone or after karaoke. Mild.","tgt":"اکثر فون پر یا کراوکے کے بعد۔ ہلکا۔"}
+{"f":"cards","id":"ko.c1156","k":"meaning","src":"I wanted to hear your voice","tgt":"آپ کی آواز سننے کو دل چاہ رہا تھا"}
+{"f":"cards","id":"ko.c1156","k":"note","src":"Why you called. To someone you're dating. Warm to bold.","tgt":"فون کرنے کی وجہ۔ جس سے آپ کی ڈیٹنگ چل رہی ہو اس سے۔ گرم جوش سے بے باک۔"}
+{"f":"cards","id":"ko.c1157","k":"meaning","src":"You have a certain charm about you","tgt":"آپ کی شخصیت میں ایک خاص بات ہے"}
+{"f":"cards","id":"ko.c1157","k":"note","src":"A refined compliment to men or women. Warm.","tgt":"خواتین یا مردوں کے لیے سلیقے والی تعریف۔ گرم جوش۔"}
+{"f":"cards","id":"ko.c1158","k":"meaning","src":"You have great style","tgt":"آپ کا اسٹائل زبردست ہے"}
+{"f":"cards","id":"ko.c1158","k":"note","src":"Mild; works with near-strangers.","tgt":"ہلکا؛ تقریباً اجنبیوں سے بھی چل جاتا ہے۔"}
+{"f":"cards","id":"ko.c1159","k":"meaning","src":"You're my type","tgt":"آپ میرے ٹائپ ہیں"}
+{"f":"cards","id":"ko.c1159","k":"note","src":"Light and direct. Warm.","tgt":"ہلکا پھلکا اور سیدھا۔ گرم جوش۔"}
+{"f":"cards","id":"ko.c1160","k":"meaning","src":"You're totally my ideal type","tgt":"آپ بالکل میرے آئیڈیل ٹائپ ہیں"}
+{"f":"cards","id":"ko.c1160","k":"note","src":"Bold and playful. Usually after a few dates.","tgt":"بے باک اور شوخ۔ عام طور پر چند ڈیٹس کے بعد۔"}
+{"f":"cards","id":"ko.c1161","k":"meaning","src":"What's your ideal type?","tgt":"آپ کا آئیڈیل ٹائپ کیسا ہے؟"}
+{"f":"cards","id":"ko.c1161","k":"note","src":"The classic first-date question. Mild.","tgt":"پہلی ڈیٹ کا کلاسک سوال۔ ہلکا۔"}
+{"f":"cards","id":"ko.c1162","k":"meaning","src":"I liked my first impression of you","tgt":"آپ شروع سے ہی اچھے لگے"}
+{"f":"cards","id":"ko.c1162","k":"note","src":"On a second date. Warm.","tgt":"دوسری ڈیٹ پر۔ گرم جوش۔"}
+{"f":"cards","id":"ko.c1163","k":"meaning","src":"And you have a great personality too","tgt":"اور آپ کا مزاج بھی اچھا ہے"}
+{"f":"cards","id":"ko.c1163","k":"note","src":"도 = on top of being good-looking. Warm.","tgt":"یہاں 도 = اچھا دکھنے کے ساتھ ساتھ۔ گرم جوش۔"}
+{"f":"cards","id":"ko.c1164","k":"meaning","src":"You're so sweet and caring","tgt":"آپ میں کتنی اپنائیت ہے"}
+{"f":"cards","id":"ko.c1164","k":"note","src":"After a kind gesture. Warm.","tgt":"کسی مہربانی کے بعد۔ گرم جوش۔"}
+{"f":"cards","id":"ko.c1165","k":"meaning","src":"Have you eaten? (I care about you)","tgt":"کھانا کھایا؟ (مجھے آپ کی فکر ہے)"}
+{"f":"cards","id":"ko.c1165","k":"note","src":"Korean's indirect \"I'm thinking of you\". Polite form of the casual 밥 먹었어? Mild.","tgt":"کوریائی میں \"آپ کا خیال آ رہا تھا\" کہنے کا گھما پھرا کر طریقہ۔ بے تکلف 밥 먹었어 کی مؤدب شکل۔ ہلکا۔"}
+{"f":"cards","id":"ko.c1166","k":"meaning","src":"Let's grab a meal sometime","tgt":"کبھی ساتھ کھانا کھاتے ہیں"}
+{"f":"cards","id":"ko.c1166","k":"note","src":"Often polite filler; when meant, it opens a date. Ask \"when?\" to show you mean it. Mild.","tgt":"اکثر محض رسمی بات؛ دل سے کہا جائے تو ڈیٹ کا راستہ کھلتا ہے۔ یہ دکھانے کے لیے کہ آپ سنجیدہ ہیں، پوچھیں \"کب؟\"۔ ہلکا۔"}
+{"f":"cards","id":"ko.c1167","k":"meaning","src":"Want to have dinner together?","tgt":"ساتھ ڈنر کریں گے؟"}
+{"f":"cards","id":"ko.c1167","k":"note","src":"The real invitation. Warm.","tgt":"اصل دعوت۔ گرم جوش۔"}
+{"f":"cards","id":"ko.c1168","k":"meaning","src":"I'll buy you a coffee","tgt":"کافی میری طرف سے"}
+{"f":"cards","id":"ko.c1168","k":"note","src":"Easy opener after class or work. Mild.","tgt":"کلاس یا کام کے بعد آسان شروعات۔ ہلکا۔"}
+{"f":"cards","id":"ko.c1169","k":"meaning","src":"Is it OK if I contact you?","tgt":"آپ سے رابطہ کروں تو چلے گا؟"}
+{"f":"cards","id":"ko.c1169","k":"note","src":"Polite way to ask for KakaoTalk. Mild.","tgt":"کاکاؤ ٹاک مانگنے کا مؤدب طریقہ۔ ہلکا۔"}
+{"f":"cards","id":"ko.c1170","k":"meaning","src":"Can I see you again?","tgt":"کیا ہم پھر مل سکتے ہیں؟"}
+{"f":"cards","id":"ko.c1170","k":"note","src":"At the end of a first meeting. Warm.","tgt":"پہلی ملاقات کے آخر میں۔ گرم جوش۔"}
+{"f":"cards","id":"ko.c1171","k":"meaning","src":"Want to come up for some ramyeon? (joke line)","tgt":"اوپر آ کر رامیون کھائیں گے؟ (مذاق والی لائن)"}
+{"f":"cards","id":"ko.c1171","k":"note","src":"From the film One Fine Spring Day (2001), where the line is 라면 먹을래요?; this meme version means an invitation inside. Joke only, never a real move.","tgt":"فلم \"ون فائن اسپرنگ ڈے\" (2001) سے، جس میں لائن ہے 라면 먹을래요؛ یہ میم والی شکل اندر آنے کی دعوت ہے۔ صرف مذاق، اصل میں کبھی نہیں۔"}
+{"f":"cards","id":"ko.c1172","k":"meaning","src":"Come on, you're joking, right?","tgt":"ارے، آپ مذاق کر رہے ہیں نا؟"}
+{"f":"cards","id":"ko.c1172","k":"note","src":"Playful deflection, shy but not a no. Casual and friendly.","tgt":"شوخی سے ٹالنا، شرمیلا مگر \"نہ\" نہیں۔ بے تکلف اور دوستانہ۔"}
+{"f":"cards","id":"ko.c1173","k":"meaning","src":"You're quite the smooth talker","tgt":"آپ تو بڑی میٹھی باتیں کرتے ہیں"}
+{"f":"cards","id":"ko.c1173","k":"note","src":"Teasing deflection; smiling = interested, flat = not. Mild.","tgt":"چھیڑتے ہوئے ٹالنا؛ مسکرا کر کہیں تو دلچسپی، سپاٹ لہجے میں تو نہیں۔ ہلکا۔"}
+{"f":"cards","id":"ko.c1174","k":"meaning","src":"Sure, when shall we meet?","tgt":"ٹھیک ہے، کب ملیں؟"}
+{"f":"cards","id":"ko.c1174","k":"note","src":"A warm yes to an invitation.","tgt":"دعوت پر گرم جوش \"ہاں\"۔"}
+{"f":"cards","id":"ko.c1175","k":"meaning","src":"Thanks for the thought, but I'm fine","tgt":"خیال کا شکریہ، مگر رہنے دیں"}
+{"f":"cards","id":"ko.c1175","k":"note","src":"Kind, clear no. Works for a drink or a number.","tgt":"مہربان مگر صاف \"نہ\"۔ ڈرنک یا نمبر، دونوں کے لیے۔"}
+{"f":"cards","id":"ko.c1176","k":"meaning","src":"Sorry, but I'm seeing someone","tgt":"معاف کیجیے، مگر میری زندگی میں کوئی ہے"}
+{"f":"cards","id":"ko.c1176","k":"note","src":"Clear no; nobody will push after this.","tgt":"صاف \"نہ\"؛ اس کے بعد کوئی اصرار نہیں کرے گا۔"}
+{"f":"cards","id":"ko.c1177","k":"meaning","src":"You're a lovely person, but I'd like to stay friends","tgt":"آپ بہت اچھے انسان ہیں، مگر ہم دوست ہی رہیں تو اچھا ہے"}
+{"f":"cards","id":"ko.c1177","k":"note","src":"Gentle no to someone you know. 분 keeps it respectful.","tgt":"جان پہچان والے کو نرمی سے \"نہ\"۔ لفظ 분 سے احترام قائم رہتا ہے۔"}
+{"f":"cards","id":"ko.c1178","k":"meaning","src":"I'm not looking to date right now","tgt":"ابھی میرا کسی سے ڈیٹنگ کا کوئی ارادہ نہیں"}
+{"f":"cards","id":"ko.c1178","k":"note","src":"Firm but not personal.","tgt":"سخت، مگر ذاتی نہیں۔"}
+{"f":"cards","id":"ko.c1179","k":"meaning","src":"The food is really delicious","tgt":"کھانا واقعی بہت مزیدار ہے"}
+{"f":"cards","id":"ko.c1179","k":"note","src":"-네요 = noticing out loud. Say it to the host or cook during the meal.","tgt":"لاحقہ -네요 = کسی بات پر غور کر کے اونچی آواز میں کہنا۔ کھانے کے دوران میزبان یا پکانے والے سے کہیں۔"}
+{"f":"cards","id":"ko.c1180","k":"meaning","src":"You're a really good cook","tgt":"آپ کے ہاتھ میں واقعی بڑا ذائقہ ہے"}
+{"f":"cards","id":"ko.c1180","k":"note","src":"솜씨 = skill with your hands. Polite -시-; fine to elders.","tgt":"لفظ 솜씨 = ہاتھ کا ہنر۔ مؤدب -시-؛ بزرگوں سے بھی ٹھیک۔"}
+{"f":"cards","id":"ko.c1181","k":"meaning","src":"How did you make this?","tgt":"یہ آپ نے کیسے بنایا؟"}
+{"f":"cards","id":"ko.c1181","k":"note","src":"Asking for the recipe is praise in itself.","tgt":"ترکیب پوچھنا خود ایک تعریف ہے۔"}
+{"f":"cards","id":"ko.c1182","k":"meaning","src":"You're really good at this","tgt":"آپ کو یہ واقعی بہت اچھا آتا ہے"}
+{"f":"cards","id":"ko.c1182","k":"note","src":"For any skill. To elders, praise with -시- and no grading words.","tgt":"کسی بھی ہنر کے لیے۔ بزرگوں کی تعریف -시- کے ساتھ کریں، نمبر دینے والے الفاظ کے بغیر۔"}
+{"f":"cards","id":"ko.c1183","k":"meaning","src":"That's a good idea","tgt":"اچھا خیال ہے"}
+{"f":"cards","id":"ko.c1183","k":"note","src":"To colleagues and friends. To a boss: 좋은 생각이신 것 같아요.","tgt":"ساتھیوں اور دوستوں سے۔ باس سے: 좋은 생각이신 것 같아요۔"}
+{"f":"cards","id":"ko.c1184","k":"meaning","src":"You're so thorough","tgt":"آپ کے کام میں کتنی باریکی ہے"}
+{"f":"cards","id":"ko.c1184","k":"note","src":"A big compliment at work.","tgt":"دفتر میں بڑی تعریف۔"}
+{"f":"cards","id":"ko.c1185","k":"meaning","src":"You're so good-hearted","tgt":"آپ بہت نیک دل ہیں"}
+{"f":"cards","id":"ko.c1185","k":"note","src":"To equals or juniors. It sounds odd said to a much older person.","tgt":"برابر والوں یا چھوٹوں سے۔ اپنے سے بہت بڑے کسی شخص سے کہنا عجیب لگتا ہے۔"}
+{"f":"cards","id":"ko.c1186","k":"meaning","src":"You have a great sense of humor","tgt":"آپ کی حسِ مزاح کمال کی ہے"}
+{"f":"cards","id":"ko.c1186","k":"note","src":"Polite; to anyone.","tgt":"مؤدب؛ کسی سے بھی۔"}
+{"f":"cards","id":"ko.c1187","k":"meaning","src":"You're very considerate","tgt":"آپ کو دوسروں کا بہت خیال رہتا ہے"}
+{"f":"cards","id":"ko.c1187","k":"note","src":"배려 = thinking of others. Highly valued.","tgt":"لفظ 배려 = دوسروں کے بارے میں سوچنا۔ اس کی بہت قدر کی جاتی ہے۔"}
+{"f":"cards","id":"ko.c1188","k":"meaning","src":"You're so diligent","tgt":"آپ بہت محنتی ہیں"}
+{"f":"cards","id":"ko.c1188","k":"note","src":"Always busy and on time. Different from 열심히 하시네요 (works hard at it).","tgt":"ہمیشہ مصروف اور وقت کا پابند۔ 열심히 하시네요 (کسی کام میں جی جان لگانا) سے مختلف۔"}
+{"f":"cards","id":"ko.c1189","k":"meaning","src":"Your skin looks great","tgt":"آپ کی جلد بہت اچھی ہے"}
+{"f":"cards","id":"ko.c1189","k":"note","src":"A very common, friendly compliment in Korea, to men and women alike.","tgt":"کوریا میں بہت عام، دوستانہ تعریف، مردوں اور عورتوں دونوں سے۔"}
+{"f":"cards","id":"ko.c1190","k":"meaning","src":"You look so young for your age","tgt":"آپ کی عمر کا پتا ہی نہیں چلتا"}
+{"f":"cards","id":"ko.c1190","k":"note","src":"A favorite compliment, especially to people over 30.","tgt":"سب سے پسندیدہ تعریف، خاص طور پر 30 سے اوپر والوں کے لیے۔"}
+{"f":"cards","id":"ko.c1191","k":"meaning","src":"You have a kind face","tgt":"آپ کا چہرہ بڑا بھلا ہے"}
+{"f":"cards","id":"ko.c1191","k":"note","src":"Literally \"your impression is good\". Said on first meeting.","tgt":"لفظی: \"آپ کا تاثر اچھا ہے\"۔ پہلی ملاقات میں کہا جاتا ہے۔"}
+{"f":"cards","id":"ko.c1192","k":"meaning","src":"Your home is lovely","tgt":"آپ کا گھر بہت خوبصورت ہے"}
+{"f":"cards","id":"ko.c1192","k":"note","src":"Said on a first visit, often with a gift (휴지, fruit).","tgt":"پہلی بار آنے پر کہا جاتا ہے، اکثر تحفے کے ساتھ (휴지، پھل)۔"}
+{"f":"cards","id":"ko.c1193","k":"meaning","src":"Your child is so cute","tgt":"آپ کا بچہ بہت کیوٹ ہے"}
+{"f":"cards","id":"ko.c1193","k":"note","src":"Parents will usually deflect: 아니에요, 말썽꾸러기예요.","tgt":"والدین عام طور پر بات ٹال دیتے ہیں: 아니에요, 말썽꾸러기예요 (ارے نہیں، بڑا شرارتی ہے)۔"}
+{"f":"cards","id":"ko.c1194","k":"meaning","src":"Your child is so polite","tgt":"آپ کا بچہ بڑا تمیز دار ہے"}
+{"f":"cards","id":"ko.c1194","k":"note","src":"A compliment to the parents too. Very welcome.","tgt":"یہ والدین کی بھی تعریف ہے۔ بہت اچھی لگتی ہے۔"}
+{"f":"cards","id":"ko.c1195","k":"meaning","src":"That's a nice photo","tgt":"بہت اچھی تصویر ہے"}
+{"f":"cards","id":"ko.c1195","k":"note","src":"Literally \"the photo came out well\".","tgt":"لفظی: \"تصویر اچھی آئی ہے\"۔"}
+{"f":"cards","id":"ko.c1196","k":"meaning","src":"That outfit suits you","tgt":"یہ کپڑے آپ پر بہت جچتے ہیں"}
+{"f":"cards","id":"ko.c1196","k":"note","src":"Polite -세요; to anyone, including elders.","tgt":"مؤدب -세요؛ کسی سے بھی، بزرگوں سے بھی۔"}
+{"f":"cards","id":"ko.c1197","k":"meaning","src":"Your pronunciation is really good","tgt":"آپ کا تلفظ واقعی بہت اچھا ہے"}
+{"f":"cards","id":"ko.c1197","k":"note","src":"What learners hear right after 한국어 잘하시네요.","tgt":"سیکھنے والوں کو 한국어 잘하시네요 کے فوراً بعد یہی سننے کو ملتا ہے۔"}
+{"f":"cards","id":"ko.c1198","k":"meaning","src":"I thought you were Korean!","tgt":"مجھے لگا آپ کوریائی ہیں!"}
+{"f":"cards","id":"ko.c1198","k":"note","src":"Friendly exaggeration to a learner.","tgt":"سیکھنے والے کے لیے دوستانہ مبالغہ۔"}
+{"f":"cards","id":"ko.c1199","k":"meaning","src":"Where did you learn Korean?","tgt":"آپ نے کوریائی کہاں سے سیکھی؟"}
+{"f":"cards","id":"ko.c1199","k":"note","src":"Usually follows the compliment; itself a compliment.","tgt":"عام طور پر تعریف کے بعد آتا ہے؛ یہ خود بھی تعریف ہے۔"}
+{"f":"cards","id":"ko.c1200","k":"meaning","src":"You've improved a lot","tgt":"آپ میں بہت بہتری آئی ہے"}
+{"f":"cards","id":"ko.c1200","k":"note","src":"To a friend or junior. To an elder it sounds like grading.","tgt":"دوست یا چھوٹے سے۔ کسی بزرگ سے کہیں تو ایسا لگتا ہے جیسے آپ انہیں نمبر دے رہے ہیں۔","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"cards","id":"ko.c1201","k":"meaning","src":"I enjoyed your presentation","tgt":"آپ کی پریزنٹیشن بہت اچھی لگی"}
+{"f":"cards","id":"ko.c1201","k":"note","src":"The polite way to praise a boss: you report your experience, you don't grade them.","tgt":"باس کی تعریف کا مؤدب طریقہ: آپ اپنا تجربہ بتاتے ہیں، انہیں نمبر نہیں دیتے۔"}
+{"f":"cards","id":"ko.c1202","k":"meaning","src":"I learned a lot (from you)","tgt":"(آپ سے) بہت کچھ سیکھنے کو ملا"}
+{"f":"cards","id":"ko.c1202","k":"note","src":"The safest praise for a senior, teacher or boss.","tgt":"کسی سینئر، استاد یا باس کی تعریف کا سب سے محفوظ طریقہ۔"}
+{"f":"cards","id":"ko.c1203","k":"meaning","src":"Thank you for all your hard work","tgt":"آپ نے بہت محنت کی، شکریہ"}
+{"f":"cards","id":"ko.c1203","k":"note","src":"Praises effort. Fine among colleagues; some seniors find 수고 from a junior presumptuous, so to a boss 감사합니다 is safer.","tgt":"محنت کی تعریف۔ ساتھیوں میں ٹھیک؛ بعض سینئر جونیئر کے منہ سے 수고 کو گستاخی سمجھتے ہیں، اس لیے باس سے 감사합니다 زیادہ محفوظ ہے۔"}
+{"f":"cards","id":"ko.c1204","k":"meaning","src":"Oh no, not at all","tgt":"ارے نہیں، بالکل نہیں"}
+{"f":"cards","id":"ko.c1204","k":"note","src":"The first reflex after any compliment: deflect, even if you're pleased.","tgt":"کسی بھی تعریف کے بعد پہلا ردِعمل: بات ٹال دیں، چاہے آپ خوش ہوں۔"}
+{"f":"cards","id":"ko.c1205","k":"meaning","src":"Oh no, I still have a long way to go","tgt":"ارے نہیں، ابھی بہت سیکھنا باقی ہے"}
+{"f":"cards","id":"ko.c1205","k":"note","src":"The standard modest reply, especially about your Korean.","tgt":"عام مؤدب جواب، خاص طور پر اپنی کوریائی کے بارے میں۔"}
+{"f":"cards","id":"ko.c1206","k":"meaning","src":"Don't mention it; you're too kind","tgt":"ارے، یہ تو آپ کی ذرہ نوازی ہے"}
+{"f":"cards","id":"ko.c1206","k":"note","src":"Polite and a little formal. To elders and at work.","tgt":"مؤدب اور ذرا رسمی۔ بزرگوں سے اور دفتر میں۔"}
+{"f":"cards","id":"ko.c1207","k":"meaning","src":"You're praising me too much","tgt":"آپ ضرورت سے زیادہ تعریف کر رہے ہیں"}
+{"f":"cards","id":"ko.c1207","k":"note","src":"Literally \"that's too much praise\". Polite, a bit formal.","tgt":"لفظی: \"حد سے زیادہ تعریف\"۔ مؤدب، ذرا رسمی۔"}
+{"f":"cards","id":"ko.c1208","k":"meaning","src":"Thank you for the compliment","tgt":"تعریف کا شکریہ"}
+{"f":"cards","id":"ko.c1208","k":"note","src":"Accepting warmly. More common among younger people.","tgt":"گرم جوشی سے قبول کرنا۔ نوجوانوں میں زیادہ عام۔"}
+{"f":"cards","id":"ko.c1209","k":"meaning","src":"Thanks for seeing it that way","tgt":"اتنی اچھی نظر سے دیکھنے کا شکریہ"}
+{"f":"cards","id":"ko.c1209","k":"note","src":"Modest and grateful at once.","tgt":"عاجزی بھی اور شکر گزاری بھی۔"}
+{"f":"cards","id":"ko.c1210","k":"meaning","src":"Oh, it's nothing special","tgt":"ارے، کوئی خاص بات نہیں"}
+{"f":"cards","id":"ko.c1210","k":"note","src":"The host's answer to praise for food or a gift.","tgt":"کھانے یا تحفے کی تعریف پر میزبان کا جواب۔"}
+{"f":"cards","id":"ko.c1211","k":"meaning","src":"It's all thanks to you","tgt":"سب آپ کی بدولت ہے"}
+{"f":"cards","id":"ko.c1211","k":"note","src":"Turns the praise back onto the other person. Warm and humble.","tgt":"تعریف کو سامنے والے کی طرف لوٹا دیتا ہے۔ گرم جوش اور عاجزانہ۔"}
+{"f":"cards","id":"ko.c1212","k":"meaning","src":"South Korea","tgt":"جنوبی کوریا"}
+{"f":"cards","id":"ko.c1212","k":"note","src":"한국 is everyday speech; the official name is 대한민국. 한국 사람 = Korean (person); 한국어 or 한국말 = Korean.","tgt":"روزمرہ میں 한국؛ سرکاری نام 대한민국 ہے۔ 한국 사람 = کوریائی (شخص)؛ 한국어 یا 한국말 = کوریائی زبان۔"}
+{"f":"cards","id":"ko.c1213","k":"meaning","src":"North Korea","tgt":"شمالی کوریا"}
+{"f":"cards","id":"ko.c1213","k":"note","src":"South Korean usage. The official name is 조선민주주의인민공화국.","tgt":"جنوبی کوریا میں یہی کہتے ہیں۔ سرکاری نام 조선민주주의인민공화국 ہے۔"}
+{"f":"cards","id":"ko.c1214","k":"meaning","src":"Japan","tgt":"جاپان"}
+{"f":"cards","id":"ko.c1214","k":"note","src":"일본 사람 = Japanese (person); 일본어 = Japanese.","tgt":"مثال: 일본 사람 = جاپانی (شخص)؛ 일본어 = جاپانی زبان۔"}
+{"f":"cards","id":"ko.c1215","k":"meaning","src":"China","tgt":"چین"}
+{"f":"cards","id":"ko.c1215","k":"note","src":"중국 사람 = Chinese (person); 중국어 = Chinese.","tgt":"مثال: 중국 사람 = چینی (شخص)؛ 중국어 = چینی زبان۔"}
+{"f":"cards","id":"ko.c1216","k":"meaning","src":"Taiwan","tgt":"تائیوان"}
+{"f":"cards","id":"ko.c1216","k":"note","src":"대만 사람 = Taiwanese (person). People speak 중국어.","tgt":"مثال: 대만 사람 = تائیوانی (شخص)۔ لوگ 중국어 بولتے ہیں۔"}
 {"f":"cards","id":"ko.c1217","k":"meaning","src":"Hong Kong","tgt":""}
 {"f":"cards","id":"ko.c1217","k":"note","src":"홍콩 사람. 광둥어 = Cantonese.","tgt":""}
 {"f":"cards","id":"ko.c1218","k":"meaning","src":"Macao","tgt":""}

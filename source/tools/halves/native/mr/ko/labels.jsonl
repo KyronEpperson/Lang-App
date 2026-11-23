@@ -1,0 +1,140 @@
+{"id":"ko.t01","text":"अंकुर"}
+{"id":"ko.t03","text":"विद्यार्थी"}
+{"id":"ko.t05","text":"सीनियर"}
+{"id":"ko.t08","text":"प्रो"}
+{"id":"ko.t12","text":"उस्ताद"}
+{"id":"ko.t16","text":"सेन्सेई"}
+{"id":"ko.h.night","text":"उशीर झाला, छान मेहनत"}
+{"id":"ko.h.morning","text":"सुप्रभात"}
+{"id":"ko.h.afternoon","text":"शुभ दुपार"}
+{"id":"ko.h.evening","text":"शुभ संध्याकाळ"}
+{"id":"goal.travel","text":"प्रवास आणि फिरणं"}
+{"id":"goal.social","text":"डेटिंग, मित्र आणि बाहेर फिरणं"}
+{"id":"goal.drama","text":"के-ड्रामा आणि संगीत"}
+{"id":"goal.work","text":"काम आणि शिक्षण"}
+{"id":"plan.trip","text":"कोरियाची ट्रिप"}
+{"id":"plan.social","text":"मित्र आणि डेटिंग"}
+{"id":"plan.conv","text":"90 दिवसांत संभाषण"}
+{"id":"ko.z.compliment","text":"कौतुक"}
+{"id":"ko.z.compliment.01","text":"मस्त! / छान दिसताय"}
+{"id":"ko.z.compliment.02","text":"तुम्ही बेस्ट आहात"}
+{"id":"ko.z.compliment.03","text":"कमाल आहे!"}
+{"id":"ko.z.compliment.04","text":"छान केलंत"}
+{"id":"ko.z.compliment.05","text":"तुमची निवड छान आहे"}
+{"id":"ko.z.compliment.06","text":"किती दयाळूपणा तुमचा!"}
+{"id":"ko.z.compliment.07","text":"तुम्ही हुशार आहात"}
+{"id":"ko.z.compliment.08","text":"तुमच्यासोबत मजा येते"}
+{"id":"ko.z.compliment.09","text":"तुमचं हसू सुंदर आहे"}
+{"id":"ko.z.compliment.10","text":"तुमचा आवाज छान आहे"}
+{"id":"ko.z.compliment.11","text":"तुमच्यावर विश्वास ठेवता येतो"}
+{"id":"ko.z.compliment.12","text":"तुम्हाला शोभून दिसतंय"}
+{"id":"ko.z.compliment.13","text":"तुमच्यामुळे आधार वाटतो"}
+{"id":"ko.z.compliment.14","text":"तुम्ही एकदम भारी आहात"}
+{"id":"ko.z.compliment.15","text":"तुमचा स्वभाव छान आहे"}
+{"id":"ko.z.compliment.16","text":"तुम्ही छान कोरियन बोलता"}
+{"id":"ko.z.compliment.17","text":"तुमच्यात एक वेगळीच छाप आहे"}
+{"id":"ko.z.compliment.18","text":"मायाळू माणूस"}
+{"id":"ko.z.compliment.19","text":"तुमच्याकडून खूप शिकण्यासारखं आहे"}
+{"id":"ko.z.compliment.20","text":"तुमच्यासोबत असलं की निवांत वाटतं"}
+{"id":"ko.z.compliment.21","text":"तुम्ही खूप मेहनत घेता"}
+{"id":"ko.z.compliment.22","text":"तुमचे विचार खोल आहेत"}
+{"id":"ko.z.expression","text":"रोजचे शब्दप्रयोग"}
+{"id":"ko.z.expression.01","text":"खरंच?"}
+{"id":"ko.z.expression.02","text":"अच्छा, असं आहे तर"}
+{"id":"ko.z.expression.03","text":"बरोबर"}
+{"id":"ko.z.expression.04","text":"हो तर!"}
+{"id":"ko.z.expression.05","text":"हम्म… नक्की नाही"}
+{"id":"ko.z.expression.06","text":"कदाचित"}
+{"id":"ko.z.expression.07","text":"ठीक आहे / काही हरकत नाही"}
+{"id":"ko.z.expression.08","text":"समजलं"}
+{"id":"ko.z.expression.09","text":"एक मिनिट"}
+{"id":"ko.z.expression.10","text":"पुन्हा सांगा ना"}
+{"id":"ko.z.expression.11","text":"आता काय करू?"}
+{"id":"ko.z.expression.12","text":"भारी! / बापरे!"}
+{"id":"ko.z.expression.13","text":"तरीच!"}
+{"id":"ko.z.expression.14","text":"छे, असं कसं होईल?"}
+{"id":"ko.z.expression.15","text":"साहजिकच"}
+{"id":"ko.z.expression.16","text":"हो ना!"}
+{"id":"ko.z.expression.17","text":"अरे देवा"}
+{"id":"ko.z.expression.18","text":"अर्थातच"}
+{"id":"ko.z.expression.19","text":"नक्की सांगता येणार नाही"}
+{"id":"ko.z.expression.20","text":"खूप दिवसांनी भेट होतेय"}
+{"id":"ko.z.expression.21","text":"आजच्या मेहनतीबद्दल धन्यवाद"}
+{"id":"ko.z.expression.22","text":"जेवणासाठी धन्यवाद (जेवण्याआधी)"}
+{"id":"ko.z.expression.23","text":"जेवण छान झालं, धन्यवाद (जेवणानंतर)"}
+{"id":"ko.z.expression.24","text":"सांभाळून जा"}
+{"id":"ko.z.expression.25","text":"तुमचा दिवस छान जावो"}
+{"id":"ko.z.expression.26","text":"याचा अर्थ काय?"}
+{"id":"ko.z.polite","text":"सभ्य शब्द"}
+{"id":"ko.z.polite.01","text":"द्या"}
+{"id":"ko.z.polite.02","text":"प्लीज, एवढं करा (विनंती)"}
+{"id":"ko.z.polite.03","text":"एक्सक्यूज मी / माफ असावं"}
+{"id":"ko.z.polite.04","text":"अहो, जरा ऐका"}
+{"id":"ko.z.polite.05","text":"एक मिनिट"}
+{"id":"ko.z.polite.06","text":"माफ करा"}
+{"id":"ko.z.polite.07","text":"धन्यवाद"}
+{"id":"ko.z.polite.08","text":"थँक यू"}
+{"id":"ko.z.polite.09","text":"त्यात काय! (शब्दशः \"नाही हो\")"}
+{"id":"ko.z.polite.10","text":"काही हरकत नाही / नको, ठीक आहे"}
+{"id":"ko.z.polite.11","text":"नमस्कार"}
+{"id":"ko.z.polite.12","text":"काळजी घ्या (थांबणाऱ्याला)"}
+{"id":"ko.z.polite.13","text":"सावकाश जा (जाणाऱ्याला)"}
+{"id":"ko.z.polite.14","text":"मदत करा"}
+{"id":"ko.z.polite.15","text":"आपण पहिल्यांदाच भेटत आहोत"}
+{"id":"ko.z.polite.16","text":"तुम्हाला भेटून आनंद झाला"}
+{"id":"ko.z.polite.17","text":"तुम्ही आधी जा"}
+{"id":"ko.z.polite.18","text":"जरा वाट द्या, मी पुढे जाईन"}
+{"id":"ko.z.saying","text":"सुविचार"}
+{"id":"ko.z.saying.01","text":"सुरुवात केली की अर्धं काम झालं"}
+{"id":"ko.z.saying.02","text":"स्वप्नं खरी होतात"}
+{"id":"ko.z.saying.03","text":"प्रयत्नांती परमेश्वर"}
+{"id":"ko.z.saying.04","text":"हार मानू नकोस"}
+{"id":"ko.z.saying.05","text":"थेंबे थेंबे तळे साचे"}
+{"id":"ko.z.saying.06","text":"नेमकं आजच व्हायचं होतं! (वेळ चुकल्याची गंमत)"}
+{"id":"ko.z.saying.07","text":"डाव्या हाताचा मळ"}
+{"id":"ko.z.saying.08","text":"आधी पोटोबा, मग विठोबा"}
+{"id":"ko.z.saying.09","text":"हसत राहा, नशीब साथ देईल"}
+{"id":"ko.z.saying.10","text":"कष्टानंतर सुख येतं"}
+{"id":"ko.z.saying.11","text":"हजार मैलांचा प्रवासही एका पावलाने सुरू होतो"}
+{"id":"ko.z.saying.12","text":"जित्याची खोड मेल्याशिवाय जात नाही"}
+{"id":"ko.z.saying.13","text":"अनेक हात लागले की काम हलकं होतं"}
+{"id":"ko.z.saying.14","text":"आजही हिंमत ठेवा"}
+{"id":"ko.z.saying.15","text":"तुला जमेल!"}
+{"id":"ko.z.saying.16","text":"ठीक आहे, सगळं नीट होईल"}
+{"id":"ko.z.saying.17","text":"आयुष्य एकदाच मिळतं"}
+{"id":"ko.z.saying.18","text":"हळू चाललं तरी चालेल"}
+{"id":"ko.z.saying.19","text":"माकडंही झाडावरून पडतात"}
+{"id":"ko.z.saying.20","text":"एका गोड शब्दाने मोठं कर्जही फिटतं"}
+{"id":"ko.i01","text":"सगळ्या इच्छा पूर्ण होवोत"}
+{"id":"ko.i02","text":"एका दगडात दोन पक्षी"}
+{"id":"ko.i03","text":"जे होतं ते भल्यासाठीच: दुर्दैवातूनही भलं होऊ शकतं"}
+{"id":"ko.i04","text":"संकटाचं संधीत रूपांतर"}
+{"id":"ko.i05","text":"आधी कष्ट, मग गोड फळ"}
+{"id":"ko.i06","text":"मोठं यश उशिरा मिळतं"}
+{"id":"ko.i07","text":"तयारी असेल तर चिंता नाही"}
+{"id":"ko.i08","text":"सात वेळा पडा, आठव्यांदा उठा"}
+{"id":"ko.i09","text":"तीन दिवसांचा निश्चय (नव्याचे नऊ दिवस)"}
+{"id":"ko.i10","text":"न बोलताच एकमेकांना समजणं"}
+{"id":"ko.i11","text":"सुखदुःखात एकमेकांची साथ"}
+{"id":"ko.i12","text":"दुधात साखर"}
+{"id":"ko.i13","text":"जितकं जास्त, तितकं चांगलं"}
+{"id":"ko.i14","text":"दिवसेंदिवस प्रगती"}
+{"id":"ko.i15","text":"जसं पेराल तसं उगवेल"}
+{"id":"ko.i16","text":"चिकाटीने डोंगरही हलतो"}
+{"id":"ko.i17","text":"कष्टाने अभ्यास करून मिळवलेलं यश"}
+{"id":"ko.i18","text":"दुसऱ्यांच्या चुकांतून शिकणं"}
+{"id":"ko.i19","text":"अति तिथे माती"}
+{"id":"ko.i20","text":"दुसऱ्याच्या जागी स्वतःला ठेवून पाहणं"}
+{"id":"ko.i21","text":"स्वर्गात जुळलेली जोडी"}
+{"id":"ko.i22","text":"अढळ, एकनिष्ठ भक्ती"}
+{"id":"ko.i23","text":"वाघासारखी संधीची वाट पाहणं"}
+{"id":"ko.i24","text":"बालमित्र (लंगोटी यार)"}
+{"id":"ko.i25","text":"जुनं शिकून नवं जाणणं"}
+{"id":"ko.i26","text":"खोलवर, नीट विचार करणं"}
+{"id":"ko.i27","text":"चांगल्याला बक्षीस, वाइटाला शिक्षा"}
+{"id":"ko.i28","text":"एका कानाने ऐकून दुसऱ्याने सोडून देणं"}
+{"id":"ko.i29","text":"दहापैकी नऊ वेळा"}
+{"id":"ko.i30","text":"प्रत्येक लढाईत विजय"}
+{"id":"ko.i31","text":"स्वकष्टाने मिळवलेलं यश"}
+{"id":"ko.i32","text":"सुरुवातीच्या ध्येयाशी ठाम राहणं"}
+{"id":"ko.d.mydeck","text":"तुम्ही स्वतः जोडलेलं सगळं."}
