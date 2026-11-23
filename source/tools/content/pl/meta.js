@@ -60,7 +60,7 @@ exports.PLAN_PRESETS = {
 
 /* native names for the shared level titles in gen.js (Beginner, Student, Talker, Traveler, Local, Pro, Master);
    gender-neutral stage names, not names for a person (profile pl.md §10) */
-exports.TITLES = ["Pierwsze kroki", "Szkolna ławka", "Luźna rozmowa", "W\u00a0podróży", "Jak u\u00a0siebie", "Poziom ekspercki", "Klasa mistrzowska"];
+exports.TITLES = ["Pierwsze kroki", "Szkolna ławka", "Luźna rozmowa", "W\u00a0podróży", "Jak u\u00a0siebie", "Wyższa liga", "Klasa mistrzowska"];
 
 /* native labels for the pause-screen phrase sets; gen.js prefixes the shared English label ("Compliment · ") */
 exports.PAUSE_LABELS = { compliment: "Komplementy", expression: "Zwroty na co dzień", polite: "Uprzejmość", saying: "Przysłowia i\u00a0sentencje" };

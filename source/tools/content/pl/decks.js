@@ -400,7 +400,7 @@ Speak of the devil! | /ˈspiːk əv ðə ˈdevl/ | O wilku mowa! | Gdy zjawia si
 The ball is in your court. | /ðə ˈbɔːl ɪz ɪn jʊr ˈkɔːrt/ | Piłka jest po twojej stronie / Teraz twój ruch | Z tenisa: piłka jest po twojej stronie kortu.
 My lips are sealed. | /maɪ ˈlɪps ər ˈsiːld/ | Nie pisnę ani słowa | Dosłownie „moje usta są zapieczętowane”.
 It's on the tip of my tongue. | /ɪts ɑːn ðə ˈtɪp əv maɪ ˈtʌŋ/ | Mam to na końcu języka | Tak samo jak po polsku: słowo zaraz się przypomni, ale jeszcze nie teraz.
-I'm all ears. | /aɪm ˈɔːl ˈɪrz/ | Zamieniam się w słuch | Dosłownie „cały jestem uszami”.
+I'm all ears. | /aɪm ˈɔːl ˈɪrz/ | Zamieniam się w słuch | Dosłownie „jestem samymi uszami”.
 When pigs fly. | /wen ˈpɪgz ˈflaɪ/ | Prędzej mi kaktus na dłoni wyrośnie | O czymś, co nigdy się nie stanie: He'll clean his room when pigs fly. Dosłownie „gdy świnie zaczną latać”.
 `,
 "Filmy, seriale i slang": `
@@ -481,7 +481,7 @@ I'm interested in history. | /aɪm ˈɪntrəstɪd ɪn ˈhɪstri/ | Interesuję s
 Thanks in advance. | /ˈθæŋks ɪn ədˈvæns/ | Z góry dziękuję | Kalka z polskiego: Thank you from the mountain ✗ to tylko żart. Polskie „z góry” to in advance.
 take a photo | /ˈteɪk ə ˈfoʊtoʊ/ | zrobić zdjęcie | Kalka z polskiego: make a photo ✗. Po angielsku zdjęcie się „bierze”: take a photo albo take a picture.
 What does it look like? | /ˈwʌt dəz ɪt ˈlʊk laɪk/ | Jak to wygląda? | Kalka z polskiego: How does it look like? ✗. Z like pytamy przez what; samo How does it look? też jest poprawne.
-a piece of advice | /ə ˈpiːs əv ədˈvaɪs/ | jedna rada | Kalka z polskiego: advices ✗. Polskie „rady” mają liczbę mnogą, a advice jest niepoliczalne: bez a i bez -s.
+a piece of advice | /ə ˈpiːs əv ədˈvaɪs/ | jedna rada | Kalka z polskiego: advices ✗. Polskie „rady” mają liczbę mnogą, a advice jest niepoliczalne: bez przedimka a / an i bez -s.
 My phone is old. It doesn't work. | /maɪ ˈfoʊn ɪz ˈoʊld ‖ ɪt ˈdʌznt ˈwɜːrk/ | Mój telefon jest stary. Nie działa | Kalka z polskiego: He doesn't work ✗. Telefon to po polsku „on”, ale o rzeczach mówimy po angielsku it.
 `
 };

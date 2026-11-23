@@ -2332,7 +2332,7 @@
    "where": "js renderTypeQ() <div>"
   },
   "Type the Korean, or tap Check again to give up.": {
-   "t": "Napisz po angielsku albo dotknij Sprawdź jeszcze raz, żeby się poddać.",
+   "t": "Napisz po angielsku albo jeszcze raz dotknij „Sprawdź”, żeby się poddać.",
    "ko": "영어로 입력하세요. 포기하려면 확인을 한 번 더 누르세요.",
    "kind": "sentence",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)",
@@ -2612,7 +2612,7 @@
    "where": "js pass()"
   },
   "Flip it, listen, then tap Got it once it sticks.": {
-   "t": "Odwróć fiszkę, posłuchaj, a gdy zapamiętasz, dotknij Umiem.",
+   "t": "Odwróć fiszkę, posłuchaj, a gdy zapamiętasz, dotknij „Umiem”.",
    "ko": "뒤집고, 들어 보고, 외워지면 알아요를 누르세요.",
    "kind": "sentence",
    "where": "js x() <p>"
@@ -4075,7 +4075,7 @@
    "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   "Talker": {
-   "t": "Rozmówki",
+   "t": "Luźna rozmowa",
    "ko": "수다쟁이",
    "kind": "label",
    "context": "short UI label (button, chip or heading); keep it short",
@@ -4117,7 +4117,7 @@
    "where": "js days()"
   },
   "= Got it  ·": {
-   "t": "= Umiem  ·",
+   "t": "= Umiem  ·",
    "ko": "= 알아요  ·",
    "kind": "fragment",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing",
@@ -7020,7 +7020,7 @@
    "context": "{0} = target language name in the UI language — Type drill / typed quiz / say-it / practice placeholder (LL)"
   },
   "Type the {x}, or tap Check again to give up.": {
-   "t": "Wpisz odpowiedź (język: {1}) albo dotknij Sprawdź jeszcze raz, żeby się poddać.",
+   "t": "Wpisz odpowiedź (język: {1}) albo jeszcze raz dotknij „Sprawdź”, żeby się poddać.",
    "ko": null,
    "slots": "{1}=x",
    "example": "Type the Hello there, or tap Check again to give up.",

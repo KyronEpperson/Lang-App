@@ -119,7 +119,7 @@ Fixed strings without a slot use the proper case: *Napisz po angielsku*, *Ucz si
 | Text size | Tekst | |
 | grammar pattern / conjugate | konstrukcja / odmień | |
 | weekday headers Su–Sa | Nd Pn Wt Śr Cz Pt So | two letters each |
-| level titles (glosses beside the English title) | Kiełek, Szkolna ławka, Starsza klasa, Wyższa liga, Klasa mistrzowska, Sensei; Pierwsze kroki, Rozmówki, W podróży, Jak u siebie | names of a stage, not of a person |
+| level titles (glosses beside the English title) | Kiełek, Szkolna ławka, Starsza klasa, Wyższa liga, Klasa mistrzowska, Sensei; Pierwsze kroki, Luźna rozmowa, W podróży, Jak u siebie | names of a stage, not of a person |
 | DELETE | DELETE | the engine compares the typed word |
 
 Fragments that the engine joins at run time were written to read as one sentence: „👆 Dotknij” + „fiszki, aby ją odwrócić”; „👉 Przesuń w prawo” + „= Umiem ·” + „👈 w lewo” + „= Jeszcze raz”; „… Wpisz” + DELETE + „dla potwierdzenia.”; „Potem 5 fiszek z talii” + deck name; „: wszystko, co publikujesz, jest” + „publiczne” + „dla wszystkich użytkowników. …”.
@@ -141,7 +141,7 @@ Recall en→한 (*Przypominanie pl→en*), Say it (*Powiedz na głos*), Cards by
 9. *seria (dni)* / *SERIA (DNI)* as the caption under the streak number.
 10. *Pisanie* for the key `Type` (see §4).
 11. *Twórcy* / *❤️ twórcom się podoba* for "Developer" / "loved by the dev".
-12. The level-title glosses, especially *Kiełek*, *Starsza klasa*, *Wyższa liga*, *Rozmówki*.
+12. The level-title glosses, especially *Kiełek*, *Starsza klasa*, *Wyższa liga*, *Luźna rozmowa*.
 13. *Nd Pn Wt Śr Cz Pt So* as weekday headers (capitalised, as on printed calendars).
 14. *Równo do przodu.* for "Steady."; *Znów w obiegu.* for "Back in rotation."; *Wszystko na bieżąco* for "All caught up"; *wszystko już było* for "all seen".
 15. *Nauka do późna — brawo* / *późno już, dobra robota* for the late-night greeting.

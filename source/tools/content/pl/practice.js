@@ -184,7 +184,7 @@ module.exports = {
     { t: "fill", q: "We ran out of __.", p: "Skończyły nam się jajka", a: ["eggs"], o: ["egg", "an egg", "the egg"], why: "Gdy kończy się coś policzalnego, używamy liczby mnogiej: eggs." },
 
     { t: "type", p: "Wyłącz to, proszę", a: ["Turn it off", "Turn it off please", "Please turn it off", "Can you turn it off", "Can you turn it off please", "Could you turn it off", "Could you turn it off please"], hint: "turn · off — zaimek w środku", x: ["on"], why: "Zaimek it stoi między turn i off." },
-    { t: "type", p: "Opiekuję się dwoma kotami", a: ["I look after two cats", "I take care of two cats"], hint: "look after · two · cat — dwa, czyli liczba mnoga", x: ["cat"], why: "look after znaczy „opiekować się”. Koty są dwa, więc liczba mnoga: cats." },
+    { t: "type", p: "Na co dzień opiekuję się dwoma kotami", a: ["I look after two cats", "I take care of two cats"], hint: "look after · two · cat — dwa, czyli liczba mnoga", x: ["cat"], why: "look after znaczy „opiekować się”. Koty są dwa, więc liczba mnoga: cats." },
     { t: "type", p: "Skończyło nam się mleko", a: ["We ran out of milk", "We've run out of milk", "We have run out of milk", "We're out of milk", "We are out of milk", "I ran out of milk", "I'm out of milk", "I am out of milk"], hint: "run out of · milk — z przedimkiem a czy bez?", x: ["a"], why: "milk jest niepoliczalne, więc bez przedimka a." }
   ],
 

@@ -469,5 +469,5 @@ practice:[
 ["ty","Potrzebuję rady","I need some advice|I need advice|I need a piece of advice","need · advice — rzeczownik niepoliczalny","advices","Advice jest niepoliczalne: bez przedimka a i bez -s."],
 ["ty","Możesz pożyczyć mi długopis?","Can you lend me a pen|Could you lend me a pen","can you · lend · pen — przedimek a","borrow the","Pożyczyć komuś to lend; długopis jest jeden i dowolny — przedimek a."],
 ["ty","Mam dwadzieścia lat","I'm twenty years old|I'm twenty|I'm 20 years old|I'm 20","I'm · twenty — wiek z to be, nie z have","have","Wiek podajemy z czasownikiem to be: I'm twenty, nie I have twenty years."],
-["ty","Zrobiłam błąd","I made a mistake","made · mistake — przedimek a","did the","Błąd „robimy” z make, nie z do; mistake to rzeczownik policzalny, więc z przedimkiem a."]]},
+["ty","Zrobiłam błąd","I made a mistake|I've made a mistake","made · mistake — przedimek a","did the","Błąd „robimy” z make, nie z do; mistake to rzeczownik policzalny, więc z przedimkiem a."]]},
 ];
