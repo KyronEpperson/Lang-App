@@ -31,7 +31,7 @@
 {"id":"meet.03","q":"You leave a shop; the owner stays. You say:","why":"계세요 = stay well, said by the one leaving."}
 {"id":"meet.04","q":"'Where are you from?' =","why":"에서 왔어요 = came from."}
 {"id":"meet.05","q":"'I'm a student' =","why":"학생 ends in a consonant → 이에요."}
-{"id":"meet.06","p":"I'm from the US","why":"Place + 에서 왔어요 = came from."}
+{"id":"meet.06","p":"I'm from Mexico","why":"Place + 에서 왔어요 = came from."}
 {"id":"meet.07","p":"I'm studying Korean","why":"한국어 = Korean language; 한국 = Korea."}
 {"id":"meet.08","p":"Hello, I'm Minsu","why":"민수 ends in a vowel → 예요."}
 {"id":"meet.09","p":"I'm a student","why":"Consonant ending → 이에요."}
@@ -168,7 +168,7 @@
 {"id":"sov.14","p":"What are you eating?","why":"Question word where the answer goes, rising tone."}
 {"id":"particles.01","q":"'I go to school' =","why":"Destination with 가요 → 에."}
 {"id":"particles.02","q":"'I rest at home' =","why":"Where an action happens → 에서."}
-{"id":"particles.03","q":"'I came from the US' =","why":"에서 = from; 미국에 왔어요 = came to the US."}
+{"id":"particles.03","q":"'I came from Japan' =","why":"에서 = from; 일본에 왔어요 = came to Japan."}
 {"id":"particles.04","q":"'On the weekend' =","why":"Time words take 에."}
 {"id":"particles.05","q":"Answering 누가 왔어요? (Who came?): 'My friend came' =","why":"The answer to 'who?' is new info → 이/가."}
 {"id":"particles.06","p":"I study at a café","why":"Action location → 에서."}
@@ -450,10 +450,10 @@
 {"id":"office.02","q":"To your manager at the end of the day:","why":"수고했어요 is for juniors or peers; seniors get 수고하셨습니다."}
 {"id":"office.03","q":"How do you address your manager (과장)?","why":"Titles always take 님."}
 {"id":"office.04","q":"The standard email closer 'Please take a look':","why":"부탁드립니다 = I humbly ask."}
-{"id":"office.05","q":"Signing an email as 키이:","why":"드림 goes after your own name; never 씨 or 님 for yourself."}
+{"id":"office.05","q":"Signing an email as @@:","why":"드림 goes after your own name; never 씨 or 님 for yourself."}
 {"id":"office.06","p":"I'll head out first (to the room)","why":"먼저 퇴근하겠습니다 is the set phrase."}
 {"id":"office.07","p":"What time is the meeting?","why":"몇 시예요? = what time is it?"}
-{"id":"office.08","p":"Hello, this is Kii from the marketing team","why":"Team, then your name + 입니다. No 님 for yourself."}
+{"id":"office.08","p":"Hello, this is @@ from the marketing team","why":"Team, then your name + 입니다. No 님 for yourself."}
 {"id":"office.09","p":"Please take a look (email)","why":"부탁드립니다 = (I) humbly request."}
 {"id":"office.10","p":"Good work today (to a senior, after work)","why":"Seniors get the honorific past: 수고하셨습니다."}
 {"id":"office.11","p":"Manager, could you check this?","why":"Titles always take 님."}

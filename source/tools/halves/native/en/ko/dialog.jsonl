@@ -16,9 +16,9 @@
 {"id":"ko.g016","tr":"Do you take cards? / Yes. Insert it here."}
 {"id":"ko.g017","tr":"What's the wifi password? / It's on the receipt."}
 {"id":"ko.g018","tr":"I'm lost. Where is this? / This is Hongdae. Where are you going?"}
-{"id":"ko.g019","tr":"What's your name? / I'm Kii. What's yours?"}
+{"id":"ko.g019","tr":"What's your name? / I'm @@. What's yours?"}
 {"id":"ko.g020","tr":"Nice to meet you. / Nice to meet you too."}
-{"id":"ko.g021","tr":"Where are you from? / From the US. Oklahoma."}
+{"id":"ko.g021","tr":"Where are you from? / From the Philippines. Cebu."}
 {"id":"ko.g022","tr":"Excuse me, how old are you? / 28. And you?"}
 {"id":"ko.g023","tr":"What do you do? / I work at an IT company."}
 {"id":"ko.g024","tr":"Do you study Korean? / Yes, a little every day."}
@@ -147,3 +147,55 @@
 {"id":"ko.g147","tr":"Unni, how's this? / It suits you. Buy it."}
 {"id":"ko.g148","tr":"Do you have siblings? / Yes, one younger sibling."}
 {"id":"ko.g149","tr":"Teacher, I have a question. / Yes, go ahead."}
+{"id":"ko.g150","tr":"That restaurant is closed on Mondays. / Ah, really? Then let's go on Tuesday."}
+{"id":"ko.g151","tr":"This is a cake I made. / Wow, it's really pretty!"}
+{"id":"ko.g152","tr":"Minsu, I'm here. / Oh, you're here? Come in."}
+{"id":"ko.g153","tr":"Want to have lunch tomorrow? / Yeah, sure. What time?"}
+{"id":"ko.g154","tr":"What do you want to eat? / Hmm… bibimbap today."}
+{"id":"ko.g155","tr":"I bought this with my first paycheck. / Oh, nice!"}
+{"id":"ko.g156","tr":"This is Namsan Tower. / Whoa, you can see all of Seoul!"}
+{"id":"ko.g157","tr":"I'm getting married next month. / Oh my, really? Congratulations!"}
+{"id":"ko.g158","tr":"Ouch! I banged my hand on the door. / Are you OK? Let me see."}
+{"id":"ko.g159","tr":"Your face has gone red! / Oh, come on, stop looking."}
+{"id":"ko.g160","tr":"Do you think this movie will be good? / Well, I'm not sure."}
+{"id":"ko.g161","tr":"I saw BTS yesterday. / Come on, no way!"}
+{"id":"ko.g162","tr":"They say there's no team dinner today. / Yes! I'm going home early."}
+{"id":"ko.g163","tr":"It's already eleven. / Yikes, I have to hurry!"}
+{"id":"ko.g164","tr":"Oops, I spilled the coffee! / It's fine, I'll wipe it up."}
+{"id":"ko.g165","tr":"Did you bring an umbrella? / Oh no, I left it at home."}
+{"id":"ko.g166","tr":"Is your exam over? / Yes, phew, now I need some rest."}
+{"id":"ko.g167","tr":"Overtime again today? / Sigh, yes. There's too much work."}
+{"id":"ko.g168","tr":"Shh, the baby is sleeping. / Oh, sorry. I'll be quiet."}
+{"id":"ko.g169","tr":"Right, shall we start now? / Yes, let's start!"}
+{"id":"ko.g170","tr":"Hello? Is that Minji? / Yes, it's me. What's up?"}
+{"id":"ko.g171","tr":"This bag is a million won. / Oh my god, that's way too expensive!"}
+{"id":"ko.g172","tr":"Boo! / Ah, you scared me! That made me jump."}
+{"id":"ko.g173","tr":"Aaah, a bug! / Stay still. I'll get it."}
+{"id":"ko.g174","tr":"Ta-da! It's your birthday present. / Wow, thank you! What is it?"}
+{"id":"ko.g175","tr":"This milk is past its date. / Yuck, I already drank some!"}
+{"id":"ko.g176","tr":"You look even prettier today. / Really? I changed my hair a bit."}
+{"id":"ko.g177","tr":"My name is Haneul. / Even your name is pretty."}
+{"id":"ko.g178","tr":"Why are you so cute? / Oh, stop joking."}
+{"id":"ko.g179","tr":"You're even better-looking in person. / Haha, I guess my photos don't do me justice."}
+{"id":"ko.g180","tr":"You look cool when you're working. / Out of nowhere? Thank you."}
+{"id":"ko.g181","tr":"You have a pretty smile. / Thank you. That's the first time I've heard that."}
+{"id":"ko.g182","tr":"Your eye smile is really pretty. / Oh, come on, I'm embarrassed."}
+{"id":"ko.g183","tr":"What's the occasion? You actually called. / I just wanted to hear your voice."}
+{"id":"ko.g184","tr":"What do you think of me? / Honestly, you're totally my type."}
+{"id":"ko.g185","tr":"What's your ideal type? / Hmm… someone who laughs a lot."}
+{"id":"ko.g186","tr":"I liked my first impression of you. / Me too. I felt comfortable from the start."}
+{"id":"ko.g187","tr":"Have you eaten? / Not yet. Want to eat together?"}
+{"id":"ko.g188","tr":"Want to come up for some ramyeon? / Haha, that's the line from the movie, right? I'm heading home tonight."}
+{"id":"ko.g189","tr":"Want to have dinner together this weekend? / Sure, when shall we meet?"}
+{"id":"ko.g190","tr":"I had a great time today. Can I contact you? / Thanks for the thought, but I'm fine."}
+{"id":"ko.g191","tr":"Can I see you again? / Sorry, but I'm seeing someone."}
+{"id":"ko.g192","tr":"After class, I'll buy you a coffee. / You're a lovely person, but I'd like to stay friends."}
+{"id":"ko.g193","tr":"The food is really delicious. / Oh, it's nothing special. Eat plenty."}
+{"id":"ko.g194","tr":"How did you make this? / It's easy. I'll show you next time."}
+{"id":"ko.g195","tr":"You're really good at this. / Oh no, I still have a long way to go."}
+{"id":"ko.g196","tr":"I read your report. You're so thorough. / Thanks for seeing it that way."}
+{"id":"ko.g197","tr":"You're forty? You look so young for your age. / You're praising me too much."}
+{"id":"ko.g198","tr":"Your child is so cute. / Thank you. At home he's a little troublemaker."}
+{"id":"ko.g199","tr":"That outfit suits you. / Thank you for the compliment."}
+{"id":"ko.g200","tr":"Your pronunciation is really good. / Oh no. It's all thanks to my teacher."}
+{"id":"ko.g201","tr":"I learned a lot from your presentation today. / Don't mention it. Thanks for listening."}

@@ -6,10 +6,10 @@
 {"id":"ko.s0006","gloss":"Gracias (informal)"}
 {"id":"ko.s0007","gloss":"Eres tierno/a (cortés)"}
 {"id":"ko.s0008","gloss":"Eres tierno/a (informal)"}
-{"id":"ko.s0295","gloss":"Hola. Soy Kii."}
+{"id":"ko.s0297","gloss":"Hola. Soy @@."}
 {"id":"ko.s0010","gloss":"Mucho gusto"}
 {"id":"ko.s0011","gloss":"¿De dónde eres?"}
-{"id":"ko.s0012","gloss":"Soy de Estados Unidos"}
+{"id":"ko.s0298","gloss":"Soy de México"}
 {"id":"ko.s0013","gloss":"¿A qué te dedicas?"}
 {"id":"ko.s0014","gloss":"Estudio coreano"}
 {"id":"ko.s0015","gloss":"¿Cuántos años tienes?"}
@@ -124,7 +124,7 @@
 {"id":"ko.s0124","gloss":"Tomo café en la mañana"}
 {"id":"ko.s0125","gloss":"Descanso en casa"}
 {"id":"ko.s0126","gloss":"Estudio en una cafetería"}
-{"id":"ko.s0127","gloss":"Vine de Estados Unidos"}
+{"id":"ko.s0299","gloss":"Vine de Canadá"}
 {"id":"ko.s0128","gloss":"En cuanto a mí, soy estudiante"}
 {"id":"ko.s0129","gloss":"¿Quién vino? Vino mi amigo (información nueva → 가)"}
 {"id":"ko.s0130","gloss":"No voy"}
@@ -286,9 +286,9 @@
 {"id":"ko.s0286","gloss":"Ánimo con el trabajo (a quien se queda trabajando, cuando te vas)"}
 {"id":"ko.s0287","gloss":"Gracias por su trabajo de hoy (a un superior, al salir)"}
 {"id":"ko.s0288","gloss":"Buen trabajo (a alguien de menor rango o a un igual)"}
-{"id":"ko.s0289","gloss":"Hola, soy Kii, del equipo de marketing"}
+{"id":"ko.s0300","gloss":"Hola, soy @@, del equipo de marketing"}
 {"id":"ko.s0290","gloss":"Le escribo por el informe"}
 {"id":"ko.s0291","gloss":"Le pido que lo revise, por favor"}
-{"id":"ko.s0292","gloss":"Gracias. Kii"}
+{"id":"ko.s0301","gloss":"Gracias. @@"}
 {"id":"ko.s0293","gloss":"Acepte una copa, por favor (al servirle a un superior)"}
 {"id":"ko.s0294","gloss":"Tengo que manejar, así que (no, gracias)"}

@@ -50,6 +50,8 @@ const STROKE_RX = /<div class="sgl" data-replay="1"><div class="k">([^<]+)<\/div
   const deckId = {}; deckNames.forEach(k => { const id = 'ko.d.' + slug(k); if (Object.values(deckId).includes(id)) throw new Error('deck slug clash: ' + k); deckId[k] = id; });
   const cardA = Alloc('ko.c', 4, path.join(T, 'cards.jsonl'), r => r.ko);
   const tCards = [], nCards = [], cardByKo = {};
+  /* the learner-name token @@ (HALVES-SPEC §5) may not sit in a card front or its romanisation: fronts are progress keys and DIALOG / EXAMPLES keys */
+  deckNames.forEach(k => d.DECKS[k].forEach(c => { if (/@@/.test(c[0] + c[1])) throw new Error('learner-name token @@ in a card front: ' + c[0]); }));
   deckNames.forEach(k => d.DECKS[k].forEach(c => { const id = cardA(c[0]); if (cardByKo[c[0]]) throw new Error('duplicate card text ' + c[0]); cardByKo[c[0]] = id; tCards.push({ id, deck: deckId[k], ko: c[0], rom: c[1] }); nCards.push({ id, meaning: c[2], note: c[3] }); }));
   const tDecks = deckNames.map(k => ({ id: deckId[k] })), nDecks = deckNames.map(k => ({ id: deckId[k], label: k, desc: d.DESC[k] == null ? '' : d.DESC[k] }));
   Object.keys(d.DESC).forEach(k => { if (!deckId[k] && k !== MY) throw new Error('DESC for unknown deck ' + k); });
@@ -118,6 +120,7 @@ const STROKE_RX = /<div class="sgl" data-replay="1"><div class="k">([^<]+)<\/div
     tPr.push(t); nPr.push(n);
   }));
 
+  if (/@@/.test(JSON.stringify([d.PAIRS, d.PAUSE, d.TITLES, d.GREET]))) throw new Error('learner-name token @@ in pairs / pause / titles / greetings: the runtime does not substitute it there');
   /* ---------- small pack-level tables ---------- */
   const labels = [];
   const titles = d.TITLES.map(t => { const id = 'ko.t' + pad(t[0], 2); labels.push({ id, text: t[2] }); return { id, level: t[0], ko: t[1] }; });

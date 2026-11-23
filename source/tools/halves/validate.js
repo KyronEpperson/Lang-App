@@ -47,6 +47,8 @@ function checkText(where, f, v, ref, row) {
   const us = s => (String(s).match(/_{2,}/g) || []).join(' ');
   if (us(v) !== us(ref)) err(where + '.' + f, 'blank placeholder (__ / ___) changed: "' + us(ref) + '" → "' + us(v) + '"');
   if (/\{\{|\}\}/.test(v) || /\{\{|\}\}/.test(ref) && f !== 'body') err(where + '.' + f, 'token braces {{ }} are not allowed in this field');
+  const nameN = x => (String(x).match(/@@/g) || []).length; /* learner-name token (HALVES-SPEC §5): keep it exactly as often as the English */
+  if (nameN(v) !== nameN(ref)) err(where + '.' + f, 'learner-name token @@: ' + nameN(ref) + ' in English, ' + nameN(v) + ' here');
   if (/[\u0000-\u0008\u000b\u000c\u000e-\u001f]/.test(v)) err(where + '.' + f, 'control character');
   if (v !== v.trim()) warn(where + '.' + f, 'leading/trailing space');
 }

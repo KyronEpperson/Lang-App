@@ -539,10 +539,10 @@ LANGAPP_PACKS.course['es-ko'] = {
     "에서 = de. 어디 = dónde."
    ],
    [
-    "미국에서 왔어요",
-    "migugeseo wasseoyo",
-    "Soy de Estados Unidos",
-    "미국 = Estados Unidos. 한국 Corea, 영국 Reino Unido, 캐나다 Canadá, 멕시코 México."
+    "___에서 왔어요",
+    "___eseo wasseoyo",
+    "Soy de ___",
+    "País + 에서 왔어요: 미국에서, 멕시코에서, 필리핀에서, 일본에서 왔어요. Todos los países están en el mazo Países."
    ],
    [
     "몇 살이에요?",
@@ -629,6 +629,12 @@ LANGAPP_PACKS.course['es-ko'] = {
     "yeongeo hal su isseoyo?",
     "¿Puedes hablar inglés?",
     "할 수 있다 = poder (hacer algo). Útil cuando el coreano no alcanza."
+   ],
+   [
+    "___ 할 수 있어요?",
+    "___ hal su isseoyo?",
+    "¿Hablas ___?",
+    "Idioma + 할 수 있어요?: 영어, 스페인어, 중국어 할 수 있어요? Casi todos los idiomas son el nombre del país + 어 (mira el mazo Países); el inglés es 영어."
    ],
    [
     "이게 뭐예요?",
@@ -3852,7 +3858,7 @@ LANGAPP_PACKS.course['es-ko'] = {
     "사람",
     "saram",
     "persona",
-    "한국 사람 = coreano (persona). 미국 사람 = estadounidense."
+    "한국 사람 = coreano, 미국 사람 = estadounidense, 멕시코 사람 = mexicano: país + 사람."
    ]
   ],
   "Adjetivos": [
@@ -4002,6 +4008,4658 @@ LANGAPP_PACKS.course['es-ko'] = {
     "¿Qué dijiste?",
     "Informal. 네? (ne?) es el «¿perdón?» cortés."
    ]
+  ],
+  "Sustantivos clave": [
+   [
+    "것",
+    "geot",
+    "cosa; lo que…",
+    "Nunca va solo: 이것 = esta cosa, 좋은 것 = uno bueno. Hablado: 거."
+   ],
+   [
+    "수",
+    "su",
+    "manera; posibilidad (en -ㄹ 수 있다)",
+    "갈 수 있어요 = puedo ir. Nunca va solo."
+   ],
+   [
+    "거",
+    "geo",
+    "cosa (forma hablada de 것)",
+    "이거, 제 거 = lo mío. Es lo que la gente dice de verdad."
+   ],
+   [
+    "말",
+    "mal",
+    "palabras; lo que alguien dice",
+    "말이 빨라요 = hablas rápido. 말 también significa caballo."
+   ],
+   [
+    "일",
+    "il",
+    "trabajo; asunto",
+    "일이 많아요 = tengo mucho trabajo. También: día (contador) y uno (sinocoreano)."
+   ],
+   [
+    "때",
+    "ttae",
+    "momento (cuando pasa algo)",
+    "어릴 때 = cuando era pequeño; 그때 = en ese entonces."
+   ],
+   [
+    "문제",
+    "munje",
+    "problema; pregunta (de un examen)",
+    "문제없어요 = no hay problema."
+   ],
+   [
+    "속",
+    "sok",
+    "el interior (muy adentro)",
+    "마음속 = en el fondo del corazón; 물속 = bajo el agua."
+   ],
+   [
+    "중",
+    "jung",
+    "medio; en medio de",
+    "회의 중이에요 = estoy en una reunión."
+   ],
+   [
+    "생각",
+    "saenggak",
+    "pensamiento; idea",
+    "좋은 생각이에요 = buena idea. Verbo: 생각하다."
+   ],
+   [
+    "소리",
+    "sori",
+    "sonido; ruido",
+    "무슨 소리예요? = ¿qué es ese ruido? (también: ¡qué tontería!)"
+   ],
+   [
+    "정도",
+    "jeongdo",
+    "grado; más o menos (una cantidad)",
+    "한 시간 정도 = más o menos una hora."
+   ],
+   [
+    "아이",
+    "ai",
+    "niño, niña",
+    "Hablado: 애. Para el hijo de otra persona (cortés): 아드님 / 따님."
+   ],
+   [
+    "시간",
+    "sigan",
+    "tiempo; horas",
+    "시간 있어요? = ¿estás libre? Para contar: 두 시간 = dos horas."
+   ],
+   [
+    "어머니",
+    "eomeoni",
+    "madre (respetuoso)",
+    "En familia: 엄마. La de otra persona: 어머님."
+   ],
+   [
+    "다음",
+    "daeum",
+    "siguiente; la próxima vez",
+    "다음 주 = la próxima semana; 다음에 봐요 = nos vemos la próxima."
+   ],
+   [
+    "곳",
+    "got",
+    "lugar",
+    "좋은 곳 = un buen lugar. Hablado también: 데."
+   ],
+   [
+    "세계",
+    "segye",
+    "mundo",
+    "세계 여행 = un viaje por el mundo."
+   ],
+   [
+    "돈",
+    "don",
+    "dinero",
+    "돈이 없어요 = no tengo dinero."
+   ],
+   [
+    "날",
+    "nal",
+    "día",
+    "그날 = ese día; 좋은 날 = un buen día."
+   ],
+   [
+    "마음",
+    "maeum",
+    "corazón; mente; sentimientos",
+    "마음에 들어요 = me gusta (me agrada)."
+   ],
+   [
+    "후",
+    "hu",
+    "después; más tarde",
+    "밥 먹은 후에 = después de comer. Igual que 뒤 para el tiempo."
+   ],
+   [
+    "아버지",
+    "abeoji",
+    "padre (respetuoso)",
+    "En familia: 아빠. El de otra persona: 아버님."
+   ],
+   [
+    "몸",
+    "mom",
+    "cuerpo",
+    "몸이 안 좋아요 = no me siento bien."
+   ],
+   [
+    "얼굴",
+    "eolgul",
+    "cara",
+    "얼굴이 빨개요 = tienes la cara roja."
+   ],
+   [
+    "모습",
+    "moseup",
+    "aspecto; cómo se ve alguien",
+    "웃는 모습 = cómo te ves cuando sonríes."
+   ],
+   [
+    "길",
+    "gil",
+    "camino; calle",
+    "길이 막혀요 = hay mucho tráfico."
+   ],
+   [
+    "생활",
+    "saenghwal",
+    "vida diaria",
+    "한국 생활 = la vida en Corea."
+   ],
+   [
+    "방법",
+    "bangbeop",
+    "manera (de hacer algo); método",
+    "좋은 방법 = una buena manera de hacerlo."
+   ],
+   [
+    "처음",
+    "cheoeum",
+    "la primera vez; el principio",
+    "처음이에요 = es mi primera vez."
+   ],
+   [
+    "손",
+    "son",
+    "mano",
+    "손 씻으세요 = lávese las manos."
+   ],
+   [
+    "이야기",
+    "iyagi",
+    "historia; conversación",
+    "Hablado: 얘기. 이야기해요 = hablamos."
+   ],
+   [
+    "회사",
+    "hoesa",
+    "empresa; la oficina",
+    "회사에 가요 = voy al trabajo."
+   ],
+   [
+    "내용",
+    "naeyong",
+    "contenido; de qué trata",
+    "무슨 내용이에요? = ¿de qué trata?"
+   ],
+   [
+    "책",
+    "chaek",
+    "libro",
+    "책을 읽어요. Para contar: 한 권."
+   ],
+   [
+    "점",
+    "jeom",
+    "punto; aspecto",
+    "좋은 점 = un punto a favor; 점 también = un lunar."
+   ],
+   [
+    "나라",
+    "nara",
+    "país",
+    "어느 나라 사람이에요? = ¿de qué país eres?"
+   ],
+   [
+    "학생",
+    "haksaeng",
+    "estudiante",
+    "학생이에요? = ¿eres estudiante?"
+   ],
+   [
+    "이름",
+    "ireum",
+    "nombre",
+    "Cortés para el nombre de un mayor: 성함."
+   ],
+   [
+    "이유",
+    "iyu",
+    "razón; motivo",
+    "이유가 뭐예요? = ¿cuál es el motivo?"
+   ],
+   [
+    "남편",
+    "nampyeon",
+    "esposo",
+    "Los esposos se llaman 여보 o 자기."
+   ],
+   [
+    "밤",
+    "bam",
+    "noche",
+    "오늘 밤 = esta noche. 밤 también significa castaña."
+   ],
+   [
+    "컴퓨터",
+    "keompyuteo",
+    "computadora",
+    "컴퓨터가 고장 났어요 = se dañó la computadora."
+   ],
+   [
+    "머리",
+    "meori",
+    "cabeza; pelo",
+    "머리가 아파요 = me duele la cabeza; 머리 잘랐어요 = me corté el pelo."
+   ],
+   [
+    "아들",
+    "adeul",
+    "hijo",
+    "El hijo de otra persona (cortés): 아드님."
+   ],
+   [
+    "방",
+    "bang",
+    "cuarto; habitación",
+    "제 방 = mi cuarto. También lugares con -방: 노래방, PC방."
+   ],
+   [
+    "끝",
+    "kkeut",
+    "fin; final",
+    "끝났어요 = se acabó."
+   ],
+   [
+    "하늘",
+    "haneul",
+    "cielo",
+    "하늘이 맑아요 = el cielo está despejado."
+   ],
+   [
+    "사랑",
+    "sarang",
+    "amor (sustantivo)",
+    "첫사랑 = primer amor. Verbo: 사랑하다."
+   ],
+   [
+    "전화",
+    "jeonhwa",
+    "llamada; teléfono",
+    "전화해요 = llamo; 전화 왔어요 = te llaman."
+   ],
+   [
+    "맛",
+    "mat",
+    "sabor",
+    "맛이 어때요? = ¿qué tal sabe?"
+   ],
+   [
+    "음식",
+    "eumsik",
+    "comida (un plato, una cocina)",
+    "한국 음식 = comida coreana."
+   ],
+   [
+    "아내",
+    "anae",
+    "esposa",
+    "Informal: 와이프. La de otra persona: 부인."
+   ],
+   [
+    "나이",
+    "nai",
+    "edad",
+    "Cortés: 연세. La edad decide cómo se hablan las personas."
+   ],
+   [
+    "딸",
+    "ttal",
+    "hija",
+    "La hija de otra persona (cortés): 따님."
+   ],
+   [
+    "산",
+    "san",
+    "montaña",
+    "Dos tercios de Corea son montañas: 산에 가요 = vamos de excursión."
+   ],
+   [
+    "문",
+    "mun",
+    "puerta",
+    "문 좀 닫아 주세요."
+   ],
+   [
+    "노래",
+    "norae",
+    "canción",
+    "노래 불러요 = canto."
+   ],
+   [
+    "바다",
+    "bada",
+    "mar; playa",
+    "바다에 가요 = vamos a la playa."
+   ],
+   [
+    "기분",
+    "gibun",
+    "estado de ánimo; cómo te sientes",
+    "기분이 어때요? = ¿cómo te sientes?"
+   ],
+   [
+    "옷",
+    "ot",
+    "ropa",
+    "옷이 예뻐요. Para contar: 한 벌."
+   ],
+   [
+    "꿈",
+    "kkum",
+    "sueño (lo que se sueña)",
+    "꿈을 꿔요 = sueño (dormido)."
+   ],
+   [
+    "물건",
+    "mulgeon",
+    "cosa; objeto (que compras o tienes)",
+    "물건을 사요 = compro cosas."
+   ],
+   [
+    "경험",
+    "gyeongheom",
+    "experiencia",
+    "좋은 경험이었어요 = fue una buena experiencia."
+   ],
+   [
+    "비",
+    "bi",
+    "lluvia",
+    "비가 와요 = está lloviendo (viene la lluvia)."
+   ],
+   [
+    "고향",
+    "gohyang",
+    "tierra natal; pueblo natal",
+    "고향이 어디예요? = ¿de dónde eres originalmente?"
+   ],
+   [
+    "아기",
+    "agi",
+    "bebé",
+    "아기가 자요 = el bebé está durmiendo."
+   ],
+   [
+    "아저씨",
+    "ajeossi",
+    "señor (hombre de mediana edad)",
+    "A taxistas y tenderos. No se lo digas a un hombre joven."
+   ],
+   [
+    "달",
+    "dal",
+    "mes; la luna",
+    "이번 달 = este mes. Para contar: 한 달."
+   ],
+   [
+    "마지막",
+    "majimak",
+    "el último; lo último",
+    "마지막 기회 = la última oportunidad."
+   ],
+   [
+    "건강",
+    "geongang",
+    "salud",
+    "건강하세요 = cuídese mucho (despedida común con los mayores)."
+   ],
+   [
+    "버스",
+    "beoseu",
+    "autobús",
+    "버스 타요 = tomo el autobús."
+   ],
+   [
+    "사진",
+    "sajin",
+    "foto",
+    "사진 찍어도 돼요? = ¿puedo tomar una foto?"
+   ],
+   [
+    "뜻",
+    "tteut",
+    "significado",
+    "이게 무슨 뜻이에요? = ¿qué significa esto?"
+   ],
+   [
+    "자동차",
+    "jadongcha",
+    "carro; auto",
+    "En el día a día: 차, que también significa té."
+   ],
+   [
+    "반",
+    "ban",
+    "mitad; clase (grupo en la escuela)",
+    "한 시 반 = la una y media; 우리 반 = nuestra clase."
+   ],
+   [
+    "가격",
+    "gagyeok",
+    "precio",
+    "Hablado también: 값. 가격이 얼마예요?"
+   ],
+   [
+    "핸드폰",
+    "haendeupon",
+    "celular",
+    "También 휴대폰; informal 폰."
+   ],
+   [
+    "동네",
+    "dongne",
+    "barrio",
+    "우리 동네 = mi barrio."
+   ],
+   [
+    "영어",
+    "yeongeo",
+    "inglés (el idioma)",
+    "영어 선생님 = profesor de inglés."
+   ],
+   [
+    "질문",
+    "jilmun",
+    "pregunta",
+    "질문 있어요 = tengo una pregunta."
+   ],
+   [
+    "부모님",
+    "bumonim",
+    "padres",
+    "Siempre con 님, incluso los tuyos."
+   ],
+   [
+    "가게",
+    "gage",
+    "tienda",
+    "작은 가게 = una tienda pequeña."
+   ],
+   [
+    "날씨",
+    "nalssi",
+    "clima; tiempo (meteorológico)",
+    "날씨가 좋네요."
+   ],
+   [
+    "의사",
+    "uisa",
+    "médico",
+    "Para dirigirte a uno: 선생님."
+   ],
+   [
+    "대답",
+    "daedap",
+    "respuesta",
+    "대답해 주세요 = responda, por favor."
+   ],
+   [
+    "시작",
+    "sijak",
+    "comienzo",
+    "시작이 반이다 = empezar es la mitad del trabajo."
+   ],
+   [
+    "숙제",
+    "sukje",
+    "tarea",
+    "숙제 다 했어요? = ¿terminaste la tarea?"
+   ],
+   [
+    "표",
+    "pyo",
+    "boleto",
+    "표 두 장 = dos boletos."
+   ],
+   [
+    "강아지",
+    "gangaji",
+    "perrito; perro (en el día a día)",
+    "개 es la palabra simple, pero también es un prefijo grosero; 강아지 es segura."
+   ],
+   [
+    "선물",
+    "seonmul",
+    "regalo",
+    "선물이에요 = es un regalo para ti."
+   ],
+   [
+    "지하철",
+    "jihacheol",
+    "metro",
+    "지하철로 가요 = voy en metro."
+   ],
+   [
+    "주말",
+    "jumal",
+    "fin de semana",
+    "주말 잘 보내세요 = que pase un buen fin de semana."
+   ],
+   [
+    "생일",
+    "saengil",
+    "cumpleaños",
+    "생일 축하해요 = feliz cumpleaños."
+   ],
+   [
+    "고양이",
+    "goyangi",
+    "gato",
+    "고양이 키워요 = tengo un gato."
+   ],
+   [
+    "약",
+    "yak",
+    "medicina",
+    "약 먹어요 = tomo medicina (como medicina)."
+   ],
+   [
+    "아줌마",
+    "ajumma",
+    "señora (mujer de mediana edad, informal)",
+    "Puede sonar grosero. Más cortés: 아주머니, o en una tienda 사장님."
+   ],
+   [
+    "주",
+    "ju",
+    "semana",
+    "이번 주 = esta semana; 다음 주 = la próxima semana."
+   ],
+   [
+    "한국어",
+    "hangugeo",
+    "coreano (el idioma)",
+    "Hablado: 한국말."
+   ]
+  ],
+  "Verbos clave": [
+   [
+    "없다",
+    "eopda",
+    "no haber; no tener",
+    "없어요. Lo contrario de 있다. 시간이 없어요 = no tengo tiempo."
+   ],
+   [
+    "되다",
+    "doeda",
+    "llegar a ser; salir bien; estar bien (permitido)",
+    "돼요. 돼요? = ¿se puede? 안 돼요 = no, no se puede."
+   ],
+   [
+    "말하다",
+    "malhada",
+    "hablar; decir",
+    "말해요. A un mayor: 말씀하세요."
+   ],
+   [
+    "받다",
+    "batda",
+    "recibir",
+    "받아요. 전화 받아요 = contesto el teléfono."
+   ],
+   [
+    "나오다",
+    "naoda",
+    "salir (hacia afuera)",
+    "나와요. 결과가 나왔어요 = ya salieron los resultados."
+   ],
+   [
+    "살다",
+    "salda",
+    "vivir",
+    "살아요. La ㄹ cae antes de ㄴ/ㅂ/ㅅ: 사세요, 사는 곳."
+   ],
+   [
+    "생각하다",
+    "saenggakada",
+    "pensar",
+    "생각해요. 그렇게 생각해요 = eso creo."
+   ],
+   [
+    "만들다",
+    "mandeulda",
+    "hacer; fabricar",
+    "만들어요. La ㄹ cae: 만드세요, 만드는 법."
+   ],
+   [
+    "싶다",
+    "sipda",
+    "querer (después de -고)",
+    "싶어요. 먹고 싶어요 = quiero comer. Nunca va solo."
+   ],
+   [
+    "보이다",
+    "boida",
+    "verse; parecer",
+    "보여요. 잘 보여요 = veo bien."
+   ],
+   [
+    "가지다",
+    "gajida",
+    "tener; llevar (poseer)",
+    "가져요. 가지고 가요 = me lo llevo."
+   ],
+   [
+    "지나다",
+    "jinada",
+    "pasar (por); pasar el tiempo",
+    "지나요. 시간이 빨리 지나요."
+   ],
+   [
+    "들다",
+    "deulda",
+    "sostener; levantar; costar",
+    "들어요. La ㄹ cae: 드세요 (pero 드세요 también = coma, por favor)."
+   ],
+   [
+    "버리다",
+    "beorida",
+    "tirar (a la basura)",
+    "버려요. Después de -아/어: 다 먹어 버렸어요 = me lo comí todo (ups)."
+   ],
+   [
+    "시작하다",
+    "sijakada",
+    "empezar",
+    "시작해요. 영화가 시작해요."
+   ],
+   [
+    "들어가다",
+    "deureogada",
+    "entrar",
+    "들어가요. 집에 들어가요 = me voy a casa."
+   ],
+   [
+    "놓다",
+    "nota",
+    "poner; colocar",
+    "놓아요 / 놔요. 여기 놓으세요."
+   ],
+   [
+    "만나다",
+    "mannada",
+    "ver a alguien; encontrarse con",
+    "만나요. Ojo: 친구를 만나요 (을/를, no «con»)."
+   ],
+   [
+    "내다",
+    "naeda",
+    "sacar; pagar",
+    "내요. 제가 낼게요 = yo pago."
+   ],
+   [
+    "쓰다",
+    "sseuda",
+    "escribir; usar",
+    "써요 (la ㅡ cae). También: ponerse (un sombrero), saber amargo."
+   ],
+   [
+    "듣다",
+    "deutda",
+    "escuchar; oír",
+    "들어요. Irregular en ㄷ: ㄷ → ㄹ antes de vocal."
+   ],
+   [
+    "찾다",
+    "chatda",
+    "buscar; encontrar",
+    "찾아요. 돈 찾아요 = saco dinero."
+   ],
+   [
+    "나가다",
+    "nagada",
+    "salir; irse",
+    "나가요. 오늘 나가요? = ¿sales hoy?"
+   ],
+   [
+    "사다",
+    "sada",
+    "comprar",
+    "사요. 제가 살게요 = yo invito."
+   ],
+   [
+    "잡다",
+    "japda",
+    "atrapar; sujetar; agarrar",
+    "잡아요. 택시를 잡아요 = paro un taxi."
+   ],
+   [
+    "서다",
+    "seoda",
+    "pararse; detenerse",
+    "서요. 줄을 서요 = hago fila."
+   ],
+   [
+    "읽다",
+    "ikda",
+    "leer",
+    "읽어요. Se dice [익따]; 책 읽어요."
+   ],
+   [
+    "일어나다",
+    "ireonada",
+    "levantarse; despertarse",
+    "일어나요. 일곱 시에 일어나요."
+   ],
+   [
+    "넣다",
+    "neota",
+    "meter; poner dentro",
+    "넣어요. 설탕 넣어 주세요."
+   ],
+   [
+    "느끼다",
+    "neukkida",
+    "sentir",
+    "느껴요. 행복을 느껴요."
+   ],
+   [
+    "부르다",
+    "bureuda",
+    "llamar; cantar",
+    "불러요. Irregular en 르: 르 → ㄹㄹ antes de 아/어."
+   ],
+   [
+    "죽다",
+    "jukda",
+    "morir",
+    "죽어요. Cortés al hablar de personas: 돌아가시다. También en jerga: 배고파 죽겠어 = me muero de hambre."
+   ],
+   [
+    "내리다",
+    "naerida",
+    "bajarse; caer (lluvia, nieve)",
+    "내려요. 다음 역에서 내려요."
+   ],
+   [
+    "짓다",
+    "jitda",
+    "construir; hacer (un nombre, arroz)",
+    "지어요. Irregular en ㅅ: la ㅅ cae antes de vocal."
+   ],
+   [
+    "사용하다",
+    "sayonghada",
+    "usar",
+    "사용해요. En el habla diaria se prefiere 쓰다."
+   ],
+   [
+    "타다",
+    "tada",
+    "subirse; ir en (un vehículo)",
+    "타요. 버스를 타요 (을/를)."
+   ],
+   [
+    "보내다",
+    "bonaeda",
+    "enviar; pasar (el tiempo)",
+    "보내요. 주말 잘 보내세요 = que pase un buen fin de semana."
+   ],
+   [
+    "다니다",
+    "danida",
+    "ir con regularidad; asistir",
+    "다녀요. 회사에 다녀요 = trabajo en una empresa."
+   ],
+   [
+    "열다",
+    "yeolda",
+    "abrir",
+    "열어요. La ㄹ cae: 여세요, 여는 시간."
+   ],
+   [
+    "돌아오다",
+    "doraoda",
+    "volver; regresar",
+    "돌아와요. 언제 돌아와요?"
+   ],
+   [
+    "묻다",
+    "mutda",
+    "preguntar",
+    "물어요. Irregular en ㄷ. 길을 물어봐요 = pregunto el camino."
+   ],
+   [
+    "남다",
+    "namda",
+    "sobrar; quedar",
+    "남아요. 시간이 좀 남았어요."
+   ],
+   [
+    "나다",
+    "nada",
+    "salir; brotar (ocurrir)",
+    "나요. 생각이 나요 = me viene a la mente; 냄새가 나요 = huele."
+   ],
+   [
+    "웃다",
+    "utda",
+    "reír; sonreír",
+    "웃어요. Regular (no es irregular en ㅅ)."
+   ],
+   [
+    "기다리다",
+    "gidarida",
+    "esperar",
+    "기다려요. 잠깐만 기다려 주세요."
+   ],
+   [
+    "입다",
+    "ipda",
+    "ponerse; llevar puesto (ropa)",
+    "입어요. Regular (no es irregular en ㅂ). Sombreros: 쓰다; zapatos: 신다."
+   ],
+   [
+    "끝나다",
+    "kkeunnada",
+    "terminar; acabarse",
+    "끝나요. 수업이 끝났어요."
+   ],
+   [
+    "걸리다",
+    "geollida",
+    "tardar (tiempo); agarrar (un resfriado)",
+    "걸려요. 감기에 걸렸어요."
+   ],
+   [
+    "오르다",
+    "oreuda",
+    "subir",
+    "올라요. Irregular en 르. 가격이 올랐어요."
+   ],
+   [
+    "믿다",
+    "mitda",
+    "creer; confiar",
+    "믿어요. 저를 믿으세요."
+   ],
+   [
+    "바꾸다",
+    "bakkuda",
+    "cambiar; intercambiar",
+    "바꿔요. 자리 바꿀까요? = ¿cambiamos de lugar?"
+   ],
+   [
+    "배우다",
+    "baeuda",
+    "aprender",
+    "배워요. 한국어를 배워요."
+   ],
+   [
+    "돕다",
+    "dopda",
+    "ayudar",
+    "도와요. Irregular en ㅂ (aquí ㅂ → 오). Para pedir: 도와주세요."
+   ],
+   [
+    "이야기하다",
+    "iyagihada",
+    "hablar; conversar",
+    "이야기해요. Hablado: 얘기해요."
+   ],
+   [
+    "자다",
+    "jada",
+    "dormir",
+    "자요. A un mayor: 주무세요."
+   ],
+   [
+    "걷다",
+    "geotda",
+    "caminar",
+    "걸어요. Irregular en ㄷ: ㄷ → ㄹ antes de vocal."
+   ],
+   [
+    "울다",
+    "ulda",
+    "llorar",
+    "울어요. La ㄹ cae: 우세요, 우는 아이."
+   ],
+   [
+    "지내다",
+    "jinaeda",
+    "llevarse; pasar los días",
+    "지내요. 잘 지냈어요? = ¿cómo has estado?"
+   ],
+   [
+    "팔다",
+    "palda",
+    "vender",
+    "팔아요. La ㄹ cae: 파세요, 파는 곳."
+   ],
+   [
+    "태어나다",
+    "taeeonada",
+    "nacer",
+    "태어나요. 서울에서 태어났어요."
+   ],
+   [
+    "가르치다",
+    "gareuchida",
+    "enseñar",
+    "가르쳐요. 영어를 가르쳐요."
+   ],
+   [
+    "시키다",
+    "sikida",
+    "pedir (comida); hacer que alguien haga algo",
+    "시켜요. 치킨 시킬까요? = ¿pedimos pollo?"
+   ],
+   [
+    "원하다",
+    "wonhada",
+    "querer; desear",
+    "원해요. Formal; en el día a día se usa -고 싶다."
+   ],
+   [
+    "잊다",
+    "itda",
+    "olvidar",
+    "잊어요. Hablado, más a menudo: 잊어버리다."
+   ],
+   [
+    "노력하다",
+    "noryeokada",
+    "esforzarse",
+    "노력해요. 더 노력할게요."
+   ],
+   [
+    "씻다",
+    "ssitda",
+    "lavar (te, la comida)",
+    "씻어요. 손 씻어요."
+   ],
+   [
+    "싸우다",
+    "ssauda",
+    "pelear; discutir",
+    "싸워요. 친구랑 싸웠어요."
+   ],
+   [
+    "전화하다",
+    "jeonhwahada",
+    "llamar (por teléfono)",
+    "전화해요. 이따 전화할게요 = te llamo más tarde."
+   ],
+   [
+    "준비하다",
+    "junbihada",
+    "preparar; prepararse",
+    "준비해요. 준비됐어요? = ¿estás listo?"
+   ],
+   [
+    "결혼하다",
+    "gyeolhonhada",
+    "casarse",
+    "결혼해요. 결혼했어요? = ¿estás casado?"
+   ],
+   [
+    "찍다",
+    "jjikda",
+    "tomar (una foto); sellar",
+    "찍어요. 사진 찍어 주세요."
+   ],
+   [
+    "도착하다",
+    "dochakada",
+    "llegar",
+    "도착해요. 몇 시에 도착해요?"
+   ],
+   [
+    "빌리다",
+    "billida",
+    "pedir prestado; rentar",
+    "빌려요. 책 빌려도 돼요? Prestar: 빌려주다."
+   ],
+   [
+    "고르다",
+    "goreuda",
+    "elegir; escoger",
+    "골라요. Irregular en 르."
+   ],
+   [
+    "낫다",
+    "natda",
+    "mejorarse (de salud)",
+    "나아요. Irregular en ㅅ. 빨리 나으세요 = que se mejore pronto."
+   ],
+   [
+    "기억하다",
+    "gieokada",
+    "recordar",
+    "기억해요. 저 기억하세요? = ¿se acuerda de mí?"
+   ],
+   [
+    "닫다",
+    "datda",
+    "cerrar",
+    "닫아요. Regular, a diferencia de 듣다 / 걷다."
+   ],
+   [
+    "출발하다",
+    "chulbalhada",
+    "salir; partir",
+    "출발해요. 지금 출발해요."
+   ],
+   [
+    "켜다",
+    "kyeoda",
+    "encender; prender",
+    "켜요. 불 좀 켜 주세요 = prenda la luz, por favor."
+   ],
+   [
+    "끄다",
+    "kkeuda",
+    "apagar",
+    "꺼요 (la ㅡ cae). 핸드폰 꺼 주세요."
+   ],
+   [
+    "좋아지다",
+    "joajida",
+    "mejorar",
+    "좋아져요. 날씨가 좋아졌어요."
+   ]
+  ],
+  "Adjetivos clave": [
+   [
+    "같다",
+    "gatda",
+    "ser igual; ser como",
+    "같아요 · antes de un sustantivo: 같은. 같은 반 = la misma clase."
+   ],
+   [
+    "그렇다",
+    "geureota",
+    "ser así",
+    "그래요 · 그런 (irregular en ㅎ). 그래요? = ¿de verdad?"
+   ],
+   [
+    "어떻다",
+    "eotteota",
+    "ser cómo (¿cómo es?)",
+    "어때요? · 어떤 (irregular en ㅎ). 날씨 어때요?"
+   ],
+   [
+    "이렇다",
+    "ireota",
+    "ser así (como esto)",
+    "이래요 · 이런 (irregular en ㅎ). 왜 이래요? = ¿qué te pasa?"
+   ],
+   [
+    "다르다",
+    "dareuda",
+    "ser diferente",
+    "달라요 · 다른 (irregular en 르)."
+   ],
+   [
+    "새롭다",
+    "saeropda",
+    "ser nuevo; ser fresco (sentirse nuevo)",
+    "새로워요 · 새로운 (irregular en ㅂ). Para cosas: 새 (nuevo)."
+   ],
+   [
+    "중요하다",
+    "jungyohada",
+    "ser importante",
+    "중요해요 · 중요한."
+   ],
+   [
+    "어렵다",
+    "eoryeopda",
+    "ser difícil",
+    "어려워요 · 어려운 (irregular en ㅂ). 한국어 어려워요?"
+   ],
+   [
+    "쉽다",
+    "swipda",
+    "ser fácil",
+    "쉬워요 · 쉬운 (irregular en ㅂ)."
+   ],
+   [
+    "필요하다",
+    "piryohada",
+    "ser necesario; necesitar",
+    "필요해요 · 필요한. 뭐가 필요해요? = ¿qué necesitas?"
+   ],
+   [
+    "높다",
+    "nopda",
+    "ser alto (edificios)",
+    "높아요 · 높은. Las personas son 키가 커요, no 높아요."
+   ],
+   [
+    "길다",
+    "gilda",
+    "ser largo",
+    "길어요 · 긴 (la ㄹ cae)."
+   ],
+   [
+    "젊다",
+    "jeomda",
+    "ser joven",
+    "젊어요 · 젊은. Se dice [점따]."
+   ],
+   [
+    "아프다",
+    "apeuda",
+    "estar enfermo; doler",
+    "아파요 · 아픈 (la ㅡ cae). 어디 아파요?"
+   ],
+   [
+    "적다",
+    "jeokda",
+    "ser poco; ser escaso",
+    "적어요 · 적은. Lo contrario de 많다."
+   ],
+   [
+    "빠르다",
+    "ppareuda",
+    "ser rápido",
+    "빨라요 · 빠른 (irregular en 르)."
+   ],
+   [
+    "넓다",
+    "neolda",
+    "ser ancho; ser amplio",
+    "넓어요 · 넓은. Se dice [널따]."
+   ],
+   [
+    "이상하다",
+    "isanghada",
+    "ser raro; ser extraño",
+    "이상해요 · 이상한."
+   ],
+   [
+    "비슷하다",
+    "biseutada",
+    "ser parecido",
+    "비슷해요 · 비슷한."
+   ],
+   [
+    "짧다",
+    "jjalda",
+    "ser corto (largo, tiempo)",
+    "짧아요 · 짧은. Una persona bajita: 키가 작아요."
+   ],
+   [
+    "고맙다",
+    "gomapda",
+    "estar agradecido",
+    "고마워요 · 고마운 (irregular en ㅂ). Más cálido y menos formal que 감사합니다."
+   ],
+   [
+    "따뜻하다",
+    "ttatteutada",
+    "ser cálido; estar tibio",
+    "따뜻해요 · 따뜻한. También para personas: alguien cálido."
+   ],
+   [
+    "낮다",
+    "natda",
+    "ser bajo",
+    "낮아요 · 낮은."
+   ],
+   [
+    "즐겁다",
+    "jeulgeopda",
+    "ser divertido; ser agradable",
+    "즐거워요 · 즐거운 (irregular en ㅂ). 즐거운 주말 보내세요."
+   ],
+   [
+    "무섭다",
+    "museopda",
+    "dar miedo; tener miedo",
+    "무서워요 · 무서운 (irregular en ㅂ)."
+   ],
+   [
+    "가볍다",
+    "gabyeopda",
+    "ser ligero (de peso)",
+    "가벼워요 · 가벼운 (irregular en ㅂ)."
+   ],
+   [
+    "건강하다",
+    "geonganghada",
+    "estar sano",
+    "건강해요 · 건강한."
+   ],
+   [
+    "밝다",
+    "bakda",
+    "ser luminoso",
+    "밝아요 · 밝은. Se dice [박따]. También: alegre (una persona)."
+   ],
+   [
+    "편하다",
+    "pyeonhada",
+    "ser cómodo; ser práctico",
+    "편해요 · 편한."
+   ],
+   [
+    "깨끗하다",
+    "kkaekkeutada",
+    "estar limpio",
+    "깨끗해요 · 깨끗한."
+   ],
+   [
+    "어둡다",
+    "eodupda",
+    "ser oscuro",
+    "어두워요 · 어두운 (irregular en ㅂ)."
+   ],
+   [
+    "미안하다",
+    "mianhada",
+    "sentirlo; estar apenado",
+    "미안해요 · 미안한. Disculpa formal: 죄송합니다."
+   ],
+   [
+    "유명하다",
+    "yumyeonghada",
+    "ser famoso",
+    "유명해요 · 유명한."
+   ],
+   [
+    "기쁘다",
+    "gippeuda",
+    "estar contento; alegrarse",
+    "기뻐요 · 기쁜 (la ㅡ cae)."
+   ],
+   [
+    "무겁다",
+    "mugeopda",
+    "ser pesado",
+    "무거워요 · 무거운 (irregular en ㅂ)."
+   ],
+   [
+    "특별하다",
+    "teukbyeolhada",
+    "ser especial",
+    "특별해요 · 특별한."
+   ],
+   [
+    "뜨겁다",
+    "tteugeopda",
+    "estar caliente (al tacto)",
+    "뜨거워요 · 뜨거운 (irregular en ㅂ). El calor del clima es 덥다."
+   ],
+   [
+    "친절하다",
+    "chinjeolhada",
+    "ser amable (servicial)",
+    "친절해요 · 친절한. Para el personal o desconocidos."
+   ],
+   [
+    "좁다",
+    "jopda",
+    "ser estrecho; estar apretado",
+    "좁아요 · 좁은."
+   ],
+   [
+    "불편하다",
+    "bulpyeonhada",
+    "ser incómodo; ser poco práctico",
+    "불편해요 · 불편한."
+   ],
+   [
+    "시원하다",
+    "siwonhada",
+    "ser fresco; ser refrescante",
+    "시원해요 · 시원한. También se dice de una sopa caliente: «ah, qué rico, me reconforta»."
+   ],
+   [
+    "반갑다",
+    "bangapda",
+    "alegrarse (de ver a alguien)",
+    "반가워요 · 반가운 (irregular en ㅂ)."
+   ],
+   [
+    "차갑다",
+    "chagapda",
+    "estar frío (al tacto)",
+    "차가워요 · 차가운 (irregular en ㅂ). El frío del clima es 춥다."
+   ],
+   [
+    "맵다",
+    "maepda",
+    "ser picante",
+    "매워요 · 매운 (irregular en ㅂ)."
+   ],
+   [
+    "달다",
+    "dalda",
+    "ser dulce (sabor)",
+    "달아요 · 단 (la ㄹ cae)."
+   ],
+   [
+    "느리다",
+    "neurida",
+    "ser lento",
+    "느려요 · 느린."
+   ],
+   [
+    "더럽다",
+    "deoreopda",
+    "estar sucio",
+    "더러워요 · 더러운 (irregular en ㅂ)."
+   ],
+   [
+    "시끄럽다",
+    "sikkeureopda",
+    "ser ruidoso",
+    "시끄러워요 · 시끄러운 (irregular en ㅂ)."
+   ],
+   [
+    "하얗다",
+    "hayata",
+    "ser blanco",
+    "하얘요 · 하얀 (irregular en ㅎ)."
+   ],
+   [
+    "짜다",
+    "jjada",
+    "ser salado",
+    "짜요 · 짠."
+   ],
+   [
+    "조용하다",
+    "joyonghada",
+    "ser tranquilo; estar en silencio",
+    "조용해요 · 조용한."
+   ],
+   [
+    "부럽다",
+    "bureopda",
+    "tener envidia (de)",
+    "부러워요 · 부러운 (irregular en ㅂ). 부러워요! = ¡qué suerte tienes!"
+   ],
+   [
+    "빨갛다",
+    "ppalgata",
+    "ser rojo",
+    "빨개요 · 빨간 (irregular en ㅎ)."
+   ],
+   [
+    "배부르다",
+    "baebureuda",
+    "estar lleno (después de comer)",
+    "배불러요 · 배부른 (irregular en 르)."
+   ],
+   [
+    "재미없다",
+    "jaemieopda",
+    "ser aburrido; no ser divertido",
+    "재미없어요 · 재미없는 (있다/없다 llevan -는)."
+   ],
+   [
+    "노랗다",
+    "norata",
+    "ser amarillo",
+    "노래요 · 노란 (irregular en ㅎ). 노래요 también = es una canción."
+   ],
+   [
+    "맛없다",
+    "madeopda",
+    "saber mal",
+    "맛없어요 · 맛없는. Se dice [마덥따]."
+   ],
+   [
+    "까맣다",
+    "kkamata",
+    "ser negro",
+    "까매요 · 까만 (irregular en ㅎ)."
+   ],
+   [
+    "외롭다",
+    "oeropda",
+    "sentirse solo",
+    "외로워요 · 외로운 (irregular en ㅂ)."
+   ],
+   [
+    "파랗다",
+    "parata",
+    "ser azul",
+    "파래요 · 파란 (irregular en ㅎ)."
+   ],
+   [
+    "귀찮다",
+    "gwichanta",
+    "ser una lata; dar pereza",
+    "귀찮아요 · 귀찮은. Muy común en el habla."
+   ]
+  ],
+  "Adverbios clave": [
+   [
+    "안",
+    "an",
+    "no (negación corta)",
+    "Justo antes del verbo: 안 가요. Con verbos con 하다: 공부 안 해요."
+   ],
+   [
+    "더",
+    "deo",
+    "más",
+    "더 주세요 = más, por favor; 조금 더 = un poco más."
+   ],
+   [
+    "잘",
+    "jal",
+    "bien",
+    "잘 자요 = que duermas bien; 잘 몰라요 = no sé bien."
+   ],
+   [
+    "또",
+    "tto",
+    "otra vez; también",
+    "또 봐요 = nos vemos otra vez; 또 늦었어요? = ¿otra vez tarde?"
+   ],
+   [
+    "어떻게",
+    "eotteoke",
+    "cómo",
+    "어떻게 가요? = ¿cómo llego? 어떡해 = ¡ay, no! (de 어떻게 해)."
+   ],
+   [
+    "다시",
+    "dasi",
+    "de nuevo; otra vez",
+    "다시 한번 = una vez más."
+   ],
+   [
+    "다",
+    "da",
+    "todo",
+    "다 먹었어요 = me lo comí todo; 다 왔어요 = ya casi llegamos."
+   ],
+   [
+    "좀",
+    "jom",
+    "un poco; por favor (suavizador)",
+    "좀 도와주세요 suena más suave que 도와주세요. Forma corta de 조금."
+   ],
+   [
+    "함께",
+    "hamkke",
+    "juntos (algo formal)",
+    "En el día a día: 같이. 함께해요 = hagámoslo juntos."
+   ],
+   [
+    "많이",
+    "mani",
+    "mucho",
+    "많이 드세요 = coma bastante (lo dice el anfitrión)."
+   ],
+   [
+    "가장",
+    "gajang",
+    "el más (superlativo)",
+    "가장 좋아하는 = mi favorito. Hablado, más a menudo: 제일."
+   ],
+   [
+    "바로",
+    "baro",
+    "enseguida; justo",
+    "바로 앞 = justo enfrente; 바로 갈게요 = voy enseguida."
+   ],
+   [
+    "모두",
+    "modu",
+    "todos; todo",
+    "모두 같이 = todos juntos."
+   ],
+   [
+    "왜",
+    "wae",
+    "por qué",
+    "왜요? = ¿por qué? Solo suena brusco; agrega 혹시 para suavizarlo."
+   ],
+   [
+    "특히",
+    "teuki",
+    "especialmente",
+    "특히 김치를 좋아해요."
+   ],
+   [
+    "아직",
+    "ajik",
+    "todavía; aún",
+    "아직 안 먹었어요 = todavía no he comido."
+   ],
+   [
+    "같이",
+    "gachi",
+    "juntos",
+    "같이 가요 = vamos juntos. Después de un sustantivo es una partícula: 꽃같이 = como una flor."
+   ],
+   [
+    "못",
+    "mot",
+    "no poder",
+    "Justo antes del verbo: 못 가요 = no puedo ir. 수영 못 해요."
+   ],
+   [
+    "너무",
+    "neomu",
+    "demasiado; tan (muy)",
+    "너무 비싸요 = demasiado caro; 너무 좋아요 = me encanta."
+   ],
+   [
+    "이미",
+    "imi",
+    "ya (hecho antes)",
+    "이미 끝났어요 = ya se acabó."
+   ],
+   [
+    "아주",
+    "aju",
+    "muy",
+    "Neutro. Hablado, más a menudo: 정말, 진짜, 너무."
+   ],
+   [
+    "그냥",
+    "geunyang",
+    "nada más; porque sí",
+    "그냥요 = porque sí; 그냥 그래요 = más o menos."
+   ],
+   [
+    "거의",
+    "geoui",
+    "casi; apenas",
+    "거의 다 왔어요 = ya casi llegamos; 거의 안 먹어요 = casi no como."
+   ],
+   [
+    "곧",
+    "got",
+    "pronto",
+    "곧 도착해요 = llego pronto."
+   ],
+   [
+    "서로",
+    "seoro",
+    "mutuamente; el uno al otro",
+    "서로 도와요 = nos ayudamos."
+   ],
+   [
+    "정말",
+    "jeongmal",
+    "de verdad; realmente",
+    "정말 맛있어요. 정말요? = ¿de verdad?"
+   ],
+   [
+    "혼자",
+    "honja",
+    "solo (sin compañía)",
+    "혼자 왔어요 = vine solo."
+   ],
+   [
+    "이제",
+    "ije",
+    "ahora (de aquí en adelante); por fin",
+    "이제 가요 = ya me voy; 이제 알겠어요 = ahora sí entiendo."
+   ],
+   [
+    "꼭",
+    "kkok",
+    "sin falta",
+    "꼭 오세요 = no deje de venir."
+   ],
+   [
+    "요즘",
+    "yojeum",
+    "estos días; últimamente",
+    "요즘 바빠요?"
+   ],
+   [
+    "계속",
+    "gyesok",
+    "sin parar; seguir (…ando)",
+    "계속 생각나요 = no dejo de pensar en eso."
+   ],
+   [
+    "갑자기",
+    "gapjagi",
+    "de repente",
+    "갑자기 비가 와요."
+   ],
+   [
+    "전혀",
+    "jeonhyeo",
+    "para nada",
+    "Con una negación: 전혀 몰라요."
+   ],
+   [
+    "빨리",
+    "ppalli",
+    "rápido",
+    "빨리 와요 = ven rápido."
+   ],
+   [
+    "훨씬",
+    "hwolssin",
+    "mucho (más)",
+    "Con comparaciones: 훨씬 더 좋아요."
+   ],
+   [
+    "열심히",
+    "yeolsimhi",
+    "con empeño; duro",
+    "열심히 공부해요."
+   ],
+   [
+    "자주",
+    "jaju",
+    "a menudo",
+    "자주 와요? = ¿vienes seguido?"
+   ],
+   [
+    "벌써",
+    "beolsseo",
+    "ya (antes de lo esperado)",
+    "벌써 열 시예요? = ¿ya son las diez?"
+   ],
+   [
+    "제일",
+    "jeil",
+    "el más; el número uno",
+    "제일 좋아요 = es lo mejor."
+   ],
+   [
+    "아마",
+    "ama",
+    "probablemente; quizás",
+    "Muchas veces con -(으)ㄹ 거예요: 아마 비가 올 거예요."
+   ],
+   [
+    "조금",
+    "jogeum",
+    "un poco",
+    "Forma corta hablada: 좀."
+   ],
+   [
+    "항상",
+    "hangsang",
+    "siempre",
+    "Hablado también: 늘, 언제나."
+   ],
+   [
+    "나중에",
+    "najunge",
+    "después; más tarde",
+    "나중에 연락할게요."
+   ],
+   [
+    "별로",
+    "byeollo",
+    "no mucho; no especialmente",
+    "Con una negación: 별로 안 좋아해요. 별로예요 = está más o menos."
+   ],
+   [
+    "가끔",
+    "gakkeum",
+    "a veces",
+    "가끔 만나요."
+   ],
+   [
+    "일찍",
+    "iljjik",
+    "temprano",
+    "일찍 일어나요."
+   ],
+   [
+    "원래",
+    "wollae",
+    "originalmente; normalmente (siempre es así)",
+    "원래 그래요 = siempre es así."
+   ],
+   [
+    "늦게",
+    "neutge",
+    "tarde",
+    "늦게 자요 = me acuesto tarde."
+   ],
+   [
+    "보통",
+    "botong",
+    "normalmente",
+    "보통 몇 시에 자요? También sustantivo: tamaño normal."
+   ],
+   [
+    "혹시",
+    "hoksi",
+    "por casualidad",
+    "Suaviza una pregunta: 혹시 한국 사람이에요?"
+   ],
+   [
+    "되게",
+    "doege",
+    "muy; súper (hablado)",
+    "Informal: 되게 맛있어. No se usa por escrito."
+   ],
+   [
+    "금방",
+    "geumbang",
+    "en un momento; enseguida",
+    "금방 갈게요 = ya voy."
+   ],
+   [
+    "진짜로",
+    "jinjjaro",
+    "en serio; de verdad",
+    "Más fuerte y más informal que 정말."
+   ],
+   [
+    "천천히",
+    "cheoncheonhi",
+    "despacio",
+    "천천히 드세요 = coma con calma."
+   ],
+   [
+    "방금",
+    "banggeum",
+    "hace un momento",
+    "방금 왔어요 = acabo de llegar."
+   ]
+  ],
+  "Pronombres clave": [
+   [
+    "나",
+    "na",
+    "yo; me (informal)",
+    "Con amigos y gente menor. Con 가: 내가. Mi: 내."
+   ],
+   [
+    "우리",
+    "uri",
+    "nosotros; nos; nuestro",
+    "También «mi» para la familia y la casa: 우리 엄마, 우리 집."
+   ],
+   [
+    "씨",
+    "ssi",
+    "señor / señora (después del nombre completo o el nombre de pila)",
+    "El nombre reemplaza al «tú»: 민수 씨, 어디 가요? Nunca después de tu propio nombre ni solo con el apellido."
+   ],
+   [
+    "그것",
+    "geugeot",
+    "eso (cerca de ti o ya mencionado)",
+    "Hablado: 그거. Con 이: 그게."
+   ],
+   [
+    "저",
+    "jeo",
+    "yo; me (cortés, humilde)",
+    "Lo normal con desconocidos. Con 가: 제가. Mi: 제."
+   ],
+   [
+    "제",
+    "je",
+    "mi (cortés)",
+    "저 + 의. 제 이름은 … = mi nombre es …"
+   ],
+   [
+    "자신",
+    "jasin",
+    "uno mismo",
+    "자신 있어요 = tengo confianza. 자신을 사랑하세요."
+   ],
+   [
+    "너",
+    "neo",
+    "tú (informal, a un amigo o a un niño)",
+    "Solo a amigos cercanos o gente menor. Con 가: 네가 (se dice 니가)."
+   ],
+   [
+    "뭐",
+    "mwo",
+    "qué (hablado)",
+    "뭐 해요? = ¿qué haces? Formal: 무엇."
+   ],
+   [
+    "누구",
+    "nugu",
+    "quién",
+    "누구예요? Con 가: 누가 왔어요? = ¿quién vino?"
+   ],
+   [
+    "자기",
+    "jagi",
+    "uno mismo; cariño (entre pareja)",
+    "자기 일 = lo de uno. 자기야 = cariño."
+   ],
+   [
+    "무엇",
+    "mueot",
+    "qué (escrito, formal)",
+    "무엇을 도와드릴까요? = ¿en qué le puedo ayudar?"
+   ],
+   [
+    "그거",
+    "geugeo",
+    "eso (hablado)",
+    "그거 좋네요 = eso está bien / buena idea."
+   ],
+   [
+    "어디",
+    "eodi",
+    "dónde; qué lugar",
+    "어디 가요? (muchas veces es solo un saludo: ¿a dónde vas?)"
+   ],
+   [
+    "이것",
+    "igeot",
+    "esto",
+    "Hablado: 이거. Con 이: 이게."
+   ],
+   [
+    "당신",
+    "dangsin",
+    "usted; tú (entre esposos, en canciones, anuncios)",
+    "Casi no se usa cara a cara: puede sonar frío o empezar una pelea. Usa el nombre o el cargo de la persona."
+   ],
+   [
+    "거기",
+    "geogi",
+    "ahí (cerca de ti, o el lugar mencionado)",
+    "거기 어디예요? = ¿dónde queda ese lugar? Va con 여기 / 저기."
+   ],
+   [
+    "이거",
+    "igeo",
+    "esto (hablado)",
+    "이거 얼마예요? Señala y di 이거 주세요."
+   ],
+   [
+    "내",
+    "nae",
+    "mi (informal)",
+    "나 + 의. 내 친구 = mi amigo."
+   ],
+   [
+    "아무",
+    "amu",
+    "cualquier; cualquiera (+ partícula)",
+    "아무나 = cualquiera; 아무 때나 = cuando sea."
+   ],
+   [
+    "아무도",
+    "amudo",
+    "nadie (con una negación)",
+    "아무도 없어요 = no hay nadie."
+   ],
+   [
+    "저거",
+    "jeogeo",
+    "aquello (hablado)",
+    "저거 뭐예요?"
+   ],
+   [
+    "아무것도",
+    "amugeotdo",
+    "nada (con una negación)",
+    "아무것도 몰라요 = no sé nada."
+   ],
+   [
+    "뭔가",
+    "mwonga",
+    "algo",
+    "뭔가 이상해요 = algo no está bien."
+   ],
+   [
+    "저희",
+    "jeohui",
+    "nosotros (humilde)",
+    "A clientes, mayores, en el trabajo. Rebaja a tu lado, así que nunca incluye a quien escucha."
+   ],
+   [
+    "여러분",
+    "yeoreobun",
+    "todos ustedes",
+    "Para dirigirse a un grupo: 여러분, 안녕하세요!"
+   ],
+   [
+    "누군가",
+    "nugunga",
+    "alguien",
+    "누군가 왔어요 = vino alguien. Hablado: 누가."
+   ],
+   [
+    "저것",
+    "jeogeot",
+    "aquello (allá)",
+    "Hablado: 저거. Con 이: 저게."
+   ],
+   [
+    "이분",
+    "ibun",
+    "esta persona (honorífico)",
+    "Para presentar a alguien: 이분은 김 선생님이세요."
+   ],
+   [
+    "얘",
+    "yae",
+    "este chico; esta persona (informal)",
+    "De 이 아이. Para un amigo que está a tu lado: 얘는 제 친구예요."
+   ],
+   [
+    "이쪽",
+    "ijjok",
+    "por aquí; esta persona (al presentar)",
+    "이쪽으로 오세요 = venga por aquí. 이쪽은 제 동생이에요."
+   ],
+   [
+    "걔",
+    "gyae",
+    "ese chico; él / ella (informal)",
+    "De 그 아이. Forma común de decir «él / ella» entre amigos."
+   ],
+   [
+    "그쪽",
+    "geujjok",
+    "usted (a un desconocido; lit. ese lado)",
+    "Una forma de evitar 너 o 당신 con alguien cuyo nombre no sabes. Puede sonar distante o un poco atrevido."
+   ],
+   [
+    "저쪽",
+    "jeojjok",
+    "por allá",
+    "저쪽에 있어요 = está por allá."
+   ],
+   [
+    "저분",
+    "jeobun",
+    "aquella persona (honorífico)",
+    "저분이 누구세요?"
+   ],
+   [
+    "쟤",
+    "jyae",
+    "aquel chico (informal)",
+    "De 저 아이. No lo uses para hablar de mayores."
+   ],
+   [
+    "어딘가",
+    "eodinga",
+    "en algún lugar",
+    "어딘가에 있을 거예요 = debe estar en algún lado."
+   ],
+   [
+    "그분",
+    "geubun",
+    "esa persona; él / ella (honorífico)",
+    "Para alguien respetado: 그분이 오셨어요."
+   ],
+   [
+    "그",
+    "geu",
+    "él (por escrito)",
+    "Al hablar se usa el nombre de la persona o 그 사람, 걔. 그 también = ese (antes de un sustantivo)."
+   ],
+   [
+    "그녀",
+    "geunyeo",
+    "ella (por escrito)",
+    "Casi nunca se dice. Usa el nombre, 그 사람 o 걔."
+   ]
+  ],
+  "Partículas clave": [
+   [
+    "(으)로",
+    "(eu)ro",
+    "con (un medio); hacia; como",
+    "Después de vocal o ㄹ: 로 (버스로, 지하철로); después de consonante: 으로 (손으로)."
+   ],
+   [
+    "까지",
+    "kkaji",
+    "hasta; incluso",
+    "Igual después de vocal o consonante: 세 시까지, 서울까지."
+   ],
+   [
+    "부터",
+    "buteo",
+    "desde (un momento o punto de inicio)",
+    "아홉 시부터 = desde las nueve. Va con 까지."
+   ],
+   [
+    "요",
+    "yo",
+    "marcador de cortesía (después de cualquier palabra)",
+    "Vuelve cortés una palabra sola: 저도요, 커피요, 왜요?"
+   ],
+   [
+    "한테",
+    "hante",
+    "a (una persona, hablado)",
+    "친구한테 줘요. Solo para personas y animales; los lugares llevan 에."
+   ],
+   [
+    "보다",
+    "boda",
+    "que (en comparaciones)",
+    "Va después de aquello con lo que comparas: 버스보다 빨라요 = más rápido que el autobús."
+   ],
+   [
+    "들",
+    "deul",
+    "marcador de plural (-s)",
+    "친구들 = amigos. Muchas veces se omite: el coreano no necesita plural."
+   ],
+   [
+    "이랑 / 랑",
+    "irang / rang",
+    "y; con (informal)",
+    "Vocal: 랑 (친구랑); consonante: 이랑 (동생이랑). Versión hablada de 하고."
+   ],
+   [
+    "이나 / 나",
+    "ina / na",
+    "o; nada menos que",
+    "Vocal: 나 (커피나 차); consonante: 이나 (빵이나 밥). 두 시간이나 = ¡dos horas enteras!"
+   ],
+   [
+    "에게",
+    "ege",
+    "a (una persona, escrito o cuidadoso)",
+    "Igual que 한테, algo más formal: 선생님에게."
+   ],
+   [
+    "처럼",
+    "cheoreom",
+    "como (parecido a)",
+    "한국 사람처럼 말해요 = hablas como un coreano."
+   ],
+   [
+    "밖에",
+    "bakke",
+    "solo; nada más que (con una negación)",
+    "천 원밖에 없어요 = solo tengo 1000 wones. El verbo tiene que ser negativo."
+   ],
+   [
+    "쯤",
+    "jjeum",
+    "más o menos; alrededor de (hora o cantidad)",
+    "세 시쯤 = como a las tres; 얼마쯤 = ¿más o menos cuánto?"
+   ],
+   [
+    "마다",
+    "mada",
+    "cada",
+    "날마다 = cada día; 주말마다 = cada fin de semana."
+   ],
+   [
+    "아 / 야",
+    "a / ya",
+    "oye (después de un nombre, informal)",
+    "Consonante: 아 (민정아); vocal: 야 (지수야). Solo a amigos y gente menor."
+   ],
+   [
+    "께서",
+    "kkeseo",
+    "marcador de sujeto (honorífico)",
+    "Reemplaza a 이/가 para los mayores: 할아버지께서 오셨어요."
+   ],
+   [
+    "께",
+    "kke",
+    "a (una persona respetada)",
+    "El 에게 honorífico: 할머니께 드려요."
+   ],
+   [
+    "한테서",
+    "hanteseo",
+    "de (una persona, hablado)",
+    "친구한테서 받았어요. Muchas veces se acorta a 한테."
+   ],
+   [
+    "씩",
+    "ssik",
+    "cada uno; de a",
+    "하나씩 = uno cada uno; 조금씩 = poco a poco."
+   ],
+   [
+    "(이)라도",
+    "(i)rado",
+    "aunque sea; o algo",
+    "커피라도 마실래요? = ¿tomamos aunque sea un café?"
+   ],
+   [
+    "(이)라고",
+    "(i)rago",
+    "llamado; que dice (cita una palabra)",
+    "민수라고 해요 = me llamo Minsu."
+   ],
+   [
+    "대로",
+    "daero",
+    "según; tal como",
+    "마음대로 = como quieras; 말한 대로 = tal como dije."
+   ],
+   [
+    "에서부터",
+    "eseobuteo",
+    "desde (un lugar, partiendo de)",
+    "집에서부터 걸어왔어요 = vine caminando desde mi casa."
+   ]
+  ],
+  "Conectores clave": [
+   [
+    "먹고",
+    "meokgo",
+    "comer y (luego) (-고)",
+    "-고 une dos acciones o hechos. Igual después de vocal o consonante: 가고, 먹고."
+   ],
+   [
+    "가서",
+    "gaseo",
+    "ir y (luego) (-아서/어서)",
+    "-아서/어서: una acción lleva a la siguiente. 가서 먹어요 = voy y como allá."
+   ],
+   [
+    "피곤해서",
+    "pigonhaeseo",
+    "porque estoy cansado (-아서/어서)",
+    "-아서/어서 = porque. Nunca con -(으)세요 ni -(으)ㄹ까요."
+   ],
+   [
+    "가면",
+    "gamyeon",
+    "si voy (-(으)면)",
+    "Raíz en vocal: -면 (가면); en consonante: -으면 (먹으면)."
+   ],
+   [
+    "바쁜데",
+    "bappeunde",
+    "estoy ocupado, pero / así que (-(으)ㄴ데 / -는데)",
+    "Prepara el contexto: 바쁜데 나중에 얘기해요. Verbos: 가는데; adjetivos: 바쁜데."
+   ],
+   [
+    "비싸지만",
+    "bissajiman",
+    "es caro, pero (-지만)",
+    "-지만 = pero. Igual con cualquier raíz: 좋지만, 비싸지만."
+   ],
+   [
+    "갈 때",
+    "gal ttae",
+    "cuando voy (-(으)ㄹ 때)",
+    "Vocal: 갈 때; consonante: 먹을 때. 어릴 때 = cuando era pequeño."
+   ],
+   [
+    "비가 오니까",
+    "biga onikka",
+    "como está lloviendo (-(으)니까)",
+    "-(으)니까 = porque, y sirve con peticiones: 비가 오니까 우산 가져가세요."
+   ],
+   [
+    "비싸도",
+    "bissado",
+    "aunque sea caro (-아도/어도)",
+    "비싸도 사고 싶어요."
+   ],
+   [
+    "가려고",
+    "garyeogo",
+    "con la intención de ir (-(으)려고)",
+    "한국에 가려고 한국어를 배워요."
+   ],
+   [
+    "걸으면서",
+    "georeumyeonseo",
+    "mientras camino (-(으)면서)",
+    "Dos cosas a la vez, la misma persona: 음악 들으면서 걸어요."
+   ],
+   [
+    "먹으러",
+    "meogeureo",
+    "(ir) a comer (-(으)러)",
+    "Solo con ir / venir: 먹으러 가요, 놀러 와요."
+   ],
+   [
+    "가다가",
+    "gadaga",
+    "mientras iba, y entonces (-다가)",
+    "Una acción se interrumpe: 집에 가다가 친구를 만났어요."
+   ],
+   [
+    "자거나",
+    "jageona",
+    "dormir o (-거나)",
+    "-거나 = o, entre acciones: 주말에 자거나 영화 봐요."
+   ],
+   [
+    "먹은 후에",
+    "meogeun hue",
+    "después de comer (-(으)ㄴ 후에)",
+    "Vocal: 간 후에; consonante: 먹은 후에. También -고 나서."
+   ],
+   [
+    "자기 전에",
+    "jagi jeone",
+    "antes de dormir (-기 전에)",
+    "Verbo + 기 전에: 먹기 전에 = antes de comer."
+   ],
+   [
+    "도착하자마자",
+    "dochakajamaja",
+    "en cuanto llego (-자마자)",
+    "집에 도착하자마자 잤어요."
+   ],
+   [
+    "그러나",
+    "geureona",
+    "sin embargo (escrito)",
+    "Libros y noticias. Al hablar: 그런데, 하지만."
+   ],
+   [
+    "즉",
+    "jeuk",
+    "es decir",
+    "Escrito, formal."
+   ],
+   [
+    "근데",
+    "geunde",
+    "pero; por cierto (hablado)",
+    "La forma hablada corta de 그런데. También empieza otro tema: 근데 밥 먹었어?"
+   ],
+   [
+    "따라서",
+    "ttaraseo",
+    "por lo tanto (escrito)",
+    "El 그래서 formal."
+   ],
+   [
+    "또는",
+    "ttoneun",
+    "o (entre sustantivos, formal)",
+    "카드 또는 현금 = tarjeta o efectivo. Al hablar: 아니면, (이)나."
+   ],
+   [
+    "그러니까",
+    "geureonikka",
+    "así que; por eso; o sea",
+    "También «¡exacto!»: 그러니까요! Forma hablada corta: 그니까."
+   ],
+   [
+    "그렇지만",
+    "geureochiman",
+    "pero; no obstante",
+    "En tono, entre 그런데 y 하지만."
+   ],
+   [
+    "그렇다면",
+    "geureotamyeon",
+    "si es así; en ese caso",
+    "Algo más formal que 그럼."
+   ],
+   [
+    "그러다가",
+    "geureodaga",
+    "y entonces (mientras hacía eso)",
+    "텔레비전을 봤어요. 그러다가 잠들었어요."
+   ],
+   [
+    "게다가",
+    "gedaga",
+    "además; encima",
+    "비싸요. 게다가 맛도 없어요."
+   ]
+  ],
+  "Interjecciones clave": [
+   [
+    "아",
+    "a",
+    "ah; oh (ya veo)",
+    "La reacción para todo: 아, 그래요? También un suspiro."
+   ],
+   [
+    "어",
+    "eo",
+    "eh; ¿eh?",
+    "Sorpresa o un «sí» informal: 어, 왔어? Informal."
+   ],
+   [
+    "와",
+    "wa",
+    "guau",
+    "Neutro, cualquiera lo dice. Más largo = más impresionado: 와아."
+   ],
+   [
+    "오",
+    "o",
+    "¡oh!; uy",
+    "Sorpresa agradable: 오, 멋있다! Se escribe igual que 오 (cinco)."
+   ],
+   [
+    "응",
+    "eung",
+    "sí; ajá (informal)",
+    "«Sí» informal con amigos. Con mayores: 네."
+   ],
+   [
+    "자",
+    "ja",
+    "bueno, entonces; toma",
+    "Para empezar o al dar algo: 자, 시작할까요?"
+   ],
+   [
+    "음",
+    "eum",
+    "mmm",
+    "Pensando antes de responder. Sirve en cualquier registro."
+   ],
+   [
+    "우와",
+    "uwa",
+    "¡guau!; ¡guaaau!",
+    "Más grande y más infantil que 와."
+   ],
+   [
+    "여보세요",
+    "yeoboseyo",
+    "¿hola? (al teléfono)",
+    "Solo al teléfono, o para ver si alguien te escucha. No es un saludo en persona."
+   ],
+   [
+    "글쎄",
+    "geulsse",
+    "pues…; no estoy seguro",
+    "Cortés: 글쎄요. Para ganar tiempo o suavizar un «no»."
+   ],
+   [
+    "에이",
+    "ei",
+    "ay, vamos; no puede ser",
+    "Incredulidad ligera o broma: 에이, 거짓말! Informal."
+   ],
+   [
+    "세상에",
+    "sesange",
+    "¡Dios mío! (lit. en el mundo)",
+    "Asombro o susto. Común en gente mayor: 세상에, 이게 뭐야!"
+   ],
+   [
+    "휴",
+    "hyu",
+    "uf",
+    "Alivio. También un suspiro."
+   ],
+   [
+    "아야",
+    "aya",
+    "¡ay! (dolor)",
+    "Dolor repentino. Más corto: 아! Los niños dicen 아야야."
+   ],
+   [
+    "에휴",
+    "ehyu",
+    "ay (resignación); qué se le va a hacer",
+    "Resignación cansada. Puede sonar gruñón; cuidado con los mayores."
+   ],
+   [
+    "어머",
+    "eomeo",
+    "¡ay!; ¡Dios mío!",
+    "Sobre todo mujeres y gente mayor. 어머나 es más fuerte."
+   ],
+   [
+    "헉",
+    "heok",
+    "¡uy!; ¡ay, no!",
+    "Susto, también se escribe en chats. Informal."
+   ],
+   [
+    "앗",
+    "at",
+    "¡uy!; ¡oh!",
+    "Pequeña sorpresa o error repentino. Informal."
+   ],
+   [
+    "아차",
+    "acha",
+    "¡ay, se me olvidó!",
+    "Cuando te das cuenta de un error: 아차, 지갑! Informal."
+   ],
+   [
+    "깜짝이야",
+    "kkamjjagiya",
+    "¡qué susto me diste!",
+    "Cuando te asustas. Informal; cortés: 깜짝 놀랐어요."
+   ],
+   [
+    "아이참",
+    "aicham",
+    "ay, ya (apenado, coqueto)",
+    "Tímido o un poco molesto, muchas veces en broma. Sobre todo mujeres."
+   ],
+   [
+    "아싸",
+    "assa",
+    "¡sí!; ¡bien!",
+    "Una pequeña victoria personal. También se escribe 앗싸. Informal, algo juguetón."
+   ],
+   [
+    "쉿",
+    "swit",
+    "shh",
+    "Para pedir silencio. Cualquiera lo dice."
+   ],
+   [
+    "으악",
+    "euak",
+    "¡aaah!",
+    "Un grito: un bicho, un susto, un desastre. Informal."
+   ],
+   [
+    "짜잔",
+    "jjajan",
+    "¡tarán!",
+    "Al mostrar una sorpresa o un regalo. Juguetón."
+   ],
+   [
+    "웩",
+    "wek",
+    "¡qué asco!; ¡puaj!",
+    "Asco, sobre todo con la comida. Informal; es grosero decirlo de lo que alguien cocinó."
+   ]
+  ],
+  "Palabras útiles": [
+   [
+    "이 / 그 / 저",
+    "i / geu / jeo",
+    "este / ese / aquel (antes de un sustantivo)",
+    "이 사람, 그 책, 저 건물. 그 = cerca de ti o ya mencionado; 저 = lejos de los dos."
+   ],
+   [
+    "한, 두, 세, 네",
+    "han du se ne",
+    "uno, dos, tres, cuatro (antes de un contador)",
+    "하나 → 한, 둘 → 두, 셋 → 세, 넷 → 네: 한 잔, 두 명."
+   ],
+   [
+    "이런 / 그런 / 저런",
+    "ireon / geureon / jeoreon",
+    "este tipo de / ese tipo de / aquel tipo de",
+    "이런 날 = un día como este. 그런 거 아니에요 = no es eso."
+   ],
+   [
+    "어떤",
+    "eotteon",
+    "qué tipo de; algún (antes de un sustantivo)",
+    "어떤 음식 좋아해요? Viene de 어떻다."
+   ],
+   [
+    "다른",
+    "dareun",
+    "otro; diferente",
+    "다른 거 있어요? = ¿tiene otro?"
+   ],
+   [
+    "여러",
+    "yeoreo",
+    "varios",
+    "여러 번 = muchas veces; 여러 가지 = de todo tipo."
+   ],
+   [
+    "어느",
+    "eoneu",
+    "cuál (antes de un sustantivo)",
+    "어느 나라 = qué país; 어느 쪽 = hacia dónde."
+   ],
+   [
+    "모든",
+    "modeun",
+    "todo; todos (antes de un sustantivo)",
+    "모든 사람 = todo el mundo."
+   ],
+   [
+    "이번",
+    "ibeon",
+    "esta (vez); este próximo",
+    "이번 주말 = este fin de semana; 이번이 처음이에요."
+   ],
+   [
+    "몇",
+    "myeot",
+    "cuántos; unos cuantos",
+    "몇 개? = ¿cuántos? 몇 명 = unas cuantas personas."
+   ],
+   [
+    "무슨",
+    "museun",
+    "qué (tipo de) (antes de un sustantivo)",
+    "무슨 일 있어요? = ¿pasa algo?"
+   ],
+   [
+    "지난",
+    "jinan",
+    "pasado (antes de un sustantivo)",
+    "지난 주말 = el fin de semana pasado; 지난달 = el mes pasado."
+   ],
+   [
+    "새",
+    "sae",
+    "nuevo (antes de un sustantivo)",
+    "새 옷 = ropa nueva; 새해 = Año Nuevo."
+   ],
+   [
+    "맞아요",
+    "majayo",
+    "así es",
+    "Para estar de acuerdo: 네, 맞아요. Informal: 맞아."
+   ],
+   [
+    "예",
+    "ye",
+    "sí (formal)",
+    "Más formal que 네; se oye en oficinas y en gente mayor."
+   ],
+   [
+    "오후",
+    "ohu",
+    "tarde; p. m.",
+    "오후 세 시 = 3 p. m."
+   ],
+   [
+    "첫",
+    "cheot",
+    "primer (antes de un sustantivo)",
+    "첫눈 = la primera nevada; 첫 데이트 = una primera cita."
+   ],
+   [
+    "올해",
+    "olhae",
+    "este año",
+    "올해 몇 살이에요?"
+   ],
+   [
+    "아니",
+    "ani",
+    "no (informal); no, espera",
+    "Con amigos. También empieza una protesta: 아니, 그게 아니라…"
+   ],
+   [
+    "천",
+    "cheon",
+    "mil",
+    "천 원 = 1000 wones; 삼천 = 3000."
+   ],
+   [
+    "영 / 공",
+    "yeong / gong",
+    "cero",
+    "영 en matemáticas y marcadores; 공 en números de teléfono: 공일공 = 010."
+   ],
+   [
+    "작년",
+    "jangnyeon",
+    "el año pasado",
+    "También 지난해."
+   ],
+   [
+    "안녕",
+    "annyeong",
+    "hola; adiós (informal)",
+    "A amigos y niños, para saludar y para despedirse."
+   ],
+   [
+    "낮",
+    "nat",
+    "el día (las horas de luz)",
+    "낮에는 더워요 = de día hace calor."
+   ],
+   [
+    "오전",
+    "ojeon",
+    "mañana; a. m.",
+    "오전 열 시 = 10 a. m."
+   ],
+   [
+    "새벽",
+    "saebyeok",
+    "madrugada",
+    "새벽 두 시 = 2 a. m."
+   ],
+   [
+    "지난주",
+    "jinanju",
+    "la semana pasada",
+    "Una sola palabra, sin espacio."
+   ],
+   [
+    "아뇨",
+    "anyo",
+    "no (hablado)",
+    "Forma corta de 아니요; más suave y más común al hablar."
+   ],
+   [
+    "스무",
+    "seumu",
+    "veinte (antes de un contador)",
+    "스물 → 스무: 스무 살 = veinte años."
+   ],
+   [
+    "화요일",
+    "hwayoil",
+    "martes",
+    "화 = fuego. 월화수목금토일."
+   ],
+   [
+    "수요일",
+    "suyoil",
+    "miércoles",
+    "수 = agua."
+   ],
+   [
+    "목요일",
+    "mogyoil",
+    "jueves",
+    "목 = madera."
+   ],
+   [
+    "스물",
+    "seumul",
+    "20 (nativo)",
+    "Antes de un contador: 스무."
+   ],
+   [
+    "내년",
+    "naenyeon",
+    "el próximo año",
+    "내년에 한국에 가요."
+   ],
+   [
+    "서른, 마흔, 쉰",
+    "seoreun maheun swin",
+    "30, 40, 50 (nativos)",
+    "Sobre todo para la edad: 서른 살. El sinocoreano 삼십 se usa para dinero y minutos."
+   ],
+   [
+    "백",
+    "baek",
+    "cien",
+    "백 원; 이백 = 200. No 일백."
+   ],
+   [
+    "열하나, 열둘",
+    "yeolhana yeoldul",
+    "11, 12 (nativos)",
+    "열 + 하나: 열한 시 = las 11."
+   ],
+   [
+    "모레",
+    "more",
+    "pasado mañana",
+    "내일모레 = en un par de días."
+   ],
+   [
+    "그저께",
+    "geujeokke",
+    "anteayer",
+    "También 그제."
+   ]
+  ],
+  "Más contadores": [
+   [
+    "한 대",
+    "han dae",
+    "uno (carro, máquina)",
+    "대 cuenta vehículos y máquinas: 차 두 대, 컴퓨터 한 대."
+   ],
+   [
+    "두 분",
+    "du bun",
+    "dos personas (honorífico)",
+    "분 es el 명 cortés: 몇 분이세요? = ¿cuántos son?"
+   ],
+   [
+    "한 벌",
+    "han beol",
+    "un conjunto; un traje",
+    "벌 cuenta juegos de ropa: 옷 한 벌."
+   ],
+   [
+    "한 송이",
+    "han songi",
+    "una flor; un racimo (de uvas)",
+    "장미 한 송이 = una rosa."
+   ],
+   [
+    "한 줄",
+    "han jul",
+    "un rollo; una fila",
+    "김밥 한 줄 = un rollo de gimbap; 한 줄로 = en fila."
+   ],
+   [
+    "한 접시",
+    "han jeopsi",
+    "un plato (de)",
+    "만두 한 접시 = un plato de mandu."
+   ],
+   [
+    "한 조각",
+    "han jogak",
+    "una rebanada; un pedazo",
+    "피자 한 조각, 케이크 한 조각."
+   ],
+   [
+    "한 가지",
+    "han gaji",
+    "un tipo; una cosa",
+    "한 가지 더 = una cosa más; 여러 가지 = de todo tipo."
+   ],
+   [
+    "한 군데",
+    "han gunde",
+    "un lugar",
+    "두 군데 = dos lugares. Hablado, de todos los días."
+   ],
+   [
+    "한 곡",
+    "han gok",
+    "una canción",
+    "노래 한 곡 = una canción (en el karaoke)."
+   ],
+   [
+    "한 편",
+    "han pyeon",
+    "una (película, historia)",
+    "영화 한 편 봐요 = vemos una película."
+   ],
+   [
+    "한 알",
+    "han al",
+    "una pastilla; una cosa pequeña y redonda",
+    "약 한 알 = una pastilla."
+   ],
+   [
+    "한 캔",
+    "han kaen",
+    "una lata",
+    "맥주 한 캔 = una lata de cerveza."
+   ],
+   [
+    "한 판",
+    "han pan",
+    "una partida; una ronda; una bandeja",
+    "게임 한 판 = una partida; 계란 한 판 = una bandeja de 30 huevos."
+   ],
+   [
+    "한 시",
+    "han si",
+    "la una (hora)",
+    "Las horas usan números nativos: 한 시, 두 시 … 열두 시."
+   ],
+   [
+    "오 분",
+    "o bun",
+    "cinco minutos",
+    "Los minutos usan números sinocoreanos: 오 분, 십 분, 삼십 분."
+   ],
+   [
+    "일 년",
+    "il nyeon",
+    "un año",
+    "Los años usan sinocoreano: 일 년, 이 년. Nativo: 한 해."
+   ],
+   [
+    "삼 개월",
+    "sam gaewol",
+    "tres meses",
+    "Meses en sinocoreano: 삼 개월. Nativo: 석 달."
+   ],
+   [
+    "이 인분",
+    "i inbun",
+    "dos porciones",
+    "La carne asada coreana se pide por porción: 삼겹살 이 인분 = panceta para dos."
+   ],
+   [
+    "첫 번째",
+    "cheot beonjjae",
+    "el primero",
+    "번째 forma ordinales: 두 번째 = segundo, 세 번째 = tercero."
+   ]
+  ],
+  "Palabras para coquetear": [
+   [
+    "예쁘다",
+    "yeppeuda",
+    "ser bonito, bonita",
+    "예뻐요. Sobre todo a mujeres, también a niños y cosas. Suave; todo el mundo lo oye. En coreano no hay género."
+   ],
+   [
+    "귀엽다",
+    "gwiyeopda",
+    "ser tierno, tierna",
+    "귀여워요 (irregular en ㅂ). A cualquiera, también a hombres. Suave y juguetón."
+   ],
+   [
+    "잘생기다",
+    "jalsaenggida",
+    "ser guapo",
+    "Se dice en pasado: 잘생겼어요. Sobre todo a hombres. Cálido."
+   ],
+   [
+    "아름답다",
+    "areumdapda",
+    "ser hermoso",
+    "아름다워요 (irregular en ㅂ). Fuerte y algo poético: para paisajes o un halago muy sincero. Atrevido."
+   ],
+   [
+    "사랑스럽다",
+    "sarangseureopda",
+    "ser adorable",
+    "사랑스러워요 (irregular en ㅂ). Tierno, más entre parejas. Cálido."
+   ],
+   [
+    "매력",
+    "maeryeok",
+    "encanto; atractivo",
+    "매력 있어요 = eres atractivo. Seguro y común. Entre suave y cálido."
+   ],
+   [
+    "매력적이다",
+    "maeryeokjeogida",
+    "ser atractivo; encantador",
+    "매력적이에요. Un poco más serio que 매력 있어요. Cálido."
+   ],
+   [
+    "똑똑하다",
+    "ttokttokada",
+    "ser listo, inteligente",
+    "똑똑해요. A cualquiera. Suave. A un mayor, mejor elogia lo que sabe."
+   ],
+   [
+    "착하다",
+    "chakada",
+    "ser de buen corazón; buena gente",
+    "착해요. Gran halago de la familia de tu pareja; solo a iguales o menores. Suave."
+   ],
+   [
+    "다정하다",
+    "dajeonghada",
+    "ser cariñoso; dulce y atento",
+    "다정해요. Una de las cualidades más buscadas en una pareja. Cálido."
+   ],
+   [
+    "미소",
+    "miso",
+    "sonrisa",
+    "미소가 예뻐요. Algo literario; al hablar también se dice 웃는 모습. Suave."
+   ],
+   [
+    "눈",
+    "nun",
+    "ojos",
+    "눈이 예뻐요. Elogiar los ojos es seguro y común. (눈 también = nieve.) Entre suave y cálido."
+   ],
+   [
+    "눈웃음",
+    "nunuseum",
+    "sonrisa con los ojos",
+    "Un favorito coreano: los ojos se vuelven medias lunas al sonreír. Cálido."
+   ],
+   [
+    "보조개",
+    "bojogae",
+    "hoyuelo",
+    "보조개가 귀여워요. Un halago coreano clásico. Suave."
+   ],
+   [
+    "목소리",
+    "moksori",
+    "voz",
+    "목소리가 좋아요. Seguro y muy común, sobre todo por teléfono. Suave."
+   ],
+   [
+    "웃음",
+    "useum",
+    "risa",
+    "웃음이 많아요 = te ríes mucho (algo bueno). Suave."
+   ],
+   [
+    "분위기",
+    "bunwigi",
+    "vibra; aura; ambiente",
+    "분위기 있어요 = tienes un encanto especial. Muy coreano. Cálido."
+   ],
+   [
+    "스타일",
+    "seutail",
+    "estilo; tipo",
+    "제 스타일이에요 = eres mi tipo. Suave solo; cálido en esa frase."
+   ],
+   [
+    "성격",
+    "seonggyeok",
+    "personalidad; carácter",
+    "성격 좋아요 es un gran elogio. Suave."
+   ],
+   [
+    "센스",
+    "senseu",
+    "buen gusto; tacto",
+    "센스 있어요 = tienes buen gusto / eres atento. Suave."
+   ],
+   [
+    "이상형",
+    "isanghyeong",
+    "tipo ideal",
+    "Los coreanos preguntan 이상형이 뭐예요? en primeras citas y entrevistas. Suave como pregunta."
+   ],
+   [
+    "첫인상",
+    "cheosinsang",
+    "primera impresión",
+    "첫인상이 좋았어요 = me caíste bien desde el principio. Cálido."
+   ],
+   [
+    "훈남",
+    "hunnam",
+    "chico guapo y de buena vibra",
+    "Jerga, de 훈훈한 남자. Para mujeres: 훈녀. Suave, amistoso."
+   ],
+   [
+    "심쿵",
+    "simkung",
+    "el corazón da un vuelco",
+    "Jerga: 심장이 쿵. 심쿵했어요 = me hiciste latir el corazón. Cálido, juguetón."
+   ],
+   [
+    "오늘따라 더 예뻐요",
+    "oneulttara deo yeppeoyo",
+    "Hoy te ves aún más bonita",
+    "A una mujer que conoces. 오늘따라 = hoy en especial. Cálido."
+   ],
+   [
+    "이름도 예쁘네요",
+    "ireumdo yeppeuneyo",
+    "Hasta tu nombre es bonito",
+    "Justo después de saber su nombre. Suave, dulce."
+   ],
+   [
+    "예쁘다는 말 많이 듣죠?",
+    "yeppeudaneun mal mani deutjyo?",
+    "Seguro te dicen mucho que eres bonita",
+    "Indirecto y elegante. A una mujer. Cálido."
+   ],
+   [
+    "왜 이렇게 귀여워요?",
+    "wae ireoke gwiyeowoyo?",
+    "¿Por qué eres tan tierno?",
+    "En broma, a cualquiera. Cálido."
+   ],
+   [
+    "하는 짓이 다 귀여워요",
+    "haneun jisi da gwiyeowoyo",
+    "Todo lo que haces es tierno",
+    "A alguien que conoces bien. 짓 = gestos, cositas que haces. Cálido, juguetón."
+   ],
+   [
+    "잘생기셨네요",
+    "jalsaenggisyeonneyo",
+    "Es usted muy guapo",
+    "Con -시- cortés; a un hombre que no conoces bien. Entre suave y cálido."
+   ],
+   [
+    "실물이 더 잘생겼어요",
+    "silmuri deo jalsaenggyeosseoyo",
+    "En persona eres aún más guapo",
+    "Después de ver fotos primero (una app de citas, el celular de un amigo). Cálido."
+   ],
+   [
+    "오늘 멋있네요",
+    "oneul meosinneyo",
+    "Hoy te ves muy bien",
+    "A cualquiera que se arregló. Suave."
+   ],
+   [
+    "일하는 모습이 멋있어요",
+    "ilhaneun moseubi meosisseoyo",
+    "Te ves genial cuando trabajas",
+    "La frase clásica para un crush en la oficina o el café. Cálido."
+   ],
+   [
+    "진짜 똑똑하네요",
+    "jinjja ttokttokaneyo",
+    "Eres muy listo",
+    "A alguien de tu edad o menor. Suave."
+   ],
+   [
+    "매력 있어요",
+    "maeryeok isseoyo",
+    "Eres atractivo / Tienes encanto",
+    "Seguro en una cita o entre amigos. Entre suave y cálido."
+   ],
+   [
+    "매력이 넘치시네요",
+    "maeryeogi neomchisineyo",
+    "Le sobra encanto",
+    "Cortés y juguetón. Cálido."
+   ],
+   [
+    "미소가 예뻐요",
+    "misoga yeppeoyo",
+    "Tienes una sonrisa bonita",
+    "Seguro en un primer encuentro. Suave."
+   ],
+   [
+    "눈웃음이 정말 예뻐요",
+    "nunuseumi jeongmal yeppeoyo",
+    "Tu sonrisa con los ojos es preciosa",
+    "Halago muy coreano. Cálido."
+   ],
+   [
+    "보조개가 너무 귀여워요",
+    "bojogaega neomu gwiyeowoyo",
+    "Tus hoyuelos son muy tiernos",
+    "Suave, dulce."
+   ],
+   [
+    "목소리가 정말 좋네요",
+    "moksoriga jeongmal jonneyo",
+    "Tienes una voz muy bonita",
+    "Muchas veces por teléfono o después del karaoke. Suave."
+   ],
+   [
+    "목소리 듣고 싶었어요",
+    "moksori deutgo sipeosseoyo",
+    "Quería escuchar tu voz",
+    "Por qué llamaste. A alguien con quien sales. Entre cálido y atrevido."
+   ],
+   [
+    "분위기 있으시네요",
+    "bunwigi isseusineyo",
+    "Tiene usted un encanto especial",
+    "Un halago refinado, a hombres o mujeres. Cálido."
+   ],
+   [
+    "스타일 좋으시네요",
+    "seutail joeusineyo",
+    "Tiene muy buen estilo",
+    "Suave; sirve con casi desconocidos."
+   ],
+   [
+    "제 스타일이에요",
+    "je seutairieyo",
+    "Eres mi tipo",
+    "Ligero y directo. Cálido."
+   ],
+   [
+    "완전 제 이상형이에요",
+    "wanjeon je isanghyeongieyo",
+    "Eres totalmente mi tipo ideal",
+    "Atrevido y juguetón. Normalmente después de unas citas."
+   ],
+   [
+    "이상형이 뭐예요?",
+    "isanghyeongi mwoyeyo?",
+    "¿Cuál es tu tipo ideal?",
+    "La pregunta clásica de la primera cita. Suave."
+   ],
+   [
+    "첫인상이 좋았어요",
+    "cheosinsangi joasseoyo",
+    "Me diste una buena primera impresión",
+    "En la segunda cita. Cálido."
+   ],
+   [
+    "성격도 좋으시네요",
+    "seonggyeokdo joeusineyo",
+    "Y además tiene muy buena personalidad",
+    "도 = además de ser guapo. Cálido."
+   ],
+   [
+    "다정하시네요",
+    "dajeonghasineyo",
+    "Qué atento y cariñoso es usted",
+    "Después de un gesto amable. Cálido."
+   ],
+   [
+    "밥 먹었어요?",
+    "bap meogeosseoyo?",
+    "¿Ya comiste? (me importas)",
+    "El «pienso en ti» indirecto del coreano. Forma cortés del informal 밥 먹었어? Suave."
+   ],
+   [
+    "언제 밥 한번 먹어요",
+    "eonje bap hanbeon meogeoyo",
+    "Comamos juntos algún día",
+    "Muchas veces es solo cortesía; si va en serio, abre una cita. Pregunta «¿cuándo?» para mostrar que lo dices en serio. Suave."
+   ],
+   [
+    "같이 밥 먹을래요?",
+    "gachi bap meogeullaeyo?",
+    "¿Quieres cenar conmigo?",
+    "La invitación de verdad. Cálido."
+   ],
+   [
+    "제가 커피 살게요",
+    "jega keopi salgeyo",
+    "Te invito un café",
+    "Una apertura fácil después de clase o del trabajo. Suave."
+   ],
+   [
+    "연락해도 돼요?",
+    "yeollakaedo dwaeyo?",
+    "¿Te puedo escribir?",
+    "Forma cortés de pedir el KakaoTalk. Suave."
+   ],
+   [
+    "다음에 또 볼 수 있어요?",
+    "daeume tto bol su isseoyo?",
+    "¿Te puedo volver a ver?",
+    "Al final de un primer encuentro. Cálido."
+   ],
+   [
+    "라면 먹고 갈래요?",
+    "ramyeon meokgo gallaeyo?",
+    "¿Quieres subir a comer ramyeon? (frase de broma)",
+    "De la película One Fine Spring Day (2001), donde la frase es 라면 먹을래요?; esta versión del meme es una invitación a pasar. Solo en broma, nunca como movimiento real."
+   ],
+   [
+    "에이, 농담이죠?",
+    "ei nongdamijyo?",
+    "Ay, vamos, ¿es broma, no?",
+    "Desvío juguetón, tímido pero no es un no. Informal y amistoso."
+   ],
+   [
+    "말도 참 잘하시네요",
+    "maldo cham jalhasineyo",
+    "Qué bien habla usted",
+    "Desvío en broma; si sonríes = interés, si no = no. Suave."
+   ],
+   [
+    "좋아요, 언제 만날까요?",
+    "joayo eonje mannalkkayo?",
+    "Claro, ¿cuándo nos vemos?",
+    "Un sí cálido a una invitación."
+   ],
+   [
+    "마음은 고맙지만 괜찮아요",
+    "maeumeun gomapjiman gwaenchanayo",
+    "Gracias por la intención, pero no, gracias",
+    "Un no amable y claro. Sirve para un trago o un número."
+   ],
+   [
+    "죄송하지만 만나는 사람이 있어요",
+    "joesonghajiman mannaneun sarami isseoyo",
+    "Lo siento, pero estoy saliendo con alguien",
+    "Un no claro; nadie insiste después de esto."
+   ],
+   [
+    "좋은 분인데, 친구로 지내고 싶어요",
+    "joeun buninde chinguro jinaego sipeoyo",
+    "Eres una gran persona, pero prefiero que seamos amigos",
+    "Un no suave a alguien que conoces. 분 lo mantiene respetuoso."
+   ],
+   [
+    "지금은 연애할 생각이 없어요",
+    "jigeumeun yeonaehal saenggagi eopseoyo",
+    "Ahora no busco una relación",
+    "Firme pero no personal."
+   ]
+  ],
+  "Cumplidos": [
+   [
+    "음식이 정말 맛있네요",
+    "eumsigi jeongmal masinneyo",
+    "La comida está riquísima",
+    "-네요 = notar algo en voz alta. Díselo al anfitrión o a quien cocinó durante la comida."
+   ],
+   [
+    "요리 솜씨가 정말 좋으시네요",
+    "yori somssiga jeongmal joeusineyo",
+    "Cocina usted muy bien",
+    "솜씨 = habilidad con las manos. Con -시- cortés; sirve con mayores."
+   ],
+   [
+    "이거 어떻게 만드셨어요?",
+    "igeo eotteoke mandeusyeosseoyo?",
+    "¿Cómo hizo esto?",
+    "Pedir la receta ya es un elogio."
+   ],
+   [
+    "정말 잘하시네요",
+    "jeongmal jalhasineyo",
+    "Lo hace usted muy bien",
+    "Para cualquier habilidad. A los mayores, elogia con -시- y sin palabras que califiquen."
+   ],
+   [
+    "좋은 생각이에요",
+    "joeun saenggagieyo",
+    "Es una buena idea",
+    "A colegas y amigos. A un jefe: 좋은 생각이신 것 같아요."
+   ],
+   [
+    "꼼꼼하시네요",
+    "kkomkkomhasineyo",
+    "Qué minucioso es usted",
+    "Un gran halago en el trabajo."
+   ],
+   [
+    "정말 착하시네요",
+    "jeongmal chakasineyo",
+    "Qué buen corazón tiene",
+    "A iguales o menores. Suena raro dicho a alguien mucho mayor."
+   ],
+   [
+    "유머 감각이 있으시네요",
+    "yumeo gamgagi isseusineyo",
+    "Tiene usted buen sentido del humor",
+    "Cortés; a cualquiera."
+   ],
+   [
+    "배려심이 많으시네요",
+    "baeryeosimi maneusineyo",
+    "Es usted muy considerado",
+    "배려 = pensar en los demás. Muy valorado."
+   ],
+   [
+    "정말 부지런하시네요",
+    "jeongmal bujireonhasineyo",
+    "Qué trabajador es usted",
+    "Siempre ocupado y puntual. Diferente de 열심히 하시네요 (se esfuerza en algo)."
+   ],
+   [
+    "피부가 정말 좋으시네요",
+    "pibuga jeongmal joeusineyo",
+    "Tiene una piel muy bonita",
+    "Un halago muy común y amistoso en Corea, a hombres y mujeres por igual."
+   ],
+   [
+    "동안이시네요",
+    "donganisineyo",
+    "Se ve muy joven para su edad",
+    "Un halago favorito, sobre todo a mayores de 30."
+   ],
+   [
+    "인상이 좋으세요",
+    "insangi joeuseyo",
+    "Tiene cara de buena persona",
+    "Literalmente «su impresión es buena». Se dice al conocerse."
+   ],
+   [
+    "집이 정말 예쁘네요",
+    "jibi jeongmal yeppeuneyo",
+    "Su casa es preciosa",
+    "En la primera visita, muchas veces con un regalo (휴지, fruta)."
+   ],
+   [
+    "아이가 정말 귀엽네요",
+    "aiga jeongmal gwiyeomneyo",
+    "Su hijo es muy tierno",
+    "Los padres suelen desviarlo: 아니에요, 말썽꾸러기예요."
+   ],
+   [
+    "아이가 참 예의 바르네요",
+    "aiga cham yeui bareuneyo",
+    "Su hijo es muy educado",
+    "También es un halago para los padres. Muy bien recibido."
+   ],
+   [
+    "사진 잘 나왔네요",
+    "sajin jal nawanneyo",
+    "Qué buena foto",
+    "Literalmente «la foto salió bien»."
+   ],
+   [
+    "그 옷 잘 어울리세요",
+    "geu ot jal eoulliseyo",
+    "Esa ropa le queda muy bien",
+    "Con -세요 cortés; a cualquiera, incluso a mayores."
+   ],
+   [
+    "발음이 정말 좋으시네요",
+    "bareumi jeongmal joeusineyo",
+    "Su pronunciación es muy buena",
+    "Lo que oyen los estudiantes justo después de 한국어 잘하시네요."
+   ],
+   [
+    "한국 사람인 줄 알았어요",
+    "hanguk saramin jul arasseoyo",
+    "¡Pensé que eras coreano!",
+    "Exageración amistosa para un estudiante."
+   ],
+   [
+    "한국어 어디서 배우셨어요?",
+    "hangugeo eodiseo baeusyeosseoyo?",
+    "¿Dónde aprendió coreano?",
+    "Suele seguir al elogio; ya es un halago en sí."
+   ],
+   [
+    "많이 늘었어요",
+    "mani neureosseoyo",
+    "Has mejorado mucho",
+    "A un amigo o a alguien menor. A un mayor suena a calificarlo."
+   ],
+   [
+    "발표 잘 들었습니다",
+    "balpyo jal deureotseumnida",
+    "Disfruté mucho su presentación",
+    "La forma cortés de elogiar a un jefe: cuentas tu experiencia, no lo calificas."
+   ],
+   [
+    "많이 배웠습니다",
+    "mani baewotseumnida",
+    "Aprendí mucho (de usted)",
+    "El elogio más seguro para un superior, profesor o jefe."
+   ],
+   [
+    "수고 많으셨어요",
+    "sugo maneusyeosseoyo",
+    "Gracias por todo su esfuerzo",
+    "Elogia el esfuerzo. Bien entre colegas; a algunos superiores 수고 de un menor les parece atrevido, así que con un jefe 감사합니다 es más seguro."
+   ],
+   [
+    "아니에요",
+    "anieyo",
+    "Ay, no, para nada",
+    "El reflejo después de cualquier elogio: desviarlo, aunque te guste."
+   ],
+   [
+    "아니에요, 아직 멀었어요",
+    "anieyo ajik meoreosseoyo",
+    "Ay, no, todavía me falta mucho",
+    "La respuesta modesta estándar, sobre todo sobre tu coreano."
+   ],
+   [
+    "별말씀을요",
+    "byeolmalsseumeullyo",
+    "No es nada; es usted muy amable",
+    "Cortés y algo formal. A mayores y en el trabajo."
+   ],
+   [
+    "과찬이세요",
+    "gwachaniseyo",
+    "Me elogia demasiado",
+    "Literalmente «es demasiado elogio». Cortés, algo formal."
+   ],
+   [
+    "칭찬해 주셔서 감사해요",
+    "chingchanhae jusyeoseo gamsahaeyo",
+    "Gracias por el cumplido",
+    "Aceptarlo con calidez. Más común entre gente joven."
+   ],
+   [
+    "좋게 봐 주셔서 감사해요",
+    "joke bwa jusyeoseo gamsahaeyo",
+    "Gracias por verlo así",
+    "Modesto y agradecido a la vez."
+   ],
+   [
+    "별거 아니에요",
+    "byeolgeo anieyo",
+    "Ay, no es nada especial",
+    "La respuesta del anfitrión a elogios por la comida o un regalo."
+   ],
+   [
+    "덕분이에요",
+    "deokbunieyo",
+    "Es todo gracias a ti",
+    "Devuelve el elogio a la otra persona. Cálido y humilde."
+   ]
+  ],
+  "Países": [
+   [
+    "한국",
+    "hanguk",
+    "Corea del Sur",
+    "한국 es lo que se dice a diario; el nombre oficial es 대한민국. 한국 사람 = coreano (persona); 한국어 o 한국말 = coreano (idioma)."
+   ],
+   [
+    "북한",
+    "bukan",
+    "Corea del Norte",
+    "Uso de Corea del Sur. El nombre oficial es 조선민주주의인민공화국."
+   ],
+   [
+    "일본",
+    "ilbon",
+    "Japón",
+    "일본 사람 = japonés (persona); 일본어 = japonés (idioma)."
+   ],
+   [
+    "중국",
+    "jungguk",
+    "China",
+    "중국 사람 = chino (persona); 중국어 = chino (idioma)."
+   ],
+   [
+    "대만",
+    "daeman",
+    "Taiwán",
+    "대만 사람 = taiwanés (persona). Se habla 중국어."
+   ],
+   [
+    "홍콩",
+    "hongkong",
+    "Hong Kong",
+    "홍콩 사람. 광둥어 = cantonés."
+   ],
+   [
+    "마카오",
+    "makao",
+    "Macao",
+    ""
+   ],
+   [
+    "몽골",
+    "monggol",
+    "Mongolia",
+    "몽골 사람; 몽골어 = mongol (idioma)."
+   ],
+   [
+    "러시아",
+    "reosia",
+    "Rusia",
+    "러시아 사람; 러시아어 = ruso (idioma)."
+   ],
+   [
+    "미국",
+    "miguk",
+    "Estados Unidos",
+    "미국 사람 = estadounidense. El idioma es 영어 (inglés); no existe 미국어."
+   ],
+   [
+    "인도",
+    "indo",
+    "India",
+    "인도 사람; 힌디어 = hindi."
+   ],
+   [
+    "인도네시아",
+    "indonesia",
+    "Indonesia",
+    "인도네시아 사람; 인도네시아어 = indonesio (idioma)."
+   ],
+   [
+    "브라질",
+    "beurajil",
+    "Brasil",
+    "브라질 사람. Se habla 포르투갈어."
+   ],
+   [
+    "파키스탄",
+    "pakiseutan",
+    "Pakistán",
+    ""
+   ],
+   [
+    "나이지리아",
+    "naijiria",
+    "Nigeria",
+    ""
+   ],
+   [
+    "방글라데시",
+    "banggeulladesi",
+    "Bangladés",
+    ""
+   ],
+   [
+    "멕시코",
+    "meksiko",
+    "México",
+    "멕시코 사람. Se habla 스페인어."
+   ],
+   [
+    "필리핀",
+    "pillipin",
+    "Filipinas",
+    "필리핀 사람 = filipino (persona); 필리핀어 o 타갈로그어 = filipino, tagalo."
+   ],
+   [
+    "베트남",
+    "beteunam",
+    "Vietnam",
+    "베트남 사람; 베트남어 = vietnamita (idioma)."
+   ],
+   [
+    "영국",
+    "yeongguk",
+    "Reino Unido",
+    "영국 사람 = británico (persona); 영어 = inglés (irregular: no 영국어)."
+   ],
+   [
+    "캐나다",
+    "kaenada",
+    "Canadá",
+    "캐나다 사람. Se habla 영어 y 프랑스어."
+   ],
+   [
+    "호주",
+    "hoju",
+    "Australia",
+    "호주 사람 = australiano. 호주 viene de los caracteres chinos; 오스트레일리아 también es correcto."
+   ],
+   [
+    "독일",
+    "dogil",
+    "Alemania",
+    "독일 사람; 독일어 = alemán (idioma)."
+   ],
+   [
+    "프랑스",
+    "peurangseu",
+    "Francia",
+    "프랑스 사람; 프랑스어 = francés (idioma)."
+   ],
+   [
+    "스페인",
+    "seupein",
+    "España",
+    "스페인 사람; 스페인어 = español (idioma)."
+   ],
+   [
+    "이탈리아",
+    "itallia",
+    "Italia",
+    "이탈리아 사람; 이탈리아어 = italiano (idioma)."
+   ],
+   [
+    "태국",
+    "taeguk",
+    "Tailandia",
+    "태국 사람; 태국어 = tailandés (idioma)."
+   ],
+   [
+    "말레이시아",
+    "malleisia",
+    "Malasia",
+    ""
+   ],
+   [
+    "싱가포르",
+    "singgaporeu",
+    "Singapur",
+    ""
+   ],
+   [
+    "미얀마",
+    "miyanma",
+    "Myanmar",
+    ""
+   ],
+   [
+    "캄보디아",
+    "kambodia",
+    "Camboya",
+    ""
+   ],
+   [
+    "라오스",
+    "raoseu",
+    "Laos",
+    ""
+   ],
+   [
+    "브루나이",
+    "beurunai",
+    "Brunéi",
+    ""
+   ],
+   [
+    "동티모르",
+    "dongtimoreu",
+    "Timor Oriental",
+    ""
+   ],
+   [
+    "네팔",
+    "nepal",
+    "Nepal",
+    ""
+   ],
+   [
+    "스리랑카",
+    "seurirangka",
+    "Sri Lanka",
+    ""
+   ],
+   [
+    "부탄",
+    "butan",
+    "Bután",
+    ""
+   ],
+   [
+    "몰디브",
+    "moldibeu",
+    "Maldivas",
+    ""
+   ],
+   [
+    "아프가니스탄",
+    "apeuganiseutan",
+    "Afganistán",
+    ""
+   ],
+   [
+    "카자흐스탄",
+    "kajaheuseutan",
+    "Kazajistán",
+    ""
+   ],
+   [
+    "우즈베키스탄",
+    "ujeubekiseutan",
+    "Uzbekistán",
+    ""
+   ],
+   [
+    "키르기스스탄",
+    "kireugiseuseutan",
+    "Kirguistán",
+    ""
+   ],
+   [
+    "타지키스탄",
+    "tajikiseutan",
+    "Tayikistán",
+    ""
+   ],
+   [
+    "투르크메니스탄",
+    "tureukeumeniseutan",
+    "Turkmenistán",
+    ""
+   ],
+   [
+    "튀르키예",
+    "twireukiye",
+    "Turquía",
+    "El nombre coreano oficial desde 2022; el antiguo 터키 sigue siendo común. 튀르키예어 = turco (idioma)."
+   ],
+   [
+    "이란",
+    "iran",
+    "Irán",
+    ""
+   ],
+   [
+    "이라크",
+    "irakeu",
+    "Irak",
+    ""
+   ],
+   [
+    "사우디아라비아",
+    "saudiarabia",
+    "Arabia Saudita",
+    "아랍어 = árabe."
+   ],
+   [
+    "아랍에미리트",
+    "arabemiriteu",
+    "Emiratos Árabes Unidos",
+    ""
+   ],
+   [
+    "카타르",
+    "katareu",
+    "Catar",
+    ""
+   ],
+   [
+    "쿠웨이트",
+    "kuweiteu",
+    "Kuwait",
+    ""
+   ],
+   [
+    "바레인",
+    "barein",
+    "Baréin",
+    ""
+   ],
+   [
+    "오만",
+    "oman",
+    "Omán",
+    ""
+   ],
+   [
+    "예멘",
+    "yemen",
+    "Yemen",
+    ""
+   ],
+   [
+    "요르단",
+    "yoreudan",
+    "Jordania",
+    ""
+   ],
+   [
+    "레바논",
+    "rebanon",
+    "Líbano",
+    ""
+   ],
+   [
+    "시리아",
+    "siria",
+    "Siria",
+    ""
+   ],
+   [
+    "이스라엘",
+    "iseurael",
+    "Israel",
+    ""
+   ],
+   [
+    "팔레스타인",
+    "palleseutain",
+    "Palestina",
+    ""
+   ],
+   [
+    "키프로스",
+    "kipeuroseu",
+    "Chipre",
+    ""
+   ],
+   [
+    "조지아",
+    "jojia",
+    "Georgia",
+    "El país. El estado de EE. UU. también es 조지아."
+   ],
+   [
+    "아르메니아",
+    "areumenia",
+    "Armenia",
+    ""
+   ],
+   [
+    "아제르바이잔",
+    "ajereubaijan",
+    "Azerbaiyán",
+    ""
+   ],
+   [
+    "과테말라",
+    "gwatemalla",
+    "Guatemala",
+    ""
+   ],
+   [
+    "벨리즈",
+    "bellijeu",
+    "Belice",
+    ""
+   ],
+   [
+    "엘살바도르",
+    "elsalbadoreu",
+    "El Salvador",
+    ""
+   ],
+   [
+    "온두라스",
+    "onduraseu",
+    "Honduras",
+    ""
+   ],
+   [
+    "니카라과",
+    "nikaragwa",
+    "Nicaragua",
+    ""
+   ],
+   [
+    "코스타리카",
+    "koseutarika",
+    "Costa Rica",
+    ""
+   ],
+   [
+    "파나마",
+    "panama",
+    "Panamá",
+    ""
+   ],
+   [
+    "쿠바",
+    "kuba",
+    "Cuba",
+    ""
+   ],
+   [
+    "자메이카",
+    "jameika",
+    "Jamaica",
+    ""
+   ],
+   [
+    "아이티",
+    "aiti",
+    "Haití",
+    ""
+   ],
+   [
+    "도미니카 공화국",
+    "dominika gonghwaguk",
+    "República Dominicana",
+    "No es la isla Dominica (도미니카 연방)."
+   ],
+   [
+    "푸에르토리코",
+    "puereutoriko",
+    "Puerto Rico",
+    ""
+   ],
+   [
+    "바하마",
+    "bahama",
+    "Bahamas",
+    ""
+   ],
+   [
+    "바베이도스",
+    "babeidoseu",
+    "Barbados",
+    ""
+   ],
+   [
+    "트리니다드 토바고",
+    "teurinidadeu tobago",
+    "Trinidad y Tobago",
+    ""
+   ],
+   [
+    "도미니카 연방",
+    "dominika yeonbang",
+    "Dominica",
+    ""
+   ],
+   [
+    "그레나다",
+    "geurenada",
+    "Granada",
+    ""
+   ],
+   [
+    "세인트루시아",
+    "seinteurusia",
+    "Santa Lucía",
+    ""
+   ],
+   [
+    "세인트빈센트 그레나딘",
+    "seinteubinsenteu geurenadin",
+    "San Vicente y las Granadinas",
+    ""
+   ],
+   [
+    "세인트키츠 네비스",
+    "seinteukicheu nebiseu",
+    "San Cristóbal y Nieves",
+    ""
+   ],
+   [
+    "앤티가 바부다",
+    "aentiga babuda",
+    "Antigua y Barbuda",
+    ""
+   ],
+   [
+    "아르헨티나",
+    "areuhentina",
+    "Argentina",
+    ""
+   ],
+   [
+    "콜롬비아",
+    "kollombia",
+    "Colombia",
+    ""
+   ],
+   [
+    "페루",
+    "peru",
+    "Perú",
+    ""
+   ],
+   [
+    "베네수엘라",
+    "benesuella",
+    "Venezuela",
+    ""
+   ],
+   [
+    "칠레",
+    "chille",
+    "Chile",
+    ""
+   ],
+   [
+    "에콰도르",
+    "ekwadoreu",
+    "Ecuador",
+    ""
+   ],
+   [
+    "볼리비아",
+    "bollibia",
+    "Bolivia",
+    ""
+   ],
+   [
+    "파라과이",
+    "paragwai",
+    "Paraguay",
+    ""
+   ],
+   [
+    "우루과이",
+    "urugwai",
+    "Uruguay",
+    ""
+   ],
+   [
+    "가이아나",
+    "gaiana",
+    "Guyana",
+    ""
+   ],
+   [
+    "수리남",
+    "surinam",
+    "Surinam",
+    ""
+   ],
+   [
+    "잉글랜드",
+    "inggeullaendeu",
+    "Inglaterra",
+    "Una de las cuatro naciones del Reino Unido (영국)."
+   ],
+   [
+    "스코틀랜드",
+    "seukoteullaendeu",
+    "Escocia",
+    ""
+   ],
+   [
+    "웨일스",
+    "weilseu",
+    "Gales",
+    ""
+   ],
+   [
+    "아일랜드",
+    "aillaendeu",
+    "Irlanda",
+    ""
+   ],
+   [
+    "포르투갈",
+    "poreutugal",
+    "Portugal",
+    "포르투갈 사람; 포르투갈어 = portugués (idioma)."
+   ],
+   [
+    "네덜란드",
+    "nedeollandeu",
+    "Países Bajos",
+    "네덜란드 사람; 네덜란드어 = neerlandés (idioma)."
+   ],
+   [
+    "벨기에",
+    "belgie",
+    "Bélgica",
+    ""
+   ],
+   [
+    "룩셈부르크",
+    "ruksembureukeu",
+    "Luxemburgo",
+    ""
+   ],
+   [
+    "스위스",
+    "seuwiseu",
+    "Suiza",
+    ""
+   ],
+   [
+    "오스트리아",
+    "oseuteuria",
+    "Austria",
+    ""
+   ],
+   [
+    "덴마크",
+    "denmakeu",
+    "Dinamarca",
+    ""
+   ],
+   [
+    "노르웨이",
+    "noreuwei",
+    "Noruega",
+    ""
+   ],
+   [
+    "스웨덴",
+    "seuweden",
+    "Suecia",
+    ""
+   ],
+   [
+    "핀란드",
+    "pillandeu",
+    "Finlandia",
+    ""
+   ],
+   [
+    "아이슬란드",
+    "aiseullandeu",
+    "Islandia",
+    ""
+   ],
+   [
+    "폴란드",
+    "pollandeu",
+    "Polonia",
+    "폴란드 사람; 폴란드어 = polaco (idioma)."
+   ],
+   [
+    "체코",
+    "cheko",
+    "Chequia",
+    ""
+   ],
+   [
+    "슬로바키아",
+    "seullobakia",
+    "Eslovaquia",
+    ""
+   ],
+   [
+    "헝가리",
+    "heonggari",
+    "Hungría",
+    ""
+   ],
+   [
+    "루마니아",
+    "rumania",
+    "Rumania",
+    ""
+   ],
+   [
+    "불가리아",
+    "bulgaria",
+    "Bulgaria",
+    ""
+   ],
+   [
+    "그리스",
+    "geuriseu",
+    "Grecia",
+    ""
+   ],
+   [
+    "우크라이나",
+    "ukeuraina",
+    "Ucrania",
+    "우크라이나 사람; 우크라이나어 = ucraniano (idioma)."
+   ],
+   [
+    "벨라루스",
+    "bellaruseu",
+    "Bielorrusia",
+    ""
+   ],
+   [
+    "몰도바",
+    "moldoba",
+    "Moldavia",
+    ""
+   ],
+   [
+    "리투아니아",
+    "rituania",
+    "Lituania",
+    ""
+   ],
+   [
+    "라트비아",
+    "rateubia",
+    "Letonia",
+    ""
+   ],
+   [
+    "에스토니아",
+    "eseutonia",
+    "Estonia",
+    ""
+   ],
+   [
+    "세르비아",
+    "sereubia",
+    "Serbia",
+    ""
+   ],
+   [
+    "크로아티아",
+    "keuroatia",
+    "Croacia",
+    ""
+   ],
+   [
+    "슬로베니아",
+    "seullobenia",
+    "Eslovenia",
+    ""
+   ],
+   [
+    "보스니아 헤르체고비나",
+    "boseunia hereuchegobina",
+    "Bosnia y Herzegovina",
+    ""
+   ],
+   [
+    "몬테네그로",
+    "montenegeuro",
+    "Montenegro",
+    ""
+   ],
+   [
+    "북마케도니아",
+    "bungmakedonia",
+    "Macedonia del Norte",
+    ""
+   ],
+   [
+    "알바니아",
+    "albania",
+    "Albania",
+    ""
+   ],
+   [
+    "코소보",
+    "kosobo",
+    "Kosovo",
+    ""
+   ],
+   [
+    "몰타",
+    "molta",
+    "Malta",
+    ""
+   ],
+   [
+    "모나코",
+    "monako",
+    "Mónaco",
+    ""
+   ],
+   [
+    "리히텐슈타인",
+    "rihitensyutain",
+    "Liechtenstein",
+    ""
+   ],
+   [
+    "안도라",
+    "andora",
+    "Andorra",
+    ""
+   ],
+   [
+    "산마리노",
+    "sanmarino",
+    "San Marino",
+    ""
+   ],
+   [
+    "바티칸",
+    "batikan",
+    "Ciudad del Vaticano",
+    ""
+   ],
+   [
+    "이집트",
+    "ijipteu",
+    "Egipto",
+    ""
+   ],
+   [
+    "에티오피아",
+    "etiopia",
+    "Etiopía",
+    ""
+   ],
+   [
+    "남아프리카 공화국",
+    "namapeurika gonghwaguk",
+    "Sudáfrica",
+    "Muchas veces se acorta a 남아공."
+   ],
+   [
+    "케냐",
+    "kenya",
+    "Kenia",
+    ""
+   ],
+   [
+    "모로코",
+    "moroko",
+    "Marruecos",
+    ""
+   ],
+   [
+    "알제리",
+    "aljeri",
+    "Argelia",
+    ""
+   ],
+   [
+    "튀니지",
+    "twiniji",
+    "Túnez",
+    ""
+   ],
+   [
+    "리비아",
+    "ribia",
+    "Libia",
+    ""
+   ],
+   [
+    "수단",
+    "sudan",
+    "Sudán",
+    ""
+   ],
+   [
+    "남수단",
+    "namsudan",
+    "Sudán del Sur",
+    ""
+   ],
+   [
+    "가나",
+    "gana",
+    "Ghana",
+    ""
+   ],
+   [
+    "코트디부아르",
+    "koteudibuareu",
+    "Costa de Marfil",
+    ""
+   ],
+   [
+    "세네갈",
+    "senegal",
+    "Senegal",
+    ""
+   ],
+   [
+    "카메룬",
+    "kamerun",
+    "Camerún",
+    ""
+   ],
+   [
+    "콩고 민주 공화국",
+    "konggo minju gonghwaguk",
+    "República Democrática del Congo",
+    ""
+   ],
+   [
+    "콩고 공화국",
+    "konggo gonghwaguk",
+    "República del Congo",
+    ""
+   ],
+   [
+    "앙골라",
+    "anggolla",
+    "Angola",
+    ""
+   ],
+   [
+    "탄자니아",
+    "tanjania",
+    "Tanzania",
+    ""
+   ],
+   [
+    "우간다",
+    "uganda",
+    "Uganda",
+    ""
+   ],
+   [
+    "르완다",
+    "reuwanda",
+    "Ruanda",
+    ""
+   ],
+   [
+    "부룬디",
+    "burundi",
+    "Burundi",
+    ""
+   ],
+   [
+    "소말리아",
+    "somallia",
+    "Somalia",
+    ""
+   ],
+   [
+    "지부티",
+    "jibuti",
+    "Yibuti",
+    ""
+   ],
+   [
+    "에리트레아",
+    "eriteurea",
+    "Eritrea",
+    ""
+   ],
+   [
+    "모잠비크",
+    "mojambikeu",
+    "Mozambique",
+    ""
+   ],
+   [
+    "마다가스카르",
+    "madagaseukareu",
+    "Madagascar",
+    ""
+   ],
+   [
+    "짐바브웨",
+    "jimbabeuwe",
+    "Zimbabue",
+    ""
+   ],
+   [
+    "잠비아",
+    "jambia",
+    "Zambia",
+    ""
+   ],
+   [
+    "말라위",
+    "mallawi",
+    "Malaui",
+    ""
+   ],
+   [
+    "보츠와나",
+    "bocheuwana",
+    "Botsuana",
+    ""
+   ],
+   [
+    "나미비아",
+    "namibia",
+    "Namibia",
+    ""
+   ],
+   [
+    "레소토",
+    "resoto",
+    "Lesoto",
+    ""
+   ],
+   [
+    "에스와티니",
+    "eseuwatini",
+    "Esuatini",
+    ""
+   ],
+   [
+    "모리셔스",
+    "morisyeoseu",
+    "Mauricio",
+    ""
+   ],
+   [
+    "세이셸",
+    "seisyel",
+    "Seychelles",
+    ""
+   ],
+   [
+    "코모로",
+    "komoro",
+    "Comoras",
+    ""
+   ],
+   [
+    "카보베르데",
+    "kabobereude",
+    "Cabo Verde",
+    ""
+   ],
+   [
+    "기니",
+    "gini",
+    "Guinea",
+    ""
+   ],
+   [
+    "기니비사우",
+    "ginibisau",
+    "Guinea-Bisáu",
+    ""
+   ],
+   [
+    "적도 기니",
+    "jeokdo gini",
+    "Guinea Ecuatorial",
+    ""
+   ],
+   [
+    "시에라리온",
+    "sierarion",
+    "Sierra Leona",
+    ""
+   ],
+   [
+    "라이베리아",
+    "raiberia",
+    "Liberia",
+    ""
+   ],
+   [
+    "토고",
+    "togo",
+    "Togo",
+    ""
+   ],
+   [
+    "베냉",
+    "benaeng",
+    "Benín",
+    ""
+   ],
+   [
+    "부르키나파소",
+    "bureukinapaso",
+    "Burkina Faso",
+    ""
+   ],
+   [
+    "말리",
+    "malli",
+    "Malí",
+    ""
+   ],
+   [
+    "니제르",
+    "nijereu",
+    "Níger",
+    ""
+   ],
+   [
+    "차드",
+    "chadeu",
+    "Chad",
+    ""
+   ],
+   [
+    "중앙아프리카 공화국",
+    "jungangapeurika gonghwaguk",
+    "República Centroafricana",
+    ""
+   ],
+   [
+    "가봉",
+    "gabong",
+    "Gabón",
+    ""
+   ],
+   [
+    "감비아",
+    "gambia",
+    "Gambia",
+    ""
+   ],
+   [
+    "모리타니",
+    "moritani",
+    "Mauritania",
+    ""
+   ],
+   [
+    "상투메 프린시페",
+    "sangtume peurinsipe",
+    "Santo Tomé y Príncipe",
+    ""
+   ],
+   [
+    "뉴질랜드",
+    "nyujillaendeu",
+    "Nueva Zelanda",
+    ""
+   ],
+   [
+    "피지",
+    "piji",
+    "Fiyi",
+    ""
+   ],
+   [
+    "파푸아뉴기니",
+    "papuanyugini",
+    "Papúa Nueva Guinea",
+    ""
+   ],
+   [
+    "솔로몬 제도",
+    "sollomon jedo",
+    "Islas Salomón",
+    ""
+   ],
+   [
+    "바누아투",
+    "banuatu",
+    "Vanuatu",
+    ""
+   ],
+   [
+    "사모아",
+    "samoa",
+    "Samoa",
+    ""
+   ],
+   [
+    "통가",
+    "tongga",
+    "Tonga",
+    ""
+   ],
+   [
+    "키리바시",
+    "kiribasi",
+    "Kiribati",
+    ""
+   ],
+   [
+    "투발루",
+    "tuballu",
+    "Tuvalu",
+    ""
+   ],
+   [
+    "나우루",
+    "nauru",
+    "Nauru",
+    ""
+   ],
+   [
+    "마셜 제도",
+    "masyeol jedo",
+    "Islas Marshall",
+    ""
+   ],
+   [
+    "미크로네시아",
+    "mikeuronesia",
+    "Micronesia",
+    ""
+   ],
+   [
+    "팔라우",
+    "pallau",
+    "Palaos",
+    ""
+   ],
+   [
+    "괌",
+    "gwam",
+    "Guam",
+    ""
+   ]
   ]
  },
  "GROUPS": [
@@ -4070,7 +8728,25 @@ LANGAPP_PACKS.course['es-ko'] = {
     "Frases de K-drama",
     "K-pop y fandom",
     "Redes y jerga",
-    "Familia y gente"
+    "Familia y gente",
+    "Palabras para coquetear",
+    "Cumplidos"
+   ]
+  ],
+  [
+   "Palabras clave",
+   [
+    "Sustantivos clave",
+    "Verbos clave",
+    "Adjetivos clave",
+    "Adverbios clave",
+    "Pronombres clave",
+    "Partículas clave",
+    "Conectores clave",
+    "Interjecciones clave",
+    "Palabras útiles",
+    "Más contadores",
+    "Países"
    ]
   ]
  ],
@@ -4093,7 +8769,8 @@ LANGAPP_PACKS.course['es-ko'] = {
    "Coqueteo",
    "Salir con amigos",
    "Charla informal",
-   "Noviazgo"
+   "Noviazgo",
+   "Palabras para coquetear"
   ],
   "work": [
    "Presentaciones",
@@ -4125,7 +8802,8 @@ LANGAPP_PACKS.course['es-ko'] = {
    "Médico y farmacia",
    "Vivienda y trámites",
    "Honoríficos",
-   "Trabajo y oficina"
+   "Trabajo y oficina",
+   "Cumplidos"
   ],
   "casual": [
    "Mensajes informales",
@@ -4151,7 +8829,10 @@ LANGAPP_PACKS.course['es-ko'] = {
    "Conectores",
    "Adjetivos",
    "Números",
-   "Honoríficos"
+   "Honoríficos",
+   "Partículas clave",
+   "Conectores clave",
+   "Más contadores"
   ],
   "reading": [
    "Vocales del hangul",
@@ -4183,7 +8864,15 @@ LANGAPP_PACKS.course['es-ko'] = {
    "Bebidas",
    "Actividades",
    "Tele y entretenimiento",
-   "Posición y dirección"
+   "Posición y dirección",
+   "Sustantivos clave",
+   "Verbos clave",
+   "Adjetivos clave",
+   "Adverbios clave",
+   "Pronombres clave",
+   "Interjecciones clave",
+   "Palabras útiles",
+   "Países"
   ]
  },
  "DESC": {
@@ -4230,6 +8919,19 @@ LANGAPP_PACKS.course['es-ko'] = {
   "Familia y gente": "Mamá, papá, hermanos, amigos, profe, y cómo la edad cambia la palabra.",
   "Adjetivos": "Bueno, malo, grande, pequeño, caliente, frío, ocupado, divertido.",
   "Frases de K-drama": "Reacciones y frases que oirás en cada capítulo.",
+  "Sustantivos clave": "Los sustantivos coreanos más usados que el curso todavía no enseña, de más a menos frecuente.",
+  "Verbos clave": "Verbos de acción en forma de diccionario; la nota da la forma en 해요 y marca los irregulares.",
+  "Adjetivos clave": "Verbos descriptivos (en coreano los adjetivos son verbos): la forma en 해요 y la forma antes de un sustantivo.",
+  "Adverbios clave": "Palabras de tiempo, grado, frecuencia y modo: muy, ya, a menudo, por qué, cómo.",
+  "Pronombres clave": "Yo, tú, esto, quién, nadie, y por qué el nombre o el cargo suele reemplazar al «tú».",
+  "Partículas clave": "La respuesta coreana a las preposiciones: las partículas que van más allá de las nueve del mazo Partículas.",
+  "Conectores clave": "Terminaciones que unen (-고, -지만, -아서, -(으)면 …) mostradas en un verbo, y palabras de enlace que no están en Conectores.",
+  "Interjecciones clave": "Lo que de verdad exclaman los coreanos: guau, ay, uy, uf, tarán, y quién dice cada una.",
+  "Palabras útiles": "Este / ese / cuál antes de un sustantivo, formas de los números, días y horas, y maneras de decir sí y no.",
+  "Más contadores": "Contadores que faltan en el mazo Contadores: carros, porciones, rollos, rebanadas, minutos, meses.",
+  "Palabras para coquetear": "Las palabras con las que coquetean los coreanos, frases hechas con ellas y maneras amables de decir sí o no.",
+  "Cumplidos": "Elogios cotidianos para la comida, el trabajo, la casa y los niños, y las respuestas modestas.",
+  "Países": "Todos los países, los más preguntados primero. País + 에서 왔어요 = soy de…; + 사람 = nacionalidad; + 어 = idioma.",
   "My phrases": "Todo lo que agregues tú."
  },
  "DIALOG": {
@@ -4325,8 +9027,8 @@ LANGAPP_PACKS.course['es-ko'] = {
   ],
   "이름이 뭐예요?": [
    "이름이 뭐예요?",
-   "저는 키이예요. 이름이 뭐예요?",
-   "¿Cómo te llamas? / Soy Kii. ¿Y tú?"
+   "저는 @@입니다. 이름이 뭐예요?",
+   "¿Cómo te llamas? / Soy @@. ¿Y tú?"
   ],
   "만나서 반가워요": [
    "만나서 반가워요.",
@@ -4335,8 +9037,8 @@ LANGAPP_PACKS.course['es-ko'] = {
   ],
   "어디에서 왔어요?": [
    "어디에서 왔어요?",
-   "미국에서 왔어요. 오클라호마요.",
-   "¿De dónde eres? / De Estados Unidos. De Oklahoma."
+   "필리핀에서 왔어요. 세부요.",
+   "¿De dónde eres? / De Filipinas. De Cebú."
   ],
   "몇 살이에요?": [
    "실례지만 나이가 어떻게 되세요?",
@@ -4977,6 +9679,266 @@ LANGAPP_PACKS.course['es-ko'] = {
    "선생님, 질문 있어요.",
    "네, 말해 보세요.",
    "Profesora, tengo una pregunta. / Sí, adelante."
+  ],
+  "아": [
+   "그 식당 월요일에 닫아요.",
+   "아, 그래요? 그럼 화요일에 가요.",
+   "Ese restaurante cierra los lunes. / Ah, ¿sí? Entonces vamos el martes."
+  ],
+  "와": [
+   "이거 제가 만든 케이크예요.",
+   "와, 진짜 예뻐요!",
+   "Este pastel lo hice yo. / ¡Guau, está precioso!"
+  ],
+  "어": [
+   "민수야, 나 왔어.",
+   "어, 왔어? 들어와.",
+   "Minsu, ya llegué. / Ah, ¿ya llegaste? Pasa."
+  ],
+  "응": [
+   "내일 같이 점심 먹을래?",
+   "응, 좋아. 몇 시?",
+   "¿Comemos juntos mañana? / Sí, claro. ¿A qué hora?"
+  ],
+  "음": [
+   "뭐 먹고 싶어요?",
+   "음… 오늘은 비빔밥이요.",
+   "¿Qué quieres comer? / Mmm… hoy, bibimbap."
+  ],
+  "오": [
+   "이거 제 첫 월급으로 샀어요.",
+   "오, 멋있다!",
+   "Esto lo compré con mi primer sueldo. / ¡Oh, qué bonito!"
+  ],
+  "우와": [
+   "여기가 남산타워예요.",
+   "우와, 서울이 다 보여요!",
+   "Esta es la Torre Namsan. / ¡Guau, se ve todo Seúl!"
+  ],
+  "어머": [
+   "저 다음 달에 결혼해요.",
+   "어머, 정말요? 축하해요!",
+   "Me caso el próximo mes. / ¡Ay, ¿en serio? ¡Felicidades!"
+  ],
+  "아야": [
+   "아야! 문에 손을 부딪쳤어요.",
+   "괜찮아요? 어디 봐요.",
+   "¡Ay! Me pegué la mano con la puerta. / ¿Estás bien? A ver."
+  ],
+  "아이참": [
+   "얼굴 빨개졌어요!",
+   "아이참, 그만 봐요.",
+   "¡Te pusiste rojo! / Ay, ya, deja de mirarme."
+  ],
+  "글쎄": [
+   "이 영화 재미있을까?",
+   "글쎄, 잘 모르겠어.",
+   "¿Estará buena esta película? / Pues, no sé."
+  ],
+  "에이": [
+   "나 어제 BTS 봤어.",
+   "에이, 거짓말!",
+   "Ayer vi a BTS. / ¡Ay, vamos, mentira!"
+  ],
+  "아싸": [
+   "오늘 회식 없대요.",
+   "아싸! 집에 일찍 가야지.",
+   "Dicen que hoy no hay cena del equipo. / ¡Sí! Me voy temprano a casa."
+  ],
+  "헉": [
+   "벌써 열한 시예요.",
+   "헉, 빨리 가야 돼요!",
+   "Ya son las once. / ¡Uy, me tengo que ir rápido!"
+  ],
+  "앗": [
+   "앗, 커피 쏟았어요!",
+   "괜찮아요, 제가 닦을게요.",
+   "¡Uy, tiré el café! / No pasa nada, yo lo limpio."
+  ],
+  "아차": [
+   "우산 가져왔어요?",
+   "아차, 집에 두고 왔어요.",
+   "¿Trajiste paraguas? / ¡Ay, lo dejé en casa!"
+  ],
+  "휴": [
+   "시험 끝났어요?",
+   "네, 휴, 이제 좀 쉬어야겠어요.",
+   "¿Ya terminó tu examen? / Sí, uf, ahora sí necesito descansar."
+  ],
+  "에휴": [
+   "오늘도 야근이에요?",
+   "에휴, 네. 일이 너무 많아요.",
+   "¿Otra vez horas extra hoy? / Ay, sí. Hay demasiado trabajo."
+  ],
+  "쉿": [
+   "쉿, 아기 자요.",
+   "아, 미안해요. 조용히 할게요.",
+   "Shh, el bebé está durmiendo. / Ah, perdón. No hago ruido."
+  ],
+  "자": [
+   "자, 이제 시작할까요?",
+   "네, 시작해요!",
+   "Bueno, ¿empezamos? / ¡Sí, empecemos!"
+  ],
+  "여보세요": [
+   "여보세요? 민지 씨예요?",
+   "네, 저예요. 무슨 일이에요?",
+   "¿Hola? ¿Es Minji? / Sí, soy yo. ¿Qué pasó?"
+  ],
+  "세상에": [
+   "이 가방이 백만 원이에요.",
+   "세상에, 너무 비싸요!",
+   "Esta bolsa cuesta un millón de wones. / ¡Dios mío, es carísima!"
+  ],
+  "깜짝이야": [
+   "왁!",
+   "아, 깜짝이야! 놀랐잖아.",
+   "¡Bu! / ¡Ay, qué susto! Me hiciste saltar."
+  ],
+  "으악": [
+   "으악, 벌레다!",
+   "가만히 있어요. 제가 잡을게요.",
+   "¡Aaah, un bicho! / Quédate quieto. Yo lo agarro."
+  ],
+  "짜잔": [
+   "짜잔! 생일 선물이에요.",
+   "와, 고마워요! 뭐예요?",
+   "¡Tarán! Es tu regalo de cumpleaños. / ¡Guau, gracias! ¿Qué es?"
+  ],
+  "웩": [
+   "이 우유 날짜 지났어요.",
+   "웩, 벌써 마셨는데!",
+   "Esta leche ya caducó. / ¡Puaj, ya me la tomé!"
+  ],
+  "오늘따라 더 예뻐요": [
+   "오늘따라 더 예뻐요.",
+   "진짜요? 머리 좀 바꿨어요.",
+   "Hoy te ves aún más bonita. / ¿De verdad? Me cambié un poco el peinado."
+  ],
+  "이름도 예쁘네요": [
+   "제 이름은 하늘이에요.",
+   "이름도 예쁘네요.",
+   "Me llamo Haneul. / Hasta tu nombre es bonito."
+  ],
+  "왜 이렇게 귀여워요?": [
+   "왜 이렇게 귀여워요?",
+   "에이, 농담하지 마세요.",
+   "¿Por qué eres tan tierno? / Ay, no bromee."
+  ],
+  "실물이 더 잘생겼어요": [
+   "실물이 더 잘생겼어요.",
+   "하하, 사진이 잘 안 나왔나 봐요.",
+   "En persona eres aún más guapo. / Jaja, creo que no salgo bien en las fotos."
+  ],
+  "일하는 모습이 멋있어요": [
+   "일하는 모습이 멋있어요.",
+   "갑자기요? 고마워요.",
+   "Te ves genial cuando trabajas. / ¿Así, de repente? Gracias."
+  ],
+  "미소가 예뻐요": [
+   "미소가 예뻐요.",
+   "감사합니다. 그런 말 처음 들어요.",
+   "Tienes una sonrisa bonita. / Gracias. Es la primera vez que me lo dicen."
+  ],
+  "눈웃음이 정말 예뻐요": [
+   "눈웃음이 정말 예뻐요.",
+   "아이참, 부끄러워요.",
+   "Tu sonrisa con los ojos es preciosa. / Ay, ya, me da pena."
+  ],
+  "목소리 듣고 싶었어요": [
+   "웬일이에요? 전화를 다 하고.",
+   "그냥, 목소리 듣고 싶었어요.",
+   "¿Y eso? Hasta me llamaste. / Nada más, quería escuchar tu voz."
+  ],
+  "제 스타일이에요": [
+   "저 어때요?",
+   "솔직히, 완전 제 스타일이에요.",
+   "¿Qué te parezco? / La verdad, eres totalmente mi tipo."
+  ],
+  "이상형이 뭐예요?": [
+   "이상형이 뭐예요?",
+   "음… 웃음이 많은 사람이요.",
+   "¿Cuál es tu tipo ideal? / Mmm… alguien que se ría mucho."
+  ],
+  "첫인상이 좋았어요": [
+   "첫인상이 좋았어요.",
+   "저도요. 처음부터 편했어요.",
+   "Me diste una buena primera impresión. / Yo también. Me sentí cómodo desde el principio."
+  ],
+  "밥 먹었어요?": [
+   "밥 먹었어요?",
+   "아직이요. 같이 먹을래요?",
+   "¿Ya comiste? / Todavía no. ¿Comemos juntos?"
+  ],
+  "라면 먹고 갈래요?": [
+   "라면 먹고 갈래요?",
+   "하하, 그 영화 대사죠? 오늘은 집에 갈게요.",
+   "¿Quieres subir a comer ramyeon? / Jaja, es la frase de la película, ¿no? Hoy me voy a casa."
+  ],
+  "같이 밥 먹을래요?": [
+   "이번 주말에 같이 밥 먹을래요?",
+   "좋아요, 언제 만날까요?",
+   "¿Cenamos juntos este fin de semana? / Claro, ¿cuándo nos vemos?"
+  ],
+  "연락해도 돼요?": [
+   "오늘 즐거웠어요. 연락해도 돼요?",
+   "마음은 고맙지만 괜찮아요.",
+   "Hoy me divertí mucho. ¿Te puedo escribir? / Gracias por la intención, pero no, gracias."
+  ],
+  "다음에 또 볼 수 있어요?": [
+   "다음에 또 볼 수 있어요?",
+   "죄송하지만 만나는 사람이 있어요.",
+   "¿Te puedo volver a ver? / Lo siento, pero estoy saliendo con alguien."
+  ],
+  "제가 커피 살게요": [
+   "수업 끝나고 제가 커피 살게요.",
+   "좋은 분인데, 친구로 지내고 싶어요.",
+   "Después de clase te invito un café. / Eres una gran persona, pero prefiero que seamos amigos."
+  ],
+  "음식이 정말 맛있네요": [
+   "음식이 정말 맛있네요.",
+   "별거 아니에요. 많이 드세요.",
+   "La comida está riquísima. / No es nada especial. Coma bastante."
+  ],
+  "이거 어떻게 만드셨어요?": [
+   "이거 어떻게 만드셨어요?",
+   "간단해요. 다음에 알려 드릴게요.",
+   "¿Cómo hizo esto? / Es fácil. La próxima vez le enseño."
+  ],
+  "정말 잘하시네요": [
+   "정말 잘하시네요.",
+   "아니에요, 아직 멀었어요.",
+   "Lo hace usted muy bien. / Ay, no, todavía me falta mucho."
+  ],
+  "꼼꼼하시네요": [
+   "보고서 봤어요. 꼼꼼하시네요.",
+   "좋게 봐 주셔서 감사해요.",
+   "Leí su informe. Qué minucioso es usted. / Gracias por verlo así."
+  ],
+  "동안이시네요": [
+   "마흔이에요? 동안이시네요.",
+   "과찬이세요.",
+   "¿Tiene cuarenta? Se ve muy joven para su edad. / Me elogia demasiado."
+  ],
+  "아이가 정말 귀엽네요": [
+   "아이가 정말 귀엽네요.",
+   "감사해요. 집에서는 말썽꾸러기예요.",
+   "Su hijo es muy tierno. / Gracias. En casa es un pequeño travieso."
+  ],
+  "그 옷 잘 어울리세요": [
+   "그 옷 잘 어울리세요.",
+   "칭찬해 주셔서 감사해요.",
+   "Esa ropa le queda muy bien. / Gracias por el cumplido."
+  ],
+  "발음이 정말 좋으시네요": [
+   "발음이 정말 좋으시네요.",
+   "아니에요. 선생님 덕분이에요.",
+   "Su pronunciación es muy buena. / Ay, no. Es todo gracias a mi profesor."
+  ],
+  "많이 배웠습니다": [
+   "오늘 발표에서 많이 배웠습니다.",
+   "별말씀을요. 들어 줘서 고마워요.",
+   "Hoy aprendí mucho de su presentación. / No es nada. Gracias por escucharme."
   ]
  },
  "EXAMPLES": {
@@ -5275,6 +10237,810 @@ LANGAPP_PACKS.course['es-ko'] = {
   "야근해야 돼요": [
    "오늘 야근해야 돼요. 회식은 다음에요.",
    "Hoy tengo que quedarme a trabajar tarde. La cena de equipo será para la próxima."
+  ],
+  "없다": [
+   "오늘은 시간이 없어요.",
+   "Hoy no tengo tiempo."
+  ],
+  "되다": [
+   "여기서 사진 찍어도 돼요?",
+   "¿Se pueden tomar fotos aquí?"
+  ],
+  "말하다": [
+   "한국어로 말해 주세요.",
+   "Dígalo en coreano, por favor."
+  ],
+  "받다": [
+   "생일에 선물을 많이 받았어요.",
+   "En mi cumpleaños recibí muchos regalos."
+  ],
+  "나오다": [
+   "지하철역에서 나오면 바로 앞이에요.",
+   "Al salir de la estación, está justo enfrente."
+  ],
+  "살다": [
+   "저는 서울에 살아요.",
+   "Vivo en Seúl."
+  ],
+  "만들다": [
+   "엄마가 김밥을 만들었어요.",
+   "Mamá hizo gimbap."
+  ],
+  "생각하다": [
+   "저도 그렇게 생각해요.",
+   "Yo también lo creo."
+  ],
+  "싶다": [
+   "한국에 가고 싶어요.",
+   "Quiero ir a Corea."
+  ],
+  "보이다": [
+   "여기서 바다가 보여요.",
+   "Desde aquí se ve el mar."
+  ],
+  "만나다": [
+   "주말에 친구를 만나요.",
+   "Este fin de semana veo a un amigo."
+  ],
+  "내다": [
+   "오늘은 제가 낼게요.",
+   "Hoy pago yo."
+  ],
+  "쓰다": [
+   "이름을 여기에 써 주세요.",
+   "Escriba su nombre aquí, por favor."
+  ],
+  "들다": [
+   "이 가방 좀 들어 주세요.",
+   "Sosténgame esta bolsa, por favor."
+  ],
+  "시작하다": [
+   "영화가 일곱 시에 시작해요.",
+   "La película empieza a las siete."
+  ],
+  "듣다": [
+   "매일 한국 노래를 들어요.",
+   "Escucho canciones coreanas todos los días."
+  ],
+  "들어가다": [
+   "먼저 들어가세요.",
+   "Pase usted primero, por favor."
+  ],
+  "나가다": [
+   "오늘 저녁에 나가요?",
+   "¿Vas a salir esta noche?"
+  ],
+  "일어나다": [
+   "보통 일곱 시에 일어나요.",
+   "Normalmente me levanto a las siete."
+  ],
+  "기다리다": [
+   "잠깐만 기다려 주세요.",
+   "Espere un momento, por favor."
+  ],
+  "찾다": [
+   "화장실을 찾고 있어요.",
+   "Estoy buscando el baño."
+  ],
+  "걷다": [
+   "집까지 걸어서 가요.",
+   "Me voy caminando a casa."
+  ],
+  "읽다": [
+   "지하철에서 책을 읽어요.",
+   "Leo libros en el metro."
+  ],
+  "열다": [
+   "편의점은 밤에도 열어요.",
+   "Las tiendas de conveniencia abren también de noche."
+  ],
+  "닫다": [
+   "문 좀 닫아 주세요.",
+   "Cierre la puerta, por favor."
+  ],
+  "웃다": [
+   "그 사람은 항상 웃어요.",
+   "Esa persona siempre sonríe."
+  ],
+  "배우다": [
+   "요즘 한국어를 배워요.",
+   "Estos días estoy aprendiendo coreano."
+  ],
+  "가르치다": [
+   "친구가 영어를 가르쳐요.",
+   "Mi amigo enseña inglés."
+  ],
+  "사다": [
+   "시장에서 과일을 샀어요.",
+   "Compré fruta en el mercado."
+  ],
+  "자다": [
+   "어제 늦게 잤어요.",
+   "Ayer me acosté tarde."
+  ],
+  "입다": [
+   "오늘 따뜻한 옷을 입으세요.",
+   "Póngase ropa abrigadora hoy."
+  ],
+  "타다": [
+   "버스를 타고 학교에 가요.",
+   "Voy a la escuela en autobús."
+  ],
+  "내리다": [
+   "다음 역에서 내려요.",
+   "Me bajo en la próxima estación."
+  ],
+  "돌아오다": [
+   "언제 한국에 돌아와요?",
+   "¿Cuándo vuelves a Corea?"
+  ],
+  "보내다": [
+   "사진을 친구에게 보냈어요.",
+   "Le mandé las fotos a un amigo."
+  ],
+  "부르다": [
+   "노래방에서 노래를 불렀어요.",
+   "Cantamos en el karaoke."
+  ],
+  "끝나다": [
+   "회의가 다섯 시에 끝나요.",
+   "La reunión termina a las cinco."
+  ],
+  "시키다": [
+   "치킨 시킬까요?",
+   "¿Pedimos pollo?"
+  ],
+  "믿다": [
+   "저를 믿어 주세요.",
+   "Confíe en mí, por favor."
+  ],
+  "잊다": [
+   "우산을 잊지 마세요.",
+   "No olvide su paraguas."
+  ],
+  "씻다": [
+   "밥 먹기 전에 손을 씻어요.",
+   "Me lavo las manos antes de comer."
+  ],
+  "돕다": [
+   "친구가 이사를 도와줬어요.",
+   "Un amigo me ayudó con la mudanza."
+  ],
+  "묻다": [
+   "길을 몰라서 물어봤어요.",
+   "No sabía el camino, así que pregunté."
+  ],
+  "고르다": [
+   "하나만 골라 주세요.",
+   "Elija solo uno, por favor."
+  ],
+  "바꾸다": [
+   "자리를 바꿔도 돼요?",
+   "¿Podemos cambiar de lugar?"
+  ],
+  "걸리다": [
+   "감기에 걸렸어요.",
+   "Me resfrié."
+  ],
+  "켜다": [
+   "불 좀 켜 주세요.",
+   "Prenda la luz, por favor."
+  ],
+  "지내다": [
+   "요즘 잘 지내요?",
+   "¿Estás bien estos días?"
+  ],
+  "다니다": [
+   "저는 회사에 다녀요.",
+   "Trabajo en una empresa."
+  ],
+  "낫다": [
+   "빨리 나으세요.",
+   "Que se mejore pronto."
+  ],
+  "도착하다": [
+   "몇 시에 공항에 도착해요?",
+   "¿A qué hora llegas al aeropuerto?"
+  ],
+  "찍다": [
+   "여기서 사진 찍을까요?",
+   "¿Nos tomamos una foto aquí?"
+  ],
+  "같다": [
+   "우리는 같은 학교에 다녀요.",
+   "Vamos a la misma escuela."
+  ],
+  "그렇다": [
+   "아, 그래요? 몰랐어요.",
+   "Ah, ¿sí? No sabía."
+  ],
+  "어떻다": [
+   "한국 음식 어때요?",
+   "¿Qué te parece la comida coreana?"
+  ],
+  "다르다": [
+   "한국어와 영어는 많이 달라요.",
+   "El coreano y el inglés son muy diferentes."
+  ],
+  "쉽다": [
+   "한글은 생각보다 쉬워요.",
+   "El hangul es más fácil de lo que crees."
+  ],
+  "어렵다": [
+   "한국어 발음이 어려워요.",
+   "La pronunciación del coreano es difícil."
+  ],
+  "높다": [
+   "저 산이 제일 높아요.",
+   "Esa montaña es la más alta."
+  ],
+  "길다": [
+   "머리가 길어요.",
+   "Tiene el pelo largo."
+  ],
+  "빠르다": [
+   "지하철이 버스보다 빨라요.",
+   "El metro es más rápido que el autobús."
+  ],
+  "젊다": [
+   "할머니가 정말 젊어 보이세요.",
+   "Su abuela se ve muy joven."
+  ],
+  "중요하다": [
+   "건강이 제일 중요해요.",
+   "La salud es lo más importante."
+  ],
+  "필요하다": [
+   "뭐가 필요해요?",
+   "¿Qué necesitas?"
+  ],
+  "깨끗하다": [
+   "방이 정말 깨끗해요.",
+   "El cuarto está muy limpio."
+  ],
+  "무섭다": [
+   "공포 영화는 너무 무서워요.",
+   "Las películas de terror dan demasiado miedo."
+  ],
+  "아프다": [
+   "어디가 아파요?",
+   "¿Dónde te duele?"
+  ],
+  "즐겁다": [
+   "즐거운 주말 보내세요.",
+   "Que pase un fin de semana divertido."
+  ],
+  "반갑다": [
+   "다시 만나서 반가워요.",
+   "Qué gusto verte otra vez."
+  ],
+  "고맙다": [
+   "와 줘서 고마워요.",
+   "Gracias por venir."
+  ],
+  "미안하다": [
+   "늦어서 미안해요.",
+   "Perdón por llegar tarde."
+  ],
+  "맵다": [
+   "이 떡볶이는 너무 매워요.",
+   "Este tteokbokki pica demasiado."
+  ],
+  "뜨겁다": [
+   "국이 뜨거우니까 조심하세요.",
+   "La sopa está caliente, así que tenga cuidado."
+  ],
+  "따뜻하다": [
+   "오늘은 날씨가 따뜻해요.",
+   "Hoy hace un clima cálido."
+  ],
+  "시원하다": [
+   "바람이 시원해요.",
+   "La brisa está fresquita."
+  ],
+  "조용하다": [
+   "도서관은 조용해요.",
+   "La biblioteca es tranquila."
+  ],
+  "편하다": [
+   "집이 제일 편해요.",
+   "En casa se está más cómodo que en ningún lado."
+  ],
+  "친절하다": [
+   "가게 사장님이 친절해요.",
+   "El dueño de la tienda es amable."
+  ],
+  "유명하다": [
+   "이 식당은 비빔밥으로 유명해요.",
+   "Este restaurante es famoso por su bibimbap."
+  ],
+  "무겁다": [
+   "가방이 너무 무거워요.",
+   "La bolsa pesa demasiado."
+  ],
+  "비슷하다": [
+   "두 사람은 얼굴이 비슷해요.",
+   "Esos dos se parecen."
+  ],
+  "이상하다": [
+   "맛이 좀 이상해요.",
+   "Sabe un poco raro."
+  ],
+  "귀찮다": [
+   "오늘은 요리하기 귀찮아요.",
+   "Hoy me da pereza cocinar."
+  ],
+  "부럽다": [
+   "한국에 가요? 부러워요!",
+   "¿Vas a Corea? ¡Qué envidia!"
+  ],
+  "배부르다": [
+   "많이 먹어서 배불러요.",
+   "Comí mucho, así que estoy lleno."
+  ],
+  "빨갛다": [
+   "빨간 옷이 잘 어울려요.",
+   "El rojo te queda muy bien."
+  ],
+  "안": [
+   "저는 커피를 안 마셔요.",
+   "No tomo café."
+  ],
+  "더": [
+   "김치 좀 더 주세요.",
+   "Un poco más de kimchi, por favor."
+  ],
+  "못": [
+   "저는 수영 못 해요.",
+   "No sé nadar."
+  ],
+  "잘": [
+   "한국 음식 잘 먹어요.",
+   "Como comida coreana sin problema."
+  ],
+  "다": [
+   "숙제 다 했어요.",
+   "Terminé toda la tarea."
+  ],
+  "좀": [
+   "이것 좀 도와주세요.",
+   "¿Me ayuda con esto, por favor?"
+  ],
+  "다시": [
+   "다시 한번 말해 주세요.",
+   "Dígalo una vez más, por favor."
+  ],
+  "많이": [
+   "많이 드세요.",
+   "Coma bastante."
+  ],
+  "같이": [
+   "같이 점심 먹어요.",
+   "Almorcemos juntos."
+  ],
+  "바로": [
+   "은행은 바로 옆에 있어요.",
+   "El banco está justo al lado."
+  ],
+  "제일": [
+   "저는 김치찌개를 제일 좋아해요.",
+   "Lo que más me gusta es el kimchi jjigae."
+  ],
+  "정말": [
+   "오늘 정말 즐거웠어요.",
+   "Hoy me divertí mucho."
+  ],
+  "너무": [
+   "이 가방은 너무 비싸요.",
+   "Esta bolsa es demasiado cara."
+  ],
+  "아직": [
+   "아직 밥 안 먹었어요.",
+   "Todavía no he comido."
+  ],
+  "벌써": [
+   "벌써 열두 시예요?",
+   "¿Ya son las doce?"
+  ],
+  "곧": [
+   "버스가 곧 와요.",
+   "El autobús llega pronto."
+  ],
+  "빨리": [
+   "빨리 오세요!",
+   "¡Venga rápido!"
+  ],
+  "자주": [
+   "여기 자주 와요?",
+   "¿Vienes seguido aquí?"
+  ],
+  "가끔": [
+   "가끔 혼자 영화를 봐요.",
+   "A veces veo películas solo."
+  ],
+  "항상": [
+   "엄마는 항상 일찍 일어나요.",
+   "Mamá siempre se levanta temprano."
+  ],
+  "계속": [
+   "계속 비가 와요.",
+   "Sigue lloviendo."
+  ],
+  "또": [
+   "내일 또 만나요.",
+   "Nos vemos otra vez mañana."
+  ],
+  "별로": [
+   "저는 매운 음식을 별로 안 좋아해요.",
+   "No me gusta mucho la comida picante."
+  ],
+  "전혀": [
+   "일본어는 전혀 몰라요.",
+   "No sé nada de japonés."
+  ],
+  "꼭": [
+   "다음에 꼭 오세요.",
+   "No deje de venir la próxima vez."
+  ],
+  "아마": [
+   "아마 내일 비가 올 거예요.",
+   "Probablemente llueva mañana."
+  ],
+  "혹시": [
+   "혹시 영어 할 수 있어요?",
+   "¿Habla inglés, por casualidad?"
+  ],
+  "거의": [
+   "거의 다 왔어요.",
+   "Ya casi llegamos."
+  ],
+  "이제": [
+   "이제 집에 가요.",
+   "Ya me voy a casa."
+  ],
+  "방금": [
+   "방금 도착했어요.",
+   "Acabo de llegar."
+  ],
+  "나중에": [
+   "나중에 전화할게요.",
+   "Te llamo después."
+  ],
+  "요즘": [
+   "요즘 뭐 해요?",
+   "¿Qué haces estos días?"
+  ],
+  "갑자기": [
+   "갑자기 비가 왔어요.",
+   "De repente llovió."
+  ],
+  "열심히": [
+   "한국어를 열심히 공부해요.",
+   "Estudio coreano con empeño."
+  ],
+  "그냥": [
+   "그냥 물 주세요.",
+   "Solo agua, por favor."
+  ],
+  "혼자": [
+   "혼자 여행했어요.",
+   "Viajé solo."
+  ],
+  "왜": [
+   "왜 안 왔어요?",
+   "¿Por qué no viniste?"
+  ],
+  "어떻게": [
+   "명동에 어떻게 가요?",
+   "¿Cómo llego a Myeongdong?"
+  ],
+  "나": [
+   "나도 그거 좋아해.",
+   "A mí también me gusta eso. (informal)"
+  ],
+  "저": [
+   "저는 멕시코 사람이에요.",
+   "Soy mexicano."
+  ],
+  "너": [
+   "너 오늘 뭐 해?",
+   "¿Qué haces hoy? (informal)"
+  ],
+  "우리": [
+   "우리 같이 가요.",
+   "Vamos juntos."
+  ],
+  "저희": [
+   "저희 가게에 오신 걸 환영합니다.",
+   "Bienvenido a nuestra tienda."
+  ],
+  "내": [
+   "이거 내 거야.",
+   "Esto es mío. (informal)"
+  ],
+  "제": [
+   "제 이름은 민준이에요.",
+   "Me llamo Minjun."
+  ],
+  "그": [
+   "그는 아무 말도 하지 않았다.",
+   "Él no dijo ni una palabra. (estilo escrito)"
+  ],
+  "그녀": [
+   "그녀는 웃으면서 대답했다.",
+   "Ella respondió con una sonrisa. (estilo escrito)"
+  ],
+  "당신": [
+   "당신을 사랑해요.",
+   "Te amo. (en una canción, o una pareja casada hace mucho)"
+  ],
+  "자기": [
+   "자기 일은 자기가 하세요.",
+   "Haga usted mismo su propio trabajo."
+  ],
+  "여러분": [
+   "여러분, 안녕하세요!",
+   "¡Hola a todos!"
+  ],
+  "씨": [
+   "지수 씨, 커피 마실래요?",
+   "Jisu, ¿quieres un café?"
+  ],
+  "그쪽": [
+   "그쪽은 이름이 뭐예요?",
+   "¿Y tú cómo te llamas?"
+  ],
+  "누구": [
+   "저 사람은 누구예요?",
+   "¿Quién es esa persona?"
+  ],
+  "뭐": [
+   "주말에 뭐 했어요?",
+   "¿Qué hiciste el fin de semana?"
+  ],
+  "무엇": [
+   "무엇을 도와드릴까요?",
+   "¿En qué le puedo ayudar?"
+  ],
+  "어디": [
+   "어디 살아요?",
+   "¿Dónde vives?"
+  ],
+  "이것": [
+   "이것은 제 책이에요.",
+   "Este es mi libro."
+  ],
+  "그것": [
+   "그것도 좋은 생각이에요.",
+   "Esa también es una buena idea."
+  ],
+  "저것": [
+   "저것은 뭐예요?",
+   "¿Qué es aquello?"
+  ],
+  "이거": [
+   "이거 얼마예요?",
+   "¿Cuánto cuesta esto?"
+  ],
+  "그거": [
+   "그거 맛있어요?",
+   "¿Eso está rico?"
+  ],
+  "저거": [
+   "저거 주세요.",
+   "Aquello de allá, por favor."
+  ],
+  "거기": [
+   "거기 몇 시까지 해요?",
+   "¿Hasta qué hora abren ahí?"
+  ],
+  "이분": [
+   "이분은 제 선생님이세요.",
+   "Él es mi profesor."
+  ],
+  "그분": [
+   "그분은 정말 친절하세요.",
+   "Esa persona es muy amable."
+  ],
+  "저분": [
+   "저분이 사장님이세요?",
+   "¿Aquella persona es el dueño?"
+  ],
+  "얘": [
+   "얘는 제 동생이에요.",
+   "Este es mi hermano menor."
+  ],
+  "걔": [
+   "걔 요즘 바빠요.",
+   "Él anda ocupado estos días. (de un amigo)"
+  ],
+  "쟤": [
+   "쟤 누구야?",
+   "¿Quién es aquel? (informal)"
+  ],
+  "이쪽": [
+   "이쪽으로 오세요.",
+   "Venga por aquí, por favor."
+  ],
+  "저쪽": [
+   "화장실은 저쪽에 있어요.",
+   "El baño está por allá."
+  ],
+  "아무": [
+   "아무 때나 연락하세요.",
+   "Escríbame cuando quiera."
+  ],
+  "아무도": [
+   "집에 아무도 없어요.",
+   "No hay nadie en casa."
+  ],
+  "아무것도": [
+   "아침에 아무것도 안 먹었어요.",
+   "En la mañana no comí nada."
+  ],
+  "누군가": [
+   "누군가 문을 열었어요.",
+   "Alguien abrió la puerta."
+  ],
+  "뭔가": [
+   "뭔가 이상해요.",
+   "Algo no está bien."
+  ],
+  "어딘가": [
+   "핸드폰이 집 어딘가에 있을 거예요.",
+   "Mi celular debe estar en algún lado de la casa."
+  ],
+  "자신": [
+   "자신을 믿으세요.",
+   "Crea en usted mismo."
+  ],
+  "(으)로": [
+   "지하철로 가요.",
+   "Voy en metro."
+  ],
+  "까지": [
+   "몇 시까지 열어요?",
+   "¿Hasta qué hora abren?"
+  ],
+  "부터": [
+   "수업은 아홉 시부터예요.",
+   "La clase empieza a las nueve."
+  ],
+  "한테": [
+   "친구한테 선물을 줬어요.",
+   "Le di un regalo a un amigo."
+  ],
+  "에게": [
+   "선생님에게 이메일을 보냈어요.",
+   "Le mandé un correo al profesor."
+  ],
+  "께": [
+   "할머니께 전화했어요.",
+   "Llamé a mi abuela."
+  ],
+  "한테서": [
+   "언니한테서 문자가 왔어요.",
+   "Me llegó un mensaje de mi hermana."
+  ],
+  "보다": [
+   "오늘이 어제보다 추워요.",
+   "Hoy hace más frío que ayer."
+  ],
+  "처럼": [
+   "한국 사람처럼 말해요.",
+   "Hablas como un coreano."
+  ],
+  "마다": [
+   "주말마다 등산해요.",
+   "Cada fin de semana voy de excursión a la montaña."
+  ],
+  "밖에": [
+   "천 원밖에 없어요.",
+   "Solo tengo mil wones."
+  ],
+  "이나 / 나": [
+   "커피나 차 마실래요?",
+   "¿Quieres café o té?"
+  ],
+  "이랑 / 랑": [
+   "친구랑 영화 봤어요.",
+   "Vi una película con un amigo."
+  ],
+  "께서": [
+   "할아버지께서 오셨어요.",
+   "Llegó el abuelo."
+  ],
+  "쯤": [
+   "세 시쯤 만나요.",
+   "Veámonos como a las tres."
+  ],
+  "씩": [
+   "한 사람에 하나씩 가져가세요.",
+   "Tome uno cada uno, por favor."
+  ],
+  "근데": [
+   "근데 내일 시간 있어요?",
+   "Por cierto, ¿estás libre mañana?"
+  ],
+  "그러니까": [
+   "비가 와요. 그러니까 우산 가져가세요.",
+   "Está lloviendo. Así que llévese un paraguas."
+  ],
+  "그렇지만": [
+   "비싸요. 그렇지만 맛있어요.",
+   "Es caro. Pero está rico."
+  ],
+  "게다가": [
+   "이 집은 싸요. 게다가 맛있어요.",
+   "Este lugar es barato. Además, está rico."
+  ],
+  "먹고": [
+   "밥 먹고 커피 마셔요.",
+   "Como y luego tomo café."
+  ],
+  "비싸지만": [
+   "비싸지만 맛있어요.",
+   "Es caro, pero está rico."
+  ],
+  "가서": [
+   "시장에 가서 과일을 샀어요.",
+   "Fui al mercado y compré fruta."
+  ],
+  "피곤해서": [
+   "피곤해서 일찍 잤어요.",
+   "Estaba cansado, así que me acosté temprano."
+  ],
+  "가면": [
+   "한국에 가면 뭐 하고 싶어요?",
+   "Si vas a Corea, ¿qué quieres hacer?"
+  ],
+  "비가 오니까": [
+   "비가 오니까 택시 타요.",
+   "Está lloviendo, así que tomemos un taxi."
+  ],
+  "바쁜데": [
+   "지금 바쁜데 이따 전화할게요.",
+   "Ahora estoy ocupado, así que te llamo al rato."
+  ],
+  "먹으러": [
+   "점심 먹으러 가요.",
+   "Vamos a almorzar."
+  ],
+  "걸으면서": [
+   "걸으면서 음악을 들어요.",
+   "Escucho música mientras camino."
+  ],
+  "가다가": [
+   "학교에 가다가 친구를 만났어요.",
+   "Camino a la escuela me encontré con un amigo."
+  ],
+  "자거나": [
+   "주말에는 자거나 영화를 봐요.",
+   "Los fines de semana duermo o veo películas."
+  ],
+  "비싸도": [
+   "비싸도 사고 싶어요.",
+   "Aunque sea caro, lo quiero comprar."
+  ],
+  "자기 전에": [
+   "자기 전에 책을 읽어요.",
+   "Leo antes de dormir."
+  ],
+  "먹은 후에": [
+   "밥 먹은 후에 산책해요.",
+   "Después de comer, salgo a caminar."
+  ],
+  "갈 때": [
+   "한국에 갈 때 선물을 사요.",
+   "Cuando voy a Corea compro regalos."
+  ],
+  "도착하자마자": [
+   "집에 도착하자마자 잤어요.",
+   "En cuanto llegué a casa me quedé dormido."
+  ],
+  "일": [
+   "오늘은 일이 너무 많아요.",
+   "Hoy tengo demasiado trabajo."
   ]
  },
  "PATTERNS": [
@@ -5581,7 +11347,7 @@ LANGAPP_PACKS.course['es-ko'] = {
    "title": "3 · Conocer gente",
    "blurb": "Preséntate, haz las cuatro preguntas de siempre y despídete como se debe.",
    "deck": "Presentaciones",
-   "body": "\n<p>Toda primera conversación en Corea sigue el mismo guion. Apréndete el guion y podrás sostenerla desde el primer día.</p>\n<h3>El guion</h3>\n{{ex:안녕하세요. 저는 키이예요|annyeonghaseyo. jeoneun kiiyeyo|Hola. Soy Kii.}}{{ex:만나서 반가워요|mannaseo bangawoyo|Mucho gusto}}{{ex:어디에서 왔어요?|eodieseo wasseoyo?|¿De dónde eres?}}{{ex:미국에서 왔어요|migugeseo wasseoyo|Soy de Estados Unidos}}{{ex:무슨 일 해요?|museun il haeyo?|¿A qué te dedicas?}}{{ex:한국어 공부해요|hangugeo gongbuhaeyo|Estudio coreano}}\n<h3>이에요 o 예요</h3><p>«Soy ___» lleva <b>이에요</b> después de consonante final y <b>예요</b> después de vocal. Un nombre sigue su escritura en hangul, no cómo suena en tu idioma, así que fíjate en el último bloque en hangul: Mike = 마이크 → 마이크예요, Juan = 후안 → 후안이에요. Fíjate que aquí el verbo va al final, después del nombre: «Lisa soy».</p>\n<div class=\"tbl\"><table><tr><th>Termina en</th><th>Usa</th><th>Ejemplo</th></tr><tr><td>consonante</td><td class=\"k\">이에요</td><td>학생이에요 · 킴이에요</td></tr><tr><td>vocal</td><td class=\"k\">예요</td><td>저예요 · 리사예요</td></tr></table></div>\n<h3>Preguntar la edad es normal</h3><p>En Corea se pregunta 몇 살이에요? muy pronto, porque la edad define el nivel de cortesía entre ustedes. Responde con un número coreano nativo + 살.</p>\n{{ex:몇 살이에요?|myeot sarieyo?|¿Cuántos años tienes?}}{{ex:스물여덟 살이에요|seumullyeodeol sarieyo|Tengo 28 años}}\n<h3>Dos despedidas</h3><p>Cuál dices depende de quién se va.</p>\n{{ex:안녕히 가세요|annyeonghi gaseyo|Adiós, vaya en paz (la otra persona se va)}}{{ex:안녕히 계세요|annyeonghi gyeseyo|Adiós, quédese en paz (tú te vas)}}\n<div class=\"tip\">¿Se van los dos (por ejemplo, al salir de un café)? Los dos dicen 안녕히 가세요. Por teléfono se suele decir 안녕히 계세요 o 들어가세요.</div>\n<h3>Dilo de 3 maneras</h3><div class=\"tbl\"><table><tr><th>Formal</th><th>Cortés</th><th>Informal</th><th></th></tr><tr><td class=\"k\">만나서 반갑습니다</td><td class=\"k\">만나서 반가워요</td><td class=\"k\">반가워</td><td>mucho gusto</td></tr><tr><td class=\"k\">성함이 어떻게 되세요?</td><td class=\"k\">이름이 뭐예요?</td><td class=\"k\">이름이 뭐야?</td><td>¿cómo te llamas?</td></tr></table></div>\n"
+   "body": "\n<p>Toda primera conversación en Corea sigue el mismo guion. Apréndete el guion y podrás sostenerla desde el primer día.</p>\n<h3>El guion</h3>\n{{ex:안녕하세요. 저는 @@입니다|annyeonghaseyo. jeoneun @@imnida|Hola. Soy @@.}}{{ex:만나서 반가워요|mannaseo bangawoyo|Mucho gusto}}{{ex:어디에서 왔어요?|eodieseo wasseoyo?|¿De dónde eres?}}{{ex:멕시코에서 왔어요|meksikoeseo wasseoyo|Soy de México}}{{ex:무슨 일 해요?|museun il haeyo?|¿A qué te dedicas?}}{{ex:한국어 공부해요|hangugeo gongbuhaeyo|Estudio coreano}}\n<div class=\"tip\">Cualquier país funciona igual: 미국에서, 필리핀에서, 일본에서 왔어요. El mazo Países tiene todos los países.</div>\n<h3>이에요 o 예요</h3><p>«Soy ___» lleva <b>이에요</b> después de consonante final y <b>예요</b> después de vocal. Un nombre sigue su escritura en hangul, no cómo suena en tu idioma, así que fíjate en el último bloque en hangul: Mike = 마이크 → 마이크예요, Juan = 후안 → 후안이에요. Fíjate que aquí el verbo va al final, después del nombre: «Lisa soy».</p>\n<div class=\"tbl\"><table><tr><th>Termina en</th><th>Usa</th><th>Ejemplo</th></tr><tr><td>consonante</td><td class=\"k\">이에요</td><td>학생이에요 · 킴이에요</td></tr><tr><td>vocal</td><td class=\"k\">예요</td><td>저예요 · 리사예요</td></tr></table></div>\n<h3>Preguntar la edad es normal</h3><p>En Corea se pregunta 몇 살이에요? muy pronto, porque la edad define el nivel de cortesía entre ustedes. Responde con un número coreano nativo + 살.</p>\n{{ex:몇 살이에요?|myeot sarieyo?|¿Cuántos años tienes?}}{{ex:스물여덟 살이에요|seumullyeodeol sarieyo|Tengo 28 años}}\n<h3>Dos despedidas</h3><p>Cuál dices depende de quién se va.</p>\n{{ex:안녕히 가세요|annyeonghi gaseyo|Adiós, vaya en paz (la otra persona se va)}}{{ex:안녕히 계세요|annyeonghi gyeseyo|Adiós, quédese en paz (tú te vas)}}\n<div class=\"tip\">¿Se van los dos (por ejemplo, al salir de un café)? Los dos dicen 안녕히 가세요. Por teléfono se suele decir 안녕히 계세요 o 들어가세요.</div>\n<h3>Dilo de 3 maneras</h3><div class=\"tbl\"><table><tr><th>Formal</th><th>Cortés</th><th>Informal</th><th></th></tr><tr><td class=\"k\">만나서 반갑습니다</td><td class=\"k\">만나서 반가워요</td><td class=\"k\">반가워</td><td>mucho gusto</td></tr><tr><td class=\"k\">성함이 어떻게 되세요?</td><td class=\"k\">이름이 뭐예요?</td><td class=\"k\">이름이 뭐야?</td><td>¿cómo te llamas?</td></tr></table></div>\n"
   },
   {
    "id": "sound-changes",
@@ -5651,7 +11417,7 @@ LANGAPP_PACKS.course['es-ko'] = {
    "title": "13 · 에 y 에서, y el mapa de partículas",
    "blurb": "에 para adónde vas, dónde está algo y cuándo; 에서 para dónde haces algo y de dónde vienes.",
    "deck": "Partículas",
-   "body": "\n<p><b>에</b> y <b>에서</b> se pegan a lugares, y el español suele traducir los dos como «en»: estoy en casa, estudio en casa. La diferencia está en el verbo. <b>에</b> va con ir, venir y estar en un lugar, y con el tiempo; con destinos equivale a «a». <b>에서</b> va con hacer algo en un lugar, y con «de» o «desde».</p>\n<h3>에: adónde vas</h3><p>Destino + 에 con 가요 (ir) y 와요 (venir), como «voy a casa».</p>\n{{ex:집에 가요|jibe gayo|Voy a casa}}{{ex:학교에 가요|hakgyoe gayo|Voy a la escuela}}{{ex:친구가 카페에 와요|chinguga kapee wayo|Mi amigo viene a la cafetería}}\n<h3>에: dónde está algo, y cuándo</h3><p>Lugar + 에 con 있어요 / 없어요, y palabras de tiempo + 에: 주말에 (el fin de semana), 아침에 (en la mañana). Ojo: «el fin de semana» no lleva preposición en español, pero 주말에 sí lleva 에.</p>\n{{ex:고양이가 집에 있어요|goyangiga jibe isseoyo|El gato está en casa}}{{ex:주말에 학교에 가요|jumare hakgyoe gayo|Voy a la escuela el fin de semana}}{{ex:아침에 커피를 마셔요|achime keopireul masyeoyo|Tomo café en la mañana}}\n<h3>에서: dónde haces algo, y «de»</h3><p>Lugar + 에서 cuando ahí ocurre una acción: comer, estudiar, descansar, trabajar. También «de» o «desde» con 왔어요.</p>\n{{ex:집에서 쉬어요|jibeseo swieoyo|Descanso en casa}}{{ex:카페에서 공부해요|kapeeseo gongbuhaeyo|Estudio en una cafetería}}{{ex:미국에서 왔어요|migugeseo wasseoyo|Vine de Estados Unidos}}\n<h3>Tema y sujeto, en breve</h3><p><b>은/는</b> pone el marco («en cuanto a mí…»); <b>이/가</b> señala la cosa concreta, sobre todo información nueva o la respuesta a «¿quién?». El español lo hace con el orden: en «vino mi amigo», lo nuevo va al final.</p>\n{{ex:저는 학생이에요|jeoneun haksaengieyo|En cuanto a mí, soy estudiante}}{{ex:누가 왔어요? 친구가 왔어요|nuga wasseoyo? chinguga wasseoyo|¿Quién vino? Vino mi amigo (información nueva → 가)}}\n<h3>El mapa de partículas hasta ahora</h3>\n<div class=\"tbl\"><table><tr><th>Función</th><th>Tras consonante</th><th>Tras vocal</th><th>Ejemplo</th></tr><tr><td>Tema</td><td class=\"k\">은</td><td class=\"k\">는</td><td>저는 (en cuanto a mí)</td></tr><tr><td>Sujeto</td><td class=\"k\">이</td><td class=\"k\">가</td><td>고양이가 (un gato)</td></tr><tr><td>Objeto</td><td class=\"k\">을</td><td class=\"k\">를</td><td>밥을 (arroz)</td></tr><tr><td>A, en (estar), cuándo</td><td class=\"k\" colspan=\"2\">에</td><td>집에 가요 · 주말에</td></tr><tr><td>En (acción), desde</td><td class=\"k\" colspan=\"2\">에서</td><td>집에서 쉬어요</td></tr><tr><td>También</td><td class=\"k\" colspan=\"2\">도</td><td>저도 (yo también), en la lección 15</td></tr></table></div>\n<div class=\"tip\">Prueba rápida: mira el verbo. 가요, 와요, 있어요, 없어요 → 에. Si haces algo activamente ahí (먹어요, 공부해요, 쉬어요) → 에서.</div>\n<div class=\"tip\" style=\"background:var(--accent-soft)\"><b>Errores comunes</b><ul style=\"margin:6px 0 0;padding-left:18px\"><li>에서 para un destino — 집에서 가요 ✗ → 집에 가요 ✓</li><li>에 para una acción — 카페에 공부해요 ✗ → 카페에서 공부해요 ✓</li><li>에서 con 있어요 — 집에서 있어요 ✗ → 집에 있어요 ✓</li><li>Partícula antes del sustantivo, como una preposición — 에 집 ✗ → 집에 ✓</li></ul></div>"
+   "body": "\n<p><b>에</b> y <b>에서</b> se pegan a lugares, y el español suele traducir los dos como «en»: estoy en casa, estudio en casa. La diferencia está en el verbo. <b>에</b> va con ir, venir y estar en un lugar, y con el tiempo; con destinos equivale a «a». <b>에서</b> va con hacer algo en un lugar, y con «de» o «desde».</p>\n<h3>에: adónde vas</h3><p>Destino + 에 con 가요 (ir) y 와요 (venir), como «voy a casa».</p>\n{{ex:집에 가요|jibe gayo|Voy a casa}}{{ex:학교에 가요|hakgyoe gayo|Voy a la escuela}}{{ex:친구가 카페에 와요|chinguga kapee wayo|Mi amigo viene a la cafetería}}\n<h3>에: dónde está algo, y cuándo</h3><p>Lugar + 에 con 있어요 / 없어요, y palabras de tiempo + 에: 주말에 (el fin de semana), 아침에 (en la mañana). Ojo: «el fin de semana» no lleva preposición en español, pero 주말에 sí lleva 에.</p>\n{{ex:고양이가 집에 있어요|goyangiga jibe isseoyo|El gato está en casa}}{{ex:주말에 학교에 가요|jumare hakgyoe gayo|Voy a la escuela el fin de semana}}{{ex:아침에 커피를 마셔요|achime keopireul masyeoyo|Tomo café en la mañana}}\n<h3>에서: dónde haces algo, y «de»</h3><p>Lugar + 에서 cuando ahí ocurre una acción: comer, estudiar, descansar, trabajar. También «de» o «desde» con 왔어요.</p>\n{{ex:집에서 쉬어요|jibeseo swieoyo|Descanso en casa}}{{ex:카페에서 공부해요|kapeeseo gongbuhaeyo|Estudio en una cafetería}}{{ex:캐나다에서 왔어요|kaenadaeseo wasseoyo|Vine de Canadá}}\n<h3>Tema y sujeto, en breve</h3><p><b>은/는</b> pone el marco («en cuanto a mí…»); <b>이/가</b> señala la cosa concreta, sobre todo información nueva o la respuesta a «¿quién?». El español lo hace con el orden: en «vino mi amigo», lo nuevo va al final.</p>\n{{ex:저는 학생이에요|jeoneun haksaengieyo|En cuanto a mí, soy estudiante}}{{ex:누가 왔어요? 친구가 왔어요|nuga wasseoyo? chinguga wasseoyo|¿Quién vino? Vino mi amigo (información nueva → 가)}}\n<h3>El mapa de partículas hasta ahora</h3>\n<div class=\"tbl\"><table><tr><th>Función</th><th>Tras consonante</th><th>Tras vocal</th><th>Ejemplo</th></tr><tr><td>Tema</td><td class=\"k\">은</td><td class=\"k\">는</td><td>저는 (en cuanto a mí)</td></tr><tr><td>Sujeto</td><td class=\"k\">이</td><td class=\"k\">가</td><td>고양이가 (un gato)</td></tr><tr><td>Objeto</td><td class=\"k\">을</td><td class=\"k\">를</td><td>밥을 (arroz)</td></tr><tr><td>A, en (estar), cuándo</td><td class=\"k\" colspan=\"2\">에</td><td>집에 가요 · 주말에</td></tr><tr><td>En (acción), desde</td><td class=\"k\" colspan=\"2\">에서</td><td>집에서 쉬어요</td></tr><tr><td>También</td><td class=\"k\" colspan=\"2\">도</td><td>저도 (yo también), en la lección 15</td></tr></table></div>\n<div class=\"tip\">Prueba rápida: mira el verbo. 가요, 와요, 있어요, 없어요 → 에. Si haces algo activamente ahí (먹어요, 공부해요, 쉬어요) → 에서.</div>\n<div class=\"tip\" style=\"background:var(--accent-soft)\"><b>Errores comunes</b><ul style=\"margin:6px 0 0;padding-left:18px\"><li>에서 para un destino — 집에서 가요 ✗ → 집에 가요 ✓</li><li>에 para una acción — 카페에 공부해요 ✗ → 카페에서 공부해요 ✓</li><li>에서 con 있어요 — 집에서 있어요 ✗ → 집에 있어요 ✓</li><li>Partícula antes del sustantivo, como una preposición — 에 집 ✗ → 집에 ✓</li></ul></div>"
   },
   {
    "id": "negation",
@@ -5791,7 +11557,7 @@ LANGAPP_PACKS.course['es-ko'] = {
    "title": "33 · Coreano para la oficina",
    "blurb": "Cargos, la familia de 수고, cómo empezar y cerrar un correo, y cómo sobrevivir al 회식.",
    "deck": "Trabajo y oficina",
-   "body": "\n<p>Las oficinas coreanas funcionan con cargos y frases hechas. Apréndete las frases hechas y desde el primer día sonarás como de la casa.</p>\n<h3>Cargos (siempre + 님)</h3>\n<div class=\"tbl\"><table><tr><th>Cargo</th><th>Más o menos</th></tr><tr><td class=\"k\">사원</td><td>empleado (no se usa para dirigirse a nadie: di el nombre + 씨)</td></tr><tr><td class=\"k\">대리님</td><td>subgerente</td></tr><tr><td class=\"k\">과장님</td><td>gerente</td></tr><tr><td class=\"k\">차장님 / 부장님</td><td>gerente sénior / jefe de departamento</td></tr><tr><td class=\"k\">팀장님</td><td>líder de equipo</td></tr><tr><td class=\"k\">사장님 / 대표님</td><td>director general</td></tr></table></div>\n<p>Llama a la gente por su cargo, no por su nombre, como «licenciado» o «ingeniero» en varios países de habla hispana, pero aquí es obligatorio: 과장님, 이거 확인해 주시겠어요? Si no sabes el cargo de alguien, pregúntale a un compañero; en el chat, el nombre + 님 es una opción segura.</p>\n<h3>La familia de 수고</h3>\n{{ex:수고하세요|sugohaseyo|Ánimo con el trabajo (a quien se queda trabajando, cuando te vas)}}{{ex:수고하셨습니다|sugohasyeotseumnida|Gracias por su trabajo de hoy (a un superior, al salir)}}{{ex:수고했어요|sugohaesseoyo|Buen trabajo (a alguien de menor rango o a un igual)}}\n<h3>Un correo en cuatro líneas</h3>\n{{ex:안녕하세요, 마케팅팀 키이입니다|annyeonghaseyo, maketingtim kiiimnida|Hola, soy Kii, del equipo de marketing}}{{ex:다름이 아니라 보고서 관련해서 연락드립니다|dareumi anira bogoseo gwallyeonhaeseo yeollakdeurimnida|Le escribo por el informe}}{{ex:확인 부탁드립니다|hwagin butakdeurimnida|Le pido que lo revise, por favor}}{{ex:감사합니다. 키이 드림|gamsahamnida. kii deurim|Gracias. Kii}}\n<h3>Reglas del 회식</h3><p>Es la cena con el equipo después del trabajo. Sirve a los demás con las dos manos, recibe con las dos manos, voltéate un poco hacia un lado cuando bebas frente a un superior y nunca te sirvas tú. 한 잔만 할게요 (solo una copa) se acepta; 운전해야 돼요 (tengo que manejar) acaba con la presión.</p>\n{{ex:한 잔 받으세요|han jan badeuseyo|Acepte una copa, por favor (al servirle a un superior)}}{{ex:저는 운전해야 돼서요|jeoneun unjeonhaeya dwaeseoyo|Tengo que manejar, así que (no, gracias)}}\n<div class=\"tip\">Irse antes que el jefe solía ser tabú. Hoy lo normal es decir 먼저 퇴근하겠습니다 en voz clara a toda la oficina. Dilo, haz una pequeña reverencia y vete.</div>\n"
+   "body": "\n<p>Las oficinas coreanas funcionan con cargos y frases hechas. Apréndete las frases hechas y desde el primer día sonarás como de la casa.</p>\n<h3>Cargos (siempre + 님)</h3>\n<div class=\"tbl\"><table><tr><th>Cargo</th><th>Más o menos</th></tr><tr><td class=\"k\">사원</td><td>empleado (no se usa para dirigirse a nadie: di el nombre + 씨)</td></tr><tr><td class=\"k\">대리님</td><td>subgerente</td></tr><tr><td class=\"k\">과장님</td><td>gerente</td></tr><tr><td class=\"k\">차장님 / 부장님</td><td>gerente sénior / jefe de departamento</td></tr><tr><td class=\"k\">팀장님</td><td>líder de equipo</td></tr><tr><td class=\"k\">사장님 / 대표님</td><td>director general</td></tr></table></div>\n<p>Llama a la gente por su cargo, no por su nombre, como «licenciado» o «ingeniero» en varios países de habla hispana, pero aquí es obligatorio: 과장님, 이거 확인해 주시겠어요? Si no sabes el cargo de alguien, pregúntale a un compañero; en el chat, el nombre + 님 es una opción segura.</p>\n<h3>La familia de 수고</h3>\n{{ex:수고하세요|sugohaseyo|Ánimo con el trabajo (a quien se queda trabajando, cuando te vas)}}{{ex:수고하셨습니다|sugohasyeotseumnida|Gracias por su trabajo de hoy (a un superior, al salir)}}{{ex:수고했어요|sugohaesseoyo|Buen trabajo (a alguien de menor rango o a un igual)}}\n<h3>Un correo en cuatro líneas</h3>\n{{ex:안녕하세요, 마케팅팀 @@입니다|annyeonghaseyo, maketingtim @@imnida|Hola, soy @@, del equipo de marketing}}{{ex:다름이 아니라 보고서 관련해서 연락드립니다|dareumi anira bogoseo gwallyeonhaeseo yeollakdeurimnida|Le escribo por el informe}}{{ex:확인 부탁드립니다|hwagin butakdeurimnida|Le pido que lo revise, por favor}}{{ex:감사합니다. @@ 드림|gamsahamnida. @@ deurim|Gracias. @@}}\n<h3>Reglas del 회식</h3><p>Es la cena con el equipo después del trabajo. Sirve a los demás con las dos manos, recibe con las dos manos, voltéate un poco hacia un lado cuando bebas frente a un superior y nunca te sirvas tú. 한 잔만 할게요 (solo una copa) se acepta; 운전해야 돼요 (tengo que manejar) acaba con la presión.</p>\n{{ex:한 잔 받으세요|han jan badeuseyo|Acepte una copa, por favor (al servirle a un superior)}}{{ex:저는 운전해야 돼서요|jeoneun unjeonhaeya dwaeseoyo|Tengo que manejar, así que (no, gracias)}}\n<div class=\"tip\">Irse antes que el jefe solía ser tabú. Hoy lo normal es decir 먼저 퇴근하겠습니다 en voz clara a toda la oficina. Dilo, haz una pequeña reverencia y vete.</div>\n"
   }
  ],
  "CHECKS": {
@@ -7359,13 +13125,13 @@ LANGAPP_PACKS.course['es-ko'] = {
    },
    {
     "t": "order",
-    "p": "Soy de Estados Unidos",
+    "p": "Soy de México",
     "a": [
-     "미국에서",
+     "멕시코에서",
      "왔어요"
     ],
     "x": [
-     "미국"
+     "멕시코"
     ],
     "why": "Lugar + 에서 왔어요 = vine de."
    },
@@ -9124,14 +14890,14 @@ LANGAPP_PACKS.course['es-ko'] = {
    },
    {
     "t": "mc",
-    "q": "«Vine de Estados Unidos» =",
+    "q": "«Vine de Japón» =",
     "o": [
-     "미국에서 왔어요",
-     "미국에 왔어요",
-     "미국을 왔어요",
-     "미국이 왔어요"
+     "일본에서 왔어요",
+     "일본에 왔어요",
+     "일본을 왔어요",
+     "일본이 왔어요"
     ],
-    "why": "에서 = de, desde; 미국에 왔어요 = vine a Estados Unidos."
+    "why": "에서 = de, desde; 일본에 왔어요 = vine a Japón."
    },
    {
     "t": "mc",
@@ -12816,12 +18582,12 @@ LANGAPP_PACKS.course['es-ko'] = {
    },
    {
     "t": "mc",
-    "q": "Para firmar un correo como 키이:",
+    "q": "Para firmar un correo como @@:",
     "o": [
-     "키이 드림",
-     "키이 씨",
-     "키이 님",
-     "키이야"
+     "@@ 드림",
+     "@@ 씨",
+     "@@ 님",
+     "@@ 선배"
     ],
     "why": "드림 va después de tu propio nombre; nunca 씨 ni 님 para ti mismo."
    },
@@ -12852,14 +18618,14 @@ LANGAPP_PACKS.course['es-ko'] = {
    },
    {
     "t": "order",
-    "p": "Hola, soy Kii, del equipo de marketing",
+    "p": "Hola, soy @@, del equipo de marketing",
     "a": [
      "안녕하세요",
      "마케팅팀",
-     "키이입니다"
+     "@@입니다"
     ],
     "x": [
-     "키이님"
+     "@@님"
     ],
     "why": "Primero el equipo, luego tu nombre + 입니다. Nada de 님 para ti mismo."
    },
@@ -13093,7 +18859,20 @@ LANGAPP_PACKS.course['es-ko'] = {
     "Frases de K-drama",
     "K-pop y fandom",
     "Redes y jerga",
-    "Familia y gente"
+    "Familia y gente",
+    "Palabras para coquetear",
+    "Cumplidos",
+    "Sustantivos clave",
+    "Verbos clave",
+    "Adjetivos clave",
+    "Adverbios clave",
+    "Pronombres clave",
+    "Partículas clave",
+    "Conectores clave",
+    "Interjecciones clave",
+    "Palabras útiles",
+    "Más contadores",
+    "Países"
    ],
    "lessons": [
     "hangul",
@@ -13913,7 +19692,18 @@ LANGAPP_PACKS.course['es-ko'] = {
    "Contadores",
    "Números",
    "Conectores",
-   "Adjetivos"
+   "Adjetivos",
+   "Sustantivos clave",
+   "Verbos clave",
+   "Adjetivos clave",
+   "Adverbios clave",
+   "Pronombres clave",
+   "Partículas clave",
+   "Conectores clave",
+   "Interjecciones clave",
+   "Palabras útiles",
+   "Más contadores",
+   "Países"
   ]
  },
  "TRAINER": {

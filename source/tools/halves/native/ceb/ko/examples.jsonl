@@ -1,74 +1,275 @@
-{"id":"ko.e001","tr":"Usa ka baso nga tubig, palihug."}
-{"id":"ko.e002","tr":"Nakakaon na ka?"}
-{"id":"ko.e003","tr":"Ganahan ka og karne?"}
-{"id":"ko.e004","tr":"Lami kaayo ni."}
-{"id":"ko.e005","tr":"Gigutom ko. Unsay atong kaonon?"}
-{"id":"ko.e006","tr":"Sige, tagay!"}
-{"id":"ko.e007","tr":"Nindot ang panahon karon."}
-{"id":"ko.e008","tr":"Libre ka ugma?"}
-{"id":"ko.e009","tr":"Ulahi na ko natulog gahapon."}
-{"id":"ko.e010","tr":"Molakaw na ko karon!"}
-{"id":"ko.e011","tr":"Kanunay puliki ang Lunes."}
-{"id":"ko.e012","tr":"Kita ta sa Biyernes."}
-{"id":"ko.e013","tr":"Kanus-a ka niabot sa Korea?"}
-{"id":"ko.e014","tr":"Nag-ehersisyo ko matag adlaw."}
-{"id":"ko.e015","tr":"Init kaayo karon."}
-{"id":"ko.e016","tr":"Bugnaw sa gawas. Pagsul-ob og baga nga sinina."}
-{"id":"ko.e017","tr":"Nag-ulan. Naa kay payong?"}
-{"id":"ko.e018","tr":"Wow, nag-snow!"}
-{"id":"ko.e019","tr":"Maayo akong pamati karon."}
-{"id":"ko.e020","tr":"Malipayon ko kay magkauban ta."}
-{"id":"ko.e021","tr":"Makaguol kaayo ang sine."}
-{"id":"ko.e022","tr":"Kulbaan ko tungod sa interview."}
-{"id":"ko.e023","tr":"Nganong nasuko ka?"}
-{"id":"ko.e024","tr":"Naghinamhinam ko kay ugma na akong biyahe."}
-{"id":"ko.e025","tr":"Maayo moluto akong mama."}
-{"id":"ko.e026","tr":"Oppa, unsa ni?"}
-{"id":"ko.e027","tr":"Nindot ang sinina ni ate (imong sinina)."}
-{"id":"ko.e028","tr":"Naa koy duha ka manghod."}
-{"id":"ko.e029","tr":"Moadto ko sa balay ni lola."}
-{"id":"ko.e030","tr":"Gimingaw ko sa akong pamilya."}
-{"id":"ko.e031","tr":"Nagtan-aw ko og sine uban sa akong higala."}
-{"id":"ko.e032","tr":"Titser, naa koy pangutana."}
-{"id":"ko.e033","tr":"Kinsa kadtong babaye?"}
-{"id":"ko.e034","tr":"Daghang tawo diri."}
-{"id":"ko.e035","tr":"Usa ka mansanas, palihug."}
-{"id":"ko.e036","tr":"Duha ka tawo."}
-{"id":"ko.e037","tr":"Tulo ka kape, palihug."}
-{"id":"ko.e038","tr":"Nipalit ko og upat ka botelya nga beer."}
-{"id":"ko.e039","tr":"Naa koy lima ka iring."}
-{"id":"ko.e040","tr":"Nakabasa ko og unom ka libro."}
-{"id":"ko.e041","tr":"Naa koy pito ka tiket."}
-{"id":"ko.e042","tr":"Nanghulat ko og duha ka oras."}
-{"id":"ko.e043","tr":"Nitawag ko og tulo ka higayon."}
-{"id":"ko.e044","tr":"Naa ko sa Korea sulod sa usa ka bulan."}
-{"id":"ko.e045","tr":"Nikaon ko. Dayon niinom ko og kape."}
-{"id":"ko.e046","tr":"Kapoy ko. Mao nga matulog ko og sayo."}
-{"id":"ko.e047","tr":"Lami. Pero mahal-mahal gamay."}
-{"id":"ko.e048","tr":"Lisod. Apan lingaw."}
-{"id":"ko.e049","tr":"Unsay imong gibuhat pagkahuman?"}
-{"id":"ko.e050","tr":"Una na ka."}
-{"id":"ko.e051","tr":"Kay wala koy oras."}
-{"id":"ko.e052","tr":"Kape o tsa?"}
-{"id":"ko.e053","tr":"Kon mao, kita ta ugma."}
-{"id":"ko.e054","tr":"Ang tinuod, dili ko maayo mo-Koreano."}
-{"id":"ko.e055","tr":"Ganahan ko ani nga kanta."}
-{"id":"ko.e056","tr":"Daotan ang panahon."}
-{"id":"ko.e057","tr":"Dako ang balay."}
-{"id":"ko.e058","tr":"Gamay ang kuwarto."}
-{"id":"ko.e059","tr":"Daghan kog buhaton."}
-{"id":"ko.e060","tr":"Mahal kaayo ni."}
-{"id":"ko.e061","tr":"Barato diri."}
-{"id":"ko.e062","tr":"Puliki ka karong mga adlawa?"}
-{"id":"ko.e063","tr":"Lingaw ang pagtuon og Koreano."}
-{"id":"ko.e064","tr":"Lisod gyud karong adlawa."}
-{"id":"ko.e065","tr":"Tinuoray lang. Unsa man diay ta?"}
-{"id":"ko.e066","tr":"Dili ko nagbinuang. Gusto ko nga seryoso ta."}
-{"id":"ko.e067","tr":"Ako ang molibre sa panihapon. Ayaw na kasuko."}
-{"id":"ko.e068","tr":"100 ka adlaw na. Malipayong ika-100!"}
-{"id":"ko.e069","tr":"Pareho ta og gusto. Murag bagay ta."}
-{"id":"ko.e070","tr":"Unsang orasa ang miting ugma? Wala sa kalendaryo."}
-{"id":"ko.e071","tr":"Kanus-a ang deadline ani nga report?"}
-{"id":"ko.e072","tr":"Manager, naa ka bay gamay nga oras?"}
-{"id":"ko.e073","tr":"Una na ko og uli."}
-{"id":"ko.e074","tr":"Kinahanglan ko mag-overtime karon. Sa sunod na lang ang panihapon sa team."}
+{"id": "ko.e001", "tr": "Usa ka baso nga tubig, palihug."}
+{"id": "ko.e002", "tr": "Nakakaon na ka?"}
+{"id": "ko.e003", "tr": "Ganahan ka og karne?"}
+{"id": "ko.e004", "tr": "Lami kaayo ni."}
+{"id": "ko.e005", "tr": "Gigutom ko. Unsay atong kaonon?"}
+{"id": "ko.e006", "tr": "Sige, tagay!"}
+{"id": "ko.e007", "tr": "Nindot ang panahon karon."}
+{"id": "ko.e008", "tr": "Libre ka ugma?"}
+{"id": "ko.e009", "tr": "Ulahi na ko natulog gahapon."}
+{"id": "ko.e010", "tr": "Molakaw na ko karon!"}
+{"id": "ko.e011", "tr": "Kanunay puliki ang Lunes."}
+{"id": "ko.e012", "tr": "Kita ta sa Biyernes."}
+{"id": "ko.e013", "tr": "Kanus-a ka niabot sa Korea?"}
+{"id": "ko.e014", "tr": "Nag-ehersisyo ko matag adlaw."}
+{"id": "ko.e015", "tr": "Init kaayo karon."}
+{"id": "ko.e016", "tr": "Bugnaw sa gawas. Pagsul-ob og baga nga sinina."}
+{"id": "ko.e017", "tr": "Nag-ulan. Naa kay payong?"}
+{"id": "ko.e018", "tr": "Wow, nag-snow!"}
+{"id": "ko.e019", "tr": "Maayo akong pamati karon."}
+{"id": "ko.e020", "tr": "Malipayon ko kay magkauban ta."}
+{"id": "ko.e021", "tr": "Makaguol kaayo ang sine."}
+{"id": "ko.e022", "tr": "Kulbaan ko tungod sa interview."}
+{"id": "ko.e023", "tr": "Nganong nasuko ka?"}
+{"id": "ko.e024", "tr": "Naghinamhinam ko kay ugma na akong biyahe."}
+{"id": "ko.e025", "tr": "Maayo moluto akong mama."}
+{"id": "ko.e026", "tr": "Oppa, unsa ni?"}
+{"id": "ko.e027", "tr": "Nindot ang sinina ni ate (imong sinina)."}
+{"id": "ko.e028", "tr": "Naa koy duha ka manghod."}
+{"id": "ko.e029", "tr": "Moadto ko sa balay ni lola."}
+{"id": "ko.e030", "tr": "Gimingaw ko sa akong pamilya."}
+{"id": "ko.e031", "tr": "Nagtan-aw ko og sine uban sa akong higala."}
+{"id": "ko.e032", "tr": "Titser, naa koy pangutana."}
+{"id": "ko.e033", "tr": "Kinsa kadtong babaye?"}
+{"id": "ko.e034", "tr": "Daghang tawo diri."}
+{"id": "ko.e035", "tr": "Usa ka mansanas, palihug."}
+{"id": "ko.e036", "tr": "Duha ka tawo."}
+{"id": "ko.e037", "tr": "Tulo ka kape, palihug."}
+{"id": "ko.e038", "tr": "Nipalit ko og upat ka botelya nga beer."}
+{"id": "ko.e039", "tr": "Naa koy lima ka iring."}
+{"id": "ko.e040", "tr": "Nakabasa ko og unom ka libro."}
+{"id": "ko.e041", "tr": "Naa koy pito ka tiket."}
+{"id": "ko.e042", "tr": "Nanghulat ko og duha ka oras."}
+{"id": "ko.e043", "tr": "Nitawag ko og tulo ka higayon."}
+{"id": "ko.e044", "tr": "Naa ko sa Korea sulod sa usa ka bulan."}
+{"id": "ko.e045", "tr": "Nikaon ko. Dayon niinom ko og kape."}
+{"id": "ko.e046", "tr": "Kapoy ko. Mao nga matulog ko og sayo."}
+{"id": "ko.e047", "tr": "Lami. Pero mahal-mahal gamay."}
+{"id": "ko.e048", "tr": "Lisod. Apan lingaw."}
+{"id": "ko.e049", "tr": "Unsay imong gibuhat pagkahuman?"}
+{"id": "ko.e050", "tr": "Una na ka."}
+{"id": "ko.e051", "tr": "Kay wala koy oras."}
+{"id": "ko.e052", "tr": "Kape o tsa?"}
+{"id": "ko.e053", "tr": "Kon mao, kita ta ugma."}
+{"id": "ko.e054", "tr": "Ang tinuod, dili ko maayo mo-Koreano."}
+{"id": "ko.e055", "tr": "Ganahan ko ani nga kanta."}
+{"id": "ko.e056", "tr": "Daotan ang panahon."}
+{"id": "ko.e057", "tr": "Dako ang balay."}
+{"id": "ko.e058", "tr": "Gamay ang kuwarto."}
+{"id": "ko.e059", "tr": "Daghan kog buhaton."}
+{"id": "ko.e060", "tr": "Mahal kaayo ni."}
+{"id": "ko.e061", "tr": "Barato diri."}
+{"id": "ko.e062", "tr": "Puliki ka karong mga adlawa?"}
+{"id": "ko.e063", "tr": "Lingaw ang pagtuon og Koreano."}
+{"id": "ko.e064", "tr": "Lisod gyud karong adlawa."}
+{"id": "ko.e065", "tr": "Tinuoray lang. Unsa man diay ta?"}
+{"id": "ko.e066", "tr": "Dili ko nagbinuang. Gusto ko nga seryoso ta."}
+{"id": "ko.e067", "tr": "Ako ang molibre sa panihapon. Ayaw na kasuko."}
+{"id": "ko.e068", "tr": "100 ka adlaw na. Malipayong ika-100!"}
+{"id": "ko.e069", "tr": "Pareho ta og gusto. Murag bagay ta."}
+{"id": "ko.e070", "tr": "Unsang orasa ang miting ugma? Wala sa kalendaryo."}
+{"id": "ko.e071", "tr": "Kanus-a ang deadline ani nga report?"}
+{"id": "ko.e072", "tr": "Manager, naa ka bay gamay nga oras?"}
+{"id": "ko.e073", "tr": "Una na ko og uli."}
+{"id": "ko.e074", "tr": "Kinahanglan ko mag-overtime karon. Sa sunod na lang ang panihapon sa team."}
+{"id": "ko.e075", "tr": "Wala koy oras karon."}
+{"id": "ko.e076", "tr": "Puwede ba mokuha og litrato diri?"}
+{"id": "ko.e077", "tr": "Isulti sa Koreano, palihug."}
+{"id": "ko.e078", "tr": "Daghan kog nadawat nga regalo sa akong adlawng natawhan."}
+{"id": "ko.e079", "tr": "Paggawas nimo sa estasyon, naa ra dayon sa atubangan."}
+{"id": "ko.e080", "tr": "Nagpuyo ko sa Seoul."}
+{"id": "ko.e081", "tr": "Naghimo si Mama og gimbap."}
+{"id": "ko.e082", "tr": "Mao sab akong hunahuna."}
+{"id": "ko.e083", "tr": "Gusto kong moadto sa Korea."}
+{"id": "ko.e084", "tr": "Makita ang dagat gikan diri."}
+{"id": "ko.e085", "tr": "Makigkita ko sa higala karong weekend."}
+{"id": "ko.e086", "tr": "Ako ang mobayad karon."}
+{"id": "ko.e087", "tr": "Isulat ang imong ngalan diri, palihug."}
+{"id": "ko.e088", "tr": "Kupti kining bag, palihug."}
+{"id": "ko.e089", "tr": "Mosugod ang pelikula sa alas siyete."}
+{"id": "ko.e090", "tr": "Maminaw ko og Koreano nga kanta matag adlaw."}
+{"id": "ko.e091", "tr": "Una na lang ka sulod, palihug."}
+{"id": "ko.e092", "tr": "Mogawas ka karong gabii?"}
+{"id": "ko.e093", "tr": "Kasagaran mobangon ko sa alas siyete."}
+{"id": "ko.e094", "tr": "Hulat kadiyot, palihug."}
+{"id": "ko.e095", "tr": "Nangita ko sa CR."}
+{"id": "ko.e096", "tr": "Maglakaw ko pauli."}
+{"id": "ko.e097", "tr": "Magbasa ko og libro sa subway."}
+{"id": "ko.e098", "tr": "Abli ang mga convenience store bisan gabii."}
+{"id": "ko.e099", "tr": "Sirhi ang pultahan, palihug."}
+{"id": "ko.e100", "tr": "Kanunay mopahiyom kanang tawhana."}
+{"id": "ko.e101", "tr": "Nagtuon ko og Koreano karong mga adlawa."}
+{"id": "ko.e102", "tr": "Nagtudlo og English akong higala."}
+{"id": "ko.e103", "tr": "Mipalit ko og prutas sa merkado."}
+{"id": "ko.e104", "tr": "Ulahi ko natulog gahapon."}
+{"id": "ko.e105", "tr": "Pagsul-ob og mainit nga sinina karon."}
+{"id": "ko.e106", "tr": "Mosakay ko og bus padulong sa eskuwelahan."}
+{"id": "ko.e107", "tr": "Monaog ko sa sunod nga estasyon."}
+{"id": "ko.e108", "tr": "Kanus-a ka mobalik sa Korea?"}
+{"id": "ko.e109", "tr": "Gipadala nako ang mga litrato sa akong higala."}
+{"id": "ko.e110", "tr": "Nagkanta mi sa karaoke."}
+{"id": "ko.e111", "tr": "Mahuman ang meeting sa alas singko."}
+{"id": "ko.e112", "tr": "Mo-order ta og manok?"}
+{"id": "ko.e113", "tr": "Salig lang nako, palihug."}
+{"id": "ko.e114", "tr": "Ayaw kalimti ang imong payong."}
+{"id": "ko.e115", "tr": "Manghunaw ko sa kamot sa dili pa mokaon."}
+{"id": "ko.e116", "tr": "Gitabangan ko sa akong higala sa pagbalhin."}
+{"id": "ko.e117", "tr": "Wala ko kahibalo sa dalan, busa nangutana ko."}
+{"id": "ko.e118", "tr": "Pili og usa ra, palihug."}
+{"id": "ko.e119", "tr": "Puwede ta magbaylo og lingkoranan?"}
+{"id": "ko.e120", "tr": "Nasip-on ko."}
+{"id": "ko.e121", "tr": "Pasigaa ang suga, palihug."}
+{"id": "ko.e122", "tr": "Maayo ra ka karong mga adlawa?"}
+{"id": "ko.e123", "tr": "Nagtrabaho ko sa usa ka kompanya."}
+{"id": "ko.e124", "tr": "Dali unta ka mamaayo."}
+{"id": "ko.e125", "tr": "Unsang orasa ka moabot sa airport?"}
+{"id": "ko.e126", "tr": "Magpa-litrato ta diri?"}
+{"id": "ko.e127", "tr": "Parehas mi og eskuwelahan."}
+{"id": "ko.e128", "tr": "Ah, mao ba? Wala ko kahibalo."}
+{"id": "ko.e129", "tr": "Kumusta man ang pagkaon nga Koreano para nimo?"}
+{"id": "ko.e130", "tr": "Lahi kaayo ang Koreano ug English."}
+{"id": "ko.e131", "tr": "Mas sayon ang Hangul kaysa imong gihunahuna."}
+{"id": "ko.e132", "tr": "Lisod ang pronunciation sa Koreano."}
+{"id": "ko.e133", "tr": "Kadtong bukira ang pinakataas."}
+{"id": "ko.e134", "tr": "Taas iyang buhok."}
+{"id": "ko.e135", "tr": "Mas paspas ang subway kaysa bus."}
+{"id": "ko.e136", "tr": "Batan-on kaayo tan-awon ang imong lola."}
+{"id": "ko.e137", "tr": "Ang panglawas ang labing importante."}
+{"id": "ko.e138", "tr": "Unsay imong kinahanglan?"}
+{"id": "ko.e139", "tr": "Limpyo kaayo ang kuwarto."}
+{"id": "ko.e140", "tr": "Makahadlok kaayo ang horror nga pelikula."}
+{"id": "ko.e141", "tr": "Asa ang sakit?"}
+{"id": "ko.e142", "tr": "Maayong weekend nimo, lingaw unta."}
+{"id": "ko.e143", "tr": "Nalipay ko nga nagkita ta pag-usab."}
+{"id": "ko.e144", "tr": "Salamat sa pag-anhi."}
+{"id": "ko.e145", "tr": "Pasayloa nga naulahi ko."}
+{"id": "ko.e146", "tr": "Halang kaayo kining tteokbokki."}
+{"id": "ko.e147", "tr": "Init ang sabaw, busa pag-amping."}
+{"id": "ko.e148", "tr": "Init-init ang panahon karon."}
+{"id": "ko.e149", "tr": "Presko ang huyohoy."}
+{"id": "ko.e150", "tr": "Hilom ang library."}
+{"id": "ko.e151", "tr": "Ang balay ang labing komportable."}
+{"id": "ko.e152", "tr": "Buotan ang tag-iya sa tindahan."}
+{"id": "ko.e153", "tr": "Sikat kining restawran sa ilang bibimbap."}
+{"id": "ko.e154", "tr": "Bug-at kaayo ang bag."}
+{"id": "ko.e155", "tr": "Susama ang nawong sa duha."}
+{"id": "ko.e156", "tr": "Medyo lahi ang lami."}
+{"id": "ko.e157", "tr": "Tapolan ko magluto karon."}
+{"id": "ko.e158", "tr": "Moadto ka sa Korea? Masina ko!"}
+{"id": "ko.e159", "tr": "Daghan kog nakaon, busog na ko."}
+{"id": "ko.e160", "tr": "Bagay nimo ang pula."}
+{"id": "ko.e161", "tr": "Dili ko moinom og kape."}
+{"id": "ko.e162", "tr": "Dugangi og gamay nga kimchi, palihug."}
+{"id": "ko.e163", "tr": "Dili ko kahibalo molangoy."}
+{"id": "ko.e164", "tr": "Kaon ko og pagkaon nga Koreano, walay problema."}
+{"id": "ko.e165", "tr": "Nahuman na nako tanan nakong assignment."}
+{"id": "ko.e166", "tr": "Tabangi ko ani, palihug."}
+{"id": "ko.e167", "tr": "Isulti usab, palihug."}
+{"id": "ko.e168", "tr": "Kaon og daghan."}
+{"id": "ko.e169", "tr": "Mag-paniudto ta."}
+{"id": "ko.e170", "tr": "Naa ra sa tupad ang bangko."}
+{"id": "ko.e171", "tr": "Ang kimchi stew ang akong pinakagusto."}
+{"id": "ko.e172", "tr": "Nalingaw gyud ko karon."}
+{"id": "ko.e173", "tr": "Mahal kaayo kining bag."}
+{"id": "ko.e174", "tr": "Wala pa ko mokaon."}
+{"id": "ko.e175", "tr": "Alas dose na?"}
+{"id": "ko.e176", "tr": "Hapit na moabot ang bus."}
+{"id": "ko.e177", "tr": "Anhi dayon!"}
+{"id": "ko.e178", "tr": "Sagad ka moanhi diri?"}
+{"id": "ko.e179", "tr": "Usahay motan-aw ko og pelikula nga nag-inusara."}
+{"id": "ko.e180", "tr": "Kanunay sayo mobangon si Mama."}
+{"id": "ko.e181", "tr": "Padayon ang uwan."}
+{"id": "ko.e182", "tr": "Kita ta usab ugma."}
+{"id": "ko.e183", "tr": "Dili kaayo ko ganahan sa halang nga pagkaon."}
+{"id": "ko.e184", "tr": "Wala gyud koy nahibal-an sa Hapon nga pinulongan."}
+{"id": "ko.e185", "tr": "Anhi gyud sa sunod."}
+{"id": "ko.e186", "tr": "Basin moulan ugma."}
+{"id": "ko.e187", "tr": "Basin kahibalo ka og English?"}
+{"id": "ko.e188", "tr": "Hapit na ta."}
+{"id": "ko.e189", "tr": "Mopauli na ko."}
+{"id": "ko.e190", "tr": "Karon pa ko niabot."}
+{"id": "ko.e191", "tr": "Tawgan tika unya."}
+{"id": "ko.e192", "tr": "Unsay imong ginabuhat karong mga adlawa?"}
+{"id": "ko.e193", "tr": "Kalit nga nag-uwan."}
+{"id": "ko.e194", "tr": "Kugi ko nga nagtuon og Koreano."}
+{"id": "ko.e195", "tr": "Tubig na lang, palihug."}
+{"id": "ko.e196", "tr": "Nagbiyahe ko nga nag-inusara."}
+{"id": "ko.e197", "tr": "Nganong wala man ka moanhi?"}
+{"id": "ko.e198", "tr": "Unsaon pag-adto sa Myeongdong?"}
+{"id": "ko.e199", "tr": "Ganahan sab ko ana. (casual)"}
+{"id": "ko.e200", "tr": "Taga-Mexico ko."}
+{"id": "ko.e201", "tr": "Unsay imong buhaton karon? (casual)"}
+{"id": "ko.e202", "tr": "Uban ta."}
+{"id": "ko.e203", "tr": "Maayong pag-abot sa among tindahan."}
+{"id": "ko.e204", "tr": "Akoa ni. (casual)"}
+{"id": "ko.e205", "tr": "Minjun ang akong ngalan."}
+{"id": "ko.e206", "tr": "Wala siyay gisulti bisan usa ka pulong. (sinulat nga estilo)"}
+{"id": "ko.e207", "tr": "Mitubag siya nga nagpahiyom. (sinulat nga estilo)"}
+{"id": "ko.e208", "tr": "Gihigugma tika. (sa kanta, o sa dugay nang minyo)"}
+{"id": "ko.e209", "tr": "Ikaw mismo ang mobuhat sa imong trabaho."}
+{"id": "ko.e210", "tr": "Maayong adlaw, kamong tanan!"}
+{"id": "ko.e211", "tr": "Jisu, gusto ka og kape?"}
+{"id": "ko.e212", "tr": "Ikaw, unsay imong ngalan?"}
+{"id": "ko.e213", "tr": "Kinsa man kanang tawhana?"}
+{"id": "ko.e214", "tr": "Unsay imong gibuhat sa weekend?"}
+{"id": "ko.e215", "tr": "Unsay ikatabang nako?"}
+{"id": "ko.e216", "tr": "Asa ka nagpuyo?"}
+{"id": "ko.e217", "tr": "Libro nako ni."}
+{"id": "ko.e218", "tr": "Maayong ideya sab na."}
+{"id": "ko.e219", "tr": "Unsa man kadto?"}
+{"id": "ko.e220", "tr": "Pila man ni?"}
+{"id": "ko.e221", "tr": "Lami ba na?"}
+{"id": "ko.e222", "tr": "Kadto, palihug."}
+{"id": "ko.e223", "tr": "Hangtod pila ang abli diha?"}
+{"id": "ko.e224", "tr": "Siya ang akong maestro."}
+{"id": "ko.e225", "tr": "Buotan kaayo kanang tawhana."}
+{"id": "ko.e226", "tr": "Kadtong tawhana ba ang tag-iya?"}
+{"id": "ko.e227", "tr": "Kini akong manghod."}
+{"id": "ko.e228", "tr": "Busy siya karong mga adlawa. (bahin sa higala)"}
+{"id": "ko.e229", "tr": "Kinsa man to? (casual)"}
+{"id": "ko.e230", "tr": "Dinhi palihug."}
+{"id": "ko.e231", "tr": "Naa didto ang CR."}
+{"id": "ko.e232", "tr": "Kontaka ko bisan kanus-a."}
+{"id": "ko.e233", "tr": "Walay tawo sa balay."}
+{"id": "ko.e234", "tr": "Wala koy nakaon ganinang buntag."}
+{"id": "ko.e235", "tr": "Naay niabli sa pultahan."}
+{"id": "ko.e236", "tr": "Naay lahi."}
+{"id": "ko.e237", "tr": "Naa ra na akong cellphone bisan asa sa balay."}
+{"id": "ko.e238", "tr": "Salig sa imong kaugalingon."}
+{"id": "ko.e239", "tr": "Mosakay ko og subway."}
+{"id": "ko.e240", "tr": "Hangtod pila mo abli?"}
+{"id": "ko.e241", "tr": "Mosugod ang klase sa alas nuwebe."}
+{"id": "ko.e242", "tr": "Gihatagan nako og regalo ang akong higala."}
+{"id": "ko.e243", "tr": "Nagpadala ko og email sa maestro."}
+{"id": "ko.e244", "tr": "Gitawagan nako si Lola."}
+{"id": "ko.e245", "tr": "Naay text gikan sa akong ate."}
+{"id": "ko.e246", "tr": "Mas bugnaw karon kaysa gahapon."}
+{"id": "ko.e247", "tr": "Morag Koreano ka mosulti."}
+{"id": "ko.e248", "tr": "Mosaka ko sa bukid matag weekend."}
+{"id": "ko.e249", "tr": "Usa ra ka libo ka won akong kuwarta."}
+{"id": "ko.e250", "tr": "Gusto ka og kape o tsa?"}
+{"id": "ko.e251", "tr": "Nagtan-aw ko og pelikula uban sa higala."}
+{"id": "ko.e252", "tr": "Niabot na si Lolo."}
+{"id": "ko.e253", "tr": "Kita ta mga alas tres."}
+{"id": "ko.e254", "tr": "Tag-usa ang matag tawo, palihug."}
+{"id": "ko.e255", "tr": "Ambi, libre ka ugma?"}
+{"id": "ko.e256", "tr": "Nag-uwan. Busa dad-a ang payong."}
+{"id": "ko.e257", "tr": "Mahal. Pero lami."}
+{"id": "ko.e258", "tr": "Barato diri. Dugang pa, lami."}
+{"id": "ko.e259", "tr": "Mokaon ko dayon mag-kape."}
+{"id": "ko.e260", "tr": "Mahal, pero lami."}
+{"id": "ko.e261", "tr": "Miadto ko sa merkado ug mipalit og prutas."}
+{"id": "ko.e262", "tr": "Gikapoy ko, busa sayo ko natulog."}
+{"id": "ko.e263", "tr": "Kon moadto ka sa Korea, unsay gusto nimong buhaton?"}
+{"id": "ko.e264", "tr": "Nag-uwan man, mag-taxi na lang ta."}
+{"id": "ko.e265", "tr": "Busy ko karon, tawgan tika unya."}
+{"id": "ko.e266", "tr": "Mangaon ta og paniudto."}
+{"id": "ko.e267", "tr": "Maminaw ko og musika samtang naglakaw."}
+{"id": "ko.e268", "tr": "Samtang padulong ko sa eskuwelahan, nakit-an nako ang akong higala."}
+{"id": "ko.e269", "tr": "Sa weekend matulog ko o motan-aw og pelikula."}
+{"id": "ko.e270", "tr": "Bisan mahal, gusto nako paliton."}
+{"id": "ko.e271", "tr": "Magbasa ko sa dili pa matulog."}
+{"id": "ko.e272", "tr": "Human mokaon, maglakaw-lakaw ko."}
+{"id": "ko.e273", "tr": "Mopalit ko og regalo kon moadto ko sa Korea."}
+{"id": "ko.e274", "tr": "Pag-abot nako sa balay, natulog dayon ko."}
+{"id": "ko.e275", "tr": "Daghan kaayo kog trabaho karon."}

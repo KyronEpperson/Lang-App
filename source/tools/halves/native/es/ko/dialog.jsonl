@@ -16,9 +16,9 @@
 {"id":"ko.g016","tr":"¿Aceptan tarjeta? / Sí. Insértela aquí."}
 {"id":"ko.g017","tr":"¿Cuál es la contraseña del wifi? / Está en el recibo."}
 {"id":"ko.g018","tr":"Me perdí. ¿Dónde estoy? / Esto es Hongdae. ¿A dónde va?"}
-{"id":"ko.g019","tr":"¿Cómo te llamas? / Soy Kii. ¿Y tú?"}
+{"id":"ko.g019","tr":"¿Cómo te llamas? / Soy @@. ¿Y tú?"}
 {"id":"ko.g020","tr":"Mucho gusto. / Igualmente."}
-{"id":"ko.g021","tr":"¿De dónde eres? / De Estados Unidos. De Oklahoma."}
+{"id":"ko.g021","tr":"¿De dónde eres? / De Filipinas. De Cebú."}
 {"id":"ko.g022","tr":"Disculpe, ¿cuántos años tiene? / 28. ¿Y tú?"}
 {"id":"ko.g023","tr":"¿A qué te dedicas? / Trabajo en una empresa de TI."}
 {"id":"ko.g024","tr":"¿Estudias coreano? / Sí, un poco todos los días."}
@@ -147,3 +147,55 @@
 {"id":"ko.g147","tr":"Unni, ¿qué tal esto? / Te queda bien. Cómpratelo."}
 {"id":"ko.g148","tr":"¿Tienes hermanos? / Sí, uno menor."}
 {"id":"ko.g149","tr":"Profesora, tengo una pregunta. / Sí, adelante."}
+{"id":"ko.g150","tr":"Ese restaurante cierra los lunes. / Ah, ¿sí? Entonces vamos el martes."}
+{"id":"ko.g151","tr":"Este pastel lo hice yo. / ¡Guau, está precioso!"}
+{"id":"ko.g152","tr":"Minsu, ya llegué. / Ah, ¿ya llegaste? Pasa."}
+{"id":"ko.g153","tr":"¿Comemos juntos mañana? / Sí, claro. ¿A qué hora?"}
+{"id":"ko.g154","tr":"¿Qué quieres comer? / Mmm… hoy, bibimbap."}
+{"id":"ko.g155","tr":"Esto lo compré con mi primer sueldo. / ¡Oh, qué bonito!"}
+{"id":"ko.g156","tr":"Esta es la Torre Namsan. / ¡Guau, se ve todo Seúl!"}
+{"id":"ko.g157","tr":"Me caso el próximo mes. / ¡Ay, ¿en serio? ¡Felicidades!"}
+{"id":"ko.g158","tr":"¡Ay! Me pegué la mano con la puerta. / ¿Estás bien? A ver."}
+{"id":"ko.g159","tr":"¡Te pusiste rojo! / Ay, ya, deja de mirarme."}
+{"id":"ko.g160","tr":"¿Estará buena esta película? / Pues, no sé."}
+{"id":"ko.g161","tr":"Ayer vi a BTS. / ¡Ay, vamos, mentira!"}
+{"id":"ko.g162","tr":"Dicen que hoy no hay cena del equipo. / ¡Sí! Me voy temprano a casa."}
+{"id":"ko.g163","tr":"Ya son las once. / ¡Uy, me tengo que ir rápido!"}
+{"id":"ko.g164","tr":"¡Uy, tiré el café! / No pasa nada, yo lo limpio."}
+{"id":"ko.g165","tr":"¿Trajiste paraguas? / ¡Ay, lo dejé en casa!"}
+{"id":"ko.g166","tr":"¿Ya terminó tu examen? / Sí, uf, ahora sí necesito descansar."}
+{"id":"ko.g167","tr":"¿Otra vez horas extra hoy? / Ay, sí. Hay demasiado trabajo."}
+{"id":"ko.g168","tr":"Shh, el bebé está durmiendo. / Ah, perdón. No hago ruido."}
+{"id":"ko.g169","tr":"Bueno, ¿empezamos? / ¡Sí, empecemos!"}
+{"id":"ko.g170","tr":"¿Hola? ¿Es Minji? / Sí, soy yo. ¿Qué pasó?"}
+{"id":"ko.g171","tr":"Esta bolsa cuesta un millón de wones. / ¡Dios mío, es carísima!"}
+{"id":"ko.g172","tr":"¡Bu! / ¡Ay, qué susto! Me hiciste saltar."}
+{"id":"ko.g173","tr":"¡Aaah, un bicho! / Quédate quieto. Yo lo agarro."}
+{"id":"ko.g174","tr":"¡Tarán! Es tu regalo de cumpleaños. / ¡Guau, gracias! ¿Qué es?"}
+{"id":"ko.g175","tr":"Esta leche ya caducó. / ¡Puaj, ya me la tomé!"}
+{"id":"ko.g176","tr":"Hoy te ves aún más bonita. / ¿De verdad? Me cambié un poco el peinado."}
+{"id":"ko.g177","tr":"Me llamo Haneul. / Hasta tu nombre es bonito."}
+{"id":"ko.g178","tr":"¿Por qué eres tan tierno? / Ay, no bromee."}
+{"id":"ko.g179","tr":"En persona eres aún más guapo. / Jaja, creo que no salgo bien en las fotos."}
+{"id":"ko.g180","tr":"Te ves genial cuando trabajas. / ¿Así, de repente? Gracias."}
+{"id":"ko.g181","tr":"Tienes una sonrisa bonita. / Gracias. Es la primera vez que me lo dicen."}
+{"id":"ko.g182","tr":"Tu sonrisa con los ojos es preciosa. / Ay, ya, me da pena."}
+{"id":"ko.g183","tr":"¿Y eso? Hasta me llamaste. / Nada más, quería escuchar tu voz."}
+{"id":"ko.g184","tr":"¿Qué te parezco? / La verdad, eres totalmente mi tipo."}
+{"id":"ko.g185","tr":"¿Cuál es tu tipo ideal? / Mmm… alguien que se ría mucho."}
+{"id":"ko.g186","tr":"Me diste una buena primera impresión. / Yo también. Me sentí cómodo desde el principio."}
+{"id":"ko.g187","tr":"¿Ya comiste? / Todavía no. ¿Comemos juntos?"}
+{"id":"ko.g188","tr":"¿Quieres subir a comer ramyeon? / Jaja, es la frase de la película, ¿no? Hoy me voy a casa."}
+{"id":"ko.g189","tr":"¿Cenamos juntos este fin de semana? / Claro, ¿cuándo nos vemos?"}
+{"id":"ko.g190","tr":"Hoy me divertí mucho. ¿Te puedo escribir? / Gracias por la intención, pero no, gracias."}
+{"id":"ko.g191","tr":"¿Te puedo volver a ver? / Lo siento, pero estoy saliendo con alguien."}
+{"id":"ko.g192","tr":"Después de clase te invito un café. / Eres una gran persona, pero prefiero que seamos amigos."}
+{"id":"ko.g193","tr":"La comida está riquísima. / No es nada especial. Coma bastante."}
+{"id":"ko.g194","tr":"¿Cómo hizo esto? / Es fácil. La próxima vez le enseño."}
+{"id":"ko.g195","tr":"Lo hace usted muy bien. / Ay, no, todavía me falta mucho."}
+{"id":"ko.g196","tr":"Leí su informe. Qué minucioso es usted. / Gracias por verlo así."}
+{"id":"ko.g197","tr":"¿Tiene cuarenta? Se ve muy joven para su edad. / Me elogia demasiado."}
+{"id":"ko.g198","tr":"Su hijo es muy tierno. / Gracias. En casa es un pequeño travieso."}
+{"id":"ko.g199","tr":"Esa ropa le queda muy bien. / Gracias por el cumplido."}
+{"id":"ko.g200","tr":"Su pronunciación es muy buena. / Ay, no. Es todo gracias a mi profesor."}
+{"id":"ko.g201","tr":"Hoy aprendí mucho de su presentación. / No es nada. Gracias por escucharme."}

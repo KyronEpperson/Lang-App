@@ -1,149 +1,201 @@
-{"id":"ko.g001","tr":"Maayong adlaw, nalipay ko nga nakaila nimo sa unang higayon. / Maayong adlaw! Nalipay ko nga nakaila nimo."}
-{"id":"ko.g002","tr":"Salamat sa pagtabang. / Walay sapayan."}
-{"id":"ko.g003","tr":"Pasayloa ko kay naulahi ko. / Okay ra, bag-o ra sab ko niabot."}
-{"id":"ko.g004","tr":"Tagpila ni? / 12,000 won."}
-{"id":"ko.g005","tr":"Palihug, asa ang CR? / Diretso lang ngadto."}
-{"id":"ko.g006","tr":"Unsay imo? / Kini, take out."}
-{"id":"ko.g007","tr":"Okay ra ka? Nasamad ka? / Oo, okay ra ko."}
-{"id":"ko.g008","tr":"Pasayloa ko, palihug hinay-hinay lang og sulti. / Ah, sige, hinayan nako."}
-{"id":"ko.g009","tr":"Maayo ka mo-Koreano! / Dili, dili pa ko maayo."}
-{"id":"ko.g010","tr":"Palihug, molabay ko. / Sige, agi lang."}
-{"id":"ko.g011","tr":"Palihug! Ang menu bi. / Oo, kadiyot lang."}
-{"id":"ko.g012","tr":"Palihug, tabangi ko. / Sige, unsay imong kinahanglan?"}
-{"id":"ko.g013","tr":"Pasayloa ko, palihug balika. / Ang estasyon sa subway naa sa wala."}
-{"id":"ko.g014","tr":"Makasulti ka og Iningles? / Gamay. Hinayan nako og sulti."}
-{"id":"ko.g015","tr":"Unsa ni? / Tteokbokki. Halang-halang gamay."}
-{"id":"ko.g016","tr":"Pwede ang card? / Oo. Isulod diri."}
-{"id":"ko.g017","tr":"Unsay password sa wifi? / Naa sa resibo."}
-{"id":"ko.g018","tr":"Nawala ko. Asa ni? / Hongdae ni. Asa ka padulong?"}
-{"id":"ko.g019","tr":"Unsay imong ngalan? / Si Kii ko. Ikaw?"}
-{"id":"ko.g020","tr":"Nalipay ko nga nakaila nimo. / Ako sab, nalipay ko nga nakaila nimo."}
-{"id":"ko.g021","tr":"Taga-asa ka? / Taga-Amerika. Oklahoma."}
-{"id":"ko.g022","tr":"Pasensya, pila na ang imong edad? / 28. Ikaw?"}
-{"id":"ko.g023","tr":"Unsay imong trabaho? / Nagtrabaho ko sa usa ka IT nga kompanya."}
-{"id":"ko.g024","tr":"Nagtuon ka og Koreano? / Oo, gamay matag adlaw."}
-{"id":"ko.g025","tr":"Unsay imong kalingawan? / Pagdagan ug musika."}
-{"id":"ko.g026","tr":"Dugay nga wala ta magkita! Kumusta na ka? / Maayo ra, salamat. Ikaw?"}
-{"id":"ko.g027","tr":"Kumusta karong mga adlawa? / Puliki. Pero lingaw."}
-{"id":"ko.g028","tr":"Nindot ang panahon karon. / Oo, sakto kaayo para maglakaw-lakaw."}
-{"id":"ko.g029","tr":"Unsay imong buhaton karong katapusan sa semana? / Mosaka ko sa bukid. Gusto ka mouban?"}
-{"id":"ko.g030","tr":"Lingaw kaayo karon. Magkita ta usab! / Oo, kontakon tika."}
-{"id":"ko.g031","tr":"Una na ko. Babay, ari na ko (pabilin og maayo). / Sige, amping (lakaw og maayo)."}
-{"id":"ko.g032","tr":"Laay kaayo. Laag ta! / Sige! Asa ta magkita?"}
-{"id":"ko.g033","tr":"Libre ka ugma? / Sa hapon. Ngano?"}
-{"id":"ko.g034","tr":"Moadto ko sa kapehan, gusto ka mouban? / Sige, adto ta."}
-{"id":"ko.g035","tr":"Gigutom ko. Mangaon ta? / Oo! Unsay atong kaonon?"}
-{"id":"ko.g036","tr":"Kanus-a ta magkita? / Sabado kaha?"}
-{"id":"ko.g037","tr":"Asa ta magkita? / Didto ta sa exit 11 sa Gangnam station."}
-{"id":"ko.g038","tr":"Asa na ka? Hapit na ka? / Pasensya, padulong na ko. 5 minutos!"}
-{"id":"ko.g039","tr":"Lingaw kaayo karon. / Ako sab. Laag ta usab!"}
-{"id":"ko.g040","tr":"Mo-order na ka? / Usa ka iced Americano, palihug."}
-{"id":"ko.g041","tr":"Diri ra ka? / Dili, take out."}
-{"id":"ko.g042","tr":"Unsay mga gidak-on ninyo? / Tall, grande, venti."}
-{"id":"ko.g043","tr":"Naa kay points card? / Wala, okay ra."}
-{"id":"ko.g044","tr":"Palihug initi kini. / Sige, usa ka minuto."}
-{"id":"ko.g045","tr":"Kinahanglan ka og supot? / Oo, usa, palihug."}
-{"id":"ko.g046","tr":"Cash o card? / Card."}
-{"id":"ko.g047","tr":"Asa ang botika? / Sa unang andana sa kadtong building."}
-{"id":"ko.g048","tr":"Asa ang sakit? / Sakit akong ulo. Naa sab koy hilanat."}
-{"id":"ko.g049","tr":"Naa moy tambal sa sakit? / Oo, imna kini human mokaon."}
-{"id":"ko.g050","tr":"Naa kay alerdyi? / Oo, naa koy alerdyi sa mani."}
-{"id":"ko.g051","tr":"Kapila sa usa ka adlaw? / Tulo ka higayon, 30 minutos human mokaon."}
-{"id":"ko.g052","tr":"Naay parsela! / Palihug ibilin lang sa pultahan."}
-{"id":"ko.g053","tr":"Tagpila ang abang? / 500,000 won, apil na ang maintenance."}
-{"id":"ko.g054","tr":"Pwede ni i-dry clean? / Oo, kuhaa ugma sa hapon."}
-{"id":"ko.g055","tr":"Karon ko magsugod og trabaho uban ninyo. Palihug giyahi ko. / Ako sab, palihug."}
-{"id":"ko.g056","tr":"Kumusta na? / Ingon ana ra. Puliki lang."}
-{"id":"ko.g057","tr":"Adik ko sa kape. / Ako sab! Labing menos tulo ka tasa matag adlaw."}
-{"id":"ko.g058","tr":"Moadto ko sa Korea sunod bulan. / Tinuod? Asa man?"}
-{"id":"ko.g059","tr":"Una na ko. Babay, ari na ko. / Sige, amping."}
-{"id":"ko.g060","tr":"Kita ta sa sunod. / Oo, kontakon tika!"}
-{"id":"ko.g061","tr":"Uy, nag-unsa ka? / Nagtan-aw og Netflix sa balay. Ngano?"}
-{"id":"ko.g062","tr":"Libre ka karong gabii? / Oo, human sa alas siyete."}
-{"id":"ko.g063","tr":"Gusto ka moanhi sa among balay? Mo-order ko og manok. / Sige! Magdala ko og beer."}
-{"id":"ko.g064","tr":"Lingaw kaayo karon. Laag ta usab. / Sige, kita ta sunod semana!"}
-{"id":"ko.g065","tr":"Pwede nako makuha imong numero? / Sige, 010-3322-7788."}
-{"id":"ko.g066","tr":"Naa kay Instagram? / Oo, ihatag nako akong username."}
-{"id":"ko.g067","tr":"Nindot kaayo karon. Magkita ta usab? / Sige. Ako na ang molibre karon."}
-{"id":"ko.g068","tr":"Gabii na. Ihatod tika. / Okay ra, mosakay ra ko og subway."}
-{"id":"ko.g069","tr":"Gwapa ka karon. / Salamat. Nagpaputol ko sa akong buhok."}
-{"id":"ko.g070","tr":"Niabot na ka! Gimingaw ko nimo. / Ako sab. Dugay ka nanghulat?"}
-{"id":"ko.g071","tr":"Nakauli ka og maayo? / Oo, bag-o lang ko niabot. Salamat karong adlawa."}
-{"id":"ko.g072","tr":"Matulog na ko. Maayong gabii! / Sige, matam-is nga damgo."}
-{"id":"ko.g073","tr":"Nakakaon na ka? / Wala pa. Magdungan ta og kaon?"}
-{"id":"ko.g074","tr":"Nag-unsa ka? / Naghigda-higda lang. Laay."}
-{"id":"ko.g075","tr":"Asa na ka? Hapit na ka? / Pasensya, lima ka minuto! Bag-o lang ko nanaog sa subway."}
-{"id":"ko.g076","tr":"Murag maulahi ko. / Okay ra, hinay-hinay lang. Naa ra ko sa kapehan."}
-{"id":"ko.g077","tr":"Tan-awa ni nga meme haha / Kataw-anan kaayo haha"}
-{"id":"ko.g078","tr":"Ako ni ang naghimo. / Wow, nindot! Giunsa nimo paghimo?"}
-{"id":"ko.g079","tr":"Nakapasar ko sa exam! / Tinuod? Maayo kaayo!"}
-{"id":"ko.g080","tr":"Nag-overtime ko karon… / Kapoy gyud to. Pahulay og maayo."}
-{"id":"ko.g081","tr":"Inom ta human sa trabaho? / Sige gyud! Asa?"}
-{"id":"ko.g082","tr":"Kulba kaayo ko sa interview. / Kaya nimo! Maayo ra ka."}
-{"id":"ko.g083","tr":"Unsay imong buhaton ugma? / Day off nako ugma. Ngano?"}
-{"id":"ko.g084","tr":"Unsang orasa na karon? / Alas dos y medya."}
-{"id":"ko.g085","tr":"Unsang orasa na? / 9:10."}
-{"id":"ko.g086","tr":"Kumusta ang panahon sa Seoul? / Bugnaw karon, ug grabe ang abog sa hangin."}
-{"id":"ko.g087","tr":"Nag-ulan ba sa gawas? / Oo, dad-a ang payong."}
-{"id":"ko.g088","tr":"Murag kapoy ka. / Oo, wala ko katulog gabii."}
-{"id":"ko.g089","tr":"Nalaay ko. / Tan-aw na lang ta og sine?"}
-{"id":"ko.g090","tr":"Nakadaog ko sa lotto! / Grabe! Pila?"}
-{"id":"ko.g091","tr":"Nawala akong pitaka… / Hala! Niadto na ka sa pulis?"}
-{"id":"ko.g092","tr":"Ugma na akong presentasyon. / Kaya nimo ni! Makaya nimo."}
-{"id":"ko.g093","tr":"Kaon og daghan. / Salamat, mokaon ko!"}
-{"id":"ko.g094","tr":"Unsay imong ngalan? / Si Kim Minsu ko."}
-{"id":"ko.g095","tr":"Lingkod diri, palihug. / Salamat."}
-{"id":"ko.g096","tr":"Naay tawo? / Oo, sulod!"}
-{"id":"ko.g097","tr":"Titser, kumusta na ka? / Maayo ra, salamat. Dugay nga wala ta magkita."}
-{"id":"ko.g098","tr":"Pwede ko nimo kuhaan og litrato? / Sige. Usa, duha, tulo!"}
-{"id":"ko.g099","tr":"Unsa man diay ta? / Hmm… ganahan ko nimo. Mag-uyab ta?"}
-{"id":"ko.g100","tr":"Nganong wala ka nag-text gahapon? / Pasayloa ko, ako ang sayop. Ayaw na kasuko."}
-{"id":"ko.g101","tr":"Unsay pamati nimo kon kauban ko? / Komportable ko. Mao na ang pinakanindot."}
-{"id":"ko.g102","tr":"Pwede nako kuptan imong kamot? / Oo… tungod ba kay bugnaw ka?"}
-{"id":"ko.g103","tr":"Ika-100 nga adlaw nato karon! / Tinuod? Malipayong ika-100 nga adlaw. Naa koy regalo nimo."}
-{"id":"ko.g104","tr":"Naa koy isulti nimo. / Unsa man? Naay problema?"}
-{"id":"ko.g105","tr":"Unsang orasa ang miting? / Alas dos. Meeting room B."}
-{"id":"ko.g106","tr":"Kanus-a ang deadline? / Biyernes, alas sais sa hapon."}
-{"id":"ko.g107","tr":"Manager, naa ka bay gamay nga oras? / Oo, sulod."}
-{"id":"ko.g108","tr":"Una na ko og uli. / Sige, salamat sa imong kakugi karon."}
-{"id":"ko.g109","tr":"Naay panihapon sa team karon. / Unsang orasa ug asa?"}
-{"id":"ko.g110","tr":"Unsay atong paniudtohon? / Kimchi jjigae (sabaw nga kimchi) kaha?"}
-{"id":"ko.g111","tr":"Ay, laay kaayo. Unsay akong buhaton? / Gawas na. Kaon ta og manok."}
-{"id":"ko.g112","tr":"Kapoy kaayo ko karon. / Tulog og sayo. Kita ta ugma."}
-{"id":"ko.g113","tr":"Asa na ka? / Padulong na ko. 10 minutos!"}
-{"id":"ko.g114","tr":"Unsay nahitabo niya? / Ambot. Ako sab gusto mahibalo."}
-{"id":"ko.g115","tr":"Gireserba nako ang atong lingkoranan. / Ikaw gyud ang pinakamaayo."}
-{"id":"ko.g116","tr":"Videoke ta karong gabii? / Sige! Ako ang molibre."}
-{"id":"ko.g117","tr":"Murag mapakyas ko sa presentasyon. / Ayaw kabalaka. Buhata lang sama sa imong gipraktis."}
-{"id":"ko.g118","tr":"Nahuman gyud. / Maayo ang imong trabaho. Beer ta?"}
-{"id":"ko.g119","tr":"Kumusta ni? Bag-o lang nako gipalit. / Kyut. Bagay nimo."}
-{"id":"ko.g120","tr":"Gimingaw ko nimo. / Ako sab. Magkita ta karong katapusan sa semana."}
-{"id":"ko.g121","tr":"Ganahan ko nimo. / …Ako sab. Unta giingon nimo sayo pa."}
-{"id":"ko.g122","tr":"Langga, nag-unsa ka? / Naghunahuna nimo, siyempre."}
-{"id":"ko.g123","tr":"Molakaw na ko. / Amping. Text ko kon naa na ka."}
-{"id":"ko.g124","tr":"Katulgon na ko. Matulog na ko. / Sige, matam-is nga damgo."}
-{"id":"ko.g125","tr":"Nganong ingon ana man ka mopahiyom? / Sa imong pahiyom ganiha, nilukso akong kasingkasing."}
-{"id":"ko.g126","tr":"Nganong nag-text ka? / Wala lang. Kanunay lang ko maghunahuna nimo."}
-{"id":"ko.g127","tr":"Ingon ka naa kay isulti? / Murag ganahan ko nimo."}
-{"id":"ko.g128","tr":"Unsa man diay ta? / Mag-uyab na ta."}
-{"id":"ko.g129","tr":"Nakapasar ko! / Tinuod? Pahalipay!"}
-{"id":"ko.g130","tr":"Una na ko. / Ayaw lakaw. Pabilin pa gamay."}
-{"id":"ko.g131","tr":"Dugay nga wala ta magkita. / Gimingaw ko nimo. Maayo ra ka?"}
-{"id":"ko.g132","tr":"Kinsay imong pinakaganahan? / Ang main vocalist."}
-{"id":"ko.g133","tr":"Unsay imong gipaminaw karon? / Nahimo kong fan ani nga grupo. Nindot kaayo ilang pasundayag."}
-{"id":"ko.g134","tr":"Unsay imong buhaton karong katapusan sa semana? / Moadto ko sa konsiyerto! Nipalit pa gyud ko og light stick."}
-{"id":"ko.g135","tr":"Fan ko! Palihug pirmahi ni. / Sige, salamat. Unsay imong ngalan?"}
-{"id":"ko.g136","tr":"Naa daw silay comeback karong bulana. / Tinuod? Nakita nimo ang teaser?"}
-{"id":"ko.g137","tr":"Kumusta ang konsiyerto? / Nanindog akong balhibo sa dihang nanagkanta ang tanan."}
-{"id":"ko.g138","tr":"Naa kay Instagram? / Oo, bag-o lang tika gi-follow."}
-{"id":"ko.g139","tr":"Nag-post ko og litrato. I-like bi. / Gi-like na nako."}
-{"id":"ko.g140","tr":"Nganong walay nikatawa sa akong pasiaw ganiha? / Kalit man nahilom ang tanan…"}
-{"id":"ko.g141","tr":"Kumusta ang tteokbokki diri? / Lami kaayo og grabe. Mobalik ko."}
-{"id":"ko.g142","tr":"Makaadik ni nga kanta. / Tinuod gyud, tibuok adlaw nakong gipaminaw."}
-{"id":"ko.g143","tr":"Unsay akong isul-ob karon? / Simple lang. Maong ug puti nga t-shirt."}
-{"id":"ko.g144","tr":"Unsay imong buhaton karong katapusan sa semana? / Mangaon mi uban sa pamilya."}
-{"id":"ko.g145","tr":"Kinsay imong kauban? / Akong higala."}
-{"id":"ko.g146","tr":"Kinsa to? / Akong kuya to."}
-{"id":"ko.g147","tr":"Unni, kumusta ni? / Bagay nimo. Paliti."}
-{"id":"ko.g148","tr":"Naa kay igsoon? / Oo, usa ka manghod."}
-{"id":"ko.g149","tr":"Titser, naa koy pangutana. / Oo, sige."}
+{"id": "ko.g001", "tr": "Maayong adlaw, nalipay ko nga nakaila nimo sa unang higayon. / Maayong adlaw! Nalipay ko nga nakaila nimo."}
+{"id": "ko.g002", "tr": "Salamat sa pagtabang. / Walay sapayan."}
+{"id": "ko.g003", "tr": "Pasayloa ko kay naulahi ko. / Okay ra, bag-o ra sab ko niabot."}
+{"id": "ko.g004", "tr": "Tagpila ni? / 12,000 won."}
+{"id": "ko.g005", "tr": "Palihug, asa ang CR? / Diretso lang ngadto."}
+{"id": "ko.g006", "tr": "Unsay imo? / Kini, take out."}
+{"id": "ko.g007", "tr": "Okay ra ka? Nasamad ka? / Oo, okay ra ko."}
+{"id": "ko.g008", "tr": "Pasayloa ko, palihug hinay-hinay lang og sulti. / Ah, sige, hinayan nako."}
+{"id": "ko.g009", "tr": "Maayo ka mo-Koreano! / Dili, dili pa ko maayo."}
+{"id": "ko.g010", "tr": "Palihug, molabay ko. / Sige, agi lang."}
+{"id": "ko.g011", "tr": "Palihug! Ang menu bi. / Oo, kadiyot lang."}
+{"id": "ko.g012", "tr": "Palihug, tabangi ko. / Sige, unsay imong kinahanglan?"}
+{"id": "ko.g013", "tr": "Pasayloa ko, palihug balika. / Ang estasyon sa subway naa sa wala."}
+{"id": "ko.g014", "tr": "Makasulti ka og Iningles? / Gamay. Hinayan nako og sulti."}
+{"id": "ko.g015", "tr": "Unsa ni? / Tteokbokki. Halang-halang gamay."}
+{"id": "ko.g016", "tr": "Pwede ang card? / Oo. Isulod diri."}
+{"id": "ko.g017", "tr": "Unsay password sa wifi? / Naa sa resibo."}
+{"id": "ko.g018", "tr": "Nawala ko. Asa ni? / Hongdae ni. Asa ka padulong?"}
+{"id": "ko.g019", "tr": "Unsay imong ngalan? / Si @@ ko. Ikaw?"}
+{"id": "ko.g020", "tr": "Nalipay ko nga nakaila nimo. / Ako sab, nalipay ko nga nakaila nimo."}
+{"id": "ko.g021", "tr": "Taga-asa ka? / Taga-Pilipinas. Cebu."}
+{"id": "ko.g022", "tr": "Pasensya, pila na ang imong edad? / 28. Ikaw?"}
+{"id": "ko.g023", "tr": "Unsay imong trabaho? / Nagtrabaho ko sa usa ka IT nga kompanya."}
+{"id": "ko.g024", "tr": "Nagtuon ka og Koreano? / Oo, gamay matag adlaw."}
+{"id": "ko.g025", "tr": "Unsay imong kalingawan? / Pagdagan ug musika."}
+{"id": "ko.g026", "tr": "Dugay nga wala ta magkita! Kumusta na ka? / Maayo ra, salamat. Ikaw?"}
+{"id": "ko.g027", "tr": "Kumusta karong mga adlawa? / Puliki. Pero lingaw."}
+{"id": "ko.g028", "tr": "Nindot ang panahon karon. / Oo, sakto kaayo para maglakaw-lakaw."}
+{"id": "ko.g029", "tr": "Unsay imong buhaton karong katapusan sa semana? / Mosaka ko sa bukid. Gusto ka mouban?"}
+{"id": "ko.g030", "tr": "Lingaw kaayo karon. Magkita ta usab! / Oo, kontakon tika."}
+{"id": "ko.g031", "tr": "Una na ko. Babay, ari na ko (pabilin og maayo). / Sige, amping (lakaw og maayo)."}
+{"id": "ko.g032", "tr": "Laay kaayo. Laag ta! / Sige! Asa ta magkita?"}
+{"id": "ko.g033", "tr": "Libre ka ugma? / Sa hapon. Ngano?"}
+{"id": "ko.g034", "tr": "Moadto ko sa kapehan, gusto ka mouban? / Sige, adto ta."}
+{"id": "ko.g035", "tr": "Gigutom ko. Mangaon ta? / Oo! Unsay atong kaonon?"}
+{"id": "ko.g036", "tr": "Kanus-a ta magkita? / Sabado kaha?"}
+{"id": "ko.g037", "tr": "Asa ta magkita? / Didto ta sa exit 11 sa Gangnam station."}
+{"id": "ko.g038", "tr": "Asa na ka? Hapit na ka? / Pasensya, padulong na ko. 5 minutos!"}
+{"id": "ko.g039", "tr": "Lingaw kaayo karon. / Ako sab. Laag ta usab!"}
+{"id": "ko.g040", "tr": "Mo-order na ka? / Usa ka iced Americano, palihug."}
+{"id": "ko.g041", "tr": "Diri ra ka? / Dili, take out."}
+{"id": "ko.g042", "tr": "Unsay mga gidak-on ninyo? / Tall, grande, venti."}
+{"id": "ko.g043", "tr": "Naa kay points card? / Wala, okay ra."}
+{"id": "ko.g044", "tr": "Palihug initi kini. / Sige, usa ka minuto."}
+{"id": "ko.g045", "tr": "Kinahanglan ka og supot? / Oo, usa, palihug."}
+{"id": "ko.g046", "tr": "Cash o card? / Card."}
+{"id": "ko.g047", "tr": "Asa ang botika? / Sa unang andana sa kadtong building."}
+{"id": "ko.g048", "tr": "Asa ang sakit? / Sakit akong ulo. Naa sab koy hilanat."}
+{"id": "ko.g049", "tr": "Naa moy tambal sa sakit? / Oo, imna kini human mokaon."}
+{"id": "ko.g050", "tr": "Naa kay alerdyi? / Oo, naa koy alerdyi sa mani."}
+{"id": "ko.g051", "tr": "Kapila sa usa ka adlaw? / Tulo ka higayon, 30 minutos human mokaon."}
+{"id": "ko.g052", "tr": "Naay parsela! / Palihug ibilin lang sa pultahan."}
+{"id": "ko.g053", "tr": "Tagpila ang abang? / 500,000 won, apil na ang maintenance."}
+{"id": "ko.g054", "tr": "Pwede ni i-dry clean? / Oo, kuhaa ugma sa hapon."}
+{"id": "ko.g055", "tr": "Karon ko magsugod og trabaho uban ninyo. Palihug giyahi ko. / Ako sab, palihug."}
+{"id": "ko.g056", "tr": "Kumusta na? / Ingon ana ra. Puliki lang."}
+{"id": "ko.g057", "tr": "Adik ko sa kape. / Ako sab! Labing menos tulo ka tasa matag adlaw."}
+{"id": "ko.g058", "tr": "Moadto ko sa Korea sunod bulan. / Tinuod? Asa man?"}
+{"id": "ko.g059", "tr": "Una na ko. Babay, ari na ko. / Sige, amping."}
+{"id": "ko.g060", "tr": "Kita ta sa sunod. / Oo, kontakon tika!"}
+{"id": "ko.g061", "tr": "Uy, nag-unsa ka? / Nagtan-aw og Netflix sa balay. Ngano?"}
+{"id": "ko.g062", "tr": "Libre ka karong gabii? / Oo, human sa alas siyete."}
+{"id": "ko.g063", "tr": "Gusto ka moanhi sa among balay? Mo-order ko og manok. / Sige! Magdala ko og beer."}
+{"id": "ko.g064", "tr": "Lingaw kaayo karon. Laag ta usab. / Sige, kita ta sunod semana!"}
+{"id": "ko.g065", "tr": "Pwede nako makuha imong numero? / Sige, 010-3322-7788."}
+{"id": "ko.g066", "tr": "Naa kay Instagram? / Oo, ihatag nako akong username."}
+{"id": "ko.g067", "tr": "Nindot kaayo karon. Magkita ta usab? / Sige. Ako na ang molibre karon."}
+{"id": "ko.g068", "tr": "Gabii na. Ihatod tika. / Okay ra, mosakay ra ko og subway."}
+{"id": "ko.g069", "tr": "Gwapa ka karon. / Salamat. Nagpaputol ko sa akong buhok."}
+{"id": "ko.g070", "tr": "Niabot na ka! Gimingaw ko nimo. / Ako sab. Dugay ka nanghulat?"}
+{"id": "ko.g071", "tr": "Nakauli ka og maayo? / Oo, bag-o lang ko niabot. Salamat karong adlawa."}
+{"id": "ko.g072", "tr": "Matulog na ko. Maayong gabii! / Sige, matam-is nga damgo."}
+{"id": "ko.g073", "tr": "Nakakaon na ka? / Wala pa. Magdungan ta og kaon?"}
+{"id": "ko.g074", "tr": "Nag-unsa ka? / Naghigda-higda lang. Laay."}
+{"id": "ko.g075", "tr": "Asa na ka? Hapit na ka? / Pasensya, lima ka minuto! Bag-o lang ko nanaog sa subway."}
+{"id": "ko.g076", "tr": "Murag maulahi ko. / Okay ra, hinay-hinay lang. Naa ra ko sa kapehan."}
+{"id": "ko.g077", "tr": "Tan-awa ni nga meme haha / Kataw-anan kaayo haha"}
+{"id": "ko.g078", "tr": "Ako ni ang naghimo. / Wow, nindot! Giunsa nimo paghimo?"}
+{"id": "ko.g079", "tr": "Nakapasar ko sa exam! / Tinuod? Maayo kaayo!"}
+{"id": "ko.g080", "tr": "Nag-overtime ko karon… / Kapoy gyud to. Pahulay og maayo."}
+{"id": "ko.g081", "tr": "Inom ta human sa trabaho? / Sige gyud! Asa?"}
+{"id": "ko.g082", "tr": "Kulba kaayo ko sa interview. / Kaya nimo! Maayo ra ka."}
+{"id": "ko.g083", "tr": "Unsay imong buhaton ugma? / Day off nako ugma. Ngano?"}
+{"id": "ko.g084", "tr": "Unsang orasa na karon? / Alas dos y medya."}
+{"id": "ko.g085", "tr": "Unsang orasa na? / 9:10."}
+{"id": "ko.g086", "tr": "Kumusta ang panahon sa Seoul? / Bugnaw karon, ug grabe ang abog sa hangin."}
+{"id": "ko.g087", "tr": "Nag-ulan ba sa gawas? / Oo, dad-a ang payong."}
+{"id": "ko.g088", "tr": "Murag kapoy ka. / Oo, wala ko katulog gabii."}
+{"id": "ko.g089", "tr": "Nalaay ko. / Tan-aw na lang ta og sine?"}
+{"id": "ko.g090", "tr": "Nakadaog ko sa lotto! / Grabe! Pila?"}
+{"id": "ko.g091", "tr": "Nawala akong pitaka… / Hala! Niadto na ka sa pulis?"}
+{"id": "ko.g092", "tr": "Ugma na akong presentasyon. / Kaya nimo ni! Makaya nimo."}
+{"id": "ko.g093", "tr": "Kaon og daghan. / Salamat, mokaon ko!"}
+{"id": "ko.g094", "tr": "Unsay imong ngalan? / Si Kim Minsu ko."}
+{"id": "ko.g095", "tr": "Lingkod diri, palihug. / Salamat."}
+{"id": "ko.g096", "tr": "Naay tawo? / Oo, sulod!"}
+{"id": "ko.g097", "tr": "Titser, kumusta na ka? / Maayo ra, salamat. Dugay nga wala ta magkita."}
+{"id": "ko.g098", "tr": "Pwede ko nimo kuhaan og litrato? / Sige. Usa, duha, tulo!"}
+{"id": "ko.g099", "tr": "Unsa man diay ta? / Hmm… ganahan ko nimo. Mag-uyab ta?"}
+{"id": "ko.g100", "tr": "Nganong wala ka nag-text gahapon? / Pasayloa ko, ako ang sayop. Ayaw na kasuko."}
+{"id": "ko.g101", "tr": "Unsay pamati nimo kon kauban ko? / Komportable ko. Mao na ang pinakanindot."}
+{"id": "ko.g102", "tr": "Pwede nako kuptan imong kamot? / Oo… tungod ba kay bugnaw ka?"}
+{"id": "ko.g103", "tr": "Ika-100 nga adlaw nato karon! / Tinuod? Malipayong ika-100 nga adlaw. Naa koy regalo nimo."}
+{"id": "ko.g104", "tr": "Naa koy isulti nimo. / Unsa man? Naay problema?"}
+{"id": "ko.g105", "tr": "Unsang orasa ang miting? / Alas dos. Meeting room B."}
+{"id": "ko.g106", "tr": "Kanus-a ang deadline? / Biyernes, alas sais sa hapon."}
+{"id": "ko.g107", "tr": "Manager, naa ka bay gamay nga oras? / Oo, sulod."}
+{"id": "ko.g108", "tr": "Una na ko og uli. / Sige, salamat sa imong kakugi karon."}
+{"id": "ko.g109", "tr": "Naay panihapon sa team karon. / Unsang orasa ug asa?"}
+{"id": "ko.g110", "tr": "Unsay atong paniudtohon? / Kimchi jjigae (sabaw nga kimchi) kaha?"}
+{"id": "ko.g111", "tr": "Ay, laay kaayo. Unsay akong buhaton? / Gawas na. Kaon ta og manok."}
+{"id": "ko.g112", "tr": "Kapoy kaayo ko karon. / Tulog og sayo. Kita ta ugma."}
+{"id": "ko.g113", "tr": "Asa na ka? / Padulong na ko. 10 minutos!"}
+{"id": "ko.g114", "tr": "Unsay nahitabo niya? / Ambot. Ako sab gusto mahibalo."}
+{"id": "ko.g115", "tr": "Gireserba nako ang atong lingkoranan. / Ikaw gyud ang pinakamaayo."}
+{"id": "ko.g116", "tr": "Videoke ta karong gabii? / Sige! Ako ang molibre."}
+{"id": "ko.g117", "tr": "Murag mapakyas ko sa presentasyon. / Ayaw kabalaka. Buhata lang sama sa imong gipraktis."}
+{"id": "ko.g118", "tr": "Nahuman gyud. / Maayo ang imong trabaho. Beer ta?"}
+{"id": "ko.g119", "tr": "Kumusta ni? Bag-o lang nako gipalit. / Kyut. Bagay nimo."}
+{"id": "ko.g120", "tr": "Gimingaw ko nimo. / Ako sab. Magkita ta karong katapusan sa semana."}
+{"id": "ko.g121", "tr": "Ganahan ko nimo. / …Ako sab. Unta giingon nimo sayo pa."}
+{"id": "ko.g122", "tr": "Langga, nag-unsa ka? / Naghunahuna nimo, siyempre."}
+{"id": "ko.g123", "tr": "Molakaw na ko. / Amping. Text ko kon naa na ka."}
+{"id": "ko.g124", "tr": "Katulgon na ko. Matulog na ko. / Sige, matam-is nga damgo."}
+{"id": "ko.g125", "tr": "Nganong ingon ana man ka mopahiyom? / Sa imong pahiyom ganiha, nilukso akong kasingkasing."}
+{"id": "ko.g126", "tr": "Nganong nag-text ka? / Wala lang. Kanunay lang ko maghunahuna nimo."}
+{"id": "ko.g127", "tr": "Ingon ka naa kay isulti? / Murag ganahan ko nimo."}
+{"id": "ko.g128", "tr": "Unsa man diay ta? / Mag-uyab na ta."}
+{"id": "ko.g129", "tr": "Nakapasar ko! / Tinuod? Pahalipay!"}
+{"id": "ko.g130", "tr": "Una na ko. / Ayaw lakaw. Pabilin pa gamay."}
+{"id": "ko.g131", "tr": "Dugay nga wala ta magkita. / Gimingaw ko nimo. Maayo ra ka?"}
+{"id": "ko.g132", "tr": "Kinsay imong pinakaganahan? / Ang main vocalist."}
+{"id": "ko.g133", "tr": "Unsay imong gipaminaw karon? / Nahimo kong fan ani nga grupo. Nindot kaayo ilang pasundayag."}
+{"id": "ko.g134", "tr": "Unsay imong buhaton karong katapusan sa semana? / Moadto ko sa konsiyerto! Nipalit pa gyud ko og light stick."}
+{"id": "ko.g135", "tr": "Fan ko! Palihug pirmahi ni. / Sige, salamat. Unsay imong ngalan?"}
+{"id": "ko.g136", "tr": "Naa daw silay comeback karong bulana. / Tinuod? Nakita nimo ang teaser?"}
+{"id": "ko.g137", "tr": "Kumusta ang konsiyerto? / Nanindog akong balhibo sa dihang nanagkanta ang tanan."}
+{"id": "ko.g138", "tr": "Naa kay Instagram? / Oo, bag-o lang tika gi-follow."}
+{"id": "ko.g139", "tr": "Nag-post ko og litrato. I-like bi. / Gi-like na nako."}
+{"id": "ko.g140", "tr": "Nganong walay nikatawa sa akong pasiaw ganiha? / Kalit man nahilom ang tanan…"}
+{"id": "ko.g141", "tr": "Kumusta ang tteokbokki diri? / Lami kaayo og grabe. Mobalik ko."}
+{"id": "ko.g142", "tr": "Makaadik ni nga kanta. / Tinuod gyud, tibuok adlaw nakong gipaminaw."}
+{"id": "ko.g143", "tr": "Unsay akong isul-ob karon? / Simple lang. Maong ug puti nga t-shirt."}
+{"id": "ko.g144", "tr": "Unsay imong buhaton karong katapusan sa semana? / Mangaon mi uban sa pamilya."}
+{"id": "ko.g145", "tr": "Kinsay imong kauban? / Akong higala."}
+{"id": "ko.g146", "tr": "Kinsa to? / Akong kuya to."}
+{"id": "ko.g147", "tr": "Unni, kumusta ni? / Bagay nimo. Paliti."}
+{"id": "ko.g148", "tr": "Naa kay igsoon? / Oo, usa ka manghod."}
+{"id": "ko.g149", "tr": "Titser, naa koy pangutana. / Oo, sige."}
+{"id": "ko.g150", "tr": "Sirado kanang restawran kon Lunes. / Ah, mao ba? Sa Martes na lang ta."}
+{"id": "ko.g151", "tr": "Ako ang naghimo ani nga cake. / Wow, nindot kaayo!"}
+{"id": "ko.g152", "tr": "Minsu, ania na ko. / Uy, niabot na ka? Sulod."}
+{"id": "ko.g153", "tr": "Mag-paniudto ta ugma? / Oo, sige. Pila?"}
+{"id": "ko.g154", "tr": "Unsay gusto nimong kaonon? / Hmm… bibimbap karon."}
+{"id": "ko.g155", "tr": "Gipalit nako ni gamit akong unang suweldo. / Uy, nindot!"}
+{"id": "ko.g156", "tr": "Mao ni ang Namsan Tower. / Whoa, makita ang tibuok Seoul!"}
+{"id": "ko.g157", "tr": "Magminyo na ko sunod bulan. / Ay, tinuod? Congrats!"}
+{"id": "ko.g158", "tr": "Aray! Naigo akong kamot sa pultahan. / Okay ra ka? Ipakita."}
+{"id": "ko.g159", "tr": "Mipula imong nawong! / Ay sus, ayaw na ko tan-awa."}
+{"id": "ko.g160", "tr": "Nindot kaha ni nga pelikula? / Ambot, dili ko sigurado."}
+{"id": "ko.g161", "tr": "Nakita nako ang BTS gahapon. / Ay sus, bakak!"}
+{"id": "ko.g162", "tr": "Wala daw team dinner karon. / Yes! Sayo ko mopauli."}
+{"id": "ko.g163", "tr": "Alas onse na. / Hala, kinahanglan na ko modali!"}
+{"id": "ko.g164", "tr": "Ay, naula nako ang kape! / Okay ra, ako ang mopahid."}
+{"id": "ko.g165", "tr": "Nagdala ka og payong? / Ay, nabilin nako sa balay!"}
+{"id": "ko.g166", "tr": "Nahuman na imong exam? / Oo, phew, kinahanglan na ko mopahulay."}
+{"id": "ko.g167", "tr": "Overtime na sab karon? / Hay, oo. Daghan kaayo og trabaho."}
+{"id": "ko.g168", "tr": "Shh, natulog ang baby. / Ay, pasayloa. Mohilom ko."}
+{"id": "ko.g169", "tr": "Sige, magsugod na ta? / Oo, sugod na ta!"}
+{"id": "ko.g170", "tr": "Hello? Si Minji ni? / Oo, ako ni. Unsa man?"}
+{"id": "ko.g171", "tr": "Usa ka milyon ka won kining bag. / Diyos ko, mahal kaayo!"}
+{"id": "ko.g172", "tr": "Boo! / Ay, nakurat ko! Nahadlok gyud ko nimo."}
+{"id": "ko.g173", "tr": "Aaah, insekto! / Ayaw lihok. Ako ang modakop."}
+{"id": "ko.g174", "tr": "Ta-da! Regalo nimo sa adlawng natawhan. / Wow, salamat! Unsa ni?"}
+{"id": "ko.g175", "tr": "Expired na kining gatas. / Uwek, nainom na nako!"}
+{"id": "ko.g176", "tr": "Mas gwapa ka karon. / Tinuod? Gibag-o nako gamay akong buhok."}
+{"id": "ko.g177", "tr": "Haneul ang akong ngalan. / Bisan imong ngalan nindot."}
+{"id": "ko.g178", "tr": "Nganong cute man kaayo ka? / Ay sus, ayaw pagtiaw."}
+{"id": "ko.g179", "tr": "Mas gwapo ka sa personal. / Haha, morag dili ko gwapo sa litrato."}
+{"id": "ko.g180", "tr": "Nindot ka tan-awon kon nagtrabaho. / Kalit man? Salamat."}
+{"id": "ko.g181", "tr": "Nindot imong pahiyom. / Salamat. Karon pa ko kadungog ana."}
+{"id": "ko.g182", "tr": "Nindot kaayo imong pahiyom sa mata. / Ay sus, maulaw ko."}
+{"id": "ko.g183", "tr": "Unsay naa? Mitawag gyud ka. / Wala lang, gusto lang nakong madungog imong tingog."}
+{"id": "ko.g184", "tr": "Unsa ko para nimo? / Sa tinuod lang, ikaw gyud ang akong tipo."}
+{"id": "ko.g185", "tr": "Unsa imong ideal nga tipo? / Hmm… tawo nga katawahon."}
+{"id": "ko.g186", "tr": "Maayo imong unang impresyon nako. / Ako sab. Komportable na ko sukad sa sinugdanan."}
+{"id": "ko.g187", "tr": "Nakakaon na ka? / Wala pa. Kaon ta?"}
+{"id": "ko.g188", "tr": "Gusto ka mosaka para mokaon og ramyeon? / Haha, linya na sa pelikula, no? Mopauli na ko karon."}
+{"id": "ko.g189", "tr": "Kaon ta uban karong weekend? / Sige, kanus-a ta magkita?"}
+{"id": "ko.g190", "tr": "Nalingaw ko karon. Okay ra ba nga kontakon tika? / Salamat sa imong hunahuna, pero okay ra ko."}
+{"id": "ko.g191", "tr": "Magkita ba ta pag-usab? / Pasayloa, pero naa koy uyab."}
+{"id": "ko.g192", "tr": "Human sa klase, ilibre tika og kape. / Maayo kang tawo, pero gusto nako nga magkahigala lang ta."}
+{"id": "ko.g193", "tr": "Lami kaayo ang pagkaon. / Wala ra kini. Kaon og daghan."}
+{"id": "ko.g194", "tr": "Unsaon nimo paghimo ani? / Sayon ra. Tudloan tika sa sunod."}
+{"id": "ko.g195", "tr": "Hanas gyud ka ani. / Ay dili, layo pa kaayo ko."}
+{"id": "ko.g196", "tr": "Nabasa nako imong report. Kakugihan nimo sa detalye. / Salamat sa maayong pagtan-aw."}
+{"id": "ko.g197", "tr": "Kuwarenta ka na? Batan-on kaayo ka tan-awon. / Sobra man kaayo imong dayeg."}
+{"id": "ko.g198", "tr": "Cute kaayo imong anak. / Salamat. Sa balay, pilyo kaayo na siya."}
+{"id": "ko.g199", "tr": "Bagay kaayo nimo ang sinina. / Salamat sa dayeg."}
+{"id": "ko.g200", "tr": "Nindot kaayo imong pronunciation. / Ay dili. Tungod ra tanan sa akong maestro."}
+{"id": "ko.g201", "tr": "Daghan kog nakat-onan sa imong presentation karon. / Wala ra. Salamat sa pagpaminaw."}

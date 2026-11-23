@@ -1,668 +1,668 @@
-{"f":"lessons","id":"nouns","k":"title","src":"5 · Nouns and 은/는","tgt":""}
-{"f":"lessons","id":"nouns","k":"blurb","src":"Names of things, this/that, 이에요/예요, and the topic marker 은/는.","tgt":""}
-{"f":"sentences","id":"ko.s0030","k":"gloss","src":"a book / the book / books","tgt":""}
-{"f":"sentences","id":"ko.s0031","k":"gloss","src":"friend / friends","tgt":""}
-{"f":"sentences","id":"ko.s0032","k":"gloss","src":"friends (clearly more than one)","tgt":""}
-{"f":"sentences","id":"ko.s0033","k":"gloss","src":"this book","tgt":""}
-{"f":"sentences","id":"ko.s0034","k":"gloss","src":"that person","tgt":""}
-{"f":"sentences","id":"ko.s0035","k":"gloss","src":"that building over there","tgt":""}
-{"f":"sentences","id":"ko.s0036","k":"gloss","src":"(my) friend's house","tgt":""}
-{"f":"sentences","id":"ko.s0037","k":"gloss","src":"my name","tgt":""}
-{"f":"sentences","id":"ko.s0038","k":"gloss","src":"(I) am a student","tgt":""}
-{"f":"sentences","id":"ko.s0039","k":"gloss","src":"(She) is a doctor","tgt":""}
-{"f":"sentences","id":"ko.s0040","k":"gloss","src":"(I'm) not a student","tgt":""}
-{"f":"sentences","id":"ko.s0041","k":"gloss","src":"What is this?","tgt":""}
-{"f":"sentences","id":"ko.s0042","k":"gloss","src":"I'm a student (as for me: student)","tgt":""}
-{"f":"sentences","id":"ko.s0043","k":"gloss","src":"My name is Minsu","tgt":""}
-{"f":"sentences","id":"ko.s0044","k":"gloss","src":"This book is my book","tgt":""}
-{"f":"sentences","id":"ko.s0045","k":"gloss","src":"My friend is a doctor","tgt":""}
-{"f":"checks","id":"nouns.k1","k":"q","src":"'I'm a student' =","tgt":""}
-{"f":"checks","id":"nouns.k1","k":"why","src":"저 ends in a vowel → 는; 학생 ends in a consonant → 이에요.","tgt":""}
-{"f":"checks","id":"nouns.k2","k":"q","src":"'That building over there' =","tgt":""}
-{"f":"checks","id":"nouns.k2","k":"why","src":"이 = this, 그 = that (near you), 저 = over there.","tgt":""}
-{"f":"checks","id":"nouns.k3","k":"q","src":"'My name is Minsu' =","tgt":""}
-{"f":"checks","id":"nouns.k3","k":"why","src":"이름 ends in a consonant → 은; 민수 ends in a vowel → 예요.","tgt":""}
-{"f":"practice","id":"nouns.01","k":"q","src":"'This book' =","tgt":""}
-{"f":"practice","id":"nouns.01","k":"why","src":"이 = this, before the noun.","tgt":""}
-{"f":"practice","id":"nouns.02","k":"q","src":"'I'm a doctor' =","tgt":""}
-{"f":"practice","id":"nouns.02","k":"why","src":"저 + 는 (vowel); 의사 + 예요 (vowel).","tgt":""}
-{"f":"practice","id":"nouns.03","k":"q","src":"'My friend's house' =","tgt":""}
-{"f":"practice","id":"nouns.03","k":"why","src":"Owner first, then the thing.","tgt":""}
-{"f":"practice","id":"nouns.04","k":"q","src":"Which one is correct?","tgt":""}
-{"f":"practice","id":"nouns.04","k":"why","src":"선생님 ends in a consonant → 이에요.","tgt":""}
-{"f":"practice","id":"nouns.05","k":"q","src":"'This book is my book' =","tgt":""}
-{"f":"practice","id":"nouns.05","k":"why","src":"책 ends in a consonant → 은 and 이에요.","tgt":""}
-{"f":"practice","id":"nouns.06","k":"p","src":"I'm a student","tgt":""}
-{"f":"practice","id":"nouns.06","k":"why","src":"저 ends in a vowel → 는.","tgt":""}
-{"f":"practice","id":"nouns.07","k":"p","src":"My name is Minsu","tgt":""}
-{"f":"practice","id":"nouns.07","k":"why","src":"이름 ends in a consonant → 은.","tgt":""}
-{"f":"practice","id":"nouns.08","k":"p","src":"That person (near you) is a doctor","tgt":""}
-{"f":"practice","id":"nouns.08","k":"why","src":"그 = that near you; 사람 + 은.","tgt":""}
-{"f":"practice","id":"nouns.09","k":"p","src":"I'm a student","tgt":""}
-{"f":"practice","id":"nouns.09","k":"why","src":"Topic 는 after a vowel.","tgt":""}
-{"f":"practice","id":"nouns.10","k":"p","src":"My name is Minsu","tgt":""}
-{"f":"practice","id":"nouns.10","k":"why","src":"이름 ends in a consonant → 은.","tgt":""}
-{"f":"practice","id":"nouns.11","k":"p","src":"(She) is a doctor","tgt":""}
-{"f":"practice","id":"nouns.11","k":"why","src":"의사 ends in a vowel → 예요.","tgt":""}
-{"f":"practice","id":"nouns.12","k":"p","src":"I'm a student","tgt":""}
-{"f":"practice","id":"nouns.12","k":"why","src":"Topic 는, then noun + 이에요.","tgt":""}
-{"f":"practice","id":"nouns.13","k":"p","src":"What is this?","tgt":""}
-{"f":"practice","id":"nouns.13","k":"why","src":"뭐 ends in a vowel → 예요.","tgt":""}
-{"f":"practice","id":"nouns.14","k":"p","src":"I'm not a student","tgt":""}
-{"f":"practice","id":"nouns.14","k":"why","src":"'Is not' = 이/가 아니에요.","tgt":""}
-{"f":"lessons","id":"isseoyo","k":"title","src":"6 · 있어요 and 없어요","tgt":""}
-{"f":"lessons","id":"isseoyo","k":"blurb","src":"There is / there isn't, have / don't have, the subject marker 이/가, and where things are with 에.","tgt":""}
-{"f":"sentences","id":"ko.s0046","k":"gloss","src":"Is there a bathroom?","tgt":""}
-{"f":"sentences","id":"ko.s0047","k":"gloss","src":"Yes, there is","tgt":""}
-{"f":"sentences","id":"ko.s0048","k":"gloss","src":"No, there isn't","tgt":""}
-{"f":"sentences","id":"ko.s0049","k":"gloss","src":"There is time / (I) have time","tgt":""}
-{"f":"sentences","id":"ko.s0050","k":"gloss","src":"There is a cat","tgt":""}
-{"f":"sentences","id":"ko.s0051","k":"gloss","src":"There's no money / (I) have no money","tgt":""}
-{"f":"sentences","id":"ko.s0052","k":"gloss","src":"I have a cat","tgt":""}
-{"f":"sentences","id":"ko.s0053","k":"gloss","src":"Do you have a younger sibling?","tgt":""}
-{"f":"sentences","id":"ko.s0054","k":"gloss","src":"I don't have time","tgt":""}
-{"f":"sentences","id":"ko.s0055","k":"gloss","src":"(I'm) at home","tgt":""}
-{"f":"sentences","id":"ko.s0056","k":"gloss","src":"The cat is at home","tgt":""}
-{"f":"sentences","id":"ko.s0057","k":"gloss","src":"Where is the bathroom?","tgt":""}
-{"f":"sentences","id":"ko.s0058","k":"gloss","src":"My friend is at school","tgt":""}
-{"f":"checks","id":"isseoyo.k1","k":"q","src":"'I'm at home' =","tgt":""}
-{"f":"checks","id":"isseoyo.k1","k":"why","src":"Being somewhere → place + 에 + 있어요.","tgt":""}
-{"f":"checks","id":"isseoyo.k2","k":"q","src":"'I have a cat' =","tgt":""}
-{"f":"checks","id":"isseoyo.k2","k":"why","src":"Having = 'a cat exists': 이/가 + 있어요.","tgt":""}
-{"f":"checks","id":"isseoyo.k3","k":"q","src":"'I don't have time' =","tgt":""}
-{"f":"checks","id":"isseoyo.k3","k":"why","src":"없어요 = there isn't / don't have; 시간 ends in a consonant → 이.","tgt":""}
-{"f":"practice","id":"isseoyo.01","k":"q","src":"'I'm at school' =","tgt":""}
-{"f":"practice","id":"isseoyo.01","k":"why","src":"Being somewhere → place + 에 + 있어요.","tgt":""}
-{"f":"practice","id":"isseoyo.02","k":"q","src":"'Is there a bathroom?' =","tgt":""}
-{"f":"practice","id":"isseoyo.02","k":"why","src":"있어요? = is there?","tgt":""}
-{"f":"practice","id":"isseoyo.03","k":"q","src":"Subject marker after 고양이:","tgt":""}
-{"f":"practice","id":"isseoyo.03","k":"why","src":"고양이 ends in a vowel → 가.","tgt":""}
-{"f":"practice","id":"isseoyo.04","k":"q","src":"'I have no money' =","tgt":""}
-{"f":"practice","id":"isseoyo.04","k":"why","src":"없어요 = don't have; 돈 ends in a consonant → 이.","tgt":""}
-{"f":"practice","id":"isseoyo.05","k":"q","src":"'This is a school' (here = school) =","tgt":""}
-{"f":"practice","id":"isseoyo.05","k":"why","src":"A = B → 이에요/예요. 학교가 있어요 = there is a school.","tgt":""}
-{"f":"practice","id":"isseoyo.06","k":"p","src":"(I'm) at home","tgt":""}
-{"f":"practice","id":"isseoyo.06","k":"why","src":"Place + 에 + 있어요.","tgt":""}
-{"f":"practice","id":"isseoyo.07","k":"p","src":"I have a younger sibling","tgt":""}
-{"f":"practice","id":"isseoyo.07","k":"why","src":"Having = owner 은/는, thing 이/가 + 있어요.","tgt":""}
-{"f":"practice","id":"isseoyo.08","k":"p","src":"Is there a bathroom?","tgt":""}
-{"f":"practice","id":"isseoyo.08","k":"why","src":"Existence → 있어요, not 이에요.","tgt":""}
-{"f":"practice","id":"isseoyo.09","k":"p","src":"I have time","tgt":""}
-{"f":"practice","id":"isseoyo.09","k":"why","src":"시간 ends in a consonant → 이.","tgt":""}
-{"f":"practice","id":"isseoyo.10","k":"p","src":"The cat is at home","tgt":""}
-{"f":"practice","id":"isseoyo.10","k":"why","src":"Location with 있어요 → 에.","tgt":""}
-{"f":"practice","id":"isseoyo.11","k":"p","src":"I'm a student","tgt":""}
-{"f":"practice","id":"isseoyo.11","k":"why","src":"A = B → 이에요, not 있어요.","tgt":""}
-{"f":"practice","id":"isseoyo.12","k":"p","src":"I have a cat","tgt":""}
-{"f":"practice","id":"isseoyo.12","k":"why","src":"Lit. 'a cat exists (for me)'.","tgt":""}
-{"f":"practice","id":"isseoyo.13","k":"p","src":"My friend is at school","tgt":""}
-{"f":"practice","id":"isseoyo.13","k":"why","src":"Location → 에 + 있어요, not 이에요.","tgt":""}
-{"f":"practice","id":"isseoyo.14","k":"p","src":"I don't have time","tgt":""}
-{"f":"practice","id":"isseoyo.14","k":"why","src":"없어요 is the opposite of 있어요.","tgt":""}
-{"f":"lessons","id":"pronouns-questions","k":"title","src":"7 · Pronouns and question words","tgt":""}
-{"f":"lessons","id":"pronouns-questions","k":"blurb","src":"I, we, this, that, here, there, and the seven question words that unlock real conversations.","tgt":""}
-{"f":"sentences","id":"ko.s0059","k":"gloss","src":"I am a student","tgt":""}
-{"f":"sentences","id":"ko.s0060","k":"gloss","src":"my home (our house)","tgt":""}
-{"f":"sentences","id":"ko.s0061","k":"gloss","src":"my mom","tgt":""}
-{"f":"sentences","id":"ko.s0062","k":"gloss","src":"Are you a student, Minsu?","tgt":""}
-{"f":"sentences","id":"ko.s0063","k":"gloss","src":"This (person) is a teacher","tgt":""}
-{"f":"sentences","id":"ko.s0064","k":"gloss","src":"It's over there","tgt":""}
-{"f":"sentences","id":"ko.s0065","k":"gloss","src":"Who is that person?","tgt":""}
-{"f":"sentences","id":"ko.s0066","k":"gloss","src":"When is your birthday?","tgt":""}
-{"f":"sentences","id":"ko.s0067","k":"gloss","src":"How much is this?","tgt":""}
-{"f":"sentences","id":"ko.s0068","k":"gloss","src":"Who is there?","tgt":""}
-{"f":"checks","id":"pronouns-questions.k1","k":"q","src":"'What is this?' =","tgt":""}
-{"f":"checks","id":"pronouns-questions.k1","k":"why","src":"뭐 = what; it sits where the answer goes.","tgt":""}
-{"f":"checks","id":"pronouns-questions.k2","k":"q","src":"'Where is the bathroom?' =","tgt":""}
-{"f":"checks","id":"pronouns-questions.k2","k":"why","src":"어디 = where; 에 있어요 = is at.","tgt":""}
-{"f":"checks","id":"pronouns-questions.k3","k":"q","src":"'Who is there?' =","tgt":""}
+{"f":"lessons","id":"nouns","k":"title","src":"5 · Nouns and 은/는","tgt":"5 · คำนามและ 은/는"}
+{"f":"lessons","id":"nouns","k":"blurb","src":"Names of things, this/that, 이에요/예요, and the topic marker 은/는.","tgt":"ชื่อของสิ่งต่าง ๆ นี้ / นั้น 이에요/예요 และคำช่วยบอกหัวเรื่อง 은/는"}
+{"f":"sentences","id":"ko.s0030","k":"gloss","src":"a book / the book / books","tgt":"หนังสือ (เล่มเดียว เล่มนั้น หรือหลายเล่มก็ได้)"}
+{"f":"sentences","id":"ko.s0031","k":"gloss","src":"friend / friends","tgt":"เพื่อน (คนเดียวหรือหลายคนก็ได้)"}
+{"f":"sentences","id":"ko.s0032","k":"gloss","src":"friends (clearly more than one)","tgt":"พวกเพื่อน ๆ (ชัดเจนว่ามากกว่าหนึ่งคน)"}
+{"f":"sentences","id":"ko.s0033","k":"gloss","src":"this book","tgt":"หนังสือเล่มนี้"}
+{"f":"sentences","id":"ko.s0034","k":"gloss","src":"that person","tgt":"คนนั้น"}
+{"f":"sentences","id":"ko.s0035","k":"gloss","src":"that building over there","tgt":"ตึกโน้น"}
+{"f":"sentences","id":"ko.s0036","k":"gloss","src":"(my) friend's house","tgt":"บ้าน(ของ)เพื่อน"}
+{"f":"sentences","id":"ko.s0037","k":"gloss","src":"my name","tgt":"ชื่อของฉัน"}
+{"f":"sentences","id":"ko.s0038","k":"gloss","src":"(I) am a student","tgt":"เป็นนักเรียนครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0039","k":"gloss","src":"(She) is a doctor","tgt":"(เขา)เป็นหมอครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0040","k":"gloss","src":"(I'm) not a student","tgt":"ไม่ใช่นักเรียนครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0041","k":"gloss","src":"What is this?","tgt":"นี่อะไรครับ/คะ"}
+{"f":"sentences","id":"ko.s0042","k":"gloss","src":"I'm a student (as for me: student)","tgt":"ฉันเป็นนักเรียนครับ/ค่ะ (ส่วนฉัน: นักเรียน)"}
+{"f":"sentences","id":"ko.s0043","k":"gloss","src":"My name is Minsu","tgt":"ฉันชื่อมินซูครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0044","k":"gloss","src":"This book is my book","tgt":"หนังสือเล่มนี้เป็นหนังสือของฉันครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0045","k":"gloss","src":"My friend is a doctor","tgt":"เพื่อน(ของฉัน)เป็นหมอครับ/ค่ะ"}
+{"f":"checks","id":"nouns.k1","k":"q","src":"'I'm a student' =","tgt":"“ฉันเป็นนักเรียนครับ/ค่ะ” ="}
+{"f":"checks","id":"nouns.k1","k":"why","src":"저 ends in a vowel → 는; 학생 ends in a consonant → 이에요.","tgt":"저 ไม่มีตัวสะกด → 는 ส่วน 학생 มีตัวสะกด → 이에요"}
+{"f":"checks","id":"nouns.k2","k":"q","src":"'That building over there' =","tgt":"“ตึกโน้น” ="}
+{"f":"checks","id":"nouns.k2","k":"why","src":"이 = this, 그 = that (near you), 저 = over there.","tgt":"이 = นี้ · 그 = นั้น (ใกล้คนฟัง) · 저 = โน้น (ไกลจากทั้งคู่)"}
+{"f":"checks","id":"nouns.k3","k":"q","src":"'My name is Minsu' =","tgt":"“ฉันชื่อมินซูครับ/ค่ะ” ="}
+{"f":"checks","id":"nouns.k3","k":"why","src":"이름 ends in a consonant → 은; 민수 ends in a vowel → 예요.","tgt":"이름 มีตัวสะกด → 은 ส่วน 민수 ไม่มีตัวสะกด → 예요"}
+{"f":"practice","id":"nouns.01","k":"q","src":"'This book' =","tgt":"“หนังสือเล่มนี้” ="}
+{"f":"practice","id":"nouns.01","k":"why","src":"이 = this, before the noun.","tgt":"이 = นี้ แต่ต้องวางไว้หน้าคำนาม"}
+{"f":"practice","id":"nouns.02","k":"q","src":"'I'm a doctor' =","tgt":"“ฉันเป็นหมอครับ/ค่ะ” ="}
+{"f":"practice","id":"nouns.02","k":"why","src":"저 + 는 (vowel); 의사 + 예요 (vowel).","tgt":"저 + 는 (ไม่มีตัวสะกด) · 의사 + 예요 (ไม่มีตัวสะกด)"}
+{"f":"practice","id":"nouns.03","k":"q","src":"'My friend's house' =","tgt":"“บ้านของเพื่อน” ="}
+{"f":"practice","id":"nouns.03","k":"why","src":"Owner first, then the thing.","tgt":"เจ้าของมาก่อน แล้วจึงตามด้วยสิ่งของ กลับกับภาษาไทย"}
+{"f":"practice","id":"nouns.04","k":"q","src":"Which one is correct?","tgt":"ข้อไหนถูกต้อง"}
+{"f":"practice","id":"nouns.04","k":"why","src":"선생님 ends in a consonant → 이에요.","tgt":"선생님 มีตัวสะกด → 이에요"}
+{"f":"practice","id":"nouns.05","k":"q","src":"'This book is my book' =","tgt":"“หนังสือเล่มนี้เป็นหนังสือของฉันครับ/ค่ะ” ="}
+{"f":"practice","id":"nouns.05","k":"why","src":"책 ends in a consonant → 은 and 이에요.","tgt":"책 มีตัวสะกด → 은 และ 이에요"}
+{"f":"practice","id":"nouns.06","k":"p","src":"I'm a student","tgt":"ฉันเป็นนักเรียนครับ/ค่ะ"}
+{"f":"practice","id":"nouns.06","k":"why","src":"저 ends in a vowel → 는.","tgt":"저 ไม่มีตัวสะกด → 는"}
+{"f":"practice","id":"nouns.07","k":"p","src":"My name is Minsu","tgt":"ฉันชื่อมินซูครับ/ค่ะ"}
+{"f":"practice","id":"nouns.07","k":"why","src":"이름 ends in a consonant → 은.","tgt":"이름 มีตัวสะกด → 은"}
+{"f":"practice","id":"nouns.08","k":"p","src":"That person (near you) is a doctor","tgt":"คนนั้น (ใกล้คนฟัง) เป็นหมอครับ/ค่ะ"}
+{"f":"practice","id":"nouns.08","k":"why","src":"그 = that near you; 사람 + 은.","tgt":"그 = นั้น ใกล้คนฟัง · 사람 + 은"}
+{"f":"practice","id":"nouns.09","k":"p","src":"I'm a student","tgt":"ฉันเป็นนักเรียนครับ/ค่ะ"}
+{"f":"practice","id":"nouns.09","k":"why","src":"Topic 는 after a vowel.","tgt":"คำช่วยบอกหัวเรื่อง 는 ใช้หลังคำที่ไม่มีตัวสะกด"}
+{"f":"practice","id":"nouns.10","k":"p","src":"My name is Minsu","tgt":"ฉันชื่อมินซูครับ/ค่ะ"}
+{"f":"practice","id":"nouns.10","k":"why","src":"이름 ends in a consonant → 은.","tgt":"이름 มีตัวสะกด → 은"}
+{"f":"practice","id":"nouns.11","k":"p","src":"(She) is a doctor","tgt":"(เขา)เป็นหมอครับ/ค่ะ"}
+{"f":"practice","id":"nouns.11","k":"why","src":"의사 ends in a vowel → 예요.","tgt":"의사 ไม่มีตัวสะกด → 예요"}
+{"f":"practice","id":"nouns.12","k":"p","src":"I'm a student","tgt":"ฉันเป็นนักเรียนครับ/ค่ะ"}
+{"f":"practice","id":"nouns.12","k":"why","src":"Topic 는, then noun + 이에요.","tgt":"ใส่คำช่วยบอกหัวเรื่อง 는 แล้วตามด้วยคำนาม + 이에요"}
+{"f":"practice","id":"nouns.13","k":"p","src":"What is this?","tgt":"นี่อะไรครับ/คะ"}
+{"f":"practice","id":"nouns.13","k":"why","src":"뭐 ends in a vowel → 예요.","tgt":"뭐 ไม่มีตัวสะกด → 예요"}
+{"f":"practice","id":"nouns.14","k":"p","src":"I'm not a student","tgt":"ฉันไม่ใช่นักเรียนครับ/ค่ะ"}
+{"f":"practice","id":"nouns.14","k":"why","src":"'Is not' = 이/가 아니에요.","tgt":"“ไม่ใช่” + คำนาม = 이/가 아니에요"}
+{"f":"lessons","id":"isseoyo","k":"title","src":"6 · 있어요 and 없어요","tgt":"6 · 있어요 และ 없어요"}
+{"f":"lessons","id":"isseoyo","k":"blurb","src":"There is / there isn't, have / don't have, the subject marker 이/가, and where things are with 에.","tgt":"มี / ไม่มี อยู่ / ไม่อยู่ คำช่วยบอกประธาน 이/가 และการบอกว่าสิ่งของอยู่ที่ไหนด้วย 에"}
+{"f":"sentences","id":"ko.s0046","k":"gloss","src":"Is there a bathroom?","tgt":"มีห้องน้ำไหมครับ/คะ"}
+{"f":"sentences","id":"ko.s0047","k":"gloss","src":"Yes, there is","tgt":"มีครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0048","k":"gloss","src":"No, there isn't","tgt":"ไม่มีครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0049","k":"gloss","src":"There is time / (I) have time","tgt":"มีเวลาครับ/ค่ะ (ว่าง หรือ มีเวลาอยู่)"}
+{"f":"sentences","id":"ko.s0050","k":"gloss","src":"There is a cat","tgt":"มีแมวครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0051","k":"gloss","src":"There's no money / (I) have no money","tgt":"ไม่มีเงินครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0052","k":"gloss","src":"I have a cat","tgt":"ฉันมีแมวครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0053","k":"gloss","src":"Do you have a younger sibling?","tgt":"มีน้องไหมครับ/คะ"}
+{"f":"sentences","id":"ko.s0054","k":"gloss","src":"I don't have time","tgt":"ฉันไม่มีเวลาครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0055","k":"gloss","src":"(I'm) at home","tgt":"อยู่บ้านครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0056","k":"gloss","src":"The cat is at home","tgt":"แมวอยู่ที่บ้านครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0057","k":"gloss","src":"Where is the bathroom?","tgt":"ห้องน้ำอยู่ไหนครับ/คะ"}
+{"f":"sentences","id":"ko.s0058","k":"gloss","src":"My friend is at school","tgt":"เพื่อนอยู่ที่โรงเรียนครับ/ค่ะ"}
+{"f":"checks","id":"isseoyo.k1","k":"q","src":"'I'm at home' =","tgt":"“อยู่บ้านครับ/ค่ะ” ="}
+{"f":"checks","id":"isseoyo.k1","k":"why","src":"Being somewhere → place + 에 + 있어요.","tgt":"บอกว่าอยู่ที่ไหน → สถานที่ + 에 + 있어요"}
+{"f":"checks","id":"isseoyo.k2","k":"q","src":"'I have a cat' =","tgt":"“มีแมวครับ/ค่ะ” ="}
+{"f":"checks","id":"isseoyo.k2","k":"why","src":"Having = 'a cat exists': 이/가 + 있어요.","tgt":"“มี” ในภาษาไทย = 이/가 + 있어요 (แปลตรงตัวว่า แมวมีอยู่)"}
+{"f":"checks","id":"isseoyo.k3","k":"q","src":"'I don't have time' =","tgt":"“ไม่มีเวลาครับ/ค่ะ” ="}
+{"f":"checks","id":"isseoyo.k3","k":"why","src":"없어요 = there isn't / don't have; 시간 ends in a consonant → 이.","tgt":"없어요 = ไม่มี · 시간 มีตัวสะกด → 이"}
+{"f":"practice","id":"isseoyo.01","k":"q","src":"'I'm at school' =","tgt":"“อยู่ที่โรงเรียนครับ/ค่ะ” ="}
+{"f":"practice","id":"isseoyo.01","k":"why","src":"Being somewhere → place + 에 + 있어요.","tgt":"บอกว่าอยู่ที่ไหน → สถานที่ + 에 + 있어요"}
+{"f":"practice","id":"isseoyo.02","k":"q","src":"'Is there a bathroom?' =","tgt":"“มีห้องน้ำไหมครับ/คะ” ="}
+{"f":"practice","id":"isseoyo.02","k":"why","src":"있어요? = is there?","tgt":"있어요? = มี…ไหม"}
+{"f":"practice","id":"isseoyo.03","k":"q","src":"Subject marker after 고양이:","tgt":"คำช่วยบอกประธานที่ตามหลัง 고양이 ="}
+{"f":"practice","id":"isseoyo.03","k":"why","src":"고양이 ends in a vowel → 가.","tgt":"고양이 ไม่มีตัวสะกด → 가"}
+{"f":"practice","id":"isseoyo.04","k":"q","src":"'I have no money' =","tgt":"“ไม่มีเงินครับ/ค่ะ” ="}
+{"f":"practice","id":"isseoyo.04","k":"why","src":"없어요 = don't have; 돈 ends in a consonant → 이.","tgt":"없어요 = ไม่มี · 돈 มีตัวสะกด → 이"}
+{"f":"practice","id":"isseoyo.05","k":"q","src":"'This is a school' (here = school) =","tgt":"“ที่นี่คือโรงเรียนครับ/ค่ะ” (ที่นี่ = โรงเรียน) ="}
+{"f":"practice","id":"isseoyo.05","k":"why","src":"A = B → 이에요/예요. 학교가 있어요 = there is a school.","tgt":"A = B (เป็น / คือ) → 이에요/예요 ส่วน 학교가 있어요 = “มีโรงเรียนครับ/ค่ะ”"}
+{"f":"practice","id":"isseoyo.06","k":"p","src":"(I'm) at home","tgt":"อยู่บ้านครับ/ค่ะ"}
+{"f":"practice","id":"isseoyo.06","k":"why","src":"Place + 에 + 있어요.","tgt":"สถานที่ + 에 + 있어요"}
+{"f":"practice","id":"isseoyo.07","k":"p","src":"I have a younger sibling","tgt":"ฉันมีน้องครับ/ค่ะ"}
+{"f":"practice","id":"isseoyo.07","k":"why","src":"Having = owner 은/는, thing 이/가 + 있어요.","tgt":"การมี: เจ้าของใช้ 은/는 ส่วนสิ่งที่มีใช้ 이/가 + 있어요"}
+{"f":"practice","id":"isseoyo.08","k":"p","src":"Is there a bathroom?","tgt":"มีห้องน้ำไหมครับ/คะ"}
+{"f":"practice","id":"isseoyo.08","k":"why","src":"Existence → 있어요, not 이에요.","tgt":"บอกว่ามีอยู่ → 있어요 ไม่ใช่ 이에요"}
+{"f":"practice","id":"isseoyo.09","k":"p","src":"I have time","tgt":"มีเวลาครับ/ค่ะ"}
+{"f":"practice","id":"isseoyo.09","k":"why","src":"시간 ends in a consonant → 이.","tgt":"시간 มีตัวสะกด → 이"}
+{"f":"practice","id":"isseoyo.10","k":"p","src":"The cat is at home","tgt":"แมวอยู่ที่บ้านครับ/ค่ะ"}
+{"f":"practice","id":"isseoyo.10","k":"why","src":"Location with 있어요 → 에.","tgt":"บอกที่อยู่กับ 있어요 → 에"}
+{"f":"practice","id":"isseoyo.11","k":"p","src":"I'm a student","tgt":"ฉันเป็นนักเรียนครับ/ค่ะ"}
+{"f":"practice","id":"isseoyo.11","k":"why","src":"A = B → 이에요, not 있어요.","tgt":"A = B → 이에요 ไม่ใช่ 있어요"}
+{"f":"practice","id":"isseoyo.12","k":"p","src":"I have a cat","tgt":"มีแมวครับ/ค่ะ"}
+{"f":"practice","id":"isseoyo.12","k":"why","src":"Lit. 'a cat exists (for me)'.","tgt":"แปลตรงตัวว่า “แมวมีอยู่ (สำหรับฉัน)”"}
+{"f":"practice","id":"isseoyo.13","k":"p","src":"My friend is at school","tgt":"เพื่อนอยู่ที่โรงเรียนครับ/ค่ะ"}
+{"f":"practice","id":"isseoyo.13","k":"why","src":"Location → 에 + 있어요, not 이에요.","tgt":"บอกที่อยู่ → 에 + 있어요 ไม่ใช่ 이에요"}
+{"f":"practice","id":"isseoyo.14","k":"p","src":"I don't have time","tgt":"ไม่มีเวลาครับ/ค่ะ"}
+{"f":"practice","id":"isseoyo.14","k":"why","src":"없어요 is the opposite of 있어요.","tgt":"없어요 คือคำตรงข้ามของ 있어요"}
+{"f":"lessons","id":"pronouns-questions","k":"title","src":"7 · Pronouns and question words","tgt":"7 · คำสรรพนามและคำแสดงคำถาม"}
+{"f":"lessons","id":"pronouns-questions","k":"blurb","src":"I, we, this, that, here, there, and the seven question words that unlock real conversations.","tgt":"ฉัน เรา นี่ นั่น ที่นี่ ที่นั่น และคำแสดงคำถามเจ็ดคำที่เปิดทางสู่บทสนทนาจริง"}
+{"f":"sentences","id":"ko.s0059","k":"gloss","src":"I am a student","tgt":"ฉันเป็นนักเรียนครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0060","k":"gloss","src":"my home (our house)","tgt":"บ้านของฉัน (แปลตรงตัวว่า บ้านของเรา)"}
+{"f":"sentences","id":"ko.s0061","k":"gloss","src":"my mom","tgt":"แม่ของฉัน"}
+{"f":"sentences","id":"ko.s0062","k":"gloss","src":"Are you a student, Minsu?","tgt":"คุณมินซูเป็นนักเรียนหรือเปล่าครับ/คะ"}
+{"f":"sentences","id":"ko.s0063","k":"gloss","src":"This (person) is a teacher","tgt":"ท่านนี้เป็นครูครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0064","k":"gloss","src":"It's over there","tgt":"อยู่ตรงโน้นครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0065","k":"gloss","src":"Who is that person?","tgt":"คนโน้นเป็นใครครับ/คะ"}
+{"f":"sentences","id":"ko.s0066","k":"gloss","src":"When is your birthday?","tgt":"วันเกิดเมื่อไหร่ครับ/คะ"}
+{"f":"sentences","id":"ko.s0067","k":"gloss","src":"How much is this?","tgt":"อันนี้เท่าไหร่ครับ/คะ"}
+{"f":"sentences","id":"ko.s0068","k":"gloss","src":"Who is there?","tgt":"ใครอยู่ครับ/คะ"}
+{"f":"checks","id":"pronouns-questions.k1","k":"q","src":"'What is this?' =","tgt":"“นี่อะไรครับ/คะ” ="}
+{"f":"checks","id":"pronouns-questions.k1","k":"why","src":"뭐 = what; it sits where the answer goes.","tgt":"뭐 = อะไร และอยู่ตรงที่คำตอบจะอยู่ เหมือนภาษาไทย"}
+{"f":"checks","id":"pronouns-questions.k2","k":"q","src":"'Where is the bathroom?' =","tgt":"“ห้องน้ำอยู่ไหนครับ/คะ” ="}
+{"f":"checks","id":"pronouns-questions.k2","k":"why","src":"어디 = where; 에 있어요 = is at.","tgt":"어디 = ที่ไหน · 에 있어요 = อยู่ที่"}
+{"f":"checks","id":"pronouns-questions.k3","k":"q","src":"'Who is there?' =","tgt":"“ใครอยู่ครับ/คะ” ="}
 {"f":"checks","id":"pronouns-questions.k3","k":"why","src":"누구 + 가 → 누가.","tgt":"누구 + 가 → 누가.","pre":1}
-{"f":"practice","id":"pronouns-questions.01","k":"q","src":"Which word means 'who'?","tgt":""}
-{"f":"practice","id":"pronouns-questions.01","k":"why","src":"누구 = who.","tgt":""}
-{"f":"practice","id":"pronouns-questions.02","k":"q","src":"'How much is this?' =","tgt":""}
-{"f":"practice","id":"pronouns-questions.02","k":"why","src":"얼마 = how much (price).","tgt":""}
-{"f":"practice","id":"pronouns-questions.03","k":"q","src":"'Over there' (far from both of us) =","tgt":""}
-{"f":"practice","id":"pronouns-questions.03","k":"why","src":"저 = far; 저기 = that place over there.","tgt":""}
-{"f":"practice","id":"pronouns-questions.04","k":"q","src":"The polite word for 'I' =","tgt":""}
-{"f":"practice","id":"pronouns-questions.04","k":"why","src":"저 is polite; 나 is for close friends.","tgt":""}
-{"f":"practice","id":"pronouns-questions.05","k":"q","src":"'My home' the natural way =","tgt":""}
-{"f":"practice","id":"pronouns-questions.05","k":"why","src":"Home and family take 우리.","tgt":""}
-{"f":"practice","id":"pronouns-questions.06","k":"p","src":"Where is the bathroom?","tgt":""}
-{"f":"practice","id":"pronouns-questions.06","k":"why","src":"어디에 있어요 = where is it.","tgt":""}
-{"f":"practice","id":"pronouns-questions.07","k":"p","src":"Who is that person (over there)?","tgt":""}
-{"f":"practice","id":"pronouns-questions.07","k":"why","src":"누구 = who.","tgt":""}
-{"f":"practice","id":"pronouns-questions.08","k":"p","src":"When is your birthday?","tgt":""}
-{"f":"practice","id":"pronouns-questions.08","k":"why","src":"언제 = when.","tgt":""}
-{"f":"practice","id":"pronouns-questions.09","k":"p","src":"What is this?","tgt":""}
-{"f":"practice","id":"pronouns-questions.09","k":"why","src":"뭐 = what.","tgt":""}
-{"f":"practice","id":"pronouns-questions.10","k":"p","src":"Who is there?","tgt":""}
+{"f":"practice","id":"pronouns-questions.01","k":"q","src":"Which word means 'who'?","tgt":"คำไหนแปลว่า “ใคร”"}
+{"f":"practice","id":"pronouns-questions.01","k":"why","src":"누구 = who.","tgt":"누구 = ใคร"}
+{"f":"practice","id":"pronouns-questions.02","k":"q","src":"'How much is this?' =","tgt":"“อันนี้เท่าไหร่ครับ/คะ” ="}
+{"f":"practice","id":"pronouns-questions.02","k":"why","src":"얼마 = how much (price).","tgt":"얼마 = เท่าไหร่ (ราคา)"}
+{"f":"practice","id":"pronouns-questions.03","k":"q","src":"'Over there' (far from both of us) =","tgt":"“ตรงโน้น” (ไกลจากทั้งคู่) ="}
+{"f":"practice","id":"pronouns-questions.03","k":"why","src":"저 = far; 저기 = that place over there.","tgt":"저 = ไกล · 저기 = ที่ตรงโน้น"}
+{"f":"practice","id":"pronouns-questions.04","k":"q","src":"The polite word for 'I' =","tgt":"คำว่า “ฉัน” แบบสุภาพ ="}
+{"f":"practice","id":"pronouns-questions.04","k":"why","src":"저 is polite; 나 is for close friends.","tgt":"저 สุภาพ ส่วน 나 ใช้กับเพื่อนสนิท"}
+{"f":"practice","id":"pronouns-questions.05","k":"q","src":"'My home' the natural way =","tgt":"“บ้านของฉัน” แบบที่คนเกาหลีพูดจริง ="}
+{"f":"practice","id":"pronouns-questions.05","k":"why","src":"Home and family take 우리.","tgt":"บ้านและครอบครัวใช้ 우리 (เรา)"}
+{"f":"practice","id":"pronouns-questions.06","k":"p","src":"Where is the bathroom?","tgt":"ห้องน้ำอยู่ไหนครับ/คะ"}
+{"f":"practice","id":"pronouns-questions.06","k":"why","src":"어디에 있어요 = where is it.","tgt":"어디에 있어요 = อยู่ที่ไหน"}
+{"f":"practice","id":"pronouns-questions.07","k":"p","src":"Who is that person (over there)?","tgt":"คนโน้นเป็นใครครับ/คะ"}
+{"f":"practice","id":"pronouns-questions.07","k":"why","src":"누구 = who.","tgt":"누구 = ใคร"}
+{"f":"practice","id":"pronouns-questions.08","k":"p","src":"When is your birthday?","tgt":"วันเกิดเมื่อไหร่ครับ/คะ"}
+{"f":"practice","id":"pronouns-questions.08","k":"why","src":"언제 = when.","tgt":"언제 = เมื่อไหร่"}
+{"f":"practice","id":"pronouns-questions.09","k":"p","src":"What is this?","tgt":"นี่อะไรครับ/คะ"}
+{"f":"practice","id":"pronouns-questions.09","k":"why","src":"뭐 = what.","tgt":"뭐 = อะไร"}
+{"f":"practice","id":"pronouns-questions.10","k":"p","src":"Who is there?","tgt":"ใครอยู่ครับ/คะ"}
 {"f":"practice","id":"pronouns-questions.10","k":"why","src":"누구 + 가 → 누가.","tgt":"누구 + 가 → 누가.","pre":1}
-{"f":"practice","id":"pronouns-questions.11","k":"p","src":"Where is the bathroom?","tgt":""}
-{"f":"practice","id":"pronouns-questions.11","k":"why","src":"어디 = where.","tgt":""}
-{"f":"practice","id":"pronouns-questions.12","k":"p","src":"What is this?","tgt":""}
-{"f":"practice","id":"pronouns-questions.12","k":"why","src":"The question word sits where the answer goes.","tgt":""}
-{"f":"practice","id":"pronouns-questions.13","k":"p","src":"Where is it?","tgt":""}
+{"f":"practice","id":"pronouns-questions.11","k":"p","src":"Where is the bathroom?","tgt":"ห้องน้ำอยู่ไหนครับ/คะ"}
+{"f":"practice","id":"pronouns-questions.11","k":"why","src":"어디 = where.","tgt":"어디 = ที่ไหน"}
+{"f":"practice","id":"pronouns-questions.12","k":"p","src":"What is this?","tgt":"นี่อะไรครับ/คะ"}
+{"f":"practice","id":"pronouns-questions.12","k":"why","src":"The question word sits where the answer goes.","tgt":"คำแสดงคำถามอยู่ตรงที่คำตอบจะอยู่ เหมือนภาษาไทย"}
+{"f":"practice","id":"pronouns-questions.13","k":"p","src":"Where is it?","tgt":"อยู่ที่ไหนครับ/คะ"}
 {"f":"practice","id":"pronouns-questions.13","k":"why","src":"어디에 있어요.","tgt":"어디에 있어요.","pre":1}
-{"f":"practice","id":"pronouns-questions.14","k":"p","src":"Who is that person?","tgt":""}
-{"f":"practice","id":"pronouns-questions.14","k":"why","src":"누구예요 = who is (it).","tgt":""}
-{"f":"lessons","id":"verbbasics","k":"title","src":"8 · Verbs","tgt":""}
-{"f":"lessons","id":"verbbasics","k":"blurb","src":"Every verb ends in 다, never changes for I/you/she, and adjectives are verbs too.","tgt":""}
-{"f":"sentences","id":"ko.s0069","k":"gloss","src":"I go / you go / she goes / we go","tgt":""}
-{"f":"sentences","id":"ko.s0070","k":"gloss","src":"eat","tgt":""}
-{"f":"sentences","id":"ko.s0071","k":"gloss","src":"drink","tgt":""}
-{"f":"sentences","id":"ko.s0072","k":"gloss","src":"The weather is good","tgt":""}
-{"f":"sentences","id":"ko.s0073","k":"gloss","src":"The bag is big","tgt":""}
-{"f":"sentences","id":"ko.s0074","k":"gloss","src":"study (noun) → (I) study","tgt":""}
-{"f":"sentences","id":"ko.s0075","k":"gloss","src":"(I) exercise","tgt":""}
-{"f":"sentences","id":"ko.s0076","k":"gloss","src":"(I) have time","tgt":""}
-{"f":"sentences","id":"ko.s0077","k":"gloss","src":"(I) have no money","tgt":""}
-{"f":"checks","id":"verbbasics.k1","k":"q","src":"Stem of 먹다 =","tgt":""}
-{"f":"checks","id":"verbbasics.k1","k":"why","src":"Drop 다 to get the stem.","tgt":""}
-{"f":"checks","id":"verbbasics.k2","k":"q","src":"'The weather is good' =","tgt":""}
-{"f":"checks","id":"verbbasics.k2","k":"why","src":"좋아요 already includes 'is'.","tgt":""}
-{"f":"checks","id":"verbbasics.k3","k":"q","src":"'I have time' =","tgt":""}
-{"f":"checks","id":"verbbasics.k3","k":"why","src":"있어요 = exist / have.","tgt":""}
-{"f":"practice","id":"verbbasics.01","k":"q","src":"Stem of 가다 =","tgt":""}
-{"f":"practice","id":"verbbasics.01","k":"why","src":"Drop 다 to get the stem.","tgt":""}
-{"f":"practice","id":"verbbasics.02","k":"q","src":"'The bag is big' =","tgt":""}
-{"f":"practice","id":"verbbasics.02","k":"why","src":"커요 already means 'is big'.","tgt":""}
-{"f":"practice","id":"verbbasics.03","k":"q","src":"Polite form of 하다 =","tgt":""}
-{"f":"practice","id":"verbbasics.03","k":"why","src":"하다 is special: 해요.","tgt":""}
-{"f":"practice","id":"verbbasics.04","k":"q","src":"'I exercise' =","tgt":""}
-{"f":"practice","id":"verbbasics.04","k":"why","src":"Noun + 하다 makes a verb: 운동해요.","tgt":""}
-{"f":"practice","id":"verbbasics.05","k":"q","src":"'The weather is good' =","tgt":""}
-{"f":"practice","id":"verbbasics.05","k":"why","src":"Describing verbs need no separate 'is'.","tgt":""}
-{"f":"practice","id":"verbbasics.06","k":"p","src":"The weather is good","tgt":""}
-{"f":"practice","id":"verbbasics.06","k":"why","src":"좋다요 is not a form: the polite form is 좋아요.","tgt":""}
-{"f":"practice","id":"verbbasics.07","k":"p","src":"I have time","tgt":""}
-{"f":"practice","id":"verbbasics.07","k":"why","src":"있어요 = have.","tgt":""}
-{"f":"practice","id":"verbbasics.08","k":"p","src":"The bag is big","tgt":""}
-{"f":"practice","id":"verbbasics.08","k":"why","src":"커요 = is big.","tgt":""}
-{"f":"practice","id":"verbbasics.09","k":"p","src":"(I) eat","tgt":""}
-{"f":"practice","id":"verbbasics.09","k":"why","src":"Spoken form is 먹어요; 먹다 is for dictionaries.","tgt":""}
-{"f":"practice","id":"verbbasics.10","k":"p","src":"(I) study","tgt":""}
+{"f":"practice","id":"pronouns-questions.14","k":"p","src":"Who is that person?","tgt":"คนนั้นเป็นใครครับ/คะ"}
+{"f":"practice","id":"pronouns-questions.14","k":"why","src":"누구예요 = who is (it).","tgt":"누구예요 = เป็นใคร"}
+{"f":"lessons","id":"verbbasics","k":"title","src":"8 · Verbs","tgt":"8 · คำกริยา"}
+{"f":"lessons","id":"verbbasics","k":"blurb","src":"Every verb ends in 다, never changes for I/you/she, and adjectives are verbs too.","tgt":"คำกริยาทุกคำลงท้ายด้วย 다 ไม่เปลี่ยนรูปตาม ฉัน คุณ หรือ เขา และคำบอกลักษณะก็เป็นกริยาเหมือนในภาษาไทย"}
+{"f":"sentences","id":"ko.s0069","k":"gloss","src":"I go / you go / she goes / we go","tgt":"ไปครับ/ค่ะ (ใครไปก็ได้: ฉัน คุณ เขา เรา)"}
+{"f":"sentences","id":"ko.s0070","k":"gloss","src":"eat","tgt":"กินครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0071","k":"gloss","src":"drink","tgt":"ดื่มครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0072","k":"gloss","src":"The weather is good","tgt":"อากาศดีครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0073","k":"gloss","src":"The bag is big","tgt":"กระเป๋าใหญ่ครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0074","k":"gloss","src":"study (noun) → (I) study","tgt":"การเรียน (คำนาม) → เรียนหนังสือครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0075","k":"gloss","src":"(I) exercise","tgt":"ออกกำลังกายครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0076","k":"gloss","src":"(I) have time","tgt":"มีเวลาครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0077","k":"gloss","src":"(I) have no money","tgt":"ไม่มีเงินครับ/ค่ะ"}
+{"f":"checks","id":"verbbasics.k1","k":"q","src":"Stem of 먹다 =","tgt":"ก้านกริยาของ 먹다 ="}
+{"f":"checks","id":"verbbasics.k1","k":"why","src":"Drop 다 to get the stem.","tgt":"ตัด 다 ออกก็จะได้ก้านกริยา"}
+{"f":"checks","id":"verbbasics.k2","k":"q","src":"'The weather is good' =","tgt":"“อากาศดีครับ/ค่ะ” ="}
+{"f":"checks","id":"verbbasics.k2","k":"why","src":"좋아요 already includes 'is'.","tgt":"좋아요 แปลว่า “ดี” ครบแล้ว เหมือนภาษาไทยที่พูดว่า อากาศดี โดยไม่มีคำว่า เป็น"}
+{"f":"checks","id":"verbbasics.k3","k":"q","src":"'I have time' =","tgt":"“มีเวลาครับ/ค่ะ” ="}
+{"f":"checks","id":"verbbasics.k3","k":"why","src":"있어요 = exist / have.","tgt":"있어요 = มี / มีอยู่"}
+{"f":"practice","id":"verbbasics.01","k":"q","src":"Stem of 가다 =","tgt":"ก้านกริยาของ 가다 ="}
+{"f":"practice","id":"verbbasics.01","k":"why","src":"Drop 다 to get the stem.","tgt":"ตัด 다 ออกก็จะได้ก้านกริยา"}
+{"f":"practice","id":"verbbasics.02","k":"q","src":"'The bag is big' =","tgt":"“กระเป๋าใหญ่ครับ/ค่ะ” ="}
+{"f":"practice","id":"verbbasics.02","k":"why","src":"커요 already means 'is big'.","tgt":"커요 แปลว่า “ใหญ่” อยู่แล้ว"}
+{"f":"practice","id":"verbbasics.03","k":"q","src":"Polite form of 하다 =","tgt":"รูปสุภาพของ 하다 ="}
+{"f":"practice","id":"verbbasics.03","k":"why","src":"하다 is special: 해요.","tgt":"하다 เป็นคำพิเศษ: 해요"}
+{"f":"practice","id":"verbbasics.04","k":"q","src":"'I exercise' =","tgt":"“ออกกำลังกายครับ/ค่ะ” ="}
+{"f":"practice","id":"verbbasics.04","k":"why","src":"Noun + 하다 makes a verb: 운동해요.","tgt":"คำนาม + 하다 กลายเป็นคำกริยา: 운동해요"}
+{"f":"practice","id":"verbbasics.05","k":"q","src":"'The weather is good' =","tgt":"“อากาศดีครับ/ค่ะ” ="}
+{"f":"practice","id":"verbbasics.05","k":"why","src":"Describing verbs need no separate 'is'.","tgt":"กริยาบอกลักษณะไม่ต้องมีคำว่า “เป็น” แยก เหมือนภาษาไทย"}
+{"f":"practice","id":"verbbasics.06","k":"p","src":"The weather is good","tgt":"อากาศดีครับ/ค่ะ"}
+{"f":"practice","id":"verbbasics.06","k":"why","src":"좋다요 is not a form: the polite form is 좋아요.","tgt":"ไม่มีรูป 좋다요 รูปสุภาพคือ 좋아요"}
+{"f":"practice","id":"verbbasics.07","k":"p","src":"I have time","tgt":"มีเวลาครับ/ค่ะ"}
+{"f":"practice","id":"verbbasics.07","k":"why","src":"있어요 = have.","tgt":"있어요 = มี"}
+{"f":"practice","id":"verbbasics.08","k":"p","src":"The bag is big","tgt":"กระเป๋าใหญ่ครับ/ค่ะ"}
+{"f":"practice","id":"verbbasics.08","k":"why","src":"커요 = is big.","tgt":"커요 = ใหญ่"}
+{"f":"practice","id":"verbbasics.09","k":"p","src":"(I) eat","tgt":"กินครับ/ค่ะ"}
+{"f":"practice","id":"verbbasics.09","k":"why","src":"Spoken form is 먹어요; 먹다 is for dictionaries.","tgt":"รูปที่ใช้พูดคือ 먹어요 ส่วน 먹다 ใช้ในพจนานุกรม"}
+{"f":"practice","id":"verbbasics.10","k":"p","src":"(I) study","tgt":"เรียนหนังสือครับ/ค่ะ"}
 {"f":"practice","id":"verbbasics.10","k":"why","src":"공부 + 하다 → 공부해요.","tgt":"공부 + 하다 → 공부해요.","pre":1}
-{"f":"practice","id":"verbbasics.11","k":"p","src":"I have no money","tgt":""}
-{"f":"practice","id":"verbbasics.11","k":"why","src":"돈 ends in a consonant → 이.","tgt":""}
-{"f":"practice","id":"verbbasics.12","k":"p","src":"(I'm) going home","tgt":""}
-{"f":"practice","id":"verbbasics.12","k":"why","src":"Say the 요-form, not the dictionary form.","tgt":""}
-{"f":"practice","id":"verbbasics.13","k":"p","src":"(I) study Korean","tgt":""}
-{"f":"practice","id":"verbbasics.13","k":"why","src":"Noun + 해요.","tgt":""}
-{"f":"practice","id":"verbbasics.14","k":"p","src":"The weather is good","tgt":""}
-{"f":"practice","id":"verbbasics.14","k":"why","src":"좋아요 already includes 'is'.","tgt":""}
-{"f":"lessons","id":"verbs","k":"title","src":"9 · Present tense: the 요-form","tgt":""}
-{"f":"lessons","id":"verbs","k":"blurb","src":"Turn any dictionary verb into the polite present: 아요, 어요 or 해요.","tgt":""}
-{"f":"sentences","id":"ko.s0078","k":"gloss","src":"go","tgt":""}
-{"f":"sentences","id":"ko.s0079","k":"gloss","src":"come","tgt":""}
-{"f":"sentences","id":"ko.s0080","k":"gloss","src":"see, watch","tgt":""}
-{"f":"sentences","id":"ko.s0081","k":"gloss","src":"read","tgt":""}
-{"f":"sentences","id":"ko.s0082","k":"gloss","src":"there is / have","tgt":""}
-{"f":"sentences","id":"ko.s0083","k":"gloss","src":"I go to school / I'm going to school","tgt":""}
-{"f":"sentences","id":"ko.s0084","k":"gloss","src":"Are you going home?","tgt":""}
-{"f":"sentences","id":"ko.s0085","k":"gloss","src":"What are you doing now?","tgt":""}
-{"f":"sentences","id":"ko.s0086","k":"gloss","src":"My friend is coming","tgt":""}
-{"f":"checks","id":"verbs.k1","k":"q","src":"먹다 in the polite present =","tgt":""}
-{"f":"checks","id":"verbs.k1","k":"why","src":"Last vowel is ㅓ (not ㅏ/ㅗ) → 어요.","tgt":""}
-{"f":"checks","id":"verbs.k2","k":"q","src":"보다 in the polite present =","tgt":""}
-{"f":"checks","id":"verbs.k2","k":"why","src":"ㅗ stem + 아요; 보 + 아 merge into 봐.","tgt":""}
-{"f":"checks","id":"verbs.k3","k":"q","src":"'Are you going home?' =","tgt":""}
-{"f":"checks","id":"verbs.k3","k":"why","src":"Same 요-form; only the tone rises.","tgt":""}
-{"f":"practice","id":"verbs.01","k":"q","src":"보다 in the polite present =","tgt":""}
-{"f":"practice","id":"verbs.01","k":"why","src":"ㅗ stem + 아요; 보 + 아 merge into 봐.","tgt":""}
-{"f":"practice","id":"verbs.02","k":"q","src":"마시다 in the polite present =","tgt":""}
-{"f":"practice","id":"verbs.02","k":"why","src":"ㅣ stem + 어요; 시 + 어 merge into 셔.","tgt":""}
-{"f":"practice","id":"verbs.03","k":"q","src":"먹다 in the polite present =","tgt":""}
-{"f":"practice","id":"verbs.03","k":"why","src":"ㅓ stem → 어요.","tgt":""}
-{"f":"practice","id":"verbs.04","k":"q","src":"공부하다 in the polite present =","tgt":""}
-{"f":"practice","id":"verbs.04","k":"why","src":"하다 verbs → 해요.","tgt":""}
-{"f":"practice","id":"verbs.05","k":"q","src":"'(I'm) not going' =","tgt":""}
-{"f":"practice","id":"verbs.05","k":"why","src":"안 goes right before the verb.","tgt":""}
-{"f":"practice","id":"verbs.06","k":"p","src":"My friend is coming","tgt":""}
-{"f":"practice","id":"verbs.06","k":"why","src":"오 + 아요 merge into 와요.","tgt":""}
-{"f":"practice","id":"verbs.07","k":"p","src":"I go to school","tgt":""}
-{"f":"practice","id":"verbs.07","k":"why","src":"Say the 요-form, not the dictionary form.","tgt":""}
-{"f":"practice","id":"verbs.08","k":"p","src":"What are you doing now?","tgt":""}
+{"f":"practice","id":"verbbasics.11","k":"p","src":"I have no money","tgt":"ไม่มีเงินครับ/ค่ะ"}
+{"f":"practice","id":"verbbasics.11","k":"why","src":"돈 ends in a consonant → 이.","tgt":"돈 มีตัวสะกด → 이"}
+{"f":"practice","id":"verbbasics.12","k":"p","src":"(I'm) going home","tgt":"กลับบ้านครับ/ค่ะ"}
+{"f":"practice","id":"verbbasics.12","k":"why","src":"Say the 요-form, not the dictionary form.","tgt":"พูดเป็นรูป 요 ไม่ใช่รูปพจนานุกรม"}
+{"f":"practice","id":"verbbasics.13","k":"p","src":"(I) study Korean","tgt":"เรียนภาษาเกาหลีครับ/ค่ะ"}
+{"f":"practice","id":"verbbasics.13","k":"why","src":"Noun + 해요.","tgt":"คำนาม + 해요"}
+{"f":"practice","id":"verbbasics.14","k":"p","src":"The weather is good","tgt":"อากาศดีครับ/ค่ะ"}
+{"f":"practice","id":"verbbasics.14","k":"why","src":"좋아요 already includes 'is'.","tgt":"좋아요 แปลว่า “ดี” ครบแล้ว"}
+{"f":"lessons","id":"verbs","k":"title","src":"9 · Present tense: the 요-form","tgt":"9 · รูปปัจจุบัน: รูป 요"}
+{"f":"lessons","id":"verbs","k":"blurb","src":"Turn any dictionary verb into the polite present: 아요, 어요 or 해요.","tgt":"เปลี่ยนคำกริยารูปพจนานุกรมทุกคำให้เป็นรูปปัจจุบันแบบสุภาพ: 아요 어요 หรือ 해요"}
+{"f":"sentences","id":"ko.s0078","k":"gloss","src":"go","tgt":"ไปครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0079","k":"gloss","src":"come","tgt":"มาครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0080","k":"gloss","src":"see, watch","tgt":"ดูครับ/ค่ะ (ดู หรือ เห็น)"}
+{"f":"sentences","id":"ko.s0081","k":"gloss","src":"read","tgt":"อ่านครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0082","k":"gloss","src":"there is / have","tgt":"มีครับ/ค่ะ (มี หรือ อยู่)"}
+{"f":"sentences","id":"ko.s0083","k":"gloss","src":"I go to school / I'm going to school","tgt":"ฉันไปโรงเรียนครับ/ค่ะ (ไปเป็นประจำ หรือ กำลังไป)"}
+{"f":"sentences","id":"ko.s0084","k":"gloss","src":"Are you going home?","tgt":"กลับบ้านหรือเปล่าครับ/คะ"}
+{"f":"sentences","id":"ko.s0085","k":"gloss","src":"What are you doing now?","tgt":"ตอนนี้ทำอะไรอยู่ครับ/คะ"}
+{"f":"sentences","id":"ko.s0086","k":"gloss","src":"My friend is coming","tgt":"เพื่อนกำลังมาครับ/ค่ะ"}
+{"f":"checks","id":"verbs.k1","k":"q","src":"먹다 in the polite present =","tgt":"먹다 ในรูปปัจจุบันแบบสุภาพ ="}
+{"f":"checks","id":"verbs.k1","k":"why","src":"Last vowel is ㅓ (not ㅏ/ㅗ) → 어요.","tgt":"สระตัวสุดท้ายคือ ㅓ (ไม่ใช่ ㅏ/ㅗ) → 어요"}
+{"f":"checks","id":"verbs.k2","k":"q","src":"보다 in the polite present =","tgt":"보다 ในรูปปัจจุบันแบบสุภาพ ="}
+{"f":"checks","id":"verbs.k2","k":"why","src":"ㅗ stem + 아요; 보 + 아 merge into 봐.","tgt":"ก้านที่มีสระ ㅗ + 아요 · 보 + 아 รวมเป็น 봐"}
+{"f":"checks","id":"verbs.k3","k":"q","src":"'Are you going home?' =","tgt":"“กลับบ้านหรือเปล่าครับ/คะ” ="}
+{"f":"checks","id":"verbs.k3","k":"why","src":"Same 요-form; only the tone rises.","tgt":"ใช้รูป 요 เดิม แค่ขึ้นเสียงท้ายประโยค ไม่ต้องมีคำอย่าง ไหม"}
+{"f":"practice","id":"verbs.01","k":"q","src":"보다 in the polite present =","tgt":"보다 ในรูปปัจจุบันแบบสุภาพ ="}
+{"f":"practice","id":"verbs.01","k":"why","src":"ㅗ stem + 아요; 보 + 아 merge into 봐.","tgt":"ก้านที่มีสระ ㅗ + 아요 · 보 + 아 รวมเป็น 봐"}
+{"f":"practice","id":"verbs.02","k":"q","src":"마시다 in the polite present =","tgt":"마시다 ในรูปปัจจุบันแบบสุภาพ ="}
+{"f":"practice","id":"verbs.02","k":"why","src":"ㅣ stem + 어요; 시 + 어 merge into 셔.","tgt":"ก้านที่มีสระ ㅣ + 어요 · 시 + 어 รวมเป็น 셔"}
+{"f":"practice","id":"verbs.03","k":"q","src":"먹다 in the polite present =","tgt":"먹다 ในรูปปัจจุบันแบบสุภาพ ="}
+{"f":"practice","id":"verbs.03","k":"why","src":"ㅓ stem → 어요.","tgt":"ก้านที่มีสระ ㅓ → 어요"}
+{"f":"practice","id":"verbs.04","k":"q","src":"공부하다 in the polite present =","tgt":"공부하다 ในรูปปัจจุบันแบบสุภาพ ="}
+{"f":"practice","id":"verbs.04","k":"why","src":"하다 verbs → 해요.","tgt":"กริยา 하다 → 해요"}
+{"f":"practice","id":"verbs.05","k":"q","src":"'(I'm) not going' =","tgt":"“ไม่ไปครับ/ค่ะ” ="}
+{"f":"practice","id":"verbs.05","k":"why","src":"안 goes right before the verb.","tgt":"안 วางชิดหน้าคำกริยา"}
+{"f":"practice","id":"verbs.06","k":"p","src":"My friend is coming","tgt":"เพื่อนกำลังมาครับ/ค่ะ"}
+{"f":"practice","id":"verbs.06","k":"why","src":"오 + 아요 merge into 와요.","tgt":"오 + 아요 รวมเป็น 와요"}
+{"f":"practice","id":"verbs.07","k":"p","src":"I go to school","tgt":"ฉันไปโรงเรียนครับ/ค่ะ"}
+{"f":"practice","id":"verbs.07","k":"why","src":"Say the 요-form, not the dictionary form.","tgt":"พูดเป็นรูป 요 ไม่ใช่รูปพจนานุกรม"}
+{"f":"practice","id":"verbs.08","k":"p","src":"What are you doing now?","tgt":"ตอนนี้ทำอะไรอยู่ครับ/คะ"}
 {"f":"practice","id":"verbs.08","k":"why","src":"하다 → 해요.","tgt":"하다 → 해요.","pre":1}
-{"f":"practice","id":"verbs.09","k":"p","src":"(I) eat","tgt":""}
-{"f":"practice","id":"verbs.09","k":"why","src":"ㅓ stem → 어요.","tgt":""}
-{"f":"practice","id":"verbs.10","k":"p","src":"I love (you)","tgt":""}
-{"f":"practice","id":"verbs.10","k":"why","src":"하다 verbs → 해요.","tgt":""}
-{"f":"practice","id":"verbs.11","k":"p","src":"(I'm) not going","tgt":""}
-{"f":"practice","id":"verbs.11","k":"why","src":"안 goes right before the verb.","tgt":""}
-{"f":"practice","id":"verbs.12","k":"p","src":"(I) go home","tgt":""}
+{"f":"practice","id":"verbs.09","k":"p","src":"(I) eat","tgt":"กินครับ/ค่ะ"}
+{"f":"practice","id":"verbs.09","k":"why","src":"ㅓ stem → 어요.","tgt":"ก้านที่มีสระ ㅓ → 어요"}
+{"f":"practice","id":"verbs.10","k":"p","src":"I love (you)","tgt":"รักคุณครับ/ค่ะ"}
+{"f":"practice","id":"verbs.10","k":"why","src":"하다 verbs → 해요.","tgt":"กริยา 하다 → 해요"}
+{"f":"practice","id":"verbs.11","k":"p","src":"(I'm) not going","tgt":"ไม่ไปครับ/ค่ะ"}
+{"f":"practice","id":"verbs.11","k":"why","src":"안 goes right before the verb.","tgt":"안 วางชิดหน้าคำกริยา"}
+{"f":"practice","id":"verbs.12","k":"p","src":"(I) go home","tgt":"กลับบ้านครับ/ค่ะ"}
 {"f":"practice","id":"verbs.12","k":"why","src":"가 + 아요 → 가요.","tgt":"가 + 아요 → 가요.","pre":1}
-{"f":"practice","id":"verbs.13","k":"p","src":"My friend eats","tgt":""}
+{"f":"practice","id":"verbs.13","k":"p","src":"My friend eats","tgt":"เพื่อนกินครับ/ค่ะ"}
 {"f":"practice","id":"verbs.13","k":"why","src":"먹 + 어요.","tgt":"먹 + 어요.","pre":1}
-{"f":"practice","id":"verbs.14","k":"p","src":"(I'm) not going home","tgt":""}
-{"f":"practice","id":"verbs.14","k":"why","src":"안 sits right before the verb.","tgt":""}
-{"f":"lessons","id":"past","k":"title","src":"10 · Past tense: 았어요 / 었어요","tgt":""}
-{"f":"lessons","id":"past","k":"blurb","src":"Take the 요-form, swap 요 for ㅆ어요, and you are talking about yesterday.","tgt":""}
-{"f":"sentences","id":"ko.s0087","k":"gloss","src":"went","tgt":""}
-{"f":"sentences","id":"ko.s0088","k":"gloss","src":"ate","tgt":""}
-{"f":"sentences","id":"ko.s0089","k":"gloss","src":"studied","tgt":""}
-{"f":"sentences","id":"ko.s0090","k":"gloss","src":"(it) was good","tgt":""}
-{"f":"sentences","id":"ko.s0091","k":"gloss","src":"(I) was at home yesterday","tgt":""}
-{"f":"sentences","id":"ko.s0092","k":"gloss","src":"(I) had no time","tgt":""}
-{"f":"sentences","id":"ko.s0093","k":"gloss","src":"(I) was a student","tgt":""}
-{"f":"sentences","id":"ko.s0094","k":"gloss","src":"(She) was a doctor","tgt":""}
-{"f":"sentences","id":"ko.s0095","k":"gloss","src":"My friend came yesterday","tgt":""}
-{"f":"sentences","id":"ko.s0096","k":"gloss","src":"What did you do yesterday?","tgt":""}
-{"f":"sentences","id":"ko.s0097","k":"gloss","src":"(I) didn't go","tgt":""}
-{"f":"checks","id":"past.k1","k":"q","src":"가다 in the past =","tgt":""}
-{"f":"checks","id":"past.k1","k":"why","src":"가요 → drop 요 → 갔어요.","tgt":""}
-{"f":"checks","id":"past.k2","k":"q","src":"'(I) was a student' =","tgt":""}
-{"f":"checks","id":"past.k2","k":"why","src":"Consonant ending → 이었어요.","tgt":""}
-{"f":"checks","id":"past.k3","k":"q","src":"'What did you do yesterday?' =","tgt":""}
-{"f":"checks","id":"past.k3","k":"why","src":"해요 → 했어요; the time word goes first.","tgt":""}
-{"f":"practice","id":"past.01","k":"q","src":"먹다 in the past =","tgt":""}
+{"f":"practice","id":"verbs.14","k":"p","src":"(I'm) not going home","tgt":"ไม่กลับบ้านครับ/ค่ะ"}
+{"f":"practice","id":"verbs.14","k":"why","src":"안 sits right before the verb.","tgt":"안 อยู่ชิดหน้าคำกริยา"}
+{"f":"lessons","id":"past","k":"title","src":"10 · Past tense: 았어요 / 었어요","tgt":"10 · รูปอดีต: 았어요 / 었어요"}
+{"f":"lessons","id":"past","k":"blurb","src":"Take the 요-form, swap 요 for ㅆ어요, and you are talking about yesterday.","tgt":"เอารูป 요 มาเปลี่ยน 요 เป็น ㅆ어요 ก็เล่าเรื่องเมื่อวานได้แล้ว"}
+{"f":"sentences","id":"ko.s0087","k":"gloss","src":"went","tgt":"ไปแล้วครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0088","k":"gloss","src":"ate","tgt":"กินแล้วครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0089","k":"gloss","src":"studied","tgt":"เรียนแล้วครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0090","k":"gloss","src":"(it) was good","tgt":"(ตอนนั้น)ดีครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0091","k":"gloss","src":"(I) was at home yesterday","tgt":"เมื่อวานอยู่บ้านครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0092","k":"gloss","src":"(I) had no time","tgt":"(ตอนนั้น)ไม่มีเวลาครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0093","k":"gloss","src":"(I) was a student","tgt":"เคยเป็นนักเรียนครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0094","k":"gloss","src":"(She) was a doctor","tgt":"(เขา)เคยเป็นหมอครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0095","k":"gloss","src":"My friend came yesterday","tgt":"เมื่อวานเพื่อนมาครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0096","k":"gloss","src":"What did you do yesterday?","tgt":"เมื่อวานทำอะไรครับ/คะ"}
+{"f":"sentences","id":"ko.s0097","k":"gloss","src":"(I) didn't go","tgt":"ไม่ได้ไปครับ/ค่ะ"}
+{"f":"checks","id":"past.k1","k":"q","src":"가다 in the past =","tgt":"가다 ในรูปอดีต ="}
+{"f":"checks","id":"past.k1","k":"why","src":"가요 → drop 요 → 갔어요.","tgt":"가요 → ตัด 요 → 갔어요"}
+{"f":"checks","id":"past.k2","k":"q","src":"'(I) was a student' =","tgt":"“เคยเป็นนักเรียนครับ/ค่ะ” ="}
+{"f":"checks","id":"past.k2","k":"why","src":"Consonant ending → 이었어요.","tgt":"มีตัวสะกด → 이었어요"}
+{"f":"checks","id":"past.k3","k":"q","src":"'What did you do yesterday?' =","tgt":"“เมื่อวานทำอะไรครับ/คะ” ="}
+{"f":"checks","id":"past.k3","k":"why","src":"해요 → 했어요; the time word goes first.","tgt":"해요 → 했어요 และคำบอกเวลาอยู่ต้นประโยค แต่คำบอกเวลาอย่างเดียวไม่พอ กริยาต้องเป็นรูปอดีตด้วย"}
+{"f":"practice","id":"past.01","k":"q","src":"먹다 in the past =","tgt":"먹다 ในรูปอดีต ="}
 {"f":"practice","id":"past.01","k":"why","src":"먹어요 → 먹었어요.","tgt":"먹어요 → 먹었어요.","pre":1}
-{"f":"practice","id":"past.02","k":"q","src":"오다 in the past =","tgt":""}
+{"f":"practice","id":"past.02","k":"q","src":"오다 in the past =","tgt":"오다 ในรูปอดีต ="}
 {"f":"practice","id":"past.02","k":"why","src":"와요 → 왔어요.","tgt":"와요 → 왔어요.","pre":1}
-{"f":"practice","id":"past.03","k":"q","src":"하다 in the past =","tgt":""}
+{"f":"practice","id":"past.03","k":"q","src":"하다 in the past =","tgt":"하다 ในรูปอดีต ="}
 {"f":"practice","id":"past.03","k":"why","src":"해요 → 했어요.","tgt":"해요 → 했어요.","pre":1}
-{"f":"practice","id":"past.04","k":"q","src":"'(It) was good' =","tgt":""}
+{"f":"practice","id":"past.04","k":"q","src":"'(It) was good' =","tgt":"“(ตอนนั้น)ดีครับ/ค่ะ” ="}
 {"f":"practice","id":"past.04","k":"why","src":"좋아요 → 좋았어요.","tgt":"좋아요 → 좋았어요.","pre":1}
-{"f":"practice","id":"past.05","k":"q","src":"'(I) didn't go' =","tgt":""}
-{"f":"practice","id":"past.05","k":"why","src":"안 before the verb; 갔어요 is the past.","tgt":""}
-{"f":"practice","id":"past.06","k":"p","src":"My friend came yesterday","tgt":""}
-{"f":"practice","id":"past.06","k":"why","src":"Time words usually come first; the past verb always comes last.","tgt":""}
-{"f":"practice","id":"past.07","k":"p","src":"(I) was at home yesterday","tgt":""}
+{"f":"practice","id":"past.05","k":"q","src":"'(I) didn't go' =","tgt":"“ไม่ได้ไปครับ/ค่ะ” ="}
+{"f":"practice","id":"past.05","k":"why","src":"안 before the verb; 갔어요 is the past.","tgt":"안 อยู่หน้ากริยา และ 갔어요 เป็นรูปอดีต ไม่ได้ไป ในภาษาไทยจึงตรงกับรูปนี้"}
+{"f":"practice","id":"past.06","k":"p","src":"My friend came yesterday","tgt":"เมื่อวานเพื่อนมาครับ/ค่ะ"}
+{"f":"practice","id":"past.06","k":"why","src":"Time words usually come first; the past verb always comes last.","tgt":"คำบอกเวลามักอยู่ต้นประโยค ส่วนกริยารูปอดีตอยู่ท้ายเสมอ"}
+{"f":"practice","id":"past.07","k":"p","src":"(I) was at home yesterday","tgt":"เมื่อวานอยู่บ้านครับ/ค่ะ"}
 {"f":"practice","id":"past.07","k":"why","src":"있어요 → 있었어요.","tgt":"있어요 → 있었어요.","pre":1}
-{"f":"practice","id":"past.08","k":"p","src":"What did you do?","tgt":""}
+{"f":"practice","id":"past.08","k":"p","src":"What did you do?","tgt":"ทำอะไรมาครับ/คะ (อดีต)"}
 {"f":"practice","id":"past.08","k":"why","src":"해요 → 했어요.","tgt":"해요 → 했어요.","pre":1}
-{"f":"practice","id":"past.09","k":"p","src":"(I) ate","tgt":""}
+{"f":"practice","id":"past.09","k":"p","src":"(I) ate","tgt":"กินแล้วครับ/ค่ะ"}
 {"f":"practice","id":"past.09","k":"why","src":"먹어요 → 먹었어요.","tgt":"먹어요 → 먹었어요.","pre":1}
-{"f":"practice","id":"past.10","k":"p","src":"(I) studied","tgt":""}
+{"f":"practice","id":"past.10","k":"p","src":"(I) studied","tgt":"เรียนแล้วครับ/ค่ะ"}
 {"f":"practice","id":"past.10","k":"why","src":"해요 → 했어요.","tgt":"해요 → 했어요.","pre":1}
-{"f":"practice","id":"past.11","k":"p","src":"(She) was a doctor","tgt":""}
-{"f":"practice","id":"past.11","k":"why","src":"Vowel ending → 였어요.","tgt":""}
-{"f":"practice","id":"past.12","k":"p","src":"(I) went home","tgt":""}
-{"f":"practice","id":"past.12","k":"hint","src":"past","tgt":""}
+{"f":"practice","id":"past.11","k":"p","src":"(She) was a doctor","tgt":"(เขา)เคยเป็นหมอครับ/ค่ะ"}
+{"f":"practice","id":"past.11","k":"why","src":"Vowel ending → 였어요.","tgt":"ไม่มีตัวสะกด → 였어요"}
+{"f":"practice","id":"past.12","k":"p","src":"(I) went home","tgt":"กลับบ้านแล้วครับ/ค่ะ"}
+{"f":"practice","id":"past.12","k":"hint","src":"past","tgt":"อดีต"}
 {"f":"practice","id":"past.12","k":"why","src":"가요 → 갔어요.","tgt":"가요 → 갔어요.","pre":1}
-{"f":"practice","id":"past.13","k":"p","src":"I was a student","tgt":""}
+{"f":"practice","id":"past.13","k":"p","src":"I was a student","tgt":"ฉันเคยเป็นนักเรียนครับ/ค่ะ"}
 {"f":"practice","id":"past.13","k":"why","src":"이에요 → 이었어요.","tgt":"이에요 → 이었어요.","pre":1}
-{"f":"practice","id":"past.14","k":"p","src":"(I) didn't eat yesterday","tgt":""}
-{"f":"practice","id":"past.14","k":"why","src":"안 + past verb.","tgt":""}
-{"f":"lessons","id":"future","k":"title","src":"11 · Future and plans: -(으)ㄹ 거예요","tgt":""}
-{"f":"lessons","id":"future","k":"blurb","src":"Say what you will do, and guess what will probably happen.","tgt":""}
-{"f":"sentences","id":"ko.s0098","k":"gloss","src":"will go","tgt":""}
-{"f":"sentences","id":"ko.s0099","k":"gloss","src":"will watch","tgt":""}
-{"f":"sentences","id":"ko.s0100","k":"gloss","src":"will do","tgt":""}
-{"f":"sentences","id":"ko.s0101","k":"gloss","src":"will eat","tgt":""}
-{"f":"sentences","id":"ko.s0102","k":"gloss","src":"will be (there)","tgt":""}
-{"f":"sentences","id":"ko.s0103","k":"gloss","src":"I'll go to school tomorrow","tgt":""}
-{"f":"sentences","id":"ko.s0104","k":"gloss","src":"What will you do on the weekend?","tgt":""}
-{"f":"sentences","id":"ko.s0105","k":"gloss","src":"I'll be at home","tgt":""}
-{"f":"sentences","id":"ko.s0106","k":"gloss","src":"I won't go","tgt":""}
-{"f":"sentences","id":"ko.s0107","k":"gloss","src":"It will probably be tasty","tgt":""}
-{"f":"sentences","id":"ko.s0108","k":"gloss","src":"It will probably be cold tomorrow","tgt":""}
-{"f":"checks","id":"future.k1","k":"q","src":"먹다 in the future =","tgt":""}
-{"f":"checks","id":"future.k1","k":"why","src":"Consonant stem + 을 거예요.","tgt":""}
-{"f":"checks","id":"future.k2","k":"q","src":"'What will you do on the weekend?' =","tgt":""}
+{"f":"practice","id":"past.14","k":"p","src":"(I) didn't eat yesterday","tgt":"เมื่อวานไม่ได้กินครับ/ค่ะ"}
+{"f":"practice","id":"past.14","k":"why","src":"안 + past verb.","tgt":"안 + กริยารูปอดีต เหมือน ไม่ได้ + กริยา ในภาษาไทย"}
+{"f":"lessons","id":"future","k":"title","src":"11 · Future and plans: -(으)ㄹ 거예요","tgt":"11 · รูปอนาคตและแผน: -(으)ㄹ 거예요"}
+{"f":"lessons","id":"future","k":"blurb","src":"Say what you will do, and guess what will probably happen.","tgt":"บอกสิ่งที่จะทำ และเดาสิ่งที่น่าจะเกิดขึ้น"}
+{"f":"sentences","id":"ko.s0098","k":"gloss","src":"will go","tgt":"จะไปครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0099","k":"gloss","src":"will watch","tgt":"จะดูครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0100","k":"gloss","src":"will do","tgt":"จะทำครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0101","k":"gloss","src":"will eat","tgt":"จะกินครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0102","k":"gloss","src":"will be (there)","tgt":"จะอยู่ครับ/ค่ะ (อยู่ที่นั่น)"}
+{"f":"sentences","id":"ko.s0103","k":"gloss","src":"I'll go to school tomorrow","tgt":"พรุ่งนี้จะไปโรงเรียนครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0104","k":"gloss","src":"What will you do on the weekend?","tgt":"สุดสัปดาห์นี้จะทำอะไรครับ/คะ"}
+{"f":"sentences","id":"ko.s0105","k":"gloss","src":"I'll be at home","tgt":"จะอยู่บ้านครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0106","k":"gloss","src":"I won't go","tgt":"จะไม่ไปครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0107","k":"gloss","src":"It will probably be tasty","tgt":"คงจะอร่อยครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0108","k":"gloss","src":"It will probably be cold tomorrow","tgt":"พรุ่งนี้คงจะหนาวครับ/ค่ะ"}
+{"f":"checks","id":"future.k1","k":"q","src":"먹다 in the future =","tgt":"먹다 ในรูปอนาคต ="}
+{"f":"checks","id":"future.k1","k":"why","src":"Consonant stem + 을 거예요.","tgt":"ก้านที่มีตัวสะกด + 을 거예요"}
+{"f":"checks","id":"future.k2","k":"q","src":"'What will you do on the weekend?' =","tgt":"“สุดสัปดาห์นี้จะทำอะไรครับ/คะ” ="}
 {"f":"checks","id":"future.k2","k":"why","src":"하 + ㄹ 거예요 → 할 거예요.","tgt":"하 + ㄹ 거예요 → 할 거예요.","pre":1}
-{"f":"checks","id":"future.k3","k":"q","src":"'(I) won't go' =","tgt":""}
-{"f":"checks","id":"future.k3","k":"why","src":"안 goes before the verb.","tgt":""}
-{"f":"practice","id":"future.01","k":"q","src":"가다 in the future =","tgt":""}
-{"f":"practice","id":"future.01","k":"why","src":"Vowel stem + ㄹ 거예요.","tgt":""}
-{"f":"practice","id":"future.02","k":"q","src":"먹다 in the future =","tgt":""}
-{"f":"practice","id":"future.02","k":"why","src":"Consonant stem + 을 거예요.","tgt":""}
-{"f":"practice","id":"future.03","k":"q","src":"하다 in the future =","tgt":""}
+{"f":"checks","id":"future.k3","k":"q","src":"'(I) won't go' =","tgt":"“จะไม่ไปครับ/ค่ะ” ="}
+{"f":"checks","id":"future.k3","k":"why","src":"안 goes before the verb.","tgt":"안 อยู่หน้ากริยา"}
+{"f":"practice","id":"future.01","k":"q","src":"가다 in the future =","tgt":"가다 ในรูปอนาคต ="}
+{"f":"practice","id":"future.01","k":"why","src":"Vowel stem + ㄹ 거예요.","tgt":"ก้านที่ลงท้ายด้วยสระ + ㄹ 거예요"}
+{"f":"practice","id":"future.02","k":"q","src":"먹다 in the future =","tgt":"먹다 ในรูปอนาคต ="}
+{"f":"practice","id":"future.02","k":"why","src":"Consonant stem + 을 거예요.","tgt":"ก้านที่มีตัวสะกด + 을 거예요"}
+{"f":"practice","id":"future.03","k":"q","src":"하다 in the future =","tgt":"하다 ในรูปอนาคต ="}
 {"f":"practice","id":"future.03","k":"why","src":"하 + ㄹ → 할 거예요.","tgt":"하 + ㄹ → 할 거예요.","pre":1}
-{"f":"practice","id":"future.04","k":"q","src":"Which word means 'tomorrow'?","tgt":""}
-{"f":"practice","id":"future.04","k":"why","src":"내일 = tomorrow; 어제 = yesterday.","tgt":""}
-{"f":"practice","id":"future.05","k":"q","src":"'(I) won't go' =","tgt":""}
-{"f":"practice","id":"future.05","k":"why","src":"안 goes before the verb.","tgt":""}
-{"f":"practice","id":"future.06","k":"p","src":"I'll go to school tomorrow","tgt":""}
-{"f":"practice","id":"future.06","k":"why","src":"Time usually first; 갈 거예요 = will go.","tgt":""}
-{"f":"practice","id":"future.07","k":"p","src":"What will you do on the weekend?","tgt":""}
-{"f":"practice","id":"future.07","k":"why","src":"할 거예요 = will do.","tgt":""}
-{"f":"practice","id":"future.08","k":"p","src":"(I) will be at home","tgt":""}
+{"f":"practice","id":"future.04","k":"q","src":"Which word means 'tomorrow'?","tgt":"คำไหนแปลว่า “พรุ่งนี้”"}
+{"f":"practice","id":"future.04","k":"why","src":"내일 = tomorrow; 어제 = yesterday.","tgt":"내일 = พรุ่งนี้ · 어제 = เมื่อวาน"}
+{"f":"practice","id":"future.05","k":"q","src":"'(I) won't go' =","tgt":"“จะไม่ไปครับ/ค่ะ” ="}
+{"f":"practice","id":"future.05","k":"why","src":"안 goes before the verb.","tgt":"안 อยู่หน้ากริยา"}
+{"f":"practice","id":"future.06","k":"p","src":"I'll go to school tomorrow","tgt":"พรุ่งนี้จะไปโรงเรียนครับ/ค่ะ"}
+{"f":"practice","id":"future.06","k":"why","src":"Time usually first; 갈 거예요 = will go.","tgt":"คำบอกเวลามักอยู่ต้นประโยค · 갈 거예요 = จะไป"}
+{"f":"practice","id":"future.07","k":"p","src":"What will you do on the weekend?","tgt":"สุดสัปดาห์นี้จะทำอะไรครับ/คะ"}
+{"f":"practice","id":"future.07","k":"why","src":"할 거예요 = will do.","tgt":"할 거예요 = จะทำ"}
+{"f":"practice","id":"future.08","k":"p","src":"(I) will be at home","tgt":"จะอยู่บ้านครับ/ค่ะ"}
 {"f":"practice","id":"future.08","k":"why","src":"있 + 을 거예요.","tgt":"있 + 을 거예요.","pre":1}
-{"f":"practice","id":"future.09","k":"p","src":"(I) will go","tgt":""}
-{"f":"practice","id":"future.09","k":"why","src":"Stem + ㄹ + 거예요.","tgt":""}
-{"f":"practice","id":"future.10","k":"p","src":"(I) will eat","tgt":""}
-{"f":"practice","id":"future.10","k":"why","src":"Consonant stem → 을 거예요.","tgt":""}
-{"f":"practice","id":"future.11","k":"p","src":"My friend will come tomorrow","tgt":""}
+{"f":"practice","id":"future.09","k":"p","src":"(I) will go","tgt":"จะไปครับ/ค่ะ"}
+{"f":"practice","id":"future.09","k":"why","src":"Stem + ㄹ + 거예요.","tgt":"ก้านกริยา + ㄹ + 거예요"}
+{"f":"practice","id":"future.10","k":"p","src":"(I) will eat","tgt":"จะกินครับ/ค่ะ"}
+{"f":"practice","id":"future.10","k":"why","src":"Consonant stem → 을 거예요.","tgt":"ก้านที่มีตัวสะกด → 을 거예요"}
+{"f":"practice","id":"future.11","k":"p","src":"My friend will come tomorrow","tgt":"พรุ่งนี้เพื่อนจะมาครับ/ค่ะ"}
 {"f":"practice","id":"future.11","k":"why","src":"오 + ㄹ → 올 거예요.","tgt":"오 + ㄹ → 올 거예요.","pre":1}
-{"f":"practice","id":"future.12","k":"p","src":"(I) will go tomorrow","tgt":""}
+{"f":"practice","id":"future.12","k":"p","src":"(I) will go tomorrow","tgt":"พรุ่งนี้จะไปครับ/ค่ะ"}
 {"f":"practice","id":"future.12","k":"why","src":"가 + ㄹ 거예요.","tgt":"가 + ㄹ 거예요.","pre":1}
-{"f":"practice","id":"future.13","k":"p","src":"My friend will eat","tgt":""}
+{"f":"practice","id":"future.13","k":"p","src":"My friend will eat","tgt":"เพื่อนจะกินครับ/ค่ะ"}
 {"f":"practice","id":"future.13","k":"why","src":"먹 + 을 거예요.","tgt":"먹 + 을 거예요.","pre":1}
-{"f":"practice","id":"future.14","k":"p","src":"(I) won't go","tgt":""}
+{"f":"practice","id":"future.14","k":"p","src":"(I) won't go","tgt":"จะไม่ไปครับ/ค่ะ"}
 {"f":"practice","id":"future.14","k":"why","src":"안 + 갈 거예요.","tgt":"안 + 갈 거예요.","pre":1}
-{"f":"lessons","id":"sov","k":"title","src":"12 · Word order and 을/를","tgt":""}
-{"f":"lessons","id":"sov","k":"blurb","src":"Subject · Object · Verb, the object marker 을/를, and when it drops.","tgt":""}
-{"f":"sentences","id":"ko.s0109","k":"gloss","src":"I (topic) rice (object) eat","tgt":""}
-{"f":"sentences","id":"ko.s0110","k":"gloss","src":"Friend (subject) coffee (object) drinks","tgt":""}
-{"f":"sentences","id":"ko.s0111","k":"gloss","src":"(I) read / look at a book","tgt":""}
-{"f":"sentences","id":"ko.s0112","k":"gloss","src":"(I) drink coffee","tgt":""}
-{"f":"sentences","id":"ko.s0113","k":"gloss","src":"(I) study Korean","tgt":""}
-{"f":"sentences","id":"ko.s0114","k":"gloss","src":"(Did you) eat?","tgt":""}
-{"f":"sentences","id":"ko.s0115","k":"gloss","src":"Yes, (I) ate","tgt":""}
-{"f":"sentences","id":"ko.s0116","k":"gloss","src":"(I) drink coffee — 를 dropped","tgt":""}
-{"f":"sentences","id":"ko.s0117","k":"gloss","src":"(I'm) going. / (Are you) going?","tgt":""}
-{"f":"sentences","id":"ko.s0118","k":"gloss","src":"Where (are you) going?","tgt":""}
-{"f":"sentences","id":"ko.s0119","k":"gloss","src":"What (are you) eating?","tgt":""}
-{"f":"checks","id":"sov.k1","k":"q","src":"Korean word order is:","tgt":""}
-{"f":"checks","id":"sov.k1","k":"o[0]","src":"Subject · Object · Verb","tgt":""}
-{"f":"checks","id":"sov.k1","k":"o[1]","src":"Subject · Verb · Object","tgt":""}
-{"f":"checks","id":"sov.k1","k":"o[2]","src":"Verb · Subject · Object","tgt":""}
-{"f":"checks","id":"sov.k1","k":"o[3]","src":"Object · Verb · Subject","tgt":""}
-{"f":"checks","id":"sov.k1","k":"why","src":"The verb always closes the sentence.","tgt":""}
-{"f":"checks","id":"sov.k2","k":"q","src":"'I study Korean' =","tgt":""}
-{"f":"checks","id":"sov.k2","k":"why","src":"한국어 ends in a vowel → 를; verb last.","tgt":""}
-{"f":"checks","id":"sov.k3","k":"q","src":"'The bag is big' =","tgt":""}
-{"f":"checks","id":"sov.k3","k":"why","src":"Describing verbs take 이/가, not 을/를.","tgt":""}
-{"f":"practice","id":"sov.01","k":"q","src":"'I eat rice' =","tgt":""}
-{"f":"practice","id":"sov.01","k":"why","src":"Object + 을, verb last.","tgt":""}
-{"f":"practice","id":"sov.02","k":"q","src":"Object marker after 커피:","tgt":""}
-{"f":"practice","id":"sov.02","k":"why","src":"커피 ends in a vowel → 를.","tgt":""}
-{"f":"practice","id":"sov.03","k":"q","src":"Object marker after 책:","tgt":""}
-{"f":"practice","id":"sov.03","k":"why","src":"책 ends in a consonant → 을.","tgt":""}
-{"f":"practice","id":"sov.04","k":"q","src":"'The weather is good' =","tgt":""}
-{"f":"practice","id":"sov.04","k":"why","src":"Describing verbs take 이/가, not 을/를.","tgt":""}
-{"f":"practice","id":"sov.05","k":"q","src":"'Where are you going?' =","tgt":""}
-{"f":"practice","id":"sov.05","k":"why","src":"어디 = where; it sits where the answer would go.","tgt":""}
-{"f":"practice","id":"sov.06","k":"p","src":"I drink coffee","tgt":""}
-{"f":"practice","id":"sov.06","k":"why","src":"Object + 를, verb last.","tgt":""}
-{"f":"practice","id":"sov.07","k":"p","src":"I study Korean","tgt":""}
-{"f":"practice","id":"sov.07","k":"why","src":"한국어 is the object → 를.","tgt":""}
-{"f":"practice","id":"sov.08","k":"p","src":"My friend is looking at a book","tgt":""}
-{"f":"practice","id":"sov.08","k":"why","src":"Subject, object, verb.","tgt":""}
-{"f":"practice","id":"sov.09","k":"p","src":"(I) eat rice","tgt":""}
-{"f":"practice","id":"sov.09","k":"why","src":"밥 ends in a consonant → 을.","tgt":""}
-{"f":"practice","id":"sov.10","k":"p","src":"(I) drink coffee","tgt":""}
-{"f":"practice","id":"sov.10","k":"why","src":"커피 ends in a vowel → 를.","tgt":""}
-{"f":"practice","id":"sov.11","k":"p","src":"The bag is big","tgt":""}
-{"f":"practice","id":"sov.11","k":"why","src":"Describing verb → 이/가; 가방 ends in a consonant → 이.","tgt":""}
-{"f":"practice","id":"sov.12","k":"p","src":"I eat rice","tgt":""}
-{"f":"practice","id":"sov.12","k":"why","src":"Object + 을, verb last.","tgt":""}
-{"f":"practice","id":"sov.13","k":"p","src":"I study Korean","tgt":""}
-{"f":"practice","id":"sov.13","k":"why","src":"Object + 를, verb last.","tgt":""}
-{"f":"practice","id":"sov.14","k":"p","src":"What are you eating?","tgt":""}
-{"f":"practice","id":"sov.14","k":"why","src":"Question word where the answer goes, rising tone.","tgt":""}
-{"f":"lessons","id":"particles","k":"title","src":"13 · 에 and 에서, plus the particle map","tgt":""}
-{"f":"lessons","id":"particles","k":"blurb","src":"에 for where you go, where things are and when; 에서 for where you do things and where you come from.","tgt":""}
-{"f":"sentences","id":"ko.s0120","k":"gloss","src":"(I'm) going home","tgt":""}
-{"f":"sentences","id":"ko.s0121","k":"gloss","src":"(I) go to school","tgt":""}
-{"f":"sentences","id":"ko.s0122","k":"gloss","src":"My friend is coming to the café","tgt":""}
-{"f":"sentences","id":"ko.s0123","k":"gloss","src":"(I) go to school on the weekend","tgt":""}
-{"f":"sentences","id":"ko.s0124","k":"gloss","src":"(I) drink coffee in the morning","tgt":""}
-{"f":"sentences","id":"ko.s0125","k":"gloss","src":"(I) rest at home","tgt":""}
-{"f":"sentences","id":"ko.s0126","k":"gloss","src":"(I) study at a café","tgt":""}
-{"f":"sentences","id":"ko.s0127","k":"gloss","src":"(I) came from the US","tgt":""}
-{"f":"sentences","id":"ko.s0128","k":"gloss","src":"As for me, I'm a student","tgt":""}
-{"f":"sentences","id":"ko.s0129","k":"gloss","src":"Who came? My friend came (new info → 가)","tgt":""}
-{"f":"checks","id":"particles.k1","k":"q","src":"'I'm going home' =","tgt":""}
-{"f":"checks","id":"particles.k1","k":"why","src":"Destination with 가요 → 에.","tgt":""}
-{"f":"checks","id":"particles.k2","k":"q","src":"'I study at a café' =","tgt":""}
-{"f":"checks","id":"particles.k2","k":"why","src":"Where an action happens → 에서.","tgt":""}
-{"f":"checks","id":"particles.k3","k":"q","src":"'The cat is at home' =","tgt":""}
-{"f":"checks","id":"particles.k3","k":"why","src":"있어요 takes 에, not 에서.","tgt":""}
-{"f":"practice","id":"particles.01","k":"q","src":"'I go to school' =","tgt":""}
-{"f":"practice","id":"particles.01","k":"why","src":"Destination with 가요 → 에.","tgt":""}
-{"f":"practice","id":"particles.02","k":"q","src":"'I rest at home' =","tgt":""}
-{"f":"practice","id":"particles.02","k":"why","src":"Where an action happens → 에서.","tgt":""}
-{"f":"practice","id":"particles.03","k":"q","src":"'I came from the US' =","tgt":""}
-{"f":"practice","id":"particles.03","k":"why","src":"에서 = from; 미국에 왔어요 = came to the US.","tgt":""}
-{"f":"practice","id":"particles.04","k":"q","src":"'On the weekend' =","tgt":""}
-{"f":"practice","id":"particles.04","k":"why","src":"Time words take 에.","tgt":""}
-{"f":"practice","id":"particles.05","k":"q","src":"Answering 누가 왔어요? (Who came?): 'My friend came' =","tgt":""}
-{"f":"practice","id":"particles.05","k":"why","src":"The answer to 'who?' is new info → 이/가.","tgt":""}
-{"f":"practice","id":"particles.06","k":"p","src":"I study at a café","tgt":""}
-{"f":"practice","id":"particles.06","k":"why","src":"Action location → 에서.","tgt":""}
-{"f":"practice","id":"particles.07","k":"p","src":"I'm going home","tgt":""}
-{"f":"practice","id":"particles.07","k":"why","src":"Destination → 에.","tgt":""}
-{"f":"practice","id":"particles.08","k":"p","src":"I drink coffee in the morning","tgt":""}
-{"f":"practice","id":"particles.08","k":"why","src":"Time → 에; time words usually go first.","tgt":""}
-{"f":"practice","id":"particles.09","k":"p","src":"I study at a café","tgt":""}
-{"f":"practice","id":"particles.09","k":"why","src":"Action location → 에서.","tgt":""}
-{"f":"practice","id":"particles.10","k":"p","src":"I go to school","tgt":""}
-{"f":"practice","id":"particles.10","k":"why","src":"Destination → 에.","tgt":""}
-{"f":"practice","id":"particles.11","k":"p","src":"The cat is at home","tgt":""}
-{"f":"practice","id":"particles.11","k":"why","src":"있어요 takes 에, not 에서.","tgt":""}
-{"f":"practice","id":"particles.12","k":"p","src":"I rest at home","tgt":""}
-{"f":"practice","id":"particles.12","k":"why","src":"Resting is an action → 에서.","tgt":""}
-{"f":"practice","id":"particles.13","k":"p","src":"I go to school on the weekend","tgt":""}
-{"f":"practice","id":"particles.13","k":"why","src":"Time + 에, destination + 에.","tgt":""}
-{"f":"practice","id":"particles.14","k":"p","src":"I study Korean at school","tgt":""}
-{"f":"practice","id":"particles.14","k":"why","src":"Place of action + 에서, object + 를.","tgt":""}
-{"f":"lessons","id":"negation","k":"title","src":"14 · Saying no: 안 and -지 않아요","tgt":""}
-{"f":"lessons","id":"negation","k":"blurb","src":"안 + verb, 공부 안 해요, -지 않아요, 아니에요 for nouns, and 없어요.","tgt":""}
-{"f":"sentences","id":"ko.s0130","k":"gloss","src":"(I'm) not going","tgt":""}
-{"f":"sentences","id":"ko.s0131","k":"gloss","src":"(I) don't drink coffee","tgt":""}
-{"f":"sentences","id":"ko.s0132","k":"gloss","src":"(I) didn't eat","tgt":""}
-{"f":"sentences","id":"ko.s0133","k":"gloss","src":"The weather isn't good","tgt":""}
-{"f":"sentences","id":"ko.s0134","k":"gloss","src":"(I) don't study","tgt":""}
-{"f":"sentences","id":"ko.s0135","k":"gloss","src":"(I) don't exercise on weekends","tgt":""}
-{"f":"sentences","id":"ko.s0136","k":"gloss","src":"(I) don't like coffee","tgt":""}
-{"f":"sentences","id":"ko.s0137","k":"gloss","src":"(I) don't go","tgt":""}
-{"f":"sentences","id":"ko.s0138","k":"gloss","src":"(I) don't eat meat","tgt":""}
-{"f":"sentences","id":"ko.s0139","k":"gloss","src":"(I) didn't study","tgt":""}
-{"f":"sentences","id":"ko.s0140","k":"gloss","src":"I'm not a student","tgt":""}
-{"f":"sentences","id":"ko.s0141","k":"gloss","src":"(She) isn't a doctor","tgt":""}
-{"f":"sentences","id":"ko.s0142","k":"gloss","src":"(I) don't have time","tgt":""}
-{"f":"checks","id":"negation.k1","k":"q","src":"'I don't study' =","tgt":""}
-{"f":"checks","id":"negation.k1","k":"why","src":"With noun + 하다, 안 goes before 해요.","tgt":""}
-{"f":"checks","id":"negation.k2","k":"q","src":"'I'm not a student' =","tgt":""}
-{"f":"checks","id":"negation.k2","k":"why","src":"Nouns are negated with 이/가 아니에요.","tgt":""}
-{"f":"checks","id":"negation.k3","k":"q","src":"'I don't have time' =","tgt":""}
-{"f":"checks","id":"negation.k3","k":"why","src":"The negative of 있어요 is 없어요.","tgt":""}
-{"f":"practice","id":"negation.01","k":"q","src":"'(I) don't drink coffee' =","tgt":""}
-{"f":"practice","id":"negation.01","k":"why","src":"안 goes right before the verb.","tgt":""}
-{"f":"practice","id":"negation.02","k":"q","src":"'(I) don't exercise' =","tgt":""}
-{"f":"practice","id":"negation.02","k":"why","src":"With noun + 하다, 안 goes before 해요.","tgt":""}
-{"f":"practice","id":"negation.03","k":"q","src":"'(She) isn't a doctor' =","tgt":""}
-{"f":"practice","id":"negation.03","k":"why","src":"Nouns take 이/가 아니에요.","tgt":""}
-{"f":"practice","id":"negation.04","k":"q","src":"'I don't have money' =","tgt":""}
-{"f":"practice","id":"negation.04","k":"why","src":"The negative of 있어요 is 없어요.","tgt":""}
-{"f":"practice","id":"negation.05","k":"q","src":"Same meaning as 안 가요:","tgt":""}
-{"f":"practice","id":"negation.05","k":"why","src":"Stem + 지 않아요 = 안 + verb.","tgt":""}
-{"f":"practice","id":"negation.06","k":"p","src":"(I) don't study","tgt":""}
-{"f":"practice","id":"negation.06","k":"why","src":"Noun + 안 + 해요.","tgt":""}
-{"f":"practice","id":"negation.07","k":"p","src":"(I) don't drink coffee","tgt":""}
-{"f":"practice","id":"negation.07","k":"why","src":"Object, 안, verb.","tgt":""}
-{"f":"practice","id":"negation.08","k":"p","src":"I'm not a student","tgt":""}
-{"f":"practice","id":"negation.08","k":"why","src":"Nouns: 이/가 아니에요.","tgt":""}
-{"f":"practice","id":"negation.09","k":"p","src":"(I) don't drink coffee","tgt":""}
-{"f":"practice","id":"negation.09","k":"why","src":"안 directly before the verb.","tgt":""}
-{"f":"practice","id":"negation.10","k":"p","src":"(I) don't eat","tgt":""}
-{"f":"practice","id":"negation.10","k":"why","src":"Stem + 지 않아요.","tgt":""}
-{"f":"practice","id":"negation.11","k":"p","src":"I don't have time","tgt":""}
-{"f":"practice","id":"negation.11","k":"why","src":"Never 안 있어요; use 없어요.","tgt":""}
-{"f":"practice","id":"negation.12","k":"p","src":"(I'm) not going","tgt":""}
-{"f":"practice","id":"negation.12","k":"why","src":"안 + verb.","tgt":""}
-{"f":"practice","id":"negation.13","k":"p","src":"(I) don't study","tgt":""}
-{"f":"practice","id":"negation.13","k":"why","src":"안 sits between 공부 and 해요.","tgt":""}
-{"f":"practice","id":"negation.14","k":"p","src":"I'm not a doctor","tgt":""}
-{"f":"practice","id":"negation.14","k":"why","src":"Nouns: 이/가 아니에요.","tgt":""}
-{"f":"lessons","id":"do-man","k":"title","src":"15 · 도 and 만: also and only","tgt":""}
-{"f":"lessons","id":"do-man","k":"blurb","src":"도 (also, too) and 만 (only) replace 은/는, 이/가, 을/를 but stack after 에 and 에서.","tgt":""}
-{"f":"sentences","id":"ko.s0143","k":"gloss","src":"I'm a student too","tgt":""}
-{"f":"sentences","id":"ko.s0144","k":"gloss","src":"Me too","tgt":""}
-{"f":"sentences","id":"ko.s0145","k":"gloss","src":"(I) have a cat too","tgt":""}
-{"f":"sentences","id":"ko.s0146","k":"gloss","src":"as for me → me too","tgt":""}
-{"f":"sentences","id":"ko.s0147","k":"gloss","src":"My friend came too (친구가 → 친구도)","tgt":""}
-{"f":"sentences","id":"ko.s0148","k":"gloss","src":"(I) ate rice too (밥을 → 밥도)","tgt":""}
-{"f":"sentences","id":"ko.s0149","k":"gloss","src":"(I) only drink coffee","tgt":""}
-{"f":"sentences","id":"ko.s0150","k":"gloss","src":"Just this, please","tgt":""}
-{"f":"sentences","id":"ko.s0151","k":"gloss","src":"Just water, please","tgt":""}
-{"f":"sentences","id":"ko.s0152","k":"gloss","src":"(I) only eat rice","tgt":""}
-{"f":"sentences","id":"ko.s0153","k":"gloss","src":"It's at home too","tgt":""}
-{"f":"sentences","id":"ko.s0154","k":"gloss","src":"(I) study at school too","tgt":""}
-{"f":"sentences","id":"ko.s0155","k":"gloss","src":"(I) only exercise on weekends","tgt":""}
-{"f":"checks","id":"do-man.k1","k":"q","src":"'Me too' =","tgt":""}
-{"f":"checks","id":"do-man.k1","k":"why","src":"도 replaces 은/는 — it never stacks on it.","tgt":""}
-{"f":"checks","id":"do-man.k2","k":"q","src":"'Just water, please' =","tgt":""}
-{"f":"checks","id":"do-man.k2","k":"why","src":"만 = only; it replaces 을/를.","tgt":""}
-{"f":"checks","id":"do-man.k3","k":"q","src":"'I study at school too' =","tgt":""}
-{"f":"checks","id":"do-man.k3","k":"why","src":"에서 stays; 도 goes after it.","tgt":""}
-{"f":"practice","id":"do-man.01","k":"q","src":"'Me too' =","tgt":""}
-{"f":"practice","id":"do-man.01","k":"why","src":"도 replaces 은/는 — it never stacks.","tgt":""}
-{"f":"practice","id":"do-man.02","k":"q","src":"'(I) only drink coffee' =","tgt":""}
-{"f":"practice","id":"do-man.02","k":"why","src":"만 = only; it replaces 을/를.","tgt":""}
-{"f":"practice","id":"do-man.03","k":"q","src":"'(I) have a cat too' =","tgt":""}
-{"f":"practice","id":"do-man.03","k":"why","src":"도 replaces 이/가.","tgt":""}
-{"f":"practice","id":"do-man.04","k":"q","src":"'It's at home too' =","tgt":""}
-{"f":"practice","id":"do-man.04","k":"why","src":"에 stays; 도 goes after it. 집도 있어요 = I have a house too.","tgt":""}
-{"f":"practice","id":"do-man.05","k":"q","src":"'(I) only exercise on weekends' =","tgt":""}
-{"f":"practice","id":"do-man.05","k":"why","src":"에 + 만, in that order.","tgt":""}
-{"f":"practice","id":"do-man.06","k":"p","src":"Just water, please","tgt":""}
-{"f":"practice","id":"do-man.06","k":"why","src":"만 = only.","tgt":""}
-{"f":"practice","id":"do-man.07","k":"p","src":"My friend came too","tgt":""}
-{"f":"practice","id":"do-man.07","k":"why","src":"도 replaces 가.","tgt":""}
-{"f":"practice","id":"do-man.08","k":"p","src":"(I) study at school too","tgt":""}
-{"f":"practice","id":"do-man.08","k":"why","src":"에서 stays; 도 goes after it.","tgt":""}
-{"f":"practice","id":"do-man.09","k":"p","src":"I'm a student too","tgt":""}
-{"f":"practice","id":"do-man.09","k":"why","src":"'Too' → 도, replacing 는.","tgt":""}
-{"f":"practice","id":"do-man.10","k":"p","src":"(I) only drink coffee","tgt":""}
-{"f":"practice","id":"do-man.10","k":"why","src":"'Only' → 만, replacing 를.","tgt":""}
-{"f":"practice","id":"do-man.11","k":"p","src":"It's at home too","tgt":""}
-{"f":"practice","id":"do-man.11","k":"why","src":"에 + 도 = at home too.","tgt":""}
-{"f":"practice","id":"do-man.12","k":"p","src":"I'm a student too","tgt":""}
+{"f":"lessons","id":"sov","k":"title","src":"12 · Word order and 을/를","tgt":"12 · ลำดับคำและ 을/를"}
+{"f":"lessons","id":"sov","k":"blurb","src":"Subject · Object · Verb, the object marker 을/를, and when it drops.","tgt":"ประธาน · กรรม · กริยา คำช่วยบอกกรรม 을/를 และเมื่อไหร่ที่ละได้"}
+{"f":"sentences","id":"ko.s0109","k":"gloss","src":"I (topic) rice (object) eat","tgt":"ฉัน (หัวเรื่อง) ข้าว (กรรม) กินครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0110","k":"gloss","src":"Friend (subject) coffee (object) drinks","tgt":"เพื่อน (ประธาน) กาแฟ (กรรม) ดื่มครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0111","k":"gloss","src":"(I) read / look at a book","tgt":"อ่านหนังสือครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0112","k":"gloss","src":"(I) drink coffee","tgt":"ดื่มกาแฟครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0113","k":"gloss","src":"(I) study Korean","tgt":"เรียนภาษาเกาหลีครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0114","k":"gloss","src":"(Did you) eat?","tgt":"กินข้าวหรือยังครับ/คะ"}
+{"f":"sentences","id":"ko.s0115","k":"gloss","src":"Yes, (I) ate","tgt":"กินแล้วครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0116","k":"gloss","src":"(I) drink coffee — 를 dropped","tgt":"ดื่มกาแฟครับ/ค่ะ — ละ 를"}
+{"f":"sentences","id":"ko.s0117","k":"gloss","src":"(I'm) going. / (Are you) going?","tgt":"ไปครับ/ค่ะ / ไปไหมครับ/คะ"}
+{"f":"sentences","id":"ko.s0118","k":"gloss","src":"Where (are you) going?","tgt":"ไปไหนครับ/คะ"}
+{"f":"sentences","id":"ko.s0119","k":"gloss","src":"What (are you) eating?","tgt":"กินอะไรครับ/คะ"}
+{"f":"checks","id":"sov.k1","k":"q","src":"Korean word order is:","tgt":"ลำดับคำในภาษาเกาหลีคือ"}
+{"f":"checks","id":"sov.k1","k":"o[0]","src":"Subject · Object · Verb","tgt":"ประธาน · กรรม · กริยา"}
+{"f":"checks","id":"sov.k1","k":"o[1]","src":"Subject · Verb · Object","tgt":"ประธาน · กริยา · กรรม"}
+{"f":"checks","id":"sov.k1","k":"o[2]","src":"Verb · Subject · Object","tgt":"กริยา · ประธาน · กรรม"}
+{"f":"checks","id":"sov.k1","k":"o[3]","src":"Object · Verb · Subject","tgt":"กรรม · กริยา · ประธาน"}
+{"f":"checks","id":"sov.k1","k":"why","src":"The verb always closes the sentence.","tgt":"กริยาปิดท้ายประโยคเสมอ ต่างจากภาษาไทยที่กริยามาก่อนกรรม"}
+{"f":"checks","id":"sov.k2","k":"q","src":"'I study Korean' =","tgt":"“เรียนภาษาเกาหลีครับ/ค่ะ” ="}
+{"f":"checks","id":"sov.k2","k":"why","src":"한국어 ends in a vowel → 를; verb last.","tgt":"한국어 ไม่มีตัวสะกด → 를 และกริยาอยู่ท้าย"}
+{"f":"checks","id":"sov.k3","k":"q","src":"'The bag is big' =","tgt":"“กระเป๋าใหญ่ครับ/ค่ะ” ="}
+{"f":"checks","id":"sov.k3","k":"why","src":"Describing verbs take 이/가, not 을/를.","tgt":"กริยาบอกลักษณะใช้ 이/가 ไม่ใช่ 을/를"}
+{"f":"practice","id":"sov.01","k":"q","src":"'I eat rice' =","tgt":"“ฉันกินข้าวครับ/ค่ะ” ="}
+{"f":"practice","id":"sov.01","k":"why","src":"Object + 을, verb last.","tgt":"กรรม + 을 และกริยาอยู่ท้าย"}
+{"f":"practice","id":"sov.02","k":"q","src":"Object marker after 커피:","tgt":"คำช่วยบอกกรรมที่ตามหลัง 커피 ="}
+{"f":"practice","id":"sov.02","k":"why","src":"커피 ends in a vowel → 를.","tgt":"커피 ไม่มีตัวสะกด → 를"}
+{"f":"practice","id":"sov.03","k":"q","src":"Object marker after 책:","tgt":"คำช่วยบอกกรรมที่ตามหลัง 책 ="}
+{"f":"practice","id":"sov.03","k":"why","src":"책 ends in a consonant → 을.","tgt":"책 มีตัวสะกด → 을"}
+{"f":"practice","id":"sov.04","k":"q","src":"'The weather is good' =","tgt":"“อากาศดีครับ/ค่ะ” ="}
+{"f":"practice","id":"sov.04","k":"why","src":"Describing verbs take 이/가, not 을/를.","tgt":"กริยาบอกลักษณะใช้ 이/가 ไม่ใช่ 을/를"}
+{"f":"practice","id":"sov.05","k":"q","src":"'Where are you going?' =","tgt":"“ไปไหนครับ/คะ” ="}
+{"f":"practice","id":"sov.05","k":"why","src":"어디 = where; it sits where the answer would go.","tgt":"어디 = ที่ไหน และอยู่ตรงที่คำตอบจะอยู่ เหมือน ไปไหน ในภาษาไทย"}
+{"f":"practice","id":"sov.06","k":"p","src":"I drink coffee","tgt":"ฉันดื่มกาแฟครับ/ค่ะ"}
+{"f":"practice","id":"sov.06","k":"why","src":"Object + 를, verb last.","tgt":"กรรม + 를 และกริยาอยู่ท้าย"}
+{"f":"practice","id":"sov.07","k":"p","src":"I study Korean","tgt":"เรียนภาษาเกาหลีครับ/ค่ะ"}
+{"f":"practice","id":"sov.07","k":"why","src":"한국어 is the object → 를.","tgt":"한국어 เป็นกรรม → 를"}
+{"f":"practice","id":"sov.08","k":"p","src":"My friend is looking at a book","tgt":"เพื่อนอ่านหนังสืออยู่ครับ/ค่ะ"}
+{"f":"practice","id":"sov.08","k":"why","src":"Subject, object, verb.","tgt":"ประธาน กรรม แล้วจึงกริยา"}
+{"f":"practice","id":"sov.09","k":"p","src":"(I) eat rice","tgt":"กินข้าวครับ/ค่ะ"}
+{"f":"practice","id":"sov.09","k":"why","src":"밥 ends in a consonant → 을.","tgt":"밥 มีตัวสะกด → 을"}
+{"f":"practice","id":"sov.10","k":"p","src":"(I) drink coffee","tgt":"ดื่มกาแฟครับ/ค่ะ"}
+{"f":"practice","id":"sov.10","k":"why","src":"커피 ends in a vowel → 를.","tgt":"커피 ไม่มีตัวสะกด → 를"}
+{"f":"practice","id":"sov.11","k":"p","src":"The bag is big","tgt":"กระเป๋าใหญ่ครับ/ค่ะ"}
+{"f":"practice","id":"sov.11","k":"why","src":"Describing verb → 이/가; 가방 ends in a consonant → 이.","tgt":"กริยาบอกลักษณะ → 이/가 · 가방 มีตัวสะกด → 이"}
+{"f":"practice","id":"sov.12","k":"p","src":"I eat rice","tgt":"กินข้าวครับ/ค่ะ"}
+{"f":"practice","id":"sov.12","k":"why","src":"Object + 을, verb last.","tgt":"กรรม + 을 และกริยาอยู่ท้าย"}
+{"f":"practice","id":"sov.13","k":"p","src":"I study Korean","tgt":"เรียนภาษาเกาหลีครับ/ค่ะ"}
+{"f":"practice","id":"sov.13","k":"why","src":"Object + 를, verb last.","tgt":"กรรม + 를 และกริยาอยู่ท้าย"}
+{"f":"practice","id":"sov.14","k":"p","src":"What are you eating?","tgt":"กินอะไรครับ/คะ"}
+{"f":"practice","id":"sov.14","k":"why","src":"Question word where the answer goes, rising tone.","tgt":"คำแสดงคำถามอยู่ตรงที่คำตอบจะอยู่ แล้วขึ้นเสียงท้ายประโยค"}
+{"f":"lessons","id":"particles","k":"title","src":"13 · 에 and 에서, plus the particle map","tgt":"13 · 에 และ 에서 พร้อมแผนที่คำช่วย"}
+{"f":"lessons","id":"particles","k":"blurb","src":"에 for where you go, where things are and when; 에서 for where you do things and where you come from.","tgt":"에 ใช้กับที่ที่ไป ที่ที่สิ่งของอยู่ และเวลา ส่วน 에서 ใช้กับที่ที่ทำกิจกรรมและที่ที่มาจาก"}
+{"f":"sentences","id":"ko.s0120","k":"gloss","src":"(I'm) going home","tgt":"กลับบ้านครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0121","k":"gloss","src":"(I) go to school","tgt":"ไปโรงเรียนครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0122","k":"gloss","src":"My friend is coming to the café","tgt":"เพื่อนกำลังมาที่คาเฟ่ครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0123","k":"gloss","src":"(I) go to school on the weekend","tgt":"วันหยุดสุดสัปดาห์ไปโรงเรียนครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0124","k":"gloss","src":"(I) drink coffee in the morning","tgt":"ตอนเช้าดื่มกาแฟครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0125","k":"gloss","src":"(I) rest at home","tgt":"พักผ่อนที่บ้านครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0126","k":"gloss","src":"(I) study at a café","tgt":"เรียนหนังสือที่คาเฟ่ครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0127","k":"gloss","src":"(I) came from the US","tgt":"มาจากอเมริกาครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0128","k":"gloss","src":"As for me, I'm a student","tgt":"ส่วนฉัน เป็นนักเรียนครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0129","k":"gloss","src":"Who came? My friend came (new info → 가)","tgt":"ใครมา — เพื่อนมาครับ/ค่ะ (ข้อมูลใหม่ → 가)"}
+{"f":"checks","id":"particles.k1","k":"q","src":"'I'm going home' =","tgt":"“กลับบ้านครับ/ค่ะ” ="}
+{"f":"checks","id":"particles.k1","k":"why","src":"Destination with 가요 → 에.","tgt":"จุดหมายกับ 가요 → 에"}
+{"f":"checks","id":"particles.k2","k":"q","src":"'I study at a café' =","tgt":"“เรียนหนังสือที่คาเฟ่ครับ/ค่ะ” ="}
+{"f":"checks","id":"particles.k2","k":"why","src":"Where an action happens → 에서.","tgt":"ที่ที่ทำกิจกรรม → 에서"}
+{"f":"checks","id":"particles.k3","k":"q","src":"'The cat is at home' =","tgt":"“แมวอยู่ที่บ้านครับ/ค่ะ” ="}
+{"f":"checks","id":"particles.k3","k":"why","src":"있어요 takes 에, not 에서.","tgt":"있어요 ใช้ 에 ไม่ใช่ 에서 แม้ภาษาไทยจะใช้ ที่ เหมือนกัน"}
+{"f":"practice","id":"particles.01","k":"q","src":"'I go to school' =","tgt":"“ไปโรงเรียนครับ/ค่ะ” ="}
+{"f":"practice","id":"particles.01","k":"why","src":"Destination with 가요 → 에.","tgt":"จุดหมายกับ 가요 → 에 ภาษาไทยไม่มีคำบุพบทหลัง ไป แต่ภาษาเกาหลีต้องใส่"}
+{"f":"practice","id":"particles.02","k":"q","src":"'I rest at home' =","tgt":"“พักผ่อนที่บ้านครับ/ค่ะ” ="}
+{"f":"practice","id":"particles.02","k":"why","src":"Where an action happens → 에서.","tgt":"ที่ที่ทำกิจกรรม → 에서"}
+{"f":"practice","id":"particles.03","k":"q","src":"'I came from the US' =","tgt":"“มาจากอเมริกาครับ/ค่ะ” ="}
+{"f":"practice","id":"particles.03","k":"why","src":"에서 = from; 미국에 왔어요 = came to the US.","tgt":"에서 = จาก ส่วน 미국에 왔어요 = “มาอเมริกาครับ/ค่ะ”"}
+{"f":"practice","id":"particles.04","k":"q","src":"'On the weekend' =","tgt":"“ช่วงสุดสัปดาห์” ="}
+{"f":"practice","id":"particles.04","k":"why","src":"Time words take 에.","tgt":"คำบอกเวลาใช้ 에"}
+{"f":"practice","id":"particles.05","k":"q","src":"Answering 누가 왔어요? (Who came?): 'My friend came' =","tgt":"ตอบคำถาม 누가 왔어요? (ใครมาครับ/คะ): “เพื่อนมาครับ/ค่ะ” ="}
+{"f":"practice","id":"particles.05","k":"why","src":"The answer to 'who?' is new info → 이/가.","tgt":"คำตอบของคำถาม “ใคร” เป็นข้อมูลใหม่ → 이/가"}
+{"f":"practice","id":"particles.06","k":"p","src":"I study at a café","tgt":"เรียนหนังสือที่คาเฟ่ครับ/ค่ะ"}
+{"f":"practice","id":"particles.06","k":"why","src":"Action location → 에서.","tgt":"ที่ที่ทำกิจกรรม → 에서"}
+{"f":"practice","id":"particles.07","k":"p","src":"I'm going home","tgt":"กลับบ้านครับ/ค่ะ"}
+{"f":"practice","id":"particles.07","k":"why","src":"Destination → 에.","tgt":"จุดหมาย → 에"}
+{"f":"practice","id":"particles.08","k":"p","src":"I drink coffee in the morning","tgt":"ตอนเช้าดื่มกาแฟครับ/ค่ะ"}
+{"f":"practice","id":"particles.08","k":"why","src":"Time → 에; time words usually go first.","tgt":"เวลา → 에 และคำบอกเวลามักอยู่ต้นประโยค"}
+{"f":"practice","id":"particles.09","k":"p","src":"I study at a café","tgt":"เรียนหนังสือที่คาเฟ่ครับ/ค่ะ"}
+{"f":"practice","id":"particles.09","k":"why","src":"Action location → 에서.","tgt":"ที่ที่ทำกิจกรรม → 에서"}
+{"f":"practice","id":"particles.10","k":"p","src":"I go to school","tgt":"ไปโรงเรียนครับ/ค่ะ"}
+{"f":"practice","id":"particles.10","k":"why","src":"Destination → 에.","tgt":"จุดหมาย → 에"}
+{"f":"practice","id":"particles.11","k":"p","src":"The cat is at home","tgt":"แมวอยู่ที่บ้านครับ/ค่ะ"}
+{"f":"practice","id":"particles.11","k":"why","src":"있어요 takes 에, not 에서.","tgt":"있어요 ใช้ 에 ไม่ใช่ 에서"}
+{"f":"practice","id":"particles.12","k":"p","src":"I rest at home","tgt":"พักผ่อนที่บ้านครับ/ค่ะ"}
+{"f":"practice","id":"particles.12","k":"why","src":"Resting is an action → 에서.","tgt":"การพักผ่อนเป็นการกระทำ → 에서"}
+{"f":"practice","id":"particles.13","k":"p","src":"I go to school on the weekend","tgt":"วันหยุดสุดสัปดาห์ไปโรงเรียนครับ/ค่ะ"}
+{"f":"practice","id":"particles.13","k":"why","src":"Time + 에, destination + 에.","tgt":"เวลา + 에 และจุดหมาย + 에"}
+{"f":"practice","id":"particles.14","k":"p","src":"I study Korean at school","tgt":"เรียนภาษาเกาหลีที่โรงเรียนครับ/ค่ะ"}
+{"f":"practice","id":"particles.14","k":"why","src":"Place of action + 에서, object + 를.","tgt":"ที่ที่ทำกิจกรรม + 에서 และกรรม + 를"}
+{"f":"lessons","id":"negation","k":"title","src":"14 · Saying no: 안 and -지 않아요","tgt":"14 · การปฏิเสธ: 안 และ -지 않아요"}
+{"f":"lessons","id":"negation","k":"blurb","src":"안 + verb, 공부 안 해요, -지 않아요, 아니에요 for nouns, and 없어요.","tgt":"안 + กริยา 공부 안 해요 -지 않아요 อีกทั้ง 아니에요 สำหรับคำนาม และ 없어요"}
+{"f":"sentences","id":"ko.s0130","k":"gloss","src":"(I'm) not going","tgt":"ไม่ไปครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0131","k":"gloss","src":"(I) don't drink coffee","tgt":"ไม่ดื่มกาแฟครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0132","k":"gloss","src":"(I) didn't eat","tgt":"ไม่ได้กินครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0133","k":"gloss","src":"The weather isn't good","tgt":"อากาศไม่ดีครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0134","k":"gloss","src":"(I) don't study","tgt":"ไม่เรียนหนังสือครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0135","k":"gloss","src":"(I) don't exercise on weekends","tgt":"วันหยุดสุดสัปดาห์ไม่ออกกำลังกายครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0136","k":"gloss","src":"(I) don't like coffee","tgt":"ไม่ชอบกาแฟครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0137","k":"gloss","src":"(I) don't go","tgt":"ไม่ไปครับ/ค่ะ (รูปที่ยาวกว่า)"}
+{"f":"sentences","id":"ko.s0138","k":"gloss","src":"(I) don't eat meat","tgt":"ไม่กินเนื้อสัตว์ครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0139","k":"gloss","src":"(I) didn't study","tgt":"ไม่ได้เรียนหนังสือครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0140","k":"gloss","src":"I'm not a student","tgt":"ฉันไม่ใช่นักเรียนครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0141","k":"gloss","src":"(She) isn't a doctor","tgt":"(เขา)ไม่ใช่หมอครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0142","k":"gloss","src":"(I) don't have time","tgt":"ไม่มีเวลาครับ/ค่ะ"}
+{"f":"checks","id":"negation.k1","k":"q","src":"'I don't study' =","tgt":"“ไม่เรียนหนังสือครับ/ค่ะ” ="}
+{"f":"checks","id":"negation.k1","k":"why","src":"With noun + 하다, 안 goes before 해요.","tgt":"กับคำนาม + 하다 ให้วาง 안 ไว้หน้า 해요"}
+{"f":"checks","id":"negation.k2","k":"q","src":"'I'm not a student' =","tgt":"“ไม่ใช่นักเรียนครับ/ค่ะ” ="}
+{"f":"checks","id":"negation.k2","k":"why","src":"Nouns are negated with 이/가 아니에요.","tgt":"ไม่ใช่ + คำนาม = 이/가 아니에요"}
+{"f":"checks","id":"negation.k3","k":"q","src":"'I don't have time' =","tgt":"“ไม่มีเวลาครับ/ค่ะ” ="}
+{"f":"checks","id":"negation.k3","k":"why","src":"The negative of 있어요 is 없어요.","tgt":"รูปปฏิเสธของ 있어요 คือ 없어요"}
+{"f":"practice","id":"negation.01","k":"q","src":"'(I) don't drink coffee' =","tgt":"“ไม่ดื่มกาแฟครับ/ค่ะ” ="}
+{"f":"practice","id":"negation.01","k":"why","src":"안 goes right before the verb.","tgt":"안 วางชิดหน้าคำกริยา"}
+{"f":"practice","id":"negation.02","k":"q","src":"'(I) don't exercise' =","tgt":"“ไม่ออกกำลังกายครับ/ค่ะ” ="}
+{"f":"practice","id":"negation.02","k":"why","src":"With noun + 하다, 안 goes before 해요.","tgt":"กับคำนาม + 하다 ให้วาง 안 ไว้หน้า 해요"}
+{"f":"practice","id":"negation.03","k":"q","src":"'(She) isn't a doctor' =","tgt":"“(เขา)ไม่ใช่หมอครับ/ค่ะ” ="}
+{"f":"practice","id":"negation.03","k":"why","src":"Nouns take 이/가 아니에요.","tgt":"คำนามใช้ 이/가 아니에요"}
+{"f":"practice","id":"negation.04","k":"q","src":"'I don't have money' =","tgt":"“ไม่มีเงินครับ/ค่ะ” ="}
+{"f":"practice","id":"negation.04","k":"why","src":"The negative of 있어요 is 없어요.","tgt":"รูปปฏิเสธของ 있어요 คือ 없어요"}
+{"f":"practice","id":"negation.05","k":"q","src":"Same meaning as 안 가요:","tgt":"ความหมายเดียวกับ 안 가요 ="}
+{"f":"practice","id":"negation.05","k":"why","src":"Stem + 지 않아요 = 안 + verb.","tgt":"ก้านกริยา + 지 않아요 = 안 + กริยา"}
+{"f":"practice","id":"negation.06","k":"p","src":"(I) don't study","tgt":"ไม่เรียนหนังสือครับ/ค่ะ"}
+{"f":"practice","id":"negation.06","k":"why","src":"Noun + 안 + 해요.","tgt":"คำนาม + 안 + 해요"}
+{"f":"practice","id":"negation.07","k":"p","src":"(I) don't drink coffee","tgt":"ไม่ดื่มกาแฟครับ/ค่ะ"}
+{"f":"practice","id":"negation.07","k":"why","src":"Object, 안, verb.","tgt":"กรรม แล้ว 안 แล้วจึงกริยา"}
+{"f":"practice","id":"negation.08","k":"p","src":"I'm not a student","tgt":"ฉันไม่ใช่นักเรียนครับ/ค่ะ"}
+{"f":"practice","id":"negation.08","k":"why","src":"Nouns: 이/가 아니에요.","tgt":"คำนาม: 이/가 아니에요"}
+{"f":"practice","id":"negation.09","k":"p","src":"(I) don't drink coffee","tgt":"ไม่ดื่มกาแฟครับ/ค่ะ"}
+{"f":"practice","id":"negation.09","k":"why","src":"안 directly before the verb.","tgt":"안 วางชิดหน้าคำกริยา"}
+{"f":"practice","id":"negation.10","k":"p","src":"(I) don't eat","tgt":"ไม่กินครับ/ค่ะ"}
+{"f":"practice","id":"negation.10","k":"why","src":"Stem + 지 않아요.","tgt":"ก้านกริยา + 지 않아요"}
+{"f":"practice","id":"negation.11","k":"p","src":"I don't have time","tgt":"ไม่มีเวลาครับ/ค่ะ"}
+{"f":"practice","id":"negation.11","k":"why","src":"Never 안 있어요; use 없어요.","tgt":"ไม่ใช้ 안 있어요 ให้ใช้ 없어요"}
+{"f":"practice","id":"negation.12","k":"p","src":"(I'm) not going","tgt":"ไม่ไปครับ/ค่ะ"}
+{"f":"practice","id":"negation.12","k":"why","src":"안 + verb.","tgt":"안 + กริยา"}
+{"f":"practice","id":"negation.13","k":"p","src":"(I) don't study","tgt":"ไม่เรียนหนังสือครับ/ค่ะ"}
+{"f":"practice","id":"negation.13","k":"why","src":"안 sits between 공부 and 해요.","tgt":"안 อยู่ระหว่าง 공부 กับ 해요"}
+{"f":"practice","id":"negation.14","k":"p","src":"I'm not a doctor","tgt":"ฉันไม่ใช่หมอครับ/ค่ะ"}
+{"f":"practice","id":"negation.14","k":"why","src":"Nouns: 이/가 아니에요.","tgt":"คำนาม: 이/가 아니에요"}
+{"f":"lessons","id":"do-man","k":"title","src":"15 · 도 and 만: also and only","tgt":"15 · 도 และ 만: ด้วยและเท่านั้น"}
+{"f":"lessons","id":"do-man","k":"blurb","src":"도 (also, too) and 만 (only) replace 은/는, 이/가, 을/를 but stack after 에 and 에서.","tgt":"도 (ด้วย / ก็…เหมือนกัน) และ 만 (เท่านั้น) ใช้แทน 은/는 이/가 을/를 แต่ต่อท้าย 에 และ 에서"}
+{"f":"sentences","id":"ko.s0143","k":"gloss","src":"I'm a student too","tgt":"ฉันก็เป็นนักเรียนเหมือนกันครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0144","k":"gloss","src":"Me too","tgt":"ฉันด้วยครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0145","k":"gloss","src":"(I) have a cat too","tgt":"มีแมวด้วยครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0146","k":"gloss","src":"as for me → me too","tgt":"ส่วนฉัน → ฉันด้วย"}
+{"f":"sentences","id":"ko.s0147","k":"gloss","src":"My friend came too (친구가 → 친구도)","tgt":"เพื่อนก็มาด้วยครับ/ค่ะ (친구가 → 친구도)"}
+{"f":"sentences","id":"ko.s0148","k":"gloss","src":"(I) ate rice too (밥을 → 밥도)","tgt":"ข้าวก็กินแล้วครับ/ค่ะ (밥을 → 밥도)"}
+{"f":"sentences","id":"ko.s0149","k":"gloss","src":"(I) only drink coffee","tgt":"ดื่มกาแฟเท่านั้นครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0150","k":"gloss","src":"Just this, please","tgt":"ขอแค่อันนี้ครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0151","k":"gloss","src":"Just water, please","tgt":"ขอแค่น้ำเปล่าครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0152","k":"gloss","src":"(I) only eat rice","tgt":"กินข้าวเท่านั้นครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0153","k":"gloss","src":"It's at home too","tgt":"ที่บ้านก็มีครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0154","k":"gloss","src":"(I) study at school too","tgt":"เรียนหนังสือที่โรงเรียนด้วยครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0155","k":"gloss","src":"(I) only exercise on weekends","tgt":"ออกกำลังกายเฉพาะวันหยุดสุดสัปดาห์ครับ/ค่ะ"}
+{"f":"checks","id":"do-man.k1","k":"q","src":"'Me too' =","tgt":"“ฉันด้วยครับ/ค่ะ” ="}
+{"f":"checks","id":"do-man.k1","k":"why","src":"도 replaces 은/는 — it never stacks on it.","tgt":"도 ใช้แทน 은/는 ไม่ซ้อนกัน"}
+{"f":"checks","id":"do-man.k2","k":"q","src":"'Just water, please' =","tgt":"“ขอแค่น้ำเปล่าครับ/ค่ะ” ="}
+{"f":"checks","id":"do-man.k2","k":"why","src":"만 = only; it replaces 을/를.","tgt":"만 = เท่านั้น และใช้แทน 을/를"}
+{"f":"checks","id":"do-man.k3","k":"q","src":"'I study at school too' =","tgt":"“เรียนหนังสือที่โรงเรียนด้วยครับ/ค่ะ” ="}
+{"f":"checks","id":"do-man.k3","k":"why","src":"에서 stays; 도 goes after it.","tgt":"에서 ยังอยู่ แล้ว 도 ต่อท้าย"}
+{"f":"practice","id":"do-man.01","k":"q","src":"'Me too' =","tgt":"“ฉันด้วยครับ/ค่ะ” ="}
+{"f":"practice","id":"do-man.01","k":"why","src":"도 replaces 은/는 — it never stacks.","tgt":"도 ใช้แทน 은/는 ไม่ซ้อนกัน"}
+{"f":"practice","id":"do-man.02","k":"q","src":"'(I) only drink coffee' =","tgt":"“ดื่มกาแฟเท่านั้นครับ/ค่ะ” ="}
+{"f":"practice","id":"do-man.02","k":"why","src":"만 = only; it replaces 을/를.","tgt":"만 = เท่านั้น และใช้แทน 을/를"}
+{"f":"practice","id":"do-man.03","k":"q","src":"'(I) have a cat too' =","tgt":"“มีแมวด้วยครับ/ค่ะ” ="}
+{"f":"practice","id":"do-man.03","k":"why","src":"도 replaces 이/가.","tgt":"도 ใช้แทน 이/가"}
+{"f":"practice","id":"do-man.04","k":"q","src":"'It's at home too' =","tgt":"“ที่บ้านก็มีครับ/ค่ะ” ="}
+{"f":"practice","id":"do-man.04","k":"why","src":"에 stays; 도 goes after it. 집도 있어요 = I have a house too.","tgt":"에 ยังอยู่ แล้ว 도 ต่อท้าย ส่วน 집도 있어요 = “มีบ้านด้วยครับ/ค่ะ”"}
+{"f":"practice","id":"do-man.05","k":"q","src":"'(I) only exercise on weekends' =","tgt":"“ออกกำลังกายเฉพาะวันหยุดสุดสัปดาห์ครับ/ค่ะ” ="}
+{"f":"practice","id":"do-man.05","k":"why","src":"에 + 만, in that order.","tgt":"에 + 만 ตามลำดับนี้"}
+{"f":"practice","id":"do-man.06","k":"p","src":"Just water, please","tgt":"ขอแค่น้ำเปล่าครับ/ค่ะ"}
+{"f":"practice","id":"do-man.06","k":"why","src":"만 = only.","tgt":"만 = เท่านั้น"}
+{"f":"practice","id":"do-man.07","k":"p","src":"My friend came too","tgt":"เพื่อนก็มาด้วยแล้วครับ/ค่ะ"}
+{"f":"practice","id":"do-man.07","k":"why","src":"도 replaces 가.","tgt":"도 ใช้แทน 가"}
+{"f":"practice","id":"do-man.08","k":"p","src":"(I) study at school too","tgt":"เรียนหนังสือที่โรงเรียนด้วยครับ/ค่ะ"}
+{"f":"practice","id":"do-man.08","k":"why","src":"에서 stays; 도 goes after it.","tgt":"에서 ยังอยู่ แล้ว 도 ต่อท้าย"}
+{"f":"practice","id":"do-man.09","k":"p","src":"I'm a student too","tgt":"ฉันก็เป็นนักเรียนเหมือนกันครับ/ค่ะ"}
+{"f":"practice","id":"do-man.09","k":"why","src":"'Too' → 도, replacing 는.","tgt":"“ก็…เหมือนกัน” → 도 ใช้แทน 는"}
+{"f":"practice","id":"do-man.10","k":"p","src":"(I) only drink coffee","tgt":"ดื่มกาแฟเท่านั้นครับ/ค่ะ"}
+{"f":"practice","id":"do-man.10","k":"why","src":"'Only' → 만, replacing 를.","tgt":"“เท่านั้น” → 만 ใช้แทน 를"}
+{"f":"practice","id":"do-man.11","k":"p","src":"It's at home too","tgt":"ที่บ้านก็มีครับ/ค่ะ"}
+{"f":"practice","id":"do-man.11","k":"why","src":"에 + 도 = at home too.","tgt":"에 + 도 = ที่บ้านก็…"}
+{"f":"practice","id":"do-man.12","k":"p","src":"I'm a student too","tgt":"ฉันก็เป็นนักเรียนเหมือนกันครับ/ค่ะ"}
 {"f":"practice","id":"do-man.12","k":"why","src":"저는 → 저도.","tgt":"저는 → 저도.","pre":1}
-{"f":"practice","id":"do-man.13","k":"p","src":"Just this, please","tgt":""}
-{"f":"practice","id":"do-man.13","k":"why","src":"만 replaces 을/를.","tgt":""}
-{"f":"practice","id":"do-man.14","k":"p","src":"I'm not going either","tgt":""}
-{"f":"practice","id":"do-man.14","k":"why","src":"도 + a negative = 'either'.","tgt":""}
-{"f":"lessons","id":"sentences","k":"title","src":"16 · Putting nouns and verbs together","tgt":""}
-{"f":"lessons","id":"sentences","k":"blurb","src":"Four sentence shapes that cover most of what you'll say, then how to grow them.","tgt":""}
-{"f":"sentences","id":"ko.s0156","k":"gloss","src":"The coffee is tasty","tgt":""}
-{"f":"sentences","id":"ko.s0157","k":"gloss","src":"(I) go to a café","tgt":""}
-{"f":"sentences","id":"ko.s0158","k":"gloss","src":"(I) drink","tgt":""}
-{"f":"sentences","id":"ko.s0159","k":"gloss","src":"(I) drink coffee at a café","tgt":""}
-{"f":"sentences","id":"ko.s0160","k":"gloss","src":"Today I'm drinking coffee at a café with a friend","tgt":""}
-{"f":"sentences","id":"ko.s0161","k":"gloss","src":"(I) drink water — new noun","tgt":""}
-{"f":"sentences","id":"ko.s0162","k":"gloss","src":"(I) buy coffee — new verb","tgt":""}
-{"f":"sentences","id":"ko.s0163","k":"gloss","src":"(I) don't drink coffee — 안 before the verb","tgt":""}
-{"f":"sentences","id":"ko.s0164","k":"gloss","src":"Do you drink coffee? — same words, rising tone","tgt":""}
-{"f":"checks","id":"sentences.k1","k":"q","src":"'I drink coffee at a café' =","tgt":""}
-{"f":"checks","id":"sentences.k1","k":"why","src":"Place of action → 에서; verb last.","tgt":""}
-{"f":"checks","id":"sentences.k2","k":"q","src":"'The coffee is tasty' =","tgt":""}
-{"f":"checks","id":"sentences.k2","k":"why","src":"Describing verbs take 이/가, not 을/를.","tgt":""}
-{"f":"checks","id":"sentences.k3","k":"q","src":"Usual order?","tgt":""}
-{"f":"checks","id":"sentences.k3","k":"o[0]","src":"who · when · where · what · verb","tgt":""}
-{"f":"checks","id":"sentences.k3","k":"o[1]","src":"verb · what · where · who","tgt":""}
-{"f":"checks","id":"sentences.k3","k":"o[2]","src":"who · verb · what · where","tgt":""}
-{"f":"checks","id":"sentences.k3","k":"o[3]","src":"what · who · verb · when","tgt":""}
-{"f":"checks","id":"sentences.k3","k":"why","src":"Everything stacks up in front of the verb.","tgt":""}
-{"f":"practice","id":"sentences.01","k":"q","src":"'The coffee is tasty' =","tgt":""}
-{"f":"practice","id":"sentences.01","k":"why","src":"Describing verbs take 이/가.","tgt":""}
-{"f":"practice","id":"sentences.02","k":"q","src":"'(I) drink coffee at a café' =","tgt":""}
-{"f":"practice","id":"sentences.02","k":"why","src":"Action location → 에서; object → 를; verb last.","tgt":""}
-{"f":"practice","id":"sentences.03","k":"q","src":"Which follows the usual order (who · when · where · what · verb)?","tgt":""}
-{"f":"practice","id":"sentences.03","k":"why","src":"Everything stacks in front of the verb.","tgt":""}
-{"f":"practice","id":"sentences.04","k":"q","src":"'(I) buy coffee' =","tgt":""}
-{"f":"practice","id":"sentences.04","k":"why","src":"Buying is done to the coffee → 를.","tgt":""}
-{"f":"practice","id":"sentences.05","k":"q","src":"'Do you drink coffee?' (spoken) =","tgt":""}
-{"f":"practice","id":"sentences.05","k":"why","src":"Same words, rising tone.","tgt":""}
-{"f":"practice","id":"sentences.06","k":"p","src":"(I) drink water","tgt":""}
-{"f":"practice","id":"sentences.06","k":"why","src":"Object + 을, verb last.","tgt":""}
-{"f":"practice","id":"sentences.07","k":"p","src":"(I) buy coffee","tgt":""}
-{"f":"practice","id":"sentences.07","k":"why","src":"Buying is done to the coffee → 를.","tgt":""}
-{"f":"practice","id":"sentences.08","k":"p","src":"Today I drink coffee with a friend","tgt":""}
-{"f":"practice","id":"sentences.08","k":"why","src":"Usually when · with whom · what · verb; the verb is always last.","tgt":""}
-{"f":"practice","id":"sentences.09","k":"p","src":"The coffee is tasty","tgt":""}
-{"f":"practice","id":"sentences.09","k":"why","src":"Describing verb → 이/가; 커피 ends in a vowel → 가.","tgt":""}
-{"f":"practice","id":"sentences.10","k":"p","src":"(I) go to a café","tgt":""}
-{"f":"practice","id":"sentences.10","k":"why","src":"Destination → 에.","tgt":""}
-{"f":"practice","id":"sentences.11","k":"p","src":"(I) study at a café with a friend","tgt":""}
-{"f":"practice","id":"sentences.11","k":"why","src":"하고 = with / and.","tgt":""}
-{"f":"practice","id":"sentences.12","k":"p","src":"(I) drink coffee at a café","tgt":""}
-{"f":"practice","id":"sentences.12","k":"why","src":"Place of action + 에서, object + 를, verb last.","tgt":""}
-{"f":"practice","id":"sentences.13","k":"p","src":"The coffee is tasty","tgt":""}
-{"f":"practice","id":"sentences.13","k":"why","src":"Describing verbs take 이/가.","tgt":""}
-{"f":"practice","id":"sentences.14","k":"p","src":"(I) don't drink coffee","tgt":""}
-{"f":"practice","id":"sentences.14","k":"why","src":"안 right before the verb.","tgt":""}
-{"f":"lessons","id":"want-like","k":"title","src":"17 · Want and like: -고 싶어요, 좋아해요","tgt":""}
-{"f":"lessons","id":"want-like","k":"blurb","src":"Say what you want to do and what you like. Two patterns you will use every day.","tgt":""}
-{"f":"sentences","id":"ko.s0165","k":"gloss","src":"(I) want to go","tgt":""}
-{"f":"sentences","id":"ko.s0166","k":"gloss","src":"(I) want to eat","tgt":""}
-{"f":"sentences","id":"ko.s0167","k":"gloss","src":"(I) want to see (it) / I miss you","tgt":""}
-{"f":"sentences","id":"ko.s0168","k":"gloss","src":"(I) want to drink coffee","tgt":""}
-{"f":"sentences","id":"ko.s0169","k":"gloss","src":"(I) want to go to Korea","tgt":""}
-{"f":"sentences","id":"ko.s0170","k":"gloss","src":"What do you want to eat?","tgt":""}
-{"f":"sentences","id":"ko.s0171","k":"gloss","src":"(I) don't want to go","tgt":""}
-{"f":"sentences","id":"ko.s0172","k":"gloss","src":"(I) wanted to go","tgt":""}
-{"f":"sentences","id":"ko.s0173","k":"gloss","src":"(I) like coffee","tgt":""}
-{"f":"sentences","id":"ko.s0174","k":"gloss","src":"(I) like movies","tgt":""}
-{"f":"sentences","id":"ko.s0175","k":"gloss","src":"Coffee is good / I like coffee","tgt":""}
-{"f":"sentences","id":"ko.s0176","k":"gloss","src":"What do you like?","tgt":""}
-{"f":"checks","id":"want-like.k1","k":"q","src":"'(I) want to go' =","tgt":""}
-{"f":"checks","id":"want-like.k1","k":"why","src":"Stem + 고 싶어요.","tgt":""}
-{"f":"checks","id":"want-like.k2","k":"q","src":"'(I) like coffee' =","tgt":""}
-{"f":"checks","id":"want-like.k2","k":"why","src":"좋아해요 is an action verb → 을/를.","tgt":""}
-{"f":"checks","id":"want-like.k3","k":"q","src":"'What do you want to eat?' =","tgt":""}
+{"f":"practice","id":"do-man.13","k":"p","src":"Just this, please","tgt":"ขอแค่อันนี้ครับ/ค่ะ"}
+{"f":"practice","id":"do-man.13","k":"why","src":"만 replaces 을/를.","tgt":"만 ใช้แทน 을/를"}
+{"f":"practice","id":"do-man.14","k":"p","src":"I'm not going either","tgt":"ฉันก็ไม่ไปเหมือนกันครับ/ค่ะ"}
+{"f":"practice","id":"do-man.14","k":"why","src":"도 + a negative = 'either'.","tgt":"도 + ประโยคปฏิเสธ = “ก็ไม่…เหมือนกัน”"}
+{"f":"lessons","id":"sentences","k":"title","src":"16 · Putting nouns and verbs together","tgt":"16 · การประกอบคำนามกับคำกริยา"}
+{"f":"lessons","id":"sentences","k":"blurb","src":"Four sentence shapes that cover most of what you'll say, then how to grow them.","tgt":"รูปประโยคสี่แบบที่ครอบคลุมเกือบทุกอย่างที่จะพูด แล้วค่อย ๆ ต่อให้ยาวขึ้น"}
+{"f":"sentences","id":"ko.s0156","k":"gloss","src":"The coffee is tasty","tgt":"กาแฟอร่อยครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0157","k":"gloss","src":"(I) go to a café","tgt":"ไปคาเฟ่ครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0158","k":"gloss","src":"(I) drink","tgt":"ดื่มครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0159","k":"gloss","src":"(I) drink coffee at a café","tgt":"ดื่มกาแฟที่คาเฟ่ครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0160","k":"gloss","src":"Today I'm drinking coffee at a café with a friend","tgt":"วันนี้ฉันดื่มกาแฟกับเพื่อนที่คาเฟ่ครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0161","k":"gloss","src":"(I) drink water — new noun","tgt":"ดื่มน้ำครับ/ค่ะ — เปลี่ยนคำนาม"}
+{"f":"sentences","id":"ko.s0162","k":"gloss","src":"(I) buy coffee — new verb","tgt":"ซื้อกาแฟครับ/ค่ะ — เปลี่ยนกริยา"}
+{"f":"sentences","id":"ko.s0163","k":"gloss","src":"(I) don't drink coffee — 안 before the verb","tgt":"ไม่ดื่มกาแฟครับ/ค่ะ — 안 อยู่หน้ากริยา"}
+{"f":"sentences","id":"ko.s0164","k":"gloss","src":"Do you drink coffee? — same words, rising tone","tgt":"ดื่มกาแฟไหมครับ/คะ — คำเดิม แค่ขึ้นเสียงท้าย"}
+{"f":"checks","id":"sentences.k1","k":"q","src":"'I drink coffee at a café' =","tgt":"“ดื่มกาแฟที่คาเฟ่ครับ/ค่ะ” ="}
+{"f":"checks","id":"sentences.k1","k":"why","src":"Place of action → 에서; verb last.","tgt":"ที่ที่ทำกิจกรรม → 에서 และกริยาอยู่ท้าย"}
+{"f":"checks","id":"sentences.k2","k":"q","src":"'The coffee is tasty' =","tgt":"“กาแฟอร่อยครับ/ค่ะ” ="}
+{"f":"checks","id":"sentences.k2","k":"why","src":"Describing verbs take 이/가, not 을/를.","tgt":"กริยาบอกลักษณะใช้ 이/가 ไม่ใช่ 을/를"}
+{"f":"checks","id":"sentences.k3","k":"q","src":"Usual order?","tgt":"ลำดับที่พบบ่อยคือ"}
+{"f":"checks","id":"sentences.k3","k":"o[0]","src":"who · when · where · what · verb","tgt":"ใคร · เมื่อไหร่ · ที่ไหน · อะไร · กริยา"}
+{"f":"checks","id":"sentences.k3","k":"o[1]","src":"verb · what · where · who","tgt":"กริยา · อะไร · ที่ไหน · ใคร"}
+{"f":"checks","id":"sentences.k3","k":"o[2]","src":"who · verb · what · where","tgt":"ใคร · กริยา · อะไร · ที่ไหน"}
+{"f":"checks","id":"sentences.k3","k":"o[3]","src":"what · who · verb · when","tgt":"อะไร · ใคร · กริยา · เมื่อไหร่"}
+{"f":"checks","id":"sentences.k3","k":"why","src":"Everything stacks up in front of the verb.","tgt":"ทุกอย่างเรียงอยู่หน้ากริยา"}
+{"f":"practice","id":"sentences.01","k":"q","src":"'The coffee is tasty' =","tgt":"“กาแฟอร่อยครับ/ค่ะ” ="}
+{"f":"practice","id":"sentences.01","k":"why","src":"Describing verbs take 이/가.","tgt":"กริยาบอกลักษณะใช้ 이/가"}
+{"f":"practice","id":"sentences.02","k":"q","src":"'(I) drink coffee at a café' =","tgt":"“ดื่มกาแฟที่คาเฟ่ครับ/ค่ะ” ="}
+{"f":"practice","id":"sentences.02","k":"why","src":"Action location → 에서; object → 를; verb last.","tgt":"ที่ที่ทำกิจกรรม → 에서 · กรรม → 를 · กริยาอยู่ท้าย"}
+{"f":"practice","id":"sentences.03","k":"q","src":"Which follows the usual order (who · when · where · what · verb)?","tgt":"ข้อไหนเรียงตามลำดับที่พบบ่อย (ใคร · เมื่อไหร่ · ที่ไหน · อะไร · กริยา)"}
+{"f":"practice","id":"sentences.03","k":"why","src":"Everything stacks in front of the verb.","tgt":"ทุกอย่างเรียงอยู่หน้ากริยา"}
+{"f":"practice","id":"sentences.04","k":"q","src":"'(I) buy coffee' =","tgt":"“ซื้อกาแฟครับ/ค่ะ” ="}
+{"f":"practice","id":"sentences.04","k":"why","src":"Buying is done to the coffee → 를.","tgt":"การซื้อกระทำต่อกาแฟ → 를"}
+{"f":"practice","id":"sentences.05","k":"q","src":"'Do you drink coffee?' (spoken) =","tgt":"“ดื่มกาแฟไหมครับ/คะ” (ภาษาพูด) ="}
+{"f":"practice","id":"sentences.05","k":"why","src":"Same words, rising tone.","tgt":"คำเดิม แค่ขึ้นเสียงท้ายประโยค ไม่ต้องมีคำแบบ ไหม"}
+{"f":"practice","id":"sentences.06","k":"p","src":"(I) drink water","tgt":"ดื่มน้ำครับ/ค่ะ"}
+{"f":"practice","id":"sentences.06","k":"why","src":"Object + 을, verb last.","tgt":"กรรม + 을 และกริยาอยู่ท้าย"}
+{"f":"practice","id":"sentences.07","k":"p","src":"(I) buy coffee","tgt":"ซื้อกาแฟครับ/ค่ะ"}
+{"f":"practice","id":"sentences.07","k":"why","src":"Buying is done to the coffee → 를.","tgt":"การซื้อกระทำต่อกาแฟ → 를"}
+{"f":"practice","id":"sentences.08","k":"p","src":"Today I drink coffee with a friend","tgt":"วันนี้ดื่มกาแฟกับเพื่อนครับ/ค่ะ"}
+{"f":"practice","id":"sentences.08","k":"why","src":"Usually when · with whom · what · verb; the verb is always last.","tgt":"มักเรียง เมื่อไหร่ · กับใคร · อะไร · กริยา และกริยาอยู่ท้ายเสมอ"}
+{"f":"practice","id":"sentences.09","k":"p","src":"The coffee is tasty","tgt":"กาแฟอร่อยครับ/ค่ะ"}
+{"f":"practice","id":"sentences.09","k":"why","src":"Describing verb → 이/가; 커피 ends in a vowel → 가.","tgt":"กริยาบอกลักษณะ → 이/가 · 커피 ไม่มีตัวสะกด → 가"}
+{"f":"practice","id":"sentences.10","k":"p","src":"(I) go to a café","tgt":"ไปคาเฟ่ครับ/ค่ะ"}
+{"f":"practice","id":"sentences.10","k":"why","src":"Destination → 에.","tgt":"จุดหมาย → 에"}
+{"f":"practice","id":"sentences.11","k":"p","src":"(I) study at a café with a friend","tgt":"เรียนหนังสือกับเพื่อนที่คาเฟ่ครับ/ค่ะ"}
+{"f":"practice","id":"sentences.11","k":"why","src":"하고 = with / and.","tgt":"하고 = กับ / และ"}
+{"f":"practice","id":"sentences.12","k":"p","src":"(I) drink coffee at a café","tgt":"ดื่มกาแฟที่คาเฟ่ครับ/ค่ะ"}
+{"f":"practice","id":"sentences.12","k":"why","src":"Place of action + 에서, object + 를, verb last.","tgt":"ที่ที่ทำกิจกรรม + 에서 · กรรม + 를 · กริยาอยู่ท้าย"}
+{"f":"practice","id":"sentences.13","k":"p","src":"The coffee is tasty","tgt":"กาแฟอร่อยครับ/ค่ะ"}
+{"f":"practice","id":"sentences.13","k":"why","src":"Describing verbs take 이/가.","tgt":"กริยาบอกลักษณะใช้ 이/가"}
+{"f":"practice","id":"sentences.14","k":"p","src":"(I) don't drink coffee","tgt":"ไม่ดื่มกาแฟครับ/ค่ะ"}
+{"f":"practice","id":"sentences.14","k":"why","src":"안 right before the verb.","tgt":"안 วางชิดหน้าคำกริยา"}
+{"f":"lessons","id":"want-like","k":"title","src":"17 · Want and like: -고 싶어요, 좋아해요","tgt":"17 · อยากและชอบ: -고 싶어요, 좋아해요"}
+{"f":"lessons","id":"want-like","k":"blurb","src":"Say what you want to do and what you like. Two patterns you will use every day.","tgt":"บอกว่าอยากทำอะไรและชอบอะไร สองรูปที่ใช้ได้ทุกวัน"}
+{"f":"sentences","id":"ko.s0165","k":"gloss","src":"(I) want to go","tgt":"อยากไปครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0166","k":"gloss","src":"(I) want to eat","tgt":"อยากกินครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0167","k":"gloss","src":"(I) want to see (it) / I miss you","tgt":"อยากเห็น / คิดถึงคุณครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0168","k":"gloss","src":"(I) want to drink coffee","tgt":"อยากดื่มกาแฟครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0169","k":"gloss","src":"(I) want to go to Korea","tgt":"อยากไปเกาหลีครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0170","k":"gloss","src":"What do you want to eat?","tgt":"อยากกินอะไรครับ/คะ"}
+{"f":"sentences","id":"ko.s0171","k":"gloss","src":"(I) don't want to go","tgt":"ไม่อยากไปครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0172","k":"gloss","src":"(I) wanted to go","tgt":"(ตอนนั้น)อยากไปครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0173","k":"gloss","src":"(I) like coffee","tgt":"ชอบกาแฟครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0174","k":"gloss","src":"(I) like movies","tgt":"ชอบดูหนังครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0175","k":"gloss","src":"Coffee is good / I like coffee","tgt":"กาแฟดี / ชอบกาแฟครับ/ค่ะ"}
+{"f":"sentences","id":"ko.s0176","k":"gloss","src":"What do you like?","tgt":"ชอบอะไรครับ/คะ"}
+{"f":"checks","id":"want-like.k1","k":"q","src":"'(I) want to go' =","tgt":"“อยากไปครับ/ค่ะ” ="}
+{"f":"checks","id":"want-like.k1","k":"why","src":"Stem + 고 싶어요.","tgt":"ก้านกริยา + 고 싶어요"}
+{"f":"checks","id":"want-like.k2","k":"q","src":"'(I) like coffee' =","tgt":"“ชอบกาแฟครับ/ค่ะ” ="}
+{"f":"checks","id":"want-like.k2","k":"why","src":"좋아해요 is an action verb → 을/를.","tgt":"좋아해요 เป็นกริยาแสดงการกระทำ → 을/를 แม้ ชอบ ในภาษาไทยจะไม่มีอะไรคั่น"}
+{"f":"checks","id":"want-like.k3","k":"q","src":"'What do you want to eat?' =","tgt":"“อยากกินอะไรครับ/คะ” ="}
 {"f":"checks","id":"want-like.k3","k":"why","src":"먹 + 고 싶어요.","tgt":"먹 + 고 싶어요.","pre":1}
-{"f":"practice","id":"want-like.01","k":"q","src":"'(I) want to go' =","tgt":""}
-{"f":"practice","id":"want-like.01","k":"why","src":"Stem + 고 싶어요.","tgt":""}
-{"f":"practice","id":"want-like.02","k":"q","src":"'(I) like coffee' =","tgt":""}
-{"f":"practice","id":"want-like.02","k":"why","src":"좋아해요 takes 을/를.","tgt":""}
-{"f":"practice","id":"want-like.03","k":"q","src":"'What do you want to eat?' =","tgt":""}
+{"f":"practice","id":"want-like.01","k":"q","src":"'(I) want to go' =","tgt":"“อยากไปครับ/ค่ะ” ="}
+{"f":"practice","id":"want-like.01","k":"why","src":"Stem + 고 싶어요.","tgt":"ก้านกริยา + 고 싶어요"}
+{"f":"practice","id":"want-like.02","k":"q","src":"'(I) like coffee' =","tgt":"“ชอบกาแฟครับ/ค่ะ” ="}
+{"f":"practice","id":"want-like.02","k":"why","src":"좋아해요 takes 을/를.","tgt":"좋아해요 ใช้กับ 을/를"}
+{"f":"practice","id":"want-like.03","k":"q","src":"'What do you want to eat?' =","tgt":"“อยากกินอะไรครับ/คะ” ="}
 {"f":"practice","id":"want-like.03","k":"why","src":"먹 + 고 싶어요.","tgt":"먹 + 고 싶어요.","pre":1}
-{"f":"practice","id":"want-like.04","k":"q","src":"'(I) don't want to go' =","tgt":""}
-{"f":"practice","id":"want-like.04","k":"why","src":"안 in front of the verb.","tgt":""}
-{"f":"practice","id":"want-like.05","k":"q","src":"'I miss you' =","tgt":""}
-{"f":"practice","id":"want-like.05","k":"why","src":"Literally 'I want to see (you)'.","tgt":""}
-{"f":"practice","id":"want-like.06","k":"p","src":"(I) want to drink coffee","tgt":""}
+{"f":"practice","id":"want-like.04","k":"q","src":"'(I) don't want to go' =","tgt":"“ไม่อยากไปครับ/ค่ะ” ="}
+{"f":"practice","id":"want-like.04","k":"why","src":"안 in front of the verb.","tgt":"วาง 안 ไว้หน้ากริยา (ภาษาไทยวาง ไม่ ไว้หน้า อยาก)"}
+{"f":"practice","id":"want-like.05","k":"q","src":"'I miss you' =","tgt":"“คิดถึงคุณครับ/ค่ะ” ="}
+{"f":"practice","id":"want-like.05","k":"why","src":"Literally 'I want to see (you)'.","tgt":"แปลตรงตัวว่า “อยากเห็น (คุณ)”"}
+{"f":"practice","id":"want-like.06","k":"p","src":"(I) want to drink coffee","tgt":"อยากดื่มกาแฟครับ/ค่ะ"}
 {"f":"practice","id":"want-like.06","k":"why","src":"마시 + 고 싶어요.","tgt":"마시 + 고 싶어요.","pre":1}
-{"f":"practice","id":"want-like.07","k":"p","src":"(I) want to go to Korea","tgt":""}
-{"f":"practice","id":"want-like.07","k":"why","src":"Destination takes 에.","tgt":""}
-{"f":"practice","id":"want-like.08","k":"p","src":"(I) like movies","tgt":""}
-{"f":"practice","id":"want-like.08","k":"why","src":"좋아해요 takes 을/를.","tgt":""}
-{"f":"practice","id":"want-like.09","k":"p","src":"(I) want to eat","tgt":""}
-{"f":"practice","id":"want-like.09","k":"why","src":"Stem + 고 싶어요.","tgt":""}
-{"f":"practice","id":"want-like.10","k":"p","src":"(I) like coffee","tgt":""}
-{"f":"practice","id":"want-like.10","k":"why","src":"좋아해요 is an action verb → 를.","tgt":""}
-{"f":"practice","id":"want-like.11","k":"p","src":"The movie is good","tgt":""}
-{"f":"practice","id":"want-like.11","k":"why","src":"이/가 goes with the describing verb 좋아요.","tgt":""}
-{"f":"practice","id":"want-like.12","k":"p","src":"(I) want to go home","tgt":""}
+{"f":"practice","id":"want-like.07","k":"p","src":"(I) want to go to Korea","tgt":"อยากไปเกาหลีครับ/ค่ะ"}
+{"f":"practice","id":"want-like.07","k":"why","src":"Destination takes 에.","tgt":"จุดหมายใช้ 에"}
+{"f":"practice","id":"want-like.08","k":"p","src":"(I) like movies","tgt":"ชอบดูหนังครับ/ค่ะ"}
+{"f":"practice","id":"want-like.08","k":"why","src":"좋아해요 takes 을/를.","tgt":"좋아해요 ใช้กับ 을/를"}
+{"f":"practice","id":"want-like.09","k":"p","src":"(I) want to eat","tgt":"อยากกินครับ/ค่ะ"}
+{"f":"practice","id":"want-like.09","k":"why","src":"Stem + 고 싶어요.","tgt":"ก้านกริยา + 고 싶어요"}
+{"f":"practice","id":"want-like.10","k":"p","src":"(I) like coffee","tgt":"ชอบกาแฟครับ/ค่ะ"}
+{"f":"practice","id":"want-like.10","k":"why","src":"좋아해요 is an action verb → 를.","tgt":"좋아해요 เป็นกริยาแสดงการกระทำ → 를"}
+{"f":"practice","id":"want-like.11","k":"p","src":"The movie is good","tgt":"หนังดีครับ/ค่ะ"}
+{"f":"practice","id":"want-like.11","k":"why","src":"이/가 goes with the describing verb 좋아요.","tgt":"이/가 ใช้กับกริยาบอกลักษณะ 좋아요"}
+{"f":"practice","id":"want-like.12","k":"p","src":"(I) want to go home","tgt":"อยากกลับบ้านครับ/ค่ะ"}
 {"f":"practice","id":"want-like.12","k":"why","src":"가 + 고 싶어요.","tgt":"가 + 고 싶어요.","pre":1}
-{"f":"practice","id":"want-like.13","k":"p","src":"(I) like coffee","tgt":""}
-{"f":"practice","id":"want-like.13","k":"why","src":"커피를 좋아해요, or 커피가 좋아요.","tgt":""}
-{"f":"practice","id":"want-like.14","k":"p","src":"What do you want to eat?","tgt":""}
+{"f":"practice","id":"want-like.13","k":"p","src":"(I) like coffee","tgt":"ชอบกาแฟครับ/ค่ะ"}
+{"f":"practice","id":"want-like.13","k":"why","src":"커피를 좋아해요, or 커피가 좋아요.","tgt":"พูดว่า 커피를 좋아해요 หรือ 커피가 좋아요 ก็ได้"}
+{"f":"practice","id":"want-like.14","k":"p","src":"What do you want to eat?","tgt":"อยากกินอะไรครับ/คะ"}
 {"f":"practice","id":"want-like.14","k":"why","src":"먹 + 고 싶어요.","tgt":"먹 + 고 싶어요.","pre":1}
-{"f":"lessons","id":"numbers","k":"title","src":"18 · Two number systems","tgt":""}
-{"f":"lessons","id":"numbers","k":"blurb","src":"Native for counting and age, Sino-Korean for money and time.","tgt":""}
-{"f":"sentences","id":"ko.s0177","k":"gloss","src":"Two cups of coffee, please (native + counter 잔)","tgt":""}
-{"f":"sentences","id":"ko.s0178","k":"gloss","src":"It's 5,000 won (Sino)","tgt":""}
-{"f":"sentences","id":"ko.s0179","k":"gloss","src":"2:30 (native hour, Sino minutes)","tgt":""}
-{"f":"sentences","id":"ko.s0180","k":"gloss","src":"I'm 25 (native + 살)","tgt":""}
-{"f":"checks","id":"numbers.k1","k":"q","src":"Which number system for money?","tgt":""}
-{"f":"checks","id":"numbers.k1","k":"o[0]","src":"Sino-Korean (일, 이, 삼)","tgt":""}
-{"f":"checks","id":"numbers.k1","k":"o[1]","src":"Native (하나, 둘, 셋)","tgt":""}
-{"f":"checks","id":"numbers.k1","k":"o[2]","src":"Either","tgt":""}
-{"f":"checks","id":"numbers.k1","k":"o[3]","src":"Neither","tgt":""}
-{"f":"checks","id":"numbers.k1","k":"why","src":"Money, dates, minutes, phone numbers → Sino.","tgt":""}
-{"f":"checks","id":"numbers.k2","k":"q","src":"'3 o'clock' =","tgt":""}
-{"f":"checks","id":"numbers.k2","k":"why","src":"Hours use native numbers; 셋 → 세 before a counter.","tgt":""}
-{"f":"checks","id":"numbers.k3","k":"q","src":"50,000 won =","tgt":""}
-{"f":"checks","id":"numbers.k3","k":"why","src":"Korean groups by 만 (10,000): 5 × 만 = 오만.","tgt":""}
-{"f":"practice","id":"numbers.01","k":"q","src":"'Two cups of coffee, please' =","tgt":""}
-{"f":"practice","id":"numbers.01","k":"why","src":"Counting things uses native numbers, and 둘 shortens to 두 before a counter.","tgt":""}
-{"f":"practice","id":"numbers.02","k":"q","src":"'It's 5,000 won' =","tgt":""}
-{"f":"practice","id":"numbers.02","k":"why","src":"Money uses Sino numbers: 오 (5) + 천 (1,000).","tgt":""}
-{"f":"practice","id":"numbers.03","k":"q","src":"'3 o'clock' =","tgt":""}
-{"f":"practice","id":"numbers.03","k":"why","src":"Hours use native numbers, and 셋 shortens to 세.","tgt":""}
-{"f":"practice","id":"numbers.04","k":"q","src":"'I'm 25 years old' =","tgt":""}
-{"f":"practice","id":"numbers.04","k":"why","src":"Age uses native numbers + 살.","tgt":""}
-{"f":"practice","id":"numbers.05","k":"q","src":"'50,000 won' =","tgt":""}
-{"f":"practice","id":"numbers.05","k":"why","src":"Korean groups big numbers by 만 (10,000): 50,000 is five 만.","tgt":""}
-{"f":"practice","id":"numbers.06","k":"p","src":"2:30 (two thirty)","tgt":""}
-{"f":"practice","id":"numbers.06","k":"why","src":"Native hour (두 시), Sino minutes (삼십 분).","tgt":""}
-{"f":"practice","id":"numbers.07","k":"p","src":"Two cups of coffee, please","tgt":""}
-{"f":"practice","id":"numbers.07","k":"why","src":"Noun, number, counter, then the verb.","tgt":""}
-{"f":"practice","id":"numbers.08","k":"p","src":"This is 50,000 won","tgt":""}
-{"f":"practice","id":"numbers.08","k":"why","src":"50,000 = 오만: Korean counts in 만.","tgt":""}
-{"f":"practice","id":"numbers.09","k":"p","src":"One cup of coffee, please","tgt":""}
-{"f":"practice","id":"numbers.09","k":"why","src":"하나 shortens to 한 before a counter.","tgt":""}
-{"f":"practice","id":"numbers.10","k":"p","src":"It's 4 o'clock","tgt":""}
-{"f":"practice","id":"numbers.10","k":"why","src":"Hours are native, and 넷 shortens to 네.","tgt":""}
-{"f":"practice","id":"numbers.11","k":"p","src":"3:30 (write the minutes in Hangul)","tgt":""}
-{"f":"practice","id":"numbers.11","k":"why","src":"Minutes use Sino numbers: 삼십 = 30.","tgt":""}
-{"f":"practice","id":"numbers.12","k":"p","src":"I'm 28 years old (write the number in Hangul)","tgt":""}
-{"f":"practice","id":"numbers.12","k":"why","src":"Age = native number + 살.","tgt":""}
-{"f":"practice","id":"numbers.13","k":"p","src":"It's 2 o'clock (write the number in Hangul)","tgt":""}
-{"f":"practice","id":"numbers.13","k":"why","src":"Hours are native: 둘 → 두 시.","tgt":""}
-{"f":"practice","id":"numbers.14","k":"p","src":"It's 3,000 won (write the number in Hangul)","tgt":""}
-{"f":"practice","id":"numbers.14","k":"why","src":"Money is Sino: 삼천 원. Native 세 is for hours and counted things.","tgt":""}
+{"f":"lessons","id":"numbers","k":"title","src":"18 · Two number systems","tgt":"18 · ระบบตัวเลขสองแบบ"}
+{"f":"lessons","id":"numbers","k":"blurb","src":"Native for counting and age, Sino-Korean for money and time.","tgt":"ตัวเลขเกาหลีแท้ใช้นับสิ่งของ บอกอายุ และบอกชั่วโมง ตัวเลขจีน-เกาหลีใช้กับเงินและนาที"}
+{"f":"sentences","id":"ko.s0177","k":"gloss","src":"Two cups of coffee, please (native + counter 잔)","tgt":"ขอกาแฟ 2 แก้วครับ/ค่ะ (ตัวเลขเกาหลีแท้ + ลักษณนาม 잔)"}
+{"f":"sentences","id":"ko.s0178","k":"gloss","src":"It's 5,000 won (Sino)","tgt":"5,000 วอนครับ/ค่ะ (ตัวเลขจีน-เกาหลี)"}
+{"f":"sentences","id":"ko.s0179","k":"gloss","src":"2:30 (native hour, Sino minutes)","tgt":"2:30 (ชั่วโมงใช้ตัวเลขเกาหลีแท้ นาทีใช้ตัวเลขจีน-เกาหลี)"}
+{"f":"sentences","id":"ko.s0180","k":"gloss","src":"I'm 25 (native + 살)","tgt":"อายุ 25 ปีครับ/ค่ะ (ตัวเลขเกาหลีแท้ + 살)"}
+{"f":"checks","id":"numbers.k1","k":"q","src":"Which number system for money?","tgt":"เงินใช้ตัวเลขระบบไหน"}
+{"f":"checks","id":"numbers.k1","k":"o[0]","src":"Sino-Korean (일, 이, 삼)","tgt":"ตัวเลขจีน-เกาหลี (일, 이, 삼)"}
+{"f":"checks","id":"numbers.k1","k":"o[1]","src":"Native (하나, 둘, 셋)","tgt":"ตัวเลขเกาหลีแท้ (하나, 둘, 셋)"}
+{"f":"checks","id":"numbers.k1","k":"o[2]","src":"Either","tgt":"ใช้ได้ทั้งสองแบบ"}
+{"f":"checks","id":"numbers.k1","k":"o[3]","src":"Neither","tgt":"ไม่ใช่ทั้งสองแบบ"}
+{"f":"checks","id":"numbers.k1","k":"why","src":"Money, dates, minutes, phone numbers → Sino.","tgt":"เงิน วันที่ นาที และเบอร์โทรศัพท์ → ตัวเลขจีน-เกาหลี"}
+{"f":"checks","id":"numbers.k2","k":"q","src":"'3 o'clock' =","tgt":"“3 นาฬิกา” ="}
+{"f":"checks","id":"numbers.k2","k":"why","src":"Hours use native numbers; 셋 → 세 before a counter.","tgt":"ชั่วโมงใช้ตัวเลขเกาหลีแท้ และ 셋 ย่อเป็น 세 เมื่ออยู่หน้าลักษณนาม"}
+{"f":"checks","id":"numbers.k3","k":"q","src":"50,000 won =","tgt":"50,000 วอน ="}
+{"f":"checks","id":"numbers.k3","k":"why","src":"Korean groups by 만 (10,000): 5 × 만 = 오만.","tgt":"ภาษาเกาหลีนับทีละ 만 (หมื่น) เหมือนภาษาไทย: 5 × 만 = 오만"}
+{"f":"practice","id":"numbers.01","k":"q","src":"'Two cups of coffee, please' =","tgt":"“ขอกาแฟ 2 แก้วครับ/ค่ะ” ="}
+{"f":"practice","id":"numbers.01","k":"why","src":"Counting things uses native numbers, and 둘 shortens to 두 before a counter.","tgt":"นับสิ่งของใช้ตัวเลขเกาหลีแท้ และ 둘 ย่อเป็น 두 เมื่ออยู่หน้าลักษณนาม"}
+{"f":"practice","id":"numbers.02","k":"q","src":"'It's 5,000 won' =","tgt":"“5,000 วอนครับ/ค่ะ” ="}
+{"f":"practice","id":"numbers.02","k":"why","src":"Money uses Sino numbers: 오 (5) + 천 (1,000).","tgt":"เงินใช้ตัวเลขจีน-เกาหลี: 오 (5) + 천 (1,000)"}
+{"f":"practice","id":"numbers.03","k":"q","src":"'3 o'clock' =","tgt":"“3 นาฬิกา” ="}
+{"f":"practice","id":"numbers.03","k":"why","src":"Hours use native numbers, and 셋 shortens to 세.","tgt":"ชั่วโมงใช้ตัวเลขเกาหลีแท้ และ 셋 ย่อเป็น 세"}
+{"f":"practice","id":"numbers.04","k":"q","src":"'I'm 25 years old' =","tgt":"“อายุ 25 ปีครับ/ค่ะ” ="}
+{"f":"practice","id":"numbers.04","k":"why","src":"Age uses native numbers + 살.","tgt":"อายุใช้ตัวเลขเกาหลีแท้ + 살"}
+{"f":"practice","id":"numbers.05","k":"q","src":"'50,000 won' =","tgt":"“50,000 วอน” ="}
+{"f":"practice","id":"numbers.05","k":"why","src":"Korean groups big numbers by 만 (10,000): 50,000 is five 만.","tgt":"ภาษาเกาหลีนับเลขใหญ่ทีละ 만 (หมื่น) เหมือนภาษาไทย: 50,000 คือ ห้า 만 = ห้าหมื่น"}
+{"f":"practice","id":"numbers.06","k":"p","src":"2:30 (two thirty)","tgt":"2:30 (สองนาฬิกาสามสิบนาที)"}
+{"f":"practice","id":"numbers.06","k":"why","src":"Native hour (두 시), Sino minutes (삼십 분).","tgt":"ชั่วโมงใช้เลขเกาหลีแท้ (두 시) นาทีใช้เลขจีน-เกาหลี (삼십 분)"}
+{"f":"practice","id":"numbers.07","k":"p","src":"Two cups of coffee, please","tgt":"ขอกาแฟ 2 แก้วครับ/ค่ะ"}
+{"f":"practice","id":"numbers.07","k":"why","src":"Noun, number, counter, then the verb.","tgt":"คำนาม ตัวเลข ลักษณนาม แล้วจึงกริยา เรียงเหมือนภาษาไทย"}
+{"f":"practice","id":"numbers.08","k":"p","src":"This is 50,000 won","tgt":"อันนี้ 50,000 วอนครับ/ค่ะ"}
+{"f":"practice","id":"numbers.08","k":"why","src":"50,000 = 오만: Korean counts in 만.","tgt":"50,000 = 오만 เพราะภาษาเกาหลีนับทีละ 만 เหมือน หมื่น"}
+{"f":"practice","id":"numbers.09","k":"p","src":"One cup of coffee, please","tgt":"ขอกาแฟ 1 แก้วครับ/ค่ะ"}
+{"f":"practice","id":"numbers.09","k":"why","src":"하나 shortens to 한 before a counter.","tgt":"하나 ย่อเป็น 한 เมื่ออยู่หน้าลักษณนาม"}
+{"f":"practice","id":"numbers.10","k":"p","src":"It's 4 o'clock","tgt":"4 นาฬิกาครับ/ค่ะ"}
+{"f":"practice","id":"numbers.10","k":"why","src":"Hours are native, and 넷 shortens to 네.","tgt":"ชั่วโมงใช้ตัวเลขเกาหลีแท้ และ 넷 ย่อเป็น 네"}
+{"f":"practice","id":"numbers.11","k":"p","src":"3:30 (write the minutes in Hangul)","tgt":"3:30 (เขียนนาทีเป็นอักษรเกาหลี)"}
+{"f":"practice","id":"numbers.11","k":"why","src":"Minutes use Sino numbers: 삼십 = 30.","tgt":"นาทีใช้ตัวเลขจีน-เกาหลี: 삼십 = 30"}
+{"f":"practice","id":"numbers.12","k":"p","src":"I'm 28 years old (write the number in Hangul)","tgt":"อายุ 28 ปีครับ/ค่ะ (เขียนตัวเลขเป็นอักษรเกาหลี)"}
+{"f":"practice","id":"numbers.12","k":"why","src":"Age = native number + 살.","tgt":"อายุ = ตัวเลขเกาหลีแท้ + 살"}
+{"f":"practice","id":"numbers.13","k":"p","src":"It's 2 o'clock (write the number in Hangul)","tgt":"2 นาฬิกาครับ/ค่ะ (เขียนตัวเลขเป็นอักษรเกาหลี)"}
+{"f":"practice","id":"numbers.13","k":"why","src":"Hours are native: 둘 → 두 시.","tgt":"ชั่วโมงใช้ตัวเลขเกาหลีแท้: 둘 → 두 시"}
+{"f":"practice","id":"numbers.14","k":"p","src":"It's 3,000 won (write the number in Hangul)","tgt":"3,000 วอนครับ/ค่ะ (เขียนตัวเลขเป็นอักษรเกาหลี)"}
+{"f":"practice","id":"numbers.14","k":"why","src":"Money is Sino: 삼천 원. Native 세 is for hours and counted things.","tgt":"เงินใช้ตัวเลขจีน-เกาหลี: 삼천 원 ส่วนเลขเกาหลีแท้ 세 ใช้กับชั่วโมงและการนับสิ่งของ"}

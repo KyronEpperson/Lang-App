@@ -141,6 +141,7 @@ labels.jsonl     {"id":"ko.t01","text":"Sprout"}   {"id":"ko.h.night","text":"it
 | Greeting | `ko` and `rom` in the target half, the gloss in `labels`. Assembled as `[ko, rom + " · " + gloss]`. |
 | Dialogue translation | One native string `"line A / line B"`. The ` / ` count must be kept. |
 | Romanisation | Always target-side: Revised Romanization, shared by every native language. Learner-specific reading advice goes in the lesson prose, not in `rom`. |
+| Learner name `@@` | The learner's own name (2026-11-23). Korean text (`a`/`b` of a dialogue, example `ko`, `ko.s` sentence `ko` and `rom`, practice `a` `x` `o` `q`) writes `@@`; the runtime (`nameSync()` in `src/app.html`) puts in the nickname, or 민수 / minsu / Minsu without one, in derived copies of the tables, never in the pack object. A native string keeps exactly as many `@@` as the English one (`validate.js` error). Never in a card front or its romanisation (progress keys; `export_ko.js` refuses it), nor in pairs, pause sets, titles or greetings. Write the line so its grammar fits any name (`@@입니다`, `@@ 드림`, `@@님`), not 이에요 / 예요. Lines with `@@` get no recorded clip (`tools/audio/export.js` skips them). |
 
 ## 6 · Validation (`node tools/halves/validate.js <n> ko`)
 

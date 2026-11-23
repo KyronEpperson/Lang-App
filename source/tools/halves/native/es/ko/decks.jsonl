@@ -41,3 +41,16 @@
 {"id":"ko.d.family-people","label":"Familia y gente","desc":"Mamá, papá, hermanos, amigos, profe, y cómo la edad cambia la palabra."}
 {"id":"ko.d.adjectives","label":"Adjetivos","desc":"Bueno, malo, grande, pequeño, caliente, frío, ocupado, divertido."}
 {"id":"ko.d.k-drama-phrases","label":"Frases de K-drama","desc":"Reacciones y frases que oirás en cada capítulo."}
+{"id":"ko.d.top-nouns","label":"Sustantivos clave","desc":"Los sustantivos coreanos más usados que el curso todavía no enseña, de más a menos frecuente."}
+{"id":"ko.d.top-verbs","label":"Verbos clave","desc":"Verbos de acción en forma de diccionario; la nota da la forma en 해요 y marca los irregulares."}
+{"id":"ko.d.top-adjectives","label":"Adjetivos clave","desc":"Verbos descriptivos (en coreano los adjetivos son verbos): la forma en 해요 y la forma antes de un sustantivo."}
+{"id":"ko.d.top-adverbs","label":"Adverbios clave","desc":"Palabras de tiempo, grado, frecuencia y modo: muy, ya, a menudo, por qué, cómo."}
+{"id":"ko.d.top-pronouns","label":"Pronombres clave","desc":"Yo, tú, esto, quién, nadie, y por qué el nombre o el cargo suele reemplazar al «tú»."}
+{"id":"ko.d.top-particles","label":"Partículas clave","desc":"La respuesta coreana a las preposiciones: las partículas que van más allá de las nueve del mazo Partículas."}
+{"id":"ko.d.top-connectors","label":"Conectores clave","desc":"Terminaciones que unen (-고, -지만, -아서, -(으)면 …) mostradas en un verbo, y palabras de enlace que no están en Conectores."}
+{"id":"ko.d.top-interjections","label":"Interjecciones clave","desc":"Lo que de verdad exclaman los coreanos: guau, ay, uy, uf, tarán, y quién dice cada una."}
+{"id":"ko.d.top-words","label":"Palabras útiles","desc":"Este / ese / cuál antes de un sustantivo, formas de los números, días y horas, y maneras de decir sí y no."}
+{"id":"ko.d.top-counters","label":"Más contadores","desc":"Contadores que faltan en el mazo Contadores: carros, porciones, rollos, rebanadas, minutos, meses."}
+{"id":"ko.d.flirting-words","label":"Palabras para coquetear","desc":"Las palabras con las que coquetean los coreanos, frases hechas con ellas y maneras amables de decir sí o no."}
+{"id":"ko.d.compliments","label":"Cumplidos","desc":"Elogios cotidianos para la comida, el trabajo, la casa y los niños, y las respuestas modestas."}
+{"id":"ko.d.countries","label":"Países","desc":"Todos los países, los más preguntados primero. País + 에서 왔어요 = soy de…; + 사람 = nacionalidad; + 어 = idioma."}

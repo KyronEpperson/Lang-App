@@ -6,10 +6,10 @@
 {"id":"ko.s0006","ko":"고마워","rom":"gomawo"}
 {"id":"ko.s0007","ko":"귀여워요","rom":"gwiyeowoyo"}
 {"id":"ko.s0008","ko":"귀여워","rom":"gwiyeowo"}
-{"id":"ko.s0295","ko":"안녕하세요. 저는 키이예요","rom":"annyeonghaseyo. jeoneun kiiyeyo"}
+{"id":"ko.s0297","ko":"안녕하세요. 저는 @@입니다","rom":"annyeonghaseyo. jeoneun @@imnida"}
 {"id":"ko.s0010","ko":"만나서 반가워요","rom":"mannaseo bangawoyo"}
 {"id":"ko.s0011","ko":"어디에서 왔어요?","rom":"eodieseo wasseoyo?"}
-{"id":"ko.s0012","ko":"미국에서 왔어요","rom":"migugeseo wasseoyo"}
+{"id":"ko.s0298","ko":"멕시코에서 왔어요","rom":"meksikoeseo wasseoyo"}
 {"id":"ko.s0013","ko":"무슨 일 해요?","rom":"museun il haeyo?"}
 {"id":"ko.s0014","ko":"한국어 공부해요","rom":"hangugeo gongbuhaeyo"}
 {"id":"ko.s0015","ko":"몇 살이에요?","rom":"myeot sarieyo?"}
@@ -124,7 +124,7 @@
 {"id":"ko.s0124","ko":"아침에 커피를 마셔요","rom":"achime keopireul masyeoyo"}
 {"id":"ko.s0125","ko":"집에서 쉬어요","rom":"jibeseo swieoyo"}
 {"id":"ko.s0126","ko":"카페에서 공부해요","rom":"kapeeseo gongbuhaeyo"}
-{"id":"ko.s0127","ko":"미국에서 왔어요","rom":"migugeseo wasseoyo"}
+{"id":"ko.s0299","ko":"캐나다에서 왔어요","rom":"kaenadaeseo wasseoyo"}
 {"id":"ko.s0128","ko":"저는 학생이에요","rom":"jeoneun haksaengieyo"}
 {"id":"ko.s0129","ko":"누가 왔어요? 친구가 왔어요","rom":"nuga wasseoyo? chinguga wasseoyo"}
 {"id":"ko.s0130","ko":"안 가요","rom":"an gayo"}
@@ -286,9 +286,9 @@
 {"id":"ko.s0286","ko":"수고하세요","rom":"sugohaseyo"}
 {"id":"ko.s0287","ko":"수고하셨습니다","rom":"sugohasyeotseumnida"}
 {"id":"ko.s0288","ko":"수고했어요","rom":"sugohaesseoyo"}
-{"id":"ko.s0289","ko":"안녕하세요, 마케팅팀 키이입니다","rom":"annyeonghaseyo, maketingtim kiiimnida"}
+{"id":"ko.s0300","ko":"안녕하세요, 마케팅팀 @@입니다","rom":"annyeonghaseyo, maketingtim @@imnida"}
 {"id":"ko.s0290","ko":"다름이 아니라 보고서 관련해서 연락드립니다","rom":"dareumi anira bogoseo gwallyeonhaeseo yeollakdeurimnida"}
 {"id":"ko.s0291","ko":"확인 부탁드립니다","rom":"hwagin butakdeurimnida"}
-{"id":"ko.s0292","ko":"감사합니다. 키이 드림","rom":"gamsahamnida. kii deurim"}
+{"id":"ko.s0301","ko":"감사합니다. @@ 드림","rom":"gamsahamnida. @@ deurim"}
 {"id":"ko.s0293","ko":"한 잔 받으세요","rom":"han jan badeuseyo"}
 {"id":"ko.s0294","ko":"저는 운전해야 돼서요","rom":"jeoneun unjeonhaeya dwaeseoyo"}

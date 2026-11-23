@@ -74,7 +74,7 @@
 {"id":"ko.c0074","meaning":"What's your name?","note":"Polite: 성함이 어떻게 되세요? for elders or formal settings."}
 {"id":"ko.c0075","meaning":"Nice to meet you","note":"Lit. 'glad because we met'. Formal: 반갑습니다."}
 {"id":"ko.c0076","meaning":"Where are you from?","note":"에서 = from. 어디 = where."}
-{"id":"ko.c0077","meaning":"I'm from the US","note":"미국 = USA. 한국 Korea, 영국 UK, 캐나다 Canada, 멕시코 Mexico."}
+{"id":"ko.c0643","meaning":"I'm from ___","note":"Country + 에서 왔어요: 미국에서, 멕시코에서, 필리핀에서, 일본에서 왔어요. Every country is in the Countries deck."}
 {"id":"ko.c0078","meaning":"How old are you?","note":"Normal question in Korea; it decides how people speak to each other."}
 {"id":"ko.c0079","meaning":"I'm 30","note":"Native number + 살. 스물다섯 살 = 25."}
 {"id":"ko.c0080","meaning":"What do you do?","note":"일 = work. 직업이 뭐예요? also works."}
@@ -89,6 +89,7 @@
 {"id":"ko.c0089","meaning":"I didn't understand","note":"Say it, then 다시 말해 주세요."}
 {"id":"ko.c0090","meaning":"Please say it again","note":"다시 = again."}
 {"id":"ko.c0091","meaning":"Can you speak English?","note":"할 수 있다 = can do."}
+{"id":"ko.c0644","meaning":"Do you speak ___?","note":"Language + 할 수 있어요?: 영어, 스페인어, 중국어 할 수 있어요? Most languages are the country name + 어 (see the Countries deck); English is 영어."}
 {"id":"ko.c0092","meaning":"What is this?","note":"Point and ask. Works for food, signs, everything."}
 {"id":"ko.c0093","meaning":"I'm going to use the bathroom","note":"좀 softens; 게요 announces."}
 {"id":"ko.c0094","meaning":"Do you take cards?","note":"돼요 = is it possible / does it work."}
@@ -614,7 +615,7 @@
 {"id":"ko.c0614","meaning":"friend","note":"Technically same-age friend only."}
 {"id":"ko.c0615","meaning":"teacher","note":"Also a respectful 'sir/ma'am'."}
 {"id":"ko.c0616","meaning":"man / woman","note":"남자친구 = boyfriend, 여자친구 = girlfriend."}
-{"id":"ko.c0617","meaning":"person","note":"한국 사람 = Korean person. 미국 사람 = American."}
+{"id":"ko.c0617","meaning":"person","note":"한국 사람 = Korean person, 미국 사람 = American, 멕시코 사람 = Mexican: country + 사람."}
 {"id":"ko.c0618","meaning":"good / I like it","note":"안 좋아요 = not good."}
 {"id":"ko.c0619","meaning":"bad","note":"기분이 나빠요 = I feel bad."}
 {"id":"ko.c0620","meaning":"big","note":"크다 → 커요."}
@@ -639,3 +640,774 @@
 {"id":"ko.c0639","meaning":"You got this!","note":"From 'fighting'. Cheer before anything hard."}
 {"id":"ko.c0640","meaning":"Got it / okay","note":"Polite: 알았어요 or 알겠습니다."}
 {"id":"ko.c0641","meaning":"What did you say?","note":"Casual. 네? (ne?) is the polite 'pardon?'"}
+{"id":"ko.c0645","meaning":"thing; the one (that…)","note":"Never alone: 이것 = this thing, 좋은 것 = a good one. Spoken: 거."}
+{"id":"ko.c0646","meaning":"way; possibility (in -ㄹ 수 있다)","note":"갈 수 있어요 = I can go. Never alone."}
+{"id":"ko.c0647","meaning":"thing (spoken form of 것)","note":"이거, 제 거 = mine. What people actually say."}
+{"id":"ko.c0648","meaning":"words; what someone says","note":"말이 빨라요 = you talk fast. 말 also means horse."}
+{"id":"ko.c0649","meaning":"work; job; matter","note":"일이 많아요 = I have a lot of work. Also: day (counter), one (Sino-Korean)."}
+{"id":"ko.c0650","meaning":"time (when something happens)","note":"어릴 때 = when I was little; 그때 = back then."}
+{"id":"ko.c0651","meaning":"problem; question (on a test)","note":"문제없어요 = no problem."}
+{"id":"ko.c0652","meaning":"inside (deep in)","note":"마음속 = deep in your heart; 물속 = underwater."}
+{"id":"ko.c0653","meaning":"middle; in the middle of","note":"회의 중이에요 = I'm in a meeting."}
+{"id":"ko.c0654","meaning":"thought; idea","note":"좋은 생각이에요 = good idea. Verb: 생각하다."}
+{"id":"ko.c0655","meaning":"sound; noise","note":"무슨 소리예요? = what's that noise? (also: what nonsense!)"}
+{"id":"ko.c0656","meaning":"degree; about (an amount)","note":"한 시간 정도 = about an hour."}
+{"id":"ko.c0657","meaning":"child","note":"Spoken: 애. Polite for someone's child: 아드님 / 따님."}
+{"id":"ko.c0658","meaning":"time; hours","note":"시간 있어요? = are you free? Counted: 두 시간 = two hours."}
+{"id":"ko.c0659","meaning":"mother (respectful)","note":"Family talk: 엄마. Someone else's: 어머님."}
+{"id":"ko.c0660","meaning":"next; next time","note":"다음 주 = next week; 다음에 봐요 = see you next time."}
+{"id":"ko.c0661","meaning":"place","note":"좋은 곳 = a nice place. Spoken also: 데."}
+{"id":"ko.c0662","meaning":"world","note":"세계 여행 = a trip around the world."}
+{"id":"ko.c0663","meaning":"money","note":"돈이 없어요 = I'm broke."}
+{"id":"ko.c0664","meaning":"day","note":"그날 = that day; 좋은 날 = a good day."}
+{"id":"ko.c0665","meaning":"heart; mind; feelings","note":"마음에 들어요 = I like it (it pleases me)."}
+{"id":"ko.c0666","meaning":"after; later","note":"밥 먹은 후에 = after eating. Same as 뒤 for time."}
+{"id":"ko.c0667","meaning":"father (respectful)","note":"Family talk: 아빠. Someone else's: 아버님."}
+{"id":"ko.c0668","meaning":"body","note":"몸이 안 좋아요 = I don't feel well."}
+{"id":"ko.c0669","meaning":"face","note":"얼굴이 빨개요 = your face is red."}
+{"id":"ko.c0670","meaning":"appearance; how someone looks","note":"웃는 모습 = the way you look when you smile."}
+{"id":"ko.c0671","meaning":"road; way","note":"길이 막혀요 = the traffic is bad."}
+{"id":"ko.c0672","meaning":"daily life; living","note":"한국 생활 = life in Korea."}
+{"id":"ko.c0673","meaning":"way (of doing something); method","note":"좋은 방법 = a good way to do it."}
+{"id":"ko.c0674","meaning":"the first time; the beginning","note":"처음이에요 = it's my first time."}
+{"id":"ko.c0675","meaning":"hand","note":"손 씻으세요 = wash your hands."}
+{"id":"ko.c0676","meaning":"story; talk","note":"Spoken: 얘기. 이야기해요 = we talk."}
+{"id":"ko.c0677","meaning":"company; the office","note":"회사에 가요 = I'm going to work."}
+{"id":"ko.c0678","meaning":"content; what it's about","note":"무슨 내용이에요? = what's it about?"}
+{"id":"ko.c0679","meaning":"book","note":"책을 읽어요. Counted: 한 권."}
+{"id":"ko.c0680","meaning":"point; aspect; dot","note":"좋은 점 = a good point; 점 also = a mole on the skin."}
+{"id":"ko.c0681","meaning":"country","note":"어느 나라 사람이에요? = which country are you from?"}
+{"id":"ko.c0682","meaning":"student","note":"학생이에요? = are you a student?"}
+{"id":"ko.c0683","meaning":"name","note":"Polite for an elder's name: 성함."}
+{"id":"ko.c0684","meaning":"reason","note":"이유가 뭐예요? = what's the reason?"}
+{"id":"ko.c0685","meaning":"husband","note":"Spouses call each other 여보 or 자기."}
+{"id":"ko.c0686","meaning":"night","note":"오늘 밤 = tonight. 밤 also means chestnut."}
+{"id":"ko.c0687","meaning":"computer","note":"컴퓨터가 고장 났어요 = the computer broke."}
+{"id":"ko.c0688","meaning":"head; hair","note":"머리가 아파요 = headache; 머리 잘랐어요 = I got a haircut."}
+{"id":"ko.c0689","meaning":"son","note":"Someone else's son (polite): 아드님."}
+{"id":"ko.c0690","meaning":"room","note":"제 방 = my room. Also -방 places: 노래방, PC방."}
+{"id":"ko.c0691","meaning":"end","note":"끝났어요 = it's over."}
+{"id":"ko.c0692","meaning":"sky","note":"하늘이 맑아요 = the sky is clear."}
+{"id":"ko.c0693","meaning":"love (the noun)","note":"첫사랑 = first love. Verb: 사랑하다."}
+{"id":"ko.c0694","meaning":"phone call; telephone","note":"전화해요 = I call; 전화 왔어요 = there's a call."}
+{"id":"ko.c0695","meaning":"taste; flavor","note":"맛이 어때요? = how does it taste?"}
+{"id":"ko.c0696","meaning":"food (a dish, cuisine)","note":"한국 음식 = Korean food."}
+{"id":"ko.c0697","meaning":"wife","note":"Casual: 와이프. Someone else's: 부인."}
+{"id":"ko.c0698","meaning":"age","note":"Polite: 연세. Age decides how people talk to each other."}
+{"id":"ko.c0699","meaning":"daughter","note":"Someone else's daughter (polite): 따님."}
+{"id":"ko.c0700","meaning":"mountain","note":"Korea is two-thirds mountains: 산에 가요 = we go hiking."}
+{"id":"ko.c0701","meaning":"door","note":"문 좀 닫아 주세요."}
+{"id":"ko.c0702","meaning":"song","note":"노래 불러요 = I sing."}
+{"id":"ko.c0703","meaning":"sea; beach","note":"바다에 가요 = we're going to the beach."}
+{"id":"ko.c0704","meaning":"mood; how you feel","note":"기분이 어때요? = how are you feeling?"}
+{"id":"ko.c0705","meaning":"clothes","note":"옷이 예뻐요. Counted: 한 벌."}
+{"id":"ko.c0706","meaning":"dream","note":"꿈을 꿔요 = I have a dream (asleep)."}
+{"id":"ko.c0707","meaning":"thing; item (an object you buy or own)","note":"물건을 사요 = I buy things."}
+{"id":"ko.c0708","meaning":"experience","note":"좋은 경험이었어요 = it was a good experience."}
+{"id":"ko.c0709","meaning":"rain","note":"비가 와요 = it's raining (rain comes)."}
+{"id":"ko.c0710","meaning":"hometown","note":"고향이 어디예요? = where are you from originally?"}
+{"id":"ko.c0711","meaning":"baby","note":"아기가 자요 = the baby is sleeping."}
+{"id":"ko.c0712","meaning":"middle-aged man; sir (to a stranger)","note":"To taxi drivers, shopkeepers. Don't use it to a young man."}
+{"id":"ko.c0713","meaning":"month; the moon","note":"이번 달 = this month. Counted: 한 달."}
+{"id":"ko.c0714","meaning":"the last (one)","note":"마지막 기회 = the last chance."}
+{"id":"ko.c0715","meaning":"health","note":"건강하세요 = stay healthy (a common goodbye to elders)."}
+{"id":"ko.c0716","meaning":"bus","note":"버스 타요 = I take the bus."}
+{"id":"ko.c0717","meaning":"photo","note":"사진 찍어도 돼요? = may I take a photo?"}
+{"id":"ko.c0718","meaning":"meaning","note":"이게 무슨 뜻이에요? = what does this mean?"}
+{"id":"ko.c0719","meaning":"car","note":"Everyday: 차, which also means tea."}
+{"id":"ko.c0720","meaning":"half; class (at school)","note":"한 시 반 = half past one; 우리 반 = our class."}
+{"id":"ko.c0721","meaning":"price","note":"Spoken also: 값. 가격이 얼마예요?"}
+{"id":"ko.c0722","meaning":"mobile phone","note":"Also 휴대폰; casual 폰."}
+{"id":"ko.c0723","meaning":"neighborhood","note":"우리 동네 = my neighborhood."}
+{"id":"ko.c0724","meaning":"English (the language)","note":"영어 선생님 = English teacher."}
+{"id":"ko.c0725","meaning":"question","note":"질문 있어요 = I have a question."}
+{"id":"ko.c0726","meaning":"parents","note":"Always with 님, even your own."}
+{"id":"ko.c0727","meaning":"shop; store","note":"작은 가게 = a small shop."}
+{"id":"ko.c0728","meaning":"weather","note":"날씨가 좋네요."}
+{"id":"ko.c0729","meaning":"doctor","note":"Address one as 선생님."}
+{"id":"ko.c0730","meaning":"answer; reply","note":"대답해 주세요 = please answer."}
+{"id":"ko.c0731","meaning":"start; beginning","note":"시작이 반이다 = starting is half the job."}
+{"id":"ko.c0732","meaning":"homework","note":"숙제 다 했어요? = did you finish your homework?"}
+{"id":"ko.c0733","meaning":"ticket","note":"표 두 장 = two tickets."}
+{"id":"ko.c0734","meaning":"puppy; dog (everyday)","note":"개 is the plain word but also a swear prefix; 강아지 is safe."}
+{"id":"ko.c0735","meaning":"gift","note":"선물이에요 = it's a present for you."}
+{"id":"ko.c0736","meaning":"subway","note":"지하철로 가요 = I go by subway."}
+{"id":"ko.c0737","meaning":"weekend","note":"주말 잘 보내세요 = have a good weekend."}
+{"id":"ko.c0738","meaning":"birthday","note":"생일 축하해요 = happy birthday."}
+{"id":"ko.c0739","meaning":"cat","note":"고양이 키워요 = I have a cat."}
+{"id":"ko.c0740","meaning":"medicine","note":"약 먹어요 = I take medicine (eat medicine)."}
+{"id":"ko.c0741","meaning":"middle-aged woman (casual)","note":"Can sound rude. Politer: 아주머니, or in a shop 사장님."}
+{"id":"ko.c0742","meaning":"week","note":"이번 주 = this week; 다음 주 = next week."}
+{"id":"ko.c0743","meaning":"Korean (the language)","note":"Spoken: 한국말."}
+{"id":"ko.c0744","meaning":"there isn't; not to have","note":"없어요. The opposite of 있다. 시간이 없어요 = I have no time."}
+{"id":"ko.c0745","meaning":"to become; to work out; to be OK","note":"돼요. 돼요? = is that OK? 안 돼요 = no, you can't."}
+{"id":"ko.c0746","meaning":"to speak; to say","note":"말해요. To an elder: 말씀하세요."}
+{"id":"ko.c0747","meaning":"to receive; to get","note":"받아요. 전화 받아요 = I answer the phone."}
+{"id":"ko.c0748","meaning":"to come out","note":"나와요. 결과가 나왔어요 = the results are out."}
+{"id":"ko.c0749","meaning":"to live","note":"살아요. ㄹ drops before ㄴ/ㅂ/ㅅ: 사세요, 사는 곳."}
+{"id":"ko.c0750","meaning":"to think","note":"생각해요. 그렇게 생각해요 = I think so."}
+{"id":"ko.c0751","meaning":"to make","note":"만들어요. ㄹ drops: 만드세요, 만드는 법."}
+{"id":"ko.c0752","meaning":"to want to (after -고)","note":"싶어요. 먹고 싶어요 = I want to eat. Never alone."}
+{"id":"ko.c0753","meaning":"to be seen; to look (like)","note":"보여요. 잘 보여요 = I can see well."}
+{"id":"ko.c0754","meaning":"to have; to take (own)","note":"가져요. 가지고 가요 = I'll take it with me."}
+{"id":"ko.c0755","meaning":"to pass (by); time goes by","note":"지나요. 시간이 빨리 지나요."}
+{"id":"ko.c0756","meaning":"to hold; to lift; to cost","note":"들어요. ㄹ drops: 드세요 (but 드세요 also = please eat)."}
+{"id":"ko.c0757","meaning":"to throw away","note":"버려요. After -아/어: 다 먹어 버렸어요 = I ate it all (oops)."}
+{"id":"ko.c0758","meaning":"to start","note":"시작해요. 영화가 시작해요."}
+{"id":"ko.c0759","meaning":"to go in; to enter","note":"들어가요. 집에 들어가요 = I'm heading home."}
+{"id":"ko.c0760","meaning":"to put; to place","note":"놓아요 / 놔요. 여기 놓으세요."}
+{"id":"ko.c0761","meaning":"to meet","note":"만나요. Note: 친구를 만나요 (을/를, not \"with\")."}
+{"id":"ko.c0762","meaning":"to put out; to pay","note":"내요. 제가 낼게요 = I'll pay."}
+{"id":"ko.c0763","meaning":"to write; to use","note":"써요 (ㅡ drops). Also: to wear (a hat), to taste bitter."}
+{"id":"ko.c0764","meaning":"to listen; to hear","note":"들어요. ㄷ irregular: ㄷ → ㄹ before a vowel."}
+{"id":"ko.c0765","meaning":"to look for; to find","note":"찾아요. 돈 찾아요 = I withdraw money."}
+{"id":"ko.c0766","meaning":"to go out; to leave","note":"나가요. 오늘 나가요? = going out today?"}
+{"id":"ko.c0767","meaning":"to buy","note":"사요. 제가 살게요 = it's on me."}
+{"id":"ko.c0768","meaning":"to catch; to hold; to grab","note":"잡아요. 택시를 잡아요 = I hail a taxi."}
+{"id":"ko.c0769","meaning":"to stand; to stop","note":"서요. 줄을 서요 = I stand in line."}
+{"id":"ko.c0770","meaning":"to read","note":"읽어요. Said [익따]; 책 읽어요."}
+{"id":"ko.c0771","meaning":"to get up; to wake up","note":"일어나요. 일곱 시에 일어나요."}
+{"id":"ko.c0772","meaning":"to put in","note":"넣어요. 설탕 넣어 주세요."}
+{"id":"ko.c0773","meaning":"to feel","note":"느껴요. 행복을 느껴요."}
+{"id":"ko.c0774","meaning":"to call; to sing","note":"불러요. 르 irregular: 르 → ㄹㄹ before 아/어."}
+{"id":"ko.c0775","meaning":"to die","note":"죽어요. Polite about people: 돌아가시다. Also slang: 배고파 죽겠어 = starving."}
+{"id":"ko.c0776","meaning":"to get off; to come down (rain, snow)","note":"내려요. 다음 역에서 내려요."}
+{"id":"ko.c0777","meaning":"to build; to make (a name, rice)","note":"지어요. ㅅ irregular: ㅅ drops before a vowel."}
+{"id":"ko.c0778","meaning":"to use","note":"사용해요. Everyday speech prefers 쓰다."}
+{"id":"ko.c0779","meaning":"to ride; to get on","note":"타요. 버스를 타요 (을/를)."}
+{"id":"ko.c0780","meaning":"to send; to spend (time)","note":"보내요. 주말 잘 보내세요 = have a good weekend."}
+{"id":"ko.c0781","meaning":"to go regularly; to attend","note":"다녀요. 회사에 다녀요 = I work at a company."}
+{"id":"ko.c0782","meaning":"to open","note":"열어요. ㄹ drops: 여세요, 여는 시간."}
+{"id":"ko.c0783","meaning":"to come back","note":"돌아와요. 언제 돌아와요?"}
+{"id":"ko.c0784","meaning":"to ask","note":"물어요. ㄷ irregular. 길을 물어봐요 = I ask the way."}
+{"id":"ko.c0785","meaning":"to be left over; to remain","note":"남아요. 시간이 좀 남았어요."}
+{"id":"ko.c0786","meaning":"to come out; to break out (happen)","note":"나요. 생각이 나요 = it comes to mind; 냄새가 나요 = it smells."}
+{"id":"ko.c0787","meaning":"to laugh; to smile","note":"웃어요. Regular (not ㅅ irregular)."}
+{"id":"ko.c0788","meaning":"to wait","note":"기다려요. 잠깐만 기다려 주세요."}
+{"id":"ko.c0789","meaning":"to wear (clothes)","note":"입어요. Regular (not ㅂ irregular). Hats: 쓰다; shoes: 신다."}
+{"id":"ko.c0790","meaning":"to end; to finish","note":"끝나요. 수업이 끝났어요."}
+{"id":"ko.c0791","meaning":"to take (time); to catch (a cold)","note":"걸려요. 감기에 걸렸어요."}
+{"id":"ko.c0792","meaning":"to go up; to rise","note":"올라요. 르 irregular. 가격이 올랐어요."}
+{"id":"ko.c0793","meaning":"to believe; to trust","note":"믿어요. 저를 믿으세요."}
+{"id":"ko.c0794","meaning":"to change; to exchange","note":"바꿔요. 자리 바꿀까요? = shall we swap seats?"}
+{"id":"ko.c0795","meaning":"to learn","note":"배워요. 한국어를 배워요."}
+{"id":"ko.c0796","meaning":"to help","note":"도와요. ㅂ irregular (ㅂ → 오 here). Asking: 도와주세요."}
+{"id":"ko.c0797","meaning":"to talk; to chat","note":"이야기해요. Spoken: 얘기해요."}
+{"id":"ko.c0798","meaning":"to sleep","note":"자요. To an elder: 주무세요."}
+{"id":"ko.c0799","meaning":"to walk","note":"걸어요. ㄷ irregular: ㄷ → ㄹ before a vowel."}
+{"id":"ko.c0800","meaning":"to cry","note":"울어요. ㄹ drops: 우세요, 우는 아이."}
+{"id":"ko.c0801","meaning":"to get along; to spend days","note":"지내요. 잘 지냈어요? = how have you been?"}
+{"id":"ko.c0802","meaning":"to sell","note":"팔아요. ㄹ drops: 파세요, 파는 곳."}
+{"id":"ko.c0803","meaning":"to be born","note":"태어나요. 서울에서 태어났어요."}
+{"id":"ko.c0804","meaning":"to teach","note":"가르쳐요. 영어를 가르쳐요."}
+{"id":"ko.c0805","meaning":"to order (food); to make someone do","note":"시켜요. 치킨 시킬까요? = shall we order chicken?"}
+{"id":"ko.c0806","meaning":"to want; to wish for","note":"원해요. Formal; day to day use -고 싶다."}
+{"id":"ko.c0807","meaning":"to forget","note":"잊어요. Spoken more: 잊어버리다."}
+{"id":"ko.c0808","meaning":"to make an effort; to try hard","note":"노력해요. 더 노력할게요."}
+{"id":"ko.c0809","meaning":"to wash (yourself, food)","note":"씻어요. 손 씻어요."}
+{"id":"ko.c0810","meaning":"to fight; to argue","note":"싸워요. 친구랑 싸웠어요."}
+{"id":"ko.c0811","meaning":"to call (phone)","note":"전화해요. 이따 전화할게요 = I'll call you later."}
+{"id":"ko.c0812","meaning":"to prepare; to get ready","note":"준비해요. 준비됐어요? = are you ready?"}
+{"id":"ko.c0813","meaning":"to marry; to get married","note":"결혼해요. 결혼했어요? = are you married?"}
+{"id":"ko.c0814","meaning":"to take (a photo); to stamp","note":"찍어요. 사진 찍어 주세요."}
+{"id":"ko.c0815","meaning":"to arrive","note":"도착해요. 몇 시에 도착해요?"}
+{"id":"ko.c0816","meaning":"to borrow; to rent","note":"빌려요. 책 빌려도 돼요? To lend: 빌려주다."}
+{"id":"ko.c0817","meaning":"to choose; to pick","note":"골라요. 르 irregular."}
+{"id":"ko.c0818","meaning":"to get better (recover)","note":"나아요. ㅅ irregular. 빨리 나으세요 = get well soon."}
+{"id":"ko.c0819","meaning":"to remember","note":"기억해요. 저 기억하세요? = do you remember me?"}
+{"id":"ko.c0820","meaning":"to close","note":"닫아요. Regular, unlike 듣다 / 걷다."}
+{"id":"ko.c0821","meaning":"to leave; to depart","note":"출발해요. 지금 출발해요."}
+{"id":"ko.c0822","meaning":"to turn on","note":"켜요. 불 좀 켜 주세요 = turn the light on."}
+{"id":"ko.c0823","meaning":"to turn off","note":"꺼요 (ㅡ drops). 핸드폰 꺼 주세요."}
+{"id":"ko.c0824","meaning":"to get better; to improve","note":"좋아져요. 날씨가 좋아졌어요."}
+{"id":"ko.c0825","meaning":"to be the same; to be like","note":"같아요 · before a noun: 같은. 같은 반 = the same class."}
+{"id":"ko.c0826","meaning":"to be so; to be like that","note":"그래요 · 그런 (ㅎ irregular). 그래요? = really?"}
+{"id":"ko.c0827","meaning":"to be how (what is it like?)","note":"어때요? · 어떤 (ㅎ irregular). 날씨 어때요?"}
+{"id":"ko.c0828","meaning":"to be like this","note":"이래요 · 이런 (ㅎ irregular). 왜 이래요? = what's wrong with you?"}
+{"id":"ko.c0829","meaning":"to be different","note":"달라요 · 다른 (르 irregular)."}
+{"id":"ko.c0830","meaning":"to be new; to be fresh (feel new)","note":"새로워요 · 새로운 (ㅂ irregular). For things: 새 (new)."}
+{"id":"ko.c0831","meaning":"to be important","note":"중요해요 · 중요한."}
+{"id":"ko.c0832","meaning":"to be difficult","note":"어려워요 · 어려운 (ㅂ irregular). 한국어 어려워요?"}
+{"id":"ko.c0833","meaning":"to be easy","note":"쉬워요 · 쉬운 (ㅂ irregular)."}
+{"id":"ko.c0834","meaning":"to be needed; to need","note":"필요해요 · 필요한. 뭐가 필요해요? = what do you need?"}
+{"id":"ko.c0835","meaning":"to be high; to be tall (buildings)","note":"높아요 · 높은. People are 키가 커요, not 높아요."}
+{"id":"ko.c0836","meaning":"to be long","note":"길어요 · 긴 (ㄹ drops)."}
+{"id":"ko.c0837","meaning":"to be young","note":"젊어요 · 젊은. Said [점따]."}
+{"id":"ko.c0838","meaning":"to be sick; to hurt","note":"아파요 · 아픈 (ㅡ drops). 어디 아파요?"}
+{"id":"ko.c0839","meaning":"to be few; to be little","note":"적어요 · 적은. Opposite of 많다."}
+{"id":"ko.c0840","meaning":"to be fast","note":"빨라요 · 빠른 (르 irregular)."}
+{"id":"ko.c0841","meaning":"to be wide; to be spacious","note":"넓어요 · 넓은. Said [널따]."}
+{"id":"ko.c0842","meaning":"to be strange; to be weird","note":"이상해요 · 이상한."}
+{"id":"ko.c0843","meaning":"to be similar","note":"비슷해요 · 비슷한."}
+{"id":"ko.c0844","meaning":"to be short (length, time)","note":"짧아요 · 짧은. Short people: 키가 작아요."}
+{"id":"ko.c0845","meaning":"to be thankful","note":"고마워요 · 고마운 (ㅂ irregular). Warmer, less formal than 감사합니다."}
+{"id":"ko.c0846","meaning":"to be warm","note":"따뜻해요 · 따뜻한. Also for people: a warm person."}
+{"id":"ko.c0847","meaning":"to be low","note":"낮아요 · 낮은."}
+{"id":"ko.c0848","meaning":"to be fun; to be enjoyable","note":"즐거워요 · 즐거운 (ㅂ irregular). 즐거운 주말 보내세요."}
+{"id":"ko.c0849","meaning":"to be scary; to be scared","note":"무서워요 · 무서운 (ㅂ irregular)."}
+{"id":"ko.c0850","meaning":"to be light (weight)","note":"가벼워요 · 가벼운 (ㅂ irregular)."}
+{"id":"ko.c0851","meaning":"to be healthy","note":"건강해요 · 건강한."}
+{"id":"ko.c0852","meaning":"to be bright","note":"밝아요 · 밝은. Said [박따]. Also: cheerful (a person)."}
+{"id":"ko.c0853","meaning":"to be comfortable; to be convenient","note":"편해요 · 편한."}
+{"id":"ko.c0854","meaning":"to be clean","note":"깨끗해요 · 깨끗한."}
+{"id":"ko.c0855","meaning":"to be dark","note":"어두워요 · 어두운 (ㅂ irregular)."}
+{"id":"ko.c0856","meaning":"to be sorry","note":"미안해요 · 미안한. Formal apology: 죄송합니다."}
+{"id":"ko.c0857","meaning":"to be famous","note":"유명해요 · 유명한."}
+{"id":"ko.c0858","meaning":"to be glad; to be joyful","note":"기뻐요 · 기쁜 (ㅡ drops)."}
+{"id":"ko.c0859","meaning":"to be heavy","note":"무거워요 · 무거운 (ㅂ irregular)."}
+{"id":"ko.c0860","meaning":"to be special","note":"특별해요 · 특별한."}
+{"id":"ko.c0861","meaning":"to be hot (to the touch)","note":"뜨거워요 · 뜨거운 (ㅂ irregular). Hot weather is 덥다."}
+{"id":"ko.c0862","meaning":"to be kind (helpful)","note":"친절해요 · 친절한. For staff, strangers."}
+{"id":"ko.c0863","meaning":"to be narrow; to be cramped","note":"좁아요 · 좁은."}
+{"id":"ko.c0864","meaning":"to be uncomfortable; to be inconvenient","note":"불편해요 · 불편한."}
+{"id":"ko.c0865","meaning":"to be cool; to be refreshing","note":"시원해요 · 시원한. Also said of hot soup: \"ah, that hits the spot\"."}
+{"id":"ko.c0866","meaning":"to be glad (to see someone)","note":"반가워요 · 반가운 (ㅂ irregular)."}
+{"id":"ko.c0867","meaning":"to be cold (to the touch)","note":"차가워요 · 차가운 (ㅂ irregular). Cold weather is 춥다."}
+{"id":"ko.c0868","meaning":"to be spicy","note":"매워요 · 매운 (ㅂ irregular)."}
+{"id":"ko.c0869","meaning":"to be sweet (taste)","note":"달아요 · 단 (ㄹ drops)."}
+{"id":"ko.c0870","meaning":"to be slow","note":"느려요 · 느린."}
+{"id":"ko.c0871","meaning":"to be dirty","note":"더러워요 · 더러운 (ㅂ irregular)."}
+{"id":"ko.c0872","meaning":"to be noisy","note":"시끄러워요 · 시끄러운 (ㅂ irregular)."}
+{"id":"ko.c0873","meaning":"to be white","note":"하얘요 · 하얀 (ㅎ irregular)."}
+{"id":"ko.c0874","meaning":"to be salty","note":"짜요 · 짠."}
+{"id":"ko.c0875","meaning":"to be quiet","note":"조용해요 · 조용한."}
+{"id":"ko.c0876","meaning":"to be envious (of)","note":"부러워요 · 부러운 (ㅂ irregular). 부러워요! = lucky you!"}
+{"id":"ko.c0877","meaning":"to be red","note":"빨개요 · 빨간 (ㅎ irregular)."}
+{"id":"ko.c0878","meaning":"to be full (after eating)","note":"배불러요 · 배부른 (르 irregular)."}
+{"id":"ko.c0879","meaning":"to be boring; not fun","note":"재미없어요 · 재미없는 (있다/없다 take -는)."}
+{"id":"ko.c0880","meaning":"to be yellow","note":"노래요 · 노란 (ㅎ irregular). 노래요 also = it's a song."}
+{"id":"ko.c0881","meaning":"to taste bad","note":"맛없어요 · 맛없는. Said [마덥따]."}
+{"id":"ko.c0882","meaning":"to be black","note":"까매요 · 까만 (ㅎ irregular)."}
+{"id":"ko.c0883","meaning":"to be lonely","note":"외로워요 · 외로운 (ㅂ irregular)."}
+{"id":"ko.c0884","meaning":"to be blue","note":"파래요 · 파란 (ㅎ irregular)."}
+{"id":"ko.c0885","meaning":"to be a hassle; can't be bothered","note":"귀찮아요 · 귀찮은. Very common in speech."}
+{"id":"ko.c0886","meaning":"not (short negation)","note":"Right before the verb: 안 가요. With 하다 verbs: 공부 안 해요."}
+{"id":"ko.c0887","meaning":"more","note":"더 주세요 = more, please; 조금 더 = a bit more."}
+{"id":"ko.c0888","meaning":"well","note":"잘 자요 = sleep well; 잘 몰라요 = I don't really know."}
+{"id":"ko.c0889","meaning":"again; also","note":"또 봐요 = see you again; 또 늦었어요? = late again?"}
+{"id":"ko.c0890","meaning":"how","note":"어떻게 가요? = how do I get there? 어떡해 = oh no (from 어떻게 해)."}
+{"id":"ko.c0891","meaning":"again","note":"다시 한번 = once more."}
+{"id":"ko.c0892","meaning":"all; everything","note":"다 먹었어요 = I ate it all; 다 왔어요 = we're almost there."}
+{"id":"ko.c0893","meaning":"a little; please (softener)","note":"좀 도와주세요 sounds softer than 도와주세요. Short for 조금."}
+{"id":"ko.c0894","meaning":"together (a bit formal)","note":"Everyday: 같이. 함께해요 = let's do it together."}
+{"id":"ko.c0895","meaning":"a lot; much","note":"많이 드세요 = eat plenty (said by a host)."}
+{"id":"ko.c0896","meaning":"most (the …-est)","note":"가장 좋아하는 = my favorite. Spoken more: 제일."}
+{"id":"ko.c0897","meaning":"right (away); exactly","note":"바로 앞 = right in front; 바로 갈게요 = I'll come right away."}
+{"id":"ko.c0898","meaning":"all; everyone","note":"모두 같이 = all together."}
+{"id":"ko.c0899","meaning":"why","note":"왜요? = why? Sounds blunt alone; add 혹시 to soften."}
+{"id":"ko.c0900","meaning":"especially","note":"특히 김치를 좋아해요."}
+{"id":"ko.c0901","meaning":"yet; still","note":"아직 안 먹었어요 = I haven't eaten yet."}
+{"id":"ko.c0902","meaning":"together","note":"같이 가요 = let's go together. After a noun it is a particle: 꽃같이 = like a flower."}
+{"id":"ko.c0903","meaning":"can't","note":"Right before the verb: 못 가요 = I can't go. 수영 못 해요."}
+{"id":"ko.c0904","meaning":"too; so (very)","note":"너무 비싸요 = too expensive; 너무 좋아요 = I love it."}
+{"id":"ko.c0905","meaning":"already (done earlier)","note":"이미 끝났어요 = it's already over."}
+{"id":"ko.c0906","meaning":"very","note":"Neutral. Spoken more: 정말, 진짜, 너무."}
+{"id":"ko.c0907","meaning":"just; for no reason","note":"그냥요 = no reason; 그냥 그래요 = so-so."}
+{"id":"ko.c0908","meaning":"almost; hardly","note":"거의 다 왔어요 = almost there; 거의 안 먹어요 = I hardly eat."}
+{"id":"ko.c0909","meaning":"soon","note":"곧 도착해요 = arriving soon."}
+{"id":"ko.c0910","meaning":"each other","note":"서로 도와요 = we help each other."}
+{"id":"ko.c0911","meaning":"really; truly","note":"정말 맛있어요. 정말요? = really?"}
+{"id":"ko.c0912","meaning":"alone; by yourself","note":"혼자 왔어요 = I came alone."}
+{"id":"ko.c0913","meaning":"now (from now on); finally","note":"이제 가요 = I'm going now; 이제 알겠어요 = now I get it."}
+{"id":"ko.c0914","meaning":"surely; be sure to","note":"꼭 오세요 = be sure to come."}
+{"id":"ko.c0915","meaning":"these days; lately","note":"요즘 바빠요?"}
+{"id":"ko.c0916","meaning":"continuously; keep (…ing)","note":"계속 생각나요 = I keep thinking about it."}
+{"id":"ko.c0917","meaning":"suddenly","note":"갑자기 비가 와요."}
+{"id":"ko.c0918","meaning":"not at all","note":"With a negative: 전혀 몰라요."}
+{"id":"ko.c0919","meaning":"quickly; fast","note":"빨리 와요 = come quickly."}
+{"id":"ko.c0920","meaning":"much (more)","note":"With comparisons: 훨씬 더 좋아요."}
+{"id":"ko.c0921","meaning":"hard; diligently","note":"열심히 공부해요."}
+{"id":"ko.c0922","meaning":"often","note":"자주 와요? = do you come here often?"}
+{"id":"ko.c0923","meaning":"already (sooner than expected)","note":"벌써 열 시예요? = it's ten already?"}
+{"id":"ko.c0924","meaning":"the most; number one","note":"제일 좋아요 = it's the best."}
+{"id":"ko.c0925","meaning":"probably; maybe","note":"Often with -(으)ㄹ 거예요: 아마 비가 올 거예요."}
+{"id":"ko.c0926","meaning":"a little; a bit","note":"Spoken short form: 좀."}
+{"id":"ko.c0927","meaning":"always","note":"Spoken also: 늘, 언제나."}
+{"id":"ko.c0928","meaning":"later","note":"나중에 연락할게요."}
+{"id":"ko.c0929","meaning":"not really; not particularly","note":"With a negative: 별로 안 좋아해요. 별로예요 = it's meh."}
+{"id":"ko.c0930","meaning":"sometimes","note":"가끔 만나요."}
+{"id":"ko.c0931","meaning":"early","note":"일찍 일어나요."}
+{"id":"ko.c0932","meaning":"originally; normally (it's always like that)","note":"원래 그래요 = it's always like that."}
+{"id":"ko.c0933","meaning":"late","note":"늦게 자요 = I go to bed late."}
+{"id":"ko.c0934","meaning":"usually","note":"보통 몇 시에 자요? Also a noun: regular size."}
+{"id":"ko.c0935","meaning":"by any chance","note":"Softens a question: 혹시 한국 사람이에요?"}
+{"id":"ko.c0936","meaning":"really; so (spoken)","note":"Casual: 되게 맛있어. Not in writing."}
+{"id":"ko.c0937","meaning":"in a moment; right away","note":"금방 갈게요 = I'll be right there."}
+{"id":"ko.c0938","meaning":"for real; seriously","note":"Stronger, more casual than 정말."}
+{"id":"ko.c0939","meaning":"slowly","note":"천천히 드세요 = take your time eating."}
+{"id":"ko.c0940","meaning":"just now","note":"방금 왔어요 = I just got here."}
+{"id":"ko.c0941","meaning":"I; me (casual)","note":"To friends and younger people. With 가: 내가. My: 내."}
+{"id":"ko.c0942","meaning":"we; us; our","note":"Also \"my\" for family and home: 우리 엄마, 우리 집."}
+{"id":"ko.c0943","meaning":"Mr. / Ms. (after a full or given name)","note":"Names replace \"you\": 민수 씨, 어디 가요? Never after your own name or a surname alone."}
+{"id":"ko.c0944","meaning":"that (thing, near you or mentioned)","note":"Spoken: 그거. With 이: 그게."}
+{"id":"ko.c0945","meaning":"I; me (polite, humble)","note":"The default with strangers. With 가: 제가. My: 제."}
+{"id":"ko.c0946","meaning":"my (polite)","note":"저 + 의. 제 이름은 … = my name is …"}
+{"id":"ko.c0947","meaning":"oneself; self","note":"자신 있어요 = I'm confident. 자신을 사랑하세요."}
+{"id":"ko.c0948","meaning":"you (casual, to a friend or a child)","note":"Only to close friends or younger people. With 가: 네가 (said 니가)."}
+{"id":"ko.c0949","meaning":"what (spoken)","note":"뭐 해요? = what are you doing? Formal: 무엇."}
+{"id":"ko.c0950","meaning":"who","note":"누구예요? With 가: 누가 왔어요? = who came?"}
+{"id":"ko.c0951","meaning":"oneself; honey (between couples)","note":"자기 일 = one's own business. 자기야 = honey."}
+{"id":"ko.c0952","meaning":"what (written, formal)","note":"무엇을 도와드릴까요? = how may I help you?"}
+{"id":"ko.c0953","meaning":"that one (spoken)","note":"그거 좋네요 = that's a good one / good idea."}
+{"id":"ko.c0954","meaning":"where; what place","note":"어디 가요? (often just a greeting: where are you off to?)"}
+{"id":"ko.c0955","meaning":"this (thing)","note":"Spoken: 이거. With 이: 이게."}
+{"id":"ko.c0956","meaning":"you (spouses, songs, ads)","note":"Rarely used face to face: it can sound cold or start a fight. Use the person's name or title instead."}
+{"id":"ko.c0957","meaning":"there (near you, or the place we mentioned)","note":"거기 어디예요? = where is that place? Pairs with 여기 / 저기."}
+{"id":"ko.c0958","meaning":"this one (spoken)","note":"이거 얼마예요? Point and say 이거 주세요."}
+{"id":"ko.c0959","meaning":"my (casual)","note":"나 + 의. 내 친구 = my friend."}
+{"id":"ko.c0960","meaning":"any; anyone (+ particle)","note":"아무나 = anyone at all; 아무 때나 = any time."}
+{"id":"ko.c0961","meaning":"nobody (with a negative)","note":"아무도 없어요 = there's nobody here."}
+{"id":"ko.c0962","meaning":"that one over there (spoken)","note":"저거 뭐예요?"}
+{"id":"ko.c0963","meaning":"nothing (with a negative)","note":"아무것도 몰라요 = I don't know anything."}
+{"id":"ko.c0964","meaning":"something","note":"뭔가 이상해요 = something's off."}
+{"id":"ko.c0965","meaning":"we; us (humble)","note":"To customers, elders, at work. It lowers your side, so it never includes the listener."}
+{"id":"ko.c0966","meaning":"everyone (you all)","note":"Addressing a group: 여러분, 안녕하세요!"}
+{"id":"ko.c0967","meaning":"someone","note":"누군가 왔어요 = someone came. Spoken: 누가."}
+{"id":"ko.c0968","meaning":"that (thing, over there)","note":"Spoken: 저거. With 이: 저게."}
+{"id":"ko.c0969","meaning":"this person (honorific)","note":"Introducing someone: 이분은 김 선생님이세요."}
+{"id":"ko.c0970","meaning":"this kid; this person (casual)","note":"From 이 아이. About a friend standing next to you: 얘는 제 친구예요."}
+{"id":"ko.c0971","meaning":"this way; this person (introducing)","note":"이쪽으로 오세요 = come this way. 이쪽은 제 동생이에요."}
+{"id":"ko.c0972","meaning":"that kid; he / she (casual)","note":"From 그 아이. Common way to say \"he/she\" among friends."}
+{"id":"ko.c0973","meaning":"you (to a stranger, lit. that side)","note":"A way around saying 너 or 당신 to someone whose name you don't know. Can sound distant or a little cheeky."}
+{"id":"ko.c0974","meaning":"over that way","note":"저쪽에 있어요 = it's over there."}
+{"id":"ko.c0975","meaning":"that person over there (honorific)","note":"저분이 누구세요?"}
+{"id":"ko.c0976","meaning":"that kid over there (casual)","note":"From 저 아이. Don't use it about elders."}
+{"id":"ko.c0977","meaning":"somewhere","note":"어딘가에 있을 거예요 = it must be somewhere."}
+{"id":"ko.c0978","meaning":"that person; he / she (honorific)","note":"For someone respected: 그분이 오셨어요."}
+{"id":"ko.c0979","meaning":"he (in writing)","note":"Speech uses the person's name or 그 사람, 걔. 그 also = that (before a noun)."}
+{"id":"ko.c0980","meaning":"she (in writing)","note":"Almost never spoken. Use the name, 그 사람 or 걔."}
+{"id":"ko.c0981","meaning":"by (means); toward; as","note":"After a vowel or ㄹ: 로 (버스로, 지하철로); after a consonant: 으로 (손으로)."}
+{"id":"ko.c0982","meaning":"until; to (an end point); even","note":"Same after vowels and consonants: 세 시까지, 서울까지."}
+{"id":"ko.c0983","meaning":"from (a starting time or point)","note":"아홉 시부터 = from nine. Pairs with 까지."}
+{"id":"ko.c0984","meaning":"polite marker (after any word)","note":"Makes a bare word polite: 저도요, 커피요, 왜요?"}
+{"id":"ko.c0985","meaning":"to (a person, spoken)","note":"친구한테 줘요. Only for people and animals; places take 에."}
+{"id":"ko.c0986","meaning":"than","note":"Goes after the thing you compare against: 버스보다 빨라요 = faster than the bus."}
+{"id":"ko.c0987","meaning":"plural marker (-s)","note":"친구들 = friends. Often left out: Korean doesn't need a plural."}
+{"id":"ko.c0988","meaning":"and; with (casual)","note":"Vowel: 랑 (친구랑); consonant: 이랑 (동생이랑). Spoken version of 하고."}
+{"id":"ko.c0989","meaning":"or; as many as","note":"Vowel: 나 (커피나 차); consonant: 이나 (빵이나 밥). 두 시간이나 = a whole two hours."}
+{"id":"ko.c0990","meaning":"to (a person, written or careful)","note":"Same as 한테, a bit more formal: 선생님에게."}
+{"id":"ko.c0991","meaning":"like; as (similar to)","note":"한국 사람처럼 말해요 = you talk like a Korean."}
+{"id":"ko.c0992","meaning":"only; nothing but (with a negative)","note":"천 원밖에 없어요 = I only have 1,000 won. The verb must be negative."}
+{"id":"ko.c0993","meaning":"about; around (a time or amount)","note":"세 시쯤 = around three; 얼마쯤 = about how much."}
+{"id":"ko.c0994","meaning":"every; each","note":"날마다 = every day; 주말마다 = every weekend."}
+{"id":"ko.c0995","meaning":"hey (after a name, casual)","note":"Consonant: 아 (민정아); vowel: 야 (지수야). Only to friends and younger people."}
+{"id":"ko.c0996","meaning":"subject marker (honorific)","note":"Replaces 이/가 for elders: 할아버지께서 오셨어요."}
+{"id":"ko.c0997","meaning":"to (an honored person)","note":"Honorific 에게: 할머니께 드려요."}
+{"id":"ko.c0998","meaning":"from (a person, spoken)","note":"친구한테서 받았어요. Often shortened to 한테."}
+{"id":"ko.c0999","meaning":"each; at a time","note":"하나씩 = one each; 조금씩 = little by little."}
+{"id":"ko.c1000","meaning":"at least; or something","note":"커피라도 마실래요? = want to at least grab a coffee?"}
+{"id":"ko.c1001","meaning":"called; saying (quotes a word)","note":"민수라고 해요 = I'm called Minsu."}
+{"id":"ko.c1002","meaning":"as; in accordance with","note":"마음대로 = as you like; 말한 대로 = as I said."}
+{"id":"ko.c1003","meaning":"(starting) from (a place)","note":"집에서부터 걸어왔어요 = I walked all the way from home."}
+{"id":"ko.c1004","meaning":"eat and (then) (-고)","note":"-고 joins two actions or facts. Same after vowels and consonants: 가고, 먹고."}
+{"id":"ko.c1005","meaning":"go and (then) (-아서/어서)","note":"-아서/어서: one action leads to the next. 가서 먹어요 = I'll go there and eat."}
+{"id":"ko.c1006","meaning":"because I'm tired (-아서/어서)","note":"-아서/어서 = because. Never with -(으)세요 or -(으)ㄹ까요."}
+{"id":"ko.c1007","meaning":"if (I) go (-(으)면)","note":"Vowel stem: -면 (가면); consonant: -으면 (먹으면)."}
+{"id":"ko.c1008","meaning":"I'm busy, but / so (-(으)ㄴ데 / -는데)","note":"Sets the scene: 바쁜데 나중에 얘기해요. Verbs: 가는데; adjectives: 바쁜데."}
+{"id":"ko.c1009","meaning":"it's expensive, but (-지만)","note":"-지만 = but. Same after any stem: 좋지만, 비싸지만."}
+{"id":"ko.c1010","meaning":"when (I) go (-(으)ㄹ 때)","note":"Vowel: 갈 때; consonant: 먹을 때. 어릴 때 = when I was little."}
+{"id":"ko.c1011","meaning":"since it's raining (-(으)니까)","note":"-(으)니까 = because, and works with requests: 비가 오니까 우산 가져가세요."}
+{"id":"ko.c1012","meaning":"even if it's expensive (-아도/어도)","note":"비싸도 사고 싶어요."}
+{"id":"ko.c1013","meaning":"intending to go (-(으)려고)","note":"한국에 가려고 한국어를 배워요."}
+{"id":"ko.c1014","meaning":"while walking (-(으)면서)","note":"Two things at once, same person: 음악 들으면서 걸어요."}
+{"id":"ko.c1015","meaning":"(go) in order to eat (-(으)러)","note":"Only with go / come: 먹으러 가요, 놀러 와요."}
+{"id":"ko.c1016","meaning":"while going, then (-다가)","note":"One action is interrupted: 집에 가다가 친구를 만났어요."}
+{"id":"ko.c1017","meaning":"sleep or (-거나)","note":"-거나 = or, between actions: 주말에 자거나 영화 봐요."}
+{"id":"ko.c1018","meaning":"after eating (-(으)ㄴ 후에)","note":"Vowel: 간 후에; consonant: 먹은 후에. Also -고 나서."}
+{"id":"ko.c1019","meaning":"before sleeping (-기 전에)","note":"Verb + 기 전에: 먹기 전에 = before eating."}
+{"id":"ko.c1020","meaning":"as soon as (I) arrive (-자마자)","note":"집에 도착하자마자 잤어요."}
+{"id":"ko.c1021","meaning":"however (written)","note":"Books and news. In speech: 그런데, 하지만."}
+{"id":"ko.c1022","meaning":"that is; namely","note":"Written, formal."}
+{"id":"ko.c1023","meaning":"but; by the way (spoken)","note":"The spoken short form of 그런데. Starts a new topic too: 근데 밥 먹었어?"}
+{"id":"ko.c1024","meaning":"therefore (written)","note":"Formal 그래서."}
+{"id":"ko.c1025","meaning":"or (between nouns, formal)","note":"카드 또는 현금 = card or cash. Speech: 아니면, (이)나."}
+{"id":"ko.c1026","meaning":"so; that's why; I mean","note":"Also \"exactly!\": 그러니까요! Spoken short: 그니까."}
+{"id":"ko.c1027","meaning":"but; nevertheless","note":"Between 그런데 and 하지만 in tone."}
+{"id":"ko.c1028","meaning":"if so; in that case","note":"A bit more formal than 그럼."}
+{"id":"ko.c1029","meaning":"and then (while doing that)","note":"텔레비전을 봤어요. 그러다가 잠들었어요."}
+{"id":"ko.c1030","meaning":"besides; on top of that","note":"비싸요. 게다가 맛도 없어요."}
+{"id":"ko.c1031","meaning":"ah; oh (I see)","note":"The all-purpose reaction: 아, 그래요? Also a sigh."}
+{"id":"ko.c1032","meaning":"uh; huh?","note":"Surprise or a casual \"yeah\": 어, 왔어? Casual."}
+{"id":"ko.c1033","meaning":"wow","note":"Neutral, anyone can say it. Longer = more impressed: 와아."}
+{"id":"ko.c1034","meaning":"oh!; ooh","note":"Pleasantly surprised: 오, 멋있다! Also spelled like 오 (five)."}
+{"id":"ko.c1035","meaning":"yeah; uh-huh (casual)","note":"Casual \"yes\" to friends. To elders: 네."}
+{"id":"ko.c1036","meaning":"right, then; here you go","note":"Getting started or handing something over: 자, 시작할까요?"}
+{"id":"ko.c1037","meaning":"hmm","note":"Thinking before you answer. Fine in any register."}
+{"id":"ko.c1038","meaning":"whoa; wooow","note":"Bigger, more childlike than 와."}
+{"id":"ko.c1039","meaning":"hello? (on the phone)","note":"Only on the phone, or to check if someone hears you. Not a greeting in person."}
+{"id":"ko.c1040","meaning":"well…; I'm not sure","note":"Polite: 글쎄요. Buys time or softens a \"no\"."}
+{"id":"ko.c1041","meaning":"aw, come on; no way","note":"Light disbelief or teasing: 에이, 거짓말! Casual."}
+{"id":"ko.c1042","meaning":"oh my god (lit. in the world)","note":"Amazement or shock. Common with older speakers: 세상에, 이게 뭐야!"}
+{"id":"ko.c1043","meaning":"phew","note":"Relief. Also a sigh."}
+{"id":"ko.c1044","meaning":"ouch","note":"Sudden pain. Shorter: 아! Children say 아야야."}
+{"id":"ko.c1045","meaning":"sigh; oh well","note":"Tired resignation. Can sound grumpy; be careful with elders."}
+{"id":"ko.c1046","meaning":"oh my!; goodness!","note":"Mostly women and older speakers. 어머나 is stronger."}
+{"id":"ko.c1047","meaning":"gasp!; yikes","note":"Shock, also typed in chats. Casual."}
+{"id":"ko.c1048","meaning":"oops!; oh!","note":"Sudden small surprise or mistake. Casual."}
+{"id":"ko.c1049","meaning":"oh no, I forgot!","note":"When you remember a mistake: 아차, 지갑! Casual."}
+{"id":"ko.c1050","meaning":"you scared me!","note":"When startled. Casual; polite: 깜짝 놀랐어요."}
+{"id":"ko.c1051","meaning":"oh, come on (embarrassed, coy)","note":"Shy or mildly annoyed, often playful. Usually women."}
+{"id":"ko.c1052","meaning":"yes!; yay!","note":"Small personal victory. Also written 앗싸. Casual, a bit playful."}
+{"id":"ko.c1053","meaning":"shh","note":"Asking for quiet. Anyone can say it."}
+{"id":"ko.c1054","meaning":"aaah!","note":"A scream: a bug, a fright, a disaster. Casual."}
+{"id":"ko.c1055","meaning":"ta-da!","note":"Showing off a surprise or a gift. Playful."}
+{"id":"ko.c1056","meaning":"yuck; ew","note":"Disgust, especially at food. Casual; rude to say about someone's cooking."}
+{"id":"ko.c1057","meaning":"this / that / that (over there) (before a noun)","note":"이 사람, 그 책, 저 건물. 그 = near you or already mentioned; 저 = far from both."}
+{"id":"ko.c1058","meaning":"one, two, three, four (before a counter)","note":"하나 → 한, 둘 → 두, 셋 → 세, 넷 → 네: 한 잔, 두 명."}
+{"id":"ko.c1059","meaning":"this kind of / that kind of / that kind of (over there)","note":"이런 날 = a day like this. 그런 거 아니에요 = it's not like that."}
+{"id":"ko.c1060","meaning":"what kind of; some (before a noun)","note":"어떤 음식 좋아해요? From 어떻다."}
+{"id":"ko.c1061","meaning":"other; another; different","note":"다른 거 있어요? = do you have another one?"}
+{"id":"ko.c1062","meaning":"various; several","note":"여러 번 = many times; 여러 가지 = all sorts."}
+{"id":"ko.c1063","meaning":"which (before a noun)","note":"어느 나라 = which country; 어느 쪽 = which way."}
+{"id":"ko.c1064","meaning":"every; all (before a noun)","note":"모든 사람 = everyone."}
+{"id":"ko.c1065","meaning":"this (time); this coming","note":"이번 주말 = this weekend; 이번이 처음이에요."}
+{"id":"ko.c1066","meaning":"how many; a few","note":"몇 개? = how many? 몇 명 = a few people."}
+{"id":"ko.c1067","meaning":"what (kind of) (before a noun)","note":"무슨 일 있어요? = is something wrong?"}
+{"id":"ko.c1068","meaning":"last; past (before a noun)","note":"지난 주말 = last weekend; 지난달 = last month."}
+{"id":"ko.c1069","meaning":"new (before a noun)","note":"새 옷 = new clothes; 새해 = New Year."}
+{"id":"ko.c1070","meaning":"that's right","note":"Agreeing: 네, 맞아요. Casual: 맞아."}
+{"id":"ko.c1071","meaning":"yes (formal)","note":"More formal than 네; heard in offices and from older people."}
+{"id":"ko.c1072","meaning":"afternoon; p.m.","note":"오후 세 시 = 3 p.m."}
+{"id":"ko.c1073","meaning":"first (before a noun)","note":"첫눈 = the first snow; 첫 데이트 = a first date."}
+{"id":"ko.c1074","meaning":"this year","note":"올해 몇 살이에요?"}
+{"id":"ko.c1075","meaning":"no (casual); no wait","note":"To friends. Also starts a protest: 아니, 그게 아니라…"}
+{"id":"ko.c1076","meaning":"thousand","note":"천 원 = 1,000 won; 삼천 = 3,000."}
+{"id":"ko.c1077","meaning":"zero","note":"영 in maths and scores; 공 in phone numbers: 공일공 = 010."}
+{"id":"ko.c1078","meaning":"last year","note":"Also 지난해."}
+{"id":"ko.c1079","meaning":"hi; bye (casual)","note":"To friends and children, both hello and goodbye."}
+{"id":"ko.c1080","meaning":"daytime","note":"낮에는 더워요 = it's hot during the day."}
+{"id":"ko.c1081","meaning":"morning; a.m.","note":"오전 열 시 = 10 a.m."}
+{"id":"ko.c1082","meaning":"early morning; small hours","note":"새벽 두 시 = 2 a.m."}
+{"id":"ko.c1083","meaning":"last week","note":"One word, no space."}
+{"id":"ko.c1084","meaning":"no (spoken)","note":"Short form of 아니요; softer and more common in speech."}
+{"id":"ko.c1085","meaning":"twenty (before a counter)","note":"스물 → 스무: 스무 살 = twenty years old."}
+{"id":"ko.c1086","meaning":"Tuesday","note":"화 = fire. 월화수목금토일."}
+{"id":"ko.c1087","meaning":"Wednesday","note":"수 = water."}
+{"id":"ko.c1088","meaning":"Thursday","note":"목 = wood."}
+{"id":"ko.c1089","meaning":"20 (native)","note":"Before a counter: 스무."}
+{"id":"ko.c1090","meaning":"next year","note":"내년에 한국에 가요."}
+{"id":"ko.c1091","meaning":"30, 40, 50 (native)","note":"Mostly for age: 서른 살. Sino-Korean 삼십 is used for money and minutes."}
+{"id":"ko.c1092","meaning":"hundred","note":"백 원; 이백 = 200. Not 일백."}
+{"id":"ko.c1093","meaning":"11, 12 (native)","note":"열 + 하나: 열한 시 = 11 o'clock."}
+{"id":"ko.c1094","meaning":"the day after tomorrow","note":"내일모레 = in a couple of days."}
+{"id":"ko.c1095","meaning":"the day before yesterday","note":"Also 그제."}
+{"id":"ko.c1096","meaning":"one (car, machine)","note":"대 counts vehicles and machines: 차 두 대, 컴퓨터 한 대."}
+{"id":"ko.c1097","meaning":"two people (honorific)","note":"분 is the polite 명: 몇 분이세요? = how many in your party?"}
+{"id":"ko.c1098","meaning":"one outfit; one suit","note":"벌 counts sets of clothes: 옷 한 벌."}
+{"id":"ko.c1099","meaning":"one flower; one bunch (of grapes)","note":"장미 한 송이 = one rose."}
+{"id":"ko.c1100","meaning":"one roll; one line","note":"김밥 한 줄 = one gimbap roll; 한 줄로 = in a line."}
+{"id":"ko.c1101","meaning":"one plate (of)","note":"만두 한 접시 = a plate of dumplings."}
+{"id":"ko.c1102","meaning":"one slice; one piece","note":"피자 한 조각, 케이크 한 조각."}
+{"id":"ko.c1103","meaning":"one kind; one thing","note":"한 가지 더 = one more thing; 여러 가지 = all kinds."}
+{"id":"ko.c1104","meaning":"one place","note":"두 군데 = two places. Spoken, everyday."}
+{"id":"ko.c1105","meaning":"one song","note":"노래 한 곡 = one song (at karaoke)."}
+{"id":"ko.c1106","meaning":"one (film, story)","note":"영화 한 편 봐요 = we watch a movie."}
+{"id":"ko.c1107","meaning":"one pill; one small round thing","note":"약 한 알 = one pill."}
+{"id":"ko.c1108","meaning":"one can","note":"맥주 한 캔 = a can of beer."}
+{"id":"ko.c1109","meaning":"one game; one round; one tray","note":"게임 한 판 = one round; 계란 한 판 = a tray of 30 eggs."}
+{"id":"ko.c1110","meaning":"one o'clock","note":"Hours use native numbers: 한 시, 두 시 … 열두 시."}
+{"id":"ko.c1111","meaning":"five minutes","note":"Minutes use Sino-Korean numbers: 오 분, 십 분, 삼십 분."}
+{"id":"ko.c1112","meaning":"one year","note":"Years use Sino-Korean: 일 년, 이 년. Native: 한 해."}
+{"id":"ko.c1113","meaning":"three months","note":"Sino-Korean months: 삼 개월. Native: 석 달."}
+{"id":"ko.c1114","meaning":"two portions (servings)","note":"Korean BBQ is ordered by portion: 삼겹살 이 인분 = pork belly for two."}
+{"id":"ko.c1115","meaning":"the first (one)","note":"번째 makes ordinals: 두 번째 = second, 세 번째 = third."}
+{"id":"ko.c1116","meaning":"to be pretty","note":"예뻐요. Mostly to women, also to kids and things. Mild; everyone hears it. No gender forms in Korean."}
+{"id":"ko.c1117","meaning":"to be cute","note":"귀여워요 (ㅂ irregular). To anyone, men included. Mild and playful."}
+{"id":"ko.c1118","meaning":"to be handsome; good-looking","note":"Said in the past tense: 잘생겼어요. Mostly to men. Warm."}
+{"id":"ko.c1119","meaning":"to be beautiful","note":"아름다워요 (ㅂ irregular). Strong and a bit poetic: for scenery, or a very sincere compliment. Bold."}
+{"id":"ko.c1120","meaning":"to be lovely; adorable","note":"사랑스러워요 (ㅂ irregular). Tender, more for couples. Warm."}
+{"id":"ko.c1121","meaning":"charm; appeal","note":"매력 있어요 = you're attractive. Safe and common. Mild to warm."}
+{"id":"ko.c1122","meaning":"to be attractive; charming","note":"매력적이에요. A notch more serious than 매력 있어요. Warm."}
+{"id":"ko.c1123","meaning":"to be smart","note":"똑똑해요. To anyone. Mild. To an elder, praise their knowledge instead."}
+{"id":"ko.c1124","meaning":"to be kind-hearted; nice","note":"착해요. Big compliment from a partner's family; to equals or juniors only. Mild."}
+{"id":"ko.c1125","meaning":"to be affectionate; sweet and caring","note":"다정해요. A top quality in a partner. Warm."}
+{"id":"ko.c1126","meaning":"smile","note":"미소가 예뻐요. A little literary; speech also uses 웃는 모습. Mild."}
+{"id":"ko.c1127","meaning":"eyes","note":"눈이 예뻐요. Praising eyes is safe and common. (눈 also = snow.) Mild to warm."}
+{"id":"ko.c1128","meaning":"eye smile; smiling eyes","note":"A Korean favourite: eyes curving into crescents when you smile. Warm."}
+{"id":"ko.c1129","meaning":"dimple","note":"보조개가 귀여워요. A classic Korean compliment. Mild."}
+{"id":"ko.c1130","meaning":"voice","note":"목소리가 좋아요. Safe, very common, especially on the phone. Mild."}
+{"id":"ko.c1131","meaning":"laugh; laughter","note":"웃음이 많아요 = you laugh a lot (a good thing). Mild."}
+{"id":"ko.c1132","meaning":"vibe; aura; atmosphere","note":"분위기 있어요 = you have a certain charm. Very Korean compliment. Warm."}
+{"id":"ko.c1133","meaning":"style; type","note":"제 스타일이에요 = you're my type. Mild alone; warm in that phrase."}
+{"id":"ko.c1134","meaning":"personality","note":"성격 좋아요 is high praise. Mild."}
+{"id":"ko.c1135","meaning":"good taste; tact","note":"센스 있어요 = you've got taste / you're thoughtful. Mild."}
+{"id":"ko.c1136","meaning":"ideal type","note":"Koreans ask 이상형이 뭐예요? on first dates and in interviews. Mild as a question."}
+{"id":"ko.c1137","meaning":"first impression","note":"첫인상이 좋았어요 = I liked you from the start. Warm."}
+{"id":"ko.c1138","meaning":"good-looking, warm-vibe guy","note":"Slang, from 훈훈한 남자. For women: 훈녀. Mild, friendly."}
+{"id":"ko.c1139","meaning":"heart skipping a beat","note":"Slang: 심장이 쿵. 심쿵했어요 = you made my heart skip. Warm, playful."}
+{"id":"ko.c1140","meaning":"You look even prettier today","note":"To a woman you know. 오늘따라 = today especially. Warm."}
+{"id":"ko.c1141","meaning":"Even your name is pretty","note":"Right after learning a name. Mild, sweet."}
+{"id":"ko.c1142","meaning":"You must hear that you're pretty a lot","note":"Indirect and smooth. To a woman. Warm."}
+{"id":"ko.c1143","meaning":"Why are you so cute?","note":"Teasing, to anyone. Warm."}
+{"id":"ko.c1144","meaning":"Everything you do is cute","note":"To someone you know well. 짓 = little actions. Warm, playful."}
+{"id":"ko.c1145","meaning":"You're very handsome","note":"Polite -시-; to a man you don't know well. Mild to warm."}
+{"id":"ko.c1146","meaning":"You're even better-looking in person","note":"After seeing photos first (dating app, a friend's phone). Warm."}
+{"id":"ko.c1147","meaning":"You look great today","note":"To anyone dressed up. Mild."}
+{"id":"ko.c1148","meaning":"You look cool when you're working","note":"Classic office or café crush line. Warm."}
+{"id":"ko.c1149","meaning":"You're really smart","note":"To someone your age or younger. Mild."}
+{"id":"ko.c1150","meaning":"You're attractive / You have charm","note":"Safe on a date or between friends. Mild to warm."}
+{"id":"ko.c1151","meaning":"You're full of charm","note":"Polite and playful. Warm."}
+{"id":"ko.c1152","meaning":"You have a pretty smile","note":"Safe on a first meeting. Mild."}
+{"id":"ko.c1153","meaning":"Your eye smile is really pretty","note":"Very Korean compliment. Warm."}
+{"id":"ko.c1154","meaning":"Your dimples are so cute","note":"Mild, sweet."}
+{"id":"ko.c1155","meaning":"You have a really nice voice","note":"Often on the phone or after karaoke. Mild."}
+{"id":"ko.c1156","meaning":"I wanted to hear your voice","note":"Why you called. To someone you're dating. Warm to bold."}
+{"id":"ko.c1157","meaning":"You have a certain charm about you","note":"A refined compliment to men or women. Warm."}
+{"id":"ko.c1158","meaning":"You have great style","note":"Mild; works with near-strangers."}
+{"id":"ko.c1159","meaning":"You're my type","note":"Light and direct. Warm."}
+{"id":"ko.c1160","meaning":"You're totally my ideal type","note":"Bold and playful. Usually after a few dates."}
+{"id":"ko.c1161","meaning":"What's your ideal type?","note":"The classic first-date question. Mild."}
+{"id":"ko.c1162","meaning":"I liked my first impression of you","note":"On a second date. Warm."}
+{"id":"ko.c1163","meaning":"And you have a great personality too","note":"도 = on top of being good-looking. Warm."}
+{"id":"ko.c1164","meaning":"You're so sweet and caring","note":"After a kind gesture. Warm."}
+{"id":"ko.c1165","meaning":"Have you eaten? (I care about you)","note":"Korean's indirect \"I'm thinking of you\". Polite form of the casual 밥 먹었어? Mild."}
+{"id":"ko.c1166","meaning":"Let's grab a meal sometime","note":"Often polite filler; when meant, it opens a date. Ask \"when?\" to show you mean it. Mild."}
+{"id":"ko.c1167","meaning":"Want to have dinner together?","note":"The real invitation. Warm."}
+{"id":"ko.c1168","meaning":"I'll buy you a coffee","note":"Easy opener after class or work. Mild."}
+{"id":"ko.c1169","meaning":"Is it OK if I contact you?","note":"Polite way to ask for KakaoTalk. Mild."}
+{"id":"ko.c1170","meaning":"Can I see you again?","note":"At the end of a first meeting. Warm."}
+{"id":"ko.c1171","meaning":"Want to come up for some ramyeon? (joke line)","note":"From the film One Fine Spring Day (2001), where the line is 라면 먹을래요?; this meme version means an invitation inside. Joke only, never a real move."}
+{"id":"ko.c1172","meaning":"Come on, you're joking, right?","note":"Playful deflection, shy but not a no. Casual and friendly."}
+{"id":"ko.c1173","meaning":"You're quite the smooth talker","note":"Teasing deflection; smiling = interested, flat = not. Mild."}
+{"id":"ko.c1174","meaning":"Sure, when shall we meet?","note":"A warm yes to an invitation."}
+{"id":"ko.c1175","meaning":"Thanks for the thought, but I'm fine","note":"Kind, clear no. Works for a drink or a number."}
+{"id":"ko.c1176","meaning":"Sorry, but I'm seeing someone","note":"Clear no; nobody will push after this."}
+{"id":"ko.c1177","meaning":"You're a lovely person, but I'd like to stay friends","note":"Gentle no to someone you know. 분 keeps it respectful."}
+{"id":"ko.c1178","meaning":"I'm not looking to date right now","note":"Firm but not personal."}
+{"id":"ko.c1179","meaning":"The food is really delicious","note":"-네요 = noticing out loud. Say it to the host or cook during the meal."}
+{"id":"ko.c1180","meaning":"You're a really good cook","note":"솜씨 = skill with your hands. Polite -시-; fine to elders."}
+{"id":"ko.c1181","meaning":"How did you make this?","note":"Asking for the recipe is praise in itself."}
+{"id":"ko.c1182","meaning":"You're really good at this","note":"For any skill. To elders, praise with -시- and no grading words."}
+{"id":"ko.c1183","meaning":"That's a good idea","note":"To colleagues and friends. To a boss: 좋은 생각이신 것 같아요."}
+{"id":"ko.c1184","meaning":"You're so thorough","note":"A big compliment at work."}
+{"id":"ko.c1185","meaning":"You're so good-hearted","note":"To equals or juniors. It sounds odd said to a much older person."}
+{"id":"ko.c1186","meaning":"You have a great sense of humor","note":"Polite; to anyone."}
+{"id":"ko.c1187","meaning":"You're very considerate","note":"배려 = thinking of others. Highly valued."}
+{"id":"ko.c1188","meaning":"You're so diligent","note":"Always busy and on time. Different from 열심히 하시네요 (works hard at it)."}
+{"id":"ko.c1189","meaning":"Your skin looks great","note":"A very common, friendly compliment in Korea, to men and women alike."}
+{"id":"ko.c1190","meaning":"You look so young for your age","note":"A favorite compliment, especially to people over 30."}
+{"id":"ko.c1191","meaning":"You have a kind face","note":"Literally \"your impression is good\". Said on first meeting."}
+{"id":"ko.c1192","meaning":"Your home is lovely","note":"Said on a first visit, often with a gift (휴지, fruit)."}
+{"id":"ko.c1193","meaning":"Your child is so cute","note":"Parents will usually deflect: 아니에요, 말썽꾸러기예요."}
+{"id":"ko.c1194","meaning":"Your child is so polite","note":"A compliment to the parents too. Very welcome."}
+{"id":"ko.c1195","meaning":"That's a nice photo","note":"Literally \"the photo came out well\"."}
+{"id":"ko.c1196","meaning":"That outfit suits you","note":"Polite -세요; to anyone, including elders."}
+{"id":"ko.c1197","meaning":"Your pronunciation is really good","note":"What learners hear right after 한국어 잘하시네요."}
+{"id":"ko.c1198","meaning":"I thought you were Korean!","note":"Friendly exaggeration to a learner."}
+{"id":"ko.c1199","meaning":"Where did you learn Korean?","note":"Usually follows the compliment; itself a compliment."}
+{"id":"ko.c1200","meaning":"You've improved a lot","note":"To a friend or junior. To an elder it sounds like grading."}
+{"id":"ko.c1201","meaning":"I enjoyed your presentation","note":"The polite way to praise a boss: you report your experience, you don't grade them."}
+{"id":"ko.c1202","meaning":"I learned a lot (from you)","note":"The safest praise for a senior, teacher or boss."}
+{"id":"ko.c1203","meaning":"Thank you for all your hard work","note":"Praises effort. Fine among colleagues; some seniors find 수고 from a junior presumptuous, so to a boss 감사합니다 is safer."}
+{"id":"ko.c1204","meaning":"Oh no, not at all","note":"The first reflex after any compliment: deflect, even if you're pleased."}
+{"id":"ko.c1205","meaning":"Oh no, I still have a long way to go","note":"The standard modest reply, especially about your Korean."}
+{"id":"ko.c1206","meaning":"Don't mention it; you're too kind","note":"Polite and a little formal. To elders and at work."}
+{"id":"ko.c1207","meaning":"You're praising me too much","note":"Literally \"that's too much praise\". Polite, a bit formal."}
+{"id":"ko.c1208","meaning":"Thank you for the compliment","note":"Accepting warmly. More common among younger people."}
+{"id":"ko.c1209","meaning":"Thanks for seeing it that way","note":"Modest and grateful at once."}
+{"id":"ko.c1210","meaning":"Oh, it's nothing special","note":"The host's answer to praise for food or a gift."}
+{"id":"ko.c1211","meaning":"It's all thanks to you","note":"Turns the praise back onto the other person. Warm and humble."}
+{"id":"ko.c1212","meaning":"South Korea","note":"한국 is everyday speech; the official name is 대한민국. 한국 사람 = Korean (person); 한국어 or 한국말 = Korean."}
+{"id":"ko.c1213","meaning":"North Korea","note":"South Korean usage. The official name is 조선민주주의인민공화국."}
+{"id":"ko.c1214","meaning":"Japan","note":"일본 사람 = Japanese (person); 일본어 = Japanese."}
+{"id":"ko.c1215","meaning":"China","note":"중국 사람 = Chinese (person); 중국어 = Chinese."}
+{"id":"ko.c1216","meaning":"Taiwan","note":"대만 사람 = Taiwanese (person). People speak 중국어."}
+{"id":"ko.c1217","meaning":"Hong Kong","note":"홍콩 사람. 광둥어 = Cantonese."}
+{"id":"ko.c1218","meaning":"Macao","note":""}
+{"id":"ko.c1219","meaning":"Mongolia","note":"몽골 사람; 몽골어 = Mongolian."}
+{"id":"ko.c1220","meaning":"Russia","note":"러시아 사람; 러시아어 = Russian."}
+{"id":"ko.c1221","meaning":"United States","note":"미국 사람 = American. The language is 영어 (English); there is no 미국어."}
+{"id":"ko.c1222","meaning":"India","note":"인도 사람; 힌디어 = Hindi."}
+{"id":"ko.c1223","meaning":"Indonesia","note":"인도네시아 사람; 인도네시아어 = Indonesian."}
+{"id":"ko.c1224","meaning":"Brazil","note":"브라질 사람. People speak 포르투갈어."}
+{"id":"ko.c1225","meaning":"Pakistan","note":""}
+{"id":"ko.c1226","meaning":"Nigeria","note":""}
+{"id":"ko.c1227","meaning":"Bangladesh","note":""}
+{"id":"ko.c1228","meaning":"Mexico","note":"멕시코 사람. People speak 스페인어."}
+{"id":"ko.c1229","meaning":"Philippines","note":"필리핀 사람 = Filipino (person); 필리핀어 or 타갈로그어 = Filipino, Tagalog."}
+{"id":"ko.c1230","meaning":"Vietnam","note":"베트남 사람; 베트남어 = Vietnamese."}
+{"id":"ko.c1231","meaning":"United Kingdom","note":"영국 사람 = British (person); 영어 = English (irregular: not 영국어)."}
+{"id":"ko.c1232","meaning":"Canada","note":"캐나다 사람. People speak 영어 and 프랑스어."}
+{"id":"ko.c1233","meaning":"Australia","note":"호주 사람 = Australian. 호주 is from the Chinese characters; 오스트레일리아 is also correct."}
+{"id":"ko.c1234","meaning":"Germany","note":"독일 사람; 독일어 = German."}
+{"id":"ko.c1235","meaning":"France","note":"프랑스 사람; 프랑스어 = French."}
+{"id":"ko.c1236","meaning":"Spain","note":"스페인 사람; 스페인어 = Spanish."}
+{"id":"ko.c1237","meaning":"Italy","note":"이탈리아 사람; 이탈리아어 = Italian."}
+{"id":"ko.c1238","meaning":"Thailand","note":"태국 사람; 태국어 = Thai."}
+{"id":"ko.c1239","meaning":"Malaysia","note":""}
+{"id":"ko.c1240","meaning":"Singapore","note":""}
+{"id":"ko.c1241","meaning":"Myanmar","note":""}
+{"id":"ko.c1242","meaning":"Cambodia","note":""}
+{"id":"ko.c1243","meaning":"Laos","note":""}
+{"id":"ko.c1244","meaning":"Brunei","note":""}
+{"id":"ko.c1245","meaning":"Timor-Leste","note":""}
+{"id":"ko.c1246","meaning":"Nepal","note":""}
+{"id":"ko.c1247","meaning":"Sri Lanka","note":""}
+{"id":"ko.c1248","meaning":"Bhutan","note":""}
+{"id":"ko.c1249","meaning":"Maldives","note":""}
+{"id":"ko.c1250","meaning":"Afghanistan","note":""}
+{"id":"ko.c1251","meaning":"Kazakhstan","note":""}
+{"id":"ko.c1252","meaning":"Uzbekistan","note":""}
+{"id":"ko.c1253","meaning":"Kyrgyzstan","note":""}
+{"id":"ko.c1254","meaning":"Tajikistan","note":""}
+{"id":"ko.c1255","meaning":"Turkmenistan","note":""}
+{"id":"ko.c1256","meaning":"Türkiye","note":"The official Korean name since 2022; the older 터키 is still common. 튀르키예어 = Turkish."}
+{"id":"ko.c1257","meaning":"Iran","note":""}
+{"id":"ko.c1258","meaning":"Iraq","note":""}
+{"id":"ko.c1259","meaning":"Saudi Arabia","note":"아랍어 = Arabic."}
+{"id":"ko.c1260","meaning":"United Arab Emirates","note":""}
+{"id":"ko.c1261","meaning":"Qatar","note":""}
+{"id":"ko.c1262","meaning":"Kuwait","note":""}
+{"id":"ko.c1263","meaning":"Bahrain","note":""}
+{"id":"ko.c1264","meaning":"Oman","note":""}
+{"id":"ko.c1265","meaning":"Yemen","note":""}
+{"id":"ko.c1266","meaning":"Jordan","note":""}
+{"id":"ko.c1267","meaning":"Lebanon","note":""}
+{"id":"ko.c1268","meaning":"Syria","note":""}
+{"id":"ko.c1269","meaning":"Israel","note":""}
+{"id":"ko.c1270","meaning":"Palestine","note":""}
+{"id":"ko.c1271","meaning":"Cyprus","note":""}
+{"id":"ko.c1272","meaning":"Georgia","note":"The country. The US state is also 조지아."}
+{"id":"ko.c1273","meaning":"Armenia","note":""}
+{"id":"ko.c1274","meaning":"Azerbaijan","note":""}
+{"id":"ko.c1275","meaning":"Guatemala","note":""}
+{"id":"ko.c1276","meaning":"Belize","note":""}
+{"id":"ko.c1277","meaning":"El Salvador","note":""}
+{"id":"ko.c1278","meaning":"Honduras","note":""}
+{"id":"ko.c1279","meaning":"Nicaragua","note":""}
+{"id":"ko.c1280","meaning":"Costa Rica","note":""}
+{"id":"ko.c1281","meaning":"Panama","note":""}
+{"id":"ko.c1282","meaning":"Cuba","note":""}
+{"id":"ko.c1283","meaning":"Jamaica","note":""}
+{"id":"ko.c1284","meaning":"Haiti","note":""}
+{"id":"ko.c1285","meaning":"Dominican Republic","note":"Not the island country Dominica (도미니카 연방)."}
+{"id":"ko.c1286","meaning":"Puerto Rico","note":""}
+{"id":"ko.c1287","meaning":"Bahamas","note":""}
+{"id":"ko.c1288","meaning":"Barbados","note":""}
+{"id":"ko.c1289","meaning":"Trinidad and Tobago","note":""}
+{"id":"ko.c1290","meaning":"Dominica","note":""}
+{"id":"ko.c1291","meaning":"Grenada","note":""}
+{"id":"ko.c1292","meaning":"Saint Lucia","note":""}
+{"id":"ko.c1293","meaning":"Saint Vincent and the Grenadines","note":""}
+{"id":"ko.c1294","meaning":"Saint Kitts and Nevis","note":""}
+{"id":"ko.c1295","meaning":"Antigua and Barbuda","note":""}
+{"id":"ko.c1296","meaning":"Argentina","note":""}
+{"id":"ko.c1297","meaning":"Colombia","note":""}
+{"id":"ko.c1298","meaning":"Peru","note":""}
+{"id":"ko.c1299","meaning":"Venezuela","note":""}
+{"id":"ko.c1300","meaning":"Chile","note":""}
+{"id":"ko.c1301","meaning":"Ecuador","note":""}
+{"id":"ko.c1302","meaning":"Bolivia","note":""}
+{"id":"ko.c1303","meaning":"Paraguay","note":""}
+{"id":"ko.c1304","meaning":"Uruguay","note":""}
+{"id":"ko.c1305","meaning":"Guyana","note":""}
+{"id":"ko.c1306","meaning":"Suriname","note":""}
+{"id":"ko.c1307","meaning":"England","note":"One of the four nations of the United Kingdom (영국)."}
+{"id":"ko.c1308","meaning":"Scotland","note":""}
+{"id":"ko.c1309","meaning":"Wales","note":""}
+{"id":"ko.c1310","meaning":"Ireland","note":""}
+{"id":"ko.c1311","meaning":"Portugal","note":"포르투갈 사람; 포르투갈어 = Portuguese."}
+{"id":"ko.c1312","meaning":"Netherlands","note":"네덜란드 사람; 네덜란드어 = Dutch."}
+{"id":"ko.c1313","meaning":"Belgium","note":""}
+{"id":"ko.c1314","meaning":"Luxembourg","note":""}
+{"id":"ko.c1315","meaning":"Switzerland","note":""}
+{"id":"ko.c1316","meaning":"Austria","note":""}
+{"id":"ko.c1317","meaning":"Denmark","note":""}
+{"id":"ko.c1318","meaning":"Norway","note":""}
+{"id":"ko.c1319","meaning":"Sweden","note":""}
+{"id":"ko.c1320","meaning":"Finland","note":""}
+{"id":"ko.c1321","meaning":"Iceland","note":""}
+{"id":"ko.c1322","meaning":"Poland","note":"폴란드 사람; 폴란드어 = Polish."}
+{"id":"ko.c1323","meaning":"Czechia","note":""}
+{"id":"ko.c1324","meaning":"Slovakia","note":""}
+{"id":"ko.c1325","meaning":"Hungary","note":""}
+{"id":"ko.c1326","meaning":"Romania","note":""}
+{"id":"ko.c1327","meaning":"Bulgaria","note":""}
+{"id":"ko.c1328","meaning":"Greece","note":""}
+{"id":"ko.c1329","meaning":"Ukraine","note":"우크라이나 사람; 우크라이나어 = Ukrainian."}
+{"id":"ko.c1330","meaning":"Belarus","note":""}
+{"id":"ko.c1331","meaning":"Moldova","note":""}
+{"id":"ko.c1332","meaning":"Lithuania","note":""}
+{"id":"ko.c1333","meaning":"Latvia","note":""}
+{"id":"ko.c1334","meaning":"Estonia","note":""}
+{"id":"ko.c1335","meaning":"Serbia","note":""}
+{"id":"ko.c1336","meaning":"Croatia","note":""}
+{"id":"ko.c1337","meaning":"Slovenia","note":""}
+{"id":"ko.c1338","meaning":"Bosnia and Herzegovina","note":""}
+{"id":"ko.c1339","meaning":"Montenegro","note":""}
+{"id":"ko.c1340","meaning":"North Macedonia","note":""}
+{"id":"ko.c1341","meaning":"Albania","note":""}
+{"id":"ko.c1342","meaning":"Kosovo","note":""}
+{"id":"ko.c1343","meaning":"Malta","note":""}
+{"id":"ko.c1344","meaning":"Monaco","note":""}
+{"id":"ko.c1345","meaning":"Liechtenstein","note":""}
+{"id":"ko.c1346","meaning":"Andorra","note":""}
+{"id":"ko.c1347","meaning":"San Marino","note":""}
+{"id":"ko.c1348","meaning":"Vatican City","note":""}
+{"id":"ko.c1349","meaning":"Egypt","note":""}
+{"id":"ko.c1350","meaning":"Ethiopia","note":""}
+{"id":"ko.c1351","meaning":"South Africa","note":"Often shortened to 남아공."}
+{"id":"ko.c1352","meaning":"Kenya","note":""}
+{"id":"ko.c1353","meaning":"Morocco","note":""}
+{"id":"ko.c1354","meaning":"Algeria","note":""}
+{"id":"ko.c1355","meaning":"Tunisia","note":""}
+{"id":"ko.c1356","meaning":"Libya","note":""}
+{"id":"ko.c1357","meaning":"Sudan","note":""}
+{"id":"ko.c1358","meaning":"South Sudan","note":""}
+{"id":"ko.c1359","meaning":"Ghana","note":""}
+{"id":"ko.c1360","meaning":"Côte d'Ivoire","note":""}
+{"id":"ko.c1361","meaning":"Senegal","note":""}
+{"id":"ko.c1362","meaning":"Cameroon","note":""}
+{"id":"ko.c1363","meaning":"Democratic Republic of the Congo","note":""}
+{"id":"ko.c1364","meaning":"Republic of the Congo","note":""}
+{"id":"ko.c1365","meaning":"Angola","note":""}
+{"id":"ko.c1366","meaning":"Tanzania","note":""}
+{"id":"ko.c1367","meaning":"Uganda","note":""}
+{"id":"ko.c1368","meaning":"Rwanda","note":""}
+{"id":"ko.c1369","meaning":"Burundi","note":""}
+{"id":"ko.c1370","meaning":"Somalia","note":""}
+{"id":"ko.c1371","meaning":"Djibouti","note":""}
+{"id":"ko.c1372","meaning":"Eritrea","note":""}
+{"id":"ko.c1373","meaning":"Mozambique","note":""}
+{"id":"ko.c1374","meaning":"Madagascar","note":""}
+{"id":"ko.c1375","meaning":"Zimbabwe","note":""}
+{"id":"ko.c1376","meaning":"Zambia","note":""}
+{"id":"ko.c1377","meaning":"Malawi","note":""}
+{"id":"ko.c1378","meaning":"Botswana","note":""}
+{"id":"ko.c1379","meaning":"Namibia","note":""}
+{"id":"ko.c1380","meaning":"Lesotho","note":""}
+{"id":"ko.c1381","meaning":"Eswatini","note":""}
+{"id":"ko.c1382","meaning":"Mauritius","note":""}
+{"id":"ko.c1383","meaning":"Seychelles","note":""}
+{"id":"ko.c1384","meaning":"Comoros","note":""}
+{"id":"ko.c1385","meaning":"Cabo Verde","note":""}
+{"id":"ko.c1386","meaning":"Guinea","note":""}
+{"id":"ko.c1387","meaning":"Guinea-Bissau","note":""}
+{"id":"ko.c1388","meaning":"Equatorial Guinea","note":""}
+{"id":"ko.c1389","meaning":"Sierra Leone","note":""}
+{"id":"ko.c1390","meaning":"Liberia","note":""}
+{"id":"ko.c1391","meaning":"Togo","note":""}
+{"id":"ko.c1392","meaning":"Benin","note":""}
+{"id":"ko.c1393","meaning":"Burkina Faso","note":""}
+{"id":"ko.c1394","meaning":"Mali","note":""}
+{"id":"ko.c1395","meaning":"Niger","note":""}
+{"id":"ko.c1396","meaning":"Chad","note":""}
+{"id":"ko.c1397","meaning":"Central African Republic","note":""}
+{"id":"ko.c1398","meaning":"Gabon","note":""}
+{"id":"ko.c1399","meaning":"Gambia","note":""}
+{"id":"ko.c1400","meaning":"Mauritania","note":""}
+{"id":"ko.c1401","meaning":"São Tomé and Príncipe","note":""}
+{"id":"ko.c1402","meaning":"New Zealand","note":""}
+{"id":"ko.c1403","meaning":"Fiji","note":""}
+{"id":"ko.c1404","meaning":"Papua New Guinea","note":""}
+{"id":"ko.c1405","meaning":"Solomon Islands","note":""}
+{"id":"ko.c1406","meaning":"Vanuatu","note":""}
+{"id":"ko.c1407","meaning":"Samoa","note":""}
+{"id":"ko.c1408","meaning":"Tonga","note":""}
+{"id":"ko.c1409","meaning":"Kiribati","note":""}
+{"id":"ko.c1410","meaning":"Tuvalu","note":""}
+{"id":"ko.c1411","meaning":"Nauru","note":""}
+{"id":"ko.c1412","meaning":"Marshall Islands","note":""}
+{"id":"ko.c1413","meaning":"Micronesia","note":""}
+{"id":"ko.c1414","meaning":"Palau","note":""}
+{"id":"ko.c1415","meaning":"Guam","note":""}

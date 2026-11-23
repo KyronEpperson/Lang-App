@@ -1,33 +1,33 @@
-{"id":"hangul","title":"1 · Hangul sa usa ka lingkoran","blurb":"Ang alpabeto: 14 ka consonant, 10 ka vowel, ug unsaon pagpatong sa mga block.","_waive":["hangul"],"_note":"Body adds ㄹ and the tense letters ㄲ ㄸ ㅃ ㅆ ㅉ (ㄹ is only inside {{strokes:ㄹ}} in the English body, which the check strips) so the Cebuano reading guide can explain the r/l letter and the three-way plain / aspirated / tense contrast."}
-{"id":"polite","title":"2 · Mga politeness level","blurb":"Nganong ang matag verb adunay duha ka ending, ug unsa ang gamiton."}
-{"id":"meet","title":"3 · Pakig-ila sa mga tawo","blurb":"Ipaila ang imong kaugalingon, ipangutana ang upat ka kasagarang pangutana, ug pagpanamilit sa saktong paagi.","_waive":["hangul"],"_note":"Body adds 필리핀에서 왔어요 and 세부에서 왔어요 (with romanization from profile ceb-ko §9.4) so a Cebuano learner can swap in the Philippines or Cebu for the US line, as profile §9.2 allows for meet only."}
-{"id":"sound-changes","title":"4 · Sound change: nganong lahi ang tingog sa 감사합니다","blurb":"Upat ka batasan nga naghimo nga lahi ang sinultihan nga Koreano sa sinulat. Hibaloi kini aron dili ka matingala."}
-{"id":"nouns","title":"5 · Mga noun ug 은/는","blurb":"Mga ngalan sa butang, kini/kana/kadto, 이에요/예요, ug ang topic marker 은/는."}
-{"id":"isseoyo","title":"6 · 있어요 ug 없어요","blurb":"Naa ug wala: naay butang o wala, naa kay butang o wala, ang subject marker 이/가, ug asa naa ang butang gamit ang 에."}
-{"id":"pronouns-questions","title":"7 · Mga pronoun ug question word","blurb":"Ako, kami, kini, kana, diri, didto, ug ang pito ka question word nga magbukas sa tinuod nga panag-istorya."}
-{"id":"verbbasics","title":"8 · Mga verb","blurb":"Ang matag verb mohuman sa 다, dili mausab para sa ako/ikaw/siya, ug verb usab ang mga pulong nga naghulagway."}
-{"id":"verbs","title":"9 · Present tense: ang 요-form","blurb":"Himoa nga polite nga present ang bisan unsang dictionary form: 아요, 어요 o 해요."}
-{"id":"past","title":"10 · Past tense: 았어요 / 었어요","blurb":"Kuhaa ang 요-form, ilisi ang 요 og ㅆ어요, ug makasulti ka na bahin sa gahapon."}
-{"id":"future","title":"11 · Future ug mga plano: -(으)ㄹ 거예요","blurb":"Isulti kon unsay imong buhaton, ug tagna kon unsay tingali mahitabo."}
-{"id":"sov","title":"12 · Word order ug 을/를","blurb":"Subject · object · verb, ang object marker 을/를, ug kanus-a kini mawala."}
-{"id":"particles","title":"13 · 에 ug 에서, ug ang mapa sa mga particle","blurb":"에 para sa imong adtoan, asa naa ang butang, ug kanus-a; 에서 para sa lugar diin ka nagbuhat og butang, ug diin ka gikan."}
-{"id":"negation","title":"14 · Pag-ingon og dili: 안 ug -지 않아요","blurb":"안 + verb, 공부 안 해요, -지 않아요, 아니에요 para sa noun, ug 없어요."}
-{"id":"do-man","title":"15 · 도 ug 만: sab ug lang","blurb":"Ang 도 (sab) ug 만 (lang) mopuli sa 은/는, 이/가, 을/를, apan mosunod human sa 에 ug 에서."}
-{"id":"sentences","title":"16 · Paghiusa sa mga noun ug verb","blurb":"Upat ka porma sa sentence nga igo na para sa kadaghanan nimong isulti, ug unsaon kini pagpadako."}
-{"id":"want-like","title":"17 · Gusto ug ganahan: -고 싶어요, 좋아해요","blurb":"Isulti kon unsay gusto nimong buhaton ug unsay imong ganahan. Duha ka porma nga magamit nimo matag adlaw."}
-{"id":"numbers","title":"18 · Duha ka sistema sa numero","blurb":"Native numbers para sa pag-ihap ug edad; Sino-Korean numbers para sa kuwarta ug minuto."}
-{"id":"food","title":"19 · Pagkaon sa gawas","blurb":"Pag-order, mga counter, ug ang duha ka pulong nga ingnon sa tanan sa kan-anan."}
-{"id":"getting-around","title":"20 · Paglibot sa siyudad","blurb":"Pagpangutana kon asa, pagsabot sa tubag, taxi ug subway."}
-{"id":"titles","title":"21 · Mga title: unsaon pagtawag sa tawo","blurb":"씨, 님, 오빠/언니: unsay itawag sa mga tawo, ug kanus-a bastos ang ngalan ra."}
-{"id":"plans","title":"22 · Paghimo og plano","blurb":"Pagsugyot, pagdapit, pag-uyon: ㄹ까요 / ㄹ래요 / 자, ug 같이."}
-{"id":"texting","title":"23 · Pag-text sama sa taga-Korea","blurb":"ㅋㅋ, ㅠㅠ, mga particle nga mawala, ug ang mga pinamubo nga gamiton sa tanan sa KakaoTalk."}
-{"id":"counters","title":"24 · Mga counter","blurb":"Sa Koreano, dili nimo maingon ang 'duha ka kape' kon walay counter. Ang napulo ka counter para sa adlaw-adlaw."}
-{"id":"joining","title":"25 · Pagdugtong sa mga sentence: -고, -지만, -아/어서","blurb":"Ug, pero, mao nga. Tulo ka ending nga mohimo sa duha ka mubong sentence nga usa ka natural nga sentence."}
-{"id":"story","title":"26 · Pagsugilon og istorya sa past","blurb":"Dugtonga ang mga sentence sa past gamit ang 먼저 · 그리고 · 그다음에 · 그래서 · 마지막으로."}
-{"id":"noun-modifiers","title":"27 · Paghulagway sa noun: 좋은 날씨, 큰 가방","blurb":"Ibutang ang describing verb sa atubangan sa noun: dakong bag, maayong panahon, halang nga pagkaon."}
-{"id":"compare","title":"28 · Pagtandi: 보다, 더, 제일","blurb":"Mas barato kaysa, mas, menos, pinaka-. Ang tanan nga kinahanglan nimo sa pagtandi ug pagpili."}
-{"id":"cant","title":"29 · Dili makahimo, makahimo, ug dili kabalo","blurb":"못 o 안, -(으)ㄹ 수 있어요 / 없어요, ug 몰라요 o 모르겠어요."}
-{"id":"have-to","title":"30 · Kinahanglan: -아/어야 해요","blurb":"Isulti kon unsay kinahanglan nimong buhaton, pangutana kon kinahanglan ba, ug isulti kon dili kinahanglan."}
-{"id":"honorific","title":"31 · Mga honorific nga verb","blurb":"-(으)시- ug ang mga espesyal nga verb: 드시다, 주무시다, 계시다, 말씀하시다."}
-{"id":"requests","title":"32 · Paghangyo nga matinahuron","blurb":"좀, 혹시, -아/어 주시겠어요?, -(으)면 안 돼요?: ang mga softener nga makakuha og oo."}
-{"id":"office","title":"33 · Koreano sa opisina","blurb":"Mga title, ang pamilya sa 수고, pagsugod ug pagtapos sa email, ug paglahutay sa 회식."}
+{"id": "hangul", "title": "1 · Hangul sa usa ka lingkoran", "blurb": "Ang alpabeto: 14 ka consonant, 10 ka vowel, ug unsaon pagpatong sa mga block.", "_waive": ["hangul"], "_note": "Body adds ㄹ and the tense letters ㄲ ㄸ ㅃ ㅆ ㅉ (ㄹ is only inside {{strokes:ㄹ}} in the English body, which the check strips) so the Cebuano reading guide can explain the r/l letter and the three-way plain / aspirated / tense contrast."}
+{"id": "polite", "title": "2 · Mga politeness level", "blurb": "Nganong ang matag verb adunay duha ka ending, ug unsa ang gamiton."}
+{"id": "meet", "title": "3 · Pakig-ila sa mga tawo", "blurb": "Ipaila ang imong kaugalingon, ipangutana ang upat ka kasagarang pangutana, ug pagpanamilit sa saktong paagi.", "_waive": ["hangul"], "_note": "Body adds 세부에서 왔어요 (with romanization from profile ceb-ko §9.4) in the country tip, so a Cebuano learner can say Cebu; the English tip already has 필리핀에서 (2026-11-23: tip replaced the earlier 'Sa ilis sa US' paragraph)."}
+{"id": "sound-changes", "title": "4 · Sound change: nganong lahi ang tingog sa 감사합니다", "blurb": "Upat ka batasan nga naghimo nga lahi ang sinultihan nga Koreano sa sinulat. Hibaloi kini aron dili ka matingala."}
+{"id": "nouns", "title": "5 · Mga noun ug 은/는", "blurb": "Mga ngalan sa butang, kini/kana/kadto, 이에요/예요, ug ang topic marker 은/는."}
+{"id": "isseoyo", "title": "6 · 있어요 ug 없어요", "blurb": "Naa ug wala: naay butang o wala, naa kay butang o wala, ang subject marker 이/가, ug asa naa ang butang gamit ang 에."}
+{"id": "pronouns-questions", "title": "7 · Mga pronoun ug question word", "blurb": "Ako, kami, kini, kana, diri, didto, ug ang pito ka question word nga magbukas sa tinuod nga panag-istorya."}
+{"id": "verbbasics", "title": "8 · Mga verb", "blurb": "Ang matag verb mohuman sa 다, dili mausab para sa ako/ikaw/siya, ug verb usab ang mga pulong nga naghulagway."}
+{"id": "verbs", "title": "9 · Present tense: ang 요-form", "blurb": "Himoa nga polite nga present ang bisan unsang dictionary form: 아요, 어요 o 해요."}
+{"id": "past", "title": "10 · Past tense: 았어요 / 었어요", "blurb": "Kuhaa ang 요-form, ilisi ang 요 og ㅆ어요, ug makasulti ka na bahin sa gahapon."}
+{"id": "future", "title": "11 · Future ug mga plano: -(으)ㄹ 거예요", "blurb": "Isulti kon unsay imong buhaton, ug tagna kon unsay tingali mahitabo."}
+{"id": "sov", "title": "12 · Word order ug 을/를", "blurb": "Subject · object · verb, ang object marker 을/를, ug kanus-a kini mawala."}
+{"id": "particles", "title": "13 · 에 ug 에서, ug ang mapa sa mga particle", "blurb": "에 para sa imong adtoan, asa naa ang butang, ug kanus-a; 에서 para sa lugar diin ka nagbuhat og butang, ug diin ka gikan."}
+{"id": "negation", "title": "14 · Pag-ingon og dili: 안 ug -지 않아요", "blurb": "안 + verb, 공부 안 해요, -지 않아요, 아니에요 para sa noun, ug 없어요."}
+{"id": "do-man", "title": "15 · 도 ug 만: sab ug lang", "blurb": "Ang 도 (sab) ug 만 (lang) mopuli sa 은/는, 이/가, 을/를, apan mosunod human sa 에 ug 에서."}
+{"id": "sentences", "title": "16 · Paghiusa sa mga noun ug verb", "blurb": "Upat ka porma sa sentence nga igo na para sa kadaghanan nimong isulti, ug unsaon kini pagpadako."}
+{"id": "want-like", "title": "17 · Gusto ug ganahan: -고 싶어요, 좋아해요", "blurb": "Isulti kon unsay gusto nimong buhaton ug unsay imong ganahan. Duha ka porma nga magamit nimo matag adlaw."}
+{"id": "numbers", "title": "18 · Duha ka sistema sa numero", "blurb": "Native numbers para sa pag-ihap ug edad; Sino-Korean numbers para sa kuwarta ug minuto."}
+{"id": "food", "title": "19 · Pagkaon sa gawas", "blurb": "Pag-order, mga counter, ug ang duha ka pulong nga ingnon sa tanan sa kan-anan."}
+{"id": "getting-around", "title": "20 · Paglibot sa siyudad", "blurb": "Pagpangutana kon asa, pagsabot sa tubag, taxi ug subway."}
+{"id": "titles", "title": "21 · Mga title: unsaon pagtawag sa tawo", "blurb": "씨, 님, 오빠/언니: unsay itawag sa mga tawo, ug kanus-a bastos ang ngalan ra."}
+{"id": "plans", "title": "22 · Paghimo og plano", "blurb": "Pagsugyot, pagdapit, pag-uyon: ㄹ까요 / ㄹ래요 / 자, ug 같이."}
+{"id": "texting", "title": "23 · Pag-text sama sa taga-Korea", "blurb": "ㅋㅋ, ㅠㅠ, mga particle nga mawala, ug ang mga pinamubo nga gamiton sa tanan sa KakaoTalk."}
+{"id": "counters", "title": "24 · Mga counter", "blurb": "Sa Koreano, dili nimo maingon ang 'duha ka kape' kon walay counter. Ang napulo ka counter para sa adlaw-adlaw."}
+{"id": "joining", "title": "25 · Pagdugtong sa mga sentence: -고, -지만, -아/어서", "blurb": "Ug, pero, mao nga. Tulo ka ending nga mohimo sa duha ka mubong sentence nga usa ka natural nga sentence."}
+{"id": "story", "title": "26 · Pagsugilon og istorya sa past", "blurb": "Dugtonga ang mga sentence sa past gamit ang 먼저 · 그리고 · 그다음에 · 그래서 · 마지막으로."}
+{"id": "noun-modifiers", "title": "27 · Paghulagway sa noun: 좋은 날씨, 큰 가방", "blurb": "Ibutang ang describing verb sa atubangan sa noun: dakong bag, maayong panahon, halang nga pagkaon."}
+{"id": "compare", "title": "28 · Pagtandi: 보다, 더, 제일", "blurb": "Mas barato kaysa, mas, menos, pinaka-. Ang tanan nga kinahanglan nimo sa pagtandi ug pagpili."}
+{"id": "cant", "title": "29 · Dili makahimo, makahimo, ug dili kabalo", "blurb": "못 o 안, -(으)ㄹ 수 있어요 / 없어요, ug 몰라요 o 모르겠어요."}
+{"id": "have-to", "title": "30 · Kinahanglan: -아/어야 해요", "blurb": "Isulti kon unsay kinahanglan nimong buhaton, pangutana kon kinahanglan ba, ug isulti kon dili kinahanglan."}
+{"id": "honorific", "title": "31 · Mga honorific nga verb", "blurb": "-(으)시- ug ang mga espesyal nga verb: 드시다, 주무시다, 계시다, 말씀하시다."}
+{"id": "requests", "title": "32 · Paghangyo nga matinahuron", "blurb": "좀, 혹시, -아/어 주시겠어요?, -(으)면 안 돼요?: ang mga softener nga makakuha og oo."}
+{"id": "office", "title": "33 · Koreano sa opisina", "blurb": "Mga title, ang pamilya sa 수고, pagsugod ug pagtapos sa email, ug paglahutay sa 회식."}

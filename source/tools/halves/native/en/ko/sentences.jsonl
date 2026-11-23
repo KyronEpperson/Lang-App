@@ -6,10 +6,10 @@
 {"id":"ko.s0006","gloss":"Thanks (casual)"}
 {"id":"ko.s0007","gloss":"You're cute (polite)"}
 {"id":"ko.s0008","gloss":"You're cute (casual)"}
-{"id":"ko.s0295","gloss":"Hello. I'm Kii."}
+{"id":"ko.s0297","gloss":"Hello. I'm @@."}
 {"id":"ko.s0010","gloss":"Nice to meet you"}
 {"id":"ko.s0011","gloss":"Where are you from?"}
-{"id":"ko.s0012","gloss":"I'm from the US"}
+{"id":"ko.s0298","gloss":"I'm from Mexico"}
 {"id":"ko.s0013","gloss":"What do you do?"}
 {"id":"ko.s0014","gloss":"I'm studying Korean"}
 {"id":"ko.s0015","gloss":"How old are you?"}
@@ -124,7 +124,7 @@
 {"id":"ko.s0124","gloss":"(I) drink coffee in the morning"}
 {"id":"ko.s0125","gloss":"(I) rest at home"}
 {"id":"ko.s0126","gloss":"(I) study at a café"}
-{"id":"ko.s0127","gloss":"(I) came from the US"}
+{"id":"ko.s0299","gloss":"(I) came from Canada"}
 {"id":"ko.s0128","gloss":"As for me, I'm a student"}
 {"id":"ko.s0129","gloss":"Who came? My friend came (new info → 가)"}
 {"id":"ko.s0130","gloss":"(I'm) not going"}
@@ -286,9 +286,9 @@
 {"id":"ko.s0286","gloss":"Keep up the good work (to someone still working, as you leave)"}
 {"id":"ko.s0287","gloss":"Good work today (to a senior, after work)"}
 {"id":"ko.s0288","gloss":"Good work (to a junior or peer)"}
-{"id":"ko.s0289","gloss":"Hello, this is Kii from the marketing team"}
+{"id":"ko.s0300","gloss":"Hello, this is @@ from the marketing team"}
 {"id":"ko.s0290","gloss":"I'm writing about the report"}
 {"id":"ko.s0291","gloss":"Please take a look"}
-{"id":"ko.s0292","gloss":"Thank you. Kii"}
+{"id":"ko.s0301","gloss":"Thank you. @@"}
 {"id":"ko.s0293","gloss":"Please have a drink (pouring for a senior)"}
 {"id":"ko.s0294","gloss":"I have to drive, so (no thanks)"}

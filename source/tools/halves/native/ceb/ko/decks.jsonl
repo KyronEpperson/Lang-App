@@ -1,43 +1,56 @@
-{"id":"ko.d.hangul-vowels","label":"Mga vowel (Hangul)","desc":"Ang 10 ka batakang vowel: kon mabasa nimo kini, mabasa nimo ang bisan unsang pulong. Sa romanization, ang eo usa ra ka vowel (ablihi ang baba sama sa a, apan ayaw lingina ang ngabil); ang eu usa ka u nga patag ang ngabil, samtang nagpahiyom; ug pareho ang tingog sa ae ug e, sama sa e sa kape. Apan ayaw ilisi ang o ug u, o ang e ug i: lahi kini nga mga pulong."}
-{"id":"ko.d.hangul-consonants","label":"Mga consonant (Hangul)","desc":"Ang 14 ka batakang consonant ug giunsa nila pag-usab sa katapusan sa syllable. Sa romanization, ang j sama sa dy sa dyip, dili sama sa j sa Jose; ang k, t, p, ch sa sinugdanan adunay buga sa hangin; ang h kanunay ingnon; ang r taliwala sa duha ka vowel sama sa r sa Bisaya, apan sa katapusan l, dili r."}
-{"id":"ko.d.hangul-advanced","label":"Abante nga Hangul","desc":"Mga tense consonant ug aspirated consonant, mga vowel nga gitapo, dobleng final consonant. Sa romanization, ang kk, tt, pp, ss ug jj dili taas nga tingog: hugot ang tutunlan ug walay hangin. Ang hyphen sa romanization dili glottal stop."}
-{"id":"ko.d.pronunciation-tips","label":"Tambag sa paglitok","desc":"Ang mga lagda sa tingog nga naghimo sa tinuod nga sinultihan nga lahi sa sinulat. Sa Koreano, walay glottal stop ug walay stress: pareho ang gibug-aton sa tanang syllable."}
-{"id":"ko.d.survival-phrases","label":"Pulong nga kinahanglanon","desc":"Ang 12 ka linya nga makatabang nimo sulod sa usa ka adlaw sa Korea."}
-{"id":"ko.d.introductions","label":"Pagpaila sa kaugalingon","desc":"Ngalan, gikan asa, edad, trabaho, kalingawan: ang mga linya sa unang pagkita."}
-{"id":"ko.d.survival-phrases-2","label":"Pulong nga kinahanglanon 2","desc":"Pagpangayo og tabang, pagpabalik sa giingon, pagbayad, ug pagpangita sa dalan kon nawala ka."}
-{"id":"ko.d.asking-around","label":"Pagpangutana","desc":"CR, exit, lingkuranan, wifi, oras sa pag-abli: ang tanang pangutana nga \"asa man?\"."}
-{"id":"ko.d.cafe-convenience-store","label":"Kapehan ug tindahan","desc":"Gidak-on, init o may yelo, points card, pagpainit sa pagkaon, supot."}
-{"id":"ko.d.numbers-in-the-wild","label":"Numero sa tinuod nga kinabuhi","desc":"Presyo, numero sa selpon, andana ug oras, sama sa pagkasulat niini sa tinuod."}
-{"id":"ko.d.counters","label":"Mga counter","desc":"Unsaon pag-ihap sa mga butang, tawo, tasa, botelya ug hayop. Sama sa duha ka tasa, usa ka buok sa Bisaya."}
-{"id":"ko.d.weather-feelings","label":"Panahon ug pagbati","desc":"Istorya bahin sa panahon ug sa imong gibati: ang duha ka labing sagad nga sugod sa istorya."}
-{"id":"ko.d.connectors","label":"Mga connector","desc":"Ug, mao nga, pero, dayon: ang pangdugtong sa pag-istorya."}
-{"id":"ko.d.doctor-pharmacy","label":"Doktor ug botika","desc":"Sintomas, tambal, alerdyi, reseta."}
-{"id":"ko.d.housing-errands","label":"Puy-anan ug mga buluhaton","desc":"Abang, deposito, parsela, pagbulag sa basura, labada."}
-{"id":"ko.d.honorifics","label":"Mga honorific","desc":"Pagtahod sa subject: 드시다, 주무시다, 계시다 ug -(으)시-."}
-{"id":"ko.d.places-buildings","label":"Mga lugar ug edipisyo","desc":"Kapehan, gym, librarya, museyo, balay: ang mga lugar nga imong adtoan."}
-{"id":"ko.d.hobbies","label":"Mga kalingawan","desc":"Tubaga ang 취미가 뭐예요? gamit ang tinuod nga mga pulong."}
-{"id":"ko.d.food-words","label":"Pulong sa pagkaon","desc":"Ang mga putahe ug sangkap nga makita sa matag menu."}
-{"id":"ko.d.drinks","label":"Mga ilimnon","desc":"Kape, tsa, soju, beer, ug unsaon pag-order og usa pa."}
-{"id":"ko.d.activities","label":"Mga kalihokan","desc":"Mga verb sa adlaw-adlaw nga \"nagbuhat ko og X\", sa polite nga porma."}
-{"id":"ko.d.tv-entertainment","label":"TV ug salida","desc":"Drama, variety show, klase sa salida, episode, sunod-sunod nga pagtan-aw."}
-{"id":"ko.d.position-direction-words","label":"Posisyon ug direksyon","desc":"Ibabaw, kilid, atbang, exit ug andana: asa ibutang ang butang ug asa kini pangitaon."}
-{"id":"ko.d.core-verbs","label":"Pangunang mga verb","desc":"Ang 12 ka verb nga imong gamiton matag adlaw, sa polite nga porma."}
-{"id":"ko.d.particles","label":"Mga particle","desc":"Ang gagmay nga pulong nga motapot sa luyo sa noun: topic, subject, object ug lugar. Sa Bisaya, ang marker mag-una; sa Koreano, ang particle mosunod."}
-{"id":"ko.d.numbers","label":"Mga numero","desc":"Native numbers ug Sino-Korean numbers, ug kanus-a gamiton ang matag usa. Sama sa numerong Bisaya ug numerong Kinatsila nga gigamit na nimo."}
-{"id":"ko.d.sweet-talk","label":"Matam-is nga pulong","desc":"Kyut, gwapa, gimingaw ko: para sa tawo nga suod nimo."}
-{"id":"ko.d.cute-things-to-say","label":"Pag-atiman ug pagdayeg","desc":"Mga pagdayeg ug pulong sa pag-atiman nga makaabot sa kasingkasing."}
-{"id":"ko.d.flirting","label":"Panguyab","desc":"Pagpangayo og numero, pagdapit sa paggawas, pag-ingon sa imong gibati."}
-{"id":"ko.d.casual-texting","label":"Text sa barkada","desc":"Mga pinamubo sa KakaoTalk (sama sa Messenger) ug ang mga linya nga tinuod nga gi-text sa magbarkada."}
-{"id":"ko.d.hype-cool","label":"Pagdayeg ug pagdasig","desc":"Pagdayeg, pagdasig ug slang para sa barkada."}
-{"id":"ko.d.hanging-out","label":"Pagtambay","desc":"Pagdapit, pagplano asa ug kanus-a, ug paghuman sa lakaw."}
-{"id":"ko.d.k-pop-fan-culture","label":"K-pop ug mga fan","desc":"Mga pulong sa fandom gikan sa 최애 hangtod sa 떼창."}
-{"id":"ko.d.social-media-slang","label":"Social media ug slang","desc":"Instagram, meme, ug ang slang nga uso karon."}
-{"id":"ko.d.dating-deeper","label":"Mas lalom nga relasyon","desc":"Paghusay kon unsa mo, tinuod nga pagdayeg, pagpangayo og pasaylo, pagpasalig."}
-{"id":"ko.d.work-office","label":"Trabaho ug opisina","desc":"Miting, deadline, pagpangutana sa kauban sa trabaho, pagpauli sa saktong oras, 회식."}
-{"id":"ko.d.small-talk","label":"Istorya-istorya","desc":"Pangutana kon kumusta na, panahon, plano sa katapusan sa semana, ug saktong pagpanamilit."}
-{"id":"ko.d.food-ordering","label":"Pagkaon ug pag-order","desc":"Pag-order, mga counter para sa pagkaon, ug ang duha ka pulong sa pagkaon."}
-{"id":"ko.d.directions-transport","label":"Direksyon ug sakyanan","desc":"Wala, tuo, diretso; subway, bus ug taxi."}
-{"id":"ko.d.time-days","label":"Oras ug adlaw","desc":"Karon, ugma, mga adlaw sa semana, unsa nang orasa."}
-{"id":"ko.d.family-people","label":"Pamilya ug mga tawo","desc":"Mama, papa, igsoon, higala, titser, ug giunsa pag-usab sa edad ang pulong."}
-{"id":"ko.d.adjectives","label":"Mga pulong nga naghulagway","desc":"Maayo, daotan, dako, gamay, init, bugnaw, puliki, lingaw. Sa Koreano, describing verb kini."}
-{"id":"ko.d.k-drama-phrases","label":"Linya sa K-drama","desc":"Mga reaksyon ug linya nga madungog nimo sa matag episode."}
+{"id": "ko.d.hangul-vowels", "label": "Mga vowel (Hangul)", "desc": "Ang 10 ka batakang vowel: kon mabasa nimo kini, mabasa nimo ang bisan unsang pulong. Sa romanization, ang eo usa ra ka vowel (ablihi ang baba sama sa a, apan ayaw lingina ang ngabil); ang eu usa ka u nga patag ang ngabil, samtang nagpahiyom; ug pareho ang tingog sa ae ug e, sama sa e sa kape. Apan ayaw ilisi ang o ug u, o ang e ug i: lahi kini nga mga pulong."}
+{"id": "ko.d.hangul-consonants", "label": "Mga consonant (Hangul)", "desc": "Ang 14 ka batakang consonant ug giunsa nila pag-usab sa katapusan sa syllable. Sa romanization, ang j sama sa dy sa dyip, dili sama sa j sa Jose; ang k, t, p, ch sa sinugdanan adunay buga sa hangin; ang h kanunay ingnon; ang r taliwala sa duha ka vowel sama sa r sa Bisaya, apan sa katapusan l, dili r."}
+{"id": "ko.d.hangul-advanced", "label": "Abante nga Hangul", "desc": "Mga tense consonant ug aspirated consonant, mga vowel nga gitapo, dobleng final consonant. Sa romanization, ang kk, tt, pp, ss ug jj dili taas nga tingog: hugot ang tutunlan ug walay hangin. Ang hyphen sa romanization dili glottal stop."}
+{"id": "ko.d.pronunciation-tips", "label": "Tambag sa paglitok", "desc": "Ang mga lagda sa tingog nga naghimo sa tinuod nga sinultihan nga lahi sa sinulat. Sa Koreano, walay glottal stop ug walay stress: pareho ang gibug-aton sa tanang syllable."}
+{"id": "ko.d.survival-phrases", "label": "Pulong nga kinahanglanon", "desc": "Ang 12 ka linya nga makatabang nimo sulod sa usa ka adlaw sa Korea."}
+{"id": "ko.d.introductions", "label": "Pagpaila sa kaugalingon", "desc": "Ngalan, gikan asa, edad, trabaho, kalingawan: ang mga linya sa unang pagkita."}
+{"id": "ko.d.survival-phrases-2", "label": "Pulong nga kinahanglanon 2", "desc": "Pagpangayo og tabang, pagpabalik sa giingon, pagbayad, ug pagpangita sa dalan kon nawala ka."}
+{"id": "ko.d.asking-around", "label": "Pagpangutana", "desc": "CR, exit, lingkuranan, wifi, oras sa pag-abli: ang tanang pangutana nga \"asa man?\"."}
+{"id": "ko.d.cafe-convenience-store", "label": "Kapehan ug tindahan", "desc": "Gidak-on, init o may yelo, points card, pagpainit sa pagkaon, supot."}
+{"id": "ko.d.numbers-in-the-wild", "label": "Numero sa tinuod nga kinabuhi", "desc": "Presyo, numero sa selpon, andana ug oras, sama sa pagkasulat niini sa tinuod."}
+{"id": "ko.d.counters", "label": "Mga counter", "desc": "Unsaon pag-ihap sa mga butang, tawo, tasa, botelya ug hayop. Sama sa duha ka tasa, usa ka buok sa Bisaya."}
+{"id": "ko.d.weather-feelings", "label": "Panahon ug pagbati", "desc": "Istorya bahin sa panahon ug sa imong gibati: ang duha ka labing sagad nga sugod sa istorya."}
+{"id": "ko.d.connectors", "label": "Mga connector", "desc": "Ug, mao nga, pero, dayon: ang pangdugtong sa pag-istorya."}
+{"id": "ko.d.doctor-pharmacy", "label": "Doktor ug botika", "desc": "Sintomas, tambal, alerdyi, reseta."}
+{"id": "ko.d.housing-errands", "label": "Puy-anan ug mga buluhaton", "desc": "Abang, deposito, parsela, pagbulag sa basura, labada."}
+{"id": "ko.d.honorifics", "label": "Mga honorific", "desc": "Pagtahod sa subject: 드시다, 주무시다, 계시다 ug -(으)시-."}
+{"id": "ko.d.places-buildings", "label": "Mga lugar ug edipisyo", "desc": "Kapehan, gym, librarya, museyo, balay: ang mga lugar nga imong adtoan."}
+{"id": "ko.d.hobbies", "label": "Mga kalingawan", "desc": "Tubaga ang 취미가 뭐예요? gamit ang tinuod nga mga pulong."}
+{"id": "ko.d.food-words", "label": "Pulong sa pagkaon", "desc": "Ang mga putahe ug sangkap nga makita sa matag menu."}
+{"id": "ko.d.drinks", "label": "Mga ilimnon", "desc": "Kape, tsa, soju, beer, ug unsaon pag-order og usa pa."}
+{"id": "ko.d.activities", "label": "Mga kalihokan", "desc": "Mga verb sa adlaw-adlaw nga \"nagbuhat ko og X\", sa polite nga porma."}
+{"id": "ko.d.tv-entertainment", "label": "TV ug salida", "desc": "Drama, variety show, klase sa salida, episode, sunod-sunod nga pagtan-aw."}
+{"id": "ko.d.position-direction-words", "label": "Posisyon ug direksyon", "desc": "Ibabaw, kilid, atbang, exit ug andana: asa ibutang ang butang ug asa kini pangitaon."}
+{"id": "ko.d.core-verbs", "label": "Pangunang mga verb", "desc": "Ang 12 ka verb nga imong gamiton matag adlaw, sa polite nga porma."}
+{"id": "ko.d.particles", "label": "Mga particle", "desc": "Ang gagmay nga pulong nga motapot sa luyo sa noun: topic, subject, object ug lugar. Sa Bisaya, ang marker mag-una; sa Koreano, ang particle mosunod."}
+{"id": "ko.d.numbers", "label": "Mga numero", "desc": "Native numbers ug Sino-Korean numbers, ug kanus-a gamiton ang matag usa. Sama sa numerong Bisaya ug numerong Kinatsila nga gigamit na nimo."}
+{"id": "ko.d.sweet-talk", "label": "Matam-is nga pulong", "desc": "Kyut, gwapa, gimingaw ko: para sa tawo nga suod nimo."}
+{"id": "ko.d.cute-things-to-say", "label": "Pag-atiman ug pagdayeg", "desc": "Mga pagdayeg ug pulong sa pag-atiman nga makaabot sa kasingkasing."}
+{"id": "ko.d.flirting", "label": "Panguyab", "desc": "Pagpangayo og numero, pagdapit sa paggawas, pag-ingon sa imong gibati."}
+{"id": "ko.d.casual-texting", "label": "Text sa barkada", "desc": "Mga pinamubo sa KakaoTalk (sama sa Messenger) ug ang mga linya nga tinuod nga gi-text sa magbarkada."}
+{"id": "ko.d.hype-cool", "label": "Pagdayeg ug pagdasig", "desc": "Pagdayeg, pagdasig ug slang para sa barkada."}
+{"id": "ko.d.hanging-out", "label": "Pagtambay", "desc": "Pagdapit, pagplano asa ug kanus-a, ug paghuman sa lakaw."}
+{"id": "ko.d.k-pop-fan-culture", "label": "K-pop ug mga fan", "desc": "Mga pulong sa fandom gikan sa 최애 hangtod sa 떼창."}
+{"id": "ko.d.social-media-slang", "label": "Social media ug slang", "desc": "Instagram, meme, ug ang slang nga uso karon."}
+{"id": "ko.d.dating-deeper", "label": "Mas lalom nga relasyon", "desc": "Paghusay kon unsa mo, tinuod nga pagdayeg, pagpangayo og pasaylo, pagpasalig."}
+{"id": "ko.d.work-office", "label": "Trabaho ug opisina", "desc": "Miting, deadline, pagpangutana sa kauban sa trabaho, pagpauli sa saktong oras, 회식."}
+{"id": "ko.d.small-talk", "label": "Istorya-istorya", "desc": "Pangutana kon kumusta na, panahon, plano sa katapusan sa semana, ug saktong pagpanamilit."}
+{"id": "ko.d.food-ordering", "label": "Pagkaon ug pag-order", "desc": "Pag-order, mga counter para sa pagkaon, ug ang duha ka pulong sa pagkaon."}
+{"id": "ko.d.directions-transport", "label": "Direksyon ug sakyanan", "desc": "Wala, tuo, diretso; subway, bus ug taxi."}
+{"id": "ko.d.time-days", "label": "Oras ug adlaw", "desc": "Karon, ugma, mga adlaw sa semana, unsa nang orasa."}
+{"id": "ko.d.family-people", "label": "Pamilya ug mga tawo", "desc": "Mama, papa, igsoon, higala, titser, ug giunsa pag-usab sa edad ang pulong."}
+{"id": "ko.d.adjectives", "label": "Mga pulong nga naghulagway", "desc": "Maayo, daotan, dako, gamay, init, bugnaw, puliki, lingaw. Sa Koreano, describing verb kini."}
+{"id": "ko.d.k-drama-phrases", "label": "Linya sa K-drama", "desc": "Mga reaksyon ug linya nga madungog nimo sa matag episode."}
+{"id": "ko.d.top-nouns", "label": "Sagad nga noun", "desc": "Ang labing gigamit nga noun sa Koreano nga wala pa matudlo sa kurso, gikan sa labing sagad."}
+{"id": "ko.d.top-verbs", "label": "Sagad nga verb", "desc": "Mga action verb sa dictionary form; ang note naghatag sa 해요 nga porma ug nagmarka sa irregular nga verb."}
+{"id": "ko.d.top-adjectives", "label": "Sagad nga describing verb", "desc": "Mga describing verb (sa Koreano, ang adjective kay verb): ang 해요 nga porma ug ang porma atubangan sa noun."}
+{"id": "ko.d.top-adverbs", "label": "Sagad nga adverb", "desc": "Mga pulong sa oras, gidak-on, kadaghan ug paagi: kaayo, na, kanunay, ngano, unsaon."}
+{"id": "ko.d.top-pronouns", "label": "Sagad nga pronoun", "desc": "Ako, ikaw, kini, kinsa, walay bisan usa, ug nganong ang ngalan o titulo kasagaran mopuli sa \"ikaw\"."}
+{"id": "ko.d.top-particles", "label": "Dugang particle", "desc": "Ang tubag sa Koreano sa preposition: ang mga particle lapas sa siyam sa deck nga Mga particle."}
+{"id": "ko.d.top-connectors", "label": "Dugang connector", "desc": "Mga ending nga mosumpay (-고, -지만, -아서, -(으)면 …) nga gipakita sa verb, ug mga connector nga wala sa Connectors."}
+{"id": "ko.d.top-interjections", "label": "Mga pulong sa katingala", "desc": "Ang tinuod nga isinggit sa Koreano: wow, aray, ay, phew, ta-da, ug kinsa ang moingon sa matag usa."}
+{"id": "ko.d.top-words", "label": "Mapuslanong pulong", "desc": "Kini / kana / asa atubangan sa noun, porma sa numero, adlaw ug oras, ug mga paagi sa pag-ingon og oo ug dili."}
+{"id": "ko.d.top-counters", "label": "Dugang counter", "desc": "Mga counter nga wala sa deck nga Mga counter: sakyanan, serving, rolyo, hiwa, minuto, bulan."}
+{"id": "ko.d.flirting-words", "label": "Pulong sa pagpanguyab", "desc": "Ang mga pulong nga gamiton sa Koreano sa pagpanguyab, mga phrase gikan niini, ug buotan nga paagi sa pag-ingon og oo o dili."}
+{"id": "ko.d.compliments", "label": "Adlaw-adlaw nga pagdayeg", "desc": "Adlaw-adlaw nga dayeg sa pagkaon, trabaho, balay ug bata, ug ang mapaubsanon nga tubag niini."}
+{"id": "ko.d.countries", "label": "Mga nasod", "desc": "Ang tanang nasod, ang labing sagad pangutan-on una. Nasod + 에서 왔어요 = taga-… ko; + 사람 = nasyonalidad; + 어 = pinulongan."}

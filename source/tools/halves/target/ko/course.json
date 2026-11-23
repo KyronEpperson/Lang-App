@@ -69,7 +69,25 @@
     "ko.d.k-drama-phrases",
     "ko.d.k-pop-fan-culture",
     "ko.d.social-media-slang",
-    "ko.d.family-people"
+    "ko.d.family-people",
+    "ko.d.flirting-words",
+    "ko.d.compliments"
+   ]
+  },
+  {
+   "id": "ko.grp.core-words",
+   "decks": [
+    "ko.d.top-nouns",
+    "ko.d.top-verbs",
+    "ko.d.top-adjectives",
+    "ko.d.top-adverbs",
+    "ko.d.top-pronouns",
+    "ko.d.top-particles",
+    "ko.d.top-connectors",
+    "ko.d.top-interjections",
+    "ko.d.top-words",
+    "ko.d.top-counters",
+    "ko.d.countries"
    ]
   }
  ],
@@ -92,7 +110,8 @@
    "ko.d.flirting",
    "ko.d.hanging-out",
    "ko.d.small-talk",
-   "ko.d.dating-deeper"
+   "ko.d.dating-deeper",
+   "ko.d.flirting-words"
   ],
   "work": [
    "ko.d.introductions",
@@ -124,7 +143,8 @@
    "ko.d.doctor-pharmacy",
    "ko.d.housing-errands",
    "ko.d.honorifics",
-   "ko.d.work-office"
+   "ko.d.work-office",
+   "ko.d.compliments"
   ],
   "casual": [
    "ko.d.casual-texting",
@@ -150,7 +170,10 @@
    "ko.d.connectors",
    "ko.d.adjectives",
    "ko.d.numbers",
-   "ko.d.honorifics"
+   "ko.d.honorifics",
+   "ko.d.top-particles",
+   "ko.d.top-connectors",
+   "ko.d.top-counters"
   ],
   "reading": [
    "ko.d.hangul-vowels",
@@ -182,7 +205,15 @@
    "ko.d.drinks",
    "ko.d.activities",
    "ko.d.tv-entertainment",
-   "ko.d.position-direction-words"
+   "ko.d.position-direction-words",
+   "ko.d.top-nouns",
+   "ko.d.top-verbs",
+   "ko.d.top-adjectives",
+   "ko.d.top-adverbs",
+   "ko.d.top-pronouns",
+   "ko.d.top-interjections",
+   "ko.d.top-words",
+   "ko.d.countries"
   ]
  },
  "goals": [
@@ -330,7 +361,20 @@
     "ko.d.k-drama-phrases",
     "ko.d.k-pop-fan-culture",
     "ko.d.social-media-slang",
-    "ko.d.family-people"
+    "ko.d.family-people",
+    "ko.d.flirting-words",
+    "ko.d.compliments",
+    "ko.d.top-nouns",
+    "ko.d.top-verbs",
+    "ko.d.top-adjectives",
+    "ko.d.top-adverbs",
+    "ko.d.top-pronouns",
+    "ko.d.top-particles",
+    "ko.d.top-connectors",
+    "ko.d.top-interjections",
+    "ko.d.top-words",
+    "ko.d.top-counters",
+    "ko.d.countries"
    ],
    "lessons": [
     "hangul",
@@ -1175,7 +1219,18 @@
    "ko.d.counters",
    "ko.d.numbers",
    "ko.d.connectors",
-   "ko.d.adjectives"
+   "ko.d.adjectives",
+   "ko.d.top-nouns",
+   "ko.d.top-verbs",
+   "ko.d.top-adjectives",
+   "ko.d.top-adverbs",
+   "ko.d.top-pronouns",
+   "ko.d.top-particles",
+   "ko.d.top-connectors",
+   "ko.d.top-interjections",
+   "ko.d.top-words",
+   "ko.d.top-counters",
+   "ko.d.countries"
   ]
  },
  "build": [
@@ -1254,6 +1309,6 @@
  ],
  "exportedFrom": {
   "file": "src/app.html",
-  "sha256_16": "abc284e5db93332b"
+  "sha256_16": "297b7db152424ce1"
  }
 }

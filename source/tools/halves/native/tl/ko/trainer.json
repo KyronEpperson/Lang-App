@@ -181,7 +181,7 @@
    "주시겠어요": "puwede po ba ninyong…? (napakagalang na pakiusap)",
    "셨어요": "honorific na past (-시-)",
    "으세요": "honorific / magalang na pakiusap",
-   "주세요": "pakigawa / pahingi",
+   "주세요": "pakigawa (para sa akin)",
    "드립니다": "formal, mapagpakumbaba (ibinibigay / ginagawa ko para sa iyo)",
    "세요": "magalang na pakiusap / honorific",
    "게요": "gagawin ko (pangako)",
@@ -264,7 +264,7 @@
    "병": "bote",
    "마리": "hayop",
    "권": "libro",
-   "장": "piraso (papel)",
+   "장": "pirasong papel",
    "살": "taong gulang",
    "시간": "oras (tagal)",
    "번": "beses",
@@ -333,7 +333,7 @@
    "잔": "tasa",
    "병": "bote",
    "마리": "hayop",
-   "장": "piraso (papel)"
+   "장": "pirasong papel"
   },
   "ui": {
    "prompt": "🔢 Makinig at i-type ang numero · %1",

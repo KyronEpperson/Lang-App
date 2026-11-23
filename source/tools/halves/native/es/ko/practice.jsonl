@@ -31,7 +31,7 @@
 {"id":"meet.03","q":"Sales de una tienda; el dueño se queda. Dices:","why":"계세요 = quédese en paz; lo dice quien se va."}
 {"id":"meet.04","q":"«¿De dónde eres?» =","why":"에서 왔어요 = vine de."}
 {"id":"meet.05","q":"«Soy estudiante» =","why":"학생 termina en consonante → 이에요."}
-{"id":"meet.06","p":"Soy de Estados Unidos","why":"Lugar + 에서 왔어요 = vine de."}
+{"id":"meet.06","p":"Soy de México","why":"Lugar + 에서 왔어요 = vine de."}
 {"id":"meet.07","p":"Estudio coreano","why":"한국어 = idioma coreano; 한국 = Corea."}
 {"id":"meet.08","p":"Hola, yo soy Minsu","why":"민수 termina en vocal → 예요."}
 {"id":"meet.09","p":"Soy estudiante","why":"Termina en consonante → 이에요."}
@@ -168,7 +168,7 @@
 {"id":"sov.14","p":"¿Qué estás comiendo?","why":"La palabra interrogativa va donde iría la respuesta; entonación ascendente."}
 {"id":"particles.01","q":"«Voy a la escuela» =","why":"Destino con 가요 → 에 (como «a»)."}
 {"id":"particles.02","q":"«Descanso en casa» =","why":"Donde ocurre una acción → 에서."}
-{"id":"particles.03","q":"«Vine de Estados Unidos» =","why":"에서 = de, desde; 미국에 왔어요 = vine a Estados Unidos."}
+{"id":"particles.03","q":"«Vine de Japón» =","why":"에서 = de, desde; 일본에 왔어요 = vine a Japón."}
 {"id":"particles.04","q":"«El fin de semana» =","why":"Las palabras de tiempo llevan 에."}
 {"id":"particles.05","q":"Respuesta a 누가 왔어요? (¿Quién vino?): «Vino mi amigo» =","why":"La respuesta a «¿quién?» es información nueva → 이/가."}
 {"id":"particles.06","p":"Estudio en una cafetería","why":"Lugar de una acción → 에서."}
@@ -450,10 +450,10 @@
 {"id":"office.02","q":"A tu gerente al final del día:","why":"수고했어요 es para alguien de menor rango o un igual; a los superiores, 수고하셨습니다."}
 {"id":"office.03","q":"¿Cómo llamas a tu gerente (과장)?","why":"Los cargos siempre llevan 님."}
 {"id":"office.04","q":"El cierre habitual de un correo, «Le pido que lo revise»:","why":"부탁드립니다 = le pido humildemente."}
-{"id":"office.05","q":"Para firmar un correo como 키이:","why":"드림 va después de tu propio nombre; nunca 씨 ni 님 para ti mismo."}
+{"id":"office.05","q":"Para firmar un correo como @@:","why":"드림 va después de tu propio nombre; nunca 씨 ni 님 para ti mismo."}
 {"id":"office.06","p":"Me retiro primero (a toda la oficina)","why":"먼저 퇴근하겠습니다 es la frase hecha."}
 {"id":"office.07","p":"¿A qué hora es la reunión?","why":"몇 시예요? = ¿a qué hora es?"}
-{"id":"office.08","p":"Hola, soy Kii, del equipo de marketing","why":"Primero el equipo, luego tu nombre + 입니다. Nada de 님 para ti mismo."}
+{"id":"office.08","p":"Hola, soy @@, del equipo de marketing","why":"Primero el equipo, luego tu nombre + 입니다. Nada de 님 para ti mismo."}
 {"id":"office.09","p":"Le pido que lo revise (correo)","why":"부탁드립니다 = le pido humildemente."}
 {"id":"office.10","p":"Gracias por su trabajo de hoy (a un superior, al salir)","why":"A los superiores, el pasado honorífico: 수고하셨습니다."}
 {"id":"office.11","p":"Gerente, ¿podría revisar esto?","why":"Los cargos siempre llevan 님."}

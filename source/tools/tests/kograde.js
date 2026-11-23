@@ -88,6 +88,17 @@ const FILE = path.resolve(process.argv[2] || path.join(__dirname, '../../korean-
       words.forEach(wd => { const bt = [...box.querySelectorAll('.prac-tiles button, button')].find(x => x.textContent.trim() === wd && !x.disabled && !x.closest('.prac-built')); if (bt) bt.click(); });
       box.querySelector('.prac-chk').click(); const r = !!box.querySelector('.prac-ok'); document.querySelector('#pracRun .prac-back').click(); return r; };
     out.ui = { alt: tileRun('past', 5, 'alt'), a: tileRun('past', 5, 'a'), bad: !tileRun('past', 5, 'bad'), vocative: tileRun('titles', 7, 'alt') };
+    /* 2026-11-23 content: "I'm from ___" items have exactly one right answer; the 13 new decks (Core words, Flirting words, Compliments, Countries) are romanised by romanize() and add no duplicate front */
+    const fromItems = [];
+    for (const cid of ['en-ko', 'es-ko']) { if (!COURSES[cid]) continue; applyCourse(cid);
+      const m6 = pracItems('meet')[5], p3 = pracItems('particles')[2];
+      fromItems.push([cid + ' meet.06', m6.a.join(' ') === '멕시코에서 왔어요' && m6.x.join() === '멕시코' && !pracMatch('미국에서 왔어요', [m6.a.join(' ')], true) && !pracMatch('멕시코 왔어요', [m6.a.join(' ')], true)]);
+      fromItems.push([cid + ' particles.03', p3.o[0] === '일본에서 왔어요' && p3.o.filter(o => /에서 왔어요$/.test(o)).length === 1 && !p3.o.some(o => /미국/.test(o))]); }
+    out.fromItems = fromItems.filter(x => !x[1]).map(x => x[0]); applyCourse('en-ko');
+    const NEWD = ['Top nouns', 'Top verbs', 'Top adjectives', 'Top adverbs', 'Top pronouns', 'Top particles', 'Top connectors', 'Top interjections', 'Top words', 'Top counters', 'Flirting words', 'Compliments', 'Countries'];
+    out.newDecks = NEWD.filter(d => !DECKS[d] || !DECKS[d].length); out.newRom = []; NEWD.forEach(d => (DECKS[d] || []).forEach(c => { if (c[1] !== romanize(c[0])) out.newRom.push(d + ': ' + c[0] + ' ' + c[1] + ' ≠ ' + romanize(c[0])); }));
+    const fronts = names.flatMap(d => DECKS[d].map(c => c[0])); out.dupFronts = fronts.filter((x, i) => fronts.indexOf(x) !== i);
+    out.countries = (DECKS['Countries'] || []).length; out.unlock = ['Core verbs', 'Casual texting', 'Flirting words', 'Top nouns', 'Countries'].map(d => d + '<' + PATH[PATH.indexOf(d) - 1]);
     return out;
   });
   await b.close();
@@ -99,6 +110,11 @@ const FILE = path.resolve(process.argv[2] || path.join(__dirname, '../../korean-
   chk('romanize() word list', !res.rom.length, res.rom);
   chk('sound drill: tensed outputs', !res.snd.length, res.snd); chk('sound drill: unsafe phrases kept out (' + res.sndN + ' items)', !res.sndOut.length, res.sndOut);
   chk('alt order accepted through the tile UI', res.ui.alt && res.ui.a && res.ui.bad && res.ui.vocative, res.ui);
+  chk("'I'm from ___' items: one right answer, no US-only line (en-ko, es-ko)", !res.fromItems.length, res.fromItems);
+  chk('13 new decks present, Countries has ' + res.countries + ' cards', !res.newDecks.length && res.countries >= 190, res.newDecks);
+  chk('new decks: romanisation is romanize() of the front', !res.newRom.length, res.newRom.slice(0, 10));
+  chk('no card front in two decks', !res.dupFronts.length, res.dupFronts);
+  chk('unlock chain: existing decks keep their predecessor (' + res.unlock.join(', ') + ')', res.unlock[0] === 'Core verbs<Position & direction words' && res.unlock[1] === 'Casual texting<Honorifics' && res.unlock[2] === 'Flirting words<Family & people', res.unlock);
   if (errs.length) { console.log('page errors: ' + errs.join(' | ')); bad++; }
   console.log(bad ? 'GRADE FAIL ' + bad : 'GRADE OK'); process.exit(bad ? 1 : 0);
 })();

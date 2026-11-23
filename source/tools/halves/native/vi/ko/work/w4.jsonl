@@ -47,12 +47,12 @@
 {"f":"sentences","id":"ko.s0189","k":"gloss","src":"Where is the subway station?","tgt":"Ga tàu điện ngầm ở đâu?"}
 {"f":"sentences","id":"ko.s0190","k":"gloss","src":"Go straight","tgt":"Đi thẳng"}
 {"f":"sentences","id":"ko.s0191","k":"gloss","src":"Go left (으로 = toward)","tgt":"Đi về bên trái (으로 = về phía)"}
-{"f":"sentences","id":"ko.s0192","k":"gloss","src":"Please go to Myeongdong","tgt":"Đến Myeongdong giúp tôi"}
+{"f":"sentences","id":"ko.s0192","k":"gloss","src":"Please go to Myeongdong","tgt":"Cho tôi đi Myeongdong"}
 {"f":"sentences","id":"ko.s0193","k":"gloss","src":"Please stop here","tgt":"Dừng ở đây giúp tôi"}
 {"f":"sentences","id":"ko.s0194","k":"gloss","src":"The next station is Gangnam","tgt":"Ga tiếp theo là ga Gangnam"}
 {"f":"checks","id":"getting-around.k1","k":"q","src":"'Go straight' =","tgt":"“Đi thẳng” ="}
 {"f":"checks","id":"getting-around.k1","k":"why","src":"똑바로 = straight.","tgt":"똑바로 = thẳng."}
-{"f":"checks","id":"getting-around.k2","k":"q","src":"In a taxi, 'please go to Myeongdong' =","tgt":"Trên taxi, “Đến Myeongdong giúp tôi” ="}
+{"f":"checks","id":"getting-around.k2","k":"q","src":"In a taxi, 'please go to Myeongdong' =","tgt":"Trên taxi, “Cho tôi đi Myeongdong” ="}
 {"f":"checks","id":"getting-around.k2","k":"why","src":"place + 으로 가 주세요.","tgt":"nơi đến + 으로 가 주세요."}
 {"f":"checks","id":"getting-around.k3","k":"q","src":"The transit card is called:","tgt":"Thẻ đi lại công cộng gọi là:"}
 {"f":"checks","id":"getting-around.k3","k":"why","src":"T-money works on subway, bus and most taxis.","tgt":"T-money dùng được cho tàu điện ngầm, xe buýt và hầu hết taxi."}
@@ -60,13 +60,13 @@
 {"f":"practice","id":"getting-around.01","k":"why","src":"Place + 어디예요? = 'Where is (place)?'","tgt":"Địa điểm + 어디예요? = “(địa điểm) ở đâu?”"}
 {"f":"practice","id":"getting-around.02","k":"q","src":"'Go left' =","tgt":"“Đi về bên trái” ="}
 {"f":"practice","id":"getting-around.02","k":"why","src":"왼쪽 = left, 으로 = toward.","tgt":"왼쪽 = bên trái, 으로 = về phía."}
-{"f":"practice","id":"getting-around.03","k":"q","src":"In a taxi: 'Please go to Myeongdong' =","tgt":"Trên taxi: “Đến Myeongdong giúp tôi” ="}
+{"f":"practice","id":"getting-around.03","k":"q","src":"In a taxi: 'Please go to Myeongdong' =","tgt":"Trên taxi: “Cho tôi đi Myeongdong” ="}
 {"f":"practice","id":"getting-around.03","k":"why","src":"Destination + (으)로 + 가 주세요.","tgt":"Nơi đến + (으)로 + 가 주세요."}
 {"f":"practice","id":"getting-around.04","k":"q","src":"'Please stop here' =","tgt":"“Dừng ở đây giúp tôi” ="}
 {"f":"practice","id":"getting-around.04","k":"why","src":"여기서 = here; 세워 주세요 = please stop.","tgt":"여기서 = ở đây; 세워 주세요 = dừng giúp tôi."}
 {"f":"practice","id":"getting-around.05","k":"q","src":"On the subway, 'next stop' =","tgt":"Trên tàu điện ngầm, “ga tiếp theo” ="}
 {"f":"practice","id":"getting-around.05","k":"why","src":"다음 = next, 역 = station. 이번 역 = this stop.","tgt":"다음 = tiếp theo, 역 = ga. 이번 역 = ga này."}
-{"f":"practice","id":"getting-around.06","k":"p","src":"Please go to Myeongdong","tgt":"Đến Myeongdong giúp tôi"}
+{"f":"practice","id":"getting-around.06","k":"p","src":"Please go to Myeongdong","tgt":"Cho tôi đi Myeongdong"}
 {"f":"practice","id":"getting-around.06","k":"why","src":"Destination + 으로, then 가 주세요.","tgt":"Nơi đến + 으로, rồi 가 주세요."}
 {"f":"practice","id":"getting-around.07","k":"p","src":"Please stop here","tgt":"Dừng ở đây giúp tôi"}
 {"f":"practice","id":"getting-around.07","k":"why","src":"Place first, then 세워 주세요.","tgt":"Địa điểm trước, rồi 세워 주세요."}
@@ -76,13 +76,13 @@
 {"f":"practice","id":"getting-around.09","k":"why","src":"Toward a direction → (으)로; 왼쪽 ends in a consonant, so 으로.","tgt":"Hướng về một phía → (으)로; 왼쪽 tận cùng bằng phụ âm nên dùng 으로."}
 {"f":"practice","id":"getting-around.10","k":"p","src":"Where is the subway station?","tgt":"Ga tàu điện ngầm ở đâu?"}
 {"f":"practice","id":"getting-around.10","k":"why","src":"어디 = where.","tgt":"어디 = ở đâu."}
-{"f":"practice","id":"getting-around.11","k":"p","src":"To the airport, please","tgt":"Đến sân bay giúp tôi"}
+{"f":"practice","id":"getting-around.11","k":"p","src":"To the airport, please","tgt":"Cho tôi đi sân bay"}
 {"f":"practice","id":"getting-around.11","k":"why","src":"Destination → 으로 (after a consonant) or 에, never 에서.","tgt":"Nơi đến → 으로 (sau phụ âm) hoặc 에, không bao giờ 에서."}
 {"f":"practice","id":"getting-around.12","k":"p","src":"Where is the subway station?","tgt":"Ga tàu điện ngầm ở đâu?"}
 {"f":"practice","id":"getting-around.12","k":"why","src":"Place + 어디예요?","tgt":"Địa điểm + 어디예요?"}
 {"f":"practice","id":"getting-around.13","k":"p","src":"Go straight (giving directions)","tgt":"Đi thẳng (khi chỉ đường)"}
 {"f":"practice","id":"getting-around.13","k":"why","src":"똑바로 = straight; 가세요 = please go.","tgt":"똑바로 = thẳng; 가세요 = hãy đi."}
-{"f":"practice","id":"getting-around.14","k":"p","src":"Please go to the airport (to a taxi driver)","tgt":"Đến sân bay giúp tôi (nói với tài xế taxi)"}
+{"f":"practice","id":"getting-around.14","k":"p","src":"Please go to the airport (to a taxi driver)","tgt":"Cho tôi đi sân bay (nói với tài xế taxi)"}
 {"f":"practice","id":"getting-around.14","k":"why","src":"Destination takes 으로 or 에. 에서 is where an action happens.","tgt":"Nơi đến dùng 으로 hoặc 에. 에서 là nơi diễn ra hành động."}
 {"f":"lessons","id":"titles","k":"title","src":"21 · Titles & honorifics","tgt":"21 · Danh xưng và kính ngữ"}
 {"f":"lessons","id":"titles","k":"blurb","src":"씨, 님, 오빠/언니 — what to call people and when a bare name is rude.","tgt":"씨, 님, 오빠/언니: gọi người khác thế nào, và khi nào gọi trống không tên là bất lịch sự."}
@@ -195,7 +195,7 @@
 {"f":"practice","id":"texting.01","k":"why","src":"ㅋ is a laugh sound; more ㅋ = funnier.","tgt":"ㅋ là tiếng cười; càng nhiều ㅋ càng buồn cười."}
 {"f":"practice","id":"texting.02","k":"q","src":"A casual 'yeah' in a text:","tgt":"“Ừ” thân mật khi nhắn tin:"}
 {"f":"practice","id":"texting.02","k":"why","src":"ㅇㅇ is short for 응 (yeah). ㄴㄴ = no.","tgt":"ㅇㅇ là viết tắt của 응 (ừ). ㄴㄴ = không."}
-{"f":"practice","id":"texting.03","k":"q","src":"Texting your boss 'Yes, confirmed':","tgt":"Nhắn cho sếp “Vâng, tôi đã xác nhận”:"}
+{"f":"practice","id":"texting.03","k":"q","src":"Texting your boss 'Yes, confirmed':","tgt":"Nhắn cho sếp “Vâng, tôi đã xác nhận ạ”:"}
 {"f":"practice","id":"texting.03","k":"why","src":"With seniors, keep it polite; 넵 is the friendly work 'yes'.","tgt":"Với người trên, giữ lịch sự; 넵 là chữ “vâng” thân thiện nơi công sở."}
 {"f":"practice","id":"texting.04","k":"q","src":"Texting a friend 'Where (are you) now?':","tgt":"Nhắn cho bạn: “Giờ đang ở đâu?”:"}
 {"f":"practice","id":"texting.04","k":"why","src":"Between friends, drop everything optional: 지금 어디?","tgt":"Giữa bạn bè, bỏ hết những gì không bắt buộc: 지금 어디?"}
@@ -215,9 +215,9 @@
 {"f":"practice","id":"texting.11","k":"why","src":"내일 봐 = see you tomorrow (casual).","tgt":"내일 봐 = mai gặp (thân mật)."}
 {"f":"practice","id":"texting.12","k":"p","src":"Text a friend: 'What are you up to?'","tgt":"Nhắn cho bạn thân: “Đang làm gì đấy?”"}
 {"f":"practice","id":"texting.12","k":"why","src":"The universal casual opener.","tgt":"Câu mở đầu thân mật dùng được mọi lúc."}
-{"f":"practice","id":"texting.13","k":"p","src":"Text a friend: 'I'm on my way'","tgt":"Nhắn cho bạn thân: “Mình đang đến đây”"}
+{"f":"practice","id":"texting.13","k":"p","src":"Text a friend: 'I'm on my way'","tgt":"Nhắn cho bạn thân: “Mình đi đây”"}
 {"f":"practice","id":"texting.13","k":"why","src":"Casual: no 요, no particles.","tgt":"Thân mật: không 요, không trợ từ."}
-{"f":"practice","id":"texting.14","k":"p","src":"Text a senior coworker: 'Yes, confirmed' (friendly-polite)","tgt":"Nhắn cho đồng nghiệp lớn tuổi hơn: “Vâng, tôi đã xác nhận” (lịch sự, thân thiện)"}
+{"f":"practice","id":"texting.14","k":"p","src":"Text a senior coworker: 'Yes, confirmed' (friendly-polite)","tgt":"Nhắn cho đồng nghiệp lớn tuổi hơn: “Vâng, tôi đã xác nhận ạ” (lịch sự, thân thiện)"}
 {"f":"practice","id":"texting.14","k":"why","src":"Politeness still exists: 넵 or 네, never ㅇㅇ, with seniors.","tgt":"Phép lịch sự vẫn còn: với người trên dùng 넵 hoặc 네, không bao giờ ㅇㅇ."}
 {"f":"lessons","id":"counters","k":"title","src":"24 · Counters","tgt":"24 · Đơn vị đếm"}
 {"f":"lessons","id":"counters","k":"blurb","src":"You can't say 'two coffees' without one. The ten counters that cover daily life.","tgt":"Không có đơn vị đếm thì không nói được “hai cốc cà phê”. Mười đơn vị đếm đủ cho đời sống hằng ngày."}
@@ -390,7 +390,7 @@
 {"f":"practice","id":"noun-modifiers.06","k":"why","src":"큰 + noun; the particle goes on the noun.","tgt":"큰 + danh từ; trợ từ gắn vào danh từ."}
 {"f":"practice","id":"noun-modifiers.07","k":"p","src":"(I) like spicy food","tgt":"(Tôi) thích món ăn cay"}
 {"f":"practice","id":"noun-modifiers.07","k":"why","src":"맵다 → 매운.","tgt":"맵다 → 매운.","pre":1}
-{"f":"practice","id":"noun-modifiers.08","k":"p","src":"It's a fun movie","tgt":"Đó là một bộ phim hay"}
+{"f":"practice","id":"noun-modifiers.08","k":"p","src":"It's a fun movie","tgt":"Là một bộ phim hay"}
 {"f":"practice","id":"noun-modifiers.08","k":"why","src":"있다 words take 는.","tgt":"Từ có 있다 thì thêm 는."}
 {"f":"practice","id":"noun-modifiers.09","k":"p","src":"good weather","tgt":"thời tiết đẹp"}
 {"f":"practice","id":"noun-modifiers.09","k":"why","src":"Consonant stem + 은.","tgt":"Gốc tận cùng bằng phụ âm + 은."}
@@ -398,7 +398,7 @@
 {"f":"practice","id":"noun-modifiers.10","k":"why","src":"있다 words take 는.","tgt":"Từ có 있다 thì thêm 는."}
 {"f":"practice","id":"noun-modifiers.11","k":"p","src":"a small house","tgt":"ngôi nhà nhỏ"}
 {"f":"practice","id":"noun-modifiers.11","k":"why","src":"작 + 은.","tgt":"작 + 은.","pre":1}
-{"f":"practice","id":"noun-modifiers.12","k":"p","src":"It's a big house","tgt":"Đó là một ngôi nhà to"}
+{"f":"practice","id":"noun-modifiers.12","k":"p","src":"It's a big house","tgt":"Là một ngôi nhà to"}
 {"f":"practice","id":"noun-modifiers.12","k":"why","src":"크 + ㄴ → 큰 집.","tgt":"크 + ㄴ → 큰 집.","pre":1}
 {"f":"practice","id":"noun-modifiers.13","k":"p","src":"(I) like spicy food","tgt":"(Tôi) thích món ăn cay"}
 {"f":"practice","id":"noun-modifiers.13","k":"why","src":"맵다 → 매운.","tgt":"맵다 → 매운.","pre":1}
@@ -423,7 +423,7 @@
 {"f":"checks","id":"compare.k3","k":"q","src":"'More, please' =","tgt":"“Cho tôi thêm” ="}
 {"f":"checks","id":"compare.k3","k":"why","src":"더 = more.","tgt":"더 = thêm, hơn."}
 {"f":"practice","id":"compare.01","k":"q","src":"'The bus is cheaper than a taxi' =","tgt":"“Xe buýt rẻ hơn taxi” ="}
-{"f":"practice","id":"compare.01","k":"why","src":"보다 marks the 'than' item.","tgt":"보다 đánh dấu vế “hơn cái gì”."}
+{"f":"practice","id":"compare.01","k":"why","src":"보다 marks the 'than' item.","tgt":"보다 = “so với”: đánh dấu vật làm mốc so sánh."}
 {"f":"practice","id":"compare.02","k":"q","src":"'This is the tastiest' =","tgt":"“Cái này ngon nhất” ="}
 {"f":"practice","id":"compare.02","k":"why","src":"제일 = the most.","tgt":"제일 = nhất."}
 {"f":"practice","id":"compare.03","k":"q","src":"'More, please' =","tgt":"“Cho tôi thêm” ="}
@@ -433,13 +433,13 @@
 {"f":"practice","id":"compare.05","k":"q","src":"'It's less spicy' =","tgt":"“Ít cay hơn” ="}
 {"f":"practice","id":"compare.05","k":"why","src":"덜 = less.","tgt":"덜 = ít hơn, kém hơn."}
 {"f":"practice","id":"compare.06","k":"p","src":"The bus is cheaper than a taxi (start with the bus)","tgt":"Xe buýt rẻ hơn taxi (bắt đầu bằng xe buýt)"}
-{"f":"practice","id":"compare.06","k":"why","src":"택시보다 = than a taxi.","tgt":"택시보다 = hơn taxi."}
+{"f":"practice","id":"compare.06","k":"why","src":"택시보다 = than a taxi.","tgt":"택시보다 = so với taxi."}
 {"f":"practice","id":"compare.07","k":"p","src":"This is the tastiest","tgt":"Cái này ngon nhất"}
 {"f":"practice","id":"compare.07","k":"why","src":"제일 before the describing word.","tgt":"제일 đứng trước tính từ, ngược với “ngon nhất” trong tiếng Việt."}
 {"f":"practice","id":"compare.08","k":"p","src":"Which is better?","tgt":"Cái nào tốt hơn?"}
 {"f":"practice","id":"compare.08","k":"why","src":"더 = more.","tgt":"더 = hơn."}
 {"f":"practice","id":"compare.09","k":"p","src":"The bus is cheaper than a taxi","tgt":"Xe buýt rẻ hơn taxi"}
-{"f":"practice","id":"compare.09","k":"why","src":"보다 = than.","tgt":"보다 = hơn."}
+{"f":"practice","id":"compare.09","k":"why","src":"보다 = than.","tgt":"보다 = so với."}
 {"f":"practice","id":"compare.10","k":"p","src":"This is the tastiest","tgt":"Cái này ngon nhất"}
 {"f":"practice","id":"compare.10","k":"why","src":"제일 / 가장 = the most.","tgt":"제일 / 가장 = nhất."}
 {"f":"practice","id":"compare.11","k":"p","src":"More, please","tgt":"Cho tôi thêm"}
@@ -551,7 +551,7 @@
 {"f":"sentences","id":"ko.s0277","k":"gloss","src":"Enjoy your meal (lit. eat deliciously)","tgt":"Chúc ngon miệng (nghĩa đen: “xin dùng cho ngon”)"}
 {"f":"sentences","id":"ko.s0278","k":"gloss","src":"Good night (to an elder)","tgt":"Chúc ngủ ngon ạ (nói với người lớn tuổi)"}
 {"f":"sentences","id":"ko.s0279","k":"gloss","src":"Is the owner in?","tgt":"Ông chủ có ở đây không?"}
-{"f":"checks","id":"honorific.k1","k":"q","src":"'Enjoy your meal' to a customer:","tgt":"Nói “Chúc ngon miệng” với khách:"}
+{"f":"checks","id":"honorific.k1","k":"q","src":"'Enjoy your meal' to a customer:","tgt":"Nói “Chúc ngon miệng ạ” với khách:"}
 {"f":"checks","id":"honorific.k1","k":"why","src":"드시다 replaces 먹다 in honorific speech.","tgt":"드시다 thay cho 먹다 trong lời kính ngữ, như “dùng” thay cho “ăn” trong tiếng Việt."}
 {"f":"checks","id":"honorific.k2","k":"q","src":"Honorific of 자다 (to sleep):","tgt":"Kính ngữ của 자다 (ngủ):"}
 {"f":"checks","id":"honorific.k2","k":"why","src":"안녕히 주무세요.","tgt":"안녕히 주무세요.","pre":1}

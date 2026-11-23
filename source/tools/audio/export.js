@@ -13,13 +13,15 @@ if (!/^[a-z]{2,3}-[a-z]{2,4}$/.test(CID || '')) { console.error('usage: node too
   await p.waitForFunction(() => { try { return typeof COURSE !== 'undefined' && !!COURSE && typeof DECKS !== 'undefined' && Object.keys(DECKS).length > 0; } catch (e) { return false; } }, null, { timeout: 30000 });
   const got = await p.evaluate((cid) => {
     if (COURSE.id !== cid) return { err: 'loaded ' + COURSE.id + ' instead of ' + cid };
-    const raw = new Set(); const add = x => { if (typeof x === 'string' && x.trim()) raw.add(x); };
-    Object.values(DECKS).forEach(cs => cs.forEach(c => add(c[0])));
-    Object.values(typeof EXAMPLES !== 'undefined' ? EXAMPLES : {}).forEach(e => add(e && e[0]));
-    Object.values(typeof DIALOG !== 'undefined' ? DIALOG : {}).forEach(d => { if (d) { add(d[0]); add(d[1]); if (d[0] && d[1]) add(d[0] + '. ' + d[1]); } });
-    const html = []; (typeof LESSONS !== 'undefined' ? LESSONS : []).forEach(l => { ['body', 'html', 'tip'].forEach(k => { if (typeof l[k] === 'string') html.push(l[k]); }); });
+    const raw = new Set(); const add = x => { if (typeof x === 'string' && x.trim() && x.indexOf('@@') < 0) raw.add(x); }; /* lines with the learner-name token are spoken by the device voice, never clips */
+    /* the raw tables (token intact), not the nickname-substituted copies the app renders */
+    const NR = (typeof NAME_RAW !== 'undefined' && NAME_RAW) ? NAME_RAW : { DECKS, EXAMPLES: typeof EXAMPLES !== 'undefined' ? EXAMPLES : {}, DIALOG: typeof DIALOG !== 'undefined' ? DIALOG : {}, LESSONS: typeof LESSONS !== 'undefined' ? LESSONS : [], PRACTICE: typeof PRACTICE !== 'undefined' ? PRACTICE : {} };
+    Object.values(NR.DECKS).forEach(cs => cs.forEach(c => add(c[0])));
+    Object.values(NR.EXAMPLES || {}).forEach(e => add(e && e[0]));
+    Object.values(NR.DIALOG || {}).forEach(d => { if (d) { add(d[0]); add(d[1]); if (d[0] && d[1]) add(d[0] + '. ' + d[1]); } });
+    const html = []; (NR.LESSONS || []).forEach(l => { ['body', 'html', 'tip'].forEach(k => { if (typeof l[k] === 'string') html.push(l[k]); }); });
     const div = document.createElement('div'); html.forEach(h => { div.innerHTML = h; div.querySelectorAll('[data-say]').forEach(e => add(e.dataset.say)); });
-    const PR = (COURSE.PRACTICE) || (typeof PRACTICE !== 'undefined' ? PRACTICE : {});
+    const PR = (COURSE.PRACTICE) || NR.PRACTICE || {};
     Object.values(PR || {}).forEach(set => (set || []).forEach(it => { if (!it || !Array.isArray(it.a)) return; const a = it.a[0]; if (it.t === 'fill' && it.q) add(String(it.q).replace('__', a)); else if (it.t === 'order' || it.t === 'type') add(a); }));
     const seen = new Map(); raw.forEach(x => { const t = sayText(x).normalize('NFC'); if (t) seen.set(t, 1); });
     return { target: COURSE.target, lang: ttsLang(), texts: [...seen.keys()] };

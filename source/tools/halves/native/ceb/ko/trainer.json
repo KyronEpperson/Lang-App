@@ -181,7 +181,7 @@
    "주시겠어요": "mahimo ba nga…? (matinahuron kaayong hangyo)",
    "셨어요": "honorific nga past (-시-)",
    "으세요": "honorific / matinahurong hangyo",
-   "주세요": "palihug buhata",
+   "주세요": "palihug buhata (para nako)",
    "드립니다": "formal ug mapaubsanon (akong ihatag / buhaton para nimo)",
    "세요": "matinahurong hangyo / honorific",
    "게요": "akong buhaton (saad)",
@@ -264,7 +264,7 @@
    "병": "botelya",
    "마리": "hayop",
    "권": "libro",
-   "장": "piraso (papel)",
+   "장": "piraso nga papel",
    "살": "anyos (edad)",
    "시간": "oras (gidugayon)",
    "번": "higayon",
@@ -333,7 +333,7 @@
    "잔": "tasa",
    "병": "botelya",
    "마리": "hayop",
-   "장": "piraso (papel)"
+   "장": "piraso nga papel"
   },
   "ui": {
    "prompt": "🔢 Paminaw ug i-type ang numero · %1",

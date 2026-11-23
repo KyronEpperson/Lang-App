@@ -41,3 +41,16 @@
 {"id":"ko.d.family-people","label":"Family & people","desc":"Mom, dad, siblings, friends, teacher, and how age changes the word."}
 {"id":"ko.d.adjectives","label":"Adjectives","desc":"Good, bad, big, small, hot, cold, busy, fun."}
 {"id":"ko.d.k-drama-phrases","label":"K-drama phrases","desc":"Reactions and lines you'll hear in every episode."}
+{"id":"ko.d.top-nouns","label":"Top nouns","desc":"The most-used Korean nouns the course doesn't teach yet, most frequent first."}
+{"id":"ko.d.top-verbs","label":"Top verbs","desc":"Action verbs in dictionary form; the note gives the 해요 form and flags irregular verbs."}
+{"id":"ko.d.top-adjectives","label":"Top adjectives","desc":"Descriptive verbs (Korean adjectives are verbs): the 해요 form and the form before a noun."}
+{"id":"ko.d.top-adverbs","label":"Top adverbs","desc":"Time, degree, frequency and manner words: very, already, often, why, how."}
+{"id":"ko.d.top-pronouns","label":"Top pronouns","desc":"I, you, this one, who, nobody, and why names and titles usually replace 'you'."}
+{"id":"ko.d.top-particles","label":"Top particles","desc":"Korean's answer to prepositions: the particles beyond the nine in the Particles deck."}
+{"id":"ko.d.top-connectors","label":"Top connectors","desc":"Joining endings (-고, -지만, -아서, -(으)면 …) shown on a verb, plus linking words not in Connectors."}
+{"id":"ko.d.top-interjections","label":"Top interjections","desc":"What Koreans really exclaim: wow, ouch, oops, phew, ta-da, and who says each one."}
+{"id":"ko.d.top-words","label":"Top words","desc":"This / that / which before a noun, number forms, days and times, and ways to say yes and no."}
+{"id":"ko.d.top-counters","label":"Top counters","desc":"Counters missing from the Counters deck: cars, portions, rolls, slices, minutes, months."}
+{"id":"ko.d.flirting-words","label":"Flirting words","desc":"The words Koreans flirt with, phrases built from them, and kind ways to say yes or no."}
+{"id":"ko.d.compliments","label":"Compliments","desc":"Everyday praise for food, work, homes and children, and the modest ways to answer it."}
+{"id":"ko.d.countries","label":"Countries","desc":"Every country, most-asked first. Country + 에서 왔어요 = I'm from…; + 사람 = nationality; + 어 = language."}
