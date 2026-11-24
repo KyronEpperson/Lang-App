@@ -1,0 +1,19 @@
+/* Lesson readings (2.103.0): in every course with a non-Latin target for Latin-script learners, lesson text carries the reading under a word when the course's own cards or example lines give one.
+   usage: node tools/tests/lessonread.js   (reads korean-flashcards.html; exit 1 on any FAIL) */
+'use strict';
+const { chromium } = require('playwright'); const path = require('path');
+const SRC = process.env.LR_SRC || path.resolve(__dirname, '..', '..', 'korean-flashcards.html');
+const IDS = ['en-zh','vi-zh','en-yue','en-nan','en-ja','en-th','en-ar','en-ur','en-hi','en-bn','en-pa','en-te','en-kn','en-am','en-ru'];
+(async () => { const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 430, height: 900 } }); const errs = []; p.on('pageerror', e => errs.push(String(e)));
+  await p.goto('file://' + SRC); await p.waitForTimeout(1500); let bad = 0; const ok = (n, c, d) => { console.log((c ? 'PASS ' : 'FAIL ') + n + (c ? '' : ' ' + (d || ''))); if (!c) bad++; };
+  for (const id of IDS) { const has = await p.evaluate(c => { const r = applyCourse(c, {}); try { unlockAll(); } catch (e) {} location.hash = '#lessons'; return r; }, id); if (!has) { ok(id + ' loads', false); continue; } await p.waitForTimeout(400);
+    const r = await p.evaluate(() => { let n = 0, wrongDir = 0, btn = 0; const pair = {}; LESSONS.forEach(l => { showLesson(l.id); if (document.getElementById('lsRomT')) btn++; document.querySelectorAll('#lsRomBody ruby.rb').forEach(x => { n++; pair[x.firstChild.nodeValue] = x.querySelector('rt').textContent; }); document.querySelectorAll('#lsRomBody bdi').forEach(h => { const rb = h.querySelectorAll('ruby'); if (rb.length > 1 && rb[0].getBoundingClientRect().left < rb[1].getBoundingClientRect().left && rb[0].getBoundingClientRect().top === rb[1].getBoundingClientRect().top) wrongDir++; }); });
+      const inEx = document.querySelectorAll('.ex .k ruby').length; return { n, btn, lessons: LESSONS.length, wrongDir, inEx, pair, sp: Object.values(CHECKS).reduce((a, qs) => a + qs.filter(q => rdSpoils(q)).length, 0) }; });
+    ok(id + ' readings under lesson words (' + r.n + ')', r.n >= 400 && r.btn === r.lessons && r.inEx === 0, JSON.stringify([r.n, r.btn, r.lessons, r.inEx]));
+    if (id === 'en-zh') ok('en-zh 他 reads tā, 你们 reads nǐmen', r.pair['他'] === 'tā' && /^nǐmen$/i.test(r.pair['你们'] || ''), JSON.stringify([r.pair['他'], r.pair['你们']]));
+    if (id === 'en-zh') { const s = await p.evaluate(() => { const q = Object.values(CHECKS).flat().find(x => /不是/.test(x[0]) && x[1].some(o => /bú shì/.test(o))); return q ? rdSpoils(q) : null; }); ok('en-zh a question that asks for the reading stays bare', s === true, String(s)); }
+    if (id === 'en-ar') ok('en-ar vowel marks decide the reading; phrases run right to left', r.pair['حَالُكِ'] === 'ḥāluki' && r.pair['حَالُكَ'] === 'ḥāluka' && r.wrongDir === 0, JSON.stringify([r.pair['حَالُكِ'], r.wrongDir]));
+    if (id === 'en-ru') ok('en-ru word reading from an example line', /^spah-SEE-bah$/i.test(r.pair['Спасибо'] || r.pair['спасибо'] || ''), r.pair['Спасибо']);
+  }
+  const ko = await p.evaluate(() => { applyCourse('en-ko', {}); return rdOn(); }); ok('en-ko keeps its own rule-based romanization', ko === false);
+  ok('no page errors', errs.length === 0, errs.slice(0, 2).join(' | ')); await b.close(); console.log(bad ? 'LESSON READ FAIL ' + bad : 'LESSON READ OK'); process.exit(bad ? 1 : 0); })();

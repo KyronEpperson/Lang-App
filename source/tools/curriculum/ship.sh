@@ -10,6 +10,7 @@ if [ -e packs/course-ar-en.js ]; then node tools/site/rtl.js ar > /tmp/claude-0/
 if [ -e packs/course-ur-en.js ]; then node tools/site/rtl.js ur > /tmp/claude-0/rtl-ur.out 2>&1 || { echo RTL-UR FAIL; grep -v "^PASS" /tmp/claude-0/rtl-ur.out; exit 1; }; fi
 node tools/content/contractions_test.js > /dev/null || { echo CONTRACTIONS FAIL; exit 1; }
 node tools/tests/esko.js > /tmp/claude-0/esko.out 2>&1 || { echo 'ES-KO FIXTURE FAIL'; grep -v '^PASS' /tmp/claude-0/esko.out; exit 1; }; echo "es-ko fixture: $(grep -c '^PASS' /tmp/claude-0/esko.out) pass"
+node tools/tests/lessonread.js > /tmp/claude-0/lessonread.out 2>&1 || { echo 'LESSON READINGS TEST FAIL'; grep -v '^PASS' /tmp/claude-0/lessonread.out | head -20; exit 1; }; echo "lesson readings: $(grep -c '^PASS' /tmp/claude-0/lessonread.out) pass"
 node tools/tests/flagcheck.js || { echo 'FLAG CHECK FAIL'; exit 1; }
 node tools/tests/trainers-golden.js > /tmp/claude-0/golden.out 2>&1 || { echo 'TRAINER BASELINE CHANGED'; tail -5 /tmp/claude-0/golden.out; exit 1; }; echo "trainer baseline: $(tail -1 /tmp/claude-0/golden.out)"
 node tools/tests/memjudge.js > /tmp/claude-0/memjudge.out 2>&1 || { echo 'MEMORY JUDGE TEST FAIL'; grep -v '^PASS' /tmp/claude-0/memjudge.out | head -20; exit 1; }; echo "memory judge: $(tail -1 /tmp/claude-0/memjudge.out)"
@@ -25,4 +26,4 @@ cd lang-app && git add -A && git -c user.name="Kyron Epperson" -c user.email="ep
 $3
 
 Co-Authored-By: Claude Fable 5.2 <noreply@anthropic.com>
-Claude-Session: https://claude.ai/code/session_01DWtPfsySzM8v4vxvZHBbTu" && git push origin HEAD:main 2>&1 | tail -1
+Claude-Session: https://claude.ai/code/session_01DWtPfutzfBygkE7dSvNTBm" && git push origin HEAD:main 2>&1 | tail -1
