@@ -597,7 +597,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.97.0 · 2026-11-24';
+const APP_VERSION='2.98.0 · 2026-11-24';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -3895,7 +3895,7 @@ const FX3D=(()=>{
     P.pos.set(from); const NB=Math.round(380*K), Bg=points(NB,.09,true); for(let i=0;i<NB;i++){ Bg.pos[i*3]=rnd(-22,22); Bg.pos[i*3+1]=rnd(-22,22); Bg.pos[i*3+2]=rnd(-50,-12); paint(Bg,i,pick(['#6b6f8a','#8a7f9c','#55607a'])); } Bg.g.attributes.color.needsUpdate=true;
     const PAIRS=[['#ff5a45','#ffd166'],['#4fd1c5','#9b8cff'],['#ff8fab','#ffd166'],['#7ee787','#4fd1c5'],['#9b8cff','#ff8fab'],['#ffd166','#f3efe6']];
     idleClose(); idleEl=document.createElement('div'); idleEl.id='fxIdle'; idleEl.setAttribute('role','status'); const mk=c=>{ const e=document.createElement('div'); e.className=c; idleEl.appendChild(e); return e; }; const eTag=mk('fxd-tag'), eKo=mk('fxd-ko'), eRom=mk('fxd-rom'), eEn=mk('fxd-en'), eK=mk('fxd-k'); eK.textContent='tap anywhere to continue'; document.body.appendChild(idleEl);
-    const cache={}; const HOLD=5.4; let si=-1, tS=0, exitT=-1, txtDone=true;
+    const cache={}; const HOLD=10.8; let si=-1, tS=0, exitT=-1, txtDone=true;
     const tgt=i=>{ if(cache[i]) return cache[i]; const s=slides[i], sm=s.shape?sampleShape(s.shape,N):sampleText(s.ko,N), w=Math.min(W*(s.shape?.5:.86),H*(s.shape?.26:sm.asp>.42?.3:.2)/sm.asp), out=new Float32Array(N*3); for(let k=0;k<N;k++){ out[k*3]=sm.p[k*3]*w; out[k*3+1]=sm.p[k*3+1]*w+y0; out[k*3+2]=sm.p[k*3+2]; } return cache[i]={p:out,w}; };
     const setText=()=>{ const s=slides[si]; eTag.textContent=s.tag||''; eKo.textContent=s.shape?s.ko:(s.sub||''); eRom.textContent=s.rom||''; eEn.textContent=s.en||''; idleEl.classList.add('in'); };
     const next=t=>{ si=(si+1)%slides.length; tS=t; from.set(P.pos); cf.set(P.col); const T2=tgt(si); to=T2.p; const pr=PAIRS[si%PAIRS.length], c1=new T.Color(pr[0]), c2=new T.Color(pr[1]), c=new T.Color();
@@ -3936,7 +3936,7 @@ let PAUSE_SETS={
  polite:['예의 · polite basics',[["주세요","Please (give me)"],["부탁해요","Please (I'm asking a favor)"],["실례합니다","Excuse me / Pardon me"],["저기요","Excuse me (to get attention)"],["잠깐만요","Excuse me, one second"],["죄송합니다","I'm sorry"],["감사합니다","Thank you"],["고마워요","Thanks"],["아니에요","You're welcome (lit. 'not at all')"],["괜찮습니다","It's fine / No, thank you"],["안녕하세요","Hello"],["안녕히 계세요","Goodbye (you're staying)"],["안녕히 가세요","Goodbye (you're leaving)"],["도와주세요","Please help me"],["처음 뵙겠습니다","Nice to meet you (first time)"],["반갑습니다","Nice to meet you"],["먼저 가세요","After you / Go ahead"],["지나갈게요","Coming through, excuse me"]]],
  saying:['속담 · saying',[["시작이 반이다","Starting is half the battle"],["꿈은 이루어진다","Dreams come true"],["하면 된다","If you try, you can"],["포기하지 마","Don't give up"],["티끌 모아 태산","Little by little makes a mountain"],["가는 날이 장날","Of all the days! (funny timing)"],["누워서 떡 먹기","A piece of cake"],["금강산도 식후경","Even sightseeing comes after eating"],["웃으면 복이 와요","Smile and good luck comes"],["고생 끝에 낙이 온다","After hardship comes joy"],["천 리 길도 한 걸음부터","A long journey starts with one step"],["세 살 버릇 여든까지","Old habits die hard"],["백지장도 맞들면 낫다","Many hands make light work"],["오늘도 힘내요","Stay strong today"],["넌 할 수 있어","You can do it"],["괜찮아, 잘될 거야","It's okay, it'll work out"],["인생은 한 번뿐","You only live once"],["느려도 괜찮아","Slow is okay"],["원숭이도 나무에서 떨어진다","Even monkeys fall from trees"],["말 한마디에 천 냥 빚도 갚는다","Kind words can repay a great debt"]]]
 };
-let idleT=null, idleW=null, idleMs=(()=>{ try{ return window.matchMedia('(pointer:coarse)').matches?30000:60000; }catch(e){ return 30000; } })(), wakeL=null; /* pause scene: 30 s on phones and tablets, 60 s on desktop */
+let idleT=null, idleW=null, idleMs=(()=>{ try{ return window.matchMedia('(pointer:coarse)').matches?30000:180000; }catch(e){ return 30000; } })(), wakeL=null; /* pause scene: 30 s on phones and tablets, 3 minutes on desktop */
 async function wakeOn(){ try{ if('wakeLock' in navigator&&!wakeL&&!document.hidden&&FX3D.on()){ wakeL=await navigator.wakeLock.request('screen'); wakeL.addEventListener('release',()=>{ wakeL=null; }); } }catch(e){} }
 function wakeOff(){ try{ if(wakeL) wakeL.release(); }catch(e){} wakeL=null; }
 function idleSlides(){ return COURSE.builtin?idleSlidesKo():idleSlidesGen(); }

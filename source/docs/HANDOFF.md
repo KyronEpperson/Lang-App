@@ -20,7 +20,7 @@ Standing rules: Supabase publishable key only; never open, print or commit secre
 - Dialect and variety choices: ask once when it decides every card, otherwise decide and say so.
 - Replies: brief, bullets, direct. Visuals as PNG.
 
-## Released (through 2.97.0)
+## Released (through 2.98.0)
 
 Yesterday and today: ur-en, pa-en (2.78.0); yue-en in written Cantonese (2.79.0); te-en with bundled Noto Sans Telugu (2.80.0); yue-ko (2.81.0); kn-en (2.82.0); release report + audio coverage on every release (2.83.0); en-hmn (2.84.0); new cards flip on tap (2.85.0); hmn-en + Hmong interface (2.86.0).
 
@@ -41,6 +41,8 @@ Yesterday and today: ur-en, pa-en (2.78.0); yue-en in written Cantonese (2.79.0)
 Hangul letter count (owner asked "are there only 14 hangul" on seeing "Practice · 14", which is the number of practice items): checked, all 40 letters are on cards. `Hangul vowels` has the 10 basic vowels plus ㅐ ㅔ; `Hangul consonants` the 14 basic consonants; `Hangul · advanced` the 5 doubles and the other 9 combined vowels. Two cards carry a pair (ㅙ / ㅞ and ㅒ / ㅖ); they were left as they are because the x-ko packs translate these cards by their front. en-ko lesson 1 gained a "How many letters are there?" box (40, and which deck holds which). The x-ko lesson 1 texts do not have that box.
 
 2.97.0 (2026-11-24): the **stroke-order tiles are flip cards with sound** (owner). Front: the strokes. Tap: the tile flips to the romanization (with the spoken syllable under it, e.g. 나 · na) and the letter is said; tap again: back to the strokes, redrawn, and said again. A consonant is said with ㅏ (가), a vowel after silent ㅇ (아), ㅇ as 응. The label above the tile from 2.94.0 is gone (`sglTile` replaces `sglLabel`). Stroke numbers (`strokeSVG`, so card backs too) are no longer red beside the stroke: each sits in a dot in the stroke colour at the start of its stroke, number in the tile colour (black on the dark theme, light on the light theme), and strokes that start at one point no longer stack their numbers. The x-ko packs get the tiles through `{{strokes:…}}`; their sentence above the grid still says "tap to replay". Guard `lessonRom` checks the flip and the two plays. Trainer recording re-recorded: 24 differences, all inside the stroke drawings on the 24 letter card backs. Edit script: `tools/patches/stroke_flip.py`.
+
+2.98.0 (2026-11-24): **pause scene slower again** (owner: "for the desktop lets change it to 3 minutes and for both lets slow down how fast we go to the next word (double the time)"). Desktop `idleMs` 60000 → 180000 (touch devices stay 30000); each word in the scene stays 10.8 s instead of 5.4 s on every device (`HOLD` in `FX3D` `idle`). The scene still goes static after 4 minutes (`maxT` 240), so it now shows about 22 words instead of 44. Guard `idleDesktop` updated; edit script `tools/patches/idle_slower.py`.
 
 Same gap, not fixed (audit 2026-11-24): all 15 courses with a non-Latin target for Latin-script learners (en-am, ar, bn, hi, ja, kn, nan, pa, ru, te, th, ur, yue, zh, and vi-zh) show the target script bare in lesson prose, tables and quizzes: about 800 to 1,700 runs per course in lesson bodies and 350 to 900 in quick checks. They have no `romanize()`; the fix is a word → reading table built from each course's own cards and example lines (plus a list of what it cannot cover), then the same `<ruby>` rendering. Not started.
 
