@@ -16,3 +16,19 @@ SPR RULES (all roles)
 After merging the fragments (`python3 tools/content/merge_deviations.py spr`, if the lead has not), everything must pass (S=/tmp/claude-0/-home-claude/d98f3bd7-8852-52e0-916f-9f67ac9e0f17/scratchpad/p2): `node tools/content/gen.js spr $S/spr-r.js && node tools/content/validate.js spr $S/spr-r.js && node tools/content/parity.js spr $S/spr-r.js && node tools/content/lint.js spr $S/spr-r.js && node tools/content/alphabet_check.js spr $S/spr-r.js`, and `node --check` on each JS file you touched.
 
 Write `tools/content/spr/REVIEW.md`: what you changed (grouped, before → after), an edit-count table per file, a "for a Puerto Rican speaker" top-ten list, and what you could not fix within scope. Final reply (concise): the table, the PASS lines, the top-ten list.
+
+## Lead's merge results (2026-11-24) and the writers' open points
+
+Merged: `merge_deviations.py spr` run by the lead (do not run it again; record your own English-side changes in `deviations.review.json`). After the merge: validate PASS · parity PASS (16 deviations used; 2 unused warnings: `lessons:spanglish`, `items:perfect-2#ex0`, both harmless records) · lint 0 blocking · alphabet PASS · scan 20 English-side rows, 36 Spanish rows · list_type 130 items, 37 flagged. `ui.json` is `{}` (the interface writer found nothing to override; confirm or add keys). 43 lessons, 26 decks, 520 cards.
+
+Settled by the lead: *San Juan* is respelled `SAN WAAN` everywhere (PRON-RULES line 8: content word); *Puerto Rico* `PWER-te RII-kou`; *Orlando* `or-LAN-dou`; *Ponce* `PAAN-sei`; *Bayamón* `bai-e-MOUN`. Check that no other spelling of these exists.
+
+Open points to decide (fix or leave, and say which):
+1. `third-s` check 0 «She ___ in Lima» and `third-s#0` «My brother ___ in Bogotá» (a relative's home, left by writer C); `articles-2` "I live in Peru" (left by D on purpose: the article contrast); `tense#2` Mexico City trip (left by B).
+2. `phrasal#2` "I grew up in Bayamón" was changed although the brief did not list it (origin rule §8.2): keep or revert.
+3. The two typed prompts D cued (`first-conditional#11` «tomaré», `passive#11` «(en voz pasiva)»), B's `phrasal#12` «(lo hace siempre)» and C's `present#11` «(por costumbre)»: are the cues natural?
+4. New Spanish to read as a Puerto Rican: «¡Ya, no exageres!» for *Give me a break!*; «Vamos a janguear este fin de semana»; «Él janguea con sus panas»; «llámame pa'trás», «aplicar para un trabajo», «está full», «el rufo», «printear», «likear», «mahones», «compañía de guaguas», «¿Parqueaste el carro?»; the final-*s* sentence in `pron`; «en tu español» / «En muchos lugares decimos» (rewordings that avoid calling Puerto Rico a country); the decimal-point claim in `numbers`.
+5. Notes still say «En Estados Unidos…» (inherited); spr.md prefers *los Estados Unidos* for the mainland: change only if the profile requires it.
+6. Spanglish lesson: item #7 distractors, #13 shortened to 7 words, #12 hint (writer C's three departures from the §8.1 map).
+
+End REVIEW.md with one line per role (A, B, C, D, I): model (A–D opus, I sonnet) and the number of edits you had to make to that role's files.

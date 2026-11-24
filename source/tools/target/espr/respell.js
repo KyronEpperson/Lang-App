@@ -1,5 +1,5 @@
 /* Spanish spelling -> en-es pron respelling (profile en-es §6). Deterministic, so every writer gets the same string. */
-const EXC = { 'oaxaca': 'wah-HAH-kah' };          /* whole-word exceptions */
+const EXC = { 'oaxaca': 'wah-HAH-kah', 'break': 'brehk' };          /* whole-word exceptions */
 const XJ = /^(m[eé]xic|texa)/;                 /* x said as j: México, mexicano/a/os/as, Texas */
 const V = 'aeiouáéíóúü';
 const isV = c => V.includes(c);

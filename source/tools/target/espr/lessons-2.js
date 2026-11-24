@@ -20,8 +20,8 @@ module.exports = [
 {{ex:Hablo inglés y español.|AH-bloh een-GLEHS ee ehs-pah-NYOHL|I speak English and Spanish.}}
 {{ex:Ana trabaja en una oficina.|AH-nah trah-BAH-hah ehn OO-nah oh-fee-SEE-nah|Ana works in an office.}}
 {{ex:Vivimos en San Antonio.|bee-BEE-mohs ehn sahn ahn-TOH-nyoh|We live in San Antonio.}}
-<h3>You can drop the subject pronoun</h3>
-<p>English needs "I" or "we" in every sentence. In Spanish the ending already says who, so people usually leave out <b>yo</b>, <b>tú</b> and <b>nosotros</b>. Saying <b>yo</b> every time sounds heavy. Keep the pronoun for contrast: <b>Yo estudio, ella trabaja.</b></p>
+<h3>Keep the subject pronoun or drop it</h3>
+<p>English needs "I" or "we" in every sentence. In Spanish the ending already says who, so <b>Trabajo en un hospital</b> is a complete sentence. You can keep <b>yo</b>, <b>tú</b> and <b>nosotros</b> or leave them out: both are right, and Puerto Ricans often keep them. The pronoun also marks a contrast: <b>Yo estudio, ella trabaja.</b></p>
 {{ex:Trabajo en un hospital.|trah-BAH-hoh ehn oon ohs-pee-TAHL|I work in a hospital.}}
 <h3>usted and ustedes</h3>
 <p>English has one "you". Spanish has three. To a friend, use the tú form: <b>hablas</b>. To a stranger, use <b>usted</b>, which takes the same form as <b>él</b>: <b>habla</b>. For more than one person, friends or strangers, use <b>ustedes</b>, which takes the ellos form: <b>hablan</b>.</p>
@@ -46,13 +46,13 @@ module.exports = [
       ["mc","'I work at a school' (every day) =","Trabajo en una escuela.","Estoy trabajo en una escuela.","Soy trabajo en una escuela.","Trabaja en una escuela.","No ser or estar before a normal verb: just trabajo."],
       ["or","We eat at home.","Comemos en casa","come","The nosotros form: -er verbs end in -emos."],
       ["or","Do you speak Spanish? (to a stranger)","¿Habla español?","¿Hablas","Usted takes the él form: habla, not hablas."],
-      ["or","The students live in Puebla.","Los estudiantes viven en Puebla","vive","Los estudiantes are ellos, so the verb ending is -en: viven."],
+      ["or","The students live in Caguas.","Los estudiantes viven en Caguas","vive","Los estudiantes are ellos, so the verb ending is -en: viven."],
       ["fi","Yo __ en una oficina.","I work in an office.","trabajo","trabaja|trabajas|trabajan","The yo form ends in -o."],
       ["fi","Ellos __ inglés en la escuela.","They study English at school.","estudian","estudia|estudias|estudiamos","The ellos form ends in -an."],
       ["fi","Nosotros __ en Los Ángeles.","We live in Los Angeles.","vivimos","vivemos|viven|vive","-ir verbs take -imos with nosotros."],
       ["ty","I speak a little Spanish.","Hablo un poco de español.|Yo hablo un poco de español.","hablar · un poco de · español","habla","The yo form: the verb ending is -o, hablo."],
       ["ty","Do you work here? (to a stranger)","¿Usted trabaja aquí?|¿Trabaja usted aquí?|¿Trabaja aquí?","usted · trabajar · aquí","trabajas","Usted takes the él form: trabaja."],
-      ["ty","We eat tacos.","Comemos tacos.|Nosotros comemos tacos.","comer · tacos","come","The nosotros form ends in -emos: the verb ending matches the subject."]
+      ["ty","We eat tostones.","Comemos tostones.|Nosotros comemos tostones.","comer · tostones","come","The nosotros form ends in -emos: the verb ending matches the subject."]
     ]
   },
   {
@@ -82,6 +82,10 @@ module.exports = [
 <p>English says "Where does Ana work?" with the subject in the middle. Spanish puts the verb straight after the question word, and the subject, if you say it, after the verb.</p>
 {{ex:¿Dónde vive usted?|DOHN-deh BEE-beh oos-TEHD|Where do you live?}}
 {{ex:¿Cuándo trabaja Carlos?|KWAHN-doh trah-BAH-hah KAHR-lohs|When does Carlos work?}}
+<h3>In Puerto Rico: ¿Qué tú quieres?</h3>
+<p>In Puerto Rico you will often hear <b>tú</b> or <b>usted</b> right before the verb: <b>¿Qué tú quieres?</b> means the same as <b>¿Qué quieres?</b>, "What do you want?". This course accepts both orders. It works only with <b>tú</b> and <b>usted</b>, never with a name: <b>¿Cuándo trabaja Carlos?</b> keeps the verb first.</p>
+{{ex:¿Qué tú quieres?|keh too KYEH-rehs|What do you want?}}
+{{ex:¿Dónde tú vives?|DOHN-deh too BEE-behs|Where do you live?}}
 <h3>quién and cuánto change their form</h3>
 <p>English "who" and "how many" never change. Spanish uses <b>quiénes</b> when you expect more than one person. <b>Cuánto</b> agrees with the noun after it, like an adjective: <b>cuántos libros</b> (masculine plural), <b>cuántas horas</b> (feminine plural).</p>
 {{ex:¿Cuántas horas trabajas?|KWAHN-tahs OH-rahs trah-BAH-hahs|How many hours do you work?}}
@@ -89,7 +93,7 @@ module.exports = [
 <h3>¿Por qué? and porque</h3>
 <p><b>¿Por qué?</b>, two words with an accent mark, asks "why?". The answer often starts with <b>porque</b>, one word and no accent mark, which means "because". You will practice <b>porque</b> in a later lesson.</p>
 {{ex:¿Por qué estudias español?|pohr keh ehs-TOO-dyahs ehs-pah-NYOHL|Why are you studying Spanish?}}
-<div class="tip">English speakers keep the English word order. <b>¿Dónde usted vive?</b> → <b>¿Dónde vive usted?</b> In most of Latin America it is question word, then verb, then subject. (Caribbean speech often puts a pronoun first; you will hear that in the last lesson.)</div>
+<div class="tip">English speakers often leave the accent mark off the question word. <b>¿Donde vives?</b> → <b>¿Dónde vives?</b> Every question word carries one, and without it some turn into other words.</div>
 `,
     check: [
       ["'Do you speak English?' (to a friend) =",["¿Hablar tú inglés?","¿Hablas inglés?","¿Habla tú inglés?","¿Hablo inglés?"],1,"No do in Spanish: the tú form hablas plus a rising voice makes the question."],
@@ -101,7 +105,7 @@ module.exports = [
       ["mc","'How many books are there?' =","¿Cuántos libros hay?","¿Cuántas libros hay?","¿Cuánto libros hay?","¿Cuánta libros hay?","Cuántos agrees with libros: masculine plural."],
       ["mc","'Do you work here?' (to a friend) =","¿Trabajas aquí?","¿Trabajar aquí?","¿Tú trabajar aquí?","¿Trabajo aquí?","No do: use the tú form, trabajas, and raise your voice."],
       ["mc","Which one asks 'why?'","¿Por qué?","Porque","¿Qué?","¿Cómo?","Por qué, two words with an accent mark, asks why; porque means because."],
-      ["mc","'Where do you live?' (to a stranger) =","¿Dónde vive usted?","¿Dónde vives usted?","¿Dónde viven usted?","¿Dónde usted vivir?","usted takes the él form, vive, and in most of Latin America the verb comes right after the question word."],
+      ["mc","'Where do you live?' (to a stranger) =","¿Dónde vive usted?","¿Dónde vives usted?","¿Dónde viven usted?","¿Dónde usted vivir?","usted takes the él form: vive."],
       ["or","How many hours do you work? (to a friend)","¿Cuántas horas trabajas?","¿Cuántos","Cuántas agrees with horas: feminine plural."],
       ["or","Where do Ana and Carlos live?","¿Dónde viven Ana y Carlos?","vive","Ana y Carlos are ellos, so the verb ending is -en: viven."],
       ["or","When does the class end?","¿Cuándo termina la clase?","¿Cuando","Question words carry an accent mark, and the verb comes before la clase."],
@@ -130,9 +134,9 @@ module.exports = [
 <p>From 16 to 29 the number is one word: <b>veinticinco</b>. From 31 on, you join the tens and the units with <b>y</b> (and): <b>treinta y dos</b>. Before a noun, <b>uno</b> becomes <b>un</b> or <b>una</b>: <b>un libro</b>, <b>una persona</b>.</p>
 {{ex:Hay veinticinco personas en la clase.|ai bayn-tee-SEEN-koh pehr-SOH-nahs ehn lah KLAH-seh|There are twenty-five people in the class.}}
 <h3>cien, ciento and the hundreds</h3>
-<p>Exactly 100 is <b>cien</b>. Before another number it becomes <b>ciento</b>: <b>ciento veinte</b> (120). From 200 to 900 the hundreds agree with the noun, so they have a masculine and a feminine form: <b>doscientos pesos</b>, <b>doscientas personas</b>. Watch <b>quinientos</b> (500). 1,000 is <b>mil</b>.</p>
-{{ex:Cuesta cien pesos.|KWEHS-tah syehn PEH-sohs|It costs a hundred pesos.}}
-{{ex:Son ciento veinte pesos.|sohn SYEHN-toh BAYN-teh PEH-sohs|That's a hundred and twenty pesos.}}
+<p>Exactly 100 is <b>cien</b>. Before another number it becomes <b>ciento</b>: <b>ciento veinte</b> (120). From 200 to 900 the hundreds agree with the noun, so they have a masculine and a feminine form: <b>doscientos dólares</b>, <b>doscientas personas</b>. Watch <b>quinientos</b> (500). 1,000 is <b>mil</b>.</p>
+{{ex:Cuesta cien dólares.|KWEHS-tah syehn DOH-lah-rehs|It costs a hundred dollars.}}
+{{ex:Son ciento veinte dólares.|sohn SYEHN-toh BAYN-teh DOH-lah-rehs|That's a hundred and twenty dollars.}}
 {{ex:Hay doscientas personas.|ai dohs-SYEHN-tahs pehr-SOH-nahs|There are two hundred people.}}
 <h3>Telling the time</h3>
 <p>English says "It's three o'clock". Spanish says "they are the three": <b>Son las tres</b>. The word <b>horas</b> (hours) is understood, so the article is feminine <b>las</b>, and the verb is plural <b>son</b>. Only one o'clock is singular: <b>Es la una</b>. Add <b>y media</b> for half past and <b>y cuarto</b> for a quarter past. For "at" a time, use <b>a las</b>.</p>
@@ -140,9 +144,10 @@ module.exports = [
 {{ex:Son las tres y media.|sohn lahs trehs ee MEH-dyah|It's half past three.}}
 {{ex:La clase es a las ocho.|lah KLAH-seh ehs ah lahs OH-choh|The class is at eight.}}
 <h3>Prices</h3>
-<p>To ask a price, say <b>¿Cuánto cuesta?</b> for one thing and <b>¿Cuánto cuestan?</b> for more than one: the verb agrees with the thing. In Mexico prices are in <b>pesos</b>; in the US, in <b>dólares</b>.</p>
-{{ex:¿Cuánto cuestan los tacos?|KWAHN-toh KWEHS-tahn lohs TAH-kohs|How much are the tacos?}}
+<p>To ask a price, say <b>¿Cuánto cuesta?</b> for one thing and <b>¿Cuánto cuestan?</b> for more than one: the verb agrees with the thing. Puerto Rico uses the US dollar, so prices are in <b>dólares</b>.</p>
+{{ex:¿Cuánto cuestan los pastelillos?|KWAHN-toh KWEHS-tahn lohs pahs-teh-LEE-yohs|How much are the pastelillos?}}
 {{ex:Cuestan diez dólares.|KWEHS-tahn dyehs DOH-lah-rehs|They're ten dollars.}}
+<div class="tip"><b>In Puerto Rico</b> people often say <b>pesos</b> for dollars in everyday talk, the way English says "bucks": <b>cinco pesos</b> is five dollars. Money in general is <b>los chavos</b>, and <b>un chavo</b> is a cent. Prices on signs, and the answers in this course, use <b>dólares</b>.</div>
 <div class="tip">The classic mistake is copying "It's three". <b>Es tres</b> → <b>Son las tres</b>. Keep <b>es</b> for one o'clock only: <b>Es la una</b>.</div>
 `,
     check: [
@@ -154,10 +159,10 @@ module.exports = [
       ["mc","'twenty-five' =","veinticinco","veinte cinco","veintecinco","cincoveinte","From 16 to 29 the number is one word: veinticinco."],
       ["mc","'It's one o'clock' =","Es la una.","Son la una.","Es una.","Son las una.","One o'clock is singular: es la una."],
       ["mc","'two hundred people' =","doscientas personas","doscientos personas","dos cientos personas","dos cien personas","The hundreds agree with the noun: personas is feminine, so doscientas."],
-      ["mc","'a hundred pesos' =","cien pesos","ciento pesos","un cien pesos","uno cien pesos","Exactly 100 is cien; ciento only comes before another number."],
+      ["mc","'a hundred dollars' =","cien dólares","ciento dólares","un cien dólares","uno cien dólares","Exactly 100 is cien; ciento only comes before another number."],
       ["mc","'How much is the coffee?' =","¿Cuánto cuesta el café?","¿Cuánto cuestan el café?","¿Cuántos cuesta el café?","¿Cuánto es cuesta el café?","One thing, so cuesta."],
       ["or","It's three o'clock.","Son las tres","es los","Three is plural, so son, and las agrees with horas (feminine)."],
-      ["or","How much are the tacos?","¿Cuánto cuestan los tacos?","cuesta","Plural noun, plural verb: los tacos cuestan."],
+      ["or","How much are the pastelillos?","¿Cuánto cuestan los pastelillos?","cuesta","Plural noun, plural verb: los pastelillos cuestan."],
       ["or","It's half past eight.","Son las ocho y media","medio","Half past is y media."],
       ["fi","Son las cuatro y __.","It's a quarter past four.","cuarto","medio|cuarta|cuartos","A quarter past is y cuarto."],
       ["fi","Hay __ mesa libre.","There's one free table.","una","uno|un|unos","Before a feminine noun, uno becomes una."],
@@ -182,8 +187,8 @@ module.exports = [
 <tr><td class="k">nosotros</td><td class="k">nuestro, nuestra</td><td class="k">nuestros, nuestras</td></tr>
 <tr><td class="k">ellos, ellas, ustedes</td><td class="k">su</td><td class="k">sus</td></tr></table></div>
 <p><b>Tu</b> (your) has no accent mark. <b>Tú</b> with an accent mark means "you".</p>
-{{ex:Mi hermana vive en Monterrey.|mee ehr-MAH-nah BEE-beh ehn mohn-teh-RRAY|My sister lives in Monterrey.}}
-{{ex:Mis padres son de Puebla.|mees PAH-drehs sohn deh PWEH-blah|My parents are from Puebla.}}
+{{ex:Mi hermana vive en Orlando.|mee ehr-MAH-nah BEE-beh ehn ohr-LAHN-doh|My sister lives in Orlando.}}
+{{ex:Mis padres son de Arecibo.|mees PAH-drehs sohn deh ah-reh-SEE-boh|My parents are from Arecibo.}}
 <h3>The thing decides, not the owner</h3>
 <p>Ask "how many things?", not "how many owners?". One man with many books: <b>sus libros</b>. A whole family with one house: <b>su casa</b>. <b>Nuestro</b> also matches the gender of the thing: <b>nuestra casa</b>, <b>nuestros amigos</b>. When you hear "their" or "our" in English, don't reach for the plural form automatically: look at the noun first.</p>
 {{ex:Carlos y sus hijos están en casa.|KAHR-lohs ee soos EE-hohs ehs-TAHN ehn KAH-sah|Carlos and his kids are at home.}}
@@ -204,7 +209,7 @@ module.exports = [
     check: [
       ["'his books' =",["su libros","sus libros","sus libro","suyo libros"],1,"The possessive agrees with libros, which is plural: sus."],
       ["'this shirt' =",["este camisa","esto camisa","esta camisa","está camisa"],2,"Camisa is feminine, so esta. Está with an accent mark means is."],
-      ["'Our grandmother lives in Cancún' =",["Nuestra abuela vive en Cancún.","Nuestro abuela vive en Cancún.","Nuestras abuela vive en Cancún.","Nosotros abuela vive en Cancún."],0,"Nuestra agrees with abuela: feminine singular."]
+      ["'Our grandmother lives in Fajardo' =",["Nuestra abuela vive en Fajardo.","Nuestro abuela vive en Fajardo.","Nuestras abuela vive en Fajardo.","Nosotros abuela vive en Fajardo."],0,"Nuestra agrees with abuela: feminine singular."]
     ],
     practice: [
       ["mc","'my parents' =","mis padres","mi padres","mis padre","me padres","Padres is plural, so mis."],
@@ -218,7 +223,7 @@ module.exports = [
       ["fi","__ libros están aquí.","My books are here.","Mis","Mi|Me|Mío","A plural noun takes mis."],
       ["fi","Ana vive con __ padres.","Ana lives with her parents.","sus","su|suyos|tus","Sus agrees with padres, which is plural."],
       ["fi","__ camisa es bonita.","This shirt is pretty.","Esta","Este|Está|Esto","Esta agrees with camisa; está with an accent mark means is.","!strict"],
-      ["ty","My parents are from Puebla.","Mis padres son de Puebla.|Mis papás son de Puebla.","mis padres · ser de · Puebla","Mi","Mis agrees with padres (plural), and son matches the subject."],
+      ["ty","My parents are from Arecibo.","Mis padres son de Arecibo.|Mis papás son de Arecibo.","mis padres · ser de · Arecibo","Mi","Mis agrees with padres (plural), and son matches the subject."],
       ["ty","This house is big.","Esta casa es grande.","esta · la casa · grande","Este","Esta agrees with casa, which is feminine.","!strict"],
       ["ty","Where is your car? (to a friend)","¿Dónde está tu carro?","dónde · estar · tu · el carro","es","Where something is takes estar, and tu (your) has no accent mark.","!strict"]
     ]
@@ -273,7 +278,7 @@ module.exports = [
       ["fi","Ellos __ a la escuela.","They go to school.","van","va|vas|vamos","The ellos form of ir is van."],
       ["fi","¿Cuántos años __?","How old are you? (to a friend)","tienes","tiene|tengo|eres","Age uses tener, and the tú form is tienes."],
       ["ty","I'm cold.","Tengo frío.|Yo tengo frío.","tener · frío","Tiene","Feeling cold uses tener, and the yo form is tengo."],
-      ["ty","How old are you? (to a stranger)","¿Cuántos años tiene usted?|¿Cuántos años tiene?","cuántos · años · tener · usted","tienes","Usted takes the él form: tiene."],
+      ["ty","How old are you? (to a stranger)","¿Cuántos años tiene usted?|¿Cuántos años tiene?|¿Cuántos años usted tiene?","cuántos · años · tener · usted","tienes","Usted takes the él form: tiene."],
       ["ty","It's hot today. (the weather)","Hoy hace calor.|Hace calor hoy.","hoy · hacer · calor","es","Weather uses hacer: hace calor, not es calor."]
     ]
   },
@@ -305,7 +310,7 @@ module.exports = [
 {{ex:¿Puede ayudarme?|PWEH-deh ah-yoo-DAHR-meh|Can you help me?}}
 {{ex:¿Puede llamar a una ambulancia?|PWEH-deh yah-MAHR ah OO-nah ahm-boo-LAHN-syah|Can you call an ambulance?}}
 <h3>pedir or preguntar?</h3>
-<p>English uses "ask" for two things. Spanish splits them: <b>pedir</b> means to ask for something (help, a coffee, a doctor), and <b>preguntar</b>, a regular verb, means to ask a question. In a restaurant, <b>pedir</b> is also the verb for ordering: <b>pido unos tacos</b>.</p>
+<p>English uses "ask" for two things. Spanish splits them: <b>pedir</b> means to ask for something (help, a coffee, a doctor), and <b>preguntar</b>, a regular verb, means to ask a question. In a restaurant, <b>pedir</b> is also the verb for ordering: <b>pido unos pastelillos</b>.</p>
 {{ex:Pedimos ayuda.|peh-DEE-mohs ah-YOO-dah|We ask for help.}}
 {{ex:Pregunto dónde está la farmacia.|preh-GOON-toh DOHN-deh ehs-TAH lah fahr-MAH-syah|I ask where the pharmacy is.}}
 <div class="tip">Don't change the nosotros form. <b>Nosotros quieremos</b> → <b>Nosotros queremos</b>. And keep "ask for" apart: <b>Pregunto ayuda</b> → <b>Pido ayuda</b>.</div>
@@ -338,11 +343,11 @@ module.exports = [
     blurb: "Say what you and others like, love and dislike, and say what hurts.",
     deck: "Likes and free time",
     body: `
-<p>In English, the person who likes is the subject: <i>I</i> like tacos. Spanish turns the sentence around: <b>Me gustan los tacos</b> means "tacos are pleasing to me". The thing you like is the subject, so the verb agrees with the thing, not with you.</p>
+<p>In English, the person who likes is the subject: <i>I</i> like tostones. Spanish turns the sentence around: <b>Me gustan los tostones</b> means "tostones are pleasing to me". The thing you like is the subject, so the verb agrees with the thing, not with you.</p>
 <h3>gusta or gustan</h3>
 <p>Use <b>gusta</b> for one thing or for an activity (an infinitive). Use <b>gustan</b> for more than one thing. Keep the article: things in general take <b>el</b>, <b>la</b>, <b>los</b> or <b>las</b>.</p>
 {{ex:Me gusta el fútbol.|meh GOOS-tah ehl FOOT-bohl|I like soccer.}}
-{{ex:Me gustan los tacos.|meh GOOS-tahn lohs TAH-kohs|I like tacos.}}
+{{ex:Me gustan los tostones.|meh GOOS-tahn lohs tohs-TOH-nehs|I like tostones.}}
 {{ex:Me gusta bailar.|meh GOOS-tah bai-LAHR|I like to dance.}}
 <h3>Who likes it: me, te, le, nos, les</h3>
 <p>The person who likes is shown by a small word before the verb, an indirect object pronoun. It means "to me", "to you" and so on.</p>
@@ -360,13 +365,13 @@ module.exports = [
 {{ex:No me gusta el café. A mí tampoco.|noh meh GOOS-tah ehl kah-FEH ah mee tahm-POH-koh|I don't like coffee. Me neither.}}
 <h3>encantar and doler work the same way</h3>
 <p><b>Me encanta</b> means "I love" (a thing or an activity). <b>Me duele</b> means "it hurts me". Both agree with the thing: <b>me duelen los pies</b>. With body parts, Spanish uses the article, not "my": <b>la cabeza</b>, <b>los pies</b>.</p>
-{{ex:Me encantan los tamales.|meh ehn-KAHN-tahn lohs tah-MAH-lehs|I love tamales.}}
+{{ex:Me encantan las alcapurrias.|meh ehn-KAHN-tahn lahs ahl-kah-POO-rryahs|I love alcapurrias.}}
 {{ex:Me duele la cabeza.|meh DWEH-leh lah kah-BEH-sah|My head hurts.}}
-<div class="tip">Two classic mistakes: <b>Yo gusto la pizza</b> → <b>Me gusta la pizza</b>, and <b>Me gusta los tacos</b> → <b>Me gustan los tacos</b>. Look at the thing: one or more?</div>
+<div class="tip">Two classic mistakes: <b>Yo gusto la pizza</b> → <b>Me gusta la pizza</b>, and <b>Me gusta los tostones</b> → <b>Me gustan los tostones</b>. Look at the thing: one or more?</div>
 `,
     check: [
       ["'I like pizza' =",["Yo gusto la pizza.","Me gusta la pizza.","Me gusto la pizza.","Me gustan la pizza."],1,"The pizza is the subject: me gusta la pizza."],
-      ["'I like tacos' =",["Me gusta los tacos.","Me gustan tacos.","Me gustan los tacos.","Yo gusto los tacos."],2,"Gustan agrees with los tacos, and the article stays."],
+      ["'I like tostones' =",["Me gusta los tostones.","Me gustan tostones.","Me gustan los tostones.","Yo gusto los tostones."],2,"Gustan agrees with los tostones, and the article stays."],
       ["'We like to dance' =",["Nos gusta bailar.","Nos gustamos bailar.","Nosotros gustamos bailar.","Nos gustan bailar."],0,"An activity takes gusta, and nos shows who likes it."]
     ],
     practice: [
@@ -375,15 +380,15 @@ module.exports = [
       ["mc","Your friend says 'Me gusta el café.' You like it too. You say:","A mí también.","A mí tampoco.","Yo también gusto.","Me también.","To agree with a like, say a mí también."],
       ["mc","'They like movies' =","Les gustan las películas.","Le gustan las películas.","Les gustan películas.","Ellos gustan las películas.","Les for they, gustan for películas, and the article stays."],
       ["mc","'My feet hurt' =","Me duelen los pies.","Me duele los pies.","Yo duelo los pies.","Mis pies me duele.","Doler works like gustar: duelen agrees with los pies."],
-      ["or","I like tacos.","Me gustan los tacos","gusta","Gustan agrees with los tacos, which is plural."],
+      ["or","I like tostones.","Me gustan los tostones","gusta","Gustan agrees with los tostones, which is plural."],
       ["or","Do you like music? (to a friend)","¿Te gusta la música?","gustan","Gusta agrees with la música: singular."],
       ["or","Me neither.","A mí tampoco","también","After a sentence with no, use tampoco."],
-      ["fi","Me __ las quesadillas.","I like quesadillas.","gustan","gusta|gusto|gustas","Las quesadillas is plural, so gustan."],
+      ["fi","Me __ las alcapurrias.","I like alcapurrias.","gustan","gusta|gusto|gustas","Las alcapurrias is plural, so gustan."],
       ["fi","A Carlos __ gusta el café.","Carlos likes coffee.","le","lo|se|él","For one person who is not you or me, the indirect object pronoun is le."],
       ["fi","¿A ustedes __ gusta bailar?","Do you all like to dance?","les","le|los|nos","For ustedes, the pronoun is les."],
       ["ty","I like soccer.","Me gusta el fútbol.|A mí me gusta el fútbol.","gustar · el fútbol","gustan","Gusta agrees with el fútbol: singular."],
-      ["ty","We like tamales.","Nos gustan los tamales.|A nosotros nos gustan los tamales.","gustar · los tamales","gusta","Gustan agrees with los tamales (plural), not with we."],
-      ["ty","I love tacos.","Me encantan los tacos.|A mí me encantan los tacos.","encantar · los tacos","encanta","Encantan agrees with los tacos, just like gustan."]
+      ["ty","We like pastelillos.","Nos gustan los pastelillos.|A nosotros nos gustan los pastelillos.","gustar · los pastelillos","gusta","Gustan agrees with los pastelillos (plural), not with we."],
+      ["ty","I love tostones.","Me encantan los tostones.|A mí me encantan los tostones.","encantar · los tostones","encanta","Encantan agrees with los tostones, just like gustan."]
     ]
   },
   {
@@ -436,7 +441,7 @@ module.exports = [
       ["fi","¿Cómo __ llamas?","What's your name? (to a friend)","te","se|me|tú","With tú, the reflexive pronoun is te."],
       ["ty","I shower at seven.","Me baño a las siete.|Yo me baño a las siete.|Me baño a las 7.|Yo me baño a las 7.|Me ducho a las siete.|Yo me ducho a las siete.|Me ducho a las 7.|Yo me ducho a las 7.","bañarse · a las siete","baña","The yo form: me baño."],
       ["ty","We wake up at six.","Nos despertamos a las seis.|Nosotros nos despertamos a las seis.|Nos despertamos a las 6.|Nosotros nos despertamos a las 6.","despertarse · a las seis","despiertan","The nosotros form takes nos and keeps the e: despertamos."],
-      ["ty","What's your name? (to a stranger)","¿Cómo se llama usted?|¿Cómo se llama?","cómo · llamarse · usted","llamas","Usted takes the él form: se llama."]
+      ["ty","What's your name? (to a stranger)","¿Cómo se llama usted?|¿Cómo se llama?|¿Cómo usted se llama?","cómo · llamarse · usted","llamas","Usted takes the él form: se llama."]
     ]
   },
   {
@@ -457,8 +462,8 @@ module.exports = [
 {{ex:Es el carro de Ana.|ehs ehl KAH-rroh deh AH-nah|It's Ana's car.}}
 {{ex:Llego del trabajo a las seis.|YEH-goh dehl trah-BAH-hoh ah lahs says|I get back from work at six.}}
 <h3>en: in, on, at, and by</h3>
-<p><b>En</b> covers "in", "on" and "at" for places, and "by" for transport: <b>en autobús</b>, <b>en carro</b>, <b>en tren</b>. The exception is on foot: <b>a pie</b>.</p>
-{{ex:Viajamos en autobús.|byah-HAH-mohs ehn ow-toh-BOOS|We travel by bus.}}
+<p><b>En</b> covers "in", "on" and "at" for places, and "by" for transport: <b>en guagua</b> (by bus; <b>la guagua</b> is the Puerto Rican word, elsewhere <b>el autobús</b>), <b>en carro</b>, <b>en tren</b>. The exception is on foot: <b>a pie</b>.</p>
+{{ex:Viajamos en guagua.|byah-HAH-mohs ehn GWAH-gwah|We travel by bus.}}
 <h3>con: with, and conmigo</h3>
 <p><b>Con</b> means "with". With me and with you (a friend) are single words: <b>conmigo</b>, <b>contigo</b>.</p>
 {{ex:¿Quieres ir conmigo?|KYEH-rehs eer kohn-MEE-goh|Do you want to go with me?}}
@@ -475,7 +480,7 @@ module.exports = [
     ],
     practice: [
       ["mc","'I'm going to the airport' =","Voy al aeropuerto.","Voy a el aeropuerto.","Voy en el aeropuerto.","Voy del aeropuerto.","A plus el becomes al."],
-      ["mc","'We travel by train' =","Viajamos en tren.","Viajamos con tren.","Viajamos a tren.","Viajamos de tren.","Transport takes en: en tren, en autobús."],
+      ["mc","'We travel by train' =","Viajamos en tren.","Viajamos con tren.","Viajamos a tren.","Viajamos de tren.","Transport takes en: en tren, en guagua."],
       ["mc","'I call my mom' =","Llamo a mi mamá.","Llamo mi mamá.","Llamo de mi mamá.","Llamo en mi mamá.","A person who receives the action takes the personal a."],
       ["mc","'This is for you' (a gift, to a friend)","Es para ti.","Es por ti.","Es para tú.","Es para te.","Para for who gets something, and after para it is ti."],
       ["mc","'Do you want to go with me?' (to a friend)","¿Quieres ir conmigo?","¿Quieres ir con mí?","¿Quieres ir con yo?","¿Quieres ir conmí?","With me is one word: conmigo."],
@@ -484,8 +489,8 @@ module.exports = [
       ["or","I call my mom.","Llamo a mi mamá","de","A person who receives the action takes the personal a."],
       ["fi","Veo __ Lucía.","I see Lucía.","a","de|en|con","Before a person who receives the action, use the personal a."],
       ["fi","Gracias __ la ayuda.","Thanks for the help.","por","para|de|a","Thanks always take por."],
-      ["fi","Voy __ trabajo en metro.","I go to work by subway.","al","a el|en|del","A plus el becomes al."],
-      ["ty","We travel by bus.","Viajamos en autobús.|Nosotros viajamos en autobús.|Viajamos en camión.|Nosotros viajamos en camión.","viajar · en · autobús","viajan","The nosotros form: the verb ending -amos matches the subject."],
+      ["fi","Voy __ trabajo en guagua.","I go to work by bus.","al","a el|en|del","A plus el becomes al."],
+      ["ty","We travel by bus.","Viajamos en guagua.|Nosotros viajamos en guagua.|Viajamos en autobús.|Nosotros viajamos en autobús.","viajar · en · guagua","viajan","The nosotros form: the verb ending -amos matches the subject."],
       ["ty","It's Lucía's suitcase.","Es la maleta de Lucía.","ser · la maleta · de · Lucía","el","Maleta is feminine: la maleta."],
       ["ty","I study Spanish to travel.","Estudio español para viajar.|Yo estudio español para viajar.","estudiar · español · para · viajar","por","Para shows a purpose: para viajar."]
     ]

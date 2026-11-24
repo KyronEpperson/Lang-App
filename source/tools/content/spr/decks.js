@@ -27,8 +27,8 @@ My name is Ana. | mai NEIM is AA-ne | Me llamo Ana | En la conversación diaria 
 Please call me Jay. | PLIIS KOL mi DYEI | Por favor, llámame Jay | Útil si tu nombre es difícil para angloparlantes o si prefieres un apodo
 What should I call you? | WAT shud ai KOL iu? | ¿Cómo prefieres que te llame? | Útil cuando el nombre es difícil de pronunciar o quieres saber si la persona usa un apodo
 Where are you from? | WER er iu FRAM? | ¿De dónde eres? | Una de las primeras preguntas que oirás. Ojo: "from" va al final, no al principio
-I'm from Mexico. | aim frem MEK-si-kou | Soy de México | Añade la ciudad y la conversación sigue sola: "I'm from Monterrey, in Mexico." En inglés se escribe sin tilde y la "x" suena «ks»
-I live in Lima. | ai LIV in LII-me | Vivo en Lima | La "v" de "live" se hace con los dientes de arriba sobre el labio de abajo, no como «b»
+I'm from Puerto Rico. | aim frem PWER-te RII-kou | Soy de Puerto Rico | Añade el pueblo y la conversación sigue sola: "I'm from Ponce, in Puerto Rico." En inglés, "Puerto Rico" suena «PWER-te RII-kou»
+I live in San Juan. | ai LIV in SAN WAAN | Vivo en San Juan | La "v" de "live" se hace con los dientes de arriba sobre el labio de abajo, no como «b»
 I'm a student. | aim e STUU-dent | Soy estudiante | Ojo: en inglés la profesión lleva "a/an": "I'm a student", nunca "I'm student". Y sin «e» delante: no «estudent»
 What do you do? | WAT du iu DUU? | ¿A qué te dedicas? | La forma estándar de preguntar por el trabajo. Más suave que "What's your job?"
 I work at a bank. | ai WERK et e BANK | Trabajo en un banco | Con empresas y lugares, «en» se dice "at": "I work at Google."
@@ -91,12 +91,12 @@ It's across the street. | its e-KROS dhe STRIIT | Está al otro lado de la calle
 It's next to the bank. | its NEKST te dhe BANK | Está al lado del banco | "next to" = al lado de. Ojo: no es "next of"
 Which line goes downtown? | WICH LAIN GOUS daun-TAUN? | ¿Qué línea va al centro? | Ojo: "downtown" no lleva "to" delante. Y "goes" lleva -s: concordancia con "line"
 Where do I transfer? | WER du ai trans-FER? | ¿Dónde hago transbordo? | En inglés británico se dice change: "Where do I change?"
-Does this bus go to the airport? | das dhis BAS GOU te dhi ER-port? | ¿Este autobús va al aeropuerto? | Ojo: después de "does", el verbo va sin -s: "go", no "goes". Delante de vocal, "the" suena «dhi»
-Which stop should I get off at? | WICH STAAP shud ai GUET OF et? | ¿En qué parada me bajo? | "get off" = bajarse (del autobús o del metro). La preposición "at" va al final
+Does this bus go to the airport? | das dhis BAS GOU te dhi ER-port? | ¿Esta guagua va al aeropuerto? | Ojo: después de "does", el verbo va sin -s: "go", no "goes". Delante de vocal, "the" suena «dhi»
+Which stop should I get off at? | WICH STAAP shud ai GUET OF et? | ¿En qué parada me bajo? | "get off" = bajarse (de la guagua o del metro). La preposición "at" va al final
 One ticket to Boston, please. | WAN TI-ket te BOS-ten, PLIIS | Un boleto / billete a Boston, por favor | Delante del destino va "to"
 Round trip or one way? | RAUND TRIP or WAN WEI? | ¿Ida y vuelta o solo ida? | En inglés británico: "Return or single?"
 Can you take me to this address? | ken iu TEIK mi te dhis A-dres? | ¿Me lleva a esta dirección? | Enseña la pantalla en el taxi para evitar errores. Ojo: "address" se escribe con dos "d" y dos "s"
-Could you pull over here? | kud iu PUL OU-ver JIR? | ¿Puede parar aquí? | Para que el taxi o el auto se detenga. También: "Right here is fine."
+Could you pull over here? | kud iu PUL OU-ver JIR? | ¿Puede parar aquí? | Para que el taxi o el carro se detenga. También: "Right here is fine."
 How long does it take? | JAU LONG das it TEIK? | ¿Cuánto tiempo se tarda? | Respuesta: "About 20 minutes." Ojo: "does it", con el sujeto "it"
 Is this seat taken? | is dhis SIIT TEI-ken? | ¿Está ocupado este asiento? | Si está libre: "No, go ahead." "seat" lleva «ii» larga: si la acortas suena a "sit"
 `,
@@ -335,7 +335,7 @@ calm down | KAAM DAUN | calmarse / tranquilizarse | La "l" de "calm" no suena. D
 set up | SET AP | instalar / organizar | "Can you help me set up my printer?"
 break up | BREIK AP | terminar (una relación) | "They broke up last month." Con quién: "break up with"
 fill out | FIL AUT | llenar (un formulario) | "Please fill out this form." En inglés británico: fill in
-grow up | GROU AP | crecer (de niño) / criarse | "I grew up in Monterrey." (Crecí en Monterrey.)
+grow up | GROU AP | crecer (de niño) / criarse | "I grew up in Mayagüez." (Crecí en Mayagüez.)
 wake up | WEIK AP | despertarse | Abrir los ojos es "wake up"; levantarse de la cama es "get up"
 come in | KAM IN | entrar / pasar | Más natural que "enter", que suena formal, de letrero. "Come in!" = ¡Pasa!
 go on | GOU AAN | continuar / pasar (ocurrir) | Más natural que "continue": "Please go on." Y "What's going on?" = ¿Qué pasa?
@@ -344,7 +344,7 @@ put out | PUT AUT | apagar (un fuego o un cigarrillo) | Más común que "extingu
 get up | GUET AP | levantarse (de la cama) | "I get up at seven." Despertarse es "wake up"; levantarse es "get up"
 go out | GOU AUT | salir (a divertirse) | "Do you want to go out tonight?" Con una pareja: "go out with" = salir con alguien
 come back | KAM BAK | volver / regresar | Al hablar es más común que "return": "When are you coming back?"
-get on | GUET AAN | subirse (al autobús, al tren o al avión) | Al auto o al taxi se dice "get in". Para bajarse: "get off" (autobús) y "get out of" (auto)
+get on | GUET AAN | subirse (a la guagua, al tren o al avión) | Al carro o al taxi se dice "get in". Para bajarse: "get off" (guagua) y "get out of" (carro)
 take off | TEIK OF | quitarse (ropa) / despegar (un avión) | "Please take off your shoes." / "The plane took off late."
 put on | PUT AAN | ponerse (ropa) | "Put on your jacket. It's cold." Con pronombre va en medio: "Put it on." Lo contrario es "take off"
 look up | LUK AP | buscar (en el diccionario o en internet) | "Look it up online." Para algo perdido se usa "look for"
@@ -483,7 +483,7 @@ I almost forgot. | ai OL-moust fer-GAAT | Casi se me olvida | "almost" = casi. V
 Anyway, let's go. | E-ni-wei, lets GOU | En fin, vámonos | "anyway" = en fin, de todos modos. Sirve para cerrar un tema y pasar a otra cosa
 `,
 "Falsos amigos y spanglish": `
-actually | AK-chu-e-li | en realidad / de hecho | Ojo: no es «actualmente», que se dice "currently". "Actually, I'm from Lima." = En realidad, soy de Lima
+actually | AK-chu-e-li | en realidad / de hecho | Ojo: no es «actualmente», que se dice "currently". "Actually, I'm from Ponce." = En realidad, soy de Ponce
 currently | KER-ent-li | actualmente / en este momento | La palabra correcta para «actualmente»: "I'm currently looking for a job."
 embarrassed | im-BE-rest | avergonzado / avergonzada | Ojo: «embarazada» es "pregnant". "I'm so embarrassed!" = ¡Qué vergüenza!
 pregnant | PREG-nent | embarazada | La palabra correcta para «embarazada». Si dices "embarrassed", dirás que te da vergüenza
@@ -502,10 +502,24 @@ constipated | KAAN-sti-pei-rid | estreñido / estreñida | Ojo: no es «constipa
 pretend | pri-TEND | fingir | Ojo: «pretender» (aspirar a, intentar) es "intend" o "try". "He's pretending to sleep." = Está fingiendo que duerme
 eventually | i-VEN-chu-e-li | al final / con el tiempo | Ojo: no es «eventualmente» (posiblemente, de vez en cuando). "Eventually, she found a job."
 bother | BAA-dher | molestar / fastidiar | Para «molestar» usa "bother": "Sorry to bother you." Ojo: "molest" significa abusar sexualmente de alguien; nunca lo uses por «molestar»
-parents | PER-ents | padres (papá y mamá) | Ojo: no es «parientes», que se dice "relatives". "My parents live in Bogotá."
+parents | PER-ents | padres (papá y mamá) | Ojo: no es «parientes», que se dice "relatives". "My parents live in Bayamón."
 discuss | di-SKAS | hablar de / tratar (un tema) | Ojo: "discuss" nunca es pelear; «discutir» en ese sentido es "argue". Y va sin "about": "discuss the plan"
 support | se-PORT | apoyar / respaldar | Ojo: «soportar» (aguantar) no es "support", sino "put up with" o "stand": "I can't stand the noise."
 introduce | in-tre-DUUS | presentar (a una persona) | Ojo: «introducir» (meter) es "put in" o "insert". "Let me introduce you to my sister."
+I'm applying for a job. | aim e-PLAI-ing fer e DYAAB | Estoy solicitando un trabajo | En Puerto Rico se oye «aplicar para un trabajo»; en inglés es "apply for": "I applied for the job."
+Where can I park? | WER ken ai PAARK? | ¿Dónde puedo estacionar? | En Puerto Rico se dice «parquear»; en inglés es "park". El estacionamiento es "the parking lot"
+Let's hang out this weekend. | lets JANG AUT dhis WIIK-end | Vamos a janguear este fin de semana | «Janguear» viene de "hang out". Con alguien: "hang out with": "I hang out with my cousins."
+I'll check and let you know. | ail CHEK en LET iu NOU | Voy a chequear y te aviso | «Chequear» viene de "check" (revisar, averiguar). "let you know" = avisarte
+Can I take a break? | ken ai TEIK e BREIK? | ¿Puedo tomar un descanso? | Lo que en Puerto Rico se dice «dame un break». Ojo: "Give me a break!" significa otra cosa. Para pedir un momento: "Give me a minute."
+Give me a break! | GUIV mi e BREIK! | ¡Ya, no exageres! | No significa «dame un descanso»: es una queja, como «¡por favor!» o «¡qué va!». Para pedir una pausa: "Can I take a break?"
+The bus is packed. | dhe BAS is PAKT | La guagua está llena | Lo que se oye como «está full». "packed" = lleno de gente. La -ed suena «t»: PAKT
+It's sold out. | its SOULD AUT | Se agotó | Para boletos o productos: otro sentido de «está full». No hay más: "The concert is sold out."
+I'm going shopping. | aim GOU-ing SHAA-ping | Voy de compras | Lo que se oye como «voy de shopping». Sin "to": no "I'm going to shopping". Igual: "go swimming", "go running"
+I have a meeting at three. | ai jav e MII-ring et THRII | Tengo una reunión a las tres | Lo que se oye como «tengo un meeting». La hora va con "at": "at three", "at 3:30"
+The roof is leaking. | dhe RUUF is LII-king | El techo está goteando | «El rufo» viene de "roof" (techo). "leak" = gotear o salirse: "The pipe is leaking."
+I need to print this. | ai NIID te PRINT DHIS | Necesito imprimir esto | En Puerto Rico se oye «printear»; en inglés es "print". La impresora es "the printer"
+Call me back when you can. | KOL mi BAK wen iu KAN | Devuélveme la llamada cuando puedas | Lo que se oye como «llámame pa'trás». "call back" = devolver la llamada; con pronombre, "back" va al final: "Call me back."
+Did you like my post? | did iu LAIK mai POUST? | ¿Te gustó mi publicación? | En Puerto Rico se oye «likear»; en inglés es "like", sin cambios. En pasado: "did" + "like", sin -ed
 `,
 "Make y do": `
 make a mistake | MEIK e mi-STEIK | cometer un error | Ojo: nunca "do a mistake". Varios errores: "make mistakes"

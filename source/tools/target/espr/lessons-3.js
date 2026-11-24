@@ -25,7 +25,7 @@ module.exports = [
 <p>After a verb, <b>mucho</b> means "a lot" and never changes, because it describes the action, not a noun. It can also stand alone as a short answer, where English says "a lot" or "very much". <b>Muy</b> can never stand alone.</p>
 {{ex:Trabajas mucho.|trah-BAH-hahs MOO-choh|You work a lot.}}
 {{ex:Me gusta mucho la música.|meh GOOS-tah MOO-choh lah MOO-see-kah|I like music a lot.}}
-{{ex:¿Te gusta Puebla? Sí, mucho.|teh GOOS-tah PWEH-blah see MOO-choh|Do you like Puebla? Yes, a lot.}}
+{{ex:¿Te gusta San Juan? Sí, mucho.|teh GOOS-tah sahn hwahn see MOO-choh|Do you like San Juan? Yes, a lot.}}
 <h3>A quick test</h3>
 <p>Look at the word that comes next. If it's a describing word (<b>grande</b>, <b>cansado</b>, <b>bien</b>), use <b>muy</b>. If it's a noun (<b>frío</b>, <b>hambre</b>, <b>gente</b>), use <b>mucho</b> in the form that agrees with it. If it's a verb, or nothing at all, use plain <b>mucho</b>.</p>
 <div class="tip">The classic mistake: <b>Tengo muy hambre</b> → <b>Tengo mucha hambre</b>. Watch for the reverse too: <b>Es mucho grande</b> → <b>Es muy grande</b>.</div>
@@ -60,8 +60,8 @@ module.exports = [
     body: `
 <p>A few small words turn short sentences into real conversation. Four of them do most of the work: <b>y</b> (and), <b>o</b> (or), <b>pero</b> (but) and <b>porque</b> (because).</p>
 <h3>y and o, and how they change</h3>
-<p><b>y</b> means "and" and <b>o</b> means "or", just as in English. When <b>y</b> joins two people, the verb takes the ellos form, because together they are "they". In a list, <b>y</b> goes only before the last item, as in English: <b>tacos, arroz y frijoles</b>.</p>
-{{ex:Ana y Carlos son de Monterrey.|AH-nah ee KAHR-lohs sohn deh mohn-teh-RRAY|Ana and Carlos are from Monterrey.}}
+<p><b>y</b> means "and" and <b>o</b> means "or", just as in English. When <b>y</b> joins two people, the verb takes the ellos form, because together they are "they". In a list, <b>y</b> goes only before the last item, as in English: <b>arroz, habichuelas y tostones</b>.</p>
+{{ex:Ana y Carlos son de Ponce.|AH-nah ee KAHR-lohs sohn deh POHN-seh|Ana and Carlos are from Ponce.}}
 {{ex:¿Quieres café o té?|KYEH-rehs kah-FEH oh teh|Do you want coffee or tea?}}
 <p>One twist English doesn't have: before a word that starts with an "ee" sound (spelled <b>i-</b> or <b>hi-</b>), <b>y</b> becomes <b>e</b>. Before a word that starts with an "oh" sound (<b>o-</b> or <b>ho-</b>), <b>o</b> becomes <b>u</b>. This keeps the two sounds from running together.</p>
 {{ex:Sofía e Isabel trabajan aquí.|soh-FEE-ah eh ee-sah-BEHL trah-BAH-hahn ah-KEE|Sofía and Isabel work here.}}
@@ -69,10 +69,10 @@ module.exports = [
 <h3>pero: but</h3>
 <p><b>pero</b> works like English "but". It joins two sentences, or two describing words that agree with the same noun: <b>cansada pero contenta</b>. Say it with a quick tap, not a trill: <b>perro</b> is "dog".</p>
 {{ex:Tengo frío, pero estoy bien.|TEHN-goh FREE-oh PEH-roh ehs-TOY byehn|I'm cold, but I'm fine.}}
-<p>You will also hear <b>sino</b>, another "but", after a <b>no</b>: <b>No es mexicano, sino colombiano</b> (He isn't Mexican, he's Colombian). Just recognize it for now.</p>
+<p>You will also hear <b>sino</b>, another "but", after a <b>no</b>: <b>No es de San Juan, sino de Ponce</b> (He isn't from San Juan, he's from Ponce). Just recognize it for now.</p>
 <h3>porque and ¿por qué?</h3>
 <p>English has two different words, "why" and "because". Spanish uses almost the same word for both. <b>¿Por qué?</b>, two words with an accent mark and the stress on <b>qué</b>, asks "why?". <b>porque</b>, one word with no accent and the stress on <b>por</b>, answers "because".</p>
-{{ex:¿Por qué estudias español? Porque mi familia es de Puebla.|pohr keh ehs-TOO-dyahs ehs-pah-NYOHL POHR-keh mee fah-MEE-lyah ehs deh PWEH-blah|Why are you studying Spanish? Because my family is from Puebla.}}
+{{ex:¿Por qué estudias español? Porque mi familia es de Puerto Rico.|pohr keh ehs-TOO-dyahs ehs-pah-NYOHL POHR-keh mee fah-MEE-lyah ehs deh PWEHR-toh RREE-koh|Why are you studying Spanish? Because my family is from Puerto Rico.}}
 <h3>también and tampoco</h3>
 <p><b>también</b> means "also" or "too" and agrees with a yes. <b>tampoco</b> means "not either" or "neither" and agrees with a no. Never say <b>también no</b>: <b>tampoco</b> already carries the "not".</p>
 {{ex:Hablo inglés y también hablo español.|AH-bloh een-GLEHS ee tahm-BYEHN AH-bloh ehs-pah-NYOHL|I speak English, and I speak Spanish too.}}
@@ -91,7 +91,7 @@ module.exports = [
       ["mc","\"I don't like coffee.\" \"Me neither.\" =","No me gusta el café. A mí tampoco.","No me gusta el café. A mí también.","No me gusta el café. A mí también no.","No me gusta el café. Yo no también.","tampoco agrees with a no and already carries the not."],
       ["mc","\"I'm cold, but I'm fine\" =","Tengo frío, pero estoy bien.","Estoy frío, pero estoy bien.","Tengo frío, porque estoy bien.","Tengo frío, perro estoy bien.","Feeling cold uses tener, and but is pero, with one r."],
       ["or","I'm cold but I'm fine","Tengo frío pero estoy bien","tiene","Tengo and estoy are yo forms: the verb ending matches the subject."],
-      ["or","Ana and Carlos are from Monterrey","Ana y Carlos son de Monterrey","es e","Two people joined by y take the ellos form: son."],
+      ["or","Ana and Carlos are from Ponce","Ana y Carlos son de Ponce","es e","Two people joined by y take the ellos form: son."],
       ["or","Why are you studying Spanish? (to a friend)","Por qué | estudias | español","Porque | estudia","Por qué asks why, and estudias is the tú form."],
       ["fi","¿Quieres agua __ jugo?","Do you want water or juice?","o","u|y|e","jugo starts with an h sound, not an oh sound, so plain o."],
       ["fi","Trabajo aquí __ me gusta.","I work here because I like it.","porque","por qué|pero|por","Because is porque: one word, no accent mark.","!strict"],
@@ -116,13 +116,13 @@ module.exports = [
 <div class="tbl"><table><tr><th>Spanish</th><th>English</th></tr><tr><td class="k">cerca de</td><td>near, close to</td></tr><tr><td class="k">lejos de</td><td>far from</td></tr><tr><td class="k">al lado de</td><td>next to</td></tr><tr><td class="k">enfrente de</td><td>across from, opposite</td></tr></table></div>
 <p>Each one ends in <b>de</b>, and <b>de</b> + <b>el</b> becomes <b>del</b>, just as <b>a</b> + <b>el</b> becomes <b>al</b>. With <b>la</b>, nothing joins.</p>
 {{ex:El banco está al lado del hotel.|ehl BAHN-koh ehs-TAH ahl LAH-doh dehl oh-TEHL|The bank is next to the hotel.}}
-{{ex:La parada está enfrente de la farmacia.|lah pah-RAH-dah ehs-TAH ehn-FREHN-teh deh lah fahr-MAH-syah|The stop is across from the pharmacy.}}
+{{ex:La parada de guagua está enfrente de la farmacia.|lah pah-RAH-dah deh GWAH-gwah ehs-TAH ehn-FREHN-teh deh lah fahr-MAH-syah|The bus stop is across from the pharmacy.}}
 {{ex:¿Está lejos? No, está muy cerca.|ehs-TAH LEH-hohs noh ehs-TAH mwee SEHR-kah|Is it far? No, it's very close.}}
 <h3>One place or several</h3>
 <p>The verb agrees with the place you ask about: one place takes <b>está</b>, two or more take <b>están</b>.</p>
 {{ex:¿Dónde están los baños?|DOHN-deh ehs-TAHN lohs BAH-nyohs|Where are the bathrooms?}}
 <h3>What a stranger will say to you</h3>
-<p>People giving directions use usted commands: verb forms that tell you to do something. You don't need to make them yet, just catch them. Three cover most directions: <b>siga</b> (keep going), <b>gire</b> (turn) and <b>cruce</b> (cross). In Mexico you will also hear <b>dé vuelta</b> for "turn".</p>
+<p>People giving directions use usted commands: verb forms that tell you to do something. You don't need to make them yet, just catch them. Three cover most directions: <b>siga</b> (keep going), <b>gire</b> (turn) and <b>cruce</b> (cross).</p>
 {{ex:Gire a la izquierda y siga derecho.|HEE-reh ah lah ees-KYEHR-dah ee SEE-gah deh-REH-choh|Turn left and keep going straight.}}
 {{ex:Cruce la calle y está a la derecha.|KROO-seh lah KAH-yeh ee ehs-TAH ah lah deh-REH-chah|Cross the street and it's on the right.}}
 <h3>Asking politely</h3>
@@ -148,7 +148,7 @@ module.exports = [
       ["fi","El hotel está __ lado del banco.","The hotel is next to the bank.","al","a el|a la|el","a + el always joins into al."],
       ["fi","Disculpe, ¿dónde __ los taxis?","Excuse me, where are the taxis?","están","está|son|hay","Location uses estar, and several taxis take están."],
       ["ty","The pharmacy is very close","La farmacia está muy cerca","la farmacia · estar · cerca","el están","farmacia is feminine: la farmacia, and one place takes está."],
-      ["ty","Where is the bus stop?","¿Dónde está la parada de autobús?|¿Dónde está la parada del autobús?|¿Dónde está la parada de autobuses?","dónde · estar · la parada de autobús","el están","parada is feminine: la parada, and one place takes está."],
+      ["ty","Where is the bus stop?","¿Dónde está la parada de guagua?|¿Dónde está la parada de la guagua?|¿Dónde está la parada de guaguas?|¿Dónde está la parada de autobús?|¿Dónde está la parada del autobús?|¿Dónde está la parada de autobuses?","dónde · estar · la parada de guagua","el están","parada is feminine: la parada, and one place takes está."],
       ["ty","We live far from the airport","Vivimos lejos del aeropuerto|Nosotros vivimos lejos del aeropuerto","vivir · lejos de · el aeropuerto","vive de","Vivimos is the nosotros form, and de + el becomes del."]
     ]
   },
@@ -162,12 +162,12 @@ module.exports = [
 <div class="tbl"><table><tr><th>Who</th><th>ir a + infinitive</th></tr><tr><td class="k">yo</td><td class="k">voy a viajar</td></tr><tr><td class="k">tú</td><td class="k">vas a viajar</td></tr><tr><td class="k">él, ella, usted</td><td class="k">va a viajar</td></tr><tr><td class="k">nosotros</td><td class="k">vamos a viajar</td></tr><tr><td class="k">ellos, ellas, ustedes</td><td class="k">van a viajar</td></tr></table></div>
 <h3>Three parts, every time</h3>
 <p>Only <b>ir</b> changes: it agrees with the subject. The infinitive at the end never changes. And the little <b>a</b> is never dropped, even in fast speech, where English shrinks "going to" into "gonna".</p>
-{{ex:Voy a viajar a México.|boy ah byah-HAHR ah MEH-hee-koh|I'm going to travel to Mexico.}}
-{{ex:¿Vas a tomar el autobús?|bahs ah toh-MAHR ehl ow-toh-BOOS|Are you going to take the bus?}}
+{{ex:Voy a viajar a Vieques.|boy ah byah-HAHR ah BYEH-kehs|I'm going to travel to Vieques.}}
+{{ex:¿Vas a tomar la guagua?|bahs ah toh-MAHR lah GWAH-gwah|Are you going to take the bus?}}
 {{ex:Mi hermana va a comprar los boletos.|mee ehr-MAH-nah bah ah kohm-PRAHR lohs boh-LEH-tohs|My sister is going to buy the tickets.}}
 {{ex:Mis padres van a llegar el sábado.|mees PAH-drehs bahn ah yeh-GAHR ehl SAH-bah-doh|My parents are going to arrive on Saturday.}}
 <h3>A place or a plan</h3>
-<p>You have seen <b>ir a</b> before, with a place: <b>Voy a Cancún</b> means "I'm going to Cancún", right now or soon. Put an infinitive after <b>a</b> instead and it becomes a plan. The two can even meet in one sentence, and <b>a</b> + <b>el</b> still becomes <b>al</b>, as always.</p>
+<p>You have seen <b>ir a</b> before, with a place: <b>Voy a Rincón</b> means "I'm going to Rincón", right now or soon. Put an infinitive after <b>a</b> instead and it becomes a plan. The two can even meet in one sentence, and <b>a</b> + <b>el</b> still becomes <b>al</b>, as always.</p>
 {{ex:Mañana voy a ir al aeropuerto.|mah-NYAH-nah boy ah eer ahl ah-eh-roh-PWEHR-toh|Tomorrow I'm going to go to the airport.}}
 <h3>When: time words</h3>
 <p>Plans need a time. Useful ones: <b>mañana</b> (tomorrow), <b>esta noche</b> (tonight), <b>el sábado</b> (on Saturday, with no word for "on") and <b>la próxima semana</b> (next week). <b>próximo</b> agrees with its noun: <b>la próxima semana</b>, but <b>el próximo año</b>.</p>
@@ -192,15 +192,15 @@ module.exports = [
       ["mc","\"next week\" =","la próxima semana","el próximo semana","la próximo semana","la semana que próxima","semana is la semana, so la próxima semana."],
       ["mc","\"Let's eat!\" =","¡Vamos a comer!","¡Vamos comer!","¡Van a comer!","¡Voy a comer!","vamos a + infinitive also means let's."],
       ["mc","\"What are you going to do on Saturday?\" (to a friend) =","¿Qué vas a hacer el sábado?","¿Qué vas a hacer en sábado?","¿Qué vas hacer el sábado?","¿Qué va a hacer el sábado?","vas a hacer, and days take el: el sábado."],
-      ["or","We're going to take the bus","Vamos a tomar el autobús","van","Vamos is the nosotros form of ir, then a + infinitive."],
+      ["or","We're going to take the bus","Vamos a tomar la guagua","van","Vamos is the nosotros form of ir, then a + infinitive."],
       ["or","My parents are going to buy the tickets","Mis padres van a comprar los boletos","va mi","Mis padres is plural, so ir takes the ellos form: van."],
       ["or","She's going to buy a ticket","Ella va a comprar un boleto","voy una","Ella takes the él/ella form va, and boleto is masculine: un boleto."],
-      ["fi","Mañana __ a viajar a Cancún.","Tomorrow I'm going to travel to Cancún.","voy","va|vas|vamos","I is yo, and yo goes with voy."],
+      ["fi","Mañana __ a viajar a Culebra.","Tomorrow I'm going to travel to Culebra.","voy","va|vas|vamos","I is yo, and yo goes with voy."],
       ["fi","¿Ustedes van __ comer aquí?","Are you all going to eat here?","a","de|en|por","ir always takes a before the infinitive."],
       ["fi","Ana va a __ un carro.","Ana is going to buy a car.","comprar","compra|compro|compramos","After ir a, the verb stays in the infinitive."],
-      ["ty","I'm going to travel to Mexico","Voy a viajar a México|Yo voy a viajar a México","ir a · viajar · México","va viajo","Voy is the yo form of ir, and the infinitive never changes."],
+      ["ty","I'm going to travel to New York","Voy a viajar a Nueva York|Yo voy a viajar a Nueva York","ir a · viajar · Nueva York","va viajo","Voy is the yo form of ir, and the infinitive never changes."],
       ["ty","We're going to eat at the airport","Vamos a comer en el aeropuerto|Nosotros vamos a comer en el aeropuerto","ir a · comer · el aeropuerto","van comemos","Vamos is the nosotros form, and a + infinitive follows."],
-      ["ty","Are you going to take the bus? (to a stranger)","¿Va a tomar el autobús?|¿Usted va a tomar el autobús?|¿Va usted a tomar el autobús?","ir a · tomar · el autobús","vas toma","Usted takes the él form: va."]
+      ["ty","Are you going to take the bus? (to a stranger)","¿Va a tomar la guagua?|¿Usted va a tomar la guagua?|¿Va usted a tomar la guagua?|¿Va a tomar el autobús?|¿Usted va a tomar el autobús?|¿Va usted a tomar el autobús?","ir a · tomar · la guagua","vas toma","Usted takes the él form: va."]
     ]
   },
   {
@@ -264,9 +264,9 @@ module.exports = [
 <p>Take off <b>-ar</b>, <b>-er</b> or <b>-ir</b> and add these endings. The verb ending matches the subject, as in the present. <b>-er</b> and <b>-ir</b> verbs share one set.</p>
 <div class="tbl"><table><tr><th>Who</th><th>hablar</th><th>comer</th><th>vivir</th></tr><tr><td class="k">yo</td><td class="k">hablé</td><td class="k">comí</td><td class="k">viví</td></tr><tr><td class="k">tú</td><td class="k">hablaste</td><td class="k">comiste</td><td class="k">viviste</td></tr><tr><td class="k">él, ella, usted</td><td class="k">habló</td><td class="k">comió</td><td class="k">vivió</td></tr><tr><td class="k">nosotros</td><td class="k">hablamos</td><td class="k">comimos</td><td class="k">vivimos</td></tr><tr><td class="k">ellos, ellas, ustedes</td><td class="k">hablaron</td><td class="k">comieron</td><td class="k">vivieron</td></tr></table></div>
 <p>The <b>nosotros</b> form of <b>-ar</b> and <b>-ir</b> verbs looks just like the present. A time word such as <b>ayer</b> shows you it's the past.</p>
-{{ex:Anoche comí tacos en una taquería.|ah-NOH-cheh koh-MEE TAH-kohs ehn OO-nah tah-keh-REE-ah|Last night I ate tacos at a taquería.}}
+{{ex:Anoche comí mofongo en un restaurante.|ah-NOH-cheh koh-MEE moh-FOHN-goh ehn oon rrehs-tow-RAHN-teh|Last night I ate mofongo at a restaurant.}}
 {{ex:¿Trabajaste el sábado?|trah-bah-HAHS-teh ehl SAH-bah-doh|Did you work on Saturday?}}
-{{ex:Mis amigos vivieron en Guadalajara.|mees ah-MEE-gohs bee-BYEH-rohn ehn gwah-dah-lah-HAH-rah|My friends lived in Guadalajara.}}
+{{ex:Mis amigos vivieron en Orlando.|mees ah-MEE-gohs bee-BYEH-rohn ehn ohr-LAHN-doh|My friends lived in Orlando.}}
 <h3>The accent mark changes the meaning</h3>
 <p>In <b>hablo</b> the stress is on <b>HA</b>, and it means "I speak". In <b>habló</b> the stress moves to the end, and it means "he or she spoke". The written accent is the only difference on paper, so always write it, and say it with the stress at the end.</p>
 {{ex:Hablo con mi jefa todos los días.|AH-bloh kohn mee HEH-fah TOH-dohs lohs DEE-ahs|I talk to my boss every day.}}
@@ -277,7 +277,7 @@ module.exports = [
 {{ex:¿Qué hiciste ayer?|keh ee-SEES-teh ah-YEHR|What did you do yesterday?}}
 <p>Useful time words: <b>ayer</b> (yesterday), <b>anoche</b> (last night), <b>el fin de semana pasado</b> and <b>la semana pasada</b>, where <b>pasado</b> agrees with its noun.</p>
 <h3>Ya: "have you…?" in Latin America</h3>
-<p>Where English says "Have you eaten yet?" or "I've been to Cancún", Latin American Spanish usually uses the preterite, often with <b>ya</b> (already, yet).</p>
+<p>Where English says "Have you eaten yet?" or "I've been to El Yunque", Latin American Spanish usually uses the preterite, often with <b>ya</b> (already, yet).</p>
 {{ex:¿Ya comiste?|yah koh-MEES-teh|Have you eaten yet?}}
 <h3>What you will hear in Spain: he comido</h3>
 <p>In Spain, people say <b>he comido</b> ("I have eaten") for things done today. In Latin America you'll hear it mostly for "lately" or "so far". Just recognize it for now.</p>
@@ -287,19 +287,19 @@ module.exports = [
     check: [
       ["\"She spoke\" is…",["hablo","habló","hablé","habla"],1,"habló, with the accent on the end, is the él/ella form of the preterite. hablo means I speak."],
       ["\"I went to the movies\" is…",["Fui al cine.","Fue al cine.","Voy al cine.","Fuí al cine."],0,"fui is the yo form of ir in the preterite, written with no accent mark."],
-      ["Your Mexican friend asks \"¿Ya comiste?\" She means…",["Are you eating now?","Are you going to eat?","Do you eat a lot?","Have you eaten yet?"],3,"Latin America uses ya + preterite for have you… yet."]
+      ["Your Puerto Rican friend asks \"¿Ya comiste?\" She means…",["Are you eating now?","Are you going to eat?","Do you eat a lot?","Have you eaten yet?"],3,"Latin America uses ya + preterite for have you… yet."]
     ],
     practice: [
       ["mc","\"Yesterday I worked\" =","Ayer trabajé.","Ayer trabajo.","Ayer trabajó.","Ayer trabaje.","trabajé, with the accent mark on the end, means I worked.","!strict"],
-      ["mc","\"They ate tacos\" =","Comieron tacos.","Comió tacos.","Comen tacos.","Comimos tacos.","For they, -er verbs end in -ieron in the preterite."],
+      ["mc","\"They ate tostones\" =","Comieron tostones.","Comió tostones.","Comen tostones.","Comimos tostones.","For they, -er verbs end in -ieron in the preterite."],
       ["mc","\"What did you do on Saturday?\" (to a friend) =","¿Qué hiciste el sábado?","¿Qué hizo el sábado?","¿Qué haces el sábado?","¿Qué hice el sábado?","hacer in the preterite: tú hiciste."],
       ["mc","\"Carlos spoke with me\" =","Carlos habló conmigo.","Carlos hablo conmigo.","Carlos hablé conmigo.","Carlos habla conmigo.","habló, with the accent mark, is he spoke; hablo is I speak.","!strict"],
       ["mc","\"last week\" =","la semana pasada","el semana pasado","la semana pasado","la semana próxima","pasada goes with la semana; próxima means next."],
-      ["or","My parents lived in Guadalajara","Mis padres vivieron en Guadalajara","vivió mi","Mis padres is plural, so the ellos form: vivieron."],
-      ["or","I ate at a taquería","Comí en una taquería","comió un","Comí is the yo form, and taquería is feminine: una."],
+      ["or","My parents lived in Orlando","Mis padres vivieron en Orlando","vivió mi","Mis padres is plural, so the ellos form: vivieron."],
+      ["or","I ate at a pizzeria","Comí en una pizzería","comió un","Comí is the yo form, and pizzería is feminine: una."],
       ["or","Did you work a lot? (to a friend)","Trabajaste mucho","trabajó","Trabajaste is the tú form of the preterite."],
       ["fi","Ayer Ana __ con su jefe.","Yesterday Ana spoke with her boss.","habló","hablo|hablé|habla","Ana did it in the past: habló, with the accent mark.","!strict"],
-      ["fi","El fin de semana pasado __ a Puebla.","Last weekend I went to Puebla.","fui","fue|voy|fuiste","I went is fui."],
+      ["fi","El fin de semana pasado __ a Ponce.","Last weekend I went to Ponce.","fui","fue|voy|fuiste","I went is fui."],
       ["fi","¿Ustedes __ en la oficina ayer?","Did you all eat at the office yesterday?","comieron","comió|comimos|comen","ustedes in the preterite: comieron."],
       ["ty","I spoke with my mom yesterday","Hablé con mi mamá ayer|Ayer hablé con mi mamá|Yo hablé con mi mamá ayer|Ayer yo hablé con mi mamá|Hablé ayer con mi mamá|Yo hablé ayer con mi mamá","hablar · con · mi mamá · ayer","habló hablo","Hablé, with the accent mark, is the yo form of the preterite.","!strict"],
       ["ty","We bought the tickets","Compramos los boletos|Nosotros compramos los boletos","comprar · los boletos","compraron las","Compramos is the nosotros form (the same as the present), and boletos takes los."],
@@ -312,7 +312,7 @@ module.exports = [
     blurb: "Read signs and ask general questions: Se habla español, Se venden casas, ¿Cómo se dice…?",
     deck: "Work and school",
     body: `
-<p>English often uses "you", "they" or "people" for no one in particular: "How do you say this?", "They sell tortillas here", "You can't come in." Spanish usually says this with <b>se</b> and the él form of the verb, and no person is named. This is the impersonal se. It feels strange at first, but the idea is simple: something is done, and who does it doesn't matter.</p>
+<p>English often uses "you", "they" or "people" for no one in particular: "How do you say this?", "They sell coffee here", "You can't come in." Spanish usually says this with <b>se</b> and the él form of the verb, and no person is named. This is the impersonal se. It feels strange at first, but the idea is simple: something is done, and who does it doesn't matter.</p>
 <h3>se + verb: no one in particular</h3>
 <p>Put <b>se</b> right before the verb. With <b>no</b>, the order is <b>no se</b> + verb.</p>
 {{ex:Aquí se habla español.|ah-KEE seh AH-blah ehs-pah-NYOHL|Spanish is spoken here.}}
@@ -326,7 +326,7 @@ module.exports = [
 {{ex:¿Dónde se compran los boletos?|DOHN-deh seh KOHM-prahn lohs boh-LEH-tohs|Where do you buy the tickets?}}
 <h3>Don't translate "you" and "they" word for word</h3>
 <p>When English "you" or "they" means people in general, don't reach for <b>usted</b> or <b>ellos</b>. <b>¿Cómo dice usted…?</b> asks how one particular person says it, and <b>ellos</b> points at a particular group. In everyday speech you'll also hear a general <b>tú</b>, as in English, but <b>se</b> is the form to learn first, and the one on every sign.</p>
-{{ex:En México se come tarde.|ehn MEH-hee-koh seh KOH-meh TAHR-deh|In Mexico people eat late.}}
+{{ex:En Puerto Rico se come mucho arroz.|ehn PWEHR-toh RREE-koh seh KOH-meh MOO-choh ah-RROHS|In Puerto Rico people eat a lot of rice.}}
 <h3>At work and at school</h3>
 <p>The same pattern explains how things are done: <b>Aquí se trabaja mucho</b> (People work hard here), <b>¿Cómo se escribe tu nombre?</b> (How do you spell your name?). At a new job or in a class you will hear questions like these all day, so learn to spot <b>se</b> right before a verb. The verb stays in the él form unless a plural noun follows.</p>
 <div class="tip">The common mistake is keeping the verb singular with a plural noun: <b>Se vende casas</b> → <b>Se venden casas</b>. You will see the first on handmade signs, but standard written Spanish wants the plural.</div>
@@ -346,11 +346,11 @@ module.exports = [
       ["or","Where do you buy the tickets? (in general)","Dónde | se | compran | los | boletos","compra | las","boletos is a masculine plural noun: los boletos, and the verb agrees: compran."],
       ["or","You can't go in (a rule)","No se puede entrar","puedo","Impersonal se takes the él form: puede, not puedo."],
       ["fi","¿Cómo se __ esto en español?","How do you say this in Spanish?","dice","dices|digo|dicen","se + the él form of decir: se dice."],
-      ["fi","Se __ tortillas.","Tortillas for sale.","venden","vende|vendo|vendes","tortillas is plural, so se venden."],
+      ["fi","Se __ pasteles.","Pasteles for sale.","venden","vende|vendo|vendes","pasteles is plural, so se venden."],
       ["fi","En esta tienda __ habla inglés.","English is spoken in this store.","se","le|lo|me","Impersonal se: no person is named."],
       ["ty","Spanish is spoken here (use se)","Aquí se habla español|Se habla español aquí","hablar · se · aquí","hablan","One language, so the verb stays singular: habla agrees with español."],
       ["ty","Apartments for rent (use se and rentar)","Se rentan apartamentos|Se rentan departamentos","rentar · se · los apartamentos","renta","apartamentos is plural, so the verb agrees: rentan."],
-      ["ty","Where do you buy tortillas? (in general, use se)","¿Dónde se compran tortillas?|¿Dónde se compran las tortillas?","dónde · comprar · se · las tortillas","compra","tortillas is plural, so the verb agrees: compran."]
+      ["ty","Where do you buy alcapurrias? (in general, use se)","¿Dónde se compran alcapurrias?|¿Dónde se compran las alcapurrias?","dónde · comprar · se · las alcapurrias","compra","alcapurrias is plural, so the verb agrees: compran."]
     ]
   }
 ];

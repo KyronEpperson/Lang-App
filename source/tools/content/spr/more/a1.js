@@ -11,10 +11,10 @@ module.exports = [
 {{ex:There's a cafe near here.|dhers e ka-FEI NIR JIR|Hay un café cerca de aquí}}{{ex:There are two rooms.|dher er TUU RUUMS|Hay dos habitaciones}}
 <h3>Preguntas y negativas</h3>
 <p>Para preguntar, <i>is</i> o <i>are</i> pasa delante de <i>there</i>.</p>
-{{ex:Is there a bathroom here?|is dher e BATH-ruum JIR?|¿Hay baño aquí?}}{{ex:Are there any seats?|er dher E-ni SIITS?|¿Hay lugares libres?}}{{ex:There isn't a bus today.|dher I-sent e BAS te-DEI|Hoy no hay autobús}}
+{{ex:Is there a bathroom here?|is dher e BATH-ruum JIR?|¿Hay baño aquí?}}{{ex:Are there any seats?|er dher E-ni SIITS?|¿Hay lugares libres?}}{{ex:There isn't a bus today.|dher I-sent e BAS te-DEI|Hoy no hay guagua}}
 <h3>No confundas have con there is</h3>
 <p>«Tener» es <i>have</i>; «haber» (algo está en un lugar) es <i>there is</i>. «Hay mucha gente» no es <i>Has many people</i>.</p>
-{{ex:I have a car.|ai jav e KAAR|Tengo auto}}{{ex:There's a car outside.|dhers e KAAR aut-SAID|Hay un auto afuera}}
+{{ex:I have a car.|ai jav e KAAR|Tengo carro}}{{ex:There's a car outside.|dhers e KAAR aut-SAID|Hay un carro afuera}}
 <div class="tip">Errores más comunes: <b>Is cold.</b> ✗ → <b>It's cold.</b> ✓ · <b>Is important.</b> ✗ → <b>It's important.</b> ✓ · <b>There are a cafe.</b> ✗ → <b>There's a cafe.</b> ✓ · <b>Has many people.</b> ✗ → <b>There are many people.</b> ✓</div>`,
 check:[["¿Cómo se dice «Hoy hace calor»?",["Is hot today.","Today hot.","It's hot today.","There is hot today."],2,"El clima necesita un sujeto en inglés: \"it\"."],["There ___ three people. ¿Qué va en el hueco?",["is","are","have","be"],1,"\"Three people\" es plural, así que \"there are\"."],["¿Cómo se dice «¿Hay baño aquí?»?",["Is there a bathroom here?","Have a bathroom here?","Is it a bathroom here?","There is bathroom here?"],0,"Para preguntar si hay algo: \"Is there a…?\"."]],
 practice:[
@@ -41,37 +41,37 @@ practice:[
 {{ex:two books|TUU BUKS|dos libros}}{{ex:I have two children.|ai jav TUU CHIL-dren|Tengo dos hijos}}{{ex:These people are nice.|DHIIS PII-pel er NAIS|Estas personas son amables}}
 <p><i>People</i> ya es plural: <i>people are</i>, nunca <i>peoples</i>. Para una sola, <i>person</i>.</p>
 <h3>Los adjetivos no llevan -s</h3>
-<p>En español el adjetivo concuerda: «autos rojos». En inglés el adjetivo no cambia nunca y va delante: <i>red cars</i>, no <i>reds cars</i> ni <i>cars reds</i>.</p>
-{{ex:red cars|RED KAARS|autos rojos}}{{ex:Those shoes are nice.|DHOUS SHUUS er NAIS|Esos zapatos son bonitos}}
+<p>En español el adjetivo concuerda: «carros rojos». En inglés el adjetivo no cambia nunca y va delante: <i>red cars</i>, no <i>reds cars</i> ni <i>cars reds</i>.</p>
+{{ex:red cars|RED KAARS|carros rojos}}{{ex:Those shoes are nice.|DHOUS SHUUS er NAIS|Esos zapatos son bonitos}}
 <h3>this / that (uno), these / those (varios)</h3>
 <p><i>this</i> tiene una i corta; <i>these</i>, una i larga. Si alargas la i de <i>this</i>, suena a plural. Y el verbo concuerda: <i>this is</i>, <i>these are</i>.</p>
 {{ex:This is my bag.|dhis is mai BAG|Esta es mi bolsa}}{{ex:These are my keys.|DHIIS er mai KIIS|Estas son mis llaves}}
 <h3>my, your, his, her, our, their</h3>
 <p>No cambian con el plural: <i>my keys</i>. Y <i>his / her</i> dependen del dueño, no de la cosa: «sus hermanos» (de ella) es <i>her brothers</i>.</p>
-{{ex:Is this your phone?|is dhis iur FOUN?|¿Este es tu celular?}}{{ex:Her brothers live in Lima.|jer BRA-dhers LIV in LII-me|Sus hermanos (de ella) viven en Lima}}
+{{ex:Is this your phone?|is dhis iur FOUN?|¿Este es tu celular?}}{{ex:Her brothers live in Orlando.|jer BRA-dhers LIV in or-LAN-dou|Sus hermanos (de ella) viven en Orlando}}
 <div class="tip">Errores comunes: <b>the cars reds</b> ✗ → <b>the red cars</b> ✓ · <b>the peoples</b> ✗ → <b>the people</b> ✓ · <b>This are my keys.</b> ✗ → <b>These are my keys.</b> ✓</div>`,
-check:[["I have two ___. ¿Qué va en el hueco?",["child","children","childs","a child"],1,"El plural de \"child\" es irregular: \"children\"."],["___ are my keys. ¿Qué va en el hueco?",["This","That","These","It"],2,"\"Keys\" es plural y el verbo es \"are\": \"these\"."],["¿Cómo se dice «los autos rojos»?",["the cars reds","the reds cars","the cars red","the red cars"],3,"El adjetivo va delante del sustantivo y nunca lleva -s."]],
+check:[["I have two ___. ¿Qué va en el hueco?",["child","children","childs","a child"],1,"El plural de \"child\" es irregular: \"children\"."],["___ are my keys. ¿Qué va en el hueco?",["This","That","These","It"],2,"\"Keys\" es plural y el verbo es \"are\": \"these\"."],["¿Cómo se dice «los carros rojos»?",["the cars reds","the reds cars","the cars red","the red cars"],3,"El adjetivo va delante del sustantivo y nunca lleva -s."]],
 practice:[
 ["mc","¿Cómo se dice «tres personas»?","three people","three peoples","three person","three people's","\"People\" ya es plural: nunca lleva -s."],
 ["mc","¿Cuál es el plural de \"child\"?","children","childs","childes","child","Es un plural irregular: \"child\" → \"children\"."],
 ["mc","¿Cómo se dice «Esos zapatos son bonitos»?","Those shoes are nice.","That shoes are nice.","Those shoes are nices.","Those shoes nice are.","\"Shoes\" es plural: \"those\". El adjetivo \"nice\" no lleva -s."],
-["mc","¿Cómo se dice «unos autos rojos»?","red cars","reds cars","cars reds","cars red","El adjetivo va delante del sustantivo y no lleva -s."],
+["mc","¿Cómo se dice «unos carros rojos»?","red cars","reds cars","cars reds","cars red","El adjetivo va delante del sustantivo y no lleva -s."],
 ["mc","¿Cuál es el plural de \"box\"?","boxes","boxs","boxies","box","Después de s, x, ch, sh se agrega -es."],
 ["or","Estas son mis llaves","These are my keys","is","Con \"these\", el verbo va en plural: \"are\" (concordancia)."],
 ["or","Estas personas son amables","These people are nice","is","\"People\" es plural, así que el verbo es \"are\" (concordancia)."],
-["or","Tengo dos autos rojos","I have two red cars","reds","El adjetivo va delante y no lleva -s: \"red cars\"."],
+["or","Tengo dos carros rojos","I have two red cars","reds","El adjetivo va delante y no lleva -s: \"red cars\"."],
 ["fi","I have three __.","Tengo tres hijos","children","childs|child|childrens","Plural irregular: \"child\" → \"children\"."],
 ["fi","__ is my friend.","Este es mi amigo","This","These|Those|They","Una sola persona: \"this\", con i corta."],
 ["fi","The __ are very nice.","Las personas son muy amables","people","peoples|person|people's","\"People\" ya es plural."],
 ["ty","Esta es mi bolsa","This is my bag","this · my · bag — es una sola","are","Un solo objeto: \"this is\" (concordancia)."],
 ["ty","¿Este es tu celular?","Is this your phone|Is this your cell phone","is · this · your · phone — para preguntar","are","En la pregunta, \"is\" va antes de \"this\": un solo objeto, \"is\" (concordancia)."],
-["ty","Tengo dos autos rojos","I have two red cars","two · red · car — sin -s en el adjetivo","reds","El adjetivo va delante del sustantivo y no lleva -s."]]},
+["ty","Tengo dos carros rojos","I have two red cars","two · red · car — sin -s en el adjetivo","reds","El adjetivo va delante del sustantivo y no lleva -s."]]},
 
 { id:"present", title:"Presente simple: sujeto siempre, don't y always", blurb:"En inglés no basta con «trabajo»: es I work. Para negar se usa don't, no «no».", deck:"Presentarse", body:`
 <p>El orden básico es igual que en español: <b>sujeto + verbo + objeto</b> (<i>I drink coffee</i>). Lo que cambia son tres detalles que delatan enseguida a un hispanohablante.</p>
 <h3>1. El sujeto nunca se omite</h3>
 <p>En español la terminación del verbo ya dice quién: «trabajo», «vivimos». En inglés el verbo casi no cambia, así que el pronombre es obligatorio.</p>
-{{ex:I drink coffee.|ai DRINK KO-fi|Tomo café}}{{ex:We live in Mexico City.|wi LIV in MEK-si-kou SI-ri|Vivimos en la Ciudad de México}}{{ex:They work on weekends.|dhei WERK aan WIIK-ends|Trabajan los fines de semana}}
+{{ex:I drink coffee.|ai DRINK KO-fi|Tomo café}}{{ex:We live in San Juan.|wi LIV in SAN WAAN|Vivimos en San Juan}}{{ex:They work on weekends.|dhei WERK aan WIIK-ends|Trabajan los fines de semana}}
 <h3>2. La negación es don't, no «no»</h3>
 <p>«No como carne» no es <i>I no eat meat</i>. Delante del verbo va el auxiliar <b>don't</b> (do not).</p>
 {{ex:I don't eat meat.|ai DOUNT IIT MIIT|No como carne}}{{ex:We don't live here.|wi DOUNT LIV JIR|No vivimos aquí}}
@@ -87,7 +87,7 @@ check:[["¿Cómo se dice «Trabajo en un banco»?",["Work in a bank.","Am work i
 practice:[
 ["mc","¿Cómo se dice «Estudio inglés»?","I study English.","Study English.","I am study English.","I studying English.","En inglés hay que decir quién: \"I study\"."],
 ["mc","¿Cómo se dice «No como carne»?","I don't eat meat.","I no eat meat.","I'm not eat meat.","I eat not meat.","La negación lleva el auxiliar \"don't\" antes del verbo."],
-["mc","¿Cómo se dice «Vivimos en Bogotá»?","We live in Bogotá.","Live in Bogotá.","We are live in Bogotá.","We living in Bogotá.","Sin \"we\" no hay oración: \"We live\"."],
+["mc","¿Cómo se dice «Vivimos en Bayamón»?","We live in Bayamón.","Live in Bayamón.","We are live in Bayamón.","We living in Bayamón.","Sin \"we\" no hay oración: \"We live\"."],
 ["mc","¿Cómo se dice «Normalmente me levanto a las siete»?","I usually get up at seven.","Usually I get up seven.","I get up usually at seven.","I am usually get up at seven.","\"Usually\" va justo antes del verbo."],
 ["mc","¿Cuál es correcta para «Siempre tomo té»?","I always drink tea.","I drink always tea.","Always drink tea.","I am always drink tea.","\"Always\" va antes del verbo, y \"I\" no se omite."],
 ["or","Trabajo los fines de semana","I work on weekends","works","Con \"I\", el verbo no lleva -s; la -s es solo para la tercera persona."],
@@ -96,7 +96,7 @@ practice:[
 ["fi","I __ like fish.","No me gusta el pescado","don't|do not","not|am not|no","La negación usa el auxiliar \"don't\"."],
 ["fi","I __ English every day.","Estudio inglés todos los días","study","am study|studying|studies","Con \"I\", el verbo va en su forma base."],
 ["fi","We usually __ at home.","Normalmente comemos en casa","eat","eating|are eat|eats","Después de \"usually\" va el verbo en forma base."],
-["ty","Tomo té","I drink tea","drink · tea — sin omitir el pronombre","am","En inglés siempre se dice quién: \"I drink tea\"."],
+["ty","Tomo té (por costumbre)","I drink tea","drink · tea — sin omitir el pronombre","am","En inglés siempre se dice quién: \"I drink tea\"."],
 ["ty","No como carne","I don't eat meat","don't · eat · meat — la negación","no","La negación lleva el auxiliar \"don't\", no «no»."],
 ["ty","No vivimos aquí","We don't live here","we · don't · live — con auxiliar","no","Para negar se usa el auxiliar \"don't\" antes del verbo."]]},
 
@@ -137,14 +137,14 @@ practice:[
 <div class="tbl"><table><tr><th>Sujeto</th><th>Verbo</th></tr><tr><td>I / you / we / they</td><td class="k">work</td></tr><tr><td>he / she / it / my mom</td><td class="k">works</td></tr></table></div>
 {{ex:She works at a bank.|shi WERKS et e BANK|Trabaja en un banco}}{{ex:He likes soccer.|ji LAIKS SAA-ker|Le gusta el fútbol}}{{ex:My mom cooks well.|mai MAAM KUKS WEL|Mi mamá cocina bien}}
 <h3>Verbos que cambian un poco</h3>
-{{ex:She has a car.|shi jas e KAAR|Ella tiene auto (have → has)}}{{ex:He goes to work at eight.|ji GOUS te WERK et EIT|Él entra a trabajar a las ocho (go → goes)}}{{ex:She studies English.|shi STA-dis ING-glish|Ella estudia inglés (study → studies)}}
+{{ex:She has a car.|shi jas e KAAR|Ella tiene carro (have → has)}}{{ex:He goes to work at eight.|ji GOUS te WERK et EIT|Él entra a trabajar a las ocho (go → goes)}}{{ex:She studies English.|shi STA-dis ING-glish|Ella estudia inglés (study → studies)}}
 <h3>Negativas y preguntas: does</h3>
 <p>Con <b>doesn't</b> o <b>Does</b>, la -s se va al auxiliar y el verbo principal vuelve a su forma base.</p>
 {{ex:He doesn't drink coffee.|ji DA-sent DRINK KO-fi|Él no toma café}}{{ex:Does she live here?|das shi LIV JIR?|¿Ella vive aquí?}}
 <div class="tip">Errores comunes: <b>She work here.</b> ✗ → <b>She works here.</b> ✓ · <b>My brother don't like it.</b> ✗ → <b>My brother doesn't like it.</b> ✓ · <b>Does she works?</b> ✗ → <b>Does she work?</b> ✓</div>`,
-check:[["She ___ in Lima. ¿Qué va en el hueco?",["live","lives","living","is live"],1,"Con \"she\", el verbo lleva -s: tercera persona."],["He ___ like coffee. ¿Qué va en el hueco?",["don't","isn't","doesn't","not"],2,"Con \"he\", la negativa es \"doesn't\"."],["¿Cómo se dice «Ella tiene auto»?",["She has a car.","She have a car.","She haves a car.","She is have a car."],0,"Con \"she\", \"have\" se convierte en \"has\"."]],
+check:[["She ___ in Lima. ¿Qué va en el hueco?",["live","lives","living","is live"],1,"Con \"she\", el verbo lleva -s: tercera persona."],["He ___ like coffee. ¿Qué va en el hueco?",["don't","isn't","doesn't","not"],2,"Con \"he\", la negativa es \"doesn't\"."],["¿Cómo se dice «Ella tiene carro»?",["She has a car.","She have a car.","She haves a car.","She is have a car."],0,"Con \"she\", \"have\" se convierte en \"has\"."]],
 practice:[
-["mc","My brother ___ in Bogotá. ¿Qué va en el hueco?","works","work","working","is work","\"My brother\" es una sola persona: \"works\" (tercera persona)."],
+["mc","My brother ___ in Ponce. ¿Qué va en el hueco?","works","work","working","is work","\"My brother\" es una sola persona: \"works\" (tercera persona)."],
 ["mc","¿Cómo se dice «Él no toma café»?","He doesn't drink coffee.","He don't drink coffee.","He doesn't drinks coffee.","He isn't drink coffee.","Con \"he\": \"doesn't\" + verbo en forma base."],
 ["mc","¿Cómo se dice «¿Ella vive aquí?»?","Does she live here?","Do she live here?","Does she lives here?","Is she live here?","Después de \"Does\", el verbo va sin -s."],
 ["mc","\"have\" con \"she\": ¿qué forma lleva?","has","haves","have","is have","Con \"she\", \"have\" se convierte en \"has\"."],
@@ -155,7 +155,7 @@ practice:[
 ["fi","He __ soccer.","A él le gusta el fútbol","likes","like|liking|is like","Con \"he\", \"likes\" (tercera persona)."],
 ["fi","__ she speak English?","¿Ella habla inglés?","Does","Do|Is|Are","Con \"she\", la pregunta lleva el auxiliar \"Does\"."],
 ["fi","She __ to work at eight.","Ella entra a trabajar a las ocho","goes","go|going|gos","\"Go\" se convierte en \"goes\"."],
-["ty","Él tiene auto","He has a car","has · car — con he","have","Con \"he\", \"have\" se convierte en \"has\": tercera persona."],
+["ty","Él tiene carro","He has a car","has · car — con he","have","Con \"he\", \"have\" se convierte en \"has\": tercera persona."],
 ["ty","A ella le gustan los gatos","She likes cats","likes · cat — con she, en plural","cat","Con \"she\", \"likes\" lleva -s (tercera persona); los gatos en general, en plural."],
 ["ty","Él no vive aquí","He doesn't live here","doesn't · live · here — forma base","lives","Después del auxiliar \"doesn't\", el verbo va en forma base."]]},
 
@@ -216,7 +216,7 @@ practice:[
 ["or","Carlos quiere a su hermana","Carlos loves his sister","her","«Su» = de él (Carlos): \"his\"."],
 ["fi","Call __ tonight.","Llámame esta noche","me","I|my|mine","Después del verbo va \"me\"."],
 ["fi","I __ hungry.","Tengo hambre","am","have|has|is","«Tener hambre» se dice con \"be\": \"I am hungry\"."],
-["fi","Sofía and __ husband live in Madrid.","Sofía y su esposo viven en Madrid","her","his|their|she","«Su» = de ella (Sofía): \"her\"."],
+["fi","Sofía and __ husband live in Orlando.","Sofía y su esposo viven en Orlando","her","his|their|she","«Su» = de ella (Sofía): \"her\"."],
 ["ty","¿Me puedes ayudar?","Can you help me|Could you help me","can you · help · me — con auxiliar","I","En la pregunta, el auxiliar \"can\" va antes de \"you\"; después del verbo, \"me\"."],
 ["ty","¿Tienes hambre?","Are you hungry","are · hungry — con be, no have","have","«Tener hambre» es \"be hungry\": en la pregunta, \"are\" va antes del sujeto \"you\"."],
 ["ty","Él tiene 30 años","He is 30|He is 30 years old|He is thirty|He is thirty years old","he · 30 — con be, no have","has","La edad va con \"be\": con \"he\", \"is\" (tercera persona)."]]},
@@ -348,8 +348,8 @@ practice:[
 <h3>El cuerpo: posesivo, no the</h3>
 <p>Donde el español dice «me lavé <b>el</b> pelo», el inglés usa el adjetivo posesivo: <i>my hair</i>.</p>
 {{ex:I washed my hair.|ai WAASHT mai JER|Me lavé el pelo}}{{ex:She broke her leg.|shi BROUK jer LEG|Se rompió la pierna}}{{ex:My head hurts.|mai JED JERTS|Me duele la cabeza}}
-<h3>Sin artículo: casa, trabajo, autobús</h3>
-{{ex:I go to work by bus.|ai GOU te WERK bai BAS|Voy al trabajo en autobús}}{{ex:I'm at home.|aim et JOUM|Estoy en casa}}
+<h3>Sin artículo: casa, trabajo, guagua</h3>
+{{ex:I go to work by bus.|ai GOU te WERK bai BAS|Voy al trabajo en guagua}}{{ex:I'm at home.|aim et JOUM|Estoy en casa}}
 <div class="tip">Errores comunes: <b>The life is hard.</b> ✗ → <b>Life is hard.</b> ✓ · <b>I washed the hair.</b> ✗ → <b>I washed my hair.</b> ✓ · <b>I go to the work.</b> ✗ → <b>I go to work.</b> ✓</div>`,
 check:[["I have a cat. ___ cat is white. ¿Qué va en el hueco?",["A","An","The","(sin artículo)"],2,"Ya mencionaste el gato: \"the\"."],["I go to ___ work by bus. ¿Qué va en el hueco?",["a","the","an","(sin artículo)"],3,"\"Go to work\" va sin artículo."],["¿Cómo se dice «Me lavé el pelo»?",["I washed the hair.","I washed my hair.","I washed hair.","I washed a hair."],1,"Con partes del cuerpo, el inglés usa posesivo: \"my hair\"."]],
 practice:[
@@ -370,7 +370,7 @@ practice:[
 
 { id:"adjectives", title:"Adjetivos y comparaciones: big houses, cheaper, the best", blurb:"El adjetivo va antes del sustantivo y nunca cambia. Para comparar, -er o more, y than.", deck:"Compras y pagos", body:`
 <p>En español el adjetivo suele ir <b>después</b> y concuerda: «unas casas grandes». En inglés va <b>antes</b> del sustantivo y <b>nunca cambia</b>: <i>big houses</i>.</p>
-{{ex:a big bag|e BIG BAG|una bolsa grande}}{{ex:red cars|RED KAARS|autos rojos}}{{ex:This bag is big.|dhis BAG is BIG|Esta bolsa es grande}}{{ex:It's too small.|its TUU SMOL|Es demasiado pequeño}}
+{{ex:a big bag|e BIG BAG|una bolsa grande}}{{ex:red cars|RED KAARS|carros rojos}}{{ex:This bag is big.|dhis BAG is BIG|Esta bolsa es grande}}{{ex:It's too small.|its TUU SMOL|Es demasiado pequeño}}
 <h3>Comparar: -er o more, y than</h3>
 <p>Palabras cortas: <b>-er</b>. Palabras largas: <b>more</b>. Nunca las dos juntas (<i>more cheaper</i>). Y el «que» de una comparación es <b>than</b>, no <i>that</i>.</p>
 <div class="tbl"><table><tr><th>Normal</th><th>Más…</th><th>El más…</th></tr><tr><td class="k">cheap</td><td class="k">cheaper</td><td class="k">the cheapest</td></tr><tr><td class="k">big</td><td class="k">bigger</td><td class="k">the biggest</td></tr><tr><td class="k">expensive</td><td class="k">more expensive</td><td class="k">the most expensive</td></tr><tr><td class="k">good</td><td class="k">better</td><td class="k">the best</td></tr><tr><td class="k">bad</td><td class="k">worse</td><td class="k">the worst</td></tr></table></div>
@@ -393,11 +393,11 @@ practice:[
 ["fi","It's the __ expensive one.","Es el más caro","most","more|much|very","Palabra larga: el superlativo es \"the most\"."],
 ["ty","¿Tienes una talla más pequeña?","Do you have a smaller size","do · smaller · size — con auxiliar","Are","La pregunta con \"have\" lleva el auxiliar \"Do\"."],
 ["ty","Este es el mejor","This is the best|This one is the best","this · the best — con the","a","Superlativo: \"the best\"; con \"this\", el verbo es \"is\" (concordancia)."],
-["ty","Tengo un auto rojo","I have a red car","red · car — el adjetivo va antes","reds","El adjetivo va antes del sustantivo: \"a red car\"."]]},
+["ty","Tengo un carro rojo","I have a red car","red · car — el adjetivo va antes","reds","El adjetivo va antes del sustantivo: \"a red car\"."]]},
 
 { id:"going-to", title:"Planes: be going to", blurb:"Funciona como «ir a» + infinitivo. Solo no olvides be: I'm, she's, we're.", deck:"Charla casual", body:`
 <p>Buena noticia: <i>going to</i> funciona casi igual que «ir a» + infinitivo. «Voy a viajar» = <i>I'm going to travel</i>. Solo recuerda que <b>be no se puede omitir</b> y cambia con el sujeto (am / is / are).</p>
-{{ex:I'm going to visit Lima.|aim GOU-ing te VI-sit LII-me|Voy a visitar Lima}}{{ex:She's going to buy a car.|shis GOU-ing te BAI e KAAR|Va a comprar un auto}}{{ex:We're going to have dinner.|wir GOU-ing te jav DI-ner|Vamos a cenar}}
+{{ex:I'm going to visit Lima.|aim GOU-ing te VI-sit LII-me|Voy a visitar Lima}}{{ex:She's going to buy a car.|shis GOU-ing te BAI e KAAR|Va a comprar un carro}}{{ex:We're going to have dinner.|wir GOU-ing te jav DI-ner|Vamos a cenar}}
 <h3>Negativas y preguntas</h3>
 <p>Como con cualquier <i>be</i>: <i>not</i> después, y para preguntar, <i>be</i> va antes del sujeto. Nada de <i>do</i>.</p>
 {{ex:I'm not going to go.|aim NAAT GOU-ing te GOU|No voy a ir}}{{ex:Are you going to come?|er iu GOU-ing te KAM?|¿Vas a venir?}}{{ex:What are you going to do this weekend?|WAT er iu GOU-ing te DUU dhis WIIK-end?|¿Qué vas a hacer este fin de semana?}}
@@ -409,7 +409,7 @@ practice:[
 <div class="tip">Al hablar rápido, <i>going to</i> suena <b>gonna</b>. Y no olvides <i>be</i>: <b>I going to go.</b> ✗ → <b>I'm going to go.</b> ✓</div>`,
 check:[["¿Cómo se dice «Mañana voy a ver a mi amigo»?",["I going to meet my friend tomorrow.","I'm going to meet my friend tomorrow.","I'm going meet my friend tomorrow.","I'm go to meet my friend tomorrow."],1,"\"Be\" + \"going to\" + verbo en forma base."],["She ___ going to study. ¿Qué va en el hueco?",["am","are","is","be"],2,"Con \"she\", \"is\"."],["¿Cómo se dice «¿Qué vas a hacer este fin de semana?»?",["What are you going to do this weekend?","What do you going to do this weekend?","What you are going to do this weekend?","What are you going do this weekend?"],0,"Palabra interrogativa + \"be\" + sujeto + \"going to\"."]],
 practice:[
-["mc","¿Cómo se dice «Voy a ir a Lima»?","I'm going to go to Lima.","I going to go to Lima.","I'm going go to Lima.","I'm go to Lima going.","No olvides \"am\": \"be\" + \"going to\" + verbo."],
+["mc","¿Cómo se dice «Voy a ir a Nueva York»?","I'm going to go to New York.","I going to go to New York.","I'm going go to New York.","I'm go to New York going.","No olvides \"am\": \"be\" + \"going to\" + verbo."],
 ["mc","They ___ going to come. ¿Qué va en el hueco?","are","is","am","be","Con \"they\", \"are\"."],
 ["mc","¿Cómo se dice «Va a llover»?","It's going to rain.","It going to rain.","It's going rain.","It's going to rains.","Después de \"going to\" va la forma base, y la oración necesita \"it\"."],
 ["mc","¿Cómo se dice «No voy a ir»?","I'm not going to go.","I don't going to go.","I'm not going go.","I'm going not to go.","La negativa pone \"not\" después de \"be\", sin \"don't\"."],
@@ -461,18 +461,18 @@ practice:[
 {{ex:I'm embarrassed.|aim im-BE-rest|Me da vergüenza}}{{ex:She's pregnant.|shis PREG-nent|Está embarazada}}{{ex:I'm constipated.|aim KAAN-sti-pei-rid|Estoy estreñido}}
 <h3>Tiempo y opinión</h3>
 <p><i>actually</i> es «en realidad»; «actualmente» es <i>currently</i>. <i>eventually</i> es «al final, con el tiempo», no «eventualmente». <i>realize</i> es «darse cuenta», no «realizar».</p>
-{{ex:Actually, I'm from Lima.|AK-chu-e-li aim frem LII-me|En realidad, soy de Lima}}{{ex:Currently, I work at home.|KER-ent-li ai WERK et JOUM|Actualmente trabajo en casa}}{{ex:Eventually, she found a job.|i-VEN-chu-e-li shi FAUND e DYAAB|Al final encontró trabajo}}{{ex:I didn't realize.|ai DI-dent RII-e-lais|No me di cuenta}}
+{{ex:Actually, I'm from Puerto Rico.|AK-chu-e-li aim frem PWER-te RII-kou|En realidad, soy de Puerto Rico}}{{ex:Currently, I work at home.|KER-ent-li ai WERK et JOUM|Actualmente trabajo en casa}}{{ex:Eventually, she found a job.|i-VEN-chu-e-li shi FAUND e DYAAB|Al final encontró trabajo}}{{ex:I didn't realize.|ai DI-dent RII-e-lais|No me di cuenta}}
 <h3>Lugares y cosas</h3>
 <p><i>library</i> es «biblioteca»; «librería» es <i>bookstore</i>. <i>exit</i> es «salida» y <i>success</i>, «éxito». <i>carpet</i> es «alfombra»; «carpeta» es <i>folder</i>.</p>
 {{ex:The library is free.|dhe LAI-bre-ri is FRII|La biblioteca es gratis}}{{ex:Is there a bookstore near here?|is dher e BUK-stor NIR JIR?|¿Hay una librería cerca de aquí?}}{{ex:Where is the exit?|WER is dhi EG-sit?|¿Dónde está la salida?}}{{ex:The party was a success.|dhe PAAR-ti wes e sek-SES|La fiesta fue un éxito}}{{ex:The carpet is red.|dhe KAAR-pet is RED|La alfombra es roja}}
 <h3>Personas</h3>
-<p><i>sensible</i> es «sensato»; «sensible» es <i>sensitive</i>. «Asistir a» clase es <i>attend</i>; <i>assist</i> es «ayudar». <i>pretend</i> es «fingir», no «pretender». Y en los estudios: <i>college</i> es «universidad», no «colegio» (eso es <i>school</i>), y <i>career</i> es la trayectoria profesional, no la «carrera» que estudias (eso es tu <i>major</i> o <i>degree</i>).</p>
+<p><i>sensible</i> es «sensato»; «sensible» es <i>sensitive</i>. «Asistir a» clase es <i>attend</i>; <i>assist</i> es «ayudar». En Puerto Rico se oye «aplicar para un trabajo»; en inglés es <i>apply for a job</i> (lo verás en la próxima lección). <i>pretend</i> es «fingir», no «pretender». Y en los estudios: <i>college</i> es «universidad», no «colegio» (eso es <i>school</i>), y <i>career</i> es la trayectoria profesional, no la «carrera» que estudias (eso es tu <i>major</i> o <i>degree</i>).</p>
 {{ex:He's very sensible.|jis VE-ri SEN-si-bel|Es muy sensato}}{{ex:She's very sensitive.|shis VE-ri SEN-si-tiv|Es muy sensible}}{{ex:I attend class every day.|ai e-TEND KLAS EV-ri DEI|Asisto a clase todos los días}}{{ex:He's pretending to sleep.|jis pri-TEN-ding te SLIIP|Está fingiendo que duerme}}
 <h3>Los cognados que sí te ayudan</h3>
 <p>Estas terminaciones casi siempre funcionan. Solo cuida la sílaba tónica: en inglés suele caer en otro lugar (<i>comfortable</i> se acentúa al principio, no en «ta»).</p>
 <div class="tbl"><table><tr><th>Inglés</th><th>Español</th><th>Ejemplo</th></tr><tr><td class="k">-tion</td><td>-ción</td><td class="k">information</td></tr><tr><td class="k">-ty</td><td>-dad</td><td class="k">city</td></tr><tr><td class="k">-ous</td><td>-oso</td><td class="k">famous</td></tr><tr><td class="k">-ly</td><td>-mente</td><td class="k">really</td></tr></table></div>
 <div class="tip">Para recordar: <b>actually</b> = en realidad · <b>embarrassed</b> = avergonzado · <b>library</b> = biblioteca · <b>assist</b> = ayudar (asistir a = <b>attend</b>) · <b>success</b> = éxito (salida = <b>exit</b>)</div>`,
-check:[["¿Qué significa \"I'm embarrassed\"?",["Estoy embarazada","Me da vergüenza","Estoy enojado","Estoy cansado"],1,"\"Embarrassed\" = avergonzado; «embarazada» es \"pregnant\"."],["¿Cómo se dice «Actualmente vivo en Madrid»?",["Actually, I live in Madrid.","Actual, I live in Madrid.","Currently, I live in Madrid.","In actual, I live in Madrid."],2,"«Actualmente» es \"currently\"; \"actually\" significa «en realidad»."],["«La librería abre a las nueve» en inglés es:",["The bookstore opens at nine.","The library opens at nine.","The bookcase opens at nine.","The librarian opens at nine."],0,"«Librería» es \"bookstore\"; \"library\" es «biblioteca»."]],
+check:[["¿Qué significa \"I'm embarrassed\"?",["Estoy embarazada","Me da vergüenza","Estoy enojado","Estoy cansado"],1,"\"Embarrassed\" = avergonzado; «embarazada» es \"pregnant\"."],["¿Cómo se dice «Actualmente vivo en Orlando»?",["Actually, I live in Orlando.","Actual, I live in Orlando.","Currently, I live in Orlando.","In actual, I live in Orlando."],2,"«Actualmente» es \"currently\"; \"actually\" significa «en realidad»."],["«La librería abre a las nueve» en inglés es:",["The bookstore opens at nine.","The library opens at nine.","The bookcase opens at nine.","The librarian opens at nine."],0,"«Librería» es \"bookstore\"; \"library\" es «biblioteca»."]],
 practice:[
 ["mc","¿Qué significa \"actually\"?","en realidad","actualmente","activamente","a veces","\"Actually\" = en realidad; «actualmente» es \"currently\"."],
 ["mc","¿Cómo se dice «Está embarazada»?","She's pregnant.","She's embarrassed.","She's embarrassing.","She's constipated.","«Embarazada» es \"pregnant\"; \"embarrassed\" significa «avergonzado»."],
@@ -482,10 +482,41 @@ practice:[
 ["or","¿Dónde está la salida?","Where is the exit","success","En la pregunta, \"is\" va antes del sujeto (\"the exit\"). «Salida» es \"exit\"; «éxito» es \"success\"."],
 ["or","Ella trabaja en la biblioteca","She works at the library","work","Con \"she\", \"works\" lleva -s (tercera persona). Biblioteca = \"library\"."],
 ["or","¿Te diste cuenta?","Did you realize","realized","Pregunta en pasado: auxiliar \"Did\" + forma base \"realize\" (darse cuenta)."],
-["fi","__, I'm from Mexico.","En realidad, soy de México","Actually","Currently|Actual|Now","«En realidad» es \"actually\"."],
+["fi","__, I'm from Puerto Rico.","En realidad, soy de Puerto Rico","Actually","Currently|Actual|Now","«En realidad» es \"actually\"."],
 ["fi","I bought it at the __.","Lo compré en la librería","bookstore","library|bookcase|book","«Librería» es \"bookstore\"; \"library\" es «biblioteca»."],
 ["fi","The __ in my room is blue.","La alfombra de mi cuarto es azul","carpet|rug","folder|card|cover","\"Carpet\" = alfombra; «carpeta» es \"folder\"."],
 ["ty","Me da vergüenza","I'm embarrassed|I feel embarrassed","I'm · embarrassed — no es embarazada","pregnant","«Me da vergüenza» es \"I'm embarrassed\": nada que ver con «embarazada»."],
 ["ty","Él no se dio cuenta","He didn't realize|He didn't notice","didn't · realize — forma base","realized","Negativa en pasado con el auxiliar \"didn't\"; \"realize\" = darse cuenta."],
 ["ty","Ella asiste a clase","She attends class|She attends classes|She attends her classes|She goes to class|She goes to classes","attend · class — con she","assists","Con \"she\", \"attends\" lleva -s (tercera persona); «asistir a» es \"attend\"."]]},
+
+{ id:"spanglish", title:"Del spanglish al inglés estándar", blurb:"Parquear, janguear, «Dame un break»: se oyen a diario en la isla. Aquí ves la forma estándar en inglés para la escuela, el trabajo y lo que escribes.", deck:"Falsos amigos y spanglish", body:`
+<p>En Puerto Rico y en la diáspora, el spanglish es parte normal de la vida bilingüe: muchas palabras del inglés se adaptaron al español y se usan todos los días. Con amigos funcionan perfectamente. Pero en la escuela, en el trabajo y por escrito se usa el <b>inglés estándar</b>, y a veces es distinto de lo que esperas.</p>
+<h3>1. Palabras que vinieron del inglés</h3>
+<p>Se oye <i>parquear</i>, <i>janguear</i>, <i>chequear</i>, <i>textear</i> y <i>printear</i>. En inglés son <i>park</i>, <i>hang out (with)</i>, <i>check</i>, <i>text</i> y <i>print</i>. Son verbos normales: con <i>he</i> o <i>she</i> llevan -s (<i>she hangs out</i>), y en preguntas usan el auxiliar (<i>Did you park the car?</i>).</p>
+{{ex:We can park here.|wi ken PAARK JIR|Podemos estacionarnos aquí}}{{ex:I hang out with my friends.|ai JANG AUT widh mai FRENDS|Salgo con mis amigos}}{{ex:Let me check.|LET mi CHEK|Déjame ver}}
+<h3>2. Las mismas palabras, otro significado</h3>
+<p>«Dame un break» pide un momento de descanso. En inglés eso es <i>Can I take a break?</i> o <i>Give me a minute</i>. En cambio, <i>Give me a break!</i> significa «¡Ya, no exageres!». Y «está full» suele ser <i>It's packed</i> (un lugar lleno de gente) o <i>It's sold out</i> (ya no quedan boletos).</p>
+{{ex:Give me a minute.|GUIV mi e MI-nit|Dame un minuto}}{{ex:It's packed today.|its PAKT te-DEI|Hoy está lleno de gente}}
+<h3>3. Trampas con preposiciones</h3>
+<p>Se oye «aplicar para un trabajo»; en inglés es <i>apply for a job</i>. «Llamar pa'trás» es <i>call someone back</i>. Con <i>text</i>, la persona va directo, sin <i>to</i>: <i>text me</i>. «Voy de shopping» es <i>I'm going shopping</i>, también sin <i>to</i>. Y «tengo un meeting» es <i>I have a meeting</i>.</p>
+{{ex:I applied for the job.|ai e-PLAID fer dhe DYAAB|Solicité el trabajo}}{{ex:Can you call me back?|ken iu KOL mi BAK?|¿Me puedes devolver la llamada?}}{{ex:Text me when you get home.|TEKST mi wen iu GUET JOUM|Escríbeme cuando llegues a casa}}{{ex:She's going shopping.|shis GOU-ing SHAA-ping|Ella va de compras}}
+<h3>4. ¿Cuándo usar cada forma?</h3>
+<p>Mezclar los dos idiomas con amigos y familia es normal. En una entrevista de trabajo, un correo electrónico o un examen, usa el inglés estándar. Y lo que aprendiste de oído, escríbelo completo: <i>going to</i>, no <i>gonna</i>; <i>want to</i>, no <i>wanna</i>; <i>could have</i>, no <i>could of</i>.</p>
+<div class="tip">Errores comunes: <b>I'm going to shopping.</b> ✗ → <b>I'm going shopping.</b> ✓ · <b>I'll text to you.</b> ✗ → <b>I'll text you.</b> ✓ · <b>I'm applying a job.</b> ✗ → <b>I'm applying for a job.</b> ✓</div>`,
+check:[["¿Qué significa \"Give me a break!\"?",["Dame un descanso","¡Ya, no exageres!","Dame un regalo","Dame más tiempo"],1,"\"Give me a break!\" expresa fastidio; para pedir un descanso se dice \"Can I take a break?\"."],["Quieres solicitar un empleo. ¿Qué oración es correcta?",["I want to apply a job.","I want to apply to job.","I want to aplicate for a job.","I want to apply for a job."],3,"En inglés es \"apply for\": \"apply for a job\"."],["¿Cómo se dice «Te mando un texto esta noche»?",["I'll text you tonight.","I'll text to you tonight.","I'll text for you tonight.","I'll texting you tonight."],0,"Con \"text\", la persona va directo, sin \"to\": \"text you\"."]],
+practice:[
+["mc","En el trabajo quieres pedir un descanso. ¿Qué dices?","Can I take a break?","Can you give me a break?","Can I take a brake?","Can I do a break?","Se dice \"take a break\"; \"Give me a break!\" significa «¡Ya, no exageres!»."],
+["mc","¿Cómo se dice «Estoy solicitando un trabajo»?","I'm applying for a job.","I'm applying a job.","I'm aplicating for a job.","I'm applying for job.","Se oye «aplicar para»; en inglés es \"apply for\" + \"a job\"."],
+["mc","¿Cómo se dice «La guagua está llena de gente»?","The bus is packed.","The bus is full of people's.","The bus is fulled.","The bus is very full people.","Un lugar lleno de gente está \"packed\"."],
+["mc","¿Cómo se dice «Te mando un texto más tarde»?","I'll text you later.","I'll text to you later.","I'll texting you later.","I'll send you a text to you later.","Con \"text\", la persona va directo, sin \"to\": \"text you\"."],
+["mc","¿Qué significa \"Give me a break!\"?","¡Ya, no exageres!","Dame un descanso","Dame un regalo","Dame una pausa de café","Expresa fastidio; para pedir un descanso se dice \"Can I take a break?\"."],
+["or","Ella janguea con sus amigos","She hangs out with her friends","hang","Con \"she\", el verbo lleva -s: \"hangs out\" (tercera persona)."],
+["or","¿Parqueaste el carro?","Did you park the car","parked","Pregunta en pasado: el auxiliar \"Did\" + la forma base \"park\"."],
+["or","Él va de shopping","He is going shopping","to are","\"Go shopping\" va sin \"to\"; con \"he\", el auxiliar es \"is\" (concordancia)."],
+["fi","Where can I __ the car?","¿Dónde puedo estacionar el carro?","park","parking|parked|to park","Después de \"can\" va la forma base: \"park\" (en Puerto Rico, «parquear»)."],
+["fi","Call me __ when you can.","Llámame cuando puedas (devuélveme la llamada)","back","again|return|behind","«Llamar pa'trás» es \"call back\": \"call me back\"."],
+["fi","She applied __ the job.","Ella solicitó el trabajo","for","on|by|of","Se dice \"apply for\": \"applied for the job\"."],
+["ty","Ella está en una reunión ahora mismo","She's in a meeting right now|She's in a meeting","she · in a meeting · right now — con be","are","Con \"she\", el verbo es \"is\" (concordancia): \"She's in a meeting\"."],
+["ty","¿Dónde puedo estacionar?","Where can I park|Where can I park the car","where · can · park — con el auxiliar","parking","En la pregunta, el auxiliar \"can\" va antes de \"I\"."],
+["ty","Él siempre janguea con sus panas","He always hangs out with his friends|He always hangs out with his buddies","always · hangs out · friends — con he","hang","Con \"he\", el verbo lleva -s: \"hangs out\" (tercera persona)."]]},
 ];

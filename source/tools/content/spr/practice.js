@@ -36,7 +36,7 @@ module.exports = {
     { t: "mc", q: "¿Qué palabra significa «tonto»?", o: ["fool", "full", "fall", "fill"], why: "\"Fool\" lleva la u larga. \"Full\", con la u corta, significa «lleno»." },
     { t: "mc", q: "¿Qué palabra significa «broma»?", o: ["joke", "yolk", "choke", "coke"], why: "\"Joke\" empieza con el sonido de la j inglesa, como en \"job\". \"Yolk\", con el sonido de la i, significa «yema»." },
 
-    { t: "order", p: "Mi escuela está en Madrid", a: ["My", "school", "is", "in", "Madrid"], x: ["are", "eschool"], why: "\"School\" va sin «e» delante. Con un solo sujeto (\"my school\"), el verbo es \"is\": concordancia." },
+    { t: "order", p: "Mi escuela está en Mayagüez", a: ["My", "school", "is", "in", "Mayagüez"], x: ["are", "eschool"], why: "\"School\" va sin «e» delante. Con un solo sujeto (\"my school\"), el verbo es \"is\": concordancia." },
     { t: "order", p: "¿La sopa está muy caliente?", a: ["Is", "the", "soup", "very", "hot"], x: ["berry"], why: "En la pregunta, \"is\" va antes del sujeto (\"the soup\"). \"Very\" se escribe con v." },
     { t: "order", p: "Somos de España", a: ["We", "are", "from", "Spain"], x: ["is", "Espain"], why: "\"Spain\" empieza con s, sin «e» delante. Con \"we\", be es \"are\": concordancia." },
 
@@ -76,11 +76,11 @@ module.exports = {
     { t: "mc", q: "Elige la pregunta correcta: «¿Él habla inglés?»", o: ["Does he speak English?", "Do he speak English?", "Is he speak English?", "Does he speaks English?"], why: "Con \"he\" va \"does\", y después el verbo sin -s." },
     { t: "mc", q: "¿Cómo se dice «Tienes razón»?", o: ["You're right.", "You have reason.", "You have right.", "You're reason."], why: "«Tener razón» se dice con be: \"you're right\"." },
 
-    { t: "order", p: "Mi hermano trabaja en Lima", a: ["My", "brother", "works", "in", "Lima"], x: ["work", "is"], why: "Con un solo sujeto (\"my brother\" = \"he\"), el verbo lleva -s: tercera persona. Sin \"is\"." },
+    { t: "order", p: "Mi hermano trabaja en Ponce", a: ["My", "brother", "works", "in", "Ponce"], x: ["work", "is"], why: "Con un solo sujeto (\"my brother\" = \"he\"), el verbo lleva -s: tercera persona. Sin \"is\"." },
     { t: "order", p: "¿Tienes frío?", a: ["Are", "you", "cold"], x: ["Do", "have"], why: "Con be no se usa \"do\": \"are\" va antes del sujeto. Y «tener frío» se dice con be: \"cold\"." },
     { t: "order", p: "Ella tiene dos perros", a: ["She", "has", "two", "dogs"], x: ["have", "is"], why: "Con \"she\", \"have\" cambia a \"has\": tercera persona." },
 
-    { t: "fill", q: "My brother __ in Lima.", p: "Mi hermano vive en Lima", a: ["lives"], o: ["live", "is live", "living"], why: "Con \"he\" (\"my brother\"), el verbo lleva -s: \"lives\"." },
+    { t: "fill", q: "My brother __ in Ponce.", p: "Mi hermano vive en Ponce", a: ["lives"], o: ["live", "is live", "living"], why: "Con \"he\" (\"my brother\"), el verbo lleva -s: \"lives\"." },
     { t: "fill", q: "__ you hungry?", p: "¿Tienes hambre?", a: ["Are"], o: ["Do", "Is", "Have"], why: "«Tener hambre» se dice con be, y con \"you\" es \"are\"." },
     { t: "fill", q: "We __ cold.", p: "Tenemos frío", a: ["are"], o: ["have", "is", "do"], why: "«Tener frío» va con be, y con \"we\" es \"are\"." },
 
@@ -132,9 +132,9 @@ module.exports = {
   prep: [
     { t: "mc", q: "¿Cómo se dice «en mayo»?", o: ["in May", "on May", "at May", "to May"], why: "Con meses va \"in\"." },
     { t: "mc", q: "¿Cómo se dice «el 3 de mayo»?", o: ["on May 3rd", "in May 3rd", "at May 3rd", "the May 3rd"], why: "Con fechas va \"on\", sin artículo, aunque en español digas «el 3 de mayo»." },
-    { t: "mc", q: "¿Cómo se dice «Estoy en el autobús»?", o: ["I'm on the bus.", "I'm in bus.", "I'm at the bus.", "I'm on bus."], why: "Con el transporte público (\"bus\", \"train\", \"plane\") va \"on\"." },
+    { t: "mc", q: "¿Cómo se dice «Estoy en la guagua»?", o: ["I'm on the bus.", "I'm in bus.", "I'm at the bus.", "I'm on bus."], why: "Con el transporte público (\"bus\", \"train\", \"plane\") va \"on\"." },
     { t: "mc", q: "¿Cómo se dice «en la noche / por la noche»?", o: ["at night", "on night", "in night", "at the night"], why: "\"Night\" es una excepción: \"at night\", sin artículo." },
-    { t: "mc", q: "¿Cuál es la oración correcta para «Vivo en Lima»?", o: ["I live in Lima.", "I live at Lima.", "I live on Lima.", "I live in the Lima."], why: "Con ciudades y países va \"in\", sin artículo." },
+    { t: "mc", q: "¿Cuál es la oración correcta para «Vivo en San Juan»?", o: ["I live in San Juan.", "I live at San Juan.", "I live on San Juan.", "I live in the San Juan."], why: "Con ciudades y países va \"in\", sin artículo." },
 
     { t: "order", p: "Mi celular está en la mesa", a: ["My", "phone", "is", "on", "the", "table"], x: ["in", "are"], why: "Sobre una superficie va \"on\". Un solo sujeto (\"my phone\") lleva \"is\": concordancia." },
     { t: "order", p: "¿Trabajas los sábados?", a: ["Do", "you", "work", "on", "Saturdays"], x: ["in"], why: "La pregunta lleva el auxiliar \"do\" antes del sujeto. Con días va \"on\": \"on Saturdays\"." },
@@ -166,13 +166,13 @@ module.exports = {
 
     { t: "type", p: "¿Qué tal estuvo tu fin de semana?", a: ["How was your weekend"], hint: "how · weekend — en pasado", x: ["is"], why: "En la pregunta, \"was\" va antes del sujeto (\"your weekend\"): \"How was your weekend?\"" },
     { t: "type", p: "¿Vives por aquí?", a: ["Do you live around here", "Do you live near here", "Do you live nearby"], hint: "live · around here — pregunta con \"do\"", x: ["are"], why: "En presente, la pregunta lleva el auxiliar \"do\" antes del sujeto: \"Do you live…?\"" },
-    { t: "type", p: "¡Qué buen clima hace hoy!", a: ["Nice weather today huh", "Nice weather today", "It's nice weather today", "It is nice weather today", "The weather is nice today", "The weather's nice today"], hint: "nice · weather · today — ¿lleva artículo?", x: ["a"], why: "\"Weather\" es incontable: no lleva \"a\" (no se dice \"a nice weather\")." }
+    { t: "type", p: "¡Qué buen clima hace hoy!", a: ["Nice weather today huh", "Nice weather today", "It's nice weather today", "It is nice weather today", "The weather is nice today", "The weather's nice today", "What nice weather today"], hint: "nice · weather · today — ¿lleva artículo?", x: ["a"], why: "\"Weather\" es incontable: no lleva \"a\" (no se dice \"a nice weather\")." }
   ],
 
   phrasal: [
     { t: "mc", q: "¿Cómo se dice «Enciéndelo»?", o: ["Turn it on.", "Turn on it.", "Turn it of.", "On turn it."], why: "El pronombre \"it\" va en medio del phrasal verb: \"turn it on\"." },
     { t: "mc", q: "¿Cómo se dice «Se nos acabó la leche»?", o: ["We ran out of milk.", "We ran out milk.", "We ran of out milk.", "We ran off of milk."], why: "\"Run out of\" = quedarse sin algo. No olvides el \"of\"." },
-    { t: "mc", q: "¿Cómo se dice «Crecí en Santiago»?", o: ["I grew up in Santiago.", "I grew in Santiago up.", "I growed up in Santiago.", "I grew out in Santiago."], why: "\"Grow up\" = crecer (una persona). El pasado es \"grew up\"." },
+    { t: "mc", q: "¿Cómo se dice «Crecí en Bayamón»?", o: ["I grew up in Bayamón.", "I grew in Bayamón up.", "I growed up in Bayamón.", "I grew out in Bayamón."], why: "\"Grow up\" = crecer (una persona). El pasado es \"grew up\"." },
     { t: "mc", q: "¿Cómo se dice «¿Puedes cuidar a mi gato?»?", o: ["Can you look after my cat?", "Can you look my cat after?", "Can you look for my cat?", "Can you look out my cat?"], why: "\"Look after\" = cuidar, y no se separa. \"Look for\" significa «buscar»." },
     { t: "mc", q: "¿Cómo se dice «Sigue, te escucho»?", o: ["Go on, I'm listening.", "Go out, I'm listening.", "Go in, I'm listening.", "Go up, I'm listening."], why: "\"Go on\" = seguir. En una conversación suena más natural que \"continue\", que es más formal." },
 
@@ -185,7 +185,7 @@ module.exports = {
     { t: "fill", q: "We ran out of __.", p: "Se nos acabaron los huevos", a: ["eggs"], o: ["egg", "an egg", "the egg"], why: "Con algo contable como los huevos, va el plural: \"eggs\"." },
 
     { t: "type", p: "Apágalo, por favor", a: ["Turn it off", "Turn it off please", "Please turn it off", "Can you turn it off", "Can you turn it off please", "Could you turn it off", "Could you turn it off please"], hint: "turn · off — el pronombre va en medio", x: ["on"], why: "El pronombre \"it\" va entre \"turn\" y \"off\"." },
-    { t: "type", p: "Ella cuida a su madre", a: ["She looks after her mother", "She looks after her mom", "She takes care of her mother", "She takes care of her mom"], hint: "look after · mother — con \"she\"", x: ["look"], why: "Con \"she\", el verbo lleva -s: \"looks after\". Tercera persona." },
+    { t: "type", p: "Ella cuida a su madre (presente simple)", a: ["She looks after her mother", "She looks after her mom", "She takes care of her mother", "She takes care of her mom"], hint: "look after · mother — con \"she\"", x: ["look"], why: "Con \"she\", el verbo lleva -s: \"looks after\". Tercera persona." },
     { t: "type", p: "¿Te llevas bien con tu jefe?", a: ["Do you get along with your boss", "Do you get on with your boss"], hint: "get along with · boss — pregunta con \"do\"", x: ["are"], why: "La pregunta en presente lleva el auxiliar \"do\" antes del sujeto." }
   ],
 
@@ -224,7 +224,7 @@ module.exports = {
     { t: "fill", q: "I'm writing __ ask about the schedule.", p: "Le escribo para preguntar por el horario", a: ["to"], o: ["for", "about", "at"], why: "Para el propósito: \"I'm writing to\" + verbo." },
     { t: "fill", q: "Thanks for all your hard __!", p: "¡Gracias por todo su esfuerzo!", a: ["work"], o: ["works", "working", "job"], why: "\"Work\" (trabajo, esfuerzo) es incontable: no lleva -s." },
 
-    { t: "type", p: "Mañana tengo el día libre", a: ["I'm off tomorrow", "I am off tomorrow", "I'm off work tomorrow", "I am off work tomorrow", "I have tomorrow off", "I'm taking tomorrow off", "I am taking tomorrow off", "I have a day off tomorrow"], hint: "off · tomorrow — con be", x: ["have"], why: "«Tener el día libre» se dice con \"be off\"." },
+    { t: "type", p: "Mañana tengo el día libre", a: ["I'm off tomorrow", "I am off tomorrow", "I'm off work tomorrow", "I am off work tomorrow", "I have tomorrow off", "I'm taking tomorrow off", "I am taking tomorrow off", "I have a day off tomorrow", "I have the day off tomorrow"], hint: "off · tomorrow — con be", x: ["have"], why: "«Tener el día libre» se dice con \"be off\"." },
     { t: "type", p: "¿Cuándo es la fecha límite?", a: ["When is the deadline", "When's the deadline", "What's the deadline", "What is the deadline"], hint: "when · deadline — pregunta con \"is\"", x: ["are"], why: "En la pregunta, \"is\" va antes del sujeto (\"the deadline\")." },
     { t: "type", p: "Ella está de vacaciones esta semana", a: ["She is on vacation this week", "She's on vacation this week"], hint: "vacation · this week — con \"on\"", x: ["are"], why: "Con \"she\", be es \"is\": tercera persona. «De vacaciones» = \"on vacation\"." }
   ],

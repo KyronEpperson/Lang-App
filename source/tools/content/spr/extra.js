@@ -7,7 +7,7 @@ Nice to meet you. | Hi, I'm Ana. Nice to meet you. | Nice to meet you, too. I'm 
 Long time no see! | Long time no see! How have you been? | I've been great! You look good! | ¡Cuánto tiempo sin verte! ¿Cómo has estado? / ¡Muy bien! ¡Te ves genial!
 Have a good one! | Here's your receipt. Have a good one! | Thanks, you too! | Aquí tiene su recibo. ¡Que le vaya bien! / ¡Gracias, igualmente!
 Good night. | I'm going to bed. Good night! | Good night! Sleep well. | Me voy a dormir. ¡Buenas noches! / ¡Buenas noches! Que descanses.
-Where are you from? | So, where are you from? | I'm from Mexico. Monterrey, actually. | Y bien, ¿de dónde eres? / De México. De Monterrey, para ser exactos.
+Where are you from? | So, where are you from? | I'm from Puerto Rico. Ponce, actually. | Y bien, ¿de dónde eres? / De Puerto Rico. De Ponce, para ser exactos.
 What do you do? | What do you do? | I'm a designer. I work at a small startup. | ¿A qué te dedicas? / Soy diseñadora. Trabajo en una pequeña startup.
 What should I call you? | What should I call you? | Just call me Jay. Everyone does. | ¿Cómo prefieres que te llame? / Dime Jay, nada más. Todos me dicen así.
 I'm really into hiking. | What do you do on weekends? | I'm really into hiking. I go almost every Saturday. | ¿Qué haces los fines de semana? / Me encanta el senderismo. Voy casi todos los sábados.
@@ -26,7 +26,7 @@ Can you write it down? | The address is 1428 Elm Street. | Sorry, can you write 
 No worries. | Sorry I'm a little late! | No worries. I just got here, too. | ¡Perdón por llegar un poco tarde! / No te preocupes. Yo también acabo de llegar.
 How do I get to the subway station? | How do I get to the subway station? | Go straight two blocks and turn right. You can't miss it. | ¿Cómo llego a la estación de metro? / Sigue derecho dos cuadras y gira a la derecha. No tiene pérdida.
 Is it within walking distance? | Is the museum within walking distance? | Yeah, it's about a ten-minute walk. | ¿Se puede ir caminando al museo? / Sí, está como a diez minutos a pie.
-Does this bus go to the airport? | Does this bus go to the airport? | No, you need the 42. It stops across the street. | ¿Este autobús va al aeropuerto? / No, tienes que tomar el 42. Para al otro lado de la calle.
+Does this bus go to the airport? | Does this bus go to the airport? | No, you need the 42. It stops across the street. | ¿Esta guagua va al aeropuerto? / No, tienes que tomar el 42. Para al otro lado de la calle.
 Which stop should I get off at? | Which stop should I get off at for the museum? | Get off at Park Street. It's three stops from here. | ¿En qué parada me bajo para el museo? / Bájate en Park Street. Son tres paradas desde aquí.
 Can you take me to this address? | Can you take me to this address? | Sure. It'll take about twenty minutes. | ¿Me lleva a esta dirección? / Claro. Son unos veinte minutos.
 How long does it take? | How long does it take to get downtown? | About fifteen minutes by subway. | ¿Cuánto se tarda en llegar al centro? / Unos quince minutos en metro.
@@ -59,7 +59,7 @@ Congratulations! | I got the job! | Congratulations! I'm so happy for you! | ¡M
 No way! | I met a famous actor at the airport yesterday. | No way! Did you get a picture? | Ayer conocí a un actor famoso en el aeropuerto. / ¡No puede ser! ¿Te tomaste una foto?
 I'm sorry to hear that. | My grandma is in the hospital. | Oh, I'm sorry to hear that. I hope she feels better soon. | Mi abuela está en el hospital. / Ay, lo siento mucho. Espero que se mejore pronto.
 It's not a big deal. | I'm so sorry I spilled your coffee! | It's not a big deal. Don't worry about it. | ¡Perdón, te tiré el café! / No es para tanto. No te preocupes.
-I love your shoes. | I love your shoes! Where did you get them? | Thanks! I got them in Mexico City. | ¡Me encantan tus zapatos! ¿Dónde los compraste? / ¡Gracias! Los compré en la Ciudad de México.
+I love your shoes. | I love your shoes! Where did you get them? | Thanks! I got them in San Juan. | ¡Me encantan tus zapatos! ¿Dónde los compraste? / ¡Gracias! Los compré en San Juan.
 Do you want to grab coffee sometime? | Do you want to grab coffee sometime? | Sure, I'd love to! | ¿Quieres ir a tomar un café algún día? / ¡Claro, me encantaría!
 You're a lifesaver! | I brought you an extra charger. | You're a lifesaver! Thank you! | Te traje un cargador extra. / ¡Me salvaste la vida! ¡Gracias!
 I'll get back to you. | Can you join the meeting on Thursday? | Let me check my schedule, and I'll get back to you. | ¿Puedes venir a la reunión del jueves? / Déjame revisar mi agenda y te aviso.
@@ -77,7 +77,7 @@ The air conditioner isn't working. | Front desk. How can I help you? | Hi, the a
 My luggage is missing. | My luggage is missing. | I'm sorry about that. Can I see your baggage tag? | No aparece mi equipaje. / Lamento mucho la molestia. ¿Me permite ver su etiqueta de equipaje?
 I don't feel well. | Are you okay? You look pale. | I don't feel well. I think I need to sit down. | ¿Estás bien? Te ves pálido. / No me siento bien. Creo que necesito sentarme.
 I have a sore throat. | What seems to be the problem? | I have a sore throat and a slight fever. | ¿Qué le pasa? / Me duele la garganta y tengo un poco de fiebre.
-I lost my wallet. | I lost my wallet. I think I left it on the bus. | Let's call the bus company's lost and found. | Perdí la billetera. Creo que la dejé en el autobús. / Llamemos a objetos perdidos de la compañía de autobuses.
+I lost my wallet. | I lost my wallet. I think I left it on the bus. | Let's call the bus company's lost and found. | Perdí la billetera. Creo que la dejé en la guagua. / Llamemos a objetos perdidos de la compañía de guaguas.
 hang out | Do you want to hang out this weekend? | Sure! Let's go see a movie. | ¿Quieres que salgamos este fin de semana? / ¡Claro! Vamos al cine.
 pick up | Can you pick me up at the airport? | Of course. What time does your flight land? | ¿Me puedes recoger en el aeropuerto? / Claro. ¿A qué hora aterriza tu vuelo?
 work out | You look great! Do you work out? | Yeah, I go to the gym three times a week. | ¡Te ves muy bien! ¿Haces ejercicio? / Sí, voy al gimnasio tres veces por semana.
@@ -87,6 +87,12 @@ I'm feeling under the weather. | Are you coming to the party tonight? | I don't 
 Spill the tea. | I heard something crazy about Jen and Mike. | Wait, what? Spill the tea! | Me contaron algo increíble de Jen y Mike. / Espera, ¿qué? ¡Suelta el chisme!
 No spoilers! | Did you finish the show? The ending is... | No spoilers! I'm only on episode 3. | ¿Terminaste la serie? El final es... / ¡Nada de spoilers! Apenas voy en el capítulo 3.
 Who's your favorite character? | Who's your favorite character? | Definitely the detective. What about you? | ¿Cuál es tu personaje favorito? / El detective, sin duda. ¿Y el tuyo?
+Where can I park? | Excuse me, where can I park? | There's a parking lot behind the building. | Disculpe, ¿dónde puedo estacionar? / Hay un estacionamiento detrás del edificio.
+Let's hang out this weekend. | Let's hang out this weekend. | Sure! Do you want to go to the beach on Saturday? | Vamos a janguear este fin de semana. / ¡Claro! ¿Quieres ir a la playa el sábado?
+Can I take a break? | Can I take a break? I've been working since eight. | Sure, take fifteen minutes. | ¿Puedo tomar un descanso? Llevo trabajando desde las ocho. / Claro, tómate quince minutos.
+Give me a break! | This is the best mofongo in the world. | Give me a break! My mom's mofongo is better. | Este es el mejor mofongo del mundo. / ¡Ya, no exageres! El mofongo de mi mamá es mejor.
+It's sold out. | Two tickets for the concert, please. | Sorry, it's sold out. | Dos boletos para el concierto, por favor. / Lo siento, se agotaron.
+The bus is packed. | The bus is packed. Let's wait for the next one. | Good idea. It comes in ten minutes. | La guagua está llena. Esperemos la próxima. / Buena idea. Pasa en diez minutos.
 `;
 
 exports.EXAMPLES = `
@@ -112,7 +118,7 @@ Less ice, please. | Can I get a large iced latte? Less ice, please. | ¿Me da un
 Can I get a receipt? | Can I get a receipt? It's for work. | ¿Me da el recibo? Es para el trabajo.
 Is this on sale? | Is this jacket on sale? | ¿Esta chaqueta está en oferta?
 I'd like to exchange this. | I'd like to exchange this for a smaller size. | Quisiera cambiar esto por una talla más pequeña.
-It's a bit tight. | These jeans are a bit tight. | Estos jeans me aprietan un poco.
+It's a bit tight. | These jeans are a bit tight. | Estos mahones me aprietan un poco.
 It's three thirty. | It's three thirty. We have half an hour left. | Son las tres y media. Nos queda media hora.
 My birthday is in October. | My birthday is in October, so I'm a Libra. | Mi cumpleaños es en octubre, así que soy Libra.
 In ten minutes | The train leaves in ten minutes. | El tren sale dentro de diez minutos.
@@ -144,6 +150,11 @@ Low-key | I low-key want to dye my hair pink. | En secreto, me dan ganas de teñ
 I binge-watched the whole season. | I binge-watched the whole season in one weekend. | Me vi toda la temporada de un tirón en un fin de semana.
 school | My kids walk to school every day. | Mis hijos van caminando a la escuela todos los días.
 think | I think so, too. | Yo también lo creo.
+I'm applying for a job. | I'm applying for a job at a hotel in San Juan. | Estoy solicitando trabajo en un hotel de San Juan.
+I'm going shopping. | I'm going shopping this afternoon. Do you need anything? | Voy de compras esta tarde. ¿Necesitas algo?
+I have a meeting at three. | I have a meeting at three. Can we talk tomorrow? | Tengo una reunión a las tres. ¿Hablamos mañana?
+Call me back when you can. | Hi, it's Carmen. Call me back when you can. | Hola, soy Carmen. Devuélveme la llamada cuando puedas.
+The roof is leaking. | The roof is leaking again. We need to call someone. | El techo está goteando otra vez. Tenemos que llamar a alguien.
 `;
 
 /* pattern | explicación | example | lesson id */

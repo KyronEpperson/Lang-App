@@ -1,9 +1,9 @@
-/* en-es Core words extras, part T1 (writer EN-ES-T1): examples for the cards in decks-t1.js. EXAMPLES: card | sentence | English. No dialogues or patterns in this part. */
+/* en-espr (copied from en-es; Puerto Rico rows localised by EN-ESPR-B) Core words extras, part T1 (writer EN-ES-T1): examples for the cards in decks-t1.js. EXAMPLES: card | sentence | English. No dialogues or patterns in this part. */
 exports.DIALOG = `
 `;
 
 exports.EXAMPLES = `
-la vez | Fui a México una vez, con mi familia. | I went to Mexico once, with my family.
+la vez | Fui a Vieques una vez, con mi familia. | I went to Vieques once, with my family.
 el tiempo | No tengo tiempo para comer hoy. | I don't have time to eat today.
 el mundo | Todo el mundo habla de la fiesta. | Everybody is talking about the party.
 la persona | Tu mamá es una persona muy buena. | Your mom is a very good person.
@@ -13,7 +13,7 @@ el idioma | El español es un idioma muy bonito. | Spanish is a very beautiful l
 la ropa | Mi ropa está en el cuarto. | My clothes are in the bedroom.
 las ganas | Hoy no tengo ganas de cocinar. | Today I don't feel like cooking.
 la razón | Tienes razón, el restaurante está cerrado. | You're right, the restaurant is closed.
-ser | Mi hermana es doctora en Monterrey. | My sister is a doctor in Monterrey.
+ser | Mi hermana es doctora en Arecibo. | My sister is a doctor in Arecibo.
 haber | Hay tres tiendas en mi calle. | There are three stores on my street.
 estar | Mis papás están en casa ahora. | My parents are at home now.
 tener | Tengo que trabajar el sábado. | I have to work on Saturday.
@@ -44,14 +44,14 @@ salir | Salgo del trabajo a las cinco. | I leave work at five.
 volver | Vuelvo a casa a las seis. | I come back home at six.
 tomar | Tomamos un café en el centro. | We have a coffee downtown.
 conocer | ¿Conoces a mi hermano? | Do you know my brother?
-vivir | Mis abuelos viven en Oaxaca. | My grandparents live in Oaxaca.
+vivir | Mis abuelos viven en Mayagüez. | My grandparents live in Mayagüez.
 sentir | Lo siento, no puedo ir. | I'm sorry, I can't go.
 mirar | Mira, ahí está el museo. | Look, there's the museum.
 empezar | La película empieza a las ocho. | The movie starts at eight.
 esperar | Te espero en la puerta. | I'll wait for you at the door.
 buscar | Busco una farmacia. ¿Hay una cerca? | I'm looking for a pharmacy. Is there one nearby?
 necesitar | Necesito tu ayuda, por favor. | I need your help, please.
-gustar | Me gusta mucho la comida mexicana. | I really like Mexican food.
+gustar | Me gusta mucho la comida puertorriqueña. | I really like Puerto Rican food.
 perder | Siempre pierdo mis llaves. | I always lose my keys.
 entender | No entiendo esta palabra. | I don't understand this word.
 comer | Comemos con mi familia los domingos. | We eat with my family on Sundays.
@@ -59,7 +59,7 @@ ayudar | ¿Me ayudas con la tarea? | Will you help me with the homework?
 recordar | No recuerdo su nombre. | I don't remember his name.
 jugar | Los niños juegan en el parque. | The children play in the park.
 dormir | Duermo ocho horas cada noche. | I sleep eight hours every night.
-pedir | Voy a pedir unos tacos. | I'm going to order some tacos.
+pedir | Voy a pedir unos pastelillos. | I'm going to order some pastelillos.
 pagar | Yo pago la cuenta hoy. | I'll pay the bill today.
 cerrar | La tienda cierra a las diez. | The store closes at ten.
 olvidar | No olvides tu pasaporte. | Don't forget your passport.
@@ -94,16 +94,16 @@ diferente | Mi casa es diferente a tu casa. | My house is different from your ho
 menor | Mi hermano menor tiene diez años. | My younger brother is ten years old.
 libre | ¿Estás libre el sábado? | Are you free on Saturday?
 feliz | ¡Feliz cumpleaños, Ana! | Happy birthday, Ana!
-rico | Los tacos están muy ricos. | The tacos are really tasty.
+rico | Los tostones están muy ricos. | The tostones are really tasty.
 especial | Hoy es un día especial. | Today is a special day.
 increíble | La playa es increíble. | The beach is amazing.
 loco | ¿Estás loco? Hace mucho frío. | Are you crazy? It's very cold.
 tranquilo | Es un barrio muy tranquilo. | It's a very quiet neighborhood.
 abierto | La farmacia está abierta hasta las diez. | The pharmacy is open until ten.
-lleno | El autobús está lleno. | The bus is full.
+lleno | La guagua está llena. | The bus is full.
 caro | Este restaurante es muy caro. | This restaurant is very expensive.
 barato | El mercado es más barato. | The market is cheaper.
-rápido | El metro es más rápido que el autobús. | The subway is faster than the bus.
+rápido | El tren es más rápido que la guagua. | The train is faster than the bus.
 frío | La sopa está fría. | The soup is cold.
 caliente | Cuidado, el café está muy caliente. | Careful, the coffee is very hot.
 ocupado | Lo siento, hoy estoy muy ocupado. | Sorry, I'm very busy today.

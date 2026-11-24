@@ -34,12 +34,13 @@ exports.LESSONS = [
 <h3>B y V, SH y CH, J y Y</h3>
 <p>En español, la <i>b</i> y la <i>v</i> suenan igual; en inglés son dos sonidos. La <b>v</b> se hace con los dientes de arriba sobre el labio de abajo, y vibra. El inglés también distingue la <b>sh</b> (suave y continua, como cuando pides silencio: «shhh») de la <b>ch</b>, y la <b>j</b> de <i>job</i> (dy) de la <b>y</b> de <i>yes</i> (i).</p>
 {{ex:very / berry|VE-ri / BE-ri|muy / baya}}{{ex:shoes / choose|SHUUS / CHUUS|zapatos / elegir}}{{ex:joke / yolk|DYOUK / IOUK|broma / yema}}
-<p>Si en tu país la <i>y</i> de «yo» suena como <i>sh</i> (por ejemplo, en Argentina o Uruguay), recuerda que la <i>y</i> inglesa suena como la <i>i</i> de «tiene».</p>
+<p>Si en tu español la <i>y</i> de «yo» suena como <i>sh</i> (por ejemplo, en Argentina o Uruguay), recuerda que la <i>y</i> inglesa suena como la <i>i</i> de «tiene».</p>
 <h3>H y TH</h3>
 <p>La <i>h</i> inglesa casi siempre suena (no es muda como en español), pero es solo un soplo suave, más suave que nuestra <i>j</i>. La <b>th</b> se hace con la punta de la lengua entre los dientes: sin voz se parece a la <i>z</i> de España (<i>think</i>); con voz, a la <i>d</i> suave de «cada» (<i>this</i>). Si la cambias por <i>t</i>, <i>s</i> o <i>f</i>, dices otra palabra: <i>three</i> → <i>tree</i>.</p>
 {{ex:I think so.|ai THINK sou|Creo que sí.}}{{ex:three / tree|THRII / TRII|tres / árbol}}{{ex:his house|jis JAUS|su casa (de él)}}
 <h3>Finales de palabra y la terminación -ed</h3>
 <p>En español las sílabas suelen terminar en vocal; en inglés se acumulan consonantes al final y hay que pronunciarlas todas. La <b>-ed</b> del pasado <b>no</b> es una sílaba más, salvo después de <i>t</i> o <i>d</i>.</p>
+<p>En Puerto Rico es común suavizar la <i>s</i> al final de sílaba o de palabra; en inglés, pronúnciala siempre completa, sobre todo en los finales <i>-s</i>, <i>-st</i> y <i>-sts</i> (<i>works</i>, <i>first</i>, <i>costs</i>): si la pierdes, se pierde el plural, la tercera persona o la palabra misma.</p>
 <div class="tbl"><table><tr><th>Suena</th><th>Cuándo</th><th>Ejemplo</th></tr><tr><td class="k">t</td><td>después de un sonido sordo (k, p, s, sh, ch, f)</td><td>worked → WERKT</td></tr><tr><td class="k">d</td><td>después de un sonido sonoro (vocal, l, n, g, v…)</td><td>played → PLEID</td></tr><tr><td class="k">id</td><td>solo después de t o d</td><td>wanted → WAAN-tid</td></tr></table></div>
 {{ex:I worked yesterday.|ai WERKT IES-ter-dei|Trabajé ayer.}}{{ex:She wanted to stay.|shi WAAN-tid te STEI|Ella quería quedarse.}}
 <h3>La sílaba tónica</h3>
@@ -83,7 +84,7 @@ exports.LESSONS = [
 <div class="tbl"><table><tr><th></th><th>be</th><th>otros verbos</th></tr><tr><td>Afirmativo</td><td class="k">I'm tired.</td><td class="k">I like coffee.</td></tr><tr><td>Negativo</td><td class="k">I'm not tired.</td><td class="k">I don't like coffee.</td></tr><tr><td>Pregunta</td><td class="k">Are you tired?</td><td class="k">Do you like coffee?</td></tr></table></div>
 <h3>he / she / it: -s y does</h3>
 <p>Con <i>he, she, it</i> (o un sustantivo en singular), el verbo lleva <b>-s</b> en presente. En negativo y en preguntas va <b>does</b>, y entonces el verbo pierde la -s.</p>
-{{ex:My brother works in Lima.|mai BRA-dher WERKS in LII-me|Mi hermano trabaja en Lima.}}{{ex:Does he speak English?|das ji SPIIK ING-glish?|¿Él habla inglés?}}{{ex:She doesn't eat meat.|shi DA-sent IIT MIIT|Ella no come carne.}}
+{{ex:My brother works in Ponce.|mai BRA-dher WERKS in PAAN-sei|Mi hermano trabaja en Ponce.}}{{ex:Does he speak English?|das ji SPIIK ING-glish?|¿Él habla inglés?}}{{ex:She doesn't eat meat.|shi DA-sent IIT MIIT|Ella no come carne.}}
 <div class="tip">Errores típicos: <b>I have 25 years</b> → <b>I'm 25</b>; <b>Is late</b> → <b>It's late</b>; <b>She work</b> → <b>She works</b>.</div>`},
 
 { id:"polite", title:"4 · Pedir con cortesía", blurb:"Can you → Could you → Would you mind. En inglés, Give me suena brusco.", deck:"Supervivencia 1", body:`
@@ -92,7 +93,7 @@ exports.LESSONS = [
 <div class="tbl"><table><tr><th>Expresión</th><th>Cómo suena</th><th>Cuándo</th></tr><tr><td class="k">Give me ~.</td><td>Orden directa; suena brusca</td><td>Mejor no usarla</td></tr><tr><td class="k">Can you ~?</td><td>Petición informal</td><td>Amigos, tiendas</td></tr><tr><td class="k">Could you ~?</td><td>Petición amable</td><td>Desconocidos, trabajo</td></tr><tr><td class="k">Would you mind ~ing?</td><td>Muy amable</td><td>Favores grandes, jefes</td></tr></table></div>
 {{ex:Could you help me?|kud iu JELP mi?|¿Me podrías ayudar? / ¿Me podría ayudar?}}{{ex:Could you say that again?|kud iu SEI dhat e-GUEN?|¿Me lo puedes repetir?}}{{ex:Would you mind taking a picture of us?|wud iu MAIND TEI-king e PIK-cher ev as?|¿Te importaría tomarnos una foto?}}
 <h3>Para pedir: Can I get…? / I'd like…</h3>
-<p>En muchos países decimos «Dame un café» o «Quiero un café» y no suena mal. En inglés, <i>Give me…</i> y <i>I want…</i> suenan bruscos o infantiles. En una tienda o una cafetería se dice así:</p>
+<p>En muchos lugares decimos «Dame un café» o «Quiero un café» y no suena mal. En inglés, <i>Give me…</i> y <i>I want…</i> suenan bruscos o infantiles. En una tienda o una cafetería se dice así:</p>
 {{ex:Can I get a latte, please?|ken ai GUET e LAA-tei, PLIIS?|¿Me das un latte, por favor?}}{{ex:I'd like a window seat.|aid LAIK e WIN-dou SIIT|Quisiera un asiento junto a la ventana.}}
 <h3>Would you mind…? funciona como «¿Te importa…?»</h3>
 <p><i>Mind</i> significa «importar, molestar». Igual que en español, si te preguntan «¿Te importa…?» y no te importa, respondes que <b>no</b>.</p>
@@ -116,14 +117,14 @@ exports.LESSONS = [
 <div class="tip">A <i>How was your weekend?</i> responde en pasado; a <i>Any plans for the weekend?</i>, con <i>going to</i>. Usar el mismo tiempo de la pregunta es el truco más fácil.</div>`},
 
 { id:"prep", title:"6 · Preposiciones in / on / at", blurb:"Un solo «en» en español, tres opciones en inglés: in para lo amplio, on para días y superficies, at para un punto.", deck:"Números, horas y fechas", body:`
-<p>En español casi todo va con <b>en</b>: en mayo, en la mesa, en el autobús, en casa, en la estación. El inglés reparte ese «en» entre tres preposiciones. La regla general: <b>in</b> para espacios y periodos amplios (dentro de algo), <b>on</b> para superficies y días, <b>at</b> para un punto exacto.</p>
+<p>En español casi todo va con <b>en</b>: en mayo, en la mesa, en la guagua, en casa, en la estación. El inglés reparte ese «en» entre tres preposiciones. La regla general: <b>in</b> para espacios y periodos amplios (dentro de algo), <b>on</b> para superficies y días, <b>at</b> para un punto exacto.</p>
 <h3>Tiempo</h3>
 <div class="tbl"><table><tr><th>Preposición</th><th>Con</th><th>Ejemplos</th></tr><tr><td class="k">in</td><td>meses, años, estaciones, partes del día</td><td>in May, in 2026, in summer, in the morning</td></tr><tr><td class="k">on</td><td>días de la semana, fechas, días concretos</td><td>on Monday, on May 3rd, on my birthday</td></tr><tr><td class="k">at</td><td>horas exactas y momentos</td><td>at 7, at noon, at night</td></tr></table></div>
 <p>Ojo: en español decimos «<b>el</b> lunes» o «<b>el</b> 3 de mayo», con artículo y sin preposición. En inglés va <b>on</b> y sin artículo: <i>on Monday</i>, <i>on May 3rd</i>.</p>
 {{ex:See you on Friday.|SII iu aan FRAI-dei|Nos vemos el viernes.}}{{ex:The meeting is at three.|dhe MII-ring is et THRII|La reunión es a las tres.}}{{ex:I was born in 1998.|ai wes BORN in nain-TIIN NAIN-ti-EIT|Nací en 1998.}}
 <h3>Lugar</h3>
 <div class="tbl"><table><tr><th>Preposición</th><th>Idea</th><th>Ejemplos</th></tr><tr><td class="k">in</td><td>dentro de un espacio; ciudades y países</td><td>in the car, in Lima, in Mexico</td></tr><tr><td class="k">on</td><td>sobre una superficie; calles; transporte público</td><td>on the table, on Main Street, on the bus</td></tr><tr><td class="k">at</td><td>un punto concreto; un lugar por lo que haces allí</td><td>at the station, at work, at home</td></tr></table></div>
-{{ex:I'm on the bus.|aim aan dhe BAS|Estoy en el autobús.}}{{ex:Let's meet at the station.|lets MIIT et dhe STEI-shen|Nos vemos en la estación.}}{{ex:I'm at home.|aim et JOUM|Estoy en casa.}}
+{{ex:I'm on the bus.|aim aan dhe BAS|Estoy en la guagua.}}{{ex:Let's meet at the station.|lets MIIT et dhe STEI-shen|Nos vemos en la estación.}}{{ex:I'm at home.|aim et JOUM|Estoy en casa.}}
 <h3>Sin preposición</h3>
 <p>Con <b>next, last, this, every, tomorrow, yesterday</b> no va preposición, igual que en español solemos decir «la semana que viene», sin preposición.</p>
 {{ex:See you next week.|SII iu NEKST WIIK|Nos vemos la próxima semana.}}
@@ -150,7 +151,7 @@ exports.LESSONS = [
 <div class="tbl"><table><tr><th>Verbo formal (cognado)</th><th>Phrasal verb (conversación)</th><th>Significado</th></tr><tr><td>enter</td><td class="k">come in</td><td>entrar, pasar</td></tr><tr><td>continue</td><td class="k">go on</td><td>seguir, continuar</td></tr><tr><td>discover</td><td class="k">find out</td><td>enterarse, descubrir</td></tr><tr><td>postpone</td><td class="k">put off</td><td>posponer, aplazar</td></tr><tr><td>tolerate</td><td class="k">put up with</td><td>aguantar, soportar</td></tr><tr><td>extinguish</td><td class="k">put out</td><td>apagar (un fuego)</td></tr></table></div>
 <h3>La partícula da una pista</h3>
 <p><b>up</b> suele indicar «hacia arriba, por completo»; <b>out</b>, «hacia fuera, hasta el final»; <b>off</b>, «separarse, detenerse»; <b>on</b>, «encima, seguir».</p>
-{{ex:Come in, please.|KAM IN, PLIIS|Pasa, por favor.}}{{ex:I grew up in Santiago.|ai GRUU AP in san-ti-AA-gou|Crecí en Santiago.}}{{ex:We ran out of milk.|wi RAN AUT ev MILK|Se nos acabó la leche.}}{{ex:Turn off your phone, please.|TERN OF iur FOUN, PLIIS|Apaga tu celular, por favor.}}
+{{ex:Come in, please.|KAM IN, PLIIS|Pasa, por favor.}}{{ex:I grew up in Bayamón.|ai GRUU AP in bai-e-MOUN|Crecí en Bayamón.}}{{ex:We ran out of milk.|wi RAN AUT ev MILK|Se nos acabó la leche.}}{{ex:Turn off your phone, please.|TERN OF iur FOUN, PLIIS|Apaga tu celular, por favor.}}
 <h3>El pronombre va en medio</h3>
 <p>Muchos <i>phrasal verbs</i> con objeto se pueden separar. Un sustantivo puede ir antes o después de la partícula, pero un <b>pronombre</b> (<i>it, them, me, you</i>) va <b>siempre en medio</b>.</p>
 {{ex:Turn on the light. / Turn the light on.|TERN aan dhe LAIT / TERN dhe LAIT AAN|Enciende la luz. (Las dos son correctas.)}}{{ex:Turn it on.|TERN it AAN|Enciéndela. (No: turn on it)}}{{ex:I'll pick you up at seven.|ail PIK iu AP et SE-ven|Paso por ti a las siete.}}
@@ -161,7 +162,7 @@ exports.LESSONS = [
 { id:"numbers", title:"9 · Números, horas y precios", blurb:"Punto decimal, billion = mil millones, 13 frente a 30 y cómo se leen precios, años y fechas.", deck:"Números, horas y fechas", body:`
 <p>Los números aparecen en cada viaje y en cada reunión. La buena noticia: el inglés también agrupa las cifras de tres en tres, como el español. Las diferencias están en los signos, en <i>billion</i> y en la forma de leer horas, precios, años y fechas.</p>
 <h3>Punto decimal y coma de miles</h3>
-<p>En inglés los decimales llevan <b>punto</b> y los miles llevan <b>coma</b>: justo al revés que en muchos países hispanohablantes (en México y algunos otros países, en cambio, se escribe igual que en inglés).</p>
+<p>En inglés los decimales llevan <b>punto</b> y los miles llevan <b>coma</b>: justo al revés que en muchos países hispanohablantes (en Puerto Rico, en México y en otros lugares, en cambio, se escribe igual que en inglés).</p>
 <div class="tbl"><table><tr><th>En inglés</th><th>En muchos países</th><th>Se lee</th></tr><tr><td class="k">3.5</td><td>3,5</td><td>three point five</td></tr><tr><td class="k">1,500</td><td>1.500</td><td>one thousand five hundred</td></tr><tr><td class="k">2,000,000</td><td>2.000.000</td><td>two million</td></tr></table></div>
 <h3>¡Ojo con billion!</h3>
 <div class="tbl"><table><tr><th>Inglés</th><th>Español</th></tr><tr><td class="k">one thousand (1,000)</td><td>mil</td></tr><tr><td class="k">one million</td><td>un millón</td></tr><tr><td class="k">one billion</td><td>mil millones</td></tr><tr><td class="k">one trillion</td><td>un billón</td></tr></table></div>
@@ -224,7 +225,7 @@ exports.CHECKS = {
   ],
   be: [
     ["¿Cómo se dice «Tengo 25 años»?", ["I have 25 years.","I'm 25.","I've 25 years.","I'm having 25."], 1, "La edad se dice con be: \"I'm 25\" (o \"I'm 25 years old\"). Nunca con \"have\"."],
-    ["¿Cómo se dice «Mi hermana vive en Lima»?", ["My sister live in Lima.","My sister is live in Lima.","My sister living in Lima.","My sister lives in Lima."], 3, "\"My sister\" equivale a \"she\" (tercera persona del singular), así que el verbo lleva -s: \"lives\". Y sin \"is\"."],
+    ["¿Cómo se dice «Mi hermana vive en Ponce»?", ["My sister live in Ponce.","My sister is live in Ponce.","My sister living in Ponce.","My sister lives in Ponce."], 3, "\"My sister\" equivale a \"she\" (tercera persona del singular), así que el verbo lleva -s: \"lives\". Y sin \"is\"."],
     ["Te preguntan \"Are you hungry?\" y no tienes hambre. ¿Qué respondes?", ["No, I'm not.","No, I don't.","No, I amn't.","No, I haven't."], 0, "Te preguntaron con be, así que respondes con be: \"No, I'm not\"."]
   ],
   polite: [

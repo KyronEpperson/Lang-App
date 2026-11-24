@@ -1,4 +1,4 @@
-/* en-es extras for decks-t2.js (writer EN-ES-T2). DIALOG: card | A | B | English A / English B. EXAMPLES: card | sentence | English. PATTERNS: frame | English frame | example | English. */
+/* en-espr (copied from en-es; Puerto Rico rows localised by EN-ESPR-B) extras for decks-t2.js (writer EN-ES-T2). DIALOG: card | A | B | English A / English B. EXAMPLES: card | sentence | English. PATTERNS: frame | English frame | example | English. */
 exports.DIALOG = `
 ¡Oye! | ¡Oye, Diego! ¿Vienes a la fiesta? | ¡Claro! Llego a las ocho. | Hey, Diego! Are you coming to the party? / Sure! I'll get there at eight.
 ¡Ay! | ¡Ay! Me duele el pie. | ¿Estás bien? Siéntate aquí. | Ouch! My foot hurts. / Are you okay? Sit here.
@@ -9,21 +9,21 @@ exports.DIALOG = `
 ¡Ojalá! | ¿Crees que mañana hace sol? | ¡Ojalá! Quiero ir a la playa. | Do you think it'll be sunny tomorrow? / I hope so! I want to go to the beach.
 ¡Cuidado! | ¡Cuidado! Viene un carro. | ¡Gracias! No lo vi. | Careful! A car is coming. / Thanks! I didn't see it.
 ¡Bravo! | ¡Pasé el examen! | ¡Bravo! Muy bien hecho. | I passed the test! / Bravo! Really well done.
-¡Órale! | Hice los tacos yo solo. | ¡Órale! Están muy ricos. | I made the tacos all by myself. / Wow! They're really good.
-¡Ándale! | ¡Ándale, ya nos vamos! | ¡Ya voy, ya voy! | Come on, we're leaving! / I'm coming, I'm coming!
-¡Híjole! | El restaurante está cerrado hoy. | ¡Híjole! ¿Y ahora qué comemos? | The restaurant is closed today. / Oh man! So what do we eat now?
+¡Wepa! | ¡Ganamos el partido! | ¡Wepa! ¡Vamos a celebrar! | We won the game! / Woo-hoo! Let's celebrate!
+¡Acho! | ¡Acho, mira la hora! Llegamos tarde. | ¡Ay, no! Vámonos ya. | Man, look at the time! We're late. / Oh no! Let's go now.
+¡Ay bendito! | Mi perro está enfermo. | ¡Ay bendito! ¿Lo llevas al veterinario? | My dog is sick. / Aw, poor thing! Are you taking him to the vet?
 ¡Uf! | Ya llegamos. Son diez pisos. | ¡Uf! Estoy muy cansado. | We're here. That's ten floors. / Phew! I'm really tired.
 ¡Ajá! | ¿Entonces giro a la derecha en la esquina? | ¡Ajá! Y después sigue derecho. | So I turn right at the corner? / Uh-huh! And then go straight.
 ¡Salud! | ¡Achú! | ¡Salud! | Achoo! / Bless you!
 ¡Basta! | Mamá, él tiene mi pelota y no me la da. | ¡Basta, niños! A la cama. | Mom, he has my ball and won't give it to me. / Enough, kids! Off to bed.
 ¡Ups! | ¡Ups! Perdón, es tu café. | No pasa nada. | Oops! Sorry, that's your coffee. / No problem.
 ¡Guau! | Este es mi apartamento nuevo. | ¡Guau! ¡Qué grande! | This is my new apartment. / Wow! It's so big!
-¡Caray! | El boleto cuesta mil pesos. | ¡Caray! Es muy caro. | The ticket costs a thousand pesos. / Gosh! That's really expensive.
+¡Caray! | El boleto cuesta mil dólares. | ¡Caray! Es muy caro. | The ticket costs a thousand dollars. / Gosh! That's really expensive.
 ¡Ojo! | ¡Ojo con el perro! Muerde. | Gracias, no me acerco. | Watch out for the dog! It bites. / Thanks, I won't go near it.
 ¡Ánimo! | Mañana tengo un examen difícil. | ¡Ánimo! Vas a estar bien. | I have a hard test tomorrow. / You can do it! You'll be fine.
-¡Aguas! | ¡Aguas! El piso está mojado. | ¡Uy, gracias! | Look out! The floor is wet. / Oh, thanks!
-¡Sale! | ¿Nos vemos a las seis en el café? | ¡Sale! Ahí nos vemos. | Shall we meet at six at the café? / Deal! See you there.
-¡Guácala! | ¿Quieres probar mi sopa de pescado? | ¡Guácala! No me gusta el pescado. | Do you want to try my fish soup? / Yuck! I don't like fish.
+¡Dios mío! | ¡Dios mío! ¿Qué te pasó? | Me caí de la bicicleta. | Oh my God! What happened to you? / I fell off my bike.
+¡Dale! | ¿Nos vemos a las seis en el café? | ¡Dale! Ahí nos vemos. | Shall we meet at six at the café? / Okay! See you there.
+¡Qué asco! | ¿Quieres probar mi sopa de pescado? | ¡Qué asco! No me gusta el pescado. | Do you want to try my fish soup? / Yuck! I don't like fish.
 ¡Bah! | Dicen que mañana va a llover. | ¡Bah! Vamos a la playa de todos modos. | They say it's going to rain tomorrow. / Bah! Let's go to the beach anyway.
 `;
 
@@ -47,7 +47,7 @@ usted | ¿Usted habla inglés? | Do you speak English?
 esto | ¿Cuánto cuesta esto? | How much is this?
 algo | ¿Quieres algo de tomar? | Do you want something to drink?
 les | A mis papás les gusta bailar. | My parents like to dance.
-ellos | Ellos viven en Monterrey. | They live in Monterrey.
+ellos | Ellos viven en Carolina. | They live in Carolina.
 ¿Quién? | ¿Quién es tu maestra? | Who is your teacher?
 nosotros | Nosotros somos de Texas. | We're from Texas.
 mí | Este regalo es para mí. | This gift is for me.
@@ -114,7 +114,7 @@ cerca de | Vivo cerca de la escuela. | I live near the school.
 detrás de | El perro está detrás de la puerta. | The dog is behind the door.
 debajo de | El gato está debajo de la cama. | The cat is under the bed.
 que | Creo que es muy tarde. | I think it's very late.
-y | Quiero tacos y una cerveza. | I want tacos and a beer.
+y | Quiero tostones y una cerveza. | I want tostones and a beer.
 como | Como es tarde, me voy. | Since it's late, I'm leaving.
 o | ¿Quieres agua o jugo? | Do you want water or juice?
 si | Si tienes tiempo, te llamo. | If you have time, I'll call you.

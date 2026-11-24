@@ -1,7 +1,29 @@
 {
-  "lessons": {},
-  "items": {},
-  "decks": {},
-  "extraLessons": [],
+  "lessons": {
+    "spanglish": "spr.md §8.1 new lesson"
+  },
+  "items": {
+    "pron#5": "spr.md §8.2 setting (Madrid -> Mayagüez; eschool distractor kept)",
+    "be#5": "spr.md §8.2 setting (Lima -> Ponce)",
+    "be#8": "spr.md §8.2 setting (Lima -> Ponce)",
+    "be#check1": "spr.md §8.2 setting (sister's home Lima -> Ponce, matching be #5/#8)",
+    "prep#4": "spr.md §8.2 setting (I live in Lima -> San Juan)",
+    "phrasal#2": "spr.md §8.2 setting (learner's origin: I grew up in Santiago -> Bayamón)",
+    "smalltalk#13": "spr.md §8.3 typed-answer pass (added \"What nice weather today\", the literal reading of «¡Qué buen clima hace hoy!»)",
+    "email#11": "spr.md §8.3 typed-answer pass (added \"I have the day off tomorrow\", the literal reading of «Mañana tengo el día libre»)",
+    "present#2": "spr.md §8.2 setting",
+    "object-have#10": "spr.md §8.2 setting",
+    "going-to#0": "spr.md §8.2 setting",
+    "false-friends#8": "spr.md §8.2 setting",
+    "false-friends#check1": "spr.md §8.2 setting",
+    "perfect-2#ex0": "spr.md §8.2 setting: body example row (not compared by parity) 'I've lived in Lima for five years.' -> 'I've lived in San Juan for five years.' (learner's home, spr.md §2 'Lima as where you live')"
+  },
+  "decks": {
+    "1": "spr.md §8.2 setting: I'm from Puerto Rico. / I live in San Juan.",
+    "22": "spr.md §9: renamed; 14 Spanglish cards added"
+  },
+  "extraLessons": [
+    "spanglish"
+  ],
   "droppedLessons": []
 }

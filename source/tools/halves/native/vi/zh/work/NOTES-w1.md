@@ -2,3 +2,119 @@
 
 Format: `Chinese → Vietnamese gloss · note`. Before glossing a repeated sentence (REPEATS.md) or a recurring phrase, read every NOTES-w*.md.
 
+## Repeated sentences where w1 is listed first (card meanings; aligned with NOTES-w3/w4 where those were already set)
+- 服务员 → Xin lỗi! (gọi nhân viên phục vụ)
+- 去 → đi
+- 好 → tốt
+- 你好 → Xin chào!
+- 谢谢 → Cảm ơn!
+- 不客气 → Không có gì.
+- 没关系 → Không sao.
+- 你家有几口人 → Nhà bạn có mấy người?
+- 你叫什么名字 → Bạn tên là gì?
+- 你是哪国人 → Bạn là người nước nào?
+- 我也是美国人 → Tôi cũng là người Mỹ.
+- 二十五块 → Hai mươi lăm tệ
+- 服务员，买单 → Xin lỗi, tính tiền giúp tôi!
+- 现在几点 → Bây giờ là mấy giờ?
+- 今天几号 → Hôm nay là ngày mấy?
+- 我会说一点儿中文 → Tôi biết nói một chút tiếng Trung.
+- 你在做什么 → Bạn đang làm gì?
+- 这个很好吃 → Món này ngon lắm!
+- 八 → tám
+- 怕 → sợ
+- 菜 → món ăn; rau
+- 绿 → màu xanh lá
+- 妈 → mẹ (như trong 妈妈)
+- 麻 → tê; cây gai
+- 马 → ngựa
+- 骂 → mắng
+- 买 → mua
+- 卖 → bán
+- 汤 → canh
+- 糖 → đường (để ăn)
+- 七 → bảy
+- 人 → người
+- 木 → cây; gỗ
+- 林 → rừng
+- 山 → núi
+- 明 → sáng
+- 您好 → Xin chào! (lịch sự)
+- 大家好 → Chào mọi người!
+- 对不起 → Tôi xin lỗi!
+- 再见 → Tạm biệt!
+- 妈妈 → mẹ
+- 我家有四口人 → Nhà tôi có bốn người.
+- 我有一个哥哥 → Tôi có một anh trai.
+- 您贵姓 → Ngài họ gì ạ?
+- 我姓王 → Tôi họ Vương.
+- 我是美国人 → Tôi là người Mỹ.
+- 你住在哪儿 → Bạn sống ở đâu?
+- 我今年二十五岁 → Năm nay tôi hai mươi lăm tuổi.
+- 你今年多大 → Năm nay bạn bao nhiêu tuổi? (hỏi người lớn)
+- 一百零五 → một trăm linh năm
+- 三块五 → Ba tệ rưỡi
+- 一个人 → một người
+- 三本书 → ba quyển sách
+- 一只猫 → một con mèo
+- 几个人 → Mấy người?
+- 你想吃什么 → Bạn muốn ăn gì?
+- 我要一杯奶茶 → Cho tôi một cốc trà sữa.
+- 不要辣的 → Không lấy cay nhé.
+- 可以打包吗 → Gói mang về được không?
+- 太贵了 → Đắt quá!
+- 可以扫码吗 → Quét mã trả tiền được không?
+- 有大号的吗 → Có cỡ lớn không?
+- 一共多少钱 → Tất cả bao nhiêu tiền?
+- 我要这个 → Tôi lấy cái này.
+- 我想买一双鞋 → Tôi muốn mua một đôi giày.
+- 三点半 → ba giờ rưỡi
+- 十二月三号 → ngày 3 tháng 12
+- 今天星期几 → Hôm nay thứ mấy?
+- 今天星期五 → Hôm nay thứ Sáu.
+- 两点十分 → 2:10
+- 你几点下班 → Mấy giờ bạn tan làm?
+- 银行在超市旁边 → Ngân hàng ở bên cạnh siêu thị.
+- 附近有地铁站吗 → Gần đây có ga tàu điện ngầm không?
+- 请问，去天安门怎么走 → Xin hỏi, đến Thiên An Môn đi thế nào?
+- 我去超市买东西 → Tôi đi siêu thị mua đồ.
+- 师傅，去机场 → Bác tài, cho ra sân bay.
+- 我的护照呢 → Hộ chiếu của tôi đâu rồi?
+- 火车几点到 → Mấy giờ tàu đến?
+- 我在银行工作 → Tôi làm việc ở ngân hàng.
+- 你做什么工作 → Bạn làm nghề gì?
+- 你会开车吗 → Bạn biết lái xe không?
+- 我可以进来吗 → Tôi vào được không?
+- 你哪儿不舒服 → Bạn bị làm sao? / Đau ở đâu?
+- 别担心 → Đừng lo.
+- 你好一点儿了吗 → Bạn đỡ hơn chút nào chưa?
+- 她很高 → Cô ấy cao.
+- 我很忙 → Tôi bận.
+- 这儿很热闹 → Ở đây náo nhiệt.
+- 太好了 → Tuyệt quá!
+- 为什么 → Tại sao?
+- 你忙吗 → Bạn có bận không?
+- 你去不去 → Bạn có đi không?
+- 你有没有时间 → Bạn có thời gian không?
+- 这个用中文怎么说 → Cái này tiếng Trung nói thế nào?
+- 两个人 → hai người
+- 我很累 → Tôi mệt.
+- 我饿了 → Tôi đói rồi.
+- 我不喝酒 → Tôi không uống rượu.
+- 我没有钱 → Tôi không có tiền.
+- 她中文说得很好 → Cô ấy nói tiếng Trung giỏi.
+- 十二月三号 → ngày 3 tháng 12 · 两点十分: the card meaning is the prefilled «2:10» (pre row, left as is); w4's «hai giờ mười phút» is fine for the sentence.
+
+## Decisions other writers should follow
+- 服务员 (calling a server) → «Xin lỗi! (gọi nhân viên phục vụ)»; 服务员，买单 → «Xin lỗi, tính tiền giúp tôi!». «Em ơi!» only in notes (vi-ko 저기요 rule).
+- 师傅 (to a driver) → «Bác tài»: 师傅，去机场 → «Bác tài, cho ra sân bay.»; 师傅，在这儿停一下 → «Bác tài, dừng ở đây giúp tôi.»
+- 老师好 → «Chào thầy (cô) ạ!»; 谢谢您 → «Cảm ơn ạ! (lịch sự)»; 您贵姓 → «Ngài họ gì ạ?» (as NOTES-w3).
+- 很 + adjective without «rất»: 我很忙 «Tôi bận.», 我很累 «Tôi mệt.», 她很高 «Cô ấy cao.», 今天很冷 «Hôm nay trời lạnh.», 我很高兴 «Tôi vui.»
+- 了 → «rồi»: 我饿了 «Tôi đói rồi.», 我吃饱了 «Tôi no rồi.», 我们到北京了 «Chúng ta đến Bắc Kinh rồi.», 我感冒了 «Tôi bị cảm rồi.» · 我不去了 → «Tôi không đi nữa.» · 我没去 → «(Hôm đó) tôi không đi.» (never «đã không»).
+- 吃了吗 → «Ăn cơm chưa? (lời chào)» · 你好吗 → «Bạn có khỏe không? (hỏi thật)» · 最近怎么样 → «Dạo này thế nào?»
+- Names (looked up, hv-w1.tsv): 王 Vương, 王明 Vương Minh, 上海 Thượng Hải, 北京 Bắc Kinh, 西安 Tây An, 天安门 Thiên An Môn; 安娜 Anna, 纽约 New York (kept).
+- Money: 块 «tệ», 毛 «hào» (like Vietnamese «hào»), 元 on price tags.
+- Measure word = «lượng từ»; 杯 cốc, 本 quyển, 张 tờ/tấm, 只 con, 件 chiếc, 双 đôi, 位 «vị» (polite).
+- 车 → «xe; ô tô» (card), 汽车 → «ô tô; xe hơi».
+- Card Hán Việt notes start «Âm Hán Việt: «…»»; new-style tone placement (hỏa, thủy, khóa, tọa, thụy); 希 → hy (hy vọng); 迎 → nghênh.
+- Deck labels, group names and level titles: see w1.jsonl (decks / groups / labels rows); measure-words deck = «Lượng từ», traps deck = «Bẫy thường gặp».

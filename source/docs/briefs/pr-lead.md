@@ -1,7 +1,7 @@
 PROGRESS (updated 2026-11-24)
 Courses: en-espr (Puerto Rican Spanish for English speakers) and spr-en (English for Puerto Rican Spanish speakers)
 Stage 1 (lead setup): DONE. Next: launch the ten writers (all at once: the two courses share no files), then each course's reviewer after its writers report and its merge check passes.
-State: HOLD (`tools/target/espr/HOLD`; `course-en-espr.js` and `course-spr-en.js` in `packs/HELD.txt`)
+State: RELEASED in 2.88.0 (2026-11-24). Writers, merge, cold reviews and e2e done; HOLD file and HELD.txt lines removed.
 
 # Lead note: Puerto Rican Spanish, stage 1
 

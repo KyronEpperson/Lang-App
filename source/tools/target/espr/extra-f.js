@@ -1,4 +1,4 @@
-/* en-es extras for decks-f.js (writer EN-ES-T2). DIALOG: card | A | B | English A / English B. EXAMPLES: card | sentence | English. PATTERNS: frame | English frame | example | English. */
+/* en-espr (copied from en-es; Puerto Rico rows localised by EN-ESPR-B) extras for decks-f.js (writer EN-ES-T2). DIALOG: card | A | B | English A / English B. EXAMPLES: card | sentence | English. PATTERNS: frame | English frame | example | English. */
 exports.DIALOG = `
 Tienes un nombre muy bonito. | Me llamo Valeria. | Tienes un nombre muy bonito. | My name is Valeria. / You have a really pretty name.
 ¡Qué guapa! | ¿Qué tal me veo? | ¡Qué guapa! Me encanta ese vestido. | How do I look? / You look great! I love that dress.

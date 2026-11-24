@@ -2,7 +2,7 @@
 module.exports = [
 { id:"perfect-2", title:"Presente perfecto 2: for, since y «desde hace»", blurb:"Algo que empezó en el pasado y sigue hoy. For + duración, since + punto de inicio.", deck:"Presentarse", body:`
 <p>El segundo uso del presente perfecto: algo que <b>empezó en el pasado y sigue ahora</b>. Aquí el español usa el presente («Vivo aquí desde 2020», «Trabajo aquí desde hace tres años»), pero el inglés necesita <b>have/has + participio</b>.</p>
-{{ex:I've lived in Lima for five years.|aiv LIVD in LII-me fer FAIV IIRS|Vivo en Lima desde hace cinco años}}{{ex:She has worked here since 2020.|shi jas WERKT JIR sins TWEN-ti TWEN-ti|Ella trabaja aquí desde 2020}}{{ex:I've known her for a long time.|aiv NOUN jer fer e LONG TAIM|La conozco desde hace mucho}}
+{{ex:I've lived in San Juan for five years.|aiv LIVD in SAN WAAN fer FAIV IIRS|Vivo en San Juan desde hace cinco años}}{{ex:She has worked here since 2020.|shi jas WERKT JIR sins TWEN-ti TWEN-ti|Ella trabaja aquí desde 2020}}{{ex:I've known her for a long time.|aiv NOUN jer fer e LONG TAIM|La conozco desde hace mucho}}
 <h3>for y since</h3>
 <div class="tbl"><table><tr><th>for + cuánto tiempo («desde hace»)</th><th>since + punto de inicio («desde»)</th></tr><tr><td class="k">for three years</td><td class="k">since 2020</td></tr><tr><td class="k">for two hours</td><td class="k">since Monday</td></tr></table></div>
 <h3>How long…?</h3>
@@ -54,7 +54,7 @@ practice:[
 ["or","Ella estaba caminando a casa","She was walking home","were","Con \"she\" va \"was\": concordancia."],
 ["or","El tren ya había salido","The train had already left","has","Lo que pasó antes va con \"had\" + participio."],
 ["fi","I was sleeping __ you called.","Estaba durmiendo cuando llamaste","when","than|so|had","«Cuando» se dice \"when\"."],
-["fi","The bus had already __.","El autobús ya había salido","left|gone","leave|leaving|leaves","Después de \"had\" va el participio."],
+["fi","The bus had already __.","La guagua ya había salido","left|gone","leave|leaving|leaves","Después de \"had\" va el participio."],
 ["fi","First we ate. __ we watched a movie.","Primero comimos. Luego vimos una película","Then|After that|Next","Than|Because|When","«Luego» es \"then\"."],
 ["ty","No vi la película","I didn't see the movie|I didn't watch the movie","see · movie — negación con el auxiliar","saw","La negación en pasado usa el auxiliar \"didn't\" + verbo base: \"see\", no \"saw\"."],
 ["ty","Ellos estaban viendo la tele","They were watching TV|They were watching television","watch · TV — en pasado continuo","was","Con \"they\" va \"were\" + -ing: concordancia."],
@@ -118,7 +118,7 @@ practice:[
 ["fi","This was __ in Mexico.","Esto se hizo en México","made","make|making|makes","Después de \"be\" va el participio."],
 ["fi","The room __ cleaned every day.","La habitación se limpia todos los días","is|gets","does|has|did","Para algo habitual: \"is\" + participio."],
 ["fi","It was written __ Isabel Allende.","Lo escribió Isabel Allende","by","from|of|with","Quién lo hizo se dice con \"by\"."],
-["ty","Me robaron el celular","My phone was stolen|My phone got stolen|My cell phone was stolen","phone · steal — usa la voz pasiva","stole","Con \"my phone\" (singular) va \"was\" + participio: concordancia."],
+["ty","Me robaron el celular (en voz pasiva)","My phone was stolen|My phone got stolen|My cell phone was stolen","phone · steal — usa la voz pasiva","stole","Con \"my phone\" (singular) va \"was\" + participio: concordancia."],
 ["ty","¿El desayuno está incluido?","Is breakfast included|Is the breakfast included","breakfast · include — pregunta con el auxiliar","Does","En la pregunta, el auxiliar \"is\" va antes del sujeto."],
 ["ty","La puerta estaba cerrada con llave","The door was locked","door · lock — con la voz pasiva","were","Con \"the door\" (singular) va \"was\": concordancia."]]},
 { id:"reported", title:"Estilo indirecto: contar lo que dijo otra persona", blurb:"She said she was tired. El tiempo verbal retrocede, y tell siempre lleva a la persona.", deck:"Teléfono y abreviaturas", body:`

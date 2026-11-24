@@ -24,6 +24,8 @@ Standing rules: Supabase publishable key only; never open, print or commit secre
 
 Yesterday and today: ur-en, pa-en (2.78.0); yue-en in written Cantonese (2.79.0); te-en with bundled Noto Sans Telugu (2.80.0); yue-ko (2.81.0); kn-en (2.82.0); release report + audio coverage on every release (2.83.0); en-hmn (2.84.0); new cards flip on tap (2.85.0); hmn-en + Hmong interface (2.86.0).
 
+2.88.0 (new chat, 2026-11-24): **Puerto Rican Spanish for English speakers (`en-espr`)** and **English for Puerto Rican speakers (`spr-en`)**. Ten writers (nine opus, interface on sonnet: zero overrides needed), two opus cold reviews (`tools/target/espr/REVIEW.md` 14 edits, `tools/content/spr/REVIEW.md` 5 edits), e2e over all 29 + 43 lessons. Owner defaults taken: code `spr` kept, share-card word "Puerto Rico", Puerto Rican learners offered English only. `packs/HELD.txt` is now mirrored by `ship.sh` (it was missing from the repository). Vietnamese roadmap title aligned to *Lượng từ*.
+
 ## Ready to launch (stage 1 done; nothing below is released; packs are in `packs/HELD.txt`)
 
 The coming-soon languages (`ta gu ml my jv wuu`, with names under the flag tiles) went out in 2.87.0.
@@ -32,12 +34,9 @@ The coming-soon languages (`ta gu ml my jv wuu`, with names under the flag tiles
    - Reusable Mandarin half `tools/halves/target/zh/` (886 cards, 31 decks, 28 lessons, 392 practice); tools generalised (`export_target.js`, `mk_native.js <l> --target zh`, `assemble.js vi zh`, `validate.js vi zh`, `dryrun.js`); all released Korean packs re-assemble byte-identically.
    - Next: launch writers w1–w4 [opus] (brief `docs/briefs/vi-zh-writer.md`; w1 also fills the 12 interface strings in `wU.jsonl`), then `mk_native.js vi --target zh --merge` ONCE, `validate.js vi zh --all`, reviewer [opus] (`vi-zh-review.md`; must re-check every Hán Việt reading by lookup: the tools check shape only), `assemble.js vi zh packs/course-vi-zh.js`, remove from HELD, release.
    - Align one term first: profile says *lượng từ*, the Vietnamese roadmap file says *Loại từ*.
-2. **Puerto Rican Spanish for English speakers (`en-espr`)** and **English for Puerto Rican speakers (`spr-en`)**. Lead note: `docs/briefs/pr-lead.md`; decisions `docs/briefs/pr-decisions.md`; profiles `docs/profiles/en-espr.md`, `docs/profiles/spr.md`.
-   - Both are byte copies of the standard Spanish courses with a base record; writers edit only what differs (about a third of a course each). Engine registration is done and released dormant (flag, `es-PR`, voice fallback, clips reused only when the text is identical).
-   - Next: ten launch lines in `pr-lead.md`: EN-ESPR-A, -B, -1, -2, -3 and SPR-CONTENT-A, -B, -C, -D [opus]; SPR-INTERFACE [sonnet: it is an override file on the Spanish dictionary]; then reviewers EN-ESPR-REVIEWER and SPR-REVIEWER [opus].
-   - Owner decisions still open (defaults in brackets): native code `spr` is also the ISO code of an unrelated language, harmless in the app, but changing it after release loses saved progress [keep `spr`]; share-card word "Puerto Rico" vs "Boricua" [Puerto Rico]; a learner who picks "Español (Puerto Rico)" is offered only English, not the Korean course [leave].
+2. Puerto Rican courses: RELEASED in 2.88.0 (see above).
 
-Follow-ups these two setups found: other English-speaker courses without their own praise words show Korean praise on the session-done screen (about 18 courses); `zhNorm` should accept the Vietnamese hỏi mark typed by a VNI keyboard; the grammar-search placeholder shows a Korean example in every course; pattern `我在___工作。` is duplicated in en-zh (`zh.p018`, `zh.p022`).
+Follow-ups these two setups found: other English-speaker courses without their own praise words show Korean praise on the session-done screen (about 18 courses); `zhNorm` should accept the Vietnamese hỏi mark typed by a VNI keyboard; the grammar-search placeholder shows a Korean example in every course; pattern `我在___工作。` is duplicated in en-zh (`zh.p018`, `zh.p022`). From the Puerto Rican reviews, wrong in the live standard-Spanish courses too: es-en `email#11` (explanation conflicts with its accepted *have* answers), `first-conditional#11`, `passive#11` and `false-friends#13` (typed prompts with no cue reject a correct answer); en-es `decks-t2` *yo* note is fine for en-es but check the `se` item accepting *Se rentan departamentos*. Not confirmed by any source: *coger la guagua* (only *tomar* is accepted).
 
 ## Queue after that (owner's order)
 

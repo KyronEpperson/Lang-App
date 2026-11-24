@@ -1,740 +1,740 @@
-{"f":"lessons","id":"tones","k":"title","src":"2 · Four tones and the neutral tone","tgt":""}
-{"f":"lessons","id":"tones","k":"blurb","src":"Hear and say the four tones and the neutral tone, and tell apart words that differ only in tone.","tgt":""}
-{"f":"sentences","id":"zh.s0010","k":"gloss","src":"mom","tgt":""}
-{"f":"sentences","id":"zh.s0011","k":"gloss","src":"numb; hemp","tgt":""}
-{"f":"sentences","id":"zh.s0012","k":"gloss","src":"horse","tgt":""}
-{"f":"sentences","id":"zh.s0013","k":"gloss","src":"to scold","tgt":""}
-{"f":"sentences","id":"zh.s0014","k":"gloss","src":"to buy","tgt":""}
-{"f":"sentences","id":"zh.s0015","k":"gloss","src":"to sell","tgt":""}
-{"f":"sentences","id":"zh.s0016","k":"gloss","src":"soup","tgt":""}
-{"f":"sentences","id":"zh.s0017","k":"gloss","src":"sugar","tgt":""}
-{"f":"sentences","id":"zh.s0018","k":"gloss","src":"mom","tgt":""}
-{"f":"sentences","id":"zh.s0019","k":"gloss","src":"very fast","tgt":""}
-{"f":"checks","id":"tones.k1","k":"q","src":"Which tone is low, and dips when said alone?","tgt":""}
-{"f":"checks","id":"tones.k1","k":"o[0]","src":"The first tone","tgt":""}
-{"f":"checks","id":"tones.k1","k":"o[1]","src":"The second tone","tgt":""}
-{"f":"checks","id":"tones.k1","k":"o[2]","src":"The third tone","tgt":""}
-{"f":"checks","id":"tones.k1","k":"o[3]","src":"The fourth tone","tgt":""}
-{"f":"checks","id":"tones.k1","k":"why","src":"The third tone (ǎ) is low; alone it dips and comes back up.","tgt":""}
-{"f":"checks","id":"tones.k2","k":"q","src":"A word with the fourth tone comes at the end of your question. What happens to its tone?","tgt":""}
-{"f":"checks","id":"tones.k2","k":"o[0]","src":"It still falls","tgt":""}
-{"f":"checks","id":"tones.k2","k":"o[1]","src":"It rises, as in an English question","tgt":"","rw":"English sound comparison (\"as in …\")"}
-{"f":"checks","id":"tones.k2","k":"o[2]","src":"It becomes the first tone","tgt":""}
-{"f":"checks","id":"tones.k2","k":"o[3]","src":"It loses its tone","tgt":""}
-{"f":"checks","id":"tones.k2","k":"why","src":"The tone belongs to the word, so it falls even at the end of a question.","tgt":""}
-{"f":"checks","id":"tones.k3","k":"q","src":"买 (mǎi) and 卖 (mài) differ only in tone. What do they mean?","tgt":""}
-{"f":"checks","id":"tones.k3","k":"o[0]","src":"to sell and to buy","tgt":""}
-{"f":"checks","id":"tones.k3","k":"o[1]","src":"to buy and to sell","tgt":""}
-{"f":"checks","id":"tones.k3","k":"o[2]","src":"to buy and a buyer","tgt":""}
-{"f":"checks","id":"tones.k3","k":"o[3]","src":"the same thing","tgt":""}
-{"f":"checks","id":"tones.k3","k":"why","src":"买 with the third tone is to buy; 卖 with the fourth tone is to sell.","tgt":""}
-{"f":"practice","id":"tones.01","k":"q","src":"Which tone mark shows a falling tone?","tgt":""}
-{"f":"practice","id":"tones.01","k":"why","src":"The fourth tone mark (à) points down: the voice falls.","tgt":""}
-{"f":"practice","id":"tones.02","k":"q","src":"Which word is mǎi (to buy)?","tgt":""}
-{"f":"practice","id":"tones.02","k":"why","src":"买 is mǎi; 卖 (mài) is to sell.","tgt":""}
-{"f":"practice","id":"tones.03","k":"q","src":"Which is the pinyin of 糖 (sugar)?","tgt":""}
-{"f":"practice","id":"tones.03","k":"why","src":"糖 rises: táng. tāng, with a level tone, is soup.","tgt":""}
-{"f":"practice","id":"tones.04","k":"q","src":"In 妈妈 (mom), which tone does the second 妈 have?","tgt":""}
-{"f":"practice","id":"tones.04","k":"o[0]","src":"The neutral tone","tgt":""}
-{"f":"practice","id":"tones.04","k":"o[1]","src":"The first tone","tgt":""}
-{"f":"practice","id":"tones.04","k":"o[2]","src":"The third tone","tgt":""}
-{"f":"practice","id":"tones.04","k":"o[3]","src":"The fourth tone","tgt":""}
-{"f":"practice","id":"tones.04","k":"why","src":"The second syllable of 妈妈 is short and light: it has no tone mark.","tgt":""}
-{"f":"practice","id":"tones.05","k":"q","src":"What does 马 (mǎ) mean?","tgt":""}
-{"f":"practice","id":"tones.05","k":"o[0]","src":"horse","tgt":""}
-{"f":"practice","id":"tones.05","k":"o[1]","src":"mom","tgt":""}
-{"f":"practice","id":"tones.05","k":"o[2]","src":"to scold","tgt":""}
-{"f":"practice","id":"tones.05","k":"o[3]","src":"numb","tgt":""}
-{"f":"practice","id":"tones.05","k":"why","src":"马 with the third tone is horse; mā is mom and mà is to scold.","tgt":""}
-{"f":"practice","id":"tones.06","k":"p","src":"买马 (to buy a horse) in pinyin","tgt":""}
-{"f":"practice","id":"tones.06","k":"why","src":"买 (mǎi) has the third tone; mài, with the fourth tone, means to sell.","tgt":""}
-{"f":"practice","id":"tones.07","k":"p","src":"妈妈 (mom) in pinyin, one syllable per tile","tgt":""}
-{"f":"practice","id":"tones.07","k":"why","src":"The first 妈 has the first tone; the second has the neutral tone, with no mark.","tgt":""}
-{"f":"practice","id":"tones.08","k":"p","src":"很快 (very fast) in pinyin","tgt":""}
-{"f":"practice","id":"tones.08","k":"why","src":"A tone pair: the third tone on hěn, then the fourth tone on kuài.","tgt":""}
-{"f":"practice","id":"tones.09","k":"p","src":"horse","tgt":""}
-{"f":"practice","id":"tones.09","k":"why","src":"马 has the third tone: mǎ. mā is mom and mà is to scold.","tgt":""}
-{"f":"practice","id":"tones.10","k":"p","src":"soup","tgt":""}
-{"f":"practice","id":"tones.10","k":"why","src":"汤 has the first tone, high and level: tāng. táng is sugar.","tgt":""}
-{"f":"practice","id":"tones.11","k":"p","src":"to sell","tgt":""}
-{"f":"practice","id":"tones.11","k":"why","src":"卖 has the fourth tone: mài. mǎi would be to buy.","tgt":""}
-{"f":"practice","id":"tones.12","k":"p","src":"Type the pinyin of 卖 (to sell)","tgt":""}
-{"f":"practice","id":"tones.12","k":"hint","src":"fourth tone · use the accent bar","tgt":""}
-{"f":"practice","id":"tones.12","k":"why","src":"卖 has the fourth tone: it falls. mǎi is to buy.","tgt":""}
-{"f":"practice","id":"tones.13","k":"p","src":"Type the pinyin of 糖 (sugar)","tgt":""}
-{"f":"practice","id":"tones.13","k":"hint","src":"second tone · use the accent bar","tgt":""}
-{"f":"practice","id":"tones.13","k":"why","src":"糖 has the second tone: it rises. tāng is soup.","tgt":""}
-{"f":"practice","id":"tones.14","k":"p","src":"Type the pinyin of 妈 (mom)","tgt":""}
-{"f":"practice","id":"tones.14","k":"hint","src":"first tone · use the accent bar","tgt":""}
-{"f":"practice","id":"tones.14","k":"why","src":"妈 has the first tone: high and level. mǎ is horse.","tgt":""}
-{"f":"lessons","id":"tone-change","k":"title","src":"3 · Tone changes: 不, 一, third tone","tgt":""}
-{"f":"lessons","id":"tone-change","k":"blurb","src":"Say 不 and 一 with the right tone, and say two third tones in a row the way Chinese speakers do.","tgt":""}
-{"f":"sentences","id":"zh.s0020","k":"gloss","src":"is not; no","tgt":""}
-{"f":"sentences","id":"zh.s0021","k":"gloss","src":"you're welcome","tgt":""}
-{"f":"sentences","id":"zh.s0022","k":"gloss","src":"not good","tgt":""}
-{"f":"sentences","id":"zh.s0023","k":"gloss","src":"one person","tgt":""}
-{"f":"sentences","id":"zh.s0024","k":"gloss","src":"one day","tgt":""}
-{"f":"sentences","id":"zh.s0025","k":"gloss","src":"first","tgt":""}
-{"f":"sentences","id":"zh.s0026","k":"gloss","src":"hello","tgt":""}
-{"f":"sentences","id":"zh.s0027","k":"gloss","src":"very good","tgt":""}
-{"f":"checks","id":"tone-change.k1","k":"q","src":"How do you say 不 in 不是 (is not)?","tgt":""}
-{"f":"checks","id":"tone-change.k1","k":"o[0]","src":"bù, falling","tgt":""}
-{"f":"checks","id":"tone-change.k1","k":"o[1]","src":"bú, rising","tgt":""}
-{"f":"checks","id":"tone-change.k1","k":"o[2]","src":"bū, high and level","tgt":""}
-{"f":"checks","id":"tone-change.k1","k":"o[3]","src":"with no tone","tgt":""}
-{"f":"checks","id":"tone-change.k1","k":"why","src":"不 before a fourth tone (shì) rises: bú shì.","tgt":""}
-{"f":"checks","id":"tone-change.k2","k":"q","src":"Two third tones come in a row, as in 你好. How are they said?","tgt":"","rw":"English sound comparison (\"as in …\")"}
-{"f":"checks","id":"tone-change.k2","k":"o[0]","src":"Both low and dipping","tgt":""}
-{"f":"checks","id":"tone-change.k2","k":"o[1]","src":"Both falling","tgt":""}
-{"f":"checks","id":"tone-change.k2","k":"o[2]","src":"The first one like a second tone","tgt":""}
-{"f":"checks","id":"tone-change.k2","k":"o[3]","src":"The second one like a second tone","tgt":""}
-{"f":"checks","id":"tone-change.k2","k":"why","src":"The first of two third tones is said like a second tone: 你好 sounds like ní hǎo.","tgt":"","rw":"English sound comparison (\"sounds like …\")"}
-{"f":"checks","id":"tone-change.k3","k":"q","src":"In which of these is 一 said yī, with the first tone?","tgt":""}
-{"f":"checks","id":"tone-change.k3","k":"o[0]","src":"第一 (first)","tgt":""}
-{"f":"checks","id":"tone-change.k3","k":"o[1]","src":"一个人 (one person)","tgt":""}
-{"f":"checks","id":"tone-change.k3","k":"o[2]","src":"一天 (one day)","tgt":""}
-{"f":"checks","id":"tone-change.k3","k":"o[3]","src":"一起 (together)","tgt":""}
-{"f":"checks","id":"tone-change.k3","k":"why","src":"After 第 and in counting, 一 keeps its first tone; before a word it changes.","tgt":""}
-{"f":"practice","id":"tone-change.01","k":"q","src":"Which is the pinyin of 不是 (is not)?","tgt":""}
-{"f":"practice","id":"tone-change.01","k":"why","src":"不 before a fourth tone rises: bú shì.","tgt":""}
-{"f":"practice","id":"tone-change.02","k":"q","src":"How do Chinese speakers say 你好 (hello)?","tgt":""}
-{"f":"practice","id":"tone-change.02","k":"o[0]","src":"ní hǎo, with the first syllable rising","tgt":""}
-{"f":"practice","id":"tone-change.02","k":"o[1]","src":"nǐ hǎo, with two full dips","tgt":""}
-{"f":"practice","id":"tone-change.02","k":"o[2]","src":"nǐ hào, with the second syllable falling","tgt":""}
-{"f":"practice","id":"tone-change.02","k":"o[3]","src":"nì hǎo, with the first syllable falling","tgt":""}
-{"f":"practice","id":"tone-change.02","k":"why","src":"The first of two third tones is said like a second tone; the pinyin still writes nǐ hǎo.","tgt":"","rw":"English sound comparison (\"sounds like …\")"}
-{"f":"practice","id":"tone-change.03","k":"q","src":"Which is the pinyin of 一个人 (one person)?","tgt":""}
-{"f":"practice","id":"tone-change.03","k":"why","src":"个 counts as a fourth tone, so 一 before it rises: yí ge.","tgt":""}
-{"f":"practice","id":"tone-change.04","k":"q","src":"In which phrase is 不 said bù, with its fourth tone?","tgt":""}
-{"f":"practice","id":"tone-change.04","k":"why","src":"Before a third tone (hǎo) 不 keeps its fourth tone: bù hǎo.","tgt":""}
-{"f":"practice","id":"tone-change.05","k":"q","src":"When does 一 keep its first tone, yī?","tgt":""}
-{"f":"practice","id":"tone-change.05","k":"o[0]","src":"When you count: yī, èr, sān","tgt":""}
-{"f":"practice","id":"tone-change.05","k":"o[1]","src":"Before a fourth tone","tgt":""}
-{"f":"practice","id":"tone-change.05","k":"o[2]","src":"Before 个","tgt":""}
-{"f":"practice","id":"tone-change.05","k":"o[3]","src":"Before a first tone","tgt":""}
-{"f":"practice","id":"tone-change.05","k":"why","src":"In counting, at the end of a bigger number (十一) and after 第, 一 stays yī.","tgt":""}
-{"f":"practice","id":"tone-change.06","k":"p","src":"不是 (is not) in pinyin","tgt":""}
-{"f":"practice","id":"tone-change.06","k":"why","src":"Tone change: 不 before a fourth tone is bú.","tgt":""}
-{"f":"practice","id":"tone-change.07","k":"p","src":"一个人 (one person) in pinyin","tgt":""}
-{"f":"practice","id":"tone-change.07","k":"why","src":"一 before 个 takes the second tone: yí ge rén.","tgt":""}
-{"f":"practice","id":"tone-change.08","k":"p","src":"不好 (not good) in pinyin","tgt":""}
-{"f":"practice","id":"tone-change.08","k":"why","src":"Before a third tone, 不 keeps its fourth tone: bù hǎo.","tgt":""}
-{"f":"practice","id":"tone-change.09","k":"p","src":"you're welcome","tgt":""}
-{"f":"practice","id":"tone-change.09","k":"why","src":"客 has the fourth tone, so 不 rises: bú kèqi.","tgt":""}
-{"f":"practice","id":"tone-change.10","k":"p","src":"together","tgt":""}
-{"f":"practice","id":"tone-change.10","k":"why","src":"Before a third tone (qǐ), 一 is said yì: yìqǐ.","tgt":""}
-{"f":"practice","id":"tone-change.11","k":"p","src":"first","tgt":""}
-{"f":"practice","id":"tone-change.11","k":"why","src":"After 第, 一 keeps its first tone: dìyī.","tgt":""}
-{"f":"practice","id":"tone-change.12","k":"p","src":"Type the pinyin of 不客气 (you're welcome)","tgt":""}
-{"f":"practice","id":"tone-change.12","k":"hint","src":"two words · 不 changes before a fourth tone","tgt":""}
-{"f":"practice","id":"tone-change.12","k":"why","src":"Tone change: 不 before a fourth tone is bú, so bú kèqi.","tgt":""}
-{"f":"practice","id":"tone-change.13","k":"p","src":"one person (in characters)","tgt":""}
-{"f":"practice","id":"tone-change.13","k":"hint","src":"个 goes between the number and the noun","tgt":""}
-{"f":"practice","id":"tone-change.13","k":"why","src":"A number needs a measure word before the noun: 一个人.","tgt":""}
-{"f":"practice","id":"tone-change.14","k":"p","src":"Type the pinyin of 你好 (hello), the way it is written","tgt":""}
-{"f":"practice","id":"tone-change.14","k":"hint","src":"two words · pinyin writes the dictionary tones","tgt":""}
-{"f":"practice","id":"tone-change.14","k":"why","src":"Pinyin writes the third tone mark on both: nǐ hǎo, though you say ní hǎo.","tgt":""}
-{"f":"lessons","id":"characters","k":"title","src":"4 · How characters work: strokes and radicals","tgt":""}
-{"f":"lessons","id":"characters","k":"blurb","src":"Recognize about 25 basic characters and see how pictures, compounds and radicals build the rest.","tgt":""}
-{"f":"sentences","id":"zh.s0028","k":"gloss","src":"person","tgt":""}
-{"f":"sentences","id":"zh.s0029","k":"gloss","src":"tree; wood","tgt":""}
-{"f":"sentences","id":"zh.s0030","k":"gloss","src":"mountain","tgt":""}
-{"f":"sentences","id":"zh.s0031","k":"gloss","src":"woods","tgt":""}
-{"f":"sentences","id":"zh.s0032","k":"gloss","src":"bright","tgt":""}
-{"f":"sentences","id":"zh.s0033","k":"gloss","src":"good","tgt":""}
-{"f":"checks","id":"characters.k1","k":"q","src":"What is a radical?","tgt":""}
-{"f":"checks","id":"characters.k1","k":"o[0]","src":"A part of a character that hints at its meaning","tgt":""}
-{"f":"checks","id":"characters.k1","k":"o[1]","src":"A letter of the Chinese alphabet","tgt":""}
-{"f":"checks","id":"characters.k1","k":"o[2]","src":"The pinyin of a character","tgt":""}
-{"f":"checks","id":"characters.k1","k":"o[3]","src":"A tone mark","tgt":""}
-{"f":"checks","id":"characters.k1","k":"why","src":"A radical, such as 氵 for water, hints at the meaning; it does not spell the sound.","tgt":""}
-{"f":"checks","id":"characters.k2","k":"q","src":"What does 休 (to rest) show?","tgt":""}
-{"f":"checks","id":"characters.k2","k":"o[0]","src":"Two trees","tgt":""}
-{"f":"checks","id":"characters.k2","k":"o[1]","src":"A person leaning on a tree","tgt":""}
-{"f":"checks","id":"characters.k2","k":"o[2]","src":"The sun and the moon","tgt":""}
-{"f":"checks","id":"characters.k2","k":"o[3]","src":"An open mouth","tgt":""}
-{"f":"checks","id":"characters.k2","k":"why","src":"休 is 亻 (person) next to 木 (tree): someone resting against a tree.","tgt":""}
-{"f":"checks","id":"characters.k3","k":"q","src":"Which characters does this course teach?","tgt":""}
-{"f":"checks","id":"characters.k3","k":"o[0]","src":"Traditional characters, as in Taiwan","tgt":"","rw":"English sound comparison (\"as in …\")"}
-{"f":"checks","id":"characters.k3","k":"o[1]","src":"A mix of both","tgt":""}
-{"f":"checks","id":"characters.k3","k":"o[2]","src":"Simplified characters, as in mainland China","tgt":"","rw":"English sound comparison (\"as in …\")"}
-{"f":"checks","id":"characters.k3","k":"o[3]","src":"Pinyin only, no characters","tgt":""}
-{"f":"checks","id":"characters.k3","k":"why","src":"The course teaches simplified characters, used in mainland China, with pinyin under them.","tgt":""}
-{"f":"practice","id":"characters.01","k":"q","src":"Which character began as a picture of a tree?","tgt":""}
-{"f":"practice","id":"characters.01","k":"why","src":"木 is a tree with its roots; two of them make 林, woods.","tgt":""}
-{"f":"practice","id":"characters.02","k":"q","src":"好 (good) is made of 女 and 子. What do they mean?","tgt":""}
-{"f":"practice","id":"characters.02","k":"o[0]","src":"woman and child","tgt":""}
-{"f":"practice","id":"characters.02","k":"o[1]","src":"sun and moon","tgt":""}
-{"f":"practice","id":"characters.02","k":"o[2]","src":"person and tree","tgt":""}
-{"f":"practice","id":"characters.02","k":"o[3]","src":"mouth and water","tgt":""}
-{"f":"practice","id":"characters.02","k":"why","src":"女 is woman and 子 is child: together, good.","tgt":""}
-{"f":"practice","id":"characters.03","k":"q","src":"Which part of 汤 (soup) hints at its meaning?","tgt":""}
-{"f":"practice","id":"characters.03","k":"o[0]","src":"氵 on the left, which means water","tgt":""}
-{"f":"practice","id":"characters.03","k":"o[1]","src":"The right side, which spells the sound","tgt":""}
-{"f":"practice","id":"characters.03","k":"o[2]","src":"Its top stroke","tgt":""}
-{"f":"practice","id":"characters.03","k":"o[3]","src":"No part: characters give no hints","tgt":""}
-{"f":"practice","id":"characters.03","k":"why","src":"Three dots on the left (氵) mark words to do with water.","tgt":""}
-{"f":"practice","id":"characters.04","k":"q","src":"Which is the pinyin of 好 (good)?","tgt":""}
-{"f":"practice","id":"characters.04","k":"why","src":"好 (good) has the third tone: hǎo.","tgt":""}
-{"f":"practice","id":"characters.05","k":"q","src":"明 (bright) is 日 + 月. What are they?","tgt":""}
-{"f":"practice","id":"characters.05","k":"o[0]","src":"the sun and the moon","tgt":""}
-{"f":"practice","id":"characters.05","k":"o[1]","src":"two trees","tgt":""}
-{"f":"practice","id":"characters.05","k":"o[2]","src":"a person and a tree","tgt":""}
-{"f":"practice","id":"characters.05","k":"o[3]","src":"a mouth and a door","tgt":""}
-{"f":"practice","id":"characters.05","k":"why","src":"日 is the sun and 月 is the moon: together, bright.","tgt":""}
-{"f":"practice","id":"characters.06","k":"p","src":"a good person (in characters)","tgt":""}
-{"f":"practice","id":"characters.06","k":"why","src":"The describer goes before the noun: 好人, good person.","tgt":""}
-{"f":"practice","id":"characters.07","k":"p","src":"好人 (a good person) in pinyin","tgt":""}
-{"f":"practice","id":"characters.07","k":"why","src":"好 has the third tone mark: hǎo rén.","tgt":""}
-{"f":"practice","id":"characters.08","k":"p","src":"a big mountain (in characters; 大 = big)","tgt":""}
-{"f":"practice","id":"characters.08","k":"why","src":"The describer goes before the noun: 大山, big mountain.","tgt":""}
-{"f":"practice","id":"characters.09","k":"p","src":"sun + moon = bright","tgt":""}
-{"f":"practice","id":"characters.09","k":"why","src":"The sun and the moon together make 明, bright.","tgt":""}
-{"f":"practice","id":"characters.10","k":"p","src":"tree + tree = woods","tgt":""}
-{"f":"practice","id":"characters.10","k":"why","src":"Two trees make 林 (woods); three trees make 森 (forest).","tgt":""}
-{"f":"practice","id":"characters.11","k":"p","src":"woman + child = good","tgt":""}
-{"f":"practice","id":"characters.11","k":"why","src":"女 (woman) and 子 (child) make 好, good.","tgt":""}
-{"f":"practice","id":"characters.12","k":"p","src":"Type the pinyin of 好 (good)","tgt":""}
-{"f":"practice","id":"characters.12","k":"hint","src":"third tone · use the accent bar","tgt":""}
-{"f":"practice","id":"characters.12","k":"why","src":"好 has the third tone mark: hǎo.","tgt":""}
-{"f":"practice","id":"characters.13","k":"p","src":"a good person (in characters)","tgt":""}
-{"f":"practice","id":"characters.13","k":"hint","src":"the describer comes first","tgt":""}
-{"f":"practice","id":"characters.13","k":"why","src":"The describer goes before the noun: 好人.","tgt":""}
-{"f":"practice","id":"characters.14","k":"p","src":"Type the pinyin of 人 (person)","tgt":""}
-{"f":"practice","id":"characters.14","k":"hint","src":"second tone · use the accent bar","tgt":""}
-{"f":"practice","id":"characters.14","k":"why","src":"人 has the second tone: it rises, rén.","tgt":""}
-{"f":"lessons","id":"greetings","k":"title","src":"5 · Hello, thank you, sorry: Chinese courtesy","tgt":""}
-{"f":"lessons","id":"greetings","k":"blurb","src":"Say hello, thank you, sorry and goodbye, give your name, and know when to use the polite 您.","tgt":""}
-{"f":"sentences","id":"zh.s0034","k":"gloss","src":"Hello!","tgt":""}
-{"f":"sentences","id":"zh.s0035","k":"gloss","src":"Hello! (polite)","tgt":""}
-{"f":"sentences","id":"zh.s0036","k":"gloss","src":"Hello, Teacher Wang!","tgt":""}
-{"f":"sentences","id":"zh.s0037","k":"gloss","src":"Thank you!","tgt":""}
-{"f":"sentences","id":"zh.s0038","k":"gloss","src":"You're welcome.","tgt":""}
-{"f":"sentences","id":"zh.s0039","k":"gloss","src":"I'm sorry.","tgt":""}
-{"f":"sentences","id":"zh.s0040","k":"gloss","src":"That's OK.","tgt":""}
-{"f":"sentences","id":"zh.s0041","k":"gloss","src":"Excuse me, what's your last name?","tgt":""}
-{"f":"sentences","id":"zh.s0042","k":"gloss","src":"My last name is Wang.","tgt":""}
-{"f":"sentences","id":"zh.s0043","k":"gloss","src":"My name is Wang Ming.","tgt":""}
-{"f":"sentences","id":"zh.s0044","k":"gloss","src":"Excuse me! (calling a server)","tgt":""}
-{"f":"sentences","id":"zh.s0045","k":"gloss","src":"Goodbye!","tgt":""}
-{"f":"checks","id":"greetings.k1","k":"q","src":"When should you use 您 instead of 你?","tgt":""}
-{"f":"checks","id":"greetings.k1","k":"o[0]","src":"With your best friend","tgt":""}
-{"f":"checks","id":"greetings.k1","k":"o[1]","src":"With an older person, a teacher or a customer","tgt":""}
-{"f":"checks","id":"greetings.k1","k":"o[2]","src":"With a small child","tgt":""}
-{"f":"checks","id":"greetings.k1","k":"o[3]","src":"Never; it is old-fashioned","tgt":""}
-{"f":"checks","id":"greetings.k1","k":"why","src":"您 shows respect: for older people, teachers, and from staff to customers.","tgt":""}
-{"f":"checks","id":"greetings.k2","k":"q","src":"What does 你好吗？ usually mean?","tgt":""}
-{"f":"checks","id":"greetings.k2","k":"o[0]","src":"Hi! (a casual greeting)","tgt":""}
-{"f":"checks","id":"greetings.k2","k":"o[1]","src":"Goodbye","tgt":""}
-{"f":"checks","id":"greetings.k2","k":"o[2]","src":"A real question: are you doing well?","tgt":""}
-{"f":"checks","id":"greetings.k2","k":"o[3]","src":"Thank you","tgt":""}
-{"f":"checks","id":"greetings.k2","k":"why","src":"你好吗 asks how someone really is; for a casual hi, say 你好.","tgt":""}
-{"f":"checks","id":"greetings.k3","k":"q","src":"Which word do you use to call a server in a restaurant?","tgt":""}
-{"f":"checks","id":"greetings.k3","k":"why","src":"Call a server 服务员; 小姐 now has a bad meaning in mainland China.","tgt":""}
-{"f":"practice","id":"greetings.01","k":"q","src":"Which is the pinyin of 您 (you, polite)?","tgt":""}
-{"f":"practice","id":"greetings.01","k":"why","src":"您 has the second tone: nín. 你 has the third tone: nǐ.","tgt":""}
-{"f":"practice","id":"greetings.02","k":"q","src":"Which do you say to an older neighbor?","tgt":""}
-{"f":"practice","id":"greetings.02","k":"why","src":"您好 is the polite hello for older people.","tgt":""}
-{"f":"practice","id":"greetings.03","k":"q","src":"Someone says 对不起 to you. What do you answer?","tgt":""}
-{"f":"practice","id":"greetings.03","k":"why","src":"没关系 (that's OK) answers an apology; 不客气 answers thanks.","tgt":""}
-{"f":"practice","id":"greetings.04","k":"q","src":"Your friend says 谢谢. What do you answer?","tgt":""}
-{"f":"practice","id":"greetings.04","k":"why","src":"不客气 (you're welcome) answers thanks.","tgt":""}
-{"f":"practice","id":"greetings.05","k":"q","src":"How do you call a server in a restaurant?","tgt":""}
-{"f":"practice","id":"greetings.05","k":"why","src":"服务员 is the normal word; 小姐 suggests a sex worker in the mainland.","tgt":""}
-{"f":"practice","id":"greetings.06","k":"p","src":"您好 (hello, polite) in pinyin","tgt":""}
-{"f":"practice","id":"greetings.06","k":"why","src":"您 has the second tone: it rises, nín hǎo.","tgt":""}
-{"f":"practice","id":"greetings.07","k":"p","src":"a Chinese teacher (a teacher of Chinese)","tgt":""}
-{"f":"practice","id":"greetings.07","k":"why","src":"The describer goes before the noun: 中文老师.","tgt":""}
-{"f":"practice","id":"greetings.08","k":"p","src":"My name is Wang Ming.","tgt":""}
-{"f":"practice","id":"greetings.08","k":"why","src":"叫 means to be called: 我叫 + your name.","tgt":""}
-{"f":"practice","id":"greetings.09","k":"p","src":"My last name is Wang.","tgt":""}
-{"f":"practice","id":"greetings.09","k":"why","src":"Answer with 姓; 贵 is only for the other person's name.","tgt":""}
-{"f":"practice","id":"greetings.10","k":"p","src":"Excuse me, what's your last name?","tgt":""}
-{"f":"practice","id":"greetings.10","k":"why","src":"请问 (may I ask) opens a polite question.","tgt":""}
-{"f":"practice","id":"greetings.11","k":"p","src":"That's OK.","tgt":""}
-{"f":"practice","id":"greetings.11","k":"why","src":"没关系 (that's OK) answers sorry; 不客气 answers thank you.","tgt":""}
-{"f":"practice","id":"greetings.12","k":"p","src":"Type the pinyin of 再见 (goodbye)","tgt":""}
-{"f":"practice","id":"greetings.12","k":"hint","src":"fourth tone + fourth tone · one word","tgt":""}
-{"f":"practice","id":"greetings.12","k":"why","src":"再见 is two fourth tones: zàijiàn.","tgt":""}
-{"f":"practice","id":"greetings.13","k":"p","src":"an American teacher (美国 = America)","tgt":""}
-{"f":"practice","id":"greetings.13","k":"hint","src":"the describer comes first","tgt":""}
-{"f":"practice","id":"greetings.13","k":"why","src":"The describer goes before the noun: 美国老师.","tgt":""}
-{"f":"practice","id":"greetings.14","k":"p","src":"My last name is Li. (answering 您贵姓？)","tgt":""}
-{"f":"practice","id":"greetings.14","k":"why","src":"Answer with 我姓 + surname; 贵 is only for the person you ask.","tgt":""}
-{"f":"lessons","id":"pronouns","k":"title","src":"6 · Pronouns and 们","tgt":""}
-{"f":"lessons","id":"pronouns","k":"blurb","src":"Say I, you, he, she, we and they, make them plural with 们, and say my friend or their teacher.","tgt":""}
-{"f":"sentences","id":"zh.s0046","k":"gloss","src":"His name is Wang Ming.","tgt":""}
-{"f":"sentences","id":"zh.s0047","k":"gloss","src":"Her last name is Li.","tgt":""}
-{"f":"sentences","id":"zh.s0048","k":"gloss","src":"Hello, everyone! (to a group)","tgt":""}
-{"f":"sentences","id":"zh.s0049","k":"gloss","src":"Hello, everybody!","tgt":""}
-{"f":"sentences","id":"zh.s0050","k":"gloss","src":"five students","tgt":""}
-{"f":"sentences","id":"zh.s0051","k":"gloss","src":"my friend","tgt":""}
-{"f":"sentences","id":"zh.s0052","k":"gloss","src":"My friend's name is Anna.","tgt":""}
-{"f":"sentences","id":"zh.s0053","k":"gloss","src":"Our teacher's last name is Wang.","tgt":""}
-{"f":"checks","id":"pronouns.k1","k":"q","src":"How do you say we?","tgt":""}
-{"f":"checks","id":"pronouns.k1","k":"o[0]","src":"我s","tgt":""}
-{"f":"checks","id":"pronouns.k1","k":"why","src":"们 after a pronoun makes it plural: 我们.","tgt":""}
-{"f":"checks","id":"pronouns.k2","k":"q","src":"How do 他 (he) and 她 (she) sound?","tgt":""}
-{"f":"checks","id":"pronouns.k2","k":"o[0]","src":"他 is tā, 她 is tà","tgt":""}
-{"f":"checks","id":"pronouns.k2","k":"o[1]","src":"Exactly the same: tā","tgt":""}
-{"f":"checks","id":"pronouns.k2","k":"o[2]","src":"她 is said nǚ","tgt":""}
-{"f":"checks","id":"pronouns.k2","k":"o[3]","src":"他 rises and 她 falls","tgt":""}
-{"f":"checks","id":"pronouns.k2","k":"why","src":"他, 她 and 它 are all tā; only the character shows the difference.","tgt":""}
-{"f":"checks","id":"pronouns.k3","k":"q","src":"Which is right for five students?","tgt":""}
-{"f":"checks","id":"pronouns.k3","k":"why","src":"A number takes a measure word and no 们: 五个学生.","tgt":""}
-{"f":"practice","id":"pronouns.01","k":"q","src":"Which is the pinyin of 他 (he)?","tgt":""}
-{"f":"practice","id":"pronouns.01","k":"why","src":"他 has the first tone: high and level, tā.","tgt":""}
-{"f":"practice","id":"pronouns.02","k":"q","src":"How do you say we?","tgt":""}
-{"f":"practice","id":"pronouns.02","k":"why","src":"们 makes 我 plural: 我们.","tgt":""}
-{"f":"practice","id":"pronouns.03","k":"q","src":"You hear tā in a sentence. Who is it?","tgt":""}
-{"f":"practice","id":"pronouns.03","k":"o[0]","src":"he, she or it: they sound the same","tgt":""}
-{"f":"practice","id":"pronouns.03","k":"o[1]","src":"only he","tgt":""}
-{"f":"practice","id":"pronouns.03","k":"o[2]","src":"only she","tgt":""}
-{"f":"practice","id":"pronouns.03","k":"o[3]","src":"only it","tgt":""}
-{"f":"practice","id":"pronouns.03","k":"why","src":"他, 她 and 它 are all tā; context tells you which.","tgt":""}
-{"f":"practice","id":"pronouns.04","k":"q","src":"Which is right for three students?","tgt":""}
-{"f":"practice","id":"pronouns.04","k":"why","src":"After a number, use 个 and no 们.","tgt":""}
-{"f":"practice","id":"pronouns.05","k":"q","src":"Which word means they, for a group of women?","tgt":""}
-{"f":"practice","id":"pronouns.05","k":"why","src":"她 + 们 is a group of women; 他们 covers men or mixed groups.","tgt":""}
-{"f":"practice","id":"pronouns.06","k":"p","src":"their teacher","tgt":""}
-{"f":"practice","id":"pronouns.06","k":"why","src":"The owner goes before the noun: 他们的老师.","tgt":""}
-{"f":"practice","id":"pronouns.07","k":"p","src":"five students (五 = five)","tgt":""}
-{"f":"practice","id":"pronouns.07","k":"why","src":"A number needs a measure word before the noun, and no 们: 五个学生.","tgt":""}
-{"f":"practice","id":"pronouns.08","k":"p","src":"His name is Wang Ming.","tgt":""}
-{"f":"practice","id":"pronouns.08","k":"why","src":"叫 gives the full name; 姓 gives only the last name.","tgt":""}
-{"f":"practice","id":"pronouns.09","k":"p","src":"Hello, everyone! (to a group of friends)","tgt":""}
-{"f":"practice","id":"pronouns.09","k":"why","src":"你 + 们 is you all: 你们好.","tgt":""}
-{"f":"practice","id":"pronouns.10","k":"p","src":"five students","tgt":""}
-{"f":"practice","id":"pronouns.10","k":"why","src":"A number takes 个 before the noun: 五个学生.","tgt":""}
-{"f":"practice","id":"pronouns.11","k":"p","src":"Our teacher's last name is Wang.","tgt":""}
-{"f":"practice","id":"pronouns.11","k":"why","src":"我们 is we or us; with 的, our.","tgt":""}
-{"f":"practice","id":"pronouns.12","k":"p","src":"five students (五 = five)","tgt":""}
-{"f":"practice","id":"pronouns.12","k":"hint","src":"no 们 after a number","tgt":""}
-{"f":"practice","id":"pronouns.12","k":"why","src":"A number needs a measure word before the noun, and no 们: 五个学生.","tgt":""}
-{"f":"practice","id":"pronouns.13","k":"p","src":"my friend","tgt":""}
-{"f":"practice","id":"pronouns.13","k":"hint","src":"the owner comes first","tgt":""}
-{"f":"practice","id":"pronouns.13","k":"why","src":"The owner goes before the noun: 我的朋友, or 我朋友 for a close friend.","tgt":""}
-{"f":"practice","id":"pronouns.14","k":"p","src":"Hello, everyone! (to a group)","tgt":""}
-{"f":"practice","id":"pronouns.14","k":"why","src":"们 makes you plural: 你们好. 大家好 works too.","tgt":""}
-{"f":"lessons","id":"shi","k":"title","src":"7 · 是: A is B","tgt":""}
-{"f":"lessons","id":"shi","k":"blurb","src":"Say who you are and where you are from with 是, and say what you are not with 不是.","tgt":""}
-{"f":"sentences","id":"zh.s0054","k":"gloss","src":"I'm American.","tgt":""}
-{"f":"sentences","id":"zh.s0055","k":"gloss","src":"She's a teacher.","tgt":""}
-{"f":"sentences","id":"zh.s0056","k":"gloss","src":"I'm a student.","tgt":""}
-{"f":"sentences","id":"zh.s0057","k":"gloss","src":"He isn't Chinese.","tgt":""}
-{"f":"sentences","id":"zh.s0058","k":"gloss","src":"Wang Ming is Chinese.","tgt":""}
-{"f":"sentences","id":"zh.s0059","k":"gloss","src":"He's an American student.","tgt":""}
-{"f":"sentences","id":"zh.s0060","k":"gloss","src":"Teacher Li is a Chinese teacher.","tgt":""}
-{"f":"sentences","id":"zh.s0061","k":"gloss","src":"I'm a student too.","tgt":""}
-{"f":"checks","id":"shi.k1","k":"q","src":"Which sentence means I'm American?","tgt":""}
-{"f":"checks","id":"shi.k1","k":"why","src":"Noun 是 noun: 我是美国人. 美国 alone is the country.","tgt":""}
-{"f":"checks","id":"shi.k2","k":"q","src":"How is 不是 said?","tgt":""}
-{"f":"checks","id":"shi.k2","k":"why","src":"不 before a fourth tone rises: bú shì.","tgt":""}
-{"f":"checks","id":"shi.k3","k":"q","src":"Where does 也 (also) go?","tgt":""}
-{"f":"checks","id":"shi.k3","k":"o[0]","src":"At the end, like too","tgt":""}
-{"f":"checks","id":"shi.k3","k":"o[1]","src":"Before the verb","tgt":""}
-{"f":"checks","id":"shi.k3","k":"o[2]","src":"Before the subject","tgt":""}
-{"f":"checks","id":"shi.k3","k":"o[3]","src":"After the verb","tgt":""}
-{"f":"checks","id":"shi.k3","k":"why","src":"也 goes right before the verb: 我也是学生.","tgt":""}
-{"f":"practice","id":"shi.01","k":"q","src":"Which is the pinyin of 是 (to be)?","tgt":""}
-{"f":"practice","id":"shi.01","k":"why","src":"是 has the fourth tone: it falls, shì.","tgt":""}
-{"f":"practice","id":"shi.02","k":"q","src":"I'm American.","tgt":""}
-{"f":"practice","id":"shi.02","k":"why","src":"Noun 是 noun, and 美国人 (American person), not 美国 (America).","tgt":""}
-{"f":"practice","id":"shi.03","k":"q","src":"He isn't a teacher.","tgt":""}
-{"f":"practice","id":"shi.03","k":"why","src":"不 goes right before 是: 不是.","tgt":""}
-{"f":"practice","id":"shi.04","k":"q","src":"Which word means a Chinese person?","tgt":""}
-{"f":"practice","id":"shi.04","k":"why","src":"Country + 人: 中国人. 中文 is the language.","tgt":""}
-{"f":"practice","id":"shi.05","k":"q","src":"I'm a student too.","tgt":""}
-{"f":"practice","id":"shi.05","k":"why","src":"也 goes right before 是, not at the end like too.","tgt":""}
-{"f":"practice","id":"shi.06","k":"p","src":"I'm a student too.","tgt":""}
-{"f":"practice","id":"shi.06","k":"why","src":"也 goes before the verb, not at the end like English too.","tgt":"","rw":"mentions English"}
-{"f":"practice","id":"shi.07","k":"p","src":"He's an American student. (start with he)","tgt":""}
-{"f":"practice","id":"shi.07","k":"why","src":"The describer goes before the noun: 美国学生.","tgt":""}
-{"f":"practice","id":"shi.08","k":"p","src":"She isn't Chinese.","tgt":""}
-{"f":"practice","id":"shi.08","k":"why","src":"是 is negated with 不, never with 没.","tgt":""}
-{"f":"practice","id":"shi.09","k":"p","src":"I'm American.","tgt":""}
-{"f":"practice","id":"shi.09","k":"why","src":"是 joins two nouns: I = American.","tgt":""}
-{"f":"practice","id":"shi.10","k":"p","src":"He isn't a teacher.","tgt":""}
-{"f":"practice","id":"shi.10","k":"why","src":"Is not is 不是; 没 never goes with 是.","tgt":""}
-{"f":"practice","id":"shi.11","k":"p","src":"Wang Ming is Chinese.","tgt":""}
-{"f":"practice","id":"shi.11","k":"why","src":"Country + 人 is a person from there; 中文 is the language.","tgt":""}
-{"f":"practice","id":"shi.12","k":"p","src":"I'm a student too.","tgt":""}
-{"f":"practice","id":"shi.12","k":"hint","src":"also goes before 是","tgt":""}
-{"f":"practice","id":"shi.12","k":"why","src":"也 goes before the verb: 我也是学生.","tgt":""}
-{"f":"practice","id":"shi.13","k":"p","src":"She's an English teacher. (a teacher of English)","tgt":"","rw":"mentions English"}
-{"f":"practice","id":"shi.13","k":"hint","src":"英语 (English) · 老师","tgt":"","rw":"mentions English"}
-{"f":"practice","id":"shi.13","k":"why","src":"The describer goes before the noun: 英语老师.","tgt":""}
-{"f":"practice","id":"shi.14","k":"p","src":"I'm not American.","tgt":""}
-{"f":"practice","id":"shi.14","k":"why","src":"Use 不 with 是; 没 never goes with 是.","tgt":""}
-{"f":"lessons","id":"adj","k":"title","src":"8 · Adjectives with 很 (no 是)","tgt":""}
-{"f":"lessons","id":"adj","k":"blurb","src":"Describe people and things with 很, 不 and 太…了, without the 是 that English makes you want.","tgt":"","rw":"mentions English"}
-{"f":"sentences","id":"zh.s0062","k":"gloss","src":"She's tall.","tgt":""}
-{"f":"sentences","id":"zh.s0063","k":"gloss","src":"I'm busy.","tgt":""}
-{"f":"sentences","id":"zh.s0064","k":"gloss","src":"I'm tired.","tgt":""}
-{"f":"sentences","id":"zh.s0065","k":"gloss","src":"I'm fine.","tgt":""}
-{"f":"sentences","id":"zh.s0066","k":"gloss","src":"She's tall; I'm not.","tgt":""}
-{"f":"sentences","id":"zh.s0067","k":"gloss","src":"I'm not busy.","tgt":""}
-{"f":"sentences","id":"zh.s0068","k":"gloss","src":"The coffee isn't expensive.","tgt":""}
-{"f":"sentences","id":"zh.s0069","k":"gloss","src":"That's too expensive!","tgt":""}
-{"f":"sentences","id":"zh.s0070","k":"gloss","src":"Great!","tgt":""}
-{"f":"sentences","id":"zh.s0071","k":"gloss","src":"He's a good friend.","tgt":""}
-{"f":"sentences","id":"zh.s0072","k":"gloss","src":"a very good friend","tgt":""}
-{"f":"checks","id":"adj.k1","k":"q","src":"Which sentence means He's tall?","tgt":""}
-{"f":"checks","id":"adj.k1","k":"why","src":"Adjectives work like verbs: no 是, and 很 goes before the adjective.","tgt":""}
-{"f":"checks","id":"adj.k2","k":"q","src":"What does 很 add in 我很好 (I'm fine)?","tgt":""}
-{"f":"checks","id":"adj.k2","k":"o[0]","src":"Usually little: it is glue before the adjective","tgt":""}
-{"f":"checks","id":"adj.k2","k":"o[1]","src":"Always a strong very","tgt":""}
-{"f":"checks","id":"adj.k2","k":"o[2]","src":"It turns it into a question","tgt":""}
-{"f":"checks","id":"adj.k2","k":"o[3]","src":"It shows the past","tgt":""}
-{"f":"checks","id":"adj.k2","k":"why","src":"In a plain statement 很 mostly makes the sentence sound complete.","tgt":""}
-{"f":"checks","id":"adj.k3","k":"q","src":"How do you say not busy?","tgt":""}
-{"f":"checks","id":"adj.k3","k":"why","src":"不 goes right before the adjective, with no 是: 不忙.","tgt":""}
-{"f":"practice","id":"adj.01","k":"q","src":"Which is the pinyin of 很 (very)?","tgt":""}
-{"f":"practice","id":"adj.01","k":"why","src":"很 has the third tone: low, hěn.","tgt":""}
-{"f":"practice","id":"adj.02","k":"q","src":"She's tall.","tgt":""}
-{"f":"practice","id":"adj.02","k":"why","src":"No 是 before an adjective; use 很.","tgt":""}
-{"f":"practice","id":"adj.03","k":"q","src":"I'm not busy.","tgt":""}
-{"f":"practice","id":"adj.03","k":"why","src":"不 goes right before the adjective, with no 是.","tgt":""}
-{"f":"practice","id":"adj.04","k":"q","src":"That's too expensive!","tgt":""}
-{"f":"practice","id":"adj.04","k":"why","src":"Too is 太 + adjective + 了.","tgt":""}
-{"f":"practice","id":"adj.05","k":"q","src":"a good friend","tgt":""}
-{"f":"practice","id":"adj.05","k":"why","src":"The adjective goes before the noun; with 很 you would need 的.","tgt":""}
-{"f":"practice","id":"adj.06","k":"p","src":"He's tall.","tgt":""}
-{"f":"practice","id":"adj.06","k":"why","src":"很 goes before the verb, and an adjective works like a verb: 他很高, no 是.","tgt":""}
-{"f":"practice","id":"adj.07","k":"p","src":"a good friend","tgt":""}
-{"f":"practice","id":"adj.07","k":"why","src":"The describer goes before the noun: 好朋友.","tgt":""}
-{"f":"practice","id":"adj.08","k":"p","src":"That's too expensive!","tgt":""}
-{"f":"practice","id":"adj.08","k":"why","src":"Too is 太 + adjective + 了, with no 是.","tgt":""}
-{"f":"practice","id":"adj.09","k":"p","src":"I'm tired.","tgt":""}
-{"f":"practice","id":"adj.09","k":"why","src":"Adjectives take 很, not 是: 我很累.","tgt":""}
-{"f":"practice","id":"adj.10","k":"p","src":"The coffee isn't expensive.","tgt":""}
-{"f":"practice","id":"adj.10","k":"why","src":"Put 不 right before the adjective: 不贵.","tgt":""}
-{"f":"practice","id":"adj.11","k":"p","src":"That's too expensive!","tgt":""}
-{"f":"practice","id":"adj.11","k":"why","src":"太 … 了 means too: 太贵了.","tgt":""}
-{"f":"practice","id":"adj.12","k":"p","src":"I'm very busy.","tgt":""}
-{"f":"practice","id":"adj.12","k":"hint","src":"no 是","tgt":""}
-{"f":"practice","id":"adj.12","k":"why","src":"很 goes before the verb, and 忙 works like a verb: 我很忙, no 是.","tgt":""}
-{"f":"practice","id":"adj.13","k":"p","src":"a good friend","tgt":""}
-{"f":"practice","id":"adj.13","k":"hint","src":"the describer comes first","tgt":""}
-{"f":"practice","id":"adj.13","k":"why","src":"The describer goes before the noun: 好朋友.","tgt":""}
-{"f":"practice","id":"adj.14","k":"p","src":"She isn't tall. (use 不 + adjective)","tgt":""}
-{"f":"practice","id":"adj.14","k":"why","src":"不 goes right before the adjective, with no 是.","tgt":""}
-{"f":"lessons","id":"ma","k":"title","src":"9 · Questions with 吗 and 呢","tgt":""}
-{"f":"lessons","id":"ma","k":"blurb","src":"Ask yes/no questions with 吗, answer them the Chinese way, and ask back with 你呢.","tgt":""}
-{"f":"sentences","id":"zh.s0073","k":"gloss","src":"Are you a teacher?","tgt":""}
-{"f":"sentences","id":"zh.s0074","k":"gloss","src":"Are you busy?","tgt":""}
-{"f":"sentences","id":"zh.s0075","k":"gloss","src":"Are you a student too?","tgt":""}
-{"f":"sentences","id":"zh.s0076","k":"gloss","src":"Yes, I'm a teacher.","tgt":""}
-{"f":"sentences","id":"zh.s0077","k":"gloss","src":"Are you Chinese?","tgt":""}
-{"f":"sentences","id":"zh.s0078","k":"gloss","src":"No, I'm American.","tgt":""}
-{"f":"sentences","id":"zh.s0079","k":"gloss","src":"No, I'm not busy.","tgt":""}
-{"f":"sentences","id":"zh.s0080","k":"gloss","src":"I'm fine. And you?","tgt":""}
-{"f":"checks","id":"ma.k1","k":"q","src":"How do you turn 你是老师。 into a question?","tgt":""}
-{"f":"checks","id":"ma.k1","k":"o[0]","src":"Raise your voice at the end","tgt":""}
-{"f":"checks","id":"ma.k1","k":"o[1]","src":"Add 吗 at the end","tgt":""}
-{"f":"checks","id":"ma.k1","k":"o[2]","src":"Put 是 first","tgt":""}
-{"f":"checks","id":"ma.k1","k":"o[3]","src":"Add 呢 at the start","tgt":""}
-{"f":"checks","id":"ma.k1","k":"why","src":"Keep the statement and add 吗: 你是老师吗？","tgt":""}
-{"f":"checks","id":"ma.k2","k":"q","src":"你是学生吗？ How do you say yes?","tgt":""}
-{"f":"checks","id":"ma.k2","k":"o[0]","src":"是。 or 是，我是学生。","tgt":""}
-{"f":"checks","id":"ma.k2","k":"why","src":"Answer with the verb from the question: 是.","tgt":""}
-{"f":"checks","id":"ma.k3","k":"q","src":"What does 你呢？ do?","tgt":""}
-{"f":"checks","id":"ma.k3","k":"o[0]","src":"It says goodbye","tgt":""}
-{"f":"checks","id":"ma.k3","k":"o[1]","src":"It asks the other person's name","tgt":""}
-{"f":"checks","id":"ma.k3","k":"o[2]","src":"It asks the same question back","tgt":""}
-{"f":"checks","id":"ma.k3","k":"o[3]","src":"It says no","tgt":""}
-{"f":"checks","id":"ma.k3","k":"why","src":"呢 after a person sends the question back: and you?","tgt":""}
-{"f":"practice","id":"ma.01","k":"q","src":"Which is the pinyin of 吗?","tgt":""}
-{"f":"practice","id":"ma.01","k":"o[0]","src":"ma, with no tone mark","tgt":""}
-{"f":"practice","id":"ma.01","k":"why","src":"吗 has the neutral tone: short and light, with no mark.","tgt":""}
-{"f":"practice","id":"ma.02","k":"q","src":"Are you a teacher?","tgt":""}
-{"f":"practice","id":"ma.02","k":"why","src":"Keep the statement and add 吗 at the end.","tgt":""}
-{"f":"practice","id":"ma.03","k":"q","src":"你忙吗？ Answer: Yes, I am.","tgt":""}
-{"f":"practice","id":"ma.03","k":"why","src":"Answer with the adjective: 很忙. An adjective never takes 是.","tgt":""}
-{"f":"practice","id":"ma.04","k":"q","src":"你是中国人吗？ Answer: No.","tgt":""}
-{"f":"practice","id":"ma.04","k":"why","src":"Answer with the verb from the question: 不是.","tgt":""}
-{"f":"practice","id":"ma.05","k":"q","src":"我很好，你呢？ What does 你呢 mean here?","tgt":""}
-{"f":"practice","id":"ma.05","k":"o[0]","src":"And you?","tgt":""}
-{"f":"practice","id":"ma.05","k":"o[1]","src":"Are you?","tgt":""}
-{"f":"practice","id":"ma.05","k":"o[2]","src":"Who are you?","tgt":""}
-{"f":"practice","id":"ma.05","k":"o[3]","src":"Goodbye.","tgt":""}
-{"f":"practice","id":"ma.05","k":"why","src":"呢 sends the question back: and you?","tgt":""}
-{"f":"practice","id":"ma.06","k":"p","src":"Are you a student too?","tgt":""}
-{"f":"practice","id":"ma.06","k":"why","src":"也 goes before the verb: 你也是学生吗？","tgt":""}
-{"f":"practice","id":"ma.07","k":"p","src":"Is he an American student? (start with he)","tgt":""}
-{"f":"practice","id":"ma.07","k":"why","src":"The describer goes before the noun: 美国学生, then 吗 at the end.","tgt":""}
-{"f":"practice","id":"ma.08","k":"p","src":"Are you busy?","tgt":""}
-{"f":"practice","id":"ma.08","k":"why","src":"No 是 before an adjective; 吗 at the end asks the question.","tgt":""}
-{"f":"practice","id":"ma.09","k":"p","src":"Are you American?","tgt":""}
-{"f":"practice","id":"ma.09","k":"why","src":"吗 at the end turns a statement into a yes/no question.","tgt":""}
-{"f":"practice","id":"ma.10","k":"p","src":"I'm busy. And you?","tgt":""}
-{"f":"practice","id":"ma.10","k":"why","src":"呢 after a person asks the same question back.","tgt":""}
-{"f":"practice","id":"ma.11","k":"p","src":"Are you busy? I'm not.","tgt":""}
-{"f":"practice","id":"ma.11","k":"why","src":"Answer with the adjective itself: 不忙.","tgt":""}
-{"f":"practice","id":"ma.12","k":"p","src":"Are you going tomorrow? (明天 = tomorrow, 去 = go)","tgt":""}
-{"f":"practice","id":"ma.12","k":"hint","src":"the time word comes before 去","tgt":""}
-{"f":"practice","id":"ma.12","k":"why","src":"Time goes before the verb: 你明天去吗？","tgt":""}
-{"f":"practice","id":"ma.13","k":"p","src":"Is she a teacher too?","tgt":""}
-{"f":"practice","id":"ma.13","k":"why","src":"也 goes before the verb: 她也是老师吗？","tgt":""}
-{"f":"practice","id":"ma.14","k":"p","src":"Are you a teacher?","tgt":""}
-{"f":"practice","id":"ma.14","k":"why","src":"Add 吗 to the statement to ask a yes/no question.","tgt":""}
-{"f":"lessons","id":"question-words","k":"title","src":"10 · Question words: 什么, 谁, 哪儿, 几","tgt":""}
-{"f":"lessons","id":"question-words","k":"blurb","src":"Ask what, who, where, which country and how many, keeping the Chinese word order.","tgt":""}
-{"f":"sentences","id":"zh.s0081","k":"gloss","src":"What's your name?","tgt":""}
-{"f":"sentences","id":"zh.s0082","k":"gloss","src":"Who is he?","tgt":""}
-{"f":"sentences","id":"zh.s0083","k":"gloss","src":"He's my friend.","tgt":""}
-{"f":"sentences","id":"zh.s0084","k":"gloss","src":"Where do you live?","tgt":""}
-{"f":"sentences","id":"zh.s0085","k":"gloss","src":"Excuse me, where do you work?","tgt":""}
-{"f":"sentences","id":"zh.s0086","k":"gloss","src":"What country are you from?","tgt":""}
-{"f":"sentences","id":"zh.s0087","k":"gloss","src":"How many older brothers do you have?","tgt":""}
-{"f":"checks","id":"question-words.k1","k":"q","src":"Where does a question word go in a Chinese question?","tgt":""}
-{"f":"checks","id":"question-words.k1","k":"o[0]","src":"Always first, as in English","tgt":"","rw":"English sound comparison (\"as in …\")"}
-{"f":"checks","id":"question-words.k1","k":"o[1]","src":"Where the answer would go","tgt":""}
-{"f":"checks","id":"question-words.k1","k":"o[2]","src":"Always last","tgt":""}
-{"f":"checks","id":"question-words.k1","k":"o[3]","src":"After 吗","tgt":""}
-{"f":"checks","id":"question-words.k1","k":"why","src":"Put the question word where the answer goes: 你住哪儿？ 我住纽约.","tgt":""}
-{"f":"checks","id":"question-words.k2","k":"q","src":"Is 你叫什么名字吗？ correct?","tgt":""}
-{"f":"checks","id":"question-words.k2","k":"o[0]","src":"Yes, it is more polite","tgt":""}
-{"f":"checks","id":"question-words.k2","k":"o[1]","src":"Yes, 吗 is always needed","tgt":""}
-{"f":"checks","id":"question-words.k2","k":"o[2]","src":"No: 什么 must come first","tgt":""}
-{"f":"checks","id":"question-words.k2","k":"o[3]","src":"No: a question word already asks, so drop 吗","tgt":""}
-{"f":"checks","id":"question-words.k2","k":"why","src":"Question words never take 吗: 你叫什么名字？","tgt":""}
-{"f":"checks","id":"question-words.k3","k":"q","src":"How do you ask someone's nationality?","tgt":""}
-{"f":"checks","id":"question-words.k3","k":"why","src":"哪 (which) + 国人: 你是哪国人？","tgt":""}
-{"f":"practice","id":"question-words.01","k":"q","src":"Which is the pinyin of 几 (how many)?","tgt":""}
-{"f":"practice","id":"question-words.01","k":"why","src":"几 has the third tone: low, jǐ.","tgt":""}
-{"f":"practice","id":"question-words.02","k":"q","src":"What's your name?","tgt":""}
-{"f":"practice","id":"question-words.02","k":"why","src":"什么 stays where the answer goes, and no 吗.","tgt":""}
-{"f":"practice","id":"question-words.03","k":"q","src":"Who is he?","tgt":""}
-{"f":"practice","id":"question-words.03","k":"why","src":"谁 goes where the answer would be: 他是我朋友 → 他是谁？","tgt":""}
-{"f":"practice","id":"question-words.04","k":"q","src":"Where do you live?","tgt":""}
-{"f":"practice","id":"question-words.04","k":"why","src":"哪儿 goes after 住, where the place goes in the answer.","tgt":""}
-{"f":"practice","id":"question-words.05","k":"q","src":"Which question is correct?","tgt":""}
-{"f":"practice","id":"question-words.05","k":"why","src":"哪国人 stays where the answer goes, with no 吗.","tgt":""}
-{"f":"practice","id":"question-words.06","k":"p","src":"Where do you work? (在 = at, 工作 = to work)","tgt":""}
-{"f":"practice","id":"question-words.06","k":"why","src":"Where it happens comes before the verb: 你在哪儿工作？","tgt":""}
-{"f":"practice","id":"question-words.07","k":"p","src":"How many older brothers do you have? (哥哥 = older brother)","tgt":""}
-{"f":"practice","id":"question-words.07","k":"why","src":"几 needs a measure word before the noun: 几个哥哥.","tgt":""}
-{"f":"practice","id":"question-words.08","k":"p","src":"What's your name?","tgt":""}
-{"f":"practice","id":"question-words.08","k":"why","src":"什么 stays where the answer goes, and a question word takes no 吗.","tgt":""}
-{"f":"practice","id":"question-words.09","k":"p","src":"Who is he?","tgt":""}
-{"f":"practice","id":"question-words.09","k":"why","src":"谁 asks who; it goes where the answer would be.","tgt":""}
-{"f":"practice","id":"question-words.10","k":"p","src":"Where do you live?","tgt":""}
-{"f":"practice","id":"question-words.10","k":"why","src":"哪儿 asks where.","tgt":""}
-{"f":"practice","id":"question-words.11","k":"p","src":"What country are you from?","tgt":""}
-{"f":"practice","id":"question-words.11","k":"why","src":"哪国人 asks which country someone is from.","tgt":""}
-{"f":"practice","id":"question-words.12","k":"p","src":"Where do you work? (在 = at, 工作 = to work)","tgt":""}
-{"f":"practice","id":"question-words.12","k":"hint","src":"where comes first","tgt":""}
-{"f":"practice","id":"question-words.12","k":"why","src":"Where it happens goes before the verb: 你在哪儿工作？","tgt":""}
-{"f":"practice","id":"question-words.13","k":"p","src":"How many older brothers do you have? (哥哥 = older brother)","tgt":""}
-{"f":"practice","id":"question-words.13","k":"why","src":"几 takes a measure word before the noun: 几个哥哥.","tgt":""}
-{"f":"practice","id":"question-words.14","k":"p","src":"What's your name? (to a friend)","tgt":""}
-{"f":"practice","id":"question-words.14","k":"hint","src":"no 吗","tgt":""}
-{"f":"practice","id":"question-words.14","k":"why","src":"The question word stays where the answer goes, with no 吗.","tgt":""}
-{"f":"lessons","id":"bu-mei","k":"title","src":"11 · Negation: 不 and 没 (not, didn't)","tgt":""}
-{"f":"lessons","id":"bu-mei","k":"blurb","src":"Say what you don't do, what you don't have, and what didn't happen, with the right word for \"not\".","tgt":""}
-{"f":"sentences","id":"zh.s0088","k":"gloss","src":"I don't drink (alcohol).","tgt":""}
-{"f":"sentences","id":"zh.s0089","k":"gloss","src":"She isn't busy.","tgt":""}
-{"f":"sentences","id":"zh.s0090","k":"gloss","src":"I'm not going tomorrow.","tgt":""}
-{"f":"sentences","id":"zh.s0091","k":"gloss","src":"I don't have any money.","tgt":""}
-{"f":"sentences","id":"zh.s0092","k":"gloss","src":"I don't have money. (casual)","tgt":""}
-{"f":"sentences","id":"zh.s0093","k":"gloss","src":"I didn't go yesterday.","tgt":""}
-{"f":"sentences","id":"zh.s0094","k":"gloss","src":"He didn't eat. / He hasn't eaten.","tgt":""}
-{"f":"sentences","id":"zh.s0095","k":"gloss","src":"I'm not a teacher.","tgt":""}
-{"f":"checks","id":"bu-mei.k1","k":"q","src":"How do you say \"I don't have a phone\"?","tgt":""}
-{"f":"checks","id":"bu-mei.k1","k":"why","src":"有 is negated only with 没: 没有.","tgt":""}
-{"f":"checks","id":"bu-mei.k2","k":"q","src":"How do you say \"I didn't go yesterday\"?","tgt":""}
-{"f":"checks","id":"bu-mei.k2","k":"why","src":"没 for an action that did not happen, before the verb, with no 了.","tgt":""}
-{"f":"checks","id":"bu-mei.k3","k":"q","src":"\"I don't drink coffee\" is a habit. Which is right?","tgt":""}
-{"f":"checks","id":"bu-mei.k3","k":"why","src":"A habit takes 不, right before the verb; 我没喝咖啡 means \"I didn't drink coffee\".","tgt":""}
-{"f":"practice","id":"bu-mei.01","k":"q","src":"Which is the pinyin of 不是 (is not)?","tgt":""}
-{"f":"practice","id":"bu-mei.01","k":"why","src":"Tone change: 不 before a fourth tone takes the second tone, bú shì.","tgt":""}
-{"f":"practice","id":"bu-mei.02","k":"q","src":"'I don't have money' =","tgt":""}
-{"f":"practice","id":"bu-mei.02","k":"why","src":"有 is the one verb that takes 没, never 不.","tgt":""}
-{"f":"practice","id":"bu-mei.03","k":"q","src":"'He didn't eat' =","tgt":""}
-{"f":"practice","id":"bu-mei.03","k":"why","src":"An action that did not happen takes 没, and no 了 after 没.","tgt":""}
-{"f":"practice","id":"bu-mei.04","k":"q","src":"'I'm not busy' =","tgt":""}
-{"f":"practice","id":"bu-mei.04","k":"why","src":"A state takes 不, right before the adjective, with no 是.","tgt":""}
-{"f":"practice","id":"bu-mei.05","k":"q","src":"'He doesn't like coffee' =","tgt":""}
-{"f":"practice","id":"bu-mei.05","k":"why","src":"Liking is a state, so it takes 不: 他不喜欢咖啡.","tgt":""}
-{"f":"practice","id":"bu-mei.06","k":"p","src":"He didn't come yesterday (start with 他)","tgt":""}
-{"f":"practice","id":"bu-mei.06","k":"why","src":"The time word and 没 both go before the verb, and 没 never takes 了.","tgt":""}
-{"f":"practice","id":"bu-mei.07","k":"p","src":"I don't drink tea","tgt":""}
-{"f":"practice","id":"bu-mei.07","k":"why","src":"A habit takes 不, and 不 goes before the verb: 我不喝茶.","tgt":""}
-{"f":"practice","id":"bu-mei.08","k":"p","src":"She doesn't have a phone","tgt":""}
-{"f":"practice","id":"bu-mei.08","k":"why","src":"有 is negated with 没, never with 不.","tgt":""}
-{"f":"practice","id":"bu-mei.09","k":"p","src":"I don't have money.","tgt":""}
-{"f":"practice","id":"bu-mei.09","k":"why","src":"Only 没 negates 有: 没有.","tgt":""}
-{"f":"practice","id":"bu-mei.10","k":"p","src":"I didn't go yesterday.","tgt":""}
-{"f":"practice","id":"bu-mei.10","k":"why","src":"Yesterday's action did not happen, so 没.","tgt":""}
-{"f":"practice","id":"bu-mei.11","k":"p","src":"I don't drink alcohol.","tgt":""}
-{"f":"practice","id":"bu-mei.11","k":"why","src":"A habit or a choice takes 不.","tgt":""}
-{"f":"practice","id":"bu-mei.12","k":"p","src":"I'm not going tomorrow.","tgt":""}
-{"f":"practice","id":"bu-mei.12","k":"hint","src":"明天 (tomorrow) · 去 · a plan takes 不","tgt":""}
-{"f":"practice","id":"bu-mei.12","k":"why","src":"Tomorrow and 不 both go before the verb: 我明天不去.","tgt":""}
-{"f":"practice","id":"bu-mei.13","k":"p","src":"I didn't go yesterday.","tgt":""}
-{"f":"practice","id":"bu-mei.13","k":"hint","src":"昨天 (yesterday) · 去","tgt":""}
-{"f":"practice","id":"bu-mei.13","k":"why","src":"Yesterday and 没 go before the verb, and 没 takes no 了: 我昨天没去.","tgt":""}
-{"f":"practice","id":"bu-mei.14","k":"p","src":"I don't have a phone.","tgt":""}
-{"f":"practice","id":"bu-mei.14","k":"hint","src":"手机 (phone)","tgt":""}
-{"f":"practice","id":"bu-mei.14","k":"why","src":"有 is negated only with 没: 我没有手机.","tgt":""}
-{"f":"lessons","id":"de","k":"title","src":"12 · 的: possession and describing","tgt":""}
-{"f":"lessons","id":"de","k":"blurb","src":"Say whose something is and what it is like, with the owner or the describer before the noun.","tgt":""}
-{"f":"sentences","id":"zh.s0096","k":"gloss","src":"This is my book.","tgt":""}
-{"f":"sentences","id":"zh.s0097","k":"gloss","src":"The teacher's phone is expensive.","tgt":""}
-{"f":"sentences","id":"zh.s0098","k":"gloss","src":"I like red cars.","tgt":""}
-{"f":"sentences","id":"zh.s0099","k":"gloss","src":"These are very expensive clothes.","tgt":""}
-{"f":"sentences","id":"zh.s0100","k":"gloss","src":"He's my good friend.","tgt":""}
-{"f":"sentences","id":"zh.s0101","k":"gloss","src":"My mom is a teacher.","tgt":""}
-{"f":"sentences","id":"zh.s0102","k":"gloss","src":"She's my friend.","tgt":""}
-{"f":"checks","id":"de.k1","k":"q","src":"How do you say \"the book of my teacher\"?","tgt":""}
-{"f":"checks","id":"de.k1","k":"why","src":"The owner goes first, then 的, then the thing: 我老师的书.","tgt":""}
-{"f":"checks","id":"de.k2","k":"q","src":"A friend says 我妈妈 (my mom). What is missing, and is that OK?","tgt":""}
-{"f":"checks","id":"de.k2","k":"o[0]","src":"是; it's a mistake","tgt":""}
-{"f":"checks","id":"de.k2","k":"o[1]","src":"的; it's a mistake","tgt":""}
-{"f":"checks","id":"de.k2","k":"o[2]","src":"们; it's fine","tgt":""}
-{"f":"checks","id":"de.k2","k":"o[3]","src":"的; it's fine with family words","tgt":""}
-{"f":"checks","id":"de.k2","k":"why","src":"With family and close relationships, 的 usually drops after a pronoun.","tgt":""}
-{"f":"checks","id":"de.k3","k":"q","src":"How do you say \"a red car\"?","tgt":""}
-{"f":"checks","id":"de.k3","k":"why","src":"The describer goes in front of the noun, joined by 的.","tgt":""}
-{"f":"practice","id":"de.01","k":"q","src":"Which is the pinyin of 书 (book)?","tgt":""}
-{"f":"practice","id":"de.01","k":"why","src":"书 has the first tone: high and level.","tgt":""}
-{"f":"practice","id":"de.02","k":"q","src":"'my friend' =","tgt":""}
-{"f":"practice","id":"de.02","k":"why","src":"The owner comes first, then 的, then the noun.","tgt":""}
-{"f":"practice","id":"de.03","k":"q","src":"'the teacher's phone' =","tgt":""}
-{"f":"practice","id":"de.03","k":"why","src":"Owner + 的 + thing, like English 's.","tgt":"","rw":"mentions English"}
-{"f":"practice","id":"de.04","k":"q","src":"'my mom' (the most natural way) =","tgt":""}
-{"f":"practice","id":"de.04","k":"why","src":"Family words usually drop 的 after a pronoun: 我妈妈.","tgt":""}
-{"f":"practice","id":"de.05","k":"q","src":"'very expensive clothes' =","tgt":""}
-{"f":"practice","id":"de.05","k":"why","src":"A describer with 很 needs 的, and it goes in front of the noun.","tgt":""}
-{"f":"practice","id":"de.06","k":"p","src":"my teacher's book","tgt":""}
-{"f":"practice","id":"de.06","k":"why","src":"The owner goes before the noun, joined by 的: 我老师的书.","tgt":""}
-{"f":"practice","id":"de.07","k":"p","src":"a red car","tgt":""}
-{"f":"practice","id":"de.07","k":"why","src":"The describer goes before the noun: 红色的车.","tgt":""}
-{"f":"practice","id":"de.08","k":"p","src":"This is my mom's phone","tgt":""}
-{"f":"practice","id":"de.08","k":"why","src":"Owner, then 的, then the thing: the owner goes before the noun.","tgt":""}
-{"f":"practice","id":"de.09","k":"p","src":"This is my book.","tgt":""}
-{"f":"practice","id":"de.09","k":"why","src":"的 joins the owner to the thing: 我的书.","tgt":""}
-{"f":"practice","id":"de.10","k":"p","src":"She's my good friend.","tgt":""}
-{"f":"practice","id":"de.10","k":"why","src":"A one-syllable adjective can join the noun directly: 好朋友.","tgt":""}
-{"f":"practice","id":"de.11","k":"p","src":"The teacher's phone is expensive.","tgt":""}
-{"f":"practice","id":"de.11","k":"why","src":"Owner + 的 + thing: 老师的手机.","tgt":""}
-{"f":"practice","id":"de.12","k":"p","src":"my Chinese teacher","tgt":""}
-{"f":"practice","id":"de.12","k":"hint","src":"the describers come first","tgt":""}
-{"f":"practice","id":"de.12","k":"why","src":"Both describers go before the noun: 我的中文老师.","tgt":""}
-{"f":"practice","id":"de.13","k":"p","src":"a very expensive car","tgt":""}
-{"f":"practice","id":"de.13","k":"hint","src":"车 (car)","tgt":""}
-{"f":"practice","id":"de.13","k":"why","src":"A describer with 很 goes before the noun, joined by 的: 很贵的车.","tgt":""}
-{"f":"practice","id":"de.14","k":"p","src":"My mom doesn't have a phone.","tgt":""}
-{"f":"practice","id":"de.14","k":"why","src":"Family words need no 的, and 有 is negated with 没: 我妈妈没有手机.","tgt":""}
-{"f":"lessons","id":"you","k":"title","src":"13 · 有: have and there is","tgt":""}
-{"f":"lessons","id":"you","k":"blurb","src":"Say what you have, ask a shop if it has something, and say what there is in a place.","tgt":""}
-{"f":"sentences","id":"zh.s0103","k":"gloss","src":"I have a phone.","tgt":""}
-{"f":"sentences","id":"zh.s0104","k":"gloss","src":"Do you have coffee?","tgt":""}
-{"f":"sentences","id":"zh.s0105","k":"gloss","src":"Is there a bank nearby?","tgt":""}
-{"f":"sentences","id":"zh.s0106","k":"gloss","src":"There's a book on the table.","tgt":""}
-{"f":"sentences","id":"zh.s0107","k":"gloss","src":"There's no supermarket nearby.","tgt":""}
-{"f":"sentences","id":"zh.s0108","k":"gloss","src":"I don't have a car.","tgt":""}
-{"f":"sentences","id":"zh.s0109","k":"gloss","src":"The book is on the table.","tgt":""}
-{"f":"checks","id":"you.k1","k":"q","src":"\"There's a bank nearby.\" Where does 附近 (nearby) go?","tgt":""}
-{"f":"checks","id":"you.k1","k":"o[0]","src":"At the start, before 有","tgt":""}
-{"f":"checks","id":"you.k1","k":"o[1]","src":"At the end, after 银行","tgt":""}
-{"f":"checks","id":"you.k1","k":"o[2]","src":"Between 有 and 银行","tgt":""}
-{"f":"checks","id":"you.k1","k":"o[3]","src":"Nowhere: Chinese doesn't need it","tgt":""}
-{"f":"checks","id":"you.k1","k":"why","src":"The place comes first, then 有: 附近有银行.","tgt":""}
-{"f":"checks","id":"you.k2","k":"q","src":"What does 附近没有银行 mean?","tgt":""}
-{"f":"checks","id":"you.k2","k":"o[0]","src":"There's a bank nearby.","tgt":""}
-{"f":"checks","id":"you.k2","k":"o[1]","src":"Is there a bank nearby?","tgt":""}
-{"f":"checks","id":"you.k2","k":"o[2]","src":"There's no bank nearby.","tgt":""}
-{"f":"checks","id":"you.k2","k":"o[3]","src":"I don't have a bank.","tgt":""}
-{"f":"checks","id":"you.k2","k":"why","src":"没有 after a place means \"there isn't\".","tgt":""}
-{"f":"checks","id":"you.k3","k":"q","src":"What can 有 mean?","tgt":""}
-{"f":"checks","id":"you.k3","k":"o[0]","src":"to be (am, is, are)","tgt":""}
-{"f":"checks","id":"you.k3","k":"o[1]","src":"at, in","tgt":""}
-{"f":"checks","id":"you.k3","k":"o[2]","src":"to want","tgt":""}
-{"f":"checks","id":"you.k3","k":"o[3]","src":"to have, and there is","tgt":""}
-{"f":"checks","id":"you.k3","k":"why","src":"有 covers both \"have\" and \"there is\".","tgt":""}
-{"f":"practice","id":"you.01","k":"q","src":"Which is the pinyin of 买 (to buy)?","tgt":""}
-{"f":"practice","id":"you.01","k":"why","src":"买 has the third tone; mài with the fourth tone is 卖, to sell.","tgt":""}
-{"f":"practice","id":"you.02","k":"q","src":"'I have a phone' =","tgt":""}
-{"f":"practice","id":"you.02","k":"why","src":"Person + 有 + thing, as in English.","tgt":"","rw":"English sound comparison (\"as in …\")"}
-{"f":"practice","id":"you.03","k":"q","src":"'There's no supermarket nearby' =","tgt":""}
-{"f":"practice","id":"you.03","k":"why","src":"Place first, then 没有; 有 never takes 不.","tgt":""}
-{"f":"practice","id":"you.04","k":"q","src":"'There's a book on the table' =","tgt":""}
-{"f":"practice","id":"you.04","k":"why","src":"Chinese starts with the place, then 有, then number + measure word + noun.","tgt":""}
-{"f":"practice","id":"you.05","k":"q","src":"'Do you have coffee?' (asking a shop) =","tgt":""}
-{"f":"practice","id":"you.05","k":"why","src":"Ask the shop with 你们, then 有, then 吗 at the end.","tgt":""}
-{"f":"practice","id":"you.06","k":"p","src":"There's a bank nearby","tgt":""}
-{"f":"practice","id":"you.06","k":"why","src":"The place goes before the verb 有: 附近有银行.","tgt":""}
-{"f":"practice","id":"you.07","k":"p","src":"There's a book on the table","tgt":""}
-{"f":"practice","id":"you.07","k":"why","src":"The place goes before the verb, and 一本 goes before the noun: 桌子上有一本书.","tgt":""}
-{"f":"practice","id":"you.08","k":"p","src":"Do you have coffee? (to a shop)","tgt":""}
-{"f":"practice","id":"you.08","k":"why","src":"Statement + 吗 makes the question: 你们有咖啡吗？","tgt":""}
-{"f":"practice","id":"you.09","k":"p","src":"Is there a bank nearby?","tgt":""}
-{"f":"practice","id":"you.09","k":"why","src":"\"There is\" is 有, after the place.","tgt":""}
-{"f":"practice","id":"you.10","k":"p","src":"I don't have a car.","tgt":""}
-{"f":"practice","id":"you.10","k":"why","src":"Only 没 negates 有: 没有.","tgt":""}
-{"f":"practice","id":"you.11","k":"p","src":"There's a book on the table.","tgt":""}
-{"f":"practice","id":"you.11","k":"why","src":"Place + 有 + thing: \"the table has a book\".","tgt":""}
-{"f":"practice","id":"you.12","k":"p","src":"There's a supermarket nearby.","tgt":""}
-{"f":"practice","id":"you.12","k":"hint","src":"附近 (nearby) · 超市 (supermarket) · the place comes first","tgt":""}
-{"f":"practice","id":"you.12","k":"why","src":"The place goes before the verb 有: 附近有超市.","tgt":""}
-{"f":"practice","id":"you.13","k":"p","src":"Is there a bank nearby?","tgt":""}
-{"f":"practice","id":"you.13","k":"hint","src":"银行 (bank) · 吗","tgt":""}
-{"f":"practice","id":"you.13","k":"why","src":"Nearby goes before the verb 有, and 吗 goes at the end: 附近有银行吗？","tgt":""}
-{"f":"practice","id":"you.14","k":"p","src":"I don't have a car.","tgt":""}
-{"f":"practice","id":"you.14","k":"hint","src":"车 (car)","tgt":""}
-{"f":"practice","id":"you.14","k":"why","src":"有 is negated only with 没: 我没有车.","tgt":""}
-{"f":"lessons","id":"numbers","k":"title","src":"14 · Numbers and money","tgt":""}
-{"f":"lessons","id":"numbers","k":"blurb","src":"Count past a hundred, say prices in yuan, ask how much something costs, and choose between 二 and 两.","tgt":""}
-{"f":"sentences","id":"zh.s0110","k":"gloss","src":"twelve","tgt":""}
-{"f":"sentences","id":"zh.s0111","k":"gloss","src":"twenty-five","tgt":""}
-{"f":"sentences","id":"zh.s0112","k":"gloss","src":"one hundred and five","tgt":""}
-{"f":"sentences","id":"zh.s0113","k":"gloss","src":"one hundred fifty","tgt":""}
-{"f":"sentences","id":"zh.s0114","k":"gloss","src":"two people","tgt":""}
-{"f":"sentences","id":"zh.s0115","k":"gloss","src":"How much is this?","tgt":""}
-{"f":"sentences","id":"zh.s0116","k":"gloss","src":"Twenty-five yuan.","tgt":""}
-{"f":"sentences","id":"zh.s0117","k":"gloss","src":"Three yuan fifty.","tgt":""}
-{"f":"checks","id":"numbers.k1","k":"q","src":"How do you say \"two people\"?","tgt":""}
-{"f":"checks","id":"numbers.k1","k":"why","src":"Two of something, before a measure word, is 两.","tgt":""}
-{"f":"checks","id":"numbers.k2","k":"q","src":"Which one is 25?","tgt":""}
-{"f":"checks","id":"numbers.k2","k":"why","src":"Two ten five: 二十五.","tgt":""}
-{"f":"checks","id":"numbers.k3","k":"q","src":"Which word for the yuan do people usually say out loud?","tgt":""}
-{"f":"checks","id":"numbers.k3","k":"why","src":"块 in speech, 元 on price tags.","tgt":""}
-{"f":"practice","id":"numbers.01","k":"q","src":"Which is the pinyin of 四 (four)?","tgt":""}
-{"f":"practice","id":"numbers.01","k":"why","src":"四 has the fourth tone: it falls. With the third tone, sǐ means to die.","tgt":""}
-{"f":"practice","id":"numbers.02","k":"q","src":"'two people' =","tgt":""}
-{"f":"practice","id":"numbers.02","k":"why","src":"Two before a measure word is 两.","tgt":""}
-{"f":"practice","id":"numbers.03","k":"q","src":"What is 一百零五?","tgt":""}
-{"f":"practice","id":"numbers.03","k":"o[0]","src":"105","tgt":"105","pre":1}
-{"f":"practice","id":"numbers.03","k":"o[1]","src":"150","tgt":"150","pre":1}
-{"f":"practice","id":"numbers.03","k":"o[2]","src":"1,005","tgt":"1,005","pre":1}
-{"f":"practice","id":"numbers.03","k":"o[3]","src":"115","tgt":"115","pre":1}
-{"f":"practice","id":"numbers.03","k":"why","src":"零 fills the empty tens place: one hundred, zero, five.","tgt":""}
-{"f":"practice","id":"numbers.04","k":"q","src":"A market seller says 一百五. How much is that?","tgt":""}
-{"f":"practice","id":"numbers.04","k":"o[0]","src":"150","tgt":"150","pre":1}
-{"f":"practice","id":"numbers.04","k":"o[1]","src":"105","tgt":"105","pre":1}
-{"f":"practice","id":"numbers.04","k":"o[2]","src":"15","tgt":"15","pre":1}
-{"f":"practice","id":"numbers.04","k":"o[3]","src":"1,500","tgt":"1,500","pre":1}
-{"f":"practice","id":"numbers.04","k":"why","src":"一百五 is short for 一百五十.","tgt":""}
-{"f":"practice","id":"numbers.05","k":"q","src":"'How much is it?' =","tgt":""}
-{"f":"practice","id":"numbers.05","k":"why","src":"多少钱 asks a price; no 吗 with a question word.","tgt":""}
-{"f":"practice","id":"numbers.06","k":"p","src":"two people","tgt":""}
-{"f":"practice","id":"numbers.06","k":"why","src":"Two before a measure word is 两: 两个人.","tgt":""}
-{"f":"practice","id":"numbers.07","k":"p","src":"This one is twenty-five yuan","tgt":""}
-{"f":"practice","id":"numbers.07","k":"why","src":"块 works like a measure word: it comes right after the number, 二十五块.","tgt":""}
-{"f":"practice","id":"numbers.08","k":"p","src":"How much is this?","tgt":""}
-{"f":"practice","id":"numbers.08","k":"why","src":"多少 asks for any number, so it fits a price.","tgt":""}
-{"f":"practice","id":"numbers.09","k":"p","src":"I have two Chinese teachers.","tgt":""}
-{"f":"practice","id":"numbers.09","k":"why","src":"Before the measure word 个, two is 两.","tgt":""}
-{"f":"practice","id":"numbers.10","k":"p","src":"105","tgt":"105","pre":1}
-{"f":"practice","id":"numbers.10","k":"why","src":"An empty place in the middle of a number is 零.","tgt":""}
-{"f":"practice","id":"numbers.11","k":"p","src":"This one is 25 yuan.","tgt":""}
-{"f":"practice","id":"numbers.11","k":"why","src":"Money: the number, then 块 (or 元 in writing).","tgt":""}
-{"f":"practice","id":"numbers.12","k":"p","src":"two people","tgt":""}
-{"f":"practice","id":"numbers.12","k":"hint","src":"两 or 二? · 个 · 人","tgt":""}
-{"f":"practice","id":"numbers.12","k":"why","src":"Two before a measure word is 两: 两个人.","tgt":""}
-{"f":"practice","id":"numbers.13","k":"p","src":"fifteen yuan (say it out loud)","tgt":""}
-{"f":"practice","id":"numbers.13","k":"why","src":"块 is the measure word for money, right after the number: 十五块.","tgt":""}
-{"f":"practice","id":"numbers.14","k":"p","src":"How much is this?","tgt":""}
-{"f":"practice","id":"numbers.14","k":"why","src":"多少 asks for any number, such as a price: 这个多少钱？","tgt":""}
+{"f": "lessons", "id": "tones", "k": "title", "src": "2 · Four tones and the neutral tone", "tgt": "2 · Bốn thanh điệu và thanh nhẹ"}
+{"f": "lessons", "id": "tones", "k": "blurb", "src": "Hear and say the four tones and the neutral tone, and tell apart words that differ only in tone.", "tgt": "Nghe và đọc bốn thanh điệu và thanh nhẹ, phân biệt những từ chỉ khác nhau ở thanh."}
+{"f": "sentences", "id": "zh.s0010", "k": "gloss", "src": "mom", "tgt": "mẹ"}
+{"f": "sentences", "id": "zh.s0011", "k": "gloss", "src": "numb; hemp", "tgt": "tê; cây gai"}
+{"f": "sentences", "id": "zh.s0012", "k": "gloss", "src": "horse", "tgt": "ngựa"}
+{"f": "sentences", "id": "zh.s0013", "k": "gloss", "src": "to scold", "tgt": "mắng"}
+{"f": "sentences", "id": "zh.s0014", "k": "gloss", "src": "to buy", "tgt": "mua"}
+{"f": "sentences", "id": "zh.s0015", "k": "gloss", "src": "to sell", "tgt": "bán"}
+{"f": "sentences", "id": "zh.s0016", "k": "gloss", "src": "soup", "tgt": "canh"}
+{"f": "sentences", "id": "zh.s0017", "k": "gloss", "src": "sugar", "tgt": "đường (để ăn)"}
+{"f": "sentences", "id": "zh.s0018", "k": "gloss", "src": "mom", "tgt": "mẹ"}
+{"f": "sentences", "id": "zh.s0019", "k": "gloss", "src": "very fast", "tgt": "rất nhanh"}
+{"f": "checks", "id": "tones.k1", "k": "q", "src": "Which tone is low, and dips when said alone?", "tgt": "Thanh nào thấp, và khi đọc riêng thì xuống rồi lên lại?"}
+{"f": "checks", "id": "tones.k1", "k": "o[0]", "src": "The first tone", "tgt": "Thanh 1"}
+{"f": "checks", "id": "tones.k1", "k": "o[1]", "src": "The second tone", "tgt": "Thanh 2"}
+{"f": "checks", "id": "tones.k1", "k": "o[2]", "src": "The third tone", "tgt": "Thanh 3"}
+{"f": "checks", "id": "tones.k1", "k": "o[3]", "src": "The fourth tone", "tgt": "Thanh 4"}
+{"f": "checks", "id": "tones.k1", "k": "why", "src": "The third tone (ǎ) is low; alone it dips and comes back up.", "tgt": "Thanh 3 (ǎ) thấp; đọc riêng thì xuống rồi lên lại, gần thanh hỏi."}
+{"f": "checks", "id": "tones.k2", "k": "q", "src": "A word with the fourth tone comes at the end of your question. What happens to its tone?", "tgt": "Một từ mang thanh 4 đứng cuối câu hỏi. Thanh của nó thay đổi thế nào?"}
+{"f": "checks", "id": "tones.k2", "k": "o[0]", "src": "It still falls", "tgt": "Vẫn rơi xuống"}
+{"f": "checks", "id": "tones.k2", "k": "o[1]", "src": "It rises, as in an English question", "tgt": "Lên giọng như cách hỏi theo thói quen", "rw": "English sound comparison (\"as in …\")"}
+{"f": "checks", "id": "tones.k2", "k": "o[2]", "src": "It becomes the first tone", "tgt": "Thành thanh 1"}
+{"f": "checks", "id": "tones.k2", "k": "o[3]", "src": "It loses its tone", "tgt": "Mất thanh"}
+{"f": "checks", "id": "tones.k2", "k": "why", "src": "The tone belongs to the word, so it falls even at the end of a question.", "tgt": "Thanh thuộc về từ, nên dù ở cuối câu hỏi nó vẫn rơi xuống."}
+{"f": "checks", "id": "tones.k3", "k": "q", "src": "买 (mǎi) and 卖 (mài) differ only in tone. What do they mean?", "tgt": "买 (mǎi) và 卖 (mài) chỉ khác nhau ở thanh. Nghĩa của chúng là gì?"}
+{"f": "checks", "id": "tones.k3", "k": "o[0]", "src": "to sell and to buy", "tgt": "bán và mua"}
+{"f": "checks", "id": "tones.k3", "k": "o[1]", "src": "to buy and to sell", "tgt": "mua và bán"}
+{"f": "checks", "id": "tones.k3", "k": "o[2]", "src": "to buy and a buyer", "tgt": "mua và người mua"}
+{"f": "checks", "id": "tones.k3", "k": "o[3]", "src": "the same thing", "tgt": "cùng một nghĩa"}
+{"f": "checks", "id": "tones.k3", "k": "why", "src": "买 with the third tone is to buy; 卖 with the fourth tone is to sell.", "tgt": "买 thanh 3 là mua; 卖 thanh 4 là bán."}
+{"f": "practice", "id": "tones.01", "k": "q", "src": "Which tone mark shows a falling tone?", "tgt": "Dấu thanh nào chỉ một thanh đi xuống?"}
+{"f": "practice", "id": "tones.01", "k": "why", "src": "The fourth tone mark (à) points down: the voice falls.", "tgt": "Dấu thanh 4 (à) chúc xuống: giọng rơi xuống. Đừng đọc nó như dấu huyền."}
+{"f": "practice", "id": "tones.02", "k": "q", "src": "Which word is mǎi (to buy)?", "tgt": "Từ nào là mǎi (mua)?"}
+{"f": "practice", "id": "tones.02", "k": "why", "src": "买 is mǎi; 卖 (mài) is to sell.", "tgt": "买 là mǎi; 卖 (mài) là bán."}
+{"f": "practice", "id": "tones.03", "k": "q", "src": "Which is the pinyin of 糖 (sugar)?", "tgt": "Pinyin của 糖 (đường) là gì?"}
+{"f": "practice", "id": "tones.03", "k": "why", "src": "糖 rises: táng. tāng, with a level tone, is soup.", "tgt": "糖 đi lên: táng. tāng, thanh cao và bằng, là canh."}
+{"f": "practice", "id": "tones.04", "k": "q", "src": "In 妈妈 (mom), which tone does the second 妈 have?", "tgt": "Trong 妈妈 (mẹ), chữ 妈 thứ hai mang thanh gì?"}
+{"f": "practice", "id": "tones.04", "k": "o[0]", "src": "The neutral tone", "tgt": "Thanh nhẹ"}
+{"f": "practice", "id": "tones.04", "k": "o[1]", "src": "The first tone", "tgt": "Thanh 1"}
+{"f": "practice", "id": "tones.04", "k": "o[2]", "src": "The third tone", "tgt": "Thanh 3"}
+{"f": "practice", "id": "tones.04", "k": "o[3]", "src": "The fourth tone", "tgt": "Thanh 4"}
+{"f": "practice", "id": "tones.04", "k": "why", "src": "The second syllable of 妈妈 is short and light: it has no tone mark.", "tgt": "Âm tiết thứ hai của 妈妈 ngắn và nhẹ: nó không có dấu thanh."}
+{"f": "practice", "id": "tones.05", "k": "q", "src": "What does 马 (mǎ) mean?", "tgt": "马 (mǎ) nghĩa là gì?"}
+{"f": "practice", "id": "tones.05", "k": "o[0]", "src": "horse", "tgt": "ngựa"}
+{"f": "practice", "id": "tones.05", "k": "o[1]", "src": "mom", "tgt": "mẹ"}
+{"f": "practice", "id": "tones.05", "k": "o[2]", "src": "to scold", "tgt": "mắng"}
+{"f": "practice", "id": "tones.05", "k": "o[3]", "src": "numb", "tgt": "tê"}
+{"f": "practice", "id": "tones.05", "k": "why", "src": "马 with the third tone is horse; mā is mom and mà is to scold.", "tgt": "马 thanh 3 là ngựa; mā là mẹ, mà là mắng."}
+{"f": "practice", "id": "tones.06", "k": "p", "src": "买马 (to buy a horse) in pinyin", "tgt": "买马 (mua ngựa) bằng pinyin"}
+{"f": "practice", "id": "tones.06", "k": "why", "src": "买 (mǎi) has the third tone; mài, with the fourth tone, means to sell.", "tgt": "买 (mǎi) mang thanh 3; mài, thanh 4, nghĩa là bán."}
+{"f": "practice", "id": "tones.07", "k": "p", "src": "妈妈 (mom) in pinyin, one syllable per tile", "tgt": "妈妈 (mẹ) bằng pinyin, mỗi ô một âm tiết"}
+{"f": "practice", "id": "tones.07", "k": "why", "src": "The first 妈 has the first tone; the second has the neutral tone, with no mark.", "tgt": "Chữ 妈 đầu mang thanh 1; chữ thứ hai mang thanh nhẹ, không có dấu."}
+{"f": "practice", "id": "tones.08", "k": "p", "src": "很快 (very fast) in pinyin", "tgt": "很快 (rất nhanh) bằng pinyin"}
+{"f": "practice", "id": "tones.08", "k": "why", "src": "A tone pair: the third tone on hěn, then the fourth tone on kuài.", "tgt": "Một cặp thanh: thanh 3 ở hěn, rồi thanh 4 ở kuài."}
+{"f": "practice", "id": "tones.09", "k": "p", "src": "horse", "tgt": "ngựa"}
+{"f": "practice", "id": "tones.09", "k": "why", "src": "马 has the third tone: mǎ. mā is mom and mà is to scold.", "tgt": "马 mang thanh 3: mǎ. mā là mẹ, mà là mắng."}
+{"f": "practice", "id": "tones.10", "k": "p", "src": "soup", "tgt": "canh"}
+{"f": "practice", "id": "tones.10", "k": "why", "src": "汤 has the first tone, high and level: tāng. táng is sugar.", "tgt": "汤 mang thanh 1, cao và bằng: tāng. táng là đường."}
+{"f": "practice", "id": "tones.11", "k": "p", "src": "to sell", "tgt": "bán"}
+{"f": "practice", "id": "tones.11", "k": "why", "src": "卖 has the fourth tone: mài. mǎi would be to buy.", "tgt": "卖 mang thanh 4: mài. mǎi là mua."}
+{"f": "practice", "id": "tones.12", "k": "p", "src": "Type the pinyin of 卖 (to sell)", "tgt": "Gõ pinyin của 卖 (bán)"}
+{"f": "practice", "id": "tones.12", "k": "hint", "src": "fourth tone · use the accent bar", "tgt": "thanh 4 · dùng hàng phím dấu thanh"}
+{"f": "practice", "id": "tones.12", "k": "why", "src": "卖 has the fourth tone: it falls. mǎi is to buy.", "tgt": "卖 mang thanh 4: rơi xuống. mǎi là mua."}
+{"f": "practice", "id": "tones.13", "k": "p", "src": "Type the pinyin of 糖 (sugar)", "tgt": "Gõ pinyin của 糖 (đường)"}
+{"f": "practice", "id": "tones.13", "k": "hint", "src": "second tone · use the accent bar", "tgt": "thanh 2 · dùng hàng phím dấu thanh"}
+{"f": "practice", "id": "tones.13", "k": "why", "src": "糖 has the second tone: it rises. tāng is soup.", "tgt": "糖 mang thanh 2: đi lên. tāng là canh."}
+{"f": "practice", "id": "tones.14", "k": "p", "src": "Type the pinyin of 妈 (mom)", "tgt": "Gõ pinyin của 妈 (mẹ)"}
+{"f": "practice", "id": "tones.14", "k": "hint", "src": "first tone · use the accent bar", "tgt": "thanh 1 · dùng hàng phím dấu thanh"}
+{"f": "practice", "id": "tones.14", "k": "why", "src": "妈 has the first tone: high and level. mǎ is horse.", "tgt": "妈 mang thanh 1: cao và bằng. mǎ là ngựa."}
+{"f": "lessons", "id": "tone-change", "k": "title", "src": "3 · Tone changes: 不, 一, third tone", "tgt": "3 · Biến điệu: 不, 一, thanh 3"}
+{"f": "lessons", "id": "tone-change", "k": "blurb", "src": "Say 不 and 一 with the right tone, and say two third tones in a row the way Chinese speakers do.", "tgt": "Đọc 不 và 一 đúng thanh, và đọc hai thanh 3 liền nhau như người Trung Quốc."}
+{"f": "sentences", "id": "zh.s0020", "k": "gloss", "src": "is not; no", "tgt": "không phải; không"}
+{"f": "sentences", "id": "zh.s0021", "k": "gloss", "src": "you're welcome", "tgt": "không có gì"}
+{"f": "sentences", "id": "zh.s0022", "k": "gloss", "src": "not good", "tgt": "không tốt"}
+{"f": "sentences", "id": "zh.s0023", "k": "gloss", "src": "one person", "tgt": "một người"}
+{"f": "sentences", "id": "zh.s0024", "k": "gloss", "src": "one day", "tgt": "một ngày"}
+{"f": "sentences", "id": "zh.s0025", "k": "gloss", "src": "first", "tgt": "thứ nhất"}
+{"f": "sentences", "id": "zh.s0026", "k": "gloss", "src": "hello", "tgt": "xin chào"}
+{"f": "sentences", "id": "zh.s0027", "k": "gloss", "src": "very good", "tgt": "rất tốt"}
+{"f": "checks", "id": "tone-change.k1", "k": "q", "src": "How do you say 不 in 不是 (is not)?", "tgt": "不 trong 不是 (không phải) đọc thế nào?"}
+{"f": "checks", "id": "tone-change.k1", "k": "o[0]", "src": "bù, falling", "tgt": "bù, đi xuống"}
+{"f": "checks", "id": "tone-change.k1", "k": "o[1]", "src": "bú, rising", "tgt": "bú, đi lên"}
+{"f": "checks", "id": "tone-change.k1", "k": "o[2]", "src": "bū, high and level", "tgt": "bū, cao và bằng"}
+{"f": "checks", "id": "tone-change.k1", "k": "o[3]", "src": "with no tone", "tgt": "không có thanh"}
+{"f": "checks", "id": "tone-change.k1", "k": "why", "src": "不 before a fourth tone (shì) rises: bú shì.", "tgt": "不 trước thanh 4 (shì) chuyển thành thanh 2: bú shì."}
+{"f": "checks", "id": "tone-change.k2", "k": "q", "src": "Two third tones come in a row, as in 你好. How are they said?", "tgt": "Hai thanh 3 đứng liền nhau, như trong 你好. Chúng được đọc thế nào?", "rw": "English sound comparison (\"as in …\")"}
+{"f": "checks", "id": "tone-change.k2", "k": "o[0]", "src": "Both low and dipping", "tgt": "Cả hai đều thấp, xuống rồi lên"}
+{"f": "checks", "id": "tone-change.k2", "k": "o[1]", "src": "Both falling", "tgt": "Cả hai đều đi xuống"}
+{"f": "checks", "id": "tone-change.k2", "k": "o[2]", "src": "The first one like a second tone", "tgt": "Thanh đầu đọc như thanh 2"}
+{"f": "checks", "id": "tone-change.k2", "k": "o[3]", "src": "The second one like a second tone", "tgt": "Thanh sau đọc như thanh 2"}
+{"f": "checks", "id": "tone-change.k2", "k": "why", "src": "The first of two third tones is said like a second tone: 你好 sounds like ní hǎo.", "tgt": "Thanh 3 đầu tiên trong hai thanh 3 đọc như thanh 2: 你好 đọc thành ní hǎo.", "rw": "English sound comparison (\"sounds like …\")"}
+{"f": "checks", "id": "tone-change.k3", "k": "q", "src": "In which of these is 一 said yī, with the first tone?", "tgt": "一 được đọc yī, thanh 1, trong trường hợp nào dưới đây?"}
+{"f": "checks", "id": "tone-change.k3", "k": "o[0]", "src": "第一 (first)", "tgt": "第一 (thứ nhất)"}
+{"f": "checks", "id": "tone-change.k3", "k": "o[1]", "src": "一个人 (one person)", "tgt": "一个人 (một người)"}
+{"f": "checks", "id": "tone-change.k3", "k": "o[2]", "src": "一天 (one day)", "tgt": "一天 (một ngày)"}
+{"f": "checks", "id": "tone-change.k3", "k": "o[3]", "src": "一起 (together)", "tgt": "一起 (cùng nhau)"}
+{"f": "checks", "id": "tone-change.k3", "k": "why", "src": "After 第 and in counting, 一 keeps its first tone; before a word it changes.", "tgt": "Sau 第 và khi đếm, 一 giữ thanh 1; đứng trước một từ thì nó đổi thanh."}
+{"f": "practice", "id": "tone-change.01", "k": "q", "src": "Which is the pinyin of 不是 (is not)?", "tgt": "Pinyin của 不是 (không phải) là gì?"}
+{"f": "practice", "id": "tone-change.01", "k": "why", "src": "不 before a fourth tone rises: bú shì.", "tgt": "不 trước thanh 4 chuyển thành thanh 2: bú shì."}
+{"f": "practice", "id": "tone-change.02", "k": "q", "src": "How do Chinese speakers say 你好 (hello)?", "tgt": "Người Trung Quốc đọc 你好 (xin chào) thế nào?"}
+{"f": "practice", "id": "tone-change.02", "k": "o[0]", "src": "ní hǎo, with the first syllable rising", "tgt": "ní hǎo, âm tiết đầu đi lên"}
+{"f": "practice", "id": "tone-change.02", "k": "o[1]", "src": "nǐ hǎo, with two full dips", "tgt": "nǐ hǎo, cả hai xuống rồi lên đầy đủ"}
+{"f": "practice", "id": "tone-change.02", "k": "o[2]", "src": "nǐ hào, with the second syllable falling", "tgt": "nǐ hào, âm tiết sau đi xuống"}
+{"f": "practice", "id": "tone-change.02", "k": "o[3]", "src": "nì hǎo, with the first syllable falling", "tgt": "nì hǎo, âm tiết đầu đi xuống"}
+{"f": "practice", "id": "tone-change.02", "k": "why", "src": "The first of two third tones is said like a second tone; the pinyin still writes nǐ hǎo.", "tgt": "Thanh 3 đầu tiên trong hai thanh 3 đọc như thanh 2; pinyin vẫn viết nǐ hǎo.", "rw": "English sound comparison (\"sounds like …\")"}
+{"f": "practice", "id": "tone-change.03", "k": "q", "src": "Which is the pinyin of 一个人 (one person)?", "tgt": "Pinyin của 一个人 (một người) là gì?"}
+{"f": "practice", "id": "tone-change.03", "k": "why", "src": "个 counts as a fourth tone, so 一 before it rises: yí ge.", "tgt": "个 được tính như thanh 4, nên 一 đứng trước nó chuyển thành thanh 2: yí ge."}
+{"f": "practice", "id": "tone-change.04", "k": "q", "src": "In which phrase is 不 said bù, with its fourth tone?", "tgt": "Trong cụm nào 不 đọc bù, giữ thanh 4?"}
+{"f": "practice", "id": "tone-change.04", "k": "why", "src": "Before a third tone (hǎo) 不 keeps its fourth tone: bù hǎo.", "tgt": "Trước thanh 3 (hǎo), 不 giữ thanh 4: bù hǎo."}
+{"f": "practice", "id": "tone-change.05", "k": "q", "src": "When does 一 keep its first tone, yī?", "tgt": "Khi nào 一 giữ thanh 1, yī?"}
+{"f": "practice", "id": "tone-change.05", "k": "o[0]", "src": "When you count: yī, èr, sān", "tgt": "Khi đếm: yī, èr, sān"}
+{"f": "practice", "id": "tone-change.05", "k": "o[1]", "src": "Before a fourth tone", "tgt": "Trước thanh 4"}
+{"f": "practice", "id": "tone-change.05", "k": "o[2]", "src": "Before 个", "tgt": "Trước 个"}
+{"f": "practice", "id": "tone-change.05", "k": "o[3]", "src": "Before a first tone", "tgt": "Trước thanh 1"}
+{"f": "practice", "id": "tone-change.05", "k": "why", "src": "In counting, at the end of a bigger number (十一) and after 第, 一 stays yī.", "tgt": "Khi đếm, khi đứng cuối một số lớn hơn (十一) và sau 第, 一 vẫn là yī."}
+{"f": "practice", "id": "tone-change.06", "k": "p", "src": "不是 (is not) in pinyin", "tgt": "不是 (không phải) bằng pinyin"}
+{"f": "practice", "id": "tone-change.06", "k": "why", "src": "Tone change: 不 before a fourth tone is bú.", "tgt": "Biến điệu: 不 trước thanh 4 là bú."}
+{"f": "practice", "id": "tone-change.07", "k": "p", "src": "一个人 (one person) in pinyin", "tgt": "一个人 (một người) bằng pinyin"}
+{"f": "practice", "id": "tone-change.07", "k": "why", "src": "一 before 个 takes the second tone: yí ge rén.", "tgt": "一 trước 个 mang thanh 2: yí ge rén."}
+{"f": "practice", "id": "tone-change.08", "k": "p", "src": "不好 (not good) in pinyin", "tgt": "不好 (không tốt) bằng pinyin"}
+{"f": "practice", "id": "tone-change.08", "k": "why", "src": "Before a third tone, 不 keeps its fourth tone: bù hǎo.", "tgt": "Trước thanh 3, 不 giữ thanh 4: bù hǎo."}
+{"f": "practice", "id": "tone-change.09", "k": "p", "src": "you're welcome", "tgt": "không có gì (đáp lời cảm ơn)"}
+{"f": "practice", "id": "tone-change.09", "k": "why", "src": "客 has the fourth tone, so 不 rises: bú kèqi.", "tgt": "客 mang thanh 4, nên 不 chuyển thành thanh 2: bú kèqi."}
+{"f": "practice", "id": "tone-change.10", "k": "p", "src": "together", "tgt": "cùng nhau"}
+{"f": "practice", "id": "tone-change.10", "k": "why", "src": "Before a third tone (qǐ), 一 is said yì: yìqǐ.", "tgt": "Trước thanh 3 (qǐ), 一 đọc là yì: yìqǐ."}
+{"f": "practice", "id": "tone-change.11", "k": "p", "src": "first", "tgt": "thứ nhất"}
+{"f": "practice", "id": "tone-change.11", "k": "why", "src": "After 第, 一 keeps its first tone: dìyī.", "tgt": "Sau 第, 一 giữ thanh 1: dìyī."}
+{"f": "practice", "id": "tone-change.12", "k": "p", "src": "Type the pinyin of 不客气 (you're welcome)", "tgt": "Gõ pinyin của 不客气 (không có gì)"}
+{"f": "practice", "id": "tone-change.12", "k": "hint", "src": "two words · 不 changes before a fourth tone", "tgt": "hai từ · 不 đổi thanh trước thanh 4"}
+{"f": "practice", "id": "tone-change.12", "k": "why", "src": "Tone change: 不 before a fourth tone is bú, so bú kèqi.", "tgt": "Biến điệu: 不 trước thanh 4 là bú, nên viết bú kèqi."}
+{"f": "practice", "id": "tone-change.13", "k": "p", "src": "one person (in characters)", "tgt": "một người (viết bằng chữ Hán)"}
+{"f": "practice", "id": "tone-change.13", "k": "hint", "src": "个 goes between the number and the noun", "tgt": "个 đứng giữa số và danh từ"}
+{"f": "practice", "id": "tone-change.13", "k": "why", "src": "A number needs a measure word before the noun: 一个人.", "tgt": "Sau số phải có lượng từ trước danh từ: 一个人."}
+{"f": "practice", "id": "tone-change.14", "k": "p", "src": "Type the pinyin of 你好 (hello), the way it is written", "tgt": "Gõ pinyin của 你好 (xin chào), theo cách viết"}
+{"f": "practice", "id": "tone-change.14", "k": "hint", "src": "two words · pinyin writes the dictionary tones", "tgt": "hai từ · pinyin ghi thanh gốc trong từ điển"}
+{"f": "practice", "id": "tone-change.14", "k": "why", "src": "Pinyin writes the third tone mark on both: nǐ hǎo, though you say ní hǎo.", "tgt": "Pinyin ghi dấu thanh 3 trên cả hai chữ: nǐ hǎo, dù bạn đọc là ní hǎo."}
+{"f": "lessons", "id": "characters", "k": "title", "src": "4 · How characters work: strokes and radicals", "tgt": "4 · Cấu tạo chữ Hán: nét và bộ thủ"}
+{"f": "lessons", "id": "characters", "k": "blurb", "src": "Recognize about 25 basic characters and see how pictures, compounds and radicals build the rest.", "tgt": "Nhận biết khoảng 25 chữ Hán cơ bản và hiểu cách hình vẽ, chữ ghép và bộ thủ tạo nên các chữ còn lại."}
+{"f": "sentences", "id": "zh.s0028", "k": "gloss", "src": "person", "tgt": "người"}
+{"f": "sentences", "id": "zh.s0029", "k": "gloss", "src": "tree; wood", "tgt": "cây; gỗ"}
+{"f": "sentences", "id": "zh.s0030", "k": "gloss", "src": "mountain", "tgt": "núi"}
+{"f": "sentences", "id": "zh.s0031", "k": "gloss", "src": "woods", "tgt": "rừng"}
+{"f": "sentences", "id": "zh.s0032", "k": "gloss", "src": "bright", "tgt": "sáng"}
+{"f": "sentences", "id": "zh.s0033", "k": "gloss", "src": "good", "tgt": "tốt"}
+{"f": "checks", "id": "characters.k1", "k": "q", "src": "What is a radical?", "tgt": "Bộ thủ là gì?"}
+{"f": "checks", "id": "characters.k1", "k": "o[0]", "src": "A part of a character that hints at its meaning", "tgt": "Phần của chữ Hán gợi ý về nghĩa"}
+{"f": "checks", "id": "characters.k1", "k": "o[1]", "src": "A letter of the Chinese alphabet", "tgt": "Một chữ cái trong bảng chữ cái tiếng Trung"}
+{"f": "checks", "id": "characters.k1", "k": "o[2]", "src": "The pinyin of a character", "tgt": "Pinyin của một chữ"}
+{"f": "checks", "id": "characters.k1", "k": "o[3]", "src": "A tone mark", "tgt": "Một dấu thanh"}
+{"f": "checks", "id": "characters.k1", "k": "why", "src": "A radical, such as 氵 for water, hints at the meaning; it does not spell the sound.", "tgt": "Bộ thủ, như 氵 chỉ nước, gợi ý về nghĩa; nó không ghi âm."}
+{"f": "checks", "id": "characters.k2", "k": "q", "src": "What does 休 (to rest) show?", "tgt": "Chữ 休 (nghỉ ngơi) vẽ gì?"}
+{"f": "checks", "id": "characters.k2", "k": "o[0]", "src": "Two trees", "tgt": "Hai cái cây"}
+{"f": "checks", "id": "characters.k2", "k": "o[1]", "src": "A person leaning on a tree", "tgt": "Một người tựa vào cây"}
+{"f": "checks", "id": "characters.k2", "k": "o[2]", "src": "The sun and the moon", "tgt": "Mặt trời và mặt trăng"}
+{"f": "checks", "id": "characters.k2", "k": "o[3]", "src": "An open mouth", "tgt": "Cái miệng mở"}
+{"f": "checks", "id": "characters.k2", "k": "why", "src": "休 is 亻 (person) next to 木 (tree): someone resting against a tree.", "tgt": "休 là 亻 (người) đứng cạnh 木 (cây): một người tựa vào cây nghỉ."}
+{"f": "checks", "id": "characters.k3", "k": "q", "src": "Which characters does this course teach?", "tgt": "Khóa học này dạy loại chữ nào?"}
+{"f": "checks", "id": "characters.k3", "k": "o[0]", "src": "Traditional characters, as in Taiwan", "tgt": "Chữ phồn thể, dùng ở Đài Loan", "rw": "English sound comparison (\"as in …\")"}
+{"f": "checks", "id": "characters.k3", "k": "o[1]", "src": "A mix of both", "tgt": "Cả hai loại trộn lẫn"}
+{"f": "checks", "id": "characters.k3", "k": "o[2]", "src": "Simplified characters, as in mainland China", "tgt": "Chữ giản thể, dùng ở Trung Quốc đại lục", "rw": "English sound comparison (\"as in …\")"}
+{"f": "checks", "id": "characters.k3", "k": "o[3]", "src": "Pinyin only, no characters", "tgt": "Chỉ pinyin, không có chữ Hán"}
+{"f": "checks", "id": "characters.k3", "k": "why", "src": "The course teaches simplified characters, used in mainland China, with pinyin under them.", "tgt": "Khóa học dạy chữ giản thể, dùng ở Trung Quốc đại lục, có pinyin bên dưới."}
+{"f": "practice", "id": "characters.01", "k": "q", "src": "Which character began as a picture of a tree?", "tgt": "Chữ nào bắt đầu từ hình vẽ một cái cây?"}
+{"f": "practice", "id": "characters.01", "k": "why", "src": "木 is a tree with its roots; two of them make 林, woods.", "tgt": "木 là cái cây có rễ; hai chữ 木 thành 林, rừng."}
+{"f": "practice", "id": "characters.02", "k": "q", "src": "好 (good) is made of 女 and 子. What do they mean?", "tgt": "好 (tốt) gồm 女 và 子. Chúng nghĩa là gì?"}
+{"f": "practice", "id": "characters.02", "k": "o[0]", "src": "woman and child", "tgt": "phụ nữ và đứa con"}
+{"f": "practice", "id": "characters.02", "k": "o[1]", "src": "sun and moon", "tgt": "mặt trời và mặt trăng"}
+{"f": "practice", "id": "characters.02", "k": "o[2]", "src": "person and tree", "tgt": "người và cây"}
+{"f": "practice", "id": "characters.02", "k": "o[3]", "src": "mouth and water", "tgt": "miệng và nước"}
+{"f": "practice", "id": "characters.02", "k": "why", "src": "女 is woman and 子 is child: together, good.", "tgt": "女 là phụ nữ, 子 là đứa con: ghép lại thành tốt."}
+{"f": "practice", "id": "characters.03", "k": "q", "src": "Which part of 汤 (soup) hints at its meaning?", "tgt": "Phần nào của 汤 (canh) gợi ý về nghĩa?"}
+{"f": "practice", "id": "characters.03", "k": "o[0]", "src": "氵 on the left, which means water", "tgt": "氵 bên trái, nghĩa là nước"}
+{"f": "practice", "id": "characters.03", "k": "o[1]", "src": "The right side, which spells the sound", "tgt": "Bên phải, phần ghi âm"}
+{"f": "practice", "id": "characters.03", "k": "o[2]", "src": "Its top stroke", "tgt": "Nét trên cùng"}
+{"f": "practice", "id": "characters.03", "k": "o[3]", "src": "No part: characters give no hints", "tgt": "Không phần nào: chữ Hán không có gợi ý"}
+{"f": "practice", "id": "characters.03", "k": "why", "src": "Three dots on the left (氵) mark words to do with water.", "tgt": "Ba chấm bên trái (氵) đánh dấu những từ liên quan đến nước."}
+{"f": "practice", "id": "characters.04", "k": "q", "src": "Which is the pinyin of 好 (good)?", "tgt": "Pinyin của 好 (tốt) là gì?"}
+{"f": "practice", "id": "characters.04", "k": "why", "src": "好 (good) has the third tone: hǎo.", "tgt": "好 (tốt) mang thanh 3: hǎo."}
+{"f": "practice", "id": "characters.05", "k": "q", "src": "明 (bright) is 日 + 月. What are they?", "tgt": "明 (sáng) là 日 + 月. Đó là gì?"}
+{"f": "practice", "id": "characters.05", "k": "o[0]", "src": "the sun and the moon", "tgt": "mặt trời và mặt trăng"}
+{"f": "practice", "id": "characters.05", "k": "o[1]", "src": "two trees", "tgt": "hai cái cây"}
+{"f": "practice", "id": "characters.05", "k": "o[2]", "src": "a person and a tree", "tgt": "một người và một cái cây"}
+{"f": "practice", "id": "characters.05", "k": "o[3]", "src": "a mouth and a door", "tgt": "cái miệng và cái cửa"}
+{"f": "practice", "id": "characters.05", "k": "why", "src": "日 is the sun and 月 is the moon: together, bright.", "tgt": "日 là mặt trời, 月 là mặt trăng: ghép lại thành sáng."}
+{"f": "practice", "id": "characters.06", "k": "p", "src": "a good person (in characters)", "tgt": "người tốt (bằng chữ Hán)"}
+{"f": "practice", "id": "characters.06", "k": "why", "src": "The describer goes before the noun: 好人, good person.", "tgt": "Từ bổ nghĩa đứng trước danh từ, ngược với tiếng Việt: 好人, người tốt."}
+{"f": "practice", "id": "characters.07", "k": "p", "src": "好人 (a good person) in pinyin", "tgt": "好人 (người tốt) bằng pinyin"}
+{"f": "practice", "id": "characters.07", "k": "why", "src": "好 has the third tone mark: hǎo rén.", "tgt": "好 mang dấu thanh 3: hǎo rén."}
+{"f": "practice", "id": "characters.08", "k": "p", "src": "a big mountain (in characters; 大 = big)", "tgt": "núi lớn (bằng chữ Hán; 大 = lớn)"}
+{"f": "practice", "id": "characters.08", "k": "why", "src": "The describer goes before the noun: 大山, big mountain.", "tgt": "Từ bổ nghĩa đứng trước danh từ: 大山, núi lớn."}
+{"f": "practice", "id": "characters.09", "k": "p", "src": "sun + moon = bright", "tgt": "mặt trời + mặt trăng = sáng"}
+{"f": "practice", "id": "characters.09", "k": "why", "src": "The sun and the moon together make 明, bright.", "tgt": "Mặt trời và mặt trăng ghép lại thành 明, sáng."}
+{"f": "practice", "id": "characters.10", "k": "p", "src": "tree + tree = woods", "tgt": "cây + cây = rừng"}
+{"f": "practice", "id": "characters.10", "k": "why", "src": "Two trees make 林 (woods); three trees make 森 (forest).", "tgt": "Hai cây thành 林 (rừng); ba cây thành 森 (rừng rậm)."}
+{"f": "practice", "id": "characters.11", "k": "p", "src": "woman + child = good", "tgt": "phụ nữ + đứa con = tốt"}
+{"f": "practice", "id": "characters.11", "k": "why", "src": "女 (woman) and 子 (child) make 好, good.", "tgt": "女 (phụ nữ) và 子 (đứa con) thành 好, tốt."}
+{"f": "practice", "id": "characters.12", "k": "p", "src": "Type the pinyin of 好 (good)", "tgt": "Gõ pinyin của 好 (tốt)"}
+{"f": "practice", "id": "characters.12", "k": "hint", "src": "third tone · use the accent bar", "tgt": "thanh 3 · dùng hàng phím dấu thanh"}
+{"f": "practice", "id": "characters.12", "k": "why", "src": "好 has the third tone mark: hǎo.", "tgt": "好 mang dấu thanh 3: hǎo."}
+{"f": "practice", "id": "characters.13", "k": "p", "src": "a good person (in characters)", "tgt": "người tốt (bằng chữ Hán)"}
+{"f": "practice", "id": "characters.13", "k": "hint", "src": "the describer comes first", "tgt": "từ bổ nghĩa đứng trước"}
+{"f": "practice", "id": "characters.13", "k": "why", "src": "The describer goes before the noun: 好人.", "tgt": "Từ bổ nghĩa đứng trước danh từ: 好人."}
+{"f": "practice", "id": "characters.14", "k": "p", "src": "Type the pinyin of 人 (person)", "tgt": "Gõ pinyin của 人 (người)"}
+{"f": "practice", "id": "characters.14", "k": "hint", "src": "second tone · use the accent bar", "tgt": "thanh 2 · dùng hàng phím dấu thanh"}
+{"f": "practice", "id": "characters.14", "k": "why", "src": "人 has the second tone: it rises, rén.", "tgt": "人 mang thanh 2: đi lên, rén."}
+{"f": "lessons", "id": "greetings", "k": "title", "src": "5 · Hello, thank you, sorry: Chinese courtesy", "tgt": "5 · Chào hỏi, cảm ơn, xin lỗi: phép lịch sự trong tiếng Trung"}
+{"f": "lessons", "id": "greetings", "k": "blurb", "src": "Say hello, thank you, sorry and goodbye, give your name, and know when to use the polite 您.", "tgt": "Chào hỏi, cảm ơn, xin lỗi và tạm biệt, giới thiệu tên, và biết khi nào dùng 您 lịch sự."}
+{"f": "sentences", "id": "zh.s0034", "k": "gloss", "src": "Hello!", "tgt": "Xin chào!"}
+{"f": "sentences", "id": "zh.s0035", "k": "gloss", "src": "Hello! (polite)", "tgt": "Xin chào! (lịch sự)"}
+{"f": "sentences", "id": "zh.s0036", "k": "gloss", "src": "Hello, Teacher Wang!", "tgt": "Xin chào thầy Vương ạ!"}
+{"f": "sentences", "id": "zh.s0037", "k": "gloss", "src": "Thank you!", "tgt": "Cảm ơn!"}
+{"f": "sentences", "id": "zh.s0038", "k": "gloss", "src": "You're welcome.", "tgt": "Không có gì."}
+{"f": "sentences", "id": "zh.s0039", "k": "gloss", "src": "I'm sorry.", "tgt": "Tôi xin lỗi."}
+{"f": "sentences", "id": "zh.s0040", "k": "gloss", "src": "That's OK.", "tgt": "Không sao."}
+{"f": "sentences", "id": "zh.s0041", "k": "gloss", "src": "Excuse me, what's your last name?", "tgt": "Xin hỏi, ngài họ gì ạ?"}
+{"f": "sentences", "id": "zh.s0042", "k": "gloss", "src": "My last name is Wang.", "tgt": "Tôi họ Vương."}
+{"f": "sentences", "id": "zh.s0043", "k": "gloss", "src": "My name is Wang Ming.", "tgt": "Tôi tên là Vương Minh."}
+{"f": "sentences", "id": "zh.s0044", "k": "gloss", "src": "Excuse me! (calling a server)", "tgt": "Xin lỗi! (gọi nhân viên phục vụ)"}
+{"f": "sentences", "id": "zh.s0045", "k": "gloss", "src": "Goodbye!", "tgt": "Tạm biệt!"}
+{"f": "checks", "id": "greetings.k1", "k": "q", "src": "When should you use 您 instead of 你?", "tgt": "Khi nào nên dùng 您 thay cho 你?"}
+{"f": "checks", "id": "greetings.k1", "k": "o[0]", "src": "With your best friend", "tgt": "Với bạn thân nhất"}
+{"f": "checks", "id": "greetings.k1", "k": "o[1]", "src": "With an older person, a teacher or a customer", "tgt": "Với người lớn tuổi, thầy cô hoặc khách hàng"}
+{"f": "checks", "id": "greetings.k1", "k": "o[2]", "src": "With a small child", "tgt": "Với trẻ nhỏ"}
+{"f": "checks", "id": "greetings.k1", "k": "o[3]", "src": "Never; it is old-fashioned", "tgt": "Không bao giờ; từ này đã cũ"}
+{"f": "checks", "id": "greetings.k1", "k": "why", "src": "您 shows respect: for older people, teachers, and from staff to customers.", "tgt": "您 tỏ sự kính trọng: với người lớn tuổi, thầy cô, và khi nhân viên nói với khách."}
+{"f": "checks", "id": "greetings.k2", "k": "q", "src": "What does 你好吗？ usually mean?", "tgt": "你好吗？ thường có nghĩa là gì?"}
+{"f": "checks", "id": "greetings.k2", "k": "o[0]", "src": "Hi! (a casual greeting)", "tgt": "Chào! (lời chào bình thường)"}
+{"f": "checks", "id": "greetings.k2", "k": "o[1]", "src": "Goodbye", "tgt": "Tạm biệt"}
+{"f": "checks", "id": "greetings.k2", "k": "o[2]", "src": "A real question: are you doing well?", "tgt": "Một câu hỏi thật: bạn có khỏe không?"}
+{"f": "checks", "id": "greetings.k2", "k": "o[3]", "src": "Thank you", "tgt": "Cảm ơn"}
+{"f": "checks", "id": "greetings.k2", "k": "why", "src": "你好吗 asks how someone really is; for a casual hi, say 你好.", "tgt": "你好吗 hỏi thật về tình hình của người kia; để chào bình thường, nói 你好."}
+{"f": "checks", "id": "greetings.k3", "k": "q", "src": "Which word do you use to call a server in a restaurant?", "tgt": "Bạn dùng từ nào để gọi nhân viên phục vụ trong nhà hàng?"}
+{"f": "checks", "id": "greetings.k3", "k": "why", "src": "Call a server 服务员; 小姐 now has a bad meaning in mainland China.", "tgt": "Gọi nhân viên phục vụ là 服务员; 小姐 nay mang nghĩa xấu ở Trung Quốc đại lục."}
+{"f": "practice", "id": "greetings.01", "k": "q", "src": "Which is the pinyin of 您 (you, polite)?", "tgt": "Pinyin của 您 (bạn, lịch sự) là gì?"}
+{"f": "practice", "id": "greetings.01", "k": "why", "src": "您 has the second tone: nín. 你 has the third tone: nǐ.", "tgt": "您 mang thanh 2: nín. 你 mang thanh 3: nǐ."}
+{"f": "practice", "id": "greetings.02", "k": "q", "src": "Which do you say to an older neighbor?", "tgt": "Bạn nói câu nào với bác hàng xóm lớn tuổi?"}
+{"f": "practice", "id": "greetings.02", "k": "why", "src": "您好 is the polite hello for older people.", "tgt": "您好 là lời chào lịch sự với người lớn tuổi."}
+{"f": "practice", "id": "greetings.03", "k": "q", "src": "Someone says 对不起 to you. What do you answer?", "tgt": "Ai đó nói 对不起 với bạn. Bạn đáp thế nào?"}
+{"f": "practice", "id": "greetings.03", "k": "why", "src": "没关系 (that's OK) answers an apology; 不客气 answers thanks.", "tgt": "没关系 (không sao) đáp lời xin lỗi; 不客气 đáp lời cảm ơn."}
+{"f": "practice", "id": "greetings.04", "k": "q", "src": "Your friend says 谢谢. What do you answer?", "tgt": "Bạn của bạn nói 谢谢. Bạn đáp thế nào?"}
+{"f": "practice", "id": "greetings.04", "k": "why", "src": "不客气 (you're welcome) answers thanks.", "tgt": "不客气 (không có gì) đáp lời cảm ơn."}
+{"f": "practice", "id": "greetings.05", "k": "q", "src": "How do you call a server in a restaurant?", "tgt": "Bạn gọi nhân viên phục vụ trong nhà hàng thế nào?"}
+{"f": "practice", "id": "greetings.05", "k": "why", "src": "服务员 is the normal word; 小姐 suggests a sex worker in the mainland.", "tgt": "服务员 là từ bình thường; 小姐 ở đại lục gợi ý gái mại dâm."}
+{"f": "practice", "id": "greetings.06", "k": "p", "src": "您好 (hello, polite) in pinyin", "tgt": "您好 (xin chào, lịch sự) bằng pinyin"}
+{"f": "practice", "id": "greetings.06", "k": "why", "src": "您 has the second tone: it rises, nín hǎo.", "tgt": "您 mang thanh 2: đi lên, nín hǎo."}
+{"f": "practice", "id": "greetings.07", "k": "p", "src": "a Chinese teacher (a teacher of Chinese)", "tgt": "giáo viên tiếng Trung (thầy cô dạy tiếng Trung)"}
+{"f": "practice", "id": "greetings.07", "k": "why", "src": "The describer goes before the noun: 中文老师.", "tgt": "Từ bổ nghĩa đứng trước danh từ, ngược với tiếng Việt: 中文老师."}
+{"f": "practice", "id": "greetings.08", "k": "p", "src": "My name is Wang Ming.", "tgt": "Tôi tên là Vương Minh."}
+{"f": "practice", "id": "greetings.08", "k": "why", "src": "叫 means to be called: 我叫 + your name.", "tgt": "叫 nghĩa là «tên là, được gọi là»: 我叫 + tên bạn."}
+{"f": "practice", "id": "greetings.09", "k": "p", "src": "My last name is Wang.", "tgt": "Tôi họ Vương."}
+{"f": "practice", "id": "greetings.09", "k": "why", "src": "Answer with 姓; 贵 is only for the other person's name.", "tgt": "Trả lời bằng 姓; 贵 chỉ dùng cho họ của người kia."}
+{"f": "practice", "id": "greetings.10", "k": "p", "src": "Excuse me, what's your last name?", "tgt": "Xin hỏi, ngài họ gì ạ?"}
+{"f": "practice", "id": "greetings.10", "k": "why", "src": "请问 (may I ask) opens a polite question.", "tgt": "请问 (xin hỏi) mở đầu một câu hỏi lịch sự."}
+{"f": "practice", "id": "greetings.11", "k": "p", "src": "That's OK.", "tgt": "Không sao."}
+{"f": "practice", "id": "greetings.11", "k": "why", "src": "没关系 (that's OK) answers sorry; 不客气 answers thank you.", "tgt": "没关系 (không sao) đáp lời xin lỗi; 不客气 đáp lời cảm ơn."}
+{"f": "practice", "id": "greetings.12", "k": "p", "src": "Type the pinyin of 再见 (goodbye)", "tgt": "Gõ pinyin của 再见 (tạm biệt)"}
+{"f": "practice", "id": "greetings.12", "k": "hint", "src": "fourth tone + fourth tone · one word", "tgt": "thanh 4 + thanh 4 · một từ"}
+{"f": "practice", "id": "greetings.12", "k": "why", "src": "再见 is two fourth tones: zàijiàn.", "tgt": "再见 gồm hai thanh 4: zàijiàn."}
+{"f": "practice", "id": "greetings.13", "k": "p", "src": "an American teacher (美国 = America)", "tgt": "giáo viên người Mỹ (美国 = nước Mỹ)"}
+{"f": "practice", "id": "greetings.13", "k": "hint", "src": "the describer comes first", "tgt": "từ bổ nghĩa đứng trước"}
+{"f": "practice", "id": "greetings.13", "k": "why", "src": "The describer goes before the noun: 美国老师.", "tgt": "Từ bổ nghĩa đứng trước danh từ: 美国老师."}
+{"f": "practice", "id": "greetings.14", "k": "p", "src": "My last name is Li. (answering 您贵姓？)", "tgt": "Tôi họ Lý. (trả lời câu 您贵姓？)"}
+{"f": "practice", "id": "greetings.14", "k": "why", "src": "Answer with 我姓 + surname; 贵 is only for the person you ask.", "tgt": "Trả lời bằng 我姓 + họ; 贵 chỉ dùng cho người bạn hỏi."}
+{"f": "lessons", "id": "pronouns", "k": "title", "src": "6 · Pronouns and 们", "tgt": "6 · Đại từ và 们"}
+{"f": "lessons", "id": "pronouns", "k": "blurb", "src": "Say I, you, he, she, we and they, make them plural with 们, and say my friend or their teacher.", "tgt": "Nói tôi, bạn, anh ấy, cô ấy, chúng tôi và họ, tạo số nhiều với 们, và nói bạn của tôi, thầy của họ."}
+{"f": "sentences", "id": "zh.s0046", "k": "gloss", "src": "His name is Wang Ming.", "tgt": "Anh ấy tên là Vương Minh."}
+{"f": "sentences", "id": "zh.s0047", "k": "gloss", "src": "Her last name is Li.", "tgt": "Cô ấy họ Lý."}
+{"f": "sentences", "id": "zh.s0048", "k": "gloss", "src": "Hello, everyone! (to a group)", "tgt": "Chào các bạn! (với một nhóm)"}
+{"f": "sentences", "id": "zh.s0049", "k": "gloss", "src": "Hello, everybody!", "tgt": "Chào mọi người!"}
+{"f": "sentences", "id": "zh.s0050", "k": "gloss", "src": "five students", "tgt": "năm học sinh"}
+{"f": "sentences", "id": "zh.s0051", "k": "gloss", "src": "my friend", "tgt": "bạn của tôi"}
+{"f": "sentences", "id": "zh.s0052", "k": "gloss", "src": "My friend's name is Anna.", "tgt": "Bạn tôi tên là Anna."}
+{"f": "sentences", "id": "zh.s0053", "k": "gloss", "src": "Our teacher's last name is Wang.", "tgt": "Thầy giáo của chúng tôi họ Vương."}
+{"f": "checks", "id": "pronouns.k1", "k": "q", "src": "How do you say we?", "tgt": "«Chúng tôi» nói thế nào?"}
+{"f": "checks", "id": "pronouns.k1", "k": "o[0]", "src": "我s", "tgt": "các 我"}
+{"f": "checks", "id": "pronouns.k1", "k": "why", "src": "们 after a pronoun makes it plural: 我们.", "tgt": "们 đứng sau đại từ để tạo số nhiều: 我们."}
+{"f": "checks", "id": "pronouns.k2", "k": "q", "src": "How do 他 (he) and 她 (she) sound?", "tgt": "他 (anh ấy) và 她 (cô ấy) đọc thế nào?"}
+{"f": "checks", "id": "pronouns.k2", "k": "o[0]", "src": "他 is tā, 她 is tà", "tgt": "他 là tā, 她 là tà"}
+{"f": "checks", "id": "pronouns.k2", "k": "o[1]", "src": "Exactly the same: tā", "tgt": "Giống hệt nhau: tā"}
+{"f": "checks", "id": "pronouns.k2", "k": "o[2]", "src": "她 is said nǚ", "tgt": "她 đọc là nǚ"}
+{"f": "checks", "id": "pronouns.k2", "k": "o[3]", "src": "他 rises and 她 falls", "tgt": "他 đi lên, 她 đi xuống"}
+{"f": "checks", "id": "pronouns.k2", "k": "why", "src": "他, 她 and 它 are all tā; only the character shows the difference.", "tgt": "他, 她 và 它 đều đọc tā; chỉ chữ viết mới cho thấy sự khác biệt."}
+{"f": "checks", "id": "pronouns.k3", "k": "q", "src": "Which is right for five students?", "tgt": "Cách nào đúng cho «năm học sinh»?"}
+{"f": "checks", "id": "pronouns.k3", "k": "why", "src": "A number takes a measure word and no 们: 五个学生.", "tgt": "Sau số đếm có lượng từ và không có 们: 五个学生."}
+{"f": "practice", "id": "pronouns.01", "k": "q", "src": "Which is the pinyin of 他 (he)?", "tgt": "Pinyin của 他 (anh ấy) là gì?"}
+{"f": "practice", "id": "pronouns.01", "k": "why", "src": "他 has the first tone: high and level, tā.", "tgt": "他 mang thanh 1: cao và bằng, tā."}
+{"f": "practice", "id": "pronouns.02", "k": "q", "src": "How do you say we?", "tgt": "«Chúng tôi» nói thế nào?"}
+{"f": "practice", "id": "pronouns.02", "k": "why", "src": "们 makes 我 plural: 我们.", "tgt": "们 biến 我 thành số nhiều: 我们."}
+{"f": "practice", "id": "pronouns.03", "k": "q", "src": "You hear tā in a sentence. Who is it?", "tgt": "Bạn nghe thấy tā trong một câu. Đó là ai?"}
+{"f": "practice", "id": "pronouns.03", "k": "o[0]", "src": "he, she or it: they sound the same", "tgt": "anh ấy, cô ấy hoặc nó: đọc giống nhau"}
+{"f": "practice", "id": "pronouns.03", "k": "o[1]", "src": "only he", "tgt": "chỉ anh ấy"}
+{"f": "practice", "id": "pronouns.03", "k": "o[2]", "src": "only she", "tgt": "chỉ cô ấy"}
+{"f": "practice", "id": "pronouns.03", "k": "o[3]", "src": "only it", "tgt": "chỉ nó"}
+{"f": "practice", "id": "pronouns.03", "k": "why", "src": "他, 她 and 它 are all tā; context tells you which.", "tgt": "他, 她 và 它 đều đọc tā; ngữ cảnh cho bạn biết là ai."}
+{"f": "practice", "id": "pronouns.04", "k": "q", "src": "Which is right for three students?", "tgt": "Cách nào đúng cho «ba học sinh»?"}
+{"f": "practice", "id": "pronouns.04", "k": "why", "src": "After a number, use 个 and no 们.", "tgt": "Sau số đếm dùng 个 và không dùng 们."}
+{"f": "practice", "id": "pronouns.05", "k": "q", "src": "Which word means they, for a group of women?", "tgt": "Từ nào nghĩa là «họ», nói về một nhóm phụ nữ?"}
+{"f": "practice", "id": "pronouns.05", "k": "why", "src": "她 + 们 is a group of women; 他们 covers men or mixed groups.", "tgt": "她 + 们 là một nhóm phụ nữ; 他们 dùng cho nhóm nam hoặc nhóm có cả nam lẫn nữ."}
+{"f": "practice", "id": "pronouns.06", "k": "p", "src": "their teacher", "tgt": "thầy giáo của họ"}
+{"f": "practice", "id": "pronouns.06", "k": "why", "src": "The owner goes before the noun: 他们的老师.", "tgt": "Người sở hữu đứng trước danh từ: 他们的老师."}
+{"f": "practice", "id": "pronouns.07", "k": "p", "src": "five students (五 = five)", "tgt": "năm học sinh (五 = năm)"}
+{"f": "practice", "id": "pronouns.07", "k": "why", "src": "A number needs a measure word before the noun, and no 们: 五个学生.", "tgt": "Sau số đếm phải có lượng từ trước danh từ, và không có 们: 五个学生."}
+{"f": "practice", "id": "pronouns.08", "k": "p", "src": "His name is Wang Ming.", "tgt": "Anh ấy tên là Vương Minh."}
+{"f": "practice", "id": "pronouns.08", "k": "why", "src": "叫 gives the full name; 姓 gives only the last name.", "tgt": "叫 cho biết cả họ tên; 姓 chỉ cho biết họ."}
+{"f": "practice", "id": "pronouns.09", "k": "p", "src": "Hello, everyone! (to a group of friends)", "tgt": "Chào các bạn! (với một nhóm bạn)"}
+{"f": "practice", "id": "pronouns.09", "k": "why", "src": "你 + 们 is you all: 你们好.", "tgt": "你 + 们 là các bạn: 你们好."}
+{"f": "practice", "id": "pronouns.10", "k": "p", "src": "five students", "tgt": "năm học sinh"}
+{"f": "practice", "id": "pronouns.10", "k": "why", "src": "A number takes 个 before the noun: 五个学生.", "tgt": "Sau số đếm dùng 个 trước danh từ: 五个学生."}
+{"f": "practice", "id": "pronouns.11", "k": "p", "src": "Our teacher's last name is Wang.", "tgt": "Thầy giáo của chúng tôi họ Vương."}
+{"f": "practice", "id": "pronouns.11", "k": "why", "src": "我们 is we or us; with 的, our.", "tgt": "我们 là chúng tôi; thêm 的 thành «của chúng tôi»."}
+{"f": "practice", "id": "pronouns.12", "k": "p", "src": "five students (五 = five)", "tgt": "năm học sinh (五 = năm)"}
+{"f": "practice", "id": "pronouns.12", "k": "hint", "src": "no 们 after a number", "tgt": "không có 们 sau số đếm"}
+{"f": "practice", "id": "pronouns.12", "k": "why", "src": "A number needs a measure word before the noun, and no 们: 五个学生.", "tgt": "Sau số đếm phải có lượng từ trước danh từ, và không có 们: 五个学生."}
+{"f": "practice", "id": "pronouns.13", "k": "p", "src": "my friend", "tgt": "bạn của tôi"}
+{"f": "practice", "id": "pronouns.13", "k": "hint", "src": "the owner comes first", "tgt": "người sở hữu đứng trước"}
+{"f": "practice", "id": "pronouns.13", "k": "why", "src": "The owner goes before the noun: 我的朋友, or 我朋友 for a close friend.", "tgt": "Người sở hữu đứng trước danh từ: 我的朋友, hoặc 我朋友 với bạn thân."}
+{"f": "practice", "id": "pronouns.14", "k": "p", "src": "Hello, everyone! (to a group)", "tgt": "Chào mọi người! (với một nhóm)"}
+{"f": "practice", "id": "pronouns.14", "k": "why", "src": "们 makes you plural: 你们好. 大家好 works too.", "tgt": "们 biến «bạn» thành số nhiều: 你们好. 大家好 cũng được."}
+{"f": "lessons", "id": "shi", "k": "title", "src": "7 · 是: A is B", "tgt": "7 · 是: A là B"}
+{"f": "lessons", "id": "shi", "k": "blurb", "src": "Say who you are and where you are from with 是, and say what you are not with 不是.", "tgt": "Nói bạn là ai và đến từ đâu với 是, và nói bạn không phải là gì với 不是."}
+{"f": "sentences", "id": "zh.s0054", "k": "gloss", "src": "I'm American.", "tgt": "Tôi là người Mỹ."}
+{"f": "sentences", "id": "zh.s0055", "k": "gloss", "src": "She's a teacher.", "tgt": "Cô ấy là giáo viên."}
+{"f": "sentences", "id": "zh.s0056", "k": "gloss", "src": "I'm a student.", "tgt": "Tôi là sinh viên."}
+{"f": "sentences", "id": "zh.s0057", "k": "gloss", "src": "He isn't Chinese.", "tgt": "Anh ấy không phải là người Trung Quốc."}
+{"f": "sentences", "id": "zh.s0058", "k": "gloss", "src": "Wang Ming is Chinese.", "tgt": "Vương Minh là người Trung Quốc."}
+{"f": "sentences", "id": "zh.s0059", "k": "gloss", "src": "He's an American student.", "tgt": "Anh ấy là sinh viên người Mỹ."}
+{"f": "sentences", "id": "zh.s0060", "k": "gloss", "src": "Teacher Li is a Chinese teacher.", "tgt": "Thầy Lý là giáo viên tiếng Trung."}
+{"f": "sentences", "id": "zh.s0061", "k": "gloss", "src": "I'm a student too.", "tgt": "Tôi cũng là sinh viên."}
+{"f": "checks", "id": "shi.k1", "k": "q", "src": "Which sentence means I'm American?", "tgt": "Câu nào nghĩa là «Tôi là người Mỹ»?"}
+{"f": "checks", "id": "shi.k1", "k": "why", "src": "Noun 是 noun: 我是美国人. 美国 alone is the country.", "tgt": "Danh từ 是 danh từ: 我是美国人. 美国 một mình là tên nước."}
+{"f": "checks", "id": "shi.k2", "k": "q", "src": "How is 不是 said?", "tgt": "不是 đọc thế nào?"}
+{"f": "checks", "id": "shi.k2", "k": "why", "src": "不 before a fourth tone rises: bú shì.", "tgt": "不 trước thanh 4 chuyển thành thanh 2: bú shì."}
+{"f": "checks", "id": "shi.k3", "k": "q", "src": "Where does 也 (also) go?", "tgt": "也 (cũng) đứng ở đâu?"}
+{"f": "checks", "id": "shi.k3", "k": "o[0]", "src": "At the end, like too", "tgt": "Ở cuối câu"}
+{"f": "checks", "id": "shi.k3", "k": "o[1]", "src": "Before the verb", "tgt": "Trước động từ"}
+{"f": "checks", "id": "shi.k3", "k": "o[2]", "src": "Before the subject", "tgt": "Trước chủ ngữ"}
+{"f": "checks", "id": "shi.k3", "k": "o[3]", "src": "After the verb", "tgt": "Sau động từ"}
+{"f": "checks", "id": "shi.k3", "k": "why", "src": "也 goes right before the verb: 我也是学生.", "tgt": "也 đứng ngay trước động từ, như «cũng»: 我也是学生."}
+{"f": "practice", "id": "shi.01", "k": "q", "src": "Which is the pinyin of 是 (to be)?", "tgt": "Pinyin của 是 (là) là gì?"}
+{"f": "practice", "id": "shi.01", "k": "why", "src": "是 has the fourth tone: it falls, shì.", "tgt": "是 mang thanh 4: rơi xuống, shì."}
+{"f": "practice", "id": "shi.02", "k": "q", "src": "I'm American.", "tgt": "Tôi là người Mỹ."}
+{"f": "practice", "id": "shi.02", "k": "why", "src": "Noun 是 noun, and 美国人 (American person), not 美国 (America).", "tgt": "Danh từ 是 danh từ, và là 美国人 (người Mỹ), không phải 美国 (nước Mỹ)."}
+{"f": "practice", "id": "shi.03", "k": "q", "src": "He isn't a teacher.", "tgt": "Anh ấy không phải là giáo viên."}
+{"f": "practice", "id": "shi.03", "k": "why", "src": "不 goes right before 是: 不是.", "tgt": "不 đứng ngay trước 是: 不是."}
+{"f": "practice", "id": "shi.04", "k": "q", "src": "Which word means a Chinese person?", "tgt": "Từ nào nghĩa là «người Trung Quốc»?"}
+{"f": "practice", "id": "shi.04", "k": "why", "src": "Country + 人: 中国人. 中文 is the language.", "tgt": "Tên nước + 人: 中国人. 中文 là tiếng Trung."}
+{"f": "practice", "id": "shi.05", "k": "q", "src": "I'm a student too.", "tgt": "Tôi cũng là sinh viên."}
+{"f": "practice", "id": "shi.05", "k": "why", "src": "也 goes right before 是, not at the end like too.", "tgt": "也 đứng ngay trước 是, giống «cũng» trong tiếng Việt."}
+{"f": "practice", "id": "shi.06", "k": "p", "src": "I'm a student too.", "tgt": "Tôi cũng là sinh viên."}
+{"f": "practice", "id": "shi.06", "k": "why", "src": "也 goes before the verb, not at the end like English too.", "tgt": "也 đứng trước động từ, đúng vị trí của «cũng».", "rw": "mentions English"}
+{"f": "practice", "id": "shi.07", "k": "p", "src": "He's an American student. (start with he)", "tgt": "Anh ấy là sinh viên người Mỹ. (bắt đầu bằng «anh ấy»)"}
+{"f": "practice", "id": "shi.07", "k": "why", "src": "The describer goes before the noun: 美国学生.", "tgt": "Từ bổ nghĩa đứng trước danh từ, ngược với tiếng Việt: 美国学生."}
+{"f": "practice", "id": "shi.08", "k": "p", "src": "She isn't Chinese.", "tgt": "Cô ấy không phải là người Trung Quốc."}
+{"f": "practice", "id": "shi.08", "k": "why", "src": "是 is negated with 不, never with 没.", "tgt": "是 phủ định bằng 不, không bao giờ bằng 没."}
+{"f": "practice", "id": "shi.09", "k": "p", "src": "I'm American.", "tgt": "Tôi là người Mỹ."}
+{"f": "practice", "id": "shi.09", "k": "why", "src": "是 joins two nouns: I = American.", "tgt": "是 nối hai danh từ: tôi = người Mỹ."}
+{"f": "practice", "id": "shi.10", "k": "p", "src": "He isn't a teacher.", "tgt": "Anh ấy không phải là giáo viên."}
+{"f": "practice", "id": "shi.10", "k": "why", "src": "Is not is 不是; 没 never goes with 是.", "tgt": "«Không phải» là 不是; 没 không bao giờ đi với 是."}
+{"f": "practice", "id": "shi.11", "k": "p", "src": "Wang Ming is Chinese.", "tgt": "Vương Minh là người Trung Quốc."}
+{"f": "practice", "id": "shi.11", "k": "why", "src": "Country + 人 is a person from there; 中文 is the language.", "tgt": "Tên nước + 人 là người nước đó; 中文 là tiếng Trung."}
+{"f": "practice", "id": "shi.12", "k": "p", "src": "I'm a student too.", "tgt": "Tôi cũng là sinh viên."}
+{"f": "practice", "id": "shi.12", "k": "hint", "src": "also goes before 是", "tgt": "«cũng» đứng trước 是"}
+{"f": "practice", "id": "shi.12", "k": "why", "src": "也 goes before the verb: 我也是学生.", "tgt": "也 đứng trước động từ: 我也是学生."}
+{"f": "practice", "id": "shi.13", "k": "p", "src": "She's an English teacher. (a teacher of English)", "tgt": "Cô ấy là giáo viên tiếng Anh.", "rw": "mentions English"}
+{"f": "practice", "id": "shi.13", "k": "hint", "src": "英语 (English) · 老师", "tgt": "英语 (tiếng Anh) · 老师", "rw": "mentions English"}
+{"f": "practice", "id": "shi.13", "k": "why", "src": "The describer goes before the noun: 英语老师.", "tgt": "Từ bổ nghĩa đứng trước danh từ: 英语老师."}
+{"f": "practice", "id": "shi.14", "k": "p", "src": "I'm not American.", "tgt": "Tôi không phải là người Mỹ."}
+{"f": "practice", "id": "shi.14", "k": "why", "src": "Use 不 with 是; 没 never goes with 是.", "tgt": "Dùng 不 với 是; 没 không bao giờ đi với 是."}
+{"f": "lessons", "id": "adj", "k": "title", "src": "8 · Adjectives with 很 (no 是)", "tgt": "8 · Tính từ với 很 (không dùng 是)"}
+{"f": "lessons", "id": "adj", "k": "blurb", "src": "Describe people and things with 很, 不 and 太…了, without the 是 that English makes you want.", "tgt": "Miêu tả người và vật với 很, 不 và 太…了, không thêm 是 như khi dịch từng chữ «là».", "rw": "mentions English"}
+{"f": "sentences", "id": "zh.s0062", "k": "gloss", "src": "She's tall.", "tgt": "Cô ấy cao."}
+{"f": "sentences", "id": "zh.s0063", "k": "gloss", "src": "I'm busy.", "tgt": "Tôi bận."}
+{"f": "sentences", "id": "zh.s0064", "k": "gloss", "src": "I'm tired.", "tgt": "Tôi mệt."}
+{"f": "sentences", "id": "zh.s0065", "k": "gloss", "src": "I'm fine.", "tgt": "Tôi khỏe."}
+{"f": "sentences", "id": "zh.s0066", "k": "gloss", "src": "She's tall; I'm not.", "tgt": "Cô ấy cao, tôi không cao."}
+{"f": "sentences", "id": "zh.s0067", "k": "gloss", "src": "I'm not busy.", "tgt": "Tôi không bận."}
+{"f": "sentences", "id": "zh.s0068", "k": "gloss", "src": "The coffee isn't expensive.", "tgt": "Cà phê không đắt."}
+{"f": "sentences", "id": "zh.s0069", "k": "gloss", "src": "That's too expensive!", "tgt": "Đắt quá!"}
+{"f": "sentences", "id": "zh.s0070", "k": "gloss", "src": "Great!", "tgt": "Tuyệt quá!"}
+{"f": "sentences", "id": "zh.s0071", "k": "gloss", "src": "He's a good friend.", "tgt": "Anh ấy là bạn tốt."}
+{"f": "sentences", "id": "zh.s0072", "k": "gloss", "src": "a very good friend", "tgt": "một người bạn rất tốt"}
+{"f": "checks", "id": "adj.k1", "k": "q", "src": "Which sentence means He's tall?", "tgt": "Câu nào nghĩa là «Anh ấy cao»?"}
+{"f": "checks", "id": "adj.k1", "k": "why", "src": "Adjectives work like verbs: no 是, and 很 goes before the adjective.", "tgt": "Tính từ dùng như động từ: không có 是, và 很 đứng trước tính từ."}
+{"f": "checks", "id": "adj.k2", "k": "q", "src": "What does 很 add in 我很好 (I'm fine)?", "tgt": "很 thêm gì vào 我很好 (Tôi khỏe)?"}
+{"f": "checks", "id": "adj.k2", "k": "o[0]", "src": "Usually little: it is glue before the adjective", "tgt": "Thường rất ít: nó là chất keo trước tính từ"}
+{"f": "checks", "id": "adj.k2", "k": "o[1]", "src": "Always a strong very", "tgt": "Luôn là «rất» mạnh"}
+{"f": "checks", "id": "adj.k2", "k": "o[2]", "src": "It turns it into a question", "tgt": "Biến câu thành câu hỏi"}
+{"f": "checks", "id": "adj.k2", "k": "o[3]", "src": "It shows the past", "tgt": "Chỉ quá khứ"}
+{"f": "checks", "id": "adj.k2", "k": "why", "src": "In a plain statement 很 mostly makes the sentence sound complete.", "tgt": "Trong câu khẳng định bình thường, 很 chủ yếu giúp câu nghe trọn vẹn."}
+{"f": "checks", "id": "adj.k3", "k": "q", "src": "How do you say not busy?", "tgt": "«Không bận» nói thế nào?"}
+{"f": "checks", "id": "adj.k3", "k": "why", "src": "不 goes right before the adjective, with no 是: 不忙.", "tgt": "不 đứng ngay trước tính từ, không có 是: 不忙."}
+{"f": "practice", "id": "adj.01", "k": "q", "src": "Which is the pinyin of 很 (very)?", "tgt": "Pinyin của 很 (rất) là gì?"}
+{"f": "practice", "id": "adj.01", "k": "why", "src": "很 has the third tone: low, hěn.", "tgt": "很 mang thanh 3: thấp, hěn."}
+{"f": "practice", "id": "adj.02", "k": "q", "src": "She's tall.", "tgt": "Cô ấy cao."}
+{"f": "practice", "id": "adj.02", "k": "why", "src": "No 是 before an adjective; use 很.", "tgt": "Không có 是 trước tính từ; dùng 很."}
+{"f": "practice", "id": "adj.03", "k": "q", "src": "I'm not busy.", "tgt": "Tôi không bận."}
+{"f": "practice", "id": "adj.03", "k": "why", "src": "不 goes right before the adjective, with no 是.", "tgt": "不 đứng ngay trước tính từ, không có 是."}
+{"f": "practice", "id": "adj.04", "k": "q", "src": "That's too expensive!", "tgt": "Đắt quá!"}
+{"f": "practice", "id": "adj.04", "k": "why", "src": "Too is 太 + adjective + 了.", "tgt": "«… quá» là 太 + tính từ + 了."}
+{"f": "practice", "id": "adj.05", "k": "q", "src": "a good friend", "tgt": "bạn tốt"}
+{"f": "practice", "id": "adj.05", "k": "why", "src": "The adjective goes before the noun; with 很 you would need 的.", "tgt": "Tính từ đứng trước danh từ; nếu có 很 thì cần thêm 的."}
+{"f": "practice", "id": "adj.06", "k": "p", "src": "He's tall.", "tgt": "Anh ấy cao."}
+{"f": "practice", "id": "adj.06", "k": "why", "src": "很 goes before the verb, and an adjective works like a verb: 他很高, no 是.", "tgt": "很 đứng trước vị ngữ, và tính từ dùng như động từ: 他很高, không có 是."}
+{"f": "practice", "id": "adj.07", "k": "p", "src": "a good friend", "tgt": "bạn tốt"}
+{"f": "practice", "id": "adj.07", "k": "why", "src": "The describer goes before the noun: 好朋友.", "tgt": "Từ bổ nghĩa đứng trước danh từ, ngược với tiếng Việt: 好朋友."}
+{"f": "practice", "id": "adj.08", "k": "p", "src": "That's too expensive!", "tgt": "Đắt quá!"}
+{"f": "practice", "id": "adj.08", "k": "why", "src": "Too is 太 + adjective + 了, with no 是.", "tgt": "«… quá» là 太 + tính từ + 了, không có 是."}
+{"f": "practice", "id": "adj.09", "k": "p", "src": "I'm tired.", "tgt": "Tôi mệt."}
+{"f": "practice", "id": "adj.09", "k": "why", "src": "Adjectives take 很, not 是: 我很累.", "tgt": "Tính từ đi với 很, không đi với 是: 我很累."}
+{"f": "practice", "id": "adj.10", "k": "p", "src": "The coffee isn't expensive.", "tgt": "Cà phê không đắt."}
+{"f": "practice", "id": "adj.10", "k": "why", "src": "Put 不 right before the adjective: 不贵.", "tgt": "Đặt 不 ngay trước tính từ: 不贵."}
+{"f": "practice", "id": "adj.11", "k": "p", "src": "That's too expensive!", "tgt": "Đắt quá!"}
+{"f": "practice", "id": "adj.11", "k": "why", "src": "太 … 了 means too: 太贵了.", "tgt": "太 … 了 nghĩa là «… quá»: 太贵了."}
+{"f": "practice", "id": "adj.12", "k": "p", "src": "I'm very busy.", "tgt": "Tôi rất bận."}
+{"f": "practice", "id": "adj.12", "k": "hint", "src": "no 是", "tgt": "không có 是"}
+{"f": "practice", "id": "adj.12", "k": "why", "src": "很 goes before the verb, and 忙 works like a verb: 我很忙, no 是.", "tgt": "很 đứng trước vị ngữ, và 忙 dùng như động từ: 我很忙, không có 是."}
+{"f": "practice", "id": "adj.13", "k": "p", "src": "a good friend", "tgt": "bạn tốt"}
+{"f": "practice", "id": "adj.13", "k": "hint", "src": "the describer comes first", "tgt": "từ bổ nghĩa đứng trước"}
+{"f": "practice", "id": "adj.13", "k": "why", "src": "The describer goes before the noun: 好朋友.", "tgt": "Từ bổ nghĩa đứng trước danh từ: 好朋友."}
+{"f": "practice", "id": "adj.14", "k": "p", "src": "She isn't tall. (use 不 + adjective)", "tgt": "Cô ấy không cao. (dùng 不 + tính từ)"}
+{"f": "practice", "id": "adj.14", "k": "why", "src": "不 goes right before the adjective, with no 是.", "tgt": "不 đứng ngay trước tính từ, không có 是."}
+{"f": "lessons", "id": "ma", "k": "title", "src": "9 · Questions with 吗 and 呢", "tgt": "9 · Câu hỏi với 吗 và 呢"}
+{"f": "lessons", "id": "ma", "k": "blurb", "src": "Ask yes/no questions with 吗, answer them the Chinese way, and ask back with 你呢.", "tgt": "Đặt câu hỏi có/không với 吗, trả lời theo cách tiếng Trung, và hỏi lại bằng 你呢."}
+{"f": "sentences", "id": "zh.s0073", "k": "gloss", "src": "Are you a teacher?", "tgt": "Bạn có phải là giáo viên không?"}
+{"f": "sentences", "id": "zh.s0074", "k": "gloss", "src": "Are you busy?", "tgt": "Bạn có bận không?"}
+{"f": "sentences", "id": "zh.s0075", "k": "gloss", "src": "Are you a student too?", "tgt": "Bạn cũng là sinh viên phải không?"}
+{"f": "sentences", "id": "zh.s0076", "k": "gloss", "src": "Yes, I'm a teacher.", "tgt": "Vâng, tôi là giáo viên."}
+{"f": "sentences", "id": "zh.s0077", "k": "gloss", "src": "Are you Chinese?", "tgt": "Bạn có phải là người Trung Quốc không?"}
+{"f": "sentences", "id": "zh.s0078", "k": "gloss", "src": "No, I'm American.", "tgt": "Không phải, tôi là người Mỹ."}
+{"f": "sentences", "id": "zh.s0079", "k": "gloss", "src": "No, I'm not busy.", "tgt": "Tôi không bận."}
+{"f": "sentences", "id": "zh.s0080", "k": "gloss", "src": "I'm fine. And you?", "tgt": "Tôi khỏe, còn bạn?"}
+{"f": "checks", "id": "ma.k1", "k": "q", "src": "How do you turn 你是老师。 into a question?", "tgt": "Làm thế nào biến 你是老师。 thành câu hỏi?"}
+{"f": "checks", "id": "ma.k1", "k": "o[0]", "src": "Raise your voice at the end", "tgt": "Lên giọng ở cuối câu"}
+{"f": "checks", "id": "ma.k1", "k": "o[1]", "src": "Add 吗 at the end", "tgt": "Thêm 吗 vào cuối câu"}
+{"f": "checks", "id": "ma.k1", "k": "o[2]", "src": "Put 是 first", "tgt": "Đưa 是 lên đầu"}
+{"f": "checks", "id": "ma.k1", "k": "o[3]", "src": "Add 呢 at the start", "tgt": "Thêm 呢 vào đầu câu"}
+{"f": "checks", "id": "ma.k1", "k": "why", "src": "Keep the statement and add 吗: 你是老师吗？", "tgt": "Giữ nguyên câu khẳng định và thêm 吗: 你是老师吗？"}
+{"f": "checks", "id": "ma.k2", "k": "q", "src": "你是学生吗？ How do you say yes?", "tgt": "你是学生吗？ Trả lời «có» thế nào?"}
+{"f": "checks", "id": "ma.k2", "k": "o[0]", "src": "是。 or 是，我是学生。", "tgt": "是。 hoặc 是，我是学生。"}
+{"f": "checks", "id": "ma.k2", "k": "why", "src": "Answer with the verb from the question: 是.", "tgt": "Trả lời bằng động từ trong câu hỏi: 是."}
+{"f": "checks", "id": "ma.k3", "k": "q", "src": "What does 你呢？ do?", "tgt": "你呢？ dùng để làm gì?"}
+{"f": "checks", "id": "ma.k3", "k": "o[0]", "src": "It says goodbye", "tgt": "Để tạm biệt"}
+{"f": "checks", "id": "ma.k3", "k": "o[1]", "src": "It asks the other person's name", "tgt": "Để hỏi tên người kia"}
+{"f": "checks", "id": "ma.k3", "k": "o[2]", "src": "It asks the same question back", "tgt": "Để hỏi lại đúng câu đó"}
+{"f": "checks", "id": "ma.k3", "k": "o[3]", "src": "It says no", "tgt": "Để nói «không»"}
+{"f": "checks", "id": "ma.k3", "k": "why", "src": "呢 after a person sends the question back: and you?", "tgt": "呢 sau một người là hỏi lại câu đó: còn bạn?"}
+{"f": "practice", "id": "ma.01", "k": "q", "src": "Which is the pinyin of 吗?", "tgt": "Pinyin của 吗 là gì?"}
+{"f": "practice", "id": "ma.01", "k": "o[0]", "src": "ma, with no tone mark", "tgt": "ma, không có dấu thanh"}
+{"f": "practice", "id": "ma.01", "k": "why", "src": "吗 has the neutral tone: short and light, with no mark.", "tgt": "吗 mang thanh nhẹ: ngắn và nhẹ, không có dấu."}
+{"f": "practice", "id": "ma.02", "k": "q", "src": "Are you a teacher?", "tgt": "Bạn có phải là giáo viên không?"}
+{"f": "practice", "id": "ma.02", "k": "why", "src": "Keep the statement and add 吗 at the end.", "tgt": "Giữ nguyên câu khẳng định và thêm 吗 vào cuối."}
+{"f": "practice", "id": "ma.03", "k": "q", "src": "你忙吗？ Answer: Yes, I am.", "tgt": "你忙吗？ Trả lời rằng bạn bận."}
+{"f": "practice", "id": "ma.03", "k": "why", "src": "Answer with the adjective: 很忙. An adjective never takes 是.", "tgt": "Trả lời bằng tính từ: 很忙. Tính từ không bao giờ đi với 是."}
+{"f": "practice", "id": "ma.04", "k": "q", "src": "你是中国人吗？ Answer: No.", "tgt": "你是中国人吗？ Trả lời: Không."}
+{"f": "practice", "id": "ma.04", "k": "why", "src": "Answer with the verb from the question: 不是.", "tgt": "Trả lời bằng động từ trong câu hỏi: 不是."}
+{"f": "practice", "id": "ma.05", "k": "q", "src": "我很好，你呢？ What does 你呢 mean here?", "tgt": "我很好，你呢？ Ở đây 你呢 nghĩa là gì?"}
+{"f": "practice", "id": "ma.05", "k": "o[0]", "src": "And you?", "tgt": "Còn bạn?"}
+{"f": "practice", "id": "ma.05", "k": "o[1]", "src": "Are you?", "tgt": "Bạn có phải không?"}
+{"f": "practice", "id": "ma.05", "k": "o[2]", "src": "Who are you?", "tgt": "Bạn là ai?"}
+{"f": "practice", "id": "ma.05", "k": "o[3]", "src": "Goodbye.", "tgt": "Tạm biệt."}
+{"f": "practice", "id": "ma.05", "k": "why", "src": "呢 sends the question back: and you?", "tgt": "呢 hỏi lại câu đó: còn bạn?"}
+{"f": "practice", "id": "ma.06", "k": "p", "src": "Are you a student too?", "tgt": "Bạn cũng là sinh viên phải không?"}
+{"f": "practice", "id": "ma.06", "k": "why", "src": "也 goes before the verb: 你也是学生吗？", "tgt": "也 đứng trước động từ: 你也是学生吗？"}
+{"f": "practice", "id": "ma.07", "k": "p", "src": "Is he an American student? (start with he)", "tgt": "Anh ấy có phải là sinh viên người Mỹ không? (bắt đầu bằng «anh ấy»)"}
+{"f": "practice", "id": "ma.07", "k": "why", "src": "The describer goes before the noun: 美国学生, then 吗 at the end.", "tgt": "Từ bổ nghĩa đứng trước danh từ: 美国学生, rồi 吗 ở cuối."}
+{"f": "practice", "id": "ma.08", "k": "p", "src": "Are you busy?", "tgt": "Bạn có bận không?"}
+{"f": "practice", "id": "ma.08", "k": "why", "src": "No 是 before an adjective; 吗 at the end asks the question.", "tgt": "Không có 是 trước tính từ; 吗 ở cuối tạo câu hỏi."}
+{"f": "practice", "id": "ma.09", "k": "p", "src": "Are you American?", "tgt": "Bạn có phải là người Mỹ không?"}
+{"f": "practice", "id": "ma.09", "k": "why", "src": "吗 at the end turns a statement into a yes/no question.", "tgt": "吗 ở cuối biến câu khẳng định thành câu hỏi có/không."}
+{"f": "practice", "id": "ma.10", "k": "p", "src": "I'm busy. And you?", "tgt": "Tôi bận. Còn bạn?"}
+{"f": "practice", "id": "ma.10", "k": "why", "src": "呢 after a person asks the same question back.", "tgt": "呢 sau một người là hỏi lại đúng câu đó."}
+{"f": "practice", "id": "ma.11", "k": "p", "src": "Are you busy? I'm not.", "tgt": "Bạn có bận không? Tôi không bận."}
+{"f": "practice", "id": "ma.11", "k": "why", "src": "Answer with the adjective itself: 不忙.", "tgt": "Trả lời bằng chính tính từ: 不忙."}
+{"f": "practice", "id": "ma.12", "k": "p", "src": "Are you going tomorrow? (明天 = tomorrow, 去 = go)", "tgt": "Ngày mai bạn có đi không? (明天 = ngày mai, 去 = đi)"}
+{"f": "practice", "id": "ma.12", "k": "hint", "src": "the time word comes before 去", "tgt": "từ chỉ thời gian đứng trước 去"}
+{"f": "practice", "id": "ma.12", "k": "why", "src": "Time goes before the verb: 你明天去吗？", "tgt": "Thời gian đứng trước động từ: 你明天去吗？"}
+{"f": "practice", "id": "ma.13", "k": "p", "src": "Is she a teacher too?", "tgt": "Cô ấy cũng là giáo viên phải không?"}
+{"f": "practice", "id": "ma.13", "k": "why", "src": "也 goes before the verb: 她也是老师吗？", "tgt": "也 đứng trước động từ: 她也是老师吗？"}
+{"f": "practice", "id": "ma.14", "k": "p", "src": "Are you a teacher?", "tgt": "Bạn có phải là giáo viên không?"}
+{"f": "practice", "id": "ma.14", "k": "why", "src": "Add 吗 to the statement to ask a yes/no question.", "tgt": "Thêm 吗 vào câu khẳng định để hỏi có/không."}
+{"f": "lessons", "id": "question-words", "k": "title", "src": "10 · Question words: 什么, 谁, 哪儿, 几", "tgt": "10 · Từ để hỏi: 什么, 谁, 哪儿, 几"}
+{"f": "lessons", "id": "question-words", "k": "blurb", "src": "Ask what, who, where, which country and how many, keeping the Chinese word order.", "tgt": "Hỏi gì, ai, ở đâu, nước nào và bao nhiêu, giữ đúng trật tự từ của tiếng Trung."}
+{"f": "sentences", "id": "zh.s0081", "k": "gloss", "src": "What's your name?", "tgt": "Bạn tên là gì?"}
+{"f": "sentences", "id": "zh.s0082", "k": "gloss", "src": "Who is he?", "tgt": "Anh ấy là ai?"}
+{"f": "sentences", "id": "zh.s0083", "k": "gloss", "src": "He's my friend.", "tgt": "Anh ấy là bạn tôi."}
+{"f": "sentences", "id": "zh.s0084", "k": "gloss", "src": "Where do you live?", "tgt": "Bạn sống ở đâu?"}
+{"f": "sentences", "id": "zh.s0085", "k": "gloss", "src": "Excuse me, where do you work?", "tgt": "Xin hỏi, bạn làm việc ở đâu?"}
+{"f": "sentences", "id": "zh.s0086", "k": "gloss", "src": "What country are you from?", "tgt": "Bạn là người nước nào?"}
+{"f": "sentences", "id": "zh.s0087", "k": "gloss", "src": "How many older brothers do you have?", "tgt": "Bạn có mấy anh trai?"}
+{"f": "checks", "id": "question-words.k1", "k": "q", "src": "Where does a question word go in a Chinese question?", "tgt": "Trong câu hỏi tiếng Trung, từ để hỏi đứng ở đâu?"}
+{"f": "checks", "id": "question-words.k1", "k": "o[0]", "src": "Always first, as in English", "tgt": "Luôn đứng đầu câu", "rw": "English sound comparison (\"as in …\")"}
+{"f": "checks", "id": "question-words.k1", "k": "o[1]", "src": "Where the answer would go", "tgt": "Ở chỗ của câu trả lời"}
+{"f": "checks", "id": "question-words.k1", "k": "o[2]", "src": "Always last", "tgt": "Luôn đứng cuối câu"}
+{"f": "checks", "id": "question-words.k1", "k": "o[3]", "src": "After 吗", "tgt": "Sau 吗"}
+{"f": "checks", "id": "question-words.k1", "k": "why", "src": "Put the question word where the answer goes: 你住哪儿？ 我住纽约.", "tgt": "Đặt từ để hỏi vào chỗ của câu trả lời, như tiếng Việt: 你住哪儿？ 我住纽约."}
+{"f": "checks", "id": "question-words.k2", "k": "q", "src": "Is 你叫什么名字吗？ correct?", "tgt": "你叫什么名字吗？ có đúng không?"}
+{"f": "checks", "id": "question-words.k2", "k": "o[0]", "src": "Yes, it is more polite", "tgt": "Đúng, như vậy lịch sự hơn"}
+{"f": "checks", "id": "question-words.k2", "k": "o[1]", "src": "Yes, 吗 is always needed", "tgt": "Đúng, lúc nào cũng cần 吗"}
+{"f": "checks", "id": "question-words.k2", "k": "o[2]", "src": "No: 什么 must come first", "tgt": "Sai: 什么 phải đứng đầu"}
+{"f": "checks", "id": "question-words.k2", "k": "o[3]", "src": "No: a question word already asks, so drop 吗", "tgt": "Sai: từ để hỏi đã hỏi rồi, nên bỏ 吗"}
+{"f": "checks", "id": "question-words.k2", "k": "why", "src": "Question words never take 吗: 你叫什么名字？", "tgt": "Từ để hỏi không bao giờ đi với 吗: 你叫什么名字？"}
+{"f": "checks", "id": "question-words.k3", "k": "q", "src": "How do you ask someone's nationality?", "tgt": "Hỏi quốc tịch của ai đó thế nào?"}
+{"f": "checks", "id": "question-words.k3", "k": "why", "src": "哪 (which) + 国人: 你是哪国人？", "tgt": "哪 (nào) + 国人: 你是哪国人？"}
+{"f": "practice", "id": "question-words.01", "k": "q", "src": "Which is the pinyin of 几 (how many)?", "tgt": "Pinyin của 几 (mấy) là gì?"}
+{"f": "practice", "id": "question-words.01", "k": "why", "src": "几 has the third tone: low, jǐ.", "tgt": "几 mang thanh 3: thấp, jǐ."}
+{"f": "practice", "id": "question-words.02", "k": "q", "src": "What's your name?", "tgt": "Bạn tên là gì?"}
+{"f": "practice", "id": "question-words.02", "k": "why", "src": "什么 stays where the answer goes, and no 吗.", "tgt": "什么 đứng ở chỗ của câu trả lời, và không có 吗."}
+{"f": "practice", "id": "question-words.03", "k": "q", "src": "Who is he?", "tgt": "Anh ấy là ai?"}
+{"f": "practice", "id": "question-words.03", "k": "why", "src": "谁 goes where the answer would be: 他是我朋友 → 他是谁？", "tgt": "谁 đứng ở chỗ của câu trả lời: 他是我朋友 → 他是谁？"}
+{"f": "practice", "id": "question-words.04", "k": "q", "src": "Where do you live?", "tgt": "Bạn sống ở đâu?"}
+{"f": "practice", "id": "question-words.04", "k": "why", "src": "哪儿 goes after 住, where the place goes in the answer.", "tgt": "哪儿 đứng sau 住, đúng chỗ của nơi chốn trong câu trả lời."}
+{"f": "practice", "id": "question-words.05", "k": "q", "src": "Which question is correct?", "tgt": "Câu hỏi nào đúng?"}
+{"f": "practice", "id": "question-words.05", "k": "why", "src": "哪国人 stays where the answer goes, with no 吗.", "tgt": "哪国人 đứng ở chỗ của câu trả lời, không có 吗."}
+{"f": "practice", "id": "question-words.06", "k": "p", "src": "Where do you work? (在 = at, 工作 = to work)", "tgt": "Bạn làm việc ở đâu? (在 = ở, 工作 = làm việc)"}
+{"f": "practice", "id": "question-words.06", "k": "why", "src": "Where it happens comes before the verb: 你在哪儿工作？", "tgt": "Nơi diễn ra việc đứng trước động từ, ngược với tiếng Việt: 你在哪儿工作？"}
+{"f": "practice", "id": "question-words.07", "k": "p", "src": "How many older brothers do you have? (哥哥 = older brother)", "tgt": "Bạn có mấy anh trai? (哥哥 = anh trai)"}
+{"f": "practice", "id": "question-words.07", "k": "why", "src": "几 needs a measure word before the noun: 几个哥哥.", "tgt": "几 cần lượng từ trước danh từ: 几个哥哥."}
+{"f": "practice", "id": "question-words.08", "k": "p", "src": "What's your name?", "tgt": "Bạn tên là gì?"}
+{"f": "practice", "id": "question-words.08", "k": "why", "src": "什么 stays where the answer goes, and a question word takes no 吗.", "tgt": "什么 đứng ở chỗ của câu trả lời, và câu có từ để hỏi thì không có 吗."}
+{"f": "practice", "id": "question-words.09", "k": "p", "src": "Who is he?", "tgt": "Anh ấy là ai?"}
+{"f": "practice", "id": "question-words.09", "k": "why", "src": "谁 asks who; it goes where the answer would be.", "tgt": "谁 hỏi «ai»; nó đứng ở chỗ của câu trả lời."}
+{"f": "practice", "id": "question-words.10", "k": "p", "src": "Where do you live?", "tgt": "Bạn sống ở đâu?"}
+{"f": "practice", "id": "question-words.10", "k": "why", "src": "哪儿 asks where.", "tgt": "哪儿 hỏi «đâu»."}
+{"f": "practice", "id": "question-words.11", "k": "p", "src": "What country are you from?", "tgt": "Bạn là người nước nào?"}
+{"f": "practice", "id": "question-words.11", "k": "why", "src": "哪国人 asks which country someone is from.", "tgt": "哪国人 hỏi ai đó là người nước nào."}
+{"f": "practice", "id": "question-words.12", "k": "p", "src": "Where do you work? (在 = at, 工作 = to work)", "tgt": "Bạn làm việc ở đâu? (在 = ở, 工作 = làm việc)"}
+{"f": "practice", "id": "question-words.12", "k": "hint", "src": "where comes first", "tgt": "«ở đâu» đứng trước"}
+{"f": "practice", "id": "question-words.12", "k": "why", "src": "Where it happens goes before the verb: 你在哪儿工作？", "tgt": "Nơi diễn ra việc đứng trước động từ: 你在哪儿工作？"}
+{"f": "practice", "id": "question-words.13", "k": "p", "src": "How many older brothers do you have? (哥哥 = older brother)", "tgt": "Bạn có mấy anh trai? (哥哥 = anh trai)"}
+{"f": "practice", "id": "question-words.13", "k": "why", "src": "几 takes a measure word before the noun: 几个哥哥.", "tgt": "几 đi với lượng từ trước danh từ: 几个哥哥."}
+{"f": "practice", "id": "question-words.14", "k": "p", "src": "What's your name? (to a friend)", "tgt": "Bạn tên là gì? (hỏi một người bạn)"}
+{"f": "practice", "id": "question-words.14", "k": "hint", "src": "no 吗", "tgt": "không có 吗"}
+{"f": "practice", "id": "question-words.14", "k": "why", "src": "The question word stays where the answer goes, with no 吗.", "tgt": "Từ để hỏi đứng ở chỗ của câu trả lời, không có 吗."}
+{"f": "lessons", "id": "bu-mei", "k": "title", "src": "11 · Negation: 不 and 没 (not, didn't)", "tgt": "11 · Phủ định: 不 và 没 (không, chưa)"}
+{"f": "lessons", "id": "bu-mei", "k": "blurb", "src": "Say what you don't do, what you don't have, and what didn't happen, with the right word for \"not\".", "tgt": "Nói điều bạn không làm, không có, và việc không xảy ra, với đúng từ phủ định."}
+{"f": "sentences", "id": "zh.s0088", "k": "gloss", "src": "I don't drink (alcohol).", "tgt": "Tôi không uống rượu."}
+{"f": "sentences", "id": "zh.s0089", "k": "gloss", "src": "She isn't busy.", "tgt": "Cô ấy không bận."}
+{"f": "sentences", "id": "zh.s0090", "k": "gloss", "src": "I'm not going tomorrow.", "tgt": "Ngày mai tôi không đi."}
+{"f": "sentences", "id": "zh.s0091", "k": "gloss", "src": "I don't have any money.", "tgt": "Tôi không có tiền."}
+{"f": "sentences", "id": "zh.s0092", "k": "gloss", "src": "I don't have money. (casual)", "tgt": "Tôi không có tiền. (thân mật)"}
+{"f": "sentences", "id": "zh.s0093", "k": "gloss", "src": "I didn't go yesterday.", "tgt": "Hôm qua tôi không đi."}
+{"f": "sentences", "id": "zh.s0094", "k": "gloss", "src": "He didn't eat. / He hasn't eaten.", "tgt": "Anh ấy chưa ăn cơm."}
+{"f": "sentences", "id": "zh.s0095", "k": "gloss", "src": "I'm not a teacher.", "tgt": "Tôi không phải là giáo viên."}
+{"f": "checks", "id": "bu-mei.k1", "k": "q", "src": "How do you say \"I don't have a phone\"?", "tgt": "«Tôi không có điện thoại» nói thế nào?"}
+{"f": "checks", "id": "bu-mei.k1", "k": "why", "src": "有 is negated only with 没: 没有.", "tgt": "有 chỉ phủ định bằng 没: 没有."}
+{"f": "checks", "id": "bu-mei.k2", "k": "q", "src": "How do you say \"I didn't go yesterday\"?", "tgt": "«Hôm qua tôi không đi» nói thế nào?"}
+{"f": "checks", "id": "bu-mei.k2", "k": "why", "src": "没 for an action that did not happen, before the verb, with no 了.", "tgt": "没 cho việc không xảy ra, đứng trước động từ, không có 了."}
+{"f": "checks", "id": "bu-mei.k3", "k": "q", "src": "\"I don't drink coffee\" is a habit. Which is right?", "tgt": "«Tôi không uống cà phê» là một thói quen. Câu nào đúng?"}
+{"f": "checks", "id": "bu-mei.k3", "k": "why", "src": "A habit takes 不, right before the verb; 我没喝咖啡 means \"I didn't drink coffee\".", "tgt": "Thói quen dùng 不, ngay trước động từ; 我没喝咖啡 nghĩa là «(Lúc đó) tôi không uống cà phê»."}
+{"f": "practice", "id": "bu-mei.01", "k": "q", "src": "Which is the pinyin of 不是 (is not)?", "tgt": "Pinyin của 不是 (không phải) là gì?"}
+{"f": "practice", "id": "bu-mei.01", "k": "why", "src": "Tone change: 不 before a fourth tone takes the second tone, bú shì.", "tgt": "Biến điệu: 不 trước thanh 4 mang thanh 2, bú shì."}
+{"f": "practice", "id": "bu-mei.02", "k": "q", "src": "'I don't have money' =", "tgt": "«Tôi không có tiền» ="}
+{"f": "practice", "id": "bu-mei.02", "k": "why", "src": "有 is the one verb that takes 没, never 不.", "tgt": "有 là động từ duy nhất đi với 没, không bao giờ với 不."}
+{"f": "practice", "id": "bu-mei.03", "k": "q", "src": "'He didn't eat' =", "tgt": "«Anh ấy chưa ăn cơm» ="}
+{"f": "practice", "id": "bu-mei.03", "k": "why", "src": "An action that did not happen takes 没, and no 了 after 没.", "tgt": "Việc không xảy ra dùng 没, và không có 了 sau 没."}
+{"f": "practice", "id": "bu-mei.04", "k": "q", "src": "'I'm not busy' =", "tgt": "«Tôi không bận» ="}
+{"f": "practice", "id": "bu-mei.04", "k": "why", "src": "A state takes 不, right before the adjective, with no 是.", "tgt": "Trạng thái dùng 不, ngay trước tính từ, không có 是."}
+{"f": "practice", "id": "bu-mei.05", "k": "q", "src": "'He doesn't like coffee' =", "tgt": "«Anh ấy không thích cà phê» ="}
+{"f": "practice", "id": "bu-mei.05", "k": "why", "src": "Liking is a state, so it takes 不: 他不喜欢咖啡.", "tgt": "Thích là một trạng thái, nên dùng 不: 他不喜欢咖啡."}
+{"f": "practice", "id": "bu-mei.06", "k": "p", "src": "He didn't come yesterday (start with 他)", "tgt": "Hôm qua anh ấy không đến (bắt đầu bằng 他)"}
+{"f": "practice", "id": "bu-mei.06", "k": "why", "src": "The time word and 没 both go before the verb, and 没 never takes 了.", "tgt": "Từ chỉ thời gian và 没 đều đứng trước động từ, và 没 không bao giờ đi với 了."}
+{"f": "practice", "id": "bu-mei.07", "k": "p", "src": "I don't drink tea", "tgt": "Tôi không uống trà"}
+{"f": "practice", "id": "bu-mei.07", "k": "why", "src": "A habit takes 不, and 不 goes before the verb: 我不喝茶.", "tgt": "Thói quen dùng 不, và 不 đứng trước động từ: 我不喝茶."}
+{"f": "practice", "id": "bu-mei.08", "k": "p", "src": "She doesn't have a phone", "tgt": "Cô ấy không có điện thoại"}
+{"f": "practice", "id": "bu-mei.08", "k": "why", "src": "有 is negated with 没, never with 不.", "tgt": "有 phủ định bằng 没, không bao giờ bằng 不."}
+{"f": "practice", "id": "bu-mei.09", "k": "p", "src": "I don't have money.", "tgt": "Tôi không có tiền."}
+{"f": "practice", "id": "bu-mei.09", "k": "why", "src": "Only 没 negates 有: 没有.", "tgt": "Chỉ 没 phủ định được 有: 没有."}
+{"f": "practice", "id": "bu-mei.10", "k": "p", "src": "I didn't go yesterday.", "tgt": "Hôm qua tôi không đi."}
+{"f": "practice", "id": "bu-mei.10", "k": "why", "src": "Yesterday's action did not happen, so 没.", "tgt": "Việc hôm qua không xảy ra, nên dùng 没."}
+{"f": "practice", "id": "bu-mei.11", "k": "p", "src": "I don't drink alcohol.", "tgt": "Tôi không uống rượu."}
+{"f": "practice", "id": "bu-mei.11", "k": "why", "src": "A habit or a choice takes 不.", "tgt": "Thói quen hoặc lựa chọn dùng 不."}
+{"f": "practice", "id": "bu-mei.12", "k": "p", "src": "I'm not going tomorrow.", "tgt": "Ngày mai tôi không đi."}
+{"f": "practice", "id": "bu-mei.12", "k": "hint", "src": "明天 (tomorrow) · 去 · a plan takes 不", "tgt": "明天 (ngày mai) · 去 · dự định dùng 不"}
+{"f": "practice", "id": "bu-mei.12", "k": "why", "src": "Tomorrow and 不 both go before the verb: 我明天不去.", "tgt": "Ngày mai và 不 đều đứng trước động từ: 我明天不去."}
+{"f": "practice", "id": "bu-mei.13", "k": "p", "src": "I didn't go yesterday.", "tgt": "Hôm qua tôi không đi."}
+{"f": "practice", "id": "bu-mei.13", "k": "hint", "src": "昨天 (yesterday) · 去", "tgt": "昨天 (hôm qua) · 去"}
+{"f": "practice", "id": "bu-mei.13", "k": "why", "src": "Yesterday and 没 go before the verb, and 没 takes no 了: 我昨天没去.", "tgt": "Hôm qua và 没 đứng trước động từ, và 没 không đi với 了: 我昨天没去."}
+{"f": "practice", "id": "bu-mei.14", "k": "p", "src": "I don't have a phone.", "tgt": "Tôi không có điện thoại."}
+{"f": "practice", "id": "bu-mei.14", "k": "hint", "src": "手机 (phone)", "tgt": "手机 (điện thoại)"}
+{"f": "practice", "id": "bu-mei.14", "k": "why", "src": "有 is negated only with 没: 我没有手机.", "tgt": "有 chỉ phủ định bằng 没: 我没有手机."}
+{"f": "lessons", "id": "de", "k": "title", "src": "12 · 的: possession and describing", "tgt": "12 · 的: sở hữu và miêu tả"}
+{"f": "lessons", "id": "de", "k": "blurb", "src": "Say whose something is and what it is like, with the owner or the describer before the noun.", "tgt": "Nói cái gì là của ai và trông như thế nào, với người sở hữu hay từ miêu tả đứng trước danh từ."}
+{"f": "sentences", "id": "zh.s0096", "k": "gloss", "src": "This is my book.", "tgt": "Đây là sách của tôi."}
+{"f": "sentences", "id": "zh.s0097", "k": "gloss", "src": "The teacher's phone is expensive.", "tgt": "Điện thoại của thầy giáo đắt."}
+{"f": "sentences", "id": "zh.s0098", "k": "gloss", "src": "I like red cars.", "tgt": "Tôi thích ô tô màu đỏ."}
+{"f": "sentences", "id": "zh.s0099", "k": "gloss", "src": "These are very expensive clothes.", "tgt": "Đây là quần áo rất đắt."}
+{"f": "sentences", "id": "zh.s0100", "k": "gloss", "src": "He's my good friend.", "tgt": "Anh ấy là bạn tốt của tôi."}
+{"f": "sentences", "id": "zh.s0101", "k": "gloss", "src": "My mom is a teacher.", "tgt": "Mẹ tôi là giáo viên."}
+{"f": "sentences", "id": "zh.s0102", "k": "gloss", "src": "She's my friend.", "tgt": "Cô ấy là bạn tôi."}
+{"f": "checks", "id": "de.k1", "k": "q", "src": "How do you say \"the book of my teacher\"?", "tgt": "«Sách của thầy giáo tôi» nói thế nào?"}
+{"f": "checks", "id": "de.k1", "k": "why", "src": "The owner goes first, then 的, then the thing: 我老师的书.", "tgt": "Người sở hữu đứng trước, rồi 的, rồi vật: 我老师的书."}
+{"f": "checks", "id": "de.k2", "k": "q", "src": "A friend says 我妈妈 (my mom). What is missing, and is that OK?", "tgt": "Một người bạn nói 我妈妈 (mẹ tôi). Thiếu gì, và như vậy có được không?"}
+{"f": "checks", "id": "de.k2", "k": "o[0]", "src": "是; it's a mistake", "tgt": "是; đó là lỗi"}
+{"f": "checks", "id": "de.k2", "k": "o[1]", "src": "的; it's a mistake", "tgt": "的; đó là lỗi"}
+{"f": "checks", "id": "de.k2", "k": "o[2]", "src": "们; it's fine", "tgt": "们; vẫn được"}
+{"f": "checks", "id": "de.k2", "k": "o[3]", "src": "的; it's fine with family words", "tgt": "的; với từ chỉ người trong gia đình thì được"}
+{"f": "checks", "id": "de.k2", "k": "why", "src": "With family and close relationships, 的 usually drops after a pronoun.", "tgt": "Với gia đình và quan hệ thân thiết, 的 thường được bỏ sau đại từ."}
+{"f": "checks", "id": "de.k3", "k": "q", "src": "How do you say \"a red car\"?", "tgt": "«Chiếc ô tô màu đỏ» nói thế nào?"}
+{"f": "checks", "id": "de.k3", "k": "why", "src": "The describer goes in front of the noun, joined by 的.", "tgt": "Từ miêu tả đứng trước danh từ, nối bằng 的."}
+{"f": "practice", "id": "de.01", "k": "q", "src": "Which is the pinyin of 书 (book)?", "tgt": "Pinyin của 书 (sách) là gì?"}
+{"f": "practice", "id": "de.01", "k": "why", "src": "书 has the first tone: high and level.", "tgt": "书 mang thanh 1: cao và bằng."}
+{"f": "practice", "id": "de.02", "k": "q", "src": "'my friend' =", "tgt": "«bạn của tôi» ="}
+{"f": "practice", "id": "de.02", "k": "why", "src": "The owner comes first, then 的, then the noun.", "tgt": "Người sở hữu đứng trước, rồi 的, rồi danh từ."}
+{"f": "practice", "id": "de.03", "k": "q", "src": "'the teacher's phone' =", "tgt": "«điện thoại của thầy giáo» ="}
+{"f": "practice", "id": "de.03", "k": "why", "src": "Owner + 的 + thing, like English 's.", "tgt": "Người sở hữu + 的 + vật: như «của», nhưng theo thứ tự ngược lại.", "rw": "mentions English"}
+{"f": "practice", "id": "de.04", "k": "q", "src": "'my mom' (the most natural way) =", "tgt": "«mẹ tôi» (cách nói tự nhiên nhất) ="}
+{"f": "practice", "id": "de.04", "k": "why", "src": "Family words usually drop 的 after a pronoun: 我妈妈.", "tgt": "Từ chỉ người trong gia đình thường bỏ 的 sau đại từ: 我妈妈."}
+{"f": "practice", "id": "de.05", "k": "q", "src": "'very expensive clothes' =", "tgt": "«quần áo rất đắt» ="}
+{"f": "practice", "id": "de.05", "k": "why", "src": "A describer with 很 needs 的, and it goes in front of the noun.", "tgt": "Từ miêu tả có 很 cần 的, và đứng trước danh từ."}
+{"f": "practice", "id": "de.06", "k": "p", "src": "my teacher's book", "tgt": "sách của thầy giáo tôi"}
+{"f": "practice", "id": "de.06", "k": "why", "src": "The owner goes before the noun, joined by 的: 我老师的书.", "tgt": "Người sở hữu đứng trước danh từ, nối bằng 的: 我老师的书."}
+{"f": "practice", "id": "de.07", "k": "p", "src": "a red car", "tgt": "chiếc ô tô màu đỏ"}
+{"f": "practice", "id": "de.07", "k": "why", "src": "The describer goes before the noun: 红色的车.", "tgt": "Từ miêu tả đứng trước danh từ: 红色的车."}
+{"f": "practice", "id": "de.08", "k": "p", "src": "This is my mom's phone", "tgt": "Đây là điện thoại của mẹ tôi"}
+{"f": "practice", "id": "de.08", "k": "why", "src": "Owner, then 的, then the thing: the owner goes before the noun.", "tgt": "Người sở hữu, rồi 的, rồi vật: người sở hữu đứng trước danh từ."}
+{"f": "practice", "id": "de.09", "k": "p", "src": "This is my book.", "tgt": "Đây là sách của tôi."}
+{"f": "practice", "id": "de.09", "k": "why", "src": "的 joins the owner to the thing: 我的书.", "tgt": "的 nối người sở hữu với vật: 我的书."}
+{"f": "practice", "id": "de.10", "k": "p", "src": "She's my good friend.", "tgt": "Cô ấy là bạn tốt của tôi."}
+{"f": "practice", "id": "de.10", "k": "why", "src": "A one-syllable adjective can join the noun directly: 好朋友.", "tgt": "Tính từ một âm tiết có thể ghép thẳng vào danh từ: 好朋友."}
+{"f": "practice", "id": "de.11", "k": "p", "src": "The teacher's phone is expensive.", "tgt": "Điện thoại của thầy giáo đắt."}
+{"f": "practice", "id": "de.11", "k": "why", "src": "Owner + 的 + thing: 老师的手机.", "tgt": "Người sở hữu + 的 + vật: 老师的手机."}
+{"f": "practice", "id": "de.12", "k": "p", "src": "my Chinese teacher", "tgt": "giáo viên tiếng Trung của tôi"}
+{"f": "practice", "id": "de.12", "k": "hint", "src": "the describers come first", "tgt": "các từ bổ nghĩa đứng trước"}
+{"f": "practice", "id": "de.12", "k": "why", "src": "Both describers go before the noun: 我的中文老师.", "tgt": "Cả hai phần bổ nghĩa đều đứng trước danh từ: 我的中文老师."}
+{"f": "practice", "id": "de.13", "k": "p", "src": "a very expensive car", "tgt": "chiếc ô tô rất đắt"}
+{"f": "practice", "id": "de.13", "k": "hint", "src": "车 (car)", "tgt": "车 (ô tô)"}
+{"f": "practice", "id": "de.13", "k": "why", "src": "A describer with 很 goes before the noun, joined by 的: 很贵的车.", "tgt": "Từ miêu tả có 很 đứng trước danh từ, nối bằng 的: 很贵的车."}
+{"f": "practice", "id": "de.14", "k": "p", "src": "My mom doesn't have a phone.", "tgt": "Mẹ tôi không có điện thoại."}
+{"f": "practice", "id": "de.14", "k": "why", "src": "Family words need no 的, and 有 is negated with 没: 我妈妈没有手机.", "tgt": "Từ chỉ người trong gia đình không cần 的, và 有 phủ định bằng 没: 我妈妈没有手机."}
+{"f": "lessons", "id": "you", "k": "title", "src": "13 · 有: have and there is", "tgt": "13 · 有: có (sở hữu và tồn tại)"}
+{"f": "lessons", "id": "you", "k": "blurb", "src": "Say what you have, ask a shop if it has something, and say what there is in a place.", "tgt": "Nói bạn có gì, hỏi cửa hàng có món gì không, và nói ở một nơi có gì."}
+{"f": "sentences", "id": "zh.s0103", "k": "gloss", "src": "I have a phone.", "tgt": "Tôi có điện thoại."}
+{"f": "sentences", "id": "zh.s0104", "k": "gloss", "src": "Do you have coffee?", "tgt": "Quán có cà phê không?"}
+{"f": "sentences", "id": "zh.s0105", "k": "gloss", "src": "Is there a bank nearby?", "tgt": "Gần đây có ngân hàng không?"}
+{"f": "sentences", "id": "zh.s0106", "k": "gloss", "src": "There's a book on the table.", "tgt": "Trên bàn có một quyển sách."}
+{"f": "sentences", "id": "zh.s0107", "k": "gloss", "src": "There's no supermarket nearby.", "tgt": "Gần đây không có siêu thị."}
+{"f": "sentences", "id": "zh.s0108", "k": "gloss", "src": "I don't have a car.", "tgt": "Tôi không có ô tô."}
+{"f": "sentences", "id": "zh.s0109", "k": "gloss", "src": "The book is on the table.", "tgt": "Quyển sách ở trên bàn."}
+{"f": "checks", "id": "you.k1", "k": "q", "src": "\"There's a bank nearby.\" Where does 附近 (nearby) go?", "tgt": "«Gần đây có ngân hàng.» 附近 (gần đây) đứng ở đâu?"}
+{"f": "checks", "id": "you.k1", "k": "o[0]", "src": "At the start, before 有", "tgt": "Ở đầu câu, trước 有"}
+{"f": "checks", "id": "you.k1", "k": "o[1]", "src": "At the end, after 银行", "tgt": "Ở cuối câu, sau 银行"}
+{"f": "checks", "id": "you.k1", "k": "o[2]", "src": "Between 有 and 银行", "tgt": "Giữa 有 và 银行"}
+{"f": "checks", "id": "you.k1", "k": "o[3]", "src": "Nowhere: Chinese doesn't need it", "tgt": "Không cần: tiếng Trung không dùng nó"}
+{"f": "checks", "id": "you.k1", "k": "why", "src": "The place comes first, then 有: 附近有银行.", "tgt": "Nơi chốn đứng trước, rồi đến 有, như tiếng Việt: 附近有银行."}
+{"f": "checks", "id": "you.k2", "k": "q", "src": "What does 附近没有银行 mean?", "tgt": "附近没有银行 nghĩa là gì?"}
+{"f": "checks", "id": "you.k2", "k": "o[0]", "src": "There's a bank nearby.", "tgt": "Gần đây có ngân hàng."}
+{"f": "checks", "id": "you.k2", "k": "o[1]", "src": "Is there a bank nearby?", "tgt": "Gần đây có ngân hàng không?"}
+{"f": "checks", "id": "you.k2", "k": "o[2]", "src": "There's no bank nearby.", "tgt": "Gần đây không có ngân hàng."}
+{"f": "checks", "id": "you.k2", "k": "o[3]", "src": "I don't have a bank.", "tgt": "Tôi không có ngân hàng."}
+{"f": "checks", "id": "you.k2", "k": "why", "src": "没有 after a place means \"there isn't\".", "tgt": "没有 sau nơi chốn nghĩa là «không có»."}
+{"f": "checks", "id": "you.k3", "k": "q", "src": "What can 有 mean?", "tgt": "有 có thể mang nghĩa gì?"}
+{"f": "checks", "id": "you.k3", "k": "o[0]", "src": "to be (am, is, are)", "tgt": "là"}
+{"f": "checks", "id": "you.k3", "k": "o[1]", "src": "at, in", "tgt": "ở, tại"}
+{"f": "checks", "id": "you.k3", "k": "o[2]", "src": "to want", "tgt": "muốn"}
+{"f": "checks", "id": "you.k3", "k": "o[3]", "src": "to have, and there is", "tgt": "có (sở hữu), và có (tồn tại)"}
+{"f": "checks", "id": "you.k3", "k": "why", "src": "有 covers both \"have\" and \"there is\".", "tgt": "有 bao gồm cả hai nghĩa của «có»: sở hữu và tồn tại."}
+{"f": "practice", "id": "you.01", "k": "q", "src": "Which is the pinyin of 买 (to buy)?", "tgt": "Pinyin của 买 (mua) là gì?"}
+{"f": "practice", "id": "you.01", "k": "why", "src": "买 has the third tone; mài with the fourth tone is 卖, to sell.", "tgt": "买 mang thanh 3; mài, thanh 4, là 卖, bán."}
+{"f": "practice", "id": "you.02", "k": "q", "src": "'I have a phone' =", "tgt": "«Tôi có điện thoại» ="}
+{"f": "practice", "id": "you.02", "k": "why", "src": "Person + 有 + thing, as in English.", "tgt": "Người + 有 + vật, đúng thứ tự như tiếng Việt.", "rw": "English sound comparison (\"as in …\")"}
+{"f": "practice", "id": "you.03", "k": "q", "src": "'There's no supermarket nearby' =", "tgt": "«Gần đây không có siêu thị» ="}
+{"f": "practice", "id": "you.03", "k": "why", "src": "Place first, then 没有; 有 never takes 不.", "tgt": "Nơi chốn trước, rồi 没有; 有 không bao giờ đi với 不."}
+{"f": "practice", "id": "you.04", "k": "q", "src": "'There's a book on the table' =", "tgt": "«Trên bàn có một quyển sách» ="}
+{"f": "practice", "id": "you.04", "k": "why", "src": "Chinese starts with the place, then 有, then number + measure word + noun.", "tgt": "Tiếng Trung bắt đầu bằng nơi chốn, rồi 有, rồi số + lượng từ + danh từ, như tiếng Việt."}
+{"f": "practice", "id": "you.05", "k": "q", "src": "'Do you have coffee?' (asking a shop) =", "tgt": "«Quán có cà phê không?» (hỏi cửa hàng) ="}
+{"f": "practice", "id": "you.05", "k": "why", "src": "Ask the shop with 你们, then 有, then 吗 at the end.", "tgt": "Hỏi cửa hàng bằng 你们, rồi 有, rồi 吗 ở cuối."}
+{"f": "practice", "id": "you.06", "k": "p", "src": "There's a bank nearby", "tgt": "Gần đây có ngân hàng"}
+{"f": "practice", "id": "you.06", "k": "why", "src": "The place goes before the verb 有: 附近有银行.", "tgt": "Nơi chốn đứng trước động từ 有: 附近有银行."}
+{"f": "practice", "id": "you.07", "k": "p", "src": "There's a book on the table", "tgt": "Trên bàn có một quyển sách"}
+{"f": "practice", "id": "you.07", "k": "why", "src": "The place goes before the verb, and 一本 goes before the noun: 桌子上有一本书.", "tgt": "Nơi chốn đứng trước động từ, và 一本 đứng trước danh từ: 桌子上有一本书."}
+{"f": "practice", "id": "you.08", "k": "p", "src": "Do you have coffee? (to a shop)", "tgt": "Quán có cà phê không? (hỏi cửa hàng)"}
+{"f": "practice", "id": "you.08", "k": "why", "src": "Statement + 吗 makes the question: 你们有咖啡吗？", "tgt": "Câu khẳng định + 吗 tạo thành câu hỏi: 你们有咖啡吗？"}
+{"f": "practice", "id": "you.09", "k": "p", "src": "Is there a bank nearby?", "tgt": "Gần đây có ngân hàng không?"}
+{"f": "practice", "id": "you.09", "k": "why", "src": "\"There is\" is 有, after the place.", "tgt": "«Có» chỉ tồn tại là 有, đứng sau nơi chốn."}
+{"f": "practice", "id": "you.10", "k": "p", "src": "I don't have a car.", "tgt": "Tôi không có ô tô."}
+{"f": "practice", "id": "you.10", "k": "why", "src": "Only 没 negates 有: 没有.", "tgt": "Chỉ 没 phủ định được 有: 没有."}
+{"f": "practice", "id": "you.11", "k": "p", "src": "There's a book on the table.", "tgt": "Trên bàn có một quyển sách."}
+{"f": "practice", "id": "you.11", "k": "why", "src": "Place + 有 + thing: \"the table has a book\".", "tgt": "Nơi chốn + 有 + vật, đúng như «trên bàn có…»."}
+{"f": "practice", "id": "you.12", "k": "p", "src": "There's a supermarket nearby.", "tgt": "Gần đây có siêu thị."}
+{"f": "practice", "id": "you.12", "k": "hint", "src": "附近 (nearby) · 超市 (supermarket) · the place comes first", "tgt": "附近 (gần đây) · 超市 (siêu thị) · nơi chốn đứng trước"}
+{"f": "practice", "id": "you.12", "k": "why", "src": "The place goes before the verb 有: 附近有超市.", "tgt": "Nơi chốn đứng trước động từ 有: 附近有超市."}
+{"f": "practice", "id": "you.13", "k": "p", "src": "Is there a bank nearby?", "tgt": "Gần đây có ngân hàng không?"}
+{"f": "practice", "id": "you.13", "k": "hint", "src": "银行 (bank) · 吗", "tgt": "银行 (ngân hàng) · 吗"}
+{"f": "practice", "id": "you.13", "k": "why", "src": "Nearby goes before the verb 有, and 吗 goes at the end: 附近有银行吗？", "tgt": "«Gần đây» đứng trước động từ 有, và 吗 ở cuối: 附近有银行吗？"}
+{"f": "practice", "id": "you.14", "k": "p", "src": "I don't have a car.", "tgt": "Tôi không có ô tô."}
+{"f": "practice", "id": "you.14", "k": "hint", "src": "车 (car)", "tgt": "车 (ô tô)"}
+{"f": "practice", "id": "you.14", "k": "why", "src": "有 is negated only with 没: 我没有车.", "tgt": "有 chỉ phủ định bằng 没: 我没有车."}
+{"f": "lessons", "id": "numbers", "k": "title", "src": "14 · Numbers and money", "tgt": "14 · Số và tiền"}
+{"f": "lessons", "id": "numbers", "k": "blurb", "src": "Count past a hundred, say prices in yuan, ask how much something costs, and choose between 二 and 两.", "tgt": "Đếm quá một trăm, nói giá bằng tệ, hỏi giá, và chọn giữa 二 và 两."}
+{"f": "sentences", "id": "zh.s0110", "k": "gloss", "src": "twelve", "tgt": "mười hai"}
+{"f": "sentences", "id": "zh.s0111", "k": "gloss", "src": "twenty-five", "tgt": "hai mươi lăm"}
+{"f": "sentences", "id": "zh.s0112", "k": "gloss", "src": "one hundred and five", "tgt": "một trăm linh năm"}
+{"f": "sentences", "id": "zh.s0113", "k": "gloss", "src": "one hundred fifty", "tgt": "một trăm năm mươi"}
+{"f": "sentences", "id": "zh.s0114", "k": "gloss", "src": "two people", "tgt": "hai người"}
+{"f": "sentences", "id": "zh.s0115", "k": "gloss", "src": "How much is this?", "tgt": "Cái này bao nhiêu tiền?"}
+{"f": "sentences", "id": "zh.s0116", "k": "gloss", "src": "Twenty-five yuan.", "tgt": "Hai mươi lăm tệ."}
+{"f": "sentences", "id": "zh.s0117", "k": "gloss", "src": "Three yuan fifty.", "tgt": "Ba tệ rưỡi."}
+{"f": "checks", "id": "numbers.k1", "k": "q", "src": "How do you say \"two people\"?", "tgt": "«Hai người» nói thế nào?"}
+{"f": "checks", "id": "numbers.k1", "k": "why", "src": "Two of something, before a measure word, is 两.", "tgt": "Hai cái gì đó, trước lượng từ, là 两."}
+{"f": "checks", "id": "numbers.k2", "k": "q", "src": "Which one is 25?", "tgt": "Số nào là 25?"}
+{"f": "checks", "id": "numbers.k2", "k": "why", "src": "Two ten five: 二十五.", "tgt": "Hai mười năm: 二十五."}
+{"f": "checks", "id": "numbers.k3", "k": "q", "src": "Which word for the yuan do people usually say out loud?", "tgt": "Khi nói, người ta thường gọi đồng tệ bằng từ nào?"}
+{"f": "checks", "id": "numbers.k3", "k": "why", "src": "块 in speech, 元 on price tags.", "tgt": "Khi nói dùng 块, trên bảng giá viết 元."}
+{"f": "practice", "id": "numbers.01", "k": "q", "src": "Which is the pinyin of 四 (four)?", "tgt": "Pinyin của 四 (bốn) là gì?"}
+{"f": "practice", "id": "numbers.01", "k": "why", "src": "四 has the fourth tone: it falls. With the third tone, sǐ means to die.", "tgt": "四 mang thanh 4: rơi xuống. Với thanh 3, sǐ nghĩa là chết."}
+{"f": "practice", "id": "numbers.02", "k": "q", "src": "'two people' =", "tgt": "«hai người» ="}
+{"f": "practice", "id": "numbers.02", "k": "why", "src": "Two before a measure word is 两.", "tgt": "«Hai» trước lượng từ là 两."}
+{"f": "practice", "id": "numbers.03", "k": "q", "src": "What is 一百零五?", "tgt": "一百零五 là bao nhiêu?"}
+{"f": "practice", "id": "numbers.03", "k": "o[0]", "src": "105", "tgt": "105", "pre": 1}
+{"f": "practice", "id": "numbers.03", "k": "o[1]", "src": "150", "tgt": "150", "pre": 1}
+{"f": "practice", "id": "numbers.03", "k": "o[2]", "src": "1,005", "tgt": "1.005", "pre": 1}
+{"f": "practice", "id": "numbers.03", "k": "o[3]", "src": "115", "tgt": "115", "pre": 1}
+{"f": "practice", "id": "numbers.03", "k": "why", "src": "零 fills the empty tens place: one hundred, zero, five.", "tgt": "零 lấp hàng chục trống: một trăm, linh, năm."}
+{"f": "practice", "id": "numbers.04", "k": "q", "src": "A market seller says 一百五. How much is that?", "tgt": "Người bán hàng ở chợ nói 一百五. Vậy là bao nhiêu?"}
+{"f": "practice", "id": "numbers.04", "k": "o[0]", "src": "150", "tgt": "150", "pre": 1}
+{"f": "practice", "id": "numbers.04", "k": "o[1]", "src": "105", "tgt": "105", "pre": 1}
+{"f": "practice", "id": "numbers.04", "k": "o[2]", "src": "15", "tgt": "15", "pre": 1}
+{"f": "practice", "id": "numbers.04", "k": "o[3]", "src": "1,500", "tgt": "1.500", "pre": 1}
+{"f": "practice", "id": "numbers.04", "k": "why", "src": "一百五 is short for 一百五十.", "tgt": "一百五 là cách nói tắt của 一百五十."}
+{"f": "practice", "id": "numbers.05", "k": "q", "src": "'How much is it?' =", "tgt": "«Bao nhiêu tiền?» ="}
+{"f": "practice", "id": "numbers.05", "k": "why", "src": "多少钱 asks a price; no 吗 with a question word.", "tgt": "多少钱 hỏi giá; câu có từ để hỏi thì không có 吗."}
+{"f": "practice", "id": "numbers.06", "k": "p", "src": "two people", "tgt": "hai người"}
+{"f": "practice", "id": "numbers.06", "k": "why", "src": "Two before a measure word is 两: 两个人.", "tgt": "«Hai» trước lượng từ là 两: 两个人."}
+{"f": "practice", "id": "numbers.07", "k": "p", "src": "This one is twenty-five yuan", "tgt": "Cái này hai mươi lăm tệ"}
+{"f": "practice", "id": "numbers.07", "k": "why", "src": "块 works like a measure word: it comes right after the number, 二十五块.", "tgt": "块 dùng như lượng từ: đứng ngay sau số, 二十五块."}
+{"f": "practice", "id": "numbers.08", "k": "p", "src": "How much is this?", "tgt": "Cái này bao nhiêu tiền?"}
+{"f": "practice", "id": "numbers.08", "k": "why", "src": "多少 asks for any number, so it fits a price.", "tgt": "多少 hỏi mọi con số, nên hợp với giá tiền."}
+{"f": "practice", "id": "numbers.09", "k": "p", "src": "I have two Chinese teachers.", "tgt": "Tôi có hai giáo viên tiếng Trung."}
+{"f": "practice", "id": "numbers.09", "k": "why", "src": "Before the measure word 个, two is 两.", "tgt": "Trước lượng từ 个, «hai» là 两."}
+{"f": "practice", "id": "numbers.10", "k": "p", "src": "105", "tgt": "105", "pre": 1}
+{"f": "practice", "id": "numbers.10", "k": "why", "src": "An empty place in the middle of a number is 零.", "tgt": "Hàng trống ở giữa một số là 零, như «linh» trong tiếng Việt."}
+{"f": "practice", "id": "numbers.11", "k": "p", "src": "This one is 25 yuan.", "tgt": "Cái này 25 tệ."}
+{"f": "practice", "id": "numbers.11", "k": "why", "src": "Money: the number, then 块 (or 元 in writing).", "tgt": "Tiền: số, rồi 块 (hoặc 元 khi viết)."}
+{"f": "practice", "id": "numbers.12", "k": "p", "src": "two people", "tgt": "hai người"}
+{"f": "practice", "id": "numbers.12", "k": "hint", "src": "两 or 二? · 个 · 人", "tgt": "两 hay 二? · 个 · 人"}
+{"f": "practice", "id": "numbers.12", "k": "why", "src": "Two before a measure word is 两: 两个人.", "tgt": "«Hai» trước lượng từ là 两: 两个人."}
+{"f": "practice", "id": "numbers.13", "k": "p", "src": "fifteen yuan (say it out loud)", "tgt": "mười lăm tệ (cách nói khi nói chuyện)"}
+{"f": "practice", "id": "numbers.13", "k": "why", "src": "块 is the measure word for money, right after the number: 十五块.", "tgt": "块 là lượng từ cho tiền, đứng ngay sau số: 十五块."}
+{"f": "practice", "id": "numbers.14", "k": "p", "src": "How much is this?", "tgt": "Cái này bao nhiêu tiền?"}
+{"f": "practice", "id": "numbers.14", "k": "why", "src": "多少 asks for any number, such as a price: 这个多少钱？", "tgt": "多少 hỏi mọi con số, như giá tiền: 这个多少钱？"}

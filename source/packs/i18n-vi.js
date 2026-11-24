@@ -1193,7 +1193,7 @@ LANGAPP_PACKS.i18n.vi = {
     "有: have and there is": "有: có (sở hữu và tồn tại)",
     "Numbers, time and place": "Số, thời gian và nơi chốn",
     "Numbers and money": "Số và tiền",
-    "Measure words: 个・本・杯": "Loại từ: 个・本・杯",
+    "Measure words: 个・本・杯": "Lượng từ: 个・本・杯",
     "Time and dates": "Giờ và ngày tháng",
     "在: at, in, and location words": "在: ở, trong và từ chỉ vị trí",
     "Word order: who · when · where · verb": "Trật tự từ: ai · khi nào · ở đâu · động từ",

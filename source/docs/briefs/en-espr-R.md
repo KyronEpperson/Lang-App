@@ -23,3 +23,20 @@ SCOPE FOR THIS COURSE (it is a copy of en-es, docs/briefs/pr-decisions.md §3; r
 - Puerto Rican claims: every island word must be in profile §10 or carry a source you opened; an unsourced word presented as Puerto Rican is a WRONG-LANGUAGE finding. Standard spelling only in targets, answers and tiles. Politics neutral (ESPR RULES 6 in the writer briefs).
 - Gender and agreement around every replaced noun (the copy's main risk), and the standing-rule line per set.
 - Append to `tools/target/espr/REVIEW.md` (new file). Also run `node tools/target/espr/scan.js`; it must exit 0.
+
+## Lead's merge results (2026-11-24) and the writers' open points
+
+Full course generated: 29 of 29 lessons, 32 decks, 977 cards. `validate.js espr` (no `--partial`) PASS · `scan.js` exit 0 (0 FORBID, 18 to check) · `scan.js --all`: 3 FORBID lines, all inside comparing card notes (*la parada de guagua* "Mexico: la parada del camión", *Tengo gripe.* "Mexico and Colombia: gripa") · `repron.js espr` rewrites 0 · en-es unchanged since the copy (BASE.sha1 all OK). Lead fix: `respell.js` EXC gained `break` → `brehk` (the tool read it as Spanish). Check command for you: `S=/tmp/claude-0/-home-claude/d98f3bd7-8852-52e0-916f-9f67ac9e0f17/scratchpad/p2; node tools/target/gen.js espr $S/espr-r.js && node tools/target/validate.js espr $S/espr-r.js && node tools/target/espr/scan.js && node tools/target/repron.js espr`.
+
+Open points to decide (fix or leave, and say which):
+1. **Both question orders.** `questions` (writer 2) tells the learner "this course accepts both orders" (*¿Qué tú quieres?*). Check every typed tú/usted wh-question in ALL lessons (lessons-1, -2, -3, -pr) accepts the pronoun-first answer too; writer 3 did not report adding any. Add the missing accepted answers.
+2. **Unsourced words.** *¡Dale!* is a Top interjections card (profile §10 marks it unsourced for Puerto Rico): its note must not present it as specifically Puerto Rican. *¡Acho!* likewise. *coger la guagua* is not accepted anywhere (only *tomar*): leave unless a page you open supports it.
+3. **Bus items.** *autobús* answers are kept as accepted alternatives on the typed bus items (directions, ir-a, prepositions), model answer *guagua*: confirm.
+4. **Money.** *una peseta* (25¢), *cinco pesos* / *veinte pesos* = dollars, *un chavo* = 1¢, *los chavos* = money: sourced in the profile? consistent across decks-pr, decks-a, lessons-2 (pesos box) and lessons-pr?
+5. **Inherited rows that read oddly on the island** (writer 2 left them): *Hace frío en enero* (irregular), *Voy al trabajo en metro* / *Voy en metro* (San Juan has the Tren Urbano), gustar's *el fútbol*; *Hace ochenta grados* (Fahrenheit, writer B); *la nevera* noted as "Spain:" only.
+6. **Culture facts stated without an opened page** (writers A and 1): bomba and plena, alcapurrias, tembleque, piragua, coquito, Día de Reyes (grass in a box for the camels), where Ponce / Mayagüez / Vieques are. Open a page for each or soften.
+7. **Glosses:** *Está al garete*, *el bochinche*, *Está nítido*, *pedir pon* / *¿Me das pon hasta Carolina?*, *Saludos.* as a spoken hello, *¿Qué hay?*, *mai* / *pai* without an article, *pasteles* (an English reader may think of cakes), *Comí en una panadería*.
+8. **Duplicates across writers:** the same word or sentence taught in two places with different glosses or notes (decks-pr vs decks-a/b/t2 vs lessons-pr), e.g. guagua, chavos, pesos, pastelillo, alcapurria, china, mahones, Wepa, Acho.
+9. `sounds` body is about 490 words (range 250–450); the lesson-number reference was reworded by writer 2.
+
+End REVIEW.md with one line per role (A, B, 1, 2, 3; all opus): the number of edits you had to make to that role's files.

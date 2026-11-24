@@ -1,12 +1,12 @@
-{"f":"ui","id":"Chinese (required)","src":"Chinese (required)","tgt":"","ref":"Tiếng Hàn (bắt buộc)"}
-{"f":"ui","id":"Chinese, pronunciation, meaning, note — one per line (pronunciation/note optional)","src":"Chinese, pronunciation, meaning, note — one per line (pronunciation/note optional)","tgt":"","ref":"Tiếng Hàn, phiên âm, nghĩa, ghi chú — mỗi dòng một thẻ (phiên âm và ghi chú không bắt buộc)"}
-{"f":"ui","id":"Search a pattern, e.g. 에서 or 'want'","src":"Search a pattern, e.g. 에서 or 'want'","tgt":"","dict":"Tìm mẫu câu, ví dụ at hoặc 'want'","ref":"Tìm mẫu câu, ví dụ 에서 hoặc 'muốn'"}
-{"f":"ui","id":"#sounds-and-script","src":"#sounds-and-script","tgt":""}
-{"f":"ui","id":"#first-steps","src":"#first-steps","tgt":""}
-{"f":"ui","id":"#everyday-words","src":"#everyday-words","tgt":""}
-{"f":"ui","id":"#out-and-about","src":"#out-and-about","tgt":""}
-{"f":"ui","id":"#conversation","src":"#conversation","tgt":""}
-{"f":"ui","id":"#core-words","src":"#core-words","tgt":""}
-{"f":"ui","id":"Report a problem on this page","src":"Report a problem on this page","tgt":"","ref":"Báo lỗi trên trang này"}
-{"f":"ui","id":"Count my visits anonymously","src":"Count my visits anonymously","tgt":"","ref":"Đếm lượt truy cập của tôi một cách ẩn danh"}
-{"f":"ui","id":"Play","src":"Play","tgt":"","ref":"Phát"}
+{"f":"ui","id":"Chinese (required)","src":"Chinese (required)","tgt":"Tiếng Trung (bắt buộc)","ref":"Tiếng Hàn (bắt buộc)"}
+{"f":"ui","id":"Chinese, pronunciation, meaning, note — one per line (pronunciation/note optional)","src":"Chinese, pronunciation, meaning, note — one per line (pronunciation/note optional)","tgt":"Tiếng Trung, pinyin, nghĩa, ghi chú — mỗi dòng một thẻ (pinyin và ghi chú không bắt buộc)","ref":"Tiếng Hàn, phiên âm, nghĩa, ghi chú — mỗi dòng một thẻ (phiên âm và ghi chú không bắt buộc)"}
+{"f":"ui","id":"Search a pattern, e.g. 에서 or 'want'","src":"Search a pattern, e.g. 에서 or 'want'","tgt":"Tìm mẫu câu, ví dụ 了 hoặc 'muốn'","dict":"Tìm mẫu câu, ví dụ at hoặc 'want'","ref":"Tìm mẫu câu, ví dụ 에서 hoặc 'muốn'"}
+{"f":"ui","id":"#sounds-and-script","src":"#sounds-and-script","tgt":"#amvachu"}
+{"f":"ui","id":"#first-steps","src":"#first-steps","tgt":"#buocdau"}
+{"f":"ui","id":"#everyday-words","src":"#everyday-words","tgt":"#tunguhangngay"}
+{"f":"ui","id":"#out-and-about","src":"#out-and-about","tgt":"#didaydido"}
+{"f":"ui","id":"#conversation","src":"#conversation","tgt":"#hoithoai"}
+{"f":"ui","id":"#core-words","src":"#core-words","tgt":"#tuvungcotloi"}
+{"f":"ui","id":"Report a problem on this page","src":"Report a problem on this page","tgt":"Báo lỗi trên trang này","ref":"Báo lỗi trên trang này"}
+{"f":"ui","id":"Count my visits anonymously","src":"Count my visits anonymously","tgt":"Đếm lượt truy cập của tôi một cách ẩn danh","ref":"Đếm lượt truy cập của tôi một cách ẩn danh"}
+{"f":"ui","id":"Play","src":"Play","tgt":"Phát","ref":"Phát"}

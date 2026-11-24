@@ -6,14 +6,14 @@ module.exports = [
     blurb: "Read any Spanish word aloud: the five vowels, the letters that differ from English, and where the stress goes.",
     deck: "Sounds and spelling",
     body: `
-<p>Spanish spelling is very regular, so a few rules let you read almost anything. Under every Spanish phrase in this course there is a pronunciation line in English letters. The syllable in CAPITALS is the stressed one.</p>
+<p>Spanish spelling is regular, so a few rules let you read almost anything. Every Spanish phrase here has a pronunciation line in English letters; CAPITALS mark the stressed syllable.</p>
 <h3>Five short, pure vowels</h3>
-<p>English vowels slide: say <i>no</i> slowly and your lips end on a <i>w</i>. Spanish vowels stay put. Each is short and keeps one sound, stressed or not. The pronunciation line always spells them <i>ah, eh, ee, oh, oo</i>, with no glide.</p>
+<p>English vowels slide: say <i>no</i> slowly and your lips end on a <i>w</i>. Spanish vowels stay put. Each is short and keeps one sound. The line spells them <i>ah, eh, ee, oh, oo</i>.</p>
 <div class="tbl"><table><tr><th>Letter</th><th>Sounds like</th><th>Example</th></tr><tr><td class="k">a</td><td><i>father</i></td><td class="k">casa</td></tr><tr><td class="k">e</td><td><i>bet</i></td><td class="k">mesa</td></tr><tr><td class="k">i</td><td><i>see</i>, but short</td><td class="k">sí</td></tr><tr><td class="k">o</td><td><i>go</i>, with no w at the end</td><td class="k">no</td></tr><tr><td class="k">u</td><td><i>food</i>, but short</td><td class="k">uno</td></tr></table></div>
 {{ex:la casa|lah KAH-sah|the house}}
 {{ex:No.|noh|No.}}
 <h3>Where the stress goes</h3>
-<p>Spanish stress follows one rule. A word ending in a vowel, <b>n</b> or <b>s</b> is stressed on the next-to-last syllable. Any other ending: the last syllable. A written accent mark (<b>á é í ó ú</b>) overrides both. Careful with words that look English: <b>hospital</b> and <b>animal</b> are stressed at the end.</p>
+<p>Spanish stress follows one rule. A word ending in a vowel, <b>n</b> or <b>s</b> is stressed on the next-to-last syllable. Any other ending: the last syllable. A written accent mark (<b>á é í ó ú</b>) overrides both. Watch words that look English: <b>hospital</b> and <b>animal</b> are stressed at the end.</p>
 {{ex:el hospital|ehl ohs-pee-TAHL|the hospital}}
 {{ex:Adiós.|ah-DYOHS|Goodbye.}}
 <h3>Letters that differ from English</h3>
@@ -23,14 +23,15 @@ module.exports = [
 {{ex:la llave|lah YAH-beh|the key}}
 {{ex:el niño|ehl NEE-nyoh|the boy; the child}}
 <h3>Tap and trill</h3>
-<p>A single <b>r</b> between vowels is a tap: one quick flick of the tongue, like the <i>tt</i> in American <i>butter</i>. Double <b>rr</b>, and <b>r</b> at the start of a word, is a trill (a rolled r). It changes the word: <b>pero</b> means "but", <b>perro</b> means "dog". The pronunciation line writes the tap as r and the trill as rr.</p>
+<p>A single <b>r</b> between vowels is a tap: one quick flick of the tongue, like the <i>tt</i> in American <i>butter</i>. Double <b>rr</b>, and <b>r</b> at the start of a word, is a trill (a rolled r). It changes the word: <b>pero</b> means "but", <b>perro</b> means "dog". The line writes the tap r and the trill rr.</p>
 {{ex:pero|PEH-roh|but}}
 {{ex:el perro|ehl PEH-rroh|the dog}}
 <h3>el and la</h3>
-<p>Nouns here come with a small word in front: <b>el perro</b>, <b>la llave</b>. Both mean "the". Every noun is masculine or feminine (lesson 3, on gender, explains why), so learn each one with its <b>el</b> or <b>la</b>. For more than one: <b>los perros</b>, <b>las llaves</b>.</p>
+<p>Nouns here come with a small word in front: <b>el perro</b>, <b>la llave</b>. Both mean "the". Every noun is masculine or feminine, so learn each one with its <b>el</b> or <b>la</b>. For more than one: <b>los perros</b>, <b>las llaves</b>.</p>
 <h3>Use the crutch, then drop it</h3>
 <p>The line cannot show everything: <b>d</b> between vowels is soft, close to the <i>th</i> in <i>this</i>, and <b>p</b>, <b>t</b>, <b>k</b> have no puff of air. Listen to the audio first, and hide the line once the spelling feels natural.</p>
 {{ex:nada|NAH-dah|nothing}}
+<p>Puerto Ricans soften some of these sounds, such as a final <b>s</b>. The next lesson trains your ear; the spelling stays the same.</p>
 <div class="tip"><b>Most common mistake:</b> saying the <b>h</b> the English way. <b>hola</b> with a breathy h → <b>hola</b> starting straight on the vowel. The breathy sound belongs to <b>j</b>, never to <b>h</b>.</div>
 `,
     check: [
@@ -74,6 +75,7 @@ module.exports = [
 {{ex:Buenas tardes. ¿Cómo está usted?|BWEH-nahs TAHR-dehs KOH-moh ehs-TAH oos-TEHD|Good afternoon. How are you?}}
 {{ex:Bien, gracias. ¿Y tú?|byehn GRAH-syahs ee too|Fine, thanks. And you?}}
 <p>When in doubt, start with <b>usted</b>. If the other person wants <b>tú</b>, they will switch, and you can follow.</p>
+<p>In Puerto Rico <b>tú</b> is used widely, even with shop and restaurant staff about your age. Keep <b>usted</b> for elders and for strangers much older than you.</p>
 <h3>Names</h3>
 <p>To give your name, say <b>me llamo</b>, literally "I call myself". It already contains "my name is", so nothing else goes in between. When you meet someone, say <b>mucho gusto</b>, "nice to meet you".</p>
 {{ex:Me llamo Ana.|meh YAH-moh AH-nah|My name is Ana.}}
@@ -101,8 +103,8 @@ module.exports = [
       ["fi","¿Y __?","And you? (to a stranger)","usted","tú|ustedes|yo","To a stranger you say usted: ¿Y usted?"],
       ["fi","Me __ Ana.","My name is Ana.","llamo","llama|llamas|es","Me llamo Ana: literally, I call myself Ana."],
       ["fi","Buenas __.","Good afternoon.","tardes","días|tarde|noche","The afternoon greeting is plural: buenas tardes."],
-      ["ty","How are you? (to a friend)","¿Cómo estás?|¿Cómo estás tú?","estar · tú","está","To a friend you use tú, and the tú form is estás."],
-      ["ty","How are you? (to a stranger)","¿Cómo está usted?|¿Cómo está?","estar · usted","estás","usted takes the usted form, the same as él: está."],
+      ["ty","How are you? (to a friend)","¿Cómo estás?|¿Cómo estás tú?|¿Cómo tú estás?","estar · tú","está","To a friend you use tú, and the tú form is estás."],
+      ["ty","How are you? (to a stranger)","¿Cómo está usted?|¿Cómo está?|¿Cómo usted está?","estar · usted","estás","usted takes the usted form, the same as él: está."],
       ["ty","My name is Ana.","Me llamo Ana.|Yo me llamo Ana.|Mi nombre es Ana.","llamarse · Ana","es","Me llamo already says my name is, so no es goes in between."]
     ]
   },
@@ -167,41 +169,41 @@ module.exports = [
 <p>These are the definite articles, and you already know them from the last lesson: <b>el</b> and <b>los</b> for masculine nouns, <b>la</b> and <b>las</b> for feminine ones.</p>
 <h3>a and some: un, una, unos, unas</h3>
 <p>These are the indefinite articles. English <i>a</i> never changes. Spanish <b>un</b> goes with masculine nouns and <b>una</b> with feminine ones. In the plural, <b>unos</b> and <b>unas</b> mean "some" or "a few".</p>
-<div class="tbl"><table><tr><th></th><th>Masculine</th><th>Feminine</th></tr><tr><td>the (one)</td><td class="k">el taco</td><td class="k">la tortilla</td></tr><tr><td>the (more)</td><td class="k">los tacos</td><td class="k">las tortillas</td></tr><tr><td>a</td><td class="k">un taco</td><td class="k">una tortilla</td></tr><tr><td>some</td><td class="k">unos tacos</td><td class="k">unas tortillas</td></tr></table></div>
+<div class="tbl"><table><tr><th></th><th>Masculine</th><th>Feminine</th></tr><tr><td>the (one)</td><td class="k">el pastelillo</td><td class="k">la alcapurria</td></tr><tr><td>the (more)</td><td class="k">los pastelillos</td><td class="k">las alcapurrias</td></tr><tr><td>a</td><td class="k">un pastelillo</td><td class="k">una alcapurria</td></tr><tr><td>some</td><td class="k">unos pastelillos</td><td class="k">unas alcapurrias</td></tr></table></div>
 {{ex:Un café, por favor.|oon kah-FEH pohr fah-BOHR|A coffee, please.}}
-{{ex:Una quesadilla, por favor.|OO-nah keh-sah-DEE-yah pohr fah-BOHR|A quesadilla, please.}}
-{{ex:Unos tacos de pollo, por favor.|OO-nohs TAH-kohs deh POH-yoh pohr fah-BOHR|Some chicken tacos, please.}}
+{{ex:Una alcapurria, por favor.|OO-nah ahl-kah-POO-rryah pohr fah-BOHR|An alcapurria, please.}}
+{{ex:Unos pastelillos de pollo, por favor.|OO-nohs pahs-teh-LEE-yohs deh POH-yoh pohr fah-BOHR|Some chicken pastelillos, please.}}
 <p>Note that "a" is <b>un</b>, not <b>uno</b>, in front of a noun. <b>Uno</b> is the number you count with.</p>
 <h3>el agua: a feminine word with el</h3>
 <p><b>Agua</b> (water) is feminine, but it starts with a stressed <b>a</b> sound, and <b>la agua</b> would run two a sounds together. So in the singular it takes <b>el</b>: <b>el agua</b>. It is still feminine, as you will see when adjectives come along.</p>
 {{ex:un vaso de agua|oon BAH-soh deh AH-gwah|a glass of water}}
 <h3>Things in general keep the article</h3>
-<p>English drops the article when it talks about something in general: "I like coffee", "Tacos are great". Spanish keeps it. To say you like something, use the set phrase <b>me gusta</b> plus the noun with its article. A later lesson explains how <b>gustar</b> works.</p>
+<p>English drops the article when it talks about something in general: "I like coffee", "Tostones are great". Spanish keeps it. To say you like something, use the set phrase <b>me gusta</b> plus the noun with its article. A later lesson explains how <b>gustar</b> works.</p>
 {{ex:Me gusta el café.|meh GOOS-tah ehl kah-FEH|I like coffee.}}
 <h3>Ordering</h3>
-<p>In a café or taquería, a noun with its article plus <b>por favor</b> already makes a polite order. Ask for the check the same way.</p>
+<p>In a café or a restaurant, a noun with its article plus <b>por favor</b> already makes a polite order. Ask for the check the same way.</p>
 {{ex:La cuenta, por favor.|lah KWEHN-tah pohr fah-BOHR|The check, please.}}
 <div class="tip"><b>Most common mistake:</b> leaving the article out, as English does. <b>Me gusta café</b> → <b>Me gusta el café</b>.</div>
 `,
     check: [
       ["How do you say I like chicken (pollo)?",["Me gusta pollo.","Me gusta el pollo.","Me gusta un pollo.","Me gusta la pollo."],1,"Things in general keep the article in Spanish, and pollo is masculine: el pollo."],
       ["Why is it el agua, if agua is feminine?",["agua is really masculine","el is the polite article","Drinks are always masculine","A feminine noun that starts with a stressed a takes el in the singular"],3,"el agua avoids two a sounds in a row; the noun stays feminine."],
-      ["What does unas tortillas mean?",["the tortillas","a tortilla","some tortillas","one tortilla"],2,"unos and unas mean some or a few."]
+      ["What does unas alcapurrias mean?",["the alcapurrias","an alcapurria","some alcapurrias","one alcapurria"],2,"unos and unas mean some or a few."]
     ],
     practice: [
       ["mc","a coffee =","un café","una café","uno café","unos café","café is masculine, and before a noun the article is un, not uno."],
       ["mc","the water =","el agua","la agua","lo agua","los agua","agua starts with a stressed a, so it takes el in the singular."],
       ["mc","I like coffee. =","Me gusta el café.","Me gusta café.","Me gusta un café.","Me gusta la café.","Spanish keeps the article for things in general: el café."],
-      ["mc","some tacos =","unos tacos","unas tacos","unos taco","uno tacos","tacos is masculine and plural, so some is unos."],
+      ["mc","some tostones =","unos tostones","unas tostones","unos tostón","uno tostones","tostones is masculine and plural, so some is unos."],
       ["mc","The check, please. =","La cuenta, por favor.","El cuenta, por favor.","Las cuenta, por favor.","Una cuenta, por favor.","cuenta takes la, and the check is a specific one: la cuenta."],
-      ["or","A quesadilla, please.","Una | quesadilla | por favor","Un","quesadilla is feminine, so the article is una."],
-      ["or","some tortillas","unas tortillas","unos","tortillas is a feminine noun in the plural, so the article agrees: unas."],
+      ["or","An alcapurria, please.","Una | alcapurria | por favor","Un","alcapurria is feminine, so the article is una."],
+      ["or","some alcapurrias","unas alcapurrias","unos","alcapurrias is a feminine noun in the plural, so the article agrees: unas."],
       ["or","I like chicken.","Me gusta el pollo","la","pollo is masculine, so the article is el, and Spanish keeps it here."],
-      ["fi","Me gusta __ agua de jamaica.","I like hibiscus water.","el","la|un|los","agua takes el, and Spanish keeps the article for things in general."],
-      ["fi","__ tortillas","the tortillas","las","los|la|unas","tortillas takes las: the, more than one, feminine."],
-      ["fi","__ tacos de pollo, por favor.","Some chicken tacos, please.","Unos","Unas|Un|Uno","tacos is masculine and plural, so some is unos."],
-      ["ty","a quesadilla","una quesadilla","quesadilla · a","un","quesadilla is feminine, so the article agrees: una."],
-      ["ty","some tacos","unos tacos","taco · some","unas","tacos is masculine and plural, so the article agrees: unos."],
+      ["fi","Me gusta __ agua de coco.","I like coconut water.","el","la|un|los","agua takes el, and Spanish keeps the article for things in general."],
+      ["fi","__ alcapurrias","the alcapurrias","las","los|la|unas","alcapurrias takes las: the, more than one, feminine."],
+      ["fi","__ pastelillos de pollo, por favor.","Some chicken pastelillos, please.","Unos","Unas|Un|Uno","pastelillos is masculine and plural, so some is unos."],
+      ["ty","an alcapurria","una alcapurria","alcapurria · a","un","alcapurria is feminine, so the article agrees: una."],
+      ["ty","some pastelillos","unos pastelillos","pastelillo · some","unas","pastelillos is masculine and plural, so the article agrees: unos."],
       ["ty","The check, please.","La cuenta, por favor.","cuenta · por favor","El","cuenta is feminine, so the article is la."]
     ]
   },
@@ -217,11 +219,11 @@ module.exports = [
 <div class="tbl"><table><tr><th>Subject</th><th>ser</th><th>English</th></tr><tr><td class="k">yo</td><td class="k">soy</td><td>I am</td></tr><tr><td class="k">tú</td><td class="k">eres</td><td>you are (a friend)</td></tr><tr><td class="k">él, ella, usted</td><td class="k">es</td><td>he is, she is, you are (a stranger)</td></tr><tr><td class="k">nosotros, nosotras</td><td class="k">somos</td><td>we are</td></tr><tr><td class="k">ellos, ellas, ustedes</td><td class="k">son</td><td>they are, you all are</td></tr></table></div>
 <p>Two things to notice. <b>Usted</b> takes the same form as <b>él</b>, and <b>ustedes</b> the same form as <b>ellos</b>. And <b>nosotras</b> and <b>ellas</b> are for groups of women only; any mixed group is <b>nosotros</b> or <b>ellos</b>.</p>
 {{ex:Ella es Ana.|EH-yah ehs AH-nah|This is Ana. She's Ana.}}
-{{ex:Usted es de Puebla, ¿no?|oos-TEHD ehs deh PWEH-blah noh|You're from Puebla, right?}}
-<h3>Drop the pronoun</h3>
-<p>English always needs "I" or "you". In Spanish the verb ending already tells you who, so <b>soy</b> alone means "I am". Native speakers usually leave <b>yo</b>, <b>tú</b> and <b>nosotros</b> out, and keep a pronoun only for contrast or to make clear who is meant.</p>
+{{ex:Usted es de Ponce, ¿no?|oos-TEHD ehs deh POHN-seh noh|You're from Ponce, right?}}
+<h3>Keep the pronoun or drop it</h3>
+<p>English always needs "I" or "you". In Spanish the verb ending already tells you who, so <b>soy</b> alone means "I am". You can keep the pronoun or drop it: <b>Soy de Chicago</b> and <b>Yo soy de Chicago</b> are both right. Puerto Ricans often keep it (<b>yo creo</b>, "I think"; <b>tú sabes</b>, "you know"), so you will hear <b>yo</b> and <b>tú</b> a lot.</p>
 {{ex:Soy de Chicago.|soy deh chee-KAH-goh|I'm from Chicago.}}
-{{ex:Somos de Monterrey.|SOH-mohs deh mohn-teh-RRAY|We're from Monterrey.}}
+{{ex:Nosotros somos de San Juan.|noh-SOH-trohs SOH-mohs deh sahn hwahn|We're from San Juan.}}
 <h3>Where you are from: ser de</h3>
 <p>Origin always uses <b>ser de</b>, "to be from". To ask a friend, say <b>¿De dónde eres?</b>; to ask a stranger, <b>¿De dónde es usted?</b></p>
 {{ex:¿De dónde eres?|deh DOHN-deh EH-rehs|Where are you from?}}
@@ -238,12 +240,12 @@ module.exports = [
       ["Why can you say Soy de Chicago without yo?",["soy already shows that the subject is yo","Spanish never uses subject pronouns","yo is only used with usted","It is a mistake, but people understand it"],0,"The verb ending tells you who: soy can only mean I am."]
     ],
     practice: [
-      ["mc","We're from Mexico. =","Somos de México.","Son de México.","Somos en México.","Es de México.","For we, ser is somos, and origin uses de."],
+      ["mc","We're from Puerto Rico. =","Somos de Puerto Rico.","Son de Puerto Rico.","Somos en Puerto Rico.","Es de Puerto Rico.","For we, ser is somos, and origin uses de."],
       ["mc","I'm a nurse. (a woman speaking)","Soy enfermera.","Soy una enfermera.","Soy enfermero.","Es enfermera.","No una before a job, and a woman says enfermera."],
-      ["mc","Usted __ de Guadalajara, ¿verdad? Which verb fits?","es","eres","son","soy","usted takes the same verb as él: es."],
+      ["mc","Usted __ de Mayagüez, ¿verdad? Which verb fits?","es","eres","son","soy","usted takes the same verb as él: es."],
       ["mc","They're students. =","Son estudiantes.","Es estudiantes.","Somos estudiantes.","Eres estudiantes.","For they, ser is son."],
       ["mc","Carlos is a teacher. =","Carlos es maestro.","Carlos es un maestro.","Carlos son maestro.","Carlos es maestra.","No un before a job, and Carlos is a man: maestro."],
-      ["or","We're from Puebla.","Somos de Puebla","Son","The nosotros form of ser is somos."],
+      ["or","We're from Ponce.","Somos de Ponce","Son","The nosotros form of ser is somos."],
       ["or","You're from Chicago. (to a friend)","Eres de Chicago","Es","To a friend you use tú, and the tú form of ser is eres."],
       ["or","She's a doctor.","Ella es doctora","una doctor","No una before a job, and the job word agrees with ella: doctora, feminine."],
       ["fi","Yo __ de San Antonio.","I'm from San Antonio.","soy","es|eres|son","With yo, ser is soy."],
@@ -320,7 +322,7 @@ module.exports = [
 {{ex:El banco está cerca.|ehl BAHN-koh ehs-TAH SEHR-kah|The bank is close.}}
 {{ex:Estamos en el hotel.|ehs-TAH-mohs ehn ehl oh-TEHL|We're at the hotel.}}
 <p>This holds even when the place never moves. A city stays where it is, and it still takes <b>estar</b>.</p>
-{{ex:Monterrey está en México.|mohn-teh-RRAY ehs-TAH ehn MEH-hee-koh|Monterrey is in Mexico.}}
+{{ex:San Juan está en Puerto Rico.|sahn hwahn ehs-TAH ehn PWEHR-toh RREE-koh|San Juan is in Puerto Rico.}}
 <h3>How: the way someone is right now</h3>
 <p>You already know <b>¿Cómo estás?</b> The answer uses <b>estar</b> too: <b>Estoy bien</b>, "I'm fine", or <b>Estoy mal</b>, "I'm not well". With an adjective, the adjective agrees with the person, as in the last lesson: a man says <b>Estoy cansado</b>, a woman says <b>Estoy cansada</b>. The same goes for health: <b>Estoy enfermo</b> or <b>Estoy enferma</b>, "I'm sick".</p>
 {{ex:Estoy cansada.|ehs-TOY kahn-SAH-dah|I'm tired.}}
@@ -333,19 +335,19 @@ module.exports = [
     check: [
       ["Where is the museum? =",["¿Dónde es el museo?","¿Dónde está el museo?","¿Dónde están el museo?","¿Dónde estoy el museo?"],1,"Where something is: estar, and one museum takes está."],
       ["Which form of estar goes with ustedes?",["está","estamos","están","estás"],2,"ustedes takes the same form as ellos: están."],
-      ["Why is it Monterrey está en México, though the city never moves?",["estar is for where something is, whether it can move or not","It's a mistake; it should be es","Cities are always feminine","está is the polite form"],0,"Location uses estar, permanent or not."]
+      ["Why is it San Juan está en Puerto Rico, though the city never moves?",["estar is for where something is, whether it can move or not","It's a mistake; it should be es","Cities are always feminine","está is the polite form"],0,"Location uses estar, permanent or not."]
     ],
     practice: [
       ["mc","Where is the bathroom? =","¿Dónde está el baño?","¿Dónde es el baño?","¿Dónde están el baño?","¿Dónde estás el baño?","Where something is: estar, and one bathroom takes está."],
       ["mc","We're at the hotel. =","Estamos en el hotel.","Somos en el hotel.","Están en el hotel.","Estamos el hotel.","Location uses estar; for we it is estamos, plus en for at."],
       ["mc","I'm tired. (a woman speaking)","Estoy cansada.","Soy cansada.","Estoy cansado.","Está cansada.","How you are right now: estar, and a woman says cansada."],
       ["mc","The pharmacy is close. =","La farmacia está cerca.","La farmacia es cerca.","La farmacia están cerca.","El farmacia está cerca.","Where something is: estar."],
-      ["mc","Monterrey is in Mexico. =","Monterrey está en México.","Monterrey es en México.","Monterrey son en México.","Monterrey estás en México.","Location takes estar even when it never changes."],
+      ["mc","San Juan is in Puerto Rico. =","San Juan está en Puerto Rico.","San Juan es en Puerto Rico.","San Juan son en Puerto Rico.","San Juan estás en Puerto Rico.","Location takes estar even when it never changes."],
       ["or","The kids are fine.","Los niños están bien","está","los niños is plural, so the verb ending matches the subject: están."],
       ["or","I'm sick. (a man speaking)","Estoy enfermo","enferma","A man is speaking, so the adjective is masculine: enfermo."],
       ["or","Where are you? (to a friend)","¿Dónde estás?","está?","To a friend you use tú, so the tú form: estás."],
       ["fi","¿Dónde __ el banco?","Where is the bank?","está","esta|es|están","Location takes estar. está needs its accent mark; esta means this.","!strict"],
-      ["fi","Nosotros __ en Cancún.","We're in Cancún.","estamos","somos|están|estoy","Location takes estar, and with nosotros it is estamos."],
+      ["fi","Nosotros __ en Mayagüez.","We're in Mayagüez.","estamos","somos|están|estoy","Location takes estar, and with nosotros it is estamos."],
       ["fi","Ana está __.","Ana is tired.","cansada","cansado|cansadas|cansados","Ana is one woman, so cansada."],
       ["ty","Where are the bathrooms?","¿Dónde están los baños?","dónde · estar · baño","está","los baños is plural, so the verb ending matches the subject: están.","!strict"],
       ["ty","We're tired. (two women)","Estamos cansadas.|Nosotras estamos cansadas.","estar · cansado","cansados","Two women: the adjective is feminine plural, cansadas, after the nosotros form estamos."],
@@ -361,11 +363,11 @@ module.exports = [
 <p>English has one "to be". Spanish splits it in two, and you now know both. The choice between them is the most famous trap for English speakers, so this lesson gives you one clear test.</p>
 <h3>The test</h3>
 <p>Ask yourself what the sentence is about. Is it <i>what</i> someone or something is: who, what kind, from where, what job, when or where an event takes place? Use <b>ser</b>. Is it <i>where</i> something is, or <i>how</i> someone is right now? Use <b>estar</b>.</p>
-<div class="tbl"><table><tr><th>ser: what it is</th><th>estar: where and how it is</th></tr><tr><td class="k">Es Carlos. Es enfermero.</td><td class="k">Está en el hospital.</td></tr><tr><td class="k">Somos de Puebla.</td><td class="k">Estamos en Chicago.</td></tr><tr><td class="k">Ana es alta.</td><td class="k">Ana está cansada.</td></tr><tr><td class="k">Es tarde.</td><td class="k">Estoy bien.</td></tr></table></div>
+<div class="tbl"><table><tr><th>ser: what it is</th><th>estar: where and how it is</th></tr><tr><td class="k">Es Carlos. Es enfermero.</td><td class="k">Está en el hospital.</td></tr><tr><td class="k">Somos de Ponce.</td><td class="k">Estamos en Chicago.</td></tr><tr><td class="k">Ana es alta.</td><td class="k">Ana está cansada.</td></tr><tr><td class="k">Es tarde.</td><td class="k">Estoy bien.</td></tr></table></div>
 {{ex:Ana es alta y está cansada.|AH-nah ehs AHL-tah ee ehs-TAH kahn-SAH-dah|Ana is tall, and she's tired.}}
 {{ex:Diego es estudiante y está enfermo.|DYEH-goh ehs ehs-too-DYAHN-teh ee ehs-TAH ehn-FEHR-moh|Diego is a student, and he's sick.}}
 <h3>Forget "permanent vs temporary"</h3>
-<p>You may have heard that <b>ser</b> is for permanent things and <b>estar</b> for temporary ones. That rule breaks too often. Being a student is not permanent, yet it is <b>Soy estudiante</b>. A city never moves, yet it is <b>Monterrey está en México</b>. Use the test above instead.</p>
+<p>You may have heard that <b>ser</b> is for permanent things and <b>estar</b> for temporary ones. That rule breaks too often. Being a student is not permanent, yet it is <b>Soy estudiante</b>. A city never moves, yet it is <b>San Juan está en Puerto Rico</b>. Use the test above instead.</p>
 <h3>Events take ser</h3>
 <p>One exception to "location takes estar": when you say where a party, a class or a meeting <i>takes place</i>, use <b>ser</b>. The building is somewhere; the event happens somewhere.</p>
 {{ex:La fiesta es en el parque.|lah FYEHS-tah ehs ehn ehl PAHR-keh|The party is in the park.}}
@@ -395,10 +397,10 @@ module.exports = [
       ["or","Ana is tall, and she's tired.","Ana es alta y está cansada","cansado","es for what she is like, está for how she is now, and cansada agrees with Ana."],
       ["or","The kids are bored.","Los niños están aburridos","son aburrido","Bored is estar; the verb ending matches the subject, están, and aburridos is plural to agree."],
       ["fi","La fiesta __ en el parque.","The party is in the park.","es","está|son|están","Where an event takes place uses ser."],
-      ["fi","Valeria __ de Oaxaca.","Valeria is from Oaxaca.","es","está|son|eres","Origin always takes ser."],
+      ["fi","Valeria __ de Mayagüez.","Valeria is from Mayagüez.","es","está|son|eres","Origin always takes ser."],
       ["fi","Lucía __ triste hoy.","Lucía is sad today.","está","es|esta|están","How someone feels right now takes estar, and está needs its accent mark.","!strict"],
       ["ty","I'm tired. (a man speaking)","Estoy cansado.|Yo estoy cansado.","estar · cansado","Soy","Tired is a condition, so estar, and the yo form is estoy."],
-      ["ty","Lupita is boring.","Lupita es aburrida.","ser · aburrido","aburrido","Boring is what Lupita is like, so ser, and aburrida agrees with her: feminine."],
+      ["ty","Carmen is boring.","Carmen es aburrida.","ser · aburrido","aburrido","Boring is what Carmen is like, so ser, and aburrida agrees with her: feminine."],
       ["ty","Are you ready? (to a female friend)","¿Estás lista?|¿Tú estás lista?|¿Estás lista tú?","estar · listo","Eres","Ready takes estar, and the adjective agrees with your friend: lista."]
     ]
   },
@@ -439,7 +441,7 @@ module.exports = [
       ["mc","There are some chairs in the kitchen. =","Hay unas sillas en la cocina.","Hay unos sillas en la cocina.","Hay las sillas en la cocina.","Están unas sillas en la cocina.","hay plus unas, which matches sillas."],
       ["or","There's a table.","Hay una mesa","un","mesa is feminine, so the article agrees: una mesa."],
       ["or","There are some beds.","Hay unas camas","unos","camas is feminine and plural, so the article agrees: unas."],
-      ["or","The apartment is in Puebla.","El apartamento está en Puebla","Hay","A particular place you name with el: estar says where it is."],
+      ["or","The apartment is in Bayamón.","El apartamento está en Bayamón","Hay","A particular place you name with el: estar says where it is."],
       ["fi","__ un baño en el apartamento.","There's a bathroom in the apartment.","Hay","Está|Es|Están","Introducing something with un: hay."],
       ["fi","Hay __ sofá en la sala.","There's a sofa in the living room.","un","el|una|uno","hay takes un, never el, and before a noun it is un, not uno."],
       ["fi","La cocina __ allí.","The kitchen is over there.","está","hay|es|esta","A particular room: estar tells where it is, with its accent mark.","!strict"],

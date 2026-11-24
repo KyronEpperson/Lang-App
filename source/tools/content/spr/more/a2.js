@@ -177,7 +177,7 @@ practice:[
 ["ty","A mi hermano le encanta la música","My brother loves music","brother · love · music — sin artículo","the","Con \"my brother\" (tercera persona), el verbo lleva -s: \"loves\". La música en general va sin artículo."]]},
 { id:"first-conditional", title:"Primer condicional: if + presente, will", blurb:"«Si llueve, me quedo en casa.» Como en español: después de if va el presente, nunca will.", deck:"Trabajo y correo", body:`
 <p>Habla de cosas que pueden pasar de verdad. La forma es <b>if + presente, will + verbo</b>. Es igual que en español: «Si llueve, me quedo en casa», no «Si lloverá». Después de <i>if</i> no va <i>will</i>.</p>
-{{ex:If it rains, I'll stay home.|if it REINS ail STEI JOUM|Si llueve, me quedo en casa}}{{ex:If you don't hurry, you'll miss the bus.|if iu DOUNT JER-i iul MIS dhe BAS|Si no te apuras, vas a perder el autobús}}
+{{ex:If it rains, I'll stay home.|if it REINS ail STEI JOUM|Si llueve, me quedo en casa}}{{ex:If you don't hurry, you'll miss the bus.|if iu DOUNT JER-i iul MIS dhe BAS|Si no te apuras, vas a perder la guagua}}
 <p>Ojo con la tercera persona: después de <i>if</i>, el presente sigue llevando -s (<i>If it rains</i>, <i>If she calls</i>), y la negación usa el auxiliar <i>don't/doesn't</i>.</p>
 <h3>Puedes cambiar el orden</h3>
 <p>Si <i>if</i> va en la segunda parte, no hace falta coma.</p>
@@ -193,7 +193,7 @@ practice:[
 ["mc","If it ___, I'll stay home.","rains","will rain","rained","is rain","Después de \"if\" va el presente con -s: \"it rains\"."],
 ["mc","If you're late, ___ me.","call","will calling","calls","to call","El imperativo empieza con el verbo solo."],
 ["mc","¿Cómo se dice «Te ayudo si tengo tiempo»?","I'll help you if I have time.","I help you if I'll have time.","I'll help you if I will have time.","I'll helping you if I have time.","Después de \"if\" no va \"will\"."],
-["mc","¿Cómo se dice «Si no te apuras, vas a perder el autobús»?","If you don't hurry, you'll miss the bus.","If you won't hurry, you miss the bus.","If you don't hurry, you miss will the bus.","If you not hurry, you'll miss bus.","Después de \"if\" va el presente en negativo: \"don't\"."],
+["mc","¿Cómo se dice «Si no te apuras, vas a perder la guagua»?","If you don't hurry, you'll miss the bus.","If you won't hurry, you miss the bus.","If you don't hurry, you miss will the bus.","If you not hurry, you'll miss bus.","Después de \"if\" va el presente en negativo: \"don't\"."],
 ["mc","¿Cómo se dice «Cuando llegue a casa, te llamo»?","When I get home, I'll call you.","When I'll get home, I call you.","When I will get home, I'll call you.","When I get the home, I call you.","Después de \"when\" también va el presente."],
 ["or","Si llueve, me quedo en casa","If it rains I'll stay home","rain will","Después de \"if\" va el presente, y con \"it\" el verbo lleva -s: tercera persona."],
 ["or","Si ella llama, avísame","If she calls let me know","call","Con \"she\", \"calls\" lleva -s (tercera persona), también después de \"if\"."],
@@ -201,7 +201,7 @@ practice:[
 ["fi","If it __ tomorrow, we'll cancel.","Si llueve mañana, cancelamos","rains","will rain|rained|raining","Después de \"if\" va el presente; con \"it\", \"rains\" (tercera persona)."],
 ["fi","If you study, you __ pass.","Si estudias, vas a aprobar","will|can|might","are|did|passing","El resultado va con \"will\" + verbo."],
 ["fi","__ you need help, call me.","Si necesitas ayuda, llámame","If|When","So|But|Because","«Si» es \"if\"."],
-["ty","Si llueve, tomo un taxi","If it rains I'll take a taxi|I'll take a taxi if it rains|If it rains I'll get a taxi","rain · take · taxi — con el sujeto \"it\"","will rain","Después de \"if\" va el presente, y \"it rains\" lleva la -s de tercera persona."],
+["ty","Si llueve, tomaré un taxi","If it rains I'll take a taxi|I'll take a taxi if it rains|If it rains I'll get a taxi","rain · take · taxi — con el sujeto \"it\"","will rain","Después de \"if\" va el presente, y \"it rains\" lleva la -s de tercera persona."],
 ["ty","Si ella no viene, te llamo","If she doesn't come I'll call you|I'll call you if she doesn't come","come · call — negación con el auxiliar","don't","Con \"she\", la negación usa el auxiliar \"doesn't\"."],
 ["ty","Te ayudo si tengo tiempo","I'll help you if I have time|I'll help if I have time|If I have time I'll help you|If I have time I'll help","help · if · time — después de \"if\" no va \"will\"","will","Después de \"if\" no va \"will\"."]]},
 { id:"relative", title:"who, that, which: oraciones de relativo", blurb:"En español todo es «que»; en inglés, who para personas y which o that para cosas.", deck:"Compras y pagos", body:`
@@ -211,7 +211,7 @@ practice:[
 {{ex:I have a friend who speaks Japanese.|ai jav e FREND ju SPIIKS dye-pe-NIIS|Tengo una amiga que habla japonés}}{{ex:the man who lives next door|dhe MAN ju LIVS NEKST DOR|el hombre que vive al lado}}
 <p>Fíjate en la concordancia: <i>the man who <b>lives</b></i>. El verbo concuerda con la persona de la que hablas; aquí, tercera persona con -s.</p>
 <h3>Cosas: which o that</h3>
-{{ex:the book that I bought|dhe BUK dhet ai BOT|el libro que compré}}{{ex:This is the phone that I want.|dhis is dhe FOUN dhet ai WAANT|Este es el celular que quiero}}{{ex:the bus which goes downtown|dhe BAS wich GOUS daun-TAUN|el autobús que va al centro}}
+{{ex:the book that I bought|dhe BUK dhet ai BOT|el libro que compré}}{{ex:This is the phone that I want.|dhis is dhe FOUN dhet ai WAANT|Este es el celular que quiero}}{{ex:the bus which goes downtown|dhe BAS wich GOUS daun-TAUN|la guagua que va al centro}}
 <h3>En inglés puedes omitir el relativo</h3>
 <p>En español el «que» nunca se omite. En inglés, si después viene un sujeto + verbo (<i>we saw</i>), puedes quitar <i>that</i>, y en la conversación casi siempre se quita.</p>
 {{ex:The movie we saw was great.|dhe MUU-vi wi SO wes GREIT|La película que vimos estuvo buenísima}}

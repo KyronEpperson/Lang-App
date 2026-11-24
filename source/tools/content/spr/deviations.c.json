@@ -1,0 +1,14 @@
+{
+  "lessons": {
+    "spanglish": "spr.md §8.1 new lesson"
+  },
+  "items": {
+    "present#2": "spr.md §8.2 setting",
+    "object-have#10": "spr.md §8.2 setting",
+    "going-to#0": "spr.md §8.2 setting",
+    "false-friends#8": "spr.md §8.2 setting",
+    "false-friends#check1": "spr.md §8.2 setting"
+  },
+  "decks": {},
+  "extraLessons": ["spanglish"]
+}
