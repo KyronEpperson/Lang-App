@@ -37598,12 +37598,11 @@
   [
    "fresh",
    {
-    "due": 10,
+    "due": 6,
     "fresh": 5,
-    "quiz": 5,
-    "hangul": 5,
-    "register": 2,
-    "role": 1
+    "quiz": 4,
+    "hangul": 4,
+    "register": 1
    },
    [
     "lesson:hangul",
@@ -37615,16 +37614,15 @@
     "card:Hangul vowels",
     "quiz:Hangul vowels",
     "card:Hangul vowels",
-    "quiz:Hangul vowels",
     "quiz:Hangul vowels"
    ]
   ],
   [
    "quick",
    {
-    "due": 4,
+    "due": 8,
     "fresh": 5,
-    "quiz": 3,
+    "quiz": 0,
     "hangul": 0
    },
    [
@@ -37632,25 +37630,22 @@
     "card:Hangul vowels",
     "card:Hangul vowels",
     "card:Hangul vowels",
-    "quiz:Hangul vowels",
     "card:Hangul vowels",
-    "quiz:Hangul vowels",
-    "card:Hangul vowels",
-    "quiz:Hangul vowels"
+    "card:Hangul vowels"
    ]
   ],
   [
    "long",
    {
-    "due": 18,
+    "due": 12,
     "fresh": 10,
-    "quiz": 8,
-    "hangul": 6,
-    "build": 3,
+    "quiz": 6,
+    "hangul": 5,
+    "build": 2,
     "register": 2,
     "listen": 2,
     "numbers": 2,
-    "role": 2
+    "role": 1
    },
    [
     "lesson:hangul",
@@ -37660,29 +37655,26 @@
     "card:Hangul vowels",
     "quiz:Hangul vowels",
     "card:Hangul vowels",
-    "quiz:Hangul vowels",
-    "card:Hangul vowels",
     "card:Hangul vowels",
     "quiz:Hangul vowels",
     "card:Hangul vowels",
+    "card:Hangul vowels",
     "quiz:Hangul vowels",
     "card:Hangul vowels",
     "quiz:Hangul vowels",
     "quiz:Hangul vowels",
     "card:Hangul vowels",
-    "quiz:Hangul vowels",
     "quiz:Hangul vowels"
    ]
   ],
   [
    "readYes",
    {
-    "due": 10,
+    "due": 6,
     "fresh": 5,
-    "quiz": 5,
-    "hangul": 5,
-    "register": 2,
-    "role": 1
+    "quiz": 4,
+    "hangul": 4,
+    "register": 1
    },
    [
     "lesson:hangul",
@@ -37696,9 +37688,7 @@
     "hangul:1",
     "card:Hangul vowels",
     "quiz:Hangul vowels",
-    "hangul:1",
     "card:Hangul vowels",
-    "quiz:Hangul vowels",
     "quiz:Hangul vowels",
     "hangul:1"
    ]
@@ -37706,12 +37696,11 @@
   [
    "readNo",
    {
-    "due": 10,
+    "due": 6,
     "fresh": 5,
-    "quiz": 5,
-    "hangul": 5,
-    "register": 2,
-    "role": 1
+    "quiz": 4,
+    "hangul": 4,
+    "register": 1
    },
    [
     "lesson:hangul",
@@ -37721,7 +37710,6 @@
     "card:Hangul vowels",
     "quiz:Hangul vowels",
     "card:Hangul vowels",
-    "quiz:Hangul vowels",
     "card:Hangul vowels",
     "quiz:Hangul vowels",
     "quiz:Hangul vowels"
@@ -37730,47 +37718,42 @@
   [
    "survivalOnly",
    {
-    "due": 10,
+    "due": 6,
     "fresh": 5,
-    "quiz": 5,
-    "hangul": 5,
-    "register": 2,
-    "role": 1
+    "quiz": 4,
+    "hangul": 4,
+    "register": 1
    },
    [
     "lesson:hangul",
     "card:Hangul vowels",
     "hangul:2",
-    "hangul:2",
     "card:Hangul vowels",
     "hangul:2",
     "card:Hangul vowels",
     "hangul:2",
+    "quiz:Hangul vowels",
+    "card:Hangul vowels",
     "quiz:Hangul vowels",
     "hangul:2",
     "card:Hangul vowels",
     "quiz:Hangul vowels",
     "quiz:Hangul consonants",
-    "register",
-    "card:Hangul vowels",
-    "quiz:Hangul vowels",
-    "register",
-    "quiz:Hangul consonants",
-    "role"
+    "register"
    ]
   ],
   [
    "learnedHangul",
    {
-    "due": 18,
+    "due": 12,
     "fresh": 10,
-    "quiz": 8,
-    "hangul": 6,
-    "build": 3,
+    "quiz": 6,
+    "hangul": 5,
+    "build": 2,
     "register": 2,
     "listen": 2,
     "numbers": 2,
-    "role": 2
+    "role": 1
    },
    [
     "lesson:hangul",
@@ -37782,32 +37765,27 @@
     "hangul:3",
     "card:Hangul vowels",
     "hangul:3",
-    "hangul:3",
     "card:Hangul vowels",
-    "quiz:Hangul consonants",
     "hangul:3",
+    "quiz:Hangul consonants",
     "card:Hangul vowels",
     "build",
-    "quiz:Hangul consonants",
     "build",
     "card:Hangul vowels",
     "quiz:Hangul vowels",
-    "build",
-    "quiz:Survival phrases",
+    "quiz:Hangul consonants",
     "register",
     "card:Hangul vowels",
     "register",
-    "quiz:Hangul vowels",
-    "listen",
-    "card:Hangul vowels",
     "listen",
     "card:Hangul vowels",
     "quiz:Survival phrases",
-    "numbers",
-    "numbers",
+    "listen",
     "card:Hangul vowels",
+    "numbers",
     "quiz:Hangul vowels",
-    "role",
+    "card:Hangul vowels",
+    "numbers",
     "role"
    ]
   ]
@@ -37931,7 +37909,7 @@
    ""
   ]
  ],
- "todayPlan": "<div><span>Review due cards</span><small>0</small></div><div><span>New cards · Hangul vowels</span><small>5</small></div><div><span>Quick quiz</span><small>5</small></div><div><span>Reading drill</span><small>5</small></div><div><span>Polite ↔ casual</span><small>2</small></div><div><span>Role-play</span><small>1</small></div>",
+ "todayPlan": "<div><span>Review due cards</span><small>0</small></div><div><span>New cards · Hangul vowels</span><small>5</small></div><div><span>Quick quiz</span><small>4</small></div><div><span>Reading drill</span><small>4</small></div><div><span>Polite ↔ casual</span><small>1</small></div>",
  "todayQuick": "<a href=\"#practice\">Practice<small>learn 5 at a time</small></a><a href=\"#lessons\">Next lesson<small>Hangul in one sitting</small></a><a href=\"#review\">Review<small>0 due</small></a><a href=\"#read\">Hangul drill<small>type to read</small></a>",
  "qSelBoot": [
   "Survival phrases"
