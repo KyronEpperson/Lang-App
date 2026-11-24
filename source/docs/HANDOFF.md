@@ -20,13 +20,17 @@ Standing rules: Supabase publishable key only; never open, print or commit secre
 - Dialect and variety choices: ask once when it decides every card, otherwise decide and say so.
 - Replies: brief, bullets, direct. Visuals as PNG.
 
-## Released (through 2.87.0)
+## Released (through 2.92.0)
 
 Yesterday and today: ur-en, pa-en (2.78.0); yue-en in written Cantonese (2.79.0); te-en with bundled Noto Sans Telugu (2.80.0); yue-ko (2.81.0); kn-en (2.82.0); release report + audio coverage on every release (2.83.0); en-hmn (2.84.0); new cards flip on tap (2.85.0); hmn-en + Hmong interface (2.86.0).
 
 2.88.0 (new chat, 2026-11-24): **Puerto Rican Spanish for English speakers (`en-espr`)** and **English for Puerto Rican speakers (`spr-en`)**. Ten writers (nine opus, interface on sonnet: zero overrides needed), two opus cold reviews (`tools/target/espr/REVIEW.md` 14 edits, `tools/content/spr/REVIEW.md` 5 edits), e2e over all 29 + 43 lessons. Owner defaults taken: code `spr` kept, share-card word "Puerto Rico", Puerto Rican learners offered English only. `packs/HELD.txt` is now mirrored by `ship.sh` (it was missing from the repository). Vietnamese roadmap title aligned to *Lượng từ*.
 
 2.89.0 (2026-11-24): **Mandarin for Vietnamese speakers (`vi-zh`)**, the first assembled course with a non-Korean target. Four opus writers, one merge, opus cold review (`tools/halves/native/vi/zh/REVIEW.md`: 496 Hán Việt readings checked on opened pages, 0 corrected, 2 added, 0 unverified; 122 row fixes), e2e over all 28 lessons (`E2E_COURSE=vi-zh node tools/content/e2e_en.js vi <ids>`). en-zh: 咱们 now accepted on `ba-bie.12` / `.13` (target half re-exported with `--accept-moved`; proof and Korean packs byte-identical). Still `skip` (no reading shown): 苹果, 矮, 比较, 眼睛, 有空, pronouns.
+
+2.92.0 (2026-11-24): **new cards always come five at a time, then the quiz** (owner: "consistent across the whole app"). Before, a search hit, the **All** filter and topic decks queued each new card alone, so one card was shown and quizzed at once. Now one rule (`rvBatchSize` / `rvBatchQueue` in `src/app.html`) is used by the search box on Review, the search sheet, All, topic decks, the paced review flow and Today sessions: five shown, then those five asked; fewer only when fewer remain in the deck or under the daily cap; six go together so the sixth is never alone. Session sizes: quick 3 → 5 new, long 8 → 10 (standard stays 5). A search hit is pinned first in its batch (`rvPin`, kept until the first answer), and a hit in a locked deck from the search sheet now opens that deck. Guard `searchBatch5` in `harness.js`. Trainer recording (`tools/tests/golden/en-ko-trainers.json`) re-recorded: 50 differences, all in the quick and long session plans (3 → 5 and 8 → 10 new cards). Unchanged on purpose: Practice (already five then quiz) and the five-card lesson drill (flip cards, no quiz).
+
+Setting up the build home in a new chat (learned 2026-11-24): the scripts need `/home/claude` itself (make it, with `lang-app` inside or symlinked), `korean-site/` filled from the repository root (everything but `source/` and `audio/`; no link to `audio/`, the voice test writes into it), `korean-site/packs/.current` deleted before the first build, and the scratchpad folder named in `ship.sh` / `harness.js` created by hand. Running `harness.js` with `HARNESS_SRC` overwrites the shared `page.html`. The harness values `sessionSteps: 0` / `sessionDone: false` are the same before this change (that old check no longer drives the session).
 
 ## Ready to launch
 
