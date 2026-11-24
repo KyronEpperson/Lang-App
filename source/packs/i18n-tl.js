@@ -1076,7 +1076,8 @@ LANGAPP_PACKS.i18n.tl = {
     ["^New card · (\\d+)\\/(\\d+) learned$", "Bagong card · $1/$2 natutunan"],
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 para i-review · $2/$3 natutunan"],
     ["^memory lasts about (\\d+) days$", "tumatagal ang alaala nang mga $1 araw"],
-    ["^seen (\\d+) days ago$", "nakita $1 araw na ang nakalipas"]
+    ["^seen (\\d+) days ago$", "nakita $1 araw na ang nakalipas"],
+    ["^Round (\\d+) of (\\d+) · saved$", "Round $1 sa $2 · na-save"]
   ],
   road: {
     "Standard (Seoul) Korean": "Standard na Koreano (Seoul)",

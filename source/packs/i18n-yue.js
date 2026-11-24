@@ -1076,7 +1076,8 @@ LANGAPP_PACKS.i18n.yue = {
     ["^New card · (\\d+)\\/(\\d+) learned$", "新卡 · 學咗 $1/$2"],
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 張要溫習 · 學咗 $2/$3"],
     ["^memory lasts about (\\d+) days$", "記得到大約 $1 日"],
-    ["^seen (\\d+) days ago$", "$1 日前見過"]
+    ["^seen (\\d+) days ago$", "$1 日前見過"],
+    ["^Round (\\d+) of (\\d+) · saved$", "第 $1 輪，共 $2 輪 · 已儲存"]
   ],
   road: {
     "Standard (Seoul) Korean": "標準韓文（首爾）",

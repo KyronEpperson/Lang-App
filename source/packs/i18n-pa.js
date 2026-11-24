@@ -1076,7 +1076,8 @@ LANGAPP_PACKS.i18n.pa = {
     ["^New card · (\\d+)\\/(\\d+) learned$", "ਨਵਾਂ ਕਾਰਡ · ਸਿੱਖੇ: $1/$2"],
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "ਦੁਹਰਾਉਣੇ ਹਨ: $1 · ਸਿੱਖੇ: $2/$3"],
     ["^memory lasts about (\\d+) days$", "ਯਾਦ ਲਗਭਗ $1 ਦਿਨ ਰਹਿੰਦੀ ਹੈ"],
-    ["^seen (\\d+) days ago$", "$1 ਦਿਨ ਪਹਿਲਾਂ ਦੇਖਿਆ"]
+    ["^seen (\\d+) days ago$", "$1 ਦਿਨ ਪਹਿਲਾਂ ਦੇਖਿਆ"],
+    ["^Round (\\d+) of (\\d+) · saved$", "ਰਾਊਂਡ $1/$2 · ਸੇਵ ਹੋ ਗਿਆ"]
   ],
   road: {
     "General (American) English": "ਆਮ (ਅਮਰੀਕੀ) ਅੰਗਰੇਜ਼ੀ",

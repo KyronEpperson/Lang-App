@@ -995,6 +995,7 @@ LANGAPP_PACKS.i18n.ko = {
     ["^New card · (\\d+)\\/(\\d+) learned$", "새 카드 · $1/$2 익힘"],
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "복습 대기 $1 · $2/$3 익힘"],
     ["^memory lasts about (\\d+) days$", "기억 유지 약 $1일"],
-    ["^seen (\\d+) days ago$", "$1일 전에 봄"]
+    ["^seen (\\d+) days ago$", "$1일 전에 봄"],
+    ["^Round (\\d+) of (\\d+) · saved$", "라운드 $1/$2 · 저장됨"]
   ]
 };

@@ -7209,6 +7209,13 @@
    "slots": "{1}=n",
    "example": "seen 5 days ago",
    "context": "Browse, under a card: when the card was last answered. n is always 2 or more"
+  },
+  "Round {n} of {n} · saved": {
+   "t": "Putaran {1} dari {2} · tersimpan",
+   "ko": "라운드 {1}/{2} · 저장됨",
+   "slots": "{1}=n, {2}=n",
+   "example": "Round 5 of 2 · saved",
+   "context": "count slot: the translation must read correctly at 1 and at 2+"
   }
  }
 }

@@ -1076,7 +1076,8 @@ LANGAPP_PACKS.i18n.it = {
     ["^New card · (\\d+)\\/(\\d+) learned$", "Carta nuova · imparate: $1/$2"],
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "Da ripassare: $1 · imparate: $2/$3"],
     ["^memory lasts about (\\d+) days$", "la memoria dura circa $1 giorni"],
-    ["^seen (\\d+) days ago$", "vista $1 giorni fa"]
+    ["^seen (\\d+) days ago$", "vista $1 giorni fa"],
+    ["^Round (\\d+) of (\\d+) · saved$", "Round $1 di $2 · salvato"]
   ],
   road: {
     "Standard (Seoul) Korean": "Coreano standard (di Seul)",

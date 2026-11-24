@@ -1076,7 +1076,8 @@ LANGAPP_PACKS.i18n.hmn = {
     ["^New card · (\\d+)\\/(\\d+) learned$", "Card tshiab · kawm tau: $1/$2"],
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "Yuav Review: $1 · kawm tau: $2/$3"],
     ["^memory lasts about (\\d+) days$", "nco tau $1 hnub"],
-    ["^seen (\\d+) days ago$", "pom $1 hnub dhau los"]
+    ["^seen (\\d+) days ago$", "pom $1 hnub dhau los"],
+    ["^Round (\\d+) of (\\d+) · saved$", "Zaus $1 / $2 · kaw cia lawm"]
   ],
   road: {
     "General (American) English": "Lus Askiv (Amelika)",

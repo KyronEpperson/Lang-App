@@ -1008,6 +1008,7 @@
   "New card · {n}/{n} learned": "새 카드 · {1}/{2} 익힘",
   "{n} due · {n}/{n} learned": "복습 대기 {1} · {2}/{3} 익힘",
   "memory lasts about {n} days": "기억 유지 약 {1}일",
-  "seen {n} days ago": "{1}일 전에 봄"
+  "seen {n} days ago": "{1}일 전에 봄",
+  "Round {n} of {n} · saved": "라운드 {1}/{2} · 저장됨"
  }
 }

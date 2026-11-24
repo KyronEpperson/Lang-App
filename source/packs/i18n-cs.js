@@ -1076,7 +1076,8 @@ LANGAPP_PACKS.i18n.cs = {
     ["^New card · (\\d+)\\/(\\d+) learned$", "Nová kartička · naučeno: $1/$2"],
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "K opakování: $1 · naučeno: $2/$3"],
     ["^memory lasts about (\\d+) days$", "v paměti vydrží kolem $1 dní"],
-    ["^seen (\\d+) days ago$", "viděno před $1 dny"]
+    ["^seen (\\d+) days ago$", "viděno před $1 dny"],
+    ["^Round (\\d+) of (\\d+) · saved$", "Kolo $1 z $2 · uloženo"]
   ],
   road: {
     "General (American) English": "Obecná (americká) angličtina",

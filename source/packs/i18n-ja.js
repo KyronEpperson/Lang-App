@@ -1076,7 +1076,8 @@ LANGAPP_PACKS.i18n.ja = {
     ["^New card · (\\d+)\\/(\\d+) learned$", "新しいカード · $1/$2枚を覚えた"],
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "復習予定$1枚 · $2/$3枚を覚えた"],
     ["^memory lasts about (\\d+) days$", "記憶の持続：約$1日"],
-    ["^seen (\\d+) days ago$", "$1日前に出題"]
+    ["^seen (\\d+) days ago$", "$1日前に出題"],
+    ["^Round (\\d+) of (\\d+) · saved$", "ラウンド$1/$2 · 保存済み"]
   ],
   road: {
     "Standard (Seoul) Korean": "標準語（ソウル）の韓国語",

@@ -1076,7 +1076,8 @@ LANGAPP_PACKS.i18n.pl = {
     ["^New card · (\\d+)\\/(\\d+) learned$", "Nowa fiszka · poznane: $1/$2"],
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "Do powtórki: $1 · poznane: $2/$3"],
     ["^memory lasts about (\\d+) days$", "utrzyma się w pamięci około $1 dni"],
-    ["^seen (\\d+) days ago$", "widziana $1 dni temu"]
+    ["^seen (\\d+) days ago$", "widziana $1 dni temu"],
+    ["^Round (\\d+) of (\\d+) · saved$", "Runda $1 z $2 · zapisano"]
   ],
   road: {
     "General (American) English": "Angielski ogólny (amerykański)",

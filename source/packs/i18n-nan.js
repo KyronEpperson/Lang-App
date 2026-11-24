@@ -1076,7 +1076,8 @@ LANGAPP_PACKS.i18n.nan = {
     ["^New card · (\\d+)\\/(\\d+) learned$", "新卡 · $1/$2 學過"],
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 張愛複習 · $2/$3 學過"],
     ["^memory lasts about (\\d+) days$", "會記得大約 $1 工"],
-    ["^seen (\\d+) days ago$", "$1 工前看過"]
+    ["^seen (\\d+) days ago$", "$1 工前看過"],
+    ["^Round (\\d+) of (\\d+) · saved$", "第 $1 輪，總共 $2 輪 · 儲存矣"]
   ],
   road: {
     "Standard (Seoul) Korean": "標準韓語（首爾）",

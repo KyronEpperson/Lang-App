@@ -1076,7 +1076,8 @@ LANGAPP_PACKS.i18n.vi = {
     ["^New card · (\\d+)\\/(\\d+) learned$", "Thẻ mới · đã học $1/$2"],
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 cần ôn · đã học $2/$3"],
     ["^memory lasts about (\\d+) days$", "nhớ được khoảng $1 ngày"],
-    ["^seen (\\d+) days ago$", "gặp $1 ngày trước"]
+    ["^seen (\\d+) days ago$", "gặp $1 ngày trước"],
+    ["^Round (\\d+) of (\\d+) · saved$", "Lượt $1/$2 · đã lưu"]
   ],
   road: {
     "Standard (Seoul) Korean": "Tiếng Hàn chuẩn (Seoul)",

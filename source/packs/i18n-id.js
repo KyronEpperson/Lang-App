@@ -1076,7 +1076,8 @@ LANGAPP_PACKS.i18n.id = {
     ["^New card · (\\d+)\\/(\\d+) learned$", "Kartu baru · $1/$2 dipelajari"],
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 perlu diulang · $2/$3 dipelajari"],
     ["^memory lasts about (\\d+) days$", "ingatan bertahan sekitar $1 hari"],
-    ["^seen (\\d+) days ago$", "dilihat $1 hari lalu"]
+    ["^seen (\\d+) days ago$", "dilihat $1 hari lalu"],
+    ["^Round (\\d+) of (\\d+) · saved$", "Putaran $1 dari $2 · tersimpan"]
   ],
   road: {
     "Standard (Seoul) Korean": "Bahasa Korea standar (Seoul)",

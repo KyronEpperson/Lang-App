@@ -1076,7 +1076,8 @@ LANGAPP_PACKS.i18n.ceb = {
     ["^New card · (\\d+)\\/(\\d+) learned$", "Bag-ong card · $1/$2 nakat-onan"],
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 i-review · $2/$3 nakat-onan"],
     ["^memory lasts about (\\d+) days$", "molungtad ang panumdoman og mga $1 ka adlaw"],
-    ["^seen (\\d+) days ago$", "nakita $1 ka adlaw na ang milabay"]
+    ["^seen (\\d+) days ago$", "nakita $1 ka adlaw na ang milabay"],
+    ["^Round (\\d+) of (\\d+) · saved$", "Round $1 sa $2 · na-save"]
   ],
   road: {
     "Standard (Seoul) Korean": "Standard nga Koreano (Seoul)",

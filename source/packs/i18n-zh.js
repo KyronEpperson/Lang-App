@@ -1076,7 +1076,8 @@ LANGAPP_PACKS.i18n.zh = {
     ["^New card · (\\d+)\\/(\\d+) learned$", "新卡片 · 已学会 $1/$2"],
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 张待复习 · 已学会 $2/$3"],
     ["^memory lasts about (\\d+) days$", "记忆可保持约 $1 天"],
-    ["^seen (\\d+) days ago$", "$1 天前看过"]
+    ["^seen (\\d+) days ago$", "$1 天前看过"],
+    ["^Round (\\d+) of (\\d+) · saved$", "第 $1 轮，共 $2 轮 · 已保存"]
   ],
   road: {
     "Standard (Seoul) Korean": "标准韩语（首尔）",

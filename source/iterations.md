@@ -1588,3 +1588,20 @@ Harness: 135 guards pass (six new: `memOnePath`, `memSitting`, `memOldCard`, `me
 Where the build differs from the plan, or says more than it did: (1) about 10 strings became 15; (2) a first answer that is wrong counts as a missed day, so "parked after misses on 4 different days" is exact; (3) on a card's first day its strongest right answer counts, so "Got it" followed by a right pick starts where a first right pick does; (4) the personal numbers move only on cards the judge itself graded last, and only after half a day or more; (5) "right again in the same sitting adds nothing (under 1%)" holds for memories of a day or more; a memory of hours gains a few percent per repeat (1.5% at a third of a day), which never clears a miss; (6) "one answer never makes a card Memorized" holds with the starting numbers; a learner whose personal numbers have risen well above 1 can get there on the second right answer.
 
 Not tested: real learners; the weights for typed answers and "Got it" (rule tests only, the simulated learners answer by picking); the 15 strings by native speakers; real phones. Releases B and C are not started.
+
+## QF-1 — prompt
+
+Owner, 2026-11-24, with a picture of a Review question and of a Practice round result ("11 / 15 · 73%, Round 1 of 3 · 80% to pass"): "i like the format for review but the flip button doesnt work because it isnt a flash card i guess. after a finished quiz lets remove the 80% to pass and the save and exit it should auto save. lets have it add in the 5 new cards first showing what it is and then another test with the old cards mixed in but lets make it faster to the next card when a user gets it wrong. after every wrong or right answer the audio should play for the sound."
+
+### QF-1 — results (2.104.0)
+
+Edit scripts `tools/patches/quiz_flow.py` (18 guarded replacements in `src/app.html`) and `quiz_flow_i18n.py` (one pattern in 27 dictionaries). Release test `tools/tests/quizflow.js` (in `ship.sh`).
+
+- Key hints under Review: the line listed F flip, ← again and → got it, which belonged to the flip cards Review no longer shows. Now `rvKeys` shows F flip on a new card (F turns it), 1-4 on a question, and nothing in Browse or when the deck is done.
+- Audio: Review said the card after an answer only when `S.auto` was not `false`, and its default is `false`; the pick quiz never said it. Both now say the card 250 ms after every answer, whatever the Audio box says (that box is about saying a card when it appears).
+- Pace: Review moved on 2.0 s after a miss (2.6 s with a note); now 1.4 s and 1.8 s. Right answers stay at 1.3 s. The pick quiz (`renderQuizQ`: Practice, sessions, mock test) waited for a Next button after every answer; it now moves on by itself with the same times (2.6 s when a grammar "why" with a lesson link shows), a tap moves on at once, the speaker button or a link holds the card, and "Go to the next card automatically" off brings the button back.
+- Practice, learn 5 at a time: no 80% pass mark and no "Save & exit". The place (`S.learnPos`) is saved when a round's quiz ends, whatever the score; the result offers "Next 5 cards", and below it "Review these 5 again" and "Retry quiz" when something was missed (neither moves the place again). The order was already five new cards shown, then a quiz with the earlier cards mixed in; that is kept. Tapping the Practice tab during a quiz returns to the deck picker.
+
+Decisions taken without asking: a round always counts; missed cards are left to the judge and to the next rounds' mix. The other result screens (Weak spots, Mix, Polite ↔ casual) keep "80% to pass": they gate nothing.
+
+Not tested: real phones; how long clips sound when the next card arrives after 1.3 to 1.8 s (a long sentence can be cut off); the 27 "saved" words by native speakers.

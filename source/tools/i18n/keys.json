@@ -11,8 +11,8 @@
  },
  "counts": {
   "exact": 797,
-  "patterns": 277,
-  "distinctPatternTemplates": 276
+  "patterns": 278,
+  "distinctPatternTemplates": 277
  },
  "exact": [
   {
@@ -249,14 +249,14 @@
    "key": "again ·",
    "kind": "fragment",
    "section": "review tab (static)",
-   "where": "html text",
+   "where": "not verbatim in src/app.html (assembled at runtime)",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing"
   },
   {
    "key": "got it ·",
    "kind": "fragment",
    "section": "review tab (static)",
-   "where": "html text",
+   "where": "not verbatim in src/app.html (assembled at runtime)",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing"
   },
   {
@@ -2267,13 +2267,13 @@
    "key": "Review these 5 again",
    "kind": "label",
    "section": "quiz / practice flow",
-   "where": "js b()"
+   "where": "js b() <qs>"
   },
   {
    "key": "Retry quiz",
    "kind": "label",
    "section": "quiz / practice flow",
-   "where": "js b()",
+   "where": "js b() <qs>",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -9993,6 +9993,24 @@
    ],
    "regex": "^seen (\\d+) days ago$",
    "example": "seen 5 days ago",
+   "section": "added",
+   "context": "count slot: the translation must read correctly at 1 and at 2+"
+  },
+  {
+   "id": "Round {n} of {n} · saved",
+   "template": "Round {n} of {n} · saved",
+   "slots": [
+    {
+     "n": 1,
+     "type": "n"
+    },
+    {
+     "n": 2,
+     "type": "n"
+    }
+   ],
+   "regex": "^Round (\\d+) of (\\d+) · saved$",
+   "example": "Round 5 of 2 · saved",
    "section": "added",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   }

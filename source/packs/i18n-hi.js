@@ -1076,7 +1076,8 @@ LANGAPP_PACKS.i18n.hi = {
     ["^New card · (\\d+)\\/(\\d+) learned$", "नया कार्ड · सीखे गए: $1/$2"],
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "दोहराने हैं: $1 · सीखे गए: $2/$3"],
     ["^memory lasts about (\\d+) days$", "याद क़रीब $1 दिन टिकती है"],
-    ["^seen (\\d+) days ago$", "$1 दिन पहले देखा"]
+    ["^seen (\\d+) days ago$", "$1 दिन पहले देखा"],
+    ["^Round (\\d+) of (\\d+) · saved$", "राउंड $1/$2 · सेव हो गया"]
   ],
   road: {
     "Standard (Seoul) Korean": "मानक (सियोल) कोरियाई",

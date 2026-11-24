@@ -14,6 +14,7 @@ node tools/tests/lessonread.js > /tmp/claude-0/lessonread.out 2>&1 || { echo 'LE
 node tools/tests/flagcheck.js || { echo 'FLAG CHECK FAIL'; exit 1; }
 node tools/tests/trainers-golden.js > /tmp/claude-0/golden.out 2>&1 || { echo 'TRAINER BASELINE CHANGED'; tail -5 /tmp/claude-0/golden.out; exit 1; }; echo "trainer baseline: $(tail -1 /tmp/claude-0/golden.out)"
 node tools/tests/memjudge.js > /tmp/claude-0/memjudge.out 2>&1 || { echo 'MEMORY JUDGE TEST FAIL'; grep -v '^PASS' /tmp/claude-0/memjudge.out | head -20; exit 1; }; echo "memory judge: $(tail -1 /tmp/claude-0/memjudge.out)"
+node tools/tests/quizflow.js > /tmp/claude-0/quizflow.out 2>&1 || { echo 'QUIZ FLOW TEST FAIL'; grep -v '^PASS' /tmp/claude-0/quizflow.out | head -20; exit 1; }; echo "quiz flow: $(grep -c '^PASS' /tmp/claude-0/quizflow.out) pass"
 node tools/tests/kograde.js > /tmp/claude-0/kograde.out 2>&1 || { echo 'KOREAN GRADING TEST FAIL'; grep -v '^PASS' /tmp/claude-0/kograde.out | head -20; exit 1; }; echo "korean grading: $(tail -1 /tmp/claude-0/kograde.out)"
 node tools/tests/voicetest.js > /tmp/claude-0/voice.out 2>&1 || { echo 'VOICE TEST FAIL'; grep -v '^PASS' /tmp/claude-0/voice.out | head -20; exit 1; }; echo "voice test: $(grep -c '^PASS' /tmp/claude-0/voice.out) pass"
 node tools/tests/nametest.js > /tmp/claude-0/name.out 2>&1 || { echo 'NAME TEST FAIL'; grep -v '^PASS' /tmp/claude-0/name.out | head -20; exit 1; }; echo 'name token: OK'
@@ -26,4 +27,4 @@ cd lang-app && git add -A && git -c user.name="Kyron Epperson" -c user.email="ep
 $3
 
 Co-Authored-By: Claude Fable 5.2 <noreply@anthropic.com>
-Claude-Session: https://claude.ai/code/session_01DWtPfutzfBygkE7dSvNTBm" && git push origin HEAD:main 2>&1 | tail -1
+Claude-Session: https://claude.ai/code/session_01DWtPfthpRkTrJKR2i3nZpS" && git push origin HEAD:main 2>&1 | tail -1
