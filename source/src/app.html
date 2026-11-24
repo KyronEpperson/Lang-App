@@ -562,7 +562,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.90.0 · 2026-11-24';
+const APP_VERSION='2.91.0 · 2026-11-24';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -2911,7 +2911,7 @@ function bugBadge(){ fbNavDot(); const b=$('bugBtn'); if(!b) return; let n=0; tr
 let lastAns=null; function noteAns(got,want,ok,almost){ lastAns={got:String(got==null?'':got).slice(0,80),want:String(want==null?'':want).slice(0,80),ok:!!ok,almost:!!almost,at:Date.now()}; }
 function ansLine(){ if(!lastAns||Date.now()-lastAns.at>180000) return ''; return 'answered “'+lastAns.got+'” · expected “'+lastAns.want+'” · marked '+(lastAns.ok?(lastAns.almost?'almost':'right'):'wrong'); }
 /* one-tap reasons by place: [label, type] */
-function bugReasons(key){ const card=/^(review\/|today\/session|lessons\/[^/]+\/practice)/.test(key); if(card) return [['Wrong translation','content'],['Wrong pronunciation line','content'],['Audio is wrong or missing','bug'],['Typo','content'],['My answer was marked wrong','bug']]; if(/^lessons\/[^/]+$/.test(key)) return [['Explanation is unclear','content'],['Mistake in the lesson','content'],['Typo','content']]; return [['Something does not work','bug'],['Looks broken on my screen','bug'],['Confusing','idea']]; }
+function bugReasons(key){ const card=/^(review\/|today\/session|lessons\/[^/]+\/practice)/.test(key); if(card) return [['Wrong translation','content'],['Wrong pronunciation line','content'],['Audio is wrong or missing','bug'],['Typo','content'],['My answer was marked wrong','bug']]; if(/^lessons\/[^/]+$/.test(key)) return [['Explanation is unclear','content'],['Mistake in the lesson','content'],['Typo','content'],['Needs audio / check pronunciation','content']]; return [['Something does not work','bug'],['Looks broken on my screen','bug'],['Confusing','idea'],['Needs audio / check pronunciation','content']]; }
 function bugDraft(key,v){ try{ let d=JSON.parse(localStorage.getItem('la-bugdraft')||'null'); if(v===undefined) return d&&d.key===key&&typeof d.m==='string'?d:null; if(v===null||!v.m){ if(!d||d.key===key) localStorage.removeItem('la-bugdraft'); } else localStorage.setItem('la-bugdraft',JSON.stringify({key,m:String(v.m).slice(0,1500),k:v.k})); }catch(e){} return null; }
 function openBug(){ closeSheet(); const c=pageCtx(); const sh=document.createElement('div'); sh.className='sheet'; sh.id='bugSheet'; sh.setAttribute('role','dialog'); sh.setAttribute('aria-modal','true'); sh.setAttribute('aria-label','Report a problem on this page');
   const nm=fbName();
