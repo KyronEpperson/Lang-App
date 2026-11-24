@@ -1,0 +1,168 @@
+{
+ "code": "jv",
+ "name": "Javanese",
+ "self": "Basa Jawa",
+ "variant": "Central Javanese of Surakarta (Solo) and Yogyakarta, the prestige standard taught in schools; ngoko (the plain level used with friends and family) is taught first, then krama (the polite level for elders and strangers) with the most common krama inggil (honorific) words; written in Latin script with modern Indonesian-based spelling (dh, th, é / è); Aksara Jawa is not taught",
+ "variant_ko": "수라카르타(솔로)·족자카르타의 중부 자와어, 학교에서 가르치는 표준입니다. 친구와 가족에게 쓰는 평어 응오코(ngoko)를 먼저 배우고, 어른과 처음 보는 사람에게 쓰는 경어 크라마(krama)와 자주 쓰는 높임말 크라마 잉길(krama inggil)을 이어서 배웁니다. 인도네시아어식 현대 로마자 철자(dh, th, é / è)로 쓰며 자와 문자는 다루지 않습니다",
+ "voice": "jv-ID",
+ "script": "Latin script, left to right, in the modern spelling based on Indonesian: dh and th for the retroflex stops (against dental d and t), ng and ny, é and è for the two e sounds beside plain e for schwa; Aksara Jawa (Hanacaraka) is mentioned but not taught",
+ "basis": "Elinor Clark Horne, Beginning Javanese (Yale University Press, 1961), the classic course for English speakers, which teaches the speech of Central Java; with the register plan of ANU's Modern Javanese course (spoken Javanese of the Yogyakarta-Solo region, practising both ngoko and krama). Horne's contents were not seen, so the order is a CEFR-style A1 progression: ngoko first, then krama",
+ "basis_ko": "Elinor Clark Horne, Beginning Javanese (예일대 출판부, 1961), 영어 화자를 위한 고전적 교재로 중부 자와 말을 가르칩니다. 여기에 호주국립대(ANU) Modern Javanese 과정의 경어 계획(족자카르타·솔로 지역 구어, 응오코와 크라마를 모두 연습)을 더했습니다. Horne의 목차는 확인하지 못해, 순서는 응오코 먼저, 그다음 크라마로 가는 CEFR식 A1 진행입니다",
+ "src": [
+  "Search-result records for Elinor C. Horne, Beginning Javanese (New Haven: Yale University Press, 1961; xxxiii + 560 pages), seen as a Journal of Asian Studies review entry on Cambridge Core, a WALS reference entry and a Glottolog reference on 2026-11-24. The book and the review were not opened",
+  "Australian National University, Programs and Courses, JAVA6005 Modern Javanese A (2015), read through a fetch summary: an introduction to practical mastery of spoken Javanese of the Yogyakarta-Solo region; both ngoko (low) and krama (high) levels practised; drills, role-plays. No textbook named"
+ ],
+ "note": "Neither source gave a lesson list, so the order is my own judgment and common course practice: sounds and the idea of speech levels first, a full ngoko stage, then krama as a set of replacements for words already learned, then everyday situations where krama is expected (market, asking the way). Every Javanese form in the titles and the Korean titles are from my own knowledge, in Solo / Yogyakarta krama (menika, menapa, boten / mboten, badhe, sampun). Spelling of some words varies (mboten / boten, menapa / napa, mangga / monggo); writers should pick one and keep it. pripun (in Pripun kabaripun? and the krama question lesson) is very common in polite Solo / Yogyakarta speech but is sometimes classed as krama madya, with kados pundi as the full krama form; writers must decide with a speaker whether to teach kados pundi instead. Krama madya as a separate level and East Javanese or Banyumasan speech are not taught. Voice: jv-ID is the BCP-47 tag; device voice support was not checked. Writers must check every Javanese form with a first-language speaker from Solo or Yogyakarta.",
+ "hardest": [
+  "Speech levels: the same sentence in ngoko and krama uses different words (Arep mangan apa? / Badhe nedha menapa?), and krama inggil words are never used about yourself",
+  "Retroflex dh and th against dental d and t, and final a said like the o in 'law' (sega, lara)",
+  "The nasal prefix that changes a verb's first sound (tulis → nulis, sapu → nyapu, kirim → ngirim)",
+  "No tense: time is shown with wis, lagi, arep and durung"
+ ],
+ "stages": [
+  {
+   "en": "Sounds, greetings and speech levels",
+   "ko": "소리, 인사, 말의 등급",
+   "items": [
+    [
+     "jv-sounds",
+     "Sounds and spelling: dh and th, é and è, and final a said like o (sega, lara)",
+     "소리와 철자: dh와 th, é와 è, 끝소리 a를 '오'처럼 읽기(sega, lara)"
+    ],
+    [
+     "jv-greetings",
+     "Greetings: Sugeng enjing, Piye kabare? and Pripun kabaripun?, Matur nuwun",
+     "인사: Sugeng enjing, Piye kabare?와 Pripun kabaripun?, Matur nuwun"
+    ],
+    [
+     "jv-levels",
+     "Speech levels: ngoko with friends, krama with elders and strangers, krama inggil for respect",
+     "말의 등급: 친구에게 응오코, 어른과 낯선 사람에게 크라마, 존경을 나타내는 크라마 잉길"
+    ]
+   ]
+  },
+  {
+   "en": "Ngoko: everyday Javanese",
+   "ko": "응오코: 일상 자와어",
+   "items": [
+    [
+     "jv-intro",
+     "Introducing yourself in ngoko: Jenengku …, Jenengmu sapa?",
+     "응오코로 자기소개: Jenengku …, Jenengmu sapa?"
+    ],
+    [
+     "jv-pronouns",
+     "Ngoko pronouns: aku, kowe, dheweke; -ku and -mu",
+     "응오코 대명사: aku, kowe, dheweke; -ku와 -mu"
+    ],
+    [
+     "jv-this-that",
+     "This and that: iki, kuwi, kae; Iki apa?",
+     "이것과 저것: iki, kuwi, kae; Iki apa?"
+    ],
+    [
+     "jv-ora",
+     "Yes, no and not: iya, ora, dudu",
+     "예, 아니요, 부정: iya, ora, dudu"
+    ],
+    [
+     "jv-questions",
+     "Question words: apa, sapa, ngendi, kapan, pira, kenapa, piye",
+     "의문사: apa, sapa, ngendi, kapan, pira, kenapa, piye"
+    ],
+    [
+     "jv-numbers",
+     "Numbers and prices: siji, loro, telu … sepuluh, selawe, seket; Pira regane?",
+     "숫자와 가격: siji, loro, telu … sepuluh, selawe, seket; Pira regane?"
+    ],
+    [
+     "jv-ana",
+     "There is and family: ana / ora ana; bapak, ibu, mas, mbak, adhik",
+     "있다와 가족: ana / ora ana; bapak, ibu, mas, mbak, adhik"
+    ],
+    [
+     "jv-verbs",
+     "Verbs and the nasal prefix: mangan, ngombe, turu; tulis → nulis, sapu → nyapu",
+     "동사와 비음 접두사: mangan, ngombe, turu; tulis → nulis, sapu → nyapu"
+    ],
+    [
+     "jv-time-words",
+     "Time without tense: wis, lagi, arep, durung",
+     "시제 없이 때 말하기: wis, lagi, arep, durung"
+    ],
+    [
+     "jv-place",
+     "Place and movement: ing / neng, menyang, saka; Arep menyang ngendi?",
+     "장소와 이동: ing / neng, menyang, saka; Arep menyang ngendi?"
+    ],
+    [
+     "jv-want-like",
+     "Wants and likes: pengin, seneng, ora seneng",
+     "원함과 좋아함: pengin, seneng, ora seneng"
+    ]
+   ]
+  },
+  {
+   "en": "Krama: polite Javanese",
+   "ko": "크라마: 공손한 자와어",
+   "items": [
+    [
+     "jv-krama-basics",
+     "Krama basics: kula, panjenengan, menika, boten",
+     "크라마 기초: kula, panjenengan, menika, boten"
+    ],
+    [
+     "jv-krama-intro",
+     "Introducing yourself politely: Nami kula …, Asmanipun sinten?",
+     "공손하게 자기소개: Nami kula …, Asmanipun sinten?"
+    ],
+    [
+     "jv-krama-questions",
+     "Krama questions: menapa, sinten, pundi, pinten, pripun",
+     "크라마 의문사: menapa, sinten, pundi, pinten, pripun"
+    ],
+    [
+     "jv-krama-verbs",
+     "Krama verbs and time words: nedha, kesah, wonten, sampun, badhe",
+     "크라마 동사와 때를 나타내는 말: nedha, kesah, wonten, sampun, badhe"
+    ],
+    [
+     "jv-krama-inggil",
+     "Krama inggil: words for others, never for yourself (dhahar, tindak, asma, sare)",
+     "크라마 잉길: 남에게만 쓰고 자신에게는 쓰지 않는 말(dhahar, tindak, asma, sare)"
+    ]
+   ]
+  },
+  {
+   "en": "Everyday situations",
+   "ko": "일상 상황",
+   "items": [
+    [
+     "jv-market",
+     "At the market in krama: Pinten reginipun?, kalih, tiga; Saged kirang?",
+     "시장에서 크라마로: Pinten reginipun?, kalih, tiga; Saged kirang?"
+    ],
+    [
+     "jv-food",
+     "Eating and drinking: sega, wedang; Arep mangan apa? / Badhe dhahar menapa?",
+     "먹고 마시기: sega, wedang; Arep mangan apa? / Badhe dhahar menapa?"
+    ],
+    [
+     "jv-time",
+     "Time and days: jam pira?, Senin, sesuk / benjing; the five market days (Legi, Pahing, Pon, Wage, Kliwon)",
+     "시간과 요일: jam pira?, Senin, sesuk / benjing; 다섯 장날(Legi, Pahing, Pon, Wage, Kliwon)"
+    ],
+    [
+     "jv-directions",
+     "Asking the way: Nyuwun sewu, … wonten pundi?; ngiwa, nengen, terus",
+     "길 묻기: Nyuwun sewu, … wonten pundi?; ngiwa, nengen, terus"
+    ],
+    [
+     "jv-requests",
+     "Requests and commands: mangga, tulung, aja",
+     "부탁과 명령: mangga, tulung, aja"
+    ]
+   ]
+  }
+ ]
+}

@@ -12,14 +12,22 @@ const fs = require('fs'), path = require('path');
 const L = require('./lib.js');
 const { loadHalves, assemble } = require('./assemble.js');
 
-const [nat, tgt] = process.argv.slice(2);
-if (!nat || !tgt) { console.error('usage: node tools/halves/validate.js <native> <target>'); process.exit(2); }
+const [nat, tgt] = process.argv.slice(2).filter(a => !a.startsWith('--'));
+if (!nat || !tgt) { console.error('usage: node tools/halves/validate.js <native> <target> [--all]'); process.exit(2); }
 const DIR = process.env.HALVES_DIR || L.HALVES;
 const H = loadHalves(nat, tgt, DIR), E = nat === 'en' ? H : loadHalves('en', tgt, DIR);
 const t = H.t, n = H.n, en = E.n;
+const TC = L.target(tgt), RUNS = TC.runs, SCRIPT = TC.script; /* protected runs: Hangul for ko, Han characters for zh (lib.js TARGETS) */
 const errors = [], warns = [];
 const err = (w, m) => errors.push(w + ': ' + m), warn = (w, m) => warns.push(w + ': ' + m);
 const META = new Set(['id', '_note', '_waive']); /* translator comment / waiver: ignored by assembly */
+const EXTRA = { cards: new Set(TC.cardExtras || []) }; /* native-only fields a target allows beyond the English ones (zh: hv, hvUse, trad); assembly ignores them */
+/* zh: where a native string may ADD Han runs the English lacks (Traditional forms next to a Hán Việt reading): card notes (only runs inside the row's "trad"),
+   and, as a warning listed for the reviewer, lesson bodies, deck descriptions, pattern meanings and explanations. Everywhere else an added run is an error
+   (a prompt or a gloss with extra Chinese changes the task). Korean keeps strict set-equality. */
+const ADD_OK = tgt === 'ko' ? {} : { 'cards.note': 'trad', 'decks.desc': 'warn', 'patterns.meaning': 'warn', 'checks.why': 'warn', 'practice.why': 'warn', body: 'warn' };
+const CARD_TEXT = new Map(t.cards.map(c => [c.id, c[TC.field]])); /* a card note may print the card's own characters (one by one, next to their readings) */
+const PIN_WORD = /[A-Za-zÀ-ɏü]*[āēīōūǖǎěǐǒǔǚ][A-Za-zÀ-ɏüāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]*/g; /* pinyin words with a macron or caron: Vietnamese never writes those marks */
 const waived = (r, what) => Array.isArray(r && r._waive) && r._waive.includes(what);
 
 /* ---------- expected ids per native file, from the target half ---------- */
@@ -38,12 +46,17 @@ const tIx = { checks: L.byId(t.checks), practice: L.byId(t.practice) };
 
 /* ---------- field checks ---------- */
 const strs = v => v == null ? [] : Array.isArray(v) ? v.filter(x => x != null).map(String) : [String(v)];
-function checkText(where, f, v, ref, row) {
+function checkText(where, f, v, ref, row, file) {
   if (typeof v !== 'string') return;
-  const a = L.hangulSet(v), b = L.hangulSet(ref);
+  const a = RUNS(v), b = RUNS(ref);
   const sa = [...new Set(a)].sort().join('\u0001'), sb = [...new Set(b)].sort().join('\u0001');
-  if (sa !== sb) { const miss = [...new Set(b)].filter(x => !a.includes(x)), extra = [...new Set(a)].filter(x => !b.includes(x)); (waived(row, 'hangul') ? warn : err)(where + '.' + f, 'Hangul differs from the English' + (miss.length ? ' · missing ' + miss.join(' ') : '') + (extra.length ? ' · extra ' + extra.join(' ') : '')); }
-  else if (a.length !== b.length) warn(where + '.' + f, 'Hangul run count ' + a.length + ' vs English ' + b.length);
+  if (sa !== sb) { const miss = [...new Set(b)].filter(x => !a.includes(x)), extra = [...new Set(a)].filter(x => !b.includes(x));
+    const pol = ADD_OK[(file || '') + '.' + f.replace(/\[\d+\]$/, '')];
+    if (!miss.length && pol === 'trad' && extra.every(x => String(row && row.trad || '').includes(x) || String(CARD_TEXT.get(row && row.id) || '').includes(x))) { /* the card's own characters, or its Traditional form from "trad": allowed */ }
+    else if (!miss.length && pol === 'warn') warn(where + '.' + f, 'adds ' + SCRIPT + ' not in the English: ' + extra.join(' ') + ' (reviewer: check every added character)');
+    else (waived(row, 'hangul') ? warn : err)(where + '.' + f, SCRIPT + ' differs from the English' + (miss.length ? ' · missing ' + miss.join(' ') : '') + (extra.length ? ' · extra ' + extra.join(' ') : '') + (pol === 'trad' && !miss.length ? ' (a card note may add only the card\'s own characters and the Traditional form written in this row\'s "trad")' : '')); }
+  else if (a.length !== b.length) warn(where + '.' + f, SCRIPT + ' run count ' + a.length + ' vs English ' + b.length);
+  if (tgt === 'zh') { const pw = [...new Set(String(ref).match(PIN_WORD) || [])].filter(x => !String(v).includes(x)); if (pw.length) warn(where + '.' + f, 'pinyin from the English not found here: ' + pw.join(' ')); }
   const us = s => (String(s).match(/_{2,}/g) || []).join(' ');
   if (us(v) !== us(ref)) err(where + '.' + f, 'blank placeholder (__ / ___) changed: "' + us(ref) + '" → "' + us(v) + '"');
   if (/\{\{|\}\}/.test(v) || /\{\{|\}\}/.test(ref) && f !== 'body') err(where + '.' + f, 'token braces {{ }} are not allowed in this field');
@@ -61,18 +74,18 @@ Object.keys(expect).forEach(f => {
     if (seen.has(r.id)) err(w, 'duplicate id'); seen.add(r.id);
     if (!set.has(r.id)) return err(w, 'orphan: no such id in the target half');
     const ref = enIx[f].get(r.id) || {};
-    Object.keys(r).forEach(k => { if (!META.has(k) && !(k in ref)) err(w, 'field "' + k + '" is not a native field here (allowed: ' + Object.keys(ref).filter(x => x !== 'id').join(', ') + ')'); });
+    Object.keys(r).forEach(k => { if (!META.has(k) && !(k in ref) && !(EXTRA[f] && EXTRA[f].has(k))) err(w, 'field "' + k + '" is not a native field here (allowed: ' + Object.keys(ref).filter(x => x !== 'id').concat(EXTRA[f] ? [...EXTRA[f]] : []).join(', ') + ')'); });
     let good = true;
     Object.keys(ref).forEach(k => {
       if (k === 'id') return;
       const rv = ref[k], v = r[k];
       if (Array.isArray(rv)) { /* option slots: null where the target half holds a Korean option */
         if (!Array.isArray(v) || v.length !== rv.length) { err(w + '.' + k, 'must be an array of ' + rv.length + ' slots like the English'); good = false; return; }
-        rv.forEach((x, j) => { if (x == null && v[j] != null) err(w + '.' + k + '[' + j + ']', 'slot holds a Korean option from the target half: leave it null'); if (x != null && !String(v[j] || '').trim()) { err(w + '.' + k + '[' + j + ']', 'empty'); good = false; } if (x != null && v[j] != null) checkText(w, k + '[' + j + ']', v[j], x, r); });
+        rv.forEach((x, j) => { if (x == null && v[j] != null) err(w + '.' + k + '[' + j + ']', 'slot holds a ' + TC.name + ' option from the target half: leave it null'); if (x != null && !String(v[j] || '').trim()) { err(w + '.' + k + '[' + j + ']', 'empty'); good = false; } if (x != null && v[j] != null) checkText(w, k + '[' + j + ']', v[j], x, r, f); });
         return;
       }
       if (String(rv == null ? '' : rv).trim() && !String(v == null ? '' : v).trim()) { err(w + '.' + k, 'empty'); good = false; return; }
-      checkText(w, k, v, rv, r);
+      checkText(w, k, v, rv, r, f);
     });
     if (good) ok++;
   });
@@ -84,14 +97,14 @@ Object.keys(expect).forEach(f => {
 n.checks.forEach(r => { const tr = tIx.checks.get(r.id); if (!tr) return; if ((tr.o || []).some(x => x == null) && !Array.isArray(r.o)) err('checks:' + r.id + '.o', 'prose options missing'); });
 n.practice.forEach(r => {
   const tr = tIx.practice.get(r.id); if (!tr) return; const w = 'practice:' + r.id;
-  ['q', 'p', 'why', 'hint'].forEach(k => { if (typeof r[k] === 'string' && r[k].length + (k === 'hint' && tr.hint ? tr.hint.ko.length + (tr.hint.sep || '').length : 0) > 400) err(w + '.' + k, 'longer than 400 characters: the app truncates it'); });
+  ['q', 'p', 'why', 'hint'].forEach(k => { if (typeof r[k] === 'string' && r[k].length + (k === 'hint' && tr.hint ? String(tr.hint[TC.field] || '').length + (tr.hint.sep || '').length : 0) > 400) err(w + '.' + k, 'longer than 400 characters: the app truncates it'); });
   (r.o || []).forEach((o, j) => { if (o != null && String(o).length > 200) err(w + '.o[' + j + ']', 'option longer than 200 characters'); });
 });
 n.dialog.forEach(r => { const ref = enIx.dialog.get(r.id); if (ref && typeof r.tr === 'string' && (r.tr.split(' / ').length !== ref.tr.split(' / ').length)) err('dialog:' + r.id + '.tr', 'keep one " / " between the two lines (' + (ref.tr.split(' / ').length - 1) + ' in English)'); });
-n.sentences.forEach(r => { if (/[{}]/.test(r.gloss || '')) err('sentences:' + r.id + '.gloss', 'braces are not allowed in an example gloss'); });
+n.sentences.forEach(r => { if (/[{}]/.test(r.gloss || '')) err('sentences:' + r.id + '.gloss', 'braces are not allowed in an example gloss'); if (tgt !== 'ko' && /\|/.test(r.gloss || '')) err('sentences:' + r.id + '.gloss', '"|" is not allowed in an example gloss: the assembled {{ex:text|pron|gloss}} token is split on it'); });
 
 /* deck labels: become object keys in the pack */
-const labels = new Map(); n.decks.forEach(r => { const l = String(r.label || '').trim(); if (!l) return; if (l === 'My phrases') err('decks:' + r.id + '.label', 'reserved: the runtime adds its own "My phrases" deck'); if (labels.has(l)) err('decks:' + r.id + '.label', 'duplicate deck label "' + l + '" (also ' + labels.get(l) + ')'); labels.set(l, r.id); if (/^Hangul|^Pronunciation/.test(l) && nat !== 'en') warn('decks:' + r.id + '.label', 'starts with Hangul/Pronunciation: the runtime treats such decks as letter decks when features.script is on'); });
+const labels = new Map(); n.decks.forEach(r => { const l = String(r.label || '').trim(); if (!l) return; if (l === 'My phrases') err('decks:' + r.id + '.label', 'reserved: the runtime adds its own "My phrases" deck'); if (labels.has(l)) err('decks:' + r.id + '.label', 'duplicate deck label "' + l + '" (also ' + labels.get(l) + ')'); labels.set(l, r.id); if (tgt === 'ko' && /^Hangul|^Pronunciation/.test(l) && nat !== 'en') warn('decks:' + r.id + '.label', 'starts with Hangul/Pronunciation: the runtime treats such decks as letter decks when features.script is on'); });
 const gnames = new Set(); n.groups.forEach(r => { if (gnames.has(r.name)) warn('groups:' + r.id, 'duplicate group name'); gnames.add(r.name); });
 
 /* ---------- lesson bodies ---------- */
@@ -110,9 +123,12 @@ t.lessons.forEach(l => {
   tk.forEach(x => { const m = x.match(/^\{\{(ex|strokes):([^}]*)\}\}$/); if (!m) { err(w, 'unknown token ' + x); good = false; return; } if (m[1] === 'ex') { if (!senIds.has(m[2])) { err(w, 'token ' + x + ' does not resolve to a target sentence'); good = false; } usedSen.add(m[2]); } });
   if (tk.join('') !== tr.join('')) { err(w, 'tokens differ from the English body (same tokens, same order required): ' + tk.length + ' vs ' + tr.length); good = false; }
   if (/\{\{(?![a-z]+:[^}]*\}\})|(^|[^}])\}\}/.test(h.replace(L.TOKEN_RX, ''))) { err(w, 'broken token braces'); good = false; }
-  const a = [...new Set(L.hangulSet(h.replace(L.TOKEN_RX, ' ')))].sort().join(' '), b = [...new Set(L.hangulSet(ref.replace(L.TOKEN_RX, ' ')))].sort().join(' ');
+  const a = [...new Set(RUNS(h.replace(L.TOKEN_RX, ' ')))].sort().join(' '), b = [...new Set(RUNS(ref.replace(L.TOKEN_RX, ' ')))].sort().join(' ');
   const lw = waived(L.byId(n.lessons).get(l.id), 'hangul');
-  if (a !== b) { const A = a.split(' '), B = b.split(' '); (lw ? warn : err)(w, 'Hangul differs from the English' + ' · missing ' + B.filter(x => x && !A.includes(x)).join(' ') + ' · extra ' + A.filter(x => x && !B.includes(x)).join(' ') + (lw ? ' (waived on lessons:' + l.id + ')' : '')); if (!lw) good = false; }
+  if (a !== b) { const A = a.split(' '), B = b.split(' '), missB = B.filter(x => x && !A.includes(x)), extraA = A.filter(x => x && !B.includes(x));
+    if (!missB.length && ADD_OK.body === 'warn') warn(w, 'adds ' + SCRIPT + ' not in the English: ' + extraA.join(' ') + ' (reviewer: check every added character)');
+    else { (lw ? warn : err)(w, SCRIPT + ' differs from the English' + ' · missing ' + missB.join(' ') + ' · extra ' + extraA.join(' ') + (lw ? ' (waived on lessons:' + l.id + ')' : '')); if (!lw) good = false; } }
+  if (tgt === 'zh') { const pw = [...new Set(ref.replace(L.TOKEN_RX, ' ').match(PIN_WORD) || [])].filter(x => !h.includes(x)); if (pw.length) warn(w, 'pinyin from the English not found here: ' + pw.slice(0, 12).join(' ') + (pw.length > 12 ? ' …' : '')); }
   if (CLEAN_TAGS.test(h)) { err(w, 'contains a tag the pack path strips: ' + h.match(CLEAN_TAGS)[0]); good = false; }
   if (ON_ATTR.test(h)) { err(w, 'contains text the pack path would cut as an event attribute: "' + h.match(ON_ATTR)[0].trim() + '" (e.g. " once = …"); rephrase'); good = false; }
   if (/javascript:/i.test(h)) { err(w, 'contains "javascript:"'); good = false; }
@@ -127,7 +143,8 @@ counts['lessons/*.html'] = { target: t.lessons.length, native: files.length, com
 const nc = n.course;
 if (!nc.name || !String(nc.name).trim()) err('course.json', 'name (the course name in the learner language) is empty');
 if (nc.native && nc.native !== nat) err('course.json', 'native is "' + nc.native + '", expected "' + nat + '"');
-Object.keys(nc).forEach(k => { if (!['native', 'name', 'brand', 'tuned', '_note'].includes(k)) err('course.json', 'unknown field ' + k); });
+Object.keys(nc).forEach(k => { if (!['native', 'name', 'brand', 'tuned', 'readings', '_note'].includes(k)) err('course.json', 'unknown field ' + k); });
+if (nc.readings != null && !(nc.readings === 'hanviet' && tgt === 'zh')) err('course.json', 'readings: only "hanviet" (Vietnamese readings of a Chinese course) is defined');
 if (n.ui && (typeof n.ui !== 'object' || Array.isArray(n.ui))) err('ui.json', 'must be an object {"English UI string": "translation"}');
 else Object.entries(n.ui || {}).forEach(([k, v]) => { if (typeof v !== 'string' || !v.trim()) err('ui.json', 'empty value for "' + k + '"'); });
 let pack = null;
@@ -232,13 +249,53 @@ if (tgt === 'ko' && ET && NT) {
   }
 } else if (tgt === 'ko' && ET && !NT) warn('trainer.json', 'absent: every Korean trainer stays off for this course');
 
+/* ---------- Hán Việt readings (zh target, native course.json "readings": "hanviet"; docs/briefs/vi-zh-design.md §5) ----------
+   Card rows carry hv (one Vietnamese syllable per Han character, in order), hvUse (same | shifted | none | skip) and, optionally, trad (the Traditional form,
+   only when it differs and the note prints it). No offline dictionary exists here, so the validator checks form and consistency, never the reading itself:
+   that is the writers' and the reviewer's job (web search, never a guess). */
+const hvStat = { required: 0, decided: 0, readings: 0, polyphones: [] };
+if (tgt === 'zh') {
+  const HANONLY = /^[㐀-䶿一-鿿豈-﫿]{1,4}$/, VSYL = /^[a-zàáảãạăằắẳẵặâầấẩẫậđèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵ]+$/i;
+  const hanChars = z => (String(z).match(/[㐀-䶿一-鿿豈-﫿]/g) || []);
+  const nIx = L.byId(n.cards), byChar = new Map(), need = nc.readings === 'hanviet';
+  t.cards.forEach(tc => {
+    const z = tc.zh, req = need && HANONLY.test(z); if (req) hvStat.required++;
+    const r = nIx.get(tc.id); if (!r) return; const w = 'cards:' + tc.id, hc = hanChars(z);
+    const has = k => r[k] != null && String(r[k]).trim() !== '';
+    if (!need && !has('hv') && !has('hvUse') && !has('trad')) return;
+    if (has('hvUse') && !['same', 'shifted', 'none', 'skip'].includes(r.hvUse)) err(w + '.hvUse', 'must be same, shifted, none or skip');
+    if (req && !has('hvUse')) err(w + '.hvUse', 'missing: decide for ' + z + ' (same / shifted / none, with hv; or skip)');
+    if (req && has('hvUse')) hvStat.decided++;
+    if (has('hvUse') && r.hvUse !== 'skip' && !has('hv')) err(w + '.hv', 'missing: hvUse is ' + r.hvUse + ' but no reading is given');
+    if (r.hvUse === 'skip' && has('hv')) err(w + '.hv', 'hvUse is skip: leave hv empty (or choose same / shifted / none)');
+    if (has('hv')) {
+      const hv = String(r.hv).normalize('NFC'), syl = hv.split(/\s+/).filter(Boolean);
+      if (hv !== String(r.hv)) err(w + '.hv', 'not NFC');
+      if (!hc.length) err(w + '.hv', 'the card has no Chinese characters');
+      else if (syl.length !== hc.length) err(w + '.hv', syl.length + ' syllable(s) for ' + hc.length + ' character(s) of ' + z + ': one syllable per character, in order');
+      syl.forEach(x => { if (!VSYL.test(x)) err(w + '.hv', '"' + x + '" is not one Vietnamese syllable (letters and tone marks only, syllables separated by spaces)'); });
+      if (!has('hvUse')) err(w + '.hvUse', 'missing (hv is given)');
+      if ((r.hvUse === 'same' || r.hvUse === 'shifted') && !String(r.note || '').normalize('NFC').toLowerCase().includes(hv.toLowerCase())) err(w + '.note', 'hvUse is ' + r.hvUse + ' but the note does not show the reading "' + hv + '"');
+      hvStat.readings++;
+      if (syl.length === hc.length) hc.forEach((ch, i) => { const k = syl[i].toLowerCase(); if (!byChar.has(ch)) byChar.set(ch, new Map()); const m = byChar.get(ch); if (!m.has(k)) m.set(k, []); m.get(k).push(tc.id); });
+    }
+    if (has('trad')) {
+      const tr = String(r.trad);
+      if (!/^[㐀-䶿一-鿿豈-﫿]+$/.test(tr)) err(w + '.trad', 'Chinese characters only');
+      else if (tr.length !== hc.length) err(w + '.trad', tr.length + ' character(s) for ' + hc.length + ' in ' + z + ': the whole word in Traditional form, character for character');
+      else if (tr === hc.join('')) warn(w + '.trad', 'same as the Simplified form: leave trad empty');
+    }
+  });
+  byChar.forEach((m, ch) => { if (m.size > 1) { const d = [...m.entries()].map(([k, ids]) => k + ' (' + ids.slice(0, 3).join(' ') + (ids.length > 3 ? ' …' : '') + ')').join(' / '); hvStat.polyphones.push(ch); warn('readings ' + ch, 'read two ways: ' + d + ' — fine for a true polyphone (行 hành / hàng), otherwise unify'); } });
+}
+
 /* ---------- words remaining ---------- */
 let words = 0, wordsTotal = 0; const wordsBy = {};
 const fieldWords = (f, r, ref) => { Object.keys(ref).forEach(k => { if (META.has(k)) return; const R = Array.isArray(ref[k]) ? ref[k] : [ref[k]], V = Array.isArray(ref[k]) ? (r && Array.isArray(r[k]) ? r[k] : []) : [r ? r[k] : null];
   R.forEach((s, j) => { if (s == null) return; const wc = L.words(s); if (!wc) return; wordsTotal += wc; const v = V[j]; if (v == null || !String(v).trim() || (nat !== 'en' && String(v) === String(s))) { words += wc; wordsBy[f] = (wordsBy[f] || 0) + wc; } }); }); };
 Object.keys(expect).forEach(f => { const ix = L.byId(n[f]); en[f].forEach(ref => fieldWords(f, ix.get(ref.id), ref)); });
 if (ET) tPaths(ET, '', []).forEach(q => { const s = getP(ET, q); if (typeof s !== 'string') return; const wc = L.words(s); if (!wc) return; wordsTotal += wc; const v = NT ? getP(NT, q) : undefined; if (typeof v !== 'string' || !v.trim() || (nat !== 'en' && v === s)) { words += wc; wordsBy['trainer.json'] = (wordsBy['trainer.json'] || 0) + wc; } });
-if (TM && nat !== 'en') (TM.uiKeys || []).forEach(k => { const wc = L.words(k); wordsTotal += wc; const v = (n.ui || {})[k]; if (typeof v !== 'string' || !v.trim() || v === k) { words += wc; wordsBy['ui.json'] = (wordsBy['ui.json'] || 0) + wc; } });
+if (nat !== 'en') ((TM && TM.uiKeys) || C.uiKeys || []).forEach(k => { const wc = L.words(k); wordsTotal += wc; const v = (n.ui || {})[k]; if (typeof v !== 'string' || !v.trim() || v === k) { words += wc; wordsBy['ui.json'] = (wordsBy['ui.json'] || 0) + wc; } });
 t.lessons.forEach(l => { const ref = en.bodies[l.id] || '', h = n.bodies[l.id], wc = L.words(ref); wordsTotal += wc; if (h == null || !h.trim() || (nat !== 'en' && h === ref)) { words += wc; wordsBy['lessons/*.html'] = (wordsBy['lessons/*.html'] || 0) + wc; } });
 
 /* ---------- report ---------- */
@@ -246,7 +303,9 @@ console.log('== validate ' + nat + '-' + tgt + ' (' + path.relative(L.ROOT, H.N)
 Object.entries(counts).forEach(([f, c]) => console.log('  ' + f.padEnd(16) + ' target ' + String(c.target).padStart(4) + '  native ' + String(c.native).padStart(4) + '  complete ' + String(c.complete).padStart(4)));
 console.log('  ui.json          ' + Object.keys(n.ui || {}).length + ' override(s)');
 if (tgt === 'ko') console.log('  trainer.json     ' + (NT ? trainerCounts.sections + ' section(s), ' + trainerCounts.complete + ' complete' + (trainerCounts.maxSpellings ? ' · most accepted spellings: ' + trainerCounts.maxSpellings[1] + ' ' + trainerCounts.maxSpellings[0] : '') : 'absent (trainers off)') + (pack ? ' · features on: ' + (Object.keys(pack.features).filter(f => pack.features[f]).join(', ') || 'none') : ''));
+if (tgt === 'zh' && (nc.readings || hvStat.readings)) console.log('  Hán Việt         ' + hvStat.decided + ' of ' + hvStat.required + ' required cards decided, ' + hvStat.readings + ' reading(s), ' + hvStat.polyphones.length + ' character(s) read two ways');
 console.log('words remaining: ' + words + ' of ' + wordsTotal + (Object.keys(wordsBy).length ? '  (' + Object.entries(wordsBy).map(([k, v]) => k + ' ' + v).join(', ') + ')' : ''));
-console.log('errors: ' + errors.length); errors.slice(0, 200).forEach(x => console.log('  ERROR ' + x)); if (errors.length > 200) console.log('  … ' + (errors.length - 200) + ' more');
-console.log('warnings: ' + warns.length); warns.slice(0, 60).forEach(x => console.log('  warn  ' + x)); if (warns.length > 60) console.log('  … ' + (warns.length - 60) + ' more');
+const ALL = process.argv.includes('--all'), EMAX = ALL ? Infinity : 200, WMAX = ALL ? Infinity : 60; /* --all: print every error and warning (writers' dry runs filter by their own ids) */
+console.log('errors: ' + errors.length); errors.slice(0, EMAX).forEach(x => console.log('  ERROR ' + x)); if (errors.length > EMAX) console.log('  … ' + (errors.length - EMAX) + ' more');
+console.log('warnings: ' + warns.length); warns.slice(0, WMAX).forEach(x => console.log('  warn  ' + x)); if (warns.length > WMAX) console.log('  … ' + (warns.length - WMAX) + ' more');
 process.exit(errors.length ? 1 : 0);

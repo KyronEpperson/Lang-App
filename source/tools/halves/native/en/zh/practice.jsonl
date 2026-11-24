@@ -1,0 +1,392 @@
+{"id":"pinyin.01","q":"Which pinyin letter sounds like the ch in cheese?","why":"q is close to the ch in cheese; x is like sh, and c is like the ts in cats."}
+{"id":"pinyin.02","q":"How many syllables are in Měiguórén (美国人, American)?","o":["three","one","two","four"],"why":"One character is one syllable: 美, 国 and 人 are three syllables written as one word."}
+{"id":"pinyin.03","q":"Which initial has a strong puff of air?","why":"p, t and k have a puff of air; b, d and g have none."}
+{"id":"pinyin.04","q":"How do you say the ü in 绿 (lǜ, green)?","o":["Say ee with rounded lips","Like the oo in food","Like the word you","Like the u in but"],"why":"ü is an ee sound said with the lips rounded, as for oo."}
+{"id":"pinyin.05","q":"How do you say the e in 喝 (hē, to drink)?","o":["Like the u in uh","Like the e in bed","Like the ee in see","Like the a in day"],"why":"Pinyin e on its own sounds like uh, not like the e in bed."}
+{"id":"pinyin.06","p":"你好 (hello) in pinyin","why":"Pinyin writes nǐ with the third tone mark, and hǎo too."}
+{"id":"pinyin.07","p":"谢谢 (thank you) in pinyin, one syllable per tile","why":"xiè has the fourth tone mark; the second xie has the neutral tone, so it has no mark."}
+{"id":"pinyin.08","p":"中文 (Chinese) in pinyin, one syllable per tile","why":"Chinese begins with zh, with the tongue curled back; z would be a different syllable."}
+{"id":"pinyin.09","p":"to go","why":"去 begins with q, the sound of the ch in cheese."}
+{"id":"pinyin.10","p":"green","why":"绿 is lǜ: ü with the fourth tone mark. Without the dots, lù is a different syllable."}
+{"id":"pinyin.11","p":"to be","why":"是 is shì with the fourth tone mark: it falls."}
+{"id":"pinyin.12","p":"Type the pinyin of 你 (you)","hint":"third tone · use the accent bar","why":"你 is nǐ with the third tone mark: low."}
+{"id":"pinyin.13","p":"Type the pinyin of 八 (eight)","hint":"first tone · use the accent bar","why":"八 is bā with the first tone: high and level."}
+{"id":"pinyin.14","p":"Type the pinyin of 去 (to go)","hint":"q + u · the u after q is really ü","why":"After q, u is really ü, but the dots are not written: qù."}
+{"id":"tones.01","q":"Which tone mark shows a falling tone?","why":"The fourth tone mark (à) points down: the voice falls."}
+{"id":"tones.02","q":"Which word is mǎi (to buy)?","why":"买 is mǎi; 卖 (mài) is to sell."}
+{"id":"tones.03","q":"Which is the pinyin of 糖 (sugar)?","why":"糖 rises: táng. tāng, with a level tone, is soup."}
+{"id":"tones.04","q":"In 妈妈 (mom), which tone does the second 妈 have?","o":["The neutral tone","The first tone","The third tone","The fourth tone"],"why":"The second syllable of 妈妈 is short and light: it has no tone mark."}
+{"id":"tones.05","q":"What does 马 (mǎ) mean?","o":["horse","mom","to scold","numb"],"why":"马 with the third tone is horse; mā is mom and mà is to scold."}
+{"id":"tones.06","p":"买马 (to buy a horse) in pinyin","why":"买 (mǎi) has the third tone; mài, with the fourth tone, means to sell."}
+{"id":"tones.07","p":"妈妈 (mom) in pinyin, one syllable per tile","why":"The first 妈 has the first tone; the second has the neutral tone, with no mark."}
+{"id":"tones.08","p":"很快 (very fast) in pinyin","why":"A tone pair: the third tone on hěn, then the fourth tone on kuài."}
+{"id":"tones.09","p":"horse","why":"马 has the third tone: mǎ. mā is mom and mà is to scold."}
+{"id":"tones.10","p":"soup","why":"汤 has the first tone, high and level: tāng. táng is sugar."}
+{"id":"tones.11","p":"to sell","why":"卖 has the fourth tone: mài. mǎi would be to buy."}
+{"id":"tones.12","p":"Type the pinyin of 卖 (to sell)","hint":"fourth tone · use the accent bar","why":"卖 has the fourth tone: it falls. mǎi is to buy."}
+{"id":"tones.13","p":"Type the pinyin of 糖 (sugar)","hint":"second tone · use the accent bar","why":"糖 has the second tone: it rises. tāng is soup."}
+{"id":"tones.14","p":"Type the pinyin of 妈 (mom)","hint":"first tone · use the accent bar","why":"妈 has the first tone: high and level. mǎ is horse."}
+{"id":"tone-change.01","q":"Which is the pinyin of 不是 (is not)?","why":"不 before a fourth tone rises: bú shì."}
+{"id":"tone-change.02","q":"How do Chinese speakers say 你好 (hello)?","o":["ní hǎo, with the first syllable rising","nǐ hǎo, with two full dips","nǐ hào, with the second syllable falling","nì hǎo, with the first syllable falling"],"why":"The first of two third tones is said like a second tone; the pinyin still writes nǐ hǎo."}
+{"id":"tone-change.03","q":"Which is the pinyin of 一个人 (one person)?","why":"个 counts as a fourth tone, so 一 before it rises: yí ge."}
+{"id":"tone-change.04","q":"In which phrase is 不 said bù, with its fourth tone?","why":"Before a third tone (hǎo) 不 keeps its fourth tone: bù hǎo."}
+{"id":"tone-change.05","q":"When does 一 keep its first tone, yī?","o":["When you count: yī, èr, sān","Before a fourth tone","Before 个","Before a first tone"],"why":"In counting, at the end of a bigger number (十一) and after 第, 一 stays yī."}
+{"id":"tone-change.06","p":"不是 (is not) in pinyin","why":"Tone change: 不 before a fourth tone is bú."}
+{"id":"tone-change.07","p":"一个人 (one person) in pinyin","why":"一 before 个 takes the second tone: yí ge rén."}
+{"id":"tone-change.08","p":"不好 (not good) in pinyin","why":"Before a third tone, 不 keeps its fourth tone: bù hǎo."}
+{"id":"tone-change.09","p":"you're welcome","why":"客 has the fourth tone, so 不 rises: bú kèqi."}
+{"id":"tone-change.10","p":"together","why":"Before a third tone (qǐ), 一 is said yì: yìqǐ."}
+{"id":"tone-change.11","p":"first","why":"After 第, 一 keeps its first tone: dìyī."}
+{"id":"tone-change.12","p":"Type the pinyin of 不客气 (you're welcome)","hint":"two words · 不 changes before a fourth tone","why":"Tone change: 不 before a fourth tone is bú, so bú kèqi."}
+{"id":"tone-change.13","p":"one person (in characters)","hint":"个 goes between the number and the noun","why":"A number needs a measure word before the noun: 一个人."}
+{"id":"tone-change.14","p":"Type the pinyin of 你好 (hello), the way it is written","hint":"two words · pinyin writes the dictionary tones","why":"Pinyin writes the third tone mark on both: nǐ hǎo, though you say ní hǎo."}
+{"id":"characters.01","q":"Which character began as a picture of a tree?","why":"木 is a tree with its roots; two of them make 林, woods."}
+{"id":"characters.02","q":"好 (good) is made of 女 and 子. What do they mean?","o":["woman and child","sun and moon","person and tree","mouth and water"],"why":"女 is woman and 子 is child: together, good."}
+{"id":"characters.03","q":"Which part of 汤 (soup) hints at its meaning?","o":["氵 on the left, which means water","The right side, which spells the sound","Its top stroke","No part: characters give no hints"],"why":"Three dots on the left (氵) mark words to do with water."}
+{"id":"characters.04","q":"Which is the pinyin of 好 (good)?","why":"好 (good) has the third tone: hǎo."}
+{"id":"characters.05","q":"明 (bright) is 日 + 月. What are they?","o":["the sun and the moon","two trees","a person and a tree","a mouth and a door"],"why":"日 is the sun and 月 is the moon: together, bright."}
+{"id":"characters.06","p":"a good person (in characters)","why":"The describer goes before the noun: 好人, good person."}
+{"id":"characters.07","p":"好人 (a good person) in pinyin","why":"好 has the third tone mark: hǎo rén."}
+{"id":"characters.08","p":"a big mountain (in characters; 大 = big)","why":"The describer goes before the noun: 大山, big mountain."}
+{"id":"characters.09","p":"sun + moon = bright","why":"The sun and the moon together make 明, bright."}
+{"id":"characters.10","p":"tree + tree = woods","why":"Two trees make 林 (woods); three trees make 森 (forest)."}
+{"id":"characters.11","p":"woman + child = good","why":"女 (woman) and 子 (child) make 好, good."}
+{"id":"characters.12","p":"Type the pinyin of 好 (good)","hint":"third tone · use the accent bar","why":"好 has the third tone mark: hǎo."}
+{"id":"characters.13","p":"a good person (in characters)","hint":"the describer comes first","why":"The describer goes before the noun: 好人."}
+{"id":"characters.14","p":"Type the pinyin of 人 (person)","hint":"second tone · use the accent bar","why":"人 has the second tone: it rises, rén."}
+{"id":"greetings.01","q":"Which is the pinyin of 您 (you, polite)?","why":"您 has the second tone: nín. 你 has the third tone: nǐ."}
+{"id":"greetings.02","q":"Which do you say to an older neighbor?","why":"您好 is the polite hello for older people."}
+{"id":"greetings.03","q":"Someone says 对不起 to you. What do you answer?","why":"没关系 (that's OK) answers an apology; 不客气 answers thanks."}
+{"id":"greetings.04","q":"Your friend says 谢谢. What do you answer?","why":"不客气 (you're welcome) answers thanks."}
+{"id":"greetings.05","q":"How do you call a server in a restaurant?","why":"服务员 is the normal word; 小姐 suggests a sex worker in the mainland."}
+{"id":"greetings.06","p":"您好 (hello, polite) in pinyin","why":"您 has the second tone: it rises, nín hǎo."}
+{"id":"greetings.07","p":"a Chinese teacher (a teacher of Chinese)","why":"The describer goes before the noun: 中文老师."}
+{"id":"greetings.08","p":"My name is Wang Ming.","why":"叫 means to be called: 我叫 + your name."}
+{"id":"greetings.09","p":"My last name is Wang.","why":"Answer with 姓; 贵 is only for the other person's name."}
+{"id":"greetings.10","p":"Excuse me, what's your last name?","why":"请问 (may I ask) opens a polite question."}
+{"id":"greetings.11","p":"That's OK.","why":"没关系 (that's OK) answers sorry; 不客气 answers thank you."}
+{"id":"greetings.12","p":"Type the pinyin of 再见 (goodbye)","hint":"fourth tone + fourth tone · one word","why":"再见 is two fourth tones: zàijiàn."}
+{"id":"greetings.13","p":"an American teacher (美国 = America)","hint":"the describer comes first","why":"The describer goes before the noun: 美国老师."}
+{"id":"greetings.14","p":"My last name is Li. (answering 您贵姓？)","why":"Answer with 我姓 + surname; 贵 is only for the person you ask."}
+{"id":"pronouns.01","q":"Which is the pinyin of 他 (he)?","why":"他 has the first tone: high and level, tā."}
+{"id":"pronouns.02","q":"How do you say we?","why":"们 makes 我 plural: 我们."}
+{"id":"pronouns.03","q":"You hear tā in a sentence. Who is it?","o":["he, she or it: they sound the same","only he","only she","only it"],"why":"他, 她 and 它 are all tā; context tells you which."}
+{"id":"pronouns.04","q":"Which is right for three students?","why":"After a number, use 个 and no 们."}
+{"id":"pronouns.05","q":"Which word means they, for a group of women?","why":"她 + 们 is a group of women; 他们 covers men or mixed groups."}
+{"id":"pronouns.06","p":"their teacher","why":"The owner goes before the noun: 他们的老师."}
+{"id":"pronouns.07","p":"five students (五 = five)","why":"A number needs a measure word before the noun, and no 们: 五个学生."}
+{"id":"pronouns.08","p":"His name is Wang Ming.","why":"叫 gives the full name; 姓 gives only the last name."}
+{"id":"pronouns.09","p":"Hello, everyone! (to a group of friends)","why":"你 + 们 is you all: 你们好."}
+{"id":"pronouns.10","p":"five students","why":"A number takes 个 before the noun: 五个学生."}
+{"id":"pronouns.11","p":"Our teacher's last name is Wang.","why":"我们 is we or us; with 的, our."}
+{"id":"pronouns.12","p":"five students (五 = five)","hint":"no 们 after a number","why":"A number needs a measure word before the noun, and no 们: 五个学生."}
+{"id":"pronouns.13","p":"my friend","hint":"the owner comes first","why":"The owner goes before the noun: 我的朋友, or 我朋友 for a close friend."}
+{"id":"pronouns.14","p":"Hello, everyone! (to a group)","why":"们 makes you plural: 你们好. 大家好 works too."}
+{"id":"shi.01","q":"Which is the pinyin of 是 (to be)?","why":"是 has the fourth tone: it falls, shì."}
+{"id":"shi.02","q":"I'm American.","why":"Noun 是 noun, and 美国人 (American person), not 美国 (America)."}
+{"id":"shi.03","q":"He isn't a teacher.","why":"不 goes right before 是: 不是."}
+{"id":"shi.04","q":"Which word means a Chinese person?","why":"Country + 人: 中国人. 中文 is the language."}
+{"id":"shi.05","q":"I'm a student too.","why":"也 goes right before 是, not at the end like too."}
+{"id":"shi.06","p":"I'm a student too.","why":"也 goes before the verb, not at the end like English too."}
+{"id":"shi.07","p":"He's an American student. (start with he)","why":"The describer goes before the noun: 美国学生."}
+{"id":"shi.08","p":"She isn't Chinese.","why":"是 is negated with 不, never with 没."}
+{"id":"shi.09","p":"I'm American.","why":"是 joins two nouns: I = American."}
+{"id":"shi.10","p":"He isn't a teacher.","why":"Is not is 不是; 没 never goes with 是."}
+{"id":"shi.11","p":"Wang Ming is Chinese.","why":"Country + 人 is a person from there; 中文 is the language."}
+{"id":"shi.12","p":"I'm a student too.","hint":"also goes before 是","why":"也 goes before the verb: 我也是学生."}
+{"id":"shi.13","p":"She's an English teacher. (a teacher of English)","hint":"英语 (English) · 老师","why":"The describer goes before the noun: 英语老师."}
+{"id":"shi.14","p":"I'm not American.","why":"Use 不 with 是; 没 never goes with 是."}
+{"id":"adj.01","q":"Which is the pinyin of 很 (very)?","why":"很 has the third tone: low, hěn."}
+{"id":"adj.02","q":"She's tall.","why":"No 是 before an adjective; use 很."}
+{"id":"adj.03","q":"I'm not busy.","why":"不 goes right before the adjective, with no 是."}
+{"id":"adj.04","q":"That's too expensive!","why":"Too is 太 + adjective + 了."}
+{"id":"adj.05","q":"a good friend","why":"The adjective goes before the noun; with 很 you would need 的."}
+{"id":"adj.06","p":"He's tall.","why":"很 goes before the verb, and an adjective works like a verb: 他很高, no 是."}
+{"id":"adj.07","p":"a good friend","why":"The describer goes before the noun: 好朋友."}
+{"id":"adj.08","p":"That's too expensive!","why":"Too is 太 + adjective + 了, with no 是."}
+{"id":"adj.09","p":"I'm tired.","why":"Adjectives take 很, not 是: 我很累."}
+{"id":"adj.10","p":"The coffee isn't expensive.","why":"Put 不 right before the adjective: 不贵."}
+{"id":"adj.11","p":"That's too expensive!","why":"太 … 了 means too: 太贵了."}
+{"id":"adj.12","p":"I'm very busy.","hint":"no 是","why":"很 goes before the verb, and 忙 works like a verb: 我很忙, no 是."}
+{"id":"adj.13","p":"a good friend","hint":"the describer comes first","why":"The describer goes before the noun: 好朋友."}
+{"id":"adj.14","p":"She isn't tall. (use 不 + adjective)","why":"不 goes right before the adjective, with no 是."}
+{"id":"ma.01","q":"Which is the pinyin of 吗?","o":["ma, with no tone mark",null,null,null],"why":"吗 has the neutral tone: short and light, with no mark."}
+{"id":"ma.02","q":"Are you a teacher?","why":"Keep the statement and add 吗 at the end."}
+{"id":"ma.03","q":"你忙吗？ Answer: Yes, I am.","why":"Answer with the adjective: 很忙. An adjective never takes 是."}
+{"id":"ma.04","q":"你是中国人吗？ Answer: No.","why":"Answer with the verb from the question: 不是."}
+{"id":"ma.05","q":"我很好，你呢？ What does 你呢 mean here?","o":["And you?","Are you?","Who are you?","Goodbye."],"why":"呢 sends the question back: and you?"}
+{"id":"ma.06","p":"Are you a student too?","why":"也 goes before the verb: 你也是学生吗？"}
+{"id":"ma.07","p":"Is he an American student? (start with he)","why":"The describer goes before the noun: 美国学生, then 吗 at the end."}
+{"id":"ma.08","p":"Are you busy?","why":"No 是 before an adjective; 吗 at the end asks the question."}
+{"id":"ma.09","p":"Are you American?","why":"吗 at the end turns a statement into a yes/no question."}
+{"id":"ma.10","p":"I'm busy. And you?","why":"呢 after a person asks the same question back."}
+{"id":"ma.11","p":"Are you busy? I'm not.","why":"Answer with the adjective itself: 不忙."}
+{"id":"ma.12","p":"Are you going tomorrow? (明天 = tomorrow, 去 = go)","hint":"the time word comes before 去","why":"Time goes before the verb: 你明天去吗？"}
+{"id":"ma.13","p":"Is she a teacher too?","why":"也 goes before the verb: 她也是老师吗？"}
+{"id":"ma.14","p":"Are you a teacher?","why":"Add 吗 to the statement to ask a yes/no question."}
+{"id":"question-words.01","q":"Which is the pinyin of 几 (how many)?","why":"几 has the third tone: low, jǐ."}
+{"id":"question-words.02","q":"What's your name?","why":"什么 stays where the answer goes, and no 吗."}
+{"id":"question-words.03","q":"Who is he?","why":"谁 goes where the answer would be: 他是我朋友 → 他是谁？"}
+{"id":"question-words.04","q":"Where do you live?","why":"哪儿 goes after 住, where the place goes in the answer."}
+{"id":"question-words.05","q":"Which question is correct?","why":"哪国人 stays where the answer goes, with no 吗."}
+{"id":"question-words.06","p":"Where do you work? (在 = at, 工作 = to work)","why":"Where it happens comes before the verb: 你在哪儿工作？"}
+{"id":"question-words.07","p":"How many older brothers do you have? (哥哥 = older brother)","why":"几 needs a measure word before the noun: 几个哥哥."}
+{"id":"question-words.08","p":"What's your name?","why":"什么 stays where the answer goes, and a question word takes no 吗."}
+{"id":"question-words.09","p":"Who is he?","why":"谁 asks who; it goes where the answer would be."}
+{"id":"question-words.10","p":"Where do you live?","why":"哪儿 asks where."}
+{"id":"question-words.11","p":"What country are you from?","why":"哪国人 asks which country someone is from."}
+{"id":"question-words.12","p":"Where do you work? (在 = at, 工作 = to work)","hint":"where comes first","why":"Where it happens goes before the verb: 你在哪儿工作？"}
+{"id":"question-words.13","p":"How many older brothers do you have? (哥哥 = older brother)","why":"几 takes a measure word before the noun: 几个哥哥."}
+{"id":"question-words.14","p":"What's your name? (to a friend)","hint":"no 吗","why":"The question word stays where the answer goes, with no 吗."}
+{"id":"bu-mei.01","q":"Which is the pinyin of 不是 (is not)?","why":"Tone change: 不 before a fourth tone takes the second tone, bú shì."}
+{"id":"bu-mei.02","q":"'I don't have money' =","why":"有 is the one verb that takes 没, never 不."}
+{"id":"bu-mei.03","q":"'He didn't eat' =","why":"An action that did not happen takes 没, and no 了 after 没."}
+{"id":"bu-mei.04","q":"'I'm not busy' =","why":"A state takes 不, right before the adjective, with no 是."}
+{"id":"bu-mei.05","q":"'He doesn't like coffee' =","why":"Liking is a state, so it takes 不: 他不喜欢咖啡."}
+{"id":"bu-mei.06","p":"He didn't come yesterday (start with 他)","why":"The time word and 没 both go before the verb, and 没 never takes 了."}
+{"id":"bu-mei.07","p":"I don't drink tea","why":"A habit takes 不, and 不 goes before the verb: 我不喝茶."}
+{"id":"bu-mei.08","p":"She doesn't have a phone","why":"有 is negated with 没, never with 不."}
+{"id":"bu-mei.09","p":"I don't have money.","why":"Only 没 negates 有: 没有."}
+{"id":"bu-mei.10","p":"I didn't go yesterday.","why":"Yesterday's action did not happen, so 没."}
+{"id":"bu-mei.11","p":"I don't drink alcohol.","why":"A habit or a choice takes 不."}
+{"id":"bu-mei.12","p":"I'm not going tomorrow.","hint":"明天 (tomorrow) · 去 · a plan takes 不","why":"Tomorrow and 不 both go before the verb: 我明天不去."}
+{"id":"bu-mei.13","p":"I didn't go yesterday.","hint":"昨天 (yesterday) · 去","why":"Yesterday and 没 go before the verb, and 没 takes no 了: 我昨天没去."}
+{"id":"bu-mei.14","p":"I don't have a phone.","hint":"手机 (phone)","why":"有 is negated only with 没: 我没有手机."}
+{"id":"de.01","q":"Which is the pinyin of 书 (book)?","why":"书 has the first tone: high and level."}
+{"id":"de.02","q":"'my friend' =","why":"The owner comes first, then 的, then the noun."}
+{"id":"de.03","q":"'the teacher's phone' =","why":"Owner + 的 + thing, like English 's."}
+{"id":"de.04","q":"'my mom' (the most natural way) =","why":"Family words usually drop 的 after a pronoun: 我妈妈."}
+{"id":"de.05","q":"'very expensive clothes' =","why":"A describer with 很 needs 的, and it goes in front of the noun."}
+{"id":"de.06","p":"my teacher's book","why":"The owner goes before the noun, joined by 的: 我老师的书."}
+{"id":"de.07","p":"a red car","why":"The describer goes before the noun: 红色的车."}
+{"id":"de.08","p":"This is my mom's phone","why":"Owner, then 的, then the thing: the owner goes before the noun."}
+{"id":"de.09","p":"This is my book.","why":"的 joins the owner to the thing: 我的书."}
+{"id":"de.10","p":"She's my good friend.","why":"A one-syllable adjective can join the noun directly: 好朋友."}
+{"id":"de.11","p":"The teacher's phone is expensive.","why":"Owner + 的 + thing: 老师的手机."}
+{"id":"de.12","p":"my Chinese teacher","hint":"the describers come first","why":"Both describers go before the noun: 我的中文老师."}
+{"id":"de.13","p":"a very expensive car","hint":"车 (car)","why":"A describer with 很 goes before the noun, joined by 的: 很贵的车."}
+{"id":"de.14","p":"My mom doesn't have a phone.","why":"Family words need no 的, and 有 is negated with 没: 我妈妈没有手机."}
+{"id":"you.01","q":"Which is the pinyin of 买 (to buy)?","why":"买 has the third tone; mài with the fourth tone is 卖, to sell."}
+{"id":"you.02","q":"'I have a phone' =","why":"Person + 有 + thing, as in English."}
+{"id":"you.03","q":"'There's no supermarket nearby' =","why":"Place first, then 没有; 有 never takes 不."}
+{"id":"you.04","q":"'There's a book on the table' =","why":"Chinese starts with the place, then 有, then number + measure word + noun."}
+{"id":"you.05","q":"'Do you have coffee?' (asking a shop) =","why":"Ask the shop with 你们, then 有, then 吗 at the end."}
+{"id":"you.06","p":"There's a bank nearby","why":"The place goes before the verb 有: 附近有银行."}
+{"id":"you.07","p":"There's a book on the table","why":"The place goes before the verb, and 一本 goes before the noun: 桌子上有一本书."}
+{"id":"you.08","p":"Do you have coffee? (to a shop)","why":"Statement + 吗 makes the question: 你们有咖啡吗？"}
+{"id":"you.09","p":"Is there a bank nearby?","why":"\"There is\" is 有, after the place."}
+{"id":"you.10","p":"I don't have a car.","why":"Only 没 negates 有: 没有."}
+{"id":"you.11","p":"There's a book on the table.","why":"Place + 有 + thing: \"the table has a book\"."}
+{"id":"you.12","p":"There's a supermarket nearby.","hint":"附近 (nearby) · 超市 (supermarket) · the place comes first","why":"The place goes before the verb 有: 附近有超市."}
+{"id":"you.13","p":"Is there a bank nearby?","hint":"银行 (bank) · 吗","why":"Nearby goes before the verb 有, and 吗 goes at the end: 附近有银行吗？"}
+{"id":"you.14","p":"I don't have a car.","hint":"车 (car)","why":"有 is negated only with 没: 我没有车."}
+{"id":"numbers.01","q":"Which is the pinyin of 四 (four)?","why":"四 has the fourth tone: it falls. With the third tone, sǐ means to die."}
+{"id":"numbers.02","q":"'two people' =","why":"Two before a measure word is 两."}
+{"id":"numbers.03","q":"What is 一百零五?","o":["105","150","1,005","115"],"why":"零 fills the empty tens place: one hundred, zero, five."}
+{"id":"numbers.04","q":"A market seller says 一百五. How much is that?","o":["150","105","15","1,500"],"why":"一百五 is short for 一百五十."}
+{"id":"numbers.05","q":"'How much is it?' =","why":"多少钱 asks a price; no 吗 with a question word."}
+{"id":"numbers.06","p":"two people","why":"Two before a measure word is 两: 两个人."}
+{"id":"numbers.07","p":"This one is twenty-five yuan","why":"块 works like a measure word: it comes right after the number, 二十五块."}
+{"id":"numbers.08","p":"How much is this?","why":"多少 asks for any number, so it fits a price."}
+{"id":"numbers.09","p":"I have two Chinese teachers.","why":"Before the measure word 个, two is 两."}
+{"id":"numbers.10","p":"105","why":"An empty place in the middle of a number is 零."}
+{"id":"numbers.11","p":"This one is 25 yuan.","why":"Money: the number, then 块 (or 元 in writing)."}
+{"id":"numbers.12","p":"two people","hint":"两 or 二? · 个 · 人","why":"Two before a measure word is 两: 两个人."}
+{"id":"numbers.13","p":"fifteen yuan (say it out loud)","why":"块 is the measure word for money, right after the number: 十五块."}
+{"id":"numbers.14","p":"How much is this?","why":"多少 asks for any number, such as a price: 这个多少钱？"}
+{"id":"measure.01","q":"Which is the pinyin of 杯 (cup)?","why":"杯 has the first tone: high and level."}
+{"id":"measure.02","q":"'three books' =","why":"Books take 本, between the number and the noun."}
+{"id":"measure.03","q":"'this ticket' =","why":"这 needs a measure word too, and tickets take 张."}
+{"id":"measure.04","q":"Which measure word goes with 衣服 (clothes)?","why":"Tops, coats and most clothes take 件."}
+{"id":"measure.05","q":"'a pair of shoes' =","why":"A pair takes 双: 一双鞋."}
+{"id":"measure.06","p":"three books","why":"Books take the measure word 本: 三本书."}
+{"id":"measure.07","p":"this cup of tea","why":"这 + measure word + noun: 这杯茶."}
+{"id":"measure.08","p":"That cat is very small","why":"那 + measure word + noun: 那只猫, with 只 for animals."}
+{"id":"measure.09","p":"I have three books.","why":"Books take 本."}
+{"id":"measure.10","p":"two cups of coffee","why":"A cup of a drink takes 杯."}
+{"id":"measure.11","p":"How much is this ticket?","why":"Tickets are flat, so they take 张."}
+{"id":"measure.12","p":"two cups of tea","hint":"茶 (tea)","why":"Tea in a cup takes the measure word 杯, and two before a measure word is 两."}
+{"id":"measure.13","p":"this book","why":"这 + measure word + noun: 这本书."}
+{"id":"measure.14","p":"I don't have that book.","why":"那 + measure word + noun, and 有 takes 没: 我没有那本书."}
+{"id":"food.01","q":"Which is the pinyin of 汤 (soup)?","why":"汤 has the first tone; táng with the second tone is 糖, sugar."}
+{"id":"food.02","q":"How do you call the server?","why":"Call the server 服务员; 小姐 is best avoided in the mainland."}
+{"id":"food.03","q":"'two milk teas' =","why":"Number + one measure word + noun, and two is 两."}
+{"id":"food.04","q":"'Not spicy, please.' =","why":"要 takes 不: 不要辣的, \"not the spicy kind\"."}
+{"id":"food.05","q":"You loved the dumplings. Say:","why":"好吃 is good to eat; 好喝 is only for drinks."}
+{"id":"food.06","p":"I'd like a bowl of noodles","why":"A bowl takes the measure word 碗, before the noun: 一碗面条."}
+{"id":"food.07","p":"Two milk teas, please (start with 来)","why":"Two before a measure word is 两: 两杯奶茶."}
+{"id":"food.08","p":"Check, please! (to the server)","why":"Call 服务员 first, then say 买单; 老师 is for a teacher."}
+{"id":"food.09","p":"I'd like a bowl of noodles.","why":"A bowl of something takes 碗."}
+{"id":"food.10","p":"Could I have a glass of water, please?","why":"A glass of a drink takes 杯."}
+{"id":"food.11","p":"Not spicy, please.","why":"辣 is spicy: 不要辣的, not the spicy kind."}
+{"id":"food.12","p":"I'd like a cup of coffee.","why":"A cup of coffee takes the measure word 杯: 一杯咖啡."}
+{"id":"food.13","p":"two bowls of noodles","why":"Two before a measure word is 两, and noodles in a bowl take 碗."}
+{"id":"food.14","p":"Not spicy, please.","why":"要 (want) is negated with 不, not 没: 不要辣的."}
+{"id":"family.01","q":"Which is the pinyin of 妈妈 (mom)?","why":"The first 妈 has the first tone, and the second has the neutral tone: māma."}
+{"id":"family.02","q":"'older brother' =","why":"哥哥 is older, 弟弟 younger."}
+{"id":"family.03","q":"'I have two older sisters' =","why":"Two people: 两 + 个 + noun."}
+{"id":"family.04","q":"Asking a six-year-old \"How old are you?\":","why":"几 expects a small number; no 是 and no 吗."}
+{"id":"family.05","q":"'There are five people in my family' =","why":"Number + 口 + 人, and no 们 after a number."}
+{"id":"family.06","p":"I have an older brother","why":"A number needs a measure word before the noun: 一个哥哥."}
+{"id":"family.07","p":"I have two younger sisters","why":"Two before a measure word is 两: 两个妹妹."}
+{"id":"family.08","p":"How many people are in your family? (to a friend)","why":"The question word 几 already asks, so no 吗."}
+{"id":"family.09","p":"There are four people in my family.","why":"Family members are counted with 口 (个 is also heard)."}
+{"id":"family.10","p":"I have two younger brothers.","why":"Younger brother is 弟弟."}
+{"id":"family.11","p":"I'm 25 this year.","why":"Age is the number + 岁."}
+{"id":"family.12","p":"I have two older brothers.","why":"Two before a measure word is 两: 两个哥哥."}
+{"id":"family.13","p":"There are three people in my family.","why":"口 is the measure word for family members: 三口人."}
+{"id":"family.14","p":"My dad isn't a teacher.","why":"是 is negated with 不, never 没, and 爸爸 needs no 的."}
+{"id":"time.01","q":"Which is the pinyin of 号 (day of the month)?","why":"号 has the fourth tone; hǎo with the third tone is 好, good."}
+{"id":"time.02","q":"'two o'clock' =","why":"Two o'clock is 两点, not 二点."}
+{"id":"time.03","q":"'December 3' =","why":"Month first, then day; 三月十二号 is March 12."}
+{"id":"time.04","q":"'I'm going tomorrow' =","why":"The time word goes before the verb."}
+{"id":"time.05","q":"'What time is it now?' =","why":"几 already asks, so no 吗."}
+{"id":"time.06","p":"I'm going to Beijing tomorrow (start with 我)","why":"Time goes before the verb: 我明天去北京."}
+{"id":"time.07","p":"December 3","why":"Big to small: the month, then the day."}
+{"id":"time.08","p":"I don't work on Saturdays (start with 我)","why":"The day and 不 both go before the verb: 我星期六不工作."}
+{"id":"time.09","p":"What time is it now?","why":"Ask the hour with 几: 几点."}
+{"id":"time.10","p":"Today is December 3.","why":"The day of the month is the number + 号."}
+{"id":"time.11","p":"It's half past two.","why":"Two o'clock is 两点, so half past two is 两点半."}
+{"id":"time.12","p":"I'm going tomorrow.","hint":"when comes first","why":"Time goes before the verb: 我明天去."}
+{"id":"time.13","p":"I don't work on Saturdays.","hint":"星期六 (Saturday) · 不 · 工作","why":"The day goes before the verb, and so does 不: 我星期六不工作."}
+{"id":"time.14","p":"It's two o'clock now.","why":"Two o'clock is 两点, and 现在 goes first."}
+{"id":"zai.01","q":"Which is the pinyin of 在 (to be at)?","why":"在 has the fourth tone: it falls."}
+{"id":"zai.02","q":"'Where's the bank?' =","why":"Thing + 在 + 哪儿, and no 吗 with a question word."}
+{"id":"zai.03","q":"'I work at a bank' =","why":"在 + place comes before the verb."}
+{"id":"zai.04","q":"'The phone is on the table' =","why":"The location word 上 comes after 桌子."}
+{"id":"zai.05","q":"'The bank is next to the supermarket' =","why":"旁边 (next to) comes after the place it is next to."}
+{"id":"zai.06","p":"I work at a bank","why":"Where it happens goes before the verb: 我在银行工作."}
+{"id":"zai.07","p":"The phone is in the room","why":"The location word comes after the noun: 房间里, in the room."}
+{"id":"zai.08","p":"He eats at home","why":"The place with 在 goes before the verb: 他在家吃饭."}
+{"id":"zai.09","p":"Where's the bank?","why":"Where something is: thing + 在 + place."}
+{"id":"zai.10","p":"The phone is on the table.","why":"On the table: 桌子上, with the location word after the noun."}
+{"id":"zai.11","p":"I work at a bank.","why":"在 + place, before the verb."}
+{"id":"zai.12","p":"I work at a bank.","hint":"where comes first","why":"Where it happens goes before the verb: 我在银行工作."}
+{"id":"zai.13","p":"We eat at home.","why":"The place with 在 goes before the verb: 我们在家吃饭."}
+{"id":"zai.14","p":"Where's the restroom?","hint":"洗手间 (restroom) · 在 · 哪儿","why":"Thing + 在 + 哪儿: the question word sits in the place slot."}
+{"id":"word-order.01","q":"I'm working at home today =","why":"When and where both go before the verb: 我今天在家工作."}
+{"id":"word-order.02","q":"Which is the pinyin of 明天 (tomorrow)?","why":"明 has the second tone and 天 the first tone: míngtiān."}
+{"id":"word-order.03","q":"Saturday at ten in the morning =","why":"Big before small: day, then part of the day, then the hour."}
+{"id":"word-order.04","q":"I live in Shanghai =","why":"With 住, 在 + place comes right after the verb."}
+{"id":"word-order.05","q":"I take the subway to work =","why":"How you travel goes before the verb 去: 坐地铁去上班."}
+{"id":"word-order.06","p":"I'm going to Beijing tomorrow (begin with 我)","why":"Time goes before the verb: 我明天去北京."}
+{"id":"word-order.07","p":"We study at the library","why":"Where it happens goes before the verb: 在图书馆学习."}
+{"id":"word-order.08","p":"I'm eating at home tomorrow (begin with 我)","why":"When comes first, then where, and both go before the verb."}
+{"id":"word-order.09","p":"I'm eating at home tomorrow.","why":"在 + place says where it happens: 在家吃饭."}
+{"id":"word-order.10","p":"I take the subway to work every day.","why":"坐 (to ride, literally to sit) is how you take the subway: 坐地铁."}
+{"id":"word-order.11","p":"I live in Beijing.","why":"住 is followed by 在 + place: 我住在北京."}
+{"id":"word-order.12","p":"I work at a bank","hint":"where comes first","why":"Where it happens goes before the verb: 我在银行工作."}
+{"id":"word-order.13","p":"I'm going to Shanghai tomorrow","why":"Time goes before the verb, never at the end: 我明天去上海."}
+{"id":"word-order.14","p":"We have class at two o'clock on Monday","hint":"big before small","why":"Big before small, and the time goes before the verb: 星期一两点上课."}
+{"id":"want-can.01","q":"Which word means \"know how to\" (a skill you learned)?","why":"会 is for skills you learned: 我会游泳."}
+{"id":"want-can.02","q":"May I sit here? =","why":"可以 comes right after 我 and asks for permission."}
+{"id":"want-can.03","q":"Which is the pinyin of 想 (would like)?","why":"想 has the third tone: xiǎng."}
+{"id":"want-can.04","q":"I'd like to eat at home tonight =","why":"When first, then 想, then where, and the verb last."}
+{"id":"want-can.05","q":"I don't want to go =","why":"不 goes in front of 想: 我不想去."}
+{"id":"want-can.06","p":"I'd like to drink a cup of tea","why":"Tea in a cup takes the measure word 杯: 一杯茶."}
+{"id":"want-can.07","p":"I want to study at the library","why":"Where it happens goes before the verb: 想在图书馆学习."}
+{"id":"want-can.08","p":"I can speak a little Chinese","why":"会 is for a skill you learned, like a language; 是 is not \"can\"."}
+{"id":"want-can.09","p":"You may come in.","why":"可以 gives permission: 你可以进来."}
+{"id":"want-can.10","p":"I can't drive (I never learned).","why":"A skill you never learned takes 不会."}
+{"id":"want-can.11","p":"Waiter, I'd like a bowl of noodles.","why":"With a thing and no verb, want is 要 (or 想要)."}
+{"id":"want-can.12","p":"I'd like two cups of coffee","why":"Coffee in a cup takes the measure word 杯, and two before it is 两."}
+{"id":"want-can.13","p":"I'd like to eat at home (use 想)","why":"Where it happens goes before the verb: 想在家吃饭."}
+{"id":"want-can.14","p":"I can't swim (I never learned)","hint":"say no with 不","why":"A skill takes 会, and its no is 不会, not 没."}
+{"id":"le.01","q":"I bought three tickets =","why":"了 goes right after the verb: 买了三张票."}
+{"id":"le.02","q":"Which is the pinyin of 买 (to buy)?","why":"买 has the third tone; mài (fourth tone) is 卖, to sell."}
+{"id":"le.03","q":"I was busy yesterday =","why":"A state in the past takes no 了: 我昨天很忙."}
+{"id":"le.04","q":"I didn't go yesterday =","why":"After 没 there is no 了."}
+{"id":"le.05","q":"It's gotten hot. =","why":"了 at the end shows a change: 热了."}
+{"id":"le.06","p":"I didn't go to work yesterday (begin with 我)","why":"Time goes before the verb, and after 没 there is no 了."}
+{"id":"le.07","p":"I bought three apples","why":"Apples take the measure word 个: 三个苹果."}
+{"id":"le.08","p":"It's gotten cold","why":"了 at the end shows a change, and 冷 needs no 是."}
+{"id":"le.09","p":"I bought three apples.","why":"了 right after the verb shows the buying is done."}
+{"id":"le.10","p":"I didn't go yesterday.","why":"For something that did not happen, use 没, not 不."}
+{"id":"le.11","p":"I'm hungry (now).","why":"了 at the end shows a change: 我饿了."}
+{"id":"le.12","p":"I bought two tickets","why":"Tickets take the measure word 张, and two before it is 两."}
+{"id":"le.13","p":"I didn't go to the bank yesterday","why":"Time goes before the verb, and after 没 there is no 了."}
+{"id":"le.14","p":"It's gotten cold","hint":"a change","why":"了 at the end shows a change, and adjectives take no 是."}
+{"id":"progress.01","q":"I'm eating =","why":"在 before the verb means in the middle of; 是 is not \"am\"."}
+{"id":"progress.02","q":"Which is the pinyin of 在?","why":"在 has the fourth tone: it falls, zài."}
+{"id":"progress.03","q":"What are you doing? =","why":"The question word stays where the answer goes: 在做什么."}
+{"id":"progress.04","q":"I'm going to Shanghai tomorrow (a plan) =","why":"A plan takes no 在; 在 is for what is going on now."}
+{"id":"progress.05","q":"He's at home watching TV =","why":"Where it happens goes before the verb, and 呢 goes at the very end."}
+{"id":"progress.06","p":"I'm watching TV at home right now","why":"Where it happens goes before the verb, and 呢 goes at the end."}
+{"id":"progress.07","p":"We're having class right now (use 正在)","why":"正在 goes before the verb: 我们正在上课."}
+{"id":"progress.08","p":"What are you doing?","why":"Chinese has no -ing: 在 + verb, and 是 is not \"are\"."}
+{"id":"progress.09","p":"He's watching TV.","why":"在 or 正在 before the verb shows the action is going on."}
+{"id":"progress.10","p":"I'm eating right now.","why":"呢 at the end goes with 正在 for right now."}
+{"id":"progress.11","p":"Mom is on the phone in the kitchen.","why":"在 + place says where it is happening: 在厨房."}
+{"id":"progress.12","p":"He's watching TV","why":"Chinese has no -ing: 在 or 正在 goes before the verb."}
+{"id":"progress.13","p":"I'm studying at the library","why":"Where it happens goes before the verb: 在图书馆学习."}
+{"id":"progress.14","p":"What are you doing? (to a friend)","why":"什么 stays where the answer goes, after 在 + verb."}
+{"id":"serial.01","q":"I'm going to the bank to change money =","why":"Go to the place first, then what you do there: 去银行换钱."}
+{"id":"serial.02","q":"Which is the pinyin of 去 (to go)?","why":"去 has the fourth tone: qù."}
+{"id":"serial.03","q":"She rides her bike to school =","why":"骑 for a bike, and how you go comes before 去."}
+{"id":"serial.04","q":"Which verb means \"ride\" for buses, the subway and planes?","why":"坐 (literally sit) is for anything you ride inside; 骑 is for bikes."}
+{"id":"serial.05","q":"He's coming to my place for dinner =","why":"来 + place first, then what he will do: 来我家吃饭."}
+{"id":"serial.06","p":"I'm going to the supermarket to buy things","why":"Where you go comes before the verb of what you do there: 去超市买东西."}
+{"id":"serial.07","p":"I go to school by subway","why":"How you go comes before the verb 去: 坐地铁去学校."}
+{"id":"serial.08","p":"Tomorrow I'm going to Beijing to see the Great Wall (begin with 我)","why":"Time goes before both verbs: 我明天去北京看长城."}
+{"id":"serial.09","p":"I'm going to the supermarket to buy things.","why":"买 (mǎi) is buy; 卖 (mài) is sell."}
+{"id":"serial.10","p":"I ride my bike to work.","why":"You ride a bike astride: 骑自行车."}
+{"id":"serial.11","p":"He's coming to my place for dinner.","why":"来 + place: he comes to my place, then eats."}
+{"id":"serial.12","p":"I'm going to the bank to change money","why":"Where you go comes before the verb of what you do there: 去银行换钱."}
+{"id":"serial.13","p":"I take the subway to work","why":"How you go comes before the verb: 坐地铁去上班."}
+{"id":"serial.14","p":"I'm going to the store to buy two bottles of water","hint":"商店 (store) · 买 · 两 · 瓶 · 水","why":"Water in a bottle takes the measure word 瓶, and two before it is 两."}
+{"id":"a-not-a.01","q":"Are you busy? =","why":"No 很 and no 吗: just 忙不忙."}
+{"id":"a-not-a.02","q":"Which is the pinyin of 去不去？","why":"In a verb-not-verb question 不 takes the neutral tone: qù bu qù."}
+{"id":"a-not-a.03","q":"Do you have a car? =","why":"有 is negated with 没, so the question is 有没有."}
+{"id":"a-not-a.04","q":"Do you like coffee? =","why":"A two-character verb: 喜不喜欢 or 喜欢不喜欢, with no 吗."}
+{"id":"a-not-a.05","q":"How do you answer 你去不去？ with yes?","why":"Answer with the verb itself: 去 or 不去."}
+{"id":"a-not-a.06","p":"Are you coming tomorrow? (begin with 你)","why":"Time goes before the verb, even in a question: 你明天来不来？"}
+{"id":"a-not-a.07","p":"Is this book expensive?","why":"Books take the measure word 本: 这本书贵不贵？"}
+{"id":"a-not-a.08","p":"Do you have an older brother?","why":"有 takes 没, so the question is 有没有, with no 吗."}
+{"id":"a-not-a.09","p":"Are you going?","why":"Verb + 不 + verb makes the question: 去不去."}
+{"id":"a-not-a.10","p":"Do you have a Chinese book?","why":"有 is negated only with 没: 有没有."}
+{"id":"a-not-a.11","p":"Do you like tea?","why":"Say the whole verb again after 不: 喜欢不喜欢."}
+{"id":"a-not-a.12","p":"Are you coming tomorrow? (to a friend, use verb-not-verb)","why":"Time goes before the verb: 你明天来不来？"}
+{"id":"a-not-a.13","p":"Do you want this cup of tea? (to a friend, use verb-not-verb)","why":"A cup of something takes the measure word 杯: 这杯茶."}
+{"id":"a-not-a.14","p":"Is your older brother a teacher? (to a friend, use verb-not-verb)","why":"是不是 already asks the question, so there is no 吗."}
+{"id":"ye-dou.01","q":"I'm a student too =","why":"也 goes after the subject and before the verb."}
+{"id":"ye-dou.02","q":"Which is the pinyin of 也 (also)?","why":"也 has the third tone: yě."}
+{"id":"ye-dou.03","q":"We're all American =","why":"都 comes after 我们 and before the verb."}
+{"id":"ye-dou.04","q":"I haven't eaten yet =","why":"还没 + verb means not yet, with no 了."}
+{"id":"ye-dou.05","q":"None of us is going =","why":"都不 means none; 不都 means not all."}
+{"id":"ye-dou.06","p":"My dad is a teacher too","why":"也 goes before the verb, never at the end like English too."}
+{"id":"ye-dou.07","p":"We all like to drink tea","why":"都 goes after 我们 and before the verb: 我们都喜欢喝茶."}
+{"id":"ye-dou.08","p":"They're all at home","why":"都 goes before the verb 在: 他们都在家."}
+{"id":"ye-dou.09","p":"She's American too.","why":"也 (also) goes before 是: 她也是美国人."}
+{"id":"ye-dou.10","p":"We're all students.","why":"都 (all) looks back at 我们: 我们都是学生."}
+{"id":"ye-dou.11","p":"I haven't eaten yet.","why":"还没 means not yet."}
+{"id":"ye-dou.12","p":"I'm American too","why":"也 goes before the verb, not at the end like English too."}
+{"id":"ye-dou.13","p":"We both have a cat","why":"都 goes before the verb, and cats take the measure word 只."}
+{"id":"ye-dou.14","p":"My mom and dad are both busy","why":"都 goes before the verb or adjective, and adjectives take 很, not 是."}
+{"id":"ba-bie.01","q":"Let's go =","why":"吧 at the end of a 我们 sentence means let's."}
+{"id":"ba-bie.02","q":"Which is the pinyin of 请 (please)?","why":"请 has the third tone: qǐng; qíng with the second tone is 晴, sunny."}
+{"id":"ba-bie.03","q":"Don't worry =","why":"别 + verb means don't; 不 only says not."}
+{"id":"ba-bie.04","q":"Come in, please =","why":"请 goes first, then the verb."}
+{"id":"ba-bie.05","q":"Could you give me a hand? =","why":"麻烦你 goes first, then the request."}
+{"id":"ba-bie.06","p":"Let's eat at home (begin with 我们)","why":"Where it happens goes before the verb, and 吧 goes at the end."}
+{"id":"ba-bie.07","p":"Let's go to the hospital tomorrow (begin with 我们)","why":"Time goes before the verb: 我们明天去医院吧."}
+{"id":"ba-bie.08","p":"Please don't worry","why":"请 goes first, then 别 + verb for don't: 请别担心."}
+{"id":"ba-bie.09","p":"Let's go.","why":"吧 at the end makes it a suggestion: let's."}
+{"id":"ba-bie.10","p":"Don't worry.","why":"别 or 不要 + verb means don't."}
+{"id":"ba-bie.11","p":"Please have a seat.","why":"请 goes before the verb: 请坐."}
+{"id":"ba-bie.12","p":"Let's go to the supermarket tomorrow","why":"Time goes before the verb, and 吧 at the end makes it let's."}
+{"id":"ba-bie.13","p":"Let's buy two bottles of water","why":"Water in a bottle takes the measure word 瓶, and two before it is 两."}
+{"id":"ba-bie.14","p":"Don't drink coffee (to a friend)","why":"别 or 不要 + verb means don't; 没 is for what didn't happen."}
+{"id":"and-or.01","q":"tea and coffee =","why":"和 joins two nouns: 茶和咖啡."}
+{"id":"and-or.02","q":"Which is the pinyin of 和 (and)?","why":"和 has the second tone: hé; hē with the first tone is 喝, to drink."}
+{"id":"and-or.03","q":"Would you like noodles or rice? =","why":"In a question, or is 还是, and it needs no 吗."}
+{"id":"and-or.04","q":"I'm tired and I want to sleep =","why":"和 joins nouns, not sentences: just pause."}
+{"id":"and-or.05","q":"I'll go on Saturday or Sunday =","why":"In a statement, or is 或者."}
+{"id":"and-or.06","p":"Wang Ming and I are going together (begin with 我)","why":"一起 goes before the verb: 我和王明一起去."}
+{"id":"and-or.07","p":"I'll go on Saturday or Sunday (begin with 我)","why":"Time goes before the verb, and in a statement or is 或者."}
+{"id":"and-or.08","p":"Do you want this one or that one?","why":"In a question that asks someone to choose, or is 还是; 和 is and."}
+{"id":"and-or.09","p":"Would you like tea or coffee?","why":"In a question, or is 还是."}
+{"id":"and-or.10","p":"My mom and I are going together.","why":"和 joins two people: 我和我妈妈."}
+{"id":"and-or.11","p":"I'll go on Saturday or Sunday.","why":"In a statement, or is 或者."}
+{"id":"and-or.12","p":"My mom and I are going to the supermarket together","why":"一起 goes before the verb: 一起去超市."}
+{"id":"and-or.13","p":"Would you like tea or coffee? (to a customer)","why":"In a question, or is 还是."}
+{"id":"and-or.14","p":"I'd like a bowl of noodles and a cup of tea (use 要)","why":"Noodles in a bowl take the measure word 碗, and tea in a cup takes 杯."}

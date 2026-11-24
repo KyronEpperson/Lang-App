@@ -1,0 +1,2348 @@
+{"f":"course","id":"course","k":"name","src":"Chinese (Mandarin)","tgt":""}
+{"f":"groups","id":"zh.grp.sounds-and-script","k":"name","src":"Sounds and script","tgt":""}
+{"f":"groups","id":"zh.grp.first-steps","k":"name","src":"First steps","tgt":""}
+{"f":"groups","id":"zh.grp.everyday-words","k":"name","src":"Everyday words","tgt":""}
+{"f":"groups","id":"zh.grp.out-and-about","k":"name","src":"Out and about","tgt":""}
+{"f":"groups","id":"zh.grp.conversation","k":"name","src":"Conversation","tgt":""}
+{"f":"groups","id":"zh.grp.core-words","k":"name","src":"Core words","tgt":""}
+{"f":"labels","id":"zh.t01","k":"text","src":"Beginner","tgt":""}
+{"f":"labels","id":"zh.t03","k":"text","src":"Traveler","tgt":""}
+{"f":"labels","id":"zh.t05","k":"text","src":"Explorer","tgt":""}
+{"f":"labels","id":"zh.t08","k":"text","src":"Speaker","tgt":""}
+{"f":"labels","id":"zh.t12","k":"text","src":"Conversationalist","tgt":""}
+{"f":"labels","id":"zh.t16","k":"text","src":"Storyteller","tgt":""}
+{"f":"labels","id":"zh.t20","k":"text","src":"Master","tgt":""}
+{"f":"labels","id":"zh.h.night","k":"text","src":"Good night (you're up late)","tgt":""}
+{"f":"labels","id":"zh.h.morning","k":"text","src":"Good morning","tgt":""}
+{"f":"labels","id":"zh.h.afternoon","k":"text","src":"Good afternoon","tgt":""}
+{"f":"labels","id":"zh.h.evening","k":"text","src":"Good evening","tgt":""}
+{"f":"decks","id":"zh.d.pinyin-sounds","k":"label","src":"Pinyin sounds","tgt":""}
+{"f":"decks","id":"zh.d.pinyin-sounds","k":"desc","src":"One character per sound point: the initials and finals that English readers misread (b / p, j q x, zh ch sh r, z c s, e, ü, -i)","tgt":"","rw":"mentions English"}
+{"f":"decks","id":"zh.d.tone-pairs","k":"label","src":"Tone pairs","tgt":""}
+{"f":"decks","id":"zh.d.tone-pairs","k":"desc","src":"Same syllable, different tone, different word: 妈 麻 马 骂, 买 / 卖, 汤 / 糖, 问 / 吻","tgt":""}
+{"f":"decks","id":"zh.d.first-characters","k":"label","src":"First characters","tgt":""}
+{"f":"decks","id":"zh.d.first-characters","k":"desc","src":"Pictures and compounds to recognise: 人 口 木 山 日 月 女 子 好 明 休 林","tgt":""}
+{"f":"decks","id":"zh.d.greetings-and-courtesy","k":"label","src":"Greetings and courtesy","tgt":""}
+{"f":"decks","id":"zh.d.greetings-and-courtesy","k":"desc","src":"Hello, thank you, sorry, goodbye, and the polite 您","tgt":""}
+{"f":"decks","id":"zh.d.people-and-family","k":"label","src":"People and family","tgt":""}
+{"f":"decks","id":"zh.d.people-and-family","k":"desc","src":"Pronouns, family members and friends, and how to count a family","tgt":""}
+{"f":"decks","id":"zh.d.about-me","k":"label","src":"About me","tgt":""}
+{"f":"decks","id":"zh.d.about-me","k":"desc","src":"Name, nationality, age, where you live and what you study","tgt":""}
+{"f":"decks","id":"zh.d.numbers-and-money","k":"label","src":"Numbers and money","tgt":""}
+{"f":"decks","id":"zh.d.numbers-and-money","k":"desc","src":"Numbers to 100 and beyond, 二 and 两, prices in 块","tgt":""}
+{"f":"decks","id":"zh.d.measure-words","k":"label","src":"Measure words","tgt":""}
+{"f":"decks","id":"zh.d.measure-words","k":"desc","src":"Number or this / that + measure word + noun: 个, 本, 杯, 张, 件, 只, 双","tgt":""}
+{"f":"decks","id":"zh.d.food-and-drink","k":"label","src":"Food and drink","tgt":""}
+{"f":"decks","id":"zh.d.food-and-drink","k":"desc","src":"Dumplings, noodles, tea and coffee, and ordering and paying in a restaurant","tgt":""}
+{"f":"decks","id":"zh.d.shopping","k":"label","src":"Shopping","tgt":""}
+{"f":"decks","id":"zh.d.shopping","k":"desc","src":"Prices, sizes, haggling a little, and paying by phone","tgt":""}
+{"f":"decks","id":"zh.d.time-days-and-dates","k":"label","src":"Time, days and dates","tgt":""}
+{"f":"decks","id":"zh.d.time-days-and-dates","k":"desc","src":"Clock time, days of the week, dates, today and tomorrow","tgt":""}
+{"f":"decks","id":"zh.d.around-town-and-directions","k":"label","src":"Around town and directions","tgt":""}
+{"f":"decks","id":"zh.d.around-town-and-directions","k":"desc","src":"Where things are, left and right, and asking the way","tgt":""}
+{"f":"decks","id":"zh.d.travel-and-transport","k":"label","src":"Travel and transport","tgt":""}
+{"f":"decks","id":"zh.d.travel-and-transport","k":"desc","src":"Taxis, the subway, high-speed trains, tickets and hotels","tgt":""}
+{"f":"decks","id":"zh.d.work-and-study","k":"label","src":"Work and study","tgt":""}
+{"f":"decks","id":"zh.d.work-and-study","k":"desc","src":"Jobs, school, learning Chinese, and what you can do","tgt":""}
+{"f":"decks","id":"zh.d.health-and-help","k":"label","src":"Health and help","tgt":""}
+{"f":"decks","id":"zh.d.health-and-help","k":"desc","src":"Feeling sick, the pharmacy, the doctor, and asking for help","tgt":""}
+{"f":"decks","id":"zh.d.describing-things","k":"label","src":"Describing things","tgt":""}
+{"f":"decks","id":"zh.d.describing-things","k":"desc","src":"Adjectives for people, food, weather and things, with 很 and 太","tgt":""}
+{"f":"decks","id":"zh.d.questions-and-connectors","k":"label","src":"Questions and connectors","tgt":""}
+{"f":"decks","id":"zh.d.questions-and-connectors","k":"desc","src":"Question words, 吗 and 呢, verb-not-verb, and the words that join ideas","tgt":""}
+{"f":"decks","id":"zh.d.traps-for-english-speakers","k":"label","src":"Traps for English speakers","tgt":"","rw":"mentions English"}
+{"f":"decks","id":"zh.d.traps-for-english-speakers","k":"desc","src":"False friends, calques, 是 with adjectives, 不 and 没, 二 and 两, and polite-sounding mistakes","tgt":""}
+{"f":"decks","id":"zh.d.top-nouns","k":"label","src":"Top nouns","tgt":""}
+{"f":"decks","id":"zh.d.top-nouns","k":"desc","src":"The most-used nouns: people, places, things, time and everyday objects","tgt":""}
+{"f":"decks","id":"zh.d.top-verbs","k":"label","src":"Top verbs","tgt":""}
+{"f":"decks","id":"zh.d.top-verbs","k":"desc","src":"The most-used verbs, with the complements that go with them (听懂, 吃完, 回来)","tgt":""}
+{"f":"decks","id":"zh.d.top-adjectives","k":"label","src":"Top adjectives","tgt":""}
+{"f":"decks","id":"zh.d.top-adjectives","k":"desc","src":"Adjectives work like verbs: 她很忙, no 是. Size, taste, weather, feelings and colors","tgt":""}
+{"f":"decks","id":"zh.d.top-adverbs","k":"label","src":"Top adverbs","tgt":""}
+{"f":"decks","id":"zh.d.top-adverbs","k":"desc","src":"Not, also, all, still, already, only, again, very: the small words before the verb","tgt":""}
+{"f":"decks","id":"zh.d.top-pronouns","k":"label","src":"Top pronouns","tgt":""}
+{"f":"decks","id":"zh.d.top-pronouns","k":"desc","src":"I, you, 您, 咱们, this, that, here, there, mine, whose: the whole useful set","tgt":""}
+{"f":"decks","id":"zh.d.top-prepositions-coverbs","k":"label","src":"Top prepositions (coverbs)","tgt":""}
+{"f":"decks","id":"zh.d.top-prepositions-coverbs","k":"desc","src":"Chinese prepositions are verbs that come before the main verb (在, 给, 跟, 从, 把), plus location words","tgt":""}
+{"f":"decks","id":"zh.d.top-conjunctions","k":"label","src":"Top conjunctions","tgt":""}
+{"f":"decks","id":"zh.d.top-conjunctions","k":"desc","src":"And, or, but, if, because … so, when, both … and","tgt":""}
+{"f":"decks","id":"zh.d.top-interjections","k":"label","src":"Top interjections","tgt":""}
+{"f":"decks","id":"zh.d.top-interjections","k":"desc","src":"What people really say when surprised, cheering someone on, or giving up: 我的天, 加油, 算了","tgt":""}
+{"f":"decks","id":"zh.d.top-words","k":"label","src":"Top words","tgt":""}
+{"f":"decks","id":"zh.d.top-words","k":"desc","src":"Question words, numbers to twenty, yes and no, days, seasons and times","tgt":""}
+{"f":"decks","id":"zh.d.top-measure-words","k":"label","src":"Top measure words","tgt":""}
+{"f":"decks","id":"zh.d.top-measure-words","k":"desc","src":"More measure words beyond 个, 本, 杯: 次, 种, 份, 台, 部, 遍, 斤 and what they count","tgt":""}
+{"f":"decks","id":"zh.d.top-particles","k":"label","src":"Top particles","tgt":""}
+{"f":"decks","id":"zh.d.top-particles","k":"desc","src":"的, 了, 吗, 呢, 吧, 啊, 着, 过, 得: the little words that carry grammar","tgt":""}
+{"f":"decks","id":"zh.d.compliments","k":"label","src":"Compliments","tgt":""}
+{"f":"decks","id":"zh.d.compliments","k":"desc","src":"Praising food, homes, skills and effort, and how Chinese speakers answer praise (哪里哪里)","tgt":""}
+{"f":"decks","id":"zh.d.flirting","k":"label","src":"Flirting","tgt":""}
+{"f":"decks","id":"zh.d.flirting","k":"desc","src":"Pretty, handsome, cute, fun: the words, the phrases built from them, asking someone out, and kind ways to say no","tgt":""}
+{"f":"cards","id":"zh.c0001","k":"meaning","src":"eight","tgt":""}
+{"f":"cards","id":"zh.c0001","k":"note","src":"b has no puff of air. To English ears it can sound halfway between b and p.","tgt":"","rw":"mentions English"}
+{"f":"cards","id":"zh.c0001","k":"hvUse","src":"八 · bā","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0001","k":"hv","src":"八","tgt":""}
+{"f":"cards","id":"zh.c0001","k":"trad","src":"八","tgt":""}
+{"f":"cards","id":"zh.c0002","k":"meaning","src":"to be afraid","tgt":""}
+{"f":"cards","id":"zh.c0002","k":"note","src":"p has a strong puff of air, as in English \"pie\".","tgt":"","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"zh.c0002","k":"hvUse","src":"怕 · pà","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0002","k":"hv","src":"怕","tgt":""}
+{"f":"cards","id":"zh.c0002","k":"trad","src":"怕","tgt":""}
+{"f":"cards","id":"zh.c0003","k":"meaning","src":"right; correct","tgt":""}
+{"f":"cards","id":"zh.c0003","k":"note","src":"d has no puff of air. The final ui sounds like \"way\".","tgt":"","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"cards","id":"zh.c0003","k":"hvUse","src":"对 · duì","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0003","k":"hv","src":"对","tgt":""}
+{"f":"cards","id":"zh.c0003","k":"trad","src":"对","tgt":""}
+{"f":"cards","id":"zh.c0004","k":"meaning","src":"sky; day","tgt":""}
+{"f":"cards","id":"zh.c0004","k":"note","src":"t has a strong puff of air. The final ian sounds like \"yen\", not \"ee-ahn\".","tgt":"","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"cards","id":"zh.c0004","k":"hvUse","src":"天 · tiān","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0004","k":"hv","src":"天","tgt":""}
+{"f":"cards","id":"zh.c0004","k":"trad","src":"天","tgt":""}
+{"f":"cards","id":"zh.c0005","k":"meaning","src":"dog","tgt":""}
+{"f":"cards","id":"zh.c0005","k":"note","src":"g has no puff of air, like the k in \"skip\". ou sounds like \"oh\".","tgt":"","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"cards","id":"zh.c0005","k":"hvUse","src":"狗 · gǒu","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0005","k":"hv","src":"狗","tgt":""}
+{"f":"cards","id":"zh.c0005","k":"trad","src":"狗","tgt":""}
+{"f":"cards","id":"zh.c0006","k":"meaning","src":"to look; to watch","tgt":""}
+{"f":"cards","id":"zh.c0006","k":"note","src":"k has a strong puff of air, as in \"kite\".","tgt":"","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"zh.c0006","k":"hvUse","src":"看 · kàn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0006","k":"hv","src":"看","tgt":""}
+{"f":"cards","id":"zh.c0006","k":"trad","src":"看","tgt":""}
+{"f":"cards","id":"zh.c0007","k":"meaning","src":"chicken","tgt":""}
+{"f":"cards","id":"zh.c0007","k":"note","src":"j is like the j in \"jeep\", with the tip of the tongue down behind the lower teeth.","tgt":"","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"cards","id":"zh.c0007","k":"hvUse","src":"鸡 · jī","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0007","k":"hv","src":"鸡","tgt":""}
+{"f":"cards","id":"zh.c0007","k":"trad","src":"鸡","tgt":""}
+{"f":"cards","id":"zh.c0008","k":"meaning","src":"to go","tgt":""}
+{"f":"cards","id":"zh.c0008","k":"note","src":"q sounds like the ch in \"cheese\". After q, u is really ü.","tgt":"","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"cards","id":"zh.c0008","k":"hvUse","src":"去 · qù","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0008","k":"hv","src":"去","tgt":""}
+{"f":"cards","id":"zh.c0008","k":"trad","src":"去","tgt":""}
+{"f":"cards","id":"zh.c0009","k":"meaning","src":"to thank","tgt":""}
+{"f":"cards","id":"zh.c0009","k":"note","src":"x is like \"sh\" said with a smile, never \"ks\". Doubled, 谢谢 is \"thank you\".","tgt":""}
+{"f":"cards","id":"zh.c0009","k":"hvUse","src":"谢 · xiè","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0009","k":"hv","src":"谢","tgt":""}
+{"f":"cards","id":"zh.c0009","k":"trad","src":"谢","tgt":""}
+{"f":"cards","id":"zh.c0010","k":"meaning","src":"middle","tgt":""}
+{"f":"cards","id":"zh.c0010","k":"note","src":"zh is like the j in \"judge\" with the tongue curled back. As in 中国 (China).","tgt":"","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"zh.c0010","k":"hvUse","src":"中 · zhōng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0010","k":"hv","src":"中","tgt":""}
+{"f":"cards","id":"zh.c0010","k":"trad","src":"中","tgt":""}
+{"f":"cards","id":"zh.c0011","k":"meaning","src":"to eat","tgt":""}
+{"f":"cards","id":"zh.c0011","k":"note","src":"ch is like the ch in \"church\" with the tongue curled back. The i just buzzes: not \"chee\".","tgt":"","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"cards","id":"zh.c0011","k":"hvUse","src":"吃 · chī","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0011","k":"hv","src":"吃","tgt":""}
+{"f":"cards","id":"zh.c0011","k":"trad","src":"吃","tgt":""}
+{"f":"cards","id":"zh.c0012","k":"meaning","src":"to be (am, is, are)","tgt":""}
+{"f":"cards","id":"zh.c0012","k":"note","src":"sh with the tongue curled back, and the i is a buzz. Not \"shee\".","tgt":""}
+{"f":"cards","id":"zh.c0012","k":"hvUse","src":"是 · shì","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0012","k":"hv","src":"是","tgt":""}
+{"f":"cards","id":"zh.c0012","k":"trad","src":"是","tgt":""}
+{"f":"cards","id":"zh.c0013","k":"meaning","src":"sun; day","tgt":""}
+{"f":"cards","id":"zh.c0013","k":"note","src":"r here is like the s in \"measure\"; the vowel just buzzes. Not \"ree\".","tgt":"","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"cards","id":"zh.c0013","k":"hvUse","src":"日 · rì","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0013","k":"hv","src":"日","tgt":""}
+{"f":"cards","id":"zh.c0013","k":"trad","src":"日","tgt":""}
+{"f":"cards","id":"zh.c0014","k":"meaning","src":"written character","tgt":""}
+{"f":"cards","id":"zh.c0014","k":"note","src":"z sounds like the ds in \"kids\", and the i buzzes.","tgt":"","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"cards","id":"zh.c0014","k":"hvUse","src":"字 · zì","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0014","k":"hv","src":"字","tgt":""}
+{"f":"cards","id":"zh.c0014","k":"trad","src":"字","tgt":""}
+{"f":"cards","id":"zh.c0015","k":"meaning","src":"dish (of food); vegetables","tgt":""}
+{"f":"cards","id":"zh.c0015","k":"note","src":"c sounds like the ts in \"cats\", never like k.","tgt":"","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"cards","id":"zh.c0015","k":"hvUse","src":"菜 · cài","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0015","k":"hv","src":"菜","tgt":""}
+{"f":"cards","id":"zh.c0015","k":"trad","src":"菜","tgt":""}
+{"f":"cards","id":"zh.c0016","k":"meaning","src":"years old","tgt":""}
+{"f":"cards","id":"zh.c0016","k":"note","src":"s is a plain s, and ui sounds like \"way\": close to English \"sway\".","tgt":"","rw":"mentions English"}
+{"f":"cards","id":"zh.c0016","k":"hvUse","src":"岁 · suì","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0016","k":"hv","src":"岁","tgt":""}
+{"f":"cards","id":"zh.c0016","k":"trad","src":"岁","tgt":""}
+{"f":"cards","id":"zh.c0017","k":"meaning","src":"to drink","tgt":""}
+{"f":"cards","id":"zh.c0017","k":"note","src":"e sounds like the \"uh\" in \"duh\", not \"eh\". h is rougher than English h.","tgt":"","rw":"mentions English"}
+{"f":"cards","id":"zh.c0017","k":"hvUse","src":"喝 · hē","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0017","k":"hv","src":"喝","tgt":""}
+{"f":"cards","id":"zh.c0017","k":"trad","src":"喝","tgt":""}
+{"f":"cards","id":"zh.c0018","k":"meaning","src":"green","tgt":""}
+{"f":"cards","id":"zh.c0018","k":"note","src":"ü: say \"ee\" and round your lips. Written with the dots after l and n.","tgt":""}
+{"f":"cards","id":"zh.c0018","k":"hvUse","src":"绿 · lǜ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0018","k":"hv","src":"绿","tgt":""}
+{"f":"cards","id":"zh.c0018","k":"trad","src":"绿","tgt":""}
+{"f":"cards","id":"zh.c0019","k":"meaning","src":"mom (as in 妈妈)","tgt":"","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"zh.c0019","k":"note","src":"First tone: high and level, as if singing one note.","tgt":""}
+{"f":"cards","id":"zh.c0019","k":"hvUse","src":"妈 · mā","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0019","k":"hv","src":"妈","tgt":""}
+{"f":"cards","id":"zh.c0019","k":"trad","src":"妈","tgt":""}
+{"f":"cards","id":"zh.c0020","k":"meaning","src":"numb; tingly","tgt":""}
+{"f":"cards","id":"zh.c0020","k":"note","src":"Second tone: it rises, like a surprised \"Huh?\" Set: 妈 麻 马 骂.","tgt":""}
+{"f":"cards","id":"zh.c0020","k":"hvUse","src":"麻 · má","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0020","k":"hv","src":"麻","tgt":""}
+{"f":"cards","id":"zh.c0020","k":"trad","src":"麻","tgt":""}
+{"f":"cards","id":"zh.c0021","k":"meaning","src":"horse","tgt":""}
+{"f":"cards","id":"zh.c0021","k":"note","src":"Third tone: low. Said alone it dips and rises; before another tone it stays low.","tgt":""}
+{"f":"cards","id":"zh.c0021","k":"hvUse","src":"马 · mǎ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0021","k":"hv","src":"马","tgt":""}
+{"f":"cards","id":"zh.c0021","k":"trad","src":"马","tgt":""}
+{"f":"cards","id":"zh.c0022","k":"meaning","src":"to scold","tgt":""}
+{"f":"cards","id":"zh.c0022","k":"note","src":"Fourth tone: falls sharply, like a firm \"No!\"","tgt":""}
+{"f":"cards","id":"zh.c0022","k":"hvUse","src":"骂 · mà","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0022","k":"hv","src":"骂","tgt":""}
+{"f":"cards","id":"zh.c0022","k":"trad","src":"骂","tgt":""}
+{"f":"cards","id":"zh.c0023","k":"meaning","src":"to buy","tgt":""}
+{"f":"cards","id":"zh.c0023","k":"note","src":"Third tone. Same letters as 卖 (mài, to sell): the tone changes the deal.","tgt":""}
+{"f":"cards","id":"zh.c0023","k":"hvUse","src":"买 · mǎi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0023","k":"hv","src":"买","tgt":""}
+{"f":"cards","id":"zh.c0023","k":"trad","src":"买","tgt":""}
+{"f":"cards","id":"zh.c0024","k":"meaning","src":"to sell","tgt":""}
+{"f":"cards","id":"zh.c0024","k":"note","src":"Fourth tone: it falls. Mix up 买 and 卖 and you swap buyer and seller.","tgt":""}
+{"f":"cards","id":"zh.c0024","k":"hvUse","src":"卖 · mài","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0024","k":"hv","src":"卖","tgt":""}
+{"f":"cards","id":"zh.c0024","k":"trad","src":"卖","tgt":""}
+{"f":"cards","id":"zh.c0025","k":"meaning","src":"soup","tgt":""}
+{"f":"cards","id":"zh.c0025","k":"note","src":"First tone, high and level. With a rising tone it becomes 糖, sugar.","tgt":""}
+{"f":"cards","id":"zh.c0025","k":"hvUse","src":"汤 · tāng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0025","k":"hv","src":"汤","tgt":""}
+{"f":"cards","id":"zh.c0025","k":"trad","src":"汤","tgt":""}
+{"f":"cards","id":"zh.c0026","k":"meaning","src":"sugar; candy","tgt":""}
+{"f":"cards","id":"zh.c0026","k":"note","src":"Second tone: it rises. Said flat and high it is 汤, soup.","tgt":""}
+{"f":"cards","id":"zh.c0026","k":"hvUse","src":"糖 · táng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0026","k":"hv","src":"糖","tgt":""}
+{"f":"cards","id":"zh.c0026","k":"trad","src":"糖","tgt":""}
+{"f":"cards","id":"zh.c0027","k":"meaning","src":"to ask","tgt":""}
+{"f":"cards","id":"zh.c0027","k":"note","src":"Fourth tone: it falls. Said low, it becomes 吻 (to kiss).","tgt":""}
+{"f":"cards","id":"zh.c0027","k":"hvUse","src":"问 · wèn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0027","k":"hv","src":"问","tgt":""}
+{"f":"cards","id":"zh.c0027","k":"trad","src":"问","tgt":""}
+{"f":"cards","id":"zh.c0028","k":"meaning","src":"to kiss","tgt":""}
+{"f":"cards","id":"zh.c0028","k":"note","src":"Third tone: low. 我可以问你吗？ (May I ask you?) said with a low 问 asks for a kiss.","tgt":""}
+{"f":"cards","id":"zh.c0028","k":"hvUse","src":"吻 · wěn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0028","k":"hv","src":"吻","tgt":""}
+{"f":"cards","id":"zh.c0028","k":"trad","src":"吻","tgt":""}
+{"f":"cards","id":"zh.c0029","k":"meaning","src":"smoke; cigarette","tgt":""}
+{"f":"cards","id":"zh.c0029","k":"note","src":"First tone. The same letters with other tones: 盐 (salt) rises, 眼 (eye) dips.","tgt":""}
+{"f":"cards","id":"zh.c0029","k":"hvUse","src":"烟 · yān","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0029","k":"hv","src":"烟","tgt":""}
+{"f":"cards","id":"zh.c0029","k":"trad","src":"烟","tgt":""}
+{"f":"cards","id":"zh.c0030","k":"meaning","src":"salt","tgt":""}
+{"f":"cards","id":"zh.c0030","k":"note","src":"Second tone: it rises. Said flat and high it is 烟, smoke.","tgt":""}
+{"f":"cards","id":"zh.c0030","k":"hvUse","src":"盐 · yán","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0030","k":"hv","src":"盐","tgt":""}
+{"f":"cards","id":"zh.c0030","k":"trad","src":"盐","tgt":""}
+{"f":"cards","id":"zh.c0031","k":"meaning","src":"eye","tgt":""}
+{"f":"cards","id":"zh.c0031","k":"note","src":"Third tone: low. In speech usually 眼睛 (yǎnjing).","tgt":""}
+{"f":"cards","id":"zh.c0031","k":"hvUse","src":"眼 · yǎn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0031","k":"hv","src":"眼","tgt":""}
+{"f":"cards","id":"zh.c0031","k":"trad","src":"眼","tgt":""}
+{"f":"cards","id":"zh.c0032","k":"meaning","src":"seven","tgt":""}
+{"f":"cards","id":"zh.c0032","k":"note","src":"First tone. With a low third tone it is 起 (to get up); with a falling fourth tone, 气 (air).","tgt":""}
+{"f":"cards","id":"zh.c0032","k":"hvUse","src":"七 · qī","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0032","k":"hv","src":"七","tgt":""}
+{"f":"cards","id":"zh.c0032","k":"trad","src":"七","tgt":""}
+{"f":"cards","id":"zh.c0033","k":"meaning","src":"to get up (as in 起床)","tgt":"","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"zh.c0033","k":"note","src":"Third tone: low. 起床 is to get out of bed.","tgt":""}
+{"f":"cards","id":"zh.c0033","k":"hvUse","src":"起 · qǐ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0033","k":"hv","src":"起","tgt":""}
+{"f":"cards","id":"zh.c0033","k":"trad","src":"起","tgt":""}
+{"f":"cards","id":"zh.c0034","k":"meaning","src":"air; anger","tgt":""}
+{"f":"cards","id":"zh.c0034","k":"note","src":"Fourth tone: it falls. 生气 is to get angry.","tgt":""}
+{"f":"cards","id":"zh.c0034","k":"hvUse","src":"气 · qì","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0034","k":"hv","src":"气","tgt":""}
+{"f":"cards","id":"zh.c0034","k":"trad","src":"气","tgt":""}
+{"f":"cards","id":"zh.c0035","k":"meaning","src":"to have","tgt":""}
+{"f":"cards","id":"zh.c0035","k":"note","src":"Third tone: low. 又 (again) has the falling fourth tone.","tgt":""}
+{"f":"cards","id":"zh.c0035","k":"hvUse","src":"有 · yǒu","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0035","k":"hv","src":"有","tgt":""}
+{"f":"cards","id":"zh.c0035","k":"trad","src":"有","tgt":""}
+{"f":"cards","id":"zh.c0036","k":"meaning","src":"again","tgt":""}
+{"f":"cards","id":"zh.c0036","k":"note","src":"Fourth tone: it falls. 有 (to have) is the low third tone.","tgt":""}
+{"f":"cards","id":"zh.c0036","k":"hvUse","src":"又 · yòu","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0036","k":"hv","src":"又","tgt":""}
+{"f":"cards","id":"zh.c0036","k":"trad","src":"又","tgt":""}
+{"f":"cards","id":"zh.c0037","k":"meaning","src":"person","tgt":""}
+{"f":"cards","id":"zh.c0037","k":"note","src":"Looks like a person walking: two legs.","tgt":""}
+{"f":"cards","id":"zh.c0037","k":"hvUse","src":"人 · rén","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0037","k":"hv","src":"人","tgt":""}
+{"f":"cards","id":"zh.c0037","k":"trad","src":"人","tgt":""}
+{"f":"cards","id":"zh.c0038","k":"meaning","src":"mouth","tgt":""}
+{"f":"cards","id":"zh.c0038","k":"note","src":"Also the measure word for family members: 四口人.","tgt":""}
+{"f":"cards","id":"zh.c0038","k":"hvUse","src":"口 · kǒu","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0038","k":"hv","src":"口","tgt":""}
+{"f":"cards","id":"zh.c0038","k":"trad","src":"口","tgt":""}
+{"f":"cards","id":"zh.c0039","k":"meaning","src":"tree; wood","tgt":""}
+{"f":"cards","id":"zh.c0039","k":"note","src":"Two trees make 林 (woods), three make 森 (forest).","tgt":""}
+{"f":"cards","id":"zh.c0039","k":"hvUse","src":"木 · mù","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0039","k":"hv","src":"木","tgt":""}
+{"f":"cards","id":"zh.c0039","k":"trad","src":"木","tgt":""}
+{"f":"cards","id":"zh.c0040","k":"meaning","src":"woods","tgt":""}
+{"f":"cards","id":"zh.c0040","k":"note","src":"Two trees side by side. Also a common family name.","tgt":""}
+{"f":"cards","id":"zh.c0040","k":"hvUse","src":"林 · lín","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0040","k":"hv","src":"林","tgt":""}
+{"f":"cards","id":"zh.c0040","k":"trad","src":"林","tgt":""}
+{"f":"cards","id":"zh.c0041","k":"meaning","src":"forest","tgt":""}
+{"f":"cards","id":"zh.c0041","k":"note","src":"Three trees: more than a wood. Usually said 森林.","tgt":""}
+{"f":"cards","id":"zh.c0041","k":"hvUse","src":"森 · sēn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0041","k":"hv","src":"森","tgt":""}
+{"f":"cards","id":"zh.c0041","k":"trad","src":"森","tgt":""}
+{"f":"cards","id":"zh.c0042","k":"meaning","src":"mountain","tgt":""}
+{"f":"cards","id":"zh.c0042","k":"note","src":"Three peaks on a line.","tgt":""}
+{"f":"cards","id":"zh.c0042","k":"hvUse","src":"山 · shān","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0042","k":"hv","src":"山","tgt":""}
+{"f":"cards","id":"zh.c0042","k":"trad","src":"山","tgt":""}
+{"f":"cards","id":"zh.c0043","k":"meaning","src":"moon; month","tgt":""}
+{"f":"cards","id":"zh.c0043","k":"note","src":"Drawn from a crescent moon. 一月 is January.","tgt":""}
+{"f":"cards","id":"zh.c0043","k":"hvUse","src":"月 · yuè","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0043","k":"hv","src":"月","tgt":""}
+{"f":"cards","id":"zh.c0043","k":"trad","src":"月","tgt":""}
+{"f":"cards","id":"zh.c0044","k":"meaning","src":"bright","tgt":""}
+{"f":"cards","id":"zh.c0044","k":"note","src":"日 (sun) + 月 (moon). In 明天 it means \"next\" (tomorrow).","tgt":""}
+{"f":"cards","id":"zh.c0044","k":"hvUse","src":"明 · míng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0044","k":"hv","src":"明","tgt":""}
+{"f":"cards","id":"zh.c0044","k":"trad","src":"明","tgt":""}
+{"f":"cards","id":"zh.c0045","k":"meaning","src":"woman; female","tgt":""}
+{"f":"cards","id":"zh.c0045","k":"note","src":"On the left of a character it hints at women: 妈, 姐, 妹.","tgt":""}
+{"f":"cards","id":"zh.c0045","k":"hvUse","src":"女 · nǚ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0045","k":"hv","src":"女","tgt":""}
+{"f":"cards","id":"zh.c0045","k":"trad","src":"女","tgt":""}
+{"f":"cards","id":"zh.c0046","k":"meaning","src":"child","tgt":""}
+{"f":"cards","id":"zh.c0046","k":"note","src":"A baby with its arms out. Also a common noun ending: 饺子, 桌子.","tgt":""}
+{"f":"cards","id":"zh.c0046","k":"hvUse","src":"子 · zǐ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0046","k":"hv","src":"子","tgt":""}
+{"f":"cards","id":"zh.c0046","k":"trad","src":"子","tgt":""}
+{"f":"cards","id":"zh.c0047","k":"meaning","src":"good","tgt":""}
+{"f":"cards","id":"zh.c0047","k":"note","src":"女 (woman) + 子 (child).","tgt":""}
+{"f":"cards","id":"zh.c0047","k":"hvUse","src":"好 · hǎo","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0047","k":"hv","src":"好","tgt":""}
+{"f":"cards","id":"zh.c0047","k":"trad","src":"好","tgt":""}
+{"f":"cards","id":"zh.c0048","k":"meaning","src":"to rest","tgt":""}
+{"f":"cards","id":"zh.c0048","k":"note","src":"亻 (person) + 木 (tree): a person resting against a tree. As in 休息.","tgt":"","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"zh.c0048","k":"hvUse","src":"休 · xiū","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0048","k":"hv","src":"休","tgt":""}
+{"f":"cards","id":"zh.c0048","k":"trad","src":"休","tgt":""}
+{"f":"cards","id":"zh.c0049","k":"meaning","src":"up; on top","tgt":""}
+{"f":"cards","id":"zh.c0049","k":"note","src":"A mark above a line. 桌子上 is \"on the table\".","tgt":""}
+{"f":"cards","id":"zh.c0049","k":"hvUse","src":"上 · shàng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0049","k":"hv","src":"上","tgt":""}
+{"f":"cards","id":"zh.c0049","k":"trad","src":"上","tgt":""}
+{"f":"cards","id":"zh.c0050","k":"meaning","src":"down; below","tgt":""}
+{"f":"cards","id":"zh.c0050","k":"note","src":"A mark below a line. 下雨 is \"it's raining\": rain comes down.","tgt":""}
+{"f":"cards","id":"zh.c0050","k":"hvUse","src":"下 · xià","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0050","k":"hv","src":"下","tgt":""}
+{"f":"cards","id":"zh.c0050","k":"trad","src":"下","tgt":""}
+{"f":"cards","id":"zh.c0051","k":"meaning","src":"door; gate","tgt":""}
+{"f":"cards","id":"zh.c0051","k":"note","src":"A two-panel door, simplified. In traditional characters: 門.","tgt":""}
+{"f":"cards","id":"zh.c0051","k":"hvUse","src":"门 · mén","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0051","k":"hv","src":"门","tgt":""}
+{"f":"cards","id":"zh.c0051","k":"trad","src":"门","tgt":""}
+{"f":"cards","id":"zh.c0052","k":"meaning","src":"rain","tgt":""}
+{"f":"cards","id":"zh.c0052","k":"note","src":"Drops of rain falling under the sky.","tgt":""}
+{"f":"cards","id":"zh.c0052","k":"hvUse","src":"雨 · yǔ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0052","k":"hv","src":"雨","tgt":""}
+{"f":"cards","id":"zh.c0052","k":"trad","src":"雨","tgt":""}
+{"f":"cards","id":"zh.c0053","k":"meaning","src":"fire","tgt":""}
+{"f":"cards","id":"zh.c0053","k":"note","src":"A flame with two sparks. 火车 (fire + vehicle) is a train.","tgt":""}
+{"f":"cards","id":"zh.c0053","k":"hvUse","src":"火 · huǒ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0053","k":"hv","src":"火","tgt":""}
+{"f":"cards","id":"zh.c0053","k":"trad","src":"火","tgt":""}
+{"f":"cards","id":"zh.c0054","k":"meaning","src":"water","tgt":""}
+{"f":"cards","id":"zh.c0054","k":"note","src":"A stream with splashes. On the left of a character it becomes 氵: 汤, 酒.","tgt":""}
+{"f":"cards","id":"zh.c0054","k":"hvUse","src":"水 · shuǐ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0054","k":"hv","src":"水","tgt":""}
+{"f":"cards","id":"zh.c0054","k":"trad","src":"水","tgt":""}
+{"f":"cards","id":"zh.c0055","k":"meaning","src":"Hello!","tgt":""}
+{"f":"cards","id":"zh.c0055","k":"note","src":"Safe with anyone. To an older person or a customer: 您好！","tgt":""}
+{"f":"cards","id":"zh.c0056","k":"meaning","src":"Hello! (polite)","tgt":""}
+{"f":"cards","id":"zh.c0056","k":"note","src":"您 is the polite \"you\": for older people, teachers and customers.","tgt":""}
+{"f":"cards","id":"zh.c0057","k":"meaning","src":"Hello, everyone!","tgt":""}
+{"f":"cards","id":"zh.c0057","k":"note","src":"To a group or a class. 大家 means everybody.","tgt":""}
+{"f":"cards","id":"zh.c0058","k":"meaning","src":"Hello! (to a teacher)","tgt":""}
+{"f":"cards","id":"zh.c0058","k":"note","src":"Students greet the teacher by title, not by name.","tgt":""}
+{"f":"cards","id":"zh.c0059","k":"meaning","src":"Good morning!","tgt":""}
+{"f":"cards","id":"zh.c0059","k":"note","src":"For the morning. Friends often just say 早！","tgt":""}
+{"f":"cards","id":"zh.c0060","k":"meaning","src":"Good night!","tgt":""}
+{"f":"cards","id":"zh.c0060","k":"note","src":"Only when someone is going to bed, not as an evening hello.","tgt":""}
+{"f":"cards","id":"zh.c0061","k":"meaning","src":"How have you been?","tgt":""}
+{"f":"cards","id":"zh.c0061","k":"note","src":"A friendly catch-up. 你好吗？ is a real question about how someone is.","tgt":""}
+{"f":"cards","id":"zh.c0062","k":"meaning","src":"Nice to meet you.","tgt":""}
+{"f":"cards","id":"zh.c0062","k":"note","src":"Literally \"knowing you, I'm very happy\". 很高兴认识你 is just as common. To someone older: 认识您很高兴。","tgt":""}
+{"f":"cards","id":"zh.c0063","k":"meaning","src":"Thank you!","tgt":""}
+{"f":"cards","id":"zh.c0063","k":"note","src":"Among family and close friends Chinese says thank you less than English does.","tgt":"","rw":"mentions English"}
+{"f":"cards","id":"zh.c0064","k":"meaning","src":"Thank you! (polite)","tgt":""}
+{"f":"cards","id":"zh.c0064","k":"note","src":"To an older person, a teacher or a customer.","tgt":""}
+{"f":"cards","id":"zh.c0065","k":"meaning","src":"You're welcome.","tgt":""}
+{"f":"cards","id":"zh.c0065","k":"note","src":"Literally \"don't be polite\". bú, because 客 has the fourth tone.","tgt":""}
+{"f":"cards","id":"zh.c0066","k":"meaning","src":"I'm sorry!","tgt":""}
+{"f":"cards","id":"zh.c0066","k":"note","src":"A real apology: you bumped into someone, broke something, came late.","tgt":""}
+{"f":"cards","id":"zh.c0067","k":"meaning","src":"That's OK. / No problem.","tgt":""}
+{"f":"cards","id":"zh.c0067","k":"note","src":"The answer to 对不起 (sorry).","tgt":""}
+{"f":"cards","id":"zh.c0068","k":"meaning","src":"Excuse me. / Sorry about that.","tgt":""}
+{"f":"cards","id":"zh.c0068","k":"note","src":"For small things: getting attention, squeezing past, a short wait. Lighter than 对不起.","tgt":""}
+{"f":"cards","id":"zh.c0069","k":"meaning","src":"It's nothing. / Don't worry about it.","tgt":""}
+{"f":"cards","id":"zh.c0069","k":"note","src":"A casual answer to thanks or to a small apology.","tgt":""}
+{"f":"cards","id":"zh.c0070","k":"meaning","src":"Excuse me, may I ask…","tgt":""}
+{"f":"cards","id":"zh.c0070","k":"note","src":"Opens a question to a stranger: 请问，地铁站在哪儿？","tgt":""}
+{"f":"cards","id":"zh.c0070","k":"hvUse","src":"请问 · qǐngwèn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0070","k":"hv","src":"请问","tgt":""}
+{"f":"cards","id":"zh.c0070","k":"trad","src":"请问","tgt":""}
+{"f":"cards","id":"zh.c0071","k":"meaning","src":"Goodbye!","tgt":""}
+{"f":"cards","id":"zh.c0071","k":"note","src":"Literally \"again see\".","tgt":""}
+{"f":"cards","id":"zh.c0072","k":"meaning","src":"See you tomorrow!","tgt":""}
+{"f":"cards","id":"zh.c0072","k":"note","src":"A day + 见: 星期一见 is \"see you Monday\".","tgt":""}
+{"f":"cards","id":"zh.c0073","k":"meaning","src":"dad","tgt":""}
+{"f":"cards","id":"zh.c0073","k":"note","src":"Like 妈妈, the second syllable has the neutral tone.","tgt":""}
+{"f":"cards","id":"zh.c0073","k":"hvUse","src":"爸爸 · bàba","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0073","k":"hv","src":"爸爸","tgt":""}
+{"f":"cards","id":"zh.c0073","k":"trad","src":"爸爸","tgt":""}
+{"f":"cards","id":"zh.c0074","k":"meaning","src":"mom","tgt":""}
+{"f":"cards","id":"zh.c0074","k":"note","src":"The second 妈 has the neutral tone: māma.","tgt":""}
+{"f":"cards","id":"zh.c0074","k":"hvUse","src":"妈妈 · māma","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0074","k":"hv","src":"妈妈","tgt":""}
+{"f":"cards","id":"zh.c0074","k":"trad","src":"妈妈","tgt":""}
+{"f":"cards","id":"zh.c0075","k":"meaning","src":"older brother","tgt":""}
+{"f":"cards","id":"zh.c0075","k":"note","src":"There is no word for just \"brother\": older is 哥哥, younger is 弟弟.","tgt":""}
+{"f":"cards","id":"zh.c0075","k":"hvUse","src":"哥哥 · gēge","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0075","k":"hv","src":"哥哥","tgt":""}
+{"f":"cards","id":"zh.c0075","k":"trad","src":"哥哥","tgt":""}
+{"f":"cards","id":"zh.c0076","k":"meaning","src":"older sister","tgt":""}
+{"f":"cards","id":"zh.c0076","k":"note","src":"Younger sister: 妹妹.","tgt":""}
+{"f":"cards","id":"zh.c0076","k":"hvUse","src":"姐姐 · jiějie","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0076","k":"hv","src":"姐姐","tgt":""}
+{"f":"cards","id":"zh.c0076","k":"trad","src":"姐姐","tgt":""}
+{"f":"cards","id":"zh.c0077","k":"meaning","src":"younger brother","tgt":""}
+{"f":"cards","id":"zh.c0077","k":"note","src":"Older brother: 哥哥.","tgt":""}
+{"f":"cards","id":"zh.c0077","k":"hvUse","src":"弟弟 · dìdi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0077","k":"hv","src":"弟弟","tgt":""}
+{"f":"cards","id":"zh.c0077","k":"trad","src":"弟弟","tgt":""}
+{"f":"cards","id":"zh.c0078","k":"meaning","src":"younger sister","tgt":""}
+{"f":"cards","id":"zh.c0078","k":"note","src":"Older sister: 姐姐.","tgt":""}
+{"f":"cards","id":"zh.c0078","k":"hvUse","src":"妹妹 · mèimei","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0078","k":"hv","src":"妹妹","tgt":""}
+{"f":"cards","id":"zh.c0078","k":"trad","src":"妹妹","tgt":""}
+{"f":"cards","id":"zh.c0079","k":"meaning","src":"grandpa (dad's father)","tgt":""}
+{"f":"cards","id":"zh.c0079","k":"note","src":"Mom's father has his own word: 姥爷 or 外公.","tgt":""}
+{"f":"cards","id":"zh.c0079","k":"hvUse","src":"爷爷 · yéye","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0079","k":"hv","src":"爷爷","tgt":""}
+{"f":"cards","id":"zh.c0079","k":"trad","src":"爷爷","tgt":""}
+{"f":"cards","id":"zh.c0080","k":"meaning","src":"grandma (dad's mother)","tgt":""}
+{"f":"cards","id":"zh.c0080","k":"note","src":"Mom's mother has her own word: 姥姥 or 外婆.","tgt":""}
+{"f":"cards","id":"zh.c0080","k":"hvUse","src":"奶奶 · nǎinai","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0080","k":"hv","src":"奶奶","tgt":""}
+{"f":"cards","id":"zh.c0080","k":"trad","src":"奶奶","tgt":""}
+{"f":"cards","id":"zh.c0081","k":"meaning","src":"son","tgt":""}
+{"f":"cards","id":"zh.c0081","k":"note","src":"子 here has the neutral tone.","tgt":""}
+{"f":"cards","id":"zh.c0081","k":"hvUse","src":"儿子 · érzi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0081","k":"hv","src":"儿子","tgt":""}
+{"f":"cards","id":"zh.c0081","k":"trad","src":"儿子","tgt":""}
+{"f":"cards","id":"zh.c0082","k":"meaning","src":"daughter","tgt":""}
+{"f":"cards","id":"zh.c0082","k":"note","src":"女 (woman) + 儿 (child).","tgt":""}
+{"f":"cards","id":"zh.c0082","k":"hvUse","src":"女儿 · nǚ'ér","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0082","k":"hv","src":"女儿","tgt":""}
+{"f":"cards","id":"zh.c0082","k":"trad","src":"女儿","tgt":""}
+{"f":"cards","id":"zh.c0083","k":"meaning","src":"friend","tgt":""}
+{"f":"cards","id":"zh.c0083","k":"note","src":"我朋友 and 我的朋友 both mean \"my friend\".","tgt":""}
+{"f":"cards","id":"zh.c0083","k":"hvUse","src":"朋友 · péngyou","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0083","k":"hv","src":"朋友","tgt":""}
+{"f":"cards","id":"zh.c0083","k":"trad","src":"朋友","tgt":""}
+{"f":"cards","id":"zh.c0084","k":"meaning","src":"we; us","tgt":""}
+{"f":"cards","id":"zh.c0084","k":"note","src":"们 makes a plural for people: 我们, 你们, 他们.","tgt":""}
+{"f":"cards","id":"zh.c0084","k":"hvUse","src":"我们 · wǒmen","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0084","k":"hv","src":"我们","tgt":""}
+{"f":"cards","id":"zh.c0084","k":"trad","src":"我们","tgt":""}
+{"f":"cards","id":"zh.c0085","k":"meaning","src":"they; them","tgt":""}
+{"f":"cards","id":"zh.c0085","k":"note","src":"For men or mixed groups. Women only: 她们. Both are said tāmen.","tgt":""}
+{"f":"cards","id":"zh.c0085","k":"hvUse","src":"他们 · tāmen","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0085","k":"hv","src":"他们","tgt":""}
+{"f":"cards","id":"zh.c0085","k":"trad","src":"他们","tgt":""}
+{"f":"cards","id":"zh.c0086","k":"meaning","src":"How many people are in your family?","tgt":""}
+{"f":"cards","id":"zh.c0086","k":"note","src":"几 asks for a small number; 口 counts family members.","tgt":""}
+{"f":"cards","id":"zh.c0087","k":"meaning","src":"There are four people in my family.","tgt":""}
+{"f":"cards","id":"zh.c0087","k":"note","src":"口 is the measure word for family members.","tgt":""}
+{"f":"cards","id":"zh.c0088","k":"meaning","src":"I have an older brother.","tgt":""}
+{"f":"cards","id":"zh.c0088","k":"note","src":"Number + measure word + noun. Two older brothers: 两个哥哥.","tgt":""}
+{"f":"cards","id":"zh.c0089","k":"meaning","src":"I don't have any brothers or sisters.","tgt":""}
+{"f":"cards","id":"zh.c0089","k":"note","src":"没有, never 不有.","tgt":""}
+{"f":"cards","id":"zh.c0090","k":"meaning","src":"auntie (a woman your parents' age)","tgt":""}
+{"f":"cards","id":"zh.c0090","k":"note","src":"Also for a family friend, a neighbor or a cleaner. For a man: 叔叔.","tgt":""}
+{"f":"cards","id":"zh.c0090","k":"hvUse","src":"阿姨 · āyí","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0090","k":"hv","src":"阿姨","tgt":""}
+{"f":"cards","id":"zh.c0090","k":"trad","src":"阿姨","tgt":""}
+{"f":"cards","id":"zh.c0091","k":"meaning","src":"My name is Anna.","tgt":""}
+{"f":"cards","id":"zh.c0091","k":"note","src":"叫 = to be called. Chinese names put the family name first.","tgt":""}
+{"f":"cards","id":"zh.c0092","k":"meaning","src":"What's your name?","tgt":""}
+{"f":"cards","id":"zh.c0092","k":"note","src":"To a peer or a child. 什么 (what) sits where the answer goes.","tgt":""}
+{"f":"cards","id":"zh.c0093","k":"meaning","src":"What's your surname? (polite)","tgt":""}
+{"f":"cards","id":"zh.c0093","k":"note","src":"Answer 我姓王 (my surname is Wang), not 我贵姓.","tgt":""}
+{"f":"cards","id":"zh.c0094","k":"meaning","src":"My last name is Wang.","tgt":""}
+{"f":"cards","id":"zh.c0094","k":"note","src":"姓 = to have the surname. The usual answer to 您贵姓？","tgt":""}
+{"f":"cards","id":"zh.c0095","k":"meaning","src":"I'm American.","tgt":""}
+{"f":"cards","id":"zh.c0095","k":"note","src":"Country + 人 (person): 美国人, 中国人.","tgt":""}
+{"f":"cards","id":"zh.c0096","k":"meaning","src":"What country are you from?","tgt":""}
+{"f":"cards","id":"zh.c0096","k":"note","src":"Literally \"you are which-country person?\"","tgt":""}
+{"f":"cards","id":"zh.c0097","k":"meaning","src":"I'm not Chinese.","tgt":""}
+{"f":"cards","id":"zh.c0097","k":"note","src":"不 before 是 is said bú, because 是 has the fourth tone.","tgt":""}
+{"f":"cards","id":"zh.c0098","k":"meaning","src":"I'm American too.","tgt":""}
+{"f":"cards","id":"zh.c0098","k":"note","src":"也 (also) goes before the verb, never at the end like \"too\".","tgt":""}
+{"f":"cards","id":"zh.c0099","k":"meaning","src":"We're all American.","tgt":""}
+{"f":"cards","id":"zh.c0099","k":"note","src":"都 (all) goes after the subject and before the verb.","tgt":""}
+{"f":"cards","id":"zh.c0100","k":"meaning","src":"I live in New York.","tgt":""}
+{"f":"cards","id":"zh.c0100","k":"note","src":"With 住 (live), 在 + place comes after the verb; with most verbs it goes before.","tgt":""}
+{"f":"cards","id":"zh.c0101","k":"meaning","src":"Where do you live?","tgt":""}
+{"f":"cards","id":"zh.c0101","k":"note","src":"哪儿 (where) takes the place of the answer. Also: 你住哪儿？","tgt":""}
+{"f":"cards","id":"zh.c0102","k":"meaning","src":"I'm 25 this year.","tgt":""}
+{"f":"cards","id":"zh.c0102","k":"note","src":"No 是 and no \"years old\" verb: just the number + 岁.","tgt":""}
+{"f":"cards","id":"zh.c0103","k":"meaning","src":"How old are you? (to an adult)","tgt":""}
+{"f":"cards","id":"zh.c0103","k":"note","src":"To a child: 你几岁？","tgt":""}
+{"f":"cards","id":"zh.c0104","k":"meaning","src":"I study Chinese.","tgt":""}
+{"f":"cards","id":"zh.c0104","k":"note","src":"中文 is the Chinese language; 汉语 means the same. 学习 (study) also works: 我学习中文.","tgt":""}
+{"f":"cards","id":"zh.c0105","k":"meaning","src":"I like to sing.","tgt":""}
+{"f":"cards","id":"zh.c0105","k":"note","src":"喜欢 + verb, with no word for \"to\" in between.","tgt":""}
+{"f":"cards","id":"zh.c0106","k":"meaning","src":"My hobby is reading.","tgt":""}
+{"f":"cards","id":"zh.c0106","k":"note","src":"爱好 = hobby. 看书, \"look at books\", is to read.","tgt":""}
+{"f":"cards","id":"zh.c0107","k":"meaning","src":"My dad is Chinese.","tgt":""}
+{"f":"cards","id":"zh.c0107","k":"note","src":"Close family usually takes no 的: 我爸爸.","tgt":""}
+{"f":"cards","id":"zh.c0108","k":"meaning","src":"zero","tgt":""}
+{"f":"cards","id":"zh.c0108","k":"note","src":"It also fills a gap inside a number: 一百零五 (105).","tgt":""}
+{"f":"cards","id":"zh.c0108","k":"hvUse","src":"零 · líng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0108","k":"hv","src":"零","tgt":""}
+{"f":"cards","id":"zh.c0108","k":"trad","src":"零","tgt":""}
+{"f":"cards","id":"zh.c0109","k":"meaning","src":"one","tgt":""}
+{"f":"cards","id":"zh.c0109","k":"note","src":"Said this way when counting. Before other words its tone changes: 一个, 一杯.","tgt":""}
+{"f":"cards","id":"zh.c0109","k":"hvUse","src":"一 · yī","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0109","k":"hv","src":"一","tgt":""}
+{"f":"cards","id":"zh.c0109","k":"trad","src":"一","tgt":""}
+{"f":"cards","id":"zh.c0110","k":"meaning","src":"two (when counting)","tgt":""}
+{"f":"cards","id":"zh.c0110","k":"note","src":"For counting, phone numbers and inside bigger numbers: 十二, 二十.","tgt":""}
+{"f":"cards","id":"zh.c0110","k":"hvUse","src":"二 · èr","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0110","k":"hv","src":"二","tgt":""}
+{"f":"cards","id":"zh.c0110","k":"trad","src":"二","tgt":""}
+{"f":"cards","id":"zh.c0111","k":"meaning","src":"two (before a measure word)","tgt":""}
+{"f":"cards","id":"zh.c0111","k":"note","src":"两个人, 两杯茶. Counting and in bigger numbers: 二 (十二, 二十).","tgt":""}
+{"f":"cards","id":"zh.c0111","k":"hvUse","src":"两 · liǎng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0111","k":"hv","src":"两","tgt":""}
+{"f":"cards","id":"zh.c0111","k":"trad","src":"两","tgt":""}
+{"f":"cards","id":"zh.c0112","k":"meaning","src":"three","tgt":""}
+{"f":"cards","id":"zh.c0112","k":"note","src":"","tgt":"","why":"no English note: write one if hvUse is same or shifted (it must show the reading), otherwise leave it empty"}
+{"f":"cards","id":"zh.c0112","k":"hvUse","src":"三 · sān","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0112","k":"hv","src":"三","tgt":""}
+{"f":"cards","id":"zh.c0112","k":"trad","src":"三","tgt":""}
+{"f":"cards","id":"zh.c0113","k":"meaning","src":"ten","tgt":""}
+{"f":"cards","id":"zh.c0113","k":"note","src":"Second tone. Easy to mix up with 四 (sì, four): listen for the sh.","tgt":""}
+{"f":"cards","id":"zh.c0113","k":"hvUse","src":"十 · shí","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0113","k":"hv","src":"十","tgt":""}
+{"f":"cards","id":"zh.c0113","k":"trad","src":"十","tgt":""}
+{"f":"cards","id":"zh.c0114","k":"meaning","src":"fifteen","tgt":""}
+{"f":"cards","id":"zh.c0114","k":"note","src":"Ten + five. Fifty is 五十: five tens.","tgt":""}
+{"f":"cards","id":"zh.c0114","k":"hvUse","src":"十五 · shíwǔ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0114","k":"hv","src":"十五","tgt":""}
+{"f":"cards","id":"zh.c0114","k":"trad","src":"十五","tgt":""}
+{"f":"cards","id":"zh.c0115","k":"meaning","src":"twenty","tgt":""}
+{"f":"cards","id":"zh.c0115","k":"note","src":"Two tens. Twenty-one: 二十一.","tgt":""}
+{"f":"cards","id":"zh.c0115","k":"hvUse","src":"二十 · èrshí","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0115","k":"hv","src":"二十","tgt":""}
+{"f":"cards","id":"zh.c0115","k":"trad","src":"二十","tgt":""}
+{"f":"cards","id":"zh.c0116","k":"meaning","src":"ninety-nine","tgt":""}
+{"f":"cards","id":"zh.c0116","k":"note","src":"Nine tens and nine: the top of the two-digit pattern.","tgt":""}
+{"f":"cards","id":"zh.c0116","k":"hvUse","src":"九十九 · jiǔshíjiǔ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0116","k":"hv","src":"九十九","tgt":""}
+{"f":"cards","id":"zh.c0116","k":"trad","src":"九十九","tgt":""}
+{"f":"cards","id":"zh.c0117","k":"meaning","src":"one hundred","tgt":""}
+{"f":"cards","id":"zh.c0117","k":"note","src":"一百五 is 150, short for 一百五十. 105 is 一百零五.","tgt":""}
+{"f":"cards","id":"zh.c0117","k":"hvUse","src":"一百 · yìbǎi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0117","k":"hv","src":"一百","tgt":""}
+{"f":"cards","id":"zh.c0117","k":"trad","src":"一百","tgt":""}
+{"f":"cards","id":"zh.c0118","k":"meaning","src":"one hundred and five","tgt":""}
+{"f":"cards","id":"zh.c0118","k":"note","src":"零 marks the empty tens place.","tgt":""}
+{"f":"cards","id":"zh.c0118","k":"hvUse","src":"一百零五 · yìbǎi líng wǔ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0118","k":"hv","src":"一百零五","tgt":""}
+{"f":"cards","id":"zh.c0118","k":"trad","src":"一百零五","tgt":""}
+{"f":"cards","id":"zh.c0119","k":"meaning","src":"one thousand","tgt":""}
+{"f":"cards","id":"zh.c0119","k":"note","src":"","tgt":"","why":"no English note: write one if hvUse is same or shifted (it must show the reading), otherwise leave it empty"}
+{"f":"cards","id":"zh.c0119","k":"hvUse","src":"一千 · yìqiān","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0119","k":"hv","src":"一千","tgt":""}
+{"f":"cards","id":"zh.c0119","k":"trad","src":"一千","tgt":""}
+{"f":"cards","id":"zh.c0120","k":"meaning","src":"ten thousand","tgt":""}
+{"f":"cards","id":"zh.c0120","k":"note","src":"Chinese groups big numbers by four zeros: 100,000 is 十万, ten ten-thousands.","tgt":""}
+{"f":"cards","id":"zh.c0120","k":"hvUse","src":"一万 · yíwàn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0120","k":"hv","src":"一万","tgt":""}
+{"f":"cards","id":"zh.c0120","k":"trad","src":"一万","tgt":""}
+{"f":"cards","id":"zh.c0121","k":"meaning","src":"How much is it?","tgt":""}
+{"f":"cards","id":"zh.c0121","k":"note","src":"多少 asks for any amount; 几 is only for small numbers you expect to be under ten.","tgt":""}
+{"f":"cards","id":"zh.c0122","k":"meaning","src":"one yuan","tgt":""}
+{"f":"cards","id":"zh.c0122","k":"note","src":"钱 (money) often follows the amount in speech: 十块钱.","tgt":""}
+{"f":"cards","id":"zh.c0122","k":"hvUse","src":"一块钱 · yí kuài qián","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0122","k":"hv","src":"一块钱","tgt":""}
+{"f":"cards","id":"zh.c0122","k":"trad","src":"一块钱","tgt":""}
+{"f":"cards","id":"zh.c0123","k":"meaning","src":"25 yuan","tgt":""}
+{"f":"cards","id":"zh.c0123","k":"note","src":"块 in speech, 元 on price tags.","tgt":""}
+{"f":"cards","id":"zh.c0123","k":"hvUse","src":"二十五块 · èrshíwǔ kuài","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0123","k":"hv","src":"二十五块","tgt":""}
+{"f":"cards","id":"zh.c0123","k":"trad","src":"二十五块","tgt":""}
+{"f":"cards","id":"zh.c0124","k":"meaning","src":"half a yuan (five mao)","tgt":""}
+{"f":"cards","id":"zh.c0124","k":"note","src":"毛 is a tenth of a yuan, in speech; on price tags it is 角.","tgt":""}
+{"f":"cards","id":"zh.c0124","k":"hvUse","src":"五毛 · wǔ máo","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0124","k":"hv","src":"五毛","tgt":""}
+{"f":"cards","id":"zh.c0124","k":"trad","src":"五毛","tgt":""}
+{"f":"cards","id":"zh.c0125","k":"meaning","src":"three yuan fifty","tgt":""}
+{"f":"cards","id":"zh.c0125","k":"note","src":"Short for 三块五毛: the last unit is often dropped.","tgt":""}
+{"f":"cards","id":"zh.c0125","k":"hvUse","src":"三块五 · sān kuài wǔ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0125","k":"hv","src":"三块五","tgt":""}
+{"f":"cards","id":"zh.c0125","k":"trad","src":"三块五","tgt":""}
+{"f":"cards","id":"zh.c0126","k":"meaning","src":"one person; a person","tgt":""}
+{"f":"cards","id":"zh.c0126","k":"note","src":"个 is the all-purpose measure word, but many nouns have their own.","tgt":""}
+{"f":"cards","id":"zh.c0126","k":"hvUse","src":"一个人 · yí ge rén","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0126","k":"hv","src":"一个人","tgt":""}
+{"f":"cards","id":"zh.c0126","k":"trad","src":"一个人","tgt":""}
+{"f":"cards","id":"zh.c0127","k":"meaning","src":"three books","tgt":""}
+{"f":"cards","id":"zh.c0127","k":"note","src":"本 for books and notebooks. Not 三书.","tgt":""}
+{"f":"cards","id":"zh.c0127","k":"hvUse","src":"三本书 · sān běn shū","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0127","k":"hv","src":"三本书","tgt":""}
+{"f":"cards","id":"zh.c0127","k":"trad","src":"三本书","tgt":""}
+{"f":"cards","id":"zh.c0128","k":"meaning","src":"a cup of coffee","tgt":""}
+{"f":"cards","id":"zh.c0128","k":"note","src":"杯 for cups and glasses: 一杯水, 两杯茶.","tgt":""}
+{"f":"cards","id":"zh.c0128","k":"hvUse","src":"一杯咖啡 · yì bēi kāfēi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0128","k":"hv","src":"一杯咖啡","tgt":""}
+{"f":"cards","id":"zh.c0128","k":"trad","src":"一杯咖啡","tgt":""}
+{"f":"cards","id":"zh.c0129","k":"meaning","src":"two tickets","tgt":""}
+{"f":"cards","id":"zh.c0129","k":"note","src":"张 for flat things: tickets, tables, photos, paper.","tgt":""}
+{"f":"cards","id":"zh.c0129","k":"hvUse","src":"两张票 · liǎng zhāng piào","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0129","k":"hv","src":"两张票","tgt":""}
+{"f":"cards","id":"zh.c0129","k":"trad","src":"两张票","tgt":""}
+{"f":"cards","id":"zh.c0130","k":"meaning","src":"a cat","tgt":""}
+{"f":"cards","id":"zh.c0130","k":"note","src":"只 (zhī) for most animals. The same character read zhǐ means \"only\".","tgt":""}
+{"f":"cards","id":"zh.c0130","k":"hvUse","src":"一只猫 · yì zhī māo","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0130","k":"hv","src":"一只猫","tgt":""}
+{"f":"cards","id":"zh.c0130","k":"trad","src":"一只猫","tgt":""}
+{"f":"cards","id":"zh.c0131","k":"meaning","src":"two dogs","tgt":""}
+{"f":"cards","id":"zh.c0131","k":"note","src":"只 again, for animals. 两, not 二, before a measure word.","tgt":""}
+{"f":"cards","id":"zh.c0131","k":"hvUse","src":"两只狗 · liǎng zhī gǒu","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0131","k":"hv","src":"两只狗","tgt":""}
+{"f":"cards","id":"zh.c0131","k":"trad","src":"两只狗","tgt":""}
+{"f":"cards","id":"zh.c0132","k":"meaning","src":"a fish","tgt":""}
+{"f":"cards","id":"zh.c0132","k":"note","src":"条 for long, thin things: fish, roads, pants.","tgt":""}
+{"f":"cards","id":"zh.c0132","k":"hvUse","src":"一条鱼 · yì tiáo yú","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0132","k":"hv","src":"一条鱼","tgt":""}
+{"f":"cards","id":"zh.c0132","k":"trad","src":"一条鱼","tgt":""}
+{"f":"cards","id":"zh.c0133","k":"meaning","src":"a piece of clothing","tgt":""}
+{"f":"cards","id":"zh.c0133","k":"note","src":"件 for clothes, especially tops and jackets.","tgt":""}
+{"f":"cards","id":"zh.c0133","k":"hvUse","src":"一件衣服 · yí jiàn yīfu","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0133","k":"hv","src":"一件衣服","tgt":""}
+{"f":"cards","id":"zh.c0133","k":"trad","src":"一件衣服","tgt":""}
+{"f":"cards","id":"zh.c0134","k":"meaning","src":"a pair of shoes","tgt":""}
+{"f":"cards","id":"zh.c0134","k":"note","src":"双 = a pair: shoes, socks, chopsticks.","tgt":""}
+{"f":"cards","id":"zh.c0134","k":"hvUse","src":"一双鞋 · yì shuāng xié","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0134","k":"hv","src":"一双鞋","tgt":""}
+{"f":"cards","id":"zh.c0134","k":"trad","src":"一双鞋","tgt":""}
+{"f":"cards","id":"zh.c0135","k":"meaning","src":"a bottle of water","tgt":""}
+{"f":"cards","id":"zh.c0135","k":"note","src":"瓶 = bottle.","tgt":""}
+{"f":"cards","id":"zh.c0135","k":"hvUse","src":"一瓶水 · yì píng shuǐ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0135","k":"hv","src":"一瓶水","tgt":""}
+{"f":"cards","id":"zh.c0135","k":"trad","src":"一瓶水","tgt":""}
+{"f":"cards","id":"zh.c0136","k":"meaning","src":"a car","tgt":""}
+{"f":"cards","id":"zh.c0136","k":"note","src":"辆 for cars, bikes and buses.","tgt":""}
+{"f":"cards","id":"zh.c0136","k":"hvUse","src":"一辆车 · yí liàng chē","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0136","k":"hv","src":"一辆车","tgt":""}
+{"f":"cards","id":"zh.c0136","k":"trad","src":"一辆车","tgt":""}
+{"f":"cards","id":"zh.c0137","k":"meaning","src":"a teacher (polite)","tgt":""}
+{"f":"cards","id":"zh.c0137","k":"note","src":"位 is the polite measure word for people.","tgt":""}
+{"f":"cards","id":"zh.c0137","k":"hvUse","src":"一位老师 · yí wèi lǎoshī","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0137","k":"hv","src":"一位老师","tgt":""}
+{"f":"cards","id":"zh.c0137","k":"trad","src":"一位老师","tgt":""}
+{"f":"cards","id":"zh.c0138","k":"meaning","src":"a restaurant","tgt":""}
+{"f":"cards","id":"zh.c0138","k":"note","src":"家 for shops, restaurants and companies.","tgt":""}
+{"f":"cards","id":"zh.c0138","k":"hvUse","src":"一家饭馆 · yì jiā fànguǎn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0138","k":"hv","src":"一家饭馆","tgt":""}
+{"f":"cards","id":"zh.c0138","k":"trad","src":"一家饭馆","tgt":""}
+{"f":"cards","id":"zh.c0139","k":"meaning","src":"this one","tgt":""}
+{"f":"cards","id":"zh.c0139","k":"note","src":"这 + measure word: 这个, 这本书.","tgt":""}
+{"f":"cards","id":"zh.c0139","k":"hvUse","src":"这个 · zhège","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0139","k":"hv","src":"这个","tgt":""}
+{"f":"cards","id":"zh.c0139","k":"trad","src":"这个","tgt":""}
+{"f":"cards","id":"zh.c0140","k":"meaning","src":"that one","tgt":""}
+{"f":"cards","id":"zh.c0140","k":"note","src":"","tgt":"","why":"no English note: write one if hvUse is same or shifted (it must show the reading), otherwise leave it empty"}
+{"f":"cards","id":"zh.c0140","k":"hvUse","src":"那个 · nàge","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0140","k":"hv","src":"那个","tgt":""}
+{"f":"cards","id":"zh.c0140","k":"trad","src":"那个","tgt":""}
+{"f":"cards","id":"zh.c0141","k":"meaning","src":"that table","tgt":""}
+{"f":"cards","id":"zh.c0141","k":"note","src":"那 + measure word + noun. 张 for tables, because the top is flat.","tgt":""}
+{"f":"cards","id":"zh.c0141","k":"hvUse","src":"那张桌子 · nà zhāng zhuōzi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0141","k":"hv","src":"那张桌子","tgt":""}
+{"f":"cards","id":"zh.c0141","k":"trad","src":"那张桌子","tgt":""}
+{"f":"cards","id":"zh.c0142","k":"meaning","src":"this book","tgt":""}
+{"f":"cards","id":"zh.c0142","k":"note","src":"No number needed: 这 + measure word + noun. Not 这书.","tgt":""}
+{"f":"cards","id":"zh.c0142","k":"hvUse","src":"这本书 · zhè běn shū","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0142","k":"hv","src":"这本书","tgt":""}
+{"f":"cards","id":"zh.c0142","k":"trad","src":"这本书","tgt":""}
+{"f":"cards","id":"zh.c0143","k":"meaning","src":"How many people?","tgt":""}
+{"f":"cards","id":"zh.c0143","k":"note","src":"几 + measure word asks for a small number. Restaurant staff ask politely: 几位？","tgt":""}
+{"f":"cards","id":"zh.c0144","k":"meaning","src":"dumplings","tgt":""}
+{"f":"cards","id":"zh.c0144","k":"note","src":"Northern family food, eaten at Chinese New Year.","tgt":""}
+{"f":"cards","id":"zh.c0144","k":"hvUse","src":"饺子 · jiǎozi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0144","k":"hv","src":"饺子","tgt":""}
+{"f":"cards","id":"zh.c0144","k":"trad","src":"饺子","tgt":""}
+{"f":"cards","id":"zh.c0145","k":"meaning","src":"steamed buns","tgt":""}
+{"f":"cards","id":"zh.c0145","k":"note","src":"Filled with meat or vegetables; a classic breakfast.","tgt":""}
+{"f":"cards","id":"zh.c0145","k":"hvUse","src":"包子 · bāozi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0145","k":"hv","src":"包子","tgt":""}
+{"f":"cards","id":"zh.c0145","k":"trad","src":"包子","tgt":""}
+{"f":"cards","id":"zh.c0146","k":"meaning","src":"rice (cooked)","tgt":""}
+{"f":"cards","id":"zh.c0146","k":"note","src":"饭 alone also means a meal: 吃饭 is to eat.","tgt":""}
+{"f":"cards","id":"zh.c0146","k":"hvUse","src":"米饭 · mǐfàn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0146","k":"hv","src":"米饭","tgt":""}
+{"f":"cards","id":"zh.c0146","k":"trad","src":"米饭","tgt":""}
+{"f":"cards","id":"zh.c0147","k":"meaning","src":"hot pot","tgt":""}
+{"f":"cards","id":"zh.c0147","k":"note","src":"A pot of broth on the table where everyone cooks their own meat and vegetables.","tgt":""}
+{"f":"cards","id":"zh.c0147","k":"hvUse","src":"火锅 · huǒguō","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0147","k":"hv","src":"火锅","tgt":""}
+{"f":"cards","id":"zh.c0147","k":"trad","src":"火锅","tgt":""}
+{"f":"cards","id":"zh.c0148","k":"meaning","src":"Peking duck","tgt":""}
+{"f":"cards","id":"zh.c0148","k":"note","src":"Wrapped in thin pancakes with sauce and scallions.","tgt":""}
+{"f":"cards","id":"zh.c0148","k":"hvUse","src":"北京烤鸭 · Běijīng kǎoyā","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0148","k":"hv","src":"北京烤鸭","tgt":""}
+{"f":"cards","id":"zh.c0148","k":"trad","src":"北京烤鸭","tgt":""}
+{"f":"cards","id":"zh.c0149","k":"meaning","src":"a bowl of noodles","tgt":""}
+{"f":"cards","id":"zh.c0149","k":"note","src":"碗 (bowl) is the measure word.","tgt":""}
+{"f":"cards","id":"zh.c0149","k":"hvUse","src":"一碗面条 · yì wǎn miàntiáo","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0149","k":"hv","src":"一碗面条","tgt":""}
+{"f":"cards","id":"zh.c0149","k":"trad","src":"一碗面条","tgt":""}
+{"f":"cards","id":"zh.c0150","k":"meaning","src":"green tea","tgt":""}
+{"f":"cards","id":"zh.c0150","k":"note","src":"红茶, literally \"red tea\", is black tea.","tgt":""}
+{"f":"cards","id":"zh.c0150","k":"hvUse","src":"绿茶 · lǜchá","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0150","k":"hv","src":"绿茶","tgt":""}
+{"f":"cards","id":"zh.c0150","k":"trad","src":"绿茶","tgt":""}
+{"f":"cards","id":"zh.c0151","k":"meaning","src":"What do you want to eat?","tgt":""}
+{"f":"cards","id":"zh.c0151","k":"note","src":"想 = would like. 什么 goes where the answer goes, after the verb.","tgt":""}
+{"f":"cards","id":"zh.c0152","k":"meaning","src":"I'd like a milk tea.","tgt":""}
+{"f":"cards","id":"zh.c0152","k":"note","src":"我要 is normal when ordering; 请给我 is softer.","tgt":""}
+{"f":"cards","id":"zh.c0153","k":"meaning","src":"We'll have a Kung Pao chicken.","tgt":""}
+{"f":"cards","id":"zh.c0153","k":"note","src":"来 + amount + dish is a very common way to order.","tgt":""}
+{"f":"cards","id":"zh.c0154","k":"meaning","src":"We're ready to order.","tgt":""}
+{"f":"cards","id":"zh.c0154","k":"note","src":"点菜 = to order dishes.","tgt":""}
+{"f":"cards","id":"zh.c0155","k":"meaning","src":"Not spicy, please.","tgt":""}
+{"f":"cards","id":"zh.c0155","k":"note","src":"Literally \"don't want the spicy kind\". A little spicy: 微辣.","tgt":""}
+{"f":"cards","id":"zh.c0156","k":"meaning","src":"mildly spicy","tgt":""}
+{"f":"cards","id":"zh.c0156","k":"note","src":"Say it when the server asks how spicy you want a dish.","tgt":""}
+{"f":"cards","id":"zh.c0156","k":"hvUse","src":"微辣 · wēilà","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0156","k":"hv","src":"微辣","tgt":""}
+{"f":"cards","id":"zh.c0156","k":"trad","src":"微辣","tgt":""}
+{"f":"cards","id":"zh.c0157","k":"meaning","src":"I don't eat meat.","tgt":""}
+{"f":"cards","id":"zh.c0157","k":"note","src":"不 for habits and choices.","tgt":""}
+{"f":"cards","id":"zh.c0158","k":"meaning","src":"a bottle of beer","tgt":""}
+{"f":"cards","id":"zh.c0158","k":"note","src":"Beer often comes in big bottles to share.","tgt":""}
+{"f":"cards","id":"zh.c0158","k":"hvUse","src":"一瓶啤酒 · yì píng píjiǔ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0158","k":"hv","src":"一瓶啤酒","tgt":""}
+{"f":"cards","id":"zh.c0158","k":"trad","src":"一瓶啤酒","tgt":""}
+{"f":"cards","id":"zh.c0159","k":"meaning","src":"I'm full.","tgt":""}
+{"f":"cards","id":"zh.c0159","k":"note","src":"了 shows a change: you weren't full before, now you are.","tgt":""}
+{"f":"cards","id":"zh.c0160","k":"meaning","src":"Can I get this to go?","tgt":""}
+{"f":"cards","id":"zh.c0160","k":"note","src":"打包 = to pack up leftovers or takeout.","tgt":""}
+{"f":"cards","id":"zh.c0161","k":"meaning","src":"Check, please!","tgt":""}
+{"f":"cards","id":"zh.c0161","k":"note","src":"Call the server 服务员, never 小姐.","tgt":""}
+{"f":"cards","id":"zh.c0162","k":"meaning","src":"That's too expensive!","tgt":""}
+{"f":"cards","id":"zh.c0162","k":"note","src":"太 + adjective + 了: too.","tgt":""}
+{"f":"cards","id":"zh.c0163","k":"meaning","src":"Could you make it a bit cheaper?","tgt":""}
+{"f":"cards","id":"zh.c0163","k":"note","src":"Fine in markets, not in malls or supermarkets.","tgt":""}
+{"f":"cards","id":"zh.c0164","k":"meaning","src":"Can I pay by scanning a code?","tgt":""}
+{"f":"cards","id":"zh.c0164","k":"note","src":"Most shops in China are paid by phone: you scan the shop's code.","tgt":""}
+{"f":"cards","id":"zh.c0165","k":"meaning","src":"Do you have it in a large?","tgt":""}
+{"f":"cards","id":"zh.c0165","k":"note","src":"Sizes: 大号, 中号, 小号.","tgt":""}
+{"f":"cards","id":"zh.c0166","k":"meaning","src":"I'm just looking.","tgt":""}
+{"f":"cards","id":"zh.c0166","k":"note","src":"Literally \"I'll look a little\": a doubled verb softens it.","tgt":""}
+{"f":"cards","id":"zh.c0167","k":"meaning","src":"How much is this (piece of clothing)?","tgt":""}
+{"f":"cards","id":"zh.c0167","k":"note","src":"件 is the measure word for tops and jackets: 这件衣服.","tgt":""}
+{"f":"cards","id":"zh.c0168","k":"meaning","src":"How much is it altogether?","tgt":""}
+{"f":"cards","id":"zh.c0168","k":"note","src":"一共 = in total. Ask this at the checkout.","tgt":""}
+{"f":"cards","id":"zh.c0169","k":"meaning","src":"I'll take this one.","tgt":""}
+{"f":"cards","id":"zh.c0169","k":"note","src":"Point and say it: you don't need to know the name of the thing.","tgt":""}
+{"f":"cards","id":"zh.c0170","k":"meaning","src":"Can I try it on?","tgt":""}
+{"f":"cards","id":"zh.c0170","k":"note","src":"试试 is a doubled verb: \"give it a try\".","tgt":""}
+{"f":"cards","id":"zh.c0171","k":"meaning","src":"Do you have other colors?","tgt":""}
+{"f":"cards","id":"zh.c0171","k":"note","src":"别的 = other, different.","tgt":""}
+{"f":"cards","id":"zh.c0172","k":"meaning","src":"Do you have a smaller one?","tgt":""}
+{"f":"cards","id":"zh.c0172","k":"note","src":"Adjective + 一点儿 = a little more so: 大一点儿, 便宜一点儿.","tgt":""}
+{"f":"cards","id":"zh.c0173","k":"meaning","src":"This one is too big.","tgt":""}
+{"f":"cards","id":"zh.c0173","k":"note","src":"Once you both know it's clothing, 这件 is enough: no need to repeat 衣服.","tgt":""}
+{"f":"cards","id":"zh.c0174","k":"meaning","src":"Is it on sale?","tgt":""}
+{"f":"cards","id":"zh.c0174","k":"note","src":"打折 = give a discount. On signs, 八折 means you pay 80%, i.e. 20% off.","tgt":""}
+{"f":"cards","id":"zh.c0175","k":"meaning","src":"Can I pay by credit card?","tgt":""}
+{"f":"cards","id":"zh.c0175","k":"note","src":"Big stores and hotels take cards; small shops often take only phone payments.","tgt":""}
+{"f":"cards","id":"zh.c0176","k":"meaning","src":"Is cash OK?","tgt":""}
+{"f":"cards","id":"zh.c0176","k":"note","src":"现金 = cash. Small shops may not have much change.","tgt":""}
+{"f":"cards","id":"zh.c0177","k":"meaning","src":"I'd like to buy a pair of shoes.","tgt":""}
+{"f":"cards","id":"zh.c0177","k":"note","src":"双 is the measure word for pairs: 一双鞋, 一双筷子.","tgt":""}
+{"f":"cards","id":"zh.c0178","k":"meaning","src":"I'll keep looking.","tgt":""}
+{"f":"cards","id":"zh.c0178","k":"note","src":"A polite way to leave without buying anything.","tgt":""}
+{"f":"cards","id":"zh.c0179","k":"meaning","src":"I don't want it after all.","tgt":""}
+{"f":"cards","id":"zh.c0179","k":"note","src":"了 here shows a change of mind.","tgt":""}
+{"f":"cards","id":"zh.c0180","k":"meaning","src":"tomorrow","tgt":""}
+{"f":"cards","id":"zh.c0180","k":"note","src":"Time words go before the verb: 我明天去.","tgt":""}
+{"f":"cards","id":"zh.c0180","k":"hvUse","src":"明天 · míngtiān","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0180","k":"hv","src":"明天","tgt":""}
+{"f":"cards","id":"zh.c0180","k":"trad","src":"明天","tgt":""}
+{"f":"cards","id":"zh.c0181","k":"meaning","src":"Monday","tgt":""}
+{"f":"cards","id":"zh.c0181","k":"note","src":"Weekday = 星期 + number; Sunday is 星期天 or 星期日.","tgt":""}
+{"f":"cards","id":"zh.c0181","k":"hvUse","src":"星期一 · xīngqīyī","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0181","k":"hv","src":"星期一","tgt":""}
+{"f":"cards","id":"zh.c0181","k":"trad","src":"星期一","tgt":""}
+{"f":"cards","id":"zh.c0182","k":"meaning","src":"What time is it now?","tgt":""}
+{"f":"cards","id":"zh.c0182","k":"note","src":"点 = o'clock. Two o'clock is 两点, not 二点.","tgt":""}
+{"f":"cards","id":"zh.c0183","k":"meaning","src":"half past three","tgt":""}
+{"f":"cards","id":"zh.c0183","k":"note","src":"半 = half.","tgt":""}
+{"f":"cards","id":"zh.c0183","k":"hvUse","src":"三点半 · sān diǎn bàn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0183","k":"hv","src":"三点半","tgt":""}
+{"f":"cards","id":"zh.c0183","k":"trad","src":"三点半","tgt":""}
+{"f":"cards","id":"zh.c0184","k":"meaning","src":"December 3","tgt":""}
+{"f":"cards","id":"zh.c0184","k":"note","src":"Month first, then day: big to small. In writing 日 often replaces 号.","tgt":""}
+{"f":"cards","id":"zh.c0185","k":"meaning","src":"What day is it today?","tgt":""}
+{"f":"cards","id":"zh.c0185","k":"note","src":"几 asks for the number: literally \"today is week-which-number?\"","tgt":""}
+{"f":"cards","id":"zh.c0186","k":"meaning","src":"What's the date today?","tgt":""}
+{"f":"cards","id":"zh.c0186","k":"note","src":"号 is the day of the month in speech.","tgt":""}
+{"f":"cards","id":"zh.c0187","k":"meaning","src":"Today is Friday.","tgt":""}
+{"f":"cards","id":"zh.c0187","k":"note","src":"With days and dates you can leave out 是.","tgt":""}
+{"f":"cards","id":"zh.c0188","k":"meaning","src":"yesterday","tgt":""}
+{"f":"cards","id":"zh.c0188","k":"note","src":"The day before yesterday is 前天; the day after tomorrow, 后天.","tgt":""}
+{"f":"cards","id":"zh.c0188","k":"hvUse","src":"昨天 · zuótiān","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0188","k":"hv","src":"昨天","tgt":""}
+{"f":"cards","id":"zh.c0188","k":"trad","src":"昨天","tgt":""}
+{"f":"cards","id":"zh.c0189","k":"meaning","src":"the weekend","tgt":""}
+{"f":"cards","id":"zh.c0189","k":"note","src":"星期六 and 星期天 together.","tgt":""}
+{"f":"cards","id":"zh.c0189","k":"hvUse","src":"周末 · zhōumò","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0189","k":"hv","src":"周末","tgt":""}
+{"f":"cards","id":"zh.c0189","k":"trad","src":"周末","tgt":""}
+{"f":"cards","id":"zh.c0190","k":"meaning","src":"2:10","tgt":"2:10","pre":1}
+{"f":"cards","id":"zh.c0190","k":"note","src":"分 = minutes. Two o'clock is always 两点, never 二点.","tgt":""}
+{"f":"cards","id":"zh.c0190","k":"hvUse","src":"两点十分 · liǎng diǎn shí fēn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0190","k":"hv","src":"两点十分","tgt":""}
+{"f":"cards","id":"zh.c0190","k":"trad","src":"两点十分","tgt":""}
+{"f":"cards","id":"zh.c0191","k":"meaning","src":"a quarter past eight","tgt":""}
+{"f":"cards","id":"zh.c0191","k":"note","src":"一刻 = a quarter of an hour. You can also say 八点十五.","tgt":""}
+{"f":"cards","id":"zh.c0191","k":"hvUse","src":"八点一刻 · bā diǎn yí kè","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0191","k":"hv","src":"八点一刻","tgt":""}
+{"f":"cards","id":"zh.c0191","k":"trad","src":"八点一刻","tgt":""}
+{"f":"cards","id":"zh.c0192","k":"meaning","src":"seven in the evening","tgt":""}
+{"f":"cards","id":"zh.c0192","k":"note","src":"Part of the day first, then the hour: big to small.","tgt":""}
+{"f":"cards","id":"zh.c0192","k":"hvUse","src":"晚上七点 · wǎnshang qī diǎn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0192","k":"hv","src":"晚上七点","tgt":""}
+{"f":"cards","id":"zh.c0192","k":"trad","src":"晚上七点","tgt":""}
+{"f":"cards","id":"zh.c0193","k":"meaning","src":"an hour","tgt":""}
+{"f":"cards","id":"zh.c0193","k":"note","src":"小时 is usually said with the measure word 个: 一个小时, 两个小时.","tgt":""}
+{"f":"cards","id":"zh.c0193","k":"hvUse","src":"一个小时 · yí ge xiǎoshí","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0193","k":"hv","src":"一个小时","tgt":""}
+{"f":"cards","id":"zh.c0193","k":"trad","src":"一个小时","tgt":""}
+{"f":"cards","id":"zh.c0194","k":"meaning","src":"ten minutes","tgt":""}
+{"f":"cards","id":"zh.c0194","k":"note","src":"分钟 counts minutes directly, with no 个.","tgt":""}
+{"f":"cards","id":"zh.c0194","k":"hvUse","src":"十分钟 · shí fēnzhōng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0194","k":"hv","src":"十分钟","tgt":""}
+{"f":"cards","id":"zh.c0194","k":"trad","src":"十分钟","tgt":""}
+{"f":"cards","id":"zh.c0195","k":"meaning","src":"I get up at seven every day.","tgt":""}
+{"f":"cards","id":"zh.c0195","k":"note","src":"When it happens goes before the verb: 每天七点起床.","tgt":""}
+{"f":"cards","id":"zh.c0196","k":"meaning","src":"See you Saturday.","tgt":""}
+{"f":"cards","id":"zh.c0196","k":"note","src":"Literally \"we Saturday meet\": the day goes before 见.","tgt":""}
+{"f":"cards","id":"zh.c0197","k":"meaning","src":"What time do you get off work?","tgt":""}
+{"f":"cards","id":"zh.c0197","k":"note","src":"几点 sits where the answer will go, before the verb.","tgt":""}
+{"f":"cards","id":"zh.c0198","k":"meaning","src":"Where's the restroom?","tgt":""}
+{"f":"cards","id":"zh.c0198","k":"note","src":"Thing + 在 + 哪儿. Also 厕所 (more direct).","tgt":""}
+{"f":"cards","id":"zh.c0199","k":"meaning","src":"go straight ahead","tgt":""}
+{"f":"cards","id":"zh.c0199","k":"note","src":"Also 一直走.","tgt":""}
+{"f":"cards","id":"zh.c0199","k":"hvUse","src":"往前走 · wǎng qián zǒu","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0199","k":"hv","src":"往前走","tgt":""}
+{"f":"cards","id":"zh.c0199","k":"trad","src":"往前走","tgt":""}
+{"f":"cards","id":"zh.c0200","k":"meaning","src":"turn left","tgt":""}
+{"f":"cards","id":"zh.c0200","k":"note","src":"Right: 右拐.","tgt":""}
+{"f":"cards","id":"zh.c0200","k":"hvUse","src":"左拐 · zuǒ guǎi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0200","k":"hv","src":"左拐","tgt":""}
+{"f":"cards","id":"zh.c0200","k":"trad","src":"左拐","tgt":""}
+{"f":"cards","id":"zh.c0201","k":"meaning","src":"The bank is next to the supermarket.","tgt":""}
+{"f":"cards","id":"zh.c0201","k":"note","src":"The place word comes after its noun: 超市旁边.","tgt":""}
+{"f":"cards","id":"zh.c0202","k":"meaning","src":"Is there a subway station nearby?","tgt":""}
+{"f":"cards","id":"zh.c0202","k":"note","src":"Place first, then 有: \"nearby has…\".","tgt":""}
+{"f":"cards","id":"zh.c0203","k":"meaning","src":"on the right; the right side","tgt":""}
+{"f":"cards","id":"zh.c0203","k":"note","src":"Left: 左边. 在右边 = it's on the right.","tgt":""}
+{"f":"cards","id":"zh.c0203","k":"hvUse","src":"右边 · yòubian","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0203","k":"hv","src":"右边","tgt":""}
+{"f":"cards","id":"zh.c0203","k":"trad","src":"右边","tgt":""}
+{"f":"cards","id":"zh.c0204","k":"meaning","src":"The hospital is across from the bank.","tgt":""}
+{"f":"cards","id":"zh.c0204","k":"note","src":"对面 (opposite) goes after the place it is opposite: 银行对面.","tgt":""}
+{"f":"cards","id":"zh.c0205","k":"meaning","src":"Turn right at the intersection.","tgt":""}
+{"f":"cards","id":"zh.c0205","k":"note","src":"Where (在路口) comes before the action (右拐).","tgt":""}
+{"f":"cards","id":"zh.c0206","k":"meaning","src":"Is it far from here?","tgt":""}
+{"f":"cards","id":"zh.c0206","k":"note","src":"离 = away from. Answers: 不远 (not far), 很近 (close).","tgt":""}
+{"f":"cards","id":"zh.c0207","k":"meaning","src":"It's a five-minute walk.","tgt":""}
+{"f":"cards","id":"zh.c0207","k":"note","src":"Literally \"walk five minutes\".","tgt":""}
+{"f":"cards","id":"zh.c0208","k":"meaning","src":"Excuse me, how do I get to Tiananmen?","tgt":""}
+{"f":"cards","id":"zh.c0208","k":"note","src":"去 + place + 怎么走: the standard way to ask the way.","tgt":""}
+{"f":"cards","id":"zh.c0209","k":"meaning","src":"It's right over there.","tgt":""}
+{"f":"cards","id":"zh.c0209","k":"note","src":"就 adds \"right, exactly\".","tgt":""}
+{"f":"cards","id":"zh.c0210","k":"meaning","src":"The park is up ahead.","tgt":""}
+{"f":"cards","id":"zh.c0210","k":"note","src":"前边 = in front, ahead; 后边 = behind.","tgt":""}
+{"f":"cards","id":"zh.c0211","k":"meaning","src":"traffic light","tgt":""}
+{"f":"cards","id":"zh.c0211","k":"note","src":"Literally \"red-green light\".","tgt":""}
+{"f":"cards","id":"zh.c0211","k":"hvUse","src":"红绿灯 · hónglǜdēng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0211","k":"hv","src":"红绿灯","tgt":""}
+{"f":"cards","id":"zh.c0211","k":"trad","src":"红绿灯","tgt":""}
+{"f":"cards","id":"zh.c0212","k":"meaning","src":"to cross the street","tgt":""}
+{"f":"cards","id":"zh.c0212","k":"note","src":"马路 = road; literally \"horse road\".","tgt":""}
+{"f":"cards","id":"zh.c0212","k":"hvUse","src":"过马路 · guò mǎlù","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0212","k":"hv","src":"过马路","tgt":""}
+{"f":"cards","id":"zh.c0212","k":"trad","src":"过马路","tgt":""}
+{"f":"cards","id":"zh.c0213","k":"meaning","src":"I'm going to the supermarket to buy some things.","tgt":""}
+{"f":"cards","id":"zh.c0213","k":"note","src":"Two verbs in a row: 去 + place + what you do there. No word for \"to\".","tgt":""}
+{"f":"cards","id":"zh.c0214","k":"meaning","src":"I'll wait for you at the park.","tgt":""}
+{"f":"cards","id":"zh.c0214","k":"note","src":"The place with 在 goes before the verb 等 (wait).","tgt":""}
+{"f":"cards","id":"zh.c0215","k":"meaning","src":"taxi","tgt":""}
+{"f":"cards","id":"zh.c0215","k":"note","src":"In Taiwan: 計程車. Most people now book rides on an app.","tgt":""}
+{"f":"cards","id":"zh.c0215","k":"hvUse","src":"出租车 · chūzūchē","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0215","k":"hv","src":"出租车","tgt":""}
+{"f":"cards","id":"zh.c0215","k":"trad","src":"出租车","tgt":""}
+{"f":"cards","id":"zh.c0216","k":"meaning","src":"subway","tgt":""}
+{"f":"cards","id":"zh.c0216","k":"note","src":"Pay with your phone or a transit card.","tgt":""}
+{"f":"cards","id":"zh.c0216","k":"hvUse","src":"地铁 · dìtiě","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0216","k":"hv","src":"地铁","tgt":""}
+{"f":"cards","id":"zh.c0216","k":"trad","src":"地铁","tgt":""}
+{"f":"cards","id":"zh.c0217","k":"meaning","src":"To the airport, please. (to a driver)","tgt":""}
+{"f":"cards","id":"zh.c0217","k":"note","src":"师傅 is the polite way to address a driver.","tgt":""}
+{"f":"cards","id":"zh.c0218","k":"meaning","src":"I'm taking the high-speed train to Shanghai.","tgt":""}
+{"f":"cards","id":"zh.c0218","k":"note","src":"How you travel goes before 去: 坐高铁去.","tgt":""}
+{"f":"cards","id":"zh.c0219","k":"meaning","src":"a ticket to Xi'an","tgt":""}
+{"f":"cards","id":"zh.c0219","k":"note","src":"The destination describes the ticket, so it comes before 票 with 的.","tgt":""}
+{"f":"cards","id":"zh.c0220","k":"meaning","src":"bus","tgt":""}
+{"f":"cards","id":"zh.c0220","k":"note","src":"In Taiwan: 公車.","tgt":""}
+{"f":"cards","id":"zh.c0220","k":"hvUse","src":"公交车 · gōngjiāochē","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0220","k":"hv","src":"公交车","tgt":""}
+{"f":"cards","id":"zh.c0220","k":"trad","src":"公交车","tgt":""}
+{"f":"cards","id":"zh.c0221","k":"meaning","src":"bicycle","tgt":""}
+{"f":"cards","id":"zh.c0221","k":"note","src":"In Taiwan: 腳踏車. Shared bikes are unlocked by scanning a code.","tgt":""}
+{"f":"cards","id":"zh.c0221","k":"hvUse","src":"自行车 · zìxíngchē","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0221","k":"hv","src":"自行车","tgt":""}
+{"f":"cards","id":"zh.c0221","k":"trad","src":"自行车","tgt":""}
+{"f":"cards","id":"zh.c0222","k":"meaning","src":"train station","tgt":""}
+{"f":"cards","id":"zh.c0222","k":"note","src":"Big cities have several: check which one your train leaves from.","tgt":""}
+{"f":"cards","id":"zh.c0222","k":"hvUse","src":"火车站 · huǒchēzhàn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0222","k":"hv","src":"火车站","tgt":""}
+{"f":"cards","id":"zh.c0222","k":"trad","src":"火车站","tgt":""}
+{"f":"cards","id":"zh.c0223","k":"meaning","src":"to fly; to take a plane","tgt":""}
+{"f":"cards","id":"zh.c0223","k":"note","src":"坐 (sit) is the verb for vehicles you ride in: 坐车, 坐地铁. Bikes take 骑 (ride).","tgt":""}
+{"f":"cards","id":"zh.c0223","k":"hvUse","src":"坐飞机 · zuò fēijī","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0223","k":"hv","src":"坐飞机","tgt":""}
+{"f":"cards","id":"zh.c0223","k":"trad","src":"坐飞机","tgt":""}
+{"f":"cards","id":"zh.c0224","k":"meaning","src":"passport","tgt":""}
+{"f":"cards","id":"zh.c0224","k":"note","src":"Hotels ask for it at check-in.","tgt":""}
+{"f":"cards","id":"zh.c0224","k":"hvUse","src":"护照 · hùzhào","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0224","k":"hv","src":"护照","tgt":""}
+{"f":"cards","id":"zh.c0224","k":"trad","src":"护照","tgt":""}
+{"f":"cards","id":"zh.c0225","k":"meaning","src":"Where's my passport?","tgt":""}
+{"f":"cards","id":"zh.c0225","k":"note","src":"Noun + 呢: \"where's…?\" when you can't find something.","tgt":""}
+{"f":"cards","id":"zh.c0226","k":"meaning","src":"luggage","tgt":""}
+{"f":"cards","id":"zh.c0226","k":"note","src":"One piece of luggage: 一件行李.","tgt":""}
+{"f":"cards","id":"zh.c0226","k":"hvUse","src":"行李 · xíngli","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0226","k":"hv","src":"行李","tgt":""}
+{"f":"cards","id":"zh.c0226","k":"trad","src":"行李","tgt":""}
+{"f":"cards","id":"zh.c0227","k":"meaning","src":"Do you have any rooms?","tgt":""}
+{"f":"cards","id":"zh.c0227","k":"note","src":"At a hotel front desk.","tgt":""}
+{"f":"cards","id":"zh.c0228","k":"meaning","src":"Stop here, please. (to a driver)","tgt":""}
+{"f":"cards","id":"zh.c0228","k":"note","src":"一下 softens a request: \"just for a moment\".","tgt":""}
+{"f":"cards","id":"zh.c0229","k":"meaning","src":"Let's take a taxi there.","tgt":""}
+{"f":"cards","id":"zh.c0229","k":"note","src":"打车 = get a taxi, or book a ride on an app.","tgt":""}
+{"f":"cards","id":"zh.c0230","k":"meaning","src":"What time does the train arrive?","tgt":""}
+{"f":"cards","id":"zh.c0230","k":"note","src":"几点 goes before the verb 到 (arrive).","tgt":""}
+{"f":"cards","id":"zh.c0231","k":"meaning","src":"We've arrived in Beijing.","tgt":""}
+{"f":"cards","id":"zh.c0231","k":"note","src":"了 at the end shows a change: now we're here.","tgt":""}
+{"f":"cards","id":"zh.c0232","k":"meaning","src":"I'm going to Xi'an for a trip.","tgt":""}
+{"f":"cards","id":"zh.c0232","k":"note","src":"旅游 = travel for fun. A business trip is 出差.","tgt":""}
+{"f":"cards","id":"zh.c0233","k":"meaning","src":"teacher","tgt":""}
+{"f":"cards","id":"zh.c0233","k":"note","src":"Also how you address your teacher: 王老师, or just 老师.","tgt":""}
+{"f":"cards","id":"zh.c0233","k":"hvUse","src":"老师 · lǎoshī","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0233","k":"hv","src":"老师","tgt":""}
+{"f":"cards","id":"zh.c0233","k":"trad","src":"老师","tgt":""}
+{"f":"cards","id":"zh.c0234","k":"meaning","src":"student","tgt":""}
+{"f":"cards","id":"zh.c0234","k":"note","src":"College student: 大学生.","tgt":""}
+{"f":"cards","id":"zh.c0234","k":"hvUse","src":"学生 · xuésheng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0234","k":"hv","src":"学生","tgt":""}
+{"f":"cards","id":"zh.c0234","k":"trad","src":"学生","tgt":""}
+{"f":"cards","id":"zh.c0235","k":"meaning","src":"I work at a bank.","tgt":""}
+{"f":"cards","id":"zh.c0235","k":"note","src":"Where you work goes before 工作.","tgt":""}
+{"f":"cards","id":"zh.c0236","k":"meaning","src":"What do you do (for work)?","tgt":""}
+{"f":"cards","id":"zh.c0236","k":"note","src":"Literally \"you do what work?\"","tgt":""}
+{"f":"cards","id":"zh.c0237","k":"meaning","src":"I can speak a little Chinese.","tgt":""}
+{"f":"cards","id":"zh.c0237","k":"note","src":"会 for a skill you learned.","tgt":""}
+{"f":"cards","id":"zh.c0238","k":"meaning","src":"She's a nurse.","tgt":""}
+{"f":"cards","id":"zh.c0238","k":"note","src":"No word for \"a\": just 是 + the job.","tgt":""}
+{"f":"cards","id":"zh.c0239","k":"meaning","src":"coworker","tgt":""}
+{"f":"cards","id":"zh.c0239","k":"note","src":"同 = same: 同事 (same work), 同学 (classmate).","tgt":""}
+{"f":"cards","id":"zh.c0239","k":"hvUse","src":"同事 · tóngshì","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0239","k":"hv","src":"同事","tgt":""}
+{"f":"cards","id":"zh.c0239","k":"trad","src":"同事","tgt":""}
+{"f":"cards","id":"zh.c0240","k":"meaning","src":"company","tgt":""}
+{"f":"cards","id":"zh.c0240","k":"note","src":"Counted with 家: 一家公司.","tgt":""}
+{"f":"cards","id":"zh.c0240","k":"hvUse","src":"公司 · gōngsī","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0240","k":"hv","src":"公司","tgt":""}
+{"f":"cards","id":"zh.c0240","k":"trad","src":"公司","tgt":""}
+{"f":"cards","id":"zh.c0241","k":"meaning","src":"manager","tgt":""}
+{"f":"cards","id":"zh.c0241","k":"note","src":"The owner of a small shop is 老板.","tgt":""}
+{"f":"cards","id":"zh.c0241","k":"hvUse","src":"经理 · jīnglǐ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0241","k":"hv","src":"经理","tgt":""}
+{"f":"cards","id":"zh.c0241","k":"trad","src":"经理","tgt":""}
+{"f":"cards","id":"zh.c0242","k":"meaning","src":"I'm learning Chinese.","tgt":""}
+{"f":"cards","id":"zh.c0242","k":"note","src":"在 before a verb: in the middle of doing it, now or these days.","tgt":""}
+{"f":"cards","id":"zh.c0243","k":"meaning","src":"What are you doing?","tgt":""}
+{"f":"cards","id":"zh.c0243","k":"note","src":"在 + verb for right now. Not 你是做什么.","tgt":""}
+{"f":"cards","id":"zh.c0244","k":"meaning","src":"I'm in a meeting right now.","tgt":""}
+{"f":"cards","id":"zh.c0244","k":"note","src":"正在 stresses \"right at this moment\".","tgt":""}
+{"f":"cards","id":"zh.c0245","k":"meaning","src":"Can you drive?","tgt":""}
+{"f":"cards","id":"zh.c0245","k":"note","src":"会 for a learned skill: driving, swimming, a language.","tgt":""}
+{"f":"cards","id":"zh.c0246","k":"meaning","src":"I can't come tomorrow.","tgt":""}
+{"f":"cards","id":"zh.c0246","k":"note","src":"能 = able to (time, health, permission); 会 is for skills you learned.","tgt":""}
+{"f":"cards","id":"zh.c0247","k":"meaning","src":"May I come in?","tgt":""}
+{"f":"cards","id":"zh.c0247","k":"note","src":"可以 = may, it's allowed.","tgt":""}
+{"f":"cards","id":"zh.c0248","k":"meaning","src":"There's an exam tomorrow.","tgt":""}
+{"f":"cards","id":"zh.c0248","k":"note","src":"No word for \"there\": time + 有 + thing.","tgt":""}
+{"f":"cards","id":"zh.c0249","k":"meaning","src":"Our class starts at eight.","tgt":""}
+{"f":"cards","id":"zh.c0249","k":"note","src":"上课 = have class; class ends: 下课.","tgt":""}
+{"f":"cards","id":"zh.c0250","k":"meaning","src":"library","tgt":""}
+{"f":"cards","id":"zh.c0250","k":"note","src":"馆 = a building for something, as in 饭馆 and 咖啡馆.","tgt":"","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"zh.c0250","k":"hvUse","src":"图书馆 · túshūguǎn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0250","k":"hv","src":"图书馆","tgt":""}
+{"f":"cards","id":"zh.c0250","k":"trad","src":"图书馆","tgt":""}
+{"f":"cards","id":"zh.c0251","k":"meaning","src":"I don't feel well.","tgt":""}
+{"f":"cards","id":"zh.c0251","k":"note","src":"Where does it hurt? 你哪儿不舒服？","tgt":""}
+{"f":"cards","id":"zh.c0252","k":"meaning","src":"I have a headache.","tgt":""}
+{"f":"cards","id":"zh.c0252","k":"note","src":"Body part + 疼: 肚子疼 (stomachache).","tgt":""}
+{"f":"cards","id":"zh.c0253","k":"meaning","src":"I have a cold.","tgt":""}
+{"f":"cards","id":"zh.c0253","k":"note","src":"了 here shows a change: I've caught a cold.","tgt":""}
+{"f":"cards","id":"zh.c0254","k":"meaning","src":"pharmacy","tgt":""}
+{"f":"cards","id":"zh.c0254","k":"note","src":"药 = medicine.","tgt":""}
+{"f":"cards","id":"zh.c0254","k":"hvUse","src":"药店 · yàodiàn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0254","k":"hv","src":"药店","tgt":""}
+{"f":"cards","id":"zh.c0254","k":"trad","src":"药店","tgt":""}
+{"f":"cards","id":"zh.c0255","k":"meaning","src":"Help!","tgt":""}
+{"f":"cards","id":"zh.c0255","k":"note","src":"For emergencies only. For everyday help: 请帮我一下.","tgt":""}
+{"f":"cards","id":"zh.c0256","k":"meaning","src":"I have a fever.","tgt":""}
+{"f":"cards","id":"zh.c0256","k":"note","src":"了 shows the change: I've come down with a fever.","tgt":""}
+{"f":"cards","id":"zh.c0257","k":"meaning","src":"My stomach hurts.","tgt":""}
+{"f":"cards","id":"zh.c0257","k":"note","src":"肚子 = belly. No \"my\" needed: 我肚子疼.","tgt":""}
+{"f":"cards","id":"zh.c0258","k":"meaning","src":"What's wrong? / Where does it hurt?","tgt":""}
+{"f":"cards","id":"zh.c0258","k":"note","src":"What a doctor asks. Literally \"where are you not comfortable?\"","tgt":""}
+{"f":"cards","id":"zh.c0259","k":"meaning","src":"I'd like to see a doctor.","tgt":""}
+{"f":"cards","id":"zh.c0259","k":"note","src":"看医生 = see a doctor; 看病 also works.","tgt":""}
+{"f":"cards","id":"zh.c0260","k":"meaning","src":"I have a bit of a cough.","tgt":""}
+{"f":"cards","id":"zh.c0260","k":"note","src":"有点儿 = a bit, usually about something unwelcome.","tgt":""}
+{"f":"cards","id":"zh.c0261","k":"meaning","src":"Could you help me, please?","tgt":""}
+{"f":"cards","id":"zh.c0261","k":"note","src":"一下 makes the request lighter: \"for a moment\".","tgt":""}
+{"f":"cards","id":"zh.c0262","k":"meaning","src":"Don't worry.","tgt":""}
+{"f":"cards","id":"zh.c0262","k":"note","src":"别 + verb = don't.","tgt":""}
+{"f":"cards","id":"zh.c0263","k":"meaning","src":"Be careful! / Watch out!","tgt":""}
+{"f":"cards","id":"zh.c0263","k":"note","src":"Shouted as a warning, or said kindly: 路上小心 (take care on the way).","tgt":""}
+{"f":"cards","id":"zh.c0264","k":"meaning","src":"Drink lots of water.","tgt":""}
+{"f":"cards","id":"zh.c0264","k":"note","src":"The standard advice for any illness, together with 多休息 (rest a lot).","tgt":""}
+{"f":"cards","id":"zh.c0265","k":"meaning","src":"Get some good rest.","tgt":""}
+{"f":"cards","id":"zh.c0265","k":"note","src":"吧 makes it friendly advice, not an order.","tgt":""}
+{"f":"cards","id":"zh.c0266","k":"meaning","src":"Are you feeling a bit better?","tgt":""}
+{"f":"cards","id":"zh.c0266","k":"note","src":"Adjective + 一点儿 + 了: a bit more so now.","tgt":""}
+{"f":"cards","id":"zh.c0267","k":"meaning","src":"I'm OK. / It's nothing.","tgt":""}
+{"f":"cards","id":"zh.c0267","k":"note","src":"Also used to brush off an apology.","tgt":""}
+{"f":"cards","id":"zh.c0268","k":"meaning","src":"Call the police!","tgt":""}
+{"f":"cards","id":"zh.c0268","k":"note","src":"Emergency numbers: 110 for the police, 120 for an ambulance.","tgt":""}
+{"f":"cards","id":"zh.c0269","k":"meaning","src":"big","tgt":""}
+{"f":"cards","id":"zh.c0269","k":"note","src":"Also \"old\" for age: 你多大？ (how old are you?)","tgt":""}
+{"f":"cards","id":"zh.c0269","k":"hvUse","src":"大 · dà","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0269","k":"hv","src":"大","tgt":""}
+{"f":"cards","id":"zh.c0269","k":"trad","src":"大","tgt":""}
+{"f":"cards","id":"zh.c0270","k":"meaning","src":"small; young","tgt":""}
+{"f":"cards","id":"zh.c0270","k":"note","src":"小王: a friendly way to call a younger person named Wang.","tgt":""}
+{"f":"cards","id":"zh.c0270","k":"hvUse","src":"小 · xiǎo","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0270","k":"hv","src":"小","tgt":""}
+{"f":"cards","id":"zh.c0270","k":"trad","src":"小","tgt":""}
+{"f":"cards","id":"zh.c0271","k":"meaning","src":"This is delicious.","tgt":""}
+{"f":"cards","id":"zh.c0271","k":"note","src":"好吃 = good to eat; 好喝 = good to drink.","tgt":""}
+{"f":"cards","id":"zh.c0272","k":"meaning","src":"It's cold today.","tgt":""}
+{"f":"cards","id":"zh.c0272","k":"note","src":"No 是 before an adjective; 很 is often just glue, not \"very\".","tgt":""}
+{"f":"cards","id":"zh.c0273","k":"meaning","src":"She's tall.","tgt":""}
+{"f":"cards","id":"zh.c0273","k":"note","src":"Not 她是高.","tgt":""}
+{"f":"cards","id":"zh.c0274","k":"meaning","src":"He's handsome.","tgt":""}
+{"f":"cards","id":"zh.c0274","k":"note","src":"帅 is the everyday word for a good-looking man.","tgt":""}
+{"f":"cards","id":"zh.c0275","k":"meaning","src":"She's beautiful.","tgt":""}
+{"f":"cards","id":"zh.c0275","k":"note","src":"For things, 好看 (nice-looking) is more common.","tgt":""}
+{"f":"cards","id":"zh.c0276","k":"meaning","src":"It looks great!","tgt":""}
+{"f":"cards","id":"zh.c0276","k":"note","src":"真 + adjective = really, so: an exclamation.","tgt":""}
+{"f":"cards","id":"zh.c0277","k":"meaning","src":"It's hot outside.","tgt":""}
+{"f":"cards","id":"zh.c0277","k":"note","src":"Weather words work like other adjectives: 很热, no 是.","tgt":""}
+{"f":"cards","id":"zh.c0278","k":"meaning","src":"I'm busy.","tgt":""}
+{"f":"cards","id":"zh.c0278","k":"note","src":"很 is light here. For \"very busy\", say 非常忙.","tgt":""}
+{"f":"cards","id":"zh.c0279","k":"meaning","src":"Chinese isn't hard.","tgt":""}
+{"f":"cards","id":"zh.c0279","k":"note","src":"不 + adjective, with no 是: not 中文不是难.","tgt":""}
+{"f":"cards","id":"zh.c0280","k":"meaning","src":"My room isn't big.","tgt":""}
+{"f":"cards","id":"zh.c0280","k":"note","src":"不 + adjective, no 是. 不 before a fourth tone is bú: bú dà.","tgt":""}
+{"f":"cards","id":"zh.c0281","k":"meaning","src":"It's lively here.","tgt":""}
+{"f":"cards","id":"zh.c0281","k":"note","src":"热闹 = busy, noisy and fun. Quiet: 安静.","tgt":""}
+{"f":"cards","id":"zh.c0282","k":"meaning","src":"This dish is spicy.","tgt":""}
+{"f":"cards","id":"zh.c0282","k":"note","src":"菜 = a dish, or vegetables.","tgt":""}
+{"f":"cards","id":"zh.c0283","k":"meaning","src":"It's a bit pricey.","tgt":""}
+{"f":"cards","id":"zh.c0283","k":"note","src":"有点儿 + adjective: a bit, and you don't like it.","tgt":""}
+{"f":"cards","id":"zh.c0284","k":"meaning","src":"He's a really nice person.","tgt":""}
+{"f":"cards","id":"zh.c0284","k":"note","src":"A longer describer goes before the noun, linked by 的: 很好的人.","tgt":""}
+{"f":"cards","id":"zh.c0285","k":"meaning","src":"a white car","tgt":""}
+{"f":"cards","id":"zh.c0285","k":"note","src":"The color goes before the noun, linked by 的; 辆 is the measure word for cars.","tgt":""}
+{"f":"cards","id":"zh.c0286","k":"meaning","src":"That's great!","tgt":""}
+{"f":"cards","id":"zh.c0286","k":"note","src":"太 … 了 can be happy too: \"too good\" means great.","tgt":""}
+{"f":"cards","id":"zh.c0287","k":"meaning","src":"What?","tgt":""}
+{"f":"cards","id":"zh.c0287","k":"note","src":"In a sentence it stays where the answer goes: 你吃什么？","tgt":""}
+{"f":"cards","id":"zh.c0288","k":"meaning","src":"Who?","tgt":""}
+{"f":"cards","id":"zh.c0288","k":"note","src":"Also said shuí.","tgt":""}
+{"f":"cards","id":"zh.c0289","k":"meaning","src":"And you?","tgt":""}
+{"f":"cards","id":"zh.c0289","k":"note","src":"Asks the same question back.","tgt":""}
+{"f":"cards","id":"zh.c0290","k":"meaning","src":"Tea or coffee?","tgt":""}
+{"f":"cards","id":"zh.c0290","k":"note","src":"还是 for \"or\" in a question.","tgt":""}
+{"f":"cards","id":"zh.c0291","k":"meaning","src":"but","tgt":""}
+{"f":"cards","id":"zh.c0291","k":"note","src":"Often paired with 虽然 (although) later on; at A1 it stands alone.","tgt":""}
+{"f":"cards","id":"zh.c0291","k":"hvUse","src":"但是 · dànshì","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0291","k":"hv","src":"但是","tgt":""}
+{"f":"cards","id":"zh.c0291","k":"trad","src":"但是","tgt":""}
+{"f":"cards","id":"zh.c0292","k":"meaning","src":"Why?","tgt":""}
+{"f":"cards","id":"zh.c0292","k":"note","src":"Answer with 因为 (because).","tgt":""}
+{"f":"cards","id":"zh.c0293","k":"meaning","src":"How is it? / How about it?","tgt":""}
+{"f":"cards","id":"zh.c0293","k":"note","src":"你最近怎么样？ = How have you been lately?","tgt":""}
+{"f":"cards","id":"zh.c0294","k":"meaning","src":"When?","tgt":""}
+{"f":"cards","id":"zh.c0294","k":"note","src":"In a sentence it goes before the verb: 你什么时候来？","tgt":""}
+{"f":"cards","id":"zh.c0295","k":"meaning","src":"Which one?","tgt":""}
+{"f":"cards","id":"zh.c0295","k":"note","src":"哪 (third tone) = which; 那 (fourth tone) = that.","tgt":""}
+{"f":"cards","id":"zh.c0296","k":"meaning","src":"Are you busy?","tgt":""}
+{"f":"cards","id":"zh.c0296","k":"note","src":"吗 turns a statement into a yes/no question. Answer 忙 or 不忙, not 是.","tgt":""}
+{"f":"cards","id":"zh.c0297","k":"meaning","src":"Are you going (or not)?","tgt":""}
+{"f":"cards","id":"zh.c0297","k":"note","src":"Verb + 不 + verb asks yes or no. Never add 吗 to it.","tgt":""}
+{"f":"cards","id":"zh.c0298","k":"meaning","src":"Do you have time?","tgt":""}
+{"f":"cards","id":"zh.c0298","k":"note","src":"有没有 is the verb-not-verb form of 有.","tgt":""}
+{"f":"cards","id":"zh.c0299","k":"meaning","src":"Do you like Chinese food?","tgt":""}
+{"f":"cards","id":"zh.c0299","k":"note","src":"With a two-character verb: 喜不喜欢 or 喜欢不喜欢.","tgt":""}
+{"f":"cards","id":"zh.c0300","k":"meaning","src":"How do you say this in Chinese?","tgt":""}
+{"f":"cards","id":"zh.c0300","k":"note","src":"怎么 + verb = how to do it.","tgt":""}
+{"f":"cards","id":"zh.c0301","k":"meaning","src":"because","tgt":""}
+{"f":"cards","id":"zh.c0301","k":"note","src":"Often paired: 因为…所以… (because … so …).","tgt":""}
+{"f":"cards","id":"zh.c0301","k":"hvUse","src":"因为 · yīnwèi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0301","k":"hv","src":"因为","tgt":""}
+{"f":"cards","id":"zh.c0301","k":"trad","src":"因为","tgt":""}
+{"f":"cards","id":"zh.c0302","k":"meaning","src":"so; therefore","tgt":""}
+{"f":"cards","id":"zh.c0302","k":"note","src":"Chinese can use \"because\" and \"so\" in one sentence; English picks one.","tgt":"","rw":"mentions English"}
+{"f":"cards","id":"zh.c0302","k":"hvUse","src":"所以 · suǒyǐ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0302","k":"hv","src":"所以","tgt":""}
+{"f":"cards","id":"zh.c0302","k":"trad","src":"所以","tgt":""}
+{"f":"cards","id":"zh.c0303","k":"meaning","src":"Saturday or Sunday","tgt":""}
+{"f":"cards","id":"zh.c0303","k":"note","src":"或者 for \"or\" in a statement; in a question, use 还是.","tgt":""}
+{"f":"cards","id":"zh.c0304","k":"meaning","src":"He and I are going together.","tgt":""}
+{"f":"cards","id":"zh.c0304","k":"note","src":"和 joins nouns (我和他); 一起 goes before the verb.","tgt":""}
+{"f":"cards","id":"zh.c0305","k":"meaning","src":"I'm happy. / I'm glad.","tgt":""}
+{"f":"cards","id":"zh.c0305","k":"note","src":"Not 我是高兴: adjectives take 很, not 是.","tgt":""}
+{"f":"cards","id":"zh.c0306","k":"meaning","src":"I didn't go.","tgt":""}
+{"f":"cards","id":"zh.c0306","k":"note","src":"没 for what did not happen, with no 了: not 我没去了. (我不去了 means \"I'm not going any more\".)","tgt":""}
+{"f":"cards","id":"zh.c0307","k":"meaning","src":"two people","tgt":""}
+{"f":"cards","id":"zh.c0307","k":"note","src":"两 before a measure word, never 二个人.","tgt":""}
+{"f":"cards","id":"zh.c0307","k":"hvUse","src":"两个人 · liǎng ge rén","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0307","k":"hv","src":"两个人","tgt":""}
+{"f":"cards","id":"zh.c0307","k":"trad","src":"两个人","tgt":""}
+{"f":"cards","id":"zh.c0308","k":"meaning","src":"Excuse me! (calling a server)","tgt":""}
+{"f":"cards","id":"zh.c0308","k":"note","src":"Not 小姐, which now suggests a sex worker in the mainland.","tgt":""}
+{"f":"cards","id":"zh.c0309","k":"meaning","src":"Have you eaten? (a greeting)","tgt":""}
+{"f":"cards","id":"zh.c0309","k":"note","src":"A friendly hello among people who know each other, not an invitation.","tgt":""}
+{"f":"cards","id":"zh.c0310","k":"meaning","src":"I'm tired.","tgt":""}
+{"f":"cards","id":"zh.c0310","k":"note","src":"Not 我是累: no 是 before an adjective.","tgt":""}
+{"f":"cards","id":"zh.c0311","k":"meaning","src":"I'm thirty.","tgt":""}
+{"f":"cards","id":"zh.c0311","k":"note","src":"No 是 and no \"years old\" verb: number + 岁.","tgt":""}
+{"f":"cards","id":"zh.c0312","k":"meaning","src":"I'm hungry.","tgt":""}
+{"f":"cards","id":"zh.c0312","k":"note","src":"了 shows the change: I've gotten hungry. Not 我是饿.","tgt":""}
+{"f":"cards","id":"zh.c0313","k":"meaning","src":"I don't drink (alcohol).","tgt":""}
+{"f":"cards","id":"zh.c0313","k":"note","src":"不 for habits and choices; 没 for what didn't happen.","tgt":""}
+{"f":"cards","id":"zh.c0314","k":"meaning","src":"I don't have any money.","tgt":""}
+{"f":"cards","id":"zh.c0314","k":"note","src":"有 always takes 没, never 不: not 我不有钱.","tgt":""}
+{"f":"cards","id":"zh.c0315","k":"meaning","src":"two o'clock","tgt":""}
+{"f":"cards","id":"zh.c0315","k":"note","src":"Clock time uses 两: 两点, not 二点.","tgt":""}
+{"f":"cards","id":"zh.c0315","k":"hvUse","src":"两点 · liǎng diǎn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0315","k":"hv","src":"两点","tgt":""}
+{"f":"cards","id":"zh.c0315","k":"trad","src":"两点","tgt":""}
+{"f":"cards","id":"zh.c0316","k":"meaning","src":"How are you? (a real question)","tgt":""}
+{"f":"cards","id":"zh.c0316","k":"note","src":"It asks how you really are. For a casual hi, just say 你好.","tgt":""}
+{"f":"cards","id":"zh.c0317","k":"meaning","src":"Her Chinese is really good.","tgt":""}
+{"f":"cards","id":"zh.c0317","k":"note","src":"\"Good at\" is verb + 得很好. 我很好 alone means \"I'm fine\", not \"I'm good at it\".","tgt":""}
+{"f":"cards","id":"zh.c0318","k":"meaning","src":"I'm not going after all.","tgt":""}
+{"f":"cards","id":"zh.c0318","k":"note","src":"不…了 = a change of plan. Not the same as 我没去 (I didn't go).","tgt":""}
+{"f":"cards","id":"zh.c0319","k":"meaning","src":"Miss (avoid as an address)","tgt":""}
+{"f":"cards","id":"zh.c0319","k":"note","src":"Don't use it to call anyone in the mainland: it can suggest a sex worker. Fine in Taiwan.","tgt":""}
+{"f":"cards","id":"zh.c0319","k":"hvUse","src":"小姐 · xiǎojiě","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0319","k":"hv","src":"小姐","tgt":""}
+{"f":"cards","id":"zh.c0319","k":"trad","src":"小姐","tgt":""}
+{"f":"cards","id":"zh.c0320","k":"meaning","src":"thing; stuff","tgt":""}
+{"f":"cards","id":"zh.c0320","k":"note","src":"With 西 in the neutral tone it means \"thing\"; said with two full tones it means \"east and west\".","tgt":""}
+{"f":"cards","id":"zh.c0320","k":"hvUse","src":"东西 · dōngxi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0320","k":"hv","src":"东西","tgt":""}
+{"f":"cards","id":"zh.c0320","k":"trad","src":"东西","tgt":""}
+{"f":"cards","id":"zh.c0321","k":"meaning","src":"foreigner (casual)","tgt":""}
+{"f":"cards","id":"zh.c0321","k":"note","src":"Everyday slang, usually friendly, but not for formal use. Literally \"old outsider\".","tgt":""}
+{"f":"cards","id":"zh.c0321","k":"hvUse","src":"老外 · lǎowài","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0321","k":"hv","src":"老外","tgt":""}
+{"f":"cards","id":"zh.c0321","k":"trad","src":"老外","tgt":""}
+{"f":"cards","id":"zh.c0322","k":"meaning","src":"work; job","tgt":""}
+{"f":"cards","id":"zh.c0322","k":"note","src":"Also the verb \"to work\": 我在银行工作.","tgt":""}
+{"f":"cards","id":"zh.c0322","k":"hvUse","src":"工作 · gōngzuò","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0322","k":"hv","src":"工作","tgt":""}
+{"f":"cards","id":"zh.c0322","k":"trad","src":"工作","tgt":""}
+{"f":"cards","id":"zh.c0323","k":"meaning","src":"China","tgt":""}
+{"f":"cards","id":"zh.c0323","k":"note","src":"中国人 = a Chinese person; 中国菜 = Chinese food.","tgt":""}
+{"f":"cards","id":"zh.c0323","k":"hvUse","src":"中国 · Zhōngguó","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0323","k":"hv","src":"中国","tgt":""}
+{"f":"cards","id":"zh.c0323","k":"trad","src":"中国","tgt":""}
+{"f":"cards","id":"zh.c0324","k":"meaning","src":"Mr.; sir","tgt":""}
+{"f":"cards","id":"zh.c0324","k":"note","src":"After the surname: 王先生. Can also mean \"husband\".","tgt":""}
+{"f":"cards","id":"zh.c0324","k":"hvUse","src":"先生 · xiānsheng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0324","k":"hv","src":"先生","tgt":""}
+{"f":"cards","id":"zh.c0324","k":"trad","src":"先生","tgt":""}
+{"f":"cards","id":"zh.c0325","k":"meaning","src":"question; problem","tgt":""}
+{"f":"cards","id":"zh.c0325","k":"note","src":"没问题 = no problem; 有问题吗？ = any questions?","tgt":""}
+{"f":"cards","id":"zh.c0325","k":"hvUse","src":"问题 · wèntí","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0325","k":"hv","src":"问题","tgt":""}
+{"f":"cards","id":"zh.c0325","k":"trad","src":"问题","tgt":""}
+{"f":"cards","id":"zh.c0326","k":"meaning","src":"time (a point in time)","tgt":""}
+{"f":"cards","id":"zh.c0326","k":"note","src":"什么时候 = when; 小的时候 = as a child.","tgt":""}
+{"f":"cards","id":"zh.c0326","k":"hvUse","src":"时候 · shíhou","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0326","k":"hv","src":"时候","tgt":""}
+{"f":"cards","id":"zh.c0326","k":"trad","src":"时候","tgt":""}
+{"f":"cards","id":"zh.c0327","k":"meaning","src":"matter; thing to do","tgt":""}
+{"f":"cards","id":"zh.c0327","k":"note","src":"有事 = to be busy with something.","tgt":""}
+{"f":"cards","id":"zh.c0327","k":"hvUse","src":"事 · shì","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0327","k":"hv","src":"事","tgt":""}
+{"f":"cards","id":"zh.c0327","k":"trad","src":"事","tgt":""}
+{"f":"cards","id":"zh.c0328","k":"meaning","src":"child; kid","tgt":""}
+{"f":"cards","id":"zh.c0328","k":"note","src":"Also \"son or daughter\": 你有孩子吗？","tgt":""}
+{"f":"cards","id":"zh.c0328","k":"hvUse","src":"孩子 · háizi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0328","k":"hv","src":"孩子","tgt":""}
+{"f":"cards","id":"zh.c0328","k":"trad","src":"孩子","tgt":""}
+{"f":"cards","id":"zh.c0329","k":"meaning","src":"matter; affair","tgt":""}
+{"f":"cards","id":"zh.c0329","k":"note","src":"Fuller form of 事: 这件事情.","tgt":""}
+{"f":"cards","id":"zh.c0329","k":"hvUse","src":"事情 · shìqing","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0329","k":"hv","src":"事情","tgt":""}
+{"f":"cards","id":"zh.c0329","k":"trad","src":"事情","tgt":""}
+{"f":"cards","id":"zh.c0330","k":"meaning","src":"time (a stretch of time)","tgt":""}
+{"f":"cards","id":"zh.c0330","k":"note","src":"你有时间吗？ = do you have time?","tgt":""}
+{"f":"cards","id":"zh.c0330","k":"hvUse","src":"时间 · shíjiān","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0330","k":"hv","src":"时间","tgt":""}
+{"f":"cards","id":"zh.c0330","k":"trad","src":"时间","tgt":""}
+{"f":"cards","id":"zh.c0331","k":"meaning","src":"money","tgt":""}
+{"f":"cards","id":"zh.c0331","k":"note","src":"有钱 = rich; 多少钱？ = how much?","tgt":""}
+{"f":"cards","id":"zh.c0331","k":"hvUse","src":"钱 · qián","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0331","k":"hv","src":"钱","tgt":""}
+{"f":"cards","id":"zh.c0331","k":"trad","src":"钱","tgt":""}
+{"f":"cards","id":"zh.c0332","k":"meaning","src":"home; family","tgt":""}
+{"f":"cards","id":"zh.c0332","k":"note","src":"回家 = go home. Also a measure word for shops.","tgt":""}
+{"f":"cards","id":"zh.c0332","k":"hvUse","src":"家 · jiā","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0332","k":"hv","src":"家","tgt":""}
+{"f":"cards","id":"zh.c0332","k":"trad","src":"家","tgt":""}
+{"f":"cards","id":"zh.c0333","k":"meaning","src":"name","tgt":""}
+{"f":"cards","id":"zh.c0333","k":"note","src":"Surname first: 王明 is Mr. Wang.","tgt":""}
+{"f":"cards","id":"zh.c0333","k":"hvUse","src":"名字 · míngzi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0333","k":"hv","src":"名字","tgt":""}
+{"f":"cards","id":"zh.c0333","k":"trad","src":"名字","tgt":""}
+{"f":"cards","id":"zh.c0334","k":"meaning","src":"meaning","tgt":""}
+{"f":"cards","id":"zh.c0334","k":"note","src":"什么意思？ = what does it mean?","tgt":""}
+{"f":"cards","id":"zh.c0334","k":"hvUse","src":"意思 · yìsi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0334","k":"hv","src":"意思","tgt":""}
+{"f":"cards","id":"zh.c0334","k":"trad","src":"意思","tgt":""}
+{"f":"cards","id":"zh.c0335","k":"meaning","src":"place","tgt":""}
+{"f":"cards","id":"zh.c0335","k":"note","src":"这个地方 = this place.","tgt":""}
+{"f":"cards","id":"zh.c0335","k":"hvUse","src":"地方 · dìfang","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0335","k":"hv","src":"地方","tgt":""}
+{"f":"cards","id":"zh.c0335","k":"trad","src":"地方","tgt":""}
+{"f":"cards","id":"zh.c0336","k":"meaning","src":"mobile phone","tgt":""}
+{"f":"cards","id":"zh.c0336","k":"note","src":"The everyday word; 电话 is a call or a landline.","tgt":""}
+{"f":"cards","id":"zh.c0336","k":"hvUse","src":"手机 · shǒujī","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0336","k":"hv","src":"手机","tgt":""}
+{"f":"cards","id":"zh.c0336","k":"trad","src":"手机","tgt":""}
+{"f":"cards","id":"zh.c0337","k":"meaning","src":"telephone; phone call","tgt":""}
+{"f":"cards","id":"zh.c0337","k":"note","src":"打电话 = make a call.","tgt":""}
+{"f":"cards","id":"zh.c0337","k":"hvUse","src":"电话 · diànhuà","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0337","k":"hv","src":"电话","tgt":""}
+{"f":"cards","id":"zh.c0337","k":"trad","src":"电话","tgt":""}
+{"f":"cards","id":"zh.c0338","k":"meaning","src":"computer","tgt":""}
+{"f":"cards","id":"zh.c0338","k":"note","src":"Lit. \"electric brain\".","tgt":""}
+{"f":"cards","id":"zh.c0338","k":"hvUse","src":"电脑 · diànnǎo","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0338","k":"hv","src":"电脑","tgt":""}
+{"f":"cards","id":"zh.c0338","k":"trad","src":"电脑","tgt":""}
+{"f":"cards","id":"zh.c0339","k":"meaning","src":"television","tgt":""}
+{"f":"cards","id":"zh.c0339","k":"note","src":"看电视 = watch TV.","tgt":""}
+{"f":"cards","id":"zh.c0339","k":"hvUse","src":"电视 · diànshì","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0339","k":"hv","src":"电视","tgt":""}
+{"f":"cards","id":"zh.c0339","k":"trad","src":"电视","tgt":""}
+{"f":"cards","id":"zh.c0340","k":"meaning","src":"movie; film","tgt":""}
+{"f":"cards","id":"zh.c0340","k":"note","src":"看电影 = see a movie.","tgt":""}
+{"f":"cards","id":"zh.c0340","k":"hvUse","src":"电影 · diànyǐng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0340","k":"hv","src":"电影","tgt":""}
+{"f":"cards","id":"zh.c0340","k":"trad","src":"电影","tgt":""}
+{"f":"cards","id":"zh.c0341","k":"meaning","src":"clothes","tgt":""}
+{"f":"cards","id":"zh.c0341","k":"note","src":"Measure word 件 for a top.","tgt":""}
+{"f":"cards","id":"zh.c0341","k":"hvUse","src":"衣服 · yīfu","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0341","k":"hv","src":"衣服","tgt":""}
+{"f":"cards","id":"zh.c0341","k":"trad","src":"衣服","tgt":""}
+{"f":"cards","id":"zh.c0342","k":"meaning","src":"house; apartment (the building)","tgt":""}
+{"f":"cards","id":"zh.c0342","k":"note","src":"买房子 = buy a home.","tgt":""}
+{"f":"cards","id":"zh.c0342","k":"hvUse","src":"房子 · fángzi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0342","k":"hv","src":"房子","tgt":""}
+{"f":"cards","id":"zh.c0342","k":"trad","src":"房子","tgt":""}
+{"f":"cards","id":"zh.c0343","k":"meaning","src":"room","tgt":""}
+{"f":"cards","id":"zh.c0343","k":"note","src":"我的房间 = my room.","tgt":""}
+{"f":"cards","id":"zh.c0343","k":"hvUse","src":"房间 · fángjiān","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0343","k":"hv","src":"房间","tgt":""}
+{"f":"cards","id":"zh.c0343","k":"trad","src":"房间","tgt":""}
+{"f":"cards","id":"zh.c0344","k":"meaning","src":"school","tgt":""}
+{"f":"cards","id":"zh.c0344","k":"note","src":"去学校 = go to school.","tgt":""}
+{"f":"cards","id":"zh.c0344","k":"hvUse","src":"学校 · xuéxiào","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0344","k":"hv","src":"学校","tgt":""}
+{"f":"cards","id":"zh.c0344","k":"trad","src":"学校","tgt":""}
+{"f":"cards","id":"zh.c0345","k":"meaning","src":"hospital","tgt":""}
+{"f":"cards","id":"zh.c0345","k":"note","src":"去医院 = go to the hospital.","tgt":""}
+{"f":"cards","id":"zh.c0345","k":"hvUse","src":"医院 · yīyuàn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0345","k":"hv","src":"医院","tgt":""}
+{"f":"cards","id":"zh.c0345","k":"trad","src":"医院","tgt":""}
+{"f":"cards","id":"zh.c0346","k":"meaning","src":"doctor","tgt":""}
+{"f":"cards","id":"zh.c0346","k":"note","src":"看医生 = see a doctor.","tgt":""}
+{"f":"cards","id":"zh.c0346","k":"hvUse","src":"医生 · yīshēng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0346","k":"hv","src":"医生","tgt":""}
+{"f":"cards","id":"zh.c0346","k":"trad","src":"医生","tgt":""}
+{"f":"cards","id":"zh.c0347","k":"meaning","src":"man","tgt":""}
+{"f":"cards","id":"zh.c0347","k":"note","src":"Casual: 男的.","tgt":""}
+{"f":"cards","id":"zh.c0347","k":"hvUse","src":"男人 · nánrén","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0347","k":"hv","src":"男人","tgt":""}
+{"f":"cards","id":"zh.c0347","k":"trad","src":"男人","tgt":""}
+{"f":"cards","id":"zh.c0348","k":"meaning","src":"woman","tgt":""}
+{"f":"cards","id":"zh.c0348","k":"note","src":"Casual: 女的; polite: 女士.","tgt":""}
+{"f":"cards","id":"zh.c0348","k":"hvUse","src":"女人 · nǚrén","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0348","k":"hv","src":"女人","tgt":""}
+{"f":"cards","id":"zh.c0348","k":"trad","src":"女人","tgt":""}
+{"f":"cards","id":"zh.c0349","k":"meaning","src":"husband","tgt":""}
+{"f":"cards","id":"zh.c0349","k":"note","src":"Casual: 老公.","tgt":""}
+{"f":"cards","id":"zh.c0349","k":"hvUse","src":"丈夫 · zhàngfu","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0349","k":"hv","src":"丈夫","tgt":""}
+{"f":"cards","id":"zh.c0349","k":"trad","src":"丈夫","tgt":""}
+{"f":"cards","id":"zh.c0350","k":"meaning","src":"wife","tgt":""}
+{"f":"cards","id":"zh.c0350","k":"note","src":"Casual: 老婆.","tgt":""}
+{"f":"cards","id":"zh.c0350","k":"hvUse","src":"妻子 · qīzi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0350","k":"hv","src":"妻子","tgt":""}
+{"f":"cards","id":"zh.c0350","k":"trad","src":"妻子","tgt":""}
+{"f":"cards","id":"zh.c0351","k":"meaning","src":"hubby (husband, casual)","tgt":""}
+{"f":"cards","id":"zh.c0351","k":"note","src":"Couples use it all the time.","tgt":""}
+{"f":"cards","id":"zh.c0351","k":"hvUse","src":"老公 · lǎogōng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0351","k":"hv","src":"老公","tgt":""}
+{"f":"cards","id":"zh.c0351","k":"trad","src":"老公","tgt":""}
+{"f":"cards","id":"zh.c0352","k":"meaning","src":"wife (casual)","tgt":""}
+{"f":"cards","id":"zh.c0352","k":"note","src":"Affectionate, not rude.","tgt":""}
+{"f":"cards","id":"zh.c0352","k":"hvUse","src":"老婆 · lǎopo","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0352","k":"hv","src":"老婆","tgt":""}
+{"f":"cards","id":"zh.c0352","k":"trad","src":"老婆","tgt":""}
+{"f":"cards","id":"zh.c0353","k":"meaning","src":"parents","tgt":""}
+{"f":"cards","id":"zh.c0353","k":"note","src":"More formal than 爸爸妈妈.","tgt":""}
+{"f":"cards","id":"zh.c0353","k":"hvUse","src":"父母 · fùmǔ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0353","k":"hv","src":"父母","tgt":""}
+{"f":"cards","id":"zh.c0353","k":"trad","src":"父母","tgt":""}
+{"f":"cards","id":"zh.c0354","k":"meaning","src":"family members","tgt":""}
+{"f":"cards","id":"zh.c0354","k":"note","src":"我的家人 = my family.","tgt":""}
+{"f":"cards","id":"zh.c0354","k":"hvUse","src":"家人 · jiārén","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0354","k":"hv","src":"家人","tgt":""}
+{"f":"cards","id":"zh.c0354","k":"trad","src":"家人","tgt":""}
+{"f":"cards","id":"zh.c0355","k":"meaning","src":"world","tgt":""}
+{"f":"cards","id":"zh.c0355","k":"note","src":"世界上 = in the world.","tgt":""}
+{"f":"cards","id":"zh.c0355","k":"hvUse","src":"世界 · shìjiè","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0355","k":"hv","src":"世界","tgt":""}
+{"f":"cards","id":"zh.c0355","k":"trad","src":"世界","tgt":""}
+{"f":"cards","id":"zh.c0356","k":"meaning","src":"country; nation","tgt":""}
+{"f":"cards","id":"zh.c0356","k":"note","src":"哪个国家？ = which country?","tgt":""}
+{"f":"cards","id":"zh.c0356","k":"hvUse","src":"国家 · guójiā","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0356","k":"hv","src":"国家","tgt":""}
+{"f":"cards","id":"zh.c0356","k":"trad","src":"国家","tgt":""}
+{"f":"cards","id":"zh.c0357","k":"meaning","src":"city","tgt":""}
+{"f":"cards","id":"zh.c0357","k":"note","src":"大城市 = a big city.","tgt":""}
+{"f":"cards","id":"zh.c0357","k":"hvUse","src":"城市 · chéngshì","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0357","k":"hv","src":"城市","tgt":""}
+{"f":"cards","id":"zh.c0357","k":"trad","src":"城市","tgt":""}
+{"f":"cards","id":"zh.c0358","k":"meaning","src":"road; way","tgt":""}
+{"f":"cards","id":"zh.c0358","k":"note","src":"走路 = to walk.","tgt":""}
+{"f":"cards","id":"zh.c0358","k":"hvUse","src":"路 · lù","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0358","k":"hv","src":"路","tgt":""}
+{"f":"cards","id":"zh.c0358","k":"trad","src":"路","tgt":""}
+{"f":"cards","id":"zh.c0359","k":"meaning","src":"car; vehicle","tgt":""}
+{"f":"cards","id":"zh.c0359","k":"note","src":"开车 = drive. Measure word 辆.","tgt":""}
+{"f":"cards","id":"zh.c0359","k":"hvUse","src":"车 · chē","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0359","k":"hv","src":"车","tgt":""}
+{"f":"cards","id":"zh.c0359","k":"trad","src":"车","tgt":""}
+{"f":"cards","id":"zh.c0360","k":"meaning","src":"car; automobile","tgt":""}
+{"f":"cards","id":"zh.c0360","k":"note","src":"In speech 车 is more common.","tgt":""}
+{"f":"cards","id":"zh.c0360","k":"hvUse","src":"汽车 · qìchē","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0360","k":"hv","src":"汽车","tgt":""}
+{"f":"cards","id":"zh.c0360","k":"trad","src":"汽车","tgt":""}
+{"f":"cards","id":"zh.c0361","k":"meaning","src":"airplane","tgt":""}
+{"f":"cards","id":"zh.c0361","k":"note","src":"坐飞机 = to fly.","tgt":""}
+{"f":"cards","id":"zh.c0361","k":"hvUse","src":"飞机 · fēijī","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0361","k":"hv","src":"飞机","tgt":""}
+{"f":"cards","id":"zh.c0361","k":"trad","src":"飞机","tgt":""}
+{"f":"cards","id":"zh.c0362","k":"meaning","src":"meal; cooked rice","tgt":""}
+{"f":"cards","id":"zh.c0362","k":"note","src":"吃饭 = eat (a meal).","tgt":""}
+{"f":"cards","id":"zh.c0362","k":"hvUse","src":"饭 · fàn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0362","k":"hv","src":"饭","tgt":""}
+{"f":"cards","id":"zh.c0362","k":"trad","src":"饭","tgt":""}
+{"f":"cards","id":"zh.c0363","k":"meaning","src":"tea","tgt":""}
+{"f":"cards","id":"zh.c0363","k":"note","src":"喝茶 = drink tea.","tgt":""}
+{"f":"cards","id":"zh.c0363","k":"hvUse","src":"茶 · chá","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0363","k":"hv","src":"茶","tgt":""}
+{"f":"cards","id":"zh.c0363","k":"trad","src":"茶","tgt":""}
+{"f":"cards","id":"zh.c0364","k":"meaning","src":"coffee","tgt":""}
+{"f":"cards","id":"zh.c0364","k":"note","src":"一杯咖啡 = a cup of coffee.","tgt":""}
+{"f":"cards","id":"zh.c0364","k":"hvUse","src":"咖啡 · kāfēi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0364","k":"hv","src":"咖啡","tgt":""}
+{"f":"cards","id":"zh.c0364","k":"trad","src":"咖啡","tgt":""}
+{"f":"cards","id":"zh.c0365","k":"meaning","src":"book","tgt":""}
+{"f":"cards","id":"zh.c0365","k":"note","src":"Measure word 本: 三本书.","tgt":""}
+{"f":"cards","id":"zh.c0365","k":"hvUse","src":"书 · shū","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0365","k":"hv","src":"书","tgt":""}
+{"f":"cards","id":"zh.c0365","k":"trad","src":"书","tgt":""}
+{"f":"cards","id":"zh.c0366","k":"meaning","src":"words; speech","tgt":""}
+{"f":"cards","id":"zh.c0366","k":"note","src":"说话 = talk.","tgt":""}
+{"f":"cards","id":"zh.c0366","k":"hvUse","src":"话 · huà","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0366","k":"hv","src":"话","tgt":""}
+{"f":"cards","id":"zh.c0366","k":"trad","src":"话","tgt":""}
+{"f":"cards","id":"zh.c0367","k":"meaning","src":"class; lesson","tgt":""}
+{"f":"cards","id":"zh.c0367","k":"note","src":"上课 = attend class.","tgt":""}
+{"f":"cards","id":"zh.c0367","k":"hvUse","src":"课 · kè","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0367","k":"hv","src":"课","tgt":""}
+{"f":"cards","id":"zh.c0367","k":"trad","src":"课","tgt":""}
+{"f":"cards","id":"zh.c0368","k":"meaning","src":"Chinese (the language)","tgt":""}
+{"f":"cards","id":"zh.c0368","k":"note","src":"汉语 is the textbook word.","tgt":""}
+{"f":"cards","id":"zh.c0368","k":"hvUse","src":"中文 · Zhōngwén","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0368","k":"hv","src":"中文","tgt":""}
+{"f":"cards","id":"zh.c0368","k":"trad","src":"中文","tgt":""}
+{"f":"cards","id":"zh.c0369","k":"meaning","src":"Chinese character","tgt":""}
+{"f":"cards","id":"zh.c0369","k":"note","src":"写汉字 = write characters.","tgt":""}
+{"f":"cards","id":"zh.c0369","k":"hvUse","src":"汉字 · Hànzì","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0369","k":"hv","src":"汉字","tgt":""}
+{"f":"cards","id":"zh.c0369","k":"trad","src":"汉字","tgt":""}
+{"f":"cards","id":"zh.c0370","k":"meaning","src":"English (the language)","tgt":"","rw":"mentions English"}
+{"f":"cards","id":"zh.c0370","k":"note","src":"Also 英文, especially written.","tgt":""}
+{"f":"cards","id":"zh.c0370","k":"hvUse","src":"英语 · Yīngyǔ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0370","k":"hv","src":"英语","tgt":""}
+{"f":"cards","id":"zh.c0370","k":"trad","src":"英语","tgt":""}
+{"f":"cards","id":"zh.c0371","k":"meaning","src":"body; health","tgt":""}
+{"f":"cards","id":"zh.c0371","k":"note","src":"身体好 = in good health.","tgt":""}
+{"f":"cards","id":"zh.c0371","k":"hvUse","src":"身体 · shēntǐ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0371","k":"hv","src":"身体","tgt":""}
+{"f":"cards","id":"zh.c0371","k":"trad","src":"身体","tgt":""}
+{"f":"cards","id":"zh.c0372","k":"meaning","src":"head","tgt":""}
+{"f":"cards","id":"zh.c0372","k":"note","src":"我头疼 = I have a headache.","tgt":""}
+{"f":"cards","id":"zh.c0372","k":"hvUse","src":"头 · tóu","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0372","k":"hv","src":"头","tgt":""}
+{"f":"cards","id":"zh.c0372","k":"trad","src":"头","tgt":""}
+{"f":"cards","id":"zh.c0373","k":"meaning","src":"hand","tgt":""}
+{"f":"cards","id":"zh.c0373","k":"note","src":"洗手 = wash your hands.","tgt":""}
+{"f":"cards","id":"zh.c0373","k":"hvUse","src":"手 · shǒu","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0373","k":"hv","src":"手","tgt":""}
+{"f":"cards","id":"zh.c0373","k":"trad","src":"手","tgt":""}
+{"f":"cards","id":"zh.c0374","k":"meaning","src":"heart","tgt":""}
+{"f":"cards","id":"zh.c0374","k":"note","src":"小心 = careful (lit. small heart).","tgt":""}
+{"f":"cards","id":"zh.c0374","k":"hvUse","src":"心 · xīn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0374","k":"hv","src":"心","tgt":""}
+{"f":"cards","id":"zh.c0374","k":"trad","src":"心","tgt":""}
+{"f":"cards","id":"zh.c0375","k":"meaning","src":"birthday","tgt":""}
+{"f":"cards","id":"zh.c0375","k":"note","src":"生日快乐！ = happy birthday!","tgt":""}
+{"f":"cards","id":"zh.c0375","k":"hvUse","src":"生日 · shēngrì","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0375","k":"hv","src":"生日","tgt":""}
+{"f":"cards","id":"zh.c0375","k":"trad","src":"生日","tgt":""}
+{"f":"cards","id":"zh.c0376","k":"meaning","src":"weather","tgt":""}
+{"f":"cards","id":"zh.c0376","k":"note","src":"今天天气很好。","tgt":"今天天气很好。","pre":1}
+{"f":"cards","id":"zh.c0376","k":"hvUse","src":"天气 · tiānqì","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0376","k":"hv","src":"天气","tgt":""}
+{"f":"cards","id":"zh.c0376","k":"trad","src":"天气","tgt":""}
+{"f":"cards","id":"zh.c0377","k":"meaning","src":"music","tgt":""}
+{"f":"cards","id":"zh.c0377","k":"note","src":"听音乐 = listen to music.","tgt":""}
+{"f":"cards","id":"zh.c0377","k":"hvUse","src":"音乐 · yīnyuè","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0377","k":"hv","src":"音乐","tgt":""}
+{"f":"cards","id":"zh.c0377","k":"trad","src":"音乐","tgt":""}
+{"f":"cards","id":"zh.c0378","k":"meaning","src":"game","tgt":""}
+{"f":"cards","id":"zh.c0378","k":"note","src":"玩游戏 = play games.","tgt":""}
+{"f":"cards","id":"zh.c0378","k":"hvUse","src":"游戏 · yóuxì","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0378","k":"hv","src":"游戏","tgt":""}
+{"f":"cards","id":"zh.c0378","k":"trad","src":"游戏","tgt":""}
+{"f":"cards","id":"zh.c0379","k":"meaning","src":"gift; present","tgt":""}
+{"f":"cards","id":"zh.c0379","k":"note","src":"送礼物 = give a gift.","tgt":""}
+{"f":"cards","id":"zh.c0379","k":"hvUse","src":"礼物 · lǐwù","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0379","k":"hv","src":"礼物","tgt":""}
+{"f":"cards","id":"zh.c0379","k":"trad","src":"礼物","tgt":""}
+{"f":"cards","id":"zh.c0380","k":"meaning","src":"photo","tgt":""}
+{"f":"cards","id":"zh.c0380","k":"note","src":"Measure word 张.","tgt":""}
+{"f":"cards","id":"zh.c0380","k":"hvUse","src":"照片 · zhàopiàn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0380","k":"hv","src":"照片","tgt":""}
+{"f":"cards","id":"zh.c0380","k":"trad","src":"照片","tgt":""}
+{"f":"cards","id":"zh.c0381","k":"meaning","src":"foreigner","tgt":""}
+{"f":"cards","id":"zh.c0381","k":"note","src":"Polite; 老外 is casual.","tgt":""}
+{"f":"cards","id":"zh.c0381","k":"hvUse","src":"外国人 · wàiguórén","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0381","k":"hv","src":"外国人","tgt":""}
+{"f":"cards","id":"zh.c0381","k":"trad","src":"外国人","tgt":""}
+{"f":"cards","id":"zh.c0382","k":"meaning","src":"boss; shop owner","tgt":""}
+{"f":"cards","id":"zh.c0382","k":"note","src":"A friendly way to address a stall owner.","tgt":""}
+{"f":"cards","id":"zh.c0382","k":"hvUse","src":"老板 · lǎobǎn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0382","k":"hv","src":"老板","tgt":""}
+{"f":"cards","id":"zh.c0382","k":"trad","src":"老板","tgt":""}
+{"f":"cards","id":"zh.c0383","k":"meaning","src":"guest; customer","tgt":""}
+{"f":"cards","id":"zh.c0383","k":"note","src":"有客人 = we have guests.","tgt":""}
+{"f":"cards","id":"zh.c0383","k":"hvUse","src":"客人 · kèren","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0383","k":"hv","src":"客人","tgt":""}
+{"f":"cards","id":"zh.c0383","k":"trad","src":"客人","tgt":""}
+{"f":"cards","id":"zh.c0384","k":"meaning","src":"neighbor","tgt":""}
+{"f":"cards","id":"zh.c0384","k":"note","src":"我的邻居.","tgt":"我的邻居.","pre":1}
+{"f":"cards","id":"zh.c0384","k":"hvUse","src":"邻居 · línjū","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0384","k":"hv","src":"邻居","tgt":""}
+{"f":"cards","id":"zh.c0384","k":"trad","src":"邻居","tgt":""}
+{"f":"cards","id":"zh.c0385","k":"meaning","src":"classmate","tgt":""}
+{"f":"cards","id":"zh.c0385","k":"note","src":"Also how students address each other.","tgt":""}
+{"f":"cards","id":"zh.c0385","k":"hvUse","src":"同学 · tóngxué","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0385","k":"hv","src":"同学","tgt":""}
+{"f":"cards","id":"zh.c0385","k":"trad","src":"同学","tgt":""}
+{"f":"cards","id":"zh.c0386","k":"meaning","src":"animal","tgt":""}
+{"f":"cards","id":"zh.c0386","k":"note","src":"小动物 = a small animal.","tgt":""}
+{"f":"cards","id":"zh.c0386","k":"hvUse","src":"动物 · dòngwù","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0386","k":"hv","src":"动物","tgt":""}
+{"f":"cards","id":"zh.c0386","k":"trad","src":"动物","tgt":""}
+{"f":"cards","id":"zh.c0387","k":"meaning","src":"cat","tgt":""}
+{"f":"cards","id":"zh.c0387","k":"note","src":"Measure word 只.","tgt":""}
+{"f":"cards","id":"zh.c0387","k":"hvUse","src":"猫 · māo","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0387","k":"hv","src":"猫","tgt":""}
+{"f":"cards","id":"zh.c0387","k":"trad","src":"猫","tgt":""}
+{"f":"cards","id":"zh.c0388","k":"meaning","src":"bird","tgt":""}
+{"f":"cards","id":"zh.c0388","k":"note","src":"Measure word 只.","tgt":""}
+{"f":"cards","id":"zh.c0388","k":"hvUse","src":"鸟 · niǎo","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0388","k":"hv","src":"鸟","tgt":""}
+{"f":"cards","id":"zh.c0388","k":"trad","src":"鸟","tgt":""}
+{"f":"cards","id":"zh.c0389","k":"meaning","src":"fish","tgt":""}
+{"f":"cards","id":"zh.c0389","k":"note","src":"Measure word 条.","tgt":""}
+{"f":"cards","id":"zh.c0389","k":"hvUse","src":"鱼 · yú","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0389","k":"hv","src":"鱼","tgt":""}
+{"f":"cards","id":"zh.c0389","k":"trad","src":"鱼","tgt":""}
+{"f":"cards","id":"zh.c0390","k":"meaning","src":"fruit","tgt":""}
+{"f":"cards","id":"zh.c0390","k":"note","src":"吃水果 = eat fruit.","tgt":""}
+{"f":"cards","id":"zh.c0390","k":"hvUse","src":"水果 · shuǐguǒ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0390","k":"hv","src":"水果","tgt":""}
+{"f":"cards","id":"zh.c0390","k":"trad","src":"水果","tgt":""}
+{"f":"cards","id":"zh.c0391","k":"meaning","src":"apple","tgt":""}
+{"f":"cards","id":"zh.c0391","k":"note","src":"Also the brand Apple.","tgt":""}
+{"f":"cards","id":"zh.c0391","k":"hvUse","src":"苹果 · píngguǒ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0391","k":"hv","src":"苹果","tgt":""}
+{"f":"cards","id":"zh.c0391","k":"trad","src":"苹果","tgt":""}
+{"f":"cards","id":"zh.c0392","k":"meaning","src":"meat","tgt":""}
+{"f":"cards","id":"zh.c0392","k":"note","src":"Pork, unless named: 牛肉 = beef.","tgt":""}
+{"f":"cards","id":"zh.c0392","k":"hvUse","src":"肉 · ròu","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0392","k":"hv","src":"肉","tgt":""}
+{"f":"cards","id":"zh.c0392","k":"trad","src":"肉","tgt":""}
+{"f":"cards","id":"zh.c0393","k":"meaning","src":"egg","tgt":""}
+{"f":"cards","id":"zh.c0393","k":"note","src":"蛋 alone also works.","tgt":""}
+{"f":"cards","id":"zh.c0393","k":"hvUse","src":"鸡蛋 · jīdàn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0393","k":"hv","src":"鸡蛋","tgt":""}
+{"f":"cards","id":"zh.c0393","k":"trad","src":"鸡蛋","tgt":""}
+{"f":"cards","id":"zh.c0394","k":"meaning","src":"bread","tgt":""}
+{"f":"cards","id":"zh.c0394","k":"note","src":"面 = flour or noodles.","tgt":""}
+{"f":"cards","id":"zh.c0394","k":"hvUse","src":"面包 · miànbāo","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0394","k":"hv","src":"面包","tgt":""}
+{"f":"cards","id":"zh.c0394","k":"trad","src":"面包","tgt":""}
+{"f":"cards","id":"zh.c0395","k":"meaning","src":"milk","tgt":""}
+{"f":"cards","id":"zh.c0395","k":"note","src":"一杯牛奶.","tgt":"一杯牛奶.","pre":1}
+{"f":"cards","id":"zh.c0395","k":"hvUse","src":"牛奶 · niúnǎi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0395","k":"hv","src":"牛奶","tgt":""}
+{"f":"cards","id":"zh.c0395","k":"trad","src":"牛奶","tgt":""}
+{"f":"cards","id":"zh.c0396","k":"meaning","src":"alcohol (wine, spirits)","tgt":""}
+{"f":"cards","id":"zh.c0396","k":"note","src":"喝酒 = drink alcohol.","tgt":""}
+{"f":"cards","id":"zh.c0396","k":"hvUse","src":"酒 · jiǔ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0396","k":"hv","src":"酒","tgt":""}
+{"f":"cards","id":"zh.c0396","k":"trad","src":"酒","tgt":""}
+{"f":"cards","id":"zh.c0397","k":"meaning","src":"cup; glass","tgt":""}
+{"f":"cards","id":"zh.c0397","k":"note","src":"The measure word is 杯.","tgt":""}
+{"f":"cards","id":"zh.c0397","k":"hvUse","src":"杯子 · bēizi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0397","k":"hv","src":"杯子","tgt":""}
+{"f":"cards","id":"zh.c0397","k":"trad","src":"杯子","tgt":""}
+{"f":"cards","id":"zh.c0398","k":"meaning","src":"table; desk","tgt":""}
+{"f":"cards","id":"zh.c0398","k":"note","src":"桌子上 = on the table.","tgt":""}
+{"f":"cards","id":"zh.c0398","k":"hvUse","src":"桌子 · zhuōzi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0398","k":"hv","src":"桌子","tgt":""}
+{"f":"cards","id":"zh.c0398","k":"trad","src":"桌子","tgt":""}
+{"f":"cards","id":"zh.c0399","k":"meaning","src":"chair","tgt":""}
+{"f":"cards","id":"zh.c0399","k":"note","src":"坐在椅子上 = sit on a chair.","tgt":""}
+{"f":"cards","id":"zh.c0399","k":"hvUse","src":"椅子 · yǐzi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0399","k":"hv","src":"椅子","tgt":""}
+{"f":"cards","id":"zh.c0399","k":"trad","src":"椅子","tgt":""}
+{"f":"cards","id":"zh.c0400","k":"meaning","src":"bed","tgt":""}
+{"f":"cards","id":"zh.c0400","k":"note","src":"起床 = get out of bed.","tgt":""}
+{"f":"cards","id":"zh.c0400","k":"hvUse","src":"床 · chuáng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0400","k":"hv","src":"床","tgt":""}
+{"f":"cards","id":"zh.c0400","k":"trad","src":"床","tgt":""}
+{"f":"cards","id":"zh.c0401","k":"meaning","src":"window","tgt":""}
+{"f":"cards","id":"zh.c0401","k":"note","src":"开窗户 = open the window.","tgt":""}
+{"f":"cards","id":"zh.c0401","k":"hvUse","src":"窗户 · chuānghu","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0401","k":"hv","src":"窗户","tgt":""}
+{"f":"cards","id":"zh.c0401","k":"trad","src":"窗户","tgt":""}
+{"f":"cards","id":"zh.c0402","k":"meaning","src":"light; lamp","tgt":""}
+{"f":"cards","id":"zh.c0402","k":"note","src":"开灯 / 关灯 = lights on / off.","tgt":""}
+{"f":"cards","id":"zh.c0402","k":"hvUse","src":"灯 · dēng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0402","k":"hv","src":"灯","tgt":""}
+{"f":"cards","id":"zh.c0402","k":"trad","src":"灯","tgt":""}
+{"f":"cards","id":"zh.c0403","k":"meaning","src":"key","tgt":""}
+{"f":"cards","id":"zh.c0403","k":"note","src":"我的钥匙呢？ = where are my keys?","tgt":""}
+{"f":"cards","id":"zh.c0403","k":"hvUse","src":"钥匙 · yàoshi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0403","k":"hv","src":"钥匙","tgt":""}
+{"f":"cards","id":"zh.c0403","k":"trad","src":"钥匙","tgt":""}
+{"f":"cards","id":"zh.c0404","k":"meaning","src":"bag","tgt":""}
+{"f":"cards","id":"zh.c0404","k":"note","src":"书包 = schoolbag.","tgt":""}
+{"f":"cards","id":"zh.c0404","k":"hvUse","src":"包 · bāo","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0404","k":"hv","src":"包","tgt":""}
+{"f":"cards","id":"zh.c0404","k":"trad","src":"包","tgt":""}
+{"f":"cards","id":"zh.c0405","k":"meaning","src":"umbrella","tgt":""}
+{"f":"cards","id":"zh.c0405","k":"note","src":"带伞 = bring an umbrella.","tgt":""}
+{"f":"cards","id":"zh.c0405","k":"hvUse","src":"伞 · sǎn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0405","k":"hv","src":"伞","tgt":""}
+{"f":"cards","id":"zh.c0405","k":"trad","src":"伞","tgt":""}
+{"f":"cards","id":"zh.c0406","k":"meaning","src":"pen","tgt":""}
+{"f":"cards","id":"zh.c0406","k":"note","src":"Measure word 支.","tgt":""}
+{"f":"cards","id":"zh.c0406","k":"hvUse","src":"笔 · bǐ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0406","k":"hv","src":"笔","tgt":""}
+{"f":"cards","id":"zh.c0406","k":"trad","src":"笔","tgt":""}
+{"f":"cards","id":"zh.c0407","k":"meaning","src":"paper","tgt":""}
+{"f":"cards","id":"zh.c0407","k":"note","src":"一张纸 = a sheet of paper.","tgt":""}
+{"f":"cards","id":"zh.c0407","k":"hvUse","src":"纸 · zhǐ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0407","k":"hv","src":"纸","tgt":""}
+{"f":"cards","id":"zh.c0407","k":"trad","src":"纸","tgt":""}
+{"f":"cards","id":"zh.c0408","k":"meaning","src":"map","tgt":""}
+{"f":"cards","id":"zh.c0408","k":"note","src":"手机地图 = a phone map.","tgt":""}
+{"f":"cards","id":"zh.c0408","k":"hvUse","src":"地图 · dìtú","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0408","k":"hv","src":"地图","tgt":""}
+{"f":"cards","id":"zh.c0408","k":"trad","src":"地图","tgt":""}
+{"f":"cards","id":"zh.c0409","k":"meaning","src":"ticket","tgt":""}
+{"f":"cards","id":"zh.c0409","k":"note","src":"两张票 = two tickets.","tgt":""}
+{"f":"cards","id":"zh.c0409","k":"hvUse","src":"票 · piào","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0409","k":"hv","src":"票","tgt":""}
+{"f":"cards","id":"zh.c0409","k":"trad","src":"票","tgt":""}
+{"f":"cards","id":"zh.c0410","k":"meaning","src":"shop; store","tgt":""}
+{"f":"cards","id":"zh.c0410","k":"note","src":"去商店买东西.","tgt":"去商店买东西.","pre":1}
+{"f":"cards","id":"zh.c0410","k":"hvUse","src":"商店 · shāngdiàn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0410","k":"hv","src":"商店","tgt":""}
+{"f":"cards","id":"zh.c0410","k":"trad","src":"商店","tgt":""}
+{"f":"cards","id":"zh.c0411","k":"meaning","src":"supermarket","tgt":""}
+{"f":"cards","id":"zh.c0411","k":"note","src":"我去超市.","tgt":"我去超市.","pre":1}
+{"f":"cards","id":"zh.c0411","k":"hvUse","src":"超市 · chāoshì","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0411","k":"hv","src":"超市","tgt":""}
+{"f":"cards","id":"zh.c0411","k":"trad","src":"超市","tgt":""}
+{"f":"cards","id":"zh.c0412","k":"meaning","src":"restaurant (small)","tgt":""}
+{"f":"cards","id":"zh.c0412","k":"note","src":"饭店 can also be a hotel.","tgt":""}
+{"f":"cards","id":"zh.c0412","k":"hvUse","src":"饭馆 · fànguǎn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0412","k":"hv","src":"饭馆","tgt":""}
+{"f":"cards","id":"zh.c0412","k":"trad","src":"饭馆","tgt":""}
+{"f":"cards","id":"zh.c0413","k":"meaning","src":"park","tgt":""}
+{"f":"cards","id":"zh.c0413","k":"note","src":"去公园 = go to the park.","tgt":""}
+{"f":"cards","id":"zh.c0413","k":"hvUse","src":"公园 · gōngyuán","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0413","k":"hv","src":"公园","tgt":""}
+{"f":"cards","id":"zh.c0413","k":"trad","src":"公园","tgt":""}
+{"f":"cards","id":"zh.c0414","k":"meaning","src":"airport","tgt":""}
+{"f":"cards","id":"zh.c0414","k":"note","src":"去机场 = go to the airport.","tgt":""}
+{"f":"cards","id":"zh.c0414","k":"hvUse","src":"机场 · jīchǎng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0414","k":"hv","src":"机场","tgt":""}
+{"f":"cards","id":"zh.c0414","k":"trad","src":"机场","tgt":""}
+{"f":"cards","id":"zh.c0415","k":"meaning","src":"bank","tgt":""}
+{"f":"cards","id":"zh.c0415","k":"note","src":"在银行工作 = work at a bank.","tgt":""}
+{"f":"cards","id":"zh.c0415","k":"hvUse","src":"银行 · yínháng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0415","k":"hv","src":"银行","tgt":""}
+{"f":"cards","id":"zh.c0415","k":"trad","src":"银行","tgt":""}
+{"f":"cards","id":"zh.c0416","k":"meaning","src":"university","tgt":""}
+{"f":"cards","id":"zh.c0416","k":"note","src":"上大学 = go to university.","tgt":""}
+{"f":"cards","id":"zh.c0416","k":"hvUse","src":"大学 · dàxué","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0416","k":"hv","src":"大学","tgt":""}
+{"f":"cards","id":"zh.c0416","k":"trad","src":"大学","tgt":""}
+{"f":"cards","id":"zh.c0417","k":"meaning","src":"office","tgt":""}
+{"f":"cards","id":"zh.c0417","k":"note","src":"在办公室 = at the office.","tgt":""}
+{"f":"cards","id":"zh.c0417","k":"hvUse","src":"办公室 · bàngōngshì","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0417","k":"hv","src":"办公室","tgt":""}
+{"f":"cards","id":"zh.c0417","k":"trad","src":"办公室","tgt":""}
+{"f":"cards","id":"zh.c0418","k":"meaning","src":"toilet","tgt":""}
+{"f":"cards","id":"zh.c0418","k":"note","src":"Blunt; 洗手间 is politer.","tgt":""}
+{"f":"cards","id":"zh.c0418","k":"hvUse","src":"厕所 · cèsuǒ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0418","k":"hv","src":"厕所","tgt":""}
+{"f":"cards","id":"zh.c0418","k":"trad","src":"厕所","tgt":""}
+{"f":"cards","id":"zh.c0419","k":"meaning","src":"kitchen","tgt":""}
+{"f":"cards","id":"zh.c0419","k":"note","src":"在厨房做饭 = cook in the kitchen.","tgt":""}
+{"f":"cards","id":"zh.c0419","k":"hvUse","src":"厨房 · chúfáng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0419","k":"hv","src":"厨房","tgt":""}
+{"f":"cards","id":"zh.c0419","k":"trad","src":"厨房","tgt":""}
+{"f":"cards","id":"zh.c0420","k":"meaning","src":"hobby","tgt":""}
+{"f":"cards","id":"zh.c0420","k":"note","src":"你的爱好是什么？","tgt":"你的爱好是什么？","pre":1}
+{"f":"cards","id":"zh.c0420","k":"hvUse","src":"爱好 · àihào","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0420","k":"hv","src":"爱好","tgt":""}
+{"f":"cards","id":"zh.c0420","k":"trad","src":"爱好","tgt":""}
+{"f":"cards","id":"zh.c0421","k":"meaning","src":"new word (vocabulary)","tgt":""}
+{"f":"cards","id":"zh.c0421","k":"note","src":"Every textbook lesson has a list.","tgt":""}
+{"f":"cards","id":"zh.c0421","k":"hvUse","src":"生词 · shēngcí","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0421","k":"hv","src":"生词","tgt":""}
+{"f":"cards","id":"zh.c0421","k":"trad","src":"生词","tgt":""}
+{"f":"cards","id":"zh.c0422","k":"meaning","src":"sentence","tgt":""}
+{"f":"cards","id":"zh.c0422","k":"note","src":"这个句子 = this sentence.","tgt":""}
+{"f":"cards","id":"zh.c0422","k":"hvUse","src":"句子 · jùzi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0422","k":"hv","src":"句子","tgt":""}
+{"f":"cards","id":"zh.c0422","k":"trad","src":"句子","tgt":""}
+{"f":"cards","id":"zh.c0423","k":"meaning","src":"WeChat","tgt":""}
+{"f":"cards","id":"zh.c0423","k":"note","src":"The app everyone in China uses to message and pay.","tgt":""}
+{"f":"cards","id":"zh.c0423","k":"hvUse","src":"微信 · Wēixìn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0423","k":"hv","src":"微信","tgt":""}
+{"f":"cards","id":"zh.c0423","k":"trad","src":"微信","tgt":""}
+{"f":"cards","id":"zh.c0424","k":"meaning","src":"internet; net","tgt":""}
+{"f":"cards","id":"zh.c0424","k":"note","src":"上网 = go online.","tgt":""}
+{"f":"cards","id":"zh.c0424","k":"hvUse","src":"网 · wǎng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0424","k":"hv","src":"网","tgt":""}
+{"f":"cards","id":"zh.c0424","k":"trad","src":"网","tgt":""}
+{"f":"cards","id":"zh.c0425","k":"meaning","src":"number (phone, room)","tgt":""}
+{"f":"cards","id":"zh.c0425","k":"note","src":"电话号码 = phone number.","tgt":""}
+{"f":"cards","id":"zh.c0425","k":"hvUse","src":"号码 · hàomǎ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0425","k":"hv","src":"号码","tgt":""}
+{"f":"cards","id":"zh.c0425","k":"trad","src":"号码","tgt":""}
+{"f":"cards","id":"zh.c0426","k":"meaning","src":"color","tgt":""}
+{"f":"cards","id":"zh.c0426","k":"note","src":"什么颜色？ = what color?","tgt":""}
+{"f":"cards","id":"zh.c0426","k":"hvUse","src":"颜色 · yánsè","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0426","k":"hv","src":"颜色","tgt":""}
+{"f":"cards","id":"zh.c0426","k":"trad","src":"颜色","tgt":""}
+{"f":"cards","id":"zh.c0427","k":"meaning","src":"little kid","tgt":""}
+{"f":"cards","id":"zh.c0427","k":"note","src":"Erhua, said in the north.","tgt":""}
+{"f":"cards","id":"zh.c0427","k":"hvUse","src":"小孩儿 · xiǎoháir","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0427","k":"hv","src":"小孩儿","tgt":""}
+{"f":"cards","id":"zh.c0427","k":"trad","src":"小孩儿","tgt":""}
+{"f":"cards","id":"zh.c0428","k":"meaning","src":"baby","tgt":""}
+{"f":"cards","id":"zh.c0428","k":"note","src":"Couples also use it as a pet name.","tgt":""}
+{"f":"cards","id":"zh.c0428","k":"hvUse","src":"宝宝 · bǎobao","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0428","k":"hv","src":"宝宝","tgt":""}
+{"f":"cards","id":"zh.c0428","k":"trad","src":"宝宝","tgt":""}
+{"f":"cards","id":"zh.c0429","k":"meaning","src":"adult; grown-up","tgt":""}
+{"f":"cards","id":"zh.c0429","k":"note","src":"Opposite of 小孩儿.","tgt":""}
+{"f":"cards","id":"zh.c0429","k":"hvUse","src":"大人 · dàren","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0429","k":"hv","src":"大人","tgt":""}
+{"f":"cards","id":"zh.c0429","k":"trad","src":"大人","tgt":""}
+{"f":"cards","id":"zh.c0430","k":"meaning","src":"hotel","tgt":""}
+{"f":"cards","id":"zh.c0430","k":"note","src":"Also 宾馆.","tgt":""}
+{"f":"cards","id":"zh.c0430","k":"hvUse","src":"酒店 · jiǔdiàn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0430","k":"hv","src":"酒店","tgt":""}
+{"f":"cards","id":"zh.c0430","k":"trad","src":"酒店","tgt":""}
+{"f":"cards","id":"zh.c0431","k":"meaning","src":"illness","tgt":""}
+{"f":"cards","id":"zh.c0431","k":"note","src":"生病 = get sick; 看病 = see a doctor.","tgt":""}
+{"f":"cards","id":"zh.c0431","k":"hvUse","src":"病 · bìng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0431","k":"hv","src":"病","tgt":""}
+{"f":"cards","id":"zh.c0431","k":"trad","src":"病","tgt":""}
+{"f":"cards","id":"zh.c0432","k":"meaning","src":"medicine","tgt":""}
+{"f":"cards","id":"zh.c0432","k":"note","src":"吃药 = take medicine.","tgt":""}
+{"f":"cards","id":"zh.c0432","k":"hvUse","src":"药 · yào","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0432","k":"hv","src":"药","tgt":""}
+{"f":"cards","id":"zh.c0432","k":"trad","src":"药","tgt":""}
+{"f":"cards","id":"zh.c0433","k":"meaning","src":"to want; will","tgt":""}
+{"f":"cards","id":"zh.c0433","k":"note","src":"我要这个。 Also \"need to\": 你要早点儿睡.","tgt":""}
+{"f":"cards","id":"zh.c0433","k":"hvUse","src":"要 · yào","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0433","k":"hv","src":"要","tgt":""}
+{"f":"cards","id":"zh.c0433","k":"trad","src":"要","tgt":""}
+{"f":"cards","id":"zh.c0434","k":"meaning","src":"to say; to speak","tgt":""}
+{"f":"cards","id":"zh.c0434","k":"note","src":"说中文 = speak Chinese.","tgt":""}
+{"f":"cards","id":"zh.c0434","k":"hvUse","src":"说 · shuō","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0434","k":"hv","src":"说","tgt":""}
+{"f":"cards","id":"zh.c0434","k":"trad","src":"说","tgt":""}
+{"f":"cards","id":"zh.c0435","k":"meaning","src":"can (a learned skill); will","tgt":""}
+{"f":"cards","id":"zh.c0435","k":"note","src":"我会游泳。 明天会下雨。","tgt":"我会游泳。 明天会下雨。","pre":1}
+{"f":"cards","id":"zh.c0435","k":"hvUse","src":"会 · huì","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0435","k":"hv","src":"会","tgt":""}
+{"f":"cards","id":"zh.c0435","k":"trad","src":"会","tgt":""}
+{"f":"cards","id":"zh.c0436","k":"meaning","src":"to know (a fact)","tgt":""}
+{"f":"cards","id":"zh.c0436","k":"note","src":"我不知道。 For people, use 认识.","tgt":""}
+{"f":"cards","id":"zh.c0436","k":"hvUse","src":"知道 · zhīdào","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0436","k":"hv","src":"知道","tgt":""}
+{"f":"cards","id":"zh.c0436","k":"trad","src":"知道","tgt":""}
+{"f":"cards","id":"zh.c0437","k":"meaning","src":"to come","tgt":""}
+{"f":"cards","id":"zh.c0437","k":"note","src":"来了！ = coming! 来一个 = I'll have one.","tgt":""}
+{"f":"cards","id":"zh.c0437","k":"hvUse","src":"来 · lái","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0437","k":"hv","src":"来","tgt":""}
+{"f":"cards","id":"zh.c0437","k":"trad","src":"来","tgt":""}
+{"f":"cards","id":"zh.c0438","k":"meaning","src":"to let; to make (someone do)","tgt":""}
+{"f":"cards","id":"zh.c0438","k":"note","src":"让我看看 = let me see.","tgt":""}
+{"f":"cards","id":"zh.c0438","k":"hvUse","src":"让 · ràng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0438","k":"hv","src":"让","tgt":""}
+{"f":"cards","id":"zh.c0438","k":"trad","src":"让","tgt":""}
+{"f":"cards","id":"zh.c0439","k":"meaning","src":"to want to; to think; to miss","tgt":""}
+{"f":"cards","id":"zh.c0439","k":"note","src":"我想去 = I want to go. 想你 = miss you.","tgt":""}
+{"f":"cards","id":"zh.c0439","k":"hvUse","src":"想 · xiǎng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0439","k":"hv","src":"想","tgt":""}
+{"f":"cards","id":"zh.c0439","k":"trad","src":"想","tgt":""}
+{"f":"cards","id":"zh.c0440","k":"meaning","src":"may; can (allowed)","tgt":""}
+{"f":"cards","id":"zh.c0440","k":"note","src":"可以吗？ = is that OK?","tgt":""}
+{"f":"cards","id":"zh.c0440","k":"hvUse","src":"可以 · kěyǐ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0440","k":"hv","src":"可以","tgt":""}
+{"f":"cards","id":"zh.c0440","k":"trad","src":"可以","tgt":""}
+{"f":"cards","id":"zh.c0441","k":"meaning","src":"to do; to make","tgt":""}
+{"f":"cards","id":"zh.c0441","k":"note","src":"做饭 = cook; 做完 = finish doing.","tgt":""}
+{"f":"cards","id":"zh.c0441","k":"hvUse","src":"做 · zuò","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0441","k":"hv","src":"做","tgt":""}
+{"f":"cards","id":"zh.c0441","k":"trad","src":"做","tgt":""}
+{"f":"cards","id":"zh.c0442","k":"meaning","src":"to wait","tgt":""}
+{"f":"cards","id":"zh.c0442","k":"note","src":"等一下 = wait a moment. After a list: etc.","tgt":""}
+{"f":"cards","id":"zh.c0442","k":"hvUse","src":"等 · děng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0442","k":"hv","src":"等","tgt":""}
+{"f":"cards","id":"zh.c0442","k":"trad","src":"等","tgt":""}
+{"f":"cards","id":"zh.c0443","k":"meaning","src":"can (able, possible)","tgt":""}
+{"f":"cards","id":"zh.c0443","k":"note","src":"Circumstances allow: 我明天不能来.","tgt":""}
+{"f":"cards","id":"zh.c0443","k":"hvUse","src":"能 · néng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0443","k":"hv","src":"能","tgt":""}
+{"f":"cards","id":"zh.c0443","k":"trad","src":"能","tgt":""}
+{"f":"cards","id":"zh.c0444","k":"meaning","src":"to listen; to hear","tgt":""}
+{"f":"cards","id":"zh.c0444","k":"note","src":"听懂 = understand (by ear); 听不懂 = can't follow.","tgt":""}
+{"f":"cards","id":"zh.c0444","k":"hvUse","src":"听 · tīng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0444","k":"hv","src":"听","tgt":""}
+{"f":"cards","id":"zh.c0444","k":"trad","src":"听","tgt":""}
+{"f":"cards","id":"zh.c0445","k":"meaning","src":"to walk; to leave","tgt":""}
+{"f":"cards","id":"zh.c0445","k":"note","src":"我走了 = I'm off.","tgt":""}
+{"f":"cards","id":"zh.c0445","k":"hvUse","src":"走 · zǒu","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0445","k":"hv","src":"走","tgt":""}
+{"f":"cards","id":"zh.c0445","k":"trad","src":"走","tgt":""}
+{"f":"cards","id":"zh.c0446","k":"meaning","src":"to feel; to think (opinion)","tgt":""}
+{"f":"cards","id":"zh.c0446","k":"note","src":"我觉得很好。 Softer than 想.","tgt":""}
+{"f":"cards","id":"zh.c0446","k":"hvUse","src":"觉得 · juéde","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0446","k":"hv","src":"觉得","tgt":""}
+{"f":"cards","id":"zh.c0446","k":"trad","src":"觉得","tgt":""}
+{"f":"cards","id":"zh.c0447","k":"meaning","src":"to like","tgt":""}
+{"f":"cards","id":"zh.c0447","k":"note","src":"我喜欢你 is a confession: stronger than English \"like\".","tgt":"","rw":"mentions English"}
+{"f":"cards","id":"zh.c0447","k":"hvUse","src":"喜欢 · xǐhuan","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0447","k":"hv","src":"喜欢","tgt":""}
+{"f":"cards","id":"zh.c0447","k":"trad","src":"喜欢","tgt":""}
+{"f":"cards","id":"zh.c0448","k":"meaning","src":"to look for","tgt":""}
+{"f":"cards","id":"zh.c0448","k":"note","src":"你找谁？ = who are you looking for?","tgt":""}
+{"f":"cards","id":"zh.c0448","k":"hvUse","src":"找 · zhǎo","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0448","k":"hv","src":"找","tgt":""}
+{"f":"cards","id":"zh.c0448","k":"trad","src":"找","tgt":""}
+{"f":"cards","id":"zh.c0449","k":"meaning","src":"should; ought to","tgt":""}
+{"f":"cards","id":"zh.c0449","k":"note","src":"你应该休息。","tgt":"你应该休息。","pre":1}
+{"f":"cards","id":"zh.c0449","k":"hvUse","src":"应该 · yīnggāi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0449","k":"hv","src":"应该","tgt":""}
+{"f":"cards","id":"zh.c0449","k":"trad","src":"应该","tgt":""}
+{"f":"cards","id":"zh.c0450","k":"meaning","src":"to invite; to treat (pay for)","tgt":""}
+{"f":"cards","id":"zh.c0450","k":"note","src":"我请你 = my treat. Also \"please\": 请坐.","tgt":""}
+{"f":"cards","id":"zh.c0450","k":"hvUse","src":"请 · qǐng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0450","k":"hv","src":"请","tgt":""}
+{"f":"cards","id":"zh.c0450","k":"trad","src":"请","tgt":""}
+{"f":"cards","id":"zh.c0451","k":"meaning","src":"to be called; to call","tgt":""}
+{"f":"cards","id":"zh.c0451","k":"note","src":"我叫安娜。 Also: to shout for, to order.","tgt":""}
+{"f":"cards","id":"zh.c0451","k":"hvUse","src":"叫 · jiào","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0451","k":"hv","src":"叫","tgt":""}
+{"f":"cards","id":"zh.c0451","k":"trad","src":"叫","tgt":""}
+{"f":"cards","id":"zh.c0452","k":"meaning","src":"to die","tgt":""}
+{"f":"cards","id":"zh.c0452","k":"note","src":"累死了 = dead tired: a very common exaggeration.","tgt":""}
+{"f":"cards","id":"zh.c0452","k":"hvUse","src":"死 · sǐ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0452","k":"hv","src":"死","tgt":""}
+{"f":"cards","id":"zh.c0452","k":"trad","src":"死","tgt":""}
+{"f":"cards","id":"zh.c0453","k":"meaning","src":"to help","tgt":""}
+{"f":"cards","id":"zh.c0453","k":"note","src":"帮我一下 = give me a hand.","tgt":""}
+{"f":"cards","id":"zh.c0453","k":"hvUse","src":"帮 · bāng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0453","k":"hv","src":"帮","tgt":""}
+{"f":"cards","id":"zh.c0453","k":"trad","src":"帮","tgt":""}
+{"f":"cards","id":"zh.c0454","k":"meaning","src":"to need","tgt":""}
+{"f":"cards","id":"zh.c0454","k":"note","src":"你需要什么？","tgt":"你需要什么？","pre":1}
+{"f":"cards","id":"zh.c0454","k":"hvUse","src":"需要 · xūyào","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0454","k":"hv","src":"需要","tgt":""}
+{"f":"cards","id":"zh.c0454","k":"trad","src":"需要","tgt":""}
+{"f":"cards","id":"zh.c0455","k":"meaning","src":"to start; to begin","tgt":""}
+{"f":"cards","id":"zh.c0455","k":"note","src":"开始上课 = class starts.","tgt":""}
+{"f":"cards","id":"zh.c0455","k":"hvUse","src":"开始 · kāishǐ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0455","k":"hv","src":"开始","tgt":""}
+{"f":"cards","id":"zh.c0455","k":"trad","src":"开始","tgt":""}
+{"f":"cards","id":"zh.c0456","k":"meaning","src":"to bring; to take along","tgt":""}
+{"f":"cards","id":"zh.c0456","k":"note","src":"带伞 = bring an umbrella.","tgt":""}
+{"f":"cards","id":"zh.c0456","k":"hvUse","src":"带 · dài","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0456","k":"hv","src":"带","tgt":""}
+{"f":"cards","id":"zh.c0456","k":"trad","src":"带","tgt":""}
+{"f":"cards","id":"zh.c0457","k":"meaning","src":"to know (a person); to recognize","tgt":""}
+{"f":"cards","id":"zh.c0457","k":"note","src":"认识你很高兴。","tgt":"认识你很高兴。","pre":1}
+{"f":"cards","id":"zh.c0457","k":"hvUse","src":"认识 · rènshi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0457","k":"hv","src":"认识","tgt":""}
+{"f":"cards","id":"zh.c0457","k":"trad","src":"认识","tgt":""}
+{"f":"cards","id":"zh.c0458","k":"meaning","src":"to live; to stay","tgt":""}
+{"f":"cards","id":"zh.c0458","k":"note","src":"住在北京: 在 + place comes after 住.","tgt":""}
+{"f":"cards","id":"zh.c0458","k":"hvUse","src":"住 · zhù","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0458","k":"hv","src":"住","tgt":""}
+{"f":"cards","id":"zh.c0458","k":"trad","src":"住","tgt":""}
+{"f":"cards","id":"zh.c0459","k":"meaning","src":"to learn","tgt":""}
+{"f":"cards","id":"zh.c0459","k":"note","src":"学会 = learn how (and now can).","tgt":""}
+{"f":"cards","id":"zh.c0459","k":"hvUse","src":"学 · xué","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0459","k":"hv","src":"学","tgt":""}
+{"f":"cards","id":"zh.c0459","k":"trad","src":"学","tgt":""}
+{"f":"cards","id":"zh.c0460","k":"meaning","src":"to study","tgt":""}
+{"f":"cards","id":"zh.c0460","k":"note","src":"Fuller than 学: 学习中文.","tgt":""}
+{"f":"cards","id":"zh.c0460","k":"hvUse","src":"学习 · xuéxí","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0460","k":"hv","src":"学习","tgt":""}
+{"f":"cards","id":"zh.c0460","k":"trad","src":"学习","tgt":""}
+{"f":"cards","id":"zh.c0461","k":"meaning","src":"to teach","tgt":""}
+{"f":"cards","id":"zh.c0461","k":"note","src":"教我中文 = teach me Chinese.","tgt":""}
+{"f":"cards","id":"zh.c0461","k":"hvUse","src":"教 · jiāo","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0461","k":"hv","src":"教","tgt":""}
+{"f":"cards","id":"zh.c0461","k":"trad","src":"教","tgt":""}
+{"f":"cards","id":"zh.c0462","k":"meaning","src":"to write","tgt":""}
+{"f":"cards","id":"zh.c0462","k":"note","src":"写完 = finish writing.","tgt":""}
+{"f":"cards","id":"zh.c0462","k":"hvUse","src":"写 · xiě","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0462","k":"hv","src":"写","tgt":""}
+{"f":"cards","id":"zh.c0462","k":"trad","src":"写","tgt":""}
+{"f":"cards","id":"zh.c0463","k":"meaning","src":"to read (aloud); to study","tgt":""}
+{"f":"cards","id":"zh.c0463","k":"note","src":"读书 = read; be at school.","tgt":""}
+{"f":"cards","id":"zh.c0463","k":"hvUse","src":"读 · dú","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0463","k":"hv","src":"读","tgt":""}
+{"f":"cards","id":"zh.c0463","k":"trad","src":"读","tgt":""}
+{"f":"cards","id":"zh.c0464","k":"meaning","src":"to sit; to take (transport)","tgt":""}
+{"f":"cards","id":"zh.c0464","k":"note","src":"请坐。 坐地铁 = take the subway.","tgt":""}
+{"f":"cards","id":"zh.c0464","k":"hvUse","src":"坐 · zuò","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0464","k":"hv","src":"坐","tgt":""}
+{"f":"cards","id":"zh.c0464","k":"trad","src":"坐","tgt":""}
+{"f":"cards","id":"zh.c0465","k":"meaning","src":"to stand","tgt":""}
+{"f":"cards","id":"zh.c0465","k":"note","src":"As a noun: station (车站).","tgt":""}
+{"f":"cards","id":"zh.c0465","k":"hvUse","src":"站 · zhàn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0465","k":"hv","src":"站","tgt":""}
+{"f":"cards","id":"zh.c0465","k":"trad","src":"站","tgt":""}
+{"f":"cards","id":"zh.c0466","k":"meaning","src":"to run","tgt":""}
+{"f":"cards","id":"zh.c0466","k":"note","src":"跑步 = jog.","tgt":""}
+{"f":"cards","id":"zh.c0466","k":"hvUse","src":"跑 · pǎo","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0466","k":"hv","src":"跑","tgt":""}
+{"f":"cards","id":"zh.c0466","k":"trad","src":"跑","tgt":""}
+{"f":"cards","id":"zh.c0467","k":"meaning","src":"to return","tgt":""}
+{"f":"cards","id":"zh.c0467","k":"note","src":"回来 = come back; 回去 = go back.","tgt":""}
+{"f":"cards","id":"zh.c0467","k":"hvUse","src":"回 · huí","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0467","k":"hv","src":"回","tgt":""}
+{"f":"cards","id":"zh.c0467","k":"trad","src":"回","tgt":""}
+{"f":"cards","id":"zh.c0468","k":"meaning","src":"to go home","tgt":""}
+{"f":"cards","id":"zh.c0468","k":"note","src":"我六点回家。","tgt":"我六点回家。","pre":1}
+{"f":"cards","id":"zh.c0468","k":"hvUse","src":"回家 · huíjiā","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0468","k":"hv","src":"回家","tgt":""}
+{"f":"cards","id":"zh.c0468","k":"trad","src":"回家","tgt":""}
+{"f":"cards","id":"zh.c0469","k":"meaning","src":"to enter","tgt":""}
+{"f":"cards","id":"zh.c0469","k":"note","src":"进来 = come in; 进去 = go in.","tgt":""}
+{"f":"cards","id":"zh.c0469","k":"hvUse","src":"进 · jìn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0469","k":"hv","src":"进","tgt":""}
+{"f":"cards","id":"zh.c0469","k":"trad","src":"进","tgt":""}
+{"f":"cards","id":"zh.c0470","k":"meaning","src":"to go out; to come out","tgt":""}
+{"f":"cards","id":"zh.c0470","k":"note","src":"出去 = go out; 出来 = come out.","tgt":""}
+{"f":"cards","id":"zh.c0470","k":"hvUse","src":"出 · chū","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0470","k":"hv","src":"出","tgt":""}
+{"f":"cards","id":"zh.c0470","k":"trad","src":"出","tgt":""}
+{"f":"cards","id":"zh.c0471","k":"meaning","src":"to open; to drive; to switch on","tgt":""}
+{"f":"cards","id":"zh.c0471","k":"note","src":"开门, 开车, 开灯.","tgt":"开门, 开车, 开灯.","pre":1}
+{"f":"cards","id":"zh.c0471","k":"hvUse","src":"开 · kāi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0471","k":"hv","src":"开","tgt":""}
+{"f":"cards","id":"zh.c0471","k":"trad","src":"开","tgt":""}
+{"f":"cards","id":"zh.c0472","k":"meaning","src":"to close; to switch off","tgt":""}
+{"f":"cards","id":"zh.c0472","k":"note","src":"关门, 关灯.","tgt":"关门, 关灯.","pre":1}
+{"f":"cards","id":"zh.c0472","k":"hvUse","src":"关 · guān","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0472","k":"hv","src":"关","tgt":""}
+{"f":"cards","id":"zh.c0472","k":"trad","src":"关","tgt":""}
+{"f":"cards","id":"zh.c0473","k":"meaning","src":"to wear; to put on (clothes, shoes)","tgt":""}
+{"f":"cards","id":"zh.c0473","k":"note","src":"穿衣服 = get dressed.","tgt":""}
+{"f":"cards","id":"zh.c0473","k":"hvUse","src":"穿 · chuān","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0473","k":"hv","src":"穿","tgt":""}
+{"f":"cards","id":"zh.c0473","k":"trad","src":"穿","tgt":""}
+{"f":"cards","id":"zh.c0474","k":"meaning","src":"to take; to hold","tgt":""}
+{"f":"cards","id":"zh.c0474","k":"note","src":"拿着 = holding it.","tgt":""}
+{"f":"cards","id":"zh.c0474","k":"hvUse","src":"拿 · ná","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0474","k":"hv","src":"拿","tgt":""}
+{"f":"cards","id":"zh.c0474","k":"trad","src":"拿","tgt":""}
+{"f":"cards","id":"zh.c0475","k":"meaning","src":"to put; to place","tgt":""}
+{"f":"cards","id":"zh.c0475","k":"note","src":"放在桌子上 = put it on the table.","tgt":""}
+{"f":"cards","id":"zh.c0475","k":"hvUse","src":"放 · fàng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0475","k":"hv","src":"放","tgt":""}
+{"f":"cards","id":"zh.c0475","k":"trad","src":"放","tgt":""}
+{"f":"cards","id":"zh.c0476","k":"meaning","src":"to give (as a gift); to see off","tgt":""}
+{"f":"cards","id":"zh.c0476","k":"note","src":"送你回家 = see you home.","tgt":""}
+{"f":"cards","id":"zh.c0476","k":"hvUse","src":"送 · sòng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0476","k":"hv","src":"送","tgt":""}
+{"f":"cards","id":"zh.c0476","k":"trad","src":"送","tgt":""}
+{"f":"cards","id":"zh.c0477","k":"meaning","src":"to play; to have fun","tgt":""}
+{"f":"cards","id":"zh.c0477","k":"note","src":"Erhua (northern); also 玩.","tgt":""}
+{"f":"cards","id":"zh.c0477","k":"hvUse","src":"玩儿 · wánr","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0477","k":"hv","src":"玩儿","tgt":""}
+{"f":"cards","id":"zh.c0477","k":"trad","src":"玩儿","tgt":""}
+{"f":"cards","id":"zh.c0478","k":"meaning","src":"to sleep; to go to bed","tgt":""}
+{"f":"cards","id":"zh.c0478","k":"note","src":"睡 + 觉: 睡好觉 = sleep well.","tgt":""}
+{"f":"cards","id":"zh.c0478","k":"hvUse","src":"睡觉 · shuìjiào","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0478","k":"hv","src":"睡觉","tgt":""}
+{"f":"cards","id":"zh.c0478","k":"trad","src":"睡觉","tgt":""}
+{"f":"cards","id":"zh.c0479","k":"meaning","src":"to get up","tgt":""}
+{"f":"cards","id":"zh.c0479","k":"note","src":"我七点起床。","tgt":"我七点起床。","pre":1}
+{"f":"cards","id":"zh.c0479","k":"hvUse","src":"起床 · qǐchuáng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0479","k":"hv","src":"起床","tgt":""}
+{"f":"cards","id":"zh.c0479","k":"trad","src":"起床","tgt":""}
+{"f":"cards","id":"zh.c0480","k":"meaning","src":"to rest","tgt":""}
+{"f":"cards","id":"zh.c0480","k":"note","src":"好好休息 = get some good rest.","tgt":""}
+{"f":"cards","id":"zh.c0480","k":"hvUse","src":"休息 · xiūxi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0480","k":"hv","src":"休息","tgt":""}
+{"f":"cards","id":"zh.c0480","k":"trad","src":"休息","tgt":""}
+{"f":"cards","id":"zh.c0481","k":"meaning","src":"to go to work","tgt":""}
+{"f":"cards","id":"zh.c0481","k":"note","src":"下班 = get off work.","tgt":""}
+{"f":"cards","id":"zh.c0481","k":"hvUse","src":"上班 · shàngbān","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0481","k":"hv","src":"上班","tgt":""}
+{"f":"cards","id":"zh.c0481","k":"trad","src":"上班","tgt":""}
+{"f":"cards","id":"zh.c0482","k":"meaning","src":"to love","tgt":""}
+{"f":"cards","id":"zh.c0482","k":"note","src":"我爱你 is heavy: kept for real love and family.","tgt":""}
+{"f":"cards","id":"zh.c0482","k":"hvUse","src":"爱 · ài","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0482","k":"hv","src":"爱","tgt":""}
+{"f":"cards","id":"zh.c0482","k":"trad","src":"爱","tgt":""}
+{"f":"cards","id":"zh.c0483","k":"meaning","src":"to understand","tgt":""}
+{"f":"cards","id":"zh.c0483","k":"note","src":"懂了 = got it. 听懂 / 看懂 add how.","tgt":""}
+{"f":"cards","id":"zh.c0483","k":"hvUse","src":"懂 · dǒng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0483","k":"hv","src":"懂","tgt":""}
+{"f":"cards","id":"zh.c0483","k":"trad","src":"懂","tgt":""}
+{"f":"cards","id":"zh.c0484","k":"meaning","src":"to forget","tgt":""}
+{"f":"cards","id":"zh.c0484","k":"note","src":"Usually 忘了: 我忘了。","tgt":""}
+{"f":"cards","id":"zh.c0484","k":"hvUse","src":"忘 · wàng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0484","k":"hv","src":"忘","tgt":""}
+{"f":"cards","id":"zh.c0484","k":"trad","src":"忘","tgt":""}
+{"f":"cards","id":"zh.c0485","k":"meaning","src":"to remember","tgt":""}
+{"f":"cards","id":"zh.c0485","k":"note","src":"你还记得我吗？","tgt":"你还记得我吗？","pre":1}
+{"f":"cards","id":"zh.c0485","k":"hvUse","src":"记得 · jìde","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0485","k":"hv","src":"记得","tgt":""}
+{"f":"cards","id":"zh.c0485","k":"trad","src":"记得","tgt":""}
+{"f":"cards","id":"zh.c0486","k":"meaning","src":"to hope","tgt":""}
+{"f":"cards","id":"zh.c0486","k":"note","src":"希望你喜欢。","tgt":"希望你喜欢。","pre":1}
+{"f":"cards","id":"zh.c0486","k":"hvUse","src":"希望 · xīwàng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0486","k":"hv","src":"希望","tgt":""}
+{"f":"cards","id":"zh.c0486","k":"trad","src":"希望","tgt":""}
+{"f":"cards","id":"zh.c0487","k":"meaning","src":"to plan; to intend","tgt":""}
+{"f":"cards","id":"zh.c0487","k":"note","src":"你打算做什么？","tgt":"你打算做什么？","pre":1}
+{"f":"cards","id":"zh.c0487","k":"hvUse","src":"打算 · dǎsuan","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0487","k":"hv","src":"打算","tgt":""}
+{"f":"cards","id":"zh.c0487","k":"trad","src":"打算","tgt":""}
+{"f":"cards","id":"zh.c0488","k":"meaning","src":"to prepare; to get ready","tgt":""}
+{"f":"cards","id":"zh.c0488","k":"note","src":"准备好了吗？ = ready?","tgt":""}
+{"f":"cards","id":"zh.c0488","k":"hvUse","src":"准备 · zhǔnbèi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0488","k":"hv","src":"准备","tgt":""}
+{"f":"cards","id":"zh.c0488","k":"trad","src":"准备","tgt":""}
+{"f":"cards","id":"zh.c0489","k":"meaning","src":"to see; to meet","tgt":""}
+{"f":"cards","id":"zh.c0489","k":"note","src":"明天见 = see you tomorrow.","tgt":""}
+{"f":"cards","id":"zh.c0489","k":"hvUse","src":"见 · jiàn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0489","k":"hv","src":"见","tgt":""}
+{"f":"cards","id":"zh.c0489","k":"trad","src":"见","tgt":""}
+{"f":"cards","id":"zh.c0490","k":"meaning","src":"to meet up","tgt":""}
+{"f":"cards","id":"zh.c0490","k":"note","src":"No object: 跟你见面 = meet you.","tgt":""}
+{"f":"cards","id":"zh.c0490","k":"hvUse","src":"见面 · jiànmiàn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0490","k":"hv","src":"见面","tgt":""}
+{"f":"cards","id":"zh.c0490","k":"trad","src":"见面","tgt":""}
+{"f":"cards","id":"zh.c0491","k":"meaning","src":"to change; to exchange","tgt":""}
+{"f":"cards","id":"zh.c0491","k":"note","src":"换钱 = change money.","tgt":""}
+{"f":"cards","id":"zh.c0491","k":"hvUse","src":"换 · huàn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0491","k":"hv","src":"换","tgt":""}
+{"f":"cards","id":"zh.c0491","k":"trad","src":"换","tgt":""}
+{"f":"cards","id":"zh.c0492","k":"meaning","src":"to try","tgt":""}
+{"f":"cards","id":"zh.c0492","k":"note","src":"试试 = give it a try.","tgt":""}
+{"f":"cards","id":"zh.c0492","k":"hvUse","src":"试 · shì","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0492","k":"hv","src":"试","tgt":""}
+{"f":"cards","id":"zh.c0492","k":"trad","src":"试","tgt":""}
+{"f":"cards","id":"zh.c0493","k":"meaning","src":"to introduce","tgt":""}
+{"f":"cards","id":"zh.c0493","k":"note","src":"我介绍一下 = let me introduce.","tgt":""}
+{"f":"cards","id":"zh.c0493","k":"hvUse","src":"介绍 · jièshào","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0493","k":"hv","src":"介绍","tgt":""}
+{"f":"cards","id":"zh.c0493","k":"trad","src":"介绍","tgt":""}
+{"f":"cards","id":"zh.c0494","k":"meaning","src":"to welcome","tgt":""}
+{"f":"cards","id":"zh.c0494","k":"note","src":"欢迎！ = welcome!","tgt":""}
+{"f":"cards","id":"zh.c0494","k":"hvUse","src":"欢迎 · huānyíng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0494","k":"hv","src":"欢迎","tgt":""}
+{"f":"cards","id":"zh.c0494","k":"trad","src":"欢迎","tgt":""}
+{"f":"cards","id":"zh.c0495","k":"meaning","src":"to sing","tgt":""}
+{"f":"cards","id":"zh.c0495","k":"note","src":"Verb + object: 唱歌 = sing (songs).","tgt":""}
+{"f":"cards","id":"zh.c0495","k":"hvUse","src":"唱歌 · chànggē","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0495","k":"hv","src":"唱歌","tgt":""}
+{"f":"cards","id":"zh.c0495","k":"trad","src":"唱歌","tgt":""}
+{"f":"cards","id":"zh.c0496","k":"meaning","src":"to dance","tgt":""}
+{"f":"cards","id":"zh.c0496","k":"note","src":"","tgt":"","why":"no English note: write one if hvUse is same or shifted (it must show the reading), otherwise leave it empty"}
+{"f":"cards","id":"zh.c0496","k":"hvUse","src":"跳舞 · tiàowǔ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0496","k":"hv","src":"跳舞","tgt":""}
+{"f":"cards","id":"zh.c0496","k":"trad","src":"跳舞","tgt":""}
+{"f":"cards","id":"zh.c0497","k":"meaning","src":"to swim","tgt":""}
+{"f":"cards","id":"zh.c0497","k":"note","src":"会游泳 = can swim.","tgt":""}
+{"f":"cards","id":"zh.c0497","k":"hvUse","src":"游泳 · yóuyǒng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0497","k":"hv","src":"游泳","tgt":""}
+{"f":"cards","id":"zh.c0497","k":"trad","src":"游泳","tgt":""}
+{"f":"cards","id":"zh.c0498","k":"meaning","src":"to jog; to go running","tgt":""}
+{"f":"cards","id":"zh.c0498","k":"note","src":"每天跑步 = run every day.","tgt":""}
+{"f":"cards","id":"zh.c0498","k":"hvUse","src":"跑步 · pǎobù","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0498","k":"hv","src":"跑步","tgt":""}
+{"f":"cards","id":"zh.c0498","k":"trad","src":"跑步","tgt":""}
+{"f":"cards","id":"zh.c0499","k":"meaning","src":"to exercise; sport","tgt":""}
+{"f":"cards","id":"zh.c0499","k":"note","src":"多运动 = exercise more.","tgt":""}
+{"f":"cards","id":"zh.c0499","k":"hvUse","src":"运动 · yùndòng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0499","k":"hv","src":"运动","tgt":""}
+{"f":"cards","id":"zh.c0499","k":"trad","src":"运动","tgt":""}
+{"f":"cards","id":"zh.c0500","k":"meaning","src":"to travel (as a tourist)","tgt":""}
+{"f":"cards","id":"zh.c0500","k":"note","src":"去西安旅游 = take a trip to Xi'an.","tgt":""}
+{"f":"cards","id":"zh.c0500","k":"hvUse","src":"旅游 · lǚyóu","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0500","k":"hv","src":"旅游","tgt":""}
+{"f":"cards","id":"zh.c0500","k":"trad","src":"旅游","tgt":""}
+{"f":"cards","id":"zh.c0501","k":"meaning","src":"to drive","tgt":""}
+{"f":"cards","id":"zh.c0501","k":"note","src":"会开车 = can drive.","tgt":""}
+{"f":"cards","id":"zh.c0501","k":"hvUse","src":"开车 · kāichē","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0501","k":"hv","src":"开车","tgt":""}
+{"f":"cards","id":"zh.c0501","k":"trad","src":"开车","tgt":""}
+{"f":"cards","id":"zh.c0502","k":"meaning","src":"to make a phone call","tgt":""}
+{"f":"cards","id":"zh.c0502","k":"note","src":"给我打电话 = call me.","tgt":""}
+{"f":"cards","id":"zh.c0502","k":"hvUse","src":"打电话 · dǎ diànhuà","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0502","k":"hv","src":"打电话","tgt":""}
+{"f":"cards","id":"zh.c0502","k":"trad","src":"打电话","tgt":""}
+{"f":"cards","id":"zh.c0503","k":"meaning","src":"to go online","tgt":""}
+{"f":"cards","id":"zh.c0503","k":"note","src":"","tgt":"","why":"no English note: write one if hvUse is same or shifted (it must show the reading), otherwise leave it empty"}
+{"f":"cards","id":"zh.c0503","k":"hvUse","src":"上网 · shàngwǎng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0503","k":"hv","src":"上网","tgt":""}
+{"f":"cards","id":"zh.c0503","k":"trad","src":"上网","tgt":""}
+{"f":"cards","id":"zh.c0504","k":"meaning","src":"to take an exam; exam","tgt":""}
+{"f":"cards","id":"zh.c0504","k":"note","src":"明天考试 = the exam is tomorrow.","tgt":""}
+{"f":"cards","id":"zh.c0504","k":"hvUse","src":"考试 · kǎoshì","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0504","k":"hv","src":"考试","tgt":""}
+{"f":"cards","id":"zh.c0504","k":"trad","src":"考试","tgt":""}
+{"f":"cards","id":"zh.c0505","k":"meaning","src":"to get married","tgt":""}
+{"f":"cards","id":"zh.c0505","k":"note","src":"结婚了 = is married.","tgt":""}
+{"f":"cards","id":"zh.c0505","k":"hvUse","src":"结婚 · jiéhūn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0505","k":"hv","src":"结婚","tgt":""}
+{"f":"cards","id":"zh.c0505","k":"trad","src":"结婚","tgt":""}
+{"f":"cards","id":"zh.c0506","k":"meaning","src":"to get sick","tgt":""}
+{"f":"cards","id":"zh.c0506","k":"note","src":"生病了 = is sick.","tgt":""}
+{"f":"cards","id":"zh.c0506","k":"hvUse","src":"生病 · shēngbìng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0506","k":"hv","src":"生病","tgt":""}
+{"f":"cards","id":"zh.c0506","k":"trad","src":"生病","tgt":""}
+{"f":"cards","id":"zh.c0507","k":"meaning","src":"to cry","tgt":""}
+{"f":"cards","id":"zh.c0507","k":"note","src":"别哭 = don't cry.","tgt":""}
+{"f":"cards","id":"zh.c0507","k":"hvUse","src":"哭 · kū","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0507","k":"hv","src":"哭","tgt":""}
+{"f":"cards","id":"zh.c0507","k":"trad","src":"哭","tgt":""}
+{"f":"cards","id":"zh.c0508","k":"meaning","src":"to send","tgt":""}
+{"f":"cards","id":"zh.c0508","k":"note","src":"发微信 = send a WeChat message.","tgt":""}
+{"f":"cards","id":"zh.c0508","k":"hvUse","src":"发 · fā","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0508","k":"hv","src":"发","tgt":""}
+{"f":"cards","id":"zh.c0508","k":"trad","src":"发","tgt":""}
+{"f":"cards","id":"zh.c0509","k":"meaning","src":"to pay","tgt":""}
+{"f":"cards","id":"zh.c0509","k":"note","src":"付钱 = pay.","tgt":""}
+{"f":"cards","id":"zh.c0509","k":"hvUse","src":"付 · fù","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0509","k":"hv","src":"付","tgt":""}
+{"f":"cards","id":"zh.c0509","k":"trad","src":"付","tgt":""}
+{"f":"cards","id":"zh.c0510","k":"meaning","src":"to lose (something)","tgt":""}
+{"f":"cards","id":"zh.c0510","k":"note","src":"我的手机丢了 = I've lost my phone.","tgt":""}
+{"f":"cards","id":"zh.c0510","k":"hvUse","src":"丢 · diū","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0510","k":"hv","src":"丢","tgt":""}
+{"f":"cards","id":"zh.c0510","k":"trad","src":"丢","tgt":""}
+{"f":"cards","id":"zh.c0511","k":"meaning","src":"to help out; to do a favor","tgt":""}
+{"f":"cards","id":"zh.c0511","k":"note","src":"No object: 帮个忙.","tgt":""}
+{"f":"cards","id":"zh.c0511","k":"hvUse","src":"帮忙 · bāngmáng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0511","k":"hv","src":"帮忙","tgt":""}
+{"f":"cards","id":"zh.c0511","k":"trad","src":"帮忙","tgt":""}
+{"f":"cards","id":"zh.c0512","k":"meaning","src":"to worry","tgt":""}
+{"f":"cards","id":"zh.c0512","k":"note","src":"别担心 = don't worry.","tgt":""}
+{"f":"cards","id":"zh.c0512","k":"hvUse","src":"担心 · dānxīn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0512","k":"hv","src":"担心","tgt":""}
+{"f":"cards","id":"zh.c0512","k":"trad","src":"担心","tgt":""}
+{"f":"cards","id":"zh.c0513","k":"meaning","src":"to get angry","tgt":""}
+{"f":"cards","id":"zh.c0513","k":"note","src":"别生气 = don't be mad.","tgt":""}
+{"f":"cards","id":"zh.c0513","k":"hvUse","src":"生气 · shēngqì","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0513","k":"hv","src":"生气","tgt":""}
+{"f":"cards","id":"zh.c0513","k":"trad","src":"生气","tgt":""}
+{"f":"cards","id":"zh.c0514","k":"meaning","src":"to take a shower or bath","tgt":""}
+{"f":"cards","id":"zh.c0514","k":"note","src":"","tgt":"","why":"no English note: write one if hvUse is same or shifted (it must show the reading), otherwise leave it empty"}
+{"f":"cards","id":"zh.c0514","k":"hvUse","src":"洗澡 · xǐzǎo","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0514","k":"hv","src":"洗澡","tgt":""}
+{"f":"cards","id":"zh.c0514","k":"trad","src":"洗澡","tgt":""}
+{"f":"cards","id":"zh.c0515","k":"meaning","src":"to hit; to play (ball); to make (a call)","tgt":""}
+{"f":"cards","id":"zh.c0515","k":"note","src":"打球, 打车, 打电话.","tgt":"打球, 打车, 打电话.","pre":1}
+{"f":"cards","id":"zh.c0515","k":"hvUse","src":"打 · dǎ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0515","k":"hv","src":"打","tgt":""}
+{"f":"cards","id":"zh.c0515","k":"trad","src":"打","tgt":""}
+{"f":"cards","id":"zh.c0516","k":"meaning","src":"to see (catch sight of)","tgt":""}
+{"f":"cards","id":"zh.c0516","k":"note","src":"看 + 见 (result): 你看见了吗？","tgt":""}
+{"f":"cards","id":"zh.c0516","k":"hvUse","src":"看见 · kànjiàn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0516","k":"hv","src":"看见","tgt":""}
+{"f":"cards","id":"zh.c0516","k":"trad","src":"看见","tgt":""}
+{"f":"cards","id":"zh.c0517","k":"meaning","src":"to hear (that); to be told","tgt":""}
+{"f":"cards","id":"zh.c0517","k":"note","src":"听说你结婚了！","tgt":"听说你结婚了！","pre":1}
+{"f":"cards","id":"zh.c0517","k":"hvUse","src":"听说 · tīngshuō","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0517","k":"hv","src":"听说","tgt":""}
+{"f":"cards","id":"zh.c0517","k":"trad","src":"听说","tgt":""}
+{"f":"cards","id":"zh.c0518","k":"meaning","src":"to talk","tgt":""}
+{"f":"cards","id":"zh.c0518","k":"note","src":"别说话 = be quiet.","tgt":""}
+{"f":"cards","id":"zh.c0518","k":"hvUse","src":"说话 · shuōhuà","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0518","k":"hv","src":"说话","tgt":""}
+{"f":"cards","id":"zh.c0518","k":"trad","src":"说话","tgt":""}
+{"f":"cards","id":"zh.c0519","k":"meaning","src":"to eat (a meal)","tgt":""}
+{"f":"cards","id":"zh.c0519","k":"note","src":"吃饭了吗？ = have you eaten? (a greeting)","tgt":""}
+{"f":"cards","id":"zh.c0519","k":"hvUse","src":"吃饭 · chīfàn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0519","k":"hv","src":"吃饭","tgt":""}
+{"f":"cards","id":"zh.c0519","k":"trad","src":"吃饭","tgt":""}
+{"f":"cards","id":"zh.c0520","k":"meaning","src":"to finish","tgt":""}
+{"f":"cards","id":"zh.c0520","k":"note","src":"After a verb: 吃完, 做完.","tgt":""}
+{"f":"cards","id":"zh.c0520","k":"hvUse","src":"完 · wán","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0520","k":"hv","src":"完","tgt":""}
+{"f":"cards","id":"zh.c0520","k":"trad","src":"完","tgt":""}
+{"f":"cards","id":"zh.c0521","k":"meaning","src":"fast; quick","tgt":""}
+{"f":"cards","id":"zh.c0521","k":"note","src":"Adjectives work like verbs: 他很快 (no 是).","tgt":""}
+{"f":"cards","id":"zh.c0521","k":"hvUse","src":"快 · kuài","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0521","k":"hv","src":"快","tgt":""}
+{"f":"cards","id":"zh.c0521","k":"trad","src":"快","tgt":""}
+{"f":"cards","id":"zh.c0522","k":"meaning","src":"new","tgt":""}
+{"f":"cards","id":"zh.c0522","k":"note","src":"Before a noun: 新手机.","tgt":""}
+{"f":"cards","id":"zh.c0522","k":"hvUse","src":"新 · xīn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0522","k":"hv","src":"新","tgt":""}
+{"f":"cards","id":"zh.c0522","k":"trad","src":"新","tgt":""}
+{"f":"cards","id":"zh.c0523","k":"meaning","src":"many; much","tgt":""}
+{"f":"cards","id":"zh.c0523","k":"note","src":"Before a noun: 很多人, not 多人.","tgt":""}
+{"f":"cards","id":"zh.c0523","k":"hvUse","src":"多 · duō","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0523","k":"hv","src":"多","tgt":""}
+{"f":"cards","id":"zh.c0523","k":"trad","src":"多","tgt":""}
+{"f":"cards","id":"zh.c0524","k":"meaning","src":"the same","tgt":""}
+{"f":"cards","id":"zh.c0524","k":"note","src":"跟…一样 = the same as.","tgt":""}
+{"f":"cards","id":"zh.c0524","k":"hvUse","src":"一样 · yíyàng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0524","k":"hv","src":"一样","tgt":""}
+{"f":"cards","id":"zh.c0524","k":"trad","src":"一样","tgt":""}
+{"f":"cards","id":"zh.c0525","k":"meaning","src":"few; little","tgt":""}
+{"f":"cards","id":"zh.c0525","k":"note","src":"人很少 = there are few people.","tgt":""}
+{"f":"cards","id":"zh.c0525","k":"hvUse","src":"少 · shǎo","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0525","k":"hv","src":"少","tgt":""}
+{"f":"cards","id":"zh.c0525","k":"trad","src":"少","tgt":""}
+{"f":"cards","id":"zh.c0526","k":"meaning","src":"long","tgt":""}
+{"f":"cards","id":"zh.c0526","k":"note","src":"很长. Reads cháng here.","tgt":""}
+{"f":"cards","id":"zh.c0526","k":"hvUse","src":"长 · cháng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0526","k":"hv","src":"长","tgt":""}
+{"f":"cards","id":"zh.c0526","k":"trad","src":"长","tgt":""}
+{"f":"cards","id":"zh.c0527","k":"meaning","src":"short (length)","tgt":""}
+{"f":"cards","id":"zh.c0527","k":"note","src":"For people's height: 矮.","tgt":""}
+{"f":"cards","id":"zh.c0527","k":"hvUse","src":"短 · duǎn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0527","k":"hv","src":"短","tgt":""}
+{"f":"cards","id":"zh.c0527","k":"trad","src":"短","tgt":""}
+{"f":"cards","id":"zh.c0528","k":"meaning","src":"short (height)","tgt":""}
+{"f":"cards","id":"zh.c0528","k":"note","src":"Opposite of 高.","tgt":""}
+{"f":"cards","id":"zh.c0528","k":"hvUse","src":"矮 · ǎi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0528","k":"hv","src":"矮","tgt":""}
+{"f":"cards","id":"zh.c0528","k":"trad","src":"矮","tgt":""}
+{"f":"cards","id":"zh.c0529","k":"meaning","src":"old (things)","tgt":""}
+{"f":"cards","id":"zh.c0529","k":"note","src":"For people: 老.","tgt":""}
+{"f":"cards","id":"zh.c0529","k":"hvUse","src":"旧 · jiù","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0529","k":"hv","src":"旧","tgt":""}
+{"f":"cards","id":"zh.c0529","k":"trad","src":"旧","tgt":""}
+{"f":"cards","id":"zh.c0530","k":"meaning","src":"old (people)","tgt":""}
+{"f":"cards","id":"zh.c0530","k":"note","src":"老王 = \"old Wang\", friendly.","tgt":""}
+{"f":"cards","id":"zh.c0530","k":"hvUse","src":"老 · lǎo","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0530","k":"hv","src":"老","tgt":""}
+{"f":"cards","id":"zh.c0530","k":"trad","src":"老","tgt":""}
+{"f":"cards","id":"zh.c0531","k":"meaning","src":"slow","tgt":""}
+{"f":"cards","id":"zh.c0531","k":"note","src":"慢点儿 = slow down.","tgt":""}
+{"f":"cards","id":"zh.c0531","k":"hvUse","src":"慢 · màn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0531","k":"hv","src":"慢","tgt":""}
+{"f":"cards","id":"zh.c0531","k":"trad","src":"慢","tgt":""}
+{"f":"cards","id":"zh.c0532","k":"meaning","src":"early","tgt":""}
+{"f":"cards","id":"zh.c0532","k":"note","src":"早！ = morning! (a greeting)","tgt":""}
+{"f":"cards","id":"zh.c0532","k":"hvUse","src":"早 · zǎo","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0532","k":"hv","src":"早","tgt":""}
+{"f":"cards","id":"zh.c0532","k":"trad","src":"早","tgt":""}
+{"f":"cards","id":"zh.c0533","k":"meaning","src":"late","tgt":""}
+{"f":"cards","id":"zh.c0533","k":"note","src":"晚了 = it's late.","tgt":""}
+{"f":"cards","id":"zh.c0533","k":"hvUse","src":"晚 · wǎn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0533","k":"hv","src":"晚","tgt":""}
+{"f":"cards","id":"zh.c0533","k":"trad","src":"晚","tgt":""}
+{"f":"cards","id":"zh.c0534","k":"meaning","src":"cold","tgt":""}
+{"f":"cards","id":"zh.c0534","k":"note","src":"No 是: 今天很冷.","tgt":""}
+{"f":"cards","id":"zh.c0534","k":"hvUse","src":"冷 · lěng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0534","k":"hv","src":"冷","tgt":""}
+{"f":"cards","id":"zh.c0534","k":"trad","src":"冷","tgt":""}
+{"f":"cards","id":"zh.c0535","k":"meaning","src":"hot","tgt":""}
+{"f":"cards","id":"zh.c0535","k":"note","src":"Weather and food: 很热.","tgt":""}
+{"f":"cards","id":"zh.c0535","k":"hvUse","src":"热 · rè","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0535","k":"hv","src":"热","tgt":""}
+{"f":"cards","id":"zh.c0535","k":"trad","src":"热","tgt":""}
+{"f":"cards","id":"zh.c0536","k":"meaning","src":"busy","tgt":""}
+{"f":"cards","id":"zh.c0536","k":"note","src":"Answer 你忙吗？ with 很忙, not 是.","tgt":""}
+{"f":"cards","id":"zh.c0536","k":"hvUse","src":"忙 · máng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0536","k":"hv","src":"忙","tgt":""}
+{"f":"cards","id":"zh.c0536","k":"trad","src":"忙","tgt":""}
+{"f":"cards","id":"zh.c0537","k":"meaning","src":"tired","tgt":""}
+{"f":"cards","id":"zh.c0537","k":"note","src":"累死了 = exhausted.","tgt":""}
+{"f":"cards","id":"zh.c0537","k":"hvUse","src":"累 · lèi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0537","k":"hv","src":"累","tgt":""}
+{"f":"cards","id":"zh.c0537","k":"trad","src":"累","tgt":""}
+{"f":"cards","id":"zh.c0538","k":"meaning","src":"hungry","tgt":""}
+{"f":"cards","id":"zh.c0538","k":"note","src":"Usually 饿了: 我饿了.","tgt":""}
+{"f":"cards","id":"zh.c0538","k":"hvUse","src":"饿 · è","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0538","k":"hv","src":"饿","tgt":""}
+{"f":"cards","id":"zh.c0538","k":"trad","src":"饿","tgt":""}
+{"f":"cards","id":"zh.c0539","k":"meaning","src":"thirsty","tgt":""}
+{"f":"cards","id":"zh.c0539","k":"note","src":"渴了 = I'm thirsty.","tgt":""}
+{"f":"cards","id":"zh.c0539","k":"hvUse","src":"渴 · kě","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0539","k":"hv","src":"渴","tgt":""}
+{"f":"cards","id":"zh.c0539","k":"trad","src":"渴","tgt":""}
+{"f":"cards","id":"zh.c0540","k":"meaning","src":"sleepy","tgt":""}
+{"f":"cards","id":"zh.c0540","k":"note","src":"困了 = I'm sleepy.","tgt":""}
+{"f":"cards","id":"zh.c0540","k":"hvUse","src":"困 · kùn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0540","k":"hv","src":"困","tgt":""}
+{"f":"cards","id":"zh.c0540","k":"trad","src":"困","tgt":""}
+{"f":"cards","id":"zh.c0541","k":"meaning","src":"far","tgt":""}
+{"f":"cards","id":"zh.c0541","k":"note","src":"离这儿远吗？","tgt":"离这儿远吗？","pre":1}
+{"f":"cards","id":"zh.c0541","k":"hvUse","src":"远 · yuǎn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0541","k":"hv","src":"远","tgt":""}
+{"f":"cards","id":"zh.c0541","k":"trad","src":"远","tgt":""}
+{"f":"cards","id":"zh.c0542","k":"meaning","src":"near; close","tgt":""}
+{"f":"cards","id":"zh.c0542","k":"note","src":"很近 = very close.","tgt":""}
+{"f":"cards","id":"zh.c0542","k":"hvUse","src":"近 · jìn","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0542","k":"hv","src":"近","tgt":""}
+{"f":"cards","id":"zh.c0542","k":"trad","src":"近","tgt":""}
+{"f":"cards","id":"zh.c0543","k":"meaning","src":"expensive","tgt":""}
+{"f":"cards","id":"zh.c0543","k":"note","src":"太贵了！ = too expensive!","tgt":""}
+{"f":"cards","id":"zh.c0543","k":"hvUse","src":"贵 · guì","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0543","k":"hv","src":"贵","tgt":""}
+{"f":"cards","id":"zh.c0543","k":"trad","src":"贵","tgt":""}
+{"f":"cards","id":"zh.c0544","k":"meaning","src":"cheap","tgt":""}
+{"f":"cards","id":"zh.c0544","k":"note","src":"便宜一点儿吧 = a bit cheaper?","tgt":""}
+{"f":"cards","id":"zh.c0544","k":"hvUse","src":"便宜 · piányi","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0544","k":"hv","src":"便宜","tgt":""}
+{"f":"cards","id":"zh.c0544","k":"trad","src":"便宜","tgt":""}
+{"f":"cards","id":"zh.c0545","k":"meaning","src":"fat; chubby","tgt":""}
+{"f":"cards","id":"zh.c0545","k":"note","src":"Said more freely than in English, but it can still sting.","tgt":"","rw":"mentions English"}
+{"f":"cards","id":"zh.c0545","k":"hvUse","src":"胖 · pàng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0545","k":"hv","src":"胖","tgt":""}
+{"f":"cards","id":"zh.c0545","k":"trad","src":"胖","tgt":""}
+{"f":"cards","id":"zh.c0546","k":"meaning","src":"thin; slim","tgt":""}
+{"f":"cards","id":"zh.c0546","k":"note","src":"Often a compliment in China.","tgt":""}
+{"f":"cards","id":"zh.c0546","k":"hvUse","src":"瘦 · shòu","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0546","k":"hv","src":"瘦","tgt":""}
+{"f":"cards","id":"zh.c0546","k":"trad","src":"瘦","tgt":""}
+{"f":"cards","id":"zh.c0547","k":"meaning","src":"sour","tgt":""}
+{"f":"cards","id":"zh.c0547","k":"note","src":"","tgt":"","why":"no English note: write one if hvUse is same or shifted (it must show the reading), otherwise leave it empty"}
+{"f":"cards","id":"zh.c0547","k":"hvUse","src":"酸 · suān","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0547","k":"hv","src":"酸","tgt":""}
+{"f":"cards","id":"zh.c0547","k":"trad","src":"酸","tgt":""}
+{"f":"cards","id":"zh.c0548","k":"meaning","src":"bitter","tgt":""}
+{"f":"cards","id":"zh.c0548","k":"note","src":"Also \"hard (life)\".","tgt":""}
+{"f":"cards","id":"zh.c0548","k":"hvUse","src":"苦 · kǔ","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0548","k":"hv","src":"苦","tgt":""}
+{"f":"cards","id":"zh.c0548","k":"trad","src":"苦","tgt":""}
+{"f":"cards","id":"zh.c0549","k":"meaning","src":"spicy","tgt":""}
+{"f":"cards","id":"zh.c0549","k":"note","src":"不辣 = not spicy.","tgt":""}
+{"f":"cards","id":"zh.c0549","k":"hvUse","src":"辣 · là","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0549","k":"hv","src":"辣","tgt":""}
+{"f":"cards","id":"zh.c0549","k":"trad","src":"辣","tgt":""}
+{"f":"cards","id":"zh.c0550","k":"meaning","src":"salty","tgt":""}
+{"f":"cards","id":"zh.c0550","k":"note","src":"","tgt":"","why":"no English note: write one if hvUse is same or shifted (it must show the reading), otherwise leave it empty"}
+{"f":"cards","id":"zh.c0550","k":"hvUse","src":"咸 · xián","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0550","k":"hv","src":"咸","tgt":""}
+{"f":"cards","id":"zh.c0550","k":"trad","src":"咸","tgt":""}
+{"f":"cards","id":"zh.c0551","k":"meaning","src":"fragrant; smells good","tgt":""}
+{"f":"cards","id":"zh.c0551","k":"note","src":"真香 = smells great.","tgt":""}
+{"f":"cards","id":"zh.c0551","k":"hvUse","src":"香 · xiāng","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0551","k":"hv","src":"香","tgt":""}
+{"f":"cards","id":"zh.c0551","k":"trad","src":"香","tgt":""}
+{"f":"cards","id":"zh.c0552","k":"meaning","src":"tasty (food)","tgt":""}
+{"f":"cards","id":"zh.c0552","k":"note","src":"For drinks: 好喝.","tgt":""}
+{"f":"cards","id":"zh.c0552","k":"hvUse","src":"好吃 · hǎochī","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0552","k":"hv","src":"好吃","tgt":""}
+{"f":"cards","id":"zh.c0552","k":"trad","src":"好吃","tgt":""}
+{"f":"cards","id":"zh.c0553","k":"meaning","src":"tasty (drinks)","tgt":""}
+{"f":"cards","id":"zh.c0553","k":"note","src":"","tgt":"","why":"no English note: write one if hvUse is same or shifted (it must show the reading), otherwise leave it empty"}
+{"f":"cards","id":"zh.c0553","k":"hvUse","src":"好喝 · hǎohē","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0553","k":"hv","src":"好喝","tgt":""}
+{"f":"cards","id":"zh.c0553","k":"trad","src":"好喝","tgt":""}
+{"f":"cards","id":"zh.c0554","k":"meaning","src":"difficult","tgt":""}
+{"f":"cards","id":"zh.c0554","k":"note","src":"中文不难。","tgt":"中文不难。","pre":1}
+{"f":"cards","id":"zh.c0554","k":"hvUse","src":"难 · nán","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0554","k":"hv","src":"难","tgt":""}
+{"f":"cards","id":"zh.c0554","k":"trad","src":"难","tgt":""}
+{"f":"cards","id":"zh.c0555","k":"meaning","src":"easy","tgt":""}
+{"f":"cards","id":"zh.c0555","k":"note","src":"不容易 = not easy.","tgt":""}
+{"f":"cards","id":"zh.c0555","k":"hvUse","src":"容易 · róngyì","tgt":"","opts":"same | shifted | none | skip"}
+{"f":"cards","id":"zh.c0555","k":"hv","src":"容易","tgt":""}
+{"f":"cards","id":"zh.c0555","k":"trad","src":"容易","tgt":""}

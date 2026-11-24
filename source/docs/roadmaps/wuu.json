@@ -1,0 +1,170 @@
+{
+ "code": "wuu",
+ "name": "Wu Chinese (Shanghainese)",
+ "self": "上海闲话",
+ "variant": "Shanghainese (上海闲话), the urban speech of present-day Shanghai as spoken by middle-aged and younger speakers, chosen because it is the best-documented and most widely heard Wu variety; written in simplified Chinese characters, with the dialect characters used in Shanghainese publications (侬, 阿拉, 伊拉, 勿, 覅, 呒没), and every word given in Wugniu romanisation with its tone-sandhi pattern; Mandarin equivalents are shown beside new words",
+ "variant_ko": "상하이어(上海闲话): 오늘날 상하이의 중장년·젊은 층이 쓰는 도시 말입니다. 우어 가운데 기록이 가장 많고 가장 널리 들리는 변종이라 골랐습니다. 간체자와 상하이어 출판물에서 쓰는 방언 글자(侬, 阿拉, 伊拉, 勿, 覅, 呒没)로 쓰고, 모든 단어에 우뉴(Wugniu) 로마자 표기와 성조 변화 유형을 붙입니다. 새 단어에는 표준중국어 대응어를 함께 보여 줍니다",
+ "voice": "wuu-CN",
+ "script": "Chinese characters (simplified), left to right, including Shanghainese dialect characters (侬, 伊, 阿拉, 㑚, 勿, 覅, 呒没, 辣); taught with Wugniu romanisation (Latin letters; voiced initials b d g v z, final q for the glottal stop) and tone numbers for citation tones and sandhi",
+ "basis": "No Shanghainese course syllabus could be opened. The plan is a CEFR-style A1 progression built like this app's Cantonese plan (romanisation and tones, first characters, pronouns, 是 / 勿, question words, numbers and classifiers, possession, being at and having, then daily topics and aspect), with the tone-sandhi teaching based on the description of Shanghainese sandhi as word-level (the first syllable sets the melody of the whole word) and the romanisation chosen from the common Wu schemes (Wugniu, Qian Nairong's Shanghainese Pinyin)",
+ "basis_ko": "상하이어 교육과정은 열람하지 못했습니다. 이 계획은 이 앱의 광둥어 계획과 같은 틀로 만든 CEFR식 A1 진행입니다(로마자와 성조, 첫 한자, 대명사, 是 / 勿, 의문사, 숫자와 분류사, 소유, 있음과 가짐, 그다음 일상 주제와 상). 성조 변화는 단어 단위로 일어난다(첫 음절이 단어 전체의 가락을 정한다)는 설명을 따르고, 로마자는 흔히 쓰는 우어 표기법(우뉴, 첸나이룽의 상하이어 병음) 가운데서 골랐습니다",
+ "src": [
+  "English Wikipedia, Romanization of Wu Chinese, read through a fetch summary on 2026-11-24: Wugniu (developed about 2016 from Wu Chinese Society pinyin of about 2005) and Wu Chinese Society pinyin as the default schemes in most learning materials; Qian Nairong's Shanghainese Pinyin (2006), modelled on Hanyu Pinyin and used in published dictionaries and textbooks; older missionary and French-based systems",
+  "Omniglot, Hū'in page, read through a fetch summary: five citation tones (53, 34, 13, 55, 12); tone sandhi depends on the number of syllables in the word and mostly spreads the first syllable's tone over the word",
+  "Rutgers University ALC faculty bookshelf: Richard VanNess Simmons, Shanghainese-English / English-Shanghainese Dictionary and Phrasebook (Hippocrene Books, 2011): description only (about 4,000 entries, phrasebook, grammar and pronunciation notes). Not opened",
+  "Seen only as search-result titles: Project Gutenberg editions of F. L. Hawks Pott, Lessons in the Shanghai Dialect, and Useful Phrases in the Shanghai Dialect (early 20th century, old romanisation); not opened and too old for a modern course"
+ ],
+ "note": "The lesson order is my own, modelled on the Cantonese plan and common course practice; no Shanghainese syllabus was read. Every Shanghainese word and character choice in the titles and the Korean titles are from my own knowledge, with no romanisation in the titles because I could not check Wugniu spellings this session. Character choice for dialect words varies between publications (辣 / 拉 for 'at', 葛 / 个, 迭个 / 搿个 for 'this', 埃个 / 伊个 for 'that'); writers must fix one set and keep it. Younger Shanghainese speakers mix in Mandarin words and some have merged tones and finals; the course should teach one clear modern standard and say so. Voice: wuu-CN is the BCP-47 shape; device voices for Shanghainese are unlikely to exist, so recorded audio would be needed. Writers must check every word, character and sandhi pattern with a first-language Shanghainese speaker.",
+ "hardest": [
+  "Word-level tone sandhi: the first syllable's tone sets the melody of the whole word, so a syllable's own tone is often not heard",
+  "Voiced initials (b, d, g, v, z) and checked syllables ending in a glottal stop, both absent from Mandarin",
+  "Dialect words and characters that differ from Mandarin (侬 'you', 阿拉 'we', 勿 'not', 覅 'don't', 呒没 'not have')",
+  "Little standard writing: the same word can be written with different characters in different books"
+ ],
+ "stages": [
+  {
+   "en": "Sounds, tones and first characters",
+   "ko": "소리, 성조, 첫 한자",
+   "items": [
+    [
+     "wuu-sounds",
+     "Sounds and Wugniu romanisation: voiced b, d, g, v, z and the glottal stop",
+     "소리와 우뉴 로마자 표기: 유성음 b, d, g, v, z와 성문 파열음"
+    ],
+    [
+     "wuu-tones",
+     "Tones and tone sandhi: how the first syllable sets the melody of a word (上海, 上海人)",
+     "성조와 성조 변화: 첫 음절이 단어의 가락을 정하는 방식(上海, 上海人)"
+    ],
+    [
+     "wuu-greetings",
+     "Greetings and thanks: 侬好, 谢谢侬, 再会",
+     "인사와 감사: 侬好, 谢谢侬, 再会"
+    ],
+    [
+     "wuu-characters",
+     "Characters for Shanghainese: shared characters and dialect ones (侬, 阿拉, 勿, 辣)",
+     "상하이어를 쓰는 한자: 공통 한자와 방언 글자(侬, 阿拉, 勿, 辣)"
+    ]
+   ]
+  },
+  {
+   "en": "First sentences",
+   "ko": "첫 문장",
+   "items": [
+    [
+     "wuu-pronouns",
+     "Pronouns: 我, 侬, 伊; 阿拉, 㑚, 伊拉",
+     "대명사: 我, 侬, 伊; 阿拉, 㑚, 伊拉"
+    ],
+    [
+     "wuu-intro",
+     "Introducing yourself: 我叫…, 侬叫啥名字?",
+     "자기소개: 我叫…, 侬叫啥名字?"
+    ],
+    [
+     "wuu-shi",
+     "是 and 勿是, and yes-no questions with 伐 (侬是上海人伐?)",
+     "是와 勿是, 그리고 伐로 묻는 예/아니요 질문(侬是上海人伐?)"
+    ],
+    [
+     "wuu-questions",
+     "Question words: 啥, 啥人, 啥地方, 啥辰光, 几钿, 哪能",
+     "의문사: 啥, 啥人, 啥地方, 啥辰光, 几钿, 哪能"
+    ],
+    [
+     "wuu-numbers",
+     "Numbers and prices: 一, 两, 三 … 十, 百, 千; 几钿?",
+     "숫자와 가격: 一, 两, 三 … 十, 百, 千; 几钿?"
+    ],
+    [
+     "wuu-classifiers",
+     "Classifiers and this / that: 只, 个, 本; 迭个, 埃个",
+     "분류사와 이것 / 저것: 只, 个, 本; 迭个, 埃个"
+    ],
+    [
+     "wuu-possessive",
+     "Possession with 个: 我个书, 阿拉屋里",
+     "个로 나타내는 소유: 我个书, 阿拉屋里"
+    ],
+    [
+     "wuu-at-have",
+     "Being at and having: 辣 (at), 有 / 呒没 (have, there isn't)",
+     "있는 곳과 가짐: 辣(~에 있다), 有 / 呒没(있다, 없다)"
+    ]
+   ]
+  },
+  {
+   "en": "Daily life",
+   "ko": "일상생활",
+   "items": [
+    [
+     "wuu-family",
+     "Family: 阿爸, 姆妈, 阿哥, 阿姐, 阿弟, 阿妹",
+     "가족: 阿爸, 姆妈, 阿哥, 阿姐, 阿弟, 阿妹"
+    ],
+    [
+     "wuu-want-like",
+     "Wanting and liking: 要, 想, 欢喜",
+     "원함과 좋아함: 要, 想, 欢喜"
+    ],
+    [
+     "wuu-food",
+     "Eating out: 吃饭, 小笼, 再来一碗, 买单",
+     "외식하기: 吃饭, 小笼, 再来一碗, 买单"
+    ],
+    [
+     "wuu-shopping",
+     "Shopping and bargaining: 几钿?, 忒贵了, 便宜眼",
+     "쇼핑과 흥정: 几钿?, 忒贵了, 便宜眼"
+    ],
+    [
+     "wuu-time",
+     "Time and days: 几点钟?, 今朝, 明朝, 昨日, 礼拜一",
+     "시간과 요일: 几点钟?, 今朝, 明朝, 昨日, 礼拜一"
+    ],
+    [
+     "wuu-directions",
+     "Directions and transport: 朝左, 朝右, 一直走; 地铁, 差头",
+     "길 묻기와 교통: 朝左, 朝右, 一直走; 地铁, 差头"
+    ],
+    [
+     "wuu-aspect",
+     "Doing and done: 辣 (in progress), 了 (completed), 过 (have ever)",
+     "하는 중과 다 한 것: 辣(진행), 了(완료), 过(경험)"
+    ]
+   ]
+  },
+  {
+   "en": "Longer sentences",
+   "ko": "긴 문장",
+   "items": [
+    [
+     "wuu-negation",
+     "Negatives: 勿 (not), 呒没 (didn't, don't have), 覅 (don't)",
+     "부정: 勿(아니다), 呒没(안 했다, 없다), 覅(하지 마)"
+    ],
+    [
+     "wuu-can-must",
+     "Can, may and must: 会, 可以, 好, 要",
+     "할 수 있다, 해도 된다, 해야 한다: 会, 可以, 好, 要"
+    ],
+    [
+     "wuu-compare",
+     "Comparing: 比, 更加, 顶 (most)",
+     "비교하기: 比, 更加, 顶(가장)"
+    ],
+    [
+     "wuu-mandarin",
+     "Shanghainese and Mandarin side by side: 侬 / 你, 伊 / 他, 勿 / 不, 啥 / 什么",
+     "상하이어와 표준중국어 나란히 보기: 侬 / 你, 伊 / 他, 勿 / 不, 啥 / 什么"
+    ],
+    [
+     "wuu-joining",
+     "Joining sentences: 因为…所以, 但是, 葛末 (then)",
+     "문장 잇기: 因为…所以, 但是, 葛末(그러면)"
+    ]
+   ]
+  }
+ ]
+}

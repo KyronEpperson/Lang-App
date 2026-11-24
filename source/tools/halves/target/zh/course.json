@@ -1,0 +1,197 @@
+{
+ "target": "zh",
+ "ttsLang": "zh-CN",
+ "self": "中文",
+ "pack": {
+  "accents": true,
+  "keys": "ü ̄ ́ ̌ ̀",
+  "tilesDefault": true
+ },
+ "features": {
+  "script": false,
+  "pron": false,
+  "conj": false,
+  "register": false,
+  "numbers": false,
+  "sound": false,
+  "strokes": false
+ },
+ "groups": [
+  {
+   "id": "zh.grp.sounds-and-script",
+   "decks": [
+    "zh.d.pinyin-sounds",
+    "zh.d.tone-pairs",
+    "zh.d.first-characters"
+   ]
+  },
+  {
+   "id": "zh.grp.first-steps",
+   "decks": [
+    "zh.d.greetings-and-courtesy",
+    "zh.d.people-and-family",
+    "zh.d.about-me"
+   ]
+  },
+  {
+   "id": "zh.grp.everyday-words",
+   "decks": [
+    "zh.d.numbers-and-money",
+    "zh.d.measure-words",
+    "zh.d.food-and-drink",
+    "zh.d.shopping",
+    "zh.d.time-days-and-dates"
+   ]
+  },
+  {
+   "id": "zh.grp.out-and-about",
+   "decks": [
+    "zh.d.around-town-and-directions",
+    "zh.d.travel-and-transport",
+    "zh.d.work-and-study",
+    "zh.d.health-and-help"
+   ]
+  },
+  {
+   "id": "zh.grp.conversation",
+   "decks": [
+    "zh.d.describing-things",
+    "zh.d.questions-and-connectors",
+    "zh.d.traps-for-english-speakers",
+    "zh.d.compliments",
+    "zh.d.flirting"
+   ]
+  },
+  {
+   "id": "zh.grp.core-words",
+   "decks": [
+    "zh.d.top-nouns",
+    "zh.d.top-verbs",
+    "zh.d.top-adjectives",
+    "zh.d.top-adverbs",
+    "zh.d.top-pronouns",
+    "zh.d.top-prepositions-coverbs",
+    "zh.d.top-conjunctions",
+    "zh.d.top-interjections",
+    "zh.d.top-words",
+    "zh.d.top-measure-words",
+    "zh.d.top-particles"
+   ]
+  }
+ ],
+ "tags": {
+  "sounds-and-script": [
+   "zh.d.pinyin-sounds",
+   "zh.d.tone-pairs",
+   "zh.d.first-characters"
+  ],
+  "first-steps": [
+   "zh.d.greetings-and-courtesy",
+   "zh.d.people-and-family",
+   "zh.d.about-me"
+  ],
+  "everyday-words": [
+   "zh.d.numbers-and-money",
+   "zh.d.measure-words",
+   "zh.d.food-and-drink",
+   "zh.d.shopping",
+   "zh.d.time-days-and-dates"
+  ],
+  "out-and-about": [
+   "zh.d.around-town-and-directions",
+   "zh.d.travel-and-transport",
+   "zh.d.work-and-study",
+   "zh.d.health-and-help"
+  ],
+  "conversation": [
+   "zh.d.describing-things",
+   "zh.d.questions-and-connectors",
+   "zh.d.traps-for-english-speakers",
+   "zh.d.compliments",
+   "zh.d.flirting"
+  ],
+  "core-words": [
+   "zh.d.top-nouns",
+   "zh.d.top-verbs",
+   "zh.d.top-adjectives",
+   "zh.d.top-adverbs",
+   "zh.d.top-pronouns",
+   "zh.d.top-prepositions-coverbs",
+   "zh.d.top-conjunctions",
+   "zh.d.top-interjections",
+   "zh.d.top-words",
+   "zh.d.top-measure-words",
+   "zh.d.top-particles"
+  ]
+ },
+ "goals": [],
+ "plans": [],
+ "titles": [
+  {
+   "id": "zh.t01",
+   "level": 1
+  },
+  {
+   "id": "zh.t03",
+   "level": 3
+  },
+  {
+   "id": "zh.t05",
+   "level": 5
+  },
+  {
+   "id": "zh.t08",
+   "level": 8
+  },
+  {
+   "id": "zh.t12",
+   "level": 12
+  },
+  {
+   "id": "zh.t16",
+   "level": 16
+  },
+  {
+   "id": "zh.t20",
+   "level": 20
+  }
+ ],
+ "greet": [
+  {
+   "id": "zh.h.night",
+   "zh": "晚安"
+  },
+  {
+   "id": "zh.h.morning",
+   "zh": "早上好"
+  },
+  {
+   "id": "zh.h.afternoon",
+   "zh": "下午好"
+  },
+  {
+   "id": "zh.h.evening",
+   "zh": "晚上好"
+  }
+ ],
+ "pairs": [],
+ "pause": {
+  "sets": [],
+  "idioms": []
+ },
+ "uiKeys": [
+  "Chinese (required)",
+  "Chinese, pronunciation, meaning, note — one per line (pronunciation/note optional)",
+  "Search a pattern, e.g. 에서 or 'want'",
+  "#sounds-and-script",
+  "#first-steps",
+  "#everyday-words",
+  "#out-and-about",
+  "#conversation",
+  "#core-words"
+ ],
+ "exportedFrom": {
+  "file": "tools/target/zh/ (tools/target/gen.js zh)",
+  "sha256_16": "2bea57088b82f82d"
+ }
+}

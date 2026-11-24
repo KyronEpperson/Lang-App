@@ -1,0 +1,173 @@
+{
+ "code": "gu",
+ "name": "Gujarati",
+ "self": "ગુજરાતી",
+ "variant": "Standard Gujarati, the educated standard of Gujarat (Ahmedabad and Vadodara usage) used in schools, newspapers and broadcasting; everyday spoken forms first, with the polite તમે as the default 'you'; written in Gujarati script",
+ "variant_ko": "표준 구자라트어: 학교·신문·방송에서 쓰는 구자라트주의 교양 표준어(아마다바드·바도다라 용법). 일상 구어 형태를 먼저 배우고, 기본 '당신'은 공손한 તમે입니다. 구자라트 문자로 씁니다",
+ "voice": "gu-IN",
+ "script": "Gujarati script, left to right: an abugida close to Devanagari but without the top line (શિરોરેખા); vowel signs, the anusvara ં, conjuncts (ક્ષ, જ્ઞ, શ્ર) and the letter ળ; Gujarati digits ૦–૯ beside Western digits",
+ "basis": "Jagdish Dave, Colloquial Gujarati: The Complete Course for Beginners (Routledge, 2nd edition), which teaches Gujarati 'as it is written and spoken today'; its contents could not be seen, so the order is a CEFR-style A1–B1 progression of the kind used for Hindi and Marathi in this app: script; pronouns and છે; gender, possessives and adjective agreement; postpositions; present, progressive and wanting; past with -એ agreement; future, must and can",
+ "basis_ko": "Jagdish Dave, Colloquial Gujarati (Routledge, 개정 2판). '오늘날 쓰고 말하는' 구자라트어를 가르칩니다. 목차를 볼 수 없어 순서는 이 앱의 힌디어·마라티어와 같은 CEFR식 A1–B1 진행입니다: 문자, 대명사와 છે, 성·소유·형용사 일치, 후치사, 현재·진행·원함, -એ 일치가 있는 과거, 미래·의무·가능",
+ "src": [
+  "Routledge product page for Jagdish Dave, Colloquial Gujarati: The Complete Course for Beginners, 2nd edition (ISBN 9781138958401), read through a fetch summary on 2026-11-24: description only (Gujarati as written and spoken today; speaking, listening, reading and writing; grammar summary; native-speaker audio). The table of contents was empty on the page",
+  "Perlego page for the same book: opened, no contents list"
+ ],
+ "note": "No contents list of a Gujarati course was seen, so the lesson order is my own, modelled on this app's Marathi and Hindi plans (closely related grammar: three genders, agreement, postpositions, ergative -એ in the past) and on common course practice. Every Gujarati form in the titles and the Korean titles are from my own knowledge. Points to check with a speaker: મારે બે ભાઈ છે for kinship 'have' against મારી પાસે … છે for things; મારે જવું પડશે for 'must'; the progressive હું કરી રહ્યો છું against the plain present in speech. Writers must check every Gujarati form with a first-language speaker.",
+ "hardest": [
+  "Three genders, with adjectives, possessives and past verbs that agree (સારો, સારી, સારું)",
+  "The past of transitive verbs with -એ / મેં, agreeing with the object (મેં ચા પીધી)",
+  "Retroflex ટ ડ ણ ળ against dental ત દ ન લ, and aspirated stops",
+  "A script that looks like Devanagari without the top line, with several different letter shapes"
+ ],
+ "stages": [
+  {
+   "en": "Script, sounds and greetings",
+   "ko": "문자, 소리, 인사",
+   "items": [
+    [
+     "gu-vowels",
+     "Gujarati vowels and vowel signs: અ આ ઇ ઈ ઉ ઊ એ ઐ ઓ ઔ",
+     "구자라트어 모음과 모음 기호: અ આ ઇ ઈ ઉ ઊ એ ઐ ઓ ઔ"
+    ],
+    [
+     "gu-consonants",
+     "Consonants: aspirated and retroflex letters (ટ ઠ ડ ઢ ણ) and ળ",
+     "자음: 기식음과 권설음(ટ ઠ ડ ઢ ણ), 그리고 ળ"
+    ],
+    [
+     "gu-conjuncts",
+     "Conjuncts and marks: ક્ષ, જ્ઞ, શ્ર, the anusvara ં",
+     "결합 자음과 부호: ક્ષ, જ્ઞ, શ્ર, 아누스와라 ં"
+    ],
+    [
+     "gu-greetings",
+     "Greetings: નમસ્તે, કેમ છો?, મજામાં, આભાર",
+     "인사: નમસ્તે, કેમ છો?, મજામાં, આભાર"
+    ]
+   ]
+  },
+  {
+   "en": "First sentences",
+   "ko": "첫 문장",
+   "items": [
+    [
+     "gu-chhe",
+     "Pronouns and છે: હું છું, તું છે, તમે છો, અમે / આપણે છીએ, તેઓ છે",
+     "대명사와 છે: હું છું, તું છે, તમે છો, અમે / આપણે છીએ, તેઓ છે"
+    ],
+    [
+     "gu-intro",
+     "Introducing yourself: મારું નામ … છે; તમારું નામ શું છે?",
+     "자기소개: મારું નામ … છે; તમારું નામ શું છે?"
+    ],
+    [
+     "gu-gender",
+     "Three genders and plurals: છોકરો, છોકરી, છોકરું; છોકરાઓ",
+     "세 가지 성과 복수: છોકરો, છોકરી, છોકરું; છોકરાઓ"
+    ],
+    [
+     "gu-questions",
+     "નથી and questions: શું, કોણ, ક્યાં, ક્યારે, કેટલું, કેમ",
+     "નથી와 의문문: શું, કોણ, ક્યાં, ક્યારે, કેટલું, કેમ"
+    ],
+    [
+     "gu-possessive",
+     "Possessives that agree: મારો, મારી, મારું; family",
+     "일치하는 소유 표현: મારો, મારી, મારું; 가족"
+    ],
+    [
+     "gu-adjectives",
+     "Adjectives that agree: સારો, સારી, સારું; colours",
+     "일치하는 형용사: સારો, સારી, સારું; 색깔"
+    ],
+    [
+     "gu-numbers",
+     "Numbers 1–100 and prices: કેટલા રૂપિયા?",
+     "1–100까지의 숫자와 가격: કેટલા રૂપિયા?"
+    ],
+    [
+     "gu-postpositions",
+     "Postpositions: ઘરમાં, ટેબલ પર, મને, અમદાવાદથી",
+     "후치사: ઘરમાં, ટેબલ પર, મને, અમદાવાદથી"
+    ]
+   ]
+  },
+  {
+   "en": "Daily life",
+   "ko": "일상생활",
+   "items": [
+    [
+     "gu-present",
+     "Present habitual: હું કરું છું, તું કરે છે, તે કરે છે",
+     "현재 습관: હું કરું છું, તું કરે છે, તે કરે છે"
+    ],
+    [
+     "gu-progressive",
+     "Present progressive: હું કરી રહ્યો છું / કરી રહી છું",
+     "현재 진행: હું કરી રહ્યો છું / કરી રહી છું"
+    ],
+    [
+     "gu-want-like",
+     "Wants and likes with મને: મને … જોઈએ છે, મને … ગમે છે",
+     "મને로 말하는 원함과 좋아함: મને … જોઈએ છે, મને … ગમે છે"
+    ],
+    [
+     "gu-food",
+     "Requests and ordering food: બેસો, એક ચા આપો; થાળી",
+     "부탁과 음식 주문: બેસો, એક ચા આપો; થાળી"
+    ],
+    [
+     "gu-have",
+     "Having: મારી પાસે … છે, and મારે બે ભાઈ છે",
+     "가지고 있다: મારી પાસે … છે, 그리고 મારે બે ભાઈ છે"
+    ],
+    [
+     "gu-time",
+     "Clock time and days: કેટલા વાગ્યા?, સાડા ત્રણ, સોમવાર",
+     "시각과 요일: કેટલા વાગ્યા?, સાડા ત્રણ, સોમવાર"
+    ],
+    [
+     "gu-directions",
+     "Directions and transport: સીધા, જમણે, ડાબે; રિક્ષા, બસ",
+     "길 묻기와 교통: સીધા, જમણે, ડાબે; રિક્ષા, બસ"
+    ]
+   ]
+  },
+  {
+   "en": "Past and future",
+   "ko": "과거와 미래",
+   "items": [
+    [
+     "gu-hatu",
+     "હતો, હતી, હતું: was, were",
+     "હતો, હતી, હતું: ~였다, ~에 있었다"
+    ],
+    [
+     "gu-past-go",
+     "The past of going and coming: હું ગયો / ગઈ, તે આવી",
+     "가고 오는 동작의 과거: હું ગયો / ગઈ, તે આવી"
+    ],
+    [
+     "gu-past-object",
+     "The past of transitive verbs, agreeing with the object: મેં ચા પીધી, તેણે ચોપડી વાંચી",
+     "목적어와 일치하는 타동사 과거: મેં ચા પીધી, તેણે ચોપડી વાંચી"
+    ],
+    [
+     "gu-future",
+     "The future: હું કરીશ, તું કરીશ, તે કરશે, અમે કરીશું",
+     "미래: હું કરીશ, તું કરીશ, તે કરશે, અમે કરીશું"
+    ],
+    [
+     "gu-must-can",
+     "Must and can: મારે જવું પડશે, હું કરી શકું છું",
+     "해야 한다와 할 수 있다: મારે જવું પડશે, હું કરી શકું છું"
+    ],
+    [
+     "gu-connectors",
+     "Joining sentences: અને, પણ, કારણ કે, એટલે",
+     "문장 잇기: અને, પણ, કારણ કે, એટલે"
+    ]
+   ]
+  }
+ ]
+}

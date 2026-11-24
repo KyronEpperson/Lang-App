@@ -1,0 +1,168 @@
+{
+ "code": "ml",
+ "name": "Malayalam",
+ "self": "മലയാളം",
+ "variant": "Standard Malayalam of central Kerala, the educated standard of schools and broadcasting; everyday spoken forms first, with the formal written forms shown where they differ; written in modern Malayalam script with chillu letters (ൻ ർ ൽ ൾ ൺ)",
+ "variant_ko": "중부 케랄라의 표준 말라얄람어(학교·방송의 교양 표준어). 일상 구어 형태를 먼저 배우고, 격식 문어와 다를 때는 함께 보여 줍니다. 칠루 글자(ൻ ർ ൽ ൾ ൺ)가 있는 현대 말라얄람 문자로 씁니다",
+ "voice": "ml-IN",
+ "script": "Malayalam script, left to right: vowels and vowel signs (some written before the consonant: കെ, കൈ, കൊ), chillu letters ൻ ർ ൽ ൾ ൺ for a consonant with no vowel, the virama (chandrakkala) ്, doubled and conjunct consonants, and the letter ഴ; modern (reformed) spelling with Western digits",
+ "basis": "Rodney F. Moag, Malayalam: A University Course and Reference Grammar (Center for Asian Studies, University of Texas at Austin, 4th edition 2018; listed in the Open Textbook Library), a course of at least 25 lessons with everyday conversation, literacy and the formal written style, with the script ordered as in Donald R. Davis Jr.'s UT Austin page The Malayalam Script (vowels, consonants, vowel signs, chillu, doubled and conjunct consonants). Its lesson list could not be seen, so the order is a CEFR-style A1–B1 progression",
+ "basis_ko": "Rodney F. Moag, Malayalam: A University Course and Reference Grammar (텍사스대 오스틴 아시아학센터, 4판 2018, Open Textbook Library 수록). 일상 회화·읽기와 쓰기·격식 문어를 다루는 25과 이상으로 된 과정입니다. 문자 순서는 같은 대학 Donald R. Davis Jr.의 The Malayalam Script 페이지(모음, 자음, 모음 기호, 칠루, 겹자음과 결합 자음)를 따릅니다. 과 목록을 볼 수 없어 순서는 CEFR식 A1–B1 진행입니다",
+ "src": [
+  "Open Textbook Library record (open.umn.edu, textbook 1100) and its mirror at the Universitas Pendidikan Indonesia open-access catalogue, read through fetch summaries on 2026-11-24: title Malayalam: A University Course and Reference Grammar, 4th edition; author Rodney F. Moag; publisher Center for Asian Studies, University of Texas at Austin, 2018; description (conversation for everyday interaction, literacy essential, formal written style; a prologue after Lesson Twenty-five). No lesson list",
+  "University of Texas at Austin, malayalam.la.utexas.edu, The Malayalam Script by Donald R. Davis Jr., read through a fetch summary: section order (initial vowels, consonants, dependent vowels, echo vowel and chillu, doubled consonants, conjunct consonants, common writing mistakes, writing words and sentences)"
+ ],
+ "note": "The script stage follows the UT Austin script page, except that vowel signs are taught together with the vowels in the first lesson (Davis teaches them after the consonants); the rest of the order is my own (common course practice, and the same shape as this app's Tamil and Kannada plans, Dravidian languages with similar grammar), because Moag's lesson list was not seen. Every Malayalam form in the titles and the Korean titles are from my own knowledge. The present-tense lesson teaches വരുന്നു for every person (Malayalam verbs do not change for person). The polite 'you' is taught as നിങ്ങൾ; whether to add താങ്കൾ for formal address is a writer decision. Kinship words (ചേട്ടൻ, ചേച്ചി) vary by community and region. Writers must check every Malayalam form with a first-language speaker.",
+ "hardest": [
+  "Verbs that do not change for person but carry tense, mood and long suffixes (വന്നിട്ടുണ്ടായിരുന്നു)",
+  "ഴ, the two r sounds ര / റ, retroflex ട ണ ള, and doubled consonants that change meaning",
+  "Chillu letters and conjuncts in a large script with vowel signs before, after and around the consonant",
+  "Case endings and sandhi that join words in writing (പുസ്തകമാണ്, കാറുണ്ട്)"
+ ],
+ "stages": [
+  {
+   "en": "Script, sounds and greetings",
+   "ko": "문자, 소리, 인사",
+   "items": [
+    [
+     "ml-vowels",
+     "Malayalam vowels and vowel signs: അ ആ ഇ ഈ ഉ ഊ ഋ എ ഏ ഐ ഒ ഓ ഔ",
+     "말라얄람어 모음과 모음 기호: അ ആ ഇ ഈ ഉ ഊ ഋ എ ഏ ഐ ഒ ഓ ഔ"
+    ],
+    [
+     "ml-consonants",
+     "Consonants: ഴ, the two r sounds ര / റ, and retroflex ട ണ ള",
+     "자음: ഴ, 두 가지 r 소리 ര / റ, 권설음 ട ണ ള"
+    ],
+    [
+     "ml-chillu",
+     "Chillu letters (ൻ ർ ൽ ൾ ൺ), the chandrakkala ് and conjuncts",
+     "칠루 글자(ൻ ർ ൽ ൾ ൺ), 찬드라깔라 ്, 결합 자음"
+    ],
+    [
+     "ml-greetings",
+     "Greetings: നമസ്കാരം, സുഖമാണോ?, സുഖം, നന്ദി",
+     "인사: നമസ്കാരം, സുഖമാണോ?, സുഖം, നന്ദി"
+    ]
+   ]
+  },
+  {
+   "en": "First sentences",
+   "ko": "첫 문장",
+   "items": [
+    [
+     "ml-intro",
+     "Introducing yourself: എന്റെ പേര് … ആണ്; നിങ്ങളുടെ പേര് എന്താണ്?",
+     "자기소개: എന്റെ പേര് … ആണ്; നിങ്ങളുടെ പേര് എന്താണ്?"
+    ],
+    [
+     "ml-pronouns",
+     "Pronouns: ഞാൻ, നീ / നിങ്ങൾ, അവൻ, അവൾ, അദ്ദേഹം, ഞങ്ങൾ / നമ്മൾ",
+     "대명사: ഞാൻ, നീ / നിങ്ങൾ, അവൻ, അവൾ, അദ്ദേഹം, ഞങ്ങൾ / നമ്മൾ"
+    ],
+    [
+     "ml-aanu",
+     "Is and is not: ആണ് and അല്ല (ഇത് പുസ്തകമാണ്)",
+     "~이다와 ~가 아니다: ആണ്과 അല്ല (ഇത് പുസ്തകമാണ്)"
+    ],
+    [
+     "ml-questions",
+     "Questions with -ഓ and question words: എന്ത്, ആര്, എവിടെ, എപ്പോൾ, എത്ര, എന്തുകൊണ്ട്",
+     "-ഓ로 묻기와 의문사: എന്ത്, ആര്, എവിടെ, എപ്പോൾ, എത്ര, എന്തുകൊണ്ട്"
+    ],
+    [
+     "ml-numbers",
+     "Numbers and prices: ഒന്ന്, രണ്ട് … പത്ത്; എത്ര രൂപ?",
+     "숫자와 가격: ഒന്ന്, രണ്ട് … പത്ത്; എത്ര രൂപ?"
+    ],
+    [
+     "ml-undu",
+     "There is and have: ഉണ്ട് / ഇല്ല (എനിക്ക് ഒരു കാറുണ്ട്)",
+     "있다와 가지다: ഉണ്ട് / ഇല്ല (എനിക്ക് ഒരു കാറുണ്ട്)"
+    ],
+    [
+     "ml-family",
+     "Possession and family: എന്റെ, നിങ്ങളുടെ; അമ്മ, അച്ഛൻ, ചേട്ടൻ, ചേച്ചി",
+     "소유와 가족: എന്റെ, നിങ്ങളുടെ; അമ്മ, അച്ഛൻ, ചേട്ടൻ, ചേച്ചി"
+    ],
+    [
+     "ml-case",
+     "Case endings: വീട്ടിൽ, വീട്ടിലേക്ക്, വീട്ടിൽനിന്ന്, എനിക്ക്",
+     "격어미: വീട്ടിൽ, വീട്ടിലേക്ക്, വീട്ടിൽനിന്ന്, എനിക്ക്"
+    ]
+   ]
+  },
+  {
+   "en": "Daily life",
+   "ko": "일상생활",
+   "items": [
+    [
+     "ml-present",
+     "Present tense: ഞാൻ വരുന്നു, അവൾ വരുന്നു, one verb form for every person",
+     "현재 시제: ഞാൻ വരുന്നു, അവൾ വരുന്നു, 인칭이 바뀌어도 같은 동사 형태"
+    ],
+    [
+     "ml-want",
+     "Want and don't want: വേണം / വേണ്ട (എനിക്ക് ചായ വേണം)",
+     "원한다, 원하지 않는다: വേണം / വേണ്ട (എനിക്ക് ചായ വേണം)"
+    ],
+    [
+     "ml-like",
+     "Likes: എനിക്ക് … ഇഷ്ടമാണ് / ഇഷ്ടമല്ല",
+     "좋아하는 것: എനിക്ക് … ഇഷ്ടമാണ് / ഇഷ്ടമല്ല"
+    ],
+    [
+     "ml-food",
+     "Ordering food: ഒരു ചായ തരൂ, ഊണ്, ബിൽ",
+     "음식 주문하기: ഒരു ചായ തരൂ, ഊണ്, ബിൽ"
+    ],
+    [
+     "ml-requests",
+     "Commands and polite requests: വരൂ, ഇരിക്കൂ, ദയവായി",
+     "명령과 공손한 부탁: വരൂ, ഇരിക്കൂ, ദയവായി"
+    ],
+    [
+     "ml-time",
+     "Time and days: സമയം എത്രയായി?, തിങ്കളാഴ്ച, നാളെ",
+     "시간과 요일: സമയം എത്രയായി?, തിങ്കളാഴ്ച, നാളെ"
+    ],
+    [
+     "ml-directions",
+     "Directions and transport: വലത്തോട്ട്, ഇടത്തോട്ട്, നേരെ; ബസ്, ഓട്ടോ",
+     "길 묻기와 교통: വലത്തോട്ട്, ഇടത്തോട്ട്, നേരെ; ബസ്, ഓട്ടോ"
+    ]
+   ]
+  },
+  {
+   "en": "Past and future",
+   "ko": "과거와 미래",
+   "items": [
+    [
+     "ml-past",
+     "Past tense: വന്നു, പോയി, കഴിച്ചു",
+     "과거 시제: വന്നു, പോയി, കഴിച്ചു"
+    ],
+    [
+     "ml-future",
+     "Future tense: വരും, പോകും, കഴിക്കും",
+     "미래 시제: വരും, പോകും, കഴിക്കും"
+    ],
+    [
+     "ml-negation",
+     "Negation with ഇല്ല: വന്നില്ല, വരില്ല",
+     "ഇല്ല로 부정하기: വന്നില്ല, വരില്ല"
+    ],
+    [
+     "ml-can-must",
+     "Can and must: വരാൻ പറ്റും / കഴിയും, പോകണം",
+     "할 수 있다와 해야 한다: വരാൻ പറ്റും / കഴിയും, പോകണം"
+    ],
+    [
+     "ml-joining",
+     "Joining actions and sentences: വന്നിട്ട്, പക്ഷേ, കാരണം",
+     "동작과 문장 잇기: വന്നിട്ട്, പക്ഷേ, കാരണം"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{"id":"zh.d.pinyin-sounds","label":"Pinyin sounds","desc":"One character per sound point: the initials and finals that English readers misread (b / p, j q x, zh ch sh r, z c s, e, ü, -i)"}
+{"id":"zh.d.tone-pairs","label":"Tone pairs","desc":"Same syllable, different tone, different word: 妈 麻 马 骂, 买 / 卖, 汤 / 糖, 问 / 吻"}
+{"id":"zh.d.first-characters","label":"First characters","desc":"Pictures and compounds to recognise: 人 口 木 山 日 月 女 子 好 明 休 林"}
+{"id":"zh.d.greetings-and-courtesy","label":"Greetings and courtesy","desc":"Hello, thank you, sorry, goodbye, and the polite 您"}
+{"id":"zh.d.people-and-family","label":"People and family","desc":"Pronouns, family members and friends, and how to count a family"}
+{"id":"zh.d.about-me","label":"About me","desc":"Name, nationality, age, where you live and what you study"}
+{"id":"zh.d.numbers-and-money","label":"Numbers and money","desc":"Numbers to 100 and beyond, 二 and 两, prices in 块"}
+{"id":"zh.d.measure-words","label":"Measure words","desc":"Number or this / that + measure word + noun: 个, 本, 杯, 张, 件, 只, 双"}
+{"id":"zh.d.food-and-drink","label":"Food and drink","desc":"Dumplings, noodles, tea and coffee, and ordering and paying in a restaurant"}
+{"id":"zh.d.shopping","label":"Shopping","desc":"Prices, sizes, haggling a little, and paying by phone"}
+{"id":"zh.d.time-days-and-dates","label":"Time, days and dates","desc":"Clock time, days of the week, dates, today and tomorrow"}
+{"id":"zh.d.around-town-and-directions","label":"Around town and directions","desc":"Where things are, left and right, and asking the way"}
+{"id":"zh.d.travel-and-transport","label":"Travel and transport","desc":"Taxis, the subway, high-speed trains, tickets and hotels"}
+{"id":"zh.d.work-and-study","label":"Work and study","desc":"Jobs, school, learning Chinese, and what you can do"}
+{"id":"zh.d.health-and-help","label":"Health and help","desc":"Feeling sick, the pharmacy, the doctor, and asking for help"}
+{"id":"zh.d.describing-things","label":"Describing things","desc":"Adjectives for people, food, weather and things, with 很 and 太"}
+{"id":"zh.d.questions-and-connectors","label":"Questions and connectors","desc":"Question words, 吗 and 呢, verb-not-verb, and the words that join ideas"}
+{"id":"zh.d.traps-for-english-speakers","label":"Traps for English speakers","desc":"False friends, calques, 是 with adjectives, 不 and 没, 二 and 两, and polite-sounding mistakes"}
+{"id":"zh.d.top-nouns","label":"Top nouns","desc":"The most-used nouns: people, places, things, time and everyday objects"}
+{"id":"zh.d.top-verbs","label":"Top verbs","desc":"The most-used verbs, with the complements that go with them (听懂, 吃完, 回来)"}
+{"id":"zh.d.top-adjectives","label":"Top adjectives","desc":"Adjectives work like verbs: 她很忙, no 是. Size, taste, weather, feelings and colors"}
+{"id":"zh.d.top-adverbs","label":"Top adverbs","desc":"Not, also, all, still, already, only, again, very: the small words before the verb"}
+{"id":"zh.d.top-pronouns","label":"Top pronouns","desc":"I, you, 您, 咱们, this, that, here, there, mine, whose: the whole useful set"}
+{"id":"zh.d.top-prepositions-coverbs","label":"Top prepositions (coverbs)","desc":"Chinese prepositions are verbs that come before the main verb (在, 给, 跟, 从, 把), plus location words"}
+{"id":"zh.d.top-conjunctions","label":"Top conjunctions","desc":"And, or, but, if, because … so, when, both … and"}
+{"id":"zh.d.top-interjections","label":"Top interjections","desc":"What people really say when surprised, cheering someone on, or giving up: 我的天, 加油, 算了"}
+{"id":"zh.d.top-words","label":"Top words","desc":"Question words, numbers to twenty, yes and no, days, seasons and times"}
+{"id":"zh.d.top-measure-words","label":"Top measure words","desc":"More measure words beyond 个, 本, 杯: 次, 种, 份, 台, 部, 遍, 斤 and what they count"}
+{"id":"zh.d.top-particles","label":"Top particles","desc":"的, 了, 吗, 呢, 吧, 啊, 着, 过, 得: the little words that carry grammar"}
+{"id":"zh.d.compliments","label":"Compliments","desc":"Praising food, homes, skills and effort, and how Chinese speakers answer praise (哪里哪里)"}
+{"id":"zh.d.flirting","label":"Flirting","desc":"Pretty, handsome, cute, fun: the words, the phrases built from them, asking someone out, and kind ways to say no"}

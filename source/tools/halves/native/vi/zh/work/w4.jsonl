@@ -1,0 +1,692 @@
+{"f":"lessons","id":"measure","k":"title","src":"15 · Measure words: 个, 本, 杯","tgt":""}
+{"f":"lessons","id":"measure","k":"blurb","src":"Count things and point at them the Chinese way: number or this / that + measure word + noun.","tgt":""}
+{"f":"sentences","id":"zh.s0118","k":"gloss","src":"three books","tgt":""}
+{"f":"sentences","id":"zh.s0119","k":"gloss","src":"two cups of tea","tgt":""}
+{"f":"sentences","id":"zh.s0120","k":"gloss","src":"This book is good.","tgt":""}
+{"f":"sentences","id":"zh.s0121","k":"gloss","src":"How much is this ticket?","tgt":""}
+{"f":"sentences","id":"zh.s0122","k":"gloss","src":"a cat","tgt":""}
+{"f":"sentences","id":"zh.s0123","k":"gloss","src":"That piece of clothing is expensive.","tgt":""}
+{"f":"sentences","id":"zh.s0124","k":"gloss","src":"Which one do you like?","tgt":""}
+{"f":"checks","id":"measure.k1","k":"q","src":"In 三本书 (three books), where does the measure word 本 go?","tgt":""}
+{"f":"checks","id":"measure.k1","k":"o[0]","src":"Between the number and the noun","tgt":""}
+{"f":"checks","id":"measure.k1","k":"o[1]","src":"After the noun","tgt":""}
+{"f":"checks","id":"measure.k1","k":"o[2]","src":"Before the number","tgt":""}
+{"f":"checks","id":"measure.k1","k":"o[3]","src":"Only in questions","tgt":""}
+{"f":"checks","id":"measure.k1","k":"why","src":"Number + measure word + noun.","tgt":""}
+{"f":"checks","id":"measure.k2","k":"q","src":"Which measure word is for flat things like tickets and paper?","tgt":""}
+{"f":"checks","id":"measure.k2","k":"why","src":"张 is for flat things: 一张票.","tgt":""}
+{"f":"checks","id":"measure.k3","k":"q","src":"In a shop, you point and say 这个. What does it mean?","tgt":""}
+{"f":"checks","id":"measure.k3","k":"o[0]","src":"What is it?","tgt":""}
+{"f":"checks","id":"measure.k3","k":"o[1]","src":"this one","tgt":""}
+{"f":"checks","id":"measure.k3","k":"o[2]","src":"how many","tgt":""}
+{"f":"checks","id":"measure.k3","k":"o[3]","src":"that one is cheap","tgt":""}
+{"f":"checks","id":"measure.k3","k":"why","src":"这个 alone means \"this one\".","tgt":""}
+{"f":"practice","id":"measure.01","k":"q","src":"Which is the pinyin of 杯 (cup)?","tgt":""}
+{"f":"practice","id":"measure.01","k":"why","src":"杯 has the first tone: high and level.","tgt":""}
+{"f":"practice","id":"measure.02","k":"q","src":"'three books' =","tgt":""}
+{"f":"practice","id":"measure.02","k":"why","src":"Books take 本, between the number and the noun.","tgt":""}
+{"f":"practice","id":"measure.03","k":"q","src":"'this ticket' =","tgt":""}
+{"f":"practice","id":"measure.03","k":"why","src":"这 needs a measure word too, and tickets take 张.","tgt":""}
+{"f":"practice","id":"measure.04","k":"q","src":"Which measure word goes with 衣服 (clothes)?","tgt":""}
+{"f":"practice","id":"measure.04","k":"why","src":"Tops, coats and most clothes take 件.","tgt":""}
+{"f":"practice","id":"measure.05","k":"q","src":"'a pair of shoes' =","tgt":""}
+{"f":"practice","id":"measure.05","k":"why","src":"A pair takes 双: 一双鞋.","tgt":""}
+{"f":"practice","id":"measure.06","k":"p","src":"three books","tgt":""}
+{"f":"practice","id":"measure.06","k":"why","src":"Books take the measure word 本: 三本书.","tgt":""}
+{"f":"practice","id":"measure.07","k":"p","src":"this cup of tea","tgt":""}
+{"f":"practice","id":"measure.07","k":"why","src":"这 + measure word + noun: 这杯茶.","tgt":""}
+{"f":"practice","id":"measure.08","k":"p","src":"That cat is very small","tgt":""}
+{"f":"practice","id":"measure.08","k":"why","src":"那 + measure word + noun: 那只猫, with 只 for animals.","tgt":""}
+{"f":"practice","id":"measure.09","k":"p","src":"I have three books.","tgt":""}
+{"f":"practice","id":"measure.09","k":"why","src":"Books take 本.","tgt":""}
+{"f":"practice","id":"measure.10","k":"p","src":"two cups of coffee","tgt":""}
+{"f":"practice","id":"measure.10","k":"why","src":"A cup of a drink takes 杯.","tgt":""}
+{"f":"practice","id":"measure.11","k":"p","src":"How much is this ticket?","tgt":""}
+{"f":"practice","id":"measure.11","k":"why","src":"Tickets are flat, so they take 张.","tgt":""}
+{"f":"practice","id":"measure.12","k":"p","src":"two cups of tea","tgt":""}
+{"f":"practice","id":"measure.12","k":"hint","src":"茶 (tea)","tgt":""}
+{"f":"practice","id":"measure.12","k":"why","src":"Tea in a cup takes the measure word 杯, and two before a measure word is 两.","tgt":""}
+{"f":"practice","id":"measure.13","k":"p","src":"this book","tgt":""}
+{"f":"practice","id":"measure.13","k":"why","src":"这 + measure word + noun: 这本书.","tgt":""}
+{"f":"practice","id":"measure.14","k":"p","src":"I don't have that book.","tgt":""}
+{"f":"practice","id":"measure.14","k":"why","src":"那 + measure word + noun, and 有 takes 没: 我没有那本书.","tgt":""}
+{"f":"lessons","id":"food","k":"title","src":"16 · Ordering food and drinks","tgt":""}
+{"f":"lessons","id":"food","k":"blurb","src":"Call the server, order dishes and drinks with the right measure words, ask for no spice, and pay.","tgt":""}
+{"f":"sentences","id":"zh.s0125","k":"gloss","src":"Excuse me! (calling the server)","tgt":""}
+{"f":"sentences","id":"zh.s0126","k":"gloss","src":"I'd like a bowl of noodles.","tgt":""}
+{"f":"sentences","id":"zh.s0127","k":"gloss","src":"Two milk teas, please.","tgt":""}
+{"f":"sentences","id":"zh.s0128","k":"gloss","src":"Could I have a glass of water, please?","tgt":""}
+{"f":"sentences","id":"zh.s0129","k":"gloss","src":"Not spicy, please.","tgt":""}
+{"f":"sentences","id":"zh.s0130","k":"gloss","src":"This is delicious!","tgt":""}
+{"f":"sentences","id":"zh.s0131","k":"gloss","src":"Check, please!","tgt":""}
+{"f":"checks","id":"food.k1","k":"q","src":"What is the safest way to call a server?","tgt":""}
+{"f":"checks","id":"food.k1","k":"why","src":"服务员 is neutral and normal; 小姐 can sound insulting in the mainland.","tgt":""}
+{"f":"checks","id":"food.k2","k":"q","src":"\"I'd like two milk teas.\" Which is right?","tgt":""}
+{"f":"checks","id":"food.k2","k":"why","src":"Two before a measure word is 两, and a cup of a drink takes 杯.","tgt":""}
+{"f":"checks","id":"food.k3","k":"q","src":"What does 打包 mean in a restaurant?","tgt":""}
+{"f":"checks","id":"food.k3","k":"o[0]","src":"Pack it to take away.","tgt":""}
+{"f":"checks","id":"food.k3","k":"o[1]","src":"The check, please.","tgt":""}
+{"f":"checks","id":"food.k3","k":"o[2]","src":"Not spicy.","tgt":""}
+{"f":"checks","id":"food.k3","k":"o[3]","src":"One more, please.","tgt":""}
+{"f":"checks","id":"food.k3","k":"why","src":"打包 is for leftovers or food to go.","tgt":""}
+{"f":"practice","id":"food.01","k":"q","src":"Which is the pinyin of 汤 (soup)?","tgt":""}
+{"f":"practice","id":"food.01","k":"why","src":"汤 has the first tone; táng with the second tone is 糖, sugar.","tgt":""}
+{"f":"practice","id":"food.02","k":"q","src":"How do you call the server?","tgt":""}
+{"f":"practice","id":"food.02","k":"why","src":"Call the server 服务员; 小姐 is best avoided in the mainland.","tgt":""}
+{"f":"practice","id":"food.03","k":"q","src":"'two milk teas' =","tgt":""}
+{"f":"practice","id":"food.03","k":"why","src":"Number + one measure word + noun, and two is 两.","tgt":""}
+{"f":"practice","id":"food.04","k":"q","src":"'Not spicy, please.' =","tgt":""}
+{"f":"practice","id":"food.04","k":"why","src":"要 takes 不: 不要辣的, \"not the spicy kind\".","tgt":""}
+{"f":"practice","id":"food.05","k":"q","src":"You loved the dumplings. Say:","tgt":""}
+{"f":"practice","id":"food.05","k":"why","src":"好吃 is good to eat; 好喝 is only for drinks.","tgt":""}
+{"f":"practice","id":"food.06","k":"p","src":"I'd like a bowl of noodles","tgt":""}
+{"f":"practice","id":"food.06","k":"why","src":"A bowl takes the measure word 碗, before the noun: 一碗面条.","tgt":""}
+{"f":"practice","id":"food.07","k":"p","src":"Two milk teas, please (start with 来)","tgt":""}
+{"f":"practice","id":"food.07","k":"why","src":"Two before a measure word is 两: 两杯奶茶.","tgt":""}
+{"f":"practice","id":"food.08","k":"p","src":"Check, please! (to the server)","tgt":""}
+{"f":"practice","id":"food.08","k":"why","src":"Call 服务员 first, then say 买单; 老师 is for a teacher.","tgt":""}
+{"f":"practice","id":"food.09","k":"p","src":"I'd like a bowl of noodles.","tgt":""}
+{"f":"practice","id":"food.09","k":"why","src":"A bowl of something takes 碗.","tgt":""}
+{"f":"practice","id":"food.10","k":"p","src":"Could I have a glass of water, please?","tgt":""}
+{"f":"practice","id":"food.10","k":"why","src":"A glass of a drink takes 杯.","tgt":""}
+{"f":"practice","id":"food.11","k":"p","src":"Not spicy, please.","tgt":""}
+{"f":"practice","id":"food.11","k":"why","src":"辣 is spicy: 不要辣的, not the spicy kind.","tgt":""}
+{"f":"practice","id":"food.12","k":"p","src":"I'd like a cup of coffee.","tgt":""}
+{"f":"practice","id":"food.12","k":"why","src":"A cup of coffee takes the measure word 杯: 一杯咖啡.","tgt":""}
+{"f":"practice","id":"food.13","k":"p","src":"two bowls of noodles","tgt":""}
+{"f":"practice","id":"food.13","k":"why","src":"Two before a measure word is 两, and noodles in a bowl take 碗.","tgt":""}
+{"f":"practice","id":"food.14","k":"p","src":"Not spicy, please.","tgt":""}
+{"f":"practice","id":"food.14","k":"why","src":"要 (want) is negated with 不, not 没: 不要辣的.","tgt":""}
+{"f":"lessons","id":"family","k":"title","src":"17 · Family and age","tgt":""}
+{"f":"lessons","id":"family","k":"blurb","src":"Name your family members, say how many people are in your family, and ask someone's age the right way.","tgt":""}
+{"f":"sentences","id":"zh.s0132","k":"gloss","src":"My dad is a doctor.","tgt":""}
+{"f":"sentences","id":"zh.s0133","k":"gloss","src":"She's my older sister.","tgt":""}
+{"f":"sentences","id":"zh.s0134","k":"gloss","src":"I have an older brother.","tgt":""}
+{"f":"sentences","id":"zh.s0135","k":"gloss","src":"I have two younger sisters.","tgt":""}
+{"f":"sentences","id":"zh.s0136","k":"gloss","src":"How many people are in your family?","tgt":""}
+{"f":"sentences","id":"zh.s0137","k":"gloss","src":"There are four people in my family.","tgt":""}
+{"f":"sentences","id":"zh.s0138","k":"gloss","src":"How old are you? (to a child)","tgt":""}
+{"f":"sentences","id":"zh.s0139","k":"gloss","src":"How old are you? (to an adult)","tgt":""}
+{"f":"sentences","id":"zh.s0140","k":"gloss","src":"I'm twenty-five this year.","tgt":""}
+{"f":"checks","id":"family.k1","k":"q","src":"Which word means \"younger brother\"?","tgt":""}
+{"f":"checks","id":"family.k1","k":"why","src":"Older brother is 哥哥; younger brother is 弟弟.","tgt":""}
+{"f":"checks","id":"family.k2","k":"q","src":"In 我家有四口人, what does 口 do?","tgt":""}
+{"f":"checks","id":"family.k2","k":"o[0]","src":"It means \"and\".","tgt":""}
+{"f":"checks","id":"family.k2","k":"o[1]","src":"It turns the sentence into a question.","tgt":""}
+{"f":"checks","id":"family.k2","k":"o[2]","src":"It is the measure word for family members.","tgt":""}
+{"f":"checks","id":"family.k2","k":"o[3]","src":"It means mouth, so the sentence is about food.","tgt":""}
+{"f":"checks","id":"family.k2","k":"why","src":"口 counts the people in a family: 四口人.","tgt":""}
+{"f":"checks","id":"family.k3","k":"q","src":"A colleague is about your age. How do you ask \"How old are you?\"","tgt":""}
+{"f":"checks","id":"family.k3","k":"why","src":"In the mainland, ask an adult 你多大？; 你几岁？ is mostly for children.","tgt":""}
+{"f":"practice","id":"family.01","k":"q","src":"Which is the pinyin of 妈妈 (mom)?","tgt":""}
+{"f":"practice","id":"family.01","k":"why","src":"The first 妈 has the first tone, and the second has the neutral tone: māma.","tgt":""}
+{"f":"practice","id":"family.02","k":"q","src":"'older brother' =","tgt":""}
+{"f":"practice","id":"family.02","k":"why","src":"哥哥 is older, 弟弟 younger.","tgt":""}
+{"f":"practice","id":"family.03","k":"q","src":"'I have two older sisters' =","tgt":""}
+{"f":"practice","id":"family.03","k":"why","src":"Two people: 两 + 个 + noun.","tgt":""}
+{"f":"practice","id":"family.04","k":"q","src":"Asking a six-year-old \"How old are you?\":","tgt":""}
+{"f":"practice","id":"family.04","k":"why","src":"几 expects a small number; no 是 and no 吗.","tgt":""}
+{"f":"practice","id":"family.05","k":"q","src":"'There are five people in my family' =","tgt":""}
+{"f":"practice","id":"family.05","k":"why","src":"Number + 口 + 人, and no 们 after a number.","tgt":""}
+{"f":"practice","id":"family.06","k":"p","src":"I have an older brother","tgt":""}
+{"f":"practice","id":"family.06","k":"why","src":"A number needs a measure word before the noun: 一个哥哥.","tgt":""}
+{"f":"practice","id":"family.07","k":"p","src":"I have two younger sisters","tgt":""}
+{"f":"practice","id":"family.07","k":"why","src":"Two before a measure word is 两: 两个妹妹.","tgt":""}
+{"f":"practice","id":"family.08","k":"p","src":"How many people are in your family? (to a friend)","tgt":""}
+{"f":"practice","id":"family.08","k":"why","src":"The question word 几 already asks, so no 吗.","tgt":""}
+{"f":"practice","id":"family.09","k":"p","src":"There are four people in my family.","tgt":""}
+{"f":"practice","id":"family.09","k":"why","src":"Family members are counted with 口 (个 is also heard).","tgt":""}
+{"f":"practice","id":"family.10","k":"p","src":"I have two younger brothers.","tgt":""}
+{"f":"practice","id":"family.10","k":"why","src":"Younger brother is 弟弟.","tgt":""}
+{"f":"practice","id":"family.11","k":"p","src":"I'm 25 this year.","tgt":""}
+{"f":"practice","id":"family.11","k":"why","src":"Age is the number + 岁.","tgt":""}
+{"f":"practice","id":"family.12","k":"p","src":"I have two older brothers.","tgt":""}
+{"f":"practice","id":"family.12","k":"why","src":"Two before a measure word is 两: 两个哥哥.","tgt":""}
+{"f":"practice","id":"family.13","k":"p","src":"There are three people in my family.","tgt":""}
+{"f":"practice","id":"family.13","k":"why","src":"口 is the measure word for family members: 三口人.","tgt":""}
+{"f":"practice","id":"family.14","k":"p","src":"My dad isn't a teacher.","tgt":""}
+{"f":"practice","id":"family.14","k":"why","src":"是 is negated with 不, never 没, and 爸爸 needs no 的.","tgt":""}
+{"f":"lessons","id":"time","k":"title","src":"18 · Time and dates","tgt":""}
+{"f":"lessons","id":"time","k":"blurb","src":"Tell the time, name the days of the week and dates, and put time words where Chinese wants them.","tgt":""}
+{"f":"sentences","id":"zh.s0141","k":"gloss","src":"What time is it now?","tgt":""}
+{"f":"sentences","id":"zh.s0142","k":"gloss","src":"It's half past three.","tgt":""}
+{"f":"sentences","id":"zh.s0143","k":"gloss","src":"ten past two","tgt":""}
+{"f":"sentences","id":"zh.s0144","k":"gloss","src":"Today is Monday.","tgt":""}
+{"f":"sentences","id":"zh.s0145","k":"gloss","src":"December 3","tgt":""}
+{"f":"sentences","id":"zh.s0146","k":"gloss","src":"What's the date today?","tgt":""}
+{"f":"sentences","id":"zh.s0147","k":"gloss","src":"I'm going to Beijing tomorrow.","tgt":""}
+{"f":"sentences","id":"zh.s0148","k":"gloss","src":"I don't work on Saturdays.","tgt":""}
+{"f":"sentences","id":"zh.s0149","k":"gloss","src":"What time do you start work?","tgt":""}
+{"f":"checks","id":"time.k1","k":"q","src":"How do you say \"December 3\"?","tgt":""}
+{"f":"checks","id":"time.k1","k":"why","src":"Big to small: the month first, then the day.","tgt":""}
+{"f":"checks","id":"time.k2","k":"q","src":"\"I'm going to Beijing tomorrow.\" Where does 明天 go?","tgt":""}
+{"f":"checks","id":"time.k2","k":"o[0]","src":"At the end, after 北京","tgt":""}
+{"f":"checks","id":"time.k2","k":"o[1]","src":"Right after 去","tgt":""}
+{"f":"checks","id":"time.k2","k":"o[2]","src":"Before 去, or at the very start","tgt":""}
+{"f":"checks","id":"time.k2","k":"o[3]","src":"Anywhere at all","tgt":""}
+{"f":"checks","id":"time.k2","k":"why","src":"Time words go before the verb, or first in the sentence.","tgt":""}
+{"f":"checks","id":"time.k3","k":"q","src":"What is 三点半?","tgt":""}
+{"f":"checks","id":"time.k3","k":"o[0]","src":"half past three","tgt":""}
+{"f":"checks","id":"time.k3","k":"o[1]","src":"three and a half days","tgt":""}
+{"f":"checks","id":"time.k3","k":"o[2]","src":"3:15","tgt":"3:15","pre":1}
+{"f":"checks","id":"time.k3","k":"o[3]","src":"a quarter to three","tgt":""}
+{"f":"checks","id":"time.k3","k":"why","src":"点 is o'clock and 半 is half.","tgt":""}
+{"f":"practice","id":"time.01","k":"q","src":"Which is the pinyin of 号 (day of the month)?","tgt":""}
+{"f":"practice","id":"time.01","k":"why","src":"号 has the fourth tone; hǎo with the third tone is 好, good.","tgt":""}
+{"f":"practice","id":"time.02","k":"q","src":"'two o'clock' =","tgt":""}
+{"f":"practice","id":"time.02","k":"why","src":"Two o'clock is 两点, not 二点.","tgt":""}
+{"f":"practice","id":"time.03","k":"q","src":"'December 3' =","tgt":""}
+{"f":"practice","id":"time.03","k":"why","src":"Month first, then day; 三月十二号 is March 12.","tgt":""}
+{"f":"practice","id":"time.04","k":"q","src":"'I'm going tomorrow' =","tgt":""}
+{"f":"practice","id":"time.04","k":"why","src":"The time word goes before the verb.","tgt":""}
+{"f":"practice","id":"time.05","k":"q","src":"'What time is it now?' =","tgt":""}
+{"f":"practice","id":"time.05","k":"why","src":"几 already asks, so no 吗.","tgt":""}
+{"f":"practice","id":"time.06","k":"p","src":"I'm going to Beijing tomorrow (start with 我)","tgt":""}
+{"f":"practice","id":"time.06","k":"why","src":"Time goes before the verb: 我明天去北京.","tgt":""}
+{"f":"practice","id":"time.07","k":"p","src":"December 3","tgt":""}
+{"f":"practice","id":"time.07","k":"why","src":"Big to small: the month, then the day.","tgt":""}
+{"f":"practice","id":"time.08","k":"p","src":"I don't work on Saturdays (start with 我)","tgt":""}
+{"f":"practice","id":"time.08","k":"why","src":"The day and 不 both go before the verb: 我星期六不工作.","tgt":""}
+{"f":"practice","id":"time.09","k":"p","src":"What time is it now?","tgt":""}
+{"f":"practice","id":"time.09","k":"why","src":"Ask the hour with 几: 几点.","tgt":""}
+{"f":"practice","id":"time.10","k":"p","src":"Today is December 3.","tgt":""}
+{"f":"practice","id":"time.10","k":"why","src":"The day of the month is the number + 号.","tgt":""}
+{"f":"practice","id":"time.11","k":"p","src":"It's half past two.","tgt":""}
+{"f":"practice","id":"time.11","k":"why","src":"Two o'clock is 两点, so half past two is 两点半.","tgt":""}
+{"f":"practice","id":"time.12","k":"p","src":"I'm going tomorrow.","tgt":""}
+{"f":"practice","id":"time.12","k":"hint","src":"when comes first","tgt":""}
+{"f":"practice","id":"time.12","k":"why","src":"Time goes before the verb: 我明天去.","tgt":""}
+{"f":"practice","id":"time.13","k":"p","src":"I don't work on Saturdays.","tgt":""}
+{"f":"practice","id":"time.13","k":"hint","src":"星期六 (Saturday) · 不 · 工作","tgt":""}
+{"f":"practice","id":"time.13","k":"why","src":"The day goes before the verb, and so does 不: 我星期六不工作.","tgt":""}
+{"f":"practice","id":"time.14","k":"p","src":"It's two o'clock now.","tgt":""}
+{"f":"practice","id":"time.14","k":"why","src":"Two o'clock is 两点, and 现在 goes first.","tgt":""}
+{"f":"lessons","id":"zai","k":"title","src":"19 · 在: at, in, and location words","tgt":""}
+{"f":"lessons","id":"zai","k":"blurb","src":"Say where things and people are, use on, in, next to and across from, and say where you do something.","tgt":""}
+{"f":"sentences","id":"zh.s0150","k":"gloss","src":"Where's the bank?","tgt":""}
+{"f":"sentences","id":"zh.s0151","k":"gloss","src":"I'm at home.","tgt":""}
+{"f":"sentences","id":"zh.s0152","k":"gloss","src":"The phone is in the room.","tgt":""}
+{"f":"sentences","id":"zh.s0153","k":"gloss","src":"The bank is next to the supermarket.","tgt":""}
+{"f":"sentences","id":"zh.s0154","k":"gloss","src":"I'm in Beijing.","tgt":""}
+{"f":"sentences","id":"zh.s0155","k":"gloss","src":"I work at a bank.","tgt":""}
+{"f":"sentences","id":"zh.s0156","k":"gloss","src":"He eats at home.","tgt":""}
+{"f":"checks","id":"zai.k1","k":"q","src":"How do you say \"I work at a bank\"?","tgt":""}
+{"f":"checks","id":"zai.k1","k":"why","src":"在 + place goes before the verb.","tgt":""}
+{"f":"checks","id":"zai.k2","k":"q","src":"Why is 上 needed in 书在桌子上 (the book is on the table)?","tgt":""}
+{"f":"checks","id":"zai.k2","k":"o[0]","src":"上 means \"is\"","tgt":""}
+{"f":"checks","id":"zai.k2","k":"o[1]","src":"上 makes it a question","tgt":""}
+{"f":"checks","id":"zai.k2","k":"o[2]","src":"A table needs a location word to become a place","tgt":""}
+{"f":"checks","id":"zai.k2","k":"o[3]","src":"上 is the measure word for books","tgt":""}
+{"f":"checks","id":"zai.k2","k":"why","src":"Objects need a location word after them: 桌子上, 房间里.","tgt":""}
+{"f":"checks","id":"zai.k3","k":"q","src":"Which of these needs no location word after 在?","tgt":""}
+{"f":"checks","id":"zai.k3","k":"o[0]","src":"北京 (a city)","tgt":""}
+{"f":"checks","id":"zai.k3","k":"o[1]","src":"桌子 (a table)","tgt":""}
+{"f":"checks","id":"zai.k3","k":"o[2]","src":"椅子 (a chair)","tgt":""}
+{"f":"checks","id":"zai.k3","k":"o[3]","src":"书包 (a schoolbag)","tgt":""}
+{"f":"checks","id":"zai.k3","k":"why","src":"Cities and countries are already places: 我在北京.","tgt":""}
+{"f":"practice","id":"zai.01","k":"q","src":"Which is the pinyin of 在 (to be at)?","tgt":""}
+{"f":"practice","id":"zai.01","k":"why","src":"在 has the fourth tone: it falls.","tgt":""}
+{"f":"practice","id":"zai.02","k":"q","src":"'Where's the bank?' =","tgt":""}
+{"f":"practice","id":"zai.02","k":"why","src":"Thing + 在 + 哪儿, and no 吗 with a question word.","tgt":""}
+{"f":"practice","id":"zai.03","k":"q","src":"'I work at a bank' =","tgt":""}
+{"f":"practice","id":"zai.03","k":"why","src":"在 + place comes before the verb.","tgt":""}
+{"f":"practice","id":"zai.04","k":"q","src":"'The phone is on the table' =","tgt":""}
+{"f":"practice","id":"zai.04","k":"why","src":"The location word 上 comes after 桌子.","tgt":""}
+{"f":"practice","id":"zai.05","k":"q","src":"'The bank is next to the supermarket' =","tgt":""}
+{"f":"practice","id":"zai.05","k":"why","src":"旁边 (next to) comes after the place it is next to.","tgt":""}
+{"f":"practice","id":"zai.06","k":"p","src":"I work at a bank","tgt":""}
+{"f":"practice","id":"zai.06","k":"why","src":"Where it happens goes before the verb: 我在银行工作.","tgt":""}
+{"f":"practice","id":"zai.07","k":"p","src":"The phone is in the room","tgt":""}
+{"f":"practice","id":"zai.07","k":"why","src":"The location word comes after the noun: 房间里, in the room.","tgt":""}
+{"f":"practice","id":"zai.08","k":"p","src":"He eats at home","tgt":""}
+{"f":"practice","id":"zai.08","k":"why","src":"The place with 在 goes before the verb: 他在家吃饭.","tgt":""}
+{"f":"practice","id":"zai.09","k":"p","src":"Where's the bank?","tgt":""}
+{"f":"practice","id":"zai.09","k":"why","src":"Where something is: thing + 在 + place.","tgt":""}
+{"f":"practice","id":"zai.10","k":"p","src":"The phone is on the table.","tgt":""}
+{"f":"practice","id":"zai.10","k":"why","src":"On the table: 桌子上, with the location word after the noun.","tgt":""}
+{"f":"practice","id":"zai.11","k":"p","src":"I work at a bank.","tgt":""}
+{"f":"practice","id":"zai.11","k":"why","src":"在 + place, before the verb.","tgt":""}
+{"f":"practice","id":"zai.12","k":"p","src":"I work at a bank.","tgt":""}
+{"f":"practice","id":"zai.12","k":"hint","src":"where comes first","tgt":""}
+{"f":"practice","id":"zai.12","k":"why","src":"Where it happens goes before the verb: 我在银行工作.","tgt":""}
+{"f":"practice","id":"zai.13","k":"p","src":"We eat at home.","tgt":""}
+{"f":"practice","id":"zai.13","k":"why","src":"The place with 在 goes before the verb: 我们在家吃饭.","tgt":""}
+{"f":"practice","id":"zai.14","k":"p","src":"Where's the restroom?","tgt":""}
+{"f":"practice","id":"zai.14","k":"hint","src":"洗手间 (restroom) · 在 · 哪儿","tgt":""}
+{"f":"practice","id":"zai.14","k":"why","src":"Thing + 在 + 哪儿: the question word sits in the place slot.","tgt":""}
+{"f":"lessons","id":"word-order","k":"title","src":"20 · Word order: who · when · where · verb","tgt":""}
+{"f":"lessons","id":"word-order","k":"blurb","src":"Build longer sentences in the Chinese line-up: who, when, where, how, and the verb last.","tgt":""}
+{"f":"sentences","id":"zh.s0157","k":"gloss","src":"I'm eating at home tomorrow.","tgt":""}
+{"f":"sentences","id":"zh.s0158","k":"gloss","src":"We're studying at the library this afternoon.","tgt":""}
+{"f":"sentences","id":"zh.s0159","k":"gloss","src":"Tomorrow I'm going to Beijing.","tgt":""}
+{"f":"sentences","id":"zh.s0160","k":"gloss","src":"I take the subway to work every day.","tgt":""}
+{"f":"sentences","id":"zh.s0161","k":"gloss","src":"I go running in the park at ten on Saturday morning.","tgt":""}
+{"f":"sentences","id":"zh.s0162","k":"gloss","src":"I live in Beijing, China.","tgt":""}
+{"f":"checks","id":"word-order.k1","k":"q","src":"Where does 明天 (tomorrow) go in \"I'm going to the bank tomorrow\"?","tgt":""}
+{"f":"checks","id":"word-order.k1","k":"o[0]","src":"At the end: 我去银行明天","tgt":""}
+{"f":"checks","id":"word-order.k1","k":"o[1]","src":"Before the verb: 我明天去银行","tgt":""}
+{"f":"checks","id":"word-order.k1","k":"o[2]","src":"Between 去 and 银行","tgt":""}
+{"f":"checks","id":"word-order.k1","k":"o[3]","src":"Anywhere; Chinese order is free","tgt":""}
+{"f":"checks","id":"word-order.k1","k":"why","src":"Time goes before the verb (or at the very front), never at the end.","tgt":""}
+{"f":"checks","id":"word-order.k2","k":"q","src":"Which sentence is in the right order?","tgt":""}
+{"f":"checks","id":"word-order.k2","k":"why","src":"Who, then when, then where, then the verb.","tgt":""}
+{"f":"checks","id":"word-order.k3","k":"q","src":"How do you say \"on Saturday at ten in the morning\"?","tgt":""}
+{"f":"checks","id":"word-order.k3","k":"why","src":"Big before small: the day, then the part of the day, then the hour.","tgt":""}
+{"f":"practice","id":"word-order.01","k":"q","src":"I'm working at home today =","tgt":""}
+{"f":"practice","id":"word-order.01","k":"why","src":"When and where both go before the verb: 我今天在家工作.","tgt":""}
+{"f":"practice","id":"word-order.02","k":"q","src":"Which is the pinyin of 明天 (tomorrow)?","tgt":""}
+{"f":"practice","id":"word-order.02","k":"why","src":"明 has the second tone and 天 the first tone: míngtiān.","tgt":""}
+{"f":"practice","id":"word-order.03","k":"q","src":"Saturday at ten in the morning =","tgt":""}
+{"f":"practice","id":"word-order.03","k":"why","src":"Big before small: day, then part of the day, then the hour.","tgt":""}
+{"f":"practice","id":"word-order.04","k":"q","src":"I live in Shanghai =","tgt":""}
+{"f":"practice","id":"word-order.04","k":"why","src":"With 住, 在 + place comes right after the verb.","tgt":""}
+{"f":"practice","id":"word-order.05","k":"q","src":"I take the subway to work =","tgt":""}
+{"f":"practice","id":"word-order.05","k":"why","src":"How you travel goes before the verb 去: 坐地铁去上班.","tgt":""}
+{"f":"practice","id":"word-order.06","k":"p","src":"I'm going to Beijing tomorrow (begin with 我)","tgt":""}
+{"f":"practice","id":"word-order.06","k":"why","src":"Time goes before the verb: 我明天去北京.","tgt":""}
+{"f":"practice","id":"word-order.07","k":"p","src":"We study at the library","tgt":""}
+{"f":"practice","id":"word-order.07","k":"why","src":"Where it happens goes before the verb: 在图书馆学习.","tgt":""}
+{"f":"practice","id":"word-order.08","k":"p","src":"I'm eating at home tomorrow (begin with 我)","tgt":""}
+{"f":"practice","id":"word-order.08","k":"why","src":"When comes first, then where, and both go before the verb.","tgt":""}
+{"f":"practice","id":"word-order.09","k":"p","src":"I'm eating at home tomorrow.","tgt":""}
+{"f":"practice","id":"word-order.09","k":"why","src":"在 + place says where it happens: 在家吃饭.","tgt":""}
+{"f":"practice","id":"word-order.10","k":"p","src":"I take the subway to work every day.","tgt":""}
+{"f":"practice","id":"word-order.10","k":"why","src":"坐 (to ride, literally to sit) is how you take the subway: 坐地铁.","tgt":""}
+{"f":"practice","id":"word-order.11","k":"p","src":"I live in Beijing.","tgt":""}
+{"f":"practice","id":"word-order.11","k":"why","src":"住 is followed by 在 + place: 我住在北京.","tgt":""}
+{"f":"practice","id":"word-order.12","k":"p","src":"I work at a bank","tgt":""}
+{"f":"practice","id":"word-order.12","k":"hint","src":"where comes first","tgt":""}
+{"f":"practice","id":"word-order.12","k":"why","src":"Where it happens goes before the verb: 我在银行工作.","tgt":""}
+{"f":"practice","id":"word-order.13","k":"p","src":"I'm going to Shanghai tomorrow","tgt":""}
+{"f":"practice","id":"word-order.13","k":"why","src":"Time goes before the verb, never at the end: 我明天去上海.","tgt":""}
+{"f":"practice","id":"word-order.14","k":"p","src":"We have class at two o'clock on Monday","tgt":""}
+{"f":"practice","id":"word-order.14","k":"hint","src":"big before small","tgt":""}
+{"f":"practice","id":"word-order.14","k":"why","src":"Big before small, and the time goes before the verb: 星期一两点上课.","tgt":""}
+{"f":"lessons","id":"want-can","k":"title","src":"21 · 想, 要, 会, 能: want and can","tgt":""}
+{"f":"lessons","id":"want-can","k":"blurb","src":"Say what you want, what you'd like, what you know how to do, and ask if you may.","tgt":""}
+{"f":"sentences","id":"zh.s0163","k":"gloss","src":"I'd like some coffee.","tgt":""}
+{"f":"sentences","id":"zh.s0164","k":"gloss","src":"I want a cup of coffee.","tgt":""}
+{"f":"sentences","id":"zh.s0165","k":"gloss","src":"I have to work tomorrow.","tgt":""}
+{"f":"sentences","id":"zh.s0166","k":"gloss","src":"I can speak a little Chinese.","tgt":""}
+{"f":"sentences","id":"zh.s0167","k":"gloss","src":"I can't drive.","tgt":""}
+{"f":"sentences","id":"zh.s0168","k":"gloss","src":"Can you come tomorrow?","tgt":""}
+{"f":"sentences","id":"zh.s0169","k":"gloss","src":"May I come in?","tgt":""}
+{"f":"sentences","id":"zh.s0170","k":"gloss","src":"Can you speak Chinese?","tgt":""}
+{"f":"sentences","id":"zh.s0171","k":"gloss","src":"I'd like to eat at home.","tgt":""}
+{"f":"checks","id":"want-can.k1","k":"q","src":"Which word do you use for a skill you learned, like swimming?","tgt":""}
+{"f":"checks","id":"want-can.k1","k":"why","src":"会 means know how to: 我会游泳.","tgt":""}
+{"f":"checks","id":"want-can.k2","k":"q","src":"How do you ask \"May I come in?\"","tgt":""}
+{"f":"checks","id":"want-can.k2","k":"why","src":"可以 asks for permission.","tgt":""}
+{"f":"checks","id":"want-can.k3","k":"q","src":"\"I don't want to go\" is…","tgt":""}
+{"f":"checks","id":"want-can.k3","k":"why","src":"不 goes in front of 想: 不想去.","tgt":""}
+{"f":"practice","id":"want-can.01","k":"q","src":"Which word means \"know how to\" (a skill you learned)?","tgt":""}
+{"f":"practice","id":"want-can.01","k":"why","src":"会 is for skills you learned: 我会游泳.","tgt":""}
+{"f":"practice","id":"want-can.02","k":"q","src":"May I sit here? =","tgt":""}
+{"f":"practice","id":"want-can.02","k":"why","src":"可以 comes right after 我 and asks for permission.","tgt":""}
+{"f":"practice","id":"want-can.03","k":"q","src":"Which is the pinyin of 想 (would like)?","tgt":""}
+{"f":"practice","id":"want-can.03","k":"why","src":"想 has the third tone: xiǎng.","tgt":""}
+{"f":"practice","id":"want-can.04","k":"q","src":"I'd like to eat at home tonight =","tgt":""}
+{"f":"practice","id":"want-can.04","k":"why","src":"When first, then 想, then where, and the verb last.","tgt":""}
+{"f":"practice","id":"want-can.05","k":"q","src":"I don't want to go =","tgt":""}
+{"f":"practice","id":"want-can.05","k":"why","src":"不 goes in front of 想: 我不想去.","tgt":""}
+{"f":"practice","id":"want-can.06","k":"p","src":"I'd like to drink a cup of tea","tgt":""}
+{"f":"practice","id":"want-can.06","k":"why","src":"Tea in a cup takes the measure word 杯: 一杯茶.","tgt":""}
+{"f":"practice","id":"want-can.07","k":"p","src":"I want to study at the library","tgt":""}
+{"f":"practice","id":"want-can.07","k":"why","src":"Where it happens goes before the verb: 想在图书馆学习.","tgt":""}
+{"f":"practice","id":"want-can.08","k":"p","src":"I can speak a little Chinese","tgt":""}
+{"f":"practice","id":"want-can.08","k":"why","src":"会 is for a skill you learned, like a language; 是 is not \"can\".","tgt":""}
+{"f":"practice","id":"want-can.09","k":"p","src":"You may come in.","tgt":""}
+{"f":"practice","id":"want-can.09","k":"why","src":"可以 gives permission: 你可以进来.","tgt":""}
+{"f":"practice","id":"want-can.10","k":"p","src":"I can't drive (I never learned).","tgt":""}
+{"f":"practice","id":"want-can.10","k":"why","src":"A skill you never learned takes 不会.","tgt":""}
+{"f":"practice","id":"want-can.11","k":"p","src":"Waiter, I'd like a bowl of noodles.","tgt":""}
+{"f":"practice","id":"want-can.11","k":"why","src":"With a thing and no verb, want is 要 (or 想要).","tgt":""}
+{"f":"practice","id":"want-can.12","k":"p","src":"I'd like two cups of coffee","tgt":""}
+{"f":"practice","id":"want-can.12","k":"why","src":"Coffee in a cup takes the measure word 杯, and two before it is 两.","tgt":""}
+{"f":"practice","id":"want-can.13","k":"p","src":"I'd like to eat at home (use 想)","tgt":""}
+{"f":"practice","id":"want-can.13","k":"why","src":"Where it happens goes before the verb: 想在家吃饭.","tgt":""}
+{"f":"practice","id":"want-can.14","k":"p","src":"I can't swim (I never learned)","tgt":""}
+{"f":"practice","id":"want-can.14","k":"hint","src":"say no with 不","tgt":""}
+{"f":"practice","id":"want-can.14","k":"why","src":"A skill takes 会, and its no is 不会, not 没.","tgt":""}
+{"f":"lessons","id":"le","k":"title","src":"22 · 了: done, and changed (not a past tense)","tgt":""}
+{"f":"lessons","id":"le","k":"blurb","src":"Use 了 to say an action is done or something has changed, and know when to leave it out.","tgt":""}
+{"f":"sentences","id":"zh.s0172","k":"gloss","src":"I bought two tickets.","tgt":""}
+{"f":"sentences","id":"zh.s0173","k":"gloss","src":"He drank three cups of coffee.","tgt":""}
+{"f":"sentences","id":"zh.s0174","k":"gloss","src":"I went to Shanghai yesterday.","tgt":""}
+{"f":"sentences","id":"zh.s0175","k":"gloss","src":"It's gotten cold.","tgt":""}
+{"f":"sentences","id":"zh.s0176","k":"gloss","src":"I'm hungry now.","tgt":""}
+{"f":"sentences","id":"zh.s0177","k":"gloss","src":"We're here!","tgt":""}
+{"f":"sentences","id":"zh.s0178","k":"gloss","src":"I used to take the subway a lot.","tgt":""}
+{"f":"sentences","id":"zh.s0179","k":"gloss","src":"I was busy yesterday.","tgt":""}
+{"f":"sentences","id":"zh.s0180","k":"gloss","src":"Have you eaten?","tgt":""}
+{"f":"checks","id":"le.k1","k":"q","src":"What does 了 right after a verb show?","tgt":""}
+{"f":"checks","id":"le.k1","k":"o[0]","src":"That the sentence is a question","tgt":""}
+{"f":"checks","id":"le.k1","k":"o[1]","src":"That the action is done","tgt":""}
+{"f":"checks","id":"le.k1","k":"o[2]","src":"The past tense of every verb","tgt":""}
+{"f":"checks","id":"le.k1","k":"o[3]","src":"That the action is happening now","tgt":""}
+{"f":"checks","id":"le.k1","k":"why","src":"了 after a verb shows the action is complete; it is not a past tense.","tgt":""}
+{"f":"checks","id":"le.k2","k":"q","src":"\"I was busy yesterday\" is…","tgt":""}
+{"f":"checks","id":"le.k2","k":"why","src":"A state in the past takes no 了; the time word says when.","tgt":""}
+{"f":"checks","id":"le.k3","k":"q","src":"What does 天气冷了 mean?","tgt":""}
+{"f":"checks","id":"le.k3","k":"o[0]","src":"It's gotten cold.","tgt":""}
+{"f":"checks","id":"le.k3","k":"o[1]","src":"It was cold.","tgt":""}
+{"f":"checks","id":"le.k3","k":"o[2]","src":"It's not cold.","tgt":""}
+{"f":"checks","id":"le.k3","k":"o[3]","src":"Is it cold?","tgt":""}
+{"f":"checks","id":"le.k3","k":"why","src":"了 at the end shows a change: now it's cold.","tgt":""}
+{"f":"practice","id":"le.01","k":"q","src":"I bought three tickets =","tgt":""}
+{"f":"practice","id":"le.01","k":"why","src":"了 goes right after the verb: 买了三张票.","tgt":""}
+{"f":"practice","id":"le.02","k":"q","src":"Which is the pinyin of 买 (to buy)?","tgt":""}
+{"f":"practice","id":"le.02","k":"why","src":"买 has the third tone; mài (fourth tone) is 卖, to sell.","tgt":""}
+{"f":"practice","id":"le.03","k":"q","src":"I was busy yesterday =","tgt":""}
+{"f":"practice","id":"le.03","k":"why","src":"A state in the past takes no 了: 我昨天很忙.","tgt":""}
+{"f":"practice","id":"le.04","k":"q","src":"I didn't go yesterday =","tgt":""}
+{"f":"practice","id":"le.04","k":"why","src":"After 没 there is no 了.","tgt":""}
+{"f":"practice","id":"le.05","k":"q","src":"It's gotten hot. =","tgt":""}
+{"f":"practice","id":"le.05","k":"why","src":"了 at the end shows a change: 热了.","tgt":""}
+{"f":"practice","id":"le.06","k":"p","src":"I didn't go to work yesterday (begin with 我)","tgt":""}
+{"f":"practice","id":"le.06","k":"why","src":"Time goes before the verb, and after 没 there is no 了.","tgt":""}
+{"f":"practice","id":"le.07","k":"p","src":"I bought three apples","tgt":""}
+{"f":"practice","id":"le.07","k":"why","src":"Apples take the measure word 个: 三个苹果.","tgt":""}
+{"f":"practice","id":"le.08","k":"p","src":"It's gotten cold","tgt":""}
+{"f":"practice","id":"le.08","k":"why","src":"了 at the end shows a change, and 冷 needs no 是.","tgt":""}
+{"f":"practice","id":"le.09","k":"p","src":"I bought three apples.","tgt":""}
+{"f":"practice","id":"le.09","k":"why","src":"了 right after the verb shows the buying is done.","tgt":""}
+{"f":"practice","id":"le.10","k":"p","src":"I didn't go yesterday.","tgt":""}
+{"f":"practice","id":"le.10","k":"why","src":"For something that did not happen, use 没, not 不.","tgt":""}
+{"f":"practice","id":"le.11","k":"p","src":"I'm hungry (now).","tgt":""}
+{"f":"practice","id":"le.11","k":"why","src":"了 at the end shows a change: 我饿了.","tgt":""}
+{"f":"practice","id":"le.12","k":"p","src":"I bought two tickets","tgt":""}
+{"f":"practice","id":"le.12","k":"why","src":"Tickets take the measure word 张, and two before it is 两.","tgt":""}
+{"f":"practice","id":"le.13","k":"p","src":"I didn't go to the bank yesterday","tgt":""}
+{"f":"practice","id":"le.13","k":"why","src":"Time goes before the verb, and after 没 there is no 了.","tgt":""}
+{"f":"practice","id":"le.14","k":"p","src":"It's gotten cold","tgt":""}
+{"f":"practice","id":"le.14","k":"hint","src":"a change","tgt":""}
+{"f":"practice","id":"le.14","k":"why","src":"了 at the end shows a change, and adjectives take no 是.","tgt":""}
+{"f":"lessons","id":"progress","k":"title","src":"23 · 在 and 正在: doing it right now","tgt":""}
+{"f":"lessons","id":"progress","k":"blurb","src":"Say what someone is doing right now, and ask what they are doing.","tgt":""}
+{"f":"sentences","id":"zh.s0181","k":"gloss","src":"He's watching TV.","tgt":""}
+{"f":"sentences","id":"zh.s0182","k":"gloss","src":"What are you doing?","tgt":""}
+{"f":"sentences","id":"zh.s0183","k":"gloss","src":"I'm eating right now.","tgt":""}
+{"f":"sentences","id":"zh.s0184","k":"gloss","src":"Mom is on the phone.","tgt":""}
+{"f":"sentences","id":"zh.s0185","k":"gloss","src":"He's at home watching TV.","tgt":""}
+{"f":"checks","id":"progress.k1","k":"q","src":"How do you say \"I'm eating\" (right now)?","tgt":""}
+{"f":"checks","id":"progress.k1","k":"why","src":"在 before the verb shows the action is going on; 是 is not \"am\".","tgt":""}
+{"f":"checks","id":"progress.k2","k":"q","src":"Which word can go at the end to add \"right now\"?","tgt":""}
+{"f":"checks","id":"progress.k2","k":"why","src":"呢 at the end goes with 在 or 正在 for an action in progress.","tgt":""}
+{"f":"checks","id":"progress.k3","k":"q","src":"\"I'm going to Shanghai tomorrow\" (a plan) is…","tgt":""}
+{"f":"checks","id":"progress.k3","k":"why","src":"A plan takes no 在: 在 is for an action happening now.","tgt":""}
+{"f":"practice","id":"progress.01","k":"q","src":"I'm eating =","tgt":""}
+{"f":"practice","id":"progress.01","k":"why","src":"在 before the verb means in the middle of; 是 is not \"am\".","tgt":""}
+{"f":"practice","id":"progress.02","k":"q","src":"Which is the pinyin of 在?","tgt":""}
+{"f":"practice","id":"progress.02","k":"why","src":"在 has the fourth tone: it falls, zài.","tgt":""}
+{"f":"practice","id":"progress.03","k":"q","src":"What are you doing? =","tgt":""}
+{"f":"practice","id":"progress.03","k":"why","src":"The question word stays where the answer goes: 在做什么.","tgt":""}
+{"f":"practice","id":"progress.04","k":"q","src":"I'm going to Shanghai tomorrow (a plan) =","tgt":""}
+{"f":"practice","id":"progress.04","k":"why","src":"A plan takes no 在; 在 is for what is going on now.","tgt":""}
+{"f":"practice","id":"progress.05","k":"q","src":"He's at home watching TV =","tgt":""}
+{"f":"practice","id":"progress.05","k":"why","src":"Where it happens goes before the verb, and 呢 goes at the very end.","tgt":""}
+{"f":"practice","id":"progress.06","k":"p","src":"I'm watching TV at home right now","tgt":""}
+{"f":"practice","id":"progress.06","k":"why","src":"Where it happens goes before the verb, and 呢 goes at the end.","tgt":""}
+{"f":"practice","id":"progress.07","k":"p","src":"We're having class right now (use 正在)","tgt":""}
+{"f":"practice","id":"progress.07","k":"why","src":"正在 goes before the verb: 我们正在上课.","tgt":""}
+{"f":"practice","id":"progress.08","k":"p","src":"What are you doing?","tgt":""}
+{"f":"practice","id":"progress.08","k":"why","src":"Chinese has no -ing: 在 + verb, and 是 is not \"are\".","tgt":""}
+{"f":"practice","id":"progress.09","k":"p","src":"He's watching TV.","tgt":""}
+{"f":"practice","id":"progress.09","k":"why","src":"在 or 正在 before the verb shows the action is going on.","tgt":""}
+{"f":"practice","id":"progress.10","k":"p","src":"I'm eating right now.","tgt":""}
+{"f":"practice","id":"progress.10","k":"why","src":"呢 at the end goes with 正在 for right now.","tgt":""}
+{"f":"practice","id":"progress.11","k":"p","src":"Mom is on the phone in the kitchen.","tgt":""}
+{"f":"practice","id":"progress.11","k":"why","src":"在 + place says where it is happening: 在厨房.","tgt":""}
+{"f":"practice","id":"progress.12","k":"p","src":"He's watching TV","tgt":""}
+{"f":"practice","id":"progress.12","k":"why","src":"Chinese has no -ing: 在 or 正在 goes before the verb.","tgt":""}
+{"f":"practice","id":"progress.13","k":"p","src":"I'm studying at the library","tgt":""}
+{"f":"practice","id":"progress.13","k":"why","src":"Where it happens goes before the verb: 在图书馆学习.","tgt":""}
+{"f":"practice","id":"progress.14","k":"p","src":"What are you doing? (to a friend)","tgt":""}
+{"f":"practice","id":"progress.14","k":"why","src":"什么 stays where the answer goes, after 在 + verb.","tgt":""}
+{"f":"lessons","id":"serial","k":"title","src":"24 · Two verbs in a row: 去 + verb","tgt":""}
+{"f":"lessons","id":"serial","k":"blurb","src":"Say where you're going and what you'll do there, and how you get there, with no word for \"to\".","tgt":""}
+{"f":"sentences","id":"zh.s0186","k":"gloss","src":"I'm going to the supermarket to buy some things.","tgt":""}
+{"f":"sentences","id":"zh.s0187","k":"gloss","src":"He's coming to my place for dinner.","tgt":""}
+{"f":"sentences","id":"zh.s0188","k":"gloss","src":"Tomorrow I'm going to the bank to change money.","tgt":""}
+{"f":"sentences","id":"zh.s0189","k":"gloss","src":"I go to school by subway.","tgt":""}
+{"f":"sentences","id":"zh.s0190","k":"gloss","src":"She rides her bike to work.","tgt":""}
+{"f":"sentences","id":"zh.s0191","k":"gloss","src":"We're flying to Chengdu.","tgt":""}
+{"f":"sentences","id":"zh.s0192","k":"gloss","src":"Tomorrow I'm taking the high-speed train to Xi'an to see the Terracotta Warriors.","tgt":""}
+{"f":"sentences","id":"zh.s0193","k":"gloss","src":"I'm not going to the bank to change money tomorrow.","tgt":""}
+{"f":"checks","id":"serial.k1","k":"q","src":"How do you say \"I'm going to the supermarket to buy things\"?","tgt":""}
+{"f":"checks","id":"serial.k1","k":"why","src":"Go to the place first, then what you do there.","tgt":""}
+{"f":"checks","id":"serial.k2","k":"q","src":"Which verb do you use to ride the subway or a bus?","tgt":""}
+{"f":"checks","id":"serial.k2","k":"why","src":"坐 (literally sit) is for anything you ride inside.","tgt":""}
+{"f":"checks","id":"serial.k3","k":"q","src":"Where does \"by subway\" go in \"I go to school by subway\"?","tgt":""}
+{"f":"checks","id":"serial.k3","k":"o[0]","src":"Before 去: 我坐地铁去学校","tgt":""}
+{"f":"checks","id":"serial.k3","k":"o[1]","src":"At the end: 我去学校坐地铁","tgt":""}
+{"f":"checks","id":"serial.k3","k":"o[2]","src":"Between 去 and 学校","tgt":""}
+{"f":"checks","id":"serial.k3","k":"o[3]","src":"Before 我","tgt":""}
+{"f":"checks","id":"serial.k3","k":"why","src":"How you travel comes before 去.","tgt":""}
+{"f":"practice","id":"serial.01","k":"q","src":"I'm going to the bank to change money =","tgt":""}
+{"f":"practice","id":"serial.01","k":"why","src":"Go to the place first, then what you do there: 去银行换钱.","tgt":""}
+{"f":"practice","id":"serial.02","k":"q","src":"Which is the pinyin of 去 (to go)?","tgt":""}
+{"f":"practice","id":"serial.02","k":"why","src":"去 has the fourth tone: qù.","tgt":""}
+{"f":"practice","id":"serial.03","k":"q","src":"She rides her bike to school =","tgt":""}
+{"f":"practice","id":"serial.03","k":"why","src":"骑 for a bike, and how you go comes before 去.","tgt":""}
+{"f":"practice","id":"serial.04","k":"q","src":"Which verb means \"ride\" for buses, the subway and planes?","tgt":""}
+{"f":"practice","id":"serial.04","k":"why","src":"坐 (literally sit) is for anything you ride inside; 骑 is for bikes.","tgt":""}
+{"f":"practice","id":"serial.05","k":"q","src":"He's coming to my place for dinner =","tgt":""}
+{"f":"practice","id":"serial.05","k":"why","src":"来 + place first, then what he will do: 来我家吃饭.","tgt":""}
+{"f":"practice","id":"serial.06","k":"p","src":"I'm going to the supermarket to buy things","tgt":""}
+{"f":"practice","id":"serial.06","k":"why","src":"Where you go comes before the verb of what you do there: 去超市买东西.","tgt":""}
+{"f":"practice","id":"serial.07","k":"p","src":"I go to school by subway","tgt":""}
+{"f":"practice","id":"serial.07","k":"why","src":"How you go comes before the verb 去: 坐地铁去学校.","tgt":""}
+{"f":"practice","id":"serial.08","k":"p","src":"Tomorrow I'm going to Beijing to see the Great Wall (begin with 我)","tgt":""}
+{"f":"practice","id":"serial.08","k":"why","src":"Time goes before both verbs: 我明天去北京看长城.","tgt":""}
+{"f":"practice","id":"serial.09","k":"p","src":"I'm going to the supermarket to buy things.","tgt":""}
+{"f":"practice","id":"serial.09","k":"why","src":"买 (mǎi) is buy; 卖 (mài) is sell.","tgt":""}
+{"f":"practice","id":"serial.10","k":"p","src":"I ride my bike to work.","tgt":""}
+{"f":"practice","id":"serial.10","k":"why","src":"You ride a bike astride: 骑自行车.","tgt":""}
+{"f":"practice","id":"serial.11","k":"p","src":"He's coming to my place for dinner.","tgt":""}
+{"f":"practice","id":"serial.11","k":"why","src":"来 + place: he comes to my place, then eats.","tgt":""}
+{"f":"practice","id":"serial.12","k":"p","src":"I'm going to the bank to change money","tgt":""}
+{"f":"practice","id":"serial.12","k":"why","src":"Where you go comes before the verb of what you do there: 去银行换钱.","tgt":""}
+{"f":"practice","id":"serial.13","k":"p","src":"I take the subway to work","tgt":""}
+{"f":"practice","id":"serial.13","k":"why","src":"How you go comes before the verb: 坐地铁去上班.","tgt":""}
+{"f":"practice","id":"serial.14","k":"p","src":"I'm going to the store to buy two bottles of water","tgt":""}
+{"f":"practice","id":"serial.14","k":"hint","src":"商店 (store) · 买 · 两 · 瓶 · 水","tgt":""}
+{"f":"practice","id":"serial.14","k":"why","src":"Water in a bottle takes the measure word 瓶, and two before it is 两.","tgt":""}
+{"f":"lessons","id":"a-not-a","k":"title","src":"25 · Verb-not-verb questions: 去不去","tgt":""}
+{"f":"lessons","id":"a-not-a","k":"blurb","src":"Ask yes/no questions the second Chinese way, verb + 不 + verb, and answer them.","tgt":""}
+{"f":"sentences","id":"zh.s0194","k":"gloss","src":"Are you going?","tgt":""}
+{"f":"sentences","id":"zh.s0195","k":"gloss","src":"Are you a teacher?","tgt":""}
+{"f":"sentences","id":"zh.s0196","k":"gloss","src":"Is it cold today?","tgt":""}
+{"f":"sentences","id":"zh.s0197","k":"gloss","src":"Do you have an older brother?","tgt":""}
+{"f":"sentences","id":"zh.s0198","k":"gloss","src":"Do you like tea?","tgt":""}
+{"f":"sentences","id":"zh.s0199","k":"gloss","src":"Are you coming tomorrow?","tgt":""}
+{"f":"sentences","id":"zh.s0200","k":"gloss","src":"Is this book expensive?","tgt":""}
+{"f":"sentences","id":"zh.s0201","k":"gloss","src":"Do you have time?","tgt":""}
+{"f":"checks","id":"a-not-a.k1","k":"q","src":"Which question is correct?","tgt":""}
+{"f":"checks","id":"a-not-a.k1","k":"why","src":"No 很 and no 吗: just 忙不忙.","tgt":""}
+{"f":"checks","id":"a-not-a.k2","k":"q","src":"What is the verb-not-verb question for 有?","tgt":""}
+{"f":"checks","id":"a-not-a.k2","k":"why","src":"有 is negated with 没, so the question is 有没有.","tgt":""}
+{"f":"checks","id":"a-not-a.k3","k":"q","src":"How do you answer 你去不去？ with yes?","tgt":""}
+{"f":"checks","id":"a-not-a.k3","k":"why","src":"Answer with the verb itself: 去 or 不去.","tgt":""}
+{"f":"practice","id":"a-not-a.01","k":"q","src":"Are you busy? =","tgt":""}
+{"f":"practice","id":"a-not-a.01","k":"why","src":"No 很 and no 吗: just 忙不忙.","tgt":""}
+{"f":"practice","id":"a-not-a.02","k":"q","src":"Which is the pinyin of 去不去？","tgt":""}
+{"f":"practice","id":"a-not-a.02","k":"why","src":"In a verb-not-verb question 不 takes the neutral tone: qù bu qù.","tgt":""}
+{"f":"practice","id":"a-not-a.03","k":"q","src":"Do you have a car? =","tgt":""}
+{"f":"practice","id":"a-not-a.03","k":"why","src":"有 is negated with 没, so the question is 有没有.","tgt":""}
+{"f":"practice","id":"a-not-a.04","k":"q","src":"Do you like coffee? =","tgt":""}
+{"f":"practice","id":"a-not-a.04","k":"why","src":"A two-character verb: 喜不喜欢 or 喜欢不喜欢, with no 吗.","tgt":""}
+{"f":"practice","id":"a-not-a.05","k":"q","src":"How do you answer 你去不去？ with yes?","tgt":""}
+{"f":"practice","id":"a-not-a.05","k":"why","src":"Answer with the verb itself: 去 or 不去.","tgt":""}
+{"f":"practice","id":"a-not-a.06","k":"p","src":"Are you coming tomorrow? (begin with 你)","tgt":""}
+{"f":"practice","id":"a-not-a.06","k":"why","src":"Time goes before the verb, even in a question: 你明天来不来？","tgt":""}
+{"f":"practice","id":"a-not-a.07","k":"p","src":"Is this book expensive?","tgt":""}
+{"f":"practice","id":"a-not-a.07","k":"why","src":"Books take the measure word 本: 这本书贵不贵？","tgt":""}
+{"f":"practice","id":"a-not-a.08","k":"p","src":"Do you have an older brother?","tgt":""}
+{"f":"practice","id":"a-not-a.08","k":"why","src":"有 takes 没, so the question is 有没有, with no 吗.","tgt":""}
+{"f":"practice","id":"a-not-a.09","k":"p","src":"Are you going?","tgt":""}
+{"f":"practice","id":"a-not-a.09","k":"why","src":"Verb + 不 + verb makes the question: 去不去.","tgt":""}
+{"f":"practice","id":"a-not-a.10","k":"p","src":"Do you have a Chinese book?","tgt":""}
+{"f":"practice","id":"a-not-a.10","k":"why","src":"有 is negated only with 没: 有没有.","tgt":""}
+{"f":"practice","id":"a-not-a.11","k":"p","src":"Do you like tea?","tgt":""}
+{"f":"practice","id":"a-not-a.11","k":"why","src":"Say the whole verb again after 不: 喜欢不喜欢.","tgt":""}
+{"f":"practice","id":"a-not-a.12","k":"p","src":"Are you coming tomorrow? (to a friend, use verb-not-verb)","tgt":""}
+{"f":"practice","id":"a-not-a.12","k":"why","src":"Time goes before the verb: 你明天来不来？","tgt":""}
+{"f":"practice","id":"a-not-a.13","k":"p","src":"Do you want this cup of tea? (to a friend, use verb-not-verb)","tgt":""}
+{"f":"practice","id":"a-not-a.13","k":"why","src":"A cup of something takes the measure word 杯: 这杯茶.","tgt":""}
+{"f":"practice","id":"a-not-a.14","k":"p","src":"Is your older brother a teacher? (to a friend, use verb-not-verb)","tgt":""}
+{"f":"practice","id":"a-not-a.14","k":"why","src":"是不是 already asks the question, so there is no 吗.","tgt":""}
+{"f":"lessons","id":"ye-dou","k":"title","src":"26 · 也, 都, 还: also, all, still","tgt":""}
+{"f":"lessons","id":"ye-dou","k":"blurb","src":"Say \"too\", \"all\", \"both\", \"still\" and \"not yet\" with the words in the right place.","tgt":""}
+{"f":"sentences","id":"zh.s0202","k":"gloss","src":"I'm American too.","tgt":""}
+{"f":"sentences","id":"zh.s0203","k":"gloss","src":"She's busy too.","tgt":""}
+{"f":"sentences","id":"zh.s0204","k":"gloss","src":"I don't drink coffee either.","tgt":""}
+{"f":"sentences","id":"zh.s0205","k":"gloss","src":"We're all students.","tgt":""}
+{"f":"sentences","id":"zh.s0206","k":"gloss","src":"My mom and dad both like tea.","tgt":""}
+{"f":"sentences","id":"zh.s0207","k":"gloss","src":"They're all teachers too.","tgt":""}
+{"f":"sentences","id":"zh.s0208","k":"gloss","src":"None of us drinks.","tgt":""}
+{"f":"sentences","id":"zh.s0209","k":"gloss","src":"I haven't eaten yet.","tgt":""}
+{"f":"sentences","id":"zh.s0210","k":"gloss","src":"What else would you like?","tgt":""}
+{"f":"sentences","id":"zh.s0211","k":"gloss","src":"He's still sleeping.","tgt":""}
+{"f":"checks","id":"ye-dou.k1","k":"q","src":"Where does 也 go in \"I'm a student too\"?","tgt":""}
+{"f":"checks","id":"ye-dou.k1","k":"o[0]","src":"At the end: 我是学生也","tgt":""}
+{"f":"checks","id":"ye-dou.k1","k":"o[1]","src":"At the start: 也我是学生","tgt":""}
+{"f":"checks","id":"ye-dou.k1","k":"o[2]","src":"Before the verb: 我也是学生","tgt":""}
+{"f":"checks","id":"ye-dou.k1","k":"o[3]","src":"After the verb: 我是也学生","tgt":""}
+{"f":"checks","id":"ye-dou.k1","k":"why","src":"也 goes after the subject, right before the verb.","tgt":""}
+{"f":"checks","id":"ye-dou.k2","k":"q","src":"What does 我们都不喝酒 mean?","tgt":""}
+{"f":"checks","id":"ye-dou.k2","k":"o[0]","src":"None of us drinks.","tgt":""}
+{"f":"checks","id":"ye-dou.k2","k":"o[1]","src":"Not all of us drink.","tgt":""}
+{"f":"checks","id":"ye-dou.k2","k":"o[2]","src":"We all drink.","tgt":""}
+{"f":"checks","id":"ye-dou.k2","k":"o[3]","src":"We don't drink yet.","tgt":""}
+{"f":"checks","id":"ye-dou.k2","k":"why","src":"都不 means none; 不都 would mean not all.","tgt":""}
+{"f":"checks","id":"ye-dou.k3","k":"q","src":"\"I haven't eaten yet\" is…","tgt":""}
+{"f":"checks","id":"ye-dou.k3","k":"why","src":"还没 + verb means not yet, with no 了.","tgt":""}
+{"f":"practice","id":"ye-dou.01","k":"q","src":"I'm a student too =","tgt":""}
+{"f":"practice","id":"ye-dou.01","k":"why","src":"也 goes after the subject and before the verb.","tgt":""}
+{"f":"practice","id":"ye-dou.02","k":"q","src":"Which is the pinyin of 也 (also)?","tgt":""}
+{"f":"practice","id":"ye-dou.02","k":"why","src":"也 has the third tone: yě.","tgt":""}
+{"f":"practice","id":"ye-dou.03","k":"q","src":"We're all American =","tgt":""}
+{"f":"practice","id":"ye-dou.03","k":"why","src":"都 comes after 我们 and before the verb.","tgt":""}
+{"f":"practice","id":"ye-dou.04","k":"q","src":"I haven't eaten yet =","tgt":""}
+{"f":"practice","id":"ye-dou.04","k":"why","src":"还没 + verb means not yet, with no 了.","tgt":""}
+{"f":"practice","id":"ye-dou.05","k":"q","src":"None of us is going =","tgt":""}
+{"f":"practice","id":"ye-dou.05","k":"why","src":"都不 means none; 不都 means not all.","tgt":""}
+{"f":"practice","id":"ye-dou.06","k":"p","src":"My dad is a teacher too","tgt":""}
+{"f":"practice","id":"ye-dou.06","k":"why","src":"也 goes before the verb, never at the end like English too.","tgt":"","rw":"mentions English"}
+{"f":"practice","id":"ye-dou.07","k":"p","src":"We all like to drink tea","tgt":""}
+{"f":"practice","id":"ye-dou.07","k":"why","src":"都 goes after 我们 and before the verb: 我们都喜欢喝茶.","tgt":""}
+{"f":"practice","id":"ye-dou.08","k":"p","src":"They're all at home","tgt":""}
+{"f":"practice","id":"ye-dou.08","k":"why","src":"都 goes before the verb 在: 他们都在家.","tgt":""}
+{"f":"practice","id":"ye-dou.09","k":"p","src":"She's American too.","tgt":""}
+{"f":"practice","id":"ye-dou.09","k":"why","src":"也 (also) goes before 是: 她也是美国人.","tgt":""}
+{"f":"practice","id":"ye-dou.10","k":"p","src":"We're all students.","tgt":""}
+{"f":"practice","id":"ye-dou.10","k":"why","src":"都 (all) looks back at 我们: 我们都是学生.","tgt":""}
+{"f":"practice","id":"ye-dou.11","k":"p","src":"I haven't eaten yet.","tgt":""}
+{"f":"practice","id":"ye-dou.11","k":"why","src":"还没 means not yet.","tgt":""}
+{"f":"practice","id":"ye-dou.12","k":"p","src":"I'm American too","tgt":""}
+{"f":"practice","id":"ye-dou.12","k":"why","src":"也 goes before the verb, not at the end like English too.","tgt":"","rw":"mentions English"}
+{"f":"practice","id":"ye-dou.13","k":"p","src":"We both have a cat","tgt":""}
+{"f":"practice","id":"ye-dou.13","k":"why","src":"都 goes before the verb, and cats take the measure word 只.","tgt":""}
+{"f":"practice","id":"ye-dou.14","k":"p","src":"My mom and dad are both busy","tgt":""}
+{"f":"practice","id":"ye-dou.14","k":"why","src":"都 goes before the verb or adjective, and adjectives take 很, not 是.","tgt":""}
+{"f":"lessons","id":"ba-bie","k":"title","src":"27 · 吧 and 别: let's, and don't","tgt":""}
+{"f":"lessons","id":"ba-bie","k":"blurb","src":"Suggest things with 吧, tell people not to with 别, and ask politely with 请 and 麻烦你.","tgt":""}
+{"f":"sentences","id":"zh.s0212","k":"gloss","src":"Let's go.","tgt":""}
+{"f":"sentences","id":"zh.s0213","k":"gloss","src":"Why don't you give it a try?","tgt":""}
+{"f":"sentences","id":"zh.s0214","k":"gloss","src":"Let's go to the hospital tomorrow.","tgt":""}
+{"f":"sentences","id":"zh.s0215","k":"gloss","src":"Don't worry.","tgt":""}
+{"f":"sentences","id":"zh.s0216","k":"gloss","src":"Don't go!","tgt":""}
+{"f":"sentences","id":"zh.s0217","k":"gloss","src":"No talking.","tgt":""}
+{"f":"sentences","id":"zh.s0218","k":"gloss","src":"Come in, please.","tgt":""}
+{"f":"sentences","id":"zh.s0219","k":"gloss","src":"Could you speak more slowly, please?","tgt":""}
+{"f":"sentences","id":"zh.s0220","k":"gloss","src":"Could you give me a hand?","tgt":""}
+{"f":"sentences","id":"zh.s0221","k":"gloss","src":"OK, fine.","tgt":""}
+{"f":"checks","id":"ba-bie.k1","k":"q","src":"How do you say \"Let's go\"?","tgt":""}
+{"f":"checks","id":"ba-bie.k1","k":"why","src":"吧 at the end of a 我们 sentence means let's.","tgt":""}
+{"f":"checks","id":"ba-bie.k2","k":"q","src":"How do you say \"Don't worry\"?","tgt":""}
+{"f":"checks","id":"ba-bie.k2","k":"why","src":"别 + verb tells someone not to do something.","tgt":""}
+{"f":"checks","id":"ba-bie.k3","k":"q","src":"Where does 请 go in \"Come in, please\"?","tgt":""}
+{"f":"checks","id":"ba-bie.k3","k":"o[0]","src":"Before the verb: 请进","tgt":""}
+{"f":"checks","id":"ba-bie.k3","k":"o[1]","src":"After the verb: 进请","tgt":""}
+{"f":"checks","id":"ba-bie.k3","k":"o[2]","src":"At the end with 吧: 进吧请","tgt":""}
+{"f":"checks","id":"ba-bie.k3","k":"o[3]","src":"It is not used here","tgt":""}
+{"f":"checks","id":"ba-bie.k3","k":"why","src":"请 comes first, then the verb: 请进.","tgt":""}
+{"f":"practice","id":"ba-bie.01","k":"q","src":"Let's go =","tgt":""}
+{"f":"practice","id":"ba-bie.01","k":"why","src":"吧 at the end of a 我们 sentence means let's.","tgt":""}
+{"f":"practice","id":"ba-bie.02","k":"q","src":"Which is the pinyin of 请 (please)?","tgt":""}
+{"f":"practice","id":"ba-bie.02","k":"why","src":"请 has the third tone: qǐng; qíng with the second tone is 晴, sunny.","tgt":""}
+{"f":"practice","id":"ba-bie.03","k":"q","src":"Don't worry =","tgt":""}
+{"f":"practice","id":"ba-bie.03","k":"why","src":"别 + verb means don't; 不 only says not.","tgt":""}
+{"f":"practice","id":"ba-bie.04","k":"q","src":"Come in, please =","tgt":""}
+{"f":"practice","id":"ba-bie.04","k":"why","src":"请 goes first, then the verb.","tgt":""}
+{"f":"practice","id":"ba-bie.05","k":"q","src":"Could you give me a hand? =","tgt":""}
+{"f":"practice","id":"ba-bie.05","k":"why","src":"麻烦你 goes first, then the request.","tgt":""}
+{"f":"practice","id":"ba-bie.06","k":"p","src":"Let's eat at home (begin with 我们)","tgt":""}
+{"f":"practice","id":"ba-bie.06","k":"why","src":"Where it happens goes before the verb, and 吧 goes at the end.","tgt":""}
+{"f":"practice","id":"ba-bie.07","k":"p","src":"Let's go to the hospital tomorrow (begin with 我们)","tgt":""}
+{"f":"practice","id":"ba-bie.07","k":"why","src":"Time goes before the verb: 我们明天去医院吧.","tgt":""}
+{"f":"practice","id":"ba-bie.08","k":"p","src":"Please don't worry","tgt":""}
+{"f":"practice","id":"ba-bie.08","k":"why","src":"请 goes first, then 别 + verb for don't: 请别担心.","tgt":""}
+{"f":"practice","id":"ba-bie.09","k":"p","src":"Let's go.","tgt":""}
+{"f":"practice","id":"ba-bie.09","k":"why","src":"吧 at the end makes it a suggestion: let's.","tgt":""}
+{"f":"practice","id":"ba-bie.10","k":"p","src":"Don't worry.","tgt":""}
+{"f":"practice","id":"ba-bie.10","k":"why","src":"别 or 不要 + verb means don't.","tgt":""}
+{"f":"practice","id":"ba-bie.11","k":"p","src":"Please have a seat.","tgt":""}
+{"f":"practice","id":"ba-bie.11","k":"why","src":"请 goes before the verb: 请坐.","tgt":""}
+{"f":"practice","id":"ba-bie.12","k":"p","src":"Let's go to the supermarket tomorrow","tgt":""}
+{"f":"practice","id":"ba-bie.12","k":"why","src":"Time goes before the verb, and 吧 at the end makes it let's.","tgt":""}
+{"f":"practice","id":"ba-bie.13","k":"p","src":"Let's buy two bottles of water","tgt":""}
+{"f":"practice","id":"ba-bie.13","k":"why","src":"Water in a bottle takes the measure word 瓶, and two before it is 两.","tgt":""}
+{"f":"practice","id":"ba-bie.14","k":"p","src":"Don't drink coffee (to a friend)","tgt":""}
+{"f":"practice","id":"ba-bie.14","k":"why","src":"别 or 不要 + verb means don't; 没 is for what didn't happen.","tgt":""}
+{"f":"lessons","id":"and-or","k":"title","src":"28 · 和 and 还是: and, or","tgt":""}
+{"f":"lessons","id":"and-or","k":"blurb","src":"Join people and things with 和, and ask and answer \"this or that?\" with 还是 and 或者.","tgt":""}
+{"f":"sentences","id":"zh.s0222","k":"gloss","src":"I'd like a bowl of noodles and a cup of tea.","tgt":""}
+{"f":"sentences","id":"zh.s0223","k":"gloss","src":"Wang Ming and I are going together.","tgt":""}
+{"f":"sentences","id":"zh.s0224","k":"gloss","src":"He and I are going together.","tgt":""}
+{"f":"sentences","id":"zh.s0225","k":"gloss","src":"I'd like tea, coffee, and juice.","tgt":""}
+{"f":"sentences","id":"zh.s0226","k":"gloss","src":"I'm tired and I want to sleep.","tgt":""}
+{"f":"sentences","id":"zh.s0227","k":"gloss","src":"I live in Beijing and I have a dog.","tgt":""}
+{"f":"sentences","id":"zh.s0228","k":"gloss","src":"Would you like tea or coffee?","tgt":""}
+{"f":"sentences","id":"zh.s0229","k":"gloss","src":"Do you want this one or that one?","tgt":""}
+{"f":"sentences","id":"zh.s0230","k":"gloss","src":"I'll go on Saturday or Sunday.","tgt":""}
+{"f":"sentences","id":"zh.s0231","k":"gloss","src":"You can take the subway or a taxi.","tgt":""}
+{"f":"checks","id":"and-or.k1","k":"q","src":"What can 和 join?","tgt":""}
+{"f":"checks","id":"and-or.k1","k":"o[0]","src":"Two sentences","tgt":""}
+{"f":"checks","id":"and-or.k1","k":"o[1]","src":"Two verbs","tgt":""}
+{"f":"checks","id":"and-or.k1","k":"o[2]","src":"Two nouns, like people or things","tgt":""}
+{"f":"checks","id":"and-or.k1","k":"o[3]","src":"Anything, like English and","tgt":"","rw":"mentions English"}
+{"f":"checks","id":"and-or.k1","k":"why","src":"和 joins nouns and pronouns, not sentences.","tgt":""}
+{"f":"checks","id":"and-or.k2","k":"q","src":"\"Would you like tea or coffee?\" is…","tgt":""}
+{"f":"checks","id":"and-or.k2","k":"why","src":"In a question, or is 还是, with no 吗.","tgt":""}
+{"f":"checks","id":"and-or.k3","k":"q","src":"\"I'll go on Saturday or Sunday\" is…","tgt":""}
+{"f":"checks","id":"and-or.k3","k":"why","src":"In a statement, or is 或者, and the time goes before 去.","tgt":""}
+{"f":"practice","id":"and-or.01","k":"q","src":"tea and coffee =","tgt":""}
+{"f":"practice","id":"and-or.01","k":"why","src":"和 joins two nouns: 茶和咖啡.","tgt":""}
+{"f":"practice","id":"and-or.02","k":"q","src":"Which is the pinyin of 和 (and)?","tgt":""}
+{"f":"practice","id":"and-or.02","k":"why","src":"和 has the second tone: hé; hē with the first tone is 喝, to drink.","tgt":""}
+{"f":"practice","id":"and-or.03","k":"q","src":"Would you like noodles or rice? =","tgt":""}
+{"f":"practice","id":"and-or.03","k":"why","src":"In a question, or is 还是, and it needs no 吗.","tgt":""}
+{"f":"practice","id":"and-or.04","k":"q","src":"I'm tired and I want to sleep =","tgt":""}
+{"f":"practice","id":"and-or.04","k":"why","src":"和 joins nouns, not sentences: just pause.","tgt":""}
+{"f":"practice","id":"and-or.05","k":"q","src":"I'll go on Saturday or Sunday =","tgt":""}
+{"f":"practice","id":"and-or.05","k":"why","src":"In a statement, or is 或者.","tgt":""}
+{"f":"practice","id":"and-or.06","k":"p","src":"Wang Ming and I are going together (begin with 我)","tgt":""}
+{"f":"practice","id":"and-or.06","k":"why","src":"一起 goes before the verb: 我和王明一起去.","tgt":""}
+{"f":"practice","id":"and-or.07","k":"p","src":"I'll go on Saturday or Sunday (begin with 我)","tgt":""}
+{"f":"practice","id":"and-or.07","k":"why","src":"Time goes before the verb, and in a statement or is 或者.","tgt":""}
+{"f":"practice","id":"and-or.08","k":"p","src":"Do you want this one or that one?","tgt":""}
+{"f":"practice","id":"and-or.08","k":"why","src":"In a question that asks someone to choose, or is 还是; 和 is and.","tgt":""}
+{"f":"practice","id":"and-or.09","k":"p","src":"Would you like tea or coffee?","tgt":""}
+{"f":"practice","id":"and-or.09","k":"why","src":"In a question, or is 还是.","tgt":""}
+{"f":"practice","id":"and-or.10","k":"p","src":"My mom and I are going together.","tgt":""}
+{"f":"practice","id":"and-or.10","k":"why","src":"和 joins two people: 我和我妈妈.","tgt":""}
+{"f":"practice","id":"and-or.11","k":"p","src":"I'll go on Saturday or Sunday.","tgt":""}
+{"f":"practice","id":"and-or.11","k":"why","src":"In a statement, or is 或者.","tgt":""}
+{"f":"practice","id":"and-or.12","k":"p","src":"My mom and I are going to the supermarket together","tgt":""}
+{"f":"practice","id":"and-or.12","k":"why","src":"一起 goes before the verb: 一起去超市.","tgt":""}
+{"f":"practice","id":"and-or.13","k":"p","src":"Would you like tea or coffee? (to a customer)","tgt":""}
+{"f":"practice","id":"and-or.13","k":"why","src":"In a question, or is 还是.","tgt":""}
+{"f":"practice","id":"and-or.14","k":"p","src":"I'd like a bowl of noodles and a cup of tea (use 要)","tgt":""}
+{"f":"practice","id":"and-or.14","k":"why","src":"Noodles in a bowl take the measure word 碗, and tea in a cup takes 杯.","tgt":""}

@@ -8,3 +8,18 @@ Do, in this order:
 3. **Localise the Korean setting.** The shared practice set comes from the course for Korean speakers: Seoul, Busan, Jeju, Daegu, Korea / Korean, kimchi, won, K-pop, Han Kang, "Mr. Kim", "Who's your bias?", distractors that only make sense to a Korean speaker ("You suffered a lot.", "Good suffering.", tiger), notes about Korean habits. Replace them with the learner's own setting (cities, currency, food, a well-known author or music the learner knows; neutral where unsure), the way the Spanish course did (`tools/content/es/` and its `deviations*.json` show the mechanism; `parity.js` must still pass, so every change to the shared English side is declared as a deviation with a one-line reason). Keep the grammar point of each item intact. Minimal pairs in the pronunciation deck that are Korean-specific problems (rice / lice, fan / pan, coffee / copy) may be replaced with pairs this learner really confuses, if the deviation mechanism allows it; if it does not, leave them and say so.
 4. **Rebuild and check** (run from `/home/claude`): `node tools/content/gen.js <l>` then `node tools/content/validate.js <l>`, `node tools/content/parity.js <l>`, `node tools/content/alphabet_check.js <l>`, `node tools/content/lint.js <l>` (it now accepts 3-letter codes), and if you changed the interface dictionary `python3 tools/i18n/gen.py <l> && node tools/i18n/validate.js <l>`. All must pass. For bn also `node tools/content/bn/pron_check.js`; respelled pron rows must come from the converter, never hand edits.
 5. Report (short): counts of fixes by class (review findings, typed-answer pass: prompts cued / answers added / full forms added, localisation items), the last line of each check, and anything you could not fix and why.
+
+---
+
+## Reading rule (applies to this brief; it overrides any "look around" habit)
+
+Reading is most of what an agent costs. Read the files this brief names, and only those.
+
+- **Do not open** `src/app.html`, anything in `packs/`, `korean-flashcards.html`, `korean-site/`, `lang-app/`, or another language's course folder, unless this brief names that exact file. They are larger than your whole job.
+- **One model file per kind.** If you need to see what a finished file looks like, read the ONE this brief names. Not several courses.
+- **Search, do not open.** For a single fact in a big file (a field name, a rule, a string), use Grep for the line, or Read with `offset` and `limit` for that part.
+- **Do not re-read** a file you already read in this job, and do not read a file "for context" that the brief did not ask for.
+- **Checks are scripts.** Run the commands this brief lists; do not read a validator's source to predict what it will say.
+- If something you truly need is not on your list, read the smallest part that answers it and say in your report which file and why, so the list can be fixed.
+
+Writers and mechanical jobs follow this strictly. Reviewers and researchers may read more widely, but the first two bullets still hold.

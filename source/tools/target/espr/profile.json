@@ -1,0 +1,388 @@
+{
+  "target": "espr",
+  "nameEn": "Spanish (Puerto Rico)",
+  "self": "Español (Puerto Rico)",
+  "ttsLang": "es-PR",
+  "voiceAlso": [
+    "es-US",
+    "es-MX"
+  ],
+  "audioFrom": "es",
+  "brand": "Puerto Rico",
+  "accents": true,
+  "keys": "á é í ó ú ñ ü ¿ ¡",
+  "greet": [
+    [
+      "Buenas noches",
+      "Good night (you're up late)"
+    ],
+    [
+      "Buenos días",
+      "Good morning"
+    ],
+    [
+      "Buenas tardes",
+      "Good afternoon"
+    ],
+    [
+      "Buenas noches",
+      "Good evening"
+    ]
+  ],
+  "pron": "required",
+  "pronPattern": "^(?!.*[cC](?![hH]))(?!.*(?<![aA])[iI])(?!.*[aA](?![hHiIyY]))(?!.*(?<![eE])[eE](?![hHeE]))(?!.*(?<![oO])[oO](?![hHoOyYwW]))(?:[abcdefghiklmnoprstwy]+|(?:[abcdefghiklmnoprstwy]+-)+[ABCDEFGHIKLMNOPRSTWY]+(?:-[abcdefghiklmnoprstwy]+)*|[ABCDEFGHIKLMNOPRSTWY]+(?:-[abcdefghiklmnoprstwy]+)+)(?: (?:[abcdefghiklmnoprstwy]+|(?:[abcdefghiklmnoprstwy]+-)+[ABCDEFGHIKLMNOPRSTWY]+(?:-[abcdefghiklmnoprstwy]+)*|[ABCDEFGHIKLMNOPRSTWY]+(?:-[abcdefghiklmnoprstwy]+)+))*$",
+  "targetScript": "[A-Za-zÁÉÍÓÚÜÑáéíóúüñ¿¡]",
+  "standingRule": {
+    "keywords": "\\bagree(?:s|ment)?\\b|\\bmasculine\\b|\\bfeminine\\b|\\bgender\\b|\\bsingular\\b|\\bplural (?:noun|adjective|article|ending|form|verb)|\\bverb ending|\\bmatch(?:es)? the subject|(?:\\byo|tú|él|\\bella|\\busted|\\bnosotros|\\bellos|\\bustedes)[ -]form",
+    "flags": "i",
+    "minOrder": 2,
+    "minType": 2
+  },
+  "lessons": [
+    {
+      "id": "sounds",
+      "title": "Sounds, spelling and stress",
+      "roadmap": "",
+      "deck": "Sounds and spelling"
+    },
+    {
+      "id": "pr-sounds",
+      "title": "Hearing Puerto Rico: s, r and -ao",
+      "roadmap": "",
+      "deck": "Puerto Rican sounds"
+    },
+    {
+      "id": "greetings",
+      "title": "Greetings: tú and usted",
+      "roadmap": "",
+      "deck": "Greetings and courtesy"
+    },
+    {
+      "id": "pr-greetings",
+      "title": "Talking like a boricua: pana, nena, wepa",
+      "roadmap": "",
+      "deck": "Boricua greetings and slang"
+    },
+    {
+      "id": "gender",
+      "title": "Gender and number of nouns",
+      "roadmap": "",
+      "deck": "People and family"
+    },
+    {
+      "id": "articles",
+      "title": "el / la, un / una",
+      "roadmap": "",
+      "deck": "Food and drink"
+    },
+    {
+      "id": "ser",
+      "title": "Subject pronouns and ser",
+      "roadmap": "",
+      "deck": "About me"
+    },
+    {
+      "id": "adjectives",
+      "title": "Adjectives: agreement and position",
+      "roadmap": "",
+      "deck": "Shopping and clothes"
+    },
+    {
+      "id": "estar",
+      "title": "estar: where and how",
+      "roadmap": "",
+      "deck": "Around town and directions"
+    },
+    {
+      "id": "ser-estar",
+      "title": "ser vs estar",
+      "roadmap": "",
+      "deck": "Feelings and states"
+    },
+    {
+      "id": "hay",
+      "title": "hay: there is, there are",
+      "roadmap": "",
+      "deck": "Home and routine"
+    },
+    {
+      "id": "present",
+      "title": "Present tense: -ar, -er, -ir",
+      "roadmap": "",
+      "deck": "Work and school"
+    },
+    {
+      "id": "questions",
+      "title": "Questions and question words",
+      "roadmap": "",
+      "deck": "Questions and connectors"
+    },
+    {
+      "id": "numbers",
+      "title": "Numbers, time and prices",
+      "roadmap": "",
+      "deck": "Numbers, time and prices"
+    },
+    {
+      "id": "possessives",
+      "title": "Possessives and demonstratives",
+      "roadmap": "",
+      "deck": "People and family"
+    },
+    {
+      "id": "irregular",
+      "title": "Irregular present: tener, ir, hacer",
+      "roadmap": "",
+      "deck": "Days, dates and weather"
+    },
+    {
+      "id": "stem-change",
+      "title": "Stem-changing verbs: quiero, puedo, pido",
+      "roadmap": "",
+      "deck": "Health and emergencies"
+    },
+    {
+      "id": "gustar",
+      "title": "gustar: me gusta, me gustan",
+      "roadmap": "",
+      "deck": "Likes and free time"
+    },
+    {
+      "id": "reflexive",
+      "title": "Reflexive verbs and daily routine",
+      "roadmap": "",
+      "deck": "Home and routine"
+    },
+    {
+      "id": "prepositions",
+      "title": "a, de, en, con, por, para",
+      "roadmap": "",
+      "deck": "Travel and transport"
+    },
+    {
+      "id": "muy-mucho",
+      "title": "muy and mucho: very cold is mucho frío",
+      "roadmap": "",
+      "deck": "Traps for English speakers"
+    },
+    {
+      "id": "connectors",
+      "title": "y, o, pero, porque",
+      "roadmap": "",
+      "deck": "Questions and connectors"
+    },
+    {
+      "id": "directions",
+      "title": "Directions and places in town",
+      "roadmap": "",
+      "deck": "Around town and directions"
+    },
+    {
+      "id": "pr-daily",
+      "title": "Everyday island words: guagua, chavos, zafacón",
+      "roadmap": "",
+      "deck": "Everyday Puerto Rico"
+    },
+    {
+      "id": "ir-a",
+      "title": "ir a + infinitive: plans",
+      "roadmap": "",
+      "deck": "Travel and transport"
+    },
+    {
+      "id": "lo-la",
+      "title": "Object pronouns: lo, la, los, las",
+      "roadmap": "",
+      "deck": "Shopping and clothes"
+    },
+    {
+      "id": "preterite",
+      "title": "The preterite: what you did",
+      "roadmap": "",
+      "deck": "Likes and free time"
+    },
+    {
+      "id": "se",
+      "title": "Impersonal se: se habla español",
+      "roadmap": "",
+      "deck": "Work and school"
+    },
+    {
+      "id": "pr-culture",
+      "title": "Food, music and fiestas",
+      "roadmap": "",
+      "deck": "Food, music and places"
+    }
+  ],
+  "decks": [
+    {
+      "name": "Sounds and spelling",
+      "group": "First steps",
+      "desc": "Words that show each spelling rule: silent h, j, ll, ñ, r and rr, c and z"
+    },
+    {
+      "name": "Greetings and courtesy",
+      "group": "First steps",
+      "desc": "Hello, goodbye, please, thanks and polite openers for strangers"
+    },
+    {
+      "name": "About me",
+      "group": "First steps",
+      "desc": "Name, where you are from, where you live, your job and your languages"
+    },
+    {
+      "name": "People and family",
+      "group": "First steps",
+      "desc": "Family members, friends and words to describe people"
+    },
+    {
+      "name": "Numbers, time and prices",
+      "group": "Everyday words",
+      "desc": "Numbers to 1,000, telling the time, asking prices in dollars"
+    },
+    {
+      "name": "Days, dates and weather",
+      "group": "Everyday words",
+      "desc": "Days, months, dates, yesterday and tomorrow, and the weather"
+    },
+    {
+      "name": "Food and drink",
+      "group": "Everyday words",
+      "desc": "Ordering in a restaurant or a cafetería, everyday food and drinks"
+    },
+    {
+      "name": "Shopping and clothes",
+      "group": "Everyday words",
+      "desc": "Clothes, colors, sizes and paying"
+    },
+    {
+      "name": "Home and routine",
+      "group": "Everyday words",
+      "desc": "Rooms and things at home, and a daily routine with reflexive verbs"
+    },
+    {
+      "name": "Around town and directions",
+      "group": "Out and about",
+      "desc": "Places in town, asking where things are, and following directions"
+    },
+    {
+      "name": "Travel and transport",
+      "group": "Out and about",
+      "desc": "Tickets, stations, airports, getting around and hotel basics"
+    },
+    {
+      "name": "Health and emergencies",
+      "group": "Out and about",
+      "desc": "Saying what hurts, the pharmacy, and asking for help"
+    },
+    {
+      "name": "Work and school",
+      "group": "Out and about",
+      "desc": "Jobs, the workplace, classes and everyday work verbs"
+    },
+    {
+      "name": "Feelings and states",
+      "group": "Conversation",
+      "desc": "How you feel, with estar and tener"
+    },
+    {
+      "name": "Likes and free time",
+      "group": "Conversation",
+      "desc": "Hobbies, sports, likes and dislikes, and what you did at the weekend"
+    },
+    {
+      "name": "Questions and connectors",
+      "group": "Conversation",
+      "desc": "Question words and the small words that join sentences"
+    },
+    {
+      "name": "Traps for English speakers",
+      "group": "Watch out",
+      "desc": "False friends, calques and very / a lot"
+    },
+    {
+      "name": "Puerto Rican sounds",
+      "group": "Puerto Rico",
+      "desc": "What you hear on the island: the s that turns into a breath, r that sounds like l, and cansao for cansado."
+    },
+    {
+      "name": "Boricua greetings and slang",
+      "group": "Puerto Rico",
+      "desc": "Saludos, ¿qué es la que hay?, pana, nene and nena, boricua, chévere."
+    },
+    {
+      "name": "Everyday Puerto Rico",
+      "group": "Puerto Rico",
+      "desc": "Island words for daily life: la guagua, los chavos, el zafacón, la china, los mahones."
+    },
+    {
+      "name": "Food, music and places",
+      "group": "Puerto Rico",
+      "desc": "Mofongo, arroz con gandules, coquito, plena and bomba, El Yunque and Viejo San Juan."
+    },
+    {
+      "name": "Compliments",
+      "group": "Conversation",
+      "desc": "Kind things to say about food, work, skills and people, and how to answer."
+    },
+    {
+      "name": "Flirting",
+      "group": "Conversation",
+      "desc": "Words people flirt with, phrases built from them, asking someone out, and kind ways to say no."
+    },
+    {
+      "name": "Top nouns",
+      "group": "Core words",
+      "desc": "The most-used nouns, with el or la."
+    },
+    {
+      "name": "Top verbs",
+      "group": "Core words",
+      "desc": "The most-used verbs, with the yo form."
+    },
+    {
+      "name": "Top adjectives",
+      "group": "Core words",
+      "desc": "The most-used describing words, with the feminine form."
+    },
+    {
+      "name": "Top adverbs",
+      "group": "Core words",
+      "desc": "Time, place, manner and degree: already, here, often, very."
+    },
+    {
+      "name": "Top pronouns",
+      "group": "Core words",
+      "desc": "I, you, mine, this, who, someone: the whole useful set."
+    },
+    {
+      "name": "Top prepositions",
+      "group": "Core words",
+      "desc": "In, on, with, for, from, toward and the rest."
+    },
+    {
+      "name": "Top conjunctions",
+      "group": "Core words",
+      "desc": "Joining words: and, but, because, if, when, that."
+    },
+    {
+      "name": "Top interjections",
+      "group": "Core words",
+      "desc": "What people really exclaim: wow, ouch, oops, hey."
+    },
+    {
+      "name": "Top words",
+      "group": "Core words",
+      "desc": "Question words, numbers, articles, yes and no, days and times."
+    }
+  ],
+  "titles": [
+    "Beginner",
+    "Traveler",
+    "Explorer",
+    "Speaker",
+    "Conversationalist",
+    "Storyteller",
+    "Master"
+  ]
+}

@@ -82,5 +82,5 @@ After editing, everything must still pass (scratch outputs; S={S}):
 Write `tools/content/{L}/REVIEW.md`: (1) what you changed, grouped, with before → after examples; (2) a table of edit counts PER FILE split into "wrong/misleading", "unnatural wording", "pron", "formatting"; (3) what you read in full and what you only scanned; (4) a "For a native speaker" top-ten list; (5) anything you found but could not fix within scope.
 
 Final reply (concise): the per-file edit table, what you only scanned, the exact PASS lines, and the top-ten list."""
-for k in P: open(os.path.join(R, 'docs', 'briefs', f'{L}-{k}.md'), 'w', encoding='utf8').write(P[k])
+for k in P: open(os.path.join(R, 'docs', 'briefs', f'{L}-{k}.md'), 'w', encoding='utf8').write(P[k] + open(os.path.join(R, 'docs', 'briefs', '_reading-rule.md'), encoding='utf8').read())
 print('wrote briefs for', L, {k: len(v) for k, v in P.items()}, '· decks', len(seen))

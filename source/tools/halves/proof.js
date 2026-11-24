@@ -5,7 +5,8 @@
      B. runtime path: the pack is pushed through the app's own validCourse() + setCourseTables() (the path every pack takes: cleanLessonHTML, cleanPractice,
         GOALS filter, lesson-deck filter …) and the resulting globals are compared with the globals the built-in course sets.
    {{strokes:X}} has no runtime support yet: the proof expands it with the app's strokeSVG() exactly as the built-in lesson does, and lists it as needing the lead.
-   Usage: node tools/halves/proof.js      (HALVES_DIR=<dir> to prove another copy; exit 1 when any difference) */
+   Usage: node tools/halves/proof.js      (HALVES_DIR=<dir> to prove another copy; exit 1 when any difference)
+          node tools/halves/proof.js zh   (pure-data proof for a target exported from tools/target: see proofTarget below) */
 'use strict';
 const L = require('./lib.js');
 const { assemble } = require('./assemble.js');
@@ -21,7 +22,31 @@ function diff(a, b, p, out) {
   out.push(p + ': ' + JSON.stringify(a).slice(0, 160) + ' ≠ ' + JSON.stringify(b).slice(0, 160)); return out;
 }
 
-(async () => {
+/* any other target: a pure-data proof. assemble('en', <t>) must deep-equal the en-<t> pack that tools/target/gen.js builds (every top-level key; the only
+   allowed extras are "standard" and "UI", which every assembled pack carries; DECKS key order counts). Usage: node tools/halves/proof.js zh */
+function proofTarget(tg) {
+  const fs = require('fs'), os = require('os'), path = require('path'), cp = require('child_process'), vm = require('vm');
+  const out = process.env.HALVES_PACK || path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'halves-proof-')), 'course-en-' + tg + '.js');
+  if (!process.env.HALVES_PACK) { const g = cp.spawnSync('node', [path.join(L.ROOT, 'tools', 'target', 'gen.js'), tg, out], { encoding: 'utf8' }); if (g.status) { console.error('proof: gen.js failed: ' + g.stderr); process.exit(2); } }
+  const ctx = { LANGAPP_PACKS: { course: {}, i18n: {} } }; vm.createContext(ctx); vm.runInContext(fs.readFileSync(out, 'utf8'), ctx);
+  const ref = JSON.parse(JSON.stringify(ctx.LANGAPP_PACKS.course['en-' + tg]));
+  const { pack, missing } = assemble('en', tg, { lenient: true });
+  const got = JSON.parse(JSON.stringify(pack)); const extras = ['standard', 'UI'];
+  const A = []; const top = {}; Object.keys(got).forEach(k => { if (!extras.includes(k)) top[k] = got[k]; });
+  diff(ref, top, 'pack', A);
+  if (Object.keys(ref.DECKS).join('\u0001') !== Object.keys(got.DECKS).join('\u0001')) A.push('pack.DECKS: key order differs');
+  const shipped = path.join(L.ROOT, 'packs', 'course-en-' + tg + '.js'), same = fs.existsSync(shipped) && fs.readFileSync(shipped, 'utf8') === fs.readFileSync(out, 'utf8');
+  console.log('== PROOF en-' + tg + ': target/' + tg + ' + native/en/' + tg + ' vs tools/target/gen.js ' + tg + (process.env.HALVES_PACK ? ' (HALVES_PACK)' : '') + ' ==');
+  console.log('packs/course-en-' + tg + '.js is ' + (same ? 'byte-identical to' : 'NOT the same as') + ' the regenerated pack');
+  console.log('missing native rows: ' + missing.length); missing.slice(0, 50).forEach(m => console.log('  MISSING ' + m));
+  console.log('differences: ' + A.length); A.slice(0, 400).forEach(x => console.log('  ' + x));
+  console.log('key-order-only differences (no runtime effect, not counted): ' + ORDER.length + (ORDER.length ? ' e.g. ' + ORDER.slice(0, 3).join(', ') : ''));
+  console.log('extra keys in the assembled pack (allowed): ' + extras.filter(k => k in got).join(', '));
+  console.log('cards ' + Object.values(got.DECKS).reduce((a, b) => a + b.length, 0) + ', lessons ' + got.LESSONS.length + ', checks ' + Object.values(got.CHECKS).reduce((a, b) => a + b.length, 0) + ', practice ' + Object.values(got.PRACTICE).reduce((a, b) => a + b.length, 0));
+  process.exit(A.length || missing.length ? 1 : 0);
+}
+if (process.argv[2] && process.argv[2] !== 'ko') proofTarget(process.argv[2]);
+else (async () => {
   const { pack, missing } = assemble('en', 'ko', { lenient: true });
   const { browser, page, errs } = await L.openApp();
   const R = await page.evaluate(pk => {

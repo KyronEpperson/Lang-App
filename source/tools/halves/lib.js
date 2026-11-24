@@ -59,4 +59,32 @@ const TOKEN_RX = /\{\{[a-z]+:[^}]*\}\}/g;
 function tokens(s) { return (String(s || '').match(TOKEN_RX) || []); }
 function words(s) { return (String(s || '').replace(/<[^>]+>/g, ' ').replace(TOKEN_RX, ' ').match(/[A-Za-zÀ-ɏ']+/g) || []).length; }
 
-module.exports = { ROOT, HALVES, SRC, openApp, liveBuiltin, readJSON, writeJSON, writeJSONL, readJSONL, byId, hangulSet, sameHangul, hasHangul, isKoreanValue, tokens, TOKEN_RX, words };
+/* ---------- targets other than Korean (docs/briefs/vi-zh-design.md) ----------
+   Each target names the field that holds its text in the target half (ko → "ko", zh → "zh"), the script whose runs a native string must keep
+   ("protected runs": Hangul for ko, Han characters for zh), and how a quiz option or hint is told apart from prose. Korean keeps the original helpers above. */
+const HAN_RX = /[㐀-䶿一-鿿豈-﫿]+/g;
+const hasHan = s => /[㐀-䶿一-鿿豈-﫿]/.test(String(s || ''));
+const PIN_MARK = /[āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜĀÁǍÀĒÉĚÈŌÓǑÒ]/;
+const PIN_NEUTRAL = /^(ma|ne|ba|le|de|a|zhe|guo|men|ge|zi|bu|yi|r)$/i; /* toneless syllables that occur alone in quiz options (Qù bu qù?, yí ge rén) */
+const PIN_INITIAL = /^(zh|ch|sh|[bpmfdtnlgkhjqxrzcsyw])$/;            /* a bare pinyin initial as a quiz option ("q", "zh") is language-neutral material */
+let PIN_RX = null;
+function pinyinRx() { if (!PIN_RX) { const p = path.join(ROOT, 'tools', 'target', 'zh', 'profile.json'); PIN_RX = new RegExp(readJSON(p).pronPattern); } return PIN_RX; }
+/* a whole string of pinyin: passes the course's own pronPattern and every word carries a tone mark (or is a known toneless syllable), so "bú, rising" is prose */
+function isPinyin(s) { s = String(s == null ? '' : s).trim(); if (!s) return false; if (PIN_INITIAL.test(s)) return true; return pinyinRx().test(s) && s.split(/[\s,.?!:;]+/).filter(Boolean).every(w => PIN_MARK.test(w) || PIN_NEUTRAL.test(w)); }
+const isChineseValue = s => { s = String(s == null ? '' : s); return (hasHan(s) && !/[A-Za-zÀ-ɏ]/.test(s)) || isPinyin(s); };
+function runSetOf(rx, s) { return (String(s || '').match(rx) || []).slice().sort(); }
+const TARGETS = {
+  ko: { code: 'ko', field: 'ko', name: 'Korean', script: 'Hangul', runs: s => hangulSet(s), has: hasHangul, isValue: isKoreanValue, leadRx: /^([^A-Za-z]*[㄰-㆏가-힯][^A-Za-z]*)( · | — )(.*[A-Za-z].*)$/ },
+  zh: { code: 'zh', field: 'zh', name: 'Chinese', script: 'Han', runs: s => runSetOf(HAN_RX, s), has: hasHan, isValue: isChineseValue, leadRx: /^([^A-Za-z]*[㐀-䶿一-鿿][^A-Za-z]*)( · | — )(.*[A-Za-z].*)$/,
+    /* extra native-only card fields for learners whose language reads Chinese characters (vi: Hán Việt). Assembly ignores them; validate.js checks them. */
+    cardExtras: ['hv', 'hvUse', 'trad'] }
+};
+function target(t) { const c = TARGETS[t]; if (!c) throw new Error('unknown target "' + t + '" (known: ' + Object.keys(TARGETS).join(', ') + ')'); return c; }
+/* split "target lead<sep>native note" (hint, pause-set label); null when there is no leading target part */
+function splitLead(t, s) {
+  const T = target(t); s = String(s); if (T.isValue(s)) return { lead: s, sep: '', note: '' };
+  const m = s.match(T.leadRx); return m && T.isValue(m[1]) ? { lead: m[1], sep: m[2], note: m[3] } : null;
+}
+
+module.exports = { ROOT, HALVES, SRC, openApp, liveBuiltin, readJSON, writeJSON, writeJSONL, readJSONL, byId, hangulSet, sameHangul, hasHangul, isKoreanValue, tokens, TOKEN_RX, words,
+  TARGETS, target, splitLead, hasHan, isPinyin, isChineseValue, HAN_RX };

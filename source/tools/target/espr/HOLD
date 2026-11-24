@@ -1,0 +1,1 @@
+en-espr is being written: gen.js without an output path writes to the OS temp folder, not packs/. Remove this file (and the HELD.txt line) in the change that releases the course.

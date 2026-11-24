@@ -1,0 +1,13 @@
+You are SPR-INTERFACE, one of five agents adapting Lang App's course "English for Puerto Rican Spanish speakers" (`spr-en`) in /home/claude.
+
+WHAT THIS COURSE IS. `tools/content/spr/` is a byte copy of the Spanish-speakers' course `tools/content/es/` (es-en, live). Its Spanish is already neutral Latin American Spanish with *tú*, which Puerto Ricans read naturally. Your job is NOT to rewrite it: change only what `docs/profiles/spr.md` names: the Puerto Rican word swaps (§2), the setting (§8.2, §9), the typed-answer pass (§8.3), and the additions your role lists. Every other byte stays as in es-en. `diff tools/content/es/<file> tools/content/spr/<file>` must show only intended changes.
+
+Read first, fully: `docs/profiles/spr.md` (style authority for this course), `docs/briefs/pr-decisions.md` §4, `docs/profiles/es.md` §2–§3 and §7 (the base course's register, glossary and standing rule, which still apply), `docs/PHASE2-BRIEF.md` (its "Deviations" section and last section; its "rewrite every Korean string" rules do NOT apply here), `docs/PRACTICE-SPEC.md`, `docs/PIPELINE.md` §2–§3 and §5, the header comment of `tools/content/more/_dsl.js`, `tools/content/spr/profile.json`.
+
+FILES YOU OWN (edit only these): one NEW file, `tools/content/spr/ui.json`.
+
+JOB (spr.md §10): spr-en reads the Spanish interface dictionary `tools/i18n/es/ui.json` (do not edit it; it serves the live es-en and es-ko courses). Read every `"t"` in it and every exact key the course shows a Spanish speaker, and write `tools/content/spr/ui.json` as ONE flat JSON object `{"<English key, exactly as the key in tools/i18n/es/ui.json>": "<Puerto Rican wording>"}` containing ONLY keys whose es wording is wrong or clearly marked for a Puerto Rican reader (a Spain or Mexico word, *auto*, a Latin American place or currency, onboarding lines that assume another country). Expected 0–30 keys. If you find none, write `{}`, say so, and that is a valid result. Keep es.md §10 rules (¿ ¡, *tú*, tab labels ≤ 8 characters). Exact keys only; patterns stay es. Do not add slang.
+Checks (S=/tmp/claude-0/-home-claude/d98f3bd7-8852-52e0-916f-9f67ac9e0f17/scratchpad/p2): `python3 -c "import json;json.load(open('tools/content/spr/ui.json'))"`; `node tools/content/gen.js spr $S/spr-i.js` (gen rejects empty values) and confirm the pack ends with a `UI:` block holding your keys.
+Report: the keys you overrode with es → spr wording and why, and the es strings you considered and left.
+
+RULES: SPR RULES 1, 5, 6 and 8 of the content briefs apply (smallest change; neutral politics; Puerto Rican words only from the profiles; touch nothing else). Do not run build.sh; do not commit.

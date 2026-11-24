@@ -1,0 +1,77 @@
+[
+ {
+  "name": "w1",
+  "desc": "course/groups/labels/decks; cards zh.c0001–zh.c0555 (555)",
+  "rows": 2348,
+  "pre": 22,
+  "rw": 26,
+  "words": 7989,
+  "bodyWords": 0,
+  "lessons": [],
+  "hvCards": 386
+ },
+ {
+  "name": "w2",
+  "desc": "cards zh.c0556–zh.c0886 (331); dialog/examples/patterns; lessons 1–1 (pinyin … pinyin): bodies + titles + example glosses + checks + practice",
+  "rows": 1967,
+  "pre": 12,
+  "rw": 18,
+  "words": 7987,
+  "bodyWords": 389,
+  "lessons": [
+   "pinyin"
+  ],
+  "hvCards": 255
+ },
+ {
+  "name": "w3",
+  "desc": "lessons 2–14 (tones … numbers): bodies + titles + example glosses + checks + practice",
+  "rows": 740,
+  "pre": 9,
+  "rw": 13,
+  "words": 7693,
+  "bodyWords": 3575,
+  "lessons": [
+   "tones",
+   "tone-change",
+   "characters",
+   "greetings",
+   "pronouns",
+   "shi",
+   "adj",
+   "ma",
+   "question-words",
+   "bu-mei",
+   "de",
+   "you",
+   "numbers"
+  ],
+  "hvCards": 0
+ },
+ {
+  "name": "w4",
+  "desc": "lessons 15–28 (measure … and-or): bodies + titles + example glosses + checks + practice",
+  "rows": 692,
+  "pre": 1,
+  "rw": 3,
+  "words": 7599,
+  "bodyWords": 3339,
+  "lessons": [
+   "measure",
+   "food",
+   "family",
+   "time",
+   "zai",
+   "word-order",
+   "want-can",
+   "le",
+   "progress",
+   "serial",
+   "a-not-a",
+   "ye-dou",
+   "ba-bie",
+   "and-or"
+  ],
+  "hvCards": 0
+ }
+]

@@ -1,0 +1,172 @@
+{
+ "code": "ta",
+ "name": "Tamil",
+ "self": "தமிழ்",
+ "variant": "Spoken standard Tamil of Tamil Nadu (the everyday educated speech heard in Chennai and on television), taught first, with the written literary forms shown beside it (வர்றேன் next to வருகிறேன், வீட்டுல next to வீட்டில்); Tamil is strongly diglossic and speakers do not talk the way they write, so a speaking course starts from the spoken form; written in Tamil script",
+ "variant_ko": "타밀나두의 구어 표준 타밀어(첸나이와 방송에서 듣는 교양 있는 일상어)를 먼저 가르치고, 문어 형태를 나란히 보여 줍니다(வர்றேன் 옆에 வருகிறேன், வீட்டுல 옆에 வீட்டில்). 타밀어는 구어와 문어의 차이가 커서 쓰는 대로 말하지 않으므로, 말하기 과정은 구어에서 시작합니다. 타밀 문자로 씁니다",
+ "voice": "ta-IN",
+ "script": "Tamil script, left to right: 12 vowels, 18 consonants, the āytam ஃ, the puḷḷi (dot) for a bare consonant, and vowel signs written before, after or around the consonant (கெ, கை, கொ); Grantha letters ஜ ஷ ஸ ஹ for loanwords; everyday numbers in Western digits",
+ "basis": "E. Annamalai and R. E. Asher, Colloquial Tamil: The Complete Course for Beginners (Routledge): spoken Tamil first, with formal and written Tamil introduced alongside; its 16 units move from names and going home, wanting, the telephone and apologising to directions, past events, obligation, ability and travel. The lesson split and order below are a CEFR-style A1 progression built on that sequence",
+ "basis_ko": "E. Annamalai·R. E. Asher, Colloquial Tamil (Routledge): 구어 타밀어를 먼저, 격식체와 문어를 함께 소개합니다. 16개 단원은 이름 말하기·집에 가기·원하는 것·전화·사과에서 길 묻기·과거 일·의무·능력·여행으로 나아갑니다. 아래의 레슨 구분과 순서는 이 흐름을 바탕으로 한 CEFR식 A1 진행입니다",
+ "src": [
+  "Routledge product page for Annamalai and Asher, Colloquial Tamil: The Complete Course for Beginners (ISBN 9781138960343), read through a fetch summary on 2026-11-24: the 16 unit titles (My name is Murugan; I'm going home; What would you like?; Hello, this is Smith; I am sorry that I am late; Shall we go to Mahabalipuram?; Where are you going?; When did you come to India?; The clothes you are wearing; Yesterday I went to a wedding; Shouldn't you come to see me?; I'm from Jaffna; How do I get to this place?; What are you laughing at?; I can be in Tamil Nadu for just a couple of days; A famous book in Tamil) and the description (emphasis on colloquial spoken Tamil, with an introduction to formal speech and the written language). The book itself was not opened"
+ ],
+ "note": "Only the unit topics and the spoken-first approach come from the Routledge page; the book's grammar sequence inside the units was not seen. The script stage, the diglossia lesson, the split into 25 lessons, every Tamil form in the titles and the Korean titles are my own (common course practice and own knowledge). Spoken forms (வர்றேன், வேணும், வீட்டுல, என்கிட்ட, வரலை) follow the Chennai-area educated standard as I know it; regional speech (Madurai, Kongu, Jaffna) differs and is not taught. Writers must check every Tamil form with a first-language speaker and decide one consistent spelling for spoken forms, which have no official standard.",
+ "hardest": [
+  "Diglossia: spoken and written Tamil differ in verb endings and case endings (வர்றேன் / வருகிறேன், வீட்டுல / வீட்டில்)",
+  "Retroflex sounds and ழ, and the three l / n / r pairs (ல ள ழ, ந ன ண, ர ற)",
+  "Long agglutinated verbs that carry tense and person (போய்ட்டு வந்துட்டேன்)",
+  "Verb-final word order and postposed case endings"
+ ],
+ "stages": [
+  {
+   "en": "Script, sounds and greetings",
+   "ko": "문자, 소리, 인사",
+   "items": [
+    [
+     "ta-vowels",
+     "Tamil vowels, short and long: அ ஆ இ ஈ உ ஊ எ ஏ ஐ ஒ ஓ ஔ",
+     "타밀어 모음, 짧은 소리와 긴 소리: அ ஆ இ ஈ உ ஊ எ ஏ ஐ ஒ ஓ ஔ"
+    ],
+    [
+     "ta-consonants",
+     "The 18 consonants, ழ, and the dot (புள்ளி) for a bare consonant",
+     "자음 18자, ழ, 그리고 모음 없는 자음을 표시하는 점(புள்ளி)"
+    ],
+    [
+     "ta-vowel-signs",
+     "Vowel signs on consonants: க கா கி கீ கு கூ கெ கே கை கொ",
+     "자음에 붙는 모음 기호: க கா கி கீ கு கூ கெ கே கை கொ"
+    ],
+    [
+     "ta-spoken-written",
+     "Spoken and written Tamil: why வருகிறேன் is said வர்றேன்",
+     "구어와 문어: வருகிறேன்을 வர்றேன்으로 말하는 이유"
+    ],
+    [
+     "ta-greetings",
+     "Greetings: வணக்கம், நன்றி, எப்படி இருக்கீங்க?",
+     "인사: வணக்கம், நன்றி, எப்படி இருக்கீங்க?"
+    ]
+   ]
+  },
+  {
+   "en": "First sentences",
+   "ko": "첫 문장",
+   "items": [
+    [
+     "ta-intro",
+     "Introducing yourself: என் பேர் …, உங்க பேர் என்ன?",
+     "자기소개: என் பேர் …, உங்க பேர் என்ன?"
+    ],
+    [
+     "ta-pronouns",
+     "Pronouns: நான், நீ / நீங்க, அவன், அவள், அவர், நாங்க / நாம",
+     "대명사: நான், நீ / நீங்க, அவன், அவள், அவர், நாங்க / நாம"
+    ],
+    [
+     "ta-no-be",
+     "Sentences without 'is' (இது புத்தகம்) and yes-no questions with -ஆ",
+     "'이다' 없는 문장(இது புத்தகம்)과 -ஆ로 묻는 예/아니요 질문"
+    ],
+    [
+     "ta-questions",
+     "Question words: என்ன, யார், எங்கே, எப்போ, எவ்வளவு, ஏன்",
+     "의문사: என்ன, யார், எங்கே, எப்போ, எவ்வளவு, ஏன்"
+    ],
+    [
+     "ta-numbers",
+     "Numbers and prices: ஒண்ணு, ரெண்டு … பத்து; எவ்வளவு ரூபாய்?",
+     "숫자와 가격: ஒண்ணு, ரெண்டு … பத்து; எவ்வளவு ரூபாய்?"
+    ],
+    [
+     "ta-case",
+     "Case endings: வீட்டுக்கு, வீட்டுல, வீட்டுலேர்ந்து (to, at, from)",
+     "격어미: வீட்டுக்கு, வீட்டுல, வீட்டுலேர்ந்து(~로, ~에, ~에서)"
+    ],
+    [
+     "ta-family",
+     "Possession and family: என், உங்க; அம்மா, அப்பா, அண்ணன், தங்கச்சி",
+     "소유와 가족: என், உங்க; அம்மா, அப்பா, அண்ணன், தங்கச்சி"
+    ],
+    [
+     "ta-irukku",
+     "There is and have: இருக்கு / இல்லை (என்கிட்ட … இருக்கு)",
+     "있다와 가지다: இருக்கு / இல்லை (என்கிட்ட … இருக்கு)"
+    ]
+   ]
+  },
+  {
+   "en": "Daily life",
+   "ko": "일상생활",
+   "items": [
+    [
+     "ta-present",
+     "Present tense: வர்றேன், வர்றீங்க, வர்றான் (written வருகிறேன்)",
+     "현재 시제: வர்றேன், வர்றீங்க, வர்றான் (문어 வருகிறேன்)"
+    ],
+    [
+     "ta-want",
+     "Want and don't want: வேணும் / வேண்டாம் (காபி வேணும்)",
+     "원한다, 원하지 않는다: வேணும் / வேண்டாம் (காபி வேணும்)"
+    ],
+    [
+     "ta-like",
+     "Likes: எனக்கு … பிடிக்கும் / பிடிக்காது",
+     "좋아하는 것: எனக்கு … பிடிக்கும் / பிடிக்காது"
+    ],
+    [
+     "ta-food",
+     "Ordering food: ஒரு காபி குடுங்க, சாப்பாடு, பில்",
+     "음식 주문하기: ஒரு காபி குடுங்க, சாப்பாடு, பில்"
+    ],
+    [
+     "ta-requests",
+     "Polite requests and commands: வாங்க, உட்காருங்க, கொஞ்சம் …",
+     "공손한 부탁과 명령: வாங்க, உட்காருங்க, கொஞ்சம் …"
+    ],
+    [
+     "ta-time",
+     "Time and days: மணி என்ன?, திங்கள், நாளைக்கு",
+     "시간과 요일: மணி என்ன?, திங்கள், நாளைக்கு"
+    ],
+    [
+     "ta-directions",
+     "Directions and transport: … எங்கே இருக்கு?, வலது, இடது; ஆட்டோ, பஸ்",
+     "길 묻기와 교통: … எங்கே இருக்கு?, வலது, இடது; ஆட்டோ, பஸ்"
+    ]
+   ]
+  },
+  {
+   "en": "Past and future",
+   "ko": "과거와 미래",
+   "items": [
+    [
+     "ta-past",
+     "Past tense: வந்தேன், போனேன், சாப்பிட்டேன்",
+     "과거 시제: வந்தேன், போனேன், சாப்பிட்டேன்"
+    ],
+    [
+     "ta-future",
+     "Future tense: வருவேன், போவேன், சாப்பிடுவேன்",
+     "미래 시제: வருவேன், போவேன், சாப்பிடுவேன்"
+    ],
+    [
+     "ta-negation",
+     "Negation: வரலை (didn't come), வரமாட்டேன் (won't come)",
+     "부정: வரலை(오지 않았다), வரமாட்டேன்(오지 않을 것이다)"
+    ],
+    [
+     "ta-can-must",
+     "Can and must: வர முடியும், போகணும்",
+     "할 수 있다와 해야 한다: வர முடியும், போகணும்"
+    ],
+    [
+     "ta-joining",
+     "Joining actions: போய், வந்து; போய்ட்டு வர்றேன்",
+     "동작 잇기: போய், வந்து; போய்ட்டு வர்றேன்"
+    ]
+   ]
+  }
+ ]
+}

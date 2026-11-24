@@ -30,6 +30,7 @@ function loadHalves(nat, tgt, dir) {
 function assemble(nat, tgt, opts) {
   opts = opts || {};
   const { t, n } = loadHalves(nat, tgt, opts.dir);
+  const K = L.target(tgt).field; /* the field holding target text in the target half: "ko" for Korean, "zh" for Chinese (lib.js TARGETS) */
   const miss = [];
   const ix = {}; Object.keys(n).forEach(k => { if (Array.isArray(n[k])) ix[k] = L.byId(n[k]); });
   const get = (file, id) => { const r = ix[file].get(id); if (!r) miss.push(file + ':' + id); return r || {}; };
@@ -38,21 +39,22 @@ function assemble(nat, tgt, opts) {
 
   const deckLabel = {}; t.decks.forEach(d => deckLabel[d.id] = get('decks', d.id).label);
   const DL = id => { if (!deckLabel[id]) miss.push('deck:' + id); return deckLabel[id]; };
-  const cardKo = {}; t.cards.forEach(c => cardKo[c.id] = c.ko);
+  const cardKo = {}; t.cards.forEach(c => cardKo[c.id] = c[K]);
 
   const DECKS = {}; t.decks.forEach(d => DECKS[DL(d.id)] = []);
-  t.cards.forEach(c => { const x = get('cards', c.id); DECKS[DL(c.deck)].push([c.ko, c.rom, x.meaning, x.note == null ? '' : x.note]); });
+  t.cards.forEach(c => { const x = get('cards', c.id); DECKS[DL(c.deck)].push([c[K], c.rom, x.meaning, x.note == null ? '' : x.note]); });
   const DESC = {}; t.decks.forEach(d => DESC[DL(d.id)] = get('decks', d.id).desc);
   if (ix.labels.has('ko.d.mydeck')) DESC['My phrases'] = label('ko.d.mydeck'); /* the runtime's MYDECK name is the English constant 'My phrases' */
   const GROUPS = t.course.groups.map(g => [get('groups', g.id).name, g.decks.map(DL)]);
   const TAGS = {}; Object.entries(t.course.tags || {}).forEach(([k, v]) => TAGS[k] = v.map(DL));
   const DIALOG = {}; t.dialog.forEach(r => DIALOG[cardKo[r.card]] = [r.a, r.b, get('dialog', r.id).tr]);
-  const EXAMPLES = {}; t.examples.forEach(r => EXAMPLES[cardKo[r.card]] = [r.ko, get('examples', r.id).tr]);
-  const PATTERNS = t.patterns.map(r => [r.ko, get('patterns', r.id).meaning, r.ex, r.lesson]);
+  const EXAMPLES = {}; t.examples.forEach(r => EXAMPLES[cardKo[r.card]] = [r[K], get('examples', r.id).tr]);
+  /* PATTERNS[3]: a lesson id (target-side, en-ko) or the example's translation (native "tr", packs from tools/target; HALVES-SPEC §8.3) */
+  const PATTERNS = t.patterns.map(r => { const x = get('patterns', r.id); return [r[K], x.meaning, r.ex, r.lesson != null ? r.lesson : x.tr]; });
   const sen = L.byId(t.sentences);
   const body = (lid, h) => String(h == null ? (miss.push('lesson body:' + lid), '') : h).replace(/\{\{ex:([^}|]*)\}\}/g, (m, id) => {
     const s = sen.get(id); if (!s) { miss.push('sentence:' + id + ' (in ' + lid + ')'); return m; }
-    return '{{ex:' + s.ko + '|' + s.rom + '|' + get('sentences', id).gloss + '}}';
+    return '{{ex:' + s[K] + '|' + s.rom + '|' + get('sentences', id).gloss + '}}';
   });
   const LESSONS = t.lessons.map(l => { const x = get('lessons', l.id); return { id: l.id, title: x.title, blurb: x.blurb, deck: DL(l.deck), body: body(l.id, n.bodies[l.id]) }; });
   const CHECKS = {}; t.checks.forEach(c => { const x = get('checks', c.id); (CHECKS[c.lesson] = CHECKS[c.lesson] || []).push([x.q, merge(c.o, x.o), c.a, x.why]); });
@@ -62,19 +64,20 @@ function assemble(nat, tgt, opts) {
     if (x.p != null) o.p = x.p;
     if (p.o) o.o = p.t === 'mc' ? merge(p.o, x.o) : p.o;
     if (p.a) o.a = p.a; if (p.x) o.x = p.x; if (p.alt) o.alt = p.alt;
-    if (p.hint) o.hint = p.hint.ko + (p.hint.sep ? p.hint.sep + (x.hint || '') : ''); else if (x.hint != null) o.hint = x.hint;
+    if (p.hint) o.hint = p.hint[K] + (p.hint.sep ? p.hint.sep + (x.hint || '') : ''); else if (x.hint != null) o.hint = x.hint;
     if (x.why != null) o.why = x.why;
     if (p.strict) o.strict = true; if (p.xr) o.xr = p.xr;
     /* practice keys in the order the built-in data uses: t q o p a x alt hint why */
     const ord = {}; ['t', 'q', 'o', 'p', 'a', 'x', 'alt', 'hint', 'why', 'strict', 'xr'].forEach(k => { if (o[k] !== undefined) ord[k] = o[k]; });
     (PRACTICE[p.lesson] = PRACTICE[p.lesson] || []).push(ord);
   });
-  const TITLES = (t.course.titles || []).map(x => [x.level, x.ko, label(x.id)]);
-  const GREET = (t.course.greet || []).map(x => [x.ko, x.rom + ' · ' + label(x.id)]);
+  /* a title row without target text is [level, native, ''] (the en-<t> shape); a greeting without pronunciation is [target, gloss] */
+  const TITLES = (t.course.titles || []).map(x => x[K] != null ? [x.level, x[K], label(x.id)] : [x.level, label(x.id), '']);
+  const GREET = (t.course.greet || []).map(x => x.rom != null ? [x[K], x.rom + ' · ' + label(x.id)] : [x[K], label(x.id)]);
   const GOALS = {}; (t.course.goals || []).forEach(g => GOALS[g.key] = { label: label(g.id), decks: g.decks.map(DL) });
   const PLAN_PRESETS = {}; (t.course.plans || []).forEach(g => { const o = { label: label(g.id) }; Object.keys(g).forEach(k => { if (k === 'id' || k === 'key') return; o[k] = k === 'decks' ? g.decks.map(DL) : g[k]; }); PLAN_PRESETS[g.key] = o; });
-  const sets = {}; ((t.course.pause || {}).sets || []).forEach(s => sets[s.key] = [s.ko + s.sep + label(s.id), s.items.map(i => [i.ko, label(i.id)])]);
-  const idioms = ((t.course.pause || {}).idioms || []).map(i => [i.ko, i.hanja, i.rom, label(i.id)]);
+  const sets = {}; ((t.course.pause || {}).sets || []).forEach(s => sets[s.key] = [s[K] + s.sep + label(s.id), s.items.map(i => [i[K], label(i.id)])]);
+  const idioms = ((t.course.pause || {}).idioms || []).map(i => [i[K], i.hanja, i.rom, label(i.id)]);
 
   /* ---------- trainers: ROLES / KINDS (always, when the target half defines them), TRAINER (when the native half has trainer.json), features from readiness ---------- */
   const groupName = {}; t.course.groups.forEach(g => groupName[g.id] = get('groups', g.id).name);
@@ -84,11 +87,13 @@ function assemble(nat, tgt, opts) {
   const TRAINER = n.trainer ? trainerOf(n.trainer, tc) : null;
   const features = { script: false, pron: false, conj: false, register: false, numbers: false, sound: false, strokes: false };
   if (tgt === 'ko') { const rd = readiness(TRAINER, t.trainer, PAIRS_LEN(tc)); Object.keys(features).forEach(f => features[f] = !!(rd[f] && WIRED[f])); }
+  else if (tc.features) Object.keys(features).forEach(f => features[f] = !!tc.features[f]); /* other targets: the flags of the en-<t> pack, copied at export (CF() is features[f] for a non-Korean target) */
 
   if (miss.length && !opts.lenient) throw new Error(miss.length + ' native row(s) missing, first: ' + miss.slice(0, 5).join(', ') + ' — run validate.js');
   const pack = {
     id: nat + '-' + tgt, native: nat, target: tgt, ttsLang: t.course.ttsLang,
     name: { [nat]: n.course.name, [tgt]: t.course.self }, brand: n.course.brand || t.course.introWord, introWord: t.course.introWord,
+    ...(tc.pack || {}), /* pack flags of the en-<t> pack (accents, keys, tilesDefault …), copied verbatim at export; Korean has none */
     features,
     /* a course assembled from the two halves is a STANDARD course unless its native half says it was hand-tuned for this pair (course.json "tuned": true); the picker marks hand-tuned courses */
     ...(n.course.tuned ? {} : { standard: true }),

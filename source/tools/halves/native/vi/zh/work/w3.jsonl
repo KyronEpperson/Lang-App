@@ -1,0 +1,740 @@
+{"f":"lessons","id":"tones","k":"title","src":"2 · Four tones and the neutral tone","tgt":""}
+{"f":"lessons","id":"tones","k":"blurb","src":"Hear and say the four tones and the neutral tone, and tell apart words that differ only in tone.","tgt":""}
+{"f":"sentences","id":"zh.s0010","k":"gloss","src":"mom","tgt":""}
+{"f":"sentences","id":"zh.s0011","k":"gloss","src":"numb; hemp","tgt":""}
+{"f":"sentences","id":"zh.s0012","k":"gloss","src":"horse","tgt":""}
+{"f":"sentences","id":"zh.s0013","k":"gloss","src":"to scold","tgt":""}
+{"f":"sentences","id":"zh.s0014","k":"gloss","src":"to buy","tgt":""}
+{"f":"sentences","id":"zh.s0015","k":"gloss","src":"to sell","tgt":""}
+{"f":"sentences","id":"zh.s0016","k":"gloss","src":"soup","tgt":""}
+{"f":"sentences","id":"zh.s0017","k":"gloss","src":"sugar","tgt":""}
+{"f":"sentences","id":"zh.s0018","k":"gloss","src":"mom","tgt":""}
+{"f":"sentences","id":"zh.s0019","k":"gloss","src":"very fast","tgt":""}
+{"f":"checks","id":"tones.k1","k":"q","src":"Which tone is low, and dips when said alone?","tgt":""}
+{"f":"checks","id":"tones.k1","k":"o[0]","src":"The first tone","tgt":""}
+{"f":"checks","id":"tones.k1","k":"o[1]","src":"The second tone","tgt":""}
+{"f":"checks","id":"tones.k1","k":"o[2]","src":"The third tone","tgt":""}
+{"f":"checks","id":"tones.k1","k":"o[3]","src":"The fourth tone","tgt":""}
+{"f":"checks","id":"tones.k1","k":"why","src":"The third tone (ǎ) is low; alone it dips and comes back up.","tgt":""}
+{"f":"checks","id":"tones.k2","k":"q","src":"A word with the fourth tone comes at the end of your question. What happens to its tone?","tgt":""}
+{"f":"checks","id":"tones.k2","k":"o[0]","src":"It still falls","tgt":""}
+{"f":"checks","id":"tones.k2","k":"o[1]","src":"It rises, as in an English question","tgt":"","rw":"English sound comparison (\"as in …\")"}
+{"f":"checks","id":"tones.k2","k":"o[2]","src":"It becomes the first tone","tgt":""}
+{"f":"checks","id":"tones.k2","k":"o[3]","src":"It loses its tone","tgt":""}
+{"f":"checks","id":"tones.k2","k":"why","src":"The tone belongs to the word, so it falls even at the end of a question.","tgt":""}
+{"f":"checks","id":"tones.k3","k":"q","src":"买 (mǎi) and 卖 (mài) differ only in tone. What do they mean?","tgt":""}
+{"f":"checks","id":"tones.k3","k":"o[0]","src":"to sell and to buy","tgt":""}
+{"f":"checks","id":"tones.k3","k":"o[1]","src":"to buy and to sell","tgt":""}
+{"f":"checks","id":"tones.k3","k":"o[2]","src":"to buy and a buyer","tgt":""}
+{"f":"checks","id":"tones.k3","k":"o[3]","src":"the same thing","tgt":""}
+{"f":"checks","id":"tones.k3","k":"why","src":"买 with the third tone is to buy; 卖 with the fourth tone is to sell.","tgt":""}
+{"f":"practice","id":"tones.01","k":"q","src":"Which tone mark shows a falling tone?","tgt":""}
+{"f":"practice","id":"tones.01","k":"why","src":"The fourth tone mark (à) points down: the voice falls.","tgt":""}
+{"f":"practice","id":"tones.02","k":"q","src":"Which word is mǎi (to buy)?","tgt":""}
+{"f":"practice","id":"tones.02","k":"why","src":"买 is mǎi; 卖 (mài) is to sell.","tgt":""}
+{"f":"practice","id":"tones.03","k":"q","src":"Which is the pinyin of 糖 (sugar)?","tgt":""}
+{"f":"practice","id":"tones.03","k":"why","src":"糖 rises: táng. tāng, with a level tone, is soup.","tgt":""}
+{"f":"practice","id":"tones.04","k":"q","src":"In 妈妈 (mom), which tone does the second 妈 have?","tgt":""}
+{"f":"practice","id":"tones.04","k":"o[0]","src":"The neutral tone","tgt":""}
+{"f":"practice","id":"tones.04","k":"o[1]","src":"The first tone","tgt":""}
+{"f":"practice","id":"tones.04","k":"o[2]","src":"The third tone","tgt":""}
+{"f":"practice","id":"tones.04","k":"o[3]","src":"The fourth tone","tgt":""}
+{"f":"practice","id":"tones.04","k":"why","src":"The second syllable of 妈妈 is short and light: it has no tone mark.","tgt":""}
+{"f":"practice","id":"tones.05","k":"q","src":"What does 马 (mǎ) mean?","tgt":""}
+{"f":"practice","id":"tones.05","k":"o[0]","src":"horse","tgt":""}
+{"f":"practice","id":"tones.05","k":"o[1]","src":"mom","tgt":""}
+{"f":"practice","id":"tones.05","k":"o[2]","src":"to scold","tgt":""}
+{"f":"practice","id":"tones.05","k":"o[3]","src":"numb","tgt":""}
+{"f":"practice","id":"tones.05","k":"why","src":"马 with the third tone is horse; mā is mom and mà is to scold.","tgt":""}
+{"f":"practice","id":"tones.06","k":"p","src":"买马 (to buy a horse) in pinyin","tgt":""}
+{"f":"practice","id":"tones.06","k":"why","src":"买 (mǎi) has the third tone; mài, with the fourth tone, means to sell.","tgt":""}
+{"f":"practice","id":"tones.07","k":"p","src":"妈妈 (mom) in pinyin, one syllable per tile","tgt":""}
+{"f":"practice","id":"tones.07","k":"why","src":"The first 妈 has the first tone; the second has the neutral tone, with no mark.","tgt":""}
+{"f":"practice","id":"tones.08","k":"p","src":"很快 (very fast) in pinyin","tgt":""}
+{"f":"practice","id":"tones.08","k":"why","src":"A tone pair: the third tone on hěn, then the fourth tone on kuài.","tgt":""}
+{"f":"practice","id":"tones.09","k":"p","src":"horse","tgt":""}
+{"f":"practice","id":"tones.09","k":"why","src":"马 has the third tone: mǎ. mā is mom and mà is to scold.","tgt":""}
+{"f":"practice","id":"tones.10","k":"p","src":"soup","tgt":""}
+{"f":"practice","id":"tones.10","k":"why","src":"汤 has the first tone, high and level: tāng. táng is sugar.","tgt":""}
+{"f":"practice","id":"tones.11","k":"p","src":"to sell","tgt":""}
+{"f":"practice","id":"tones.11","k":"why","src":"卖 has the fourth tone: mài. mǎi would be to buy.","tgt":""}
+{"f":"practice","id":"tones.12","k":"p","src":"Type the pinyin of 卖 (to sell)","tgt":""}
+{"f":"practice","id":"tones.12","k":"hint","src":"fourth tone · use the accent bar","tgt":""}
+{"f":"practice","id":"tones.12","k":"why","src":"卖 has the fourth tone: it falls. mǎi is to buy.","tgt":""}
+{"f":"practice","id":"tones.13","k":"p","src":"Type the pinyin of 糖 (sugar)","tgt":""}
+{"f":"practice","id":"tones.13","k":"hint","src":"second tone · use the accent bar","tgt":""}
+{"f":"practice","id":"tones.13","k":"why","src":"糖 has the second tone: it rises. tāng is soup.","tgt":""}
+{"f":"practice","id":"tones.14","k":"p","src":"Type the pinyin of 妈 (mom)","tgt":""}
+{"f":"practice","id":"tones.14","k":"hint","src":"first tone · use the accent bar","tgt":""}
+{"f":"practice","id":"tones.14","k":"why","src":"妈 has the first tone: high and level. mǎ is horse.","tgt":""}
+{"f":"lessons","id":"tone-change","k":"title","src":"3 · Tone changes: 不, 一, third tone","tgt":""}
+{"f":"lessons","id":"tone-change","k":"blurb","src":"Say 不 and 一 with the right tone, and say two third tones in a row the way Chinese speakers do.","tgt":""}
+{"f":"sentences","id":"zh.s0020","k":"gloss","src":"is not; no","tgt":""}
+{"f":"sentences","id":"zh.s0021","k":"gloss","src":"you're welcome","tgt":""}
+{"f":"sentences","id":"zh.s0022","k":"gloss","src":"not good","tgt":""}
+{"f":"sentences","id":"zh.s0023","k":"gloss","src":"one person","tgt":""}
+{"f":"sentences","id":"zh.s0024","k":"gloss","src":"one day","tgt":""}
+{"f":"sentences","id":"zh.s0025","k":"gloss","src":"first","tgt":""}
+{"f":"sentences","id":"zh.s0026","k":"gloss","src":"hello","tgt":""}
+{"f":"sentences","id":"zh.s0027","k":"gloss","src":"very good","tgt":""}
+{"f":"checks","id":"tone-change.k1","k":"q","src":"How do you say 不 in 不是 (is not)?","tgt":""}
+{"f":"checks","id":"tone-change.k1","k":"o[0]","src":"bù, falling","tgt":""}
+{"f":"checks","id":"tone-change.k1","k":"o[1]","src":"bú, rising","tgt":""}
+{"f":"checks","id":"tone-change.k1","k":"o[2]","src":"bū, high and level","tgt":""}
+{"f":"checks","id":"tone-change.k1","k":"o[3]","src":"with no tone","tgt":""}
+{"f":"checks","id":"tone-change.k1","k":"why","src":"不 before a fourth tone (shì) rises: bú shì.","tgt":""}
+{"f":"checks","id":"tone-change.k2","k":"q","src":"Two third tones come in a row, as in 你好. How are they said?","tgt":"","rw":"English sound comparison (\"as in …\")"}
+{"f":"checks","id":"tone-change.k2","k":"o[0]","src":"Both low and dipping","tgt":""}
+{"f":"checks","id":"tone-change.k2","k":"o[1]","src":"Both falling","tgt":""}
+{"f":"checks","id":"tone-change.k2","k":"o[2]","src":"The first one like a second tone","tgt":""}
+{"f":"checks","id":"tone-change.k2","k":"o[3]","src":"The second one like a second tone","tgt":""}
+{"f":"checks","id":"tone-change.k2","k":"why","src":"The first of two third tones is said like a second tone: 你好 sounds like ní hǎo.","tgt":"","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"checks","id":"tone-change.k3","k":"q","src":"In which of these is 一 said yī, with the first tone?","tgt":""}
+{"f":"checks","id":"tone-change.k3","k":"o[0]","src":"第一 (first)","tgt":""}
+{"f":"checks","id":"tone-change.k3","k":"o[1]","src":"一个人 (one person)","tgt":""}
+{"f":"checks","id":"tone-change.k3","k":"o[2]","src":"一天 (one day)","tgt":""}
+{"f":"checks","id":"tone-change.k3","k":"o[3]","src":"一起 (together)","tgt":""}
+{"f":"checks","id":"tone-change.k3","k":"why","src":"After 第 and in counting, 一 keeps its first tone; before a word it changes.","tgt":""}
+{"f":"practice","id":"tone-change.01","k":"q","src":"Which is the pinyin of 不是 (is not)?","tgt":""}
+{"f":"practice","id":"tone-change.01","k":"why","src":"不 before a fourth tone rises: bú shì.","tgt":""}
+{"f":"practice","id":"tone-change.02","k":"q","src":"How do Chinese speakers say 你好 (hello)?","tgt":""}
+{"f":"practice","id":"tone-change.02","k":"o[0]","src":"ní hǎo, with the first syllable rising","tgt":""}
+{"f":"practice","id":"tone-change.02","k":"o[1]","src":"nǐ hǎo, with two full dips","tgt":""}
+{"f":"practice","id":"tone-change.02","k":"o[2]","src":"nǐ hào, with the second syllable falling","tgt":""}
+{"f":"practice","id":"tone-change.02","k":"o[3]","src":"nì hǎo, with the first syllable falling","tgt":""}
+{"f":"practice","id":"tone-change.02","k":"why","src":"The first of two third tones is said like a second tone; the pinyin still writes nǐ hǎo.","tgt":"","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"practice","id":"tone-change.03","k":"q","src":"Which is the pinyin of 一个人 (one person)?","tgt":""}
+{"f":"practice","id":"tone-change.03","k":"why","src":"个 counts as a fourth tone, so 一 before it rises: yí ge.","tgt":""}
+{"f":"practice","id":"tone-change.04","k":"q","src":"In which phrase is 不 said bù, with its fourth tone?","tgt":""}
+{"f":"practice","id":"tone-change.04","k":"why","src":"Before a third tone (hǎo) 不 keeps its fourth tone: bù hǎo.","tgt":""}
+{"f":"practice","id":"tone-change.05","k":"q","src":"When does 一 keep its first tone, yī?","tgt":""}
+{"f":"practice","id":"tone-change.05","k":"o[0]","src":"When you count: yī, èr, sān","tgt":""}
+{"f":"practice","id":"tone-change.05","k":"o[1]","src":"Before a fourth tone","tgt":""}
+{"f":"practice","id":"tone-change.05","k":"o[2]","src":"Before 个","tgt":""}
+{"f":"practice","id":"tone-change.05","k":"o[3]","src":"Before a first tone","tgt":""}
+{"f":"practice","id":"tone-change.05","k":"why","src":"In counting, at the end of a bigger number (十一) and after 第, 一 stays yī.","tgt":""}
+{"f":"practice","id":"tone-change.06","k":"p","src":"不是 (is not) in pinyin","tgt":""}
+{"f":"practice","id":"tone-change.06","k":"why","src":"Tone change: 不 before a fourth tone is bú.","tgt":""}
+{"f":"practice","id":"tone-change.07","k":"p","src":"一个人 (one person) in pinyin","tgt":""}
+{"f":"practice","id":"tone-change.07","k":"why","src":"一 before 个 takes the second tone: yí ge rén.","tgt":""}
+{"f":"practice","id":"tone-change.08","k":"p","src":"不好 (not good) in pinyin","tgt":""}
+{"f":"practice","id":"tone-change.08","k":"why","src":"Before a third tone, 不 keeps its fourth tone: bù hǎo.","tgt":""}
+{"f":"practice","id":"tone-change.09","k":"p","src":"you're welcome","tgt":""}
+{"f":"practice","id":"tone-change.09","k":"why","src":"客 has the fourth tone, so 不 rises: bú kèqi.","tgt":""}
+{"f":"practice","id":"tone-change.10","k":"p","src":"together","tgt":""}
+{"f":"practice","id":"tone-change.10","k":"why","src":"Before a third tone (qǐ), 一 is said yì: yìqǐ.","tgt":""}
+{"f":"practice","id":"tone-change.11","k":"p","src":"first","tgt":""}
+{"f":"practice","id":"tone-change.11","k":"why","src":"After 第, 一 keeps its first tone: dìyī.","tgt":""}
+{"f":"practice","id":"tone-change.12","k":"p","src":"Type the pinyin of 不客气 (you're welcome)","tgt":""}
+{"f":"practice","id":"tone-change.12","k":"hint","src":"two words · 不 changes before a fourth tone","tgt":""}
+{"f":"practice","id":"tone-change.12","k":"why","src":"Tone change: 不 before a fourth tone is bú, so bú kèqi.","tgt":""}
+{"f":"practice","id":"tone-change.13","k":"p","src":"one person (in characters)","tgt":""}
+{"f":"practice","id":"tone-change.13","k":"hint","src":"个 goes between the number and the noun","tgt":""}
+{"f":"practice","id":"tone-change.13","k":"why","src":"A number needs a measure word before the noun: 一个人.","tgt":""}
+{"f":"practice","id":"tone-change.14","k":"p","src":"Type the pinyin of 你好 (hello), the way it is written","tgt":""}
+{"f":"practice","id":"tone-change.14","k":"hint","src":"two words · pinyin writes the dictionary tones","tgt":""}
+{"f":"practice","id":"tone-change.14","k":"why","src":"Pinyin writes the third tone mark on both: nǐ hǎo, though you say ní hǎo.","tgt":""}
+{"f":"lessons","id":"characters","k":"title","src":"4 · How characters work: strokes and radicals","tgt":""}
+{"f":"lessons","id":"characters","k":"blurb","src":"Recognize about 25 basic characters and see how pictures, compounds and radicals build the rest.","tgt":""}
+{"f":"sentences","id":"zh.s0028","k":"gloss","src":"person","tgt":""}
+{"f":"sentences","id":"zh.s0029","k":"gloss","src":"tree; wood","tgt":""}
+{"f":"sentences","id":"zh.s0030","k":"gloss","src":"mountain","tgt":""}
+{"f":"sentences","id":"zh.s0031","k":"gloss","src":"woods","tgt":""}
+{"f":"sentences","id":"zh.s0032","k":"gloss","src":"bright","tgt":""}
+{"f":"sentences","id":"zh.s0033","k":"gloss","src":"good","tgt":""}
+{"f":"checks","id":"characters.k1","k":"q","src":"What is a radical?","tgt":""}
+{"f":"checks","id":"characters.k1","k":"o[0]","src":"A part of a character that hints at its meaning","tgt":""}
+{"f":"checks","id":"characters.k1","k":"o[1]","src":"A letter of the Chinese alphabet","tgt":""}
+{"f":"checks","id":"characters.k1","k":"o[2]","src":"The pinyin of a character","tgt":""}
+{"f":"checks","id":"characters.k1","k":"o[3]","src":"A tone mark","tgt":""}
+{"f":"checks","id":"characters.k1","k":"why","src":"A radical, such as 氵 for water, hints at the meaning; it does not spell the sound.","tgt":""}
+{"f":"checks","id":"characters.k2","k":"q","src":"What does 休 (to rest) show?","tgt":""}
+{"f":"checks","id":"characters.k2","k":"o[0]","src":"Two trees","tgt":""}
+{"f":"checks","id":"characters.k2","k":"o[1]","src":"A person leaning on a tree","tgt":""}
+{"f":"checks","id":"characters.k2","k":"o[2]","src":"The sun and the moon","tgt":""}
+{"f":"checks","id":"characters.k2","k":"o[3]","src":"An open mouth","tgt":""}
+{"f":"checks","id":"characters.k2","k":"why","src":"休 is 亻 (person) next to 木 (tree): someone resting against a tree.","tgt":""}
+{"f":"checks","id":"characters.k3","k":"q","src":"Which characters does this course teach?","tgt":""}
+{"f":"checks","id":"characters.k3","k":"o[0]","src":"Traditional characters, as in Taiwan","tgt":"","rw":"English sound comparison (\"as in …\")"}
+{"f":"checks","id":"characters.k3","k":"o[1]","src":"A mix of both","tgt":""}
+{"f":"checks","id":"characters.k3","k":"o[2]","src":"Simplified characters, as in mainland China","tgt":"","rw":"English sound comparison (\"as in …\")"}
+{"f":"checks","id":"characters.k3","k":"o[3]","src":"Pinyin only, no characters","tgt":""}
+{"f":"checks","id":"characters.k3","k":"why","src":"The course teaches simplified characters, used in mainland China, with pinyin under them.","tgt":""}
+{"f":"practice","id":"characters.01","k":"q","src":"Which character began as a picture of a tree?","tgt":""}
+{"f":"practice","id":"characters.01","k":"why","src":"木 is a tree with its roots; two of them make 林, woods.","tgt":""}
+{"f":"practice","id":"characters.02","k":"q","src":"好 (good) is made of 女 and 子. What do they mean?","tgt":""}
+{"f":"practice","id":"characters.02","k":"o[0]","src":"woman and child","tgt":""}
+{"f":"practice","id":"characters.02","k":"o[1]","src":"sun and moon","tgt":""}
+{"f":"practice","id":"characters.02","k":"o[2]","src":"person and tree","tgt":""}
+{"f":"practice","id":"characters.02","k":"o[3]","src":"mouth and water","tgt":""}
+{"f":"practice","id":"characters.02","k":"why","src":"女 is woman and 子 is child: together, good.","tgt":""}
+{"f":"practice","id":"characters.03","k":"q","src":"Which part of 汤 (soup) hints at its meaning?","tgt":""}
+{"f":"practice","id":"characters.03","k":"o[0]","src":"氵 on the left, which means water","tgt":""}
+{"f":"practice","id":"characters.03","k":"o[1]","src":"The right side, which spells the sound","tgt":""}
+{"f":"practice","id":"characters.03","k":"o[2]","src":"Its top stroke","tgt":""}
+{"f":"practice","id":"characters.03","k":"o[3]","src":"No part: characters give no hints","tgt":""}
+{"f":"practice","id":"characters.03","k":"why","src":"Three dots on the left (氵) mark words to do with water.","tgt":""}
+{"f":"practice","id":"characters.04","k":"q","src":"Which is the pinyin of 好 (good)?","tgt":""}
+{"f":"practice","id":"characters.04","k":"why","src":"好 (good) has the third tone: hǎo.","tgt":""}
+{"f":"practice","id":"characters.05","k":"q","src":"明 (bright) is 日 + 月. What are they?","tgt":""}
+{"f":"practice","id":"characters.05","k":"o[0]","src":"the sun and the moon","tgt":""}
+{"f":"practice","id":"characters.05","k":"o[1]","src":"two trees","tgt":""}
+{"f":"practice","id":"characters.05","k":"o[2]","src":"a person and a tree","tgt":""}
+{"f":"practice","id":"characters.05","k":"o[3]","src":"a mouth and a door","tgt":""}
+{"f":"practice","id":"characters.05","k":"why","src":"日 is the sun and 月 is the moon: together, bright.","tgt":""}
+{"f":"practice","id":"characters.06","k":"p","src":"a good person (in characters)","tgt":""}
+{"f":"practice","id":"characters.06","k":"why","src":"The describer goes before the noun: 好人, good person.","tgt":""}
+{"f":"practice","id":"characters.07","k":"p","src":"好人 (a good person) in pinyin","tgt":""}
+{"f":"practice","id":"characters.07","k":"why","src":"好 has the third tone mark: hǎo rén.","tgt":""}
+{"f":"practice","id":"characters.08","k":"p","src":"a big mountain (in characters; 大 = big)","tgt":""}
+{"f":"practice","id":"characters.08","k":"why","src":"The describer goes before the noun: 大山, big mountain.","tgt":""}
+{"f":"practice","id":"characters.09","k":"p","src":"sun + moon = bright","tgt":""}
+{"f":"practice","id":"characters.09","k":"why","src":"The sun and the moon together make 明, bright.","tgt":""}
+{"f":"practice","id":"characters.10","k":"p","src":"tree + tree = woods","tgt":""}
+{"f":"practice","id":"characters.10","k":"why","src":"Two trees make 林 (woods); three trees make 森 (forest).","tgt":""}
+{"f":"practice","id":"characters.11","k":"p","src":"woman + child = good","tgt":""}
+{"f":"practice","id":"characters.11","k":"why","src":"女 (woman) and 子 (child) make 好, good.","tgt":""}
+{"f":"practice","id":"characters.12","k":"p","src":"Type the pinyin of 好 (good)","tgt":""}
+{"f":"practice","id":"characters.12","k":"hint","src":"third tone · use the accent bar","tgt":""}
+{"f":"practice","id":"characters.12","k":"why","src":"好 has the third tone mark: hǎo.","tgt":""}
+{"f":"practice","id":"characters.13","k":"p","src":"a good person (in characters)","tgt":""}
+{"f":"practice","id":"characters.13","k":"hint","src":"the describer comes first","tgt":""}
+{"f":"practice","id":"characters.13","k":"why","src":"The describer goes before the noun: 好人.","tgt":""}
+{"f":"practice","id":"characters.14","k":"p","src":"Type the pinyin of 人 (person)","tgt":""}
+{"f":"practice","id":"characters.14","k":"hint","src":"second tone · use the accent bar","tgt":""}
+{"f":"practice","id":"characters.14","k":"why","src":"人 has the second tone: it rises, rén.","tgt":""}
+{"f":"lessons","id":"greetings","k":"title","src":"5 · Hello, thank you, sorry: Chinese courtesy","tgt":""}
+{"f":"lessons","id":"greetings","k":"blurb","src":"Say hello, thank you, sorry and goodbye, give your name, and know when to use the polite 您.","tgt":""}
+{"f":"sentences","id":"zh.s0034","k":"gloss","src":"Hello!","tgt":""}
+{"f":"sentences","id":"zh.s0035","k":"gloss","src":"Hello! (polite)","tgt":""}
+{"f":"sentences","id":"zh.s0036","k":"gloss","src":"Hello, Teacher Wang!","tgt":""}
+{"f":"sentences","id":"zh.s0037","k":"gloss","src":"Thank you!","tgt":""}
+{"f":"sentences","id":"zh.s0038","k":"gloss","src":"You're welcome.","tgt":""}
+{"f":"sentences","id":"zh.s0039","k":"gloss","src":"I'm sorry.","tgt":""}
+{"f":"sentences","id":"zh.s0040","k":"gloss","src":"That's OK.","tgt":""}
+{"f":"sentences","id":"zh.s0041","k":"gloss","src":"Excuse me, what's your last name?","tgt":""}
+{"f":"sentences","id":"zh.s0042","k":"gloss","src":"My last name is Wang.","tgt":""}
+{"f":"sentences","id":"zh.s0043","k":"gloss","src":"My name is Wang Ming.","tgt":""}
+{"f":"sentences","id":"zh.s0044","k":"gloss","src":"Excuse me! (calling a server)","tgt":""}
+{"f":"sentences","id":"zh.s0045","k":"gloss","src":"Goodbye!","tgt":""}
+{"f":"checks","id":"greetings.k1","k":"q","src":"When should you use 您 instead of 你?","tgt":""}
+{"f":"checks","id":"greetings.k1","k":"o[0]","src":"With your best friend","tgt":""}
+{"f":"checks","id":"greetings.k1","k":"o[1]","src":"With an older person, a teacher or a customer","tgt":""}
+{"f":"checks","id":"greetings.k1","k":"o[2]","src":"With a small child","tgt":""}
+{"f":"checks","id":"greetings.k1","k":"o[3]","src":"Never; it is old-fashioned","tgt":""}
+{"f":"checks","id":"greetings.k1","k":"why","src":"您 shows respect: for older people, teachers, and from staff to customers.","tgt":""}
+{"f":"checks","id":"greetings.k2","k":"q","src":"What does 你好吗？ usually mean?","tgt":""}
+{"f":"checks","id":"greetings.k2","k":"o[0]","src":"Hi! (a casual greeting)","tgt":""}
+{"f":"checks","id":"greetings.k2","k":"o[1]","src":"Goodbye","tgt":""}
+{"f":"checks","id":"greetings.k2","k":"o[2]","src":"A real question: are you doing well?","tgt":""}
+{"f":"checks","id":"greetings.k2","k":"o[3]","src":"Thank you","tgt":""}
+{"f":"checks","id":"greetings.k2","k":"why","src":"你好吗 asks how someone really is; for a casual hi, say 你好.","tgt":""}
+{"f":"checks","id":"greetings.k3","k":"q","src":"Which word do you use to call a server in a restaurant?","tgt":""}
+{"f":"checks","id":"greetings.k3","k":"why","src":"Call a server 服务员; 小姐 now has a bad meaning in mainland China.","tgt":""}
+{"f":"practice","id":"greetings.01","k":"q","src":"Which is the pinyin of 您 (you, polite)?","tgt":""}
+{"f":"practice","id":"greetings.01","k":"why","src":"您 has the second tone: nín. 你 has the third tone: nǐ.","tgt":""}
+{"f":"practice","id":"greetings.02","k":"q","src":"Which do you say to an older neighbor?","tgt":""}
+{"f":"practice","id":"greetings.02","k":"why","src":"您好 is the polite hello for older people.","tgt":""}
+{"f":"practice","id":"greetings.03","k":"q","src":"Someone says 对不起 to you. What do you answer?","tgt":""}
+{"f":"practice","id":"greetings.03","k":"why","src":"没关系 (that's OK) answers an apology; 不客气 answers thanks.","tgt":""}
+{"f":"practice","id":"greetings.04","k":"q","src":"Your friend says 谢谢. What do you answer?","tgt":""}
+{"f":"practice","id":"greetings.04","k":"why","src":"不客气 (you're welcome) answers thanks.","tgt":""}
+{"f":"practice","id":"greetings.05","k":"q","src":"How do you call a server in a restaurant?","tgt":""}
+{"f":"practice","id":"greetings.05","k":"why","src":"服务员 is the normal word; 小姐 suggests a sex worker in the mainland.","tgt":""}
+{"f":"practice","id":"greetings.06","k":"p","src":"您好 (hello, polite) in pinyin","tgt":""}
+{"f":"practice","id":"greetings.06","k":"why","src":"您 has the second tone: it rises, nín hǎo.","tgt":""}
+{"f":"practice","id":"greetings.07","k":"p","src":"a Chinese teacher (a teacher of Chinese)","tgt":""}
+{"f":"practice","id":"greetings.07","k":"why","src":"The describer goes before the noun: 中文老师.","tgt":""}
+{"f":"practice","id":"greetings.08","k":"p","src":"My name is Wang Ming.","tgt":""}
+{"f":"practice","id":"greetings.08","k":"why","src":"叫 means to be called: 我叫 + your name.","tgt":""}
+{"f":"practice","id":"greetings.09","k":"p","src":"My last name is Wang.","tgt":""}
+{"f":"practice","id":"greetings.09","k":"why","src":"Answer with 姓; 贵 is only for the other person's name.","tgt":""}
+{"f":"practice","id":"greetings.10","k":"p","src":"Excuse me, what's your last name?","tgt":""}
+{"f":"practice","id":"greetings.10","k":"why","src":"请问 (may I ask) opens a polite question.","tgt":""}
+{"f":"practice","id":"greetings.11","k":"p","src":"That's OK.","tgt":""}
+{"f":"practice","id":"greetings.11","k":"why","src":"没关系 (that's OK) answers sorry; 不客气 answers thank you.","tgt":""}
+{"f":"practice","id":"greetings.12","k":"p","src":"Type the pinyin of 再见 (goodbye)","tgt":""}
+{"f":"practice","id":"greetings.12","k":"hint","src":"fourth tone + fourth tone · one word","tgt":""}
+{"f":"practice","id":"greetings.12","k":"why","src":"再见 is two fourth tones: zàijiàn.","tgt":""}
+{"f":"practice","id":"greetings.13","k":"p","src":"an American teacher (美国 = America)","tgt":""}
+{"f":"practice","id":"greetings.13","k":"hint","src":"the describer comes first","tgt":""}
+{"f":"practice","id":"greetings.13","k":"why","src":"The describer goes before the noun: 美国老师.","tgt":""}
+{"f":"practice","id":"greetings.14","k":"p","src":"My last name is Li. (answering 您贵姓？)","tgt":""}
+{"f":"practice","id":"greetings.14","k":"why","src":"Answer with 我姓 + surname; 贵 is only for the person you ask.","tgt":""}
+{"f":"lessons","id":"pronouns","k":"title","src":"6 · Pronouns and 们","tgt":""}
+{"f":"lessons","id":"pronouns","k":"blurb","src":"Say I, you, he, she, we and they, make them plural with 们, and say my friend or their teacher.","tgt":""}
+{"f":"sentences","id":"zh.s0046","k":"gloss","src":"His name is Wang Ming.","tgt":""}
+{"f":"sentences","id":"zh.s0047","k":"gloss","src":"Her last name is Li.","tgt":""}
+{"f":"sentences","id":"zh.s0048","k":"gloss","src":"Hello, everyone! (to a group)","tgt":""}
+{"f":"sentences","id":"zh.s0049","k":"gloss","src":"Hello, everybody!","tgt":""}
+{"f":"sentences","id":"zh.s0050","k":"gloss","src":"five students","tgt":""}
+{"f":"sentences","id":"zh.s0051","k":"gloss","src":"my friend","tgt":""}
+{"f":"sentences","id":"zh.s0052","k":"gloss","src":"My friend's name is Anna.","tgt":""}
+{"f":"sentences","id":"zh.s0053","k":"gloss","src":"Our teacher's last name is Wang.","tgt":""}
+{"f":"checks","id":"pronouns.k1","k":"q","src":"How do you say we?","tgt":""}
+{"f":"checks","id":"pronouns.k1","k":"o[0]","src":"我s","tgt":""}
+{"f":"checks","id":"pronouns.k1","k":"why","src":"们 after a pronoun makes it plural: 我们.","tgt":""}
+{"f":"checks","id":"pronouns.k2","k":"q","src":"How do 他 (he) and 她 (she) sound?","tgt":""}
+{"f":"checks","id":"pronouns.k2","k":"o[0]","src":"他 is tā, 她 is tà","tgt":""}
+{"f":"checks","id":"pronouns.k2","k":"o[1]","src":"Exactly the same: tā","tgt":""}
+{"f":"checks","id":"pronouns.k2","k":"o[2]","src":"她 is said nǚ","tgt":""}
+{"f":"checks","id":"pronouns.k2","k":"o[3]","src":"他 rises and 她 falls","tgt":""}
+{"f":"checks","id":"pronouns.k2","k":"why","src":"他, 她 and 它 are all tā; only the character shows the difference.","tgt":""}
+{"f":"checks","id":"pronouns.k3","k":"q","src":"Which is right for five students?","tgt":""}
+{"f":"checks","id":"pronouns.k3","k":"why","src":"A number takes a measure word and no 们: 五个学生.","tgt":""}
+{"f":"practice","id":"pronouns.01","k":"q","src":"Which is the pinyin of 他 (he)?","tgt":""}
+{"f":"practice","id":"pronouns.01","k":"why","src":"他 has the first tone: high and level, tā.","tgt":""}
+{"f":"practice","id":"pronouns.02","k":"q","src":"How do you say we?","tgt":""}
+{"f":"practice","id":"pronouns.02","k":"why","src":"们 makes 我 plural: 我们.","tgt":""}
+{"f":"practice","id":"pronouns.03","k":"q","src":"You hear tā in a sentence. Who is it?","tgt":""}
+{"f":"practice","id":"pronouns.03","k":"o[0]","src":"he, she or it: they sound the same","tgt":""}
+{"f":"practice","id":"pronouns.03","k":"o[1]","src":"only he","tgt":""}
+{"f":"practice","id":"pronouns.03","k":"o[2]","src":"only she","tgt":""}
+{"f":"practice","id":"pronouns.03","k":"o[3]","src":"only it","tgt":""}
+{"f":"practice","id":"pronouns.03","k":"why","src":"他, 她 and 它 are all tā; context tells you which.","tgt":""}
+{"f":"practice","id":"pronouns.04","k":"q","src":"Which is right for three students?","tgt":""}
+{"f":"practice","id":"pronouns.04","k":"why","src":"After a number, use 个 and no 们.","tgt":""}
+{"f":"practice","id":"pronouns.05","k":"q","src":"Which word means they, for a group of women?","tgt":""}
+{"f":"practice","id":"pronouns.05","k":"why","src":"她 + 们 is a group of women; 他们 covers men or mixed groups.","tgt":""}
+{"f":"practice","id":"pronouns.06","k":"p","src":"their teacher","tgt":""}
+{"f":"practice","id":"pronouns.06","k":"why","src":"The owner goes before the noun: 他们的老师.","tgt":""}
+{"f":"practice","id":"pronouns.07","k":"p","src":"five students (五 = five)","tgt":""}
+{"f":"practice","id":"pronouns.07","k":"why","src":"A number needs a measure word before the noun, and no 们: 五个学生.","tgt":""}
+{"f":"practice","id":"pronouns.08","k":"p","src":"His name is Wang Ming.","tgt":""}
+{"f":"practice","id":"pronouns.08","k":"why","src":"叫 gives the full name; 姓 gives only the last name.","tgt":""}
+{"f":"practice","id":"pronouns.09","k":"p","src":"Hello, everyone! (to a group of friends)","tgt":""}
+{"f":"practice","id":"pronouns.09","k":"why","src":"你 + 们 is you all: 你们好.","tgt":""}
+{"f":"practice","id":"pronouns.10","k":"p","src":"five students","tgt":""}
+{"f":"practice","id":"pronouns.10","k":"why","src":"A number takes 个 before the noun: 五个学生.","tgt":""}
+{"f":"practice","id":"pronouns.11","k":"p","src":"Our teacher's last name is Wang.","tgt":""}
+{"f":"practice","id":"pronouns.11","k":"why","src":"我们 is we or us; with 的, our.","tgt":""}
+{"f":"practice","id":"pronouns.12","k":"p","src":"five students (五 = five)","tgt":""}
+{"f":"practice","id":"pronouns.12","k":"hint","src":"no 们 after a number","tgt":""}
+{"f":"practice","id":"pronouns.12","k":"why","src":"A number needs a measure word before the noun, and no 们: 五个学生.","tgt":""}
+{"f":"practice","id":"pronouns.13","k":"p","src":"my friend","tgt":""}
+{"f":"practice","id":"pronouns.13","k":"hint","src":"the owner comes first","tgt":""}
+{"f":"practice","id":"pronouns.13","k":"why","src":"The owner goes before the noun: 我的朋友, or 我朋友 for a close friend.","tgt":""}
+{"f":"practice","id":"pronouns.14","k":"p","src":"Hello, everyone! (to a group)","tgt":""}
+{"f":"practice","id":"pronouns.14","k":"why","src":"们 makes you plural: 你们好. 大家好 works too.","tgt":""}
+{"f":"lessons","id":"shi","k":"title","src":"7 · 是: A is B","tgt":""}
+{"f":"lessons","id":"shi","k":"blurb","src":"Say who you are and where you are from with 是, and say what you are not with 不是.","tgt":""}
+{"f":"sentences","id":"zh.s0054","k":"gloss","src":"I'm American.","tgt":""}
+{"f":"sentences","id":"zh.s0055","k":"gloss","src":"She's a teacher.","tgt":""}
+{"f":"sentences","id":"zh.s0056","k":"gloss","src":"I'm a student.","tgt":""}
+{"f":"sentences","id":"zh.s0057","k":"gloss","src":"He isn't Chinese.","tgt":""}
+{"f":"sentences","id":"zh.s0058","k":"gloss","src":"Wang Ming is Chinese.","tgt":""}
+{"f":"sentences","id":"zh.s0059","k":"gloss","src":"He's an American student.","tgt":""}
+{"f":"sentences","id":"zh.s0060","k":"gloss","src":"Teacher Li is a Chinese teacher.","tgt":""}
+{"f":"sentences","id":"zh.s0061","k":"gloss","src":"I'm a student too.","tgt":""}
+{"f":"checks","id":"shi.k1","k":"q","src":"Which sentence means I'm American?","tgt":""}
+{"f":"checks","id":"shi.k1","k":"why","src":"Noun 是 noun: 我是美国人. 美国 alone is the country.","tgt":""}
+{"f":"checks","id":"shi.k2","k":"q","src":"How is 不是 said?","tgt":""}
+{"f":"checks","id":"shi.k2","k":"why","src":"不 before a fourth tone rises: bú shì.","tgt":""}
+{"f":"checks","id":"shi.k3","k":"q","src":"Where does 也 (also) go?","tgt":""}
+{"f":"checks","id":"shi.k3","k":"o[0]","src":"At the end, like too","tgt":""}
+{"f":"checks","id":"shi.k3","k":"o[1]","src":"Before the verb","tgt":""}
+{"f":"checks","id":"shi.k3","k":"o[2]","src":"Before the subject","tgt":""}
+{"f":"checks","id":"shi.k3","k":"o[3]","src":"After the verb","tgt":""}
+{"f":"checks","id":"shi.k3","k":"why","src":"也 goes right before the verb: 我也是学生.","tgt":""}
+{"f":"practice","id":"shi.01","k":"q","src":"Which is the pinyin of 是 (to be)?","tgt":""}
+{"f":"practice","id":"shi.01","k":"why","src":"是 has the fourth tone: it falls, shì.","tgt":""}
+{"f":"practice","id":"shi.02","k":"q","src":"I'm American.","tgt":""}
+{"f":"practice","id":"shi.02","k":"why","src":"Noun 是 noun, and 美国人 (American person), not 美国 (America).","tgt":""}
+{"f":"practice","id":"shi.03","k":"q","src":"He isn't a teacher.","tgt":""}
+{"f":"practice","id":"shi.03","k":"why","src":"不 goes right before 是: 不是.","tgt":""}
+{"f":"practice","id":"shi.04","k":"q","src":"Which word means a Chinese person?","tgt":""}
+{"f":"practice","id":"shi.04","k":"why","src":"Country + 人: 中国人. 中文 is the language.","tgt":""}
+{"f":"practice","id":"shi.05","k":"q","src":"I'm a student too.","tgt":""}
+{"f":"practice","id":"shi.05","k":"why","src":"也 goes right before 是, not at the end like too.","tgt":""}
+{"f":"practice","id":"shi.06","k":"p","src":"I'm a student too.","tgt":""}
+{"f":"practice","id":"shi.06","k":"why","src":"也 goes before the verb, not at the end like English too.","tgt":"","rw":"mentions English"}
+{"f":"practice","id":"shi.07","k":"p","src":"He's an American student. (start with he)","tgt":""}
+{"f":"practice","id":"shi.07","k":"why","src":"The describer goes before the noun: 美国学生.","tgt":""}
+{"f":"practice","id":"shi.08","k":"p","src":"She isn't Chinese.","tgt":""}
+{"f":"practice","id":"shi.08","k":"why","src":"是 is negated with 不, never with 没.","tgt":""}
+{"f":"practice","id":"shi.09","k":"p","src":"I'm American.","tgt":""}
+{"f":"practice","id":"shi.09","k":"why","src":"是 joins two nouns: I = American.","tgt":""}
+{"f":"practice","id":"shi.10","k":"p","src":"He isn't a teacher.","tgt":""}
+{"f":"practice","id":"shi.10","k":"why","src":"Is not is 不是; 没 never goes with 是.","tgt":""}
+{"f":"practice","id":"shi.11","k":"p","src":"Wang Ming is Chinese.","tgt":""}
+{"f":"practice","id":"shi.11","k":"why","src":"Country + 人 is a person from there; 中文 is the language.","tgt":""}
+{"f":"practice","id":"shi.12","k":"p","src":"I'm a student too.","tgt":""}
+{"f":"practice","id":"shi.12","k":"hint","src":"also goes before 是","tgt":""}
+{"f":"practice","id":"shi.12","k":"why","src":"也 goes before the verb: 我也是学生.","tgt":""}
+{"f":"practice","id":"shi.13","k":"p","src":"She's an English teacher. (a teacher of English)","tgt":"","rw":"mentions English"}
+{"f":"practice","id":"shi.13","k":"hint","src":"英语 (English) · 老师","tgt":"","rw":"mentions English"}
+{"f":"practice","id":"shi.13","k":"why","src":"The describer goes before the noun: 英语老师.","tgt":""}
+{"f":"practice","id":"shi.14","k":"p","src":"I'm not American.","tgt":""}
+{"f":"practice","id":"shi.14","k":"why","src":"Use 不 with 是; 没 never goes with 是.","tgt":""}
+{"f":"lessons","id":"adj","k":"title","src":"8 · Adjectives with 很 (no 是)","tgt":""}
+{"f":"lessons","id":"adj","k":"blurb","src":"Describe people and things with 很, 不 and 太…了, without the 是 that English makes you want.","tgt":"","rw":"mentions English"}
+{"f":"sentences","id":"zh.s0062","k":"gloss","src":"She's tall.","tgt":""}
+{"f":"sentences","id":"zh.s0063","k":"gloss","src":"I'm busy.","tgt":""}
+{"f":"sentences","id":"zh.s0064","k":"gloss","src":"I'm tired.","tgt":""}
+{"f":"sentences","id":"zh.s0065","k":"gloss","src":"I'm fine.","tgt":""}
+{"f":"sentences","id":"zh.s0066","k":"gloss","src":"She's tall; I'm not.","tgt":""}
+{"f":"sentences","id":"zh.s0067","k":"gloss","src":"I'm not busy.","tgt":""}
+{"f":"sentences","id":"zh.s0068","k":"gloss","src":"The coffee isn't expensive.","tgt":""}
+{"f":"sentences","id":"zh.s0069","k":"gloss","src":"That's too expensive!","tgt":""}
+{"f":"sentences","id":"zh.s0070","k":"gloss","src":"Great!","tgt":""}
+{"f":"sentences","id":"zh.s0071","k":"gloss","src":"He's a good friend.","tgt":""}
+{"f":"sentences","id":"zh.s0072","k":"gloss","src":"a very good friend","tgt":""}
+{"f":"checks","id":"adj.k1","k":"q","src":"Which sentence means He's tall?","tgt":""}
+{"f":"checks","id":"adj.k1","k":"why","src":"Adjectives work like verbs: no 是, and 很 goes before the adjective.","tgt":""}
+{"f":"checks","id":"adj.k2","k":"q","src":"What does 很 add in 我很好 (I'm fine)?","tgt":""}
+{"f":"checks","id":"adj.k2","k":"o[0]","src":"Usually little: it is glue before the adjective","tgt":""}
+{"f":"checks","id":"adj.k2","k":"o[1]","src":"Always a strong very","tgt":""}
+{"f":"checks","id":"adj.k2","k":"o[2]","src":"It turns it into a question","tgt":""}
+{"f":"checks","id":"adj.k2","k":"o[3]","src":"It shows the past","tgt":""}
+{"f":"checks","id":"adj.k2","k":"why","src":"In a plain statement 很 mostly makes the sentence sound complete.","tgt":""}
+{"f":"checks","id":"adj.k3","k":"q","src":"How do you say not busy?","tgt":""}
+{"f":"checks","id":"adj.k3","k":"why","src":"不 goes right before the adjective, with no 是: 不忙.","tgt":""}
+{"f":"practice","id":"adj.01","k":"q","src":"Which is the pinyin of 很 (very)?","tgt":""}
+{"f":"practice","id":"adj.01","k":"why","src":"很 has the third tone: low, hěn.","tgt":""}
+{"f":"practice","id":"adj.02","k":"q","src":"She's tall.","tgt":""}
+{"f":"practice","id":"adj.02","k":"why","src":"No 是 before an adjective; use 很.","tgt":""}
+{"f":"practice","id":"adj.03","k":"q","src":"I'm not busy.","tgt":""}
+{"f":"practice","id":"adj.03","k":"why","src":"不 goes right before the adjective, with no 是.","tgt":""}
+{"f":"practice","id":"adj.04","k":"q","src":"That's too expensive!","tgt":""}
+{"f":"practice","id":"adj.04","k":"why","src":"Too is 太 + adjective + 了.","tgt":""}
+{"f":"practice","id":"adj.05","k":"q","src":"a good friend","tgt":""}
+{"f":"practice","id":"adj.05","k":"why","src":"The adjective goes before the noun; with 很 you would need 的.","tgt":""}
+{"f":"practice","id":"adj.06","k":"p","src":"He's tall.","tgt":""}
+{"f":"practice","id":"adj.06","k":"why","src":"很 goes before the verb, and an adjective works like a verb: 他很高, no 是.","tgt":""}
+{"f":"practice","id":"adj.07","k":"p","src":"a good friend","tgt":""}
+{"f":"practice","id":"adj.07","k":"why","src":"The describer goes before the noun: 好朋友.","tgt":""}
+{"f":"practice","id":"adj.08","k":"p","src":"That's too expensive!","tgt":""}
+{"f":"practice","id":"adj.08","k":"why","src":"Too is 太 + adjective + 了, with no 是.","tgt":""}
+{"f":"practice","id":"adj.09","k":"p","src":"I'm tired.","tgt":""}
+{"f":"practice","id":"adj.09","k":"why","src":"Adjectives take 很, not 是: 我很累.","tgt":""}
+{"f":"practice","id":"adj.10","k":"p","src":"The coffee isn't expensive.","tgt":""}
+{"f":"practice","id":"adj.10","k":"why","src":"Put 不 right before the adjective: 不贵.","tgt":""}
+{"f":"practice","id":"adj.11","k":"p","src":"That's too expensive!","tgt":""}
+{"f":"practice","id":"adj.11","k":"why","src":"太 … 了 means too: 太贵了.","tgt":""}
+{"f":"practice","id":"adj.12","k":"p","src":"I'm very busy.","tgt":""}
+{"f":"practice","id":"adj.12","k":"hint","src":"no 是","tgt":""}
+{"f":"practice","id":"adj.12","k":"why","src":"很 goes before the verb, and 忙 works like a verb: 我很忙, no 是.","tgt":""}
+{"f":"practice","id":"adj.13","k":"p","src":"a good friend","tgt":""}
+{"f":"practice","id":"adj.13","k":"hint","src":"the describer comes first","tgt":""}
+{"f":"practice","id":"adj.13","k":"why","src":"The describer goes before the noun: 好朋友.","tgt":""}
+{"f":"practice","id":"adj.14","k":"p","src":"She isn't tall. (use 不 + adjective)","tgt":""}
+{"f":"practice","id":"adj.14","k":"why","src":"不 goes right before the adjective, with no 是.","tgt":""}
+{"f":"lessons","id":"ma","k":"title","src":"9 · Questions with 吗 and 呢","tgt":""}
+{"f":"lessons","id":"ma","k":"blurb","src":"Ask yes/no questions with 吗, answer them the Chinese way, and ask back with 你呢.","tgt":""}
+{"f":"sentences","id":"zh.s0073","k":"gloss","src":"Are you a teacher?","tgt":""}
+{"f":"sentences","id":"zh.s0074","k":"gloss","src":"Are you busy?","tgt":""}
+{"f":"sentences","id":"zh.s0075","k":"gloss","src":"Are you a student too?","tgt":""}
+{"f":"sentences","id":"zh.s0076","k":"gloss","src":"Yes, I'm a teacher.","tgt":""}
+{"f":"sentences","id":"zh.s0077","k":"gloss","src":"Are you Chinese?","tgt":""}
+{"f":"sentences","id":"zh.s0078","k":"gloss","src":"No, I'm American.","tgt":""}
+{"f":"sentences","id":"zh.s0079","k":"gloss","src":"No, I'm not busy.","tgt":""}
+{"f":"sentences","id":"zh.s0080","k":"gloss","src":"I'm fine. And you?","tgt":""}
+{"f":"checks","id":"ma.k1","k":"q","src":"How do you turn 你是老师。 into a question?","tgt":""}
+{"f":"checks","id":"ma.k1","k":"o[0]","src":"Raise your voice at the end","tgt":""}
+{"f":"checks","id":"ma.k1","k":"o[1]","src":"Add 吗 at the end","tgt":""}
+{"f":"checks","id":"ma.k1","k":"o[2]","src":"Put 是 first","tgt":""}
+{"f":"checks","id":"ma.k1","k":"o[3]","src":"Add 呢 at the start","tgt":""}
+{"f":"checks","id":"ma.k1","k":"why","src":"Keep the statement and add 吗: 你是老师吗？","tgt":""}
+{"f":"checks","id":"ma.k2","k":"q","src":"你是学生吗？ How do you say yes?","tgt":""}
+{"f":"checks","id":"ma.k2","k":"o[0]","src":"是。 or 是，我是学生。","tgt":""}
+{"f":"checks","id":"ma.k2","k":"why","src":"Answer with the verb from the question: 是.","tgt":""}
+{"f":"checks","id":"ma.k3","k":"q","src":"What does 你呢？ do?","tgt":""}
+{"f":"checks","id":"ma.k3","k":"o[0]","src":"It says goodbye","tgt":""}
+{"f":"checks","id":"ma.k3","k":"o[1]","src":"It asks the other person's name","tgt":""}
+{"f":"checks","id":"ma.k3","k":"o[2]","src":"It asks the same question back","tgt":""}
+{"f":"checks","id":"ma.k3","k":"o[3]","src":"It says no","tgt":""}
+{"f":"checks","id":"ma.k3","k":"why","src":"呢 after a person sends the question back: and you?","tgt":""}
+{"f":"practice","id":"ma.01","k":"q","src":"Which is the pinyin of 吗?","tgt":""}
+{"f":"practice","id":"ma.01","k":"o[0]","src":"ma, with no tone mark","tgt":""}
+{"f":"practice","id":"ma.01","k":"why","src":"吗 has the neutral tone: short and light, with no mark.","tgt":""}
+{"f":"practice","id":"ma.02","k":"q","src":"Are you a teacher?","tgt":""}
+{"f":"practice","id":"ma.02","k":"why","src":"Keep the statement and add 吗 at the end.","tgt":""}
+{"f":"practice","id":"ma.03","k":"q","src":"你忙吗？ Answer: Yes, I am.","tgt":""}
+{"f":"practice","id":"ma.03","k":"why","src":"Answer with the adjective: 很忙. An adjective never takes 是.","tgt":""}
+{"f":"practice","id":"ma.04","k":"q","src":"你是中国人吗？ Answer: No.","tgt":""}
+{"f":"practice","id":"ma.04","k":"why","src":"Answer with the verb from the question: 不是.","tgt":""}
+{"f":"practice","id":"ma.05","k":"q","src":"我很好，你呢？ What does 你呢 mean here?","tgt":""}
+{"f":"practice","id":"ma.05","k":"o[0]","src":"And you?","tgt":""}
+{"f":"practice","id":"ma.05","k":"o[1]","src":"Are you?","tgt":""}
+{"f":"practice","id":"ma.05","k":"o[2]","src":"Who are you?","tgt":""}
+{"f":"practice","id":"ma.05","k":"o[3]","src":"Goodbye.","tgt":""}
+{"f":"practice","id":"ma.05","k":"why","src":"呢 sends the question back: and you?","tgt":""}
+{"f":"practice","id":"ma.06","k":"p","src":"Are you a student too?","tgt":""}
+{"f":"practice","id":"ma.06","k":"why","src":"也 goes before the verb: 你也是学生吗？","tgt":""}
+{"f":"practice","id":"ma.07","k":"p","src":"Is he an American student? (start with he)","tgt":""}
+{"f":"practice","id":"ma.07","k":"why","src":"The describer goes before the noun: 美国学生, then 吗 at the end.","tgt":""}
+{"f":"practice","id":"ma.08","k":"p","src":"Are you busy?","tgt":""}
+{"f":"practice","id":"ma.08","k":"why","src":"No 是 before an adjective; 吗 at the end asks the question.","tgt":""}
+{"f":"practice","id":"ma.09","k":"p","src":"Are you American?","tgt":""}
+{"f":"practice","id":"ma.09","k":"why","src":"吗 at the end turns a statement into a yes/no question.","tgt":""}
+{"f":"practice","id":"ma.10","k":"p","src":"I'm busy. And you?","tgt":""}
+{"f":"practice","id":"ma.10","k":"why","src":"呢 after a person asks the same question back.","tgt":""}
+{"f":"practice","id":"ma.11","k":"p","src":"Are you busy? I'm not.","tgt":""}
+{"f":"practice","id":"ma.11","k":"why","src":"Answer with the adjective itself: 不忙.","tgt":""}
+{"f":"practice","id":"ma.12","k":"p","src":"Are you going tomorrow? (明天 = tomorrow, 去 = go)","tgt":""}
+{"f":"practice","id":"ma.12","k":"hint","src":"the time word comes before 去","tgt":""}
+{"f":"practice","id":"ma.12","k":"why","src":"Time goes before the verb: 你明天去吗？","tgt":""}
+{"f":"practice","id":"ma.13","k":"p","src":"Is she a teacher too?","tgt":""}
+{"f":"practice","id":"ma.13","k":"why","src":"也 goes before the verb: 她也是老师吗？","tgt":""}
+{"f":"practice","id":"ma.14","k":"p","src":"Are you a teacher?","tgt":""}
+{"f":"practice","id":"ma.14","k":"why","src":"Add 吗 to the statement to ask a yes/no question.","tgt":""}
+{"f":"lessons","id":"question-words","k":"title","src":"10 · Question words: 什么, 谁, 哪儿, 几","tgt":""}
+{"f":"lessons","id":"question-words","k":"blurb","src":"Ask what, who, where, which country and how many, keeping the Chinese word order.","tgt":""}
+{"f":"sentences","id":"zh.s0081","k":"gloss","src":"What's your name?","tgt":""}
+{"f":"sentences","id":"zh.s0082","k":"gloss","src":"Who is he?","tgt":""}
+{"f":"sentences","id":"zh.s0083","k":"gloss","src":"He's my friend.","tgt":""}
+{"f":"sentences","id":"zh.s0084","k":"gloss","src":"Where do you live?","tgt":""}
+{"f":"sentences","id":"zh.s0085","k":"gloss","src":"Excuse me, where do you work?","tgt":""}
+{"f":"sentences","id":"zh.s0086","k":"gloss","src":"What country are you from?","tgt":""}
+{"f":"sentences","id":"zh.s0087","k":"gloss","src":"How many older brothers do you have?","tgt":""}
+{"f":"checks","id":"question-words.k1","k":"q","src":"Where does a question word go in a Chinese question?","tgt":""}
+{"f":"checks","id":"question-words.k1","k":"o[0]","src":"Always first, as in English","tgt":"","rw":"English sound comparison (\"as in …\")"}
+{"f":"checks","id":"question-words.k1","k":"o[1]","src":"Where the answer would go","tgt":""}
+{"f":"checks","id":"question-words.k1","k":"o[2]","src":"Always last","tgt":""}
+{"f":"checks","id":"question-words.k1","k":"o[3]","src":"After 吗","tgt":""}
+{"f":"checks","id":"question-words.k1","k":"why","src":"Put the question word where the answer goes: 你住哪儿？ 我住纽约.","tgt":""}
+{"f":"checks","id":"question-words.k2","k":"q","src":"Is 你叫什么名字吗？ correct?","tgt":""}
+{"f":"checks","id":"question-words.k2","k":"o[0]","src":"Yes, it is more polite","tgt":""}
+{"f":"checks","id":"question-words.k2","k":"o[1]","src":"Yes, 吗 is always needed","tgt":""}
+{"f":"checks","id":"question-words.k2","k":"o[2]","src":"No: 什么 must come first","tgt":""}
+{"f":"checks","id":"question-words.k2","k":"o[3]","src":"No: a question word already asks, so drop 吗","tgt":""}
+{"f":"checks","id":"question-words.k2","k":"why","src":"Question words never take 吗: 你叫什么名字？","tgt":""}
+{"f":"checks","id":"question-words.k3","k":"q","src":"How do you ask someone's nationality?","tgt":""}
+{"f":"checks","id":"question-words.k3","k":"why","src":"哪 (which) + 国人: 你是哪国人？","tgt":""}
+{"f":"practice","id":"question-words.01","k":"q","src":"Which is the pinyin of 几 (how many)?","tgt":""}
+{"f":"practice","id":"question-words.01","k":"why","src":"几 has the third tone: low, jǐ.","tgt":""}
+{"f":"practice","id":"question-words.02","k":"q","src":"What's your name?","tgt":""}
+{"f":"practice","id":"question-words.02","k":"why","src":"什么 stays where the answer goes, and no 吗.","tgt":""}
+{"f":"practice","id":"question-words.03","k":"q","src":"Who is he?","tgt":""}
+{"f":"practice","id":"question-words.03","k":"why","src":"谁 goes where the answer would be: 他是我朋友 → 他是谁？","tgt":""}
+{"f":"practice","id":"question-words.04","k":"q","src":"Where do you live?","tgt":""}
+{"f":"practice","id":"question-words.04","k":"why","src":"哪儿 goes after 住, where the place goes in the answer.","tgt":""}
+{"f":"practice","id":"question-words.05","k":"q","src":"Which question is correct?","tgt":""}
+{"f":"practice","id":"question-words.05","k":"why","src":"哪国人 stays where the answer goes, with no 吗.","tgt":""}
+{"f":"practice","id":"question-words.06","k":"p","src":"Where do you work? (在 = at, 工作 = to work)","tgt":""}
+{"f":"practice","id":"question-words.06","k":"why","src":"Where it happens comes before the verb: 你在哪儿工作？","tgt":""}
+{"f":"practice","id":"question-words.07","k":"p","src":"How many older brothers do you have? (哥哥 = older brother)","tgt":""}
+{"f":"practice","id":"question-words.07","k":"why","src":"几 needs a measure word before the noun: 几个哥哥.","tgt":""}
+{"f":"practice","id":"question-words.08","k":"p","src":"What's your name?","tgt":""}
+{"f":"practice","id":"question-words.08","k":"why","src":"什么 stays where the answer goes, and a question word takes no 吗.","tgt":""}
+{"f":"practice","id":"question-words.09","k":"p","src":"Who is he?","tgt":""}
+{"f":"practice","id":"question-words.09","k":"why","src":"谁 asks who; it goes where the answer would be.","tgt":""}
+{"f":"practice","id":"question-words.10","k":"p","src":"Where do you live?","tgt":""}
+{"f":"practice","id":"question-words.10","k":"why","src":"哪儿 asks where.","tgt":""}
+{"f":"practice","id":"question-words.11","k":"p","src":"What country are you from?","tgt":""}
+{"f":"practice","id":"question-words.11","k":"why","src":"哪国人 asks which country someone is from.","tgt":""}
+{"f":"practice","id":"question-words.12","k":"p","src":"Where do you work? (在 = at, 工作 = to work)","tgt":""}
+{"f":"practice","id":"question-words.12","k":"hint","src":"where comes first","tgt":""}
+{"f":"practice","id":"question-words.12","k":"why","src":"Where it happens goes before the verb: 你在哪儿工作？","tgt":""}
+{"f":"practice","id":"question-words.13","k":"p","src":"How many older brothers do you have? (哥哥 = older brother)","tgt":""}
+{"f":"practice","id":"question-words.13","k":"why","src":"几 takes a measure word before the noun: 几个哥哥.","tgt":""}
+{"f":"practice","id":"question-words.14","k":"p","src":"What's your name? (to a friend)","tgt":""}
+{"f":"practice","id":"question-words.14","k":"hint","src":"no 吗","tgt":""}
+{"f":"practice","id":"question-words.14","k":"why","src":"The question word stays where the answer goes, with no 吗.","tgt":""}
+{"f":"lessons","id":"bu-mei","k":"title","src":"11 · Negation: 不 and 没 (not, didn't)","tgt":""}
+{"f":"lessons","id":"bu-mei","k":"blurb","src":"Say what you don't do, what you don't have, and what didn't happen, with the right word for \"not\".","tgt":""}
+{"f":"sentences","id":"zh.s0088","k":"gloss","src":"I don't drink (alcohol).","tgt":""}
+{"f":"sentences","id":"zh.s0089","k":"gloss","src":"She isn't busy.","tgt":""}
+{"f":"sentences","id":"zh.s0090","k":"gloss","src":"I'm not going tomorrow.","tgt":""}
+{"f":"sentences","id":"zh.s0091","k":"gloss","src":"I don't have any money.","tgt":""}
+{"f":"sentences","id":"zh.s0092","k":"gloss","src":"I don't have money. (casual)","tgt":""}
+{"f":"sentences","id":"zh.s0093","k":"gloss","src":"I didn't go yesterday.","tgt":""}
+{"f":"sentences","id":"zh.s0094","k":"gloss","src":"He didn't eat. / He hasn't eaten.","tgt":""}
+{"f":"sentences","id":"zh.s0095","k":"gloss","src":"I'm not a teacher.","tgt":""}
+{"f":"checks","id":"bu-mei.k1","k":"q","src":"How do you say \"I don't have a phone\"?","tgt":""}
+{"f":"checks","id":"bu-mei.k1","k":"why","src":"有 is negated only with 没: 没有.","tgt":""}
+{"f":"checks","id":"bu-mei.k2","k":"q","src":"How do you say \"I didn't go yesterday\"?","tgt":""}
+{"f":"checks","id":"bu-mei.k2","k":"why","src":"没 for an action that did not happen, before the verb, with no 了.","tgt":""}
+{"f":"checks","id":"bu-mei.k3","k":"q","src":"\"I don't drink coffee\" is a habit. Which is right?","tgt":""}
+{"f":"checks","id":"bu-mei.k3","k":"why","src":"A habit takes 不, right before the verb; 我没喝咖啡 means \"I didn't drink coffee\".","tgt":""}
+{"f":"practice","id":"bu-mei.01","k":"q","src":"Which is the pinyin of 不是 (is not)?","tgt":""}
+{"f":"practice","id":"bu-mei.01","k":"why","src":"Tone change: 不 before a fourth tone takes the second tone, bú shì.","tgt":""}
+{"f":"practice","id":"bu-mei.02","k":"q","src":"'I don't have money' =","tgt":""}
+{"f":"practice","id":"bu-mei.02","k":"why","src":"有 is the one verb that takes 没, never 不.","tgt":""}
+{"f":"practice","id":"bu-mei.03","k":"q","src":"'He didn't eat' =","tgt":""}
+{"f":"practice","id":"bu-mei.03","k":"why","src":"An action that did not happen takes 没, and no 了 after 没.","tgt":""}
+{"f":"practice","id":"bu-mei.04","k":"q","src":"'I'm not busy' =","tgt":""}
+{"f":"practice","id":"bu-mei.04","k":"why","src":"A state takes 不, right before the adjective, with no 是.","tgt":""}
+{"f":"practice","id":"bu-mei.05","k":"q","src":"'He doesn't like coffee' =","tgt":""}
+{"f":"practice","id":"bu-mei.05","k":"why","src":"Liking is a state, so it takes 不: 他不喜欢咖啡.","tgt":""}
+{"f":"practice","id":"bu-mei.06","k":"p","src":"He didn't come yesterday (start with 他)","tgt":""}
+{"f":"practice","id":"bu-mei.06","k":"why","src":"The time word and 没 both go before the verb, and 没 never takes 了.","tgt":""}
+{"f":"practice","id":"bu-mei.07","k":"p","src":"I don't drink tea","tgt":""}
+{"f":"practice","id":"bu-mei.07","k":"why","src":"A habit takes 不, and 不 goes before the verb: 我不喝茶.","tgt":""}
+{"f":"practice","id":"bu-mei.08","k":"p","src":"She doesn't have a phone","tgt":""}
+{"f":"practice","id":"bu-mei.08","k":"why","src":"有 is negated with 没, never with 不.","tgt":""}
+{"f":"practice","id":"bu-mei.09","k":"p","src":"I don't have money.","tgt":""}
+{"f":"practice","id":"bu-mei.09","k":"why","src":"Only 没 negates 有: 没有.","tgt":""}
+{"f":"practice","id":"bu-mei.10","k":"p","src":"I didn't go yesterday.","tgt":""}
+{"f":"practice","id":"bu-mei.10","k":"why","src":"Yesterday's action did not happen, so 没.","tgt":""}
+{"f":"practice","id":"bu-mei.11","k":"p","src":"I don't drink alcohol.","tgt":""}
+{"f":"practice","id":"bu-mei.11","k":"why","src":"A habit or a choice takes 不.","tgt":""}
+{"f":"practice","id":"bu-mei.12","k":"p","src":"I'm not going tomorrow.","tgt":""}
+{"f":"practice","id":"bu-mei.12","k":"hint","src":"明天 (tomorrow) · 去 · a plan takes 不","tgt":""}
+{"f":"practice","id":"bu-mei.12","k":"why","src":"Tomorrow and 不 both go before the verb: 我明天不去.","tgt":""}
+{"f":"practice","id":"bu-mei.13","k":"p","src":"I didn't go yesterday.","tgt":""}
+{"f":"practice","id":"bu-mei.13","k":"hint","src":"昨天 (yesterday) · 去","tgt":""}
+{"f":"practice","id":"bu-mei.13","k":"why","src":"Yesterday and 没 go before the verb, and 没 takes no 了: 我昨天没去.","tgt":""}
+{"f":"practice","id":"bu-mei.14","k":"p","src":"I don't have a phone.","tgt":""}
+{"f":"practice","id":"bu-mei.14","k":"hint","src":"手机 (phone)","tgt":""}
+{"f":"practice","id":"bu-mei.14","k":"why","src":"有 is negated only with 没: 我没有手机.","tgt":""}
+{"f":"lessons","id":"de","k":"title","src":"12 · 的: possession and describing","tgt":""}
+{"f":"lessons","id":"de","k":"blurb","src":"Say whose something is and what it is like, with the owner or the describer before the noun.","tgt":""}
+{"f":"sentences","id":"zh.s0096","k":"gloss","src":"This is my book.","tgt":""}
+{"f":"sentences","id":"zh.s0097","k":"gloss","src":"The teacher's phone is expensive.","tgt":""}
+{"f":"sentences","id":"zh.s0098","k":"gloss","src":"I like red cars.","tgt":""}
+{"f":"sentences","id":"zh.s0099","k":"gloss","src":"These are very expensive clothes.","tgt":""}
+{"f":"sentences","id":"zh.s0100","k":"gloss","src":"He's my good friend.","tgt":""}
+{"f":"sentences","id":"zh.s0101","k":"gloss","src":"My mom is a teacher.","tgt":""}
+{"f":"sentences","id":"zh.s0102","k":"gloss","src":"She's my friend.","tgt":""}
+{"f":"checks","id":"de.k1","k":"q","src":"How do you say \"the book of my teacher\"?","tgt":""}
+{"f":"checks","id":"de.k1","k":"why","src":"The owner goes first, then 的, then the thing: 我老师的书.","tgt":""}
+{"f":"checks","id":"de.k2","k":"q","src":"A friend says 我妈妈 (my mom). What is missing, and is that OK?","tgt":""}
+{"f":"checks","id":"de.k2","k":"o[0]","src":"是; it's a mistake","tgt":""}
+{"f":"checks","id":"de.k2","k":"o[1]","src":"的; it's a mistake","tgt":""}
+{"f":"checks","id":"de.k2","k":"o[2]","src":"们; it's fine","tgt":""}
+{"f":"checks","id":"de.k2","k":"o[3]","src":"的; it's fine with family words","tgt":""}
+{"f":"checks","id":"de.k2","k":"why","src":"With family and close relationships, 的 usually drops after a pronoun.","tgt":""}
+{"f":"checks","id":"de.k3","k":"q","src":"How do you say \"a red car\"?","tgt":""}
+{"f":"checks","id":"de.k3","k":"why","src":"The describer goes in front of the noun, joined by 的.","tgt":""}
+{"f":"practice","id":"de.01","k":"q","src":"Which is the pinyin of 书 (book)?","tgt":""}
+{"f":"practice","id":"de.01","k":"why","src":"书 has the first tone: high and level.","tgt":""}
+{"f":"practice","id":"de.02","k":"q","src":"'my friend' =","tgt":""}
+{"f":"practice","id":"de.02","k":"why","src":"The owner comes first, then 的, then the noun.","tgt":""}
+{"f":"practice","id":"de.03","k":"q","src":"'the teacher's phone' =","tgt":""}
+{"f":"practice","id":"de.03","k":"why","src":"Owner + 的 + thing, like English 's.","tgt":"","rw":"mentions English"}
+{"f":"practice","id":"de.04","k":"q","src":"'my mom' (the most natural way) =","tgt":""}
+{"f":"practice","id":"de.04","k":"why","src":"Family words usually drop 的 after a pronoun: 我妈妈.","tgt":""}
+{"f":"practice","id":"de.05","k":"q","src":"'very expensive clothes' =","tgt":""}
+{"f":"practice","id":"de.05","k":"why","src":"A describer with 很 needs 的, and it goes in front of the noun.","tgt":""}
+{"f":"practice","id":"de.06","k":"p","src":"my teacher's book","tgt":""}
+{"f":"practice","id":"de.06","k":"why","src":"The owner goes before the noun, joined by 的: 我老师的书.","tgt":""}
+{"f":"practice","id":"de.07","k":"p","src":"a red car","tgt":""}
+{"f":"practice","id":"de.07","k":"why","src":"The describer goes before the noun: 红色的车.","tgt":""}
+{"f":"practice","id":"de.08","k":"p","src":"This is my mom's phone","tgt":""}
+{"f":"practice","id":"de.08","k":"why","src":"Owner, then 的, then the thing: the owner goes before the noun.","tgt":""}
+{"f":"practice","id":"de.09","k":"p","src":"This is my book.","tgt":""}
+{"f":"practice","id":"de.09","k":"why","src":"的 joins the owner to the thing: 我的书.","tgt":""}
+{"f":"practice","id":"de.10","k":"p","src":"She's my good friend.","tgt":""}
+{"f":"practice","id":"de.10","k":"why","src":"A one-syllable adjective can join the noun directly: 好朋友.","tgt":""}
+{"f":"practice","id":"de.11","k":"p","src":"The teacher's phone is expensive.","tgt":""}
+{"f":"practice","id":"de.11","k":"why","src":"Owner + 的 + thing: 老师的手机.","tgt":""}
+{"f":"practice","id":"de.12","k":"p","src":"my Chinese teacher","tgt":""}
+{"f":"practice","id":"de.12","k":"hint","src":"the describers come first","tgt":""}
+{"f":"practice","id":"de.12","k":"why","src":"Both describers go before the noun: 我的中文老师.","tgt":""}
+{"f":"practice","id":"de.13","k":"p","src":"a very expensive car","tgt":""}
+{"f":"practice","id":"de.13","k":"hint","src":"车 (car)","tgt":""}
+{"f":"practice","id":"de.13","k":"why","src":"A describer with 很 goes before the noun, joined by 的: 很贵的车.","tgt":""}
+{"f":"practice","id":"de.14","k":"p","src":"My mom doesn't have a phone.","tgt":""}
+{"f":"practice","id":"de.14","k":"why","src":"Family words need no 的, and 有 is negated with 没: 我妈妈没有手机.","tgt":""}
+{"f":"lessons","id":"you","k":"title","src":"13 · 有: have and there is","tgt":""}
+{"f":"lessons","id":"you","k":"blurb","src":"Say what you have, ask a shop if it has something, and say what there is in a place.","tgt":""}
+{"f":"sentences","id":"zh.s0103","k":"gloss","src":"I have a phone.","tgt":""}
+{"f":"sentences","id":"zh.s0104","k":"gloss","src":"Do you have coffee?","tgt":""}
+{"f":"sentences","id":"zh.s0105","k":"gloss","src":"Is there a bank nearby?","tgt":""}
+{"f":"sentences","id":"zh.s0106","k":"gloss","src":"There's a book on the table.","tgt":""}
+{"f":"sentences","id":"zh.s0107","k":"gloss","src":"There's no supermarket nearby.","tgt":""}
+{"f":"sentences","id":"zh.s0108","k":"gloss","src":"I don't have a car.","tgt":""}
+{"f":"sentences","id":"zh.s0109","k":"gloss","src":"The book is on the table.","tgt":""}
+{"f":"checks","id":"you.k1","k":"q","src":"\"There's a bank nearby.\" Where does 附近 (nearby) go?","tgt":""}
+{"f":"checks","id":"you.k1","k":"o[0]","src":"At the start, before 有","tgt":""}
+{"f":"checks","id":"you.k1","k":"o[1]","src":"At the end, after 银行","tgt":""}
+{"f":"checks","id":"you.k1","k":"o[2]","src":"Between 有 and 银行","tgt":""}
+{"f":"checks","id":"you.k1","k":"o[3]","src":"Nowhere: Chinese doesn't need it","tgt":""}
+{"f":"checks","id":"you.k1","k":"why","src":"The place comes first, then 有: 附近有银行.","tgt":""}
+{"f":"checks","id":"you.k2","k":"q","src":"What does 附近没有银行 mean?","tgt":""}
+{"f":"checks","id":"you.k2","k":"o[0]","src":"There's a bank nearby.","tgt":""}
+{"f":"checks","id":"you.k2","k":"o[1]","src":"Is there a bank nearby?","tgt":""}
+{"f":"checks","id":"you.k2","k":"o[2]","src":"There's no bank nearby.","tgt":""}
+{"f":"checks","id":"you.k2","k":"o[3]","src":"I don't have a bank.","tgt":""}
+{"f":"checks","id":"you.k2","k":"why","src":"没有 after a place means \"there isn't\".","tgt":""}
+{"f":"checks","id":"you.k3","k":"q","src":"What can 有 mean?","tgt":""}
+{"f":"checks","id":"you.k3","k":"o[0]","src":"to be (am, is, are)","tgt":""}
+{"f":"checks","id":"you.k3","k":"o[1]","src":"at, in","tgt":""}
+{"f":"checks","id":"you.k3","k":"o[2]","src":"to want","tgt":""}
+{"f":"checks","id":"you.k3","k":"o[3]","src":"to have, and there is","tgt":""}
+{"f":"checks","id":"you.k3","k":"why","src":"有 covers both \"have\" and \"there is\".","tgt":""}
+{"f":"practice","id":"you.01","k":"q","src":"Which is the pinyin of 买 (to buy)?","tgt":""}
+{"f":"practice","id":"you.01","k":"why","src":"买 has the third tone; mài with the fourth tone is 卖, to sell.","tgt":""}
+{"f":"practice","id":"you.02","k":"q","src":"'I have a phone' =","tgt":""}
+{"f":"practice","id":"you.02","k":"why","src":"Person + 有 + thing, as in English.","tgt":"","rw":"English sound comparison (\"as in …\")"}
+{"f":"practice","id":"you.03","k":"q","src":"'There's no supermarket nearby' =","tgt":""}
+{"f":"practice","id":"you.03","k":"why","src":"Place first, then 没有; 有 never takes 不.","tgt":""}
+{"f":"practice","id":"you.04","k":"q","src":"'There's a book on the table' =","tgt":""}
+{"f":"practice","id":"you.04","k":"why","src":"Chinese starts with the place, then 有, then number + measure word + noun.","tgt":""}
+{"f":"practice","id":"you.05","k":"q","src":"'Do you have coffee?' (asking a shop) =","tgt":""}
+{"f":"practice","id":"you.05","k":"why","src":"Ask the shop with 你们, then 有, then 吗 at the end.","tgt":""}
+{"f":"practice","id":"you.06","k":"p","src":"There's a bank nearby","tgt":""}
+{"f":"practice","id":"you.06","k":"why","src":"The place goes before the verb 有: 附近有银行.","tgt":""}
+{"f":"practice","id":"you.07","k":"p","src":"There's a book on the table","tgt":""}
+{"f":"practice","id":"you.07","k":"why","src":"The place goes before the verb, and 一本 goes before the noun: 桌子上有一本书.","tgt":""}
+{"f":"practice","id":"you.08","k":"p","src":"Do you have coffee? (to a shop)","tgt":""}
+{"f":"practice","id":"you.08","k":"why","src":"Statement + 吗 makes the question: 你们有咖啡吗？","tgt":""}
+{"f":"practice","id":"you.09","k":"p","src":"Is there a bank nearby?","tgt":""}
+{"f":"practice","id":"you.09","k":"why","src":"\"There is\" is 有, after the place.","tgt":""}
+{"f":"practice","id":"you.10","k":"p","src":"I don't have a car.","tgt":""}
+{"f":"practice","id":"you.10","k":"why","src":"Only 没 negates 有: 没有.","tgt":""}
+{"f":"practice","id":"you.11","k":"p","src":"There's a book on the table.","tgt":""}
+{"f":"practice","id":"you.11","k":"why","src":"Place + 有 + thing: \"the table has a book\".","tgt":""}
+{"f":"practice","id":"you.12","k":"p","src":"There's a supermarket nearby.","tgt":""}
+{"f":"practice","id":"you.12","k":"hint","src":"附近 (nearby) · 超市 (supermarket) · the place comes first","tgt":""}
+{"f":"practice","id":"you.12","k":"why","src":"The place goes before the verb 有: 附近有超市.","tgt":""}
+{"f":"practice","id":"you.13","k":"p","src":"Is there a bank nearby?","tgt":""}
+{"f":"practice","id":"you.13","k":"hint","src":"银行 (bank) · 吗","tgt":""}
+{"f":"practice","id":"you.13","k":"why","src":"Nearby goes before the verb 有, and 吗 goes at the end: 附近有银行吗？","tgt":""}
+{"f":"practice","id":"you.14","k":"p","src":"I don't have a car.","tgt":""}
+{"f":"practice","id":"you.14","k":"hint","src":"车 (car)","tgt":""}
+{"f":"practice","id":"you.14","k":"why","src":"有 is negated only with 没: 我没有车.","tgt":""}
+{"f":"lessons","id":"numbers","k":"title","src":"14 · Numbers and money","tgt":""}
+{"f":"lessons","id":"numbers","k":"blurb","src":"Count past a hundred, say prices in yuan, ask how much something costs, and choose between 二 and 两.","tgt":""}
+{"f":"sentences","id":"zh.s0110","k":"gloss","src":"twelve","tgt":""}
+{"f":"sentences","id":"zh.s0111","k":"gloss","src":"twenty-five","tgt":""}
+{"f":"sentences","id":"zh.s0112","k":"gloss","src":"one hundred and five","tgt":""}
+{"f":"sentences","id":"zh.s0113","k":"gloss","src":"one hundred fifty","tgt":""}
+{"f":"sentences","id":"zh.s0114","k":"gloss","src":"two people","tgt":""}
+{"f":"sentences","id":"zh.s0115","k":"gloss","src":"How much is this?","tgt":""}
+{"f":"sentences","id":"zh.s0116","k":"gloss","src":"Twenty-five yuan.","tgt":""}
+{"f":"sentences","id":"zh.s0117","k":"gloss","src":"Three yuan fifty.","tgt":""}
+{"f":"checks","id":"numbers.k1","k":"q","src":"How do you say \"two people\"?","tgt":""}
+{"f":"checks","id":"numbers.k1","k":"why","src":"Two of something, before a measure word, is 两.","tgt":""}
+{"f":"checks","id":"numbers.k2","k":"q","src":"Which one is 25?","tgt":""}
+{"f":"checks","id":"numbers.k2","k":"why","src":"Two ten five: 二十五.","tgt":""}
+{"f":"checks","id":"numbers.k3","k":"q","src":"Which word for the yuan do people usually say out loud?","tgt":""}
+{"f":"checks","id":"numbers.k3","k":"why","src":"块 in speech, 元 on price tags.","tgt":""}
+{"f":"practice","id":"numbers.01","k":"q","src":"Which is the pinyin of 四 (four)?","tgt":""}
+{"f":"practice","id":"numbers.01","k":"why","src":"四 has the fourth tone: it falls. With the third tone, sǐ means to die.","tgt":""}
+{"f":"practice","id":"numbers.02","k":"q","src":"'two people' =","tgt":""}
+{"f":"practice","id":"numbers.02","k":"why","src":"Two before a measure word is 两.","tgt":""}
+{"f":"practice","id":"numbers.03","k":"q","src":"What is 一百零五?","tgt":""}
+{"f":"practice","id":"numbers.03","k":"o[0]","src":"105","tgt":"105","pre":1}
+{"f":"practice","id":"numbers.03","k":"o[1]","src":"150","tgt":"150","pre":1}
+{"f":"practice","id":"numbers.03","k":"o[2]","src":"1,005","tgt":"1,005","pre":1}
+{"f":"practice","id":"numbers.03","k":"o[3]","src":"115","tgt":"115","pre":1}
+{"f":"practice","id":"numbers.03","k":"why","src":"零 fills the empty tens place: one hundred, zero, five.","tgt":""}
+{"f":"practice","id":"numbers.04","k":"q","src":"A market seller says 一百五. How much is that?","tgt":""}
+{"f":"practice","id":"numbers.04","k":"o[0]","src":"150","tgt":"150","pre":1}
+{"f":"practice","id":"numbers.04","k":"o[1]","src":"105","tgt":"105","pre":1}
+{"f":"practice","id":"numbers.04","k":"o[2]","src":"15","tgt":"15","pre":1}
+{"f":"practice","id":"numbers.04","k":"o[3]","src":"1,500","tgt":"1,500","pre":1}
+{"f":"practice","id":"numbers.04","k":"why","src":"一百五 is short for 一百五十.","tgt":""}
+{"f":"practice","id":"numbers.05","k":"q","src":"'How much is it?' =","tgt":""}
+{"f":"practice","id":"numbers.05","k":"why","src":"多少钱 asks a price; no 吗 with a question word.","tgt":""}
+{"f":"practice","id":"numbers.06","k":"p","src":"two people","tgt":""}
+{"f":"practice","id":"numbers.06","k":"why","src":"Two before a measure word is 两: 两个人.","tgt":""}
+{"f":"practice","id":"numbers.07","k":"p","src":"This one is twenty-five yuan","tgt":""}
+{"f":"practice","id":"numbers.07","k":"why","src":"块 works like a measure word: it comes right after the number, 二十五块.","tgt":""}
+{"f":"practice","id":"numbers.08","k":"p","src":"How much is this?","tgt":""}
+{"f":"practice","id":"numbers.08","k":"why","src":"多少 asks for any number, so it fits a price.","tgt":""}
+{"f":"practice","id":"numbers.09","k":"p","src":"I have two Chinese teachers.","tgt":""}
+{"f":"practice","id":"numbers.09","k":"why","src":"Before the measure word 个, two is 两.","tgt":""}
+{"f":"practice","id":"numbers.10","k":"p","src":"105","tgt":"105","pre":1}
+{"f":"practice","id":"numbers.10","k":"why","src":"An empty place in the middle of a number is 零.","tgt":""}
+{"f":"practice","id":"numbers.11","k":"p","src":"This one is 25 yuan.","tgt":""}
+{"f":"practice","id":"numbers.11","k":"why","src":"Money: the number, then 块 (or 元 in writing).","tgt":""}
+{"f":"practice","id":"numbers.12","k":"p","src":"two people","tgt":""}
+{"f":"practice","id":"numbers.12","k":"hint","src":"两 or 二? · 个 · 人","tgt":""}
+{"f":"practice","id":"numbers.12","k":"why","src":"Two before a measure word is 两: 两个人.","tgt":""}
+{"f":"practice","id":"numbers.13","k":"p","src":"fifteen yuan (say it out loud)","tgt":""}
+{"f":"practice","id":"numbers.13","k":"why","src":"块 is the measure word for money, right after the number: 十五块.","tgt":""}
+{"f":"practice","id":"numbers.14","k":"p","src":"How much is this?","tgt":""}
+{"f":"practice","id":"numbers.14","k":"why","src":"多少 asks for any number, such as a price: 这个多少钱？","tgt":""}

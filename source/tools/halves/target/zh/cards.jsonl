@@ -1,0 +1,886 @@
+{"id":"zh.c0001","deck":"zh.d.pinyin-sounds","zh":"八","rom":"bā"}
+{"id":"zh.c0002","deck":"zh.d.pinyin-sounds","zh":"怕","rom":"pà"}
+{"id":"zh.c0003","deck":"zh.d.pinyin-sounds","zh":"对","rom":"duì"}
+{"id":"zh.c0004","deck":"zh.d.pinyin-sounds","zh":"天","rom":"tiān"}
+{"id":"zh.c0005","deck":"zh.d.pinyin-sounds","zh":"狗","rom":"gǒu"}
+{"id":"zh.c0006","deck":"zh.d.pinyin-sounds","zh":"看","rom":"kàn"}
+{"id":"zh.c0007","deck":"zh.d.pinyin-sounds","zh":"鸡","rom":"jī"}
+{"id":"zh.c0008","deck":"zh.d.pinyin-sounds","zh":"去","rom":"qù"}
+{"id":"zh.c0009","deck":"zh.d.pinyin-sounds","zh":"谢","rom":"xiè"}
+{"id":"zh.c0010","deck":"zh.d.pinyin-sounds","zh":"中","rom":"zhōng"}
+{"id":"zh.c0011","deck":"zh.d.pinyin-sounds","zh":"吃","rom":"chī"}
+{"id":"zh.c0012","deck":"zh.d.pinyin-sounds","zh":"是","rom":"shì"}
+{"id":"zh.c0013","deck":"zh.d.pinyin-sounds","zh":"日","rom":"rì"}
+{"id":"zh.c0014","deck":"zh.d.pinyin-sounds","zh":"字","rom":"zì"}
+{"id":"zh.c0015","deck":"zh.d.pinyin-sounds","zh":"菜","rom":"cài"}
+{"id":"zh.c0016","deck":"zh.d.pinyin-sounds","zh":"岁","rom":"suì"}
+{"id":"zh.c0017","deck":"zh.d.pinyin-sounds","zh":"喝","rom":"hē"}
+{"id":"zh.c0018","deck":"zh.d.pinyin-sounds","zh":"绿","rom":"lǜ"}
+{"id":"zh.c0019","deck":"zh.d.tone-pairs","zh":"妈","rom":"mā"}
+{"id":"zh.c0020","deck":"zh.d.tone-pairs","zh":"麻","rom":"má"}
+{"id":"zh.c0021","deck":"zh.d.tone-pairs","zh":"马","rom":"mǎ"}
+{"id":"zh.c0022","deck":"zh.d.tone-pairs","zh":"骂","rom":"mà"}
+{"id":"zh.c0023","deck":"zh.d.tone-pairs","zh":"买","rom":"mǎi"}
+{"id":"zh.c0024","deck":"zh.d.tone-pairs","zh":"卖","rom":"mài"}
+{"id":"zh.c0025","deck":"zh.d.tone-pairs","zh":"汤","rom":"tāng"}
+{"id":"zh.c0026","deck":"zh.d.tone-pairs","zh":"糖","rom":"táng"}
+{"id":"zh.c0027","deck":"zh.d.tone-pairs","zh":"问","rom":"wèn"}
+{"id":"zh.c0028","deck":"zh.d.tone-pairs","zh":"吻","rom":"wěn"}
+{"id":"zh.c0029","deck":"zh.d.tone-pairs","zh":"烟","rom":"yān"}
+{"id":"zh.c0030","deck":"zh.d.tone-pairs","zh":"盐","rom":"yán"}
+{"id":"zh.c0031","deck":"zh.d.tone-pairs","zh":"眼","rom":"yǎn"}
+{"id":"zh.c0032","deck":"zh.d.tone-pairs","zh":"七","rom":"qī"}
+{"id":"zh.c0033","deck":"zh.d.tone-pairs","zh":"起","rom":"qǐ"}
+{"id":"zh.c0034","deck":"zh.d.tone-pairs","zh":"气","rom":"qì"}
+{"id":"zh.c0035","deck":"zh.d.tone-pairs","zh":"有","rom":"yǒu"}
+{"id":"zh.c0036","deck":"zh.d.tone-pairs","zh":"又","rom":"yòu"}
+{"id":"zh.c0037","deck":"zh.d.first-characters","zh":"人","rom":"rén"}
+{"id":"zh.c0038","deck":"zh.d.first-characters","zh":"口","rom":"kǒu"}
+{"id":"zh.c0039","deck":"zh.d.first-characters","zh":"木","rom":"mù"}
+{"id":"zh.c0040","deck":"zh.d.first-characters","zh":"林","rom":"lín"}
+{"id":"zh.c0041","deck":"zh.d.first-characters","zh":"森","rom":"sēn"}
+{"id":"zh.c0042","deck":"zh.d.first-characters","zh":"山","rom":"shān"}
+{"id":"zh.c0043","deck":"zh.d.first-characters","zh":"月","rom":"yuè"}
+{"id":"zh.c0044","deck":"zh.d.first-characters","zh":"明","rom":"míng"}
+{"id":"zh.c0045","deck":"zh.d.first-characters","zh":"女","rom":"nǚ"}
+{"id":"zh.c0046","deck":"zh.d.first-characters","zh":"子","rom":"zǐ"}
+{"id":"zh.c0047","deck":"zh.d.first-characters","zh":"好","rom":"hǎo"}
+{"id":"zh.c0048","deck":"zh.d.first-characters","zh":"休","rom":"xiū"}
+{"id":"zh.c0049","deck":"zh.d.first-characters","zh":"上","rom":"shàng"}
+{"id":"zh.c0050","deck":"zh.d.first-characters","zh":"下","rom":"xià"}
+{"id":"zh.c0051","deck":"zh.d.first-characters","zh":"门","rom":"mén"}
+{"id":"zh.c0052","deck":"zh.d.first-characters","zh":"雨","rom":"yǔ"}
+{"id":"zh.c0053","deck":"zh.d.first-characters","zh":"火","rom":"huǒ"}
+{"id":"zh.c0054","deck":"zh.d.first-characters","zh":"水","rom":"shuǐ"}
+{"id":"zh.c0055","deck":"zh.d.greetings-and-courtesy","zh":"你好！","rom":"Nǐ hǎo!"}
+{"id":"zh.c0056","deck":"zh.d.greetings-and-courtesy","zh":"您好！","rom":"Nín hǎo!"}
+{"id":"zh.c0057","deck":"zh.d.greetings-and-courtesy","zh":"大家好！","rom":"Dàjiā hǎo!"}
+{"id":"zh.c0058","deck":"zh.d.greetings-and-courtesy","zh":"老师好！","rom":"Lǎoshī hǎo!"}
+{"id":"zh.c0059","deck":"zh.d.greetings-and-courtesy","zh":"早上好！","rom":"Zǎoshang hǎo!"}
+{"id":"zh.c0060","deck":"zh.d.greetings-and-courtesy","zh":"晚安！","rom":"Wǎn'ān!"}
+{"id":"zh.c0061","deck":"zh.d.greetings-and-courtesy","zh":"最近怎么样？","rom":"Zuìjìn zěnmeyàng?"}
+{"id":"zh.c0062","deck":"zh.d.greetings-and-courtesy","zh":"认识你很高兴。","rom":"Rènshi nǐ hěn gāoxìng."}
+{"id":"zh.c0063","deck":"zh.d.greetings-and-courtesy","zh":"谢谢！","rom":"Xièxie!"}
+{"id":"zh.c0064","deck":"zh.d.greetings-and-courtesy","zh":"谢谢您！","rom":"Xièxie nín!"}
+{"id":"zh.c0065","deck":"zh.d.greetings-and-courtesy","zh":"不客气。","rom":"Bú kèqi."}
+{"id":"zh.c0066","deck":"zh.d.greetings-and-courtesy","zh":"对不起！","rom":"Duìbuqǐ!"}
+{"id":"zh.c0067","deck":"zh.d.greetings-and-courtesy","zh":"没关系。","rom":"Méi guānxi."}
+{"id":"zh.c0068","deck":"zh.d.greetings-and-courtesy","zh":"不好意思。","rom":"Bù hǎoyìsi."}
+{"id":"zh.c0069","deck":"zh.d.greetings-and-courtesy","zh":"没事。","rom":"Méishì."}
+{"id":"zh.c0070","deck":"zh.d.greetings-and-courtesy","zh":"请问","rom":"qǐngwèn"}
+{"id":"zh.c0071","deck":"zh.d.greetings-and-courtesy","zh":"再见！","rom":"Zàijiàn!"}
+{"id":"zh.c0072","deck":"zh.d.greetings-and-courtesy","zh":"明天见！","rom":"Míngtiān jiàn!"}
+{"id":"zh.c0073","deck":"zh.d.people-and-family","zh":"爸爸","rom":"bàba"}
+{"id":"zh.c0074","deck":"zh.d.people-and-family","zh":"妈妈","rom":"māma"}
+{"id":"zh.c0075","deck":"zh.d.people-and-family","zh":"哥哥","rom":"gēge"}
+{"id":"zh.c0076","deck":"zh.d.people-and-family","zh":"姐姐","rom":"jiějie"}
+{"id":"zh.c0077","deck":"zh.d.people-and-family","zh":"弟弟","rom":"dìdi"}
+{"id":"zh.c0078","deck":"zh.d.people-and-family","zh":"妹妹","rom":"mèimei"}
+{"id":"zh.c0079","deck":"zh.d.people-and-family","zh":"爷爷","rom":"yéye"}
+{"id":"zh.c0080","deck":"zh.d.people-and-family","zh":"奶奶","rom":"nǎinai"}
+{"id":"zh.c0081","deck":"zh.d.people-and-family","zh":"儿子","rom":"érzi"}
+{"id":"zh.c0082","deck":"zh.d.people-and-family","zh":"女儿","rom":"nǚ'ér"}
+{"id":"zh.c0083","deck":"zh.d.people-and-family","zh":"朋友","rom":"péngyou"}
+{"id":"zh.c0084","deck":"zh.d.people-and-family","zh":"我们","rom":"wǒmen"}
+{"id":"zh.c0085","deck":"zh.d.people-and-family","zh":"他们","rom":"tāmen"}
+{"id":"zh.c0086","deck":"zh.d.people-and-family","zh":"你家有几口人？","rom":"Nǐ jiā yǒu jǐ kǒu rén?"}
+{"id":"zh.c0087","deck":"zh.d.people-and-family","zh":"我家有四口人。","rom":"Wǒ jiā yǒu sì kǒu rén."}
+{"id":"zh.c0088","deck":"zh.d.people-and-family","zh":"我有一个哥哥。","rom":"Wǒ yǒu yí ge gēge."}
+{"id":"zh.c0089","deck":"zh.d.people-and-family","zh":"我没有兄弟姐妹。","rom":"Wǒ méiyǒu xiōngdì jiěmèi."}
+{"id":"zh.c0090","deck":"zh.d.people-and-family","zh":"阿姨","rom":"āyí"}
+{"id":"zh.c0091","deck":"zh.d.about-me","zh":"我叫安娜。","rom":"Wǒ jiào Ānnà."}
+{"id":"zh.c0092","deck":"zh.d.about-me","zh":"你叫什么名字？","rom":"Nǐ jiào shénme míngzi?"}
+{"id":"zh.c0093","deck":"zh.d.about-me","zh":"您贵姓？","rom":"Nín guìxìng?"}
+{"id":"zh.c0094","deck":"zh.d.about-me","zh":"我姓王。","rom":"Wǒ xìng Wáng."}
+{"id":"zh.c0095","deck":"zh.d.about-me","zh":"我是美国人。","rom":"Wǒ shì Měiguórén."}
+{"id":"zh.c0096","deck":"zh.d.about-me","zh":"你是哪国人？","rom":"Nǐ shì nǎguórén?"}
+{"id":"zh.c0097","deck":"zh.d.about-me","zh":"我不是中国人。","rom":"Wǒ bú shì Zhōngguórén."}
+{"id":"zh.c0098","deck":"zh.d.about-me","zh":"我也是美国人。","rom":"Wǒ yě shì Měiguórén."}
+{"id":"zh.c0099","deck":"zh.d.about-me","zh":"我们都是美国人。","rom":"Wǒmen dōu shì Měiguórén."}
+{"id":"zh.c0100","deck":"zh.d.about-me","zh":"我住在纽约。","rom":"Wǒ zhù zài Niǔyuē."}
+{"id":"zh.c0101","deck":"zh.d.about-me","zh":"你住在哪儿？","rom":"Nǐ zhù zài nǎr?"}
+{"id":"zh.c0102","deck":"zh.d.about-me","zh":"我今年二十五岁。","rom":"Wǒ jīnnián èrshíwǔ suì."}
+{"id":"zh.c0103","deck":"zh.d.about-me","zh":"你今年多大？","rom":"Nǐ jīnnián duō dà?"}
+{"id":"zh.c0104","deck":"zh.d.about-me","zh":"我学中文。","rom":"Wǒ xué Zhōngwén."}
+{"id":"zh.c0105","deck":"zh.d.about-me","zh":"我喜欢唱歌。","rom":"Wǒ xǐhuan chànggē."}
+{"id":"zh.c0106","deck":"zh.d.about-me","zh":"我的爱好是看书。","rom":"Wǒ de àihào shì kàn shū."}
+{"id":"zh.c0107","deck":"zh.d.about-me","zh":"我爸爸是中国人。","rom":"Wǒ bàba shì Zhōngguórén."}
+{"id":"zh.c0108","deck":"zh.d.numbers-and-money","zh":"零","rom":"líng"}
+{"id":"zh.c0109","deck":"zh.d.numbers-and-money","zh":"一","rom":"yī"}
+{"id":"zh.c0110","deck":"zh.d.numbers-and-money","zh":"二","rom":"èr"}
+{"id":"zh.c0111","deck":"zh.d.numbers-and-money","zh":"两","rom":"liǎng"}
+{"id":"zh.c0112","deck":"zh.d.numbers-and-money","zh":"三","rom":"sān"}
+{"id":"zh.c0113","deck":"zh.d.numbers-and-money","zh":"十","rom":"shí"}
+{"id":"zh.c0114","deck":"zh.d.numbers-and-money","zh":"十五","rom":"shíwǔ"}
+{"id":"zh.c0115","deck":"zh.d.numbers-and-money","zh":"二十","rom":"èrshí"}
+{"id":"zh.c0116","deck":"zh.d.numbers-and-money","zh":"九十九","rom":"jiǔshíjiǔ"}
+{"id":"zh.c0117","deck":"zh.d.numbers-and-money","zh":"一百","rom":"yìbǎi"}
+{"id":"zh.c0118","deck":"zh.d.numbers-and-money","zh":"一百零五","rom":"yìbǎi líng wǔ"}
+{"id":"zh.c0119","deck":"zh.d.numbers-and-money","zh":"一千","rom":"yìqiān"}
+{"id":"zh.c0120","deck":"zh.d.numbers-and-money","zh":"一万","rom":"yíwàn"}
+{"id":"zh.c0121","deck":"zh.d.numbers-and-money","zh":"多少钱？","rom":"Duōshao qián?"}
+{"id":"zh.c0122","deck":"zh.d.numbers-and-money","zh":"一块钱","rom":"yí kuài qián"}
+{"id":"zh.c0123","deck":"zh.d.numbers-and-money","zh":"二十五块","rom":"èrshíwǔ kuài"}
+{"id":"zh.c0124","deck":"zh.d.numbers-and-money","zh":"五毛","rom":"wǔ máo"}
+{"id":"zh.c0125","deck":"zh.d.numbers-and-money","zh":"三块五","rom":"sān kuài wǔ"}
+{"id":"zh.c0126","deck":"zh.d.measure-words","zh":"一个人","rom":"yí ge rén"}
+{"id":"zh.c0127","deck":"zh.d.measure-words","zh":"三本书","rom":"sān běn shū"}
+{"id":"zh.c0128","deck":"zh.d.measure-words","zh":"一杯咖啡","rom":"yì bēi kāfēi"}
+{"id":"zh.c0129","deck":"zh.d.measure-words","zh":"两张票","rom":"liǎng zhāng piào"}
+{"id":"zh.c0130","deck":"zh.d.measure-words","zh":"一只猫","rom":"yì zhī māo"}
+{"id":"zh.c0131","deck":"zh.d.measure-words","zh":"两只狗","rom":"liǎng zhī gǒu"}
+{"id":"zh.c0132","deck":"zh.d.measure-words","zh":"一条鱼","rom":"yì tiáo yú"}
+{"id":"zh.c0133","deck":"zh.d.measure-words","zh":"一件衣服","rom":"yí jiàn yīfu"}
+{"id":"zh.c0134","deck":"zh.d.measure-words","zh":"一双鞋","rom":"yì shuāng xié"}
+{"id":"zh.c0135","deck":"zh.d.measure-words","zh":"一瓶水","rom":"yì píng shuǐ"}
+{"id":"zh.c0136","deck":"zh.d.measure-words","zh":"一辆车","rom":"yí liàng chē"}
+{"id":"zh.c0137","deck":"zh.d.measure-words","zh":"一位老师","rom":"yí wèi lǎoshī"}
+{"id":"zh.c0138","deck":"zh.d.measure-words","zh":"一家饭馆","rom":"yì jiā fànguǎn"}
+{"id":"zh.c0139","deck":"zh.d.measure-words","zh":"这个","rom":"zhège"}
+{"id":"zh.c0140","deck":"zh.d.measure-words","zh":"那个","rom":"nàge"}
+{"id":"zh.c0141","deck":"zh.d.measure-words","zh":"那张桌子","rom":"nà zhāng zhuōzi"}
+{"id":"zh.c0142","deck":"zh.d.measure-words","zh":"这本书","rom":"zhè běn shū"}
+{"id":"zh.c0143","deck":"zh.d.measure-words","zh":"几个人？","rom":"Jǐ ge rén?"}
+{"id":"zh.c0144","deck":"zh.d.food-and-drink","zh":"饺子","rom":"jiǎozi"}
+{"id":"zh.c0145","deck":"zh.d.food-and-drink","zh":"包子","rom":"bāozi"}
+{"id":"zh.c0146","deck":"zh.d.food-and-drink","zh":"米饭","rom":"mǐfàn"}
+{"id":"zh.c0147","deck":"zh.d.food-and-drink","zh":"火锅","rom":"huǒguō"}
+{"id":"zh.c0148","deck":"zh.d.food-and-drink","zh":"北京烤鸭","rom":"Běijīng kǎoyā"}
+{"id":"zh.c0149","deck":"zh.d.food-and-drink","zh":"一碗面条","rom":"yì wǎn miàntiáo"}
+{"id":"zh.c0150","deck":"zh.d.food-and-drink","zh":"绿茶","rom":"lǜchá"}
+{"id":"zh.c0151","deck":"zh.d.food-and-drink","zh":"你想吃什么？","rom":"Nǐ xiǎng chī shénme?"}
+{"id":"zh.c0152","deck":"zh.d.food-and-drink","zh":"我要一杯奶茶。","rom":"Wǒ yào yì bēi nǎichá."}
+{"id":"zh.c0153","deck":"zh.d.food-and-drink","zh":"来一个宫保鸡丁。","rom":"Lái yí ge gōngbǎo jīdīng."}
+{"id":"zh.c0154","deck":"zh.d.food-and-drink","zh":"我们要点菜。","rom":"Wǒmen yào diǎncài."}
+{"id":"zh.c0155","deck":"zh.d.food-and-drink","zh":"不要辣的。","rom":"Bú yào là de."}
+{"id":"zh.c0156","deck":"zh.d.food-and-drink","zh":"微辣","rom":"wēilà"}
+{"id":"zh.c0157","deck":"zh.d.food-and-drink","zh":"我不吃肉。","rom":"Wǒ bù chī ròu."}
+{"id":"zh.c0158","deck":"zh.d.food-and-drink","zh":"一瓶啤酒","rom":"yì píng píjiǔ"}
+{"id":"zh.c0159","deck":"zh.d.food-and-drink","zh":"我吃饱了。","rom":"Wǒ chībǎo le."}
+{"id":"zh.c0160","deck":"zh.d.food-and-drink","zh":"可以打包吗？","rom":"Kěyǐ dǎbāo ma?"}
+{"id":"zh.c0161","deck":"zh.d.food-and-drink","zh":"服务员，买单！","rom":"Fúwùyuán, mǎidān!"}
+{"id":"zh.c0162","deck":"zh.d.shopping","zh":"太贵了！","rom":"Tài guì le!"}
+{"id":"zh.c0163","deck":"zh.d.shopping","zh":"便宜一点儿吧。","rom":"Piányi yìdiǎnr ba."}
+{"id":"zh.c0164","deck":"zh.d.shopping","zh":"可以扫码吗？","rom":"Kěyǐ sǎomǎ ma?"}
+{"id":"zh.c0165","deck":"zh.d.shopping","zh":"有大号的吗？","rom":"Yǒu dàhào de ma?"}
+{"id":"zh.c0166","deck":"zh.d.shopping","zh":"我看看。","rom":"Wǒ kànkan."}
+{"id":"zh.c0167","deck":"zh.d.shopping","zh":"这件衣服多少钱？","rom":"Zhè jiàn yīfu duōshao qián?"}
+{"id":"zh.c0168","deck":"zh.d.shopping","zh":"一共多少钱？","rom":"Yígòng duōshao qián?"}
+{"id":"zh.c0169","deck":"zh.d.shopping","zh":"我要这个。","rom":"Wǒ yào zhège."}
+{"id":"zh.c0170","deck":"zh.d.shopping","zh":"可以试试吗？","rom":"Kěyǐ shìshi ma?"}
+{"id":"zh.c0171","deck":"zh.d.shopping","zh":"有别的颜色吗？","rom":"Yǒu biéde yánsè ma?"}
+{"id":"zh.c0172","deck":"zh.d.shopping","zh":"有小一点儿的吗？","rom":"Yǒu xiǎo yìdiǎnr de ma?"}
+{"id":"zh.c0173","deck":"zh.d.shopping","zh":"这件太大了。","rom":"Zhè jiàn tài dà le."}
+{"id":"zh.c0174","deck":"zh.d.shopping","zh":"打折吗？","rom":"Dǎzhé ma?"}
+{"id":"zh.c0175","deck":"zh.d.shopping","zh":"可以用信用卡吗？","rom":"Kěyǐ yòng xìnyòngkǎ ma?"}
+{"id":"zh.c0176","deck":"zh.d.shopping","zh":"现金可以吗？","rom":"Xiànjīn kěyǐ ma?"}
+{"id":"zh.c0177","deck":"zh.d.shopping","zh":"我想买一双鞋。","rom":"Wǒ xiǎng mǎi yì shuāng xié."}
+{"id":"zh.c0178","deck":"zh.d.shopping","zh":"我再看看。","rom":"Wǒ zài kànkan."}
+{"id":"zh.c0179","deck":"zh.d.shopping","zh":"我不要了。","rom":"Wǒ bú yào le."}
+{"id":"zh.c0180","deck":"zh.d.time-days-and-dates","zh":"明天","rom":"míngtiān"}
+{"id":"zh.c0181","deck":"zh.d.time-days-and-dates","zh":"星期一","rom":"xīngqīyī"}
+{"id":"zh.c0182","deck":"zh.d.time-days-and-dates","zh":"现在几点？","rom":"Xiànzài jǐ diǎn?"}
+{"id":"zh.c0183","deck":"zh.d.time-days-and-dates","zh":"三点半","rom":"sān diǎn bàn"}
+{"id":"zh.c0184","deck":"zh.d.time-days-and-dates","zh":"十二月三号","rom":"shí'èryuè sān hào"}
+{"id":"zh.c0185","deck":"zh.d.time-days-and-dates","zh":"今天星期几？","rom":"Jīntiān xīngqī jǐ?"}
+{"id":"zh.c0186","deck":"zh.d.time-days-and-dates","zh":"今天几号？","rom":"Jīntiān jǐ hào?"}
+{"id":"zh.c0187","deck":"zh.d.time-days-and-dates","zh":"今天星期五。","rom":"Jīntiān xīngqīwǔ."}
+{"id":"zh.c0188","deck":"zh.d.time-days-and-dates","zh":"昨天","rom":"zuótiān"}
+{"id":"zh.c0189","deck":"zh.d.time-days-and-dates","zh":"周末","rom":"zhōumò"}
+{"id":"zh.c0190","deck":"zh.d.time-days-and-dates","zh":"两点十分","rom":"liǎng diǎn shí fēn"}
+{"id":"zh.c0191","deck":"zh.d.time-days-and-dates","zh":"八点一刻","rom":"bā diǎn yí kè"}
+{"id":"zh.c0192","deck":"zh.d.time-days-and-dates","zh":"晚上七点","rom":"wǎnshang qī diǎn"}
+{"id":"zh.c0193","deck":"zh.d.time-days-and-dates","zh":"一个小时","rom":"yí ge xiǎoshí"}
+{"id":"zh.c0194","deck":"zh.d.time-days-and-dates","zh":"十分钟","rom":"shí fēnzhōng"}
+{"id":"zh.c0195","deck":"zh.d.time-days-and-dates","zh":"我每天七点起床。","rom":"Wǒ měitiān qī diǎn qǐchuáng."}
+{"id":"zh.c0196","deck":"zh.d.time-days-and-dates","zh":"我们星期六见。","rom":"Wǒmen xīngqīliù jiàn."}
+{"id":"zh.c0197","deck":"zh.d.time-days-and-dates","zh":"你几点下班？","rom":"Nǐ jǐ diǎn xiàbān?"}
+{"id":"zh.c0198","deck":"zh.d.around-town-and-directions","zh":"洗手间在哪儿？","rom":"Xǐshǒujiān zài nǎr?"}
+{"id":"zh.c0199","deck":"zh.d.around-town-and-directions","zh":"往前走","rom":"wǎng qián zǒu"}
+{"id":"zh.c0200","deck":"zh.d.around-town-and-directions","zh":"左拐","rom":"zuǒ guǎi"}
+{"id":"zh.c0201","deck":"zh.d.around-town-and-directions","zh":"银行在超市旁边。","rom":"Yínháng zài chāoshì pángbiān."}
+{"id":"zh.c0202","deck":"zh.d.around-town-and-directions","zh":"附近有地铁站吗？","rom":"Fùjìn yǒu dìtiězhàn ma?"}
+{"id":"zh.c0203","deck":"zh.d.around-town-and-directions","zh":"右边","rom":"yòubian"}
+{"id":"zh.c0204","deck":"zh.d.around-town-and-directions","zh":"医院在银行对面。","rom":"Yīyuàn zài yínháng duìmiàn."}
+{"id":"zh.c0205","deck":"zh.d.around-town-and-directions","zh":"在路口右拐。","rom":"Zài lùkǒu yòu guǎi."}
+{"id":"zh.c0206","deck":"zh.d.around-town-and-directions","zh":"离这儿远吗？","rom":"Lí zhèr yuǎn ma?"}
+{"id":"zh.c0207","deck":"zh.d.around-town-and-directions","zh":"走路五分钟。","rom":"Zǒulù wǔ fēnzhōng."}
+{"id":"zh.c0208","deck":"zh.d.around-town-and-directions","zh":"请问，去天安门怎么走？","rom":"Qǐngwèn, qù Tiān'ānmén zěnme zǒu?"}
+{"id":"zh.c0209","deck":"zh.d.around-town-and-directions","zh":"就在那儿。","rom":"Jiù zài nàr."}
+{"id":"zh.c0210","deck":"zh.d.around-town-and-directions","zh":"公园在前边。","rom":"Gōngyuán zài qiánbian."}
+{"id":"zh.c0211","deck":"zh.d.around-town-and-directions","zh":"红绿灯","rom":"hónglǜdēng"}
+{"id":"zh.c0212","deck":"zh.d.around-town-and-directions","zh":"过马路","rom":"guò mǎlù"}
+{"id":"zh.c0213","deck":"zh.d.around-town-and-directions","zh":"我去超市买东西。","rom":"Wǒ qù chāoshì mǎi dōngxi."}
+{"id":"zh.c0214","deck":"zh.d.around-town-and-directions","zh":"我在公园等你。","rom":"Wǒ zài gōngyuán děng nǐ."}
+{"id":"zh.c0215","deck":"zh.d.travel-and-transport","zh":"出租车","rom":"chūzūchē"}
+{"id":"zh.c0216","deck":"zh.d.travel-and-transport","zh":"地铁","rom":"dìtiě"}
+{"id":"zh.c0217","deck":"zh.d.travel-and-transport","zh":"师傅，去机场。","rom":"Shīfu, qù jīchǎng."}
+{"id":"zh.c0218","deck":"zh.d.travel-and-transport","zh":"我坐高铁去上海。","rom":"Wǒ zuò gāotiě qù Shànghǎi."}
+{"id":"zh.c0219","deck":"zh.d.travel-and-transport","zh":"一张去西安的票","rom":"yì zhāng qù Xī'ān de piào"}
+{"id":"zh.c0220","deck":"zh.d.travel-and-transport","zh":"公交车","rom":"gōngjiāochē"}
+{"id":"zh.c0221","deck":"zh.d.travel-and-transport","zh":"自行车","rom":"zìxíngchē"}
+{"id":"zh.c0222","deck":"zh.d.travel-and-transport","zh":"火车站","rom":"huǒchēzhàn"}
+{"id":"zh.c0223","deck":"zh.d.travel-and-transport","zh":"坐飞机","rom":"zuò fēijī"}
+{"id":"zh.c0224","deck":"zh.d.travel-and-transport","zh":"护照","rom":"hùzhào"}
+{"id":"zh.c0225","deck":"zh.d.travel-and-transport","zh":"我的护照呢？","rom":"Wǒ de hùzhào ne?"}
+{"id":"zh.c0226","deck":"zh.d.travel-and-transport","zh":"行李","rom":"xíngli"}
+{"id":"zh.c0227","deck":"zh.d.travel-and-transport","zh":"有房间吗？","rom":"Yǒu fángjiān ma?"}
+{"id":"zh.c0228","deck":"zh.d.travel-and-transport","zh":"师傅，在这儿停一下。","rom":"Shīfu, zài zhèr tíng yíxià."}
+{"id":"zh.c0229","deck":"zh.d.travel-and-transport","zh":"我们打车去吧。","rom":"Wǒmen dǎchē qù ba."}
+{"id":"zh.c0230","deck":"zh.d.travel-and-transport","zh":"火车几点到？","rom":"Huǒchē jǐ diǎn dào?"}
+{"id":"zh.c0231","deck":"zh.d.travel-and-transport","zh":"我们到北京了。","rom":"Wǒmen dào Běijīng le."}
+{"id":"zh.c0232","deck":"zh.d.travel-and-transport","zh":"我去西安旅游。","rom":"Wǒ qù Xī'ān lǚyóu."}
+{"id":"zh.c0233","deck":"zh.d.work-and-study","zh":"老师","rom":"lǎoshī"}
+{"id":"zh.c0234","deck":"zh.d.work-and-study","zh":"学生","rom":"xuésheng"}
+{"id":"zh.c0235","deck":"zh.d.work-and-study","zh":"我在银行工作。","rom":"Wǒ zài yínháng gōngzuò."}
+{"id":"zh.c0236","deck":"zh.d.work-and-study","zh":"你做什么工作？","rom":"Nǐ zuò shénme gōngzuò?"}
+{"id":"zh.c0237","deck":"zh.d.work-and-study","zh":"我会说一点儿中文。","rom":"Wǒ huì shuō yìdiǎnr Zhōngwén."}
+{"id":"zh.c0238","deck":"zh.d.work-and-study","zh":"她是护士。","rom":"Tā shì hùshi."}
+{"id":"zh.c0239","deck":"zh.d.work-and-study","zh":"同事","rom":"tóngshì"}
+{"id":"zh.c0240","deck":"zh.d.work-and-study","zh":"公司","rom":"gōngsī"}
+{"id":"zh.c0241","deck":"zh.d.work-and-study","zh":"经理","rom":"jīnglǐ"}
+{"id":"zh.c0242","deck":"zh.d.work-and-study","zh":"我在学习中文。","rom":"Wǒ zài xuéxí Zhōngwén."}
+{"id":"zh.c0243","deck":"zh.d.work-and-study","zh":"你在做什么？","rom":"Nǐ zài zuò shénme?"}
+{"id":"zh.c0244","deck":"zh.d.work-and-study","zh":"我正在开会。","rom":"Wǒ zhèngzài kāihuì."}
+{"id":"zh.c0245","deck":"zh.d.work-and-study","zh":"你会开车吗？","rom":"Nǐ huì kāichē ma?"}
+{"id":"zh.c0246","deck":"zh.d.work-and-study","zh":"我明天不能来。","rom":"Wǒ míngtiān bù néng lái."}
+{"id":"zh.c0247","deck":"zh.d.work-and-study","zh":"我可以进来吗？","rom":"Wǒ kěyǐ jìnlai ma?"}
+{"id":"zh.c0248","deck":"zh.d.work-and-study","zh":"明天有考试。","rom":"Míngtiān yǒu kǎoshì."}
+{"id":"zh.c0249","deck":"zh.d.work-and-study","zh":"我们八点上课。","rom":"Wǒmen bā diǎn shàngkè."}
+{"id":"zh.c0250","deck":"zh.d.work-and-study","zh":"图书馆","rom":"túshūguǎn"}
+{"id":"zh.c0251","deck":"zh.d.health-and-help","zh":"我不舒服。","rom":"Wǒ bù shūfu."}
+{"id":"zh.c0252","deck":"zh.d.health-and-help","zh":"我头疼。","rom":"Wǒ tóuténg."}
+{"id":"zh.c0253","deck":"zh.d.health-and-help","zh":"我感冒了。","rom":"Wǒ gǎnmào le."}
+{"id":"zh.c0254","deck":"zh.d.health-and-help","zh":"药店","rom":"yàodiàn"}
+{"id":"zh.c0255","deck":"zh.d.health-and-help","zh":"救命！","rom":"Jiùmìng!"}
+{"id":"zh.c0256","deck":"zh.d.health-and-help","zh":"我发烧了。","rom":"Wǒ fāshāo le."}
+{"id":"zh.c0257","deck":"zh.d.health-and-help","zh":"我肚子疼。","rom":"Wǒ dùzi téng."}
+{"id":"zh.c0258","deck":"zh.d.health-and-help","zh":"你哪儿不舒服？","rom":"Nǐ nǎr bù shūfu?"}
+{"id":"zh.c0259","deck":"zh.d.health-and-help","zh":"我想看医生。","rom":"Wǒ xiǎng kàn yīshēng."}
+{"id":"zh.c0260","deck":"zh.d.health-and-help","zh":"我有点儿咳嗽。","rom":"Wǒ yǒudiǎnr késou."}
+{"id":"zh.c0261","deck":"zh.d.health-and-help","zh":"请帮我一下。","rom":"Qǐng bāng wǒ yíxià."}
+{"id":"zh.c0262","deck":"zh.d.health-and-help","zh":"别担心。","rom":"Bié dānxīn."}
+{"id":"zh.c0263","deck":"zh.d.health-and-help","zh":"小心！","rom":"Xiǎoxīn!"}
+{"id":"zh.c0264","deck":"zh.d.health-and-help","zh":"多喝水。","rom":"Duō hē shuǐ."}
+{"id":"zh.c0265","deck":"zh.d.health-and-help","zh":"好好休息吧。","rom":"Hǎohǎo xiūxi ba."}
+{"id":"zh.c0266","deck":"zh.d.health-and-help","zh":"你好一点儿了吗？","rom":"Nǐ hǎo yìdiǎnr le ma?"}
+{"id":"zh.c0267","deck":"zh.d.health-and-help","zh":"我没事。","rom":"Wǒ méishì."}
+{"id":"zh.c0268","deck":"zh.d.health-and-help","zh":"快叫警察！","rom":"Kuài jiào jǐngchá!"}
+{"id":"zh.c0269","deck":"zh.d.describing-things","zh":"大","rom":"dà"}
+{"id":"zh.c0270","deck":"zh.d.describing-things","zh":"小","rom":"xiǎo"}
+{"id":"zh.c0271","deck":"zh.d.describing-things","zh":"这个很好吃。","rom":"Zhège hěn hǎochī."}
+{"id":"zh.c0272","deck":"zh.d.describing-things","zh":"今天很冷。","rom":"Jīntiān hěn lěng."}
+{"id":"zh.c0273","deck":"zh.d.describing-things","zh":"她很高。","rom":"Tā hěn gāo."}
+{"id":"zh.c0274","deck":"zh.d.describing-things","zh":"他很帅。","rom":"Tā hěn shuài."}
+{"id":"zh.c0275","deck":"zh.d.describing-things","zh":"她很漂亮。","rom":"Tā hěn piàoliang."}
+{"id":"zh.c0276","deck":"zh.d.describing-things","zh":"真好看！","rom":"Zhēn hǎokàn!"}
+{"id":"zh.c0277","deck":"zh.d.describing-things","zh":"外边很热。","rom":"Wàibian hěn rè."}
+{"id":"zh.c0278","deck":"zh.d.describing-things","zh":"我很忙。","rom":"Wǒ hěn máng."}
+{"id":"zh.c0279","deck":"zh.d.describing-things","zh":"中文不难。","rom":"Zhōngwén bù nán."}
+{"id":"zh.c0280","deck":"zh.d.describing-things","zh":"我的房间不大。","rom":"Wǒ de fángjiān bú dà."}
+{"id":"zh.c0281","deck":"zh.d.describing-things","zh":"这儿很热闹。","rom":"Zhèr hěn rènao."}
+{"id":"zh.c0282","deck":"zh.d.describing-things","zh":"这个菜很辣。","rom":"Zhège cài hěn là."}
+{"id":"zh.c0283","deck":"zh.d.describing-things","zh":"有点儿贵。","rom":"Yǒudiǎnr guì."}
+{"id":"zh.c0284","deck":"zh.d.describing-things","zh":"他是一个很好的人。","rom":"Tā shì yí ge hěn hǎo de rén."}
+{"id":"zh.c0285","deck":"zh.d.describing-things","zh":"一辆白色的车","rom":"yí liàng báisè de chē"}
+{"id":"zh.c0286","deck":"zh.d.describing-things","zh":"太好了！","rom":"Tài hǎo le!"}
+{"id":"zh.c0287","deck":"zh.d.questions-and-connectors","zh":"什么？","rom":"Shénme?"}
+{"id":"zh.c0288","deck":"zh.d.questions-and-connectors","zh":"谁？","rom":"Shéi?"}
+{"id":"zh.c0289","deck":"zh.d.questions-and-connectors","zh":"你呢？","rom":"Nǐ ne?"}
+{"id":"zh.c0290","deck":"zh.d.questions-and-connectors","zh":"茶还是咖啡？","rom":"Chá háishi kāfēi?"}
+{"id":"zh.c0291","deck":"zh.d.questions-and-connectors","zh":"但是","rom":"dànshì"}
+{"id":"zh.c0292","deck":"zh.d.questions-and-connectors","zh":"为什么？","rom":"Wèishénme?"}
+{"id":"zh.c0293","deck":"zh.d.questions-and-connectors","zh":"怎么样？","rom":"Zěnmeyàng?"}
+{"id":"zh.c0294","deck":"zh.d.questions-and-connectors","zh":"什么时候？","rom":"Shénme shíhou?"}
+{"id":"zh.c0295","deck":"zh.d.questions-and-connectors","zh":"哪个？","rom":"Nǎge?"}
+{"id":"zh.c0296","deck":"zh.d.questions-and-connectors","zh":"你忙吗？","rom":"Nǐ máng ma?"}
+{"id":"zh.c0297","deck":"zh.d.questions-and-connectors","zh":"你去不去？","rom":"Nǐ qù bu qù?"}
+{"id":"zh.c0298","deck":"zh.d.questions-and-connectors","zh":"你有没有时间？","rom":"Nǐ yǒu méiyǒu shíjiān?"}
+{"id":"zh.c0299","deck":"zh.d.questions-and-connectors","zh":"你喜不喜欢中国菜？","rom":"Nǐ xǐ bu xǐhuan Zhōngguó cài?"}
+{"id":"zh.c0300","deck":"zh.d.questions-and-connectors","zh":"这个用中文怎么说？","rom":"Zhège yòng Zhōngwén zěnme shuō?"}
+{"id":"zh.c0301","deck":"zh.d.questions-and-connectors","zh":"因为","rom":"yīnwèi"}
+{"id":"zh.c0302","deck":"zh.d.questions-and-connectors","zh":"所以","rom":"suǒyǐ"}
+{"id":"zh.c0303","deck":"zh.d.questions-and-connectors","zh":"星期六或者星期天","rom":"xīngqīliù huòzhě xīngqītiān"}
+{"id":"zh.c0304","deck":"zh.d.questions-and-connectors","zh":"我和他一起去。","rom":"Wǒ hé tā yìqǐ qù."}
+{"id":"zh.c0305","deck":"zh.d.traps-for-english-speakers","zh":"我很高兴。","rom":"Wǒ hěn gāoxìng."}
+{"id":"zh.c0306","deck":"zh.d.traps-for-english-speakers","zh":"我没去。","rom":"Wǒ méi qù."}
+{"id":"zh.c0307","deck":"zh.d.traps-for-english-speakers","zh":"两个人","rom":"liǎng ge rén"}
+{"id":"zh.c0308","deck":"zh.d.traps-for-english-speakers","zh":"服务员！","rom":"Fúwùyuán!"}
+{"id":"zh.c0309","deck":"zh.d.traps-for-english-speakers","zh":"吃了吗？","rom":"Chī le ma?"}
+{"id":"zh.c0310","deck":"zh.d.traps-for-english-speakers","zh":"我很累。","rom":"Wǒ hěn lèi."}
+{"id":"zh.c0311","deck":"zh.d.traps-for-english-speakers","zh":"我三十岁。","rom":"Wǒ sānshí suì."}
+{"id":"zh.c0312","deck":"zh.d.traps-for-english-speakers","zh":"我饿了。","rom":"Wǒ è le."}
+{"id":"zh.c0313","deck":"zh.d.traps-for-english-speakers","zh":"我不喝酒。","rom":"Wǒ bù hē jiǔ."}
+{"id":"zh.c0314","deck":"zh.d.traps-for-english-speakers","zh":"我没有钱。","rom":"Wǒ méiyǒu qián."}
+{"id":"zh.c0315","deck":"zh.d.traps-for-english-speakers","zh":"两点","rom":"liǎng diǎn"}
+{"id":"zh.c0316","deck":"zh.d.traps-for-english-speakers","zh":"你好吗？","rom":"Nǐ hǎo ma?"}
+{"id":"zh.c0317","deck":"zh.d.traps-for-english-speakers","zh":"她中文说得很好。","rom":"Tā Zhōngwén shuō de hěn hǎo."}
+{"id":"zh.c0318","deck":"zh.d.traps-for-english-speakers","zh":"我不去了。","rom":"Wǒ bú qù le."}
+{"id":"zh.c0319","deck":"zh.d.traps-for-english-speakers","zh":"小姐","rom":"xiǎojiě"}
+{"id":"zh.c0320","deck":"zh.d.traps-for-english-speakers","zh":"东西","rom":"dōngxi"}
+{"id":"zh.c0321","deck":"zh.d.traps-for-english-speakers","zh":"老外","rom":"lǎowài"}
+{"id":"zh.c0322","deck":"zh.d.top-nouns","zh":"工作","rom":"gōngzuò"}
+{"id":"zh.c0323","deck":"zh.d.top-nouns","zh":"中国","rom":"Zhōngguó"}
+{"id":"zh.c0324","deck":"zh.d.top-nouns","zh":"先生","rom":"xiānsheng"}
+{"id":"zh.c0325","deck":"zh.d.top-nouns","zh":"问题","rom":"wèntí"}
+{"id":"zh.c0326","deck":"zh.d.top-nouns","zh":"时候","rom":"shíhou"}
+{"id":"zh.c0327","deck":"zh.d.top-nouns","zh":"事","rom":"shì"}
+{"id":"zh.c0328","deck":"zh.d.top-nouns","zh":"孩子","rom":"háizi"}
+{"id":"zh.c0329","deck":"zh.d.top-nouns","zh":"事情","rom":"shìqing"}
+{"id":"zh.c0330","deck":"zh.d.top-nouns","zh":"时间","rom":"shíjiān"}
+{"id":"zh.c0331","deck":"zh.d.top-nouns","zh":"钱","rom":"qián"}
+{"id":"zh.c0332","deck":"zh.d.top-nouns","zh":"家","rom":"jiā"}
+{"id":"zh.c0333","deck":"zh.d.top-nouns","zh":"名字","rom":"míngzi"}
+{"id":"zh.c0334","deck":"zh.d.top-nouns","zh":"意思","rom":"yìsi"}
+{"id":"zh.c0335","deck":"zh.d.top-nouns","zh":"地方","rom":"dìfang"}
+{"id":"zh.c0336","deck":"zh.d.top-nouns","zh":"手机","rom":"shǒujī"}
+{"id":"zh.c0337","deck":"zh.d.top-nouns","zh":"电话","rom":"diànhuà"}
+{"id":"zh.c0338","deck":"zh.d.top-nouns","zh":"电脑","rom":"diànnǎo"}
+{"id":"zh.c0339","deck":"zh.d.top-nouns","zh":"电视","rom":"diànshì"}
+{"id":"zh.c0340","deck":"zh.d.top-nouns","zh":"电影","rom":"diànyǐng"}
+{"id":"zh.c0341","deck":"zh.d.top-nouns","zh":"衣服","rom":"yīfu"}
+{"id":"zh.c0342","deck":"zh.d.top-nouns","zh":"房子","rom":"fángzi"}
+{"id":"zh.c0343","deck":"zh.d.top-nouns","zh":"房间","rom":"fángjiān"}
+{"id":"zh.c0344","deck":"zh.d.top-nouns","zh":"学校","rom":"xuéxiào"}
+{"id":"zh.c0345","deck":"zh.d.top-nouns","zh":"医院","rom":"yīyuàn"}
+{"id":"zh.c0346","deck":"zh.d.top-nouns","zh":"医生","rom":"yīshēng"}
+{"id":"zh.c0347","deck":"zh.d.top-nouns","zh":"男人","rom":"nánrén"}
+{"id":"zh.c0348","deck":"zh.d.top-nouns","zh":"女人","rom":"nǚrén"}
+{"id":"zh.c0349","deck":"zh.d.top-nouns","zh":"丈夫","rom":"zhàngfu"}
+{"id":"zh.c0350","deck":"zh.d.top-nouns","zh":"妻子","rom":"qīzi"}
+{"id":"zh.c0351","deck":"zh.d.top-nouns","zh":"老公","rom":"lǎogōng"}
+{"id":"zh.c0352","deck":"zh.d.top-nouns","zh":"老婆","rom":"lǎopo"}
+{"id":"zh.c0353","deck":"zh.d.top-nouns","zh":"父母","rom":"fùmǔ"}
+{"id":"zh.c0354","deck":"zh.d.top-nouns","zh":"家人","rom":"jiārén"}
+{"id":"zh.c0355","deck":"zh.d.top-nouns","zh":"世界","rom":"shìjiè"}
+{"id":"zh.c0356","deck":"zh.d.top-nouns","zh":"国家","rom":"guójiā"}
+{"id":"zh.c0357","deck":"zh.d.top-nouns","zh":"城市","rom":"chéngshì"}
+{"id":"zh.c0358","deck":"zh.d.top-nouns","zh":"路","rom":"lù"}
+{"id":"zh.c0359","deck":"zh.d.top-nouns","zh":"车","rom":"chē"}
+{"id":"zh.c0360","deck":"zh.d.top-nouns","zh":"汽车","rom":"qìchē"}
+{"id":"zh.c0361","deck":"zh.d.top-nouns","zh":"飞机","rom":"fēijī"}
+{"id":"zh.c0362","deck":"zh.d.top-nouns","zh":"饭","rom":"fàn"}
+{"id":"zh.c0363","deck":"zh.d.top-nouns","zh":"茶","rom":"chá"}
+{"id":"zh.c0364","deck":"zh.d.top-nouns","zh":"咖啡","rom":"kāfēi"}
+{"id":"zh.c0365","deck":"zh.d.top-nouns","zh":"书","rom":"shū"}
+{"id":"zh.c0366","deck":"zh.d.top-nouns","zh":"话","rom":"huà"}
+{"id":"zh.c0367","deck":"zh.d.top-nouns","zh":"课","rom":"kè"}
+{"id":"zh.c0368","deck":"zh.d.top-nouns","zh":"中文","rom":"Zhōngwén"}
+{"id":"zh.c0369","deck":"zh.d.top-nouns","zh":"汉字","rom":"Hànzì"}
+{"id":"zh.c0370","deck":"zh.d.top-nouns","zh":"英语","rom":"Yīngyǔ"}
+{"id":"zh.c0371","deck":"zh.d.top-nouns","zh":"身体","rom":"shēntǐ"}
+{"id":"zh.c0372","deck":"zh.d.top-nouns","zh":"头","rom":"tóu"}
+{"id":"zh.c0373","deck":"zh.d.top-nouns","zh":"手","rom":"shǒu"}
+{"id":"zh.c0374","deck":"zh.d.top-nouns","zh":"心","rom":"xīn"}
+{"id":"zh.c0375","deck":"zh.d.top-nouns","zh":"生日","rom":"shēngrì"}
+{"id":"zh.c0376","deck":"zh.d.top-nouns","zh":"天气","rom":"tiānqì"}
+{"id":"zh.c0377","deck":"zh.d.top-nouns","zh":"音乐","rom":"yīnyuè"}
+{"id":"zh.c0378","deck":"zh.d.top-nouns","zh":"游戏","rom":"yóuxì"}
+{"id":"zh.c0379","deck":"zh.d.top-nouns","zh":"礼物","rom":"lǐwù"}
+{"id":"zh.c0380","deck":"zh.d.top-nouns","zh":"照片","rom":"zhàopiàn"}
+{"id":"zh.c0381","deck":"zh.d.top-nouns","zh":"外国人","rom":"wàiguórén"}
+{"id":"zh.c0382","deck":"zh.d.top-nouns","zh":"老板","rom":"lǎobǎn"}
+{"id":"zh.c0383","deck":"zh.d.top-nouns","zh":"客人","rom":"kèren"}
+{"id":"zh.c0384","deck":"zh.d.top-nouns","zh":"邻居","rom":"línjū"}
+{"id":"zh.c0385","deck":"zh.d.top-nouns","zh":"同学","rom":"tóngxué"}
+{"id":"zh.c0386","deck":"zh.d.top-nouns","zh":"动物","rom":"dòngwù"}
+{"id":"zh.c0387","deck":"zh.d.top-nouns","zh":"猫","rom":"māo"}
+{"id":"zh.c0388","deck":"zh.d.top-nouns","zh":"鸟","rom":"niǎo"}
+{"id":"zh.c0389","deck":"zh.d.top-nouns","zh":"鱼","rom":"yú"}
+{"id":"zh.c0390","deck":"zh.d.top-nouns","zh":"水果","rom":"shuǐguǒ"}
+{"id":"zh.c0391","deck":"zh.d.top-nouns","zh":"苹果","rom":"píngguǒ"}
+{"id":"zh.c0392","deck":"zh.d.top-nouns","zh":"肉","rom":"ròu"}
+{"id":"zh.c0393","deck":"zh.d.top-nouns","zh":"鸡蛋","rom":"jīdàn"}
+{"id":"zh.c0394","deck":"zh.d.top-nouns","zh":"面包","rom":"miànbāo"}
+{"id":"zh.c0395","deck":"zh.d.top-nouns","zh":"牛奶","rom":"niúnǎi"}
+{"id":"zh.c0396","deck":"zh.d.top-nouns","zh":"酒","rom":"jiǔ"}
+{"id":"zh.c0397","deck":"zh.d.top-nouns","zh":"杯子","rom":"bēizi"}
+{"id":"zh.c0398","deck":"zh.d.top-nouns","zh":"桌子","rom":"zhuōzi"}
+{"id":"zh.c0399","deck":"zh.d.top-nouns","zh":"椅子","rom":"yǐzi"}
+{"id":"zh.c0400","deck":"zh.d.top-nouns","zh":"床","rom":"chuáng"}
+{"id":"zh.c0401","deck":"zh.d.top-nouns","zh":"窗户","rom":"chuānghu"}
+{"id":"zh.c0402","deck":"zh.d.top-nouns","zh":"灯","rom":"dēng"}
+{"id":"zh.c0403","deck":"zh.d.top-nouns","zh":"钥匙","rom":"yàoshi"}
+{"id":"zh.c0404","deck":"zh.d.top-nouns","zh":"包","rom":"bāo"}
+{"id":"zh.c0405","deck":"zh.d.top-nouns","zh":"伞","rom":"sǎn"}
+{"id":"zh.c0406","deck":"zh.d.top-nouns","zh":"笔","rom":"bǐ"}
+{"id":"zh.c0407","deck":"zh.d.top-nouns","zh":"纸","rom":"zhǐ"}
+{"id":"zh.c0408","deck":"zh.d.top-nouns","zh":"地图","rom":"dìtú"}
+{"id":"zh.c0409","deck":"zh.d.top-nouns","zh":"票","rom":"piào"}
+{"id":"zh.c0410","deck":"zh.d.top-nouns","zh":"商店","rom":"shāngdiàn"}
+{"id":"zh.c0411","deck":"zh.d.top-nouns","zh":"超市","rom":"chāoshì"}
+{"id":"zh.c0412","deck":"zh.d.top-nouns","zh":"饭馆","rom":"fànguǎn"}
+{"id":"zh.c0413","deck":"zh.d.top-nouns","zh":"公园","rom":"gōngyuán"}
+{"id":"zh.c0414","deck":"zh.d.top-nouns","zh":"机场","rom":"jīchǎng"}
+{"id":"zh.c0415","deck":"zh.d.top-nouns","zh":"银行","rom":"yínháng"}
+{"id":"zh.c0416","deck":"zh.d.top-nouns","zh":"大学","rom":"dàxué"}
+{"id":"zh.c0417","deck":"zh.d.top-nouns","zh":"办公室","rom":"bàngōngshì"}
+{"id":"zh.c0418","deck":"zh.d.top-nouns","zh":"厕所","rom":"cèsuǒ"}
+{"id":"zh.c0419","deck":"zh.d.top-nouns","zh":"厨房","rom":"chúfáng"}
+{"id":"zh.c0420","deck":"zh.d.top-nouns","zh":"爱好","rom":"àihào"}
+{"id":"zh.c0421","deck":"zh.d.top-nouns","zh":"生词","rom":"shēngcí"}
+{"id":"zh.c0422","deck":"zh.d.top-nouns","zh":"句子","rom":"jùzi"}
+{"id":"zh.c0423","deck":"zh.d.top-nouns","zh":"微信","rom":"Wēixìn"}
+{"id":"zh.c0424","deck":"zh.d.top-nouns","zh":"网","rom":"wǎng"}
+{"id":"zh.c0425","deck":"zh.d.top-nouns","zh":"号码","rom":"hàomǎ"}
+{"id":"zh.c0426","deck":"zh.d.top-nouns","zh":"颜色","rom":"yánsè"}
+{"id":"zh.c0427","deck":"zh.d.top-nouns","zh":"小孩儿","rom":"xiǎoháir"}
+{"id":"zh.c0428","deck":"zh.d.top-nouns","zh":"宝宝","rom":"bǎobao"}
+{"id":"zh.c0429","deck":"zh.d.top-nouns","zh":"大人","rom":"dàren"}
+{"id":"zh.c0430","deck":"zh.d.top-nouns","zh":"酒店","rom":"jiǔdiàn"}
+{"id":"zh.c0431","deck":"zh.d.top-nouns","zh":"病","rom":"bìng"}
+{"id":"zh.c0432","deck":"zh.d.top-nouns","zh":"药","rom":"yào"}
+{"id":"zh.c0433","deck":"zh.d.top-verbs","zh":"要","rom":"yào"}
+{"id":"zh.c0434","deck":"zh.d.top-verbs","zh":"说","rom":"shuō"}
+{"id":"zh.c0435","deck":"zh.d.top-verbs","zh":"会","rom":"huì"}
+{"id":"zh.c0436","deck":"zh.d.top-verbs","zh":"知道","rom":"zhīdào"}
+{"id":"zh.c0437","deck":"zh.d.top-verbs","zh":"来","rom":"lái"}
+{"id":"zh.c0438","deck":"zh.d.top-verbs","zh":"让","rom":"ràng"}
+{"id":"zh.c0439","deck":"zh.d.top-verbs","zh":"想","rom":"xiǎng"}
+{"id":"zh.c0440","deck":"zh.d.top-verbs","zh":"可以","rom":"kěyǐ"}
+{"id":"zh.c0441","deck":"zh.d.top-verbs","zh":"做","rom":"zuò"}
+{"id":"zh.c0442","deck":"zh.d.top-verbs","zh":"等","rom":"děng"}
+{"id":"zh.c0443","deck":"zh.d.top-verbs","zh":"能","rom":"néng"}
+{"id":"zh.c0444","deck":"zh.d.top-verbs","zh":"听","rom":"tīng"}
+{"id":"zh.c0445","deck":"zh.d.top-verbs","zh":"走","rom":"zǒu"}
+{"id":"zh.c0446","deck":"zh.d.top-verbs","zh":"觉得","rom":"juéde"}
+{"id":"zh.c0447","deck":"zh.d.top-verbs","zh":"喜欢","rom":"xǐhuan"}
+{"id":"zh.c0448","deck":"zh.d.top-verbs","zh":"找","rom":"zhǎo"}
+{"id":"zh.c0449","deck":"zh.d.top-verbs","zh":"应该","rom":"yīnggāi"}
+{"id":"zh.c0450","deck":"zh.d.top-verbs","zh":"请","rom":"qǐng"}
+{"id":"zh.c0451","deck":"zh.d.top-verbs","zh":"叫","rom":"jiào"}
+{"id":"zh.c0452","deck":"zh.d.top-verbs","zh":"死","rom":"sǐ"}
+{"id":"zh.c0453","deck":"zh.d.top-verbs","zh":"帮","rom":"bāng"}
+{"id":"zh.c0454","deck":"zh.d.top-verbs","zh":"需要","rom":"xūyào"}
+{"id":"zh.c0455","deck":"zh.d.top-verbs","zh":"开始","rom":"kāishǐ"}
+{"id":"zh.c0456","deck":"zh.d.top-verbs","zh":"带","rom":"dài"}
+{"id":"zh.c0457","deck":"zh.d.top-verbs","zh":"认识","rom":"rènshi"}
+{"id":"zh.c0458","deck":"zh.d.top-verbs","zh":"住","rom":"zhù"}
+{"id":"zh.c0459","deck":"zh.d.top-verbs","zh":"学","rom":"xué"}
+{"id":"zh.c0460","deck":"zh.d.top-verbs","zh":"学习","rom":"xuéxí"}
+{"id":"zh.c0461","deck":"zh.d.top-verbs","zh":"教","rom":"jiāo"}
+{"id":"zh.c0462","deck":"zh.d.top-verbs","zh":"写","rom":"xiě"}
+{"id":"zh.c0463","deck":"zh.d.top-verbs","zh":"读","rom":"dú"}
+{"id":"zh.c0464","deck":"zh.d.top-verbs","zh":"坐","rom":"zuò"}
+{"id":"zh.c0465","deck":"zh.d.top-verbs","zh":"站","rom":"zhàn"}
+{"id":"zh.c0466","deck":"zh.d.top-verbs","zh":"跑","rom":"pǎo"}
+{"id":"zh.c0467","deck":"zh.d.top-verbs","zh":"回","rom":"huí"}
+{"id":"zh.c0468","deck":"zh.d.top-verbs","zh":"回家","rom":"huíjiā"}
+{"id":"zh.c0469","deck":"zh.d.top-verbs","zh":"进","rom":"jìn"}
+{"id":"zh.c0470","deck":"zh.d.top-verbs","zh":"出","rom":"chū"}
+{"id":"zh.c0471","deck":"zh.d.top-verbs","zh":"开","rom":"kāi"}
+{"id":"zh.c0472","deck":"zh.d.top-verbs","zh":"关","rom":"guān"}
+{"id":"zh.c0473","deck":"zh.d.top-verbs","zh":"穿","rom":"chuān"}
+{"id":"zh.c0474","deck":"zh.d.top-verbs","zh":"拿","rom":"ná"}
+{"id":"zh.c0475","deck":"zh.d.top-verbs","zh":"放","rom":"fàng"}
+{"id":"zh.c0476","deck":"zh.d.top-verbs","zh":"送","rom":"sòng"}
+{"id":"zh.c0477","deck":"zh.d.top-verbs","zh":"玩儿","rom":"wánr"}
+{"id":"zh.c0478","deck":"zh.d.top-verbs","zh":"睡觉","rom":"shuìjiào"}
+{"id":"zh.c0479","deck":"zh.d.top-verbs","zh":"起床","rom":"qǐchuáng"}
+{"id":"zh.c0480","deck":"zh.d.top-verbs","zh":"休息","rom":"xiūxi"}
+{"id":"zh.c0481","deck":"zh.d.top-verbs","zh":"上班","rom":"shàngbān"}
+{"id":"zh.c0482","deck":"zh.d.top-verbs","zh":"爱","rom":"ài"}
+{"id":"zh.c0483","deck":"zh.d.top-verbs","zh":"懂","rom":"dǒng"}
+{"id":"zh.c0484","deck":"zh.d.top-verbs","zh":"忘","rom":"wàng"}
+{"id":"zh.c0485","deck":"zh.d.top-verbs","zh":"记得","rom":"jìde"}
+{"id":"zh.c0486","deck":"zh.d.top-verbs","zh":"希望","rom":"xīwàng"}
+{"id":"zh.c0487","deck":"zh.d.top-verbs","zh":"打算","rom":"dǎsuan"}
+{"id":"zh.c0488","deck":"zh.d.top-verbs","zh":"准备","rom":"zhǔnbèi"}
+{"id":"zh.c0489","deck":"zh.d.top-verbs","zh":"见","rom":"jiàn"}
+{"id":"zh.c0490","deck":"zh.d.top-verbs","zh":"见面","rom":"jiànmiàn"}
+{"id":"zh.c0491","deck":"zh.d.top-verbs","zh":"换","rom":"huàn"}
+{"id":"zh.c0492","deck":"zh.d.top-verbs","zh":"试","rom":"shì"}
+{"id":"zh.c0493","deck":"zh.d.top-verbs","zh":"介绍","rom":"jièshào"}
+{"id":"zh.c0494","deck":"zh.d.top-verbs","zh":"欢迎","rom":"huānyíng"}
+{"id":"zh.c0495","deck":"zh.d.top-verbs","zh":"唱歌","rom":"chànggē"}
+{"id":"zh.c0496","deck":"zh.d.top-verbs","zh":"跳舞","rom":"tiàowǔ"}
+{"id":"zh.c0497","deck":"zh.d.top-verbs","zh":"游泳","rom":"yóuyǒng"}
+{"id":"zh.c0498","deck":"zh.d.top-verbs","zh":"跑步","rom":"pǎobù"}
+{"id":"zh.c0499","deck":"zh.d.top-verbs","zh":"运动","rom":"yùndòng"}
+{"id":"zh.c0500","deck":"zh.d.top-verbs","zh":"旅游","rom":"lǚyóu"}
+{"id":"zh.c0501","deck":"zh.d.top-verbs","zh":"开车","rom":"kāichē"}
+{"id":"zh.c0502","deck":"zh.d.top-verbs","zh":"打电话","rom":"dǎ diànhuà"}
+{"id":"zh.c0503","deck":"zh.d.top-verbs","zh":"上网","rom":"shàngwǎng"}
+{"id":"zh.c0504","deck":"zh.d.top-verbs","zh":"考试","rom":"kǎoshì"}
+{"id":"zh.c0505","deck":"zh.d.top-verbs","zh":"结婚","rom":"jiéhūn"}
+{"id":"zh.c0506","deck":"zh.d.top-verbs","zh":"生病","rom":"shēngbìng"}
+{"id":"zh.c0507","deck":"zh.d.top-verbs","zh":"哭","rom":"kū"}
+{"id":"zh.c0508","deck":"zh.d.top-verbs","zh":"发","rom":"fā"}
+{"id":"zh.c0509","deck":"zh.d.top-verbs","zh":"付","rom":"fù"}
+{"id":"zh.c0510","deck":"zh.d.top-verbs","zh":"丢","rom":"diū"}
+{"id":"zh.c0511","deck":"zh.d.top-verbs","zh":"帮忙","rom":"bāngmáng"}
+{"id":"zh.c0512","deck":"zh.d.top-verbs","zh":"担心","rom":"dānxīn"}
+{"id":"zh.c0513","deck":"zh.d.top-verbs","zh":"生气","rom":"shēngqì"}
+{"id":"zh.c0514","deck":"zh.d.top-verbs","zh":"洗澡","rom":"xǐzǎo"}
+{"id":"zh.c0515","deck":"zh.d.top-verbs","zh":"打","rom":"dǎ"}
+{"id":"zh.c0516","deck":"zh.d.top-verbs","zh":"看见","rom":"kànjiàn"}
+{"id":"zh.c0517","deck":"zh.d.top-verbs","zh":"听说","rom":"tīngshuō"}
+{"id":"zh.c0518","deck":"zh.d.top-verbs","zh":"说话","rom":"shuōhuà"}
+{"id":"zh.c0519","deck":"zh.d.top-verbs","zh":"吃饭","rom":"chīfàn"}
+{"id":"zh.c0520","deck":"zh.d.top-verbs","zh":"完","rom":"wán"}
+{"id":"zh.c0521","deck":"zh.d.top-adjectives","zh":"快","rom":"kuài"}
+{"id":"zh.c0522","deck":"zh.d.top-adjectives","zh":"新","rom":"xīn"}
+{"id":"zh.c0523","deck":"zh.d.top-adjectives","zh":"多","rom":"duō"}
+{"id":"zh.c0524","deck":"zh.d.top-adjectives","zh":"一样","rom":"yíyàng"}
+{"id":"zh.c0525","deck":"zh.d.top-adjectives","zh":"少","rom":"shǎo"}
+{"id":"zh.c0526","deck":"zh.d.top-adjectives","zh":"长","rom":"cháng"}
+{"id":"zh.c0527","deck":"zh.d.top-adjectives","zh":"短","rom":"duǎn"}
+{"id":"zh.c0528","deck":"zh.d.top-adjectives","zh":"矮","rom":"ǎi"}
+{"id":"zh.c0529","deck":"zh.d.top-adjectives","zh":"旧","rom":"jiù"}
+{"id":"zh.c0530","deck":"zh.d.top-adjectives","zh":"老","rom":"lǎo"}
+{"id":"zh.c0531","deck":"zh.d.top-adjectives","zh":"慢","rom":"màn"}
+{"id":"zh.c0532","deck":"zh.d.top-adjectives","zh":"早","rom":"zǎo"}
+{"id":"zh.c0533","deck":"zh.d.top-adjectives","zh":"晚","rom":"wǎn"}
+{"id":"zh.c0534","deck":"zh.d.top-adjectives","zh":"冷","rom":"lěng"}
+{"id":"zh.c0535","deck":"zh.d.top-adjectives","zh":"热","rom":"rè"}
+{"id":"zh.c0536","deck":"zh.d.top-adjectives","zh":"忙","rom":"máng"}
+{"id":"zh.c0537","deck":"zh.d.top-adjectives","zh":"累","rom":"lèi"}
+{"id":"zh.c0538","deck":"zh.d.top-adjectives","zh":"饿","rom":"è"}
+{"id":"zh.c0539","deck":"zh.d.top-adjectives","zh":"渴","rom":"kě"}
+{"id":"zh.c0540","deck":"zh.d.top-adjectives","zh":"困","rom":"kùn"}
+{"id":"zh.c0541","deck":"zh.d.top-adjectives","zh":"远","rom":"yuǎn"}
+{"id":"zh.c0542","deck":"zh.d.top-adjectives","zh":"近","rom":"jìn"}
+{"id":"zh.c0543","deck":"zh.d.top-adjectives","zh":"贵","rom":"guì"}
+{"id":"zh.c0544","deck":"zh.d.top-adjectives","zh":"便宜","rom":"piányi"}
+{"id":"zh.c0545","deck":"zh.d.top-adjectives","zh":"胖","rom":"pàng"}
+{"id":"zh.c0546","deck":"zh.d.top-adjectives","zh":"瘦","rom":"shòu"}
+{"id":"zh.c0547","deck":"zh.d.top-adjectives","zh":"酸","rom":"suān"}
+{"id":"zh.c0548","deck":"zh.d.top-adjectives","zh":"苦","rom":"kǔ"}
+{"id":"zh.c0549","deck":"zh.d.top-adjectives","zh":"辣","rom":"là"}
+{"id":"zh.c0550","deck":"zh.d.top-adjectives","zh":"咸","rom":"xián"}
+{"id":"zh.c0551","deck":"zh.d.top-adjectives","zh":"香","rom":"xiāng"}
+{"id":"zh.c0552","deck":"zh.d.top-adjectives","zh":"好吃","rom":"hǎochī"}
+{"id":"zh.c0553","deck":"zh.d.top-adjectives","zh":"好喝","rom":"hǎohē"}
+{"id":"zh.c0554","deck":"zh.d.top-adjectives","zh":"难","rom":"nán"}
+{"id":"zh.c0555","deck":"zh.d.top-adjectives","zh":"容易","rom":"róngyì"}
+{"id":"zh.c0556","deck":"zh.d.top-adjectives","zh":"简单","rom":"jiǎndān"}
+{"id":"zh.c0557","deck":"zh.d.top-adjectives","zh":"舒服","rom":"shūfu"}
+{"id":"zh.c0558","deck":"zh.d.top-adjectives","zh":"方便","rom":"fāngbiàn"}
+{"id":"zh.c0559","deck":"zh.d.top-adjectives","zh":"干净","rom":"gānjìng"}
+{"id":"zh.c0560","deck":"zh.d.top-adjectives","zh":"安静","rom":"ānjìng"}
+{"id":"zh.c0561","deck":"zh.d.top-adjectives","zh":"热闹","rom":"rènao"}
+{"id":"zh.c0562","deck":"zh.d.top-adjectives","zh":"有名","rom":"yǒumíng"}
+{"id":"zh.c0563","deck":"zh.d.top-adjectives","zh":"重要","rom":"zhòngyào"}
+{"id":"zh.c0564","deck":"zh.d.top-adjectives","zh":"高兴","rom":"gāoxìng"}
+{"id":"zh.c0565","deck":"zh.d.top-adjectives","zh":"快乐","rom":"kuàilè"}
+{"id":"zh.c0566","deck":"zh.d.top-adjectives","zh":"难过","rom":"nánguò"}
+{"id":"zh.c0567","deck":"zh.d.top-adjectives","zh":"错","rom":"cuò"}
+{"id":"zh.c0568","deck":"zh.d.top-adjectives","zh":"不错","rom":"búcuò"}
+{"id":"zh.c0569","deck":"zh.d.top-adjectives","zh":"清楚","rom":"qīngchu"}
+{"id":"zh.c0570","deck":"zh.d.top-adjectives","zh":"明白","rom":"míngbai"}
+{"id":"zh.c0571","deck":"zh.d.top-adjectives","zh":"健康","rom":"jiànkāng"}
+{"id":"zh.c0572","deck":"zh.d.top-adjectives","zh":"危险","rom":"wēixiǎn"}
+{"id":"zh.c0573","deck":"zh.d.top-adjectives","zh":"安全","rom":"ānquán"}
+{"id":"zh.c0574","deck":"zh.d.top-adjectives","zh":"厉害","rom":"lìhai"}
+{"id":"zh.c0575","deck":"zh.d.top-adjectives","zh":"暖和","rom":"nuǎnhuo"}
+{"id":"zh.c0576","deck":"zh.d.top-adjectives","zh":"凉快","rom":"liángkuai"}
+{"id":"zh.c0577","deck":"zh.d.top-adjectives","zh":"坏","rom":"huài"}
+{"id":"zh.c0578","deck":"zh.d.top-adjectives","zh":"红","rom":"hóng"}
+{"id":"zh.c0579","deck":"zh.d.top-adjectives","zh":"白","rom":"bái"}
+{"id":"zh.c0580","deck":"zh.d.top-adjectives","zh":"黑","rom":"hēi"}
+{"id":"zh.c0581","deck":"zh.d.top-adjectives","zh":"黄","rom":"huáng"}
+{"id":"zh.c0582","deck":"zh.d.top-adjectives","zh":"蓝","rom":"lán"}
+{"id":"zh.c0583","deck":"zh.d.top-adjectives","zh":"有钱","rom":"yǒuqián"}
+{"id":"zh.c0584","deck":"zh.d.top-adjectives","zh":"没意思","rom":"méi yìsi"}
+{"id":"zh.c0585","deck":"zh.d.top-adjectives","zh":"差不多","rom":"chàbuduō"}
+{"id":"zh.c0586","deck":"zh.d.top-adjectives","zh":"晴","rom":"qíng"}
+{"id":"zh.c0587","deck":"zh.d.top-adjectives","zh":"阴","rom":"yīn"}
+{"id":"zh.c0588","deck":"zh.d.top-adverbs","zh":"不","rom":"bù"}
+{"id":"zh.c0589","deck":"zh.d.top-adverbs","zh":"就","rom":"jiù"}
+{"id":"zh.c0590","deck":"zh.d.top-adverbs","zh":"也","rom":"yě"}
+{"id":"zh.c0591","deck":"zh.d.top-adverbs","zh":"都","rom":"dōu"}
+{"id":"zh.c0592","deck":"zh.d.top-adverbs","zh":"很","rom":"hěn"}
+{"id":"zh.c0593","deck":"zh.d.top-adverbs","zh":"还","rom":"hái"}
+{"id":"zh.c0594","deck":"zh.d.top-adverbs","zh":"别","rom":"bié"}
+{"id":"zh.c0595","deck":"zh.d.top-adverbs","zh":"真的","rom":"zhēn de"}
+{"id":"zh.c0596","deck":"zh.d.top-adverbs","zh":"现在","rom":"xiànzài"}
+{"id":"zh.c0597","deck":"zh.d.top-adverbs","zh":"太","rom":"tài"}
+{"id":"zh.c0598","deck":"zh.d.top-adverbs","zh":"没","rom":"méi"}
+{"id":"zh.c0599","deck":"zh.d.top-adverbs","zh":"真","rom":"zhēn"}
+{"id":"zh.c0600","deck":"zh.d.top-adverbs","zh":"已经","rom":"yǐjīng"}
+{"id":"zh.c0601","deck":"zh.d.top-adverbs","zh":"才","rom":"cái"}
+{"id":"zh.c0602","deck":"zh.d.top-adverbs","zh":"一起","rom":"yìqǐ"}
+{"id":"zh.c0603","deck":"zh.d.top-adverbs","zh":"只","rom":"zhǐ"}
+{"id":"zh.c0604","deck":"zh.d.top-adverbs","zh":"一下","rom":"yíxià"}
+{"id":"zh.c0605","deck":"zh.d.top-adverbs","zh":"再","rom":"zài"}
+{"id":"zh.c0606","deck":"zh.d.top-adverbs","zh":"最","rom":"zuì"}
+{"id":"zh.c0607","deck":"zh.d.top-adverbs","zh":"可能","rom":"kěnéng"}
+{"id":"zh.c0608","deck":"zh.d.top-adverbs","zh":"更","rom":"gèng"}
+{"id":"zh.c0609","deck":"zh.d.top-adverbs","zh":"非常","rom":"fēicháng"}
+{"id":"zh.c0610","deck":"zh.d.top-adverbs","zh":"有点儿","rom":"yǒudiǎnr"}
+{"id":"zh.c0611","deck":"zh.d.top-adverbs","zh":"最近","rom":"zuìjìn"}
+{"id":"zh.c0612","deck":"zh.d.top-adverbs","zh":"比较","rom":"bǐjiào"}
+{"id":"zh.c0613","deck":"zh.d.top-adverbs","zh":"马上","rom":"mǎshàng"}
+{"id":"zh.c0614","deck":"zh.d.top-adverbs","zh":"正在","rom":"zhèngzài"}
+{"id":"zh.c0615","deck":"zh.d.top-adverbs","zh":"常常","rom":"chángcháng"}
+{"id":"zh.c0616","deck":"zh.d.top-adverbs","zh":"经常","rom":"jīngcháng"}
+{"id":"zh.c0617","deck":"zh.d.top-adverbs","zh":"总是","rom":"zǒngshì"}
+{"id":"zh.c0618","deck":"zh.d.top-adverbs","zh":"有时候","rom":"yǒu shíhou"}
+{"id":"zh.c0619","deck":"zh.d.top-adverbs","zh":"刚才","rom":"gāngcái"}
+{"id":"zh.c0620","deck":"zh.d.top-adverbs","zh":"先","rom":"xiān"}
+{"id":"zh.c0621","deck":"zh.d.top-adverbs","zh":"一定","rom":"yídìng"}
+{"id":"zh.c0622","deck":"zh.d.top-adverbs","zh":"一直","rom":"yìzhí"}
+{"id":"zh.c0623","deck":"zh.d.top-adverbs","zh":"当然","rom":"dāngrán"}
+{"id":"zh.c0624","deck":"zh.d.top-adverbs","zh":"其实","rom":"qíshí"}
+{"id":"zh.c0625","deck":"zh.d.top-adverbs","zh":"一般","rom":"yìbān"}
+{"id":"zh.c0626","deck":"zh.d.top-adverbs","zh":"慢慢","rom":"mànmàn"}
+{"id":"zh.c0627","deck":"zh.d.top-adverbs","zh":"好好","rom":"hǎohǎo"}
+{"id":"zh.c0628","deck":"zh.d.top-pronouns","zh":"我","rom":"wǒ"}
+{"id":"zh.c0629","deck":"zh.d.top-pronouns","zh":"你","rom":"nǐ"}
+{"id":"zh.c0630","deck":"zh.d.top-pronouns","zh":"他","rom":"tā"}
+{"id":"zh.c0631","deck":"zh.d.top-pronouns","zh":"这","rom":"zhè"}
+{"id":"zh.c0632","deck":"zh.d.top-pronouns","zh":"她","rom":"tā"}
+{"id":"zh.c0633","deck":"zh.d.top-pronouns","zh":"那","rom":"nà"}
+{"id":"zh.c0634","deck":"zh.d.top-pronouns","zh":"自己","rom":"zìjǐ"}
+{"id":"zh.c0635","deck":"zh.d.top-pronouns","zh":"你们","rom":"nǐmen"}
+{"id":"zh.c0636","deck":"zh.d.top-pronouns","zh":"它","rom":"tā"}
+{"id":"zh.c0637","deck":"zh.d.top-pronouns","zh":"这里","rom":"zhèlǐ"}
+{"id":"zh.c0638","deck":"zh.d.top-pronouns","zh":"您","rom":"nín"}
+{"id":"zh.c0639","deck":"zh.d.top-pronouns","zh":"咱们","rom":"zánmen"}
+{"id":"zh.c0640","deck":"zh.d.top-pronouns","zh":"大家","rom":"dàjiā"}
+{"id":"zh.c0641","deck":"zh.d.top-pronouns","zh":"她们","rom":"tāmen"}
+{"id":"zh.c0642","deck":"zh.d.top-pronouns","zh":"它们","rom":"tāmen"}
+{"id":"zh.c0643","deck":"zh.d.top-pronouns","zh":"这些","rom":"zhèxiē"}
+{"id":"zh.c0644","deck":"zh.d.top-pronouns","zh":"那些","rom":"nàxiē"}
+{"id":"zh.c0645","deck":"zh.d.top-pronouns","zh":"这儿","rom":"zhèr"}
+{"id":"zh.c0646","deck":"zh.d.top-pronouns","zh":"那儿","rom":"nàr"}
+{"id":"zh.c0647","deck":"zh.d.top-pronouns","zh":"那里","rom":"nàlǐ"}
+{"id":"zh.c0648","deck":"zh.d.top-pronouns","zh":"哪儿","rom":"nǎr"}
+{"id":"zh.c0649","deck":"zh.d.top-pronouns","zh":"哪里","rom":"nǎlǐ"}
+{"id":"zh.c0650","deck":"zh.d.top-pronouns","zh":"哪","rom":"nǎ"}
+{"id":"zh.c0651","deck":"zh.d.top-pronouns","zh":"别的","rom":"biéde"}
+{"id":"zh.c0652","deck":"zh.d.top-pronouns","zh":"我的","rom":"wǒ de"}
+{"id":"zh.c0653","deck":"zh.d.top-pronouns","zh":"你的","rom":"nǐ de"}
+{"id":"zh.c0654","deck":"zh.d.top-pronouns","zh":"他的","rom":"tā de"}
+{"id":"zh.c0655","deck":"zh.d.top-pronouns","zh":"她的","rom":"tā de"}
+{"id":"zh.c0656","deck":"zh.d.top-pronouns","zh":"我们的","rom":"wǒmen de"}
+{"id":"zh.c0657","deck":"zh.d.top-pronouns","zh":"谁的","rom":"shéi de"}
+{"id":"zh.c0658","deck":"zh.d.top-prepositions-coverbs","zh":"在","rom":"zài"}
+{"id":"zh.c0659","deck":"zh.d.top-prepositions-coverbs","zh":"把","rom":"bǎ"}
+{"id":"zh.c0660","deck":"zh.d.top-prepositions-coverbs","zh":"为","rom":"wèi"}
+{"id":"zh.c0661","deck":"zh.d.top-prepositions-coverbs","zh":"到","rom":"dào"}
+{"id":"zh.c0662","deck":"zh.d.top-prepositions-coverbs","zh":"被","rom":"bèi"}
+{"id":"zh.c0663","deck":"zh.d.top-prepositions-coverbs","zh":"给","rom":"gěi"}
+{"id":"zh.c0664","deck":"zh.d.top-prepositions-coverbs","zh":"从","rom":"cóng"}
+{"id":"zh.c0665","deck":"zh.d.top-prepositions-coverbs","zh":"跟","rom":"gēn"}
+{"id":"zh.c0666","deck":"zh.d.top-prepositions-coverbs","zh":"后","rom":"hòu"}
+{"id":"zh.c0667","deck":"zh.d.top-prepositions-coverbs","zh":"用","rom":"yòng"}
+{"id":"zh.c0668","deck":"zh.d.top-prepositions-coverbs","zh":"往","rom":"wǎng"}
+{"id":"zh.c0669","deck":"zh.d.top-prepositions-coverbs","zh":"离","rom":"lí"}
+{"id":"zh.c0670","deck":"zh.d.top-prepositions-coverbs","zh":"比","rom":"bǐ"}
+{"id":"zh.c0671","deck":"zh.d.top-prepositions-coverbs","zh":"里","rom":"lǐ"}
+{"id":"zh.c0672","deck":"zh.d.top-prepositions-coverbs","zh":"前","rom":"qián"}
+{"id":"zh.c0673","deck":"zh.d.top-prepositions-coverbs","zh":"上边","rom":"shàngbian"}
+{"id":"zh.c0674","deck":"zh.d.top-prepositions-coverbs","zh":"下边","rom":"xiàbian"}
+{"id":"zh.c0675","deck":"zh.d.top-prepositions-coverbs","zh":"里边","rom":"lǐbian"}
+{"id":"zh.c0676","deck":"zh.d.top-prepositions-coverbs","zh":"外边","rom":"wàibian"}
+{"id":"zh.c0677","deck":"zh.d.top-prepositions-coverbs","zh":"前边","rom":"qiánbian"}
+{"id":"zh.c0678","deck":"zh.d.top-prepositions-coverbs","zh":"后边","rom":"hòubian"}
+{"id":"zh.c0679","deck":"zh.d.top-prepositions-coverbs","zh":"旁边","rom":"pángbiān"}
+{"id":"zh.c0680","deck":"zh.d.top-prepositions-coverbs","zh":"对面","rom":"duìmiàn"}
+{"id":"zh.c0681","deck":"zh.d.top-prepositions-coverbs","zh":"中间","rom":"zhōngjiān"}
+{"id":"zh.c0682","deck":"zh.d.top-prepositions-coverbs","zh":"附近","rom":"fùjìn"}
+{"id":"zh.c0683","deck":"zh.d.top-prepositions-coverbs","zh":"左边","rom":"zuǒbian"}
+{"id":"zh.c0684","deck":"zh.d.top-conjunctions","zh":"和","rom":"hé"}
+{"id":"zh.c0685","deck":"zh.d.top-conjunctions","zh":"如果","rom":"rúguǒ"}
+{"id":"zh.c0686","deck":"zh.d.top-conjunctions","zh":"还有","rom":"háiyǒu"}
+{"id":"zh.c0687","deck":"zh.d.top-conjunctions","zh":"还是","rom":"háishi"}
+{"id":"zh.c0688","deck":"zh.d.top-conjunctions","zh":"或者","rom":"huòzhě"}
+{"id":"zh.c0689","deck":"zh.d.top-conjunctions","zh":"可是","rom":"kěshì"}
+{"id":"zh.c0690","deck":"zh.d.top-conjunctions","zh":"不过","rom":"búguò"}
+{"id":"zh.c0691","deck":"zh.d.top-conjunctions","zh":"然后","rom":"ránhòu"}
+{"id":"zh.c0692","deck":"zh.d.top-conjunctions","zh":"那么","rom":"nàme"}
+{"id":"zh.c0693","deck":"zh.d.top-conjunctions","zh":"因为…所以","rom":"yīnwèi suǒyǐ"}
+{"id":"zh.c0694","deck":"zh.d.top-conjunctions","zh":"如果…就","rom":"rúguǒ jiù"}
+{"id":"zh.c0695","deck":"zh.d.top-conjunctions","zh":"先…然后","rom":"xiān ránhòu"}
+{"id":"zh.c0696","deck":"zh.d.top-conjunctions","zh":"…的时候","rom":"de shíhou"}
+{"id":"zh.c0697","deck":"zh.d.top-conjunctions","zh":"又…又","rom":"yòu yòu"}
+{"id":"zh.c0698","deck":"zh.d.top-conjunctions","zh":"不是…就是","rom":"bú shì jiù shì"}
+{"id":"zh.c0699","deck":"zh.d.top-interjections","zh":"喂","rom":"wéi"}
+{"id":"zh.c0700","deck":"zh.d.top-interjections","zh":"我的天","rom":"wǒ de tiān"}
+{"id":"zh.c0701","deck":"zh.d.top-interjections","zh":"加油","rom":"jiāyóu"}
+{"id":"zh.c0702","deck":"zh.d.top-interjections","zh":"算了","rom":"suàn le"}
+{"id":"zh.c0703","deck":"zh.d.top-interjections","zh":"好了","rom":"hǎo le"}
+{"id":"zh.c0704","deck":"zh.d.top-interjections","zh":"好吧","rom":"hǎo ba"}
+{"id":"zh.c0705","deck":"zh.d.top-interjections","zh":"对了","rom":"duì le"}
+{"id":"zh.c0706","deck":"zh.d.top-interjections","zh":"是吗","rom":"shì ma"}
+{"id":"zh.c0707","deck":"zh.d.top-interjections","zh":"真的吗","rom":"zhēn de ma"}
+{"id":"zh.c0708","deck":"zh.d.top-interjections","zh":"不会吧","rom":"bú huì ba"}
+{"id":"zh.c0709","deck":"zh.d.top-interjections","zh":"可惜","rom":"kěxī"}
+{"id":"zh.c0710","deck":"zh.d.top-interjections","zh":"没问题","rom":"méi wèntí"}
+{"id":"zh.c0711","deck":"zh.d.top-interjections","zh":"好的","rom":"hǎo de"}
+{"id":"zh.c0712","deck":"zh.d.top-interjections","zh":"行","rom":"xíng"}
+{"id":"zh.c0713","deck":"zh.d.top-interjections","zh":"不行","rom":"bù xíng"}
+{"id":"zh.c0714","deck":"zh.d.top-interjections","zh":"快点儿","rom":"kuài diǎnr"}
+{"id":"zh.c0715","deck":"zh.d.top-interjections","zh":"慢点儿","rom":"màn diǎnr"}
+{"id":"zh.c0716","deck":"zh.d.top-words","zh":"一个","rom":"yí ge"}
+{"id":"zh.c0717","deck":"zh.d.top-words","zh":"没有","rom":"méiyǒu"}
+{"id":"zh.c0718","deck":"zh.d.top-words","zh":"不是","rom":"bú shì"}
+{"id":"zh.c0719","deck":"zh.d.top-words","zh":"年","rom":"nián"}
+{"id":"zh.c0720","deck":"zh.d.top-words","zh":"怎么","rom":"zěnme"}
+{"id":"zh.c0721","deck":"zh.d.top-words","zh":"多少","rom":"duōshao"}
+{"id":"zh.c0722","deck":"zh.d.top-words","zh":"几","rom":"jǐ"}
+{"id":"zh.c0723","deck":"zh.d.top-words","zh":"多久","rom":"duōjiǔ"}
+{"id":"zh.c0724","deck":"zh.d.top-words","zh":"多大","rom":"duō dà"}
+{"id":"zh.c0725","deck":"zh.d.top-words","zh":"每","rom":"měi"}
+{"id":"zh.c0726","deck":"zh.d.top-words","zh":"一些","rom":"yìxiē"}
+{"id":"zh.c0727","deck":"zh.d.top-words","zh":"一点儿","rom":"yìdiǎnr"}
+{"id":"zh.c0728","deck":"zh.d.top-words","zh":"很多","rom":"hěn duō"}
+{"id":"zh.c0729","deck":"zh.d.top-words","zh":"四","rom":"sì"}
+{"id":"zh.c0730","deck":"zh.d.top-words","zh":"五","rom":"wǔ"}
+{"id":"zh.c0731","deck":"zh.d.top-words","zh":"六","rom":"liù"}
+{"id":"zh.c0732","deck":"zh.d.top-words","zh":"九","rom":"jiǔ"}
+{"id":"zh.c0733","deck":"zh.d.top-words","zh":"十一","rom":"shíyī"}
+{"id":"zh.c0734","deck":"zh.d.top-words","zh":"十二","rom":"shí'èr"}
+{"id":"zh.c0735","deck":"zh.d.top-words","zh":"十三","rom":"shísān"}
+{"id":"zh.c0736","deck":"zh.d.top-words","zh":"十四","rom":"shísì"}
+{"id":"zh.c0737","deck":"zh.d.top-words","zh":"十六","rom":"shíliù"}
+{"id":"zh.c0738","deck":"zh.d.top-words","zh":"十七","rom":"shíqī"}
+{"id":"zh.c0739","deck":"zh.d.top-words","zh":"十八","rom":"shíbā"}
+{"id":"zh.c0740","deck":"zh.d.top-words","zh":"十九","rom":"shíjiǔ"}
+{"id":"zh.c0741","deck":"zh.d.top-words","zh":"半","rom":"bàn"}
+{"id":"zh.c0742","deck":"zh.d.top-words","zh":"第一","rom":"dìyī"}
+{"id":"zh.c0743","deck":"zh.d.top-words","zh":"今天","rom":"jīntiān"}
+{"id":"zh.c0744","deck":"zh.d.top-words","zh":"后天","rom":"hòutiān"}
+{"id":"zh.c0745","deck":"zh.d.top-words","zh":"前天","rom":"qiántiān"}
+{"id":"zh.c0746","deck":"zh.d.top-words","zh":"今年","rom":"jīnnián"}
+{"id":"zh.c0747","deck":"zh.d.top-words","zh":"明年","rom":"míngnián"}
+{"id":"zh.c0748","deck":"zh.d.top-words","zh":"去年","rom":"qùnián"}
+{"id":"zh.c0749","deck":"zh.d.top-words","zh":"早上","rom":"zǎoshang"}
+{"id":"zh.c0750","deck":"zh.d.top-words","zh":"上午","rom":"shàngwǔ"}
+{"id":"zh.c0751","deck":"zh.d.top-words","zh":"中午","rom":"zhōngwǔ"}
+{"id":"zh.c0752","deck":"zh.d.top-words","zh":"下午","rom":"xiàwǔ"}
+{"id":"zh.c0753","deck":"zh.d.top-words","zh":"晚上","rom":"wǎnshang"}
+{"id":"zh.c0754","deck":"zh.d.top-words","zh":"以前","rom":"yǐqián"}
+{"id":"zh.c0755","deck":"zh.d.top-words","zh":"以后","rom":"yǐhòu"}
+{"id":"zh.c0756","deck":"zh.d.top-words","zh":"星期","rom":"xīngqī"}
+{"id":"zh.c0757","deck":"zh.d.top-words","zh":"星期二","rom":"xīngqī'èr"}
+{"id":"zh.c0758","deck":"zh.d.top-words","zh":"星期三","rom":"xīngqīsān"}
+{"id":"zh.c0759","deck":"zh.d.top-words","zh":"星期四","rom":"xīngqīsì"}
+{"id":"zh.c0760","deck":"zh.d.top-words","zh":"星期五","rom":"xīngqīwǔ"}
+{"id":"zh.c0761","deck":"zh.d.top-words","zh":"星期六","rom":"xīngqīliù"}
+{"id":"zh.c0762","deck":"zh.d.top-words","zh":"星期天","rom":"xīngqītiān"}
+{"id":"zh.c0763","deck":"zh.d.top-words","zh":"小时","rom":"xiǎoshí"}
+{"id":"zh.c0764","deck":"zh.d.top-words","zh":"分钟","rom":"fēnzhōng"}
+{"id":"zh.c0765","deck":"zh.d.top-words","zh":"每天","rom":"měitiān"}
+{"id":"zh.c0766","deck":"zh.d.top-words","zh":"春天","rom":"chūntiān"}
+{"id":"zh.c0767","deck":"zh.d.top-words","zh":"夏天","rom":"xiàtiān"}
+{"id":"zh.c0768","deck":"zh.d.top-words","zh":"秋天","rom":"qiūtiān"}
+{"id":"zh.c0769","deck":"zh.d.top-words","zh":"冬天","rom":"dōngtiān"}
+{"id":"zh.c0770","deck":"zh.d.top-measure-words","zh":"次","rom":"cì"}
+{"id":"zh.c0771","deck":"zh.d.top-measure-words","zh":"种","rom":"zhǒng"}
+{"id":"zh.c0772","deck":"zh.d.top-measure-words","zh":"份","rom":"fèn"}
+{"id":"zh.c0773","deck":"zh.d.top-measure-words","zh":"节","rom":"jié"}
+{"id":"zh.c0774","deck":"zh.d.top-measure-words","zh":"层","rom":"céng"}
+{"id":"zh.c0775","deck":"zh.d.top-measure-words","zh":"台","rom":"tái"}
+{"id":"zh.c0776","deck":"zh.d.top-measure-words","zh":"部","rom":"bù"}
+{"id":"zh.c0777","deck":"zh.d.top-measure-words","zh":"段","rom":"duàn"}
+{"id":"zh.c0778","deck":"zh.d.top-measure-words","zh":"遍","rom":"biàn"}
+{"id":"zh.c0779","deck":"zh.d.top-measure-words","zh":"盘","rom":"pán"}
+{"id":"zh.c0780","deck":"zh.d.top-measure-words","zh":"支","rom":"zhī"}
+{"id":"zh.c0781","deck":"zh.d.top-measure-words","zh":"间","rom":"jiān"}
+{"id":"zh.c0782","deck":"zh.d.top-measure-words","zh":"套","rom":"tào"}
+{"id":"zh.c0783","deck":"zh.d.top-measure-words","zh":"斤","rom":"jīn"}
+{"id":"zh.c0784","deck":"zh.d.top-measure-words","zh":"碗","rom":"wǎn"}
+{"id":"zh.c0785","deck":"zh.d.top-measure-words","zh":"元","rom":"yuán"}
+{"id":"zh.c0786","deck":"zh.d.top-measure-words","zh":"公斤","rom":"gōngjīn"}
+{"id":"zh.c0787","deck":"zh.d.top-measure-words","zh":"公里","rom":"gōnglǐ"}
+{"id":"zh.c0788","deck":"zh.d.top-particles","zh":"的","rom":"de"}
+{"id":"zh.c0789","deck":"zh.d.top-particles","zh":"了","rom":"le"}
+{"id":"zh.c0790","deck":"zh.d.top-particles","zh":"吗","rom":"ma"}
+{"id":"zh.c0791","deck":"zh.d.top-particles","zh":"吧","rom":"ba"}
+{"id":"zh.c0792","deck":"zh.d.top-particles","zh":"啊","rom":"a"}
+{"id":"zh.c0793","deck":"zh.d.top-particles","zh":"着","rom":"zhe"}
+{"id":"zh.c0794","deck":"zh.d.top-particles","zh":"过","rom":"guo"}
+{"id":"zh.c0795","deck":"zh.d.top-particles","zh":"呢","rom":"ne"}
+{"id":"zh.c0796","deck":"zh.d.top-particles","zh":"得","rom":"de"}
+{"id":"zh.c0797","deck":"zh.d.top-particles","zh":"们","rom":"men"}
+{"id":"zh.c0798","deck":"zh.d.top-particles","zh":"是…的","rom":"shì de"}
+{"id":"zh.c0799","deck":"zh.d.top-particles","zh":"…的话","rom":"de huà"}
+{"id":"zh.c0800","deck":"zh.d.compliments","zh":"真香！","rom":"Zhēn xiāng!"}
+{"id":"zh.c0801","deck":"zh.d.compliments","zh":"你做的菜真好吃！","rom":"Nǐ zuò de cài zhēn hǎochī!"}
+{"id":"zh.c0802","deck":"zh.d.compliments","zh":"太好吃了！","rom":"Tài hǎochī le!"}
+{"id":"zh.c0803","deck":"zh.d.compliments","zh":"这个茶真好喝！","rom":"Zhège chá zhēn hǎohē!"}
+{"id":"zh.c0804","deck":"zh.d.compliments","zh":"做得很好！","rom":"Zuò de hěn hǎo!"}
+{"id":"zh.c0805","deck":"zh.d.compliments","zh":"你真厉害！","rom":"Nǐ zhēn lìhai!"}
+{"id":"zh.c0806","deck":"zh.d.compliments","zh":"你学习真认真！","rom":"Nǐ xuéxí zhēn rènzhēn!"}
+{"id":"zh.c0807","deck":"zh.d.compliments","zh":"你真聪明！","rom":"Nǐ zhēn cōngming!"}
+{"id":"zh.c0808","deck":"zh.d.compliments","zh":"你人真好。","rom":"Nǐ rén zhēn hǎo."}
+{"id":"zh.c0809","deck":"zh.d.compliments","zh":"你真有意思！","rom":"Nǐ zhēn yǒu yìsi!"}
+{"id":"zh.c0810","deck":"zh.d.compliments","zh":"你家真漂亮！","rom":"Nǐ jiā zhēn piàoliang!"}
+{"id":"zh.c0811","deck":"zh.d.compliments","zh":"你家真大！","rom":"Nǐ jiā zhēn dà!"}
+{"id":"zh.c0812","deck":"zh.d.compliments","zh":"你穿这件真好看！","rom":"Nǐ chuān zhè jiàn zhēn hǎokàn!"}
+{"id":"zh.c0813","deck":"zh.d.compliments","zh":"你孩子真可爱！","rom":"Nǐ háizi zhēn kě'ài!"}
+{"id":"zh.c0814","deck":"zh.d.compliments","zh":"这张照片真好看！","rom":"Zhè zhāng zhàopiàn zhēn hǎokàn!"}
+{"id":"zh.c0815","deck":"zh.d.compliments","zh":"你的字写得真漂亮！","rom":"Nǐ de zì xiě de zhēn piàoliang!"}
+{"id":"zh.c0816","deck":"zh.d.compliments","zh":"你唱歌真好听！","rom":"Nǐ chànggē zhēn hǎotīng!"}
+{"id":"zh.c0817","deck":"zh.d.compliments","zh":"你中文说得真好！","rom":"Nǐ Zhōngwén shuō de zhēn hǎo!"}
+{"id":"zh.c0818","deck":"zh.d.compliments","zh":"你的声调很好。","rom":"Nǐ de shēngdiào hěn hǎo."}
+{"id":"zh.c0819","deck":"zh.d.compliments","zh":"哪里哪里。","rom":"Nǎlǐ nǎlǐ."}
+{"id":"zh.c0820","deck":"zh.d.compliments","zh":"还差得远呢。","rom":"Hái chà de yuǎn ne."}
+{"id":"zh.c0821","deck":"zh.d.compliments","zh":"我说得还不好。","rom":"Wǒ shuō de hái bù hǎo."}
+{"id":"zh.c0822","deck":"zh.d.compliments","zh":"还可以吧。","rom":"Hái kěyǐ ba."}
+{"id":"zh.c0823","deck":"zh.d.compliments","zh":"我还要多学习。","rom":"Wǒ hái yào duō xuéxí."}
+{"id":"zh.c0824","deck":"zh.d.compliments","zh":"真的吗？谢谢！","rom":"Zhēn de ma? Xièxie!"}
+{"id":"zh.c0825","deck":"zh.d.flirting","zh":"漂亮","rom":"piàoliang"}
+{"id":"zh.c0826","deck":"zh.d.flirting","zh":"美","rom":"měi"}
+{"id":"zh.c0827","deck":"zh.d.flirting","zh":"帅","rom":"shuài"}
+{"id":"zh.c0828","deck":"zh.d.flirting","zh":"好看","rom":"hǎokàn"}
+{"id":"zh.c0829","deck":"zh.d.flirting","zh":"可爱","rom":"kě'ài"}
+{"id":"zh.c0830","deck":"zh.d.flirting","zh":"聪明","rom":"cōngming"}
+{"id":"zh.c0831","deck":"zh.d.flirting","zh":"有意思","rom":"yǒu yìsi"}
+{"id":"zh.c0832","deck":"zh.d.flirting","zh":"好听","rom":"hǎotīng"}
+{"id":"zh.c0833","deck":"zh.d.flirting","zh":"特别","rom":"tèbié"}
+{"id":"zh.c0834","deck":"zh.d.flirting","zh":"年轻","rom":"niánqīng"}
+{"id":"zh.c0835","deck":"zh.d.flirting","zh":"高","rom":"gāo"}
+{"id":"zh.c0836","deck":"zh.d.flirting","zh":"甜","rom":"tián"}
+{"id":"zh.c0837","deck":"zh.d.flirting","zh":"开心","rom":"kāixīn"}
+{"id":"zh.c0838","deck":"zh.d.flirting","zh":"眼睛","rom":"yǎnjing"}
+{"id":"zh.c0839","deck":"zh.d.flirting","zh":"头发","rom":"tóufa"}
+{"id":"zh.c0840","deck":"zh.d.flirting","zh":"笑","rom":"xiào"}
+{"id":"zh.c0841","deck":"zh.d.flirting","zh":"有空","rom":"yǒukòng"}
+{"id":"zh.c0842","deck":"zh.d.flirting","zh":"男朋友","rom":"nánpéngyou"}
+{"id":"zh.c0843","deck":"zh.d.flirting","zh":"女朋友","rom":"nǚpéngyou"}
+{"id":"zh.c0844","deck":"zh.d.flirting","zh":"你真漂亮。","rom":"Nǐ zhēn piàoliang."}
+{"id":"zh.c0845","deck":"zh.d.flirting","zh":"你今天真漂亮。","rom":"Nǐ jīntiān zhēn piàoliang."}
+{"id":"zh.c0846","deck":"zh.d.flirting","zh":"你真美。","rom":"Nǐ zhēn měi."}
+{"id":"zh.c0847","deck":"zh.d.flirting","zh":"你真帅！","rom":"Nǐ zhēn shuài!"}
+{"id":"zh.c0848","deck":"zh.d.flirting","zh":"你今天好帅！","rom":"Nǐ jīntiān hǎo shuài!"}
+{"id":"zh.c0849","deck":"zh.d.flirting","zh":"你又高又帅。","rom":"Nǐ yòu gāo yòu shuài."}
+{"id":"zh.c0850","deck":"zh.d.flirting","zh":"你笑的时候真好看。","rom":"Nǐ xiào de shíhou zhēn hǎokàn."}
+{"id":"zh.c0851","deck":"zh.d.flirting","zh":"你穿什么都好看。","rom":"Nǐ chuān shénme dōu hǎokàn."}
+{"id":"zh.c0852","deck":"zh.d.flirting","zh":"你真可爱。","rom":"Nǐ zhēn kě'ài."}
+{"id":"zh.c0853","deck":"zh.d.flirting","zh":"你又聪明又漂亮。","rom":"Nǐ yòu cōngming yòu piàoliang."}
+{"id":"zh.c0854","deck":"zh.d.flirting","zh":"你这个人真有意思。","rom":"Nǐ zhège rén zhēn yǒu yìsi."}
+{"id":"zh.c0855","deck":"zh.d.flirting","zh":"跟你说话很有意思。","rom":"Gēn nǐ shuōhuà hěn yǒu yìsi."}
+{"id":"zh.c0856","deck":"zh.d.flirting","zh":"你的名字真好听。","rom":"Nǐ de míngzi zhēn hǎotīng."}
+{"id":"zh.c0857","deck":"zh.d.flirting","zh":"我觉得你很特别。","rom":"Wǒ juéde nǐ hěn tèbié."}
+{"id":"zh.c0858","deck":"zh.d.flirting","zh":"你的眼睛真好看。","rom":"Nǐ de yǎnjing zhēn hǎokàn."}
+{"id":"zh.c0859","deck":"zh.d.flirting","zh":"你的头发真好看。","rom":"Nǐ de tóufa zhēn hǎokàn."}
+{"id":"zh.c0860","deck":"zh.d.flirting","zh":"我喜欢看你笑。","rom":"Wǒ xǐhuan kàn nǐ xiào."}
+{"id":"zh.c0861","deck":"zh.d.flirting","zh":"你笑得真甜。","rom":"Nǐ xiào de zhēn tián."}
+{"id":"zh.c0862","deck":"zh.d.flirting","zh":"你的嘴真甜。","rom":"Nǐ de zuǐ zhēn tián."}
+{"id":"zh.c0863","deck":"zh.d.flirting","zh":"跟你在一起很开心。","rom":"Gēn nǐ zài yìqǐ hěn kāixīn."}
+{"id":"zh.c0864","deck":"zh.d.flirting","zh":"你真年轻！","rom":"Nǐ zhēn niánqīng!"}
+{"id":"zh.c0865","deck":"zh.d.flirting","zh":"你有微信吗？","rom":"Nǐ yǒu Wēixìn ma?"}
+{"id":"zh.c0866","deck":"zh.d.flirting","zh":"我扫你吧。","rom":"Wǒ sǎo nǐ ba."}
+{"id":"zh.c0867","deck":"zh.d.flirting","zh":"你周末有空吗？","rom":"Nǐ zhōumò yǒukòng ma?"}
+{"id":"zh.c0868","deck":"zh.d.flirting","zh":"一起吃个饭吧？","rom":"Yìqǐ chī ge fàn ba?"}
+{"id":"zh.c0869","deck":"zh.d.flirting","zh":"我想请你喝咖啡。","rom":"Wǒ xiǎng qǐng nǐ hē kāfēi."}
+{"id":"zh.c0870","deck":"zh.d.flirting","zh":"你有男朋友吗？","rom":"Nǐ yǒu nánpéngyou ma?"}
+{"id":"zh.c0871","deck":"zh.d.flirting","zh":"你吃饭了吗？","rom":"Nǐ chīfàn le ma?"}
+{"id":"zh.c0872","deck":"zh.d.flirting","zh":"早点儿休息。","rom":"Zǎo diǎnr xiūxi."}
+{"id":"zh.c0873","deck":"zh.d.flirting","zh":"我送你回家吧。","rom":"Wǒ sòng nǐ huíjiā ba."}
+{"id":"zh.c0874","deck":"zh.d.flirting","zh":"认识你真好。","rom":"Rènshi nǐ zhēn hǎo."}
+{"id":"zh.c0875","deck":"zh.d.flirting","zh":"我们下次再一起出去，好吗？","rom":"Wǒmen xià cì zài yìqǐ chūqù, hǎo ma?"}
+{"id":"zh.c0876","deck":"zh.d.flirting","zh":"我一直在想你。","rom":"Wǒ yìzhí zài xiǎng nǐ."}
+{"id":"zh.c0877","deck":"zh.d.flirting","zh":"我有点儿喜欢你。","rom":"Wǒ yǒudiǎnr xǐhuan nǐ."}
+{"id":"zh.c0878","deck":"zh.d.flirting","zh":"我喜欢你。","rom":"Wǒ xǐhuan nǐ."}
+{"id":"zh.c0879","deck":"zh.d.flirting","zh":"好啊！","rom":"Hǎo a!"}
+{"id":"zh.c0880","deck":"zh.d.flirting","zh":"我也喜欢你。","rom":"Wǒ yě xǐhuan nǐ."}
+{"id":"zh.c0881","deck":"zh.d.flirting","zh":"你真会说话！","rom":"Nǐ zhēn huì shuōhuà!"}
+{"id":"zh.c0882","deck":"zh.d.flirting","zh":"哪有！","rom":"Nǎ yǒu!"}
+{"id":"zh.c0883","deck":"zh.d.flirting","zh":"谢谢，不过我有男朋友了。","rom":"Xièxie, búguò wǒ yǒu nánpéngyou le."}
+{"id":"zh.c0884","deck":"zh.d.flirting","zh":"谢谢，我们还是做朋友吧。","rom":"Xièxie, wǒmen háishi zuò péngyou ba."}
+{"id":"zh.c0885","deck":"zh.d.flirting","zh":"不好意思，我现在不想找男朋友。","rom":"Bù hǎoyìsi, wǒ xiànzài bù xiǎng zhǎo nánpéngyou."}
+{"id":"zh.c0886","deck":"zh.d.flirting","zh":"我周末很忙。","rom":"Wǒ zhōumò hěn máng."}

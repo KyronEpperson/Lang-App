@@ -1,0 +1,392 @@
+{"id":"pinyin.01","lesson":"pinyin","t":"mc","o":["q","k","x","c"]}
+{"id":"pinyin.02","lesson":"pinyin","t":"mc","o":[null,null,null,null]}
+{"id":"pinyin.03","lesson":"pinyin","t":"mc","o":["p","b","d","g"]}
+{"id":"pinyin.04","lesson":"pinyin","t":"mc","o":[null,null,null,null]}
+{"id":"pinyin.05","lesson":"pinyin","t":"mc","o":[null,null,null,null]}
+{"id":"pinyin.06","lesson":"pinyin","t":"order","a":["nǐ","hǎo"],"x":["ní","hào"]}
+{"id":"pinyin.07","lesson":"pinyin","t":"order","a":["xiè","xie"],"x":["xié"]}
+{"id":"pinyin.08","lesson":"pinyin","t":"order","a":["Zhōng","wén"],"x":["Zōng"]}
+{"id":"pinyin.09","lesson":"pinyin","t":"fill","q":"__ù (去, to go)","o":["k","x","c"],"a":["q"]}
+{"id":"pinyin.10","lesson":"pinyin","t":"fill","q":"l__ (绿, green)","o":["ù","ǚ","ú"],"a":["ǜ"],"strict":true}
+{"id":"pinyin.11","lesson":"pinyin","t":"fill","q":"sh__ (是, to be)","o":["í","ǐ","ī"],"a":["ì"],"strict":true}
+{"id":"pinyin.12","lesson":"pinyin","t":"type","a":["nǐ"],"x":["ní"],"strict":true}
+{"id":"pinyin.13","lesson":"pinyin","t":"type","a":["bā"],"x":["bá"],"strict":true}
+{"id":"pinyin.14","lesson":"pinyin","t":"type","a":["qù"],"x":["chù"]}
+{"id":"tones.01","lesson":"tones","t":"mc","o":["à","á","ǎ","ā"]}
+{"id":"tones.02","lesson":"tones","t":"mc","o":["买","卖","妈","马"]}
+{"id":"tones.03","lesson":"tones","t":"mc","o":["táng","tāng","tǎng","tàng"]}
+{"id":"tones.04","lesson":"tones","t":"mc","o":[null,null,null,null]}
+{"id":"tones.05","lesson":"tones","t":"mc","o":[null,null,null,null]}
+{"id":"tones.06","lesson":"tones","t":"order","a":["mǎi","mǎ"],"x":["mài"]}
+{"id":"tones.07","lesson":"tones","t":"order","a":["mā","ma"],"x":["mà"]}
+{"id":"tones.08","lesson":"tones","t":"order","a":["hěn","kuài"],"x":["hèn"]}
+{"id":"tones.09","lesson":"tones","t":"fill","q":"m__ (马, horse)","o":["ā","á","à"],"a":["ǎ"],"strict":true}
+{"id":"tones.10","lesson":"tones","t":"fill","q":"t__ng (汤, soup)","o":["á","ǎ","à"],"a":["ā"],"strict":true}
+{"id":"tones.11","lesson":"tones","t":"fill","q":"m__i (卖, to sell)","o":["ǎ","á","ā"],"a":["à"],"strict":true}
+{"id":"tones.12","lesson":"tones","t":"type","a":["mài"],"x":["mǎi"],"strict":true}
+{"id":"tones.13","lesson":"tones","t":"type","a":["táng"],"x":["tāng"],"strict":true}
+{"id":"tones.14","lesson":"tones","t":"type","a":["mā"],"x":["mǎ"],"strict":true}
+{"id":"tone-change.01","lesson":"tone-change","t":"mc","o":["bú shì","bù shì","bū shì","bǔ shì"]}
+{"id":"tone-change.02","lesson":"tone-change","t":"mc","o":[null,null,null,null]}
+{"id":"tone-change.03","lesson":"tone-change","t":"mc","o":["yí ge rén","yī ge rén","yì ge rén","yǐ ge rén"]}
+{"id":"tone-change.04","lesson":"tone-change","t":"mc","o":["不好","不是","不客气","不要"]}
+{"id":"tone-change.05","lesson":"tone-change","t":"mc","o":[null,null,null,null]}
+{"id":"tone-change.06","lesson":"tone-change","t":"order","a":["bú","shì"],"x":["bù"]}
+{"id":"tone-change.07","lesson":"tone-change","t":"order","a":["yí","ge","rén"],"x":["yī"]}
+{"id":"tone-change.08","lesson":"tone-change","t":"order","a":["bù","hǎo"],"x":["bú"]}
+{"id":"tone-change.09","lesson":"tone-change","t":"fill","q":"b__ kèqi (不客气, you're welcome)","o":["ù","ū","ǔ"],"a":["ú"],"strict":true}
+{"id":"tone-change.10","lesson":"tone-change","t":"fill","q":"y__qǐ (一起, together)","o":["í","ī","ǐ"],"a":["ì"],"strict":true}
+{"id":"tone-change.11","lesson":"tone-change","t":"fill","q":"dì__ (第一, first)","o":["yí","yì","yǐ"],"a":["yī"],"strict":true}
+{"id":"tone-change.12","lesson":"tone-change","t":"type","a":["bú kèqi"],"x":["bù"],"strict":true}
+{"id":"tone-change.13","lesson":"tone-change","t":"type","a":["一 个 人","yí ge rén"],"x":["二"],"hint":{"zh":"一 · 个 · 人","sep":" · "},"xr":["èr"]}
+{"id":"tone-change.14","lesson":"tone-change","t":"type","a":["nǐ hǎo"],"x":["ní"],"strict":true}
+{"id":"characters.01","lesson":"characters","t":"mc","o":["木","人","口","山"]}
+{"id":"characters.02","lesson":"characters","t":"mc","o":[null,null,null,null]}
+{"id":"characters.03","lesson":"characters","t":"mc","o":[null,null,null,null]}
+{"id":"characters.04","lesson":"characters","t":"mc","o":["hǎo","hào","háo","hāo"]}
+{"id":"characters.05","lesson":"characters","t":"mc","o":[null,null,null,null]}
+{"id":"characters.06","lesson":"characters","t":"order","a":["好","人"],"x":["是"]}
+{"id":"characters.07","lesson":"characters","t":"order","a":["hǎo","rén"],"x":["hào"]}
+{"id":"characters.08","lesson":"characters","t":"order","a":["大","山"],"x":["是"]}
+{"id":"characters.09","lesson":"characters","t":"fill","q":"日 + 月 = __","o":["林","休","好"],"a":["明","míng"],"xr":["lín","xiū","hǎo"]}
+{"id":"characters.10","lesson":"characters","t":"fill","q":"木 + 木 = __","o":["森","休","本"],"a":["林","lín"],"xr":["sēn","xiū","běn"]}
+{"id":"characters.11","lesson":"characters","t":"fill","q":"女 + 子 = __","o":["妈","字","安"],"a":["好","hǎo"],"xr":["mā","zì"]}
+{"id":"characters.12","lesson":"characters","t":"type","a":["hǎo"],"x":["hào"],"strict":true}
+{"id":"characters.13","lesson":"characters","t":"type","a":["好 人","一 个 好 人","hǎo rén","yí ge hǎo rén"],"x":["是"],"hint":{"zh":"好 · 人","sep":" · "},"xr":["shì"]}
+{"id":"characters.14","lesson":"characters","t":"type","a":["rén"],"x":["rèn"],"strict":true}
+{"id":"greetings.01","lesson":"greetings","t":"mc","o":["nín","nīn","nǐn","nìn"]}
+{"id":"greetings.02","lesson":"greetings","t":"mc","o":["您好！","小姐好！","再见吗？","没关系！"]}
+{"id":"greetings.03","lesson":"greetings","t":"mc","o":["没关系。","不客气。","谢谢。","请问。"]}
+{"id":"greetings.04","lesson":"greetings","t":"mc","o":["不客气。","没关系。","对不起。","请问。"]}
+{"id":"greetings.05","lesson":"greetings","t":"mc","o":["服务员！","小姐！","老师！","再见！"]}
+{"id":"greetings.06","lesson":"greetings","t":"order","a":["nín","hǎo"],"x":["nīn"]}
+{"id":"greetings.07","lesson":"greetings","t":"order","a":["中文","老师"],"x":["是"]}
+{"id":"greetings.08","lesson":"greetings","t":"order","a":["我","叫","王明"],"x":["是"]}
+{"id":"greetings.09","lesson":"greetings","t":"fill","q":"我__王。","o":["贵","您","问"],"a":["姓","xìng"],"xr":["guì","nín","wèn"]}
+{"id":"greetings.10","lesson":"greetings","t":"fill","q":"__问，您贵姓？","o":["谢","对","不"],"a":["请","qǐng"],"xr":["xiè","duì","bù"]}
+{"id":"greetings.11","lesson":"greetings","t":"fill","q":"__关系。","o":["不","很","是"],"a":["没","méi"],"xr":["bù","hěn","shì"]}
+{"id":"greetings.12","lesson":"greetings","t":"type","a":["zàijiàn"],"x":["zǎijiàn"],"strict":true}
+{"id":"greetings.13","lesson":"greetings","t":"type","a":["美国 老师","一 个 美国 老师","Měiguó lǎoshī","yí ge Měiguó lǎoshī"],"x":["是"],"hint":{"zh":"美国 · 老师","sep":" · "},"xr":["shì"]}
+{"id":"greetings.14","lesson":"greetings","t":"type","a":["我 姓 李","wǒ xìng Lǐ"],"x":["贵"],"hint":{"zh":"姓 · 李"},"xr":["guì"]}
+{"id":"pronouns.01","lesson":"pronouns","t":"mc","o":["tā","tá","tǎ","tà"]}
+{"id":"pronouns.02","lesson":"pronouns","t":"mc","o":["我们","你们","他们","我的"]}
+{"id":"pronouns.03","lesson":"pronouns","t":"mc","o":[null,null,null,null]}
+{"id":"pronouns.04","lesson":"pronouns","t":"mc","o":["三个学生","三个学生们","三学生们","学生们三个"]}
+{"id":"pronouns.05","lesson":"pronouns","t":"mc","o":["她们","我们","你们","它们"]}
+{"id":"pronouns.06","lesson":"pronouns","t":"order","a":["他们","的","老师"],"x":["是"]}
+{"id":"pronouns.07","lesson":"pronouns","t":"order","a":["五","个","学生"],"x":["们"]}
+{"id":"pronouns.08","lesson":"pronouns","t":"order","a":["他","叫","王明"],"x":["姓"]}
+{"id":"pronouns.09","lesson":"pronouns","t":"fill","q":"__们好！","o":["我","它","个"],"a":["你","nǐ"],"xr":["wǒ","tā","ge"]}
+{"id":"pronouns.10","lesson":"pronouns","t":"fill","q":"五__学生","o":["们","的","是"],"a":["个","ge"],"xr":["men","de","shì"]}
+{"id":"pronouns.11","lesson":"pronouns","t":"fill","q":"__的老师姓王。","o":["我","你们","他们"],"a":["我们","咱们","wǒmen","zánmen"],"xr":["wǒ","nǐmen","tāmen"]}
+{"id":"pronouns.12","lesson":"pronouns","t":"type","a":["五 个 学生","wǔ ge xuésheng"],"x":["们"],"hint":{"zh":"五 · 个 · 学生","sep":" · "},"xr":["men"]}
+{"id":"pronouns.13","lesson":"pronouns","t":"type","a":["我 的 朋友","我 朋友","wǒ de péngyou","wǒ péngyou"],"x":["是"],"hint":{"zh":"我 · 朋友","sep":" · "},"xr":["shì"]}
+{"id":"pronouns.14","lesson":"pronouns","t":"type","a":["你们 好","大家 好","nǐmen hǎo","dàjiā hǎo"],"x":["您"],"hint":{"zh":"你们 · 好"},"xr":["nín"]}
+{"id":"shi.01","lesson":"shi","t":"mc","o":["shì","shí","shǐ","shī"]}
+{"id":"shi.02","lesson":"shi","t":"mc","o":["我是美国人。","我美国人是。","我是美国。","是我美国人。"]}
+{"id":"shi.03","lesson":"shi","t":"mc","o":["他不是老师。","他是不老师。","他没是老师。","他是老师不。"]}
+{"id":"shi.04","lesson":"shi","t":"mc","o":["中国人","中文","中国","人中国"]}
+{"id":"shi.05","lesson":"shi","t":"mc","o":["我也是学生。","我是学生也。","也我是学生。","我是也学生。"]}
+{"id":"shi.06","lesson":"shi","t":"order","a":["我","也","是","学生"],"x":["很"]}
+{"id":"shi.07","lesson":"shi","t":"order","a":["他","是","美国","学生"],"x":["很"]}
+{"id":"shi.08","lesson":"shi","t":"order","a":["她","不","是","中国人"],"x":["没"]}
+{"id":"shi.09","lesson":"shi","t":"fill","q":"我__美国人。","o":["很","在","叫"],"a":["是","shì"],"xr":["hěn","zài","jiào"]}
+{"id":"shi.10","lesson":"shi","t":"fill","q":"他__是老师。","o":["没","很","了"],"a":["不","bù"],"xr":["méi","hěn","le"]}
+{"id":"shi.11","lesson":"shi","t":"fill","q":"王明是中国__。","o":["文","国","们"],"a":["人","rén"],"xr":["guó","men"]}
+{"id":"shi.12","lesson":"shi","t":"type","a":["我 也 是 学生","wǒ yě shì xuésheng"],"x":["了"],"hint":{"zh":"也 · 是 · 学生","sep":" · "},"xr":["le"]}
+{"id":"shi.13","lesson":"shi","t":"type","a":["她 是 英语 老师","她 是 英文 老师","tā shì Yīngyǔ lǎoshī","tā shì Yīngwén lǎoshī"],"x":["很"],"xr":["hěn"]}
+{"id":"shi.14","lesson":"shi","t":"type","a":["我 不 是 美国人","wǒ bú shì Měiguórén"],"x":["没"],"hint":{"zh":"不是 · 美国人"},"xr":["méi"]}
+{"id":"adj.01","lesson":"adj","t":"mc","o":["hěn","hèn","hén","hēn"]}
+{"id":"adj.02","lesson":"adj","t":"mc","o":["她很高。","她是高。","她是很高。","她高是。"]}
+{"id":"adj.03","lesson":"adj","t":"mc","o":["我不忙。","我不是忙。","我忙不。","我很不是忙。"]}
+{"id":"adj.04","lesson":"adj","t":"mc","o":["太贵了！","是太贵！","太贵是了！","很太贵！"]}
+{"id":"adj.05","lesson":"adj","t":"mc","o":["好朋友","朋友好","很好朋友","是好朋友"]}
+{"id":"adj.06","lesson":"adj","t":"order","a":["他","很","高"],"x":["是"]}
+{"id":"adj.07","lesson":"adj","t":"order","a":["好","朋友"],"x":["是"]}
+{"id":"adj.08","lesson":"adj","t":"order","a":["太","贵","了"],"x":["是"]}
+{"id":"adj.09","lesson":"adj","t":"fill","q":"我__累。","o":["是","的","个"],"a":["很","好","真","hěn","hǎo","zhēn"],"xr":["shì","de","ge"]}
+{"id":"adj.10","lesson":"adj","t":"fill","q":"咖啡__贵。","o":["没","是","不是"],"a":["不","bù"],"xr":["méi","shì","bú shì"]}
+{"id":"adj.11","lesson":"adj","t":"fill","q":"太贵__！","o":["是","的","很"],"a":["了","le"],"xr":["shì","de","hěn"]}
+{"id":"adj.12","lesson":"adj","t":"type","a":["我 很 忙","我 非常 忙","我 好 忙","wǒ hěn máng","wǒ fēicháng máng","wǒ hǎo máng"],"x":["是"],"hint":{"zh":"很 · 忙","sep":" · "},"xr":["shì"]}
+{"id":"adj.13","lesson":"adj","t":"type","a":["好 朋友","一 个 好 朋友","hǎo péngyou","yí ge hǎo péngyou"],"x":["是"],"hint":{"zh":"好 · 朋友","sep":" · "},"xr":["shì"]}
+{"id":"adj.14","lesson":"adj","t":"type","a":["她 不 高","tā bù gāo"],"x":["是"],"hint":{"zh":"不 · 高"},"xr":["shì"]}
+{"id":"ma.01","lesson":"ma","t":"mc","o":[null,"mā","má","mǎ"]}
+{"id":"ma.02","lesson":"ma","t":"mc","o":["你是老师吗？","吗你是老师？","你吗是老师？","你是吗老师？"]}
+{"id":"ma.03","lesson":"ma","t":"mc","o":["我很忙。","我忙是。","我是忙。","吗忙。"]}
+{"id":"ma.04","lesson":"ma","t":"mc","o":["不是。","没是。","没有。","不吗。"]}
+{"id":"ma.05","lesson":"ma","t":"mc","o":[null,null,null,null]}
+{"id":"ma.06","lesson":"ma","t":"order","a":["你","也","是","学生","吗"],"x":["呢"]}
+{"id":"ma.07","lesson":"ma","t":"order","a":["他","是","美国","学生","吗"],"x":["很"]}
+{"id":"ma.08","lesson":"ma","t":"order","a":["你","忙","吗"],"x":["是"]}
+{"id":"ma.09","lesson":"ma","t":"fill","q":"你是美国人__？","o":["呢","了","是"],"a":["吗","ma"],"xr":["ne","le","shì"]}
+{"id":"ma.10","lesson":"ma","t":"fill","q":"我很忙，你__？","o":["吗","了","是"],"a":["呢","ne"],"xr":["ma","le","shì"]}
+{"id":"ma.11","lesson":"ma","t":"fill","q":"你忙吗？我不__。","o":["是","吗","很"],"a":["忙","máng"],"xr":["shì","ma","hěn"]}
+{"id":"ma.12","lesson":"ma","t":"type","a":["你 明天 去 吗","明天 你 去 吗","您 明天 去 吗","明天 您 去 吗","nǐ míngtiān qù ma","míngtiān nǐ qù ma","nín míngtiān qù ma","míngtiān nín qù ma"],"x":["了"],"hint":{"zh":"明天 · 去 · 吗","sep":" · "},"xr":["le"]}
+{"id":"ma.13","lesson":"ma","t":"type","a":["她 也 是 老师 吗","tā yě shì lǎoshī ma"],"x":["了"],"hint":{"zh":"也 · 是 · 老师 · 吗"},"xr":["le"]}
+{"id":"ma.14","lesson":"ma","t":"type","a":["你 是 老师 吗","您 是 老师 吗","nǐ shì lǎoshī ma","nín shì lǎoshī ma"],"x":["呢"],"hint":{"zh":"是 · 老师 · 吗"},"xr":["ne"]}
+{"id":"question-words.01","lesson":"question-words","t":"mc","o":["jǐ","jí","jī","jì"]}
+{"id":"question-words.02","lesson":"question-words","t":"mc","o":["你叫什么名字？","什么你叫名字？","你叫什么名字吗？","你什么叫名字？"]}
+{"id":"question-words.03","lesson":"question-words","t":"mc","o":["他是谁？","谁他是？","他是谁吗？","是谁他？"]}
+{"id":"question-words.04","lesson":"question-words","t":"mc","o":["你住哪儿？","哪儿你住？","你住哪儿吗？","你哪儿住吗？"]}
+{"id":"question-words.05","lesson":"question-words","t":"mc","o":["你是哪国人？","你是哪国人吗？","哪国人你是？","你哪国人是吗？"]}
+{"id":"question-words.06","lesson":"question-words","t":"order","a":["你","在","哪儿","工作"],"x":["是"]}
+{"id":"question-words.07","lesson":"question-words","t":"order","a":["你","有","几","个","哥哥"],"x":["们"]}
+{"id":"question-words.08","lesson":"question-words","t":"order","a":["你","叫","什么","名字"],"x":["吗"]}
+{"id":"question-words.09","lesson":"question-words","t":"fill","q":"他是__？","o":["什么","哪儿","吗"],"a":["谁","shéi"],"xr":["shénme","nǎr","ma"]}
+{"id":"question-words.10","lesson":"question-words","t":"fill","q":"你住__？","o":["什么","谁","吗"],"a":["哪儿","哪里","在哪儿","在哪里","nǎr","nǎlǐ","zài nǎr","zài nǎlǐ"],"xr":["shénme","shéi","ma"]}
+{"id":"question-words.11","lesson":"question-words","t":"fill","q":"你是__国人？","o":["什么","谁","几"],"a":["哪","nǎ"],"xr":["shénme","shéi","jǐ"]}
+{"id":"question-words.12","lesson":"question-words","t":"type","a":["你 在 哪儿 工作","你 在 哪里 工作","您 在 哪儿 工作","您 在 哪里 工作","nǐ zài nǎr gōngzuò","nǐ zài nǎlǐ gōngzuò","nín zài nǎr gōngzuò","nín zài nǎlǐ gōngzuò"],"x":["是"],"hint":{"zh":"在 · 哪儿 · 工作","sep":" · "},"xr":["shì"]}
+{"id":"question-words.13","lesson":"question-words","t":"type","a":["你 有 几 个 哥哥","您 有 几 个 哥哥","nǐ yǒu jǐ ge gēge","nín yǒu jǐ ge gēge"],"x":["们"],"hint":{"zh":"有 · 几 · 个 · 哥哥"},"xr":["men"]}
+{"id":"question-words.14","lesson":"question-words","t":"type","a":["你 叫 什么 名字","你 叫 什么","nǐ jiào shénme míngzi","nǐ jiào shénme"],"x":["吗"],"hint":{"zh":"叫 · 什么 · 名字","sep":" · "},"xr":["ma"]}
+{"id":"bu-mei.01","lesson":"bu-mei","t":"mc","o":["bú shì","bù shì","bū shì","bǔ shì"]}
+{"id":"bu-mei.02","lesson":"bu-mei","t":"mc","o":["我没有钱。","我不有钱。","我有不钱。","我不是钱。"]}
+{"id":"bu-mei.03","lesson":"bu-mei","t":"mc","o":["他没吃饭。","他不吃饭。","他没吃饭了。","他吃饭没。"]}
+{"id":"bu-mei.04","lesson":"bu-mei","t":"mc","o":["我不忙。","我是不忙。","我忙不。","我没忙了。"]}
+{"id":"bu-mei.05","lesson":"bu-mei","t":"mc","o":["他不喜欢咖啡。","他没喜欢咖啡。","他不有喜欢咖啡。","他喜欢不咖啡。"]}
+{"id":"bu-mei.06","lesson":"bu-mei","t":"order","a":["他","昨天","没","来"],"x":["了"]}
+{"id":"bu-mei.07","lesson":"bu-mei","t":"order","a":["我","不","喝","茶"],"x":["没"]}
+{"id":"bu-mei.08","lesson":"bu-mei","t":"order","a":["她","没有","手机"],"x":["不"]}
+{"id":"bu-mei.09","lesson":"bu-mei","t":"fill","q":"我__有钱。","o":["不","是","很"],"a":["没","méi"],"xr":["bù","shì","hěn"]}
+{"id":"bu-mei.10","lesson":"bu-mei","t":"fill","q":"我昨天__去。","o":["不","是","很"],"a":["没","没有","méi","méiyǒu"],"xr":["bù","shì","hěn"]}
+{"id":"bu-mei.11","lesson":"bu-mei","t":"fill","q":"我__喝酒。","o":["没","没有","是"],"a":["不","bù"],"xr":["méi","méiyǒu","shì"]}
+{"id":"bu-mei.12","lesson":"bu-mei","t":"type","a":["我 明天 不 去","明天 我 不 去","wǒ míngtiān bú qù","míngtiān wǒ bú qù"],"x":["没"],"xr":["méi"]}
+{"id":"bu-mei.13","lesson":"bu-mei","t":"type","a":["我 昨天 没 去","昨天 我 没 去","我 昨天 没有 去","昨天 我 没有 去","wǒ zuótiān méi qù","zuótiān wǒ méi qù","wǒ zuótiān méiyǒu qù","zuótiān wǒ méiyǒu qù"],"x":["了"],"xr":["le"]}
+{"id":"bu-mei.14","lesson":"bu-mei","t":"type","a":["我 没有 手机","我 没 手机","wǒ méiyǒu shǒujī","wǒ méi shǒujī"],"x":["不"],"hint":{"zh":"没有","sep":" · "},"xr":["bù"]}
+{"id":"de.01","lesson":"de","t":"mc","o":["shū","shú","shǔ","shù"]}
+{"id":"de.02","lesson":"de","t":"mc","o":["我的朋友","朋友我的","朋友的我","的我朋友"]}
+{"id":"de.03","lesson":"de","t":"mc","o":["老师的手机","手机的老师","手机老师的","老师手机的"]}
+{"id":"de.04","lesson":"de","t":"mc","o":["我妈妈","妈妈我的","妈妈的我","我是妈妈"]}
+{"id":"de.05","lesson":"de","t":"mc","o":["很贵的衣服","衣服很贵的","很贵衣服","衣服的很贵"]}
+{"id":"de.06","lesson":"de","t":"order","a":["我","老师","的","书"],"x":["是"]}
+{"id":"de.07","lesson":"de","t":"order","a":["红色","的","车"],"x":["是"]}
+{"id":"de.08","lesson":"de","t":"order","a":["这","是","我","妈妈","的","手机"],"x":["有"]}
+{"id":"de.09","lesson":"de","t":"fill","q":"这是我__书。","o":["是","很","有"],"a":["的","de"],"xr":["shì","hěn","yǒu"]}
+{"id":"de.10","lesson":"de","t":"fill","q":"她是我__朋友。","o":["很","是","不"],"a":["好","hǎo"],"xr":["hěn","shì","bù"]}
+{"id":"de.11","lesson":"de","t":"fill","q":"老师__手机很贵。","o":["是","有","很"],"a":["的","de"],"xr":["shì","yǒu","hěn"]}
+{"id":"de.12","lesson":"de","t":"type","a":["我 的 中文 老师","我 中文 老师","wǒ de Zhōngwén lǎoshī","wǒ Zhōngwén lǎoshī"],"x":["是"],"hint":{"zh":"中文 · 老师","sep":" · "},"xr":["shì"]}
+{"id":"de.13","lesson":"de","t":"type","a":["很 贵 的 车","hěn guì de chē"],"x":["是"],"hint":{"zh":"很 · 贵","sep":" · "},"xr":["shì"]}
+{"id":"de.14","lesson":"de","t":"type","a":["我 妈妈 没有 手机","我 妈妈 没 手机","我 的 妈妈 没有 手机","我 的 妈妈 没 手机","wǒ māma méiyǒu shǒujī","wǒ māma méi shǒujī","wǒ de māma méiyǒu shǒujī","wǒ de māma méi shǒujī"],"x":["不"],"hint":{"zh":"妈妈 · 没有 · 手机"},"xr":["bù"]}
+{"id":"you.01","lesson":"you","t":"mc","o":["mǎi","mài","mái","māi"]}
+{"id":"you.02","lesson":"you","t":"mc","o":["我有手机。","我是手机。","我在手机。","我手机有。"]}
+{"id":"you.03","lesson":"you","t":"mc","o":["附近没有超市。","附近不有超市。","没有超市附近。","附近是没超市。"]}
+{"id":"you.04","lesson":"you","t":"mc","o":["桌子上有一本书。","一本书在桌子上有。","桌子有上一本书。","一本书有桌子上。"]}
+{"id":"you.05","lesson":"you","t":"mc","o":["你们有咖啡吗？","你们是咖啡吗？","有你们咖啡吗？","你们不有咖啡吗？"]}
+{"id":"you.06","lesson":"you","t":"order","a":["附近","有","银行"],"x":["在"]}
+{"id":"you.07","lesson":"you","t":"order","a":["桌子","上","有","一","本","书"],"x":["在"]}
+{"id":"you.08","lesson":"you","t":"order","a":["你们","有","咖啡","吗"],"x":["不"]}
+{"id":"you.09","lesson":"you","t":"fill","q":"附近__银行吗？","o":["是","在","很"],"a":["有","yǒu"],"xr":["shì","zài","hěn"]}
+{"id":"you.10","lesson":"you","t":"fill","q":"我__有车。","o":["不","是","很"],"a":["没","méi"],"xr":["bù","shì","hěn"]}
+{"id":"you.11","lesson":"you","t":"fill","q":"桌子上__一本书。","o":["在","很","不"],"a":["有","yǒu"],"xr":["zài","hěn","bù"]}
+{"id":"you.12","lesson":"you","t":"type","a":["附近 有 超市","附近 有 一 个 超市","fùjìn yǒu chāoshì","fùjìn yǒu yí ge chāoshì"],"x":["在"],"xr":["zài"]}
+{"id":"you.13","lesson":"you","t":"type","a":["附近 有 银行 吗","附近 有 一 个 银行 吗","fùjìn yǒu yínháng ma","fùjìn yǒu yí ge yínháng ma"],"x":["在"],"hint":{"zh":"附近","sep":" · "},"xr":["zài"]}
+{"id":"you.14","lesson":"you","t":"type","a":["我 没有 车","我 没 车","wǒ méiyǒu chē","wǒ méi chē"],"x":["不"],"hint":{"zh":"没有","sep":" · "},"xr":["bù"]}
+{"id":"numbers.01","lesson":"numbers","t":"mc","o":["sì","sī","sí","sǐ"]}
+{"id":"numbers.02","lesson":"numbers","t":"mc","o":["两个人","二个人","两人个","个两人"]}
+{"id":"numbers.03","lesson":"numbers","t":"mc","o":[null,null,null,null]}
+{"id":"numbers.04","lesson":"numbers","t":"mc","o":[null,null,null,null]}
+{"id":"numbers.05","lesson":"numbers","t":"mc","o":["多少钱？","几钱？","什么钱？","钱多少吗？"]}
+{"id":"numbers.06","lesson":"numbers","t":"order","a":["两","个","人"],"x":["二"]}
+{"id":"numbers.07","lesson":"numbers","t":"order","a":["这个","二十五","块"],"x":["个"]}
+{"id":"numbers.08","lesson":"numbers","t":"order","a":["这个","多少","钱"],"x":["几"]}
+{"id":"numbers.09","lesson":"numbers","t":"fill","q":"我有__个中文老师。","o":["二","双","个"],"a":["两","liǎng"],"xr":["èr","shuāng","ge"]}
+{"id":"numbers.10","lesson":"numbers","t":"fill","q":"一百__五","o":["十","一","和"],"a":["零","líng"],"xr":["shí","yī","hé"]}
+{"id":"numbers.11","lesson":"numbers","t":"fill","q":"这个二十五__。","o":["个","钱","点"],"a":["块","元","kuài","yuán"],"xr":["ge","qián","diǎn"]}
+{"id":"numbers.12","lesson":"numbers","t":"type","a":["两 个 人","liǎng ge rén"],"x":["二"],"xr":["èr"]}
+{"id":"numbers.13","lesson":"numbers","t":"type","a":["十五 块","十五 元","十五 块 钱","shíwǔ kuài","shíwǔ yuán","shíwǔ kuài qián"],"x":["个"],"hint":{"zh":"十五 · 块"},"xr":["ge"]}
+{"id":"numbers.14","lesson":"numbers","t":"type","a":["这个 多少 钱","这个 是 多少 钱","zhège duōshao qián","zhège shì duōshao qián"],"x":["几"],"hint":{"zh":"这个 · 多少 · 钱"},"xr":["jǐ"]}
+{"id":"measure.01","lesson":"measure","t":"mc","o":["bēi","béi","běi","bèi"]}
+{"id":"measure.02","lesson":"measure","t":"mc","o":["三本书","三书","三个书","本三书"]}
+{"id":"measure.03","lesson":"measure","t":"mc","o":["这张票","这票","张这票","票这张"]}
+{"id":"measure.04","lesson":"measure","t":"mc","o":["件","本","杯","只"]}
+{"id":"measure.05","lesson":"measure","t":"mc","o":["一双鞋","一个鞋","一鞋","双一鞋"]}
+{"id":"measure.06","lesson":"measure","t":"order","a":["三","本","书"],"x":["个"]}
+{"id":"measure.07","lesson":"measure","t":"order","a":["这","杯","茶"],"x":["个"]}
+{"id":"measure.08","lesson":"measure","t":"order","a":["那","只","猫","很","小"],"x":["本"]}
+{"id":"measure.09","lesson":"measure","t":"fill","q":"我有三__书。","o":["个","杯","张"],"a":["本","běn"],"xr":["ge","bēi","zhāng"]}
+{"id":"measure.10","lesson":"measure","t":"fill","q":"两__咖啡","o":["本","张","只"],"a":["杯","bēi"],"xr":["běn","zhāng","zhǐ"]}
+{"id":"measure.11","lesson":"measure","t":"fill","q":"这__票多少钱？","o":["本","杯","只"],"a":["张","zhāng"],"xr":["běn","bēi","zhǐ"]}
+{"id":"measure.12","lesson":"measure","t":"type","a":["两 杯 茶","liǎng bēi chá"],"x":["个","二"],"hint":{"zh":"两 · 杯","sep":" · "},"xr":["ge","èr"]}
+{"id":"measure.13","lesson":"measure","t":"type","a":["这 本 书","zhè běn shū"],"x":["个"],"hint":{"zh":"这 · 本 · 书"},"xr":["ge"]}
+{"id":"measure.14","lesson":"measure","t":"type","a":["我 没有 那 本 书","我 没 那 本 书","wǒ méiyǒu nà běn shū","wǒ méi nà běn shū"],"x":["不"],"hint":{"zh":"没有 · 那 · 本 · 书"},"xr":["bù"]}
+{"id":"food.01","lesson":"food","t":"mc","o":["tāng","táng","tǎng","tàng"]}
+{"id":"food.02","lesson":"food","t":"mc","o":["服务员！","小姐！","老师！","你好吗？"]}
+{"id":"food.03","lesson":"food","t":"mc","o":["两杯奶茶","两奶茶","二杯奶茶","两个杯奶茶"]}
+{"id":"food.04","lesson":"food","t":"mc","o":["不要辣的。","没要辣的。","不辣要。","我不是辣。"]}
+{"id":"food.05","lesson":"food","t":"mc","o":["很好吃！","很好喝！","很好听！","我很饿！"]}
+{"id":"food.06","lesson":"food","t":"order","a":["我","要","一","碗","面条"],"x":["个"]}
+{"id":"food.07","lesson":"food","t":"order","a":["来","两","杯","奶茶"],"x":["二"]}
+{"id":"food.08","lesson":"food","t":"order","a":["服务员","买单"],"x":["老师"]}
+{"id":"food.09","lesson":"food","t":"fill","q":"我要一__面条。","o":["本","张","只"],"a":["碗","wǎn"],"xr":["běn","zhāng","zhǐ"]}
+{"id":"food.10","lesson":"food","t":"fill","q":"请给我一__水。","o":["本","张","件"],"a":["杯","bēi"],"xr":["běn","zhāng","jiàn"]}
+{"id":"food.11","lesson":"food","t":"fill","q":"不要__的。","o":["很","是","没"],"a":["辣","là"],"xr":["hěn","shì","méi"]}
+{"id":"food.12","lesson":"food","t":"type","a":["我 要 一 杯 咖啡","来 一 杯 咖啡","请 给 我 一 杯 咖啡","给 我 一 杯 咖啡","一 杯 咖啡","wǒ yào yì bēi kāfēi","lái yì bēi kāfēi","qǐng gěi wǒ yì bēi kāfēi","gěi wǒ yì bēi kāfēi","yì bēi kāfēi"],"x":["个"],"hint":{"zh":"要 · 一 · 杯 · 咖啡"},"xr":["ge"]}
+{"id":"food.13","lesson":"food","t":"type","a":["两 碗 面条","liǎng wǎn miàntiáo"],"x":["个","二"],"hint":{"zh":"两 · 碗 · 面条"},"xr":["ge","èr"]}
+{"id":"food.14","lesson":"food","t":"type","a":["不 要 辣 的","我 不 要 辣 的","不 要 辣","我 不 要 辣","bú yào là de","wǒ bú yào là de","bú yào là","wǒ bú yào là"],"x":["没"],"hint":{"zh":"不要 · 辣 · 的"},"xr":["méi"]}
+{"id":"family.01","lesson":"family","t":"mc","o":["māma","mǎmǎ","māmā","màma"]}
+{"id":"family.02","lesson":"family","t":"mc","o":["哥哥","弟弟","姐姐","妹妹"]}
+{"id":"family.03","lesson":"family","t":"mc","o":["我有两个姐姐。","我有二个姐姐。","我有两姐姐。","我两个有姐姐。"]}
+{"id":"family.04","lesson":"family","t":"mc","o":["你几岁？","你是几岁吗？","你几个岁？","几岁你？"]}
+{"id":"family.05","lesson":"family","t":"mc","o":["我家有五口人。","我家有五人口。","我家五有口人。","我家有五口人们。"]}
+{"id":"family.06","lesson":"family","t":"order","a":["我","有","一","个","哥哥"],"x":["本"]}
+{"id":"family.07","lesson":"family","t":"order","a":["我","有","两","个","妹妹"],"x":["二"]}
+{"id":"family.08","lesson":"family","t":"order","a":["你","家","有","几","口","人"],"x":["吗"]}
+{"id":"family.09","lesson":"family","t":"fill","q":"我家有四__人。","o":["本","只","张"],"a":["口","个","kǒu","ge"],"xr":["běn","zhǐ","zhāng"]}
+{"id":"family.10","lesson":"family","t":"fill","q":"我有两个__。","o":["哥哥","姐姐","妹妹"],"a":["弟弟","dìdi"],"xr":["gēge","jiějie","mèimei"]}
+{"id":"family.11","lesson":"family","t":"fill","q":"我今年二十五__。","o":["个","口","块"],"a":["岁","suì"],"xr":["ge","kǒu","kuài"]}
+{"id":"family.12","lesson":"family","t":"type","a":["我 有 两 个 哥哥","wǒ yǒu liǎng ge gēge"],"x":["二"],"hint":{"zh":"两 · 个 · 哥哥"},"xr":["èr"]}
+{"id":"family.13","lesson":"family","t":"type","a":["我 家 有 三 口 人","我 家 有 三 个 人","我们 家 有 三 口 人","我们 家 有 三 个 人","wǒ jiā yǒu sān kǒu rén","wǒ jiā yǒu sān ge rén","wǒmen jiā yǒu sān kǒu rén","wǒmen jiā yǒu sān ge rén"],"x":["本"],"hint":{"zh":"家 · 有 · 三 · 口 · 人"},"xr":["běn"]}
+{"id":"family.14","lesson":"family","t":"type","a":["我 爸爸 不 是 老师","我 的 爸爸 不 是 老师","wǒ bàba bú shì lǎoshī","wǒ de bàba bú shì lǎoshī"],"x":["没"],"hint":{"zh":"爸爸 · 不是 · 老师"},"xr":["méi"]}
+{"id":"time.01","lesson":"time","t":"mc","o":["hào","háo","hǎo","hāo"]}
+{"id":"time.02","lesson":"time","t":"mc","o":["两点","二点","两个点","点两"]}
+{"id":"time.03","lesson":"time","t":"mc","o":["十二月三号","三号十二月","十二三月号","三月十二号"]}
+{"id":"time.04","lesson":"time","t":"mc","o":["我明天去。","我去明天。","明天去我。","我去了明天。"]}
+{"id":"time.05","lesson":"time","t":"mc","o":["现在几点？","现在几点吗？","几点现在？","现在是几点吗？"]}
+{"id":"time.06","lesson":"time","t":"order","a":["我","明天","去","北京"],"x":["了"]}
+{"id":"time.07","lesson":"time","t":"order","a":["十二月","三","号"],"x":["点"]}
+{"id":"time.08","lesson":"time","t":"order","a":["我","星期六","不","工作"],"x":["没"]}
+{"id":"time.09","lesson":"time","t":"fill","q":"现在__点？","o":["什么","多少","哪"],"a":["几","jǐ"],"xr":["shénme","duōshao","nǎ"]}
+{"id":"time.10","lesson":"time","t":"fill","q":"今天十二月三__。","o":["点","天","岁"],"a":["号","日","hào","rì"],"xr":["diǎn","tiān","suì"]}
+{"id":"time.11","lesson":"time","t":"fill","q":"现在__点半。","o":["二","个","第二"],"a":["两","liǎng"],"xr":["èr","ge","dì'èr"]}
+{"id":"time.12","lesson":"time","t":"type","a":["我 明天 去","明天 我 去","wǒ míngtiān qù","míngtiān wǒ qù"],"x":["了"],"hint":{"zh":"明天 · 去","sep":" · "},"xr":["le"]}
+{"id":"time.13","lesson":"time","t":"type","a":["我 星期六 不 工作","星期六 我 不 工作","我 星期六 不 上班","星期六 我 不 上班","wǒ xīngqīliù bù gōngzuò","xīngqīliù wǒ bù gōngzuò","wǒ xīngqīliù bú shàngbān","xīngqīliù wǒ bú shàngbān"],"x":["没"],"xr":["méi"]}
+{"id":"time.14","lesson":"time","t":"type","a":["现在 两 点","现在 是 两 点","现在 两 点钟","现在 是 两 点钟","xiànzài liǎng diǎn","xiànzài shì liǎng diǎn","xiànzài liǎng diǎnzhōng","xiànzài shì liǎng diǎnzhōng"],"x":["二"],"hint":{"zh":"现在 · 两 · 点"},"xr":["èr"]}
+{"id":"zai.01","lesson":"zai","t":"mc","o":["zài","zāi","zái","zǎi"]}
+{"id":"zai.02","lesson":"zai","t":"mc","o":["银行在哪儿？","哪儿是银行在？","在哪儿银行？","银行在哪儿吗？"]}
+{"id":"zai.03","lesson":"zai","t":"mc","o":["我在银行工作。","我工作在银行。","我银行在工作。","我在工作银行。"]}
+{"id":"zai.04","lesson":"zai","t":"mc","o":["手机在桌子上。","手机在桌子。","手机在上桌子。","桌子上在手机。"]}
+{"id":"zai.05","lesson":"zai","t":"mc","o":["银行在超市旁边。","银行在旁边超市。","银行旁边在超市。","超市旁边在银行。"]}
+{"id":"zai.06","lesson":"zai","t":"order","a":["我","在","银行","工作"],"x":["上"]}
+{"id":"zai.07","lesson":"zai","t":"order","a":["手机","在","房间","里"],"x":["上"]}
+{"id":"zai.08","lesson":"zai","t":"order","a":["他","在","家","吃饭"],"x":["上"]}
+{"id":"zai.09","lesson":"zai","t":"fill","q":"银行__哪儿？","o":["有","很","的"],"a":["在","zài"],"xr":["yǒu","hěn","de"]}
+{"id":"zai.10","lesson":"zai","t":"fill","q":"手机在桌子__。","o":["在","的","有"],"a":["上","shàng"],"xr":["zài","de","yǒu"]}
+{"id":"zai.11","lesson":"zai","t":"fill","q":"我__银行工作。","o":["是","有","很"],"a":["在","zài"],"xr":["shì","yǒu","hěn"]}
+{"id":"zai.12","lesson":"zai","t":"type","a":["我 在 银行 工作","我 在 银行 上班","wǒ zài yínháng gōngzuò","wǒ zài yínháng shàngbān"],"x":["是"],"hint":{"zh":"在 · 银行 · 工作","sep":" · "},"xr":["shì"]}
+{"id":"zai.13","lesson":"zai","t":"type","a":["我们 在 家 吃饭","我们 在 家 里 吃饭","wǒmen zài jiā chīfàn","wǒmen zài jiāli chīfàn"],"x":["上"],"hint":{"zh":"在 · 家 · 吃饭"},"xr":["shàng"]}
+{"id":"zai.14","lesson":"zai","t":"type","a":["洗手间 在 哪儿","洗手间 在 哪里","厕所 在 哪儿","厕所 在 哪里","xǐshǒujiān zài nǎr","xǐshǒujiān zài nǎlǐ","cèsuǒ zài nǎr","cèsuǒ zài nǎlǐ"],"x":["是"],"xr":["shì"]}
+{"id":"word-order.01","lesson":"word-order","t":"mc","o":["我今天在家工作。","我在家工作今天。","我今天工作在家。","我工作今天在家。"]}
+{"id":"word-order.02","lesson":"word-order","t":"mc","o":["míngtiān","mìngtiān","míngtiàn","mǐngtiān"]}
+{"id":"word-order.03","lesson":"word-order","t":"mc","o":["星期六上午十点","十点上午星期六","上午十点星期六","星期六十点上午"]}
+{"id":"word-order.04","lesson":"word-order","t":"mc","o":["我住在上海。","我在住上海。","我上海住在。","我住上海在。"]}
+{"id":"word-order.05","lesson":"word-order","t":"mc","o":["我坐地铁去上班。","我去上班坐地铁。","我去上班在地铁。","我上班去坐地铁。"]}
+{"id":"word-order.06","lesson":"word-order","t":"order","a":["我","明天","去","北京"],"x":["在"]}
+{"id":"word-order.07","lesson":"word-order","t":"order","a":["我们","在","图书馆","学习"],"x":["吗"]}
+{"id":"word-order.08","lesson":"word-order","t":"order","a":["我","明天","在","家","吃饭"],"x":["吗"]}
+{"id":"word-order.09","lesson":"word-order","t":"fill","q":"我明天__家吃饭。","o":["是","有","很"],"a":["在","zài"],"xr":["shì","yǒu","hěn"]}
+{"id":"word-order.10","lesson":"word-order","t":"fill","q":"我每天__地铁去上班。","o":["是","在","很"],"a":["坐","zuò"],"xr":["shì","zài","hěn"]}
+{"id":"word-order.11","lesson":"word-order","t":"fill","q":"我住__北京。","o":["是","有","去"],"a":["在","zài"],"xr":["shì","yǒu","qù"]}
+{"id":"word-order.12","lesson":"word-order","t":"type","a":["我 在 银行 工作","我 在 银行 上班","wǒ zài yínháng gōngzuò","wǒ zài yínháng shàngbān"],"x":["是"],"hint":{"zh":"在 · 银行 · 工作","sep":" · "},"xr":["shì"]}
+{"id":"word-order.13","lesson":"word-order","t":"type","a":["我 明天 去 上海","明天 我 去 上海","wǒ míngtiān qù Shànghǎi","míngtiān wǒ qù Shànghǎi"],"x":["了"],"hint":{"zh":"明天 · 去 · 上海"},"xr":["le"]}
+{"id":"word-order.14","lesson":"word-order","t":"type","a":["我们 星期一 两 点 上课","星期一 两 点 我们 上课","星期一 我们 两 点 上课","我们 星期一 两 点钟 上课","wǒmen xīngqīyī liǎng diǎn shàngkè","xīngqīyī liǎng diǎn wǒmen shàngkè","xīngqīyī wǒmen liǎng diǎn shàngkè","wǒmen xīngqīyī liǎng diǎnzhōng shàngkè"],"x":["二"],"hint":{"zh":"星期一 · 两点 · 上课","sep":" · "},"xr":["èr"]}
+{"id":"want-can.01","lesson":"want-can","t":"mc","o":["会","想","要","在"]}
+{"id":"want-can.02","lesson":"want-can","t":"mc","o":["我可以坐这儿吗？","我是坐这儿吗？","我可以吗坐这儿？","我坐可以这儿吗？"]}
+{"id":"want-can.03","lesson":"want-can","t":"mc","o":["xiǎng","xiàng","xiāng","xiáng"]}
+{"id":"want-can.04","lesson":"want-can","t":"mc","o":["我今天晚上想在家吃饭。","我今天晚上在家吃饭想。","我想吃饭在家今天晚上。","我今天晚上想吃饭在家。"]}
+{"id":"want-can.05","lesson":"want-can","t":"mc","o":["我不想去。","我去不想。","我想去不。","不我想去。"]}
+{"id":"want-can.06","lesson":"want-can","t":"order","a":["我","想","喝","一","杯","茶"],"x":["个"]}
+{"id":"want-can.07","lesson":"want-can","t":"order","a":["我","想","在","图书馆","学习"],"x":["吗"]}
+{"id":"want-can.08","lesson":"want-can","t":"order","a":["我","会","说","一点儿","中文"],"x":["是"]}
+{"id":"want-can.09","lesson":"want-can","t":"fill","q":"你__进来。","o":["会","想","是"],"a":["可以","能","kěyǐ","néng"],"xr":["huì","xiǎng","shì"]}
+{"id":"want-can.10","lesson":"want-can","t":"fill","q":"我不__开车。","o":["是","要","在"],"a":["会","huì"],"xr":["shì","yào","zài"]}
+{"id":"want-can.11","lesson":"want-can","t":"fill","q":"服务员，我__一碗面条。","o":["会","能","在"],"a":["要","想要","yào","xiǎng yào"],"xr":["huì","néng","zài"]}
+{"id":"want-can.12","lesson":"want-can","t":"type","a":["我 要 两 杯 咖啡","我 想 要 两 杯 咖啡","要 两 杯 咖啡","我 想 喝 两 杯 咖啡","来 两 杯 咖啡","wǒ yào liǎng bēi kāfēi","wǒ xiǎng yào liǎng bēi kāfēi","yào liǎng bēi kāfēi","wǒ xiǎng hē liǎng bēi kāfēi","lái liǎng bēi kāfēi"],"x":["个","二"],"hint":{"zh":"要 · 两 · 杯 · 咖啡"},"xr":["ge","èr"]}
+{"id":"want-can.13","lesson":"want-can","t":"type","a":["我 想 在 家 吃饭","wǒ xiǎng zài jiā chīfàn"],"x":["是"],"hint":{"zh":"想 · 在 · 家 · 吃饭"},"xr":["shì"]}
+{"id":"want-can.14","lesson":"want-can","t":"type","a":["我 不 会 游泳","wǒ bú huì yóuyǒng"],"x":["没"],"hint":{"zh":"会 · 游泳","sep":" · "},"xr":["méi"]}
+{"id":"le.01","lesson":"le","t":"mc","o":["我买了三张票。","我了买三张票。","我买三张了票。","我买三了张票。"]}
+{"id":"le.02","lesson":"le","t":"mc","o":["mǎi","mài","mái","māi"]}
+{"id":"le.03","lesson":"le","t":"mc","o":["我昨天很忙。","我昨天很忙了。","我昨天是忙了。","我昨天忙了很。"]}
+{"id":"le.04","lesson":"le","t":"mc","o":["我昨天没去。","我昨天没去了。","我昨天去没了。","我昨天了没去。"]}
+{"id":"le.05","lesson":"le","t":"mc","o":["天气热了。","天气是热了。","天气了热。","了天气热。"]}
+{"id":"le.06","lesson":"le","t":"order","a":["我","昨天","没","去","上班"],"x":["了"]}
+{"id":"le.07","lesson":"le","t":"order","a":["我","买了","三","个","苹果"],"x":["本"]}
+{"id":"le.08","lesson":"le","t":"order","a":["天气","冷","了"],"x":["在"]}
+{"id":"le.09","lesson":"le","t":"fill","q":"我买__三个苹果。","o":["吗","呢","的"],"a":["了","le"],"xr":["ma","ne","de"]}
+{"id":"le.10","lesson":"le","t":"fill","q":"我昨天__去。","o":["不","是","了"],"a":["没","没有","méi","méiyǒu"],"xr":["bù","shì","le"]}
+{"id":"le.11","lesson":"le","t":"fill","q":"我饿__。","o":["是","在","们"],"a":["了","le"],"xr":["shì","zài","men"]}
+{"id":"le.12","lesson":"le","t":"type","a":["我 买 了 两 张 票","wǒ mǎi le liǎng zhāng piào"],"x":["个","二"],"hint":{"zh":"买 · 两 · 张 · 票"},"xr":["ge","èr"]}
+{"id":"le.13","lesson":"le","t":"type","a":["我 昨天 没 去 银行","昨天 我 没 去 银行","我 昨天 没有 去 银行","昨天 我 没有 去 银行","wǒ zuótiān méi qù yínháng","zuótiān wǒ méi qù yínháng","wǒ zuótiān méiyǒu qù yínháng","zuótiān wǒ méiyǒu qù yínháng"],"x":["了"],"hint":{"zh":"昨天 · 没 · 去 · 银行"},"xr":["le"]}
+{"id":"le.14","lesson":"le","t":"type","a":["天气 冷 了","天 冷 了","tiānqì lěng le","tiān lěng le"],"x":["是"],"hint":{"zh":"天气 · 冷","sep":" · "},"xr":["shì"]}
+{"id":"progress.01","lesson":"progress","t":"mc","o":["我在吃饭。","我是吃饭。","我吃饭在。","我在是吃饭。"]}
+{"id":"progress.02","lesson":"progress","t":"mc","o":["zài","zǎi","zāi","zái"]}
+{"id":"progress.03","lesson":"progress","t":"mc","o":["你在做什么？","你是做什么？","什么你在做？","你在什么做？"]}
+{"id":"progress.04","lesson":"progress","t":"mc","o":["我明天去上海。","我明天在去上海。","我在明天去上海。","我去上海明天。"]}
+{"id":"progress.05","lesson":"progress","t":"mc","o":["他在家看电视呢。","他看电视在家呢。","他在看电视家。","他看电视呢在家。"]}
+{"id":"progress.06","lesson":"progress","t":"order","a":["我","在","家","看","电视","呢"],"x":["了"]}
+{"id":"progress.07","lesson":"progress","t":"order","a":["我们","正在","上课"],"x":["了"]}
+{"id":"progress.08","lesson":"progress","t":"order","a":["你","在","做","什么"],"x":["了"]}
+{"id":"progress.09","lesson":"progress","t":"fill","q":"他__看电视。","o":["是","很","了"],"a":["在","正在","zài","zhèngzài"],"xr":["shì","hěn","le"]}
+{"id":"progress.10","lesson":"progress","t":"fill","q":"我正在吃饭__。","o":["吗","了","的"],"a":["呢","ne"],"xr":["ma","le","de"]}
+{"id":"progress.11","lesson":"progress","t":"fill","q":"妈妈__厨房打电话。","o":["是","有","很"],"a":["在","zài"],"xr":["shì","yǒu","hěn"]}
+{"id":"progress.12","lesson":"progress","t":"type","a":["他 在 看 电视","他 正在 看 电视","他 在 看 电视 呢","他 正在 看 电视 呢","他 看 电视 呢","tā zài kàn diànshì","tā zhèngzài kàn diànshì","tā zài kàn diànshì ne","tā zhèngzài kàn diànshì ne","tā kàn diànshì ne"],"x":["是"],"hint":{"zh":"在 · 看 · 电视"},"xr":["shì"]}
+{"id":"progress.13","lesson":"progress","t":"type","a":["我 在 图书馆 学习","我 正在 图书馆 学习","我 在 图书馆 学习 呢","我 正在 图书馆 学习 呢","wǒ zài túshūguǎn xuéxí","wǒ zhèngzài túshūguǎn xuéxí","wǒ zài túshūguǎn xuéxí ne","wǒ zhèngzài túshūguǎn xuéxí ne"],"x":["是"],"hint":{"zh":"在 · 图书馆 · 学习"},"xr":["shì"]}
+{"id":"progress.14","lesson":"progress","t":"type","a":["你 在 做 什么","你 正在 做 什么","你 在 做 什么 呢","你 正在 做 什么 呢","nǐ zài zuò shénme","nǐ zhèngzài zuò shénme","nǐ zài zuò shénme ne","nǐ zhèngzài zuò shénme ne"],"x":["是"],"hint":{"zh":"在 · 做 · 什么"},"xr":["shì"]}
+{"id":"serial.01","lesson":"serial","t":"mc","o":["我去银行换钱。","我去换钱在银行。","我换钱去在银行。","我在去银行换钱。"]}
+{"id":"serial.02","lesson":"serial","t":"mc","o":["qù","qū","qǔ","qú"]}
+{"id":"serial.03","lesson":"serial","t":"mc","o":["她骑自行车去学校。","她去学校骑自行车。","她去学校在自行车。","她自行车骑去学校。"]}
+{"id":"serial.04","lesson":"serial","t":"mc","o":["坐","骑","走","开"]}
+{"id":"serial.05","lesson":"serial","t":"mc","o":["他来我家吃饭。","他来吃饭我家。","他吃饭来我家。","他来我家在吃饭。"]}
+{"id":"serial.06","lesson":"serial","t":"order","a":["我","去","超市","买","东西"],"x":["卖"]}
+{"id":"serial.07","lesson":"serial","t":"order","a":["我","坐","地铁","去","学校"],"x":["骑"]}
+{"id":"serial.08","lesson":"serial","t":"order","a":["我","明天","去","北京","看","长城"],"x":["在"]}
+{"id":"serial.09","lesson":"serial","t":"fill","q":"我去超市__东西。","o":["卖","在","是"],"a":["买","mǎi"],"xr":["mài","zài","shì"]}
+{"id":"serial.10","lesson":"serial","t":"fill","q":"我__自行车去上班。","o":["坐","是","在"],"a":["骑","qí"],"xr":["zuò","shì","zài"]}
+{"id":"serial.11","lesson":"serial","t":"fill","q":"他__我家吃饭。","o":["是","有","很"],"a":["来","lái"],"xr":["shì","yǒu","hěn"]}
+{"id":"serial.12","lesson":"serial","t":"type","a":["我 去 银行 换 钱","我 要 去 银行 换 钱","wǒ qù yínháng huàn qián","wǒ yào qù yínháng huàn qián"],"x":["在"],"hint":{"zh":"去 · 银行 · 换钱"},"xr":["zài"]}
+{"id":"serial.13","lesson":"serial","t":"type","a":["我 坐 地铁 去 上班","我 坐 地铁 上班","wǒ zuò dìtiě qù shàngbān","wǒ zuò dìtiě shàngbān"],"x":["在"],"hint":{"zh":"坐 · 地铁 · 去 · 上班"},"xr":["zài"]}
+{"id":"serial.14","lesson":"serial","t":"type","a":["我 去 商店 买 两 瓶 水","我 要 去 商店 买 两 瓶 水","wǒ qù shāngdiàn mǎi liǎng píng shuǐ","wǒ yào qù shāngdiàn mǎi liǎng píng shuǐ"],"x":["个","二"],"xr":["ge","èr"]}
+{"id":"a-not-a.01","lesson":"a-not-a","t":"mc","o":["你忙不忙？","你很忙不忙？","你忙不忙吗？","你忙吗不忙？"]}
+{"id":"a-not-a.02","lesson":"a-not-a","t":"mc","o":["Qù bu qù?","Qù bú qù?","Qù bù qù?","Qù bǔ qù?"]}
+{"id":"a-not-a.03","lesson":"a-not-a","t":"mc","o":["你有没有车？","你有没车吗？","你有没有车吗？","你没有有车？"]}
+{"id":"a-not-a.04","lesson":"a-not-a","t":"mc","o":["你喜不喜欢咖啡？","你喜欢不喜欢咖啡吗？","你不喜欢喜欢咖啡？","你喜欢不咖啡？"]}
+{"id":"a-not-a.05","lesson":"a-not-a","t":"mc","o":["去。","是。","对。","好吗？"]}
+{"id":"a-not-a.06","lesson":"a-not-a","t":"order","a":["你","明天","来","不","来"],"x":["吗"]}
+{"id":"a-not-a.07","lesson":"a-not-a","t":"order","a":["这","本","书","贵","不","贵"],"x":["个"]}
+{"id":"a-not-a.08","lesson":"a-not-a","t":"order","a":["你","有","没有","哥哥"],"x":["吗"]}
+{"id":"a-not-a.09","lesson":"a-not-a","t":"fill","q":"你去__去？","o":["是","吗","很"],"a":["不","bù"],"xr":["shì","ma","hěn"]}
+{"id":"a-not-a.10","lesson":"a-not-a","t":"fill","q":"你有__有中文书？","o":["是","吗","很"],"a":["没","méi"],"xr":["shì","ma","hěn"]}
+{"id":"a-not-a.11","lesson":"a-not-a","t":"fill","q":"你喜欢不__茶？","o":["有","是","吗"],"a":["喜欢","xǐhuan"],"xr":["yǒu","shì","ma"]}
+{"id":"a-not-a.12","lesson":"a-not-a","t":"type","a":["你 明天 来 不 来","明天 你 来 不 来","nǐ míngtiān lái bu lái","míngtiān nǐ lái bu lái"],"x":["吗"],"hint":{"zh":"明天 · 来 · 不"},"xr":["ma"]}
+{"id":"a-not-a.13","lesson":"a-not-a","t":"type","a":["你 要 不 要 这 杯 茶","这 杯 茶 你 要 不 要","nǐ yào bu yào zhè bēi chá","zhè bēi chá nǐ yào bu yào"],"x":["本"],"hint":{"zh":"要 · 这 · 杯 · 茶"},"xr":["běn"]}
+{"id":"a-not-a.14","lesson":"a-not-a","t":"type","a":["你 哥哥 是 不 是 老师","你 的 哥哥 是 不 是 老师","nǐ gēge shì bu shì lǎoshī","nǐ de gēge shì bu shì lǎoshī"],"x":["吗"],"hint":{"zh":"哥哥 · 是 · 不 · 老师"},"xr":["ma"]}
+{"id":"ye-dou.01","lesson":"ye-dou","t":"mc","o":["我也是学生。","我是学生也。","也我是学生。","我是也学生。"]}
+{"id":"ye-dou.02","lesson":"ye-dou","t":"mc","o":["yě","yè","yē","yé"]}
+{"id":"ye-dou.03","lesson":"ye-dou","t":"mc","o":["我们都是美国人。","都我们是美国人。","我们是都美国人。","我们是美国人都。"]}
+{"id":"ye-dou.04","lesson":"ye-dou","t":"mc","o":["我还没吃饭。","我没还吃饭。","我还没吃饭了。","我吃饭还没。"]}
+{"id":"ye-dou.05","lesson":"ye-dou","t":"mc","o":["我们都不去。","我们不都去。","都我们不去。","我们不去都。"]}
+{"id":"ye-dou.06","lesson":"ye-dou","t":"order","a":["我","爸爸","也","是","老师"],"x":["很"]}
+{"id":"ye-dou.07","lesson":"ye-dou","t":"order","a":["我们","都","喜欢","喝","茶"],"x":["吗"]}
+{"id":"ye-dou.08","lesson":"ye-dou","t":"order","a":["他们","都","在","家"],"x":["去"]}
+{"id":"ye-dou.09","lesson":"ye-dou","t":"fill","q":"她__是美国人。","o":["都","很","太"],"a":["也","yě"],"xr":["dōu","hěn","tài"]}
+{"id":"ye-dou.10","lesson":"ye-dou","t":"fill","q":"我们__是学生。","o":["的","很","太"],"a":["都","dōu"],"xr":["de","hěn","tài"]}
+{"id":"ye-dou.11","lesson":"ye-dou","t":"fill","q":"我__没吃饭。","o":["太","都","很"],"a":["还","hái"],"xr":["tài","dōu","hěn"]}
+{"id":"ye-dou.12","lesson":"ye-dou","t":"type","a":["我 也 是 美国人","wǒ yě shì Měiguórén"],"x":["很"],"hint":{"zh":"也 · 是 · 美国人"},"xr":["hěn"]}
+{"id":"ye-dou.13","lesson":"ye-dou","t":"type","a":["我们 都 有 一 只 猫","我们 两 个 都 有 一 只 猫","我们 都 有 猫","wǒmen dōu yǒu yì zhī māo","wǒmen liǎng ge dōu yǒu yì zhī māo","wǒmen dōu yǒu māo"],"x":["个"],"hint":{"zh":"都 · 有 · 一 · 只 · 猫"},"xr":["ge"]}
+{"id":"ye-dou.14","lesson":"ye-dou","t":"type","a":["我 爸爸 妈妈 都 很 忙","爸爸 妈妈 都 很 忙","我 妈妈 爸爸 都 很 忙","妈妈 爸爸 都 很 忙","我 爸爸 和 妈妈 都 很 忙","爸爸 和 妈妈 都 很 忙","我 妈妈 和 爸爸 都 很 忙","妈妈 和 爸爸 都 很 忙","wǒ bàba māma dōu hěn máng","bàba māma dōu hěn máng","wǒ māma bàba dōu hěn máng","māma bàba dōu hěn máng","wǒ bàba hé māma dōu hěn máng","bàba hé māma dōu hěn máng","wǒ māma hé bàba dōu hěn máng","māma hé bàba dōu hěn máng"],"x":["是"],"hint":{"zh":"爸爸 · 妈妈 · 都 · 很 · 忙"},"xr":["shì"]}
+{"id":"ba-bie.01","lesson":"ba-bie","t":"mc","o":["我们走吧。","我们走吗？","吧我们走。","我们吧走。"]}
+{"id":"ba-bie.02","lesson":"ba-bie","t":"mc","o":["qǐng","qíng","qìng","qīng"]}
+{"id":"ba-bie.03","lesson":"ba-bie","t":"mc","o":["别担心。","不担心。","担心别。","没担心。"]}
+{"id":"ba-bie.04","lesson":"ba-bie","t":"mc","o":["请进。","进请。","请进吗？","进吧请。"]}
+{"id":"ba-bie.05","lesson":"ba-bie","t":"mc","o":["麻烦你帮我一下。","麻烦帮你我一下。","你帮麻烦我一下。","我帮麻烦你一下。"]}
+{"id":"ba-bie.06","lesson":"ba-bie","t":"order","a":["我们","在","家","吃饭","吧"],"x":["吗"]}
+{"id":"ba-bie.07","lesson":"ba-bie","t":"order","a":["我们","明天","去","医院","吧"],"x":["吗"]}
+{"id":"ba-bie.08","lesson":"ba-bie","t":"order","a":["请","别","担心"],"x":["不"]}
+{"id":"ba-bie.09","lesson":"ba-bie","t":"fill","q":"我们走__。","o":["吗","呢","是"],"a":["吧","ba"],"xr":["ma","ne","shì"]}
+{"id":"ba-bie.10","lesson":"ba-bie","t":"fill","q":"__担心。","o":["不","没","很"],"a":["别","不要","bié","bú yào"],"xr":["bù","méi","hěn"]}
+{"id":"ba-bie.11","lesson":"ba-bie","t":"fill","q":"__坐。","o":["吧","吗","很"],"a":["请","qǐng"],"xr":["ba","ma","hěn"]}
+{"id":"ba-bie.12","lesson":"ba-bie","t":"type","a":["我们 明天 去 超市 吧","明天 我们 去 超市 吧","wǒmen míngtiān qù chāoshì ba","míngtiān wǒmen qù chāoshì ba"],"x":["了"],"hint":{"zh":"明天 · 去 · 超市 · 吧"},"xr":["le"]}
+{"id":"ba-bie.13","lesson":"ba-bie","t":"type","a":["我们 买 两 瓶 水 吧","wǒmen mǎi liǎng píng shuǐ ba"],"x":["个","二"],"hint":{"zh":"买 · 两 · 瓶 · 水 · 吧"},"xr":["ge","èr"]}
+{"id":"ba-bie.14","lesson":"ba-bie","t":"type","a":["别 喝 咖啡","不要 喝 咖啡","你 别 喝 咖啡","你 不要 喝 咖啡","bié hē kāfēi","bú yào hē kāfēi","nǐ bié hē kāfēi","nǐ bú yào hē kāfēi"],"x":["没"],"hint":{"zh":"别 · 喝 · 咖啡"},"xr":["méi"]}
+{"id":"and-or.01","lesson":"and-or","t":"mc","o":["茶和咖啡","茶还是咖啡","茶或者咖啡","和茶咖啡"]}
+{"id":"and-or.02","lesson":"and-or","t":"mc","o":["hé","hē","hè","hě"]}
+{"id":"and-or.03","lesson":"and-or","t":"mc","o":["你要面条还是米饭？","你要面条还是米饭吗？","你要面条和米饭吗？","你要还是面条米饭？"]}
+{"id":"and-or.04","lesson":"and-or","t":"mc","o":["我很累，想睡觉。","我很累和想睡觉。","我和很累想睡觉。","我很累还是想睡觉。"]}
+{"id":"and-or.05","lesson":"and-or","t":"mc","o":["我星期六或者星期天去。","我星期六还是星期天去。","我去星期六或者星期天。","我星期六和星期天去。"]}
+{"id":"and-or.06","lesson":"and-or","t":"order","a":["我","和","王明","一起","去"],"x":["吗"]}
+{"id":"and-or.07","lesson":"and-or","t":"order","a":["我","星期六","或者星期天","去"],"x":["还是星期天"]}
+{"id":"and-or.08","lesson":"and-or","t":"order","a":["你","要","这个","还是那个"],"x":["和那个"]}
+{"id":"and-or.09","lesson":"and-or","t":"fill","q":"你要茶__咖啡？","o":["是","和","也"],"a":["还是","háishi"],"xr":["shì","hé","yě"]}
+{"id":"and-or.10","lesson":"and-or","t":"fill","q":"我__我妈妈一起去。","o":["还是","或者","也"],"a":["和","跟","hé","gēn"],"xr":["háishi","huòzhě","yě"]}
+{"id":"and-or.11","lesson":"and-or","t":"fill","q":"我星期六__星期天去。","o":["还是","和","也"],"a":["或者","huòzhě"],"xr":["háishi","hé","yě"]}
+{"id":"and-or.12","lesson":"and-or","t":"type","a":["我 和 我 妈妈 一起 去 超市","我 和 妈妈 一起 去 超市","我 跟 我 妈妈 一起 去 超市","我 跟 妈妈 一起 去 超市","我 妈妈 和 我 一起 去 超市","妈妈 和 我 一起 去 超市","wǒ hé wǒ māma yìqǐ qù chāoshì","wǒ hé māma yìqǐ qù chāoshì","wǒ gēn wǒ māma yìqǐ qù chāoshì","wǒ gēn māma yìqǐ qù chāoshì","wǒ māma hé wǒ yìqǐ qù chāoshì","māma hé wǒ yìqǐ qù chāoshì"],"x":["还是"],"hint":{"zh":"和 · 妈妈 · 一起 · 去 · 超市"},"xr":["háishi"]}
+{"id":"and-or.13","lesson":"and-or","t":"type","a":["您 要 茶 还是 咖啡","您 想 要 茶 还是 咖啡","您 喝 茶 还是 咖啡","您 要 喝 茶 还是 咖啡","您 想 喝 茶 还是 咖啡","nín yào chá háishi kāfēi","nín xiǎng yào chá háishi kāfēi","nín hē chá háishi kāfēi","nín yào hē chá háishi kāfēi","nín xiǎng hē chá háishi kāfēi"],"x":["和"],"hint":{"zh":"您 · 要 · 茶 · 还是 · 咖啡"},"xr":["hé"]}
+{"id":"and-or.14","lesson":"and-or","t":"type","a":["我 要 一 碗 面条 和 一 杯 茶","wǒ yào yì wǎn miàntiáo hé yì bēi chá"],"x":["个"],"hint":{"zh":"要 · 碗 · 面条 · 和 · 杯 · 茶"},"xr":["ge"]}

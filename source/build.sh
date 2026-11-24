@@ -35,6 +35,9 @@ for f in PACKS:
     for c in o['c']: c['file']=fn; man['courses'][c['id']]=c
     for l in o['i']: man['i18n'][l]=fn
     if len(o['c'])+len(o['i'])!=1: sys.exit('external pack must define exactly one course or one i18n table: '+f)
+# interface-pack aliases: a native language whose LANGS entry in src/app.html has ui:'<code>' (spr reads es) loads that language's interface file
+for a,b in re.findall(r"\b([a-z]{2,4}):\{name:'[^']*',self:'[^']*',flag:'[^']*',ko:'[^']*'(?:,t:1)?,ui:'([a-z]{2,3})'\}",src):
+    if b in man['i18n'] and a not in man['i18n']: man['i18n'][a]=man['i18n'][b]
 mj=json.dumps(man,ensure_ascii=False,separators=(',',':')).replace('</','<\\/').replace('\u2028','\\u2028').replace('\u2029','\\u2029')
 loader=("(function(){var M="+mj+";window.LANGAPP_MANIFEST=M;window.LANGAPP_PACKS={course:{},i18n:{}};var m=null;try{m=JSON.parse(localStorage.getItem('la-meta')||'null')}catch(e){}"
  "var w=[],c=m&&typeof m==='object'&&m.v===1&&m.picked&&typeof m.course==='string'&&Object.prototype.hasOwnProperty.call(M.courses,m.course)?M.courses[m.course]:null;"

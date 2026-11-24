@@ -1,6 +1,6 @@
 # Two halves: on-disk format for teaching Korean to any learner language
 
-Status: **frozen v1** (2026-11-22), **v1.1** (2026-11-23: Korean trainers — `roles` / `kinds` / `build` in the target `course.json`, `target/ko/trainer.json`, `native/<n>/ko/trainer.json`, pack fields `ROLES` / `KINDS` / `TRAINER`, features from readiness; see §10), **v1.2** (2026-11-23: every trainer wired for packs; `mk_native.js` writes the trainer work file `wT.jsonl`, §9). Exported from `src/app.html` sha256 `abc284e5db93332b…` (`target/ko/course.json` `exportedFrom` always holds the current hash). Tools: `tools/halves/` (`export_ko.js`, `assemble.js`, `proof.js`, `validate.js`, `mk_native.js`, `selftest.js`).
+Status: **frozen v1** (2026-11-22), **v1.1** (2026-11-23: Korean trainers — `roles` / `kinds` / `build` in the target `course.json`, `target/ko/trainer.json`, `native/<n>/ko/trainer.json`, pack fields `ROLES` / `KINDS` / `TRAINER`, features from readiness; see §10), **v1.2** (2026-11-23: every trainer wired for packs; `mk_native.js` writes the trainer work file `wT.jsonl`, §9). **v1.3** (2026-11-24: a second target, Chinese `zh`, and native halves in any language; §11). Exported from `src/app.html` sha256 `abc284e5db93332b…` (`target/ko/course.json` `exportedFrom` always holds the current hash). Tools: `tools/halves/` (`export_ko.js`, `assemble.js`, `proof.js`, `validate.js`, `mk_native.js`, `selftest.js`).
 
 A Korean course is stored as two halves, and `assemble.js` joins them into an ordinary course pack (`LANGAPP_PACKS.course['<n>-ko']`). The runtime needs almost no change.
 
@@ -248,3 +248,35 @@ The shape of `TRAINER`, plus `_about` / `_src` / `_note` / `_new` meta fields th
 ### 10.4 Features from readiness
 
 `CF(f)` in the engine is `features[f] && READY[f]()` for a Korean target, and a non-built-in course only gets features whose renderers read `TRAINER` (`TRAINER_WIRED`, mirrored by `WIRED` in `assemble.js`: since WP2–WP6 every feature). `READY` requires the whole section (the same key lists as `assemble.js readiness()`), so a pack with a flag but an incomplete section shows no trainer and never English. `modeOk(mode)` gates each drill mode (`pick` needs `script`, `build` needs `script` + `READY.build`, i.e. every `gloss` key and template plus `build.ui` / `build.extra`; `register` / `numbers` / `sound` need their flag). The read-tab tour names the full drill list only when the pack has build, numbers and register.
+
+## 11 · Other targets (v1.3): Chinese `zh`
+
+Design and rationale: `docs/briefs/vi-zh-design.md`. Everything above holds for every target, with these differences:
+
+* **One table per target** in `lib.js` (`TARGETS`):
+  * the field holding the target text in target rows: `ko` for Korean, **`zh`** for Chinese (`{"id":"zh.c0001","deck":"zh.d.pinyin-sounds","zh":"八","rom":"bā"}`);
+  * the protected script: Hangul / **Han characters**;
+  * the option and hint classifier, used by the exporter, `mk_native.js` and `validate.js`. A Chinese option is target-side when it has Han and no Latin letters, or when it is pinyin.
+* **Export:**
+  * `node tools/halves/export_target.js zh` regenerates en-zh from `tools/target/zh/` (`tools/target/gen.js`) into a temp file and splits it. It refuses any pack or practice field it does not map.
+  * `export_target.js ko` runs `export_ko.js` unchanged: the built-in en-ko course lives in `src/app.html`.
+* **Proof:** `node tools/halves/proof.js zh` is a pure-data proof. `assemble('en','zh')` deep-equals the regenerated en-zh pack (only `standard` and `UI` may be extra). `proof.js` with no argument stays the Korean browser proof.
+* **Target `course.json` (zh) adds:**
+  * `pack` (en-zh flags copied verbatim: `accents`, `keys`, `tilesDefault`);
+  * `features` (copied, all false);
+  * `uiKeys` (the interface strings a non-English half overrides).
+* **Shapes en-zh has and Korean has not** (assembled back to the en-zh shape):
+  * titles without target text → `[level, native, ""]`;
+  * greetings without pronunciation → `[zh, gloss]`;
+  * `PATTERNS[3]` as the example translation → native `patterns.tr`;
+  * practice `strict` and `xr` → target-side.
+* **Native rules for zh:**
+  * Han runs are set-equal to the English, but a card `note` may add the row's own `trad`;
+  * bodies, deck descriptions, pattern meanings and `why` may add Han (a warning);
+  * a missing pinyin word with ¯ or ˇ is a warning;
+  * no `|` in example glosses.
+  * For Vietnamese, native `course.json` `"readings": "hanviet"` requires card fields `hvUse` (same | shifted | none | skip), `hv` (one Hán Việt syllable per character) and optional `trad`. Assembly ignores them; `validate.js` checks their form and consistency.
+* **Tools:**
+  * `mk_native.js <n> --target zh` (`mk_native.js <n>` is still Korean) writes `w1..w4`, `wU.jsonl` (→ `ui.json`), `REPEATS.md` and `NOTES.md`;
+  * `assemble.js <n> zh`, `validate.js <n> zh [--all]`;
+  * `dryrun.js <n> <t> <wN>` is a writer's self-check on a temp copy.
