@@ -140,7 +140,7 @@ body.norom .rom:hover,body.norom .rom.peek,body.norom .brow .r:hover,body.norom 
 .noteform textarea{width:100%;font:.88rem var(--body);border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);padding:8px}
 .strokes-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:8px 0}
 .sgl{text-align:center;cursor:pointer}
-.sgl .k{font-family:var(--display);font-weight:700}
+.sgl .k{font-family:var(--display);font-weight:700;font-size:1rem;margin-bottom:2px}.sgl .k .rom{font-size:.8rem;font-weight:500}
 .sgl .stroke svg{width:100%;height:auto}
 @media (max-width:420px){.strokes-grid{grid-template-columns:repeat(3,1fr)}}
 .stroke{display:flex;align-items:center;gap:8px}
@@ -592,7 +592,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.93.0 · 2026-11-24';
+const APP_VERSION='2.94.0 · 2026-11-24';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -1334,7 +1334,7 @@ let LESSONS = [
 <p>Two ticks = add a y: ㅑ ya, ㅕ yeo, ㅛ yo, ㅠ yu.</p>
 <h3>Consonants are mouth shapes</h3>
 <p>The basic five were drawn from the tongue and lips: <b>ㄱ</b> (g, tongue back), <b>ㄴ</b> (n, tongue tip up), <b>ㅁ</b> (m, lips), <b>ㅅ</b> (s, teeth), <b>ㅇ</b> (silent placeholder, throat). Adding a stroke makes a harder sound: ㄴ→ㄷ (d)→ㅌ (t); ㅁ→ㅂ (b)→ㅍ (p); ㅅ→ㅈ (j)→ㅊ (ch); ㄱ→ㅋ (k); ㅇ→ㅎ (h).</p>
-<h3>Stroke order</h3><p>Top to bottom, left to right. Tap a letter to replay.</p><div class="strokes-grid">${['ㄱ','ㄴ','ㄷ','ㄹ','ㅁ','ㅂ','ㅅ','ㅇ','ㅈ','ㅊ','ㅋ','ㅌ','ㅍ','ㅎ','ㅏ','ㅑ','ㅓ','ㅕ','ㅗ','ㅛ','ㅜ','ㅠ','ㅡ','ㅣ'].map(ch=>`<div class="sgl" data-replay="1"><div class="k">${ch}</div>${strokeSVG(ch).replace(/<button[^>]*>.*?<\/button>/,'')}</div>`).join('')}</div>
+<h3>Stroke order</h3><p>Top to bottom, left to right. Tap a letter to replay.</p><div class="strokes-grid">${['ㄱ','ㄴ','ㄷ','ㄹ','ㅁ','ㅂ','ㅅ','ㅇ','ㅈ','ㅊ','ㅋ','ㅌ','ㅍ','ㅎ','ㅏ','ㅑ','ㅓ','ㅕ','ㅗ','ㅛ','ㅜ','ㅠ','ㅡ','ㅣ'].map(ch=>`<div class="sgl" data-replay="1"><div class="k">${sglLabel(ch)}</div>${strokeSVG(ch).replace(/<button[^>]*>.*?<\/button>/,'')}</div>`).join('')}</div>
 <h3>Stacking</h3>
 <p>Consonant first, then vowel. Vertical vowels go to the <b>right</b>; horizontal vowels go <b>below</b>. A final consonant (받침, batchim) goes at the bottom.</p>
 ${ex("나","na","ㄴ + ㅏ side by side")}${ex("노","no","ㄴ + ㅗ stacked")}${ex("한","han","ㅎ + ㅏ + ㄴ final")}${ex("서울","seoul","ㅅ+ㅓ, ㅇ(silent)+ㅜ+ㄹ")}
@@ -1917,7 +1917,9 @@ function cleanLessonHTML(h){ return String(h==null?'':h).replace(/<\/?(script|if
 function escT(s){ return String(s==null?'':s).trim().replace(/&(?!(amp|lt|gt|quot|#39);)/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 function expandEx(html){ return String(html||'').replace(/\{\{ex:([^}]*)\}\}/g,(m,inner)=>{ const p=inner.split('|'); return ex(escT(p[0]),escT(p[1]),escT(p.slice(2).join('|'))); }); }
 /* {{strokes:ㄱ}} in a pack lesson (Korean target only) becomes the stroke-order cell the built-in Hangul lesson draws; it is expanded here, after the pack's HTML was cleaned, because the cleaner removes svg */
-function strokeTok(h){ return COURSE.target!=='ko'?h:String(h).replace(/\{\{strokes:([^}]*)\}\}/g,(m,ch)=>STROKES[ch]?'<div class="sgl" data-replay="1"><div class="k">'+escT(ch)+'</div>'+strokeSVG(ch).replace(/<button[^>]*>.*?<\/button>/,'')+'</div>':''); }
+/* stroke-order grid label: letter - romanization (first sound / final sound where they differ; initial ㅇ is silent) */
+function sglLabel(ch){ const R={'ㄱ':'g/k','ㄴ':'n','ㄷ':'d/t','ㄹ':'r/l','ㅁ':'m','ㅂ':'b/p','ㅅ':'s','ㅇ':'silent/ng','ㅈ':'j','ㅊ':'ch','ㅋ':'k','ㅌ':'t','ㅍ':'p','ㅎ':'h','ㄲ':'kk','ㄸ':'tt','ㅃ':'pp','ㅆ':'ss','ㅉ':'jj','ㅏ':'a','ㅑ':'ya','ㅓ':'eo','ㅕ':'yeo','ㅗ':'o','ㅛ':'yo','ㅜ':'u','ㅠ':'yu','ㅡ':'eu','ㅣ':'i','ㅐ':'ae','ㅔ':'e','ㅒ':'yae','ㅖ':'ye','ㅘ':'wa','ㅙ':'wae','ㅚ':'oe','ㅝ':'wo','ㅞ':'we','ㅟ':'wi','ㅢ':'ui'}; const c=String(ch).replace(/&/g,'&amp;').replace(/</g,'&lt;'); return R[ch]?c+' <span class="rom" data-noi18n>- '+R[ch]+'</span>':c; }
+function strokeTok(h){ return COURSE.target!=='ko'?h:String(h).replace(/\{\{strokes:([^}]*)\}\}/g,(m,ch)=>STROKES[ch]?'<div class="sgl" data-replay="1"><div class="k">'+sglLabel(ch)+'</div>'+strokeSVG(ch).replace(/<button[^>]*>.*?<\/button>/,'')+'</div>':''); }
 /* Lessons: the romanization of every Korean word is written under it (ruby), as on the cards. Skipped where the Korean is itself a sound respelling or the quiz asks how a block reads. */
 const ROM_SKIP={'sound-changes':1}, ROM_SKIP_Q={'sound-changes':1,hangul:1}, ROM_J={'ㄹ':'l','ㄴ':'n','ㅁ':'m','ㅆ':'ss'};
 function romAnnotate(root){ if(!root||!COURSE||COURSE.target!=='ko') return; const SK='.ex .k,.ex .r,.ex .sp,.sgl,ruby,rt,svg,script,style,input,textarea,.rom,[data-norom]'; const tw=document.createTreeWalker(root,NodeFilter.SHOW_TEXT); const nodes=[]; let n; while((n=tw.nextNode())){ if(/[가-힣]/.test(n.nodeValue)&&n.parentElement&&!n.parentElement.closest(SK)) nodes.push(n); }
