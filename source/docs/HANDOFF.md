@@ -20,7 +20,7 @@ Standing rules: Supabase publishable key only; never open, print or commit secre
 - Dialect and variety choices: ask once when it decides every card, otherwise decide and say so.
 - Replies: brief, bullets, direct. Visuals as PNG.
 
-## Released (through 2.94.0)
+## Released (through 2.95.0)
 
 Yesterday and today: ur-en, pa-en (2.78.0); yue-en in written Cantonese (2.79.0); te-en with bundled Noto Sans Telugu (2.80.0); yue-ko (2.81.0); kn-en (2.82.0); release report + audio coverage on every release (2.83.0); en-hmn (2.84.0); new cards flip on tap (2.85.0); hmn-en + Hmong interface (2.86.0).
 
@@ -33,6 +33,8 @@ Yesterday and today: ur-en, pa-en (2.78.0); yue-en in written Cantonese (2.79.0)
 2.93.0 (2026-11-24): **romanization under every Korean word in lessons** (owner, after lesson 1: "I can't read or write Korean, there should be way more romanization in the lessons"). Before, only the example cards carried it; prose, tables ("Say it 3 ways"), tip and mistake boxes, the quick-check options and their explanations, and lesson titles in the list showed bare Hangul. Now `romAnnotate` in `src/app.html` wraps each Hangul word in those places in `<ruby class="rb">` with `romanize()` underneath (red, as on cards), at render time, for every course whose target is Korean (en-ko and the twelve x-ko packs; no pack was edited). An **Aa** button at the top of a lesson turns it off; it is the existing practice setting (`S.quizRom`, class `qromT`). Left bare on purpose: the sound-changes lesson and its quiz (the Korean there is sound respellings) and the Hangul quiz (it asks how a block reads): `ROM_SKIP` / `ROM_SKIP_Q`. A word already followed by its romanization in the text is not doubled. Attached letters are read with the word (`-ㅂ니다` mnida, `ㄹ까요` lkkayo). en-ko lesson 1 gained a "Not reading Hangul yet?" box and lesson 2 short glosses (반말, 감사합니다, 말 놔도 돼요, the café quiz explanation). Guard `lessonRom` in `harness.js`; the edit script is `tools/patches/lesson_rom.py`.
 
 2.94.0 (2026-11-24): the **stroke-order grid** labels read "letter - romanization" (ㄱ - g/k, ㅇ - silent/ng; owner: "hangul - romanji above the picture"). One helper, `sglLabel` in `src/app.html`, serves the built-in lesson and the `{{strokes:…}}` token of the x-ko packs; the romanization part is not translated. Checked by guard `lessonRom`. Edit script: `tools/patches/stroke_rom.py`.
+
+2.95.0 (2026-11-24): **the pause scene waits 60 s on desktop** (owner: "the timer before the card animations on the desktop is a little too quick. can we double the time"). `idleMs` in `src/app.html` is 60000 when the main pointer is not a finger (`(pointer:coarse)` false) and stays 30000 on phones and tablets (they auto-lock at about 30 s). Guard `idleDesktop` in `harness.js`; edit script `tools/patches/idle_desktop.py`. Reading taken: "card animations" = the word cards that fly in after no input; no other timer was changed.
 
 Same gap, not fixed (audit 2026-11-24): all 15 courses with a non-Latin target for Latin-script learners (en-am, ar, bn, hi, ja, kn, nan, pa, ru, te, th, ur, yue, zh, and vi-zh) show the target script bare in lesson prose, tables and quizzes: about 800 to 1,700 runs per course in lesson bodies and 350 to 900 in quick checks. They have no `romanize()`; the fix is a word → reading table built from each course's own cards and example lines (plus a list of what it cannot cover), then the same `<ruby>` rendering. Not started.
 

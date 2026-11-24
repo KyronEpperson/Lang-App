@@ -566,7 +566,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.94.0 · 2026-11-24';
+const APP_VERSION='2.95.0 · 2026-11-24';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -3277,7 +3277,7 @@ let PAUSE_SETS={
  polite:['예의 · polite basics',[["주세요","Please (give me)"],["부탁해요","Please (I'm asking a favor)"],["실례합니다","Excuse me / Pardon me"],["저기요","Excuse me (to get attention)"],["잠깐만요","Excuse me, one second"],["죄송합니다","I'm sorry"],["감사합니다","Thank you"],["고마워요","Thanks"],["아니에요","You're welcome (lit. 'not at all')"],["괜찮습니다","It's fine / No, thank you"],["안녕하세요","Hello"],["안녕히 계세요","Goodbye (you're staying)"],["안녕히 가세요","Goodbye (you're leaving)"],["도와주세요","Please help me"],["처음 뵙겠습니다","Nice to meet you (first time)"],["반갑습니다","Nice to meet you"],["먼저 가세요","After you / Go ahead"],["지나갈게요","Coming through, excuse me"]]],
  saying:['속담 · saying',[["시작이 반이다","Starting is half the battle"],["꿈은 이루어진다","Dreams come true"],["하면 된다","If you try, you can"],["포기하지 마","Don't give up"],["티끌 모아 태산","Little by little makes a mountain"],["가는 날이 장날","Of all the days! (funny timing)"],["누워서 떡 먹기","A piece of cake"],["금강산도 식후경","Even sightseeing comes after eating"],["웃으면 복이 와요","Smile and good luck comes"],["고생 끝에 낙이 온다","After hardship comes joy"],["천 리 길도 한 걸음부터","A long journey starts with one step"],["세 살 버릇 여든까지","Old habits die hard"],["백지장도 맞들면 낫다","Many hands make light work"],["오늘도 힘내요","Stay strong today"],["넌 할 수 있어","You can do it"],["괜찮아, 잘될 거야","It's okay, it'll work out"],["인생은 한 번뿐","You only live once"],["느려도 괜찮아","Slow is okay"],["원숭이도 나무에서 떨어진다","Even monkeys fall from trees"],["말 한마디에 천 냥 빚도 갚는다","Kind words can repay a great debt"]]]
 };
-let idleT=null, idleW=null, idleMs=30000, wakeL=null;
+let idleT=null, idleW=null, idleMs=(()=>{ try{ return window.matchMedia('(pointer:coarse)').matches?30000:60000; }catch(e){ return 30000; } })(), wakeL=null; /* pause scene: 30 s on phones and tablets, 60 s on desktop */
 async function wakeOn(){ try{ if('wakeLock' in navigator&&!wakeL&&!document.hidden&&FX3D.on()){ wakeL=await navigator.wakeLock.request('screen'); wakeL.addEventListener('release',()=>{ wakeL=null; }); } }catch(e){} }
 function wakeOff(){ try{ if(wakeL) wakeL.release(); }catch(e){} wakeL=null; }
 function idleSlides(){ return COURSE.builtin?idleSlidesKo():idleSlidesGen(); }
