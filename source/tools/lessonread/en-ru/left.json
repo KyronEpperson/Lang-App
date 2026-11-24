@@ -1,0 +1,458 @@
+{
+ "Б": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "Б"
+ },
+ "Г": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Г"
+ },
+ "Д": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Д"
+ },
+ "Ж": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Ж"
+ },
+ "З": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "З"
+ },
+ "Й": {
+  "tool": "",
+  "warned": true,
+  "n": 6,
+  "ctx": "Й"
+ },
+ "Л": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Л"
+ },
+ "М": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "Аah Кk М Оah Т"
+ },
+ "Н": {
+  "tool": "",
+  "warned": true,
+  "n": 5,
+  "ctx": "Н"
+ },
+ "П": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "П"
+ },
+ "Повторю": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "How do you ask a stranger to say something agai"
+ },
+ "Р": {
+  "tool": "",
+  "warned": true,
+  "n": 3,
+  "ctx": "Р"
+ },
+ "Россие": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "\"in Russia\" = → в Россие"
+ },
+ "Т": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "Аah Кk М Оah Т"
+ },
+ "Ф": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Ф"
+ },
+ "Х": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Х"
+ },
+ "Ц": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Ц"
+ },
+ "Ч": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Ч"
+ },
+ "Ш": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Ш"
+ },
+ "Щ": {
+  "tool": "",
+  "warned": true,
+  "n": 3,
+  "ctx": "Щ"
+ },
+ "ая": {
+  "tool": "",
+  "warned": true,
+  "n": 3,
+  "ctx": "-ая"
+ },
+ "б": {
+  "tool": "",
+  "warned": true,
+  "n": 3,
+  "ctx": "nd soft consonants apart, and know when б sounds like p."
+ },
+ "борще": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "\"I want borscht\" = → Я хочу борще"
+ },
+ "борщом": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "\"I want borscht\" = → Я хочу борщом"
+ },
+ "борщу": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "\"I want borscht\" = → Я хочу борщу"
+ },
+ "волноваться": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "\"Don't worry\" to a friend is… → Не волноваться."
+ },
+ "г": {
+  "tool": "",
+  "warned": true,
+  "n": 7,
+  "ctx": "At the end of a word, б д г вf з ж lose t"
+ },
+ "говорешь": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Which is the ты form of говорить (to speak)? → г"
+ },
+ "д": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "At the end of a word, б д г вf з ж lose t"
+ },
+ "други": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "How do you say \"my friends\"? → мои други"
+ },
+ "евич": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "r, a boss or an older person by first name plus patronymic, a middle name made from "
+ },
+ "евна": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "n by first name plus patronymic, a middle name made from the father's name: Аннаahn-"
+ },
+ "ея": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Which is right for 'her car'? → ея машина"
+ },
+ "ж": {
+  "tool": "",
+  "warned": true,
+  "n": 4,
+  "ctx": "At the end of a word, б д г вf з ж lose t"
+ },
+ "з": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "At the end of a word, б д г вf з ж lose t"
+ },
+ "ие": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": " (Textbooks call it the 7-letter spelling rule.) So the masculine is -ий and the p"
+ },
+ "ии": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "-ии"
+ },
+ "имеет": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "It says Уoo меняmih-NYAH естьyehst' братbraht, word for word \"by me there is a brothe"
+ },
+ "имеете": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "\"Do you have bread?\" (in a shop) = → Вы имеете хлеб?"
+ },
+ "ия": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "-ия"
+ },
+ "й": {
+  "tool": "",
+  "warned": true,
+  "n": 5,
+  "ctx": "a consonant, or -й"
+ },
+ "книгы": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "книгы"
+ },
+ "л": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "Verbs like говоритьgah-vah-reet' (to speak) drop -ить and take endings with"
+ },
+ "н": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "kes the genitive case, so the pronoun changes. After уoo, the words for he, she a"
+ },
+ "надцать": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "-надцать"
+ },
+ "ними": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ониah-NEE → ними"
+ },
+ "нравлю": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "How do you say \"I like Moscow\"? → Я нравлю Москву."
+ },
+ "нравлюсь": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "How do you say \"I like Moscow\"? → Мне нравлюсь Москва."
+ },
+ "ович": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": " a teacher, a boss or an older person by first name plus patronymic, a middle name m"
+ },
+ "овна": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "der person by first name plus patronymic, a middle name made from the father's name:"
+ },
+ "ое": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "-ое"
+ },
+ "окни": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "What is the plural of окно (window)? → окни"
+ },
+ "окнос": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "What is the plural of окно (window)? → окнос"
+ },
+ "окны": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "What is the plural of окно (window)? → окны"
+ },
+ "п": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "At the end of a word, б д г вf з ж lose t"
+ },
+ "письма": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "письмоpees'-MOH → письма"
+ },
+ "покупал": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "КаждыйKAHZH-dihy деньdyehn' яyah покупал хлебkh"
+ },
+ "понедельнике": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "вf понедельнике"
+ },
+ "пятнице": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "\"On Friday\" is… → в пятнице"
+ },
+ "работало": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "работало"
+ },
+ "сделали": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "сделали"
+ },
+ "сумкы": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "сумкы"
+ },
+ "т": {
+  "tool": "",
+  "warned": true,
+  "n": 4,
+  "ctx": "т"
+ },
+ "ть": {
+  "tool": "",
+  "warned": true,
+  "n": 3,
+  "ctx": "-ть"
+ },
+ "ф": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "At the end of a word, б д г вf з ж lose t"
+ },
+ "х": {
+  "tool": "",
+  "warned": true,
+  "n": 3,
+  "ctx": "After г, кk, х, ж, ш, щ and ч, Russian writ"
+ },
+ "хлебу": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "\"There's no bread\" = → Нет хлебу"
+ },
+ "хочем": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "\"We want\" = → мы хочем"
+ },
+ "ч": {
+  "tool": "",
+  "warned": true,
+  "n": 3,
+  "ctx": "After г, кk, х, ж, ш, щ and ч, Russian writes иee, never ы"
+ },
+ "читали": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "читали"
+ },
+ "читало": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "читало"
+ },
+ "ш": {
+  "tool": "",
+  "warned": true,
+  "n": 5,
+  "ctx": "At the end of a word, б д г вf з ж lose t"
+ },
+ "щ": {
+  "tool": "",
+  "warned": true,
+  "n": 3,
+  "ctx": "After г, кk, х, ж, ш, щ and ч, Russian writes иee, n"
+ },
+ "ъ": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "The soft sign ь and the hard sign ъ"
+ },
+ "ые": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "-ые"
+ },
+ "ь": {
+  "tool": "",
+  "warned": true,
+  "n": 15,
+  "ctx": "The soft sign ь and the hard sign ъ"
+ }
+}

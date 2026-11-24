@@ -1,0 +1,134 @@
+{
+ "আছ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "When in doubt, use আপনিapni. Nobody minds being tre"
+ },
+ "ওয়া": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "A dictionary lists a verb with -আa on the end: করা"
+ },
+ "কর": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "Notice the aid: করিkori is kori but করোkôro is kôro. The letters stay the same"
+ },
+ "করে": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "করে"
+ },
+ "গে": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "Like English go and went, যাওয়াjaoya changes its stem in the past: গে-. "
+ },
+ "চ্ছ": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "চ্ছ"
+ },
+ "টায়": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "At five: -টায়"
+ },
+ "দের": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "that means \"of\". The plural ones end in দের. As in English, the possessive goes bef"
+ },
+ "ন্য": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ন্য"
+ },
+ "প্র": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "প্র"
+ },
+ "বললো": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "You will also see the সেshe form written with a final ো: করলো, বললো. The sound i"
+ },
+ "বে": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "-বে"
+ },
+ "বেন": {
+  "tool": "",
+  "warned": true,
+  "n": 3,
+  "ctx": "-বেন"
+ },
+ "ব্য": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ব্য"
+ },
+ "লাম": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "-লাম"
+ },
+ "লেন": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "-লেন"
+ },
+ "স্ত": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "The hasant ্ removes the inherent vowel. Two conson"
+ },
+ "স্ব": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "স্ব"
+ },
+ "ৎ": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "nant with any vowel sign, and the marks ং ঃ ঁ ৎ."
+ },
+ "১": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "0, পঞ্চাশpônchash 50, ষাট 60, সত্তর 70, আশিashi 80, নব্বই 90 and একশো æksho 100. "
+ },
+ "২": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "পঞ্চাশpônchash 50, ষাট 60, সত্তর 70, আশিashi 80, নব্বই 90 and একশো æksho 100. Eac"
+ },
+ "৩": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "চাশpônchash 50, ষাট 60, সত্তর 70, আশিashi 80, নব্বই 90 and একশো æksho 100. Each n"
+ }
+}

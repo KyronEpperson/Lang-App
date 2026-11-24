@@ -1,0 +1,728 @@
+{
+ "あさごはんを たべましたじゃないです": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Which one says \"I didn't eat breakfast\"? → あさごはんを たべましたじゃな"
+ },
+ "いいくなかったです": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "It wasn't good. = → いいくなかったです"
+ },
+ "いいじゃなかったです": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "It wasn't good. = → いいじゃなかったです"
+ },
+ "いきたくなかったです": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "\"I didn't want to go.\" = → いきたくなかったです"
+ },
+ "いきましょう": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "はいhai、いきましょう"
+ },
+ "いきませんたかったです": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "\"I didn't want to go.\" = → いきませんたかったです"
+ },
+ "いくなかったです": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "It wasn't good. = → いくなかったです"
+ },
+ "いしゃ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "いしゃ"
+ },
+ "いしゃに": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "いしゃに なnaりriまmaすsu"
+ },
+ "いっさつ": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "いっさつ にniさsaつtsu さんsanさsaつtsu"
+ },
+ "いった": {
+  "tool": "",
+  "warned": true,
+  "n": 9,
+  "ctx": "いった"
+ },
+ "いっにん": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "How do you say one person? → いっにん"
+ },
+ "いっぽん": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "いっぽん にniほんhon さんsanぼboんn"
+ },
+ "えいがは おもしろいかったです": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "The movie was interesting. = → えいがは おもしろいかったです"
+ },
+ "えいがは おもしろかったです": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "The movie was interesting. = → えいがは おもしろかったです"
+ },
+ "おきなわに いった ことが ありません": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "\"I've never been to Okinawa.\" = → おきなわに いった ことが ありません"
+ },
+ "おきなわに いった ことが ないです あります": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "\"I've never been to Okinawa.\" = → おきなわに いった ことが ないです あります"
+ },
+ "かった": {
+  "tool": "",
+  "warned": true,
+  "n": 5,
+  "ctx": "きのうkinō かった ほんhon"
+ },
+ "かったです": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "かったです"
+ },
+ "がくせいじゃない": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "がくせいじゃない"
+ },
+ "きのう かった ほん": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "How do you say \"the book I bought yesterday\"? → きの"
+ },
+ "きゅう": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "きゅう"
+ },
+ "きょ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Linguists call a beat a mora. English hears "
+ },
+ "きれいじゃなかったです": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "きれいじゃなかったです"
+ },
+ "ここに すわりましょうか": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "May I sit here? = → ここに すわりましょうか"
+ },
+ "これ・それ・あれ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "5 · これ・それ・あれ: this and that"
+ },
+ "さむかったです": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "きのうkinōはha きょうkyōよりyori さむかったです"
+ },
+ "じゃない": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "じゃない"
+ },
+ "じゃないです": {
+  "tool": "",
+  "warned": true,
+  "n": 4,
+  "ctx": "じゃないです"
+ },
+ "じゃなかったです": {
+  "tool": "",
+  "warned": true,
+  "n": 4,
+  "ctx": "Nouns: でdeしたshita and じゃなかったです"
+ },
+ "じゅう": {
+  "tool": "",
+  "warned": true,
+  "n": 3,
+  "ctx": "じゅう"
+ },
+ "じゅういち": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": " also have a second word each, しshi and しshiちchi. You hear them when people count off"
+ },
+ "じゅうせん": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "English groups digits by thousands, so 10,000 is \"ten tho"
+ },
+ "じょうず": {
+  "tool": "",
+  "warned": true,
+  "n": 4,
+  "ctx": "じょうず"
+ },
+ "すきじゃないです": {
+  "tool": "",
+  "warned": true,
+  "n": 3,
+  "ctx": "すきじゃないです"
+ },
+ "すきじゃなかったです": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "すきじゃなかったです"
+ },
+ "すき・きらい": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "15 · すき・きらい: likes and dislikes"
+ },
+ "せんごひゃくえん": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "out the price of a rice ball. Longer prices are read exactly like the numbers, biggest p"
+ },
+ "たかくなかったです": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "たかくなかったです"
+ },
+ "たかったです": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "たかったです"
+ },
+ "たくなかったです": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "たくなかったです"
+ },
+ "たべなかった": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "たべなかった"
+ },
+ "たべましたじゃない": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "たべましたじゃない"
+ },
+ "たべますじゃない": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "How do you make たべます (eat) negative? → たべますじゃない"
+ },
+ "っ": {
+  "tool": "",
+  "warned": true,
+  "n": 5,
+  "ctx": "Read small ゃ ゅ ょ and っ, hold long vowels for two beats, and he"
+ },
+ "つくった": {
+  "tool": "",
+  "warned": true,
+  "n": 3,
+  "ctx": "はhaははhaha つくった ケーキ"
+ },
+ "つもり・なる": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "24 · つもり・なる: plans and changes"
+ },
+ "てください・てもいいですか・てはいけません": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "18 · てください・てもいいですか・てはいけません"
+ },
+ "でした・ました": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "11 · Past: でした・ました"
+ },
+ "とおもいます・といっていました": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "21 · とおもいます・といっていました: opinions and reports"
+ },
+ "なかった": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "なかった"
+ },
+ "なければいけません・ほうがいい": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "28 · なければいけません・ほうがいい"
+ },
+ "なっとうを たべた ことが あります": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "\"I've eaten natto.\" = → なっとうを たべた ことが あります"
+ },
+ "なっとうを たべた ことを あります": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "\"I've eaten natto.\" = → なっとうを たべた ことを あります"
+ },
+ "なっとうを たべました ことが あります": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "\"I've eaten natto.\" = → なっとうを たべました ことが あります"
+ },
+ "なっとうを たべる ことが あります": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "\"I've eaten natto.\" = → なっとうを たべる ことが あります"
+ },
+ "にじゅう": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "nd word each, しshi and しshiちchi. You hear them when people count off one to ten and "
+ },
+ "にじゅうせん": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "How do you say 20,000? → にじゅうせん"
+ },
+ "にひゃくまん": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "How do you say 20,000? → にひゃくまん"
+ },
+ "はっせん": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ひゃく is 100 and せseんn is 1,000. A few combinations chan"
+ },
+ "はっぴゃく": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ひゃく is 100 and せseんn is 1,000. A few combinations cha"
+ },
+ "ははが つくった ケーキ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "\"the cake my mother made\" = → ははが つくった ケーキ"
+ },
+ "ははが つくりました ケーキ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "\"the cake my mother made\" = → ははが つくりました ケーキ"
+ },
+ "ははは つくった ケーキ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "\"the cake my mother made\" = → ははは つくった ケーキ"
+ },
+ "ひゃく": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "ひゃく is 100 and せseんn is 1,000. A few combin"
+ },
+ "びょういんで いった ほうが いいです": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "\"You'd better go to the hospital.\" = → びょういんで いった ほうが いいです"
+ },
+ "びょういんに いった ほうが いいです": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "\"You'd better go to the hospital.\" = → びょういんに いった ほうが いいです"
+ },
+ "ほしかったです": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ほしかったです"
+ },
+ "ほっかいどうに": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ほっかいどうに いった ことkotoがga あaりriまmaすsuかka"
+ },
+ "ほん きのう かった": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "How do you say \"the book I bought yesterday\"? → ほん"
+ },
+ "ほんの きのう かった": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "How do you say \"the book I bought yesterday\"? → ほんの"
+ },
+ "ましょう": {
+  "tool": "",
+  "warned": true,
+  "n": 4,
+  "ctx": "ましょう: let's"
+ },
+ "ましょうか": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ましょうか: shall we…? shall I…?"
+ },
+ "ませんか・ましょう": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "12 · ませんか・ましょう: inviting"
+ },
+ "みっつ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ひとhitoつtsu ふfuたtaつtsu みっつ よっつ いつitsuつtsu"
+ },
+ "むずかしいじゃないと おもいます": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "How do you say \"I don't think it's difficult\"? → むずかしいじゃ"
+ },
+ "むっつ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "むっつ なnaなつnatsu やっつ こkoこのkonoつtsu とtoおo"
+ },
+ "ゃ": {
+  "tool": "",
+  "warned": true,
+  "n": 3,
+  "ctx": "Small ゃ, ゅ, ょ"
+ },
+ "ゃ ゅ ょ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Read small ゃ ゅ ょ and っ, hold long vowels for two beats, "
+ },
+ "やすみじゃないでした": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "How do you say \"It wasn't my day off\"? → やすみじゃないでし"
+ },
+ "やすみじゃなかったです": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "How do you say \"It wasn't my day off\"? → やすみじゃなかったで"
+ },
+ "やすみでしたじゃない": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "How do you say \"It wasn't my day off\"? → やすみでしたじゃな"
+ },
+ "やっつ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "むっつ なnaなつnatsu やっつ こkoこのkonoつtsu とtoおo"
+ },
+ "ゅ": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "Small ゃ, ゅ, ょ"
+ },
+ "ょ": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "Small ゃ, ゅ, ょ"
+ },
+ "よくなかったです": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "It wasn't good. = → よくなかったです"
+ },
+ "よっじ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "How do you say 4:00? → よっじ"
+ },
+ "よっつ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ひとhitoつtsu ふfuたtaつtsu みっつ よっつ いつitsuつtsu"
+ },
+ "より・いちばん": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "23 · Comparing: より・いちばん"
+ },
+ "よんじゅう": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Four and seven also have a second word each, しs"
+ },
+ "ろっぽん": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ろっぽん"
+ },
+ "を・に・で・へ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "9 · Particles を・に・で・へ"
+ },
+ "んです・ので": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "27 · んです・ので: explaining"
+ },
+ "゛": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "Two dots ゛ change a sound: か ka becomes が ga, さ sa"
+ },
+ "゜": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Two dots ゛ change a sound: か ka becomes が ga, さ sa becomes"
+ },
+ "ァ ィ ゥ ェ ォ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "er before them. Katakana also has small ァ ィ ゥ ェ ォ to build sounds Japanese did not have: "
+ },
+ "ウィ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Small ッ is a pause, as in hiragana. Small ャ "
+ },
+ "エミリー": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ound, not by English spelling: Emily is エミリー, Mike is マmaイiクku, Jason is ジェイソン. In a"
+ },
+ "エミリーさん": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Put さんsan after someone else's family or given n"
+ },
+ "エミリーさんです": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "わたしはwatashi wa エミリーさんです"
+ },
+ "エミリーさんは にほんごが じょうずします": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Emily is good at Japanese. = → エミリーさんは にほんごが じょうずします"
+ },
+ "エミリーさんは にほんごが じょうずです": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Emily is good at Japanese. = → エミリーさんは にほんごが じょうずです"
+ },
+ "エミリーさんは にほんごに じょうずです": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Emily is good at Japanese. = → エミリーさんは にほんごに じょうずです"
+ },
+ "エミリーさんは にほんごを じょうずです": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Emily is good at Japanese. = → エミリーさんは にほんごを じょうずです"
+ },
+ "エミリーさんも": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "English puts \"too\" at the end. Japanese puts th"
+ },
+ "エミリーです": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "わたしはwatashi wa エミリーです"
+ },
+ "ケーキ": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "はhaははhaha つくった ケーキ"
+ },
+ "ケーキ ははが つくった": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "\"the cake my mother made\" = → ケーキ ははが つくった"
+ },
+ "コーヒ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "コーヒ"
+ },
+ "ジェ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Small ッ is a pause, as in hiragana. Small ャ "
+ },
+ "ジェイソン": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Your name is written by sound, not by English spelling: "
+ },
+ "ッ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Small ッ is a pause, as in hiragana. Small ャ ュ ョ"
+ },
+ "ティ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": " to build sounds Japanese did not have: ティ ti, ファ fa, ウィ wi, ジェ je."
+ },
+ "ドアが しめて ください": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "You want a coworker to close (しめます) the door. What d"
+ },
+ "ドアを しめて ください": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "You want a coworker to close (しめます) the door. What d"
+ },
+ "ドアを しめては いけません": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "You want a coworker to close (しめます) the door. What do "
+ },
+ "ドアを しめても いいですか": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "You want a coworker to close (しめます) the door. What do "
+ },
+ "ビル": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Hiragana adds a vowel letter for a long vowel. Katak"
+ },
+ "ファ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Small ッ is a pause, as in hiragana. Small ャ "
+ },
+ "ャ ュ ョ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "all ッ is a pause, as in hiragana. Small ャ ュ ョ join the letter before them. Katakana a"
+ },
+ "ー": {
+  "tool": "",
+  "warned": true,
+  "n": 7,
+  "ctx": "Read katakana loanwords and names, with ー for long vowels and the extra sounds fo"
+ }
+}

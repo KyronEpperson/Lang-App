@@ -1,0 +1,68 @@
+{
+ "أ": {
+  "tool": "",
+  "warned": false,
+  "n": 2,
+  "ctx": "Hamza ءhamza is the little catch in \"uh-oh\". It usually sits "
+ },
+ "ؤ": {
+  "tool": "",
+  "warned": false,
+  "n": 1,
+  "ctx": "Hamza ءhamza is the little catch in \"uh-oh\""
+ },
+ "إ": {
+  "tool": "",
+  "warned": false,
+  "n": 2,
+  "ctx": "Hamza ءhamza is the little catch in \"uh-oh\". It usually sits on a seat. At"
+ },
+ "ئ": {
+  "tool": "",
+  "warned": false,
+  "n": 1,
+  "ctx": "Hamza ءhamza is the little catch in \"uh-oh\". I"
+ },
+ "ال": {
+  "tool": "",
+  "warned": true,
+  "n": 51,
+  "ctx": "The second sign is ال at the start of a word. It means \"the\":"
+ },
+ "بُ": {
+  "tool": "bu",
+  "warned": true,
+  "n": 1,
+  "ctx": "بُ"
+ },
+ "ةْ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "When the first word ends in ةtāʾ marbūṭa, say a t there: مَحَطَّةْ الْقِطَار maḥaṭ"
+ },
+ "ـ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "dle or ends it. In the tables, the line ـ shows where a letter joins its neighbou"
+ },
+ "من": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "14 · Question words: ما, من, أين, هل"
+ },
+ "٢٥": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": " text, numbers still run left to right: ٢٥ is 25, not 52. Watch ٧sabʿa (7) and ٨th"
+ },
+ "٤٧": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "How do you read ٤٧?"
+ }
+}

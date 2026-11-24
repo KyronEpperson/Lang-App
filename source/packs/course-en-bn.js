@@ -1902,3 +1902,6 @@ LANGAPP_PACKS.course['en-bn'] = {
   TITLES: [[1,"Beginner",""],[3,"Traveler",""],[5,"Explorer",""],[8,"Speaker",""],[12,"Conversationalist",""],[16,"Storyteller",""],[20,"Master",""]],
   PAUSE: {sets: {}, idioms: []}
 };
+/*LESSON-READS*/
+if(LANGAPP_PACKS.course["en-bn"]) LANGAPP_PACKS.course["en-bn"].READS={"আব্বা":"abba","আমেরিকায়":"amerikay","আম্মা":"amma","এর":"er","করবে":"korbe","করবো":"korbo","করল":"korlo","করলা":"korla","করলেন":"korlen","করলো":"korlo","কেজিটা":"kejiṭa","ক্ষ":"khô","খাও":"khao","গেলা":"gela","গেলে":"gele","চল্লিশ":"chollish","চাও":"chao","চায়":"chay","ছিলেন":"chhilen","ছিলো":"chhilo","জ":"jô","জল":"jôl","ঝ":"jhô","ড়":"ṛô","ডানদিকে":"ḍandike","ডানে":"ḍane","ঢ":"ḍhô","ঢাকাতে":"ḍhakate","তে":"te","ত্রিশ":"trish","দেখল":"dekhlo","দেখলেন":"dekhlen","দেড়টা":"deṛṭa","নব্বই":"nôbboi","প":"pô","ফ":"fô","ব":"bô","বইটি":"boiṭi","বন্ধুটা":"bondhuṭa","বলল":"bollo","বললাম":"bollam","বললে":"bolle","বাঁয়ে":"bãye","বাংলাদেশ":"bangladesh","বাম":"bam","বার":"bar","বোনেরা":"bonera","ভ":"bhô","ভাইরা":"bhaira","য":"jô","য়":"yô","যাও":"jao","যাচ্ছ":"jacchho","যাচ্ছি":"jacchhi","যাচ্ছে":"jacchhe","যাবো":"jabo","র":"rô","ল":"lô","লা":"la","লে":"le","শহরটা":"shôhorṭa","ষ":"shô","ষাট":"shaṭ","সত্তর":"shôttor","সাতটা":"shatṭa","সোয়া":"shoya","হ":"hô"};
+/*END-LESSON-READS*/

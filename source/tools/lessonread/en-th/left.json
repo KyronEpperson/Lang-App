@@ -1,0 +1,98 @@
+{
+ "ชาย": {
+  "tool": "",
+  "warned": true,
+  "n": 3,
+  "ctx": "ชาย"
+ },
+ "ตะ": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "When two consonants cannot form a cluster, a short "
+ },
+ "ทร": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "ทร said s, and a silent ร"
+ },
+ "นน": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "When two consonants cannot form a cluster, a sh"
+ },
+ "ลาด": {
+  "tool": "",
+  "warned": true,
+  "n": 3,
+  "ctx": "When two consonants cannot form a cluster, a short a is said bet"
+ },
+ "สาว": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "สาว"
+ },
+ "สาวพี่ผม": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "How do you say \"my older sister\" (male speaker)?"
+ },
+ "หลาด": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "When two consonants cannot form a cluster, a short a is "
+ },
+ "อา": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Why is there an อ in อา (aunt) or อาหาร (food)?"
+ },
+ "ฯ": {
+  "tool": "",
+  "warned": false,
+  "n": 3,
+  "ctx": "ters, the common irregular words, ๆ and ฯ, and a menu line with no spaces."
+ },
+ "เ": {
+  "tool": "",
+  "warned": true,
+  "n": 5,
+  "ctx": "เ แ โ ใ ไ"
+ },
+ "แ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "เ แ โ ใ ไ"
+ },
+ "โ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "เ แ โ ใ ไ"
+ },
+ "ใ": {
+  "tool": "",
+  "warned": true,
+  "n": 3,
+  "ctx": "เ แ โ ใ ไ"
+ },
+ "ไ": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "เ แ โ ใ ไ"
+ },
+ "ๆ": {
+  "tool": "",
+  "warned": true,
+  "n": 5,
+  "ctx": "nt letters, the common irregular words, ๆ and ฯ, and a menu line with no spaces."
+ }
+}

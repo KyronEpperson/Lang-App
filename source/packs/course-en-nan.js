@@ -1529,3 +1529,6 @@ LANGAPP_PACKS.course['en-nan'] = {
   TITLES: [[1,"Beginner",""],[3,"Explorer",""],[5,"Traveler",""],[8,"Neighbor",""],[12,"Local",""],[16,"Storyteller",""],[20,"Master",""]],
   PAUSE: {sets: {}, idioms: []}
 };
+/*LESSON-READS*/
+if(LANGAPP_PACKS.course["en-nan"]) LANGAPP_PACKS.course["en-nan"].READS={"上":"tsiūnn","李":"Lí","王":"Ông","當":"tàng","袂當":"bē-tàng","陳":"Tân"};
+/*END-LESSON-READS*/

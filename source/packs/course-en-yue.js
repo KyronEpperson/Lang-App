@@ -2027,3 +2027,6 @@ LANGAPP_PACKS.course['en-yue'] = {
   TITLES: [[1,"Beginner",""],[3,"Traveler",""],[5,"Explorer",""],[8,"Speaker",""],[12,"Conversationalist",""],[16,"Storyteller",""],[20,"Master",""]],
   PAUSE: {sets: {}, idioms: []}
 };
+/*LESSON-READS*/
+if(LANGAPP_PACKS.course["en-yue"]) LANGAPP_PACKS.course["en-yue"].READS={"三十五元":"saam1 sap6 ng5 jyun4","上":"soeng6","他":"taa1","元":"jyun4","叔叔":"suk1 suk1","哋":"dei6","女":"neoi5","姨":"ji4","誇":"kwaa1"};
+/*END-LESSON-READS*/

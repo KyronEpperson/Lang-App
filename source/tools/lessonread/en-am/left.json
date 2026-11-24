@@ -1,0 +1,518 @@
+{
+ "ሀያ": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "ሀያ"
+ },
+ "ሂዱ": {
+  "tool": "",
+  "warned": true,
+  "n": 3,
+  "ctx": "ሂዱ"
+ },
+ "ሄድኩም": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "'I did not go' = → ሄድኩም"
+ },
+ "ህ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ህ"
+ },
+ "ለአንተ": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "ለአንተ"
+ },
+ "ለእኔ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ለእኔ"
+ },
+ "ልጅቱ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ልጅቱ"
+ },
+ "ሐሙስ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ሐሙስ"
+ },
+ "መጽሐፉ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ይህyih መጽሐፉ"
+ },
+ "ሚስት": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ሚስት"
+ },
+ "ማክሰኞ": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "ማክሰኞ"
+ },
+ "ምንም": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "What does this lesson teach you to say after a co"
+ },
+ "ረቡዕ": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "ረቡዕ"
+ },
+ "ሮብ": {
+  "tool": "",
+  "warned": true,
+  "n": 3,
+  "ctx": "ሮብ"
+ },
+ "ሰአት": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ሰአት"
+ },
+ "ሱ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ሰse ሱ ሲ ሳ ሴ ስ ሶ"
+ },
+ "ሲ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ሰse ሱ ሲ ሳ ሴ ስ ሶ"
+ },
+ "ሳ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ሰse ሱ ሲ ሳ ሴ ስ ሶ"
+ },
+ "ሴ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ሰse ሱ ሲ ሳ ሴ ስ ሶ"
+ },
+ "ስም": {
+  "tool": "",
+  "warned": true,
+  "n": 5,
+  "ctx": "ስም"
+ },
+ "ሶ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ሰse ሱ ሲ ሳ ሴ ስ ሶ"
+ },
+ "ቅዳሜ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ቅዳሜ"
+ },
+ "በአሜሪካ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "'I am from America' = → በአሜሪካ ነኝ።"
+ },
+ "ባለቤት": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ባለቤት"
+ },
+ "ባል": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ባል"
+ },
+ "ቤታቸው": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "ቤታቸው"
+ },
+ "ቤታችሁ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ቤታችሁ"
+ },
+ "ቤታችን": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ቤታችን"
+ },
+ "ቤትስ": {
+  "tool": "",
+  "warned": true,
+  "n": 5,
+  "ctx": "ቤትስ"
+ },
+ "ተቀመጡ": {
+  "tool": "",
+  "warned": true,
+  "n": 5,
+  "ctx": "ተቀመጡ"
+ },
+ "ትሄዳለሽ": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "ትሄዳለሽ"
+ },
+ "ትወዳለች": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "ትወዳለች"
+ },
+ "ትጠጣለሽ": {
+  "tool": "",
+  "warned": true,
+  "n": 3,
+  "ctx": "ትጠጣለሽ"
+ },
+ "ትጠጣለች": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ትጠጣለች"
+ },
+ "ትፈልጋለች": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "ትፈልጋለች"
+ },
+ "ች": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ች"
+ },
+ "ኑ": {
+  "tool": "",
+  "warned": true,
+  "n": 4,
+  "ctx": "ኑ"
+ },
+ "ን": {
+  "tool": "",
+  "warned": true,
+  "n": 4,
+  "ctx": "16 · The past, and the object -ን"
+ },
+ "አለን": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "አለን"
+ },
+ "አለው": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "አለው"
+ },
+ "አላለኝም": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "አላለኝም"
+ },
+ "አል": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "አል"
+ },
+ "አልእሄዳለሁም": {
+  "tool": "",
+  "warned": true,
+  "n": 4,
+  "ctx": "አልእሄዳለሁም"
+ },
+ "አመሽክ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "አመሽክ"
+ },
+ "አባቱ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "አባቱ"
+ },
+ "አባቷ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "አባቷ"
+ },
+ "አትወድም": {
+  "tool": "",
+  "warned": true,
+  "n": 3,
+  "ctx": "አትወድም"
+ },
+ "አትወጅም": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "አትወጅም"
+ },
+ "አንሄድም": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "አንሄድም"
+ },
+ "አይወዱም": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "አይወዱም"
+ },
+ "አይወድም": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "አይወድም"
+ },
+ "አይደለሁም": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "አይደለሁም"
+ },
+ "አይደለህም": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "አይደለህም"
+ },
+ "አይደለሽም": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "አይደለሽም"
+ },
+ "አይደሉም": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "አይደሉም"
+ },
+ "አደራችሁ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "አደራችሁ"
+ },
+ "እ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "እ"
+ },
+ "እሁድ": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "እሁድ"
+ },
+ "እህትህ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "እህትህ"
+ },
+ "እህትዎ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "እህትዎ"
+ },
+ "እሑድ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "እሑድ"
+ },
+ "እናትሽ": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "እናትሽ"
+ },
+ "እናትዎ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "እናትዎ"
+ },
+ "እደር": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ደህናdehna እደር"
+ },
+ "ኦች": {
+  "tool": "",
+  "warned": true,
+  "n": 3,
+  "ctx": "efinite ending, and make a plural with -ኦች."
+ },
+ "ከለሊቱ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ከለሊቱ 10 ሰዓትse'at"
+ },
+ "ከምሽቱ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ከምሽቱ 3 ሰዓትse'at"
+ },
+ "ክ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ክ"
+ },
+ "ወንድምህ": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "ወንድምህ"
+ },
+ "ወንድምዎ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ወንድምዎ"
+ },
+ "ዋጋ": {
+  "tool": "",
+  "warned": true,
+  "n": 3,
+  "ctx": "ዋጋ"
+ },
+ "ው": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "-ው"
+ },
+ "ዐስር": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ዐስር"
+ },
+ "የለንም": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "የለንም"
+ },
+ "የለውም": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "የለውም"
+ },
+ "የላትም": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "የላትም"
+ },
+ "ይ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ይ"
+ },
+ "ይምጡ": {
+  "tool": "",
+  "warned": true,
+  "n": 4,
+  "ctx": "ይምጡ"
+ },
+ "ይወዳል": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "ይወዳል"
+ },
+ "ይጠጣሉ": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "ይጠጣሉ"
+ },
+ "ይጠጣል": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "ይጠጣል"
+ },
+ "ይፈልጋል": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "ይፈልጋል"
+ },
+ "ጠጡ": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "ጠጡ"
+ },
+ "ጠጣሽ": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "ጠጣሽ"
+ },
+ "ጠጣን": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ጠጣን"
+ },
+ "ፈረንጅ": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "ፈረንጅ ሰዓትse'at"
+ }
+}

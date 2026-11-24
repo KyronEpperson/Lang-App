@@ -1,0 +1,74 @@
+{
+ "京": {
+  "tool": "",
+  "warned": true,
+  "n": 4,
+  "ctx": "我wǒ去qù北京明天míngtiān。"
+ },
+ "亻": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "is the part of a character that hints at its meaning. Three dots on the left (氵) "
+ },
+ "俑": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "看kàn兵马mǎ俑"
+ },
+ "兵": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "看kàn兵马mǎ俑"
+ },
+ "单": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "买mǎi单！"
+ },
+ "喜": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "喜不bù喜欢xǐhuan"
+ },
+ "奶": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "我wǒ要yào两liǎng奶茶chá。"
+ },
+ "氵": {
+  "tool": "",
+  "warned": true,
+  "n": 2,
+  "ctx": "at its meaning. Three dots on the left (氵) mean water, as in 汤 tāng (soup). A sma"
+ },
+ "烦": {
+  "tool": "",
+  "warned": true,
+  "n": 3,
+  "ctx": "麻má烦你nǐ: could you…?"
+ },
+ "色": {
+  "tool": "",
+  "warned": true,
+  "n": 3,
+  "ctx": "色"
+ },
+ "铁": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "坐zuò高gāo铁"
+ },
+ "門": {
+  "tool": "",
+  "warned": true,
+  "n": 1,
+  "ctx": "Mainland China uses simplified characters, which this"
+ }
+}
