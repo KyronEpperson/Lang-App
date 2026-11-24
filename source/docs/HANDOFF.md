@@ -41,6 +41,8 @@ Follow-ups these two setups found: other English-speaker courses without their o
 
 ## Queue after that (owner's order)
 
+0. **Reusable halves for the top five spoken languages** (owner, 2026-11-24): recipe and status in `docs/HALVES-BLUEPRINT.md`. English and Mandarin are covered; build Spanish, then French, then Hindi. The one new design piece is telling target text from native text by marked position instead of by script.
+
 1. East and Southeast Asian top ten (Mandarin, Japanese, Vietnamese, Cantonese, Wu, Korean, Javanese, Thai, Indonesian, Burmese) can each learn the top five (Mandarin, Japanese, Vietnamese, Cantonese, Wu): needs target halves for ja, vi, yue (and Wu, which has no course at all yet).
 2. That top ten ↔ English both ways (missing: Wu, Javanese, Burmese; Korean for English speakers is built in).
 3. Then the rest: Tamil, Gujarati, Malayalam (nothing yet), Marathi ↔ English.
