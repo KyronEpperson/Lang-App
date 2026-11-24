@@ -597,7 +597,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.98.0 · 2026-11-24';
+const APP_VERSION='2.99.0 · 2026-11-24';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -3907,7 +3907,7 @@ const FX3D=(()=>{
       const morph=u<1.7; for(let i=0;i<N;i++){ const p=eIO((u-D[i]*.4)/1.15), sc=Math.sin(p*Math.PI)*1.3, a=i*3; P.pos[a]=from[a]+(to[a]-from[a])*p+R[a]*sc; P.pos[a+1]=from[a+1]+(to[a+1]-from[a+1])*p+R[a+1]*sc; P.pos[a+2]=from[a+2]+(to[a+2]-from[a+2])*p+R[a+2]*sc*1.6+(p>=1?Math.sin(to[a]*3+t*4)*.06:0);
         if(morph){ P.col[a]=cf[a]+(ct[a]-cf[a])*p; P.col[a+1]=cf[a+1]+(ct[a+1]-cf[a+1])*p; P.col[a+2]=cf[a+2]+(ct[a+2]-cf[a+2])*p; } }
       P.g.attributes.position.needsUpdate=true; if(morph) P.g.attributes.color.needsUpdate=true; P.m.size=(low?.085:.07)*(1+.22*Math.sin(t*7)); Bg.p.rotation.z+=dt*.03; camera.position.x=Math.sin(t*.45)*.6; camera.position.y=Math.cos(t*.33)*.3; camera.lookAt(0,y0*.5,0);
-      if(t>((o&&o.maxT)||240)){ if(idleEl){ idleEl.classList.add('in','static'); eTag.textContent='⏸'; eKo.textContent='잠깐 멈춤'; eRom.textContent='jamkkan meomchum'; eEn.textContent='Paused'; const el=idleEl; el.addEventListener('pointerdown',()=>{ el.remove(); if(idleEl===el) idleEl=null; },{once:true}); } this.frozen=true; try{ wakeOff(); }catch(e){} return false; } // save battery: go static after 4 minutes
+      if(t>((o&&o.maxT)||360)){ if(idleEl){ idleEl.classList.add('in','static'); eTag.textContent='⏸'; eKo.textContent='잠깐 멈춤'; eRom.textContent='jamkkan meomchum'; eEn.textContent='Paused'; const el=idleEl; el.addEventListener('pointerdown',()=>{ el.remove(); if(idleEl===el) idleEl=null; },{once:true}); } this.frozen=true; try{ wakeOff(); }catch(e){} return false; } // save battery: go static after 6 minutes
       if(u>HOLD) next(t); },
       dispose(){ kill(P.p); kill(Bg.p); cv.removeEventListener('pointerdown',stop); removeEventListener('keydown',key); if(!this.frozen) idleClose(); idleItem=null; try{ wakeOff(); }catch(e){} }}); }
   const FN={flip,good,streak,celebrate,levelUp,intro,correct,wrong,idle};
