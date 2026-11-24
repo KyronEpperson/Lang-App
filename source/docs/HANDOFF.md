@@ -20,7 +20,7 @@ Standing rules: Supabase publishable key only; never open, print or commit secre
 - Dialect and variety choices: ask once when it decides every card, otherwise decide and say so.
 - Replies: brief, bullets, direct. Visuals as PNG.
 
-## Released (through 2.99.0)
+## Released (through 2.100.0)
 
 Yesterday and today: ur-en, pa-en (2.78.0); yue-en in written Cantonese (2.79.0); te-en with bundled Noto Sans Telugu (2.80.0); yue-ko (2.81.0); kn-en (2.82.0); release report + audio coverage on every release (2.83.0); en-hmn (2.84.0); new cards flip on tap (2.85.0); hmn-en + Hmong interface (2.86.0).
 
@@ -45,6 +45,8 @@ Hangul letter count (owner asked "are there only 14 hangul" on seeing "Practice 
 2.98.0 (2026-11-24): **pause scene slower again** (owner: "for the desktop lets change it to 3 minutes and for both lets slow down how fast we go to the next word (double the time)"). Desktop `idleMs` 60000 → 180000 (touch devices stay 30000); each word in the scene stays 10.8 s instead of 5.4 s on every device (`HOLD` in `FX3D` `idle`). The scene still goes static after 4 minutes (`maxT` 240), so it now shows about 22 words instead of 44. Guard `idleDesktop` updated; edit script `tools/patches/idle_slower.py`.
 
 2.99.0 (2026-11-24): **the pause scene runs 6 minutes before it goes static** (owner, after being told the 4-minute cut-off now shows half as many words: "stretch the pause to about 6 minutes"). `maxT` default 240 → 360 in `FX3D` `idle`: about 33 words at 10.8 s each. The waits before the scene are unchanged (desktop 3 minutes, touch 30 s). Edit script `tools/patches/idle_run6.py`.
+
+2.100.0 (2026-11-24): **stroke drawings have no numbers** (owner: "actually remove the numbers"), on the lesson tiles and the letter card backs (`strokeSVG`); the order shows in the drawing animation. Trainer recording re-recorded (24 card backs, stroke drawings only). Edit script: `tools/patches/stroke_nonum.py`.
 
 Same gap, not fixed (audit 2026-11-24): all 15 courses with a non-Latin target for Latin-script learners (en-am, ar, bn, hi, ja, kn, nan, pa, ru, te, th, ur, yue, zh, and vi-zh) show the target script bare in lesson prose, tables and quizzes: about 800 to 1,700 runs per course in lesson bodies and 350 to 900 in quick checks. They have no `romanize()`; the fix is a word → reading table built from each course's own cards and example lines (plus a list of what it cannot cover), then the same `<ruby>` rendering. Not started.
 
