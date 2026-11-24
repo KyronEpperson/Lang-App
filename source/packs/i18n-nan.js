@@ -797,7 +797,8 @@ LANGAPP_PACKS.i18n.nan = {
     "missed last time": "頂擺答毋著",
     "missed on 2 of its last 4 days": "最近 4 工有 2 工答毋著",
     "not seen for too long": "傷久無看",
-    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "這馬是照你會記得偌久來評估卡。足久無看的卡會顯示「愛練習」，到你閣回答為止。"
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "這馬是照你會記得偌久來評估卡。足久無看的卡會顯示「愛練習」，到你閣回答為止。",
+    "Review missed": "複習毋著的"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · 訓練"],

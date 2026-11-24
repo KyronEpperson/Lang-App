@@ -797,7 +797,8 @@ LANGAPP_PACKS.i18n.de = {
     "missed last time": "zuletzt falsch",
     "missed on 2 of its last 4 days": "an 2 der letzten 4 Tage falsch",
     "not seen for too long": "zu lange nicht gesehen",
-    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Karten werden jetzt danach beurteilt, wie lange du sie behältst. Karten, die du lange nicht gesehen hast, stehen auf „Übung nötig“, bis du sie wieder beantwortest."
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Karten werden jetzt danach beurteilt, wie lange du sie behältst. Karten, die du lange nicht gesehen hast, stehen auf „Übung nötig“, bis du sie wieder beantwortest.",
+    "Review missed": "Fehler wiederholen"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Training"],

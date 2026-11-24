@@ -797,7 +797,8 @@ LANGAPP_PACKS.i18n.zh = {
     "missed last time": "上次答错",
     "missed on 2 of its last 4 days": "最近 4 天里有 2 天答错",
     "not seen for too long": "太久没看",
-    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "现在按你能记住多久来评估卡片。很久没看的卡片会显示为“需要练习”，直到你再次作答。"
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "现在按你能记住多久来评估卡片。很久没看的卡片会显示为“需要练习”，直到你再次作答。",
+    "Review missed": "复习答错的卡片"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · 专项练习"],

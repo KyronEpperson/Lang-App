@@ -5423,6 +5423,12 @@
    "ko": "이제 카드를 얼마나 오래 기억하는지로 판단해요. 오랫동안 보지 않은 카드는 다시 답할 때까지 \"연습 필요\"로 표시돼요.",
    "kind": "sentence",
    "context": "Progress: one-time note for learners whose progress was saved before this change; explains why counts may have dropped. \"needs practice\" is the status label"
+  },
+  "Review missed": {
+   "t": "ทบทวนข้อที่ผิด",
+   "ko": "틀린 카드 복습",
+   "kind": "label",
+   "context": "button on the Practice round result: show again, then quiz, the cards answered wrong in the quiz just finished"
   }
  },
  "patterns": {

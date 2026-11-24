@@ -797,7 +797,8 @@ LANGAPP_PACKS.i18n.es = {
     "missed last time": "fallada la última vez",
     "missed on 2 of its last 4 days": "fallada en 2 de sus últimos 4 días",
     "not seen for too long": "demasiado tiempo sin verla",
-    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Ahora las tarjetas se valoran por cuánto tiempo las recuerdas. Las que llevas mucho tiempo sin ver aparecen como «por practicar» hasta que vuelvas a responderlas."
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Ahora las tarjetas se valoran por cuánto tiempo las recuerdas. Las que llevas mucho tiempo sin ver aparecen como «por practicar» hasta que vuelvas a responderlas.",
+    "Review missed": "Repasar las falladas"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Ejercicios"],

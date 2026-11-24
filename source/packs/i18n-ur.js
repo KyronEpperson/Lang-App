@@ -797,7 +797,8 @@ LANGAPP_PACKS.i18n.ur = {
     "missed last time": "پچھلی بار غلط",
     "missed on 2 of its last 4 days": "پچھلے 4 دنوں میں سے 2 دن غلط",
     "not seen for too long": "بہت عرصے سے نہیں دیکھا",
-    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "اب کارڈ اس بنیاد پر پرکھے جاتے ہیں کہ وہ آپ کو کتنی دیر یاد رہتے ہیں۔ جو کارڈ آپ نے طویل عرصے سے نہیں دیکھے، وہ دوبارہ جواب دینے تک \"مشق درکار\" کے طور پر نظر آئیں گے۔"
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "اب کارڈ اس بنیاد پر پرکھے جاتے ہیں کہ وہ آپ کو کتنی دیر یاد رہتے ہیں۔ جو کارڈ آپ نے طویل عرصے سے نہیں دیکھے، وہ دوبارہ جواب دینے تک \"مشق درکار\" کے طور پر نظر آئیں گے۔",
+    "Review missed": "غلط والے دہرائیں"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · مہارتیں"],

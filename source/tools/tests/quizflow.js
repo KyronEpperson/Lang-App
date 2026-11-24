@@ -31,7 +31,9 @@ await p.waitForTimeout(1500); T('review, wrong answer: next card within 2.1 s',a
 for(let i=0;i<4&&await stage()!=='q';i++){ await p.evaluate(()=>{ const s=document.getElementById('cardsStage'); const hd=s.querySelector('.rvhide'); if(hd) hd.click(); const g=s.querySelector('.rvgo'); if(g) g.click(); }); await p.waitForTimeout(80); }
 cur=await answer('#cardsStage',true); await p.waitForTimeout(600);
 T('review, right answer: the card is said',await p.evaluate(c=>window.__said.includes(c),cur));
-T('audio does not depend on the Audio box',await p.evaluate(()=>S.auto===false));
+T('Audio is on by default',await p.evaluate(()=>S.auto===true&&S.autoV===1&&document.getElementById('auto').checked));
+T('saved progress from before gets Audio on once, then the learner\'s choice is kept',await p.evaluate(()=>{ const k=curKey(), keep=localStorage.getItem(k), S0=S; const old=JSON.parse(JSON.stringify(S)); old.auto=false; delete old.autoV; localStorage.setItem(k,JSON.stringify(old)); load(); const a=S.auto===true&&S.autoV===1; S.auto=false; localStorage.setItem(k,JSON.stringify(S)); load(); const b=S.auto===false; if(keep===null) localStorage.removeItem(k); else localStorage.setItem(k,keep); S=S0; return a&&b; }));
+await p.evaluate(()=>{ S.auto=false; }); /* the answers below must be said even with the box off */
 // ---- Browse: no key hints
 await p.evaluate(()=>document.getElementById('cmBrowse').click()); await p.waitForTimeout(120); h=await hint(); T('browse: no key hints',!h.line,h);
 // ---- Practice: learn 5 at a time
@@ -54,11 +56,25 @@ r=await run(); T('result screen',r.done&&/1 \/ 15/.test(r.txt),r.txt.slice(0,120
 T('no pass mark on the result',!/to pass|passed/.test(r.txt),r.txt); T('no Save & exit on the result',!/Save & exit/.test(r.txt)); T('round line says saved',/Round 1 of 3 · saved/.test(r.txt),r.txt);
 await p.waitForTimeout(500); T('place saved by itself',await p.evaluate(()=>S.learnPos[learnKey()]===5&&JSON.parse(localStorage.getItem(curKey())).learnPos[learnKey()]===5),await p.evaluate(()=>S.learnPos));
 T('Next 5 cards is offered whatever the score',r.btn[0]==='Next 5 cards'&&r.btn.includes('Review these 5 again')&&r.btn.includes('Retry quiz'),r.btn);
-// retry does not move the place twice
-await p.evaluate(()=>[...document.querySelectorAll('#quizRun button.big')].find(x=>x.textContent==='Retry quiz').click()); await p.waitForTimeout(100);
-for(let i=0;i<15;i++){ await answer('#quizRun',true); await p.waitForTimeout(40); await p.evaluate(()=>document.querySelector('#quizRun .fb').click()); await p.waitForTimeout(40); }
-r=await run(); T('retry: 15 / 15, still round 1, place still 5',/15 \/ 15/.test(r.txt)&&/Round 1 of 3/.test(r.txt)&&await p.evaluate(()=>S.learnPos[learnKey()]===5),r.txt.slice(0,80));
-T('full marks: only Next 5 cards',r.btn.length===1&&r.btn[0]==='Next 5 cards',r.btn);
+// "Review missed": the cards answered wrong in more than a quarter of their questions, shown again, then quizzed alone
+T('Review missed is offered after misses',r.btn.includes('Review missed'),r.btn);
+const press=l=>p.evaluate(l=>[...document.querySelectorAll('#quizRun button.big')].find(x=>x.textContent===l).click(),l);
+const tapOn=async()=>{ await p.waitForTimeout(40); await p.evaluate(()=>document.querySelector('#quizRun .fb').click()); await p.waitForTimeout(40); };
+const flips=async()=>{ let n=0; for(;;){ const c=await p.evaluate(()=>{ const b=document.querySelector('#quizRun [data-ans="1"]'); if(!b) return 0; b.click(); return 1; }); if(!c) break; n++; await p.waitForTimeout(260); } return n; };
+await press('Review missed'); await p.waitForTimeout(120); let nf=await flips();
+r=await run(); T('all 5 were missed: 5 cards shown again, then 15 questions on them',nf===5&&/Review missed · 1\/15/.test(r.txt),[nf,r.txt.slice(0,40)]);
+const bad=await p.evaluate(()=>window.__cur); /* miss this one card every time: 3 of 3 wrong; the others 0 of 3 */
+for(let i=0;i<15;i++){ await answer('#quizRun',await p.evaluate(()=>window.__cur)!==bad); await tapOn(); }
+r=await run(); T('12 / 15 after missing one card three times',/12 \/ 15/.test(r.txt)&&r.btn.includes('Review missed'),r.txt.slice(0,60));
+await press('Review missed'); await p.waitForTimeout(120); nf=await flips(); r=await run();
+T('now only the one missed card comes back, with 3 questions',nf===1&&/Review missed · 1\/3/.test(r.txt),[nf,r.txt.slice(0,40)]);
+for(let i=0;i<3;i++){ await answer('#quizRun',true); await tapOn(); }
+r=await run(); T('3 / 3: no Review missed, the other buttons stay',/3 \/ 3/.test(r.txt)&&r.btn.join('|')==='Next 5 cards|Review these 5 again|Retry quiz',r.btn);
+// reviewing again does not move the place twice
+await press('Review these 5 again'); await p.waitForTimeout(120); nf=await flips();
+for(let i=0;i<15;i++){ await answer('#quizRun',true); await tapOn(); }
+r=await run(); T('review again: 5 cards, 15 / 15, still round 1, place still 5',nf===5&&/15 \/ 15/.test(r.txt)&&/Round 1 of 3/.test(r.txt)&&await p.evaluate(()=>S.learnPos[learnKey()]===5),r.txt.slice(0,80));
+T('a card missed once in three (33%) counts as missed, once in four would not',await p.evaluate(()=>MISS_SHARE===0.25));
 await p.evaluate(()=>document.querySelector('#quizRun button.big').click()); await p.waitForTimeout(150); r=await run();
 T('next round shows new cards 6 to 10 first',r.card&&/card 6 of 12/.test(r.txt),r.txt.slice(0,60));
 for(let i=0;i<5;i++){ await p.evaluate(()=>document.querySelector('#quizRun [data-ans="1"]').click()); await p.waitForTimeout(260); }

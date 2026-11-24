@@ -797,7 +797,8 @@ LANGAPP_PACKS.i18n.hmn = {
     "missed last time": "zaus kawg tsis raug",
     "missed on 2 of its last 4 days": "tsis raug 2 hnub ntawm 4 hnub kawg",
     "not seen for too long": "tsis tau pom ntev dhau lawm",
-    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Tam sim no app saib koj nco card tau ntev npaum li cas. Card uas koj tsis tau pom ntev lawm yuav yog \"yuav tsum xyaum\" txog thaum koj rov teb dua."
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Tam sim no app saib koj nco card tau ntev npaum li cas. Card uas koj tsis tau pom ntev lawm yuav yog \"yuav tsum xyaum\" txog thaum koj rov teb dua.",
+    "Review missed": "Review cov tsis raug"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Drills"],

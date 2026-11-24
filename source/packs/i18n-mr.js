@@ -797,7 +797,8 @@ LANGAPP_PACKS.i18n.mr = {
     "missed last time": "मागच्या वेळी चुकलं",
     "missed on 2 of its last 4 days": "शेवटच्या 4 दिवसांपैकी 2 दिवस चुकलं",
     "not seen for too long": "खूप दिवसांत पाहिलं नाही",
-    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "आता कार्ड तुमच्या किती काळ लक्षात राहतात यावरून त्यांचं मूल्यमापन होतं. बऱ्याच दिवसांत न पाहिलेली कार्ड तुम्ही पुन्हा उत्तर देईपर्यंत \"सराव हवा\" म्हणून दिसतील."
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "आता कार्ड तुमच्या किती काळ लक्षात राहतात यावरून त्यांचं मूल्यमापन होतं. बऱ्याच दिवसांत न पाहिलेली कार्ड तुम्ही पुन्हा उत्तर देईपर्यंत \"सराव हवा\" म्हणून दिसतील.",
+    "Review missed": "चुकलेली कार्डे पुन्हा पाहा"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ड्रिल"],

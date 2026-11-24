@@ -797,7 +797,8 @@ LANGAPP_PACKS.i18n.th = {
     "missed last time": "ครั้งล่าสุดตอบผิด",
     "missed on 2 of its last 4 days": "ตอบผิด 2 ใน 4 วันล่าสุด",
     "not seen for too long": "ไม่ได้เห็นนานเกินไป",
-    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "ตอนนี้การ์ดจะถูกประเมินจากระยะเวลาที่คุณจำได้ การ์ดที่คุณไม่ได้เห็นมานานจะแสดงเป็น “ต้องฝึกเพิ่ม” จนกว่าคุณจะตอบอีกครั้ง"
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "ตอนนี้การ์ดจะถูกประเมินจากระยะเวลาที่คุณจำได้ การ์ดที่คุณไม่ได้เห็นมานานจะแสดงเป็น “ต้องฝึกเพิ่ม” จนกว่าคุณจะตอบอีกครั้ง",
+    "Review missed": "ทบทวนข้อที่ผิด"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ทักษะ"],

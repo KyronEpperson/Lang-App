@@ -797,7 +797,8 @@ LANGAPP_PACKS.i18n.id = {
     "missed last time": "salah terakhir kali",
     "missed on 2 of its last 4 days": "salah pada 2 dari 4 hari terakhirnya",
     "not seen for too long": "terlalu lama tidak dilihat",
-    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Kartu sekarang dinilai dari seberapa lama kamu mengingatnya. Kartu yang sudah lama tidak kamu lihat ditandai \"perlu latihan\" sampai kamu menjawabnya lagi."
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Kartu sekarang dinilai dari seberapa lama kamu mengingatnya. Kartu yang sudah lama tidak kamu lihat ditandai \"perlu latihan\" sampai kamu menjawabnya lagi.",
+    "Review missed": "Ulangi yang salah"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Drill"],

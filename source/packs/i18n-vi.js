@@ -797,7 +797,8 @@ LANGAPP_PACKS.i18n.vi = {
     "missed last time": "lần trước trả lời sai",
     "missed on 2 of its last 4 days": "sai 2 trong 4 ngày gần nhất",
     "not seen for too long": "quá lâu chưa gặp",
-    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Giờ đây thẻ được đánh giá theo thời gian bạn nhớ được. Thẻ bạn đã lâu không gặp sẽ hiện là “cần luyện thêm” cho đến khi bạn trả lời lại."
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Giờ đây thẻ được đánh giá theo thời gian bạn nhớ được. Thẻ bạn đã lâu không gặp sẽ hiện là “cần luyện thêm” cho đến khi bạn trả lời lại.",
+    "Review missed": "Ôn lại thẻ sai"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Kỹ năng"],

@@ -10,7 +10,7 @@
   "d": "text without \"·\", e.g. a deck name inside a \"·\"-separated line"
  },
  "counts": {
-  "exact": 797,
+  "exact": 798,
   "patterns": 278,
   "distinctPatternTemplates": 277
  },
@@ -542,7 +542,7 @@
    "key": "Reviews coming up",
    "kind": "label",
    "section": "progress (static)",
-   "where": "html <h3> text"
+   "where": "js STR()"
   },
   {
    "key": "Cards by box",
@@ -614,20 +614,20 @@
    "key": "Certificates",
    "kind": "label",
    "section": "progress (static)",
-   "where": "html <h3> text",
+   "where": "js STR()",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
    "key": "80% mastery of every deck in a group + all checks",
    "kind": "sentence",
    "section": "progress (static)",
-   "where": "html <span> text"
+   "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   {
    "key": "Weekly badges",
    "kind": "label",
    "section": "progress (static)",
-   "where": "html <h3> text"
+   "where": "js STR()"
   },
   {
    "key": "Calibration",
@@ -2254,26 +2254,26 @@
    "key": "Finish",
    "kind": "label",
    "section": "quiz / practice flow",
-   "where": "js b()",
+   "where": "js left()",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
    "key": "Next 5 cards",
    "kind": "label",
    "section": "quiz / practice flow",
-   "where": "js b()"
+   "where": "js left()"
   },
   {
    "key": "Review these 5 again",
    "kind": "label",
    "section": "quiz / practice flow",
-   "where": "js b() <qs>"
+   "where": "js left() <total>"
   },
   {
    "key": "Retry quiz",
    "kind": "label",
    "section": "quiz / practice flow",
-   "where": "js b() <qs>",
+   "where": "js left() <total>",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -2694,31 +2694,31 @@
    "key": "Streak at risk",
    "kind": "label",
    "section": "session (Today)",
-   "where": "js atRisk() <b>"
+   "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   {
    "key": "⏰ Study time",
    "kind": "label",
    "section": "session (Today)",
-   "where": "js atRisk()"
+   "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   {
    "key": "Daily reminder time",
    "kind": "label",
    "section": "session (Today)",
-   "where": "js atRisk() <input> @aria-label"
+   "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   {
    "key": "Add a daily reminder to your calendar",
    "kind": "sentence",
    "section": "session (Today)",
-   "where": "js atRisk() <button> @title"
+   "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   {
    "key": "📅 Reminder",
    "kind": "label",
    "section": "session (Today)",
-   "where": "js atRisk() <button>",
+   "where": "not verbatim in src/app.html (assembled at runtime)",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -2755,7 +2755,7 @@
    "key": "Review it",
    "kind": "label",
    "section": "session (Today)",
-   "where": "js cand() <a>",
+   "where": "not verbatim in src/app.html (assembled at runtime)",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -2775,7 +2775,7 @@
    "key": "· done ✓",
    "kind": "fragment",
    "section": "session (Today)",
-   "where": "js d()",
+   "where": "not verbatim in src/app.html (assembled at runtime)",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing"
   },
   {
@@ -2788,7 +2788,7 @@
    "key": "learn 5 at a time",
    "kind": "sentence",
    "section": "session (Today)",
-   "where": "js d() <small>"
+   "where": "js tonight() <small>"
   },
   {
    "key": "all done",
@@ -2900,25 +2900,25 @@
    "key": "type to read",
    "kind": "label",
    "section": "session (Today)",
-   "where": "js d() <small>"
+   "where": "js tonight() <small>"
   },
   {
    "key": "Open the file to add the daily reminder.",
    "kind": "sentence",
    "section": "session (Today)",
-   "where": "js blob()"
+   "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   {
    "key": "Could not save here.",
    "kind": "sentence",
    "section": "session (Today)",
-   "where": "js blob()"
+   "where": "js b()"
   },
   {
    "key": "Downloads are not available in this view.",
    "kind": "sentence",
    "section": "session (Today)",
-   "where": "js a()"
+   "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   {
    "key": "Added. It will show up in Review today.",
@@ -3057,7 +3057,7 @@
    "key": "flashcards",
    "kind": "label",
    "section": "session (Today)",
-   "where": "js names2()",
+   "where": "js lsRomHas() <h3>",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -3436,27 +3436,27 @@
    "key": "· passed ✓",
    "kind": "fragment",
    "section": "lessons / grammar",
-   "where": "js b() <p>",
+   "where": "js plan() <p>",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing"
   },
   {
    "key": "(lesson already done)",
    "kind": "label",
    "section": "lessons / grammar",
-   "where": "js b()"
+   "where": "js plan() <span>"
   },
   {
    "key": "· lesson counts as done when both are passed (+25 XP)",
    "kind": "fragment",
    "section": "lessons / grammar",
-   "where": "js b()",
+   "where": "js plan() <span>",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing"
   },
   {
    "key": "← All lessons",
    "kind": "label",
    "section": "lessons / grammar",
-   "where": "js b() <button>"
+   "where": "js plan() <button>"
   },
   {
    "key": "Quick check",
@@ -3469,7 +3469,7 @@
    "key": "Then 5 cards from",
    "kind": "label",
    "section": "lessons / grammar",
-   "where": "js b() <p>"
+   "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   {
    "key": "Mini drill: 5 cards",
@@ -3508,14 +3508,14 @@
    "key": "· lesson done ✓",
    "kind": "fragment",
    "section": "lessons / grammar",
-   "where": "js step() <div>",
+   "where": "js fin() <div>",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing"
   },
   {
    "key": "· now pass the quick check above",
    "kind": "fragment",
    "section": "lessons / grammar",
-   "where": "js step() <div>",
+   "where": "js fin() <div>",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing"
   },
   {
@@ -3529,7 +3529,7 @@
    "key": "Keep drilling",
    "kind": "label",
    "section": "lessons / grammar",
-   "where": "js step() <a>"
+   "where": "js fin() <a>"
   },
   {
    "key": "Enter a dictionary form ending in 다.",
@@ -3785,7 +3785,7 @@
    "key": "Finish a deck of the week to earn one.",
    "kind": "sentence",
    "section": "progress (JS)",
-   "where": "js ws() <p>"
+   "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   {
    "key": "▶ restore",
@@ -5418,7 +5418,7 @@
    "key": "Voice",
    "kind": "label",
    "section": "added",
-   "where": "js id()",
+   "where": "js m2()",
    "context": "settings label (Progress options) in front of the Woman's voice / Man's voice chips: which recorded voice plays"
   },
   {
@@ -5500,6 +5500,12 @@
    "kind": "sentence",
    "section": "added",
    "where": "js nb() <span>"
+  },
+  {
+   "key": "Review missed",
+   "kind": "label",
+   "section": "added",
+   "where": "js MISS_SHARE()"
   }
  ],
  "patterns": [

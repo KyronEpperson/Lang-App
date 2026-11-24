@@ -797,7 +797,8 @@ LANGAPP_PACKS.i18n.ceb = {
     "missed last time": "nasayop sa miaging higayon",
     "missed on 2 of its last 4 days": "nasayop sa 2 sa kataposang 4 ka adlaw niini",
     "not seen for too long": "dugay na kaayong wala makita",
-    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Karon, ang mga card gisukod sumala sa kon unsa ka dugay nimo kini mahinumdoman. Ang mga card nga dugay na nimong wala makita mogawas nga \"praktison pa\" hangtod nga tubagon nimo kini pag-usab."
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Karon, ang mga card gisukod sumala sa kon unsa ka dugay nimo kini mahinumdoman. Ang mga card nga dugay na nimong wala makita mogawas nga \"praktison pa\" hangtod nga tubagon nimo kini pag-usab.",
+    "Review missed": "I-review ang mga nasayop"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Mga drill"],

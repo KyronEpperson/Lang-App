@@ -732,7 +732,8 @@ LANGAPP_PACKS.i18n.ko = {
     "missed last time": "지난번에 틀림",
     "missed on 2 of its last 4 days": "최근 4일 중 2일 틀림",
     "not seen for too long": "너무 오래 안 봄",
-    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "이제 카드를 얼마나 오래 기억하는지로 판단해요. 오랫동안 보지 않은 카드는 다시 답할 때까지 \"연습 필요\"로 표시돼요."
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "이제 카드를 얼마나 오래 기억하는지로 판단해요. 오랫동안 보지 않은 카드는 다시 답할 때까지 \"연습 필요\"로 표시돼요.",
+    "Review missed": "틀린 카드 복습"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · 훈련"],

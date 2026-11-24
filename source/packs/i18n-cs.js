@@ -797,7 +797,8 @@ LANGAPP_PACKS.i18n.cs = {
     "missed last time": "minule chyba",
     "missed on 2 of its last 4 days": "chyba ve 2 z posledních 4 dnů",
     "not seen for too long": "příliš dlouho neviděno",
-    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Kartičky se teď hodnotí podle toho, jak dlouho si je pamatuješ. Ty, které se dlouho neobjevily, jsou označené „k procvičení“, dokud na ně znovu neodpovíš."
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Kartičky se teď hodnotí podle toho, jak dlouho si je pamatuješ. Ty, které se dlouho neobjevily, jsou označené „k procvičení“, dokud na ně znovu neodpovíš.",
+    "Review missed": "Projít chybné"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Drily"],
