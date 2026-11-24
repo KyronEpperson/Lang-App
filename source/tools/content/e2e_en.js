@@ -10,8 +10,7 @@ await p.route(/supabase|fonts\.g/,r=>r.abort());await p.goto('file:///home/claud
 const r0=await p.evaluate(([id,cid])=>{if(COURSE.id!==cid)return {bad:'course '+COURSE.id};const i=LESSONS.findIndex(l=>l.id===id);if(i<0)return {bad:'missing lesson'};LESSONS.slice(0,i).forEach(l=>S.lessons[l.id]=1);save();renderLessonHome();const un=lessonUnlocked(i);document.querySelector('[data-lesson="'+id+'"]').click();const body=document.getElementById('lessonBody');return {i,n:LESSONS.length,un,title:LESSONS[i].title,ov:document.documentElement.scrollWidth>innerWidth+1,raw:/\{\{ex:/.test(body.innerHTML),exN:(LESSONS[i].body.match(/\{\{ex:/g)||[]).length,planned:plannedLessons().length,ans:CHECKS[id].map(q=>q[2])};},[id,CID]);
 if(r0.bad||!r0.un||r0.ov||r0.raw){fail++;console.log(id,'FAIL pre',JSON.stringify(r0));await c.close();continue;}
 for(let q=0;q<3;q++){const k=r0.ans[q];await p.waitForSelector('#checkBody .opt[data-k="'+k+'"]:not([disabled])');await p.click('#checkBody .opt[data-k="'+k+'"]');await p.waitForTimeout(1100);}
-await p.click('#miniStart');
-for(let k=0;k<80;k++){const done=await p.evaluate(id=>!!(S.drills&&S.drills[id]),id);if(done)break;await p.evaluate(()=>{const bs=[...document.querySelectorAll('#miniDrill .mdCard button:not([disabled])')];const g=bs[bs.length-1];if(g)g.click();});await p.waitForTimeout(150);}
+await require('../tests/lesson_drive.js')(p,id);
 const r1=await p.evaluate(id=>{const i=LESSONS.findIndex(l=>l.id===id);let bad=0,n=0;Object.keys(PRACTICE).forEach(k=>PRACTICE[k].forEach(it=>{n++;
  if(it.t==='order'){const m=it.a.join(' ');if(!pracMatch(m,[m]))bad++;(it.x||[]).forEach(x=>it.a.forEach((_,j)=>{const alt=it.a.slice();alt[j]=x;if(pracMatch(alt.join(' '),[m],true))bad++;}));}
  if(it.t==='fill'){it.a.forEach(a=>{if(!pracMatch(a,it.a))bad++;});(it.o||[]).forEach(o=>{if(pracMatch(o,it.a,!!it.strict))bad++;});}

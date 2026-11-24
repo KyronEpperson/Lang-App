@@ -7,8 +7,7 @@ const p=await ctx({v:1,native:'en',course:'en-ko',picked:1,seenHome:1,prefs:{}})
 const r0=await p.evaluate(id=>{const i=LESSONS.findIndex(l=>l.id===id);if(i<0)return null;LESSONS.slice(0,i).forEach(l=>S.lessons[l.id]=1);save();renderLessonHome();const un=lessonUnlocked(i),nx=i+1<LESSONS.length?lessonUnlocked(i+1):false;document.querySelector('[data-lesson="'+id+'"]').click();return {i,n:LESSONS.length,un,nx,title:LESSONS[i].title,planned:plannedLessons().length,ov:document.documentElement.scrollWidth>innerWidth+1,tables:[...document.querySelectorAll('#lessonBody .tbl')].length,ex:document.querySelectorAll('#lessonBody .ex, #lessonBody [data-say]').length};},id);
 if(!r0||!r0.un||r0.nx||r0.ov){fail++;}
 for(let q=0;q<3;q++){await p.waitForSelector('#checkBody .opt[data-k="0"]:not([disabled])');await p.click('#checkBody .opt[data-k="0"]');await p.waitForTimeout(1100);}
-await p.click('#miniStart');
-for(let k=0;k<80;k++){const done=await p.evaluate(id=>!!(S.drills&&S.drills[id]),id);if(done)break;await p.evaluate(()=>{const bs=[...document.querySelectorAll('#miniDrill .mdCard button:not([disabled])')];const g=bs[bs.length-1];if(g)g.click();});await p.waitForTimeout(150);}
+await require('../tests/lesson_drive.js')(p,id);
 const r1=await p.evaluate(id=>{const i=LESSONS.findIndex(l=>l.id===id);return {done:!!S.lessons[id],next:i+1<LESSONS.length?lessonUnlocked(i+1):true,prac:(PRACTICE[id]||[]).length};},id);
 if(!r1.done||!r1.next||r1.prac<12)fail++;
 await p.evaluate(id=>showLesson(id),id);await p.waitForTimeout(300);await p.screenshot({path:'/tmp/claude-0/-home-claude/d98f3bd7-8852-52e0-916f-9f67ac9e0f17/scratchpad/loop-'+id+'.png',fullPage:true});
