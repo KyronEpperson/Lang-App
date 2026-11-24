@@ -784,7 +784,20 @@ LANGAPP_PACKS.i18n.de = {
     "Voice: man. Switch to woman's voice": "Stimme: Mann. Zur Frauenstimme wechseln",
     "Voice: woman": "Stimme: Frau",
     "Voice: man": "Stimme: Mann",
-    "Voice": "Stimme"
+    "Voice": "Stimme",
+    "memorized": "eingeprägt",
+    "needs practice": "Übung nötig",
+    "Cards by memory": "Karten nach Gedächtnis",
+    "Memorized: the app expects you to still know the card a week after your last review. Needs practice: you missed it recently, or it has gone unseen for too long. Learning is everything in between.": "Eingeprägt: Die App erwartet, dass du die Karte eine Woche nach der letzten Wiederholung noch weißt. Übung nötig: Du hast sie kürzlich falsch beantwortet oder zu lange nicht gesehen. Lernend ist alles dazwischen.",
+    "How often you were right, by how the card was judged just before you answered. Memorized cards should stay near 9 in 10.": "Wie oft du richtig lagst, je nachdem, wie die Karte kurz vor deiner Antwort eingestuft war. Eingeprägte Karten sollten bei etwa 9 von 10 bleiben.",
+    "Review a few cards and this fills in: how often you are right, your speed, and your best hour.": "Wiederhole ein paar Karten, dann füllt sich das hier: wie oft du richtig liegst, dein Tempo und deine beste Uhrzeit.",
+    "memory lasts under 2 days": "Gedächtnis hält weniger als 2 Tage",
+    "seen today": "heute gesehen",
+    "seen yesterday": "gestern gesehen",
+    "missed last time": "zuletzt falsch",
+    "missed on 2 of its last 4 days": "an 2 der letzten 4 Tage falsch",
+    "not seen for too long": "zu lange nicht gesehen",
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Karten werden jetzt danach beurteilt, wie lange du sie behältst. Karten, die du lange nicht gesehen hast, stehen auf „Übung nötig“, bis du sie wieder beantwortest."
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Training"],
@@ -1061,7 +1074,9 @@ LANGAPP_PACKS.i18n.de = {
     ["^Level up! Level (\\d+) · (.+) 🎉$", "Neue Stufe! Stufe $1 · $2 🎉"],
     ["^Extra practice · (\\d+)\\/(\\d+) learned$", "Zusatzübung · gelernt: $1/$2"],
     ["^New card · (\\d+)\\/(\\d+) learned$", "Neue Karte · gelernt: $1/$2"],
-    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "Fällig: $1 · gelernt: $2/$3"]
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "Fällig: $1 · gelernt: $2/$3"],
+    ["^memory lasts about (\\d+) days$", "Gedächtnis hält etwa $1 Tage"],
+    ["^seen (\\d+) days ago$", "vor $1 Tagen gesehen"]
   ],
   road: {
     "Standard (Seoul) Korean": "Standardkoreanisch (Seoul)",

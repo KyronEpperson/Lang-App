@@ -5345,6 +5345,84 @@
    "kind": "label",
    "context": "settings label (Progress options) in front of the Woman's voice / Man's voice chips: which recorded voice plays",
    "where": "js id()"
+  },
+  "memorized": {
+   "t": "จำได้แล้ว",
+   "ko": "암기 완료",
+   "kind": "label",
+   "context": "card status: the app expects the learner to still know the card a week after the last review. Shown after a count (6 memorized), as a chart and legend label, and on a single card. Lower case, like new / learning"
+  },
+  "needs practice": {
+   "t": "ต้องฝึกเพิ่ม",
+   "ko": "연습 필요",
+   "kind": "label",
+   "context": "card status: missed recently, or not seen for too long. Shown after a count, as a chart and legend label, and on a single card. Lower case, like new / learning"
+  },
+  "Cards by memory": {
+   "t": "การ์ดตามความจำ",
+   "ko": "기억 상태별 카드",
+   "kind": "label",
+   "context": "Progress: heading over the number of cards in each status (learning, memorized, needs practice)"
+  },
+  "Memorized: the app expects you to still know the card a week after your last review. Needs practice: you missed it recently, or it has gone unseen for too long. Learning is everything in between.": {
+   "t": "จำได้แล้ว: แอปคาดว่าคุณยังจำการ์ดได้หลังทบทวนครั้งล่าสุดไปหนึ่งสัปดาห์ ต้องฝึกเพิ่ม: คุณเพิ่งตอบผิด หรือไม่ได้เห็นการ์ดนานเกินไป กำลังเรียน: การ์ดที่เหลือทั้งหมด",
+   "ko": "암기 완료: 마지막 복습 후 일주일이 지나도 기억할 것으로 예상되는 카드예요. 연습 필요: 최근에 틀렸거나 너무 오래 보지 않은 카드예요. 학습 중: 그 사이의 모든 카드예요.",
+   "kind": "sentence",
+   "context": "Progress: explains the three card statuses under the chart. Start each part with the same word as the status label"
+  },
+  "How often you were right, by how the card was judged just before you answered. Memorized cards should stay near 9 in 10.": {
+   "t": "คุณตอบถูกบ่อยแค่ไหน แยกตามสถานะของการ์ดก่อนที่คุณจะตอบ การ์ดที่จำได้แล้วควรอยู่ที่ประมาณ 9 ใน 10",
+   "ko": "답하기 직전의 카드 상태별 정답률이에요. 암기 완료 카드는 10번 중 9번 정도 맞히는 게 좋아요.",
+   "kind": "sentence",
+   "context": "Progress, How you learn: caption under four bars (new, learning, memorized, needs practice), each showing the share of right answers"
+  },
+  "Review a few cards and this fills in: how often you are right, your speed, and your best hour.": {
+   "t": "ทบทวนการ์ดสักสองสามใบแล้วส่วนนี้จะแสดงผล: คุณตอบถูกบ่อยแค่ไหน ความเร็ว และชั่วโมงที่ดีที่สุดของคุณ",
+   "ko": "카드를 몇 장 복습하면 여기에 정답률, 속도, 가장 잘되는 시간이 채워져요.",
+   "kind": "sentence",
+   "context": "Progress, How you learn: shown before any answer is logged"
+  },
+  "memory lasts under 2 days": {
+   "t": "จำได้ไม่ถึง 2 วัน",
+   "ko": "기억 유지 2일 미만",
+   "kind": "sentence",
+   "context": "Browse, under a card: the card is expected to be remembered for less than 2 days"
+  },
+  "seen today": {
+   "t": "เห็นวันนี้",
+   "ko": "오늘 봄",
+   "kind": "label",
+   "context": "Browse, under a card: the card was last answered today"
+  },
+  "seen yesterday": {
+   "t": "เห็นเมื่อวาน",
+   "ko": "어제 봄",
+   "kind": "label",
+   "context": "Browse, under a card: the card was last answered yesterday"
+  },
+  "missed last time": {
+   "t": "ครั้งล่าสุดตอบผิด",
+   "ko": "지난번에 틀림",
+   "kind": "label",
+   "context": "Browse, under a card: why it needs practice (the last answer was wrong and no later day has cleared it)"
+  },
+  "missed on 2 of its last 4 days": {
+   "t": "ตอบผิด 2 ใน 4 วันล่าสุด",
+   "ko": "최근 4일 중 2일 틀림",
+   "kind": "sentence",
+   "context": "Browse, under a card: why it needs practice (wrong on two of the last four days it was answered)"
+  },
+  "not seen for too long": {
+   "t": "ไม่ได้เห็นนานเกินไป",
+   "ko": "너무 오래 안 봄",
+   "kind": "sentence",
+   "context": "Browse, under a card: why it needs practice (not answered for more than twice its memory length)"
+  },
+  "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": {
+   "t": "ตอนนี้การ์ดจะถูกประเมินจากระยะเวลาที่คุณจำได้ การ์ดที่คุณไม่ได้เห็นมานานจะแสดงเป็น “ต้องฝึกเพิ่ม” จนกว่าคุณจะตอบอีกครั้ง",
+   "ko": "이제 카드를 얼마나 오래 기억하는지로 판단해요. 오랫동안 보지 않은 카드는 다시 답할 때까지 \"연습 필요\"로 표시돼요.",
+   "kind": "sentence",
+   "context": "Progress: one-time note for learners whose progress was saved before this change; explains why counts may have dropped. \"needs practice\" is the status label"
   }
  },
  "patterns": {
@@ -7119,6 +7197,20 @@
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "5 due · 2/3 learned",
    "context": "review status line: cards still due in this queue · learned/total in this deck; count slot: the translation must read correctly at 1 and at 2+"
+  },
+  "memory lasts about {n} days": {
+   "t": "จำได้ประมาณ {1} วัน",
+   "ko": "기억 유지 약 {1}일",
+   "slots": "{1}=n",
+   "example": "memory lasts about 5 days",
+   "context": "Browse, under a card: how long the app expects the card to be remembered. n is always 2 or more"
+  },
+  "seen {n} days ago": {
+   "t": "เห็นเมื่อ {1} วันก่อน",
+   "ko": "{1}일 전에 봄",
+   "slots": "{1}=n",
+   "example": "seen 5 days ago",
+   "context": "Browse, under a card: when the card was last answered. n is always 2 or more"
   }
  }
 }

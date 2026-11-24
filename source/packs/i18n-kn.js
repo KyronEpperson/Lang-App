@@ -784,7 +784,20 @@ LANGAPP_PACKS.i18n.kn = {
     "Voice: man. Switch to woman's voice": "ಧ್ವನಿ: ಪುರುಷ. ಮಹಿಳೆಯ ಧ್ವನಿಗೆ ಬದಲಿಸಿ",
     "Voice: woman": "ಧ್ವನಿ: ಮಹಿಳೆ",
     "Voice: man": "ಧ್ವನಿ: ಪುರುಷ",
-    "Voice": "ಧ್ವನಿ"
+    "Voice": "ಧ್ವನಿ",
+    "memorized": "ನೆನಪಿದೆ",
+    "needs practice": "ಅಭ್ಯಾಸ ಬೇಕು",
+    "Cards by memory": "ನೆನಪಿನ ಪ್ರಕಾರ ಕಾರ್ಡ್",
+    "Memorized: the app expects you to still know the card a week after your last review. Needs practice: you missed it recently, or it has gone unseen for too long. Learning is everything in between.": "ನೆನಪಿದೆ: ಕೊನೆಯ ರಿವ್ಯೂ ಆಗಿ ಒಂದು ವಾರದ ನಂತರವೂ ಕಾರ್ಡ್ ನಿಮಗೆ ನೆನಪಿರುತ್ತದೆ ಎಂದು ಆ್ಯಪ್ ಅಂದಾಜಿಸುತ್ತದೆ. ಅಭ್ಯಾಸ ಬೇಕು: ಇತ್ತೀಚೆಗೆ ಉತ್ತರ ತಪ್ಪಾಗಿದೆ, ಅಥವಾ ಕಾರ್ಡ್ ಅನ್ನು ತುಂಬಾ ದಿನಗಳಿಂದ ನೋಡಿಲ್ಲ. ಕಲಿಕೆಯಲ್ಲಿ: ಉಳಿದ ಎಲ್ಲ ಕಾರ್ಡ್‌ಗಳು.",
+    "How often you were right, by how the card was judged just before you answered. Memorized cards should stay near 9 in 10.": "ನೀವು ಉತ್ತರಿಸುವ ಸ್ವಲ್ಪ ಮೊದಲು ಕಾರ್ಡ್ ಯಾವ ಸ್ಥಿತಿಯಲ್ಲಿತ್ತು ಎಂಬುದರ ಪ್ರಕಾರ, ನಿಮ್ಮ ಉತ್ತರಗಳು ಎಷ್ಟು ಸಲ ಸರಿಯಾಗಿದ್ದವು. ನೆನಪಿರುವ ಕಾರ್ಡ್‌ಗಳಲ್ಲಿ ಇದು 10ರಲ್ಲಿ ಸುಮಾರು 9 ಇರಬೇಕು.",
+    "Review a few cards and this fills in: how often you are right, your speed, and your best hour.": "ಕೆಲವು ಕಾರ್ಡ್ ರಿವ್ಯೂ ಮಾಡಿದರೆ ಇದು ತುಂಬುತ್ತದೆ: ಎಷ್ಟು ಸಲ ಸರಿ ಉತ್ತರ, ವೇಗ ಮತ್ತು ನಿಮ್ಮ ಅತ್ಯುತ್ತಮ ಗಂಟೆ.",
+    "memory lasts under 2 days": "2 ದಿನಕ್ಕಿಂತ ಕಡಿಮೆ ನೆನಪಿರುತ್ತದೆ",
+    "seen today": "ಇಂದು ನೋಡಿದ್ದು",
+    "seen yesterday": "ನಿನ್ನೆ ನೋಡಿದ್ದು",
+    "missed last time": "ಕಳೆದ ಸಲ ತಪ್ಪು",
+    "missed on 2 of its last 4 days": "ಕೊನೆಯ 4 ದಿನಗಳಲ್ಲಿ 2 ದಿನ ತಪ್ಪು",
+    "not seen for too long": "ತುಂಬಾ ದಿನಗಳಿಂದ ನೋಡಿಲ್ಲ",
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "ಈಗ ಕಾರ್ಡ್‌ಗಳನ್ನು ಅವು ನಿಮಗೆ ಎಷ್ಟು ಕಾಲ ನೆನಪಿರುತ್ತವೆ ಎಂಬುದರ ಮೇಲೆ ಅಳೆಯಲಾಗುತ್ತದೆ. ನೀವು ತುಂಬಾ ದಿನಗಳಿಂದ ನೋಡದ ಕಾರ್ಡ್‌ಗಳು, ಮತ್ತೆ ಉತ್ತರಿಸುವವರೆಗೆ \"ಅಭ್ಯಾಸ ಬೇಕು\" ಎಂದು ಕಾಣುತ್ತವೆ."
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ಡ್ರಿಲ್"],
@@ -1061,7 +1074,9 @@ LANGAPP_PACKS.i18n.kn = {
     ["^Level up! Level (\\d+) · (.+) 🎉$", "ಲೆವೆಲ್ ಏರಿತು! ಲೆವೆಲ್ $1 · $2 🎉"],
     ["^Extra practice · (\\d+)\\/(\\d+) learned$", "ಹೆಚ್ಚುವರಿ ಅಭ್ಯಾಸ · ಕಲಿತದ್ದು: $1/$2"],
     ["^New card · (\\d+)\\/(\\d+) learned$", "ಹೊಸ ಕಾರ್ಡ್ · ಕಲಿತದ್ದು: $1/$2"],
-    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "ಬಾಕಿ: $1 · ಕಲಿತದ್ದು: $2/$3"]
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "ಬಾಕಿ: $1 · ಕಲಿತದ್ದು: $2/$3"],
+    ["^memory lasts about (\\d+) days$", "ಸುಮಾರು $1 ದಿನ ನೆನಪಿರುತ್ತದೆ"],
+    ["^seen (\\d+) days ago$", "$1 ದಿನಗಳ ಹಿಂದೆ ನೋಡಿದ್ದು"]
   ],
   road: {
     "General (American) English": "ಸಾಮಾನ್ಯ (ಅಮೆರಿಕನ್) ಇಂಗ್ಲಿಷ್",

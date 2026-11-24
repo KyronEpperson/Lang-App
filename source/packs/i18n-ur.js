@@ -784,7 +784,20 @@ LANGAPP_PACKS.i18n.ur = {
     "Voice: man. Switch to woman's voice": "آواز: مرد۔ خاتون کی آواز پر جائیں",
     "Voice: woman": "آواز: خاتون",
     "Voice: man": "آواز: مرد",
-    "Voice": "آواز"
+    "Voice": "آواز",
+    "memorized": "یاد ہو گئے",
+    "needs practice": "مشق درکار",
+    "Cards by memory": "یادداشت کے حساب سے کارڈ",
+    "Memorized: the app expects you to still know the card a week after your last review. Needs practice: you missed it recently, or it has gone unseen for too long. Learning is everything in between.": "یاد ہو گئے: ایپ کا اندازہ ہے کہ آخری دہرائی کے ایک ہفتے بعد بھی کارڈ آپ کو یاد ہوگا۔ مشق درکار: حال ہی میں جواب غلط ہوا، یا کارڈ بہت عرصے سے نہیں دیکھا گیا۔ سیکھنا جاری: باقی تمام کارڈ۔",
+    "How often you were right, by how the card was judged just before you answered. Memorized cards should stay near 9 in 10.": "جواب دینے سے ٹھیک پہلے کارڈ جس حالت میں تھا، اس کے حساب سے آپ کے درست جوابات کا تناسب۔ یاد ہو گئے کارڈوں میں یہ 10 میں سے تقریباً 9 رہنا چاہیے۔",
+    "Review a few cards and this fills in: how often you are right, your speed, and your best hour.": "چند کارڈ دہرائیں تو یہ حصہ بھر جائے گا: آپ کتنی بار درست ہوتے ہیں، آپ کی رفتار اور آپ کا بہترین وقت۔",
+    "memory lasts under 2 days": "یاد 2 دن سے کم رہتی ہے",
+    "seen today": "آج دیکھا",
+    "seen yesterday": "کل دیکھا",
+    "missed last time": "پچھلی بار غلط",
+    "missed on 2 of its last 4 days": "پچھلے 4 دنوں میں سے 2 دن غلط",
+    "not seen for too long": "بہت عرصے سے نہیں دیکھا",
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "اب کارڈ اس بنیاد پر پرکھے جاتے ہیں کہ وہ آپ کو کتنی دیر یاد رہتے ہیں۔ جو کارڈ آپ نے طویل عرصے سے نہیں دیکھے، وہ دوبارہ جواب دینے تک \"مشق درکار\" کے طور پر نظر آئیں گے۔"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · مہارتیں"],
@@ -1061,7 +1074,9 @@ LANGAPP_PACKS.i18n.ur = {
     ["^Level up! Level (\\d+) · (.+) 🎉$", "لیول بڑھ گیا! لیول $1 · $2 🎉"],
     ["^Extra practice · (\\d+)\\/(\\d+) learned$", "اضافی مشق · سیکھے ہوئے: $1/$2"],
     ["^New card · (\\d+)\\/(\\d+) learned$", "نیا کارڈ · سیکھے ہوئے: $1/$2"],
-    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "دہرانے والے: $1 · سیکھے ہوئے: $2/$3"]
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "دہرانے والے: $1 · سیکھے ہوئے: $2/$3"],
+    ["^memory lasts about (\\d+) days$", "یاد تقریباً $1 دن رہتی ہے"],
+    ["^seen (\\d+) days ago$", "$1 دن پہلے دیکھا"]
   ],
   road: {
     "General (American) English": "عام (امریکی) انگریزی",

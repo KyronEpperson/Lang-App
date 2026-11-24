@@ -784,7 +784,20 @@ LANGAPP_PACKS.i18n.ru = {
     "Voice: man. Switch to woman's voice": "Голос: мужской. Переключить на женский",
     "Voice: woman": "Голос: женский",
     "Voice: man": "Голос: мужской",
-    "Voice": "Голос"
+    "Voice": "Голос",
+    "memorized": "запомнено",
+    "needs practice": "нужна практика",
+    "Cards by memory": "Карточки по уровню запоминания",
+    "Memorized: the app expects you to still know the card a week after your last review. Needs practice: you missed it recently, or it has gone unseen for too long. Learning is everything in between.": "Запомнено: приложение ожидает, что через неделю после последнего повторения ты всё ещё знаешь карточку. Нужна практика: недавно был неверный ответ или карточка слишком давно не показывалась. В изучении — всё остальное.",
+    "How often you were right, by how the card was judged just before you answered. Memorized cards should stay near 9 in 10.": "Доля верных ответов в зависимости от того, как карточка оценивалась прямо перед ответом. Для запомненных карточек она должна быть около 9 из 10.",
+    "Review a few cards and this fills in: how often you are right, your speed, and your best hour.": "Повтори несколько карточек, и здесь появятся: доля верных ответов, скорость и твой лучший час.",
+    "memory lasts under 2 days": "память держится меньше 2 дней",
+    "seen today": "показана сегодня",
+    "seen yesterday": "показана вчера",
+    "missed last time": "ошибка в прошлый раз",
+    "missed on 2 of its last 4 days": "ошибки в 2 из последних 4 дней",
+    "not seen for too long": "слишком давно не показывалась",
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Теперь карточки оцениваются по тому, как долго ты их помнишь. Карточки, которые давно не показывались, отмечены «нужна практика», пока ты снова на них не ответишь."
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Тренажёр"],
@@ -1061,7 +1074,9 @@ LANGAPP_PACKS.i18n.ru = {
     ["^Level up! Level (\\d+) · (.+) 🎉$", "Новый уровень! Уровень $1 · $2 🎉"],
     ["^Extra practice · (\\d+)\\/(\\d+) learned$", "Доп. практика · выучено: $1/$2"],
     ["^New card · (\\d+)\\/(\\d+) learned$", "Новая карточка · выучено: $1/$2"],
-    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "К повторению: $1 · выучено: $2/$3"]
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "К повторению: $1 · выучено: $2/$3"],
+    ["^memory lasts about (\\d+) days$", "память держится около $1 дн."],
+    ["^seen (\\d+) days ago$", "показана $1 дн. назад"]
   ],
   road: {
     "Standard (Seoul) Korean": "Стандартный (сеульский) корейский",

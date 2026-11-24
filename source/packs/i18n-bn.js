@@ -784,7 +784,20 @@ LANGAPP_PACKS.i18n.bn = {
     "Voice: man. Switch to woman's voice": "কণ্ঠ: পুরুষ। নারীকণ্ঠে বদলান",
     "Voice: woman": "কণ্ঠ: নারী",
     "Voice: man": "কণ্ঠ: পুরুষ",
-    "Voice": "কণ্ঠ"
+    "Voice": "কণ্ঠ",
+    "memorized": "মুখস্থ",
+    "needs practice": "অনুশীলন দরকার",
+    "Cards by memory": "মনে রাখা অনুযায়ী কার্ড",
+    "Memorized: the app expects you to still know the card a week after your last review. Needs practice: you missed it recently, or it has gone unseen for too long. Learning is everything in between.": "মুখস্থ: অ্যাপের ধারণা, শেষ রিভিশনের এক সপ্তাহ পরেও কার্ডটি আপনার মনে থাকবে। অনুশীলন দরকার: সম্প্রতি উত্তর ভুল হয়েছে, অথবা কার্ডটি অনেক দিন দেখা হয়নি। শিখছি: এর মাঝের সব কার্ড।",
+    "How often you were right, by how the card was judged just before you answered. Memorized cards should stay near 9 in 10.": "উত্তর দেওয়ার ঠিক আগে কার্ডটি যে অবস্থায় ছিল, সে অনুযায়ী আপনার উত্তর কতবার সঠিক হয়েছে। মুখস্থ কার্ডে এটি 10 বারে প্রায় 9 বার থাকা উচিত।",
+    "Review a few cards and this fills in: how often you are right, your speed, and your best hour.": "কয়েকটি কার্ড রিভিশন দিলেই এখানে দেখা যাবে: কতবার সঠিক হচ্ছে, গতি আর আপনার সেরা সময়।",
+    "memory lasts under 2 days": "2 দিনের কম মনে থাকে",
+    "seen today": "আজ দেখা হয়েছে",
+    "seen yesterday": "গতকাল দেখা হয়েছে",
+    "missed last time": "গতবার ভুল হয়েছে",
+    "missed on 2 of its last 4 days": "শেষ 4 দিনের 2 দিন ভুল",
+    "not seen for too long": "অনেক দিন দেখা হয়নি",
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "এখন কার্ড কতদিন আপনার মনে থাকে, তা দিয়ে বিচার করা হয়। যেসব কার্ড আপনি অনেক দিন দেখেননি, সেগুলো আবার উত্তর না দেওয়া পর্যন্ত \"অনুশীলন দরকার\" হিসেবে দেখাবে।"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ড্রিল"],
@@ -1061,7 +1074,9 @@ LANGAPP_PACKS.i18n.bn = {
     ["^Level up! Level (\\d+) · (.+) 🎉$", "লেভেল বাড়ল! লেভেল $1 · $2 🎉"],
     ["^Extra practice · (\\d+)\\/(\\d+) learned$", "বাড়তি অনুশীলন · $1/$2 শেখা হয়েছে"],
     ["^New card · (\\d+)\\/(\\d+) learned$", "নতুন কার্ড · $1/$2 শেখা হয়েছে"],
-    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "রিভিশন বাকি $1টি · $2/$3 শেখা হয়েছে"]
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "রিভিশন বাকি $1টি · $2/$3 শেখা হয়েছে"],
+    ["^memory lasts about (\\d+) days$", "প্রায় $1 দিন মনে থাকে"],
+    ["^seen (\\d+) days ago$", "$1 দিন আগে দেখা হয়েছে"]
   ],
   road: {
     "General (American) English": "সাধারণ (আমেরিকান) ইংরেজি",

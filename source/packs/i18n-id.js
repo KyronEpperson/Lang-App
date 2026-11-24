@@ -784,7 +784,20 @@ LANGAPP_PACKS.i18n.id = {
     "Voice: man. Switch to woman's voice": "Suara: pria. Ganti ke suara wanita",
     "Voice: woman": "Suara: wanita",
     "Voice: man": "Suara: pria",
-    "Voice": "Suara"
+    "Voice": "Suara",
+    "memorized": "hafal",
+    "needs practice": "perlu latihan",
+    "Cards by memory": "Kartu menurut ingatan",
+    "Memorized: the app expects you to still know the card a week after your last review. Needs practice: you missed it recently, or it has gone unseen for too long. Learning is everything in between.": "Hafal: aplikasi memperkirakan kamu masih ingat kartu itu seminggu setelah pengulangan terakhir. Perlu latihan: kamu baru-baru ini salah menjawabnya, atau kartu itu sudah terlalu lama tidak dilihat. Belajar adalah semua yang di antaranya.",
+    "How often you were right, by how the card was judged just before you answered. Memorized cards should stay near 9 in 10.": "Seberapa sering jawabanmu benar, menurut penilaian kartu tepat sebelum kamu menjawab. Kartu yang hafal seharusnya tetap di kisaran 9 dari 10.",
+    "Review a few cards and this fills in: how often you are right, your speed, and your best hour.": "Ulang beberapa kartu, lalu bagian ini akan terisi: seberapa sering kamu benar, kecepatanmu, dan jam terbaikmu.",
+    "memory lasts under 2 days": "ingatan bertahan kurang dari 2 hari",
+    "seen today": "dilihat hari ini",
+    "seen yesterday": "dilihat kemarin",
+    "missed last time": "salah terakhir kali",
+    "missed on 2 of its last 4 days": "salah pada 2 dari 4 hari terakhirnya",
+    "not seen for too long": "terlalu lama tidak dilihat",
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Kartu sekarang dinilai dari seberapa lama kamu mengingatnya. Kartu yang sudah lama tidak kamu lihat ditandai \"perlu latihan\" sampai kamu menjawabnya lagi."
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Drill"],
@@ -1061,7 +1074,9 @@ LANGAPP_PACKS.i18n.id = {
     ["^Level up! Level (\\d+) · (.+) 🎉$", "Naik level! Level $1 · $2 🎉"],
     ["^Extra practice · (\\d+)\\/(\\d+) learned$", "Latihan tambahan · $1/$2 dipelajari"],
     ["^New card · (\\d+)\\/(\\d+) learned$", "Kartu baru · $1/$2 dipelajari"],
-    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 perlu diulang · $2/$3 dipelajari"]
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 perlu diulang · $2/$3 dipelajari"],
+    ["^memory lasts about (\\d+) days$", "ingatan bertahan sekitar $1 hari"],
+    ["^seen (\\d+) days ago$", "dilihat $1 hari lalu"]
   ],
   road: {
     "Standard (Seoul) Korean": "Bahasa Korea standar (Seoul)",

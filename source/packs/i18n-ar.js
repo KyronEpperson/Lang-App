@@ -784,7 +784,20 @@ LANGAPP_PACKS.i18n.ar = {
     "Voice: man. Switch to woman's voice": "الصوت: رجل. التبديل إلى صوت امرأة",
     "Voice: woman": "الصوت: امرأة",
     "Voice: man": "الصوت: رجل",
-    "Voice": "الصوت"
+    "Voice": "الصوت",
+    "memorized": "راسخة",
+    "needs practice": "تحتاج إلى تمرين",
+    "Cards by memory": "البطاقات حسب الذاكرة",
+    "Memorized: the app expects you to still know the card a week after your last review. Needs practice: you missed it recently, or it has gone unseen for too long. Learning is everything in between.": "راسخة: يتوقع التطبيق أن تبقى البطاقة في الذاكرة بعد أسبوع من آخر مراجعة. تحتاج إلى تمرين: أُجيب عنها خطأً مؤخرًا، أو مضى وقت طويل جدًا دون عرضها. قيد التعلم: كل ما بين ذلك.",
+    "How often you were right, by how the card was judged just before you answered. Memorized cards should stay near 9 in 10.": "نسبة الإجابات الصحيحة بحسب تصنيف البطاقة قبل الإجابة مباشرة. ينبغي أن تبقى البطاقات الراسخة قريبة من 9 من كل 10.",
+    "Review a few cards and this fills in: how often you are right, your speed, and your best hour.": "مراجعة بضع بطاقات وسيظهر هنا: نسبة الإجابات الصحيحة، والسرعة، وأفضل ساعة.",
+    "memory lasts under 2 days": "تبقى في الذاكرة أقل من يومين",
+    "seen today": "عُرضت اليوم",
+    "seen yesterday": "عُرضت أمس",
+    "missed last time": "إجابة خاطئة في آخر مرة",
+    "missed on 2 of its last 4 days": "إجابات خاطئة في يومين من آخر 4 أيام",
+    "not seen for too long": "لم تُعرض منذ وقت طويل جدًا",
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "تُقيَّم البطاقات الآن بحسب مدة بقائها في الذاكرة. البطاقات التي لم تُعرض منذ وقت طويل تظهر ضمن «تحتاج إلى تمرين» إلى أن يُجاب عنها من جديد."
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · مهارات"],
@@ -1061,7 +1074,9 @@ LANGAPP_PACKS.i18n.ar = {
     ["^Level up! Level (\\d+) · (.+) 🎉$", "ارتفع المستوى! المستوى $1 · $2 🎉"],
     ["^Extra practice · (\\d+)\\/(\\d+) learned$", "تمرين إضافي · المحفوظ: $1/$2"],
     ["^New card · (\\d+)\\/(\\d+) learned$", "بطاقة جديدة · المحفوظ: $1/$2"],
-    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "المستحق: $1 · المحفوظ: $2/$3"]
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "المستحق: $1 · المحفوظ: $2/$3"],
+    ["^memory lasts about (\\d+) days$", "مدة بقائها في الذاكرة بالأيام: نحو $1"],
+    ["^seen (\\d+) days ago$", "الأيام منذ آخر عرض: $1"]
   ],
   road: {
     "Standard (Seoul) Korean": "الكورية المعيارية (سول)",

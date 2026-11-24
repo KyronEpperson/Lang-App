@@ -784,7 +784,20 @@ LANGAPP_PACKS.i18n.te = {
     "Voice: man. Switch to woman's voice": "గొంతు: మగ. ఆడ గొంతుకు మార్చండి",
     "Voice: woman": "గొంతు: ఆడ",
     "Voice: man": "గొంతు: మగ",
-    "Voice": "గొంతు"
+    "Voice": "గొంతు",
+    "memorized": "గుర్తున్నవి",
+    "needs practice": "సాధన అవసరం",
+    "Cards by memory": "జ్ఞాపకం వారీగా కార్డులు",
+    "Memorized: the app expects you to still know the card a week after your last review. Needs practice: you missed it recently, or it has gone unseen for too long. Learning is everything in between.": "గుర్తున్నవి: చివరి రివిజన్ తర్వాత వారం గడిచినా కార్డు మీకు గుర్తుంటుందని యాప్ అంచనా. సాధన అవసరం: ఇటీవల సమాధానం తప్పింది, లేదా కార్డును చాలా కాలంగా చూడలేదు. నేర్చుకుంటున్నవి: మిగతా కార్డులన్నీ.",
+    "How often you were right, by how the card was judged just before you answered. Memorized cards should stay near 9 in 10.": "మీరు సమాధానం ఇచ్చే ముందు కార్డు ఏ స్థితిలో ఉందో దాని వారీగా, మీ సమాధానాలు ఎంత తరచుగా సరైనవో చూపిస్తుంది. గుర్తున్న కార్డుల్లో ఇది 10లో సుమారు 9 ఉండాలి.",
+    "Review a few cards and this fills in: how often you are right, your speed, and your best hour.": "కొన్ని కార్డులు రివిజన్ చేస్తే ఇది నిండుతుంది: మీరు ఎంత తరచుగా సరిగ్గా చెబుతున్నారు, వేగం, మీ ఉత్తమ సమయం.",
+    "memory lasts under 2 days": "2 రోజుల కన్నా తక్కువ గుర్తుంటుంది",
+    "seen today": "ఈరోజు చూశారు",
+    "seen yesterday": "నిన్న చూశారు",
+    "missed last time": "కిందటిసారి తప్పింది",
+    "missed on 2 of its last 4 days": "చివరి 4 రోజుల్లో 2 రోజులు తప్పింది",
+    "not seen for too long": "చాలా కాలంగా చూడలేదు",
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "ఇప్పుడు కార్డులను అవి మీకు ఎంత కాలం గుర్తుంటాయో దాన్ని బట్టి అంచనా వేస్తాం. మీరు చాలా కాలంగా చూడని కార్డులు, మళ్ళీ సమాధానం ఇచ్చే వరకు \"సాధన అవసరం\"గా కనిపిస్తాయి."
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · డ్రిల్స్"],
@@ -1061,7 +1074,9 @@ LANGAPP_PACKS.i18n.te = {
     ["^Level up! Level (\\d+) · (.+) 🎉$", "లెవెల్ పెరిగింది! లెవెల్ $1 · $2 🎉"],
     ["^Extra practice · (\\d+)\\/(\\d+) learned$", "అదనపు సాధన · నేర్చుకున్నవి: $1/$2"],
     ["^New card · (\\d+)\\/(\\d+) learned$", "కొత్త కార్డు · నేర్చుకున్నవి: $1/$2"],
-    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "రివిజన్: $1 · నేర్చుకున్నవి: $2/$3"]
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "రివిజన్: $1 · నేర్చుకున్నవి: $2/$3"],
+    ["^memory lasts about (\\d+) days$", "సుమారు $1 రోజులు గుర్తుంటుంది"],
+    ["^seen (\\d+) days ago$", "$1 రోజుల క్రితం చూశారు"]
   ],
   road: {
     "General (American) English": "సాధారణ (అమెరికన్) ఇంగ్లీష్",

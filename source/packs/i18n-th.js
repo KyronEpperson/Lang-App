@@ -784,7 +784,20 @@ LANGAPP_PACKS.i18n.th = {
     "Voice: man. Switch to woman's voice": "เสียง: ผู้ชาย เปลี่ยนเป็นเสียงผู้หญิง",
     "Voice: woman": "เสียง: ผู้หญิง",
     "Voice: man": "เสียง: ผู้ชาย",
-    "Voice": "เสียง"
+    "Voice": "เสียง",
+    "memorized": "จำได้แล้ว",
+    "needs practice": "ต้องฝึกเพิ่ม",
+    "Cards by memory": "การ์ดตามความจำ",
+    "Memorized: the app expects you to still know the card a week after your last review. Needs practice: you missed it recently, or it has gone unseen for too long. Learning is everything in between.": "จำได้แล้ว: แอปคาดว่าคุณยังจำการ์ดได้หลังทบทวนครั้งล่าสุดไปหนึ่งสัปดาห์ ต้องฝึกเพิ่ม: คุณเพิ่งตอบผิด หรือไม่ได้เห็นการ์ดนานเกินไป กำลังเรียน: การ์ดที่เหลือทั้งหมด",
+    "How often you were right, by how the card was judged just before you answered. Memorized cards should stay near 9 in 10.": "คุณตอบถูกบ่อยแค่ไหน แยกตามสถานะของการ์ดก่อนที่คุณจะตอบ การ์ดที่จำได้แล้วควรอยู่ที่ประมาณ 9 ใน 10",
+    "Review a few cards and this fills in: how often you are right, your speed, and your best hour.": "ทบทวนการ์ดสักสองสามใบแล้วส่วนนี้จะแสดงผล: คุณตอบถูกบ่อยแค่ไหน ความเร็ว และชั่วโมงที่ดีที่สุดของคุณ",
+    "memory lasts under 2 days": "จำได้ไม่ถึง 2 วัน",
+    "seen today": "เห็นวันนี้",
+    "seen yesterday": "เห็นเมื่อวาน",
+    "missed last time": "ครั้งล่าสุดตอบผิด",
+    "missed on 2 of its last 4 days": "ตอบผิด 2 ใน 4 วันล่าสุด",
+    "not seen for too long": "ไม่ได้เห็นนานเกินไป",
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "ตอนนี้การ์ดจะถูกประเมินจากระยะเวลาที่คุณจำได้ การ์ดที่คุณไม่ได้เห็นมานานจะแสดงเป็น “ต้องฝึกเพิ่ม” จนกว่าคุณจะตอบอีกครั้ง"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ทักษะ"],
@@ -1061,7 +1074,9 @@ LANGAPP_PACKS.i18n.th = {
     ["^Level up! Level (\\d+) · (.+) 🎉$", "เลเวลอัป! เลเวล $1 · $2 🎉"],
     ["^Extra practice · (\\d+)\\/(\\d+) learned$", "ฝึกเพิ่มเติม · เรียนแล้ว $1/$2 ใบ"],
     ["^New card · (\\d+)\\/(\\d+) learned$", "การ์ดใหม่ · เรียนแล้ว $1/$2 ใบ"],
-    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "ถึงกำหนด $1 ใบ · เรียนแล้ว $2/$3 ใบ"]
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "ถึงกำหนด $1 ใบ · เรียนแล้ว $2/$3 ใบ"],
+    ["^memory lasts about (\\d+) days$", "จำได้ประมาณ $1 วัน"],
+    ["^seen (\\d+) days ago$", "เห็นเมื่อ $1 วันก่อน"]
   ],
   road: {
     "Standard (Seoul) Korean": "ภาษาเกาหลีมาตรฐาน (โซล)",

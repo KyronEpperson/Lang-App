@@ -5344,6 +5344,84 @@
    "kind": "label",
    "context": "settings label (Progress options) in front of the Woman's voice / Man's voice chips: which recorded voice plays",
    "where": "js id()"
+  },
+  "memorized": {
+   "t": "mémorisées",
+   "ko": "암기 완료",
+   "kind": "label",
+   "context": "card status: the app expects the learner to still know the card a week after the last review. Shown after a count (6 memorized), as a chart and legend label, and on a single card. Lower case, like new / learning"
+  },
+  "needs practice": {
+   "t": "à retravailler",
+   "ko": "연습 필요",
+   "kind": "label",
+   "context": "card status: missed recently, or not seen for too long. Shown after a count, as a chart and legend label, and on a single card. Lower case, like new / learning"
+  },
+  "Cards by memory": {
+   "t": "Cartes selon ta mémoire",
+   "ko": "기억 상태별 카드",
+   "kind": "label",
+   "context": "Progress: heading over the number of cards in each status (learning, memorized, needs practice)"
+  },
+  "Memorized: the app expects you to still know the card a week after your last review. Needs practice: you missed it recently, or it has gone unseen for too long. Learning is everything in between.": {
+   "t": "Mémorisées : l'appli s'attend à ce que tu connaisses encore la carte une semaine après ta dernière révision. À retravailler : tu l'as ratée récemment, ou tu ne l'as pas vue depuis trop longtemps. En cours : tout le reste.",
+   "ko": "암기 완료: 마지막 복습 후 일주일이 지나도 기억할 것으로 예상되는 카드예요. 연습 필요: 최근에 틀렸거나 너무 오래 보지 않은 카드예요. 학습 중: 그 사이의 모든 카드예요.",
+   "kind": "sentence",
+   "context": "Progress: explains the three card statuses under the chart. Start each part with the same word as the status label"
+  },
+  "How often you were right, by how the card was judged just before you answered. Memorized cards should stay near 9 in 10.": {
+   "t": "Ta fréquence de bonnes réponses, selon le classement de la carte juste avant ta réponse. Les cartes mémorisées devraient rester proches de 9 sur 10.",
+   "ko": "답하기 직전의 카드 상태별 정답률이에요. 암기 완료 카드는 10번 중 9번 정도 맞히는 게 좋아요.",
+   "kind": "sentence",
+   "context": "Progress, How you learn: caption under four bars (new, learning, memorized, needs practice), each showing the share of right answers"
+  },
+  "Review a few cards and this fills in: how often you are right, your speed, and your best hour.": {
+   "t": "Révise quelques cartes et cet espace se remplira : ta fréquence de bonnes réponses, ta vitesse et ta meilleure heure.",
+   "ko": "카드를 몇 장 복습하면 여기에 정답률, 속도, 가장 잘되는 시간이 채워져요.",
+   "kind": "sentence",
+   "context": "Progress, How you learn: shown before any answer is logged"
+  },
+  "memory lasts under 2 days": {
+   "t": "la mémoire tient moins de 2 jours",
+   "ko": "기억 유지 2일 미만",
+   "kind": "sentence",
+   "context": "Browse, under a card: the card is expected to be remembered for less than 2 days"
+  },
+  "seen today": {
+   "t": "vue aujourd'hui",
+   "ko": "오늘 봄",
+   "kind": "label",
+   "context": "Browse, under a card: the card was last answered today"
+  },
+  "seen yesterday": {
+   "t": "vue hier",
+   "ko": "어제 봄",
+   "kind": "label",
+   "context": "Browse, under a card: the card was last answered yesterday"
+  },
+  "missed last time": {
+   "t": "ratée la dernière fois",
+   "ko": "지난번에 틀림",
+   "kind": "label",
+   "context": "Browse, under a card: why it needs practice (the last answer was wrong and no later day has cleared it)"
+  },
+  "missed on 2 of its last 4 days": {
+   "t": "ratée 2 jours sur les 4 derniers",
+   "ko": "최근 4일 중 2일 틀림",
+   "kind": "sentence",
+   "context": "Browse, under a card: why it needs practice (wrong on two of the last four days it was answered)"
+  },
+  "not seen for too long": {
+   "t": "pas vue depuis trop longtemps",
+   "ko": "너무 오래 안 봄",
+   "kind": "sentence",
+   "context": "Browse, under a card: why it needs practice (not answered for more than twice its memory length)"
+  },
+  "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": {
+   "t": "Les cartes sont maintenant évaluées selon la durée pendant laquelle tu t'en souviens. Celles que tu n'as pas vues depuis longtemps s'affichent « à retravailler » jusqu'à ce que tu y répondes de nouveau.",
+   "ko": "이제 카드를 얼마나 오래 기억하는지로 판단해요. 오랫동안 보지 않은 카드는 다시 답할 때까지 \"연습 필요\"로 표시돼요.",
+   "kind": "sentence",
+   "context": "Progress: one-time note for learners whose progress was saved before this change; explains why counts may have dropped. \"needs practice\" is the status label"
   }
  },
  "patterns": {
@@ -7118,6 +7196,20 @@
    "slots": "{1}=n, {2}=n, {3}=n",
    "example": "5 due · 2/3 learned",
    "context": "review status line: cards still due in this queue · learned/total in this deck; count slot: the translation must read correctly at 1 and at 2+"
+  },
+  "memory lasts about {n} days": {
+   "t": "la mémoire tient environ {1} jours",
+   "ko": "기억 유지 약 {1}일",
+   "slots": "{1}=n",
+   "example": "memory lasts about 5 days",
+   "context": "Browse, under a card: how long the app expects the card to be remembered. n is always 2 or more"
+  },
+  "seen {n} days ago": {
+   "t": "vue il y a {1} jours",
+   "ko": "{1}일 전에 봄",
+   "slots": "{1}=n",
+   "example": "seen 5 days ago",
+   "context": "Browse, under a card: when the card was last answered. n is always 2 or more"
   }
  }
 }

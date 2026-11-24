@@ -784,7 +784,20 @@ LANGAPP_PACKS.i18n.hmn = {
     "Voice: man. Switch to woman's voice": "Suab: txiv neej. Hloov mus suab poj niam",
     "Voice: woman": "Suab: poj niam",
     "Voice: man": "Suab: txiv neej",
-    "Voice": "Suab"
+    "Voice": "Suab",
+    "memorized": "nco tau",
+    "needs practice": "yuav tsum xyaum",
+    "Cards by memory": "Card: koj nco tau npaum li cas",
+    "Memorized: the app expects you to still know the card a week after your last review. Needs practice: you missed it recently, or it has gone unseen for too long. Learning is everything in between.": "Nco tau: app xav tias koj tseem paub card ib lim tiam tom qab Review zaus kawg. Yuav tsum xyaum: koj nyuam qhuav teb tsis raug, los yog koj tsis tau pom card ntev dhau lawm. Tab tom kawm: txhua card uas nyob nruab nrab.",
+    "How often you were right, by how the card was judged just before you answered. Memorized cards should stay near 9 in 10.": "Koj teb raug npaum li cas rau txhua hom card, saib hom ua ntej koj teb. Card nco tau yuav tsum nyob ze 9 ntawm 10.",
+    "Review a few cards and this fills in: how often you are right, your speed, and your best hour.": "Review ob peb card, mam li qhov no yuav muaj: koj teb raug npaum li cas, nrawm li cas, thiab teev twg koj kawm zoo tshaj.",
+    "memory lasts under 2 days": "nco tau tsis txog 2 hnub",
+    "seen today": "pom hnub no",
+    "seen yesterday": "pom nag hmo",
+    "missed last time": "zaus kawg tsis raug",
+    "missed on 2 of its last 4 days": "tsis raug 2 hnub ntawm 4 hnub kawg",
+    "not seen for too long": "tsis tau pom ntev dhau lawm",
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Tam sim no app saib koj nco card tau ntev npaum li cas. Card uas koj tsis tau pom ntev lawm yuav yog \"yuav tsum xyaum\" txog thaum koj rov teb dua."
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Drills"],
@@ -1061,7 +1074,9 @@ LANGAPP_PACKS.i18n.hmn = {
     ["^Level up! Level (\\d+) · (.+) 🎉$", "Level tshiab! Level $1 · $2 🎉"],
     ["^Extra practice · (\\d+)\\/(\\d+) learned$", "Xyaum ntxiv · kawm tau: $1/$2"],
     ["^New card · (\\d+)\\/(\\d+) learned$", "Card tshiab · kawm tau: $1/$2"],
-    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "Yuav Review: $1 · kawm tau: $2/$3"]
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "Yuav Review: $1 · kawm tau: $2/$3"],
+    ["^memory lasts about (\\d+) days$", "nco tau $1 hnub"],
+    ["^seen (\\d+) days ago$", "pom $1 hnub dhau los"]
   ],
   road: {
     "General (American) English": "Lus Askiv (Amelika)",

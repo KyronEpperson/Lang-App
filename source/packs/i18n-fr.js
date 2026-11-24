@@ -784,7 +784,20 @@ LANGAPP_PACKS.i18n.fr = {
     "Voice: man. Switch to woman's voice": "Voix : homme. Passer à la voix de femme",
     "Voice: woman": "Voix : femme",
     "Voice: man": "Voix : homme",
-    "Voice": "Voix"
+    "Voice": "Voix",
+    "memorized": "mémorisées",
+    "needs practice": "à retravailler",
+    "Cards by memory": "Cartes selon ta mémoire",
+    "Memorized: the app expects you to still know the card a week after your last review. Needs practice: you missed it recently, or it has gone unseen for too long. Learning is everything in between.": "Mémorisées : l'appli s'attend à ce que tu connaisses encore la carte une semaine après ta dernière révision. À retravailler : tu l'as ratée récemment, ou tu ne l'as pas vue depuis trop longtemps. En cours : tout le reste.",
+    "How often you were right, by how the card was judged just before you answered. Memorized cards should stay near 9 in 10.": "Ta fréquence de bonnes réponses, selon le classement de la carte juste avant ta réponse. Les cartes mémorisées devraient rester proches de 9 sur 10.",
+    "Review a few cards and this fills in: how often you are right, your speed, and your best hour.": "Révise quelques cartes et cet espace se remplira : ta fréquence de bonnes réponses, ta vitesse et ta meilleure heure.",
+    "memory lasts under 2 days": "la mémoire tient moins de 2 jours",
+    "seen today": "vue aujourd'hui",
+    "seen yesterday": "vue hier",
+    "missed last time": "ratée la dernière fois",
+    "missed on 2 of its last 4 days": "ratée 2 jours sur les 4 derniers",
+    "not seen for too long": "pas vue depuis trop longtemps",
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Les cartes sont maintenant évaluées selon la durée pendant laquelle tu t'en souviens. Celles que tu n'as pas vues depuis longtemps s'affichent « à retravailler » jusqu'à ce que tu y répondes de nouveau."
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Exercices"],
@@ -1061,7 +1074,9 @@ LANGAPP_PACKS.i18n.fr = {
     ["^Level up! Level (\\d+) · (.+) 🎉$", "Niveau supérieur ! Niveau $1 · $2 🎉"],
     ["^Extra practice · (\\d+)\\/(\\d+) learned$", "Pratique en plus · apprises : $1/$2"],
     ["^New card · (\\d+)\\/(\\d+) learned$", "Nouvelle carte · apprises : $1/$2"],
-    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "À réviser : $1 · apprises : $2/$3"]
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "À réviser : $1 · apprises : $2/$3"],
+    ["^memory lasts about (\\d+) days$", "la mémoire tient environ $1 jours"],
+    ["^seen (\\d+) days ago$", "vue il y a $1 jours"]
   ],
   road: {
     "Standard (Seoul) Korean": "Coréen standard (de Séoul)",

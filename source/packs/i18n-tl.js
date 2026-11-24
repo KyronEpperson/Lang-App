@@ -784,7 +784,20 @@ LANGAPP_PACKS.i18n.tl = {
     "Voice: man. Switch to woman's voice": "Boses: lalaki. Lumipat sa boses ng babae",
     "Voice: woman": "Boses: babae",
     "Voice: man": "Boses: lalaki",
-    "Voice": "Boses"
+    "Voice": "Boses",
+    "memorized": "natatandaan na",
+    "needs practice": "sanayin pa",
+    "Cards by memory": "Mga card ayon sa alaala",
+    "Memorized: the app expects you to still know the card a week after your last review. Needs practice: you missed it recently, or it has gone unseen for too long. Learning is everything in between.": "Natatandaan na: inaasahan ng app na alam mo pa rin ang card isang linggo matapos ang huli mong review. Sanayin pa: namali ka rito kamakailan, o masyado nang matagal mula nang huli mo itong makita. Inaaral ang lahat ng nasa pagitan.",
+    "How often you were right, by how the card was judged just before you answered. Memorized cards should stay near 9 in 10.": "Gaano kadalas kang tama, ayon sa lagay ng card bago ka sumagot. Dapat manatiling malapit sa 9 sa bawat 10 ang mga natatandaan na.",
+    "Review a few cards and this fills in: how often you are right, your speed, and your best hour.": "Mag-review ng ilang card at mapupunan ito: gaano kadalas kang tama, ang bilis mo, at ang pinakamagandang oras mo.",
+    "memory lasts under 2 days": "wala pang 2 araw ang tagal ng alaala",
+    "seen today": "nakita ngayong araw",
+    "seen yesterday": "nakita kahapon",
+    "missed last time": "mali noong huli",
+    "missed on 2 of its last 4 days": "mali sa 2 sa huling 4 na araw nito",
+    "not seen for too long": "masyado nang matagal na hindi nakita",
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Hinuhusgahan na ngayon ang mga card ayon sa kung gaano katagal mo silang natatandaan. Ang mga card na matagal mo nang hindi nakikita ay lalabas na \"sanayin pa\" hanggang masagot mo ulit ang mga ito."
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Mga drill"],
@@ -1061,7 +1074,9 @@ LANGAPP_PACKS.i18n.tl = {
     ["^Level up! Level (\\d+) · (.+) 🎉$", "Level up! Level $1 · $2 🎉"],
     ["^Extra practice · (\\d+)\\/(\\d+) learned$", "Dagdag na pagsasanay · $1/$2 natutunan"],
     ["^New card · (\\d+)\\/(\\d+) learned$", "Bagong card · $1/$2 natutunan"],
-    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 para i-review · $2/$3 natutunan"]
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 para i-review · $2/$3 natutunan"],
+    ["^memory lasts about (\\d+) days$", "tumatagal ang alaala nang mga $1 araw"],
+    ["^seen (\\d+) days ago$", "nakita $1 araw na ang nakalipas"]
   ],
   road: {
     "Standard (Seoul) Korean": "Standard na Koreano (Seoul)",

@@ -784,7 +784,20 @@ LANGAPP_PACKS.i18n.cs = {
     "Voice: man. Switch to woman's voice": "Hlas: mužský. Přepnout na ženský hlas",
     "Voice: woman": "Hlas: ženský",
     "Voice: man": "Hlas: mužský",
-    "Voice": "Hlas"
+    "Voice": "Hlas",
+    "memorized": "zapamatováno",
+    "needs practice": "k procvičení",
+    "Cards by memory": "Kartičky podle zapamatování",
+    "Memorized: the app expects you to still know the card a week after your last review. Needs practice: you missed it recently, or it has gone unseen for too long. Learning is everything in between.": "Zapamatováno: aplikace počítá s tím, že kartičku budeš umět i týden po posledním opakování. K procvičení: nedávno v ní byla chyba, nebo se příliš dlouho neobjevila. V učení je všechno mezi tím.",
+    "How often you were right, by how the card was judged just before you answered. Memorized cards should stay near 9 in 10.": "Jak často byla odpověď správná podle toho, jak byla kartička hodnocená těsně před odpovědí. Zapamatované kartičky by se měly držet kolem 9 z 10.",
+    "Review a few cards and this fills in: how often you are right, your speed, and your best hour.": "Zopakuj pár kartiček a tady se objeví: jak často odpovídáš správně, tvoje rychlost a tvoje nejlepší hodina.",
+    "memory lasts under 2 days": "v paměti vydrží méně než 2 dny",
+    "seen today": "viděno dnes",
+    "seen yesterday": "viděno včera",
+    "missed last time": "minule chyba",
+    "missed on 2 of its last 4 days": "chyba ve 2 z posledních 4 dnů",
+    "not seen for too long": "příliš dlouho neviděno",
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Kartičky se teď hodnotí podle toho, jak dlouho si je pamatuješ. Ty, které se dlouho neobjevily, jsou označené „k procvičení“, dokud na ně znovu neodpovíš."
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Drily"],
@@ -1061,7 +1074,9 @@ LANGAPP_PACKS.i18n.cs = {
     ["^Level up! Level (\\d+) · (.+) 🎉$", "Nová úroveň! Úroveň $1 · $2 🎉"],
     ["^Extra practice · (\\d+)\\/(\\d+) learned$", "Opakování navíc · naučeno: $1/$2"],
     ["^New card · (\\d+)\\/(\\d+) learned$", "Nová kartička · naučeno: $1/$2"],
-    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "K opakování: $1 · naučeno: $2/$3"]
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "K opakování: $1 · naučeno: $2/$3"],
+    ["^memory lasts about (\\d+) days$", "v paměti vydrží kolem $1 dní"],
+    ["^seen (\\d+) days ago$", "viděno před $1 dny"]
   ],
   road: {
     "General (American) English": "Obecná (americká) angličtina",

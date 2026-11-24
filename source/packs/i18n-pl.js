@@ -784,7 +784,20 @@ LANGAPP_PACKS.i18n.pl = {
     "Voice: man. Switch to woman's voice": "Głos: męski. Przełącz na kobiecy",
     "Voice: woman": "Głos: kobiecy",
     "Voice: man": "Głos: męski",
-    "Voice": "Głos"
+    "Voice": "Głos",
+    "memorized": "zapamiętane",
+    "needs practice": "do przećwiczenia",
+    "Cards by memory": "Fiszki według zapamiętania",
+    "Memorized: the app expects you to still know the card a week after your last review. Needs practice: you missed it recently, or it has gone unseen for too long. Learning is everything in between.": "Zapamiętane: aplikacja zakłada, że tydzień po ostatniej powtórce nadal znasz fiszkę. Do przećwiczenia: niedawno była błędna odpowiedź albo fiszka zbyt długo się nie pojawiała. W nauce to wszystko pomiędzy.",
+    "How often you were right, by how the card was judged just before you answered. Memorized cards should stay near 9 in 10.": "Jak często odpowiedź była poprawna, zależnie od oceny fiszki tuż przed odpowiedzią. Dla zapamiętanych fiszek powinno to być blisko 9 na 10.",
+    "Review a few cards and this fills in: how often you are right, your speed, and your best hour.": "Powtórz kilka fiszek, a pojawią się tu dane: jak często odpowiadasz poprawnie, twoje tempo i twoja najlepsza godzina.",
+    "memory lasts under 2 days": "utrzyma się w pamięci krócej niż 2 dni",
+    "seen today": "widziana dziś",
+    "seen yesterday": "widziana wczoraj",
+    "missed last time": "błąd ostatnim razem",
+    "missed on 2 of its last 4 days": "błędy w 2 z ostatnich 4 dni",
+    "not seen for too long": "zbyt długo niewidziana",
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Fiszki są teraz oceniane według tego, jak długo je pamiętasz. Te, których dawno nie było, mają status „do przećwiczenia”, dopóki znów na nie nie odpowiesz."
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Wprawki"],
@@ -1061,7 +1074,9 @@ LANGAPP_PACKS.i18n.pl = {
     ["^Level up! Level (\\d+) · (.+) 🎉$", "Nowy poziom! Poziom $1 · $2 🎉"],
     ["^Extra practice · (\\d+)\\/(\\d+) learned$", "Dodatkowe ćwiczenie · poznane: $1/$2"],
     ["^New card · (\\d+)\\/(\\d+) learned$", "Nowa fiszka · poznane: $1/$2"],
-    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "Do powtórki: $1 · poznane: $2/$3"]
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "Do powtórki: $1 · poznane: $2/$3"],
+    ["^memory lasts about (\\d+) days$", "utrzyma się w pamięci około $1 dni"],
+    ["^seen (\\d+) days ago$", "widziana $1 dni temu"]
   ],
   road: {
     "General (American) English": "Angielski ogólny (amerykański)",

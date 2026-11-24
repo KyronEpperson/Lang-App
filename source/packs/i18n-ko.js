@@ -719,7 +719,20 @@ LANGAPP_PACKS.i18n.ko = {
     "Voice: man. Switch to woman's voice": "목소리: 남자. 여자 목소리로 바꾸기",
     "Voice: woman": "목소리: 여자",
     "Voice: man": "목소리: 남자",
-    "Voice": "목소리"
+    "Voice": "목소리",
+    "memorized": "암기 완료",
+    "needs practice": "연습 필요",
+    "Cards by memory": "기억 상태별 카드",
+    "Memorized: the app expects you to still know the card a week after your last review. Needs practice: you missed it recently, or it has gone unseen for too long. Learning is everything in between.": "암기 완료: 마지막 복습 후 일주일이 지나도 기억할 것으로 예상되는 카드예요. 연습 필요: 최근에 틀렸거나 너무 오래 보지 않은 카드예요. 학습 중: 그 사이의 모든 카드예요.",
+    "How often you were right, by how the card was judged just before you answered. Memorized cards should stay near 9 in 10.": "답하기 직전의 카드 상태별 정답률이에요. 암기 완료 카드는 10번 중 9번 정도 맞히는 게 좋아요.",
+    "Review a few cards and this fills in: how often you are right, your speed, and your best hour.": "카드를 몇 장 복습하면 여기에 정답률, 속도, 가장 잘되는 시간이 채워져요.",
+    "memory lasts under 2 days": "기억 유지 2일 미만",
+    "seen today": "오늘 봄",
+    "seen yesterday": "어제 봄",
+    "missed last time": "지난번에 틀림",
+    "missed on 2 of its last 4 days": "최근 4일 중 2일 틀림",
+    "not seen for too long": "너무 오래 안 봄",
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "이제 카드를 얼마나 오래 기억하는지로 판단해요. 오랫동안 보지 않은 카드는 다시 답할 때까지 \"연습 필요\"로 표시돼요."
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · 훈련"],
@@ -980,6 +993,8 @@ LANGAPP_PACKS.i18n.ko = {
     ["^(.+) progress$", "$1 진도"],
     ["^Extra practice · (\\d+)\\/(\\d+) learned$", "추가 연습 · $1/$2 익힘"],
     ["^New card · (\\d+)\\/(\\d+) learned$", "새 카드 · $1/$2 익힘"],
-    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "복습 대기 $1 · $2/$3 익힘"]
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "복습 대기 $1 · $2/$3 익힘"],
+    ["^memory lasts about (\\d+) days$", "기억 유지 약 $1일"],
+    ["^seen (\\d+) days ago$", "$1일 전에 봄"]
   ]
 };

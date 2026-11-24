@@ -784,7 +784,20 @@ LANGAPP_PACKS.i18n.ceb = {
     "Voice: man. Switch to woman's voice": "Tingog: lalaki. Ilisi sa tingog sa babaye",
     "Voice: woman": "Tingog: babaye",
     "Voice: man": "Tingog: lalaki",
-    "Voice": "Tingog"
+    "Voice": "Tingog",
+    "memorized": "nasag-ulo na",
+    "needs practice": "praktison pa",
+    "Cards by memory": "Mga card sumala sa panumdoman",
+    "Memorized: the app expects you to still know the card a week after your last review. Needs practice: you missed it recently, or it has gone unseen for too long. Learning is everything in between.": "Nasag-ulo na: gilauman sa app nga kahibalo ka pa sa card usa ka semana human sa imong kataposang review. Praktison pa: nasayop ka niini bag-o lang, o dugay na kaayo nga wala nimo kini makita. Gitun-an ang tanan nga anaa sa tunga.",
+    "How often you were right, by how the card was judged just before you answered. Memorized cards should stay near 9 in 10.": "Kon unsa ka kasagad nga sakto ka, sumala sa kahimtang sa card sa wala pa ka motubag. Ang mga nasag-ulo na kinahanglan magpabilin duol sa 9 sa matag 10.",
+    "Review a few cards and this fills in: how often you are right, your speed, and your best hour.": "Pag-review og pipila ka card ug mapuno kini: unsa ka kasagad nga sakto ka, imong katulin, ug imong labing maayong oras.",
+    "memory lasts under 2 days": "ubos sa 2 ka adlaw ang panumdoman",
+    "seen today": "nakita karong adlawa",
+    "seen yesterday": "nakita gahapon",
+    "missed last time": "nasayop sa miaging higayon",
+    "missed on 2 of its last 4 days": "nasayop sa 2 sa kataposang 4 ka adlaw niini",
+    "not seen for too long": "dugay na kaayong wala makita",
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Karon, ang mga card gisukod sumala sa kon unsa ka dugay nimo kini mahinumdoman. Ang mga card nga dugay na nimong wala makita mogawas nga \"praktison pa\" hangtod nga tubagon nimo kini pag-usab."
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Mga drill"],
@@ -1061,7 +1074,9 @@ LANGAPP_PACKS.i18n.ceb = {
     ["^Level up! Level (\\d+) · (.+) 🎉$", "Level up! Level $1 · $2 🎉"],
     ["^Extra practice · (\\d+)\\/(\\d+) learned$", "Dugang praktis · $1/$2 nakat-onan"],
     ["^New card · (\\d+)\\/(\\d+) learned$", "Bag-ong card · $1/$2 nakat-onan"],
-    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 i-review · $2/$3 nakat-onan"]
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 i-review · $2/$3 nakat-onan"],
+    ["^memory lasts about (\\d+) days$", "molungtad ang panumdoman og mga $1 ka adlaw"],
+    ["^seen (\\d+) days ago$", "nakita $1 ka adlaw na ang milabay"]
   ],
   road: {
     "Standard (Seoul) Korean": "Standard nga Koreano (Seoul)",

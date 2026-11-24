@@ -784,7 +784,20 @@ LANGAPP_PACKS.i18n.zh = {
     "Voice: man. Switch to woman's voice": "声音：男声。切换为女声",
     "Voice: woman": "声音：女声",
     "Voice: man": "声音：男声",
-    "Voice": "声音"
+    "Voice": "声音",
+    "memorized": "已记住",
+    "needs practice": "需要练习",
+    "Cards by memory": "卡片记忆情况",
+    "Memorized: the app expects you to still know the card a week after your last review. Needs practice: you missed it recently, or it has gone unseen for too long. Learning is everything in between.": "已记住：预计在上次复习一周后你仍然记得这张卡片。需要练习：你最近答错过，或者太久没有看到它。学习中：介于两者之间的所有卡片。",
+    "How often you were right, by how the card was judged just before you answered. Memorized cards should stay near 9 in 10.": "按答题前卡片所处的状态统计的正确率。已记住的卡片应保持在十次对九次左右。",
+    "Review a few cards and this fills in: how often you are right, your speed, and your best hour.": "复习几张卡片后，这里会显示：正确率、答题速度和你状态最好的时段。",
+    "memory lasts under 2 days": "记忆保持不到 2 天",
+    "seen today": "今天看过",
+    "seen yesterday": "昨天看过",
+    "missed last time": "上次答错",
+    "missed on 2 of its last 4 days": "最近 4 天里有 2 天答错",
+    "not seen for too long": "太久没看",
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "现在按你能记住多久来评估卡片。很久没看的卡片会显示为“需要练习”，直到你再次作答。"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · 专项练习"],
@@ -1061,7 +1074,9 @@ LANGAPP_PACKS.i18n.zh = {
     ["^Level up! Level (\\d+) · (.+) 🎉$", "升级了！等级 $1 · $2 🎉"],
     ["^Extra practice · (\\d+)\\/(\\d+) learned$", "额外练习 · 已学会 $1/$2"],
     ["^New card · (\\d+)\\/(\\d+) learned$", "新卡片 · 已学会 $1/$2"],
-    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 张待复习 · 已学会 $2/$3"]
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 张待复习 · 已学会 $2/$3"],
+    ["^memory lasts about (\\d+) days$", "记忆可保持约 $1 天"],
+    ["^seen (\\d+) days ago$", "$1 天前看过"]
   ],
   road: {
     "Standard (Seoul) Korean": "标准韩语（首尔）",

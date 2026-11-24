@@ -784,7 +784,20 @@ LANGAPP_PACKS.i18n.yue = {
     "Voice: man. Switch to woman's voice": "聲音：男聲。轉做女聲",
     "Voice: woman": "聲音：女聲",
     "Voice: man": "聲音：男聲",
-    "Voice": "聲音"
+    "Voice": "聲音",
+    "memorized": "記住咗",
+    "needs practice": "要練習",
+    "Cards by memory": "卡嘅記憶情況",
+    "Memorized: the app expects you to still know the card a week after your last review. Needs practice: you missed it recently, or it has gone unseen for too long. Learning is everything in between.": "記住咗：預計你上次溫習一個星期之後仲記得張卡。要練習：你最近答錯過，或者太耐冇見過張卡。學緊：介乎兩者之間嘅所有卡。",
+    "How often you were right, by how the card was judged just before you answered. Memorized cards should stay near 9 in 10.": "按你答之前張卡嘅狀態計嘅答啱率。記住咗嘅卡應該保持喺十次啱九次左右。",
+    "Review a few cards and this fills in: how often you are right, your speed, and your best hour.": "溫幾張卡，呢度就會顯示：答啱率、速度，同你狀態最好嘅時段。",
+    "memory lasts under 2 days": "記得到唔夠 2 日",
+    "seen today": "今日見過",
+    "seen yesterday": "尋日見過",
+    "missed last time": "上次答錯",
+    "missed on 2 of its last 4 days": "最近 4 日有 2 日答錯",
+    "not seen for too long": "太耐冇見",
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "而家會按你記得幾耐嚟評估啲卡。好耐冇見嘅卡會顯示做「要練習」，直到你再答為止。"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · 操練"],
@@ -1061,7 +1074,9 @@ LANGAPP_PACKS.i18n.yue = {
     ["^Level up! Level (\\d+) · (.+) 🎉$", "升級！第 $1 級 · $2 🎉"],
     ["^Extra practice · (\\d+)\\/(\\d+) learned$", "額外練習 · 學咗 $1/$2"],
     ["^New card · (\\d+)\\/(\\d+) learned$", "新卡 · 學咗 $1/$2"],
-    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 張要溫習 · 學咗 $2/$3"]
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 張要溫習 · 學咗 $2/$3"],
+    ["^memory lasts about (\\d+) days$", "記得到大約 $1 日"],
+    ["^seen (\\d+) days ago$", "$1 日前見過"]
   ],
   road: {
     "Standard (Seoul) Korean": "標準韓文（首爾）",

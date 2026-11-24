@@ -784,7 +784,20 @@ LANGAPP_PACKS.i18n.mr = {
     "Voice: man. Switch to woman's voice": "आवाज: पुरुष. स्त्रीच्या आवाजावर जा",
     "Voice: woman": "आवाज: स्त्री",
     "Voice: man": "आवाज: पुरुष",
-    "Voice": "आवाज"
+    "Voice": "आवाज",
+    "memorized": "लक्षात राहिलेली",
+    "needs practice": "सराव हवा",
+    "Cards by memory": "लक्षात राहण्यानुसार कार्ड",
+    "Memorized: the app expects you to still know the card a week after your last review. Needs practice: you missed it recently, or it has gone unseen for too long. Learning is everything in between.": "लक्षात राहिलेली: शेवटच्या उजळणीनंतर आठवडाभराने सुद्धा कार्ड तुमच्या लक्षात असेल, असा ॲपचा अंदाज आहे. सराव हवा: अलीकडे उत्तर चुकलं, किंवा कार्ड खूप दिवसांत पाहिलं नाही. शिकत आहे: बाकी सगळी कार्ड.",
+    "How often you were right, by how the card was judged just before you answered. Memorized cards should stay near 9 in 10.": "उत्तर देण्याच्या अगदी आधी कार्ड ज्या स्थितीत होतं, त्यानुसार तुमची उत्तरं किती वेळा बरोबर आली. लक्षात राहिलेल्या कार्डसाठी हे 10 पैकी साधारण 9 असायला हवं.",
+    "Review a few cards and this fills in: how often you are right, your speed, and your best hour.": "काही कार्डची उजळणी करा म्हणजे हे भरेल: उत्तरं किती वेळा बरोबर येतात, तुमचा वेग आणि तुमची सर्वोत्तम वेळ.",
+    "memory lasts under 2 days": "2 दिवसांपेक्षा कमी लक्षात राहतं",
+    "seen today": "आज पाहिलं",
+    "seen yesterday": "काल पाहिलं",
+    "missed last time": "मागच्या वेळी चुकलं",
+    "missed on 2 of its last 4 days": "शेवटच्या 4 दिवसांपैकी 2 दिवस चुकलं",
+    "not seen for too long": "खूप दिवसांत पाहिलं नाही",
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "आता कार्ड तुमच्या किती काळ लक्षात राहतात यावरून त्यांचं मूल्यमापन होतं. बऱ्याच दिवसांत न पाहिलेली कार्ड तुम्ही पुन्हा उत्तर देईपर्यंत \"सराव हवा\" म्हणून दिसतील."
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ड्रिल"],
@@ -1061,7 +1074,9 @@ LANGAPP_PACKS.i18n.mr = {
     ["^Level up! Level (\\d+) · (.+) 🎉$", "लेव्हल अप! लेव्हल $1 · $2 🎉"],
     ["^Extra practice · (\\d+)\\/(\\d+) learned$", "जादा सराव · $1/$2 शिकलेली"],
     ["^New card · (\\d+)\\/(\\d+) learned$", "नवीन कार्ड · $1/$2 शिकलेली"],
-    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 उजळणीचे · $2/$3 शिकलेली"]
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 उजळणीचे · $2/$3 शिकलेली"],
+    ["^memory lasts about (\\d+) days$", "साधारण $1 दिवस लक्षात राहतं"],
+    ["^seen (\\d+) days ago$", "$1 दिवसांपूर्वी पाहिलं"]
   ],
   road: {
     "Standard (Seoul) Korean": "प्रमाण (सोल) कोरियन",

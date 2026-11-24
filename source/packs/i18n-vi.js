@@ -784,7 +784,20 @@ LANGAPP_PACKS.i18n.vi = {
     "Voice: man. Switch to woman's voice": "Giọng: nam. Chuyển sang giọng nữ",
     "Voice: woman": "Giọng: nữ",
     "Voice: man": "Giọng: nam",
-    "Voice": "Giọng"
+    "Voice": "Giọng",
+    "memorized": "đã thuộc",
+    "needs practice": "cần luyện thêm",
+    "Cards by memory": "Thẻ theo mức ghi nhớ",
+    "Memorized: the app expects you to still know the card a week after your last review. Needs practice: you missed it recently, or it has gone unseen for too long. Learning is everything in between.": "Đã thuộc: ứng dụng dự đoán bạn vẫn nhớ thẻ sau một tuần kể từ lần ôn gần nhất. Cần luyện thêm: gần đây bạn trả lời sai, hoặc đã quá lâu bạn chưa gặp thẻ. Đang học là tất cả những thẻ còn lại.",
+    "How often you were right, by how the card was judged just before you answered. Memorized cards should stay near 9 in 10.": "Tỉ lệ bạn trả lời đúng, tính theo cách thẻ được đánh giá ngay trước khi bạn trả lời. Thẻ đã thuộc nên giữ ở khoảng 9 trên 10.",
+    "Review a few cards and this fills in: how often you are right, your speed, and your best hour.": "Ôn vài thẻ là phần này sẽ có dữ liệu: tỉ lệ bạn trả lời đúng, tốc độ và giờ học hiệu quả nhất của bạn.",
+    "memory lasts under 2 days": "nhớ được dưới 2 ngày",
+    "seen today": "gặp hôm nay",
+    "seen yesterday": "gặp hôm qua",
+    "missed last time": "lần trước trả lời sai",
+    "missed on 2 of its last 4 days": "sai 2 trong 4 ngày gần nhất",
+    "not seen for too long": "quá lâu chưa gặp",
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Giờ đây thẻ được đánh giá theo thời gian bạn nhớ được. Thẻ bạn đã lâu không gặp sẽ hiện là “cần luyện thêm” cho đến khi bạn trả lời lại."
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Kỹ năng"],
@@ -1061,7 +1074,9 @@ LANGAPP_PACKS.i18n.vi = {
     ["^Level up! Level (\\d+) · (.+) 🎉$", "Lên cấp! Cấp $1 · $2 🎉"],
     ["^Extra practice · (\\d+)\\/(\\d+) learned$", "Luyện thêm · đã học $1/$2"],
     ["^New card · (\\d+)\\/(\\d+) learned$", "Thẻ mới · đã học $1/$2"],
-    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 cần ôn · đã học $2/$3"]
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 cần ôn · đã học $2/$3"],
+    ["^memory lasts about (\\d+) days$", "nhớ được khoảng $1 ngày"],
+    ["^seen (\\d+) days ago$", "gặp $1 ngày trước"]
   ],
   road: {
     "Standard (Seoul) Korean": "Tiếng Hàn chuẩn (Seoul)",

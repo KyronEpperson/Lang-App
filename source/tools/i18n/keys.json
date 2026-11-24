@@ -10,9 +10,9 @@
   "d": "text without \"·\", e.g. a deck name inside a \"·\"-separated line"
  },
  "counts": {
-  "exact": 784,
-  "patterns": 275,
-  "distinctPatternTemplates": 274
+  "exact": 797,
+  "patterns": 277,
+  "distinctPatternTemplates": 276
  },
  "exact": [
   {
@@ -523,7 +523,7 @@
    "key": "cards learned",
    "kind": "label",
    "section": "progress (static)",
-   "where": "html <span> text"
+   "where": "js teach() <div>"
   },
   {
    "key": "level",
@@ -548,7 +548,7 @@
    "key": "Cards by box",
    "kind": "label",
    "section": "progress (static)",
-   "where": "html <h3> text"
+   "where": "js STR()"
   },
   {
    "key": "Intervals adapt to your retention (±) ·",
@@ -1921,7 +1921,7 @@
    "key": "🩹 Marked as a leech and parked from sessions. Manage it in Progress.",
    "kind": "sentence",
    "section": "flashcard / review",
-   "where": "js s()"
+   "where": "js n()"
   },
   {
    "key": "↶ Undo",
@@ -1954,14 +1954,14 @@
    "key": "box 3+",
    "kind": "label",
    "section": "flashcard / review",
-   "where": "js spark()",
+   "where": "not verbatim in src/app.html (assembled at runtime)",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
    "key": "mastered",
    "kind": "label",
    "section": "flashcard / review",
-   "where": "js isNew()",
+   "where": "js quizGrade()",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -2351,7 +2351,7 @@
    "key": "tap the words in order",
    "kind": "sentence",
    "section": "quiz / practice flow",
-   "where": "js draw() <div>"
+   "where": "js trainerEn()"
   },
   {
    "key": "Skip",
@@ -2391,7 +2391,7 @@
    "key": "Show rule ↗",
    "kind": "label",
    "section": "quiz / practice flow",
-   "where": "js why() <a>"
+   "where": "js trainerEn()"
   },
   {
    "key": "🔊 Play",
@@ -2404,41 +2404,41 @@
    "key": "Which one did you hear?",
    "kind": "sentence",
    "section": "quiz / practice flow",
-   "where": "js o() <div>"
+   "where": "js trainerEn()"
   },
   {
    "key": "Make it polite (요-form)",
    "kind": "label",
    "section": "quiz / practice flow",
-   "where": "js opts() <div>",
+   "where": "js trainerEn()",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content"
   },
   {
    "key": "Make it casual (반말)",
    "kind": "label",
    "section": "quiz / practice flow",
-   "where": "js opts() <div>",
+   "where": "js trainerEn()",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content"
   },
   {
    "key": "casual → polite: add 요 (or the honorific verb)",
    "kind": "sentence",
    "section": "quiz / practice flow",
-   "where": "js ok()",
+   "where": "js trainerEn()",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content"
   },
   {
    "key": "polite → casual: drop 요",
    "kind": "sentence",
    "section": "quiz / practice flow",
-   "where": "js ok()",
+   "where": "js trainerEn()",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content"
   },
   {
    "key": "How is this actually said?",
    "kind": "sentence",
    "section": "quiz / practice flow",
-   "where": "js opts() <div>"
+   "where": "js trainerEn()"
   },
   {
    "key": "What did B say?",
@@ -2546,7 +2546,7 @@
    "key": "type the sound, e.g. ga",
    "kind": "sentence",
    "section": "quiz / practice flow",
-   "where": "js it() <input> @placeholder"
+   "where": "js trainerEn()"
   },
   {
    "key": "Romanization",
@@ -2559,13 +2559,13 @@
    "key": "Type the sound in English letters (e.g.",
    "kind": "sentence",
    "section": "quiz / practice flow",
-   "where": "js a() <span>"
+   "where": "js trainerEn()"
   },
   {
    "key": "), or type the Hangul itself.",
    "kind": "fragment",
    "section": "quiz / practice flow",
-   "where": "js a()",
+   "where": "js trainerEn()",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing; legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)"
   },
   {
@@ -2668,7 +2668,7 @@
    "key": "Sentence builder",
    "kind": "label",
    "section": "session (Today)",
-   "where": "js mean()"
+   "where": "js mm()"
   },
   {
    "key": "Listening",
@@ -2835,7 +2835,7 @@
    "key": "learned",
    "kind": "label",
    "section": "session (Today)",
-   "where": "html <span> text",
+   "where": "js (top level)",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -3085,7 +3085,7 @@
    "key": "Everyday",
    "kind": "label",
    "section": "session (Today)",
-   "where": "js GROUPS()",
+   "where": "js (top level)",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -3127,7 +3127,7 @@
    "key": "finished",
    "kind": "label",
    "section": "session (Today)",
-   "where": "js k()",
+   "where": "js (top level)",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -3178,14 +3178,14 @@
    "key": "안녕하세요 👋 Two quick questions",
    "kind": "sentence",
    "section": "onboarding / tour / quick actions / search",
-   "where": "js box() <h2>",
+   "where": "js trainerEn()",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content"
   },
   {
    "key": "Can you already read Hangul?",
    "kind": "sentence",
    "section": "onboarding / tour / quick actions / search",
-   "where": "js box() <h3>",
+   "where": "js trainerEn()",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)"
   },
   {
@@ -3206,20 +3206,20 @@
    "key": "Yes, fluently",
    "kind": "label",
    "section": "onboarding / tour / quick actions / search",
-   "where": "js box() <button>"
+   "where": "js trainerEn()"
   },
   {
    "key": "What do you want Korean for?",
    "kind": "sentence",
    "section": "onboarding / tour / quick actions / search",
-   "where": "js box() <h3>",
+   "where": "js trainerEn()",
    "context": "legacy wording: \"Korean\"/\"Hangul\"/\"romanization\" refer to the language being learned and its pronunciation aid; for <lang>-en courses say English / pronunciation (ko renders \"Korean\" as 영어)"
   },
   {
    "key": "How much time a day?",
    "kind": "sentence",
    "section": "onboarding / tour / quick actions / search",
-   "where": "js tn() <h3>"
+   "where": "js trainerEn()"
   },
   {
    "key": "2 min",
@@ -3379,13 +3379,13 @@
    "key": "Settings · Progress",
    "kind": "label",
    "section": "onboarding / tour / quick actions / search",
-   "where": "js at()"
+   "where": "js q()"
   },
   {
    "key": "Backup · export / import",
    "kind": "sentence",
    "section": "onboarding / tour / quick actions / search",
-   "where": "js at()"
+   "where": "js q()"
   },
   {
    "key": "Grammar index",
@@ -3403,7 +3403,7 @@
    "key": "Actions",
    "kind": "label",
    "section": "onboarding / tour / quick actions / search",
-   "where": "js at()",
+   "where": "js q()",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -3535,7 +3535,7 @@
    "key": "Enter a dictionary form ending in 다.",
    "kind": "sentence",
    "section": "lessons / grammar",
-   "where": "js r() <p>",
+   "where": "js trainerEn()",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content"
   },
   {
@@ -3568,7 +3568,7 @@
    "key": "don't (request)",
    "kind": "label",
    "section": "lessons / grammar",
-   "where": "js row()"
+   "where": "js trainerEn()"
   },
   {
    "key": "No pattern matches.",
@@ -3580,7 +3580,7 @@
    "key": "dictionary form, e.g. 먹다",
    "kind": "label",
    "section": "lessons / grammar",
-   "where": "js rows() <input> @placeholder",
+   "where": "js trainerEn()",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content"
   },
   {
@@ -3594,14 +3594,14 @@
    "key": "Conjugate",
    "kind": "label",
    "section": "lessons / grammar",
-   "where": "js rows() <button>",
+   "where": "js trainerEn()",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
    "key": "Words from dialogues",
    "kind": "label",
    "section": "lessons / grammar",
-   "where": "js rows() <b>"
+   "where": "js m()"
   },
   {
    "key": "· vocabulary that appears in dialogues but has no card yet",
@@ -3621,20 +3621,20 @@
    "key": "Try 가다 · 먹다 · 하다 · 마시다 · 예쁘다 · 듣다 · 돕다 · 살다 · 모르다",
    "kind": "sentence",
    "section": "lessons / grammar",
-   "where": "js rows() <p>",
+   "where": "js trainerEn()",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content"
   },
   {
    "key": "(question word)",
    "kind": "label",
    "section": "lessons / grammar",
-   "where": "js toks()"
+   "where": "js trainerEn()"
   },
   {
    "key": "counter ·",
    "kind": "fragment",
    "section": "lessons / grammar",
-   "where": "js toks()",
+   "where": "js trainerEn()",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing"
   },
   {
@@ -3648,7 +3648,7 @@
    "key": "noun / word",
    "kind": "label",
    "section": "lessons / grammar",
-   "where": "js stem()"
+   "where": "js trainerEn()"
   },
   {
    "key": "number",
@@ -3661,49 +3661,49 @@
    "key": "verb stem + 지",
    "kind": "label",
    "section": "lessons / grammar",
-   "where": "js toks()",
+   "where": "js trainerEn()",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content"
   },
   {
    "key": "verb + 도 (even if)",
    "kind": "sentence",
    "section": "lessons / grammar",
-   "where": "js toks()",
+   "where": "js trainerEn()",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content"
   },
   {
    "key": "+ 요 (polite)",
    "kind": "label",
    "section": "lessons / grammar",
-   "where": "js stem()",
+   "where": "js trainerEn()",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content"
   },
   {
    "key": "verb · past (았/었어요)",
    "kind": "label",
    "section": "lessons / grammar",
-   "where": "js stem()",
+   "where": "js trainerEn()",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content"
   },
   {
    "key": "don't (지 마)",
    "kind": "label",
    "section": "lessons / grammar",
-   "where": "js toks()",
+   "where": "js trainerEn()",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content"
   },
   {
    "key": "is it okay? (-아/어도 돼요)",
    "kind": "sentence",
    "section": "lessons / grammar",
-   "where": "js toks()",
+   "where": "js trainerEn()",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content"
   },
   {
    "key": "not okay? (-(으)면 안 돼요)",
    "kind": "sentence",
    "section": "lessons / grammar",
-   "where": "js toks()",
+   "where": "js trainerEn()",
    "context": "key mixes Korean and English (legacy en-ko wording); translate the English part, keep the Korean only if it is the course content"
   },
   {
@@ -3766,13 +3766,13 @@
    "key": "Review a few cards and this fills in: retention by box, speed, and your best hour.",
    "kind": "sentence",
    "section": "progress (JS)",
-   "where": "js el() <p>"
+   "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   {
    "key": "Retention when a card comes back from each box. Higher boxes should stay high; a dip means the interval there is too long for you.",
    "kind": "sentence",
    "section": "progress (JS)",
-   "where": "js overall() <p>"
+   "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   {
    "key": "now",
@@ -4377,7 +4377,7 @@
    "key": "coming soon",
    "kind": "label",
    "section": "new engine strings (language home / course switcher / ko-en drills)",
-   "where": "js LANGS()",
+   "where": "js (top level)",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -4391,7 +4391,7 @@
    "key": "Courses",
    "kind": "label",
    "section": "new engine strings (language home / course switcher / ko-en drills)",
-   "where": "js register()",
+   "where": "js tagL()",
    "context": "heading: course list"
   },
   {
@@ -5420,6 +5420,86 @@
    "section": "added",
    "where": "js id()",
    "context": "settings label (Progress options) in front of the Woman's voice / Man's voice chips: which recorded voice plays"
+  },
+  {
+   "key": "memorized",
+   "kind": "label",
+   "section": "added",
+   "where": "html <span> text",
+   "context": "short UI label (button, chip or heading); keep it short"
+  },
+  {
+   "key": "needs practice",
+   "kind": "label",
+   "section": "added",
+   "where": "js mjWhy()"
+  },
+  {
+   "key": "Cards by memory",
+   "kind": "label",
+   "section": "added",
+   "where": "html <h3> text"
+  },
+  {
+   "key": "Memorized: the app expects you to still know the card a week after your last review. Needs practice: you missed it recently, or it has gone unseen for too long. Learning is everything in between.",
+   "kind": "sentence",
+   "section": "added",
+   "where": "js mt()"
+  },
+  {
+   "key": "How often you were right, by how the card was judged just before you answered. Memorized cards should stay near 9 in 10.",
+   "kind": "sentence",
+   "section": "added",
+   "where": "js overall() <p>"
+  },
+  {
+   "key": "Review a few cards and this fills in: how often you are right, your speed, and your best hour.",
+   "kind": "sentence",
+   "section": "added",
+   "where": "js el() <p>"
+  },
+  {
+   "key": "memory lasts under 2 days",
+   "kind": "sentence",
+   "section": "added",
+   "where": "js L()"
+  },
+  {
+   "key": "seen today",
+   "kind": "label",
+   "section": "added",
+   "where": "js L()",
+   "context": "short UI label (button, chip or heading); keep it short"
+  },
+  {
+   "key": "seen yesterday",
+   "kind": "label",
+   "section": "added",
+   "where": "js L()"
+  },
+  {
+   "key": "missed last time",
+   "kind": "label",
+   "section": "added",
+   "where": "js mjWhy()"
+  },
+  {
+   "key": "missed on 2 of its last 4 days",
+   "kind": "sentence",
+   "section": "added",
+   "where": "js mjWhy()"
+  },
+  {
+   "key": "not seen for too long",
+   "kind": "sentence",
+   "section": "added",
+   "where": "js MEM_T0()"
+  },
+  {
+   "key": "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.",
+   "kind": "sentence",
+   "section": "added",
+   "where": "js nb() <span>"
   }
  ],
  "patterns": [
@@ -9887,6 +9967,34 @@
    "example": "5 due · 2/3 learned",
    "section": "flashcard / review",
    "context": "review status line: cards still due in this queue · learned/total in this deck; count slot: the translation must read correctly at 1 and at 2+"
+  },
+  {
+   "id": "memory lasts about {n} days",
+   "template": "memory lasts about {n} days",
+   "slots": [
+    {
+     "n": 1,
+     "type": "n"
+    }
+   ],
+   "regex": "^memory lasts about (\\d+) days$",
+   "example": "memory lasts about 5 days",
+   "section": "added",
+   "context": "count slot: the translation must read correctly at 1 and at 2+"
+  },
+  {
+   "id": "seen {n} days ago",
+   "template": "seen {n} days ago",
+   "slots": [
+    {
+     "n": 1,
+     "type": "n"
+    }
+   ],
+   "regex": "^seen (\\d+) days ago$",
+   "example": "seen 5 days ago",
+   "section": "added",
+   "context": "count slot: the translation must read correctly at 1 and at 2+"
   }
  ]
 }

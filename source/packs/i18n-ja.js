@@ -784,7 +784,20 @@ LANGAPP_PACKS.i18n.ja = {
     "Voice: man. Switch to woman's voice": "声：男性。女性の声に切り替える",
     "Voice: woman": "声：女性",
     "Voice: man": "声：男性",
-    "Voice": "声"
+    "Voice": "声",
+    "memorized": "暗記済み",
+    "needs practice": "要練習",
+    "Cards by memory": "記憶の状態別カード",
+    "Memorized: the app expects you to still know the card a week after your last review. Needs practice: you missed it recently, or it has gone unseen for too long. Learning is everything in between.": "暗記済み：最後の復習から1週間たっても覚えていると見込まれるカードです。要練習：最近間違えたか、長いあいだ見ていないカードです。学習中：そのあいだにあるすべてのカードです。",
+    "How often you were right, by how the card was judged just before you answered. Memorized cards should stay near 9 in 10.": "答える直前のカードの状態ごとの正答率です。暗記済みのカードは10回中9回ほど正解できるのが目安です。",
+    "Review a few cards and this fills in: how often you are right, your speed, and your best hour.": "カードをいくつか復習すると、正答率、スピード、いちばん調子のいい時間帯がここに表示されます。",
+    "memory lasts under 2 days": "記憶の持続：2日未満",
+    "seen today": "今日出題",
+    "seen yesterday": "昨日出題",
+    "missed last time": "前回ミス",
+    "missed on 2 of its last 4 days": "直近4日のうち2日でミス",
+    "not seen for too long": "長いあいだ出題なし",
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "カードは、どれだけ長く覚えていられるかで判定されるようになりました。長いあいだ見ていないカードは、もう一度答えるまで「要練習」と表示されます。"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ドリル"],
@@ -1061,7 +1074,9 @@ LANGAPP_PACKS.i18n.ja = {
     ["^Level up! Level (\\d+) · (.+) 🎉$", "レベルアップ！レベル$1 · $2 🎉"],
     ["^Extra practice · (\\d+)\\/(\\d+) learned$", "追加練習 · $1/$2枚を覚えた"],
     ["^New card · (\\d+)\\/(\\d+) learned$", "新しいカード · $1/$2枚を覚えた"],
-    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "復習予定$1枚 · $2/$3枚を覚えた"]
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "復習予定$1枚 · $2/$3枚を覚えた"],
+    ["^memory lasts about (\\d+) days$", "記憶の持続：約$1日"],
+    ["^seen (\\d+) days ago$", "$1日前に出題"]
   ],
   road: {
     "Standard (Seoul) Korean": "標準語（ソウル）の韓国語",

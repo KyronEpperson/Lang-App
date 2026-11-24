@@ -784,7 +784,20 @@ LANGAPP_PACKS.i18n.es = {
     "Voice: man. Switch to woman's voice": "Voz: hombre. Cambiar a voz de mujer",
     "Voice: woman": "Voz: mujer",
     "Voice: man": "Voz: hombre",
-    "Voice": "Voz"
+    "Voice": "Voz",
+    "memorized": "memorizadas",
+    "needs practice": "por practicar",
+    "Cards by memory": "Tarjetas según tu memoria",
+    "Memorized: the app expects you to still know the card a week after your last review. Needs practice: you missed it recently, or it has gone unseen for too long. Learning is everything in between.": "Memorizadas: la app espera que sigas sabiendo la tarjeta una semana después de tu último repaso. Por practicar: la fallaste hace poco o llevas demasiado tiempo sin verla. Aprendiendo es todo lo que queda en medio.",
+    "How often you were right, by how the card was judged just before you answered. Memorized cards should stay near 9 in 10.": "Con qué frecuencia acertaste, según cómo estaba clasificada la tarjeta justo antes de responder. Las memorizadas deberían mantenerse cerca de 9 de cada 10.",
+    "Review a few cards and this fills in: how often you are right, your speed, and your best hour.": "Repasa algunas tarjetas y esto se completará: con qué frecuencia aciertas, tu velocidad y tu mejor hora.",
+    "memory lasts under 2 days": "la memoria dura menos de 2 días",
+    "seen today": "vista hoy",
+    "seen yesterday": "vista ayer",
+    "missed last time": "fallada la última vez",
+    "missed on 2 of its last 4 days": "fallada en 2 de sus últimos 4 días",
+    "not seen for too long": "demasiado tiempo sin verla",
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Ahora las tarjetas se valoran por cuánto tiempo las recuerdas. Las que llevas mucho tiempo sin ver aparecen como «por practicar» hasta que vuelvas a responderlas."
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Ejercicios"],
@@ -1061,7 +1074,9 @@ LANGAPP_PACKS.i18n.es = {
     ["^Level up! Level (\\d+) · (.+) 🎉$", "¡Subiste de nivel! Nivel $1 · $2 🎉"],
     ["^Extra practice · (\\d+)\\/(\\d+) learned$", "Práctica extra · $1/$2 aprendidas"],
     ["^New card · (\\d+)\\/(\\d+) learned$", "Tarjeta nueva · $1/$2 aprendidas"],
-    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "Pendientes: $1 · $2/$3 aprendidas"]
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "Pendientes: $1 · $2/$3 aprendidas"],
+    ["^memory lasts about (\\d+) days$", "la memoria dura unos $1 días"],
+    ["^seen (\\d+) days ago$", "vista hace $1 días"]
   ],
   road: {
     "Standard (Seoul) Korean": "Coreano estándar (de Seúl)",

@@ -784,7 +784,20 @@ LANGAPP_PACKS.i18n.hi = {
     "Voice: man. Switch to woman's voice": "आवाज़: पुरुष। महिला की आवाज़ पर जाएँ",
     "Voice: woman": "आवाज़: महिला",
     "Voice: man": "आवाज़: पुरुष",
-    "Voice": "आवाज़"
+    "Voice": "आवाज़",
+    "memorized": "याद हो गए",
+    "needs practice": "अभ्यास चाहिए",
+    "Cards by memory": "याददाश्त के हिसाब से कार्ड",
+    "Memorized: the app expects you to still know the card a week after your last review. Needs practice: you missed it recently, or it has gone unseen for too long. Learning is everything in between.": "याद हो गए: ऐप का अंदाज़ा है कि पिछले दोहराव के एक हफ़्ते बाद भी आपको कार्ड याद रहेगा। अभ्यास चाहिए: हाल में जवाब ग़लत हुआ, या कार्ड बहुत समय से नहीं देखा गया। सीखते हुए: बाक़ी सब कार्ड।",
+    "How often you were right, by how the card was judged just before you answered. Memorized cards should stay near 9 in 10.": "जवाब देने से ठीक पहले कार्ड जिस स्थिति में था, उसके हिसाब से आपके सही जवाबों का हिस्सा। याद हो गए कार्ड में यह 10 में से क़रीब 9 रहना चाहिए।",
+    "Review a few cards and this fills in: how often you are right, your speed, and your best hour.": "कुछ कार्ड दोहराएँ, तो यह भर जाएगा: आप कितनी बार सही होते हैं, आपकी गति और आपका सबसे अच्छा घंटा।",
+    "memory lasts under 2 days": "याद 2 दिन से कम टिकती है",
+    "seen today": "आज देखा",
+    "seen yesterday": "कल देखा",
+    "missed last time": "पिछली बार ग़लत",
+    "missed on 2 of its last 4 days": "पिछले 4 दिनों में से 2 दिन ग़लत",
+    "not seen for too long": "बहुत समय से नहीं देखा",
+    "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "अब कार्ड इस आधार पर परखे जाते हैं कि वे आपको कितने समय तक याद रहते हैं। जो कार्ड आपने लंबे समय से नहीं देखे, वे दोबारा जवाब देने तक \"अभ्यास चाहिए\" में दिखेंगे।"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ड्रिल"],
@@ -1061,7 +1074,9 @@ LANGAPP_PACKS.i18n.hi = {
     ["^Level up! Level (\\d+) · (.+) 🎉$", "लेवल अप! लेवल $1 · $2 🎉"],
     ["^Extra practice · (\\d+)\\/(\\d+) learned$", "अतिरिक्त अभ्यास · सीखे गए: $1/$2"],
     ["^New card · (\\d+)\\/(\\d+) learned$", "नया कार्ड · सीखे गए: $1/$2"],
-    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "दोहराने हैं: $1 · सीखे गए: $2/$3"]
+    ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "दोहराने हैं: $1 · सीखे गए: $2/$3"],
+    ["^memory lasts about (\\d+) days$", "याद क़रीब $1 दिन टिकती है"],
+    ["^seen (\\d+) days ago$", "$1 दिन पहले देखा"]
   ],
   road: {
     "Standard (Seoul) Korean": "मानक (सियोल) कोरियाई",
