@@ -20,7 +20,7 @@ Standing rules: Supabase publishable key only; never open, print or commit secre
 - Dialect and variety choices: ask once when it decides every card, otherwise decide and say so.
 - Replies: brief, bullets, direct. Visuals as PNG.
 
-## Released (through 2.95.0)
+## Released (through 2.96.0)
 
 Yesterday and today: ur-en, pa-en (2.78.0); yue-en in written Cantonese (2.79.0); te-en with bundled Noto Sans Telugu (2.80.0); yue-ko (2.81.0); kn-en (2.82.0); release report + audio coverage on every release (2.83.0); en-hmn (2.84.0); new cards flip on tap (2.85.0); hmn-en + Hmong interface (2.86.0).
 
@@ -35,6 +35,10 @@ Yesterday and today: ur-en, pa-en (2.78.0); yue-en in written Cantonese (2.79.0)
 2.94.0 (2026-11-24): the **stroke-order grid** labels read "letter - romanization" (ㄱ - g/k, ㅇ - silent/ng; owner: "hangul - romanji above the picture"). One helper, `sglLabel` in `src/app.html`, serves the built-in lesson and the `{{strokes:…}}` token of the x-ko packs; the romanization part is not translated. Checked by guard `lessonRom`. Edit script: `tools/patches/stroke_rom.py`.
 
 2.95.0 (2026-11-24): **the pause scene waits 60 s on desktop** (owner: "the timer before the card animations on the desktop is a little too quick. can we double the time"). `idleMs` in `src/app.html` is 60000 when the main pointer is not a finger (`(pointer:coarse)` false) and stays 30000 on phones and tablets (they auto-lock at about 30 s). Guard `idleDesktop` in `harness.js`; edit script `tools/patches/idle_desktop.py`. Reading taken: "card animations" = the word cards that fly in after no input; no other timer was changed.
+
+2.96.0 (2026-11-24): **a "Next lesson" button at the bottom of every lesson, in every course** (owner: "at the bottom of each lesson it should have a button to go to the next lesson"). Before, the button appeared only once the lesson was done (quick check and mini drill both passed), and above the practice set. Now `nextCta` in `src/app.html` always draws it, as the last thing in the lesson (under the practice set) and on the practice-done screen: green and ticked once the lesson is done, plain before. Owner default taken: it opens the next lesson even when this one is not finished, and a lesson opened that way stays open in the list (`S.seen`, read by `lessonUnlocked`); nothing else unlocks and the lesson still only counts as done after the quick check and the drill. The labels are resolved with `LL` (they were never translated on the practice-done screen, which is `data-noi18n`); Korean wording 다음 수업 / 수업 열기. The last lesson shows nothing until it is done. Guard `nextLessonBtn` in `harness.js`; edit script `tools/patches/next_lesson.py`.
+
+Hangul letter count (owner asked "are there only 14 hangul" on seeing "Practice · 14", which is the number of practice items): checked, all 40 letters are on cards. `Hangul vowels` has the 10 basic vowels plus ㅐ ㅔ; `Hangul consonants` the 14 basic consonants; `Hangul · advanced` the 5 doubles and the other 9 combined vowels. Two cards carry a pair (ㅙ / ㅞ and ㅒ / ㅖ); they were left as they are because the x-ko packs translate these cards by their front. en-ko lesson 1 gained a "How many letters are there?" box (40, and which deck holds which). The x-ko lesson 1 texts do not have that box.
 
 Same gap, not fixed (audit 2026-11-24): all 15 courses with a non-Latin target for Latin-script learners (en-am, ar, bn, hi, ja, kn, nan, pa, ru, te, th, ur, yue, zh, and vi-zh) show the target script bare in lesson prose, tables and quizzes: about 800 to 1,700 runs per course in lesson bodies and 350 to 900 in quick checks. They have no `romanize()`; the fix is a word → reading table built from each course's own cards and example lines (plus a list of what it cannot cover), then the same `<ruby>` rendering. Not started.
 
