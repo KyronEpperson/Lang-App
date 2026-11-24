@@ -26,15 +26,11 @@ Yesterday and today: ur-en, pa-en (2.78.0); yue-en in written Cantonese (2.79.0)
 
 2.88.0 (new chat, 2026-11-24): **Puerto Rican Spanish for English speakers (`en-espr`)** and **English for Puerto Rican speakers (`spr-en`)**. Ten writers (nine opus, interface on sonnet: zero overrides needed), two opus cold reviews (`tools/target/espr/REVIEW.md` 14 edits, `tools/content/spr/REVIEW.md` 5 edits), e2e over all 29 + 43 lessons. Owner defaults taken: code `spr` kept, share-card word "Puerto Rico", Puerto Rican learners offered English only. `packs/HELD.txt` is now mirrored by `ship.sh` (it was missing from the repository). Vietnamese roadmap title aligned to *Lượng từ*.
 
-## Ready to launch (stage 1 done; nothing below is released; packs are in `packs/HELD.txt`)
+2.89.0 (2026-11-24): **Mandarin for Vietnamese speakers (`vi-zh`)**, the first assembled course with a non-Korean target. Four opus writers, one merge, opus cold review (`tools/halves/native/vi/zh/REVIEW.md`: 496 Hán Việt readings checked on opened pages, 0 corrected, 2 added, 0 unverified; 122 row fixes), e2e over all 28 lessons (`E2E_COURSE=vi-zh node tools/content/e2e_en.js vi <ids>`). en-zh: 咱们 now accepted on `ba-bie.12` / `.13` (target half re-exported with `--accept-moved`; proof and Korean packs byte-identical). Still `skip` (no reading shown): 苹果, 矮, 比较, 眼睛, 有空, pronouns.
 
-The coming-soon languages (`ta gu ml my jv wuu`, with names under the flag tiles) went out in 2.87.0.
+## Ready to launch
 
-1. **Mandarin for Vietnamese speakers (`vi-zh`)**. Lead note: `docs/briefs/vi-zh-lead.md` (launch lines, check commands); design `docs/briefs/vi-zh-design.md`; profile `docs/profiles/vi-zh.md`.
-   - Reusable Mandarin half `tools/halves/target/zh/` (886 cards, 31 decks, 28 lessons, 392 practice); tools generalised (`export_target.js`, `mk_native.js <l> --target zh`, `assemble.js vi zh`, `validate.js vi zh`, `dryrun.js`); all released Korean packs re-assemble byte-identically.
-   - Next: launch writers w1–w4 [opus] (brief `docs/briefs/vi-zh-writer.md`; w1 also fills the 12 interface strings in `wU.jsonl`), then `mk_native.js vi --target zh --merge` ONCE, `validate.js vi zh --all`, reviewer [opus] (`vi-zh-review.md`; must re-check every Hán Việt reading by lookup: the tools check shape only), `assemble.js vi zh packs/course-vi-zh.js`, remove from HELD, release.
-   - Align one term first: profile says *lượng từ*, the Vietnamese roadmap file says *Loại từ*.
-2. Puerto Rican courses: RELEASED in 2.88.0 (see above).
+Nothing staged: `vi-zh`, `en-espr` and `spr-en` are released (2.88.0, 2.89.0). `packs/HELD.txt` is empty. Next is the queue below.
 
 Follow-ups these two setups found: other English-speaker courses without their own praise words show Korean praise on the session-done screen (about 18 courses); `zhNorm` should accept the Vietnamese hỏi mark typed by a VNI keyboard; the grammar-search placeholder shows a Korean example in every course; pattern `我在___工作。` is duplicated in en-zh (`zh.p018`, `zh.p022`). From the Puerto Rican reviews, wrong in the live standard-Spanish courses too: es-en `email#11` (explanation conflicts with its accepted *have* answers), `first-conditional#11`, `passive#11` and `false-friends#13` (typed prompts with no cue reject a correct answer); en-es `decks-t2` *yo* note is fine for en-es but check the `se` item accepting *Se rentan departamentos*. Not confirmed by any source: *coger la guagua* (only *tomar* is accepted).
 
@@ -49,6 +45,10 @@ Follow-ups these two setups found: other English-speaker courses without their o
 5. Dominican Spanish (profile exists: `docs/profiles/en-esdo.md`); English → X from Romanian onward.
 
 ## Known gaps and follow-ups
+
+- Model routing evidence from this batch (docs/MODEL-ROUTING.md §6 step 3): reviewer edits per role were spr-en A 1, B 1, C 3, D 0 (opus), interface 0 (sonnet, zero overrides); en-espr 14 edits over five opus writers; vi-zh w1 5, w2 9, w3 7, w4 3 content rows (opus). Writer usage ran 140–460k tokens; the two vi-zh card writers were highest because of per-character lookups (w2 could not reach hvdic.thivien.net and used a Wiktionary mirror; the reviewer reached hvdic).
+- vi-zh, for a native Vietnamese reader when one is available: `tools/halves/native/vi/zh/REVIEW.md` top-ten (安静 «yên tĩnh» vs «an tĩnh», *ngài* for 您, bare-adjective glosses of 很, «đã … rồi»).
+- The live site was not re-verified from this chat after 2.88.0 / 2.89.0 (web fetch of lang-app.io was not approved).
 
 - Audio: about 7,700 sentences across ko fr it pt th vi zh ar have no recorded clip (see `docs/AUDIO-COVERAGE.md`); the owner runs `node source/tools/audio/gen_elevenlabs.js <lang> --gender=f|m` from his terminal. Hmong has no voice at all; a 20-clip ElevenLabs trial was offered, not answered.
 - 48 older planned languages show English where Korean roadmap titles should be (sonnet job; the tool now supports real Korean).

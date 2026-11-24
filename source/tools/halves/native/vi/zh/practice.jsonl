@@ -1,0 +1,392 @@
+{"id":"pinyin.01","q":"Chữ cái pinyin nào đọc gần «ch» (cha) của tiếng Việt?","why":"q gần «ch» (cha), bật hơi; x gần «x» nhưng mặt lưỡi phẳng sau răng dưới; c là «ts» bật hơi."}
+{"id":"pinyin.02","q":"Měiguórén (美国人, người Mỹ) có mấy âm tiết?","o":["ba","một","hai","bốn"],"why":"Một chữ Hán là một âm tiết: 美, 国 và 人 là ba âm tiết viết liền thành một từ."}
+{"id":"pinyin.03","q":"Thanh mẫu nào bật hơi mạnh?","why":"p, t và k bật hơi mạnh như «th»; b, d và g không bật hơi, như «p», «t», «c» của tiếng Việt."}
+{"id":"pinyin.04","q":"Chữ ü trong 绿 (lǜ, màu xanh lá) đọc thế nào?","o":["Nói «i» với môi tròn","Như «u» trong «thu»","Như «uy» trong «tuy»","Như «ơ» trong «thơ»"],"why":"ü là âm «i» nói với môi tròn như khi nói «u»; không phải «uy»."}
+{"id":"pinyin.05","q":"Chữ e trong 喝 (hē, uống) đọc thế nào?","o":["Gần «ơ» trong «hơ»","Như «e» trong «xe»","Như «i» trong «đi»","Như «ây» trong «mây»"],"why":"Pinyin e đứng một mình đọc gần «ơ»: hē gần «hơ», không phải «e» của tiếng Việt."}
+{"id":"pinyin.06","p":"你好 (xin chào) bằng pinyin","why":"Pinyin viết nǐ với dấu thanh 3, hǎo cũng vậy."}
+{"id":"pinyin.07","p":"谢谢 (cảm ơn) bằng pinyin, mỗi ô một âm tiết","why":"xiè mang dấu thanh 4; xie thứ hai là thanh nhẹ nên không có dấu."}
+{"id":"pinyin.08","p":"中文 (tiếng Trung) bằng pinyin, mỗi ô một âm tiết","why":"Từ này bắt đầu bằng zh, đầu lưỡi cong lên; z sẽ là một âm tiết khác."}
+{"id":"pinyin.09","p":"đi","why":"去 bắt đầu bằng q, gần «ch» (cha) bật hơi."}
+{"id":"pinyin.10","p":"màu xanh lá","why":"绿 là lǜ: ü với dấu thanh 4. Bỏ hai chấm thì lù là một âm tiết khác."}
+{"id":"pinyin.11","p":"là","why":"是 là shì với dấu thanh 4: giọng đi xuống."}
+{"id":"pinyin.12","p":"Gõ pinyin của 你 (bạn)","hint":"thanh 3 · dùng hàng phím dấu thanh","why":"你 là nǐ với dấu thanh 3: giọng thấp."}
+{"id":"pinyin.13","p":"Gõ pinyin của 八 (tám)","hint":"thanh 1 · dùng hàng phím dấu thanh","why":"八 là bā với thanh 1: cao và bằng."}
+{"id":"pinyin.14","p":"Gõ pinyin của 去 (đi)","hint":"q + u · chữ u sau q thực ra là ü","why":"Sau q, u thực ra là ü nhưng không viết hai chấm: qù."}
+{"id":"tones.01","q":"Dấu thanh nào chỉ một thanh đi xuống?","why":"Dấu thanh 4 (à) chúc xuống: giọng rơi xuống. Đừng đọc nó như dấu huyền."}
+{"id":"tones.02","q":"Từ nào là mǎi (mua)?","why":"买 là mǎi; 卖 (mài) là bán."}
+{"id":"tones.03","q":"Pinyin của 糖 (đường) là gì?","why":"糖 đi lên: táng. tāng, thanh cao và bằng, là canh."}
+{"id":"tones.04","q":"Trong 妈妈 (mẹ), chữ 妈 thứ hai mang thanh gì?","o":["Thanh nhẹ","Thanh 1","Thanh 3","Thanh 4"],"why":"Âm tiết thứ hai của 妈妈 ngắn và nhẹ: nó không có dấu thanh."}
+{"id":"tones.05","q":"马 (mǎ) nghĩa là gì?","o":["ngựa","mẹ","mắng","tê"],"why":"马 thanh 3 là ngựa; mā là mẹ, mà là mắng."}
+{"id":"tones.06","p":"买马 (mua ngựa) bằng pinyin","why":"买 (mǎi) mang thanh 3; mài, thanh 4, nghĩa là bán."}
+{"id":"tones.07","p":"妈妈 (mẹ) bằng pinyin, mỗi ô một âm tiết","why":"Chữ 妈 đầu mang thanh 1; chữ thứ hai mang thanh nhẹ, không có dấu."}
+{"id":"tones.08","p":"很快 (rất nhanh) bằng pinyin","why":"Một cặp thanh: thanh 3 ở hěn, rồi thanh 4 ở kuài."}
+{"id":"tones.09","p":"ngựa","why":"马 mang thanh 3: mǎ. mā là mẹ, mà là mắng."}
+{"id":"tones.10","p":"canh","why":"汤 mang thanh 1, cao và bằng: tāng. táng là đường."}
+{"id":"tones.11","p":"bán","why":"卖 mang thanh 4: mài. mǎi là mua."}
+{"id":"tones.12","p":"Gõ pinyin của 卖 (bán)","hint":"thanh 4 · dùng hàng phím dấu thanh","why":"卖 mang thanh 4: rơi xuống. mǎi là mua."}
+{"id":"tones.13","p":"Gõ pinyin của 糖 (đường)","hint":"thanh 2 · dùng hàng phím dấu thanh","why":"糖 mang thanh 2: đi lên. tāng là canh."}
+{"id":"tones.14","p":"Gõ pinyin của 妈 (mẹ)","hint":"thanh 1 · dùng hàng phím dấu thanh","why":"妈 mang thanh 1: cao và bằng. mǎ là ngựa."}
+{"id":"tone-change.01","q":"Pinyin của 不是 (không phải) là gì?","why":"不 trước thanh 4 chuyển thành thanh 2: bú shì."}
+{"id":"tone-change.02","q":"Người Trung Quốc đọc 你好 (xin chào) thế nào?","o":["ní hǎo, âm tiết đầu đi lên","nǐ hǎo, cả hai xuống rồi lên đầy đủ","nǐ hào, âm tiết sau đi xuống","nì hǎo, âm tiết đầu đi xuống"],"why":"Thanh 3 đầu tiên trong hai thanh 3 đọc như thanh 2; pinyin vẫn viết nǐ hǎo."}
+{"id":"tone-change.03","q":"Pinyin của 一个人 (một người) là gì?","why":"个 được tính như thanh 4, nên 一 đứng trước nó chuyển thành thanh 2: yí ge."}
+{"id":"tone-change.04","q":"Trong cụm nào 不 đọc bù, giữ thanh 4?","why":"Trước thanh 3 (hǎo), 不 giữ thanh 4: bù hǎo."}
+{"id":"tone-change.05","q":"Khi nào 一 giữ thanh 1, yī?","o":["Khi đếm: yī, èr, sān","Trước thanh 4","Trước 个","Trước thanh 1"],"why":"Khi đếm, khi đứng cuối một số lớn hơn (十一) và sau 第, 一 vẫn là yī."}
+{"id":"tone-change.06","p":"不是 (không phải) bằng pinyin","why":"Biến điệu: 不 trước thanh 4 là bú."}
+{"id":"tone-change.07","p":"一个人 (một người) bằng pinyin","why":"一 trước 个 mang thanh 2: yí ge rén."}
+{"id":"tone-change.08","p":"不好 (không tốt) bằng pinyin","why":"Trước thanh 3, 不 giữ thanh 4: bù hǎo."}
+{"id":"tone-change.09","p":"không có gì (đáp lời cảm ơn)","why":"客 mang thanh 4, nên 不 chuyển thành thanh 2: bú kèqi."}
+{"id":"tone-change.10","p":"cùng nhau","why":"Trước thanh 3 (qǐ), 一 đọc là yì: yìqǐ."}
+{"id":"tone-change.11","p":"thứ nhất","why":"Sau 第, 一 giữ thanh 1: dìyī."}
+{"id":"tone-change.12","p":"Gõ pinyin của 不客气 (không có gì)","hint":"hai từ · 不 đổi thanh trước thanh 4","why":"Biến điệu: 不 trước thanh 4 là bú, nên viết bú kèqi."}
+{"id":"tone-change.13","p":"một người (viết bằng chữ Hán)","hint":"个 đứng giữa số và danh từ","why":"Sau số phải có lượng từ trước danh từ: 一个人."}
+{"id":"tone-change.14","p":"Gõ pinyin của 你好 (xin chào), theo cách viết","hint":"hai từ · pinyin ghi thanh gốc trong từ điển","why":"Pinyin ghi dấu thanh 3 trên cả hai chữ: nǐ hǎo, dù bạn đọc là ní hǎo."}
+{"id":"characters.01","q":"Chữ nào bắt đầu từ hình vẽ một cái cây?","why":"木 là cái cây có rễ; hai chữ 木 thành 林, rừng."}
+{"id":"characters.02","q":"好 (tốt) gồm 女 và 子. Chúng nghĩa là gì?","o":["phụ nữ và đứa con","mặt trời và mặt trăng","người và cây","miệng và nước"],"why":"女 là phụ nữ, 子 là đứa con: ghép lại thành tốt."}
+{"id":"characters.03","q":"Phần nào của 汤 (canh) gợi ý về nghĩa?","o":["氵 bên trái, nghĩa là nước","Bên phải, phần ghi âm","Nét trên cùng","Không phần nào: chữ Hán không có gợi ý"],"why":"Ba chấm bên trái (氵) đánh dấu những từ liên quan đến nước."}
+{"id":"characters.04","q":"Pinyin của 好 (tốt) là gì?","why":"好 (tốt) mang thanh 3: hǎo."}
+{"id":"characters.05","q":"明 (sáng) là 日 + 月. Đó là gì?","o":["mặt trời và mặt trăng","hai cái cây","một người và một cái cây","cái miệng và cái cửa"],"why":"日 là mặt trời, 月 là mặt trăng: ghép lại thành sáng."}
+{"id":"characters.06","p":"người tốt (bằng chữ Hán)","why":"Từ bổ nghĩa đứng trước danh từ, ngược với tiếng Việt: 好人, người tốt."}
+{"id":"characters.07","p":"好人 (người tốt) bằng pinyin","why":"好 mang dấu thanh 3: hǎo rén."}
+{"id":"characters.08","p":"núi lớn (bằng chữ Hán; 大 = lớn)","why":"Từ bổ nghĩa đứng trước danh từ: 大山, núi lớn."}
+{"id":"characters.09","p":"mặt trời + mặt trăng = sáng","why":"Mặt trời và mặt trăng ghép lại thành 明, sáng."}
+{"id":"characters.10","p":"cây + cây = rừng","why":"Hai cây thành 林 (rừng); ba cây thành 森 (rừng rậm)."}
+{"id":"characters.11","p":"phụ nữ + đứa con = tốt","why":"女 (phụ nữ) và 子 (đứa con) thành 好, tốt."}
+{"id":"characters.12","p":"Gõ pinyin của 好 (tốt)","hint":"thanh 3 · dùng hàng phím dấu thanh","why":"好 mang dấu thanh 3: hǎo."}
+{"id":"characters.13","p":"người tốt (bằng chữ Hán)","hint":"từ bổ nghĩa đứng trước","why":"Từ bổ nghĩa đứng trước danh từ: 好人."}
+{"id":"characters.14","p":"Gõ pinyin của 人 (người)","hint":"thanh 2 · dùng hàng phím dấu thanh","why":"人 mang thanh 2: đi lên, rén."}
+{"id":"greetings.01","q":"Pinyin của 您 (bạn, lịch sự) là gì?","why":"您 mang thanh 2: nín. 你 mang thanh 3: nǐ."}
+{"id":"greetings.02","q":"Bạn nói câu nào với bác hàng xóm lớn tuổi?","why":"您好 là lời chào lịch sự với người lớn tuổi."}
+{"id":"greetings.03","q":"Ai đó nói 对不起 với bạn. Bạn đáp thế nào?","why":"没关系 (không sao) đáp lời xin lỗi; 不客气 đáp lời cảm ơn."}
+{"id":"greetings.04","q":"Bạn của bạn nói 谢谢. Bạn đáp thế nào?","why":"不客气 (không có gì) đáp lời cảm ơn."}
+{"id":"greetings.05","q":"Bạn gọi nhân viên phục vụ trong nhà hàng thế nào?","why":"服务员 là từ bình thường; 小姐 ở đại lục gợi ý gái mại dâm."}
+{"id":"greetings.06","p":"您好 (xin chào, lịch sự) bằng pinyin","why":"您 mang thanh 2: đi lên, nín hǎo."}
+{"id":"greetings.07","p":"giáo viên tiếng Trung (thầy cô dạy tiếng Trung)","why":"Từ bổ nghĩa đứng trước danh từ, ngược với tiếng Việt: 中文老师."}
+{"id":"greetings.08","p":"Tôi tên là Vương Minh.","why":"叫 nghĩa là «tên là, được gọi là»: 我叫 + tên bạn."}
+{"id":"greetings.09","p":"Tôi họ Vương.","why":"Trả lời bằng 姓; 贵 chỉ dùng cho họ của người kia."}
+{"id":"greetings.10","p":"Xin hỏi, ngài họ gì ạ?","why":"请问 (xin hỏi) mở đầu một câu hỏi lịch sự."}
+{"id":"greetings.11","p":"Không sao.","why":"没关系 (không sao) đáp lời xin lỗi; 不客气 đáp lời cảm ơn."}
+{"id":"greetings.12","p":"Gõ pinyin của 再见 (tạm biệt)","hint":"thanh 4 + thanh 4 · một từ","why":"再见 gồm hai thanh 4: zàijiàn."}
+{"id":"greetings.13","p":"giáo viên người Mỹ (美国 = nước Mỹ)","hint":"từ bổ nghĩa đứng trước","why":"Từ bổ nghĩa đứng trước danh từ: 美国老师."}
+{"id":"greetings.14","p":"Tôi họ Lý. (trả lời câu 您贵姓？)","why":"Trả lời bằng 我姓 + họ; 贵 chỉ dùng cho người bạn hỏi."}
+{"id":"pronouns.01","q":"Pinyin của 他 (anh ấy) là gì?","why":"他 mang thanh 1: cao và bằng, tā."}
+{"id":"pronouns.02","q":"«Chúng tôi» nói thế nào?","why":"们 biến 我 thành số nhiều: 我们."}
+{"id":"pronouns.03","q":"Bạn nghe thấy tā trong một câu. Đó là ai?","o":["anh ấy, cô ấy hoặc nó: đọc giống nhau","chỉ anh ấy","chỉ cô ấy","chỉ nó"],"why":"他, 她 và 它 đều đọc tā; ngữ cảnh cho bạn biết là ai."}
+{"id":"pronouns.04","q":"Cách nào đúng cho «ba học sinh»?","why":"Sau số đếm dùng 个 và không dùng 们."}
+{"id":"pronouns.05","q":"Từ nào nghĩa là «họ», nói về một nhóm phụ nữ?","why":"她 + 们 là một nhóm phụ nữ; 他们 dùng cho nhóm nam hoặc nhóm có cả nam lẫn nữ."}
+{"id":"pronouns.06","p":"thầy giáo của họ","why":"Người sở hữu đứng trước danh từ: 他们的老师."}
+{"id":"pronouns.07","p":"năm học sinh (五 = năm)","why":"Sau số đếm phải có lượng từ trước danh từ, và không có 们: 五个学生."}
+{"id":"pronouns.08","p":"Anh ấy tên là Vương Minh.","why":"叫 cho biết cả họ tên; 姓 chỉ cho biết họ."}
+{"id":"pronouns.09","p":"Chào các bạn! (với một nhóm bạn)","why":"你 + 们 là các bạn: 你们好."}
+{"id":"pronouns.10","p":"năm học sinh","why":"Sau số đếm dùng 个 trước danh từ: 五个学生."}
+{"id":"pronouns.11","p":"Thầy giáo của chúng tôi họ Vương.","why":"我们 là chúng tôi; thêm 的 thành «của chúng tôi»."}
+{"id":"pronouns.12","p":"năm học sinh (五 = năm)","hint":"không có 们 sau số đếm","why":"Sau số đếm phải có lượng từ trước danh từ, và không có 们: 五个学生."}
+{"id":"pronouns.13","p":"bạn của tôi","hint":"người sở hữu đứng trước","why":"Người sở hữu đứng trước danh từ: 我的朋友, hoặc 我朋友 với bạn thân."}
+{"id":"pronouns.14","p":"Chào mọi người! (với một nhóm)","why":"们 biến «bạn» thành số nhiều: 你们好. 大家好 cũng được."}
+{"id":"shi.01","q":"Pinyin của 是 (là) là gì?","why":"是 mang thanh 4: rơi xuống, shì."}
+{"id":"shi.02","q":"Tôi là người Mỹ.","why":"Danh từ 是 danh từ, và là 美国人 (người Mỹ), không phải 美国 (nước Mỹ)."}
+{"id":"shi.03","q":"Anh ấy không phải là giáo viên.","why":"不 đứng ngay trước 是: 不是."}
+{"id":"shi.04","q":"Từ nào nghĩa là «người Trung Quốc»?","why":"Tên nước + 人: 中国人. 中文 là tiếng Trung."}
+{"id":"shi.05","q":"Tôi cũng là sinh viên.","why":"也 đứng ngay trước 是, giống «cũng» trong tiếng Việt."}
+{"id":"shi.06","p":"Tôi cũng là sinh viên.","why":"也 đứng trước động từ, đúng vị trí của «cũng»."}
+{"id":"shi.07","p":"Anh ấy là sinh viên người Mỹ. (bắt đầu bằng «anh ấy»)","why":"Từ bổ nghĩa đứng trước danh từ, ngược với tiếng Việt: 美国学生."}
+{"id":"shi.08","p":"Cô ấy không phải là người Trung Quốc.","why":"是 phủ định bằng 不, không bao giờ bằng 没."}
+{"id":"shi.09","p":"Tôi là người Mỹ.","why":"是 nối hai danh từ: tôi = người Mỹ."}
+{"id":"shi.10","p":"Anh ấy không phải là giáo viên.","why":"«Không phải» là 不是; 没 không bao giờ đi với 是."}
+{"id":"shi.11","p":"Vương Minh là người Trung Quốc.","why":"Tên nước + 人 là người nước đó; 中文 là tiếng Trung."}
+{"id":"shi.12","p":"Tôi cũng là sinh viên.","hint":"«cũng» đứng trước 是","why":"也 đứng trước động từ: 我也是学生."}
+{"id":"shi.13","p":"Cô ấy là giáo viên tiếng Anh.","hint":"英语 (tiếng Anh) · 老师","why":"Từ bổ nghĩa đứng trước danh từ: 英语老师."}
+{"id":"shi.14","p":"Tôi không phải là người Mỹ.","why":"Dùng 不 với 是; 没 không bao giờ đi với 是."}
+{"id":"adj.01","q":"Pinyin của 很 (rất) là gì?","why":"很 mang thanh 3: thấp, hěn."}
+{"id":"adj.02","q":"Cô ấy cao.","why":"Không có 是 trước tính từ; dùng 很."}
+{"id":"adj.03","q":"Tôi không bận.","why":"不 đứng ngay trước tính từ, không có 是."}
+{"id":"adj.04","q":"Đắt quá!","why":"«… quá» là 太 + tính từ + 了."}
+{"id":"adj.05","q":"bạn tốt","why":"Tính từ đứng trước danh từ; nếu có 很 thì cần thêm 的."}
+{"id":"adj.06","p":"Anh ấy cao.","why":"很 đứng trước vị ngữ, và tính từ dùng như động từ: 他很高, không có 是."}
+{"id":"adj.07","p":"bạn tốt","why":"Từ bổ nghĩa đứng trước danh từ, ngược với tiếng Việt: 好朋友."}
+{"id":"adj.08","p":"Đắt quá!","why":"«… quá» là 太 + tính từ + 了, không có 是."}
+{"id":"adj.09","p":"Tôi mệt.","why":"Tính từ đi với 很, không đi với 是: 我很累."}
+{"id":"adj.10","p":"Cà phê không đắt.","why":"Đặt 不 ngay trước tính từ: 不贵."}
+{"id":"adj.11","p":"Đắt quá!","why":"太 … 了 nghĩa là «… quá»: 太贵了."}
+{"id":"adj.12","p":"Tôi rất bận.","hint":"không có 是","why":"很 đứng trước vị ngữ, và 忙 dùng như động từ: 我很忙, không có 是."}
+{"id":"adj.13","p":"bạn tốt","hint":"từ bổ nghĩa đứng trước","why":"Từ bổ nghĩa đứng trước danh từ: 好朋友."}
+{"id":"adj.14","p":"Cô ấy không cao. (dùng 不 + tính từ)","why":"不 đứng ngay trước tính từ, không có 是."}
+{"id":"ma.01","q":"Pinyin của 吗 là gì?","o":["ma, không có dấu thanh",null,null,null],"why":"吗 mang thanh nhẹ: ngắn và nhẹ, không có dấu."}
+{"id":"ma.02","q":"Bạn có phải là giáo viên không?","why":"Giữ nguyên câu khẳng định và thêm 吗 vào cuối."}
+{"id":"ma.03","q":"你忙吗？ Trả lời rằng bạn bận.","why":"Trả lời bằng tính từ: 很忙. Tính từ không bao giờ đi với 是."}
+{"id":"ma.04","q":"你是中国人吗？ Trả lời: Không.","why":"Trả lời bằng động từ trong câu hỏi: 不是."}
+{"id":"ma.05","q":"我很好，你呢？ Ở đây 你呢 nghĩa là gì?","o":["Còn bạn?","Bạn có phải không?","Bạn là ai?","Tạm biệt."],"why":"呢 hỏi lại câu đó: còn bạn?"}
+{"id":"ma.06","p":"Bạn cũng là sinh viên phải không?","why":"也 đứng trước động từ: 你也是学生吗？"}
+{"id":"ma.07","p":"Anh ấy có phải là sinh viên người Mỹ không? (bắt đầu bằng «anh ấy»)","why":"Từ bổ nghĩa đứng trước danh từ: 美国学生, rồi 吗 ở cuối."}
+{"id":"ma.08","p":"Bạn có bận không?","why":"Không có 是 trước tính từ; 吗 ở cuối tạo câu hỏi."}
+{"id":"ma.09","p":"Bạn có phải là người Mỹ không?","why":"吗 ở cuối biến câu khẳng định thành câu hỏi có/không."}
+{"id":"ma.10","p":"Tôi bận. Còn bạn?","why":"呢 sau một người là hỏi lại đúng câu đó."}
+{"id":"ma.11","p":"Bạn có bận không? Tôi không bận.","why":"Trả lời bằng chính tính từ: 不忙."}
+{"id":"ma.12","p":"Ngày mai bạn có đi không? (明天 = ngày mai, 去 = đi)","hint":"từ chỉ thời gian đứng trước 去","why":"Thời gian đứng trước động từ: 你明天去吗？"}
+{"id":"ma.13","p":"Cô ấy cũng là giáo viên phải không?","why":"也 đứng trước động từ: 她也是老师吗？"}
+{"id":"ma.14","p":"Bạn có phải là giáo viên không?","why":"Thêm 吗 vào câu khẳng định để hỏi có/không."}
+{"id":"question-words.01","q":"Pinyin của 几 (mấy) là gì?","why":"几 mang thanh 3: thấp, jǐ."}
+{"id":"question-words.02","q":"Bạn tên là gì?","why":"什么 đứng ở chỗ của câu trả lời, và không có 吗."}
+{"id":"question-words.03","q":"Anh ấy là ai?","why":"谁 đứng ở chỗ của câu trả lời: 他是我朋友 → 他是谁？"}
+{"id":"question-words.04","q":"Bạn sống ở đâu?","why":"哪儿 đứng sau 住, đúng chỗ của nơi chốn trong câu trả lời."}
+{"id":"question-words.05","q":"Câu hỏi nào đúng?","why":"哪国人 đứng ở chỗ của câu trả lời, không có 吗."}
+{"id":"question-words.06","p":"Bạn làm việc ở đâu? (在 = ở, 工作 = làm việc)","why":"Nơi diễn ra việc đứng trước động từ, ngược với tiếng Việt: 你在哪儿工作？"}
+{"id":"question-words.07","p":"Bạn có mấy anh trai? (哥哥 = anh trai)","why":"几 cần lượng từ trước danh từ: 几个哥哥."}
+{"id":"question-words.08","p":"Bạn tên là gì?","why":"什么 đứng ở chỗ của câu trả lời, và câu có từ để hỏi thì không có 吗."}
+{"id":"question-words.09","p":"Anh ấy là ai?","why":"谁 hỏi «ai»; nó đứng ở chỗ của câu trả lời."}
+{"id":"question-words.10","p":"Bạn sống ở đâu?","why":"哪儿 hỏi «đâu»."}
+{"id":"question-words.11","p":"Bạn là người nước nào?","why":"哪国人 hỏi ai đó là người nước nào."}
+{"id":"question-words.12","p":"Bạn làm việc ở đâu? (在 = ở, 工作 = làm việc)","hint":"«ở đâu» đứng trước","why":"Nơi diễn ra việc đứng trước động từ: 你在哪儿工作？"}
+{"id":"question-words.13","p":"Bạn có mấy anh trai? (哥哥 = anh trai)","why":"几 đi với lượng từ trước danh từ: 几个哥哥."}
+{"id":"question-words.14","p":"Bạn tên là gì? (hỏi một người bạn)","hint":"không có 吗","why":"Từ để hỏi đứng ở chỗ của câu trả lời, không có 吗."}
+{"id":"bu-mei.01","q":"Pinyin của 不是 (không phải) là gì?","why":"Biến điệu: 不 trước thanh 4 mang thanh 2, bú shì."}
+{"id":"bu-mei.02","q":"«Tôi không có tiền» =","why":"有 là động từ duy nhất đi với 没, không bao giờ với 不."}
+{"id":"bu-mei.03","q":"«Anh ấy chưa ăn cơm» =","why":"Việc không xảy ra dùng 没, và không có 了 sau 没."}
+{"id":"bu-mei.04","q":"«Tôi không bận» =","why":"Trạng thái dùng 不, ngay trước tính từ, không có 是."}
+{"id":"bu-mei.05","q":"«Anh ấy không thích cà phê» =","why":"Thích là một trạng thái, nên dùng 不: 他不喜欢咖啡."}
+{"id":"bu-mei.06","p":"Hôm qua anh ấy không đến (bắt đầu bằng 他)","why":"Từ chỉ thời gian và 没 đều đứng trước động từ, và 没 không bao giờ đi với 了."}
+{"id":"bu-mei.07","p":"Tôi không uống trà","why":"Thói quen dùng 不, và 不 đứng trước động từ: 我不喝茶."}
+{"id":"bu-mei.08","p":"Cô ấy không có điện thoại","why":"有 phủ định bằng 没, không bao giờ bằng 不."}
+{"id":"bu-mei.09","p":"Tôi không có tiền.","why":"Chỉ 没 phủ định được 有: 没有."}
+{"id":"bu-mei.10","p":"Hôm qua tôi không đi.","why":"Việc hôm qua không xảy ra, nên dùng 没."}
+{"id":"bu-mei.11","p":"Tôi không uống rượu.","why":"Thói quen hoặc lựa chọn dùng 不."}
+{"id":"bu-mei.12","p":"Ngày mai tôi không đi.","hint":"明天 (ngày mai) · 去 · dự định dùng 不","why":"Ngày mai và 不 đều đứng trước động từ: 我明天不去."}
+{"id":"bu-mei.13","p":"Hôm qua tôi không đi.","hint":"昨天 (hôm qua) · 去","why":"Hôm qua và 没 đứng trước động từ, và 没 không đi với 了: 我昨天没去."}
+{"id":"bu-mei.14","p":"Tôi không có điện thoại.","hint":"手机 (điện thoại)","why":"有 chỉ phủ định bằng 没: 我没有手机."}
+{"id":"de.01","q":"Pinyin của 书 (sách) là gì?","why":"书 mang thanh 1: cao và bằng."}
+{"id":"de.02","q":"«bạn của tôi» =","why":"Người sở hữu đứng trước, rồi 的, rồi danh từ."}
+{"id":"de.03","q":"«điện thoại của thầy giáo» =","why":"Người sở hữu + 的 + vật: như «của», nhưng theo thứ tự ngược lại."}
+{"id":"de.04","q":"«mẹ tôi» (cách nói tự nhiên nhất) =","why":"Từ chỉ người trong gia đình thường bỏ 的 sau đại từ: 我妈妈."}
+{"id":"de.05","q":"«quần áo rất đắt» =","why":"Từ miêu tả có 很 cần 的, và đứng trước danh từ."}
+{"id":"de.06","p":"sách của thầy giáo tôi","why":"Người sở hữu đứng trước danh từ, nối bằng 的: 我老师的书."}
+{"id":"de.07","p":"chiếc ô tô màu đỏ","why":"Từ miêu tả đứng trước danh từ: 红色的车."}
+{"id":"de.08","p":"Đây là điện thoại của mẹ tôi","why":"Người sở hữu, rồi 的, rồi vật: người sở hữu đứng trước danh từ."}
+{"id":"de.09","p":"Đây là sách của tôi.","why":"的 nối người sở hữu với vật: 我的书."}
+{"id":"de.10","p":"Cô ấy là bạn tốt của tôi.","why":"Tính từ một âm tiết có thể ghép thẳng vào danh từ: 好朋友."}
+{"id":"de.11","p":"Điện thoại của thầy giáo đắt.","why":"Người sở hữu + 的 + vật: 老师的手机."}
+{"id":"de.12","p":"giáo viên tiếng Trung của tôi","hint":"các từ bổ nghĩa đứng trước","why":"Cả hai phần bổ nghĩa đều đứng trước danh từ: 我的中文老师."}
+{"id":"de.13","p":"chiếc ô tô rất đắt","hint":"车 (ô tô)","why":"Từ miêu tả có 很 đứng trước danh từ, nối bằng 的: 很贵的车."}
+{"id":"de.14","p":"Mẹ tôi không có điện thoại.","why":"Từ chỉ người trong gia đình không cần 的, và 有 phủ định bằng 没: 我妈妈没有手机."}
+{"id":"you.01","q":"Pinyin của 买 (mua) là gì?","why":"买 mang thanh 3; mài, thanh 4, là 卖, bán."}
+{"id":"you.02","q":"«Tôi có điện thoại» =","why":"Người + 有 + vật, đúng thứ tự như tiếng Việt."}
+{"id":"you.03","q":"«Gần đây không có siêu thị» =","why":"Nơi chốn trước, rồi 没有; 有 không bao giờ đi với 不."}
+{"id":"you.04","q":"«Trên bàn có một quyển sách» =","why":"Tiếng Trung bắt đầu bằng nơi chốn, rồi 有, rồi số + lượng từ + danh từ, như tiếng Việt."}
+{"id":"you.05","q":"«Quán có cà phê không?» (hỏi cửa hàng) =","why":"Hỏi cửa hàng bằng 你们, rồi 有, rồi 吗 ở cuối."}
+{"id":"you.06","p":"Gần đây có ngân hàng","why":"Nơi chốn đứng trước động từ 有: 附近有银行."}
+{"id":"you.07","p":"Trên bàn có một quyển sách","why":"Nơi chốn đứng trước động từ, và 一本 đứng trước danh từ: 桌子上有一本书."}
+{"id":"you.08","p":"Quán có cà phê không? (hỏi cửa hàng)","why":"Câu khẳng định + 吗 tạo thành câu hỏi: 你们有咖啡吗？"}
+{"id":"you.09","p":"Gần đây có ngân hàng không?","why":"«Có» chỉ tồn tại là 有, đứng sau nơi chốn."}
+{"id":"you.10","p":"Tôi không có ô tô.","why":"Chỉ 没 phủ định được 有: 没有."}
+{"id":"you.11","p":"Trên bàn có một quyển sách.","why":"Nơi chốn + 有 + vật, đúng như «trên bàn có…»."}
+{"id":"you.12","p":"Gần đây có siêu thị.","hint":"附近 (gần đây) · 超市 (siêu thị) · nơi chốn đứng trước","why":"Nơi chốn đứng trước động từ 有: 附近有超市."}
+{"id":"you.13","p":"Gần đây có ngân hàng không?","hint":"银行 (ngân hàng) · 吗","why":"«Gần đây» đứng trước động từ 有, và 吗 ở cuối: 附近有银行吗？"}
+{"id":"you.14","p":"Tôi không có ô tô.","hint":"车 (ô tô)","why":"有 chỉ phủ định bằng 没: 我没有车."}
+{"id":"numbers.01","q":"Pinyin của 四 (bốn) là gì?","why":"四 mang thanh 4: rơi xuống. Với thanh 3, sǐ nghĩa là chết."}
+{"id":"numbers.02","q":"«hai người» =","why":"«Hai» trước lượng từ là 两."}
+{"id":"numbers.03","q":"一百零五 là bao nhiêu?","o":["105","150","1.005","115"],"why":"零 lấp hàng chục trống: một trăm, linh, năm."}
+{"id":"numbers.04","q":"Người bán hàng ở chợ nói 一百五. Vậy là bao nhiêu?","o":["150","105","15","1.500"],"why":"一百五 là cách nói tắt của 一百五十."}
+{"id":"numbers.05","q":"«Bao nhiêu tiền?» =","why":"多少钱 hỏi giá; câu có từ để hỏi thì không có 吗."}
+{"id":"numbers.06","p":"hai người","why":"«Hai» trước lượng từ là 两: 两个人."}
+{"id":"numbers.07","p":"Cái này hai mươi lăm tệ","why":"块 dùng như lượng từ: đứng ngay sau số, 二十五块."}
+{"id":"numbers.08","p":"Cái này bao nhiêu tiền?","why":"多少 hỏi mọi con số, nên hợp với giá tiền."}
+{"id":"numbers.09","p":"Tôi có hai giáo viên tiếng Trung.","why":"Trước lượng từ 个, «hai» là 两."}
+{"id":"numbers.10","p":"105","why":"Hàng trống ở giữa một số là 零, như «linh» trong tiếng Việt."}
+{"id":"numbers.11","p":"Cái này 25 tệ.","why":"Tiền: số, rồi 块 (hoặc 元 khi viết)."}
+{"id":"numbers.12","p":"hai người","hint":"两 hay 二? · 个 · 人","why":"«Hai» trước lượng từ là 两: 两个人."}
+{"id":"numbers.13","p":"mười lăm tệ (cách nói khi nói chuyện)","why":"块 là lượng từ cho tiền, đứng ngay sau số: 十五块."}
+{"id":"numbers.14","p":"Cái này bao nhiêu tiền?","why":"多少 hỏi mọi con số, như giá tiền: 这个多少钱？"}
+{"id":"measure.01","q":"Pinyin của 杯 (cốc) là gì?","why":"杯 mang thanh 1: cao và bằng."}
+{"id":"measure.02","q":"«ba quyển sách» =","why":"Sách dùng 本, đứng giữa số và danh từ."}
+{"id":"measure.03","q":"«vé này» =","why":"这 cũng cần lượng từ, và vé dùng 张."}
+{"id":"measure.04","q":"Lượng từ nào đi với 衣服 (quần áo)?","why":"Áo, áo khoác và phần lớn quần áo dùng 件."}
+{"id":"measure.05","q":"«một đôi giày» =","why":"Một đôi dùng 双: 一双鞋."}
+{"id":"measure.06","p":"ba quyển sách","why":"Sách dùng lượng từ 本: 三本书."}
+{"id":"measure.07","p":"cốc trà này","why":"这 + lượng từ + danh từ: 这杯茶, ngược thứ tự với «cốc trà này»."}
+{"id":"measure.08","p":"Con mèo kia nhỏ lắm","why":"那 + lượng từ + danh từ: 那只猫, với 只 cho con vật (≈ «con»)."}
+{"id":"measure.09","p":"Tôi có ba quyển sách.","why":"Sách dùng 本."}
+{"id":"measure.10","p":"hai cốc cà phê","why":"Một cốc đồ uống dùng 杯."}
+{"id":"measure.11","p":"Vé này bao nhiêu tiền?","why":"Vé là vật phẳng nên dùng 张."}
+{"id":"measure.12","p":"hai cốc trà","hint":"茶 (trà)","why":"Trà đựng trong cốc dùng lượng từ 杯, và số hai trước lượng từ là 两."}
+{"id":"measure.13","p":"quyển sách này","why":"这 + lượng từ + danh từ: 这本书."}
+{"id":"measure.14","p":"Tôi không có quyển sách kia.","why":"那 + lượng từ + danh từ, và 有 phủ định bằng 没: 我没有那本书."}
+{"id":"food.01","q":"Pinyin của 汤 (canh) là gì?","why":"汤 mang thanh 1; táng (thanh 2) là 糖, đường."}
+{"id":"food.02","q":"Bạn gọi nhân viên phục vụ thế nào?","why":"Gọi phục vụ là 服务员; ở đại lục nên tránh 小姐."}
+{"id":"food.03","q":"«hai cốc trà sữa» =","why":"Số + một lượng từ + danh từ, và hai là 两."}
+{"id":"food.04","q":"«Không lấy cay nhé.» =","why":"要 phủ định bằng 不: 不要辣的, «không lấy loại cay»."}
+{"id":"food.05","q":"Bạn rất thích món sủi cảo vừa ăn. Hãy nói:","why":"好吃 là ăn ngon; 好喝 chỉ dùng cho đồ uống."}
+{"id":"food.06","p":"Tôi lấy một bát mì","why":"Bát dùng lượng từ 碗, đứng trước danh từ: 一碗面条."}
+{"id":"food.07","p":"Cho hai cốc trà sữa (bắt đầu bằng 来)","why":"Số hai trước lượng từ là 两: 两杯奶茶."}
+{"id":"food.08","p":"Xin lỗi, tính tiền giúp tôi! (gọi nhân viên phục vụ)","why":"Gọi 服务员 trước, rồi nói 买单; 老师 là để gọi thầy cô giáo."}
+{"id":"food.09","p":"Tôi lấy một bát mì.","why":"Một bát cái gì đó dùng 碗."}
+{"id":"food.10","p":"Làm ơn cho tôi một cốc nước.","why":"Một cốc đồ uống dùng 杯."}
+{"id":"food.11","p":"Không lấy cay nhé.","why":"辣 là cay: 不要辣的, không lấy loại cay."}
+{"id":"food.12","p":"Cho tôi một cốc cà phê.","why":"Một cốc cà phê dùng lượng từ 杯: 一杯咖啡."}
+{"id":"food.13","p":"hai bát mì","why":"Số hai trước lượng từ là 两, và mì đựng trong bát dùng 碗."}
+{"id":"food.14","p":"Không lấy cay nhé.","why":"要 (muốn, lấy) phủ định bằng 不, không phải 没: 不要辣的."}
+{"id":"family.01","q":"Pinyin của 妈妈 (mẹ) là gì?","why":"Chữ 妈 đầu mang thanh 1, chữ sau mang thanh nhẹ: māma."}
+{"id":"family.02","q":"«anh trai» =","why":"哥哥 là anh, 弟弟 là em."}
+{"id":"family.03","q":"«Tôi có hai chị gái» =","why":"Hai người: 两 + 个 + danh từ."}
+{"id":"family.04","q":"Hỏi một em bé sáu tuổi «Cháu mấy tuổi?»:","why":"几 chờ một số nhỏ, như «mấy»; không có 是 và không có 吗."}
+{"id":"family.05","q":"«Nhà tôi có năm người» =","why":"Số + 口 + 人, và không thêm 们 sau số."}
+{"id":"family.06","p":"Tôi có một anh trai","why":"Có số thì phải có lượng từ trước danh từ: 一个哥哥."}
+{"id":"family.07","p":"Tôi có hai em gái","why":"Số hai trước lượng từ là 两: 两个妹妹."}
+{"id":"family.08","p":"Nhà bạn có mấy người? (hỏi bạn bè)","why":"Từ để hỏi 几 đã tạo câu hỏi, nên không có 吗."}
+{"id":"family.09","p":"Nhà tôi có bốn người.","why":"Thành viên gia đình đếm bằng 口 (cũng nghe thấy 个)."}
+{"id":"family.10","p":"Tôi có hai em trai.","why":"Em trai là 弟弟."}
+{"id":"family.11","p":"Năm nay tôi 25 tuổi.","why":"Tuổi là số + 岁."}
+{"id":"family.12","p":"Tôi có hai anh trai.","why":"Số hai trước lượng từ là 两: 两个哥哥."}
+{"id":"family.13","p":"Nhà tôi có ba người.","why":"口 là lượng từ cho thành viên gia đình: 三口人."}
+{"id":"family.14","p":"Bố tôi không phải là giáo viên.","why":"是 phủ định bằng 不, không bao giờ bằng 没, và 爸爸 không cần 的."}
+{"id":"time.01","q":"Pinyin của 号 (ngày trong tháng) là gì?","why":"号 mang thanh 4; hǎo (thanh 3) là 好, tốt."}
+{"id":"time.02","q":"«hai giờ» =","why":"Hai giờ là 两点, không phải 二点."}
+{"id":"time.03","q":"«ngày 3 tháng 12» =","why":"Tháng trước, ngày sau; 三月十二号 là ngày 12 tháng 3."}
+{"id":"time.04","q":"«Ngày mai tôi đi» =","why":"Từ chỉ thời gian đứng trước động từ."}
+{"id":"time.05","q":"«Bây giờ là mấy giờ?» =","why":"几 đã tạo câu hỏi, nên không có 吗."}
+{"id":"time.06","p":"Ngày mai tôi đi Bắc Kinh (bắt đầu bằng 我)","why":"Thời gian đứng trước động từ: 我明天去北京."}
+{"id":"time.07","p":"ngày 3 tháng 12","why":"Lớn trước nhỏ: tháng, rồi ngày."}
+{"id":"time.08","p":"Thứ Bảy tôi không làm việc (bắt đầu bằng 我)","why":"Ngày và 不 đều đứng trước động từ: 我星期六不工作."}
+{"id":"time.09","p":"Bây giờ là mấy giờ?","why":"Hỏi giờ bằng 几: 几点."}
+{"id":"time.10","p":"Hôm nay là ngày 3 tháng 12.","why":"Ngày trong tháng là số + 号."}
+{"id":"time.11","p":"Bây giờ là hai giờ rưỡi.","why":"Hai giờ là 两点, nên hai giờ rưỡi là 两点半."}
+{"id":"time.12","p":"Ngày mai tôi đi.","hint":"khi nào đứng trước","why":"Thời gian đứng trước động từ: 我明天去."}
+{"id":"time.13","p":"Thứ Bảy tôi không làm việc.","hint":"星期六 (thứ Bảy) · 不 · 工作","why":"Ngày đứng trước động từ, và 不 cũng vậy: 我星期六不工作."}
+{"id":"time.14","p":"Bây giờ là hai giờ.","why":"Hai giờ là 两点, và 现在 đứng đầu."}
+{"id":"zai.01","q":"Pinyin của 在 (ở) là gì?","why":"在 mang thanh 4: giọng đi xuống."}
+{"id":"zai.02","q":"«Ngân hàng ở đâu?» =","why":"Vật + 在 + 哪儿, và có từ để hỏi thì không có 吗."}
+{"id":"zai.03","q":"«Tôi làm việc ở ngân hàng» =","why":"在 + nơi chốn đứng trước động từ."}
+{"id":"zai.04","q":"«Điện thoại ở trên bàn» =","why":"Từ chỉ vị trí 上 đứng sau 桌子."}
+{"id":"zai.05","q":"«Ngân hàng ở bên cạnh siêu thị» =","why":"旁边 (bên cạnh) đứng sau nơi chốn mà nó ở cạnh."}
+{"id":"zai.06","p":"Tôi làm việc ở ngân hàng","why":"Nơi diễn ra hành động đứng trước động từ: 我在银行工作."}
+{"id":"zai.07","p":"Điện thoại ở trong phòng","why":"Từ chỉ vị trí đứng sau danh từ: 房间里, trong phòng."}
+{"id":"zai.08","p":"Anh ấy ăn cơm ở nhà","why":"Nơi chốn với 在 đứng trước động từ: 他在家吃饭."}
+{"id":"zai.09","p":"Ngân hàng ở đâu?","why":"Nói vật ở đâu: vật + 在 + nơi chốn."}
+{"id":"zai.10","p":"Điện thoại ở trên bàn.","why":"Trên bàn: 桌子上, từ chỉ vị trí đứng sau danh từ."}
+{"id":"zai.11","p":"Tôi làm việc ở ngân hàng.","why":"在 + nơi chốn, trước động từ."}
+{"id":"zai.12","p":"Tôi làm việc ở ngân hàng.","hint":"ở đâu đứng trước","why":"Nơi diễn ra hành động đứng trước động từ: 我在银行工作."}
+{"id":"zai.13","p":"Chúng tôi ăn cơm ở nhà.","why":"Nơi chốn với 在 đứng trước động từ: 我们在家吃饭."}
+{"id":"zai.14","p":"Nhà vệ sinh ở đâu?","hint":"洗手间 (nhà vệ sinh) · 在 · 哪儿","why":"Vật + 在 + 哪儿: từ để hỏi nằm ở chỗ của nơi chốn."}
+{"id":"word-order.01","q":"«Hôm nay tôi làm việc ở nhà» =","why":"Khi nào và ở đâu đều đứng trước động từ: 我今天在家工作."}
+{"id":"word-order.02","q":"Pinyin của 明天 (ngày mai) là gì?","why":"明 mang thanh 2, 天 mang thanh 1: míngtiān."}
+{"id":"word-order.03","q":"«mười giờ sáng thứ Bảy» =","why":"Lớn trước nhỏ: ngày, rồi buổi, rồi giờ."}
+{"id":"word-order.04","q":"«Tôi sống ở Thượng Hải» =","why":"Với 住, 在 + nơi chốn đứng ngay sau động từ."}
+{"id":"word-order.05","q":"«Tôi đi tàu điện ngầm đi làm» =","why":"Cách đi đứng trước động từ 去: 坐地铁去上班."}
+{"id":"word-order.06","p":"Ngày mai tôi đi Bắc Kinh (bắt đầu bằng 我)","why":"Thời gian đứng trước động từ: 我明天去北京."}
+{"id":"word-order.07","p":"Chúng tôi học ở thư viện","why":"Nơi diễn ra hành động đứng trước động từ: 在图书馆学习."}
+{"id":"word-order.08","p":"Ngày mai tôi ăn cơm ở nhà (bắt đầu bằng 我)","why":"Khi nào đứng trước, rồi đến ở đâu, và cả hai đứng trước động từ."}
+{"id":"word-order.09","p":"Ngày mai tôi ăn cơm ở nhà.","why":"在 + nơi chốn cho biết hành động diễn ra ở đâu: 在家吃饭."}
+{"id":"word-order.10","p":"Ngày nào tôi cũng đi tàu điện ngầm đi làm.","why":"坐 (đi xe, tàu; nghĩa đen là ngồi) là cách nói đi tàu điện ngầm: 坐地铁."}
+{"id":"word-order.11","p":"Tôi sống ở Bắc Kinh.","why":"Sau 住 là 在 + nơi chốn: 我住在北京."}
+{"id":"word-order.12","p":"Tôi làm việc ở ngân hàng","hint":"ở đâu đứng trước","why":"Nơi diễn ra hành động đứng trước động từ: 我在银行工作."}
+{"id":"word-order.13","p":"Ngày mai tôi đi Thượng Hải","why":"Thời gian đứng trước động từ, không bao giờ ở cuối: 我明天去上海."}
+{"id":"word-order.14","p":"Chúng tôi vào học lúc hai giờ thứ Hai","hint":"lớn trước nhỏ","why":"Lớn trước nhỏ, và thời gian đứng trước động từ: 星期一两点上课."}
+{"id":"want-can.01","q":"Từ nào nghĩa là «biết (làm gì)» (kỹ năng đã học)?","why":"会 dùng cho kỹ năng đã học: 我会游泳."}
+{"id":"want-can.02","q":"«Tôi ngồi đây được không?» =","why":"可以 đứng ngay sau 我 và dùng để xin phép."}
+{"id":"want-can.03","q":"Pinyin của 想 (muốn) là gì?","why":"想 mang thanh 3: xiǎng."}
+{"id":"want-can.04","q":"«Tối nay tôi muốn ăn cơm ở nhà» =","why":"Khi nào trước, rồi 想, rồi ở đâu, và động từ ở cuối."}
+{"id":"want-can.05","q":"«Tôi không muốn đi» =","why":"不 đứng trước 想: 我不想去."}
+{"id":"want-can.06","p":"Tôi muốn uống một cốc trà","why":"Trà đựng trong cốc dùng lượng từ 杯: 一杯茶."}
+{"id":"want-can.07","p":"Tôi muốn học ở thư viện","why":"Nơi diễn ra hành động đứng trước động từ: 想在图书馆学习."}
+{"id":"want-can.08","p":"Tôi biết nói một chút tiếng Trung","why":"会 dùng cho kỹ năng đã học, như ngoại ngữ; 是 không có nghĩa «biết» hay «có thể»."}
+{"id":"want-can.09","p":"Bạn có thể vào.","why":"可以 dùng để cho phép: 你可以进来."}
+{"id":"want-can.10","p":"Tôi không biết lái xe (chưa học bao giờ).","why":"Kỹ năng chưa học thì dùng 不会."}
+{"id":"want-can.11","p":"Xin lỗi, tôi lấy một bát mì.","why":"Với một vật, không có động từ, «muốn, lấy» là 要 (hoặc 想要)."}
+{"id":"want-can.12","p":"Tôi muốn hai cốc cà phê","why":"Cà phê đựng trong cốc dùng lượng từ 杯, và số hai đứng trước nó là 两."}
+{"id":"want-can.13","p":"Tôi muốn ăn cơm ở nhà (dùng 想)","why":"Nơi diễn ra hành động đứng trước động từ: 想在家吃饭."}
+{"id":"want-can.14","p":"Tôi không biết bơi (chưa học bao giờ)","hint":"phủ định bằng 不","why":"Kỹ năng dùng 会, và phủ định là 不会, không phải 没."}
+{"id":"le.01","q":"«Tôi mua ba vé rồi» =","why":"了 đứng ngay sau động từ: 买了三张票."}
+{"id":"le.02","q":"Pinyin của 买 (mua) là gì?","why":"买 mang thanh 3; mài (thanh 4) là 卖, bán."}
+{"id":"le.03","q":"«Hôm qua tôi bận» =","why":"Trạng thái trong quá khứ không có 了: 我昨天很忙."}
+{"id":"le.04","q":"«Hôm qua tôi không đi» =","why":"Sau 没 không có 了."}
+{"id":"le.05","q":"«Trời nóng rồi.» =","why":"了 ở cuối câu chỉ sự thay đổi: 热了."}
+{"id":"le.06","p":"Hôm qua tôi không đi làm (bắt đầu bằng 我)","why":"Thời gian đứng trước động từ, và sau 没 không có 了."}
+{"id":"le.07","p":"Tôi mua ba quả táo rồi","why":"Táo dùng lượng từ 个: 三个苹果."}
+{"id":"le.08","p":"Trời lạnh rồi","why":"了 ở cuối chỉ sự thay đổi, và 冷 không cần 是."}
+{"id":"le.09","p":"Tôi mua ba quả táo rồi.","why":"了 ngay sau động từ cho biết việc mua đã xong."}
+{"id":"le.10","p":"Hôm qua tôi không đi.","why":"Việc không xảy ra thì dùng 没, không dùng 不."}
+{"id":"le.11","p":"Tôi đói rồi.","why":"了 ở cuối chỉ sự thay đổi: 我饿了."}
+{"id":"le.12","p":"Tôi mua hai vé rồi","why":"Vé dùng lượng từ 张, và số hai đứng trước nó là 两."}
+{"id":"le.13","p":"Hôm qua tôi không đi ngân hàng","why":"Thời gian đứng trước động từ, và sau 没 không có 了."}
+{"id":"le.14","p":"Trời lạnh rồi","hint":"một sự thay đổi","why":"了 ở cuối chỉ sự thay đổi, và tính từ không đi với 是."}
+{"id":"progress.01","q":"«Tôi đang ăn cơm» =","why":"在 trước động từ nghĩa là đang; 是 là «là», không phải «đang»."}
+{"id":"progress.02","q":"Pinyin của 在 là gì?","why":"在 mang thanh 4: giọng đi xuống, zài."}
+{"id":"progress.03","q":"«Bạn đang làm gì?» =","why":"Từ để hỏi ở đúng chỗ của câu trả lời: 在做什么."}
+{"id":"progress.04","q":"«Ngày mai tôi đi Thượng Hải» (một dự định) =","why":"Dự định không dùng 在; 在 dành cho việc đang diễn ra."}
+{"id":"progress.05","q":"«Anh ấy đang xem ti vi ở nhà» =","why":"Nơi diễn ra hành động đứng trước động từ, và 呢 ở cuối cùng."}
+{"id":"progress.06","p":"Tôi đang xem ti vi ở nhà đây","why":"Nơi diễn ra hành động đứng trước động từ, và 呢 ở cuối."}
+{"id":"progress.07","p":"Chúng tôi đang trong giờ học (dùng 正在)","why":"正在 đứng trước động từ: 我们正在上课."}
+{"id":"progress.08","p":"Bạn đang làm gì?","why":"«Đang» là 在 + động từ, và 是 không có nghĩa «đang»."}
+{"id":"progress.09","p":"Anh ấy đang xem ti vi.","why":"在 hoặc 正在 trước động từ cho biết hành động đang diễn ra."}
+{"id":"progress.10","p":"Tôi đang ăn cơm đây.","why":"呢 ở cuối đi với 正在 cho nghĩa ngay lúc này."}
+{"id":"progress.11","p":"Mẹ đang gọi điện thoại trong bếp.","why":"在 + nơi chốn cho biết việc diễn ra ở đâu: 在厨房."}
+{"id":"progress.12","p":"Anh ấy đang xem ti vi","why":"在 hoặc 正在 đứng trước động từ, như «đang»."}
+{"id":"progress.13","p":"Tôi đang học ở thư viện","why":"Nơi diễn ra hành động đứng trước động từ: 在图书馆学习."}
+{"id":"progress.14","p":"Bạn đang làm gì? (hỏi bạn bè)","why":"什么 ở đúng chỗ của câu trả lời, sau 在 + động từ."}
+{"id":"serial.01","q":"«Tôi đi ngân hàng đổi tiền» =","why":"Đến nơi trước, rồi đến việc làm ở đó: 去银行换钱."}
+{"id":"serial.02","q":"Pinyin của 去 (đi) là gì?","why":"去 mang thanh 4: qù."}
+{"id":"serial.03","q":"«Cô ấy đạp xe đến trường» =","why":"骑 cho xe đạp, và cách đi đứng trước 去."}
+{"id":"serial.04","q":"Động từ nào nghĩa là «đi» xe buýt, tàu điện ngầm, máy bay?","why":"坐 (nghĩa đen là ngồi) dùng cho mọi thứ bạn ngồi bên trong; 骑 dùng cho xe đạp."}
+{"id":"serial.05","q":"«Anh ấy đến nhà tôi ăn cơm» =","why":"来 + nơi chốn trước, rồi việc anh ấy sẽ làm: 来我家吃饭."}
+{"id":"serial.06","p":"Tôi đi siêu thị mua đồ","why":"Nơi bạn đến đứng trước động từ chỉ việc làm ở đó: 去超市买东西."}
+{"id":"serial.07","p":"Tôi đi tàu điện ngầm đến trường","why":"Cách đi đứng trước động từ 去: 坐地铁去学校."}
+{"id":"serial.08","p":"Ngày mai tôi đi Bắc Kinh xem Vạn Lý Trường Thành (bắt đầu bằng 我)","why":"Thời gian đứng trước cả hai động từ: 我明天去北京看长城."}
+{"id":"serial.09","p":"Tôi đi siêu thị mua đồ.","why":"买 (mǎi) là mua; 卖 (mài) là bán."}
+{"id":"serial.10","p":"Tôi đạp xe đi làm.","why":"Xe đạp thì ngồi dạng chân: 骑自行车."}
+{"id":"serial.11","p":"Anh ấy đến nhà tôi ăn cơm.","why":"来 + nơi chốn: anh ấy đến nhà tôi, rồi ăn cơm."}
+{"id":"serial.12","p":"Tôi đi ngân hàng đổi tiền","why":"Nơi bạn đến đứng trước động từ chỉ việc làm ở đó: 去银行换钱."}
+{"id":"serial.13","p":"Tôi đi tàu điện ngầm đi làm","why":"Cách đi đứng trước động từ: 坐地铁去上班."}
+{"id":"serial.14","p":"Tôi đi cửa hàng mua hai chai nước","hint":"商店 (cửa hàng) · 买 · 两 · 瓶 · 水","why":"Nước đựng trong chai dùng lượng từ 瓶, và số hai đứng trước nó là 两."}
+{"id":"a-not-a.01","q":"«Bạn có bận không?» =","why":"Không có 很 và không có 吗: chỉ 忙不忙."}
+{"id":"a-not-a.02","q":"Pinyin của 去不去？ là gì?","why":"Trong câu hỏi chính phản, 不 mang thanh nhẹ: qù bu qù."}
+{"id":"a-not-a.03","q":"«Bạn có ô tô không?» =","why":"有 phủ định bằng 没, nên câu hỏi là 有没有."}
+{"id":"a-not-a.04","q":"«Bạn có thích cà phê không?» =","why":"Động từ hai chữ: 喜不喜欢 hoặc 喜欢不喜欢, không có 吗."}
+{"id":"a-not-a.05","q":"Trả lời «có» cho câu 你去不去？ thế nào?","why":"Trả lời bằng chính động từ: 去 hoặc 不去."}
+{"id":"a-not-a.06","p":"Ngày mai bạn có đến không? (bắt đầu bằng 你)","why":"Thời gian đứng trước động từ, kể cả trong câu hỏi: 你明天来不来？"}
+{"id":"a-not-a.07","p":"Quyển sách này có đắt không?","why":"Sách dùng lượng từ 本: 这本书贵不贵？"}
+{"id":"a-not-a.08","p":"Bạn có anh trai không?","why":"有 đi với 没, nên câu hỏi là 有没有, không có 吗."}
+{"id":"a-not-a.09","p":"Bạn có đi không?","why":"Động từ + 不 + động từ tạo thành câu hỏi: 去不去."}
+{"id":"a-not-a.10","p":"Bạn có sách tiếng Trung không?","why":"有 chỉ phủ định bằng 没: 有没有."}
+{"id":"a-not-a.11","p":"Bạn có thích trà không?","why":"Nói lại cả động từ sau 不: 喜欢不喜欢."}
+{"id":"a-not-a.12","p":"Ngày mai bạn có đến không? (hỏi bạn bè, dùng câu hỏi chính phản)","why":"Thời gian đứng trước động từ: 你明天来不来？"}
+{"id":"a-not-a.13","p":"Bạn có lấy cốc trà này không? (hỏi bạn bè, dùng câu hỏi chính phản)","why":"Một cốc cái gì đó dùng lượng từ 杯: 这杯茶."}
+{"id":"a-not-a.14","p":"Anh trai bạn có phải là giáo viên không? (hỏi bạn bè, dùng câu hỏi chính phản)","why":"是不是 đã là câu hỏi, nên không có 吗."}
+{"id":"ye-dou.01","q":"«Tôi cũng là sinh viên» =","why":"也 đứng sau chủ ngữ và trước động từ."}
+{"id":"ye-dou.02","q":"Pinyin của 也 (cũng) là gì?","why":"也 mang thanh 3: yě."}
+{"id":"ye-dou.03","q":"«Chúng tôi đều là người Mỹ» =","why":"都 đứng sau 我们 và trước động từ."}
+{"id":"ye-dou.04","q":"«Tôi chưa ăn cơm» =","why":"还没 + động từ nghĩa là chưa, không có 了."}
+{"id":"ye-dou.05","q":"«Chúng tôi đều không đi» =","why":"都不 là đều không; 不都 là không phải ai cũng."}
+{"id":"ye-dou.06","p":"Bố tôi cũng là giáo viên","why":"也 đứng trước động từ, đúng chỗ của «cũng» trong tiếng Việt."}
+{"id":"ye-dou.07","p":"Chúng tôi đều thích uống trà","why":"都 đứng sau 我们 và trước động từ: 我们都喜欢喝茶."}
+{"id":"ye-dou.08","p":"Họ đều ở nhà","why":"都 đứng trước động từ 在: 他们都在家."}
+{"id":"ye-dou.09","p":"Cô ấy cũng là người Mỹ.","why":"也 (cũng) đứng trước 是: 她也是美国人."}
+{"id":"ye-dou.10","p":"Chúng tôi đều là sinh viên.","why":"都 (đều) nhìn lại 我们: 我们都是学生."}
+{"id":"ye-dou.11","p":"Tôi chưa ăn cơm.","why":"还没 nghĩa là chưa."}
+{"id":"ye-dou.12","p":"Tôi cũng là người Mỹ","why":"也 đứng trước động từ, như «cũng» trong tiếng Việt, không bao giờ ở cuối câu."}
+{"id":"ye-dou.13","p":"Cả hai chúng tôi đều có một con mèo","why":"都 đứng trước động từ, và mèo dùng lượng từ 只."}
+{"id":"ye-dou.14","p":"Bố mẹ tôi đều bận","why":"都 đứng trước động từ hoặc tính từ, và tính từ đi với 很, không đi với 是."}
+{"id":"ba-bie.01","q":"«Chúng ta đi thôi» =","why":"吧 ở cuối câu có 我们 nghĩa là «chúng ta … đi»."}
+{"id":"ba-bie.02","q":"Pinyin của 请 (mời, xin) là gì?","why":"请 mang thanh 3: qǐng; qíng (thanh 2) là 晴, trời nắng."}
+{"id":"ba-bie.03","q":"«Đừng lo» =","why":"别 + động từ là đừng; 不 chỉ là không."}
+{"id":"ba-bie.04","q":"«Mời vào» =","why":"请 đứng trước, rồi đến động từ."}
+{"id":"ba-bie.05","q":"«Phiền bạn giúp tôi một chút» =","why":"麻烦你 đứng trước, rồi đến lời nhờ."}
+{"id":"ba-bie.06","p":"Chúng ta ăn cơm ở nhà đi (bắt đầu bằng 我们)","why":"Nơi diễn ra hành động đứng trước động từ, và 吧 ở cuối."}
+{"id":"ba-bie.07","p":"Ngày mai chúng ta đi bệnh viện nhé (bắt đầu bằng 我们)","why":"Thời gian đứng trước động từ: 我们明天去医院吧."}
+{"id":"ba-bie.08","p":"Xin đừng lo","why":"请 đứng đầu, rồi 别 + động từ là đừng: 请别担心."}
+{"id":"ba-bie.09","p":"Chúng ta đi thôi.","why":"吧 ở cuối biến câu thành lời đề nghị: chúng ta … đi."}
+{"id":"ba-bie.10","p":"Đừng lo.","why":"别 hoặc 不要 + động từ là đừng."}
+{"id":"ba-bie.11","p":"Mời ngồi.","why":"请 đứng trước động từ: 请坐."}
+{"id":"ba-bie.12","p":"Ngày mai chúng ta đi siêu thị nhé","why":"Thời gian đứng trước động từ, và 吧 ở cuối biến câu thành lời rủ."}
+{"id":"ba-bie.13","p":"Chúng ta mua hai chai nước nhé","why":"Nước đựng trong chai dùng lượng từ 瓶, và số hai đứng trước nó là 两."}
+{"id":"ba-bie.14","p":"Đừng uống cà phê (nói với bạn bè)","why":"别 hoặc 不要 + động từ là đừng; 没 dùng cho việc đã không xảy ra."}
+{"id":"and-or.01","q":"«trà và cà phê» =","why":"和 nối hai danh từ: 茶和咖啡."}
+{"id":"and-or.02","q":"Pinyin của 和 (và) là gì?","why":"和 mang thanh 2: hé; hē (thanh 1) là 喝, uống."}
+{"id":"and-or.03","q":"«Bạn muốn mì hay cơm?» =","why":"Trong câu hỏi, «hay» là 还是, và không cần 吗."}
+{"id":"and-or.04","q":"«Tôi mệt, muốn ngủ» =","why":"和 nối danh từ, không nối câu: chỉ cần ngắt hơi."}
+{"id":"and-or.05","q":"«Thứ Bảy hoặc Chủ nhật tôi đi» =","why":"Trong câu khẳng định, «hoặc» là 或者."}
+{"id":"and-or.06","p":"Tôi và Vương Minh cùng đi (bắt đầu bằng 我)","why":"一起 đứng trước động từ: 我和王明一起去."}
+{"id":"and-or.07","p":"Thứ Bảy hoặc Chủ nhật tôi đi (bắt đầu bằng 我)","why":"Thời gian đứng trước động từ, và trong câu khẳng định «hoặc» là 或者."}
+{"id":"and-or.08","p":"Bạn muốn cái này hay cái kia?","why":"Trong câu hỏi bắt người kia chọn, «hay» là 还是; 和 là «và»."}
+{"id":"and-or.09","p":"Bạn muốn trà hay cà phê?","why":"Trong câu hỏi, «hay» là 还是."}
+{"id":"and-or.10","p":"Tôi và mẹ tôi cùng đi.","why":"和 nối hai người: 我和我妈妈."}
+{"id":"and-or.11","p":"Thứ Bảy hoặc Chủ nhật tôi đi.","why":"Trong câu khẳng định, «hoặc» là 或者."}
+{"id":"and-or.12","p":"Tôi và mẹ cùng đi siêu thị","why":"一起 đứng trước động từ: 一起去超市."}
+{"id":"and-or.13","p":"Quý khách dùng trà hay cà phê ạ? (nói với khách)","why":"Trong câu hỏi, «hay» là 还是."}
+{"id":"and-or.14","p":"Tôi lấy một bát mì và một cốc trà (dùng 要)","why":"Mì đựng trong bát dùng lượng từ 碗, trà đựng trong cốc dùng 杯."}

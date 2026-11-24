@@ -1,1 +1,14 @@
-{}
+{
+ "Chinese (required)": "Tiếng Trung (bắt buộc)",
+ "Chinese, pronunciation, meaning, note — one per line (pronunciation/note optional)": "Tiếng Trung, pinyin, nghĩa, ghi chú — mỗi dòng một thẻ (pinyin và ghi chú không bắt buộc)",
+ "Search a pattern, e.g. 에서 or 'want'": "Tìm mẫu câu, ví dụ 了 hoặc 'muốn'",
+ "#sounds-and-script": "#amvachu",
+ "#first-steps": "#buocdau",
+ "#everyday-words": "#tunguhangngay",
+ "#out-and-about": "#didaydido",
+ "#conversation": "#hoithoai",
+ "#core-words": "#tuvungcotloi",
+ "Report a problem on this page": "Báo lỗi trên trang này",
+ "Count my visits anonymously": "Đếm lượt truy cập của tôi một cách ẩn danh",
+ "Play": "Phát"
+}

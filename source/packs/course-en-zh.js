@@ -2014,8 +2014,8 @@ LANGAPP_PACKS.course['en-zh'] = {
       {"t":"fill","q":"我们走__。","p":"Let's go.","a":["吧","ba"],"o":["吗","呢","是"],"why":"吧 at the end makes it a suggestion: let's.","xr":["ma","ne","shì"]},
       {"t":"fill","q":"__担心。","p":"Don't worry.","a":["别","不要","bié","bú yào"],"o":["不","没","很"],"why":"别 or 不要 + verb means don't.","xr":["bù","méi","hěn"]},
       {"t":"fill","q":"__坐。","p":"Please have a seat.","a":["请","qǐng"],"o":["吧","吗","很"],"why":"请 goes before the verb: 请坐.","xr":["ba","ma","hěn"]},
-      {"t":"type","p":"Let's go to the supermarket tomorrow","a":["我们 明天 去 超市 吧","明天 我们 去 超市 吧","wǒmen míngtiān qù chāoshì ba","míngtiān wǒmen qù chāoshì ba"],"hint":"明天 · 去 · 超市 · 吧","x":["了"],"why":"Time goes before the verb, and 吧 at the end makes it let's.","xr":["le"]},
-      {"t":"type","p":"Let's buy two bottles of water","a":["我们 买 两 瓶 水 吧","wǒmen mǎi liǎng píng shuǐ ba"],"hint":"买 · 两 · 瓶 · 水 · 吧","x":["个","二"],"why":"Water in a bottle takes the measure word 瓶, and two before it is 两.","xr":["ge","èr"]},
+      {"t":"type","p":"Let's go to the supermarket tomorrow","a":["我们 明天 去 超市 吧","明天 我们 去 超市 吧","咱们 明天 去 超市 吧","明天 咱们 去 超市 吧","wǒmen míngtiān qù chāoshì ba","míngtiān wǒmen qù chāoshì ba","zánmen míngtiān qù chāoshì ba","míngtiān zánmen qù chāoshì ba"],"hint":"明天 · 去 · 超市 · 吧","x":["了"],"why":"Time goes before the verb, and 吧 at the end makes it let's.","xr":["le"]},
+      {"t":"type","p":"Let's buy two bottles of water","a":["我们 买 两 瓶 水 吧","咱们 买 两 瓶 水 吧","wǒmen mǎi liǎng píng shuǐ ba","zánmen mǎi liǎng píng shuǐ ba"],"hint":"买 · 两 · 瓶 · 水 · 吧","x":["个","二"],"why":"Water in a bottle takes the measure word 瓶, and two before it is 两.","xr":["ge","èr"]},
       {"t":"type","p":"Don't drink coffee (to a friend)","a":["别 喝 咖啡","不要 喝 咖啡","你 别 喝 咖啡","你 不要 喝 咖啡","bié hē kāfēi","bú yào hē kāfēi","nǐ bié hē kāfēi","nǐ bú yào hē kāfēi"],"hint":"别 · 喝 · 咖啡","x":["没"],"why":"别 or 不要 + verb means don't; 没 is for what didn't happen.","xr":["méi"]}
     ],
     "and-or": [

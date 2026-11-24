@@ -1,0 +1,886 @@
+{"id":"zh.c0001","meaning":"tám","note":"Âm Hán Việt: «bát» (tiếng Việt nói «tám»). b không bật hơi, như “p” trong “pin”; tai người Việt có thể nghe nó lưng chừng giữa “b” và “p”.","hv":"bát","hvUse":"none"}
+{"id":"zh.c0002","meaning":"sợ","note":"Âm Hán Việt: «phạ» (tiếng Việt nói «sợ»). p bật hơi mạnh như “th”; không bao giờ đọc thành “ph”.","hv":"phạ","hvUse":"none"}
+{"id":"zh.c0003","meaning":"đúng","note":"Âm Hán Việt: «đối», nhưng ở đây nghĩa là “đúng”, không phải «đối» trong «đối diện». d không bật hơi, như “t” tiếng Việt (không phải “d”); vận ui đọc gần “uây”.","hv":"đối","hvUse":"shifted"}
+{"id":"zh.c0004","meaning":"trời; ngày","note":"Âm Hán Việt: «thiên» (tiếng Việt nói «trời»). t bật hơi như “th”; vận ian đọc là “iên”, không phải “i-an”.","hv":"thiên","hvUse":"none"}
+{"id":"zh.c0005","meaning":"con chó","note":"Âm Hán Việt: «cẩu» (tiếng Việt nói «chó»). g không bật hơi, như “c” trong “ca”; ou đọc như “âu”.","hv":"cẩu","hvUse":"none"}
+{"id":"zh.c0006","meaning":"nhìn; xem","note":"Âm Hán Việt: «khán», như trong «khán giả». k là “c” bật hơi mạnh như “th”, không phải “kh”.","hv":"khán","hvUse":"none"}
+{"id":"zh.c0007","meaning":"con gà","note":"Âm Hán Việt: «kê» (tiếng Việt nói «gà»). j như “ch” giọng Bắc, đầu lưỡi hạ xuống sau răng dưới.","hv":"kê","hvUse":"none"}
+{"id":"zh.c0008","meaning":"đi","note":"Âm Hán Việt: «khứ», như trong «quá khứ». q là “ch” bật hơi, đầu lưỡi hạ xuống, không phải “qu”. Sau q, u thật ra là ü.","hv":"khứ","hvUse":"none"}
+{"id":"zh.c0009","meaning":"cảm ơn (động từ)","note":"Âm Hán Việt: «tạ», như trong «cảm tạ». x như “x” tiếng Việt nhưng nhẹ hơn, lưỡi phẳng sau răng dưới; không bao giờ là “ks”. Lặp lại thành 谢谢 = cảm ơn.","hv":"tạ","hvUse":"none"}
+{"id":"zh.c0010","meaning":"giữa","note":"Âm Hán Việt: «trung», nghĩa giống tiếng Việt (như «trung tâm»). zh: cong đầu lưỡi lên, gần “tr” giọng Nam, không bật hơi. Như trong 中国 (Trung Quốc).","hv":"trung","hvUse":"same"}
+{"id":"zh.c0011","meaning":"ăn","note":"Âm Hán Việt: «cật» (tiếng Việt nói «ăn»). ch: “tr” cong lưỡi và bật hơi. i ở đây là “ư” rung lưỡi, không đọc “chi”.","hv":"cật","hvUse":"none"}
+{"id":"zh.c0012","meaning":"là","note":"Âm Hán Việt: «thị» (tiếng Việt nói «là»). sh: cong lưỡi, gần “s” giọng Nam; i là “ư” rung lưỡi. Không đọc “si”.","hv":"thị","hvUse":"none"}
+{"id":"zh.c0013","meaning":"mặt trời; ngày","note":"Âm Hán Việt: «nhật», như trong «sinh nhật». r gần “r” giọng Nam, lưỡi cong; nguyên âm là “ư” rung lưỡi. Không đọc “ri”.","hv":"nhật","hvUse":"none"}
+{"id":"zh.c0014","meaning":"chữ","note":"Âm Hán Việt: «tự», như trong «văn tự». z đọc như “ts”, đầu lưỡi chạm chân răng trên, không bật hơi; i là “ư”.","hv":"tự","hvUse":"none"}
+{"id":"zh.c0015","meaning":"món ăn; rau","note":"Âm Hán Việt: «thái» (tiếng Việt nói «món», «rau»). c là “ts” bật hơi mạnh; không bao giờ đọc như “c” tiếng Việt.","hv":"thái","hvUse":"none"}
+{"id":"zh.c0016","meaning":"tuổi","note":"Âm Hán Việt: «tuế» (tiếng Việt nói «tuổi»). s như “x” tiếng Việt; ui đọc gần “uây”: suì ≈ “xuây”.","hv":"tuế","hvUse":"none"}
+{"id":"zh.c0017","meaning":"uống","note":"Âm Hán Việt: «hát», chỉ trùng âm, không liên quan đến ca hát. e đọc như “ơ”, không phải “e”. h là “kh”, thô hơn “h” tiếng Việt: hē ≈ “khơ”.","hv":"hát","hvUse":"none"}
+{"id":"zh.c0018","meaning":"màu xanh lá","note":"Âm Hán Việt: «lục», như trong «xanh lục». ü: tròn môi khi đọc “i”, không phải “uy”. Sau l và n, nó được viết có hai chấm.","hv":"lục","hvUse":"same"}
+{"id":"zh.c0019","meaning":"mẹ (như trong 妈妈)","note":"Âm Hán Việt: «ma» (tiếng Việt nói «mẹ»). Thanh 1: cao và bằng, giữ đều như ngân một nốt nhạc.","hv":"ma","hvUse":"none"}
+{"id":"zh.c0020","meaning":"tê; cây gai","note":"Âm Hán Việt: «ma». Thanh 2: đi lên từ giữa lên cao, như giọng ngạc nhiên khi hỏi lại. Bộ bốn: 妈 麻 马 骂.","hv":"ma","hvUse":"none"}
+{"id":"zh.c0021","meaning":"ngựa","note":"Âm Hán Việt: «mã» (tiếng Việt nói «ngựa»). Thanh 3: thấp. Đọc riêng thì xuống rồi lên; đứng trước thanh khác thì giữ thấp.","hv":"mã","hvUse":"none"}
+{"id":"zh.c0022","meaning":"mắng","note":"Âm Hán Việt: «mạ» (tiếng Việt nói «mắng»). Thanh 4: rơi mạnh từ cao xuống thấp, dứt khoát như một lời quát.","hv":"mạ","hvUse":"none"}
+{"id":"zh.c0023","meaning":"mua","note":"Âm Hán Việt: «mãi» (tiếng Việt nói «mua»). Thanh 3. Cùng chữ cái với 卖 (mài, bán): đổi thanh là đổi vai mua bán.","hv":"mãi","hvUse":"none"}
+{"id":"zh.c0024","meaning":"bán","note":"Âm Hán Việt: «mại», như trong «thương mại». Thanh 4: đi xuống. Nhầm 买 với 卖 là đổi người mua thành người bán.","hv":"mại","hvUse":"none"}
+{"id":"zh.c0025","meaning":"canh","note":"Âm Hán Việt: «thang» (tiếng Việt nói «canh»). Thanh 1, cao và bằng. Lên giọng thì thành 糖, đường.","hv":"thang","hvUse":"none"}
+{"id":"zh.c0026","meaning":"đường (để ăn)","note":"Âm Hán Việt: «đường», nghĩa giống tiếng Việt. Thanh 2: đi lên. Đọc bằng và cao thì thành 汤, canh.","hv":"đường","hvUse":"same"}
+{"id":"zh.c0027","meaning":"hỏi","note":"Âm Hán Việt: «vấn», như trong «phỏng vấn». Thanh 4: đi xuống. Đọc thấp thì thành 吻 (hôn).","hv":"vấn","hvUse":"none"}
+{"id":"zh.c0028","meaning":"hôn","note":"Âm Hán Việt: «vẫn» (tiếng Việt nói «hôn»). Thanh 3: thấp. 我可以问你吗？ (Tôi hỏi bạn được không?) mà đọc 问 thấp thì thành xin một nụ hôn.","hv":"vẫn","hvUse":"none"}
+{"id":"zh.c0029","meaning":"khói; thuốc lá","note":"Âm Hán Việt: «yên» (tiếng Việt nói «khói»). Thanh 1. Cùng chữ cái, khác thanh: 盐 (muối) đi lên, 眼 (mắt) xuống rồi lên.","hv":"yên","hvUse":"none"}
+{"id":"zh.c0030","meaning":"muối","note":"Âm Hán Việt: «diêm» (tiếng Việt nói «muối»). Thanh 2: đi lên. Đọc bằng và cao thì thành 烟, khói.","hv":"diêm","hvUse":"none"}
+{"id":"zh.c0031","meaning":"mắt","note":"Âm Hán Việt: «nhãn», như trong «nhãn khoa». Thanh 3: thấp. Khi nói thường dùng 眼睛 (yǎnjing).","hv":"nhãn","hvUse":"none"}
+{"id":"zh.c0032","meaning":"bảy","note":"Âm Hán Việt: «thất» (tiếng Việt nói «bảy»). Thanh 1. Đọc thanh 3 thấp thì là 起 (dậy); thanh 4 đi xuống thì là 气 (hơi, khí).","hv":"thất","hvUse":"none"}
+{"id":"zh.c0033","meaning":"dậy (như trong 起床)","note":"Âm Hán Việt: «khởi», như trong «khởi hành». Thanh 3: thấp. 起床 là ra khỏi giường.","hv":"khởi","hvUse":"none"}
+{"id":"zh.c0034","meaning":"không khí; cơn giận","note":"Âm Hán Việt: «khí», nghĩa giống tiếng Việt «khí» trong «không khí»; nghĩa “cơn giận” thì tiếng Việt không có. Thanh 4: đi xuống. 生气 là nổi giận.","hv":"khí","hvUse":"same"}
+{"id":"zh.c0035","meaning":"có","note":"Âm Hán Việt: «hữu», như trong «sở hữu». Thanh 3: thấp. 又 (lại) là thanh 4 đi xuống.","hv":"hữu","hvUse":"none"}
+{"id":"zh.c0036","meaning":"lại (lần nữa)","note":"Âm Hán Việt: «hựu» (tiếng Việt nói «lại»). Thanh 4: đi xuống. 有 (có) là thanh 3 thấp.","hv":"hựu","hvUse":"none"}
+{"id":"zh.c0037","meaning":"người","note":"Âm Hán Việt: «nhân», như trong «nhân dân». Trông như một người đang bước: hai chân.","hv":"nhân","hvUse":"none"}
+{"id":"zh.c0038","meaning":"miệng","note":"Âm Hán Việt: «khẩu», như trong «nhân khẩu». Cũng là lượng từ đếm người trong nhà: 四口人.","hv":"khẩu","hvUse":"none"}
+{"id":"zh.c0039","meaning":"cây; gỗ","note":"Âm Hán Việt: «mộc», nghĩa giống tiếng Việt (như «thợ mộc»). Hai cây thành 林 (rừng nhỏ), ba cây thành 森 (rừng rậm).","hv":"mộc","hvUse":"same"}
+{"id":"zh.c0040","meaning":"rừng","note":"Âm Hán Việt: «lâm», như trong «lâm nghiệp». Hai cây đứng cạnh nhau. Cũng là một họ phổ biến (họ Lâm).","hv":"lâm","hvUse":"none"}
+{"id":"zh.c0041","meaning":"rừng rậm","note":"Âm Hán Việt: «sâm». Ba cây: hơn cả rừng nhỏ. Thường nói 森林.","hv":"sâm","hvUse":"none"}
+{"id":"zh.c0042","meaning":"núi","note":"Âm Hán Việt: «sơn», như trong «giang sơn». Ba đỉnh núi trên một đường ngang.","hv":"sơn","hvUse":"none"}
+{"id":"zh.c0043","meaning":"mặt trăng; tháng","note":"Âm Hán Việt: «nguyệt», như trong «nguyệt thực». Vẽ từ hình trăng khuyết. 一月 là tháng Một.","hv":"nguyệt","hvUse":"none"}
+{"id":"zh.c0044","meaning":"sáng","note":"Âm Hán Việt: «minh», như trong «minh bạch». 日 (mặt trời) + 月 (mặt trăng). Trong 明天 nó nghĩa là “kế tiếp” (ngày mai).","hv":"minh","hvUse":"none"}
+{"id":"zh.c0045","meaning":"phụ nữ; nữ","note":"Âm Hán Việt: «nữ», nghĩa giống tiếng Việt. Đứng bên trái một chữ, nó gợi ý về phụ nữ: 妈, 姐, 妹.","hv":"nữ","hvUse":"same"}
+{"id":"zh.c0046","meaning":"con (con cái)","note":"Âm Hán Việt: «tử» (tiếng Việt nói «con»). Một em bé dang tay. Cũng là đuôi danh từ hay gặp: 饺子, 桌子.","hv":"tử","hvUse":"none"}
+{"id":"zh.c0047","meaning":"tốt","note":"Âm Hán Việt: «hảo», như trong «hảo hạng». 女 (phụ nữ) + 子 (con).","hv":"hảo","hvUse":"none"}
+{"id":"zh.c0048","meaning":"nghỉ","note":"Âm Hán Việt: «hưu», như trong «nghỉ hưu». 亻 (người) + 木 (cây): người tựa vào gốc cây nghỉ ngơi. Như trong 休息.","hv":"hưu","hvUse":"none"}
+{"id":"zh.c0049","meaning":"trên; lên","note":"Âm Hán Việt: «thượng», như trong «tầng thượng». Một nét ở trên một đường ngang. 桌子上 là “trên bàn”.","hv":"thượng","hvUse":"none"}
+{"id":"zh.c0050","meaning":"dưới; xuống","note":"Âm Hán Việt: «hạ», nghĩa giống tiếng Việt (như «hạ xuống»). Một nét ở dưới một đường ngang. 下雨 là “trời mưa”: mưa rơi xuống.","hv":"hạ","hvUse":"same"}
+{"id":"zh.c0051","meaning":"cửa; cổng","note":"Âm Hán Việt: «môn» (tiếng Việt nói «cửa»). Hai cánh cửa, đã giản thể. Chữ phồn thể: 門.","hv":"môn","hvUse":"none","trad":"門"}
+{"id":"zh.c0052","meaning":"mưa","note":"Âm Hán Việt: «vũ» (tiếng Việt nói «mưa»). Những giọt mưa rơi dưới bầu trời.","hv":"vũ","hvUse":"none"}
+{"id":"zh.c0053","meaning":"lửa","note":"Âm Hán Việt: «hỏa», như trong «hỏa hoạn». Ngọn lửa với hai tia lửa. 火车 (lửa + xe) là tàu hỏa.","hv":"hỏa","hvUse":"none"}
+{"id":"zh.c0054","meaning":"nước","note":"Âm Hán Việt: «thủy», như trong «thủy điện». Một dòng nước bắn tung. Đứng bên trái một chữ, nó thành 氵: 汤, 酒.","hv":"thủy","hvUse":"none"}
+{"id":"zh.c0055","meaning":"Xin chào!","note":"Dùng được với mọi người. Với người lớn tuổi hoặc khách hàng: 您好！"}
+{"id":"zh.c0056","meaning":"Xin chào! (lịch sự)","note":"您 là ngôi “bạn” kính trọng: với người lớn tuổi, thầy cô và khách hàng. Tiếng Việt thường thay bằng «ông, bà, thầy, cô… ạ»."}
+{"id":"zh.c0057","meaning":"Chào mọi người!","note":"Nói với một nhóm hoặc cả lớp. 大家 nghĩa là mọi người."}
+{"id":"zh.c0058","meaning":"Chào thầy (cô) ạ!","note":"Học sinh chào thầy cô bằng chức danh, không gọi tên."}
+{"id":"zh.c0059","meaning":"Chào buổi sáng!","note":"Dùng vào buổi sáng. Bạn bè thường chỉ nói 早！"}
+{"id":"zh.c0060","meaning":"Chúc ngủ ngon!","note":"Chỉ nói khi ai đó đi ngủ, không dùng để chào buổi tối."}
+{"id":"zh.c0061","meaning":"Dạo này thế nào?","note":"Câu hỏi thăm thân mật. 你好吗？ là câu hỏi thật về tình hình của người kia."}
+{"id":"zh.c0062","meaning":"Rất vui được làm quen với bạn.","note":"Nghĩa đen: “quen bạn, tôi rất vui”. 很高兴认识你 cũng phổ biến như vậy. Với người lớn tuổi hơn: 认识您很高兴。"}
+{"id":"zh.c0063","meaning":"Cảm ơn!","note":"Với người nhà và bạn thân, người Trung Quốc ít nói cảm ơn, khá giống người Việt: cảm ơn nhiều quá có khi nghe khách sáo."}
+{"id":"zh.c0064","meaning":"Cảm ơn ạ! (lịch sự)","note":"Với người lớn tuổi, thầy cô hoặc khách hàng."}
+{"id":"zh.c0065","meaning":"Không có gì.","note":"Nghĩa đen: “đừng khách sáo”. Đọc bú vì 客 mang thanh 4."}
+{"id":"zh.c0066","meaning":"Tôi xin lỗi!","note":"Lời xin lỗi thật sự: va vào ai, làm vỡ đồ, đến muộn."}
+{"id":"zh.c0067","meaning":"Không sao.","note":"Câu đáp lại 对不起 (xin lỗi)."}
+{"id":"zh.c0068","meaning":"Xin lỗi. / Làm phiền một chút.","note":"Cho chuyện nhỏ: gọi ai đó, xin đi qua, bắt người khác chờ một lát. Nhẹ hơn 对不起."}
+{"id":"zh.c0069","meaning":"Không có gì. / Đừng bận tâm.","note":"Câu đáp thân mật khi được cảm ơn hoặc khi ai đó xin lỗi chuyện nhỏ."}
+{"id":"zh.c0070","meaning":"Xin hỏi…","note":"Âm Hán Việt: «thỉnh vấn» (tiếng Việt nói «xin hỏi»). Mở đầu câu hỏi với người lạ: 请问，地铁站在哪儿？","hv":"thỉnh vấn","hvUse":"none"}
+{"id":"zh.c0071","meaning":"Tạm biệt!","note":"Nghĩa đen: “lại gặp”. Người đi hay người ở lại đều nói câu này như nhau."}
+{"id":"zh.c0072","meaning":"Mai gặp nhé!","note":"Thời điểm + 见: 星期一见 là “thứ Hai gặp nhé”."}
+{"id":"zh.c0073","meaning":"bố","note":"Âm Hán Việt: «ba ba» (tiếng Việt nói «bố», miền Nam nói «ba»). Giống 妈妈, âm tiết thứ hai đọc thanh nhẹ.","hv":"ba ba","hvUse":"none"}
+{"id":"zh.c0074","meaning":"mẹ","note":"Âm Hán Việt: «ma ma» (tiếng Việt nói «mẹ»). Chữ 妈 thứ hai đọc thanh nhẹ: māma.","hv":"ma ma","hvUse":"none"}
+{"id":"zh.c0075","meaning":"anh trai","note":"Âm Hán Việt: «ca ca» (tiếng Việt nói «anh trai»). Không có từ chỉ chung “anh em trai”: anh là 哥哥, em là 弟弟.","hv":"ca ca","hvUse":"none"}
+{"id":"zh.c0076","meaning":"chị gái","note":"Âm Hán Việt: «thư thư» (tiếng Việt nói «chị gái»). Em gái: 妹妹.","hv":"thư thư","hvUse":"none"}
+{"id":"zh.c0077","meaning":"em trai","note":"Âm Hán Việt: «đệ đệ»; «đệ» có trong «huynh đệ». Anh trai: 哥哥.","hv":"đệ đệ","hvUse":"none"}
+{"id":"zh.c0078","meaning":"em gái","note":"Âm Hán Việt: «muội muội» (tiếng Việt nói «em gái»). Chị gái: 姐姐.","hv":"muội muội","hvUse":"none"}
+{"id":"zh.c0079","meaning":"ông nội (bố của bố)","note":"Âm Hán Việt: «gia gia». Bố của mẹ có từ riêng: 姥爷 hoặc 外公, như «ông ngoại».","hv":"gia gia","hvUse":"none"}
+{"id":"zh.c0080","meaning":"bà nội (mẹ của bố)","note":"Âm Hán Việt: «nãi nãi». Mẹ của mẹ có từ riêng: 姥姥 hoặc 外婆, như «bà ngoại».","hv":"nãi nãi","hvUse":"none"}
+{"id":"zh.c0081","meaning":"con trai","note":"Âm Hán Việt: «nhi tử» (tiếng Việt nói «con trai»). 子 ở đây đọc thanh nhẹ.","hv":"nhi tử","hvUse":"none"}
+{"id":"zh.c0082","meaning":"con gái","note":"Âm Hán Việt: «nữ nhi», nhưng tiếng Việt «nữ nhi» (văn chương) chỉ phụ nữ nói chung, không phải con gái của mình. 女 (phụ nữ) + 儿 (trẻ nhỏ).","hv":"nữ nhi","hvUse":"shifted"}
+{"id":"zh.c0083","meaning":"bạn bè","note":"Âm Hán Việt: «bằng hữu», nghĩa giống tiếng Việt (văn viết). 我朋友 và 我的朋友 đều là “bạn tôi”.","hv":"bằng hữu","hvUse":"same"}
+{"id":"zh.c0084","meaning":"chúng tôi; chúng ta","note":"们 tạo số nhiều cho người, như «các, chúng»: 我们, 你们, 他们.","hvUse":"skip"}
+{"id":"zh.c0085","meaning":"họ","note":"Cho nam hoặc nhóm có cả nam lẫn nữ. Chỉ toàn nữ: 她们. Cả hai đều đọc tāmen.","hvUse":"skip"}
+{"id":"zh.c0086","meaning":"Nhà bạn có mấy người?","note":"几 hỏi số nhỏ; 口 đếm người trong nhà."}
+{"id":"zh.c0087","meaning":"Nhà tôi có bốn người.","note":"口 là lượng từ đếm người trong gia đình."}
+{"id":"zh.c0088","meaning":"Tôi có một anh trai.","note":"Số + lượng từ + danh từ. Hai anh trai: 两个哥哥."}
+{"id":"zh.c0089","meaning":"Tôi không có anh chị em.","note":"没有, không bao giờ 不有."}
+{"id":"zh.c0090","meaning":"cô, dì (người cỡ tuổi bố mẹ)","note":"Âm Hán Việt: «a di». Giống tiếng Việt gọi người lạ là «cô, dì»: cũng dùng cho bạn của gia đình, hàng xóm hay người giúp việc. Với nam: 叔叔.","hv":"a di","hvUse":"none"}
+{"id":"zh.c0091","meaning":"Tôi tên là Anna.","note":"叫 = tên là. Tên người Trung Quốc đặt họ trước, giống tên người Việt."}
+{"id":"zh.c0092","meaning":"Bạn tên là gì?","note":"Hỏi người ngang hàng hoặc trẻ con. 什么 (gì) đứng đúng chỗ của câu trả lời, như tiếng Việt."}
+{"id":"zh.c0093","meaning":"Ngài họ gì ạ?","note":"Trả lời 我姓王 (tôi họ Vương), không nói 我贵姓."}
+{"id":"zh.c0094","meaning":"Tôi họ Vương.","note":"姓 = mang họ. Câu trả lời thường gặp cho 您贵姓？"}
+{"id":"zh.c0095","meaning":"Tôi là người Mỹ.","note":"Tên nước + 人 (người): 美国人, 中国人. Ngược thứ tự với «người Mỹ»."}
+{"id":"zh.c0096","meaning":"Bạn là người nước nào?","note":"Nghĩa đen: “bạn là nước-nào người?”: từ chỉ nước đứng trước «người»."}
+{"id":"zh.c0097","meaning":"Tôi không phải người Trung Quốc.","note":"不 trước 是 đọc bú, vì 是 mang thanh 4."}
+{"id":"zh.c0098","meaning":"Tôi cũng là người Mỹ.","note":"也 (cũng) đứng trước động từ, đúng chỗ của «cũng» trong tiếng Việt."}
+{"id":"zh.c0099","meaning":"Chúng tôi đều là người Mỹ.","note":"都 (đều) đứng sau chủ ngữ và trước động từ, như «đều»."}
+{"id":"zh.c0100","meaning":"Tôi sống ở New York.","note":"Với 住 (sống), 在 + nơi chốn đứng sau động từ; với phần lớn động từ khác, nó đứng trước."}
+{"id":"zh.c0101","meaning":"Bạn sống ở đâu?","note":"哪儿 (đâu) đứng đúng chỗ của câu trả lời. Cũng nói: 你住哪儿？"}
+{"id":"zh.c0102","meaning":"Năm nay tôi hai mươi lăm tuổi.","note":"Không có 是, cũng không cần động từ: chỉ số + 岁, như «tôi 25 tuổi»."}
+{"id":"zh.c0103","meaning":"Năm nay bạn bao nhiêu tuổi? (hỏi người lớn)","note":"Hỏi trẻ con: 你几岁？"}
+{"id":"zh.c0104","meaning":"Tôi học tiếng Trung.","note":"中文 là tiếng Trung; 汉语 cũng vậy. 学习 (học tập) cũng được: 我学习中文."}
+{"id":"zh.c0105","meaning":"Tôi thích hát.","note":"喜欢 + động từ, ở giữa không cần thêm từ nào, như «thích hát»."}
+{"id":"zh.c0106","meaning":"Sở thích của tôi là đọc sách.","note":"爱好 = sở thích. 看书, nghĩa đen “nhìn sách”, là đọc sách."}
+{"id":"zh.c0107","meaning":"Bố tôi là người Trung Quốc.","note":"Người thân trong nhà thường không cần 的: 我爸爸, như «bố tôi»."}
+{"id":"zh.c0108","meaning":"số không","note":"Âm Hán Việt: «linh», như «linh» trong «một trăm linh năm»; nghĩa “số không” thì tiếng Việt nói «không». Nó cũng lấp chỗ trống trong số: 一百零五 (105).","hv":"linh","hvUse":"same"}
+{"id":"zh.c0109","meaning":"một","note":"Âm Hán Việt: «nhất», như trong «thứ nhất». Đọc như vậy khi đếm. Trước từ khác, thanh của nó đổi: 一个, 一杯.","hv":"nhất","hvUse":"none"}
+{"id":"zh.c0110","meaning":"hai (khi đếm)","note":"Âm Hán Việt: «nhị» (tiếng Việt nói «hai»). Dùng khi đếm, đọc số điện thoại và trong số lớn: 十二, 二十.","hv":"nhị","hvUse":"none"}
+{"id":"zh.c0111","meaning":"hai (trước lượng từ)","note":"Âm Hán Việt: «lưỡng» (tiếng Việt nói «hai»). 两个人, 两杯茶. Khi đếm và trong số lớn dùng 二 (十二, 二十).","hv":"lưỡng","hvUse":"none"}
+{"id":"zh.c0112","meaning":"ba","note":"Âm Hán Việt: «tam» (tiếng Việt nói «ba»).","hv":"tam","hvUse":"none"}
+{"id":"zh.c0113","meaning":"mười","note":"Âm Hán Việt: «thập» (tiếng Việt nói «mười»). Thanh 2. Dễ lẫn với 四 (sì, bốn): nghe kỹ âm sh cong lưỡi.","hv":"thập","hvUse":"none"}
+{"id":"zh.c0114","meaning":"mười lăm","note":"Âm Hán Việt: «thập ngũ». Mười + năm, giống tiếng Việt. Năm mươi là 五十: năm chục.","hv":"thập ngũ","hvUse":"none"}
+{"id":"zh.c0115","meaning":"hai mươi","note":"Âm Hán Việt: «nhị thập». Hai chục. Hai mươi mốt: 二十一.","hv":"nhị thập","hvUse":"none"}
+{"id":"zh.c0116","meaning":"chín mươi chín","note":"Âm Hán Việt: «cửu thập cửu». Chín chục và chín, đúng thứ tự «chín mươi chín».","hv":"cửu thập cửu","hvUse":"none"}
+{"id":"zh.c0117","meaning":"một trăm","note":"Âm Hán Việt: «nhất bách». 一百五 là 150, nói tắt của 一百五十 (như «trăm rưởi»). 105 là 一百零五.","hv":"nhất bách","hvUse":"none"}
+{"id":"zh.c0118","meaning":"một trăm linh năm","note":"Âm Hán Việt: «nhất bách linh ngũ». 零 đánh dấu hàng chục bị trống, như «linh» trong tiếng Việt.","hv":"nhất bách linh ngũ","hvUse":"none"}
+{"id":"zh.c0119","meaning":"một nghìn","note":"Âm Hán Việt: «nhất thiên» (tiếng Việt nói «một nghìn»).","hv":"nhất thiên","hvUse":"none"}
+{"id":"zh.c0120","meaning":"mười nghìn; một vạn","note":"Âm Hán Việt: «nhất vạn»; «vạn» = mười nghìn, như tiếng Việt «một vạn». Tiếng Trung gom số lớn theo bốn số 0: 100.000 là 十万, mười vạn.","hv":"nhất vạn","hvUse":"none"}
+{"id":"zh.c0121","meaning":"Bao nhiêu tiền?","note":"多少 hỏi mọi số lượng; 几 chỉ hỏi số nhỏ mà bạn đoán là dưới mười."}
+{"id":"zh.c0122","meaning":"một tệ","note":"Âm Hán Việt: «nhất khối tiền»; «tiền» nghĩa giống tiếng Việt. Khi nói, 钱 hay đi sau số tiền: 十块钱.","hv":"nhất khối tiền","hvUse":"none"}
+{"id":"zh.c0123","meaning":"Hai mươi lăm tệ","note":"Âm Hán Việt: «nhị thập ngũ khối». Khi nói dùng 块, trên bảng giá ghi 元.","hv":"nhị thập ngũ khối","hvUse":"none"}
+{"id":"zh.c0124","meaning":"nửa tệ (năm hào)","note":"Âm Hán Việt: «ngũ mao». 毛 là một phần mười tệ khi nói, giống «hào»; trên bảng giá là 角.","hv":"ngũ mao","hvUse":"none"}
+{"id":"zh.c0125","meaning":"Ba tệ rưỡi","note":"Âm Hán Việt: «tam khối ngũ». Nói tắt của 三块五毛: đơn vị cuối thường được bỏ.","hv":"tam khối ngũ","hvUse":"none"}
+{"id":"zh.c0126","meaning":"một người","note":"Âm Hán Việt: «nhất cá nhân». 个 là lượng từ đa năng (gần như «cái»), nhưng nhiều danh từ có lượng từ riêng.","hv":"nhất cá nhân","hvUse":"none"}
+{"id":"zh.c0127","meaning":"ba quyển sách","note":"Âm Hán Việt: «tam bản thư». 本 cho sách và vở, như «quyển». Không nói 三书.","hv":"tam bản thư","hvUse":"none"}
+{"id":"zh.c0128","meaning":"một cốc cà phê","note":"杯 cho cốc, ly: 一杯水, 两杯茶.","hvUse":"skip"}
+{"id":"zh.c0129","meaning":"hai vé","note":"Âm Hán Việt: «lưỡng trương phiếu». 张 cho vật phẳng, như «tờ, tấm»: vé, bàn, ảnh, giấy.","hv":"lưỡng trương phiếu","hvUse":"none"}
+{"id":"zh.c0130","meaning":"một con mèo","note":"Âm Hán Việt: «nhất chích miêu». 只 (zhī) cho phần lớn động vật, như «con». Cũng chữ này đọc zhǐ nghĩa là “chỉ”.","hv":"nhất chích miêu","hvUse":"none"}
+{"id":"zh.c0131","meaning":"hai con chó","note":"Âm Hán Việt: «lưỡng chích cẩu». Lại là 只, cho động vật. Trước lượng từ dùng 两, không dùng 二.","hv":"lưỡng chích cẩu","hvUse":"none"}
+{"id":"zh.c0132","meaning":"một con cá","note":"Âm Hán Việt: «nhất điều ngư». 条 cho vật dài và mảnh: cá, con đường, quần.","hv":"nhất điều ngư","hvUse":"none"}
+{"id":"zh.c0133","meaning":"một chiếc áo","note":"Âm Hán Việt: «nhất kiện y phục»; «y phục» là quần áo, như tiếng Việt. 件 cho quần áo, nhất là áo, như «chiếc».","hv":"nhất kiện y phục","hvUse":"none"}
+{"id":"zh.c0134","meaning":"một đôi giày","note":"Âm Hán Việt: «nhất song hài»; «song» là đôi, như trong «song sinh». 双 = đôi: giày, tất, đũa.","hv":"nhất song hài","hvUse":"none"}
+{"id":"zh.c0135","meaning":"một chai nước","note":"Âm Hán Việt: «nhất bình thủy». 瓶 = chai, bình.","hv":"nhất bình thủy","hvUse":"none"}
+{"id":"zh.c0136","meaning":"một chiếc xe","note":"Âm Hán Việt: «nhất lượng xa». 辆 cho ô tô, xe đạp, xe buýt, như «chiếc».","hv":"nhất lượng xa","hvUse":"none"}
+{"id":"zh.c0137","meaning":"một thầy giáo (lịch sự)","note":"Âm Hán Việt: «nhất vị lão sư». 位 là lượng từ lịch sự cho người, giống «vị» trong «một vị khách».","hv":"nhất vị lão sư","hvUse":"none"}
+{"id":"zh.c0138","meaning":"một quán ăn","note":"Âm Hán Việt: «nhất gia phạn quán». 家 cho cửa hàng, quán ăn và công ty.","hv":"nhất gia phạn quán","hvUse":"none"}
+{"id":"zh.c0139","meaning":"cái này","note":"这 + lượng từ: 这个, 这本书.","hvUse":"skip"}
+{"id":"zh.c0140","meaning":"cái kia","note":"那 + lượng từ, như «cái kia».","hvUse":"skip"}
+{"id":"zh.c0141","meaning":"cái bàn kia","note":"那 + lượng từ + danh từ. Bàn dùng 张 vì mặt bàn phẳng.","hvUse":"skip"}
+{"id":"zh.c0142","meaning":"quyển sách này","note":"Không cần số: 这 + lượng từ + danh từ. Không nói 这书.","hvUse":"skip"}
+{"id":"zh.c0143","meaning":"Mấy người?","note":"几 + lượng từ hỏi số nhỏ. Nhân viên nhà hàng hỏi lịch sự hơn: 几位？"}
+{"id":"zh.c0144","meaning":"sủi cảo","note":"Âm Hán Việt: «giảo tử» (tiếng Việt gọi là «sủi cảo»). Món ăn gia đình miền Bắc Trung Quốc, ăn vào dịp Tết.","hv":"giảo tử","hvUse":"none"}
+{"id":"zh.c0145","meaning":"bánh bao","note":"Âm Hán Việt: «bao tử», chỉ trùng âm với «bao tử» (dạ dày); tiếng Việt gọi là «bánh bao». Nhân thịt hoặc rau; món ăn sáng quen thuộc.","hv":"bao tử","hvUse":"none"}
+{"id":"zh.c0146","meaning":"cơm","note":"Âm Hán Việt: «mễ phạn» (tiếng Việt nói «cơm»). 饭 riêng nó cũng là bữa ăn: 吃饭 là ăn cơm.","hv":"mễ phạn","hvUse":"none"}
+{"id":"zh.c0147","meaning":"lẩu","note":"Âm Hán Việt: «hỏa oa» (tiếng Việt nói «lẩu»). Nồi nước dùng đặt giữa bàn, ai cũng tự nhúng thịt và rau.","hv":"hỏa oa","hvUse":"none"}
+{"id":"zh.c0148","meaning":"vịt quay Bắc Kinh","note":"Âm Hán Việt: «Bắc Kinh khảo áp». Cuốn trong bánh mỏng với nước sốt và hành lá.","hv":"Bắc Kinh khảo áp","hvUse":"none"}
+{"id":"zh.c0149","meaning":"một bát mì","note":"Âm Hán Việt: «nhất oản miến điều» (一碗麵條); «miến» ở đây là mì, không phải «miến» của tiếng Việt. 碗 (bát) là lượng từ.","hv":"nhất oản miến điều","hvUse":"none","trad":"一碗麵條"}
+{"id":"zh.c0150","meaning":"trà xanh","note":"Âm Hán Việt: «lục trà» (tiếng Việt thường nói «trà xanh»). 红茶, nghĩa đen “trà đỏ”, là hồng trà (trà đen).","hv":"lục trà","hvUse":"none"}
+{"id":"zh.c0151","meaning":"Bạn muốn ăn gì?","note":"想 = muốn. 什么 đứng đúng chỗ câu trả lời, sau động từ, như «ăn gì»."}
+{"id":"zh.c0152","meaning":"Cho tôi một cốc trà sữa.","note":"Khi gọi món, nói 我要 là bình thường; 请给我 mềm hơn."}
+{"id":"zh.c0153","meaning":"Cho một đĩa gà Kung Pao.","note":"来 + số lượng + món là cách gọi món rất phổ biến."}
+{"id":"zh.c0154","meaning":"Chúng tôi muốn gọi món.","note":"点菜 = gọi món."}
+{"id":"zh.c0155","meaning":"Không lấy cay nhé.","note":"Nghĩa đen: “không lấy loại cay”. Hơi cay: 微辣."}
+{"id":"zh.c0156","meaning":"hơi cay","note":"Âm Hán Việt: «vi lạt»; «vi» là nhỏ, như trong «vi mô». Nói câu này khi người phục vụ hỏi bạn muốn cay đến mức nào.","hv":"vi lạt","hvUse":"none"}
+{"id":"zh.c0157","meaning":"Tôi không ăn thịt.","note":"不 cho thói quen và lựa chọn."}
+{"id":"zh.c0158","meaning":"một chai bia","note":"Bia thường là chai lớn để uống chung.","hvUse":"skip"}
+{"id":"zh.c0159","meaning":"Tôi no rồi.","note":"了 cho thấy sự thay đổi: lúc trước chưa no, giờ thì no rồi."}
+{"id":"zh.c0160","meaning":"Gói mang về được không?","note":"打包 = gói đồ ăn thừa hoặc đồ mang đi."}
+{"id":"zh.c0161","meaning":"Xin lỗi, tính tiền giúp tôi!","note":"Gọi người phục vụ là 服务员, đừng gọi 小姐. Ở quán Việt, câu tương đương là «Em ơi, tính tiền!»."}
+{"id":"zh.c0162","meaning":"Đắt quá!","note":"太 + tính từ + 了: … quá."}
+{"id":"zh.c0163","meaning":"Bớt cho tôi một chút nhé.","note":"Mặc cả được ở chợ, không được ở trung tâm thương mại hay siêu thị."}
+{"id":"zh.c0164","meaning":"Quét mã trả tiền được không?","note":"Phần lớn cửa hàng ở Trung Quốc nhận trả tiền bằng điện thoại: bạn quét mã của cửa hàng."}
+{"id":"zh.c0165","meaning":"Có cỡ lớn không?","note":"Các cỡ: 大号, 中号, 小号."}
+{"id":"zh.c0166","meaning":"Tôi xem một chút thôi.","note":"Nghĩa đen: “tôi xem xem”: động từ lặp lại làm câu nhẹ đi, như «xem xem» trong tiếng Việt."}
+{"id":"zh.c0167","meaning":"Cái áo này bao nhiêu tiền?","note":"件 là lượng từ cho áo: 这件衣服."}
+{"id":"zh.c0168","meaning":"Tất cả bao nhiêu tiền?","note":"一共 = tổng cộng. Hỏi câu này khi thanh toán."}
+{"id":"zh.c0169","meaning":"Tôi lấy cái này.","note":"Chỉ tay và nói: không cần biết tên món đồ."}
+{"id":"zh.c0170","meaning":"Tôi mặc thử được không?","note":"试试 là động từ lặp lại: “thử xem”."}
+{"id":"zh.c0171","meaning":"Có màu khác không?","note":"别的 = khác."}
+{"id":"zh.c0172","meaning":"Có cái nhỏ hơn một chút không?","note":"Tính từ + 一点儿 = hơn một chút: 大一点儿, 便宜一点儿."}
+{"id":"zh.c0173","meaning":"Cái này to quá.","note":"Khi cả hai đã biết là quần áo thì 这件 là đủ: không cần nhắc lại 衣服."}
+{"id":"zh.c0174","meaning":"Có giảm giá không?","note":"打折 = giảm giá. Trên biển, 八折 nghĩa là bạn trả 80%, tức giảm 20%."}
+{"id":"zh.c0175","meaning":"Trả bằng thẻ tín dụng được không?","note":"Cửa hàng lớn và khách sạn nhận thẻ; cửa hàng nhỏ thường chỉ nhận trả qua điện thoại."}
+{"id":"zh.c0176","meaning":"Trả tiền mặt được không?","note":"现金 = tiền mặt. Cửa hàng nhỏ có thể không đủ tiền lẻ."}
+{"id":"zh.c0177","meaning":"Tôi muốn mua một đôi giày.","note":"双 là lượng từ cho đôi: 一双鞋, 一双筷子."}
+{"id":"zh.c0178","meaning":"Để tôi xem thêm đã.","note":"Cách lịch sự để đi mà không mua gì."}
+{"id":"zh.c0179","meaning":"Thôi, tôi không lấy nữa.","note":"了 ở đây cho thấy sự đổi ý."}
+{"id":"zh.c0180","meaning":"ngày mai","note":"Âm Hán Việt: «minh thiên» (tiếng Việt nói «ngày mai»). Từ chỉ thời gian đứng trước động từ: 我明天去.","hv":"minh thiên","hvUse":"none"}
+{"id":"zh.c0181","meaning":"thứ Hai","note":"Âm Hán Việt: «tinh kỳ nhất». Ngày trong tuần = 星期 + số, nên số lệch một so với tiếng Việt: 星期一 là thứ Hai. Chủ nhật là 星期天 hoặc 星期日.","hv":"tinh kỳ nhất","hvUse":"none"}
+{"id":"zh.c0182","meaning":"Bây giờ là mấy giờ?","note":"点 = giờ. Hai giờ là 两点, không phải 二点."}
+{"id":"zh.c0183","meaning":"ba giờ rưỡi","note":"Âm Hán Việt: «tam điểm bán». 半 = rưỡi.","hv":"tam điểm bán","hvUse":"none"}
+{"id":"zh.c0184","meaning":"ngày 3 tháng 12","note":"Tháng trước, ngày sau: từ lớn đến nhỏ, ngược với tiếng Việt. Khi viết, 日 hay thay cho 号."}
+{"id":"zh.c0185","meaning":"Hôm nay thứ mấy?","note":"几 hỏi con số: nghĩa đen “hôm nay tuần-số-mấy?”."}
+{"id":"zh.c0186","meaning":"Hôm nay là ngày mấy?","note":"号 là ngày trong tháng khi nói."}
+{"id":"zh.c0187","meaning":"Hôm nay thứ Sáu.","note":"Với thứ và ngày có thể bỏ 是, như tiếng Việt."}
+{"id":"zh.c0188","meaning":"hôm qua","note":"Âm Hán Việt: «tạc thiên» (tiếng Việt nói «hôm qua»). Hôm kia là 前天; ngày kia là 后天.","hv":"tạc thiên","hvUse":"none"}
+{"id":"zh.c0189","meaning":"cuối tuần","note":"Âm Hán Việt: «chu mạt» (tiếng Việt nói «cuối tuần»). 星期六 và 星期天 gộp lại.","hv":"chu mạt","hvUse":"none"}
+{"id":"zh.c0190","meaning":"hai giờ mười phút","note":"Âm Hán Việt: «lưỡng điểm thập phân», chỉ tình cờ trùng với «thập phân» tiếng Việt. 分 = phút. Hai giờ luôn là 两点, không bao giờ 二点.","hv":"lưỡng điểm thập phân","hvUse":"none"}
+{"id":"zh.c0191","meaning":"tám giờ mười lăm phút","note":"Âm Hán Việt: «bát điểm nhất khắc». 一刻 = mười lăm phút. Cũng có thể nói 八点十五.","hv":"bát điểm nhất khắc","hvUse":"none"}
+{"id":"zh.c0192","meaning":"bảy giờ tối","note":"Âm Hán Việt: «vãn thượng thất điểm». Buổi trước, giờ sau: từ lớn đến nhỏ, ngược với «bảy giờ tối».","hv":"vãn thượng thất điểm","hvUse":"none"}
+{"id":"zh.c0193","meaning":"một tiếng đồng hồ","note":"Âm Hán Việt: «nhất cá tiểu thời». 小时 thường đi với lượng từ 个: 一个小时, 两个小时.","hv":"nhất cá tiểu thời","hvUse":"none"}
+{"id":"zh.c0194","meaning":"mười phút","note":"Âm Hán Việt: «thập phân chung». 分钟 đếm phút trực tiếp, không cần 个.","hv":"thập phân chung","hvUse":"none"}
+{"id":"zh.c0195","meaning":"Mỗi ngày tôi dậy lúc bảy giờ.","note":"Thời điểm đứng trước động từ: 每天七点起床."}
+{"id":"zh.c0196","meaning":"Thứ Bảy gặp nhau nhé.","note":"Nghĩa đen: “chúng ta thứ Bảy gặp”: thời gian đứng trước 见."}
+{"id":"zh.c0197","meaning":"Mấy giờ bạn tan làm?","note":"几点 đứng đúng chỗ của câu trả lời, trước động từ."}
+{"id":"zh.c0198","meaning":"Nhà vệ sinh ở đâu?","note":"Vật + 在 + 哪儿. Cũng nói 厕所 (thẳng thừng hơn)."}
+{"id":"zh.c0199","meaning":"đi thẳng","note":"Âm Hán Việt: «vãng tiền tẩu». Cũng nói 一直走.","hv":"vãng tiền tẩu","hvUse":"none"}
+{"id":"zh.c0200","meaning":"rẽ trái","note":"Âm Hán Việt: «tả quải»; «tả» là trái, như trong «tả hữu». Rẽ phải: 右拐.","hv":"tả quải","hvUse":"none"}
+{"id":"zh.c0201","meaning":"Ngân hàng ở bên cạnh siêu thị.","note":"Từ chỉ vị trí đứng sau danh từ: 超市旁边, ngược với «cạnh siêu thị»."}
+{"id":"zh.c0202","meaning":"Gần đây có ga tàu điện ngầm không?","note":"Nơi chốn trước, rồi 有: “gần đây có…”, giống tiếng Việt."}
+{"id":"zh.c0203","meaning":"bên phải","note":"Âm Hán Việt: «hữu biên»; «hữu» là phải, như trong «tả hữu». Bên trái: 左边. 在右边 = ở bên phải.","hv":"hữu biên","hvUse":"none"}
+{"id":"zh.c0204","meaning":"Bệnh viện ở đối diện ngân hàng.","note":"对面 (âm Hán Việt «đối diện») đứng sau nơi nó đối diện: 银行对面."}
+{"id":"zh.c0205","meaning":"Đến ngã tư thì rẽ phải.","note":"Nơi chốn (在路口) đứng trước hành động (右拐)."}
+{"id":"zh.c0206","meaning":"Có xa đây không?","note":"离 = cách. Trả lời: 不远 (không xa), 很近 (gần)."}
+{"id":"zh.c0207","meaning":"Đi bộ năm phút.","note":"Nghĩa đen: “đi bộ năm phút”, giống hệt tiếng Việt."}
+{"id":"zh.c0208","meaning":"Xin hỏi, đến Thiên An Môn đi thế nào?","note":"去 + nơi chốn + 怎么走: cách hỏi đường chuẩn."}
+{"id":"zh.c0209","meaning":"Ở ngay đằng kia.","note":"就 thêm nghĩa “ngay, chính”."}
+{"id":"zh.c0210","meaning":"Công viên ở phía trước.","note":"前边 = phía trước; 后边 = phía sau."}
+{"id":"zh.c0211","meaning":"đèn giao thông","note":"Âm Hán Việt: «hồng lục đăng». Nghĩa đen: “đèn đỏ xanh”, như «đèn xanh đèn đỏ».","hv":"hồng lục đăng","hvUse":"none"}
+{"id":"zh.c0212","meaning":"qua đường","note":"Âm Hán Việt: «quá mã lộ». 马路 = đường cái; nghĩa đen “đường ngựa”.","hv":"quá mã lộ","hvUse":"none"}
+{"id":"zh.c0213","meaning":"Tôi đi siêu thị mua đồ.","note":"Hai động từ liền nhau: 去 + nơi chốn + việc làm ở đó, giống «đi siêu thị mua đồ»."}
+{"id":"zh.c0214","meaning":"Tôi đợi bạn ở công viên.","note":"Nơi chốn với 在 đứng trước động từ 等 (đợi), ngược với tiếng Việt."}
+{"id":"zh.c0215","meaning":"taxi","note":"Âm Hán Việt: «xuất tô xa»; «tô» là cho thuê. Ở Đài Loan: 計程車. Bây giờ phần lớn mọi người đặt xe qua ứng dụng.","hv":"xuất tô xa","hvUse":"none"}
+{"id":"zh.c0216","meaning":"tàu điện ngầm","note":"Âm Hán Việt: «địa thiết». Trả bằng điện thoại hoặc thẻ đi tàu.","hv":"địa thiết","hvUse":"none"}
+{"id":"zh.c0217","meaning":"Bác tài, cho ra sân bay.","note":"师傅 là cách gọi tài xế lịch sự."}
+{"id":"zh.c0218","meaning":"Tôi đi tàu cao tốc đến Thượng Hải.","note":"Phương tiện đứng trước 去: 坐高铁去."}
+{"id":"zh.c0219","meaning":"một vé đi Tây An","note":"Điểm đến bổ nghĩa cho vé, nên đứng trước 票, có 的."}
+{"id":"zh.c0220","meaning":"xe buýt","note":"Âm Hán Việt: «công giao xa». Ở Đài Loan: 公車.","hv":"công giao xa","hvUse":"none"}
+{"id":"zh.c0221","meaning":"xe đạp","note":"Âm Hán Việt: «tự hành xa». Ở Đài Loan: 腳踏車. Xe đạp công cộng mở khóa bằng cách quét mã.","hv":"tự hành xa","hvUse":"none"}
+{"id":"zh.c0222","meaning":"ga tàu hỏa","note":"Âm Hán Việt: «hỏa xa trạm»; tiếng Việt nói «ga tàu hỏa». Thành phố lớn có nhiều ga: xem chuyến tàu của bạn đi từ ga nào.","hv":"hỏa xa trạm","hvUse":"none"}
+{"id":"zh.c0223","meaning":"đi máy bay","note":"Âm Hán Việt: «tọa phi cơ». 坐 (ngồi) là động từ cho xe mình ngồi bên trong: 坐车, 坐地铁. Xe đạp thì dùng 骑 (cưỡi).","hv":"tọa phi cơ","hvUse":"none"}
+{"id":"zh.c0224","meaning":"hộ chiếu","note":"Âm Hán Việt: «hộ chiếu», nghĩa giống tiếng Việt (護照). Khách sạn hỏi khi nhận phòng.","hv":"hộ chiếu","hvUse":"same","trad":"護照"}
+{"id":"zh.c0225","meaning":"Hộ chiếu của tôi đâu rồi?","note":"Danh từ + 呢: “… đâu rồi?” khi bạn tìm không thấy."}
+{"id":"zh.c0226","meaning":"hành lý","note":"Âm Hán Việt: «hành lý», nghĩa giống tiếng Việt. Một kiện hành lý: 一件行李.","hv":"hành lý","hvUse":"same"}
+{"id":"zh.c0227","meaning":"Còn phòng không?","note":"Hỏi ở quầy lễ tân khách sạn."}
+{"id":"zh.c0228","meaning":"Bác tài, dừng ở đây giúp tôi.","note":"一下 làm lời nhờ nhẹ đi: “một chút thôi”."}
+{"id":"zh.c0229","meaning":"Chúng ta đi taxi nhé.","note":"打车 = bắt taxi, hoặc đặt xe qua ứng dụng."}
+{"id":"zh.c0230","meaning":"Mấy giờ tàu đến?","note":"几点 đứng trước động từ 到 (đến)."}
+{"id":"zh.c0231","meaning":"Chúng ta đến Bắc Kinh rồi.","note":"了 ở cuối cho thấy sự thay đổi: giờ đã đến nơi."}
+{"id":"zh.c0232","meaning":"Tôi đi Tây An du lịch.","note":"旅游 = đi du lịch, đi chơi. Đi công tác là 出差."}
+{"id":"zh.c0233","meaning":"thầy giáo, cô giáo","note":"Âm Hán Việt: «lão sư», chỉ gặp trong truyện cổ; tiếng Việt nói «thầy, cô». Cũng là cách gọi thầy cô: 王老师, hoặc chỉ 老师.","hv":"lão sư","hvUse":"none"}
+{"id":"zh.c0234","meaning":"học sinh; sinh viên","note":"Âm Hán Việt: «học sinh» (學生), nhưng tiếng Trung dùng cho cả sinh viên đại học. Sinh viên đại học: 大学生.","hv":"học sinh","hvUse":"same","trad":"學生"}
+{"id":"zh.c0235","meaning":"Tôi làm việc ở ngân hàng.","note":"Nơi làm việc đứng trước 工作, ngược với «làm việc ở ngân hàng»."}
+{"id":"zh.c0236","meaning":"Bạn làm nghề gì?","note":"Nghĩa đen: “bạn làm công việc gì?”"}
+{"id":"zh.c0237","meaning":"Tôi biết nói một chút tiếng Trung.","note":"会 cho kỹ năng học được, như «biết» trong «biết bơi»."}
+{"id":"zh.c0238","meaning":"Cô ấy là y tá.","note":"Không cần từ nào như “một”: chỉ 是 + nghề, như tiếng Việt."}
+{"id":"zh.c0239","meaning":"đồng nghiệp","note":"Âm Hán Việt: «đồng sự», nghĩa giống tiếng Việt (nay hay nói «đồng nghiệp»). 同 = cùng: 同事 (cùng việc), 同学 (bạn học).","hv":"đồng sự","hvUse":"same"}
+{"id":"zh.c0240","meaning":"công ty","note":"Âm Hán Việt: «công ty», nghĩa giống tiếng Việt. Đếm bằng 家: 一家公司.","hv":"công ty","hvUse":"same"}
+{"id":"zh.c0241","meaning":"giám đốc; quản lý","note":"Âm Hán Việt: «kinh lý» (tiếng Việt không dùng). Chủ một cửa hàng nhỏ là 老板.","hv":"kinh lý","hvUse":"none"}
+{"id":"zh.c0242","meaning":"Tôi đang học tiếng Trung.","note":"在 trước động từ = đang làm, lúc này hoặc dạo này."}
+{"id":"zh.c0243","meaning":"Bạn đang làm gì?","note":"在 + động từ cho việc đang làm. Không nói 你是做什么."}
+{"id":"zh.c0244","meaning":"Tôi đang họp.","note":"正在 nhấn mạnh “ngay lúc này”."}
+{"id":"zh.c0245","meaning":"Bạn biết lái xe không?","note":"会 cho kỹ năng học được: lái xe, bơi, ngoại ngữ."}
+{"id":"zh.c0246","meaning":"Mai tôi không đến được.","note":"能 = có thể (thời gian, sức khỏe, được phép); 会 cho kỹ năng học được."}
+{"id":"zh.c0247","meaning":"Tôi vào được không?","note":"可以 = được phép."}
+{"id":"zh.c0248","meaning":"Mai có bài thi.","note":"Không cần chủ ngữ: thời gian + 有 + vật, như «mai có…»."}
+{"id":"zh.c0249","meaning":"Chúng tôi vào học lúc tám giờ.","note":"上课 = vào học; tan học: 下课."}
+{"id":"zh.c0250","meaning":"thư viện","note":"Âm Hán Việt: «đồ thư quán» (tiếng Việt nói «thư viện»). 馆 = tòa nhà dành cho một việc, như 饭馆 và 咖啡馆; giống «quán» trong «quán ăn».","hv":"đồ thư quán","hvUse":"none"}
+{"id":"zh.c0251","meaning":"Tôi thấy không khỏe.","note":"Hỏi đau ở đâu: 你哪儿不舒服？"}
+{"id":"zh.c0252","meaning":"Tôi đau đầu.","note":"Bộ phận cơ thể + 疼: 肚子疼 (đau bụng)."}
+{"id":"zh.c0253","meaning":"Tôi bị cảm rồi.","note":"了 ở đây cho thấy sự thay đổi: tôi vừa bị cảm."}
+{"id":"zh.c0254","meaning":"hiệu thuốc","note":"Âm Hán Việt: «dược điếm»; «dược» như trong «dược phẩm». 药 = thuốc.","hv":"dược điếm","hvUse":"none"}
+{"id":"zh.c0255","meaning":"Cứu với!","note":"Chỉ dùng khi khẩn cấp. Nhờ giúp hằng ngày: 请帮我一下."}
+{"id":"zh.c0256","meaning":"Tôi bị sốt rồi.","note":"了 cho thấy sự thay đổi: tôi vừa bị sốt."}
+{"id":"zh.c0257","meaning":"Tôi đau bụng.","note":"肚子 = bụng. Không cần “của tôi”: 我肚子疼."}
+{"id":"zh.c0258","meaning":"Bạn bị làm sao? / Đau ở đâu?","note":"Câu bác sĩ hay hỏi. Nghĩa đen: “bạn chỗ nào không thoải mái?”"}
+{"id":"zh.c0259","meaning":"Tôi muốn đi khám bác sĩ.","note":"看医生 = đi khám bác sĩ; 看病 cũng được."}
+{"id":"zh.c0260","meaning":"Tôi hơi ho.","note":"有点儿 = hơi, thường cho điều không mong muốn."}
+{"id":"zh.c0261","meaning":"Làm ơn giúp tôi một chút.","note":"一下 làm lời nhờ nhẹ đi: “một chút thôi”."}
+{"id":"zh.c0262","meaning":"Đừng lo.","note":"别 + động từ = đừng."}
+{"id":"zh.c0263","meaning":"Cẩn thận!","note":"Hét lên để cảnh báo, hoặc nói nhẹ nhàng: 路上小心 (đi đường cẩn thận)."}
+{"id":"zh.c0264","meaning":"Uống nhiều nước vào.","note":"Lời khuyên quen thuộc khi ốm, cùng với 多休息 (nghỉ ngơi nhiều)."}
+{"id":"zh.c0265","meaning":"Nghỉ ngơi cho tốt nhé.","note":"吧 biến câu thành lời khuyên thân tình, không phải mệnh lệnh."}
+{"id":"zh.c0266","meaning":"Bạn đỡ hơn chút nào chưa?","note":"Tính từ + 一点儿 + 了: giờ đã hơn một chút."}
+{"id":"zh.c0267","meaning":"Tôi không sao.","note":"Cũng dùng để gạt đi lời xin lỗi."}
+{"id":"zh.c0268","meaning":"Gọi cảnh sát mau!","note":"Số khẩn cấp: 110 gọi cảnh sát, 120 gọi cấp cứu."}
+{"id":"zh.c0269","meaning":"to; lớn","note":"Âm Hán Việt: «đại», như trong «đại học». Cũng là “lớn” khi nói tuổi: 你多大？ (bạn bao nhiêu tuổi?)","hv":"đại","hvUse":"none"}
+{"id":"zh.c0270","meaning":"nhỏ; trẻ","note":"Âm Hán Việt: «tiểu», như trong «tiểu học». 小王: cách gọi thân mật người trẻ hơn mang họ Vương.","hv":"tiểu","hvUse":"none"}
+{"id":"zh.c0271","meaning":"Món này ngon lắm!","note":"好吃 = ngon (đồ ăn); 好喝 = ngon (đồ uống)."}
+{"id":"zh.c0272","meaning":"Hôm nay trời lạnh.","note":"Không có 是 trước tính từ; 很 thường chỉ là chất keo, không hẳn là “rất”."}
+{"id":"zh.c0273","meaning":"Cô ấy cao.","note":"Không nói 她是高."}
+{"id":"zh.c0274","meaning":"Anh ấy đẹp trai.","note":"帅 là từ hằng ngày cho người đàn ông ưa nhìn."}
+{"id":"zh.c0275","meaning":"Cô ấy xinh đẹp.","note":"Với đồ vật, 好看 (đẹp mắt) phổ biến hơn."}
+{"id":"zh.c0276","meaning":"Đẹp thật!","note":"真 + tính từ = thật là…: câu cảm thán."}
+{"id":"zh.c0277","meaning":"Ngoài trời nóng.","note":"Từ chỉ thời tiết dùng như các tính từ khác: 很热, không có 是."}
+{"id":"zh.c0278","meaning":"Tôi bận.","note":"很 ở đây nhẹ. Muốn nói “rất bận” thì dùng 非常忙."}
+{"id":"zh.c0279","meaning":"Tiếng Trung không khó.","note":"不 + tính từ, không có 是: không nói 中文不是难."}
+{"id":"zh.c0280","meaning":"Phòng tôi không rộng.","note":"不 + tính từ, không có 是. 不 trước thanh 4 đọc bú: bú dà."}
+{"id":"zh.c0281","meaning":"Ở đây náo nhiệt.","note":"热闹 = đông vui, ồn ào. Yên tĩnh: 安静."}
+{"id":"zh.c0282","meaning":"Món này cay.","note":"菜 = món ăn, hoặc rau."}
+{"id":"zh.c0283","meaning":"Hơi đắt.","note":"有点儿 + tính từ: hơi…, và bạn không thích thế."}
+{"id":"zh.c0284","meaning":"Anh ấy là một người rất tốt.","note":"Phần miêu tả dài đứng trước danh từ, nối bằng 的: 很好的人, ngược với «người rất tốt»."}
+{"id":"zh.c0285","meaning":"một chiếc xe màu trắng","note":"Màu đứng trước danh từ, nối bằng 的; 辆 là lượng từ cho xe."}
+{"id":"zh.c0286","meaning":"Tuyệt quá!","note":"太 … 了 cũng dùng cho chuyện vui: “tốt quá” là tuyệt."}
+{"id":"zh.c0287","meaning":"Cái gì?","note":"Trong câu, nó đứng đúng chỗ của câu trả lời: 你吃什么？"}
+{"id":"zh.c0288","meaning":"Ai?","note":"Cũng đọc là shuí."}
+{"id":"zh.c0289","meaning":"Còn bạn?","note":"Hỏi lại người kia cùng câu hỏi."}
+{"id":"zh.c0290","meaning":"Trà hay cà phê?","note":"还是 = “hay” trong câu hỏi."}
+{"id":"zh.c0291","meaning":"nhưng","note":"Âm Hán Việt: «đãn thị» (tiếng Việt nói «nhưng»). Sau này hay đi cặp với 虽然 (tuy); ở trình độ A1 thì dùng riêng.","hv":"đãn thị","hvUse":"none"}
+{"id":"zh.c0292","meaning":"Tại sao?","note":"Trả lời bằng 因为 (vì)."}
+{"id":"zh.c0293","meaning":"Thế nào?","note":"你最近怎么样？ = Dạo này bạn thế nào?"}
+{"id":"zh.c0294","meaning":"Khi nào?","note":"Trong câu, nó đứng trước động từ: 你什么时候来？"}
+{"id":"zh.c0295","meaning":"Cái nào?","note":"哪 (thanh 3) = nào; 那 (thanh 4) = kia."}
+{"id":"zh.c0296","meaning":"Bạn có bận không?","note":"吗 biến câu kể thành câu hỏi có/không. Trả lời 忙 hoặc 不忙, không phải 是."}
+{"id":"zh.c0297","meaning":"Bạn có đi không?","note":"Động từ + 不 + động từ hỏi có hay không, như «có … không?». Đừng thêm 吗."}
+{"id":"zh.c0298","meaning":"Bạn có thời gian không?","note":"有没有 là dạng chính phản của 有."}
+{"id":"zh.c0299","meaning":"Bạn có thích món Trung Quốc không?","note":"Với động từ hai chữ: 喜不喜欢 hoặc 喜欢不喜欢."}
+{"id":"zh.c0300","meaning":"Cái này tiếng Trung nói thế nào?","note":"怎么 + động từ = làm thế nào."}
+{"id":"zh.c0301","meaning":"vì","note":"Âm Hán Việt: «nhân vị» (tiếng Việt nói «vì»). Hay đi cặp: 因为…所以… (vì … nên …).","hv":"nhân vị","hvUse":"none"}
+{"id":"zh.c0302","meaning":"nên; vì vậy","note":"Âm Hán Việt: «sở dĩ», nhưng tiếng Việt «sở dĩ» là “lý do mà” (sở dĩ… là vì…). Tiếng Trung dùng được cả “vì” lẫn “nên” trong một câu, giống «vì… nên…».","hv":"sở dĩ","hvUse":"shifted"}
+{"id":"zh.c0303","meaning":"thứ Bảy hoặc Chủ nhật","note":"或者 = “hoặc” trong câu kể; trong câu hỏi dùng 还是 (hay)."}
+{"id":"zh.c0304","meaning":"Tôi và anh ấy cùng đi.","note":"和 nối danh từ (我和他); 一起 đứng trước động từ."}
+{"id":"zh.c0305","meaning":"Tôi vui. / Tôi mừng.","note":"Không nói 我是高兴: tính từ đi với 很, không đi với 是."}
+{"id":"zh.c0306","meaning":"(Hôm đó) tôi không đi.","note":"没 cho việc không xảy ra, và không có 了: không nói 我没去了. (我不去了 nghĩa là “tôi không đi nữa”.)"}
+{"id":"zh.c0307","meaning":"hai người","note":"Âm Hán Việt: «lưỡng cá nhân». Trước lượng từ dùng 两, không bao giờ nói 二个人.","hv":"lưỡng cá nhân","hvUse":"none"}
+{"id":"zh.c0308","meaning":"Xin lỗi! (gọi nhân viên phục vụ)","note":"Đừng gọi 小姐: ở Trung Quốc đại lục từ này giờ gợi ý gái mại dâm. Người Việt thì gọi «Em ơi!»."}
+{"id":"zh.c0309","meaning":"Ăn cơm chưa? (lời chào)","note":"Lời chào thân mật giữa người quen, không phải lời mời. Giống «Ăn cơm chưa?» của người Việt."}
+{"id":"zh.c0310","meaning":"Tôi mệt.","note":"Không nói 我是累: không có 是 trước tính từ."}
+{"id":"zh.c0311","meaning":"Tôi ba mươi tuổi.","note":"Không có 是, không cần động từ: số + 岁, như tiếng Việt."}
+{"id":"zh.c0312","meaning":"Tôi đói rồi.","note":"了 cho thấy sự thay đổi: tôi thấy đói rồi. Không nói 我是饿."}
+{"id":"zh.c0313","meaning":"Tôi không uống rượu.","note":"不 cho thói quen và lựa chọn; 没 cho việc không xảy ra."}
+{"id":"zh.c0314","meaning":"Tôi không có tiền.","note":"有 luôn đi với 没, không bao giờ với 不: không nói 我不有钱."}
+{"id":"zh.c0315","meaning":"hai giờ","note":"Âm Hán Việt: «lưỡng điểm». Giờ đồng hồ dùng 两: 两点, không phải 二点.","hv":"lưỡng điểm","hvUse":"none"}
+{"id":"zh.c0316","meaning":"Bạn có khỏe không? (hỏi thật)","note":"Hỏi thật người kia đang thế nào. Chào xã giao thì chỉ cần 你好."}
+{"id":"zh.c0317","meaning":"Cô ấy nói tiếng Trung giỏi.","note":"“Giỏi việc gì” là động từ + 得很好. 我很好 riêng nó nghĩa là “tôi khỏe”, không phải “tôi giỏi”."}
+{"id":"zh.c0318","meaning":"Tôi không đi nữa.","note":"不…了 = đổi kế hoạch. Khác với 我没去 («(hôm đó) tôi không đi»)."}
+{"id":"zh.c0319","meaning":"cô (đừng dùng để gọi)","note":"Âm Hán Việt: «tiểu thư», nhưng tiếng Việt «tiểu thư» là cô gái nhà giàu được nuông chiều. Đừng dùng để gọi ai ở đại lục: có thể gợi ý gái mại dâm. Ở Đài Loan thì bình thường.","hv":"tiểu thư","hvUse":"shifted"}
+{"id":"zh.c0320","meaning":"đồ; đồ vật","note":"Âm Hán Việt: «đông tây», nhưng tiếng Việt «đông tây» là phương đông và phương tây. Khi 西 đọc thanh nhẹ thì nghĩa là “đồ vật”; đọc đủ hai thanh thì nghĩa là “đông và tây”.","hv":"đông tây","hvUse":"shifted"}
+{"id":"zh.c0321","meaning":"người nước ngoài (khẩu ngữ)","note":"Âm Hán Việt: «lão ngoại». Tiếng lóng hằng ngày, thường thân thiện, nhưng không dùng nơi trang trọng. Nghĩa đen: “người ngoài già”.","hv":"lão ngoại","hvUse":"none"}
+{"id":"zh.c0322","meaning":"công việc; làm việc","note":"Âm Hán Việt: «công tác», nhưng tiếng Việt «công tác» thường là công vụ, và «đi công tác» là đi làm xa. Cũng là động từ “làm việc”: 我在银行工作.","hv":"công tác","hvUse":"shifted"}
+{"id":"zh.c0323","meaning":"Trung Quốc","note":"Âm Hán Việt: «Trung Quốc» (中國), nghĩa giống tiếng Việt. 中国人 = người Trung Quốc; 中国菜 = món Trung Quốc.","hv":"Trung Quốc","hvUse":"same","trad":"中國"}
+{"id":"zh.c0324","meaning":"ông; ngài","note":"Âm Hán Việt: «tiên sinh», nhưng tiếng Việt «tiên sinh» là từ cũ, chỉ thầy đồ, người có học. Đứng sau họ: 王先生. Cũng có thể nghĩa là “chồng”.","hv":"tiên sinh","hvUse":"shifted"}
+{"id":"zh.c0325","meaning":"câu hỏi; vấn đề","note":"Âm Hán Việt: «vấn đề» (問題), nghĩa giống tiếng Việt, nhưng tiếng Trung còn dùng cho “câu hỏi”. 没问题 = không vấn đề gì; 有问题吗？ = có câu hỏi không?","hv":"vấn đề","hvUse":"same","trad":"問題"}
+{"id":"zh.c0326","meaning":"lúc; khi","note":"Âm Hán Việt: «thời hậu» (tiếng Việt không dùng). 什么时候 = khi nào; 小的时候 = hồi nhỏ.","hv":"thời hậu","hvUse":"none"}
+{"id":"zh.c0327","meaning":"việc","note":"Âm Hán Việt: «sự», như trong «sự việc». 有事 = có việc bận.","hv":"sự","hvUse":"none"}
+{"id":"zh.c0328","meaning":"đứa trẻ; con","note":"Âm Hán Việt: «hài tử» (tiếng Việt nói «đứa trẻ»). Cũng là “con cái”: 你有孩子吗？","hv":"hài tử","hvUse":"none"}
+{"id":"zh.c0329","meaning":"chuyện; việc","note":"Âm Hán Việt: «sự tình», nghĩa gần tiếng Việt «sự tình» (đầu đuôi câu chuyện). Dạng đầy đủ của 事: 这件事情.","hv":"sự tình","hvUse":"same"}
+{"id":"zh.c0330","meaning":"thời gian (một khoảng)","note":"Âm Hán Việt: «thời gian» (時間), nghĩa giống tiếng Việt. 你有时间吗？ = bạn có thời gian không?","hv":"thời gian","hvUse":"same","trad":"時間"}
+{"id":"zh.c0331","meaning":"tiền","note":"Âm Hán Việt: «tiền» (錢), nghĩa giống tiếng Việt. 有钱 = giàu; 多少钱？ = bao nhiêu tiền?","hv":"tiền","hvUse":"same","trad":"錢"}
+{"id":"zh.c0332","meaning":"nhà; gia đình","note":"Âm Hán Việt: «gia», như trong «gia đình». 回家 = về nhà. Cũng là lượng từ cho cửa hàng.","hv":"gia","hvUse":"none"}
+{"id":"zh.c0333","meaning":"tên","note":"Âm Hán Việt: «danh tự» (tiếng Việt nói «tên»). Họ đứng trước: 王明 là anh Vương (Vương Minh).","hv":"danh tự","hvUse":"none"}
+{"id":"zh.c0334","meaning":"ý nghĩa; nghĩa","note":"Âm Hán Việt: «ý tứ», nhưng tiếng Việt «ý tứ» là sự tế nhị, biết giữ ý. 什么意思？ = nghĩa là gì?","hv":"ý tứ","hvUse":"shifted"}
+{"id":"zh.c0335","meaning":"nơi; chỗ","note":"Âm Hán Việt: «địa phương», nhưng tiếng Việt «địa phương» là một vùng, một tỉnh, không phải “chỗ” nói chung. 这个地方 = chỗ này.","hv":"địa phương","hvUse":"shifted"}
+{"id":"zh.c0336","meaning":"điện thoại di động","note":"Âm Hán Việt: «thủ cơ» (tiếng Việt không dùng). Từ hằng ngày; 电话 là cuộc gọi hoặc điện thoại bàn.","hv":"thủ cơ","hvUse":"none"}
+{"id":"zh.c0337","meaning":"điện thoại; cuộc gọi","note":"Âm Hán Việt: «điện thoại» (電話), nghĩa giống tiếng Việt. 打电话 = gọi điện.","hv":"điện thoại","hvUse":"same","trad":"電話"}
+{"id":"zh.c0338","meaning":"máy tính","note":"Âm Hán Việt: «điện não» (tiếng Việt nói «máy tính»). Nghĩa đen: “bộ não điện”.","hv":"điện não","hvUse":"none"}
+{"id":"zh.c0339","meaning":"tivi","note":"Âm Hán Việt: «điện thị» (tiếng Việt nói «tivi», «truyền hình»). 看电视 = xem tivi.","hv":"điện thị","hvUse":"none"}
+{"id":"zh.c0340","meaning":"phim; điện ảnh","note":"Âm Hán Việt: «điện ảnh» (電影), nghĩa giống tiếng Việt; một bộ phim thì tiếng Việt gọi là «phim». 看电影 = xem phim.","hv":"điện ảnh","hvUse":"same","trad":"電影"}
+{"id":"zh.c0341","meaning":"quần áo","note":"Âm Hán Việt: «y phục», nghĩa giống tiếng Việt (trang trọng). Lượng từ 件 cho áo.","hv":"y phục","hvUse":"same"}
+{"id":"zh.c0342","meaning":"nhà (căn nhà)","note":"Âm Hán Việt: «phòng tử» (tiếng Việt nói «nhà»). 买房子 = mua nhà.","hv":"phòng tử","hvUse":"none"}
+{"id":"zh.c0343","meaning":"phòng","note":"Âm Hán Việt: «phòng gian»; «phòng» nghĩa giống tiếng Việt. 我的房间 = phòng của tôi.","hv":"phòng gian","hvUse":"none"}
+{"id":"zh.c0344","meaning":"trường học","note":"Âm Hán Việt: «học hiệu» (tiếng Việt nói «trường học»). 去学校 = đi học.","hv":"học hiệu","hvUse":"none"}
+{"id":"zh.c0345","meaning":"bệnh viện","note":"Âm Hán Việt: «y viện» (tiếng Việt nói «bệnh viện»). 去医院 = đi bệnh viện.","hv":"y viện","hvUse":"none"}
+{"id":"zh.c0346","meaning":"bác sĩ","note":"Âm Hán Việt: «y sinh» (tiếng Việt nói «bác sĩ»). 看医生 = đi khám bác sĩ.","hv":"y sinh","hvUse":"none"}
+{"id":"zh.c0347","meaning":"đàn ông","note":"Âm Hán Việt: «nam nhân»; «nam» như trong «nam giới». Khẩu ngữ: 男的.","hv":"nam nhân","hvUse":"none"}
+{"id":"zh.c0348","meaning":"phụ nữ","note":"Âm Hán Việt: «nữ nhân»; «nữ» như trong «nữ giới». Khẩu ngữ: 女的; lịch sự: 女士.","hv":"nữ nhân","hvUse":"none"}
+{"id":"zh.c0349","meaning":"chồng","note":"Âm Hán Việt: «trượng phu», nhưng tiếng Việt «trượng phu» là bậc nam nhi đường hoàng (đại trượng phu). Khẩu ngữ: 老公.","hv":"trượng phu","hvUse":"shifted"}
+{"id":"zh.c0350","meaning":"vợ","note":"Âm Hán Việt: «thê tử» (tiếng Việt nói «vợ»). Khẩu ngữ: 老婆.","hv":"thê tử","hvUse":"none"}
+{"id":"zh.c0351","meaning":"chồng (thân mật)","note":"Âm Hán Việt: «lão công» (tiếng Việt không dùng). Các cặp vợ chồng dùng suốt.","hv":"lão công","hvUse":"none"}
+{"id":"zh.c0352","meaning":"vợ (thân mật)","note":"Âm Hán Việt: «lão bà» (tiếng Việt không dùng). Trìu mến, không thô lỗ.","hv":"lão bà","hvUse":"none"}
+{"id":"zh.c0353","meaning":"bố mẹ","note":"Âm Hán Việt: «phụ mẫu», nghĩa giống tiếng Việt (trang trọng). Trang trọng hơn 爸爸妈妈.","hv":"phụ mẫu","hvUse":"same"}
+{"id":"zh.c0354","meaning":"người nhà","note":"Âm Hán Việt: «gia nhân», nhưng tiếng Việt «gia nhân» là người ở, đầy tớ. 我的家人 = gia đình tôi.","hv":"gia nhân","hvUse":"shifted"}
+{"id":"zh.c0355","meaning":"thế giới","note":"Âm Hán Việt: «thế giới», nghĩa giống tiếng Việt. 世界上 = trên thế giới.","hv":"thế giới","hvUse":"same"}
+{"id":"zh.c0356","meaning":"quốc gia; đất nước","note":"Âm Hán Việt: «quốc gia» (國家), nghĩa giống tiếng Việt. 哪个国家？ = nước nào?","hv":"quốc gia","hvUse":"same","trad":"國家"}
+{"id":"zh.c0357","meaning":"thành phố","note":"Âm Hán Việt: «thành thị», nghĩa giống tiếng Việt (tiếng Việt hay nói «thành phố»). 大城市 = thành phố lớn.","hv":"thành thị","hvUse":"same"}
+{"id":"zh.c0358","meaning":"đường","note":"Âm Hán Việt: «lộ», nghĩa giống tiếng Việt «lộ» trong «quốc lộ». 走路 = đi bộ.","hv":"lộ","hvUse":"same"}
+{"id":"zh.c0359","meaning":"xe; ô tô","note":"Âm Hán Việt: «xa» (tiếng Việt nói «xe»). 开车 = lái xe. Lượng từ 辆.","hv":"xa","hvUse":"none"}
+{"id":"zh.c0360","meaning":"ô tô; xe hơi","note":"Âm Hán Việt: «khí xa» (tiếng Việt nói «ô tô»). Khi nói, 车 phổ biến hơn.","hv":"khí xa","hvUse":"none"}
+{"id":"zh.c0361","meaning":"máy bay","note":"Âm Hán Việt: «phi cơ» (飛機), nghĩa giống tiếng Việt (trang trọng; thường nói «máy bay»). 坐飞机 = đi máy bay.","hv":"phi cơ","hvUse":"same","trad":"飛機"}
+{"id":"zh.c0362","meaning":"bữa ăn; cơm","note":"Âm Hán Việt: «phạn» (tiếng Việt nói «cơm»). 吃饭 = ăn cơm.","hv":"phạn","hvUse":"none"}
+{"id":"zh.c0363","meaning":"trà","note":"Âm Hán Việt: «trà», nghĩa giống tiếng Việt. 喝茶 = uống trà.","hv":"trà","hvUse":"same"}
+{"id":"zh.c0364","meaning":"cà phê","note":"一杯咖啡 = một cốc cà phê.","hvUse":"skip"}
+{"id":"zh.c0365","meaning":"sách","note":"Âm Hán Việt: «thư», nhưng tiếng Việt «thư» là lá thư (sách là «sách»). Lượng từ 本: 三本书.","hv":"thư","hvUse":"shifted"}
+{"id":"zh.c0366","meaning":"lời; lời nói","note":"Âm Hán Việt: «thoại», như trong «hội thoại». 说话 = nói chuyện.","hv":"thoại","hvUse":"none"}
+{"id":"zh.c0367","meaning":"bài học; tiết học","note":"Âm Hán Việt: «khóa», như trong «khóa học». 上课 = vào học.","hv":"khóa","hvUse":"none"}
+{"id":"zh.c0368","meaning":"tiếng Trung","note":"Âm Hán Việt: «Trung văn» (tiếng Việt nói «tiếng Trung»). 汉语 là từ dùng trong sách giáo khoa.","hv":"Trung văn","hvUse":"none"}
+{"id":"zh.c0369","meaning":"chữ Hán","note":"Âm Hán Việt: «Hán tự» (漢字), nghĩa giống tiếng Việt (thường nói «chữ Hán»). 写汉字 = viết chữ Hán.","hv":"Hán tự","hvUse":"same","trad":"漢字"}
+{"id":"zh.c0370","meaning":"tiếng Anh","note":"Âm Hán Việt: «Anh ngữ» (英語), nghĩa giống tiếng Việt. Cũng nói 英文, nhất là trong văn viết.","hv":"Anh ngữ","hvUse":"same","trad":"英語"}
+{"id":"zh.c0371","meaning":"cơ thể; sức khỏe","note":"Âm Hán Việt: «thân thể» (身體), nghĩa giống tiếng Việt; nghĩa “sức khỏe” thì tiếng Việt không có. 身体好 = khỏe mạnh.","hv":"thân thể","hvUse":"same","trad":"身體"}
+{"id":"zh.c0372","meaning":"đầu","note":"Âm Hán Việt: «đầu» (頭), nghĩa giống tiếng Việt. 我头疼 = tôi đau đầu.","hv":"đầu","hvUse":"same","trad":"頭"}
+{"id":"zh.c0373","meaning":"tay","note":"Âm Hán Việt: «thủ» (tiếng Việt nói «tay»). 洗手 = rửa tay.","hv":"thủ","hvUse":"none"}
+{"id":"zh.c0374","meaning":"tim; lòng","note":"Âm Hán Việt: «tâm», nghĩa giống tiếng Việt «tâm» trong «tâm hồn». 小心 = cẩn thận (nghĩa đen: “tim nhỏ”).","hv":"tâm","hvUse":"same"}
+{"id":"zh.c0375","meaning":"sinh nhật","note":"Âm Hán Việt: «sinh nhật», nghĩa giống tiếng Việt. 生日快乐！ = chúc mừng sinh nhật!","hv":"sinh nhật","hvUse":"same"}
+{"id":"zh.c0376","meaning":"thời tiết","note":"Âm Hán Việt: «thiên khí» (tiếng Việt nói «thời tiết»). 今天天气很好。","hv":"thiên khí","hvUse":"none"}
+{"id":"zh.c0377","meaning":"âm nhạc","note":"Âm Hán Việt: «âm nhạc» (音樂), nghĩa giống tiếng Việt. 听音乐 = nghe nhạc.","hv":"âm nhạc","hvUse":"same","trad":"音樂"}
+{"id":"zh.c0378","meaning":"trò chơi; game","note":"Âm Hán Việt: «du hí», nhưng tiếng Việt «du hí» là đi chơi cho vui. 玩游戏 = chơi game.","hv":"du hí","hvUse":"shifted"}
+{"id":"zh.c0379","meaning":"quà; quà tặng","note":"Âm Hán Việt: «lễ vật», nhưng tiếng Việt «lễ vật» là đồ lễ, đồ dâng cúng. 送礼物 = tặng quà.","hv":"lễ vật","hvUse":"shifted"}
+{"id":"zh.c0380","meaning":"ảnh","note":"Âm Hán Việt: «chiếu phiến» (tiếng Việt nói «ảnh»). Lượng từ 张.","hv":"chiếu phiến","hvUse":"none"}
+{"id":"zh.c0381","meaning":"người nước ngoài","note":"Âm Hán Việt: «ngoại quốc nhân»; tiếng Việt nói «người ngoại quốc», với «người» đứng trước. Lịch sự; 老外 là khẩu ngữ.","hv":"ngoại quốc nhân","hvUse":"none"}
+{"id":"zh.c0382","meaning":"ông chủ; chủ quán","note":"Âm Hán Việt: «lão bản» (tiếng Việt không dùng). Cách gọi thân thiện với chủ sạp hàng.","hv":"lão bản","hvUse":"none"}
+{"id":"zh.c0383","meaning":"khách","note":"Âm Hán Việt: «khách nhân»; «khách» nghĩa giống tiếng Việt. 有客人 = có khách.","hv":"khách nhân","hvUse":"none"}
+{"id":"zh.c0384","meaning":"hàng xóm","note":"Âm Hán Việt: «lân cư»; «lân» như trong «lân cận». 我的邻居 = hàng xóm của tôi.","hv":"lân cư","hvUse":"none"}
+{"id":"zh.c0385","meaning":"bạn học","note":"Âm Hán Việt: «đồng học» (tiếng Việt nói «bạn học»). Cũng là cách học sinh, sinh viên gọi nhau.","hv":"đồng học","hvUse":"none"}
+{"id":"zh.c0386","meaning":"động vật","note":"Âm Hán Việt: «động vật» (動物), nghĩa giống tiếng Việt. 小动物 = con vật nhỏ.","hv":"động vật","hvUse":"same","trad":"動物"}
+{"id":"zh.c0387","meaning":"con mèo","note":"Âm Hán Việt: «miêu» (tiếng Việt nói «mèo»). Lượng từ 只.","hv":"miêu","hvUse":"none"}
+{"id":"zh.c0388","meaning":"con chim","note":"Âm Hán Việt: «điểu» (tiếng Việt nói «chim»). Lượng từ 只.","hv":"điểu","hvUse":"none"}
+{"id":"zh.c0389","meaning":"con cá","note":"Âm Hán Việt: «ngư», như trong «ngư dân». Lượng từ 条.","hv":"ngư","hvUse":"none"}
+{"id":"zh.c0390","meaning":"hoa quả; trái cây","note":"Âm Hán Việt: «thủy quả» (tiếng Việt nói «hoa quả»). 吃水果 = ăn hoa quả.","hv":"thủy quả","hvUse":"none"}
+{"id":"zh.c0391","meaning":"quả táo","note":"Cũng là tên hãng Apple.","hvUse":"skip"}
+{"id":"zh.c0392","meaning":"thịt","note":"Âm Hán Việt: «nhục» (tiếng Việt nói «thịt»). Nếu không nói rõ thì là thịt lợn: 牛肉 = thịt bò.","hv":"nhục","hvUse":"none"}
+{"id":"zh.c0393","meaning":"trứng gà","note":"Âm Hán Việt: «kê đản». 蛋 riêng nó cũng được.","hv":"kê đản","hvUse":"none"}
+{"id":"zh.c0394","meaning":"bánh mì","note":"Âm Hán Việt: «miến bao» (麵包). 面 = bột mì hoặc mì sợi.","hv":"miến bao","hvUse":"none","trad":"麵包"}
+{"id":"zh.c0395","meaning":"sữa (sữa bò)","note":"Âm Hán Việt: «ngưu nãi» (tiếng Việt nói «sữa»). 一杯牛奶 = một cốc sữa.","hv":"ngưu nãi","hvUse":"none"}
+{"id":"zh.c0396","meaning":"rượu","note":"Âm Hán Việt: «tửu», như trong «tửu lượng». 喝酒 = uống rượu.","hv":"tửu","hvUse":"none"}
+{"id":"zh.c0397","meaning":"cái cốc; cái ly","note":"Âm Hán Việt: «bôi tử». Lượng từ là 杯.","hv":"bôi tử","hvUse":"none"}
+{"id":"zh.c0398","meaning":"cái bàn","note":"Âm Hán Việt: «trác tử» (tiếng Việt nói «bàn»). 桌子上 = trên bàn.","hv":"trác tử","hvUse":"none"}
+{"id":"zh.c0399","meaning":"cái ghế","note":"Âm Hán Việt: «ỷ tử» (tiếng Việt nói «ghế»). 坐在椅子上 = ngồi trên ghế.","hv":"ỷ tử","hvUse":"none"}
+{"id":"zh.c0400","meaning":"giường","note":"Âm Hán Việt: «sàng» (tiếng Việt nói «giường»). 起床 = ra khỏi giường, thức dậy.","hv":"sàng","hvUse":"none"}
+{"id":"zh.c0401","meaning":"cửa sổ","note":"Âm Hán Việt: «song hộ» (tiếng Việt nói «cửa sổ»). 开窗户 = mở cửa sổ.","hv":"song hộ","hvUse":"none"}
+{"id":"zh.c0402","meaning":"đèn","note":"Âm Hán Việt: «đăng», như trong «hoa đăng». 开灯 / 关灯 = bật / tắt đèn.","hv":"đăng","hvUse":"none"}
+{"id":"zh.c0403","meaning":"chìa khóa","note":"Âm Hán Việt: «thược thi» (tiếng Việt không dùng). 我的钥匙呢？ = chìa khóa của tôi đâu?","hv":"thược thi","hvUse":"none"}
+{"id":"zh.c0404","meaning":"túi; cặp","note":"Âm Hán Việt: «bao», nhưng tiếng Việt «bao» thường là bao tải, bao bì; túi xách là «túi». 书包 = cặp sách.","hv":"bao","hvUse":"shifted"}
+{"id":"zh.c0405","meaning":"ô; dù","note":"Âm Hán Việt: «tán» (tiếng Việt nói «ô», «dù»). 带伞 = mang ô.","hv":"tán","hvUse":"none"}
+{"id":"zh.c0406","meaning":"bút","note":"Âm Hán Việt: «bút» (筆), nghĩa giống tiếng Việt. Lượng từ 支.","hv":"bút","hvUse":"same","trad":"筆"}
+{"id":"zh.c0407","meaning":"giấy","note":"Âm Hán Việt: «chỉ» (tiếng Việt nói «giấy»). 一张纸 = một tờ giấy.","hv":"chỉ","hvUse":"none"}
+{"id":"zh.c0408","meaning":"bản đồ","note":"Âm Hán Việt: «địa đồ» (tiếng Việt nói «bản đồ»). 手机地图 = bản đồ trên điện thoại.","hv":"địa đồ","hvUse":"none"}
+{"id":"zh.c0409","meaning":"vé","note":"Âm Hán Việt: «phiếu», nghĩa gần tiếng Việt «phiếu» trong «phiếu ăn»; vé tàu xe thì tiếng Việt nói «vé». 两张票 = hai vé.","hv":"phiếu","hvUse":"same"}
+{"id":"zh.c0410","meaning":"cửa hàng","note":"Âm Hán Việt: «thương điếm» (tiếng Việt nói «cửa hàng»). 去商店买东西.","hv":"thương điếm","hvUse":"none"}
+{"id":"zh.c0411","meaning":"siêu thị","note":"Âm Hán Việt: «siêu thị», nghĩa giống tiếng Việt. 我去超市.","hv":"siêu thị","hvUse":"same"}
+{"id":"zh.c0412","meaning":"quán ăn (nhỏ)","note":"Âm Hán Việt: «phạn quán»; «quán» nghĩa giống tiếng Việt. 饭店 cũng có thể là khách sạn.","hv":"phạn quán","hvUse":"none"}
+{"id":"zh.c0413","meaning":"công viên","note":"Âm Hán Việt: «công viên» (公園), nghĩa giống tiếng Việt. 去公园 = đi công viên.","hv":"công viên","hvUse":"same","trad":"公園"}
+{"id":"zh.c0414","meaning":"sân bay","note":"Âm Hán Việt: «cơ trường» (tiếng Việt nói «sân bay»). 去机场 = ra sân bay.","hv":"cơ trường","hvUse":"none"}
+{"id":"zh.c0415","meaning":"ngân hàng","note":"Âm Hán Việt: «ngân hàng» (銀行), nghĩa giống tiếng Việt. 在银行工作 = làm việc ở ngân hàng.","hv":"ngân hàng","hvUse":"same","trad":"銀行"}
+{"id":"zh.c0416","meaning":"đại học","note":"Âm Hán Việt: «đại học» (大學), nghĩa giống tiếng Việt. 上大学 = học đại học.","hv":"đại học","hvUse":"same","trad":"大學"}
+{"id":"zh.c0417","meaning":"văn phòng","note":"Âm Hán Việt: «biện công thất» (tiếng Việt nói «văn phòng»). 在办公室 = ở văn phòng.","hv":"biện công thất","hvUse":"none"}
+{"id":"zh.c0418","meaning":"nhà vệ sinh","note":"Âm Hán Việt: «xí sở»; «xí» như trong «nhà xí». Thẳng thừng; 洗手间 lịch sự hơn.","hv":"xí sở","hvUse":"none"}
+{"id":"zh.c0419","meaning":"nhà bếp","note":"Âm Hán Việt: «trù phòng» (tiếng Việt nói «nhà bếp»). 在厨房做饭 = nấu ăn trong bếp.","hv":"trù phòng","hvUse":"none"}
+{"id":"zh.c0420","meaning":"sở thích","note":"Âm Hán Việt: «ái hiếu» (tiếng Việt nói «sở thích»). 你的爱好是什么？","hv":"ái hiếu","hvUse":"none"}
+{"id":"zh.c0421","meaning":"từ mới","note":"Âm Hán Việt: «sinh từ» (tiếng Việt nói «từ mới»). Bài nào trong sách giáo khoa cũng có một danh sách.","hv":"sinh từ","hvUse":"none"}
+{"id":"zh.c0422","meaning":"câu","note":"Âm Hán Việt: «cú tử»; «cú» như trong «cú pháp». 这个句子 = câu này.","hv":"cú tử","hvUse":"none"}
+{"id":"zh.c0423","meaning":"WeChat","note":"Ứng dụng mọi người ở Trung Quốc dùng để nhắn tin và thanh toán.","hvUse":"skip"}
+{"id":"zh.c0424","meaning":"mạng; lưới","note":"Âm Hán Việt: «võng» (tiếng Việt nói «mạng», «lưới»). 上网 = lên mạng.","hv":"võng","hvUse":"none"}
+{"id":"zh.c0425","meaning":"số (điện thoại, phòng)","note":"Âm Hán Việt: «hiệu mã»; «mã» như trong «mã số». 电话号码 = số điện thoại.","hv":"hiệu mã","hvUse":"none"}
+{"id":"zh.c0426","meaning":"màu sắc","note":"Âm Hán Việt: «nhan sắc», nhưng tiếng Việt «nhan sắc» là vẻ đẹp của người phụ nữ. 什么颜色？ = màu gì?","hv":"nhan sắc","hvUse":"shifted"}
+{"id":"zh.c0427","meaning":"trẻ con","note":"Âm Hán Việt: «tiểu hài nhi». Âm cuối uốn lưỡi «-r», hay nói ở miền Bắc Trung Quốc.","hv":"tiểu hài nhi","hvUse":"none"}
+{"id":"zh.c0428","meaning":"em bé","note":"Âm Hán Việt: «bảo bảo»; «bảo» là quý báu, như trong «bảo vật». Các cặp đôi cũng gọi nhau như vậy.","hv":"bảo bảo","hvUse":"none"}
+{"id":"zh.c0429","meaning":"người lớn","note":"Âm Hán Việt: «đại nhân», nhưng tiếng Việt «đại nhân» là tiếng gọi quan lớn ngày xưa. Trái nghĩa với 小孩儿.","hv":"đại nhân","hvUse":"shifted"}
+{"id":"zh.c0430","meaning":"khách sạn","note":"Âm Hán Việt: «tửu điếm», nhưng tiếng Việt «tửu điếm» là quán rượu. Cũng nói 宾馆.","hv":"tửu điếm","hvUse":"shifted"}
+{"id":"zh.c0431","meaning":"bệnh","note":"Âm Hán Việt: «bệnh», nghĩa giống tiếng Việt. 生病 = bị ốm; 看病 = đi khám bệnh.","hv":"bệnh","hvUse":"same"}
+{"id":"zh.c0432","meaning":"thuốc","note":"Âm Hán Việt: «dược», như trong «dược phẩm». 吃药 = uống thuốc (nghĩa đen: “ăn thuốc”).","hv":"dược","hvUse":"none"}
+{"id":"zh.c0433","meaning":"muốn; sẽ","note":"Âm Hán Việt: «yếu» (tiếng Việt nói «muốn», «cần»). 我要这个。 Cũng là “cần phải”: 你要早点儿睡.","hv":"yếu","hvUse":"none"}
+{"id":"zh.c0434","meaning":"nói","note":"Âm Hán Việt: «thuyết», như trong «thuyết trình». 说中文 = nói tiếng Trung.","hv":"thuyết","hvUse":"none"}
+{"id":"zh.c0435","meaning":"biết (kỹ năng học được); sẽ","note":"Âm Hán Việt: «hội», như trong «hội họp». 我会游泳。 明天会下雨。","hv":"hội","hvUse":"none"}
+{"id":"zh.c0436","meaning":"biết (một điều)","note":"Âm Hán Việt: «tri đạo»; «tri» là biết, như trong «tri thức». 我不知道。 Biết một người thì dùng 认识.","hv":"tri đạo","hvUse":"none"}
+{"id":"zh.c0437","meaning":"đến","note":"Âm Hán Việt: «lai», như trong «tương lai». 来了！ = tới đây! 来一个 = cho tôi một cái.","hv":"lai","hvUse":"none"}
+{"id":"zh.c0438","meaning":"để; bảo (ai làm gì)","note":"Âm Hán Việt: «nhượng», như trong «nhượng bộ». 让我看看 = để tôi xem nào.","hv":"nhượng","hvUse":"none"}
+{"id":"zh.c0439","meaning":"muốn; nghĩ; nhớ","note":"Âm Hán Việt: «tưởng», nhưng tiếng Việt «tưởng» là tưởng rằng, không có nghĩa “muốn”. 我想去 = tôi muốn đi. 想你 = nhớ bạn.","hv":"tưởng","hvUse":"shifted"}
+{"id":"zh.c0440","meaning":"có thể; được (được phép)","note":"Âm Hán Việt: «khả dĩ», nhưng tiếng Việt «khả dĩ» (văn viết) là “có thể chấp nhận được” (giải pháp khả dĩ), không dùng để xin phép. 可以吗？ = được không?","hv":"khả dĩ","hvUse":"shifted"}
+{"id":"zh.c0441","meaning":"làm","note":"Âm Hán Việt: «tố» (tiếng Việt nói «làm»). 做饭 = nấu cơm; 做完 = làm xong.","hv":"tố","hvUse":"none"}
+{"id":"zh.c0442","meaning":"đợi","note":"Âm Hán Việt: «đẳng», như trong «đẳng cấp». 等一下 = đợi một chút. Sau một danh sách: vân vân.","hv":"đẳng","hvUse":"none"}
+{"id":"zh.c0443","meaning":"có thể (đủ sức, được phép)","note":"Âm Hán Việt: «năng», như trong «năng lực». Hoàn cảnh cho phép: 我明天不能来.","hv":"năng","hvUse":"none"}
+{"id":"zh.c0444","meaning":"nghe","note":"Âm Hán Việt: «thính», như trong «thính giả». 听懂 = nghe hiểu; 听不懂 = nghe không hiểu.","hv":"thính","hvUse":"none"}
+{"id":"zh.c0445","meaning":"đi bộ; rời đi","note":"Âm Hán Việt: «tẩu», như trong «tẩu thoát». 我走了 = tôi đi đây.","hv":"tẩu","hvUse":"none"}
+{"id":"zh.c0446","meaning":"thấy; cho rằng","note":"Âm Hán Việt: «giác đắc»; «giác» như trong «cảm giác». 我觉得很好。 Nhẹ hơn 想.","hv":"giác đắc","hvUse":"none"}
+{"id":"zh.c0447","meaning":"thích","note":"Âm Hán Việt: «hỉ hoan» (tiếng Việt nói «thích»). 我喜欢你 là lời tỏ tình, nặng như «mình thích cậu» trong tiếng Việt.","hv":"hỉ hoan","hvUse":"none"}
+{"id":"zh.c0448","meaning":"tìm","note":"Âm Hán Việt: «trảo» (tiếng Việt nói «tìm»). 你找谁？ = bạn tìm ai?","hv":"trảo","hvUse":"none"}
+{"id":"zh.c0449","meaning":"nên; phải","note":"Âm Hán Việt: «ưng cai» (tiếng Việt nói «nên»). 你应该休息。","hv":"ưng cai","hvUse":"none"}
+{"id":"zh.c0450","meaning":"mời; đãi (trả tiền)","note":"Âm Hán Việt: «thỉnh», như trong «thỉnh cầu». 我请你 = tôi mời (tôi trả tiền). Cũng là “xin mời”: 请坐.","hv":"thỉnh","hvUse":"none"}
+{"id":"zh.c0451","meaning":"tên là; gọi","note":"Âm Hán Việt: «khiếu» (tiếng Việt nói «gọi»). 我叫安娜。 Cũng là: gọi to, gọi món, gọi xe.","hv":"khiếu","hvUse":"none"}
+{"id":"zh.c0452","meaning":"chết","note":"Âm Hán Việt: «tử», như trong «tử vong». 累死了 = mệt chết đi được: kiểu nói quá rất hay gặp, giống tiếng Việt.","hv":"tử","hvUse":"none"}
+{"id":"zh.c0453","meaning":"giúp","note":"Âm Hán Việt: «bang» (tiếng Việt nói «giúp»). 帮我一下 = giúp tôi một tay.","hv":"bang","hvUse":"none"}
+{"id":"zh.c0454","meaning":"cần","note":"Âm Hán Việt: «nhu yếu», như trong «nhu yếu phẩm». 你需要什么？","hv":"nhu yếu","hvUse":"none"}
+{"id":"zh.c0455","meaning":"bắt đầu","note":"Âm Hán Việt: «khai thủy»; «khai» như trong «khai giảng». 开始上课 = bắt đầu vào học.","hv":"khai thủy","hvUse":"none"}
+{"id":"zh.c0456","meaning":"mang theo; dẫn","note":"Âm Hán Việt: «đới» (tiếng Việt nói «mang»). 带伞 = mang ô.","hv":"đới","hvUse":"none"}
+{"id":"zh.c0457","meaning":"quen; nhận ra","note":"Âm Hán Việt: «nhận thức», nhưng tiếng Việt «nhận thức» là sự hiểu biết, nhận thức về vấn đề. 认识你很高兴。","hv":"nhận thức","hvUse":"shifted"}
+{"id":"zh.c0458","meaning":"sống; ở","note":"Âm Hán Việt: «trú», như trong «cư trú». 住在北京: 在 + nơi chốn đứng sau 住.","hv":"trú","hvUse":"none"}
+{"id":"zh.c0459","meaning":"học","note":"Âm Hán Việt: «học» (學), nghĩa giống tiếng Việt. 学会 = học được (và giờ biết làm).","hv":"học","hvUse":"same","trad":"學"}
+{"id":"zh.c0460","meaning":"học tập","note":"Âm Hán Việt: «học tập» (學習), nghĩa giống tiếng Việt. Đầy đủ hơn 学: 学习中文.","hv":"học tập","hvUse":"same","trad":"學習"}
+{"id":"zh.c0461","meaning":"dạy","note":"Âm Hán Việt: «giáo», như trong «giáo viên». 教我中文 = dạy tôi tiếng Trung.","hv":"giáo","hvUse":"none"}
+{"id":"zh.c0462","meaning":"viết","note":"Âm Hán Việt: «tả», như trong «miêu tả». 写完 = viết xong.","hv":"tả","hvUse":"none"}
+{"id":"zh.c0463","meaning":"đọc (thành tiếng); đi học","note":"Âm Hán Việt: «độc», như trong «độc giả». 读书 = đọc sách; đi học.","hv":"độc","hvUse":"none"}
+{"id":"zh.c0464","meaning":"ngồi; đi (xe, tàu)","note":"Âm Hán Việt: «tọa», như trong «tọa đàm». 请坐。 坐地铁 = đi tàu điện ngầm.","hv":"tọa","hvUse":"none"}
+{"id":"zh.c0465","meaning":"đứng","note":"Âm Hán Việt: «trạm»; tiếng Việt chỉ dùng nghĩa danh từ “trạm”. Làm danh từ: bến, ga (车站).","hv":"trạm","hvUse":"none"}
+{"id":"zh.c0466","meaning":"chạy","note":"Âm Hán Việt: «bào» (tiếng Việt nói «chạy»). 跑步 = chạy bộ.","hv":"bào","hvUse":"none"}
+{"id":"zh.c0467","meaning":"về; quay lại","note":"Âm Hán Việt: «hồi», như trong «hồi hương». 回来 = quay lại đây; 回去 = trở về đó.","hv":"hồi","hvUse":"none"}
+{"id":"zh.c0468","meaning":"về nhà","note":"Âm Hán Việt: «hồi gia» (tiếng Việt nói «về nhà»). 我六点回家。","hv":"hồi gia","hvUse":"none"}
+{"id":"zh.c0469","meaning":"vào","note":"Âm Hán Việt: «tiến», như trong «tiến vào». 进来 = vào đây; 进去 = vào đó.","hv":"tiến","hvUse":"none"}
+{"id":"zh.c0470","meaning":"ra","note":"Âm Hán Việt: «xuất», như trong «xuất phát». 出去 = ra ngoài; 出来 = ra đây.","hv":"xuất","hvUse":"none"}
+{"id":"zh.c0471","meaning":"mở; lái; bật","note":"Âm Hán Việt: «khai», như trong «khai trương». 开门, 开车, 开灯.","hv":"khai","hvUse":"none"}
+{"id":"zh.c0472","meaning":"đóng; tắt","note":"Âm Hán Việt: «quan» (tiếng Việt nói «đóng», «tắt»). 关门, 关灯.","hv":"quan","hvUse":"none"}
+{"id":"zh.c0473","meaning":"mặc; đi (giày)","note":"Âm Hán Việt: «xuyên», như trong «xuyên qua». 穿衣服 = mặc quần áo.","hv":"xuyên","hvUse":"none"}
+{"id":"zh.c0474","meaning":"cầm; lấy","note":"Âm Hán Việt: «nã» (tiếng Việt nói «cầm»). 拿着 = đang cầm.","hv":"nã","hvUse":"none"}
+{"id":"zh.c0475","meaning":"đặt; để","note":"Âm Hán Việt: «phóng» (tiếng Việt nói «đặt», «để»). 放在桌子上 = để trên bàn.","hv":"phóng","hvUse":"none"}
+{"id":"zh.c0476","meaning":"tặng; tiễn","note":"Âm Hán Việt: «tống» (tiếng Việt nói «tặng», «tiễn»). 送你回家 = đưa bạn về nhà.","hv":"tống","hvUse":"none"}
+{"id":"zh.c0477","meaning":"chơi","note":"Âm Hán Việt: «ngoạn nhi»; «ngoạn» như trong «du ngoạn». Âm uốn lưỡi của miền Bắc Trung Quốc; cũng nói 玩.","hv":"ngoạn nhi","hvUse":"none"}
+{"id":"zh.c0478","meaning":"ngủ; đi ngủ","note":"Âm Hán Việt: «thụy giáo» (tiếng Việt nói «ngủ»). 睡 + 觉: 睡好觉 = ngủ ngon.","hv":"thụy giáo","hvUse":"none"}
+{"id":"zh.c0479","meaning":"thức dậy","note":"Âm Hán Việt: «khởi sàng» (tiếng Việt nói «thức dậy»). 我七点起床。","hv":"khởi sàng","hvUse":"none"}
+{"id":"zh.c0480","meaning":"nghỉ ngơi","note":"Âm Hán Việt: «hưu tức» (tiếng Việt nói «nghỉ ngơi»). 好好休息 = nghỉ ngơi cho tốt.","hv":"hưu tức","hvUse":"none"}
+{"id":"zh.c0481","meaning":"đi làm","note":"Âm Hán Việt: «thượng ban» (tiếng Việt nói «đi làm»). 下班 = tan làm.","hv":"thượng ban","hvUse":"none"}
+{"id":"zh.c0482","meaning":"yêu","note":"Âm Hán Việt: «ái», như trong «ái quốc». 我爱你 là lời nặng ký: dành cho tình yêu thật sự và gia đình.","hv":"ái","hvUse":"none"}
+{"id":"zh.c0483","meaning":"hiểu","note":"Âm Hán Việt: «đổng» (tiếng Việt nói «hiểu»). 懂了 = hiểu rồi. 听懂 / 看懂 nói rõ hiểu qua tai hay mắt.","hv":"đổng","hvUse":"none"}
+{"id":"zh.c0484","meaning":"quên","note":"Âm Hán Việt: «vong», như trong «vong ân». Thường nói 忘了: 我忘了。","hv":"vong","hvUse":"none"}
+{"id":"zh.c0485","meaning":"nhớ","note":"Âm Hán Việt: «ký đắc»; «ký» như trong «ký ức». 你还记得我吗？","hv":"ký đắc","hvUse":"none"}
+{"id":"zh.c0486","meaning":"hy vọng","note":"Âm Hán Việt: «hy vọng», nghĩa giống tiếng Việt. 希望你喜欢。","hv":"hy vọng","hvUse":"same"}
+{"id":"zh.c0487","meaning":"định; dự định","note":"Âm Hán Việt: «đả toán» (tiếng Việt nói «định»). 你打算做什么？","hv":"đả toán","hvUse":"none"}
+{"id":"zh.c0488","meaning":"chuẩn bị","note":"Âm Hán Việt: «chuẩn bị» (準備), nghĩa giống tiếng Việt. 准备好了吗？ = xong chưa?","hv":"chuẩn bị","hvUse":"same","trad":"準備"}
+{"id":"zh.c0489","meaning":"thấy; gặp","note":"Âm Hán Việt: «kiến», như trong «chứng kiến». 明天见 = mai gặp.","hv":"kiến","hvUse":"none"}
+{"id":"zh.c0490","meaning":"gặp mặt","note":"Âm Hán Việt: «kiến diện» (tiếng Việt nói «gặp mặt»). Không có tân ngữ: 跟你见面 = gặp bạn.","hv":"kiến diện","hvUse":"none"}
+{"id":"zh.c0491","meaning":"đổi","note":"Âm Hán Việt: «hoán», như trong «hoán đổi». 换钱 = đổi tiền.","hv":"hoán","hvUse":"none"}
+{"id":"zh.c0492","meaning":"thử","note":"Âm Hán Việt: «thí», như trong «thí nghiệm». 试试 = thử xem.","hv":"thí","hvUse":"none"}
+{"id":"zh.c0493","meaning":"giới thiệu","note":"Âm Hán Việt: «giới thiệu» (介紹), nghĩa giống tiếng Việt. 我介绍一下 = để tôi giới thiệu.","hv":"giới thiệu","hvUse":"same","trad":"介紹"}
+{"id":"zh.c0494","meaning":"chào mừng; hoan nghênh","note":"Âm Hán Việt: «hoan nghênh» (歡迎), nghĩa giống tiếng Việt. 欢迎！ = chào mừng!","hv":"hoan nghênh","hvUse":"same","trad":"歡迎"}
+{"id":"zh.c0495","meaning":"hát","note":"Âm Hán Việt: «xướng ca», nay chỉ còn trong văn cũ. Động từ + tân ngữ: 唱歌 = hát (bài hát).","hv":"xướng ca","hvUse":"none"}
+{"id":"zh.c0496","meaning":"nhảy; khiêu vũ","note":"Âm Hán Việt: «khiêu vũ», nghĩa giống tiếng Việt.","hv":"khiêu vũ","hvUse":"same"}
+{"id":"zh.c0497","meaning":"bơi","note":"Âm Hán Việt: «du vịnh» (tiếng Việt nói «bơi»). 会游泳 = biết bơi.","hv":"du vịnh","hvUse":"none"}
+{"id":"zh.c0498","meaning":"chạy bộ","note":"Âm Hán Việt: «bào bộ» (tiếng Việt nói «chạy bộ»). 每天跑步 = chạy bộ mỗi ngày.","hv":"bào bộ","hvUse":"none"}
+{"id":"zh.c0499","meaning":"tập thể dục; thể thao","note":"Âm Hán Việt: «vận động» (運動), nghĩa giống tiếng Việt «vận động». 多运动 = vận động nhiều hơn.","hv":"vận động","hvUse":"same","trad":"運動"}
+{"id":"zh.c0500","meaning":"du lịch","note":"Âm Hán Việt: «lữ du» (tiếng Việt nói «du lịch»). 去西安旅游 = đi Tây An du lịch.","hv":"lữ du","hvUse":"none"}
+{"id":"zh.c0501","meaning":"lái xe","note":"Âm Hán Việt: «khai xa» (tiếng Việt nói «lái xe»). 会开车 = biết lái xe.","hv":"khai xa","hvUse":"none"}
+{"id":"zh.c0502","meaning":"gọi điện thoại","note":"Âm Hán Việt: «đả điện thoại»; «điện thoại» nghĩa giống tiếng Việt. 给我打电话 = gọi cho tôi.","hv":"đả điện thoại","hvUse":"none"}
+{"id":"zh.c0503","meaning":"lên mạng","note":"Âm Hán Việt: «thượng võng»; tiếng Việt nói «lên mạng», đúng thứ tự từng chữ.","hv":"thượng võng","hvUse":"none"}
+{"id":"zh.c0504","meaning":"thi; kỳ thi","note":"Âm Hán Việt: «khảo thí», nghĩa giống tiếng Việt (trang trọng; thường nói «thi»). 明天考试 = mai thi.","hv":"khảo thí","hvUse":"same"}
+{"id":"zh.c0505","meaning":"kết hôn","note":"Âm Hán Việt: «kết hôn» (結婚), nghĩa giống tiếng Việt. 结婚了 = kết hôn rồi.","hv":"kết hôn","hvUse":"same","trad":"結婚"}
+{"id":"zh.c0506","meaning":"bị ốm","note":"Âm Hán Việt: «sinh bệnh», nghĩa giống tiếng Việt. 生病了 = bị ốm rồi.","hv":"sinh bệnh","hvUse":"same"}
+{"id":"zh.c0507","meaning":"khóc","note":"Âm Hán Việt: «khốc», như trong «thảm khốc». 别哭 = đừng khóc.","hv":"khốc","hvUse":"none"}
+{"id":"zh.c0508","meaning":"gửi","note":"Âm Hán Việt: «phát», như trong «phát tin». 发微信 = gửi tin nhắn WeChat.","hv":"phát","hvUse":"none"}
+{"id":"zh.c0509","meaning":"trả (tiền)","note":"Âm Hán Việt: «phó», như trong «giao phó». 付钱 = trả tiền.","hv":"phó","hvUse":"none"}
+{"id":"zh.c0510","meaning":"làm mất","note":"Âm Hán Việt: «đâu» (tiếng Việt nói «mất»). 我的手机丢了 = tôi mất điện thoại rồi.","hv":"đâu","hvUse":"none"}
+{"id":"zh.c0511","meaning":"giúp đỡ","note":"Âm Hán Việt: «bang mang» (tiếng Việt nói «giúp»). Không có tân ngữ: 帮个忙.","hv":"bang mang","hvUse":"none"}
+{"id":"zh.c0512","meaning":"lo lắng","note":"Âm Hán Việt: «đảm tâm» (tiếng Việt nói «lo»). 别担心 = đừng lo.","hv":"đảm tâm","hvUse":"none"}
+{"id":"zh.c0513","meaning":"giận; nổi giận","note":"Âm Hán Việt: «sinh khí», nhưng tiếng Việt «sinh khí» là sức sống. 别生气 = đừng giận.","hv":"sinh khí","hvUse":"shifted"}
+{"id":"zh.c0514","meaning":"tắm","note":"Âm Hán Việt: «tẩy táo» (tiếng Việt nói «tắm»).","hv":"tẩy táo","hvUse":"none"}
+{"id":"zh.c0515","meaning":"đánh; chơi (bóng); gọi (điện)","note":"Âm Hán Việt: «đả», như trong «đả kích». 打球, 打车, 打电话.","hv":"đả","hvUse":"none"}
+{"id":"zh.c0516","meaning":"nhìn thấy","note":"Âm Hán Việt: «khán kiến». 看 + 见 (kết quả): 你看见了吗？","hv":"khán kiến","hvUse":"none"}
+{"id":"zh.c0517","meaning":"nghe nói","note":"Âm Hán Việt: «thính thuyết»; đúng thứ tự «nghe nói». 听说你结婚了！","hv":"thính thuyết","hvUse":"none"}
+{"id":"zh.c0518","meaning":"nói chuyện","note":"Âm Hán Việt: «thuyết thoại» (tiếng Việt nói «nói chuyện»). 别说话 = đừng nói chuyện, im lặng.","hv":"thuyết thoại","hvUse":"none"}
+{"id":"zh.c0519","meaning":"ăn cơm","note":"Âm Hán Việt: «cật phạn» (tiếng Việt nói «ăn cơm»). 吃饭了吗？ = ăn cơm chưa? (lời chào)","hv":"cật phạn","hvUse":"none"}
+{"id":"zh.c0520","meaning":"xong; hết","note":"Âm Hán Việt: «hoàn», như trong «hoàn thành». Sau động từ: 吃完, 做完.","hv":"hoàn","hvUse":"none"}
+{"id":"zh.c0521","meaning":"nhanh","note":"Âm Hán Việt: «khoái», nhưng tiếng Việt «khoái» là thích, sướng. Tính từ dùng như động từ: 他很快 (không có 是).","hv":"khoái","hvUse":"shifted"}
+{"id":"zh.c0522","meaning":"mới","note":"Âm Hán Việt: «tân», như trong «tân binh». Trước danh từ: 新手机.","hv":"tân","hvUse":"none"}
+{"id":"zh.c0523","meaning":"nhiều","note":"Âm Hán Việt: «đa», như trong «đa số». Trước danh từ: 很多人, không nói 多人.","hv":"đa","hvUse":"none"}
+{"id":"zh.c0524","meaning":"giống nhau","note":"Âm Hán Việt: «nhất dạng» (tiếng Việt nói «giống nhau»). 跟…一样 = giống như…","hv":"nhất dạng","hvUse":"none"}
+{"id":"zh.c0525","meaning":"ít","note":"Âm Hán Việt: «thiểu», như trong «thiểu số». 人很少 = có ít người.","hv":"thiểu","hvUse":"none"}
+{"id":"zh.c0526","meaning":"dài","note":"Âm Hán Việt: «trường», như trong «trường kỳ». 很长. Ở đây đọc cháng.","hv":"trường","hvUse":"none"}
+{"id":"zh.c0527","meaning":"ngắn (độ dài)","note":"Âm Hán Việt: «đoản», như trong «đoản mệnh». Chiều cao của người: 矮.","hv":"đoản","hvUse":"none"}
+{"id":"zh.c0528","meaning":"thấp (chiều cao)","note":"Trái nghĩa với 高.","hvUse":"skip"}
+{"id":"zh.c0529","meaning":"cũ (đồ vật)","note":"Âm Hán Việt: «cựu», như trong «cựu sinh viên». Với người: 老.","hv":"cựu","hvUse":"none"}
+{"id":"zh.c0530","meaning":"già","note":"Âm Hán Việt: «lão», nghĩa giống tiếng Việt «lão» trong «ông lão». 老王 = “lão Vương”, cách gọi thân mật.","hv":"lão","hvUse":"same"}
+{"id":"zh.c0531","meaning":"chậm","note":"Âm Hán Việt: «mạn», như trong «mạn tính». 慢点儿 = chậm lại.","hv":"mạn","hvUse":"none"}
+{"id":"zh.c0532","meaning":"sớm","note":"Âm Hán Việt: «tảo», như trong «tảo hôn». 早！ = chào buổi sáng!","hv":"tảo","hvUse":"none"}
+{"id":"zh.c0533","meaning":"muộn","note":"Âm Hán Việt: «vãn» (tiếng Việt nói «muộn»). 晚了 = muộn rồi.","hv":"vãn","hvUse":"none"}
+{"id":"zh.c0534","meaning":"lạnh","note":"Âm Hán Việt: «lãnh», như trong «lãnh đạm». Không có 是: 今天很冷.","hv":"lãnh","hvUse":"none"}
+{"id":"zh.c0535","meaning":"nóng","note":"Âm Hán Việt: «nhiệt», như trong «nhiệt độ». Thời tiết và đồ ăn: 很热.","hv":"nhiệt","hvUse":"none"}
+{"id":"zh.c0536","meaning":"bận","note":"Âm Hán Việt: «mang» (tiếng Việt nói «bận»). Trả lời 你忙吗？ bằng 很忙, không phải 是.","hv":"mang","hvUse":"none"}
+{"id":"zh.c0537","meaning":"mệt","note":"Âm Hán Việt: «lụy» (tiếng Việt nói «mệt»). 累死了 = mệt chết đi được.","hv":"lụy","hvUse":"none"}
+{"id":"zh.c0538","meaning":"đói","note":"Âm Hán Việt: «ngạ», như trong «ngạ quỷ». Thường nói 饿了: 我饿了.","hv":"ngạ","hvUse":"none"}
+{"id":"zh.c0539","meaning":"khát","note":"Âm Hán Việt: «khát», nghĩa giống tiếng Việt. 渴了 = khát rồi.","hv":"khát","hvUse":"same"}
+{"id":"zh.c0540","meaning":"buồn ngủ","note":"Âm Hán Việt: «khốn», nhưng tiếng Việt «khốn» là khốn khổ, khốn khó. 困了 = buồn ngủ rồi.","hv":"khốn","hvUse":"shifted"}
+{"id":"zh.c0541","meaning":"xa","note":"Âm Hán Việt: «viễn», như trong «viễn thông». 离这儿远吗？","hv":"viễn","hvUse":"none"}
+{"id":"zh.c0542","meaning":"gần","note":"Âm Hán Việt: «cận», như trong «lân cận». 很近 = rất gần.","hv":"cận","hvUse":"none"}
+{"id":"zh.c0543","meaning":"đắt","note":"Âm Hán Việt: «quý», như trong «quý giá». 太贵了！ = đắt quá!","hv":"quý","hvUse":"none"}
+{"id":"zh.c0544","meaning":"rẻ","note":"Âm Hán Việt: «tiện nghi», nhưng tiếng Việt «tiện nghi» là đồ dùng, điều kiện làm cho thoải mái. 便宜一点儿吧 = bớt chút đi.","hv":"tiện nghi","hvUse":"shifted"}
+{"id":"zh.c0545","meaning":"béo; mập","note":"Âm Hán Việt: «bàn» (tiếng Việt nói «béo»). Người Trung Quốc nhận xét ai đó béo khá thoải mái, giống câu «dạo này béo ra» của người Việt, nhưng vẫn có thể làm người ta chạnh lòng.","hv":"bàn","hvUse":"none"}
+{"id":"zh.c0546","meaning":"gầy; mảnh mai","note":"Âm Hán Việt: «sấu» (tiếng Việt nói «gầy»). Ở Trung Quốc thường là lời khen.","hv":"sấu","hvUse":"none"}
+{"id":"zh.c0547","meaning":"chua","note":"Âm Hán Việt: «toan» (tiếng Việt nói «chua»).","hv":"toan","hvUse":"none"}
+{"id":"zh.c0548","meaning":"đắng","note":"Âm Hán Việt: «khổ»; tiếng Việt chỉ dùng nghĩa “khổ cực”. Cũng nghĩa là “vất vả (cuộc sống)”.","hv":"khổ","hvUse":"none"}
+{"id":"zh.c0549","meaning":"cay","note":"Âm Hán Việt: «lạt», chỉ trùng âm với «lạt» (nhạt) giọng Nam; đừng nhầm. 不辣 = không cay.","hv":"lạt","hvUse":"none"}
+{"id":"zh.c0550","meaning":"mặn","note":"Âm Hán Việt: «hàm» (tiếng Việt nói «mặn»).","hv":"hàm","hvUse":"none"}
+{"id":"zh.c0551","meaning":"thơm","note":"Âm Hán Việt: «hương», nghĩa giống tiếng Việt «hương» (mùi thơm). 真香 = thơm quá.","hv":"hương","hvUse":"same"}
+{"id":"zh.c0552","meaning":"ngon (đồ ăn)","note":"Âm Hán Việt: «hảo cật» (tiếng Việt nói «ngon»). Đồ uống: 好喝.","hv":"hảo cật","hvUse":"none"}
+{"id":"zh.c0553","meaning":"ngon (đồ uống)","note":"Âm Hán Việt: «hảo hát» (tiếng Việt nói «ngon»).","hv":"hảo hát","hvUse":"none"}
+{"id":"zh.c0554","meaning":"khó","note":"Âm Hán Việt: «nan», như trong «nan giải». 中文不难。","hv":"nan","hvUse":"none"}
+{"id":"zh.c0555","meaning":"dễ","note":"Âm Hán Việt: «dung dị», nhưng tiếng Việt «dung dị» là giản dị, mộc mạc. 不容易 = không dễ.","hv":"dung dị","hvUse":"shifted"}
+{"id":"zh.c0556","meaning":"đơn giản","note":"Âm Hán Việt: «giản đơn» (簡單), nghĩa giống tiếng Việt; hằng ngày tiếng Việt hay nói đảo lại: «đơn giản».","hv":"giản đơn","hvUse":"same","trad":"簡單"}
+{"id":"zh.c0557","meaning":"thoải mái; khỏe","note":"Âm Hán Việt: «thư phục» (chỉ để dễ nhớ); tiếng Việt nói «thoải mái». 不舒服 = khó chịu, không khỏe.","hv":"thư phục","hvUse":"none"}
+{"id":"zh.c0558","meaning":"tiện, thuận tiện","note":"Âm Hán Việt: «phương tiện», nhưng «phương tiện» trong tiếng Việt là công cụ, cách thức, xe cộ. 方便吗？ = bạn có tiện không?","hv":"phương tiện","hvUse":"shifted"}
+{"id":"zh.c0559","meaning":"sạch sẽ","note":"Âm Hán Việt: «can tịnh» (乾淨), chỉ để dễ nhớ; tiếng Việt nói «sạch sẽ». Chữ 干 ở đây là dạng giản thể của chữ «can» (khô).","hv":"can tịnh","hvUse":"none","trad":"乾淨"}
+{"id":"zh.c0560","meaning":"yên tĩnh","note":"Âm Hán Việt: «yên tĩnh» (安靜), nghĩa giống tiếng Việt.","hv":"yên tĩnh","hvUse":"same","trad":"安靜"}
+{"id":"zh.c0561","meaning":"náo nhiệt; đông vui","note":"Âm Hán Việt: «nhiệt náo» (熱鬧); tiếng Việt dùng hai chữ này theo thứ tự ngược lại: «náo nhiệt». Ở Trung Quốc, đông vui là điều tốt.","hv":"nhiệt náo","hvUse":"none","trad":"熱鬧"}
+{"id":"zh.c0562","meaning":"nổi tiếng","note":"Âm Hán Việt: «hữu danh» (chỉ để dễ nhớ: 有 «có», 名 «tên tuổi»); tiếng Việt nói «nổi tiếng».","hv":"hữu danh","hvUse":"none"}
+{"id":"zh.c0563","meaning":"quan trọng","note":"Âm Hán Việt: «trọng yếu», nghĩa giống tiếng Việt («trọng yếu» trang trọng hơn; hằng ngày nói «quan trọng»).","hv":"trọng yếu","hvUse":"same"}
+{"id":"zh.c0564","meaning":"vui, mừng","note":"Âm Hán Việt: «cao hứng» (高興), nhưng «cao hứng» trong tiếng Việt là đang hứng chí, phấn khích. 很高兴认识你 = rất vui được làm quen với bạn.","hv":"cao hứng","hvUse":"shifted","trad":"高興"}
+{"id":"zh.c0565","meaning":"vui vẻ (dịp lễ)","note":"Âm Hán Việt: «khoái lạc» (快樂), nhưng «khoái lạc» trong tiếng Việt là thú vui xác thịt, thường mang nghĩa xấu. 生日快乐 = chúc mừng sinh nhật.","hv":"khoái lạc","hvUse":"shifted","trad":"快樂"}
+{"id":"zh.c0566","meaning":"buồn","note":"Âm Hán Việt: «nan quá» (難過), chỉ để dễ nhớ; tiếng Việt nói «buồn».","hv":"nan quá","hvUse":"none","trad":"難過"}
+{"id":"zh.c0567","meaning":"sai","note":"Âm Hán Việt: «thác» (tiếng Việt nói «sai»). 你错了 = bạn sai rồi.","hvUse":"none","hv":"thác"}
+{"id":"zh.c0568","meaning":"khá tốt; không tệ","note":"Âm Hán Việt: «bất thác» (chỉ để dễ nhớ). Một lời khen thật lòng, ấm áp hơn vẻ ngoài của nó.","hvUse":"none","hv":"bất thác"}
+{"id":"zh.c0569","meaning":"rõ ràng","note":"Âm Hán Việt: «thanh sở» (chỉ để dễ nhớ). 说清楚 = nói cho rõ.","hv":"thanh sở","hvUse":"none"}
+{"id":"zh.c0570","meaning":"hiểu; rõ","note":"Âm Hán Việt: «minh bạch», nhưng tiếng Việt chỉ dùng «minh bạch» với nghĩa rõ ràng, công khai, không dùng với nghĩa «hiểu». 明白了 = à, tôi hiểu rồi.","hv":"minh bạch","hvUse":"shifted"}
+{"id":"zh.c0571","meaning":"khỏe mạnh","note":"Âm Hán Việt: «kiện khang» (chỉ để dễ nhớ); tiếng Việt nói «khỏe mạnh», «sức khỏe».","hv":"kiện khang","hvUse":"none"}
+{"id":"zh.c0572","meaning":"nguy hiểm","note":"Âm Hán Việt: «nguy hiểm» (危險), nghĩa giống tiếng Việt.","hv":"nguy hiểm","hvUse":"same","trad":"危險"}
+{"id":"zh.c0573","meaning":"an toàn","note":"Âm Hán Việt: «an toàn», nghĩa giống tiếng Việt.","hv":"an toàn","hvUse":"same"}
+{"id":"zh.c0574","meaning":"giỏi ghê; dữ dội","note":"Âm Hán Việt: «lệ hại» (厲害), chỉ để dễ nhớ. 你真厉害 = bạn giỏi thật đấy.","hv":"lệ hại","hvUse":"none","trad":"厲害"}
+{"id":"zh.c0575","meaning":"ấm áp (thời tiết)","note":"Âm Hán Việt: «noãn hòa» (chỉ để dễ nhớ).","hv":"noãn hòa","hvUse":"none"}
+{"id":"zh.c0576","meaning":"mát mẻ","note":"Âm Hán Việt: «lương khoái» (涼快), chỉ để dễ nhớ; tiếng Việt nói «mát mẻ».","hv":"lương khoái","hvUse":"none","trad":"涼快"}
+{"id":"zh.c0577","meaning":"hỏng; xấu","note":"Âm Hán Việt: «hoại» (壞), chỉ để dễ nhớ; tiếng Việt nói «hỏng», «xấu». 坏了 = hỏng rồi.","hv":"hoại","hvUse":"none","trad":"壞"}
+{"id":"zh.c0578","meaning":"đỏ","note":"Âm Hán Việt: «hồng» (紅), nhưng «hồng» trong tiếng Việt thường là màu hồng; 红 là màu đỏ, màu may mắn. Danh từ: 红色.","hv":"hồng","hvUse":"shifted","trad":"紅"}
+{"id":"zh.c0579","meaning":"trắng","note":"Âm Hán Việt: «bạch» (chỉ để dễ nhớ). Danh từ: 白色.","hv":"bạch","hvUse":"none"}
+{"id":"zh.c0580","meaning":"đen; tối","note":"Âm Hán Việt: «hắc» (chỉ để dễ nhớ). 天黑了 = trời tối rồi.","hv":"hắc","hvUse":"none"}
+{"id":"zh.c0581","meaning":"vàng","note":"Âm Hán Việt: «hoàng» (黃), chỉ để dễ nhớ; tiếng Việt nói «vàng».","hv":"hoàng","hvUse":"none","trad":"黃"}
+{"id":"zh.c0582","meaning":"xanh lam","note":"Âm Hán Việt: «lam» (藍), nghĩa giống «xanh lam» trong tiếng Việt. 蓝天 = trời xanh.","hv":"lam","hvUse":"same","trad":"藍"}
+{"id":"zh.c0583","meaning":"giàu, có tiền","note":"Âm Hán Việt: «hữu tiền» (有錢). Tiếng Việt không dùng cả từ này, nhưng 钱 đọc là «tiền» và nghĩa cũng là tiền.","hv":"hữu tiền","hvUse":"none","trad":"有錢"}
+{"id":"zh.c0584","meaning":"chán, vô vị","note":"Âm Hán Việt: «một ý tứ» (chỉ để dễ nhớ). Trái nghĩa với 有意思.","hv":"một ý tứ","hvUse":"none"}
+{"id":"zh.c0585","meaning":"gần như; xấp xỉ","note":"Âm Hán Việt: «sai bất đa» (chỉ để dễ nhớ). 差不多了 = sắp xong rồi.","hv":"sai bất đa","hvUse":"none"}
+{"id":"zh.c0586","meaning":"nắng, quang đãng","note":"Âm Hán Việt: «tình» (chỉ để dễ nhớ). 晴天 = ngày nắng.","hv":"tình","hvUse":"none"}
+{"id":"zh.c0587","meaning":"âm u, nhiều mây","note":"Âm Hán Việt: «âm» (陰), chữ «âm» trong «âm dương». 阴天 = trời âm u.","hv":"âm","hvUse":"none","trad":"陰"}
+{"id":"zh.c0588","meaning":"không","note":"Âm Hán Việt: «bất». Đứng trước động từ hoặc tính từ: 不去, 不好. Trước thanh 4 đọc là bú.","hv":"bất","hvUse":"none"}
+{"id":"zh.c0589","meaning":"liền; ngay; thì","note":"我就来 = tôi đến ngay đây.","hvUse":"skip"}
+{"id":"zh.c0590","meaning":"cũng","note":"Đứng trước động từ, như «cũng»: 我也去. Không bao giờ đứng cuối câu.","hvUse":"skip"}
+{"id":"zh.c0591","meaning":"đều; tất cả","note":"Đứng trước động từ, như «đều»: 我们都去.","hvUse":"skip"}
+{"id":"zh.c0592","meaning":"rất (nghĩa nhẹ)","note":"Nối chủ ngữ với tính từ: 我很忙 (không có 是). 很 ở đây nhẹ, không mạnh như «rất».","hvUse":"skip"}
+{"id":"zh.c0593","meaning":"vẫn; còn","note":"他还在睡觉 = anh ấy vẫn đang ngủ.","hvUse":"skip"}
+{"id":"zh.c0594","meaning":"đừng","note":"别走！ = đừng đi!","hvUse":"skip"}
+{"id":"zh.c0595","meaning":"thật sự; thật","note":"真的吗？ = thật không?","hvUse":"skip"}
+{"id":"zh.c0596","meaning":"bây giờ","note":"Âm Hán Việt: «hiện tại» (現在), nghĩa giống tiếng Việt. Đứng trước động từ: 我现在很忙.","hv":"hiện tại","hvUse":"same","trad":"現在"}
+{"id":"zh.c0597","meaning":"quá","note":"太贵了 = đắt quá; 太好了 = tuyệt quá!","hvUse":"skip"}
+{"id":"zh.c0598","meaning":"không, chưa (việc đã qua)","note":"Dùng cho việc đã qua và với 有: 我没去.","hvUse":"skip"}
+{"id":"zh.c0599","meaning":"thật; thật là","note":"Âm Hán Việt: «chân» (nghĩa gốc: sự thật). Đứng trước tính từ: 真好.","hv":"chân","hvUse":"none"}
+{"id":"zh.c0600","meaning":"đã (rồi)","note":"Âm Hán Việt: «dĩ kinh» (已經), chỉ để dễ nhớ. Thường đi với 了: 我已经吃了 = tôi ăn rồi.","hv":"dĩ kinh","hvUse":"none","trad":"已經"}
+{"id":"zh.c0601","meaning":"mới (muộn hơn dự định)","note":"他十点才来 = mười giờ anh ấy mới đến.","hvUse":"skip"}
+{"id":"zh.c0602","meaning":"cùng nhau","note":"Âm Hán Việt: «nhất khởi» (chỉ để dễ nhớ). 一起去吧 = cùng đi nhé.","hv":"nhất khởi","hvUse":"none"}
+{"id":"zh.c0603","meaning":"chỉ","note":"Âm Hán Việt: «chỉ», nghĩa giống «chỉ» trong tiếng Việt. 我只有一个 = tôi chỉ có một cái.","hv":"chỉ","hvUse":"same"}
+{"id":"zh.c0604","meaning":"một chút; thử (làm nhẹ động từ)","note":"Âm Hán Việt: «nhất hạ» (chỉ để dễ nhớ). 等一下 = đợi một chút.","hv":"nhất hạ","hvUse":"none"}
+{"id":"zh.c0605","meaning":"lại, nữa (lần sau)","note":"Âm Hán Việt: «tái», như «tái» (lại) trong «tái chiếm». 再见 = tạm biệt.","hv":"tái","hvUse":"none"}
+{"id":"zh.c0606","meaning":"nhất","note":"Âm Hán Việt: «tối», như trong «tối đa». 最 đứng trước tính từ, còn «nhất» đứng sau: 最好 = tốt nhất.","hv":"tối","hvUse":"none"}
+{"id":"zh.c0607","meaning":"có lẽ; có thể","note":"Âm Hán Việt: «khả năng», nhưng «khả năng» trong tiếng Việt chủ yếu là danh từ (năng lực, khả năng xảy ra); 可能 ở đây là «có lẽ». 他可能不来。 = có lẽ anh ấy không đến.","hv":"khả năng","hvUse":"shifted"}
+{"id":"zh.c0608","meaning":"càng; hơn nữa","note":"更好 = càng tốt hơn.","hvUse":"skip"}
+{"id":"zh.c0609","meaning":"vô cùng; cực kỳ","note":"Âm Hán Việt: «phi thường», nhưng «phi thường» trong tiếng Việt là khác thường, xuất chúng; 非常 chỉ là «vô cùng». Mạnh hơn 很.","hv":"phi thường","hvUse":"shifted"}
+{"id":"zh.c0610","meaning":"hơi (quá)","note":"Thường dùng cho điều không hay: 有点儿贵 = hơi đắt.","hvUse":"skip"}
+{"id":"zh.c0611","meaning":"gần đây; dạo này","note":"最近怎么样？","hv":"tối cận","hvUse":"none"}
+{"id":"zh.c0612","meaning":"khá; tương đối","note":"比较贵 = khá đắt.","hvUse":"skip"}
+{"id":"zh.c0613","meaning":"ngay lập tức","note":"Âm Hán Việt: «mã thượng» (馬上), chỉ để dễ nhớ. 马上来！ = có ngay!","hv":"mã thượng","hvUse":"none","trad":"馬上"}
+{"id":"zh.c0614","meaning":"đang (giữa lúc)","note":"我正在吃饭.","hv":"chính tại","hvUse":"none"}
+{"id":"zh.c0615","meaning":"thường, thường thường","note":"Âm Hán Việt: «thường thường», nghĩa giống tiếng Việt. 我常常去 = tôi thường đi.","hv":"thường thường","hvUse":"same"}
+{"id":"zh.c0616","meaning":"thường xuyên","note":"Âm Hán Việt: «kinh thường» (經常), chỉ để dễ nhớ. Giống 常常, trang trọng hơn một chút.","hv":"kinh thường","hvUse":"none","trad":"經常"}
+{"id":"zh.c0617","meaning":"lúc nào cũng","note":"他总是很忙.","hv":"tổng thị","hvUse":"none","trad":"總是"}
+{"id":"zh.c0618","meaning":"đôi khi","note":"Âm Hán Việt: «hữu thời hậu» (有時候), chỉ để dễ nhớ.","hv":"hữu thời hậu","hvUse":"none","trad":"有時候"}
+{"id":"zh.c0619","meaning":"vừa nãy","note":"刚才谁来了？","hv":"cương tài","hvUse":"none","trad":"剛才"}
+{"id":"zh.c0620","meaning":"trước (trước người khác)","note":"Âm Hán Việt: «tiên» (chỉ để dễ nhớ). 你先走 = bạn đi trước đi.","hv":"tiên","hvUse":"none"}
+{"id":"zh.c0621","meaning":"nhất định; chắc chắn","note":"Âm Hán Việt: «nhất định», nghĩa giống tiếng Việt. 一定要来 = nhất định phải đến nhé.","hv":"nhất định","hvUse":"same"}
+{"id":"zh.c0622","meaning":"suốt; thẳng","note":"Âm Hán Việt: «nhất trực» (chỉ để dễ nhớ). 一直走 = đi thẳng.","hv":"nhất trực","hvUse":"none"}
+{"id":"zh.c0623","meaning":"đương nhiên","note":"Âm Hán Việt: «đương nhiên» (當然), nghĩa giống tiếng Việt. 当然可以！ = đương nhiên là được!","hv":"đương nhiên","hvUse":"same","trad":"當然"}
+{"id":"zh.c0624","meaning":"thật ra","note":"Âm Hán Việt: «kỳ thực» (其實), nghĩa giống «kỳ thực» trong tiếng Việt.","hv":"kỳ thực","hvUse":"same","trad":"其實"}
+{"id":"zh.c0625","meaning":"thường thì; bình thường","note":"Âm Hán Việt: «nhất ban» (chỉ để dễ nhớ). Cũng có nghĩa «bình thường, tàm tạm».","hv":"nhất ban","hvUse":"none"}
+{"id":"zh.c0626","meaning":"từ từ; dần dần","note":"Âm Hán Việt: «mạn mạn» (chỉ để dễ nhớ). 慢慢吃 = ăn từ từ nhé (lời chúc ăn ngon miệng).","hv":"mạn mạn","hvUse":"none"}
+{"id":"zh.c0627","meaning":"cho đàng hoàng; cho tốt","note":"Âm Hán Việt: «hảo hảo» (chỉ để dễ nhớ). 好好休息 = nghỉ ngơi cho khỏe nhé.","hv":"hảo hảo","hvUse":"none"}
+{"id":"zh.c0628","meaning":"tôi","note":"Âm Hán Việt: «ngã», như trong «bản ngã». Một chữ cho «tôi» ở cả vị trí chủ ngữ lẫn tân ngữ.","hv":"ngã","hvUse":"none"}
+{"id":"zh.c0629","meaning":"bạn (một người)","note":"Cách xưng hô thân thiện mặc định. Lịch sự: 您.","hvUse":"skip"}
+{"id":"zh.c0630","meaning":"anh ấy; ông ấy","note":"Đọc giống 她 và 它: tā.","hvUse":"skip"}
+{"id":"zh.c0631","meaning":"này; đây","note":"Thường đi với lượng từ: 这本书 = quyển sách này.","hvUse":"skip"}
+{"id":"zh.c0632","meaning":"cô ấy; bà ấy","note":"Đọc giống 他: tā.","hvUse":"skip"}
+{"id":"zh.c0633","meaning":"kia; đó","note":"那个 = cái kia. Cũng có nghĩa «vậy thì».","hvUse":"skip"}
+{"id":"zh.c0634","meaning":"tự mình; bản thân","note":"Âm Hán Việt: «tự kỷ», nhưng «tự kỷ» trong tiếng Việt là mắc chứng tự kỷ (tiếng lóng: sống khép kín). 我自己 = chính tôi.","hv":"tự kỷ","hvUse":"shifted"}
+{"id":"zh.c0635","meaning":"các bạn","note":"你们好 = chào các bạn.","hvUse":"skip"}
+{"id":"zh.c0636","meaning":"nó (con vật, đồ vật)","note":"Dùng cho con vật và đồ vật; thường được lược bỏ.","hvUse":"skip"}
+{"id":"zh.c0637","meaning":"chỗ này, ở đây","note":"Giống 这儿; 这里 phổ biến hơn ở miền Nam Trung Quốc.","hvUse":"skip"}
+{"id":"zh.c0638","meaning":"ông, bà, thầy… (lịch sự)","note":"Dùng với người lớn tuổi, thầy cô và khách hàng; tiếng Việt thể hiện điều này bằng danh xưng (ông, bà, thầy, quý khách) và «ạ».","hvUse":"skip"}
+{"id":"zh.c0639","meaning":"chúng ta","note":"Khẩu ngữ miền Bắc; luôn gồm cả người nghe, đúng như «chúng ta» trong tiếng Việt.","hvUse":"skip"}
+{"id":"zh.c0640","meaning":"mọi người","note":"Âm Hán Việt: «đại gia», nhưng «đại gia» trong tiếng Việt ngày nay chỉ người giàu có. 大家好！ = chào mọi người!","hv":"đại gia","hvUse":"shifted"}
+{"id":"zh.c0641","meaning":"họ (toàn nữ)","note":"Đọc giống 他们.","hvUse":"skip"}
+{"id":"zh.c0642","meaning":"chúng nó (con vật, đồ vật)","note":"Chủ yếu dùng trong văn viết.","hvUse":"skip"}
+{"id":"zh.c0643","meaning":"những … này","note":"这些人 = những người này.","hvUse":"skip"}
+{"id":"zh.c0644","meaning":"những … kia","note":"那些书 = những quyển sách kia.","hvUse":"skip"}
+{"id":"zh.c0645","meaning":"ở đây (giọng phương Bắc)","note":"Dạng nhi hóa (thêm 儿) của 这里.","hvUse":"skip"}
+{"id":"zh.c0646","meaning":"ở đó (giọng phương Bắc)","note":"Dạng nhi hóa (thêm 儿) của 那里.","hvUse":"skip"}
+{"id":"zh.c0647","meaning":"ở đó, chỗ đó","note":"","hvUse":"skip"}
+{"id":"zh.c0648","meaning":"ở đâu (giọng phương Bắc)","note":"你去哪儿？","hvUse":"skip"}
+{"id":"zh.c0649","meaning":"ở đâu, chỗ nào","note":"Nói lặp lại là câu đáp khiêm tốn: 哪里哪里.","hvUse":"skip"}
+{"id":"zh.c0650","meaning":"nào","note":"+ lượng từ: 哪本书？ = quyển sách nào?","hvUse":"skip"}
+{"id":"zh.c0651","meaning":"khác; cái khác","note":"别的颜色 = màu khác.","hvUse":"skip"}
+{"id":"zh.c0652","meaning":"của tôi","note":"的 chỉ sở hữu, như «của» nhưng đứng trước danh từ. Với người thân: 我妈妈 (không có 的).","hvUse":"skip"}
+{"id":"zh.c0653","meaning":"của bạn","note":"","hvUse":"skip"}
+{"id":"zh.c0654","meaning":"của anh ấy","note":"","hvUse":"skip"}
+{"id":"zh.c0655","meaning":"của cô ấy","note":"","hvUse":"skip"}
+{"id":"zh.c0656","meaning":"của chúng tôi","note":"","hvUse":"skip"}
+{"id":"zh.c0657","meaning":"của ai","note":"这是谁的？ = cái này của ai?","hvUse":"skip"}
+{"id":"zh.c0658","meaning":"ở, tại (nơi chốn)","note":"Âm Hán Việt: «tại», nghĩa giống «tại» trong tiếng Việt. Nhưng 在 + nơi chốn đứng trước động từ: 我在家吃饭 = tôi ăn cơm ở nhà.","hv":"tại","hvUse":"same"}
+{"id":"zh.c0659","meaning":"(đưa tân ngữ lên trước động từ)","note":"把书给我 = đưa quyển sách cho tôi.","hvUse":"skip"}
+{"id":"zh.c0660","meaning":"vì (ai đó)","note":"Âm Hán Việt: «vị» (為), chỉ để dễ nhớ. 为你高兴 = mừng cho bạn.","hv":"vị","hvUse":"none","trad":"為"}
+{"id":"zh.c0661","meaning":"đến; tới","note":"Âm Hán Việt: «đáo», như trong «chu đáo». 从…到… = từ … đến …","hv":"đáo","hvUse":"none"}
+{"id":"zh.c0662","meaning":"bị (bị động)","note":"Âm Hán Việt: «bị», nghĩa giống «bị» trong tiếng Việt: thường dùng cho chuyện không hay. 被拿走了 = bị lấy mất rồi.","hv":"bị","hvUse":"same"}
+{"id":"zh.c0663","meaning":"cho (ai)","note":"Âm Hán Việt: «cấp» (給), như «cấp» (cho, phát) trong tiếng Việt. 给我打电话 = gọi điện cho tôi. Cũng là động từ «cho, đưa».","hv":"cấp","hvUse":"none","trad":"給"}
+{"id":"zh.c0664","meaning":"từ","note":"我从美国来。","hv":"tòng","hvUse":"none","trad":"從"}
+{"id":"zh.c0665","meaning":"với; cùng","note":"跟我来 = đi theo tôi.","hvUse":"skip"}
+{"id":"zh.c0666","meaning":"sau (sau từ chỉ thời gian)","note":"Âm Hán Việt: «hậu» (後), như «hậu» (sau) trong tiếng Việt. 三天后 = ba ngày sau.","hv":"hậu","hvUse":"none","trad":"後"}
+{"id":"zh.c0667","meaning":"dùng; bằng","note":"Âm Hán Việt: «dụng», như trong «sử dụng». 用筷子吃 = ăn bằng đũa.","hv":"dụng","hvUse":"none"}
+{"id":"zh.c0668","meaning":"về phía","note":"Âm Hán Việt: «vãng», như trong «dĩ vãng». 往前走 = đi thẳng về phía trước.","hv":"vãng","hvUse":"none"}
+{"id":"zh.c0669","meaning":"cách (khoảng cách)","note":"Âm Hán Việt: «ly» (離), chỉ để dễ nhớ. 离这儿远吗？ = cách đây có xa không?","hv":"ly","hvUse":"none","trad":"離"}
+{"id":"zh.c0670","meaning":"hơn (so sánh)","note":"Âm Hán Việt: «tỉ» (chỉ để dễ nhớ). 比 + vật so sánh đứng trước tính từ: 我比他高 = tôi cao hơn anh ấy.","hv":"tỉ","hvUse":"none"}
+{"id":"zh.c0671","meaning":"trong (sau danh từ)","note":"Âm Hán Việt: «lý» (裏), chỉ để dễ nhớ. Đứng sau danh từ, ngược với tiếng Việt: 房间里 = trong phòng.","hv":"lý","hvUse":"none","trad":"裏"}
+{"id":"zh.c0672","meaning":"trước (sau từ chỉ thời gian)","note":"Âm Hán Việt: «tiền», như tiền tố «tiền-» (trước). 三天前 = ba ngày trước.","hv":"tiền","hvUse":"none"}
+{"id":"zh.c0673","meaning":"bên trên","note":"Âm Hán Việt: «thượng biên» (上邊), chỉ để dễ nhớ. 桌子上边 = trên bàn.","hv":"thượng biên","hvUse":"none","trad":"上邊"}
+{"id":"zh.c0674","meaning":"bên dưới","note":"Âm Hán Việt: «hạ biên» (下邊), chỉ để dễ nhớ.","hv":"hạ biên","hvUse":"none","trad":"下邊"}
+{"id":"zh.c0675","meaning":"bên trong","note":"Âm Hán Việt: «lý biên» (裏邊), chỉ để dễ nhớ.","hv":"lý biên","hvUse":"none","trad":"裏邊"}
+{"id":"zh.c0676","meaning":"bên ngoài","note":"Âm Hán Việt: «ngoại biên» (外邊), chỉ để dễ nhớ.","hv":"ngoại biên","hvUse":"none","trad":"外邊"}
+{"id":"zh.c0677","meaning":"phía trước","note":"Âm Hán Việt: «tiền biên» (前邊), chỉ để dễ nhớ.","hv":"tiền biên","hvUse":"none","trad":"前邊"}
+{"id":"zh.c0678","meaning":"phía sau","note":"Âm Hán Việt: «hậu biên» (後邊), chỉ để dễ nhớ.","hv":"hậu biên","hvUse":"none","trad":"後邊"}
+{"id":"zh.c0679","meaning":"bên cạnh","note":"Âm Hán Việt: «bàng biên» (旁邊), chỉ để dễ nhớ.","hv":"bàng biên","hvUse":"none","trad":"旁邊"}
+{"id":"zh.c0680","meaning":"đối diện","note":"Âm Hán Việt: «đối diện» (對面), nghĩa giống tiếng Việt.","hv":"đối diện","hvUse":"same","trad":"對面"}
+{"id":"zh.c0681","meaning":"ở giữa","note":"Âm Hán Việt: «trung gian» (中間), nhưng «trung gian» trong tiếng Việt là bên đứng giữa làm cầu nối (môi giới); 中间 chỉ là «ở giữa».","hv":"trung gian","hvUse":"shifted","trad":"中間"}
+{"id":"zh.c0682","meaning":"gần đây; lân cận","note":"Âm Hán Việt: «phụ cận», nghĩa giống tiếng Việt (vùng phụ cận).","hv":"phụ cận","hvUse":"same"}
+{"id":"zh.c0683","meaning":"bên trái","note":"Âm Hán Việt: «tả biên» (左邊), chỉ để dễ nhớ. Bên phải: 右边.","hv":"tả biên","hvUse":"none","trad":"左邊"}
+{"id":"zh.c0684","meaning":"và (nối danh từ)","note":"Chỉ nối danh từ: 我和你. Không dùng để nối hai câu như «và» trong tiếng Việt.","hvUse":"skip"}
+{"id":"zh.c0685","meaning":"nếu","note":"Âm Hán Việt: «như quả» (chỉ để dễ nhớ). Thường đi với 就: xem 如果…就.","hv":"như quả","hvUse":"none"}
+{"id":"zh.c0686","meaning":"còn nữa; thêm","note":"Thêm một điều nữa: 还有一个问题 = còn một vấn đề nữa.","hvUse":"skip"}
+{"id":"zh.c0687","meaning":"hay (trong câu hỏi)","note":"茶还是咖啡？ = trà hay cà phê? Trong câu kể dùng 或者 («hoặc»).","hvUse":"skip"}
+{"id":"zh.c0688","meaning":"hoặc (trong câu kể)","note":"Âm Hán Việt: «hoặc giả»; chữ 或 đọc là «hoặc», đúng như «hoặc» trong tiếng Việt.","hv":"hoặc giả","hvUse":"none"}
+{"id":"zh.c0689","meaning":"nhưng","note":"Nhẹ hơn 但是; hay dùng trong văn nói.","hvUse":"skip"}
+{"id":"zh.c0690","meaning":"nhưng mà; tuy nhiên","note":"Một chữ «nhưng» nhẹ nhàng: hợp để từ chối lịch sự.","hvUse":"skip"}
+{"id":"zh.c0691","meaning":"rồi; sau đó","note":"Âm Hán Việt: «nhiên hậu» (然後), chỉ để dễ nhớ.","hv":"nhiên hậu","hvUse":"none","trad":"然後"}
+{"id":"zh.c0692","meaning":"vậy thì","note":"Mở đầu câu đáp: 那么，我们走吧 = vậy thì chúng ta đi thôi.","hvUse":"skip"}
+{"id":"zh.c0693","meaning":"vì … nên","note":"Tiếng Trung thường dùng cả hai vế, như «vì … nên» trong tiếng Việt."}
+{"id":"zh.c0694","meaning":"nếu … thì","note":"就 đứng trước động từ ở vế sau, như «thì»."}
+{"id":"zh.c0695","meaning":"trước … rồi","note":""}
+{"id":"zh.c0696","meaning":"khi …","note":"Đứng SAU mệnh đề, ngược với «khi» trong tiếng Việt: 我小的时候 = khi tôi còn nhỏ."}
+{"id":"zh.c0697","meaning":"vừa … vừa","note":"又好吃又便宜 = vừa ngon vừa rẻ."}
+{"id":"zh.c0698","meaning":"không … thì là …","note":""}
+{"id":"zh.c0699","meaning":"A lô? (điện thoại)","note":"Nghe điện thoại đọc là wéi; gọi ai đó «này!» đọc là wèi.","hvUse":"skip"}
+{"id":"zh.c0700","meaning":"Trời ơi!","note":"Nghĩa đen: «trời của tôi». Phổ biến và không thô lỗ.","hvUse":"skip"}
+{"id":"zh.c0701","meaning":"Cố lên!","note":"Âm Hán Việt: «gia du» (nghĩa đen: «thêm dầu»). Dùng khi thi cử, thi đấu, những ngày vất vả.","hv":"gia du","hvUse":"none"}
+{"id":"zh.c0702","meaning":"Thôi bỏ đi.","note":"Khi từ bỏ một việc gì đó.","hvUse":"skip"}
+{"id":"zh.c0703","meaning":"Xong rồi. Thôi đủ rồi.","note":"好了，走吧 = xong rồi, đi thôi.","hvUse":"skip"}
+{"id":"zh.c0704","meaning":"Thôi được.","note":"Đồng ý nhưng không hào hứng lắm.","hvUse":"skip"}
+{"id":"zh.c0705","meaning":"À, nhân tiện…","note":"Mở ra một chuyện vừa nhớ ra.","hvUse":"skip"}
+{"id":"zh.c0706","meaning":"Thế à? Vậy sao?","note":"Ngạc nhiên hoặc quan tâm nhẹ.","hvUse":"skip"}
+{"id":"zh.c0707","meaning":"Thật không?!","note":"Ngạc nhiên mạnh hơn 是吗.","hvUse":"skip"}
+{"id":"zh.c0708","meaning":"Không thể nào!","note":"Không tin: «làm gì có chuyện đó».","hvUse":"skip"}
+{"id":"zh.c0709","meaning":"Tiếc quá.","note":"Âm Hán Việt: «khả tích»; chữ 惜 còn được đọc là «tiếc». Hay nói 太可惜了.","hv":"khả tích","hvUse":"none"}
+{"id":"zh.c0710","meaning":"Không vấn đề gì!","note":"Âm Hán Việt: «một vấn đề»; hai chữ sau chính là «vấn đề». Dùng khi nhận lời giúp ai.","hv":"một vấn đề","hvUse":"none"}
+{"id":"zh.c0711","meaning":"Được.","note":"Cách nhận lời hằng ngày khi được nhờ («được», «vâng»).","hvUse":"skip"}
+{"id":"zh.c0712","meaning":"Được, ổn đấy.","note":"Cách nói «được» rất phổ biến ở miền Bắc Trung Quốc.","hvUse":"skip"}
+{"id":"zh.c0713","meaning":"Không được.","note":"Lời từ chối dứt khoát.","hvUse":"skip"}
+{"id":"zh.c0714","meaning":"Nhanh lên!","note":"Nói với bạn bè; thêm 吧 cho nhẹ nhàng hơn.","hvUse":"skip"}
+{"id":"zh.c0715","meaning":"Chậm thôi! Cẩn thận nhé!","note":"Cũng nói khi tiễn ai đó về: 慢点儿走.","hvUse":"skip"}
+{"id":"zh.c0716","meaning":"một (cái, người…)","note":"个 là lượng từ chung, như «cái»: 一个人.","hvUse":"skip"}
+{"id":"zh.c0717","meaning":"không (không có; chưa)","note":"Trả lời câu hỏi với 有…吗 và câu hỏi với 了.","hvUse":"skip"}
+{"id":"zh.c0718","meaning":"không phải; không","note":"Trả lời câu hỏi với 是: 不是，我是美国人。 = không phải, tôi là người Mỹ.","hvUse":"skip"}
+{"id":"zh.c0719","meaning":"năm (thời gian)","note":"Âm Hán Việt: «niên», như trong «thanh niên». 三年 = ba năm (không cần lượng từ).","hv":"niên","hvUse":"none"}
+{"id":"zh.c0720","meaning":"thế nào; làm sao","note":"怎么走？ = đi đường nào?","hvUse":"skip"}
+{"id":"zh.c0721","meaning":"bao nhiêu","note":"Âm Hán Việt: «đa thiểu» (chỉ để dễ nhớ). Dùng cho mọi số lượng; số nhỏ dùng 几.","hv":"đa thiểu","hvUse":"none"}
+{"id":"zh.c0722","meaning":"mấy (số nhỏ)","note":"+ lượng từ: 几个？ = mấy cái?","hvUse":"skip"}
+{"id":"zh.c0723","meaning":"bao lâu","note":"你学了多久？","hv":"đa cửu","hvUse":"none"}
+{"id":"zh.c0724","meaning":"bao nhiêu tuổi; to cỡ nào","note":"Âm Hán Việt: «đa đại» (chỉ để dễ nhớ). Hỏi tuổi người lớn dùng 多大, trẻ em dùng 几岁.","hv":"đa đại","hvUse":"none"}
+{"id":"zh.c0725","meaning":"mỗi","note":"Âm Hán Việt: «mỗi», nghĩa giống tiếng Việt. + lượng từ: 每个人 = mỗi người, mọi người.","hv":"mỗi","hvUse":"same"}
+{"id":"zh.c0726","meaning":"một vài; một ít","note":"一些朋友 = vài người bạn.","hvUse":"skip"}
+{"id":"zh.c0727","meaning":"một chút, một ít","note":"一点儿水 = một chút nước. Sau tính từ: 好一点儿 = khá hơn một chút.","hvUse":"skip"}
+{"id":"zh.c0728","meaning":"nhiều","note":"很多人 = nhiều người.","hvUse":"skip"}
+{"id":"zh.c0729","meaning":"bốn","note":"Âm Hán Việt: «tứ»; tiếng Việt đếm là «bốn». Đọc gần giống 死 (chết) nên nhiều người kiêng số này.","hv":"tứ","hvUse":"none"}
+{"id":"zh.c0730","meaning":"năm (số đếm)","note":"Âm Hán Việt: «ngũ»; tiếng Việt đếm là «năm».","hv":"ngũ","hvUse":"none"}
+{"id":"zh.c0731","meaning":"sáu","note":"Âm Hán Việt: «lục». Số may mắn: 六六大顺 (mọi việc suôn sẻ).","hv":"lục","hvUse":"none"}
+{"id":"zh.c0732","meaning":"chín","note":"Âm Hán Việt: «cửu». Đọc giống 久 (lâu dài).","hv":"cửu","hvUse":"none"}
+{"id":"zh.c0733","meaning":"mười một","note":"Âm Hán Việt: «thập nhất». Mười + một.","hv":"thập nhất","hvUse":"none"}
+{"id":"zh.c0734","meaning":"mười hai","note":"Âm Hán Việt: «thập nhị».","hv":"thập nhị","hvUse":"none"}
+{"id":"zh.c0735","meaning":"mười ba","note":"Âm Hán Việt: «thập tam».","hv":"thập tam","hvUse":"none"}
+{"id":"zh.c0736","meaning":"mười bốn","note":"Âm Hán Việt: «thập tứ».","hv":"thập tứ","hvUse":"none"}
+{"id":"zh.c0737","meaning":"mười sáu","note":"Âm Hán Việt: «thập lục».","hv":"thập lục","hvUse":"none"}
+{"id":"zh.c0738","meaning":"mười bảy","note":"Âm Hán Việt: «thập thất».","hv":"thập thất","hvUse":"none"}
+{"id":"zh.c0739","meaning":"mười tám","note":"Âm Hán Việt: «thập bát».","hv":"thập bát","hvUse":"none"}
+{"id":"zh.c0740","meaning":"mười chín","note":"Âm Hán Việt: «thập cửu».","hv":"thập cửu","hvUse":"none"}
+{"id":"zh.c0741","meaning":"một nửa; rưỡi","note":"Âm Hán Việt: «bán», như tiền tố «bán-» (nửa). 三点半 = ba giờ rưỡi. 一半 = một nửa.","hv":"bán","hvUse":"none"}
+{"id":"zh.c0742","meaning":"thứ nhất","note":"Âm Hán Việt: «đệ nhất», nghĩa giống tiếng Việt (trang trọng hơn «thứ nhất»). 第 + số tạo số thứ tự: 第二 = thứ hai.","hv":"đệ nhất","hvUse":"same"}
+{"id":"zh.c0743","meaning":"hôm nay","note":"Âm Hán Việt: «kim thiên» (chỉ để dễ nhớ).","hv":"kim thiên","hvUse":"none"}
+{"id":"zh.c0744","meaning":"ngày kia","note":"Âm Hán Việt: «hậu thiên» (後天), chỉ để dễ nhớ.","hv":"hậu thiên","hvUse":"none","trad":"後天"}
+{"id":"zh.c0745","meaning":"hôm kia","note":"Âm Hán Việt: «tiền thiên» (chỉ để dễ nhớ).","hv":"tiền thiên","hvUse":"none"}
+{"id":"zh.c0746","meaning":"năm nay","note":"Âm Hán Việt: «kim niên» (chỉ để dễ nhớ).","hv":"kim niên","hvUse":"none"}
+{"id":"zh.c0747","meaning":"năm sau","note":"Âm Hán Việt: «minh niên» (chỉ để dễ nhớ).","hv":"minh niên","hvUse":"none"}
+{"id":"zh.c0748","meaning":"năm ngoái","note":"Âm Hán Việt: «khứ niên» (chỉ để dễ nhớ).","hv":"khứ niên","hvUse":"none"}
+{"id":"zh.c0749","meaning":"sáng sớm","note":"Âm Hán Việt: «tảo thượng» (chỉ để dễ nhớ). 早上好 = chào buổi sáng.","hv":"tảo thượng","hvUse":"none"}
+{"id":"zh.c0750","meaning":"buổi sáng (trước trưa)","note":"Âm Hán Việt: «thượng ngọ» (chỉ để dễ nhớ).","hv":"thượng ngọ","hvUse":"none"}
+{"id":"zh.c0751","meaning":"buổi trưa","note":"Âm Hán Việt: «trung ngọ» (chỉ để dễ nhớ).","hv":"trung ngọ","hvUse":"none"}
+{"id":"zh.c0752","meaning":"buổi chiều","note":"Âm Hán Việt: «hạ ngọ» (chỉ để dễ nhớ).","hv":"hạ ngọ","hvUse":"none"}
+{"id":"zh.c0753","meaning":"buổi tối","note":"Âm Hán Việt: «vãn thượng» (chỉ để dễ nhớ).","hv":"vãn thượng","hvUse":"none"}
+{"id":"zh.c0754","meaning":"trước đây","note":"Âm Hán Việt: «dĩ tiền» (chỉ để dễ nhớ).","hv":"dĩ tiền","hvUse":"none"}
+{"id":"zh.c0755","meaning":"sau này; sau khi","note":"Âm Hán Việt: «dĩ hậu» (以後), chỉ để dễ nhớ.","hv":"dĩ hậu","hvUse":"none","trad":"以後"}
+{"id":"zh.c0756","meaning":"tuần","note":"Âm Hán Việt: «tinh kỳ» (chỉ để dễ nhớ). 这个星期 = tuần này.","hv":"tinh kỳ","hvUse":"none"}
+{"id":"zh.c0757","meaning":"thứ Ba","note":"Âm Hán Việt: «tinh kỳ nhị». 星期 + số, nhưng số lệch một so với tiếng Việt: số 2 là thứ Ba. Chủ nhật là 星期天.","hv":"tinh kỳ nhị","hvUse":"none"}
+{"id":"zh.c0758","meaning":"thứ Tư","note":"Âm Hán Việt: «tinh kỳ tam».","hv":"tinh kỳ tam","hvUse":"none"}
+{"id":"zh.c0759","meaning":"thứ Năm","note":"Âm Hán Việt: «tinh kỳ tứ».","hv":"tinh kỳ tứ","hvUse":"none"}
+{"id":"zh.c0760","meaning":"thứ Sáu","note":"Âm Hán Việt: «tinh kỳ ngũ».","hv":"tinh kỳ ngũ","hvUse":"none"}
+{"id":"zh.c0761","meaning":"thứ Bảy","note":"Âm Hán Việt: «tinh kỳ lục».","hv":"tinh kỳ lục","hvUse":"none"}
+{"id":"zh.c0762","meaning":"Chủ nhật","note":"Âm Hán Việt: «tinh kỳ thiên». Cũng viết là 星期日.","hv":"tinh kỳ thiên","hvUse":"none"}
+{"id":"zh.c0763","meaning":"giờ (tiếng đồng hồ)","note":"Âm Hán Việt: «tiểu thời» (小時), chỉ để dễ nhớ. 一个小时 = một tiếng (cần 个).","hv":"tiểu thời","hvUse":"none","trad":"小時"}
+{"id":"zh.c0764","meaning":"phút","note":"Âm Hán Việt: «phân chung» (分鐘), chỉ để dễ nhớ. 十分钟 = mười phút.","hv":"phân chung","hvUse":"none","trad":"分鐘"}
+{"id":"zh.c0765","meaning":"mỗi ngày","note":"Âm Hán Việt: «mỗi thiên»; chữ 每 chính là «mỗi».","hv":"mỗi thiên","hvUse":"none"}
+{"id":"zh.c0766","meaning":"mùa xuân","note":"Âm Hán Việt: «xuân thiên»; 春 chính là «xuân» trong «mùa xuân».","hv":"xuân thiên","hvUse":"none"}
+{"id":"zh.c0767","meaning":"mùa hè","note":"Âm Hán Việt: «hạ thiên»; 夏 là «hạ» trong «mùa hạ».","hv":"hạ thiên","hvUse":"none"}
+{"id":"zh.c0768","meaning":"mùa thu","note":"Âm Hán Việt: «thu thiên»; 秋 là «thu» trong «mùa thu».","hv":"thu thiên","hvUse":"none"}
+{"id":"zh.c0769","meaning":"mùa đông","note":"Âm Hán Việt: «đông thiên»; 冬 là «đông» trong «mùa đông».","hv":"đông thiên","hvUse":"none"}
+{"id":"zh.c0770","meaning":"lần","note":"Âm Hán Việt: «thứ» (chỉ để dễ nhớ). 去过三次 = đã từng đi ba lần.","hv":"thứ","hvUse":"none"}
+{"id":"zh.c0771","meaning":"loại, kiểu","note":"Âm Hán Việt: «chủng» (種), chỉ để dễ nhớ. 这种茶 = loại trà này.","hv":"chủng","hvUse":"none","trad":"種"}
+{"id":"zh.c0772","meaning":"phần; bản","note":"Âm Hán Việt: «phần», nghĩa giống «phần» trong tiếng Việt (một phần ăn). 一份饺子 = một phần sủi cảo.","hv":"phần","hvUse":"same"}
+{"id":"zh.c0773","meaning":"tiết (học); đoạn","note":"Âm Hán Việt: «tiết» (節), nghĩa giống «tiết học» trong tiếng Việt. 一节课 = một tiết học.","hv":"tiết","hvUse":"same","trad":"節"}
+{"id":"zh.c0774","meaning":"tầng (nhà); lớp","note":"Âm Hán Việt: «tằng» (層); tiếng Việt nói «tầng», gần với âm này. 十二层 = tầng mười hai.","hv":"tằng","hvUse":"none","trad":"層"}
+{"id":"zh.c0775","meaning":"chiếc (máy móc)","note":"Âm Hán Việt: «đài» (臺), chỉ để dễ nhớ. Dùng cho máy tính, ti vi: 一台电脑 = một chiếc máy tính.","hv":"đài","hvUse":"none","trad":"臺"}
+{"id":"zh.c0776","meaning":"bộ (phim); chiếc (điện thoại)","note":"Âm Hán Việt: «bộ», như «bộ» trong «một bộ phim». 一部电影 = một bộ phim.","hv":"bộ","hvUse":"same"}
+{"id":"zh.c0777","meaning":"đoạn (thời gian, đường)","note":"Âm Hán Việt: «đoạn», nghĩa giống tiếng Việt. 一段时间 = một thời gian.","hv":"đoạn","hvUse":"same"}
+{"id":"zh.c0778","meaning":"lượt (từ đầu đến cuối)","note":"Âm Hán Việt: «biến» (chỉ để dễ nhớ). 再说一遍 = nói lại lần nữa.","hv":"biến","hvUse":"none"}
+{"id":"zh.c0779","meaning":"đĩa (thức ăn)","note":"Âm Hán Việt: «bàn» (盤), chỉ để dễ nhớ. 一盘饺子 = một đĩa sủi cảo.","hv":"bàn","hvUse":"none","trad":"盤"}
+{"id":"zh.c0780","meaning":"cây (vật dài: bút)","note":"Âm Hán Việt: «chi» (chỉ để dễ nhớ). 一支笔 = một cây bút.","hv":"chi","hvUse":"none"}
+{"id":"zh.c0781","meaning":"gian, phòng","note":"Âm Hán Việt: «gian» (間), nghĩa giống «gian» (gian phòng) trong tiếng Việt. 一间教室 = một phòng học.","hv":"gian","hvUse":"same","trad":"間"}
+{"id":"zh.c0782","meaning":"bộ; căn (hộ)","note":"Âm Hán Việt: «sáo» (chỉ để dễ nhớ). 一套房子 = một căn hộ.","hv":"sáo","hvUse":"none"}
+{"id":"zh.c0783","meaning":"cân (nửa ký)","note":"Âm Hán Việt: «cân», nhưng «cân» trong khẩu ngữ tiếng Việt thường là một ký, còn 斤 chỉ bằng nửa ký (500 g). Ở Trung Quốc, rau quả được tính giá theo đơn vị này.","hv":"cân","hvUse":"shifted"}
+{"id":"zh.c0784","meaning":"bát","note":"Âm Hán Việt: «oản» (chỉ để dễ nhớ). 一碗米饭 = một bát cơm.","hv":"oản","hvUse":"none"}
+{"id":"zh.c0785","meaning":"tệ (chữ viết, trang trọng)","note":"Âm Hán Việt: «nguyên» (chỉ để dễ nhớ). Ghi trên bảng giá; khi nói dùng 块. Cả hai đều là «tệ».","hv":"nguyên","hvUse":"none"}
+{"id":"zh.c0786","meaning":"kilôgam","note":"Âm Hán Việt: «công cân» (chỉ để dễ nhớ).","hv":"công cân","hvUse":"none"}
+{"id":"zh.c0787","meaning":"kilômét (cây số)","note":"Âm Hán Việt: «công lý» (chỉ để dễ nhớ); đừng nhầm với «công lý» (công bằng) trong tiếng Việt, đó là một từ khác.","hv":"công lý","hvUse":"none"}
+{"id":"zh.c0788","meaning":"(nối từ bổ nghĩa với danh từ; chỉ sở hữu)","note":"我的书; 很好的人.","hvUse":"skip"}
+{"id":"zh.c0789","meaning":"(việc đã xong; hoặc tình huống mới)","note":"我吃了 = tôi ăn rồi; 下雨了 = mưa rồi.","hvUse":"skip"}
+{"id":"zh.c0790","meaning":"(biến câu kể thành câu hỏi có/không)","note":"你忙吗？","hvUse":"skip"}
+{"id":"zh.c0791","meaning":"(gợi ý: … đi, … nhé; phỏng đoán)","note":"走吧 = đi thôi. 你是安娜吧？ = bạn là Anna phải không?","hvUse":"skip"}
+{"id":"zh.c0792","meaning":"(thêm sắc thái, cảm xúc)","note":"好啊！ = được chứ! 是啊 = ừ, đúng thế.","hvUse":"skip"}
+{"id":"zh.c0793","meaning":"(trạng thái đang kéo dài)","note":"门开着 = cửa đang mở.","hvUse":"skip"}
+{"id":"zh.c0794","meaning":"(đã từng làm)","note":"我去过北京 = tôi đã từng đến Bắc Kinh.","hvUse":"skip"}
+{"id":"zh.c0795","meaning":"(còn … thì sao?; việc đang diễn ra)","note":"你呢？ = còn bạn? 他在睡觉呢 = anh ấy đang ngủ đấy.","hvUse":"skip"}
+{"id":"zh.c0796","meaning":"(nối động từ với cách làm)","note":"说得很好 = nói giỏi.","hvUse":"skip"}
+{"id":"zh.c0797","meaning":"(số nhiều cho người)","note":"我们, 朋友们. Không bao giờ dùng sau số đếm.","hvUse":"skip"}
+{"id":"zh.c0798","meaning":"(nhấn mạnh khi nào, ở đâu, bằng cách nào)","note":"Dùng cho việc đã xảy ra: 我是坐飞机来的 = tôi đến bằng máy bay."}
+{"id":"zh.c0799","meaning":"(nếu, đặt cuối mệnh đề)","note":"下雨的话 = nếu trời mưa. Thường đi với 如果."}
+{"id":"zh.c0800","meaning":"Thơm quá!","note":"Nói khi món ăn được mang ra. Trên mạng, 真香 còn là câu đùa khi ai đó «nuốt lời»."}
+{"id":"zh.c0801","meaning":"Bạn nấu ăn ngon quá!","note":"Nghĩa đen: «món bạn nấu thật ngon». Với chủ nhà lớn tuổi: 您做的菜真好吃！"}
+{"id":"zh.c0802","meaning":"Ngon quá đi!","note":"Nói khi đang ăn. 太…了 = … quá."}
+{"id":"zh.c0803","meaning":"Trà này ngon thật!","note":"Dùng cho mọi đồ uống: 好喝."}
+{"id":"zh.c0804","meaning":"Làm tốt lắm!","note":"Khen bài tập hay công việc. Nghe như lời thầy giáo hoặc sếp; giữa bạn bè thì 你真厉害 thân mật hơn."}
+{"id":"zh.c0805","meaning":"Bạn giỏi thật đấy!","note":"Câu khen «ồ, giỏi ghê!» hằng ngày cho mọi kỹ năng. Dùng được với bạn bè, đồng nghiệp, người cùng tuổi."}
+{"id":"zh.c0806","meaning":"Bạn học chăm thật!","note":"Khen sự cố gắng, điều rất được coi trọng ở Trung Quốc. 认真 = nghiêm túc, chăm chỉ."}
+{"id":"zh.c0807","meaning":"Bạn thông minh thật!","note":"Dùng cho cả người lớn lẫn trẻ em."}
+{"id":"zh.c0808","meaning":"Bạn tốt bụng quá.","note":"Nghĩa đen: «bạn, về con người, thật tốt». Thường nói ngay sau khi được ai đó giúp."}
+{"id":"zh.c0809","meaning":"Bạn vui tính thật!","note":"有意思 = thú vị, vui. Đừng nói 你真好笑, câu này có thể hiểu là «bạn thật lố bịch»."}
+{"id":"zh.c0810","meaning":"Nhà bạn đẹp quá!","note":"Câu tự nhiên khi đến nhà ai chơi. 家 vừa là «nhà» vừa là «gia đình»; ở đây là ngôi nhà."}
+{"id":"zh.c0811","meaning":"Nhà bạn rộng quá!","note":"Nói khi làm khách; ở thành phố Trung Quốc, nhà rộng là một lời khen thật sự."}
+{"id":"zh.c0812","meaning":"Bạn mặc cái này đẹp quá!","note":"Nghĩa đen: «bạn mặc chiếc này, thật đẹp». 件 dùng cho áo, áo khoác, váy; với quần thì nói 这条."}
+{"id":"zh.c0813","meaning":"Con bạn dễ thương quá!","note":"Rất phổ biến, và ai cũng vui khi nghe."}
+{"id":"zh.c0814","meaning":"Tấm ảnh này đẹp quá!","note":"张 là lượng từ cho ảnh, như «tấm»."}
+{"id":"zh.c0815","meaning":"Chữ bạn viết đẹp quá!","note":"字 = chữ; lời khen khi bạn viết chữ Hán bằng tay."}
+{"id":"zh.c0816","meaning":"Bạn hát hay quá!","note":"好听 = nghe hay. Với thầy cô: 您唱歌真好听！"}
+{"id":"zh.c0817","meaning":"Bạn nói tiếng Trung giỏi quá!","note":"Bạn sẽ nghe câu này nhiều, thường chỉ sau khi bạn nói 你好. Hãy đáp khiêm tốn (xem 哪里哪里 và 还差得远呢)."}
+{"id":"zh.c0818","meaning":"Thanh điệu của bạn chuẩn đấy.","note":"Lời khen thật sự với người học: thanh điệu là phần khó."}
+{"id":"zh.c0819","meaning":"Đâu có, đâu có. (đáp khiêm tốn)","note":"Nghĩa đen: «đâu? đâu?»: cách khiêm tốn kinh điển để gạt lời khen. Người lớn tuổi và dịp trang trọng hay dùng; người trẻ thường chỉ nói 谢谢."}
+{"id":"zh.c0820","meaning":"Tôi còn kém xa lắm.","note":"Câu đáp thường gặp khi được khen tiếng Trung. Nhận lời khen ngay có thể nghe như khoe khoang; ngày nay chỉ nói 谢谢 cũng được."}
+{"id":"zh.c0821","meaning":"Tôi nói còn chưa giỏi.","note":"Câu đáp khiêm tốn khi được khen tiếng Trung; thân thiện hơn chỉ một tiếng 谢谢."}
+{"id":"zh.c0822","meaning":"Cũng tạm được.","note":"Khiêm tốn, nhưng có nhận lời khen một chút. Phổ biến ở người trẻ."}
+{"id":"zh.c0823","meaning":"Tôi còn phải học nhiều.","note":"Câu đáp khiêm tốn khi được khen tiếng Trung hoặc công việc."}
+{"id":"zh.c0824","meaning":"Thật không? Cảm ơn!","note":"Cách nhận lời khen hiện đại: vui nhưng không khoe khoang."}
+{"id":"zh.c0825","meaning":"xinh đẹp (thường ngày)","note":"Âm Hán Việt: «phiêu lượng» (chỉ để dễ nhớ). Chủ yếu khen phụ nữ; khen nam giới thì nói 帅. Mức độ: nhẹ.","hv":"phiêu lượng","hvUse":"none"}
+{"id":"zh.c0826","meaning":"đẹp (mạnh hơn)","note":"Âm Hán Việt: «mỹ», cùng âm với «Mỹ» (nước Mỹ). Khen phụ nữ; cũng dùng cho phong cảnh. Mức độ: ấm áp.","hv":"mỹ","hvUse":"none"}
+{"id":"zh.c0827","meaning":"đẹp trai; ngầu","note":"Âm Hán Việt: «soái» (帥), chỉ để dễ nhớ. Khen nam giới (cũng dùng cho cô gái trông ngầu). Mức độ: nhẹ đến ấm áp.","hv":"soái","hvUse":"none","trad":"帥"}
+{"id":"zh.c0828","meaning":"ưa nhìn, đẹp","note":"Âm Hán Việt: «hảo khán» (chỉ để dễ nhớ). Dùng với bất kỳ ai, và cho quần áo. Mức độ: nhẹ.","hv":"hảo khán","hvUse":"none"}
+{"id":"zh.c0829","meaning":"dễ thương; đáng yêu","note":"Âm Hán Việt: «khả ái» (可愛), nghĩa giống tiếng Việt (từ văn chương). Mức độ: ấm áp. Nói với đàn ông trưởng thành là trêu chọc.","hv":"khả ái","hvUse":"same","trad":"可愛"}
+{"id":"zh.c0830","meaning":"thông minh","note":"Âm Hán Việt: «thông minh» (聰明), nghĩa giống tiếng Việt. Dùng với bất kỳ ai. Nhẹ nhàng và luôn an toàn.","hv":"thông minh","hvUse":"same","trad":"聰明"}
+{"id":"zh.c0831","meaning":"thú vị, vui (tính người)","note":"Âm Hán Việt: «hữu ý tứ», nhưng «ý tứ» trong tiếng Việt là sự tế nhị. Tốt hơn 好笑, từ có thể hiểu là «lố bịch». Mức độ: nhẹ.","hv":"hữu ý tứ","hvUse":"none"}
+{"id":"zh.c0832","meaning":"nghe hay (giọng, tên)","note":"Âm Hán Việt: «hảo thính» (好聽), chỉ để dễ nhớ. Dùng cho giọng nói, tên, bài hát. Mức độ: nhẹ.","hv":"hảo thính","hvUse":"none","trad":"好聽"}
+{"id":"zh.c0833","meaning":"đặc biệt","note":"Âm Hán Việt: «đặc biệt» (特別), nghĩa giống tiếng Việt. 你很特别 = bạn đặc biệt lắm. Mức độ: ấm áp.","hv":"đặc biệt","hvUse":"same","trad":"特別"}
+{"id":"zh.c0834","meaning":"trẻ; trông trẻ","note":"Âm Hán Việt: «niên khinh» (年輕), chỉ để dễ nhớ. Lời khen lớn với người trên ba mươi. Mức độ: nhẹ.","hv":"niên khinh","hvUse":"none","trad":"年輕"}
+{"id":"zh.c0835","meaning":"cao","note":"Âm Hán Việt: «cao», nghĩa giống tiếng Việt. 又高又帅 = vừa cao vừa đẹp trai, lời khen kinh điển cho nam giới.","hv":"cao","hvUse":"same"}
+{"id":"zh.c0836","meaning":"ngọt (nụ cười, lời nói)","note":"Âm Hán Việt: «điềm» (chỉ để dễ nhớ). 笑得很甜 = cười ngọt ngào. Mức độ: ấm áp.","hv":"điềm","hvUse":"none"}
+{"id":"zh.c0837","meaning":"vui; vui vẻ","note":"Âm Hán Việt: «khai tâm» (開心), nhưng «khai tâm» trong tiếng Việt là khai sáng, dạy chữ cho trẻ. 跟你在一起很开心 = ở bên cậu mình thấy vui lắm. Mức độ: ấm áp.","hv":"khai tâm","hvUse":"shifted","trad":"開心"}
+{"id":"zh.c0838","meaning":"mắt","note":"Khen đôi mắt là an toàn. Mức độ: nhẹ.","hvUse":"skip"}
+{"id":"zh.c0839","meaning":"tóc","note":"Âm Hán Việt: «đầu phát» (頭髮), chỉ để dễ nhớ. Khen tóc là an toàn. Mức độ: nhẹ.","hv":"đầu phát","hvUse":"none","trad":"頭髮"}
+{"id":"zh.c0840","meaning":"cười; mỉm cười","note":"Âm Hán Việt: «tiếu» (chỉ để dễ nhớ). Một động từ cho cả «mỉm cười» lẫn «cười to».","hv":"tiếu","hvUse":"none"}
+{"id":"zh.c0841","meaning":"rảnh (có thời gian)","note":"有空吗？ = bạn rảnh không? Là bước đầu tiên để rủ ai đó đi chơi.","hvUse":"skip"}
+{"id":"zh.c0842","meaning":"bạn trai","note":"Âm Hán Việt: «nam bằng hữu»; «bằng hữu» là từ cũ trong tiếng Việt, nghĩa là bạn bè. 有男朋友了 = cô ấy có bạn trai rồi.","hv":"nam bằng hữu","hvUse":"none"}
+{"id":"zh.c0843","meaning":"bạn gái","note":"Âm Hán Việt: «nữ bằng hữu» (chỉ để dễ nhớ). 有女朋友了 = anh ấy có bạn gái rồi.","hv":"nữ bằng hữu","hvUse":"none"}
+{"id":"zh.c0844","meaning":"Bạn xinh thật đấy.","note":"Nói với phụ nữ. Nói thẳng, không vòng vo. Mức độ: ấm áp."}
+{"id":"zh.c0845","meaning":"Hôm nay bạn xinh quá.","note":"Nói với phụ nữ; 今天 giúp lời khen nhẹ nhàng. Mức độ: nhẹ."}
+{"id":"zh.c0846","meaning":"Bạn đẹp quá.","note":"Nói với phụ nữ. Táo bạo nếu bạn chưa quen người đó."}
+{"id":"zh.c0847","meaning":"Bạn đẹp trai quá!","note":"Nói với nam giới; bạn bè cũng nói đùa với nhau. Mức độ: ấm áp."}
+{"id":"zh.c0848","meaning":"Hôm nay bạn đẹp trai quá!","note":"Nói với nam giới. 好 ở đây = quá, thật. Mức độ: ấm áp."}
+{"id":"zh.c0849","meaning":"Bạn vừa cao vừa đẹp trai.","note":"Nói với nam giới. Lời khen kinh điển. Mức độ: ấm áp."}
+{"id":"zh.c0850","meaning":"Bạn cười lên trông đẹp lắm.","note":"Với bất kỳ ai. Mức độ: ấm áp."}
+{"id":"zh.c0851","meaning":"Bạn mặc gì cũng đẹp.","note":"Với bất kỳ ai. Ấm áp, hơi táo bạo."}
+{"id":"zh.c0852","meaning":"Bạn dễ thương quá.","note":"Nói với phụ nữ, hoặc để trêu đàn ông. Mức độ: ấm áp."}
+{"id":"zh.c0853","meaning":"Bạn vừa thông minh vừa xinh đẹp.","note":"Nói với phụ nữ; với nam giới: 又聪明又帅. Mức độ: ấm áp."}
+{"id":"zh.c0854","meaning":"Bạn đúng là người thú vị.","note":"Với bất kỳ ai. Mức độ: nhẹ; một câu mở đầu hay."}
+{"id":"zh.c0855","meaning":"Nói chuyện với bạn vui thật.","note":"Với bất kỳ ai. Mức độ: nhẹ."}
+{"id":"zh.c0856","meaning":"Tên bạn hay quá.","note":"Với bất kỳ ai, khi mới gặp. Mức độ: nhẹ."}
+{"id":"zh.c0857","meaning":"Mình thấy bạn đặc biệt lắm.","note":"Với bất kỳ ai. Táo bạo: cho thấy bạn có cảm tình."}
+{"id":"zh.c0858","meaning":"Mắt bạn đẹp quá.","note":"Với bất kỳ ai. Mức độ: ấm áp."}
+{"id":"zh.c0859","meaning":"Tóc bạn đẹp quá.","note":"Với bất kỳ ai. Mức độ: nhẹ."}
+{"id":"zh.c0860","meaning":"Mình thích nhìn cậu cười.","note":"Với bất kỳ ai. Ấm áp đến táo bạo."}
+{"id":"zh.c0861","meaning":"Bạn cười ngọt ngào quá.","note":"Thường nói với phụ nữ. Mức độ: ấm áp."}
+{"id":"zh.c0862","meaning":"Bạn khéo miệng quá!","note":"Câu đáp vui khi được khen: nghĩa đen «miệng bạn ngọt thật». Mức độ: nhẹ."}
+{"id":"zh.c0863","meaning":"Ở bên cậu mình thấy vui lắm.","note":"Với bất kỳ ai. Ấm áp đến táo bạo."}
+{"id":"zh.c0864","meaning":"Trông bạn trẻ quá!","note":"Với người trên ba mươi; đừng bao giờ nói với thiếu niên. Mức độ: nhẹ."}
+{"id":"zh.c0865","meaning":"Bạn có WeChat không?","note":"Bước đầu thường gặp: người ta trao đổi WeChat chứ không phải số điện thoại. Mức độ: nhẹ."}
+{"id":"zh.c0866","meaning":"Để mình quét mã của bạn.","note":"Nghĩa đen: «mình quét bạn nhé»: quét mã QR WeChat của người kia để kết bạn. Mức độ: nhẹ."}
+{"id":"zh.c0867","meaning":"Cuối tuần bạn có rảnh không?","note":"Cách chuẩn để rủ ai đó đi chơi. Mức độ: nhẹ."}
+{"id":"zh.c0868","meaning":"Đi ăn với nhau một bữa nhé?","note":"Một bữa ăn là buổi hẹn đầu tiên kinh điển. Mức độ: nhẹ."}
+{"id":"zh.c0869","meaning":"Mình muốn mời bạn uống cà phê.","note":"请 = mình mời (mình trả tiền); người rủ thường là người trả. Mức độ: ấm áp."}
+{"id":"zh.c0870","meaning":"Bạn có bạn trai chưa?","note":"Một cách gián tiếp để tỏ ra quan tâm. Hỏi nam giới thì dùng 女朋友. Mức độ: ấm áp."}
+{"id":"zh.c0871","meaning":"Bạn ăn cơm chưa?","note":"Sự quan tâm thường được thể hiện qua những tin nhắn hỏi han như thế này, giống câu «ăn cơm chưa?» của người Việt. Mức độ: nhẹ."}
+{"id":"zh.c0872","meaning":"Nghỉ sớm đi nhé (đừng thức khuya).","note":"Lời chúc ngủ ngon đầy quan tâm, cho thấy có cảm tình. Mức độ: nhẹ."}
+{"id":"zh.c0873","meaning":"Để mình đưa cậu về nhà.","note":"Ân cần; hay nói sau buổi hẹn. Mức độ: ấm áp."}
+{"id":"zh.c0874","meaning":"Thật vui vì được quen bạn.","note":"Mức độ: ấm áp."}
+{"id":"zh.c0875","meaning":"Lần sau mình lại đi chơi với nhau nhé?","note":"Mức độ: ấm áp."}
+{"id":"zh.c0876","meaning":"Mình cứ nghĩ về cậu mãi.","note":"Táo bạo: dành cho người bạn đang hẹn hò."}
+{"id":"zh.c0877","meaning":"Mình hơi thích cậu.","note":"Táo bạo nhưng ngại ngùng: một lời tỏ tình nhẹ nhàng."}
+{"id":"zh.c0878","meaning":"Mình thích cậu.","note":"Táo bạo: đây là lời tỏ tình thật sự, đúng như «Mình thích cậu» trong tiếng Việt."}
+{"id":"zh.c0879","meaning":"Được chứ!","note":"Một lời đồng ý ấm áp."}
+{"id":"zh.c0880","meaning":"Mình cũng thích cậu.","note":"Câu trả lời hạnh phúc cho lời tỏ tình."}
+{"id":"zh.c0881","meaning":"Bạn khéo nói thật đấy!","note":"Vui vẻ, hài lòng; không phải lời từ chối. Mức độ: nhẹ."}
+{"id":"zh.c0882","meaning":"Làm gì có! (gạt lời khen)","note":"Gạt lời khen một cách vui vẻ, khiêm tốn. Mức độ: nhẹ."}
+{"id":"zh.c0883","meaning":"Cảm ơn, nhưng mình có bạn trai rồi.","note":"Lời từ chối tử tế, rõ ràng. Nam giới nói 女朋友."}
+{"id":"zh.c0884","meaning":"Cảm ơn, nhưng mình cứ làm bạn thôi nhé.","note":"Lời từ chối tử tế, rõ ràng."}
+{"id":"zh.c0885","meaning":"Xin lỗi, bây giờ mình không muốn tìm bạn trai.","note":"Lời từ chối tử tế, rõ ràng. Nam giới nói 女朋友."}
+{"id":"zh.c0886","meaning":"Cuối tuần mình bận.","note":"Một cái cớ; viện cớ nhiều lần nghĩa là «không». Nếu muốn từ chối, hãy nói rõ."}

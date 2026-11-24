@@ -1,0 +1,31 @@
+{"id":"zh.d.pinyin-sounds","label":"Âm pinyin","desc":"Mỗi chữ một điểm phát âm: những thanh mẫu và vận mẫu người Việt hay đọc theo chính tả tiếng Việt. b / p, d / t, g / k = “p, t, c” không bật hơi / bật hơi mạnh như “th” (p không phải “ph”, k không phải “kh”); h = “kh”; j q x; zh ch sh r cong lưỡi; z c s = “ts”; e = “ơ”; ü = “i” tròn môi, không phải “uy”; -i = “ư”."}
+{"id":"zh.d.tone-pairs","label":"Cặp thanh điệu","desc":"Cùng âm tiết, khác thanh, khác từ: 妈 麻 马 骂, 买 / 卖, 汤 / 糖, 问 / 吻"}
+{"id":"zh.d.first-characters","label":"Chữ Hán đầu tiên","desc":"Chữ tượng hình và chữ ghép để nhận mặt: 人 口 木 山 日 月 女 子 好 明 休 林"}
+{"id":"zh.d.greetings-and-courtesy","label":"Chào hỏi & lễ phép","desc":"Xin chào, cảm ơn, xin lỗi, tạm biệt, và ngôi lịch sự 您"}
+{"id":"zh.d.people-and-family","label":"Gia đình & mọi người","desc":"Đại từ, người trong gia đình, bạn bè, và cách đếm số người trong nhà"}
+{"id":"zh.d.about-me","label":"Giới thiệu bản thân","desc":"Tên, quốc tịch, tuổi, nơi ở và việc học"}
+{"id":"zh.d.numbers-and-money","label":"Số & tiền","desc":"Số đến 100 và lớn hơn, 二 và 两, giá tiền bằng 块"}
+{"id":"zh.d.measure-words","label":"Lượng từ","desc":"Số hoặc này / kia + lượng từ + danh từ: 个, 本, 杯, 张, 件, 只, 双"}
+{"id":"zh.d.food-and-drink","label":"Ăn uống","desc":"Sủi cảo, mì, trà và cà phê, gọi món và tính tiền ở nhà hàng"}
+{"id":"zh.d.shopping","label":"Mua sắm","desc":"Giá cả, kích cỡ, mặc cả một chút, và trả tiền bằng điện thoại"}
+{"id":"zh.d.time-days-and-dates","label":"Thời gian & ngày tháng","desc":"Giờ, thứ trong tuần, ngày tháng, hôm nay và ngày mai"}
+{"id":"zh.d.around-town-and-directions","label":"Hỏi chỗ, hỏi đường","desc":"Đồ vật ở đâu, trái và phải, và hỏi đường"}
+{"id":"zh.d.travel-and-transport","label":"Du lịch & đi lại","desc":"Taxi, tàu điện ngầm, tàu cao tốc, vé và khách sạn"}
+{"id":"zh.d.work-and-study","label":"Công việc & học tập","desc":"Nghề nghiệp, trường học, học tiếng Trung, và những việc bạn biết làm"}
+{"id":"zh.d.health-and-help","label":"Sức khỏe & nhờ giúp","desc":"Bị ốm, hiệu thuốc, bác sĩ, và nhờ người khác giúp"}
+{"id":"zh.d.describing-things","label":"Miêu tả","desc":"Tính từ cho người, đồ ăn, thời tiết và đồ vật, với 很 và 太"}
+{"id":"zh.d.questions-and-connectors","label":"Câu hỏi & từ nối","desc":"Từ để hỏi, 吗 và 呢, câu hỏi chính phản, và những từ nối ý"}
+{"id":"zh.d.traps-for-english-speakers","label":"Bẫy thường gặp","desc":"Từ dễ nhầm, câu dịch từng chữ, 是 với tính từ, 不 và 没, 二 và 两, và những câu tưởng lịch sự mà sai"}
+{"id":"zh.d.top-nouns","label":"Danh từ thông dụng","desc":"Những danh từ dùng nhiều nhất: người, nơi chốn, đồ vật, thời gian và đồ dùng hằng ngày"}
+{"id":"zh.d.top-verbs","label":"Động từ thông dụng","desc":"Những động từ dùng nhiều nhất, với các bổ ngữ hay đi kèm (听懂, 吃完, 回来)"}
+{"id":"zh.d.top-adjectives","label":"Tính từ thông dụng","desc":"Tính từ dùng như động từ: 她很忙, không có 是. Kích thước, vị, thời tiết, cảm giác và màu sắc"}
+{"id":"zh.d.top-adverbs","label":"Trạng từ thông dụng","desc":"Không, cũng, đều, vẫn, đã, chỉ, lại, rất: những từ nhỏ đứng trước động từ"}
+{"id":"zh.d.top-pronouns","label":"Đại từ thông dụng","desc":"Tôi, bạn, 您, 咱们, này, kia, đây, đó, của tôi, của ai: trọn bộ đại từ hữu ích"}
+{"id":"zh.d.top-prepositions-coverbs","label":"Giới từ thông dụng","desc":"Giới từ tiếng Trung là động từ đứng trước động từ chính (在, 给, 跟, 从, 把), cùng các từ chỉ vị trí"}
+{"id":"zh.d.top-conjunctions","label":"Từ nối thông dụng","desc":"Và, hoặc, nhưng, nếu, vì … nên, khi, vừa … vừa"}
+{"id":"zh.d.top-interjections","label":"Từ cảm thán thông dụng","desc":"Những câu người ta thật sự thốt ra khi ngạc nhiên, cổ vũ ai đó hoặc bỏ cuộc: 我的天, 加油, 算了"}
+{"id":"zh.d.top-words","label":"Từ hữu ích","desc":"Từ để hỏi, số đến hai mươi, có và không, ngày, mùa và thời điểm"}
+{"id":"zh.d.top-measure-words","label":"Lượng từ mở rộng","desc":"Thêm lượng từ ngoài 个, 本, 杯: 次, 种, 份, 台, 部, 遍, 斤 và những thứ chúng dùng để đếm"}
+{"id":"zh.d.top-particles","label":"Trợ từ thông dụng","desc":"的, 了, 吗, 呢, 吧, 啊, 着, 过, 得: những từ nhỏ mang ngữ pháp"}
+{"id":"zh.d.compliments","label":"Lời khen","desc":"Khen món ăn, nhà cửa, tài năng và sự cố gắng, và cách người Trung Quốc đáp lại lời khen (哪里哪里)"}
+{"id":"zh.d.flirting","label":"Tán tỉnh","desc":"Xinh, đẹp trai, dễ thương, vui tính: các từ, những câu ghép từ chúng, rủ đi chơi, và cách từ chối tế nhị"}

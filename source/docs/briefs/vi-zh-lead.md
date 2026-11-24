@@ -3,7 +3,7 @@ Course: vi-zh (Mandarin Chinese for Vietnamese speakers)   Held: packs/HELD.txt 
 Done: stage 1. Tooling for a second target (zh), target/zh exported and proven, vi/zh scaffold, profile, writer / review briefs, ui.json plan
 Next: launch w1–w4 in parallel → merge → validate → cold review → assemble into packs/ (still held) → build.sh, e2e (lead / engine owner)
 Checks: proof zh 0 differences · selftest 59/59 passed · Korean packs byte-identical (11 complete halves) · validate vi zh = scaffold (2,983 rows missing, expected)
-State: READY FOR WRITERS
+State: RELEASED in 2.89.0 (2026-11-24): writers, one merge, cold review, assemble, e2e done; removed from HELD.txt.
 
 # vi-zh lead note
 

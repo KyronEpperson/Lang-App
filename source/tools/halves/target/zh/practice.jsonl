@@ -373,8 +373,8 @@
 {"id":"ba-bie.09","lesson":"ba-bie","t":"fill","q":"我们走__。","o":["吗","呢","是"],"a":["吧","ba"],"xr":["ma","ne","shì"]}
 {"id":"ba-bie.10","lesson":"ba-bie","t":"fill","q":"__担心。","o":["不","没","很"],"a":["别","不要","bié","bú yào"],"xr":["bù","méi","hěn"]}
 {"id":"ba-bie.11","lesson":"ba-bie","t":"fill","q":"__坐。","o":["吧","吗","很"],"a":["请","qǐng"],"xr":["ba","ma","hěn"]}
-{"id":"ba-bie.12","lesson":"ba-bie","t":"type","a":["我们 明天 去 超市 吧","明天 我们 去 超市 吧","wǒmen míngtiān qù chāoshì ba","míngtiān wǒmen qù chāoshì ba"],"x":["了"],"hint":{"zh":"明天 · 去 · 超市 · 吧"},"xr":["le"]}
-{"id":"ba-bie.13","lesson":"ba-bie","t":"type","a":["我们 买 两 瓶 水 吧","wǒmen mǎi liǎng píng shuǐ ba"],"x":["个","二"],"hint":{"zh":"买 · 两 · 瓶 · 水 · 吧"},"xr":["ge","èr"]}
+{"id":"ba-bie.12","lesson":"ba-bie","t":"type","a":["我们 明天 去 超市 吧","明天 我们 去 超市 吧","咱们 明天 去 超市 吧","明天 咱们 去 超市 吧","wǒmen míngtiān qù chāoshì ba","míngtiān wǒmen qù chāoshì ba","zánmen míngtiān qù chāoshì ba","míngtiān zánmen qù chāoshì ba"],"x":["了"],"hint":{"zh":"明天 · 去 · 超市 · 吧"},"xr":["le"]}
+{"id":"ba-bie.13","lesson":"ba-bie","t":"type","a":["我们 买 两 瓶 水 吧","咱们 买 两 瓶 水 吧","wǒmen mǎi liǎng píng shuǐ ba","zánmen mǎi liǎng píng shuǐ ba"],"x":["个","二"],"hint":{"zh":"买 · 两 · 瓶 · 水 · 吧"},"xr":["ge","èr"]}
 {"id":"ba-bie.14","lesson":"ba-bie","t":"type","a":["别 喝 咖啡","不要 喝 咖啡","你 别 喝 咖啡","你 不要 喝 咖啡","bié hē kāfēi","bú yào hē kāfēi","nǐ bié hē kāfēi","nǐ bú yào hē kāfēi"],"x":["没"],"hint":{"zh":"别 · 喝 · 咖啡"},"xr":["méi"]}
 {"id":"and-or.01","lesson":"and-or","t":"mc","o":["茶和咖啡","茶还是咖啡","茶或者咖啡","和茶咖啡"]}
 {"id":"and-or.02","lesson":"and-or","t":"mc","o":["hé","hē","hè","hě"]}

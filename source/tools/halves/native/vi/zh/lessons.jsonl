@@ -1,0 +1,28 @@
+{"id":"pinyin","title":"1 · Pinyin: thanh mẫu và vận mẫu","blurb":"Đọc gần đúng mọi âm tiết pinyin, và nhận ra những chữ cái không đọc theo chính tả tiếng Việt."}
+{"id":"tones","title":"2 · Bốn thanh điệu và thanh nhẹ","blurb":"Nghe và đọc bốn thanh điệu và thanh nhẹ, phân biệt những từ chỉ khác nhau ở thanh."}
+{"id":"tone-change","title":"3 · Biến điệu: 不, 一, thanh 3","blurb":"Đọc 不 và 一 đúng thanh, và đọc hai thanh 3 liền nhau như người Trung Quốc."}
+{"id":"characters","title":"4 · Cấu tạo chữ Hán: nét và bộ thủ","blurb":"Nhận biết khoảng 25 chữ Hán cơ bản và hiểu cách hình vẽ, chữ ghép và bộ thủ tạo nên các chữ còn lại."}
+{"id":"greetings","title":"5 · Chào hỏi, cảm ơn, xin lỗi: phép lịch sự trong tiếng Trung","blurb":"Chào hỏi, cảm ơn, xin lỗi và tạm biệt, giới thiệu tên, và biết khi nào dùng 您 lịch sự."}
+{"id":"pronouns","title":"6 · Đại từ và 们","blurb":"Nói tôi, bạn, anh ấy, cô ấy, chúng tôi và họ, tạo số nhiều với 们, và nói bạn của tôi, thầy của họ."}
+{"id":"shi","title":"7 · 是: A là B","blurb":"Nói bạn là ai và đến từ đâu với 是, và nói bạn không phải là gì với 不是."}
+{"id":"adj","title":"8 · Tính từ với 很 (không dùng 是)","blurb":"Miêu tả người và vật với 很, 不 và 太…了, không thêm 是 như khi dịch từng chữ «là»."}
+{"id":"ma","title":"9 · Câu hỏi với 吗 và 呢","blurb":"Đặt câu hỏi có/không với 吗, trả lời theo cách tiếng Trung, và hỏi lại bằng 你呢."}
+{"id":"question-words","title":"10 · Từ để hỏi: 什么, 谁, 哪儿, 几","blurb":"Hỏi gì, ai, ở đâu, nước nào và bao nhiêu, giữ đúng trật tự từ của tiếng Trung."}
+{"id":"bu-mei","title":"11 · Phủ định: 不 và 没 (không, chưa)","blurb":"Nói điều bạn không làm, không có, và việc không xảy ra, với đúng từ phủ định."}
+{"id":"de","title":"12 · 的: sở hữu và miêu tả","blurb":"Nói cái gì là của ai và trông như thế nào, với người sở hữu hay từ miêu tả đứng trước danh từ."}
+{"id":"you","title":"13 · 有: có (sở hữu và tồn tại)","blurb":"Nói bạn có gì, hỏi cửa hàng có món gì không, và nói ở một nơi có gì."}
+{"id":"numbers","title":"14 · Số và tiền","blurb":"Đếm quá một trăm, nói giá bằng tệ, hỏi giá, và chọn giữa 二 và 两."}
+{"id":"measure","title":"15 · Lượng từ: 个, 本, 杯","blurb":"Đếm và chỉ đồ vật theo cách tiếng Trung: số hoặc này / kia + lượng từ + danh từ."}
+{"id":"food","title":"16 · Gọi món ăn và đồ uống","blurb":"Gọi phục vụ, gọi món ăn và đồ uống với đúng lượng từ, dặn không cay, và trả tiền."}
+{"id":"family","title":"17 · Gia đình và tuổi","blurb":"Gọi tên người trong gia đình, nói nhà có mấy người, và hỏi tuổi cho đúng cách."}
+{"id":"time","title":"18 · Giờ và ngày tháng","blurb":"Nói giờ, các thứ trong tuần và ngày tháng, và đặt từ chỉ thời gian đúng chỗ tiếng Trung cần."}
+{"id":"zai","title":"19 · 在: ở, trong và từ chỉ vị trí","blurb":"Nói người và vật ở đâu, dùng trên, trong, bên cạnh, đối diện, và nói bạn làm việc gì ở đâu."}
+{"id":"word-order","title":"20 · Trật tự từ: ai · khi nào · ở đâu · động từ","blurb":"Ghép câu dài theo thứ tự tiếng Trung: ai, khi nào, ở đâu, bằng cách nào, và động từ ở cuối."}
+{"id":"want-can","title":"21 · 想, 要, 会, 能: muốn và có thể","blurb":"Nói bạn muốn gì, thích làm gì, biết làm gì, và xin phép."}
+{"id":"le","title":"22 · 了: đã xong và đã đổi (không phải thì quá khứ)","blurb":"Dùng 了 để nói một hành động đã xong hoặc một điều đã thay đổi, và biết khi nào không dùng."}
+{"id":"progress","title":"23 · 在 và 正在: đang làm","blurb":"Nói ai đó đang làm gì ngay lúc này, và hỏi người khác đang làm gì."}
+{"id":"serial","title":"24 · Hai động từ liền nhau: 去 + động từ","blurb":"Nói bạn đi đâu, làm gì ở đó và đi bằng gì, không cần từ “để”."}
+{"id":"a-not-a","title":"25 · Câu hỏi chính phản: 去不去","blurb":"Hỏi có/không theo cách thứ hai của tiếng Trung, động từ + 不 + động từ, và trả lời."}
+{"id":"ye-dou","title":"26 · 也, 都, 还: cũng, đều, vẫn","blurb":"Nói “cũng”, “đều”, “cả hai”, “vẫn” và “chưa” với từ đặt đúng chỗ."}
+{"id":"ba-bie","title":"27 · 吧 và 别: đề nghị và bảo đừng","blurb":"Đưa ra đề nghị với 吧, bảo người khác đừng làm gì với 别, và nhờ vả lịch sự với 请 và 麻烦你."}
+{"id":"and-or","title":"28 · 和 và 还是: và, hay","blurb":"Nối người và vật bằng 和, hỏi và trả lời “cái này hay cái kia?” với 还是 và 或者."}

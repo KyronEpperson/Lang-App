@@ -413,8 +413,8 @@ module.exports = [
       ["fi","我们走__。","Let's go.","吧","吗|呢|是","吧 at the end makes it a suggestion: let's."],
       ["fi","__担心。","Don't worry.","别|不要","不|没|很","别 or 不要 + verb means don't."],
       ["fi","__坐。","Please have a seat.","请","吧|吗|很","请 goes before the verb: 请坐."],
-      ["ty","Let's go to the supermarket tomorrow","我们 明天 去 超市 吧|明天 我们 去 超市 吧","明天 · 去 · 超市 · 吧","了","Time goes before the verb, and 吧 at the end makes it let's."],
-      ["ty","Let's buy two bottles of water","我们 买 两 瓶 水 吧","买 · 两 · 瓶 · 水 · 吧","个 二","Water in a bottle takes the measure word 瓶, and two before it is 两."],
+      ["ty","Let's go to the supermarket tomorrow","我们 明天 去 超市 吧|明天 我们 去 超市 吧|咱们 明天 去 超市 吧|明天 咱们 去 超市 吧","明天 · 去 · 超市 · 吧","了","Time goes before the verb, and 吧 at the end makes it let's."],
+      ["ty","Let's buy two bottles of water","我们 买 两 瓶 水 吧|咱们 买 两 瓶 水 吧","买 · 两 · 瓶 · 水 · 吧","个 二","Water in a bottle takes the measure word 瓶, and two before it is 两."],
       ["ty","Don't drink coffee (to a friend)","别 喝 咖啡|不要 喝 咖啡|你 别 喝 咖啡|你 不要 喝 咖啡","别 · 喝 · 咖啡","没","别 or 不要 + verb means don't; 没 is for what didn't happen."]
     ]
   },

@@ -1,0 +1,84 @@
+{"id":"pinyin.k1","q":"Một chữ Hán ứng với cái gì?","o":["Một âm tiết, mang một nghĩa","Một chữ cái của một từ","Cả một câu","Một âm không có nghĩa"],"why":"Mỗi chữ Hán là một âm tiết và mang một nghĩa, như mỗi tiếng trong «học sinh»; pinyin viết liền các âm tiết của một từ."}
+{"id":"pinyin.k2","q":"Chữ q trong 去 (qù) đọc thế nào?","o":["Như «qu» trong «quê»","Như «c» trong «ca»","Gần «ch» trong «cha», bật hơi","Như «s» giọng Nam trong «sa»"],"why":"Pinyin q gần «ch» (cha) của tiếng Việt, đầu lưỡi hạ xuống và bật hơi mạnh; không bao giờ đọc như «qu»."}
+{"id":"pinyin.k3","q":"Vì sao 西安 (Xī'ān) có dấu nháy?","o":["Để đánh dấu câu hỏi","Để cho biết ān bắt đầu một âm tiết mới","Để chỉ thanh nhẹ","Để chỉ một chữ cái bị lược bỏ"],"why":"Dấu nháy đánh dấu âm tiết bắt đầu bằng a, o hoặc e: Xī'ān là hai âm tiết, còn xiān chỉ là một."}
+{"id":"tones.k1","q":"Thanh nào thấp, và khi đọc riêng thì xuống rồi lên lại?","o":["Thanh 1","Thanh 2","Thanh 3","Thanh 4"],"why":"Thanh 3 (ǎ) thấp; đọc riêng thì xuống rồi lên lại, gần thanh hỏi."}
+{"id":"tones.k2","q":"Một từ mang thanh 4 đứng cuối câu hỏi. Thanh của nó thay đổi thế nào?","o":["Vẫn rơi xuống","Lên giọng như cách hỏi theo thói quen","Thành thanh 1","Mất thanh"],"why":"Thanh thuộc về từ, nên dù ở cuối câu hỏi nó vẫn rơi xuống."}
+{"id":"tones.k3","q":"买 (mǎi) và 卖 (mài) chỉ khác nhau ở thanh. Nghĩa của chúng là gì?","o":["bán và mua","mua và bán","mua và người mua","cùng một nghĩa"],"why":"买 thanh 3 là mua; 卖 thanh 4 là bán."}
+{"id":"tone-change.k1","q":"不 trong 不是 (không phải) đọc thế nào?","o":["bù, đi xuống","bú, đi lên","bū, cao và bằng","không có thanh"],"why":"不 trước thanh 4 (shì) chuyển thành thanh 2: bú shì."}
+{"id":"tone-change.k2","q":"Hai thanh 3 đứng liền nhau, như trong 你好. Chúng được đọc thế nào?","o":["Cả hai đều thấp, xuống rồi lên","Cả hai đều đi xuống","Thanh đầu đọc như thanh 2","Thanh sau đọc như thanh 2"],"why":"Thanh 3 đầu tiên trong hai thanh 3 đọc như thanh 2: 你好 đọc thành ní hǎo."}
+{"id":"tone-change.k3","q":"一 được đọc yī, thanh 1, trong trường hợp nào dưới đây?","o":["第一 (thứ nhất)","一个人 (một người)","一天 (một ngày)","一起 (cùng nhau)"],"why":"Sau 第 và khi đếm, 一 giữ thanh 1; đứng trước một từ thì nó đổi thanh."}
+{"id":"characters.k1","q":"Bộ thủ là gì?","o":["Phần của chữ Hán gợi ý về nghĩa","Một chữ cái trong bảng chữ cái tiếng Trung","Pinyin của một chữ","Một dấu thanh"],"why":"Bộ thủ, như 氵 chỉ nước, gợi ý về nghĩa; nó không ghi âm."}
+{"id":"characters.k2","q":"Chữ 休 (nghỉ ngơi) vẽ gì?","o":["Hai cái cây","Một người tựa vào cây","Mặt trời và mặt trăng","Cái miệng mở"],"why":"休 là 亻 (người) đứng cạnh 木 (cây): một người tựa vào cây nghỉ."}
+{"id":"characters.k3","q":"Khóa học này dạy loại chữ nào?","o":["Chữ phồn thể, dùng ở Đài Loan","Cả hai loại trộn lẫn","Chữ giản thể, dùng ở Trung Quốc đại lục","Chỉ pinyin, không có chữ Hán"],"why":"Khóa học dạy chữ giản thể, dùng ở Trung Quốc đại lục, có pinyin bên dưới."}
+{"id":"greetings.k1","q":"Khi nào nên dùng 您 thay cho 你?","o":["Với bạn thân nhất","Với người lớn tuổi, thầy cô hoặc khách hàng","Với trẻ nhỏ","Không bao giờ; từ này đã cũ"],"why":"您 tỏ sự kính trọng: với người lớn tuổi, thầy cô, và khi nhân viên nói với khách."}
+{"id":"greetings.k2","q":"你好吗？ thường có nghĩa là gì?","o":["Chào! (lời chào bình thường)","Tạm biệt","Một câu hỏi thật: bạn có khỏe không?","Cảm ơn"],"why":"你好吗 hỏi thật về tình hình của người kia; để chào bình thường, nói 你好."}
+{"id":"greetings.k3","q":"Bạn dùng từ nào để gọi nhân viên phục vụ trong nhà hàng?","why":"Gọi nhân viên phục vụ là 服务员; 小姐 nay mang nghĩa xấu ở Trung Quốc đại lục."}
+{"id":"pronouns.k1","q":"«Chúng tôi» nói thế nào?","o":["các 我",null,null,null],"why":"们 đứng sau đại từ để tạo số nhiều: 我们."}
+{"id":"pronouns.k2","q":"他 (anh ấy) và 她 (cô ấy) đọc thế nào?","o":["他 là tā, 她 là tà","Giống hệt nhau: tā","她 đọc là nǚ","他 đi lên, 她 đi xuống"],"why":"他, 她 và 它 đều đọc tā; chỉ chữ viết mới cho thấy sự khác biệt."}
+{"id":"pronouns.k3","q":"Cách nào đúng cho «năm học sinh»?","why":"Sau số đếm có lượng từ và không có 们: 五个学生."}
+{"id":"shi.k1","q":"Câu nào nghĩa là «Tôi là người Mỹ»?","why":"Danh từ 是 danh từ: 我是美国人. 美国 một mình là tên nước."}
+{"id":"shi.k2","q":"不是 đọc thế nào?","why":"不 trước thanh 4 chuyển thành thanh 2: bú shì."}
+{"id":"shi.k3","q":"也 (cũng) đứng ở đâu?","o":["Ở cuối câu","Trước động từ","Trước chủ ngữ","Sau động từ"],"why":"也 đứng ngay trước động từ, như «cũng»: 我也是学生."}
+{"id":"adj.k1","q":"Câu nào nghĩa là «Anh ấy cao»?","why":"Tính từ dùng như động từ: không có 是, và 很 đứng trước tính từ."}
+{"id":"adj.k2","q":"很 thêm gì vào 我很好 (Tôi khỏe)?","o":["Thường rất ít: nó là chất keo trước tính từ","Luôn là «rất» mạnh","Biến câu thành câu hỏi","Chỉ quá khứ"],"why":"Trong câu khẳng định bình thường, 很 chủ yếu giúp câu nghe trọn vẹn."}
+{"id":"adj.k3","q":"«Không bận» nói thế nào?","why":"不 đứng ngay trước tính từ, không có 是: 不忙."}
+{"id":"ma.k1","q":"Làm thế nào biến 你是老师。 thành câu hỏi?","o":["Lên giọng ở cuối câu","Thêm 吗 vào cuối câu","Đưa 是 lên đầu","Thêm 呢 vào đầu câu"],"why":"Giữ nguyên câu khẳng định và thêm 吗: 你是老师吗？"}
+{"id":"ma.k2","q":"你是学生吗？ Trả lời «có» thế nào?","o":["是。 hoặc 是，我是学生。",null,null,null],"why":"Trả lời bằng động từ trong câu hỏi: 是."}
+{"id":"ma.k3","q":"你呢？ dùng để làm gì?","o":["Để tạm biệt","Để hỏi tên người kia","Để hỏi lại đúng câu đó","Để nói «không»"],"why":"呢 sau một người là hỏi lại câu đó: còn bạn?"}
+{"id":"question-words.k1","q":"Trong câu hỏi tiếng Trung, từ để hỏi đứng ở đâu?","o":["Luôn đứng đầu câu","Ở chỗ của câu trả lời","Luôn đứng cuối câu","Sau 吗"],"why":"Đặt từ để hỏi vào chỗ của câu trả lời, như tiếng Việt: 你住哪儿？ 我住纽约."}
+{"id":"question-words.k2","q":"你叫什么名字吗？ có đúng không?","o":["Đúng, như vậy lịch sự hơn","Đúng, lúc nào cũng cần 吗","Sai: 什么 phải đứng đầu","Sai: từ để hỏi đã hỏi rồi, nên bỏ 吗"],"why":"Từ để hỏi không bao giờ đi với 吗: 你叫什么名字？"}
+{"id":"question-words.k3","q":"Hỏi quốc tịch của ai đó thế nào?","why":"哪 (nào) + 国人: 你是哪国人？"}
+{"id":"bu-mei.k1","q":"«Tôi không có điện thoại» nói thế nào?","why":"有 chỉ phủ định bằng 没: 没有."}
+{"id":"bu-mei.k2","q":"«Hôm qua tôi không đi» nói thế nào?","why":"没 cho việc không xảy ra, đứng trước động từ, không có 了."}
+{"id":"bu-mei.k3","q":"«Tôi không uống cà phê» là một thói quen. Câu nào đúng?","why":"Thói quen dùng 不, ngay trước động từ; 我没喝咖啡 nghĩa là «(Lúc đó) tôi không uống cà phê»."}
+{"id":"de.k1","q":"«Sách của thầy giáo tôi» nói thế nào?","why":"Người sở hữu đứng trước, rồi 的, rồi vật: 我老师的书."}
+{"id":"de.k2","q":"Một người bạn nói 我妈妈 (mẹ tôi). Thiếu gì, và như vậy có được không?","o":["是; đó là lỗi","的; đó là lỗi","们; vẫn được","的; với từ chỉ người trong gia đình thì được"],"why":"Với gia đình và quan hệ thân thiết, 的 thường được bỏ sau đại từ."}
+{"id":"de.k3","q":"«Chiếc ô tô màu đỏ» nói thế nào?","why":"Từ miêu tả đứng trước danh từ, nối bằng 的."}
+{"id":"you.k1","q":"«Gần đây có ngân hàng.» 附近 (gần đây) đứng ở đâu?","o":["Ở đầu câu, trước 有","Ở cuối câu, sau 银行","Giữa 有 và 银行","Không cần: tiếng Trung không dùng nó"],"why":"Nơi chốn đứng trước, rồi đến 有, như tiếng Việt: 附近有银行."}
+{"id":"you.k2","q":"附近没有银行 nghĩa là gì?","o":["Gần đây có ngân hàng.","Gần đây có ngân hàng không?","Gần đây không có ngân hàng.","Tôi không có ngân hàng."],"why":"没有 sau nơi chốn nghĩa là «không có»."}
+{"id":"you.k3","q":"有 có thể mang nghĩa gì?","o":["là","ở, tại","muốn","có (sở hữu), và có (tồn tại)"],"why":"有 bao gồm cả hai nghĩa của «có»: sở hữu và tồn tại."}
+{"id":"numbers.k1","q":"«Hai người» nói thế nào?","why":"Hai cái gì đó, trước lượng từ, là 两."}
+{"id":"numbers.k2","q":"Số nào là 25?","why":"Hai mười năm: 二十五."}
+{"id":"numbers.k3","q":"Khi nói, người ta thường gọi đồng tệ bằng từ nào?","why":"Khi nói dùng 块, trên bảng giá viết 元."}
+{"id":"measure.k1","q":"Trong 三本书 (ba quyển sách), lượng từ 本 đứng ở đâu?","o":["Giữa số và danh từ","Sau danh từ","Trước số","Chỉ trong câu hỏi"],"why":"Số + lượng từ + danh từ, như «ba quyển sách»."}
+{"id":"measure.k2","q":"Lượng từ nào dùng cho vật phẳng như vé, giấy?","why":"张 dùng cho vật phẳng (≈ «tờ, tấm»): 一张票."}
+{"id":"measure.k3","q":"Trong cửa hàng, bạn chỉ tay và nói 这个. Nghĩa là gì?","o":["Cái gì đây?","cái này","bao nhiêu","cái kia rẻ"],"why":"这个 đứng một mình nghĩa là «cái này»."}
+{"id":"food.k1","q":"Cách gọi nhân viên phục vụ an toàn nhất là gì?","why":"服务员 trung tính và bình thường (làm việc của «Em ơi!» ở quán Việt); ở đại lục, 小姐 có thể nghe như xúc phạm."}
+{"id":"food.k2","q":"«Tôi lấy hai cốc trà sữa.» Câu nào đúng?","why":"Số hai trước lượng từ là 两, và một cốc đồ uống dùng 杯."}
+{"id":"food.k3","q":"打包 trong nhà hàng nghĩa là gì?","o":["Gói mang về.","Tính tiền.","Không cay.","Cho thêm một phần."],"why":"打包 dùng khi gói đồ ăn thừa hoặc mua mang đi."}
+{"id":"family.k1","q":"Từ nào nghĩa là «em trai»?","why":"Anh trai là 哥哥; em trai là 弟弟."}
+{"id":"family.k2","q":"Trong 我家有四口人, 口 có vai trò gì?","o":["Nó nghĩa là «và».","Nó biến câu thành câu hỏi.","Nó là lượng từ cho thành viên gia đình.","Nó nghĩa là miệng, nên câu nói về đồ ăn."],"why":"口 đếm số người trong gia đình (như «miệng ăn»): 四口人."}
+{"id":"family.k3","q":"Một đồng nghiệp trạc tuổi bạn. Bạn hỏi «Bạn bao nhiêu tuổi?» thế nào?","why":"Ở đại lục, hỏi người lớn bằng 你多大？; 你几岁？ chủ yếu dành cho trẻ em."}
+{"id":"time.k1","q":"Nói «ngày 3 tháng 12» thế nào?","why":"Lớn trước nhỏ: tháng trước, rồi đến ngày, ngược với tiếng Việt."}
+{"id":"time.k2","q":"«Tôi đi Bắc Kinh ngày mai.» Trong tiếng Trung, 明天 đứng ở đâu?","o":["Ở cuối, sau 北京","Ngay sau 去","Trước 去, hoặc ở ngay đầu câu","Ở đâu cũng được"],"why":"Từ chỉ thời gian đứng trước động từ, hoặc đứng đầu câu."}
+{"id":"time.k3","q":"三点半 là gì?","o":["ba giờ rưỡi","ba ngày rưỡi","3:15","ba giờ kém mười lăm"],"why":"点 là giờ, 半 là rưỡi."}
+{"id":"zai.k1","q":"Nói «Tôi làm việc ở ngân hàng» thế nào?","why":"在 + nơi chốn đứng trước động từ."}
+{"id":"zai.k2","q":"Vì sao cần 上 trong 书在桌子上 (quyển sách ở trên bàn)?","o":["上 nghĩa là «là»","上 biến câu thành câu hỏi","Cái bàn cần từ chỉ vị trí mới thành nơi chốn","上 là lượng từ cho sách"],"why":"Đồ vật cần từ chỉ vị trí đứng sau: 桌子上, 房间里."}
+{"id":"zai.k3","q":"Từ nào sau 在 không cần từ chỉ vị trí?","o":["北京 (một thành phố)","桌子 (cái bàn)","椅子 (cái ghế)","书包 (cặp sách)"],"why":"Thành phố và quốc gia vốn đã là nơi chốn: 我在北京."}
+{"id":"word-order.k1","q":"Trong câu «Tôi đi ngân hàng ngày mai», 明天 (ngày mai) đứng ở đâu khi nói tiếng Trung?","o":["Ở cuối: 我去银行明天","Trước động từ: 我明天去银行","Giữa 去 và 银行","Ở đâu cũng được; trật tự từ tiếng Trung tự do"],"why":"Thời gian đứng trước động từ (hoặc ở đầu câu), không bao giờ ở cuối."}
+{"id":"word-order.k2","q":"Câu nào đúng thứ tự?","why":"Ai, rồi khi nào, rồi ở đâu, rồi động từ."}
+{"id":"word-order.k3","q":"Nói «mười giờ sáng thứ Bảy» thế nào?","why":"Lớn trước nhỏ: ngày, rồi buổi, rồi giờ, ngược với tiếng Việt."}
+{"id":"want-can.k1","q":"Kỹ năng phải học mới có, như bơi, dùng từ nào?","why":"会 là biết (làm gì): 我会游泳, «tôi biết bơi»."}
+{"id":"want-can.k2","q":"Hỏi «Tôi vào được không?» thế nào?","why":"可以 dùng để xin phép."}
+{"id":"want-can.k3","q":"«Tôi không muốn đi» là…","why":"不 đứng trước 想: 不想去."}
+{"id":"le.k1","q":"了 ngay sau động từ cho biết điều gì?","o":["Câu này là câu hỏi","Hành động đã xong","Thì quá khứ của mọi động từ","Hành động đang diễn ra"],"why":"了 sau động từ cho biết hành động đã hoàn thành; nó không phải thì quá khứ."}
+{"id":"le.k2","q":"«Hôm qua tôi bận» là…","why":"Trạng thái trong quá khứ không có 了; từ chỉ thời gian đã cho biết lúc nào."}
+{"id":"le.k3","q":"天气冷了 nghĩa là gì?","o":["Trời lạnh rồi.","Lúc đó trời lạnh.","Trời không lạnh.","Trời có lạnh không?"],"why":"了 ở cuối câu chỉ sự thay đổi: giờ thì trời lạnh, như «rồi»."}
+{"id":"progress.k1","q":"Nói «Tôi đang ăn» (ngay lúc này) thế nào?","why":"在 trước động từ cho biết hành động đang diễn ra; 是 không phải «đang»."}
+{"id":"progress.k2","q":"Từ nào đặt ở cuối câu để thêm nghĩa «ngay lúc này»?","why":"呢 ở cuối đi với 在 hoặc 正在 cho hành động đang diễn ra."}
+{"id":"progress.k3","q":"«Ngày mai tôi đi Thượng Hải» (một dự định) là…","why":"Dự định không dùng 在: 在 dành cho hành động đang diễn ra."}
+{"id":"serial.k1","q":"Nói «Tôi đi siêu thị mua đồ» thế nào?","why":"Đến nơi trước, rồi đến việc làm ở đó."}
+{"id":"serial.k2","q":"Đi tàu điện ngầm hay xe buýt thì dùng động từ nào?","why":"坐 (nghĩa đen là ngồi) dùng cho mọi thứ bạn ngồi bên trong."}
+{"id":"serial.k3","q":"Trong câu «Tôi đi học bằng tàu điện ngầm», phần «bằng tàu điện ngầm» đứng ở đâu khi nói tiếng Trung?","o":["Trước 去: 我坐地铁去学校","Ở cuối: 我去学校坐地铁","Giữa 去 và 学校","Trước 我"],"why":"Cách đi đứng trước 去."}
+{"id":"a-not-a.k1","q":"Câu hỏi nào đúng?","why":"Không có 很 và không có 吗: chỉ 忙不忙."}
+{"id":"a-not-a.k2","q":"Câu hỏi chính phản của 有 là gì?","why":"有 phủ định bằng 没, nên câu hỏi là 有没有."}
+{"id":"a-not-a.k3","q":"Trả lời «có» cho câu 你去不去？ thế nào?","why":"Trả lời bằng chính động từ: 去 hoặc 不去, như «Đi» / «Không đi»."}
+{"id":"ye-dou.k1","q":"Trong «Tôi cũng là sinh viên», 也 đứng ở đâu?","o":["Ở cuối: 我是学生也","Ở đầu: 也我是学生","Trước động từ: 我也是学生","Sau động từ: 我是也学生"],"why":"也 đứng sau chủ ngữ, ngay trước động từ, như «cũng»."}
+{"id":"ye-dou.k2","q":"我们都不喝酒 nghĩa là gì?","o":["Chúng tôi đều không uống rượu.","Không phải ai trong chúng tôi cũng uống rượu.","Chúng tôi đều uống rượu.","Chúng tôi chưa uống rượu."],"why":"都不 là «đều không»; 不都 mới là «không phải ai cũng»."}
+{"id":"ye-dou.k3","q":"«Tôi chưa ăn cơm» là…","why":"还没 + động từ nghĩa là chưa, không có 了."}
+{"id":"ba-bie.k1","q":"Nói «Chúng ta đi thôi» thế nào?","why":"吧 ở cuối câu có 我们 nghĩa là «chúng ta … đi»."}
+{"id":"ba-bie.k2","q":"Nói «Đừng lo» thế nào?","why":"别 + động từ bảo ai đó đừng làm gì."}
+{"id":"ba-bie.k3","q":"Trong «Mời vào», 请 đứng ở đâu?","o":["Trước động từ: 请进","Sau động từ: 进请","Ở cuối cùng với 吧: 进吧请","Không dùng ở đây"],"why":"请 đứng đầu, rồi đến động từ: 请进."}
+{"id":"and-or.k1","q":"和 nối được những gì?","o":["Hai câu","Hai động từ","Hai danh từ, như người hay vật","Mọi thứ, như «và» trong tiếng Việt"],"why":"和 nối danh từ và đại từ, không nối câu."}
+{"id":"and-or.k2","q":"«Bạn muốn trà hay cà phê?» là…","why":"Trong câu hỏi, «hay» là 还是, không có 吗."}
+{"id":"and-or.k3","q":"«Thứ Bảy hoặc Chủ nhật tôi đi» là…","why":"Trong câu khẳng định, «hoặc» là 或者, và thời gian đứng trước 去."}
