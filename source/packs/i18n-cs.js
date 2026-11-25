@@ -800,7 +800,8 @@ LANGAPP_PACKS.i18n.cs = {
     "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Kartičky se teď hodnotí podle toho, jak dlouho si je pamatuješ. Ty, které se dlouho neobjevily, jsou označené „k procvičení“, dokud na ně znovu neodpovíš.",
     "Review missed": "Projít chybné",
     "Practice these first": "Nejdřív procvičit tyto",
-    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 nových kartiček, kvíz, dalších 5, kvíz i s nejvýše 15 dřívějšími kartičkami, které nejvíc potřebuješ procvičit – a tak dál, dokud balíček není hotový."
+    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 nových kartiček, kvíz, dalších 5, kvíz i s nejvýše 15 dřívějšími kartičkami, které nejvíc potřebuješ procvičit – a tak dál, dokud balíček není hotový.",
+    "Settings": "Nastavení"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Drily"],

@@ -68,7 +68,7 @@ const seed = (course, state, prefs) => ({ course, state, prefs: prefs || { nick:
     /* header fit + screenshots */
     for (const w of [390, 320]) { await p.setViewportSize({ width: w, height: 700 }); await p.goto(U + '#today'); await boot(p);
       const f = await p.evaluate(() => { const top = document.querySelector('.top'); const bs = [...document.querySelectorAll('.hdr-r > button')].filter(x => !x.hidden); const st = document.getElementById('hdrStat'); return { page: document.documentElement.scrollWidth <= innerWidth, top: top.scrollWidth <= top.clientWidth, btns: bs.every(x => x.getBoundingClientRect().right <= innerWidth + 0.5 && x.getBoundingClientRect().left >= 0), n: bs.length, stat: st.getBoundingClientRect().width, h1: document.querySelector('header h1').getBoundingClientRect().right <= bs[0].getBoundingClientRect().left + 0.5 }; });
-      ok('header fits at ' + w + 'px with the toggle', f.page && f.top && f.btns && f.h1 && f.n === 4 && f.stat >= 30, f); /* the stat (streak/goal) must stay readable, not squeezed to the dot */
+      ok('header fits at ' + w + 'px with the toggle', f.page && f.top && f.btns && f.h1 && f.n === 5 && f.stat >= 30, f); /* the stat (streak/goal) must stay readable, not squeezed to the dot */
       await p.screenshot({ path: path.join(SHOTS, 'voice-header-' + w + '.png'), clip: { x: 0, y: 0, width: w, height: 120 } }); }
     await c.close(); }
   /* 4. dismissing the card keeps woman and never shows again */

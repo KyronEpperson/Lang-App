@@ -800,7 +800,8 @@ LANGAPP_PACKS.i18n.hmn = {
     "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Tam sim no app saib koj nco card tau ntev npaum li cas. Card uas koj tsis tau pom ntev lawm yuav yog \"yuav tsum xyaum\" txog thaum koj rov teb dua.",
     "Review missed": "Review cov tsis raug",
     "Practice these first": "Xyaum cov no ua ntej",
-    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 card tshiab, quiz, 5 card ntxiv, quiz nrog 15 card qub uas yuav tsum xyaum tshaj, mus txog thaum deck tiav."
+    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 card tshiab, quiz, 5 card ntxiv, quiz nrog 15 card qub uas yuav tsum xyaum tshaj, mus txog thaum deck tiav.",
+    "Settings": "Kev teeb tsa"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Drills"],

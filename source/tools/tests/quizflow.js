@@ -9,7 +9,7 @@ const b=await chromium.launch(); const ctx=await b.newContext({viewport:{width:1
 await p.route('**/fonts.googleapis.com/**',r=>r.fulfill({body:'',contentType:'text/css'})); await p.route('**/*.supabase.co/**',r=>r.fulfill({status:200,body:'[]',contentType:'application/json'}));
 await p.goto('file://'+OUT); await p.waitForTimeout(200);
 await p.evaluate(()=>{ S.onboard={skipped:1}; S.hintSeen=1; window.__said=[]; speak=function(t){ window.__said.push(String(t)); }; location.hash='#review'; });
-await p.waitForTimeout(250); await p.evaluate(()=>{ const b=document.querySelector('.advbtn[data-advbtn=review]'); if(b.getAttribute('aria-expanded')!=='true') b.click(); }); await p.waitForTimeout(80); /* the key hints sit behind "More options" */
+await p.waitForTimeout(250); /* DS-1: the key hints sit in the Settings sheet (header gear); the checks below read them there */
 const hint=()=>p.evaluate(()=>{ const k=document.getElementById('rvKeys'); const vis=x=>!!x&&!x.hidden&&getComputedStyle(x).display!=='none'; return {line:vis(k),f:vis(k.querySelector('[data-k=teach]')),n:vis(k.querySelector('[data-k=q]')),old:/again|got it/.test(k.textContent)}; });
 const stage=()=>p.evaluate(()=>{ const s=document.getElementById('cardsStage'); return s.querySelector('.rvgo')?'teach':s.querySelector('.opt')?'q':'other'; });
 // ---- Review: a new card

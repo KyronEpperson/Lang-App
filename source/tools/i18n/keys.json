@@ -10,7 +10,7 @@
   "d": "text without \"·\", e.g. a deck name inside a \"·\"-separated line"
  },
  "counts": {
-  "exact": 800,
+  "exact": 801,
   "patterns": 278,
   "distinctPatternTemplates": 277
  },
@@ -331,7 +331,7 @@
    "key": "Deck",
    "kind": "label",
    "section": "practice (static)",
-   "where": "html <div> @aria-label",
+   "where": "html <div> text",
    "context": "form label: choose a deck"
   },
   {
@@ -2755,7 +2755,7 @@
    "key": "Review it",
    "kind": "label",
    "section": "session (Today)",
-   "where": "not verbatim in src/app.html (assembled at runtime)",
+   "where": "js s()",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -2801,13 +2801,13 @@
    "key": "new cards today / daily cap",
    "kind": "sentence",
    "section": "session (Today)",
-   "where": "js lessonNext() <span> @title"
+   "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   {
    "key": "new today",
    "kind": "label",
    "section": "session (Today)",
-   "where": "js lessonNext()",
+   "where": "not verbatim in src/app.html (assembled at runtime)",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -3340,7 +3340,7 @@
    "key": "Close",
    "kind": "label",
    "section": "onboarding / tour / quick actions / search",
-   "where": "js (top level)",
+   "where": "html <button> @aria-label",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -5519,6 +5519,13 @@
    "section": "added",
    "where": "html text",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing"
+  },
+  {
+   "key": "Settings",
+   "kind": "label",
+   "section": "added",
+   "where": "html <button> @aria-label",
+   "context": "short UI label (button, chip or heading); keep it short"
   }
  ],
  "patterns": [

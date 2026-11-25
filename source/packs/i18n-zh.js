@@ -800,7 +800,8 @@ LANGAPP_PACKS.i18n.zh = {
     "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "现在按你能记住多久来评估卡片。很久没看的卡片会显示为“需要练习”，直到你再次作答。",
     "Review missed": "复习答错的卡片",
     "Practice these first": "先练习这些卡片",
-    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": "：先学 5 张新卡片并测验，再学 5 张，和之前学过、最需要练习的卡片（最多 15 张）混在一起测验，直到学完整个卡组。"
+    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": "：先学 5 张新卡片并测验，再学 5 张，和之前学过、最需要练习的卡片（最多 15 张）混在一起测验，直到学完整个卡组。",
+    "Settings": "设置"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · 专项练习"],

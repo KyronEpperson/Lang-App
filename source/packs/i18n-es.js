@@ -800,7 +800,8 @@ LANGAPP_PACKS.i18n.es = {
     "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Ahora las tarjetas se valoran por cuánto tiempo las recuerdas. Las que llevas mucho tiempo sin ver aparecen como «por practicar» hasta que vuelvas a responderlas.",
     "Review missed": "Repasar las falladas",
     "Practice these first": "Practicar estas primero",
-    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 tarjetas nuevas, un test, 5 más, un test con hasta 15 tarjetas anteriores, las que más necesitas practicar, y así hasta terminar el mazo."
+    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 tarjetas nuevas, un test, 5 más, un test con hasta 15 tarjetas anteriores, las que más necesitas practicar, y así hasta terminar el mazo.",
+    "Settings": "Ajustes"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Ejercicios"],

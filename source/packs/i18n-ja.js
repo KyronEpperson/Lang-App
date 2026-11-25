@@ -800,7 +800,8 @@ LANGAPP_PACKS.i18n.ja = {
     "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "カードは、どれだけ長く覚えていられるかで判定されるようになりました。長いあいだ見ていないカードは、もう一度答えるまで「要練習」と表示されます。",
     "Review missed": "間違えたカードを復習",
     "Practice these first": "先にこのカードを練習",
-    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": "：新しいカードを5枚覚えてクイズ、さらに5枚覚えて、それまでのカードのうち練習が特に必要なもの最大15枚と混ぜてクイズ。これをデッキが終わるまで繰り返します。"
+    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": "：新しいカードを5枚覚えてクイズ、さらに5枚覚えて、それまでのカードのうち練習が特に必要なもの最大15枚と混ぜてクイズ。これをデッキが終わるまで繰り返します。",
+    "Settings": "設定"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ドリル"],

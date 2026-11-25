@@ -800,7 +800,8 @@ LANGAPP_PACKS.i18n.vi = {
     "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Giờ đây thẻ được đánh giá theo thời gian bạn nhớ được. Thẻ bạn đã lâu không gặp sẽ hiện là “cần luyện thêm” cho đến khi bạn trả lời lại.",
     "Review missed": "Ôn lại thẻ sai",
     "Practice these first": "Luyện các thẻ này trước",
-    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 thẻ mới, làm trắc nghiệm, thêm 5 thẻ, làm trắc nghiệm gồm cả tối đa 15 thẻ đã học mà bạn cần luyện thêm nhất, cho đến hết bộ thẻ."
+    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 thẻ mới, làm trắc nghiệm, thêm 5 thẻ, làm trắc nghiệm gồm cả tối đa 15 thẻ đã học mà bạn cần luyện thêm nhất, cho đến hết bộ thẻ.",
+    "Settings": "Cài đặt"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Kỹ năng"],

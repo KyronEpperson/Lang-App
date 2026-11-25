@@ -800,7 +800,8 @@ LANGAPP_PACKS.i18n.tl = {
     "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Hinuhusgahan na ngayon ang mga card ayon sa kung gaano katagal mo silang natatandaan. Ang mga card na matagal mo nang hindi nakikita ay lalabas na \"sanayin pa\" hanggang masagot mo ulit ang mga ito.",
     "Review missed": "Balikan ang mga mali",
     "Practice these first": "Sanayin muna ang mga ito",
-    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 bagong card, i-quiz, 5 pa, i-quiz kasama ang di-hihigit sa 15 naunang card na pinakakailangan mong sanayin, hanggang matapos ang deck."
+    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 bagong card, i-quiz, 5 pa, i-quiz kasama ang di-hihigit sa 15 naunang card na pinakakailangan mong sanayin, hanggang matapos ang deck.",
+    "Settings": "Mga Setting"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Mga drill"],

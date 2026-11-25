@@ -5438,6 +5438,12 @@
    "ko": ": 새 카드 5장을 배우고 퀴즈, 또 5장을 배우고 앞서 배운 카드 중 연습이 가장 필요한 최대 15장과 섞어서 퀴즈 — 덱을 끝낼 때까지 반복해요.",
    "kind": "fragment",
    "context": "Practice, under More options: the help text after the bold label \"Learn 5 at a time\". It replaces the sentence that said \"mixed with everything so far\": the quiz after each new five now brings back at most 15 earlier cards, the ones that most need practice. Fragment of a longer runtime string; keep the leading/trailing punctuation and spacing"
+  },
+  "Settings": {
+   "t": "సెట్టింగ్‌లు",
+   "ko": "설정",
+   "kind": "label",
+   "context": "title of the settings sheet opened by the gear button in the header (audio, speed, deck options)"
   }
  },
  "patterns": {

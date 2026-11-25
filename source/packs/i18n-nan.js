@@ -800,7 +800,8 @@ LANGAPP_PACKS.i18n.nan = {
     "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "這馬是照你會記得偌久來評估卡。足久無看的卡會顯示「愛練習」，到你閣回答為止。",
     "Review missed": "複習毋著的",
     "Practice these first": "先練這寡",
-    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": "：先學 5 張新卡，考一擺，閣學 5 張，佮進前學過、上愛練習的卡（上濟 15 張）鬥做伙考，到規个牌組學了為止。"
+    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": "：先學 5 張新卡，考一擺，閣學 5 張，佮進前學過、上愛練習的卡（上濟 15 張）鬥做伙考，到規个牌組學了為止。",
+    "Settings": "設定"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · 訓練"],

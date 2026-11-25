@@ -800,7 +800,8 @@ LANGAPP_PACKS.i18n.te = {
     "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "ఇప్పుడు కార్డులను అవి మీకు ఎంత కాలం గుర్తుంటాయో దాన్ని బట్టి అంచనా వేస్తాం. మీరు చాలా కాలంగా చూడని కార్డులు, మళ్ళీ సమాధానం ఇచ్చే వరకు \"సాధన అవసరం\"గా కనిపిస్తాయి.",
     "Review missed": "తప్పైనవి మళ్లీ చూడండి",
     "Practice these first": "ముందు వీటిని సాధన చేయండి",
-    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 కొత్త కార్డులు, వాటిపై క్విజ్, మరో 5, తర్వాత ఇంతకుముందు నేర్చుకున్న వాటిలో సాధన ఎక్కువగా అవసరమైన గరిష్ఠంగా 15 కార్డులతో కలిపి క్విజ్. డెక్ పూర్తయ్యే వరకు ఇలాగే."
+    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 కొత్త కార్డులు, వాటిపై క్విజ్, మరో 5, తర్వాత ఇంతకుముందు నేర్చుకున్న వాటిలో సాధన ఎక్కువగా అవసరమైన గరిష్ఠంగా 15 కార్డులతో కలిపి క్విజ్. డెక్ పూర్తయ్యే వరకు ఇలాగే.",
+    "Settings": "సెట్టింగ్‌లు"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · డ్రిల్స్"],
