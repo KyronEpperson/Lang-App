@@ -5,34 +5,53 @@ module.exports = [
     title: "Sounds, spelling and the alphabet",
     blurb: "Read any German word aloud: the letters that differ from English, the umlauts, the two ch sounds and where the stress goes.",
     deck: "Sounds and spelling",
+    sections: [null, {"deck": "Sounds and spelling", "n": [11, 18]}, [{"name": "Vowel pairs", "cards": [["ei", "ai", "ei: sounds like eye", "der Wein (dayr vain), wine"], ["ie", "ee", "ie: sounds like ee in see", "Wien (veen), Vienna. Wein, with ei, is wine."], ["eu", "oy", "eu: sounds like oy in boy", "neu (noy), new"], ["äu", "oy", "äu: the same oy as eu", "die Häuser (dee HOY-zuh), houses"], ["au", "ow", "au: sounds like ow in how", "das Haus (dahs hows), house"]]}, {"deck": "Sounds and spelling", "n": [5, 8]}], {"deck": "Sounds and spelling", "n": [8, 11]}, null, {"deck": "Sounds and spelling", "n": [0, 5]}, {"name": "Long vowels", "cards": [["ah", "ah", "long a: the h is silent", "die Bahn (dee bahn), the railway"], ["eh", "ay", "long e: the h is silent", "sehr (zayr), very"], ["ih", "ee", "long i: the h is silent", "ihn (een), him"], ["oh", "oh", "long o: the h is silent", "der Sohn (dayr zohn), son"], ["uh", "oo", "long u: the h is silent", "die Uhr (dee oor), clock"], ["aa", "ah", "long a, written double", "das Haar (dahs hahr), hair"], ["ee", "ay", "long e, written double", "der Tee (dayr tay), tea"], ["oo", "oh", "long o, written double", "das Boot (dahs boht), boat"]]}, null, {"name": "Read whole words", "cards": [["der Spiegel", "dayr SHPEE-guhl", "the mirror", "sp at the start is shp; ie is ee; the ending -el is uhl. Stress on the first syllable."], ["der Strand", "dayr shtrahnt", "the beach", "st at the start is sht; the final d sounds t. One syllable."], ["der Zoo", "dayr tsoh", "the zoo", "z is ts; the doubled o is a long oh. One syllable."], ["die Wurst", "dee voorst", "the sausage", "w is v; the u before two consonants is short. One syllable."], ["die Zwiebel", "dee TSVEE-buhl", "the onion", "z is ts and w is v, so zw is tsv; ie is ee; the ending -el is uhl. Stress on the first syllable."], ["die Kirche", "dee KIR-hhuh", "the church", "ch after r is the soft hh; the final e is said, uh. Stress on Kir."], ["die Brille", "dee BRIL-uh", "the glasses (for your eyes)", "i before a doubled l is short; the final e is said. Stress on the first syllable."], ["der Schuh", "dayr shoo", "the shoe", "sch is sh; the h after u is silent and makes it long. One syllable."], ["das Eis", "dahs ais", "the ice; ice cream", "ei is ai, as in eye. One syllable."], ["die Bäckerei", "dee behk-uh-RAI", "the bakery", "ä is eh, ck is k, ei is ai. The ending -ei is always stressed: behk-uh-RAI."], ["der Fußball", "dayr FOOS-bahl", "soccer; the soccer ball", "Fuß + Ball (foot + ball). ß after the long u is s; a is short before ll. Stress on the first part."], ["der Bahnhof", "dayr BAHN-hohf", "the train station", "Bahn + Hof (railway + yard). The h after a is silent and makes it long. Stress on Bahn."], ["das Fahrrad", "dahs FAHR-raht", "the bicycle", "Fahr + Rad (ride + wheel). The h makes the a long; the final d sounds t. Stress on Fahr."], ["der Handschuh", "dayr HAHNT-shoo", "the glove", "Hand + Schuh (hand + shoe). The d ends the first part, so it sounds t; sch is sh. Stress on Hand."], ["das Flugzeug", "dahs FLOOK-tsoyk", "the airplane", "Flug + Zeug (flight + thing). The g ending each part sounds k; z is ts; eu is oy. Stress on Flug."], ["die Straßenbahn", "dee SHTRAH-suhn-bahn", "the streetcar, the tram", "Straßen + Bahn (streets + railway). st at the start is sht; ß is s. Stress on the first part."], ["die Hausaufgabe", "dee HOWS-owf-gah-buh", "the homework", "Haus + Aufgabe (home + task). au is ow, twice; the final e is said. Stress on Haus."]]}],
     body: `
+<h3>How German spelling works</h3>
 <p>German uses the same 26 letters as English, plus <b>ä, ö, ü</b> and <b>ß</b>. Its spelling is far more regular than English: once you know a handful of rules, you can read almost any word. Under every German phrase in this course there is a pronunciation line in English letters. The syllable in CAPITALS is the stressed one.</p>
+<p>Most letters sound as they do in English, so this lesson teaches only what is different, in small groups: letters with a new sound, vowel pairs, umlauts, ch, word endings, and long and short vowels. Each group has tiles: tap one to hear it and see how the line writes it. Here is the whole alphabet with the German names of the letters. You need them to spell your name.</p>
+{{tiles:a=ah b=bay c=tsay d=day e=ay f=ehf g=gay h=hah i=ee j=yawt k=kah l=ehl m=ehm n=ehn o=oh p=pay q=koo r=ehr s=ehs t=tay u=oo v=fow w=vay x=iks y=EWP-see-lawn z=tseht ä=eh ö=ur ü=ew ß=ehs-TSEHT}}
 <h3>Letters that sound different</h3>
 <p>The letters are the ones you know, but several stand for a different sound. These are the ones English speakers misread most.</p>
 <div class="tbl"><table><tr><th>Letter</th><th>Sounds like</th><th>Example</th></tr><tr><td class="k">w</td><td>English v</td><td class="k">das Wasser</td></tr><tr><td class="k">v</td><td>English f</td><td class="k">der Vater</td></tr><tr><td class="k">z</td><td>ts, as in <i>cats</i></td><td class="k">die Zeit</td></tr><tr><td class="k">j</td><td>y, as in <i>yes</i></td><td class="k">ja</td></tr><tr><td>s before a vowel</td><td>z</td><td class="k">die Sonne</td></tr><tr><td>sp, st at the start</td><td>shp, sht</td><td class="k">die Straße</td></tr><tr><td class="k">ß</td><td>s</td><td class="k">die Straße</td></tr></table></div>
+<p>Tap a tile to hear the sound.</p>
+{{tiles:w=v v=f z=ts j=y s=z sp=shp st=sht ß=s}}
 {{ex:das Wasser|dahs VAHS-uh|the water}}
 {{ex:die Straße|dee SHTRAH-suh|the street}}
 <p><b>ß</b> is used after a long vowel or after <b>ei, au, eu</b>, as in <b>Straße</b> and <b>heißen</b>. Swiss German writes <b>ss</b> instead.</p>
 <h3>ei and ie</h3>
 <p><b>ei</b> sounds like English <i>eye</i> (the line writes <i>ai</i>), and <b>ie</b> sounds like <i>ee</i>. Read the second letter and say its English name: <b>Wein</b> (wine), <b>Wien</b> (Vienna). <b>eu</b> and <b>äu</b> sound like <i>oy</i>, and <b>au</b> like <i>ow</i>. A long e, as in <b>Tee</b> (tea), is written <i>ay</i>: say <i>day</i> without the glide at the end.</p>
+{{tiles:ei ie eu äu au}}
 {{ex:der Wein|dayr vain|the wine}}
 {{ex:in Wien|in veen|in Vienna}}
 <h3>Umlauts: ä, ö, ü</h3>
 <p>The two dots change the sound. <b>ä</b> is close to the e in <i>bet</i>. For <b>ü</b>, say <i>ee</i> with your lips rounded; the pronunciation line writes it <i>ew</i>. For <b>ö</b>, say <i>ay</i> with rounded lips; the line writes <i>ur</i>, but there is no r sound in it.</p>
+{{tiles:ä=eh ö=ur ü=ew}}
 {{ex:fünf|fewnf|five}}
 {{ex:schön|shurn|beautiful}}
 <h3>Two ch sounds</h3>
-<p>After <b>a, o, u</b> and <b>au</b>, <b>ch</b> is throaty, like Scottish <i>loch</i>: the line writes <i>kh</i>. Everywhere else it is soft, like a strong h in <i>huge</i>: the line writes <i>hh</i>. Neither one is a k or a sh.</p>
+<p>After <b>a, o, u</b> and <b>au</b>, <b>ch</b> is throaty, like Scottish <i>loch</i>: the line writes <i>kh</i>. Everywhere else it is soft, like a strong h in <i>huge</i>: the line writes <i>hh</i>. Neither one is a k or a sh. <b>sch</b> is one sound, always <i>sh</i>, as in <b>schön</b>. In the tiles, the first row is throaty and the second soft.</p>
+{{tiles:ach=ahkh och=awkh uch=ookh auch=owkh _ ich ech=ehh _ _ _ sch=sh}}
 {{ex:das Buch|dahs bookh|the book}}
 {{ex:ich|ihh|I}}
 <h3>Word endings</h3>
-<p>At the end of a word, <b>b, d, g</b> sound like <b>p, t, k</b>: <b>Hund</b> sounds like <i>hoont</i>, and <b>Tag</b> (day) like <i>tahk</i>. A final <b>e</b> is never silent, so <b>Bitte</b> has two syllables. The line writes this weak e, and the weak endings <b>-en</b> and <b>-er</b>, with <i>uh</i>: <i>BIT-uh</i>.</p>
+<p>At the end of a word, <b>b, d, g</b> sound like <b>p, t, k</b>: <b>Hund</b> sounds like <i>hoont</i>, and <b>Tag</b> (day) like <i>tahk</i>. A final <b>e</b> is never silent, so <b>Bitte</b> has two syllables. The line writes this weak e, and the weak endings <b>-en</b> and <b>-er</b>, with <i>uh</i>: <i>BIT-uh</i>. One ending breaks the rule: <b>-ig</b> sounds like <i>ihh</i>, as in <b>zwanzig</b> (TSVAHN-tsihh).</p>
+{{tiles:b=p d=t g=k ig=ihh _ e=uh en=uhn er=uh}}
 {{ex:der Hund|dayr hoont|the dog}}
 {{ex:Bitte!|BIT-uh|Please!}}
+<h3>Long and short vowels</h3>
+<p>A German vowel can be long or short, and the spelling usually tells you which. An <b>h</b> after a vowel is silent and makes it long: <b>Bahn</b>, <b>Uhr</b>. A doubled vowel is long too: <b>Tee</b>, <b>Boot</b>. Before a doubled consonant, or before two consonants, a vowel is usually short: <b>Wasser</b>, <b>Sonne</b>, <b>Hund</b>. The line shows the difference for e, i and o: long <i>ay, ee, oh</i>, short <i>eh, i, aw</i>. So <b>Tee</b> is <i>tay</i> but <b>Bett</b> (bed) is <i>beht</i>, and <b>Sohn</b> (son) is <i>zohn</i> but <b>Sonne</b> is <i>ZAWN-uh</i>. For a and u the line writes <i>ah</i> and <i>oo</i> either way.</p>
+{{tiles:ah eh ih oh uh aa ee oo}}
+{{ex:die Uhr|dee oor|the clock}}
+{{ex:das Bett|dahs beht|the bed}}
 <h3>Stress, r and capital letters</h3>
 <p>Most German words stress their first syllable, but <b>be-, ge-, ver-, er-</b> and <b>ent-</b> are never stressed, and many words borrowed from other languages stress the last syllable: <b>Hotel</b>, <b>Büro</b>. The German <b>r</b> is made in the throat, and after a vowel it often softens to an <i>uh</i>; listen to the audio. Every noun starts with a capital letter, and the small words <b>der, die, das</b> in front of nouns all mean "the" (lesson 3 explains them).</p>
 {{ex:Entschuldigung!|ehnt-SHOOL-dih-goong|Excuse me!}}
 <div class="tip"><b>Most common mistake:</b> reading w the English way. <b>Wasser</b> with an English w → <b>Wasser</b> starting with a v sound.</div>
+<h3>Read whole words</h3>
+<p>Now put the pieces together. Read a word left to right, one spelling at a time: <b>sch</b>, <b>ei</b> and <b>ie</b> each count as one sound. Most words stress their first syllable; the notes point out the ones that do not. German builds long words by joining short ones. Read a compound part by part, with the stress on the first part: <b>Fahr + Rad</b> is <b>Fahrrad</b> (bicycle), FAHR-raht. Each part keeps its own ending, so the d at the end of <b>Hand</b> still sounds t in <b>Handschuh</b> (glove). Sound out every card below before you flip it.</p>
+{{ex:das Fahrrad|dahs FAHR-raht|the bicycle}}
+{{ex:der Handschuh|dayr HAHNT-shoo|the glove}}
 `,
     check: [
       ["How do you say the w in Wasser?", ["Like English v", "Like English w", "Like English f", "It is silent"], 0, "German w always sounds like English v."],

@@ -5,6 +5,7 @@ module.exports = [
     title: "The five tones",
     blurb: "Hear and say Thai's five tones, and read the tone marks in the romanization under every Thai word.",
     deck: "Tones and vowel length",
+    sections: [{"deck": "Tones and vowel length", "n": [0, 3]}, [{"deck": "Tones and vowel length", "n": [8, 11]}, {"deck": "Tones and vowel length", "n": [16, 18]}], [{"deck": "Tones and vowel length", "n": [3, 8]}, {"deck": "Tones and vowel length", "n": [14, 16]}], null, null],
     body: `
 <p>This course teaches standard Thai as spoken in Bangkok and understood everywhere in Thailand. The north, the northeast (Isan) and the south have their own dialects; you will hear them, and everyone there also understands standard Thai.</p>
 <h3>Pitch is part of the word</h3>
@@ -59,6 +60,7 @@ module.exports = [
     title: "Sounds: aspiration, long and short vowels",
     blurb: "Tell apart the Thai sounds English mixes up: a puff of air or none, a long vowel or a short one, and final sounds that are held.",
     deck: "Tones and vowel length",
+    sections: [null, null, null, {"deck": "Tones and vowel length", "n": [11, 14]}, null],
     body: `
 <p>Thai has a few sounds English does not have, and a few English habits that change Thai words. This lesson covers the four that matter most.</p>
 <h3>A puff of air, or none</h3>
@@ -218,8 +220,11 @@ module.exports = [
     title: "Consonants and the three classes",
     blurb: "Recognize about 30 common Thai consonants, name them, and know which of the three classes each belongs to.",
     deck: "Consonants: mid and high class",
+    sections: [null, null, null, [{"deck": "Consonants: mid and high class", "n": [0, 7]}, {"name": "ฎ and ฏ", "cards": [["ฎ ชฎา", "daaw chá-daa", "letter d, as in chá-daa (dancer's crown)", "Mid class, rare. Sounds like ด; at the end of a syllable it is a held t."], ["ฏ ปฏัก", "dtaaw bpà-dtàk", "letter dt, as in bpà-dtàk (goad, spear)", "Mid class, rare. Sounds like ต; at the end of a syllable it is a held t."], ["กฎ", "gòt", "rule", "ก + a hidden short o + ฎ, which ends the syllable as a held t. Mid class, dead: low tone."], ["ปฏิทิน", "bpà-dtì-thin", "calendar", "ปฏิ is read bpà-dtì: ฏ is dt."], ["ปฏิเสธ", "bpà-dtì-sèet", "to refuse; to deny", "ปฏิ is bpà-dtì again; ธ at the end is a held t."]]}], {"deck": "Consonants: mid and high class", "n": [7, 17]}, null, null],
     body: `
+<h3>How Thai writing works</h3>
 <p>Thai script looks dense at first, but it is built simply. Each syllable is built on a consonant. The vowel is written around that consonant: before it, after it, above it or below it (the next lesson). Words run together with no spaces; a space marks the end of a phrase, where English would put a comma or a period.</p>
+<p>Thai runs left to right and has no capital letters. A syllable has up to four pieces: a consonant, a vowel written around it, sometimes a final consonant, and sometimes a tone mark on top. You read them in that order and get one syllable with one tone. This lesson gives you the consonants of two of the three classes; the vowels come in lesson 6, the low-class letters and the final consonants in lesson 8, and the tone marks in lesson 11.</p>
 <h3>Letters have names</h3>
 <p>The Thai alphabet has 44 consonants, but many share a sound, and about 30 cover almost everything you will read. Each letter has a name: its sound plus <i>aaw</i>, then a word that starts with it, the way English children say "A for apple".</p>
 {{ex:ก ไก่|gaaw gài|the letter g, as in chicken}}
@@ -244,6 +249,12 @@ module.exports = [
 {{ex:ฟัน|fan|tooth}}
 {{ex:รถ|rót|car}}
 <p>อ is special: at the start of a syllable it is silent and only holds a vowel, as in อาหาร.</p>
+<h3>The mid-class letters</h3>
+<p>Nine letters are mid class. Seven are common. ฎ and ฏ are rare twins of ด and ต, found in a few formal words such as กฎ <i>gòt</i> (rule). None of the mid-class letters has a puff of air. Tap a letter to hear its name.</p>
+{{tiles:ก=gaaw_gài จ=jaaw_jaan ฎ=daaw_chá-daa ฏ=dtaaw_bpà-dtàk ด=daaw_dèk ต=dtaaw_dtào บ=baaw_bai-máai ป=bpaaw_bplaa อ=aaw_àang}}
+<h3>The high-class letters</h3>
+<p>Eleven letters are high class, and every one is a breathy sound: kh, ch, th, ph, f, s or h. ฐ is a rare spelling of th. ศ and ษ are less common spellings of s, mostly in words from Pali and Sanskrit, but you will see them often, as in ประเทศ (country) and ภาษา (language). ฃ is no longer used; it stays in the alphabet only. Tap a letter to hear its name.</p>
+{{tiles:ข=khǎaw_khài ฃ=khǎaw_khùuat ฉ=chǎaw_chìng ฐ=thǎaw_thǎan ถ=thǎaw_thǔng ผ=phǎaw_phûeng ฝ=fǎaw_fǎa ศ=sǎaw_sǎa-laa ษ=sǎaw_ruue-sǐi ส=sǎaw_sǔuea ห=hǎaw_hìip}}
 <h3>Same sound, different class</h3>
 <p>Several sounds have one high-class letter and one low-class letter. They sound the same; only the tone rules differ.</p>
 <div class="tbl"><table><tr><th>Sound</th><th>High class</th><th>Low class</th></tr><tr><td>kh</td><td class="k">ข</td><td class="k">ค</td></tr><tr><td>ch</td><td class="k">ฉ</td><td class="k">ช</td></tr><tr><td>th</td><td class="k">ถ</td><td class="k">ท</td></tr><tr><td>ph</td><td class="k">ผ</td><td class="k">พ</td></tr><tr><td>f</td><td class="k">ฝ</td><td class="k">ฟ</td></tr><tr><td>s</td><td class="k">ส</td><td class="k">ซ</td></tr><tr><td>h</td><td class="k">ห</td><td class="k">ฮ</td></tr></table></div>
@@ -254,7 +265,7 @@ module.exports = [
 {{ex:สวย|sǔuai|pretty}}
 {{ex:ซวย|suuai|unlucky}}
 <h3>Rare letters</h3>
-<p>The other letters, such as ฆ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ศ ษ ฬ, appear in a few formal or borrowed words; learn them when you meet them. ฃ and ฅ are no longer used.</p>
+<p>The rare letters appear in a few formal or borrowed words. You have met the mid-class ฎ ฏ and the high-class ฐ ศ ษ on the tiles above. The less common low-class letters, ฆ ฌ ญ ฑ ฒ ณ ฬ, come with the rest of the low class in lesson 8. ฃ and ฅ are no longer used: they keep their place in the alphabet, but no modern word is spelled with them.</p>
 <div class="tip"><b>Most common mistake:</b> treating letters with the same sound as interchangeable. ซวย for "pretty" → สวย: the high-class ส gives the rising tone, and ซวย, with a mid tone, means unlucky.</div>
 `,
     check: [
@@ -284,11 +295,14 @@ module.exports = [
     title: "Vowels and where they sit",
     blurb: "Find the vowel in a Thai syllable wherever it is written, and read it long or short.",
     deck: "Vowels and tone marks",
+    sections: [{"deck": "Vowels and tone marks", "n": [0, 3]}, [{"deck": "Vowels and tone marks", "n": [3, 6]}, {"deck": "Vowels and tone marks", "n": [11, 13]}], [{"deck": "Vowels and tone marks", "n": [6, 11]}, {"deck": "Vowels and tone marks", "n": [13, 15]}], null, {"name": "First words: consonant and vowel", "cards": [["ปู", "bpuu", "crab", "ป mid class + ู long uu, below. Long vowel, no mark: mid tone."], ["ปี", "bpii", "year", "ป mid class + ี long ii, above. Mid tone."], ["โต", "dtoo", "big; grown up", "ต mid class + โ long oo, written first. Mid tone."], ["เจอ", "jooe", "to meet; to find", "จ mid class + เ-อ long ooe, around. Mid tone."], ["เอา", "ao", "to take; to want (a thing)", "Silent อ (mid class) + เ-า ao, around. เ-า acts like a long vowel: mid tone."], ["ดำ", "dam", "black", "ด mid class + ำ am. ำ is short but ends in m, so it acts like a long vowel: mid tone."], ["จะ", "jà", "will (before a verb)", "จ mid class + ะ short a, after. Mid class, short vowel: low tone."], ["เตะ", "dtè", "to kick", "ต mid class + เ-ะ short e, around. Low tone."], ["เกาะ", "gàw", "island", "ก mid class + เ-าะ short aw, around. Low tone."], ["สี", "sǐi", "color", "ส high class + ี long ii, above. High class, long vowel, no mark: rising tone."], ["หู", "hǔu", "ear", "ห high class + ู long uu, below. Rising tone."], ["ถือ", "thǔue", "to hold; to carry", "ถ high class + ือ long uue: ื above, อ after. Rising tone."], ["หัว", "hǔua", "head", "ห high class + ัว long uua. Rising tone."], ["เสือ", "sǔuea", "tiger", "ส high class + เ-ือ long uuea, in three pieces. Rising tone."], ["เสีย", "sǐia", "broken; spoiled", "ส high class + เ-ีย long iia, in three pieces. Rising tone."], ["ใส", "sǎi", "clear (water, glass)", "ส high class + ใ ai, written first. ใ acts like a long vowel: rising tone."]]}],
     body: `
 <p>English writes letters in the order you say them. Thai writes the consonant as the core of the syllable and places the vowel around it: after, above, below, before, or on several sides at once.</p>
 <h3>Find the consonant first</h3>
 <p>Always read the consonant first, then the vowel, wherever it sits. The vowel signs above and below need a consonant to sit on; when a syllable starts with a vowel sound, the silent อ carries them.</p>
 <div class="tbl"><table><tr><th>Position</th><th>Example</th></tr><tr><td>after</td><td class="k">ตา</td></tr><tr><td>above</td><td class="k">ดี</td></tr><tr><td>below</td><td class="k">ดู</td></tr><tr><td>before</td><td class="k">แม่</td></tr><tr><td>around</td><td class="k">เรือ</td></tr></table></div>
+<p>Thai names each vowel on the silent อ, so the tiles show it there. The top row is written after the consonant, the next above it (อือ also adds an อ after), the last below it. A short vowel on อ comes out with a low tone; the end of this lesson shows why. อำ, ใอ, ไอ and เอา are the exception: they end in an m, y or w sound and behave like long vowels, so they keep a mid tone. Tap a tile to hear it.</p>
+{{tiles:อะ=à อา=aa อำ=am ออ=aaw _ อิ=ì อี=ii อึ=ùe อือ=uue _ อุ=ù อู=uu}}
 {{ex:ตา|dtaa|eye}}
 {{ex:ดี|dii|good}}
 {{ex:กิน|gin|to eat}}
@@ -297,12 +311,15 @@ module.exports = [
 {{ex:ฉัน|chǎn|I (female speaker)}}
 <h3>Written first, said second</h3>
 <p>Five vowels are written before the consonant: <b>เ แ โ ใ ไ</b>. You still say the consonant first. ใ and ไ sound the same, <i>ai</i>; only about twenty words use ใ.</p>
+<p>A short vowel often adds ะ after the consonant: เอะ, แอะ, โอะ. Tap a tile to hear it.</p>
+{{tiles:เอะ=è เอ=ee แอะ=àe แอ=aae _ โอะ=ò โอ=oo ใอ=ai ไอ=ai}}
 {{ex:แม่|mâae|mother}}
 {{ex:โรงเรียน|roong-riian|school}}
 {{ex:ไป|bpai|to go}}
 {{ex:ใจ|jai|heart; mind}}
 <h3>Vowels around the consonant</h3>
-<p>Some vowels take several parts. In <b>เรือ</b> <i>ruuea</i> the vowel <i>uuea</i> is เ before, ื above and อ after: one vowel in three pieces. Others work the same way.</p>
+<p>Some vowels take several parts. In <b>เรือ</b> <i>ruuea</i> the vowel <i>uuea</i> is เ before, ื above and อ after: one vowel in three pieces. Others work the same way. Here they are on อ.</p>
+{{tiles:เอาะ=àw เออะ=òe เออ=ooe เอา=ao _ เอีย=iia เอือ=uuea อัว=uua}}
 {{ex:เรือ|ruuea|boat}}
 {{ex:เรียน|riian|to study}}
 {{ex:ตัว|dtuua|body}}
@@ -322,6 +339,9 @@ module.exports = [
 {{ex:ดูเด็ก|duu dèk|look at the child}}
 {{ex:เรือใหม่|ruuea mài|a new boat}}
 <p>The describer comes after the noun: เรือใหม่ is "boat new".</p>
+<h3>Putting it together</h3>
+<p>A syllable with no final consonant is a consonant and a vowel. Read the consonant first, then the vowel, wherever it sits, then work out the tone: a mid-class letter with a long vowel gives a mid tone (ปู <i>bpuu</i>), with a short vowel a low tone (จะ <i>jà</i>); a high-class letter with a long vowel gives a rising tone (หู <i>hǔu</i>). The cards below are real words built only from mid- and high-class letters and the vowels in this lesson. Say each one aloud, with its tone, before you flip it.</p>
+{{ex:เสือ|sǔuea|tiger}}
 <div class="tip"><b>Most common mistake:</b> reading เ before the consonant. เด็ก read "ee-d-k" → <i>dèk</i>: d first, then the short e, then the final k.</div>
 `,
     check: [
@@ -406,9 +426,13 @@ module.exports = [
     title: "Final consonants: live and dead syllables",
     blurb: "Read the end of a Thai syllable, tell live syllables from dead ones, and work out the tone of any word without a tone mark.",
     deck: "Consonants: low class",
+    sections: [["Consonants: low class", {"name": "Rare low-class letters", "cards": [["ฆ ระฆัง", "khaaw rá-khang", "letter kh, as in rá-khang (bell)", "Low class, rare. Sounds like ค."], ["ฌ เฌอ", "chaaw chooe", "letter ch, as in chooe (tree, an old word)", "Low class, the rarest letter in use. Sounds like ช."], ["ฑ มณโฑ", "thaaw mon-thoo", "letter th, as in mon-thoo (Montho, a queen in the Ramakien)", "Low class, rare. Usually th like ท; in a few words it is said d."], ["ฒ ผู้เฒ่า", "thaaw phûu-thâo", "letter th, as in phûu-thâo (old man)", "Low class, rare. Sounds like ท."], ["ฬ จุฬา", "laaw jù-laa", "letter l, as in jù-laa (star-shaped kite)", "Low class, rare. Sounds like ล; at the end of a syllable it is n."]]}], null, null, null, {"name": "Words with a final", "cards": [["กิน", "gin", "to eat", "ก mid class + short i + final น n. Live: mid tone."], ["ปิด", "bpìt", "to close; to turn off", "ป mid class + short i + final ด, a held t. Dead: low tone."], ["เปิด", "bpòoet", "to open; to turn on", "ป mid class + เ-ิ ooe + final ด, a held t. Dead: low tone."], ["หาย", "hǎai", "to disappear; to get better", "ห high class + long aa + final ย y. Live: rising tone."], ["ขับ", "khàp", "to drive", "ข high class + ั short a + final บ, a held p. Dead: low tone."], ["ถูก", "thùuk", "cheap; correct", "ถ high class + long uu + final ก, a held k. Dead: low tone."], ["งาน", "ngaan", "work; a party", "ง low class + long aa + final น n. Live: mid tone."], ["นอน", "naawn", "to sleep; to lie down", "น low class + ออ long aaw + final น n. Live: mid tone."], ["เงิน", "ngoen", "money; silver", "ง low class + เ-ิ (the vowel of เธอ, said short in this word) + final น n. Live: mid tone."], ["ยาว", "yaao", "long", "ย low class + long aa + final ว w. Live: mid tone."], ["ชอบ", "châawp", "to like", "ช low class + ออ long aaw + final บ, a held p. Dead, long vowel: falling tone."], ["พูด", "phûut", "to speak", "พ low class + long uu + final ด, a held t. Dead, long: falling tone."], ["มีด", "mîit", "knife", "ม low class + long ii + final ด, a held t. Dead, long: falling tone."], ["เล็ก", "lék", "small", "ล low class + เ-็ short e + final ก, a held k. Dead, short vowel: high tone."], ["วัด", "wát", "temple", "ว low class + ั short a + final ด, a held t. Dead, short: high tone."], ["ทุก", "thúk", "every", "ท low class + short u + final ก, a held k. Dead, short: high tone."]]}],
     body: `
-<p>A Thai syllable can end in a consonant, but many letters share very few sounds at the end. Knowing how a syllable ends also tells you its tone.</p>
+<h3>The low-class letters</h3>
+<p>Lesson 5 gave you the mid-class and high-class letters. The low class is the biggest: 24 letters, 14 of them common. Some sound like a high-class letter (ค like ข, ซ like ส); the others are m, n, ng, y, r, l and w, which only the low class has. ฆ ฌ ฑ ฒ ฬ are rare and turn up in formal words and names. ญ and ณ are less common, but you meet them every day in หญิง (woman) and คุณ (you). ฅ is no longer used. Tap a letter to hear its name.</p>
+{{tiles:ค=khaaw_khwaai ฅ=khaaw_khon ฆ=khaaw_rá-khang ง=ngaaw_nguu ช=chaaw_cháang ซ=saaw_sôo ฌ=chaaw_chooe ญ=yaaw_yǐng ฑ=thaaw_mon-thoo ฒ=thaaw_phûu-thâo ณ=naaw_neen ท=thaaw_thá-hǎan ธ=thaaw_thong น=naaw_nǔu พ=phaaw_phaan ฟ=faaw_fan ภ=phaaw_sǎm-phao ม=maaw_máa ย=yaaw_yák ร=raaw_ruuea ล=laaw_ling ว=waaw_wǎaen ฬ=laaw_jù-laa ฮ=haaw_nók-hûuk}}
 <h3>Only eight final sounds</h3>
+<p>A Thai syllable can end in a consonant, but many letters share very few sounds at the end. Knowing how a syllable ends also tells you its tone.</p>
 <p>English words can end in almost any sound. Thai has only eight final sounds: k, t, p, m, n, ng, w, y. Many letters are read as one of them.</p>
 <div class="tbl"><table><tr><th>Final sound</th><th>Common letters</th></tr><tr><td>k</td><td class="k">ก ข ค</td></tr><tr><td>t</td><td class="k">ด ต ท ถ ส ศ จ ช ซ</td></tr><tr><td>p</td><td class="k">บ ป พ ฟ</td></tr><tr><td>n</td><td class="k">น ร ล ญ ณ</td></tr><tr><td>m, ng, w, y</td><td class="k">ม ง ว ย</td></tr></table></div>
 {{ex:ลูก|lûuk|child (son or daughter)}}
@@ -431,6 +455,9 @@ module.exports = [
 {{ex:รักคุณ|rák khun|I love you.}}
 {{ex:มาจากบ้าน|maa jàak bâan|to come from home}}
 {{ex:ใกล้ตลาด|glâi dtà-làat|near the market}}
+<h3>Putting it together</h3>
+<p>Now you can read a whole syllable with no tone mark: the first consonant and its class, the vowel and its length, the final sound, then the tone from the table. Some vowels change their look before a final: ั above the consonant is a short a (วัด <i>wát</i>), เ-ะ becomes เ-็ (เล็ก <i>lék</i>), and เ-อ becomes เ-ิ (เปิด <i>bpòoet</i>; in เงิน <i>ngoen</i> it is said short). The cards below are real words. Work out each tone, say the word, then flip to check.</p>
+{{ex:ชอบ|châawp|to like}}
 <div class="tip"><b>Most common mistake:</b> reading final ร as r. อาหาร read "aa-haar" → <i>aa-hǎan</i>, ending in n. And don't release a final stop: hold the k of <b>นก</b> <i>nók</i>.</div>
 `,
     check: [

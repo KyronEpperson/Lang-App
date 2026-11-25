@@ -6,8 +6,9 @@ module.exports = [
     title: "How the fidel works",
     blurb: "Read a fidel character as a consonant plus a vowel, and notice what the spelling does not show.",
     deck: "How the fidel works",
+    sections: [{"deck": "How the fidel works", "n": [0, 7]}, {"deck": "How the fidel works", "n": [7, 17]}, null, null, null, null, null],
     body: `
-<p>Amharic is written in the fidel, left to right. This course teaches Addis Ababa Amharic, the standard of the city. A fidel is an abugida: one character is a consonant plus a vowel, not an English letter on its own. There are no capital letters.</p>
+<p>Amharic is written in the fidel, left to right. This course teaches Addis Ababa Amharic, the standard of the city. A fidel is an abugida: one character is a consonant plus a vowel, not an English letter on its own. There are no capital letters. The course goes in this order: the seven orders in this lesson, then the consonant rows over three lessons, then reading whole words.</p>
 <h3>One consonant, seven orders</h3>
 <p>Each consonant has seven orders. The consonant stays and the vowel changes. Here is b. The English words are a rough guide for your ear, not a spelling to write.</p>
 <div class="tbl"><table><tr><th>Order</th><th>Shape</th><th>Listen for</th><th>Written</th></tr>
@@ -19,12 +20,17 @@ module.exports = [
 <tr><td>sixth</td><td class="k">ብ</td><td>a vowel, or none</td><td>i, or nothing</td></tr>
 <tr><td>seventh</td><td class="k">ቦ</td><td>o in go, no final w</td><td>o</td></tr>
 </table></div>
-<p>Keep each vowel short. The o does not slide into a w. A few letters, named later, use the father vowel in the first order too. <b>በ</b> does not.</p>
+<p>Keep each vowel short. The o does not slide into a w. A few letters, named later, use the father vowel in the first order too. <b>በ</b> does not. Tap a shape to hear it.</p>
+{{tiles:በ ቡ ቢ ባ ቤ ብ ቦ}}
 {{ex:በ|be|b with the vowel of but}}
 {{ex:ባ|ba|b with the vowel of father}}
 {{ex:ቤት|bét|house}}
 {{ex:ቡና|bunna|coffee}}
 {{ex:ቡና ቤት|bunna bét|a coffee house}}
+<h3>The same orders on l and m</h3>
+<p>Every row works the same way. Here are l and m. The marks for the vowels change a little from row to row, but the order never does: e, u, i, a, é, i, o in the English letters. Tap a shape to hear it.</p>
+{{tiles:ለ ሉ ሊ ላ ሌ ል ሎ _ _ _ መ ሙ ሚ ማ ሜ=mé ም=mi ሞ=mo}}
+<p>Two characters side by side make a word. <b>ል</b> + <b>ብ</b> is <b>ልብ</b>, heart: <b>ል</b> is said li, <b>ብ</b> has no vowel, and the b is long, libb. The spelling does not show the long b.</p>
 <h3>The sixth order</h3>
 <p>The sixth order may be a short vowel, and that vowel is not the ee of see, or it may be no vowel. Word endings often drop it. The spelling will not tell you which reading a word uses. Listen, and learn the word.</p>
 {{ex:በር|ber|door}}
@@ -71,6 +77,7 @@ module.exports = [
     title: "Fidel rows: ሀ to ቸ",
     blurb: "Read the rows from ሀ through ቸ, and keep the ejective ቀ apart from a plain k.",
     deck: "Fidel rows: ሀ to ቸ",
+    sections: [{"deck": "Fidel rows: ሀ to ቸ", "n": [0, 12]}, {"deck": "Fidel rows: ሀ to ቸ", "n": [12, 17]}, null, {"name": "Words from the first rows", "cards": [["ሰላም", "selam", "hello", "ሰ + ላ + ም. The sixth-order ም ends the word with no vowel."], ["ሴት", "sét", "woman", "ሴ + ት. Fifth-order s, then t with no vowel."], ["በር", "ber", "door", "በ + ር"], ["ራስ", "ras", "head", "ራ + ስ"], ["ብር", "birr", "birr (the money)", "ብ + ር. Here the sixth-order ብ keeps its vowel, and the r is long."], ["ቢራ", "birra", "beer", "ቢ + ራ. The r is long, a trill. The spelling does not show it."], ["ሂሳብ", "hisab", "the bill", "ሂ + ሳ + ብ. ሂ is the third order of ሀ."], ["ምስር", "misir", "lentils", "ም + ስ + ር: mi-si-r."], ["ተማሪ", "temari", "student", "ተ + ማ + ሪ"], ["ሀበሻ", "habesha", "Habesha, what Ethiopians call themselves", "ሀ + በ + ሻ. First-order ሀ has the father vowel."], ["ሶስት", "sost", "three", "ሶ + ስ + ት. Both sixth orders are silent here."], ["ሰባት", "sebat", "seven", "ሰ + ባ + ት"], ["መቶ", "meto", "hundred", "መ + ቶ"], ["ሀሙስ", "hamus", "Thursday", "ሀ + ሙ + ስ"], ["ቤተሰብ", "béteseb", "family", "ቤ + ተ + ሰ + ብ"], ["ትምህርት", "timihirt", "education, schooling", "ት + ም + ህ + ር + ት. Five sixth orders: ti-mi-hi-r-t."]]}],
     body: `
 <p>Each row below is a consonant. The seven orders work the way they did for <b>በ</b>. The shape in the list is the first order. For most of these letters, that order has the vowel of but. Learn the row, then trust the audio for the words.</p>
 <div class="tbl"><table><tr><th>Letter</th><th>Listen for</th></tr>
@@ -88,6 +95,8 @@ module.exports = [
 <tr><td class="k">ተ</td><td>t</td></tr>
 <tr><td class="k">ቸ</td><td>ch, as in church</td></tr>
 </table></div>
+<p>Tap a letter to hear it.</p>
+{{tiles:ሀ ለ ሐ መ ሠ ረ ሰ ሸ ቀ በ ቨ ተ ቸ}}
 <h3>ሀ and ሐ, ሠ and ሰ</h3>
 <p>In Addis Ababa, <b>ሀ</b> and <b>ሐ</b> are one h. <b>ሠ</b> and <b>ሰ</b> are one s. They are not two sounds that you choose by ear. The spelling is part of the word, so you learn which letter a word uses. Do not swap them to taste.</p>
 <p><b>ሀ</b> and <b>ሐ</b> are also the vowel exception. Their first order uses the vowel of father, the same vowel as their fourth order. So <b>ሀ</b> and <b>ሃ</b> are the same vowel. A few words break even that pattern. You learn those as whole words.</p>
@@ -96,6 +105,7 @@ module.exports = [
 {{ex:ሰ|se|s with the vowel of but}}
 <h3>One row, written out</h3>
 <p>The <b>ሰ</b> row runs <b>ሰ ሱ ሲ ሳ ሴ ስ ሶ</b>. Same seven orders as <b>በ</b>. <b>ስ</b>, the sixth, is s with a vowel or with none. You can already read hello: <b>ሰ</b>, then <b>ላ</b> (l with the father vowel), then <b>ም</b> (sixth-order m). The word is spelled with <b>ሰ</b>, not with <b>ሠ</b>.</p>
+{{tiles:ሰ ሱ=su ሲ=si ሳ=sa ሴ=sé ስ=si ሶ=so}}
 {{ex:ሰላም|selam|hello}}
 {{ex:ራስ|ras|head}}
 {{ex:ልብ|libb|heart. The b is long, and the spelling does not show it}}
@@ -105,6 +115,8 @@ module.exports = [
 <p>The man form and the woman form stay in the practice. You can now see the last letter of each ending. <b>ህ</b> is the sixth order of <b>ሀ</b>. <b>ሽ</b> is the sixth order of <b>ሸ</b>. The <b>ነ</b> row comes next. Until then, treat <b>ነህ</b> and <b>ነሽ</b> as whole shapes: man form, woman form.</p>
 {{ex:ደህና ነህ|dehna neh|you are fine (to a man)}}
 {{ex:ደህና ነሽ|dehna nesh|you are fine (to a woman)}}
+<h3>Putting it together</h3>
+<p>You can now read real words with only these rows and <b>በ</b>. Read a word one character at a time. The spelling leaves two things to you: whether a sixth-order character keeps its vowel, and whether a consonant is long. <b>ሶስት</b> is <b>ሶ</b> + <b>ስ</b> + <b>ት</b>, sost, three: both sixth orders are silent. <b>ቢራ</b> is <b>ቢ</b> + <b>ራ</b>, birra, beer: the r is long. Read each card aloud before you flip it.</p>
 <div class="tip"><b>Most common mistake:</b> calling <b>ቀ</b> a plain k. <b>ቀ</b> said as an ordinary k → <b>ቀ</b> as its own ejective. The plain k letter is still ahead of you.</div>
 `,
     check: [
@@ -134,6 +146,7 @@ module.exports = [
     title: "Fidel rows: ኀ to ዠ",
     blurb: "Read the rows from ኀ through ዠ, and treat the four h letters as one sound.",
     deck: "Fidel rows: ኀ to ዠ",
+    sections: [{"deck": "Fidel rows: ኀ to ዠ", "n": [0, 10]}, null, {"deck": "Fidel rows: ኀ to ዠ", "n": [10, 17]}, {"name": "Words with ኀ to ዠ", "cards": [["ውሃ", "wiha", "water", "ው + ሃ. Sixth-order ወ, said wi, then ሃ."], ["ማን", "man", "who", "ማ + ን. Not the English word man."], ["እኔ", "iné", "I, me", "እ + ኔ. እ is the sixth order of አ: the vowel i alone."], ["አንተ", "ante", "you (to a man)", "አ + ን + ተ"], ["አንቺ", "anchi", "you (to a woman)", "አ + ን + ቺ"], ["አባት", "abbat", "father", "አ + ባ + ት. The b is long: abbat."], ["እናት", "innat", "mother", "እ + ና + ት. The n is long: innat."], ["እህት", "ihit", "sister", "እ + ህ + ት"], ["ቀን", "k'en", "day", "ቀ + ን. The ejective, then n."], ["ዛሬ", "zaré", "today", "ዛ + ሬ"], ["ሰኞ", "sennyo", "Monday", "ሰ + ኞ. ኞ is the seventh order of ኘ, and the ny is long."], ["አዎ", "awo", "yes", "አ + ዎ"], ["እሺ", "isshi", "okay", "እ + ሺ. The sh is long: isshi."], ["ሰዓት", "se'at", "hour; watch", "ሰ + ዓ + ት. ዓ is the fourth order of ዐ. Inside a word it is a short catch, the apostrophe."], ["መኪና", "mekina", "car", "መ + ኪ + ና. ኪ is the third order of ከ."], ["ሁለት", "hulet", "two", "ሁ + ለ + ት"], ["ትንሽ", "tinish", "small; a little", "ት + ን + ሽ: ti-ni-sh."]]}],
     body: `
 <p>These ten rows finish the middle of the fidel. The first-order shape is the one in the list. Most of them have the vowel of but. The h letters and the vowel carriers do not.</p>
 <div class="tbl"><table><tr><th>Letter</th><th>Listen for</th></tr>
@@ -148,6 +161,8 @@ module.exports = [
 <tr><td class="k">ዘ</td><td>z</td></tr>
 <tr><td class="k">ዠ</td><td>the sound in the middle of pleasure</td></tr>
 </table></div>
+<p>Tap a letter to hear it.</p>
+{{tiles:ኀ ነ ኘ አ ከ ኸ ወ ዐ ዘ ዠ}}
 <h3>Four letters, one h</h3>
 <p>You now have <b>ሀ</b>, <b>ሐ</b>, <b>ኀ</b> and <b>ኸ</b>. In Addis Ababa they are one h. English speakers often invent four h sounds because they see four letters. There are not four. There is one sound, and four spellings. The word remembers which letter it uses. You do too.</p>
 <p><b>ኀ</b> and <b>ኸ</b>, like <b>ሀ</b> and <b>ሐ</b>, use the father vowel in the first order. <b>አ</b> and <b>ዐ</b> do the same. A few words keep a different vowel on these letters. <b>ኧረ</b> is one of them. Learn that kind of word whole. Do not build a private rule for it.</p>
@@ -159,11 +174,14 @@ module.exports = [
 {{ex:አበበች|abebech|Abebech, a woman's name}}
 {{ex:ሰላም አበበች|selam abebech|hello, Abebech}}
 <h3>Plain k, and n</h3>
-<p><b>ከ</b> is a plain k. <b>ቀ</b>, from the last lesson, is the ejective. They are different consonants. Saying <b>ከ</b> when the word is spelled with <b>ቀ</b> gives a different word. <b>ነ</b> is n. You can now read the first letter of the endings <b>ነህ</b> and <b>ነሽ</b>.</p>
+<p><b>ከ</b> is a plain k. <b>ቀ</b>, from the last lesson, is the ejective. They are different consonants. Saying <b>ከ</b> when the word is spelled with <b>ቀ</b> gives a different word. <b>ነ</b> is n. You can now read the first letter of the endings <b>ነህ</b> and <b>ነሽ</b>. Here is the whole n row.</p>
+{{tiles:ነ ኑ=nu ኒ=ni ና=na ኔ ን=ni ኖ}}
 {{ex:ከ|ke|plain k, not the ejective ቀ}}
 <p><b>ውሃ</b> is water: sixth-order <b>ወ</b>, then <b>ሃ</b>, the father vowel on h. <b>ነው</b> at the end of a sentence is the he form of is. <b>ደህና ነው</b> is he is fine. She has her own ending. The pronoun lesson sets that ending beside this one.</p>
 {{ex:ውሃ|wiha|water}}
 {{ex:ደህና ነው|dehna new|he is fine}}
+<h3>Putting it together</h3>
+<p>With these rows you can read many small everyday words. <b>እ</b>, the sixth order of <b>አ</b>, is the vowel i with no consonant: <b>እኔ</b> is <b>እ</b> + <b>ኔ</b>, iné, I. Long consonants are still not written: <b>አባት</b> is abbat, father, with a long b. Read each card one character at a time before you flip it.</p>
 <div class="tip"><b>Most common mistake:</b> four h sounds for four letters. <b>ሀ</b>, <b>ሐ</b>, <b>ኀ</b> and <b>ኸ</b> as four h sounds → one h in Addis Ababa, with the spelling still kept apart.</div>
 `,
     check: [
@@ -193,6 +211,7 @@ module.exports = [
     title: "Fidel rows: የ to ፐ, and the ejectives",
     blurb: "Read the last rows, and hear ጠ, ጨ, ጰ and ጸ as their own consonants.",
     deck: "Fidel rows: የ to ፐ",
+    sections: [[{"deck": "Fidel rows: የ to ፐ", "n": [0, 11]}, {"deck": "Fidel rows: የ to ፐ", "n": [13, 16]}], [{"deck": "Fidel rows: የ to ፐ", "n": [11, 13]}, {"deck": "Fidel rows: የ to ፐ", "n": [16, 17]}, {"name": "Words with every row", "cards": [["ኢትዮጵያ", "ityop'ya", "Ethiopia", "ኢ + ት + ዮ + ጵ + ያ. ጵ is the ejective p'. Sixth-order ት and ጵ have no vowel."], ["እንጀራ", "injera", "injera, the flatbread", "እ + ን + ጀ + ራ"], ["ዶሮ", "doro", "chicken", "ዶ + ሮ"], ["ጨው", "ch'ew", "salt", "ጨ + ው. The ejective ch', then sixth-order w."], ["ሻይ", "shay", "tea", "ሻ + ይ"], ["ጥብስ", "t'ibs", "tibs, fried meat", "ጥ + ብ + ስ. The ejective t' first."], ["የት", "yet", "where", "የ + ት"], ["ልጅ", "lij", "child", "ል + ጅ"], ["ወንድም", "wendim", "brother", "ወ + ን + ድ + ም"], ["ቀይ", "k'ey", "red", "ቀ + ይ"], ["በጣም", "bet'am", "very", "በ + ጣ + ም. ጣ is the ejective t' with the father vowel."], ["ግራ", "gira", "left", "ግ + ራ"], ["ቀኝ", "k'eny", "right (side)", "ቀ + ኝ. ኝ is the sixth order of ኘ."], ["አንድ", "and", "one", "አ + ን + ድ. Not the English word and."], ["ዘጠኝ", "zet'eny", "nine", "ዘ + ጠ + ኝ"], ["ይቅርታ", "yik'irta", "sorry; excuse me", "ይ + ቅ + ር + ታ"], ["መጽሐፍ", "mets'haf", "book", "መ + ጽ + ሐ + ፍ. ጽ is the ejective ts' with no vowel."]]}]],
     body: `
 <p>These are the last basic rows. The same seven orders apply. Four of the consonants are ejectives. English has no ejectives, so an English ear files them with a plain consonant. The fidel does not.</p>
 <div class="tbl"><table><tr><th>Letter</th><th>Listen for</th></tr>
@@ -208,8 +227,11 @@ module.exports = [
 <tr><td class="k">ፈ</td><td>f</td></tr>
 <tr><td class="k">ፐ</td><td>p</td></tr>
 </table></div>
+<p>Tap a letter to hear it.</p>
+{{tiles:የ ደ ጀ ገ ጠ ጨ ጰ ጸ ፀ ፈ ፐ}}
 <h3>Plain partner, ejective partner</h3>
-<p>You already know the plain partners. <b>ተ</b> is a plain t. <b>ጠ</b> is not that t. <b>ቸ</b> is a plain ch. <b>ጨ</b> is not that ch. <b>ፐ</b> is a plain p. <b>ጰ</b> is not that p. <b>ሰ</b> is a plain s. <b>ጸ</b> is not that s. Each ejective has a catch in the throat. Listen to the pair. Do not flatten the ejective into the plain letter.</p>
+<p>You already know the plain partners. <b>ተ</b> is a plain t. <b>ጠ</b> is not that t. <b>ቸ</b> is a plain ch. <b>ጨ</b> is not that ch. <b>ፐ</b> is a plain p. <b>ጰ</b> is not that p. <b>ሰ</b> is a plain s. <b>ጸ</b> is not that s. Each ejective has a catch in the throat. Listen to the pair. Do not flatten the ejective into the plain letter. Tap each pair: the plain letter on the top line, its ejective partner under it. <b>ቀ</b>, under <b>ከ</b>, is the pair you met first.</p>
+{{tiles:ተ ቸ ፐ ሰ ከ ጠ ጨ ጰ ጸ ቀ}}
 {{ex:ጠ|t'e|an ejective, not the t of ተ}}
 {{ex:ጸ|ts'e|an ejective ts, a popped ts: not the s of ሰ}}
 {{ex:ጨ|ch'e|an ejective, not the ch of ቸ}}
@@ -224,6 +246,7 @@ module.exports = [
 {{ex:ገና|gena|still. With a long n, genna, the same letters are Christmas}}
 <p><b>አቶ</b> before a man's name is a title, like Mr. <b>አቶ ከበደ</b> is Ato Kebede. You do not put <b>አቶ</b> on your own name when you introduce yourself. The man form and the woman form are still <b>ነህ</b> and <b>ነሽ</b>.</p>
 {{ex:አቶ ከበደ|ato kebbede|Ato Kebede, a title plus a man's name}}
+<p>You now know every basic row. The cards below are everyday words: food, family, numbers, directions. Read each one character at a time. Decide for each sixth order whether it keeps its vowel, then flip the card and check the long consonants.</p>
 <div class="tip"><b>Most common mistake:</b> a plain consonant for an ejective. <b>ጠ</b> said as <b>ተ</b> → <b>ጠ</b> as its own ejective. The same trap waits in <b>ጨ</b>, <b>ጰ</b> and <b>ጸ</b>.</div>
 `,
     check: [
@@ -253,6 +276,7 @@ module.exports = [
     title: "Letters that sound the same, and reading words",
     blurb: "Read homophone letters and a -wa form, and hear a long consonant the spelling hides.",
     deck: "Reading words",
+    sections: [[{"deck": "Reading words", "n": [6, 7]}, {"deck": "Reading words", "n": [10, 11]}, {"deck": "Reading words", "n": [16, 17]}], [{"deck": "Reading words", "n": [2, 6]}, {"deck": "Reading words", "n": [9, 10]}], [{"deck": "Reading words", "n": [0, 2]}, {"deck": "Reading words", "n": [7, 9]}], {"deck": "Reading words", "n": [11, 16]}],
     body: `
 <p>You have the rows. Reading is the part the rows cannot do alone: letters that share a sound, a shape with a w built in, and a long consonant that never appears on the page.</p>
 <h3>Same sound, different letter</h3>
@@ -267,12 +291,22 @@ module.exports = [
 {{ex:ሀገር|hager|country, spelled with first-order ሀ}}
 {{ex:ሃገር|hager|country, the other shape, the same sound}}
 <h3>The -wa forms</h3>
-<p>Beside the seven orders, some consonants have a <b>-wa</b> form: a w sound built into the shape. Learn these four first. <b>ቧ</b> is on b. <b>ሏ</b> is on l. <b>ኳ</b> is on plain k, the <b>ከ</b> row, not on the ejective <b>ቀ</b>. <b>ጓ</b> is on g. Other consonants have one too. Learn the shape with the word.</p>
+<p>Beside the seven orders, some consonants have a <b>-wa</b> form: a w sound built into the shape. Learn these four first. <b>ቧ</b> is on b. <b>ሏ</b> is on l. <b>ኳ</b> is on plain k, the <b>ከ</b> row, not on the ejective <b>ቀ</b>. <b>ጓ</b> is on g. Other consonants have one too. Learn the shape with the word. Tap a shape to hear it. <b>ቋ</b> is the -wa form on the ejective <b>ቀ</b>, as in <b>ቋንቋ</b>, language.</p>
+{{tiles:ቧ ሏ ኳ ጓ ቋ=k'wa}}
 {{ex:ኳስ|kwas|ball}}
 {{ex:ጓደኛ|gwadennya|friend}}
 {{ex:አቧራ|abwara|dust}}
 {{ex:ቧ|bwa|the -wa form on b}}
 <p><b>ሏ</b> is the same kind of shape on l. Read it as l with a w. You do not need a separate word for the letter itself.</p>
+<p>Many other rows have a -wa form. You do not need cards for these. Read each one as its consonant plus wa when you meet it. <b>እሷ</b>, she, is isswa.</p>
+<div class="tbl"><table><tr><th>Shape</th><th>Row</th><th>Read</th></tr>
+<tr><td class="k">ሟ</td><td class="k">መ</td><td>mwa</td></tr>
+<tr><td class="k">ሯ</td><td class="k">ረ</td><td>rwa</td></tr>
+<tr><td class="k">ሷ</td><td class="k">ሰ</td><td>swa</td></tr>
+<tr><td class="k">ቷ</td><td class="k">ተ</td><td>twa</td></tr>
+<tr><td class="k">ዷ</td><td class="k">ደ</td><td>dwa</td></tr>
+<tr><td class="k">ጧ</td><td class="k">ጠ</td><td>t'wa</td></tr>
+</table></div>
 <h3>One spelling, two lengths</h3>
 <p>Do not give a spelling one pronunciation and keep it forever. <b>ገና</b> with a short n is still. <b>ገና</b> with a long n is Christmas. <b>አለ</b> with a short l is he said. <b>አለ</b> with a long l is there is. Same letters each time. Context and the audio tell you which one you heard. You cannot mark the long consonant in writing, and you should not try.</p>
 {{ex:ገና|gena|still. With a long n, genna, the same letters are Christmas}}

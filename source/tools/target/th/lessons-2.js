@@ -60,10 +60,13 @@ module.exports = [
     title: "Tone marks and the tone rules",
     blurb: "Read the tone of any word with a tone mark, using the consonant class and the tone chart.",
     deck: "Vowels and tone marks",
+    sections: [null, null, null, null, {"deck": "Vowels and tone marks", "n": [15, 18]}, {"name": "Words with a tone mark", "cards": [["ไก่", "gài", "chicken", "ก mid class + ไ ai + ่. Mid class with ่: low tone."], ["ป้า", "bpâa", "aunt (a parent's older sister)", "ป mid class + long aa + ้. Mid class with ้: falling tone."], ["บ้าน", "bâan", "house; home", "บ mid class + long aa + final น + ้: falling tone."], ["เกี๊ยว", "gíiao", "wonton", "ก mid class + เ-ีย + final ว + ๊. ๊ on a mid-class letter: high tone."], ["ตั๋ว", "dtǔua", "ticket", "ต mid class + ัว uua + ๋. ๋ on a mid-class letter: rising tone."], ["ก๋วยเตี๋ยว", "gǔuai-dtǐiao", "noodle soup", "Two syllables, each a mid-class letter with ๋: both rising."], ["ไข่", "khài", "egg", "ข high class + ไ ai + ่. High class with ่: low tone."], ["เสื้อ", "sûuea", "shirt; top", "ส high class + เ-ือ uuea + ้. High class with ้: falling tone."], ["ผ้า", "phâa", "cloth", "ผ high class + long aa + ้: falling tone."], ["ใช่", "châi", "yes; that's right", "ช low class + ใ ai + ่. Low class with ่: falling tone."], ["ชื่อ", "chûue", "name", "ช low class + ือ uue + ่: falling tone. The mark sits above ื."], ["ที่", "thîi", "at; place", "ท low class + ี long ii + ่: falling tone."], ["ซื้อ", "súue", "to buy", "ซ low class + ือ uue + ้. Low class with ้: high tone."], ["ร้อน", "ráawn", "hot", "ร low class + ออ aaw + final น + ้: high tone."], ["ร้าน", "ráan", "shop; restaurant", "ร low class + long aa + final น + ้: high tone."], ["น้อง", "náawng", "younger brother or sister", "น low class + ออ aaw + final ง + ้: high tone."]]}],
     body: `
 <p>You can already work out the tone of a syllable with no tone mark: its consonant class and whether it is live or dead decide it. Thai adds four tone marks on top. A mark sits above the consonant that starts the syllable, and what it does depends on that consonant's class. This is the one big surprise for English readers: the same mark gives different tones on different letters.</p>
 <h3>The four tone marks</h3>
 <div class="tbl"><table><tr><th>Mark</th><th>Name</th><th>Used on</th></tr><tr><td class="k">่</td><td class="k">ไม้เอก</td><td>all three classes</td></tr><tr><td class="k">้</td><td class="k">ไม้โท</td><td>all three classes</td></tr><tr><td class="k">๊</td><td class="k">ไม้ตรี</td><td>mid-class letters only</td></tr><tr><td class="k">๋</td><td class="k">ไม้จัตวา</td><td>mid-class letters only</td></tr></table></div>
+<p>A mark sits above the first consonant, or above its vowel sign when that is on top too (ชื่อ). Here are no mark and the four marks on mid-class ก with a long aa. Tap each tile to hear the tone.</p>
+{{tiles:กา=gaa ก่า=gàa ก้า=gâa ก๊า=gáa ก๋า=gǎa}}
 <h3>Mid-class letters: four marks, four tones</h3>
 <p>On a mid-class letter each mark gives its own tone: ่ low, ้ falling, ๊ high, ๋ rising. <b>ป่า</b> <i>bpàa</i> (forest) and <b>ป้า</b> <i>bpâa</i> (aunt) differ only in the mark.</p>
 {{ex:ไก่|gài|chicken}}
@@ -72,11 +75,14 @@ module.exports = [
 {{ex:โต๊ะสองตัว|dtó sǎawng dtuua|two tables}}
 {{ex:ก๋วยเตี๋ยว|gǔuai-dtǐiao|noodle soup}}
 <h3>High-class letters: low and falling</h3>
-<p>High-class letters take only the first two marks, with the same tones as on a mid-class letter: ่ low, ้ falling.</p>
+<p>High-class letters take only the first two marks, with the same tones as on a mid-class letter: ่ low, ้ falling. Compare ขา <i>khǎa</i> (leg) with no mark.</p>
+{{tiles:ขา=khǎa ข่า=khàa ข้า=khâa}}
 {{ex:ไข่|khài|egg}}
 {{ex:ผมกินข้าว|phǒm gin khâao|I eat rice. (male speaker)}}
 <h3>Low-class letters: one step higher</h3>
 <p>Here is the trap. On a low-class letter, ่ gives a <b>falling</b> tone and ้ gives a <b>high</b> tone. So <b>ไม่</b> <i>mâi</i> (not) is falling, not low, and <b>ม้า</b> <i>máa</i> (horse) is high.</p>
+<p>The same marks on low-class ค: คา <i>khaa</i>, ค่า <i>khâa</i> (price, fee), ค้า <i>kháa</i> (to trade). ค่า sounds just like ข้า above.</p>
+{{tiles:คา=khaa ค่า=khâa ค้า=kháa}}
 {{ex:ไม่ใช่ม้า|mâi châi máa|It's not a horse.}}
 {{ex:น้อง|náawng|younger brother or sister}}
 <h3>The whole tone chart</h3>
@@ -84,6 +90,7 @@ module.exports = [
 <h3>Reading a new word</h3>
 <p>Find the first consonant and its class, see whether the syllable has a mark, then read the tone from the chart. Try <b>โต๊ะใหม่</b> <i>dtó mài</i> (a new table): ๊ on mid-class ต is high; ่ on ใหม่ gives a low tone, because the silent ห in front makes ม high-class (more on that in the lesson on clusters).</p>
 {{ex:โต๊ะใหม่|dtó mài|a new table}}
+<p>The cards below are everyday words with a tone mark, on letters of all three classes. For each one, find the first consonant and its class, find the mark, and say the tone before you flip the card.</p>
 <div class="tip"><b>Most common mistake:</b> reading ่ as "low tone" everywhere. <b>ไม่</b> read like <b>ใหม่</b> (mài) → <b>ไม่</b> (mâi), falling, because ม is a low-class letter.</div>
 `,
     check: [

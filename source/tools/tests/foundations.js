@@ -15,7 +15,16 @@ const FOUND={'en-ja':{lessons:['hiragana','sounds','katakana'],letters:[...HIRA+
  'en-bn':{lessons:['vowels','consonants','vowel-signs','conjuncts'],letters:[...'অআইঈউঊঋএঐওঔকখগঘঙচছজঝঞটঠডঢণতথদধনপফবভমযরলশষসহৎংঃঁ','ড়','ঢ়','য়'],tilesOnly:[],words:['vowel-signs']},
  'en-pa':{lessons:['vowels','letters-1','letters-2','nasal','tones'],letters:[...'ੳਅੲਸਹਕਖਗਘਙਚਛਜਝਞਟਠਡਢਣਤਥਦਧਨਪਫਬਭਮਯਰਲਵੜ'],tilesOnly:[],words:['letters-1','letters-2'],soundOnly:['tones']},
  'en-te':{lessons:['vowels','vowel-signs','consonants-1','consonants-2','conjuncts'],letters:[...'అఆఇఈఉఊఋఎఏఐఒఓఔకఖగఘఙచఛజఝఞటఠడఢణతథదధనపఫబభమయరలవశషసహళ'],tilesOnly:[],words:['consonants-1','consonants-2']},
- 'en-kn':{lessons:['vowels','vowel-signs','consonants-1','consonants-2','conjuncts'],letters:[...'ಅಆಇಈಉಊಋಎಏಐಒಓಔಕಖಗಘಙಚಛಜಝಞಟಠಡಢಣತಥದಧನಪಫಬಭಮಯರಲವಶಷಸಹಳ'],tilesOnly:[],words:['consonants-1','consonants-2','conjuncts']}};
+ 'en-kn':{lessons:['vowels','vowel-signs','consonants-1','consonants-2','conjuncts'],letters:[...'ಅಆಇಈಉಊಋಎಏಐಒಓಔಕಖಗಘಙಚಛಜಝಞಟಠಡಢಣತಥದಧನಪಫಬಭಮಯರಲವಶಷಸಹಳ'],tilesOnly:[],words:['consonants-1','consonants-2','conjuncts']},
+ /* a Latin alphabet is on tiles only (tilesOnly): the letters are known, the lesson teaches what differs */
+ 'en-es':{lessons:['sounds'],letters:[],tilesOnly:[...'abcdefghijklmnñoprstuvwxyz','qu'],words:['sounds']},
+ 'en-fr':{lessons:['sounds'],letters:[],tilesOnly:[...'ABCDEFGHIJKLMNOPQRSTUVWXYZéèêëàâîïôûùçœ'],words:['sounds']},
+ 'en-de':{lessons:['sounds'],letters:[],tilesOnly:[...'abcdefghijklmnopqrstuvwxyzäöüß'],words:['sounds']},
+ 'en-zh':{lessons:['pinyin','tones','tone-change','characters'],letters:[...'氵亻心忄讠扌艹饣土钅'],tilesOnly:['b','p','m','f','d','t','n','l','g','k','h','j','q','x','zh','ch','sh','r','z','c','s'],words:['pinyin','tones','characters'],soundOnly:['tone-change']},
+ 'en-ru':{lessons:['alphabet','letters','sounds'],letters:[...'абвгдеёжзийклмнопрстуфхцчшщъыьэюя'],tilesOnly:[],words:['alphabet','letters','sounds']},
+ /* anywhere: the script lessons are not the first lessons (lessons are never reordered). frontStarts: a letter card's front is the letter and its name word (ก ไก่) */
+ 'en-th':{lessons:['consonants','vowels','finals','tone-marks','tones','sounds'],letters:[...'กขคฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ'],tilesOnly:['ฃ','ฅ'],words:['vowels','finals','tone-marks'],soundOnly:['tones','sounds'],anywhere:true,frontStarts:true},
+ 'en-am':{lessons:['orders','fidel-1','fidel-2','fidel-3','reading'],letters:[...'ሀለሐመሠረሰሸቀበተቸኀነኘአከኸወዐዘዠየደጀገጠጨጰጸፀፈፐ'],tilesOnly:[],words:['fidel-1','fidel-2','fidel-3']}};
 let fail=0,pass=0;const ok=(c,m)=>{ if(c){ pass++; console.log('PASS '+m); } else { fail++; console.log('FAIL '+m); } };
 async function open(b,cid){ const lang=cid.split('-')[0]; const c=await b.newContext({viewport:{width:390,height:800},reducedMotion:'reduce'}); const p=await c.newPage(); p.errs=[]; p.on('pageerror',e=>p.errs.push(e.message));
   await p.addInitScript(([lang,cid])=>{ const st=JSON.stringify({nick:'K',welcomed:1,onboard:{skipped:1},hintSeen:1,tourDone:1,fx3d:false}); localStorage.setItem('la-s-'+cid,st); if(cid==='en-ko') localStorage.setItem('ko-app2',st); localStorage.setItem('la-meta',JSON.stringify({v:1,native:lang,course:cid,picked:1,seenHome:1,prefs:{}})); },[lang,cid]);
@@ -41,12 +50,12 @@ async function open(b,cid){ const lang=cid.split('-')[0]; const c=await b.newCon
   /* B, C, D */
   for(const cid of Object.keys(FOUND)){ const F=FOUND[cid]; let p=await open(b,cid);
     const r=await p.evaluate(F=>{ const o={order:LESSONS.slice(0,F.lessons.length).map(l=>l.id),cardMiss:[],tileMiss:[],noRead:[],noChart:[],noWords:[],raw:[],wide:[]}; const fronts=new Set(), tiles=new Set();
-      F.lessons.forEach(id=>{ const l=LESSONS.find(x=>x.id===id); if(!l) return; const pl=lsPlan(l); pl.all.forEach(x=>fronts.add(x.c[0])); showLesson(id); const root=document.getElementById('lessonBody');
+      F.lessons.forEach(id=>{ const l=LESSONS.find(x=>x.id===id); if(!l) return; const pl=lsPlan(l); pl.all.forEach(x=>{ fronts.add(x.c[0]); if(F.frontStarts) fronts.add([...x.c[0]][0]); }); showLesson(id); const root=document.getElementById('lessonBody');
         root.querySelectorAll('.tiles-grid .sgl').forEach(t=>{ const g=t.querySelector('.sgf').textContent; tiles.add(g); const rd=t.querySelector('.sgb .rom'); if(!rd||!rd.textContent.trim()) o.noRead.push(g); });
         if(!root.querySelector('.tiles-grid')&&!root.querySelector('table')&&!(F.soundOnly||[]).includes(id)) o.noChart.push(id); if(F.words.includes(id)&&!pl.all.some(x=>!names.includes(x.d))) o.noWords.push(id);
         if(/\{\{/.test(root.innerHTML)) o.raw.push(id); if(document.documentElement.scrollWidth>innerWidth+1) o.wide.push(id); });
       F.letters.forEach(ch=>{ if(!fronts.has(ch)) o.cardMiss.push(ch); if(!tiles.has(ch)) o.tileMiss.push(ch); }); F.tilesOnly.forEach(ch=>{ if(!tiles.has(ch)) o.tileMiss.push(ch); }); o.n=F.letters.length; o.tiles=tiles.size; return o; },F);
-    ok(r.order.join()===F.lessons.join(),cid+': the foundation lessons come first ('+r.order.join(', ')+')');
+    ok(F.anywhere||r.order.join()===F.lessons.join(),cid+': the foundation lessons come first ('+r.order.join(', ')+')');
     ok(!r.cardMiss.length,cid+': each of the '+r.n+' letters is on a card in the foundation '+r.cardMiss.join(''));
     ok(!r.tileMiss.length,cid+': each letter is on a flip tile ('+r.tiles+' tiles) '+r.tileMiss.join(''));
     ok(!r.noRead.length,cid+': every tile has a reading '+r.noRead.join(''));
