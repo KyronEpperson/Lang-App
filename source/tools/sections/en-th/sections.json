@@ -1,0 +1,79 @@
+{
+ "_about": "SEC-1 writer file for en-th.",
+ "sounds": {
+  "4": {"drop": ["รัก", "ครับ"]}
+ },
+ "consonants": {
+  "0": {"add": ["ป ปลา", "ด เด็ก", "จ จาน"]},
+  "1": {"drop": ["จาน"]},
+  "3": {"add": ["ฐ ฐาน", "ศ ศาลา", "ษ ฤๅษี"]}
+ },
+ "vowels": {
+  "1": {"drop": ["เรียน"]},
+  "2": {"add": ["เรียน"]}
+ },
+ "pronouns": {
+  "3": {"drop": ["ของ"]}
+ },
+ "finals": {
+  "1": {"add": ["นก", ["ฝน", "fǒn", "rain", ""], ["ดุ", "dù", "fierce; to scold", ""]]}
+ },
+ "pen": {
+  "3": {"add": [["อร่อย", "à-ràwi", "delicious", ""], ["หิว", "hǐu", "hungry", ""]]}
+ },
+ "classifiers": {
+  "2": {"add": [["เก่า", "gào", "old (things)", ""], ["รถใหม่สองคัน", "rót mài sǎawng khan", "two new cars", ""]]},
+  "4": {"add": ["อันนี้", ["หนังสือเล่มหนึ่ง", "nǎng-sǔue lêm nùeng", "a book", ""], ["แมวตัวนี้", "maaeo dtuua níi", "this cat", ""]]}
+ },
+ "tone-marks": {
+  "0": {"add": [["ไม้เอก", "máai-èek", "the tone mark ่", ""], ["ไม้โท", "máai-thoo", "the tone mark ้", ""], ["ไม้ตรี", "máai-dtrii", "the tone mark ๊", ""], ["ไม้จัตวา", "máai-jàt-dtà-waa", "the tone mark ๋", ""]]},
+  "2": {"add": [["ข้าว", "khâao", "rice", ""], ["ห้า", "hâa", "five", ""], ["สี่", "sìi", "four", ""]]},
+  "4": {"add": ["ตา", "เด็ก", "ขอ", "แม่", "จ๋า"]},
+  "5": {"add": ["ไม่"]}
+ },
+ "mai": {
+  "1": {"add": ["ไหม", "ไปไหมคะ"]},
+  "4": {"add": [["ชอบหรือเปล่า", "châawp rǔue-bplàao", "Do you like it or not?", ""], ["เผ็ดหรือเปล่า", "phèt rǔue-bplàao", "Is it spicy or not?", ""]]}
+ },
+ "question-words": {
+  "2": {"drop": ["ไหน"]},
+  "3": {"add": [["เท่าไหร่", "thâo-rài", "how much", ""], ["ทั้งหมดเท่าไร", "tháng-mòt thâo-rai", "How much altogether?", ""]]},
+  "6": {"add": [["คุณชื่ออะไรครับ", "khun chûue à-rai khráp", "What's your name? (male speaker)", ""], "นี่อะไร", "นั่นใคร"]}
+ },
+ "special": {
+  "0": {"add": [["เบียร์", "biia", "beer", ""], ["ไมค์", "mái", "Mike (a name)", ""]]},
+  "3": {"add": [["เด็กๆ", "dèk-dèk", "the kids", ""], ["ช้าๆ", "cháa-cháa", "slowly", ""], ["กรุงเทพฯ", "grung-thêep", "Bangkok", ""]]}
+ },
+ "family": {
+  "0": {"drop": ["ผม", "ฉัน", "คน"]},
+  "2": {"drop": ["คุณ"]}
+ },
+ "compare": {
+  "0": {"drop": ["เป็น"]}
+ },
+ "time": {
+  "1": {"add": [["นาฬิกา", "naa-lí-gaa", "o'clock (24-hour clock)", ""], ["สิบสี่นาฬิกา", "sìp-sìi naa-lí-gaa", "14:00", ""], ["ยี่สิบนาฬิกา", "yîi-sìp naa-lí-gaa", "20:00", ""]]},
+  "3": {"add": [["ตื่น", "dtùuen", "to wake up; to get up", ""], ["ตอน", "dtaawn", "at; during (before a time)", ""]]}
+ },
+ "time-words": {
+  "2": {"add": ["กำลังไป"], "drop": ["อยู่"]},
+  "5": {"drop": ["ใช่"]}
+ },
+ "can-want": {
+  "1": {"drop": ["เป็น"]},
+  "2": {"add": [["ได้ไหม", "dâai mǎi", "can you…?; can I…?", ""], "เปิดมิเตอร์ได้ไหม"]}
+ },
+ "requests": {
+  "3": {"add": [["อย่า", "yàa", "don't", ""]], "drop": ["ไม่"]},
+  "4": {"add": [["กรุณา", "gà-rú-naa", "please (formal)", ""], ["ช่วยเปิดแอร์หน่อย", "chûuai bpòoet aae nàwi", "Please turn on the air conditioning.", ""]]}
+ },
+ "shopping": {
+  "3": {"drop": ["ไป"]},
+  "4": {"add": [["เงินสด", "ngoen-sòt", "cash", ""]]}
+ },
+ "feelings": {
+  "0": {"drop": ["เป็น"]},
+  "3": {"add": [["แพ้ปลา", "pháae bplaa", "I'm allergic to fish.", ""], ["แพ้ไข่", "pháae khài", "I'm allergic to eggs.", ""]]},
+  "4": {"add": [["ร้านขายยา", "ráan-khǎai-yaa", "pharmacy", ""], ["ยา", "yaa", "medicine", ""], "ร้านขายยาอยู่ที่ไหน"]}
+ }
+}

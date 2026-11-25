@@ -1,0 +1,894 @@
+{
+ "_about": "SEC-1 writer file for en-kn.",
+ "greetings": {
+  "0": {
+   "add": [
+    [
+     "ನಮಸ್ತೆ",
+     "namaste",
+     "hello (respectful)",
+     ""
+    ],
+    "ನಮಸ್ಕಾರ ಸರ್."
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "ಚೆನ್ನಾಗಿದ್ದೀರಿ",
+     "chennāgiddīri",
+     "you are fine",
+     ""
+    ],
+    [
+     "ಚೆನ್ನಾಗಿದ್ದೀನಿ, ನೀನು?",
+     "chennāgiddīni, nīnu?",
+     "I'm fine, and you? (to a friend)",
+     ""
+    ]
+   ]
+  },
+  "5": {
+   "add": [
+    [
+     "ಹೋಗಿ ಬಾ.",
+     "hōgi bā.",
+     "Goodbye (to a friend or a child leaving).",
+     ""
+    ]
+   ]
+  }
+ },
+ "no-is": {
+  "2": {
+   "drop": [
+    "ಇಲ್ಲ."
+   ]
+  }
+ },
+ "questions": {
+  "2": {
+   "drop": [
+    "ಹೇಗಿದ್ದೀರಾ?"
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "ಅವನು ಎಲ್ಲಿಯವನು?",
+     "avanu elliyavanu?",
+     "Where is he from? (familiar)",
+     ""
+    ],
+    [
+     "ಅವರು ಎಲ್ಲಿಯವರು?",
+     "avaru elliyavaru?",
+     "Where is he from? (respectful) Where are they from?",
+     ""
+    ]
+   ],
+   "drop": [
+    "ನೀವು",
+    "ಅವರು"
+   ]
+  }
+ },
+ "ide": {
+  "0": {
+   "drop": [
+    "ನಾನು ಡಾಕ್ಟರ್."
+   ]
+  },
+  "1": {
+   "add": [
+    [
+     "ಕಾಫಿ ಇಲ್ಲ.",
+     "kāfi illa.",
+     "There's no coffee.",
+     ""
+    ],
+    [
+     "ಅಲ್ಲಿ ಹೋಟೆಲ್ ಇಲ್ಲ.",
+     "alli hōṭel illa.",
+     "There's no restaurant over there.",
+     ""
+    ]
+   ],
+   "drop": [
+    "ಅಲ್ಲ"
+   ]
+  },
+  "3": {
+   "drop": [
+    "ಹೇಗಿದ್ದೀರಾ?"
+   ]
+  }
+ },
+ "intro": {
+  "0": {
+   "drop": [
+    "ನಾನು",
+    "ಅವರು"
+   ]
+  }
+ },
+ "family": {
+  "0": {
+   "drop": [
+    "ನಾನು",
+    "ಅವರು",
+    "ನಾವು"
+   ]
+  },
+  "3": {
+   "drop": [
+    "ನನಗೆ ಸ್ವಲ್ಪ ಕನ್ನಡ ಬರುತ್ತೆ."
+   ]
+  }
+ },
+ "numbers": {
+  "5": {
+   "add": [
+    "ನಿಮ್ಮ ಫೋನ್ ನಂಬರ್ ಏನು?",
+    [
+     "ಎರಡು ಸೊನ್ನೆ ಐದು.",
+     "eraḍu sonne aidu.",
+     "Two zero five.",
+     ""
+    ]
+   ]
+  }
+ },
+ "plurals": {
+  "2": {
+   "drop": [
+    "ಇದು"
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "ಎರಡು ಪುಸ್ತಕ",
+     "eraḍu pustaka",
+     "two books",
+     ""
+    ],
+    [
+     "ಮೂರು ನಾಯಿ",
+     "mūru nāyi",
+     "three dogs",
+     ""
+    ],
+    [
+     "ಇಬ್ಬರು ಹುಡುಗರು",
+     "ibbaru huḍugaru",
+     "two boys",
+     ""
+    ],
+    [
+     "ಇಬ್ಬರು ಹುಡುಗಿಯರು",
+     "ibbaru huḍugiyaru",
+     "two girls",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "add": [
+    [
+     "ಹುಡುಗರು ಇಲ್ಲಿ ಇದ್ದಾರೆ.",
+     "huḍugaru illi iddāre.",
+     "The boys are here.",
+     ""
+    ]
+   ],
+   "drop": [
+    "ಅದು"
+   ]
+  }
+ },
+ "dative": {
+  "1": {
+   "drop": [
+    "ನಾನು",
+    "ನೀವು",
+    "ಅವನು",
+    "ಅವಳು",
+    "ಅದು",
+    "ನಾವು",
+    "ಅವರು",
+    "ಅದಕ್ಕೆ",
+    "ನನಗೆ ಸ್ವಲ್ಪ ಕನ್ನಡ ಬರುತ್ತೆ.",
+    "ನನಗೆ ಒಬ್ಬ ತಮ್ಮ ಇದ್ದಾನೆ."
+   ]
+  }
+ },
+ "like-want": {
+  "0": {
+   "drop": [
+    "ನಾನು"
+   ]
+  },
+  "1": {
+   "drop": [
+    "ಇಲ್ಲ."
+   ]
+  }
+ },
+ "imperative": {
+  "0": {
+   "add": [
+    [
+     "ಹೋಗಿ",
+     "hōgi",
+     "go (polite)",
+     ""
+    ],
+    [
+     "ಬನ್ನಿ",
+     "banni",
+     "come (polite)",
+     ""
+    ],
+    [
+     "ಕೊಡಿ",
+     "koḍi",
+     "give (polite)",
+     ""
+    ]
+   ],
+   "drop": [
+    "ನೀವು"
+   ]
+  },
+  "1": {
+   "drop": [
+    "ನೀನು"
+   ]
+  },
+  "2": {
+   "add": [
+    "ಸ್ವಲ್ಪ ಸಹಾಯ ಮಾಡಿ.",
+    "ದಯವಿಟ್ಟು ನಿಧಾನವಾಗಿ ಮಾತಾಡಿ.",
+    [
+     "ಸ್ವಲ್ಪ ಹೇಳಿ.",
+     "svalpa hēḷi.",
+     "Please tell me.",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "add": [
+    [
+     "ಅವಳಿಗೆ ಹೇಳಿ.",
+     "avaḷige hēḷi.",
+     "Tell her.",
+     ""
+    ],
+    [
+     "ಅಮ್ಮನಿಗೆ ಕೊಡಿ.",
+     "ammanige koḍi.",
+     "Give it to Mom.",
+     ""
+    ]
+   ]
+  }
+ },
+ "food": {
+  "0": {
+   "drop": [
+    "ಬೇಕು"
+   ]
+  },
+  "1": {
+   "add": [
+    [
+     "ನನಗೆ ಒಂದು ಕಾಫಿ ಬೇಕು.",
+     "nanage ondu kāfi bēku.",
+     "I'd like a coffee.",
+     ""
+    ],
+    [
+     "ನಿಮಗೆ ಇಡ್ಲಿ ಬೇಕಾ?",
+     "nimage iḍli bēkā?",
+     "Would you like idli?",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "ಉಪ್ಪಿಟ್ಟು",
+     "uppiṭṭu",
+     "upma",
+     ""
+    ],
+    [
+     "ಸಾರು",
+     "sāru",
+     "saaru (thin peppery lentil soup, like rasam)",
+     ""
+    ],
+    [
+     "ಮೊಸರು",
+     "mosaru",
+     "yogurt",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "drop": [
+    "ಇಲ್ಲ."
+   ]
+  },
+  "5": {
+   "add": [
+    [
+     "ಆಯ್ತು.",
+     "āytu.",
+     "Yes, I have. (OK, done.)",
+     ""
+    ]
+   ]
+  }
+ },
+ "locative": {
+  "1": {
+   "add": [
+    [
+     "ಮನೆಯಿಂದ",
+     "maneyinda",
+     "from home; from the house",
+     ""
+    ],
+    [
+     "ಅಮೆರಿಕದಿಂದ",
+     "amerikadinda",
+     "from America",
+     ""
+    ],
+    [
+     "ಆಫೀಸಿನಿಂದ",
+     "āfīsininda",
+     "from the office",
+     ""
+    ]
+   ],
+   "drop": [
+    "ನಾನು ಅಮೆರಿಕದವಳು."
+   ]
+  },
+  "2": {
+   "drop": [
+    "ನನ್ನ"
+   ]
+  }
+ },
+ "present": {
+  "0": {
+   "drop": [
+    "ನಾನು",
+    "ನೀವು",
+    "ಅವನು",
+    "ಅವಳು",
+    "ಅದು",
+    "ನಾವು",
+    "ಅವರು"
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "ಮಾಡಲ್ಲ",
+     "māḍalla",
+     "don't; won't (any person)",
+     ""
+    ],
+    [
+     "ನಾನು ಕಾಫಿ ಕುಡಿಯಲ್ಲ.",
+     "nānu kāfi kuḍiyalla.",
+     "I don't drink coffee.",
+     ""
+    ],
+    [
+     "ಅವನು ಮೈಸೂರಿಗೆ ಹೋಗಲ್ಲ.",
+     "avanu maisūrige hōgalla.",
+     "He won't go to Mysuru.",
+     ""
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "ಮಾಡುತ್ತೇನೆ",
+     "māḍuttēne",
+     "I do; I'll do (written)",
+     ""
+    ],
+    [
+     "ಮಾಡುತ್ತದೆ",
+     "māḍuttade",
+     "it does; it will do (written)",
+     ""
+    ],
+    [
+     "ಮಾಡುವುದಿಲ್ಲ",
+     "māḍuvudilla",
+     "don't; won't (written)",
+     ""
+    ]
+   ]
+  }
+ },
+ "continuous": {
+  "0": {
+   "drop": [
+    "ನಾನು",
+    "ನೀವು",
+    "ಅವನು",
+    "ಅವಳು",
+    "ಅದು",
+    "ನಾವು",
+    "ಅವರು"
+   ]
+  },
+  "1": {
+   "add": [
+    "ನಾನು ಏನೂ ಮಾಡ್ತಾ ಇಲ್ಲ.",
+    [
+     "ಅವಳು ಸಿನಿಮಾ ನೋಡ್ತಾ ಇಲ್ಲ.",
+     "avaḷu sinimā nōḍtā illa.",
+     "She isn't watching a movie.",
+     ""
+    ]
+   ],
+   "drop": [
+    "ಇಲ್ಲ."
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "ನಾನು ಕಾಫಿ ಕುಡೀತಾ ಇದ್ದೀನಿ.",
+     "nānu kāfi kuḍītā iddīni.",
+     "I'm drinking coffee.",
+     ""
+    ],
+    [
+     "ನಾನು ದಿನಾ ಕಾಫಿ ಕುಡೀತೀನಿ.",
+     "nānu dinā kāfi kuḍītīni.",
+     "I drink coffee every day.",
+     ""
+    ],
+    "ಅಪ್ಪ ಟಿವಿ ನೋಡ್ತಾ ಇದ್ದಾರೆ.",
+    "ವೀಕೆಂಡ್ ಏನು ಮಾಡ್ತೀರಿ?"
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "ನೀನು ಏನು ಮಾಡ್ತಾ ಇದ್ದೀಯ?",
+     "nīnu ēnu māḍtā iddīya?",
+     "What are you doing? (to a friend)",
+     ""
+    ],
+    [
+     "ನೀನು ಬರ್ತಾ ಇದ್ದೀಯಾ?",
+     "nīnu bartā iddīyā?",
+     "Are you coming? (to a friend)",
+     ""
+    ],
+    [
+     "ನೀನು ಪುಸ್ತಕ ಓದ್ತಾ ಇದ್ದೀಯ.",
+     "nīnu pustaka ōdtā iddīya.",
+     "You're reading a book. (to a friend)",
+     ""
+    ]
+   ],
+   "drop": [
+    "ನೀನು"
+   ]
+  },
+  "4": {
+   "add": [
+    [
+     "ಮಾಡ್ತಿದ್ದೀನಿ",
+     "māḍtiddīni",
+     "I'm doing (fast speech)",
+     ""
+    ],
+    [
+     "ಮಾಡುತ್ತಿದ್ದೇನೆ",
+     "māḍuttiddēne",
+     "I'm doing (written)",
+     ""
+    ],
+    [
+     "ಮಾಡ್ತಿಲ್ಲ",
+     "māḍtilla",
+     "not doing (fast speech)",
+     ""
+    ]
+   ]
+  }
+ },
+ "time": {
+  "0": {
+   "drop": [
+    "ಏಳು",
+    "ಎರಡು",
+    "ಹತ್ತು"
+   ]
+  },
+  "4": {
+   "add": [
+    "ರಾತ್ರಿ ಹತ್ತು ಗಂಟೆಗೆ ಮಲಗ್ತೀನಿ.",
+    "ನಾನು ಬೆಳಿಗ್ಗೆ ಆರು ಗಂಟೆಗೆ ಏಳ್ತೀನಿ.",
+    "ಅವಳು ಒಂಬತ್ತು ಗಂಟೆಗೆ ಬರ್ತಾಳೆ."
+   ]
+  }
+ },
+ "must-can": {
+  "0": {
+   "add": [
+    "ನಾನು ಡಾಕ್ಟರ್ ಹತ್ತಿರ ಹೋಗಬೇಕು.",
+    "ನೀವು ರೆಸ್ಟ್ ಮಾಡಬೇಕು.",
+    [
+     "ಅವಳು ನಾಳೆ ಬರಬೇಕು.",
+     "avaḷu nāḷe barabēku.",
+     "She has to come tomorrow.",
+     ""
+    ],
+    [
+     "ನಾನು ಬರಬೇಕಾ?",
+     "nānu barabēkā?",
+     "Do I have to come?",
+     ""
+    ]
+   ],
+   "drop": [
+    "ನಾನು",
+    "ನೀವು",
+    "ಅವಳು",
+    "ಬೇಕು",
+    "ಹೋಗು",
+    "ಮಾಡು",
+    "ಕುಡಿ"
+   ]
+  },
+  "1": {
+   "add": [
+    [
+     "ಮಾಡಬಾರದು",
+     "māḍabāradu",
+     "must not (do)",
+     ""
+    ],
+    [
+     "ಹೋಗಬಾರದು",
+     "hōgabāradu",
+     "one must not go",
+     ""
+    ],
+    [
+     "ಹೋಗಬೇಡಿ.",
+     "hōgabēḍi.",
+     "Please don't go.",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "ಮಾಡಬಹುದು",
+     "māḍabahudu",
+     "may (do): permission or a guess",
+     ""
+    ],
+    "ಇಲ್ಲಿ ಫೋಟೋ ತೆಗೆಯಬಹುದಾ?"
+   ]
+  },
+  "3": {
+   "drop": [
+    "ನನಗೆ ಗೊತ್ತು."
+   ]
+  },
+  "4": {
+   "add": [
+    [
+     "ಹೋಗ್ಬೇಕು",
+     "hōgbēku",
+     "have to go (fast speech)",
+     ""
+    ],
+    [
+     "ಮಾಡ್ಬಾರ್ದು",
+     "māḍbārdu",
+     "must not (fast speech)",
+     ""
+    ],
+    [
+     "ಬರಲು ಆಗುವುದಿಲ್ಲ",
+     "baralu āguvudilla",
+     "can't come (written)",
+     ""
+    ]
+   ]
+  }
+ },
+ "directions": {
+  "1": {
+   "add": [
+    "ಅಂಗಡಿ ಬ್ಯಾಂಕಿನ ಹಿಂದೆ ಇದೆ.",
+    [
+     "ಮುಂದೆ",
+     "munde",
+     "in front (of)",
+     ""
+    ],
+    [
+     "ಹಿಂದೆ",
+     "hinde",
+     "behind",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "drop": [
+    "ಇಲ್ಲಿ"
+   ]
+  },
+  "4": {
+   "add": [
+    "ಮೆಟ್ರೋ ಸ್ಟೇಷನ್ ಹತ್ತಿರ ಇದೆಯಾ?",
+    [
+     "ಮೆಟ್ರೋ ಸ್ಟೇಷನ್ ದೂರ ಇದೆಯಾ?",
+     "meṭrō sṭēshan dūra ideyā?",
+     "Is the metro station far?",
+     ""
+    ]
+   ]
+  },
+  "5": {
+   "add": [
+    "ಈ ಬಸ್ ಮಲ್ಲೇಶ್ವರಕ್ಕೆ ಹೋಗುತ್ತಾ?",
+    [
+     "ಈ ಬಸ್ ಜಯನಗರಕ್ಕೆ ಹೋಗುತ್ತಾ?",
+     "ī bas jayanagarakke hōguttā?",
+     "Does this bus go to Jayanagar?",
+     ""
+    ]
+   ]
+  }
+ },
+ "past": {
+  "0": {
+   "drop": [
+    "ಮಾಡು",
+    "ನೋಡು",
+    "ಕುಡಿ"
+   ]
+  },
+  "1": {
+   "drop": [
+    "ನಾನು",
+    "ನೀವು",
+    "ಅವನು",
+    "ಅವಳು",
+    "ಅದು",
+    "ನಾವು",
+    "ಅವರು"
+   ]
+  },
+  "2": {
+   "add": [
+    "ಹೋದ ವಾರ ಮಳೆ ಬಂತು.",
+    "ಅವರು ನಿನ್ನೆ ಫೋನ್ ಮಾಡಿದ್ರು.",
+    [
+     "ಹೋದ ವಾರ",
+     "hōda vāra",
+     "last week",
+     ""
+    ]
+   ],
+   "drop": [
+    "ನಾಳೆ"
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "ಬಂದನು",
+     "bandanu",
+     "he came (written)",
+     ""
+    ],
+    [
+     "ಬಂದಳು",
+     "bandaḷu",
+     "she came (written)",
+     ""
+    ],
+    [
+     "ಬಂದರು",
+     "bandaru",
+     "he or she came (respectful); they came (written)",
+     ""
+    ]
+   ]
+  }
+ },
+ "past-neg": {
+  "0": {
+   "drop": [
+    "ಹೋಗು",
+    "ಬರು",
+    "ಮಾಡು",
+    "ತಿನ್ನು",
+    "ಕುಡಿ"
+   ]
+  },
+  "1": {
+   "add": [
+    "ನಾನು ಹೋಗಲ್ಲ.",
+    [
+     "ತಿನ್ನಲ್ಲ",
+     "tinnalla",
+     "I don't eat it (habit); I won't eat it",
+     ""
+    ],
+    [
+     "ತಿನ್ನಲಿಲ್ಲ",
+     "tinnalilla",
+     "I didn't eat it",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "ನನಗೆ ಇಷ್ಟ ಆಗಲಿಲ್ಲ.",
+     "nanage ishṭa āgalilla.",
+     "I didn't like it.",
+     ""
+    ],
+    [
+     "ಅವನಿಗೆ ಸಿನಿಮಾ ಇಷ್ಟ ಆಗಲಿಲ್ಲ.",
+     "avanige sinimā ishṭa āgalilla.",
+     "He didn't like the movie.",
+     ""
+    ]
+   ]
+  }
+ },
+ "and-then": {
+  "0": {
+   "drop": [
+    "ಮಾಡು",
+    "ನೋಡು",
+    "ಹೋಗು",
+    "ಕುಡಿ"
+   ]
+  },
+  "1": {
+   "add": [
+    "ಕೈ ತೊಳೆದು ಊಟ ಮಾಡಿ."
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "ಕಾಫಿ ಮತ್ತು ಟೀ",
+     "kāfi mattu ṭī",
+     "coffee and tea",
+     ""
+    ],
+    [
+     "ಅಮ್ಮ ಮತ್ತು ಅಪ್ಪ",
+     "amma mattu appa",
+     "Mom and Dad",
+     ""
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "ಕಾಫಿ ಕುಡಿದು ಹೋದೆ.",
+     "kāfi kuḍidu hōde.",
+     "I drank coffee and went.",
+     ""
+    ],
+    [
+     "ಹೋಗಿ ಕಾಫಿ ಕುಡಿದೆ.",
+     "hōgi kāfi kuḍide.",
+     "I went and drank coffee.",
+     ""
+    ],
+    [
+     "ಕೈ ತೊಳೆದು ಊಟ ಮಾಡಿ ಹೋದೆ.",
+     "kai toḷedu ūṭa māḍi hōde.",
+     "I washed my hands, ate and left.",
+     ""
+    ],
+    "ನಾನು ತಿಂಡಿ ತಿಂದು ಬರ್ತೀನಿ."
+   ]
+  }
+ },
+ "compare": {
+  "0": {
+   "add": [
+    [
+     "ಅದಕ್ಕಿಂತ",
+     "adakkinta",
+     "than that",
+     ""
+    ],
+    [
+     "ಇದಕ್ಕಿಂತ",
+     "idakkinta",
+     "than this",
+     ""
+    ],
+    [
+     "ನನಗಿಂತ",
+     "nanaginta",
+     "than me",
+     ""
+    ]
+   ],
+   "drop": [
+    "ಇದು",
+    "ಅದು",
+    "ಅದಕ್ಕೆ",
+    "ನನಗೆ"
+   ]
+  },
+  "1": {
+   "drop": [
+    "ಅವರು"
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "ಎಲ್ಲಕ್ಕಿಂತ",
+     "ellakkinta",
+     "than everything; the most",
+     ""
+    ],
+    [
+     "ಇದು ಎಲ್ಲಕ್ಕಿಂತ ದೊಡ್ಡದು.",
+     "idu ellakkinta doḍḍadu.",
+     "This is the biggest.",
+     ""
+    ],
+    [
+     "ಇದು ಎಲ್ಲಕ್ಕಿಂತ ಕಡಿಮೆ ಬೆಲೆ.",
+     "idu ellakkinta kaḍime bele.",
+     "This is the cheapest.",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "add": [
+    [
+     "ಅವಳು ನನಗಿಂತ ಚಿಕ್ಕವಳು.",
+     "avaḷu nanaginta chikkavaḷu.",
+     "She is younger than me.",
+     ""
+    ],
+    "ಇದಕ್ಕಿಂತ ಚಿಕ್ಕದು ಕೊಡಿ.",
+    "ಸ್ವಲ್ಪ ಕಡಿಮೆ ಮಾಡಿ."
+   ]
+  }
+ }
+}

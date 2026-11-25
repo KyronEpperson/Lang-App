@@ -31,7 +31,12 @@ async function open(b,cid,state){ const lang=cid.split('-')[0]; const c=await b.
         if(!AL) withC.forEach(x=>{ const ix=x.cards.map(y=>(DECKS[y.d]||[]).indexOf(y.c)); /* in deck order within each deck (a section may hold more than one) */ if(ix.some((v,i)=>v<0||(i&&x.cards[i].d===x.cards[i-1].d&&v<ix[i-1]))) o.bad.push(l.id+': deck order'); });
         const txt=pl.parts.map(x=>lsNorm(x.html)); if(!hang&&!AL) pl.parts.forEach((x,i)=>x.cards.forEach(y=>{ if(lsScore(y.c[0],txt[i])>=0.6) o.matched++; }));
         showLesson(l.id); const root=document.getElementById('lessonBody'); if(root.querySelectorAll('.lsdeck').length!==withC.length) o.bad.push(l.id+': deck blocks on the page'); if(!document.getElementById('miniStart')||!document.getElementById('checkBody')||!document.getElementById('lsNext')) o.bad.push(l.id+': page parts missing'); if(/\{\{(ex|strokes|tiles):/.test(root.innerHTML)) o.bad.push(l.id+': raw token'); if(document.documentElement.scrollWidth>innerWidth+1) o.bad.push(l.id+': wider than the screen');
-        o.decks+=withC.length; o.cards+=pl.all.length; if(withC.length===1) o.one++; });
+        o.decks+=withC.length; o.cards+=pl.all.length; if(withC.length===1) o.one++; if(pl.pre){ o.secs=(o.secs||0)+pl.pre.length; o.short=(o.short||0)+pl.pre.filter(c=>c<3).length; } });
+      /* SEC-ALL (owner, 2026-11-25): every course, also one added later, has section-matched lesson cards. A course that is not switched on, has no writer table, or leaves too many sections short fails the release. */
+      { const al=typeof LS_ALIGN!=='undefined'&&!!LS_ALIGN[COURSE.id], X=(COURSE.builtin?LS_SECS_KO:COURSE.SECS)||{};
+        if(!al) o.bad.push('course is not section-matched: python3 tools/patches/lesson_align_on.py '+COURSE.id+', then a writer table (docs/briefs/sec-writer.md) and node tools/sections/apply.js');
+        else if(!Object.keys(X).length) o.bad.push('section-matched but without a writer table: tools/sections/'+COURSE.id+'/sections.json (docs/briefs/sec-writer.md), then node tools/sections/apply.js');
+        else if(o.secs&&o.short/o.secs>0.3) o.bad.push(o.short+' of '+o.secs+' sections have fewer than 3 cards (limit 30%): the writer table is too thin'); }
       return o; });
     if(r.aligned) console.log('A: '+cid+' is aligned (SEC-1): '+r.decks+' section decks, '+r.cards+' cards, '+r.matched+' taught in or before their section');
     ok(!r.bad.length&&!p.errs.length,cid+' '+r.bad.slice(0,6).join(' ; ')+' '+p.errs.slice(0,2).join(' | ')); T.courses++; T.lessons+=r.n; T.decks+=r.decks; T.cards+=r.cards; T.matched+=r.matched; T.one+=r.one; await p.ctx.close(); }

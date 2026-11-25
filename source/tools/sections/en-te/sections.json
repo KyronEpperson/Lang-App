@@ -1,0 +1,92 @@
+{
+ "_about": "SEC-1 writer file for en-te.",
+ "greetings": {
+  "2": {"add": [["బాగున్నాను, మీరు ఎలా ఉన్నారు?", "bāgunnānu, mīru elā unnāru?", "I'm fine, how are you?", ""]]},
+  "5": {"add": ["లక్ష్మి గారు, నమస్కారం.", ["డాక్టర్ గారు", "ḍākṭar gāru", "Doctor (respectful)", ""]]}
+ },
+ "no-is": {
+  "4": {"add": ["మనం", "మేము"]}
+ },
+ "questions": {
+  "1": {"add": [["అవును, ఇది పుస్తకం.", "avunu, idi pustakam.", "Yes, this is a book.", ""], ["బాగున్నాను.", "bāgunnānu.", "I'm fine.", ""]]},
+  "2": {"drop": ["ఏంటి"]},
+  "4": {"add": ["మీరు ఎక్కడ ఉన్నారు?", ["మీరు ఎలా ఉన్నారు?", "mīru elā unnāru?", "How are you?", ""], ["ఇది పుస్తకమా?", "idi pustakamā?", "Is this a book?", ""]]}
+ },
+ "requests": {
+  "1": {"drop": ["నేను"]},
+  "3": {"add": ["ఒక కాఫీ ఇవ్వండి.", ["సరే.", "sarē.", "OK.", ""]]}
+ },
+ "numbers": {
+  "5": {"drop": ["మేము"]}
+ },
+ "intro": {
+  "0": {"drop": ["మీరు", "ఏంటి"]},
+  "1": {"add": ["నేను విద్యార్థిని.", "మేము అమెరికన్లం."], "drop": ["మేము", "నేను"]},
+  "3": {"add": [["వయసు", "vayasu", "age", ""], ["నా వయసు ముప్పై.", "nā vayasu muppai.", "I'm thirty.", ""]]},
+  "4": {"add": ["మీకు తెలుగు వచ్చా?"], "drop": ["కు"]}
+ },
+ "family": {
+  "2": {"drop": ["ఆరు", "మీరు", "ఆడు"]}
+ },
+ "plurals": {
+  "1": {"add": ["పుస్తకాలు", ["రెండు పుస్తకాలు", "reṇḍu pustakālu", "two books", ""]]},
+  "4": {"drop": ["ఆరు", "మీరు", "ఆడు"]}
+ },
+ "case": {
+  "0": {"drop": ["కి", "కు"]},
+  "2": {"drop": ["నేను", "మీరు", "అతను", "ఆమె", "అమ్మ", "ఆఫీసు"]}
+ },
+ "have": {
+  "0": {"drop": ["నేను డాక్టర్ని.", "నేను", "మీరు", "అతను", "ఆమె", "అది", "మేము"]},
+  "3": {"add": [["నాకు ఇద్దరు పిల్లలు ఉన్నారు.", "nāku iddaru pillalu unnāru.", "I have two children.", ""]]}
+ },
+ "like": {
+  "0": {"drop": ["కు", "అంటే"]}
+ },
+ "future": {
+  "0": {"drop": ["నేను", "నువ్వు", "అతను", "ఆమె", "అది"]},
+  "2": {"add": ["నేను రేపు ఆఫీసుకి వెళ్ళను."], "drop": ["లేదు"]}
+ },
+ "continuous": {
+  "0": {"drop": ["ఆమె", "అది", "నేను", "నువ్వు", "అతను"]},
+  "1": {"add": ["మీరు ఏం చేస్తున్నారు?"]},
+  "2": {"add": ["నేను ఏమీ చేయడం లేదు."], "drop": ["వాళ్ళు"]},
+  "3": {"add": [["నాకు తెలుసు.", "nāku telusu.", "I know.", ""], "నాకు సినిమాలు ఇష్టం.", ["నాకు కాఫీ కావాలి.", "nāku kāfī kāvāli.", "I want coffee.", ""]]}
+ },
+ "past": {
+  "0": {"drop": ["నేను", "నువ్వు", "మీరు", "అతను", "వాళ్ళు"]},
+  "1": {"add": [["వచ్చాను", "vacchānu", "I came", ""], ["చేశాను", "chēshānu", "I did; I made", ""], ["కొన్నాను", "konnānu", "I bought", ""]]},
+  "3": {"add": ["నిన్న"]},
+  "4": {"add": ["నేను రేపు ఆఫీసుకి వెళ్ళను.", ["నేను వెళ్ళాను.", "nēnu veḷḷānu.", "I went.", ""]]}
+ },
+ "past-neg": {
+  "0": {"add": [["వెళ్ళలేదు", "veḷḷalēdu", "didn't go", ""], ["రాలేదు", "rālēdu", "didn't come", ""], ["తినలేదు", "tinalēdu", "didn't eat", ""], ["చేయలేదు", "chēyalēdu", "didn't do", ""]]},
+  "3": {"add": [["నేను వెళ్ళాను.", "nēnu veḷḷānu.", "I went.", ""], ["నేను వెళ్ళను.", "nēnu veḷḷanu.", "I won't go.", ""], "నేను వెళ్ళలేదు."]}
+ },
+ "and-then": {
+  "2": {"add": ["నేను టిఫిన్ చేసి వచ్చాను.", ["మార్కెట్కి వెళ్ళి కూరగాయలు కొన్నాను.", "mārkeṭki veḷḷi kūragāyalu konnānu.", "I went to the market and bought vegetables.", ""]]},
+  "3": {"add": [["నేను తిని వెళ్ళాను.", "nēnu tini veḷḷānu.", "I ate and went.", ""]]}
+ },
+ "must-can": {
+  "0": {"drop": ["నేను"]},
+  "1": {"add": [["తాగకూడదు", "tāgakūḍadu", "must not drink", ""]]},
+  "2": {"add": [["చేయగలను", "chēyagalanu", "I can do", ""], ["చేయలేను", "chēyalēnu", "I can't do", ""]], "drop": ["మీరు", "అతను"]},
+  "3": {"add": [["రావొచ్చా?", "rāvocchā?", "May I come?", ""]]}
+ },
+ "time": {
+  "0": {"add": [["ఇప్పుడు పది గంటలు.", "ippuḍu padi gaṇṭalu.", "It's ten o'clock now.", ""]]},
+  "1": {"add": [["పదిన్నర", "padinnara", "half past ten", ""], ["ఎనిమిదిన్నర", "enimidinnara", "half past eight", ""]]}
+ },
+ "shopping": {
+  "1": {"add": [["అన్నా", "annā", "brother (to call a male seller)", ""], ["అక్కా", "akkā", "sister (to call a woman about your age)", ""], ["అమ్మా", "ammā", "ma'am (to call an older woman)", ""]]},
+  "4": {"add": ["అది ఇవ్వండి.", ["చూపించండి", "chūpinchaṇḍi", "show (polite)", ""], ["తగ్గించండి", "tagginchaṇḍi", "lower it; reduce (polite)", ""]]}
+ },
+ "directions": {
+  "0": {"add": ["స్టేషన్ ఎక్కడ ఉంది?", ["ఆసుపత్రి ఎక్కడ ఉంది?", "āsupatri ekkaḍa undi?", "Where is the hospital?", ""]]},
+  "2": {"add": [["దగ్గరలో", "daggaralō", "nearby; in the vicinity", ""], ["దగ్గరలో బ్యాంకు ఉందా?", "daggaralō byānku undā?", "Is there a bank nearby?", ""]]}
+ },
+ "compare": {
+  "0": {"add": [["దాని కంటే ఇది చౌక.", "dāni kaṇṭē idi chauka.", "This is cheaper than that.", ""]]},
+  "1": {"add": [["దాని కంటే", "dāni kaṇṭē", "than that", ""], ["నా కంటే", "nā kaṇṭē", "than me", ""], ["ఇంటి కంటే", "iṇṭi kaṇṭē", "than the house", ""]], "drop": ["ఇది", "అది", "నేను", "మీరు", "ఇల్లు"]}
+ }
+}

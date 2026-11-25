@@ -1683,3 +1683,11 @@ Kii: "lets also make the first screen a nickname choice then the second screen b
 
 ### FND-1 — fix (2.123.0): section tables back in en-es, en-fr, en-de
 My mistake in 2.121.0: the three packs were regenerated and `tools/sections/apply.js` was not run, so their `SECS` block (2.117.0) was gone. Found the same evening while reading the tools for the English courses. Restored; `ship.sh` now runs `apply.js --check` before the lesson tests.
+
+## SEC-1 — batch 5 and SEC-ALL (2.124.0)
+
+- The last 15 courses are in `LS_ALIGN` (en-zh, en-ja, en-ru, en-ar, en-hi, en-yue, en-th, en-bn, en-ur, en-pa, en-te, en-kn, en-am, en-nan, vi-zh). All 71 courses now have section-matched decks. Writer tables: 1,125 new lesson-only cards, 258 named cards, 432 drops.
+- Engine (`lsAlign`): a string add reserves its card for that section, so automatic placement no longer drops it into an earlier section; a string add that names an example line with no card makes the hidden card in that section.
+- SEC-ALL in `tools/tests/lesson_sections.js`: every course pack that is not held must be in `LS_ALIGN`, have a writer table, and keep short sections (under 3 cards) to 30% or less. A future course without section matching fails `ship.sh` (owner, 2026-11-25).
+- Hand-set foundation lessons (`l.sections`) are skipped by the engine; table entries for them are unused.
+- Not done: native-speaker reading of the writer cards; course-text oddities the writers listed.

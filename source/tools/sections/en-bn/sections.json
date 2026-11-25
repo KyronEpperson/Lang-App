@@ -1,0 +1,86 @@
+{
+ "_about": "SEC-1 writer file for en-bn.",
+ "greetings": {
+  "3": {"add": ["শুভ সকাল।", ["শুভ সন্ধ্যা।", "shubho shondha.", "Good evening. (formal)", ""]]}
+ },
+ "pronouns": {
+  "3": {"add": [["কেমন আছেন?", "kæmon achhen?", "How are you? (polite)", ""], ["আপনি কেমন আছেন?", "apni kæmon achhen?", "How are you? (polite)", ""]]}
+ },
+ "possessive": {
+  "0": {"drop": ["আমি", "তুমি", "আপনি", "সে", "তিনি", "আমরা", "তোমরা", "আপনারা", "তারা"]},
+  "1": {"add": [["তার বাবা", "tar baba", "his father; her father", ""], ["তাঁর বাবা", "tãr baba", "his father; her father (respectful)", ""]]},
+  "3": {"add": [["আমার মা", "amar ma", "my mother", ""], ["তার বন্ধু", "tar bondhu", "his friend; her friend", ""], ["আমার বাড়ি", "amar baṛi", "my house", ""]]}
+ },
+ "intro": {
+  "0": {"add": ["আমি ডাক্তার।"]},
+  "2": {"add": ["আমি শিক্ষক।", ["বাংলাদেশ", "bangladesh", "Bangladesh", ""], ["বাংলাদেশি", "bangladeshi", "Bangladeshi (a person from Bangladesh)", ""]]},
+  "3": {"add": [["আমি ভালো আছি।", "ami bhalo achhi.", "I'm fine.", ""], ["সে ডাক্তার।", "she ḍaktar.", "He is a doctor. She is a doctor.", ""]]}
+ },
+ "questions": {
+  "0": {"drop": ["কী", "কে"]},
+  "1": {"drop": ["কি"]},
+  "2": {"drop": ["নয়"]},
+  "3": {"add": [["নই", "noi", "am not (with আমি, no verb)", ""]]}
+ },
+ "eta-ota": {
+  "3": {"add": [["বইটি", "boiṭi", "the book (formal)", ""], ["কলমটি", "kôlomṭi", "the pen (formal)", ""], ["কলমটা কোথায়?", "kôlomṭa kothay?", "Where is the pen?", ""]]}
+ },
+ "ache": {
+  "1": {"add": ["আমার টাকা নেই।", "আমার সময় নেই।"]},
+  "2": {"add": [["এখানে পানি নেই।", "ekhane pani nei.", "There is no water here.", ""], ["চা আছে?", "cha achhe?", "Is there any tea?", ""]]}
+ },
+ "present": {
+  "2": {"add": [["তারা কাজ করে।", "tara kaj kôre.", "They work.", ""], ["তিনি কাজ করেন।", "tini kaj kôren.", "He works. She works. (respectful)", ""]]},
+  "3": {"add": [["কাজ করি।", "kaj kori.", "I work.", ""], ["কাজ করেন।", "kaj kôren.", "You work. (polite)", ""], ["আপনি কাজ করেন।", "apni kaj kôren.", "You work. (polite)", ""]]}
+ },
+ "where": {
+  "1": {"add": [["শহরে", "shôhore", "in the city", ""], ["গ্রামে", "grame", "in a village", ""], ["বাড়িতে", "baṛite", "at home", ""]]}
+ },
+ "family": {
+  "3": {"add": [["দুইজন বন্ধু", "duijon bondhu", "two friends", ""], ["আমার দুই ভাই আছে।", "amar dui bhai achhe.", "I have two brothers.", ""], ["আমার মা ঢাকায় থাকেন।", "amar ma ḍhakay thaken.", "My mother lives in Dhaka.", ""]]}
+ },
+ "food": {
+  "2": {"drop": ["দিন"]}
+ },
+ "future": {
+  "1": {"add": [["আমি যাব।", "ami jabo.", "I'll go.", ""], ["তুমি যাবে।", "tumi jabe.", "You'll go. (familiar)", ""], ["আপনি খাবেন।", "apni khaben.", "You'll eat. (polite)", ""], ["সে আসবে।", "she ashbe.", "He'll come. She'll come.", ""]]},
+  "3": {"add": [["আপনি কাল আসবেন?", "apni kal ashben?", "Will you come tomorrow? (polite)", ""]]}
+ },
+ "time": {
+  "2": {"add": ["দশটায় দেখা হবে।", ["আমি তিনটায় আসব।", "ami tinṭay ashbo.", "I'll come at three.", ""]]},
+  "3": {"add": [["সকাল", "shôkal", "morning", ""], ["সন্ধ্যা", "shondha", "evening", ""], ["রাত", "rat", "night", ""]]},
+  "4": {"add": [["সোমবার", "shombar", "Monday", ""], ["শুক্রবার", "shukrobar", "Friday", ""]]}
+ },
+ "past": {
+  "0": {"drop": ["আমি", "তুমি", "সে", "আপনি"]},
+  "2": {"add": ["উনি অফিসে গেলেন।", ["আমি কাল ঢাকায় গেলাম।", "ami kal ḍhakay gelam.", "I went to Dhaka yesterday.", ""]]},
+  "3": {"add": [["তুমি করলা", "tumi korla", "you did (familiar, Dhaka speech)", ""], ["তুমি গেলা", "tumi gela", "you went (familiar, Dhaka speech)", ""], ["আমি গতকাল বাজারে গেলাম।", "ami gôtokal bajare gelam.", "I went to the market yesterday.", ""]]}
+ },
+ "chhilo": {
+  "0": {"add": [["ছিলাম", "chhilam", "I was", ""], ["ছিলে", "chhile", "you were (familiar)", ""], ["ছিল", "chhilo", "he was; she was; it was", ""], ["ছিলেন", "chhilen", "you were (polite)", ""]], "drop": ["আমি", "তুমি", "সে", "আপনি"]},
+  "1": {"add": [["আমি ছাত্র ছিলাম।", "ami chhatro chhilam.", "I was a student.", ""]]},
+  "2": {"add": [["আমি বাড়িতে ছিলাম।", "ami baṛite chhilam.", "I was at home.", ""]]},
+  "3": {"add": [["আমার একটা বই ছিল।", "amar ækṭa boi chhilo.", "I had a book.", ""], ["আপনার একটা গাড়ি ছিল।", "apnar ækṭa gaṛi chhilo.", "You had a car. (polite)", ""]]},
+  "4": {"add": [["বাজার কেমন ছিল?", "bajar kæmon chhilo?", "How was the market?", ""], ["গ্রাম কেমন ছিল?", "gram kæmon chhilo?", "How was the village?", ""]]}
+ },
+ "postpositions": {
+  "1": {"drop": ["আমি", "তুমি"]},
+  "2": {"add": ["আমি অফিস থেকে আসছি।", ["ঢাকা থেকে", "ḍhaka theke", "from Dhaka", ""]]}
+ },
+ "directions": {
+  "1": {"add": ["সোজা যান, তারপর ডান দিকে।", ["যান", "jan", "go (polite)", ""]]},
+  "3": {"add": ["হাসপাতালটা কোথায়?", ["বাজারের কাছে", "bajarer kachhe", "near the market", ""]]}
+ },
+ "compare": {
+  "1": {"drop": ["আমি", "ওটা"]},
+  "2": {"add": [["সবচেয়ে", "shôbcheye", "most; than all", ""], ["এটা সবচেয়ে বড়।", "eṭa shôbcheye bôṛo.", "This is the biggest.", ""]]},
+  "3": {"add": [["ওটার থেকে বড়", "oṭar theke bôṛo", "bigger than that (everyday speech)", ""], "আমার গ্রাম ঢাকার চেয়ে সুন্দর।", "তুমি আমার চেয়ে লম্বা।"]}
+ },
+ "conjunct-verbs": {
+  "2": {"add": [["তোমাকে ফোন করব।", "tomake fon korbo.", "I'll call you.", ""], ["চা পছন্দ করি।", "cha pôchhondo kori.", "I like tea.", ""], "আমাকে ফোন করুন।"]},
+  "3": {"add": [["আমার চা পছন্দ।", "amar cha pôchhondo.", "I like tea.", ""]]}
+ },
+ "shopping": {
+  "3": {"add": [["চারটা আম দিন।", "charṭa am din.", "Four mangoes, please.", ""]]}
+ }
+}

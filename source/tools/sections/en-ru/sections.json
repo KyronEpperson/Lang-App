@@ -1,0 +1,107 @@
+{
+ "_about": "SEC-1 writer file for en-ru.",
+ "alphabet": {
+  "0": {"add": ["там", "кто"]},
+  "2": {"add": ["торт", "тут"]}
+ },
+ "letters": {
+  "1": {"add": ["мы", "такси", "ты", "вы"]},
+  "2": {"add": ["мой"]},
+  "3": {"add": ["это", ["Это банк.", "EH-tah bahnk", "This is a bank.", ""]]},
+  "4": {"add": ["билет", ["мои", "mah-EE", "my (more than one thing)", ""]]}
+ },
+ "sounds": {
+  "1": {"add": [["билет", "bee-LYEHT", "ticket", ""]]},
+  "5": {"drop": ["мат"]}
+ },
+ "stress": {
+  "1": {"add": [["кафе", "kah-FEH", "café", ""], ["меню", "mih-NYOO", "menu", ""]]},
+  "3": {"add": [["мой телефон", "moy tih-lih-FOHN", "my phone", ""], ["моё молоко", "mah-YOH mah-lah-KOH", "my milk", ""]]}
+ },
+ "greetings": {
+  "1": {"add": ["Как дела?", "А у тебя?", ["А у вас?", "ah oo vahs", "And you? (formal)", ""]]},
+  "2": {"add": ["Иван Петрович, добрый день!", ["Маша", "MAH-shah", "Masha (short for Мария)", ""]]},
+  "3": {"add": ["ты", "вы"]}
+ },
+ "eto": {
+  "1": {"add": ["Это моя жена.", "Это моя семья."]},
+  "3": {"drop": ["есть"]}
+ },
+ "intonation": {
+  "0": {"add": [["Это чай.", "EH-tah chai", "This is tea.", ""], ["Это суп.", "EH-tah soop", "This is soup.", ""]]},
+  "1": {"add": [["Это вода?", "EH-tah vah-DAH", "Is this water?", ""], ["Это борщ?", "EH-tah bohrsh'", "Is this borscht?", ""]]}
+ },
+ "adjectives": {
+  "0": {"drop": ["мой"]}
+ },
+ "plural": {
+  "0": {"add": [["билеты", "bee-LYEH-tih", "tickets", ""], ["машины", "mah-SHIH-nih", "cars", ""], ["кухни", "KOOKH-nee", "kitchens", ""]]},
+  "2": {"add": [["окна", "OHK-nah", "windows", ""], ["письма", "PEES'-mah", "letters", ""]]}
+ },
+ "present": {
+  "3": {"add": [["Мой брат работает.", "moy braht rah-BOH-tah-yiht", "My brother works.", ""], ["Мои друзья работают.", "mah-EE drooz'-YAH rah-BOH-tah-yoot", "My friends work.", ""]]},
+  "4": {"add": ["Что ты делаешь?", ["Вы работаете?", "vih rah-BOH-tah-yih-tih", "Do you work? (formal)", ""]]}
+ },
+ "negation": {
+  "0": {"drop": ["Не за что."]},
+  "1": {"add": [["Нет, я не работаю.", "nyeht yah nih rah-BOH-tah-yoo", "No, I don't work.", ""], ["Нет, я не понимаю.", "nyeht yah nih pah-nee-MAH-yoo", "No, I don't understand.", ""]]},
+  "3": {"add": [["здесь", "zdyehs'", "here", ""]]}
+ },
+ "numbers": {
+  "3": {"add": [["Сколько стоят?", "SKOHL'-kah STOH-yaht", "How much are they?", ""]]},
+  "4": {"add": [["сорок", "SOH-rahk", "forty", ""], ["двенадцать", "dvih-NAH-tsaht'", "twelve", ""]]}
+ },
+ "prepositional": {
+  "2": {"add": [["в России", "v rah-SEE-ee", "in Russia", ""], ["в Казани", "f kah-ZAH-nee", "in Kazan", ""]]},
+  "3": {"add": [["о маме", "ah MAH-mih", "about Mom", ""], ["о Москве", "ah mahs-KVYEH", "about Moscow", ""]]},
+  "4": {"add": [["в новом доме", "v NOH-vahm DOH-mih", "in a new house", ""], ["в новой школе", "v NOH-vahy SHKOH-lih", "in a new school", ""], ["в новом парке", "v NOH-vahm PAHR-kih", "in a new park", ""]], "drop": ["ой", "где"]}
+ },
+ "accusative": {
+  "1": {"add": [["Я люблю молоко.", "yah lyoo-BLYOO mah-lah-KOH", "I love milk.", ""]]},
+  "2": {"add": [["Я вижу кота.", "yah VEE-zhoo kah-TAH", "I see the cat.", ""], ["Я люблю Анну.", "yah lyoo-BLYOO AHN-noo", "I love Anna.", ""]]},
+  "4": {"add": [["Я иду в школу.", "yah ee-DOO f SHKOH-loo", "I'm walking to school.", ""], ["Я на работе.", "yah nah rah-BOH-tih", "I'm at work.", ""]]}
+ },
+ "have": {
+  "2": {"add": [["У меня нет брата.", "oo mih-NYAH nyeht BRAH-tah", "I don't have a brother.", ""]]},
+  "3": {"add": [["У него большая семья.", "oo nih-VOH bahl'-SHAH-yah sihm'-YAH", "He has a big family.", ""], ["голова", "gah-lah-VAH", "head", ""]]}
+ },
+ "past": {
+  "1": {"drop": ["ли"]}
+ },
+ "dative": {
+  "1": {"add": [["мне", "mnyeh", "to me; for me", ""], ["тебе", "tih-BYEH", "to you; for you (informal)", ""], ["ему", "yih-MOO", "to him; for him", ""], ["ей", "yey", "to her; for her", ""], ["нам", "nahm", "to us; for us", ""], ["вам", "vahm", "to you; for you (formal or plural)", ""]]},
+  "2": {"add": [["Ему двадцать лет.", "yih-MOO DVAH-tsaht' lyeht", "He's twenty years old.", ""]]},
+  "5": {"add": [["к маме", "k MAH-mih", "to Mom's (place)", ""], ["к врачу", "k vrah-CHOO", "to the doctor", ""]]}
+ },
+ "instrumental": {
+  "0": {"drop": ["ой", "ей"]},
+  "1": {"add": [["со мной", "sah mnoy", "with me", ""], ["с тобой", "s tah-BOY", "with you (informal)", ""]]},
+  "3": {"add": [["заниматься спортом", "zah-nee-MAH-tsah SPOHR-tahm", "to do sports", ""], ["заниматься музыкой", "zah-nee-MAH-tsah MOO-zih-kahy", "to study music", ""]]}
+ },
+ "future": {
+  "2": {"add": [["Я буду дома завтра.", "yah BOO-doo DOH-mah ZAHF-trah", "I'll be at home tomorrow.", ""]]},
+  "3": {"add": [["я позвоню", "yah pahz-vah-NYOO", "I'll call", ""], ["позвонить", "pahz-vah-NEET'", "to call (once)", ""]]}
+ },
+ "aspect": {
+  "0": {"add": [["читать", "chee-TAHT'", "to read", ""], ["каждый день", "KAHZH-dihy dyehn'", "every day", ""]]},
+  "1": {"add": ["Я написал письмо.", ["прочитать", "prah-chee-TAHT'", "to read (to the end; perfective)", ""], ["сделать", "ZDYEH-laht'", "to do; to make (perfective)", ""], ["купить", "koo-PEET'", "to buy (perfective)", ""]]},
+  "3": {"add": [["Я прочитаю.", "yah prah-chee-TAH-yoo", "I'll read it (to the end).", ""], ["я куплю", "yah koo-PLYOO", "I'll buy", ""], ["Я буду читать.", "yah BOO-doo chee-TAHT'", "I'll read. / I'll be reading.", ""]]}
+ },
+ "motion": {
+  "2": {"add": [["на машине", "nah mah-SHIH-nih", "by car", ""], ["на метро", "nah mih-TROH", "by subway", ""]]}
+ },
+ "imperative": {
+  "1": {"add": [["Помогите мне!", "pah-mah-GEE-tih mnyeh", "Help me! (formal)", ""]]}
+ },
+ "connectors": {
+  "0": {"add": [["и", "ee", "and; also", ""], ["мама и папа", "MAH-mah ee PAH-pah", "mom and dad", ""]]},
+  "1": {"add": [["а", "ah", "and (contrast); while; whereas", ""], ["А у вас?", "ah oo vahs", "And you? (formal)", ""]]},
+  "2": {"add": ["но", ["Он врач, но не работает.", "ohn vrahch noh nih rah-BOH-tah-yiht", "He's a doctor, but he doesn't work.", ""]]}
+ },
+ "time": {
+  "0": {"drop": ["рубль"]},
+  "1": {"add": ["в два часа", "в пять часов", ["в час", "f chahs", "at one o'clock", ""]]},
+  "4": {"add": [["в январе", "v yihn-vah-RYEH", "in January", ""], ["в марте", "v MAHR-tih", "in March", ""]]},
+  "5": {"add": [["первое мая", "PYEHR-vah-yih MAH-yah", "the first of May", ""]]}
+ }
+}

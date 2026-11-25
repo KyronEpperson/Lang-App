@@ -1,0 +1,60 @@
+{
+ "_about": "SEC-1 writer file for en-am.",
+ "orders": {
+  "1": {"add": ["ብ", "ል"]},
+  "2": {"add": ["ቡና", "ልብ"]}
+ },
+ "fidel-1": {
+  "2": {"add": ["ቀ", ["ህ", "hi", "h, sixth order of the first h-letter", ""], ["ሽ", "shi", "sh, sixth order", ""]]}
+ },
+ "reading": {
+  "0": {"add": [["ሰ", "se", "s, the second s-letter", ""], ["ሠ", "se", "s, the first s-letter", ""]]}
+ },
+ "greetings": {
+  "0": {"drop": ["ጤና"]},
+  "1": {"drop": ["እናንተ"]},
+  "2": {"add": [["ነኝ", "neny", "am (copula, I form)", ""]]}
+ },
+ "intro": {
+  "1": {"drop": ["አንተ", "አንቺ", "እርስዎ"]}
+ },
+ "possessive": {
+  "0": {"drop": ["እኛ"]}
+ },
+ "have": {
+  "0": {"drop": ["እኛ", "ነው"]}
+ },
+ "prepositions": {
+  "0": {"drop": ["አበባ"]}
+ },
+ "past": {
+  "0": {"drop": ["እኛ"]}
+ },
+ "present": {
+  "0": {"drop": ["ሄድኩ", "እርስዎ", "እነሱ", "እኛ"]}
+ },
+ "negative": {
+  "0": {"drop": ["አለኝ", "አለ", "ሄድኩ"]},
+  "1": {"add": ["አልሄድም", "አትሄድም", "አትሄጂም"], "drop": ["አንተ", "እሷ", "እኛ", "ነው"]}
+ },
+ "want": {
+  "0": {"drop": ["እሄዳለሁ", "ሄድኩ"]},
+  "1": {"drop": ["እርስዎ", "ይሄዳል"]}
+ },
+ "commands": {
+  "0": {"drop": ["እርስዎ"]}
+ },
+ "prices": {
+  "0": {"drop": ["ቤቱ"]},
+  "2": {"add": [["ሂሳብ", "hisab", "the bill", ""], ["እባክዎ", "ibakwo", "Please. (polite)", ""]]}
+ },
+ "likes": {
+  "0": {"drop": ["እፈልጋለሁ"]}
+ },
+ "family": {
+  "0": {"drop": ["ቤት", "እርስዎ"]}
+ },
+ "directions": {
+  "1": {"drop": ["እርስዎ"]}
+ }
+}
