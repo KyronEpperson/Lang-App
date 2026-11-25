@@ -1,0 +1,640 @@
+{
+ "_about": "SEC-1 writer file for es-ko, made by tools/sections/xko.js from tools/sections/en-ko/sections.json and tools/sections/xko/meanings.json. Edit those, not this file.",
+ "polite": {
+  "0": {
+   "add": [
+    [
+     "고맙습니다",
+     "",
+     "Gracias (formal)"
+    ],
+    [
+     "미안해요",
+     "",
+     "Perdón (cortés)"
+    ],
+    [
+     "미안해",
+     "",
+     "Perdón (informal)"
+    ],
+    [
+     "반말",
+     "",
+     "habla informal (\"media habla\")"
+    ]
+   ]
+  }
+ },
+ "meet": {
+  "1": {
+   "add": [
+    [
+     "학생이에요",
+     "",
+     "Soy estudiante"
+    ],
+    [
+     "저예요",
+     "",
+     "Soy yo"
+    ],
+    [
+     "마이크예요",
+     "",
+     "Soy Mike"
+    ],
+    [
+     "후안이에요",
+     "",
+     "Soy Juan"
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "살",
+     "",
+     "años (contador de edad)"
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "들어가세요",
+     "",
+     "Adiós (por teléfono; lit. entre)"
+    ]
+   ]
+  },
+  "4": {
+   "add": [
+    [
+     "만나서 반갑습니다",
+     "",
+     "Mucho gusto (formal)"
+    ],
+    [
+     "반가워",
+     "",
+     "Mucho gusto (informal)"
+    ],
+    [
+     "이름이 뭐야?",
+     "",
+     "¿Cómo te llamas? (informal)"
+    ]
+   ]
+  }
+ },
+ "sound-changes": {
+  "2": {},
+  "3": {
+   "add": [
+    [
+     "학교",
+     "",
+     "school · sounds like 학꾜",
+     "__en__"
+    ]
+   ]
+  }
+ },
+ "nouns": {
+  "1": {
+   "add": [
+    "제",
+    "내"
+   ]
+  }
+ },
+ "isseoyo": {
+  "4": {
+   "add": [
+    [
+     "학교에 있어요",
+     "",
+     "Estoy en la escuela"
+    ],
+    [
+     "여기는 학교예요",
+     "",
+     "Esto es una escuela (aquí = escuela)"
+    ],
+    [
+     "여기에 학교가 있어요",
+     "",
+     "Aquí hay una escuela"
+    ],
+    [
+     "시간 있어요?",
+     "",
+     "Are you free? (Do you have time?)",
+     "__en__"
+    ]
+   ]
+  }
+ },
+ "pronouns-questions": {
+  "1": {
+   "add": [
+    [
+     "그 사람",
+     "",
+     "esa persona"
+    ],
+    [
+     "이분",
+     "",
+     "this person (polite)",
+     "__en__"
+    ],
+    [
+     "씨",
+     "",
+     "Mr. / Ms. (after a name)",
+     "__en__"
+    ]
+   ]
+  }
+ },
+ "verbs": {
+  "0": {
+   "drop": [
+    "봐요",
+    "마셔요",
+    "먹어요"
+   ],
+   "add": [
+    [
+     "공부해요",
+     "",
+     "(I) study",
+     "__en__"
+    ],
+    [
+     "가다",
+     "",
+     "ir (forma de diccionario)"
+    ],
+    [
+     "먹다",
+     "",
+     "comer (forma de diccionario)"
+    ]
+   ]
+  }
+ },
+ "past": {
+  "2": {
+   "add": [
+    [
+     "친구였어요",
+     "",
+     "Era un amigo"
+    ]
+   ]
+  }
+ },
+ "future": {
+  "1": {
+   "add": [
+    [
+     "살 거예요",
+     "",
+     "va a vivir"
+    ]
+   ]
+  }
+ },
+ "sov": {
+  "1": {
+   "add": [
+    "좋아요",
+    "커요"
+   ]
+  }
+ },
+ "particles": {
+  "4": {
+   "add": [
+    [
+     "저도",
+     "",
+     "yo también"
+    ],
+    [
+     "집에 있어요",
+     "",
+     "Estoy en casa"
+    ]
+   ]
+  }
+ },
+ "sentences": {
+  "0": {
+   "add": [
+    [
+     "이거는 커피예요",
+     "",
+     "Esto es café"
+    ],
+    [
+     "친구는 의사예요",
+     "",
+     "Mi amigo es médico"
+    ]
+   ]
+  },
+  "1": {
+   "add": [
+    [
+     "날씨가 좋아요",
+     "",
+     "Hace buen tiempo"
+    ],
+    [
+     "가방이 커요",
+     "",
+     "El bolso es grande"
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "밥을 먹어요",
+     "",
+     "Como arroz"
+    ],
+    [
+     "책을 봐요",
+     "",
+     "Leo un libro"
+    ]
+   ]
+  }
+ },
+ "want-like": {
+  "2": {
+   "add": [
+    [
+     "먹고 싶었어요",
+     "",
+     "Quería comer"
+    ],
+    [
+     "안 먹고 싶어요",
+     "",
+     "No quiero comer"
+    ]
+   ]
+  }
+ },
+ "numbers": {
+  "0": {
+   "add": [
+    "하나, 둘, 셋",
+    "넷, 다섯, 여섯",
+    "일곱, 여덟, 아홉, 열",
+    "일, 이, 삼, 사, 오",
+    "육, 칠, 팔, 구, 십",
+    "만 원"
+   ]
+  }
+ },
+ "getting-around": {
+  "1": {
+   "add": [
+    [
+     "이번 역",
+     "",
+     "esta parada"
+    ],
+    [
+     "다음 역",
+     "",
+     "la próxima parada"
+    ],
+    [
+     "갈아타다",
+     "",
+     "hacer transbordo"
+    ],
+    [
+     "편의점",
+     "",
+     "convenience store",
+     "__en__"
+    ]
+   ]
+  }
+ },
+ "titles": {
+  "0": {
+   "add": [
+    "형 / 오빠",
+    "누나 / 언니",
+    [
+     "고객님",
+     "",
+     "cliente (cortés)"
+    ],
+    [
+     "민수 씨",
+     "",
+     "Minsu (cortés, a un igual)"
+    ],
+    [
+     "민수야!",
+     "",
+     "¡Minsu! (llamando a un amigo cercano)"
+    ],
+    [
+     "지은아!",
+     "",
+     "¡Jieun! (llamando a una amiga cercana)"
+    ],
+    [
+     "씨",
+     "",
+     "Mr. / Ms. (after a name)",
+     "__en__"
+    ]
+   ]
+  }
+ },
+ "texting": {
+  "1": {
+   "add": [
+    [
+     "네",
+     "",
+     "sí (cortés)"
+    ],
+    [
+     "넵",
+     "",
+     "¡sí! (cortés y amable, en el trabajo)"
+    ],
+    [
+     "읽씹",
+     "",
+     "leer y no contestar"
+    ]
+   ]
+  }
+ },
+ "counters": {
+  "1": {
+   "add": [
+    [
+     "맥주 두 병",
+     "",
+     "dos botellas de cerveza"
+    ],
+    [
+     "사람 세 명",
+     "",
+     "tres personas"
+    ],
+    [
+     "스무 살",
+     "",
+     "veinte años"
+    ]
+   ]
+  }
+ },
+ "joining": {
+  "0": {
+   "add": [
+    [
+     "싸고 좋아요",
+     "",
+     "Es barato y bueno"
+    ]
+   ]
+  },
+  "1": {
+   "add": [
+    [
+     "맛있지만 비싸요",
+     "",
+     "Está rico, pero es caro"
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "비싸서 안 사요",
+     "",
+     "Es caro, así que no lo compro"
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "집에 가서 쉬어요",
+     "",
+     "Voy a casa y descanso"
+    ]
+   ]
+  }
+ },
+ "story": {
+  "1": {
+   "add": [
+    [
+     "어제",
+     "",
+     "yesterday",
+     "__en__"
+    ],
+    [
+     "지난주",
+     "",
+     "last week",
+     "__en__"
+    ],
+    [
+     "작년",
+     "",
+     "last year",
+     "__en__"
+    ]
+   ]
+  }
+ },
+ "noun-modifiers": {
+  "1": {
+   "add": [
+    [
+     "재미없는 영화",
+     "",
+     "una película aburrida"
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "더운 날씨",
+     "",
+     "tiempo caluroso (덥다)"
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "먼 길",
+     "",
+     "un camino largo (멀다)"
+    ],
+    [
+     "단 음식",
+     "",
+     "comida dulce (달다)"
+    ]
+   ]
+  }
+ },
+ "compare": {
+  "0": {
+   "drop": [
+    "제일"
+   ]
+  },
+  "1": {
+   "add": [
+    [
+     "어제보다 오늘이 더 추워요",
+     "",
+     "Hoy hace más frío que ayer (mismo significado)"
+    ],
+    [
+     "택시보다 싸요",
+     "",
+     "Es más barato que un taxi"
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    "제일",
+    [
+     "가장",
+     "",
+     "the most (a little more formal)",
+     "__en__"
+    ]
+   ]
+  }
+ },
+ "have-to": {
+  "1": {
+   "add": [
+    [
+     "언제 가야 돼요?",
+     "",
+     "¿Cuándo tengo que ir?"
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "어제 가야 했어요",
+     "",
+     "Ayer tuve que ir"
+    ],
+    [
+     "공부해야 했어요",
+     "",
+     "Tuve que estudiar"
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "가도 돼요?",
+     "",
+     "¿Puedo irme?"
+    ]
+   ]
+  }
+ },
+ "requests": {
+  "0": {
+   "add": [
+    [
+     "물 좀 주세요",
+     "",
+     "Un poco de agua, por favor (좀 lo suaviza)"
+    ],
+    [
+     "사진 좀 찍어 주시겠어요?",
+     "",
+     "¿Le importaría tomarnos una foto?"
+    ],
+    [
+     "여기 앉으면 안 돼요?",
+     "",
+     "¿Estaría bien si me siento aquí?"
+    ],
+    [
+     "사진 찍어도 돼요?",
+     "",
+     "¿Puedo tomar una foto?"
+    ]
+   ]
+  }
+ },
+ "office": {
+  "0": {
+   "add": [
+    [
+     "대리님",
+     "",
+     "subgerente"
+    ],
+    [
+     "과장님",
+     "",
+     "gerente"
+    ],
+    [
+     "부장님",
+     "",
+     "jefe de departamento"
+    ],
+    [
+     "팀장님",
+     "",
+     "líder de equipo"
+    ],
+    [
+     "사장님",
+     "",
+     "director general; jefe"
+    ],
+    [
+     "대표님",
+     "",
+     "director ejecutivo"
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    "감사합니다"
+   ]
+  }
+ }
+}

@@ -23,7 +23,7 @@ Standing rules: Supabase publishable key only; never open, print or commit secre
 - Every course opens with a foundation that teaches its writing system the way Korean lesson 1 does, fitted to the script (2026-11-25; see "Character foundations").
 - Replies: brief, bullets, direct. Visuals as PNG.
 
-## Released (through 2.113.0)
+## Released (through 2.114.0)
 
 Yesterday and today: ur-en, pa-en (2.78.0); yue-en in written Cantonese (2.79.0); te-en with bundled Noto Sans Telugu (2.80.0); yue-ko (2.81.0); kn-en (2.82.0); release report + audio coverage on every release (2.83.0); en-hmn (2.84.0); new cards flip on tap (2.85.0); hmn-en + Hmong interface (2.86.0).
 
@@ -76,6 +76,8 @@ Setting up the build home in a new chat (learned 2026-11-24): the scripts need `
 2.112.0 (2026-11-25): **in Korean for English speakers, the flashcards after a section are what that section teaches** (owner: "lets fix the cards by sections"; one course first, by the owner's rule of 2026-11-25). Before, a lesson's topic deck was dealt across its sections in deck order, so 28% of cards over all courses sat under the section that teaches them. Details in the section "Section decks" below; prompt and results in `iterations.md`, entry SEC-1. The other 70 courses keep the dealing until the owner says to roll it out.
 
 ## Section decks (SEC-1)
+
+- **Roll-out (owner, 2026-11-25: "lets work in batches").** One release per batch; switch a course on with `python3 tools/patches/lesson_align_on.py <id> ...`. Batch 1, 2.114.0: the eleven other Korean courses (ceb, es, hi, id, ja, mr, th, tl, vi, yue, zh). Their lessons mirror en-ko section by section, so their writer tables are made from en-ko's by `node tools/sections/xko.js` (edit `tools/sections/en-ko/sections.json` and `tools/sections/xko/meanings.json`, never the generated files; the 68 meanings in 11 languages were written in the main chat and not read by native speakers), then `node tools/sections/apply.js`. Each has 111 section decks and 530 to 541 cards; decks under 3 cards are only ever the last of a lesson (food in all, plus joining, office or future in ja, zh, yue). Still to do, in this order: courses for English speakers in Latin script, then in other scripts, then English for speakers of other languages in two halves. Those need a writer pass per course (opus; worksheet `node tools/sections/small.js <course>`).
 
 - **Rule.** In a course listed in `LS_ALIGN` (`src/app.html`, now `en-ko` only) a section's deck is, in the order the section shows them: its example lines (the real card when some deck has that line, else a card of the lesson's hidden deck `§<lesson id>`), the cards of the lesson's deck whose words the section uses, and cards of any deck shown as a term (bold or a `td.k` cell, two letters or more). A card comes once in a lesson, in the first section that teaches it. A section with fewer than 3 cards passes them on to the next deck, never back, so the last deck of a lesson may be short. Topic-deck cards that no section teaches are not in the lesson; they stay in Review and Practice.
 - **Where.** `lsAlign` and its helpers (`lsCut`, `lsExs`, `lsItems`, `lsAt`, `lsIdx`, `lsHid`) in front of `lsPlan`; `lsPlan` calls it first and falls back to the dealing when it returns nothing (course not listed, or fewer than 3 cards found). Korean lesson 1 is still set by hand. Edit scripts: `tools/patches/lesson_align.py`, `lesson_align_harness.py`.

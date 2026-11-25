@@ -1,0 +1,640 @@
+{
+ "_about": "SEC-1 writer file for ceb-ko, made by tools/sections/xko.js from tools/sections/en-ko/sections.json and tools/sections/xko/meanings.json. Edit those, not this file.",
+ "polite": {
+  "0": {
+   "add": [
+    [
+     "고맙습니다",
+     "",
+     "Salamat (pormal)"
+    ],
+    [
+     "미안해요",
+     "",
+     "Pasayloa ko (matinahoron)"
+    ],
+    [
+     "미안해",
+     "",
+     "Pasayloa (kaswal)"
+    ],
+    [
+     "반말",
+     "",
+     "kaswal nga sinultihan (\"tunga nga sulti\")"
+    ]
+   ]
+  }
+ },
+ "meet": {
+  "1": {
+   "add": [
+    [
+     "학생이에요",
+     "",
+     "Estudyante ko"
+    ],
+    [
+     "저예요",
+     "",
+     "Ako ni"
+    ],
+    [
+     "마이크예요",
+     "",
+     "Ako si Mike"
+    ],
+    [
+     "후안이에요",
+     "",
+     "Ako si Juan"
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "살",
+     "",
+     "anyos (pang-ihap sa edad)"
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "들어가세요",
+     "",
+     "Babay (sa telepono; lit. sulod na)"
+    ]
+   ]
+  },
+  "4": {
+   "add": [
+    [
+     "만나서 반갑습니다",
+     "",
+     "Nalipay ko nga nakaila nimo (pormal)"
+    ],
+    [
+     "반가워",
+     "",
+     "Nalipay ko nga nakaila nimo (kaswal)"
+    ],
+    [
+     "이름이 뭐야?",
+     "",
+     "Unsay imong ngalan? (kaswal)"
+    ]
+   ]
+  }
+ },
+ "sound-changes": {
+  "2": {},
+  "3": {
+   "add": [
+    [
+     "학교",
+     "",
+     "school · sounds like 학꾜",
+     "__en__"
+    ]
+   ]
+  }
+ },
+ "nouns": {
+  "1": {
+   "add": [
+    "제",
+    "내"
+   ]
+  }
+ },
+ "isseoyo": {
+  "4": {
+   "add": [
+    [
+     "학교에 있어요",
+     "",
+     "Naa ko sa eskwelahan"
+    ],
+    [
+     "여기는 학교예요",
+     "",
+     "Eskwelahan ni (dinhi = eskwelahan)"
+    ],
+    [
+     "여기에 학교가 있어요",
+     "",
+     "Naay eskwelahan dinhi"
+    ],
+    [
+     "시간 있어요?",
+     "",
+     "Are you free? (Do you have time?)",
+     "__en__"
+    ]
+   ]
+  }
+ },
+ "pronouns-questions": {
+  "1": {
+   "add": [
+    [
+     "그 사람",
+     "",
+     "kanang tawhana"
+    ],
+    [
+     "이분",
+     "",
+     "this person (polite)",
+     "__en__"
+    ],
+    [
+     "씨",
+     "",
+     "Mr. / Ms. (after a name)",
+     "__en__"
+    ]
+   ]
+  }
+ },
+ "verbs": {
+  "0": {
+   "drop": [
+    "봐요",
+    "마셔요",
+    "먹어요"
+   ],
+   "add": [
+    [
+     "공부해요",
+     "",
+     "(I) study",
+     "__en__"
+    ],
+    [
+     "가다",
+     "",
+     "moadto (porma sa diksyonaryo)"
+    ],
+    [
+     "먹다",
+     "",
+     "mokaon (porma sa diksyonaryo)"
+    ]
+   ]
+  }
+ },
+ "past": {
+  "2": {
+   "add": [
+    [
+     "친구였어요",
+     "",
+     "Higala siya kaniadto"
+    ]
+   ]
+  }
+ },
+ "future": {
+  "1": {
+   "add": [
+    [
+     "살 거예요",
+     "",
+     "mopuyo"
+    ]
+   ]
+  }
+ },
+ "sov": {
+  "1": {
+   "add": [
+    "좋아요",
+    "커요"
+   ]
+  }
+ },
+ "particles": {
+  "4": {
+   "add": [
+    [
+     "저도",
+     "",
+     "ako pod"
+    ],
+    [
+     "집에 있어요",
+     "",
+     "Naa ko sa balay"
+    ]
+   ]
+  }
+ },
+ "sentences": {
+  "0": {
+   "add": [
+    [
+     "이거는 커피예요",
+     "",
+     "Kape ni"
+    ],
+    [
+     "친구는 의사예요",
+     "",
+     "Doktor ang akong higala"
+    ]
+   ]
+  },
+  "1": {
+   "add": [
+    [
+     "날씨가 좋아요",
+     "",
+     "Nindot ang panahon"
+    ],
+    [
+     "가방이 커요",
+     "",
+     "Dako ang bag"
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "밥을 먹어요",
+     "",
+     "Mokaon ko og kan-on"
+    ],
+    [
+     "책을 봐요",
+     "",
+     "Mobasa ko og libro"
+    ]
+   ]
+  }
+ },
+ "want-like": {
+  "2": {
+   "add": [
+    [
+     "먹고 싶었어요",
+     "",
+     "Gusto unta ko mokaon"
+    ],
+    [
+     "안 먹고 싶어요",
+     "",
+     "Dili ko gustong mokaon"
+    ]
+   ]
+  }
+ },
+ "numbers": {
+  "0": {
+   "add": [
+    "하나, 둘, 셋",
+    "넷, 다섯, 여섯",
+    "일곱, 여덟, 아홉, 열",
+    "일, 이, 삼, 사, 오",
+    "육, 칠, 팔, 구, 십",
+    "만 원"
+   ]
+  }
+ },
+ "getting-around": {
+  "1": {
+   "add": [
+    [
+     "이번 역",
+     "",
+     "kining estasyona"
+    ],
+    [
+     "다음 역",
+     "",
+     "ang sunod nga estasyon"
+    ],
+    [
+     "갈아타다",
+     "",
+     "mobalhin og tren"
+    ],
+    [
+     "편의점",
+     "",
+     "convenience store",
+     "__en__"
+    ]
+   ]
+  }
+ },
+ "titles": {
+  "0": {
+   "add": [
+    "형 / 오빠",
+    "누나 / 언니",
+    [
+     "고객님",
+     "",
+     "kustomer (matinahoron)"
+    ],
+    [
+     "민수 씨",
+     "",
+     "Minsu (matinahoron, sa kaedad)"
+    ],
+    [
+     "민수야!",
+     "",
+     "Minsu! (pagtawag sa suod nga higala)"
+    ],
+    [
+     "지은아!",
+     "",
+     "Jieun! (pagtawag sa suod nga higala)"
+    ],
+    [
+     "씨",
+     "",
+     "Mr. / Ms. (after a name)",
+     "__en__"
+    ]
+   ]
+  }
+ },
+ "texting": {
+  "1": {
+   "add": [
+    [
+     "네",
+     "",
+     "oo (matinahoron)"
+    ],
+    [
+     "넵",
+     "",
+     "oo! (matinahoron ug mahigalaon, sa trabaho)"
+    ],
+    [
+     "읽씹",
+     "",
+     "gibasa pero wala tubaga"
+    ]
+   ]
+  }
+ },
+ "counters": {
+  "1": {
+   "add": [
+    [
+     "맥주 두 병",
+     "",
+     "duha ka botelya nga beer"
+    ],
+    [
+     "사람 세 명",
+     "",
+     "tulo ka tawo"
+    ],
+    [
+     "스무 살",
+     "",
+     "baynte anyos"
+    ]
+   ]
+  }
+ },
+ "joining": {
+  "0": {
+   "add": [
+    [
+     "싸고 좋아요",
+     "",
+     "Barato ug nindot"
+    ]
+   ]
+  },
+  "1": {
+   "add": [
+    [
+     "맛있지만 비싸요",
+     "",
+     "Lami pero mahal"
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "비싸서 안 사요",
+     "",
+     "Mahal, mao nga dili ko mopalit"
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "집에 가서 쉬어요",
+     "",
+     "Mouli ko ug mopahulay"
+    ]
+   ]
+  }
+ },
+ "story": {
+  "1": {
+   "add": [
+    [
+     "어제",
+     "",
+     "yesterday",
+     "__en__"
+    ],
+    [
+     "지난주",
+     "",
+     "last week",
+     "__en__"
+    ],
+    [
+     "작년",
+     "",
+     "last year",
+     "__en__"
+    ]
+   ]
+  }
+ },
+ "noun-modifiers": {
+  "1": {
+   "add": [
+    [
+     "재미없는 영화",
+     "",
+     "makalaay nga salida"
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "더운 날씨",
+     "",
+     "init nga panahon (덥다)"
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "먼 길",
+     "",
+     "layo nga dalan (멀다)"
+    ],
+    [
+     "단 음식",
+     "",
+     "tam-is nga pagkaon (달다)"
+    ]
+   ]
+  }
+ },
+ "compare": {
+  "0": {
+   "drop": [
+    "제일"
+   ]
+  },
+  "1": {
+   "add": [
+    [
+     "어제보다 오늘이 더 추워요",
+     "",
+     "Mas bugnaw karon kaysa gahapon (parehas nga kahulogan)"
+    ],
+    [
+     "택시보다 싸요",
+     "",
+     "Mas barato kaysa taxi"
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    "제일",
+    [
+     "가장",
+     "",
+     "the most (a little more formal)",
+     "__en__"
+    ]
+   ]
+  }
+ },
+ "have-to": {
+  "1": {
+   "add": [
+    [
+     "언제 가야 돼요?",
+     "",
+     "Kanus-a ko kinahanglang moadto?"
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "어제 가야 했어요",
+     "",
+     "Kinahanglan kong moadto gahapon"
+    ],
+    [
+     "공부해야 했어요",
+     "",
+     "Kinahanglan kong magtuon (kaniadto)"
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "가도 돼요?",
+     "",
+     "Puwede ba ko molakaw?"
+    ]
+   ]
+  }
+ },
+ "requests": {
+  "0": {
+   "add": [
+    [
+     "물 좀 주세요",
+     "",
+     "Tubig palihog (ang 좀 nagpahumok)"
+    ],
+    [
+     "사진 좀 찍어 주시겠어요?",
+     "",
+     "Puwede ba mo mokuha og hulagway namo?"
+    ],
+    [
+     "여기 앉으면 안 돼요?",
+     "",
+     "Okay ra ba kon molingkod ko dinhi?"
+    ],
+    [
+     "사진 찍어도 돼요?",
+     "",
+     "Puwede ba ko mokuha og hulagway?"
+    ]
+   ]
+  }
+ },
+ "office": {
+  "0": {
+   "add": [
+    [
+     "대리님",
+     "",
+     "assistant manager"
+    ],
+    [
+     "과장님",
+     "",
+     "manager"
+    ],
+    [
+     "부장님",
+     "",
+     "pangulo sa departamento"
+    ],
+    [
+     "팀장님",
+     "",
+     "team leader"
+    ],
+    [
+     "사장님",
+     "",
+     "CEO; amo"
+    ],
+    [
+     "대표님",
+     "",
+     "CEO"
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    "감사합니다"
+   ]
+  }
+ }
+}
