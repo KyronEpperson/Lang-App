@@ -6,6 +6,8 @@ pre-restructure ones.
 
 ## 1. Adding a language end to end
 
+**Standing rule (owner, 2026-11-25): "all future languages that are added start with the writing systems first and match lessons cards to their sections".** A new course is not released until (1) its first lessons are its character foundation (how the script works, each kind of piece with a chart or flip tiles and its own flashcards, a deck of real words that puts the pieces together; ONE lesson when the learner already reads the script, a block of lessons otherwise), written with `docs/briefs/foundations-writer.md` and listed in `FOUND` in `tools/tests/foundations.js`, and (2) the flashcards after each section of every lesson are what that section teaches (section matching, SEC-1: `tools/sections/<course>/sections.json`, see "Lesson cards match their sections" in `docs/HANDOFF.md`). `tools/curriculum/ship.sh` runs both tests; a course pack that is in neither `FOUND` nor the list of older courses still waiting (`PENDING`, which only gets shorter) stops the release. For an English course (`xx-en`) the foundation is the shared `alphabet` lesson (lesson 1, `docs/briefs/alphabet-spec.md`) with its letter tiles, followed by the pronunciation lesson.
+
 Run everything from `/home/claude`. Replace `xx` with the language code (`ja`, `es`, …).
 
 ```bash

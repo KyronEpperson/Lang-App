@@ -23,6 +23,7 @@ One file: `/home/claude/tools/patches/foundations_<t>.py`, same shape as `founda
 ```
 cd /home/claude && python3 tools/patches/foundations_<t>.py && node tools/target/gen.js <t> && node tools/target/validate.js <t> && node tools/lessonread/apply.js en-<t>
 ```
+(The dispatcher runs `node tools/sections/apply.js` after your pack is regenerated in the build home; a pack with a section table loses it otherwise.)
 (To re-run the script after a fix: `cp /home/user/lang-app/source/tools/target/<t>/lessons-*.js /home/claude/tools/target/<t>/` first.)
 Do NOT run `build.sh`, `harness.js`, `ship.sh` or any test under `tools/tests/`: the dispatcher runs those, and two builds at once break each other. Do NOT touch any file outside `tools/target/<t>/lessons-*.js` and your patch script. Do NOT run git.
 
