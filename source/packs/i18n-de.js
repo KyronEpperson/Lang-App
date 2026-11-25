@@ -801,7 +801,11 @@ LANGAPP_PACKS.i18n.de = {
     "Review missed": "Fehler wiederholen",
     "Practice these first": "Diese zuerst üben",
     ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 neue Karten, Quiz dazu, 5 weitere, dann ein Quiz zusammen mit bis zu 15 früheren Karten, die du am meisten üben musst – bis der Stapel durch ist.",
-    "Settings": "Einstellungen"
+    "Settings": "Einstellungen",
+    "I already have an account": "Ich habe schon ein Konto",
+    "Save your progress across devices?": "Deinen Fortschritt auf allen Geräten speichern?",
+    "Optional. Add your email and your progress follows you to any phone or computer. No password.": "Optional. Gib deine E-Mail-Adresse an und dein Fortschritt begleitet dich auf jedes Handy und jeden Computer. Kein Passwort.",
+    "Skip for now": "Vorerst überspringen"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Training"],

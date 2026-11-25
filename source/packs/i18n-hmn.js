@@ -801,7 +801,11 @@ LANGAPP_PACKS.i18n.hmn = {
     "Review missed": "Review cov tsis raug",
     "Practice these first": "Xyaum cov no ua ntej",
     ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 card tshiab, quiz, 5 card ntxiv, quiz nrog 15 card qub uas yuav tsum xyaum tshaj, mus txog thaum deck tiav.",
-    "Settings": "Kev teeb tsa"
+    "Settings": "Kev teeb tsa",
+    "I already have an account": "Kuv twb muaj account lawm",
+    "Save your progress across devices?": "Kaw cia koj cov Progress rau txhua cuab yeej siv?",
+    "Optional. Add your email and your progress follows you to any phone or computer. No password.": "Yog koj xav sau. Ntxiv koj tus email, koj cov Progress mus nrog koj rau txhua lub xov tooj los yog computer. Tsis siv lo lus zais.",
+    "Skip for now": "Tom qab"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Drills"],

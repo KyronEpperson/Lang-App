@@ -801,7 +801,11 @@ LANGAPP_PACKS.i18n.ar = {
     "Review missed": "راجع الأخطاء",
     "Practice these first": "التدرب عليها أولًا",
     ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 بطاقات جديدة ثم اختبارها، ثم 5 أخرى، ثم اختبارها مع ما يصل إلى 15 بطاقة سابقة هي الأكثر حاجة إلى التمرين، حتى تكتمل المجموعة.",
-    "Settings": "الإعدادات"
+    "Settings": "الإعدادات",
+    "I already have an account": "لدي حساب بالفعل",
+    "Save your progress across devices?": "هل تريد حفظ تقدمك على كل الأجهزة؟",
+    "Optional. Add your email and your progress follows you to any phone or computer. No password.": "اختياري. أضف بريدك الإلكتروني ليرافقك تقدمك على أي هاتف أو حاسوب. بدون كلمة مرور.",
+    "Skip for now": "تخطي الآن"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · مهارات"],

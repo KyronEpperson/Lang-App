@@ -125,6 +125,8 @@ so a static scan of the markup will not find it. Merge all of them into `tools/i
 | 101 | `Master` | `i18nGet` (optional gloss) | Level title gloss when a course pack has no TITLES (engine fallback `[level, English, translation]`; empty when missing) | exact |
 | 102 | `Sensei` | `i18nGet` (optional gloss) | Level title gloss when a course pack has no TITLES (engine fallback `[level, English, translation]`; empty when missing) | exact |
 
+WS-1 (2.122.0): the welcome screen is two steps. Step 1 = nickname (rows 72, 74, 79 plus `Continue` and `I already have an account`); step 2 = optional email (rows 62, 70, 76, 77, 78, 81 plus `Save your progress across devices?`, `Optional. Add your email and your progress follows you to any phone or computer. No password.`, `Skip for now`; row 75 is the heading on the "I already have an account" path). Rows 69, 71, 73 and 80 are no longer shown there.
+
 ## 2. Engine strings set by `applyCourseUi` for pack courses (DOM-translated, not in the static markup)
 These come from `ENGINE_I18N.ko` in `src/app.html` (the engine's own Korean table) plus the generic-course tour step. For other languages they must come from the interface pack.
 `English (required)` and `English, pronunciation, meaning, note — …` bake the target-language name into an exact key (pilot limitation: correct for every

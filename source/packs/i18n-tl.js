@@ -801,7 +801,11 @@ LANGAPP_PACKS.i18n.tl = {
     "Review missed": "Balikan ang mga mali",
     "Practice these first": "Sanayin muna ang mga ito",
     ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 bagong card, i-quiz, 5 pa, i-quiz kasama ang di-hihigit sa 15 naunang card na pinakakailangan mong sanayin, hanggang matapos ang deck.",
-    "Settings": "Mga Setting"
+    "Settings": "Mga Setting",
+    "I already have an account": "May account na ako",
+    "Save your progress across devices?": "I-save ang pag-unlad mo sa lahat ng device?",
+    "Optional. Add your email and your progress follows you to any phone or computer. No password.": "Opsyonal. Idagdag ang email mo at kasama mo ang pag-unlad mo sa anumang phone o computer. Walang password.",
+    "Skip for now": "Laktawan muna"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Mga drill"],

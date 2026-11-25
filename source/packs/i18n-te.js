@@ -801,7 +801,11 @@ LANGAPP_PACKS.i18n.te = {
     "Review missed": "తప్పైనవి మళ్లీ చూడండి",
     "Practice these first": "ముందు వీటిని సాధన చేయండి",
     ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 కొత్త కార్డులు, వాటిపై క్విజ్, మరో 5, తర్వాత ఇంతకుముందు నేర్చుకున్న వాటిలో సాధన ఎక్కువగా అవసరమైన గరిష్ఠంగా 15 కార్డులతో కలిపి క్విజ్. డెక్ పూర్తయ్యే వరకు ఇలాగే.",
-    "Settings": "సెట్టింగ్‌లు"
+    "Settings": "సెట్టింగ్‌లు",
+    "I already have an account": "నాకు ఇప్పటికే ఖాతా ఉంది",
+    "Save your progress across devices?": "మీ ప్రగతిని అన్ని పరికరాల్లో సేవ్ చేయాలా?",
+    "Optional. Add your email and your progress follows you to any phone or computer. No password.": "ఐచ్ఛికం. మీ ఈమెయిల్ చేర్చితే ఏ ఫోన్‌లోనైనా, కంప్యూటర్‌లోనైనా మీ ప్రగతి మీతోనే ఉంటుంది. పాస్‌వర్డ్ అవసరం లేదు.",
+    "Skip for now": "ప్రస్తుతానికి దాటవేయండి"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · డ్రిల్స్"],

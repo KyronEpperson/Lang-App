@@ -801,7 +801,11 @@ LANGAPP_PACKS.i18n.th = {
     "Review missed": "ทบทวนข้อที่ผิด",
     "Practice these first": "ฝึกชุดนี้ก่อน",
     ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": เริ่มจากการ์ดใหม่ 5 ใบ แล้วทำแบบทดสอบ จากนั้นเรียนอีก 5 ใบ และทดสอบรวมกับการ์ดก่อนหน้าที่ต้องฝึกมากที่สุดไม่เกิน 15 ใบ ทำต่อไปจนจบชุดการ์ด",
-    "Settings": "การตั้งค่า"
+    "Settings": "การตั้งค่า",
+    "I already have an account": "ฉันมีบัญชีอยู่แล้ว",
+    "Save your progress across devices?": "บันทึกความคืบหน้าของคุณข้ามอุปกรณ์ไหม",
+    "Optional. Add your email and your progress follows you to any phone or computer. No password.": "ไม่บังคับ เพิ่มอีเมลแล้วความคืบหน้าจะตามคุณไปทุกโทรศัพท์หรือคอมพิวเตอร์ ไม่ต้องใช้รหัสผ่าน",
+    "Skip for now": "ข้ามไปก่อน"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ทักษะ"],

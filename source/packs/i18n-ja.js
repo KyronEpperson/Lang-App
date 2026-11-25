@@ -801,7 +801,11 @@ LANGAPP_PACKS.i18n.ja = {
     "Review missed": "間違えたカードを復習",
     "Practice these first": "先にこのカードを練習",
     ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": "：新しいカードを5枚覚えてクイズ、さらに5枚覚えて、それまでのカードのうち練習が特に必要なもの最大15枚と混ぜてクイズ。これをデッキが終わるまで繰り返します。",
-    "Settings": "設定"
+    "Settings": "設定",
+    "I already have an account": "アカウントをお持ちの方",
+    "Save your progress across devices?": "記録を複数の端末に保存しますか？",
+    "Optional. Add your email and your progress follows you to any phone or computer. No password.": "任意です。メールアドレスを追加すると、どのスマホやパソコンでも記録を引き継げます。パスワードは不要です。",
+    "Skip for now": "今はスキップ"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ドリル"],

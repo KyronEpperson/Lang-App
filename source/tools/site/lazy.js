@@ -5,7 +5,7 @@ const skipIntro=async p=>{await p.waitForTimeout(800);await p.evaluate(()=>{cons
 // T1 fresh visitor (en browser)
 {const [c,p]=await mk({locale:'en-US',serviceWorkers:'block'});await p.goto(U);await skipIntro(p);
  ok('T1 no packs before choosing',p._packs.length===0,p._packs.join(','));
- await p.evaluate(()=>{const w=document.getElementById('welcome');if(w){const bs=w.querySelectorAll('.choice');bs[bs.length-1].click();}});await p.waitForTimeout(600);
+ await p.evaluate(()=>{const w=document.getElementById('welcome');if(w){const i=w.querySelector('#wNickIn');i.value='tester';w.querySelector('#wForm').requestSubmit();}});await p.waitForTimeout(300);await p.evaluate(()=>{const s=document.querySelector('#welcome #wSkip');if(s)s.click();});await p.waitForTimeout(600);
  const st=await p.evaluate(()=>({welcome:!!document.getElementById('welcome'),home:!!document.getElementById('langHome'),txt:(document.getElementById('welcome')||document.body).innerText.slice(0,200)}));
  if(st.welcome){ await p.evaluate(()=>{const w=document.getElementById('welcome');const i=w.querySelector('input');if(i){i.value='tester';i.dispatchEvent(new Event('input',{bubbles:true}));}const bs=[...w.querySelectorAll('button')];const g=bs.find(x=>/start|continue|go|시작|계속/i.test(x.textContent))||bs[0];g.click();});await p.waitForTimeout(900);}
  await p.evaluate(()=>{if(!document.getElementById('langHome'))showLangHome();});await p.waitForTimeout(300);

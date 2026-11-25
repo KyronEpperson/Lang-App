@@ -801,7 +801,11 @@ LANGAPP_PACKS.i18n.yue = {
     "Review missed": "溫返答錯嘅",
     "Practice these first": "先練呢啲",
     ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": "：先學 5 張新卡再小測，再學 5 張，同之前學過、最需要練習嘅卡（最多 15 張）混埋一齊小測，直到成個卡組學完。",
-    "Settings": "設定"
+    "Settings": "設定",
+    "I already have an account": "我已經有帳戶",
+    "Save your progress across devices?": "想唔想跨裝置儲存你嘅進度？",
+    "Optional. Add your email and your progress follows you to any phone or computer. No password.": "可以唔填。加入電郵，你嘅進度喺邊部手機或者電腦都跟住你。唔使密碼。",
+    "Skip for now": "暫時略過"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · 操練"],

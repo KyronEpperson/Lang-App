@@ -736,7 +736,11 @@ LANGAPP_PACKS.i18n.ko = {
     "Review missed": "틀린 카드 복습",
     "Practice these first": "이 카드 먼저 연습하기",
     ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 새 카드 5장을 배우고 퀴즈, 또 5장을 배우고 앞서 배운 카드 중 연습이 가장 필요한 최대 15장과 섞어서 퀴즈 — 덱을 끝낼 때까지 반복해요.",
-    "Settings": "설정"
+    "Settings": "설정",
+    "I already have an account": "이미 계정이 있어요",
+    "Save your progress across devices?": "진도를 여러 기기에 저장할까요?",
+    "Optional. Add your email and your progress follows you to any phone or computer. No password.": "선택 사항이에요. 이메일을 추가하면 어느 휴대폰이나 컴퓨터에서도 진도가 이어져요. 비밀번호는 필요 없어요.",
+    "Skip for now": "나중에 하기"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · 훈련"],

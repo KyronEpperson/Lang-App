@@ -801,7 +801,11 @@ LANGAPP_PACKS.i18n.id = {
     "Review missed": "Ulangi yang salah",
     "Practice these first": "Latih kartu ini dulu",
     ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 kartu baru, kuis, 5 lagi, kuis campur dengan maksimal 15 kartu sebelumnya yang paling perlu kamu latih, sampai deknya selesai.",
-    "Settings": "Pengaturan"
+    "Settings": "Pengaturan",
+    "I already have an account": "Saya sudah punya akun",
+    "Save your progress across devices?": "Simpan progresmu di semua perangkat?",
+    "Optional. Add your email and your progress follows you to any phone or computer. No password.": "Opsional. Tambahkan emailmu dan progresmu ikut ke ponsel atau komputer mana pun. Tanpa kata sandi.",
+    "Skip for now": "Lewati dulu"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Drill"],

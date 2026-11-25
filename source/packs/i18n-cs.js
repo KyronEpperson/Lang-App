@@ -801,7 +801,11 @@ LANGAPP_PACKS.i18n.cs = {
     "Review missed": "Projít chybné",
     "Practice these first": "Nejdřív procvičit tyto",
     ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 nových kartiček, kvíz, dalších 5, kvíz i s nejvýše 15 dřívějšími kartičkami, které nejvíc potřebuješ procvičit – a tak dál, dokud balíček není hotový.",
-    "Settings": "Nastavení"
+    "Settings": "Nastavení",
+    "I already have an account": "Už mám účet",
+    "Save your progress across devices?": "Ukládat tvůj pokrok na všech zařízeních?",
+    "Optional. Add your email and your progress follows you to any phone or computer. No password.": "Nepovinné. Přidej e-mail a tvůj pokrok tě bude provázet na každém telefonu i počítači. Bez hesla.",
+    "Skip for now": "Zatím přeskočit"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Drily"],

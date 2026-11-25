@@ -5443,6 +5443,30 @@
    "ko": "설정",
    "kind": "label",
    "context": "title of the settings sheet opened by the gear button in the header (audio, speed, deck options)"
+  },
+  "I already have an account": {
+   "t": "アカウントをお持ちの方",
+   "ko": "이미 계정이 있어요",
+   "kind": "label",
+   "context": "pre-native welcome step 1 (nickname): small button under Continue, opens the email sign-in step for someone returning on a new device"
+  },
+  "Save your progress across devices?": {
+   "t": "記録を複数の端末に保存しますか？",
+   "ko": "진도를 여러 기기에 저장할까요?",
+   "kind": "sentence",
+   "context": "pre-native welcome step 2: heading over the optional email box, shown after the nickname step"
+  },
+  "Optional. Add your email and your progress follows you to any phone or computer. No password.": {
+   "t": "任意です。メールアドレスを追加すると、どのスマホやパソコンでも記録を引き継げます。パスワードは不要です。",
+   "ko": "선택 사항이에요. 이메일을 추가하면 어느 휴대폰이나 컴퓨터에서도 진도가 이어져요. 비밀번호는 필요 없어요.",
+   "kind": "sentence",
+   "context": "pre-native welcome step 2: one paragraph under the heading; the email is optional, sign-in is by emailed link, no password"
+  },
+  "Skip for now": {
+   "t": "今はスキップ",
+   "ko": "나중에 하기",
+   "kind": "label",
+   "context": "pre-native welcome step 2: button that finishes without an email (progress stays on this device)"
   }
  },
  "patterns": {

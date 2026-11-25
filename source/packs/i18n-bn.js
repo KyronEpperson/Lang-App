@@ -801,7 +801,11 @@ LANGAPP_PACKS.i18n.bn = {
     "Review missed": "ভুলগুলো আবার দেখুন",
     "Practice these first": "আগে এগুলো অনুশীলন করুন",
     ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5টি নতুন কার্ড, তারপর সেগুলোর কুইজ, আরও 5টি, তারপর আগের যে কার্ডগুলোর অনুশীলন সবচেয়ে বেশি দরকার, সেগুলোর সর্বোচ্চ 15টি মিলিয়ে কুইজ — ডেক শেষ না হওয়া পর্যন্ত।",
-    "Settings": "সেটিংস"
+    "Settings": "সেটিংস",
+    "I already have an account": "আমার আগে থেকেই অ্যাকাউন্ট আছে",
+    "Save your progress across devices?": "আপনার অগ্রগতি সব ডিভাইসে সেভ করবেন?",
+    "Optional. Add your email and your progress follows you to any phone or computer. No password.": "ঐচ্ছিক। ইমেইল যোগ করলে যেকোনো ফোন বা কম্পিউটারে আপনার অগ্রগতি পাবেন। পাসওয়ার্ড লাগে না।",
+    "Skip for now": "এখন বাদ দিন"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ড্রিল"],

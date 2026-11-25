@@ -801,7 +801,11 @@ LANGAPP_PACKS.i18n.pa = {
     "Review missed": "ਗਲਤ ਵਾਲੇ ਦੁਹਰਾਓ",
     "Practice these first": "ਪਹਿਲਾਂ ਇਹਨਾਂ ਦਾ ਅਭਿਆਸ ਕਰੋ",
     ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 ਨਵੇਂ ਕਾਰਡ, ਉਹਨਾਂ ਦਾ ਕੁਇਜ਼, ਫਿਰ 5 ਹੋਰ, ਫਿਰ ਪਹਿਲਾਂ ਦੇ ਵੱਧ ਤੋਂ ਵੱਧ 15 ਅਜਿਹੇ ਕਾਰਡ ਰਲਾ ਕੇ ਕੁਇਜ਼ ਜਿਨ੍ਹਾਂ ਨੂੰ ਅਭਿਆਸ ਦੀ ਸਭ ਤੋਂ ਵੱਧ ਲੋੜ ਹੈ — ਜਦੋਂ ਤੱਕ ਡੈੱਕ ਪੂਰਾ ਨਹੀਂ ਹੋ ਜਾਂਦਾ।",
-    "Settings": "ਸੈਟਿੰਗਾਂ"
+    "Settings": "ਸੈਟਿੰਗਾਂ",
+    "I already have an account": "ਮੇਰਾ ਅਕਾਊਂਟ ਪਹਿਲਾਂ ਤੋਂ ਹੈ",
+    "Save your progress across devices?": "ਆਪਣੀ ਤਰੱਕੀ ਹਰ ਡਿਵਾਈਸ ਉੱਤੇ ਸੇਵ ਕਰੀਏ?",
+    "Optional. Add your email and your progress follows you to any phone or computer. No password.": "ਮਰਜ਼ੀ ਹੈ। ਆਪਣੀ ਈਮੇਲ ਜੋੜੋ ਅਤੇ ਤੁਹਾਡੀ ਤਰੱਕੀ ਕਿਸੇ ਵੀ ਫ਼ੋਨ ਜਾਂ ਕੰਪਿਊਟਰ ਉੱਤੇ ਤੁਹਾਡੇ ਨਾਲ ਰਹੇਗੀ। ਪਾਸਵਰਡ ਨਹੀਂ ਚਾਹੀਦਾ।",
+    "Skip for now": "ਹੁਣ ਲਈ ਛੱਡੋ"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ਡਰਿੱਲ"],

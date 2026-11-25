@@ -801,7 +801,11 @@ LANGAPP_PACKS.i18n.zh = {
     "Review missed": "复习答错的卡片",
     "Practice these first": "先练习这些卡片",
     ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": "：先学 5 张新卡片并测验，再学 5 张，和之前学过、最需要练习的卡片（最多 15 张）混在一起测验，直到学完整个卡组。",
-    "Settings": "设置"
+    "Settings": "设置",
+    "I already have an account": "我已有账号",
+    "Save your progress across devices?": "要在多设备上保存你的进度吗？",
+    "Optional. Add your email and your progress follows you to any phone or computer. No password.": "可选。添加邮箱后，你的进度会同步到任何手机或电脑。无需密码。",
+    "Skip for now": "暂时跳过"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · 专项练习"],

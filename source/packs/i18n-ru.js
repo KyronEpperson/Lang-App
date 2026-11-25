@@ -801,7 +801,11 @@ LANGAPP_PACKS.i18n.ru = {
     "Review missed": "Повторить ошибки",
     "Practice these first": "Сначала потренировать эти",
     ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 новых карточек, тест по ним, ещё 5, тест вперемешку с пройденными карточками, которым больше всего нужна практика (не более 15), — и так до конца колоды.",
-    "Settings": "Настройки"
+    "Settings": "Настройки",
+    "I already have an account": "У меня уже есть аккаунт",
+    "Save your progress across devices?": "Сохранять твой прогресс на всех устройствах?",
+    "Optional. Add your email and your progress follows you to any phone or computer. No password.": "Необязательно. Добавь почту, и твой прогресс будет с тобой на любом телефоне или компьютере. Без пароля.",
+    "Skip for now": "Пока пропустить"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Тренажёр"],

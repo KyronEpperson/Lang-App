@@ -1674,3 +1674,9 @@ Owner, 2026-11-25: "lets start with the most used languages when we make updates
 
 ### FND-1 — batch 3 (2.121.0): most-used languages first
 Kii: "lets start with the most used languages when we make updates". Order changed from script families to use: en-es, en-fr, en-de, en-zh, with en-ru, en-th, en-am that were already written. One Opus writer each (116k to 171k tokens; French sent back once to drop a 26-card deck of letter names from lesson 1), one Opus cold review each (86k to 117k). Found by the test: three writers counted the opening lines as a section. Found by eye: Thai letter names ran out of their tiles (fixed in the engine). `tools/tests/foundations.js`: 194 checks. Not tested: native speakers, real phones.
+
+## WS-1 — prompt
+Kii: "lets also make the first screen a nickname choice then the second screen be the email option for saving progress across devices. i think a lot of people were getting confused when they are parallel". Rewritten: the welcome screen offers Email and Nickname side by side and new people think they must pick one; make it two steps in a row, nickname first, then an optional email to save progress across devices with a clear way to skip; whole app, all 27 interface languages, publishable key only.
+
+### WS-1 — results (2.122.0)
+`showWelcome`: step 1 nickname and Continue, step 2 optional email with "Skip for now"; "I already have an account" on step 1 for people returning on a new device. Four new lines in 27 dictionaries. Tests: harness guard `welcomeSteps` (step 1 has no email box and no side-by-side choices, an empty nickname is refused, the nickname is saved and trimmed, step 2 has the email box and Skip and does not focus the email box, Back keeps the nickname, the account path has no Skip, Skip finishes). Screens checked at 390 px and 1280 px in English, Spanish, Arabic, Japanese and German: no overflow. Not tested: a real sign-in email end to end, real phones, native speakers.

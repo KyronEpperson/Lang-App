@@ -801,7 +801,11 @@ LANGAPP_PACKS.i18n.vi = {
     "Review missed": "Ôn lại thẻ sai",
     "Practice these first": "Luyện các thẻ này trước",
     ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 thẻ mới, làm trắc nghiệm, thêm 5 thẻ, làm trắc nghiệm gồm cả tối đa 15 thẻ đã học mà bạn cần luyện thêm nhất, cho đến hết bộ thẻ.",
-    "Settings": "Cài đặt"
+    "Settings": "Cài đặt",
+    "I already have an account": "Tôi đã có tài khoản",
+    "Save your progress across devices?": "Lưu tiến độ của bạn trên mọi thiết bị?",
+    "Optional. Add your email and your progress follows you to any phone or computer. No password.": "Không bắt buộc. Thêm email và tiến độ sẽ theo bạn trên mọi điện thoại hay máy tính. Không cần mật khẩu.",
+    "Skip for now": "Tạm bỏ qua"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Kỹ năng"],

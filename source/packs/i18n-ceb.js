@@ -801,7 +801,11 @@ LANGAPP_PACKS.i18n.ceb = {
     "Review missed": "I-review ang mga nasayop",
     "Practice these first": "Praktisa una kini",
     ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 ka bag-ong card, i-quiz, 5 pa, i-quiz uban sa dili molapas sa 15 ka naunang card nga labing kinahanglan nimong praktison, hangtod mahuman ang deck.",
-    "Settings": "Mga Setting"
+    "Settings": "Mga Setting",
+    "I already have an account": "Naa na koy account",
+    "Save your progress across devices?": "I-save ang imong pag-uswag sa tanang device?",
+    "Optional. Add your email and your progress follows you to any phone or computer. No password.": "Opsyonal. Idugang ang imong email ug ang imong pag-uswag mouban nimo sa bisan unsang phone o computer. Walay password.",
+    "Skip for now": "Laktawi sa karon"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Mga drill"],

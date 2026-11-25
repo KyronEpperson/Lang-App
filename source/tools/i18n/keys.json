@@ -10,7 +10,7 @@
   "d": "text without \"·\", e.g. a deck name inside a \"·\"-separated line"
  },
  "counts": {
-  "exact": 801,
+  "exact": 805,
   "patterns": 278,
   "distinctPatternTemplates": 277
  },
@@ -1591,20 +1591,20 @@
    "key": "Nickname",
    "kind": "label",
    "section": "sync / account / sign-in / welcome",
-   "where": "js step1() <b>",
+   "where": "js step1() <input>",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
    "key": "What should we call you?",
    "kind": "sentence",
    "section": "sync / account / sign-in / welcome",
-   "where": "js step3() <h1>"
+   "where": "js step1() <h2>"
   },
   {
    "key": "Start learning",
    "kind": "label",
    "section": "sync / account / sign-in / welcome",
-   "where": "js step3() <button>"
+   "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   {
    "key": "Saved in this browser only. Clearing site data or switching devices loses progress — add an email any time in Progress to keep it safe.",
@@ -5526,6 +5526,30 @@
    "section": "added",
    "where": "html <button> @aria-label",
    "context": "short UI label (button, chip or heading); keep it short"
+  },
+  {
+   "key": "I already have an account",
+   "kind": "sentence",
+   "section": "added",
+   "where": "js B()"
+  },
+  {
+   "key": "Save your progress across devices?",
+   "kind": "sentence",
+   "section": "added",
+   "where": "js step2() <h1>"
+  },
+  {
+   "key": "Optional. Add your email and your progress follows you to any phone or computer. No password.",
+   "kind": "sentence",
+   "section": "added",
+   "where": "js step2() <p>"
+  },
+  {
+   "key": "Skip for now",
+   "kind": "label",
+   "section": "added",
+   "where": "js B()"
   }
  ],
  "patterns": [

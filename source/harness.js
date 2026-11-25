@@ -233,7 +233,7 @@ const ovr=async(p,label)=>{ const sw=await p.evaluate(()=>document.documentEleme
 { // brand-new visitor: welcome → language home; locked languages; 한국어 → 영어
   const {ctx,p}=await newCtx(null);
   mc.langHomeNew=await p.evaluate(()=>!!document.getElementById('welcome')&&!document.getElementById('langHome')&&needLangHome());
-  await p.evaluate(()=>{ document.querySelector('#wNick').click(); }); await p.fill('#wNickIn','Tester'); await p.evaluate(()=>document.querySelector('#wForm').requestSubmit()); await p.waitForTimeout(200);
+  await p.fill('#wNickIn','Tester'); await p.evaluate(()=>document.querySelector('#wForm').requestSubmit()); await p.waitForTimeout(120); await p.evaluate(()=>document.querySelector('#wSkip').click()); await p.waitForTimeout(200);
   mc.langHomeNew=mc.langHomeNew&&await p.evaluate(()=>!!document.getElementById('langHome')&&!document.getElementById('welcome'));
   await ovr(p,'langhome-1');
   mc.lockedDisabled=await p.evaluate(()=>{ const l=[...document.querySelectorAll('#langHome .lh-lock')]; const before=JSON.stringify(META); l.forEach(x=>x.click()); const allLive=!Object.keys(LANGS).some(k=>k!=='en'&&!LANGS[k].t&&!liveNatives().includes(k)); /* once every listed native language has a course, there is nothing left to lock */ return (l.length>0||allLive)&&l.every(x=>x.getAttribute('aria-disabled')==='true'&&!x.matches('button,a,input')&&x.tabIndex<0&&!x.querySelector('button,a'))&&JSON.stringify(META)===before&&!!document.getElementById('langHome'); });
@@ -407,12 +407,27 @@ else {
   for(const loc of ['en-US','ko-KR','ja-JP','sv-SE']){ const {ctx,p}=await newCtx(null,loc);
     out[loc]=await p.evaluate(async(loc)=>{ const H=s=>/[가-힣ㄱ-ㅣ]/.test(s), J=s=>/[぀-ヿ]/.test(s); const L=loc.slice(0,2); const hasJa=!!(LANGAPP_PACKS.i18n.ja&&COURSES['ja-en']);
       const want=L==='ko'?'ko':(L==='ja'&&hasJa)?'ja':'en'; const old=document.getElementById('welcome'); if(old) old.remove(); const lh=document.getElementById('langHome'); if(lh) lh.remove(); const sv=META.picked; META.picked=0;
-      showWelcome(); const w=document.getElementById('welcome'); const t1=w.innerText; w.querySelector('#wNick').click(); await new Promise(z=>setTimeout(z,90)); const t2=w.innerText+' '+w.querySelector('#wNickIn').placeholder;
-      w.querySelector('#wNickIn').value='T'; w.querySelector('#wForm').requestSubmit(); await new Promise(z=>setTimeout(z,200)); const h=document.getElementById('langHome'); const th=h?h.innerText.replace(/한국어|日本語/g,''):''; const hello=preBi('Hello','안녕하세요'), sub=introSub(false); META.picked=sv; if(h) h.remove();
-      const all=t1+' '+t2+' '+th+' '+hello+' '+sub; const enLine=/How should we save your progress\?/.test(t1), enQ=/What language do you speak\?/.test(th);
-      const ok=preLang()===want&&!!h&&(want==='en'?(enLine&&enQ&&!H(all)&&!J(all)&&hello==='Hello'&&sub==='Learn a language, 5 minutes a day'):want==='ko'?(!enLine&&!enQ&&/진도를 어떻게 저장할까요\?/.test(t1)&&/어떤 언어를 사용하세요\?/.test(th)&&!J(all)&&hello==='안녕하세요'&&sub==='하루 5분'):(!enLine&&!enQ&&J(t1)&&J(th)&&!H(all)));
+      showWelcome(); const w=document.getElementById('welcome'); const t1=w.innerText+' '+w.querySelector('#wNickIn').placeholder;
+      w.querySelector('#wNickIn').value='T'; w.querySelector('#wForm').requestSubmit(); await new Promise(z=>setTimeout(z,90)); const t2=w.innerText; w.querySelector('#wSkip').click(); await new Promise(z=>setTimeout(z,200)); const h=document.getElementById('langHome'); const th=h?h.innerText.replace(/한국어|日本語/g,''):''; const hello=preBi('Hello','안녕하세요'), sub=introSub(false); META.picked=sv; if(h) h.remove();
+      const all=t1+' '+t2+' '+th+' '+hello+' '+sub; const enLine=/What should we call you\?/.test(t1)&&/Save your progress across devices\?/.test(t2), enQ=/What language do you speak\?/.test(th);
+      const ok=preLang()===want&&!!h&&(want==='en'?(enLine&&enQ&&!H(all)&&!J(all)&&hello==='Hello'&&sub==='Learn a language, 5 minutes a day'):want==='ko'?(!enLine&&!enQ&&/어떻게 불러 드릴까요\?/.test(t1)&&/진도를 여러 기기에 저장할까요\?/.test(t2)&&/어떤 언어를 사용하세요\?/.test(th)&&!J(all)&&hello==='안녕하세요'&&sub==='하루 5분'):(!enLine&&!enQ&&J(t1)&&J(th)&&!H(all)));
       return ok||(want+' | '+t1.slice(0,200)+' | '+th.slice(0,200)+' | '+hello+' | '+sub); },loc).catch(e=>'ERR '+e.message); await ctx.close(); }
   res.checks.fxPreNative=out; mc.fxPreNative=Object.values(out).every(v=>v===true); }
+{ // WS-1: the welcome screen asks one thing per screen: nickname first, then the optional email with "Skip for now"; nothing is chosen side by side
+  const {ctx,p}=await newCtx(null,'en-US');
+  mc.welcomeSteps=await p.evaluate(async()=>{ const z=ms=>new Promise(r=>setTimeout(r,ms||90)); const q=s=>document.querySelector('#welcome '+s); const lh0=document.getElementById('langHome'); if(lh0) lh0.remove(); const old=document.getElementById('welcome'); if(old) old.remove();
+    S.nick=''; S.welcomed=0; showWelcome();
+    if(!q('#wNickIn')||q('#wMail')||q('#wEmail')||q('#wNick')||q('.choice')||!q('#wHave')||!q('#wPriv')||!/1 \/ 2/.test(q('.wbox').innerText)) return 'step1 '+q('.wbox').innerText.slice(0,120);
+    q('#wForm').requestSubmit(); await z(); if(!q('#wNickIn')||S.nick) return 'empty nickname accepted';
+    q('#wNickIn').value='  Mina  '; q('#wForm').requestSubmit(); await z();
+    if(S.nick!=='Mina'||S.welcomed||!q('#wMail')||!q('#wSkip')||q('#wNickIn')||!/2 \/ 2/.test(q('.wbox').innerText)||!/Optional\./.test(q('.wbox').innerText)||!/Add an email later in Progress/.test(q('.wbox').innerText)) return 'step2 '+q('.wbox').innerText.slice(0,160);
+    if(document.activeElement===q('#wMail')) return 'email focused (keyboard would cover Skip on a phone)';
+    q('#wBack').click(); await z(); if(!q('#wNickIn')||q('#wNickIn').value!=='Mina') return 'back lost the nickname';
+    q('#wHave').click(); await z(); if(!q('#wMail')||q('#wSkip')||/2 \/ 2/.test(q('.wbox').innerText)) return 'have-account step';
+    q('#wBack').click(); await z(); q('#wForm').requestSubmit(); await z(); q('#wSkip').click(); await z(200);
+    if(document.getElementById('welcome')||!S.welcomed||S.nick!=='Mina'||welcomeNeeded()) return 'skip did not finish';
+    const h=document.getElementById('langHome'); if(h) h.remove(); return true; }).catch(e=>'ERR '+e.message);
+  await ctx.close(); }
 { // step 1 lists Japanese; selecting it + the course switches COURSE.id, <html lang> and uiLang(); LL / langName / runner / language home under the fixture
   const seed={'ko-app2':JSON.stringify({nick:'K',welcomed:1,onboard:{skipped:1},hintSeen:1,tourDone:1,free:1}),'la-meta':JSON.stringify({v:1,native:'en',course:'en-ko',picked:1,seenHome:1,prefs:{}})};
   const {ctx,p}=await newCtx(seed); await p.evaluate(()=>{ window.ALLH=s=>/[가-힣ㄱ-ㅣ]/.test(s); }); await fxInject(p,false);
@@ -499,8 +514,8 @@ else {
     await p.goto('file://'+OUT2); await p.waitForTimeout(300); await p.evaluate(()=>{ window.ALLH=s=>/[가-힣ㄱ-ㅣ]/.test(s); const c=document.getElementById('fx3d'); if(c) c.style.display='none'; }); return {ctx,p}; };
   const bt={};
   { const {ctx,p}=await ctxAt(null,'ja-JP'); // fresh Japanese visitor: first paint is Japanese only, language home lists Japanese, picking it lands in ja-en with the ja UI
-    bt.freshJa=await p.evaluate(async()=>{ const w=document.getElementById('welcome'); if(!w) return 'no welcome'; const t=w.innerText; if(!/📧 メール/.test(t)||/Email ·/.test(t)||ALLH(t)||w.querySelector('[lang="ko"]')||preLang()!=='ja') return 'welcome '+t.slice(0,120);
-      w.querySelector('#wNick').click(); await new Promise(z=>setTimeout(z,90)); w.querySelector('#wNickIn').value='J'; w.querySelector('#wForm').requestSubmit(); await new Promise(z=>setTimeout(z,250));
+    bt.freshJa=await p.evaluate(async()=>{ const w=document.getElementById('welcome'); if(!w) return 'no welcome'; const t=w.innerText; if(w.querySelector('#wNickIn').placeholder!=='ニックネーム'||w.querySelector('#wEmail')||ALLH(t)||w.querySelector('[lang="ko"]')||preLang()!=='ja') return 'welcome '+t.slice(0,120);
+      w.querySelector('#wNickIn').value='J'; w.querySelector('#wForm').requestSubmit(); await new Promise(z=>setTimeout(z,90)); w.querySelector('#wSkip').click(); await new Promise(z=>setTimeout(z,250));
       const h=document.getElementById('langHome'); if(!h||!/何語を話しますか？/.test(h.textContent)||!h.querySelector('[data-native="ja"]')) return 'step1'; h.querySelector('[data-native="ja"]').click(); h.querySelector('[data-course="ja-en"]').click(); await new Promise(z=>setTimeout(z,250));
       return COURSE.id==='ja-en'&&uiLang()==='ja'&&document.documentElement.lang==='ja'&&!!COURSES['ja-en']&&!COURSES['ja-en'].builtin||'pick '+COURSE.id; });
     await ctx.close(); }

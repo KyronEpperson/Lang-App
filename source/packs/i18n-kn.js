@@ -801,7 +801,11 @@ LANGAPP_PACKS.i18n.kn = {
     "Review missed": "ತಪ್ಪಾದವು ರಿವ್ಯೂ ಮಾಡಿ",
     "Practice these first": "ಮೊದಲು ಇವನ್ನು ಅಭ್ಯಾಸ ಮಾಡಿ",
     ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 ಹೊಸ ಕಾರ್ಡ್, ಅವುಗಳ ಕ್ವಿಜ್, ಮತ್ತೆ 5 ಕಾರ್ಡ್, ನಂತರ ಹಿಂದಿನ ಕಾರ್ಡ್‌ಗಳಲ್ಲಿ ಹೆಚ್ಚು ಅಭ್ಯಾಸ ಬೇಕಾದ ಗರಿಷ್ಠ 15 ಕಾರ್ಡ್ ಸೇರಿಸಿ ಕ್ವಿಜ್ — ಡೆಕ್ ಮುಗಿಯುವವರೆಗೆ.",
-    "Settings": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
+    "Settings": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+    "I already have an account": "ನನಗೆ ಈಗಾಗಲೇ ಖಾತೆ ಇದೆ",
+    "Save your progress across devices?": "ನಿಮ್ಮ ಪ್ರಗತಿಯನ್ನು ಎಲ್ಲ ಸಾಧನಗಳಲ್ಲಿ ಉಳಿಸಬೇಕೇ?",
+    "Optional. Add your email and your progress follows you to any phone or computer. No password.": "ಐಚ್ಛಿಕ. ನಿಮ್ಮ ಇಮೇಲ್ ಸೇರಿಸಿದರೆ ಯಾವುದೇ ಫೋನ್ ಅಥವಾ ಕಂಪ್ಯೂಟರ್‌ನಲ್ಲಿ ನಿಮ್ಮ ಪ್ರಗತಿ ಸಿಗುತ್ತದೆ. ಪಾಸ್‌ವರ್ಡ್ ಬೇಕಿಲ್ಲ.",
+    "Skip for now": "ಸದ್ಯಕ್ಕೆ ಬಿಟ್ಟುಬಿಡಿ"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ಡ್ರಿಲ್"],
