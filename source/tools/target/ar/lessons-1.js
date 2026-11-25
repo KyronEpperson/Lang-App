@@ -5,12 +5,17 @@ module.exports = [
     title: "The 28 letters, family by family",
     blurb: "Name and sound the Arabic letters, tell look-alikes apart by their dots, and read your first words.",
     deck: "Letters 1: alif to sad",
+    sections: [null, "Letters 1: alif to sad", null, null, null],
     body: `
 <p>Arabic is read from right to left, and most letters join to the next one, like handwriting. There are 28 letters. They write the consonants and long vowels; short vowels are small marks, taught in lesson 3.</p>
 <h3>Learn the letters in shape families</h3>
 <p>Many letters share one shape and differ only in their dots: how many, and above or below.</p>
 <div class="tbl"><table><tr><th>Family</th><th>Sounds</th><th>What tells them apart</th></tr><tr><td class="k">ب ت ث ن ي</td><td>b, t, th, n, y</td><td>one dot below, two above, three above, one above, two below</td></tr><tr><td class="k">ج ح خ</td><td>j, ḥ, kh</td><td>a dot inside, no dot, a dot above</td></tr><tr><td class="k">د ذ</td><td>d, dh</td><td>no dot, a dot above</td></tr><tr><td class="k">ر ز</td><td>r, z</td><td>no dot, a dot above</td></tr><tr><td class="k">س ش</td><td>s, sh</td><td>no dots, three dots above</td></tr><tr><td class="k">ص ض</td><td>ṣ, ḍ</td><td>no dot, a dot above</td></tr><tr><td class="k">ط ظ</td><td>ṭ, ẓ</td><td>no dot, a dot above</td></tr><tr><td class="k">ع غ</td><td>ʿ, gh</td><td>no dot, a dot above</td></tr><tr><td class="k">ف ق</td><td>f, q</td><td>one dot, two dots</td></tr><tr><td class="k">ا ك ل م ه و</td><td>ā, k, l, m, h, w</td><td>shapes of their own</td></tr></table></div>
 <p>Under every Arabic word in this course there is a romanisation line. Its <i>th</i> (as in "think"), <i>dh</i> (as in "this"), <i>kh</i>, <i>gh</i> and <i>sh</i> are each one sound, written with two English letters. A dot under a letter, as in <i>ḥ ṣ ḍ ṭ ẓ</i>, means the throat or heavy version of a sound; lesson 2 is about those. The letter ج is said as the <i>j</i> of "jam" here, as on the news; in Egypt people say it as a hard g.</p>
+<h3>The first 14 letters: ا to ص</h3>
+<p>Here are the first 14 letters in alphabet order, each standing alone. A letter's name starts with its sound: <i>bāʾ</i> is b, <i>jīm</i> is j. ا <i>alif</i> is the one exception: it is the long ā, or a seat for other signs. Tap a letter to hear its name and see its sound, then find its family in the table above.</p>
+{{tiles:ا ب ت ث ج ح خ د ذ ر ز س ش ص}}
+<p>The other 14, ض to ي, get their tiles and cards in lesson 4, where you also see how letters join.</p>
 <h3>Your first words</h3>
 <p>The dots decide the word: بَيْت <i>bayt</i> is "house" and بِنْت <i>bint</i> is "girl". Read each word right to left, then check the romanisation.</p>
 {{ex:بَيْت|bayt|house}}
@@ -26,7 +31,6 @@ module.exports = [
 <p>The second sign is ال at the start of a word. It means "the": الْبَيْت <i>al-bayt</i> is "the house". Lesson 7 is all about it.</p>
 <h3>Which Arabic?</h3>
 <p>You are learning the Arabic everyone reads and everyone understands: Modern Standard Arabic (MSA), the language of books, signs, news and speeches in every Arab country. People chat in their own dialect; you'll hear different words in Cairo and in Amman. The Spoken Arabic deck shows you the most common ones. The Qurʾan uses the same script, but this course teaches modern Arabic, not Qurʾanic recitation.</p>
-<p>The Letters 1 deck has the first 14 letters with their names and sounds; Letters 2 has the other 14.</p>
 <div class="tip"><b>Most common mistake:</b> ignoring the dots. Reading بِنْت "girl" as بَيْت "house" → look at the middle letter: one dot above is ن, so the word is بِنْت; two dots below would be ي.</div>
 `,
     check: [
@@ -56,6 +60,7 @@ module.exports = [
     title: "Throat and heavy sounds",
     blurb: "Hear and roughly say the Arabic sounds English lacks, and tell word pairs like heart and dog apart.",
     deck: "Sound pairs",
+    sections: [[{"deck": "Sound pairs", "n": [6, 8]}, {"deck": "Sound pairs", "n": [9, 12]}], null, [{"deck": "Sound pairs", "n": [0, 2]}, {"deck": "Sound pairs", "n": [8, 9]}], {"deck": "Sound pairs", "n": [2, 6]}, {"deck": "Sound pairs", "n": [12, 16]}],
     body: `
 <p>Arabic has sounds English doesn't, and they change meaning. You don't need a perfect accent, but you do need to keep them apart. Listen to the audio, then say each pair aloud.</p>
 <h3>Three sounds from the throat</h3>
@@ -76,6 +81,10 @@ module.exports = [
 {{ex:سَيْف|sayf|sword}}
 {{ex:طِين|ṭīn|mud}}
 {{ex:تِين|tīn|figs}}
+<h3>Long and doubled sounds</h3>
+<p>Two more differences change a word. A held vowel: جَمَل <i>jamal</i> is "camel", جَمَال <i>jamāl</i> is "beauty". A held consonant: دَرَسَ <i>darasa</i> is "he studied", دَرَّسَ <i>darrasa</i> is "he taught". Lesson 3 shows how long vowels are written and lesson 5 the doubling mark; for now, listen for the length.</p>
+{{ex:جَمَل|jamal|camel}}
+{{ex:جَمَال|jamāl|beauty}}
 <p>The Sound pairs deck drills all of these. Say both words of a pair until you can feel the difference in your throat and tongue.</p>
 <div class="tip"><b>Most common mistake:</b> swapping in the nearest English sound. Saying قَلْب "heart" with an English k, which gives كَلْب "dog" → start the q further back, where you swallow, and let the vowel after it sound darker.</div>
 `,
@@ -106,6 +115,7 @@ module.exports = [
     title: "Short and long vowels",
     blurb: "Read the three short vowel marks and the three long vowels, and hear why length changes a word.",
     deck: "Vowels and marks",
+    sections: [null, {"deck": "Vowels and marks", "n": [0, 4]}, null],
     body: `
 <p>Arabic letters write the consonants and the long vowels. The short vowels are small signs, the vowel marks, above or below a letter. Newspapers, signs and books for adults usually leave them out, because readers know the words. Books for beginners put them on everything, and so does this course.</p>
 <h3>Three short vowels</h3>
@@ -154,13 +164,20 @@ module.exports = [
     title: "Joining letters: start, middle, end",
     blurb: "Find a letter at the start, middle and end of a word, and spot the six letters that never join forward.",
     deck: "Letters 2: dad to ya",
+    sections: [null, "Letters 2: dad to ya", null, null, null, [{"deck": "Vowels and marks", "n": [14, 15]}, {"name": "Joined words", "cards": [["بَاب", "bāb", "door", "بـ start, ـا end. ا never joins forward, so the last ب stands alone: ب."], ["كِتَاب", "kitāb", "book", "كـ start, ـتـ middle, ـا end; after the gap, ب alone."], ["وَلَد", "walad", "boy", "و alone (it never joins forward), then لـ start, ـد end."], ["قَلَم", "qalam", "pen", "قـ start, ـلـ middle, ـم end: one unbroken word."], ["جَدِيد", "jadīd", "new", "جـ start, ـد end; after the gap, يـ start, ـد end. Kasra + ي is the long ī."], ["كَبِير", "kabīr", "big", "كـ start, ـبـ middle, ـيـ middle, ـر end."], ["صَغِير", "ṣaghīr", "small", "صـ start, ـغـ middle, ـيـ middle, ـر end. In the middle, غ is a small closed loop with a dot."], ["طَالِب", "ṭālib", "student (a man)", "طـ start, ـا end; after the gap, لـ start, ـب end."], ["شَارِع", "shāriʿ", "street", "شـ start, ـا end; after the gap, ر alone; ر never joins forward, so ع stands alone too."], ["سُوق", "sūq", "market", "سـ start, ـو end; after the gap, ق alone. Damma + و is the long ū."], ["نُور", "nūr", "light", "نـ start, ـو end; after the gap, ر alone."], ["مَدِينَة", "madīna", "city", "مـ start, ـد end; after the gap, يـ start, ـنـ middle, ـة end."], ["سَمَك", "samak", "fish", "سـ start, ـمـ middle, ـك end."], ["حَلِيب", "ḥalīb", "milk", "حـ start, ـلـ middle, ـيـ middle, ـب end."], ["صَدِيق", "ṣadīq", "friend", "صـ start, ـد end; after the gap, يـ start, ـق end."], ["سَلَام", "salām", "peace", "سـ start, then ل and ا melt into one shape, ـلا; after the gap, م alone."], ["ثَلَاثَة", "thalātha", "three", "ثـ start, ـلا (lām alif); after the gap, ثـ start, ـة end."], ["مَطَار", "maṭār", "airport", "مـ start, ـطـ middle, ـا end; after the gap, ر alone."]]}]],
     body: `
 <p>Inside a word, Arabic letters are joined, the way English handwriting is. A letter changes shape a little depending on whether it starts a word, sits in the middle or ends it. In the tables, the line ـ shows where a letter joins its neighbour.</p>
 <h3>Start, middle, end</h3>
 <p>Most letters keep their main body and drop their tail when another letter follows. ب is a good model:</p>
-<div class="tbl"><table><tr><th>Alone</th><th>Start</th><th>Middle</th><th>End</th></tr><tr><td class="k">ب</td><td class="k">بـ</td><td class="k">ـبـ</td><td class="k">ـب</td></tr><tr><td class="k">س</td><td class="k">سـ</td><td class="k">ـسـ</td><td class="k">ـس</td></tr></table></div>
+<div class="tbl"><table><tr><th>Alone</th><th>Start</th><th>Middle</th><th>End</th></tr><tr><td class="k">ب</td><td class="k">بـ</td><td class="k">ـبـ</td><td class="k">ـب</td></tr></table></div>
+<p>Here are the first 14 letters in all four forms. ا د ذ ر ز never join to the letter after them, so their start form is the same as alone and their middle form is the same as end: the next section explains why.</p>
+<div class="tbl"><table><tr><th>Alone</th><th>Start</th><th>Middle</th><th>End</th></tr><tr><td class="k">ا</td><td class="k">ا</td><td class="k">ـا</td><td class="k">ـا</td></tr><tr><td class="k">ب</td><td class="k">بـ</td><td class="k">ـبـ</td><td class="k">ـب</td></tr><tr><td class="k">ت</td><td class="k">تـ</td><td class="k">ـتـ</td><td class="k">ـت</td></tr><tr><td class="k">ث</td><td class="k">ثـ</td><td class="k">ـثـ</td><td class="k">ـث</td></tr><tr><td class="k">ج</td><td class="k">جـ</td><td class="k">ـجـ</td><td class="k">ـج</td></tr><tr><td class="k">ح</td><td class="k">حـ</td><td class="k">ـحـ</td><td class="k">ـح</td></tr><tr><td class="k">خ</td><td class="k">خـ</td><td class="k">ـخـ</td><td class="k">ـخ</td></tr><tr><td class="k">د</td><td class="k">د</td><td class="k">ـد</td><td class="k">ـد</td></tr><tr><td class="k">ذ</td><td class="k">ذ</td><td class="k">ـذ</td><td class="k">ـذ</td></tr><tr><td class="k">ر</td><td class="k">ر</td><td class="k">ـر</td><td class="k">ـر</td></tr><tr><td class="k">ز</td><td class="k">ز</td><td class="k">ـز</td><td class="k">ـز</td></tr><tr><td class="k">س</td><td class="k">سـ</td><td class="k">ـسـ</td><td class="k">ـس</td></tr><tr><td class="k">ش</td><td class="k">شـ</td><td class="k">ـشـ</td><td class="k">ـش</td></tr><tr><td class="k">ص</td><td class="k">صـ</td><td class="k">ـصـ</td><td class="k">ـص</td></tr></table></div>
 <p>The dots never move, so the family is still easy to tell apart. In كِتَاب <i>kitāb</i> you read, from the right: ك in its start form, ت in its middle form, then ا, then ب standing alone.</p>
 {{ex:كِتَاب|kitāb|book}}
+<h3>The last 14 letters, ض to ي</h3>
+<p>Lesson 1 gave you the first 14 letters one by one. Here are the other 14, first standing alone: tap a letter to hear its name and see its sound. Below them are their four forms. Most follow the ب pattern. ع and غ look open at the start of a word and like a small closed loop in the middle. ه gets a section of its own below.</p>
+{{tiles:ض ط ظ ع غ ف ق ك ل م ن ه و ي}}
+<div class="tbl"><table><tr><th>Alone</th><th>Start</th><th>Middle</th><th>End</th></tr><tr><td class="k">ض</td><td class="k">ضـ</td><td class="k">ـضـ</td><td class="k">ـض</td></tr><tr><td class="k">ط</td><td class="k">طـ</td><td class="k">ـطـ</td><td class="k">ـط</td></tr><tr><td class="k">ظ</td><td class="k">ظـ</td><td class="k">ـظـ</td><td class="k">ـظ</td></tr><tr><td class="k">ع</td><td class="k">عـ</td><td class="k">ـعـ</td><td class="k">ـع</td></tr><tr><td class="k">غ</td><td class="k">غـ</td><td class="k">ـغـ</td><td class="k">ـغ</td></tr><tr><td class="k">ف</td><td class="k">فـ</td><td class="k">ـفـ</td><td class="k">ـف</td></tr><tr><td class="k">ق</td><td class="k">قـ</td><td class="k">ـقـ</td><td class="k">ـق</td></tr><tr><td class="k">ك</td><td class="k">كـ</td><td class="k">ـكـ</td><td class="k">ـك</td></tr><tr><td class="k">ل</td><td class="k">لـ</td><td class="k">ـلـ</td><td class="k">ـل</td></tr><tr><td class="k">م</td><td class="k">مـ</td><td class="k">ـمـ</td><td class="k">ـم</td></tr><tr><td class="k">ن</td><td class="k">نـ</td><td class="k">ـنـ</td><td class="k">ـن</td></tr><tr><td class="k">ه</td><td class="k">هـ</td><td class="k">ـهـ</td><td class="k">ـه</td></tr><tr><td class="k">و</td><td class="k">و</td><td class="k">ـو</td><td class="k">ـو</td></tr><tr><td class="k">ي</td><td class="k">يـ</td><td class="k">ـيـ</td><td class="k">ـي</td></tr></table></div>
 <h3>Six letters that never join forward</h3>
 <p>ا د ذ ر ز و join to the letter before them, never to the letter after. Each one leaves a small gap, so a word can look like several pieces. سَيَّارَة <i>sayyāra</i> breaks after ا and after ر, but it is still one word.</p>
 {{ex:سَيَّارَة|sayyāra|car}}
@@ -174,7 +191,9 @@ module.exports = [
 <h3>لا: lām plus alif</h3>
 <p>When ل is followed by ا, the two melt into one shape, لا. You'll see it in لَا <i>lā</i>, "no".</p>
 {{ex:لَا|lā|no}}
-<p>The app has no handwriting practice, but copying the letters by hand on paper helps many learners remember them. The Letters 2 deck has the last 14 letters, ض to ي.</p>
+<h3>Read joined words, letter by letter</h3>
+<p>Now put it together. Take one word at a time, start on the right, and name each letter and its form: in قَلَم <i>qalam</i> "pen", ق is in its start form, ل in its middle form and م in its end form. Where a word breaks after ا د ذ ر ز و, the next letter starts again. The cards below are real words that use only the letters and vowels you know. Read each one aloud before you flip it; the back shows how it breaks into letters.</p>
+<p>The app has no handwriting practice, but copying the letters by hand on paper helps many learners remember them.</p>
 <div class="tip"><b>Most common mistake:</b> taking a gap for a space. Reading سَيَّارَة as two words because of the gap after ا → it is one word: ا never joins the next letter, so a small gap opens inside the word.</div>
 `,
     check: [
@@ -204,14 +223,17 @@ module.exports = [
     title: "Sukun and shadda",
     blurb: "Read sukun (no vowel), shadda (a doubled letter) and the gliding vowels aw and ay.",
     deck: "Vowels and marks",
+    sections: [null, null, {"deck": "Vowels and marks", "n": [4, 8]}, null],
     body: `
 <p>Two more vowel marks complete the set you need for reading. Both sit above the letter, and English-language textbooks call them by their Arabic names too: sukun and shadda.</p>
 <h3>Sukun: no vowel here</h3>
 <p>Sukun is a small circle above a letter. It means the letter has no vowel after it: the next consonant follows straight on. English speakers like to slip a little vowel between two consonants; sukun says don't. In مَكْتَب <i>maktab</i> "office", ك carries sukun, so the word has two beats, not three: no vowel between k and t.</p>
+<div class="tbl"><table><tr><th>Mark</th><th>Name</th><th>Sound</th></tr><tr><td class="k">بْ</td><td>sukun: a small circle above</td><td>b, with no vowel after it</td></tr></table></div>
 {{ex:مَكْتَب|maktab|office; desk}}
 {{ex:قَلْب|qalb|heart}}
 <h3>Shadda: a doubled letter</h3>
 <p>Shadda is a small w-shaped sign. It doubles the letter: you hold it a moment longer, the way English holds the k in "bookcase". It is one long sound, not two separate ones. The romanisation writes the letter twice.</p>
+<div class="tbl"><table><tr><th>Mark</th><th>Name</th><th>Sound</th></tr><tr><td class="k">بّ</td><td>shadda: a small w above</td><td>bb, a held b</td></tr><tr><td class="k">بَّ</td><td>shadda with fatha</td><td>bba</td></tr></table></div>
 {{ex:مُدَرِّسَة|mudarrisa|teacher (a woman)}}
 {{ex:سَيَّارَة|sayyāra|car}}
 <p>Shadda can change the word. A teacher, مُدَرِّس <i>mudarris</i>, is someone who teaches, and "he taught" has the same doubled r:</p>
@@ -219,6 +241,7 @@ module.exports = [
 {{ex:دَرَّسَ|darrasa|he taught}}
 <h3>Gliding vowels: aw and ay</h3>
 <p>Fatha followed by و or ي with sukun makes a gliding vowel: <i>aw</i>, close to the ow in "how", and <i>ay</i>, close to the i in "bite". Here و and ي are neither plain consonants nor long vowels, and the romanisation shows the glide as two letters.</p>
+<div class="tbl"><table><tr><th>Letters</th><th>Sound</th></tr><tr><td class="k">بَوْ</td><td>baw, close to "bough"</td></tr><tr><td class="k">بَيْ</td><td>bay, close to "buy"</td></tr></table></div>
 {{ex:بَيْت|bayt|house}}
 {{ex:يَوْم|yawm|day}}
 <h3>Reading a whole word</h3>
@@ -253,22 +276,29 @@ module.exports = [
     title: "Hamza, alif maqsura and tanwin",
     blurb: "Read hamza on its seats, ى at the end of a word, ة, and the -an ending of words like شُكْرًا.",
     deck: "Vowels and marks",
+    sections: [null, null, null, [{"deck": "Vowels and marks", "n": [8, 14]}, {"deck": "Vowels and marks", "n": [17, 18]}]],
     body: `
 <p>A few last signs, and you can read every word in this course.</p>
 <h3>Hamza: the catch in the throat</h3>
 <p>Hamza ء is the little catch in "uh-oh". It usually sits on a seat. At the start of a word the seat is ا, with hamza above (أ) or below (إ): أَنَا <i>anā</i> "I". Inside a word it can sit on ا, و or a dotless ي: ؤ, ئ. At the start of a word the romanisation writes nothing; inside a word it writes ʾ, as in سُؤَال <i>suʾāl</i> "question". آ, alif with a wavy line, is hamza plus a long ā: آسِف <i>āsif</i> "sorry".</p>
+<div class="tbl"><table><tr><th>Sign</th><th>Where you see it</th></tr><tr><td class="k">ء</td><td>alone, on the line</td></tr><tr><td class="k">أ</td><td>on alif: at the start of a word it is a or u; it also appears inside a word</td></tr><tr><td class="k">إ</td><td>under alif, at the start of a word: i</td></tr><tr><td class="k">ؤ</td><td>on و, inside a word</td></tr><tr><td class="k">ئ</td><td>on a dotless ي, inside a word</td></tr><tr><td class="k">آ</td><td>hamza plus a long ā</td></tr></table></div>
 {{ex:أَنَا طَالِبَة|anā ṭāliba|I'm a student (a woman speaking).}}
 {{ex:سُؤَال|suʾāl|question}}
 {{ex:آسِف|āsif|sorry (a man speaking)}}
 <h3>ى: alif maqsura</h3>
 <p>At the end of some words you'll see ى, which looks like ي without its dots. It is said ā, not ī.</p>
+<div class="tbl"><table><tr><th>Letter</th><th>Sound</th></tr><tr><td class="k">ى</td><td>ā, only at the end of a word: no dots</td></tr><tr><td class="k">ي</td><td>ī or y: two dots below</td></tr></table></div>
+<p>One more way to write ā: in هٰذَا <i>hādhā</i> "this", the small upright alif above ه stands for the long ā. You'll see it in only a few common words, such as هٰذَا and هٰذِهِ.</p>
 {{ex:عَلَى|ʿalā|on}}
 {{ex:مُسْتَشْفَى|mustashfā|hospital}}
 <h3>ة: taa marbuta as a letter</h3>
 <p>ة looks like ه with two dots on top. At the end of a word it is said <i>-a</i>: no t, no h (a later lesson shows when the t comes back). Without the dots, ه is a plain h, a different letter.</p>
+<div class="tbl"><table><tr><th>Letter</th><th>Sound</th></tr><tr><td class="k">ة</td><td>-a, at the end of a word: two dots on top</td></tr><tr><td class="k">ه</td><td>h: no dots</td></tr></table></div>
 {{ex:مَدْرَسَة جَدِيدَة|madrasa jadīda|a new school}}
 <h3>Tanwin: the -an ending</h3>
-<p>Tanwin is a doubled fatha, two small slashes, followed by an extra ا. Together they are said <i>-an</i>. You meet it in very common words such as شُكْرًا <i>shukran</i> "thanks", جِدًّا <i>jiddan</i> "very" and أَهْلًا <i>ahlan</i> "hi, welcome". Grammar books also show -un and -in endings; like the other case endings, this course leaves them out, so you will only see -an, and only where the spelling has its extra ا.</p>
+<p>Tanwin is a doubled fatha, two small slashes, followed by an extra ا. Together they are said <i>-an</i>.</p>
+<div class="tbl"><table><tr><th>Spelling</th><th>Sound</th></tr><tr><td class="k">رًا</td><td>-ran: two slashes on the letter, then ا</td></tr></table></div>
+<p>You meet it in very common words such as شُكْرًا <i>shukran</i> "thanks", جِدًّا <i>jiddan</i> "very" and أَهْلًا <i>ahlan</i> "hi, welcome". Grammar books also show -un and -in endings; like the other case endings, this course leaves them out, so you will only see -an, and only where the spelling has its extra ا.</p>
 {{ex:شُكْرًا|shukran|thanks}}
 {{ex:بَيْت كَبِير جِدًّا|bayt kabīr jiddan|a very big house}}
 <p>Notice where جِدًّا goes: after the describing word, the opposite of English "very big".</p>
@@ -301,6 +331,7 @@ module.exports = [
     title: "ال: the article, sun and moon letters",
     blurb: "Say \"the\" in Arabic, hear when its l disappears, and tell \"the big house\" from \"The house is big.\"",
     deck: "Vowels and marks",
+    sections: [null, [{"deck": "Vowels and marks", "n": [15, 17]}, {"name": "Sun and moon words", "cards": [["الْبَاب", "al-bāb", "the door", "Moon letter ب: the l is said, with sukun. al-bāb, like al-qamar."], ["الدَّرْس", "ad-dars", "the lesson", "Sun letter د: the l is silent and د is doubled (shadda). ad-dars, like ash-shams."], ["الْوَلَد", "al-walad", "the boy", "Moon letter و: the l is said. al-walad, like al-qamar."], ["النُّور", "an-nūr", "the light", "Sun letter ن: the l is silent and ن is doubled. an-nūr, like ash-shams."], ["الْمَدِينَة", "al-madīna", "the city", "Moon letter م: the l is said. al-madīna, like al-qamar."], ["الرَّجُل", "ar-rajul", "the man", "Sun letter ر: the l is silent and ر is doubled. ar-rajul, like ash-shams."], ["الْيَوْم", "al-yawm", "the day; today", "Moon letter ي: the l is said. al-yawm, like al-qamar."], ["الصَّبَاح", "aṣ-ṣabāḥ", "the morning", "Sun letter ص: the l is silent and ص is doubled. aṣ-ṣabāḥ, like ash-shams."]]}], null, null],
     body: `
 <p>Arabic has no word for "a": بَيْت <i>bayt</i> is "a house". For "the", Arabic puts ال in front of the word and writes it as part of it: الْبَيْت <i>al-bayt</i> "the house". The romanisation joins it with a hyphen.</p>
 <h3>Moon letters: say the l</h3>
@@ -314,6 +345,7 @@ module.exports = [
 {{ex:الشَّمْس|ash-shams|the sun}}
 {{ex:السَّيَّارَة|as-sayyāra|the car}}
 {{ex:الطَّالِب|aṭ-ṭālib|the student (a man)}}
+<p>The cards below mix sun and moon words. Look at the first letter after ال and decide whether you say the l before you flip.</p>
 <h3>Little words in front</h3>
 <p>وَ <i>wa</i> "and" and بِ <i>bi</i> "by, with" are written joined to the next word. Before ال their vowel takes the place of the a: وَالْبَيْت <i>wal-bayt</i> "and the house", بِالسَّيَّارَة <i>bis-sayyāra</i> "by car".</p>
 {{ex:بِالسَّيَّارَة|bis-sayyāra|by car}}

@@ -9,7 +9,7 @@
 #       [spec, spec]                  several of the above, in order
 #     A lesson without `sections` is planned as before.
 #  2. {{tiles:あ い う え お}} in a pack lesson draws flip tiles for any script: the letter, tap for its reading and sound, tap again for the letter.
-#     A tile's reading is the reading of the card with that front; "x=reading" sets it by hand; "_" leaves a gap in the grid.
+#     A tile's reading is the reading of the card with that front; "x=reading" sets it by hand ("_" inside a hand-set reading is a space); "_" alone leaves a gap in the grid.
 # Run once on src/app.html; every replacement is asserted.
 import io, os
 ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
@@ -34,7 +34,7 @@ rep("function strokeTok(h){ return COURSE.target!=='ko'?h:String(h).replace(/\\{
     "/* FND-1. {{tiles:あ い う}} in a pack lesson: flip tiles for any script. Front: the letter. Tap: its reading, and the letter is said. \"x=reading\" sets the reading by hand, otherwise it is the reading of the card with that front; \"_\" is a gap. */\n"
     "let TILE_RD=null, TILE_RD_ID='';\n"
     "function tileReads(){ if(TILE_RD&&TILE_RD_ID===COURSE.id) return TILE_RD; const R={}; Object.keys(DECKS).forEach(d=>{ (DECKS[d]||[]).forEach(c=>{ if(Array.isArray(c)&&typeof c[0]==='string'&&typeof c[1]==='string'&&c[1]&&R[c[0]]===undefined) R[c[0]]=c[1]; }); }); TILE_RD_ID=COURSE.id; return TILE_RD=R; }\n"
-    "function tilesTok(h){ if(String(h).indexOf('{{tiles:')<0) return h; const R=tileReads(); return String(h).replace(/\\{\\{tiles:([^}]*)\\}\\}/g,(m,inner)=>'<div class=\"tiles-grid\">'+inner.split(/\\s+/).filter(Boolean).map(t=>{ if(t==='_') return '<div></div>'; const i=t.indexOf('='), g=escT(i>0?t.slice(0,i):t), r=escT(i>0?t.slice(i+1):(R[t]||'')); return '<div class=\"sgl\" data-sound=\"'+g+'\" role=\"button\" aria-label=\"'+g+'\" data-noi18n><div class=\"sgf\">'+g+'</div>'+(r?'<div class=\"sgb\"><span class=\"rom\">'+r+'</span></div>':'')+'</div>'; }).join('')+'</div>'); }")
+    "function tilesTok(h){ if(String(h).indexOf('{{tiles:')<0) return h; const R=tileReads(); return String(h).replace(/\\{\\{tiles:([^}]*)\\}\\}/g,(m,inner)=>'<div class=\"tiles-grid\"'+(COURSE.target==='ar'||COURSE.target==='ur'?' dir=\"rtl\"':'')+'>'+inner.split(/\\s+/).filter(Boolean).map(t=>{ if(t==='_') return '<div></div>'; const i=t.indexOf('='), g=escT(i>0?t.slice(0,i):t), r=escT(i>0?t.slice(i+1).replace(/_/g,' '):(R[t]||'')); return '<div class=\"sgl\" data-sound=\"'+g+'\" role=\"button\" aria-label=\"'+g+'\" data-noi18n><div class=\"sgf\">'+g+'</div>'+(r?'<div class=\"sgb\"><span class=\"rom\">'+r+'</span></div>':'')+'</div>'; }).join('')+'</div>'); }")
 
 # sections named by the lesson
 rep("const LS_BLOCKS='가나다', LS_PLAN={};",

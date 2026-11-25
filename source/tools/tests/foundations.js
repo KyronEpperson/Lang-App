@@ -1,14 +1,16 @@
 /* FND-1 release test: character foundations. A course listed in FOUND teaches its writing system in lessons that name the flashcards of each section.
    usage: node tools/tests/foundations.js [--shots <dir>]      Needs a build (korean-flashcards.html).
-   A. Every lesson with `sections`, in every course: one entry per section; every deck named exists; a slice is inside its deck; a deck written inside the lesson has its own label, whole cards and is not in the deck list; no card twice; the lesson's own deck is there whole.
+   A. Every lesson with `sections`, in every course: one entry per section; every deck named exists; a slice is inside its deck; a deck written inside the lesson has its own label, whole cards and is not in the deck list; no card twice in a lesson; no block of fewer than 3 cards; a lesson's own deck is taught whole, in that lesson or cut across the lessons that share it.
    B. Per course in FOUND: every letter of the standard set is the front of a card in a foundation lesson and on a flip tile there; every tile carries a reading; the foundation lessons come first; each has a chart or tiles and a deck of words that lives in the lesson.
    C. A tile flips to its reading on a tap, says its letter, and flips back.
    D. A new learner goes through each foundation lesson of each course in FOUND to the end. */
 const fs=require('fs'),path=require('path'),{chromium}=require('playwright'),drive=require('./lesson_drive.js');
 const ROOT=path.join(__dirname,'..','..'),si=process.argv.indexOf('--shots'),SHOTS=si>0?process.argv[si+1]:null;
 const HIRA='あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん', KATA='アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン', DAKU='がぎぐげござじずぜぞだでどばびぶべぼぱぴぷぺぽ';
-/* letters: on a card and on a tile. tilesOnly: on a tile, named on another letter's card (ぢ and づ sound like じ and ず and are rare). */
-const FOUND={'en-ja':{lessons:['hiragana','sounds','katakana'],letters:[...HIRA+KATA+DAKU],tilesOnly:['ぢ','づ'],words:['hiragana','sounds','katakana']}};
+/* letters: on a card and on a tile. soundOnly: a lesson on sounds, with no letters to chart. tilesOnly: on a tile, named on another letter's card (ぢ and づ sound like じ and ず and are rare). */
+const FOUND={'en-ja':{lessons:['hiragana','sounds','katakana'],letters:[...HIRA+KATA+DAKU],tilesOnly:['ぢ','づ'],words:['hiragana','sounds','katakana']},
+ 'en-ar':{lessons:['letters','sounds','vowels','shapes','sukun-shadda','hamza','al'],letters:[...'ابتثجحخدذرزسشصضطظعغفقكلمنهوي'],tilesOnly:[],words:['shapes','al'],soundOnly:['sounds']},
+ 'en-ur':{lessons:['letters-1','letters-2','letters-3','letters-4','aspirates'],letters:[...'اآبپتٹثویےدڈذرڑزژجچحخسشصضطظعغفقکگلمنہھءں'],tilesOnly:[],words:['aspirates']}};
 let fail=0,pass=0;const ok=(c,m)=>{ if(c){ pass++; console.log('PASS '+m); } else { fail++; console.log('FAIL '+m); } };
 async function open(b,cid){ const lang=cid.split('-')[0]; const c=await b.newContext({viewport:{width:390,height:800},reducedMotion:'reduce'}); const p=await c.newPage(); p.errs=[]; p.on('pageerror',e=>p.errs.push(e.message));
   await p.addInitScript(([lang,cid])=>{ const st=JSON.stringify({nick:'K',welcomed:1,onboard:{skipped:1},hintSeen:1,tourDone:1,fx3d:false}); localStorage.setItem('la-s-'+cid,st); if(cid==='en-ko') localStorage.setItem('ko-app2',st); localStorage.setItem('la-meta',JSON.stringify({v:1,native:lang,course:cid,picked:1,seenHome:1,prefs:{}})); },[lang,cid]);
@@ -20,22 +22,23 @@ async function open(b,cid){ const lang=cid.split('-')[0]; const c=await b.newCon
   const withSec=[]; fs.readdirSync(path.join(ROOT,'packs')).filter(f=>/^course-.*\.js$/.test(f)&&!held.includes(f)).forEach(f=>{ if(/"?sections"?\s*:\s*\[/.test(fs.readFileSync(path.join(ROOT,'packs',f),'utf8'))) withSec.push(f.slice(7,-3)); });
   Object.keys(FOUND).forEach(cid=>ok(withSec.includes(cid),cid+': the pack names sections'));
   for(const cid of withSec){ const p=await open(b,cid);
-    const r=await p.evaluate(()=>{ const bad=[]; let n=0, own=0; LESSONS.filter(l=>Array.isArray(l.sections)).forEach(l=>{ n++; const pl=lsPlan(l), D=DECKS[l.deck]||[];
+    const r=await p.evaluate(()=>{ const bad=[], used={}, own=new Set(); let n=0, inl=0; LESSONS.filter(l=>Array.isArray(l.sections)).forEach(l=>{ n++; const pl=lsPlan(l), D=DECKS[l.deck]||[];
         if(l.sections.length!==pl.parts.length) bad.push(l.id+': '+l.sections.length+' entries for '+pl.parts.length+' sections');
         const flat=x=>!x?[]:Array.isArray(x)?x.reduce((a,y)=>a.concat(flat(y)),[]):[typeof x==='string'?{deck:x}:x];
-        l.sections.forEach((sp,i)=>flat(sp).forEach(x=>{ if(x.cards){ own++; if(!x.name||names.includes(x.name)) bad.push(l.id+': label of an in-lesson deck is missing or is a real deck: '+x.name); if(x.cards.length<5||x.cards.some(c=>!Array.isArray(c)||!c[0]||!c[1]||!c[2])) bad.push(l.id+': in-lesson deck '+x.name+' has a card without front, reading or meaning, or fewer than 5 cards'); if(new Set(x.cards.map(c=>c[0])).size!==x.cards.length) bad.push(l.id+': '+x.name+' has a front twice'); }
+        l.sections.forEach((sp,i)=>flat(sp).forEach(x=>{ if(x.cards){ inl++; if(!x.name||names.includes(x.name)) bad.push(l.id+': label of an in-lesson deck is missing or is a real deck: '+x.name); if(x.cards.length<5||x.cards.some(c=>!Array.isArray(c)||!c[0]||!c[1]||!c[2])) bad.push(l.id+': in-lesson deck '+x.name+' has a card without front, reading or meaning, or fewer than 5 cards'); if(new Set(x.cards.map(c=>c[0])).size!==x.cards.length) bad.push(l.id+': '+x.name+' has a front twice'); }
           else { const K=DECKS[x.deck]; if(!K||!names.includes(x.deck)) bad.push(l.id+': no deck '+x.deck); else if(x.n&&(x.n[0]<0||x.n[1]>K.length||x.n[0]>=x.n[1])) bad.push(l.id+': slice outside '+x.deck); } }));
-        const seen=new Map(); pl.all.forEach(x=>seen.set(x.c,(seen.get(x.c)||0)+1)); if([...seen.values()].some(v=>v!==1)) bad.push(l.id+': a card twice'); if(D.some(c=>seen.get(c)!==1)) bad.push(l.id+': its own deck is not whole');
+        const seen=new Map(); pl.all.forEach(x=>seen.set(x.c,(seen.get(x.c)||0)+1)); if([...seen.values()].some(v=>v!==1)) bad.push(l.id+': a card twice'); if(!pl.all.length) bad.push(l.id+': no flashcards'); pl.parts.forEach(x=>{ if(x.cards.length&&x.cards.length<3) bad.push(l.id+': a block of fewer than 3 cards'); }); pl.all.forEach(x=>{ if(names.includes(x.d)){ const u=used[x.d]=used[x.d]||new Map(); u.set(x.c,(u.get(x.c)||0)+1); } }); own.add(l.deck);
         const want=l.sections.reduce((k,sp)=>k+flat(sp).reduce((m,x)=>m+(x.cards?x.cards.length:x.n?x.n[1]-x.n[0]:(DECKS[x.deck]||[]).length),0),0); if(want!==pl.all.length) bad.push(l.id+': '+pl.all.length+' cards planned, '+want+' named');
         pl.all.forEach(x=>{ if(!names.includes(x.d)&&PATH.includes(x.d)) bad.push(l.id+': in-lesson deck in the path'); }); });
-      return {bad,n,own,inNames:Object.keys(DECKS).filter(d=>!names.includes(d)).length}; });
+      /* a lesson's own deck is taught whole: in that lesson, or cut across the lessons that share it, each card once */ own.forEach(d=>{ const u=used[d]||new Map(); (DECKS[d]||[]).forEach(c=>{ if(u.get(c)!==1) bad.push('deck '+d+': card '+c[0]+' is in '+(u.get(c)||0)+' lessons'); }); });
+      return {bad,n,own:inl,inNames:Object.keys(DECKS).filter(d=>!names.includes(d)).length}; });
     ok(!r.bad.length&&!p.errs.length,cid+': '+r.n+' lessons name their sections, '+r.own+' decks live inside a lesson '+r.bad.slice(0,6).join(' ; ')+p.errs.slice(0,2).join(' | ')); await p.ctx.close(); }
   /* B, C, D */
   for(const cid of Object.keys(FOUND)){ const F=FOUND[cid]; let p=await open(b,cid);
     const r=await p.evaluate(F=>{ const o={order:LESSONS.slice(0,F.lessons.length).map(l=>l.id),cardMiss:[],tileMiss:[],noRead:[],noChart:[],noWords:[],raw:[],wide:[]}; const fronts=new Set(), tiles=new Set();
       F.lessons.forEach(id=>{ const l=LESSONS.find(x=>x.id===id); if(!l) return; const pl=lsPlan(l); pl.all.forEach(x=>fronts.add(x.c[0])); showLesson(id); const root=document.getElementById('lessonBody');
         root.querySelectorAll('.tiles-grid .sgl').forEach(t=>{ const g=t.querySelector('.sgf').textContent; tiles.add(g); const rd=t.querySelector('.sgb .rom'); if(!rd||!rd.textContent.trim()) o.noRead.push(g); });
-        if(!root.querySelector('.tiles-grid')&&!root.querySelector('table')) o.noChart.push(id); if(F.words.includes(id)&&!pl.all.some(x=>!names.includes(x.d))) o.noWords.push(id);
+        if(!root.querySelector('.tiles-grid')&&!root.querySelector('table')&&!(F.soundOnly||[]).includes(id)) o.noChart.push(id); if(F.words.includes(id)&&!pl.all.some(x=>!names.includes(x.d))) o.noWords.push(id);
         if(/\{\{/.test(root.innerHTML)) o.raw.push(id); if(document.documentElement.scrollWidth>innerWidth+1) o.wide.push(id); });
       F.letters.forEach(ch=>{ if(!fronts.has(ch)) o.cardMiss.push(ch); if(!tiles.has(ch)) o.tileMiss.push(ch); }); F.tilesOnly.forEach(ch=>{ if(!tiles.has(ch)) o.tileMiss.push(ch); }); o.n=F.letters.length; o.tiles=tiles.size; return o; },F);
     ok(r.order.join()===F.lessons.join(),cid+': the foundation lessons come first ('+r.order.join(', ')+')');

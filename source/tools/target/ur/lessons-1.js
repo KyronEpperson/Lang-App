@@ -5,19 +5,25 @@ module.exports = [
     title: "Letters 1: ا, the ب family, and و ی ے",
     blurb: "Read your first Urdu letters and words, right to left: alif, the be family and the vowel letters.",
     deck: "Letters 1: alif, the be family, vāo and ye",
+    sections: [null, null, {"deck": "Letters 1: alif, the be family, vāo and ye", "n": [0, 7]}, {"deck": "Letters 1: alif, the be family, vāo and ye", "n": [7, 10]}, {"deck": "Letters 1: alif, the be family, vāo and ye", "n": [10, 17]}, null],
     body: `
 <p>This course teaches everyday standard Urdu as spoken in Pakistan, written in the Urdu script. Spoken Urdu and Hindi are so close that their speakers understand each other in everyday conversation; they are written in different scripts, and formal and literary Urdu uses many more Persian and Arabic words.</p>
 <h3>Right to left, joined up</h3>
 <p>English runs left to right. Urdu runs right to left, so a word starts at the right. Most letters join the next letter, like cursive, and each letter has a start, middle, end and alone shape.</p>
 <p>Urdu books, newspapers and signs use a flowing, sloping style called Nastaliq. Depending on your device, this app may show the letters in a plainer style called Naskh. The letters and words are the same; only the handwriting style differs, the way print and cursive differ in English.</p>
+<h3>Alif: the first letter</h3>
+<p><b>ا</b> <i>alif</i> is a single upright stroke. At the start of a word it carries a vowel; elsewhere it is a long ā, as in "father". <b>آ</b> <i>alif madd</i>, alif with a wavy line on top, is ā at the start of a word. The macron in ā ī ū marks a long vowel. Tap a letter to hear it.</p>
+{{tiles:ا آ}}
 <h3>One shape, five letters</h3>
 <p>The ب family shares one boat shape. Only the dots, or the small ط on top, tell them apart.</p>
 <div class="tbl"><table><tr><th>Letter</th><th>Name and sound</th><th>Start, middle, end</th></tr><tr><td class="k">ب</td><td>be: b (one dot below)</td><td class="k">بـ ـبـ ـب</td></tr><tr><td class="k">پ</td><td>pe: p (three dots below)</td><td class="k">پـ ـپـ ـپ</td></tr><tr><td class="k">ت</td><td>te: dental t</td><td class="k">تـ ـتـ ـت</td></tr><tr><td class="k">ٹ</td><td>ṭe: retroflex ṭ</td><td class="k">ٹـ ـٹـ ـٹ</td></tr><tr><td class="k">ث</td><td>se: s (in Arabic words)</td><td class="k">ثـ ـثـ ـث</td></tr></table></div>
 <p>English has one t. Urdu has two. For <b>ت</b> <i>te</i> the tongue touches the back of the top teeth (dental). For <b>ٹ</b> <i>ṭe</i> the tongue curls back and taps the roof of the mouth (retroflex). In the romanisation a dot below a letter means retroflex.</p>
+{{tiles:ب پ ت ٹ ث}}
 {{ex:یہ ٹوپی ہے۔|yeh ṭopī hai.|This is a cap.}}
 {{ex:ٹیپ|ṭep|tape}}
 <h3>Vowel letters and long vowels</h3>
-<p><b>ا</b> <i>alif</i> at the start of a word carries a vowel; elsewhere it is a long ā, as in "father". <b>آ</b> <i>alif madd</i> is ā at the start of a word. <b>و</b> <i>vāo</i> can be v, o, ū or au; <b>ی</b> <i>choṭī ye</i> can be y, ī or e; <b>ے</b> <i>baṛī ye</i> comes only at the end, for e or ai. The macron in ā ī ū marks a long vowel.</p>
+<p>Three more letters spell vowels. <b>و</b> <i>vāo</i> can be v, o, ū or au; <b>ی</b> <i>choṭī ye</i> can be y, ī or e; <b>ے</b> <i>baṛī ye</i> comes only at the end, for e or ai.</p>
+{{tiles:و ی ے}}
 {{ex:آپ|āp|you (polite)}}
 {{ex:باپ|bāp|father}}
 {{ex:بیٹی|beṭī|daughter}}
@@ -25,6 +31,7 @@ module.exports = [
 <p>Urdu leaves out short a, i and u. <b>تب</b> <i>tab</i> is written t-b; you supply the a. The romanisation under each word fills in what the script leaves out.</p>
 {{ex:تب|tab|then}}
 {{ex:بات|bāt|matter; something said}}
+<p>The cards below are your first words. Read each one from the right, letter by letter, and supply the short vowels yourself.</p>
 <h3>Three sight words</h3>
 <p>Learn these three as whole shapes now; their letters come later: <b>یہ</b> <i>yeh</i> "this", <b>ہے</b> <i>hai</i> "is", <b>ہیں</b> <i>haĩ</i> "are".</p>
 {{ex:یہ باپ ہے۔|yeh bāp hai.|This is a father.}}
@@ -57,10 +64,13 @@ module.exports = [
     title: "Letters 2: letters that never join to the left",
     blurb: "Read the seven letters that never join the next letter, and see why Urdu words have gaps inside them.",
     deck: "Letters 2: letters that never join",
+    sections: [{"deck": "Letters 2: letters that never join", "n": [0, 7]}, null, {"deck": "Letters 2: letters that never join", "n": [7, 16]}],
     body: `
 <p>In English cursive almost every letter links to the next. In Urdu a small set of letters never joins the next letter: the word simply breaks after them, and the next letter starts fresh. You already know two of them, <b>ا</b> <i>alif</i> and <b>و</b> <i>vāo</i>. This lesson adds seven more.</p>
 <h3>The seven new letters</h3>
 <div class="tbl"><table><tr><th>Letter</th><th>Name</th><th>Sound</th></tr><tr><td class="k">د</td><td>dāl</td><td>dental d: tongue on the back of the teeth</td></tr><tr><td class="k">ڈ</td><td>ḍāl</td><td>retroflex ḍ: tongue curled back</td></tr><tr><td class="k">ذ</td><td>zāl</td><td>z</td></tr><tr><td class="k">ر</td><td>re</td><td>r, a quick tap like the tt in American "butter"</td></tr><tr><td class="k">ڑ</td><td>ṛe</td><td>ṛ, a flap: curl the tongue back, then flick it forward</td></tr><tr><td class="k">ز</td><td>ze</td><td>z</td></tr><tr><td class="k">ژ</td><td>zhe</td><td>zh, as in "measure" (rare)</td></tr></table></div>
+<p>Tap a letter to hear it.</p>
+{{tiles:د ڈ ذ ر ڑ ز ژ}}
 <p>The pattern from Letters 1 repeats: the small ط on top marks the retroflex letter, so <b>د</b> <i>dāl</i> and <b>ڈ</b> <i>ḍāl</i> differ the way ت and ٹ do.</p>
 {{ex:دو|do|two}}
 {{ex:ڈبا|ḍabbā|box}}
@@ -75,6 +85,7 @@ module.exports = [
 {{ex:بڑا|baṛā|big}}
 {{ex:برا|burā|bad}}
 {{ex:یہ ڈبا بڑا ہے۔|yeh ḍabbā baṛā hai.|This box is big.}}
+<p>The cards below are words made only from letters you know. Find the gaps, and read across them.</p>
 <div class="tip"><b>Most common mistake:</b> saying ڑ as an English r, which turns "big" into "bad": <b>برا</b> → <b>بڑا</b>. Curl the tongue back for ڑ.</div>
 `,
     check: [
@@ -104,10 +115,12 @@ module.exports = [
     title: "Letters 3: ج to غ",
     blurb: "Read twelve more letters, including the sounds ḵh and ġ, and know which letters share one sound.",
     deck: "Letters 3: jīm to ġain",
+    sections: [{"deck": "Letters 3: jīm to ġain", "n": [0, 4]}, null, {"deck": "Letters 3: jīm to ġain", "n": [4, 12]}, {"deck": "Letters 3: jīm to ġain", "n": [12, 18]}],
     body: `
 <p>English spells one sound many ways: "c", "k" and "ck" can all be k. Urdu has the same habit, because it took words from Arabic and Persian with their spelling. This lesson adds twelve letters in pairs of shapes; as before, the dots decide.</p>
 <h3>Four letters, one shape</h3>
 <div class="tbl"><table><tr><th>Letter</th><th>Name</th><th>Sound</th></tr><tr><td class="k">ج</td><td>jīm</td><td>j, as in "jam"</td></tr><tr><td class="k">چ</td><td>che</td><td>ch, as in "church"</td></tr><tr><td class="k">ح</td><td>baṛī he</td><td>h</td></tr><tr><td class="k">خ</td><td>ḵhe</td><td>ḵh, like the ch in Scottish "loch"</td></tr></table></div>
+{{tiles:ج چ ح خ}}
 <p>Later, ھ will turn چ into چھ, chh: the same ch with a puff of air.</p>
 {{ex:جوتا|jūtā|shoe}}
 {{ex:سچ|sach|truth}}
@@ -116,7 +129,8 @@ module.exports = [
 {{ex:خط|ḵhat|letter (that you mail)}}
 {{ex:غریب|ġarīb|poor}}
 <h3>The other pairs</h3>
-<p><b>س</b> <i>sīn</i> is s and <b>ش</b> <i>shīn</i> is sh. Then come <b>ص</b> <i>suād</i> and <b>ض</b> <i>zuād</i>, <b>ط</b> <i>toe</i> and <b>ظ</b> <i>zoe</i>, and <b>ع</b> <i>ain</i> and <b>غ</b> <i>ġain</i>. <b>ع</b> <i>ain</i> has no sound of its own for most speakers: the romanisation simply writes the vowel you hear.</p>
+<p><b>س</b> <i>sīn</i> is s and <b>ش</b> <i>shīn</i> is sh. Then come <b>ص</b> <i>suād</i> and <b>ض</b> <i>zuād</i>, <b>ط</b> <i>toe</i> and <b>ظ</b> <i>zoe</i>, and <b>ع</b> <i>ain</i> and <b>غ</b> <i>ġain</i>. <b>ع</b> <i>ain</i> has no sound of its own for most speakers: the romanisation simply writes the vowel you hear. Tap a letter to hear it.</p>
+{{tiles:س ش ص ض ط ظ ع غ}}
 {{ex:شادی|shādī|wedding}}
 {{ex:عید|īd|Eid}}
 <h3>Letters that sound the same</h3>
@@ -124,7 +138,7 @@ module.exports = [
 <p>There is no rule for which one a word uses; learn the spelling with the word, as you learned "knee" in English. <b>صبح</b> <i>subah</i> is s-b-h, and <b>ضرور</b> <i>zarūr</i> starts with ض, but both sound just as the romanisation says.</p>
 {{ex:صبح|subah|morning}}
 {{ex:ضرور|zarūr|of course}}
-<p>The sound differences you must hear are still the ones from Letters 1 and 2: dental against retroflex, and a long vowel against a short one.</p>
+<p>The sound differences you must hear are still the ones from Letters 1 and 2: dental against retroflex, and a long vowel against a short one. The cards below are words that use this lesson's letters.</p>
 <div class="tip"><b>Most common mistake:</b> reading خ as k + h. <b>خط</b> is a letter you mail, said with a rough ḵh; there is no k in it: "kat" → <i>ḵhat</i>.</div>
 `,
     check: [
@@ -154,22 +168,27 @@ module.exports = [
     title: "Letters 4: ف to ہ, and the two he letters",
     blurb: "Read the last letters of the alphabet, tell the two he letters apart, and read a final ہ as -ā.",
     deck: "Letters 4: fe to choṭī he",
+    sections: [null, {"deck": "Letters 4: fe to choṭī he", "n": [0, 9]}, {"deck": "Letters 4: fe to choṭī he", "n": [9, 18]}, null],
     body: `
 <p>With this lesson you can read every letter of the Urdu alphabet. Most of the new ones are easy for English speakers; the two he letters need care.</p>
 <h3>Seven easy letters</h3>
 <div class="tbl"><table><tr><th>Letter</th><th>Name</th><th>Sound</th></tr><tr><td class="k">ف</td><td>fe</td><td>f</td></tr><tr><td class="k">ق</td><td>qāf</td><td>q: a k made far back in the throat</td></tr><tr><td class="k">ک</td><td>kāf</td><td>k</td></tr><tr><td class="k">گ</td><td>gāf</td><td>g, as in "go": ک with an extra stroke</td></tr><tr><td class="k">ل</td><td>lām</td><td>l</td></tr><tr><td class="k">م</td><td>mīm</td><td>m</td></tr><tr><td class="k">ن</td><td>nūn</td><td>n</td></tr></table></div>
-<p>Many speakers say <b>ق</b> <i>qāf</i> just like k, so do not worry if you cannot hear it yet.</p>
+<p>Many speakers say <b>ق</b> <i>qāf</i> just like k, so do not worry if you cannot hear it yet. Tap a letter to hear it.</p>
+{{tiles:ف ق ک گ ل م ن}}
 {{ex:کتاب|kitāb|book}}
 {{ex:قلم|qalam|pen}}
 {{ex:میرا نام سارہ ہے۔|merā nām sārā hai.|My name is Sarah.}}
 <h3>Two letters called he</h3>
 <p>English has one h. Urdu writes it two ways here. <b>ہ</b> <i>choṭī he</i> is the round h, used for h in ordinary words. <b>ھ</b> <i>do-chashmī he</i> never stands for h by itself: it only follows another letter to add a puff of air, as in <b>گھر</b> <i>ghar</i>. The next lesson is all about that puff.</p>
+{{tiles:ہ ھ}}
 {{ex:گھر|ghar|house; home}}
 <h3>Final ہ is usually -ā</h3>
 <p>This is the big surprise. At the end of a word, <b>ہ</b> <i>choṭī he</i> usually stands for the vowel ā, not for h. <b>کمرہ</b> <i>kamrā</i> ends in ā, just like a word ending in ا. A few words do end in a real h, such as the number <b>بارہ</b> <i>bārah</i>, twelve; the romanisation always tells you which.</p>
 {{ex:کمرہ|kamrā|room}}
 {{ex:ہفتہ|haftā|week}}
 <p>One more mark: <b>ء</b> <i>hamza</i> shows where one vowel meets another, as in <b>آئیے</b> <i>āie</i>, "come in". The romanisation does not write it.</p>
+{{tiles:ء}}
+<p>The cards below mix this lesson's letters into words.</p>
 <h3>A note for readers of Arabic script</h3>
 <p>If you read Arabic, note that Urdu has its own ک and ی. They look a little different from the Arabic letters and are separate letters on the keyboard. Type the Urdu ones when you can.</p>
 {{ex:یہ ٹماٹر ہے۔|yeh ṭamāṭar hai.|This is a tomato.}}
@@ -203,6 +222,7 @@ module.exports = [
     title: "Aspirates with ھ, the nasal ں, and vowel marks",
     blurb: "Hear and read the puff of air that ھ adds, the nasal vowel of ں, and the vowel marks that real Urdu leaves out.",
     deck: "Aspirates, nasals and vowel marks",
+    sections: [{"deck": "Aspirates, nasals and vowel marks", "n": [0, 11]}, [{"deck": "Aspirates, nasals and vowel marks", "n": [11, 15]}, {"name": "The nasal ں", "cards": [["ں", "nūn ġunna", "nasal sign", "ن without its dot. It has no n sound: it sends the vowel before it through the nose."], ["ماں", "mā̃", "mother", "م + ا + ں: a long ā said through the nose."], ["یہاں", "yahā̃", "here", "ی + ہ + ا + ں"], ["وہاں", "vahā̃", "there", "و + ہ + ا + ں"], ["ہوں", "hū̃", "(I) am", "ہ + و + ں, as in میں ٹھیک ہوں, I'm fine."], ["کیوں", "kyõ", "why", "ک + ی + و + ں"]]}], {"deck": "Aspirates, nasals and vowel marks", "n": [15, 18]}, {"name": "Read joined words", "cards": [["ایک", "ek", "one", "ا + ی + ک. ا never joins the next letter, so ی takes its start shape and ک its end shape."], ["تین", "tīn", "three", "ت + ی + ن: start, middle, end. In the middle, ی is a small tooth with two dots below."], ["نمک", "namak", "salt", "ن + م + ک: start, middle, end. At the start, ن is a small tooth with one dot above. The short a's are not written."], ["کتاب", "kitāb", "book", "ک + ت + ا, then ب. ک starts, ت is in the middle, ا ends the piece; ا never joins, so ب stands alone."], ["پانی", "pānī", "water", "پ + ا, then ن + ی. ا breaks the word, so ن takes its start shape and ی its end shape."], ["سال", "sāl", "year", "س + ا, then ل on its own: ا never joins the next letter."], ["رات", "rāt", "night", "ر, ا, ت: three pieces. ر and ا never join the next letter, so every letter stands alone."], ["لڑکا", "laṛkā", "boy", "ل + ڑ, then ک + ا. ڑ never joins the next letter, so the word breaks after it."], ["بہن", "bahan", "sister", "ب + ہ + ن: start, middle, end. In the middle ہ looks nothing like the round ہ alone. The short a's are not written."], ["ہم", "ham", "we", "ہ + م: ہ in its start shape, م in its end shape."], ["شہر", "shahar", "city", "ش + ہ + ر: start, middle, end. Here ہ is a real h."], ["اچھا", "acchhā", "good; OK", "ا, then چ + ھ + ا. ا stands alone; چ starts, ھ in the middle adds the puff, and ا ends the word. The double c is not written."], ["مسجد", "masjid", "mosque", "م + س + ج + د: start, middle, middle, end."], ["عورت", "aurat", "woman", "ع + و, then ر, then ت. و and ر never join the next letter, so ر and ت stand alone. ع has no sound of its own: you hear au."], ["دوست", "dost", "friend", "د, و, then س + ت. د and و stand alone; س starts and ت ends."], ["چائے", "chāe", "tea", "چ + ا, then ئ + ے. ا breaks the word; ئ is hamza on a small tooth, where two vowels meet, and ے ends the word."]]}],
     body: `
 <h3>A puff of air that changes the word</h3>
 <p>Hold your hand in front of your mouth and say "pin", then "spin". English p has a puff of air in "pin" and none in "spin", and English speakers never notice. In Urdu that puff makes a different word. <b>پ</b> <i>pe</i> has no puff, like the p of "spin"; add <b>ھ</b> <i>do-chashmī he</i> and you get an aspirated p, with a strong puff: <b>پل</b> <i>pal</i> is a moment, <b>پھل</b> <i>phal</i> is fruit.</p>
@@ -216,6 +236,7 @@ module.exports = [
 <p>Compare <b>کہاں</b> <i>kahā̃</i>, "where": the round ہ is a real h after the vowel, not a puff on the k.</p>
 <h3>The nasal ں</h3>
 <p><b>ں</b> <i>nūn ġunna</i> looks like ن without its dot. It has no n sound of its own: it sends the vowel before it through the nose, as in French "non". The romanisation marks this nasal vowel with a tilde (~).</p>
+{{tiles:ن ں=nūn_ġunna}}
 {{ex:ہاں|hā̃|yes}}
 {{ex:میں ٹھیک ہوں۔|maĩ ṭhīk hū̃.|I'm fine.}}
 <p>In the middle of a word, the same nasal sound is written with an ordinary ن, as in <b>پانچ</b> <i>pā̃ch</i>, "five".</p>
@@ -224,6 +245,14 @@ module.exports = [
 <div class="tbl"><table><tr><th>Mark</th><th>Example</th><th>Sound</th></tr><tr><td>zabar</td><td class="k">بَ</td><td>ba</td></tr><tr><td>zer</td><td class="k">بِ</td><td>bi</td></tr><tr><td>pesh</td><td class="k">بُ</td><td>bu</td></tr><tr><td>shadda</td><td class="k">بچّہ</td><td>a doubled ch</td></tr></table></div>
 {{ex:بَ|ba|ba, with zabar}}
 <p>Remember the Nastaliq style from Letters 1: signs and books will show these same letters in a sloping hand.</p>
+<h3>Putting letters together</h3>
+<p>You now know every letter. Most letters join the letters on both sides, like cursive, and change shape with their place in the word: a short start shape, a small middle shape, and a full end shape with its tail. The dots never change, so look for the dots first.</p>
+<div class="tbl"><table><tr><th>Letters</th><th>Start</th><th>Middle</th><th>End</th></tr><tr><td class="k">ب پ ت ٹ ث</td><td class="k">بـ</td><td class="k">ـبـ</td><td class="k">ـب</td></tr><tr><td class="k">ج چ ح خ</td><td class="k">جـ</td><td class="k">ـجـ</td><td class="k">ـج</td></tr><tr><td class="k">س ش</td><td class="k">سـ</td><td class="k">ـسـ</td><td class="k">ـس</td></tr><tr><td class="k">ص ض</td><td class="k">صـ</td><td class="k">ـصـ</td><td class="k">ـص</td></tr><tr><td class="k">ط ظ</td><td class="k">طـ</td><td class="k">ـطـ</td><td class="k">ـط</td></tr><tr><td class="k">ع غ</td><td class="k">عـ</td><td class="k">ـعـ</td><td class="k">ـع</td></tr><tr><td class="k">ف</td><td class="k">فـ</td><td class="k">ـفـ</td><td class="k">ـف</td></tr><tr><td class="k">ق</td><td class="k">قـ</td><td class="k">ـقـ</td><td class="k">ـق</td></tr><tr><td class="k">ک گ</td><td class="k">کـ</td><td class="k">ـکـ</td><td class="k">ـک</td></tr><tr><td class="k">ل</td><td class="k">لـ</td><td class="k">ـلـ</td><td class="k">ـل</td></tr><tr><td class="k">م</td><td class="k">مـ</td><td class="k">ـمـ</td><td class="k">ـم</td></tr><tr><td class="k">ن</td><td class="k">نـ</td><td class="k">ـنـ</td><td class="k">ـن</td></tr><tr><td class="k">ی</td><td class="k">یـ</td><td class="k">ـیـ</td><td class="k">ـی</td></tr><tr><td class="k">ہ</td><td class="k">ہـ</td><td class="k">ـہـ</td><td class="k">ـہ</td></tr><tr><td class="k">ھ</td><td class="k">ھـ</td><td class="k">ـھـ</td><td class="k">ـھ</td></tr></table></div>
+<p>Look closely at the start and middle shapes of ب, ن and ی: all three shrink to the same small tooth, and only the dots tell them apart. ہ changes the most, so learn its shapes from the chart. ھ never begins a word: its start shape appears only after a letter that does not join, as in دھ.</p>
+<p>Ten letters (eleven if you count آ, which is alif with madd) join the letter before them but never the next one, and their shape hardly changes. After them, the next letter takes its start shape again. That is why <b>کتاب</b> <i>kitāb</i> breaks after the ا: ک + ت + ا, then ب on its own.</p>
+<div class="tbl"><table><tr><th>Letters</th><th>Alone</th><th>End</th></tr><tr><td class="k">ا آ</td><td class="k">ا</td><td class="k">ـا</td></tr><tr><td class="k">د ڈ ذ</td><td class="k">د</td><td class="k">ـد</td></tr><tr><td class="k">ر ڑ ز ژ</td><td class="k">ر</td><td class="k">ـر</td></tr><tr><td class="k">و</td><td class="k">و</td><td class="k">ـو</td></tr><tr><td class="k">ے</td><td class="k">ے</td><td class="k">ـے</td></tr></table></div>
+{{ex:کتاب|kitāb|book}}
+<p>The cards below are common words. Read each one from the right, piece by piece: find where it breaks, name each letter, then say the word. The back of each card shows the pieces.</p>
 <div class="tip"><b>Most common mistake:</b> reading پھ as f, the way English reads "ph". Fruit is <b>پھل</b>, a p with a puff of air: "fal" → <i>phal</i>.</div>
 `,
     check: [
