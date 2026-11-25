@@ -23,7 +23,7 @@ Standing rules: Supabase publishable key only; never open, print or commit secre
 - Every course opens with a foundation that teaches its writing system the way Korean lesson 1 does, fitted to the script (2026-11-25; see "Character foundations").
 - Replies: brief, bullets, direct. Visuals as PNG.
 
-## Released (through 2.116.0)
+## Released (through 2.118.0)
 
 Yesterday and today: ur-en, pa-en (2.78.0); yue-en in written Cantonese (2.79.0); te-en with bundled Noto Sans Telugu (2.80.0); yue-ko (2.81.0); kn-en (2.82.0); release report + audio coverage on every release (2.83.0); en-hmn (2.84.0); new cards flip on tap (2.85.0); hmn-en + Hmong interface (2.86.0).
 
@@ -115,7 +115,10 @@ Plan for all 71 courses and the rewritten prompt: the Doc "Character foundations
 - **Roll-out (owner, 2026-11-25: "lets work in batches").** One release per batch, by script family, a short report after each, no go-ahead card between batches. Per course: one Opus writer on `docs/briefs/foundations-writer.md` (it writes `tools/patches/foundations_<t>.py`), one Opus cold review, the course added to `FOUND` in `tools/tests/foundations.js`. Lessons are never reordered and no card of an existing deck changes. Ask the coordinator for the turn before each push.
   - **Batch 1, 2.115.0: Arabic script, `en-ar` and `en-ur`.** en-ar, lessons 1 to 7: tiles for the 28 letters in two halves, each followed by its letter deck (Letters 2 now sits in the joining lesson); a chart of the four forms of all 28 letters; in-lesson decks "Joined words" (18) and "Sun and moon words" (8); the deck "Vowels and marks", which four lessons shared whole, is cut across them so each card is taught once. en-ur, the five script lessons: tiles for the 40 letters, each deck cut by section, a start / middle / end chart, in-lesson decks "The nasal ں" (6; ں had no card) and "Read joined words" (16). Reviews: 2 notes each, all applied.
   - Engine additions in batch 1: tile grids run right to left for `ar` and `ur`; an underscore inside a hand-set tile reading is a space. Test: a block of flashcards has at least 3 cards; a deck shared by several lessons may be cut across them, each card in exactly one lesson; `soundOnly` lessons need no chart.
-  - Still to do, in order: Indian scripts (en-hi, en-bn, en-pa, en-te, en-kn); en-th, en-am, en-ru; en-zh, vi-zh, en-yue, en-nan; then Latin-script courses; then English for X.
+  - **Batch 2, 2.118.0: Indian scripts, `en-hi`, `en-bn`, `en-pa`, `en-te`, `en-kn`.** In each: the script lessons (4 or 5) get named sections, tiles for every letter row by row beside the grid chart, each deck cut by section, and in-lesson decks of real words that use only what has been taught (consonant plus vowel sign first, conjuncts and nasal marks in the last script lesson). Letters that had no card now have one in an in-lesson deck: hi ष ढ़ ङ ञ, the nuqta letters and क्ष त्र ज्ञ श्र; bn 20 consonants and ং ঃ ঁ ৎ; pa ੳ ੲ ਙ ਞ ਢ ਬ ਮ ਯ ਰ ਲ ਵ and the six dotted letters; te and kn ఋ ఙ ఞ ష / ಋ ಙ ಞ ಷ. en-pa `nasal` now teaches the dotted letters first. Reviews: 1 to 4 notes each, applied, except two placement notes (hi: the word cards घी and चाचा stay in the last block of lesson 2, because a deck is cut in deck order; bn: ঢ's card stays beside ঢ়).
+  - Engine addition in batch 2 (`tools/patches/foundations_b2.py`): a tile also finds its reading on a card of an in-lesson deck.
+  - Writers and reviewers worked in a copy of `source/` (`/home/work2`) so the build home stayed free for the release before.
+  - Still to do, in order: en-th, en-am, en-ru; en-zh, vi-zh, en-yue, en-nan; then Latin-script courses; then English for X.
 - **Gaps a first check found:** letters with no card in en-bn (about 13), en-pa (up to 6), en-hi 3, en-te 4, en-kn 4, en-th 7; Thai script starts at lesson 5; the alphabet deck of the English courses is 21st in the deck list.
 
 ## Lesson sections (LS-1, 2.107.0)

@@ -5,6 +5,7 @@ module.exports = [
     title: "Vowels and vowel signs",
     blurb: "Read the Hindi vowels, both as letters and as signs on a consonant, and hear long and short vowels apart.",
     deck: "Vowels and vowel signs",
+    sections: [null, null, {"deck": "Vowels and vowel signs", "n": [0, 11]}, {"deck": "Vowels and vowel signs", "n": [11, 18]}, null, null, null],
     body: `
 <p>This course teaches everyday standard Hindi, as spoken in Delhi and used on Indian TV and in schools, written in the Devanagari script. Spoken Hindi and Urdu are very close; Urdu is written in another script and uses more Persian and Arabic words.</p>
 <h3>The headline</h3>
@@ -12,11 +13,16 @@ module.exports = [
 <h3>Every consonant carries an a</h3>
 <p>The letter <b>क</b> <i>ka</i> is not just k: it is ka. Every consonant carries this inherent a unless a sign changes it. At the end of a word that a is silent: it is written but not said. The romanisation under each word leaves it out.</p>
 {{ex:कमल|kamal|lotus}}
-<h3>Vowel letters and vowel signs</h3>
-<p>Each vowel has two shapes. At the start of a word or syllable you write the full vowel letter. After a consonant you write a small vowel sign instead (also called a matra).</p>
+<h3>Vowel letters</h3>
+<p>Each vowel has two shapes. At the start of a word or syllable you write the full vowel letter. Here are all eleven. Three pairs are a short vowel and a long one: अ and आ, इ and ई, उ and ऊ. Tap a letter to hear it and see how it reads.</p>
+{{tiles:अ आ इ ई उ ऊ ऋ ए ऐ ओ औ}}
+{{ex:एक|ek|one}}
+<h3>Vowel signs</h3>
+<p>After a consonant you write a small vowel sign instead (also called a matra). The sign hangs on the consonant: before it, after it, above it or below it. Short a has no sign, because every consonant already carries it.</p>
 <div class="tbl"><table><tr><th>Letter</th><th>Sign on क</th><th>Sound</th></tr><tr><td class="k">अ</td><td class="k">क</td><td>a, like the u in "but"</td></tr><tr><td class="k">आ</td><td class="k">का</td><td>ā, as in "father"</td></tr><tr><td class="k">इ / ई</td><td class="k">कि / की</td><td>i in "sit" / ī in "seat"</td></tr><tr><td class="k">उ / ऊ</td><td class="k">कु / कू</td><td>u in "put" / ū in "boot"</td></tr><tr><td class="k">ऋ</td><td class="k">कृ</td><td>ri</td></tr><tr><td class="k">ए / ऐ</td><td class="k">के / कै</td><td>e in "say" / ai, the e in "bet", held long</td></tr><tr><td class="k">ओ / औ</td><td class="k">को / कौ</td><td>o in "oh" / au, as in "awe"</td></tr></table></div>
 <p>English words like "doctor" use one more sign, <b>ॉ</b>: <b>कॉ</b> <i>kŏ</i>.</p>
-{{ex:एक|ek|one}}
+<p>Tap each syllable to hear the sign on क.</p>
+{{tiles:का कि की कु कू के कै को=ko कौ=kau कृ=kri}}
 {{ex:कौआ|kauā|crow}}
 <h3>Written first, said second</h3>
 <p>The sign <b>ि</b> is written before the consonant, but it is said after it: <b>कि</b> <i>ki</i> is ki, never "ik".</p>
@@ -58,23 +64,28 @@ module.exports = [
     title: "Consonants 1: k, ch and ṭ rows",
     blurb: "Read the first three rows of consonants and hear the puff of air and the curled-back tongue that change a word.",
     deck: "Consonants 1: k, ch and ṭ rows",
+    sections: [{"deck": "Consonants 1: k, ch and ṭ rows", "n": [0, 4]}, {"deck": "Consonants 1: k, ch and ṭ rows", "n": [4, 8]}, {"deck": "Consonants 1: k, ch and ṭ rows", "n": [8, 17]}],
     body: `
 <p>Devanagari lists its consonants in rows, by where the mouth makes them. This lesson takes the first three rows. Each letter carries the inherent a, so <b>क</b> <i>ka</i> is read ka.</p>
 <div class="tbl"><table><tr><th>Row</th><th>no puff</th><th>puff</th><th>voiced</th><th>voiced + puff</th><th>nasal</th></tr><tr><td>k row</td><td class="k">क</td><td class="k">ख</td><td class="k">ग</td><td class="k">घ</td><td class="k">ङ</td></tr><tr><td>ch row</td><td class="k">च</td><td class="k">छ</td><td class="k">ज</td><td class="k">झ</td><td class="k">ञ</td></tr><tr><td>ṭ row</td><td class="k">ट</td><td class="k">ठ</td><td class="k">ड</td><td class="k">ढ</td><td class="k">ण</td></tr></table></div>
-<p><b>ङ</b> <i>ṅa</i> and <b>ञ</b> <i>ña</i> almost only appear joined to another letter, so you can skip them for now.</p>
+<p><b>ङ</b> <i>ṅa</i> and <b>ञ</b> <i>ña</i> almost only appear joined to another letter, so their cards come in lesson 4, with the joined letters.</p>
 <h3>The puff of air</h3>
 <p>Hold your hand in front of your mouth and say English "kin": you feel a puff of air. Now say "skin": almost none. English never uses that difference to tell words apart. Hindi does. <b>क</b> is k with no puff, like the k in "skin". <b>ख</b> <i>kha</i> is k with a puff. Letters with a puff are called aspirated, and the romanisation adds an h: kh, chh, ṭh. That h is the puff, never a separate h sound.</p>
+<p>The k row, from the back of the mouth. Tap a letter to hear it.</p>
+{{tiles:क ख ग घ ङ=ṅa}}
 {{ex:एक|ek|one}}
 {{ex:खाओ|khāo|eat! (to a friend)}}
 <p>The voiced letters work the same way: <b>ग</b> <i>ga</i> is g, <b>घ</b> <i>gha</i> is g with a breathy puff.</p>
 {{ex:घी|ghī|ghee (clarified butter)}}
 <h3>ch and chh</h3>
 <p><b>च</b> <i>cha</i> is the ch of "church" with no puff. <b>छ</b> <i>chha</i> has the puff. <b>ज</b> <i>ja</i> is j, <b>झ</b> <i>jha</i> is j with a breathy puff.</p>
+{{tiles:च छ ज झ ञ=ña}}
 {{ex:चाचा|chāchā|uncle (father's younger brother)}}
 {{ex:छाछ|chhāchh|buttermilk}}
 {{ex:आज|āj|today}}
 <h3>The tongue curled back</h3>
 <p>For the third row, curl the tip of your tongue back and touch the roof of your mouth, behind the ridge where English t sits. These retroflex sounds are written with a dot below in the romanisation: ṭ, ḍ, ṇ. English t and d are not quite these sounds; the next lesson brings a second t and d with the tongue on the teeth.</p>
+{{tiles:ट ठ ड ढ ण}}
 {{ex:ठीक|ṭhīk|fine; OK}}
 {{ex:डाक|ḍāk|mail}}
 {{ex:झूठ|jhūṭh|a lie}}
@@ -108,28 +119,39 @@ module.exports = [
     title: "Consonants 2: t and p rows, and the rest",
     blurb: "Read every basic letter, tell the tongue-on-the-teeth t from the curled-back ṭ, and never read फ as f.",
     deck: "Consonants 2: t and p rows, and the rest",
+    sections: [{"deck": "Consonants 2: t and p rows, and the rest", "n": [0, 5]}, {"deck": "Consonants 2: t and p rows, and the rest", "n": [5, 10]}, null, null, [{"deck": "Consonants 2: t and p rows, and the rest", "n": [10, 18]}, {"name": "More letters", "cards": [["ष", "sha", "the letter sha (sh)", "Said the same as श. Mostly in words from Sanskrit. Word: भाषा, language."], ["ढ़", "ṛha", "the letter ṛha (a flap with a puff)", "ड़ with a puff of air. Word: पढ़ना, to read."], ["क़", "qa", "the letter qa (k from the throat)", "क with a dot. Said far back in the throat; many speakers just say k."], ["ख़", "ḵha", "the letter ḵha (a throaty kh)", "Like the ch of Scottish \"loch\"; many speakers just say kh. Word: ख़ुश, happy."], ["ग़", "ġa", "the letter ġa (a throaty g)", "ग with a dot. Many speakers just say g."], ["ज़", "za", "the letter za (z)", "As in \"zoo\". ज with a dot. Word: ज़रूर, of course."], ["फ़", "fa", "the letter fa (f)", "As in \"fun\". Without the dot, फ is ph. Word: फ़ोन, phone."]]}], {"name": "First words", "cards": [["पानी", "pānī", "water", "पा (प + ा) + नी (न + ी)"], ["घर", "ghar", "house; home", "घ + र. No signs, and the final a is silent."], ["खाना", "khānā", "food; to eat", "खा (ख + ा) + ना (न + ा)"], ["किताब", "kitāb", "book", "कि (क + ि) + ता (त + ा) + ब. ि is written before क, said after it."], ["दूध", "dūdh", "milk", "दू (द + ू) + ध"], ["चाय", "chāy", "tea", "चा (च + ा) + य"], ["छोटा", "chhoṭā", "small", "छो (छ + ो) + टा (ट + ा)"], ["कमरा", "kamrā", "room", "क + म + रा (र + ा). The a of म is not said: kam-rā."], ["रात", "rāt", "night", "रा (र + ा) + त"], ["आदमी", "ādmī", "man", "आ + द + मी (म + ी). The a of द is not said: ād-mī."], ["औरत", "aurat", "woman", "औ + र + त. At the start of a word the vowel is a full letter."], ["लड़की", "laṛkī", "girl", "ल + ड़ + की (क + ी). The a of ड़ is not said."], ["गाड़ी", "gāṛī", "car", "गा (ग + ा) + ड़ी (ड़ + ी)"], ["पढ़ना", "paṛhnā", "to read", "प + ढ़ + ना (न + ा). The a of ढ़ is not said."], ["बाज़ार", "bāzār", "market", "बा (ब + ा) + ज़ा (ज़ + ा) + र"], ["भाषा", "bhāshā", "language", "भा (भ + ा) + षा (ष + ा)"], ["मौसम", "mausam", "weather", "मौ (म + ौ) + स + म"], ["साथ", "sāth", "together; with", "सा (स + ा) + थ. थ is a dental t with a puff, not the th of \"think\"."]]}],
     body: `
 <p>This lesson finishes the alphabet: two more rows, then the letters that sit outside the rows.</p>
 <h3>Two kinds of t and d</h3>
 <p>English has one t. Hindi has two. For <b>त</b> <i>ta</i>, put the tip of your tongue on the back of your top teeth: this is a dental t. For <b>ट</b> <i>ṭa</i>, from the last lesson, curl the tongue back: retroflex ṭ. The romanisation writes the dental one plain (t, d, n) and the retroflex one with a dot (ṭ, ḍ, ṇ). English t sits between the two, so neither one is "the English t".</p>
 <div class="tbl"><table><tr><th>Row</th><th>no puff</th><th>puff</th><th>voiced</th><th>voiced + puff</th><th>nasal</th></tr><tr><td>t row</td><td class="k">त</td><td class="k">थ</td><td class="k">द</td><td class="k">ध</td><td class="k">न</td></tr><tr><td>p row</td><td class="k">प</td><td class="k">फ</td><td class="k">ब</td><td class="k">भ</td><td class="k">म</td></tr></table></div>
+<p>The t row, with the tongue on the teeth. Tap a letter to hear it.</p>
+{{tiles:त थ द ध न}}
 {{ex:तोता|totā|parrot}}
 {{ex:दाल|dāl|lentils; dal}}
 <p><b>थ</b> <i>tha</i> is a dental t with a puff of air. It is never the th of "think".</p>
 {{ex:थोड़ा|thoṛā|a little}}
 <h3>ph is not f</h3>
 <p><b>फ</b> <i>pha</i> is p with a puff of air, so <b>फल</b> <i>phal</i> means "fruit". Without the puff, <b>पल</b> <i>pal</i> means "a moment". <b>भ</b> <i>bha</i> is b with a breathy puff.</p>
+{{tiles:प फ ब भ म}}
 {{ex:फल|phal|fruit}}
 {{ex:भाई|bhāī|brother}}
 <h3>The rest</h3>
 <p><b>य र ल व</b> are y, r, l and v. <b>र</b> <i>ra</i> is a quick tap of the tongue, and <b>व</b> <i>va</i> sits between English v and w. <b>श</b> <i>sha</i> and <b>ष</b> <i>sha</i> are both sh; <b>स</b> <i>sa</i> is s and <b>ह</b> <i>ha</i> is h.</p>
+{{tiles:य र ल व _ श ष स ह}}
 {{ex:शाम|shām|evening}}
 <h3>The flap</h3>
 <p><b>ड़</b> <i>ṛa</i> (and <b>ढ़</b> <i>ṛha</i>, with a puff) is a flap: curl the tongue back, then flick it forward. It is written ṛ, and it is neither d nor English r.</p>
+{{tiles:ड़ ढ़}}
 {{ex:लड़का|laṛkā|boy}}
 <h3>The nuqta</h3>
 <p>A dot under a letter, the nuqta, marks sounds that came with Persian, Arabic and English words: <b>ज़</b> <i>za</i> is z and <b>फ़</b> <i>fa</i> is f. You will also see <b>क़ ख़ ग़</b> <i>qa ḵha ġa</i>; many speakers say them as k, kh and g.</p>
+{{tiles:क़ ख़ ग़ ज़ फ़}}
 {{ex:फ़ोन|fon|phone}}
+<h3>Read your first words</h3>
+<p>You now know every basic letter and every vowel sign, so you can read real words. Each consonant with its vowel sign makes one syllable, and a consonant with no sign keeps its a: पा + नी is <i>pānī</i>, water. At the end of a word that a is silent, and inside a word it sometimes drops too, as in कमरा <i>kamrā</i>. The cards below are common words built only from what you know. Read each one aloud before you flip it.</p>
+{{ex:पानी|pānī|water}}
+{{ex:किताब|kitāb|book}}
 <p>The romanisation is a crutch: read the Devanagari first and glance down only to check.</p>
 <div class="tip"><b>Most common mistake:</b> reading फ as an English f. <b>फल</b> as "fal" → <b>फल</b> as phal, p with a puff of air. The f sound needs the dot: फ़.</div>
 `,
@@ -160,6 +182,7 @@ module.exports = [
     title: "Conjuncts, nasal dots and reading words",
     blurb: "Read whole Hindi words: joined letters, the silent a, and vowels said through the nose.",
     deck: "Conjuncts and nasals",
+    sections: [{"name": "Joined letters", "cards": [["ङ", "ṅa", "the letter ṅa (the ng of \"sing\")", "The nasal of the k row. Almost only as a half letter before क or ग; everyday spelling writes ं instead."], ["ञ", "ña", "the letter ña (the ny of \"canyon\")", "The nasal of the ch row. Almost only as a half letter before च or ज; everyday spelling writes ं instead."], ["क्ष", "ksha", "the conjunct ksha (k + sh)", "क् + ष, joined into a shape of its own."], ["त्र", "tra", "the conjunct tra (t + r)", "त् + र: the र becomes a slanted stroke."], ["ज्ञ", "gya", "the conjunct gya", "ज् + ञ, but said gy in Hindi. Word: ज्ञान, knowledge."], ["श्र", "shra", "the conjunct shra (sh + r)", "श् + र: श changes shape, and र becomes a slanted stroke."]]}, {"deck": "Conjuncts and nasals", "n": [0, 8]}, null, {"deck": "Conjuncts and nasals", "n": [8, 15]}, {"deck": "Conjuncts and nasals", "n": [15, 18]}],
     body: `
 <p>You know every letter now. This lesson shows how they combine into real words.</p>
 <h3>Half letters and conjuncts</h3>
@@ -167,6 +190,8 @@ module.exports = [
 {{ex:नमस्ते|namaste|hello}}
 {{ex:दोस्त|dost|friend}}
 <p>Some conjuncts look new: <b>क्ष</b> <i>ksha</i> is ksh, <b>त्र</b> <i>tra</i> is tr, <b>श्र</b> <i>shra</i> is shr, and <b>ज्ञ</b> <i>gya</i> is said gy.</p>
+<p>Two letters from lesson 2 live mostly in clusters too: <b>ङ</b> <i>ṅa</i> before a letter of the k row and <b>ञ</b> <i>ña</i> before a letter of the ch row. Everyday spelling writes the nasal dot <b>ं</b> there instead, so you will rarely see them.</p>
+{{tiles:ङ ञ क्ष त्र ज्ञ श्र}}
 {{ex:ज्ञान|gyān|knowledge}}
 <p>The little stroke <b>्</b> under a letter, the virama, also removes the a; you will mostly see it in names and new words.</p>
 <h3>r above and below</h3>
@@ -185,6 +210,7 @@ module.exports = [
 {{ex:ठंडा|ṭhaṇḍā|cold}}
 <h3>How spoken Hindi colors a few sounds</h3>
 <p>Next to <b>ह</b> <i>ha</i>, a short a is said closer to e: <b>शहर</b> <i>shahar</i>, "city", sounds like "shehar". And <b>यह</b> <i>yah</i> and <b>वह</b> <i>vah</i> ("this" and "that") are usually said "yeh" and "voh". The romanisation shows the spelling, so remember these two habits.</p>
+<p>The dotted letters from lesson 3 get the same treatment in fast speech: many speakers say <b>ख़</b> as kh and some say <b>ज़</b> as j. Aim for the sound the dot marks: z in <b>ज़रूर</b> <i>zarūr</i>, f in <b>फ़ोन</b> <i>fon</i>.</p>
 <p>The romanisation is a crutch: read the Devanagari first and glance down only to check.</p>
 <div class="tip"><b>Most common mistake:</b> putting an a inside a conjunct. <b>नमस्ते</b> as "namasate" → <b>नमस्ते</b> as namaste: s and t are joined, with no a between them.</div>
 `,

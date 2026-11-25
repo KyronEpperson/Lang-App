@@ -5,19 +5,25 @@ module.exports = [
     title: "Vowels: short and long",
     blurb: "Read the twelve Telugu vowel letters, hear short against long, and read your first words with క.",
     deck: "Vowels",
+    sections: [null, {"deck": "Vowels", "n": [0, 6]}, null, {"deck": "Vowels", "n": [6, 12]}, null, {"deck": "Vowels", "n": [12, 17]}],
     body: `
 <p>This course teaches everyday standard Telugu as it is spoken in Andhra Pradesh and Telangana and heard on TV and in films, in the Telugu script. Books and formal speeches sometimes use older forms; the course points them out when you need them.</p>
 <p>Under every Telugu phrase there is a romanisation in English letters. It is a crutch: read the Telugu first and glance down only to check.</p>
+<h3>How Telugu writing works</h3>
+<p>Telugu is written left to right, with no capital letters. Each block you see is a whole syllable, not a single sound. A consonant letter already includes the vowel a: క is <i>ka</i>, not k. For any other vowel, a small sign is added to the consonant, so <i>kā</i> or <i>ki</i> is still one block. A vowel is written as a full letter only when a syllable starts with it, mostly at the start of a word. So the course goes in this order: the vowel letters in this lesson, then the vowel signs, then the consonants row by row, and last the ways two consonants join.</p>
 <h3>Vowels come in pairs</h3>
 <p>English spells one vowel many ways. Telugu gives each vowel its own letter, and most come as a short and a long partner. Long means held about twice as long, and the romanisation marks it with a line on top: ā ī ū ē ō.</p>
 <div class="tbl"><table><tr><th>Short</th><th>Long</th><th>Sounds like</th></tr><tr><td class="k">అ</td><td class="k">ఆ</td><td>the u in <i>but</i> / the a in <i>father</i></td></tr><tr><td class="k">ఇ</td><td class="k">ఈ</td><td><i>sit</i> / <i>seat</i></td></tr><tr><td class="k">ఉ</td><td class="k">ఊ</td><td><i>put</i> / <i>boot</i></td></tr><tr><td class="k">ఎ</td><td class="k">ఏ</td><td><i>bet</i> / <i>say</i> held long, with no glide</td></tr><tr><td class="k">ఒ</td><td class="k">ఓ</td><td>a short o / <i>go</i> held long, with no glide</td></tr></table></div>
+<p>Tap a letter to hear it. The top row is short, the row under it long.</p>
+{{tiles:అ ఇ ఉ ఎ ఒ ఆ ఈ ఊ ఏ ఓ}}
 {{ex:అ|a|the vowel a (short)}}
 {{ex:ఆ|ā|the vowel ā (long)}}
 <h3>e and o: the pair English doesn't have</h3>
 <p>English has only the long ones, and it ends them with a glide: say <i>go</i> slowly and your lips close on a w. Telugu keeps a short <b>ఎ</b> <i>e</i> and a long <b>ఏ</b> <i>ē</i>, a short <b>ఒ</b> <i>o</i> and a long <b>ఓ</b> <i>ō</i>, and they make different words. Keep the long ones steady, with no glide at the end.</p>
 {{ex:ఏ|ē|which?}}
 <h3>Two more: ai and au</h3>
-<p><b>ఐ</b> <i>ai</i> sounds like the <i>i</i> in <i>aisle</i>, and <b>ఔ</b> <i>au</i> like the <i>ou</i> in <i>out</i>. Do not read ఔ as the "oh" of <i>go</i>: that is ఓ. You may also meet <b>ఋ</b> <i>ru</i> in Sanskrit words and names; you only need to recognise it.</p>
+<p><b>ఐ</b> <i>ai</i> sounds like the <i>i</i> in <i>aisle</i>, and <b>ఔ</b> <i>au</i> like the <i>ou</i> in <i>out</i>. Do not read ఔ as the "oh" of <i>go</i>: that is ఓ. You may also meet <b>ఋ</b> <i>ru</i> in Sanskrit words and names; you will read it in real words in lesson 5, once you know more letters.</p>
+{{tiles:ఐ ఔ ఋ=ru}}
 <h3>Your first consonant: క</h3>
 <p><b>క</b> <i>ka</i> is k with a built-in a. Every consonant carries this a unless a sign changes it, and Telugu always says it: unlike Hindi, there is no silent a. The little check mark on top is the tick (talakaṭṭu); the next lesson shows what happens to it.</p>
 <h3>First words</h3>
@@ -56,12 +62,15 @@ module.exports = [
     title: "Vowel signs (guṇintālu) on క",
     blurb: "Read any vowel sign on క, and read words such as కాకి, ఆకు and కేక.",
     deck: "Vowel signs",
+    sections: [{"deck": "Vowel signs", "n": [0, 11]}, null, null, {"deck": "Vowel signs", "n": [11, 18]}],
     body: `
 <p>The vowel letters from the last lesson stand alone only at the start of a word. After a consonant, a vowel is written as a small sign attached to it. Telugu primers call the full set guṇintālu; this course says vowel signs.</p>
 <p>The romanisation is a crutch: read the Telugu first and glance down only to check.</p>
 <h3>One consonant, twelve syllables</h3>
 <p>English writes a vowel as its own letter after the consonant: k + a. Telugu fuses them into one block. With no sign, <b>క</b> <i>ka</i> keeps its a. Add a sign and the a is replaced by that vowel.</p>
 <div class="tbl"><table><tr><th>Vowel</th><th>Sign on క</th><th>Said</th></tr><tr><td class="k">ఆ</td><td class="k">కా</td><td>kā</td></tr><tr><td class="k">ఇ / ఈ</td><td class="k">కి / కీ</td><td>ki / kī</td></tr><tr><td class="k">ఉ / ఊ</td><td class="k">కు / కూ</td><td>ku / kū</td></tr><tr><td class="k">ఎ / ఏ</td><td class="k">కె / కే</td><td>ke / kē</td></tr><tr><td class="k">ఐ</td><td class="k">కై</td><td>kai</td></tr><tr><td class="k">ఒ / ఓ</td><td class="k">కొ / కో</td><td>ko / kō</td></tr><tr><td class="k">ఔ</td><td class="k">కౌ</td><td>kau</td></tr></table></div>
+<p>Tap a block to hear it. Each one is క with a different sign.</p>
+{{tiles:కా కి కీ కు కూ కె కే కై కొ కో కౌ}}
 {{ex:కా|kā|kā (long ā)}}
 {{ex:కు|ku|ku (short u)}}
 <h3>What happens to the tick</h3>
@@ -106,16 +115,20 @@ module.exports = [
     title: "Consonants 1: the k, ch and ṭ rows",
     blurb: "Read the k, ch and ṭ rows, hear a puff of air, and tell a retroflex sound.",
     deck: "Consonants 1: k, ch and ṭ rows",
+    sections: [{"deck": "Consonants 1: k, ch and ṭ rows", "n": [0, 8]}, {"deck": "Consonants 1: k, ch and ṭ rows", "n": [8, 13]}, null, null, [{"deck": "Consonants 1: k, ch and ṭ rows", "n": [13, 17]}, {"name": "First words: k, ch and ṭ rows", "cards": [["గుడి", "guḍi", "temple", "గు + డి"], ["ఆట", "āṭa", "game; play", "ఆ + ట"], ["కొడుకు", "koḍuku", "son", "కొ + డు + కు. Short o: కొ, not కో."], ["గోడ", "gōḍa", "wall", "గో + డ"], ["కోట", "kōṭa", "fort", "కో + ట"], ["ఈగ", "īga", "fly (the insect)", "ఈ + గ"], ["ఆటో", "āṭō", "auto-rickshaw", "ఆ + టో"], ["కూడా", "kūḍā", "also, too", "కూ + డా"], ["గొడుగు", "goḍugu", "umbrella", "గొ + డు + గు"], ["కుడి", "kuḍi", "right (side)", "కు + డి"], ["చోటు", "chōṭu", "place", "చో + టు. Before ō, చ is often said ts."], ["టీ", "ṭī", "tea", "ట + ీ: one block."], ["చెడు", "cheḍu", "bad", "చె + డు. Before e, చ is said ch."], ["ఇటు", "iṭu", "this way", "ఇ + టు"], ["అటు", "aṭu", "that way", "అ + టు"], ["ఙ", "ṅa", "ṅa (ng, as in sing)", "The nasal of the k row. Chart letter only: modern Telugu writes the circle ం instead."], ["ఞ", "ña", "ña (ny, as in canyon)", "The nasal of the ch row. Modern Telugu writes the circle ం in its place, but ఞ lives on in జ్ఞ, as in జ్ఞానం (knowledge)."]]}]],
     body: `
 <p>Telugu lists its consonants in a chart, row by row, and the rows show you how each sound is made. This lesson covers the first three rows. Every vowel sign you know works the same way on each new letter.</p>
 <p>The romanisation is a crutch: read the Telugu first and glance down only to check.</p>
 <div class="tbl"><table><tr><th>Row</th><th>Plain</th><th>Puff</th><th>Plain</th><th>Puff</th><th>Nasal</th></tr><tr><td>k row</td><td class="k">క</td><td class="k">ఖ</td><td class="k">గ</td><td class="k">ఘ</td><td class="k">ఙ</td></tr><tr><td>ch row</td><td class="k">చ</td><td class="k">ఛ</td><td class="k">జ</td><td class="k">ఝ</td><td class="k">ఞ</td></tr><tr><td>ṭ row</td><td class="k">ట</td><td class="k">ఠ</td><td class="k">డ</td><td class="k">ఢ</td><td class="k">ణ</td></tr></table></div>
 <h3>A puff of air, or none</h3>
 <p>English puts a puff of air after k at the start of a word: hold your hand in front of your mouth and say <i>kin</i>, then <i>skin</i>. Telugu <b>క</b> <i>ka</i> is the k of <i>skin</i>, with no puff. The letters with a puff are written with an h in the romanisation: <b>ఖ</b> <i>kha</i>, <b>ఘ</b> <i>gha</i>, <b>ఛ</b> <i>chha</i>. They appear in words borrowed from Sanskrit; everyday Telugu words almost always use the plain letters.</p>
+<p>Tap the letters of the first two rows. The last letter of each row, ఙ and ఞ, is a nasal you will rarely see.</p>
+{{tiles:క ఖ గ ఘ ఙ చ ఛ జ ఝ ఞ}}
 {{ex:గాజు|gāju|glass; bangle}}
 {{ex:గుడి|guḍi|temple}}
 <h3>The tongue curled back</h3>
 <p>The third row is made with the tip of the tongue curled back to touch the roof of the mouth. These sounds are called retroflex, and the romanisation marks them with a dot below: <b>ట</b> <i>ṭa</i>, <b>డ</b> <i>ḍa</i>, <b>ణ</b> <i>ṇa</i>. English t and d sit between Telugu's two kinds; the other kind comes in the next lesson.</p>
+{{tiles:ట ఠ డ ఢ ణ}}
 {{ex:కోడి|kōḍi|hen}}
 {{ex:జడ|jaḍa|braid}}
 {{ex:చీకటి|chīkaṭi|darkness}}
@@ -125,6 +138,9 @@ module.exports = [
 <div class="tbl"><table><tr><th>Said ts / dz</th><th>Said ch</th></tr><tr><td class="k">చాలా (a lot)</td><td class="k">చీకటి (darkness)</td></tr><tr><td class="k">చదువు (study)</td><td class="k">చెప్పు (tell)</td></tr><tr><td class="k">జరుగు (happen)</td><td class="k">చిన్న (small)</td></tr></table></div>
 <h3>Chart letters only</h3>
 <p>ఙ and ఞ fill the chart, but you will hardly ever see them in modern words. Recognise them and move on.</p>
+<h3>Putting it together</h3>
+<p>Every letter in these rows takes every vowel sign you know, the same way క does: గ + ు is గు <i>gu</i>, డ + ి is డి <i>ḍi</i>, so గుడి is <i>guḍi</i>, "temple". Read a word block by block, one syllable per block. The cards below are real words built only from the vowels, the signs and these three rows. The last two cards are the chart letters ఙ and ఞ.</p>
+{{ex:గొడుగు|goḍugu|umbrella}}
 <div class="tip"><b>Most common mistake:</b> adding an English puff, or writing it. <b>ఖాకి</b> → <b>కాకి</b> <i>kāki</i>, "crow": a plain k, as in <i>skin</i>.</div>
 `,
     check: [
@@ -154,28 +170,37 @@ module.exports = [
     title: "Consonants 2: the t and p rows, and the rest",
     blurb: "Read every modern Telugu letter, and tell త from ట and ల from ళ.",
     deck: "Consonants 2: t and p rows, and the rest",
+    sections: [{"deck": "Consonants 2: t and p rows, and the rest", "n": [0, 5]}, {"deck": "Consonants 2: t and p rows, and the rest", "n": [5, 10]}, [{"deck": "Consonants 2: t and p rows, and the rest", "n": [10, 18]}, {"name": "ష and the s sounds", "cards": [["ష", "sha", "sha (sh)", "Same sound as శ. Mostly in words from Sanskrit: భాష, language."], ["భాష", "bhāsha", "language", "భా + ష"], ["మనిషి", "manishi", "person", "మ + ని + షి"], ["ఆశ", "āsha", "hope", "ఆ + శ"], ["వాసన", "vāsana", "smell", "వా + స + న"], ["సీసా", "sīsā", "bottle", "సీ + సా"]]}], null, [{"deck": "Consonants 2: t and p rows, and the rest", "n": [18, 20]}, {"name": "Words with every letter", "cards": [["తెలుగు", "telugu", "Telugu", "తె + లు + గు"], ["నీరు", "nīru", "water", "నీ + రు"], ["పేరు", "pēru", "name", "పే + రు"], ["ఊరు", "ūru", "town; home village", "ఊ + రు"], ["పని", "pani", "work", "ప + ని"], ["బడి", "baḍi", "school", "బ + డి"], ["ఇవాళ", "ivāḷa", "today", "ఇ + వా + ళ. Retroflex ళ."], ["రేపు", "rēpu", "tomorrow", "రే + పు"], ["చేప", "chēpa", "fish", "చే + ప"], ["ఆవు", "āvu", "cow", "ఆ + వు"], ["పులి", "puli", "tiger", "పు + లి"], ["కూర", "kūra", "curry", "కూ + ర. ర is a tap."], ["వాన", "vāna", "rain", "వా + న"], ["లేదు", "lēdu", "no; there isn't", "లే + దు. Dental ద."]]}]],
     body: `
 <p>This lesson finishes the chart: the t row, the p row, and the letters that do not fit a row. After it you can read any modern Telugu letter.</p>
 <p>The romanisation is a crutch: read the Telugu first and glance down only to check.</p>
 <div class="tbl"><table><tr><th>Row</th><th>Plain</th><th>Puff</th><th>Plain</th><th>Puff</th><th>Nasal</th></tr><tr><td>t row</td><td class="k">త</td><td class="k">థ</td><td class="k">ద</td><td class="k">ధ</td><td class="k">న</td></tr><tr><td>p row</td><td class="k">ప</td><td class="k">ఫ</td><td class="k">బ</td><td class="k">భ</td><td class="k">మ</td></tr></table></div>
 <h3>Two kinds of t, d and n</h3>
 <p>English has one t. Telugu has two, and they make different words. For <b>త</b> <i>ta</i> the tongue touches the back of the upper teeth: a dental sound, written with no dot. For ట, from the last lesson, the tongue curls back: retroflex, with a dot. The same goes for ద / డ and న / ణ. The th in the romanisation is t with a puff of air, never the th of <i>think</i>.</p>
+<p>Tap the letters of the t row.</p>
+{{tiles:త థ ద ధ న}}
 {{ex:పాట|pāṭa|song}}
 {{ex:పాత|pāta|old}}
 {{ex:తల|tala|head}}
 <h3>The p row, and f in English words</h3>
 <p><b>ప</b> <i>pa</i> is p with no puff, as in <i>spin</i>. <b>ఫ</b> <i>pha</i> is p with a puff in Telugu words, not f. English loans written with ఫ are said with f, though.</p>
+{{tiles:ప ఫ బ భ మ}}
 {{ex:పాలు|pālu|milk}}
 {{ex:భాష|bhāsha|language}}
 {{ex:కాఫీ|kāfī|coffee}}
 <h3>The rest</h3>
 <div class="tbl"><table><tr><th>Letter</th><th>Said</th><th>Note</th></tr><tr><td class="k">య ర ల వ</td><td>ya ra la va</td><td>ర is a quick tap; వ sits between v and w</td></tr><tr><td class="k">శ ష స హ</td><td>sha sha sa ha</td><td>శ and ష both sound like sh</td></tr><tr><td class="k">ళ</td><td>ḷa</td><td>l with the tongue curled back</td></tr></table></div>
 <p><b>ర</b> <i>ra</i> is a single tap of the tongue, like the tt in American <i>butter</i>, never the English r.</p>
+<p><b>శ</b> and <b>ష</b> sound the same, like English sh. ష turns up mostly in words from Sanskrit, such as <b>భాష</b> <i>bhāsha</i> "language". Tap each letter.</p>
+{{tiles:య ర ల వ _ శ ష స హ ళ}}
 <h3>ల and ళ</h3>
 <p><b>ల</b> <i>la</i> is a plain l. <b>ళ</b> <i>ḷa</i> is its retroflex partner: curl the tongue back. It never starts a word, and it changes meaning.</p>
 {{ex:కల|kala|dream}}
 {{ex:కళ|kaḷa|art}}
 <p>In old books you may also meet ఱ, an old letter for a kind of r. Modern Telugu writes ర instead.</p>
+<h3>Putting it together</h3>
+<p>You now know every modern letter, and each one takes every vowel sign: న + ీ is నీ <i>nī</i>, ర + ు is రు <i>ru</i>, so నీరు is <i>nīru</i>, "water". The cards below are everyday words built from single letters and signs. Read each one block by block before you flip it.</p>
+{{ex:తెలుగు|telugu|Telugu}}
 <div class="tip"><b>Most common mistake:</b> saying every t the English way, so two words merge. <b>పాత</b> "old" said for <b>పాట</b> <i>pāṭa</i> "song" → curl the tongue back for ట.</div>
 `,
     check: [
@@ -205,6 +230,7 @@ module.exports = [
     title: "Conjuncts, doubled letters and sunna",
     blurb: "Read whole Telugu words: doubled letters, the small letters written underneath, sunna and pollu.",
     deck: "Conjuncts and sunna",
+    sections: [null, null, null, "Conjuncts and sunna", {"name": "ఋ and its sign", "cards": [["ఋ", "ru", "the vowel ru", "Words from Sanskrit and names. Some speakers say ri."], ["ఋషి", "rushi", "sage, seer", "ఋ + షి"], ["కృష్ణ", "krushṇa", "Krishna (a god; a river)", "కృ + ష్ణ. The small ణ under ష gives shṇ."], ["హృదయం", "hrudayam", "heart", "హృ + ద + యం. A formal word; the sunna at the end is m."], ["ప్రకృతి", "prakruti", "nature", "ప్ర + కృ + తి"], ["నృత్యం", "nrutyam", "dance", "నృ + త్యం. The small య under త gives ty."]]}],
     body: `
 <p>So far every consonant had a vowel after it. Real words also put two consonants together, and Telugu has a neat way to write that. This is the last script lesson.</p>
 <p>The romanisation is a crutch: read the Telugu first and glance down only to check.</p>
@@ -228,6 +254,10 @@ module.exports = [
 {{ex:బస్|bas|bus}}
 {{ex:డాక్టర్|ḍākṭar|doctor}}
 <p>The sign ః (visarga, said h) turns up in a few Sanskrit words; recognise it and move on.</p>
+<p>The cards below are real words that use everything in this lesson: the vattu, doubled letters, sunna and pollu. Find the small letters before you read.</p>
+<h3>ఋ and its sign</h3>
+<p>Lesson 1 showed the vowel <b>ఋ</b> <i>ru</i>. It belongs to words from Sanskrit and to names. After a consonant it becomes a sign on the right side of the letter, a little like the u sign: క + ృ is కృ <i>kru</i>. Some speakers say ri instead of ru.</p>
+{{ex:కృష్ణ|krushṇa|Krishna}}
 <div class="tip"><b>Most common mistake:</b> saying a doubled consonant as a single one. <b>అమ</b> → <b>అమ్మ</b> <i>amma</i>, "mother": hold the m.</div>
 `,
     check: [

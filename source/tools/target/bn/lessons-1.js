@@ -5,12 +5,17 @@ module.exports = [
     title: "Vowels and the inherent vowel",
     blurb: "Read the Bengali vowel letters, know the vowel hidden in every consonant, and read the course's pronunciation line.",
     deck: "Vowels",
+    sections: [null, {"deck": "Vowels", "n": [0, 11]}, null, null, {"deck": "Vowels", "n": [11, 17]}, null],
     body: `
 <p>Bengali has its own script, read left to right, with no capital letters. Under every Bengali phrase in this course there is a pronunciation line in English letters. Learn to read that line first; the script will follow.</p>
+<h3>How Bengali is written</h3>
+<p>Bengali letters come in a few kinds. <b>Vowel letters</b> (this lesson) write a vowel at the start of a word or right after another vowel. <b>Consonant letters</b> (lesson 2) each carry a built-in vowel. <b>Vowel signs</b> (lesson 3) are small marks on a consonant that change that vowel. Two or more consonants with no vowel between them usually join into one shape, a <b>conjunct</b> (lesson 4). Most letters hang from a line along the top, and the letters of a word share one line.</p>
 <h3>The vowel letters</h3>
 <p>Each vowel has a full letter, used at the start of a word. Learn the sound of each one.</p>
 <div class="tbl"><table><tr><th>Letter</th><th>Line</th><th>Sounds like</th></tr><tr><td class="k">অ</td><td>ô</td><td>the aw in <i>call</i>, lips rounded</td></tr><tr><td class="k">আ</td><td>a</td><td>the a in <i>father</i></td></tr><tr><td class="k">ই, ঈ</td><td>i</td><td>the i in <i>machine</i>, short; the two letters sound the same</td></tr><tr><td class="k">উ, ঊ</td><td>u</td><td>the u in <i>rule</i>, short; again two letters, one sound</td></tr><tr><td class="k">এ</td><td>e or æ</td><td>the e in <i>they</i> with no glide, or the a in <i>cat</i></td></tr><tr><td class="k">ঐ</td><td>oi</td><td>the oy in <i>boy</i></td></tr><tr><td class="k">ও</td><td>o</td><td>the o in <i>go</i>, with no w at the end</td></tr><tr><td class="k">ঔ</td><td>ou</td><td>o sliding into u</td></tr></table></div>
 <p>There is one more vowel letter, ঋ, said ri. It appears in a few words, and you only need to recognise it.</p>
+<p>Tap a letter to hear it and see how it reads.</p>
+{{tiles:অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ}}
 {{ex:আমি|ami|I}}
 <h3>The vowel hidden in every consonant</h3>
 <p>Here is the big difference from English. A consonant letter on its own already carries the vowel অ. Nothing extra is written: the letter ক is not just k, it is kô. This built-in vowel is the <b>inherent vowel</b>. When a word needs another vowel, a vowel sign replaces it (lesson 3).</p>
@@ -24,6 +29,8 @@ module.exports = [
 {{ex:এক|æk|one}}
 {{ex:দেখি|dekhi|I see; let me see}}
 {{ex:দেখা|dækha|to see}}
+<h3>A vowel letter starts a word</h3>
+<p>A full vowel letter is written where a word starts with a vowel. Each card below starts with one. Read the first letter yourself; the line gives you the rest until you know the consonants.</p>
 <h3>How to read the line</h3>
 <ul><li><b>ô</b> is not a and not o: it is the vowel of <i>call</i>. <b>a</b> is always আ.</li><li><b>o</b> is ও, or a hidden vowel said like ও. If a hidden vowel is dropped, nothing is written.</li><li><b>æ</b> is the a of <i>cat</i>. There are no long marks: i is i, u is u.</li><li>A doubled letter is held longer. An h after a letter, and a dot under one, are explained in lesson 2.</li></ul>
 <div class="tip"><b>Most common mistake:</b> reading অ, and the vowel hidden in every consonant, as the a of <i>father</i>. Wrong: অ like the a in <i>father</i> → right: অ like the aw in <i>call</i>, ô. The a of <i>father</i> belongs to আ.</div>
@@ -55,8 +62,14 @@ module.exports = [
     title: "Aspiration and dental versus retroflex",
     blurb: "Hear and read the puff of air, the two kinds of t and d, and the letters for sh and s.",
     deck: "Consonants",
+    sections: [null, [{"deck": "Consonants", "n": [0, 6]}, {"name": "More consonants", "cards": [["জ", "jô", "the letter j", "Plain j, as in \"jam\"."], ["ঝ", "jhô", "the letter jh", "Aspirated j. Not common: ঝাল (jhal), \"spicy\"."], ["প", "pô", "the letter p", "Plain p, with less puff than an English p."], ["ফ", "fô", "the letter f", "The aspirated p, but most speakers say it close to an English f, so the aid writes f."], ["ব", "bô", "the letter b", "Plain b. Bengali has no v sound: ব is b."], ["ভ", "bhô", "the letter bh", "Aspirated b, as in ভাত (bhat), \"rice\"."]]}], {"deck": "Consonants", "n": [6, 13]}, null, [{"deck": "Consonants", "n": [13, 15]}, {"name": "The last consonants", "cards": [["ষ", "shô", "another letter for sh", "Same sound as শ. You see it in মানুষ (manush), \"person\"."], ["ঙ", "ngô", "the letter ng", "The nasal of the k row: the ng of \"sing\". It never starts a word."], ["ঞ", "nô", "the nasal of the ch row", "Rare on its own. It sits in conjuncts such as ঞ্চ and ঞ্জ, said n."], ["ণ", "nô", "the retroflex n", "Said just like ন today. Only the spelling differs."], ["ন", "nô", "the letter n", "Dental n, the n of most words."], ["ম", "mô", "the letter m", "Plain m."], ["য", "jô", "the letter j (য)", "Said j, the same as জ."], ["র", "rô", "the letter r", "A light tap of the tongue, as in Spanish \"pero\"."], ["ল", "lô", "the letter l", "A clear l, as in \"leaf\"."], ["হ", "hô", "the letter h", "Plain h."], ["ঢ", "ḍhô", "the letter ḍh", "Retroflex and aspirated: ড with a puff."], ["ড়", "ṛô", "the letter ṛ", "ড with a dot: a flap, close to র. It never starts a word."], ["ঢ়", "ṛhô", "the letter ṛh", "ঢ with a dot: ড় with a puff. Rare."], ["য়", "yô", "the letter y", "য with a dot: a y, or a glide between vowels, as in মেয়ে (meye)."]]}, {"deck": "Consonants", "n": [15, 18]}]],
     body: `
 <p>English has one t, one d, one k. Bengali splits them. Two contrasts matter from day one: a puff of air or not, and where the tongue touches.</p>
+<h3>The consonant chart</h3>
+<p>Bengali lists most of its consonants in a grid of five rows. Each row is one place in the mouth, from the back of the mouth to the lips. Each row has five letters: plain, with a puff of air, voiced (with a buzz in the throat, like g against k), voiced with a puff, and a nasal. Learn the grid and you know 25 letters and how they relate. The sections below go through the two contrasts that matter most, then the nasals and the letters outside the grid.</p>
+<div class="tbl"><table><tr><th>Where</th><th>Plain</th><th>Puff</th><th>Voiced</th><th>Voiced, puff</th><th>Nasal</th></tr><tr><td>Back of the mouth</td><td class="k">ক kô</td><td class="k">খ khô</td><td class="k">গ gô</td><td class="k">ঘ ghô</td><td class="k">ঙ ngô</td></tr><tr><td>Roof of the mouth</td><td class="k">চ chô</td><td class="k">ছ chhô</td><td class="k">জ jô</td><td class="k">ঝ jhô</td><td class="k">ঞ nô</td></tr><tr><td>Tongue curled back</td><td class="k">ট ṭô</td><td class="k">ঠ ṭhô</td><td class="k">ড ḍô</td><td class="k">ঢ ḍhô</td><td class="k">ণ nô</td></tr><tr><td>Tongue on the teeth</td><td class="k">ত tô</td><td class="k">থ thô</td><td class="k">দ dô</td><td class="k">ধ dhô</td><td class="k">ন nô</td></tr><tr><td>Lips</td><td class="k">প pô</td><td class="k">ফ fô</td><td class="k">ব bô</td><td class="k">ভ bhô</td><td class="k">ম mô</td></tr></table></div>
+<p>The same grid as tiles. Tap a letter to hear it and see how it reads.</p>
+{{tiles:ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম}}
 <h3>Aspirated or not</h3>
 <p>Hold your hand in front of your mouth and say <i>pin</i>, then <i>spin</i>. You feel a puff of air on <i>pin</i> only. English never uses that difference to tell words apart; Bengali does, with different letters. A letter with the puff is <b>aspirated</b>, and the line writes an h after it. That h is a puff, never the th of <i>think</i>.</p>
 <div class="tbl"><table><tr><th>Plain</th><th>Aspirated</th></tr><tr><td class="k">ক kô</td><td class="k">খ khô</td></tr><tr><td class="k">গ gô</td><td class="k">ঘ ghô</td></tr><tr><td class="k">চ chô</td><td class="k">ছ chhô</td></tr><tr><td class="k">জ jô</td><td class="k">ঝ jhô</td></tr><tr><td class="k">প pô</td><td class="k">ফ fô</td></tr><tr><td class="k">ব bô</td><td class="k">ভ bhô</td></tr></table></div>
@@ -74,9 +87,17 @@ module.exports = [
 <p>ড় has a dot in the letter itself. In Dhaka it sounds much like র, but the line keeps ṛ so you can see which letter is written.</p>
 <h3>Three letters for sh</h3>
 <p>শ and ষ are both sh. স is usually sh too, but in some conjuncts (lesson 4) and some borrowed words it is s. English uses s and sh to tell words apart, and so does Bengali: this one difference separates two words.</p>
+{{tiles:শ ষ স}}
 {{ex:আস্তে|aste|slowly; softly}}
 {{ex:আসতে|ashte|to come}}
 <p>In some eastern dialects, especially Sylheti, খ ফ ভ lose their puff and become hissing sounds. That is not the Dhaka standard taught here.</p>
+<h3>The nasals and the letters outside the grid</h3>
+<p>The last column of the chart holds the nasals. ম is m and ন is n. ণ is said exactly like ন today; only the spelling keeps it apart. ঙ is the ng of <i>sing</i> and never starts a word. ঞ is rare on its own: you meet it inside conjuncts, said n.</p>
+<p>Outside the grid: র is r, a light tap of the tongue, and ল is l. হ is h. য is said j, just like জ. Three letters carry a dot: ড় (ṛ) you met above, ঢ় is ড় with a puff, made from ঢ (ḍhô), and য় is a y, often just a glide between two vowels.</p>
+{{tiles:য র ল হ _ ড় ঢ় য়}}
+{{ex:লাল|lal|red}}
+{{ex:হাত|hat|hand}}
+<p>The cards below finish the alphabet. The last three are words: খাতা and ঠান্ডা use the vowel sign া (a, lesson 3), and ঠান্ডা has a conjunct (lesson 4).</p>
 <div class="tip"><b>Most common mistake:</b> one English t for both ত and ট, and an English th for থ. Wrong: থ like the th in <i>think</i> → right: থ is a dental t with a puff of air, thô.</div>
 `,
     check: [
@@ -106,11 +127,13 @@ module.exports = [
     title: "Vowel signs and the four marks",
     blurb: "Read a consonant with any vowel sign, and the marks ং ঃ ঁ ৎ.",
     deck: "Vowel signs",
+    sections: [{"deck": "Vowel signs", "n": [0, 10]}, null, null, [{"deck": "Vowel signs", "n": [10, 13]}, {"name": "The four marks", "cards": [["ং", "ng", "the ng mark", "Said ng: বাংলা is bangla."], ["ঃ", "h", "the doubling mark", "Inside a word it doubles the next consonant: দুঃখিত is dukkhito. At the end of a word it is a short h."], ["ঁ", "ã", "the nasal mark", "No sound of its own: it sends the vowel through the nose, a tilde in the aid. Shown here on a, as in চাঁদ (chãd)."], ["ৎ", "t", "a t with no vowel", "A t that never carries a vowel, as in চমৎকার."], ["চমৎকার", "chômôtkar", "wonderful", "চ + ম + ৎ + কা + র. ৎ is t with no vowel after it."]]}], [{"deck": "Vowel signs", "n": [13, 16]}, {"name": "First words", "cards": [["বাবা", "baba", "father", "বা + বা: ব with া, twice."], ["নাম", "nam", "name", "না + ম. The ম keeps no vowel: the inherent vowel is dropped."], ["ভাত", "bhat", "rice (cooked)", "ভা + ত. ভ is aspirated, ত is dental."], ["মাছ", "machh", "fish", "মা + ছ. ছ is the aspirated ch."], ["পানি", "pani", "water", "পা + নি. ি is written left of ন, said after it."], ["দুধ", "dudh", "milk", "দু + ধ. ু hangs under দ."], ["বাড়ি", "baṛi", "home; house", "বা + ড়ি. ড় is the dotted ড."], ["ছেলে", "chhele", "boy; son", "ছে + লে. ে is written left of each letter."], ["মেয়ে", "meye", "girl; daughter", "মে + য়ে. য় is the dotted য."], ["ভালো", "bhalo", "good; well", "ভা + লো. ো wraps around ল."], ["দিন", "din", "day", "দি + ন"], ["বাজার", "bajar", "market", "বা + জা + র"], ["ঢাকা", "ḍhaka", "Dhaka", "ঢা + কা. ঢ is retroflex and aspirated."], ["কলম", "kôlom", "pen", "ক + ল + ম: no signs at all, only inherent vowels."], ["পাঁচ", "pãch", "five", "পাঁ + চ. ঁ makes the a nasal."], ["তৈরি", "toiri", "ready; made", "তৈ + রি. ৈ is written left of ত."], ["মানুষ", "manush", "person", "মা + নু + ষ"], ["শহর", "shôhor", "city", "শ + হ + র: inherent vowels only."]]}]],
     body: `
 <p>In lesson 1 every vowel had a full letter. Those letters are used at the start of a word. After a consonant, the vowel is a small sign attached to the consonant, and it replaces the inherent vowel.</p>
 <h3>The signs on ক</h3>
 <div class="tbl"><table><tr><th>Sign</th><th>On ক</th><th>Line</th></tr><tr><td class="k">া</td><td class="k">কা</td><td>ka</td></tr><tr><td class="k">ি</td><td class="k">কি</td><td>ki</td></tr><tr><td class="k">ী</td><td class="k">কী</td><td>ki</td></tr><tr><td class="k">ু</td><td class="k">কু</td><td>ku</td></tr><tr><td class="k">ূ</td><td class="k">কূ</td><td>ku</td></tr><tr><td class="k">ে</td><td class="k">কে</td><td>ke</td></tr><tr><td class="k">ৈ</td><td class="k">কৈ</td><td>koi</td></tr><tr><td class="k">ো</td><td class="k">কো</td><td>ko</td></tr><tr><td class="k">ৌ</td><td class="k">কৌ</td><td>kou</td></tr><tr><td class="k">ৃ</td><td class="k">কৃ</td><td>kri</td></tr></table></div>
 <p>With no sign, ক keeps its inherent vowel: kô. The same signs go on every consonant, so once you know them on ক you can read them anywhere. The last one, ৃ, is the sign of ঋ; it is rare, so just recognise it.</p>
+{{tiles:কা কি কী কু কূ কৃ কে কৈ কো কৌ}}
 {{ex:কাজ|kaj|work}}
 {{ex:কে?|ke?|Who?}}
 <h3>Written first, said second</h3>
@@ -122,12 +145,15 @@ module.exports = [
 {{ex:কী?|ki?|What?}}
 <h3>Four marks</h3>
 <div class="tbl"><table><tr><th>Mark</th><th>What it does</th><th>Example</th></tr><tr><td class="k">ং</td><td>ng</td><td class="k">বাংলা</td></tr><tr><td class="k">ঃ</td><td>inside a word, doubles the next consonant</td><td class="k">দুঃখিত</td></tr><tr><td class="k">ঁ</td><td>makes the vowel nasal; the line puts a tilde on the vowel</td><td class="k">চাঁদ</td></tr><tr><td class="k">ৎ</td><td>a t with no vowel after it</td><td class="k">চমৎকার</td></tr></table></div>
+{{tiles:ং ঃ ঁ ৎ}}
 {{ex:বাংলা|bangla|Bengali}}
 {{ex:দুঃখিত|dukkhito|sorry}}
 {{ex:চাঁদ|chãd|moon}}
 {{ex:চমৎকার|chômôtkar|wonderful}}
 <p>A nasal vowel is said with air through the nose, like the vowel in French <i>bon</i>. In the line, ã is a nasal a.</p>
+<h3>Read your first words</h3>
 <p>To read a new word, go syllable by syllable: find each consonant, then look left, right, above and below it for its sign. No sign means the inherent vowel.</p>
+<p>The cards below are real words built only from letters, signs and marks you know: no conjuncts yet. Split each one into its syllables and read it aloud before you flip it.</p>
 <div class="tip"><b>Most common mistake:</b> saying ি before the consonant because it is written first. Wrong: the i sound before the k in কি → right: consonant first, then the vowel, ki.</div>
 `,
     check: [
@@ -157,6 +183,7 @@ module.exports = [
     title: "Conjuncts and the pholas",
     blurb: "Read consonant clusters, ক্ষ, and the pholas, and know when a written letter is not said.",
     deck: "Conjuncts",
+    sections: [null, null, null, "Conjuncts"],
     body: `
 <p>English writes a cluster like <i>str</i> as three separate letters. Bengali joins the consonants into one shape, a <b>conjunct</b>. Some conjuncts show their parts clearly; a few look like nothing you have seen. As in English <i>str</i>, most conjuncts are said the way they are written, every letter in turn. The surprises are ক্ষ and the pholas.</p>
 <h3>The hasant</h3>
@@ -178,6 +205,8 @@ module.exports = [
 {{ex:স্বামী|shami|husband}}
 <p>The spelling does not always tell you which of these happens, which is why every word in this course comes with its line. Read the line, listen, and let the shape stick to the sound.</p>
 <div class="tbl"><table><tr><th>Written</th><th>What happens</th><th>Word</th><th>Line</th></tr><tr><td class="k">ন্য</td><td>the n is doubled, no y</td><td class="k">ধন্যবাদ</td><td>dhonnobad</td></tr><tr><td class="k">ব্য</td><td>the vowel becomes æ</td><td class="k">ব্যথা</td><td>bætha</td></tr><tr><td class="k">স্ব</td><td>the ব is silent</td><td class="k">স্বামী</td><td>shami</td></tr><tr><td class="k">প্র</td><td>a real r</td><td class="k">প্রথম</td><td>prothom</td></tr></table></div>
+<h3>Read conjuncts in words</h3>
+<p>Every card below is a common word with at least one conjunct. Before you flip it, find the conjunct and split it into its letters. Then decide: is it said as written, is a letter doubled, is a phola silent, does the vowel turn into æ, or is it ক্ষ, said kh? Check yourself against the line.</p>
 <div class="tip"><b>Most common mistake:</b> pronouncing every letter of a phola. Wrong: a y sound in ধন্যবাদ → right: no y, a doubled n, dhonnobad.</div>
 `,
     check: [

@@ -5,6 +5,7 @@ module.exports = [
     title: "Vowel letters and vowel signs",
     blurb: "Read any consonant with a vowel sign, tell long vowels from short ones, and spot the silent a.",
     deck: "Vowel signs",
+    sections: [null, {"deck": "Vowel signs", "n": [10, 18]}, null, [{"deck": "Vowel signs", "n": [0, 10]}, {"name": "Carriers at work", "cards": [["ੳ", "ūṛā", "ūṛā, the carrier for u, ū and o", "Its name. Never written alone: with a sign on it, it is ਉ, ਊ or ਓ."], ["ੲ", "īṛī", "īṛī, the carrier for i, ī and e", "Its name. Never written alone: with a sign on it, it is ਇ, ਈ or ਏ."], ["ਕਈ", "kaī", "several", "ਕ + ਈ. After a vowel, ī is written as the vowel letter ਈ, on ੲ."], ["ਕੋਈ", "koī", "someone; anyone", "ਕੋ + ਈ: ਕ with the sign ੋ, then the vowel letter ਈ."], ["ਆਓ", "āo", "come! (polite)", "ਆ + ਓ: two vowel letters, one on ਅ and one on ੳ."], ["ਆਈ", "āī", "came (said of a woman)", "ਆ + ਈ: two long vowels, one on ਅ and one on ੲ."]]}]],
     body: `
 <p>This course teaches standard Punjabi as it is spoken and written in Indian Punjab, in the Gurmukhi script. In Pakistan, Punjabi is the same spoken language, but it is written in another script, Shahmukhi, which is close to Urdu's. Speakers from both sides understand each other; this course teaches only Gurmukhi.</p>
 <p>Gurmukhi runs left to right, like English. The letters hang from a line along the top, the headline. Under every Punjabi phrase you will see a romanisation in English letters. It is a crutch: read the Gurmukhi first and glance down only to check.</p>
@@ -24,9 +25,12 @@ module.exports = [
 <h3>Vowel letters</h3>
 <p>At the start of a word, or right after another vowel, there is no consonant to hang a sign on. Gurmukhi then uses a carrier: <b>ੳ</b>, <b>ਅ</b> or <b>ੲ</b>, with the sign on it. The carriers make no sound of their own; together with the sign they form the ten vowel letters.</p>
 <div class="tbl"><table><tr><th>Carrier</th><th>Vowel letters</th></tr><tr><td class="k">ੳ</td><td class="k">ਉ ਊ ਓ</td></tr><tr><td class="k">ਅ</td><td class="k">ਅ ਆ ਐ ਔ</td></tr><tr><td class="k">ੲ</td><td class="k">ਇ ਈ ਏ</td></tr></table></div>
+<p>Each carrier has a name: <b>ੳ</b> <i>ūṛā</i>, <b>ਅ</b> <i>aiṛā</i> and <b>ੲ</b> <i>īṛī</i>. <b>ਅ</b> with no sign is also the vowel letter a. Tap a letter to hear it and see how it reads.</p>
+{{tiles:ੳ=ūṛā ਉ ਊ ਓ _ ਅ ਆ ਐ ਔ _ ੲ=īṛī ਇ ਈ ਏ _}}
 {{ex:ਆਓ|āo|come! (polite)}}
 {{ex:ਆਈ|āī|came (said of a woman)}}
 {{ex:ਕੋਈ|koī|someone; anyone}}
+<p>The cards below are the ten vowel letters, then the two carriers by name, then four words that put the carriers to work. Read each one aloud before you flip it.</p>
 <div class="tip"><b>Most common mistake:</b> reading ai as in "eye". <b>ਕੈ</b> said "kye" → <b>ਕੈ</b> with the e of "bet", held long. Likewise au is the vowel of "awe", not "cow".</div>
 `,
     check: [
@@ -56,9 +60,12 @@ module.exports = [
     title: "Letters 1: the k and ch rows",
     blurb: "Read ਸ, ਹ and the k and ch rows, and hear the difference between a letter with a puff of air and one without.",
     deck: "Letters 1: k and ch rows",
+    sections: [{"deck": "Letters 1: k and ch rows", "n": [0, 10]}, null, null, [{"deck": "Letters 1: k and ch rows", "n": [10, 17]}, {"name": "Rows 1 to 3 in words", "cards": [["ਙ", "ṅa", "the letter ṅa (ng); rare", "Found almost only inside a word, before ਕ ਖ ਗ ਘ. Today a tippi usually does its job (lesson 4)."], ["ਞ", "ña", "the letter ña (ny); rare", "Found almost only inside a word, before ਚ ਛ ਜ ਝ. Today a tippi usually does its job: ਪੰਜ, five."], ["ਹੈ", "hai", "is", "ਹ + ੈ. At the start of a word ਹ is a plain h; ai as in \"bet\"."], ["ਹੋ", "ho", "are (with ਤੁਸੀਂ, the polite you)", "ਹ + ੋ: ho, as in \"oh\". ਤੁਸੀਂ ਕਿਵੇਂ ਹੋ? How are you?"], ["ਸੀ", "sī", "was", "ਸ + ੀ: s, then a long ī."], ["ਜੇ", "je", "if", "ਜ + ੇ: j, then e as in \"say\"."], ["ਜਾਓ", "jāo", "go! (polite)", "ਜਾ + ਓ: ਜ with ਾ, then the vowel letter ਓ."], ["ਖਾਓ", "khāo", "eat! (polite)", "ਖਾ + ਓ. ਖ has a puff of air."], ["ਚਾਚੀ", "chāchī", "aunt (wife of ਚਾਚਾ)", "ਚਾ + ਚੀ. Both ਚ with no puff of air."], ["ਚਾਕੂ", "chākū", "knife", "ਚਾ + ਕੂ. The sign ੂ hangs below ਕ: long ū."], ["ਕਾਜੂ", "kājū", "cashew", "ਕਾ + ਜੂ"], ["ਸੂਈ", "sūī", "needle", "ਸੂ + ਈ. After a vowel, ī is the vowel letter ਈ."], ["ਜੀਜਾ", "jījā", "brother-in-law (sister's husband)", "ਜੀ + ਜਾ"], ["ਸੋਚ", "soch", "thought; think!", "ਸੋ + ਚ. The a of the last ਚ is silent."], ["ਕੇਸ", "kes", "uncut hair (as Sikhs keep it)", "ਕੇ + ਸ. The a of the last ਸ is silent."]]}]],
     body: `
 <p>Gurmukhi lists its consonants in a chart of rows, and each row is a family of related sounds. This lesson covers the first letters, <b>ਸ</b> and <b>ਹ</b>, and the k and ch rows. Each letter also has a name, used when you spell a word aloud; you do not need to learn the names now.</p>
 <div class="tbl"><table><tr><th>Letter</th><th>Romanisation</th><th>Name</th><th>Sound</th></tr><tr><td class="k">ਸ</td><td>sa</td><td class="k">ਸੱਸਾ</td><td>s, as in "sun"</td></tr><tr><td class="k">ਹ</td><td>ha</td><td class="k">ਹਾਹਾ</td><td>h, at the start of a word</td></tr><tr><td class="k">ਕ</td><td>ka</td><td class="k">ਕੱਕਾ</td><td>k with no puff of air</td></tr><tr><td class="k">ਖ</td><td>kha</td><td class="k">ਖੱਖਾ</td><td>k with a puff of air</td></tr><tr><td class="k">ਗ</td><td>ga</td><td class="k">ਗੱਗਾ</td><td>g, as in "go"</td></tr><tr><td class="k">ਘ</td><td>ghà</td><td class="k">ਘੱਗਾ</td><td>a tonal letter (see below)</td></tr><tr><td class="k">ਙ</td><td>ṅa</td><td class="k">ਙੰਙਾ</td><td>ng; rare</td></tr><tr><td class="k">ਚ</td><td>cha</td><td class="k">ਚੱਚਾ</td><td>ch with no puff of air</td></tr><tr><td class="k">ਛ</td><td>chha</td><td class="k">ਛੱਛਾ</td><td>ch with a puff of air</td></tr><tr><td class="k">ਜ</td><td>ja</td><td class="k">ਜੱਜਾ</td><td>j, as in "jam"</td></tr><tr><td class="k">ਝ</td><td>jhà</td><td class="k">ਝੱਜਾ</td><td>a tonal letter (see below)</td></tr><tr><td class="k">ਞ</td><td>ña</td><td class="k">ਞੰਞਾ</td><td>ny; rare</td></tr></table></div>
+<p>The full chart is laid out in rows of five. Its first row is the three carriers from lesson 1, then <b>ਸ</b> and <b>ਹ</b>; next come the k row and the ch row. Tap a letter to hear it and see how it reads.</p>
+{{tiles:ੳ=ūṛā ਅ ੲ=īṛī ਸ ਹ ਕ ਖ ਗ ਘ ਙ=ṅa ਚ ਛ ਜ ਝ ਞ=ña}}
 <h3>With a puff of air, or without</h3>
 <p>Hold your hand in front of your mouth and say "kin": you feel a puff of air after the k. Now say "skin": no puff. English uses both sounds but never lets them change a word. Punjabi does. <b>ਕ</b> is always the k of "skin", unaspirated. <b>ਖ</b> is k with a strong puff, aspirated. The romanisation writes that puff as h: kh, chh.</p>
 {{ex:ਕਾਕਾ|kākā|little boy}}
@@ -75,7 +82,10 @@ module.exports = [
 <h3><b>ਹ</b> at the end of a word</h3>
 <p>At the start of a word, <b>ਹ</b> is an ordinary h. After a vowel it is not said, and it changes the pitch instead; the mark in the romanisation shows where. More on this in lesson 5.</p>
 {{ex:ਚਾਹ|chā́h|tea}}
-<p><b>ਙ</b> and <b>ਞ</b> appear almost only in the middle of a word, before a letter of their own row, so you will rarely see them.</p>
+<h3>Putting letters and signs together</h3>
+<p>A word is a row of syllables, read left to right: each letter with its vowel sign, or with its own short a. <b>ਚਾਕੂ</b> is <b>ਚਾ</b> + <b>ਕੂ</b>, <i>chākū</i>, knife. A vowel letter can follow a syllable too: <b>ਸੂਈ</b> is <b>ਸੂ</b> + <b>ਈ</b>, <i>sūī</i>, needle.</p>
+{{ex:ਚਾਕੂ|chākū|knife}}
+<p><b>ਙ</b> and <b>ਞ</b> appear almost only in the middle of a word, before a letter of their own row, so you will rarely see them. Each has a card below; the other cards are real words spelled only with letters and signs you know. Read each one aloud before you flip it.</p>
 <p>The romanisation is a crutch: read the Gurmukhi first and glance down only to check.</p>
 <div class="tip"><b>Most common mistake:</b> an English puff of air on every k and ch. <b>ਕਾਕਾ</b> said with the k of "kin" → <b>ਕਾਕਾ</b> with the k of "skin". With a puff, a Punjabi ear hears <b>ਖ</b>.</div>
 `,
@@ -106,11 +116,14 @@ module.exports = [
     title: "Letters 2: retroflex and dental, the p row and the rest",
     blurb: "Read every basic Gurmukhi letter and tell a curled-back ṭ from a t with the tongue on the teeth.",
     deck: "Letters 2: ṭ, t and p rows, and the rest",
+    sections: [{"deck": "Letters 2: ṭ, t and p rows, and the rest", "n": [0, 9]}, null, [{"deck": "Letters 2: ṭ, t and p rows, and the rest", "n": [9, 13]}, {"name": "More letters", "cards": [["ਢ", "ḍhà", "the letter ḍha (low tone)", "A tonal letter: at the start of a word, said ṭ with a falling pitch. Word: ਢੋਲ, dhol."], ["ਬ", "ba", "the letter ba (b)", "As in \"bus\". Word: ਕਿਤਾਬ, book."], ["ਮ", "ma", "the letter ma (m)", "As in \"man\". Word: ਕਮਰਾ, room."], ["ਯ", "ya", "the letter ya (y)", "As in \"yes\". Word: ਯਾਰ, friend."], ["ਰ", "ra", "the letter ra (a tapped r)", "A quick tap, like the tt in American \"butter\". Word: ਤਾਰਾ, star."], ["ਲ", "la", "the letter la (l)", "A clear l, as in \"leaf\". Word: ਦਾਲ, lentils."], ["ਵ", "va", "the letter va (between v and w)", "Between English v and w. Word: ਵਾਲ, hair."]]}], [{"deck": "Letters 2: ṭ, t and p rows, and the rest", "n": [13, 18]}, {"name": "Whole words", "cards": [["ਪਾਣੀ", "pāṇī", "water", "ਪਾ + ਣੀ. ਣ is curled back and never starts a word."], ["ਰੋਟੀ", "roṭī", "roti (flatbread); a meal", "ਰੋ + ਟੀ. ਟ is curled back."], ["ਦਾਲ", "dāl", "dal (lentils)", "ਦਾ + ਲ. ਦ with the tongue on the teeth; the last a is silent."], ["ਦਿਨ", "din", "day", "ਦਿ + ਨ. ਿ is written before ਦ but said after it."], ["ਰਾਤ", "rāt", "night", "ਰਾ + ਤ. ਤ with the tongue on the teeth."], ["ਸਾਲ", "sāl", "year", "ਸਾ + ਲ"], ["ਕਮਰਾ", "kamrā", "room", "ਕ + ਮ + ਰਾ: kam-rā. The a of ਮ is not said."], ["ਕਿਤਾਬ", "kitāb", "book", "ਕਿ + ਤਾ + ਬ"], ["ਮੇਰਾ", "merā", "my", "ਮੇ + ਰਾ"], ["ਨਾਲ", "nāl", "with", "ਨਾ + ਲ"], ["ਯਾਰ", "yār", "friend, buddy (informal)", "ਯਾ + ਰ"], ["ਵੀ", "vī", "also, too", "ਵ + ੀ"], ["ਲੋਕ", "lok", "people", "ਲੋ + ਕ"], ["ਛੋਟਾ", "chhoṭā", "small", "ਛੋ + ਟਾ. ਛ has a puff of air; ਟ is curled back."], ["ਲਾਲ", "lāl", "red", "ਲਾ + ਲ"], ["ਹਾਥੀ", "hāthī", "elephant", "ਹਾ + ਥੀ. ਥ is a dental t with a puff, never the th of \"think\"."], ["ਠੀਕ", "ṭhīk", "fine; OK", "ਠੀ + ਕ. ਠ is curled back, with a puff of air."], ["ਗਲੀ", "galī", "street, lane", "ਗ + ਲੀ"]]}]],
     body: `
 <p>This lesson finishes the basic letters: two rows that English hears as one, the p row, and five more.</p>
 <h3>Two kinds of t and d</h3>
 <p>English has one t, made with the tongue tip on the ridge behind the teeth. Punjabi has two, and they make different words. For the retroflex row, curl the tongue tip back and touch the roof of the mouth. For the dental row, put the tongue tip against the back of the upper teeth. The romanisation marks the retroflex letters with a dot below.</p>
 <div class="tbl"><table><tr><th>Retroflex (tongue curled back)</th><th>Dental (tongue on the teeth)</th></tr><tr><td class="k">ਟ ṭa · ਠ ṭha</td><td class="k">ਤ ta · ਥ tha</td></tr><tr><td class="k">ਡ ḍa · ਢ ḍhà</td><td class="k">ਦ da · ਧ dhà</td></tr><tr><td class="k">ਣ ṇa</td><td class="k">ਨ na</td></tr></table></div>
+<p>In the full chart these are two rows of five: the ṭ row, then the t row. Tap a letter to hear it and see how it reads.</p>
+{{tiles:ਟ ਠ ਡ ਢ=ḍhà ਣ ਤ ਥ ਦ ਧ ਨ}}
 <p>To English ears the retroflex ṭ sounds close to an American t, and the dental t sounds soft, almost like a d. <b>ਠ</b> and <b>ਥ</b> add a puff of air, as <b>ਖ</b> does. <b>ਥ</b> is never the th of "think". <b>ਣ</b> never starts a word.</p>
 {{ex:ਟਮਾਟਰ|ṭamāṭar|tomato}}
 {{ex:ਤਾਰਾ|tārā|star}}
@@ -118,6 +131,7 @@ module.exports = [
 {{ex:ਪਾਣੀ|pāṇī|water}}
 <h3>The p row</h3>
 <p><b>ਪ</b> is p with no puff, as in "spin". <b>ਫ</b> is p with a puff of air. It is never f: f is written with a dot, <b>ਫ਼</b>, in lesson 4. <b>ਬ</b> is b, <b>ਮ</b> is m. <b>ਭ</b> is a tonal letter like <b>ਘ</b>: at the start of a word it is said like <b>ਪ</b>, with the pitch falling on the next vowel.</p>
+{{tiles:ਪ ਫ ਬ=ba ਭ ਮ=ma}}
 {{ex:ਪਲ|pal|moment}}
 {{ex:ਫਲ|phal|fruit}}
 {{ex:ਭਾਈ|bhā̀ī|brother}}
@@ -125,9 +139,14 @@ module.exports = [
 <h3>The rest: <b>ਯ ਰ ਲ ਵ ੜ</b></h3>
 <p><b>ਯ</b> is y and <b>ਲ</b> is l. <b>ਰ</b> is a quick tap of the tongue, like the tt in American "butter", never the English r. <b>ਵ</b> sits between English v and w. <b>ੜ</b> is a flap: curl the tongue back, then flick it forward against the roof of the mouth. It never starts a word.</p>
 <div class="tbl"><table><tr><th>Letter</th><th>Romanisation</th></tr><tr><td class="k">ਯ</td><td>ya</td></tr><tr><td class="k">ਰ</td><td>ra</td></tr><tr><td class="k">ਲ</td><td>la</td></tr><tr><td class="k">ਵ</td><td>va</td></tr><tr><td class="k">ੜ</td><td>ṛa</td></tr></table></div>
+{{tiles:ਯ=ya ਰ=ra ਲ=la ਵ=va ੜ}}
+<p>The cards after this section are the p row, <b>ੜ</b>, and the letters that have no card of their own yet: <b>ਢ</b>, <b>ਬ</b>, <b>ਮ</b>, <b>ਯ</b>, <b>ਰ</b>, <b>ਲ</b> and <b>ਵ</b>.</p>
 {{ex:ਕੁੜੀ|kuṛī|girl}}
 {{ex:ਰੋਟੀ|roṭī|roti (flatbread); a meal}}
 {{ex:ਦਾਲ|dāl|dal (lentils)}}
+<h3>Reading whole words</h3>
+<p>You now know all 35 letters. Read a word one syllable at a time: a letter with its vowel sign, or with its own short a, which is usually silent at the end of a word. <b>ਕਿਤਾਬ</b> is <b>ਕਿ</b> + <b>ਤਾ</b> + <b>ਬ</b>, <i>kitāb</i>, book. The cards below are common words spelled only with the letters and signs you have learned. Read each one aloud before you flip it.</p>
+{{ex:ਕਿਤਾਬ|kitāb|book}}
 <p>The romanisation is a crutch: read the Gurmukhi first and glance down only to check.</p>
 <div class="tip"><b>Most common mistake:</b> reading <b>ਫ</b> as f. <b>ਫਲ</b> said "fal" → <b>ਫਲ</b> as p with a puff of air, then al. The f sound always has the dot: <b>ਫ਼</b>.</div>
 `,
@@ -158,11 +177,21 @@ module.exports = [
     title: "Tippi, bindi, addak and dotted letters",
     blurb: "Read whole words: nasal sounds, doubled consonants, letters written under others, and the dotted letters.",
     deck: "Tippi, bindi and addak",
+    sections: [{"name": "Dotted letters", "cards": [["ਸ਼", "sha", "the letter sha (sh)", "ਸ with a dot: sh, as in \"shoe\". Word: ਸ਼ਹਿਰ, city."], ["ਖ਼", "ḵha", "the letter ḵha (a rough kh)", "ਖ with a dot: like the ch of Scottish \"loch\". Many speakers say plain ਖ. Word: ਖ਼ੁਸ਼, happy."], ["ਗ਼", "ġa", "the letter ġa (a soft, gargled g)", "ਗ with a dot. Many speakers say plain ਗ. Word: ਗ਼ਰੀਬ, poor."], ["ਜ਼", "za", "the letter za (z)", "ਜ with a dot: z, as in \"zoo\". Word: ਜ਼ਰੂਰ, of course."], ["ਫ਼", "fa", "the letter fa (f)", "ਫ with a dot: the English f. Word: ਫ਼ੋਨ, phone."], ["ਲ਼", "ḷa", "the letter ḷa (l, tongue curled back)", "ਲ with a dot. Rare in print; this course writes plain ਲ."]]}, null, {"deck": "Tippi, bindi and addak", "n": [0, 11]}, {"deck": "Tippi, bindi and addak", "n": [11, 18]}],
     body: `
-<p>Four small marks turn the letters you know into real words. They sit on top of the headline or next to a letter, so they are easy to miss.</p>
+<p>This lesson adds the last pieces. First, a dot under a letter makes a new sound. Then three small marks turn the letters you know into real words. The marks sit on top of the headline or next to a letter, so they are easy to miss.</p>
+<h3>Dotted letters</h3>
+<p>A dot under a letter makes a sound found in Persian, Arabic and English words: <b>ਸ਼</b> sh, <b>ਖ਼</b> a rough kh (like Scottish "loch"), <b>ਗ਼</b> a soft gargled g, <b>ਜ਼</b> z, <b>ਫ਼</b> f. Many speakers say <b>ਖ਼</b> and <b>ਗ਼</b> like <b>ਖ</b> and <b>ਗ</b>. You may also meet <b>ਲ਼</b>, an l with the tongue curled back, in some printed texts; this course writes plain <b>ਲ</b>.</p>
+{{ex:ਸ਼ਹਿਰ|sháhir|city}}
+{{ex:ਖ਼ੁਸ਼|ḵhush|happy}}
+{{ex:ਜ਼ਰੂਰ|zarūr|of course; surely}}
+{{ex:ਫ਼ੋਨ|fon|phone}}
+<p>Tap a letter to hear it and see how it reads. The cards after this section are the six dotted letters.</p>
+{{tiles:ਸ਼=sha ਖ਼=ḵha ਗ਼=ġa ਜ਼=za ਫ਼=fa ਲ਼=ḷa}}
 <h3>Tippi and bindi: the nasal marks</h3>
 <p>Tippi (<b>ੰ</b>) and bindi (<b>ਂ</b>) do the same job. Which one you write depends on the vowel: tippi goes with the inherent a, <b>ਿ</b>, <b>ੁ</b> and <b>ੂ</b>; bindi goes with the other vowel signs (<b>ਾ ੀ ੇ ੈ ੋ ੌ</b>), also when they are part of a vowel letter. What you say depends on the next letter:</p>
 <ul><li>Before a consonant like <b>ਜ</b>, <b>ਡ</b> or <b>ਬ</b>, the mark is a real n, ṇ or m, matching that consonant: <b>ਪੰਜ</b> <i>panj</i> five, <b>ਮੁੰਡਾ</b> <i>muṇḍā</i> boy, <b>ਅੰਬ</b> <i>amb</i> mango.</li><li>Before <b>ਮ</b> or <b>ਨ</b>, it doubles that letter: <b>ਕੰਮ</b> <i>kamm</i> work.</li><li>Anywhere else, including the end of a word, there is no n at all: the vowel is said through the nose, like the French "non". The romanisation writes a wavy line on the vowel.</li></ul>
+<div class="tbl"><table><tr><th>Mark</th><th>Name</th><th>Goes with</th><th>Example</th></tr><tr><td class="k">ੰ</td><td>tippi</td><td>the inherent a, ਿ, ੁ, ੂ</td><td class="k">ਮੁੰਡਾ</td></tr><tr><td class="k">ਂ</td><td>bindi</td><td>ਾ ੀ ੇ ੈ ੋ ੌ</td><td class="k">ਹਾਂ</td></tr></table></div>
 {{ex:ਤੂੰ|tū̃|you (to a close friend)}}
 {{ex:ਹਾਂ|hā̃|yes}}
 {{ex:ਮੈਂ|maĩ|I}}
@@ -171,16 +200,12 @@ module.exports = [
 {{ex:ਪਤਾ|patā|address; (I) know}}
 {{ex:ਪੱਤਾ|pattā|leaf}}
 {{ex:ਪੱਕਾ|pakkā|sure; ripe}}
+<p>The cards below are words with tippi, bindi and addak. Read each one aloud before you flip it.</p>
 <h3>Letters written underneath</h3>
 <p>Three letters can be written small, under another letter: <b>੍ਰ</b> (r), <b>੍ਹ</b> (h) and, rarely, <b>੍ਵ</b> (v). The small letter is said after the big one, with no vowel between; <b>੍ਹ</b> is not said as an h: like <b>ਹ</b> after a vowel, it changes the tone (lesson 5).</p>
 {{ex:ਸ੍ਰੀ|srī|Sri (a title of respect)}}
 {{ex:ਪੜ੍ਹਨਾ|páṛhnā|to read; to study}}
-<h3>Dotted letters</h3>
-<p>A dot under a letter makes a sound found in Persian, Arabic and English words: <b>ਸ਼</b> sh, <b>ਖ਼</b> a rough kh (like Scottish "loch"), <b>ਗ਼</b> a soft gargled g, <b>ਜ਼</b> z, <b>ਫ਼</b> f. Many speakers say <b>ਖ਼</b> and <b>ਗ਼</b> like <b>ਖ</b> and <b>ਗ</b>. You may also meet <b>ਲ਼</b>, an l with the tongue curled back, in some printed texts; this course writes plain <b>ਲ</b>.</p>
-{{ex:ਸ਼ਹਿਰ|sháhir|city}}
-{{ex:ਖ਼ੁਸ਼|ḵhush|happy}}
-{{ex:ਜ਼ਰੂਰ|zarūr|of course; surely}}
-{{ex:ਫ਼ੋਨ|fon|phone}}
+<p>The last cards are words with a letter written underneath or a dotted letter.</p>
 <p>The romanisation is a crutch: read the Gurmukhi first and glance down only to check.</p>
 <div class="tip"><b>Most common mistake:</b> skipping the addak. <b>ਪੱਕਾ</b> read like <b>ਪਕਾ</b>, with one k → <b>ਪੱਕਾ</b> with the k held, as in "book case". And no n in <b>ਤੂੰ</b>: just a nasal vowel.</div>
 `,
@@ -211,6 +236,7 @@ module.exports = [
     title: "Tones: low, level and high",
     blurb: "Read the tone marks in the romanisation and say low, level and high tones in common words.",
     deck: "Tones",
+    sections: [{"deck": "Tones", "n": [0, 3]}, {"deck": "Tones", "n": [3, 11]}, {"deck": "Tones", "n": [11, 17]}],
     body: `
 <p>English uses pitch for feeling: a question goes up at the end. Punjabi also uses pitch to tell words apart. A syllable can have a low tone (the pitch falls), a level tone (ordinary speech), or a high tone (the voice rises, then falls a little).</p>
 {{ex:ਘੋੜਾ|ghòṛā|horse}}

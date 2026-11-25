@@ -10,7 +10,12 @@ const HIRA='あいうえおかきくけこさしすせそたちつてとなに�
 /* letters: on a card and on a tile. soundOnly: a lesson on sounds, with no letters to chart. tilesOnly: on a tile, named on another letter's card (ぢ and づ sound like じ and ず and are rare). */
 const FOUND={'en-ja':{lessons:['hiragana','sounds','katakana'],letters:[...HIRA+KATA+DAKU],tilesOnly:['ぢ','づ'],words:['hiragana','sounds','katakana']},
  'en-ar':{lessons:['letters','sounds','vowels','shapes','sukun-shadda','hamza','al'],letters:[...'ابتثجحخدذرزسشصضطظعغفقكلمنهوي'],tilesOnly:[],words:['shapes','al'],soundOnly:['sounds']},
- 'en-ur':{lessons:['letters-1','letters-2','letters-3','letters-4','aspirates'],letters:[...'اآبپتٹثویےدڈذرڑزژجچحخسشصضطظعغفقکگلمنہھءں'],tilesOnly:[],words:['aspirates']}};
+ 'en-ur':{lessons:['letters-1','letters-2','letters-3','letters-4','aspirates'],letters:[...'اآبپتٹثویےدڈذرڑزژجچحخسشصضطظعغفقکگلمنہھءں'],tilesOnly:[],words:['aspirates']},
+ 'en-hi':{lessons:['vowels','consonants','consonants-2','conjuncts'],letters:[...'अआइईउऊऋएऐओऔकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह','ड़','ढ़'],tilesOnly:[],words:['consonants-2']},
+ 'en-bn':{lessons:['vowels','consonants','vowel-signs','conjuncts'],letters:[...'অআইঈউঊঋএঐওঔকখগঘঙচছজঝঞটঠডঢণতথদধনপফবভমযরলশষসহৎংঃঁ','ড়','ঢ়','য়'],tilesOnly:[],words:['vowel-signs']},
+ 'en-pa':{lessons:['vowels','letters-1','letters-2','nasal','tones'],letters:[...'ੳਅੲਸਹਕਖਗਘਙਚਛਜਝਞਟਠਡਢਣਤਥਦਧਨਪਫਬਭਮਯਰਲਵੜ'],tilesOnly:[],words:['letters-1','letters-2'],soundOnly:['tones']},
+ 'en-te':{lessons:['vowels','vowel-signs','consonants-1','consonants-2','conjuncts'],letters:[...'అఆఇఈఉఊఋఎఏఐఒఓఔకఖగఘఙచఛజఝఞటఠడఢణతథదధనపఫబభమయరలవశషసహళ'],tilesOnly:[],words:['consonants-1','consonants-2']},
+ 'en-kn':{lessons:['vowels','vowel-signs','consonants-1','consonants-2','conjuncts'],letters:[...'ಅಆಇಈಉಊಋಎಏಐಒಓಔಕಖಗಘಙಚಛಜಝಞಟಠಡಢಣತಥದಧನಪಫಬಭಮಯರಲವಶಷಸಹಳ'],tilesOnly:[],words:['consonants-1','consonants-2','conjuncts']}};
 let fail=0,pass=0;const ok=(c,m)=>{ if(c){ pass++; console.log('PASS '+m); } else { fail++; console.log('FAIL '+m); } };
 async function open(b,cid){ const lang=cid.split('-')[0]; const c=await b.newContext({viewport:{width:390,height:800},reducedMotion:'reduce'}); const p=await c.newPage(); p.errs=[]; p.on('pageerror',e=>p.errs.push(e.message));
   await p.addInitScript(([lang,cid])=>{ const st=JSON.stringify({nick:'K',welcomed:1,onboard:{skipped:1},hintSeen:1,tourDone:1,fx3d:false}); localStorage.setItem('la-s-'+cid,st); if(cid==='en-ko') localStorage.setItem('ko-app2',st); localStorage.setItem('la-meta',JSON.stringify({v:1,native:lang,course:cid,picked:1,seenHome:1,prefs:{}})); },[lang,cid]);

@@ -5,6 +5,7 @@ module.exports = [
     title: "Vowels: short and long",
     blurb: "Read the twelve Kannada vowel letters, hear short against long, and read your first consonant, ಕ.",
     deck: "Vowels",
+    sections: [null, {"deck": "Vowels", "n": [0, 6]}, null, {"deck": "Vowels", "n": [6, 12]}, null],
     body: `
 <p>This course teaches everyday Kannada as it is spoken in Bengaluru and Mysuru, in the Kannada script. Signs, newspapers and formal letters use fuller written forms; the course shows you those too, so you can read them.</p>
 <h3>Every letter is said</h3>
@@ -12,11 +13,14 @@ module.exports = [
 <h3>Short and long vowels</h3>
 <p>In English, how long you hold a vowel never changes a word. In Kannada it does. Most vowels come in pairs, one short and one long. In the romanisation a line over a vowel means "hold it long": <i>ā ī ū ē ō</i>.</p>
 <div class="tbl"><table><tr><th>Short</th><th>Long</th><th>Sounds like</th></tr><tr><td class="k">ಅ</td><td class="k">ಆ</td><td>a as in <i>but</i>; ā as in <i>father</i></td></tr><tr><td class="k">ಇ</td><td class="k">ಈ</td><td>i as in <i>sit</i>; ī as in <i>seat</i></td></tr><tr><td class="k">ಉ</td><td class="k">ಊ</td><td>u as in <i>put</i>; ū as in <i>boot</i></td></tr><tr><td class="k">ಎ</td><td class="k">ಏ</td><td>e as in <i>bet</i>; ē as in <i>say</i>, held, with no glide</td></tr><tr><td class="k">ಒ</td><td class="k">ಓ</td><td>a short o; ō as in <i>go</i>, held, with no glide</td></tr></table></div>
+<p>Start with the first three pairs. Tap a letter to hear it and see how it reads.</p>
+{{tiles:ಅ ಆ ಇ ಈ ಉ ಊ}}
 <p>Two of these are already words. <b>ಆ</b> <i>ā</i> means "that" and <b>ಈ</b> <i>ī</i> means "this", placed before a noun.</p>
 {{ex:ಆ|ā|that}}
 {{ex:ಈ|ī|this}}
 <h3>e against ē, o against ō</h3>
 <p>English speakers tend to hear <b>ಎ</b> and <b>ಏ</b> as one sound, and <b>ಒ</b> and <b>ಓ</b> as one. Kannada keeps them apart. Say <i>bet</i> for <b>ಎ</b>; for <b>ಏ</b>, say <i>say</i> but hold the vowel still, without sliding into a y at the end. <b>ಏ</b> <i>ē</i> on its own is "hey!", a call to a friend.</p>
+{{tiles:ಎ ಏ ಒ ಓ}}
 {{ex:ಎ|e|short e, as in bet}}
 {{ex:ಏ|ē|hey!}}
 {{ex:ಓ|ō|long ō, as in go}}
@@ -24,7 +28,8 @@ module.exports = [
 <p>Two vowels have no short partner: <b>ಐ</b> <i>ai</i>, as in <i>aisle</i>, and <b>ಔ</b> <i>au</i>, as in <i>out</i>.</p>
 {{ex:ಐ|ai|ai, as in aisle}}
 {{ex:ಔ|au|au, as in out}}
-<p>You will also meet <b>ಋ</b> <i>ru</i> in a few Sanskrit words. Learn to recognize it; you will rarely need to write it.</p>
+<p>You will also meet <b>ಋ</b> <i>ru</i> in a few Sanskrit words. Learn to recognize it; you will rarely need to write it. Lesson 4 shows the few common words that use it.</p>
+{{tiles:ಐ ಔ ಋ=ru}}
 <h3>Your first consonant: <b>ಕ</b></h3>
 <p>A Kannada consonant letter carries the vowel a with it. <b>ಕ</b> <i>ka</i> is not k: it is ka. In English the a at the end of <i>sofa</i> almost disappears; in Kannada the a is always said, even at the end of a word. The k itself has no puff of air: say the k of <i>skin</i>, not of <i>kin</i>.</p>
 {{ex:ಕ|ka|ka}}
@@ -57,6 +62,7 @@ module.exports = [
     title: "Vowel signs (kāgunita) on ಕ",
     blurb: "Read ಕ with every vowel sign, spot the length stroke, and read your first words: ಕೈ, ಏಕೆ, ಆಕೆ, ಈಕೆ.",
     deck: "Vowel signs",
+    sections: [null, {"deck": "Vowel signs", "n": [0, 12]}, null, null, {"deck": "Vowel signs", "n": [12, 16]}],
     body: `
 <p>English writes a consonant and a vowel side by side as two letters: <i>k</i>, <i>i</i>. Kannada writes them as one unit. A consonant letter already carries an a (<b>ಕ</b> is <i>ka</i>). For any other vowel, a <b>vowel sign</b> is added to the letter. The full set of signs on one letter is called the kāgunita.</p>
 <h3>The headstroke</h3>
@@ -64,6 +70,8 @@ module.exports = [
 <h3>Every sign on <b>ಕ</b></h3>
 <div class="tbl"><table><tr><th>Short</th><th></th><th>Long</th><th></th></tr><tr><td class="k">ಕ</td><td>ka</td><td class="k">ಕಾ</td><td>kā</td></tr><tr><td class="k">ಕಿ</td><td>ki</td><td class="k">ಕೀ</td><td>kī</td></tr><tr><td class="k">ಕು</td><td>ku</td><td class="k">ಕೂ</td><td>kū</td></tr><tr><td class="k">ಕೆ</td><td>ke</td><td class="k">ಕೇ</td><td>kē</td></tr><tr><td class="k">ಕೊ</td><td>ko</td><td class="k">ಕೋ</td><td>kō</td></tr><tr><td class="k">ಕೈ</td><td>kai</td><td class="k">ಕೌ</td><td>kau</td></tr></table></div>
 <p>The rare <b>ಕೃ</b> (<i>kru</i>) is the sign of <b>ಋ</b>; you will see it in the name Krishna.</p>
+<p>Tap a syllable to hear it.</p>
+{{tiles:ಕಾ ಕಿ ಕೀ ಕು ಕೂ ಕೃ ಕೆ ಕೇ ಕೈ ಕೊ ಕೋ ಕೌ}}
 <h3>The length stroke</h3>
 <p>Look at the pairs i / ī, e / ē and o / ō. The long sign is the short one plus an extra hook, the length stroke. Miss the hook and you read the wrong vowel.</p>
 {{ex:ಕಿ|ki|ki (short i)}}
@@ -78,6 +86,7 @@ module.exports = [
 {{ex:ಏಕೆ?|ēke?|Why?}}
 {{ex:ಆಕೆ|āke|she (that woman)}}
 {{ex:ಈಕೆ|īke|she (this woman)}}
+<p>One more comes from English: <b>ಓಕೆ</b> <i>ōke</i>, "OK". Read each card aloud before you flip it.</p>
 <p>As always, read the Kannada first; the romanisation is a crutch to glance at, then drop.</p>
 <div class="tip"><b>Most common mistake:</b> missing the length stroke. Reading <b>ಕೀ</b> as short ki → long kī. Check every <b>ಿ</b>, <b>ೆ</b> and <b>ೊ</b> for the extra hook.</div>
 `,
@@ -108,24 +117,33 @@ module.exports = [
     title: "Consonants 1: the k, ch and ṭ rows",
     blurb: "Read the first three rows of consonants, hear a puff of air, and find the curled-back retroflex sounds.",
     deck: "Consonants 1: k, ch and ṭ rows",
+    sections: [{"deck": "Consonants 1: k, ch and ṭ rows", "n": [0, 4]}, {"deck": "Consonants 1: k, ch and ṭ rows", "n": [4, 8]}, {"deck": "Consonants 1: k, ch and ṭ rows", "n": [8, 13]}, null, [{"deck": "Consonants 1: k, ch and ṭ rows", "n": [13, 17]}, {"name": "Grid words and rare nasals", "cards": [["ಙ", "ṅa", "ṅa (ng, as in sing)", "The nasal of the k row. Rare: Kannada writes ಂ for this sound instead (lesson 5)."], ["ಞ", "ña", "ña (ny, as in canyon)", "The nasal of the ch row. Rare: Kannada writes ಂ for this sound instead (lesson 5)."], ["ಈಗ", "īga", "now", "ಈ + ಗ. Long ī."], ["ಆಗ", "āga", "then (at that time)", "ಆ + ಗ. ಈಗ is now, ಆಗ is then."], ["ಕಾಗೆ", "kāge", "crow", "ಕಾ + ಗೆ. Plain k and g, with no puff of air."], ["ಆಟ", "āṭa", "game; play", "ಆ + ಟ. Retroflex ṭ: curl the tongue back."], ["ಗಿಡ", "giḍa", "plant", "ಗಿ + ಡ. The i sign replaces the tick on ಗ."], ["ಕೊಡೆ", "koḍe", "umbrella", "ಕೊ + ಡೆ. Short o, short e."], ["ಗೋಡೆ", "gōḍe", "wall", "ಗೋ + ಡೆ. Long ō: ಗೋ, not ಗೊ."], ["ಚಾಕು", "chāku", "knife", "ಚಾ + ಕು. ch with no puff of air."], ["ಚೀಟಿ", "chīṭi", "ticket; slip of paper", "ಚೀ + ಟಿ. Long ī, then short i."], ["ಗುಡಿ", "guḍi", "temple (small)", "ಗು + ಡಿ."], ["ಜಾಗ", "jāga", "place; space", "ಜಾ + ಗ."], ["ಏಡಿ", "ēḍi", "crab", "ಏ + ಡಿ. A vowel letter starts the word."], ["ಅಡುಗೆ", "aḍuge", "cooking; home-cooked food", "ಅ + ಡು + ಗೆ."], ["ಓಡು", "ōḍu", "run", "ಓ + ಡು. Long ō."], ["ಕೊಡು", "koḍu", "give", "ಕೊ + ಡು. Short o. Compare ಕೊಡೆ, umbrella."]]}]],
     body: `
 <p>English learns its letters as a list. Kannada sets its consonants out as a grid. Each row is made at one place in the mouth, and along the row each letter changes one thing: no puff of air, a puff of air, a voiced sound, voiced with a puff, and the nasal.</p>
 <div class="tbl"><table><tr><th>Row</th><th>plain</th><th>puff</th><th>voiced</th><th>voiced + puff</th><th>nasal</th></tr><tr><td>k row</td><td class="k">ಕ</td><td class="k">ಖ</td><td class="k">ಗ</td><td class="k">ಘ</td><td class="k">ಙ</td></tr><tr><td>ch row</td><td class="k">ಚ</td><td class="k">ಛ</td><td class="k">ಜ</td><td class="k">ಝ</td><td class="k">ಞ</td></tr><tr><td>ṭ row</td><td class="k">ಟ</td><td class="k">ಠ</td><td class="k">ಡ</td><td class="k">ಢ</td><td class="k">ಣ</td></tr></table></div>
 <h3>A puff of air: the h in kh</h3>
 <p>Hold your hand in front of your mouth and say <i>kin</i>: you feel a puff of air after the k. Now say <i>skin</i>: no puff. English adds the puff without thinking. Kannada's plain <b>ಕ</b> <i>ka</i> has no puff, like the k of <i>skin</i>. The letter <b>ಖ</b> <i>kha</i> has a strong one. In the romanisation an h after a letter marks the puff: kh, gh, chh, jh, ṭh, ḍh. These aspirated letters turn up mostly in words borrowed from Sanskrit; everyday Kannada words mostly use the plain ones.</p>
+<p>Here is the k row. Tap a letter to hear it and see how it reads.</p>
+{{tiles:ಕ ಖ ಗ ಘ ಙ}}
 {{ex:ಕಾಗೆ|kāge|crow}}
 {{ex:ಗಾಡಿ|gāḍi|cart; vehicle}}
+<h3>ch and j</h3>
+<p><b>ಚ</b> <i>cha</i> is the ch of <i>church</i>, a little softer and with no puff. <b>ಜ</b> <i>ja</i> is the j of <i>jam</i>. Their partners with a puff of air are <b>ಛ</b> <i>chha</i> and <b>ಝ</b> <i>jha</i>, both rare. Here is the ch row.</p>
+{{tiles:ಚ ಛ ಜ ಝ ಞ}}
 <h3>The dot below: curl the tongue back</h3>
 <p>The third row is retroflex. Curl the tip of your tongue back and touch the roof of your mouth, a little behind the ridge above your teeth. The romanisation marks these with a dot below: <b>ಟ</b> <i>ṭa</i>, <b>ಡ</b> <i>ḍa</i>, <b>ಣ</b> <i>ṇa</i>. English t and d sit somewhere in between; the next lesson adds a second t and d, with the tongue on the teeth, and the difference changes words.</p>
+{{tiles:ಟ ಠ ಡ ಢ ಣ}}
 {{ex:ಊಟ|ūṭa|meal}}
 {{ex:ಆಟ|āṭa|game; play}}
 {{ex:ಕೋಟೆ|kōṭe|fort}}
 {{ex:ಕಾಡು|kāḍu|forest}}
 {{ex:ಗಿಡ|giḍa|plant}}
-<h3>ch and j</h3>
-<p><b>ಚ</b> <i>cha</i> is the ch of <i>church</i>, a little softer and with no puff. <b>ಜ</b> <i>ja</i> is the j of <i>jam</i>.</p>
 <h3>Two letters for the chart</h3>
-<p>The nasals <b>ಙ</b> and <b>ಞ</b> complete the grid, but you will almost never see them in a word. Lesson 5 shows how Kannada usually writes a nasal before another consonant. Recognize these two; you will not need to write them.</p>
+<p>The nasals <b>ಙ</b> and <b>ಞ</b> complete the grid, but you will almost never see them in a word. Lesson 5 shows how Kannada usually writes a nasal before another consonant. Recognize these two; you will not need to write them. Their cards are in the last set of cards in this lesson.</p>
+<h3>Read your first words</h3>
+<p>You now have the vowels, the vowel signs and three rows of consonants: enough for real words. Read a word one syllable at a time, each consonant with its sign: <b>ಕಾ</b> + <b>ಗೆ</b> is <i>kāge</i>, crow. The cards below are common words built only from what you have learned so far. Read each one aloud before you flip it.</p>
+{{ex:ಈಗ|īga|now}}
+{{ex:ಗೋಡೆ|gōḍe|wall}}
 <p>Keep reading the Kannada first. The romanisation is a crutch: glance down only to check.</p>
 <div class="tip"><b>Most common mistake:</b> the English puff on every k. <b>ಕಾಗೆ</b> said with a puff, like <i>khāge</i> → <i>kāge</i>, with the k of <i>skin</i>.</div>
 `,
@@ -156,17 +174,23 @@ module.exports = [
     title: "Consonants 2: the t and p rows, and the rest",
     blurb: "Read every modern Kannada letter, and tell the dental t, d, n, l from their curled-back twins.",
     deck: "Consonants 2: t and p rows, and the rest",
+    sections: [{"deck": "Consonants 2: t and p rows, and the rest", "n": [0, 5]}, {"deck": "Consonants 2: t and p rows, and the rest", "n": [5, 10]}, [{"deck": "Consonants 2: t and p rows, and the rest", "n": [10, 18]}, {"name": "Sh, s and h in words", "cards": [["ಷ", "sha", "sha (sh, the same sound as ಶ)", "Said exactly like ಶ. Mostly in Sanskrit words, and in ಷ್ಟ (lesson 5)."], ["ಭಾಷೆ", "bhāshe", "language", "ಭಾ + ಷೆ. ಷ is said sh."], ["ಶಾಲೆ", "shāle", "school", "ಶಾ + ಲೆ. ಶ is said sh too."], ["ಹೆಸರು", "hesaru", "name", "ಹೆ + ಸ + ರು."], ["ಸಮಯ", "samaya", "time", "ಸ + ಮ + ಯ. Every letter keeps its a."], ["ಹಸು", "hasu", "cow", "ಹ + ಸು."]]}], null, null, [{"deck": "Consonants 2: t and p rows, and the rest", "n": [18, 20]}, {"name": "Words from every row", "cards": [["ನೀರು", "nīru", "water", "ನೀ + ರು. Long ī; ರ is a quick tap."], ["ಹಾಲು", "hālu", "milk", "ಹಾ + ಲು. Dental ಲ, tongue on the teeth."], ["ಮನೆ", "mane", "house; home", "ಮ + ನೆ. Dental ನ."], ["ತಲೆ", "tale", "head", "ತ + ಲೆ. Dental t, tongue on the teeth."], ["ಮರ", "mara", "tree", "ಮ + ರ. Both letters keep their a."], ["ಬಾಗಿಲು", "bāgilu", "door", "ಬಾ + ಗಿ + ಲು."], ["ಹೂವು", "hūvu", "flower", "ಹೂ + ವು. Long ū."], ["ಮಳೆ", "maḷe", "rain", "ಮ + ಳೆ. Retroflex ḷ, tongue curled back."], ["ದಿನ", "dina", "day", "ದಿ + ನ. Dental d and n."], ["ನಾಳೆ", "nāḷe", "tomorrow", "ನಾ + ಳೆ. Retroflex ḷ."], ["ಊರು", "ūru", "town; hometown", "ಊ + ರು. A vowel letter starts the word."], ["ಮಗು", "magu", "baby; small child", "ಮ + ಗು."], ["ಹುಡುಗ", "huḍuga", "boy", "ಹು + ಡು + ಗ. Retroflex ḍ."], ["ಹುಡುಗಿ", "huḍugi", "girl", "ಹು + ಡು + ಗಿ. Only the last sign differs from ಹುಡುಗ, boy."], ["ದಾರಿ", "dāri", "way; path", "ದಾ + ರಿ."], ["ಕಾಲು", "kālu", "leg; foot", "ಕಾ + ಲು. Compare ಕಾರು, car: ಲ against ರ."]]}], {"name": "The vowel ru in words", "cards": [["ಋ", "ru", "ru (a vowel letter)", "Said ru; some speakers say ri. Found only in Sanskrit words."], ["ಋತು", "rutu", "season", "ಋ + ತು. The vowel letter starts the word."], ["ಋಷಿ", "rushi", "sage; seer", "ಋ + ಷಿ."], ["ಕೃಷಿ", "krushi", "farming; agriculture", "ಕೃ + ಷಿ. The sign ೃ sits after ಕ, low on the right: k, then ru."], ["ಮೃಗ", "mruga", "animal (wild)", "ಮೃ + ಗ."], ["ಮೃದು", "mrudu", "soft", "ಮೃ + ದು."], ["ಹೃದಯ", "hrudaya", "heart", "ಹೃ + ದ + ಯ."]]}, null],
     body: `
 <p>This lesson finishes the grid and adds the letters outside it. After it you can read every letter of modern Kannada.</p>
 <h3>Two kinds of t, d and n</h3>
 <p>English has one t. Kannada has two. Last lesson's <b>ಟ</b> is retroflex: the tongue curls back. This lesson's <b>ತ</b> <i>ta</i> is dental: the tip of the tongue touches the back of your upper teeth. In the romanisation, a plain t, d, n is dental and a dotted ṭ, ḍ, ṇ is retroflex. The th of <b>ಥ</b> <i>tha</i> is t with a puff of air, never the th of <i>think</i>.</p>
 <div class="tbl"><table><tr><th></th><th>plain</th><th>puff</th><th>voiced</th><th>voiced + puff</th><th>nasal</th></tr><tr><td>dental</td><td class="k">ತ</td><td class="k">ಥ</td><td class="k">ದ</td><td class="k">ಧ</td><td class="k">ನ</td></tr><tr><td>retroflex</td><td class="k">ಟ</td><td class="k">ಠ</td><td class="k">ಡ</td><td class="k">ಢ</td><td class="k">ಣ</td></tr><tr><td>p row</td><td class="k">ಪ</td><td class="k">ಫ</td><td class="k">ಬ</td><td class="k">ಭ</td><td class="k">ಮ</td></tr></table></div>
+<p>Here is the dental row. Tap a letter to hear it.</p>
+{{tiles:ತ ಥ ದ ಧ ನ}}
 {{ex:ತಲೆ|tale|head}}
 {{ex:ಮನೆ|mane|house; home}}
 <h3>The p row</h3>
 <p><b>ಫ</b> <i>pha</i> is p with a puff of air, not f. In English loans, though, Kannada speakers say f: <b>ಫೋನ್</b> <i>fōn</i> is "phone". Two pairs look alike, so check them carefully: <b>ಬ</b> and <b>ವ</b>, and <b>ಪ</b> and <b>ಷ</b>.</p>
+{{tiles:ಪ ಫ ಬ ಭ ಮ}}
 <h3>The rest</h3>
 <div class="tbl"><table><tr><th>Letter</th><th></th><th>How to say it</th></tr><tr><td class="k">ಯ</td><td>ya</td><td>y as in <i>yes</i></td></tr><tr><td class="k">ರ</td><td>ra</td><td>a quick tap, like the tt in American <i>butter</i></td></tr><tr><td class="k">ಲ</td><td>la</td><td>l with the tongue on the teeth</td></tr><tr><td class="k">ವ</td><td>va</td><td>between v and w</td></tr><tr><td class="k">ಶ, ಷ</td><td>sha</td><td>both sh as in <i>shop</i></td></tr><tr><td class="k">ಸ</td><td>sa</td><td>s as in <i>sun</i></td></tr><tr><td class="k">ಹ</td><td>ha</td><td>h as in <i>hat</i></td></tr><tr><td class="k">ಳ</td><td>ḷa</td><td>l with the tongue curled back; never at the start of a word</td></tr></table></div>
+<p>Tap a letter to hear it. <b>ಶ</b> and <b>ಷ</b> sound the same; <b>ಷ</b> turns up mostly in words from Sanskrit, such as <b>ಭಾಷೆ</b> <i>bhāshe</i>, language.</p>
+{{tiles:ಯ ರ ಲ ವ ಶ ಷ ಸ ಹ ಳ}}
 <h3><b>ಲ</b> against <b>ಳ</b></h3>
 <p>English has one l; Kannada has a dental one and a retroflex one, and they make different words.</p>
 {{ex:ಹುಲಿ|huli|tiger}}
@@ -175,6 +199,14 @@ module.exports = [
 <p>With more letters come more pairs that differ only in a vowel's length.</p>
 {{ex:ಕಾರು|kāru|car}}
 {{ex:ಕರು|karu|calf}}
+<h3>Read whole words</h3>
+<p>You now know every letter of modern Kannada, so you can read any word without joined letters: one syllable at a time, each consonant with its sign. <b>ಬಾ</b> + <b>ಗಿ</b> + <b>ಲು</b> is <i>bāgilu</i>, door. The cards below are common words like this. Watch the dental and retroflex letters, and the length of every vowel.</p>
+{{ex:ನೀರು|nīru|water}}
+{{ex:ಬಾಗಿಲು|bāgilu|door}}
+<h3>The rare vowel <b>ಋ</b></h3>
+<p>Lesson 1 showed the vowel letter <b>ಋ</b>, and lesson 2 its sign <b>ೃ</b> on <b>ಕ</b>. Both are read <i>ru</i>; some speakers say <i>ri</i>. They turn up only in words taken from Sanskrit, but a few of those are common. The letter starts a word. The sign is written after a consonant, low on the right, and the consonant is read first: <b>ಕೃ</b> is <i>kru</i>.</p>
+{{ex:ಋತು|rutu|season}}
+{{ex:ಕೃಷಿ|krushi|farming; agriculture}}
 <h3>Two old letters</h3>
 <p>Old texts and inscriptions use <b>ೞ</b> and <b>ಱ</b>. Modern Kannada writes <b>ಳ</b> and <b>ರ</b> instead, and so does this course.</p>
 <p>The romanisation is a crutch: read the Kannada first and glance down only to check.</p>
@@ -207,6 +239,7 @@ module.exports = [
     title: "Conjuncts, doubled letters and anusvara",
     blurb: "Read whole words: doubled letters, the small letter written under another, ರ್ before a consonant, the anusvara and the virama.",
     deck: "Conjuncts and anusvara",
+    sections: [{"deck": "Conjuncts and anusvara", "n": [0, 7]}, null, null, null, {"deck": "Conjuncts and anusvara", "n": [7, 18]}, {"name": "Everyday joined words", "cards": [["ಹಣ್ಣು", "haṇṇu", "fruit", "ಹ + ಣ್ಣು. Doubled retroflex ṇ: hold it."], ["ಎಣ್ಣೆ", "eṇṇe", "oil", "ಎ + ಣ್ಣೆ. Doubled ṇ."], ["ಹಳ್ಳಿ", "haḷḷi", "village", "ಹ + ಳ್ಳಿ. Doubled ḷ."], ["ಅಜ್ಜ", "ajja", "grandfather", "ಅ + ಜ್ಜ. Doubled j."], ["ಚಿಕ್ಕ", "chikka", "small; young", "ಚಿ + ಕ್ಕ. Doubled k."], ["ದೊಡ್ಡ", "doḍḍa", "big; older", "ದೊ + ಡ್ಡ. Short o, doubled ḍ."], ["ಬೆಕ್ಕು", "bekku", "cat", "ಬೆ + ಕ್ಕು. With one k and long ē it is ಬೇಕು, \"want\"."], ["ಅಕ್ಕಿ", "akki", "rice (uncooked)", "ಅ + ಕ್ಕಿ. Compare ಅಕ್ಕ, older sister: only the last vowel differs."], ["ಸಕ್ಕರೆ", "sakkare", "sugar", "ಸ + ಕ್ಕ + ರೆ."], ["ಪುಸ್ತಕ", "pustaka", "book", "ಪು + ಸ್ತ + ಕ. Two different consonants: s, then t."], ["ರಸ್ತೆ", "raste", "road; street", "ರ + ಸ್ತೆ. s, then t."], ["ರಾತ್ರಿ", "rātri", "night", "ರಾ + ತ್ರಿ. Small ್ರ under ತ: t, then r."], ["ಅಂಗಡಿ", "angaḍi", "shop", "ಅಂ + ಗ + ಡಿ. The anusvara is n before ಗ."], ["ತಿಂಡಿ", "tiṇḍi", "snack; breakfast (tiffin)", "ತಿಂ + ಡಿ. The anusvara is ṇ before ಡ."], ["ಸಂಜೆ", "sanje", "evening", "ಸಂ + ಜೆ. The anusvara is n before ಜ."], ["ಇವತ್ತು", "ivattu", "today", "ಇ + ವ + ತ್ತು. Doubled t."]]}],
     body: `
 <p>So far every consonant has had a vowel after it. Real words also put consonants side by side. Kannada writes the second one small, under or after the first: the <b>ottakshara</b>, a kind of half letter. Two letters written this way make a conjunct.</p>
 <h3>Doubled consonants: hold them</h3>
@@ -216,7 +249,8 @@ module.exports = [
 {{ex:ಕತೆ|kate|story}}
 {{ex:ಕತ್ತೆ|katte|donkey}}
 <h3>Two different consonants</h3>
-<p>The small letter is read after the letter above it, never before. In <b>ಸ್ವಲ್ಪ</b> <i>svalpa</i> the small <b>ವ</b> sits under <b>ಸ</b>, and you say s, then v. A few conjuncts come up all the time: <b>ಸ್ಕ</b> in <b>ನಮಸ್ಕಾರ</b> <i>namaskāra</i>, <b>ಷ್ಟ</b> in <b>ಇಷ್ಟ</b> <i>ishṭa</i>, <b>್ಯ</b> in <b>ಧನ್ಯವಾದಗಳು</b> <i>dhanyavādagaḷu</i>, <b>್ರ</b> in <b>ಪ್ರೀತಿ</b> <i>prīti</i>, and <b>ಕ್ಷ</b>, read ksh.</p>
+<p>The small letter is read after the letter above it, never before. In <b>ಸ್ವಲ್ಪ</b> <i>svalpa</i> the small <b>ವ</b> sits under <b>ಸ</b>, and you say s, then v. A few conjuncts come up all the time: <b>ಸ್ಕ</b> in <b>ನಮಸ್ಕಾರ</b> <i>namaskāra</i>, <b>ಷ್ಟ</b> in <b>ಇಷ್ಟ</b> <i>ishṭa</i>, <b>್ಯ</b> in <b>ಧನ್ಯವಾದಗಳು</b> <i>dhanyavādagaḷu</i>, <b>್ರ</b> in <b>ಪ್ರೀತಿ</b> <i>prīti</i>, and <b>ಕ್ಷ</b>, read ksh. Tap one to hear it.</p>
+{{tiles:ಸ್ಕ=ska ಷ್ಟ=shṭa ನ್ಯ=nya ಪ್ರ=pra ಕ್ಷ=ksha}}
 {{ex:ಸ್ವಲ್ಪ|svalpa|a little}}
 {{ex:ಕನ್ನಡ|kannaḍa|Kannada}}
 {{ex:ಕ್ಷಮಿಸಿ|kshamisi|sorry; excuse me}}
@@ -233,6 +267,10 @@ module.exports = [
 {{ex:ಬಸ್|bas|bus}}
 {{ex:ಡಾಕ್ಟರ್|ḍākṭar|doctor}}
 <p>One last sign, <b>ಃ</b>, appears in a few Sanskrit words such as <b>ದುಃಖ</b> <i>duhkha</i> (sorrow). Recognize it; you will rarely write it.</p>
+<h3>Read everyday words</h3>
+<p>You now know every piece: the letters, the signs, the small letter underneath, <b>ರ್</b>, the anusvara and the virama. The cards below are everyday words that use them. Find the joined letters in each one, then read it aloud before you flip it.</p>
+{{ex:ಹಣ್ಣು|haṇṇu|fruit}}
+{{ex:ಅಂಗಡಿ|angaḍi|shop}}
 <p>The romanisation is a crutch: read the Kannada first and glance down only to check.</p>
 <div class="tip"><b>Most common mistake:</b> saying a doubled letter single. "Donkey" as <i>kate</i> (that is <b>ಕತೆ</b>, story) → <i>katte</i>, <b>ಕತ್ತೆ</b>, holding the t.</div>
 `,
