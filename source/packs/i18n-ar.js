@@ -798,7 +798,9 @@ LANGAPP_PACKS.i18n.ar = {
     "missed on 2 of its last 4 days": "إجابات خاطئة في يومين من آخر 4 أيام",
     "not seen for too long": "لم تُعرض منذ وقت طويل جدًا",
     "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "تُقيَّم البطاقات الآن بحسب مدة بقائها في الذاكرة. البطاقات التي لم تُعرض منذ وقت طويل تظهر ضمن «تحتاج إلى تمرين» إلى أن يُجاب عنها من جديد.",
-    "Review missed": "راجع الأخطاء"
+    "Review missed": "راجع الأخطاء",
+    "Practice these first": "التدرب عليها أولًا",
+    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 بطاقات جديدة ثم اختبارها، ثم 5 أخرى، ثم اختبارها مع ما يصل إلى 15 بطاقة سابقة هي الأكثر حاجة إلى التمرين، حتى تكتمل المجموعة."
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · مهارات"],

@@ -798,7 +798,9 @@ LANGAPP_PACKS.i18n.yue = {
     "missed on 2 of its last 4 days": "最近 4 日有 2 日答錯",
     "not seen for too long": "太耐冇見",
     "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "而家會按你記得幾耐嚟評估啲卡。好耐冇見嘅卡會顯示做「要練習」，直到你再答為止。",
-    "Review missed": "溫返答錯嘅"
+    "Review missed": "溫返答錯嘅",
+    "Practice these first": "先練呢啲",
+    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": "：先學 5 張新卡再小測，再學 5 張，同之前學過、最需要練習嘅卡（最多 15 張）混埋一齊小測，直到成個卡組學完。"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · 操練"],

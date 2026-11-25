@@ -798,7 +798,9 @@ LANGAPP_PACKS.i18n.fr = {
     "missed on 2 of its last 4 days": "ratée 2 jours sur les 4 derniers",
     "not seen for too long": "pas vue depuis trop longtemps",
     "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Les cartes sont maintenant évaluées selon la durée pendant laquelle tu t'en souviens. Celles que tu n'as pas vues depuis longtemps s'affichent « à retravailler » jusqu'à ce que tu y répondes de nouveau.",
-    "Review missed": "Revoir les erreurs"
+    "Review missed": "Revoir les erreurs",
+    "Practice these first": "S'exercer d'abord sur celles-ci",
+    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": " : 5 nouvelles cartes, un quiz, 5 de plus, un quiz mêlé à 15 cartes précédentes au plus, celles que tu as le plus besoin de retravailler, jusqu'à la fin du paquet."
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Exercices"],

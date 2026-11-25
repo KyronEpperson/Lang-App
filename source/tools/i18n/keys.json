@@ -10,7 +10,7 @@
   "d": "text without \"·\", e.g. a deck name inside a \"·\"-separated line"
  },
  "counts": {
-  "exact": 798,
+  "exact": 800,
   "patterns": 278,
   "distinctPatternTemplates": 277
  },
@@ -311,7 +311,7 @@
    "key": ": 5 new cards, quiz them, 5 more, quiz those mixed with everything so far, until the deck is done.",
    "kind": "fragment",
    "section": "practice (static)",
-   "where": "html text",
+   "where": "not verbatim in src/app.html (assembled at runtime)",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing"
   },
   {
@@ -2286,7 +2286,7 @@
    "key": "new 5",
    "kind": "label",
    "section": "quiz / practice flow",
-   "where": "js b() <span>",
+   "where": "js wait() <span>",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -3804,7 +3804,7 @@
    "key": "Practice these",
    "kind": "label",
    "section": "progress (JS)",
-   "where": "js c() <button>"
+   "where": "html <button> text"
   },
   {
    "key": "Nothing missed yet.",
@@ -3853,7 +3853,7 @@
    "key": "Decks start shuffled",
    "kind": "label",
    "section": "progress (JS)",
-   "where": "js applyZoom()"
+   "where": "js s()"
   },
   {
    "key": "Decks in fixed order",
@@ -5506,6 +5506,19 @@
    "kind": "label",
    "section": "added",
    "where": "js MISS_SHARE()"
+  },
+  {
+   "key": "Practice these first",
+   "kind": "label",
+   "section": "added",
+   "where": "html <button> text"
+  },
+  {
+   "key": ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.",
+   "kind": "fragment",
+   "section": "added",
+   "where": "html text",
+   "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing"
   }
  ],
  "patterns": [

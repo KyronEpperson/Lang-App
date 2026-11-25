@@ -798,7 +798,9 @@ LANGAPP_PACKS.i18n.th = {
     "missed on 2 of its last 4 days": "ตอบผิด 2 ใน 4 วันล่าสุด",
     "not seen for too long": "ไม่ได้เห็นนานเกินไป",
     "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "ตอนนี้การ์ดจะถูกประเมินจากระยะเวลาที่คุณจำได้ การ์ดที่คุณไม่ได้เห็นมานานจะแสดงเป็น “ต้องฝึกเพิ่ม” จนกว่าคุณจะตอบอีกครั้ง",
-    "Review missed": "ทบทวนข้อที่ผิด"
+    "Review missed": "ทบทวนข้อที่ผิด",
+    "Practice these first": "ฝึกชุดนี้ก่อน",
+    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": เริ่มจากการ์ดใหม่ 5 ใบ แล้วทำแบบทดสอบ จากนั้นเรียนอีก 5 ใบ และทดสอบรวมกับการ์ดก่อนหน้าที่ต้องฝึกมากที่สุดไม่เกิน 15 ใบ ทำต่อไปจนจบชุดการ์ด"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ทักษะ"],

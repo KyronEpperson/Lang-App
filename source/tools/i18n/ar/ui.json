@@ -5429,6 +5429,18 @@
    "ko": "틀린 카드 복습",
    "kind": "label",
    "context": "button on the Practice round result: show again, then quiz, the cards answered wrong in the quiz just finished"
+  },
+  "Practice these first": {
+   "t": "التدرب عليها أولًا",
+   "ko": "이 카드 먼저 연습하기",
+   "kind": "label",
+   "context": "Practice: the main button once 10 cards of the picked decks need practice, on the Practice screen and on the result screen of a round's quiz. It starts a quiz of those cards; the button for new cards stays next to it. Keep it short, like \"Practice these\""
+  },
+  ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": {
+   "t": ": 5 بطاقات جديدة ثم اختبارها، ثم 5 أخرى، ثم اختبارها مع ما يصل إلى 15 بطاقة سابقة هي الأكثر حاجة إلى التمرين، حتى تكتمل المجموعة.",
+   "ko": ": 새 카드 5장을 배우고 퀴즈, 또 5장을 배우고 앞서 배운 카드 중 연습이 가장 필요한 최대 15장과 섞어서 퀴즈 — 덱을 끝낼 때까지 반복해요.",
+   "kind": "fragment",
+   "context": "Practice, under More options: the help text after the bold label \"Learn 5 at a time\". It replaces the sentence that said \"mixed with everything so far\": the quiz after each new five now brings back at most 15 earlier cards, the ones that most need practice. Fragment of a longer runtime string; keep the leading/trailing punctuation and spacing"
   }
  },
  "patterns": {

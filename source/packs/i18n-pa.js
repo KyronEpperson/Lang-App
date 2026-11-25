@@ -798,7 +798,9 @@ LANGAPP_PACKS.i18n.pa = {
     "missed on 2 of its last 4 days": "ਪਿਛਲੇ 4 ਦਿਨਾਂ ਵਿੱਚੋਂ 2 ਦਿਨ ਗ਼ਲਤ",
     "not seen for too long": "ਬਹੁਤ ਸਮੇਂ ਤੋਂ ਨਹੀਂ ਦੇਖਿਆ",
     "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "ਹੁਣ ਕਾਰਡ ਇਸ ਗੱਲ ਤੋਂ ਪਰਖੇ ਜਾਂਦੇ ਹਨ ਕਿ ਉਹ ਤੁਹਾਨੂੰ ਕਿੰਨਾ ਸਮਾਂ ਯਾਦ ਰਹਿੰਦੇ ਹਨ। ਜਿਹੜੇ ਕਾਰਡ ਤੁਸੀਂ ਲੰਮੇ ਸਮੇਂ ਤੋਂ ਨਹੀਂ ਦੇਖੇ, ਉਹ ਦੁਬਾਰਾ ਜਵਾਬ ਦੇਣ ਤੱਕ \"ਅਭਿਆਸ ਚਾਹੀਦਾ\" ਵਜੋਂ ਦਿਖਣਗੇ।",
-    "Review missed": "ਗਲਤ ਵਾਲੇ ਦੁਹਰਾਓ"
+    "Review missed": "ਗਲਤ ਵਾਲੇ ਦੁਹਰਾਓ",
+    "Practice these first": "ਪਹਿਲਾਂ ਇਹਨਾਂ ਦਾ ਅਭਿਆਸ ਕਰੋ",
+    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 ਨਵੇਂ ਕਾਰਡ, ਉਹਨਾਂ ਦਾ ਕੁਇਜ਼, ਫਿਰ 5 ਹੋਰ, ਫਿਰ ਪਹਿਲਾਂ ਦੇ ਵੱਧ ਤੋਂ ਵੱਧ 15 ਅਜਿਹੇ ਕਾਰਡ ਰਲਾ ਕੇ ਕੁਇਜ਼ ਜਿਨ੍ਹਾਂ ਨੂੰ ਅਭਿਆਸ ਦੀ ਸਭ ਤੋਂ ਵੱਧ ਲੋੜ ਹੈ — ਜਦੋਂ ਤੱਕ ਡੈੱਕ ਪੂਰਾ ਨਹੀਂ ਹੋ ਜਾਂਦਾ।"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ਡਰਿੱਲ"],

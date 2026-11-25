@@ -798,7 +798,9 @@ LANGAPP_PACKS.i18n.mr = {
     "missed on 2 of its last 4 days": "शेवटच्या 4 दिवसांपैकी 2 दिवस चुकलं",
     "not seen for too long": "खूप दिवसांत पाहिलं नाही",
     "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "आता कार्ड तुमच्या किती काळ लक्षात राहतात यावरून त्यांचं मूल्यमापन होतं. बऱ्याच दिवसांत न पाहिलेली कार्ड तुम्ही पुन्हा उत्तर देईपर्यंत \"सराव हवा\" म्हणून दिसतील.",
-    "Review missed": "चुकलेली कार्डे पुन्हा पाहा"
+    "Review missed": "चुकलेली कार्डे पुन्हा पाहा",
+    "Practice these first": "आधी यांचा सराव करा",
+    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 नवीन कार्ड, त्यांची क्विझ, आणखी 5, मग सरावाची सर्वात जास्त गरज असलेल्या आधीच्या जास्तीत जास्त 15 कार्डांसोबत त्यांची क्विझ, असं डेक पूर्ण होईपर्यंत."
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ड्रिल"],

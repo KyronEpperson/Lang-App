@@ -798,7 +798,9 @@ LANGAPP_PACKS.i18n.id = {
     "missed on 2 of its last 4 days": "salah pada 2 dari 4 hari terakhirnya",
     "not seen for too long": "terlalu lama tidak dilihat",
     "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Kartu sekarang dinilai dari seberapa lama kamu mengingatnya. Kartu yang sudah lama tidak kamu lihat ditandai \"perlu latihan\" sampai kamu menjawabnya lagi.",
-    "Review missed": "Ulangi yang salah"
+    "Review missed": "Ulangi yang salah",
+    "Practice these first": "Latih kartu ini dulu",
+    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 kartu baru, kuis, 5 lagi, kuis campur dengan maksimal 15 kartu sebelumnya yang paling perlu kamu latih, sampai deknya selesai."
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Drill"],

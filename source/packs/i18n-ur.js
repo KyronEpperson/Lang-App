@@ -798,7 +798,9 @@ LANGAPP_PACKS.i18n.ur = {
     "missed on 2 of its last 4 days": "پچھلے 4 دنوں میں سے 2 دن غلط",
     "not seen for too long": "بہت عرصے سے نہیں دیکھا",
     "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "اب کارڈ اس بنیاد پر پرکھے جاتے ہیں کہ وہ آپ کو کتنی دیر یاد رہتے ہیں۔ جو کارڈ آپ نے طویل عرصے سے نہیں دیکھے، وہ دوبارہ جواب دینے تک \"مشق درکار\" کے طور پر نظر آئیں گے۔",
-    "Review missed": "غلط والے دہرائیں"
+    "Review missed": "غلط والے دہرائیں",
+    "Practice these first": "پہلے ان کی مشق کریں",
+    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 نئے کارڈ، ان کا کوئز، پھر 5 اور، پھر پہلے کے زیادہ سے زیادہ 15 ایسے کارڈ ملا کر کوئز جنہیں مشق کی سب سے زیادہ ضرورت ہے — جب تک ڈیک مکمل نہ ہو جائے۔"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · مہارتیں"],

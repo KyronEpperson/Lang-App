@@ -6,6 +6,8 @@
       reads back the same; a card that an older version of the app answered afterwards reads sanely; damaged values do no harm.
    3. Simulation with pass marks. Simulated learners whose true memory is known (a different forgetting curve from the judge's, on purpose) study for 60 days and then
       stay away. The words the judge puts on their cards are compared with the truth. --table prints every number.
+   4. Risk (MEM-2, release B). The number that orders what comes back (Review, the quiz after each new five, the needs-practice list): the chance that a card is
+      forgotten by this time tomorrow. It lies between 0 and 1, rises the longer a card goes unseen, falls as the memory gets longer, and a wrong answer never lowers it.
    The pinned numbers (section 1, "the usual path") and the pass marks (section 3) are meant to fail when somebody retunes the judge: look at the table, then move them on purpose. */
 'use strict';
 const fs = require('fs'), path = require('path'), vm = require('vm');
@@ -16,7 +18,7 @@ let pass = 0, fail = 0;
 const ok = (name, cond, detail) => { if (cond) { pass++; console.log('PASS ' + name); } else { fail++; console.log('FAIL ' + name + (detail === undefined ? '' : '  ' + JSON.stringify(detail).slice(0, 400))); } };
 if (A < 0 || Z < A) { console.log('FAIL the judge block (MEM-JUDGE-START … MEM-JUDGE-END) is not in ' + FILE); process.exit(1); }
 const block = src.slice(A, Z);
-const NAMES = ['MJ_W', 'MJ_F', 'MJ_C', 'MJ_TYPES', 'MJ', 'MJ_CAL0', 'MJ_BOXDAYS', 'MJ_TCODE', 'MJ_STATES', 'mjClamp', 'mjRecall', 'mjLen', 'mjD0', 'mjDNext', 'mjForecast', 'mjCalStep', 'mjUpdate', 'mjOpen', 'mjWrongDays', 'mjWhy', 'mjStatus', 'mjDueIn', 'mjBox', 'mjFromBox', 'mjSync', 'mjRead', 'mjWrite'];
+const NAMES = ['MJ_W', 'MJ_F', 'MJ_C', 'MJ_TYPES', 'MJ', 'MJ_CAL0', 'MJ_BOXDAYS', 'MJ_TCODE', 'MJ_STATES', 'mjClamp', 'mjRecall', 'mjLen', 'mjD0', 'mjDNext', 'mjForecast', 'mjCalStep', 'mjUpdate', 'mjOpen', 'mjWrongDays', 'mjWhy', 'mjStatus', 'mjDueIn', 'mjRisk', 'mjBox', 'mjFromBox', 'mjSync', 'mjRead', 'mjWrite'];
 let J;
 try { J = vm.runInNewContext('"use strict";' + block + '\n({' + NAMES.join(',') + '})', {}); } catch (e) { console.log('FAIL the judge block does not run on its own: ' + e.message); process.exit(1); }
 ok('the judge is self-contained: no clock, no page, no saved state, no chance', !/\b(Date|document|window|localStorage|Math\.random|dayNum|memo)\b|\bS\.|\$\(/.test(block.replace(/\/\*[\s\S]*?\*\//g, '')));
@@ -209,6 +211,27 @@ const MARKS = { asPublished: [0.90, 0.86, 0.82, 0.03, 50], forgetsFaster: [0.90,
   const casual = simulate('forgetsFaster', { newPerDay: 5, pStudy: 0.5, days: 90, cards: 250, seed: 77 }); if (TABLE) { console.log('\n(a casual learner: 5 new cards a day, studies every other day, 90 days)'); table(casual); }
   ok('a casual learner who forgets faster: memorized cards truly known while studying (' + (casual['studying|memorized'] || {}).known + ', pass mark 0.88) and after 30 days away (' + (casual['away30|memorized'] || {}).known + ', pass mark 0.7)', (casual['studying|memorized'] || {}).known >= 0.88 && (casual['away30|memorized'] || {}).known >= 0.7);
   if (TABLE) console.log('\nsimulation: ' + ((Date.now() - t0) / 1000).toFixed(1) + ' s');
+})();
+
+/* ---------- 4. risk (MEM-2) ---------- */
+(function risk() {
+  ok('risk is the chance of forgetting by this time tomorrow: 1 in 10 for a card with a one-day memory answered just now', near(J.mjRisk({ st: 1 }, 0, J.MJ_CAL0), 0.1, 1e-12) && [0.3, 1, 7, 30].every(L => near(J.mjRisk({ st: L }, 2.5, J.MJ_CAL0), 1 - J.mjRecall(3.5, L), 1e-12)) && J.mjRisk({ st: 1 }, -5, J.MJ_CAL0) === J.mjRisk({ st: 1 }, 0, J.MJ_CAL0));
+  const r = rng(20261125), bad = { range: 0, time: 0, length: 0, wrong: 0, right: 0 }; let first = null; const note = (k, d) => { bad[k]++; if (!first) first = [k, d]; };
+  for (let i = 0; i < 50000; i++) {
+    const c = { st: Math.exp(r() * 8 - 2), df: 1 + r() * 9, rr: Math.floor(r() * 16), nd: 1 + Math.floor(r() * 4), lw: 0 }, cal = r() < 0.3 ? J.MJ_CAL0 : { q: Math.exp(r() * 4.1 - 3), g: 0.5 + r() * 0.8 };
+    const t = Math.exp(r() * 12 - 8), t2 = t * (1 + r() * 3), type = TYPES[Math.floor(r() * 3)], same = t < 1 && r() < 0.6, a = J.mjRisk(c, t, cal);
+    if (!(a > 0 && a < 1)) note('range', { c, t, a });
+    if (J.mjRisk(c, t2, cal) < a - 1e-12) note('time', { c, t, t2 });
+    if (J.mjRisk({ st: c.st * (1 + r() * 3) }, t, cal) > a + 1e-12) note('length', { c, t });
+    if (J.mjRisk(J.mjUpdate(c, false, t, same, type, cal), 0, cal) < J.mjRisk(c, 0, cal) - 1e-12) note('wrong', { c, t, type });
+    if (J.mjRisk(J.mjUpdate(c, true, t, same, type, cal), 0, cal) > J.mjRisk(c, 0, cal) + 1e-12) note('right', { c, t, type });
+  }
+  ok('risk lies between 0 and 1 (50000 random cards)', !bad.range, first);
+  ok('risk rises the longer a card goes unseen', !bad.time, first);
+  ok('risk falls as the memory gets longer', !bad.length, first);
+  ok('a wrong answer never lowers the risk, a right answer never raises it', !bad.wrong && !bad.right, first);
+  const due = L => J.mjRisk({ st: L }, L, J.MJ_CAL0);
+  ok('among cards that are due, the shorter memory is the one more at risk (' + [1, 3, 7, 30].map(L => due(L).toFixed(3)).join(' > ') + '), and an overdue card more than one just due', due(1) > due(3) && due(3) > due(7) && due(7) > due(30) && J.mjRisk({ st: 7 }, 14, J.MJ_CAL0) > due(7));
 })();
 
 console.log((fail ? 'FAIL ' : '') + 'memory judge: ' + pass + ' checks pass' + (fail ? ', ' + fail + ' fail' : ''));

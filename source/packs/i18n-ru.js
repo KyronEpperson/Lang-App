@@ -798,7 +798,9 @@ LANGAPP_PACKS.i18n.ru = {
     "missed on 2 of its last 4 days": "ошибки в 2 из последних 4 дней",
     "not seen for too long": "слишком давно не показывалась",
     "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "Теперь карточки оцениваются по тому, как долго ты их помнишь. Карточки, которые давно не показывались, отмечены «нужна практика», пока ты снова на них не ответишь.",
-    "Review missed": "Повторить ошибки"
+    "Review missed": "Повторить ошибки",
+    "Practice these first": "Сначала потренировать эти",
+    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 новых карточек, тест по ним, ещё 5, тест вперемешку с пройденными карточками, которым больше всего нужна практика (не более 15), — и так до конца колоды."
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Тренажёр"],

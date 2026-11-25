@@ -733,7 +733,9 @@ LANGAPP_PACKS.i18n.ko = {
     "missed on 2 of its last 4 days": "최근 4일 중 2일 틀림",
     "not seen for too long": "너무 오래 안 봄",
     "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "이제 카드를 얼마나 오래 기억하는지로 판단해요. 오랫동안 보지 않은 카드는 다시 답할 때까지 \"연습 필요\"로 표시돼요.",
-    "Review missed": "틀린 카드 복습"
+    "Review missed": "틀린 카드 복습",
+    "Practice these first": "이 카드 먼저 연습하기",
+    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 새 카드 5장을 배우고 퀴즈, 또 5장을 배우고 앞서 배운 카드 중 연습이 가장 필요한 최대 15장과 섞어서 퀴즈 — 덱을 끝낼 때까지 반복해요."
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · 훈련"],

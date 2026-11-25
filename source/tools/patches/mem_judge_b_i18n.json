@@ -1,0 +1,44 @@
+{
+ "about": "MEM-2 (release B): the two new interface strings of the card memory judge, in every interface language. Read by tools/patches/mem_judge_b_i18n.py, which adds them to tools/i18n/<lang>/ui.json. The first is that language's existing \"Practice these\" with its word for \"first\". The second is the help sentence of \"Learn 5 at a time\" on the Practice screen: each translation is that language's existing sentence (key \": 5 new cards, quiz them, 5 more, quiz those mixed with everything so far, until the deck is done.\") with the part about everything so far replaced, and it reuses the language's wording of \"needs practice\". Written by the main model; not read by native speakers. Hmong uses only words of tools/hmong/GLOSSARY.tsv and of the existing Hmong interface (\"ua ntej\", \"tshaj\" as in \"Card nyuaj tshaj\").",
+ "keys": [
+  {
+   "key": "Practice these first",
+   "type": "exact",
+   "context": "Practice: the main button once 10 cards of the picked decks need practice, on the Practice screen and on the result screen of a round's quiz. It starts a quiz of those cards; the button for new cards stays next to it. Keep it short, like \"Practice these\""
+  },
+  {
+   "key": ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.",
+   "type": "exact",
+   "context": "Practice, under More options: the help text after the bold label \"Learn 5 at a time\". It replaces the sentence that said \"mixed with everything so far\": the quiz after each new five now brings back at most 15 earlier cards, the ones that most need practice. Fragment of a longer runtime string; keep the leading/trailing punctuation and spacing"
+  }
+ ],
+ "t": {
+  "ko": ["이 카드 먼저 연습하기", ": 새 카드 5장을 배우고 퀴즈, 또 5장을 배우고 앞서 배운 카드 중 연습이 가장 필요한 최대 15장과 섞어서 퀴즈 — 덱을 끝낼 때까지 반복해요."],
+  "ar": ["التدرب عليها أولًا", ": 5 بطاقات جديدة ثم اختبارها، ثم 5 أخرى، ثم اختبارها مع ما يصل إلى 15 بطاقة سابقة هي الأكثر حاجة إلى التمرين، حتى تكتمل المجموعة."],
+  "bn": ["আগে এগুলো অনুশীলন করুন", ": 5টি নতুন কার্ড, তারপর সেগুলোর কুইজ, আরও 5টি, তারপর আগের যে কার্ডগুলোর অনুশীলন সবচেয়ে বেশি দরকার, সেগুলোর সর্বোচ্চ 15টি মিলিয়ে কুইজ — ডেক শেষ না হওয়া পর্যন্ত।"],
+  "ceb": ["Praktisa una kini", ": 5 ka bag-ong card, i-quiz, 5 pa, i-quiz uban sa dili molapas sa 15 ka naunang card nga labing kinahanglan nimong praktison, hangtod mahuman ang deck."],
+  "cs": ["Nejdřív procvičit tyto", ": 5 nových kartiček, kvíz, dalších 5, kvíz i s nejvýše 15 dřívějšími kartičkami, které nejvíc potřebuješ procvičit – a tak dál, dokud balíček není hotový."],
+  "de": ["Diese zuerst üben", ": 5 neue Karten, Quiz dazu, 5 weitere, dann ein Quiz zusammen mit bis zu 15 früheren Karten, die du am meisten üben musst – bis der Stapel durch ist."],
+  "es": ["Practicar estas primero", ": 5 tarjetas nuevas, un test, 5 más, un test con hasta 15 tarjetas anteriores, las que más necesitas practicar, y así hasta terminar el mazo."],
+  "fr": ["S'exercer d'abord sur celles-ci", " : 5 nouvelles cartes, un quiz, 5 de plus, un quiz mêlé à 15 cartes précédentes au plus, celles que tu as le plus besoin de retravailler, jusqu'à la fin du paquet."],
+  "hi": ["पहले इनका अभ्यास करें", ": 5 नए कार्ड, उनका टेस्ट, फिर 5 और, फिर पहले के ज़्यादा से ज़्यादा 15 ऐसे कार्ड मिलाकर टेस्ट जिन्हें अभ्यास की सबसे ज़्यादा ज़रूरत है — जब तक डेक पूरा न हो जाए।"],
+  "hmn": ["Xyaum cov no ua ntej", ": 5 card tshiab, quiz, 5 card ntxiv, quiz nrog 15 card qub uas yuav tsum xyaum tshaj, mus txog thaum deck tiav."],
+  "id": ["Latih kartu ini dulu", ": 5 kartu baru, kuis, 5 lagi, kuis campur dengan maksimal 15 kartu sebelumnya yang paling perlu kamu latih, sampai deknya selesai."],
+  "it": ["Esercitati prima su queste", ": 5 carte nuove, un quiz, altre 5, un quiz mescolato con al massimo 15 carte precedenti, quelle che hai più bisogno di esercitare, e così via fino alla fine del mazzo."],
+  "ja": ["先にこのカードを練習", "：新しいカードを5枚覚えてクイズ、さらに5枚覚えて、それまでのカードのうち練習が特に必要なもの最大15枚と混ぜてクイズ。これをデッキが終わるまで繰り返します。"],
+  "kn": ["ಮೊದಲು ಇವನ್ನು ಅಭ್ಯಾಸ ಮಾಡಿ", ": 5 ಹೊಸ ಕಾರ್ಡ್, ಅವುಗಳ ಕ್ವಿಜ್, ಮತ್ತೆ 5 ಕಾರ್ಡ್, ನಂತರ ಹಿಂದಿನ ಕಾರ್ಡ್‌ಗಳಲ್ಲಿ ಹೆಚ್ಚು ಅಭ್ಯಾಸ ಬೇಕಾದ ಗರಿಷ್ಠ 15 ಕಾರ್ಡ್ ಸೇರಿಸಿ ಕ್ವಿಜ್ — ಡೆಕ್ ಮುಗಿಯುವವರೆಗೆ."],
+  "mr": ["आधी यांचा सराव करा", ": 5 नवीन कार्ड, त्यांची क्विझ, आणखी 5, मग सरावाची सर्वात जास्त गरज असलेल्या आधीच्या जास्तीत जास्त 15 कार्डांसोबत त्यांची क्विझ, असं डेक पूर्ण होईपर्यंत."],
+  "nan": ["先練這寡", "：先學 5 張新卡，考一擺，閣學 5 張，佮進前學過、上愛練習的卡（上濟 15 張）鬥做伙考，到規个牌組學了為止。"],
+  "pa": ["ਪਹਿਲਾਂ ਇਹਨਾਂ ਦਾ ਅਭਿਆਸ ਕਰੋ", ": 5 ਨਵੇਂ ਕਾਰਡ, ਉਹਨਾਂ ਦਾ ਕੁਇਜ਼, ਫਿਰ 5 ਹੋਰ, ਫਿਰ ਪਹਿਲਾਂ ਦੇ ਵੱਧ ਤੋਂ ਵੱਧ 15 ਅਜਿਹੇ ਕਾਰਡ ਰਲਾ ਕੇ ਕੁਇਜ਼ ਜਿਨ੍ਹਾਂ ਨੂੰ ਅਭਿਆਸ ਦੀ ਸਭ ਤੋਂ ਵੱਧ ਲੋੜ ਹੈ — ਜਦੋਂ ਤੱਕ ਡੈੱਕ ਪੂਰਾ ਨਹੀਂ ਹੋ ਜਾਂਦਾ।"],
+  "pl": ["Najpierw przećwicz te", ": 5 nowych fiszek, quiz z nich, kolejne 5, potem quiz razem z najwyżej 15 wcześniejszymi fiszkami, które najbardziej wymagają przećwiczenia — aż do końca talii."],
+  "pt": ["Praticar estes primeiro", ": 5 cartões novos, um teste, mais 5, um teste misturado com até 15 cartões anteriores, os que você mais precisa praticar, até terminar o baralho."],
+  "ru": ["Сначала потренировать эти", ": 5 новых карточек, тест по ним, ещё 5, тест вперемешку с пройденными карточками, которым больше всего нужна практика (не более 15), — и так до конца колоды."],
+  "te": ["ముందు వీటిని సాధన చేయండి", ": 5 కొత్త కార్డులు, వాటిపై క్విజ్, మరో 5, తర్వాత ఇంతకుముందు నేర్చుకున్న వాటిలో సాధన ఎక్కువగా అవసరమైన గరిష్ఠంగా 15 కార్డులతో కలిపి క్విజ్. డెక్ పూర్తయ్యే వరకు ఇలాగే."],
+  "th": ["ฝึกชุดนี้ก่อน", ": เริ่มจากการ์ดใหม่ 5 ใบ แล้วทำแบบทดสอบ จากนั้นเรียนอีก 5 ใบ และทดสอบรวมกับการ์ดก่อนหน้าที่ต้องฝึกมากที่สุดไม่เกิน 15 ใบ ทำต่อไปจนจบชุดการ์ด"],
+  "tl": ["Sanayin muna ang mga ito", ": 5 bagong card, i-quiz, 5 pa, i-quiz kasama ang di-hihigit sa 15 naunang card na pinakakailangan mong sanayin, hanggang matapos ang deck."],
+  "ur": ["پہلے ان کی مشق کریں", ": 5 نئے کارڈ، ان کا کوئز، پھر 5 اور، پھر پہلے کے زیادہ سے زیادہ 15 ایسے کارڈ ملا کر کوئز جنہیں مشق کی سب سے زیادہ ضرورت ہے — جب تک ڈیک مکمل نہ ہو جائے۔"],
+  "vi": ["Luyện các thẻ này trước", ": 5 thẻ mới, làm trắc nghiệm, thêm 5 thẻ, làm trắc nghiệm gồm cả tối đa 15 thẻ đã học mà bạn cần luyện thêm nhất, cho đến hết bộ thẻ."],
+  "yue": ["先練呢啲", "：先學 5 張新卡再小測，再學 5 張，同之前學過、最需要練習嘅卡（最多 15 張）混埋一齊小測，直到成個卡組學完。"],
+  "zh": ["先练习这些卡片", "：先学 5 张新卡片并测验，再学 5 张，和之前学过、最需要练习的卡片（最多 15 张）混在一起测验，直到学完整个卡组。"]
+ }
+}

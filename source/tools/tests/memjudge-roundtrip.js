@@ -3,7 +3,9 @@
      git -C lang-app show 85ee0618:index.html > /tmp/old.html     (85ee0618 is release 2.92.0; d0dfb7d1 is 2.100.0, the last release before the judge)
      node tools/tests/memjudge-roundtrip.js /tmp/old.html
    1. this build answers cards; 2. the older release receives them by sync, shows every screen and answers its own way; 3. this build takes that back;
-   4. both answer different cards and sync both ways; 5. progress saved only by the older release is opened by this build (the usual update). */
+   4. both answer different cards and sync both ways; 5. progress saved only by the older release is opened by this build (the usual update).
+   The one-time note on Progress is for cards last answered before the judge was released (MEM_T0 in the app: 2026-11-25, 00:00 UTC). Steps 3 and 5 date
+   one such card themselves, so the test does not depend on the day it is run (until 2.110.0 it answered the card "now", which stopped being "before" on that day). */
 const { chromium } = require('playwright'); const path = require('path');
 if (!process.argv[2]) { console.log('usage: node tools/tests/memjudge-roundtrip.js <older build .html>'); process.exit(2); }
 const NEW = path.join(__dirname, '../../korean-flashcards.html'), OLD = path.resolve(process.argv[2]);
@@ -47,8 +49,9 @@ const DAY = 86400000; let pass = 0, fail = 0; const ok = (n, c, d) => { if (c) {
   ok('no card is lost: the deck’s four counts add up to its cards, and the course’s to all cards', n3.sum === n3.total && n3.tot.new + n3.tot.learning + n3.tot.memorized + n3.tot.practice === n3.all, [n3.mc, n3.tot, n3.all]);
   ok('the personal numbers and the longer answer log survive the trip', n3.mem && n3.mem.n === 1 && n3.mem.q === row1.state.mem.q && n3.rlog === 11 && n3.lastRow < 9, [n3.mem, n3.rlog, n3.lastRow]);
   const nLen = await screens(N); ok('this build shows every screen with the mixed progress and the mixed answer log, without an error', nLen > 100 && !errs.N.length, errs.N);
-  const prog = await N.evaluate(() => ({ boxes: document.getElementById('boxes').textContent, note: document.getElementById('memNote').textContent }));
-  ok('Progress shows the three words and, because one card came from before the judge, the one-time note', /learning/.test(prog.boxes) && /memorized/.test(prog.boxes) && /needs practice/.test(prog.boxes) && /judged by how long you remember/.test(prog.note), prog);
+  const prog = await N.evaluate(({ k, DAY }) => { const s = S.cards[k], keep = s.last, note = () => { memoClear(); renderProgress(); return document.getElementById('memNote').textContent; }; /* k: the card first learned on the older release, so it has no judge fields yet */
+    const asIs = note(); s.last = MEM_T0 - DAY; const before = note(); s.last = keep; note(); return { boxes: document.getElementById('boxes').textContent, asIs, before, answeredAfter: keep >= MEM_T0, same: s.last === keep }; }, { k: K[5], DAY });
+  ok('Progress shows the three words, and the one-time note for a card without judge fields that was last answered before the judge was released; not for one answered on an older release after that', /learning/.test(prog.boxes) && /memorized/.test(prog.boxes) && /needs practice/.test(prog.boxes) && /judged by how long you remember/.test(prog.before) && (prog.answeredAfter ? prog.asIs === '' : /judged by how long you remember/.test(prog.asIs)) && prog.same, prog);
   const n4 = await N.evaluate(({ K, d }) => { const cs = DECKS[d], n0 = S.mem.n; judge(d, cs[3], true, 'pick'); const s = S.cards[K[3]], a = { agree: s.mb === s.box, st: s.st, n: S.mem.n - n0, st5: null }; judge(d, cs[5], true, 'pick'); a.st5 = S.cards[K[5]].st; a.agree5 = S.cards[K[5]].mb === S.cards[K[5]].box; a.n2 = S.mem.n - n0; return a; }, { K, d: row1.d });
   ok('the next answer here takes each card back: the judge’s box and the saved box agree again, and those answers do not move the personal numbers', n4.agree && n4.st >= 3 && n4.n === 0 && n4.agree5 && n4.st5 >= 1 && n4.n2 === 0, n4);
 
@@ -61,8 +64,9 @@ const DAY = 86400000; let pass = 0, fail = 0; const ok = (n, c, d) => { if (c) {
   await screens(O); await screens(N); ok('both still show every screen without an error', !errs.O.length && !errs.N.length, errs);
 
   /* 5. the usual update: one device, progress saved by the older release, then this build opens it */
-  const oldOnly = await O.evaluate(DAY => { const d = names.find(n => n !== MYDECK && DECKS[n].length >= 8 && !isLetterDeck(n)), t = dayNum(), now = Date.now(); S = Object.assign(fresh(), { onboard: { skipped: 1 }, hintSeen: 1, tourDone: 1, nick: 'K', welcomed: 1, free: true }); let i = 0;
-    names.slice(0, 5).forEach(dn => DECKS[dn].forEach(c => { const box = i % 7; if (box) S.cards[ck(dn, c)] = { box, due: t + (i % 9) - 4, seen: 1 + i % 5, lapses: i % 3, last: now - (i % 45) * DAY }; i++; })); S.mastered = { [names[0]]: 1, [names[1]]: 1 }; S.updatedAt = now; save(); return { due: dueCount(), dueKeys: names.slice(0, 5).map(dn => DECKS[dn].filter(c => isDue(dn, c)).length), key: curKey(), raw: JSON.stringify(S), /* save() writes a moment later, so the row is taken from memory */ n: Object.keys(S.cards).length, learned: names.slice(0, 5).map(learned), mastered: names.slice(0, 5).map(x => mastered(x)) }; }, DAY);
+  const T0 = await N.evaluate(() => MEM_T0);
+  const oldOnly = await O.evaluate(({ DAY, T0 }) => { const d = names.find(n => n !== MYDECK && DECKS[n].length >= 8 && !isLetterDeck(n)), t = dayNum(), now = Date.now(); S = Object.assign(fresh(), { onboard: { skipped: 1 }, hintSeen: 1, tourDone: 1, nick: 'K', welcomed: 1, free: true }); let i = 0;
+    names.slice(0, 5).forEach(dn => DECKS[dn].forEach(c => { const box = i % 7; if (box) S.cards[ck(dn, c)] = { box, due: t + (i % 9) - 4, seen: 1 + i % 5, lapses: i % 3, last: now - (i % 45) * DAY }; i++; })); { const k = Object.keys(S.cards)[0]; S.cards[k].last = Math.min(S.cards[k].last, T0 - DAY); } /* one card for certain from before the judge, whatever the day */ S.mastered = { [names[0]]: 1, [names[1]]: 1 }; S.updatedAt = now; save(); return { due: dueCount(), dueKeys: names.slice(0, 5).map(dn => DECKS[dn].filter(c => isDue(dn, c)).length), key: curKey(), raw: JSON.stringify(S), /* save() writes a moment later, so the row is taken from memory */ n: Object.keys(S.cards).length, learned: names.slice(0, 5).map(learned), mastered: names.slice(0, 5).map(x => mastered(x)) }; }, { DAY, T0 });
   await N.evaluate(({ key, raw }) => { localStorage.clear(); localStorage.setItem(key, raw); }, oldOnly); await N.reload(); await N.waitForTimeout(900);
   await N.evaluate(() => { ['welcome', 'langHome', 'fxIntro', 'fxIdle'].forEach(i => { const e = document.getElementById(i); if (e) e.remove(); }); });
   const up = await N.evaluate(async (o) => { const same0 = JSON.stringify(S.cards) === JSON.stringify(JSON.parse(o.raw).cards); memoClear(); const tot = memTotals(), all = names.reduce((n, x) => n + DECKS[x].length, 0), ln = names.slice(0, 5).map(learned);

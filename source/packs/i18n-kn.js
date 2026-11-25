@@ -798,7 +798,9 @@ LANGAPP_PACKS.i18n.kn = {
     "missed on 2 of its last 4 days": "ಕೊನೆಯ 4 ದಿನಗಳಲ್ಲಿ 2 ದಿನ ತಪ್ಪು",
     "not seen for too long": "ತುಂಬಾ ದಿನಗಳಿಂದ ನೋಡಿಲ್ಲ",
     "Cards are now judged by how long you remember them. Cards you have not seen for a long time show as needs practice until you answer them again.": "ಈಗ ಕಾರ್ಡ್‌ಗಳನ್ನು ಅವು ನಿಮಗೆ ಎಷ್ಟು ಕಾಲ ನೆನಪಿರುತ್ತವೆ ಎಂಬುದರ ಮೇಲೆ ಅಳೆಯಲಾಗುತ್ತದೆ. ನೀವು ತುಂಬಾ ದಿನಗಳಿಂದ ನೋಡದ ಕಾರ್ಡ್‌ಗಳು, ಮತ್ತೆ ಉತ್ತರಿಸುವವರೆಗೆ \"ಅಭ್ಯಾಸ ಬೇಕು\" ಎಂದು ಕಾಣುತ್ತವೆ.",
-    "Review missed": "ತಪ್ಪಾದವು ರಿವ್ಯೂ ಮಾಡಿ"
+    "Review missed": "ತಪ್ಪಾದವು ರಿವ್ಯೂ ಮಾಡಿ",
+    "Practice these first": "ಮೊದಲು ಇವನ್ನು ಅಭ್ಯಾಸ ಮಾಡಿ",
+    ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.": ": 5 ಹೊಸ ಕಾರ್ಡ್, ಅವುಗಳ ಕ್ವಿಜ್, ಮತ್ತೆ 5 ಕಾರ್ಡ್, ನಂತರ ಹಿಂದಿನ ಕಾರ್ಡ್‌ಗಳಲ್ಲಿ ಹೆಚ್ಚು ಅಭ್ಯಾಸ ಬೇಕಾದ ಗರಿಷ್ಠ 15 ಕಾರ್ಡ್ ಸೇರಿಸಿ ಕ್ವಿಜ್ — ಡೆಕ್ ಮುಗಿಯುವವರೆಗೆ."
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ಡ್ರಿಲ್"],
