@@ -596,7 +596,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.111.0 · 2026-11-25';
+const APP_VERSION='2.112.0 · 2026-11-25';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -1974,18 +1974,48 @@ function lsNorm(h){ return ' '+String(h||'').replace(/\{\{ex:([^|}]*)[^}]*\}\}/g
 function lsScore(front,txt){ const f=lsNorm(front).trim(); if(!f) return 0; if(txt.includes(' '+f+' ')) return 2;
   if(/[฀-๿぀-ヿ㐀-鿿]/.test(f)){ if(txt.includes(f)) return 2; const g=[...f.replace(/ /g,'')]; if(g.length<2) return 0; let h=0; for(let i=0;i<g.length-1;i++){ if(txt.includes(g[i]+g[i+1])) h++; } return h/(g.length-1); }
   const w=f.split(' ').filter(x=>x.length>2); return w.length?w.filter(x=>txt.includes(' '+x+' ')).length/w.length:0; }
-function lsPlan(l){ const key=COURSE.id+'|'+l.id; if(LS_PLAN[key]) return LS_PLAN[key];
-  const raw=String(l.body||'').split(/(?=<h3[\s>])/), cnt=(x,re)=>(x.match(re)||[]).length, bal=x=>cnt(x,/<div[\s>]/g)===cnt(x,/<\/div>/g)&&cnt(x,/<table[\s>]/g)===cnt(x,/<\/table>/g);
+/* SEC-1: section decks made from what the section teaches. LS_ALIGN lists the courses that use it (one course first, by the owner's rule); the others keep the dealing in lsPlan.
+   A section's cards, in the order the section shows them: its example lines (the real card when a deck has that line, else a card of the lesson's own hidden deck LS_EX+id), the cards of the lesson's deck whose words it uses, and cards of any deck that it shows as a term (bold or a table cell). Then COURSE.SECS[lessonId][section] = {add:[front | [front,reading,meaning,note]], drop:[front]} from a writer. A card is used once in a lesson, in the first section that teaches it. A section left with fewer than 3 passes them on to the next deck (never back). */
+const LS_EX='§', LS_ALIGN={'en-ko':1}, LS_SECS_KO=/*SECS:en-ko*/{"polite":{"0":{"add":[["고맙습니다","","Thank you (formal)"],["미안해요","","Sorry (polite)"],["미안해","","Sorry (casual)"],["반말","","casual speech (\"half speech\")"]]}},"meet":{"1":{"add":[["학생이에요","","(I) am a student"],["저예요","","It's me"],["마이크예요","","(I) am Mike"],["후안이에요","","(I) am Juan"]]},"2":{"add":[["살","","years old (counter for age)"]]},"3":{"add":[["들어가세요","","Bye (on the phone; lit. go in)"]]},"4":{"add":[["만나서 반갑습니다","","Nice to meet you (formal)"],["반가워","","Nice to meet you (casual)"],["이름이 뭐야?","","What's your name? (casual)"]]}},"sound-changes":{"2":{"drop":["ㄹ between vowels"]},"3":{"add":[["학교","","school · sounds like 학꾜"]]}},"nouns":{"1":{"add":["제","내"]}},"isseoyo":{"4":{"add":[["학교에 있어요","","(I) am at school"],["여기는 학교예요","","This is a school (here = school)"],["여기에 학교가 있어요","","There is a school here"],["시간 있어요?","","Are you free? (Do you have time?)"]]}},"pronouns-questions":{"1":{"add":[["그 사람","","that person"],["이분","","this person (polite)"],["씨","","Mr. / Ms. (after a name)"]]}},"verbs":{"0":{"drop":["봐요","마셔요","먹어요"],"add":[["공부해요","","(I) study"],["가다","","to go (dictionary form)"],["먹다","","to eat (dictionary form)"]]}},"past":{"2":{"add":[["친구였어요","","(He) was a friend"]]}},"future":{"1":{"add":[["살 거예요","","will live"]]}},"sov":{"1":{"add":["좋아요","커요"]}},"particles":{"4":{"add":[["저도","","me too"],["집에 있어요","","(I) am at home"]]}},"sentences":{"0":{"add":[["이거는 커피예요","","This is coffee"],["친구는 의사예요","","My friend is a doctor"]]},"1":{"add":[["날씨가 좋아요","","The weather is good"],["가방이 커요","","The bag is big"]]},"2":{"add":[["밥을 먹어요","","(I) eat rice"],["책을 봐요","","(I) read a book"]]}},"want-like":{"2":{"add":[["먹고 싶었어요","","(I) wanted to eat"],["안 먹고 싶어요","","(I) don't want to eat"]]}},"numbers":{"0":{"add":["하나, 둘, 셋","넷, 다섯, 여섯","일곱, 여덟, 아홉, 열","일, 이, 삼, 사, 오","육, 칠, 팔, 구, 십","만 원"]}},"getting-around":{"1":{"add":[["이번 역","","this stop"],["다음 역","","next stop"],["갈아타다","","to transfer"],["편의점","","convenience store"]]}},"titles":{"0":{"add":["형 / 오빠","누나 / 언니",["고객님","","customer (polite)"],["민수 씨","","Minsu (polite, to a peer)"],["민수야!","","Minsu! (calling a close friend)"],["지은아!","","Jieun! (calling a close friend)"],["씨","","Mr. / Ms. (after a name)"]]}},"texting":{"1":{"add":[["네","","yes (polite)"],["넵","","yes! (friendly-polite, at work)"],["읽씹","","read-and-ignore"]]}},"counters":{"1":{"add":[["맥주 두 병","","two bottles of beer"],["사람 세 명","","three people"],["스무 살","","twenty years old"]]}},"joining":{"0":{"add":[["싸고 좋아요","","It's cheap and good"]]},"1":{"add":[["맛있지만 비싸요","","It's tasty but expensive"]]},"2":{"add":[["비싸서 안 사요","","It's expensive, so I'm not buying it"]]},"3":{"add":[["집에 가서 쉬어요","","(I) go home and rest"]]}},"story":{"1":{"add":[["어제","","yesterday"],["지난주","","last week"],["작년","","last year"]]}},"noun-modifiers":{"1":{"add":[["재미없는 영화","","a boring movie"]]},"2":{"add":[["더운 날씨","","hot weather (덥다)"]]},"3":{"add":[["먼 길","","a long way (멀다)"],["단 음식","","sweet food (달다)"]]}},"compare":{"0":{"drop":["제일"]},"1":{"add":[["어제보다 오늘이 더 추워요","","Today is colder than yesterday (same meaning)"],["택시보다 싸요","","(It's) cheaper than a taxi"]]},"3":{"add":["제일",["가장","","the most (a little more formal)"]]}},"have-to":{"1":{"add":[["언제 가야 돼요?","","When do I have to go?"]]},"2":{"add":[["어제 가야 했어요","","(I) had to go yesterday"],["공부해야 했어요","","(I) had to study"]]},"3":{"add":[["가도 돼요?","","May I go?"]]}},"requests":{"0":{"add":[["물 좀 주세요","","Some water, please (좀 softens it)"],["사진 좀 찍어 주시겠어요?","","Would you mind taking a photo?"],["여기 앉으면 안 돼요?","","Would it be okay if I sit here?"],["사진 찍어도 돼요?","","May I take a photo?"]]}},"office":{"0":{"add":[["대리님","","assistant manager"],["과장님","","manager"],["부장님","","department head"],["팀장님","","team lead"],["사장님","","CEO; boss"],["대표님","","CEO"]]},"2":{"add":["감사합니다"]}}}/*SECS-END*/; /* the built-in course's writer table, put here by tools/sections/apply.js */
+function lsHid(k){ return k[0]===LS_EX||k.indexOf(LS_BLOCKS+'|')===0; } /* a saved card of a deck that exists only inside a lesson: not a review */
+function lsCut(body){ const raw=String(body||'').split(/(?=<h3[\s>])/), cnt=(x,re)=>(x.match(re)||[]).length, bal=x=>cnt(x,/<div[\s>]/g)===cnt(x,/<\/div>/g)&&cnt(x,/<table[\s>]/g)===cnt(x,/<\/table>/g);
   for(let i=0;i<raw.length-1;){ if(!bal(raw[i])){ raw[i]+=raw[i+1]; raw.splice(i+1,1); } else i++; } /* never cut inside a box or a table */
   if(raw.length>1&&!/^<h3[\s>]/.test(raw[0])){ raw[1]=raw[0]+raw[1]; raw.shift(); } /* the opening lines belong to the first section */
-  const n=raw.length, D=DECKS[l.deck]||[]; let sets=raw.map(()=>[]);
+  return raw; }
+function lsText(x){ return String(x||'').replace(/<[^>]+>/g,'').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&').trim(); }
+function lsExs(h){ const o=[]; String(h).replace(/\{\{ex:([^}]*)\}\}|<div class="ex">[\s\S]*?<span class="k">([\s\S]*?)<\/span><span class="r">([\s\S]*?)<\/span><span class="m">([\s\S]*?)<\/span><\/div>/g,(m,t,k,r,g)=>{ if(k===undefined){ const p=String(t).split('|'); o.push([p[0].trim(),(p[1]||'').trim(),p.slice(2).join('|').trim()]); } else o.push([lsText(k),lsText(r),lsText(g)]); return m; }); return o.filter(x=>x[0]&&x[2]); }
+function lsItems(h){ const o=[]; String(h).replace(/<b>([^<]+)<\/b>|<td class="k">([^<]+)<\/td>/g,(m,a,b)=>{ const k=lsNorm(a||b).trim(); if(k) o.push(k); return m; }); return o; }
+function lsAt(k,txt){ /* where the section's text uses these words (k and txt from lsNorm), -1 when it does not */ let p=txt.indexOf(' '+k+' '); if(p>=0) return p;
+  if(/[฀-๿぀-ヿ㐀-鿿]/.test(k)){ const t=k.replace(/ /g,''); return t.length>=2?txt.replace(/ /g,'').indexOf(t):-1; }
+  if(/^[가-힣]{2,}$/.test(k)){ const m=txt.match(new RegExp(' '+k+'(은|는|이|가|을|를|에|의|도|로|와|과|만|에서|으로|이에요|예요|입니다) ')); if(m) return m.index; }
+  const w=k.split(' ').filter(x=>x.length>2); if(w.length<2) return -1; let lo=1e9; for(const x of w){ const q=txt.indexOf(' '+x+' '); if(q<0) return -1; lo=Math.min(lo,q); } return lo; }
+function lsIdx(){ if(lsIdx.D===DECKS) return lsIdx.M; const M=new Map(); names.forEach(d=>{ if(d===MYDECK||d===LS_BLOCKS||d[0]===LS_EX) return; (DECKS[d]||[]).forEach(c=>{ const k=lsNorm(c[0]).trim(); if(k&&!M.has(k)) M.set(k,{d,c}); }); }); lsIdx.D=DECKS; lsIdx.M=M; return M; }
+function lsAlign(l,raw){ if(!LS_ALIGN[COURSE.id]||Array.isArray(l.sections)) return null; /* a lesson whose sections are set by hand keeps them */
+  const R=((typeof NAME_RAW!=='undefined'&&NAME_RAW&&NAME_RAW.LESSONS)||[]).find(x=>x&&x.id===l.id), rr=R&&R!==l?lsCut(R.body):raw, src=rr.length===raw.length?rr:raw; /* the text before the learner's name is put in */
+  const M=lsIdx(), own=new Map(), hn=LS_EX+l.id, H=[], used=new Set(), X=((COURSE.builtin?LS_SECS_KO:COURSE.SECS)||{})[l.id]||{}, n=raw.length;
+  (DECKS[l.deck]||[]).forEach(c=>{ const k=lsNorm(c[0]).trim(); if(k&&!own.has(k)) own.set(k,{d:l.deck,c}); });
+  const real=k=>own.get(k)||M.get(k), hid=a=>{ const c=[String(a[0]),String(a[1]||'')||(COURSE.target==='ko'?romanize(String(a[0])):''),String(a[2]),String(a[3]||'')]; H.push(c); return {d:hn,c}; };
+  let sets=src.map((h,i)=>{ const txt=lsNorm(h), s=[], x=X[i]||{}, drop=new Set((x.drop||[]).map(f=>lsNorm(f).trim()));
+    const put=(k,mk,pos)=>{ if(!k||used.has(k)||drop.has(k)) return; used.add(k); s.push({x:mk(),pos}); };
+    lsExs(h).forEach(e=>{ if(e[0].indexOf(NAME_TOK)>=0) return; const k=lsNorm(e[0]).trim(), r=real(k); put(k,()=>r||hid(e),Math.max(0,lsAt(k,txt))); });
+    own.forEach((v,k)=>{ const p=lsAt(k,txt); if(p>=0) put(k,()=>v,p); });
+    lsItems(h).forEach(k=>{ const r=M.get(k); if(r&&k.replace(/ /g,'').length>1&&!isLetterDeck(r.d)) put(k,()=>r,Math.max(0,lsAt(k,txt))); }); /* a one-letter term is too often another word (그 that / he) */
+    s.sort((a,b)=>a.pos-b.pos);
+    (x.add||[]).forEach(a=>{ if(typeof a==='string'){ const k=lsNorm(a).trim(), r=real(k); if(r) put(k,()=>r,1e9); } else if(Array.isArray(a)&&a[0]&&a[2]){ const k=lsNorm(a[0]).trim(), r=real(k); put(k,()=>r||hid(a),1e9); } });
+    return s.map(y=>y.x); });
+  if(sets.reduce((a,x)=>a+x.length,0)<3) return null; const pre=sets.map(x=>x.length); /* before any section passes its cards on: what tools/sections reads */
+  for(let k=0;k<n;k++){ if(sets[k].length&&sets[k].length<3){ let j=-1; for(let m=k+1;m<n&&j<0;m++){ if(sets[m].length) j=m; } if(j>=0){ sets[j]=sets[k].concat(sets[j]); sets[k]=[]; } } } /* the last deck of a lesson may be short: its cards are never moved back in front of the section that teaches them */
+  return {sets,hn,H,pre}; }
+function lsPlan(l){ const key=COURSE.id+'|'+l.id; if(LS_PLAN[key]){ const p=LS_PLAN[key]; if(p.H&&p.H.length&&DECKS[p.hn]!==p.H) DECKS[p.hn]=p.H; return p; }
+  const raw=lsCut(l.body), n=raw.length, D=DECKS[l.deck]||[]; let sets=raw.map(()=>[]), al=null;
   const V=ROLE('hangulVowels'), C=ROLE('hangulConsonants');
   if(l.id==='hangul'&&COURSE.target==='ko'&&n>=4&&V&&C){ sets[0]=DECKS[V].map(c=>({d:V,c})); sets[1]=DECKS[C].map(c=>({d:C,c})); const B=lsBlocksDeck(); sets[3]=DECKS[B].map(c=>({d:B,c})); }
+  else if((al=lsAlign(l,raw))){ sets=al.sets; if(al.H.length) DECKS[al.hn]=al.H; }
   else { const txt=raw.map(lsNorm), rest=[]; D.forEach(c=>{ let b=-1, bs=0; txt.forEach((t,i)=>{ const v=lsScore(c[0],t); if(v>bs){ bs=v; b=i; } }); if(bs>=0.6) sets[b].push(c); else rest.push(c); });
     const tgt=Math.ceil(D.length/n); let i=0; rest.forEach(c=>{ while(i<n-1&&sets[i].length>=tgt) i++; sets[i].push(c); });
     for(let k=0;k<n;k++){ if(sets[k].length&&sets[k].length<3){ let j=-1; for(let m=k+1;m<n&&j<0;m++){ if(sets[m].length) j=m; } for(let m=k-1;m>=0&&j<0;m--){ if(sets[m].length) j=m; } if(j>=0){ sets[j]=sets[j].concat(sets[k]); sets[k]=[]; } } }
     sets=sets.map(x=>x.slice().sort((a,b)=>D.indexOf(a)-D.indexOf(b)).map(c=>({d:l.deck,c}))); }
-  const parts=raw.map((h,i)=>({html:h,cards:sets[i]})); return LS_PLAN[key]={parts,all:parts.reduce((a,p)=>a.concat(p.cards),[])}; }
+  const parts=raw.map((h,i)=>({html:h,cards:sets[i]})); return LS_PLAN[key]={parts,all:parts.reduce((a,p)=>a.concat(p.cards),[]),hn:al?al.hn:'',H:al?al.H:null,pre:al?al.pre:null}; }
 function lsPartHTML(h){ return COURSE.builtin?h:'<div class="lbody" data-noi18n>'+strokeTok(expandEx(h))+'</div>'; }
 function lsKnown(x){ const st=cardState(x.d,x.c); return !!st&&st.box>=2; }
 function lsDeckDone(id,k,cards){ const p=(S.lsec||{})[id]; return !!S.lessons[id]||(!!p&&p[k]>=cards.length)||cards.every(lsKnown); }
@@ -2351,7 +2381,7 @@ function masteryPct(d){ return DECKS[d]&&DECKS[d].length? mastered(d)/DECKS[d].l
 function checkMastery(d){ S.mastered=S.mastered||{}; if(!S.mastered[d]&&DECKS[d].length&&mastered(d)===DECKS[d].length){ S.mastered[d]=1; award(50); fx3('celebrate','trophy'); toast('🏆 '+d+' mastered · +50 XP'); } }
 let memo={}; function memoClear(){ memo={}; }
 function learned(d){ if(!DECKS[d]) return 0; const k='l|'+d; if(memo[k]!==undefined) return memo[k]; return memo[k]=DECKS[d].filter(c=>{const s=cardState(d,c); return s&&s.box>=2;}).length; }
-function forecast(days){ const f=new Array(days).fill(0); const t=dayNum(); Object.values(S.cards).forEach(s=>{ if(s.leech||s.susp) return; const k=s.due-t; if(k<=0) f[0]++; else if(k<days) f[k]++; }); return f; }
+function forecast(days){ const f=new Array(days).fill(0); const t=dayNum(); Object.entries(S.cards).forEach(([ky,s])=>{ if(s.leech||s.susp||lsHid(ky)) return; const k=s.due-t; if(k<=0) f[0]++; else if(k<days) f[k]++; }); return f; }
 function dueCount(){ let n=0; names.forEach(d=>DECKS[d].forEach(c=>{ if(isDue(d,c)) n++; })); return n; }
 function deckUnlocked(d){ if(d===MYDECK||S.free) return true; const k='u|'+d; if(memo[k]!==undefined) return memo[k]; const i=PATH.indexOf(d); if(i<=0) return memo[k]=true; const prev=PATH[i-1]; return memo[k]=(DECKS[prev].length?learned(prev)/DECKS[prev].length>=0.6:true); }
 function lessonUnlocked(i){ if(S.free||i===0||S.lessons[LESSONS[i-1].id]||(S.seen&&S.seen[LESSONS[i].id]===1)) return true; for(let k=LESSONS.length-1;k>=i;k--){ if(S.lessons[LESSONS[k].id]) return true; } return false; } /* a lesson at or before your furthest finished one is always open, so adding lessons mid-course never re-locks anything */
@@ -3324,7 +3354,7 @@ function renderCardsStage(){
   $('prog').style.width=(all?qi/total:ln/total)*100+'%';
   const stage=$('cardsStage'); const lp=activeLoop();
   if(qi>=queue.length){ $('left').textContent=all?'All caught up':ln+'/'+total+' learned';
-    const nextDue=(()=>{ let m=Infinity; Object.values(S.cards).forEach(s=>{ if(s.due>dayNum()) m=Math.min(m,s.due); }); return m===Infinity?null:m-dayNum(); })();
+    const nextDue=(()=>{ let m=Infinity; Object.entries(S.cards).forEach(([ky,s])=>{ if(s.due>dayNum()&&!lsHid(ky)) m=Math.min(m,s.due); }); return m===Infinity?null:m-dayNum(); })();
     const msg = all ? 'No cards due right now.'+(nextDue?' Next ones come due in '+nextDue+' day'+(nextDue>1?'s':'')+'.':'') : (cardsMode==='due'?'Nothing due in this deck right now.':'Deck finished.');
     const next = lp ? ['Continue practice · card '+(lp.pos+1)+'/'+lp.total,'#practice'] : (currentDeck()? ['Learn new cards · '+currentDeck(),'#practice'] : ['Reading drill','#read']);
     rvKeys(''); stage.innerHTML=`<div class="done"><div class="ko" data-noi18n>${PRAISE(2,'잘했어요!')}</div><div class="note" style="margin:0 auto">${msg}</div><div class="controls"><a class="big primary" style="text-align:center;text-decoration:none;display:block;grid-column:1/3" href="${next[1]}">${next[0]}</a>${all?'':'<button class="ghost" id="cardsAll">Review this deck anyway</button>'}<a class="ghost" style="text-align:center;text-decoration:none;display:block" href="#today">Start a session</a></div></div>`;
@@ -3558,7 +3588,7 @@ function drawShare(opts){ if(opts) return drawRecap(opts);
   g.fillStyle='#1d1f2a'; g.fillRect(0,0,1080,600); g.fillStyle='#c2402f'; g.fillRect(0,0,1080,14);
   g.fillStyle='#f3efe6'; g.font='900 150px "Noto Sans KR",sans-serif'; g.fillText(COURSE.builtin?'한글':String(COURSE.brand||'Lang App'),60,230);
   g.font='500 34px "DM Mono",monospace'; g.fillStyle='#9a9dab'; g.fillText(COURSE.builtin?'KOREAN STARTER':'LANG APP · '+langName(COURSE.target,'en').toUpperCase(),60,290);
-  const known=Object.values(S.cards).filter(s=>s.box>=2).length;
+  const known=Object.entries(S.cards).filter(([ky,s])=>s.box>=2&&!lsHid(ky)).length;
   const stats=[[streak(),i18nT('DAY STREAK')],[known,i18nT('CARDS LEARNED')],['Lv '+levelOf(S.xp),titleOf(levelOf(S.xp))[2].toUpperCase()]];
   stats.forEach((s,i)=>{ const x=60+i*340; g.fillStyle='#f3efe6'; g.font='700 96px "DM Sans",sans-serif'; g.fillText(String(s[0]),x,470); g.fillStyle='#9a9dab'; g.font='500 26px "DM Mono",monospace'; g.fillText(s[1],x,515); });
   g.font='120px sans-serif'; g.textAlign='right'; g.fillText('🔥',1020,215); g.textAlign='left';
