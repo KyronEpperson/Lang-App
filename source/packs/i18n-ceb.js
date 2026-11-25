@@ -805,7 +805,11 @@ LANGAPP_PACKS.i18n.ceb = {
     "I already have an account": "Naa na koy account",
     "Save your progress across devices?": "I-save ang imong pag-uswag sa tanang device?",
     "Optional. Add your email and your progress follows you to any phone or computer. No password.": "Opsyonal. Idugang ang imong email ug ang imong pag-uswag mouban nimo sa bisan unsang phone o computer. Walay password.",
-    "Skip for now": "Laktawi sa karon"
+    "Skip for now": "Laktawi sa karon",
+    "Learn": "Tun-i",
+    "All categories": "Tanang kategorya",
+    "All decks in this category": "Tanang deck niining kategoryaha",
+    "Just learn (no quizzes)": "Pagtuon lang (walay quiz)"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Mga drill"],

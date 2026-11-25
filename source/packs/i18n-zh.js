@@ -805,7 +805,11 @@ LANGAPP_PACKS.i18n.zh = {
     "I already have an account": "我已有账号",
     "Save your progress across devices?": "要在多设备上保存你的进度吗？",
     "Optional. Add your email and your progress follows you to any phone or computer. No password.": "可选。添加邮箱后，你的进度会同步到任何手机或电脑。无需密码。",
-    "Skip for now": "暂时跳过"
+    "Skip for now": "暂时跳过",
+    "Learn": "学习",
+    "All categories": "全部类别",
+    "All decks in this category": "此类别的全部卡组",
+    "Just learn (no quizzes)": "只学习（不测验）"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · 专项练习"],

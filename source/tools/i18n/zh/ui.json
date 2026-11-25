@@ -5469,6 +5469,30 @@
    "ko": "나중에 하기",
    "kind": "label",
    "context": "pre-native welcome step 2: button that finishes without an email (progress stays on this device)"
+  },
+  "Learn": {
+   "t": "学习",
+   "ko": "배우기",
+   "kind": "button",
+   "context": "main button on the Practice screen: starts learning the picked deck, five new cards at a time (imperative / action label)"
+  },
+  "All categories": {
+   "t": "全部类别",
+   "ko": "전체 분류",
+   "kind": "label",
+   "context": "first option of the Category dropdown in the deck picker: no category filter"
+  },
+  "All decks in this category": {
+   "t": "此类别的全部卡组",
+   "ko": "이 분류의 모든 덱",
+   "kind": "label",
+   "context": "first option of the Deck dropdown in the Practice deck picker: selects every deck of the chosen category"
+  },
+  "Just learn (no quizzes)": {
+   "t": "只学习（不测验）",
+   "ko": "배우기만 (퀴즈 없이)",
+   "kind": "label",
+   "context": "checkbox on the Practice screen: when ticked, Learn only shows the cards and skips the quiz after each five"
   }
  },
  "patterns": {

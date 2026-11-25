@@ -805,7 +805,11 @@ LANGAPP_PACKS.i18n.te = {
     "I already have an account": "నాకు ఇప్పటికే ఖాతా ఉంది",
     "Save your progress across devices?": "మీ ప్రగతిని అన్ని పరికరాల్లో సేవ్ చేయాలా?",
     "Optional. Add your email and your progress follows you to any phone or computer. No password.": "ఐచ్ఛికం. మీ ఈమెయిల్ చేర్చితే ఏ ఫోన్‌లోనైనా, కంప్యూటర్‌లోనైనా మీ ప్రగతి మీతోనే ఉంటుంది. పాస్‌వర్డ్ అవసరం లేదు.",
-    "Skip for now": "ప్రస్తుతానికి దాటవేయండి"
+    "Skip for now": "ప్రస్తుతానికి దాటవేయండి",
+    "Learn": "నేర్చుకోండి",
+    "All categories": "అన్ని వర్గాలు",
+    "All decks in this category": "ఈ వర్గంలోని అన్ని డెక్‌లు",
+    "Just learn (no quizzes)": "నేర్చుకోవడం మాత్రమే (క్విజ్‌లు లేవు)"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · డ్రిల్స్"],

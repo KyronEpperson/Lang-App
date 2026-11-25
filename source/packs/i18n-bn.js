@@ -805,7 +805,11 @@ LANGAPP_PACKS.i18n.bn = {
     "I already have an account": "আমার আগে থেকেই অ্যাকাউন্ট আছে",
     "Save your progress across devices?": "আপনার অগ্রগতি সব ডিভাইসে সেভ করবেন?",
     "Optional. Add your email and your progress follows you to any phone or computer. No password.": "ঐচ্ছিক। ইমেইল যোগ করলে যেকোনো ফোন বা কম্পিউটারে আপনার অগ্রগতি পাবেন। পাসওয়ার্ড লাগে না।",
-    "Skip for now": "এখন বাদ দিন"
+    "Skip for now": "এখন বাদ দিন",
+    "Learn": "শিখুন",
+    "All categories": "সব ধরন",
+    "All decks in this category": "এই ধরনের সব ডেক",
+    "Just learn (no quizzes)": "শুধু শিখুন (কুইজ ছাড়া)"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ড্রিল"],

@@ -10,7 +10,7 @@
   "d": "text without \"·\", e.g. a deck name inside a \"·\"-separated line"
  },
  "counts": {
-  "exact": 805,
+  "exact": 809,
   "patterns": 278,
   "distinctPatternTemplates": 277
  },
@@ -305,7 +305,7 @@
    "key": "Learn 5 at a time",
    "kind": "sentence",
    "section": "practice (static)",
-   "where": "html <b> text"
+   "where": "js STR()"
   },
   {
    "key": ": 5 new cards, quiz them, 5 more, quiz those mixed with everything so far, until the deck is done.",
@@ -318,20 +318,20 @@
    "key": "Test everything",
    "kind": "label",
    "section": "practice (static)",
-   "where": "html <b> text"
+   "where": "js STR()"
   },
   {
    "key": ": every card × 3 passes. Mixed = read, listen, recall.",
    "kind": "fragment",
    "section": "practice (static)",
-   "where": "html text",
+   "where": "not verbatim in src/app.html (assembled at runtime)",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing"
   },
   {
    "key": "Deck",
    "kind": "label",
    "section": "practice (static)",
-   "where": "html <div> text",
+   "where": "js (top level)",
    "context": "form label: choose a deck"
   },
   {
@@ -345,7 +345,7 @@
    "key": "Mixed",
    "kind": "label",
    "section": "practice (static)",
-   "where": "html text",
+   "where": "html <button> text",
    "context": "quiz mode: read + listen + recall mixed"
   },
   {
@@ -399,7 +399,7 @@
    "key": "📝 Exam · 25",
    "kind": "label",
    "section": "practice (static)",
-   "where": "html <button> text"
+   "where": "js STR()"
   },
   {
    "key": "Show romanization in practice",
@@ -1961,7 +1961,7 @@
    "key": "mastered",
    "kind": "label",
    "section": "flashcard / review",
-   "where": "js quizGrade()",
+   "where": "js nk()",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -2135,7 +2135,7 @@
    "key": "Change deck ▾",
    "kind": "label",
    "section": "flashcard / review",
-   "where": "js STR()"
+   "where": "html <button> text"
   },
   {
    "key": "Done ▴",
@@ -2161,7 +2161,7 @@
    "key": "Finish 60% of the previous deck to unlock this one.",
    "kind": "sentence",
    "section": "flashcard / review",
-   "where": "js b()"
+   "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   {
    "key": "모두 열렸어요 · Everything unlocked",
@@ -2204,7 +2204,7 @@
    "key": "Back",
    "kind": "label",
    "section": "quiz / practice flow",
-   "where": "html <h3> text",
+   "where": "js (top level)",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -2223,7 +2223,7 @@
    "key": "Test everything × 3",
    "kind": "label",
    "section": "quiz / practice flow",
-   "where": "js teach() <button>"
+   "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   {
    "key": "Pick next deck",
@@ -2604,7 +2604,7 @@
    "key": "Mix",
    "kind": "label",
    "section": "quiz / practice flow",
-   "where": "html text",
+   "where": "html <button> text",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -2650,7 +2650,7 @@
    "key": "Learn again from the start",
    "kind": "sentence",
    "section": "quiz / practice flow",
-   "where": "js pos()"
+   "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   {
    "key": "Continue learning",
@@ -3078,7 +3078,7 @@
    "key": "recall",
    "kind": "label",
    "section": "session (Today)",
-   "where": "html text",
+   "where": "html <button> text",
    "context": "short UI label (button, chip or heading); keep it short"
   },
   {
@@ -5517,7 +5517,7 @@
    "key": ": 5 new cards, quiz them, 5 more, quiz those mixed with up to 15 earlier cards you most need to practice, until the deck is done.",
    "kind": "fragment",
    "section": "added",
-   "where": "html text",
+   "where": "not verbatim in src/app.html (assembled at runtime)",
    "context": "fragment of a longer runtime string; keep the leading/trailing punctuation and spacing"
   },
   {
@@ -5550,6 +5550,31 @@
    "kind": "label",
    "section": "added",
    "where": "js B()"
+  },
+  {
+   "key": "Learn",
+   "kind": "label",
+   "section": "added",
+   "where": "html <button> text",
+   "context": "short UI label (button, chip or heading); keep it short"
+  },
+  {
+   "key": "All categories",
+   "kind": "label",
+   "section": "added",
+   "where": "js cs()"
+  },
+  {
+   "key": "All decks in this category",
+   "kind": "sentence",
+   "section": "added",
+   "where": "js deckBadge()"
+  },
+  {
+   "key": "Just learn (no quizzes)",
+   "kind": "label",
+   "section": "added",
+   "where": "html <input> text"
   }
  ],
  "patterns": [

@@ -805,7 +805,11 @@ LANGAPP_PACKS.i18n.pl = {
     "I already have an account": "Mam już konto",
     "Save your progress across devices?": "Zapisywać twoje postępy na wszystkich urządzeniach?",
     "Optional. Add your email and your progress follows you to any phone or computer. No password.": "Opcjonalnie. Dodaj e-mail, a twoje postępy będą z tobą na każdym telefonie i komputerze. Bez hasła.",
-    "Skip for now": "Na razie pomiń"
+    "Skip for now": "Na razie pomiń",
+    "Learn": "Nauka",
+    "All categories": "Wszystkie kategorie",
+    "All decks in this category": "Wszystkie talie w tej kategorii",
+    "Just learn (no quizzes)": "Tylko nauka (bez quizów)"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Wprawki"],

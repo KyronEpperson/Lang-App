@@ -805,7 +805,11 @@ LANGAPP_PACKS.i18n.ru = {
     "I already have an account": "У меня уже есть аккаунт",
     "Save your progress across devices?": "Сохранять твой прогресс на всех устройствах?",
     "Optional. Add your email and your progress follows you to any phone or computer. No password.": "Необязательно. Добавь почту, и твой прогресс будет с тобой на любом телефоне или компьютере. Без пароля.",
-    "Skip for now": "Пока пропустить"
+    "Skip for now": "Пока пропустить",
+    "Learn": "Учить",
+    "All categories": "Все категории",
+    "All decks in this category": "Все колоды этой категории",
+    "Just learn (no quizzes)": "Только учить (без тестов)"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Тренажёр"],

@@ -805,7 +805,11 @@ LANGAPP_PACKS.i18n.vi = {
     "I already have an account": "Tôi đã có tài khoản",
     "Save your progress across devices?": "Lưu tiến độ của bạn trên mọi thiết bị?",
     "Optional. Add your email and your progress follows you to any phone or computer. No password.": "Không bắt buộc. Thêm email và tiến độ sẽ theo bạn trên mọi điện thoại hay máy tính. Không cần mật khẩu.",
-    "Skip for now": "Tạm bỏ qua"
+    "Skip for now": "Tạm bỏ qua",
+    "Learn": "Học",
+    "All categories": "Tất cả các loại",
+    "All decks in this category": "Tất cả bộ thẻ thuộc loại này",
+    "Just learn (no quizzes)": "Chỉ học (không trắc nghiệm)"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Kỹ năng"],

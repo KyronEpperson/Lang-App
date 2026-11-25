@@ -805,7 +805,11 @@ LANGAPP_PACKS.i18n.ur = {
     "I already have an account": "میرا اکاؤنٹ پہلے سے ہے",
     "Save your progress across devices?": "اپنی پیش رفت ہر ڈیوائس پر محفوظ کریں؟",
     "Optional. Add your email and your progress follows you to any phone or computer. No password.": "اختیاری۔ اپنی ای میل شامل کریں اور آپ کی پیش رفت کسی بھی فون یا کمپیوٹر پر آپ کے ساتھ رہے گی۔ پاس ورڈ کی ضرورت نہیں۔",
-    "Skip for now": "ابھی چھوڑیں"
+    "Skip for now": "ابھی چھوڑیں",
+    "Learn": "سیکھیں",
+    "All categories": "تمام زمرے",
+    "All decks in this category": "اس زمرے کے تمام ڈیک",
+    "Just learn (no quizzes)": "صرف سیکھیں (کوئز نہیں)"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · مہارتیں"],

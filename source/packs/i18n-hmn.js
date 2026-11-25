@@ -805,7 +805,11 @@ LANGAPP_PACKS.i18n.hmn = {
     "I already have an account": "Kuv twb muaj account lawm",
     "Save your progress across devices?": "Kaw cia koj cov Progress rau txhua cuab yeej siv?",
     "Optional. Add your email and your progress follows you to any phone or computer. No password.": "Yog koj xav sau. Ntxiv koj tus email, koj cov Progress mus nrog koj rau txhua lub xov tooj los yog computer. Tsis siv lo lus zais.",
-    "Skip for now": "Tom qab"
+    "Skip for now": "Tom qab",
+    "Learn": "Kawm",
+    "All categories": "Txhua hom",
+    "All decks in this category": "Txhua deck hauv hom no",
+    "Just learn (no quizzes)": "Kawm xwb (tsis muaj quiz)"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Drills"],

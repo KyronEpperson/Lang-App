@@ -805,7 +805,11 @@ LANGAPP_PACKS.i18n.cs = {
     "I already have an account": "Už mám účet",
     "Save your progress across devices?": "Ukládat tvůj pokrok na všech zařízeních?",
     "Optional. Add your email and your progress follows you to any phone or computer. No password.": "Nepovinné. Přidej e-mail a tvůj pokrok tě bude provázet na každém telefonu i počítači. Bez hesla.",
-    "Skip for now": "Zatím přeskočit"
+    "Skip for now": "Zatím přeskočit",
+    "Learn": "Učit se",
+    "All categories": "Všechny kategorie",
+    "All decks in this category": "Všechny balíčky v této kategorii",
+    "Just learn (no quizzes)": "Jen se učit (bez kvízů)"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Drily"],

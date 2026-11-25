@@ -805,7 +805,11 @@ LANGAPP_PACKS.i18n.ja = {
     "I already have an account": "アカウントをお持ちの方",
     "Save your progress across devices?": "記録を複数の端末に保存しますか？",
     "Optional. Add your email and your progress follows you to any phone or computer. No password.": "任意です。メールアドレスを追加すると、どのスマホやパソコンでも記録を引き継げます。パスワードは不要です。",
-    "Skip for now": "今はスキップ"
+    "Skip for now": "今はスキップ",
+    "Learn": "覚える",
+    "All categories": "すべてのカテゴリ",
+    "All decks in this category": "このカテゴリのデッキすべて",
+    "Just learn (no quizzes)": "覚えるだけ（クイズなし）"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ドリル"],

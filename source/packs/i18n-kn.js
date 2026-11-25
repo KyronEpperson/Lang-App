@@ -805,7 +805,11 @@ LANGAPP_PACKS.i18n.kn = {
     "I already have an account": "ನನಗೆ ಈಗಾಗಲೇ ಖಾತೆ ಇದೆ",
     "Save your progress across devices?": "ನಿಮ್ಮ ಪ್ರಗತಿಯನ್ನು ಎಲ್ಲ ಸಾಧನಗಳಲ್ಲಿ ಉಳಿಸಬೇಕೇ?",
     "Optional. Add your email and your progress follows you to any phone or computer. No password.": "ಐಚ್ಛಿಕ. ನಿಮ್ಮ ಇಮೇಲ್ ಸೇರಿಸಿದರೆ ಯಾವುದೇ ಫೋನ್ ಅಥವಾ ಕಂಪ್ಯೂಟರ್‌ನಲ್ಲಿ ನಿಮ್ಮ ಪ್ರಗತಿ ಸಿಗುತ್ತದೆ. ಪಾಸ್‌ವರ್ಡ್ ಬೇಕಿಲ್ಲ.",
-    "Skip for now": "ಸದ್ಯಕ್ಕೆ ಬಿಟ್ಟುಬಿಡಿ"
+    "Skip for now": "ಸದ್ಯಕ್ಕೆ ಬಿಟ್ಟುಬಿಡಿ",
+    "Learn": "ಕಲಿಯಿರಿ",
+    "All categories": "ಎಲ್ಲ ವರ್ಗಗಳು",
+    "All decks in this category": "ಈ ವರ್ಗದ ಎಲ್ಲ ಡೆಕ್‌ಗಳು",
+    "Just learn (no quizzes)": "ಕಲಿಕೆ ಮಾತ್ರ (ಕ್ವಿಜ್ ಇಲ್ಲ)"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ಡ್ರಿಲ್"],

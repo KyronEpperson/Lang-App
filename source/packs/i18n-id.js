@@ -805,7 +805,11 @@ LANGAPP_PACKS.i18n.id = {
     "I already have an account": "Saya sudah punya akun",
     "Save your progress across devices?": "Simpan progresmu di semua perangkat?",
     "Optional. Add your email and your progress follows you to any phone or computer. No password.": "Opsional. Tambahkan emailmu dan progresmu ikut ke ponsel atau komputer mana pun. Tanpa kata sandi.",
-    "Skip for now": "Lewati dulu"
+    "Skip for now": "Lewati dulu",
+    "Learn": "Belajar",
+    "All categories": "Semua kategori",
+    "All decks in this category": "Semua dek di kategori ini",
+    "Just learn (no quizzes)": "Belajar saja (tanpa kuis)"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Drill"],

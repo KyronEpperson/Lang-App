@@ -754,7 +754,11 @@
   "I already have an account": "이미 계정이 있어요",
   "Save your progress across devices?": "진도를 여러 기기에 저장할까요?",
   "Optional. Add your email and your progress follows you to any phone or computer. No password.": "선택 사항이에요. 이메일을 추가하면 어느 휴대폰이나 컴퓨터에서도 진도가 이어져요. 비밀번호는 필요 없어요.",
-  "Skip for now": "나중에 하기"
+  "Skip for now": "나중에 하기",
+  "Learn": "배우기",
+  "All categories": "전체 분류",
+  "All decks in this category": "이 분류의 모든 덱",
+  "Just learn (no quizzes)": "배우기만 (퀴즈 없이)"
  },
  "patterns": {
   "{n}/{n} · Drills": "{1}/{2} · 훈련",

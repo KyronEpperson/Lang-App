@@ -805,7 +805,11 @@ LANGAPP_PACKS.i18n.ar = {
     "I already have an account": "لدي حساب بالفعل",
     "Save your progress across devices?": "هل تريد حفظ تقدمك على كل الأجهزة؟",
     "Optional. Add your email and your progress follows you to any phone or computer. No password.": "اختياري. أضف بريدك الإلكتروني ليرافقك تقدمك على أي هاتف أو حاسوب. بدون كلمة مرور.",
-    "Skip for now": "تخطي الآن"
+    "Skip for now": "تخطي الآن",
+    "Learn": "تعلّم",
+    "All categories": "كل الفئات",
+    "All decks in this category": "كل مجموعات هذه الفئة",
+    "Just learn (no quizzes)": "تعلّم فقط (بلا اختبارات)"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · مهارات"],

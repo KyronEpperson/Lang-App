@@ -805,7 +805,11 @@ LANGAPP_PACKS.i18n.nan = {
     "I already have an account": "我已經有帳號矣",
     "Save your progress across devices?": "你的進度欲佇各台裝置攏儲存無？",
     "Optional. Add your email and your progress follows you to any phone or computer. No password.": "毋是一定愛。加你的電子批，你的進度佇佗一支手機仔抑是電腦攏有。免密碼。",
-    "Skip for now": "這馬先跳過"
+    "Skip for now": "這馬先跳過",
+    "Learn": "學",
+    "All categories": "全部類別",
+    "All decks in this category": "這類的全部牌組",
+    "Just learn (no quizzes)": "干焦學（無小考）"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · 訓練"],

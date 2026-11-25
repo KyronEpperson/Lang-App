@@ -805,7 +805,11 @@ LANGAPP_PACKS.i18n.th = {
     "I already have an account": "ฉันมีบัญชีอยู่แล้ว",
     "Save your progress across devices?": "บันทึกความคืบหน้าของคุณข้ามอุปกรณ์ไหม",
     "Optional. Add your email and your progress follows you to any phone or computer. No password.": "ไม่บังคับ เพิ่มอีเมลแล้วความคืบหน้าจะตามคุณไปทุกโทรศัพท์หรือคอมพิวเตอร์ ไม่ต้องใช้รหัสผ่าน",
-    "Skip for now": "ข้ามไปก่อน"
+    "Skip for now": "ข้ามไปก่อน",
+    "Learn": "เรียน",
+    "All categories": "ทุกหมวดหมู่",
+    "All decks in this category": "ชุดการ์ดทั้งหมดในหมวดหมู่นี้",
+    "Just learn (no quizzes)": "เรียนอย่างเดียว (ไม่มีแบบทดสอบ)"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ทักษะ"],

@@ -267,11 +267,11 @@
    "dialogDeckOfFirst": "Flirting"
   },
   {
-   "d": "Dating deeper",
+   "d": "Intimate",
    "script": false,
    "letter": false,
    "soundCard0": false,
-   "dialogDeckOfFirst": "Dating deeper"
+   "dialogDeckOfFirst": "Intimate"
   },
   {
    "d": "K-drama phrases",
@@ -795,27 +795,27 @@
   ],
   [
    "우리 무슨 사이야?",
-   "Dating deeper"
+   "Intimate"
   ],
   [
    "미안해, 내가 잘못했어",
-   "Dating deeper"
+   "Intimate"
   ],
   [
    "같이 있으면 편해",
-   "Dating deeper"
+   "Intimate"
   ],
   [
    "손 잡아도 돼?",
-   "Dating deeper"
+   "Intimate"
   ],
   [
    "100일 축하해",
-   "Dating deeper"
+   "Intimate"
   ],
   [
    "너한테 할 말 있어",
-   "Dating deeper"
+   "Intimate"
   ],
   [
    "회의 몇 시예요?",
@@ -7467,7 +7467,7 @@
     "<div class=\"dlg\" style=\"margin-top:8px\"><div><b>A:</b> 나 합격했어!</div><div><b>B:</b> 진짜? 축하해!</div><div class=\"m\">I passed! / Really? Congrats!</div></div>"
    ],
    [
-    "<div class=\"stat\" style=\"text-align:center\">🎧 Listen to the dialogue</div><div style=\"text-align:center;padding:8px 0;display:flex;gap:8px;justify-content:center\"><button class=\"speak lplay\" type=\"button\" style=\"font-size:1rem;padding:10px 18px\">🔊 Play</button><button class=\"speak lslow\" type=\"button\">🐢 Slow</button></div><div class=\"q small\" style=\"font-size:1.05rem\">Where would you hear this?</div><div class=\"opts\"><button class=\"opt\" data-o=\"Dating deeper\">Dating deeper</button><button class=\"opt\" data-o=\"Flirting words\">Flirting words</button><button class=\"opt\" data-o=\"Casual texting\">Casual texting</button><button class=\"opt\" data-o=\"Hanging out\">Hanging out</button></div><div class=\"fb\"></div>",
+    "<div class=\"stat\" style=\"text-align:center\">🎧 Listen to the dialogue</div><div style=\"text-align:center;padding:8px 0;display:flex;gap:8px;justify-content:center\"><button class=\"speak lplay\" type=\"button\" style=\"font-size:1rem;padding:10px 18px\">🔊 Play</button><button class=\"speak lslow\" type=\"button\">🐢 Slow</button></div><div class=\"q small\" style=\"font-size:1.05rem\">Where would you hear this?</div><div class=\"opts\"><button class=\"opt\" data-o=\"Intimate\">Intimate</button><button class=\"opt\" data-o=\"Flirting words\">Flirting words</button><button class=\"opt\" data-o=\"Casual texting\">Casual texting</button><button class=\"opt\" data-o=\"Hanging out\">Hanging out</button></div><div class=\"fb\"></div>",
     "<div class=\"dlg\" style=\"margin-top:8px\"><div><b>A:</b> 웬일이에요? 전화를 다 하고.</div><div><b>B:</b> 그냥, 목소리 듣고 싶었어요.</div><div class=\"m\">What's the occasion? You actually called. / I just wanted to hear your voice.</div></div>"
    ],
    [
@@ -7575,7 +7575,7 @@
     "<div class=\"dlg\" style=\"margin-top:8px\"><div><b>A:</b> 자기야, 뭐 해?</div><div><b>B:</b> 자기 생각하고 있었지.</div><div class=\"m\">Babe, what are you doing? / Thinking about you, obviously.</div></div>"
    ],
    [
-    "<div class=\"stat\" style=\"text-align:center\">🎧 Listen to the dialogue</div><div style=\"text-align:center;padding:8px 0;display:flex;gap:8px;justify-content:center\"><button class=\"speak lplay\" type=\"button\" style=\"font-size:1rem;padding:10px 18px\">🔊 Play</button><button class=\"speak lslow\" type=\"button\">🐢 Slow</button></div><div class=\"q small\" style=\"font-size:1.05rem\">Where would you hear this?</div><div class=\"opts\"><button class=\"opt\" data-o=\"Food words\">Food words</button><button class=\"opt\" data-o=\"Survival phrases 2\">Survival phrases 2</button><button class=\"opt\" data-o=\"Dating deeper\">Dating deeper</button><button class=\"opt\" data-o=\"Housing &amp; errands\">Housing &amp; errands</button></div><div class=\"fb\"></div>",
+    "<div class=\"stat\" style=\"text-align:center\">🎧 Listen to the dialogue</div><div style=\"text-align:center;padding:8px 0;display:flex;gap:8px;justify-content:center\"><button class=\"speak lplay\" type=\"button\" style=\"font-size:1rem;padding:10px 18px\">🔊 Play</button><button class=\"speak lslow\" type=\"button\">🐢 Slow</button></div><div class=\"q small\" style=\"font-size:1.05rem\">Where would you hear this?</div><div class=\"opts\"><button class=\"opt\" data-o=\"Food words\">Food words</button><button class=\"opt\" data-o=\"Survival phrases 2\">Survival phrases 2</button><button class=\"opt\" data-o=\"Intimate\">Intimate</button><button class=\"opt\" data-o=\"Housing &amp; errands\">Housing &amp; errands</button></div><div class=\"fb\"></div>",
     "<div class=\"dlg\" style=\"margin-top:8px\"><div><b>A:</b> 죄송한데 다시 말해 주세요.</div><div><b>B:</b> 지하철역은 왼쪽이에요.</div><div class=\"m\">Sorry, say that again please. / The subway station is on the left.</div></div>"
    ],
    [
@@ -7607,7 +7607,7 @@
     "<div class=\"dlg\" style=\"margin-top:8px\"><div><b>A:</b> 보고 싶어.</div><div><b>B:</b> 나도. 주말에 보자.</div><div class=\"m\">I miss you. / Me too. Let's meet this weekend.</div></div>"
    ],
    [
-    "<div class=\"stat\" style=\"text-align:center\">🎧 Listen to the dialogue</div><div style=\"text-align:center;padding:8px 0;display:flex;gap:8px;justify-content:center\"><button class=\"speak lplay\" type=\"button\" style=\"font-size:1rem;padding:10px 18px\">🔊 Play</button><button class=\"speak lslow\" type=\"button\">🐢 Slow</button></div><div class=\"q small\" style=\"font-size:1.05rem\">Where would you hear this?</div><div class=\"opts\"><button class=\"opt\" data-o=\"Sweet talk\">Sweet talk</button><button class=\"opt\" data-o=\"Dating deeper\">Dating deeper</button><button class=\"opt\" data-o=\"Hanging out\">Hanging out</button><button class=\"opt\" data-o=\"Hobbies\">Hobbies</button></div><div class=\"fb\"></div>",
+    "<div class=\"stat\" style=\"text-align:center\">🎧 Listen to the dialogue</div><div style=\"text-align:center;padding:8px 0;display:flex;gap:8px;justify-content:center\"><button class=\"speak lplay\" type=\"button\" style=\"font-size:1rem;padding:10px 18px\">🔊 Play</button><button class=\"speak lslow\" type=\"button\">🐢 Slow</button></div><div class=\"q small\" style=\"font-size:1.05rem\">Where would you hear this?</div><div class=\"opts\"><button class=\"opt\" data-o=\"Sweet talk\">Sweet talk</button><button class=\"opt\" data-o=\"Intimate\">Intimate</button><button class=\"opt\" data-o=\"Hanging out\">Hanging out</button><button class=\"opt\" data-o=\"Hobbies\">Hobbies</button></div><div class=\"fb\"></div>",
     "<div class=\"dlg\" style=\"margin-top:8px\"><div><b>A:</b> 우리 집에 올래? 치킨 시킬게.</div><div><b>B:</b> 콜! 맥주 사 갈게.</div><div class=\"m\">Wanna come over? I'll order chicken. / Deal! I'll bring beer.</div></div>"
    ],
    [
@@ -8444,7 +8444,7 @@
    "<div style=\"text-align:right\"><button class=\"ghost qromT\" type=\"button\" style=\"font-size:.72rem;padding:4px 10px;min-height:32px\" aria-pressed=\"true\">Aa romanization: on</button></div><div class=\"q\">번호 좀 알려 줄래?</div><div class=\"qrom\">beonho jom allyeo jullae?</div><div style=\"text-align:center\"><button class=\"speak\" data-say=\"번호 좀 알려 줄래?\" type=\"button\">🔊</button></div><div class=\"opts\"><button class=\"opt wrong\" data-a=\"첫눈에 반했어\" disabled=\"\"><kbd>1</kbd>It was love at first sight</button><button class=\"opt \" data-a=\"인스타 있어요?\" disabled=\"\"><kbd>2</kbd>Do you have Instagram?</button><button class=\"opt right\" data-a=\"번호 좀 알려 줄래?\" disabled=\"\"><kbd>3</kbd>Can I get your number?</button><button class=\"opt \" data-a=\"자꾸 생각나\" disabled=\"\"><kbd>4</kbd>I keep thinking about you</button></div><div class=\"fb\"><b>번호 좀 알려 줄래?</b> = Can I get your number? · beonho jom allyeo jullae?</div><button class=\"big primary next\" style=\"width:100%;margin-top:12px\" hidden=\"\">Next</button>"
   ],
   [
-   "Dating deeper",
+   "Intimate",
    "<div style=\"text-align:right\"><button class=\"ghost qromT\" type=\"button\" style=\"font-size:.72rem;padding:4px 10px;min-height:32px\" aria-pressed=\"true\">Aa romanization: on</button></div><div class=\"q\">우리 무슨 사이야?</div><div class=\"qrom\">uri museun saiya?</div><div style=\"text-align:center\"><button class=\"speak\" data-say=\"우리 무슨 사이야?\" type=\"button\">🔊</button></div><div class=\"opts\"><button class=\"opt wrong\" data-a=\"같이 있으면 편해\" disabled=\"\"><kbd>1</kbd>I feel comfortable with you</button><button class=\"opt right\" data-a=\"우리 무슨 사이야?\" disabled=\"\"><kbd>2</kbd>What are we?</button><button class=\"opt \" data-a=\"너한테 할 말 있어\" disabled=\"\"><kbd>3</kbd>I have something to tell you</button><button class=\"opt \" data-a=\"우리 사진 찍자\" disabled=\"\"><kbd>4</kbd>Let's take a photo together</button></div><div class=\"fb\"><b>우리 무슨 사이야?</b> = What are we? · uri museun saiya?</div><button class=\"big primary next\" style=\"width:100%;margin-top:12px\" hidden=\"\">Next</button>"
   ],
   [
@@ -8670,8 +8670,8 @@
    "<div class=\"rvq\"><div style=\"text-align:right\"><button class=\"ghost qromT\" type=\"button\" style=\"font-size:.72rem;padding:4px 10px;min-height:32px\" aria-pressed=\"true\">Aa romanization: on</button></div><div class=\"stat\" style=\"text-align:center\">Flirting · which one is it?</div><div class=\"q small\">Can I get your number?</div><div class=\"opts\"><button class=\"opt ko\" data-a=\"번호 좀 알려 줄래?\" aria-label=\"번호 좀 알려 줄래?, beonho jom allyeo jullae?\"><kbd>1</kbd>번호 좀 알려 줄래?<span class=\"qrom\">beonho jom allyeo jullae?</span></button><button class=\"opt ko\" data-a=\"자꾸 생각나\" aria-label=\"자꾸 생각나, jakku saenggangna\"><kbd>2</kbd>자꾸 생각나<span class=\"qrom\">jakku saenggangna</span></button><button class=\"opt ko\" data-a=\"오늘 집에 가기 싫다\" aria-label=\"오늘 집에 가기 싫다, oneul jibe gagi silta\"><kbd>3</kbd>오늘 집에 가기 싫다<span class=\"qrom\">oneul jibe gagi silta</span></button><button class=\"opt ko\" data-a=\"우리 또 만날까?\" aria-label=\"우리 또 만날까?, uri tto mannalkka?\"><kbd>4</kbd>우리 또 만날까?<span class=\"qrom\">uri tto mannalkka?</span></button></div><div class=\"fb\"></div><button class=\"big primary next\" style=\"width:100%;margin-top:12px\" hidden=\"\">Next</button></div>"
   ],
   [
-   "Dating deeper",
-   "<div class=\"rvq\"><div style=\"text-align:right\"><button class=\"ghost qromT\" type=\"button\" style=\"font-size:.72rem;padding:4px 10px;min-height:32px\" aria-pressed=\"true\">Aa romanization: on</button></div><div class=\"stat\" style=\"text-align:center\">Dating deeper · which one is it?</div><div class=\"q small\">What are we?</div><div class=\"opts\"><button class=\"opt ko\" data-a=\"너한테 할 말 있어\" aria-label=\"너한테 할 말 있어, neohante hal mal isseo\"><kbd>1</kbd>너한테 할 말 있어<span class=\"qrom\">neohante hal mal isseo</span></button><button class=\"opt ko\" data-a=\"걱정하지 마, 내가 있잖아\" aria-label=\"걱정하지 마, 내가 있잖아, geokjeonghaji ma, naega itjana\"><kbd>2</kbd>걱정하지 마, 내가 있잖아<span class=\"qrom\">geokjeonghaji ma, naega itjana</span></button><button class=\"opt ko\" data-a=\"우리 무슨 사이야?\" aria-label=\"우리 무슨 사이야?, uri museun saiya?\"><kbd>3</kbd>우리 무슨 사이야?<span class=\"qrom\">uri museun saiya?</span></button><button class=\"opt ko\" data-a=\"우리 사진 찍자\" aria-label=\"우리 사진 찍자, uri sajin jjikja\"><kbd>4</kbd>우리 사진 찍자<span class=\"qrom\">uri sajin jjikja</span></button></div><div class=\"fb\"></div><button class=\"big primary next\" style=\"width:100%;margin-top:12px\" hidden=\"\">Next</button></div>"
+   "Intimate",
+   "<div class=\"rvq\"><div style=\"text-align:right\"><button class=\"ghost qromT\" type=\"button\" style=\"font-size:.72rem;padding:4px 10px;min-height:32px\" aria-pressed=\"true\">Aa romanization: on</button></div><div class=\"stat\" style=\"text-align:center\">Intimate · which one is it?</div><div class=\"q small\">What are we?</div><div class=\"opts\"><button class=\"opt ko\" data-a=\"너한테 할 말 있어\" aria-label=\"너한테 할 말 있어, neohante hal mal isseo\"><kbd>1</kbd>너한테 할 말 있어<span class=\"qrom\">neohante hal mal isseo</span></button><button class=\"opt ko\" data-a=\"걱정하지 마, 내가 있잖아\" aria-label=\"걱정하지 마, 내가 있잖아, geokjeonghaji ma, naega itjana\"><kbd>2</kbd>걱정하지 마, 내가 있잖아<span class=\"qrom\">geokjeonghaji ma, naega itjana</span></button><button class=\"opt ko\" data-a=\"우리 무슨 사이야?\" aria-label=\"우리 무슨 사이야?, uri museun saiya?\"><kbd>3</kbd>우리 무슨 사이야?<span class=\"qrom\">uri museun saiya?</span></button><button class=\"opt ko\" data-a=\"우리 사진 찍자\" aria-label=\"우리 사진 찍자, uri sajin jjikja\"><kbd>4</kbd>우리 사진 찍자<span class=\"qrom\">uri sajin jjikja</span></button></div><div class=\"fb\"></div><button class=\"big primary next\" style=\"width:100%;margin-top:12px\" hidden=\"\">Next</button></div>"
   ],
   [
    "K-drama phrases",
@@ -10650,56 +10650,56 @@
    ]
   ],
   [
-   "Dating deeper",
+   "Intimate",
    [
-    "Dating deeper|미안해, 내가 잘못했어|read",
-    "Dating deeper|걱정하지 마, 내가 있잖아|read",
-    "Dating deeper|오늘 데이트 어땠어?|read",
-    "Dating deeper|100일 축하해|read",
-    "Dating deeper|손 잡아도 돼?|read",
-    "Dating deeper|화 풀어|read",
-    "Dating deeper|너 되게 다정해|read",
-    "Dating deeper|우리 무슨 사이야?|read",
-    "Dating deeper|우리 사진 찍자|read",
-    "Dating deeper|너한테 할 말 있어|read",
-    "Dating deeper|안아 줘|read",
-    "Dating deeper|우리 잘 맞는 것 같아|read",
-    "Dating deeper|같이 있으면 편해|read",
-    "Dating deeper|네 웃음소리가 좋아|read",
-    "Dating deeper|진지하게 만나고 싶어|read",
-    "Dating deeper|보고 싶어 죽겠어|read",
-    "Dating deeper|우리 무슨 사이야?|recall",
-    "Dating deeper|화 풀어|recall",
-    "Dating deeper|걱정하지 마, 내가 있잖아|recall",
-    "Dating deeper|우리 잘 맞는 것 같아|recall",
-    "Dating deeper|손 잡아도 돼?|recall",
-    "Dating deeper|네 웃음소리가 좋아|recall",
-    "Dating deeper|오늘 데이트 어땠어?|recall",
-    "Dating deeper|미안해, 내가 잘못했어|recall",
-    "Dating deeper|진지하게 만나고 싶어|recall",
-    "Dating deeper|우리 사진 찍자|recall",
-    "Dating deeper|안아 줘|recall",
-    "Dating deeper|100일 축하해|recall",
-    "Dating deeper|너 되게 다정해|recall",
-    "Dating deeper|같이 있으면 편해|recall",
-    "Dating deeper|너한테 할 말 있어|recall",
-    "Dating deeper|보고 싶어 죽겠어|recall",
-    "Dating deeper|100일 축하해|recall",
-    "Dating deeper|미안해, 내가 잘못했어|recall",
-    "Dating deeper|네 웃음소리가 좋아|recall",
-    "Dating deeper|손 잡아도 돼?|recall",
-    "Dating deeper|같이 있으면 편해|recall",
-    "Dating deeper|우리 무슨 사이야?|recall",
-    "Dating deeper|안아 줘|recall",
-    "Dating deeper|너한테 할 말 있어|recall",
-    "Dating deeper|오늘 데이트 어땠어?|recall",
-    "Dating deeper|너 되게 다정해|recall",
-    "Dating deeper|진지하게 만나고 싶어|recall",
-    "Dating deeper|보고 싶어 죽겠어|recall",
-    "Dating deeper|우리 잘 맞는 것 같아|recall",
-    "Dating deeper|우리 사진 찍자|recall",
-    "Dating deeper|화 풀어|recall",
-    "Dating deeper|걱정하지 마, 내가 있잖아|recall"
+    "Intimate|미안해, 내가 잘못했어|read",
+    "Intimate|걱정하지 마, 내가 있잖아|read",
+    "Intimate|오늘 데이트 어땠어?|read",
+    "Intimate|100일 축하해|read",
+    "Intimate|손 잡아도 돼?|read",
+    "Intimate|화 풀어|read",
+    "Intimate|너 되게 다정해|read",
+    "Intimate|우리 무슨 사이야?|read",
+    "Intimate|우리 사진 찍자|read",
+    "Intimate|너한테 할 말 있어|read",
+    "Intimate|안아 줘|read",
+    "Intimate|우리 잘 맞는 것 같아|read",
+    "Intimate|같이 있으면 편해|read",
+    "Intimate|네 웃음소리가 좋아|read",
+    "Intimate|진지하게 만나고 싶어|read",
+    "Intimate|보고 싶어 죽겠어|read",
+    "Intimate|우리 무슨 사이야?|recall",
+    "Intimate|화 풀어|recall",
+    "Intimate|걱정하지 마, 내가 있잖아|recall",
+    "Intimate|우리 잘 맞는 것 같아|recall",
+    "Intimate|손 잡아도 돼?|recall",
+    "Intimate|네 웃음소리가 좋아|recall",
+    "Intimate|오늘 데이트 어땠어?|recall",
+    "Intimate|미안해, 내가 잘못했어|recall",
+    "Intimate|진지하게 만나고 싶어|recall",
+    "Intimate|우리 사진 찍자|recall",
+    "Intimate|안아 줘|recall",
+    "Intimate|100일 축하해|recall",
+    "Intimate|너 되게 다정해|recall",
+    "Intimate|같이 있으면 편해|recall",
+    "Intimate|너한테 할 말 있어|recall",
+    "Intimate|보고 싶어 죽겠어|recall",
+    "Intimate|100일 축하해|recall",
+    "Intimate|미안해, 내가 잘못했어|recall",
+    "Intimate|네 웃음소리가 좋아|recall",
+    "Intimate|손 잡아도 돼?|recall",
+    "Intimate|같이 있으면 편해|recall",
+    "Intimate|우리 무슨 사이야?|recall",
+    "Intimate|안아 줘|recall",
+    "Intimate|너한테 할 말 있어|recall",
+    "Intimate|오늘 데이트 어땠어?|recall",
+    "Intimate|너 되게 다정해|recall",
+    "Intimate|진지하게 만나고 싶어|recall",
+    "Intimate|보고 싶어 죽겠어|recall",
+    "Intimate|우리 잘 맞는 것 같아|recall",
+    "Intimate|우리 사진 찍자|recall",
+    "Intimate|화 풀어|recall",
+    "Intimate|걱정하지 마, 내가 있잖아|recall"
    ]
   ],
   [
@@ -14095,34 +14095,34 @@
    "<span class=\"tag\">Flirting</span><div class=\"en\">Let's date</div><div class=\"note\"><ruby class=\"rb\">자<rt>ja</rt></ruby> = let's. More confident than <ruby class=\"rb\">사귈래<rt>sagwillae</rt></ruby>?</div><div style=\"display:flex;gap:6px;flex-wrap:wrap;justify-content:center\"><button class=\"ghost notebtn\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\">✎ note</button><button class=\"ghost shadow\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Plays 3 times with pauses — repeat out loud\">🗣 shadow ×3</button><button class=\"ghost bury\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Skip until tomorrow\">⏭ bury</button><button class=\"ghost susp\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Hide from reviews until you restore it\">⏸ suspend</button></div><div class=\"dlg\"><div><b>A:</b> <ruby class=\"rb\">우리<rt>uri</rt></ruby> <ruby class=\"rb\">무슨<rt>museun</rt></ruby> <ruby class=\"rb\">사이야<rt>saiya</rt></ruby>?</div><div><b>B:</b> <ruby class=\"rb\">나랑<rt>narang</rt></ruby> <ruby class=\"rb\">사귀자<rt>sagwija</rt></ruby>.</div><div class=\"m\">What are we? / Let's date.</div><button class=\"speak\" type=\"button\" data-say=\"우리 무슨 사이야?. 나랑 사귀자.\">🔊 dialogue</button> <button class=\"speak bdbtn\" type=\"button\" data-bd=\"우리 무슨 사이야? 나랑 사귀자.\">🔍 break it down</button><div class=\"bdout\"></div></div>"
   ],
   [
-   "Dating deeper",
+   "Intimate",
    "우리 무슨 사이야?",
-   "<span class=\"tag\">Dating deeper</span><div class=\"en\">What are we?</div><div class=\"note\"><ruby class=\"rb\">사이<rt>sai</rt></ruby> = relationship between people. The DTR line.</div><div style=\"display:flex;gap:6px;flex-wrap:wrap;justify-content:center\"><button class=\"ghost notebtn\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\">✎ note</button><button class=\"ghost shadow\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Plays 3 times with pauses — repeat out loud\">🗣 shadow ×3</button><button class=\"ghost bury\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Skip until tomorrow\">⏭ bury</button><button class=\"ghost susp\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Hide from reviews until you restore it\">⏸ suspend</button></div><div class=\"dlg\"><div><b>A:</b> <ruby class=\"rb\">우리<rt>uri</rt></ruby> <ruby class=\"rb\">무슨<rt>museun</rt></ruby> <ruby class=\"rb\">사이야<rt>saiya</rt></ruby>?</div><div><b>B:</b> <ruby class=\"rb\">음<rt>eum</rt></ruby>… <ruby class=\"rb\">나는<rt>naneun</rt></ruby> <ruby class=\"rb\">네가<rt>nega</rt></ruby> <ruby class=\"rb\">좋아<rt>joa</rt></ruby>. <ruby class=\"rb\">사귈래<rt>sagwillae</rt></ruby>?</div><div class=\"m\">What are we? / Hmm… I like you. Want to go out?</div><button class=\"speak\" type=\"button\" data-say=\"우리 무슨 사이야?. 음… 나는 네가 좋아. 사귈래?\">🔊 dialogue</button> <button class=\"speak bdbtn\" type=\"button\" data-bd=\"우리 무슨 사이야? 음… 나는 네가 좋아. 사귈래?\">🔍 break it down</button><div class=\"bdout\"></div></div>"
+   "<span class=\"tag\">Intimate</span><div class=\"en\">What are we?</div><div class=\"note\"><ruby class=\"rb\">사이<rt>sai</rt></ruby> = relationship between people. The DTR line.</div><div style=\"display:flex;gap:6px;flex-wrap:wrap;justify-content:center\"><button class=\"ghost notebtn\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\">✎ note</button><button class=\"ghost shadow\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Plays 3 times with pauses — repeat out loud\">🗣 shadow ×3</button><button class=\"ghost bury\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Skip until tomorrow\">⏭ bury</button><button class=\"ghost susp\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Hide from reviews until you restore it\">⏸ suspend</button></div><div class=\"dlg\"><div><b>A:</b> <ruby class=\"rb\">우리<rt>uri</rt></ruby> <ruby class=\"rb\">무슨<rt>museun</rt></ruby> <ruby class=\"rb\">사이야<rt>saiya</rt></ruby>?</div><div><b>B:</b> <ruby class=\"rb\">음<rt>eum</rt></ruby>… <ruby class=\"rb\">나는<rt>naneun</rt></ruby> <ruby class=\"rb\">네가<rt>nega</rt></ruby> <ruby class=\"rb\">좋아<rt>joa</rt></ruby>. <ruby class=\"rb\">사귈래<rt>sagwillae</rt></ruby>?</div><div class=\"m\">What are we? / Hmm… I like you. Want to go out?</div><button class=\"speak\" type=\"button\" data-say=\"우리 무슨 사이야?. 음… 나는 네가 좋아. 사귈래?\">🔊 dialogue</button> <button class=\"speak bdbtn\" type=\"button\" data-bd=\"우리 무슨 사이야? 음… 나는 네가 좋아. 사귈래?\">🔍 break it down</button><div class=\"bdout\"></div></div>"
   ],
   [
-   "Dating deeper",
+   "Intimate",
    "같이 있으면 편해",
-   "<span class=\"tag\">Dating deeper</span><div class=\"en\">I feel comfortable with you</div><div class=\"note\"><ruby class=\"rb\">편하다<rt>pyeonhada</rt></ruby> = comfortable. High praise in Korean dating.</div><div class=\"pron\" title=\"구개음화, 연음\">🗣 [가치 이쓰면 편해] <span class=\"m\">구개음화, 연음</span></div><div style=\"display:flex;gap:6px;flex-wrap:wrap;justify-content:center\"><button class=\"ghost notebtn\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\">✎ note</button><button class=\"ghost shadow\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Plays 3 times with pauses — repeat out loud\">🗣 shadow ×3</button><button class=\"ghost bury\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Skip until tomorrow\">⏭ bury</button><button class=\"ghost susp\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Hide from reviews until you restore it\">⏸ suspend</button></div><div class=\"dlg\"><div><b>A:</b> <ruby class=\"rb\">나랑<rt>narang</rt></ruby> <ruby class=\"rb\">있으면<rt>isseumyeon</rt></ruby> <ruby class=\"rb\">어때<rt>eottae</rt></ruby>?</div><div><b>B:</b> <ruby class=\"rb\">같이<rt>gachi</rt></ruby> <ruby class=\"rb\">있으면<rt>isseumyeon</rt></ruby> <ruby class=\"rb\">편해<rt>pyeonhae</rt></ruby>. <ruby class=\"rb\">그게<rt>geuge</rt></ruby> <ruby class=\"rb\">제일<rt>jeil</rt></ruby> <ruby class=\"rb\">좋아<rt>joa</rt></ruby>.</div><div class=\"m\">How is it being with me? / I feel comfortable. That's the best part.</div><button class=\"speak\" type=\"button\" data-say=\"나랑 있으면 어때?. 같이 있으면 편해. 그게 제일 좋아.\">🔊 dialogue</button> <button class=\"speak bdbtn\" type=\"button\" data-bd=\"나랑 있으면 어때? 같이 있으면 편해. 그게 제일 좋아.\">🔍 break it down</button><div class=\"bdout\"></div></div>"
+   "<span class=\"tag\">Intimate</span><div class=\"en\">I feel comfortable with you</div><div class=\"note\"><ruby class=\"rb\">편하다<rt>pyeonhada</rt></ruby> = comfortable. High praise in Korean dating.</div><div class=\"pron\" title=\"구개음화, 연음\">🗣 [가치 이쓰면 편해] <span class=\"m\">구개음화, 연음</span></div><div style=\"display:flex;gap:6px;flex-wrap:wrap;justify-content:center\"><button class=\"ghost notebtn\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\">✎ note</button><button class=\"ghost shadow\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Plays 3 times with pauses — repeat out loud\">🗣 shadow ×3</button><button class=\"ghost bury\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Skip until tomorrow\">⏭ bury</button><button class=\"ghost susp\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Hide from reviews until you restore it\">⏸ suspend</button></div><div class=\"dlg\"><div><b>A:</b> <ruby class=\"rb\">나랑<rt>narang</rt></ruby> <ruby class=\"rb\">있으면<rt>isseumyeon</rt></ruby> <ruby class=\"rb\">어때<rt>eottae</rt></ruby>?</div><div><b>B:</b> <ruby class=\"rb\">같이<rt>gachi</rt></ruby> <ruby class=\"rb\">있으면<rt>isseumyeon</rt></ruby> <ruby class=\"rb\">편해<rt>pyeonhae</rt></ruby>. <ruby class=\"rb\">그게<rt>geuge</rt></ruby> <ruby class=\"rb\">제일<rt>jeil</rt></ruby> <ruby class=\"rb\">좋아<rt>joa</rt></ruby>.</div><div class=\"m\">How is it being with me? / I feel comfortable. That's the best part.</div><button class=\"speak\" type=\"button\" data-say=\"나랑 있으면 어때?. 같이 있으면 편해. 그게 제일 좋아.\">🔊 dialogue</button> <button class=\"speak bdbtn\" type=\"button\" data-bd=\"나랑 있으면 어때? 같이 있으면 편해. 그게 제일 좋아.\">🔍 break it down</button><div class=\"bdout\"></div></div>"
   ],
   [
-   "Dating deeper",
+   "Intimate",
    "미안해, 내가 잘못했어",
-   "<span class=\"tag\">Dating deeper</span><div class=\"en\">Sorry, it was my fault</div><div class=\"note\"><ruby class=\"rb\">잘못하다<rt>jalmotada</rt></ruby> = to do wrong. Own it.</div><div class=\"pron\" title=\"격음화, 연음\">🗣 [미안해 내가 잘모태써] <span class=\"m\">격음화, 연음</span></div><div style=\"display:flex;gap:6px;flex-wrap:wrap;justify-content:center\"><button class=\"ghost notebtn\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\">✎ note</button><button class=\"ghost shadow\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Plays 3 times with pauses — repeat out loud\">🗣 shadow ×3</button><button class=\"ghost bury\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Skip until tomorrow\">⏭ bury</button><button class=\"ghost susp\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Hide from reviews until you restore it\">⏸ suspend</button></div><div class=\"dlg\"><div><b>A:</b> <ruby class=\"rb\">어제<rt>eoje</rt></ruby> <ruby class=\"rb\">왜<rt>wae</rt></ruby> <ruby class=\"rb\">연락<rt>yeollak</rt></ruby> <ruby class=\"rb\">안<rt>an</rt></ruby> <ruby class=\"rb\">했어<rt>haesseo</rt></ruby>?</div><div><b>B:</b> <ruby class=\"rb\">미안해<rt>mianhae</rt></ruby>, <ruby class=\"rb\">내가<rt>naega</rt></ruby> <ruby class=\"rb\">잘못했어<rt>jalmotaesseo</rt></ruby>. <ruby class=\"rb\">화<rt>hwa</rt></ruby> <ruby class=\"rb\">풀어<rt>pureo</rt></ruby>.</div><div class=\"m\">Why didn't you text yesterday? / Sorry, my fault. Don't be mad.</div><button class=\"speak\" type=\"button\" data-say=\"어제 왜 연락 안 했어?. 미안해, 내가 잘못했어. 화 풀어.\">🔊 dialogue</button> <button class=\"speak bdbtn\" type=\"button\" data-bd=\"어제 왜 연락 안 했어? 미안해, 내가 잘못했어. 화 풀어.\">🔍 break it down</button><div class=\"bdout\"></div></div>"
+   "<span class=\"tag\">Intimate</span><div class=\"en\">Sorry, it was my fault</div><div class=\"note\"><ruby class=\"rb\">잘못하다<rt>jalmotada</rt></ruby> = to do wrong. Own it.</div><div class=\"pron\" title=\"격음화, 연음\">🗣 [미안해 내가 잘모태써] <span class=\"m\">격음화, 연음</span></div><div style=\"display:flex;gap:6px;flex-wrap:wrap;justify-content:center\"><button class=\"ghost notebtn\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\">✎ note</button><button class=\"ghost shadow\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Plays 3 times with pauses — repeat out loud\">🗣 shadow ×3</button><button class=\"ghost bury\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Skip until tomorrow\">⏭ bury</button><button class=\"ghost susp\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Hide from reviews until you restore it\">⏸ suspend</button></div><div class=\"dlg\"><div><b>A:</b> <ruby class=\"rb\">어제<rt>eoje</rt></ruby> <ruby class=\"rb\">왜<rt>wae</rt></ruby> <ruby class=\"rb\">연락<rt>yeollak</rt></ruby> <ruby class=\"rb\">안<rt>an</rt></ruby> <ruby class=\"rb\">했어<rt>haesseo</rt></ruby>?</div><div><b>B:</b> <ruby class=\"rb\">미안해<rt>mianhae</rt></ruby>, <ruby class=\"rb\">내가<rt>naega</rt></ruby> <ruby class=\"rb\">잘못했어<rt>jalmotaesseo</rt></ruby>. <ruby class=\"rb\">화<rt>hwa</rt></ruby> <ruby class=\"rb\">풀어<rt>pureo</rt></ruby>.</div><div class=\"m\">Why didn't you text yesterday? / Sorry, my fault. Don't be mad.</div><button class=\"speak\" type=\"button\" data-say=\"어제 왜 연락 안 했어?. 미안해, 내가 잘못했어. 화 풀어.\">🔊 dialogue</button> <button class=\"speak bdbtn\" type=\"button\" data-bd=\"어제 왜 연락 안 했어? 미안해, 내가 잘못했어. 화 풀어.\">🔍 break it down</button><div class=\"bdout\"></div></div>"
   ],
   [
-   "Dating deeper",
+   "Intimate",
    "100일 축하해",
-   "<span class=\"tag\">Dating deeper</span><div class=\"en\">Happy 100 days</div><div class=\"note\">Couples celebrate 100 days. Big deal.</div><div class=\"pron\" title=\"격음화\">🗣 [100일 추카해] <span class=\"m\">격음화</span></div><div style=\"display:flex;gap:6px;flex-wrap:wrap;justify-content:center\"><button class=\"ghost notebtn\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\">✎ note</button><button class=\"ghost shadow\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Plays 3 times with pauses — repeat out loud\">🗣 shadow ×3</button><button class=\"ghost bury\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Skip until tomorrow\">⏭ bury</button><button class=\"ghost susp\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Hide from reviews until you restore it\">⏸ suspend</button></div><div class=\"dlg\"><div><b>A:</b> <ruby class=\"rb\">오늘<rt>oneul</rt></ruby> <ruby class=\"rb\">우리<rt>uri</rt></ruby> 100<ruby class=\"rb\">일이야<rt>iriya</rt></ruby>!</div><div><b>B:</b> <ruby class=\"rb\">진짜<rt>jinjja</rt></ruby>? 100<ruby class=\"rb\">일<rt>il</rt></ruby> <ruby class=\"rb\">축하해<rt>chukahae</rt></ruby>. <ruby class=\"rb\">선물<rt>seonmul</rt></ruby> <ruby class=\"rb\">준비했어<rt>junbihaesseo</rt></ruby>.</div><div class=\"m\">It's our 100th day today! / Really? Happy 100 days. I got you something.</div><button class=\"speak\" type=\"button\" data-say=\"오늘 우리 100일이야!. 진짜? 100일 축하해. 선물 준비했어.\">🔊 dialogue</button> <button class=\"speak bdbtn\" type=\"button\" data-bd=\"오늘 우리 100일이야! 진짜? 100일 축하해. 선물 준비했어.\">🔍 break it down</button><div class=\"bdout\"></div></div>"
+   "<span class=\"tag\">Intimate</span><div class=\"en\">Happy 100 days</div><div class=\"note\">Couples celebrate 100 days. Big deal.</div><div class=\"pron\" title=\"격음화\">🗣 [100일 추카해] <span class=\"m\">격음화</span></div><div style=\"display:flex;gap:6px;flex-wrap:wrap;justify-content:center\"><button class=\"ghost notebtn\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\">✎ note</button><button class=\"ghost shadow\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Plays 3 times with pauses — repeat out loud\">🗣 shadow ×3</button><button class=\"ghost bury\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Skip until tomorrow\">⏭ bury</button><button class=\"ghost susp\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Hide from reviews until you restore it\">⏸ suspend</button></div><div class=\"dlg\"><div><b>A:</b> <ruby class=\"rb\">오늘<rt>oneul</rt></ruby> <ruby class=\"rb\">우리<rt>uri</rt></ruby> 100<ruby class=\"rb\">일이야<rt>iriya</rt></ruby>!</div><div><b>B:</b> <ruby class=\"rb\">진짜<rt>jinjja</rt></ruby>? 100<ruby class=\"rb\">일<rt>il</rt></ruby> <ruby class=\"rb\">축하해<rt>chukahae</rt></ruby>. <ruby class=\"rb\">선물<rt>seonmul</rt></ruby> <ruby class=\"rb\">준비했어<rt>junbihaesseo</rt></ruby>.</div><div class=\"m\">It's our 100th day today! / Really? Happy 100 days. I got you something.</div><button class=\"speak\" type=\"button\" data-say=\"오늘 우리 100일이야!. 진짜? 100일 축하해. 선물 준비했어.\">🔊 dialogue</button> <button class=\"speak bdbtn\" type=\"button\" data-bd=\"오늘 우리 100일이야! 진짜? 100일 축하해. 선물 준비했어.\">🔍 break it down</button><div class=\"bdout\"></div></div>"
   ],
   [
-   "Dating deeper",
+   "Intimate",
    "손 잡아도 돼?",
-   "<span class=\"tag\">Dating deeper</span><div class=\"en\">Can I hold your hand?</div><div class=\"note\"><ruby class=\"rb\">잡다<rt>japda</rt></ruby> = to hold. <ruby class=\"rb\">아<rt>a</rt></ruby>/<ruby class=\"rb\">어도<rt>eodo</rt></ruby> <ruby class=\"rb\">돼<rt>dwae</rt></ruby> = may I.</div><div class=\"pron\" title=\"연음\">🗣 [손 자바도 돼] <span class=\"m\">연음</span></div><div style=\"display:flex;gap:6px;flex-wrap:wrap;justify-content:center\"><button class=\"ghost notebtn\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\">✎ note</button><button class=\"ghost shadow\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Plays 3 times with pauses — repeat out loud\">🗣 shadow ×3</button><button class=\"ghost bury\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Skip until tomorrow\">⏭ bury</button><button class=\"ghost susp\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Hide from reviews until you restore it\">⏸ suspend</button></div><div class=\"dlg\"><div><b>A:</b> <ruby class=\"rb\">손<rt>son</rt></ruby> <ruby class=\"rb\">잡아도<rt>jabado</rt></ruby> <ruby class=\"rb\">돼<rt>dwae</rt></ruby>?</div><div><b>B:</b> <ruby class=\"rb\">응<rt>eung</rt></ruby>… <ruby class=\"rb\">추워서<rt>chuwoseo</rt></ruby> <ruby class=\"rb\">그래<rt>geurae</rt></ruby>?</div><div class=\"m\">Can I hold your hand? / Yeah… is it because you're cold?</div><button class=\"speak\" type=\"button\" data-say=\"손 잡아도 돼?. 응… 추워서 그래?\">🔊 dialogue</button> <button class=\"speak bdbtn\" type=\"button\" data-bd=\"손 잡아도 돼? 응… 추워서 그래?\">🔍 break it down</button><div class=\"bdout\"></div></div>"
+   "<span class=\"tag\">Intimate</span><div class=\"en\">Can I hold your hand?</div><div class=\"note\"><ruby class=\"rb\">잡다<rt>japda</rt></ruby> = to hold. <ruby class=\"rb\">아<rt>a</rt></ruby>/<ruby class=\"rb\">어도<rt>eodo</rt></ruby> <ruby class=\"rb\">돼<rt>dwae</rt></ruby> = may I.</div><div class=\"pron\" title=\"연음\">🗣 [손 자바도 돼] <span class=\"m\">연음</span></div><div style=\"display:flex;gap:6px;flex-wrap:wrap;justify-content:center\"><button class=\"ghost notebtn\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\">✎ note</button><button class=\"ghost shadow\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Plays 3 times with pauses — repeat out loud\">🗣 shadow ×3</button><button class=\"ghost bury\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Skip until tomorrow\">⏭ bury</button><button class=\"ghost susp\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Hide from reviews until you restore it\">⏸ suspend</button></div><div class=\"dlg\"><div><b>A:</b> <ruby class=\"rb\">손<rt>son</rt></ruby> <ruby class=\"rb\">잡아도<rt>jabado</rt></ruby> <ruby class=\"rb\">돼<rt>dwae</rt></ruby>?</div><div><b>B:</b> <ruby class=\"rb\">응<rt>eung</rt></ruby>… <ruby class=\"rb\">추워서<rt>chuwoseo</rt></ruby> <ruby class=\"rb\">그래<rt>geurae</rt></ruby>?</div><div class=\"m\">Can I hold your hand? / Yeah… is it because you're cold?</div><button class=\"speak\" type=\"button\" data-say=\"손 잡아도 돼?. 응… 추워서 그래?\">🔊 dialogue</button> <button class=\"speak bdbtn\" type=\"button\" data-bd=\"손 잡아도 돼? 응… 추워서 그래?\">🔍 break it down</button><div class=\"bdout\"></div></div>"
   ],
   [
-   "Dating deeper",
+   "Intimate",
    "너한테 할 말 있어",
-   "<span class=\"tag\">Dating deeper</span><div class=\"en\">I have something to tell you</div><div class=\"note\">Sets up a serious talk. <ruby class=\"rb\">한테<rt>hante</rt></ruby> = to (person).</div><div class=\"pron\" title=\"연음\">🗣 [너한테 할 말 이써] <span class=\"m\">연음</span></div><div style=\"display:flex;gap:6px;flex-wrap:wrap;justify-content:center\"><button class=\"ghost notebtn\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\">✎ note</button><button class=\"ghost shadow\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Plays 3 times with pauses — repeat out loud\">🗣 shadow ×3</button><button class=\"ghost bury\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Skip until tomorrow\">⏭ bury</button><button class=\"ghost susp\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Hide from reviews until you restore it\">⏸ suspend</button></div><div class=\"dlg\"><div><b>A:</b> <ruby class=\"rb\">너한테<rt>neohante</rt></ruby> <ruby class=\"rb\">할<rt>hal</rt></ruby> <ruby class=\"rb\">말<rt>mal</rt></ruby> <ruby class=\"rb\">있어<rt>isseo</rt></ruby>.</div><div><b>B:</b> <ruby class=\"rb\">뭔데<rt>mwonde</rt></ruby>? <ruby class=\"rb\">무슨<rt>museun</rt></ruby> <ruby class=\"rb\">일<rt>il</rt></ruby> <ruby class=\"rb\">있어<rt>isseo</rt></ruby>?</div><div class=\"m\">I have something to tell you. / What is it? Is something wrong?</div><button class=\"speak\" type=\"button\" data-say=\"너한테 할 말 있어.. 뭔데? 무슨 일 있어?\">🔊 dialogue</button> <button class=\"speak bdbtn\" type=\"button\" data-bd=\"너한테 할 말 있어. 뭔데? 무슨 일 있어?\">🔍 break it down</button><div class=\"bdout\"></div></div>"
+   "<span class=\"tag\">Intimate</span><div class=\"en\">I have something to tell you</div><div class=\"note\">Sets up a serious talk. <ruby class=\"rb\">한테<rt>hante</rt></ruby> = to (person).</div><div class=\"pron\" title=\"연음\">🗣 [너한테 할 말 이써] <span class=\"m\">연음</span></div><div style=\"display:flex;gap:6px;flex-wrap:wrap;justify-content:center\"><button class=\"ghost notebtn\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\">✎ note</button><button class=\"ghost shadow\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Plays 3 times with pauses — repeat out loud\">🗣 shadow ×3</button><button class=\"ghost bury\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Skip until tomorrow\">⏭ bury</button><button class=\"ghost susp\" type=\"button\" style=\"padding:3px 8px;font-size:.7rem\" title=\"Hide from reviews until you restore it\">⏸ suspend</button></div><div class=\"dlg\"><div><b>A:</b> <ruby class=\"rb\">너한테<rt>neohante</rt></ruby> <ruby class=\"rb\">할<rt>hal</rt></ruby> <ruby class=\"rb\">말<rt>mal</rt></ruby> <ruby class=\"rb\">있어<rt>isseo</rt></ruby>.</div><div><b>B:</b> <ruby class=\"rb\">뭔데<rt>mwonde</rt></ruby>? <ruby class=\"rb\">무슨<rt>museun</rt></ruby> <ruby class=\"rb\">일<rt>il</rt></ruby> <ruby class=\"rb\">있어<rt>isseo</rt></ruby>?</div><div class=\"m\">I have something to tell you. / What is it? Is something wrong?</div><button class=\"speak\" type=\"button\" data-say=\"너한테 할 말 있어.. 뭔데? 무슨 일 있어?\">🔊 dialogue</button> <button class=\"speak bdbtn\" type=\"button\" data-bd=\"너한테 할 말 있어. 뭔데? 무슨 일 있어?\">🔍 break it down</button><div class=\"bdout\"></div></div>"
   ],
   [
    "K-drama phrases",

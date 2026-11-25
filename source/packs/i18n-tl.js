@@ -805,7 +805,11 @@ LANGAPP_PACKS.i18n.tl = {
     "I already have an account": "May account na ako",
     "Save your progress across devices?": "I-save ang pag-unlad mo sa lahat ng device?",
     "Optional. Add your email and your progress follows you to any phone or computer. No password.": "Opsyonal. Idagdag ang email mo at kasama mo ang pag-unlad mo sa anumang phone o computer. Walang password.",
-    "Skip for now": "Laktawan muna"
+    "Skip for now": "Laktawan muna",
+    "Learn": "Mag-aral",
+    "All categories": "Lahat ng kategorya",
+    "All decks in this category": "Lahat ng deck sa kategoryang ito",
+    "Just learn (no quizzes)": "Mag-aral lang (walang quiz)"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Mga drill"],

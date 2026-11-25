@@ -805,7 +805,11 @@ LANGAPP_PACKS.i18n.yue = {
     "I already have an account": "我已經有帳戶",
     "Save your progress across devices?": "想唔想跨裝置儲存你嘅進度？",
     "Optional. Add your email and your progress follows you to any phone or computer. No password.": "可以唔填。加入電郵，你嘅進度喺邊部手機或者電腦都跟住你。唔使密碼。",
-    "Skip for now": "暫時略過"
+    "Skip for now": "暫時略過",
+    "Learn": "學",
+    "All categories": "全部類別",
+    "All decks in this category": "呢個類別嘅全部卡組",
+    "Just learn (no quizzes)": "淨係學（冇小測）"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · 操練"],
