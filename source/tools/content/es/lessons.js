@@ -6,6 +6,7 @@ exports.LESSONS = [
 <h3>Las 26 letras y sus nombres</h3>
 <p>Al lado de cada letra va su nombre con la ayuda de pronunciación: las MAYÚSCULAS marcan la sílaba tónica, <i>ii</i> y <i>uu</i> son vocales largas y <i>dy</i> es la <i>j</i> inglesa de <i>job</i> (la clave completa está en la lección siguiente). Las cinco vocales (A, E, I, O, U) están resaltadas.</p>
 <div class="tbl"><table><tr><th>Letra · nombre</th><th>Letra · nombre</th><th>Letra · nombre</th><th>Letra · nombre</th><th>Letra · nombre</th></tr><tr><td class="k">A · EI</td><td>B · BII</td><td>C · SII (s sorda)</td><td>D · DII</td><td class="k">E · II</td></tr><tr><td>F · EF</td><td>G · DYII</td><td>H · EICH</td><td class="k">I · AI</td><td>J · DYEI</td></tr><tr><td>K · KEI</td><td>L · EL</td><td>M · EM</td><td>N · EN</td><td class="k">O · OU</td></tr><tr><td>P · PII</td><td>Q · KIUU</td><td>R · AAR</td><td>S · ES</td><td>T · TII</td></tr><tr><td class="k">U · IUU</td><td>V · VII</td><td>W · DA-bel-iu</td><td>X · EKS</td><td>Y · WAI</td></tr><tr><td>Z · SII (s sonora)</td><td></td><td></td><td></td><td></td></tr></table></div>
+{{tiles:A B C D E F G H I J K L M N O P Q R S T U V W X Y Z}}
 <p>Truco: muchos nombres riman entre sí. Riman con la E: B, C, D, G, P, T, V, Z. Riman con la A: J y K.</p>
 <h3>Los nombres que más confunden los hispanohablantes</h3>
 <p>La trampa más grande está en las vocales: el nombre inglés de la E suena como nuestra «i», y el de la I suena como «ai». Cuando oigas «i», escribe E; cuando oigas «ei», escribe A.</p>

@@ -27,7 +27,9 @@ const FOUND={'en-ja':{lessons:['hiragana','sounds','katakana'],letters:[...HIRA+
  'en-th':{lessons:['consonants','vowels','finals','tone-marks','tones','sounds'],letters:[...'กขคฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ'],tilesOnly:['ฃ','ฅ'],words:['vowels','finals','tone-marks'],soundOnly:['tones','sounds'],anywhere:true,frontStarts:true},
  'en-am':{lessons:['orders','fidel-1','fidel-2','fidel-3','reading'],letters:[...'ሀለሐመሠረሰሸቀበተቸኀነኘአከኸወዐዘዠየደጀገጠጨጰጸፀፈፐ'],tilesOnly:[],words:['fidel-1','fidel-2','fidel-3']}};
 /* older courses whose foundation is not built yet (docs/HANDOFF.md, "Character foundations"). This list only gets shorter. */
-const PENDING='ar-en bn-en ceb-en cs-en de-en en-ceb en-cs en-da en-espr en-hmn en-id en-it en-nan en-nl en-no en-pl en-pt en-ptpt en-sv en-tl en-vi en-yue es-en fr-en hi-en hmn-en id-en it-en ja-en kn-en ko-en pa-en pl-en pt-en ru-en spr-en te-en th-en tl-en ur-en vi-en vi-zh yue-en zh-en'.split(' ');
+const PENDING='en-ceb en-cs en-da en-espr en-hmn en-id en-it en-nan en-nl en-no en-pl en-pt en-ptpt en-sv en-tl en-vi en-yue vi-zh'.split(' ');
+/* English for X: lesson 1 `alphabet`, the 26 letters on cards (the letter names) and on tiles */
+'ar bn ceb cs de es fr hi hmn id it ja kn ko pa pl pt ru spr te th tl ur vi yue zh'.split(' ').forEach(t=>{ FOUND[t+'-en']={lessons:['alphabet'],letters:[...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'],tilesOnly:[],words:[],light:true}; });
 let fail=0,pass=0;const ok=(c,m)=>{ if(c){ pass++; console.log('PASS '+m); } else { fail++; console.log('FAIL '+m); } };
 async function open(b,cid){ const lang=cid.split('-')[0]; const c=await b.newContext({viewport:{width:390,height:800},reducedMotion:'reduce'}); const p=await c.newPage(); p.errs=[]; p.on('pageerror',e=>p.errs.push(e.message));
   await p.addInitScript(([lang,cid])=>{ const st=JSON.stringify({nick:'K',welcomed:1,onboard:{skipped:1},hintSeen:1,tourDone:1,fx3d:false}); localStorage.setItem('la-s-'+cid,st); if(cid==='en-ko') localStorage.setItem('ko-app2',st); localStorage.setItem('la-meta',JSON.stringify({v:1,native:lang,course:cid,picked:1,seenHome:1,prefs:{}})); },[lang,cid]);
@@ -37,7 +39,7 @@ async function open(b,cid){ const lang=cid.split('-')[0]; const c=await b.newCon
   const held=fs.existsSync(path.join(ROOT,'packs/HELD.txt'))?fs.readFileSync(path.join(ROOT,'packs/HELD.txt'),'utf8'):'';
   /* A: read the packs for lessons that name their sections, then check those courses in the app */
   const withSec=[]; fs.readdirSync(path.join(ROOT,'packs')).filter(f=>/^course-.*\.js$/.test(f)&&!held.includes(f)).forEach(f=>{ if(/"?sections"?\s*:\s*\[/.test(fs.readFileSync(path.join(ROOT,'packs',f),'utf8'))) withSec.push(f.slice(7,-3)); });
-  Object.keys(FOUND).forEach(cid=>ok(withSec.includes(cid),cid+': the pack names sections'));
+  Object.keys(FOUND).filter(cid=>!FOUND[cid].light).forEach(cid=>ok(withSec.includes(cid),cid+': the pack names sections'));
   /* 0 */ { const all=fs.readdirSync(path.join(ROOT,'packs')).filter(f=>/^course-.*\.js$/.test(f)&&!held.includes(f)).map(f=>f.slice(7,-3)); const ko=cid=>/-ko$/.test(cid)&&fs.readFileSync(path.join(ROOT,'packs','course-'+cid+'.js'),'utf8').includes('"hangul"'); const none=all.filter(cid=>!FOUND[cid]&&!ko(cid)&&!PENDING.includes(cid)); ok(!none.length,'every course opens with its writing system (FOUND), teaches Korean, or is an older course still waiting'+(none.length?' · NEW COURSE WITHOUT A FOUNDATION: '+none.join(', ')+' (write its script lessons, see docs/briefs/foundations-writer.md, and list it in FOUND; never add it to PENDING)':'')); const both=PENDING.filter(cid=>FOUND[cid]); ok(!both.length,'no course is both done and waiting '+both.join(', ')); }
   for(const cid of withSec){ const p=await open(b,cid);
     const r=await p.evaluate(()=>{ const bad=[], used={}, own=new Set(); let n=0, inl=0; LESSONS.filter(l=>Array.isArray(l.sections)).forEach(l=>{ n++; const pl=lsPlan(l), D=DECKS[l.deck]||[];
@@ -71,7 +73,7 @@ async function open(b,cid){ const lang=cid.split('-')[0]; const c=await b.newCon
     if(SHOTS){ for(const id of F.lessons){ await p.evaluate(id=>{ showLesson(id); },id); await p.waitForTimeout(300); await p.screenshot({path:path.join(SHOTS,cid+'-'+id+'.png'),fullPage:true}); } }
     await p.ctx.close();
     /* D */
-    for(const id of F.lessons){ p=await open(b,cid);
+    for(const id of F.light?[]:F.lessons){ p=await open(b,cid);
       const r0=await p.evaluate(id=>{ const i=LESSONS.findIndex(l=>l.id===id); LESSONS.slice(0,i).forEach(l=>S.lessons[l.id]=1); save(); showLesson(id); const pl=lsPlan(LESSONS[i]); return {decks:pl.parts.filter(x=>x.cards.length).map(x=>x.cards.length),all:pl.all.length,ans:CHECKS[id].map(q=>q[2])}; },id);
       for(let q=0;q<3;q++){ const k=r0.ans[q]; await p.waitForSelector('#checkBody .opt[data-k="'+k+'"]:not([disabled])'); await p.evaluate(k=>document.querySelector('#checkBody .opt[data-k="'+k+'"]').click(),k); await p.waitForTimeout(1100); }
       const steps=await drive(p,id,9000);

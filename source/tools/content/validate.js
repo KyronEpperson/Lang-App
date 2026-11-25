@@ -152,7 +152,8 @@ C.LESSONS.forEach(l => {
   /* ex tokens */
   const opens = (body.match(/\{\{/g) || []).length, closes = (body.match(/\}\}/g) || []).length;
   const toks = body.match(/\{\{ex:[^{}]*\}\}/g) || [];
-  ok(opens === toks.length && closes === toks.length, 'lesson ' + l.id + ' malformed {{ }} tokens');
+  const tiles = (body.match(/\{\{tiles:[^{}]*\}\}/g) || []).length;
+  ok(opens === toks.length + tiles && closes === toks.length + tiles, 'lesson ' + l.id + ' malformed {{ }} tokens');
   ok(toks.length >= 3, 'lesson ' + l.id + ' has < 3 ex tokens');
   toks.forEach(t => {
     const parts = t.slice(5, -2).split('|');

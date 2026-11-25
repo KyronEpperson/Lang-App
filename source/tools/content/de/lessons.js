@@ -7,6 +7,7 @@ exports.LESSONS = [
 <h3>Die 26 Buchstaben und ihre Namen</h3>
 <p>Neben jedem Buchstaben steht sein englischer Name in Lautschrift (IPA), so wie du ihn beim Buchstabieren sagst. Die fünf Vokale A, E, I, O, U sind hervorgehoben.</p>
 <div class="tbl"><table><tr><th>Buchstabe · Name</th><th>Buchstabe · Name</th><th>Buchstabe · Name</th><th>Buchstabe · Name</th><th>Buchstabe · Name</th></tr><tr><td class="k"><b>A</b> · /ˈeɪ/</td><td>B · /ˈbiː/</td><td>C · /ˈsiː/</td><td>D · /ˈdiː/</td><td class="k"><b>E</b> · /ˈiː/</td></tr><tr><td>F · /ˈef/</td><td>G · /ˈdʒiː/</td><td>H · /ˈeɪtʃ/</td><td class="k"><b>I</b> · /ˈaɪ/</td><td>J · /ˈdʒeɪ/</td></tr><tr><td>K · /ˈkeɪ/</td><td>L · /ˈel/</td><td>M · /ˈem/</td><td>N · /ˈen/</td><td class="k"><b>O</b> · /ˈoʊ/</td></tr><tr><td>P · /ˈpiː/</td><td>Q · /ˈkjuː/</td><td>R · /ˈɑːr/</td><td>S · /ˈes/</td><td>T · /ˈtiː/</td></tr><tr><td class="k"><b>U</b> · /ˈjuː/</td><td>V · /ˈviː/</td><td>W · /ˈdʌbəljuː/</td><td>X · /ˈeks/</td><td>Y · /ˈwaɪ/</td></tr><tr><td>Z · /ˈziː/</td><td></td><td></td><td></td><td></td></tr></table></div>
+{{tiles:A B C D E F G H I J K L M N O P Q R S T U V W X Y Z}}
 <p>Merkhilfe: Viele Namen reimen sich. Auf E (/ˈiː/) reimen sich B, C, D, G, P, T, V und Z, auf A (/ˈeɪ/) reimen sich J und K.</p>
 <h3>Die Namen, die Deutschsprachige verwechseln</h3>
 <p>Die größte Falle sind die Vokale. Der englische Name von <b>E</b> klingt wie das deutsche „i“, der von <b>I</b> wie „ei“ in „Eis“, und <b>A</b> klingt wie <i>hey</i> ohne h. Merke: Hörst du „i“, schreib E; hörst du „ei“, schreib I.</p>
