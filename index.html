@@ -106,6 +106,7 @@ nav a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visibl
 .ghost{background:none;border:1px solid var(--line);color:var(--muted);border-radius:8px;padding:7px 11px;font:500 .78rem var(--body);cursor:pointer}
 select.ghost{color:var(--ink);background:var(--paper)}
 select.dsel{flex:1 1 150px;min-width:0;max-width:100%;padding:10px 12px;border-radius:10px;font-size:.92rem;min-height:44px}
+#learnStart,#examStart{color:color-mix(in srgb,var(--ok) 60%,var(--ink))}#learnStart{background:var(--ok-soft)}#examStart{background:color-mix(in srgb,var(--ok-soft) 78%,var(--ok))}
 #runBar{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:8px}#runBar[hidden]{display:none!important}#runDeckN{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}#runDeckN{flex:1 1 auto;text-align:center}#runDeck,#runBack{white-space:nowrap;flex:none}#runDeck[hidden]{display:none!important}
 .bar{height:6px;background:var(--line);border-radius:3px;overflow:hidden}
 .bar i{display:block;height:100%;background:var(--ok);width:0;transition:width .3s}
@@ -528,7 +529,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
     <div id="quizSetup" class="panel">
       <h2>Practice</h2>
       <h3>Deck</h3><div class="modes" id="tagPick" style="margin-bottom:8px"></div><div class="pickhead" id="pickHeadP"></div><div class="decks" id="quizDecks"></div>
-      <div class="controls" style="margin-top:18px"><button class="big primary" id="firstStart" style="grid-column:1/3" hidden>Practice these first</button><button class="big primary" id="learnStart" style="grid-column:1/3">Learn</button><button class="big miss" id="weakStart">Weak spots</button><button class="big" id="blitzStart" style="background:var(--warn-soft);color:var(--warn)">⚡ 2-minute blitz</button><button class="big" id="examStart" style="grid-column:1/3;background:var(--ink);color:var(--bg)">📝 Exam</button></div><p class="stat" id="learnHint" style="margin-top:8px;text-align:center"></p><label class="auto" style="justify-content:center;margin-top:6px"><input type="checkbox" id="justLearn"> Just learn (no quizzes)</label><div class="advrow" data-simple-only><a href="#read" class="chip" id="toRead" style="text-decoration:none"></a></div>
+      <div class="controls" style="margin-top:18px"><button class="big primary" id="firstStart" style="grid-column:1/3" hidden>Practice these first</button><button class="big primary" id="learnStart" style="grid-column:1/3">Learn</button><button class="big miss" id="weakStart">Weak spots</button><button class="big" id="blitzStart" style="background:var(--warn-soft);color:var(--warn)">⚡ 2-minute blitz</button><button class="big" id="examStart" style="grid-column:1/3">📝 Exam</button></div><p class="stat" id="learnHint" style="margin-top:8px;text-align:center"></p><label class="auto" style="justify-content:center;margin-top:6px"><input type="checkbox" id="justLearn"> Just learn (no quizzes)</label><div class="advrow" data-simple-only><a href="#read" class="chip" id="toRead" style="text-decoration:none"></a></div>
     </div>
     <div id="runBar" hidden><button class="ghost" type="button" id="runBack">← Back</button><span class="stat" id="runDeckN"></span><button class="ghost" type="button" id="runDeck">Change deck ▾</button></div>
     <div id="quizRun" class="panel" hidden></div>
@@ -607,7 +608,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.126.0 · 2026-11-25';
+const APP_VERSION='2.127.0 · 2026-11-25';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields

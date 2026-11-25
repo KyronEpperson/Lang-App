@@ -1697,3 +1697,6 @@ Kii asked for: Change deck usable in the middle of practice; everything under Mo
 
 ### FND-1 — English for X, letter tiles (2.126.0)
 All 26 English courses: 26 flip tiles under the letter-name table of lesson 1. No writer needed (the readings are the existing letter cards). `foundations.js` covers the 26 in light mode; 44 courses to 18 in `PENDING`. Checked by eye: es-en, ja-en, ar-en. Not done: spelling patterns.
+
+### PM-2 — green Learn and Exam buttons (2.127.0)
+Kii asked for a light green Learn button and a slightly darker green Exam button on Practice. Done with the theme's own green tokens so the dark theme follows. Contrast measured in both themes (4.6 to 6.9).
