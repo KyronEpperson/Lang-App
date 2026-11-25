@@ -1,0 +1,387 @@
+{
+ "_about": "SEC-1 writer file for id-en.",
+ "alphabet": {
+  "1": {"add": ["A", "E", "I", "G", "H", "R"]},
+  "3": {"add": [
+    ["an M", "en ém", "satu huruf M (namanya ém, diawali bunyi vokal)", ""],
+    ["a U", "e yuu", "satu huruf U (namanya yuu, diawali bunyi y)", ""],
+    ["double L", "DA-bel él", "dua huruf L berurutan", ""],
+    ["dot", "daat", "titik (dalam alamat email)", ""],
+    ["at", "èt", "@ (dalam alamat email)", ""]
+  ]}
+ },
+ "pron": {
+  "5": {"add": ["leave", "live"]},
+  "6": {"add": [
+    "hotel",
+    ["thirteen", "ther-TIIN", "tiga belas", ""],
+    ["thirty", "THER-ti", "tiga puluh", ""]
+  ]}
+ },
+ "be": {
+  "2": {"drop": ["I live in Jakarta.", "live"]}
+ },
+ "it-there": {
+  "1": {"add": [
+    ["There is", "dhér iz", "Ada (untuk satu benda)", ""],
+    ["There are", "dhér er", "Ada (untuk lebih dari satu benda)", ""]
+  ]},
+  "3": {"add": [
+    ["There's a cafe here.", "dhérz e kè-FEI hir", "Di sini ada kafe", ""],
+    ["It's cold.", "its kould", "Dingin", ""]
+  ]}
+ },
+ "articles": {
+  "0": {"add": [
+    ["a university", "e yuu-ne-VER-se-di", "sebuah universitas", ""],
+    ["an hour", "en AU-er", "satu jam", ""],
+    ["an idea", "en ai-DII-e", "sebuah ide", ""]
+  ]},
+  "1": {"add": [
+    ["the sun", "dhe san", "matahari", ""],
+    ["the internet", "dhi IN-ter-nét", "internet", ""]
+  ]}
+ },
+ "plurals": {
+  "2": {"add": [
+    ["my bag", "mai bèg", "tas saya", ""],
+    ["two friends", "tuu fréndz", "dua teman", ""]
+  ]}
+ },
+ "present": {
+  "1": {"add": [
+    ["I don't drink coffee.", "ai dount dringk KOO-fi", "Saya tidak minum kopi", ""],
+    ["I work in Jakarta.", "ai werk in je-KAAR-te", "Saya bekerja di Jakarta", ""]
+  ]},
+  "2": {"add": [
+    ["always", "OOL-weiz", "selalu", ""],
+    ["usually", "YUU-zyu-e-li", "biasanya", ""],
+    ["sometimes", "SAM-taimz", "kadang-kadang", ""],
+    ["never", "NÉ-ver", "tidak pernah", ""]
+  ]}
+ },
+ "questions": {
+  "0": {"add": [
+    "Is there an ATM around here?",
+    ["Are you hungry?", "er yu HANG-gri?", "Kamu lapar?", ""]
+  ]},
+  "1": {"add": [
+    ["Yes, I do.", "yés, ai duu", "Iya. (jawaban singkat untuk Do you …?)", ""],
+    ["No, I don't.", "nou, ai dount", "Tidak. (jawaban singkat untuk Do you …?)", ""]
+  ]}
+ },
+ "third-s": {
+  "1": {"add": [
+    ["Does she work?", "dez syi werk?", "Dia (perempuan) bekerja?", ""],
+    ["She doesn't eat meat.", "syi DA-zent iit miit", "Dia (perempuan) tidak makan daging", ""]
+  ]}
+ },
+ "prep": {
+  "1": {"add": [
+    ["on the table", "aan dhe TEI-bel", "di atas meja", ""],
+    ["at work", "et werk", "di kantor / sedang bekerja", ""],
+    ["in the car", "in dhe kaar", "di dalam mobil", ""]
+  ]},
+  "2": {"add": [
+    ["go to school", "gou te skuul", "pergi ke sekolah", ""],
+    ["go to Bali", "gou te BAA-li", "pergi ke Bali", ""],
+    ["go home", "gou houm", "pulang", ""]
+  ]},
+  "3": {"add": [
+    ["at night", "et nait", "pada malam hari", ""],
+    ["in the morning", "in dhe MOOR-ning", "pada pagi hari", ""],
+    ["on the weekend", "aan dhe WIIK-énd", "pada akhir pekan (Amerika)", ""]
+  ]}
+ },
+ "countable": {
+  "2": {"add": [
+    ["information", "in-fer-MEI-syen", "informasi (tidak bisa dihitung)", ""],
+    ["advice", "ed-VAIS", "saran (tidak bisa dihitung)", ""]
+  ]}
+ },
+ "object-have": {
+  "1": {"add": [
+    ["have breakfast", "hèv BRÉK-fest", "sarapan", ""],
+    ["have dinner", "hèv DI-ner", "makan malam", ""]
+  ]}
+ },
+ "can-like": {
+  "2": {"add": [
+    ["I like coffee.", "ai laik KOO-fi", "Saya suka kopi (secara umum)", ""],
+    ["I'd like some water, please.", "aid laik sem WAA-der, pliiz", "Saya minta air putih", ""]
+  ]}
+ },
+ "polite": {
+  "1": {"add": [
+    ["Can I get some water, please?", "ken ai gét sem WAA-der, pliiz?", "Boleh minta air putih?", ""],
+    ["I'd like a coffee, please.", "aid laik e KOO-fi, pliiz", "Saya pesan kopi satu", ""]
+  ]},
+  "2": {"add": [
+    ["Would you mind closing the door?", "wud yu maind KLOU-zing dhe door?", "Apakah Anda keberatan menutup pintu?", ""],
+    ["Not at all.", "naat et ool", "Sama sekali tidak (silakan saja).", ""]
+  ]},
+  "3": {"add": [
+    ["Mr.", "MIS-ter", "Pak / Bapak (+ nama keluarga)", ""],
+    ["Ms.", "miz", "Bu / Ibu (+ nama keluarga)", ""],
+    ["please", "pliiz", "tolong / silakan", ""]
+  ]}
+ },
+ "continuous": {
+  "1": {"add": [
+    "I'm working now.",
+    ["I work every day.", "ai werk ÉV-ri dei", "Saya bekerja setiap hari", ""],
+    ["She drinks tea.", "syi dringks tii", "Dia minum teh (kebiasaan)", ""],
+    ["She's drinking tea.", "syiz DRING-king tii", "Dia sedang minum teh", ""]
+  ]},
+  "2": {"add": [
+    ["I know.", "ai nou", "Saya tahu", ""],
+    ["I have a car.", "ai hèv e kaar", "Saya punya mobil", ""]
+  ]}
+ },
+ "past": {
+  "2": {"add": [
+    ["Did you watch a movie?", "did yu waac e MUU-vi?", "Kamu tadi menonton film?", ""],
+    ["I didn't call her.", "ai DI-dent kool her", "Saya tidak menelepon dia (perempuan)", ""]
+  ]}
+ },
+ "the": {
+  "0": {"add": [
+    ["a shirt", "e syert", "sebuah kemeja (baru pertama disebut)", ""],
+    ["the shirt", "dhe syert", "kemejanya / kemeja itu (sudah disebut)", ""],
+    ["I have a dog. The dog is so cute.", "ai hèv e doog. dhe doog iz sou kyuut", "Saya punya anjing. Anjingnya lucu sekali", ""]
+  ]}
+ },
+ "adjectives": {
+  "1": {"add": [
+    ["the biggest", "dhe BI-gist", "paling besar", ""],
+    ["the most expensive", "dhe moust ik-SPÉN-siv", "paling mahal", ""],
+    ["better", "BÉ-der", "lebih baik / lebih bagus", ""]
+  ]}
+ },
+ "going-to": {
+  "1": {"add": [
+    ["It's going to be cold.", "its GOU-ing te bi kould", "Sepertinya bakal dingin", ""],
+    ["It's not going to rain.", "its naat GOU-ing te rein", "Sepertinya tidak akan hujan", ""]
+  ]},
+  "2": {"add": [
+    ["tomorrow", "te-MAA-rou", "besok", ""],
+    ["tonight", "te-NAIT", "nanti malam", ""],
+    ["this weekend", "dhis WIIK-énd", "akhir pekan ini", ""],
+    ["next week", "nékst wiik", "minggu depan", ""],
+    ["I'm going to go tomorrow.", "aim GOU-ing te gou te-MAA-rou", "Besok saya pergi", ""]
+  ]}
+ },
+ "tense": {
+  "1": {"add": [
+    ["went", "wént", "pergi (V2: go → went)", ""],
+    ["ate", "eit", "makan (V2: eat → ate)", ""],
+    ["saw", "soo", "melihat (V2: see → saw)", ""]
+  ]}
+ },
+ "joining": {
+  "1": {"add": [
+    ["It was raining, so I stayed home.", "it wez REI-ning, sou ai steid houm", "Hujan, jadi saya di rumah saja", ""],
+    ["I'm tired, so I'm going home.", "aim TAI-erd, sou aim GOU-ing houm", "Saya capek, jadi saya mau pulang", ""]
+  ]},
+  "2": {"add": [
+    ["because", "bi-KAZ", "karena", ""]
+  ]},
+  "3": {"add": [
+    ["although", "ool-DHOU", "meskipun", ""],
+    ["It was late, but we went out.", "it wez leit, bet wi wént aut", "Sudah malam, tapi kami tetap keluar", ""]
+  ]},
+  "4": {"add": [
+    ["too", "tuu", "juga (di akhir kalimat)", ""],
+    ["I like coffee too.", "ai laik KOO-fi tuu", "Saya juga suka kopi", ""]
+  ]}
+ },
+ "numbers": {
+  "0": {"add": [
+    ["fifty thousand", "FIF-ti THAU-zend", "lima puluh ribu (50.000)", ""],
+    ["one billion", "wan BIL-yen", "satu miliar (1.000.000.000)", ""],
+    ["three point five", "thrii point faiv", "tiga koma lima (3,5)", ""],
+    ["twenty-five thousand rupiah", "TWÉN-ti-faiv THAU-zend RUU-pi-e", "Rp25.000", ""]
+  ]}
+ },
+ "smalltalk": {
+  "0": {"add": [
+    ["How are you?", "hau er yu?", "Apa kabar?", ""],
+    ["Fine, thanks. And you?", "fain, thèngks. ènd yu?", "Baik, terima kasih. Kamu?", ""]
+  ]},
+  "1": {"add": [
+    "Nice weather today, huh?",
+    "Any plans for the weekend?",
+    "Have you seen any good shows lately?",
+    "How's work?"
+  ]}
+ },
+ "past-continuous": {
+  "1": {"add": [
+    ["I was sleeping when you called.", "ai wez SLII-ping wén yu koold", "Saya sedang tidur waktu kamu menelepon", ""],
+    ["when", "wén", "waktu / ketika", ""]
+  ]}
+ },
+ "will": {
+  "0": {"add": [
+    ["I'll", "ail", "saya akan (I will)", ""],
+    ["won't", "wount", "tidak akan (will not)", ""]
+  ]},
+  "2": {"add": [
+    ["It won't rain.", "it wount rein", "Sepertinya tidak akan hujan", ""],
+    ["I think you'll like it.", "ai thingk yul laik it", "Saya rasa kamu bakal suka", ""]
+  ]},
+  "3": {"add": [
+    ["I'll get the door.", "ail gét dhe door", "Biar saya yang buka pintunya", ""],
+    ["I'm going to visit Bali next month.", "aim GOU-ing te VI-zit BAA-li nékst manth", "Bulan depan saya akan ke Bali", ""],
+    ["I'll go.", "ail gou", "Saya akan pergi", ""]
+  ]}
+ },
+ "perfect": {
+  "1": {"add": [
+    ["been", "bin", "pernah ke (V3: be → been)", ""],
+    ["eaten", "II-ten", "makan (V3: eat → eaten)", ""],
+    ["seen", "siin", "melihat (V3: see → seen)", ""],
+    ["done", "dan", "melakukan (V3: do → done)", ""],
+    ["tried", "traid", "mencoba (V3: try → tried)", ""]
+  ]},
+  "2": {"add": [
+    ["I went to Bali in 2020.", "ai wént te BAA-li in TWÉN-ti TWÉN-ti", "Saya pergi ke Bali tahun 2020", ""],
+    ["last year", "lèst yir", "tahun lalu", ""]
+  ]}
+ },
+ "time-markers": {
+  "1": {"add": [
+    ["I saw him this morning.", "ai soo him dhis MOOR-ning", "Tadi pagi saya ketemu dia", ""],
+    ["I ate at seven.", "ai eit et SÉ-ven", "Saya sudah makan jam tujuh", ""]
+  ]}
+ },
+ "modals": {
+  "0": {"add": [
+    ["I have to go.", "ai hèf te gou", "Saya harus pergi", ""],
+    ["He has to work today.", "hi hès te werk te-DEI", "Dia (laki-laki) harus bekerja hari ini", ""]
+  ]},
+  "1": {"add": [
+    ["You don't have to come.", "yu dount hèf te kam", "Kamu tidak perlu datang (tidak wajib)", ""],
+    ["You must not smoke here.", "yu mast naat smouk hir", "Kamu tidak boleh merokok di sini (dilarang)", ""],
+    ["don't have to", "dount hèf te", "tidak harus, tidak perlu", ""],
+    ["must not", "mast naat", "tidak boleh, dilarang", ""]
+  ]},
+  "2": {"add": [
+    ["should", "syud", "sebaiknya", ""],
+    ["You should go.", "yu syud gou", "Sebaiknya kamu pergi", ""]
+  ]},
+  "3": {"add": [
+    ["might", "mait", "mungkin (di tengah kalimat)", ""],
+    ["maybe", "MEI-bi", "mungkin (di awal kalimat / jawaban singkat)", ""]
+  ]}
+ },
+ "to-ing": {
+  "2": {"add": [
+    ["I like to cook.", "ai laik te kuk", "Saya suka memasak", ""],
+    ["I like cooking.", "ai laik KU-king", "Saya suka memasak", ""],
+    ["It started to rain.", "it STAAR-tid te rein", "Hujan mulai turun", ""],
+    ["I want to go.", "ai waant te gou", "Saya mau pergi", ""]
+  ]}
+ },
+ "articles-2": {
+  "2": {"add": [
+    ["Cats are cute.", "kèts er kyuut", "Kucing itu lucu (kucing secara umum)", ""],
+    ["I like the dogs.", "ai laik dhe doogz", "Saya suka anjing-anjing itu (anjing tertentu)", ""]
+  ]}
+ },
+ "first-conditional": {
+  "1": {"add": ["Let me know if you have any questions."]},
+  "2": {"add": [
+    ["When I finish work, I'll call you.", "wén ai FI-nisy werk, ail kool yu", "Nanti kalau sudah selesai kerja, saya telepon kamu", ""],
+    ["when", "wén", "nanti kalau / begitu (hal yang pasti terjadi)", ""]
+  ]}
+ },
+ "relative": {
+  "0": {"add": [
+    ["who", "huu", "yang (untuk orang)", ""],
+    ["a friend who lives in Bali", "e frénd huu livz in BAA-li", "teman yang tinggal di Bali", ""]
+  ]},
+  "2": {"add": [
+    ["the book I bought", "dhe buk ai boot", "buku yang saya beli", ""],
+    ["the phone I want", "dhe foun ai waant", "ponsel yang saya inginkan", ""]
+  ]},
+  "3": {"add": [
+    ["where", "wér", "tempat (untuk tempat: kafe tempat …)", ""],
+    ["the hotel where we stayed", "dhe hou-TÉL wér wi steid", "hotel tempat kami menginap", ""]
+  ]}
+ },
+ "perfect-2": {
+  "1": {"add": [
+    ["How long have you lived here?", "hau loong hev yu livd hir?", "Sudah berapa lama tinggal di sini?", ""],
+    ["How long have you worked here?", "hau loong hev yu werkt hir?", "Sudah berapa lama kamu bekerja di sini?", ""]
+  ]}
+ },
+ "narrative": {
+  "0": {"add": [
+    ["I was walking home.", "ai wez WOO-king houm", "Saya sedang jalan pulang (latar)", ""],
+    ["I saw an old friend.", "ai soo en ould frénd", "Saya bertemu teman lama (kejadian utama)", ""]
+  ]},
+  "1": {"add": [
+    ["He had moved to Surabaya.", "hi hed muuvd te suu-re-BAI-e", "Dia (laki-laki) sudah pindah ke Surabaya (sebelumnya)", ""]
+  ]},
+  "2": {"add": [
+    ["first", "ferst", "pertama", ""],
+    ["then", "dhén", "lalu", ""],
+    ["after that", "ÈF-ter dhèt", "setelah itu", ""],
+    ["finally", "FAI-ne-li", "akhirnya", ""]
+  ]}
+ },
+ "conditionals": {
+  "1": {"add": [
+    ["If I had known, I would have come.", "if ai hed noun, ai wud ev kam", "Seandainya dulu saya tahu, saya pasti datang", ""],
+    ["If you had called, I would have helped.", "if yu hed koold, ai wud ev hélpt", "Seandainya kamu menelepon, saya pasti membantu", ""]
+  ]},
+  "2": {"add": [
+    ["I should have studied.", "ai syud ev STA-did", "Seharusnya saya belajar", ""],
+    ["I wish I had a car.", "ai wisy ai hèd e kaar", "Andai saya punya mobil", ""]
+  ]}
+ },
+ "passive": {
+  "1": {"add": [
+    ["The cake was made by my mom.", "dhe keik wez meid bai mai maam", "Kuenya dibuat oleh ibu saya", ""],
+    ["The report was written by Sari.", "dhe ri-POORT wez RI-ten bai SAA-ri", "Laporannya ditulis oleh Sari", ""]
+  ]},
+  "2": {"add": [
+    ["Someone stole my bag.", "SAM-wan stoul mai bèg", "Ada yang mencuri tas saya", ""],
+    ["My bag was stolen.", "mai bèg wez STOU-len", "Tas saya dicuri", ""],
+    ["They canceled the flight.", "dhei KÈN-seld dhe flait", "Mereka membatalkan penerbangannya", ""],
+    ["The flight was canceled.", "dhe flait wez KÈN-seld", "Penerbangannya dibatalkan", ""]
+  ]}
+ },
+ "reported": {
+  "1": {"add": [
+    ["He asked if I was tired.", "hi èskt if ai wez TAI-erd", "Dia (laki-laki) bertanya apakah saya capek", ""],
+    ["She asked where I worked.", "syi èskt wér ai werkt", "Dia (perempuan) bertanya saya bekerja di mana", ""]
+  ]}
+ },
+ "email": {
+  "0": {"add": [
+    "I'm writing to ask about the schedule.",
+    ["I hope you're doing well.", "ai houp yer DUU-ing wél", "Semoga kabar Anda baik", ""]
+  ]},
+  "1": {"add": [
+    ["Thanks for your time.", "thèngks fer yer taim", "Terima kasih atas perhatiannya", ""],
+    ["Dear Ms. Wijaya,", "dir miz wi-JAA-ye", "Yth. Ibu Wijaya, (pembuka email formal)", ""]
+  ]},
+  "2": {"add": ["Could you send me the file by Friday?"]},
+  "3": {"add": [
+    ["Have a great weekend!", "hèv e greit WIIK-énd!", "Selamat berakhir pekan!", ""],
+    ["I really appreciate your help.", "ai RII-li e-PRII-syi-eit yer hélp", "Saya sangat menghargai bantuan Anda", ""]
+  ]}
+ },
+ "idioms": {
+  "1": {"add": [
+    ["Kill two birds with one stone.", "kil tuu berdz widh wan stoun", "Sekali mendayung, dua tiga pulau terlampaui", ""],
+    ["A blessing in disguise.", "e BLÉ-sing in dis-GAIZ", "Ada hikmah di balik musibah", ""]
+  ]},
+  "2": {"add": [
+    ["No cap.", "nou kèp", "Serius, tidak bohong", ""],
+    ["That song slaps.", "dhèt soong slèps", "Lagu itu mantap sekali", ""]
+  ]}
+ }
+}

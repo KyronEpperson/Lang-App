@@ -1,0 +1,409 @@
+{
+ "_about": "SEC-1 writer file for tl-en.",
+ "alphabet": {
+  "1": {"add": [
+   ["C / S", "/ˈsiː/ /ˈes/", "titik C / titik S", ""],
+   ["F / P", "/ˈef/ /ˈpiː/", "titik F / titik P", ""],
+   ["V / B", "/ˈviː/ /ˈbiː/", "titik V / titik B", ""],
+   ["E / I", "/ˈiː/ /ˈaɪ/", "titik E / titik I", ""],
+   ["G / J", "/ˈdʒiː/ /ˈdʒeɪ/", "titik G / titik J", ""]
+  ], "drop": []},
+  "3": {"add": [
+   ["an F", "/ən ˈef/", "isang F", ""],
+   ["an H", "/ən ˈeɪtʃ/", "isang H", ""],
+   ["a U", "/ə ˈjuː/", "isang U", ""],
+   ["a university", "/ə ˌjuːnɪˈvɜːrsəti/", "isang unibersidad", ""],
+   ["double L", "/ˈdʌbl ˈel/", "dalawang magkasunod na L", ""],
+   ["dot", "/ˈdɑːt/", "tuldok (sa email at website)", ""]
+  ], "drop": []}
+ },
+ "pron": {
+  "2": {"add": [
+   ["three / tree", "/ˈθriː/ /ˈtriː/", "tatlo / puno", ""]
+  ], "drop": []},
+  "6": {"add": [
+   ["gift", "/ˈgɪft/", "regalo", ""],
+   ["asked", "/ˈæskt/", "nagtanong", ""],
+   ["works", "/ˈwɜːrks/", "nagtatrabaho (siya)", ""],
+   ["bag", "/ˈbæg/", "bag (lalagyan)", ""],
+   ["back", "/ˈbæk/", "likod", ""]
+  ], "drop": []},
+  "7": {"add": [
+   ["thirteen", "/ˌθɜːrˈtiːn/", "labintatlo (13)", ""],
+   ["thirty", "/ˈθɜːrti/", "tatlumpu (30)", ""],
+   ["ceremony", "/ˈserəmoʊni/", "seremonya", ""],
+   ["comfortable", "/ˈkʌmftəbl/", "komportable / maginhawa", ""]
+  ], "drop": []}
+ },
+ "be": {
+  "2": {"add": [], "drop": ["I live in Manila."]}
+ },
+ "it-there": {
+  "1": {"add": [
+   ["There are two cafes near here.", "/ðer ər ˈtuː kæˈfeɪz nɪr ˈhɪr/", "May dalawang kapihan malapit dito", ""]
+  ], "drop": []},
+  "3": {"add": [
+   ["There's a cafe here.", "/ðerz ə kæˈfeɪ ˈhɪr/", "May kapihan dito", ""]
+  ], "drop": []}
+ },
+ "articles": {
+  "0": {"add": [
+   ["an hour", "/ən ˈaʊər/", "isang oras", ""],
+   ["an idea", "/ən aɪˈdiːə/", "isang ideya", ""],
+   ["a university", "/ə ˌjuːnɪˈvɜːrsəti/", "isang unibersidad", ""],
+   ["a one-way ticket", "/ə ˈwʌn ˈweɪ ˈtɪkɪt/", "isang one-way na tiket", ""]
+  ], "drop": []},
+  "1": {"add": ["I'm from the Philippines."], "drop": []}
+ },
+ "plurals": {
+  "2": {"add": [
+   ["my bag", "/maɪ ˈbæg/", "ang bag ko", ""],
+   ["nice shoes", "/ˈnaɪs ˈʃuːz/", "magagandang sapatos", ""],
+   ["two friends", "/ˈtuː ˈfrendz/", "dalawang kaibigan", ""]
+  ], "drop": []}
+ },
+ "present": {
+  "0": {"add": [
+   ["I speak English.", "/aɪ ˈspiːk ˈɪŋglɪʃ/", "Nagsasalita ako ng Ingles", ""]
+  ], "drop": []},
+  "2": {"add": [
+   "I work at a bank.",
+   ["I don't drink coffee.", "/aɪ ˈdoʊnt ˈdrɪŋk ˈkɔːfi/", "Hindi ako umiinom ng kape", ""]
+  ], "drop": []},
+  "3": {"add": [
+   ["I always eat breakfast.", "/aɪ ˈɔːlweɪz ˈiːt ˈbrekfəst/", "Lagi akong nag-aalmusal", ""],
+   ["I sometimes work on weekends.", "/aɪ ˈsʌmtaɪmz ˈwɜːrk ɑːn ˈwiːkendz/", "Minsan nagtatrabaho ako tuwing Sabado at Linggo", ""]
+  ], "drop": []}
+ },
+ "questions": {
+  "0": {"add": [
+   ["Are you tired?", "/ər ju ˈtaɪərd/", "Pagod ka ba?", ""]
+  ], "drop": []},
+  "1": {"add": [
+   ["Yes, I do.", "/ˈjes aɪ ˈduː/", "Oo (sagot sa Do you …?)", ""],
+   ["No, I don't.", "/ˈnoʊ aɪ ˈdoʊnt/", "Hindi (sagot sa Do you …?)", ""]
+  ], "drop": []}
+ },
+ "third-s": {
+  "1": {"add": [
+   ["Does he speak English?", "/dəz hi ˈspiːk ˈɪŋglɪʃ/", "Nagsasalita ba siya ng Ingles? (lalaki ang tinutukoy)", ""],
+   ["She doesn't eat meat.", "/ʃi ˈdʌznt ˈiːt ˈmiːt/", "Hindi siya kumakain ng karne (babae ang tinutukoy)", ""]
+  ], "drop": []}
+ },
+ "prep": {
+  "1": {"add": [
+   ["At home", "/ət ˈhoʊm/", "Sa bahay", ""],
+   ["At work", "/ət ˈwɜːrk/", "Sa trabaho", ""],
+   ["On the table", "/ɑːn ðə ˈteɪbl/", "Sa ibabaw ng mesa", ""],
+   ["In the Philippines", "/ɪn ðə ˈfɪlɪpiːnz/", "Sa Pilipinas", ""]
+  ], "drop": []},
+  "2": {"add": [
+   ["I'm going home.", "/aɪm ˈgoʊɪŋ ˈhoʊm/", "Uuwi na ako", ""],
+   ["At night", "/ət ˈnaɪt/", "Sa gabi", ""],
+   ["In the morning", "/ɪn ðə ˈmɔːrnɪŋ/", "Sa umaga", ""]
+  ], "drop": []}
+ },
+ "countable": {
+  "3": {"add": [
+   ["some water", "/ˈsʌm ˈwɔːtər/", "kaunting tubig", ""],
+   ["a lot of money", "/ə ˈlɑːt əv ˈmʌni/", "maraming pera", ""],
+   ["information", "/ˌɪnfərˈmeɪʃn/", "impormasyon", ""],
+   ["luggage", "/ˈlʌgɪdʒ/", "bagahe", ""],
+   ["furniture", "/ˈfɜːrnɪtʃər/", "muwebles", ""]
+  ], "drop": []}
+ },
+ "object-have": {
+  "2": {"add": [
+   ["I have breakfast at seven.", "/aɪ ˈhæv ˈbrekfəst ət ˈsevn/", "Nag-aalmusal ako nang alas-siyete", ""]
+  ], "drop": []}
+ },
+ "can-like": {
+  "2": {"add": [
+   ["I'd like some water, please.", "/aɪd ˈlaɪk ˈsʌm ˈwɔːtər ˈpliːz/", "Tubig nga po", ""],
+   ["I like coffee.", "/aɪ ˈlaɪk ˈkɔːfi/", "Mahilig ako sa kape", ""]
+  ], "drop": []}
+ },
+ "polite": {
+  "1": {"add": [
+   ["Can I get some water, please?", "/kən aɪ ˈget ˈsʌm ˈwɔːtər ˈpliːz/", "Pahingi nga po ng tubig", ""],
+   ["I'd like a coffee, please.", "/aɪd ˈlaɪk ə ˈkɔːfi ˈpliːz/", "Isang kape nga po", ""]
+  ], "drop": []},
+  "2": {"add": [
+   ["Could you send the file?", "/kəd ju ˈsend ðə ˈfaɪl/", "Puwede mo bang ipadala ang file?", ""],
+   ["sir", "/ˈsɜːr/", "sir (tawag ng nagsisilbi sa lalaking customer)", ""],
+   ["ma'am", "/ˈmæm/", "ma'am (tawag ng nagsisilbi sa babaeng customer)", ""]
+  ], "drop": []},
+  "3": {"add": [
+   ["Would you mind closing the door?", "/wəd ju ˈmaɪnd ˈkloʊzɪŋ ðə ˈdɔːr/", "Puwede po bang pakisara ng pinto?", ""]
+  ], "drop": []}
+ },
+ "continuous": {
+  "1": {"add": [
+   ["I work every day.", "/aɪ ˈwɜːrk ˈevri ˈdeɪ/", "Nagtatrabaho ako araw-araw", ""],
+   ["She drinks tea.", "/ʃi ˈdrɪŋks ˈtiː/", "Umiinom siya ng tsaa (palagi; babae)", ""],
+   ["She's drinking tea.", "/ʃiz ˈdrɪŋkɪŋ ˈtiː/", "Umiinom siya ng tsaa ngayon (babae)", ""]
+  ], "drop": []},
+  "2": {"add": [
+   ["I know.", "/aɪ ˈnoʊ/", "Alam ko", ""],
+   ["I have a car.", "/aɪ ˈhæv ə ˈkɑːr/", "May kotse ako", ""]
+  ], "drop": []}
+ },
+ "past": {
+  "2": {"add": [
+   ["What did she tell you?", "/ˈwʌt dɪd ʃi ˈtel ju/", "Ano ang sinabi niya sa iyo? (babae)", ""],
+   ["Did you work yesterday?", "/dɪd ju ˈwɜːrk ˈjestərdeɪ/", "Nagtrabaho ka ba kahapon?", ""]
+  ], "drop": []}
+ },
+ "the": {
+  "0": {"add": [
+   ["I have a dog. The dog is so cute.", "/aɪ ˈhæv ə ˈdɔːg ‖ ðə ˈdɔːg ɪz ˈsoʊ ˈkjuːt/", "May aso ako. Ang cute ng asong iyon", ""],
+   ["I bought a book. The book is good.", "/aɪ ˈbɔːt ə ˈbʊk ‖ ðə ˈbʊk ɪz ˈgʊd/", "Bumili ako ng libro. Maganda ang librong iyon", ""]
+  ], "drop": []},
+  "2": {"add": [
+   ["Life is hard.", "/ˈlaɪf ɪz ˈhɑːrd/", "Mahirap ang buhay", ""],
+   ["I love dogs.", "/aɪ ˈlʌv ˈdɔːgz/", "Mahilig ako sa aso (lahat ng aso, hindi isang tiyak na aso)", ""]
+  ], "drop": []}
+ },
+ "adjectives": {
+  "1": {"add": [
+   ["the biggest", "/ðə ˈbɪgɪst/", "ang pinakamalaki", ""],
+   ["the most expensive", "/ðə ˈmoʊst ɪkˈspensɪv/", "ang pinakamahal", ""],
+   ["the worst", "/ðə ˈwɜːrst/", "ang pinakamasama", ""]
+  ], "drop": []}
+ },
+ "going-to": {
+  "1": {"add": [
+   ["It's going to be cold.", "/ɪts ˈgoʊɪŋ tə bi ˈkoʊld/", "Mukhang lalamig", ""],
+   ["It's going to be hot.", "/ɪts ˈgoʊɪŋ tə bi ˈhɑːt/", "Mukhang iinit", ""]
+  ], "drop": []},
+  "2": {"add": [
+   ["tomorrow", "/təˈmɑːroʊ/", "bukas", ""],
+   ["tonight", "/təˈnaɪt/", "mamayang gabi", ""],
+   ["this weekend", "/ˈðɪs ˈwiːkend/", "ngayong Sabado at Linggo", ""],
+   ["next week", "/ˈnekst ˈwiːk/", "sa susunod na linggo", ""],
+   ["I'm going to go.", "/aɪm ˈgoʊɪŋ tə ˈgoʊ/", "Pupunta ako", ""]
+  ], "drop": []}
+ },
+ "tense": {
+  "1": {"add": [
+   ["I had fun.", "/aɪ ˈhæd ˈfʌn/", "Nag-enjoy ako", ""],
+   "It was pretty relaxing."
+  ], "drop": []}
+ },
+ "joining": {
+  "1": {"add": [
+   ["It was raining, so I stayed home.", "/ɪt wəz ˈreɪnɪŋ soʊ aɪ ˈsteɪd ˈhoʊm/", "Umuulan, kaya nanatili ako sa bahay", ""],
+   ["I was hungry, so I had lunch.", "/aɪ wəz ˈhʌŋgri soʊ aɪ ˈhæd ˈlʌntʃ/", "Gutom ako, kaya nananghalian ako", ""]
+  ], "drop": []},
+  "2": {"add": [
+   ["I'm hungry because I didn't have breakfast.", "/aɪm ˈhʌŋgri bɪkəz aɪ ˈdɪdnt ˈhæv ˈbrekfəst/", "Gutom ako dahil hindi ako nag-almusal", ""]
+  ], "drop": []},
+  "3": {"add": [
+   ["I'm tired too.", "/aɪm ˈtaɪərd ˈtuː/", "Pagod din ako", ""],
+   ["I like coffee too.", "/aɪ ˈlaɪk ˈkɔːfi ˈtuː/", "Mahilig din ako sa kape", ""],
+   ["Although it rained, we went.", "/ɔːlˈðoʊ ɪt ˈreɪnd wi ˈwent/", "Kahit umulan, tumuloy kami", ""]
+  ], "drop": []}
+ },
+ "numbers": {
+  "0": {"add": [
+   ["Fifty thousand", "/ˈfɪfti ˈθaʊznd/", "Limampung libo (50,000)", ""],
+   ["One hundred thousand", "/ˈwʌn ˈhʌndrəd ˈθaʊznd/", "Sandaang libo (100,000)", ""]
+  ], "drop": []},
+  "4": {"add": [
+   ["January first", "/ˈdʒænjueri ˈfɜːrst/", "Enero 1", ""],
+   ["May third", "/ˈmeɪ ˈθɜːrd/", "Mayo 3", ""],
+   "What's the date today?"
+  ], "drop": []}
+ },
+ "smalltalk": {
+  "0": {"add": [
+   ["How are you?", "/ˈhaʊ ər ju/", "Kumusta ka?", ""],
+   "How's work?"
+  ], "drop": []},
+  "1": {"add": [
+   "Nice weather today, huh?",
+   "Any plans for the weekend?",
+   "What do you do for fun?",
+   "Have you seen any good shows lately?"
+  ], "drop": []}
+ },
+ "pinoy-english": {
+  "2": {"add": [
+   ["jeepney", "/ˈdʒiːpni/", "dyip", ""]
+  ], "drop": []}
+ },
+ "past-continuous": {
+  "1": {"add": [
+   ["I was sleeping when you called.", "/aɪ wəz ˈsliːpɪŋ wen ju ˈkɔːld/", "Natutulog ako nang tumawag ka", ""],
+   ["I cooked when you called.", "/aɪ ˈkʊkt wen ju ˈkɔːld/", "Nagluto ako pagkatawag mo", ""]
+  ], "drop": []}
+ },
+ "will": {
+  "0": {"add": [
+   ["I'll get the door.", "/aɪl ˈget ðə ˈdɔːr/", "Ako na ang magbubukas ng pinto", ""]
+  ], "drop": []},
+  "2": {"add": [
+   ["It won't rain.", "/ɪt ˈwoʊnt ˈreɪn/", "Hindi uulan", ""]
+  ], "drop": []},
+  "3": {"add": [
+   ["I'm going to visit Cebu next month.", "/aɪm ˈgoʊɪŋ tə ˈvɪzɪt seˈbuː ˈnekst ˈmʌnθ/", "Pupunta ako sa Cebu sa susunod na buwan (plano na)", ""],
+   ["I'll go.", "/aɪl ˈgoʊ/", "Sige, pupunta ako", ""],
+   ["I won't go.", "/aɪ ˈwoʊnt ˈgoʊ/", "Hindi ako pupunta", ""]
+  ], "drop": []}
+ },
+ "perfect": {
+  "1": {"add": [
+   ["be / was / been", "/ˈbiː/ /ˈwʌz/ /ˈbɪn/", "maging, nasa (base / past / past participle)", ""],
+   ["eat / ate / eaten", "/ˈiːt/ /ˈeɪt/ /ˈiːtn/", "kumain (base / past / past participle)", ""],
+   ["see / saw / seen", "/ˈsiː/ /ˈsɔː/ /ˈsiːn/", "makita (base / past / past participle)", ""],
+   ["do / did / done", "/ˈduː/ /ˈdɪd/ /ˈdʌn/", "gawin (base / past / past participle)", ""],
+   ["try / tried / tried", "/ˈtraɪ/ /ˈtraɪd/ /ˈtraɪd/", "subukan (base / past / past participle)", ""]
+  ], "drop": []},
+  "2": {"add": [
+   ["I ate yesterday.", "/aɪ ˈeɪt ˈjestərdeɪ/", "Kumain na ako kahapon", ""],
+   ["I'm here.", "/aɪm ˈhɪr/", "Nandito na ako", ""]
+  ], "drop": []}
+ },
+ "aspect-tense": {
+  "1": {"add": [
+   ["not yet", "/ˈnɑːt ˈjet/", "hindi pa", ""],
+   ["I ate yesterday.", "/aɪ ˈeɪt ˈjestərdeɪ/", "Kumain na ako kahapon", ""]
+  ], "drop": []},
+  "2": {"add": [
+   ["I worked yesterday.", "/aɪ ˈwɜːrkt ˈjestərdeɪ/", "Nagtrabaho ako kahapon", ""],
+   ["When I was a kid, I played basketball.", "/wen aɪ wəz ə ˈkɪd aɪ ˈpleɪd ˈbæskɪtbɔːl/", "Noong bata ako, naglalaro ako ng basketball", ""]
+  ], "drop": []},
+  "3": {"add": [
+   ["Does she work here?", "/dəz ʃi ˈwɜːrk ˈhɪr/", "Dito ba nagtatrabaho si Ana?", ""],
+   ["I'll eat later.", "/aɪl ˈiːt ˈleɪtər/", "Kakain ako mamaya", ""]
+  ], "drop": []}
+ },
+ "modals": {
+  "0": {"add": [
+   ["I have to go.", "/aɪ ˈhæf tə ˈgoʊ/", "Kailangan ko nang umalis", ""],
+   "I need to contact the Philippine embassy."
+  ], "drop": []},
+  "1": {"add": [
+   ["You don't have to come.", "/ju ˈdoʊnt ˈhæf tə ˈkʌm/", "Hindi mo kailangang pumunta", ""],
+   ["You must not smoke here.", "/ju ˈmʌst ˈnɑːt ˈsmoʊk ˈhɪr/", "Bawal manigarilyo rito", ""],
+   ["You don't have to pay.", "/ju ˈdoʊnt ˈhæf tə ˈpeɪ/", "Hindi mo kailangang magbayad", ""]
+  ], "drop": []},
+  "2": {"add": [
+   ["You should go.", "/ju ʃəd ˈgoʊ/", "Dapat kang pumunta", ""]
+  ], "drop": []},
+  "3": {"add": [
+   ["It might be cold.", "/ɪt maɪt bi ˈkoʊld/", "Baka malamig", ""]
+  ], "drop": []}
+ },
+ "to-ing": {
+  "2": {"add": [
+   ["I like to cook.", "/aɪ ˈlaɪk tə ˈkʊk/", "Mahilig akong magluto", ""],
+   ["I love cooking.", "/aɪ ˈlʌv ˈkʊkɪŋ/", "Mahilig na mahilig akong magluto", ""],
+   ["It started to rain.", "/ɪt ˈstɑːrtɪd tə ˈreɪn/", "Nagsimulang umulan", ""]
+  ], "drop": []}
+ },
+ "articles-2": {
+  "2": {"add": [
+   ["I like the dogs.", "/aɪ ˈlaɪk ðə ˈdɔːgz/", "Gusto ko ang mga asong iyon", ""],
+   ["Dogs are loyal.", "/ˈdɔːgz ər ˈlɔɪəl/", "Tapat ang mga aso", ""]
+  ], "drop": []}
+ },
+ "first-conditional": {
+  "1": {"add": ["Let me know if you have any questions."], "drop": []},
+  "2": {"add": [
+   ["When I see her, I'll tell her.", "/wen aɪ ˈsiː hər aɪl ˈtel hər/", "Kapag nakita ko siya, sasabihin ko sa kaniya (babae)", ""],
+   ["When I finish work, I'll call you.", "/wen aɪ ˈfɪnɪʃ ˈwɜːrk aɪl ˈkɔːl ju/", "Pagkatapos ng trabaho ko, tatawagan kita", ""]
+  ], "drop": []}
+ },
+ "relative": {
+  "0": {"add": [
+   ["I have a brother who works in Manila.", "/aɪ ˈhæv ə ˈbrʌðər hu ˈwɜːrks ɪn məˈnɪlə/", "May kapatid akong lalaki na nagtatrabaho sa Maynila", ""]
+  ], "drop": []},
+  "1": {"add": [
+   ["the movie that we saw", "/ðə ˈmuːvi ðət wi ˈsɔː/", "ang pelikulang pinanood namin", ""]
+  ], "drop": []},
+  "2": {"add": [
+   ["the book I bought", "/ðə ˈbʊk aɪ ˈbɔːt/", "ang librong binili ko (walang that)", ""],
+   ["This is the phone I want.", "/ˈðɪs ɪz ðə ˈfoʊn aɪ ˈwɑːnt/", "Ito ang cellphone na gusto ko (walang that)", ""]
+  ], "drop": []},
+  "3": {"add": [
+   ["the restaurant where we ate", "/ðə ˈrestərɑːnt wer wi ˈeɪt/", "ang restawran kung saan kami kumain", ""],
+   ["the house where I live", "/ðə ˈhaʊs wer aɪ ˈlɪv/", "ang bahay kung saan ako nakatira", ""]
+  ], "drop": []}
+ },
+ "perfect-2": {
+  "1": {"add": [
+   "I've been learning English for a year.",
+   ["I've lived here for five years.", "/aɪv ˈlɪvd ˈhɪr fər ˈfaɪv ˈjɪrz/", "Limang taon na akong nakatira dito", ""]
+  ], "drop": []}
+ },
+ "narrative": {
+  "0": {"add": [
+   ["I was walking home.", "/aɪ wəz ˈwɔːkɪŋ ˈhoʊm/", "Naglalakad ako pauwi noon", ""],
+   ["I saw an old friend.", "/aɪ ˈsɔː ən ˈoʊld ˈfrend/", "Nakasalubong ko ang isang matagal ko nang kaibigan", ""]
+  ], "drop": []},
+  "1": {"add": [
+   ["He had moved to Cebu.", "/hi həd ˈmuːvd tə seˈbuː/", "Nakalipat na pala siya sa Cebu noon (lalaki)", ""]
+  ], "drop": []},
+  "2": {"add": [
+   ["first", "/ˈfɜːrst/", "una / muna", ""],
+   ["then", "/ˈðen/", "pagkatapos", ""],
+   ["after that", "/ˈæftər ˈðæt/", "pagkatapos niyon", ""],
+   ["finally", "/ˈfaɪnəli/", "sa wakas", ""]
+  ], "drop": []}
+ },
+ "conditionals": {
+  "1": {"add": [
+   ["If I had known, I would have called.", "/ɪf aɪ həd ˈnoʊn aɪ wəd əv ˈkɔːld/", "Kung alam ko lang, tumawag sana ako", ""],
+   ["If it hadn't rained, we would have gone.", "/ɪf ɪt ˈhædnt ˈreɪnd wi wəd əv ˈgɔːn/", "Kung hindi sana umulan, tumuloy sana kami", ""]
+  ], "drop": []},
+  "2": {"add": [
+   ["I should have studied.", "/aɪ ʃəd əv ˈstʌdid/", "Dapat sana nag-aral ako", ""],
+   ["I wish I had a car.", "/aɪ ˈwɪʃ aɪ ˈhæd ə ˈkɑːr/", "Sana may kotse ako", ""]
+  ], "drop": []}
+ },
+ "passive": {
+  "1": {"add": [
+   ["This was made by my mom.", "/ˈðɪs wəz ˈmeɪd baɪ maɪ ˈmɑːm/", "Gawa ito ng nanay ko", ""],
+   ["The report was written by Ana.", "/ðə rɪˈpɔːrt wəz ˈrɪtn baɪ ˈɑːnə/", "Si Ana ang sumulat ng report", ""]
+  ], "drop": []},
+  "2": {"add": [
+   ["I bought the tickets.", "/aɪ ˈbɔːt ðə ˈtɪkɪts/", "Binili ko ang mga tiket", ""],
+   ["She cooked the adobo.", "/ʃi ˈkʊkt ði əˈdoʊboʊ/", "Niluto ni Ana ang adobo", ""]
+  ], "drop": []},
+  "3": {"add": [
+   ["Someone stole my bag.", "/ˈsʌmwʌn ˈstoʊl maɪ ˈbæg/", "May nagnakaw ng bag ko", ""],
+   ["My bag was stolen.", "/maɪ ˈbæg wəz ˈstoʊlən/", "Ninakaw ang bag ko", ""],
+   ["They canceled the flight.", "/ðeɪ ˈkænsld ðə ˈflaɪt/", "Kinansela nila ang flight", ""],
+   ["The flight was canceled.", "/ðə ˈflaɪt wəz ˈkænsld/", "Kinansela ang flight", ""],
+   ["The house was built in 1990.", "/ðə ˈhaʊs wəz ˈbɪlt ɪn ˌnaɪnˈtiːn ˈnaɪnti/", "Itinayo ang bahay noong 1990", ""]
+  ], "drop": []}
+ },
+ "reported": {
+  "1": {"add": [
+   ["She asked where I worked.", "/ʃi ˈæskt ˈwer aɪ ˈwɜːrkt/", "Tinanong ni Ana kung saan ako nagtatrabaho", ""],
+   ["He asked if I was busy.", "/hi ˈæskt ɪf aɪ wəz ˈbɪzi/", "Tinanong ni Paolo kung abala ako", ""]
+  ], "drop": []}
+ },
+ "email": {
+  "0": {"add": [
+   "I'm writing to ask about the schedule.",
+   ["I hope you're doing well.", "/aɪ ˈhoʊp jʊr ˈduːɪŋ ˈwel/", "Sana ay mabuti ang lagay mo", ""]
+  ], "drop": []},
+  "2": {"add": [
+   "Could you send me the file by Friday?",
+   "What's the deadline?",
+   ["The office is closed on Monday.", "/ði ˈɑːfɪs ɪz ˈkloʊzd ɑːn ˈmʌndeɪ/", "Sarado ang opisina sa Lunes", ""]
+  ], "drop": []}
+ },
+ "idioms": {
+  "1": {"add": [
+   ["Kill two birds with one stone.", "/ˈkɪl ˈtuː ˈbɜːrdz wɪð ˈwʌn ˈstoʊn/", "Makatama ng dalawang ibon sa isang bato", ""],
+   ["A blessing in disguise", "/ə ˈblesɪŋ ɪn dɪsˈgaɪz/", "Biyayang mukhang problema sa simula", ""]
+  ], "drop": []},
+  "2": {"add": [
+   ["No cap.", "/ˈnoʊ ˈkæp/", "Totoo, walang halong biro (sa magkakaibigan lang)", ""],
+   ["That song slaps.", "/ˈðæt ˈsɔːŋ ˈslæps/", "Ang lupit ng kantang iyan (sa magkakaibigan lang)", ""]
+  ], "drop": []}
+ }
+}

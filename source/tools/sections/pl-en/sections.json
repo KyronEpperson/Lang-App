@@ -1,0 +1,391 @@
+{
+ "_about": "SEC-1 writer file for pl-en.",
+ "alphabet": {
+  "1": {"add": ["E", "I", "A", "G", "J", "Y"]},
+  "3": {"add": [
+   ["an H", "/ən ˈeɪtʃ/", "H (z an, bo nazwa zaczyna się od samogłoski)", ""],
+   ["a U", "/ə ˈjuː/", "U (z a, bo nazwa zaczyna się od /j/)", ""],
+   ["double N", "/ˈdʌbl ˈen/", "dwie litery N pod rząd", ""],
+   ["dot", "/ˈdɑːt/", "kropka (w adresie e-mail)", ""],
+   ["at", "/ˈæt/", "małpa (@) w adresie e-mail", ""]
+  ]}
+ },
+ "pron": {
+  "0": {"add": [
+   ["yes", "/ˈjes/", "tak", ""],
+   ["job", "/ˈdʒɑːb/", "praca (posada)", ""],
+   ["hot", "/ˈhɑːt/", "gorący", ""]
+  ]},
+  "5": {"drop": ["coffee"]}
+ },
+ "be": {
+  "1": {"add": ["I'm a student.", "I'm 25 years old."]},
+  "2": {"add": [
+   ["I'm not tired.", "/aɪm ˈnɑːt ˈtaɪərd/", "Nie jestem zmęczona", ""],
+   ["I don't like coffee.", "/aɪ ˈdoʊnt ˈlaɪk ˈkɔːfi/", "Nie lubię kawy", ""],
+   ["Do you like coffee?", "/də ju ˈlaɪk ˈkɔːfi/", "Czy lubisz kawę?", ""]
+  ]}
+ },
+ "it-there": {
+  "3": {"add": [
+   ["There's a cafe here.", "/ðerz ə kæˈfeɪ ˈhɪr/", "Jest tu kawiarnia", ""]
+  ]}
+ },
+ "articles": {
+  "0": {"add": [
+   ["an hour", "/ən ˈaʊər/", "godzina", ""],
+   ["a university", "/ə ˌjuːnɪˈvɜːrsəti/", "uniwersytet", ""],
+   ["an idea", "/ən aɪˈdiːə/", "pomysł", ""],
+   ["an old car", "/ən ˈoʊld ˈkɑːr/", "stary samochód", ""]
+  ]},
+  "1": {"add": [
+   ["the sun", "/ðə ˈsʌn/", "słońce", ""],
+   ["Close the door.", "/ˈkloʊz ðə ˈdɔːr/", "Zamknij drzwi", ""]
+  ]}
+ },
+ "plurals": {
+  "1": {"add": ["this"]},
+  "2": {"add": [
+   ["my bag", "/maɪ ˈbæg/", "moja torba", ""],
+   ["his phone", "/hɪz ˈfoʊn/", "jego telefon", ""],
+   ["our room", "/ˈaʊər ˈruːm/", "nasz pokój", ""]
+  ]},
+  "3": {"add": [
+   ["my brother's car", "/maɪ ˈbrʌðərz ˈkɑːr/", "samochód mojego brata", ""],
+   ["Anna's phone", "/ˈænəz ˈfoʊn/", "telefon Anny", ""],
+   ["two friends", "/ˈtuː ˈfrendz/", "dwoje przyjaciół", ""]
+  ]}
+ },
+ "present": {
+  "0": {"add": [
+   "I work at a bank.",
+   ["I like coffee.", "/aɪ ˈlaɪk ˈkɔːfi/", "Lubię kawę", ""]
+  ]},
+  "2": {"add": [
+   "I work in marketing.",
+   ["I don't drink coffee.", "/aɪ ˈdoʊnt ˈdrɪŋk ˈkɔːfi/", "Nie piję kawy", ""],
+   ["I don't work on weekends.", "/aɪ ˈdoʊnt ˈwɜːrk ɑːn ˈwiːkendz/", "Nie pracuję w weekendy", ""]
+  ]},
+  "3": {"add": [
+   ["I'm always late.", "/aɪm ˈɔːlweɪz ˈleɪt/", "Zawsze się spóźniam", ""],
+   ["I understand you very well.", "/aɪ ˌʌndərˈstænd ju ˈveri ˈwel/", "Bardzo dobrze cię rozumiem", ""],
+   ["I drink coffee every day.", "/aɪ ˈdrɪŋk ˈkɔːfi ˈevri ˈdeɪ/", "Codziennie piję kawę", ""]
+  ]}
+ },
+ "questions": {
+  "0": {"add": [
+   ["Are you tired?", "/ər ju ˈtaɪərd/", "Jesteś zmęczony?", ""],
+   ["Is she a student?", "/ɪz ʃi ə ˈstuːdnt/", "Czy ona jest studentką?", ""]
+  ]},
+  "1": {"add": [
+   ["Yes, I do.", "/ˈjes aɪ ˈduː/", "Tak (krótka odpowiedź na pytanie z do)", ""],
+   ["No, I don't.", "/ˈnoʊ aɪ ˈdoʊnt/", "Nie (krótka odpowiedź na pytanie z do)", ""]
+  ], "drop": ["live"]}
+ },
+ "third-s": {
+  "0": {"drop": ["I work at a bank."]},
+  "1": {"add": [
+   ["Does she work?", "/dəz ʃi ˈwɜːrk/", "Czy ona pracuje?", ""],
+   ["She can swim.", "/ʃi kən ˈswɪm/", "Ona umie pływać", ""]
+  ]}
+ },
+ "prep": {
+  "0": {"drop": ["It's May 3rd."]},
+  "1": {"add": [
+   ["in Warsaw", "/ɪn ˈwɔːrsɔː/", "w Warszawie", ""],
+   ["on the table", "/ɑːn ðə ˈteɪbl/", "na stole", ""],
+   ["at home", "/ət ˈhoʊm/", "w domu", ""]
+  ]},
+  "2": {"add": [
+   ["in the picture", "/ɪn ðə ˈpɪktʃər/", "na zdjęciu", ""],
+   ["at the meeting", "/ət ðə ˈmiːtɪŋ/", "na spotkaniu", ""],
+   ["go home", "/ˈgoʊ ˈhoʊm/", "iść do domu", ""],
+   ["listen to music", "/ˈlɪsən tə ˈmjuːzɪk/", "słuchać muzyki", ""],
+   ["wait for the bus", "/ˈweɪt fər ðə ˈbʌs/", "czekać na autobus", ""]
+  ]},
+  "3": {"add": [
+   ["at night", "/ət ˈnaɪt/", "w nocy", ""],
+   ["in the morning", "/ɪn ðə ˈmɔːrnɪŋ/", "rano", ""],
+   ["on the weekend", "/ɑːn ðə ˈwiːkend/", "w weekend (w USA)", ""]
+  ]}
+ },
+ "object-have": {
+  "1": {"add": [
+   ["have lunch", "/ˈhæv ˈlʌntʃ/", "jeść lunch", ""],
+   ["have coffee", "/ˈhæv ˈkɔːfi/", "pić kawę", ""]
+  ]},
+  "2": {"add": [
+   ["I like my job.", "/aɪ ˈlaɪk maɪ ˈdʒɑːb/", "Lubię swoją pracę", ""],
+   ["She likes her job.", "/ʃi ˈlaɪks hər ˈdʒɑːb/", "Ona lubi swoją pracę", ""]
+  ]}
+ },
+ "can-like": {
+  "1": {"drop": ["very"]},
+  "2": {"add": [
+   ["I like coffee.", "/aɪ ˈlaɪk ˈkɔːfi/", "Lubię kawę (w ogóle)", ""],
+   ["I'd like some water.", "/aɪd ˈlaɪk ˈsʌm ˈwɔːtər/", "Poproszę wodę", ""]
+  ]}
+ },
+ "polite": {
+  "1": {"add": [
+   ["Can I get a coffee, please?", "/kən aɪ ˈget ə ˈkɔːfi ˈpliːz/", "Poproszę kawę", ""],
+   ["I'd like a glass of water.", "/aɪd ˈlaɪk ə ˈglæs əv ˈwɔːtər/", "Poproszę szklankę wody", ""]
+  ]},
+  "2": {"add": [
+   ["Would you mind waiting?", "/wəd ju ˈmaɪnd ˈweɪtɪŋ/", "Czy mógłby pan chwilę poczekać?", ""],
+   ["Would you mind closing the door?", "/wəd ju ˈmaɪnd ˈkloʊzɪŋ ðə ˈdɔːr/", "Czy mogłaby pani zamknąć drzwi?", ""]
+  ]}
+ },
+ "continuous": {
+  "1": {"add": [
+   "I'm working now.",
+   ["I work every day.", "/aɪ ˈwɜːrk ˈevri ˈdeɪ/", "Pracuję codziennie", ""],
+   ["She drinks tea.", "/ʃi ˈdrɪŋks ˈtiː/", "Ona pije herbatę (zwykle)", ""],
+   ["She's drinking tea.", "/ʃiz ˈdrɪŋkɪŋ ˈtiː/", "Ona pije herbatę (teraz)", ""]
+  ]},
+  "2": {"add": [
+   ["I understand.", "/aɪ ˌʌndərˈstænd/", "Rozumiem", ""],
+   ["I like it.", "/aɪ ˈlaɪk ɪt/", "Podoba mi się", ""]
+  ]}
+ },
+ "past": {
+  "2": {"add": [
+   ["Did you watch the movie?", "/dɪd ju ˈwɑːtʃ ðə ˈmuːvi/", "Obejrzałeś ten film?", ""],
+   ["She didn't call me.", "/ʃi ˈdɪdnt ˈkɔːl mi/", "Nie zadzwoniła do mnie", ""]
+  ]}
+ },
+ "the": {
+  "0": {"add": [
+   ["I have a dog. The dog is so cute.", "/aɪ ˈhæv ə ˈdɔːg ‖ ðə ˈdɔːg ɪz ˈsoʊ ˈkjuːt/", "Mam psa. Ten pies jest taki słodki", ""],
+   ["I saw a movie. The movie was great.", "/aɪ ˈsɔː ə ˈmuːvi ‖ ðə ˈmuːvi wəz ˈgreɪt/", "Obejrzałem film. Film był świetny", ""]
+  ]}
+ },
+ "adjectives": {
+  "1": {"add": [
+   ["the cheapest", "/ðə ˈtʃiːpɪst/", "najtańszy", ""],
+   ["the most expensive", "/ðə ˈmoʊst ɪkˈspensɪv/", "najdroższy", ""],
+   ["the worst", "/ðə ˈwɜːrst/", "najgorszy", ""]
+  ]}
+ },
+ "going-to": {
+  "1": {"add": [
+   ["You're going to be late.", "/jʊr ˈgoʊɪŋ tə bi ˈleɪt/", "Spóźnisz się (widać to już teraz)", ""],
+   ["It's going to be cold.", "/ɪts ˈgoʊɪŋ tə bi ˈkoʊld/", "Będzie zimno", ""]
+  ]},
+  "2": {"add": [
+   ["tomorrow", "/təˈmɑːroʊ/", "jutro", ""],
+   ["tonight", "/təˈnaɪt/", "dziś wieczorem", ""],
+   ["this weekend", "/ˈðɪs ˈwiːkend/", "w ten weekend", ""],
+   ["next week", "/ˈnekst ˈwiːk/", "w przyszłym tygodniu", ""],
+   ["I'm going to go.", "/aɪm ˈgoʊɪŋ tə ˈgoʊ/", "Zamierzam iść", ""]
+  ]}
+ },
+ "tense": {
+  "0": {"add": [
+   ["I'm reading.", "/aɪm ˈriːdɪŋ/", "Czytam (teraz)", ""],
+   ["I drink coffee every morning.", "/aɪ ˈdrɪŋk ˈkɔːfi ˈevri ˈmɔːrnɪŋ/", "Co rano piję kawę", ""],
+   ["I'm drinking coffee right now.", "/aɪm ˈdrɪŋkɪŋ ˈkɔːfi ˈraɪt ˈnaʊ/", "Właśnie piję kawę", ""]
+  ]},
+  "1": {"add": [
+   "It was pretty relaxing.",
+   ["I saw a movie.", "/aɪ ˈsɔː ə ˈmuːvi/", "Obejrzałem film", ""]
+  ]}
+ },
+ "joining": {
+  "1": {"add": [
+   ["It was raining, so I stayed home.", "/ɪt wəz ˈreɪnɪŋ soʊ aɪ ˈsteɪd ˈhoʊm/", "Padało, więc zostałam w domu", ""],
+   ["It's late, so I'm going home.", "/ɪts ˈleɪt soʊ aɪm ˈgoʊɪŋ ˈhoʊm/", "Jest późno, więc idę do domu", ""]
+  ]},
+  "2": {"add": [
+   ["I think that he is right.", "/aɪ ˈθɪŋk ðət hi ɪz ˈraɪt/", "Myślę, że on ma rację", ""]
+  ]},
+  "3": {"add": [
+   ["I'm tired too.", "/aɪm ˈtaɪərd ˈtuː/", "Ja też jestem zmęczony", ""],
+   ["I'm hungry too.", "/aɪm ˈhʌŋgri ˈtuː/", "Ja też jestem głodna", ""]
+  ]},
+  "4": {"add": [
+   ["everything that you need", "/ˈevriθɪŋ ðət ju ˈniːd/", "wszystko, czego potrzebujesz", ""],
+   ["I know what you need.", "/aɪ ˈnoʊ ˈwʌt ju ˈniːd/", "Wiem, czego potrzebujesz", ""]
+  ]}
+ },
+ "smalltalk": {
+  "1": {"add": ["Nice weather today, huh?", "Any plans for the weekend?", "Have you seen any good shows lately?", "How's work?"]}
+ },
+ "ponglish": {
+  "3": {"add": ["My phone is old. It doesn't work."]}
+ },
+ "past-continuous": {
+  "1": {"add": [
+   ["I was sleeping when you called.", "/aɪ wəz ˈsliːpɪŋ wen ju ˈkɔːld/", "Spałem, kiedy zadzwoniłaś", ""],
+   ["I cooked when you called.", "/aɪ ˈkʊkt wen ju ˈkɔːld/", "Zabrałam się do gotowania, gdy zadzwoniłeś", ""]
+  ]}
+ },
+ "will": {
+  "0": {"add": [
+   ["I'll have a coffee.", "/aɪl ˈhæv ə ˈkɔːfi/", "Wezmę kawę", ""]
+  ]},
+  "2": {"add": [
+   ["It won't rain.", "/ɪt ˈwoʊnt ˈreɪn/", "Nie będzie padać", ""],
+   ["You'll like it.", "/jul ˈlaɪk ɪt/", "Spodoba ci się", ""]
+  ]},
+  "3": {"add": [
+   ["I'll get the door.", "/aɪl ˈget ðə ˈdɔːr/", "Otworzę (drzwi)", ""],
+   ["I'm going to visit Krakow next month.", "/aɪm ˈgoʊɪŋ tə ˈvɪzɪt ˈkrɑːkaʊ ˈnekst ˈmʌnθ/", "W przyszłym miesiącu zamierzam odwiedzić Kraków", ""]
+  ]},
+  "4": {"add": [
+   ["If it rains, I'll stay home.", "/ɪf ɪt ˈreɪnz aɪl ˈsteɪ ˈhoʊm/", "Jeśli będzie padać, zostanę w domu", ""],
+   ["I'll go.", "/aɪl ˈgoʊ/", "Pójdę", ""]
+  ]}
+ },
+ "perfect": {
+  "1": {"add": [
+   ["She's been to Italy.", "/ʃiz bɪn tu ˈɪtəli/", "Była we Włoszech (i już wróciła)", ""],
+   ["He's gone to work.", "/hiz ˈgɔːn tə ˈwɜːrk/", "Poszedł do pracy (i jeszcze tam jest)", ""]
+  ]},
+  "2": {"add": [
+   ["been", "/ˈbɪn/", "trzecia forma be (być)", ""],
+   ["eaten", "/ˈiːtn/", "trzecia forma eat (jeść)", ""],
+   ["seen", "/ˈsiːn/", "trzecia forma see (widzieć)", ""],
+   ["done", "/ˈdʌn/", "trzecia forma do (robić)", ""],
+   ["tried", "/ˈtraɪd/", "druga i trzecia forma try (próbować)", ""]
+  ]},
+  "3": {"add": [
+   ["I didn't see her yesterday.", "/aɪ ˈdɪdnt ˈsiː hər ˈjestərdeɪ/", "Wczoraj jej nie widziałem", ""],
+   ["I saw it yesterday.", "/aɪ ˈsɔː ɪt ˈjestərdeɪ/", "Widziałam to wczoraj", ""]
+  ]}
+ },
+ "modals": {
+  "1": {"add": [
+   ["You don't have to come.", "/ju ˈdoʊnt ˈhæf tə ˈkʌm/", "Nie musisz przychodzić", ""],
+   ["You mustn't come.", "/ju ˈmʌsnt ˈkʌm/", "Nie wolno ci przyjść", ""]
+  ]},
+  "2": {"add": [
+   ["You should go.", "/ju ʃəd ˈgoʊ/", "Powinieneś iść", ""]
+  ]},
+  "3": {"add": [
+   ["She might come.", "/ʃi maɪt ˈkʌm/", "Może przyjdzie", ""],
+   ["I must go.", "/aɪ məst ˈgoʊ/", "Muszę iść", ""]
+  ]}
+ },
+ "to-ing": {
+  "2": {"add": [
+   ["I like to cook.", "/aɪ ˈlaɪk tə ˈkʊk/", "Lubię gotować", ""],
+   ["I love cooking.", "/aɪ ˈlʌv ˈkʊkɪŋ/", "Uwielbiam gotować", ""],
+   ["It started to rain.", "/ɪt ˈstɑːrtɪd tə ˈreɪn/", "Zaczęło padać", ""]
+  ]},
+  "3": {"add": [
+   ["I want you to help me.", "/aɪ ˈwɑːnt ju tə ˈhelp mi/", "Chcę, żebyś mi pomógł", ""],
+   ["She wants me to call her.", "/ʃi ˈwɑːnts mi tə ˈkɔːl hər/", "Ona chce, żebym do niej zadzwonił", ""]
+  ]}
+ },
+ "articles-2": {
+  "2": {"add": [
+   ["I like the dogs.", "/aɪ ˈlaɪk ðə ˈdɔːgz/", "Lubię te (konkretne) psy", ""]
+  ]}
+ },
+ "first-conditional": {
+  "1": {"add": ["Let me know if you have any questions."]},
+  "2": {"add": [
+   ["When I arrive, I'll call you.", "/wen aɪ əˈraɪv aɪl ˈkɔːl ju/", "Kiedy przyjadę, zadzwonię do ciebie", ""],
+   ["Wait until I get home.", "/ˈweɪt əntɪl aɪ ˈget ˈhoʊm/", "Poczekaj, aż wrócę do domu", ""]
+  ]}
+ },
+ "relative": {
+  "0": {"add": [
+   ["my friend who lives in Krakow", "/maɪ ˈfrend hu ˈlɪvz ɪn ˈkrɑːkaʊ/", "mój znajomy, który mieszka w Krakowie", ""],
+   ["She has a brother who works in Warsaw.", "/ʃi ˈhæz ə ˈbrʌðər hu ˈwɜːrks ɪn ˈwɔːrsɔː/", "Ona ma brata, który pracuje w Warszawie", ""]
+  ]},
+  "1": {"add": [
+   ["a phone that works", "/ə ˈfoʊn ðət ˈwɜːrks/", "telefon, który działa", ""]
+  ]},
+  "2": {"add": [
+   ["The man who lives next door is a doctor.", "/ðə ˈmæn hu ˈlɪvz ˈnekst ˈdɔːr ɪz ə ˈdɑːktər/", "Mężczyzna, który mieszka obok, jest lekarzem", ""],
+   ["The book that I bought is great.", "/ðə ˈbʊk ðət aɪ ˈbɔːt ɪz ˈgreɪt/", "Książka, którą kupiłam, jest świetna", ""],
+   ["People who live here are nice.", "/ˈpiːpl hu ˈlɪv ˈhɪr ər ˈnaɪs/", "Ludzie, którzy tu mieszkają, są mili", ""]
+  ]},
+  "3": {"add": [
+   ["the book I bought", "/ðə ˈbʊk aɪ ˈbɔːt/", "książka, którą kupiłam", ""],
+   ["the phone I want", "/ðə ˈfoʊn aɪ ˈwɑːnt/", "telefon, który chcę", ""]
+  ]},
+  "4": {"add": [
+   ["the city where I live", "/ðə ˈsɪti wer aɪ ˈlɪv/", "miasto, w którym mieszkam", ""],
+   ["everything you need", "/ˈevriθɪŋ ju ˈniːd/", "wszystko, czego potrzebujesz", ""]
+  ]}
+ },
+ "perfect-2": {
+  "1": {"add": [
+   ["How long have you been in Poland?", "/ˈhaʊ ˈlɔːŋ həv ju bɪn ɪn ˈpoʊlənd/", "Jak długo jesteś w Polsce?", ""]
+  ]}
+ },
+ "narrative": {
+  "0": {"add": [
+   ["I was walking home.", "/aɪ wəz ˈwɔːkɪŋ ˈhoʊm/", "Szłam do domu", ""],
+   ["I saw an old friend.", "/aɪ ˈsɔː ən ˈoʊld ˈfrend/", "Zobaczyłam starego znajomego", ""],
+   ["He had moved to Krakow.", "/hi həd ˈmuːvd tə ˈkrɑːkaʊ/", "Przeprowadził się do Krakowa (jeszcze wcześniej)", ""]
+  ]},
+  "1": {"add": [
+   ["I had already eaten.", "/aɪ həd ɔːlˈredi ˈiːtn/", "Już wcześniej zjadłam", ""]
+  ]},
+  "2": {"add": [
+   ["first", "/ˈfɜːrst/", "najpierw", ""],
+   ["then", "/ˈðen/", "potem", ""],
+   ["after that", "/ˈæftər ˈðæt/", "następnie", ""],
+   ["finally", "/ˈfaɪnəli/", "w końcu", ""]
+  ]}
+ },
+ "conditionals": {
+  "1": {"add": [
+   ["If I had known, I would have told you.", "/ɪf aɪ həd ˈnoʊn aɪ wəd əv ˈtoʊld ju/", "Gdybym wiedział, powiedziałbym ci", ""]
+  ]},
+  "2": {"add": [
+   ["I should have studied.", "/aɪ ʃəd əv ˈstʌdid/", "Trzeba było się uczyć", ""]
+  ]}
+ },
+ "passive": {
+  "1": {"add": [
+   ["It was made by my mom.", "/ɪt wəz ˈmeɪd baɪ maɪ ˈmɑːm/", "Zrobiła to moja mama", ""],
+   ["The meeting was canceled by my boss.", "/ðə ˈmiːtɪŋ wəz ˈkænsld baɪ maɪ ˈbɔːs/", "Spotkanie odwołał mój szef", ""]
+  ]},
+  "2": {"add": [
+   ["Someone stole my bag.", "/ˈsʌmwʌn ˈstoʊl maɪ ˈbæg/", "Ktoś ukradł mi torbę", ""],
+   ["My bag was stolen.", "/maɪ ˈbæg wəz ˈstoʊlən/", "Ukradziono mi torbę", ""],
+   ["They canceled the flight.", "/ðeɪ ˈkænsld ðə ˈflaɪt/", "Odwołali lot", ""],
+   ["The flight was canceled.", "/ðə ˈflaɪt wəz ˈkænsld/", "Lot został odwołany", ""]
+  ]}
+ },
+ "articles-3": {
+  "0": {"add": [
+   ["I'm an engineer.", "/aɪm ən ˌendʒɪˈnɪr/", "Jestem inżynierem", ""],
+   ["a young man", "/ə ˈjʌŋ ˈmæn/", "młody mężczyzna", ""]
+  ]}
+ },
+ "reported": {
+  "1": {"add": [
+   ["She asked what I wanted.", "/ʃi ˈæskt ˈwʌt aɪ ˈwɑːntɪd/", "Zapytała, czego chcę", ""]
+  ]}
+ },
+ "email": {
+  "0": {"add": [
+   "I'm writing to ask about the schedule.",
+   ["I hope you're doing well.", "/aɪ ˈhoʊp jʊr ˈduːɪŋ ˈwel/", "Mam nadzieję, że u pani wszystko dobrze", ""]
+  ]},
+  "1": {"add": [
+   ["Hi Anna,", "/ˈhaɪ ˈænə/", "Dzień dobry, pani Anno (w e-mailu)", ""],
+   ["Dear Ms. Nowak,", "/ˈdɪr ˈmɪz ˈnoʊvæk/", "Szanowna Pani (oficjalnie, z nazwiskiem)", ""]
+  ]},
+  "2": {"add": [
+   "Could you send me the file by Friday?",
+   ["I think that the report is ready.", "/aɪ ˈθɪŋk ðət ðə rɪˈpɔːrt ɪz ˈredi/", "Myślę, że raport jest gotowy", ""]
+  ]}
+ },
+ "idioms": {
+  "1": {"add": [
+   ["Kill two birds with one stone", "/ˈkɪl ˈtuː ˈbɜːrdz wɪð ˈwʌn ˈstoʊn/", "Upiec dwie pieczenie na jednym ogniu", ""],
+   ["A blessing in disguise", "/ə ˈblesɪŋ ɪn dɪsˈgaɪz/", "Szczęście w nieszczęściu", ""]
+  ]},
+  "2": {"add": [
+   ["No cap.", "/ˈnoʊ ˈkæp/", "Serio, bez ściemy (slang)", ""],
+   ["That song slaps.", "/ˈðæt ˈsɔːŋ ˈslæps/", "Ta piosenka wymiata (slang)", ""]
+  ]}
+ }
+}

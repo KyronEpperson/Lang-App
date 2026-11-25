@@ -1,0 +1,358 @@
+{
+ "_about": "SEC-1 writer file for ko-en.",
+ "alphabet": {
+  "1": {"add": ["G", "Z", "E", "I", "R", "W"]},
+  "3": {"add": [
+    ["an F", "언 에프", "F 하나 (이름이 모음 소리 '에'로 시작해서 an)", ""],
+    ["an M", "언 엠", "M 하나 (이름이 모음 소리 '엠'으로 시작해서 an)", ""],
+    ["a U", "어 유", "U 하나 (이름이 y 소리 '유'로 시작해서 a)", ""],
+    ["capital T", "캐피털 티", "대문자 T", ""],
+    ["double L", "더블 엘", "L 두 개 (같은 글자 연속)", ""],
+    ["jay dot park at mail dot com", "제이 닷 파크 앳 메일 닷 컴", "jay.park@mail.com (이메일 불러 주기)", ""]
+  ]}
+ },
+ "pron": {
+  "3": {"add": [
+    "milk",
+    ["bag", "백 (g)", "가방", ""],
+    ["back", "백 (k)", "등 / 뒤", ""],
+    ["cab", "캡 (b)", "택시", ""],
+    ["cap", "캡 (p)", "모자", ""]
+  ]}
+ },
+ "be": {
+  "1": {"add": ["I work at a bank.", "I'm a student."]}
+ },
+ "it-there": {
+  "1": {"add": [
+    ["There's a bank near here.", "데어즈 어 뱅크 니어 히어", "이 근처에 은행이 있어요", ""]
+  ]},
+  "3": {"add": [
+    ["There's a cafe here.", "데어즈 어 캐페이 히어", "여기 카페가 있어요", ""]
+  ]}
+ },
+ "articles": {
+  "0": {"add": [
+    ["an hour", "언 아워", "한 시간", ""],
+    ["an idea", "언 아이디어", "아이디어 하나", ""],
+    ["a university", "어 유니버시티", "대학교 하나", ""]
+  ]},
+  "1": {"add": [
+    ["the sun", "더 썬", "해 / 태양", ""],
+    ["the internet", "디 인터넷", "인터넷", ""]
+  ]}
+ },
+ "plurals": {
+  "2": {"add": [
+    ["two friends", "투 프렌즈", "친구 두 명", ""],
+    ["my bag", "마이 백", "내 가방", ""]
+  ]}
+ },
+ "present": {
+  "0": {"add": [
+    "I have a younger brother.",
+    ["I like coffee.", "아이 라익 커피", "저는 커피를 좋아해요", ""]
+  ]},
+  "2": {"add": [
+    "I work at a bank.",
+    "I work in marketing.",
+    ["I don't drink coffee.", "아이 돈 드링크 커피", "저는 커피를 안 마셔요", ""]
+  ]},
+  "3": {"add": [
+    ["I always drink coffee.", "아이 올웨이즈 드링크 커피", "저는 항상 커피를 마셔요", ""],
+    ["I sometimes study English.", "아이 썸타임즈 스터디 잉글리시", "저는 가끔 영어를 공부해요", ""]
+  ]}
+ },
+ "questions": {
+  "0": {"add": [
+    "Is there an ATM around here?",
+    ["Are you a student?", "아 유 어 스튜던트?", "학생이에요?", ""]
+  ]},
+  "1": {"add": [
+    ["Yes, I do.", "예스, 아이 두", "네, 그래요", ""],
+    ["No, I don't.", "노, 아이 돈", "아니요, 안 그래요", ""]
+  ]}
+ },
+ "third-s": {
+  "1": {"add": [
+    ["She works here.", "쉬 웍스 히어", "그녀는 여기서 일해요", ""],
+    ["Does she work?", "더즈 쉬 워크?", "그녀는 일해요?", ""]
+  ]}
+ },
+ "prep": {
+  "1": {"add": [
+    ["In Seoul", "인 서울", "서울에서", ""],
+    ["On the table", "온 더 테이블", "탁자 위에", ""],
+    ["At home", "앳 홈", "집에서", ""]
+  ]},
+  "2": {"add": [
+    ["At night", "앳 나잇", "밤에", ""],
+    ["In the morning", "인 더 모닝", "아침에", ""],
+    ["On the weekend", "온 더 위켄드", "주말에 (미국식)", ""]
+  ]}
+ },
+ "countable": {
+  "2": {"add": [
+    "Could we get some water?",
+    ["information", "인포메이션", "정보 (셀 수 없어서 -s를 안 붙여요)", ""]
+  ]}
+ },
+ "object-have": {
+  "1": {"add": [
+    ["I have lunch at noon.", "아이 해브 런치 앳 눈", "저는 정오에 점심을 먹어요", ""]
+  ]}
+ },
+ "can-like": {
+  "2": {"add": [
+    ["I'd like a glass of water, please.", "아이드 라이커 글래스 오브 워러 플리즈", "물 한 잔 주세요", ""]
+  ]}
+ },
+ "polite": {
+  "1": {"add": [
+    ["I'd like a coffee, please.", "아이드 라이커 커피 플리즈", "커피 한 잔 주세요", ""]
+  ]},
+  "2": {"drop": ["No, thank you."]}
+ },
+ "continuous": {
+  "1": {"add": [
+    "I'm working now.",
+    ["I work every day.", "아이 워크 에브리 데이", "저는 매일 일해요", ""],
+    ["She drinks tea.", "쉬 드링크스 티", "그녀는 (평소에) 차를 마셔요", ""],
+    ["She's drinking tea.", "쉬즈 드링킹 티", "그녀는 (지금) 차를 마시고 있어요", ""]
+  ]},
+  "2": {"add": [
+    ["I know.", "아이 노우", "알아요", ""],
+    ["I have a car.", "아이 해버 카", "저는 차가 있어요", ""]
+  ]}
+ },
+ "past": {
+  "2": {"add": [
+    ["Did you work yesterday?", "디쥬 워크 예스터데이?", "어제 일했어요?", ""],
+    ["She didn't call me.", "쉬 디든 콜 미", "그녀가 저한테 전화 안 했어요", ""]
+  ]}
+ },
+ "the": {
+  "0": {"add": [
+    ["I have a dog. The dog is so cute.", "아이 해버 독. 더 독 이즈 쏘 큐트", "개를 키워요. 그 개가 정말 귀여워요", ""],
+    ["I saw a movie. The movie was fun.", "아이 쏘 어 무비. 더 무비 워즈 펀", "영화를 봤어요. 그 영화 재미있었어요", ""]
+  ]}
+ },
+ "adjectives": {
+  "1": {"add": [
+    ["the most expensive", "더 모스트 익스펜시브", "가장 비싼", ""],
+    ["the worst", "더 워스트", "가장 나쁜 / 최악의", ""]
+  ]}
+ },
+ "going-to": {
+  "1": {"add": [
+    ["It's going to be cold.", "이츠 고잉 투 비 콜드", "추울 거예요", ""],
+    ["It's going to be fun.", "이츠 고잉 투 비 펀", "재미있을 거예요", ""]
+  ]},
+  "2": {"add": [
+    ["I'm going to study English tonight.", "아임 고잉 투 스터디 잉글리시 투나잇", "오늘 밤에 영어 공부할 거예요", ""],
+    ["We're going to meet tomorrow.", "위어 고잉 투 밋 터마로우", "우리 내일 만날 거예요", ""],
+    ["I'm going to visit Busan next week.", "아임 고잉 투 비짓 부산 넥스트 윅", "다음 주에 부산에 갈 거예요", ""]
+  ]}
+ },
+ "tense": {
+  "0": {"add": [
+    ["I drink coffee every morning.", "아이 드링크 커피 에브리 모닝", "저는 매일 아침 커피를 마셔요", ""],
+    ["I'm drinking coffee right now.", "아임 드링킹 커피 롸잇 나우", "지금 커피 마시고 있어요", ""]
+  ]},
+  "1": {"add": [
+    "It was pretty relaxing.",
+    ["I ate pizza.", "아이 에잇 피짜", "피자를 먹었어요", ""]
+  ]}
+ },
+ "joining": {
+  "1": {"add": [
+    ["I was hungry, so I ate pizza.", "아이 워즈 헝그리 쏘 아이 에잇 피짜", "배고파서 피자를 먹었어요", ""],
+    ["It was cold, so I didn't go.", "잇 워즈 콜드 쏘 아이 디든 고", "추워서 안 갔어요", ""]
+  ]},
+  "2": {"add": [
+    ["I'm happy because it's Friday.", "아임 해피 비코즈 잇츠 프라이데이", "금요일이라서 기분이 좋아요", ""]
+  ]},
+  "3": {"add": [
+    ["Me too.", "미 투", "저도요", ""],
+    ["I'm tired too.", "아임 타이어드 투", "저도 피곤해요", ""]
+  ]}
+ },
+ "numbers": {
+  "0": {"add": [
+    ["Fifty thousand", "피프티 싸우전드", "오만 (50,000)", ""],
+    ["One hundred thousand", "원 헌드레드 싸우전드", "십만 (100,000)", ""],
+    ["One hundred million", "원 헌드레드 밀리언", "일억 (100,000,000)", ""]
+  ]}
+ },
+ "smalltalk": {
+  "0": {"add": [
+    ["How are you?", "하우 아 유?", "잘 지내요? (인사)", ""],
+    ["How about you?", "하우 어바웃 유?", "당신은요? / 너는?", ""]
+  ]},
+  "1": {"add": [
+    "Nice weather today, huh?",
+    "Any plans for the weekend?",
+    "Have you seen any good shows lately?",
+    "How's work?"
+  ]}
+ },
+ "past-continuous": {
+  "1": {"add": [
+    ["I was sleeping when you called.", "아이 워즈 슬리핑 웬 유 콜드", "전화했을 때 저는 자고 있었어요", ""]
+  ]}
+ },
+ "will": {
+  "0": {"add": [
+    ["I'll have a cup of coffee.", "아일 해버 컵 오브 커피", "커피 한 잔으로 할게요", ""]
+  ]},
+  "2": {"add": [
+    ["It'll be cold tomorrow.", "이를 비 콜드 터마로우", "내일 추울 거예요", ""],
+    ["I think it'll be fun.", "아이 띵크 이를 비 펀", "재미있을 것 같아요", ""]
+  ]},
+  "3": {"add": [
+    ["I'll get the door.", "아일 겟 더 도어", "제가 문 열게요", ""],
+    ["I'm going to visit Jeju next month.", "아임 고잉 투 비짓 제주 넥스트 먼쓰", "다음 달에 제주도에 갈 거예요", ""],
+    ["I'll go.", "아일 고", "제가 갈게요", ""]
+  ]}
+ },
+ "perfect": {
+  "1": {"add": [
+    ["been", "빈", "be의 과거분사 (have been: 가 본 적 있다)", ""],
+    ["eaten", "이튼", "eat의 과거분사", ""],
+    ["seen", "씬", "see의 과거분사", ""],
+    ["done", "던", "do의 과거분사", ""],
+    ["tried", "트라이드", "try의 과거형·과거분사", ""]
+  ]},
+  "2": {"add": [
+    ["I saw it yesterday.", "아이 쏘 잇 예스터데이", "어제 봤어요", ""],
+    ["I went to Korea in 2020.", "아이 웬 투 코리아 인 트웬티 트웬티", "2020년에 한국에 갔어요", ""]
+  ]}
+ },
+ "modals": {
+  "0": {"add": [
+    ["I have to go.", "아이 해브 투 고", "가야 해요", ""],
+    ["He has to work today.", "히 해즈 투 워크 투데이", "그는 오늘 일해야 해요", ""]
+  ]},
+  "1": {"add": [
+    ["You don't have to come.", "유 돈 해브 투 컴", "안 와도 돼요", ""],
+    ["You must not smoke here.", "유 머스트 낫 스모크 히어", "여기서 담배 피우면 안 돼요", ""],
+    ["You don't have to pay.", "유 돈 해브 투 페이", "돈 안 내도 돼요", ""]
+  ]},
+  "2": {"add": [
+    ["You should go.", "유 슈드 고", "가는 게 좋겠어요", ""]
+  ]},
+  "3": {"add": [
+    ["It might be cold.", "잇 마잇 비 콜드", "추울지도 몰라요", ""]
+  ]}
+ },
+ "to-ing": {
+  "2": {"add": [
+    ["I like cooking.", "아이 라익 쿠킹", "요리하는 걸 좋아해요 (-ing)", ""],
+    ["I like to cook.", "아이 라익 투 쿡", "요리하는 걸 좋아해요 (to)", ""],
+    ["It started to rain.", "잇 스타티드 투 레인", "비가 오기 시작했어요", ""]
+  ]}
+ },
+ "articles-2": {
+  "2": {"add": [
+    ["I like the dogs.", "아이 라익 더 독즈", "그 개들을 좋아해요 (특정한 개들)", ""]
+  ]}
+ },
+ "first-conditional": {
+  "1": {"add": ["Let me know if you have any questions."]},
+  "2": {"add": [
+    ["When I finish working, I'll call you.", "웬 아이 피니쉬 워킹 아일 콜 유", "일 끝나면 전화할게요", ""],
+    ["When she comes, we'll have lunch.", "웬 쉬 컴즈 위일 해브 런치", "그녀가 오면 점심 먹을 거예요", ""]
+  ]}
+ },
+ "relative": {
+  "0": {"add": [
+    ["I have a friend who lives in Busan.", "아이 해버 프렌드 후 리브즈 인 부산", "부산에 사는 친구가 있어요", ""]
+  ]},
+  "1": {"add": [
+    ["the bag that I bought", "더 백 댓 아이 봇", "제가 산 가방", ""]
+  ]},
+  "2": {"add": [
+    ["the book I bought", "더 북 아이 봇", "제가 산 책 (that 생략)", ""],
+    ["The phone I want is expensive.", "더 폰 아이 원트 이즈 익스펜시브", "제가 원하는 휴대폰은 비싸요", ""]
+  ]},
+  "3": {"add": [
+    ["the restaurant where we ate", "더 레스토란트 웨어 위 에잇", "우리가 밥 먹은 식당", ""],
+    ["the city where I live", "더 시티 웨어 아이 리브", "제가 사는 도시", ""]
+  ]}
+ },
+ "phrasal": {
+  "2": {"add": ["get along with"]}
+ },
+ "perfect-2": {
+  "1": {"add": [
+    ["How long have you lived here?", "하우 롱 해뷰 리브드 히어?", "여기 산 지 얼마나 됐어요?", ""],
+    ["For five years.", "포 파이브 이어즈", "5년 됐어요", ""]
+  ]}
+ },
+ "narrative": {
+  "0": {"add": [
+    ["I was walking home.", "아이 워즈 워킹 홈", "집에 걸어가고 있었어요", ""],
+    ["I saw an old friend.", "아이 쏘 언 올드 프렌드", "옛 친구를 만났어요", ""]
+  ]},
+  "1": {"add": [
+    ["He had moved to Busan.", "히 해드 무브드 투 부산", "그는 (그전에) 부산으로 이사 갔었어요", ""]
+  ]},
+  "2": {"add": [
+    ["then", "덴", "그다음에", ""],
+    ["after that", "애프터 댓", "그 후에", ""],
+    ["finally", "파이널리", "마침내", ""]
+  ]}
+ },
+ "conditionals": {
+  "1": {"add": [
+    ["If I had seen it, I would have called you.", "이프 아이 해드 씬 잇 아이 우드 해브 콜드 유", "봤더라면 전화했을 텐데", ""],
+    ["If I had known, I would have come.", "이프 아이 해드 노운 아이 우드 해브 컴", "알았더라면 왔을 텐데", ""]
+  ]},
+  "2": {"add": [
+    ["I should have studied.", "아이 슈드 해브 스터디드", "공부했어야 했는데", ""]
+  ]}
+ },
+ "passive": {
+  "1": {"add": [
+    ["This was made by my mom.", "디스 워즈 메이드 바이 마이 맘", "이건 우리 엄마가 만든 거예요", ""],
+    ["This picture was taken by my friend.", "디스 픽처 워즈 테이큰 바이 마이 프렌드", "이 사진은 제 친구가 찍어 줬어요", ""]
+  ]},
+  "2": {"add": [
+    ["Someone stole my bag.", "썸원 스톨 마이 백", "누가 제 가방을 훔쳐 갔어요", ""],
+    ["My bag was stolen.", "마이 백 워즈 스톨른", "가방을 도난당했어요", ""],
+    ["They canceled the flight.", "데이 캔슬드 더 플라잇", "(항공사가) 비행편을 취소했어요", ""],
+    ["The flight was canceled.", "더 플라잇 워즈 캔슬드", "비행편이 취소됐어요", ""]
+  ]}
+ },
+ "reported": {
+  "1": {"add": [
+    ["She asked where I worked.", "쉬 애스크트 웨어 아이 웍트", "그녀는 제가 어디서 일하는지 물었어요", ""],
+    ["He asked if I was busy.", "히 애스크트 이프 아이 워즈 비지", "그는 제가 바쁜지 물었어요", ""]
+  ]}
+ },
+ "email": {
+  "0": {"add": [
+    "I'm writing to ask about the schedule.",
+    ["I hope you're doing well.", "아이 호프 유어 두잉 웰", "잘 지내고 계시죠? (이메일 첫 줄)", ""]
+  ]},
+  "1": {"add": [
+    ["Hi Sarah,", "하이 쎄라", "안녕하세요, 사라 씨 (이메일 인사)", ""],
+    ["Dear Mr. Smith,", "디어 미스터 스미스", "스미스 님께 (격식 있는 이메일 인사)", ""]
+  ]},
+  "2": {"add": ["Could you send me the file by Friday?"]},
+  "3": {"add": [
+    ["Have a great weekend!", "해버 그레잇 위켄드!", "주말 잘 보내세요!", ""],
+    ["I really appreciate your help.", "아이 륄리 어프리시에잇 유어 헬프", "도와주셔서 정말 감사합니다", ""]
+  ]}
+ },
+ "idioms": {
+  "1": {"add": [
+    ["Kill two birds with one stone", "킬 투 버즈 위드 원 스톤", "일석이조", ""],
+    ["A blessing in disguise", "어 블레싱 인 디스가이즈", "전화위복", ""]
+  ]},
+  "2": {"add": [
+    ["No cap.", "노 캡", "진짜야, 거짓말 아님 (슬랭)", ""],
+    ["That song slaps.", "댓 쏭 슬랩스", "그 노래 진짜 좋다 (슬랭)", ""]
+  ]}
+ }
+}

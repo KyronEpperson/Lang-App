@@ -1,0 +1,370 @@
+{
+ "_about": "SEC-1 writer file for ru-en.",
+ "alphabet": {
+  "1": {"add": ["B", "H", "P", "C", "Y", "X"]},
+  "2": {"add": ["E", "I", "G", "J", "R", "W"]},
+  "4": {"add": [
+   ["an H", "/ən ˈeɪtʃ/", "буква H (с артиклем an: название начинается с гласного звука)", ""],
+   ["a U", "/ə ˈjuː/", "буква U (с артиклем a: название начинается с /j/)", ""],
+   ["capital T", "/ˈkæpɪtl ˈtiː/", "заглавная T", ""],
+   ["double L", "/ˈdʌbl ˈel/", "две буквы L подряд", ""],
+   ["dot", "/ˈdɑːt/", "точка (в адресе)", ""]
+  ]}
+ },
+ "pron": {
+  "0": {"add": [
+   "copy",
+   ["go", "/ˈgoʊ/", "идти / ехать", ""],
+   ["hot", "/ˈhɑːt/", "горячий / жаркий", ""],
+   ["here", "/ˈhɪr/", "здесь / сюда", ""],
+   ["car", "/ˈkɑːr/", "машина", ""],
+   ["bird", "/ˈbɜːrd/", "птица", ""]
+  ]},
+  "3": {"add": [
+   ["how", "/ˈhaʊ/", "как", ""]
+  ]}
+ },
+ "be": {
+  "1": {"add": [
+   "I'm a student.",
+   ["Yes, I am.", "/ˈjes aɪ ˈæm/", "Да (короткий ответ на вопрос с to be)", ""],
+   ["No, I'm not.", "/ˈnoʊ aɪm ˈnɑːt/", "Нет (короткий ответ на вопрос с to be)", ""]
+  ]}
+ },
+ "it-there": {
+  "3": {"add": [
+   ["It's cold.", "/ɪts ˈkoʊld/", "Холодно", ""]
+  ]}
+ },
+ "articles": {
+  "0": {"add": [
+   ["an hour", "/ən ˈaʊər/", "час", ""],
+   ["an idea", "/ən aɪˈdiːə/", "идея", ""],
+   ["a university", "/ə ˌjuːnɪˈvɜːrsəti/", "университет", ""]
+  ]},
+  "1": {"add": [
+   ["the sun", "/ðə ˈsʌn/", "солнце", ""],
+   ["the internet", "/ði ˈɪntərnet/", "интернет", ""]
+  ]}
+ },
+ "plurals": {
+  "1": {"add": ["this"]},
+  "2": {"add": [
+   ["my bag", "/maɪ ˈbæg/", "моя сумка", ""],
+   ["his", "/ˈhɪz/", "его (чей?)", ""],
+   ["our", "/ˈaʊər/", "наш / наша / наши", ""],
+   ["their", "/ˈðer/", "их (чей?)", ""]
+  ]},
+  "3": {"add": [
+   ["my brother's car", "/maɪ ˈbrʌðərz ˈkɑːr/", "машина моего брата", ""],
+   ["Anna's bag", "/ˈænəz ˈbæg/", "сумка Анны", ""],
+   ["two friends", "/ˈtuː ˈfrendz/", "два друга", ""]
+  ]}
+ },
+ "present": {
+  "0": {"add": [
+   ["I like coffee.", "/aɪ ˈlaɪk ˈkɔːfi/", "Я люблю кофе", ""]
+  ]},
+  "2": {"add": [
+   "I work at a bank.",
+   ["I don't like coffee.", "/aɪ ˈdoʊnt ˈlaɪk ˈkɔːfi/", "Я не люблю кофе", ""],
+   ["I don't drink coffee.", "/aɪ ˈdoʊnt ˈdrɪŋk ˈkɔːfi/", "Я не пью кофе", ""]
+  ]},
+  "3": {"add": [
+   ["I'm always late.", "/aɪm ˈɔːlweɪz ˈleɪt/", "Я всегда опаздываю", ""],
+   ["I understand you very well.", "/aɪ ˌʌndərˈstænd ju ˈveri ˈwel/", "Я тебя очень хорошо понимаю", ""]
+  ]}
+ },
+ "questions": {
+  "0": {"add": [
+   ["Are you tired?", "/ər ju ˈtaɪərd/", "Ты устал?", ""],
+   ["Is she busy?", "/ɪz ʃi ˈbɪzi/", "Она занята?", ""]
+  ]},
+  "1": {"add": [
+   ["Yes, I do.", "/ˈjes aɪ ˈduː/", "Да (короткий ответ на вопрос с do)", ""],
+   ["No, I don't.", "/ˈnoʊ aɪ ˈdoʊnt/", "Нет (короткий ответ на вопрос с do)", ""]
+  ], "drop": ["live"]}
+ },
+ "third-s": {
+  "1": {"add": [
+   ["She works here.", "/ʃi ˈwɜːrks ˈhɪr/", "Она здесь работает", ""],
+   ["Does she work?", "/dəz ʃi ˈwɜːrk/", "Она работает?", ""]
+  ]}
+ },
+ "prep": {
+  "1": {"add": [
+   ["in the car", "/ɪn ðə ˈkɑːr/", "в машине", ""],
+   ["in Moscow", "/ɪn ˈmɑːskaʊ/", "в Москве", ""],
+   ["on the table", "/ɑːn ðə ˈteɪbl/", "на столе", ""],
+   ["at work", "/ət ˈwɜːrk/", "на работе", ""],
+   ["at home", "/ət ˈhoʊm/", "дома", ""]
+  ]},
+  "2": {"add": [
+   ["in the picture", "/ɪn ðə ˈpɪktʃər/", "на картинке / на фото", ""],
+   ["at the meeting", "/ət ðə ˈmiːtɪŋ/", "на встрече", ""],
+   ["wait for a friend", "/ˈweɪt fər ə ˈfrend/", "ждать друга", ""],
+   ["depend on", "/dɪˈpend ɑːn/", "зависеть от", ""]
+  ]},
+  "3": {"add": [
+   ["at night", "/ət ˈnaɪt/", "ночью", ""],
+   ["in the morning", "/ɪn ðə ˈmɔːrnɪŋ/", "утром", ""],
+   ["on the weekend", "/ɑːn ðə ˈwiːkend/", "на выходных", ""]
+  ]}
+ },
+ "object-have": {
+  "1": {"add": [
+   ["have lunch", "/ˈhæv ˈlʌntʃ/", "обедать", ""]
+  ]},
+  "2": {"add": [
+   ["It doesn't work.", "/ɪt ˈdʌznt ˈwɜːrk/", "Он не работает (о предмете)", ""],
+   ["I have a car. It's old.", "/aɪ ˈhæv ə ˈkɑːr ‖ ɪts ˈoʊld/", "У меня есть машина. Она старая", ""]
+  ]}
+ },
+ "can-like": {
+  "2": {"add": [
+   ["I like coffee.", "/aɪ ˈlaɪk ˈkɔːfi/", "Я люблю кофе (вообще)", ""],
+   ["I'd like some water, please.", "/aɪd ˈlaɪk ˈsʌm ˈwɔːtər ˈpliːz/", "Мне воды, пожалуйста", ""]
+  ]}
+ },
+ "polite": {
+  "1": {"add": [
+   ["Can I get a coffee, please?", "/kən aɪ ˈget ə ˈkɔːfi ˈpliːz/", "Можно мне кофе?", ""],
+   ["I'd like a coffee, please.", "/aɪd ˈlaɪk ə ˈkɔːfi ˈpliːz/", "Мне кофе, пожалуйста", ""]
+  ]},
+  "2": {"add": [
+   ["mind", "/ˈmaɪnd/", "возражать", ""],
+   ["Would you mind helping me?", "/wəd ju ˈmaɪnd ˈhelpɪŋ mi/", "Вас не затруднит мне помочь?", ""]
+  ]}
+ },
+ "continuous": {
+  "1": {"add": [
+   ["I work every day.", "/aɪ ˈwɜːrk ˈevri ˈdeɪ/", "Я работаю каждый день", ""],
+   ["She drinks tea.", "/ʃi ˈdrɪŋks ˈtiː/", "Она пьёт чай (обычно)", ""],
+   ["She's drinking tea.", "/ʃiz ˈdrɪŋkɪŋ ˈtiː/", "Она пьёт чай (сейчас)", ""]
+  ]},
+  "2": {"add": [
+   ["I understand.", "/aɪ ˌʌndərˈstænd/", "Понимаю", ""],
+   ["I know.", "/aɪ ˈnoʊ/", "Знаю", ""]
+  ]}
+ },
+ "past": {
+  "2": {"add": [
+   ["She didn't call me.", "/ʃi ˈdɪdnt ˈkɔːl mi/", "Она мне не позвонила", ""],
+   ["Did you work yesterday?", "/dɪd ju ˈwɜːrk ˈjestərdeɪ/", "Ты вчера работал?", ""]
+  ]}
+ },
+ "tense": {
+  "0": {"add": [
+   ["I'm reading.", "/aɪm ˈriːdɪŋ/", "Я читаю (прямо сейчас)", ""],
+   ["I was reading.", "/aɪ wəz ˈriːdɪŋ/", "Я читал(а) (процесс в прошлом)", ""],
+   ["I read it yesterday.", "/aɪ ˈred ɪt ˈjestərdeɪ/", "Я прочитал(а) это вчера", ""],
+   ["I'm going to read.", "/aɪm ˈgoʊɪŋ tə ˈriːd/", "Я собираюсь почитать (план)", ""]
+  ]},
+  "1": {"add": [
+   ["I drink coffee every morning.", "/aɪ ˈdrɪŋk ˈkɔːfi ˈevri ˈmɔːrnɪŋ/", "Я пью кофе каждое утро", ""],
+   ["I'm drinking coffee right now.", "/aɪm ˈdrɪŋkɪŋ ˈkɔːfi ˈraɪt ˈnaʊ/", "Я сейчас пью кофе", ""]
+  ]},
+  "2": {"add": [
+   ["I saw a movie.", "/aɪ ˈsɔː ə ˈmuːvi/", "Я посмотрел(а) фильм", ""],
+   ["I had a great weekend.", "/aɪ ˈhæd ə ˈgreɪt ˈwiːkend/", "Я отлично провёл(а) выходные", ""]
+  ]}
+ },
+ "joining": {
+  "1": {"add": [
+   ["so", "/ˈsoʊ/", "поэтому", ""],
+   ["It was raining, so I stayed home.", "/ɪt wəz ˈreɪnɪŋ soʊ aɪ ˈsteɪd ˈhoʊm/", "Шёл дождь, поэтому я остался дома", ""]
+  ]},
+  "2": {"add": [
+   ["because", "/bɪˈkɔːz/", "потому что", ""]
+  ]},
+  "3": {"add": [
+   ["too", "/ˈtuː/", "тоже", ""],
+   ["Me too.", "/ˈmiː ˈtuː/", "Я тоже", ""]
+  ]},
+  "4": {"add": [
+   ["everything that you need", "/ˈevriθɪŋ ðət ju ˈniːd/", "всё, что тебе нужно", ""],
+   ["I know what you need.", "/aɪ ˈnoʊ ˈwʌt ju ˈniːd/", "Я знаю, что тебе нужно", ""]
+  ]}
+ },
+ "numbers": {
+  "0": {"add": [
+   ["fifty thousand", "/ˈfɪfti ˈθaʊznd/", "пятьдесят тысяч", ""],
+   ["one hundred thousand", "/ˈwʌn ˈhʌndrəd ˈθaʊznd/", "сто тысяч", ""],
+   ["three point five", "/ˈθriː ˈpɔɪnt ˈfaɪv/", "три с половиной (3,5)", ""]
+  ]}
+ },
+ "smalltalk": {
+  "1": {"add": ["Nice weather today, huh?", "Any plans for the weekend?", "Have you seen any good shows lately?", "How's work?"]}
+ },
+ "runglish": {
+  "0": {"drop": ["I feel well."]},
+  "2": {"add": ["I feel well."]},
+  "3": {"add": ["My phone is old. It doesn't work.", "Tell me the truth."]}
+ },
+ "past-continuous": {
+  "1": {"add": [
+   ["I was sleeping when you called.", "/aɪ wəz ˈsliːpɪŋ wen ju ˈkɔːld/", "Я спал, когда ты позвонил", ""],
+   ["I often cooked.", "/aɪ ˈɔːfn ˈkʊkt/", "Я часто готовил", ""]
+  ]}
+ },
+ "will": {
+  "0": {"add": [
+   ["I'll have a coffee.", "/aɪl ˈhæv ə ˈkɔːfi/", "Я возьму кофе", ""],
+   ["I'll take it.", "/aɪl ˈteɪk ɪt/", "Беру", ""]
+  ]},
+  "2": {"add": [
+   ["It won't rain.", "/ɪt ˈwoʊnt ˈreɪn/", "Дождя не будет", ""],
+   ["I think you'll like it.", "/aɪ ˈθɪŋk jul ˈlaɪk ɪt/", "Думаю, тебе понравится", ""]
+  ]},
+  "3": {"add": [
+   ["I'll get the door.", "/aɪl ˈget ðə ˈdɔːr/", "Я открою дверь", ""],
+   ["I'm going to visit Sochi next month.", "/aɪm ˈgoʊɪŋ tə ˈvɪzɪt ˈsoʊtʃi ˈnekst ˈmʌnθ/", "В следующем месяце я собираюсь съездить в Сочи", ""],
+   ["I'll go.", "/aɪl ˈgoʊ/", "Я пойду", ""]
+  ]}
+ },
+ "perfect": {
+  "1": {"add": [
+   ["be – was – been", "/ˈbiː ˈwʌz ˈbɪn/", "быть", ""],
+   ["eat – ate – eaten", "/ˈiːt ˈeɪt ˈiːtn/", "есть (о еде)", ""],
+   ["see – saw – seen", "/ˈsiː ˈsɔː ˈsiːn/", "видеть", ""],
+   ["do – did – done", "/ˈduː ˈdɪd ˈdʌn/", "делать", ""],
+   ["try – tried – tried", "/ˈtraɪ ˈtraɪd ˈtraɪd/", "пробовать / стараться", ""]
+  ]},
+  "2": {"add": [
+   ["She's been to Sochi.", "/ʃiz bɪn tə ˈsoʊtʃi/", "Она была в Сочи (и вернулась)", ""],
+   ["He's gone to work.", "/hiz ˈgɔːn tə ˈwɜːrk/", "Он ушёл на работу (сейчас его здесь нет)", ""]
+  ]},
+  "3": {"add": [
+   ["Have you seen my keys?", "/həv ju ˈsiːn maɪ ˈkiːz/", "Ты не видел мои ключи?", ""],
+   ["I saw it yesterday.", "/aɪ ˈsɔː ɪt ˈjestərdeɪ/", "Я видел это вчера", ""]
+  ]}
+ },
+ "modals": {
+  "0": {"add": [
+   "I need to contact the Russian embassy.",
+   ["have to", "/ˈhæf tə/", "надо, приходится", ""]
+  ]},
+  "1": {"add": [
+   ["You don't have to come.", "/ju ˈdoʊnt ˈhæf tə ˈkʌm/", "Можно не приходить (не обязательно)", ""],
+   ["You must not smoke here.", "/ju ˈmʌst ˈnɑːt ˈsmoʊk ˈhɪr/", "Здесь курить нельзя", ""],
+   ["don't have to", "/ˈdoʊnt ˈhæf tə/", "не обязательно, можно не", ""],
+   ["must not", "/ˈmʌst ˈnɑːt/", "нельзя (запрет)", ""]
+  ]},
+  "2": {"add": [
+   ["should", "/ˈʃʊd/", "стоит, следует (совет)", ""],
+   ["You should drink some water.", "/ju ʃəd ˈdrɪŋk ˈsʌm ˈwɔːtər/", "Тебе стоит попить воды", ""]
+  ]},
+  "3": {"add": [
+   ["might", "/ˈmaɪt/", "может быть, возможно", ""],
+   ["I might go.", "/aɪ maɪt ˈgoʊ/", "Может, я пойду", ""]
+  ]}
+ },
+ "to-ing": {
+  "2": {"add": [
+   ["I like to cook.", "/aɪ ˈlaɪk tə ˈkʊk/", "Я люблю готовить", ""],
+   ["I like cooking.", "/aɪ ˈlaɪk ˈkʊkɪŋ/", "Я люблю готовить", ""],
+   ["I started working.", "/aɪ ˈstɑːrtɪd ˈwɜːrkɪŋ/", "Я начал работать", ""]
+  ]}
+ },
+ "articles-2": {
+  "2": {"add": [
+   ["I like the dogs.", "/aɪ ˈlaɪk ðə ˈdɔːgz/", "Мне нравятся эти собаки", ""],
+   ["Cats are cute.", "/ˈkæts ər ˈkjuːt/", "Кошки милые (вообще)", ""]
+  ]}
+ },
+ "first-conditional": {
+  "1": {"add": ["Let me know if you have any questions."]},
+  "2": {"add": [
+   ["I'll call you when I get home.", "/aɪl ˈkɔːl ju wen aɪ ˈget ˈhoʊm/", "Позвоню тебе, когда приду домой", ""],
+   ["We'll have dinner when you get home.", "/wil ˈhæv ˈdɪnər wen ju ˈget ˈhoʊm/", "Поужинаем, когда ты придёшь домой", ""]
+  ]}
+ },
+ "relative": {
+  "0": {"add": [
+   ["I have a friend who works at a bank.", "/aɪ ˈhæv ə ˈfrend hu ˈwɜːrks ət ə ˈbæŋk/", "У меня есть друг, который работает в банке", ""]
+  ]},
+  "1": {"add": [
+   ["the phone which I bought", "/ðə ˈfoʊn wɪtʃ aɪ ˈbɔːt/", "телефон, который я купил", ""]
+  ]},
+  "2": {"add": [
+   ["the book I bought", "/ðə ˈbʊk aɪ ˈbɔːt/", "книга, которую я купил", ""],
+   ["This is the phone I want.", "/ˈðɪs ɪz ðə ˈfoʊn aɪ ˈwɑːnt/", "Вот телефон, который я хочу", ""]
+  ]},
+  "3": {"add": [
+   ["the city where I live", "/ðə ˈsɪti wer aɪ ˈlɪv/", "город, где я живу", ""],
+   ["the hotel where we stayed", "/ðə hoʊˈtel wer wi ˈsteɪd/", "отель, где мы останавливались", ""]
+  ]}
+ },
+ "narrative": {
+  "0": {"add": [
+   ["I was walking home.", "/aɪ wəz ˈwɔːkɪŋ ˈhoʊm/", "Я шёл домой (фон)", ""],
+   ["I saw an old friend.", "/aɪ ˈsɔː ən ˈoʊld ˈfrend/", "Я увидел старого друга (событие)", ""],
+   ["He had moved to Saint Petersburg.", "/hi həd ˈmuːvd tə ˈseɪnt ˈpiːtərzbɜːrg/", "Он (к тому времени уже) переехал в Санкт-Петербург", ""]
+  ]},
+  "1": {"add": [
+   ["We had already eaten.", "/wi həd ɔːlˈredi ˈiːtn/", "Мы уже поели (к тому моменту)", ""]
+  ]},
+  "2": {"add": [
+   ["first", "/ˈfɜːrst/", "сначала", ""],
+   ["then", "/ˈðen/", "потом", ""],
+   ["after that", "/ˈæftər ˈðæt/", "после этого", ""],
+   ["finally", "/ˈfaɪnəli/", "наконец", ""]
+  ]}
+ },
+ "conditionals": {
+  "1": {"add": [
+   ["If I had known, I would have called.", "/ɪf aɪ həd ˈnoʊn aɪ wəd əv ˈkɔːld/", "Если бы я знал(а), я бы позвонил(а)", ""],
+   ["I would have helped you.", "/aɪ wəd əv ˈhelpt ju/", "Я бы тебе помог(ла)", ""]
+  ]},
+  "2": {"add": [
+   ["I should have studied.", "/aɪ ʃəd əv ˈstʌdid/", "Надо было позаниматься", ""],
+   ["I wish I knew.", "/aɪ ˈwɪʃ aɪ ˈnuː/", "Жаль, что я не знаю", ""]
+  ]}
+ },
+ "passive": {
+  "1": {"add": [
+   ["This was made by my mom.", "/ˈðɪs wəz ˈmeɪd baɪ maɪ ˈmɑːm/", "Это сделала моя мама", ""],
+   ["The report was written by Anna.", "/ðə rɪˈpɔːrt wəz ˈrɪtn baɪ ˈænə/", "Отчёт написала Анна", ""]
+  ]},
+  "2": {"add": [
+   ["Someone stole my bag.", "/ˈsʌmwʌn ˈstoʊl maɪ ˈbæg/", "Кто-то украл мою сумку", ""],
+   ["My bag was stolen.", "/maɪ ˈbæg wəz ˈstoʊlən/", "У меня украли сумку", ""],
+   ["The flight was canceled.", "/ðə ˈflaɪt wəz ˈkænsld/", "Рейс отменили", ""],
+   ["The house is being built.", "/ðə ˈhaʊs ɪz ˈbiːɪŋ ˈbɪlt/", "Дом строится", ""]
+  ]}
+ },
+ "reported": {
+  "1": {"add": [
+   ["She asked what I wanted.", "/ʃi ˈæskt ˈwʌt aɪ ˈwɑːntɪd/", "Она спросила, чего я хочу", ""],
+   ["He asked if I could help.", "/hi ˈæskt ɪf aɪ kəd ˈhelp/", "Он спросил, могу ли я помочь", ""]
+  ]}
+ },
+ "email": {
+  "0": {"add": [
+   "I'm writing to ask about the schedule.",
+   ["I hope you're doing well.", "/aɪ ˈhoʊp jʊr ˈduːɪŋ ˈwel/", "Надеюсь, у вас всё в порядке", ""]
+  ]},
+  "1": {"add": [
+   ["Hi Anna,", "/ˈhaɪ ˈænə/", "Здравствуйте, Анна (обращение в письме)", ""],
+   ["Dear Mr. Smith,", "/ˈdɪr ˈmɪstər ˈsmɪθ/", "Уважаемый господин Смит,", ""]
+  ]},
+  "2": {"add": ["Could you send me the file by Friday?"]},
+  "3": {"add": [
+   ["Have a great weekend!", "/ˈhæv ə ˈgreɪt ˈwiːkend/", "Хороших выходных!", ""],
+   ["I really appreciate your help.", "/aɪ ˈriːəli əˈpriːʃieɪt jʊr ˈhelp/", "Большое спасибо за помощь", ""]
+  ]}
+ },
+ "idioms": {
+  "1": {"add": [
+   ["Kill two birds with one stone.", "/ˈkɪl ˈtuː ˈbɜːrdz wɪð ˈwʌn ˈstoʊn/", "Убить двух зайцев одним выстрелом", ""],
+   ["A blessing in disguise.", "/ə ˈblesɪŋ ɪn dɪsˈgaɪz/", "Не было бы счастья, да несчастье помогло", ""]
+  ]},
+  "2": {"add": [
+   ["No cap.", "/ˈnoʊ ˈkæp/", "Без шуток / Честно (сленг)", ""],
+   ["That song slaps.", "/ˈðæt ˈsɔːŋ ˈslæps/", "Эта песня — огонь (сленг)", ""]
+  ]}
+ },
+ "perfect-2": {
+  "0": {"drop": ["I live in Moscow."]}
+ }
+}

@@ -1,0 +1,1083 @@
+{
+ "_about": "SEC-1 writer file for hmn-en.",
+ "alphabet": {
+  "1": {
+   "add": [
+    "X",
+    "W",
+    "R",
+    "Z",
+    "E",
+    "I"
+   ],
+   "drop": [
+    "six"
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "an F",
+     "/ən‿ef/",
+     "ib tug F",
+     ""
+    ],
+    [
+     "an M",
+     "/ən‿em/",
+     "ib tug M",
+     ""
+    ],
+    [
+     "a U",
+     "/ə juː/",
+     "ib tug U",
+     ""
+    ],
+    [
+     "capital T",
+     "/ˈkæpətəl tiː/",
+     "T loj",
+     ""
+    ],
+    [
+     "double L",
+     "/ˈdʌbəl el/",
+     "ob tug L",
+     ""
+    ]
+   ]
+  }
+ },
+ "be": {
+  "1": {
+   "drop": [
+    "I live in St. Paul."
+   ]
+  }
+ },
+ "it-there": {
+  "1": {
+   "add": [
+    [
+     "There's a bank near here.",
+     "/ðerz‿ə bæŋk nɪr hɪr/",
+     "Muaj ib lub tsev bank nyob ze qhov no.",
+     ""
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "There's a cafe here.",
+     "/ðerz‿ə kæˈfeɪ hɪr/",
+     "Muaj ib lub khw kav fes nyob qhov no.",
+     ""
+    ]
+   ]
+  }
+ },
+ "articles": {
+  "0": {
+   "add": [
+    [
+     "a dog",
+     "/ə dɑːg/",
+     "ib tug dev",
+     ""
+    ],
+    [
+     "an hour",
+     "/ən‿aʊr/",
+     "ib teev",
+     ""
+    ]
+   ]
+  },
+  "1": {
+   "add": [
+    [
+     "the dog",
+     "/ðə dɑːg/",
+     "tus dev",
+     ""
+    ],
+    [
+     "the sun",
+     "/ðə sʌn/",
+     "lub hnub",
+     ""
+    ]
+   ]
+  }
+ },
+ "plurals": {
+  "2": {
+   "add": [
+    [
+     "my bag",
+     "/maɪ bæg/",
+     "kuv lub hnab",
+     ""
+    ],
+    [
+     "two friends",
+     "/tuː frendz/",
+     "ob tug phooj ywg",
+     ""
+    ]
+   ]
+  }
+ },
+ "present": {
+  "0": {
+   "add": [
+    [
+     "I speak Hmong.",
+     "/aɪ spiːk mɑːŋ/",
+     "Kuv hais lus Hmoob.",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "I don't drink coffee.",
+     "/aɪ doʊnt drɪŋk ˈkɑːfi/",
+     "Kuv tsis haus kav fes.",
+     ""
+    ],
+    [
+     "I eat rice every day.",
+     "/aɪ iːt raɪs ˈevri deɪ/",
+     "Kuv noj mov txhua hnub.",
+     ""
+    ]
+   ]
+  }
+ },
+ "questions": {
+  "0": {
+   "add": [
+    [
+     "Is this your phone?",
+     "/ɪz ðɪs jʊr foʊn/",
+     "Qhov no puas yog koj lub xov tooj?",
+     ""
+    ],
+    [
+     "Are you tired?",
+     "/ɑːr ju ˈtaɪɚd/",
+     "Koj puas nkees?",
+     ""
+    ]
+   ]
+  },
+  "1": {
+   "add": [
+    [
+     "Do you live here?",
+     "/duː ju lɪv hɪr/",
+     "Koj puas nyob qhov no?",
+     ""
+    ]
+   ]
+  }
+ },
+ "third-s": {
+  "1": {
+   "add": [
+    [
+     "Does she work?",
+     "/dʌz ʃi wɝːk/",
+     "Nws (poj niam) puas ua hauj lwm?",
+     ""
+    ],
+    [
+     "She doesn't eat meat.",
+     "/ʃi ˈdʌzənt‿iːt miːt/",
+     "Nws (poj niam) tsis noj nqaij.",
+     ""
+    ]
+   ]
+  }
+ },
+ "final-sounds": {
+  "3": {
+   "add": [
+    [
+     "I live in St. Paul.",
+     "/aɪ lɪv‿ɪn seɪnt pɑːl/",
+     "Kuv nyob St. Paul.",
+     ""
+    ]
+   ],
+   "drop": [
+    "my"
+   ]
+  },
+  "5": {
+   "add": [
+    "two buses",
+    [
+     "She works.",
+     "/ʃi wɝːks/",
+     "Nws (poj niam) ua hauj lwm.",
+     ""
+    ]
+   ]
+  }
+ },
+ "prep": {
+  "2": {
+   "add": [
+    [
+     "At night",
+     "/ət naɪt/",
+     "Hmo ntuj",
+     ""
+    ],
+    [
+     "In the morning",
+     "/ɪn ðə ˈmɔːrnɪŋ/",
+     "Sawv ntxov",
+     ""
+    ],
+    [
+     "On the weekend",
+     "/ɑːn ðə ˈwiːkend/",
+     "Hnub so",
+     ""
+    ]
+   ]
+  }
+ },
+ "countable": {
+  "2": {
+   "add": [
+    "Could we get some water?"
+   ]
+  }
+ },
+ "object-have": {
+  "1": {
+   "add": [
+    [
+     "Let's have dinner.",
+     "/lets hæv ˈdɪnɚ/",
+     "Wb mus noj hmo.",
+     ""
+    ]
+   ]
+  }
+ },
+ "he-she-it": {
+  "2": {
+   "add": [
+    "He's my son.",
+    "I saw her yesterday."
+   ]
+  }
+ },
+ "can-like": {
+  "2": {
+   "add": [
+    [
+     "I like coffee.",
+     "/aɪ laɪk ˈkɑːfi/",
+     "Kuv nyiam kav fes.",
+     ""
+    ],
+    [
+     "I'd like a glass of water, please.",
+     "/aɪd laɪk‿ə glæs‿əv ˈwɑːtɚ pliːz/",
+     "Thov ib khob dej.",
+     ""
+    ]
+   ]
+  }
+ },
+ "polite": {
+  "1": {
+   "add": [
+    [
+     "Can I get a glass of water, please?",
+     "/kən‿aɪ get‿ə glæs‿əv ˈwɑːtɚ pliːz/",
+     "Thov ib khob dej os",
+     ""
+    ],
+    [
+     "I'd like a coffee, please.",
+     "/aɪd laɪk‿ə ˈkɑːfi pliːz/",
+     "Thov ib khob kav fes.",
+     ""
+    ]
+   ]
+  }
+ },
+ "continuous": {
+  "1": {
+   "add": [
+    "I'm working now.",
+    [
+     "I work every day.",
+     "/aɪ wɝːk ˈevri deɪ/",
+     "Kuv ua hauj lwm txhua hnub.",
+     ""
+    ],
+    [
+     "She drinks tea.",
+     "/ʃi drɪŋks tiː/",
+     "Nws (poj niam) haus tshuaj yej.",
+     ""
+    ],
+    [
+     "She's drinking tea.",
+     "/ʃiz ˈdrɪŋkɪŋ tiː/",
+     "Nws (poj niam) tab tom haus tshuaj yej.",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "I like coffee.",
+     "/aɪ laɪk ˈkɑːfi/",
+     "Kuv nyiam kav fes.",
+     ""
+    ],
+    [
+     "I don't have time.",
+     "/aɪ doʊnt hæv taɪm/",
+     "Kuv tsis muaj sij hawm.",
+     ""
+    ]
+   ]
+  }
+ },
+ "past": {
+  "2": {
+   "add": [
+    [
+     "Did you work yesterday?",
+     "/dɪd ju wɝːk ˈjestɚdeɪ/",
+     "Nag hmo koj puas ua hauj lwm?",
+     ""
+    ],
+    [
+     "She didn't call me.",
+     "/ʃi ˈdɪdənt kɑːl mi/",
+     "Nws (poj niam) tsis hu rau kuv.",
+     ""
+    ]
+   ]
+  }
+ },
+ "the": {
+  "0": {
+   "add": [
+    [
+     "a shirt",
+     "/ə ʃɝːt/",
+     "ib lub tsho",
+     ""
+    ],
+    [
+     "The shirt is blue.",
+     "/ðə ʃɝːt‿ɪz bluː/",
+     "Lub tsho xiav.",
+     ""
+    ]
+   ]
+  }
+ },
+ "adjectives": {
+  "1": {
+   "add": [
+    [
+     "the best",
+     "/ðə best/",
+     "Zoo tshaj",
+     ""
+    ],
+    [
+     "the biggest",
+     "/ðə ˈbɪgɪst/",
+     "Loj tshaj",
+     ""
+    ],
+    [
+     "the most expensive",
+     "/ðə moʊst ɪkˈspensɪv/",
+     "Kim tshaj",
+     ""
+    ]
+   ]
+  }
+ },
+ "going-to": {
+  "1": {
+   "add": [
+    [
+     "It's going to be cold tomorrow.",
+     "/ɪts ˈgoʊɪŋ tə biː koʊld təˈmɑːroʊ/",
+     "Tag kis yuav no.",
+     ""
+    ],
+    [
+     "It's going to be hot today.",
+     "/ɪts ˈgoʊɪŋ tə biː hɑːt təˈdeɪ/",
+     "Hnub no yuav kub.",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    "What are you going to do this weekend?",
+    [
+     "I'm going to work tomorrow.",
+     "/aɪm ˈgoʊɪŋ tə wɝːk təˈmɑːroʊ/",
+     "Tag kis kuv yuav ua hauj lwm.",
+     ""
+    ],
+    [
+     "I'm going to visit Fresno next week.",
+     "/aɪm ˈgoʊɪŋ tə ˈvɪzɪt ˈfreznoʊ nekst wiːk/",
+     "Lwm lim tiam kuv yuav mus xyuas Fresno.",
+     ""
+    ],
+    [
+     "I'm going to go.",
+     "/aɪm ˈgoʊɪŋ tə goʊ/",
+     "Kuv yuav mus.",
+     ""
+    ]
+   ]
+  }
+ },
+ "tense": {
+  "0": {
+   "add": [
+    [
+     "I drink coffee every morning.",
+     "/aɪ drɪŋk ˈkɑːfi ˈevri ˈmɔːrnɪŋ/",
+     "Txhua hnub sawv ntxov kuv haus kav fes.",
+     ""
+    ],
+    [
+     "I'm drinking coffee right now.",
+     "/aɪm ˈdrɪŋkɪŋ ˈkɑːfi raɪt naʊ/",
+     "Tam sim no kuv tab tom haus kav fes.",
+     ""
+    ]
+   ]
+  }
+ },
+ "joining": {
+  "1": {
+   "add": [
+    [
+     "It was raining, so I stayed home.",
+     "/ɪt wəz ˈreɪnɪŋ soʊ aɪ steɪd hoʊm/",
+     "Los nag, kuv thiaj li nyob tsev.",
+     ""
+    ],
+    [
+     "I was hungry, so I ate.",
+     "/aɪ wəz ˈhʌŋgri soʊ aɪ eɪt/",
+     "Kuv tshaib plab, kuv thiaj li noj mov.",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "I didn't go because I was tired.",
+     "/aɪ ˈdɪdənt goʊ bɪˈkɑːz‿aɪ wəz ˈtaɪɚd/",
+     "Kuv tsis tau mus vim kuv nkees.",
+     ""
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "I like coffee too.",
+     "/aɪ laɪk ˈkɑːfi tuː/",
+     "Kuv kuj nyiam kav fes.",
+     ""
+    ],
+    [
+     "I'm tired too.",
+     "/aɪm ˈtaɪɚd tuː/",
+     "Kuv kuj nkees.",
+     ""
+    ]
+   ]
+  }
+ },
+ "numbers": {
+  "0": {
+   "add": [
+    [
+     "One thousand",
+     "/wʌn ˈθaʊzənd/",
+     "Ib txhiab",
+     ""
+    ],
+    [
+     "One hundred thousand",
+     "/wʌn ˈhʌndrəd ˈθaʊzənd/",
+     "Ib puas txhiab",
+     ""
+    ]
+   ]
+  }
+ },
+ "smalltalk": {
+  "0": {
+   "add": [
+    [
+     "How are you?",
+     "/haʊ ɑːr ju/",
+     "Koj nyob li cas?",
+     ""
+    ]
+   ]
+  },
+  "1": {
+   "add": [
+    "Nice weather today, huh?",
+    "How was your weekend?",
+    "How's work?"
+   ]
+  }
+ },
+ "past-continuous": {
+  "1": {
+   "add": [
+    [
+     "Were you sleeping?",
+     "/wɝː ju ˈsliːpɪŋ/",
+     "Thaum ntawd koj puas tab tom pw tsaug zog?",
+     ""
+    ],
+    [
+     "Was it raining?",
+     "/wəz‿ɪt ˈreɪnɪŋ/",
+     "Thaum ntawd puas tab tom los nag?",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "I was sleeping when you called.",
+     "/aɪ wəz ˈsliːpɪŋ wen ju kɑːld/",
+     "Thaum koj hu, kuv tab tom pw tsaug zog.",
+     ""
+    ]
+   ]
+  }
+ },
+ "will": {
+  "0": {
+   "add": [
+    [
+     "I'll have the chicken.",
+     "/aɪl hæv ðə ˈtʃɪkən/",
+     "Kuv yuav noj nqaij qaib.",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "I think it will be cold.",
+     "/aɪ θɪŋk‿ɪt wɪl biː koʊld/",
+     "Kuv xav tias yuav no.",
+     ""
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "I'll get the door.",
+     "/aɪl get ðə dɔːr/",
+     "Kuv yuav qhib qhov rooj.",
+     ""
+    ],
+    [
+     "I'm going to visit Thailand next month.",
+     "/aɪm ˈgoʊɪŋ tə ˈvɪzɪt ˈtaɪlænd nekst mʌnθ/",
+     "Lwm hli kuv yuav mus xyuas Thaib teb.",
+     ""
+    ],
+    [
+     "I'll go.",
+     "/aɪl goʊ/",
+     "Kuv yuav mus.",
+     ""
+    ]
+   ]
+  }
+ },
+ "perfect": {
+  "1": {
+   "add": [
+    [
+     "I've eaten.",
+     "/aɪv ˈiːtən/",
+     "Kuv twb noj mov lawm.",
+     ""
+    ],
+    [
+     "I've seen it.",
+     "/aɪv siːn‿ɪt/",
+     "Kuv twb pom lawm.",
+     ""
+    ],
+    [
+     "I've tried it.",
+     "/aɪv traɪd‿ɪt/",
+     "Kuv twb sim lawm.",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "I went to Laos in 2020.",
+     "/aɪ went tə laʊs ɪn ˈtwenti ˈtwenti/",
+     "Kuv mus Nplog teb xyoo 2020.",
+     ""
+    ],
+    [
+     "I saw it yesterday.",
+     "/aɪ sɑː ɪt ˈjestɚdeɪ/",
+     "Nag hmo kuv pom.",
+     ""
+    ]
+   ]
+  }
+ },
+ "modals": {
+  "0": {
+   "add": [
+    [
+     "He has to work.",
+     "/hi hæz tə wɝːk/",
+     "Nws (txiv neej) yuav tsum ua hauj lwm.",
+     ""
+    ],
+    [
+     "I have to go.",
+     "/aɪ hæv tə goʊ/",
+     "Kuv yuav tsum mus.",
+     ""
+    ]
+   ]
+  },
+  "1": {
+   "add": [
+    [
+     "You don't have to come.",
+     "/ju doʊnt hæv tə kʌm/",
+     "Koj tsis tuaj los tsis ua li cas.",
+     ""
+    ],
+    [
+     "You must not smoke here.",
+     "/ju mʌst nɑːt smoʊk hɪr/",
+     "Tsis txhob ncho ntawm no.",
+     ""
+    ],
+    [
+     "I don't have to work tomorrow.",
+     "/aɪ doʊnt hæv tə wɝːk təˈmɑːroʊ/",
+     "Tag kis kuv tsis ua hauj lwm los tsis ua li cas.",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "You should go home.",
+     "/ju ʃʊd goʊ hoʊm/",
+     "Koj mus tsev os.",
+     ""
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "She might come.",
+     "/ʃi maɪt kʌm/",
+     "Tej zaum nws (poj niam) yuav tuaj.",
+     ""
+    ]
+   ]
+  }
+ },
+ "to-ing": {
+  "2": {
+   "add": [
+    [
+     "I like to swim.",
+     "/aɪ laɪk tə swɪm/",
+     "Kuv nyiam ua luam dej.",
+     ""
+    ],
+    [
+     "I love watching movies.",
+     "/aɪ lʌv ˈwɑːtʃɪŋ ˈmuːviz/",
+     "Kuv nyiam saib movies heev.",
+     ""
+    ],
+    [
+     "It started to rain.",
+     "/ɪt ˈstɑːrtɪd tə reɪn/",
+     "Pib los nag.",
+     ""
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "I go to buy vegetables.",
+     "/aɪ goʊ tə baɪ ˈvedʒtəbəlz/",
+     "Kuv mus yuav zaub.",
+     ""
+    ],
+    [
+     "I want to go.",
+     "/aɪ wɑːnt tə goʊ/",
+     "Kuv xav mus.",
+     ""
+    ]
+   ]
+  }
+ },
+ "articles-2": {
+  "2": {
+   "add": [
+    [
+     "I like the dogs.",
+     "/aɪ laɪk ðə dɑːgz/",
+     "Kuv nyiam cov dev no xwb.",
+     ""
+    ]
+   ]
+  }
+ },
+ "first-conditional": {
+  "1": {
+   "add": [
+    [
+     "If you have time, call me.",
+     "/ɪf ju hæv taɪm kɑːl mi/",
+     "Yog koj muaj sij hawm, hu kuv.",
+     ""
+    ],
+    "Let me know if you have any questions."
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "When I finish work, I'll call you.",
+     "/wen‿aɪ ˈfɪnɪʃ wɝːk aɪl kɑːl ju/",
+     "Thaum kuv ua hauj lwm tas, kuv yuav hu koj.",
+     ""
+    ],
+    [
+     "When we get home, we'll have dinner.",
+     "/wen wi get hoʊm wil hæv ˈdɪnɚ/",
+     "Thaum peb los txog tsev, peb yuav noj hmo.",
+     ""
+    ]
+   ]
+  }
+ },
+ "relative": {
+  "0": {
+   "add": [
+    [
+     "a friend who lives in Fresno",
+     "/ə frend huː lɪvz‿ɪn ˈfreznoʊ/",
+     "ib tug phooj ywg uas nyob Fresno",
+     ""
+    ]
+   ]
+  },
+  "1": {
+   "add": [
+    [
+     "the car that I bought",
+     "/ðə kɑːr ðæt‿aɪ bɑːt/",
+     "lub tsheb uas kuv yuav lawm",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "the phone I want",
+     "/ðə foʊn aɪ wɑːnt/",
+     "lub xov tooj uas kuv xav tau",
+     ""
+    ],
+    [
+     "the man we met",
+     "/ðə mæn wi met/",
+     "tus txiv neej uas peb ntsib",
+     ""
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "the city where I live",
+     "/ðə ˈsɪti wer aɪ lɪv/",
+     "lub nroog uas kuv nyob",
+     ""
+    ],
+    [
+     "the school where I study",
+     "/ðə skuːl wer aɪ ˈstʌdi/",
+     "lub tsev kawm ntawv uas kuv kawm",
+     ""
+    ]
+   ]
+  }
+ },
+ "perfect-2": {
+  "1": {
+   "add": [
+    [
+     "How long have you worked here?",
+     "/haʊ lɑːŋ hæv ju wɝːkt hɪr/",
+     "Koj ua hauj lwm ntawm no ntev npaum li cas lawm?",
+     ""
+    ],
+    [
+     "How long have you known her?",
+     "/haʊ lɑːŋ hæv ju noʊn hɝː/",
+     "Koj paub nws (poj niam) ntev npaum li cas lawm?",
+     ""
+    ]
+   ]
+  }
+ },
+ "narrative": {
+  "0": {
+   "add": [
+    [
+     "I was walking home.",
+     "/aɪ wəz ˈwɑːkɪŋ hoʊm/",
+     "Thaum ntawd kuv tab tom taug kev mus tsev.",
+     ""
+    ],
+    [
+     "I saw an old friend.",
+     "/aɪ sɑː ən‿oʊld frend/",
+     "Kuv pom ib tug phooj ywg qub.",
+     ""
+    ]
+   ]
+  },
+  "1": {
+   "add": [
+    [
+     "She had already eaten.",
+     "/ʃi hæd‿ɑːlˈredi ˈiːtən/",
+     "Nws (poj niam) twb noj mov lawm.",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "first",
+     "/fɝːst/",
+     "Ua ntej",
+     ""
+    ],
+    [
+     "then",
+     "/ðen/",
+     "Tom qab ntawd",
+     ""
+    ],
+    [
+     "finally",
+     "/ˈfaɪnəli/",
+     "Thaum kawg",
+     ""
+    ]
+   ]
+  }
+ },
+ "conditionals": {
+  "1": {
+   "add": [
+    [
+     "If I had known, I would have come.",
+     "/ɪf‿aɪ hæd noʊn aɪ wʊd hæv kʌm/",
+     "Yog kuv tau paub, kuv yuav tuaj lawm.",
+     ""
+    ],
+    [
+     "If you had called, I would have helped.",
+     "/ɪf ju hæd kɑːld aɪ wʊd hæv helpt/",
+     "Yog koj tau hu, kuv yuav pab lawm.",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "I should have studied.",
+     "/aɪ ʃʊd hæv ˈstʌdid/",
+     "Kuv yuav tsum tau kawm.",
+     ""
+    ],
+    [
+     "I wish I had a car.",
+     "/aɪ wɪʃ‿aɪ hæd‿ə kɑːr/",
+     "Kuv xav muaj ib lub tsheb.",
+     ""
+    ]
+   ]
+  }
+ },
+ "passive": {
+  "1": {
+   "add": [
+    [
+     "My bag was stolen.",
+     "/maɪ bæg wəz ˈstoʊlən/",
+     "Kuv lub hnab raug nyiag lawm.",
+     ""
+    ],
+    [
+     "Someone stole my bag.",
+     "/ˈsʌmwʌn stoʊl maɪ bæg/",
+     "Muaj neeg nyiag kuv lub hnab.",
+     ""
+    ]
+   ]
+  }
+ },
+ "reported": {
+  "1": {
+   "add": [
+    [
+     "He asked if I was busy.",
+     "/hi æskt‿ɪf‿aɪ wəz ˈbɪzi/",
+     "Nws (txiv neej) nug tias kuv puas tsis khoom.",
+     ""
+    ],
+    [
+     "She asked what I wanted.",
+     "/ʃi æskt wʌt‿aɪ ˈwɑːntɪd/",
+     "Nws (poj niam) nug tias kuv xav tau dab tsi.",
+     ""
+    ]
+   ]
+  }
+ },
+ "email": {
+  "0": {
+   "add": [
+    "I'm writing to ask about the schedule.",
+    "Could you send me the file by Friday?"
+   ]
+  },
+  "1": {
+   "add": [
+    [
+     "Hi Sarah,",
+     "/haɪ ˈserə/",
+     "Nyob zoo Sarah,",
+     ""
+    ],
+    [
+     "Dear Mr. Smith,",
+     "/dɪr ˈmɪstɚ smɪθ/",
+     "Nyob zoo Mr. Smith,",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "by Friday",
+     "/baɪ ˈfraɪdeɪ/",
+     "ua ntej hnub Friday",
+     ""
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "Have a great weekend!",
+     "/hæv‿ə greɪt ˈwiːkend/",
+     "Hnub so zoo os!",
+     ""
+    ],
+    [
+     "I really appreciate your help.",
+     "/aɪ ˈriːli əˈpriːʃieɪt jʊr help/",
+     "Ua tsaug koj pab kuv heev.",
+     ""
+    ]
+   ],
+   "drop": [
+    "Sorry for the late reply."
+   ]
+  }
+ },
+ "idioms": {
+  "1": {
+   "add": [
+    [
+     "Kill two birds with one stone",
+     "/kɪl tuː bɝːdz wɪð wʌn stoʊn/",
+     "Ua ib zaug, tau ob yam",
+     ""
+    ],
+    [
+     "A blessing in disguise",
+     "/ə ˈblesɪŋ‿ɪn dɪsˈgaɪz/",
+     "Yam phem, tom qab ua yam zoo",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    "No cap.",
+    "That song slaps."
+   ]
+  }
+ }
+}

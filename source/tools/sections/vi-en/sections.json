@@ -1,0 +1,1281 @@
+{
+ "_about": "SEC-1 writer file for vi-en.",
+ "alphabet": {
+  "1": {
+   "add": [
+    "E",
+    "I",
+    "G",
+    "J",
+    "R",
+    "W"
+   ],
+   "drop": []
+  },
+  "3": {
+   "add": [
+    [
+     "an F",
+     "/ən‿ef/",
+     "một chữ F",
+     ""
+    ],
+    [
+     "an H",
+     "/ən‿eɪtʃ/",
+     "một chữ H",
+     ""
+    ],
+    [
+     "a U",
+     "/ə juː/",
+     "một chữ U",
+     ""
+    ],
+    [
+     "double L",
+     "/ˈdʌbəl el/",
+     "hai chữ L liền nhau",
+     ""
+    ],
+    [
+     "dot",
+     "/dɑːt/",
+     "dấu chấm (khi đọc email)",
+     ""
+    ],
+    [
+     "at",
+     "/æt/",
+     "a còng (@)",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "pron": {
+  "0": {
+   "add": [
+    "walk",
+    "work",
+    "coffee",
+    "copy",
+    [
+     "bird",
+     "/bɝːd/",
+     "con chim",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "6": {
+   "add": [
+    "leave",
+    "live"
+   ],
+   "drop": []
+  }
+ },
+ "be": {
+  "0": {
+   "add": [
+    "I'm married.",
+    [
+     "I agree.",
+     "/aɪ əˈgriː/",
+     "Tôi đồng ý",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "2": {
+   "add": [
+    "I like watching movies.",
+    "I work at a bank."
+   ],
+   "drop": []
+  },
+  "3": {
+   "drop": [
+    "I live in Hanoi."
+   ],
+   "add": []
+  }
+ },
+ "it-there": {
+  "1": {
+   "add": [
+    [
+     "There are many people.",
+     "/ðer ɑːr ˈmeni ˈpiːpəl/",
+     "Có nhiều người",
+     ""
+    ],
+    [
+     "There's a hotel near here.",
+     "/ðerz‿ə hoʊˈtel nɪr hɪr/",
+     "Gần đây có một khách sạn",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "3": {
+   "add": [
+    [
+     "There's a cafe here.",
+     "/ðerz‿ə kæˈfeɪ hɪr/",
+     "Ở đây có một quán cà phê",
+     ""
+    ],
+    [
+     "I have a bag.",
+     "/aɪ hæv‿ə bæg/",
+     "Tôi có một cái túi",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "articles": {
+  "0": {
+   "add": [
+    [
+     "a university",
+     "/ə ˌjuːnəˈvɝːsəti/",
+     "một trường đại học",
+     ""
+    ],
+    [
+     "an hour",
+     "/ən‿ˈaʊɚ/",
+     "một giờ đồng hồ",
+     ""
+    ],
+    [
+     "an idea",
+     "/ən‿aɪˈdiːə/",
+     "một ý tưởng",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "1": {
+   "add": [
+    [
+     "the sun",
+     "/ðə sʌn/",
+     "mặt trời",
+     ""
+    ],
+    [
+     "the internet",
+     "/ði ˈɪntɚnet/",
+     "mạng internet",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "plurals": {
+  "2": {
+   "add": [
+    [
+     "my bag",
+     "/maɪ bæg/",
+     "túi của tôi",
+     ""
+    ],
+    [
+     "two friends",
+     "/tuː frendz/",
+     "hai người bạn",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "present": {
+  "1": {
+   "add": [
+    [
+     "I don't drink coffee.",
+     "/aɪ doʊnt drɪŋk ˈkɑːfi/",
+     "Tôi không uống cà phê",
+     ""
+    ],
+    [
+     "They don't work on weekends.",
+     "/ðeɪ doʊnt wɝːk‿ɑːn ˈwiːkendz/",
+     "Họ không làm việc vào cuối tuần",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "questions": {
+  "0": {
+   "add": [
+    [
+     "Are you tired?",
+     "/ɑːr ju ˈtaɪɚd/",
+     "Bạn có mệt không?",
+     ""
+    ],
+    [
+     "Are you a student?",
+     "/ɑːr ju‿ə ˈstuːdənt/",
+     "Bạn là sinh viên phải không?",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "1": {
+   "add": [
+    [
+     "Yes, I do.",
+     "/jes aɪ duː/",
+     "Có (trả lời câu hỏi Do you…?)",
+     ""
+    ],
+    [
+     "No, I don't.",
+     "/noʊ aɪ doʊnt/",
+     "Không (trả lời câu hỏi Do you…?)",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "third-s": {
+  "1": {
+   "add": [
+    [
+     "Does she work?",
+     "/dʌz ʃi wɝːk/",
+     "Cô ấy có đi làm không?",
+     ""
+    ],
+    [
+     "He doesn't like soccer.",
+     "/hi ˈdʌzənt laɪk ˈsɑːkɚ/",
+     "Anh ấy không thích bóng đá",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "final-sounds": {
+  "5": {
+   "add": [
+    [
+     "She works.",
+     "/ʃi wɝːks/",
+     "Cô ấy đi làm",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "prep": {
+  "1": {
+   "add": [
+    [
+     "in Vietnam",
+     "/ɪn viːetˈnɑːm/",
+     "ở Việt Nam",
+     ""
+    ],
+    [
+     "on the table",
+     "/ɑːn ðə ˈteɪbəl/",
+     "trên bàn",
+     ""
+    ],
+    [
+     "at home",
+     "/ət hoʊm/",
+     "ở nhà",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "2": {
+   "add": [
+    [
+     "at night",
+     "/ət naɪt/",
+     "vào ban đêm",
+     ""
+    ],
+    [
+     "in the morning",
+     "/ɪn ðə ˈmɔːrnɪŋ/",
+     "vào buổi sáng",
+     ""
+    ],
+    [
+     "on the weekend",
+     "/ɑːn ðə ˈwiːkend/",
+     "vào cuối tuần (kiểu Mỹ)",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "object-have": {
+  "2": {
+   "add": [
+    [
+     "Let's have pho.",
+     "/lets hæv fʌ/",
+     "Cùng ăn phở nhé",
+     ""
+    ],
+    [
+     "I talk to her every day.",
+     "/aɪ tɑːk tə hɝː ˈevri deɪ/",
+     "Ngày nào tôi cũng nói chuyện với cô ấy",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "can-like": {
+  "2": {
+   "add": [
+    [
+     "I'd like some water.",
+     "/aɪd laɪk sʌm ˈwɑːtɚ/",
+     "Cho tôi xin chút nước",
+     ""
+    ],
+    [
+     "Would you like a coffee?",
+     "/wʊd ju laɪk‿ə ˈkɑːfi/",
+     "Bạn có muốn uống cà phê không?",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "polite": {
+  "1": {
+   "add": [
+    [
+     "Can I get a coffee, please?",
+     "/kən‿aɪ get‿ə ˈkɑːfi pliːz/",
+     "Cho tôi một cốc cà phê",
+     ""
+    ],
+    [
+     "I'd like a glass of water.",
+     "/aɪd laɪk‿ə glæs‿əv ˈwɑːtɚ/",
+     "Cho tôi một cốc nước",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "2": {
+   "drop": [
+    "No, thank you."
+   ],
+   "add": []
+  }
+ },
+ "continuous": {
+  "1": {
+   "add": [
+    "I'm working now.",
+    [
+     "I work every day.",
+     "/aɪ wɝːk‿ˈevri deɪ/",
+     "Ngày nào tôi cũng làm việc",
+     ""
+    ],
+    [
+     "She drinks tea.",
+     "/ʃi drɪŋks tiː/",
+     "Cô ấy (thường) uống trà",
+     ""
+    ],
+    [
+     "She's drinking tea.",
+     "/ʃiz ˈdrɪŋkɪŋ tiː/",
+     "Cô ấy đang uống trà",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "2": {
+   "add": [
+    [
+     "I know.",
+     "/aɪ noʊ/",
+     "Tôi biết",
+     ""
+    ],
+    [
+     "I need a pen.",
+     "/aɪ niːd‿ə pen/",
+     "Tôi cần một cái bút",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "past": {
+  "2": {
+   "add": [
+    [
+     "Did she call you?",
+     "/dɪd ʃi kɑːl ju/",
+     "Cô ấy có gọi cho bạn không?",
+     ""
+    ],
+    [
+     "We didn't watch a movie.",
+     "/wi ˈdɪdənt wɑːtʃ‿ə ˈmuːvi/",
+     "Chúng tôi không xem phim",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "the": {
+  "0": {
+   "add": [
+    [
+     "I have a dog. The dog is so cute.",
+     "/aɪ hæv‿ə dɑːg/ /ðə dɑːg‿ɪz soʊ kjuːt/",
+     "Tôi nuôi một con chó. Con chó đó dễ thương lắm",
+     ""
+    ],
+    [
+     "I saw a movie. The movie was great.",
+     "/aɪ sɑː ə ˈmuːvi/ /ðə ˈmuːvi wəz greɪt/",
+     "Tôi đã xem một bộ phim. Bộ phim đó hay lắm",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "adjectives": {
+  "1": {
+   "add": [
+    [
+     "the biggest",
+     "/ðə ˈbɪgɪst/",
+     "to nhất",
+     ""
+    ],
+    [
+     "the most expensive",
+     "/ðə moʊst ɪkˈspensɪv/",
+     "đắt nhất",
+     ""
+    ],
+    [
+     "the worst",
+     "/ðə wɝːst/",
+     "tệ nhất",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "noun-phrase": {
+  "0": {
+   "add": [
+    [
+     "a big bag",
+     "/ə bɪg bæg/",
+     "một cái túi to",
+     ""
+    ],
+    [
+     "a small room",
+     "/ə smɑːl ruːm/",
+     "một căn phòng nhỏ",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "3": {
+   "add": [
+    [
+     "an old car",
+     "/ən‿oʊld kɑːr/",
+     "một chiếc xe cũ",
+     ""
+    ],
+    [
+     "an expensive bag",
+     "/ən‿ɪkˈspensɪv bæg/",
+     "một cái túi đắt tiền",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "going-to": {
+  "1": {
+   "add": [
+    [
+     "It's going to be cold.",
+     "/ɪts ˈgoʊɪŋ tə biː koʊld/",
+     "Trời sắp lạnh rồi",
+     ""
+    ],
+    [
+     "He's going to be late.",
+     "/hiz ˈgoʊɪŋ tə biː leɪt/",
+     "Anh ấy sắp bị muộn rồi",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "2": {
+   "add": [
+    [
+     "tomorrow",
+     "/təˈmɑːroʊ/",
+     "ngày mai",
+     ""
+    ],
+    [
+     "tonight",
+     "/təˈnaɪt/",
+     "tối nay",
+     ""
+    ],
+    [
+     "this weekend",
+     "/ðɪs ˈwiːkend/",
+     "cuối tuần này",
+     ""
+    ],
+    [
+     "next week",
+     "/nekst wiːk/",
+     "tuần sau",
+     ""
+    ],
+    [
+     "I'm going to go.",
+     "/aɪm ˈgoʊɪŋ tə goʊ/",
+     "Tôi sẽ đi",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "tense": {
+  "0": {
+   "add": [
+    [
+     "I drink coffee every morning.",
+     "/aɪ drɪŋk ˈkɑːfi ˈevri ˈmɔːrnɪŋ/",
+     "Sáng nào tôi cũng uống cà phê",
+     ""
+    ],
+    [
+     "I'm drinking coffee right now.",
+     "/aɪm ˈdrɪŋkɪŋ ˈkɑːfi raɪt naʊ/",
+     "Bây giờ tôi đang uống cà phê",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "1": {
+   "add": [
+    "It was pretty relaxing.",
+    [
+     "I went to school yesterday.",
+     "/aɪ went tə skuːl ˈjestɚdeɪ/",
+     "Hôm qua tôi đi học",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "joining": {
+  "1": {
+   "add": [
+    [
+     "so",
+     "/soʊ/",
+     "nên (nối nguyên nhân với kết quả)",
+     ""
+    ],
+    [
+     "It was raining, so I stayed home.",
+     "/ɪt wəz ˈreɪnɪŋ soʊ aɪ steɪd hoʊm/",
+     "Trời mưa nên tôi ở nhà",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "2": {
+   "add": [
+    [
+     "because",
+     "/bɪˈkɑːz/",
+     "vì",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "3": {
+   "add": [
+    [
+     "too",
+     "/tuː/",
+     "cũng (đứng cuối câu)",
+     ""
+    ],
+    [
+     "Me too.",
+     "/miː tuː/",
+     "Tôi cũng vậy",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "smalltalk": {
+  "0": {
+   "add": [
+    [
+     "How are you?",
+     "/haʊ ɑːr ju/",
+     "Bạn khỏe không?",
+     ""
+    ],
+    "How's work?"
+   ],
+   "drop": []
+  },
+  "1": {
+   "add": [
+    "Nice weather today, huh?",
+    "Any plans for the weekend?",
+    [
+     "Do you work or study?",
+     "/duː ju wɝːk‿ɔːr ˈstʌdi/",
+     "Bạn đi làm hay đi học?",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "past-continuous": {
+  "1": {
+   "add": [
+    [
+     "I was sleeping when you called.",
+     "/aɪ wəz ˈsliːpɪŋ wen ju kɑːld/",
+     "Lúc bạn gọi, tôi đang ngủ",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "will": {
+  "0": {
+   "add": [
+    [
+     "I'll have a coffee.",
+     "/aɪl hæv‿ə ˈkɑːfi/",
+     "Cho tôi một cốc cà phê",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "2": {
+   "add": [
+    [
+     "It will be hot tomorrow.",
+     "/ɪt wɪl biː hɑːt təˈmɑːroʊ/",
+     "Ngày mai trời sẽ nóng",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "3": {
+   "add": [
+    [
+     "I'll get the door.",
+     "/aɪl get ðə dɔːr/",
+     "Để tôi ra mở cửa",
+     ""
+    ],
+    [
+     "I'm going to visit Da Nang next month.",
+     "/aɪm ˈgoʊɪŋ tə ˈvɪzɪt dɑː ˈnɑːŋ nekst mʌnθ/",
+     "Tháng sau tôi sẽ đi Đà Nẵng",
+     ""
+    ],
+    [
+     "I'll go.",
+     "/aɪl goʊ/",
+     "Tôi sẽ đi",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "perfect": {
+  "1": {
+   "add": [
+    [
+     "been",
+     "/bɪn/",
+     "dạng V3 của be",
+     ""
+    ],
+    [
+     "eaten",
+     "/ˈiːtən/",
+     "đã ăn (V3 của eat)",
+     ""
+    ],
+    [
+     "seen",
+     "/siːn/",
+     "đã thấy (V3 của see)",
+     ""
+    ],
+    [
+     "done",
+     "/dʌn/",
+     "đã làm (V3 của do)",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "2": {
+   "add": [
+    [
+     "I saw it yesterday.",
+     "/aɪ sɑː ɪt ˈjestɚdeɪ/",
+     "Hôm qua tôi đã xem cái đó",
+     ""
+    ],
+    [
+     "I went to Vietnam in 2020.",
+     "/aɪ went tə viːetˈnɑːm ɪn ˈtwenti ˈtwenti/",
+     "Năm 2020 tôi đã đến Việt Nam",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "modals": {
+  "0": {
+   "add": [
+    [
+     "I have to go.",
+     "/aɪ hæv tə goʊ/",
+     "Tôi phải đi đây",
+     ""
+    ],
+    [
+     "He has to work.",
+     "/hi hæz tə wɝːk/",
+     "Anh ấy phải đi làm",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "1": {
+   "add": [
+    [
+     "You don't have to come.",
+     "/ju doʊnt hæv tə kʌm/",
+     "Bạn không cần phải đến",
+     ""
+    ],
+    [
+     "You must not smoke here.",
+     "/ju mʌst nɑːt smoʊk hɪr/",
+     "Bạn không được hút thuốc ở đây",
+     ""
+    ],
+    [
+     "You don't have to pay.",
+     "/ju doʊnt hæv tə peɪ/",
+     "Bạn không cần phải trả tiền",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "2": {
+   "add": [
+    [
+     "You should go.",
+     "/ju ʃʊd goʊ/",
+     "Bạn nên đi",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "3": {
+   "add": [
+    [
+     "She might come.",
+     "/ʃi maɪt kʌm/",
+     "Cô ấy có thể sẽ đến",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "to-ing": {
+  "2": {
+   "add": [
+    [
+     "I like to cook.",
+     "/aɪ laɪk tə kʊk/",
+     "Tôi thích nấu ăn",
+     ""
+    ],
+    [
+     "I love watching movies.",
+     "/aɪ lʌv ˈwɑːtʃɪŋ ˈmuːviz/",
+     "Tôi rất thích xem phim",
+     ""
+    ],
+    [
+     "It started raining.",
+     "/ɪt ˈstɑːrtɪd ˈreɪnɪŋ/",
+     "Trời bắt đầu mưa",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "3": {
+   "add": [
+    [
+     "stop smoking",
+     "/stɑːp ˈsmoʊkɪŋ/",
+     "bỏ thuốc lá",
+     ""
+    ],
+    [
+     "stop to smoke",
+     "/stɑːp tə smoʊk/",
+     "dừng lại để hút thuốc",
+     ""
+    ],
+    [
+     "I came here to study English.",
+     "/aɪ keɪm hɪr tə ˈstʌdi ˈɪŋglɪʃ/",
+     "Tôi đến đây để học tiếng Anh",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "articles-2": {
+  "2": {
+   "add": [
+    [
+     "I like the dogs.",
+     "/aɪ laɪk ðə dɑːgz/",
+     "Tôi thích mấy con chó đó",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "first-conditional": {
+  "1": {
+   "add": [
+    "Let me know if you have any questions."
+   ],
+   "drop": []
+  },
+  "2": {
+   "add": [
+    [
+     "When I finish working, I'll call you.",
+     "/wen‿aɪ ˈfɪnɪʃ ˈwɝːkɪŋ aɪl kɑːl ju/",
+     "Làm xong việc tôi sẽ gọi cho bạn",
+     ""
+    ],
+    [
+     "When I get to work, I'll call you.",
+     "/wen‿aɪ get tə wɝːk aɪl kɑːl ju/",
+     "Đến chỗ làm tôi sẽ gọi cho bạn",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "relative": {
+  "0": {
+   "add": [
+    [
+     "I have a friend who lives in Hanoi.",
+     "/aɪ hæv‿ə frend huː lɪvz‿ɪn hæˈnɔɪ/",
+     "Tôi có một người bạn sống ở Hà Nội",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "1": {
+   "add": [
+    [
+     "the bag that I want",
+     "/ðə bæg ðæt‿aɪ wɑːnt/",
+     "cái túi tôi muốn có",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "2": {
+   "add": [
+    [
+     "the book I bought",
+     "/ðə bʊk aɪ bɑːt/",
+     "quyển sách tôi đã mua (bỏ that)",
+     ""
+    ],
+    [
+     "the phone I want",
+     "/ðə foʊn aɪ wɑːnt/",
+     "cái điện thoại tôi muốn có",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "3": {
+   "add": [
+    [
+     "the hotel where we stayed",
+     "/ðə hoʊˈtel wer wi steɪd/",
+     "khách sạn nơi chúng tôi đã ở",
+     ""
+    ],
+    [
+     "the city where I live",
+     "/ðə ˈsɪti wer aɪ lɪv/",
+     "thành phố nơi tôi sống",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "perfect-2": {
+  "0": {
+   "drop": [
+    "I live in Hanoi."
+   ],
+   "add": []
+  },
+  "1": {
+   "add": [
+    "I've been learning English for a year.",
+    [
+     "How long have you lived here?",
+     "/haʊ lɑːŋ hæv ju lɪvd hɪr/",
+     "Bạn sống ở đây bao lâu rồi?",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "narrative": {
+  "0": {
+   "add": [
+    [
+     "I was walking home.",
+     "/aɪ wəz ˈwɑːkɪŋ hoʊm/",
+     "Lúc đó tôi đang đi bộ về nhà",
+     ""
+    ],
+    [
+     "I saw an old friend.",
+     "/aɪ sɑː ən‿oʊld frend/",
+     "Tôi gặp một người bạn cũ",
+     ""
+    ],
+    [
+     "He had moved to Ho Chi Minh City.",
+     "/hi hæd muːvd tə hoʊ tʃiː mɪn ˈsɪti/",
+     "Anh ấy đã chuyển vào TP. Hồ Chí Minh (từ trước đó)",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "1": {
+   "add": [
+    [
+     "I had already eaten.",
+     "/aɪ hæd‿ɑːlˈredi ˈiːtən/",
+     "Lúc đó tôi đã ăn rồi",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "2": {
+   "add": [
+    [
+     "first",
+     "/fɝːst/",
+     "đầu tiên",
+     ""
+    ],
+    [
+     "then",
+     "/ðen/",
+     "rồi, sau đó",
+     ""
+    ],
+    [
+     "after that",
+     "/ˈæftɚ ðæt/",
+     "sau đó nữa",
+     ""
+    ],
+    [
+     "finally",
+     "/ˈfaɪnəli/",
+     "cuối cùng",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "conditionals": {
+  "1": {
+   "add": [
+    [
+     "If I had known, I would have come.",
+     "/ɪf‿aɪ hæd noʊn aɪ wʊd hæv kʌm/",
+     "Nếu hồi đó biết thì tôi đã đến rồi",
+     ""
+    ],
+    [
+     "If you had called, I would have helped.",
+     "/ɪf ju hæd kɑːld aɪ wʊd hæv helpt/",
+     "Nếu hồi đó bạn gọi thì tôi đã giúp rồi",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "2": {
+   "add": [
+    [
+     "I wish I had a car.",
+     "/aɪ wɪʃ‿aɪ hæd‿ə kɑːr/",
+     "Ước gì tôi có ô tô",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "passive": {
+  "1": {
+   "add": [
+    [
+     "This was made by my mom.",
+     "/ðɪs wəz meɪd baɪ maɪ mɑːm/",
+     "Cái này do mẹ tôi làm",
+     ""
+    ],
+    [
+     "by",
+     "/baɪ/",
+     "bởi, do (chỉ người thực hiện)",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "2": {
+   "add": [
+    [
+     "Someone stole my bag.",
+     "/ˈsʌmwʌn stoʊl maɪ bæg/",
+     "Có người lấy trộm túi của tôi",
+     ""
+    ],
+    [
+     "My bag was stolen.",
+     "/maɪ bæg wəz ˈstoʊlən/",
+     "Túi của tôi bị lấy cắp",
+     ""
+    ],
+    [
+     "They canceled the flight.",
+     "/ðeɪ ˈkænsəld ðə flaɪt/",
+     "Họ đã hủy chuyến bay",
+     ""
+    ],
+    [
+     "The flight was canceled.",
+     "/ðə flaɪt wəz ˈkænsəld/",
+     "Chuyến bay đã bị hủy",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "3": {
+   "add": [
+    [
+     "The accident happened.",
+     "/ði ˈæksədənt ˈhæpənd/",
+     "Vụ tai nạn đã xảy ra",
+     ""
+    ],
+    [
+     "It became legal.",
+     "/ɪt bɪˈkeɪm ˈliːgəl/",
+     "Việc đó đã trở thành hợp pháp",
+     ""
+    ],
+    [
+     "The bus arrived.",
+     "/ðə bʌs əˈraɪvd/",
+     "Xe buýt đã đến",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "reported": {
+  "1": {
+   "add": [
+    [
+     "He asked if I was busy.",
+     "/hi æskt‿ɪf‿aɪ wəz ˈbɪzi/",
+     "Anh ấy hỏi tôi có bận không",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "email": {
+  "0": {
+   "add": [
+    "I'm writing to ask about the schedule.",
+    "Could you send me the file by Friday?"
+   ],
+   "drop": []
+  },
+  "1": {
+   "add": [
+    [
+     "Hi Minh,",
+     "/haɪ mɪn/",
+     "Chào Minh,",
+     ""
+    ],
+    [
+     "Dear Mr. Smith,",
+     "/dɪr ˈmɪstɚ smɪθ/",
+     "Kính gửi ông Smith,",
+     ""
+    ]
+   ],
+   "drop": []
+  },
+  "3": {
+   "add": [
+    [
+     "Have a great weekend!",
+     "/hæv‿ə greɪt ˈwiːkend/",
+     "Chúc cuối tuần vui vẻ!",
+     ""
+    ],
+    [
+     "I really appreciate your help.",
+     "/aɪ ˈriːli əˈpriːʃieɪt jʊr help/",
+     "Tôi thực sự cảm kích sự giúp đỡ của anh/chị",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ },
+ "idioms": {
+  "1": {
+   "add": [
+    [
+     "Kill two birds with one stone",
+     "/kɪl tuː bɝːdz wɪð wʌn stoʊn/",
+     "Một công đôi việc",
+     ""
+    ],
+    [
+     "A blessing in disguise",
+     "/ə ˈblesɪŋ‿ɪn dɪsˈgaɪz/",
+     "Trong cái rủi có cái may",
+     ""
+    ]
+   ],
+   "drop": []
+  }
+ }
+}

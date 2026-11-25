@@ -22,7 +22,7 @@ const ROOT = path.join(__dirname, '..', '..'), cid = process.argv[2];
     const ids = new Set(LESSONS.map(l => l.id)); Object.keys(X).forEach(id => { if (!ids.has(id)) bad.push('no lesson "' + id + '"'); });
     const nonLatin = (DECKS[LESSONS[0].deck] || []).some(c => /[^\u0000-ɏḀ-ỿ]/.test(c[0]));
     LESSONS.forEach(l => {
-      const pl = lsPlan(l); if (!pl.pre) { if (X[l.id] && !(l.id === 'hangul' && COURSE.target === 'ko')) bad.push(l.id + ': hand-set lesson, leave it out'); return; }
+      const pl = lsPlan(l); if (!pl.pre) { if (X[l.id] && !(l.id === 'hangul' && COURSE.target === 'ko')) small.push(l.id + ': hand-set lesson now, its table entry is not used'); return; }
       n.lessons++; const raw = lsCut(l.body), x = X[l.id] || {}, seenAdd = new Set();
       Object.keys(x).forEach(i => { if (!(+i >= 0 && +i < raw.length)) bad.push(l.id + ': no section ' + i + ' (the lesson has ' + raw.length + ')'); });
       pl.parts.forEach((part, i) => {
