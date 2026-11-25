@@ -1,0 +1,592 @@
+{
+ "_about": "SEC-1 writer file for en-pt.",
+ "sounds": {
+  "1": {
+   "add": [
+    "a noite",
+    "o leite",
+    "o dia"
+   ]
+  },
+  "4": {
+   "drop": [
+    "em"
+   ]
+  },
+  "5": {
+   "add": [
+    [
+     "os carros",
+     "oos KAH-hoos",
+     "the cars",
+     ""
+    ],
+    [
+     "as casas",
+     "ahs KAH-zuhs",
+     "the houses",
+     ""
+    ],
+    "a rua"
+   ]
+  }
+ },
+ "greetings": {
+  "0": {
+   "drop": [
+    "tarde"
+   ]
+  },
+  "1": {
+   "add": [
+    [
+     "E você?",
+     "ee voh-SAY",
+     "And you?",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "Muito prazer.",
+     "MOOYN-too prah-ZAYR",
+     "Very nice to meet you.",
+     ""
+    ],
+    [
+     "Meu nome é Ana.",
+     "mayw NOH-mee eh AH-nuh",
+     "My name is Ana.",
+     ""
+    ]
+   ]
+  }
+ },
+ "articles": {
+  "2": {
+   "add": [
+    [
+     "o limão",
+     "oo lee-MOWNG",
+     "the lime",
+     ""
+    ],
+    [
+     "os pães",
+     "oos paings",
+     "the breads; the rolls",
+     ""
+    ],
+    [
+     "os reais",
+     "oos heh-AIS",
+     "the reais (Brazil's money)",
+     ""
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "o pão de queijo",
+     "oo powng jee KAY-zhoo",
+     "the cheese bread",
+     ""
+    ]
+   ]
+  }
+ },
+ "ser": {
+  "3": {
+   "add": [
+    "Sou estudante.",
+    [
+     "Sou professor.",
+     "soh proh-feh-SOHR",
+     "I'm a teacher.",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "add": [
+    "Sou casado."
+   ]
+  }
+ },
+ "adjectives": {
+  "1": {
+   "add": [
+    [
+     "grande",
+     "GRAHN-jee",
+     "big",
+     ""
+    ],
+    [
+     "azul",
+     "ah-ZOOW",
+     "blue",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "add": [
+    [
+     "a casa bonita",
+     "ah KAH-zuh boh-NEE-tuh",
+     "the pretty house",
+     ""
+    ],
+    [
+     "bonito",
+     "boh-NEE-too",
+     "pretty; good-looking (masculine)",
+     ""
+    ],
+    [
+     "brasileira",
+     "brah-zee-LAY-ruh",
+     "Brazilian (feminine)",
+     ""
+    ]
+   ]
+  }
+ },
+ "present": {
+  "0": {
+   "drop": [
+    "ir"
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "tu",
+     "too",
+     "you (regional, informal)",
+     ""
+    ],
+    [
+     "Ela trabalha aqui.",
+     "EH-luh trah-BAH-lyuh ah-KEE",
+     "She works here.",
+     ""
+    ],
+    "Onde você trabalha?"
+   ]
+  }
+ },
+ "estar": {
+  "0": {
+   "drop": [
+    "ser"
+   ]
+  },
+  "1": {
+   "add": [
+    [
+     "aqui",
+     "ah-KEE",
+     "here",
+     ""
+    ],
+    [
+     "as chaves",
+     "ahs SHAH-vees",
+     "the keys",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "drop": [
+    "bom"
+   ]
+  },
+  "4": {
+   "add": [
+    [
+     "Tô bem.",
+     "toh bayng",
+     "I'm fine. (spoken)",
+     ""
+    ],
+    [
+     "Ela tá aqui.",
+     "EH-luh tah ah-KEE",
+     "She's here. (spoken)",
+     ""
+    ]
+   ]
+  }
+ },
+ "ser-estar": {
+  "2": {
+   "add": [
+    [
+     "Ela é bonita.",
+     "EH-luh eh boh-NEE-tuh",
+     "She's pretty.",
+     ""
+    ],
+    [
+     "Ela está bonita.",
+     "EH-luh ees-TAH boh-NEE-tuh",
+     "She looks pretty (today).",
+     ""
+    ],
+    [
+     "A sopa está fria.",
+     "ah SOH-puh ees-TAH FREE-uh",
+     "The soup has gone cold.",
+     ""
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "A Ana está no escritório.",
+     "ah AH-nuh ees-TAH noo ees-kree-TAW-ryoo",
+     "Ana is at the office.",
+     ""
+    ],
+    [
+     "O escritório fica no centro.",
+     "oo ees-kree-TAW-ryoo FEE-kuh noo SAYN-troo",
+     "The office is downtown.",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "add": [
+    [
+     "Fico nervoso.",
+     "FEE-koo nehr-VOH-zoo",
+     "I get nervous.",
+     ""
+    ],
+    [
+     "Fiquei feliz.",
+     "fee-KAY feh-LEES",
+     "I was glad.",
+     ""
+    ],
+    "Fiquei triste."
+   ]
+  }
+ },
+ "ter": {
+  "1": {
+   "drop": [
+    "ser"
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "tem",
+     "tayng",
+     "there is; there are (spoken)",
+     ""
+    ],
+    [
+     "há",
+     "ah",
+     "there is; there are (formal)",
+     ""
+    ]
+   ]
+  }
+ },
+ "questions": {
+  "1": {
+   "drop": [
+    "Como?"
+   ]
+  },
+  "2": {
+   "add": [
+    "Quantos anos você tem?",
+    "Quantas pessoas?"
+   ]
+  }
+ },
+ "location": {
+  "2": {
+   "add": [
+    "A chave está em cima da mesa.",
+    [
+     "O banco fica atrás da igreja.",
+     "oo BAHN-koo FEE-kuh ah-TRAHS dah ee-GRAY-zhuh",
+     "The bank is behind the church.",
+     ""
+    ],
+    [
+     "na frente de",
+     "nah FRAYN-chee jee",
+     "in front of",
+     ""
+    ],
+    [
+     "ao lado de",
+     "ow LAH-doo jee",
+     "next to",
+     ""
+    ]
+   ]
+  }
+ },
+ "possessives": {
+  "0": {
+   "drop": [
+    "Nossa!"
+   ]
+  }
+ },
+ "irregular": {
+  "2": {
+   "add": [
+    [
+     "faz calor",
+     "fahs kah-LOHR",
+     "it's hot (weather)",
+     ""
+    ],
+    [
+     "Faz dois anos que moro aqui.",
+     "fahs doys AH-noos kee MAW-roo ah-KEE",
+     "I've lived here for two years.",
+     ""
+    ]
+   ]
+  }
+ },
+ "future": {
+  "2": {
+   "add": [
+    [
+     "Não vou viajar amanhã.",
+     "nowng voh vee-ah-ZHAHR ah-mah-NYAHNG",
+     "I'm not going to travel tomorrow.",
+     ""
+    ],
+    [
+     "A gente não vai jantar em casa.",
+     "ah ZHAYN-chee nowng vai zhahn-TAHR ayng KAH-zuh",
+     "We're not going to have dinner at home.",
+     ""
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "vou falar",
+     "voh fah-LAHR",
+     "I'm going to speak",
+     ""
+    ],
+    [
+     "falarei",
+     "fah-lah-RAY",
+     "I will speak (formal, written)",
+     ""
+    ]
+   ]
+  }
+ },
+ "gostar": {
+  "2": {
+   "add": [
+    [
+     "ela gosta",
+     "EH-luh GAWS-tuh",
+     "she likes",
+     ""
+    ],
+    [
+     "nós gostamos",
+     "naws gohs-TAH-moos",
+     "we like",
+     ""
+    ],
+    "O que você gosta de fazer?"
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "Eu adoro café.",
+     "ayw ah-DAW-roo kah-FEH",
+     "I love coffee.",
+     ""
+    ]
+   ]
+  }
+ },
+ "prepositions": {
+  "0": {
+   "drop": [
+    "em São Paulo"
+   ]
+  },
+  "1": {
+   "drop": [
+    "em",
+    "de"
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "de carro",
+     "jee KAH-hoo",
+     "by car",
+     ""
+    ],
+    [
+     "a pé",
+     "ah peh",
+     "on foot",
+     ""
+    ],
+    [
+     "de metrô",
+     "jee meh-TROH",
+     "by subway",
+     ""
+    ]
+   ]
+  }
+ },
+ "progressive": {
+  "3": {
+   "add": [
+    [
+     "Vou trabalhar amanhã.",
+     "voh trah-bah-LYAHR ah-mah-NYAHNG",
+     "I'm working tomorrow.",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "add": [
+    [
+     "Estou falando com ela.",
+     "ees-TOH fah-LAHN-doo kohng EH-luh",
+     "I'm talking to her.",
+     ""
+    ],
+    "Estou estudando português."
+   ]
+  }
+ },
+ "reflexive": {
+  "0": {
+   "drop": [
+    "se"
+   ]
+  },
+  "1": {
+   "add": [
+    [
+     "Me chamo Lucas.",
+     "mee SHAH-moo LOO-kuhs",
+     "My name's Lucas.",
+     ""
+    ],
+    "Eu me levanto às sete e meia.",
+    [
+     "Ela se chama Ana.",
+     "EH-luh see SHAH-muh AH-nuh",
+     "Her name is Ana.",
+     ""
+    ]
+   ]
+  }
+ },
+ "past": {
+  "3": {
+   "add": [
+    "Vi um filme.",
+    "Ontem saí com uns amigos."
+   ]
+  }
+ },
+ "requests": {
+  "1": {
+   "add": [
+    [
+     "Me dá um café, por favor?",
+     "mee dah oong kah-FEH pohr fah-VOHR",
+     "Can I have a coffee, please?",
+     ""
+    ],
+    [
+     "Me dá um pão de queijo, por favor?",
+     "mee dah oong powng jee KAY-zhoo pohr fah-VOHR",
+     "Can I have a cheese bread, please?",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "Eu queria um café, por favor.",
+     "ayw keh-REE-uh oong kah-FEH pohr fah-VOHR",
+     "I'd like a coffee, please.",
+     ""
+    ],
+    [
+     "Eu queria uma água, por favor.",
+     "ayw keh-REE-uh OO-muh AH-gwuh pohr fah-VOHR",
+     "I'd like a water, please.",
+     ""
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    "Chame a polícia!",
+    "Tome este remédio duas vezes por dia."
+   ]
+  }
+ },
+ "connectors": {
+  "1": {
+   "add": [
+    [
+     "Estou cansado, mas feliz.",
+     "ees-TOH kahn-SAH-doo mahs feh-LEES",
+     "I'm tired but happy.",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "add": [
+    [
+     "Eu descanso no sábado.",
+     "ayw jees-KAHN-soo noo SAH-bah-doo",
+     "I rest on Saturday.",
+     ""
+    ]
+   ]
+  }
+ },
+ "city": {
+  "0": {
+   "drop": [
+    "estar"
+   ]
+  }
+ }
+}

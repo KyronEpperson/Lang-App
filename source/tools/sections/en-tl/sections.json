@@ -1,0 +1,92 @@
+{
+ "_about": "SEC-1 writer file for en-tl.",
+ "sounds": {
+  "0": {"drop": ["oo", "ay"]},
+  "4": {"add": ["tsaa", ["gising", "ghee-SEENG", "awake", ""]]}
+ },
+ "greetings": {
+  "0": {"drop": ["ng"]}
+ },
+ "pronouns": {
+  "0": {"drop": ["ko", "akin"]},
+  "1": {"add": [["Siya si Ana.", "shah see AH-nah", "She's Ana.", ""], ["Siya si Lola.", "shah see LOH-lah", "She's Lola.", ""]]},
+  "3": {"add": [["Guro tayo.", "GOO-roh TAH-yoh", "We're teachers. (you too)", ""]]}
+ },
+ "intro": {
+  "0": {"drop": ["ng"]},
+  "2": {"add": [["Pilipino ako.", "pee-lee-PEE-noh ah-KOH", "I'm Filipino.", ""]]},
+  "4": {"drop": ["po", "kuya", "ate"]}
+ },
+ "this-that": {
+  "3": {"add": [["Ano 'yan?", "ah-NOH yahn", "What's that? (casual)", ""]]}
+ },
+ "markers": {
+  "3": {"add": [["sa kusina", "sah koo-SEE-nah", "in the kitchen", ""]], "drop": ["para"]},
+  "4": {"add": [["bahay ni Ana", "BAH-hai nee AH-nah", "Ana's house", ""], ["sa Maynila", "sah mai-NEE-lahq", "in Manila; to Manila", ""], ["Para kay Lola ito.", "PAH-rah kai LOH-lah ee-TOH", "This is for Lola.", ""]]}
+ },
+ "linker": {
+  "0": {"drop": ["ng"]},
+  "4": {"add": [["apat na bahay", "AH-paht nah BAH-hai", "four houses", ""]]}
+ },
+ "ng-pronouns": {
+  "0": {"drop": ["Ako si Ana."]},
+  "3": {"add": [["Hindi niya alam.", "heen-DEE nyah ah-LAHM", "He doesn't know. / She doesn't know.", ""]]}
+ },
+ "questions": {
+  "2": {"add": ["Nasaan ka?"]}
+ },
+ "yes-no": {
+  "2": {"add": [["pera", "PEH-rah", "money", ""]], "drop": ["ng"]},
+  "3": {"add": [["umalis", "oo-mah-LEES", "to leave", ""]]},
+  "5": {"add": [["busog", "boo-SOHG", "full (after eating)", ""], ["Busog na ako.", "boo-SOHG nah ah-KOH", "I'm full.", ""]]}
+ },
+ "numbers": {
+  "1": {"drop": ["ng"]}
+ },
+ "may": {
+  "2": {"drop": ["ng"]}
+ },
+ "family": {
+  "2": {"add": [["Salamat po, Kuya.", "sah-LAH-maht pohq KOO-yah", "Thank you, sir. (to a young man a bit older)", ""]]}
+ },
+ "word-order": {
+  "1": {"add": [["Si Ana ay guro.", "see AH-nah ai GOO-rohq", "Ana is a teacher. (more formal)", ""]]}
+ },
+ "um": {
+  "1": {"add": [["Kumain si Ana.", "koo-MAH-een see AH-nah", "Ana ate.", ""]]},
+  "2": {"drop": ["ko"]}
+ },
+ "mag": {
+  "1": {"add": [["nag-aral", "nahg-AH-rahl", "studied", ""]]},
+  "3": {"add": [["kumain", "koo-MAH-een", "ate", ""], ["nagluto", "nahg-LOO-tohq", "cooked", ""], ["naglaro", "nahg-lah-ROH", "played", ""]]}
+ },
+ "aspect": {
+  "2": {"drop": ["Nag-aaral pa ako."]}
+ },
+ "gusto": {
+  "2": {"drop": ["hindi"]}
+ },
+ "in": {
+  "1": {"drop": ["ni"]},
+  "3": {"add": [["Binili ko ito.", "bee-nee-LEE koh ee-TOH", "I bought this.", ""], ["Kinain ko ang tinapay ni Ana.", "kee-NAH-een koh ahng tee-NAH-pai nee AH-nah", "I ate Ana's bread.", ""]]}
+ },
+ "directions": {
+  "1": {"add": [["sa bahay ni Juan", "sah BAH-hai nee hwahn", "to Juan's house", ""]]},
+  "3": {"add": ["Bayad po, dalawa.", ["Pupunta ako sa Makati.", "poo-poon-TAH ah-KOH sah mah-KAH-tee", "I'm going to Makati.", ""]]}
+ },
+ "requests": {
+  "0": {"drop": ["Kumain ka na?"]},
+  "2": {"add": ["Puwede po bang magtanong?", ["puwede", "PWEH-deh", "can; may (pseudo-verb)", ""]]},
+  "3": {"drop": ["hindi"]}
+ },
+ "particles": {
+  "2": {"add": ["Sandali lang po."]}
+ },
+ "compare": {
+  "2": {"add": ["pinakamaganda", ["pinakamura", "pee-nah-kah-MOO-rah", "cheapest", ""]]},
+  "3": {"add": [["mas mura", "mahs MOO-rah", "cheaper", ""], ["kaysa kay Ana", "kai-SAH kai AH-nah", "than Ana", ""], ["kaysa sa manok", "kai-SAH sah mah-NOHK", "than chicken", ""]]}
+ },
+ "taglish": {
+  "1": {"add": [["Magda-drive ako.", "mahg-dah-DRAYV ah-KOH", "I'll drive.", ""]]}
+ }
+}

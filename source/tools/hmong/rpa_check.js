@@ -161,7 +161,8 @@ function walkPack(c, sink) {
   const unknown = p => sink({ text: '', path: p, role: '?', lang: 'unmapped' });
   const known = new Set(['id', 'native', 'target', 'ttsLang', 'features', 'accents', 'keys', 'tilesDefault', 'romaAlmost', 'noAudio', 'voiceMatch', 'standard', 'builtin',
     'name', 'brand', 'introWord', 'GREET', 'DECKS', 'GROUPS', 'TAGS', 'DESC', 'DIALOG', 'EXAMPLES', 'LESSONS', 'CHECKS', 'PRACTICE', 'PATTERNS', 'PAIRS', 'GOALS', 'PLAN_PRESETS', 'TITLES', 'PAUSE', 'UI', 'TRAINER', 'ROLES', 'KINDS']);
-  Object.keys(c).forEach(k => { if (!known.has(k)) unknown(k); });
+  Object.keys(c).forEach(k => { if (!known.has(k) && k !== 'SECS') unknown(k); });
+  each(c.SECS, (secs, id) => each(secs, (w, i) => ((w && w.add) || []).forEach((r, j) => { const p = `SECS{${id}}[${i}].add[${j}]`; if (Array.isArray(r)) { put(r[0], 'T', p + '[0]'); put(r[1], 'P', p + '[1]'); put(r[2], 'N', p + '[2]'); put(r[3], 'N', p + '[3]'); } else put(r, 'T', p); }))); /* SEC-1 section cards: the writer's new cards are cards like any other; drops only name existing fronts */
   each(c.name, (v, k) => put(v, k === HM ? (hmnTarget ? 'T' : 'N') : 'E', 'name.' + k));
   put(c.brand, 'T', 'brand'); put(c.introWord, 'T', 'introWord');
   (c.GREET || []).forEach((g, i) => { put(g[0], 'T', `GREET[${i}][0]`); put(g[1], 'N', `GREET[${i}][1]`); });

@@ -1,0 +1,64 @@
+{
+ "_about": "SEC-1 writer file for en-ptpt.",
+ "vowels": {
+  "3": {"drop": ["ou", "Ei"]},
+  "4": {"add": [["o", "oo", "the (masculine)", ""], ["a", "uh", "the (feminine)", ""], ["duas", "DOO-uhsh", "two (feminine)", ""]]}
+ },
+ "nasals": {
+  "0": {"drop": ["em"]}
+ },
+ "greetings": {
+  "0": {"drop": ["Boa", "tarde"]},
+  "2": {"add": [["Por favor", "poor fuh-VOHR", "Please (also common)", ""]]}
+ },
+ "address": {
+  "3": {"add": [["Eles falam", "AY-lihsh FAH-lowng", "they speak (men or mixed)", ""]]}
+ },
+ "intro": {
+  "3": {"add": [["Muito prazer, chamo-me Pedro", "MOOYNG-too pruh-ZAYR SHUH-moo mih PAY-droo", "Pleased to meet you, my name is Pedro", ""]]}
+ },
+ "ser": {
+  "1": {"drop": ["um"]}
+ },
+ "present": {
+  "0": {"drop": ["ir", "como"]},
+  "1": {"drop": ["Sou português"]},
+  "2": {"add": [["Estudamos", "ihsh-too-DUH-moosh", "we study", ""], ["Trabalhamos", "truh-buh-LYUH-moosh", "we work", ""], ["Eles trabalham", "AY-lihsh truh-BAH-lyowng", "they work", ""]], "drop": ["Falámos"]}
+ },
+ "questions": {
+  "0": {"drop": ["como", "Não está"]},
+  "1": {"drop": ["ele"]}
+ },
+ "numbers": {
+  "2": {"drop": ["ele"]}
+ },
+ "family": {
+  "1": {"add": [["o teu pai", "oo tayw pahy", "your father (to a friend)", ""], ["a sua mãe", "uh SOO-uh muhyng", "his or her mother, or your mother (to o senhor or a senhora)", ""]]}
+ },
+ "irregular": {
+  "0": {"drop": ["Vou ao café"]}
+ },
+ "contractions": {
+  "1": {"drop": ["Vou de autocarro"]}
+ },
+ "progressive": {
+  "1": {"add": [["começar", "koo-mih-SAHR", "to start", ""], ["acabar de", "uh-kuh-BAHR dih", "to have just (done something)", ""]]}
+ },
+ "home": {
+  "2": {"add": [["Estou a trabalhar no quarto.", "ihsh-TOH uh truh-buh-LYAHR noo KWAHR-too", "I am working in the bedroom.", ""], ["Estamos a comer na cozinha.", "ihsh-TUH-moosh uh koo-MAYR nuh koo-ZEE-nyuh", "We are eating in the kitchen.", ""]]}
+ },
+ "likes": {
+  "0": {"drop": ["preferir", "e", "ou", "mas", "porque", "falar"]},
+  "1": {"add": ["preferir", "Prefiro o comboio"]},
+  "2": {"add": ["e", "ou", "mas", "porque"], "drop": ["por"]}
+ },
+ "city": {
+  "0": {"drop": ["gostar"]}
+ },
+ "transport": {
+  "1": {"add": [["um bilhete", "oong bee-LYAY-tih", "a ticket", ""], ["Um bilhete para Lisboa", "oong bee-LYAY-tih PUH-ruh lihzh-BOH-uh", "A ticket to Lisbon", ""], ["Um bilhete para o Porto", "oong bee-LYAY-tih PUH-ruh oo POHR-too", "A ticket to Porto", ""], ["Queria um bilhete para Lisboa, se faz favor.", "kih-REE-uh oong bee-LYAY-tih PUH-ruh lihzh-BOH-uh sih fahsh fuh-VOHR", "I would like a ticket to Lisbon, please.", ""]]}
+ },
+ "past": {
+  "0": {"drop": ["ir"]}
+ }
+}

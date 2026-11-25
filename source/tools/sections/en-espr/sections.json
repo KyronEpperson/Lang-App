@@ -1,0 +1,96 @@
+{
+ "_about": "SEC-1 writer file for en-espr.",
+ "sounds": {
+  "1": {"add": ["el papel", "el café"]},
+  "3": {"add": ["la cara", "la rosa"]},
+  "4": {"add": [["los perros", "lohs PEH-rrohs", "the dogs", ""], ["las llaves", "lahs YAH-behs", "the keys", ""]]},
+  "5": {"add": ["el hijo"]}
+ },
+ "pr-sounds": {
+  "1": {"add": ["las casas"]},
+  "2": {"add": ["el parque", "Es tarde.", "Voy a comer."]},
+  "3": {"add": ["la carretera", ["el perro", "ehl PEH-rroh", "the dog", ""]]},
+  "4": {"add": ["Ya está vendido.", "el pescado"]}
+ },
+ "greetings": {
+  "2": {"add": [["me llamo", "meh YAH-moh", "my name is (literally: I call myself)", ""]]}
+ },
+ "pr-greetings": {
+  "2": {"add": [["boricuas", "boh-REE-kwahs", "Puerto Ricans", ""]]}
+ },
+ "articles": {
+  "2": {"add": [["Un vaso de agua, por favor.", "oon BAH-soh deh AH-gwah pohr fah-BOHR", "A glass of water, please.", ""]]},
+  "3": {"add": [["Me gusta el queso.", "meh GOOS-tah ehl KEH-soh", "I like cheese.", ""], ["Me gusta el jugo.", "meh GOOS-tah ehl HOO-goh", "I like juice.", ""]]},
+  "4": {"add": ["Para mí, una empanadilla."]}
+ },
+ "ser": {
+  "1": {"add": [["Yo soy de Chicago.", "yoh soy deh chee-KAH-goh", "I'm from Chicago.", ""], ["yo creo", "yoh KREH-oh", "I think", ""]]},
+  "2": {"add": [["¿De dónde es usted?", "deh DOHN-deh ehs oos-TEHD", "Where are you from? (formal)", ""], "Soy de Estados Unidos."]}
+ },
+ "adjectives": {
+  "0": {"add": ["el vestido verde", "la chaqueta gris"]},
+  "1": {"add": ["la falda blanca", ["el mapa rojo", "ehl MAH-pah RROH-hoh", "the red map", ""]]},
+  "3": {"add": [["Carlos es alto.", "KAHR-lohs ehs AHL-toh", "Carlos is tall.", ""], ["Ellas son altas.", "EH-yahs sohn AHL-tahs", "They're tall. (women)", ""]]}
+ },
+ "estar": {
+  "0": {"drop": ["esta"]}
+ },
+ "ser-estar": {
+  "1": {"add": [["Soy estudiante.", "soy ehs-too-DYAHN-teh", "I'm a student.", ""], ["San Juan está en Puerto Rico.", "sahn hwahn ehs-TAH ehn PWEHR-toh RREE-koh", "San Juan is in Puerto Rico.", ""], ["Soy enfermera.", "soy ehn-fehr-MEH-rah", "I'm a nurse.", ""]]},
+  "2": {"add": [["La fiesta es en la casa.", "lah FYEHS-tah ehs ehn lah KAH-sah", "The party is at the house.", ""]]},
+  "3": {"add": ["Estoy contenta.", "Estoy nervioso.", "Estoy triste."]}
+ },
+ "present": {
+  "0": {"drop": ["como", "vivo", "ir", "Se habla español."]},
+  "1": {"add": ["Trabajo en una oficina.", ["Yo estudio, ella trabaja.", "yoh ehs-TOO-dyoh EH-yah trah-BAH-hah", "I study, she works.", ""]]},
+  "3": {"add": ["Trabajamos los sábados.", ["Nosotros trabajamos.", "noh-SOH-trohs trah-bah-HAH-mohs", "We work.", ""]]}
+ },
+ "questions": {
+  "0": {"add": [["¡Qué bien!", "keh byehn", "How nice!", ""]]},
+  "1": {"drop": ["como"]},
+  "2": {"add": ["¿Quién es ella?", "¿Dónde trabajas?"]},
+  "5": {"add": ["Porque estoy cansado."]}
+ },
+ "possessives": {
+  "2": {"drop": ["de"]}
+ },
+ "stem-change": {
+  "1": {"add": [["queremos", "keh-REH-mohs", "we want", ""], ["ustedes pueden", "oos-TEH-dehs PWEH-dehn", "you all can", ""]]},
+  "2": {"add": [["quiero descansar", "KYEH-roh dehs-kahn-SAHR", "I want to rest", ""], ["puedo ir", "PWEH-doh eer", "I can go", ""]]},
+  "3": {"add": [["¿Puede repetir, por favor?", "PWEH-deh rreh-peh-TEER pohr fah-BOHR", "Can you repeat that, please?", ""]]}
+ },
+ "gustar": {
+  "1": {"add": [["le gusta", "leh GOOS-tah", "he / she likes; you like (formal)", ""], ["nos gusta", "nohs GOOS-tah", "we like", ""], ["A mí me gusta.", "ah mee meh GOOS-tah", "I like it. (emphatic)", ""]]}
+ },
+ "prepositions": {
+  "1": {"add": [["Llamo a mi mamá.", "YAH-moh ah mee mah-MAH", "I call my mom.", ""], ["Veo el tren.", "BEH-oh ehl trehn", "I see the train.", ""]]}
+ },
+ "muy-mucho": {
+  "4": {"add": [["Es muy grande.", "ehs mwee GRAHN-deh", "It's very big.", ""]]}
+ },
+ "directions": {
+  "2": {"add": [["¿Dónde está la farmacia?", "DOHN-deh ehs-TAH lah fahr-MAH-syah", "Where is the pharmacy?", ""], ["¿Dónde están los bancos?", "DOHN-deh ehs-TAHN lohs BAHN-kohs", "Where are the banks?", ""]]}
+ },
+ "pr-daily": {
+  "5": {"add": [["Mis mahones son azules.", "mees mah-HOH-nehs sohn ah-SOO-lehs", "My jeans are blue.", ""]]}
+ },
+ "ir-a": {
+  "4": {"add": [["Nosotros vamos a viajar.", "noh-SOH-trohs BAH-mohs ah byah-HAHR", "We're going to travel.", ""], ["¡Vamos a bailar!", "BAH-mohs ah bai-LAHR", "Let's dance!", ""]]}
+ },
+ "lo-la": {
+  "0": {"add": [["Lo compro.", "loh KOHM-proh", "I'll buy it.", ""], "¿Lo tiene en negro?"], "drop": ["la", "los", "las"]},
+  "2": {"add": [["Llamo a Ana.", "YAH-moh ah AH-nah", "I call Ana.", ""], ["La llamo.", "lah YAH-moh", "I call her.", ""]], "drop": ["ella", "él"]},
+  "3": {"add": [["Voy a comprarlos.", "boy ah kohm-PRAHR-lohs", "I'm going to buy them.", ""]]}
+ },
+ "preterite": {
+  "0": {"drop": ["ir"]},
+  "1": {"add": [["hablo", "AH-bloh", "I speak", ""], ["habló", "ah-BLOH", "he / she spoke", ""]]},
+  "3": {"add": [["Ya comí.", "yah koh-MEE", "I already ate.", ""]]},
+  "4": {"add": [["he comido", "eh koh-MEE-doh", "I have eaten (Spain)", ""], ["Ayer hablé con Ana.", "ah-YEHR ah-BLEH kohn AH-nah", "Yesterday I talked to Ana.", ""]]}
+ },
+ "se": {
+  "0": {"drop": ["se"]},
+  "1": {"add": [["Se vende una casa.", "seh BEHN-deh OO-nah KAH-sah", "House for sale.", ""], "Se necesitan meseros."]},
+  "3": {"add": [["Aquí se trabaja mucho.", "ah-KEE seh trah-BAH-hah MOO-choh", "People work hard here.", ""], ["¿Cómo se escribe tu nombre?", "KOH-moh seh ehs-KREE-beh too NOHM-breh", "How do you spell your name?", ""]]}
+ }
+}

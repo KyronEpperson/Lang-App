@@ -1,0 +1,45 @@
+{
+ "_about": "SEC-1 writer file for en-sv.",
+ "vowels": {
+  "0": {"add": [["han", "hahnn", "he", ""]]}
+ },
+ "intro": {
+  "1": {"add": [["en lärare", "ayn LAE-rah-reh", "a teacher", ""], ["en student", "ayn stuh-DEHNT", "a student", ""]]},
+  "2": {"add": [["engelska", "EHNG-ehl-skah", "English (the language)", ""], ["svenska", "SVEHN-skah", "Swedish (the language)", ""]]}
+ },
+ "negation": {
+  "1": {"add": [["Imorgon jobbar jag inte.", "ih-MAWR-gawn YAWB-ahr yah IHN-teh", "Tomorrow I'm not working.", ""], ["Idag är jag inte hemma.", "ih-DAHG aer yah IHN-teh HEHM-ah", "Today I'm not at home.", ""]]},
+  "2": {"add": [["att jag inte bor i Lund", "ahtt yah IHN-teh boohr ee luhnd", "that I don't live in Lund", ""], ["att jag inte är trött", "ahtt yah IHN-teh aer trurt", "that I'm not tired", ""]]}
+ },
+ "definite": {
+  "1": {"add": [["Var är barnet?", "vahr aer BAHRN-eht", "Where is the child?", ""], ["Var är mamman?", "vahr aer MAHMM-ahn", "Where is the mom?", ""]]}
+ },
+ "time": {
+  "1": {"drop": ["fem", "tio"]},
+  "2": {"add": [["Klockan tre jobbar jag.", "KLAWK-ahn tray YAWB-ahr yah", "At three I work.", ""], ["Klockan åtta äter jag frukost.", "KLAWK-ahn AWT-ah AE-tehr yah FRUEHK-awst", "At eight I eat breakfast.", ""]]}
+ },
+ "modals": {
+  "1": {"add": [["Jag vill inte jobba.", "yah vihl IHN-teh YAWB-ah", "I don't want to work.", ""], ["Ska du åka tåg?", "skah dueh OH-kah tohg", "Are you going by train?", ""]]},
+  "2": {"add": [["Jag måste inte jobba.", "yah MAWS-teh IHN-teh YAWB-ah", "I don't have to work.", ""], ["Du får inte köra.", "dueh fohr IHN-teh TJEUH-rah", "You're not allowed to drive.", ""]]}
+ },
+ "imperative": {
+  "1": {"add": [["Gå inte!", "goh IHN-teh", "Don't go!", ""], ["Ät inte!", "aet IHN-teh", "Don't eat!", ""]]}
+ },
+ "adjectives": {
+  "1": {"drop": ["den stora bilen"]},
+  "2": {"add": ["den stora bilen"]}
+ },
+ "possessives": {
+  "0": {"drop": ["ett hus", "ett barn"]},
+  "1": {"drop": ["bilen", "huset"]}
+ },
+ "att": {
+  "0": {"drop": ["Jag tycker inte om te.", "Jag gillar inte öl."]},
+  "1": {"drop": ["Jag tycker om kaffe."]},
+  "2": {"add": [["att läsa", "ahtt LAE-sah", "to read", ""], ["att jag förstår", "ahtt yah fur-STOHR", "that I understand", ""]]}
+ },
+ "past": {
+  "0": {"drop": ["var"]},
+  "1": {"add": ["var"]}
+ }
+}

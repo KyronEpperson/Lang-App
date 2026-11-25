@@ -34,14 +34,15 @@ function lsAlign(l,raw){ if(!LS_ALIGN[COURSE.id]||Array.isArray(l.sections)) ret
   const R=((typeof NAME_RAW!=='undefined'&&NAME_RAW&&NAME_RAW.LESSONS)||[]).find(x=>x&&x.id===l.id), rr=R&&R!==l?lsCut(R.body):raw, src=rr.length===raw.length?rr:raw; /* the text before the learner's name is put in */
   const M=lsIdx(), own=new Map(), hn=LS_EX+l.id, H=[], used=new Set(), X=((COURSE.builtin?LS_SECS_KO:COURSE.SECS)||{})[l.id]||{}, n=raw.length;
   (DECKS[l.deck]||[]).forEach(c=>{ const k=lsNorm(c[0]).trim(); if(k&&!own.has(k)) own.set(k,{d:l.deck,c}); });
+  const res=new Map(); Object.keys(X).forEach(i=>((X[i]||{}).add||[]).forEach(a=>{ if(typeof a==='string'){ const k=lsNorm(a).trim(); if(!res.has(k)) res.set(k,+i); } })); /* a card the writer names for a section waits for that section */
   const real=k=>own.get(k)||M.get(k), hid=a=>{ const c=[String(a[0]),String(a[1]||'')||(COURSE.target==='ko'?romanize(String(a[0])):''),String(a[2]),String(a[3]||'')]; H.push(c); return {d:hn,c}; };
   let sets=src.map((h,i)=>{ const txt=lsNorm(h), s=[], x=X[i]||{}, drop=new Set((x.drop||[]).map(f=>lsNorm(f).trim()));
-    const put=(k,mk,pos)=>{ if(!k||used.has(k)||drop.has(k)) return; used.add(k); s.push({x:mk(),pos}); };
+    const put=(k,mk,pos,w)=>{ if(!k||used.has(k)||(!w&&(drop.has(k)||(res.has(k)&&res.get(k)!==i)))) return; /* w: the writer's own card, which a drop in the same section does not remove */ used.add(k); s.push({x:mk(),pos}); };
     lsExs(h).forEach(e=>{ if(e[0].indexOf(NAME_TOK)>=0) return; const k=lsNorm(e[0]).trim(), r=real(k); put(k,()=>r||hid(e),Math.max(0,lsAt(k,txt))); });
     own.forEach((v,k)=>{ const p=lsAt(k,txt); if(p>=0) put(k,()=>v,p); });
     lsItems(h).forEach(k=>{ const r=M.get(k); if(r&&k.replace(/ /g,'').length>1&&!isLetterDeck(r.d)) put(k,()=>r,Math.max(0,lsAt(k,txt))); }); /* a one-letter term is too often another word (그 that / he) */
     s.sort((a,b)=>a.pos-b.pos);
-    (x.add||[]).forEach(a=>{ if(typeof a==='string'){ const k=lsNorm(a).trim(), r=real(k); if(r) put(k,()=>r,1e9); } else if(Array.isArray(a)&&a[0]&&a[2]){ const k=lsNorm(a[0]).trim(), r=real(k); put(k,()=>r||hid(a),1e9); } });
+    (x.add||[]).forEach(a=>{ if(typeof a==='string'){ const k=lsNorm(a).trim(), r=real(k); if(r) put(k,()=>r,1e9,1); } else if(Array.isArray(a)&&a[0]&&a[2]) put(lsNorm(a[0]).trim(),()=>hid(a),1e9,1); }); /* a string names an existing card; an array is always a new lesson-only card, also when a deck has a card with that front (the writer gives it the meaning this section teaches) */
     return s.map(y=>y.x); });
   if(sets.reduce((a,x)=>a+x.length,0)<3) return null; const pre=sets.map(x=>x.length); /* before any section passes its cards on: what tools/sections reads */
   for(let k=0;k<n;k++){ if(sets[k].length&&sets[k].length<3){ let j=-1; for(let m=k+1;m<n&&j<0;m++){ if(sets[m].length) j=m; } if(j>=0){ sets[j]=sets[k].concat(sets[j]); sets[k]=[]; } } } /* the last deck of a lesson may be short: its cards are never moved back in front of the section that teaches them */

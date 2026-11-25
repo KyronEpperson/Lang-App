@@ -1,0 +1,825 @@
+{
+ "_about": "SEC-1 writer file for en-id.",
+ "sounds": {
+  "4": {
+   "add": [
+    [
+     "kopi",
+     "KOH-pee",
+     "coffee",
+     ""
+    ],
+    [
+     "panas",
+     "PAH-nahs",
+     "hot",
+     ""
+    ]
+   ]
+  }
+ },
+ "greetings": {
+  "0": {
+   "drop": [
+    "Selamat!"
+   ]
+  },
+  "4": {
+   "add": [
+    [
+     "nama",
+     "NAH-mah",
+     "name",
+     ""
+    ],
+    [
+     "teman saya",
+     "tuh-MAHN SAH-yah",
+     "my friend",
+     ""
+    ]
+   ]
+  }
+ },
+ "pronouns": {
+  "1": {
+   "add": [
+    [
+     "teman kami",
+     "tuh-MAHN KAH-mee",
+     "our friend (not yours)",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "add": [
+    [
+     "teman saya",
+     "tuh-MAHN SAH-yah",
+     "my friend",
+     ""
+    ],
+    [
+     "teman mereka",
+     "tuh-MAHN muh-REH-kah",
+     "their friend",
+     ""
+    ],
+    [
+     "nama saya",
+     "NAH-mah SAH-yah",
+     "my name",
+     ""
+    ]
+   ]
+  }
+ },
+ "intro": {
+  "2": {
+   "drop": [
+    "punya"
+   ]
+  },
+  "4": {
+   "drop": [
+    "saya"
+   ]
+  }
+ },
+ "no-be": {
+  "2": {
+   "add": [
+    [
+     "guru",
+     "GOO-roo",
+     "teacher",
+     ""
+    ],
+    [
+     "dokter",
+     "DOHK-tuhr",
+     "doctor",
+     ""
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "ibu kota",
+     "EE-boo KOH-tah",
+     "capital (city)",
+     ""
+    ],
+    [
+     "Dia di kantor.",
+     "DEE-ah dee KAHN-tohr",
+     "He's at the office. She's at the office.",
+     ""
+    ]
+   ]
+  }
+ },
+ "ini-itu": {
+  "0": {
+   "drop": [
+    "tas ini"
+   ]
+  },
+  "1": {
+   "add": [
+    "tas ini"
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "kopi itu",
+     "KOH-pee EE-too",
+     "the coffee; that coffee",
+     ""
+    ],
+    [
+     "buku itu",
+     "BOO-koo EE-too",
+     "the book; that book",
+     ""
+    ]
+   ]
+  }
+ },
+ "noun-adj": {
+  "1": {
+   "add": [
+    [
+     "orang Indonesia",
+     "OH-rahng een-doh-neh-SEE-ah",
+     "an Indonesian",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "add": [
+    [
+     "mobil baru saya",
+     "MOH-beel BAH-roo SAH-yah",
+     "my new car",
+     ""
+    ],
+    [
+     "rumah besar saya",
+     "ROO-mahh buh-SAHR SAH-yah",
+     "my big house",
+     ""
+    ]
+   ]
+  }
+ },
+ "possession": {
+  "1": {
+   "drop": [
+    "aku",
+    "kamu"
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "harganya",
+     "hahr-GAH-nyah",
+     "its price; the price",
+     ""
+    ],
+    "rumahnya"
+   ]
+  },
+  "4": {
+   "add": [
+    [
+     "Saya punya buku.",
+     "SAH-yah POO-nyah BOO-koo",
+     "I have a book.",
+     ""
+    ],
+    [
+     "Budi punya mobil.",
+     "BOO-dee POO-nyah MOH-beel",
+     "Budi has a car.",
+     ""
+    ]
+   ]
+  }
+ },
+ "questions": {
+  "0": {
+   "drop": [
+    "apa"
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "Kamu pergi ke mana?",
+     "KAH-moo puhr-GHEE kuh MAH-nah",
+     "Where are you going? (to a friend)",
+     ""
+    ],
+    [
+     "Itu siapa?",
+     "EE-too see-AH-pah",
+     "Who's that?",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "add": [
+    [
+     "mobil siapa",
+     "MOH-beel see-AH-pah",
+     "whose car",
+     ""
+    ],
+    [
+     "Buku siapa itu?",
+     "BOO-koo see-AH-pah EE-too",
+     "Whose book is that?",
+     ""
+    ]
+   ]
+  }
+ },
+ "negation": {
+  "2": {
+   "add": [
+    [
+     "Kamu lapar? Tidak.",
+     "KAH-moo LAH-pahr TEE-dahq",
+     "Are you hungry? No.",
+     ""
+    ]
+   ]
+  }
+ },
+ "time": {
+  "1": {
+   "add": [
+    [
+     "setengah",
+     "suh-tuh-NGAHH",
+     "half",
+     ""
+    ],
+    [
+     "setengah delapan",
+     "suh-tuh-NGAHH duh-LAH-pahn",
+     "half past seven",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    "jam dua lewat sepuluh",
+    "jam lima kurang seperempat",
+    [
+     "seperempat",
+     "suh-puh-ruhm-PAHT",
+     "a quarter",
+     ""
+    ]
+   ]
+  }
+ },
+ "ada": {
+  "2": {
+   "add": [
+    [
+     "Saya punya mobil.",
+     "SAH-yah POO-nyah MOH-beel",
+     "I have a car.",
+     ""
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "Dia di rumah.",
+     "DEE-ah dee ROO-mahh",
+     "He's at home. She's at home.",
+     ""
+    ],
+    [
+     "Mereka ada di Bali.",
+     "muh-REH-kah AH-dah dee BAH-lee",
+     "They're in Bali.",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "add": [
+    [
+     "Ibu kota Indonesia adalah Jakarta.",
+     "EE-boo KOH-tah een-doh-neh-SEE-ah ah-DAH-lahh jah-KAHR-tah",
+     "The capital of Indonesia is Jakarta.",
+     ""
+    ]
+   ]
+  }
+ },
+ "prepositions": {
+  "0": {
+   "add": [
+    [
+     "Saya di rumah.",
+     "SAH-yah dee ROO-mahh",
+     "I'm at home.",
+     ""
+    ],
+    [
+     "Mereka di Bali.",
+     "muh-REH-kah dee BAH-lee",
+     "They're in Bali.",
+     ""
+    ]
+   ]
+  },
+  "5": {
+   "add": [
+    [
+     "di rumah",
+     "dee ROO-mahh",
+     "at home",
+     ""
+    ],
+    [
+     "ke Bali",
+     "kuh BAH-lee",
+     "to Bali",
+     ""
+    ],
+    [
+     "ke kantor",
+     "kuh KAHN-tohr",
+     "to the office",
+     ""
+    ]
+   ]
+  }
+ },
+ "family": {
+  "3": {
+   "drop": [
+    "tidak"
+   ]
+  }
+ },
+ "time-words": {
+  "1": {
+   "add": [
+    [
+     "mandi",
+     "MAHN-dee",
+     "to bathe; to shower",
+     ""
+    ],
+    [
+     "Saya sedang makan.",
+     "SAH-yah suh-DAHNG MAH-kahn",
+     "I'm eating (right now).",
+     ""
+    ]
+   ]
+  },
+  "3": {
+   "drop": [
+    "tidak"
+   ]
+  }
+ },
+ "ber": {
+  "1": {
+   "add": [
+    [
+     "renang",
+     "ruh-NAHNG",
+     "swimming",
+     ""
+    ],
+    [
+     "Saya bekerja sebagai guru.",
+     "SAH-yah buh-kuhr-JAH suh-BAH-gai GOO-roo",
+     "I work as a teacher.",
+     ""
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "Saya kerja di Jakarta.",
+     "SAH-yah kuhr-JAH dee jah-KAHR-tah",
+     "I work in Jakarta. (casual)",
+     ""
+    ],
+    [
+     "bermain bola",
+     "buhr-MAH-een BOH-lah",
+     "play soccer",
+     ""
+    ]
+   ]
+  }
+ },
+ "me": {
+  "1": {
+   "add": [
+    [
+     "Saya sudah membaca buku itu.",
+     "SAH-yah SOO-dahh muhm-BAH-chah BOO-koo EE-too",
+     "I've already read that book.",
+     ""
+    ],
+    [
+     "Kemarin saya menulis surat.",
+     "kuh-MAH-reen SAH-yah muh-NOO-lees SOO-raht",
+     "Yesterday I wrote a letter.",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "Saya baca buku.",
+     "SAH-yah BAH-chah BOO-koo",
+     "I'm reading a book. (casual)",
+     ""
+    ],
+    [
+     "baca",
+     "BAH-chah",
+     "to read (casual, bare root)",
+     ""
+    ],
+    [
+     "pakai",
+     "PAH-kai",
+     "to use; to wear (casual, bare root)",
+     ""
+    ]
+   ]
+  }
+ },
+ "modals": {
+  "3": {
+   "add": [
+    [
+     "Tidak boleh.",
+     "TEE-dahq BOH-lehh",
+     "That's not allowed.",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "add": [
+    [
+     "tidak bisa",
+     "TEE-dahq BEE-sah",
+     "can't",
+     ""
+    ],
+    [
+     "tidak perlu",
+     "TEE-dahq puhr-LOO",
+     "no need to",
+     ""
+    ]
+   ]
+  }
+ },
+ "requests": {
+  "2": {
+   "add": [
+    [
+     "silakan",
+     "see-LAH-kahn",
+     "please (offering); go ahead",
+     ""
+    ],
+    "Silakan makan."
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "coba",
+     "CHOH-bah",
+     "to try",
+     ""
+    ],
+    [
+     "Coba ini, enak!",
+     "CHOH-bah EE-nee EH-nahq",
+     "Try this, it's good!",
+     ""
+    ]
+   ]
+  }
+ },
+ "yang": {
+  "1": {
+   "add": [
+    [
+     "teman saya yang tinggal di Bali",
+     "tuh-MAHN SAH-yah yahng TEENG-gahl dee BAH-lee",
+     "my friend who lives in Bali",
+     ""
+    ],
+    [
+     "buku yang saya beli kemarin",
+     "BOO-koo yahng SAH-yah buh-LEE kuh-MAH-reen",
+     "the book I bought yesterday",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "baju yang merah",
+     "BAH-joo yahng MEH-rahh",
+     "the red shirt (not another one)",
+     ""
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "yang merah",
+     "yahng MEH-rahh",
+     "the red one",
+     ""
+    ],
+    [
+     "yang besar",
+     "yahng buh-SAHR",
+     "the big one",
+     ""
+    ]
+   ]
+  }
+ },
+ "passive": {
+  "0": {
+   "drop": [
+    "di"
+   ]
+  },
+  "1": {
+   "add": [
+    [
+     "akan dikirim",
+     "AH-kahn dee-KEE-reem",
+     "will be sent",
+     ""
+    ],
+    [
+     "sudah dipesan",
+     "SOO-dahh dee-puh-SAHN",
+     "has been booked; already booked",
+     ""
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "Tiketnya dibeli di mana?",
+     "tee-KEHT-nyah dee-buh-LEE dee MAH-nah",
+     "Where do you buy tickets?",
+     ""
+    ],
+    [
+     "dibayar",
+     "dee-BAH-yahr",
+     "to be paid (for)",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "add": [
+    [
+     "dimakan",
+     "dee-MAH-kahn",
+     "to be eaten",
+     ""
+    ],
+    [
+     "di rumah",
+     "dee ROO-mahh",
+     "at home",
+     ""
+    ]
+   ]
+  }
+ },
+ "compare": {
+  "0": {
+   "drop": [
+    "dari"
+   ]
+  },
+  "1": {
+   "drop": [
+    "sangat"
+   ]
+  },
+  "4": {
+   "add": [
+    [
+     "lebih baik",
+     "luh-BEEH BAH-eeq",
+     "better",
+     ""
+    ],
+    [
+     "paling baik",
+     "PAH-leeng BAH-eeq",
+     "the best",
+     ""
+    ],
+    [
+     "paling enak",
+     "PAH-leeng EH-nahq",
+     "the tastiest",
+     ""
+    ]
+   ]
+  },
+  "5": {
+   "add": [
+    [
+     "Ini lebih murah dari itu.",
+     "EE-nee luh-BEEH MOO-rahh DAH-ree EE-too",
+     "This is cheaper than that.",
+     ""
+    ],
+    [
+     "Baju ini lebih murah.",
+     "BAH-joo EE-nee luh-BEEH MOO-rahh",
+     "This shirt is cheaper.",
+     ""
+    ],
+    [
+     "Rumah saya lebih besar.",
+     "ROO-mahh SAH-yah luh-BEEH buh-SAHR",
+     "My house is bigger.",
+     ""
+    ]
+   ]
+  }
+ },
+ "directions": {
+  "1": {
+   "add": [
+    [
+     "jembatan",
+     "juhm-BAH-tahn",
+     "bridge",
+     ""
+    ],
+    [
+     "lampu",
+     "LAHM-poo",
+     "light; lamp",
+     ""
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "jalan kaki",
+     "JAH-lahn KAH-kee",
+     "on foot; to walk",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "add": [
+    [
+     "Ya, betul.",
+     "yah buh-TOOL",
+     "Yes, right.",
+     ""
+    ],
+    [
+     "Bisa pelan-pelan?",
+     "BEE-sah puh-LAHN puh-LAHN",
+     "Could you say it slowly?",
+     ""
+    ],
+    [
+     "Terima kasih, Pak.",
+     "tuh-REE-mah KAH-seeh pahq",
+     "Thank you, sir.",
+     ""
+    ]
+   ]
+  }
+ },
+ "daily": {
+  "1": {
+   "add": [
+    [
+     "setiap hari",
+     "suh-TEE-ahp HAH-ree",
+     "every day",
+     ""
+    ]
+   ]
+  }
+ },
+ "plural": {
+  "1": {
+   "add": [
+    [
+     "buku-buku",
+     "BOO-koo BOO-koo",
+     "books (several, different ones)",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "tiga buku",
+     "TEE-gah BOO-koo",
+     "three books",
+     ""
+    ],
+    [
+     "banyak orang",
+     "BAH-nyahq OH-rahng",
+     "a lot of people",
+     ""
+    ],
+    [
+     "dua kopi panas",
+     "DOO-ah KOH-pee PAH-nahs",
+     "two hot coffees",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "drop": [
+    "kami"
+   ]
+  }
+ },
+ "casual": {
+  "1": {
+   "add": [
+    [
+     "Aku baca buku.",
+     "AH-koo BAH-chah BOO-koo",
+     "I'm reading a book. (casual)",
+     ""
+    ],
+    [
+     "bilangin",
+     "bee-LAH-ngeen",
+     "to tell (someone) (casual)",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "add": [
+    [
+     "Rumahku jauh.",
+     "roo-MAHH-koo JAH-ooh",
+     "My house is far. (casual)",
+     ""
+    ],
+    [
+     "Pak, saya tidak bisa datang.",
+     "pahq SAH-yah TEE-dahq BEE-sah DAH-tahng",
+     "Sir, I can't come.",
+     ""
+    ]
+   ]
+  }
+ }
+}

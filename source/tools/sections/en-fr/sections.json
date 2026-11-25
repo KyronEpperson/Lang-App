@@ -1,0 +1,118 @@
+{
+ "_about": "SEC-1 writer file for en-fr.",
+ "sounds": {
+  "0": {"drop": ["ou"]},
+  "1": {"drop": ["on", "un"]},
+  "3": {"add": ["un ami"]},
+  "4": {"add": ["la mer", ["la mère", "lah mehr", "the mother", ""]]},
+  "5": {"add": ["C'est tout."]}
+ },
+ "greetings": {
+  "1": {"add": [["Bonne soirée!", "bohn swah-ray", "Have a nice evening!", ""]]},
+  "3": {"add": [["Enchanté.", "ahN-shahN-tay", "Nice to meet you. (said by a man)", ""]]},
+  "4": {"add": [["Merci.", "mehr-see", "Thank you.", ""]]}
+ },
+ "articles": {
+  "0": {"add": ["la cuisine", "le salon", "la fenêtre", "le frigo"]},
+  "2": {"add": ["un appartement"], "drop": ["un", "une"]},
+  "3": {"add": ["un", "une"]},
+  "4": {"add": [["des lits", "day lee", "beds; some beds", ""], ["des tables", "day tahbl", "tables; some tables", ""]]}
+ },
+ "etre-avoir": {
+  "0": {"drop": ["on"]},
+  "2": {"add": [["ils ont", "eel zohN", "they have", ""], ["ils sont", "eel sohN", "they are", ""]]}
+ },
+ "adjectives": {
+  "0": {"add": ["le pantalon bleu"]}
+ },
+ "present": {
+  "1": {"add": [["ils parlent", "eel pahrl", "they speak", ""], ["tu parles", "tew pahrl", "you speak (friendly)", ""]]}
+ },
+ "negation": {
+  "1": {"drop": ["c'est", "être"]},
+  "2": {"add": [["jamais", "zhah-meh", "never", ""], ["rien", "ryaN", "nothing", ""]]},
+  "3": {"add": [["Je ne sais pas.", "zhuh nuh seh pah", "I don't know.", ""]]}
+ },
+ "questions": {
+  "0": {"drop": ["Qu'est-ce que c'est?"]}
+ },
+ "cest": {
+  "0": {"drop": ["être"]},
+  "1": {"add": [["C'est un médecin.", "seh tuhN mayd-saN", "He's a doctor.", ""], ["C'est beau!", "seh boh", "It's beautiful!", ""]], "drop": ["un"]}
+ },
+ "possessives": {
+  "2": {"add": [["mon école", "mohN nay-kohl", "my school", ""], ["ton amie", "tohN nah-mee", "your friend (female, friendly)", ""]]}
+ },
+ "partitive": {
+  "1": {"add": [["J'adore le chocolat.", "zhah-dohr luh shoh-koh-lah", "I love chocolate.", ""]], "drop": ["Je ne mange pas de viande."]},
+  "2": {"add": ["Je ne mange pas de viande."]},
+  "3": {"add": ["Je voudrais de l'eau.", "Je voudrais un croque-monsieur."]}
+ },
+ "polite": {
+  "0": {"add": [["Bonjour, monsieur.", "bohN-zhoor muh-syuh", "Hello (to a man).", ""]]},
+  "3": {"add": ["Je vais prendre la quiche."]},
+  "4": {"add": [["Et avec ceci?", "ay ah-vehk suh-see", "Anything else?", ""], ["Je voudrais un café, s'il vous plaît.", "zhuh voo-dreh uhN kah-fay seel voo pleh", "I'd like a coffee, please.", ""]]}
+ },
+ "prepositions": {
+  "3": {"add": [["à pied", "ah pyay", "on foot", ""], ["en voiture", "ahN vwah-tewr", "by car", ""]]},
+  "4": {"add": [["en mai", "ahN meh", "in May", ""], ["à huit heures", "ah weet uhr", "at eight o'clock", ""]]}
+ },
+ "irregular": {
+  "0": {"drop": ["parler", "Allez!"]}
+ },
+ "modals": {
+  "3": {"add": [["Je ne peux pas payer.", "zhuh nuh puh pah peh-yay", "I can't pay.", ""], ["Je ne veux pas rentrer.", "zhuh nuh vuh pah rahN-tray", "I don't want to go home.", ""]]}
+ },
+ "futur-proche": {
+  "0": {"drop": ["Je vais à Lyon en train.", "Allez!"]},
+  "2": {"add": [["Je ne vais pas visiter Paris.", "zhuh nuh veh pah vee-zee-tay pah-ree", "I'm not going to visit Paris.", ""], ["Ils ne vont pas prendre le train.", "eel nuh vohN pah prahNdr luh traN", "They're not going to take the train.", ""]]},
+  "3": {"add": [["Qu'est-ce que vous allez faire?", "kehs kuh voo zah-lay fehr", "What are you going to do? (polite)", ""]]}
+ },
+ "pronominal": {
+  "2": {"add": [["Je ne me couche pas tard.", "zhuh nuh muh koosh pah tahr", "I don't go to bed late.", ""], ["Nous ne nous levons pas tôt.", "noo nuh noo luh-vohN pah toh", "We don't get up early.", ""]]},
+  "3": {"drop": ["vouloir", "pouvoir", "devoir"]}
+ },
+ "imperative": {
+  "2": {"add": [["Tournons à gauche.", "toor-nohN ah gohsh", "Let's turn left.", ""]]},
+  "3": {"add": [["Ne tournez pas à gauche.", "nuh toor-nay pah ah gohsh", "Don't turn left.", ""], ["Ne prends pas le métro.", "nuh prahN pah luh may-troh", "Don't take the subway.", ""]]},
+  "4": {"drop": ["il", "Il pleut."]}
+ },
+ "passe-compose": {
+  "2": {"add": ["Nous sommes sortis samedi.", ["Je me suis levé.", "zhuh muh swee luh-vay", "I got up.", ""], ["Je suis parti.", "zhuh swee pahr-tee", "I left.", ""]]},
+  "3": {"add": ["Je suis allée au musée."]},
+  "4": {"add": [["Je suis allé au cinéma.", "zhuh swee zah-lay oh see-nay-mah", "I went to the movies.", ""]]}
+ },
+ "connectors": {
+  "1": {"add": [["Thé ou café?", "tay oo kah-fay", "Tea or coffee?", ""], ["Où est le musée?", "oo eh luh mew-zay", "Where is the museum?", ""]]},
+  "2": {"drop": ["que", "Pourquoi?"]},
+  "4": {"add": [["Je parle aussi espagnol.", "zhuh pahrl oh-see ehs-pah-nyohl", "I also speak Spanish.", ""], ["Toi aussi?", "twah oh-see", "You too?", ""]]}
+ },
+ "spoken": {
+  "1": {"drop": ["nous", "il"]},
+  "3": {"add": [["Tu as faim?", "tew ah faN", "Are you hungry?", ""], ["Vous venez?", "voo vuh-nay", "Are you coming? (polite)", ""]]}
+ },
+ "imparfait": {
+  "0": {"add": [["je parlais", "zhuh pahr-leh", "I was speaking; I used to speak", ""], ["j'étais", "zhay-teh", "I was", ""], ["je faisais", "zhuh fuh-zeh", "I was doing; I used to do", ""]]},
+  "3": {"add": [["Il pleuvait.", "eel pluh-veh", "It was raining.", ""], ["Je suis arrivé.", "zhuh swee zah-ree-vay", "I arrived.", ""]]}
+ },
+ "futur": {
+  "2": {"add": [["Quand il fera beau, je ferai du vélo.", "kahN teel fuh-rah boh zhuh fuh-ray dew vay-loh", "When the weather's nice, I'll go biking.", ""], ["je visiterai", "zhuh vee-zeet-ray", "I'll visit", ""]]},
+  "3": {"add": [["je travaillerai", "zhuh trah-vahy-ray", "I'll work", ""], ["je prendrai", "zhuh prahN-dray", "I'll take", ""], ["je voudrais", "zhuh voo-dreh", "I'd like", ""]], "drop": ["je", "Quand?"]}
+ },
+ "object-pronouns": {
+  "0": {"add": [["Je le prends.", "zhuh luh prahN", "I'll take it.", ""]], "drop": ["la", "le", "les"]},
+  "1": {"drop": ["leur"]},
+  "2": {"add": [["J'en prends deux.", "zhahN prahN duh", "I'll take two.", ""], ["Tu en veux?", "tew ahN vuh", "Do you want some?", ""]], "drop": ["en"]},
+  "3": {"add": [["J'y habite.", "zhee ah-beet", "I live there.", ""], ["Tu y vas?", "tew ee vah", "Are you going (there)?", ""]]},
+  "4": {"drop": ["avoir", "être"]}
+ },
+ "compare": {
+  "3": {"add": [["le meilleur", "luh meh-yuhr", "the best", ""], ["la plus grande", "lah plew grahNd", "the tallest (feminine)", ""]]}
+ },
+ "relatives": {
+  "0": {"drop": ["que", "Où?"]},
+  "1": {"add": ["C'est le livre que j'ai lu."], "drop": ["je", "tu", "Hier, j'ai vu un film."]},
+  "2": {"drop": ["ou"]},
+  "3": {"add": [["Le train qui part à huit heures est complet.", "luh traN kee pahr ah weet uhr eh kohN-pleh", "The train that leaves at eight is full.", ""], ["La ville où j'habite est belle.", "lah veel oo zhah-beet eh behl", "The town where I live is beautiful.", ""]]}
+ }
+}

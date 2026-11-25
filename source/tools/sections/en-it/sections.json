@@ -1,0 +1,793 @@
+{
+ "_about": "SEC-1 writer file for en-it.",
+ "sounds": {
+  "0": {
+   "add": [
+    "il cuore"
+   ]
+  },
+  "3": {
+   "add": [
+    "l'anno"
+   ]
+  },
+  "4": {
+   "add": [
+    "lo zucchero"
+   ]
+  }
+ },
+ "gender": {
+  "2": {
+   "add": [
+    [
+     "la foto",
+     "lah FOH-toh",
+     "photo",
+     ""
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "le sorelle",
+     "leh soh-REHL-leh",
+     "sisters",
+     ""
+    ],
+    [
+     "le chiavi",
+     "leh KYAH-vee",
+     "keys",
+     ""
+    ],
+    [
+     "i problemi",
+     "ee proh-BLEH-mee",
+     "problems",
+     ""
+    ],
+    [
+     "le mani",
+     "leh MAH-nee",
+     "hands",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "add": [
+    [
+     "le foto",
+     "leh FOH-toh",
+     "photos",
+     ""
+    ],
+    [
+     "le città",
+     "leh cheet-TAH",
+     "cities",
+     ""
+    ]
+   ]
+  },
+  "5": {
+   "add": [
+    [
+     "i nonni",
+     "ee NOHN-nee",
+     "grandparents",
+     ""
+    ],
+    [
+     "i fratelli",
+     "ee frah-TEHL-lee",
+     "brothers; brothers and sisters",
+     ""
+    ]
+   ]
+  }
+ },
+ "articles": {
+  "1": {
+   "add": [
+    [
+     "l'acqua",
+     "LAHK-kwah",
+     "water",
+     ""
+    ],
+    [
+     "la pizza",
+     "lah PEET-tsah",
+     "pizza",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "add": [
+    [
+     "il caffè",
+     "eel kahf-FEH",
+     "coffee",
+     ""
+    ],
+    [
+     "Mi piace la pizza.",
+     "mee PYAH-cheh lah PEET-tsah",
+     "I like pizza.",
+     ""
+    ]
+   ]
+  }
+ },
+ "pronouns": {
+  "1": {
+   "add": [
+    [
+     "E lei come sta?",
+     "eh lay KOH-meh stah",
+     "And how is she?",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "Come state?",
+     "KOH-meh STAH-teh",
+     "How are you all?",
+     ""
+    ],
+    [
+     "Stanno bene.",
+     "STAHN-noh BEH-neh",
+     "They're fine.",
+     ""
+    ]
+   ]
+  }
+ },
+ "essere-avere": {
+  "0": {
+   "drop": [
+    "sei"
+   ]
+  },
+  "1": {
+   "add": [
+    [
+     "Sei stanco?",
+     "say STAHN-koh",
+     "Are you tired?",
+     ""
+    ],
+    [
+     "Sei di Roma?",
+     "say dee ROH-mah",
+     "Are you from Rome?",
+     ""
+    ],
+    [
+     "Sei americano?",
+     "say ah-meh-ree-KAH-noh",
+     "Are you American?",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "ho",
+     "oh",
+     "I have",
+     ""
+    ],
+    [
+     "hai",
+     "ai",
+     "you have (to a friend)",
+     ""
+    ],
+    [
+     "ha",
+     "ah",
+     "he has; she has; you have (formal)",
+     ""
+    ],
+    [
+     "hanno",
+     "AHN-noh",
+     "they have",
+     ""
+    ]
+   ]
+  }
+ },
+ "adjectives": {
+  "0": {
+   "add": [
+    "il maglione rosso",
+    "la giacca verde"
+   ]
+  },
+  "1": {
+   "add": [
+    [
+     "il maglione nero",
+     "eel mah-LYOH-neh NEH-roh",
+     "the black sweater",
+     ""
+    ],
+    [
+     "la gonna nera",
+     "lah GOHN-nah NEH-rah",
+     "the black skirt",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "la borsa verde",
+     "lah BOHR-sah VEHR-deh",
+     "the green bag",
+     ""
+    ],
+    [
+     "i cappotti verdi",
+     "ee kahp-POHT-tee VEHR-dee",
+     "the green coats",
+     ""
+    ]
+   ]
+  }
+ },
+ "present": {
+  "1": {
+   "add": [
+    [
+     "Lavora qui?",
+     "lah-VOH-rah kwee",
+     "Do you work here? (formal)",
+     ""
+    ]
+   ],
+   "drop": [
+    "lei"
+   ]
+  },
+  "3": {
+   "add": [
+    "Studio all'università.",
+    [
+     "Lavoro.",
+     "lah-VOH-roh",
+     "I work. / I'm working.",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "add": [
+    "Cerco lavoro.",
+    [
+     "cerchiamo",
+     "chehr-KYAH-moh",
+     "we look for",
+     ""
+    ],
+    [
+     "paghi",
+     "PAH-ghee",
+     "you pay (to a friend)",
+     ""
+    ]
+   ]
+  }
+ },
+ "questions": {
+  "0": {
+   "add": [
+    [
+     "Parla italiano?",
+     "PAHR-lah ee-tah-LYAH-noh",
+     "Do you speak Italian? (formal)",
+     ""
+    ]
+   ],
+   "drop": [
+    "lei"
+   ]
+  },
+  "1": {
+   "drop": [
+    "che"
+   ]
+  },
+  "2": {
+   "add": [
+    "Quante persone?",
+    [
+     "Quanti fratelli hai?",
+     "KWAHN-tee frah-TEHL-lee ai",
+     "How many brothers do you have?",
+     ""
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    "Qual è il tuo numero?",
+    [
+     "quali",
+     "KWAH-lee",
+     "which (more than one)",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "add": [
+    "Non vengo perché sono stanco."
+   ]
+  }
+ },
+ "ce": {
+  "3": {
+   "add": [
+    [
+     "È un bar.",
+     "eh oon bahr",
+     "It's a bar.",
+     ""
+    ],
+    "Ci sono due bar in piazza.",
+    [
+     "c'è",
+     "cheh",
+     "there is",
+     ""
+    ],
+    [
+     "ci sono",
+     "chee SOH-noh",
+     "there are",
+     ""
+    ]
+   ]
+  }
+ },
+ "possessives": {
+  "0": {
+   "add": [
+    [
+     "il mio libro",
+     "eel MEE-oh LEE-broh",
+     "my book",
+     ""
+    ]
+   ],
+   "drop": [
+    "loro"
+   ]
+  },
+  "1": {
+   "add": [
+    [
+     "la sua casa",
+     "lah SOO-ah KAH-sah",
+     "his house; her house",
+     ""
+    ]
+   ],
+   "drop": [
+    "lei"
+   ]
+  },
+  "4": {
+   "drop": [
+    "il mio ragazzo"
+   ]
+  }
+ },
+ "prepositions": {
+  "3": {
+   "drop": [
+    "Dai!"
+   ]
+  }
+ },
+ "irregular": {
+  "3": {
+   "drop": [
+    "essere"
+   ]
+  }
+ },
+ "modals": {
+  "1": {
+   "add": [
+    [
+     "devo",
+     "DEH-voh",
+     "I have to; I must",
+     ""
+    ],
+    [
+     "dobbiamo",
+     "dohb-BYAH-moh",
+     "we have to; we must",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "vorrei",
+     "vohr-RAY",
+     "I would like",
+     ""
+    ],
+    [
+     "voglio",
+     "VOH-lyoh",
+     "I want",
+     ""
+    ]
+   ]
+  }
+ },
+ "piacere": {
+  "1": {
+   "drop": [
+    "gli",
+    "le",
+    "lei"
+   ]
+  },
+  "2": {
+   "add": [
+    "Ti piace ballare?",
+    [
+     "Mi piace nuotare.",
+     "mee PYAH-cheh nwoh-TAH-reh",
+     "I like to swim.",
+     ""
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    "Non mi piace correre.",
+    [
+     "Ti piace?",
+     "tee PYAH-cheh",
+     "Do you like it?",
+     ""
+    ],
+    [
+     "No, non mi piace.",
+     "noh nohn mee PYAH-cheh",
+     "No, I don't like it.",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "drop": [
+    "Anch'io."
+   ]
+  }
+ },
+ "reflexive": {
+  "0": {
+   "add": [
+    [
+     "alzarsi",
+     "ahl-TSAHR-see",
+     "to get up",
+     ""
+    ],
+    [
+     "svegliarsi",
+     "zveh-LYAHR-see",
+     "to wake up",
+     ""
+    ],
+    [
+     "lavarsi",
+     "lah-VAHR-see",
+     "to wash (oneself)",
+     ""
+    ],
+    [
+     "vestirsi",
+     "vehs-TEER-see",
+     "to get dressed",
+     ""
+    ]
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "Come ti chiami?",
+     "KOH-meh tee KYAH-mee",
+     "What's your name?",
+     ""
+    ],
+    [
+     "Si chiama Chiara.",
+     "see KYAH-mah KYAH-rah",
+     "Her name is Chiara.",
+     ""
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "Devo alzarmi.",
+     "DEH-voh ahl-TSAHR-mee",
+     "I have to get up.",
+     ""
+    ],
+    [
+     "Voglio vestirmi.",
+     "VOH-lyoh vehs-TEER-mee",
+     "I want to get dressed.",
+     ""
+    ]
+   ]
+  }
+ },
+ "lo-la": {
+  "0": {
+   "add": [
+    [
+     "La prendo.",
+     "lah PREHN-doh",
+     "I'll take it. (a feminine noun)",
+     ""
+    ],
+    [
+     "Le prendo.",
+     "leh PREHN-doh",
+     "I'll take them. (feminine nouns)",
+     ""
+    ]
+   ],
+   "drop": [
+    "lo",
+    "la",
+    "le"
+   ]
+  },
+  "2": {
+   "add": [
+    [
+     "Lo chiamo domani.",
+     "loh KYAH-moh doh-MAH-nee",
+     "I'll call him tomorrow.",
+     ""
+    ],
+    [
+     "La chiamo domani.",
+     "lah KYAH-moh doh-MAH-nee",
+     "I'll call her tomorrow.",
+     ""
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "L'aspetto.",
+     "lahs-PEHT-toh",
+     "I'll wait for him. / I'll wait for her.",
+     ""
+    ],
+    [
+     "Lo aspetto.",
+     "loh ahs-PEHT-toh",
+     "I'll wait for him.",
+     ""
+    ],
+    [
+     "Li aspetto.",
+     "lee ahs-PEHT-toh",
+     "I'll wait for them.",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "drop": [
+    "mi"
+   ]
+  }
+ },
+ "imperative": {
+  "2": {
+   "add": [
+    [
+     "Andiamo!",
+     "ahn-DYAH-moh",
+     "Let's go!",
+     ""
+    ],
+    [
+     "Prendiamo un caffè!",
+     "prehn-DYAH-moh oon kahf-FEH",
+     "Let's have a coffee!",
+     ""
+    ]
+   ]
+  },
+  "3": {
+   "drop": [
+    "lei"
+   ]
+  }
+ },
+ "passato": {
+  "3": {
+   "add": [
+    [
+     "due anni fa",
+     "DOO-eh AHN-nee fah",
+     "two years ago",
+     ""
+    ],
+    [
+     "Ho visitato Roma.",
+     "oh vee-see-TAH-toh ROH-mah",
+     "I visited Rome.",
+     ""
+    ]
+   ]
+  }
+ },
+ "passato-essere": {
+  "2": {
+   "add": [
+    [
+     "sono stato",
+     "SOH-noh STAH-toh",
+     "I was; I've been (a man speaking)",
+     ""
+    ],
+    [
+     "sono stata",
+     "SOH-noh STAH-tah",
+     "I was; I've been (a woman speaking)",
+     ""
+    ]
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "Mi sono alzato alle sei.",
+     "mee SOH-noh ahl-TSAH-toh AHL-leh say",
+     "I got up at six. (a man speaking)",
+     ""
+    ],
+    [
+     "Ci siamo svegliati alle otto.",
+     "chee SYAH-moh zveh-LYAH-tee AHL-leh OHT-toh",
+     "We woke up at eight.",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "add": [
+    [
+     "Ho dormito.",
+     "oh dohr-MEE-toh",
+     "I slept.",
+     ""
+    ],
+    [
+     "Sono andato.",
+     "SOH-noh ahn-DAH-toh",
+     "I went. (a man speaking)",
+     ""
+    ]
+   ]
+  }
+ },
+ "adverbs": {
+  "1": {
+   "drop": [
+    "la",
+    "li"
+   ]
+  }
+ },
+ "connectors": {
+  "1": {
+   "add": [
+    [
+     "perché",
+     "pehr-KEH",
+     "because",
+     ""
+    ],
+    "Non vengo perché sono stanco."
+   ]
+  },
+  "3": {
+   "add": [
+    [
+     "Allora…",
+     "ahl-LOH-rah",
+     "Well… (while thinking)",
+     ""
+    ],
+    [
+     "Sono stanco, allora vado a letto.",
+     "SOH-noh STAHN-koh ahl-LOH-rah VAH-doh ah LEHT-toh",
+     "I'm tired, so I'm going to bed.",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "drop": [
+    "Piacere."
+   ]
+  },
+  "5": {
+   "add": [
+    [
+     "Sì, vengo.",
+     "see VEHN-goh",
+     "Yes, I'm coming.",
+     ""
+    ],
+    [
+     "Io studio e lei lavora.",
+     "EE-oh STOO-dyoh eh lay lah-VOH-rah",
+     "I study and she works.",
+     ""
+    ]
+   ]
+  }
+ },
+ "sapere-conoscere": {
+  "2": {
+   "add": [
+    [
+     "Lo so.",
+     "loh soh",
+     "I know.",
+     ""
+    ],
+    [
+     "Non lo so.",
+     "nohn loh soh",
+     "I don't know.",
+     ""
+    ],
+    [
+     "Non so.",
+     "nohn soh",
+     "I don't know.",
+     ""
+    ]
+   ],
+   "drop": [
+    "lo"
+   ]
+  }
+ }
+}

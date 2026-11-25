@@ -1,0 +1,99 @@
+{
+ "_about": "SEC-1 writer file for en-nl.",
+ "vowels": {
+  "2": {"drop": ["en", "het"]}
+ },
+ "sounds": {
+  "1": {"drop": ["Au!"]},
+  "2": {"drop": ["het"]}
+ },
+ "greetings": {
+  "1": {"drop": ["Dank je wel.", "Dank u wel."]},
+  "2": {"add": ["Dank je wel.", "Dank u wel."]}
+ },
+ "intro": {
+  "0": {"drop": ["heet"]}
+ },
+ "de-het": {
+  "0": {"drop": ["je", "het"]}
+ },
+ "present": {
+  "0": {"drop": ["en", "heet"]}
+ },
+ "pronouns": {
+  "0": {"drop": ["de", "het"]}
+ },
+ "plural": {
+  "0": {"drop": ["en", "er"]}
+ },
+ "inversion": {
+  "0": {"drop": ["of", "het"]}
+ },
+ "questions": {
+  "0": {"drop": ["of", "laat"]},
+  "1": {"drop": ["heet"]}
+ },
+ "geen-niet": {
+  "1": {"drop": ["het"]}
+ },
+ "family": {
+  "0": {"drop": ["zijn", "het"]}
+ },
+ "traps": {
+  "0": {"drop": ["Morgen ga ik naar school."]}
+ },
+ "time": {
+  "0": {"drop": ["Dag."]}
+ },
+ "separable": {
+  "1": {"drop": ["ver"]}
+ },
+ "modals": {
+  "1": {"drop": ["te"]}
+ },
+ "diminutives": {
+  "0": {"drop": ["je"]},
+  "1": {"drop": ["het"]}
+ },
+ "travel": {
+  "1": {"drop": ["ik"]},
+  "2": {"drop": ["door"]}
+ },
+ "er": {
+  "0": {"drop": ["en"]}
+ },
+ "deze-die": {
+  "2": {"add": [
+   ["Wat kost deze jas?", "waht kawst DAY-zuh yahs", "How much is this coat?", ""],
+   ["dit boek", "diht book", "this book", ""],
+   ["Deze is voor Anna.", "DAY-zuh ihs vohr AH-nah", "This one is for Anna. (a de-word)", ""],
+   ["Dit is voor Anna.", "diht ihs vohr AH-nah", "This one is for Anna. (a het-word)", ""]
+  ]}
+ },
+ "perfect": {
+  "2": {"drop": ["morgen"]},
+  "3": {"add": [
+   ["opgestaan", "AWP-khuh-staahn", "got up (participle of opstaan)", ""],
+   ["Ik ben om zeven uur opgestaan.", "ihk behn awm ZAY-vuh uur AWP-khuh-staahn", "I got up at seven.", ""]
+  ]}
+ },
+ "adjectives": {
+  "0": {"drop": ["het"]},
+  "1": {"drop": ["deze jas", "die jas"]}
+ },
+ "compare": {
+  "0": {"drop": ["dan"]},
+  "1": {"drop": ["het"]},
+  "2": {"drop": ["er"]}
+ },
+ "omdat": {
+  "0": {"drop": ["of"]},
+  "1": {"add": [
+   ["want ik ben moe", "wahnt ihk behn moo", "because I'm tired", ""],
+   ["Ik neem de trein, want ik heb geen fiets.", "ihk naym duh trighn wahnt ihk hehp khayn feets", "I'm taking the train, because I don't have a bike.", ""]
+  ]},
+  "2": {"drop": ["morgen"], "add": [
+   ["Omdat ik geen fiets heb, neem ik de trein.", "awm-DAHT ihk khayn feets hehp naym ihk duh trighn", "Because I don't have a bike, I'm taking the train.", ""]
+  ]}
+ }
+}

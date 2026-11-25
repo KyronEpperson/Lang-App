@@ -1,0 +1,93 @@
+{
+ "_about": "SEC-1 writer file for en-da.",
+ "alphabet": {
+  "0": {"drop": ["uh"]}
+ },
+ "vowels": {
+  "0": {"drop": ["uh"]},
+  "1": {"add": ["en by"]}
+ },
+ "soft-d": {
+  "1": {"add": ["en hund"]}
+ },
+ "greetings": {
+  "2": {"drop": ["de", "dem", "deres"]}
+ },
+ "intro": {
+  "0": {"drop": ["I", "de"]}
+ },
+ "pronouns": {
+  "0": {"drop": ["jeg bor i København"]},
+  "2": {"drop": ["deres"]}
+ },
+ "negation": {
+  "1": {"drop": ["vi bor ikke i Aarhus", "nu kommer jeg", "i København bor jeg"]}
+ },
+ "inversion": {
+  "0": {"drop": ["nu kommer jeg"]}
+ },
+ "questions": {
+  "1": {"drop": ["i dag arbejder jeg"]}
+ },
+ "nationality": {
+  "2": {"add": [
+   ["Jeg er en dygtig tømrer.", "yai eh ehn DEW-teey TOEM-uh", "I'm a skilled carpenter.", ""],
+   ["en dansk tømrer", "ehn dansk TOEM-uh", "a Danish carpenter", ""]
+  ]}
+ },
+ "numbers": {
+  "2": {"add": [
+   ["Det koster halvtreds kroner.", "deh KOHS-tuh hal-TREHS KROH-nuh", "It costs fifty kroner.", ""],
+   ["Det koster tres kroner.", "deh KOHS-tuh trehs KROH-nuh", "It costs sixty kroner.", ""]
+  ]}
+ },
+ "plural": {
+  "1": {"add": [
+   ["to biler", "toh BEE-luh", "two cars", ""],
+   ["tre huse", "treh HOO-suh", "three houses", ""],
+   ["to mænd", "toh maen", "two men", ""],
+   ["I dag spiser jeg æbler.", "ee da SPEE-suh yai AEB-luh", "Today I eat apples.", ""]
+  ]}
+ },
+ "definite": {
+  "2": {"add": [
+   ["min bil", "meen beel", "my car", ""],
+   ["Det er bilen.", "deh eh BEE-luhn", "It is the car.", ""]
+  ]}
+ },
+ "modals": {
+  "0": {"drop": ["vil du gerne have"]}
+ },
+ "cafe": {
+  "0": {"drop": ["at"]}
+ },
+ "family": {
+  "0": {"drop": ["en bil", "et hus"]},
+  "1": {"add": [
+   ["forældre", "FOH-rael-uh", "parents", ""],
+   ["forældrene", "FOH-rael-uh-nuh", "the parents", ""]
+  ]},
+  "2": {"add": [
+   ["I Odense bor søstrene.", "ee OH-dhuhn-suh boh SOES-truh-nuh", "In Odense the sisters live.", ""]
+  ]}
+ },
+ "possessives": {
+  "0": {"drop": ["deres"]}
+ },
+ "adjectives": {
+  "1": {"add": [
+   ["Byen er stor.", "BEW-uhn eh stoh", "The city is big.", ""],
+   ["Landet er stort.", "LA-nuhdh eh stawt", "The country is big.", ""],
+   ["Husene er store.", "HOO-suh-nuh eh STOH-uh", "The houses are big.", ""]
+  ]}
+ },
+ "likes": {
+  "0": {"drop": ["at"]},
+  "2": {"add": [
+   ["I dag kan jeg ikke lide kaffe.", "ee da kan yai EH-guh LEE-dhuh KA-fuh", "Today I don't like coffee.", ""]
+  ]}
+ },
+ "past": {
+  "0": {"drop": ["får", "far", "så"]}
+ }
+}

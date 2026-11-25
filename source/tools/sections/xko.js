@@ -15,7 +15,7 @@ langs.forEach(l => {
     Object.keys(X[id]).forEach(k => {
       const w = X[id][k], o = {};
       if (w.drop) { const d = w.drop.filter(f => !/[A-Za-z]/.test(f)); if (d.length) o.drop = d; }
-      if (w.add) o.add = w.add.map(a => { if (!Array.isArray(a)) return a; const i = M.fronts.indexOf(a[0]); return [a[0], '', i >= 0 ? M[l][i] : a[2]].concat(i >= 0 ? [] : ['__en__']); });
+      if (w.add) o.add = w.add.map(a => { if (!Array.isArray(a)) return a; const i = M.fronts.indexOf(a[0]); if (i < 0) throw new Error('no meaning for ' + a[0] + ': add it to xko/meanings.json or name the card by a string'); return [a[0], '', M[l][i]]; });
       out[id][k] = o;
     });
   });
