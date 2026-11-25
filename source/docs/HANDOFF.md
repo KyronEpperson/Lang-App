@@ -19,9 +19,11 @@ Standing rules: Supabase publishable key only; never open, print or commit secre
 - Courses for Cantonese speakers are in written Cantonese. Hmong = White Hmong (RPA), words only from the sourced glossary (`tools/hmong/`).
 - Dialect and variety choices: ask once when it decides every card, otherwise decide and say so.
 - Every lesson in every language: a teaching section, then that section's flashcards (five shown, then quizzed, to the end of the deck), then the next section, and a review of all the lesson's decks at the end (2026-11-24; see "Lesson sections").
+- Fixes and improvements (2026-11-25): plan and make them without asking first; tell the owner the problem and the fix; apply it to ONE course, release, then ask whether to apply it to all courses.
+- Every course opens with a foundation that teaches its writing system the way Korean lesson 1 does, fitted to the script (2026-11-25; see "Character foundations").
 - Replies: brief, bullets, direct. Visuals as PNG.
 
-## Released (through 2.112.0)
+## Released (through 2.113.0)
 
 Yesterday and today: ur-en, pa-en (2.78.0); yue-en in written Cantonese (2.79.0); te-en with bundled Noto Sans Telugu (2.80.0); yue-ko (2.81.0); kn-en (2.82.0); release report + audio coverage on every release (2.83.0); en-hmn (2.84.0); new cards flip on tap (2.85.0); hmn-en + Hmong interface (2.86.0).
 
@@ -84,6 +86,29 @@ Setting up the build home in a new chat (learned 2026-11-24): the scripts need `
 - **Numbers.** en-ko: 33 lessons, 111 section decks, 541 cards (lesson 1 included, hand-set), every one taught in or before its section; about 60% are lesson-only cards (example lines and writer cards), the rest real deck cards. `proto.js` on the 70 packs, engine only: 5,932 decks, 34,801 cards, every lesson has a deck, 3,425 of 8,742 sections teach fewer than 3 cards on their own (the writers' job); English-target courses come out thinnest (8 to 10 cards a lesson, almost all example lines).
 - **Next, if the owner says yes.** Add course ids to `LS_ALIGN` (or make it the default), then a writer pass per course (opus; worksheet from `small.js`, checker = part A of the release test). The x-ko packs share en-ko's Korean, so en-ko's table can seed theirs (meanings of added cards need translating). New foundation lessons (thread "Plan character foundations for every course") get the rule for free: one `<h3>` per topic, example lines for what is taught.
 - **Not tested.** Real learners, real phones. A learner who was halfway through a lesson's decks finds different decks (the place saved per section is a count). Added cards were not read by a native speaker.
+
+2.113.0 (2026-11-25): **character foundations, pilot on Japanese for English speakers (`en-ja`)** (owner: "learning the characters of a language is foundational can we make sure the other languages have similar structures that fits for them"). The engine piece is for every course; only en-ja uses it so far. Details in the section "Character foundations" below; prompt and results in `iterations.md`, entry FND-1.
+
+## Character foundations (FND-1, 2.113.0)
+
+Plan for all 71 courses and the rewritten prompt: the Doc "Character foundations for every course: prompt and plan" (https://claude.ai/artifact/2Z8DGGABuc866QNjVyBxAk). **Only en-ja is built. The owner is asked before any other course gets it.**
+
+- **The pattern.** How the script works; then each kind of piece as a teaching section with a chart or flip tiles and its own deck; then a step that puts pieces together, with a deck of real words that lives inside the lesson (Korean's stacking); then the review the engine already runs.
+- **Engine, for any pack course** (`src/app.html`, edit script `tools/patches/foundations.py`, which lists the forms):
+  - A lesson may carry `sections`, one entry per section as `lsPlan` cuts the body: `null`, `"Deck name"`, `{deck, n:[a,b]}`, `{name, cards:[[front, reading, meaning, note]]}` (a deck that lives only in the lesson), or a list of those. `lsSecCards` reads it; hand-set sections win over guessing and over `lsAlign` (2.112.0). An in-lesson deck is in `DECKS` under its label and never in `PATH` / `names`, like `가나다`.
+  - `{{tiles:あ い う}}` draws flip tiles: the letter; tap for its reading and sound; tap again for the letter. The reading is that of the card with the same front, or `x=reading`; `_` is a gap. Five columns (`.tiles-grid`). Stroke drawings stay Hangul-only.
+  - `tools/target/gen.js` passes `sections` through. The other generators (`tools/halves`, `tools/content`) do not yet.
+- **en-ja** (`tools/patches/foundations_ja.py` edits `tools/target/ja/lessons-1.js` and `lessons-2.js`; then `node tools/target/gen.js ja && node tools/lessonread/apply.js en-ja`):
+  - Lesson 1: the first four rows then the Hiragana 1 deck (20); the other six rows then Hiragana 2 (26), which no lesson used before; "Read your first words" then 20 words in basic hiragana.
+  - Lesson 2: a new first section on the dotted letters then the first 23 cards of Hiragana 3; "Count beats" then its last 5 cards plus 15 words with small letters, っ, long vowels and ん.
+  - Lesson 3: the first four katakana rows then Katakana 1 (20); the other six then the 26 letters of Katakana 2, also unused before; loanwords then its last 4 cards plus 16 words.
+  - Lesson 13 (first kanji): a new opening section on how kanji are built, then the deck cut by hand into numbers (14), days and time (10), people (6).
+  - 117 flip tiles. No card of an existing deck was changed, so saved progress is untouched.
+  - Kanji stay at lesson 13, not in the first block as the plan said: that lesson's examples need the numbers, days and verbs of lessons 4 to 12.
+- **Tests.** `node tools/tests/foundations.js` in `ship.sh` (about 2 minutes): every lesson with `sections` is well formed; in en-ja each of the 115 kana (46 + 46 + 23 dotted) is on a card and a tile in lessons 1 to 3, ぢ and づ on tiles; every tile has a reading and flips; a new learner is walked through lessons 1 to 3 to the end. It failed on both mistakes planted (a tile removed, a slice one card short). To add a course, add it to `FOUND` there. `tools/tests/lesson_sections.js` accepts other decks in a lesson that names its sections.
+- **Review.** One Opus cold review of the new text and the 51 new cards: 5 notes, 4 applied (two card notes, a sentence moved out of a tip, an example without ー under the first katakana grid). Left: katakana long i is written ī (takushī) as the lesson already did, while hiragana long i is ii.
+- **Not tested / not done.** Native-speaker review, real phones, recorded audio for the new words (they use the device voice until `gen_elevenlabs.js ja` is run). The dotted katakana have tiles in no lesson and no cards. Lessons 1 and 3 now hold 66 cards each; the list still says "~5 min".
+- **Next, only after the owner says so:** the other courses, by script family, in the Doc's order. Gaps a first check found: letters with no card in en-bn (about 13), en-pa (up to 6), en-hi 3, en-te 4, en-kn 4, en-th 7; Thai script starts at lesson 5; the alphabet deck of the English courses is 21st in the deck list.
 
 ## Lesson sections (LS-1, 2.107.0)
 

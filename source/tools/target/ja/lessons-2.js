@@ -104,8 +104,11 @@ module.exports = [
     title: "First kanji: numbers, days, people",
     blurb: "Read 30 everyday kanji words: numbers, yen, the days of the week, times, people and Japan.",
     deck: "First kanji",
+    sections: [null, {"deck": "First kanji", "n": [0, 14]}, {"deck": "First kanji", "n": [14, 24]}, {"deck": "First kanji", "n": [24, 30]}, null],
     body: `
 <p>Real Japanese mixes kana with <b>kanji</b>: characters that came from Chinese and each carry a meaning. English has a few signs that work the same way. "3" and "$" mean the same thing however you say them. Most kanji have several readings, so this course teaches only 30 kanji words, each with one reading, and always lets you answer in kana.</p>
+<h3>How kanji are built</h3>
+<p>A kana letter is a sound. A kanji is a meaning, drawn with strokes in a fixed order: top to bottom, and left to right. Simple kanji are pictures: <b>人</b> is a person walking, <b>木</b> is a tree, <b>日</b> is the sun. Bigger kanji are built from smaller ones, and the parts often hint at the meaning: <b>日</b> (sun, day) sits on the left of <b>時</b> (time, o'clock) and of <b>曜</b> in every day of the week, and <b>本</b> (origin, book) is <b>木</b> with a mark at its root. So you rarely learn a kanji from nothing: look for a part you already know.</p>
 <h3>Numbers and money</h3>
 <p>One, two and three are drawn as lines, which makes them an easy start. Prices on signs and menus use <b>円</b> (yen).</p>
 <div class="tbl"><table><tr><th>Kanji</th><th>Reading</th><th>Meaning</th></tr><tr><td class="k">一 二 三</td><td class="k">いち に さん</td><td>1, 2, 3</td></tr><tr><td class="k">四 五 六 七</td><td class="k">よん ご ろく なな</td><td>4, 5, 6, 7</td></tr><tr><td class="k">八 九 十</td><td class="k">はち きゅう じゅう</td><td>8, 9, 10</td></tr><tr><td class="k">百 千 一万</td><td class="k">ひゃく せん いちまん</td><td>100, 1,000, 10,000</td></tr><tr><td class="k">円</td><td class="k">えん</td><td>yen</td></tr></table></div>

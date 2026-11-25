@@ -5,21 +5,30 @@ module.exports = [
     title: "Hiragana: reading Japanese sounds",
     blurb: "Read the basic hiragana letters, the two sound marks, and the particles は, を and へ.",
     deck: "Hiragana 1: a, ka, sa, ta rows",
+    sections: [null, "Hiragana 1: a, ka, sa, ta rows", "Hiragana 2: na to n", {"name": "Hiragana words", "cards": [["あい", "ai", "love", "あ + い"], ["いえ", "ie", "house", "い + え"], ["かお", "kao", "face", "か + お"], ["すし", "sushi", "sushi", "す + し. し is shi, not si."], ["そと", "soto", "outside", "そ + と"], ["たこ", "tako", "octopus", "た + こ"], ["つくえ", "tsukue", "desk", "つ + く + え. つ is tsu, not tu."], ["ねこ", "neko", "cat", "ね + こ"], ["いぬ", "inu", "dog", "い + ぬ"], ["はな", "hana", "flower", "は + な. Inside a word は is ha."], ["ふね", "fune", "boat", "ふ + ね. ふ is fu, not hu."], ["へや", "heya", "room", "へ + や"], ["ほし", "hoshi", "star", "ほ + し"], ["やま", "yama", "mountain", "や + ま"], ["ゆき", "yuki", "snow", "ゆ + き"], ["よる", "yoru", "night", "よ + る"], ["くるま", "kuruma", "car", "く + る + ま"], ["わたし", "watashi", "I, me", "わ + た + し"], ["ほん", "hon", "book", "ほ + ん. ん is a beat of its own."], ["みみ", "mimi", "ear", "み + み"]]}, null, null, null],
     body: `
 <p>Japanese is written with three scripts. <b>Hiragana</b> spells Japanese words and grammar, <b>katakana</b> spells loanwords and foreign names, and <b>kanji</b> are characters borrowed from Chinese. Almost everything in this course is written in hiragana, so it comes first.</p>
 <h3>One letter, one beat</h3>
 <p>An English letter is usually one sound. A hiragana letter is a whole beat: a vowel, or a consonant plus a vowel. か is <i>ka</i>, す is <i>su</i>. The 46 letters sit in a grid of five vowels times a row for each consonant, and each letter always sounds the same.</p>
 <div class="tbl"><table><tr><th></th><th>a</th><th>i</th><th>u</th><th>e</th><th>o</th></tr><tr><td>vowels</td><td class="k">あ</td><td class="k">い</td><td class="k">う</td><td class="k">え</td><td class="k">お</td></tr><tr><td>k</td><td class="k">か</td><td class="k">き</td><td class="k">く</td><td class="k">け</td><td class="k">こ</td></tr><tr><td>s</td><td class="k">さ</td><td class="k">し</td><td class="k">す</td><td class="k">せ</td><td class="k">そ</td></tr><tr><td>t</td><td class="k">た</td><td class="k">ち</td><td class="k">つ</td><td class="k">て</td><td class="k">と</td></tr><tr><td>n</td><td class="k">な</td><td class="k">に</td><td class="k">ぬ</td><td class="k">ね</td><td class="k">の</td></tr><tr><td>h</td><td class="k">は</td><td class="k">ひ</td><td class="k">ふ</td><td class="k">へ</td><td class="k">ほ</td></tr><tr><td>m</td><td class="k">ま</td><td class="k">み</td><td class="k">む</td><td class="k">め</td><td class="k">も</td></tr><tr><td>y</td><td class="k">や</td><td></td><td class="k">ゆ</td><td></td><td class="k">よ</td></tr><tr><td>r</td><td class="k">ら</td><td class="k">り</td><td class="k">る</td><td class="k">れ</td><td class="k">ろ</td></tr><tr><td>w</td><td class="k">わ</td><td></td><td></td><td></td><td class="k">を</td></tr><tr><td>n alone</td><td class="k">ん</td><td></td><td></td><td></td><td></td></tr></table></div>
-<h3>Vowels: short and pure</h3>
-<p>English names its vowels "ay, ee, eye, oh, you". Japanese vowels sound as in Spanish or Italian: あ "ah", い "ee", う "oo" with relaxed lips, え "eh", お "oh". So え is never "ee", and い is never "eye".</p>
+<h3>The first four rows: あ, か, さ, た</h3>
+<p>Start with the vowels. English names its vowels "ay, ee, eye, oh, you". Japanese vowels sound as in Spanish or Italian: あ "ah", い "ee", う "oo" with relaxed lips, え "eh", お "oh". So え is never "ee", and い is never "eye".</p>
+<p>Three letters in these rows do not follow their row: し is <i>shi</i>, ち is <i>chi</i>, and つ is <i>tsu</i>. Watch the look-alikes さ and ち. Tap a letter to hear it and see how it reads.</p>
+{{tiles:あ い う え お か き く け こ さ し す せ そ た ち つ て と}}
 {{ex:あい|ai|love}}
 {{ex:いえ|ie|house}}
-<h3>Letters that break the pattern</h3>
-<p>A few letters do not follow their row: し is <i>shi</i>, ち is <i>chi</i>, つ is <i>tsu</i>, ふ is <i>fu</i>, and ん is a plain <i>n</i> with no vowel. Watch the look-alikes: さ and ち, ぬ and め, わ, れ and ね, る and ろ.</p>
 {{ex:すし|sushi|sushi}}
+<h3>The other six rows: な to ん</h3>
+<p>Two more letters break the pattern: ふ is <i>fu</i>, said with both lips and no teeth, and ん is a plain <i>n</i> with no vowel. The y row has only three letters and the w row only two. Watch the look-alikes: ぬ and め, わ, れ and ね, る and ろ, は and ほ.</p>
+{{tiles:な に ぬ ね の は ひ ふ へ ほ ま み む め も や _ ゆ _ よ ら り る れ ろ わ _ _ _ を ん}}
 {{ex:ふね|fune|boat}}
+{{ex:やま|yama|mountain}}
+<h3>Read your first words</h3>
+<p>You now know all 46 letters. A word is read one letter at a time, one beat each, with no letter louder than the others: ね + こ is <i>neko</i>, two beats. The cards below are real words spelled with the letters you just learned. Read each one aloud before you flip it.</p>
+{{ex:ねこ|neko|cat}}
+{{ex:くるま|kuruma|car}}
 <h3>Two small marks</h3>
-<p>Two dots ゛ change a sound: か <i>ka</i> becomes が <i>ga</i>, さ <i>sa</i> becomes ざ <i>za</i>, た <i>ta</i> becomes だ <i>da</i>, は <i>ha</i> becomes ば <i>ba</i>. A small circle ゜ turns は into ぱ <i>pa</i>. (In Japanese they are called dakuten and handakuten.) Now you can read です and ください.</p>
+<p>Two dots ゛ change a sound: か <i>ka</i> becomes が <i>ga</i>, さ <i>sa</i> becomes ざ <i>za</i>, た <i>ta</i> becomes だ <i>da</i>, は <i>ha</i> becomes ば <i>ba</i>. A small circle ゜ turns は into ぱ <i>pa</i>. (In Japanese they are called dakuten and handakuten.) Now you can read です and ください. The dotted letters get their own cards in the next lesson.</p>
 {{ex:かぎ|kagi|key}}
 {{ex:てんぷら|tenpura|tempura}}
 <h3>は, を and へ as particles</h3>
@@ -30,7 +39,7 @@ module.exports = [
 {{ex:えきへ いきます。|eki e ikimasu|I'm going to the station.}}
 <h3>Spaces and romaji</h3>
 <p>Real Japanese has no spaces between words. While this course is written in kana, it puts a space after each phrase so you can see where one ends. The line in English letters under each phrase is romaji. Lean on it this week: from lesson 4 it is hidden until you tap it, so read the kana first.</p>
-<div class="tip"><b>Most common mistake:</b> spelling a particle the way it sounds. <b>これわ すしです</b> → <b>これは すしです</b>. When the first 20 letters feel easy, learn the other 26 with the <b>Hiragana 2: na to n</b> deck.</div>
+<div class="tip"><b>Most common mistake:</b> spelling a particle the way it sounds. <b>これわ すしです</b> → <b>これは すしです</b>.</div>
 `,
     check: [
       ["How do you say the vowel え?", ["Like the e in \"pet\"", "Like the ee in \"see\"", "Like the a in \"say\", with a glide", "Like the e in \"the\""], 0, "Japanese え is always a short, pure \"eh\", never \"ee\"."],
@@ -59,8 +68,14 @@ module.exports = [
     title: "Small letters, long vowels and pitch",
     blurb: "Read small ゃ ゅ ょ and っ, hold long vowels for two beats, and hear pitch differences.",
     deck: "Hiragana 3: marks and small letters",
+    sections: [{"deck": "Hiragana 3: marks and small letters", "n": [0, 23]}, null, null, null, null, [{"deck": "Hiragana 3: marks and small letters", "n": [23, 28]}, {"name": "Beats and long vowels", "cards": [["きょう", "kyō", "today", "きょ + う: two beats. Small ょ joins き; the う makes the o long."], ["がっこう", "gakkō", "school", "が + っ + こ + う: four beats. Small っ is a silent beat."], ["せんせい", "sensei", "teacher", "せ + ん + せ + い: four beats."], ["おかあさん", "okāsan", "mother", "お + か + あ + さ + ん: five beats. Hold the あ."], ["おにいさん", "oniisan", "older brother", "お + に + い + さ + ん: five beats. Hold the い."], ["じゅう", "jū", "ten", "じゅ + う: two beats."], ["ちょっと", "chotto", "a little", "ちょ + っ + と: three beats."], ["ほんや", "hon'ya", "bookstore", "ほ + ん + や: three beats, hon-ya."], ["しんぶん", "shinbun", "newspaper", "し + ん + ぶ + ん: four beats."], ["ざっし", "zasshi", "magazine", "ざ + っ + し: three beats."], ["りょこう", "ryokō", "trip, travel", "りょ + こ + う: three beats."], ["びょういん", "byōin", "hospital", "びょ + う + い + ん: four beats. びよういん (biyōin, five beats) is a beauty salon."], ["おおきい", "ōkii", "big", "お + お + き + い: four beats."], ["きっぷ", "kippu", "ticket", "き + っ + ぷ: three beats."], ["おちゃ", "ocha", "tea", "お + ちゃ: two beats."]]}], null],
     body: `
 <p>English cares about syllables and stress. Japanese cares about <b>beats</b>: every beat takes about the same time, like notes in a march. Most kana are one beat each, but small letters and long vowels change the count, and the count can change the meaning.</p>
+<h3>The dotted letters</h3>
+<p>Lesson 1 showed the two marks. Here is every letter they make. Two dots turn k into g, s into z, t into d and h into b; the small circle turns h into p. Three do not follow their row: じ is <i>ji</i>, ぢ is <i>ji</i> too, and づ is <i>zu</i>, the same as ず. ぢ and づ are rare.</p>
+{{tiles:が ぎ ぐ げ ご ざ じ ず ぜ ぞ だ ぢ=ji づ=zu で ど ば び ぶ べ ぼ ぱ ぴ ぷ ぺ ぽ}}
+{{ex:かぎ|kagi|key}}
+{{ex:でんわ|denwa|telephone}}
 <h3>Small ゃ, ゅ, ょ</h3>
 <p>Written small after a letter from the i column (き, し, ち, に, ひ, み, り and their dotted forms), ゃ, ゅ and ょ blend into one beat: き + ゃ = きゃ <i>kya</i>. Full size, they are a beat of their own: きや is <i>ki-ya</i>.</p>
 {{ex:しゃしん|shashin|photo}}
@@ -81,6 +96,7 @@ module.exports = [
 {{ex:しんぶん|shinbun|newspaper}}
 <h3>Count beats, not syllables</h3>
 <p>Linguists call a beat a mora. English hears "Tokyo" as two syllables, but とうきょう has four beats: と, う, きょ, う. Give each beat its full time, or the word turns into a different one.</p>
+<p>The cards below put it all together: small letters, the silent beat, long vowels and ん. Count the beats of each word as you read it.</p>
 <h3>Pitch, by ear</h3>
 <p>English makes one syllable louder. Japanese moves the voice up and down: each beat is high or low. A few words differ only in pitch: はし (chopsticks or bridge), あめ (rain or candy), かみ (paper or god). The romaji does not mark pitch, so listen to the audio and copy the melody.</p>
 {{ex:はし|hashi|chopsticks; bridge}}
@@ -114,13 +130,20 @@ module.exports = [
     title: "Katakana: loanwords and names",
     blurb: "Read katakana loanwords and names, with ー for long vowels and the extra sounds for foreign words.",
     deck: "Katakana 1: a, ka, sa, ta rows",
+    sections: ["Katakana 1: a, ka, sa, ta rows", {"deck": "Katakana 2: na to n, plus long vowels", "n": [0, 26]}, null, null, [{"deck": "Katakana 2: na to n, plus long vowels", "n": [26, 30]}, {"name": "Katakana words", "cards": [["アメリカ", "amerika", "America", "ア + メ + リ + カ"], ["タクシー", "takushī", "taxi", "Four beats: ta-ku-shi-i."], ["ラーメン", "rāmen", "ramen", "Four beats: ra-a-me-n."], ["テレビ", "terebi", "TV", "Short for テレビジョン, \"television\"."], ["ホテル", "hoteru", "hotel", "The l becomes ル (ru)."], ["トイレ", "toire", "toilet, restroom", "Short for トイレット (toiretto), from \"toilet\"."], ["カメラ", "kamera", "camera", "カ + メ + ラ"], ["メニュー", "menyū", "menu", "Small ュ joins ニ: me-nyu-u, three beats."], ["バス", "basu", "bus", "A final s becomes ス (su)."], ["パン", "pan", "bread", "From Portuguese, not from English \"pan\"."], ["ビール", "bīru", "beer", "With ー. ビル (biru) is a building."], ["コンビニ", "konbini", "convenience store", "Short for \"convenience store\"."], ["スマホ", "sumaho", "smartphone", "Short for スマートフォン."], ["レストラン", "resutoran", "restaurant", "Five beats: re-su-to-ra-n."], ["ベッド", "beddo", "bed", "Small ッ is a silent beat: be, pause, do. Three beats; the romaji doubles the d."], ["ジュース", "jūsu", "juice", "Small ュ joins ジ; ー makes it long."]]}], null],
     body: `
 <p>English borrows words and keeps their spelling: <i>café</i>, <i>karaoke</i>. Japanese borrows thousands of words too, and writes them in <b>katakana</b>, a second set of 46 letters with the same sounds as hiragana. Katakana also spells foreign names, including yours.</p>
 <h3>Same sounds, sharper shapes</h3>
 <p>Every hiragana letter has a katakana twin: か and カ are both <i>ka</i>, す and ス are both <i>su</i>. The grid, the two dots and the circle work the same way. Watch two famous pairs: シ (<i>shi</i>) has its short strokes on the left and its long stroke sweeping up, while ツ (<i>tsu</i>) has them on top and its long stroke falling. ソ (<i>so</i>) and ン (<i>n</i>) differ the same way.</p>
 <div class="tbl"><table><tr><th></th><th>a</th><th>i</th><th>u</th><th>e</th><th>o</th></tr><tr><td>vowels</td><td class="k">ア</td><td class="k">イ</td><td class="k">ウ</td><td class="k">エ</td><td class="k">オ</td></tr><tr><td>k</td><td class="k">カ</td><td class="k">キ</td><td class="k">ク</td><td class="k">ケ</td><td class="k">コ</td></tr><tr><td>s</td><td class="k">サ</td><td class="k">シ</td><td class="k">ス</td><td class="k">セ</td><td class="k">ソ</td></tr><tr><td>t</td><td class="k">タ</td><td class="k">チ</td><td class="k">ツ</td><td class="k">テ</td><td class="k">ト</td></tr><tr><td>n</td><td class="k">ナ</td><td class="k">ニ</td><td class="k">ヌ</td><td class="k">ネ</td><td class="k">ノ</td></tr><tr><td>h</td><td class="k">ハ</td><td class="k">ヒ</td><td class="k">フ</td><td class="k">ヘ</td><td class="k">ホ</td></tr><tr><td>m</td><td class="k">マ</td><td class="k">ミ</td><td class="k">ム</td><td class="k">メ</td><td class="k">モ</td></tr><tr><td>y</td><td class="k">ヤ</td><td></td><td class="k">ユ</td><td></td><td class="k">ヨ</td></tr><tr><td>r</td><td class="k">ラ</td><td class="k">リ</td><td class="k">ル</td><td class="k">レ</td><td class="k">ロ</td></tr><tr><td>w</td><td class="k">ワ</td><td></td><td></td><td></td><td class="k">ヲ</td></tr><tr><td>n alone</td><td class="k">ン</td><td></td><td></td><td></td><td></td></tr></table></div>
+<p>Start with the first four rows. Tap a letter to hear it and see how it reads.</p>
+{{tiles:ア イ ウ エ オ カ キ ク ケ コ サ シ ス セ ソ タ チ ツ テ ト}}
+{{ex:アイス|aisu|ice cream}}
+<h3>The other six rows: ナ to ン</h3>
+<p>The rest of the grid. ヲ is almost never used, and ン is <i>n</i> alone. More look-alikes: ヌ (<i>nu</i>) and ス (<i>su</i>), and ワ (<i>wa</i>), ウ (<i>u</i>) and フ (<i>fu</i>).</p>
+{{tiles:ナ ニ ヌ ネ ノ ハ ヒ フ ヘ ホ マ ミ ム メ モ ヤ _ ユ _ ヨ ラ リ ル レ ロ ワ _ _ _ ヲ ン}}
 {{ex:アメリカ|amerika|America}}
-{{ex:タクシー|takushī|taxi}}
+{{ex:ホテル|hoteru|hotel}}
 <h3>ー: the long-vowel mark</h3>
 <p>Hiragana adds a vowel letter for a long vowel. Katakana uses a dash, ー, which makes the vowel before it last two beats. The romaji puts a macron on that vowel. Leaving ー out changes the word: ビール is beer, ビル is a building.</p>
 {{ex:コーヒー|kōhī|coffee}}
@@ -132,11 +155,12 @@ module.exports = [
 <h3>English words in Japanese beats</h3>
 <p>Japanese beats end in a vowel (or ん), so a borrowed word gets extra vowels and English stress disappears. "McDonald's" becomes マクドナルド, six beats: <i>ma-ku-do-na-ru-do</i>. Say loanwords the Japanese way, or people may not recognize them.</p>
 {{ex:マクドナルド|makudonarudo|McDonald's}}
+<p>The cards below are loanwords you will see on signs and menus. Read each one beat by beat, then guess the word it came from.</p>
 <h3>Writing your name</h3>
 <p>Your name is written by sound, not by English spelling: Emily is エミリー, Mike is マイク, Jason is ジェイソン. In a sentence, katakana sits right next to hiragana, and particles stay in hiragana.</p>
 {{ex:わたしは エミリーです。|watashi wa emirī desu|I'm Emily.}}
 {{ex:コーヒーを ください。|kōhī o kudasai|Coffee, please.}}
-<div class="tip"><b>Most common mistake:</b> dropping the long-vowel mark. <b>コーヒ</b> → <b>コーヒー</b>. Each ー is a full beat. When the first 20 letters feel easy, learn the rest with the <b>Katakana 2: na to n, plus long vowels</b> deck.</div>
+<div class="tip"><b>Most common mistake:</b> dropping the long-vowel mark. <b>コーヒ</b> → <b>コーヒー</b>. Each ー is a full beat. Read it aloud and count: ko-o-hi-i is four beats.</div>
 `,
     check: [
       ["What does ー do in コーヒー?", ["Makes the vowel before it long", "Adds a short pause", "Turns ko into go", "Nothing; it is decoration"], 0, "ー makes the vowel before it last two beats: kōhī."],

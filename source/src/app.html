@@ -125,8 +125,9 @@ body.norom .rom:hover,body.norom .rom.peek,body.norom .brow .r:hover,body.norom 
 .sgl{min-width:0}.sgl .stroke{display:block}.sgl .sgb{display:none;aspect-ratio:1;box-sizing:border-box;flex-direction:column;align-items:center;justify-content:center;gap:4px;background:var(--bg);border-radius:10px;border:1px dashed var(--line)}
 .sgl .sgb .rom{font-size:1.4rem;font-weight:700;white-space:nowrap}.sgl .sgb small{font-size:.8rem;color:var(--muted)}
 .sgl.flip .stroke{display:none}.sgl.flip .sgb{display:flex}.sgl .stroke svg,.sgl .sgb{animation:sgflip .22s ease}
+.tiles-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;margin:8px 0}.sgl .sgf{display:flex;aspect-ratio:1;box-sizing:border-box;align-items:center;justify-content:center;background:var(--bg);border-radius:10px;border:1px solid var(--line);font-size:1.9rem;font-weight:700;line-height:1;animation:sgflip .22s ease}.sgl.flip .sgf{display:none}.tiles-grid .sgl .sgb .rom{font-size:1.15rem}
 @keyframes sgflip{from{transform:scaleX(.05)}to{transform:scaleX(1)}}
-@media (prefers-reduced-motion:reduce){.sgl .stroke svg,.sgl .sgb{animation:none}}
+@media (prefers-reduced-motion:reduce){.sgl .stroke svg,.sgl .sgb,.sgl .sgf{animation:none}}
 @keyframes draw{to{stroke-dashoffset:0}}
 @media (prefers-reduced-motion:reduce){.stroke path{animation:none;stroke-dashoffset:0}}
 .dlg{font-size:.86rem;line-height:1.45;text-align:start;background:var(--bg);border-radius:10px;padding:8px 12px;max-width:100%;width:100%}
@@ -570,7 +571,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.112.0 · 2026-11-25';
+const APP_VERSION='2.113.0 · 2026-11-25';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -1273,7 +1274,11 @@ function expandEx(html){ return String(html||'').replace(/\{\{ex:([^}]*)\}\}/g,(
 /* {{strokes:ㄱ}} in a pack lesson (Korean target only) becomes the stroke-order cell the built-in Hangul lesson draws; it is expanded here, after the pack's HTML was cleaned, because the cleaner removes svg */
 /* stroke-order tile: a flip card. Front: the strokes. Tap: flips to the romanization and says the letter (a consonant with ㅏ, a vowel after silent ㅇ; ㅇ as final ng). Tap again: back to the strokes, redrawn, and said again. */
 function sglTile(ch){ const R={'ㄱ':'g/k','ㄴ':'n','ㄷ':'d/t','ㄹ':'r/l','ㅁ':'m','ㅂ':'b/p','ㅅ':'s','ㅇ':'- / ng','ㅈ':'j','ㅊ':'ch','ㅋ':'k','ㅌ':'t','ㅍ':'p','ㅎ':'h','ㅏ':'a','ㅑ':'ya','ㅓ':'eo','ㅕ':'yeo','ㅗ':'o','ㅛ':'yo','ㅜ':'u','ㅠ':'yu','ㅡ':'eu','ㅣ':'i'}, W={'ㄱ':'가','ㄴ':'나','ㄷ':'다','ㄹ':'라','ㅁ':'마','ㅂ':'바','ㅅ':'사','ㅇ':'응','ㅈ':'자','ㅊ':'차','ㅋ':'카','ㅌ':'타','ㅍ':'파','ㅎ':'하','ㅏ':'아','ㅑ':'야','ㅓ':'어','ㅕ':'여','ㅗ':'오','ㅛ':'요','ㅜ':'우','ㅠ':'유','ㅡ':'으','ㅣ':'이'}; const c=String(ch).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;'), sv=strokeSVG(ch).replace(/<button[^>]*>.*?<\/button>/,''); if(!R[ch]) return '<div class="sgl" data-replay="1"><div class="k">'+c+'</div>'+sv+'</div>'; const WR={'가':'ga','나':'na','다':'da','라':'ra','마':'ma','바':'ba','사':'sa','응':'eung','자':'ja','차':'cha','카':'ka','타':'ta','파':'pa','하':'ha','아':'a','야':'ya','어':'eo','여':'yeo','오':'o','요':'yo','우':'u','유':'yu','으':'eu','이':'i'}, wr=WR[W[ch]]; return '<div class="sgl" data-replay="1" data-sound="'+W[ch]+'" role="button" aria-label="'+c+'" data-noi18n>'+sv+'<div class="sgb"><span class="rom">'+R[ch]+'</span><small>'+W[ch]+(wr?' · '+wr:'')+'</small></div></div>'; }
-function strokeTok(h){ return COURSE.target!=='ko'?h:String(h).replace(/\{\{strokes:([^}]*)\}\}/g,(m,ch)=>STROKES[ch]?sglTile(ch):''); }
+function strokeTok(h){ h=tilesTok(h); return COURSE.target!=='ko'?h:String(h).replace(/\{\{strokes:([^}]*)\}\}/g,(m,ch)=>STROKES[ch]?sglTile(ch):''); }
+/* FND-1. {{tiles:あ い う}} in a pack lesson: flip tiles for any script. Front: the letter. Tap: its reading, and the letter is said. "x=reading" sets the reading by hand, otherwise it is the reading of the card with that front; "_" is a gap. */
+let TILE_RD=null, TILE_RD_ID='';
+function tileReads(){ if(TILE_RD&&TILE_RD_ID===COURSE.id) return TILE_RD; const R={}; Object.keys(DECKS).forEach(d=>{ (DECKS[d]||[]).forEach(c=>{ if(Array.isArray(c)&&typeof c[0]==='string'&&typeof c[1]==='string'&&c[1]&&R[c[0]]===undefined) R[c[0]]=c[1]; }); }); TILE_RD_ID=COURSE.id; return TILE_RD=R; }
+function tilesTok(h){ if(String(h).indexOf('{{tiles:')<0) return h; const R=tileReads(); return String(h).replace(/\{\{tiles:([^}]*)\}\}/g,(m,inner)=>'<div class="tiles-grid">'+inner.split(/\s+/).filter(Boolean).map(t=>{ if(t==='_') return '<div></div>'; const i=t.indexOf('='), g=escT(i>0?t.slice(0,i):t), r=escT(i>0?t.slice(i+1):(R[t]||'')); return '<div class="sgl" data-sound="'+g+'" role="button" aria-label="'+g+'" data-noi18n><div class="sgf">'+g+'</div>'+(r?'<div class="sgb"><span class="rom">'+r+'</span></div>':'')+'</div>'; }).join('')+'</div>'); }
 /* Lessons: the romanization of every Korean word is written under it (ruby), as on the cards. Skipped where the Korean is itself a sound respelling or the quiz asks how a block reads. */
 const ROM_SKIP={'sound-changes':1}, ROM_SKIP_Q={'sound-changes':1,hangul:1}, ROM_J={'ㄹ':'l','ㄴ':'n','ㅁ':'m','ㅆ':'ss'};
 /* Lessons in a course whose target is written in another script than the learner's: the reading of a word is written under it, as on the cards. Readings come only from the course's own cards and lesson example lines (whole lines, then words or characters that always carry one reading there); a word with no reading in the course stays bare. Nothing is derived by rule. */
@@ -1316,6 +1321,10 @@ function lsRomHas(id){ return COURSE.target==='ko'?!ROM_SKIP[id]:rdOn(); }
    lsPlan(l) -> {parts:[{html,cards:[{d,c}]}], all:[{d,c}]}. The cards of the lesson's deck go to the section that teaches them (the card's words appear in that section); the rest are dealt out in deck order so that every section has cards. A section left with fewer than 3 hands them to a neighbour and has no deck of its own.
    Korean lesson 1 is set by hand: vowels -> the vowels deck, consonants -> the consonants deck, stacking -> LS_BLOCKS (syllable blocks made here from the letters; a deck that exists only inside the lesson). */
 const LS_BLOCKS='가나다', LS_PLAN={};
+/* FND-1. lsSecCards(spec): the flashcards a lesson names for one section (see tools/patches/foundations.py for the forms). A deck written inside the lesson is added to DECKS under its label, never to PATH or names, so Review, Progress and deck counts do not see it. */
+function lsSecCards(spec){ if(!spec) return []; if(Array.isArray(spec)) return spec.reduce((a,x)=>a.concat(lsSecCards(x)),[]); if(typeof spec==='string') spec={deck:spec}; if(typeof spec!=='object') return [];
+  if(typeof spec.name==='string'&&Array.isArray(spec.cards)){ if(names.indexOf(spec.name)>=0) return []; if(!DECKS[spec.name]) DECKS[spec.name]=spec.cards.filter(c=>Array.isArray(c)&&c.length>=3).map(c=>c.slice(0,4).map(x=>String(x==null?'':x))); return DECKS[spec.name].map(c=>({d:spec.name,c})); }
+  const D=DECKS[spec.deck]; if(!D||names.indexOf(spec.deck)<0) return []; const n=Array.isArray(spec.n)?spec.n:[0,D.length]; return D.slice(Math.max(0,n[0]|0),Math.min(D.length,n[1]|0)).map(c=>({d:spec.deck,c})); }
 function lsBlocksDeck(){ if(!DECKS[LS_BLOCKS]) DECKS[LS_BLOCKS]=['나','노','가','고','미','무','도','수','비','호','한','강','문','밥','손','달','산','길','곰','눈'].map(b=>{ const d=dec(b); return [b,romanize(b),L_IDX[d.l]+' + '+V_IDX[d.v]+(d.t?' + '+T_IDX[d.t]:''),'']; }); return LS_BLOCKS; }
 function lsNorm(h){ return ' '+String(h||'').replace(/\{\{ex:([^|}]*)[^}]*\}\}/g,' $1 ').replace(/\{\{[^}]*\}\}/g,' ').replace(/<[^>]+>/g,' ').replace(/&[a-z]+;/g,' ').toLowerCase().replace(/[.,!?¿¡。、！？;:"'’“”«»()\[\]…~·\/\-]/g,' ').replace(/\s+/g,' ')+' '; }
 function lsScore(front,txt){ const f=lsNorm(front).trim(); if(!f) return 0; if(txt.includes(' '+f+' ')) return 2;
@@ -1353,10 +1362,11 @@ function lsAlign(l,raw){ if(!LS_ALIGN[COURSE.id]||Array.isArray(l.sections)) ret
   if(sets.reduce((a,x)=>a+x.length,0)<3) return null; const pre=sets.map(x=>x.length); /* before any section passes its cards on: what tools/sections reads */
   for(let k=0;k<n;k++){ if(sets[k].length&&sets[k].length<3){ let j=-1; for(let m=k+1;m<n&&j<0;m++){ if(sets[m].length) j=m; } if(j>=0){ sets[j]=sets[k].concat(sets[j]); sets[k]=[]; } } } /* the last deck of a lesson may be short: its cards are never moved back in front of the section that teaches them */
   return {sets,hn,H,pre}; }
-function lsPlan(l){ const key=COURSE.id+'|'+l.id; if(LS_PLAN[key]){ const p=LS_PLAN[key]; if(p.H&&p.H.length&&DECKS[p.hn]!==p.H) DECKS[p.hn]=p.H; return p; }
+function lsPlan(l){ const key=COURSE.id+'|'+l.id; if(LS_PLAN[key]){ const p=LS_PLAN[key]; if(p.H&&p.H.length&&DECKS[p.hn]!==p.H) DECKS[p.hn]=p.H; { const miss={}; if(Array.isArray(l.sections)) p.all.forEach(x=>{ if(!DECKS[x.d]||miss[x.d]){ miss[x.d]=1; (DECKS[x.d]=DECKS[x.d]||[]).push(x.c); } }); } return p; }
   const raw=lsCut(l.body), n=raw.length, D=DECKS[l.deck]||[]; let sets=raw.map(()=>[]), al=null;
   const V=ROLE('hangulVowels'), C=ROLE('hangulConsonants');
-  if(l.id==='hangul'&&COURSE.target==='ko'&&n>=4&&V&&C){ sets[0]=DECKS[V].map(c=>({d:V,c})); sets[1]=DECKS[C].map(c=>({d:C,c})); const B=lsBlocksDeck(); sets[3]=DECKS[B].map(c=>({d:B,c})); }
+  if(Array.isArray(l.sections)&&!COURSE.builtin){ const seen=new Set(); sets=raw.map((x,i)=>lsSecCards(l.sections[i]).filter(y=>{ const k=y.d+'|'+y.c[0]; if(seen.has(k)) return false; seen.add(k); return true; })); }
+  else if(l.id==='hangul'&&COURSE.target==='ko'&&n>=4&&V&&C){ sets[0]=DECKS[V].map(c=>({d:V,c})); sets[1]=DECKS[C].map(c=>({d:C,c})); const B=lsBlocksDeck(); sets[3]=DECKS[B].map(c=>({d:B,c})); }
   else if((al=lsAlign(l,raw))){ sets=al.sets; if(al.H.length) DECKS[al.hn]=al.H; }
   else { const txt=raw.map(lsNorm), rest=[]; D.forEach(c=>{ let b=-1, bs=0; txt.forEach((t,i)=>{ const v=lsScore(c[0],t); if(v>bs){ bs=v; b=i; } }); if(bs>=0.6) sets[b].push(c); else rest.push(c); });
     const tgt=Math.ceil(D.length/n); let i=0; rest.forEach(c=>{ while(i<n-1&&sets[i].length>=tgt) i++; sets[i].push(c); });
