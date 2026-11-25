@@ -21,7 +21,7 @@ Standing rules: Supabase publishable key only; never open, print or commit secre
 - Every lesson in every language: a teaching section, then that section's flashcards (five shown, then quizzed, to the end of the deck), then the next section, and a review of all the lesson's decks at the end (2026-11-24; see "Lesson sections").
 - Replies: brief, bullets, direct. Visuals as PNG.
 
-## Released (through 2.110.0)
+## Released (through 2.111.0)
 
 Yesterday and today: ur-en, pa-en (2.78.0); yue-en in written Cantonese (2.79.0); te-en with bundled Noto Sans Telugu (2.80.0); yue-ko (2.81.0); kn-en (2.82.0); release report + audio coverage on every release (2.83.0); en-hmn (2.84.0); new cards flip on tap (2.85.0); hmn-en + Hmong interface (2.86.0).
 
@@ -68,6 +68,8 @@ Hangul letter count (owner asked "are there only 14 hangul" on seeing "Practice 
 Setting up the build home in a new chat (learned 2026-11-24): the scripts need `/home/claude` itself (make it, with `lang-app` inside or symlinked), `korean-site/` filled from the repository root (everything but `source/` and `audio/`; no link to `audio/`, the voice test writes into it), `korean-site/packs/.current` deleted before the first build, and the scratchpad folder named in `ship.sh` / `harness.js` created by hand. Running `harness.js` with `HARNESS_SRC` overwrites the shared `page.html`. The harness values `sessionSteps: 0` / `sessionDone: false` are the same before this change (that old check no longer drives the session).
 
 2.107.0 (2026-11-24): **every lesson in every course is taught section by section, each section followed by its own flashcards, then a review of all of them** (owner: "a teaching part of the lesson followed by flashcards where it teaches 5 then quiz on repeat until you complete the deck. then at the end it should go over all the decks for that lesson", and "make sure that every lesson for every language is taught like this"). Before: all the teaching, one quick check, one five-card drill. No pack was edited; the engine does it at run time. Details in the section "Lesson sections" below; prompt and results in `iterations.md`, entry LS-1.
+
+2.111.0 (2026-11-24): **a consonant chart in lesson 1 of all twelve Korean courses** (owner, on the vowel table: "i think we need a chart like this for the consanants"). Under the first paragraph of the consonant section: three paired columns, the basic shape, the letter made by adding a stroke, and the one made by adding another (ㄱ g/k → ㅋ k; ㄴ n → ㄷ d/t → ㅌ t; ㅁ m → ㅂ b/p → ㅍ p; ㅅ s → ㅈ j → ㅊ ch; ㅇ silent / ng → ㅎ h; ㄹ r/l), then one line saying that of two sounds the first is at the start of a block and the second at the end. Each heading spans a letter and its sound (`table.t3` in `src/app.html`) so the chart fits a 390 px screen without scrolling sideways. Built-in course in `src/app.html`; the eleven x-ko lessons in `tools/halves/native/<l>/ko/lessons/hangul.html`, packs re-assembled (one line changed in each). Edit script `tools/patches/consonant_chart.py` (headings, the word for silent and the note in each language, written from each lesson's own terms; not read by native speakers). `validate.js` now also reports `<table 1→2` on those lessons; that is this chart. `node tools/halves/selftest.js` fails one check ("export refuses moved positional ids") with and without this change; it is not in `ship.sh`.
 
 ## Lesson sections (LS-1, 2.107.0)
 

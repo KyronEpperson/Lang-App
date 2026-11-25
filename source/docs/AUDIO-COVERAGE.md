@@ -1,4 +1,4 @@
-# Audio coverage (as of release 2.110.0)
+# Audio coverage (as of release 2.111.0)
 
 **7703 sentences have no recorded clip yet** (about 206080 characters to generate over all voices); they are spoken by the device voice until the clips are made.
 

@@ -226,7 +226,7 @@ table{border-collapse:collapse;width:100%;font-size:.9rem}
 td,th{padding:6px 8px;border-bottom:1px solid var(--line);text-align:start;vertical-align:top}
 th{font:500 .7rem var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
 td.k{font-family:var(--display);font-weight:700;font-size:1.05rem}
-.tbl{overflow-x:auto}
+.tbl{overflow-x:auto}.tbl table.t3 th,.tbl table.t3 td{padding-left:6px;padding-right:6px}.tbl table.t3 td.k{width:1%;white-space:nowrap}
 .tip{background:var(--warn-soft);border-radius:10px;padding:10px 14px;font-size:.88rem;line-height:1.45;margin:10px 0}
 /* quiz */
 .q{font-family:var(--display);font-weight:700;font-size:clamp(1.6rem,7vw,2.4rem);text-align:center;margin:10px 0 4px;text-wrap:balance}
@@ -570,7 +570,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.110.0 · 2026-11-25';
+const APP_VERSION='2.111.0 · 2026-11-25';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -685,6 +685,8 @@ let LESSONS = [
 <p>Two ticks = add a y: ㅑ ya, ㅕ yeo, ㅛ yo, ㅠ yu.</p>
 <h3>Consonants are mouth shapes</h3>
 <p>The basic five were drawn from the tongue and lips: <b>ㄱ</b> (g, tongue back), <b>ㄴ</b> (n, tongue tip up), <b>ㅁ</b> (m, lips), <b>ㅅ</b> (s, teeth), <b>ㅇ</b> (silent placeholder, throat). Adding a stroke makes a harder sound: ㄴ→ㄷ (d)→ㅌ (t); ㅁ→ㅂ (b)→ㅍ (p); ㅅ→ㅈ (j)→ㅊ (ch); ㄱ→ㅋ (k); ㅇ→ㅎ (h).</p>
+<div class="tbl"><table class="t3"><tr><th colspan="2">Basic</th><th colspan="2">+ a stroke</th><th colspan="2">+ another</th></tr><tr><td class="k">ㄱ</td><td>g/k</td><td class="k">ㅋ</td><td>k</td><td></td><td></td></tr><tr><td class="k">ㄴ</td><td>n</td><td class="k">ㄷ</td><td>d/t</td><td class="k">ㅌ</td><td>t</td></tr><tr><td class="k">ㅁ</td><td>m</td><td class="k">ㅂ</td><td>b/p</td><td class="k">ㅍ</td><td>p</td></tr><tr><td class="k">ㅅ</td><td>s</td><td class="k">ㅈ</td><td>j</td><td class="k">ㅊ</td><td>ch</td></tr><tr><td class="k">ㅇ</td><td>silent / ng</td><td class="k">ㅎ</td><td>h</td><td></td><td></td></tr><tr><td class="k">ㄹ</td><td>r/l</td><td></td><td></td><td></td><td></td></tr></table></div>
+<p>Two sounds, like g/k: the first at the start of a block, the second at the end.</p>
 <h3>Stroke order</h3><p>Top to bottom, left to right. Tap a letter to flip it: you hear it and see how it is written in English letters. Tap again to watch the strokes.</p><div class="strokes-grid">${['ㄱ','ㄴ','ㄷ','ㄹ','ㅁ','ㅂ','ㅅ','ㅇ','ㅈ','ㅊ','ㅋ','ㅌ','ㅍ','ㅎ','ㅏ','ㅑ','ㅓ','ㅕ','ㅗ','ㅛ','ㅜ','ㅠ','ㅡ','ㅣ'].map(ch=>sglTile(ch)).join('')}</div>
 <h3>Stacking</h3>
 <p>Consonant first, then vowel. Vertical vowels go to the <b>right</b>; horizontal vowels go <b>below</b>. A final consonant (받침, batchim) goes at the bottom.</p>
