@@ -174,5 +174,26 @@ if (fs.existsSync(path.join(L.HALVES, 'target', 'zh'))) {
   { const d = fresh('zmoved'); const p = path.join(d, 'target', 'zh', 'practice.jsonl'); const rows = L.readJSONL(p); rows[3].t = rows[3].t === 'mc' ? 'order' : 'mc'; L.writeJSONL(p, rows);
     const v = run('export_target.js', ['zh'], d); const ok = v.status === 1 && /different Chinese content/.test(v.stderr); if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'export_target zh refuses moved positional ids'); }
 }
+/* ---------- a "by marks" target: Vietnamese (target/vi, docs/briefs/x-vi-design.md) ----------
+   A stand-in Spanish half (a copy of the English half: every marked span present) must validate; each mutation of a marked span must be reported. */
+if (fs.existsSync(path.join(L.HALVES, 'target', 'vi'))) {
+  const vb = fresh('vbase'), VN = d => path.join(d, 'native', 'es', 'vi');
+  fs.cpSync(path.join(vb, 'native', 'en', 'vi'), VN(vb), { recursive: true }); { const c = path.join(VN(vb), 'course.json'); const o = L.readJSON(c); o.native = 'es'; L.writeJSON(c, o); }
+  const vedit = (d, f, fn) => { const p = path.join(VN(d), f); L.writeJSONL(p, fn(L.readJSONL(p))); };
+  const vcases = [
+    ['vi: stand-in es half (copy of the English) validates', d => { }, null],
+    ['vi: a Vietnamese word changed inside a bold span of a body', d => { const p = path.join(VN(d), 'lessons', 'tones.html'); fs.writeFileSync(p, fs.readFileSync(p, 'utf8').replace('<b>bàn</b>,', '<b>ban</b>,')); }, /lessons\/tones\.html: marked Vietnamese text missing or altered: «<b>bàn<\/b>»/],
+    ['vi: a card front quoted in its own note loses a tone mark', d => vedit(d, 'cards.jsonl', rows => { const x = rows.find(r => r.id === 'vi.c0065'); x.note = x.note.replace('gái', 'gai'); return rows; }), /cards:vi\.c0065\.note: marked Vietnamese text missing/],
+    ['vi: an answer word in a practice hint loses its tone mark', d => vedit(d, 'practice.jsonl', rows => { const x = rows.find(r => r.id === 'tones.12'); x.hint = x.hint.replace('mẹ', 'me'); return rows; }), /practice:tones\.12\.hint: marked Vietnamese text missing or altered: «mẹ»/],
+    ['vi: a practice answer smuggled into a native row', d => vedit(d, 'practice.jsonl', rows => { rows[0].a = ['x']; return rows; }), /field "a" is not a native field/]
+  ];
+  vcases.forEach(([name, mut, want]) => {
+    const d = path.join(tmp, 'v' + Math.random().toString(36).slice(2)); fs.cpSync(vb, d, { recursive: true }); mut(d);
+    const v = run('validate.js', ['es', 'vi'], d), out = v.stdout + v.stderr;
+    const ok = want ? (v.status === 1 && want.test(out)) : v.status === 0;
+    if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + name + (ok ? '' : '\n' + out.split('\n').filter(l => /ERROR|errors:|Error/.test(l)).slice(0, 5).join('\n')));
+  });
+  { const d = fresh('vclean'); const v = run('proof.js', ['vi'], d); const ok = v.status === 0 && /differences: 0/.test(v.stdout); if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'proof vi: target/vi + native/en/vi reassemble the en-vi pack exactly'); }
+}
 fs.rmSync(tmp, { recursive: true, force: true });
 console.log(fail ? fail + ' FAILED' : 'all self-tests passed'); process.exit(fail ? 1 : 0);

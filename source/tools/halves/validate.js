@@ -32,14 +32,26 @@ const waived = (r, what) => Array.isArray(r && r._waive) && r._waive.includes(wh
 
 /* ---------- expected ids per native file, from the target half ---------- */
 const C = t.course;
+/* in-lesson decks and tile sets on target lesson rows (lesson.sections / {{tiles:…}}, docs/briefs/x-yue-design.md §3): their native rows are
+   the deck-name labels <t>.ld.<slug>, the tile-hint labels <t>.tlNNN.NN and lessoncards.jsonl {id, meaning, note} */
+const LD = [], LC = [], TH = [], TILESETS = new Map();
+t.lessons.forEach(l => {
+  const walk = s => { if (Array.isArray(s)) s.forEach(walk); else if (s && s.ld != null) { LD.push({ id: s.ld, lesson: l.id }); (s.cards || []).forEach(cd => LC.push(Object.assign({ lesson: l.id }, cd))); } };
+  walk(l.sections || []);
+  (l.tiles || []).forEach(ts => { TILESETS.set(ts.id, l.id); (ts.items || []).forEach(i => { if (i.n != null) TH.push({ id: i.n, lesson: l.id }); }); });
+});
 const expect = {
   decks: t.decks.map(r => r.id), cards: t.cards.map(r => r.id), dialog: t.dialog.map(r => r.id), examples: t.examples.map(r => r.id), patterns: t.patterns.map(r => r.id),
   sentences: t.sentences.map(r => r.id), lessons: t.lessons.map(r => r.id), checks: t.checks.map(r => r.id), practice: t.practice.map(r => r.id),
   groups: (C.groups || []).map(g => g.id),
   labels: [].concat((C.titles || []).map(x => x.id), (C.greet || []).map(x => x.id), (C.goals || []).map(x => x.id), (C.plans || []).map(x => x.id),
     ...((C.pause || {}).sets || []).map(s => [s.id].concat(s.items.map(i => i.id))), ((C.pause || {}).idioms || []).map(x => x.id),
-    en.labels.some(r => r.id === 'ko.d.mydeck') ? ['ko.d.mydeck'] : [])
+    en.labels.some(r => r.id === 'ko.d.mydeck') ? ['ko.d.mydeck'] : [], LD.map(x => x.id), TH.map(x => x.id))
 };
+/* lessoncards.jsonl is checked only where the target half has in-lesson cards or the native half has the file's rows (orphans): ko and older halves are unaffected */
+if (LC.length || n.lessoncards.length || en.lessoncards.length) expect.lessoncards = LC.map(r => r.id);
+LC.forEach(c => CARD_TEXT.set(c.id, c[TC.field])); /* an in-lesson card's note may print its own characters, as a deck card's note may */
+if (tgt !== 'ko') ADD_OK['lessoncards.note'] = 'trad';
 const counts = {};
 const enIx = {}; Object.keys(expect).forEach(f => enIx[f] = L.byId(en[f]));
 const tIx = { checks: L.byId(t.checks), practice: L.byId(t.practice) };
@@ -48,6 +60,7 @@ const tIx = { checks: L.byId(t.checks), practice: L.byId(t.practice) };
 const strs = v => v == null ? [] : Array.isArray(v) ? v.filter(x => x != null).map(String) : [String(v)];
 function checkText(where, f, v, ref, row, file) {
   if (typeof v !== 'string') return;
+  if (RUNS) {
   const a = RUNS(v), b = RUNS(ref);
   const sa = [...new Set(a)].sort().join('\u0001'), sb = [...new Set(b)].sort().join('\u0001');
   if (sa !== sb) { const miss = [...new Set(b)].filter(x => !a.includes(x)), extra = [...new Set(a)].filter(x => !b.includes(x));
@@ -56,6 +69,7 @@ function checkText(where, f, v, ref, row, file) {
     else if (!miss.length && pol === 'warn') warn(where + '.' + f, 'adds ' + SCRIPT + ' not in the English: ' + extra.join(' ') + ' (reviewer: check every added character)');
     else (waived(row, 'hangul') ? warn : err)(where + '.' + f, SCRIPT + ' differs from the English' + (miss.length ? ' · missing ' + miss.join(' ') : '') + (extra.length ? ' · extra ' + extra.join(' ') : '') + (pol === 'trad' && !miss.length ? ' (a card note may add only the card\'s own characters and the Traditional form written in this row\'s "trad")' : '')); }
   else if (a.length !== b.length) warn(where + '.' + f, SCRIPT + ' run count ' + a.length + ' vs English ' + b.length);
+  } /* by-marks targets (RUNS null): the recorded spans of target/<t>/marks.jsonl are checked below instead */
   if (tgt === 'zh') { const pw = [...new Set(String(ref).match(PIN_WORD) || [])].filter(x => !String(v).includes(x)); if (pw.length) warn(where + '.' + f, 'pinyin from the English not found here: ' + pw.join(' ')); }
   const us = s => (String(s).match(/_{2,}/g) || []).join(' ');
   if (us(v) !== us(ref)) err(where + '.' + f, 'blank placeholder (__ / ___) changed: "' + us(ref) + '" → "' + us(v) + '"');
@@ -103,6 +117,16 @@ n.practice.forEach(r => {
 n.dialog.forEach(r => { const ref = enIx.dialog.get(r.id); if (ref && typeof r.tr === 'string' && (r.tr.split(' / ').length !== ref.tr.split(' / ').length)) err('dialog:' + r.id + '.tr', 'keep one " / " between the two lines (' + (ref.tr.split(' / ').length - 1) + ' in English)'); });
 n.sentences.forEach(r => { if (/[{}]/.test(r.gloss || '')) err('sentences:' + r.id + '.gloss', 'braces are not allowed in an example gloss'); if (tgt !== 'ko' && /\|/.test(r.gloss || '')) err('sentences:' + r.id + '.gloss', '"|" is not allowed in an example gloss: the assembled {{ex:text|pron|gloss}} token is split on it'); });
 
+/* in-lesson decks and tiles: every in-lesson card needs a meaning (the deck shows it on the back); a tile hint is spliced into the {{tiles:…}} token
+   with spaces written as "_", so it must not hold "_", braces or line breaks / tabs (the engine splits items on whitespace and reads "_" back as a space) */
+if (expect.lessoncards) { const lcIx = L.byId(n.lessoncards); LC.forEach(c => { const r = lcIx.get(c.id); const er = enIx.lessoncards.get(c.id); if (r && !String(r.meaning == null ? '' : r.meaning).trim() && !(er && String(er.meaning == null ? '' : er.meaning).trim())) err('lessoncards:' + c.id + '.meaning', 'empty: every in-lesson card needs a meaning'); }); }
+const labIx = L.byId(n.labels);
+TH.forEach(x => { const r = labIx.get(x.id); if (!r || typeof r.text !== 'string') return; const w = 'labels:' + x.id + '.text';
+  if (/_/.test(r.text)) err(w, 'tile hint must not contain "_" (write a space; assembly turns spaces into "_")');
+  if (/[{}]/.test(r.text)) err(w, 'braces are not allowed in a tile hint (they would end the {{tiles:…}} token)');
+  if (/[^\S ]/.test(r.text)) err(w, 'tile hint must be one line without tabs (the engine splits tile items on whitespace)'); });
+const ldNames = new Map(); LD.forEach(x => { const r = labIx.get(x.id), l = r && String(r.text || '').trim(); if (!l) return; if (ldNames.has(l)) warn('labels:' + x.id, 'in-lesson deck name "' + l + '" also used by ' + ldNames.get(l)); ldNames.set(l, x.id); });
+
 /* deck labels: become object keys in the pack */
 const labels = new Map(); n.decks.forEach(r => { const l = String(r.label || '').trim(); if (!l) return; if (l === 'My phrases') err('decks:' + r.id + '.label', 'reserved: the runtime adds its own "My phrases" deck'); if (labels.has(l)) err('decks:' + r.id + '.label', 'duplicate deck label "' + l + '" (also ' + labels.get(l) + ')'); labels.set(l, r.id); if (tgt === 'ko' && /^Hangul|^Pronunciation/.test(l) && nat !== 'en') warn('decks:' + r.id + '.label', 'starts with Hangul/Pronunciation: the runtime treats such decks as letter decks when features.script is on'); });
 const gnames = new Set(); n.groups.forEach(r => { if (gnames.has(r.name)) warn('groups:' + r.id, 'duplicate group name'); gnames.add(r.name); });
@@ -120,10 +144,11 @@ t.lessons.forEach(l => {
   if (!h.trim()) return err(w, 'empty lesson body');
   let good = true;
   const tk = L.tokens(h), tr = L.tokens(ref);
-  tk.forEach(x => { const m = x.match(/^\{\{(ex|strokes):([^}]*)\}\}$/); if (!m) { err(w, 'unknown token ' + x); good = false; return; } if (m[1] === 'ex') { if (!senIds.has(m[2])) { err(w, 'token ' + x + ' does not resolve to a target sentence'); good = false; } usedSen.add(m[2]); } });
+  tk.forEach(x => { const m = x.match(/^\{\{(ex|strokes|tiles):([^}]*)\}\}$/); if (!m || (m[1] === 'tiles' && !TILESETS.size)) { err(w, 'unknown token ' + x); good = false; return; } if (m[1] === 'ex') { if (!senIds.has(m[2])) { err(w, 'token ' + x + ' does not resolve to a target sentence'); good = false; } usedSen.add(m[2]); }
+    if (m[1] === 'tiles' && TILESETS.get(m[2]) !== l.id) { err(w, 'token ' + x + ' does not resolve to a tile set of this lesson in the target half'); good = false; } });
   if (tk.join('') !== tr.join('')) { err(w, 'tokens differ from the English body (same tokens, same order required): ' + tk.length + ' vs ' + tr.length); good = false; }
   if (/\{\{(?![a-z]+:[^}]*\}\})|(^|[^}])\}\}/.test(h.replace(L.TOKEN_RX, ''))) { err(w, 'broken token braces'); good = false; }
-  const a = [...new Set(RUNS(h.replace(L.TOKEN_RX, ' ')))].sort().join(' '), b = [...new Set(RUNS(ref.replace(L.TOKEN_RX, ' ')))].sort().join(' ');
+  const a = RUNS ? [...new Set(RUNS(h.replace(L.TOKEN_RX, ' ')))].sort().join(' ') : '', b = RUNS ? [...new Set(RUNS(ref.replace(L.TOKEN_RX, ' ')))].sort().join(' ') : '';
   const lw = waived(L.byId(n.lessons).get(l.id), 'hangul');
   if (a !== b) { const A = a.split(' '), B = b.split(' '), missB = B.filter(x => x && !A.includes(x)), extraA = A.filter(x => x && !B.includes(x));
     if (!missB.length && ADD_OK.body === 'warn') warn(w, 'adds ' + SCRIPT + ' not in the English: ' + extraA.join(' ') + ' (reviewer: check every added character)');
@@ -138,6 +163,28 @@ t.lessons.forEach(l => {
 });
 t.sentences.forEach(s => { if (!usedSen.has(s.id)) warn('sentences:' + s.id, 'not used by any lesson body'); });
 counts['lessons/*.html'] = { target: t.lessons.length, native: files.length, complete: bodiesOk };
+
+/* ---------- by-marks targets (lib.js TARGETS[t].by === 'marks'; docs/briefs/x-vi-design.md) ----------
+   target/<t>/marks.jsonl lists, per native field, the target spans the English half marks (bold and example cells in bodies, "word (line)" pairs, the
+   row's own target words). Every span must occur in this native field, character for character, as a whole word, as often as recorded. A missing or
+   altered span is an error ("_waive":["marks"] or ["hangul"] on the row, or on the lesson row for a body, downgrades it to a warning). Target text
+   outside marks cannot be recognised in Latin script; see native/en/<t>/unmarked.tsv. */
+const markStat = { fields: 0, spans: 0, bad: 0 };
+if (TC.by === 'marks') {
+  const MK = L.readJSONL(path.join(H.T, 'marks.jsonl'));
+  if (!MK.length) err('target marks.jsonl', 'missing or empty: run export_target.js ' + tgt);
+  const nIx = {}; Object.keys(n).forEach(k => { if (Array.isArray(n[k])) nIx[k] = L.byId(n[k]); });
+  MK.forEach(m => {
+    const w = (m.f === 'body' ? 'lessons/' + m.id + '.html' : m.f + ':' + m.id + '.' + m.k);
+    let v, row;
+    if (m.f === 'body') { v = n.bodies[m.id]; row = nIx.lessons.get(m.id); if (!t.lessons.some(l => l.id === m.id)) return err(w, 'marks.jsonl names a lesson the target half does not have'); }
+    else { if (!nIx[m.f] || !expect[m.f] || !expect[m.f].includes(m.id)) return err('marks ' + w, 'marks.jsonl names a row the target half does not expect'); row = nIx[m.f].get(m.id); if (!row) return; const km = String(m.k).match(/^(\w+)(?:\[(\d+)\])?$/); v = km ? (km[2] != null ? (Array.isArray(row[km[1]]) ? row[km[1]][+km[2]] : undefined) : row[km[1]]) : undefined; }
+    if (v == null || !String(v).trim()) return; /* missing row / empty field: reported above */
+    markStat.fields++; markStat.spans += m.spans.length;
+    const miss = L.missingSpans(v, m.spans);
+    if (miss.length) { markStat.bad++; ((waived(row, 'marks') || waived(row, 'hangul')) ? warn : err)(w, 'marked ' + TC.name + ' text missing or altered: ' + miss.map(x => '«' + x + '»').join(' ') + ' (keep each marked span exactly, as a whole word: target/' + tgt + '/marks.jsonl)'); }
+  });
+}
 
 /* ---------- assembled pack: shape, merged options, pack-level fields ---------- */
 const nc = n.course;
@@ -303,6 +350,7 @@ console.log('== validate ' + nat + '-' + tgt + ' (' + path.relative(L.ROOT, H.N)
 Object.entries(counts).forEach(([f, c]) => console.log('  ' + f.padEnd(16) + ' target ' + String(c.target).padStart(4) + '  native ' + String(c.native).padStart(4) + '  complete ' + String(c.complete).padStart(4)));
 console.log('  ui.json          ' + Object.keys(n.ui || {}).length + ' override(s)');
 if (tgt === 'ko') console.log('  trainer.json     ' + (NT ? trainerCounts.sections + ' section(s), ' + trainerCounts.complete + ' complete' + (trainerCounts.maxSpellings ? ' · most accepted spellings: ' + trainerCounts.maxSpellings[1] + ' ' + trainerCounts.maxSpellings[0] : '') : 'absent (trainers off)') + (pack ? ' · features on: ' + (Object.keys(pack.features).filter(f => pack.features[f]).join(', ') || 'none') : ''));
+if (TC.by === 'marks') console.log('  marks            ' + markStat.fields + ' field(s), ' + markStat.spans + ' ' + TC.name + ' span(s) checked, ' + markStat.bad + ' field(s) with a span missing or altered');
 if (tgt === 'zh' && (nc.readings || hvStat.readings)) console.log('  Hán Việt         ' + hvStat.decided + ' of ' + hvStat.required + ' required cards decided, ' + hvStat.readings + ' reading(s), ' + hvStat.polyphones.length + ' character(s) read two ways');
 console.log('words remaining: ' + words + ' of ' + wordsTotal + (Object.keys(wordsBy).length ? '  (' + Object.entries(wordsBy).map(([k, v]) => k + ' ' + v).join(', ') + ')' : ''));
 const ALL = process.argv.includes('--all'), EMAX = ALL ? Infinity : 200, WMAX = ALL ? Infinity : 60; /* --all: print every error and warning (writers' dry runs filter by their own ids) */

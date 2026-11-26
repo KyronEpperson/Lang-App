@@ -4,12 +4,12 @@
 {"id":"tones.k1","lesson":"tones","o":[null,null,null,null],"a":1}
 {"id":"tones.k2","lesson":"tones","o":[null,null,null,null],"a":1}
 {"id":"tones.k3","lesson":"tones","o":[null,null,null,null],"a":2}
-{"id":"greetings.k1","lesson":"greetings","o":["多謝","唔該","對唔住","唔使客氣"],"a":1}
-{"id":"greetings.k2","lesson":"greetings","o":["多謝","唔該","唔好意思","早抖"],"a":0}
-{"id":"greetings.k3","lesson":"greetings","o":["唔使客氣","早晨","對唔住","唔該晒"],"a":2}
 {"id":"characters.k1","lesson":"characters","o":["林","明","休","好"],"a":1}
 {"id":"characters.k2","lesson":"characters","o":[null,null,null,null],"a":2}
 {"id":"characters.k3","lesson":"characters","o":[null,null,null,null],"a":0}
+{"id":"greetings.k1","lesson":"greetings","o":["多謝","唔該","對唔住","唔使客氣"],"a":1}
+{"id":"greetings.k2","lesson":"greetings","o":["多謝","唔該","唔好意思","早抖"],"a":0}
+{"id":"greetings.k3","lesson":"greetings","o":["唔使客氣","早晨","對唔住","唔該晒"],"a":2}
 {"id":"hai.k1","lesson":"hai","o":["我學生係。","我係學生。","我係一學生。","係我學生。"],"a":1}
 {"id":"hai.k2","lesson":"hai","o":[null,null,null,null],"a":3}
 {"id":"hai.k3","lesson":"hai","o":["佢係攰。","佢攰係。","佢好攰。","係佢攰。"],"a":2}

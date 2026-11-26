@@ -23,16 +23,6 @@
 {"id":"yue.s0023","yue":"電話","rom":"din6 waa2"}
 {"id":"yue.s0024","yue":"媽媽","rom":"maa4 maa1"}
 {"id":"yue.s0025","yue":"今日","rom":"gam1 jat6"}
-{"id":"yue.s0026","yue":"你好！","rom":"nei5 hou2!"}
-{"id":"yue.s0027","yue":"早晨！","rom":"zou2 san4!"}
-{"id":"yue.s0028","yue":"唔該！","rom":"m4 goi1!"}
-{"id":"yue.s0029","yue":"多謝！","rom":"do1 ze6!"}
-{"id":"yue.s0030","yue":"唔該晒！","rom":"m4 goi1 saai3!"}
-{"id":"yue.s0031","yue":"唔使客氣。","rom":"m4 sai2 haak3 hei3."}
-{"id":"yue.s0032","yue":"唔好意思。","rom":"m4 hou2 ji3 si3."}
-{"id":"yue.s0033","yue":"對唔住。","rom":"deoi3 m4 zyu6."}
-{"id":"yue.s0034","yue":"拜拜！","rom":"baai1 baai3!"}
-{"id":"yue.s0035","yue":"唔該，一杯奶茶。","rom":"m4 goi1, jat1 bui1 naai5 caa4."}
 {"id":"yue.s0036","yue":"人","rom":"jan4"}
 {"id":"yue.s0037","yue":"口","rom":"hau2"}
 {"id":"yue.s0038","yue":"日","rom":"jat6"}
@@ -44,6 +34,16 @@
 {"id":"yue.s0044","yue":"喺","rom":"hai2"}
 {"id":"yue.s0045","yue":"媽","rom":"maa1"}
 {"id":"yue.s0046","yue":"出口","rom":"ceot1 hau2"}
+{"id":"yue.s0026","yue":"你好！","rom":"nei5 hou2!"}
+{"id":"yue.s0027","yue":"早晨！","rom":"zou2 san4!"}
+{"id":"yue.s0028","yue":"唔該！","rom":"m4 goi1!"}
+{"id":"yue.s0029","yue":"多謝！","rom":"do1 ze6!"}
+{"id":"yue.s0030","yue":"唔該晒！","rom":"m4 goi1 saai3!"}
+{"id":"yue.s0031","yue":"唔使客氣。","rom":"m4 sai2 haak3 hei3."}
+{"id":"yue.s0032","yue":"唔好意思。","rom":"m4 hou2 ji3 si3."}
+{"id":"yue.s0033","yue":"對唔住。","rom":"deoi3 m4 zyu6."}
+{"id":"yue.s0034","yue":"拜拜！","rom":"baai1 baai3!"}
+{"id":"yue.s0035","yue":"唔該，一杯奶茶。","rom":"m4 goi1, jat1 bui1 naai5 caa4."}
 {"id":"yue.s0047","yue":"我係學生。","rom":"ngo5 hai6 hok6 saang1."}
 {"id":"yue.s0048","yue":"佢係老師。","rom":"keoi5 hai6 lou5 si1."}
 {"id":"yue.s0049","yue":"佢哋係學生。","rom":"keoi5 dei6 hai6 hok6 saang1."}

@@ -47,16 +47,16 @@
    "deck": "Tone twins"
   },
   {
-   "id": "greetings",
-   "title": "Hello, thanks and sorry: 唔該 and 多謝",
-   "roadmap": "yue-greetings",
-   "deck": "Greetings and courtesy"
-  },
-  {
    "id": "characters",
    "title": "First characters: strokes and radicals",
    "roadmap": "yue-characters",
    "deck": "First characters"
+  },
+  {
+   "id": "greetings",
+   "title": "Hello, thanks and sorry: 唔該 and 多謝",
+   "roadmap": "yue-greetings",
+   "deck": "Greetings and courtesy"
   },
   {
    "id": "hai",

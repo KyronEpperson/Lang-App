@@ -1,0 +1,221 @@
+{"id":"vi.s0001","vi":"đi","rom":"dee"}
+{"id":"vi.s0002","vi":"ăn","rom":"an"}
+{"id":"vi.s0003","vi":"da","rom":"zah"}
+{"id":"vi.s0004","vi":"rau","rom":"zow"}
+{"id":"vi.s0005","vi":"xe","rom":"seh"}
+{"id":"vi.s0006","vi":"nhà","rom":"nyah_"}
+{"id":"vi.s0007","vi":"tôi","rom":"dtohy"}
+{"id":"vi.s0008","vi":"Việt Nam","rom":"vee-uht. nahm"}
+{"id":"vi.s0009","vi":"cơm","rom":"kerm"}
+{"id":"vi.s0010","vi":"ma","rom":"mah"}
+{"id":"vi.s0011","vi":"mà","rom":"mah_"}
+{"id":"vi.s0012","vi":"bàn","rom":"bahn_"}
+{"id":"vi.s0013","vi":"bán","rom":"bahn/"}
+{"id":"vi.s0014","vi":"bạn","rom":"bahn."}
+{"id":"vi.s0015","vi":"Mẹ bán bàn.","rom":"meh. bahn/ bahn_"}
+{"id":"vi.s0016","vi":"Bạn tôi bán cá.","rom":"bahn. dtohy bahn/ kah/"}
+{"id":"vi.s0017","vi":"Anh khỏe không?","rom":"aing khweh? khohng"}
+{"id":"vi.s0018","vi":"kem","rom":"kehm"}
+{"id":"vi.s0019","vi":"ghế","rom":"gey/"}
+{"id":"vi.s0020","vi":"nghe","rom":"ngeh"}
+{"id":"vi.s0021","vi":"quà","rom":"kwah_"}
+{"id":"vi.s0022","vi":"ngủ","rom":"ngoo?"}
+{"id":"vi.s0023","vi":"Nguyễn","rom":"ngwee-uhn~"}
+{"id":"vi.s0024","vi":"bánh mì","rom":"baing/ mee_"}
+{"id":"vi.s0025","vi":"sách","rom":"saik/"}
+{"id":"vi.s0026","vi":"một","rom":"moht."}
+{"id":"vi.s0027","vi":"Tôi học tiếng Việt.","rom":"dtohy hawk. dtee-uhng/ vee-uht."}
+{"id":"vi.s0028","vi":"cơm gà","rom":"kerm gah_"}
+{"id":"vi.s0029","vi":"Tôi uống sữa.","rom":"dtohy oo-uhng/ suu-uh~"}
+{"id":"vi.s0030","vi":"tai","rom":"dtahy"}
+{"id":"vi.s0031","vi":"tay","rom":"dtai"}
+{"id":"vi.s0032","vi":"sao","rom":"sahw"}
+{"id":"vi.s0033","vi":"sau","rom":"sow"}
+{"id":"vi.s0034","vi":"người Việt","rom":"nguu-uhy_ vee-uht."}
+{"id":"vi.s0035","vi":"Tôi muốn ăn cơm gà.","rom":"dtohy moo-uhn/ an kerm gah_"}
+{"id":"vi.s0036","vi":"hoa","rom":"hwah"}
+{"id":"vi.s0037","vi":"Xin chào.","rom":"seen chahw_"}
+{"id":"vi.s0038","vi":"Chào chị.","rom":"chahw_ chee."}
+{"id":"vi.s0039","vi":"Cảm ơn anh.","rom":"kahm? ern aing"}
+{"id":"vi.s0040","vi":"Xin lỗi.","rom":"seen lohy~"}
+{"id":"vi.s0041","vi":"Chị khỏe không?","rom":"chee. khweh? khohng"}
+{"id":"vi.s0042","vi":"Em khỏe, cảm ơn chị.","rom":"ehm khweh? kahm? ern chee."}
+{"id":"vi.s0043","vi":"Em ơi!","rom":"ehm uhy"}
+{"id":"vi.s0044","vi":"Em chào chị ạ.","rom":"ehm chahw_ chee. ah."}
+{"id":"vi.s0045","vi":"Tôi là sinh viên.","rom":"dtohy lah_ sing vee-uhn"}
+{"id":"vi.s0046","vi":"Chị Lan là giáo viên.","rom":"chee. lahn lah_ zahw/ vee-uhn"}
+{"id":"vi.s0047","vi":"Tôi tên là Emma.","rom":"dtohy dteyn lah_ ehm mah"}
+{"id":"vi.s0048","vi":"Anh ấy là bác sĩ.","rom":"aing ay/ lah_ bahk/ see~"}
+{"id":"vi.s0049","vi":"Chúng tôi là sinh viên.","rom":"choong/ dtohy lah_ sing vee-uhn"}
+{"id":"vi.s0050","vi":"Tôi không phải là bác sĩ.","rom":"dtohy khohng fahy? lah_ bahk/ see~"}
+{"id":"vi.s0051","vi":"Chị ấy không phải là giáo viên.","rom":"chee. ay/ khohng fahy? lah_ zahw/ vee-uhn"}
+{"id":"vi.s0052","vi":"Tôi mệt.","rom":"dtohy meyt."}
+{"id":"vi.s0053","vi":"Anh có uống cà phê không?","rom":"aing kaw/ oo-uhng/ kah_ fey khohng"}
+{"id":"vi.s0054","vi":"Em có thích phở không?","rom":"ehm kaw/ tik/ fer? khohng"}
+{"id":"vi.s0055","vi":"Chị có bận không?","rom":"chee. kaw/ buhn. khohng"}
+{"id":"vi.s0056","vi":"Khỏe, cảm ơn anh.","rom":"khweh? kahm? ern aing"}
+{"id":"vi.s0057","vi":"Có, tôi thích.","rom":"kaw/ dtohy tik/"}
+{"id":"vi.s0058","vi":"Không, tôi không bận.","rom":"khohng dtohy khohng buhn."}
+{"id":"vi.s0059","vi":"Bạn là sinh viên phải không?","rom":"bahn. lah_ sing vee-uhn fahy? khohng"}
+{"id":"vi.s0060","vi":"Không phải, tôi là giáo viên.","rom":"khohng fahy? dtohy lah_ zahw/ vee-uhn"}
+{"id":"vi.s0061","vi":"Tôi là người Mỹ.","rom":"dtohy lah_ nguu-uhy_ mee~"}
+{"id":"vi.s0062","vi":"Chị ấy là người Việt.","rom":"chee. ay/ lah_ nguu-uhy_ vee-uht."}
+{"id":"vi.s0063","vi":"Anh là người nước nào?","rom":"aing lah_ nguu-uhy_ nuu-uhk/ nahw_"}
+{"id":"vi.s0064","vi":"Anh ấy nói tiếng Anh.","rom":"aing ay/ nawy/ dtee-uhng/ aing"}
+{"id":"vi.s0065","vi":"Anh làm nghề gì?","rom":"aing lahm_ ngey_ zee_"}
+{"id":"vi.s0066","vi":"Tôi là bác sĩ.","rom":"dtohy lah_ bahk/ see~"}
+{"id":"vi.s0067","vi":"Chúng tôi là người Úc.","rom":"choong/ dtohy lah_ nguu-uhy_ ook/"}
+{"id":"vi.s0068","vi":"Đây là bạn tôi, chị Lan.","rom":"day lah_ bahn. dtohy chee. lahn"}
+{"id":"vi.s0069","vi":"Đó là nhà tôi.","rom":"daw/ lah_ nyah_ dtohy"}
+{"id":"vi.s0070","vi":"cái bàn này","rom":"kahy/ bahn_ nai_"}
+{"id":"vi.s0071","vi":"Tôi thích cái áo kia.","rom":"dtohy tik/ kahy/ ahw/ kee-uh"}
+{"id":"vi.s0072","vi":"con mèo kia","rom":"kawn mehw_ kee-uh"}
+{"id":"vi.s0073","vi":"quyển sách này","rom":"kwee-uhn? saik/ nai_"}
+{"id":"vi.s0074","vi":"Tôi thích cái này.","rom":"dtohy tik/ kahy/ nai_"}
+{"id":"vi.s0075","vi":"Phở ngon.","rom":"fer? ngawn"}
+{"id":"vi.s0076","vi":"áo đẹp","rom":"ahw/ dehp."}
+{"id":"vi.s0077","vi":"áo đỏ","rom":"ahw/ daw?"}
+{"id":"vi.s0078","vi":"Cái áo này rất đẹp.","rom":"kahy/ ahw/ nai_ zuht/ dehp."}
+{"id":"vi.s0079","vi":"Phở ngon lắm.","rom":"fer? ngawn lam/"}
+{"id":"vi.s0080","vi":"Ngon quá!","rom":"ngawn kwah/"}
+{"id":"vi.s0081","vi":"Phở có ngon không?","rom":"fer? kaw/ ngawn khohng"}
+{"id":"vi.s0082","vi":"Ngon lắm!","rom":"ngawn lam/"}
+{"id":"vi.s0083","vi":"Cà phê này không đắt.","rom":"kah_ fey nai_ khohng dat/"}
+{"id":"vi.s0084","vi":"Anh ấy là ai?","rom":"aing ay/ lah_ ahy"}
+{"id":"vi.s0085","vi":"Anh ấy là anh Minh.","rom":"aing ay/ lah_ aing ming"}
+{"id":"vi.s0086","vi":"Ai là giáo viên?","rom":"ahy lah_ zahw/ vee-uhn"}
+{"id":"vi.s0087","vi":"Bạn muốn gì?","rom":"bahn. moo-uhn/ zee_"}
+{"id":"vi.s0088","vi":"Bạn tên là gì?","rom":"bahn. dteyn lah_ zee_"}
+{"id":"vi.s0089","vi":"Đây là cái gì?","rom":"day lah_ kahy/ zee_"}
+{"id":"vi.s0090","vi":"Chị ấy làm nghề gì?","rom":"chee. ay/ lahm_ ngey_ zee_"}
+{"id":"vi.s0091","vi":"một, hai, ba","rom":"moht. hahy bah"}
+{"id":"vi.s0092","vi":"mười hai","rom":"muu-uhy_ hahy"}
+{"id":"vi.s0093","vi":"mười lăm","rom":"muu-uhy_ lam"}
+{"id":"vi.s0094","vi":"hai mươi","rom":"hahy muu-uhy"}
+{"id":"vi.s0095","vi":"hai mươi mốt","rom":"hahy muu-uhy moht/"}
+{"id":"vi.s0096","vi":"hai mươi lăm","rom":"hahy muu-uhy lam"}
+{"id":"vi.s0097","vi":"ba mươi tư","rom":"bah muu-uhy dtuu"}
+{"id":"vi.s0098","vi":"Bạn bao nhiêu tuổi?","rom":"bahn. bahw nyee-uhw dtoo-uhy?"}
+{"id":"vi.s0099","vi":"Em mấy tuổi?","rom":"ehm may/ dtoo-uhy?"}
+{"id":"vi.s0100","vi":"Tôi hai mươi lăm tuổi.","rom":"dtohy hahy muu-uhy lam dtoo-uhy?"}
+{"id":"vi.s0101","vi":"hai con mèo","rom":"hahy kawn mehw_"}
+{"id":"vi.s0102","vi":"một quyển sách","rom":"moht. kwee-uhn? saik/"}
+{"id":"vi.s0103","vi":"hai cốc trà đá","rom":"hahy kohk/ chah_ dah/"}
+{"id":"vi.s0104","vi":"một đôi giày","rom":"moht. dohy zai_"}
+{"id":"vi.s0105","vi":"chiếc xe máy này","rom":"chee-uhk/ seh mai/ nai_"}
+{"id":"vi.s0106","vi":"hai con mèo này","rom":"hahy kawn mehw_ nai_"}
+{"id":"vi.s0107","vi":"ba cái áo đỏ","rom":"bah kahy/ ahw/ daw?"}
+{"id":"vi.s0108","vi":"Tôi thích mèo.","rom":"dtohy tik/ mehw_"}
+{"id":"vi.s0109","vi":"thịt gà","rom":"teet. gah_"}
+{"id":"vi.s0110","vi":"Tôi có hai anh trai.","rom":"dtohy kaw/ hahy aing chahy"}
+{"id":"vi.s0111","vi":"Chị Lan có một con mèo.","rom":"chee. lahn kaw/ moht. kawn mehw_"}
+{"id":"vi.s0112","vi":"Ở đây có wifi.","rom":"er? day kaw/ wai fai"}
+{"id":"vi.s0113","vi":"Ở Hà Nội có nhiều quán phở.","rom":"er? hah_ nohy. kaw/ nyee-uhw_ kwahn/ fer?"}
+{"id":"vi.s0114","vi":"Tôi không có xe máy.","rom":"dtohy khohng kaw/ seh mai/"}
+{"id":"vi.s0115","vi":"Chị có áo màu đỏ không?","rom":"chee. kaw/ ahw/ mow_ daw? khohng"}
+{"id":"vi.s0116","vi":"Ở đây có nhà vệ sinh không?","rom":"er? day kaw/ nyah_ vey. sing khohng"}
+{"id":"vi.s0117","vi":"Không có.","rom":"khohng kaw/"}
+{"id":"vi.s0118","vi":"sách của chị Lan","rom":"saik/ koo-uh? chee. lahn"}
+{"id":"vi.s0119","vi":"Đây là xe máy của anh Minh.","rom":"day lah_ seh mai/ koo-uh? aing ming"}
+{"id":"vi.s0120","vi":"Cái áo này là của tôi.","rom":"kahy/ ahw/ nai_ lah_ koo-uh? dtohy"}
+{"id":"vi.s0121","vi":"Mẹ tôi là giáo viên.","rom":"meh. dtohy lah_ zahw/ vee-uhn"}
+{"id":"vi.s0122","vi":"Nhà tôi rất nhỏ.","rom":"nyah_ dtohy zuht/ nyaw?"}
+{"id":"vi.s0123","vi":"chiếc xe máy mới của tôi","rom":"chee-uhk/ seh mai/ muhy/ koo-uh? dtohy"}
+{"id":"vi.s0124","vi":"Quyển sách này là của ai?","rom":"kwee-uhn? saik/ nai_ lah_ koo-uh? ahy"}
+{"id":"vi.s0125","vi":"Của chị Lan.","rom":"koo-uh? chee. lahn"}
+{"id":"vi.s0126","vi":"Tôi có một em gái.","rom":"dtohy kaw/ moht. ehm gahy/"}
+{"id":"vi.s0127","vi":"Chị gái tôi là bác sĩ.","rom":"chee. gahy/ dtohy lah_ bahk/ see~"}
+{"id":"vi.s0128","vi":"Bạn có mấy anh chị em?","rom":"bahn. kaw/ may/ aing chee. ehm"}
+{"id":"vi.s0129","vi":"Cháu chào bà ạ.","rom":"chow/ chahw_ bah_ ah."}
+{"id":"vi.s0130","vi":"Chú có khỏe không ạ?","rom":"choo/ kaw/ khweh? khohng ah."}
+{"id":"vi.s0131","vi":"Cô ơi!","rom":"koh uhy"}
+{"id":"vi.s0132","vi":"Chào các bạn!","rom":"chahw_ kahk/ bahn."}
+{"id":"vi.s0133","vi":"Hà Nội lạnh hơn Sài Gòn.","rom":"hah_ nohy. laing. hern sahy_ gawn_"}
+{"id":"vi.s0134","vi":"Cái áo này đắt hơn cái áo kia.","rom":"kahy/ ahw/ nai_ dat/ hern kahy/ ahw/ kee-uh"}
+{"id":"vi.s0135","vi":"Phở này ngon hơn.","rom":"fer? nai_ ngawn hern"}
+{"id":"vi.s0136","vi":"Em gái tôi cao bằng tôi.","rom":"ehm gahy/ dtohy kahw bang_ dtohy"}
+{"id":"vi.s0137","vi":"Huế không lớn bằng Hà Nội.","rom":"hwey/ khohng lern/ bang_ hah_ nohy."}
+{"id":"vi.s0138","vi":"Quán này ngon nhất.","rom":"kwahn/ nai_ ngawn nyuht/"}
+{"id":"vi.s0139","vi":"Đây là quán phở ngon nhất ở Hà Nội.","rom":"day lah_ kwahn/ fer? ngawn nyuht/ er? hah_ nohy."}
+{"id":"vi.s0140","vi":"Hôm nay lạnh hơn nhiều.","rom":"hohm nai laing. hern nyee-uhw_"}
+{"id":"vi.s0141","vi":"Anh ấy đã đi Huế.","rom":"aing ay/ dah~ dee hwey/"}
+{"id":"vi.s0142","vi":"Tôi đang học tiếng Việt.","rom":"dtohy dahng hawk. dtee-uhng/ vee-uht."}
+{"id":"vi.s0143","vi":"Bây giờ chị Lan đang ăn cơm.","rom":"bay zer_ chee. lahn dahng an kerm"}
+{"id":"vi.s0144","vi":"Ngày mai tôi sẽ đi Hội An.","rom":"ngai_ mahy dtohy seh~ dee hohy. ahn"}
+{"id":"vi.s0145","vi":"Hôm qua tôi đi chợ.","rom":"hohm kwah dtohy dee cher."}
+{"id":"vi.s0146","vi":"Hôm qua anh làm gì?","rom":"hohm kwah aing lahm_ zee_"}
+{"id":"vi.s0147","vi":"Hôm qua tôi không đi làm.","rom":"hohm kwah dtohy khohng dee lahm_"}
+{"id":"vi.s0148","vi":"Tôi sẽ không đi.","rom":"dtohy seh~ khohng dee"}
+{"id":"vi.s0149","vi":"Tôi muốn ăn phở.","rom":"dtohy moo-uhn/ an fer?"}
+{"id":"vi.s0150","vi":"Em muốn uống gì?","rom":"ehm moo-uhn/ oo-uhng/ zee_"}
+{"id":"vi.s0151","vi":"Tôi rất thích cà phê sữa đá.","rom":"dtohy zuht/ tik/ kah_ fey suu-uh~ dah/"}
+{"id":"vi.s0152","vi":"Chị ấy thích nấu ăn.","rom":"chee. ay/ tik/ nuhw/ an"}
+{"id":"vi.s0153","vi":"Anh có muốn uống cà phê không?","rom":"aing kaw/ moo-uhn/ oo-uhng/ kah_ fey khohng"}
+{"id":"vi.s0154","vi":"Tôi cần hai vé.","rom":"dtohy kuhn_ hahy veh/"}
+{"id":"vi.s0155","vi":"Tôi không muốn uống bia.","rom":"dtohy khohng moo-uhn/ oo-uhng/ bee-uh"}
+{"id":"vi.s0156","vi":"Cho tôi hai bát phở bò.","rom":"chaw dtohy hahy baht/ fer? baw_"}
+{"id":"vi.s0157","vi":"Cho em một cốc trà đá.","rom":"chaw ehm moht. kohk/ chah_ dah/"}
+{"id":"vi.s0158","vi":"Tôi ở Hà Nội.","rom":"dtohy er? hah_ nohy."}
+{"id":"vi.s0159","vi":"Chị Lan sống ở Huế.","rom":"chee. lahn sohng/ er? hwey/"}
+{"id":"vi.s0160","vi":"Nhà vệ sinh ở đâu?","rom":"nyah_ vey. sing er? duhw"}
+{"id":"vi.s0161","vi":"Ngân hàng ở bên cạnh khách sạn.","rom":"nguhn hahng_ er? beyn kaing. khaik/ sahn."}
+{"id":"vi.s0162","vi":"Quyển sách ở trên bàn.","rom":"kwee-uhn? saik/ er? cheyn bahn_"}
+{"id":"vi.s0163","vi":"Con mèo ở dưới ghế.","rom":"kawn mehw_ er? zuu-uhy/ gey/"}
+{"id":"vi.s0164","vi":"Mẹ tôi ở trong nhà.","rom":"meh. dtohy er? chawng nyah_"}
+{"id":"vi.s0165","vi":"Con mèo của tôi ở ngoài sân.","rom":"kawn mehw_ koo-uh? dtohy er? ngwahy_ suhn"}
+{"id":"vi.s0166","vi":"Tôi biết bơi.","rom":"dtohy bee-uht/ buhy"}
+{"id":"vi.s0167","vi":"Tôi không biết lái xe.","rom":"dtohy khohng bee-uht/ lahy/ seh"}
+{"id":"vi.s0168","vi":"Chị có biết nói tiếng Anh không?","rom":"chee. kaw/ bee-uht/ nawy/ dtee-uhng/ aing khohng"}
+{"id":"vi.s0169","vi":"Ngày mai tôi có thể giúp anh.","rom":"ngai_ mahy dtohy kaw/ tey? zoop/ aing"}
+{"id":"vi.s0170","vi":"Tôi có thể giúp gì cho chị?","rom":"dtohy kaw/ tey? zoop/ zee_ chaw chee."}
+{"id":"vi.s0171","vi":"Tôi ăn cay được.","rom":"dtohy an kai duu-uhk."}
+{"id":"vi.s0172","vi":"Ở đây chụp ảnh được không?","rom":"er? day choop. aing? duu-uhk. khohng"}
+{"id":"vi.s0173","vi":"Anh ăn cơm chưa?","rom":"aing an kerm chuu-uh"}
+{"id":"vi.s0174","vi":"Chị đã đi Huế chưa?","rom":"chee. dah~ dee hwey/ chuu-uh"}
+{"id":"vi.s0175","vi":"Rồi, tôi ăn rồi.","rom":"zohy_ dtohy an zohy_"}
+{"id":"vi.s0176","vi":"Chưa, tôi chưa ăn.","rom":"chuu-uh dtohy chuu-uh an"}
+{"id":"vi.s0177","vi":"Em làm bài tập về nhà chưa?","rom":"ehm lahm_ bahy_ dtuhp. vey_ nyah_ chuu-uh"}
+{"id":"vi.s0178","vi":"Ăn cơm chưa?","rom":"an kerm chuu-uh"}
+{"id":"vi.s0179","vi":"Ngày mai tôi đi Huế.","rom":"ngai_ mahy dtohy dee hwey/"}
+{"id":"vi.s0180","vi":"Tôi đi Hội An với chị Lan.","rom":"dtohy dee hohy. ahn vuhy/ chee. lahn"}
+{"id":"vi.s0181","vi":"Bây giờ tôi về nhà.","rom":"bay zer_ dtohy vey_ nyah_"}
+{"id":"vi.s0182","vi":"Chị Lan đến rồi.","rom":"chee. lahn deyn/ zohy_"}
+{"id":"vi.s0183","vi":"Tôi đi Huế bằng tàu.","rom":"dtohy dee hwey/ bang_ dtow_"}
+{"id":"vi.s0184","vi":"Tôi đi làm bằng xe máy.","rom":"dtohy dee lahm_ bang_ seh mai/"}
+{"id":"vi.s0185","vi":"Xe buýt này đi Hồ Gươm.","rom":"seh bweet/ nai_ dee hoh_ guu-uhm"}
+{"id":"vi.s0186","vi":"Cái áo này bao nhiêu tiền?","rom":"kahy/ ahw/ nai_ bahw nyee-uhw dtee-uhn_"}
+{"id":"vi.s0187","vi":"Năm mươi nghìn.","rom":"nam muu-uhy ngeen_"}
+{"id":"vi.s0188","vi":"Bát phở này năm mươi nghìn.","rom":"baht/ fer? nai_ nam muu-uhy ngeen_"}
+{"id":"vi.s0189","vi":"Đắt quá! Bớt một chút được không?","rom":"dat/ kwah/ bert/ moht. choot/ duu-uhk. khohng"}
+{"id":"vi.s0190","vi":"Hai trăm nghìn được không?","rom":"hahy cham ngeen_ duu-uhk. khohng"}
+{"id":"vi.s0191","vi":"Tôi lấy cái áo đỏ này.","rom":"dtohy lay/ kahy/ ahw/ daw? nai_"}
+{"id":"vi.s0192","vi":"Đi thẳng rồi rẽ trái.","rom":"dee tang? zohy_ zeh~ chahy/"}
+{"id":"vi.s0193","vi":"Rẽ phải ở ngã tư.","rom":"zeh~ fahy? er? ngah~ dtuu"}
+{"id":"vi.s0194","vi":"Anh chỉ đường giúp em được không?","rom":"aing chee? duu-uhng_ zoop/ ehm duu-uhk. khohng"}
+{"id":"vi.s0195","vi":"Có xa không?","rom":"kaw/ sah khohng"}
+{"id":"vi.s0196","vi":"Hồ Gươm cách đây bao xa?","rom":"hoh_ guu-uhm kaik/ day bahw sah"}
+{"id":"vi.s0197","vi":"Gần đây có ngân hàng không?","rom":"guhn_ day kaw/ nguhn hahng_ khohng"}
+{"id":"vi.s0198","vi":"Cho tôi đến khách sạn này.","rom":"chaw dtohy deyn/ khaik/ sahn. nai_"}
+{"id":"vi.s0199","vi":"Cho tôi xuống đây.","rom":"chaw dtohy soo-uhng/ day"}
+{"id":"vi.s0200","vi":"Bây giờ là mấy giờ?","rom":"bay zer_ lah_ may/ zer_"}
+{"id":"vi.s0201","vi":"Ba giờ rưỡi.","rom":"bah zer_ zuu-uhy~"}
+{"id":"vi.s0202","vi":"Tôi đi làm lúc tám giờ sáng.","rom":"dtohy dee lahm_ look/ dtahm/ zer_ sahng/"}
+{"id":"vi.s0203","vi":"bảy giờ tối","rom":"bai? zer_ dtohy/"}
+{"id":"vi.s0204","vi":"Hôm nay là thứ mấy?","rom":"hohm nai lah_ tuu/ may/"}
+{"id":"vi.s0205","vi":"Hôm nay là thứ bảy.","rom":"hohm nai lah_ tuu/ bai?"}
+{"id":"vi.s0206","vi":"ngày mười lăm tháng chín","rom":"ngai_ muu-uhy_ lam tahng/ cheen/"}
+{"id":"vi.s0207","vi":"Hôm nay là ngày bao nhiêu?","rom":"hohm nai lah_ ngai_ bahw nyee-uhw"}
+{"id":"vi.s0208","vi":"Vì trời mưa nên tôi ở nhà.","rom":"vee_ chuhy_ muu-uh neyn dtohy er? nyah_"}
+{"id":"vi.s0209","vi":"Trời mưa nên tôi ở nhà.","rom":"chuhy_ muu-uh neyn dtohy er? nyah_"}
+{"id":"vi.s0210","vi":"Tôi ở nhà vì trời mưa.","rom":"dtohy er? nyah_ vee_ chuhy_ muu-uh"}
+{"id":"vi.s0211","vi":"Tại sao chị không đi làm?","rom":"dtahy. sahw chee. khohng dee lahm_"}
+{"id":"vi.s0212","vi":"Vì tôi bị ốm.","rom":"vee_ dtohy bee. ohm/"}
+{"id":"vi.s0213","vi":"Tôi bị đau đầu.","rom":"dtohy bee. dow duhw_"}
+{"id":"vi.s0214","vi":"Vì tôi bị sốt nên tôi cần gặp bác sĩ.","rom":"vee_ dtohy bee. soht/ neyn dtohy kuhn_ gap. bahk/ see~"}
+{"id":"vi.s0215","vi":"Cho em một ly cà phê ạ.","rom":"chaw ehm moht. lee kah_ fey ah."}
+{"id":"vi.s0216","vi":"Cho em xin một cốc nước ạ.","rom":"chaw ehm seen moht. kohk/ nuu-uhk/ ah."}
+{"id":"vi.s0217","vi":"Chị ơi, cho em hỏi.","rom":"chee. uhy chaw ehm hawy?"}
+{"id":"vi.s0218","vi":"Mời anh ngồi.","rom":"muhy_ aing ngohy_"}
+{"id":"vi.s0219","vi":"Làm ơn cho tôi hỏi.","rom":"lahm_ ern chaw dtohy hawy?"}
+{"id":"vi.s0220","vi":"Chị đợi em một chút nhé.","rom":"chee. duhy. ehm moht. choot/ nyeh/"}
+{"id":"vi.s0221","vi":"Dạ, vâng ạ.","rom":"zah. vuhng ah."}

@@ -9,3 +9,7 @@
 {"id":"zh.h.morning","text":"chào buổi sáng"}
 {"id":"zh.h.afternoon","text":"chào buổi chiều"}
 {"id":"zh.h.evening","text":"chào buổi tối"}
+{"id":"zh.ld.pinyin-syllables","text":"Âm tiết pinyin"}
+{"id":"zh.ld.two-syllable-words","text":"Từ hai âm tiết"}
+{"id":"zh.ld.radicals","text":"Bộ thủ"}
+{"id":"zh.ld.characters-from-parts","text":"Chữ ghép từ các bộ phận"}

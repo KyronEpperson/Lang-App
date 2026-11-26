@@ -161,10 +161,16 @@ c.LESSONS.forEach(l => {
 });
 
 /* ---------- checks & practice: options and hints split with the shared classifier (lib.js TARGETS[t].isValue / splitLead) ---------- */
+/* "by marks" targets (lib.js TARGETS[t].by, docs/briefs/x-vi-design.md): Latin script gives no per-option signal, so an mc / check item is decided ONCE,
+   from its key answer (check: the option at a; mc: o[0], the correct one in tools/target packs): all its options are target-side or all are prose, never
+   split. Items whose distractors look different from their key are listed for review (optReview). Hints are never split (a hint is a mixed native field). */
+const BYMARKS = TC.by === 'marks', optReview = [];
+const itemIsT = (opts, key, id) => { const k = TC.isValue(opts[key]); const odd = opts.filter((o, j) => j !== key && TC.isValue(o) !== k); if (odd.length) optReview.push(id + ' (' + (k ? 'target' : 'prose') + ' by its key «' + opts[key] + '»; ' + odd.map(o => '«' + o + '»').join(' ') + ' would classify the other way)'); return k; };
 const isT = TC.isValue;
 const tChk = [], nChk = [];
 Object.entries(c.CHECKS).forEach(([lid, list]) => list.forEach((ch, i) => {
   const id = lid + '.k' + (i + 1); if (ch.length !== 4) throw new Error('check shape ' + id);
+  if (BYMARKS) { const it = itemIsT(ch[1], ch[2], id); tChk.push({ id, lesson: lid, o: ch[1].map(o => it ? o : null), a: ch[2] }); const n = { id, q: ch[0] }; if (!it) n.o = ch[1].slice(); n.why = ch[3]; nChk.push(n); return; }
   tChk.push({ id, lesson: lid, o: ch[1].map(o => isT(o) ? o : null), a: ch[2] });
   const n = { id, q: ch[0] }; if (ch[1].some(o => !isT(o))) n.o = ch[1].map(o => isT(o) ? null : o); n.why = ch[3]; nChk.push(n);
 }));
@@ -174,9 +180,11 @@ Object.entries(c.PRACTICE).forEach(([lid, list]) => list.forEach((it, i) => {
   const id = lid + '.' + pad(i + 1, 2), t = { id, lesson: lid, t: it.t }, n = { id };
   if (it.t === 'fill') t.q = it.q; else if (it.q != null) n.q = it.q;
   if (it.p != null) n.p = it.p;
-  if (it.o) { if (it.t === 'mc') { t.o = it.o.map(o => isT(o) ? o : null); if (it.o.some(o => !isT(o))) n.o = it.o.map(o => isT(o) ? null : o); } else t.o = it.o; }
+  if (it.o) { if (it.t === 'mc' && BYMARKS) { const ti = itemIsT(it.o, 0, id); t.o = it.o.map(o => ti ? o : null); if (!ti) n.o = it.o.slice(); }
+    else if (it.t === 'mc') { t.o = it.o.map(o => isT(o) ? o : null); if (it.o.some(o => !isT(o))) n.o = it.o.map(o => isT(o) ? null : o); } else t.o = it.o; }
   if (it.a) t.a = it.a; if (it.x) t.x = it.x; if (it.alt) t.alt = it.alt;
-  if (it.hint != null) { const s = L.splitLead(TG, it.hint); if (s && !s.note) t.hint = { [K]: s.lead }; else if (s) { t.hint = { [K]: s.lead, sep: s.sep }; n.hint = s.note; } else n.hint = it.hint; }
+  if (it.hint != null && BYMARKS) n.hint = it.hint;
+  else if (it.hint != null) { const s = L.splitLead(TG, it.hint); if (s && !s.note) t.hint = { [K]: s.lead }; else if (s) { t.hint = { [K]: s.lead, sep: s.sep }; n.hint = s.note; } else n.hint = it.hint; }
   if (it.why != null) n.why = it.why;
   if (it.strict != null) { if (it.strict !== true) throw new Error('practice strict must be true (' + id + ')'); t.strict = true; } /* typed answer must match exactly (no "almost") */
   if (it.xr) t.xr = it.xr;                                                                                                       /* romanised wrong options (gen.js pronAnswers) */
@@ -210,6 +218,23 @@ const tCourse = { target: TG, ttsLang: c.ttsLang, self: c.name[TG], pack, featur
   exportedFrom: { file: fromSources ? 'tools/target/' + TG + '/ (tools/target/gen.js ' + TG + ')' : path.relative(L.ROOT, packFile), sha256_16: srcHash } };
 const nCourse = { native: 'en', name: c.name.en, brand: c.brand };
 
+/* ---------- marks (by-marks targets only): the target spans inside every mixed native field of the English half → target/<t>/marks.jsonl ----------
+   One row per native field that holds at least one span: {f, id, k, spans}; k "o[2]" = option slot 2; f "body" = the lesson body (id = lesson id).
+   "own" = the row's own target-side text (lib.js viMarks). Target-looking words outside every span (a Vietnamese diacritic, no mark) are REPORTED in
+   native/en/<t>/unmarked.tsv, never guessed into a span: fix the source (mark them) and re-export. */
+const marks = [], unmarkedRows = [];
+if (BYMARKS) {
+  const own = { cards: new Map(tCards.map(r => [r.id, [r[K]]])), patterns: new Map(tPat.map(r => [r.id, [r[K], r.ex]])), checks: new Map(tChk.map(r => [r.id, r.o.filter(x => x != null)])),
+    practice: new Map(tPr.map(r => [r.id, [].concat(r.a || [], (r.o || []).filter(x => x != null), r.x || [], r.t === 'fill' && r.q != null ? [r.q] : [])])), lessoncards: new Map(), labels: new Map(greet.map(g => [g.id, [g[K]]])) };
+  tLessons.forEach(l => { const walk = s => { if (Array.isArray(s)) s.forEach(walk); else if (s && s.cards) s.cards.forEach(cd => own.lessoncards.set(cd.id, [cd[K]])); }; walk(l.sections || []); });
+  const scan = (f, rows) => rows.forEach(r => Object.keys(r).forEach(k => { if (k === 'id') return; const vals = Array.isArray(r[k]) ? r[k] : [r[k]];
+    vals.forEach((v, j) => { if (v == null || typeof v !== 'string') return; const kk = Array.isArray(r[k]) ? k + '[' + j + ']' : k; const m = TC.marks('text', v, (own[f] && own[f].get(r.id)) || []);
+      if (m.spans.length) marks.push({ f, id: r.id, k: kk, spans: m.spans }); if (m.unmarked.length) unmarkedRows.push([f, r.id, kk, [...new Set(m.unmarked)].join(' '), v]); }); }));
+  scan('decks', nDecks); scan('groups', nGroups); scan('cards', nCards); scan('dialog', nDlg); scan('examples', nEx); scan('patterns', nPat); scan('sentences', nSen); scan('lessons', nLessons);
+  Object.entries(lessonFiles).forEach(([id, h]) => { const m = TC.marks('html', h, []); if (m.spans.length) marks.push({ f: 'body', id, k: 'body', spans: m.spans }); if (m.unmarked.length) unmarkedRows.push(['body', id, 'body', [...new Set(m.unmarked)].join(' '), '']); });
+  scan('checks', nChk); scan('practice', nPr); scan('labels', labels); scan('lessoncards', nLc);
+}
+
 /* ---------- guard: positional check / practice ids (HALVES-SPEC §2) ---------- */
 const moved = [];
 [['checks.jsonl', tChk], ['practice.jsonl', tPr]].forEach(([f, rows]) => { const old = L.byId(L.readJSONL(path.join(T, f))); if (!old.size) return; rows.forEach(r => { const o = old.get(r.id); if (o && JSON.stringify(o) !== JSON.stringify(r)) moved.push(f.replace('.jsonl', '') + ':' + r.id); }); old.forEach((o, id) => { if (!rows.some(r => r.id === id)) moved.push(f.replace('.jsonl', '') + ':' + id + ' (gone)'); }); });
@@ -226,5 +251,15 @@ W(N, 'decks', nDecks); W(N, 'groups', nGroups); W(N, 'cards', nCards); W(N, 'dia
 if (nLc.length || fs.existsSync(path.join(N, 'lessoncards.jsonl'))) W(N, 'lessoncards', nLc);
 Object.entries(lessonFiles).forEach(([id, h]) => { fs.mkdirSync(path.join(N, 'lessons'), { recursive: true }); fs.writeFileSync(path.join(N, 'lessons', id + '.html'), h); });
 if (!fs.existsSync(path.join(N, 'ui.json'))) L.writeJSON(path.join(N, 'ui.json'), {});
+if (BYMARKS) {
+  W(T, 'marks', marks);
+  const tsv = x => String(x).replace(/[\t\n]/g, ' ');
+  fs.writeFileSync(path.join(N, 'unmarked.tsv'), '# ' + TC.name + ' words with a diacritic outside every mark (export_target.js ' + TG + '; not protected by validate.js until the source marks them). Columns: file, id, field, words, text\n' +
+    unmarkedRows.map(r => r.map(tsv).join('\t')).join('\n') + (unmarkedRows.length ? '\n' : '') + optReview.map(x => '# option classes to review: ' + tsv(x)).join('\n') + (optReview.length ? '\n' : ''));
+}
 const optCount = rows => rows.reduce((a, r) => { (r.o || []).forEach(o => { a[o == null ? 'prose' : 'target']++; }); return a; }, { target: 0, prose: 0 });
+if (BYMARKS) { const by = {}; unmarkedRows.forEach(r => { const k = r[0] === 'body' ? 'body' : r[0] + '.' + r[2].replace(/\[\d+\]$/, ''); by[k] = (by[k] || 0) + 1; });
+  console.log('marks: ' + marks.length + ' native fields hold ' + marks.reduce((a, r) => a + r.spans.length, 0) + ' target spans (target/' + TG + '/marks.jsonl)');
+  console.log('unmarked: ' + unmarkedRows.length + ' native fields hold ' + unmarkedRows.reduce((a, r) => a + r[3].split(' ').length, 0) + ' distinct-per-field target-looking words outside any mark (native/en/' + TG + '/unmarked.tsv): ' + Object.entries(by).map(([k, v]) => k + ' ' + v).join(', '));
+  if (optReview.length) console.log('option classes to review (' + optReview.length + '): ' + optReview.join(' | ')); }
 console.log(JSON.stringify({ target: TG, source: tCourse.exportedFrom.file, sha256_16: srcHash, decks: tDecks.length, cards: tCards.length, notes: nCards.filter(x => x.note).length, groups: groups.length, dialog: tDlg.length, examples: tEx.length, patterns: tPat.length, lessons: tLessons.length, exampleRows: exRows, sentences: tSen.length, checks: tChk.length, practice: tPr.length, labels: labels.length, lessonDecks: ldSeen.size, lessonCards: ldCards, tileSets, tileHints, checkOptions: optCount(tChk), mcOptions: optCount(tPr.filter(p => p.t === 'mc')), hints: { target: tPr.filter(p => p.hint && !nPr.find(n => n.id === p.id).hint).length, split: tPr.filter(p => p.hint && p.hint.sep).length, native: nPr.filter(n => n.hint && !tPr.find(p => p.id === n.id).hint).length }, uiKeys: uiKeys.length, out: path.relative(L.ROOT, DIR) }));

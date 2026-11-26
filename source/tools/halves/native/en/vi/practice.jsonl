@@ -1,0 +1,392 @@
+{"id":"alphabet.01","q":"In Hanoi, which word starts with a z sound?","why":"In Hanoi, r sounds like z: rau (vegetables)."}
+{"id":"alphabet.02","q":"Which word starts with an s sound?","why":"x is always an s sound: xe."}
+{"id":"alphabet.03","q":"How do you say the nh in nhà (house)?","o":["ny, as in canyon","n, then an h as in hat","ng, as in sing","n alone, with the h silent"],"why":"nh is one sound, ny as in canyon."}
+{"id":"alphabet.04","q":"Which pronunciation line goes with phở?","why":"ph is f, and ơ is er with no r sound."}
+{"id":"alphabet.05","q":"Which word starts with a t that has a puff of air?","why":"th is t with a puff of air; plain t has no puff."}
+{"id":"alphabet.06","p":"I go out (for fun)","why":"đ is the crossed d: đi means to go."}
+{"id":"alphabet.07","p":"I eat rice","why":"ă and ơ carry vowel marks: ăn cơm, not an com."}
+{"id":"alphabet.08","p":"I ride a motorbike (xe)","why":"The s sound is always spelled x: xe."}
+{"id":"alphabet.09","p":"I go out (for fun).","why":"To go is đi, with the crossed d; plain d would sound like z."}
+{"id":"alphabet.10","p":"I eat rice.","why":"Rice is cơm: ơ, the er sound with no r."}
+{"id":"alphabet.11","p":"house; home","why":"The ny sound is spelled nh: nhà."}
+{"id":"alphabet.12","p":"go out (for fun)","hint":"đi · chơi · đ is the crossed d","why":"đ is the crossed d: đi, not di."}
+{"id":"alphabet.13","p":"I eat","hint":"tôi · ăn","why":"ă has a vowel mark: ăn, not an."}
+{"id":"alphabet.14","p":"I ride a motorbike","hint":"tôi · đi · xe (motorbike)","why":"The s sound is spelled x in Vietnamese: xe."}
+{"id":"tones.01","q":"Which word means table?","why":"bàn has the falling tone; bán is to sell and bạn is a friend."}
+{"id":"tones.02","q":"Which mark shows the falling tone?","why":"The falling tone mark slopes down from left to right: à."}
+{"id":"tones.03","q":"A syllable with no tone mark has…","o":["the level tone","the rising tone","the heavy tone","no tone at all"],"why":"No mark means the level tone: flat, in the middle of your voice."}
+{"id":"tones.04","q":"The pronunciation line for bạn is bahn. What does the final dot stand for?","o":["the heavy tone","the end of the sentence","a short pause","the falling tone"],"why":"The symbol at the end of a chunk names the tone; the dot is the heavy tone."}
+{"id":"tones.05","q":"Which tone rises with a catch in the middle?","o":["broken (ngã)","dipping (hỏi)","falling (huyền)","level (ngang)"],"why":"The broken tone rises and breaks in the middle; its mark is the squiggle ã."}
+{"id":"tones.06","p":"Mom sells tables","why":"bán has the rising tone; bàn (falling tone) is a table."}
+{"id":"tones.07","p":"My friend sells fish","why":"cá (fish) needs its rising tone; ca with no tone mark is a different word."}
+{"id":"tones.08","p":"My friend sells tables","why":"tôi (I, me) has no tone mark; tối (rising tone) means evening."}
+{"id":"tones.09","p":"Mom sells fish.","why":"To sell is bán, with the rising tone."}
+{"id":"tones.10","p":"My friend sells tables.","why":"A table is bàn, with the falling tone."}
+{"id":"tones.11","p":"How are you? (to a man a little older)","why":"không keeps its level tone, even at the end of a question."}
+{"id":"tones.12","p":"Mom sells fish","hint":"mẹ (mom) · bán · cá","why":"bán and cá both have the rising tone; bàn is a table."}
+{"id":"tones.13","p":"my friend","hint":"bạn · tôi · the owner comes after","why":"bạn has the heavy tone: bàn (falling tone) is a table."}
+{"id":"tones.14","p":"How are you? (to a man a little older)","hint":"anh · khỏe · không","why":"khỏe has the dipping tone: khoe, with no tone mark, means to show off."}
+{"id":"syllables.01","q":"Which spelling is correct for ice cream?","why":"Before e, ê and i, the k sound is written k: kem."}
+{"id":"syllables.02","q":"Which spelling is correct for to listen?","why":"Before e, ê and i, ng is written ngh: nghe."}
+{"id":"syllables.03","q":"Which pronunciation line goes with bánh?","why":"In Hanoi -anh sounds like aing, and the rising tone is written /."}
+{"id":"syllables.04","q":"Which ending can carry only the rising or the heavy tone?","o":["-t, as in một","-n, as in ăn","-m, as in cơm","-ng, as in không"],"why":"p, t, c and ch are stop endings: only rising or heavy."}
+{"id":"syllables.05","q":"Which word starts with the sound in the middle of singer?","why":"ngủ starts with ng; nh is the ny sound."}
+{"id":"syllables.06","p":"I eat bread","why":"bánh needs its rising tone mark; banh with no mark is a different word."}
+{"id":"syllables.07","p":"I'm learning Vietnamese","why":"học has the heavy tone; hóc (rising tone) means to choke on a bone."}
+{"id":"syllables.08","p":"Mom listens","why":"Before e, the ng sound is spelled ngh: nghe."}
+{"id":"syllables.09","p":"chair","why":"Before ê, the g sound is written gh: ghế."}
+{"id":"syllables.10","p":"I study.","why":"học ends in c, a stop ending, so only rising or heavy is possible; here it is heavy."}
+{"id":"syllables.11","p":"I eat bread.","why":"Bread is bánh mì, with the falling tone on mì."}
+{"id":"syllables.12","p":"eight cats","hint":"tám (eight) · con · mèo (cat)","why":"Eight is tám, with the rising tone; tàm (falling tone) is wrong."}
+{"id":"syllables.13","p":"bread","hint":"bánh · mì","why":"bánh has the rising tone and mì the falling tone."}
+{"id":"syllables.14","p":"I sleep","hint":"tôi · ngủ · it starts with ng","why":"ngủ starts with ng, the sound in the middle of singer."}
+{"id":"vowels.01","q":"Which word means rice (cooked)?","why":"Rice is cơm, with the vowel mark on ơ."}
+{"id":"vowels.02","q":"Which word means hand?","why":"ay is a short ah: tay is a hand; tai, with a long ah, is an ear."}
+{"id":"vowels.03","q":"Which vowel do you make by saying oo with smiling lips?","why":"ư is oo said with spread lips."}
+{"id":"vowels.04","q":"Which word has a vowel pair that glides into uh?","why":"uô is a vowel pair: muốn."}
+{"id":"vowels.05","q":"In hoa (flower), the o sounds like…","o":["a quick w","the o of law","the oh of go","a separate syllable"],"why":"Before another vowel, o is a glide: hoa sounds like hwah."}
+{"id":"vowels.06","p":"I drink milk","why":"ư carries a vowel mark and sữa has the broken tone: sua is not milk."}
+{"id":"vowels.07","p":"rice with chicken","why":"ơ carries a vowel mark: cơm, not com."}
+{"id":"vowels.08","p":"I want to eat","why":"Eat is ăn, with the short ă."}
+{"id":"vowels.09","p":"I drink milk.","why":"Milk is sữa: ư with the broken tone."}
+{"id":"vowels.10","p":"I eat rice with chicken.","why":"Rice is cơm, with ơ."}
+{"id":"vowels.11","p":"I want to eat.","why":"Want is muốn, with the vowel pair uô."}
+{"id":"vowels.12","p":"I drink milk","hint":"tôi · uống (drink) · sữa","why":"sữa has the broken tone; sửa (dipping tone) means to fix."}
+{"id":"vowels.13","p":"rice with chicken","hint":"cơm · gà (chicken)","why":"ơ carries a vowel mark: cơm, not com."}
+{"id":"vowels.14","p":"I want to eat rice","hint":"tôi · muốn · ăn · cơm","why":"Want is muốn, with the vowel pair uô."}
+{"id":"pronouns.01","q":"Hello, to a woman a little older than you:","why":"A woman a little older than you is chị."}
+{"id":"pronouns.02","q":"Calling a young male waiter, younger than you:","why":"em is anyone younger than you; Anh ơi is for a man older than you."}
+{"id":"pronouns.03","q":"Your coworker Minh, a little older than you, asks: Em khỏe không? Who is em?","o":["you","Minh himself","Minh's younger sister","nobody: it means hello"],"why":"Minh is older, so he calls you em: em means you here."}
+{"id":"pronouns.04","q":"Sorry. / Excuse me. =","why":"Xin lỗi means sorry or excuse me."}
+{"id":"pronouns.05","q":"Which word, at the end of a sentence, shows respect to someone older?","why":"ạ is the polite ending for someone older."}
+{"id":"pronouns.06","p":"Hello (to a woman a little older)","why":"chị has the heavy tone: chi with no tone mark is a different word."}
+{"id":"pronouns.07","p":"Thank you (to a man a little older)","why":"ơn carries a vowel mark: cảm ơn, not cảm on."}
+{"id":"pronouns.08","p":"Excuse me! (calling a waiter younger than you)","why":"em is anyone younger than you; anh is for a man older than you."}
+{"id":"pronouns.09","p":"Hello. (to a man a little older)","why":"A man a little older than you is anh."}
+{"id":"pronouns.10","p":"Thank you. (to a woman a little older)","why":"Thank you is cảm ơn: ơ with no tone mark."}
+{"id":"pronouns.11","p":"Hello. (politely, to a woman a little older)","why":"Speaking to chị, you call yourself em."}
+{"id":"pronouns.12","p":"Thank you (to a man a little older)","hint":"cảm ơn · anh","why":"ơn carries a vowel mark: cảm ơn, not cảm on."}
+{"id":"pronouns.13","p":"Hello (to a woman a little older)","hint":"chào · chị","why":"chị has the heavy tone: chi is a different word."}
+{"id":"pronouns.14","p":"How are you? (to someone younger)","hint":"em · khỏe · không","why":"To anyone younger than you, you is em."}
+{"id":"la.01","q":"I'm a teacher. =","why":"A là B: Tôi là giáo viên."}
+{"id":"la.02","q":"I'm not a doctor. =","why":"The negative of là is không phải là."}
+{"id":"la.03","q":"I'm tired. =","why":"No là before a word like tired."}
+{"id":"la.04","q":"She (a woman a little older than you) =","why":"Add ấy after the family word: chị ấy. nó is never used for an adult."}
+{"id":"la.05","q":"We (not including the person you are talking to) =","why":"chúng tôi leaves out the listener; chúng ta includes them."}
+{"id":"la.06","p":"I'm a college student","why":"là has the falling tone mark: la is a different word."}
+{"id":"la.07","p":"He's not a doctor","why":"phải has the dipping tone; phái (rising tone) is a different word."}
+{"id":"la.08","p":"We're teachers (not including you)","why":"chúng tôi is we without the listener; chúng ta includes them."}
+{"id":"la.09","p":"I'm a college student.","why":"là, with the falling tone, joins two nouns."}
+{"id":"la.10","p":"I'm not a doctor.","why":"The negative of là is không phải là."}
+{"id":"la.11","p":"He's a doctor.","why":"He is anh ấy; nó is for animals and small children."}
+{"id":"la.12","p":"I'm a college student","hint":"tôi · là · sinh viên (college student)","why":"là has the falling tone mark: la is a different word."}
+{"id":"la.13","p":"I'm not a teacher","hint":"không phải là · giáo viên (teacher)","why":"phải has the dipping tone: phái is a different word."}
+{"id":"la.14","p":"She's a doctor (a woman a little older than you)","hint":"chị ấy · là · bác sĩ (doctor)","why":"For she, say chị ấy (or cô ấy); nó is never used for an adult."}
+{"id":"yes-no.01","q":"Do you drink coffee? (to a man a little older) =","why":"có before the verb, không at the very end."}
+{"id":"yes-no.02","q":"Someone asks: Em có bận không? You are busy. You answer…","why":"Answer có … không with có for yes."}
+{"id":"yes-no.03","q":"Someone asks: Bạn là sinh viên phải không? You are not. You answer…","why":"phải không? is answered with không phải for no."}
+{"id":"yes-no.04","q":"A polite yes, northern style, to someone older:","why":"Vâng is the polite northern yes."}
+{"id":"yes-no.05","q":"In a Vietnamese question, the end of the sentence…","o":["keeps each word's own tone","rises, as in English","always falls","drops to a whisper"],"why":"The question words do the asking; every syllable keeps its tone."}
+{"id":"yes-no.06","p":"Are you busy? (to a woman a little older)","why":"bận has the vowel mark â; bạn (with a) is a friend."}
+{"id":"yes-no.07","p":"Do you drink coffee? (to a man a little older)","why":"cà has the falling tone mark: ca is a different word."}
+{"id":"yes-no.08","p":"You're a teacher, right? (to a friend)","why":"Add phải không, with the dipping tone, at the end of a là sentence to check it."}
+{"id":"yes-no.09","p":"Are you busy? (to a woman a little older)","why":"có … không: không closes the question."}
+{"id":"yes-no.10","p":"You're American, right? (to a man a little older)","why":"A là sentence is checked with phải không."}
+{"id":"yes-no.11","p":"Do you drink coffee? No, I don't.","why":"Say không for no to a có … không question."}
+{"id":"yes-no.12","p":"Are you busy? (to a woman a little older)","hint":"bận (busy) · có … không","why":"bận has the vowel mark â; bạn is a friend."}
+{"id":"yes-no.13","p":"Do you like pho? (to someone younger)","hint":"thích (like) · phở · có … không","why":"phở has the dipping tone; pho, with no tone mark, is not the soup."}
+{"id":"yes-no.14","p":"You're a student, right? (to a friend)","hint":"là · sinh viên · phải không","why":"Check a là sentence with phải không at the end."}
+{"id":"jobs.01","q":"I'm American. =","why":"người (person) first, then the country."}
+{"id":"jobs.02","q":"the English language =","why":"tiếng + country is the language."}
+{"id":"jobs.03","q":"She's Vietnamese. (a woman a little older) =","why":"người + country is the nationality."}
+{"id":"jobs.04","q":"Someone asks: Anh làm nghề gì? They want to know…","o":["your job","your country","your name","your age"],"why":"làm nghề gì? asks what work you do."}
+{"id":"jobs.05","q":"We're students. (not including the listener) =","why":"chúng tôi is we without the listener, and là joins the two nouns."}
+{"id":"jobs.06","p":"I'm American","why":"The noun comes first: người (person), then the country."}
+{"id":"jobs.07","p":"She speaks English (a woman a little older)","why":"The noun comes first: tiếng (language), then the country."}
+{"id":"jobs.08","p":"What do you do? (to a man a little older)","why":"làm nghề gì? asks what work someone does."}
+{"id":"jobs.09","p":"I'm American.","why":"A nationality is người + country."}
+{"id":"jobs.10","p":"I'm learning Vietnamese.","why":"A language is tiếng + country."}
+{"id":"jobs.11","p":"What do you do? (to a man a little older)","why":"làm nghề gì? means what work do you do?"}
+{"id":"jobs.12","p":"I'm American","hint":"người (person) · Mỹ (America)","why":"The noun comes first: người, then the country: người Mỹ."}
+{"id":"jobs.13","p":"I speak English","hint":"nói (speak) · tiếng · Anh","why":"The noun comes first: tiếng (language), then the country: tiếng Anh."}
+{"id":"jobs.14","p":"What do you do? (to a woman a little older)","hint":"làm (do) · nghề (trade) · gì (what)","why":"làm nghề gì? asks about work; gì stays at the end."}
+{"id":"this-that.01","q":"this table =","why":"này goes after the noun."}
+{"id":"this-that.02","q":"This is my friend. =","why":"To introduce, start with Đây là."}
+{"id":"this-that.03","q":"that cat over there =","why":"kia means over there, and animals take con."}
+{"id":"this-that.04","q":"The book in your hand: this book =","why":"Books take quyển, and này means this."}
+{"id":"this-that.05","q":"You point at a shirt in a shop: I like this one. =","why":"With no noun, keep the classifier: cái này."}
+{"id":"this-that.06","p":"this table","why":"này goes after the noun: cái bàn này. Đây only starts a sentence."}
+{"id":"this-that.07","p":"that book over there","why":"Books take the classifier quyển, and kia goes after the noun."}
+{"id":"this-that.08","p":"This is my house","why":"Đây là starts the sentence; này only follows a noun."}
+{"id":"this-that.09","p":"I like this shirt.","why":"this after a noun is này."}
+{"id":"this-that.10","p":"This is my friend Minh.","why":"This is, at the start of a sentence, is Đây là."}
+{"id":"this-that.11","p":"this cat","why":"Animals take con: con mèo này."}
+{"id":"this-that.12","p":"this table","hint":"cái · bàn · này","why":"này goes after the noun: cái bàn này."}
+{"id":"this-that.13","p":"that shirt over there","hint":"cái · áo (shirt) · kia","why":"Things like shirts take the classifier cái, and kia goes after the noun."}
+{"id":"this-that.14","p":"This is my house","hint":"đây là · nhà · tôi","why":"Đây là introduces; then nhà tôi, with the owner after the noun."}
+{"id":"adjectives.01","q":"The pho is good. =","why":"No là before an adjective."}
+{"id":"adjectives.02","q":"a pretty shirt =","why":"The describing word goes after áo."}
+{"id":"adjectives.03","q":"Where does lắm go?","o":["after the adjective: ngon lắm","before the adjective: lắm ngon","before the noun: lắm phở","at the start of the sentence"],"why":"lắm comes after the adjective."}
+{"id":"adjectives.04","q":"The shirt isn't pretty. =","why":"For an adjective, just không."}
+{"id":"adjectives.05","q":"Ngon quá! means…","o":["So delicious!","Too expensive!","Not tasty.","Is it tasty?"],"why":"quá after an adjective is an exclamation: so…!"}
+{"id":"adjectives.06","p":"a red shirt","why":"The color goes after the noun: áo đỏ. đó means that."}
+{"id":"adjectives.07","p":"This shirt is very pretty","why":"The noun comes first, then này and rất đẹp, with no là before the adjective."}
+{"id":"adjectives.08","p":"The pho is really good (use lắm)","why":"lắm goes after the adjective: ngon lắm."}
+{"id":"adjectives.09","p":"The pho is very good.","why":"rất goes before the adjective."}
+{"id":"adjectives.10","p":"So delicious!","why":"quá (or lắm) goes after the adjective."}
+{"id":"adjectives.11","p":"I'm not tired.","why":"Not with an adjective is just không."}
+{"id":"adjectives.12","p":"a red shirt","hint":"áo · đỏ (red)","why":"The color goes after the noun: áo đỏ."}
+{"id":"adjectives.13","p":"This shirt is very pretty (use rất)","hint":"cái áo này · rất · đẹp","why":"The noun comes first: cái áo này, then rất đẹp, with no là."}
+{"id":"adjectives.14","p":"I'm not tired (to a woman a little older)","hint":"không · mệt (tired)","why":"No là before an adjective: just không mệt."}
+{"id":"who-what.01","q":"'Who is he?' =","why":"ai stays where the answer goes: Anh ấy là anh Minh → Anh ấy là ai?"}
+{"id":"who-what.02","q":"'What do you want?' (to a friend) =","why":"gì takes the place of the thing you want, after muốn."}
+{"id":"who-what.03","q":"'Who is the teacher?' =","why":"The answer (Chị Lan là giáo viên) starts the sentence, so ai starts it too."}
+{"id":"who-what.04","q":"'What is this?' =","why":"cái gì means 'what thing': it goes after là, where the answer goes."}
+{"id":"who-what.05","q":"Which one asks for a name? (to a friend)","why":"A name is asked with gì, not ai: Bạn tên là gì?"}
+{"id":"who-what.06","p":"What do you want? (to a friend)","why":"bạn has the heavy tone: bàn (falling tone) is a table."}
+{"id":"who-what.07","p":"Who sells red shirts?","why":"The color goes after the noun: áo đỏ. con is the classifier for animals, not shirts."}
+{"id":"who-what.08","p":"What does she want to eat? (a woman a little older than you)","why":"gì goes last, where the food would go; ai is for people."}
+{"id":"who-what.09","p":"Who is he?","why":"Asking about a person: ai."}
+{"id":"who-what.10","p":"What do you want to eat? (to a woman a little older)","why":"gì goes after ăn, where the food would go."}
+{"id":"who-what.11","p":"What's your name? (to a friend)","why":"gì has the falling tone mark; gi and gí are not this word."}
+{"id":"who-what.12","p":"Who is she? (a woman a little older than you)","hint":"chị ấy · là · ai · the question word goes last","why":"là has the falling tone mark, and ai goes where the answer goes."}
+{"id":"who-what.13","p":"Who wants the red shirt?","hint":"ai · muốn · cái áo · đỏ","why":"The color comes after the noun: cái áo đỏ."}
+{"id":"who-what.14","p":"What's your name? (to a man a little older)","hint":"anh · tên · là · gì","why":"Use anh for a man a little older, and gì for a name."}
+{"id":"numbers.01","q":"'twelve' =","why":"Ten, then two: mười hai. hai mươi is twenty."}
+{"id":"numbers.02","q":"'twenty-one' =","why":"After mươi, một becomes mốt."}
+{"id":"numbers.03","q":"'fifteen' =","why":"Five after ten is lăm: mười lăm."}
+{"id":"numbers.04","q":"'one hundred' =","why":"A hundred is một trăm."}
+{"id":"numbers.05","q":"You ask a six-year-old how old they are:","why":"mấy for a small number, at the end, with no là or có."}
+{"id":"numbers.06","p":"twenty-five","why":"Twenty is hai mươi with the level tone: no mark on mươi."}
+{"id":"numbers.07","p":"two cats","why":"Animals take the classifier con: hai con mèo."}
+{"id":"numbers.08","p":"I'm twenty-one.","why":"No là before an age, and one after mươi is mốt."}
+{"id":"numbers.09","p":"I'm thirty-five.","why":"Five after mươi is lăm."}
+{"id":"numbers.10","p":"How old are you? (to a friend)","why":"bao nhiêu has no mark on nhiêu; nhiều means many."}
+{"id":"numbers.11","p":"twenty-one","why":"In the tens, ten is mươi, with no mark."}
+{"id":"numbers.12","p":"thirty","hint":"ba · ten in the tens · no mark on it","why":"In the tens, mươi has the level tone: ba mươi."}
+{"id":"numbers.13","p":"three cats","hint":"ba · mèo (cat) · animals need a counting word","why":"Animals take the classifier con: ba con mèo."}
+{"id":"numbers.14","p":"How old are you? (to a man a little older)","hint":"bao nhiêu · tuổi · use anh","why":"Use anh for a man a little older; bao nhiêu asks for the number."}
+{"id":"classifiers.01","q":"'three cats' =","why":"Number, then con, then the animal."}
+{"id":"classifiers.02","q":"'a book' =","why":"Books take quyển, right before sách."}
+{"id":"classifiers.03","q":"'this motorbike' =","why":"chiếc in front, này at the end."}
+{"id":"classifiers.04","q":"'a pair of shoes' =","why":"A pair is đôi, before the noun."}
+{"id":"classifiers.05","q":"'I like dogs' (dogs in general) =","why":"A kind of thing in general needs no counting word: Tôi thích chó."}
+{"id":"classifiers.06","p":"four dogs","why":"Animals take the classifier con: bốn con chó."}
+{"id":"classifiers.07","p":"this book","why":"quyển is the classifier for books, and này goes after the noun."}
+{"id":"classifiers.08","p":"five friends","why":"People are counted with người, never con."}
+{"id":"classifiers.09","p":"these two cats","why":"Animals take con."}
+{"id":"classifiers.10","p":"three books","why":"Books take quyển."}
+{"id":"classifiers.11","p":"I like chicken (the meat).","why":"Meat is thịt gà, with no counting word; con gà is a live chicken."}
+{"id":"classifiers.12","p":"this table","hint":"bàn (table) · này · objects take cái","why":"cái is the classifier for most objects, and này goes after the noun."}
+{"id":"classifiers.13","p":"two red shirts","hint":"hai · áo · đỏ · objects take cái","why":"Number, classifier, noun, then the color after the noun."}
+{"id":"classifiers.14","p":"These two cats are so pretty!","hint":"hai con mèo này · đẹp · quá","why":"No là before an adjective like đẹp."}
+{"id":"co.01","q":"'I don't have a motorbike' =","why":"không goes right before có."}
+{"id":"co.02","q":"'There's wifi here' =","why":"there is = có, never là."}
+{"id":"co.03","q":"'Do you have pho?' (to a stall-holder, a man a little older)","why":"có … không asks 'do you have…?'; don't drop không."}
+{"id":"co.04","q":"'I'm twenty' =","why":"Ages take no có and no là."}
+{"id":"co.05","q":"Asked 'Chị có mèo không?', how do you say 'Yes, I do'?","why":"Answer a có … không question with có or không."}
+{"id":"co.06","p":"I have two cats.","why":"Animals take the classifier con: hai con mèo."}
+{"id":"co.07","p":"Do you have a red shirt? (to a woman a little older)","why":"màu đỏ comes after the noun: áo màu đỏ."}
+{"id":"co.08","p":"Is there a restroom here? (start with ở đây)","why":"there is = có, never là; không closes the question."}
+{"id":"co.09","p":"I don't have a motorbike.","why":"không goes before có."}
+{"id":"co.10","p":"Is there wifi here?","why":"there is = có."}
+{"id":"co.11","p":"I have two older brothers.","why":"có has the rising tone mark; cỏ means grass."}
+{"id":"co.12","p":"I have three books.","hint":"có · ba · sách · books take quyển","why":"quyển is the classifier for books: ba quyển sách."}
+{"id":"co.13","p":"Do you have iced tea? (to a man a little older)","hint":"có … không · trà đá","why":"trà has the falling tone mark; đá has the rising tone."}
+{"id":"co.14","p":"There isn't a restroom here. (start with ở đây)","hint":"ở đây · không có · nhà vệ sinh","why":"there isn't = không có, never là."}
+{"id":"cua.01","q":"'Minh's motorbike' =","why":"The thing first, then của and the owner."}
+{"id":"cua.02","q":"'my house', said the most natural way:","why":"Home and family usually drop của: nhà tôi."}
+{"id":"cua.03","q":"'Whose is this?' (pointing at a thing)","why":"ai goes where the owner would go, after của."}
+{"id":"cua.04","q":"'my friend' =","why":"The owner goes after the noun: bạn tôi."}
+{"id":"cua.05","q":"'This book is mine' =","why":"'Mine' is của tôi, after là."}
+{"id":"cua.06","p":"Lan's book","why":"Noun first, with its classifier quyển, then của and the owner."}
+{"id":"cua.07","p":"This red shirt is mine.","why":"The color goes after the noun, then này: cái áo đỏ này."}
+{"id":"cua.08","p":"Whose motorbike is this?","why":"whose = của ai; ai goes where the owner would go."}
+{"id":"cua.09","p":"This is Minh's house.","why":"của joins the thing and its owner."}
+{"id":"cua.10","p":"Whose book is this?","why":"Asking about the owner, a person: ai."}
+{"id":"cua.11","p":"My mother is a teacher.","why":"mẹ has the heavy tone mark; me and mè are other words."}
+{"id":"cua.12","p":"my friend's motorbike","hint":"xe máy · của · bạn tôi","why":"Noun first: xe máy, then của and the owner."}
+{"id":"cua.13","p":"Whose cat is this?","hint":"con mèo · này · của ai","why":"con is the classifier for animals, and này goes after the noun."}
+{"id":"cua.14","p":"My father is a doctor.","hint":"bố (father) · bác sĩ (doctor)","why":"bố has the rising tone mark: bò is a cow."}
+{"id":"family.01","q":"'older sister' =","why":"chị = older and female; gái = female."}
+{"id":"family.02","q":"'younger brother' =","why":"em = younger; trai = male."}
+{"id":"family.03","q":"You meet a man about your father's age. 'Hello' is:","why":"A man your parents' age is chú, and you are cháu."}
+{"id":"family.04","q":"'How are you?' to your grandmother:","why":"A grandmother is bà; the question needs không at the end."}
+{"id":"family.05","q":"'you all', to a group of friends:","why":"các in front makes 'you' plural: các bạn."}
+{"id":"family.06","p":"I have a younger sister.","why":"gái has the rising tone mark: gai is a thorn."}
+{"id":"family.07","p":"My older brother has two cats.","why":"Animals take the classifier con: hai con mèo."}
+{"id":"family.08","p":"Hello. (to an old man)","why":"To an old man you are cháu, and he is ông."}
+{"id":"family.09","p":"My younger brother is a student.","why":"trai = male: em trai."}
+{"id":"family.10","p":"Hello. (to an old woman)","why":"An old woman is bà."}
+{"id":"family.11","p":"I have two older brothers.","why":"anh has no tone mark; ánh means light."}
+{"id":"family.12","p":"my mother","hint":"mẹ · tôi · the owner goes last","why":"mẹ has the heavy tone: me is tamarind."}
+{"id":"family.13","p":"my grandmother's cat","hint":"con mèo · của · bà tôi","why":"con is the classifier for animals, and the owner comes after the noun."}
+{"id":"family.14","p":"Thank you. (to an old woman)","hint":"cảm ơn · bà · cháu","why":"An old woman is bà; you call yourself cháu."}
+{"id":"compare.01","q":"'colder' =","why":"hơn goes after the adjective."}
+{"id":"compare.02","q":"'the tastiest' =","why":"nhất goes after the adjective."}
+{"id":"compare.03","q":"'This shirt is more expensive than that one' =","why":"No là: adjective, hơn, then the other thing."}
+{"id":"compare.04","q":"'Hue isn't as big as Hanoi' =","why":"không before the adjective, bằng after it."}
+{"id":"compare.05","q":"'My older brother is as tall as my father' =","why":"as … as = adjective + bằng; hơn would mean taller."}
+{"id":"compare.06","p":"the best pho place","why":"The describing word comes after the noun: quán phở ngon nhất."}
+{"id":"compare.07","p":"This shirt is cheaper.","why":"The classifier cái, the noun, này, then the adjective and hơn."}
+{"id":"compare.08","p":"Hanoi is colder than Saigon.","why":"No là before an adjective: lạnh hơn."}
+{"id":"compare.09","p":"The pho here is the best.","why":"the most = nhất, after the adjective."}
+{"id":"compare.10","p":"I'm taller than him.","why":"more … than = hơn."}
+{"id":"compare.11","p":"My younger sister is as tall as me.","why":"bằng, with the curve on ă, means as … as."}
+{"id":"compare.12","p":"the cheapest shirt","hint":"áo · rẻ (cheap) · nhất","why":"The adjective stays after the noun: áo rẻ nhất."}
+{"id":"compare.13","p":"Saigon is hotter than Hanoi.","hint":"Sài Gòn · nóng (hot) · hơn · Hà Nội","why":"nóng has the rising tone mark."}
+{"id":"compare.14","p":"My mother is taller than my father.","hint":"mẹ tôi · cao (tall) · hơn · bố tôi","why":"No là before an adjective; hơn goes after it."}
+{"id":"verbs.01","q":"'I'm learning Vietnamese' (these days) =","why":"đang before the verb: in progress."}
+{"id":"verbs.02","q":"'I'll go to Hoi An' =","why":"sẽ goes right before the verb."}
+{"id":"verbs.03","q":"'I didn't go to work yesterday' =","why":"không goes right before the verb."}
+{"id":"verbs.04","q":"Which word means 'yesterday'?","why":"hôm qua = yesterday; ngày mai = tomorrow; bây giờ = now."}
+{"id":"verbs.05","q":"'Minh is eating right now' =","why":"Going on now: đang before the verb."}
+{"id":"verbs.06","p":"Yesterday I bought a red shirt. (start with yesterday)","why":"The color goes after the noun: áo đỏ."}
+{"id":"verbs.07","p":"I'm learning Vietnamese.","why":"học has the heavy tone mark: hóc is another word."}
+{"id":"verbs.08","p":"Tomorrow I won't go. (start with tomorrow)","why":"sẽ không = won't; không comes right before the verb."}
+{"id":"verbs.09","p":"I didn't go to the market yesterday.","why":"not = không, right before the verb."}
+{"id":"verbs.10","p":"I'm studying Vietnamese right now.","why":"đang, with a plain a, shows the action is going on."}
+{"id":"verbs.11","p":"Lan will go to Hue tomorrow.","why":"sẽ, with the tilde, shows it will happen."}
+{"id":"verbs.12","p":"Yesterday I bought two books.","hint":"hôm qua · mua (buy) · sách · books take quyển","why":"quyển is the classifier for books: hai quyển sách."}
+{"id":"verbs.13","p":"I'm eating rice.","hint":"đang · ăn · cơm","why":"cơm has a vowel mark: the hook on ơ."}
+{"id":"verbs.14","p":"Tomorrow I'll go to Hanoi.","hint":"ngày mai · sẽ · đi · no word for 'to'","why":"sẽ shows the future; with ngày mai it is optional."}
+{"id":"want-like.01","q":"'I want to drink coffee' =","why":"Two verbs side by side: muốn uống."}
+{"id":"want-like.02","q":"'I need two tickets' =","why":"cần + what you need."}
+{"id":"want-like.03","q":"'I don't want to go' =","why":"không before muốn, and no word for 'to'."}
+{"id":"want-like.04","q":"'Two bowls of pho, please' =","why":"Cho tôi + number + bát + phở; Tôi cho means 'I give'."}
+{"id":"want-like.05","q":"'Do you like Vietnamese coffee?' (to a friend)","why":"có … không around the verb, and Việt Nam after cà phê."}
+{"id":"want-like.06","p":"Two bowls of beef pho, please.","why":"bát works as the classifier, and bò comes after the noun: phở bò."}
+{"id":"want-like.07","p":"An iced tea, please. (to an older stall-holder)","why":"trà has the falling tone mark."}
+{"id":"want-like.08","p":"I want to eat a banh mi.","why":"No extra word for 'to': muốn ăn."}
+{"id":"want-like.09","p":"I want to eat pho.","why":"want = muốn, straight before the next verb."}
+{"id":"want-like.10","p":"She doesn't like beer.","why":"not = không, before thích."}
+{"id":"want-like.11","p":"Two bowls of beef pho, please.","why":"bát (rising tone) is a bowl; bạt is a tarp."}
+{"id":"want-like.12","p":"Two iced coffees, please.","hint":"cho tôi · cốc or ly · cà phê đá","why":"cốc or ly is the classifier before the noun: hai cốc cà phê đá."}
+{"id":"want-like.13","p":"I really like beef pho.","hint":"rất · thích · phở bò","why":"bò has the falling tone mark: phở bò."}
+{"id":"want-like.14","p":"What do you want to drink? (to someone younger)","hint":"muốn · uống · gì","why":"Use em for someone younger; gì goes where the drink would go."}
+{"id":"location.01","q":"I live in Hanoi =","why":"sống ở + place: no là anywhere."}
+{"id":"location.02","q":"Where is the restroom? =","why":"đâu stays at the end, where the answer goes."}
+{"id":"location.03","q":"Which word means under?","why":"dưới is under or below; trên is on or above."}
+{"id":"location.04","q":"Mẹ tôi ở trong nhà. Where is Mom?","o":["Inside the house","Outside the house","In front of the house","Behind the house"],"why":"trong means in or inside; outside is ngoài."}
+{"id":"location.05","q":"The hotel is next to the bank =","why":"Thing + ở + bên cạnh + place."}
+{"id":"location.06","p":"The cat is under the chair","why":"Animals take the classifier con: con mèo."}
+{"id":"location.07","p":"My house is in Hanoi","why":"Noun first, then the owner: nhà tôi, and nhà has the falling tone."}
+{"id":"location.08","p":"Where is the bank?","why":"đâu goes at the end, and ở needs no là."}
+{"id":"location.09","p":"I'm in Hanoi.","why":"ở means be at; là only joins two nouns."}
+{"id":"location.10","p":"The book is on the table.","why":"trên is on; dưới is under."}
+{"id":"location.11","p":"Where is the market?","why":"đâu (where) has the crossed d and no tone mark; đầu means head."}
+{"id":"location.12","p":"Where is the market?","hint":"chợ · ở đâu","why":"chợ has the heavy tone: chờ (falling tone) means wait."}
+{"id":"location.13","p":"This book is on the table","hint":"quyển sách · này · ở trên · bàn","why":"Books take the classifier quyển, and này comes after the noun."}
+{"id":"location.14","p":"Where do you live? (to a woman a little older)","hint":"sống · ở đâu","why":"Use chị for a woman a little older, and keep đâu at the end."}
+{"id":"biet.01","q":"I can swim (I learned how) =","why":"biết + verb means know how to: biết bơi."}
+{"id":"biet.02","q":"I don't know =","why":"không goes before biết."}
+{"id":"biet.03","q":"Ở đây chụp ảnh được không? means…","o":["Can I take photos here?","Do you like taking photos?","Where can I take photos?","Did you take photos here?"],"why":"verb + được không? asks whether something is allowed."}
+{"id":"biet.04","q":"Which sentence means I can't drive?","why":"không goes before biết: không biết lái xe."}
+{"id":"biet.05","q":"Chị có biết nói tiếng Anh không? A natural yes is…","why":"Answer có … không with có, then repeat the verb."}
+{"id":"biet.06","p":"I can speak Vietnamese","why":"Việt has the heavy tone; viết (rising tone) means write."}
+{"id":"biet.07","p":"My cat can swim","why":"Animals take the classifier con, and the owner comes after the noun."}
+{"id":"biet.08","p":"I don't know how to cook","why":"không goes before biết, and the skill comes after it."}
+{"id":"biet.09","p":"I can swim. (I learned how)","why":"A learned skill takes biết before the verb."}
+{"id":"biet.10","p":"Can I take photos here?","why":"được không? at the end asks whether it's allowed."}
+{"id":"biet.11","p":"I can't drive. (I never learned)","why":"biết, with the rising tone, means know how to; biệt is a different word."}
+{"id":"biet.12","p":"I can speak Vietnamese (use biết)","hint":"biết · nói · tiếng Việt","why":"Việt has the heavy tone: viết (rising tone) means write."}
+{"id":"biet.13","p":"I can't drive (I never learned)","hint":"không · biết · lái xe","why":"biết has the rising tone, and không goes before it."}
+{"id":"biet.14","p":"Can you speak English? (to a man a little older; use biết)","hint":"biết · nói · tiếng Anh · có … không","why":"Use anh for a man a little older, and wrap the question in có … không."}
+{"id":"chua.01","q":"Have you eaten yet? (to a man a little older) =","why":"chưa goes at the very end to ask yet?"}
+{"id":"chua.02","q":"Chị đi Huế chưa? You have never been there. You say…","why":"Not yet is chưa, never không."}
+{"id":"chua.03","q":"Tôi ăn rồi means…","o":["I've already eaten.","I haven't eaten yet.","I'm eating now.","I'll eat later."],"why":"rồi after the verb means already."}
+{"id":"chua.04","q":"Which word means not yet?","why":"chưa has the horn and no tone mark; chua means sour."}
+{"id":"chua.05","q":"Em làm bài tập về nhà chưa? means…","o":["Have you done your homework yet?","Do you like homework?","Where is your homework?","Are you doing homework now?"],"why":"… chưa? asks whether something has happened yet."}
+{"id":"chua.06","p":"I haven't eaten yet","why":"chưa has the vowel mark (the horn): chua means sour."}
+{"id":"chua.07","p":"I've already bought a red shirt","why":"The color goes after the noun: áo đỏ, with the dipping tone, not đó."}
+{"id":"chua.08","p":"Have you been to Hoi An? (to a woman a little older)","why":"chưa at the end asks yet? or ever?"}
+{"id":"chua.09","p":"Have you eaten yet? (to a man a little older)","why":"chưa at the end asks yet?"}
+{"id":"chua.10","p":"I haven't eaten yet.","why":"chưa (with the horn) means not yet; chua means sour."}
+{"id":"chua.11","p":"Yes, I've already eaten.","why":"rồi after the verb means already."}
+{"id":"chua.12","p":"I haven't eaten yet","hint":"chưa · ăn","why":"chưa has the vowel mark: chua means sour."}
+{"id":"chua.13","p":"I've already read this book","hint":"đọc (read) · quyển sách · này · rồi","why":"Books take the classifier quyển, and này comes after the noun."}
+{"id":"chua.14","p":"Have you eaten yet? (to an old woman)","hint":"ăn cơm · chưa","why":"Use bà for an old woman, and put chưa at the end."}
+{"id":"motion.01","q":"I'm going to Hue tomorrow =","why":"đi takes the place straight after it, with no word for to."}
+{"id":"motion.02","q":"Tôi về nhà means…","o":["I'm going home.","I'm leaving home.","I'm at home.","I'm building a house."],"why":"về is going back home."}
+{"id":"motion.03","q":"Which word means with (a person)?","why":"với is with a person; bằng is by a vehicle."}
+{"id":"motion.04","q":"I'm going to Hue by train =","why":"bằng + vehicle: bằng tàu."}
+{"id":"motion.05","q":"Chị Lan đến rồi means…","o":["Lan has arrived.","Lan is leaving.","Lan went home.","Lan hasn't come yet."],"why":"đến means arrive, and rồi means already."}
+{"id":"motion.06","p":"I'm going home","why":"về has the falling tone; vẽ (broken tone) means draw."}
+{"id":"motion.07","p":"This bus goes to Hoan Kiem Lake","why":"này comes after the noun: xe buýt này."}
+{"id":"motion.08","p":"I go to work by motorbike","why":"bằng + vehicle; với is for people."}
+{"id":"motion.09","p":"I'm going to Hue by train.","why":"bằng goes before the vehicle."}
+{"id":"motion.10","p":"I'm going home now.","why":"về, with the falling tone, is going home; vẽ means draw."}
+{"id":"motion.11","p":"He arrives in Hanoi tomorrow.","why":"đến or tới means arrive."}
+{"id":"motion.12","p":"I'm going home","hint":"về · nhà","why":"về has the falling tone: vẽ (broken tone) means draw."}
+{"id":"motion.13","p":"This bus goes to Hoan Kiem Lake","hint":"xe buýt · này · Hồ Gươm","why":"này goes after the noun: xe buýt này."}
+{"id":"motion.14","p":"Where are you going? (to a man a little older)","hint":"đi · đâu","why":"Use anh for a man a little older, and keep đâu at the end."}
+{"id":"prices.01","q":"How much is this one? =","why":"Name the thing first, cái này, then ask bao nhiêu tiền."}
+{"id":"prices.02","q":"fifty thousand dong =","why":"Fifty is năm mươi, and the price counts nghìn."}
+{"id":"prices.03","q":"Đắt quá! means…","o":["That's too expensive!","That's so cheap!","How much is it?","That's delicious!"],"why":"đắt means expensive, and quá means too."}
+{"id":"prices.04","q":"To ask a market seller for a little off, you say…","why":"bớt asks the seller to take some off the price."}
+{"id":"prices.05","q":"black pants =","why":"The color goes after the thing: quần màu đen."}
+{"id":"prices.06","p":"this red shirt","why":"The color goes after the noun, and này comes last."}
+{"id":"prices.07","p":"This bowl of pho is fifty thousand","why":"phở has the dipping tone: phố (rising tone) means street."}
+{"id":"prices.08","p":"How about two hundred thousand?","why":"được không? at the end asks whether your price is OK."}
+{"id":"prices.09","p":"How much is this one?","why":"bao nhiêu tiền asks about money; bao nhiêu tuổi asks about age."}
+{"id":"prices.10","p":"How about two hundred thousand?","why":"Prices count thousands: hai trăm nghìn."}
+{"id":"prices.11","p":"That's so cheap!","why":"rẻ has no vowel mark on the e: rể is a son-in-law, rễ a root."}
+{"id":"prices.12","p":"black pants","hint":"quần · màu đen · the color comes last","why":"The color goes after the noun: quần màu đen."}
+{"id":"prices.13","p":"This one is too expensive!","hint":"cái này · đắt · quá","why":"đắt has the rising tone: đặt (heavy tone) means to book."}
+{"id":"prices.14","p":"Do you have a black shirt? (to a saleswoman a little older)","hint":"áo · màu đen · có … không","why":"Use chị for a woman a little older; có … không asks do you have."}
+{"id":"directions.01","q":"Turn left. =","why":"trái is left; phải is right."}
+{"id":"directions.02","q":"Is it far? =","why":"có … không around xa: Có xa không?"}
+{"id":"directions.03","q":"Hồ Gươm cách đây bao xa? asks…","o":["how far Hoan Kiem Lake is from here","where Hoan Kiem Lake is","how long it takes on foot","whether the lake is pretty"],"why":"cách đây bao xa asks the distance from here."}
+{"id":"directions.04","q":"Could you give me directions? (to a man a little older) =","why":"anh for him, em for yourself, and được không at the end."}
+{"id":"directions.05","q":"On a motorbike taxi, Take me to the airport =","why":"Cho tôi đến + place: take me to."}
+{"id":"directions.06","p":"Go straight, then turn right","why":"phải has the dipping tone; phái (rising tone) is a different word."}
+{"id":"directions.07","p":"Take me to this hotel","why":"này comes after the noun: khách sạn này."}
+{"id":"directions.08","p":"How far is the airport from here?","why":"bao xa stays at the end, where the answer goes."}
+{"id":"directions.09","p":"Go straight, then turn left.","why":"trái is left; phải is right."}
+{"id":"directions.10","p":"How far is the market from here?","why":"bao xa asks how far."}
+{"id":"directions.11","p":"Let me off here.","why":"xuống, with the rising tone, is get off; xương is a bone."}
+{"id":"directions.12","p":"Turn right.","hint":"rẽ · phải","why":"phải has the dipping tone: right."}
+{"id":"directions.13","p":"Is this hotel far?","hint":"khách sạn · này · xa · có … không","why":"này goes after the noun: khách sạn này."}
+{"id":"directions.14","p":"Could you give me directions? (to a woman a little older)","hint":"chỉ đường · giúp · được không","why":"Use chị for a woman a little older, and em for yourself."}
+{"id":"time.01","q":"What time is it now? =","why":"mấy giờ asks the clock time; thứ mấy asks the day of the week."}
+{"id":"time.02","q":"half past three =","why":"rưỡi comes after giờ."}
+{"id":"time.03","q":"Which day is Sunday?","why":"Sunday is chủ nhật; the numbered days start with thứ hai."}
+{"id":"time.04","q":"Which word means evening?","why":"tối has the rising tone; tôi means I."}
+{"id":"time.05","q":"Hôm nay là ngày bao nhiêu? asks…","o":["the date","the day of the week","the time","your age"],"why":"ngày bao nhiêu asks the date; thứ mấy asks the day of the week."}
+{"id":"time.06","p":"eight in the evening","why":"tối has the rising tone: tôi (level tone) means I."}
+{"id":"time.07","p":"half past ten","why":"Ten on its own is mười, with the falling tone; mươi is only for the tens."}
+{"id":"time.08","p":"September 15","why":"Day first, then month: ngày mười lăm tháng chín."}
+{"id":"time.09","p":"What time is it now?","why":"mấy giờ asks the time."}
+{"id":"time.10","p":"Today is Saturday.","why":"Days of the week are thứ + number: thứ bảy."}
+{"id":"time.11","p":"It's half past three.","why":"rưỡi has the broken tone (the tilde)."}
+{"id":"time.12","p":"seven in the evening","hint":"bảy · giờ · tối","why":"tối has the rising tone: tôi (level tone) means I."}
+{"id":"time.13","p":"It's half past ten.","hint":"mười · giờ · rưỡi","why":"Ten on its own is mười, with the falling tone."}
+{"id":"time.14","p":"What time do you go to work? (to a man a little older)","hint":"đi làm · lúc · mấy giờ","why":"Use anh for a man a little older; mấy giờ asks the time."}
+{"id":"because.01","q":"Tại sao anh không đi làm? The best answer is…","why":"Answer tại sao with vì: because."}
+{"id":"because.02","q":"nên means…","o":["so; that's why","because","why","but"],"why":"nên introduces the result: so."}
+{"id":"because.03","q":"I have a headache =","why":"bị + the problem: bị đau đầu."}
+{"id":"because.04","q":"Which pair goes together?","why":"vì gives the reason, nên gives the result."}
+{"id":"because.05","q":"Tôi bị lạc means…","o":["I'm lost.","I'm sick.","I'm hungry.","I'm tired."],"why":"lạc means lost, and bị marks something bad that happened."}
+{"id":"because.06","p":"I'm sick","why":"ốm has the rising tone: ôm (level tone) means hug."}
+{"id":"because.07","p":"Because it's raining, I'm staying home","why":"mưa has a vowel mark (the horn): mua means buy."}
+{"id":"because.08","p":"I have a stomachache","why":"bị goes before something bad that happens to you; no là."}
+{"id":"because.09","p":"Because it's raining, I'm staying home.","why":"After a vì part, the result starts with nên."}
+{"id":"because.10","p":"I have a stomachache.","why":"bị goes before something bad that happens to you."}
+{"id":"because.11","p":"Why didn't you come? (to a woman a little older)","why":"tại has the heavy tone: tại sao means why."}
+{"id":"because.12","p":"I'm sick","hint":"bị · ốm","why":"ốm has the rising tone: ôm (level tone) means hug."}
+{"id":"because.13","p":"It's raining, so I'm staying home","hint":"trời mưa · nên · ở nhà","why":"mưa has a vowel mark (the horn): mua means buy."}
+{"id":"because.14","p":"Do you have a headache? (to an old man)","hint":"bị · đau đầu · có … không","why":"Use ông for an old man, and wrap the question in có … không."}
+{"id":"requests.01","q":"Could I have a glass of water, please? (to someone a little older) =","why":"Cho em xin + what you want, and ạ at the end."}
+{"id":"requests.02","q":"Mời chị vào means…","o":["Please come in.","Please let me in.","I'm going in.","Can I come in?"],"why":"mời invites: the speaker is offering."}
+{"id":"requests.03","q":"Which word softens a friendly suggestion, like OK? at the end?","why":"nhé softens; ạ shows respect."}
+{"id":"requests.04","q":"Your teacher calls your name. You answer…","why":"Dạ is the polite answer when someone older calls you; ừ is only for friends and younger people."}
+{"id":"requests.05","q":"Excuse me, can I ask you something? (to a woman a little older) =","why":"Call her chị, call yourself em, and ask with cho em hỏi."}
+{"id":"requests.06","p":"One coffee, please (to a stall-holder a little older)","why":"cà has the falling tone mark: cà phê."}
+{"id":"requests.07","p":"Two iced teas, please (to a stall-holder a little older)","why":"Drinks are counted by the glass: the classifier cốc goes before the noun."}
+{"id":"requests.08","p":"Please have a seat (to a woman your parents' age)","why":"mời invites, and cô fits a woman your parents' age."}
+{"id":"requests.09","p":"Please have a seat. (to a man)","why":"mời invites someone to do something."}
+{"id":"requests.10","p":"Wait for me a moment, OK? (to a woman a little older)","why":"nhé at the end softens a request."}
+{"id":"requests.11","p":"Thank you. (polite, to an older woman)","why":"ạ, with the dot below, shows respect; à asks a surprised question."}
+{"id":"requests.12","p":"Two iced teas, please (politely, to a stall-holder a little older)","hint":"cho · em · hai · cốc · trà đá · ạ","why":"trà has the falling tone mark."}
+{"id":"requests.13","p":"One bowl of beef pho, please (politely, to a stall-holder a little older)","hint":"cho · em · một · bát · phở bò · ạ","why":"bát is the classifier for a bowl, and bò comes after the noun: phở bò."}
+{"id":"requests.14","p":"Excuse me, can I ask something? (to a man a little older)","hint":"anh ơi · cho em hỏi","why":"Call him anh and yourself em: Anh ơi, cho em hỏi."}

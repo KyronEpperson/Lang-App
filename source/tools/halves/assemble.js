@@ -66,6 +66,8 @@ function assemble(nat, tgt, opts) {
   const sec = s => s === null ? null : typeof s === 'string' ? DL(s) : Array.isArray(s) ? s.map(sec) : s.ld != null
     ? { name: label(s.ld), cards: s.cards.map(cd => { const x = get('lessoncards', cd.id); return [cd[K], cd.rom, x.meaning, x.note == null ? '' : x.note]; }) }
     : (s.n ? { deck: DL(s.deck), n: s.n.slice() } : { deck: DL(s.deck) });
+  /* a native body written before its lesson got tile sets lacks their tokens: the tiles would silently vanish from the pack, so count it as missing */
+  t.lessons.forEach(l => (l.tiles || []).forEach(s => { const h = n.bodies[l.id]; if (h != null && h.indexOf('{{tiles:' + s.id + '}}') < 0) miss.push('lesson body:' + l.id + ' (no {{tiles:' + s.id + '}} token)'); }));
   const LESSONS = t.lessons.map(l => { const x = get('lessons', l.id); const o = { id: l.id, title: x.title, blurb: x.blurb, deck: DL(l.deck), body: tiles(l.id, body(l.id, n.bodies[l.id])) }; if (l.sections) o.sections = l.sections.map(sec); return o; });
   const CHECKS = {}; t.checks.forEach(c => { const x = get('checks', c.id); (CHECKS[c.lesson] = CHECKS[c.lesson] || []).push([x.q, merge(c.o, x.o), c.a, x.why]); });
   const PRACTICE = {}; t.practice.forEach(p => {

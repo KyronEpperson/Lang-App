@@ -14,7 +14,7 @@ o.append('1. **Reference pair first, by hand.** For each language X: English to 
 o.append('Order of languages: Cantonese first (owner: "vantonese first"), then Vietnamese, then Mandarin, Korean, Japanese, Taiwanese, Thai, Hmong, Indonesian, Tagalog, Cebuano. Coming soon, no course at all yet: Wu, Burmese, Javanese, Hiligaynon, Waray.\n')
 o.append('## Step 1: reference pairs and halves\n')
 o.append('| Language | English to X | X to English | Foundation in English to X | Target half |\n|---|---|---|---|---|')
-half={'ko','zh','yue'}
+half={'ko','zh','yue','vi'}
 found_done={'zh','ja','th','yue','vi'}
 for t in T:
     o.append('| %s | %s | %s | %s | %s |'%(N[t],'released' if 'en-'+t in have or t=='ko' else 'pending','released' if t+'-en' in have else 'pending','done' if t in found_done or t=='ko' else 'pending','done' if t in half else 'pending'))

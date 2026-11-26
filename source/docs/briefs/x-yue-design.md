@@ -1,6 +1,6 @@
 # x-yue design: Cantonese as the third target half
 
-Status: steps 1–4 of `docs/HALVES-BLUEPRINT.md` §3 done (2026-11-26). `tools/halves/target/yue/` and the English reference half `tools/halves/native/en/yue/` are exported from en-yue (`tools/target/yue/`, `node tools/target/gen.js yue`) and proven. No native half other than English exists yet, and nothing in `packs/` was written.
+Status: steps 1–4 of `docs/HALVES-BLUEPRINT.md` §3 done (2026-11-26). `tools/halves/target/yue/` and the English reference half `tools/halves/native/en/yue/` are exported from en-yue (`tools/target/yue/`, `node tools/target/gen.js yue`) and proven. Part 2 (same day): `validate.js` and `mk_native.js` know the new pieces (`validate.js en yue`: 0 errors), and `target/zh/` was re-exported with en-zh's foundation lessons (§4). No native half other than English exists yet on yue, and nothing in `packs/` was written.
 
 Related: `docs/HALVES-SPEC.md` (format; §11 second target), `docs/briefs/vi-zh-design.md` (the zh generalisation this builds on), `tools/patches/foundations.py` (FND-1: `sections` and `{{tiles:…}}`).
 
@@ -11,6 +11,9 @@ Related: `docs/HALVES-SPEC.md` (format; §11 second target), `docs/briefs/vi-zh-
 | `tools/halves/lib.js` | `TARGETS.yue`: field `yue`, protected script Han (`HAN_RX`, the same runs as zh; en-yue has no characters outside the BMP), `isValue` = `isCantoneseValue` (Han with no Latin letters, or `isJyutping`), `leadRx` as zh. `isJyutping`: the whole string passes the en-yue profile's `pronPattern` (syllables with tone digits 1–6, optional punctuation), or it is a bare Jyutping initial (`gw`, `j`, `c` …) or final (`oe`, `aa`, `eo` …), which count as language-neutral quiz material, as pinyin initials do for zh. ko and zh entries are untouched. |
 | `tools/halves/export_target.js` | Maps lesson `sections` and `{{tiles:…}}` tokens (§3); `Alloc` also accepts previous rows (for ids that live inside `lessons.jsonl`); writes `native/en/<t>/lessoncards.jsonl` when there are in-lesson cards; prints `lessonDecks`, `lessonCards`, `tileSets`, `tileHints`. |
 | `tools/halves/assemble.js` | Reads native `lessoncards.jsonl` (absent = empty); rebuilds `sections` (only for target lesson rows that have them) and expands `{{tiles:<t>.tlNNN}}` (only when the target half defines tile sets). With no sections and no tile sets in the target half, the code path is unchanged. |
+| `tools/halves/validate.js` (part 2) | Collects the in-lesson decks, their cards and the tile sets from the target lesson rows. Expects a label for every `<t>.ld.<slug>` and every tile hint `<t>.tlNNN.NN`, and a `lessoncards.jsonl` row for every in-lesson card. That file is checked only when the target has in-lesson cards or either native half has rows, so ko output is unchanged. Lesson-card fields get the usual text checks; a note may add only the card's own characters (as `cards.note`). A meaning is always required. A tile hint may not contain `_`, braces, tabs or line breaks. `{{tiles:<id>}}` is accepted only when it names a tile set of the same lesson. A repeated in-lesson deck name is a warning. |
+| `tools/halves/mk_native.js` (part 2) | `FILES` has `lessoncards` (written at `--merge` only when the English half has rows). In-lesson deck names, tile hints and lesson-card rows go into the unit of the lesson that holds them, not the meta unit. In-lesson card fronts go into `REPEATS.md`. The non-Korean README explains the rows when the target has any. A ko scaffold, and a vi scaffold on the old zh half, are byte-identical to the old tool's output. |
+| `tools/halves/assemble.js` (part 2) | Refuses (strict mode) a native body that lacks one of its lesson's `{{tiles:<id>}}` tokens; otherwise those tiles would vanish without notice. The check runs only for lessons with tile sets. |
 | `tools/halves/proof.js` | Unchanged. It already compares against the pack as `gen.js` writes it into a temp file, before `tools/lessonread/apply.js` and `tools/sections/apply.js` append `READS` and `SECS`. `packs/course-en-yue.js` starts with exactly the regenerated pack, and those blocks follow it. That is why proof prints "NOT the same as the regenerated pack". |
 
 en-yue's pack flags (`accents`, `keys`, `tilesDefault`, `romaAlmost`, `voiceMatch`) were already in the exporter's `FLAGS`. Nothing new was needed. `gen.js` can also write `voiceAlso` and `audioFrom`; en-yue has neither, and the exporter still refuses them, deliberately.
@@ -29,7 +32,7 @@ Option split:
 - mc options: 480 target, 60 prose;
 - hints: 56 pure target, 16 split "Han · note", 9 prose.
 
-`native/en/yue/` has 43 labels (11 pack-level, 4 in-lesson deck names, 28 tile hints), 66 lesson-card rows, 9 `uiKeys`, and 26,432 words.
+`native/en/yue/` has 43 labels (11 pack-level, 4 in-lesson deck names, 28 tile hints), 66 lesson-card rows and 9 `uiKeys`. It holds 26,432 words without the lesson cards; `validate.js` counts 27,280 with them.
 
 The proof gives 0 differences and 0 missing rows. A second export leaves both directories byte-identical.
 
@@ -64,26 +67,24 @@ Fronts are target material by position (the engine looks up the card with that f
 
 Nothing in en-yue or en-zh was refused. The checks were tested by mutating a temp copy of the pack.
 
-## 4. Mandarin: the same code, but the live `target/zh/` is not re-exported
+## 4. Mandarin: `target/zh/` re-exported (part 2)
 
-`node tools/halves/proof.js zh` **failed before this change**, with 8 differences: `sections` were missing from 4 lessons, and their bodies lacked the `{{tiles}}` tokens. `target/zh/` predates FND-1, and the old exporter would have refused `sections`.
+`proof.js zh` failed with 8 differences: 4 lessons lacked `sections`, and their bodies lacked the `{{tiles}}` tokens. `target/zh/` predated FND-1. `node tools/halves/export_target.js zh` has now been run on the live half:
+- `proof.js zh`: 0 differences, 0 missing rows. A second export into a scratch copy is byte-identical.
+- Every id that existed before is still there, with the same content: 2,094 target rows and 2,111 English rows.
+- Added to `target/zh/`: 2 lesson sentences (`zh.s0232` 来, `zh.s0233` 请), and `sections` plus 4 tile sets on lessons `pinyin`, `tones`, `tone-change` and `characters`. All tile readings are pinyin, so there are no tile hints.
+- Added to `native/en/zh/`: 4 in-lesson deck labels, 62 `lessoncards.jsonl` rows and 2 sentence glosses. The four English bodies also gained new passages and the tiles tokens.
 
-With the new code, a re-export into a scratch copy (`HALVES_DIR=…`) proves 0 differences. That re-export would also add:
-- 2 lesson example sentences (`zh.s0232` 来, `zh.s0233` 请);
-- 4 in-lesson decks with 62 cards;
-- 4 tile sets (all readings pinyin, so no native tile hints).
+**`course-vi-zh.js` no longer assembles** until the Vietnamese rows exist. `assemble.js vi zh` stops with `assemble: 70 native row(s) missing, first: lesson body:pinyin (no {{tiles:zh.tl001}} token), …, labels:zh.ld.pinyin-syllables — run validate.js` and writes nothing. The 70 are 4 bodies without their tiles tokens, 4 deck names and 62 lesson cards. `validate.js vi zh` lists all 75 errors: those rows, the 2 sentence glosses, and the 4 stale bodies (token order and Han runs, including `tone-change`, which has no tiles).
 
-I did **not** re-export the live `target/zh/`. `native/vi/zh/` would then miss 2 glosses, 4 deck names and 62 card meanings and notes, and its four lesson bodies would lack the tiles tokens. `course-vi-zh.js` would stop assembling. That is a decision for the lead: re-export zh, then give the vi writers those rows.
+`tools/halves/native/vi/zh/TODO-foundations.jsonl` lists the work for a Vietnamese writer, 72 rows: 4 `lesson-deck-name`, 62 `lesson-card` (characters, pinyin, English meaning and note), 2 `sentence-gloss` and 4 `lesson-body-update` (the English passages added or changed, block by block). Each row gets a `vi` field. The tools do not read this file. After the rows are folded into `labels.jsonl`, `lessoncards.jsonl`, `sentences.jsonl` and the four bodies, run `validate.js vi zh`, then `assemble.js`.
 
-## 5. Follow-ups before the first native half on yue (step 6)
+## 5. Follow-ups
 
-- **`validate.js`** does not know the new ids yet. `validate.js en yue` reports 37 errors, all of them the new material:
-  - 32 "orphan" labels (`yue.ld.*` and the tile hints), because `expect.labels` does not list them;
-  - 5 "unknown token `{{tiles:…}}`" errors: only `ex|strokes` are accepted.
-
-  It also needs a `lessoncards` entry with the usual text checks.
-- **`mk_native.js`**: its `FILES` list needs `lessoncards`, and its unit split needs the in-lesson decks and tile hints.
-- The selftest case "proof zh … exactly" fails for the reason in §4 (it failed before this change too).
+- Done in part 2: `validate.js` (§1), `mk_native.js` (§1), and the zh re-export (§4).
+- Selftest: every case passes except the known "export refuses moved positional ids" (ko). "proof zh … exactly" passes again. The zh round trip (fake vi half through `mk_native --target zh`, `--merge`, `validate`, `assemble`) now includes the lesson cards.
+- Open: the Vietnamese rows for vi-zh (§4), and the "by marks" mode (§6) before any Han-writing native half on yue.
+- `mk_native.js`'s non-Korean README still says "Chinese" and "pinyin" in a few fixed sentences. That needs rewording before the first yue scaffold.
 
 ## 6. Open problem (not solved here): learners who write Han characters
 

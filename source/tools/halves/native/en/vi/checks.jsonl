@@ -1,0 +1,84 @@
+{"id":"alphabet.k1","q":"In Hanoi, how does the d in da (skin) sound?","o":["Like the z in zoo","Like the d in dog","Like the th in this","Like the j in jam"],"why":"In Hanoi, d, gi and r all sound like z."}
+{"id":"alphabet.k2","q":"Which letter sounds like the d in English dog?","why":"đ, the crossed d, is the English d sound; plain d is a z sound in Hanoi."}
+{"id":"alphabet.k3","q":"In the pronunciation line, what does the hyphen in vee-uht. mean?","o":["Two separate syllables","A short pause","Still one syllable, gliding from one vowel to the next","The stressed part of the word"],"why":"A hyphen sits inside one chunk, and one chunk is one syllable."}
+{"id":"tones.k1","q":"Which mark shows the heavy tone?","o":["A dot under the vowel, as in ạ","A hook above the vowel, as in ả","A squiggle above the vowel, as in ã","No mark at all"],"why":"The heavy tone is the dot below: low, short, with a catch."}
+{"id":"tones.k2","q":"What does bán mean?","o":["table","to sell","friend","ghost"],"why":"bán, with the rising tone, means to sell; bàn is a table and bạn is a friend."}
+{"id":"tones.k3","q":"How should không sound in Anh khỏe không?","o":["Rising, like an English question","Falling, to sound polite","Level: it keeps its own tone","Any pitch: questions have no tones"],"why":"A question word keeps its tone; không has the level tone."}
+{"id":"syllables.k1","q":"Which spelling is correct for chair?","why":"Before e, ê and i, g is written gh: ghế."}
+{"id":"syllables.k2","q":"Which tones can a syllable ending in t take?","o":["Any of the six","Only level or falling","Only rising or heavy","Only broken"],"why":"Stop endings (p, t, c, ch) take only the rising or the heavy tone."}
+{"id":"syllables.k3","q":"How many syllables does Nguyễn have?","o":["One","Two","Three","Four"],"why":"Nguyễn is one syllable: ng + uyê + n, with the broken tone."}
+{"id":"vowels.k1","q":"Which vowel sounds like the vowel of her, with no r?","why":"ơ is the vowel of her with the r left off."}
+{"id":"vowels.k2","q":"tai and tay differ in…","o":["the length of the a sound","their tone","their first consonant","nothing: they are spellings of one word"],"why":"ai is a long ah, ay a short one: tai is an ear, tay a hand."}
+{"id":"vowels.k3","q":"How many syllables does người have?","o":["Three","Two","One","It depends on the speaker"],"why":"ươ is a vowel pair inside one syllable."}
+{"id":"pronouns.k1","q":"You meet a man who is a few years older than you. How do you say hello?","why":"A man a little older than you is anh."}
+{"id":"pronouns.k2","q":"Talking to a woman a little older (chị), what do you call yourself?","why":"chị and em are a pair: to chị, you are em."}
+{"id":"pronouns.k3","q":"What does ạ at the end of a sentence do?","o":["Turns it into a question","Shows respect to someone older","Means goodbye","Makes it plural"],"why":"ạ is a polite ending for someone older or senior."}
+{"id":"la.k1","q":"How do you say I'm not a doctor?","why":"The negative of là is không phải là."}
+{"id":"la.k2","q":"Which sentence says I'm tired?","why":"No là before a word like tired: Tôi mệt."}
+{"id":"la.k3","q":"How do you say he, about a man?","why":"anh ấy is he; nó is for animals and small children."}
+{"id":"yes-no.k1","q":"How do you ask Do you like coffee? (to a friend)","why":"có before the verb, không at the end."}
+{"id":"yes-no.k2","q":"Someone asks: Chị có bận không? How do you say yes?","why":"Answer có … không with có for yes, không for no."}
+{"id":"yes-no.k3","q":"Someone asks: Bạn là sinh viên phải không? You are. What do you answer?","why":"phải không? is answered with phải (or vâng) for yes."}
+{"id":"jobs.k1","q":"How do you say I'm American?","why":"người (person) comes first, then the country."}
+{"id":"jobs.k2","q":"What does tiếng Anh mean?","o":["the English language","an English person","England","my older brother"],"why":"tiếng + country is the language; người + country is the person."}
+{"id":"jobs.k3","q":"Anh làm nghề gì? asks…","o":["where you are from","what you do for a living","what language you speak","how you are"],"why":"làm nghề gì? means what work do you do?"}
+{"id":"this-that.k1","q":"How do you say this table?","why":"này goes after the noun: cái bàn này."}
+{"id":"this-that.k2","q":"How do you start the sentence This is my friend?","why":"To introduce someone, start with Đây là."}
+{"id":"this-that.k3","q":"Which classifier goes with mèo (cat)?","why":"Animals take con: con mèo."}
+{"id":"adjectives.k1","q":"Which sentence says The pho is good?","why":"Adjectives work like verbs: no là."}
+{"id":"adjectives.k2","q":"How do you say a red shirt?","why":"The color goes after the noun: áo đỏ."}
+{"id":"adjectives.k3","q":"How do you say I'm not tired?","why":"For an adjective, just không: không phải là is only for nouns."}
+{"id":"who-what.k1","q":"How do you say 'Who is she?' (about a woman a little older than you)","why":"ai goes where the answer would go: Chị ấy là chị Lan → Chị ấy là ai?"}
+{"id":"who-what.k2","q":"Where does gì go in 'What do you want?'","o":["At the start, as in English","Before the verb","After muốn, where the answer goes","Anywhere, if your voice rises"],"why":"Bạn muốn gì? The thing you want comes after muốn, so gì does too."}
+{"id":"who-what.k3","q":"How do you ask 'What is this?'","why":"Đây là… + cái gì in the place of the answer."}
+{"id":"numbers.k1","q":"How do you say 20?","why":"In the tens, ten is mươi, with no tone mark: hai mươi."}
+{"id":"numbers.k2","q":"Twenty-five is…","why":"After mươi, five becomes lăm."}
+{"id":"numbers.k3","q":"'I'm thirty' =","why":"Ages take no có and no là: Tôi + number + tuổi."}
+{"id":"classifiers.k1","q":"'two dogs' =","why":"Animals take con, between the number and the noun."}
+{"id":"classifiers.k2","q":"Which classifier goes with sách (book)?","why":"Books take quyển (in the South, cuốn)."}
+{"id":"classifiers.k3","q":"'I like chicken' (the meat) =","why":"Meat takes no classifier: thịt gà. con gà is a live chicken."}
+{"id":"co.k1","q":"'I have a cat' =","why":"have = có, and a counted animal keeps con."}
+{"id":"co.k2","q":"'Is there a restroom here?' =","why":"Place first, then có … không."}
+{"id":"co.k3","q":"The shop has no red shirts. The saleswoman says:","why":"No to a có … không question: không có."}
+{"id":"cua.k1","q":"'Lan's book' =","why":"The thing first, then của and the owner."}
+{"id":"cua.k2","q":"'my mother', said the most natural way:","why":"Family words usually drop của: mẹ tôi."}
+{"id":"cua.k3","q":"'Whose shirt is this?' =","why":"ai goes where the owner would go: là của ai?"}
+{"id":"family.k1","q":"'my younger brother' =","why":"em = younger, trai = male, and the owner comes last."}
+{"id":"family.k2","q":"You greet your friend's grandmother. Which is best?","why":"An old woman is bà, and you call yourself cháu."}
+{"id":"family.k3","q":"You call a waiter who is about eighteen. You say:","why":"Someone younger than you is em."}
+{"id":"compare.k1","q":"'Saigon is hotter than Hanoi' =","why":"Adjective + hơn + the other thing, with no là."}
+{"id":"compare.k2","q":"'the cheapest shirt' =","why":"Noun first, then the adjective, then nhất."}
+{"id":"compare.k3","q":"'as tall as' uses…","why":"bằng = as … as: cao bằng."}
+{"id":"verbs.k1","q":"What is the past form of đi (go)?","o":["đii","There is none: đi never changes","đã đang đi","A different verb"],"why":"Vietnamese verbs never change; đã or a time word shows the past."}
+{"id":"verbs.k2","q":"'Tomorrow I'll go to Hue' =","why":"sẽ goes right before the verb; đã would mean it already happened."}
+{"id":"verbs.k3","q":"'I'm eating' =","why":"đang before the verb: in progress."}
+{"id":"want-like.k1","q":"'I want to eat pho' =","why":"No word for 'to': muốn ăn."}
+{"id":"want-like.k2","q":"You order from a stall-holder older than you. Which is best?","why":"Cho + your self-word em + number + bát + phở."}
+{"id":"want-like.k3","q":"'I don't like beer' =","why":"không goes right before the verb thích."}
+{"id":"location.k1","q":"How do you say I'm in Hanoi?","why":"ở already means be at, so there is no là: Tôi ở Hà Nội."}
+{"id":"location.k2","q":"Where is the bank? =","why":"đâu stays at the end, where the answer goes: Ngân hàng ở đâu?"}
+{"id":"location.k3","q":"The cat is under the chair. Which is right?","why":"Animals take con, and ở (not là) says where something is."}
+{"id":"biet.k1","q":"Which means I can swim (I learned how)?","why":"A learned skill takes biết before the verb: biết bơi."}
+{"id":"biet.k2","q":"In Tôi ăn cay được, what does được add?","o":["I can (I'm able to)","I already did","I want to","I have to"],"why":"được after the verb says you are able to do it."}
+{"id":"biet.k3","q":"Someone asks you something and you don't know the answer. You say…","why":"biết alone means know: Tôi không biết is I don't know."}
+{"id":"chua.k1","q":"Anh ăn cơm chưa? You ate an hour ago. You answer…","why":"Already is rồi: the answer to a chưa question."}
+{"id":"chua.k2","q":"How do you say I haven't eaten yet?","why":"chưa (with the horn) goes before the verb: Tôi chưa ăn."}
+{"id":"chua.k3","q":"What does Ăn cơm chưa? usually mean between neighbors?","o":["A friendly hello, like How are you?","Let's eat together.","I'm hungry.","Do you want some rice?"],"why":"Ăn cơm chưa? is a greeting, not an invitation."}
+{"id":"motion.k1","q":"You're leaving the office to go home. You say…","why":"Going back home is về: Tôi về nhà."}
+{"id":"motion.k2","q":"How do you say I go by motorbike?","why":"by + vehicle is bằng + vehicle; với is for people."}
+{"id":"motion.k3","q":"Which word means to arrive, to come to a place?","why":"đến (or tới) is arriving at a place."}
+{"id":"prices.k1","q":"How do you say 150,000 dong?","why":"One hundred fifty thousand: một trăm năm mươi, then nghìn."}
+{"id":"prices.k2","q":"A red shirt =","why":"The color comes after the noun: áo đỏ."}
+{"id":"prices.k3","q":"The seller says Hai trăm nghìn. You think it's too much. You say…","why":"đắt is expensive; rẻ is cheap."}
+{"id":"directions.k1","q":"How far is the market from here? =","why":"The place first, then cách đây, then bao xa at the end."}
+{"id":"directions.k2","q":"You want the driver to stop here. You say…","why":"xuống is get off: Cho tôi xuống đây."}
+{"id":"directions.k3","q":"rẽ phải means…","o":["go straight","turn left","near here","turn right"],"why":"phải is right and trái is left."}
+{"id":"time.k1","q":"How do you say September 15?","why":"Day first, then month: ngày mười lăm tháng chín."}
+{"id":"time.k2","q":"thứ hai means…","o":["the second of the month","Tuesday","Monday","two o'clock"],"why":"The week counts from Sunday, so thứ hai (the second day) is Monday."}
+{"id":"time.k3","q":"Seven in the evening =","why":"The part of the day comes after the time, and tối has the rising tone."}
+{"id":"because.k1","q":"Because it's raining, I'm staying home. =","why":"vì goes with the reason, nên with the result."}
+{"id":"because.k2","q":"Which word asks why?","why":"Tại sao means why; answer it with vì."}
+{"id":"because.k3","q":"Which sentence uses bị correctly?","why":"bị goes with something bad that happens to you, like a stomachache."}
+{"id":"requests.k1","q":"You're ordering from a woman a little older than you. Which is the most polite?","why":"Call yourself em and end with ạ: Cho em một ly cà phê ạ."}
+{"id":"requests.k2","q":"What does mời do in Mời anh ngồi?","o":["It invites or offers: please sit down","It asks for a favor","It apologizes","It turns the sentence into a question"],"why":"mời invites: the speaker is offering a seat."}
+{"id":"requests.k3","q":"When should you NOT add ạ?","o":["Thanking your grandmother","Answering your teacher","Talking to an older neighbor","Chatting with a friend your own age"],"why":"ạ shows respect to someone older; it sounds odd between friends of the same age."}

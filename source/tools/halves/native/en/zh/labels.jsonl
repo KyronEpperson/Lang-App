@@ -9,3 +9,7 @@
 {"id":"zh.h.morning","text":"Good morning"}
 {"id":"zh.h.afternoon","text":"Good afternoon"}
 {"id":"zh.h.evening","text":"Good evening"}
+{"id":"zh.ld.pinyin-syllables","text":"Pinyin syllables"}
+{"id":"zh.ld.two-syllable-words","text":"Two-syllable words"}
+{"id":"zh.ld.radicals","text":"Radicals"}
+{"id":"zh.ld.characters-from-parts","text":"Characters from parts"}

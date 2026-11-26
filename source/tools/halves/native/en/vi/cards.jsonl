@@ -1,0 +1,893 @@
+{"id":"vi.c0001","meaning":"to go","note":"đ (crossed d) is an English d. Plain d is a z sound in Hanoi."}
+{"id":"vi.c0002","meaning":"skin","note":"d sounds like z in Hanoi (like y in the South)."}
+{"id":"vi.c0003","meaning":"vehicle; motorbike","note":"x sounds like s."}
+{"id":"vi.c0004","meaning":"house; home","note":"nh is ny, as in canyon."}
+{"id":"vi.c0005","meaning":"pho (noodle soup)","note":"ph is f. ơ is the vowel you may have heard as \"fuh\"."}
+{"id":"vi.c0006","meaning":"wind","note":"gi sounds like z in Hanoi, just like d and r."}
+{"id":"vi.c0007","meaning":"vegetables; herbs","note":"r is a z sound in Hanoi. au is a short ow, as in cow."}
+{"id":"vi.c0008","meaning":"sky; weather","note":"tr sounds like ch in Hanoi, the same as ch."}
+{"id":"vi.c0009","meaning":"to sleep","note":"ng can start a word: say the ng of singer, then the vowel."}
+{"id":"vi.c0010","meaning":"hand; arm","note":"t has no puff of air: it sits between d and t. ay is short; compare tai (ear)."}
+{"id":"vi.c0011","meaning":"ear","note":"ai is a long ah-ee. tay (hand) is shorter, and the difference changes the word."}
+{"id":"vi.c0012","meaning":"letter (mail)","note":"th is an English t with a puff of air, never the th of think. ư: say oo with spread lips."}
+{"id":"vi.c0013","meaning":"dry","note":"kh is a soft throat sound, as in Scottish loch. ô is the o of go, held steady."}
+{"id":"vi.c0014","meaning":"to eat","note":"ă is a short ah, and it is always followed by a consonant."}
+{"id":"vi.c0015","meaning":"foot; leg","note":"â is a short uh, as in cup."}
+{"id":"vi.c0016","meaning":"hometown; the countryside","note":"qu sounds like kw. ê is the e of hey, held steady."}
+{"id":"vi.c0017","meaning":"person","note":"ươ is a vowel pair said in one syllable: uu-uh."}
+{"id":"vi.c0018","meaning":"lime","note":"Hanoi says -anh as aing: chanh is not like English chan."}
+{"id":"vi.c0019","meaning":"ghost","note":"Level tone: no mark, flat and in the middle of your voice."}
+{"id":"vi.c0020","meaning":"but","note":"Falling tone: start low and fall gently."}
+{"id":"vi.c0021","meaning":"mom (in the South); cheek","note":"Rising tone. Same letters as ma (ghost) and mà (but)."}
+{"id":"vi.c0022","meaning":"table","note":"Falling tone. Same letters as bán (to sell) and bạn (friend)."}
+{"id":"vi.c0023","meaning":"to sell","note":"Rising tone: start in the middle and rise."}
+{"id":"vi.c0024","meaning":"friend; you (to a friend)","note":"Heavy tone: low, short, with a catch in the throat."}
+{"id":"vi.c0025","meaning":"busy","note":"Not only a tone pair: â has a vowel mark. bạn, with plain a, is a friend."}
+{"id":"vi.c0026","meaning":"to buy","note":"Level tone. múa, with the rising tone, is to dance."}
+{"id":"vi.c0027","meaning":"to dance","note":"Rising tone. mua, with no mark, is to buy."}
+{"id":"vi.c0028","meaning":"fish","note":"Rising tone. cà, with the falling tone, is the first syllable of cà phê."}
+{"id":"vi.c0029","meaning":"cow; beef","note":"Falling tone. bỏ, with the dipping tone, means to throw away or to quit."}
+{"id":"vi.c0030","meaning":"evening; dark","note":"Rising tone. tôi, with no tone mark, means I."}
+{"id":"vi.c0031","meaning":"milk","note":"Broken tone (the tilde). sửa, with the dipping tone, is to fix."}
+{"id":"vi.c0032","meaning":"to fix; to repair","note":"Dipping tone (the hook). sữa, with the broken tone, is milk."}
+{"id":"vi.c0033","meaning":"five; year","note":"Level tone. nằm, with the falling tone, is to lie down."}
+{"id":"vi.c0034","meaning":"to lie down","note":"Falling tone. năm, with no tone mark, is five or a year."}
+{"id":"vi.c0035","meaning":"chicken","note":"Falling tone. ga, with no mark, is a train station."}
+{"id":"vi.c0036","meaning":"Hello.","note":"Safe with anyone. People more often say Chào + a kinship word: Chào anh."}
+{"id":"vi.c0037","meaning":"Hello. (to a woman a little older)","note":"chị: a woman older than you, but not your parents' age."}
+{"id":"vi.c0038","meaning":"Thank you.","note":"Also spelled cám ơn. Add the person: Cảm ơn anh."}
+{"id":"vi.c0039","meaning":"Sorry. / Excuse me.","note":""}
+{"id":"vi.c0040","meaning":"Goodbye.","note":"A little formal. Friends often say Chào + name, or Bye."}
+{"id":"vi.c0041","meaning":"Hello. (to a man a little older)","note":"anh: a man older than you, but not your parents' age."}
+{"id":"vi.c0042","meaning":"Hi. (to someone younger)","note":"em works for a younger man or a younger woman."}
+{"id":"vi.c0043","meaning":"Hi. (to a friend)","note":"For someone about your own age. Never to an older person."}
+{"id":"vi.c0044","meaning":"Hello. (politely, to a woman a little older)","note":"The younger person says em for I, and ạ at the end adds respect."}
+{"id":"vi.c0045","meaning":"How are you? (to a man a little older)","note":"Keep không level: the word asks the question, not your voice."}
+{"id":"vi.c0046","meaning":"I'm fine, thanks.","note":"No là before khỏe: it works like a verb."}
+{"id":"vi.c0047","meaning":"And you? (to a friend)","note":"To a woman a little older: Còn chị?"}
+{"id":"vi.c0048","meaning":"Thank you. (to a man a little older)","note":"Naming the person sounds warmer than a bare Cảm ơn."}
+{"id":"vi.c0049","meaning":"Thanks a lot.","note":"nhiều (a lot) goes at the end."}
+{"id":"vi.c0050","meaning":"You're welcome.","note":"Literally: it's nothing."}
+{"id":"vi.c0051","meaning":"No problem. / It's OK.","note":"The usual answer to Xin lỗi."}
+{"id":"vi.c0052","meaning":"Nice to meet you. (to someone your age)","note":"To a man a little older: Rất vui được gặp anh."}
+{"id":"vi.c0053","meaning":"See you again.","note":"Often with the person at the end: Hẹn gặp lại chị."}
+{"id":"vi.c0054","meaning":"mother","note":"Hanoi word. In the South: má."}
+{"id":"vi.c0055","meaning":"father","note":"Hanoi word. In the South: ba."}
+{"id":"vi.c0056","meaning":"older brother","note":"anh alone also means \"you\" to a man a little older than you."}
+{"id":"vi.c0057","meaning":"younger sister","note":"em is any younger sibling; gái = female, trai = male."}
+{"id":"vi.c0058","meaning":"grandparents","note":"ông and bà also mean \"you\" to an old man and an old woman."}
+{"id":"vi.c0059","meaning":"older sister","note":"chị alone also means \"you\" to a woman a little older than you."}
+{"id":"vi.c0060","meaning":"younger brother","note":"Add trai or gái after em to say brother or sister."}
+{"id":"vi.c0061","meaning":"parents","note":"Hanoi words. In the South: ba má."}
+{"id":"vi.c0062","meaning":"my wife","note":"Noun first, then the owner. With family, của is usually left out."}
+{"id":"vi.c0063","meaning":"my husband","note":"Not tôi chồng: the owner comes after the noun."}
+{"id":"vi.c0064","meaning":"son","note":"con = child; trai = male."}
+{"id":"vi.c0065","meaning":"daughter","note":"con gái can also mean a girl or a young woman."}
+{"id":"vi.c0066","meaning":"grandfather (father's side)","note":"nội = on your father's side."}
+{"id":"vi.c0067","meaning":"grandmother (mother's side)","note":"ngoại = on your mother's side."}
+{"id":"vi.c0068","meaning":"aunt (father's sister); you (to a woman your parents' age)","note":"Also what you call a female teacher. You say cháu for I."}
+{"id":"vi.c0069","meaning":"uncle (father's younger brother); you (to a man your parents' age)","note":"You say cháu for I when you talk to chú."}
+{"id":"vi.c0070","meaning":"grandchild; niece or nephew; I (to someone your parents' age or older)","note":"Use cháu for I with cô, chú, ông and bà."}
+{"id":"vi.c0071","meaning":"This is my mother.","note":"To introduce someone: Đây là + the person."}
+{"id":"vi.c0072","meaning":"one","note":""}
+{"id":"vi.c0073","meaning":"ten","note":"Falling tone. In twenty, thirty… it is mươi, with no mark: hai mươi."}
+{"id":"vi.c0074","meaning":"twenty-five","note":"After mươi, five is lăm, not năm."}
+{"id":"vi.c0075","meaning":"one hundred","note":""}
+{"id":"vi.c0076","meaning":"fifty thousand dong","note":"Prices are counted in nghìn (thousands). The South says ngàn."}
+{"id":"vi.c0077","meaning":"two","note":"Level tone, and ai is a long ah-ee."}
+{"id":"vi.c0078","meaning":"three","note":"In the South, ba also means dad."}
+{"id":"vi.c0079","meaning":"four","note":"After mươi, four is often tư: hai mươi tư."}
+{"id":"vi.c0080","meaning":"six","note":"au is a short ow, as in cow."}
+{"id":"vi.c0081","meaning":"seven","note":"Dipping tone (the hook). ay is short."}
+{"id":"vi.c0082","meaning":"eight","note":"Rising tone. Eighteen is mười tám."}
+{"id":"vi.c0083","meaning":"nine","note":"chín also means ripe or cooked."}
+{"id":"vi.c0084","meaning":"fifteen","note":"After mười, five is lăm too."}
+{"id":"vi.c0085","meaning":"twenty-one","note":"After mươi, one is mốt (rising tone), not một."}
+{"id":"vi.c0086","meaning":"twenty-four","note":"tư is the usual four after mươi; hai mươi bốn is also heard."}
+{"id":"vi.c0087","meaning":"one thousand","note":"The South says một ngàn."}
+{"id":"vi.c0088","meaning":"twenty thousand (dong)","note":"Prices drop the word đồng in everyday speech."}
+{"id":"vi.c0089","meaning":"one million","note":""}
+{"id":"vi.c0090","meaning":"the cat","note":"con is the classifier for animals."}
+{"id":"vi.c0091","meaning":"the table","note":"cái is the classifier for most objects."}
+{"id":"vi.c0092","meaning":"the book","note":"quyển for books. The South says cuốn."}
+{"id":"vi.c0093","meaning":"the motorbike","note":"chiếc for vehicles and single items. cái xe máy is also fine."}
+{"id":"vi.c0094","meaning":"this one","note":"Classifier + này: pointing at a thing."}
+{"id":"vi.c0095","meaning":"the dog","note":"Animals take con: never cái chó."}
+{"id":"vi.c0096","meaning":"the chair","note":"cái is the everyday classifier for things."}
+{"id":"vi.c0097","meaning":"the phone","note":""}
+{"id":"vi.c0098","meaning":"that one (over there)","note":"kia points at something farther away."}
+{"id":"vi.c0099","meaning":"three fish","note":"Number, then classifier, then noun: never ba cá."}
+{"id":"vi.c0100","meaning":"this book","note":"The classifier goes first and này goes after the noun."}
+{"id":"vi.c0101","meaning":"the bicycle","note":"chiếc is the classifier for vehicles."}
+{"id":"vi.c0102","meaning":"a pair of chopsticks","note":"đôi for pairs: đôi giày is a pair of shoes."}
+{"id":"vi.c0103","meaning":"a sheet of paper","note":"tờ for flat sheets: paper, newspapers, banknotes."}
+{"id":"vi.c0104","meaning":"the painting","note":"bức for pictures and letters."}
+{"id":"vi.c0105","meaning":"a friend (one friend)","note":"người is the classifier for people."}
+{"id":"vi.c0106","meaning":"What's this?","note":"Also: Đây là cái gì?"}
+{"id":"vi.c0107","meaning":"that bag (over there)","note":"kia goes after the noun, just like này."}
+{"id":"vi.c0108","meaning":"beef pho","note":"Chicken pho: phở gà. The describing word comes after the noun."}
+{"id":"vi.c0109","meaning":"bread; banh mi sandwich","note":"In Vietnam, bánh mì means bread as well as the sandwich."}
+{"id":"vi.c0110","meaning":"iced coffee with condensed milk","note":"Word by word: coffee, milk, ice."}
+{"id":"vi.c0111","meaning":"iced tea","note":"Weak iced tea, the everyday street-stall drink."}
+{"id":"vi.c0112","meaning":"Delicious!","note":"quá after an adjective: so, really."}
+{"id":"vi.c0113","meaning":"grilled pork with rice noodles","note":"A Hanoi lunch favorite."}
+{"id":"vi.c0114","meaning":"fried spring rolls","note":"Hanoi name. In the South: chả giò."}
+{"id":"vi.c0115","meaning":"chicken and rice","note":"cơm (rice) comes first, then gà (chicken)."}
+{"id":"vi.c0116","meaning":"black coffee","note":"đen (black) comes after cà phê."}
+{"id":"vi.c0117","meaning":"two bottles of beer","note":"Number, then chai (bottle), then the drink."}
+{"id":"vi.c0118","meaning":"a bottle of water","note":"nước is water."}
+{"id":"vi.c0119","meaning":"mango smoothie","note":"sinh tố is a smoothie; the fruit comes after it."}
+{"id":"vi.c0120","meaning":"Two bowls of pho, please.","note":"bát is a bowl. To an older stall-holder, say Cho em instead."}
+{"id":"vi.c0121","meaning":"Can I see the menu?","note":"Many cafés just say menu."}
+{"id":"vi.c0122","meaning":"I don't eat spicy food.","note":"Literally: I don't eat spicy."}
+{"id":"vi.c0123","meaning":"I'm vegetarian.","note":"Literally: I eat vegetarian. chay and cay differ in the first sound."}
+{"id":"vi.c0124","meaning":"Check, please! (to a young server)","note":"Em ơi calls someone younger than you."}
+{"id":"vi.c0125","meaning":"Cheers! (a toast)","note":"Literally: wishing you health."}
+{"id":"vi.c0126","meaning":"Do you have a red shirt? (to a saleswoman)","note":"có … không? = do you have …? màu đỏ comes after áo."}
+{"id":"vi.c0127","meaning":"How much is it?","note":""}
+{"id":"vi.c0128","meaning":"That's too expensive!","note":""}
+{"id":"vi.c0129","meaning":"Can you take a little off?","note":"Haggling in markets. Not in supermarkets."}
+{"id":"vi.c0130","meaning":"ao dai (long tunic)","note":"Literally \"long shirt\": dài (long) comes after áo."}
+{"id":"vi.c0131","meaning":"How much is this one?","note":"Point, and put cái này at the front."}
+{"id":"vi.c0132","meaning":"How much for a kilo of mangoes?","note":"cân is a kilo at the market."}
+{"id":"vi.c0133","meaning":"That's so cheap!","note":"quá goes after the adjective."}
+{"id":"vi.c0134","meaning":"I'm just looking.","note":"chỉ … thôi = only, just."}
+{"id":"vi.c0135","meaning":"Do you have another color?","note":"khác (other) comes after màu."}
+{"id":"vi.c0136","meaning":"Do you have a bigger size?","note":"hơn goes after the adjective: to hơn = bigger."}
+{"id":"vi.c0137","meaning":"I'll take this one.","note":"lấy = to take."}
+{"id":"vi.c0138","meaning":"a blue shirt","note":"xanh covers both blue and green."}
+{"id":"vi.c0139","meaning":"black pants","note":"quần (pants) first, then the color."}
+{"id":"vi.c0140","meaning":"Can I try it on?","note":"thử after a verb: try doing it."}
+{"id":"vi.c0141","meaning":"How about two hundred thousand?","note":"A counteroffer when you haggle."}
+{"id":"vi.c0142","meaning":"I'm going to the market.","note":"đi chợ is also the everyday phrase for grocery shopping."}
+{"id":"vi.c0143","meaning":"Can I pay by card?","note":"bằng = by, with."}
+{"id":"vi.c0144","meaning":"today","note":""}
+{"id":"vi.c0145","meaning":"yesterday","note":""}
+{"id":"vi.c0146","meaning":"tomorrow","note":""}
+{"id":"vi.c0147","meaning":"Monday","note":"Literally \"second\": the week counts from Sunday, chủ nhật."}
+{"id":"vi.c0148","meaning":"What time is it now?","note":""}
+{"id":"vi.c0149","meaning":"Saturday","note":"thứ + a number. Days are lowercase in Vietnamese."}
+{"id":"vi.c0150","meaning":"Sunday","note":"The one day with its own name, not a number."}
+{"id":"vi.c0151","meaning":"It's half past three.","note":"rưỡi = and a half."}
+{"id":"vi.c0152","meaning":"eight in the morning","note":"sáng (morning) comes after the hour."}
+{"id":"vi.c0153","meaning":"seven in the evening","note":"tối (evening) comes after the hour."}
+{"id":"vi.c0154","meaning":"next week","note":"sau (after) comes after tuần. Last week: tuần trước."}
+{"id":"vi.c0155","meaning":"September","note":"Month nine: tháng + a number, lowercase."}
+{"id":"vi.c0156","meaning":"September 15","note":"Day first, then month: ngày, then tháng."}
+{"id":"vi.c0157","meaning":"What day is it today?","note":"thứ mấy asks for the day of the week."}
+{"id":"vi.c0158","meaning":"What's the date today?","note":"You will also hear ngày mấy."}
+{"id":"vi.c0159","meaning":"I'm having breakfast.","note":"đang shows the action is going on now."}
+{"id":"vi.c0160","meaning":"I went to Hoi An yesterday.","note":"đã shows the action is done; with hôm qua you can leave it out."}
+{"id":"vi.c0161","meaning":"I'll call back tomorrow.","note":"sẽ = will. mai is short for ngày mai."}
+{"id":"vi.c0162","meaning":"Where is the restroom?","note":"ở đâu (where) goes at the end."}
+{"id":"vi.c0163","meaning":"on the left","note":"On the right: bên phải."}
+{"id":"vi.c0164","meaning":"on the right","note":"phải also means \"right\" as in correct: Phải không? (Right?)"}
+{"id":"vi.c0165","meaning":"go straight","note":""}
+{"id":"vi.c0166","meaning":"Turn left.","note":"In the South: quẹo trái."}
+{"id":"vi.c0167","meaning":"Turn right at the intersection.","note":"ngã tư: literally \"four-way crossing\"."}
+{"id":"vi.c0168","meaning":"Go straight, then turn left.","note":"rồi joins steps: and then."}
+{"id":"vi.c0169","meaning":"bank","note":""}
+{"id":"vi.c0170","meaning":"near here","note":"Opposite: xa (far)."}
+{"id":"vi.c0171","meaning":"Is it far?","note":"có … không around an adjective: is it …?"}
+{"id":"vi.c0172","meaning":"How far is Hoan Kiem Lake from here?","note":"The place comes first; cách đây bao xa (how far from here) goes at the end."}
+{"id":"vi.c0173","meaning":"How long does it take on foot?","note":"đi bộ = walk; mất = it takes (time)."}
+{"id":"vi.c0174","meaning":"Is there a café near here?","note":"có … không = is there …?"}
+{"id":"vi.c0175","meaning":"The hotel is next to the bank.","note":"ở = is at, with no là. bên cạnh (next to) goes before the place, as in English."}
+{"id":"vi.c0176","meaning":"The post office is across from the market.","note":"đối diện = across from, facing."}
+{"id":"vi.c0177","meaning":"Could you give me directions? (to a man a little older)","note":"chỉ đường = show the way; giúp = for (me), as a favor."}
+{"id":"vi.c0178","meaning":"I'm lost.","note":"bị: something bad that happens to you."}
+{"id":"vi.c0179","meaning":"motorbike taxi","note":"Literally \"hug vehicle\"."}
+{"id":"vi.c0180","meaning":"airport","note":""}
+{"id":"vi.c0181","meaning":"train ticket","note":"vé (ticket) first, then what kind."}
+{"id":"vi.c0182","meaning":"hotel","note":""}
+{"id":"vi.c0183","meaning":"Let me off here.","note":"To a driver."}
+{"id":"vi.c0184","meaning":"Take me to Noi Bai Airport.","note":"Cho tôi đến + place: what you say to a taxi or xe ôm driver."}
+{"id":"vi.c0185","meaning":"Please slow down a little. (to a male driver)","note":"nhé softens the request."}
+{"id":"vi.c0186","meaning":"I go by motorbike.","note":"bằng = by (a vehicle), not với (with)."}
+{"id":"vi.c0187","meaning":"I'm going home.","note":"Going home or back is về, not đi."}
+{"id":"vi.c0188","meaning":"What time does the train leave?","note":"chạy = run: trains and buses \"run\"."}
+{"id":"vi.c0189","meaning":"One ticket to Hue, please.","note":"đi Huế: no word for \"to\" before the place."}
+{"id":"vi.c0190","meaning":"round-trip ticket","note":"One-way: vé một chiều."}
+{"id":"vi.c0191","meaning":"How much is it to the airport?","note":"hết = it comes to (a total)."}
+{"id":"vi.c0192","meaning":"I have a reservation.","note":"Literally \"I already booked a room.\""}
+{"id":"vi.c0193","meaning":"The flight is delayed.","note":"bị for bad news; hoãn = postponed."}
+{"id":"vi.c0194","meaning":"Here's my passport.","note":"đây at the end: here it is."}
+{"id":"vi.c0195","meaning":"Does this bus go to Hoan Kiem Lake?","note":"này after the noun: xe buýt này (this bus)."}
+{"id":"vi.c0196","meaning":"teacher","note":"To your teacher, say cô (a woman) or thầy (a man), not giáo viên."}
+{"id":"vi.c0197","meaning":"college student","note":"A school student (up to grade 12): học sinh."}
+{"id":"vi.c0198","meaning":"(school) student","note":"A college student: sinh viên."}
+{"id":"vi.c0199","meaning":"engineer","note":""}
+{"id":"vi.c0200","meaning":"nurse","note":""}
+{"id":"vi.c0201","meaning":"company","note":"The name comes after: công ty du lịch (travel company)."}
+{"id":"vi.c0202","meaning":"I work at a bank.","note":""}
+{"id":"vi.c0203","meaning":"I can speak English.","note":"biết + verb: know how to."}
+{"id":"vi.c0204","meaning":"I can swim.","note":"A skill you learned usually takes biết."}
+{"id":"vi.c0205","meaning":"I can't drive.","note":"không goes before biết."}
+{"id":"vi.c0206","meaning":"Your Vietnamese is really good! (to a friend)","note":"You will hear this a lot. A modest reply: Chưa giỏi đâu (Not really good yet)."}
+{"id":"vi.c0207","meaning":"How can I help you? (to a man)","note":"có thể = can, be able to. Staff say this to customers."}
+{"id":"vi.c0208","meaning":"I'm in college.","note":"đang: happening now, in this period."}
+{"id":"vi.c0209","meaning":"I'm in a meeting.","note":"đang: in the middle of it right now."}
+{"id":"vi.c0210","meaning":"my coworker","note":"Noun first, then của + owner."}
+{"id":"vi.c0211","meaning":"I go to work at eight.","note":"lúc = at (a clock time)."}
+{"id":"vi.c0212","meaning":"homework","note":"bài tập = exercises; về nhà = (to take) home."}
+{"id":"vi.c0213","meaning":"Excuse me, I have a question. (student to a female teacher)","note":"Students call a female teacher cô and say em for \"I\"."}
+{"id":"vi.c0214","meaning":"I'm sick.","note":"Hanoi word. In the South, ốm means thin; sick is bệnh."}
+{"id":"vi.c0215","meaning":"pharmacy","note":"You will also see nhà thuốc on pharmacy signs."}
+{"id":"vi.c0216","meaning":"Help me!","note":""}
+{"id":"vi.c0217","meaning":"I have a headache.","note":"bị: for things that happen to you."}
+{"id":"vi.c0218","meaning":"doctor","note":""}
+{"id":"vi.c0219","meaning":"I have a fever.","note":""}
+{"id":"vi.c0220","meaning":"I have a stomachache.","note":"đau + body part: đau đầu (head), đau bụng (belly)."}
+{"id":"vi.c0221","meaning":"It hurts here.","note":"Point as you say it."}
+{"id":"vi.c0222","meaning":"I need to see a doctor.","note":"cần = need."}
+{"id":"vi.c0223","meaning":"Call an ambulance!","note":"đi at the end: do it now."}
+{"id":"vi.c0224","meaning":"Where's the nearest hospital?","note":"gần nhất (nearest) comes after the noun."}
+{"id":"vi.c0225","meaning":"I'm allergic to seafood.","note":"Swap in your allergy: dị ứng tôm (shrimp), dị ứng lạc (peanuts)."}
+{"id":"vi.c0226","meaning":"Do you have cold medicine? (to a female pharmacist)","note":"thuốc = medicine; cảm = a cold."}
+{"id":"vi.c0227","meaning":"Take it three times a day.","note":"You will hear this at the pharmacy. uống = drink, also \"take\" (medicine)."}
+{"id":"vi.c0228","meaning":"I'm off work because I'm sick.","note":"vì gives the reason, nên gives the result; the two are often used together."}
+{"id":"vi.c0229","meaning":"Are you OK? (to a man)","note":"After a fall or an accident."}
+{"id":"vi.c0230","meaning":"I'm fine. / It's nothing.","note":"The answer to Anh có sao không?"}
+{"id":"vi.c0231","meaning":"I lost my wallet.","note":"bị again: losing something is bad luck. Phone: điện thoại."}
+{"id":"vi.c0232","meaning":"My name is Emma.","note":"Also: Tên tôi là Emma."}
+{"id":"vi.c0233","meaning":"What's your name? (to a friend)","note":"gì stays at the end, where the answer goes."}
+{"id":"vi.c0234","meaning":"I'm American.","note":"người (person) first, then the country: người Mỹ."}
+{"id":"vi.c0235","meaning":"Where are you from? (to a friend)","note":"Literally \"You are a person of which country?\""}
+{"id":"vi.c0236","meaning":"I'm from the US.","note":"đến từ = come from."}
+{"id":"vi.c0237","meaning":"I'm Vietnamese American.","note":"gốc Việt = of Vietnamese origin."}
+{"id":"vi.c0238","meaning":"I was born in the US.","note":"The verb stays the same: no \"was\" needed."}
+{"id":"vi.c0239","meaning":"I live in Hanoi.","note":""}
+{"id":"vi.c0240","meaning":"Where's your hometown? (to a friend)","note":"quê = home town, home province."}
+{"id":"vi.c0241","meaning":"I'm learning Vietnamese.","note":""}
+{"id":"vi.c0242","meaning":"I speak a little Vietnamese.","note":"verb + được: able to."}
+{"id":"vi.c0243","meaning":"I've been in Vietnam for three weeks.","note":"được + time + rồi: for (so far)."}
+{"id":"vi.c0244","meaning":"I'm thirty.","note":"No \"have\" and no là: Tôi + number + tuổi."}
+{"id":"vi.c0245","meaning":"What do you do (for work)? (to a man a little older)","note":"To a woman a little older: Chị làm nghề gì?"}
+{"id":"vi.c0246","meaning":"I'm an office worker.","note":"là joins two nouns: I = office worker."}
+{"id":"vi.c0247","meaning":"I'm not married.","note":"Literally \"I don't have a family yet.\" chưa = not yet."}
+{"id":"vi.c0248","meaning":"I'm married.","note":"Literally \"I already have a family.\""}
+{"id":"vi.c0249","meaning":"beautiful; pretty","note":""}
+{"id":"vi.c0250","meaning":"This shirt is very pretty.","note":"No là before đẹp: adjectives work like verbs."}
+{"id":"vi.c0251","meaning":"big","note":"Not the English word to."}
+{"id":"vi.c0252","meaning":"small","note":""}
+{"id":"vi.c0253","meaning":"Hanoi is colder than Saigon.","note":"adjective + hơn = more … than."}
+{"id":"vi.c0254","meaning":"It's so hot today.","note":"quá after the adjective: so, too."}
+{"id":"vi.c0255","meaning":"The pho here is really good.","note":"lắm after the adjective: very."}
+{"id":"vi.c0256","meaning":"He's very tall.","note":"rất goes before the adjective."}
+{"id":"vi.c0257","meaning":"an old motorbike","note":"cũ (old, used) comes after the noun. For people, old is già."}
+{"id":"vi.c0258","meaning":"This room is a bit small.","note":"hơi = a bit, before the adjective."}
+{"id":"vi.c0259","meaning":"This dish isn't spicy.","note":"không + adjective, with no là."}
+{"id":"vi.c0260","meaning":"He's as tall as me.","note":"adjective + bằng = as … as."}
+{"id":"vi.c0261","meaning":"the best pho place","note":"nhất (most) comes after the adjective, and both come after the noun."}
+{"id":"vi.c0262","meaning":"This one is bigger than that one.","note":"cái này / cái kia: this one / that one."}
+{"id":"vi.c0263","meaning":"Vietnamese is so hard!","note":"A common answer: Không khó lắm (It's not that hard)."}
+{"id":"vi.c0264","meaning":"She's a really nice person.","note":"là here joins two nouns: chị ấy = người rất tốt."}
+{"id":"vi.c0265","meaning":"a quiet café","note":"yên tĩnh (quiet) after the noun."}
+{"id":"vi.c0266","meaning":"What?","note":"In a sentence, gì stays where the answer goes: Anh muốn gì?"}
+{"id":"vi.c0267","meaning":"Who?","note":""}
+{"id":"vi.c0268","meaning":"Who is he?","note":"ai stays at the end, where the answer goes: Anh ấy là anh Minh."}
+{"id":"vi.c0269","meaning":"Where?","note":""}
+{"id":"vi.c0270","meaning":"Why?","note":"Answer with vì (because)."}
+{"id":"vi.c0271","meaning":"When?","note":"bao giờ means the same."}
+{"id":"vi.c0272","meaning":"Which one?","note":""}
+{"id":"vi.c0273","meaning":"How do you like Hanoi? (to a man a little older)","note":"thế nào = how, what … like. It goes at the end."}
+{"id":"vi.c0274","meaning":"Are you busy? (to a woman a little older)","note":"bận (busy) has the vowel mark â; bạn, with plain a, is a friend."}
+{"id":"vi.c0275","meaning":"You're a student, right? (to a friend)","note":"phải không at the end checks a guess. Answer Phải or Không phải."}
+{"id":"vi.c0276","meaning":"Have you been to Hue yet? (to a man a little older)","note":"Answer Rồi or Chưa, not Không."}
+{"id":"vi.c0277","meaning":"Yes, already.","note":"Answers a … chưa? question."}
+{"id":"vi.c0278","meaning":"Not yet.","note":"Answers a … chưa? question. Not Không."}
+{"id":"vi.c0279","meaning":"but","note":""}
+{"id":"vi.c0280","meaning":"Coffee or tea?","note":"In questions, \"or\" is hay."}
+{"id":"vi.c0281","meaning":"It's raining, so I'm staying home.","note":"nên = so. Add vì at the start for \"because\"."}
+{"id":"vi.c0282","meaning":"Can I take photos here?","note":"verb + được không? asks for permission."}
+{"id":"vi.c0283","meaning":"Me too.","note":"cũng = also. You will also hear Tôi cũng vậy."}
+{"id":"vi.c0284","meaning":"I'm tired.","note":"No là before an adjective: not Tôi là mệt."}
+{"id":"vi.c0285","meaning":"I'm hungry.","note":"No là: not Tôi là đói."}
+{"id":"vi.c0286","meaning":"I feel hot.","note":"Not Tôi là nóng. thấy = feel."}
+{"id":"vi.c0287","meaning":"I'm in Hanoi. / I live in Hanoi.","note":"ở already means \"be at\": not Tôi là ở Hà Nội."}
+{"id":"vi.c0288","meaning":"I'm not a teacher.","note":"The negative of là is không phải là, not không là."}
+{"id":"vi.c0289","meaning":"I'm twenty-five.","note":"No \"have\" and no là: not Tôi có hai mươi lăm tuổi."}
+{"id":"vi.c0290","meaning":"train station","note":"Not gas (gasoline is xăng). From French gare."}
+{"id":"vi.c0291","meaning":"gasoline; gas","note":"Gas for the car or motorbike. ga is a train station."}
+{"id":"vi.c0292","meaning":"sweet dessert soup; (Hanoi) tea","note":"Everywhere, chè is a sweet dessert soup. In Hanoi it can also mean tea; elsewhere tea is trà."}
+{"id":"vi.c0293","meaning":"sick (North); thin (South)","note":"In the South, sick is bệnh."}
+{"id":"vi.c0294","meaning":"This dog is really big.","note":"to means big. It has nothing to do with English to."}
+{"id":"vi.c0295","meaning":"This movie is really good.","note":"hay = good, interesting (for films, books, songs). In questions it also means \"or\"."}
+{"id":"vi.c0296","meaning":"grandmother; you (to an old woman)","note":"Not Mrs. for any woman: to a woman your parents' age, say cô."}
+{"id":"vi.c0297","meaning":"How are you? (to someone older than your parents)","note":"Never bạn to an older person: use bác, ông or bà."}
+{"id":"vi.c0298","meaning":"Excuse me! (calling someone younger)","note":"To a young waiter or shop assistant. For someone older: Anh ơi or Chị ơi."}
+{"id":"vi.c0299","meaning":"He's my friend.","note":"For a person, he is anh ấy, never nó (rude for adults)."}
+{"id":"vi.c0300","meaning":"Have you eaten? (a greeting)","note":"A friendly hello, not an invitation. Answer Rồi or Chưa."}
+{"id":"vi.c0301","meaning":"Where are you off to? (a greeting)","note":"Not nosy: a friendly hello. A vague answer is fine: Đi chợ (to the market)."}
+{"id":"vi.c0302","meaning":"Yes? / Yes. (polite)","note":"Polite answer when someone older calls you or speaks to you."}
+{"id":"vi.c0303","meaning":"Yes. (polite, northern)","note":"Agreeing politely. In the South: dạ."}
+{"id":"vi.c0304","meaning":"Yes, that's fine. (polite)","note":"Bare Được or Ừ to an older person sounds rude."}
+{"id":"vi.c0305","meaning":"No, thank you. (polite)","note":"A polite no to someone older."}
+{"id":"vi.c0306","meaning":"Thank you. (polite, to an older woman)","note":"ạ at the end shows respect to someone older."}
+{"id":"vi.c0307","meaning":"I'm sorry. (to a woman a little older)","note":"Name yourself and the listener: em … chị."}
+{"id":"vi.c0308","meaning":"Please come in. (to a man)","note":"mời = invite: offering, not asking."}
+{"id":"vi.c0309","meaning":"Please have a seat. (to a woman your parents' age)","note":"mời + person + verb."}
+{"id":"vi.c0310","meaning":"Please, go ahead and eat. (to an older relative)","note":"At a family meal, the young invite the old to start."}
+{"id":"vi.c0311","meaning":"Excuse me! (calling a man)","note":"To call a waiter or a driver. Someone younger: Em ơi! A woman: Chị ơi!"}
+{"id":"vi.c0312","meaning":"Excuse me, can I ask you something? (to a woman a little older)","note":"cho em hỏi: let me ask. Then your question."}
+{"id":"vi.c0313","meaning":"Excuse me, may I ask? (to a stranger, formal)","note":"làm ơn = please, for a favor from a stranger. Not needed with friends."}
+{"id":"vi.c0314","meaning":"Could I have a glass of water, please? (to someone older)","note":"Cho em xin … ạ: the polite way to ask for something."}
+{"id":"vi.c0315","meaning":"Could you speak a little more slowly? (politely, to a woman a little older)","note":"được không ạ softens it into a polite question."}
+{"id":"vi.c0316","meaning":"Wait for me a moment, OK? (to a woman a little older)","note":"Name the listener first; nhé softens: OK?, all right? In the South: nha."}
+{"id":"vi.c0317","meaning":"Please wait a moment. (formal)","note":"What staff say on the phone or at a counter."}
+{"id":"vi.c0318","meaning":"Hello. (polite, to an old woman)","note":"cháu (I) + chào + bà + ạ: how children and young people greet an old woman."}
+{"id":"vi.c0319","meaning":"Excuse me, I'll be going now. (to an older person)","note":"xin phép = ask permission: the polite way to leave."}
+{"id":"vi.c0320","meaning":"You're such a good cook! (to a host your parents' age)","note":"A guest (cháu) to a woman host. To a man: Chú nấu ăn ngon quá!"}
+{"id":"vi.c0321","meaning":"This dish is really delicious!","note":"No pronoun, so it is safe with anyone."}
+{"id":"vi.c0322","meaning":"I'm full, it was delicious.","note":"A guest to an older host. A guest is expected to praise the meal."}
+{"id":"vi.c0323","meaning":"Good job!","note":"From older to younger, or between friends."}
+{"id":"vi.c0324","meaning":"You're really good at this!","note":"em to a man a little older. To a woman: Chị giỏi thật đấy!"}
+{"id":"vi.c0325","meaning":"That's a great idea!","note":"Anyone."}
+{"id":"vi.c0326","meaning":"Wonderful!","note":"Anyone, any good result."}
+{"id":"vi.c0327","meaning":"You work really fast!","note":"em to a woman a little older. To a man: Anh làm nhanh thật!"}
+{"id":"vi.c0328","meaning":"You've worked really hard.","note":"An older person to a younger one, praising effort rather than results."}
+{"id":"vi.c0329","meaning":"You're so hard-working!","note":"An older person to em; hard work is a top virtue."}
+{"id":"vi.c0330","meaning":"You're so kind.","note":"em to a woman a little older. To a man: Anh tốt bụng quá."}
+{"id":"vi.c0331","meaning":"You're so much fun!","note":"The usual \"you're funny\". To a woman: Chị vui tính quá!"}
+{"id":"vi.c0332","meaning":"You're really smart!","note":"To a friend your age."}
+{"id":"vi.c0333","meaning":"You're so sweet!","note":"Lovely in manner; to a woman a little older. To a man: Anh dễ thương quá!"}
+{"id":"vi.c0334","meaning":"You sing beautifully!","note":"Often heard at karaoke. To a man: Anh hát hay quá!"}
+{"id":"vi.c0335","meaning":"You look lovely in your ao dai!","note":"em to a woman a little older."}
+{"id":"vi.c0336","meaning":"That top really suits you.","note":"em to a woman a little older. To a man: …hợp với anh lắm."}
+{"id":"vi.c0337","meaning":"You look so young!","note":"One of the best compliments in Vietnam. To a man: Trông anh trẻ quá!"}
+{"id":"vi.c0338","meaning":"What a lovely photo!","note":"Anyone; for a photo on a phone or on the wall."}
+{"id":"vi.c0339","meaning":"Your home is so beautiful!","note":"A guest to a woman host. To a man: Nhà anh đẹp quá!"}
+{"id":"vi.c0340","meaning":"Your home is so cozy.","note":"A guest (cháu) to a woman your parents' age. To a man: Nhà chú…"}
+{"id":"vi.c0341","meaning":"Your child is so well-behaved!","note":"ngoan (good, obedient) is the praise parents want. To a man: Con anh ngoan quá!"}
+{"id":"vi.c0342","meaning":"The baby is so adorable!","note":"Some older people avoid praising babies directly, from an old belief."}
+{"id":"vi.c0343","meaning":"You speak Vietnamese like a native!","note":"What people tell the learner. To a woman: Chị nói…"}
+{"id":"vi.c0344","meaning":"Your Vietnamese is so fluent!","note":"sõi = fluent (of a second language). To a man: Anh nói tiếng Việt sõi quá!"}
+{"id":"vi.c0345","meaning":"Not at all, I still have a lot to learn.","note":"The expected modest reply to praise."}
+{"id":"vi.c0346","meaning":"You flatter me.","note":"Lit. \"you praise too much\". To a woman: Chị quá khen rồi."}
+{"id":"vi.c0347","meaning":"Thank you for the compliment.","note":"Polite em to a woman a little older, with ạ. To a man: Em cảm ơn anh đã khen ạ."}
+{"id":"vi.c0348","meaning":"It's nothing special.","note":"Downplays your cooking or your work; the modest answer."}
+{"id":"vi.c0349","meaning":"You're making me blush.","note":"Lit. \"you say that and I'm embarrassed\". To a man: Anh nói thế…"}
+{"id":"vi.c0350","meaning":"Oh, it's nothing. (very polite)","note":"Lit. \"I wouldn't dare\". Polite and a little old-fashioned; to elders."}
+{"id":"vi.c0351","meaning":"pretty","note":"About a woman, girl or child; not said of men. Mild."}
+{"id":"vi.c0352","meaning":"beautiful; lovely","note":"About a woman. Warmer than xinh."}
+{"id":"vi.c0353","meaning":"handsome","note":"Only about a man. Mild to warm."}
+{"id":"vi.c0354","meaning":"cute; sweet (in looks or manner)","note":"Anyone, very common. Mild."}
+{"id":"vi.c0355","meaning":"adorable; lovable","note":"Anyone. Warm."}
+{"id":"vi.c0356","meaning":"charming (natural grace)","note":"Mostly about a woman; a compliment people treasure. Warm."}
+{"id":"vi.c0357","meaning":"sweet (in words or manner)","note":"Anyone. Warm, a little romantic."}
+{"id":"vi.c0358","meaning":"gentle; tender","note":"Usually about a woman. Warm."}
+{"id":"vi.c0359","meaning":"romantic","note":"Anyone. Mild."}
+{"id":"vi.c0360","meaning":"gallant; a gentleman","note":"Only about a man; from French galant. Warm."}
+{"id":"vi.c0361","meaning":"funny; witty","note":"Anyone. Mild."}
+{"id":"vi.c0362","meaning":"fun to be with; good-humored","note":"Anyone. Mild."}
+{"id":"vi.c0363","meaning":"clever; smart","note":"Anyone. Mild."}
+{"id":"vi.c0364","meaning":"kind-hearted","note":"Anyone. Mild."}
+{"id":"vi.c0365","meaning":"attractive; alluring","note":"Anyone. Bold; fine for adults, not crude."}
+{"id":"vi.c0366","meaning":"smile","note":"Classifier built in. Safe to praise. Mild."}
+{"id":"vi.c0367","meaning":"eyes","note":"đôi mắt = (a pair of) eyes, softer and more poetic. Warm."}
+{"id":"vi.c0368","meaning":"hair (on the head)","note":"mái tóc = (a head of) hair, more poetic. Mild."}
+{"id":"vi.c0369","meaning":"voice","note":"giọng nói = speaking voice; giọng Hà Nội = a Hanoi accent. Mild."}
+{"id":"vi.c0370","meaning":"taste; type; style","note":"From French goût: đúng gu = just my type."}
+{"id":"vi.c0371","meaning":"sweetheart; boyfriend; girlfriend","note":"The everyday word for a partner you are dating."}
+{"id":"vi.c0372","meaning":"date; go on a date","note":"Đi hẹn hò = go on a date."}
+{"id":"vi.c0373","meaning":"flirt; court (someone)","note":"Standard word. Mild."}
+{"id":"vi.c0374","meaning":"flirt (slang, \"throw out bait\")","note":"Young people, playful; online and in person."}
+{"id":"vi.c0375","meaning":"You're so pretty! (he says to her)","note":"A woman says to a man: Anh đẹp trai quá! Warm."}
+{"id":"vi.c0376","meaning":"You look really pretty today. (he says to her)","note":"A woman to a man: Hôm nay anh đẹp trai lắm. Warm."}
+{"id":"vi.c0377","meaning":"You look beautiful tonight. (he says to her)","note":"On a date. A woman to a man: Tối nay anh đẹp trai lắm. Warm."}
+{"id":"vi.c0378","meaning":"You're so handsome! (she says to him)","note":"A man to a woman: Em xinh quá! Warm."}
+{"id":"vi.c0379","meaning":"You look so handsome today! (she says to him)","note":"thế adds surprise. A man to a woman: Hôm nay em xinh thế! Warm."}
+{"id":"vi.c0380","meaning":"You're so cute. (he says to her)","note":"A woman to a man: Anh dễ thương quá. Mild."}
+{"id":"vi.c0381","meaning":"You're really adorable. (he says to her)","note":"A woman to a man: Anh đáng yêu thật đấy. Warm."}
+{"id":"vi.c0382","meaning":"You're really charming. (he says to her)","note":"A woman to a man usually says Anh vui tính lắm. Warm."}
+{"id":"vi.c0383","meaning":"You have such a pretty smile. (he says to her)","note":"Lit. \"you smile so prettily\". A woman to a man: Anh cười đẹp lắm. Warm."}
+{"id":"vi.c0384","meaning":"I love your smile. (he says to her)","note":"A woman to a man: Em thích nụ cười của anh. Warm."}
+{"id":"vi.c0385","meaning":"Your eyes are so beautiful. (he says to her)","note":"A woman to a man: Mắt anh đẹp quá. Warm to bold."}
+{"id":"vi.c0386","meaning":"You have such a lovely voice. (he says to her)","note":"hay is the word for voices and songs. A woman to a man: Giọng anh hay quá. Mild."}
+{"id":"vi.c0387","meaning":"That hairstyle really suits you. (he says to her)","note":"A woman to a man: Anh để tóc này hợp lắm. Mild."}
+{"id":"vi.c0388","meaning":"That color really suits you. (he says to her)","note":"A woman to a man: Anh mặc màu này hợp lắm. Mild."}
+{"id":"vi.c0389","meaning":"You're just my type. (he says to her)","note":"A woman to a man: Anh đúng gu của em. Bold."}
+{"id":"vi.c0390","meaning":"You're so funny! (she says to him)","note":"A man to a woman: Em hài hước quá! Mild."}
+{"id":"vi.c0391","meaning":"You always make me laugh. (he says to her)","note":"A woman to a man: Anh làm em cười suốt. Warm."}
+{"id":"vi.c0392","meaning":"I really enjoy talking with you. (he says to her)","note":"A woman to a man: Nói chuyện với anh vui lắm. Mild."}
+{"id":"vi.c0393","meaning":"You're really smart. (he says to her)","note":"A woman to a man: Anh thông minh thật. Mild."}
+{"id":"vi.c0394","meaning":"You're such a gentleman. (she says to him)","note":"Only said to a man, for example when he opens a door or pays. Warm."}
+{"id":"vi.c0395","meaning":"You're so romantic! (she says to him)","note":"A man to a woman: Em lãng mạn quá! Warm."}
+{"id":"vi.c0396","meaning":"You're so gentle. (he says to her)","note":"Usually said to a woman. Warm."}
+{"id":"vi.c0397","meaning":"Do you have a boyfriend? (he asks her)","note":"Common and fairly direct in Vietnam. A woman asks: Anh có người yêu chưa? Warm."}
+{"id":"vi.c0398","meaning":"Can I have your number? (he asks her)","note":"Many people swap Zalo (the chat app) instead. A woman asks: Cho em xin số điện thoại của anh nhé? Warm."}
+{"id":"vi.c0399","meaning":"Shall we go for coffee?","note":"Either speaker; mình = you and me. Coffee is the classic first date. Mild."}
+{"id":"vi.c0400","meaning":"Are you free this weekend? (he asks her)","note":"A woman asks: Cuối tuần này anh có rảnh không? Mild."}
+{"id":"vi.c0401","meaning":"Have dinner with me tonight? (he asks her)","note":"A woman asks: Tối nay đi ăn với em nhé? Warm."}
+{"id":"vi.c0402","meaning":"I'm really glad you came. (he says to her)","note":"A woman to a man: Em rất vui vì anh đến. Warm."}
+{"id":"vi.c0403","meaning":"I'd like to see you again. (he says to her)","note":"A woman to a man: Em muốn gặp lại anh. Warm."}
+{"id":"vi.c0404","meaning":"I miss you. (he says to her)","note":"For someone you are already seeing. A woman to a man: Em nhớ anh. Warm."}
+{"id":"vi.c0405","meaning":"I can't stop thinking about you. (he says to her)","note":"A woman to a man: Em nghĩ về anh suốt. Bold."}
+{"id":"vi.c0406","meaning":"I like you (romantically). (he says to her)","note":"A confession; Anh yêu em (I love you) is much stronger. A woman: Em thích anh. Bold."}
+{"id":"vi.c0407","meaning":"Will you be my girlfriend? (he asks her)","note":"The classic ask. A woman asks: Làm người yêu em nhé? Bold."}
+{"id":"vi.c0408","meaning":"You're such a flatterer! (she says to him)","note":"A playful deflection, often with a smile. A man: Em khéo nịnh quá! Mild."}
+{"id":"vi.c0409","meaning":"You're such a smooth talker! (she says to him)","note":"Teasing, not a no. A man: Em dẻo miệng quá! Mild."}
+{"id":"vi.c0410","meaning":"You too. (she says to him)","note":"Returns the compliment warmly. A man: Em cũng thế. Warm."}
+{"id":"vi.c0411","meaning":"That makes me happy, thank you. (she says to him)","note":"A warm acceptance. A man: Anh vui lắm, cảm ơn em. Warm."}
+{"id":"vi.c0412","meaning":"Sure, I'd love to. (she says to him)","note":"The yes to an invitation. A man: Được chứ, anh rất thích. Warm."}
+{"id":"vi.c0413","meaning":"Let me think about it. (she says to him)","note":"Not yes, not no; a polite way to slow down. A man: Để anh nghĩ đã. Mild."}
+{"id":"vi.c0414","meaning":"Thanks, but I'm seeing someone. (she says to him)","note":"Kind and clear no. A man: Cảm ơn em, nhưng anh có người yêu rồi."}
+{"id":"vi.c0415","meaning":"Sorry, I only see you as a friend. (she says to him)","note":"The usual gentle no. A man: Xin lỗi, anh chỉ coi em là bạn thôi."}
+{"id":"vi.c0416","meaning":"You're really nice, but we're not right for each other. (she says to him)","note":"Kind, clear no after a date or two. A man: Em tốt lắm, nhưng mình không hợp nhau đâu."}
+{"id":"vi.c0417","meaning":"Thanks, but I can't go. (she says to him)","note":"A soft no to an invitation; repeating it means no. A man: Cảm ơn em, nhưng anh không đi được."}
+{"id":"vi.c0418","meaning":"water; country","note":"uống nước = drink water; nước ngoài = abroad."}
+{"id":"vi.c0419","meaning":"head; beginning","note":"đầu tuần = the start of the week."}
+{"id":"vi.c0420","meaning":"number","note":"số điện thoại = phone number."}
+{"id":"vi.c0421","meaning":"task; matter; job","note":"Tôi có việc bận. = I have something to do."}
+{"id":"vi.c0422","meaning":"school","note":"Short for trường học. đi học = go to school."}
+{"id":"vi.c0423","meaning":"thing (said or done); point","note":"Một điều nữa… = One more thing…"}
+{"id":"vi.c0424","meaning":"way; method","note":"cách làm = how to do it."}
+{"id":"vi.c0425","meaning":"goods; shop; row","note":"hàng ăn = food stall; xếp hàng = to line up."}
+{"id":"vi.c0426","meaning":"newspaper","note":"đọc báo = read the paper."}
+{"id":"vi.c0427","meaning":"language; sound; hour (spoken)","note":"tiếng Việt; hai tiếng = two hours."}
+{"id":"vi.c0428","meaning":"road; street; sugar","note":"Two words that sound the same; context tells."}
+{"id":"vi.c0429","meaning":"price","note":"Giá bao nhiêu? = What's the price?"}
+{"id":"vi.c0430","meaning":"time (occasion)","note":"một lần = once; lần sau = next time."}
+{"id":"vi.c0431","meaning":"face; surface","note":"rửa mặt = wash your face."}
+{"id":"vi.c0432","meaning":"name","note":"Tên tôi là Minh. = My name is Minh."}
+{"id":"vi.c0433","meaning":"side","note":"bên này = this side; bên kia = the other side."}
+{"id":"vi.c0434","meaning":"story; matter; chat","note":"Có chuyện gì thế? = What's up?"}
+{"id":"vi.c0435","meaning":"tree; plant","note":"Also a classifier for long things: cây bút (a pen)."}
+{"id":"vi.c0436","meaning":"place (a little formal)","note":"In speech people often say chỗ."}
+{"id":"vi.c0437","meaning":"room","note":"phòng ngủ = bedroom; phòng tắm = bathroom."}
+{"id":"vi.c0438","meaning":"money","note":"Bao nhiêu tiền? = How much is it?"}
+{"id":"vi.c0439","meaning":"illness; disease","note":"bị bệnh = to be ill. North, for a cold: bị ốm."}
+{"id":"vi.c0440","meaning":"age; years old","note":"Em bao nhiêu tuổi? = How old are you? (to someone younger)"}
+{"id":"vi.c0441","meaning":"electricity","note":"mất điện = a power outage."}
+{"id":"vi.c0442","meaning":"photo","note":"chụp ảnh = take a photo. South: hình."}
+{"id":"vi.c0443","meaning":"street (in town)","note":"Hanoi: phố Huế, phố cổ (the Old Quarter)."}
+{"id":"vi.c0444","meaning":"machine","note":"máy bay = plane; máy tính = computer."}
+{"id":"vi.c0445","meaning":"lesson; song; article","note":"bài hát = song; bài tập = exercise."}
+{"id":"vi.c0446","meaning":"guest; customer","note":"khách du lịch = tourist."}
+{"id":"vi.c0447","meaning":"door","note":"mở cửa = open the door; also: a shop opens."}
+{"id":"vi.c0448","meaning":"sentence","note":"câu hỏi = question; câu trả lời = answer."}
+{"id":"vi.c0449","meaning":"life; lifetime","note":"cả đời = all your life."}
+{"id":"vi.c0450","meaning":"sea; beach","note":"đi biển = go to the beach."}
+{"id":"vi.c0451","meaning":"wife","note":"Classifier: người. vợ chồng = husband and wife."}
+{"id":"vi.c0452","meaning":"husband","note":"Classifier: người. Casual and affectionate: ông xã."}
+{"id":"vi.c0453","meaning":"father (formal)","note":"Everyday in the North: bố; in the South: ba."}
+{"id":"vi.c0454","meaning":"things; stuff","note":"đồ ăn = food; đồ uống = drinks."}
+{"id":"vi.c0455","meaning":"place; spot; seat","note":"Chỗ này có ai ngồi không? = Is this seat taken?"}
+{"id":"vi.c0456","meaning":"cooked rice; meal","note":"ăn cơm = to eat (a meal)."}
+{"id":"vi.c0457","meaning":"meat","note":"thịt bò = beef; thịt lợn = pork (South: thịt heo)."}
+{"id":"vi.c0458","meaning":"cake; pastry; snack","note":"Many dishes: bánh mì, bánh cuốn, bánh xèo."}
+{"id":"vi.c0459","meaning":"tea","note":"trà đá = iced tea, the street-corner drink."}
+{"id":"vi.c0460","meaning":"small restaurant; shop","note":"quán phở, quán cà phê."}
+{"id":"vi.c0461","meaning":"market","note":"đi chợ = go food shopping."}
+{"id":"vi.c0462","meaning":"shirt; top","note":"áo khoác = jacket. Classifier: cái or chiếc."}
+{"id":"vi.c0463","meaning":"pants; trousers","note":"quần áo = clothes."}
+{"id":"vi.c0464","meaning":"shoes","note":"một đôi giày = a pair of shoes; one shoe: chiếc giày."}
+{"id":"vi.c0465","meaning":"hat","note":"South: nón. mũ bảo hiểm = motorbike helmet."}
+{"id":"vi.c0466","meaning":"rain","note":"Trời mưa. = It's raining. Not mua (to buy)."}
+{"id":"vi.c0467","meaning":"sunshine","note":"Trời nắng. = It's sunny."}
+{"id":"vi.c0468","meaning":"mountain","note":"leo núi = to climb a mountain."}
+{"id":"vi.c0469","meaning":"river","note":"sông Hồng = the Red River."}
+{"id":"vi.c0470","meaning":"lake","note":"Hồ Gươm, Hồ Tây in Hanoi."}
+{"id":"vi.c0471","meaning":"music","note":"nghe nhạc = listen to music."}
+{"id":"vi.c0472","meaning":"movie; film","note":"xem phim = watch a movie."}
+{"id":"vi.c0473","meaning":"gift; present","note":"tặng quà = give a present."}
+{"id":"vi.c0474","meaning":"dish (of food)","note":"món này = this dish; món ăn = a dish."}
+{"id":"vi.c0475","meaning":"meal","note":"bữa sáng = breakfast; bữa tối = dinner."}
+{"id":"vi.c0476","meaning":"letter; written word","note":"chữ Việt = Vietnamese writing."}
+{"id":"vi.c0477","meaning":"text message","note":"gửi tin nhắn = send a text."}
+{"id":"vi.c0478","meaning":"family","note":"Also \"married with a family\": có gia đình."}
+{"id":"vi.c0479","meaning":"time (in general)","note":"Tôi không có thời gian. = I don't have time."}
+{"id":"vi.c0480","meaning":"work; job (in general)","note":"Công việc thế nào? = How's work?"}
+{"id":"vi.c0481","meaning":"city","note":"Thành phố Hồ Chí Minh = Ho Chi Minh City."}
+{"id":"vi.c0482","meaning":"restaurant (sit-down)","note":"A street stall is a quán."}
+{"id":"vi.c0483","meaning":"shop; store","note":"South: tiệm."}
+{"id":"vi.c0484","meaning":"hospital","note":"Bệnh viện gần nhất ở đâu? is already a card."}
+{"id":"vi.c0485","meaning":"friends","note":"bạn bè tôi = my friends."}
+{"id":"vi.c0486","meaning":"boyfriend","note":"Also simply a male friend, from context."}
+{"id":"vi.c0487","meaning":"girlfriend","note":"Also simply a female friend, from context."}
+{"id":"vi.c0488","meaning":"children (in general)","note":"Your own children: con."}
+{"id":"vi.c0489","meaning":"baby","note":"Also a small child."}
+{"id":"vi.c0490","meaning":"problem; issue","note":"Không có vấn đề gì. = No problem at all."}
+{"id":"vi.c0491","meaning":"opinion; idea","note":"Ý kiến của anh thế nào? = What do you think?"}
+{"id":"vi.c0492","meaning":"life (daily living)","note":"cuộc sống ở Hà Nội = life in Hanoi."}
+{"id":"vi.c0493","meaning":"world","note":"trên thế giới = in the world."}
+{"id":"vi.c0494","meaning":"country (homeland)","note":"đất nước Việt Nam."}
+{"id":"vi.c0495","meaning":"village","note":"Classifier: ngôi. A rural home village is also quê."}
+{"id":"vi.c0496","meaning":"class (group of students)","note":"lớp học = classroom."}
+{"id":"vi.c0497","meaning":"employee; staff member","note":"Call a shop assistant em or anh / chị, not nhân viên."}
+{"id":"vi.c0498","meaning":"police officer","note":"Also công an (the police in general)."}
+{"id":"vi.c0499","meaning":"weather","note":"Thời tiết hôm nay thế nào? = How's the weather today?"}
+{"id":"vi.c0500","meaning":"toilet; restroom","note":"Nhà vệ sinh ở đâu? is already a card."}
+{"id":"vi.c0501","meaning":"key","note":"Traditional mark placement: khóa (also written khoá)."}
+{"id":"vi.c0502","meaning":"clock; watch","note":"đồng hồ đeo tay = wristwatch."}
+{"id":"vi.c0503","meaning":"train; ship","note":"tàu hỏa = train; South: xe lửa."}
+{"id":"vi.c0504","meaning":"airplane","note":"đi máy bay = fly (by plane)."}
+{"id":"vi.c0505","meaning":"Tet (Lunar New Year)","note":"ăn Tết = celebrate Tet."}
+{"id":"vi.c0506","meaning":"birthday","note":"Chúc mừng sinh nhật! = Happy birthday!"}
+{"id":"vi.c0507","meaning":"have; there is","note":"Vietnamese verbs never change: có is have, has, had. Không có = don't have."}
+{"id":"vi.c0508","meaning":"be (A is B)","note":"Only between two nouns, never before an adjective."}
+{"id":"vi.c0509","meaning":"get; may; can","note":"Được không? = Is that OK? Also after a verb: can."}
+{"id":"vi.c0510","meaning":"go out; come out","note":"ra ngoài = go outside; ra sân bay = go out to the airport."}
+{"id":"vi.c0511","meaning":"come; arrive","note":"Also \"to, until\": từ thứ hai đến thứ sáu."}
+{"id":"vi.c0512","meaning":"go in; come in","note":"Mời anh vào. = Please come in."}
+{"id":"vi.c0513","meaning":"go back; go home","note":"Also \"about\": nói về Hà Nội."}
+{"id":"vi.c0514","meaning":"do; make; work","note":"làm gì? = do what?; làm bánh = make cakes."}
+{"id":"vi.c0515","meaning":"must; have to","note":"Phải không? = right? Phải. = That's right."}
+{"id":"vi.c0516","meaning":"suffer (something bad)","note":"bị ốm = be sick; bị mất ví = have your wallet stolen."}
+{"id":"vi.c0517","meaning":"speak; say","note":"nói tiếng Việt = speak Vietnamese."}
+{"id":"vi.c0518","meaning":"go up; get on","note":"lên xe = get on (a bus, a bike)."}
+{"id":"vi.c0519","meaning":"study; learn","note":"học tiếng Việt = learn Vietnamese."}
+{"id":"vi.c0520","meaning":"know; know how to","note":"biết + verb = can (a skill): biết bơi."}
+{"id":"vi.c0521","meaning":"see; feel; find (think)","note":"Tôi thấy mệt. = I feel tired."}
+{"id":"vi.c0522","meaning":"receive; accept","note":"nhận quà = get a present."}
+{"id":"vi.c0523","meaning":"want","note":"muốn + verb: muốn đi = want to go."}
+{"id":"vi.c0524","meaning":"need","note":"cần + noun or verb: cần giúp = need help."}
+{"id":"vi.c0525","meaning":"look for; find","note":"Tôi đang tìm khách sạn. = I'm looking for a hotel."}
+{"id":"vi.c0526","meaning":"live","note":"sống ở Hà Nội = live in Hanoi."}
+{"id":"vi.c0527","meaning":"hand; give; take (someone)","note":"đưa em đi = take you (there)."}
+{"id":"vi.c0528","meaning":"go down; get off","note":"xuống xe = get off."}
+{"id":"vi.c0529","meaning":"ask","note":"Cho em hỏi… = May I ask…"}
+{"id":"vi.c0530","meaning":"take; get","note":"Tôi lấy cái này. = I'll take this one."}
+{"id":"vi.c0531","meaning":"look at","note":"nhìn kìa! = look!"}
+{"id":"vi.c0532","meaning":"call","note":"gọi điện = phone; gọi món = order food."}
+{"id":"vi.c0533","meaning":"pay; give back","note":"trả tiền = pay; trả lại = give back."}
+{"id":"vi.c0534","meaning":"hit; play (some games)","note":"đánh răng = brush your teeth."}
+{"id":"vi.c0535","meaning":"listen; hear","note":"nghe nhạc = listen to music."}
+{"id":"vi.c0536","meaning":"play; hang out","note":"đi chơi = go out (for fun)."}
+{"id":"vi.c0537","meaning":"help","note":"Anh giúp em được không? = Could you help me?"}
+{"id":"vi.c0538","meaning":"watch; look at","note":"xem phim = watch a movie."}
+{"id":"vi.c0539","meaning":"like","note":"Not for polite requests: use muốn or Cho tôi…"}
+{"id":"vi.c0540","meaning":"tell (a story)","note":"kể chuyện = tell a story."}
+{"id":"vi.c0541","meaning":"ask for (politely)","note":"Xin lỗi = sorry; Cho em xin… = May I have…"}
+{"id":"vi.c0542","meaning":"love","note":"Anh yêu em. is strong: \"I love you\"."}
+{"id":"vi.c0543","meaning":"lose; take (time)","note":"mất ba tiếng = it takes three hours."}
+{"id":"vi.c0544","meaning":"change; exchange","note":"đổi tiền = change money."}
+{"id":"vi.c0545","meaning":"carry; bring","note":"mang theo = bring along."}
+{"id":"vi.c0546","meaning":"meet","note":"Rất vui được gặp anh. = Nice to meet you."}
+{"id":"vi.c0547","meaning":"die","note":"Thôi chết! = Oh no! (a set exclamation)."}
+{"id":"vi.c0548","meaning":"think","note":"Em nghĩ là… = I think that…"}
+{"id":"vi.c0549","meaning":"stand","note":"đứng dậy = stand up."}
+{"id":"vi.c0550","meaning":"open; turn on","note":"mở cửa = open the door; mở nhạc = put music on."}
+{"id":"vi.c0551","meaning":"put up with; stand","note":"Tôi chịu. = I give up (I can't answer)."}
+{"id":"vi.c0552","meaning":"use","note":"dùng đũa = use chopsticks."}
+{"id":"vi.c0553","meaning":"keep; hold","note":"Giữ cho em cái này. = Keep this for me."}
+{"id":"vi.c0554","meaning":"put; book","note":"đặt bàn = book a table."}
+{"id":"vi.c0555","meaning":"write","note":"viết thư = write a letter."}
+{"id":"vi.c0556","meaning":"worry; take care of","note":"Đừng lo. = Don't worry."}
+{"id":"vi.c0557","meaning":"be afraid","note":"sợ chó = be afraid of dogs."}
+{"id":"vi.c0558","meaning":"sit","note":"Mời anh ngồi. = Please sit down."}
+{"id":"vi.c0559","meaning":"move; transfer","note":"chuyển nhà = move house."}
+{"id":"vi.c0560","meaning":"understand","note":"Em không hiểu. = I don't understand."}
+{"id":"vi.c0561","meaning":"drink","note":"uống cà phê = drink coffee."}
+{"id":"vi.c0562","meaning":"read","note":"đọc sách = read (a book)."}
+{"id":"vi.c0563","meaning":"wait (for)","note":"Hanoi everyday word; also chờ."}
+{"id":"vi.c0564","meaning":"cook","note":"nấu ăn = to cook (in general)."}
+{"id":"vi.c0565","meaning":"run","note":"chạy bộ = go jogging."}
+{"id":"vi.c0566","meaning":"wear (clothes)","note":"For hats: đội; for shoes: đi."}
+{"id":"vi.c0567","meaning":"bathe; shower","note":"tắm biển = swim in the sea."}
+{"id":"vi.c0568","meaning":"forget","note":"Em quên mất rồi. = I forgot."}
+{"id":"vi.c0569","meaning":"remember; miss","note":"Nhớ gọi cho anh nhé. = Remember to call me."}
+{"id":"vi.c0570","meaning":"laugh; smile","note":"cười to = laugh out loud."}
+{"id":"vi.c0571","meaning":"cry","note":"Đừng khóc. = Don't cry."}
+{"id":"vi.c0572","meaning":"teach","note":"dạy tiếng Anh = teach English."}
+{"id":"vi.c0573","meaning":"rest; take time off","note":"nghỉ làm = take a day off."}
+{"id":"vi.c0574","meaning":"send","note":"gửi tin nhắn = send a text."}
+{"id":"vi.c0575","meaning":"believe; trust","note":"Tôi tin anh. = I believe you."}
+{"id":"vi.c0576","meaning":"wish","note":"Chúc anh ngủ ngon. = Good night (wishing you sleep well)."}
+{"id":"vi.c0577","meaning":"invite; offer","note":"Mời chị ăn. = Please eat (as a host)."}
+{"id":"vi.c0578","meaning":"drive","note":"lái xe = drive (a car, a motorbike)."}
+{"id":"vi.c0579","meaning":"try","note":"ăn thử = try (a food); mặc thử = try on."}
+{"id":"vi.c0580","meaning":"come back; go back","note":"Em sẽ quay lại. = I'll be back."}
+{"id":"vi.c0581","meaning":"close; shut","note":"đóng cửa = close the door; a shop closes."}
+{"id":"vi.c0582","meaning":"wash","note":"rửa tay = wash your hands. Clothes: giặt."}
+{"id":"vi.c0583","meaning":"get up","note":"ngủ dậy = wake up and get up."}
+{"id":"vi.c0584","meaning":"begin; start","note":"bắt đầu học = start studying."}
+{"id":"vi.c0585","meaning":"work (at a job)","note":"làm việc ở ngân hàng = work at a bank."}
+{"id":"vi.c0586","meaning":"can; be able to","note":"có thể + verb. For skills, biết is more natural."}
+{"id":"vi.c0587","meaning":"take (a photo)","note":"chụp ảnh = take a photo."}
+{"id":"vi.c0588","meaning":"sing","note":"hát karaoke is a favorite night out."}
+{"id":"vi.c0589","meaning":"swim","note":"đi bơi = go swimming."}
+{"id":"vi.c0590","meaning":"jump; dance","note":"nhảy múa = dance."}
+{"id":"vi.c0591","meaning":"new","note":"Also \"just\" before a verb: Tôi mới đến. = I've just arrived."}
+{"id":"vi.c0592","meaning":"different; other","note":"cái khác = another one."}
+{"id":"vi.c0593","meaning":"tall; high","note":"Adjectives need no là: Anh ấy cao."}
+{"id":"vi.c0594","meaning":"big; grown-up","note":"In the North, to is the everyday \"big\"."}
+{"id":"vi.c0595","meaning":"strong","note":"uống thuốc cho mạnh = take medicine to get strong."}
+{"id":"vi.c0596","meaning":"young","note":"Trông chị trẻ quá! is a favorite compliment."}
+{"id":"vi.c0597","meaning":"difficult","note":"Tiếng Việt khó quá! is already a card."}
+{"id":"vi.c0598","meaning":"yellow; gold","note":"màu vàng = yellow (the color)."}
+{"id":"vi.c0599","meaning":"long","note":"tóc dài = long hair."}
+{"id":"vi.c0600","meaning":"good (in quality or character)","note":"For food use ngon; for skill use giỏi."}
+{"id":"vi.c0601","meaning":"right; correct","note":"Đúng rồi! = That's right!"}
+{"id":"vi.c0602","meaning":"far","note":"xa + place: far from."}
+{"id":"vi.c0603","meaning":"clear","note":"nói rõ = speak clearly."}
+{"id":"vi.c0604","meaning":"happy; fun","note":"Vui quá! = What fun!"}
+{"id":"vi.c0605","meaning":"crowded","note":"Also \"east\" and \"winter\" (mùa đông)."}
+{"id":"vi.c0606","meaning":"tasty; delicious","note":"For food and drink only."}
+{"id":"vi.c0607","meaning":"easy","note":"dễ hiểu = easy to understand."}
+{"id":"vi.c0608","meaning":"well; healthy; strong","note":"Anh khỏe không? = How are you?"}
+{"id":"vi.c0609","meaning":"tired","note":"rất mệt; mệt quá."}
+{"id":"vi.c0610","meaning":"hungry","note":"Em đói rồi. = I'm hungry."}
+{"id":"vi.c0611","meaning":"full (after eating)","note":"Not the English \"no\". Cháu no rồi ạ. = I'm full."}
+{"id":"vi.c0612","meaning":"sad; bored","note":"buồn ngủ = sleepy."}
+{"id":"vi.c0613","meaning":"hot","note":"Also of temper: nóng tính."}
+{"id":"vi.c0614","meaning":"cold","note":"Hà Nội lạnh hơn Sài Gòn."}
+{"id":"vi.c0615","meaning":"cool (pleasantly)","note":"Trời mát. = It's nice and cool."}
+{"id":"vi.c0616","meaning":"warm","note":"áo ấm = a warm coat."}
+{"id":"vi.c0617","meaning":"expensive","note":"South: mắc. Đắt quá! is already a card."}
+{"id":"vi.c0618","meaning":"cheap","note":"Rẻ quá! is already a card."}
+{"id":"vi.c0619","meaning":"fast; quick","note":"Also: nhanh lên! = hurry up!"}
+{"id":"vi.c0620","meaning":"slow","note":"nói chậm = speak slowly."}
+{"id":"vi.c0621","meaning":"clean","note":"sạch sẽ = nice and clean."}
+{"id":"vi.c0622","meaning":"dirty","note":"South: dơ."}
+{"id":"vi.c0623","meaning":"old (of things)","note":"For people: già."}
+{"id":"vi.c0624","meaning":"old (of people)","note":"Can sound blunt; lớn tuổi is politer."}
+{"id":"vi.c0625","meaning":"heavy","note":"Also of illness: bệnh nặng = seriously ill."}
+{"id":"vi.c0626","meaning":"light (not heavy)","note":"Also gentle: nói nhẹ."}
+{"id":"vi.c0627","meaning":"wide; spacious","note":"nhà rộng = a roomy house."}
+{"id":"vi.c0628","meaning":"tight; cramped","note":"áo chật = a tight shirt."}
+{"id":"vi.c0629","meaning":"short (in length)","note":"tóc ngắn = short hair."}
+{"id":"vi.c0630","meaning":"short (in height); low","note":"người thấp = a short person."}
+{"id":"vi.c0631","meaning":"red","note":"màu đỏ = red; red is lucky at Tet."}
+{"id":"vi.c0632","meaning":"blue; green","note":"To be clear: xanh da trời (sky blue), xanh lá cây (green)."}
+{"id":"vi.c0633","meaning":"white","note":"áo trắng = a white shirt."}
+{"id":"vi.c0634","meaning":"black","note":"cà phê đen = black coffee."}
+{"id":"vi.c0635","meaning":"rich","note":"người giàu = rich people."}
+{"id":"vi.c0636","meaning":"poor","note":"nhà nghèo = a poor family."}
+{"id":"vi.c0637","meaning":"fat","note":"South: mập. People say it freely; a foreigner should not."}
+{"id":"vi.c0638","meaning":"thin","note":"South: ốm. Also said freely, as concern."}
+{"id":"vi.c0639","meaning":"sore; painful","note":"Tôi bị đau đầu. = I have a headache."}
+{"id":"vi.c0640","meaning":"spicy","note":"không cay = not spicy."}
+{"id":"vi.c0641","meaning":"sweet","note":"nói ngọt = speak sweetly."}
+{"id":"vi.c0642","meaning":"salty","note":"Also of jokes: mặn = really funny (slang)."}
+{"id":"vi.c0643","meaning":"sour","note":"canh chua = sour soup."}
+{"id":"vi.c0644","meaning":"wrong; incorrect","note":"Sai rồi. = That's wrong."}
+{"id":"vi.c0645","meaning":"ugly; bad","note":"Can be rude about a person: avoid."}
+{"id":"vi.c0646","meaning":"good at; skilled","note":"Nói tiếng Việt giỏi = speak Vietnamese well."}
+{"id":"vi.c0647","meaning":"free (not busy)","note":"Mai anh có rảnh không? = Are you free tomorrow?"}
+{"id":"vi.c0648","meaning":"important","note":"Không quan trọng. = It doesn't matter."}
+{"id":"vi.c0649","meaning":"dangerous","note":"Đi xe máy ở đây nguy hiểm lắm."}
+{"id":"vi.c0650","meaning":"safe","note":"an toàn giao thông = road safety."}
+{"id":"vi.c0651","meaning":"famous","note":"món ăn nổi tiếng = a famous dish."}
+{"id":"vi.c0652","meaning":"special","note":"món đặc biệt = specialty."}
+{"id":"vi.c0653","meaning":"strange; unfamiliar","note":"người lạ = a stranger."}
+{"id":"vi.c0654","meaning":"familiar; used to","note":"quen rồi = I'm used to it now."}
+{"id":"vi.c0655","meaning":"convenient","note":"Không tiện lắm. = It's not very convenient."}
+{"id":"vi.c0656","meaning":"interesting","note":"Phim này thú vị lắm."}
+{"id":"vi.c0657","meaning":"boring; fed up","note":"Chán quá! = How boring!"}
+{"id":"vi.c0658","meaning":"noisy","note":"ồn ào = loud and busy."}
+{"id":"vi.c0659","meaning":"already happened (past marker)","note":"Before the verb: Tôi đã ăn. Often dropped when time is clear."}
+{"id":"vi.c0660","meaning":"also; too","note":"Before the verb: Tôi cũng thích. = I like it too."}
+{"id":"vi.c0661","meaning":"again; back","note":"Nói lại được không? = Can you say that again?"}
+{"id":"vi.c0662","meaning":"will (future marker)","note":"Before the verb: Mai tôi sẽ đi."}
+{"id":"vi.c0663","meaning":"so; like that","note":"Thế à? = Is that so? Tôi cũng thế is already a card."}
+{"id":"vi.c0664","meaning":"still; left (remaining)","note":"Còn phòng không? = Any rooms left? Also \"and as for\": Còn anh?"}
+{"id":"vi.c0665","meaning":"only","note":"chỉ … thôi: Tôi chỉ có một trăm nghìn thôi."}
+{"id":"vi.c0666","meaning":"in the middle of (-ing marker)","note":"Before the verb: Tôi đang ăn."}
+{"id":"vi.c0667","meaning":"more (in comparisons)","note":"đắt hơn = more expensive; hơn + noun = than."}
+{"id":"vi.c0668","meaning":"very","note":"Before the adjective: rất ngon."}
+{"id":"vi.c0669","meaning":"most","note":"ngon nhất = the most delicious."}
+{"id":"vi.c0670","meaning":"together","note":"đi cùng = go together; cùng nhau = together."}
+{"id":"vi.c0671","meaning":"just (a moment ago)","note":"Anh ấy vừa đi. = He just left."}
+{"id":"vi.c0672","meaning":"so; too","note":"After the adjective, with feeling: ngon quá!"}
+{"id":"vi.c0673","meaning":"really; truly","note":"ngon thật = really tasty. Also \"true\": Thật không? = Really?"}
+{"id":"vi.c0674","meaning":"more; any more; else","note":"một bát nữa = one more bowl; không … nữa = not any more."}
+{"id":"vi.c0675","meaning":"usually","note":"Tôi thường dậy sớm. In speech hay also means often."}
+{"id":"vi.c0676","meaning":"both; all (do it)","note":"Chúng tôi đều thích. = We both like it."}
+{"id":"vi.c0677","meaning":"right away; right (there)","note":"ngay bây giờ = right now."}
+{"id":"vi.c0678","meaning":"just go ahead; keep (doing)","note":"Anh cứ ngồi đi. = Please, just sit down."}
+{"id":"vi.c0679","meaning":"about; around (roughly)","note":"khoảng ba giờ = around three o'clock."}
+{"id":"vi.c0680","meaning":"ever (in the past)","note":"Anh đã từng đến Huế chưa? = Have you ever been to Hue?"}
+{"id":"vi.c0681","meaning":"(for) a long time","note":"Lâu rồi không gặp! = Long time no see!"}
+{"id":"vi.c0682","meaning":"always; straight away","note":"luôn luôn = always; đi luôn = go right away."}
+{"id":"vi.c0683","meaning":"very (after the adjective)","note":"ngon lắm = really tasty. Spoken and warm."}
+{"id":"vi.c0684","meaning":"still","note":"Tôi vẫn ở Hà Nội. = I'm still in Hanoi."}
+{"id":"vi.c0685","meaning":"a bit; slightly","note":"hơi đắt = a bit expensive."}
+{"id":"vi.c0686","meaning":"quite; fairly","note":"khá tốt = quite good."}
+{"id":"vi.c0687","meaning":"about to","note":"Tàu sắp chạy. = The train is about to leave."}
+{"id":"vi.c0688","meaning":"early; soon","note":"dậy sớm = get up early."}
+{"id":"vi.c0689","meaning":"late","note":"đến muộn = arrive late. South: trễ."}
+{"id":"vi.c0690","meaning":"now","note":"In casual speech often just giờ."}
+{"id":"vi.c0691","meaning":"after that; then","note":"Sau đó mình đi đâu? = Where do we go after that?"}
+{"id":"vi.c0692","meaning":"never","note":"Before the verb: Tôi không bao giờ uống rượu."}
+{"id":"vi.c0693","meaning":"sometimes; now and then","note":"Thỉnh thoảng tôi nấu ăn."}
+{"id":"vi.c0694","meaning":"rarely","note":"Tôi ít khi đi taxi."}
+{"id":"vi.c0695","meaning":"probably; surely","note":"Chắc anh ấy bận. = He's probably busy."}
+{"id":"vi.c0696","meaning":"perhaps; maybe","note":"A little formal; chắc is more casual."}
+{"id":"vi.c0697","meaning":"extremely","note":"cực kỳ ngon = incredibly tasty."}
+{"id":"vi.c0698","meaning":"you (to an old man); I (an old man to a child)","note":"Also \"grandfather\". bà (old woman) is already a card."}
+{"id":"vi.c0699","meaning":"that; there","note":"Đó là… = That is…; ở đó = there."}
+{"id":"vi.c0700","meaning":"I; me (neutral, polite)","note":"Never wrong, but distant with family and friends. Plural: chúng tôi."}
+{"id":"vi.c0701","meaning":"you (to a man a little older); I (a man to someone younger)","note":"Also \"older brother\". In a couple the man is anh."}
+{"id":"vi.c0702","meaning":"I (among close friends); we (you and me)","note":"Also \"oneself\". Couples use it for \"dear\"."}
+{"id":"vi.c0703","meaning":"they; them","note":"For people only; a little distant. Friendly: mọi người."}
+{"id":"vi.c0704","meaning":"this (here); here","note":"Đây là… = This is…; ở đây = here."}
+{"id":"vi.c0705","meaning":"what","note":"At the end, where the answer goes: Anh tên là gì?"}
+{"id":"vi.c0706","meaning":"you (to someone younger); I (to an anh or chị)","note":"Either sex. In a couple the woman is usually em."}
+{"id":"vi.c0707","meaning":"it; he or she (a child or an animal)","note":"Rude about an adult. Plural: chúng nó."}
+{"id":"vi.c0708","meaning":"each other","note":"yêu nhau = love each other; gặp nhau = meet."}
+{"id":"vi.c0709","meaning":"you (to someone older than your parents); I (an older person to a child)","note":"Safe for strangers of about 55 and up. cô, chú, bà, cháu are already cards."}
+{"id":"vi.c0710","meaning":"you (to a woman a little older); I (a woman to someone younger)","note":"Also \"older sister\". She calls you em."}
+{"id":"vi.c0711","meaning":"you (to a close friend, among young people)","note":"Pairs with tớ. Hanoi students use it a lot."}
+{"id":"vi.c0712","meaning":"I (to a close friend, among young people)","note":"Pairs with cậu."}
+{"id":"vi.c0713","meaning":"we (not including you)","note":"Use it when the listener is not part of the group."}
+{"id":"vi.c0714","meaning":"we (including you)","note":"Mình đi = Chúng ta đi, but friendlier."}
+{"id":"vi.c0715","meaning":"we (friendly; you and me)","note":"Friends and couples."}
+{"id":"vi.c0716","meaning":"you (plural; friends or a group your age)","note":"Also các anh chị (older), các em (younger)."}
+{"id":"vi.c0717","meaning":"he; him (a young or middle-aged man)","note":"ấy turns a kinship word into \"he / she\"."}
+{"id":"vi.c0718","meaning":"she; her (a woman a little older than you)","note":"For a young woman also cô ấy."}
+{"id":"vi.c0719","meaning":"she; her (a young woman)","note":"Also a woman your parents' age."}
+{"id":"vi.c0720","meaning":"he or she (someone younger than you)","note":"Kind and gentle; never rude like nó."}
+{"id":"vi.c0721","meaning":"he (an old man)","note":"Respectful."}
+{"id":"vi.c0722","meaning":"she (an old woman)","note":"Respectful."}
+{"id":"vi.c0723","meaning":"that (over there)","note":"After a noun: cái áo kia. cái kia (that one) is already a card."}
+{"id":"vi.c0724","meaning":"mine; my","note":"After the noun: nhà của tôi, or just nhà tôi."}
+{"id":"vi.c0725","meaning":"yours (to a friend)","note":"Change the kinship word: của anh, của chị, của em."}
+{"id":"vi.c0726","meaning":"everyone; everybody","note":"Chào mọi người! = Hi, everyone!"}
+{"id":"vi.c0727","meaning":"people (in general); they","note":"Người ta nói… = They say…"}
+{"id":"vi.c0728","meaning":"all; everything","note":"Tất cả bao nhiêu tiền? = How much for everything?"}
+{"id":"vi.c0729","meaning":"(by) oneself","note":"tự làm = do it yourself."}
+{"id":"vi.c0730","meaning":"someone","note":"Có ai đó gọi anh. = Someone called you."}
+{"id":"vi.c0731","meaning":"something","note":"ăn gì đó = eat something."}
+{"id":"vi.c0732","meaning":"nobody","note":"Không ai biết. = Nobody knows."}
+{"id":"vi.c0733","meaning":"of; belonging to","note":"After the noun: xe của tôi. Often dropped: xe tôi."}
+{"id":"vi.c0734","meaning":"for; to (someone)","note":"gọi cho anh = call you. As a verb: give, let: Cho tôi…"}
+{"id":"vi.c0735","meaning":"in; inside; during","note":"trong nhà = in the house; trong ba ngày = for three days."}
+{"id":"vi.c0736","meaning":"with","note":"đi với bạn = go with a friend. Also at the end, pleading: Cứu tôi với!"}
+{"id":"vi.c0737","meaning":"like; as","note":"như thế này = like this."}
+{"id":"vi.c0738","meaning":"at; in","note":"Also a verb: be at, live: Tôi ở Hà Nội."}
+{"id":"vi.c0739","meaning":"from; since","note":"từ Mỹ = from America; từ … đến = from … to."}
+{"id":"vi.c0740","meaning":"at (formal)","note":"Signs and news: tại Hà Nội. In speech: ở."}
+{"id":"vi.c0741","meaning":"on; above","note":"trên bàn = on the table; trên đường = on the way."}
+{"id":"vi.c0742","meaning":"after; behind","note":"sau nhà = behind the house; sau bữa tối = after dinner."}
+{"id":"vi.c0743","meaning":"according to; along","note":"theo tôi = in my opinion; đi theo = follow."}
+{"id":"vi.c0744","meaning":"through; past; via","note":"đi qua cầu = go over the bridge."}
+{"id":"vi.c0745","meaning":"before; in front of","note":"trước nhà = in front of the house."}
+{"id":"vi.c0746","meaning":"at (a clock time)","note":"lúc ba giờ = at three o'clock."}
+{"id":"vi.c0747","meaning":"by (means of); made of","note":"đi bằng xe máy = go by motorbike. Also \"as … as\"."}
+{"id":"vi.c0748","meaning":"to; until; next","note":"tuần tới = next week. Also a verb: arrive."}
+{"id":"vi.c0749","meaning":"outside; besides","note":"ngoài trời = outdoors; ngoài ra = besides."}
+{"id":"vi.c0750","meaning":"near","note":"gần đây = near here. Also an adjective: close."}
+{"id":"vi.c0751","meaning":"between; in the middle of","note":"giữa hai nhà = between the two houses."}
+{"id":"vi.c0752","meaning":"under; below","note":"dưới gầm bàn = under the table."}
+{"id":"vi.c0753","meaning":"out of; away from","note":"ra khỏi nhà = leave the house."}
+{"id":"vi.c0754","meaning":"over to; across","note":"sang Mỹ = go (over) to America."}
+{"id":"vi.c0755","meaning":"by (who did it)","note":"Mostly written; in speech say do."}
+{"id":"vi.c0756","meaning":"for; towards (regarding)","note":"Đối với tôi… = For me…; a little formal."}
+{"id":"vi.c0757","meaning":"next to; beside","note":"Usually bên cạnh: bên cạnh ngân hàng."}
+{"id":"vi.c0758","meaning":"around","note":"quanh hồ = around the lake; also xung quanh."}
+{"id":"vi.c0759","meaning":"except","note":"trừ chủ nhật = except Sunday."}
+{"id":"vi.c0760","meaning":"and","note":"Between words and clauses: anh và em. Not at the start of an answer."}
+{"id":"vi.c0761","meaning":"so that; in order to","note":"Tôi học để đi Việt Nam. = I study to go to Vietnam."}
+{"id":"vi.c0762","meaning":"when (not a question)","note":"Khi tôi đến, anh ấy đi rồi. Question \"when?\": khi nào?"}
+{"id":"vi.c0763","meaning":"then (after if, when, as for)","note":"Nếu mưa thì tôi ở nhà."}
+{"id":"vi.c0764","meaning":"because","note":"vì … nên: Vì mưa nên tôi ở nhà."}
+{"id":"vi.c0765","meaning":"that (after say, think)","note":"Anh ấy nói rằng… In speech often là."}
+{"id":"vi.c0766","meaning":"or (in questions)","note":"Cà phê hay trà? Also adjective: interesting; adverb: often."}
+{"id":"vi.c0767","meaning":"so (result)","note":"Also \"should\": Anh nên nghỉ. = You should rest."}
+{"id":"vi.c0768","meaning":"if","note":"nếu … thì: Nếu rảnh thì đến nhé."}
+{"id":"vi.c0769","meaning":"although","note":"tuy … nhưng: Tuy đắt nhưng ngon."}
+{"id":"vi.c0770","meaning":"even though; even if","note":"dù sao = anyway."}
+{"id":"vi.c0771","meaning":"or (in statements)","note":"thứ bảy hoặc chủ nhật = Saturday or Sunday."}
+{"id":"vi.c0772","meaning":"even though","note":"mặc dù … nhưng: a little more formal than tuy."}
+{"id":"vi.c0773","meaning":"because (stressing the reason)","note":"Often answers Tại sao?"}
+{"id":"vi.c0774","meaning":"because (casual)","note":"Spoken: Tại vì em bận."}
+{"id":"vi.c0775","meaning":"so; therefore","note":"Like nên, a little stronger."}
+{"id":"vi.c0776","meaning":"but (spoken)","note":"Spoken form of nhưng."}
+{"id":"vi.c0777","meaning":"while","note":"trong khi tôi nấu ăn = while I cook."}
+{"id":"vi.c0778","meaning":"after (doing)","note":"sau khi ăn = after eating."}
+{"id":"vi.c0779","meaning":"before (doing)","note":"trước khi ngủ = before going to sleep."}
+{"id":"vi.c0780","meaning":"until","note":"đợi cho đến khi mưa tạnh = wait until the rain stops."}
+{"id":"vi.c0781","meaning":"therefore; that's why","note":"Starts a sentence: Vì vậy tôi đến muộn."}
+{"id":"vi.c0782","meaning":"and besides; also (spoken)","note":"Adds a reason: Với lại em cũng mệt."}
+{"id":"vi.c0783","meaning":"otherwise; if not","note":"Đi nhanh lên, nếu không muộn đấy."}
+{"id":"vi.c0784","meaning":"Oh! (feeling: joy, pity, surprise)","note":"Ôi, đẹp quá! Ôi, tội nghiệp!"}
+{"id":"vi.c0785","meaning":"Oh! (I see; that's new)","note":"Ồ, thế à? = Oh, really?"}
+{"id":"vi.c0786","meaning":"Ah! (I've got it; there you are)","note":"A, anh Minh! = Ah, Minh!"}
+{"id":"vi.c0787","meaning":"Ow! (sudden pain or shock)","note":"Short and sharp."}
+{"id":"vi.c0788","meaning":"Ouch! Oh no!","note":"Ối, đau quá!"}
+{"id":"vi.c0789","meaning":"Oh my God! Goodness!","note":"Lit. \"Oh, heaven!\" Joy, shock or annoyance."}
+{"id":"vi.c0790","meaning":"Oh my goodness! (Hanoi, emphatic)","note":"giời is the Hanoi spoken form of trời."}
+{"id":"vi.c0791","meaning":"Oh no! (I've made a mistake)","note":"Lit. \"that's it, dead!\" Very common, not grim."}
+{"id":"vi.c0792","meaning":"Huh? Eh? (puzzled)","note":"South: Ủa?"}
+{"id":"vi.c0793","meaning":"What? Huh? (didn't catch it)","note":"Casual; also at the end: Thật hả? To an older person: Dạ?"}
+{"id":"vi.c0794","meaning":"Hey! (to a friend)","note":"Rude to a stranger or an older person: use Anh ơi! or Chị ơi!"}
+{"id":"vi.c0795","meaning":"Hmm. (thinking)","note":"Also a soft \"yes\"."}
+{"id":"vi.c0796","meaning":"Er… uh… (hesitating)","note":"Also a casual \"oh, right\"."}
+{"id":"vi.c0797","meaning":"Shh!","note":"Finger to the lips."}
+{"id":"vi.c0798","meaning":"Yuck! Eww!","note":"Something gross or scary."}
+{"id":"vi.c0799","meaning":"Yikes! Awful!","note":"Hanoi; also admiring: Khiếp, giỏi thế!"}
+{"id":"vi.c0800","meaning":"Wow! Well! (impressed)","note":"Chà, đẹp quá!"}
+{"id":"vi.c0801","meaning":"Phew, that was close!","note":"Lit. \"call the soul back\"."}
+{"id":"vi.c0802","meaning":"Phew, lucky!","note":"After a narrow escape or good luck."}
+{"id":"vi.c0803","meaning":"What a pity!","note":"Also: Tiếc thật!"}
+{"id":"vi.c0804","meaning":"Hooray! Bravo!","note":"Cheering a win or a performance."}
+{"id":"vi.c0805","meaning":"Come on! You can do it!","note":"Cheering someone on."}
+{"id":"vi.c0806","meaning":"Careful! Watch out!","note":"Also as advice: Đi cẩn thận nhé."}
+{"id":"vi.c0807","meaning":"Congratulations!","note":"Chúc mừng sinh nhật! = Happy birthday!"}
+{"id":"vi.c0808","meaning":"Hello? (on the phone)","note":"Only on the phone: A lô, em nghe đây."}
+{"id":"vi.c0809","meaning":"no; not; zero","note":"Before a verb or adjective: không biết. At the end: a yes/no question."}
+{"id":"vi.c0810","meaning":"the (plural); all the","note":"Before a noun: các bạn, các món."}
+{"id":"vi.c0811","meaning":"some; the (plural)","note":"những người này = these people."}
+{"id":"vi.c0812","meaning":"this (after a noun)","note":"cái bàn này. Alone, Này! = Hey! cái này is already a card."}
+{"id":"vi.c0813","meaning":"many; much; a lot","note":"Before the noun: nhiều người. After a verb: ăn nhiều."}
+{"id":"vi.c0814","meaning":"all; whole; even","note":"cả ngày = all day; cả nhà = the whole family."}
+{"id":"vi.c0815","meaning":"which","note":"After the noun: cái nào, quán nào. Cái nào? is already a card."}
+{"id":"vi.c0816","meaning":"why; how come","note":"Sao anh không đến? Sao thế? = What's wrong?"}
+{"id":"vi.c0817","meaning":"every","note":"mọi ngày = every day; mọi người = everyone."}
+{"id":"vi.c0818","meaning":"where","note":"At the end: Anh đi đâu? Also \"not at all\": Không đâu."}
+{"id":"vi.c0819","meaning":"each","note":"mỗi ngày = each day; mỗi người = each person."}
+{"id":"vi.c0820","meaning":"few; little","note":"ít người = few people; một ít = a little."}
+{"id":"vi.c0821","meaning":"do… (polite command)","note":"Before the verb: Hãy nói chậm. More written; in speech: …đi."}
+{"id":"vi.c0822","meaning":"how many (small numbers); a few","note":"Mấy người? Also mấy giờ = what time."}
+{"id":"vi.c0823","meaning":"a few; several","note":"vài ngày = a few days."}
+{"id":"vi.c0824","meaning":"how much; how many","note":"Bao nhiêu tiền? is already a card."}
+{"id":"vi.c0825","meaning":"when (question)","note":"At the start: future; at the end: past."}
+{"id":"vi.c0826","meaning":"how; what is it like","note":"Anh thấy thế nào? = What do you think?"}
+{"id":"vi.c0827","meaning":"yeah; OK (to an equal or someone younger)","note":"Never to an older person: say Vâng or Dạ."}
+{"id":"vi.c0828","meaning":"first","note":"thứ hai means second and Monday."}
+{"id":"vi.c0829","meaning":"eleven","note":"10 + 1. Then mười hai, mười ba…"}
+{"id":"vi.c0830","meaning":"twelve","note":"tháng mười hai = December."}
+{"id":"vi.c0831","meaning":"thirteen","note":"10 + 3."}
+{"id":"vi.c0832","meaning":"fourteen","note":"10 + 4."}
+{"id":"vi.c0833","meaning":"sixteen","note":"10 + 6. mười lăm (15) is already a card."}
+{"id":"vi.c0834","meaning":"seventeen","note":"10 + 7."}
+{"id":"vi.c0835","meaning":"eighteen","note":"Eighteen is the age of adulthood."}
+{"id":"vi.c0836","meaning":"nineteen","note":"10 + 9."}
+{"id":"vi.c0837","meaning":"twenty","note":"mươi (not mười) after a number: ba mươi = 30."}
+{"id":"vi.c0838","meaning":"five (after mười or mươi)","note":"mười lăm = 15, hai mươi lăm = 25: never năm here."}
+{"id":"vi.c0839","meaning":"one (after mươi)","note":"hai mươi mốt = 21; mười một keeps một."}
+{"id":"vi.c0840","meaning":"four (after mươi)","note":"hai mươi tư = 24; also hai mươi bốn."}
+{"id":"vi.c0841","meaning":"Tuesday","note":"thứ hai (Monday) is already a card."}
+{"id":"vi.c0842","meaning":"Wednesday","note":"Days are numbers: thứ tư = \"the fourth\"."}
+{"id":"vi.c0843","meaning":"Thursday","note":"Lowercase, like all days."}
+{"id":"vi.c0844","meaning":"Friday","note":"Cuối tuần = the weekend."}
+{"id":"vi.c0845","meaning":"morning","note":"buổi sáng; tám giờ sáng = 8 a.m."}
+{"id":"vi.c0846","meaning":"noon; midday","note":"ăn trưa = have lunch."}
+{"id":"vi.c0847","meaning":"afternoon","note":"ba giờ chiều = 3 p.m."}
+{"id":"vi.c0848","meaning":"night (late)","note":"nửa đêm = midnight. Evening is tối (already a card)."}
+{"id":"vi.c0849","meaning":"tonight; this evening","note":"Tối nay em rảnh không?"}
+{"id":"vi.c0850","meaning":"day","note":"hàng ngày = every day; ngày mai is already a card."}
+{"id":"vi.c0851","meaning":"week","note":"tuần này = this week; tuần sau is already a card."}
+{"id":"vi.c0852","meaning":"month","note":"Months are numbers: tháng một = January."}
+{"id":"vi.c0853","meaning":"hour; o'clock","note":"ba giờ = three o'clock; mấy giờ = what time."}
+{"id":"vi.c0854","meaning":"minute","note":"năm phút = five minutes."}
+{"id":"vi.c0855","meaning":"classifier: animals (and some moving things)","note":"hai con mèo; con đường (a road). Alone, con = child, and \"I\" to your parents."}
+{"id":"vi.c0856","meaning":"classifier: events, activities","note":"cuộc họp = a meeting; cuộc sống = life."}
+{"id":"vi.c0857","meaning":"classifier: most objects","note":"cái bàn, cái ghế. Never for people or animals."}
+{"id":"vi.c0858","meaning":"classifier: vehicles; one of a pair","note":"chiếc xe máy; chiếc giày = one shoe."}
+{"id":"vi.c0859","meaning":"classifier: sets (clothes, movies)","note":"một bộ quần áo = a set of clothes; bộ phim = a movie."}
+{"id":"vi.c0860","meaning":"classifier: honored people","note":"vị khách = a guest (respectful)."}
+{"id":"vi.c0861","meaning":"classifier: fruit; round things","note":"quả cam = an orange. South: trái."}
+{"id":"vi.c0862","meaning":"classifier: books, notebooks","note":"quyển sách. South: cuốn."}
+{"id":"vi.c0863","meaning":"classifier: a pair","note":"đôi đũa, đôi giày."}
+{"id":"vi.c0864","meaning":"classifier: sheets of paper","note":"tờ giấy, tờ báo (a newspaper)."}
+{"id":"vi.c0865","meaning":"classifier: pictures, letters, walls","note":"bức tranh, bức ảnh, bức thư."}
+{"id":"vi.c0866","meaning":"classifier: a glass or cup (of)","note":"hai cốc trà đá. Also ly."}
+{"id":"vi.c0867","meaning":"classifier: a bowl (of)","note":"một bát phở. South: tô (big), chén (small)."}
+{"id":"vi.c0868","meaning":"classifier: a bottle (of)","note":"hai chai bia."}
+{"id":"vi.c0869","meaning":"classifier: a glass (of), café word","note":"một ly cà phê; in the North both ly and cốc."}
+{"id":"vi.c0870","meaning":"measure: kilo","note":"một cân xoài = a kilo of mangoes. South: ký."}
+{"id":"vi.c0871","meaning":"classifier: flat pieces (photos, tickets)","note":"tấm ảnh, tấm vé."}
+{"id":"vi.c0872","meaning":"classifier: houses, apartments, rooms","note":"căn nhà, căn hộ (an apartment)."}
+{"id":"vi.c0873","meaning":"classifier: buildings, temples, stars","note":"ngôi nhà, ngôi chùa, ngôi sao."}
+{"id":"vi.c0874","meaning":"classifier: flowers","note":"bông hoa = a flower."}
+{"id":"vi.c0875","meaning":"classifier: small round things (pills)","note":"viên thuốc = a pill; also staff: nhân viên."}
+{"id":"vi.c0876","meaning":"classifier: a piece; a bite","note":"một miếng bánh = a piece of cake."}
+{"id":"vi.c0877","meaning":"classifier: a packet","note":"gói mì = a packet of noodles."}
+{"id":"vi.c0878","meaning":"classifier: a box (of)","note":"hộp sữa = a carton of milk."}
+{"id":"vi.c0879","meaning":"classifier: children (casual)","note":"hai đứa con = two kids. Not for adults."}
+{"id":"vi.c0880","meaning":"classifier: trips, flights","note":"chuyến bay = a flight; chuyến đi = a trip."}
+{"id":"vi.c0881","meaning":"then; so (in questions)","note":"Sao vậy? = What's the matter? South uses vậy, Hanoi often thế."}
+{"id":"vi.c0882","meaning":"only; that's all; let's just","note":"Thế thôi. = That's all. Alone, Thôi! = Stop! / Enough!"}
+{"id":"vi.c0883","meaning":"(pointing it out; you know)","note":"Đẹp đấy! = That's nice! Hanoi; South: đó."}
+{"id":"vi.c0884","meaning":"(respect, to someone older)","note":"At the end: Cảm ơn chị ạ. Leave it out with friends."}
+{"id":"vi.c0885","meaning":"(calling someone)","note":"After the name or kinship word: Anh ơi! Em ơi!"}
+{"id":"vi.c0886","meaning":"OK?; all right? (softener)","note":"Mai gặp nhé. = See you tomorrow, OK? South: nha."}
+{"id":"vi.c0887","meaning":"isn't it?; right? (seeking agreement)","note":"Đẹp nhỉ? = Pretty, isn't it? Also to oneself: Tên là gì nhỉ?"}
+{"id":"vi.c0888","meaning":"(surprise or checking)","note":"Anh đi à? = Oh, you're going? Checks what you think you just learned."}
+{"id":"vi.c0889","meaning":"of course; surely","note":"Được chứ! = Sure! Also checking: Anh đi chứ?"}
+{"id":"vi.c0890","meaning":"(insisting, Hanoi)","note":"Em muốn cái này cơ! = I want THIS one!"}
+{"id":"vi.c0891","meaning":"(surprised question, softer)","note":"Thế ư? = Is that so? Gentle, a bit literary."}
+{"id":"vi.c0892","meaning":"(look! over there)","note":"Anh Minh kìa! = There's Minh!"}
+{"id":"vi.c0893","meaning":"first (before anything else)","note":"Ăn cái đã! = Let's eat first!"}

@@ -4,12 +4,12 @@
 {"id":"tones.k1","q":"Which tone is high and level?","o":["Tone 6","Tone 1","Tone 4","Tone 2"],"why":"Tone 1 is the high, level tone: 詩 (si1)."}
 {"id":"tones.k2","q":"買 (maai5) means to buy. What does 賣 (maai6) mean?","o":["to buy, said more politely","to sell","to buy, in the past","to pay"],"why":"Only the tone changes, and the meaning flips: 賣 is to sell."}
 {"id":"tones.k3","q":"Which tones can a syllable ending in p, t or k have?","o":["Any of the six","Only tone 1","Tone 1, 3 or 6","Tone 2, 4 or 5"],"why":"Syllables in p, t or k are short and only take tone 1, 3 or 6."}
-{"id":"greetings.k1","q":"The server brings your noodles. What do you say?","why":"For a service, say 唔該; 多謝 is for gifts and kind words."}
-{"id":"greetings.k2","q":"A friend gives you a birthday present. What do you say?","why":"A gift takes 多謝."}
-{"id":"greetings.k3","q":"Which phrase is a real apology, for when you have done something wrong?","why":"對唔住 is the real apology; 唔好意思 is for small things."}
 {"id":"characters.k1","q":"What do 日 (sun) and 月 (moon) make together?","why":"The sun and the moon together make 明, bright."}
 {"id":"characters.k2","q":"What does 口 on the left of 嘅, 咗 and 啲 often tell you?","o":["The word is about eating","The word is a question","It is an everyday spoken-Cantonese word","The word has tone 1"],"why":"Many spoken-Cantonese characters carry 口 on the left."}
 {"id":"characters.k3","q":"Which characters does Hong Kong use?","o":["Traditional characters","Simplified characters","Only Jyutping","The Latin alphabet"],"why":"Hong Kong writes traditional characters; simplified ones are used in mainland China."}
+{"id":"greetings.k1","q":"The server brings your noodles. What do you say?","why":"For a service, say 唔該; 多謝 is for gifts and kind words."}
+{"id":"greetings.k2","q":"A friend gives you a birthday present. What do you say?","why":"A gift takes 多謝."}
+{"id":"greetings.k3","q":"Which phrase is a real apology, for when you have done something wrong?","why":"對唔住 is the real apology; 唔好意思 is for small things."}
 {"id":"hai.k1","q":"How do you say I'm a student?","why":"係 joins the two nouns, and there is no word for a: 我係學生。"}
 {"id":"hai.k2","q":"What can 佢 mean?","o":["Only he","Only she","They","He, she or it"],"why":"佢 covers he, she and it; 佢哋 is they."}
 {"id":"hai.k3","q":"How do you say She's tired?","why":"Adjectives take no 係: use 好, as in 佢好攰。"}

@@ -1,0 +1,893 @@
+{"id":"vi.c0001","deck":"vi.d.letters-and-sounds","vi":"đi","rom":"dee"}
+{"id":"vi.c0002","deck":"vi.d.letters-and-sounds","vi":"da","rom":"zah"}
+{"id":"vi.c0003","deck":"vi.d.letters-and-sounds","vi":"xe","rom":"seh"}
+{"id":"vi.c0004","deck":"vi.d.letters-and-sounds","vi":"nhà","rom":"nyah_"}
+{"id":"vi.c0005","deck":"vi.d.letters-and-sounds","vi":"phở","rom":"fer?"}
+{"id":"vi.c0006","deck":"vi.d.letters-and-sounds","vi":"gió","rom":"zaw/"}
+{"id":"vi.c0007","deck":"vi.d.letters-and-sounds","vi":"rau","rom":"zow"}
+{"id":"vi.c0008","deck":"vi.d.letters-and-sounds","vi":"trời","rom":"chuhy_"}
+{"id":"vi.c0009","deck":"vi.d.letters-and-sounds","vi":"ngủ","rom":"ngoo?"}
+{"id":"vi.c0010","deck":"vi.d.letters-and-sounds","vi":"tay","rom":"dtai"}
+{"id":"vi.c0011","deck":"vi.d.letters-and-sounds","vi":"tai","rom":"dtahy"}
+{"id":"vi.c0012","deck":"vi.d.letters-and-sounds","vi":"thư","rom":"tuu"}
+{"id":"vi.c0013","deck":"vi.d.letters-and-sounds","vi":"khô","rom":"khoh"}
+{"id":"vi.c0014","deck":"vi.d.letters-and-sounds","vi":"ăn","rom":"an"}
+{"id":"vi.c0015","deck":"vi.d.letters-and-sounds","vi":"chân","rom":"chuhn"}
+{"id":"vi.c0016","deck":"vi.d.letters-and-sounds","vi":"quê","rom":"kwey"}
+{"id":"vi.c0017","deck":"vi.d.letters-and-sounds","vi":"người","rom":"nguu-uhy_"}
+{"id":"vi.c0018","deck":"vi.d.letters-and-sounds","vi":"chanh","rom":"chaing"}
+{"id":"vi.c0019","deck":"vi.d.tone-pairs","vi":"ma","rom":"mah"}
+{"id":"vi.c0020","deck":"vi.d.tone-pairs","vi":"mà","rom":"mah_"}
+{"id":"vi.c0021","deck":"vi.d.tone-pairs","vi":"má","rom":"mah/"}
+{"id":"vi.c0022","deck":"vi.d.tone-pairs","vi":"bàn","rom":"bahn_"}
+{"id":"vi.c0023","deck":"vi.d.tone-pairs","vi":"bán","rom":"bahn/"}
+{"id":"vi.c0024","deck":"vi.d.tone-pairs","vi":"bạn","rom":"bahn."}
+{"id":"vi.c0025","deck":"vi.d.tone-pairs","vi":"bận","rom":"buhn."}
+{"id":"vi.c0026","deck":"vi.d.tone-pairs","vi":"mua","rom":"moo-uh"}
+{"id":"vi.c0027","deck":"vi.d.tone-pairs","vi":"múa","rom":"moo-uh/"}
+{"id":"vi.c0028","deck":"vi.d.tone-pairs","vi":"cá","rom":"kah/"}
+{"id":"vi.c0029","deck":"vi.d.tone-pairs","vi":"bò","rom":"baw_"}
+{"id":"vi.c0030","deck":"vi.d.tone-pairs","vi":"tối","rom":"dtohy/"}
+{"id":"vi.c0031","deck":"vi.d.tone-pairs","vi":"sữa","rom":"suu-uh~"}
+{"id":"vi.c0032","deck":"vi.d.tone-pairs","vi":"sửa","rom":"suu-uh?"}
+{"id":"vi.c0033","deck":"vi.d.tone-pairs","vi":"năm","rom":"nam"}
+{"id":"vi.c0034","deck":"vi.d.tone-pairs","vi":"nằm","rom":"nam_"}
+{"id":"vi.c0035","deck":"vi.d.tone-pairs","vi":"gà","rom":"gah_"}
+{"id":"vi.c0036","deck":"vi.d.greetings-and-courtesy","vi":"Xin chào.","rom":"seen chahw_"}
+{"id":"vi.c0037","deck":"vi.d.greetings-and-courtesy","vi":"Chào chị.","rom":"chahw_ chee."}
+{"id":"vi.c0038","deck":"vi.d.greetings-and-courtesy","vi":"Cảm ơn.","rom":"kahm? ern"}
+{"id":"vi.c0039","deck":"vi.d.greetings-and-courtesy","vi":"Xin lỗi.","rom":"seen lohy~"}
+{"id":"vi.c0040","deck":"vi.d.greetings-and-courtesy","vi":"Tạm biệt.","rom":"dtahm. bee-uht."}
+{"id":"vi.c0041","deck":"vi.d.greetings-and-courtesy","vi":"Chào anh.","rom":"chahw_ aing"}
+{"id":"vi.c0042","deck":"vi.d.greetings-and-courtesy","vi":"Chào em.","rom":"chahw_ ehm"}
+{"id":"vi.c0043","deck":"vi.d.greetings-and-courtesy","vi":"Chào bạn.","rom":"chahw_ bahn."}
+{"id":"vi.c0044","deck":"vi.d.greetings-and-courtesy","vi":"Em chào chị ạ.","rom":"ehm chahw_ chee. ah."}
+{"id":"vi.c0045","deck":"vi.d.greetings-and-courtesy","vi":"Anh khỏe không?","rom":"aing khweh? khohng"}
+{"id":"vi.c0046","deck":"vi.d.greetings-and-courtesy","vi":"Tôi khỏe, cảm ơn.","rom":"dtohy khweh? kahm? ern"}
+{"id":"vi.c0047","deck":"vi.d.greetings-and-courtesy","vi":"Còn bạn?","rom":"kawn_ bahn."}
+{"id":"vi.c0048","deck":"vi.d.greetings-and-courtesy","vi":"Cảm ơn anh.","rom":"kahm? ern aing"}
+{"id":"vi.c0049","deck":"vi.d.greetings-and-courtesy","vi":"Cảm ơn nhiều.","rom":"kahm? ern nyee-uhw_"}
+{"id":"vi.c0050","deck":"vi.d.greetings-and-courtesy","vi":"Không có gì.","rom":"khohng kaw/ zee_"}
+{"id":"vi.c0051","deck":"vi.d.greetings-and-courtesy","vi":"Không sao.","rom":"khohng sahw"}
+{"id":"vi.c0052","deck":"vi.d.greetings-and-courtesy","vi":"Rất vui được gặp bạn.","rom":"zuht/ vooy duu-uhk. gap. bahn."}
+{"id":"vi.c0053","deck":"vi.d.greetings-and-courtesy","vi":"Hẹn gặp lại.","rom":"hehn. gap. lahy."}
+{"id":"vi.c0054","deck":"vi.d.family-and-kinship","vi":"mẹ","rom":"meh."}
+{"id":"vi.c0055","deck":"vi.d.family-and-kinship","vi":"bố","rom":"boh/"}
+{"id":"vi.c0056","deck":"vi.d.family-and-kinship","vi":"anh trai","rom":"aing chahy"}
+{"id":"vi.c0057","deck":"vi.d.family-and-kinship","vi":"em gái","rom":"ehm gahy/"}
+{"id":"vi.c0058","deck":"vi.d.family-and-kinship","vi":"ông bà","rom":"ohng bah_"}
+{"id":"vi.c0059","deck":"vi.d.family-and-kinship","vi":"chị gái","rom":"chee. gahy/"}
+{"id":"vi.c0060","deck":"vi.d.family-and-kinship","vi":"em trai","rom":"ehm chahy"}
+{"id":"vi.c0061","deck":"vi.d.family-and-kinship","vi":"bố mẹ","rom":"boh/ meh."}
+{"id":"vi.c0062","deck":"vi.d.family-and-kinship","vi":"vợ tôi","rom":"ver. dtohy"}
+{"id":"vi.c0063","deck":"vi.d.family-and-kinship","vi":"chồng tôi","rom":"chohng_ dtohy"}
+{"id":"vi.c0064","deck":"vi.d.family-and-kinship","vi":"con trai","rom":"kawn chahy"}
+{"id":"vi.c0065","deck":"vi.d.family-and-kinship","vi":"con gái","rom":"kawn gahy/"}
+{"id":"vi.c0066","deck":"vi.d.family-and-kinship","vi":"ông nội","rom":"ohng nohy."}
+{"id":"vi.c0067","deck":"vi.d.family-and-kinship","vi":"bà ngoại","rom":"bah_ ngwahy."}
+{"id":"vi.c0068","deck":"vi.d.family-and-kinship","vi":"cô","rom":"koh"}
+{"id":"vi.c0069","deck":"vi.d.family-and-kinship","vi":"chú","rom":"choo/"}
+{"id":"vi.c0070","deck":"vi.d.family-and-kinship","vi":"cháu","rom":"chow/"}
+{"id":"vi.c0071","deck":"vi.d.family-and-kinship","vi":"Đây là mẹ tôi.","rom":"day lah_ meh. dtohy"}
+{"id":"vi.c0072","deck":"vi.d.numbers-and-money","vi":"một","rom":"moht."}
+{"id":"vi.c0073","deck":"vi.d.numbers-and-money","vi":"mười","rom":"muu-uhy_"}
+{"id":"vi.c0074","deck":"vi.d.numbers-and-money","vi":"hai mươi lăm","rom":"hahy muu-uhy lam"}
+{"id":"vi.c0075","deck":"vi.d.numbers-and-money","vi":"một trăm","rom":"moht. cham"}
+{"id":"vi.c0076","deck":"vi.d.numbers-and-money","vi":"năm mươi nghìn đồng","rom":"nam muu-uhy ngeen_ dohng_"}
+{"id":"vi.c0077","deck":"vi.d.numbers-and-money","vi":"hai","rom":"hahy"}
+{"id":"vi.c0078","deck":"vi.d.numbers-and-money","vi":"ba","rom":"bah"}
+{"id":"vi.c0079","deck":"vi.d.numbers-and-money","vi":"bốn","rom":"bohn/"}
+{"id":"vi.c0080","deck":"vi.d.numbers-and-money","vi":"sáu","rom":"sow/"}
+{"id":"vi.c0081","deck":"vi.d.numbers-and-money","vi":"bảy","rom":"bai?"}
+{"id":"vi.c0082","deck":"vi.d.numbers-and-money","vi":"tám","rom":"dtahm/"}
+{"id":"vi.c0083","deck":"vi.d.numbers-and-money","vi":"chín","rom":"cheen/"}
+{"id":"vi.c0084","deck":"vi.d.numbers-and-money","vi":"mười lăm","rom":"muu-uhy_ lam"}
+{"id":"vi.c0085","deck":"vi.d.numbers-and-money","vi":"hai mươi mốt","rom":"hahy muu-uhy moht/"}
+{"id":"vi.c0086","deck":"vi.d.numbers-and-money","vi":"hai mươi tư","rom":"hahy muu-uhy dtuu"}
+{"id":"vi.c0087","deck":"vi.d.numbers-and-money","vi":"một nghìn","rom":"moht. ngeen_"}
+{"id":"vi.c0088","deck":"vi.d.numbers-and-money","vi":"hai mươi nghìn","rom":"hahy muu-uhy ngeen_"}
+{"id":"vi.c0089","deck":"vi.d.numbers-and-money","vi":"một triệu","rom":"moht. chee-uhw."}
+{"id":"vi.c0090","deck":"vi.d.classifiers-and-things","vi":"con mèo","rom":"kawn mehw_"}
+{"id":"vi.c0091","deck":"vi.d.classifiers-and-things","vi":"cái bàn","rom":"kahy/ bahn_"}
+{"id":"vi.c0092","deck":"vi.d.classifiers-and-things","vi":"quyển sách","rom":"kwee-uhn? saik/"}
+{"id":"vi.c0093","deck":"vi.d.classifiers-and-things","vi":"chiếc xe máy","rom":"chee-uhk/ seh mai/"}
+{"id":"vi.c0094","deck":"vi.d.classifiers-and-things","vi":"cái này","rom":"kahy/ nai_"}
+{"id":"vi.c0095","deck":"vi.d.classifiers-and-things","vi":"con chó","rom":"kawn chaw/"}
+{"id":"vi.c0096","deck":"vi.d.classifiers-and-things","vi":"cái ghế","rom":"kahy/ gey/"}
+{"id":"vi.c0097","deck":"vi.d.classifiers-and-things","vi":"cái điện thoại","rom":"kahy/ dee-uhn. twahy."}
+{"id":"vi.c0098","deck":"vi.d.classifiers-and-things","vi":"cái kia","rom":"kahy/ kee-uh"}
+{"id":"vi.c0099","deck":"vi.d.classifiers-and-things","vi":"ba con cá","rom":"bah kawn kah/"}
+{"id":"vi.c0100","deck":"vi.d.classifiers-and-things","vi":"quyển sách này","rom":"kwee-uhn? saik/ nai_"}
+{"id":"vi.c0101","deck":"vi.d.classifiers-and-things","vi":"chiếc xe đạp","rom":"chee-uhk/ seh dahp."}
+{"id":"vi.c0102","deck":"vi.d.classifiers-and-things","vi":"đôi đũa","rom":"dohy doo-uh~"}
+{"id":"vi.c0103","deck":"vi.d.classifiers-and-things","vi":"tờ giấy","rom":"dter_ zay/"}
+{"id":"vi.c0104","deck":"vi.d.classifiers-and-things","vi":"bức tranh","rom":"buuk/ chaing"}
+{"id":"vi.c0105","deck":"vi.d.classifiers-and-things","vi":"một người bạn","rom":"moht. nguu-uhy_ bahn."}
+{"id":"vi.c0106","deck":"vi.d.classifiers-and-things","vi":"Cái này là gì?","rom":"kahy/ nai_ lah_ zee_"}
+{"id":"vi.c0107","deck":"vi.d.classifiers-and-things","vi":"cái túi kia","rom":"kahy/ dtooy/ kee-uh"}
+{"id":"vi.c0108","deck":"vi.d.food-and-drink","vi":"phở bò","rom":"fer? baw_"}
+{"id":"vi.c0109","deck":"vi.d.food-and-drink","vi":"bánh mì","rom":"baing/ mee_"}
+{"id":"vi.c0110","deck":"vi.d.food-and-drink","vi":"cà phê sữa đá","rom":"kah_ fey suu-uh~ dah/"}
+{"id":"vi.c0111","deck":"vi.d.food-and-drink","vi":"trà đá","rom":"chah_ dah/"}
+{"id":"vi.c0112","deck":"vi.d.food-and-drink","vi":"Ngon quá!","rom":"ngawn kwah/"}
+{"id":"vi.c0113","deck":"vi.d.food-and-drink","vi":"bún chả","rom":"boon/ chah?"}
+{"id":"vi.c0114","deck":"vi.d.food-and-drink","vi":"nem rán","rom":"nehm zahn/"}
+{"id":"vi.c0115","deck":"vi.d.food-and-drink","vi":"cơm gà","rom":"kerm gah_"}
+{"id":"vi.c0116","deck":"vi.d.food-and-drink","vi":"cà phê đen","rom":"kah_ fey dehn"}
+{"id":"vi.c0117","deck":"vi.d.food-and-drink","vi":"hai chai bia","rom":"hahy chahy bee-uh"}
+{"id":"vi.c0118","deck":"vi.d.food-and-drink","vi":"một chai nước","rom":"moht. chahy nuu-uhk/"}
+{"id":"vi.c0119","deck":"vi.d.food-and-drink","vi":"sinh tố xoài","rom":"sing dtoh/ swahy_"}
+{"id":"vi.c0120","deck":"vi.d.food-and-drink","vi":"Cho tôi hai bát phở.","rom":"chaw dtohy hahy baht/ fer?"}
+{"id":"vi.c0121","deck":"vi.d.food-and-drink","vi":"Cho tôi xem thực đơn.","rom":"chaw dtohy sehm tuuk. dern"}
+{"id":"vi.c0122","deck":"vi.d.food-and-drink","vi":"Tôi không ăn cay.","rom":"dtohy khohng an kai"}
+{"id":"vi.c0123","deck":"vi.d.food-and-drink","vi":"Tôi ăn chay.","rom":"dtohy an chai"}
+{"id":"vi.c0124","deck":"vi.d.food-and-drink","vi":"Em ơi, tính tiền.","rom":"ehm uhy dting/ dtee-uhn_"}
+{"id":"vi.c0125","deck":"vi.d.food-and-drink","vi":"Chúc sức khỏe!","rom":"chook/ suuk/ khweh?"}
+{"id":"vi.c0126","deck":"vi.d.shopping-and-the-market","vi":"Chị có áo màu đỏ không?","rom":"chee. kaw/ ahw/ mow_ daw? khohng"}
+{"id":"vi.c0127","deck":"vi.d.shopping-and-the-market","vi":"Bao nhiêu tiền?","rom":"bahw nyee-uhw dtee-uhn_"}
+{"id":"vi.c0128","deck":"vi.d.shopping-and-the-market","vi":"Đắt quá!","rom":"dat/ kwah/"}
+{"id":"vi.c0129","deck":"vi.d.shopping-and-the-market","vi":"Bớt một chút được không?","rom":"bert/ moht. choot/ duu-uhk. khohng"}
+{"id":"vi.c0130","deck":"vi.d.shopping-and-the-market","vi":"áo dài","rom":"ahw/ zahy_"}
+{"id":"vi.c0131","deck":"vi.d.shopping-and-the-market","vi":"Cái này bao nhiêu tiền?","rom":"kahy/ nai_ bahw nyee-uhw dtee-uhn_"}
+{"id":"vi.c0132","deck":"vi.d.shopping-and-the-market","vi":"Một cân xoài bao nhiêu?","rom":"moht. kuhn swahy_ bahw nyee-uhw"}
+{"id":"vi.c0133","deck":"vi.d.shopping-and-the-market","vi":"Rẻ quá!","rom":"zeh? kwah/"}
+{"id":"vi.c0134","deck":"vi.d.shopping-and-the-market","vi":"Tôi chỉ xem thôi.","rom":"dtohy chee? sehm tohy"}
+{"id":"vi.c0135","deck":"vi.d.shopping-and-the-market","vi":"Có màu khác không?","rom":"kaw/ mow_ khahk/ khohng"}
+{"id":"vi.c0136","deck":"vi.d.shopping-and-the-market","vi":"Có cỡ to hơn không?","rom":"kaw/ ker~ dtaw hern khohng"}
+{"id":"vi.c0137","deck":"vi.d.shopping-and-the-market","vi":"Tôi lấy cái này.","rom":"dtohy lay/ kahy/ nai_"}
+{"id":"vi.c0138","deck":"vi.d.shopping-and-the-market","vi":"áo màu xanh","rom":"ahw/ mow_ saing"}
+{"id":"vi.c0139","deck":"vi.d.shopping-and-the-market","vi":"quần màu đen","rom":"kwuhn_ mow_ dehn"}
+{"id":"vi.c0140","deck":"vi.d.shopping-and-the-market","vi":"Tôi mặc thử được không?","rom":"dtohy mak. tuu? duu-uhk. khohng"}
+{"id":"vi.c0141","deck":"vi.d.shopping-and-the-market","vi":"Hai trăm nghìn được không?","rom":"hahy cham ngeen_ duu-uhk. khohng"}
+{"id":"vi.c0142","deck":"vi.d.shopping-and-the-market","vi":"Tôi đi chợ.","rom":"dtohy dee cher."}
+{"id":"vi.c0143","deck":"vi.d.shopping-and-the-market","vi":"Tôi trả bằng thẻ được không?","rom":"dtohy chah? bang_ teh? duu-uhk. khohng"}
+{"id":"vi.c0144","deck":"vi.d.time-days-and-dates","vi":"hôm nay","rom":"hohm nai"}
+{"id":"vi.c0145","deck":"vi.d.time-days-and-dates","vi":"hôm qua","rom":"hohm kwah"}
+{"id":"vi.c0146","deck":"vi.d.time-days-and-dates","vi":"ngày mai","rom":"ngai_ mahy"}
+{"id":"vi.c0147","deck":"vi.d.time-days-and-dates","vi":"thứ hai","rom":"tuu/ hahy"}
+{"id":"vi.c0148","deck":"vi.d.time-days-and-dates","vi":"Bây giờ là mấy giờ?","rom":"bay zer_ lah_ may/ zer_"}
+{"id":"vi.c0149","deck":"vi.d.time-days-and-dates","vi":"thứ bảy","rom":"tuu/ bai?"}
+{"id":"vi.c0150","deck":"vi.d.time-days-and-dates","vi":"chủ nhật","rom":"choo? nyuht."}
+{"id":"vi.c0151","deck":"vi.d.time-days-and-dates","vi":"Ba giờ rưỡi.","rom":"bah zer_ zuu-uhy~"}
+{"id":"vi.c0152","deck":"vi.d.time-days-and-dates","vi":"tám giờ sáng","rom":"dtahm/ zer_ sahng/"}
+{"id":"vi.c0153","deck":"vi.d.time-days-and-dates","vi":"bảy giờ tối","rom":"bai? zer_ dtohy/"}
+{"id":"vi.c0154","deck":"vi.d.time-days-and-dates","vi":"tuần sau","rom":"dtwuhn_ sow"}
+{"id":"vi.c0155","deck":"vi.d.time-days-and-dates","vi":"tháng chín","rom":"tahng/ cheen/"}
+{"id":"vi.c0156","deck":"vi.d.time-days-and-dates","vi":"ngày mười lăm tháng chín","rom":"ngai_ muu-uhy_ lam tahng/ cheen/"}
+{"id":"vi.c0157","deck":"vi.d.time-days-and-dates","vi":"Hôm nay là thứ mấy?","rom":"hohm nai lah_ tuu/ may/"}
+{"id":"vi.c0158","deck":"vi.d.time-days-and-dates","vi":"Hôm nay là ngày bao nhiêu?","rom":"hohm nai lah_ ngai_ bahw nyee-uhw"}
+{"id":"vi.c0159","deck":"vi.d.time-days-and-dates","vi":"Tôi đang ăn sáng.","rom":"dtohy dahng an sahng/"}
+{"id":"vi.c0160","deck":"vi.d.time-days-and-dates","vi":"Hôm qua tôi đã đi Hội An.","rom":"hohm kwah dtohy dah~ dee hohy. ahn"}
+{"id":"vi.c0161","deck":"vi.d.time-days-and-dates","vi":"Mai tôi sẽ gọi lại.","rom":"mahy dtohy seh~ gawy. lahy."}
+{"id":"vi.c0162","deck":"vi.d.around-town-and-directions","vi":"Nhà vệ sinh ở đâu?","rom":"nyah_ vey. sing er? duhw"}
+{"id":"vi.c0163","deck":"vi.d.around-town-and-directions","vi":"bên trái","rom":"beyn chahy/"}
+{"id":"vi.c0164","deck":"vi.d.around-town-and-directions","vi":"bên phải","rom":"beyn fahy?"}
+{"id":"vi.c0165","deck":"vi.d.around-town-and-directions","vi":"đi thẳng","rom":"dee tang?"}
+{"id":"vi.c0166","deck":"vi.d.around-town-and-directions","vi":"Rẽ trái.","rom":"zeh~ chahy/"}
+{"id":"vi.c0167","deck":"vi.d.around-town-and-directions","vi":"Rẽ phải ở ngã tư.","rom":"zeh~ fahy? er? ngah~ dtuu"}
+{"id":"vi.c0168","deck":"vi.d.around-town-and-directions","vi":"Đi thẳng rồi rẽ trái.","rom":"dee tang? zohy_ zeh~ chahy/"}
+{"id":"vi.c0169","deck":"vi.d.around-town-and-directions","vi":"ngân hàng","rom":"nguhn hahng_"}
+{"id":"vi.c0170","deck":"vi.d.around-town-and-directions","vi":"gần đây","rom":"guhn_ day"}
+{"id":"vi.c0171","deck":"vi.d.around-town-and-directions","vi":"Có xa không?","rom":"kaw/ sah khohng"}
+{"id":"vi.c0172","deck":"vi.d.around-town-and-directions","vi":"Hồ Gươm cách đây bao xa?","rom":"hoh_ guu-uhm kaik/ day bahw sah"}
+{"id":"vi.c0173","deck":"vi.d.around-town-and-directions","vi":"Đi bộ mất bao lâu?","rom":"dee boh. muht/ bahw luhw"}
+{"id":"vi.c0174","deck":"vi.d.around-town-and-directions","vi":"Gần đây có quán cà phê không?","rom":"guhn_ day kaw/ kwahn/ kah_ fey khohng"}
+{"id":"vi.c0175","deck":"vi.d.around-town-and-directions","vi":"Khách sạn ở bên cạnh ngân hàng.","rom":"khaik/ sahn. er? beyn kaing. nguhn hahng_"}
+{"id":"vi.c0176","deck":"vi.d.around-town-and-directions","vi":"Bưu điện ở đối diện chợ.","rom":"buuw dee-uhn. er? dohy/ zee-uhn. cher."}
+{"id":"vi.c0177","deck":"vi.d.around-town-and-directions","vi":"Anh chỉ đường giúp em được không?","rom":"aing chee? duu-uhng_ zoop/ ehm duu-uhk. khohng"}
+{"id":"vi.c0178","deck":"vi.d.around-town-and-directions","vi":"Tôi bị lạc.","rom":"dtohy bee. lahk."}
+{"id":"vi.c0179","deck":"vi.d.travel-and-transport","vi":"xe ôm","rom":"seh ohm"}
+{"id":"vi.c0180","deck":"vi.d.travel-and-transport","vi":"sân bay","rom":"suhn bai"}
+{"id":"vi.c0181","deck":"vi.d.travel-and-transport","vi":"vé tàu","rom":"veh/ dtow_"}
+{"id":"vi.c0182","deck":"vi.d.travel-and-transport","vi":"khách sạn","rom":"khaik/ sahn."}
+{"id":"vi.c0183","deck":"vi.d.travel-and-transport","vi":"Cho tôi xuống đây.","rom":"chaw dtohy soo-uhng/ day"}
+{"id":"vi.c0184","deck":"vi.d.travel-and-transport","vi":"Cho tôi đến sân bay Nội Bài.","rom":"chaw dtohy deyn/ suhn bai nohy. bahy_"}
+{"id":"vi.c0185","deck":"vi.d.travel-and-transport","vi":"Anh đi chậm một chút nhé.","rom":"aing dee chuhm. moht. choot/ nyeh/"}
+{"id":"vi.c0186","deck":"vi.d.travel-and-transport","vi":"Tôi đi bằng xe máy.","rom":"dtohy dee bang_ seh mai/"}
+{"id":"vi.c0187","deck":"vi.d.travel-and-transport","vi":"Tôi về nhà.","rom":"dtohy vey_ nyah_"}
+{"id":"vi.c0188","deck":"vi.d.travel-and-transport","vi":"Mấy giờ tàu chạy?","rom":"may/ zer_ dtow_ chai."}
+{"id":"vi.c0189","deck":"vi.d.travel-and-transport","vi":"Cho tôi một vé đi Huế.","rom":"chaw dtohy moht. veh/ dee hwey/"}
+{"id":"vi.c0190","deck":"vi.d.travel-and-transport","vi":"vé khứ hồi","rom":"veh/ khuu/ hohy_"}
+{"id":"vi.c0191","deck":"vi.d.travel-and-transport","vi":"Đến sân bay hết bao nhiêu tiền?","rom":"deyn/ suhn bai heyt/ bahw nyee-uhw dtee-uhn_"}
+{"id":"vi.c0192","deck":"vi.d.travel-and-transport","vi":"Tôi đã đặt phòng rồi.","rom":"dtohy dah~ dat. fawng_ zohy_"}
+{"id":"vi.c0193","deck":"vi.d.travel-and-transport","vi":"Chuyến bay bị hoãn.","rom":"chwee-uhn/ bai bee. hwahn~"}
+{"id":"vi.c0194","deck":"vi.d.travel-and-transport","vi":"Hộ chiếu của tôi đây.","rom":"hoh. chee-uhw/ koo-uh? dtohy day"}
+{"id":"vi.c0195","deck":"vi.d.travel-and-transport","vi":"Xe buýt này có đi Hồ Gươm không?","rom":"seh bweet/ nai_ kaw/ dee hoh_ guu-uhm khohng"}
+{"id":"vi.c0196","deck":"vi.d.work-and-study","vi":"giáo viên","rom":"zahw/ vee-uhn"}
+{"id":"vi.c0197","deck":"vi.d.work-and-study","vi":"sinh viên","rom":"sing vee-uhn"}
+{"id":"vi.c0198","deck":"vi.d.work-and-study","vi":"học sinh","rom":"hawk. sing"}
+{"id":"vi.c0199","deck":"vi.d.work-and-study","vi":"kỹ sư","rom":"kee~ suu"}
+{"id":"vi.c0200","deck":"vi.d.work-and-study","vi":"y tá","rom":"ee dtah/"}
+{"id":"vi.c0201","deck":"vi.d.work-and-study","vi":"công ty","rom":"kohng dtee"}
+{"id":"vi.c0202","deck":"vi.d.work-and-study","vi":"Tôi làm việc ở ngân hàng.","rom":"dtohy lahm_ vee-uhk. er? nguhn hahng_"}
+{"id":"vi.c0203","deck":"vi.d.work-and-study","vi":"Tôi biết nói tiếng Anh.","rom":"dtohy bee-uht/ nawy/ dtee-uhng/ aing"}
+{"id":"vi.c0204","deck":"vi.d.work-and-study","vi":"Tôi biết bơi.","rom":"dtohy bee-uht/ buhy"}
+{"id":"vi.c0205","deck":"vi.d.work-and-study","vi":"Tôi không biết lái xe.","rom":"dtohy khohng bee-uht/ lahy/ seh"}
+{"id":"vi.c0206","deck":"vi.d.work-and-study","vi":"Bạn nói tiếng Việt giỏi quá!","rom":"bahn. nawy/ dtee-uhng/ vee-uht. zawy? kwah/"}
+{"id":"vi.c0207","deck":"vi.d.work-and-study","vi":"Tôi có thể giúp gì cho anh?","rom":"dtohy kaw/ tey? zoop/ zee_ chaw aing"}
+{"id":"vi.c0208","deck":"vi.d.work-and-study","vi":"Tôi đang học đại học.","rom":"dtohy dahng hawk. dahy. hawk."}
+{"id":"vi.c0209","deck":"vi.d.work-and-study","vi":"Tôi đang họp.","rom":"dtohy dahng hawp."}
+{"id":"vi.c0210","deck":"vi.d.work-and-study","vi":"đồng nghiệp của tôi","rom":"dohng_ ngee-uhp. koo-uh? dtohy"}
+{"id":"vi.c0211","deck":"vi.d.work-and-study","vi":"Tôi đi làm lúc tám giờ.","rom":"dtohy dee lahm_ look/ dtahm/ zer_"}
+{"id":"vi.c0212","deck":"vi.d.work-and-study","vi":"bài tập về nhà","rom":"bahy_ dtuhp. vey_ nyah_"}
+{"id":"vi.c0213","deck":"vi.d.work-and-study","vi":"Cô ơi, em có câu hỏi.","rom":"koh uhy ehm kaw/ kuhw hawy?"}
+{"id":"vi.c0214","deck":"vi.d.health-and-help","vi":"Tôi bị ốm.","rom":"dtohy bee. ohm/"}
+{"id":"vi.c0215","deck":"vi.d.health-and-help","vi":"hiệu thuốc","rom":"hee-uhw. too-uhk/"}
+{"id":"vi.c0216","deck":"vi.d.health-and-help","vi":"Cứu tôi với!","rom":"kuuw/ dtohy vuhy/"}
+{"id":"vi.c0217","deck":"vi.d.health-and-help","vi":"Tôi bị đau đầu.","rom":"dtohy bee. dow duhw_"}
+{"id":"vi.c0218","deck":"vi.d.health-and-help","vi":"bác sĩ","rom":"bahk/ see~"}
+{"id":"vi.c0219","deck":"vi.d.health-and-help","vi":"Tôi bị sốt.","rom":"dtohy bee. soht/"}
+{"id":"vi.c0220","deck":"vi.d.health-and-help","vi":"Tôi bị đau bụng.","rom":"dtohy bee. dow boong."}
+{"id":"vi.c0221","deck":"vi.d.health-and-help","vi":"Đau ở đây.","rom":"dow er? day"}
+{"id":"vi.c0222","deck":"vi.d.health-and-help","vi":"Tôi cần gặp bác sĩ.","rom":"dtohy kuhn_ gap. bahk/ see~"}
+{"id":"vi.c0223","deck":"vi.d.health-and-help","vi":"Gọi cấp cứu đi!","rom":"gawy. kuhp/ kuuw/ dee"}
+{"id":"vi.c0224","deck":"vi.d.health-and-help","vi":"Bệnh viện gần nhất ở đâu?","rom":"beyng. vee-uhn. guhn_ nyuht/ er? duhw"}
+{"id":"vi.c0225","deck":"vi.d.health-and-help","vi":"Tôi bị dị ứng hải sản.","rom":"dtohy bee. zee. uung/ hahy? sahn?"}
+{"id":"vi.c0226","deck":"vi.d.health-and-help","vi":"Chị có thuốc cảm không?","rom":"chee. kaw/ too-uhk/ kahm? khohng"}
+{"id":"vi.c0227","deck":"vi.d.health-and-help","vi":"Ngày uống ba lần.","rom":"ngai_ oo-uhng/ bah luhn_"}
+{"id":"vi.c0228","deck":"vi.d.health-and-help","vi":"Vì tôi bị ốm nên tôi nghỉ làm.","rom":"vee_ dtohy bee. ohm/ neyn dtohy ngee? lahm_"}
+{"id":"vi.c0229","deck":"vi.d.health-and-help","vi":"Anh có sao không?","rom":"aing kaw/ sahw khohng"}
+{"id":"vi.c0230","deck":"vi.d.health-and-help","vi":"Tôi không sao.","rom":"dtohy khohng sahw"}
+{"id":"vi.c0231","deck":"vi.d.health-and-help","vi":"Tôi bị mất ví.","rom":"dtohy bee. muht/ vee/"}
+{"id":"vi.c0232","deck":"vi.d.about-me","vi":"Tôi tên là Emma.","rom":"dtohy dteyn lah_ ehm mah"}
+{"id":"vi.c0233","deck":"vi.d.about-me","vi":"Bạn tên là gì?","rom":"bahn. dteyn lah_ zee_"}
+{"id":"vi.c0234","deck":"vi.d.about-me","vi":"Tôi là người Mỹ.","rom":"dtohy lah_ nguu-uhy_ mee~"}
+{"id":"vi.c0235","deck":"vi.d.about-me","vi":"Bạn là người nước nào?","rom":"bahn. lah_ nguu-uhy_ nuu-uhk/ nahw_"}
+{"id":"vi.c0236","deck":"vi.d.about-me","vi":"Tôi đến từ Mỹ.","rom":"dtohy deyn/ dtuu_ mee~"}
+{"id":"vi.c0237","deck":"vi.d.about-me","vi":"Tôi là người Mỹ gốc Việt.","rom":"dtohy lah_ nguu-uhy_ mee~ gohk/ vee-uht."}
+{"id":"vi.c0238","deck":"vi.d.about-me","vi":"Tôi sinh ra ở Mỹ.","rom":"dtohy sing zah er? mee~"}
+{"id":"vi.c0239","deck":"vi.d.about-me","vi":"Tôi sống ở Hà Nội.","rom":"dtohy sohng/ er? hah_ nohy."}
+{"id":"vi.c0240","deck":"vi.d.about-me","vi":"Quê bạn ở đâu?","rom":"kwey bahn. er? duhw"}
+{"id":"vi.c0241","deck":"vi.d.about-me","vi":"Tôi học tiếng Việt.","rom":"dtohy hawk. dtee-uhng/ vee-uht."}
+{"id":"vi.c0242","deck":"vi.d.about-me","vi":"Tôi nói được một chút tiếng Việt.","rom":"dtohy nawy/ duu-uhk. moht. choot/ dtee-uhng/ vee-uht."}
+{"id":"vi.c0243","deck":"vi.d.about-me","vi":"Tôi ở Việt Nam được ba tuần rồi.","rom":"dtohy er? vee-uht. nahm duu-uhk. bah dtwuhn_ zohy_"}
+{"id":"vi.c0244","deck":"vi.d.about-me","vi":"Tôi ba mươi tuổi.","rom":"dtohy bah muu-uhy dtoo-uhy?"}
+{"id":"vi.c0245","deck":"vi.d.about-me","vi":"Anh làm nghề gì?","rom":"aing lahm_ ngey_ zee_"}
+{"id":"vi.c0246","deck":"vi.d.about-me","vi":"Tôi là nhân viên văn phòng.","rom":"dtohy lah_ nyuhn vee-uhn van fawng_"}
+{"id":"vi.c0247","deck":"vi.d.about-me","vi":"Tôi chưa có gia đình.","rom":"dtohy chuu-uh kaw/ zah ding_"}
+{"id":"vi.c0248","deck":"vi.d.about-me","vi":"Tôi có gia đình rồi.","rom":"dtohy kaw/ zah ding_ zohy_"}
+{"id":"vi.c0249","deck":"vi.d.describing-things","vi":"đẹp","rom":"dehp."}
+{"id":"vi.c0250","deck":"vi.d.describing-things","vi":"Cái áo này rất đẹp.","rom":"kahy/ ahw/ nai_ zuht/ dehp."}
+{"id":"vi.c0251","deck":"vi.d.describing-things","vi":"to","rom":"dtaw"}
+{"id":"vi.c0252","deck":"vi.d.describing-things","vi":"nhỏ","rom":"nyaw?"}
+{"id":"vi.c0253","deck":"vi.d.describing-things","vi":"Hà Nội lạnh hơn Sài Gòn.","rom":"hah_ nohy. laing. hern sahy_ gawn_"}
+{"id":"vi.c0254","deck":"vi.d.describing-things","vi":"Hôm nay nóng quá.","rom":"hohm nai nawng/ kwah/"}
+{"id":"vi.c0255","deck":"vi.d.describing-things","vi":"Phở ở đây ngon lắm.","rom":"fer? er? day ngawn lam/"}
+{"id":"vi.c0256","deck":"vi.d.describing-things","vi":"Anh ấy rất cao.","rom":"aing ay/ zuht/ kahw"}
+{"id":"vi.c0257","deck":"vi.d.describing-things","vi":"xe máy cũ","rom":"seh mai/ koo~"}
+{"id":"vi.c0258","deck":"vi.d.describing-things","vi":"Phòng này hơi nhỏ.","rom":"fawng_ nai_ huhy nyaw?"}
+{"id":"vi.c0259","deck":"vi.d.describing-things","vi":"Món này không cay.","rom":"mawn/ nai_ khohng kai"}
+{"id":"vi.c0260","deck":"vi.d.describing-things","vi":"Anh ấy cao bằng tôi.","rom":"aing ay/ kahw bang_ dtohy"}
+{"id":"vi.c0261","deck":"vi.d.describing-things","vi":"quán phở ngon nhất","rom":"kwahn/ fer? ngawn nyuht/"}
+{"id":"vi.c0262","deck":"vi.d.describing-things","vi":"Cái này to hơn cái kia.","rom":"kahy/ nai_ dtaw hern kahy/ kee-uh"}
+{"id":"vi.c0263","deck":"vi.d.describing-things","vi":"Tiếng Việt khó quá!","rom":"dtee-uhng/ vee-uht. khaw/ kwah/"}
+{"id":"vi.c0264","deck":"vi.d.describing-things","vi":"Chị ấy là người rất tốt.","rom":"chee. ay/ lah_ nguu-uhy_ zuht/ dtoht/"}
+{"id":"vi.c0265","deck":"vi.d.describing-things","vi":"một quán cà phê yên tĩnh","rom":"moht. kwahn/ kah_ fey ee-uhn dting~"}
+{"id":"vi.c0266","deck":"vi.d.questions-and-connectors","vi":"Cái gì?","rom":"kahy/ zee_"}
+{"id":"vi.c0267","deck":"vi.d.questions-and-connectors","vi":"Ai?","rom":"ahy"}
+{"id":"vi.c0268","deck":"vi.d.questions-and-connectors","vi":"Anh ấy là ai?","rom":"aing ay/ lah_ ahy"}
+{"id":"vi.c0269","deck":"vi.d.questions-and-connectors","vi":"Ở đâu?","rom":"er? duhw"}
+{"id":"vi.c0270","deck":"vi.d.questions-and-connectors","vi":"Tại sao?","rom":"dtahy. sahw"}
+{"id":"vi.c0271","deck":"vi.d.questions-and-connectors","vi":"Khi nào?","rom":"khee nahw_"}
+{"id":"vi.c0272","deck":"vi.d.questions-and-connectors","vi":"Cái nào?","rom":"kahy/ nahw_"}
+{"id":"vi.c0273","deck":"vi.d.questions-and-connectors","vi":"Anh thấy Hà Nội thế nào?","rom":"aing tay/ hah_ nohy. tey/ nahw_"}
+{"id":"vi.c0274","deck":"vi.d.questions-and-connectors","vi":"Chị có bận không?","rom":"chee. kaw/ buhn. khohng"}
+{"id":"vi.c0275","deck":"vi.d.questions-and-connectors","vi":"Bạn là sinh viên phải không?","rom":"bahn. lah_ sing vee-uhn fahy? khohng"}
+{"id":"vi.c0276","deck":"vi.d.questions-and-connectors","vi":"Anh đã đến Huế chưa?","rom":"aing dah~ deyn/ hwey/ chuu-uh"}
+{"id":"vi.c0277","deck":"vi.d.questions-and-connectors","vi":"Rồi.","rom":"zohy_"}
+{"id":"vi.c0278","deck":"vi.d.questions-and-connectors","vi":"Chưa.","rom":"chuu-uh"}
+{"id":"vi.c0279","deck":"vi.d.questions-and-connectors","vi":"nhưng","rom":"nyuung"}
+{"id":"vi.c0280","deck":"vi.d.questions-and-connectors","vi":"Cà phê hay trà?","rom":"kah_ fey hai chah_"}
+{"id":"vi.c0281","deck":"vi.d.questions-and-connectors","vi":"Trời mưa nên tôi ở nhà.","rom":"chuhy_ muu-uh neyn dtohy er? nyah_"}
+{"id":"vi.c0282","deck":"vi.d.questions-and-connectors","vi":"Ở đây chụp ảnh được không?","rom":"er? day choop. aing? duu-uhk. khohng"}
+{"id":"vi.c0283","deck":"vi.d.questions-and-connectors","vi":"Tôi cũng thế.","rom":"dtohy koong~ tey/"}
+{"id":"vi.c0284","deck":"vi.d.traps-for-english-speakers","vi":"Tôi mệt.","rom":"dtohy meyt."}
+{"id":"vi.c0285","deck":"vi.d.traps-for-english-speakers","vi":"Tôi đói.","rom":"dtohy dawy/"}
+{"id":"vi.c0286","deck":"vi.d.traps-for-english-speakers","vi":"Tôi thấy nóng.","rom":"dtohy tay/ nawng/"}
+{"id":"vi.c0287","deck":"vi.d.traps-for-english-speakers","vi":"Tôi ở Hà Nội.","rom":"dtohy er? hah_ nohy."}
+{"id":"vi.c0288","deck":"vi.d.traps-for-english-speakers","vi":"Tôi không phải là giáo viên.","rom":"dtohy khohng fahy? lah_ zahw/ vee-uhn"}
+{"id":"vi.c0289","deck":"vi.d.traps-for-english-speakers","vi":"Tôi hai mươi lăm tuổi.","rom":"dtohy hahy muu-uhy lam dtoo-uhy?"}
+{"id":"vi.c0290","deck":"vi.d.traps-for-english-speakers","vi":"ga","rom":"gah"}
+{"id":"vi.c0291","deck":"vi.d.traps-for-english-speakers","vi":"xăng","rom":"sang"}
+{"id":"vi.c0292","deck":"vi.d.traps-for-english-speakers","vi":"chè","rom":"cheh_"}
+{"id":"vi.c0293","deck":"vi.d.traps-for-english-speakers","vi":"ốm","rom":"ohm/"}
+{"id":"vi.c0294","deck":"vi.d.traps-for-english-speakers","vi":"Con chó này to lắm.","rom":"kawn chaw/ nai_ dtaw lam/"}
+{"id":"vi.c0295","deck":"vi.d.traps-for-english-speakers","vi":"Phim này hay lắm.","rom":"feem nai_ hai lam/"}
+{"id":"vi.c0296","deck":"vi.d.traps-for-english-speakers","vi":"bà","rom":"bah_"}
+{"id":"vi.c0297","deck":"vi.d.traps-for-english-speakers","vi":"Bác có khỏe không ạ?","rom":"bahk/ kaw/ khweh? khohng ah."}
+{"id":"vi.c0298","deck":"vi.d.traps-for-english-speakers","vi":"Em ơi!","rom":"ehm uhy"}
+{"id":"vi.c0299","deck":"vi.d.traps-for-english-speakers","vi":"Anh ấy là bạn tôi.","rom":"aing ay/ lah_ bahn. dtohy"}
+{"id":"vi.c0300","deck":"vi.d.traps-for-english-speakers","vi":"Ăn cơm chưa?","rom":"an kerm chuu-uh"}
+{"id":"vi.c0301","deck":"vi.d.traps-for-english-speakers","vi":"Đi đâu đấy?","rom":"dee duhw day/"}
+{"id":"vi.c0302","deck":"vi.d.polite-vietnamese","vi":"Dạ.","rom":"zah."}
+{"id":"vi.c0303","deck":"vi.d.polite-vietnamese","vi":"Vâng.","rom":"vuhng"}
+{"id":"vi.c0304","deck":"vi.d.polite-vietnamese","vi":"Dạ, được ạ.","rom":"zah. duu-uhk. ah."}
+{"id":"vi.c0305","deck":"vi.d.polite-vietnamese","vi":"Dạ, không ạ.","rom":"zah. khohng ah."}
+{"id":"vi.c0306","deck":"vi.d.polite-vietnamese","vi":"Cảm ơn chị ạ.","rom":"kahm? ern chee. ah."}
+{"id":"vi.c0307","deck":"vi.d.polite-vietnamese","vi":"Em xin lỗi chị.","rom":"ehm seen lohy~ chee."}
+{"id":"vi.c0308","deck":"vi.d.polite-vietnamese","vi":"Mời anh vào.","rom":"muhy_ aing vahw_"}
+{"id":"vi.c0309","deck":"vi.d.polite-vietnamese","vi":"Mời cô ngồi.","rom":"muhy_ koh ngohy_"}
+{"id":"vi.c0310","deck":"vi.d.polite-vietnamese","vi":"Mời bác ăn cơm ạ.","rom":"muhy_ bahk/ an kerm ah."}
+{"id":"vi.c0311","deck":"vi.d.polite-vietnamese","vi":"Anh ơi!","rom":"aing uhy"}
+{"id":"vi.c0312","deck":"vi.d.polite-vietnamese","vi":"Chị ơi, cho em hỏi.","rom":"chee. uhy chaw ehm hawy?"}
+{"id":"vi.c0313","deck":"vi.d.polite-vietnamese","vi":"Làm ơn cho tôi hỏi.","rom":"lahm_ ern chaw dtohy hawy?"}
+{"id":"vi.c0314","deck":"vi.d.polite-vietnamese","vi":"Cho em xin một cốc nước ạ.","rom":"chaw ehm seen moht. kohk/ nuu-uhk/ ah."}
+{"id":"vi.c0315","deck":"vi.d.polite-vietnamese","vi":"Chị nói chậm một chút được không ạ?","rom":"chee. nawy/ chuhm. moht. choot/ duu-uhk. khohng ah."}
+{"id":"vi.c0316","deck":"vi.d.polite-vietnamese","vi":"Chị đợi em một chút nhé.","rom":"chee. duhy. ehm moht. choot/ nyeh/"}
+{"id":"vi.c0317","deck":"vi.d.polite-vietnamese","vi":"Xin chờ một chút.","rom":"seen cher_ moht. choot/"}
+{"id":"vi.c0318","deck":"vi.d.polite-vietnamese","vi":"Cháu chào bà ạ.","rom":"chow/ chahw_ bah_ ah."}
+{"id":"vi.c0319","deck":"vi.d.polite-vietnamese","vi":"Cháu xin phép về ạ.","rom":"chow/ seen fehp/ vey_ ah."}
+{"id":"vi.c0320","deck":"vi.d.compliments","vi":"Cô nấu ăn ngon quá!","rom":"koh nuhw/ an ngawn kwah/"}
+{"id":"vi.c0321","deck":"vi.d.compliments","vi":"Món này ngon thật!","rom":"mawn/ nai_ ngawn tuht."}
+{"id":"vi.c0322","deck":"vi.d.compliments","vi":"Cháu ăn no rồi, ngon lắm ạ.","rom":"chow/ an naw zohy_ ngawn lam/ ah."}
+{"id":"vi.c0323","deck":"vi.d.compliments","vi":"Làm tốt lắm!","rom":"lahm_ dtoht/ lam/"}
+{"id":"vi.c0324","deck":"vi.d.compliments","vi":"Anh giỏi thật đấy!","rom":"aing zawy? tuht. day/"}
+{"id":"vi.c0325","deck":"vi.d.compliments","vi":"Ý kiến hay đấy!","rom":"ee/ kee-uhn/ hai day/"}
+{"id":"vi.c0326","deck":"vi.d.compliments","vi":"Tuyệt vời!","rom":"dtwee-uht. vuhy_"}
+{"id":"vi.c0327","deck":"vi.d.compliments","vi":"Chị làm nhanh thật!","rom":"chee. lahm_ nyaing tuht."}
+{"id":"vi.c0328","deck":"vi.d.compliments","vi":"Em đã cố gắng nhiều.","rom":"ehm dah~ koh/ gang/ nyee-uhw_"}
+{"id":"vi.c0329","deck":"vi.d.compliments","vi":"Em chăm chỉ quá!","rom":"ehm cham chee? kwah/"}
+{"id":"vi.c0330","deck":"vi.d.compliments","vi":"Chị tốt bụng quá.","rom":"chee. dtoht/ boong. kwah/"}
+{"id":"vi.c0331","deck":"vi.d.compliments","vi":"Anh vui tính quá!","rom":"aing vooy dting/ kwah/"}
+{"id":"vi.c0332","deck":"vi.d.compliments","vi":"Bạn thông minh thật!","rom":"bahn. tohng ming tuht."}
+{"id":"vi.c0333","deck":"vi.d.compliments","vi":"Chị dễ thương quá!","rom":"chee. zey~ tuu-uhng kwah/"}
+{"id":"vi.c0334","deck":"vi.d.compliments","vi":"Chị hát hay quá!","rom":"chee. haht/ hai kwah/"}
+{"id":"vi.c0335","deck":"vi.d.compliments","vi":"Chị mặc áo dài đẹp quá!","rom":"chee. mak. ahw/ zahy_ dehp. kwah/"}
+{"id":"vi.c0336","deck":"vi.d.compliments","vi":"Cái áo này hợp với chị lắm.","rom":"kahy/ ahw/ nai_ herp. vuhy/ chee. lam/"}
+{"id":"vi.c0337","deck":"vi.d.compliments","vi":"Trông chị trẻ quá!","rom":"chohng chee. cheh? kwah/"}
+{"id":"vi.c0338","deck":"vi.d.compliments","vi":"Ảnh đẹp quá!","rom":"aing? dehp. kwah/"}
+{"id":"vi.c0339","deck":"vi.d.compliments","vi":"Nhà chị đẹp quá!","rom":"nyah_ chee. dehp. kwah/"}
+{"id":"vi.c0340","deck":"vi.d.compliments","vi":"Nhà cô ấm cúng quá.","rom":"nyah_ koh uhm/ koong/ kwah/"}
+{"id":"vi.c0341","deck":"vi.d.compliments","vi":"Con chị ngoan quá!","rom":"kawn chee. ngwahn kwah/"}
+{"id":"vi.c0342","deck":"vi.d.compliments","vi":"Em bé đáng yêu quá!","rom":"ehm beh/ dahng/ ee-uhw kwah/"}
+{"id":"vi.c0343","deck":"vi.d.compliments","vi":"Anh nói tiếng Việt như người Việt!","rom":"aing nawy/ dtee-uhng/ vee-uht. nyuu nguu-uhy_ vee-uht."}
+{"id":"vi.c0344","deck":"vi.d.compliments","vi":"Chị nói tiếng Việt sõi quá!","rom":"chee. nawy/ dtee-uhng/ vee-uht. sawy~ kwah/"}
+{"id":"vi.c0345","deck":"vi.d.compliments","vi":"Đâu có, tôi còn phải học nhiều.","rom":"duhw kaw/ dtohy kawn_ fahy? hawk. nyee-uhw_"}
+{"id":"vi.c0346","deck":"vi.d.compliments","vi":"Anh quá khen rồi.","rom":"aing kwah/ khehn zohy_"}
+{"id":"vi.c0347","deck":"vi.d.compliments","vi":"Em cảm ơn chị đã khen ạ.","rom":"ehm kahm? ern chee. dah~ khehn ah."}
+{"id":"vi.c0348","deck":"vi.d.compliments","vi":"Cũng bình thường thôi.","rom":"koong~ bing_ tuu-uhng_ tohy"}
+{"id":"vi.c0349","deck":"vi.d.compliments","vi":"Chị nói thế làm em ngại quá.","rom":"chee. nawy/ tey/ lahm_ ehm ngahy. kwah/"}
+{"id":"vi.c0350","deck":"vi.d.compliments","vi":"Không dám ạ.","rom":"khohng zahm/ ah."}
+{"id":"vi.c0351","deck":"vi.d.flirting","vi":"xinh","rom":"sing"}
+{"id":"vi.c0352","deck":"vi.d.flirting","vi":"xinh đẹp","rom":"sing dehp."}
+{"id":"vi.c0353","deck":"vi.d.flirting","vi":"đẹp trai","rom":"dehp. chahy"}
+{"id":"vi.c0354","deck":"vi.d.flirting","vi":"dễ thương","rom":"zey~ tuu-uhng"}
+{"id":"vi.c0355","deck":"vi.d.flirting","vi":"đáng yêu","rom":"dahng/ ee-uhw"}
+{"id":"vi.c0356","deck":"vi.d.flirting","vi":"có duyên","rom":"kaw/ zwee-uhn"}
+{"id":"vi.c0357","deck":"vi.d.flirting","vi":"ngọt ngào","rom":"ngawt. ngahw_"}
+{"id":"vi.c0358","deck":"vi.d.flirting","vi":"dịu dàng","rom":"zeew. zahng_"}
+{"id":"vi.c0359","deck":"vi.d.flirting","vi":"lãng mạn","rom":"lahng~ mahn."}
+{"id":"vi.c0360","deck":"vi.d.flirting","vi":"ga lăng","rom":"gah lang"}
+{"id":"vi.c0361","deck":"vi.d.flirting","vi":"hài hước","rom":"hahy_ huu-uhk/"}
+{"id":"vi.c0362","deck":"vi.d.flirting","vi":"vui tính","rom":"vooy dting/"}
+{"id":"vi.c0363","deck":"vi.d.flirting","vi":"thông minh","rom":"tohng ming"}
+{"id":"vi.c0364","deck":"vi.d.flirting","vi":"tốt bụng","rom":"dtoht/ boong."}
+{"id":"vi.c0365","deck":"vi.d.flirting","vi":"quyến rũ","rom":"kwee-uhn/ zoo~"}
+{"id":"vi.c0366","deck":"vi.d.flirting","vi":"nụ cười","rom":"noo. kuu-uhy_"}
+{"id":"vi.c0367","deck":"vi.d.flirting","vi":"mắt","rom":"mat/"}
+{"id":"vi.c0368","deck":"vi.d.flirting","vi":"tóc","rom":"dtawk/"}
+{"id":"vi.c0369","deck":"vi.d.flirting","vi":"giọng","rom":"zawng."}
+{"id":"vi.c0370","deck":"vi.d.flirting","vi":"gu","rom":"goo"}
+{"id":"vi.c0371","deck":"vi.d.flirting","vi":"người yêu","rom":"nguu-uhy_ ee-uhw"}
+{"id":"vi.c0372","deck":"vi.d.flirting","vi":"hẹn hò","rom":"hehn. haw_"}
+{"id":"vi.c0373","deck":"vi.d.flirting","vi":"tán tỉnh","rom":"dtahn/ dting?"}
+{"id":"vi.c0374","deck":"vi.d.flirting","vi":"thả thính","rom":"tah? ting/"}
+{"id":"vi.c0375","deck":"vi.d.flirting","vi":"Em xinh quá!","rom":"ehm sing kwah/"}
+{"id":"vi.c0376","deck":"vi.d.flirting","vi":"Hôm nay em xinh lắm.","rom":"hohm nai ehm sing lam/"}
+{"id":"vi.c0377","deck":"vi.d.flirting","vi":"Tối nay em đẹp lắm.","rom":"dtohy/ nai ehm dehp. lam/"}
+{"id":"vi.c0378","deck":"vi.d.flirting","vi":"Anh đẹp trai quá!","rom":"aing dehp. chahy kwah/"}
+{"id":"vi.c0379","deck":"vi.d.flirting","vi":"Hôm nay anh đẹp trai thế!","rom":"hohm nai aing dehp. chahy tey/"}
+{"id":"vi.c0380","deck":"vi.d.flirting","vi":"Em dễ thương quá.","rom":"ehm zey~ tuu-uhng kwah/"}
+{"id":"vi.c0381","deck":"vi.d.flirting","vi":"Em đáng yêu thật đấy.","rom":"ehm dahng/ ee-uhw tuht. day/"}
+{"id":"vi.c0382","deck":"vi.d.flirting","vi":"Em có duyên lắm.","rom":"ehm kaw/ zwee-uhn lam/"}
+{"id":"vi.c0383","deck":"vi.d.flirting","vi":"Em cười xinh lắm.","rom":"ehm kuu-uhy_ sing lam/"}
+{"id":"vi.c0384","deck":"vi.d.flirting","vi":"Anh thích nụ cười của em.","rom":"aing tik/ noo. kuu-uhy_ koo-uh? ehm"}
+{"id":"vi.c0385","deck":"vi.d.flirting","vi":"Mắt em đẹp quá.","rom":"mat/ ehm dehp. kwah/"}
+{"id":"vi.c0386","deck":"vi.d.flirting","vi":"Giọng em hay quá.","rom":"zawng. ehm hai kwah/"}
+{"id":"vi.c0387","deck":"vi.d.flirting","vi":"Em để tóc này hợp lắm.","rom":"ehm dey? dtawk/ nai_ herp. lam/"}
+{"id":"vi.c0388","deck":"vi.d.flirting","vi":"Em mặc màu này hợp lắm.","rom":"ehm mak. mow_ nai_ herp. lam/"}
+{"id":"vi.c0389","deck":"vi.d.flirting","vi":"Em đúng gu của anh.","rom":"ehm doong/ goo koo-uh? aing"}
+{"id":"vi.c0390","deck":"vi.d.flirting","vi":"Anh hài hước quá!","rom":"aing hahy_ huu-uhk/ kwah/"}
+{"id":"vi.c0391","deck":"vi.d.flirting","vi":"Em làm anh cười suốt.","rom":"ehm lahm_ aing kuu-uhy_ soo-uht/"}
+{"id":"vi.c0392","deck":"vi.d.flirting","vi":"Nói chuyện với em vui lắm.","rom":"nawy/ chwee-uhn. vuhy/ ehm vooy lam/"}
+{"id":"vi.c0393","deck":"vi.d.flirting","vi":"Em thông minh thật.","rom":"ehm tohng ming tuht."}
+{"id":"vi.c0394","deck":"vi.d.flirting","vi":"Anh ga lăng quá.","rom":"aing gah lang kwah/"}
+{"id":"vi.c0395","deck":"vi.d.flirting","vi":"Anh lãng mạn quá!","rom":"aing lahng~ mahn. kwah/"}
+{"id":"vi.c0396","deck":"vi.d.flirting","vi":"Em dịu dàng quá.","rom":"ehm zeew. zahng_ kwah/"}
+{"id":"vi.c0397","deck":"vi.d.flirting","vi":"Em có người yêu chưa?","rom":"ehm kaw/ nguu-uhy_ ee-uhw chuu-uh"}
+{"id":"vi.c0398","deck":"vi.d.flirting","vi":"Cho anh xin số điện thoại của em nhé?","rom":"chaw aing seen soh/ dee-uhn. twahy. koo-uh? ehm nyeh/"}
+{"id":"vi.c0399","deck":"vi.d.flirting","vi":"Mình đi cà phê nhé?","rom":"ming_ dee kah_ fey nyeh/"}
+{"id":"vi.c0400","deck":"vi.d.flirting","vi":"Cuối tuần này em có rảnh không?","rom":"koo-uhy/ dtwuhn_ nai_ ehm kaw/ zaing? khohng"}
+{"id":"vi.c0401","deck":"vi.d.flirting","vi":"Tối nay đi ăn với anh nhé?","rom":"dtohy/ nai dee an vuhy/ aing nyeh/"}
+{"id":"vi.c0402","deck":"vi.d.flirting","vi":"Anh rất vui vì em đến.","rom":"aing zuht/ vooy vee_ ehm deyn/"}
+{"id":"vi.c0403","deck":"vi.d.flirting","vi":"Anh muốn gặp lại em.","rom":"aing moo-uhn/ gap. lahy. ehm"}
+{"id":"vi.c0404","deck":"vi.d.flirting","vi":"Anh nhớ em.","rom":"aing nyer/ ehm"}
+{"id":"vi.c0405","deck":"vi.d.flirting","vi":"Anh nghĩ về em suốt.","rom":"aing ngee~ vey_ ehm soo-uht/"}
+{"id":"vi.c0406","deck":"vi.d.flirting","vi":"Anh thích em.","rom":"aing tik/ ehm"}
+{"id":"vi.c0407","deck":"vi.d.flirting","vi":"Làm người yêu anh nhé?","rom":"lahm_ nguu-uhy_ ee-uhw aing nyeh/"}
+{"id":"vi.c0408","deck":"vi.d.flirting","vi":"Anh khéo nịnh quá!","rom":"aing khehw/ ning. kwah/"}
+{"id":"vi.c0409","deck":"vi.d.flirting","vi":"Anh dẻo miệng quá!","rom":"aing zehw? mee-uhng. kwah/"}
+{"id":"vi.c0410","deck":"vi.d.flirting","vi":"Anh cũng thế.","rom":"aing koong~ tey/"}
+{"id":"vi.c0411","deck":"vi.d.flirting","vi":"Em vui lắm, cảm ơn anh.","rom":"ehm vooy lam/ kahm? ern aing"}
+{"id":"vi.c0412","deck":"vi.d.flirting","vi":"Được chứ, em rất thích.","rom":"duu-uhk. chuu/ ehm zuht/ tik/"}
+{"id":"vi.c0413","deck":"vi.d.flirting","vi":"Để em nghĩ đã.","rom":"dey? ehm ngee~ dah~"}
+{"id":"vi.c0414","deck":"vi.d.flirting","vi":"Cảm ơn anh, nhưng em có người yêu rồi.","rom":"kahm? ern aing nyuung ehm kaw/ nguu-uhy_ ee-uhw zohy_"}
+{"id":"vi.c0415","deck":"vi.d.flirting","vi":"Xin lỗi, em chỉ coi anh là bạn thôi.","rom":"seen lohy~ ehm chee? kawy aing lah_ bahn. tohy"}
+{"id":"vi.c0416","deck":"vi.d.flirting","vi":"Anh tốt lắm, nhưng mình không hợp nhau đâu.","rom":"aing dtoht/ lam/ nyuung ming_ khohng herp. nyow duhw"}
+{"id":"vi.c0417","deck":"vi.d.flirting","vi":"Cảm ơn anh, nhưng em không đi được.","rom":"kahm? ern aing nyuung ehm khohng dee duu-uhk."}
+{"id":"vi.c0418","deck":"vi.d.top-nouns","vi":"nước","rom":"nuu-uhk/"}
+{"id":"vi.c0419","deck":"vi.d.top-nouns","vi":"đầu","rom":"duhw_"}
+{"id":"vi.c0420","deck":"vi.d.top-nouns","vi":"số","rom":"soh/"}
+{"id":"vi.c0421","deck":"vi.d.top-nouns","vi":"việc","rom":"vee-uhk."}
+{"id":"vi.c0422","deck":"vi.d.top-nouns","vi":"trường","rom":"chuu-uhng_"}
+{"id":"vi.c0423","deck":"vi.d.top-nouns","vi":"điều","rom":"dee-uhw_"}
+{"id":"vi.c0424","deck":"vi.d.top-nouns","vi":"cách","rom":"kaik/"}
+{"id":"vi.c0425","deck":"vi.d.top-nouns","vi":"hàng","rom":"hahng_"}
+{"id":"vi.c0426","deck":"vi.d.top-nouns","vi":"báo","rom":"bahw/"}
+{"id":"vi.c0427","deck":"vi.d.top-nouns","vi":"tiếng","rom":"dtee-uhng/"}
+{"id":"vi.c0428","deck":"vi.d.top-nouns","vi":"đường","rom":"duu-uhng_"}
+{"id":"vi.c0429","deck":"vi.d.top-nouns","vi":"giá","rom":"zah/"}
+{"id":"vi.c0430","deck":"vi.d.top-nouns","vi":"lần","rom":"luhn_"}
+{"id":"vi.c0431","deck":"vi.d.top-nouns","vi":"mặt","rom":"mat."}
+{"id":"vi.c0432","deck":"vi.d.top-nouns","vi":"tên","rom":"dteyn"}
+{"id":"vi.c0433","deck":"vi.d.top-nouns","vi":"bên","rom":"beyn"}
+{"id":"vi.c0434","deck":"vi.d.top-nouns","vi":"chuyện","rom":"chwee-uhn."}
+{"id":"vi.c0435","deck":"vi.d.top-nouns","vi":"cây","rom":"kay"}
+{"id":"vi.c0436","deck":"vi.d.top-nouns","vi":"nơi","rom":"nuhy"}
+{"id":"vi.c0437","deck":"vi.d.top-nouns","vi":"phòng","rom":"fawng_"}
+{"id":"vi.c0438","deck":"vi.d.top-nouns","vi":"tiền","rom":"dtee-uhn_"}
+{"id":"vi.c0439","deck":"vi.d.top-nouns","vi":"bệnh","rom":"beyng."}
+{"id":"vi.c0440","deck":"vi.d.top-nouns","vi":"tuổi","rom":"dtoo-uhy?"}
+{"id":"vi.c0441","deck":"vi.d.top-nouns","vi":"điện","rom":"dee-uhn."}
+{"id":"vi.c0442","deck":"vi.d.top-nouns","vi":"ảnh","rom":"aing?"}
+{"id":"vi.c0443","deck":"vi.d.top-nouns","vi":"phố","rom":"foh/"}
+{"id":"vi.c0444","deck":"vi.d.top-nouns","vi":"máy","rom":"mai/"}
+{"id":"vi.c0445","deck":"vi.d.top-nouns","vi":"bài","rom":"bahy_"}
+{"id":"vi.c0446","deck":"vi.d.top-nouns","vi":"khách","rom":"khaik/"}
+{"id":"vi.c0447","deck":"vi.d.top-nouns","vi":"cửa","rom":"kuu-uh?"}
+{"id":"vi.c0448","deck":"vi.d.top-nouns","vi":"câu","rom":"kuhw"}
+{"id":"vi.c0449","deck":"vi.d.top-nouns","vi":"đời","rom":"duhy_"}
+{"id":"vi.c0450","deck":"vi.d.top-nouns","vi":"biển","rom":"bee-uhn?"}
+{"id":"vi.c0451","deck":"vi.d.top-nouns","vi":"vợ","rom":"ver."}
+{"id":"vi.c0452","deck":"vi.d.top-nouns","vi":"chồng","rom":"chohng_"}
+{"id":"vi.c0453","deck":"vi.d.top-nouns","vi":"cha","rom":"chah"}
+{"id":"vi.c0454","deck":"vi.d.top-nouns","vi":"đồ","rom":"doh_"}
+{"id":"vi.c0455","deck":"vi.d.top-nouns","vi":"chỗ","rom":"choh~"}
+{"id":"vi.c0456","deck":"vi.d.top-nouns","vi":"cơm","rom":"kerm"}
+{"id":"vi.c0457","deck":"vi.d.top-nouns","vi":"thịt","rom":"teet."}
+{"id":"vi.c0458","deck":"vi.d.top-nouns","vi":"bánh","rom":"baing/"}
+{"id":"vi.c0459","deck":"vi.d.top-nouns","vi":"trà","rom":"chah_"}
+{"id":"vi.c0460","deck":"vi.d.top-nouns","vi":"quán","rom":"kwahn/"}
+{"id":"vi.c0461","deck":"vi.d.top-nouns","vi":"chợ","rom":"cher."}
+{"id":"vi.c0462","deck":"vi.d.top-nouns","vi":"áo","rom":"ahw/"}
+{"id":"vi.c0463","deck":"vi.d.top-nouns","vi":"quần","rom":"kwuhn_"}
+{"id":"vi.c0464","deck":"vi.d.top-nouns","vi":"giày","rom":"zai_"}
+{"id":"vi.c0465","deck":"vi.d.top-nouns","vi":"mũ","rom":"moo~"}
+{"id":"vi.c0466","deck":"vi.d.top-nouns","vi":"mưa","rom":"muu-uh"}
+{"id":"vi.c0467","deck":"vi.d.top-nouns","vi":"nắng","rom":"nang/"}
+{"id":"vi.c0468","deck":"vi.d.top-nouns","vi":"núi","rom":"nooy/"}
+{"id":"vi.c0469","deck":"vi.d.top-nouns","vi":"sông","rom":"sohng"}
+{"id":"vi.c0470","deck":"vi.d.top-nouns","vi":"hồ","rom":"hoh_"}
+{"id":"vi.c0471","deck":"vi.d.top-nouns","vi":"nhạc","rom":"nyahk."}
+{"id":"vi.c0472","deck":"vi.d.top-nouns","vi":"phim","rom":"feem"}
+{"id":"vi.c0473","deck":"vi.d.top-nouns","vi":"quà","rom":"kwah_"}
+{"id":"vi.c0474","deck":"vi.d.top-nouns","vi":"món","rom":"mawn/"}
+{"id":"vi.c0475","deck":"vi.d.top-nouns","vi":"bữa","rom":"buu-uh~"}
+{"id":"vi.c0476","deck":"vi.d.top-nouns","vi":"chữ","rom":"chuu~"}
+{"id":"vi.c0477","deck":"vi.d.top-nouns","vi":"tin nhắn","rom":"dteen nyan/"}
+{"id":"vi.c0478","deck":"vi.d.top-nouns","vi":"gia đình","rom":"zah ding_"}
+{"id":"vi.c0479","deck":"vi.d.top-nouns","vi":"thời gian","rom":"tuhy_ zahn"}
+{"id":"vi.c0480","deck":"vi.d.top-nouns","vi":"công việc","rom":"kohng vee-uhk."}
+{"id":"vi.c0481","deck":"vi.d.top-nouns","vi":"thành phố","rom":"taing_ foh/"}
+{"id":"vi.c0482","deck":"vi.d.top-nouns","vi":"nhà hàng","rom":"nyah_ hahng_"}
+{"id":"vi.c0483","deck":"vi.d.top-nouns","vi":"cửa hàng","rom":"kuu-uh? hahng_"}
+{"id":"vi.c0484","deck":"vi.d.top-nouns","vi":"bệnh viện","rom":"beyng. vee-uhn."}
+{"id":"vi.c0485","deck":"vi.d.top-nouns","vi":"bạn bè","rom":"bahn. beh_"}
+{"id":"vi.c0486","deck":"vi.d.top-nouns","vi":"bạn trai","rom":"bahn. chahy"}
+{"id":"vi.c0487","deck":"vi.d.top-nouns","vi":"bạn gái","rom":"bahn. gahy/"}
+{"id":"vi.c0488","deck":"vi.d.top-nouns","vi":"trẻ em","rom":"cheh? ehm"}
+{"id":"vi.c0489","deck":"vi.d.top-nouns","vi":"em bé","rom":"ehm beh/"}
+{"id":"vi.c0490","deck":"vi.d.top-nouns","vi":"vấn đề","rom":"vuhn/ dey_"}
+{"id":"vi.c0491","deck":"vi.d.top-nouns","vi":"ý kiến","rom":"ee/ kee-uhn/"}
+{"id":"vi.c0492","deck":"vi.d.top-nouns","vi":"cuộc sống","rom":"koo-uhk. sohng/"}
+{"id":"vi.c0493","deck":"vi.d.top-nouns","vi":"thế giới","rom":"tey/ zuhy/"}
+{"id":"vi.c0494","deck":"vi.d.top-nouns","vi":"đất nước","rom":"duht/ nuu-uhk/"}
+{"id":"vi.c0495","deck":"vi.d.top-nouns","vi":"làng","rom":"lahng_"}
+{"id":"vi.c0496","deck":"vi.d.top-nouns","vi":"lớp","rom":"lerp/"}
+{"id":"vi.c0497","deck":"vi.d.top-nouns","vi":"nhân viên","rom":"nyuhn vee-uhn"}
+{"id":"vi.c0498","deck":"vi.d.top-nouns","vi":"cảnh sát","rom":"kaing? saht/"}
+{"id":"vi.c0499","deck":"vi.d.top-nouns","vi":"thời tiết","rom":"tuhy_ dtee-uht/"}
+{"id":"vi.c0500","deck":"vi.d.top-nouns","vi":"nhà vệ sinh","rom":"nyah_ vey. sing"}
+{"id":"vi.c0501","deck":"vi.d.top-nouns","vi":"chìa khóa","rom":"chee-uh_ khwah/"}
+{"id":"vi.c0502","deck":"vi.d.top-nouns","vi":"đồng hồ","rom":"dohng_ hoh_"}
+{"id":"vi.c0503","deck":"vi.d.top-nouns","vi":"tàu","rom":"dtow_"}
+{"id":"vi.c0504","deck":"vi.d.top-nouns","vi":"máy bay","rom":"mai/ bai"}
+{"id":"vi.c0505","deck":"vi.d.top-nouns","vi":"Tết","rom":"dteyt/"}
+{"id":"vi.c0506","deck":"vi.d.top-nouns","vi":"sinh nhật","rom":"sing nyuht."}
+{"id":"vi.c0507","deck":"vi.d.top-verbs","vi":"có","rom":"kaw/"}
+{"id":"vi.c0508","deck":"vi.d.top-verbs","vi":"là","rom":"lah_"}
+{"id":"vi.c0509","deck":"vi.d.top-verbs","vi":"được","rom":"duu-uhk."}
+{"id":"vi.c0510","deck":"vi.d.top-verbs","vi":"ra","rom":"zah"}
+{"id":"vi.c0511","deck":"vi.d.top-verbs","vi":"đến","rom":"deyn/"}
+{"id":"vi.c0512","deck":"vi.d.top-verbs","vi":"vào","rom":"vahw_"}
+{"id":"vi.c0513","deck":"vi.d.top-verbs","vi":"về","rom":"vey_"}
+{"id":"vi.c0514","deck":"vi.d.top-verbs","vi":"làm","rom":"lahm_"}
+{"id":"vi.c0515","deck":"vi.d.top-verbs","vi":"phải","rom":"fahy?"}
+{"id":"vi.c0516","deck":"vi.d.top-verbs","vi":"bị","rom":"bee."}
+{"id":"vi.c0517","deck":"vi.d.top-verbs","vi":"nói","rom":"nawy/"}
+{"id":"vi.c0518","deck":"vi.d.top-verbs","vi":"lên","rom":"leyn"}
+{"id":"vi.c0519","deck":"vi.d.top-verbs","vi":"học","rom":"hawk."}
+{"id":"vi.c0520","deck":"vi.d.top-verbs","vi":"biết","rom":"bee-uht/"}
+{"id":"vi.c0521","deck":"vi.d.top-verbs","vi":"thấy","rom":"tay/"}
+{"id":"vi.c0522","deck":"vi.d.top-verbs","vi":"nhận","rom":"nyuhn."}
+{"id":"vi.c0523","deck":"vi.d.top-verbs","vi":"muốn","rom":"moo-uhn/"}
+{"id":"vi.c0524","deck":"vi.d.top-verbs","vi":"cần","rom":"kuhn_"}
+{"id":"vi.c0525","deck":"vi.d.top-verbs","vi":"tìm","rom":"dteem_"}
+{"id":"vi.c0526","deck":"vi.d.top-verbs","vi":"sống","rom":"sohng/"}
+{"id":"vi.c0527","deck":"vi.d.top-verbs","vi":"đưa","rom":"duu-uh"}
+{"id":"vi.c0528","deck":"vi.d.top-verbs","vi":"xuống","rom":"soo-uhng/"}
+{"id":"vi.c0529","deck":"vi.d.top-verbs","vi":"hỏi","rom":"hawy?"}
+{"id":"vi.c0530","deck":"vi.d.top-verbs","vi":"lấy","rom":"lay/"}
+{"id":"vi.c0531","deck":"vi.d.top-verbs","vi":"nhìn","rom":"nyeen_"}
+{"id":"vi.c0532","deck":"vi.d.top-verbs","vi":"gọi","rom":"gawy."}
+{"id":"vi.c0533","deck":"vi.d.top-verbs","vi":"trả","rom":"chah?"}
+{"id":"vi.c0534","deck":"vi.d.top-verbs","vi":"đánh","rom":"daing/"}
+{"id":"vi.c0535","deck":"vi.d.top-verbs","vi":"nghe","rom":"ngeh"}
+{"id":"vi.c0536","deck":"vi.d.top-verbs","vi":"chơi","rom":"chuhy"}
+{"id":"vi.c0537","deck":"vi.d.top-verbs","vi":"giúp","rom":"zoop/"}
+{"id":"vi.c0538","deck":"vi.d.top-verbs","vi":"xem","rom":"sehm"}
+{"id":"vi.c0539","deck":"vi.d.top-verbs","vi":"thích","rom":"tik/"}
+{"id":"vi.c0540","deck":"vi.d.top-verbs","vi":"kể","rom":"key?"}
+{"id":"vi.c0541","deck":"vi.d.top-verbs","vi":"xin","rom":"seen"}
+{"id":"vi.c0542","deck":"vi.d.top-verbs","vi":"yêu","rom":"ee-uhw"}
+{"id":"vi.c0543","deck":"vi.d.top-verbs","vi":"mất","rom":"muht/"}
+{"id":"vi.c0544","deck":"vi.d.top-verbs","vi":"đổi","rom":"dohy?"}
+{"id":"vi.c0545","deck":"vi.d.top-verbs","vi":"mang","rom":"mahng"}
+{"id":"vi.c0546","deck":"vi.d.top-verbs","vi":"gặp","rom":"gap."}
+{"id":"vi.c0547","deck":"vi.d.top-verbs","vi":"chết","rom":"cheyt/"}
+{"id":"vi.c0548","deck":"vi.d.top-verbs","vi":"nghĩ","rom":"ngee~"}
+{"id":"vi.c0549","deck":"vi.d.top-verbs","vi":"đứng","rom":"duung/"}
+{"id":"vi.c0550","deck":"vi.d.top-verbs","vi":"mở","rom":"mer?"}
+{"id":"vi.c0551","deck":"vi.d.top-verbs","vi":"chịu","rom":"cheew."}
+{"id":"vi.c0552","deck":"vi.d.top-verbs","vi":"dùng","rom":"zoong_"}
+{"id":"vi.c0553","deck":"vi.d.top-verbs","vi":"giữ","rom":"zuu~"}
+{"id":"vi.c0554","deck":"vi.d.top-verbs","vi":"đặt","rom":"dat."}
+{"id":"vi.c0555","deck":"vi.d.top-verbs","vi":"viết","rom":"vee-uht/"}
+{"id":"vi.c0556","deck":"vi.d.top-verbs","vi":"lo","rom":"law"}
+{"id":"vi.c0557","deck":"vi.d.top-verbs","vi":"sợ","rom":"ser."}
+{"id":"vi.c0558","deck":"vi.d.top-verbs","vi":"ngồi","rom":"ngohy_"}
+{"id":"vi.c0559","deck":"vi.d.top-verbs","vi":"chuyển","rom":"chwee-uhn?"}
+{"id":"vi.c0560","deck":"vi.d.top-verbs","vi":"hiểu","rom":"hee-uhw?"}
+{"id":"vi.c0561","deck":"vi.d.top-verbs","vi":"uống","rom":"oo-uhng/"}
+{"id":"vi.c0562","deck":"vi.d.top-verbs","vi":"đọc","rom":"dawk."}
+{"id":"vi.c0563","deck":"vi.d.top-verbs","vi":"đợi","rom":"duhy."}
+{"id":"vi.c0564","deck":"vi.d.top-verbs","vi":"nấu","rom":"nuhw/"}
+{"id":"vi.c0565","deck":"vi.d.top-verbs","vi":"chạy","rom":"chai."}
+{"id":"vi.c0566","deck":"vi.d.top-verbs","vi":"mặc","rom":"mak."}
+{"id":"vi.c0567","deck":"vi.d.top-verbs","vi":"tắm","rom":"dtam/"}
+{"id":"vi.c0568","deck":"vi.d.top-verbs","vi":"quên","rom":"kweyn"}
+{"id":"vi.c0569","deck":"vi.d.top-verbs","vi":"nhớ","rom":"nyer/"}
+{"id":"vi.c0570","deck":"vi.d.top-verbs","vi":"cười","rom":"kuu-uhy_"}
+{"id":"vi.c0571","deck":"vi.d.top-verbs","vi":"khóc","rom":"khawk/"}
+{"id":"vi.c0572","deck":"vi.d.top-verbs","vi":"dạy","rom":"zai."}
+{"id":"vi.c0573","deck":"vi.d.top-verbs","vi":"nghỉ","rom":"ngee?"}
+{"id":"vi.c0574","deck":"vi.d.top-verbs","vi":"gửi","rom":"guuy?"}
+{"id":"vi.c0575","deck":"vi.d.top-verbs","vi":"tin","rom":"dteen"}
+{"id":"vi.c0576","deck":"vi.d.top-verbs","vi":"chúc","rom":"chook/"}
+{"id":"vi.c0577","deck":"vi.d.top-verbs","vi":"mời","rom":"muhy_"}
+{"id":"vi.c0578","deck":"vi.d.top-verbs","vi":"lái","rom":"lahy/"}
+{"id":"vi.c0579","deck":"vi.d.top-verbs","vi":"thử","rom":"tuu?"}
+{"id":"vi.c0580","deck":"vi.d.top-verbs","vi":"quay lại","rom":"kwai lahy."}
+{"id":"vi.c0581","deck":"vi.d.top-verbs","vi":"đóng","rom":"dawng/"}
+{"id":"vi.c0582","deck":"vi.d.top-verbs","vi":"rửa","rom":"zuu-uh?"}
+{"id":"vi.c0583","deck":"vi.d.top-verbs","vi":"dậy","rom":"zay."}
+{"id":"vi.c0584","deck":"vi.d.top-verbs","vi":"bắt đầu","rom":"bat/ duhw_"}
+{"id":"vi.c0585","deck":"vi.d.top-verbs","vi":"làm việc","rom":"lahm_ vee-uhk."}
+{"id":"vi.c0586","deck":"vi.d.top-verbs","vi":"có thể","rom":"kaw/ tey?"}
+{"id":"vi.c0587","deck":"vi.d.top-verbs","vi":"chụp","rom":"choop."}
+{"id":"vi.c0588","deck":"vi.d.top-verbs","vi":"hát","rom":"haht/"}
+{"id":"vi.c0589","deck":"vi.d.top-verbs","vi":"bơi","rom":"buhy"}
+{"id":"vi.c0590","deck":"vi.d.top-verbs","vi":"nhảy","rom":"nyai?"}
+{"id":"vi.c0591","deck":"vi.d.top-adjectives","vi":"mới","rom":"muhy/"}
+{"id":"vi.c0592","deck":"vi.d.top-adjectives","vi":"khác","rom":"khahk/"}
+{"id":"vi.c0593","deck":"vi.d.top-adjectives","vi":"cao","rom":"kahw"}
+{"id":"vi.c0594","deck":"vi.d.top-adjectives","vi":"lớn","rom":"lern/"}
+{"id":"vi.c0595","deck":"vi.d.top-adjectives","vi":"mạnh","rom":"maing."}
+{"id":"vi.c0596","deck":"vi.d.top-adjectives","vi":"trẻ","rom":"cheh?"}
+{"id":"vi.c0597","deck":"vi.d.top-adjectives","vi":"khó","rom":"khaw/"}
+{"id":"vi.c0598","deck":"vi.d.top-adjectives","vi":"vàng","rom":"vahng_"}
+{"id":"vi.c0599","deck":"vi.d.top-adjectives","vi":"dài","rom":"zahy_"}
+{"id":"vi.c0600","deck":"vi.d.top-adjectives","vi":"tốt","rom":"dtoht/"}
+{"id":"vi.c0601","deck":"vi.d.top-adjectives","vi":"đúng","rom":"doong/"}
+{"id":"vi.c0602","deck":"vi.d.top-adjectives","vi":"xa","rom":"sah"}
+{"id":"vi.c0603","deck":"vi.d.top-adjectives","vi":"rõ","rom":"zaw~"}
+{"id":"vi.c0604","deck":"vi.d.top-adjectives","vi":"vui","rom":"vooy"}
+{"id":"vi.c0605","deck":"vi.d.top-adjectives","vi":"đông","rom":"dohng"}
+{"id":"vi.c0606","deck":"vi.d.top-adjectives","vi":"ngon","rom":"ngawn"}
+{"id":"vi.c0607","deck":"vi.d.top-adjectives","vi":"dễ","rom":"zey~"}
+{"id":"vi.c0608","deck":"vi.d.top-adjectives","vi":"khỏe","rom":"khweh?"}
+{"id":"vi.c0609","deck":"vi.d.top-adjectives","vi":"mệt","rom":"meyt."}
+{"id":"vi.c0610","deck":"vi.d.top-adjectives","vi":"đói","rom":"dawy/"}
+{"id":"vi.c0611","deck":"vi.d.top-adjectives","vi":"no","rom":"naw"}
+{"id":"vi.c0612","deck":"vi.d.top-adjectives","vi":"buồn","rom":"boo-uhn_"}
+{"id":"vi.c0613","deck":"vi.d.top-adjectives","vi":"nóng","rom":"nawng/"}
+{"id":"vi.c0614","deck":"vi.d.top-adjectives","vi":"lạnh","rom":"laing."}
+{"id":"vi.c0615","deck":"vi.d.top-adjectives","vi":"mát","rom":"maht/"}
+{"id":"vi.c0616","deck":"vi.d.top-adjectives","vi":"ấm","rom":"uhm/"}
+{"id":"vi.c0617","deck":"vi.d.top-adjectives","vi":"đắt","rom":"dat/"}
+{"id":"vi.c0618","deck":"vi.d.top-adjectives","vi":"rẻ","rom":"zeh?"}
+{"id":"vi.c0619","deck":"vi.d.top-adjectives","vi":"nhanh","rom":"nyaing"}
+{"id":"vi.c0620","deck":"vi.d.top-adjectives","vi":"chậm","rom":"chuhm."}
+{"id":"vi.c0621","deck":"vi.d.top-adjectives","vi":"sạch","rom":"saik."}
+{"id":"vi.c0622","deck":"vi.d.top-adjectives","vi":"bẩn","rom":"buhn?"}
+{"id":"vi.c0623","deck":"vi.d.top-adjectives","vi":"cũ","rom":"koo~"}
+{"id":"vi.c0624","deck":"vi.d.top-adjectives","vi":"già","rom":"zah_"}
+{"id":"vi.c0625","deck":"vi.d.top-adjectives","vi":"nặng","rom":"nang."}
+{"id":"vi.c0626","deck":"vi.d.top-adjectives","vi":"nhẹ","rom":"nyeh."}
+{"id":"vi.c0627","deck":"vi.d.top-adjectives","vi":"rộng","rom":"zohng."}
+{"id":"vi.c0628","deck":"vi.d.top-adjectives","vi":"chật","rom":"chuht."}
+{"id":"vi.c0629","deck":"vi.d.top-adjectives","vi":"ngắn","rom":"ngan/"}
+{"id":"vi.c0630","deck":"vi.d.top-adjectives","vi":"thấp","rom":"tuhp/"}
+{"id":"vi.c0631","deck":"vi.d.top-adjectives","vi":"đỏ","rom":"daw?"}
+{"id":"vi.c0632","deck":"vi.d.top-adjectives","vi":"xanh","rom":"saing"}
+{"id":"vi.c0633","deck":"vi.d.top-adjectives","vi":"trắng","rom":"chang/"}
+{"id":"vi.c0634","deck":"vi.d.top-adjectives","vi":"đen","rom":"dehn"}
+{"id":"vi.c0635","deck":"vi.d.top-adjectives","vi":"giàu","rom":"zow_"}
+{"id":"vi.c0636","deck":"vi.d.top-adjectives","vi":"nghèo","rom":"ngehw_"}
+{"id":"vi.c0637","deck":"vi.d.top-adjectives","vi":"béo","rom":"behw/"}
+{"id":"vi.c0638","deck":"vi.d.top-adjectives","vi":"gầy","rom":"gay_"}
+{"id":"vi.c0639","deck":"vi.d.top-adjectives","vi":"đau","rom":"dow"}
+{"id":"vi.c0640","deck":"vi.d.top-adjectives","vi":"cay","rom":"kai"}
+{"id":"vi.c0641","deck":"vi.d.top-adjectives","vi":"ngọt","rom":"ngawt."}
+{"id":"vi.c0642","deck":"vi.d.top-adjectives","vi":"mặn","rom":"man."}
+{"id":"vi.c0643","deck":"vi.d.top-adjectives","vi":"chua","rom":"choo-uh"}
+{"id":"vi.c0644","deck":"vi.d.top-adjectives","vi":"sai","rom":"sahy"}
+{"id":"vi.c0645","deck":"vi.d.top-adjectives","vi":"xấu","rom":"suhw/"}
+{"id":"vi.c0646","deck":"vi.d.top-adjectives","vi":"giỏi","rom":"zawy?"}
+{"id":"vi.c0647","deck":"vi.d.top-adjectives","vi":"rảnh","rom":"zaing?"}
+{"id":"vi.c0648","deck":"vi.d.top-adjectives","vi":"quan trọng","rom":"kwahn chawng."}
+{"id":"vi.c0649","deck":"vi.d.top-adjectives","vi":"nguy hiểm","rom":"ngwee hee-uhm?"}
+{"id":"vi.c0650","deck":"vi.d.top-adjectives","vi":"an toàn","rom":"ahn dtwahn_"}
+{"id":"vi.c0651","deck":"vi.d.top-adjectives","vi":"nổi tiếng","rom":"nohy? dtee-uhng/"}
+{"id":"vi.c0652","deck":"vi.d.top-adjectives","vi":"đặc biệt","rom":"dak. bee-uht."}
+{"id":"vi.c0653","deck":"vi.d.top-adjectives","vi":"lạ","rom":"lah."}
+{"id":"vi.c0654","deck":"vi.d.top-adjectives","vi":"quen","rom":"kwehn"}
+{"id":"vi.c0655","deck":"vi.d.top-adjectives","vi":"tiện","rom":"dtee-uhn."}
+{"id":"vi.c0656","deck":"vi.d.top-adjectives","vi":"thú vị","rom":"too/ vee."}
+{"id":"vi.c0657","deck":"vi.d.top-adjectives","vi":"chán","rom":"chahn/"}
+{"id":"vi.c0658","deck":"vi.d.top-adjectives","vi":"ồn","rom":"ohn_"}
+{"id":"vi.c0659","deck":"vi.d.top-adverbs","vi":"đã","rom":"dah~"}
+{"id":"vi.c0660","deck":"vi.d.top-adverbs","vi":"cũng","rom":"koong~"}
+{"id":"vi.c0661","deck":"vi.d.top-adverbs","vi":"lại","rom":"lahy."}
+{"id":"vi.c0662","deck":"vi.d.top-adverbs","vi":"sẽ","rom":"seh~"}
+{"id":"vi.c0663","deck":"vi.d.top-adverbs","vi":"thế","rom":"tey/"}
+{"id":"vi.c0664","deck":"vi.d.top-adverbs","vi":"còn","rom":"kawn_"}
+{"id":"vi.c0665","deck":"vi.d.top-adverbs","vi":"chỉ","rom":"chee?"}
+{"id":"vi.c0666","deck":"vi.d.top-adverbs","vi":"đang","rom":"dahng"}
+{"id":"vi.c0667","deck":"vi.d.top-adverbs","vi":"hơn","rom":"hern"}
+{"id":"vi.c0668","deck":"vi.d.top-adverbs","vi":"rất","rom":"zuht/"}
+{"id":"vi.c0669","deck":"vi.d.top-adverbs","vi":"nhất","rom":"nyuht/"}
+{"id":"vi.c0670","deck":"vi.d.top-adverbs","vi":"cùng","rom":"koong_"}
+{"id":"vi.c0671","deck":"vi.d.top-adverbs","vi":"vừa","rom":"vuu-uh_"}
+{"id":"vi.c0672","deck":"vi.d.top-adverbs","vi":"quá","rom":"kwah/"}
+{"id":"vi.c0673","deck":"vi.d.top-adverbs","vi":"thật","rom":"tuht."}
+{"id":"vi.c0674","deck":"vi.d.top-adverbs","vi":"nữa","rom":"nuu-uh~"}
+{"id":"vi.c0675","deck":"vi.d.top-adverbs","vi":"thường","rom":"tuu-uhng_"}
+{"id":"vi.c0676","deck":"vi.d.top-adverbs","vi":"đều","rom":"deyw_"}
+{"id":"vi.c0677","deck":"vi.d.top-adverbs","vi":"ngay","rom":"ngai"}
+{"id":"vi.c0678","deck":"vi.d.top-adverbs","vi":"cứ","rom":"kuu/"}
+{"id":"vi.c0679","deck":"vi.d.top-adverbs","vi":"khoảng","rom":"khwahng?"}
+{"id":"vi.c0680","deck":"vi.d.top-adverbs","vi":"từng","rom":"dtuung_"}
+{"id":"vi.c0681","deck":"vi.d.top-adverbs","vi":"lâu","rom":"luhw"}
+{"id":"vi.c0682","deck":"vi.d.top-adverbs","vi":"luôn","rom":"loo-uhn"}
+{"id":"vi.c0683","deck":"vi.d.top-adverbs","vi":"lắm","rom":"lam/"}
+{"id":"vi.c0684","deck":"vi.d.top-adverbs","vi":"vẫn","rom":"vuhn~"}
+{"id":"vi.c0685","deck":"vi.d.top-adverbs","vi":"hơi","rom":"huhy"}
+{"id":"vi.c0686","deck":"vi.d.top-adverbs","vi":"khá","rom":"khah/"}
+{"id":"vi.c0687","deck":"vi.d.top-adverbs","vi":"sắp","rom":"sap/"}
+{"id":"vi.c0688","deck":"vi.d.top-adverbs","vi":"sớm","rom":"serm/"}
+{"id":"vi.c0689","deck":"vi.d.top-adverbs","vi":"muộn","rom":"moo-uhn."}
+{"id":"vi.c0690","deck":"vi.d.top-adverbs","vi":"bây giờ","rom":"bay zer_"}
+{"id":"vi.c0691","deck":"vi.d.top-adverbs","vi":"sau đó","rom":"sow daw/"}
+{"id":"vi.c0692","deck":"vi.d.top-adverbs","vi":"không bao giờ","rom":"khohng bahw zer_"}
+{"id":"vi.c0693","deck":"vi.d.top-adverbs","vi":"thỉnh thoảng","rom":"ting? twahng?"}
+{"id":"vi.c0694","deck":"vi.d.top-adverbs","vi":"ít khi","rom":"eet/ khee"}
+{"id":"vi.c0695","deck":"vi.d.top-adverbs","vi":"chắc","rom":"chak/"}
+{"id":"vi.c0696","deck":"vi.d.top-adverbs","vi":"có lẽ","rom":"kaw/ leh~"}
+{"id":"vi.c0697","deck":"vi.d.top-adverbs","vi":"cực kỳ","rom":"kuuk. kee_"}
+{"id":"vi.c0698","deck":"vi.d.top-pronouns","vi":"ông","rom":"ohng"}
+{"id":"vi.c0699","deck":"vi.d.top-pronouns","vi":"đó","rom":"daw/"}
+{"id":"vi.c0700","deck":"vi.d.top-pronouns","vi":"tôi","rom":"dtohy"}
+{"id":"vi.c0701","deck":"vi.d.top-pronouns","vi":"anh","rom":"aing"}
+{"id":"vi.c0702","deck":"vi.d.top-pronouns","vi":"mình","rom":"ming_"}
+{"id":"vi.c0703","deck":"vi.d.top-pronouns","vi":"họ","rom":"haw."}
+{"id":"vi.c0704","deck":"vi.d.top-pronouns","vi":"đây","rom":"day"}
+{"id":"vi.c0705","deck":"vi.d.top-pronouns","vi":"gì","rom":"zee_"}
+{"id":"vi.c0706","deck":"vi.d.top-pronouns","vi":"em","rom":"ehm"}
+{"id":"vi.c0707","deck":"vi.d.top-pronouns","vi":"nó","rom":"naw/"}
+{"id":"vi.c0708","deck":"vi.d.top-pronouns","vi":"nhau","rom":"nyow"}
+{"id":"vi.c0709","deck":"vi.d.top-pronouns","vi":"bác","rom":"bahk/"}
+{"id":"vi.c0710","deck":"vi.d.top-pronouns","vi":"chị","rom":"chee."}
+{"id":"vi.c0711","deck":"vi.d.top-pronouns","vi":"cậu","rom":"kuhw."}
+{"id":"vi.c0712","deck":"vi.d.top-pronouns","vi":"tớ","rom":"dter/"}
+{"id":"vi.c0713","deck":"vi.d.top-pronouns","vi":"chúng tôi","rom":"choong/ dtohy"}
+{"id":"vi.c0714","deck":"vi.d.top-pronouns","vi":"chúng ta","rom":"choong/ dtah"}
+{"id":"vi.c0715","deck":"vi.d.top-pronouns","vi":"chúng mình","rom":"choong/ ming_"}
+{"id":"vi.c0716","deck":"vi.d.top-pronouns","vi":"các bạn","rom":"kahk/ bahn."}
+{"id":"vi.c0717","deck":"vi.d.top-pronouns","vi":"anh ấy","rom":"aing ay/"}
+{"id":"vi.c0718","deck":"vi.d.top-pronouns","vi":"chị ấy","rom":"chee. ay/"}
+{"id":"vi.c0719","deck":"vi.d.top-pronouns","vi":"cô ấy","rom":"koh ay/"}
+{"id":"vi.c0720","deck":"vi.d.top-pronouns","vi":"em ấy","rom":"ehm ay/"}
+{"id":"vi.c0721","deck":"vi.d.top-pronouns","vi":"ông ấy","rom":"ohng ay/"}
+{"id":"vi.c0722","deck":"vi.d.top-pronouns","vi":"bà ấy","rom":"bah_ ay/"}
+{"id":"vi.c0723","deck":"vi.d.top-pronouns","vi":"kia","rom":"kee-uh"}
+{"id":"vi.c0724","deck":"vi.d.top-pronouns","vi":"của tôi","rom":"koo-uh? dtohy"}
+{"id":"vi.c0725","deck":"vi.d.top-pronouns","vi":"của bạn","rom":"koo-uh? bahn."}
+{"id":"vi.c0726","deck":"vi.d.top-pronouns","vi":"mọi người","rom":"mawy. nguu-uhy_"}
+{"id":"vi.c0727","deck":"vi.d.top-pronouns","vi":"người ta","rom":"nguu-uhy_ dtah"}
+{"id":"vi.c0728","deck":"vi.d.top-pronouns","vi":"tất cả","rom":"dtuht/ kah?"}
+{"id":"vi.c0729","deck":"vi.d.top-pronouns","vi":"tự","rom":"dtuu."}
+{"id":"vi.c0730","deck":"vi.d.top-pronouns","vi":"ai đó","rom":"ahy daw/"}
+{"id":"vi.c0731","deck":"vi.d.top-pronouns","vi":"gì đó","rom":"zee_ daw/"}
+{"id":"vi.c0732","deck":"vi.d.top-pronouns","vi":"không ai","rom":"khohng ahy"}
+{"id":"vi.c0733","deck":"vi.d.top-prepositions","vi":"của","rom":"koo-uh?"}
+{"id":"vi.c0734","deck":"vi.d.top-prepositions","vi":"cho","rom":"chaw"}
+{"id":"vi.c0735","deck":"vi.d.top-prepositions","vi":"trong","rom":"chawng"}
+{"id":"vi.c0736","deck":"vi.d.top-prepositions","vi":"với","rom":"vuhy/"}
+{"id":"vi.c0737","deck":"vi.d.top-prepositions","vi":"như","rom":"nyuu"}
+{"id":"vi.c0738","deck":"vi.d.top-prepositions","vi":"ở","rom":"er?"}
+{"id":"vi.c0739","deck":"vi.d.top-prepositions","vi":"từ","rom":"dtuu_"}
+{"id":"vi.c0740","deck":"vi.d.top-prepositions","vi":"tại","rom":"dtahy."}
+{"id":"vi.c0741","deck":"vi.d.top-prepositions","vi":"trên","rom":"cheyn"}
+{"id":"vi.c0742","deck":"vi.d.top-prepositions","vi":"sau","rom":"sow"}
+{"id":"vi.c0743","deck":"vi.d.top-prepositions","vi":"theo","rom":"tehw"}
+{"id":"vi.c0744","deck":"vi.d.top-prepositions","vi":"qua","rom":"kwah"}
+{"id":"vi.c0745","deck":"vi.d.top-prepositions","vi":"trước","rom":"chuu-uhk/"}
+{"id":"vi.c0746","deck":"vi.d.top-prepositions","vi":"lúc","rom":"look/"}
+{"id":"vi.c0747","deck":"vi.d.top-prepositions","vi":"bằng","rom":"bang_"}
+{"id":"vi.c0748","deck":"vi.d.top-prepositions","vi":"tới","rom":"dtuhy/"}
+{"id":"vi.c0749","deck":"vi.d.top-prepositions","vi":"ngoài","rom":"ngwahy_"}
+{"id":"vi.c0750","deck":"vi.d.top-prepositions","vi":"gần","rom":"guhn_"}
+{"id":"vi.c0751","deck":"vi.d.top-prepositions","vi":"giữa","rom":"zuu-uh~"}
+{"id":"vi.c0752","deck":"vi.d.top-prepositions","vi":"dưới","rom":"zuu-uhy/"}
+{"id":"vi.c0753","deck":"vi.d.top-prepositions","vi":"khỏi","rom":"khawy?"}
+{"id":"vi.c0754","deck":"vi.d.top-prepositions","vi":"sang","rom":"sahng"}
+{"id":"vi.c0755","deck":"vi.d.top-prepositions","vi":"bởi","rom":"buhy?"}
+{"id":"vi.c0756","deck":"vi.d.top-prepositions","vi":"đối với","rom":"dohy/ vuhy/"}
+{"id":"vi.c0757","deck":"vi.d.top-prepositions","vi":"cạnh","rom":"kaing."}
+{"id":"vi.c0758","deck":"vi.d.top-prepositions","vi":"quanh","rom":"kwaing"}
+{"id":"vi.c0759","deck":"vi.d.top-prepositions","vi":"trừ","rom":"chuu_"}
+{"id":"vi.c0760","deck":"vi.d.top-conjunctions","vi":"và","rom":"vah_"}
+{"id":"vi.c0761","deck":"vi.d.top-conjunctions","vi":"để","rom":"dey?"}
+{"id":"vi.c0762","deck":"vi.d.top-conjunctions","vi":"khi","rom":"khee"}
+{"id":"vi.c0763","deck":"vi.d.top-conjunctions","vi":"thì","rom":"tee_"}
+{"id":"vi.c0764","deck":"vi.d.top-conjunctions","vi":"vì","rom":"vee_"}
+{"id":"vi.c0765","deck":"vi.d.top-conjunctions","vi":"rằng","rom":"zang_"}
+{"id":"vi.c0766","deck":"vi.d.top-conjunctions","vi":"hay","rom":"hai"}
+{"id":"vi.c0767","deck":"vi.d.top-conjunctions","vi":"nên","rom":"neyn"}
+{"id":"vi.c0768","deck":"vi.d.top-conjunctions","vi":"nếu","rom":"neyw/"}
+{"id":"vi.c0769","deck":"vi.d.top-conjunctions","vi":"tuy","rom":"dtwee"}
+{"id":"vi.c0770","deck":"vi.d.top-conjunctions","vi":"dù","rom":"zoo_"}
+{"id":"vi.c0771","deck":"vi.d.top-conjunctions","vi":"hoặc","rom":"hwak."}
+{"id":"vi.c0772","deck":"vi.d.top-conjunctions","vi":"mặc dù","rom":"mak. zoo_"}
+{"id":"vi.c0773","deck":"vi.d.top-conjunctions","vi":"bởi vì","rom":"buhy? vee_"}
+{"id":"vi.c0774","deck":"vi.d.top-conjunctions","vi":"tại vì","rom":"dtahy. vee_"}
+{"id":"vi.c0775","deck":"vi.d.top-conjunctions","vi":"cho nên","rom":"chaw neyn"}
+{"id":"vi.c0776","deck":"vi.d.top-conjunctions","vi":"nhưng mà","rom":"nyuung mah_"}
+{"id":"vi.c0777","deck":"vi.d.top-conjunctions","vi":"trong khi","rom":"chawng khee"}
+{"id":"vi.c0778","deck":"vi.d.top-conjunctions","vi":"sau khi","rom":"sow khee"}
+{"id":"vi.c0779","deck":"vi.d.top-conjunctions","vi":"trước khi","rom":"chuu-uhk/ khee"}
+{"id":"vi.c0780","deck":"vi.d.top-conjunctions","vi":"cho đến khi","rom":"chaw deyn/ khee"}
+{"id":"vi.c0781","deck":"vi.d.top-conjunctions","vi":"vì vậy","rom":"vee_ vay."}
+{"id":"vi.c0782","deck":"vi.d.top-conjunctions","vi":"với lại","rom":"vuhy/ lahy."}
+{"id":"vi.c0783","deck":"vi.d.top-conjunctions","vi":"nếu không","rom":"neyw/ khohng"}
+{"id":"vi.c0784","deck":"vi.d.top-interjections","vi":"Ôi!","rom":"ohy"}
+{"id":"vi.c0785","deck":"vi.d.top-interjections","vi":"Ồ!","rom":"oh_"}
+{"id":"vi.c0786","deck":"vi.d.top-interjections","vi":"A!","rom":"ah"}
+{"id":"vi.c0787","deck":"vi.d.top-interjections","vi":"Á!","rom":"ah/"}
+{"id":"vi.c0788","deck":"vi.d.top-interjections","vi":"Ối!","rom":"ohy/"}
+{"id":"vi.c0789","deck":"vi.d.top-interjections","vi":"Trời ơi!","rom":"chuhy_ uhy"}
+{"id":"vi.c0790","deck":"vi.d.top-interjections","vi":"Ôi giời ơi!","rom":"ohy zuhy_ uhy"}
+{"id":"vi.c0791","deck":"vi.d.top-interjections","vi":"Thôi chết!","rom":"tohy cheyt/"}
+{"id":"vi.c0792","deck":"vi.d.top-interjections","vi":"Ơ!","rom":"er"}
+{"id":"vi.c0793","deck":"vi.d.top-interjections","vi":"Hả?","rom":"hah?"}
+{"id":"vi.c0794","deck":"vi.d.top-interjections","vi":"Ê!","rom":"ey"}
+{"id":"vi.c0795","deck":"vi.d.top-interjections","vi":"Ừm.","rom":"uum_"}
+{"id":"vi.c0796","deck":"vi.d.top-interjections","vi":"Ờ.","rom":"er_"}
+{"id":"vi.c0797","deck":"vi.d.top-interjections","vi":"Suỵt!","rom":"sweet."}
+{"id":"vi.c0798","deck":"vi.d.top-interjections","vi":"Eo ôi!","rom":"ehw ohy"}
+{"id":"vi.c0799","deck":"vi.d.top-interjections","vi":"Khiếp!","rom":"khee-uhp/"}
+{"id":"vi.c0800","deck":"vi.d.top-interjections","vi":"Chà!","rom":"chah_"}
+{"id":"vi.c0801","deck":"vi.d.top-interjections","vi":"Hú hồn!","rom":"hoo/ hohn_"}
+{"id":"vi.c0802","deck":"vi.d.top-interjections","vi":"May quá!","rom":"mai kwah/"}
+{"id":"vi.c0803","deck":"vi.d.top-interjections","vi":"Tiếc quá!","rom":"dtee-uhk/ kwah/"}
+{"id":"vi.c0804","deck":"vi.d.top-interjections","vi":"Hoan hô!","rom":"hwahn hoh"}
+{"id":"vi.c0805","deck":"vi.d.top-interjections","vi":"Cố lên!","rom":"koh/ leyn"}
+{"id":"vi.c0806","deck":"vi.d.top-interjections","vi":"Cẩn thận!","rom":"kuhn? tuhn."}
+{"id":"vi.c0807","deck":"vi.d.top-interjections","vi":"Chúc mừng!","rom":"chook/ muung_"}
+{"id":"vi.c0808","deck":"vi.d.top-interjections","vi":"A lô!","rom":"ah loh"}
+{"id":"vi.c0809","deck":"vi.d.top-words","vi":"không","rom":"khohng"}
+{"id":"vi.c0810","deck":"vi.d.top-words","vi":"các","rom":"kahk/"}
+{"id":"vi.c0811","deck":"vi.d.top-words","vi":"những","rom":"nyuung~"}
+{"id":"vi.c0812","deck":"vi.d.top-words","vi":"này","rom":"nai_"}
+{"id":"vi.c0813","deck":"vi.d.top-words","vi":"nhiều","rom":"nyee-uhw_"}
+{"id":"vi.c0814","deck":"vi.d.top-words","vi":"cả","rom":"kah?"}
+{"id":"vi.c0815","deck":"vi.d.top-words","vi":"nào","rom":"nahw_"}
+{"id":"vi.c0816","deck":"vi.d.top-words","vi":"sao","rom":"sahw"}
+{"id":"vi.c0817","deck":"vi.d.top-words","vi":"mọi","rom":"mawy."}
+{"id":"vi.c0818","deck":"vi.d.top-words","vi":"đâu","rom":"duhw"}
+{"id":"vi.c0819","deck":"vi.d.top-words","vi":"mỗi","rom":"mohy~"}
+{"id":"vi.c0820","deck":"vi.d.top-words","vi":"ít","rom":"eet/"}
+{"id":"vi.c0821","deck":"vi.d.top-words","vi":"hãy","rom":"hai~"}
+{"id":"vi.c0822","deck":"vi.d.top-words","vi":"mấy","rom":"may/"}
+{"id":"vi.c0823","deck":"vi.d.top-words","vi":"vài","rom":"vahy_"}
+{"id":"vi.c0824","deck":"vi.d.top-words","vi":"bao nhiêu","rom":"bahw nyee-uhw"}
+{"id":"vi.c0825","deck":"vi.d.top-words","vi":"bao giờ","rom":"bahw zer_"}
+{"id":"vi.c0826","deck":"vi.d.top-words","vi":"thế nào","rom":"tey/ nahw_"}
+{"id":"vi.c0827","deck":"vi.d.top-words","vi":"ừ","rom":"uu_"}
+{"id":"vi.c0828","deck":"vi.d.top-words","vi":"thứ nhất","rom":"tuu/ nyuht/"}
+{"id":"vi.c0829","deck":"vi.d.top-words","vi":"mười một","rom":"muu-uhy_ moht."}
+{"id":"vi.c0830","deck":"vi.d.top-words","vi":"mười hai","rom":"muu-uhy_ hahy"}
+{"id":"vi.c0831","deck":"vi.d.top-words","vi":"mười ba","rom":"muu-uhy_ bah"}
+{"id":"vi.c0832","deck":"vi.d.top-words","vi":"mười bốn","rom":"muu-uhy_ bohn/"}
+{"id":"vi.c0833","deck":"vi.d.top-words","vi":"mười sáu","rom":"muu-uhy_ sow/"}
+{"id":"vi.c0834","deck":"vi.d.top-words","vi":"mười bảy","rom":"muu-uhy_ bai?"}
+{"id":"vi.c0835","deck":"vi.d.top-words","vi":"mười tám","rom":"muu-uhy_ dtahm/"}
+{"id":"vi.c0836","deck":"vi.d.top-words","vi":"mười chín","rom":"muu-uhy_ cheen/"}
+{"id":"vi.c0837","deck":"vi.d.top-words","vi":"hai mươi","rom":"hahy muu-uhy"}
+{"id":"vi.c0838","deck":"vi.d.top-words","vi":"lăm","rom":"lam"}
+{"id":"vi.c0839","deck":"vi.d.top-words","vi":"mốt","rom":"moht/"}
+{"id":"vi.c0840","deck":"vi.d.top-words","vi":"tư","rom":"dtuu"}
+{"id":"vi.c0841","deck":"vi.d.top-words","vi":"thứ ba","rom":"tuu/ bah"}
+{"id":"vi.c0842","deck":"vi.d.top-words","vi":"thứ tư","rom":"tuu/ dtuu"}
+{"id":"vi.c0843","deck":"vi.d.top-words","vi":"thứ năm","rom":"tuu/ nam"}
+{"id":"vi.c0844","deck":"vi.d.top-words","vi":"thứ sáu","rom":"tuu/ sow/"}
+{"id":"vi.c0845","deck":"vi.d.top-words","vi":"sáng","rom":"sahng/"}
+{"id":"vi.c0846","deck":"vi.d.top-words","vi":"trưa","rom":"chuu-uh"}
+{"id":"vi.c0847","deck":"vi.d.top-words","vi":"chiều","rom":"chee-uhw_"}
+{"id":"vi.c0848","deck":"vi.d.top-words","vi":"đêm","rom":"deym"}
+{"id":"vi.c0849","deck":"vi.d.top-words","vi":"tối nay","rom":"dtohy/ nai"}
+{"id":"vi.c0850","deck":"vi.d.top-words","vi":"ngày","rom":"ngai_"}
+{"id":"vi.c0851","deck":"vi.d.top-words","vi":"tuần","rom":"dtwuhn_"}
+{"id":"vi.c0852","deck":"vi.d.top-words","vi":"tháng","rom":"tahng/"}
+{"id":"vi.c0853","deck":"vi.d.top-words","vi":"giờ","rom":"zer_"}
+{"id":"vi.c0854","deck":"vi.d.top-words","vi":"phút","rom":"foot/"}
+{"id":"vi.c0855","deck":"vi.d.top-classifiers","vi":"con","rom":"kawn"}
+{"id":"vi.c0856","deck":"vi.d.top-classifiers","vi":"cuộc","rom":"koo-uhk."}
+{"id":"vi.c0857","deck":"vi.d.top-classifiers","vi":"cái","rom":"kahy/"}
+{"id":"vi.c0858","deck":"vi.d.top-classifiers","vi":"chiếc","rom":"chee-uhk/"}
+{"id":"vi.c0859","deck":"vi.d.top-classifiers","vi":"bộ","rom":"boh."}
+{"id":"vi.c0860","deck":"vi.d.top-classifiers","vi":"vị","rom":"vee."}
+{"id":"vi.c0861","deck":"vi.d.top-classifiers","vi":"quả","rom":"kwah?"}
+{"id":"vi.c0862","deck":"vi.d.top-classifiers","vi":"quyển","rom":"kwee-uhn?"}
+{"id":"vi.c0863","deck":"vi.d.top-classifiers","vi":"đôi","rom":"dohy"}
+{"id":"vi.c0864","deck":"vi.d.top-classifiers","vi":"tờ","rom":"dter_"}
+{"id":"vi.c0865","deck":"vi.d.top-classifiers","vi":"bức","rom":"buuk/"}
+{"id":"vi.c0866","deck":"vi.d.top-classifiers","vi":"cốc","rom":"kohk/"}
+{"id":"vi.c0867","deck":"vi.d.top-classifiers","vi":"bát","rom":"baht/"}
+{"id":"vi.c0868","deck":"vi.d.top-classifiers","vi":"chai","rom":"chahy"}
+{"id":"vi.c0869","deck":"vi.d.top-classifiers","vi":"ly","rom":"lee"}
+{"id":"vi.c0870","deck":"vi.d.top-classifiers","vi":"cân","rom":"kuhn"}
+{"id":"vi.c0871","deck":"vi.d.top-classifiers","vi":"tấm","rom":"dtuhm/"}
+{"id":"vi.c0872","deck":"vi.d.top-classifiers","vi":"căn","rom":"kan"}
+{"id":"vi.c0873","deck":"vi.d.top-classifiers","vi":"ngôi","rom":"ngohy"}
+{"id":"vi.c0874","deck":"vi.d.top-classifiers","vi":"bông","rom":"bohng"}
+{"id":"vi.c0875","deck":"vi.d.top-classifiers","vi":"viên","rom":"vee-uhn"}
+{"id":"vi.c0876","deck":"vi.d.top-classifiers","vi":"miếng","rom":"mee-uhng/"}
+{"id":"vi.c0877","deck":"vi.d.top-classifiers","vi":"gói","rom":"gawy/"}
+{"id":"vi.c0878","deck":"vi.d.top-classifiers","vi":"hộp","rom":"hohp."}
+{"id":"vi.c0879","deck":"vi.d.top-classifiers","vi":"đứa","rom":"duu-uh/"}
+{"id":"vi.c0880","deck":"vi.d.top-classifiers","vi":"chuyến","rom":"chwee-uhn/"}
+{"id":"vi.c0881","deck":"vi.d.top-particles","vi":"vậy","rom":"vay."}
+{"id":"vi.c0882","deck":"vi.d.top-particles","vi":"thôi","rom":"tohy"}
+{"id":"vi.c0883","deck":"vi.d.top-particles","vi":"đấy","rom":"day/"}
+{"id":"vi.c0884","deck":"vi.d.top-particles","vi":"ạ","rom":"ah."}
+{"id":"vi.c0885","deck":"vi.d.top-particles","vi":"ơi","rom":"uhy"}
+{"id":"vi.c0886","deck":"vi.d.top-particles","vi":"nhé","rom":"nyeh/"}
+{"id":"vi.c0887","deck":"vi.d.top-particles","vi":"nhỉ","rom":"nyee?"}
+{"id":"vi.c0888","deck":"vi.d.top-particles","vi":"à","rom":"ah_"}
+{"id":"vi.c0889","deck":"vi.d.top-particles","vi":"chứ","rom":"chuu/"}
+{"id":"vi.c0890","deck":"vi.d.top-particles","vi":"cơ","rom":"ker"}
+{"id":"vi.c0891","deck":"vi.d.top-particles","vi":"ư","rom":"uu"}
+{"id":"vi.c0892","deck":"vi.d.top-particles","vi":"kìa","rom":"kee-uh_"}
+{"id":"vi.c0893","deck":"vi.d.top-particles","vi":"cái đã","rom":"kahy/ dah~"}

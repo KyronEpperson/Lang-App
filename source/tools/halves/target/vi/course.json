@@ -1,0 +1,196 @@
+{
+ "target": "vi",
+ "ttsLang": "vi-VN",
+ "self": "tiếng Việt",
+ "pack": {
+  "accents": true,
+  "keys": "ă â ê ô ơ ư đ ́ ̀ ̉ ̃ ̣"
+ },
+ "features": {
+  "script": false,
+  "pron": false,
+  "conj": false,
+  "register": false,
+  "numbers": false,
+  "sound": false,
+  "strokes": false
+ },
+ "groups": [
+  {
+   "id": "vi.grp.first-steps",
+   "decks": [
+    "vi.d.letters-and-sounds",
+    "vi.d.tone-pairs",
+    "vi.d.greetings-and-courtesy",
+    "vi.d.family-and-kinship"
+   ]
+  },
+  {
+   "id": "vi.grp.everyday-words",
+   "decks": [
+    "vi.d.numbers-and-money",
+    "vi.d.classifiers-and-things",
+    "vi.d.food-and-drink",
+    "vi.d.shopping-and-the-market",
+    "vi.d.time-days-and-dates"
+   ]
+  },
+  {
+   "id": "vi.grp.out-and-about",
+   "decks": [
+    "vi.d.around-town-and-directions",
+    "vi.d.travel-and-transport",
+    "vi.d.work-and-study",
+    "vi.d.health-and-help"
+   ]
+  },
+  {
+   "id": "vi.grp.conversation",
+   "decks": [
+    "vi.d.about-me",
+    "vi.d.describing-things",
+    "vi.d.questions-and-connectors",
+    "vi.d.compliments",
+    "vi.d.flirting"
+   ]
+  },
+  {
+   "id": "vi.grp.watch-out",
+   "decks": [
+    "vi.d.traps-for-english-speakers",
+    "vi.d.polite-vietnamese"
+   ]
+  },
+  {
+   "id": "vi.grp.core-words",
+   "decks": [
+    "vi.d.top-nouns",
+    "vi.d.top-verbs",
+    "vi.d.top-adjectives",
+    "vi.d.top-adverbs",
+    "vi.d.top-pronouns",
+    "vi.d.top-prepositions",
+    "vi.d.top-conjunctions",
+    "vi.d.top-interjections",
+    "vi.d.top-words",
+    "vi.d.top-classifiers",
+    "vi.d.top-particles"
+   ]
+  }
+ ],
+ "tags": {
+  "first-steps": [
+   "vi.d.letters-and-sounds",
+   "vi.d.tone-pairs",
+   "vi.d.greetings-and-courtesy",
+   "vi.d.family-and-kinship"
+  ],
+  "everyday-words": [
+   "vi.d.numbers-and-money",
+   "vi.d.classifiers-and-things",
+   "vi.d.food-and-drink",
+   "vi.d.shopping-and-the-market",
+   "vi.d.time-days-and-dates"
+  ],
+  "out-and-about": [
+   "vi.d.around-town-and-directions",
+   "vi.d.travel-and-transport",
+   "vi.d.work-and-study",
+   "vi.d.health-and-help"
+  ],
+  "conversation": [
+   "vi.d.about-me",
+   "vi.d.describing-things",
+   "vi.d.questions-and-connectors",
+   "vi.d.compliments",
+   "vi.d.flirting"
+  ],
+  "watch-out": [
+   "vi.d.traps-for-english-speakers",
+   "vi.d.polite-vietnamese"
+  ],
+  "core-words": [
+   "vi.d.top-nouns",
+   "vi.d.top-verbs",
+   "vi.d.top-adjectives",
+   "vi.d.top-adverbs",
+   "vi.d.top-pronouns",
+   "vi.d.top-prepositions",
+   "vi.d.top-conjunctions",
+   "vi.d.top-interjections",
+   "vi.d.top-words",
+   "vi.d.top-classifiers",
+   "vi.d.top-particles"
+  ]
+ },
+ "goals": [],
+ "plans": [],
+ "titles": [
+  {
+   "id": "vi.t01",
+   "level": 1
+  },
+  {
+   "id": "vi.t03",
+   "level": 3
+  },
+  {
+   "id": "vi.t05",
+   "level": 5
+  },
+  {
+   "id": "vi.t08",
+   "level": 8
+  },
+  {
+   "id": "vi.t12",
+   "level": 12
+  },
+  {
+   "id": "vi.t16",
+   "level": 16
+  },
+  {
+   "id": "vi.t20",
+   "level": 20
+  }
+ ],
+ "greet": [
+  {
+   "id": "vi.h.night",
+   "vi": "Chúc ngủ ngon"
+  },
+  {
+   "id": "vi.h.morning",
+   "vi": "Chào buổi sáng"
+  },
+  {
+   "id": "vi.h.afternoon",
+   "vi": "Chào buổi chiều"
+  },
+  {
+   "id": "vi.h.evening",
+   "vi": "Chào buổi tối"
+  }
+ ],
+ "pairs": [],
+ "pause": {
+  "sets": [],
+  "idioms": []
+ },
+ "uiKeys": [
+  "Vietnamese (required)",
+  "Vietnamese, pronunciation, meaning, note — one per line (pronunciation/note optional)",
+  "Search a pattern, e.g. 에서 or 'want'",
+  "#first-steps",
+  "#everyday-words",
+  "#out-and-about",
+  "#conversation",
+  "#watch-out",
+  "#core-words"
+ ],
+ "exportedFrom": {
+  "file": "tools/target/vi/ (tools/target/gen.js vi)",
+  "sha256_16": "7f0e1ade03fb1c71"
+ }
+}

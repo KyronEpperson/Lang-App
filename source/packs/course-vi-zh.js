@@ -7561,28 +7561,529 @@ LANGAPP_PACKS.course['vi-zh'] = {
    "title": "1 · Pinyin: thanh mẫu và vận mẫu",
    "blurb": "Đọc gần đúng mọi âm tiết pinyin, và nhận ra những chữ cái không đọc theo chính tả tiếng Việt.",
    "deck": "Âm pinyin",
-   "body": "<p>Khóa học này dạy tiếng Trung phổ thông, ngôn ngữ chuẩn của Trung Quốc đại lục, viết bằng chữ giản thể kèm pinyin. Đài Loan nói cùng ngôn ngữ này nhưng dùng chữ phồn thể và một số từ khác. Tiếng Quảng Đông là một ngôn ngữ khác.</p><h3>Một chữ Hán, một âm tiết</h3><p>Chữ Quốc ngữ ghi âm bằng chữ cái. Một chữ Hán ứng với trọn một âm tiết và một nghĩa, giống như mỗi tiếng trong <i>học sinh</i> vốn là một chữ Hán. Vì vậy, dưới mỗi cụm tiếng Trung, khóa học có một dòng phát âm bằng pinyin. Khác với tiếng Việt viết rời từng tiếng, pinyin viết liền các âm tiết của một từ: <b>美国人</b> <i>Měiguórén</i> (người Mỹ) là ba chữ, ba âm tiết, viết thành một từ.</p>{{ex:美国人|Měiguórén|người Mỹ}}<h3>Thanh mẫu: âm đầu của âm tiết</h3><p>Mỗi âm tiết gồm thanh mẫu (âm đầu) và vận mẫu (phần còn lại). Chữ cái pinyin không phải chính tả tiếng Việt. Hai bẫy lớn nhất: <b>b</b>, <b>d</b> và <b>g</b> không bật hơi, đọc như «p» (pin), «t», «c» của tiếng Việt; còn <b>p</b>, <b>t</b> và <b>k</b> bật hơi mạnh như «th». Vì vậy <b>p</b> không bao giờ là «ph», <b>k</b> không bao giờ là «kh», và <b>d</b> không phải «d» của tiếng Việt. <b>h</b> đọc gần «kh», ráp ở cuối lưỡi, không phải «h» nhẹ. Đặt bàn tay trước miệng để cảm nhận luồng hơi.</p>{{ex:八|bā|tám}}{{ex:怕|pà|sợ}}<div class=\"tbl\"><table><tr><th>Pinyin</th><th>Đọc gần như</th><th>Ví dụ</th></tr><tr><td class=\"k\">q</td><td>«ch» (cha, giọng Bắc), đầu lưỡi hạ xuống, bật hơi mạnh; không phải «qu»</td><td class=\"k\">七</td></tr><tr><td class=\"k\">x</td><td>«x» nhưng nhẹ hơn, mặt lưỡi phẳng sau răng dưới</td><td class=\"k\">谢</td></tr><tr><td class=\"k\">j</td><td>«ch» (cha), đầu lưỡi hạ xuống, không bật hơi</td><td class=\"k\">九</td></tr><tr><td class=\"k\">zh, ch, sh</td><td>đầu lưỡi cong lên: «tr» giọng Nam; «tr» bật hơi; «s» giọng Nam</td><td class=\"k\">中, 吃, 是</td></tr><tr><td class=\"k\">r</td><td>gần «r» giọng Nam, đầu lưỡi cong lên</td><td class=\"k\">日</td></tr><tr><td class=\"k\">z, c</td><td>«ts», đầu lưỡi chạm răng; c bật hơi. Không phải «ch»</td><td class=\"k\">字, 菜</td></tr></table></div>{{ex:七|qī|bảy}}{{ex:菜|cài|món ăn; rau}}<h3>Vận mẫu dễ đọc nhầm</h3><ul><li><b>e</b> đọc gần «ơ»: <b>喝</b> <i>hē</i> (uống) gần «hơ», không phải «e».</li><li><b>ü</b> là «i» nói với môi tròn, không phải «uy». Sau j, q, x và y nó được viết không có hai chấm: <b>去</b> <i>qù</i> (đi) có âm ü.</li><li>Sau z, c, s, zh, ch, sh và r, <b>i</b> không đọc là «i» mà gần «ư», lưỡi như rung nhẹ: <b>四</b> <i>sì</i> (bốn).</li><li><b>ian</b> đọc như «iên» (thiên), <b>ui</b> gần «uây», <b>iu</b> gần «iâu»; <b>ing</b> là «i» + «ng» ở cuối lưỡi, không phải «inh».</li></ul>{{ex:绿|lǜ|màu xanh lá}}{{ex:去|qù|đi}}{{ex:六|liù|sáu}}<h3>Dấu thanh</h3><p>Các dấu nhỏ trên nguyên âm là thanh điệu: <b>ā</b> cao và bằng, <b>á</b> đi lên, <b>ǎ</b> thấp, <b>à</b> đi xuống. Không có dấu là thanh nhẹ, ngắn và nhẹ. Đừng đọc chúng như dấu sắc, huyền, hỏi của tiếng Việt; bài sau nói kỹ về chúng. Khi gõ pinyin, hãy bấm phím thanh trên hàng phím dấu thanh ngay sau âm tiết: dấu sẽ rơi đúng nguyên âm. Bộ gõ tiếng Việt (Unikey, Telex, VNI hay bàn phím tiếng Việt của điện thoại) sẽ biến pinyin thành chữ Việt, chẳng hạn <i>ni3</i> thành «nỉ». Vì vậy, khi gõ pinyin hãy chuyển sang bàn phím tiếng Anh hoặc bàn phím pinyin tiếng Trung, hoặc dùng hàng phím dấu thanh và các ô chữ.</p><h3>Dấu nháy</h3><p>Dấu nháy cho biết chỗ một âm tiết mới bắt đầu bằng a, o hoặc e: <b>西安</b> <i>Xī'ān</i> (Tây An) là hai âm tiết, còn <i>xiān</i> chỉ là một.</p>{{ex:西安|Xī'ān|Tây An (thành phố)}}<p>Dòng pinyin chỉ là chiếc nạng tạm thời: hãy nghe âm thanh trước, và ẩn dòng này đi khi chữ Hán đã quen mắt.</p><div class=\"tip\"><b>Lỗi thường gặp:</b> đọc q và x theo chính tả tiếng Việt. <b>去</b> đọc thành «quy» → <b>去</b> <i>qù</i>: «ch» bật hơi cộng ü môi tròn; <b>谢</b> đọc bằng «x» của tiếng Việt → <b>谢</b> <i>xiè</i>: mặt lưỡi phẳng sau răng dưới, nhẹ hơn, giọng đi xuống từ cao.</div>\n"
+   "body": "<p>Khóa học này dạy tiếng Trung phổ thông, ngôn ngữ chuẩn của Trung Quốc đại lục, viết bằng chữ giản thể kèm pinyin. Đài Loan nói cùng ngôn ngữ này nhưng dùng chữ phồn thể và một số từ khác. Tiếng Quảng Đông là một ngôn ngữ khác.</p><h3>Một chữ Hán, một âm tiết</h3><p>Chữ Quốc ngữ ghi âm bằng chữ cái. Một chữ Hán ứng với trọn một âm tiết và một nghĩa, giống như mỗi tiếng trong <i>học sinh</i> vốn là một chữ Hán. Vì vậy, dưới mỗi cụm tiếng Trung, khóa học có một dòng phát âm bằng pinyin. Khác với tiếng Việt viết rời từng tiếng, pinyin viết liền các âm tiết của một từ: <b>美国人</b> <i>Měiguórén</i> (người Mỹ) là ba chữ, ba âm tiết, viết thành một từ.</p>{{ex:美国人|Měiguórén|người Mỹ}}<h3>Thanh mẫu: âm đầu của âm tiết</h3><p>Mỗi âm tiết gồm thanh mẫu (âm đầu) và vận mẫu (phần còn lại). Chữ cái pinyin không phải chính tả tiếng Việt. Hai bẫy lớn nhất: <b>b</b>, <b>d</b> và <b>g</b> không bật hơi, đọc như «p» (pin), «t», «c» của tiếng Việt; còn <b>p</b>, <b>t</b> và <b>k</b> bật hơi mạnh như «th». Vì vậy <b>p</b> không bao giờ là «ph», <b>k</b> không bao giờ là «kh», và <b>d</b> không phải «d» của tiếng Việt. <b>h</b> đọc gần «kh», ráp ở cuối lưỡi, không phải «h» nhẹ. Đặt bàn tay trước miệng để cảm nhận luồng hơi.</p>{{ex:八|bā|tám}}{{ex:怕|pà|sợ}}<div class=\"tbl\"><table><tr><th>Pinyin</th><th>Đọc gần như</th><th>Ví dụ</th></tr><tr><td class=\"k\">q</td><td>«ch» (cha, giọng Bắc), đầu lưỡi hạ xuống, bật hơi mạnh; không phải «qu»</td><td class=\"k\">七</td></tr><tr><td class=\"k\">x</td><td>«x» nhưng nhẹ hơn, mặt lưỡi phẳng sau răng dưới</td><td class=\"k\">谢</td></tr><tr><td class=\"k\">j</td><td>«ch» (cha), đầu lưỡi hạ xuống, không bật hơi</td><td class=\"k\">九</td></tr><tr><td class=\"k\">zh, ch, sh</td><td>đầu lưỡi cong lên: «tr» giọng Nam; «tr» bật hơi; «s» giọng Nam</td><td class=\"k\">中, 吃, 是</td></tr><tr><td class=\"k\">r</td><td>gần «r» giọng Nam, đầu lưỡi cong lên</td><td class=\"k\">日</td></tr><tr><td class=\"k\">z, c</td><td>«ts», đầu lưỡi chạm răng; c bật hơi. Không phải «ch»</td><td class=\"k\">字, 菜</td></tr></table></div>{{ex:七|qī|bảy}}{{ex:菜|cài|món ăn; rau}}<p>Đây là đủ 21 thanh mẫu, xếp theo nhóm. Ở trường học Trung Quốc, học sinh đọc thuộc lòng chúng với một nguyên âm sau mỗi thanh mẫu, <i>bō, pō, mō, fō</i>, và mỗi ô ghi đúng âm tiết đó. Chạm vào một ô để nghe. y và w không có trong danh sách: chúng chỉ là cách viết, như phần sau cho thấy.</p>{{tiles:b=bō p=pō m=mō f=fō _ d=dē t=tē n=nē l=lē _ g=gē k=kē h=hē _ _ j=jī q=qī x=xī _ _ zh=zhī ch=chī sh=shī r=rī _ z=zī c=cī s=sī _ _}}<h3>Vận mẫu dễ đọc nhầm</h3><p>Vận mẫu là phần còn lại của âm tiết: một nguyên âm hoặc một nhóm nguyên âm, đôi khi kết thúc bằng n hoặc ng. Đây là toàn bộ vận mẫu. Âm tiết không có thanh mẫu được viết với y hoặc w: ia viết là <i>ya</i>, ui viết là <i>wei</i>, và ü viết là <i>yu</i>. Mỗi ô ghi vận mẫu theo cách viết đó; ong và eng không bao giờ đứng một mình, nên ô của chúng ghi <i>dōng</i> và <i>dēng</i>.</p>{{tiles:a=ā o=ō e=ē i=yī u=wū ü=yū er=èr _ _ _ ai=āi ei=ēi ao=āo ou=ōu _ an=ān en=ēn ang=āng eng=dēng ong=dōng ia=yā ie=yē iao=yāo iu=yōu _ ian=yān in=yīn iang=yāng ing=yīng iong=yōng ua=wā uo=wō uai=wāi ui=wēi _ uan=wān un=wēn uang=wāng ueng=wēng _ üe=yuē üan=yuān ün=yūn _ _}}<ul><li><b>e</b> đọc gần «ơ»: <b>喝</b> <i>hē</i> (uống) gần «hơ», không phải «e».</li><li><b>ü</b> là «i» nói với môi tròn, không phải «uy». Sau j, q, x và y nó được viết không có hai chấm: <b>去</b> <i>qù</i> (đi) có âm ü.</li><li>Sau z, c, s, zh, ch, sh và r, <b>i</b> không đọc là «i» mà gần «ư», lưỡi như rung nhẹ: <b>四</b> <i>sì</i> (bốn).</li><li><b>ian</b> đọc như «iên» (thiên), <b>ui</b> gần «uây», <b>iu</b> gần «iâu»; <b>ing</b> là «i» + «ng» ở cuối lưỡi, không phải «inh».</li></ul>{{ex:绿|lǜ|màu xanh lá}}{{ex:去|qù|đi}}{{ex:六|liù|sáu}}<h3>Dấu thanh</h3><p>Các dấu nhỏ trên nguyên âm là thanh điệu: <b>ā</b> cao và bằng, <b>á</b> đi lên, <b>ǎ</b> thấp, <b>à</b> đi xuống. Không có dấu là thanh nhẹ, ngắn và nhẹ. Đừng đọc chúng như dấu sắc, huyền, hỏi của tiếng Việt; bài sau nói kỹ về chúng. Khi gõ pinyin, hãy bấm phím thanh trên hàng phím dấu thanh ngay sau âm tiết: dấu sẽ rơi đúng nguyên âm. Bộ gõ tiếng Việt (Unikey, Telex, VNI hay bàn phím tiếng Việt của điện thoại) sẽ biến pinyin thành chữ Việt, chẳng hạn <i>ni3</i> thành «nỉ». Vì vậy, khi gõ pinyin hãy chuyển sang bàn phím tiếng Anh hoặc bàn phím pinyin tiếng Trung, hoặc dùng hàng phím dấu thanh và các ô chữ.</p><h3>Ghép một âm tiết</h3><p>Giờ hãy ghép các phần lại với nhau. Một âm tiết gồm thanh mẫu, vận mẫu và thanh điệu: <b>来</b> là l + ai + thanh 2, <i>lái</i> (đến). Dấu thanh đặt trên a hoặc e nếu vận mẫu có, trên o của ou, còn lại thì đặt trên nguyên âm cuối: <i>duì</i>, <i>niú</i>. Các thẻ bên dưới là những từ một âm tiết thông dụng. Hãy đọc to pinyin trước khi lật mỗi thẻ, và tìm thanh mẫu, vận mẫu và thanh điệu của nó.</p>{{ex:来|lái|đến}}<h3>Dấu nháy</h3><p>Dấu nháy cho biết chỗ một âm tiết mới bắt đầu bằng a, o hoặc e: <b>西安</b> <i>Xī'ān</i> (Tây An) là hai âm tiết, còn <i>xiān</i> chỉ là một.</p>{{ex:西安|Xī'ān|Tây An (thành phố)}}<p>Dòng pinyin chỉ là chiếc nạng tạm thời: hãy nghe âm thanh trước, và ẩn dòng này đi khi chữ Hán đã quen mắt.</p><div class=\"tip\"><b>Lỗi thường gặp:</b> đọc q và x theo chính tả tiếng Việt. <b>去</b> đọc thành «quy» → <b>去</b> <i>qù</i>: «ch» bật hơi cộng ü môi tròn; <b>谢</b> đọc bằng «x» của tiếng Việt → <b>谢</b> <i>xiè</i>: mặt lưỡi phẳng sau răng dưới, nhẹ hơn, giọng đi xuống từ cao.</div>\n",
+   "sections": [
+    null,
+    {
+     "deck": "Âm pinyin",
+     "n": [
+      0,
+      16
+     ]
+    },
+    null,
+    null,
+    [
+     {
+      "deck": "Âm pinyin",
+      "n": [
+       16,
+       18
+      ]
+     },
+     {
+      "name": "Âm tiết pinyin",
+      "cards": [
+       [
+        "来",
+        "lái",
+        "đến",
+        "l + ai + thanh 2."
+       ],
+       [
+        "飞",
+        "fēi",
+        "bay",
+        "f + ei + thanh 1. f đọc như “ph”; ei đọc như “ây”."
+       ],
+       [
+        "高",
+        "gāo",
+        "cao",
+        "g + ao + thanh 1. g không bật hơi, như “c” trong “ca”; ao đọc như “ao”."
+       ],
+       [
+        "手",
+        "shǒu",
+        "tay",
+        "sh + ou + thanh 3. ou đọc như “âu”, không phải “uô”."
+       ],
+       [
+        "慢",
+        "màn",
+        "chậm",
+        "m + an + thanh 4."
+       ],
+       [
+        "很",
+        "hěn",
+        "rất",
+        "h + en + thanh 3. h đọc gần “kh”; en đọc như “ân”."
+       ],
+       [
+        "忙",
+        "máng",
+        "bận",
+        "m + ang + thanh 2."
+       ],
+       [
+        "冷",
+        "lěng",
+        "lạnh",
+        "l + eng + thanh 3. eng đọc như “âng”."
+       ],
+       [
+        "红",
+        "hóng",
+        "đỏ",
+        "h + ong + thanh 2. ong đọc như “ung”."
+       ],
+       [
+        "家",
+        "jiā",
+        "nhà; gia đình",
+        "j + ia + thanh 1."
+       ],
+       [
+        "写",
+        "xiě",
+        "viết",
+        "x + ie + thanh 3. ie đọc như “iê”."
+       ],
+       [
+        "叫",
+        "jiào",
+        "gọi; tên là",
+        "j + iao + thanh 4."
+       ],
+       [
+        "牛",
+        "niú",
+        "con bò",
+        "n + iu + thanh 2. iu đọc gần “iâu”."
+       ],
+       [
+        "钱",
+        "qián",
+        "tiền",
+        "q + ian + thanh 2. ian đọc như “iên”, không phải “i-an”."
+       ],
+       [
+        "进",
+        "jìn",
+        "vào",
+        "j + in + thanh 4."
+       ],
+       [
+        "听",
+        "tīng",
+        "nghe",
+        "t + ing + thanh 1. t bật hơi như “th”; ing là “i” + “ng” ở cuối lưỡi, không phải “inh”."
+       ],
+       [
+        "画",
+        "huà",
+        "vẽ; bức tranh",
+        "h + ua + thanh 4."
+       ],
+       [
+        "坐",
+        "zuò",
+        "ngồi; đi (xe, tàu)",
+        "z + uo + thanh 4. uo đọc như “uô”."
+       ],
+       [
+        "学",
+        "xué",
+        "học",
+        "x + üe + thanh 2. Sau x, hai chấm trên ü được bỏ đi."
+       ],
+       [
+        "黄",
+        "huáng",
+        "màu vàng",
+        "h + uang + thanh 2."
+       ]
+      ]
+     }
+    ],
+    null
+   ]
   },
   {
    "id": "tones",
    "title": "2 · Bốn thanh điệu và thanh nhẹ",
    "blurb": "Nghe và đọc bốn thanh điệu và thanh nhẹ, phân biệt những từ chỉ khác nhau ở thanh.",
    "deck": "Cặp thanh điệu",
-   "body": "<p>Tiếng Trung và tiếng Việt đều là ngôn ngữ có thanh điệu: cùng một âm tiết, đổi thanh là thành từ khác, như <i>ma, má, mà</i>. Đây là lợi thế lớn của bạn. Nhưng hai hệ thống không khớp một đối một: tiếng Việt có sáu thanh, tiếng Trung phổ thông có bốn thanh và một thanh nhẹ, và đường đi của giọng cũng khác. Hãy nghe mỗi thanh tiếng Trung như một âm mới, đừng thay bằng thanh tiếng Việt nghe gần nhất.</p><h3>Bốn thanh điệu</h3><div class=\"tbl\"><table><tr><th>Thanh</th><th>Dấu</th><th>Cách đọc</th><th>Ví dụ</th></tr><tr><td>thanh 1</td><td class=\"k\">ā</td><td>cao và bằng, giữ đều như ngân một nốt; gần thanh ngang nhưng cao hơn và đều hơn</td><td class=\"k\">妈</td></tr><tr><td>thanh 2</td><td class=\"k\">á</td><td>đi lên từ giữa lên cao, nghe giống thanh sắc</td><td class=\"k\">麻</td></tr><tr><td>thanh 3</td><td class=\"k\">ǎ</td><td>thấp; đọc riêng thì xuống rồi lên lại, gần thanh hỏi; không thắt cổ họng như thanh ngã hay thanh nặng</td><td class=\"k\">马</td></tr><tr><td>thanh 4</td><td class=\"k\">à</td><td>rơi mạnh từ cao xuống thấp; tiếng Việt không có thanh nào như vậy</td><td class=\"k\">骂</td></tr></table></div>{{ex:妈|mā|mẹ}}{{ex:麻|má|tê; cây gai}}{{ex:马|mǎ|ngựa}}{{ex:骂|mà|mắng}}<p>Bốn từ, một âm tiết. Đọc chậm, rồi nhanh dần. Cho mỗi thanh đi hết đường: thanh 1 giữ cao, thanh 4 rơi xuống tận đáy giọng. Thanh huyền bắt đầu thấp, thanh nặng ngắn và thắt lại, còn thanh 4 bắt đầu từ trên cao. <b>Đừng đọc dấu pinyin như dấu tiếng Việt:</b> ´ và ` trông giống dấu sắc và dấu huyền nhưng là thanh 2 và thanh 4; ˇ không phải dấu hỏi; ¯ thì tiếng Việt không có.</p><h3>Đổi thanh là đổi nghĩa</h3><p>Nhầm thanh là nói thành từ khác. <b>买</b> <i>mǎi</i> là mua, còn <b>卖</b> <i>mài</i> là bán. <b>汤</b> <i>tāng</i> là canh, còn <b>糖</b> <i>táng</i> là đường. Mẹo nhỏ: với từ Hán Việt, thanh tiếng Việt <i>thường</i> gợi ý thanh tiếng Trung, ví dụ 天 <i>thiên</i> tiān (thanh 1), 人 <i>nhân</i> rén (thanh 2), 好 <i>hảo</i> hǎo (thanh 3), 大 <i>đại</i> dà (thanh 4). Đây chỉ là xu hướng để đoán và có nhiều ngoại lệ, không phải cách hai thanh nghe giống nhau.</p>{{ex:买|mǎi|mua}}{{ex:卖|mài|bán}}{{ex:汤|tāng|canh}}{{ex:糖|táng|đường (để ăn)}}<h3>Thanh nhẹ</h3><p>Một số âm tiết không có dấu thanh. Chúng ngắn và nhẹ, độ cao dựa vào âm tiết đứng trước. Thanh nhẹ (khinh thanh) không phải thanh thứ năm, chỉ là không mang dấu. Trong <b>妈妈</b> <i>māma</i> (mẹ), âm tiết thứ hai đọc thanh nhẹ.</p>{{ex:妈妈|māma|mẹ}}<h3>Luyện theo cặp thanh</h3><p>Phần lớn từ có hai âm tiết, nên hãy luyện thanh theo cặp. <b>很快</b> <i>hěn kuài</i> (rất nhanh) là thanh 3 rồi thanh 4: giữ thấp ở âm tiết đầu, rồi rơi từ trên cao xuống. Khi gõ pinyin, hãy tắt bộ gõ tiếng Việt (Unikey, Telex, VNI hoặc bàn phím tiếng Việt trên điện thoại) và chuyển sang bàn phím tiếng Anh hay bàn phím pinyin: bộ gõ tiếng Việt sẽ biến <i>ni3</i> thành «nỉ». Hoặc dùng hàng phím dấu thanh và các ô chữ của ứng dụng.</p>{{ex:很快|hěn kuài|rất nhanh}}<h3>Câu hỏi vẫn giữ thanh</h3><p>Trong tiếng Việt, câu hỏi cũng không làm đổi thanh của từ, và tiếng Trung cũng vậy. Nhưng đừng lên giọng ở cuối câu hỏi theo thói quen: kéo lên như thế sẽ biến thanh 4 thành thanh 2 và đổi từ. Hãy giữ nguyên thanh của từng từ: tiếng Trung đặt câu hỏi bằng từ ngữ, như <i>không</i> của tiếng Việt, và bạn sẽ sớm gặp.</p><div class=\"tip\"><b>Lỗi thường gặp:</b> đọc thanh 4 bằng phẳng, hoặc chỉ rơi được nửa đường. <b>卖</b> đọc thấp như mǎi → <b>卖</b> <i>mài</i>, rơi hết từ cao xuống thấp. Đọc thấp là bạn đang mua chứ không phải bán.</div>\n"
+   "body": "<p>Tiếng Trung và tiếng Việt đều là ngôn ngữ có thanh điệu: cùng một âm tiết, đổi thanh là thành từ khác, như <i>ma, má, mà</i>. Đây là lợi thế lớn của bạn. Nhưng hai hệ thống không khớp một đối một: tiếng Việt có sáu thanh, tiếng Trung phổ thông có bốn thanh và một thanh nhẹ, và đường đi của giọng cũng khác. Hãy nghe mỗi thanh tiếng Trung như một âm mới, đừng thay bằng thanh tiếng Việt nghe gần nhất.</p><h3>Bốn thanh điệu</h3><div class=\"tbl\"><table><tr><th>Thanh</th><th>Dấu</th><th>Cách đọc</th><th>Ví dụ</th></tr><tr><td>thanh 1</td><td class=\"k\">ā</td><td>cao và bằng, giữ đều như ngân một nốt; gần thanh ngang nhưng cao hơn và đều hơn</td><td class=\"k\">妈</td></tr><tr><td>thanh 2</td><td class=\"k\">á</td><td>đi lên từ giữa lên cao, nghe giống thanh sắc</td><td class=\"k\">麻</td></tr><tr><td>thanh 3</td><td class=\"k\">ǎ</td><td>thấp; đọc riêng thì xuống rồi lên lại, gần thanh hỏi; không thắt cổ họng như thanh ngã hay thanh nặng</td><td class=\"k\">马</td></tr><tr><td>thanh 4</td><td class=\"k\">à</td><td>rơi mạnh từ cao xuống thấp; tiếng Việt không có thanh nào như vậy</td><td class=\"k\">骂</td></tr></table></div>{{ex:妈|mā|mẹ}}{{ex:麻|má|tê; cây gai}}{{ex:马|mǎ|ngựa}}{{ex:骂|mà|mắng}}<p>Bốn từ, một âm tiết. Đọc chậm, rồi nhanh dần. Cho mỗi thanh đi hết đường: thanh 1 giữ cao, thanh 4 rơi xuống tận đáy giọng. Thanh huyền bắt đầu thấp, thanh nặng ngắn và thắt lại, còn thanh 4 bắt đầu từ trên cao. <b>Đừng đọc dấu pinyin như dấu tiếng Việt:</b> ´ và ` trông giống dấu sắc và dấu huyền nhưng là thanh 2 và thanh 4; ˇ không phải dấu hỏi; ¯ thì tiếng Việt không có.</p><p>Chạm vào từng ô để nghe thanh điệu. Ô cuối cùng, <i>ma</i> không có dấu, là thanh nhẹ, sẽ được giới thiệu ở phần dưới.</p>{{tiles:mā=mā má=má mǎ=mǎ mà=mà ma=ma}}<h3>Đổi thanh là đổi nghĩa</h3><p>Nhầm thanh là nói thành từ khác. <b>买</b> <i>mǎi</i> là mua, còn <b>卖</b> <i>mài</i> là bán. <b>汤</b> <i>tāng</i> là canh, còn <b>糖</b> <i>táng</i> là đường. <b>问</b> <i>wèn</i> là hỏi, còn <b>吻</b> <i>wěn</i> là hôn. Mẹo nhỏ: với từ Hán Việt, thanh tiếng Việt <i>thường</i> gợi ý thanh tiếng Trung, ví dụ 天 <i>thiên</i> tiān (thanh 1), 人 <i>nhân</i> rén (thanh 2), 好 <i>hảo</i> hǎo (thanh 3), 大 <i>đại</i> dà (thanh 4). Đây chỉ là xu hướng để đoán và có nhiều ngoại lệ, không phải cách hai thanh nghe giống nhau.</p>{{ex:买|mǎi|mua}}{{ex:卖|mài|bán}}{{ex:汤|tāng|canh}}{{ex:糖|táng|đường (để ăn)}}<h3>Thanh nhẹ</h3><p>Một số âm tiết không có dấu thanh. Chúng ngắn và nhẹ, độ cao dựa vào âm tiết đứng trước. Thanh nhẹ (khinh thanh) không phải thanh thứ năm, chỉ là không mang dấu. Trong <b>妈妈</b> <i>māma</i> (mẹ), âm tiết thứ hai đọc thanh nhẹ.</p>{{ex:妈妈|māma|mẹ}}<h3>Luyện theo cặp thanh</h3><p>Phần lớn từ có hai âm tiết, nên hãy luyện thanh theo cặp. <b>很快</b> <i>hěn kuài</i> (rất nhanh) là thanh 3 rồi thanh 4: giữ thấp ở âm tiết đầu, rồi rơi từ trên cao xuống. Khi gõ pinyin, hãy tắt bộ gõ tiếng Việt (Unikey, Telex, VNI hoặc bàn phím tiếng Việt trên điện thoại) và chuyển sang bàn phím tiếng Anh hay bàn phím pinyin: bộ gõ tiếng Việt sẽ biến <i>ni3</i> thành «nỉ». Hoặc dùng hàng phím dấu thanh và các ô chữ của ứng dụng.</p>{{ex:很快|hěn kuài|rất nhanh}}<p>Các thẻ bên dưới là những từ hai âm tiết thông dụng: gần như mỗi cặp thanh có một từ, thêm hai từ kết thúc bằng thanh nhẹ. Hãy đọc trọn cả hai thanh. Hai thanh 3 liền nhau sẽ học ở bài sau.</p><h3>Câu hỏi vẫn giữ thanh</h3><p>Trong tiếng Việt, câu hỏi cũng không làm đổi thanh của từ, và tiếng Trung cũng vậy. Nhưng đừng lên giọng ở cuối câu hỏi theo thói quen: kéo lên như thế sẽ biến thanh 4 thành thanh 2 và đổi từ. Hãy giữ nguyên thanh của từng từ: tiếng Trung đặt câu hỏi bằng từ ngữ, như <i>không</i> của tiếng Việt, và bạn sẽ sớm gặp.</p><div class=\"tip\"><b>Lỗi thường gặp:</b> đọc thanh 4 bằng phẳng, hoặc chỉ rơi được nửa đường. <b>卖</b> đọc thấp như mǎi → <b>卖</b> <i>mài</i>, rơi hết từ cao xuống thấp. Đọc thấp là bạn đang mua chứ không phải bán.</div>\n",
+   "sections": [
+    {
+     "deck": "Cặp thanh điệu",
+     "n": [
+      0,
+      4
+     ]
+    },
+    {
+     "deck": "Cặp thanh điệu",
+     "n": [
+      4,
+      10
+     ]
+    },
+    null,
+    {
+     "name": "Từ hai âm tiết",
+     "cards": [
+      [
+       "今天",
+       "jīntiān",
+       "hôm nay",
+       "Thanh 1 + thanh 1: cả hai đều cao và bằng."
+      ],
+      [
+       "中国",
+       "Zhōngguó",
+       "Trung Quốc",
+       "Thanh 1 + thanh 2: giữ cao, rồi đi lên."
+      ],
+      [
+       "工作",
+       "gōngzuò",
+       "công việc; làm việc",
+       "Thanh 1 + thanh 4: giữ cao, rồi rơi xuống."
+      ],
+      [
+       "面包",
+       "miànbāo",
+       "bánh mì",
+       "Thanh 4 + thanh 1: rơi xuống, rồi nhảy lên cao trở lại."
+      ],
+      [
+       "明天",
+       "míngtiān",
+       "ngày mai",
+       "Thanh 2 + thanh 1: đi lên, rồi giữ cao."
+      ],
+      [
+       "苹果",
+       "píngguǒ",
+       "quả táo",
+       "Thanh 2 + thanh 3: đi lên, rồi xuống thấp."
+      ],
+      [
+       "学校",
+       "xuéxiào",
+       "trường học",
+       "Thanh 2 + thanh 4: đi lên, rồi rơi xuống."
+      ],
+      [
+       "老师",
+       "lǎoshī",
+       "thầy giáo, cô giáo",
+       "Thanh 3 + thanh 1: giữ thấp, rồi nhảy lên cao."
+      ],
+      [
+       "美国",
+       "Měiguó",
+       "nước Mỹ",
+       "Thanh 3 + thanh 2: giữ thấp, rồi đi lên."
+      ],
+      [
+       "米饭",
+       "mǐfàn",
+       "cơm",
+       "Thanh 3 + thanh 4: giữ thấp, rồi rơi từ trên cao xuống."
+      ],
+      [
+       "大学",
+       "dàxué",
+       "đại học",
+       "Thanh 4 + thanh 2: rơi xuống, rồi đi lên."
+      ],
+      [
+       "汉语",
+       "Hànyǔ",
+       "tiếng Hán (tiếng Trung)",
+       "Thanh 4 + thanh 3: rơi xuống, rồi giữ thấp."
+      ],
+      [
+       "电话",
+       "diànhuà",
+       "điện thoại",
+       "Thanh 4 + thanh 4: hai lần rơi, lần thứ hai mạnh hơn."
+      ],
+      [
+       "东西",
+       "dōngxi",
+       "đồ; đồ vật",
+       "Thanh 1 + thanh nhẹ: âm tiết thứ hai ngắn và nhẹ."
+      ],
+      [
+       "谢谢",
+       "xièxie",
+       "cảm ơn",
+       "Thanh 4 + thanh nhẹ: rơi xuống, rồi một âm xie nhẹ và ngắn."
+      ]
+     ]
+    },
+    null
+   ]
   },
   {
    "id": "tone-change",
    "title": "3 · Biến điệu: 不, 一, thanh 3",
    "blurb": "Đọc 不 và 一 đúng thanh, và đọc hai thanh 3 liền nhau như người Trung Quốc.",
    "deck": "Cặp thanh điệu",
-   "body": "<p>Một vài âm tiết rất thông dụng đổi thanh tùy theo âm tiết đứng sau. Hiện tượng này gọi là biến điệu. Tiếng Việt không có kiểu đổi thanh này: <i>không</i> lúc nào cũng là <i>không</i>, dù đứng trước từ nào. Vì vậy bạn cần luyện cho quen. Có ba quy tắc.</p><h3>不 (không): bù hay bú</h3><p><b>不</b> nghĩa là «không». Đứng một mình nó mang thanh 4, <i>bù</i>. Trước một thanh 4 khác, nó chuyển thành thanh 2: <b>不是</b> <i>bú shì</i> (không phải). Trước mọi thanh khác, nó vẫn là <i>bù</i>. Trong khóa học này, dòng pinyin ghi đúng thanh bạn thực sự đọc.</p>{{ex:不是|bú shì|không phải; không}}{{ex:不客气|bú kèqi|không có gì}}{{ex:不好|bù hǎo|không tốt}}<h3>一 (một): yī, yí hay yì</h3><p><b>一</b> giữ thanh 1 khi đếm, <i>yī, èr, sān</i>, khi đứng cuối một số lớn hơn (<b>十一</b> <i>shíyī</i>, mười một), trong ngày tháng, và khi chỉ thứ tự, như <b>第一</b> <i>dìyī</i> (thứ nhất). Đứng trước một từ, nó đổi thanh. Trước thanh 4, nó lên thành thanh 2: <b>一个人</b> <i>yí ge rén</i> (một người). Trước các thanh còn lại, nó thành thanh 4: <b>一天</b> <i>yì tiān</i> (một ngày).</p>{{ex:一个人|yí ge rén|một người}}{{ex:一天|yì tiān|một ngày}}{{ex:第一|dìyī|thứ nhất}}<p>Nhìn lại <b>一个人</b>. Tiếng Việt nói «một người»; tiếng Trung đặt một từ nhỏ, <b>个</b>, giữa số và danh từ. Đó là lượng từ (giống loại từ <i>cái, con</i> trong tiếng Việt), và bạn sẽ học thêm ở các bài sau. Bản thân <b>个</b> được viết không có dấu thanh, nhưng tính như thanh 4, nên <b>一</b> đứng trước nó đọc là <i>yí</i>.</p><h3>Hai thanh 3 liền nhau</h3><p>Khi một thanh 3 đứng ngay trước một thanh 3 khác, thanh 3 đầu tiên đọc thành thanh 2. <b>你好</b> (xin chào) đọc là «ní hǎo». Dòng pinyin vẫn viết <i>nǐ hǎo</i>, tức thanh gốc của mỗi chữ trong từ điển, để bạn luôn thấy thanh thật của <b>你</b>.</p>{{ex:你好|nǐ hǎo|xin chào}}{{ex:很好|hěn hǎo|rất tốt}}<h3>Nửa thanh 3</h3><p>Trước thanh 1, thanh 2 hoặc thanh 4, thanh 3 chỉ giữ thấp và không lên lại: <b>很快</b> <i>hěn kuài</i>. Đây là cách thanh 3 hay được nói nhất. Đường xuống rồi lên đầy đủ chủ yếu nghe thấy khi thanh 3 đứng một mình hoặc ở cuối cụm từ. Đừng thắt cổ họng như thanh ngã hay thanh nặng.</p><div class=\"tip\"><b>Lỗi thường gặp:</b> quên đổi thanh của 不 trước thanh 4. <b>不是</b> đọc bù shì → <b>不是</b> <i>bú shì</i>. Lỗi ngược lại là đổi quá tay: thanh 3 chỉ đổi khi đứng trước một thanh 3 khác, không phải trước mọi thanh.</div>\n"
+   "body": "<p>Một vài âm tiết rất thông dụng đổi thanh tùy theo âm tiết đứng sau. Hiện tượng này gọi là biến điệu. Tiếng Việt không có kiểu đổi thanh này: <i>không</i> lúc nào cũng là <i>không</i>, dù đứng trước từ nào. Vì vậy bạn cần luyện cho quen. Có ba quy tắc.</p><h3>不 (không): bù hay bú</h3><p><b>不</b> nghĩa là «không». Đứng một mình nó mang thanh 4, <i>bù</i>. Trước một thanh 4 khác, nó chuyển thành thanh 2: <b>不是</b> <i>bú shì</i> (không phải). Trước mọi thanh khác, nó vẫn là <i>bù</i>. Trong khóa học này, dòng pinyin ghi đúng thanh bạn thực sự đọc.</p>{{ex:不是|bú shì|không phải; không}}{{ex:不客气|bú kèqi|không có gì}}{{ex:不好|bù hǎo|không tốt}}<h3>一 (một): yī, yí hay yì</h3><p><b>一</b> giữ thanh 1 khi đếm, <i>yī, èr, sān</i>, khi đứng cuối một số lớn hơn (<b>十一</b> <i>shíyī</i>, mười một), trong ngày tháng, và khi chỉ thứ tự, như <b>第一</b> <i>dìyī</i> (thứ nhất). Đứng trước một từ, nó đổi thanh. Trước thanh 4, nó lên thành thanh 2: <b>一个人</b> <i>yí ge rén</i> (một người). Trước các thanh còn lại, nó thành thanh 4: <b>一天</b> <i>yì tiān</i> (một ngày).</p>{{ex:一个人|yí ge rén|một người}}{{ex:一天|yì tiān|một ngày}}{{ex:第一|dìyī|thứ nhất}}<p>Nhìn lại <b>一个人</b>. Tiếng Việt nói «một người»; tiếng Trung đặt một từ nhỏ, <b>个</b>, giữa số và danh từ. Đó là lượng từ (giống loại từ <i>cái, con</i> trong tiếng Việt), và bạn sẽ học thêm ở các bài sau. Bản thân <b>个</b> được viết không có dấu thanh, nhưng tính như thanh 4, nên <b>一</b> đứng trước nó đọc là <i>yí</i>.</p><h3>Hai thanh 3 liền nhau</h3><p>Khi một thanh 3 đứng ngay trước một thanh 3 khác, thanh 3 đầu tiên đọc thành thanh 2. <b>你好</b> (xin chào) đọc là «ní hǎo». Dòng pinyin vẫn viết <i>nǐ hǎo</i>, tức thanh gốc của mỗi chữ trong từ điển, để bạn luôn thấy thanh thật của <b>你</b>.</p>{{ex:你好|nǐ hǎo|xin chào}}{{ex:很好|hěn hǎo|rất tốt}}<h3>Nửa thanh 3</h3><p>Trước thanh 1, thanh 2 hoặc thanh 4, thanh 3 chỉ giữ thấp và không lên lại: <b>很快</b> <i>hěn kuài</i>. Đây là cách thanh 3 hay được nói nhất. Đường xuống rồi lên đầy đủ chủ yếu nghe thấy khi thanh 3 đứng một mình hoặc ở cuối cụm từ. Đừng thắt cổ họng như thanh ngã hay thanh nặng.</p><p>Các thẻ bên dưới là những nhóm cùng một âm tiết với các thanh khác nhau. <b>眼</b> <i>yǎn</i>, <b>起</b> <i>qǐ</i> và <b>有</b> <i>yǒu</i> mang thanh 3; trên thẻ chúng đứng một mình, nên hãy đọc đủ đường xuống rồi lên. Sau đó đọc từng chữ bên cạnh các chữ cùng nhóm.</p><div class=\"tip\"><b>Lỗi thường gặp:</b> quên đổi thanh của 不 trước thanh 4. <b>不是</b> đọc bù shì → <b>不是</b> <i>bú shì</i>. Lỗi ngược lại là đổi quá tay: thanh 3 chỉ đổi khi đứng trước một thanh 3 khác, không phải trước mọi thanh.</div>\n",
+   "sections": [
+    null,
+    null,
+    null,
+    {
+     "deck": "Cặp thanh điệu",
+     "n": [
+      10,
+      18
+     ]
+    }
+   ]
   },
   {
    "id": "characters",
    "title": "4 · Cấu tạo chữ Hán: nét và bộ thủ",
    "blurb": "Nhận biết khoảng 25 chữ Hán cơ bản và hiểu cách hình vẽ, chữ ghép và bộ thủ tạo nên các chữ còn lại.",
    "deck": "Chữ Hán đầu tiên",
-   "body": "<p>Tiếng Việt viết bằng chữ cái ghi âm. Tiếng Trung không có bảng chữ cái: mỗi chữ Hán là một âm tiết có nghĩa, giống như mỗi tiếng trong <i>học sinh</i> ứng với một chữ. Có thể bạn đã quen mặt vài chữ Hán trên hoành phi ở chùa hay câu đối ngày Tết. Nghe thì có vẻ nhiều, nhưng chữ Hán được ghép từ một số ít bộ phận, và nhiều bộ phận lặp đi lặp lại. Khóa học này nhắm tới việc nhận biết khoảng 300 chữ thông dụng. Bạn sẽ học đọc chữ, không phải viết tay.</p><h3>Chữ tượng hình</h3><p>Những chữ cổ nhất bắt đầu từ hình vẽ. <b>人</b> <i>rén</i> là một người đang bước đi, <b>口</b> <i>kǒu</i> là cái miệng mở, <b>木</b> <i>mù</i> là cái cây có rễ, <b>山</b> <i>shān</i> là ba đỉnh núi, <b>日</b> <i>rì</i> là mặt trời và <b>月</b> <i>yuè</i> là mặt trăng. Nhiều chữ bạn đã biết qua âm Hán Việt: 人 là <i>nhân</i>, 山 là <i>sơn</i>.</p>{{ex:人|rén|người}}{{ex:木|mù|cây; gỗ}}{{ex:山|shān|núi}}<h3>Hai bộ phận, một nghĩa</h3><p>Nhiều chữ ghép hai bộ phận lại, nghĩa cộng với nhau. Hai cây thành <b>林</b> <i>lín</i> (rừng). Một người tựa vào cây, <b>休</b> <i>xiū</i>, là nghỉ ngơi. Mặt trời và mặt trăng thành <b>明</b> <i>míng</i>, sáng (Hán Việt: <i>minh</i>). Người phụ nữ với đứa con thành <b>好</b> <i>hǎo</i>, tốt.</p>{{ex:林|lín|rừng}}{{ex:明|míng|sáng}}{{ex:好|hǎo|tốt}}<h3>Bộ thủ: gợi ý, không phải cách đánh vần</h3><p>Bộ thủ là phần của chữ Hán gợi ý về nghĩa. Ba chấm bên trái (氵) chỉ nước, như trong <b>汤</b> <i>tāng</i> (canh). Một chữ 口 nhỏ bên trái thường đánh dấu từ liên quan đến miệng hoặc một âm thanh. 亻, dạng hẹp của 人, chỉ người, như trong 休. 女 chỉ phụ nữ.</p><p>Một bộ phận khác thường gợi ý về âm. <b>妈</b> <i>mā</i> (mẹ) có 女 (phụ nữ) chỉ nghĩa và 马 <i>mǎ</i> (ngựa) chỉ âm. Gợi ý này chỉ gần đúng: bạn không thể đánh vần một chữ Hán như chữ Quốc ngữ, nên hãy học mỗi chữ cùng với pinyin của nó.</p>{{ex:汤|tāng|canh}}{{ex:妈|mā|mẹ}}<h3>Nét</h3><p>Chữ Hán được tạo bởi các nét: nét ngang, nét chấm, nét móc… Biết các nét cơ bản giúp bạn nhìn ra các bộ phận và tra chữ. Khóa học này không luyện thứ tự nét.</p><h3>Giản thể và phồn thể</h3><p>Trung Quốc đại lục dùng chữ giản thể, và khóa học này dạy chữ giản thể. Đài Loan và Hồng Kông dùng chữ phồn thể, nhiều nét hơn: 门 ở đó viết là 門. Chữ Hán trong sách cổ, câu đối và hoành phi ở Việt Nam thường là chữ phồn thể, nên chữ quen mặt có khi trông khác: 学 (<i>học</i>) là dạng giản thể của 學.</p><div class=\"tip\"><b>Lỗi thường gặp:</b> cố đọc một chữ từ các bộ phận của nó. 妈 đọc thành «phụ nữ + ngựa», hoặc thành mǎ → <b>妈</b> <i>mā</i>. Các bộ phận chỉ giúp nhớ; pinyin mới cho bạn biết cách đọc.</div>\n"
+   "body": "<p>Tiếng Việt viết bằng chữ cái ghi âm. Tiếng Trung không có bảng chữ cái: mỗi chữ Hán là một âm tiết có nghĩa, giống như mỗi tiếng trong <i>học sinh</i> ứng với một chữ. Có thể bạn đã quen mặt vài chữ Hán trên hoành phi ở chùa hay câu đối ngày Tết. Nghe thì có vẻ nhiều, nhưng chữ Hán được ghép từ một số ít bộ phận, và nhiều bộ phận lặp đi lặp lại. Khóa học này nhắm tới việc nhận biết khoảng 300 chữ thông dụng. Bạn sẽ học đọc chữ, không phải viết tay.</p><h3>Nét</h3><p>Chữ Hán được tạo bởi các nét: đường kẻ, chấm và móc. Chỉ có vài nét cơ bản, và chữ nào cũng được ghép từ chúng. Biết các nét này giúp bạn nhìn ra các bộ phận và tra chữ. Khóa học này không luyện thứ tự nét.</p><div class=\"tbl\"><table><tr><th>Nét</th><th>Trông như thế nào</th><th>Có trong</th></tr><tr><td>nét ngang</td><td>một đường kéo từ trái sang phải</td><td class=\"k\">一, 三</td></tr><tr><td>nét sổ</td><td>một đường kéo thẳng xuống</td><td class=\"k\">十, 中</td></tr><tr><td>nét phẩy</td><td>một nét quét xuống bên trái</td><td class=\"k\">人, 八</td></tr><tr><td>nét mác</td><td>một nét quét xuống bên phải, đậm dần ở cuối</td><td class=\"k\">人, 八</td></tr><tr><td>nét chấm</td><td>một chấm ngắn</td><td class=\"k\">六, 氵</td></tr><tr><td>nét gập</td><td>một đường kẻ gập lại ở góc</td><td class=\"k\">口, 日</td></tr><tr><td>nét móc</td><td>một nét vẩy nhỏ ở cuối đường kẻ</td><td class=\"k\">小, 子</td></tr></table></div><h3>Chữ tượng hình</h3><p>Những chữ cổ nhất bắt đầu từ hình vẽ. <b>人</b> <i>rén</i> là một người đang bước đi, <b>口</b> <i>kǒu</i> là cái miệng mở, <b>木</b> <i>mù</i> là cái cây có rễ, <b>山</b> <i>shān</i> là ba đỉnh núi, <b>日</b> <i>rì</i> là mặt trời và <b>月</b> <i>yuè</i> là mặt trăng. Thêm vài hình nữa: <b>女</b> <i>nǚ</i> là người phụ nữ, <b>子</b> <i>zǐ</i> là đứa trẻ dang tay, <b>门</b> <i>mén</i> là cánh cửa, <b>雨</b> <i>yǔ</i> là mưa rơi, <b>火</b> <i>huǒ</i> là ngọn lửa và <b>水</b> <i>shuǐ</i> là dòng nước. <b>上</b> <i>shàng</i> (trên) và <b>下</b> <i>xià</i> (dưới) là một vạch ngắn ở trên và ở dưới một đường kẻ. Nhiều chữ bạn đã biết qua âm Hán Việt: 人 là <i>nhân</i>, 山 là <i>sơn</i>.</p>{{ex:人|rén|người}}{{ex:木|mù|cây; gỗ}}{{ex:山|shān|núi}}<h3>Bộ thủ: gợi ý, không phải cách đánh vần</h3><p>Bộ thủ là phần của chữ Hán gợi ý về nghĩa. Nhiều bộ thủ là chữ tượng hình được thu hẹp lại, dồn sang một bên. Ba chấm bên trái (氵) chỉ nước, như trong <b>汤</b> <i>tāng</i> (canh). Một chữ 口 nhỏ bên trái thường đánh dấu từ liên quan đến miệng hoặc một âm thanh. 亻, dạng hẹp của 人, chỉ người, như trong <b>你</b> <i>nǐ</i> (bạn). 女 chỉ phụ nữ.</p><p>Đây là những bộ thủ bạn sẽ gặp nhiều nhất. Mỗi ô ghi pinyin của chữ đầy đủ là gốc của bộ thủ: 讠 là dạng rút gọn của 言 <i>yán</i> (lời nói), còn 忄 là 心 <i>xīn</i> (tim) đứng ở bên trái.</p>{{tiles:氵 亻 口 女 木 日=rì 月 心 忄 讠 扌 艹 饣 土 钅}}<p>Một bộ phận khác thường gợi ý về âm. <b>妈</b> <i>mā</i> (mẹ) có 女 (phụ nữ) chỉ nghĩa và 马 <i>mǎ</i> (ngựa) chỉ âm. Gợi ý này chỉ gần đúng: bạn không thể đánh vần một chữ Hán như chữ Quốc ngữ, nên hãy học mỗi chữ cùng với pinyin của nó.</p>{{ex:汤|tāng|canh}}{{ex:妈|mā|mẹ}}<h3>Hai bộ phận, một nghĩa</h3><p>Nhiều chữ ghép hai bộ phận lại, nghĩa cộng với nhau. Hai cây thành <b>林</b> <i>lín</i> (rừng). Một người tựa vào cây, <b>休</b> <i>xiū</i>, là nghỉ ngơi. Mặt trời và mặt trăng thành <b>明</b> <i>míng</i>, sáng (Hán Việt: <i>minh</i>). Người phụ nữ với đứa con thành <b>好</b> <i>hǎo</i>, tốt.</p>{{ex:林|lín|rừng}}{{ex:明|míng|sáng}}{{ex:好|hǎo|tốt}}<p>Phần lớn chữ Hán được ghép từ hai hoặc ba bộ phận bạn đã biết. Đôi khi bộ phận nào cũng chỉ nghĩa, như 好. Thường gặp hơn là bộ thủ chỉ nghĩa và bộ phận kia chỉ âm: <b>请</b> <i>qǐng</i> (xin mời), <b>清</b> <i>qīng</i> (trong) và <b>晴</b> <i>qíng</i> (trời nắng) đều lấy âm từ 青 <i>qīng</i>, còn 讠 (lời nói), 氵 (nước) và 日 (mặt trời) giúp phân biệt chúng. Các thẻ bên dưới là những chữ thông dụng; ghi chú của mỗi thẻ nêu các bộ phận và vai trò của từng bộ phận.</p>{{ex:请|qǐng|xin mời}}<h3>Giản thể và phồn thể</h3><p>Trung Quốc đại lục dùng chữ giản thể, và khóa học này dạy chữ giản thể. Đài Loan và Hồng Kông dùng chữ phồn thể, nhiều nét hơn: 门 ở đó viết là 門. Chữ Hán trong sách cổ, câu đối và hoành phi ở Việt Nam thường là chữ phồn thể, nên chữ quen mặt có khi trông khác: 学 (<i>học</i>) là dạng giản thể của 學.</p><div class=\"tip\"><b>Lỗi thường gặp:</b> cố đọc một chữ từ các bộ phận của nó. 妈 đọc thành «phụ nữ + ngựa», hoặc thành mǎ → <b>妈</b> <i>mā</i>. Các bộ phận chỉ giúp nhớ; pinyin mới cho bạn biết cách đọc.</div>\n",
+   "sections": [
+    null,
+    [
+     {
+      "deck": "Chữ Hán đầu tiên",
+      "n": [
+       0,
+       3
+      ]
+     },
+     {
+      "deck": "Chữ Hán đầu tiên",
+      "n": [
+       5,
+       7
+      ]
+     },
+     {
+      "deck": "Chữ Hán đầu tiên",
+      "n": [
+       8,
+       10
+      ]
+     },
+     {
+      "deck": "Chữ Hán đầu tiên",
+      "n": [
+       12,
+       18
+      ]
+     }
+    ],
+    {
+     "name": "Bộ thủ",
+     "cards": [
+      [
+       "氵",
+       "shuǐ",
+       "nước (bên trái)",
+       "Bộ thủy, thường gọi là ba chấm thủy; từ 水 (nước). Như trong 汤 (tāng, canh) và 河 (hé, sông)."
+      ],
+      [
+       "亻",
+       "rén",
+       "người (bên trái)",
+       "Bộ nhân đứng, từ 人 (người). Như trong 你 (nǐ, bạn) và 他 (tā, anh ấy)."
+      ],
+      [
+       "心",
+       "xīn",
+       "tim; tình cảm",
+       "Bộ tâm, nằm ở phần dưới của chữ. Như trong 想 (xiǎng, nghĩ) và 您 (nín, ông, bà… lịch sự)."
+      ],
+      [
+       "忄",
+       "xīn",
+       "tim; tình cảm (bên trái)",
+       "Bộ tâm đứng: 心 đứng ở bên trái. Như trong 怕 (pà, sợ) và 忙 (máng, bận)."
+      ],
+      [
+       "讠",
+       "yán",
+       "lời nói",
+       "Bộ ngôn, dạng rút gọn của 言 (lời nói). Như trong 说 (shuō, nói) và 谢 (xiè, cảm ơn)."
+      ],
+      [
+       "扌",
+       "shǒu",
+       "tay",
+       "Từ 手 (tay), thường gọi là bộ tài gảy. Như trong 打 (dǎ, đánh; chơi) và 找 (zhǎo, tìm)."
+      ],
+      [
+       "艹",
+       "cǎo",
+       "cỏ; cây cỏ",
+       "Bộ thảo, nằm ở trên; từ 草 (cỏ). Như trong 花 (huā, hoa) và 茶 (chá, trà)."
+      ],
+      [
+       "饣",
+       "shí",
+       "thức ăn",
+       "Bộ thực, từ 食 (thức ăn). Như trong 饭 (fàn, bữa ăn) và 饿 (è, đói)."
+      ],
+      [
+       "土",
+       "tǔ",
+       "đất",
+       "Bộ thổ. Như trong 地 (dì, đất, mặt đất) và 城 (chéng, thành phố)."
+      ],
+      [
+       "钅",
+       "jīn",
+       "kim loại; vàng",
+       "Bộ kim, từ 金 (vàng). Như trong 钱 (qián, tiền) và 铁 (tiě, sắt)."
+      ]
+     ]
+    },
+    [
+     {
+      "deck": "Chữ Hán đầu tiên",
+      "n": [
+       3,
+       5
+      ]
+     },
+     {
+      "deck": "Chữ Hán đầu tiên",
+      "n": [
+       7,
+       8
+      ]
+     },
+     {
+      "deck": "Chữ Hán đầu tiên",
+      "n": [
+       10,
+       12
+      ]
+     },
+     {
+      "name": "Chữ ghép từ các bộ phận",
+      "cards": [
+       [
+        "吗",
+        "ma",
+        "trợ từ hỏi ở cuối câu",
+        "口 (miệng: một lời nói ra) chỉ nghĩa; 马 (mǎ, ngựa) chỉ âm."
+       ],
+       [
+        "们",
+        "men",
+        "hậu tố số nhiều chỉ người",
+        "亻 (người) chỉ nghĩa; 门 (mén, cửa) chỉ âm."
+       ],
+       [
+        "间",
+        "jiān",
+        "phòng; khoảng giữa",
+        "门 (cửa) + 日 (mặt trời): ánh nắng lọt qua khe cửa. Cả hai bộ phận đều chỉ nghĩa."
+       ],
+       [
+        "从",
+        "cóng",
+        "từ (nơi, lúc)",
+        "人 + 人: một người đi theo sau một người khác. Cả hai bộ phận đều chỉ nghĩa."
+       ],
+       [
+        "本",
+        "běn",
+        "gốc, nguồn; lượng từ cho sách",
+        "木 (cây) có một nét đánh dấu ở gốc. Cái cây chỉ nghĩa."
+       ],
+       [
+        "李",
+        "lǐ",
+        "quả mận; họ Lý",
+        "木 (cây) chỉ nghĩa; 子 (zǐ) nằm bên dưới. Hãy nghĩ tới một cái cây với quả của nó."
+       ],
+       [
+        "杯",
+        "bēi",
+        "cốc; ly",
+        "木 (gỗ: ngày xưa cốc làm bằng gỗ) chỉ nghĩa; 不 (bù) chỉ âm một cách gần đúng."
+       ],
+       [
+        "灯",
+        "dēng",
+        "đèn",
+        "火 (lửa) chỉ nghĩa; 丁 (dīng) chỉ âm."
+       ],
+       [
+        "姐",
+        "jiě",
+        "chị gái",
+        "女 (phụ nữ) chỉ nghĩa; 且 (qiě) chỉ âm."
+       ],
+       [
+        "您",
+        "nín",
+        "ông, bà, thầy… (lịch sự)",
+        "你 (bạn) + 心 (tim): «bạn», nói với lòng kính trọng. Cả hai bộ phận đều chỉ nghĩa."
+       ],
+       [
+        "想",
+        "xiǎng",
+        "nghĩ; muốn",
+        "心 (tim, lòng) chỉ nghĩa; 相 (xiāng) ở trên chỉ âm."
+       ],
+       [
+        "请",
+        "qǐng",
+        "xin mời; mời",
+        "讠 (lời nói) chỉ nghĩa; 青 (qīng) chỉ âm."
+       ],
+       [
+        "清",
+        "qīng",
+        "trong; rõ",
+        "氵 (nước) chỉ nghĩa; 青 (qīng) chỉ âm: nước trong."
+       ],
+       [
+        "晴",
+        "qíng",
+        "trời nắng",
+        "日 (mặt trời) chỉ nghĩa; 青 (qīng) chỉ âm."
+       ],
+       [
+        "话",
+        "huà",
+        "lời; lời nói",
+        "讠 (lời nói) chỉ nghĩa. Phần bên phải trông giống 舌 (shé, lưỡi): lời nói ra từ đầu lưỡi."
+       ],
+       [
+        "茶",
+        "chá",
+        "trà",
+        "艹 (cây cỏ) ở trên chỉ nghĩa. Bên dưới là 人 (người) và 木 (cây): một người giữa cỏ cây."
+       ],
+       [
+        "饭",
+        "fàn",
+        "cơm; bữa ăn",
+        "饣 (thức ăn) chỉ nghĩa; 反 (fǎn) chỉ âm."
+       ]
+      ]
+     }
+    ],
+    null
+   ]
   },
   {
    "id": "greetings",

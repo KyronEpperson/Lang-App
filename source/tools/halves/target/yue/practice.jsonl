@@ -26,20 +26,6 @@
 {"id":"tones.12","lesson":"tones","t":"type","a":["maai6"],"x":["maai5"],"strict":true}
 {"id":"tones.13","lesson":"tones","t":"type","a":["hai6"],"x":["hai2"],"strict":true}
 {"id":"tones.14","lesson":"tones","t":"type","a":["din6 waa2"],"x":["waa6"],"strict":true}
-{"id":"greetings.01","lesson":"greetings","t":"mc","o":["唔該","多謝","對唔住","唔使客氣"]}
-{"id":"greetings.02","lesson":"greetings","t":"mc","o":["多謝","唔該","早晨","唔使客氣"]}
-{"id":"greetings.03","lesson":"greetings","t":"mc","o":["唔使客氣","唔該","對唔住","早晨"]}
-{"id":"greetings.04","lesson":"greetings","t":"mc","o":["早晨","早抖","拜拜","唔使客氣"]}
-{"id":"greetings.05","lesson":"greetings","t":"mc","o":["do1 ze6","do1 ze2","do2 ze6","do1 ze3"]}
-{"id":"greetings.06","lesson":"greetings","t":"order","a":["do1","ze6"],"x":["ze2"],"strict":true}
-{"id":"greetings.07","lesson":"greetings","t":"order","a":["zou2","san4"],"x":["san1"],"strict":true}
-{"id":"greetings.08","lesson":"greetings","t":"order","a":["唔該","一","杯","奶茶"],"x":["個"]}
-{"id":"greetings.09","lesson":"greetings","t":"fill","q":"__，一杯奶茶。","o":["多謝","對唔住","早晨"],"a":["唔該","m4 goi1"],"xr":["do1 ze6","deoi3 m4 zyu6","zou2 san4"]}
-{"id":"greetings.10","lesson":"greetings","t":"fill","q":"__晒！","o":["唔該","對唔住","早抖"],"a":["多謝","do1 ze6"],"xr":["m4 goi1","deoi3 m4 zyu6","zou2 dau2"]}
-{"id":"greetings.11","lesson":"greetings","t":"fill","q":"唔使__。","o":["好意思","早晨","拜拜"],"a":["客氣","多謝","唔該","haak3 hei3","do1 ze6","m4 goi1"],"xr":["hou2 ji3 si1","zou2 san4","baai1 baai3"]}
-{"id":"greetings.12","lesson":"greetings","t":"type","a":["多謝","多謝 晒","do1 ze6","do1 ze6 saai3"],"x":["唔該"],"hint":{"yue":"多謝","sep":" · "},"xr":["m4 goi1"]}
-{"id":"greetings.13","lesson":"greetings","t":"type","a":["m4 goi1"],"x":["goi3"],"strict":true}
-{"id":"greetings.14","lesson":"greetings","t":"type","a":["唔該 一 杯 咖啡","m4 goi1 jat1 bui1 gaa3 fe1"],"x":["個"],"hint":{"yue":"唔該 · 一 · 杯","sep":" · "},"xr":["go3"]}
 {"id":"characters.01","lesson":"characters","t":"mc","o":["明","林","休","好"]}
 {"id":"characters.02","lesson":"characters","t":"mc","o":[null,null,null,null]}
 {"id":"characters.03","lesson":"characters","t":"mc","o":[null,null,null,null]}
@@ -54,6 +40,20 @@
 {"id":"characters.12","lesson":"characters","t":"type","a":["hou2"],"x":["hou3"],"strict":true}
 {"id":"characters.13","lesson":"characters","t":"type","a":["好 人","hou2 jan4"],"x":["係"],"hint":{"yue":"好 · 人","sep":" · "},"xr":["hai6"]}
 {"id":"characters.14","lesson":"characters","t":"type","a":["jan4"],"x":["jan6"],"strict":true}
+{"id":"greetings.01","lesson":"greetings","t":"mc","o":["唔該","多謝","對唔住","唔使客氣"]}
+{"id":"greetings.02","lesson":"greetings","t":"mc","o":["多謝","唔該","早晨","唔使客氣"]}
+{"id":"greetings.03","lesson":"greetings","t":"mc","o":["唔使客氣","唔該","對唔住","早晨"]}
+{"id":"greetings.04","lesson":"greetings","t":"mc","o":["早晨","早抖","拜拜","唔使客氣"]}
+{"id":"greetings.05","lesson":"greetings","t":"mc","o":["do1 ze6","do1 ze2","do2 ze6","do1 ze3"]}
+{"id":"greetings.06","lesson":"greetings","t":"order","a":["do1","ze6"],"x":["ze2"],"strict":true}
+{"id":"greetings.07","lesson":"greetings","t":"order","a":["zou2","san4"],"x":["san1"],"strict":true}
+{"id":"greetings.08","lesson":"greetings","t":"order","a":["唔該","一","杯","奶茶"],"x":["個"]}
+{"id":"greetings.09","lesson":"greetings","t":"fill","q":"__，一杯奶茶。","o":["多謝","對唔住","早晨"],"a":["唔該","m4 goi1"],"xr":["do1 ze6","deoi3 m4 zyu6","zou2 san4"]}
+{"id":"greetings.10","lesson":"greetings","t":"fill","q":"__晒！","o":["唔該","對唔住","早抖"],"a":["多謝","do1 ze6"],"xr":["m4 goi1","deoi3 m4 zyu6","zou2 dau2"]}
+{"id":"greetings.11","lesson":"greetings","t":"fill","q":"唔使__。","o":["好意思","早晨","拜拜"],"a":["客氣","多謝","唔該","haak3 hei3","do1 ze6","m4 goi1"],"xr":["hou2 ji3 si1","zou2 san4","baai1 baai3"]}
+{"id":"greetings.12","lesson":"greetings","t":"type","a":["多謝","多謝 晒","do1 ze6","do1 ze6 saai3"],"x":["唔該"],"hint":{"yue":"多謝","sep":" · "},"xr":["m4 goi1"]}
+{"id":"greetings.13","lesson":"greetings","t":"type","a":["m4 goi1"],"x":["goi3"],"strict":true}
+{"id":"greetings.14","lesson":"greetings","t":"type","a":["唔該 一 杯 咖啡","m4 goi1 jat1 bui1 gaa3 fe1"],"x":["個"],"hint":{"yue":"唔該 · 一 · 杯","sep":" · "},"xr":["go3"]}
 {"id":"hai.01","lesson":"hai","t":"mc","o":["我係學生。","我學生係。","我係一學生。","係我學生。"]}
 {"id":"hai.02","lesson":"hai","t":"mc","o":[null,null,null,null]}
 {"id":"hai.03","lesson":"hai","t":"mc","o":["佢好攰。","佢係攰。","佢攰係。","係佢攰。"]}

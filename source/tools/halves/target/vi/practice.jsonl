@@ -1,0 +1,392 @@
+{"id":"alphabet.01","lesson":"alphabet","t":"mc","o":["rau","đi","tôi","thơm"]}
+{"id":"alphabet.02","lesson":"alphabet","t":"mc","o":["xe","cho","nhà","khô"]}
+{"id":"alphabet.03","lesson":"alphabet","t":"mc","o":[null,null,null,null]}
+{"id":"alphabet.04","lesson":"alphabet","t":"mc","o":["fer?","foh?","per?","fohr?"]}
+{"id":"alphabet.05","lesson":"alphabet","t":"mc","o":["thơm","tôi","to","tư"]}
+{"id":"alphabet.06","lesson":"alphabet","t":"order","a":["Tôi","đi","chơi"],"x":["di"]}
+{"id":"alphabet.07","lesson":"alphabet","t":"order","a":["Tôi","ăn","cơm"],"x":["an","com"]}
+{"id":"alphabet.08","lesson":"alphabet","t":"order","a":["Tôi","đi","xe"],"x":["se"]}
+{"id":"alphabet.09","lesson":"alphabet","t":"fill","q":"Tôi __i chơi.","o":["d","t","th"],"a":["đ"],"strict":true}
+{"id":"alphabet.10","lesson":"alphabet","t":"fill","q":"Tôi ăn c__m.","o":["o","ô","a"],"a":["ơ"],"strict":true}
+{"id":"alphabet.11","lesson":"alphabet","t":"fill","q":"__à","o":["n","ng","ny"],"a":["nh"]}
+{"id":"alphabet.12","lesson":"alphabet","t":"type","a":["đi chơi"],"x":["di"],"strict":true}
+{"id":"alphabet.13","lesson":"alphabet","t":"type","a":["Tôi ăn"],"x":["an"],"strict":true}
+{"id":"alphabet.14","lesson":"alphabet","t":"type","a":["Tôi đi xe","Tôi đi xe máy"],"x":["se"]}
+{"id":"tones.01","lesson":"tones","t":"mc","o":["bàn","bán","bạn","ban"],"strict":true}
+{"id":"tones.02","lesson":"tones","t":"mc","o":["à","á","ả","ạ"],"strict":true}
+{"id":"tones.03","lesson":"tones","t":"mc","o":[null,null,null,null]}
+{"id":"tones.04","lesson":"tones","t":"mc","o":[null,null,null,null]}
+{"id":"tones.05","lesson":"tones","t":"mc","o":[null,null,null,null]}
+{"id":"tones.06","lesson":"tones","t":"order","a":["Mẹ","bán","bàn"],"x":["bạn"]}
+{"id":"tones.07","lesson":"tones","t":"order","a":["Bạn","tôi","bán","cá"],"x":["ca"]}
+{"id":"tones.08","lesson":"tones","t":"order","a":["Bạn","tôi","bán","bàn"],"x":["tối"]}
+{"id":"tones.09","lesson":"tones","t":"fill","q":"Mẹ __ cá.","o":["bàn","bạn","ban"],"a":["bán"],"strict":true}
+{"id":"tones.10","lesson":"tones","t":"fill","q":"Bạn tôi bán __.","o":["bán","bạn","bản"],"a":["bàn"],"strict":true}
+{"id":"tones.11","lesson":"tones","t":"fill","q":"Anh khỏe __?","o":["khống","khổng","khồng"],"a":["không"],"strict":true}
+{"id":"tones.12","lesson":"tones","t":"type","a":["Mẹ bán cá"],"x":["ca","bàn"],"strict":true}
+{"id":"tones.13","lesson":"tones","t":"type","a":["bạn tôi","bạn của tôi"],"x":["bàn"],"strict":true}
+{"id":"tones.14","lesson":"tones","t":"type","a":["Anh khỏe không?","Anh có khỏe không?"],"x":["khoe"],"strict":true}
+{"id":"syllables.01","lesson":"syllables","t":"mc","o":["kem","cem","qem","khem"]}
+{"id":"syllables.02","lesson":"syllables","t":"mc","o":["nghe","nge","ngê","nhe"]}
+{"id":"syllables.03","lesson":"syllables","t":"mc","o":["baing/","bank/","baing_","bahng/"]}
+{"id":"syllables.04","lesson":"syllables","t":"mc","o":[null,null,null,null]}
+{"id":"syllables.05","lesson":"syllables","t":"mc","o":["ngủ","nhà","gà","nủ"]}
+{"id":"syllables.06","lesson":"syllables","t":"order","a":["Tôi","ăn","bánh","mì"],"x":["banh"]}
+{"id":"syllables.07","lesson":"syllables","t":"order","a":["Tôi","học","tiếng","Việt"],"x":["hóc"]}
+{"id":"syllables.08","lesson":"syllables","t":"order","a":["Mẹ","nghe"],"x":["nge"]}
+{"id":"syllables.09","lesson":"syllables","t":"fill","q":"__ế","o":["g","ng","k"],"a":["gh"]}
+{"id":"syllables.10","lesson":"syllables","t":"fill","q":"Tôi h__c.","o":["ó","ò","ỏ"],"a":["ọ"],"strict":true}
+{"id":"syllables.11","lesson":"syllables","t":"fill","q":"Tôi ăn bánh __.","o":["mí","mỉ","mị"],"a":["mì"],"strict":true}
+{"id":"syllables.12","lesson":"syllables","t":"type","a":["tám con mèo"],"x":["tàm"],"strict":true}
+{"id":"syllables.13","lesson":"syllables","t":"type","a":["bánh mì"],"x":["banh"],"strict":true}
+{"id":"syllables.14","lesson":"syllables","t":"type","a":["Tôi ngủ"],"x":["nủ"]}
+{"id":"vowels.01","lesson":"vowels","t":"mc","o":["cơm","com","côm","cam"],"strict":true}
+{"id":"vowels.02","lesson":"vowels","t":"mc","o":["tay","tai","tây","tái"],"strict":true}
+{"id":"vowels.03","lesson":"vowels","t":"mc","o":["ư","u","ơ","ô"],"strict":true}
+{"id":"vowels.04","lesson":"vowels","t":"mc","o":["muốn","mơ","mai","mới"]}
+{"id":"vowels.05","lesson":"vowels","t":"mc","o":[null,null,null,null]}
+{"id":"vowels.06","lesson":"vowels","t":"order","a":["Tôi","uống","sữa"],"x":["sua"]}
+{"id":"vowels.07","lesson":"vowels","t":"order","a":["cơm","gà"],"x":["com"]}
+{"id":"vowels.08","lesson":"vowels","t":"order","a":["Tôi","muốn","ăn"],"x":["an"]}
+{"id":"vowels.09","lesson":"vowels","t":"fill","q":"Tôi uống s__a.","o":["ử","u","ứ"],"a":["ữ"],"strict":true}
+{"id":"vowels.10","lesson":"vowels","t":"fill","q":"Tôi ăn c__m gà.","o":["o","ô","â"],"a":["ơ"],"strict":true}
+{"id":"vowels.11","lesson":"vowels","t":"fill","q":"Tôi __ ăn.","o":["mốn","mướn","muộn"],"a":["muốn"],"strict":true}
+{"id":"vowels.12","lesson":"vowels","t":"type","a":["Tôi uống sữa"],"x":["sửa"],"strict":true}
+{"id":"vowels.13","lesson":"vowels","t":"type","a":["cơm gà"],"x":["com"],"strict":true}
+{"id":"vowels.14","lesson":"vowels","t":"type","a":["Tôi muốn ăn cơm"],"x":["mướn"]}
+{"id":"pronouns.01","lesson":"pronouns","t":"mc","o":["Chào chị.","Chào em.","Chào bà.","Chào bạn."]}
+{"id":"pronouns.02","lesson":"pronouns","t":"mc","o":["Em ơi!","Anh ơi!","Chị ơi!","Ông ơi!"]}
+{"id":"pronouns.03","lesson":"pronouns","t":"mc","o":[null,null,null,null]}
+{"id":"pronouns.04","lesson":"pronouns","t":"mc","o":["Xin lỗi.","Xin chào.","Tạm biệt.","Cảm ơn."]}
+{"id":"pronouns.05","lesson":"pronouns","t":"mc","o":["ạ","ơi","bạn","không"]}
+{"id":"pronouns.06","lesson":"pronouns","t":"order","a":["Chào","chị"],"x":["chi"]}
+{"id":"pronouns.07","lesson":"pronouns","t":"order","a":["Cảm","ơn","anh"],"x":["on"]}
+{"id":"pronouns.08","lesson":"pronouns","t":"order","a":["Em","ơi"],"x":["Anh"]}
+{"id":"pronouns.09","lesson":"pronouns","t":"fill","q":"Chào __.","o":["em","bạn","chị"],"a":["anh"]}
+{"id":"pronouns.10","lesson":"pronouns","t":"fill","q":"Cảm __ chị.","o":["on","ởn","ớn"],"a":["ơn"],"strict":true}
+{"id":"pronouns.11","lesson":"pronouns","t":"fill","q":"__ chào chị ạ.","o":["Chị","Bạn","Ông"],"a":["Em","Tôi"]}
+{"id":"pronouns.12","lesson":"pronouns","t":"type","a":["Em cảm ơn anh","Cảm ơn anh","Cám ơn anh","Em cám ơn anh","Tôi cảm ơn anh","Tôi cám ơn anh","Em cảm ơn anh ạ","Cảm ơn anh ạ","Cám ơn anh ạ","Em cám ơn anh ạ"],"x":["on"],"strict":true}
+{"id":"pronouns.13","lesson":"pronouns","t":"type","a":["Em chào chị","Chào chị","Xin chào chị","Em chào chị ạ","Chào chị ạ","Xin chào chị ạ"],"x":["chi"],"strict":true}
+{"id":"pronouns.14","lesson":"pronouns","t":"type","a":["Em khỏe không?","Em có khỏe không?"],"x":["anh"]}
+{"id":"la.01","lesson":"la","t":"mc","o":["Tôi là giáo viên.","Tôi giáo viên là.","Là tôi giáo viên.","Tôi không giáo viên."]}
+{"id":"la.02","lesson":"la","t":"mc","o":["Tôi không phải là bác sĩ.","Tôi không là bác sĩ.","Tôi là không bác sĩ.","Tôi không bác sĩ là."]}
+{"id":"la.03","lesson":"la","t":"mc","o":["Tôi mệt.","Tôi là mệt.","Tôi phải mệt.","Là tôi mệt."]}
+{"id":"la.04","lesson":"la","t":"mc","o":["chị ấy","nó","chị là","ấy chị"]}
+{"id":"la.05","lesson":"la","t":"mc","o":["chúng tôi","chúng ta","các tôi","những tôi"]}
+{"id":"la.06","lesson":"la","t":"order","a":["Tôi","là","sinh","viên"],"x":["la"]}
+{"id":"la.07","lesson":"la","t":"order","a":["Anh","ấy","không","phải","là","bác","sĩ"],"x":["phái"]}
+{"id":"la.08","lesson":"la","t":"order","a":["Chúng","tôi","là","giáo","viên"],"x":["ta"]}
+{"id":"la.09","lesson":"la","t":"fill","q":"Tôi __ sinh viên.","o":["la","lá","lạ"],"a":["là"],"strict":true}
+{"id":"la.10","lesson":"la","t":"fill","q":"Tôi không __ là bác sĩ.","o":["có","là","đi"],"a":["phải"]}
+{"id":"la.11","lesson":"la","t":"fill","q":"__ ấy là bác sĩ.","o":["Chị","Nó","Tôi"],"a":["Anh"]}
+{"id":"la.12","lesson":"la","t":"type","a":["Tôi là sinh viên"],"x":["la"],"strict":true}
+{"id":"la.13","lesson":"la","t":"type","a":["Tôi không phải là giáo viên","Tôi không phải giáo viên"],"x":["phái"],"strict":true}
+{"id":"la.14","lesson":"la","t":"type","a":["Chị ấy là bác sĩ","Cô ấy là bác sĩ"],"x":["nó"]}
+{"id":"yes-no.01","lesson":"yes-no","t":"mc","o":["Anh có uống cà phê không?","Anh có uống cà phê?","Không anh uống cà phê?","Anh uống không cà phê?"]}
+{"id":"yes-no.02","lesson":"yes-no","t":"mc","o":["Có.","Là.","Chưa.","Không phải."]}
+{"id":"yes-no.03","lesson":"yes-no","t":"mc","o":["Không phải.","Không có.","Có.","Phải."]}
+{"id":"yes-no.04","lesson":"yes-no","t":"mc","o":["Vâng.","Không.","Chưa.","Ơi."]}
+{"id":"yes-no.05","lesson":"yes-no","t":"mc","o":[null,null,null,null]}
+{"id":"yes-no.06","lesson":"yes-no","t":"order","a":["Chị","có","bận","không"],"x":["bạn"]}
+{"id":"yes-no.07","lesson":"yes-no","t":"order","a":["Anh","có","uống","cà","phê","không"],"x":["ca"]}
+{"id":"yes-no.08","lesson":"yes-no","t":"order","a":["Bạn","là","giáo","viên","phải","không"],"x":["phái"]}
+{"id":"yes-no.09","lesson":"yes-no","t":"fill","q":"Chị có bận __?","o":["phải","có","là"],"a":["không"]}
+{"id":"yes-no.10","lesson":"yes-no","t":"fill","q":"Anh là người Mỹ __ không?","o":["có","là","đi"],"a":["phải"]}
+{"id":"yes-no.11","lesson":"yes-no","t":"fill","q":"Anh có uống cà phê không? __, tôi không uống.","o":["Có","Phải","Vâng"],"a":["Không"]}
+{"id":"yes-no.12","lesson":"yes-no","t":"type","a":["Chị có bận không?","Chị bận không?"],"x":["bạn"],"strict":true}
+{"id":"yes-no.13","lesson":"yes-no","t":"type","a":["Em có thích phở không?","Em thích phở không?"],"x":["pho"],"strict":true}
+{"id":"yes-no.14","lesson":"yes-no","t":"type","a":["Bạn là sinh viên phải không?","Bạn có phải là sinh viên không?","Bạn có phải sinh viên không?"],"x":["phái"]}
+{"id":"jobs.01","lesson":"jobs","t":"mc","o":["Tôi là người Mỹ.","Tôi là Mỹ người.","Tôi là tiếng Mỹ.","Tôi người là Mỹ."]}
+{"id":"jobs.02","lesson":"jobs","t":"mc","o":["tiếng Anh","người Anh","Anh tiếng","người tiếng Anh"]}
+{"id":"jobs.03","lesson":"jobs","t":"mc","o":["Chị ấy là người Việt.","Chị ấy là tiếng Việt.","Chị ấy là Việt người.","Chị ấy người Việt là."]}
+{"id":"jobs.04","lesson":"jobs","t":"mc","o":[null,null,null,null]}
+{"id":"jobs.05","lesson":"jobs","t":"mc","o":["Chúng tôi là sinh viên.","Chúng tôi sinh viên là.","Tôi là sinh viên.","Chúng tôi không phải sinh viên."]}
+{"id":"jobs.06","lesson":"jobs","t":"order","a":["Tôi","là","người","Mỹ"],"x":["tiếng"]}
+{"id":"jobs.07","lesson":"jobs","t":"order","a":["Chị","ấy","nói","tiếng","Anh"],"x":["người"]}
+{"id":"jobs.08","lesson":"jobs","t":"order","a":["Anh","làm","nghề","gì"],"x":["là"]}
+{"id":"jobs.09","lesson":"jobs","t":"fill","q":"Tôi là __ Mỹ.","o":["tiếng","nước","là"],"a":["người"]}
+{"id":"jobs.10","lesson":"jobs","t":"fill","q":"Tôi học __ Việt.","o":["người","nước","nói"],"a":["tiếng"]}
+{"id":"jobs.11","lesson":"jobs","t":"fill","q":"Anh làm __ gì?","o":["người","tiếng","là"],"a":["nghề"]}
+{"id":"jobs.12","lesson":"jobs","t":"type","a":["Tôi là người Mỹ"],"x":["tiếng"]}
+{"id":"jobs.13","lesson":"jobs","t":"type","a":["Tôi nói tiếng Anh"],"x":["người"]}
+{"id":"jobs.14","lesson":"jobs","t":"type","a":["Chị làm nghề gì?","Chị làm gì?"],"x":["là"]}
+{"id":"this-that.01","lesson":"this-that","t":"mc","o":["cái bàn này","này cái bàn","cái này bàn","bàn cái này"]}
+{"id":"this-that.02","lesson":"this-that","t":"mc","o":["Đây là bạn tôi.","Này là bạn tôi.","Đây bạn tôi là.","Bạn tôi đây là."]}
+{"id":"this-that.03","lesson":"this-that","t":"mc","o":["con mèo kia","con mèo này","kia con mèo","cái mèo kia"]}
+{"id":"this-that.04","lesson":"this-that","t":"mc","o":["quyển sách này","quyển sách kia","sách quyển này","này quyển sách"]}
+{"id":"this-that.05","lesson":"this-that","t":"mc","o":["Tôi thích cái này.","Tôi thích này.","Tôi thích đây cái.","Tôi thích này cái."]}
+{"id":"this-that.06","lesson":"this-that","t":"order","a":["cái","bàn","này"],"x":["đây"]}
+{"id":"this-that.07","lesson":"this-that","t":"order","a":["quyển","sách","kia"],"x":["con"]}
+{"id":"this-that.08","lesson":"this-that","t":"order","a":["Đây","là","nhà","tôi"],"x":["này"]}
+{"id":"this-that.09","lesson":"this-that","t":"fill","q":"Tôi thích cái áo __.","o":["đây","kia","đó"],"a":["này"]}
+{"id":"this-that.10","lesson":"this-that","t":"fill","q":"__ là bạn tôi, anh Minh.","o":["Này","Kia","Cái"],"a":["Đây"]}
+{"id":"this-that.11","lesson":"this-that","t":"fill","q":"__ mèo này","o":["cái","quyển","chiếc"],"a":["con"]}
+{"id":"this-that.12","lesson":"this-that","t":"type","a":["cái bàn này","bàn này","chiếc bàn này"],"x":["đây"]}
+{"id":"this-that.13","lesson":"this-that","t":"type","a":["cái áo kia","áo kia","chiếc áo kia"],"x":["con"]}
+{"id":"this-that.14","lesson":"this-that","t":"type","a":["Đây là nhà tôi","Đây là nhà của tôi"],"x":["này"]}
+{"id":"adjectives.01","lesson":"adjectives","t":"mc","o":["Phở ngon.","Phở là ngon.","Ngon phở.","Phở ngon là."]}
+{"id":"adjectives.02","lesson":"adjectives","t":"mc","o":["áo đẹp","đẹp áo","áo là đẹp","đẹp là áo"]}
+{"id":"adjectives.03","lesson":"adjectives","t":"mc","o":[null,null,null,null]}
+{"id":"adjectives.04","lesson":"adjectives","t":"mc","o":["Cái áo không đẹp.","Cái áo không phải là đẹp.","Cái áo là không đẹp.","Không cái áo đẹp."]}
+{"id":"adjectives.05","lesson":"adjectives","t":"mc","o":[null,null,null,null]}
+{"id":"adjectives.06","lesson":"adjectives","t":"order","a":["áo","đỏ"],"x":["đó"]}
+{"id":"adjectives.07","lesson":"adjectives","t":"order","a":["Cái","áo","này","rất","đẹp"],"x":["là"]}
+{"id":"adjectives.08","lesson":"adjectives","t":"order","a":["Phở","ngon","lắm"],"x":["là"]}
+{"id":"adjectives.09","lesson":"adjectives","t":"fill","q":"Phở __ ngon.","o":["là","lắm","phải"],"a":["rất"]}
+{"id":"adjectives.10","lesson":"adjectives","t":"fill","q":"Ngon __!","o":["rất","là","không"],"a":["quá","lắm"]}
+{"id":"adjectives.11","lesson":"adjectives","t":"fill","q":"Tôi __ mệt.","o":["không phải","là","phải"],"a":["không"]}
+{"id":"adjectives.12","lesson":"adjectives","t":"type","a":["áo đỏ","cái áo đỏ","chiếc áo đỏ","áo màu đỏ","cái áo màu đỏ","chiếc áo màu đỏ"],"x":["đó"]}
+{"id":"adjectives.13","lesson":"adjectives","t":"type","a":["Cái áo này rất đẹp","Áo này rất đẹp","Chiếc áo này rất đẹp"],"x":["là"]}
+{"id":"adjectives.14","lesson":"adjectives","t":"type","a":["Em không mệt","Tôi không mệt","Em không mệt ạ","Tôi không mệt ạ"],"x":["là"]}
+{"id":"who-what.01","lesson":"who-what","t":"mc","o":["Anh ấy là ai?","Ai anh ấy là?","Anh ấy là gì?","Anh ấy ai là?"]}
+{"id":"who-what.02","lesson":"who-what","t":"mc","o":["Bạn muốn gì?","Gì bạn muốn?","Bạn muốn ai?","Bạn gì muốn?"]}
+{"id":"who-what.03","lesson":"who-what","t":"mc","o":["Ai là giáo viên?","Giáo viên ai là?","Là ai giáo viên?","Ai giáo viên là?"]}
+{"id":"who-what.04","lesson":"who-what","t":"mc","o":["Đây là cái gì?","Cái gì là đây?","Đây là ai?","Gì đây là?"]}
+{"id":"who-what.05","lesson":"who-what","t":"mc","o":["Bạn tên là gì?","Bạn tên là ai?","Tên gì là bạn?","Gì là tên bạn?"]}
+{"id":"who-what.06","lesson":"who-what","t":"order","a":["Bạn","muốn","gì"],"x":["bàn"]}
+{"id":"who-what.07","lesson":"who-what","t":"order","a":["Ai","bán","áo","đỏ"],"x":["con"]}
+{"id":"who-what.08","lesson":"who-what","t":"order","a":["Chị","ấy","muốn","ăn","gì"],"x":["ai"]}
+{"id":"who-what.09","lesson":"who-what","t":"fill","q":"Anh ấy là __?","o":["gì","không","cái"],"a":["ai"]}
+{"id":"who-what.10","lesson":"who-what","t":"fill","q":"Chị muốn ăn __?","o":["ai","không","là"],"a":["gì","cái gì"]}
+{"id":"who-what.11","lesson":"who-what","t":"fill","q":"Bạn tên là __?","o":["gi","ai","gí"],"a":["gì"],"strict":true}
+{"id":"who-what.12","lesson":"who-what","t":"type","a":["Chị ấy là ai?","Cô ấy là ai?"],"x":["la"],"strict":true}
+{"id":"who-what.13","lesson":"who-what","t":"type","a":["Ai muốn cái áo đỏ?","Ai muốn áo đỏ?","Ai muốn chiếc áo đỏ?","Ai muốn cái áo màu đỏ?","Ai muốn áo màu đỏ?"],"x":["con"]}
+{"id":"who-what.14","lesson":"who-what","t":"type","a":["Anh tên là gì?","Tên anh là gì?","Anh tên gì?","Anh tên là gì ạ?"],"x":["ai"]}
+{"id":"numbers.01","lesson":"numbers","t":"mc","o":["mười hai","mươi hai","hai mươi","hai mười"],"strict":true}
+{"id":"numbers.02","lesson":"numbers","t":"mc","o":["hai mươi mốt","hai mươi một","hai mười một","mười hai một"],"strict":true}
+{"id":"numbers.03","lesson":"numbers","t":"mc","o":["mười lăm","mười năm","năm mươi","lăm mười"]}
+{"id":"numbers.04","lesson":"numbers","t":"mc","o":["một trăm","mười mươi","một mươi","trăm một"]}
+{"id":"numbers.05","lesson":"numbers","t":"mc","o":["Em mấy tuổi?","Em là mấy tuổi?","Mấy tuổi em?","Em có mấy tuổi?"]}
+{"id":"numbers.06","lesson":"numbers","t":"order","a":["hai","mươi","lăm"],"x":["mười"]}
+{"id":"numbers.07","lesson":"numbers","t":"order","a":["hai","con","mèo"],"x":["cái"]}
+{"id":"numbers.08","lesson":"numbers","t":"order","a":["Tôi","hai","mươi","mốt","tuổi"],"x":["là","một"]}
+{"id":"numbers.09","lesson":"numbers","t":"fill","q":"Tôi ba mươi __ tuổi.","o":["năm","mười","mốt"],"a":["lăm"]}
+{"id":"numbers.10","lesson":"numbers","t":"fill","q":"Bạn bao __ tuổi?","o":["nhiều","mấy","gì"],"a":["nhiêu"],"strict":true}
+{"id":"numbers.11","lesson":"numbers","t":"fill","q":"hai __ mốt","o":["mười","một","trăm"],"a":["mươi"],"strict":true}
+{"id":"numbers.12","lesson":"numbers","t":"type","a":["ba mươi"],"x":["mười"],"strict":true}
+{"id":"numbers.13","lesson":"numbers","t":"type","a":["ba con mèo"],"x":["cái"]}
+{"id":"numbers.14","lesson":"numbers","t":"type","a":["Anh bao nhiêu tuổi?","Anh bao nhiêu tuổi ạ?"],"x":["bạn"]}
+{"id":"classifiers.01","lesson":"classifiers","t":"mc","o":["ba con mèo","ba mèo","ba cái mèo","con mèo ba"]}
+{"id":"classifiers.02","lesson":"classifiers","t":"mc","o":["một quyển sách","một con sách","một sách quyển","quyển một sách"]}
+{"id":"classifiers.03","lesson":"classifiers","t":"mc","o":["chiếc xe máy này","này chiếc xe máy","chiếc này xe máy","xe máy chiếc này"]}
+{"id":"classifiers.04","lesson":"classifiers","t":"mc","o":["một đôi giày","một giày đôi","đôi một giày","một con giày"]}
+{"id":"classifiers.05","lesson":"classifiers","t":"mc","o":["Tôi thích chó.","Tôi thích cái chó.","Tôi chó thích.","Tôi là thích chó."]}
+{"id":"classifiers.06","lesson":"classifiers","t":"order","a":["bốn","con","chó"],"x":["cái"]}
+{"id":"classifiers.07","lesson":"classifiers","t":"order","a":["quyển","sách","này"],"x":["con"]}
+{"id":"classifiers.08","lesson":"classifiers","t":"order","a":["năm","người","bạn"],"x":["con"]}
+{"id":"classifiers.09","lesson":"classifiers","t":"fill","q":"hai __ mèo này","o":["cái","quyển","chiếc"],"a":["con"]}
+{"id":"classifiers.10","lesson":"classifiers","t":"fill","q":"ba __ sách","o":["con","đôi","người"],"a":["quyển"]}
+{"id":"classifiers.11","lesson":"classifiers","t":"fill","q":"Tôi thích __ gà.","o":["con","cái","quyển"],"a":["thịt"]}
+{"id":"classifiers.12","lesson":"classifiers","t":"type","a":["cái bàn này","bàn này","chiếc bàn này"],"x":["con"]}
+{"id":"classifiers.13","lesson":"classifiers","t":"type","a":["hai cái áo đỏ","hai chiếc áo đỏ","hai cái áo màu đỏ","hai chiếc áo màu đỏ"],"x":["con"]}
+{"id":"classifiers.14","lesson":"classifiers","t":"type","a":["Hai con mèo này đẹp quá!","Hai con mèo này đẹp lắm!","Hai con mèo này rất đẹp!"],"x":["là"]}
+{"id":"co.01","lesson":"co","t":"mc","o":["Tôi không có xe máy.","Tôi có không xe máy.","Tôi không là xe máy.","Không tôi có xe máy."]}
+{"id":"co.02","lesson":"co","t":"mc","o":["Ở đây có wifi.","Ở đây là wifi.","Là wifi ở đây.","Đây có là wifi."]}
+{"id":"co.03","lesson":"co","t":"mc","o":["Anh có phở không?","Anh là phở không?","Anh có phở?","Có anh phở không?"]}
+{"id":"co.04","lesson":"co","t":"mc","o":["Tôi hai mươi tuổi.","Tôi có hai mươi tuổi.","Tôi là hai mươi tuổi.","Tôi có tuổi hai mươi."]}
+{"id":"co.05","lesson":"co","t":"mc","o":["Có.","Là.","Phải.","Mèo là."]}
+{"id":"co.06","lesson":"co","t":"order","a":["Tôi","có","hai","con","mèo"],"x":["cái"]}
+{"id":"co.07","lesson":"co","t":"order","a":["Chị","có","áo","màu","đỏ","không"],"x":["con"]}
+{"id":"co.08","lesson":"co","t":"order","a":["Ở","đây","có","nhà","vệ","sinh","không"],"x":["là"]}
+{"id":"co.09","lesson":"co","t":"fill","q":"Tôi __ có xe máy.","o":["là","phải","gì"],"a":["không"]}
+{"id":"co.10","lesson":"co","t":"fill","q":"Ở đây __ wifi không?","o":["là","ai","gì"],"a":["có"]}
+{"id":"co.11","lesson":"co","t":"fill","q":"Tôi __ hai anh trai.","o":["là","cỏ","co"],"a":["có"],"strict":true}
+{"id":"co.12","lesson":"co","t":"type","a":["Tôi có ba quyển sách."],"x":["con"]}
+{"id":"co.13","lesson":"co","t":"type","a":["Anh có trà đá không?","Anh có trà đá không ạ?"],"x":["tra"],"strict":true}
+{"id":"co.14","lesson":"co","t":"type","a":["Ở đây không có nhà vệ sinh."],"x":["là"]}
+{"id":"cua.01","lesson":"cua","t":"mc","o":["xe máy của anh Minh","anh Minh xe máy","của anh Minh xe máy","xe máy anh Minh của"]}
+{"id":"cua.02","lesson":"cua","t":"mc","o":["nhà tôi","tôi nhà","của tôi nhà","nhà là tôi"]}
+{"id":"cua.03","lesson":"cua","t":"mc","o":["Cái này của ai?","Ai của cái này?","Của ai cái này?","Cái này là ai?"]}
+{"id":"cua.04","lesson":"cua","t":"mc","o":["bạn tôi","tôi bạn","của tôi bạn","tôi của bạn"]}
+{"id":"cua.05","lesson":"cua","t":"mc","o":["Quyển sách này là của tôi.","Quyển sách này là tôi.","Tôi quyển sách này.","Quyển sách này tôi của."]}
+{"id":"cua.06","lesson":"cua","t":"order","a":["quyển","sách","của","chị","Lan"],"x":["con"]}
+{"id":"cua.07","lesson":"cua","t":"order","a":["Cái","áo","đỏ","này","là","của","tôi"],"x":["quyển"]}
+{"id":"cua.08","lesson":"cua","t":"order","a":["Chiếc","xe","máy","này","là","của","ai"],"x":["gì"]}
+{"id":"cua.09","lesson":"cua","t":"fill","q":"Đây là nhà __ anh Minh.","o":["là","có","ai"],"a":["của"]}
+{"id":"cua.10","lesson":"cua","t":"fill","q":"Quyển sách này là của __?","o":["gì","không","cái"],"a":["ai"]}
+{"id":"cua.11","lesson":"cua","t":"fill","q":"__ tôi là giáo viên.","o":["Me","Mè","Bố"],"a":["Mẹ"],"strict":true}
+{"id":"cua.12","lesson":"cua","t":"type","a":["xe máy của bạn tôi","chiếc xe máy của bạn tôi"],"x":["con"]}
+{"id":"cua.13","lesson":"cua","t":"type","a":["Con mèo này là của ai?","Con mèo này của ai?"],"x":["cái"]}
+{"id":"cua.14","lesson":"cua","t":"type","a":["Bố tôi là bác sĩ.","Bố của tôi là bác sĩ."],"x":["bò"],"strict":true}
+{"id":"family.01","lesson":"family","t":"mc","o":["chị gái","em gái","chị trai","gái chị"]}
+{"id":"family.02","lesson":"family","t":"mc","o":["em trai","anh trai","trai em","em gái"]}
+{"id":"family.03","lesson":"family","t":"mc","o":["Cháu chào chú ạ.","Chào bạn.","Em chào em.","Chào chú ấy."]}
+{"id":"family.04","lesson":"family","t":"mc","o":["Bà có khỏe không ạ?","Bạn có khỏe không?","Chị có khỏe không?","Bà có khỏe?"]}
+{"id":"family.05","lesson":"family","t":"mc","o":["các bạn","bạn các","bạn bạn","các bạn ấy"]}
+{"id":"family.06","lesson":"family","t":"order","a":["Tôi","có","một","em","gái"],"x":["gai"]}
+{"id":"family.07","lesson":"family","t":"order","a":["Anh","trai","tôi","có","hai","con","mèo"],"x":["cái"]}
+{"id":"family.08","lesson":"family","t":"order","a":["Cháu","chào","ông","ạ"],"x":["bạn"]}
+{"id":"family.09","lesson":"family","t":"fill","q":"Em __ tôi là sinh viên.","o":["gái","anh","chị"],"a":["trai"]}
+{"id":"family.10","lesson":"family","t":"fill","q":"Cháu chào __ ạ.","o":["bạn","chị","em"],"a":["bà"]}
+{"id":"family.11","lesson":"family","t":"fill","q":"Tôi có hai __ trai.","o":["em","chị","ánh"],"a":["anh"],"strict":true}
+{"id":"family.12","lesson":"family","t":"type","a":["mẹ tôi","mẹ của tôi"],"x":["me"],"strict":true}
+{"id":"family.13","lesson":"family","t":"type","a":["con mèo của bà tôi","mèo của bà tôi"],"x":["cái"]}
+{"id":"family.14","lesson":"family","t":"type","a":["Cháu cảm ơn bà ạ.","Cháu cảm ơn bà.","Cháu cám ơn bà ạ.","Cháu cám ơn bà.","Tôi cảm ơn bà ạ.","Tôi cảm ơn bà.","Tôi cám ơn bà ạ.","Tôi cám ơn bà.","Cảm ơn bà ạ.","Cảm ơn bà.","Cám ơn bà ạ.","Cám ơn bà."],"x":["bạn"]}
+{"id":"compare.01","lesson":"compare","t":"mc","o":["lạnh hơn","hơn lạnh","rất lạnh hơn","lạnh nhất"]}
+{"id":"compare.02","lesson":"compare","t":"mc","o":["ngon nhất","nhất ngon","ngon hơn","rất nhất ngon"]}
+{"id":"compare.03","lesson":"compare","t":"mc","o":["Cái áo này đắt hơn cái áo kia.","Cái áo này là đắt hơn cái áo kia.","Cái áo này hơn đắt cái áo kia.","Này cái áo đắt hơn kia cái áo."]}
+{"id":"compare.04","lesson":"compare","t":"mc","o":["Huế không lớn bằng Hà Nội.","Huế không bằng lớn Hà Nội.","Huế không là lớn bằng Hà Nội.","Huế bằng không lớn Hà Nội."]}
+{"id":"compare.05","lesson":"compare","t":"mc","o":["Anh trai tôi cao bằng bố tôi.","Anh trai tôi cao hơn bố tôi.","Anh trai tôi bằng cao bố tôi.","Tôi anh trai cao bằng tôi bố."]}
+{"id":"compare.06","lesson":"compare","t":"order","a":["quán","phở","ngon","nhất"],"x":["con"]}
+{"id":"compare.07","lesson":"compare","t":"order","a":["Cái","áo","này","rẻ","hơn"],"x":["con"]}
+{"id":"compare.08","lesson":"compare","t":"order","a":["Hà Nội","lạnh","hơn","Sài Gòn"],"x":["là"]}
+{"id":"compare.09","lesson":"compare","t":"fill","q":"Phở ở đây ngon __.","o":["hơn","bằng","rất"],"a":["nhất"]}
+{"id":"compare.10","lesson":"compare","t":"fill","q":"Tôi cao __ anh ấy.","o":["nhất","bằng","rất"],"a":["hơn"]}
+{"id":"compare.11","lesson":"compare","t":"fill","q":"Em gái tôi cao __ tôi.","o":["hơn","nhất","bàng"],"a":["bằng"],"strict":true}
+{"id":"compare.12","lesson":"compare","t":"type","a":["cái áo rẻ nhất","áo rẻ nhất","chiếc áo rẻ nhất"],"x":["con"]}
+{"id":"compare.13","lesson":"compare","t":"type","a":["Sài Gòn nóng hơn Hà Nội."],"x":["nòng"],"strict":true}
+{"id":"compare.14","lesson":"compare","t":"type","a":["Mẹ tôi cao hơn bố tôi.","Mẹ của tôi cao hơn bố của tôi."],"x":["là"]}
+{"id":"verbs.01","lesson":"verbs","t":"mc","o":["Tôi đang học tiếng Việt.","Tôi đã đang học tiếng Việt.","Tôi học đang tiếng Việt.","Tôi là học tiếng Việt."]}
+{"id":"verbs.02","lesson":"verbs","t":"mc","o":["Tôi sẽ đi Hội An.","Tôi đi sẽ Hội An.","Tôi đã đi Hội An.","Tôi sẽ là đi Hội An."]}
+{"id":"verbs.03","lesson":"verbs","t":"mc","o":["Hôm qua tôi không đi làm.","Hôm qua tôi đi không làm.","Hôm qua không tôi đi làm.","Hôm qua tôi đi làm không."]}
+{"id":"verbs.04","lesson":"verbs","t":"mc","o":["hôm qua","ngày mai","bây giờ","hôm nay"]}
+{"id":"verbs.05","lesson":"verbs","t":"mc","o":["Bây giờ anh Minh đang ăn.","Bây giờ anh Minh đã ăn.","Bây giờ anh Minh sẽ ăn.","Bây giờ anh Minh ăn đang."]}
+{"id":"verbs.06","lesson":"verbs","t":"order","a":["Hôm","qua","tôi","mua","áo","đỏ"],"x":["đó"]}
+{"id":"verbs.07","lesson":"verbs","t":"order","a":["Tôi","đang","học","tiếng","Việt"],"x":["hóc"]}
+{"id":"verbs.08","lesson":"verbs","t":"order","a":["Ngày","mai","tôi","sẽ","không","đi"],"x":["đã"]}
+{"id":"verbs.09","lesson":"verbs","t":"fill","q":"Hôm qua tôi __ đi chợ.","o":["đang","sẽ","là"],"a":["không"]}
+{"id":"verbs.10","lesson":"verbs","t":"fill","q":"Bây giờ tôi __ học tiếng Việt.","o":["sẽ","đã","đăng"],"a":["đang"],"strict":true}
+{"id":"verbs.11","lesson":"verbs","t":"fill","q":"Ngày mai chị Lan __ đi Huế.","o":["đã","đang","se"],"a":["sẽ"],"strict":true}
+{"id":"verbs.12","lesson":"verbs","t":"type","a":["Hôm qua tôi mua hai quyển sách.","Tôi mua hai quyển sách hôm qua.","Hôm qua tôi đã mua hai quyển sách.","Tôi đã mua hai quyển sách hôm qua."],"x":["con"]}
+{"id":"verbs.13","lesson":"verbs","t":"type","a":["Tôi đang ăn cơm."],"x":["com"],"strict":true}
+{"id":"verbs.14","lesson":"verbs","t":"type","a":["Ngày mai tôi sẽ đi Hà Nội.","Tôi sẽ đi Hà Nội ngày mai.","Ngày mai tôi đi Hà Nội.","Tôi đi Hà Nội ngày mai."],"x":["đã"]}
+{"id":"want-like.01","lesson":"want-like","t":"mc","o":["Tôi muốn uống cà phê.","Tôi muốn để uống cà phê.","Tôi uống muốn cà phê.","Tôi muốn cà phê uống."]}
+{"id":"want-like.02","lesson":"want-like","t":"mc","o":["Tôi cần hai vé.","Tôi cần để hai vé.","Tôi hai vé cần.","Tôi là cần hai vé."]}
+{"id":"want-like.03","lesson":"want-like","t":"mc","o":["Tôi không muốn đi.","Không tôi muốn đi.","Tôi không muốn để đi.","Tôi đi không muốn."]}
+{"id":"want-like.04","lesson":"want-like","t":"mc","o":["Cho tôi hai bát phở.","Cho tôi hai phở bát.","Cho hai bát tôi phở.","Tôi cho hai bát phở."]}
+{"id":"want-like.05","lesson":"want-like","t":"mc","o":["Bạn có thích cà phê Việt Nam không?","Bạn thích cà phê Việt Nam?","Bạn có thích Việt Nam cà phê không?","Bạn là thích cà phê Việt Nam không?"]}
+{"id":"want-like.06","lesson":"want-like","t":"order","a":["Cho","tôi","hai","bát","phở","bò"],"x":["con"]}
+{"id":"want-like.07","lesson":"want-like","t":"order","a":["Cho","em","một","cốc","trà","đá"],"x":["tra"]}
+{"id":"want-like.08","lesson":"want-like","t":"order","a":["Tôi","muốn","ăn","bánh","mì"],"x":["để"]}
+{"id":"want-like.09","lesson":"want-like","t":"fill","q":"Tôi __ ăn phở.","o":["để","là","có"],"a":["muốn"]}
+{"id":"want-like.10","lesson":"want-like","t":"fill","q":"Chị ấy __ thích bia.","o":["là","để","gì"],"a":["không"]}
+{"id":"want-like.11","lesson":"want-like","t":"fill","q":"Cho em hai __ phở bò.","o":["con","quyển","bạt"],"a":["bát"],"strict":true}
+{"id":"want-like.12","lesson":"want-like","t":"type","a":["Cho tôi hai cốc cà phê đá.","Cho tôi hai ly cà phê đá.","Cho tôi hai cốc cà phê đá ạ.","Cho tôi hai ly cà phê đá ạ."],"x":["con"]}
+{"id":"want-like.13","lesson":"want-like","t":"type","a":["Tôi rất thích phở bò.","Tôi thích phở bò lắm."],"x":["bó"],"strict":true}
+{"id":"want-like.14","lesson":"want-like","t":"type","a":["Em muốn uống gì?"],"x":["bạn"]}
+{"id":"location.01","lesson":"location","t":"mc","o":["Tôi sống ở Hà Nội.","Tôi là sống ở Hà Nội.","Tôi sống là Hà Nội.","Ở tôi sống Hà Nội."]}
+{"id":"location.02","lesson":"location","t":"mc","o":["Nhà vệ sinh ở đâu?","Ở đâu nhà vệ sinh?","Đâu nhà vệ sinh ở?","Nhà vệ sinh là đâu?"]}
+{"id":"location.03","lesson":"location","t":"mc","o":["dưới","trên","trong","sau"]}
+{"id":"location.04","lesson":"location","t":"mc","o":[null,null,null,null]}
+{"id":"location.05","lesson":"location","t":"mc","o":["Khách sạn ở bên cạnh ngân hàng.","Khách sạn là bên cạnh ngân hàng.","Khách sạn bên cạnh ở ngân hàng.","Ngân hàng ở khách sạn bên cạnh."]}
+{"id":"location.06","lesson":"location","t":"order","a":["Con","mèo","ở","dưới","ghế"],"x":["cái"]}
+{"id":"location.07","lesson":"location","t":"order","a":["Nhà","tôi","ở","Hà Nội"],"x":["nha"]}
+{"id":"location.08","lesson":"location","t":"order","a":["Ngân hàng","ở","đâu"],"x":["là"]}
+{"id":"location.09","lesson":"location","t":"fill","q":"Tôi __ Hà Nội.","o":["là","có","đâu"],"a":["ở"]}
+{"id":"location.10","lesson":"location","t":"fill","q":"Quyển sách ở __ bàn.","o":["dưới","trong","sau"],"a":["trên"]}
+{"id":"location.11","lesson":"location","t":"fill","q":"Chợ ở __?","o":["đầu","dâu","gì"],"a":["đâu"],"strict":true}
+{"id":"location.12","lesson":"location","t":"type","a":["Chợ ở đâu?"],"x":["chờ"],"strict":true}
+{"id":"location.13","lesson":"location","t":"type","a":["Quyển sách này ở trên bàn.","Sách này ở trên bàn."],"x":["con"]}
+{"id":"location.14","lesson":"location","t":"type","a":["Chị sống ở đâu?","Chị ở đâu?","Nhà chị ở đâu?","Chị sống ở đâu ạ?","Chị ở đâu ạ?","Nhà chị ở đâu ạ?"],"x":["bạn"]}
+{"id":"biet.01","lesson":"biet","t":"mc","o":["Tôi biết bơi.","Tôi bơi biết.","Tôi là biết bơi.","Biết tôi bơi."]}
+{"id":"biet.02","lesson":"biet","t":"mc","o":["Tôi không biết.","Tôi biết không.","Tôi không là biết.","Không tôi biết."]}
+{"id":"biet.03","lesson":"biet","t":"mc","o":[null,null,null,null]}
+{"id":"biet.04","lesson":"biet","t":"mc","o":["Tôi không biết lái xe.","Tôi biết lái xe không.","Tôi không lái biết xe.","Không biết tôi lái xe."]}
+{"id":"biet.05","lesson":"biet","t":"mc","o":["Có, tôi biết nói tiếng Anh.","Có, tôi là biết nói tiếng Anh.","Có, tôi biết được không.","Không, tôi biết."]}
+{"id":"biet.06","lesson":"biet","t":"order","a":["Tôi","biết","nói","tiếng","Việt"],"x":["viết"]}
+{"id":"biet.07","lesson":"biet","t":"order","a":["Con","mèo","của","tôi","biết","bơi"],"x":["cái"]}
+{"id":"biet.08","lesson":"biet","t":"order","a":["Tôi","không","biết","nấu ăn"],"x":["là"]}
+{"id":"biet.09","lesson":"biet","t":"fill","q":"Tôi __ bơi.","o":["là","có","được"],"a":["biết"]}
+{"id":"biet.10","lesson":"biet","t":"fill","q":"Ở đây chụp ảnh __ không?","o":["biết","có thể","là"],"a":["được"]}
+{"id":"biet.11","lesson":"biet","t":"fill","q":"Tôi không __ lái xe.","o":["biệt","là","có"],"a":["biết"],"strict":true}
+{"id":"biet.12","lesson":"biet","t":"type","a":["Tôi biết nói tiếng Việt.","Tôi biết tiếng Việt."],"x":["viết"],"strict":true}
+{"id":"biet.13","lesson":"biet","t":"type","a":["Tôi không biết lái xe."],"x":["biệt"],"strict":true}
+{"id":"biet.14","lesson":"biet","t":"type","a":["Anh có biết nói tiếng Anh không?","Anh biết nói tiếng Anh không?","Anh có biết tiếng Anh không?","Anh biết tiếng Anh không?","Anh có biết nói tiếng Anh không ạ?","Anh biết nói tiếng Anh không ạ?","Anh có biết tiếng Anh không ạ?","Anh biết tiếng Anh không ạ?"],"x":["bạn"]}
+{"id":"chua.01","lesson":"chua","t":"mc","o":["Anh ăn cơm chưa?","Chưa anh ăn cơm?","Anh ăn chưa cơm?","Anh chưa cơm ăn?"]}
+{"id":"chua.02","lesson":"chua","t":"mc","o":["Chưa.","Không.","Rồi.","Có."]}
+{"id":"chua.03","lesson":"chua","t":"mc","o":[null,null,null,null]}
+{"id":"chua.04","lesson":"chua","t":"mc","o":["chưa","chua","chứa","chừa"],"strict":true}
+{"id":"chua.05","lesson":"chua","t":"mc","o":[null,null,null,null]}
+{"id":"chua.06","lesson":"chua","t":"order","a":["Tôi","chưa","ăn"],"x":["chua"]}
+{"id":"chua.07","lesson":"chua","t":"order","a":["Tôi","mua","áo","đỏ","rồi"],"x":["đó"]}
+{"id":"chua.08","lesson":"chua","t":"order","a":["Chị","đi","Hội An","chưa"],"x":["không"]}
+{"id":"chua.09","lesson":"chua","t":"fill","q":"Anh ăn cơm __?","o":["không","đã","là"],"a":["chưa"]}
+{"id":"chua.10","lesson":"chua","t":"fill","q":"Tôi __ ăn.","o":["chua","chứa","không"],"a":["chưa"],"strict":true}
+{"id":"chua.11","lesson":"chua","t":"fill","q":"Rồi, tôi ăn __.","o":["chưa","không","đang"],"a":["rồi"]}
+{"id":"chua.12","lesson":"chua","t":"type","a":["Tôi chưa ăn.","Tôi chưa ăn cơm."],"x":["chua"],"strict":true}
+{"id":"chua.13","lesson":"chua","t":"type","a":["Tôi đọc quyển sách này rồi.","Tôi đã đọc quyển sách này rồi.","Tôi đọc sách này rồi.","Tôi đã đọc sách này rồi."],"x":["con"]}
+{"id":"chua.14","lesson":"chua","t":"type","a":["Bà ăn cơm chưa?","Bà đã ăn cơm chưa?","Bà ăn cơm chưa ạ?","Bà đã ăn cơm chưa ạ?","Bà ăn chưa?","Bà ăn chưa ạ?","Bà đã ăn chưa?","Bà đã ăn chưa ạ?"],"x":["bạn"]}
+{"id":"motion.01","lesson":"motion","t":"mc","o":["Ngày mai tôi đi Huế.","Ngày mai tôi đi cho Huế.","Ngày mai tôi là đi Huế.","Ngày mai Huế tôi đi."]}
+{"id":"motion.02","lesson":"motion","t":"mc","o":[null,null,null,null]}
+{"id":"motion.03","lesson":"motion","t":"mc","o":["với","bằng","về","đến"]}
+{"id":"motion.04","lesson":"motion","t":"mc","o":["Tôi đi Huế bằng tàu.","Tôi đi Huế với tàu.","Tôi bằng tàu đi Huế.","Tôi đi bằng Huế tàu."]}
+{"id":"motion.05","lesson":"motion","t":"mc","o":[null,null,null,null]}
+{"id":"motion.06","lesson":"motion","t":"order","a":["Tôi","về","nhà"],"x":["vẽ"]}
+{"id":"motion.07","lesson":"motion","t":"order","a":["Xe buýt","này","đi","Hồ Gươm"],"x":["quyển"]}
+{"id":"motion.08","lesson":"motion","t":"order","a":["Tôi","đi làm","bằng","xe máy"],"x":["với"]}
+{"id":"motion.09","lesson":"motion","t":"fill","q":"Tôi đi Huế __ tàu.","o":["với","về","đến"],"a":["bằng"]}
+{"id":"motion.10","lesson":"motion","t":"fill","q":"Bây giờ tôi __ nhà.","o":["vẽ","vệ","là"],"a":["về"],"strict":true}
+{"id":"motion.11","lesson":"motion","t":"fill","q":"Ngày mai anh ấy __ Hà Nội.","o":["ở","bằng","với"],"a":["đến","tới"]}
+{"id":"motion.12","lesson":"motion","t":"type","a":["Tôi về nhà.","Tôi đi về nhà.","Tôi đang về nhà."],"x":["vẽ"],"strict":true}
+{"id":"motion.13","lesson":"motion","t":"type","a":["Xe buýt này đi Hồ Gươm.","Chiếc xe buýt này đi Hồ Gươm.","Xe buýt này đến Hồ Gươm.","Xe buýt này tới Hồ Gươm."],"x":["quyển"]}
+{"id":"motion.14","lesson":"motion","t":"type","a":["Anh đi đâu?","Anh đang đi đâu?","Anh đi đâu đấy?","Anh đi đâu thế?","Anh đi đâu ạ?","Anh đang đi đâu ạ?","Anh đi đâu đấy ạ?"],"x":["bạn"]}
+{"id":"prices.01","lesson":"prices","t":"mc","o":["Cái này bao nhiêu tiền?","Bao nhiêu cái này tiền?","Cái này là bao nhiêu tiền không?","Này cái bao nhiêu tiền?"]}
+{"id":"prices.02","lesson":"prices","t":"mc","o":["năm mươi nghìn đồng","năm mười nghìn đồng","lăm mươi nghìn đồng","năm nghìn mươi đồng"],"strict":true}
+{"id":"prices.03","lesson":"prices","t":"mc","o":[null,null,null,null]}
+{"id":"prices.04","lesson":"prices","t":"mc","o":["Bớt một chút được không?","Tôi lấy cái này.","Rẻ quá!","Tôi chỉ xem thôi."]}
+{"id":"prices.05","lesson":"prices","t":"mc","o":["quần màu đen","đen quần","màu đen quần","quần đen màu"]}
+{"id":"prices.06","lesson":"prices","t":"order","a":["cái","áo","đỏ","này"],"x":["con"]}
+{"id":"prices.07","lesson":"prices","t":"order","a":["Bát","phở","này","năm mươi","nghìn"],"x":["phố"]}
+{"id":"prices.08","lesson":"prices","t":"order","a":["Hai trăm nghìn","được","không"],"x":["là"]}
+{"id":"prices.09","lesson":"prices","t":"fill","q":"Cái này bao nhiêu __?","o":["tuổi","cái","giờ"],"a":["tiền"]}
+{"id":"prices.10","lesson":"prices","t":"fill","q":"Hai trăm __ được không?","o":["mươi","mười","trăm"],"a":["nghìn"]}
+{"id":"prices.11","lesson":"prices","t":"fill","q":"__ quá!","o":["Rể","Rễ","Đắt"],"a":["Rẻ"],"strict":true}
+{"id":"prices.12","lesson":"prices","t":"type","a":["quần đen","quần màu đen","cái quần đen","cái quần màu đen","chiếc quần đen","chiếc quần màu đen"],"x":["con"]}
+{"id":"prices.13","lesson":"prices","t":"type","a":["Cái này đắt quá!"],"x":["đặt"],"strict":true}
+{"id":"prices.14","lesson":"prices","t":"type","a":["Chị có áo màu đen không?","Chị có áo đen không?","Chị có cái áo màu đen không?","Chị có cái áo đen không?","Chị có áo màu đen không ạ?","Chị có áo đen không ạ?","Chị có cái áo màu đen không ạ?","Chị có cái áo đen không ạ?"],"x":["bạn"]}
+{"id":"directions.01","lesson":"directions","t":"mc","o":["Rẽ trái.","Rẽ phải.","Đi thẳng.","Trái rẽ."]}
+{"id":"directions.02","lesson":"directions","t":"mc","o":["Có xa không?","Có gần không?","Xa có không?","Là xa không?"]}
+{"id":"directions.03","lesson":"directions","t":"mc","o":[null,null,null,null]}
+{"id":"directions.04","lesson":"directions","t":"mc","o":["Anh chỉ đường giúp em được không?","Bạn chỉ đường giúp tôi được không?","Anh chỉ đường giúp em không được?","Chỉ đường anh giúp em được không?"]}
+{"id":"directions.05","lesson":"directions","t":"mc","o":["Cho tôi đến sân bay.","Cho sân bay tôi đến.","Tôi cho đến sân bay.","Cho tôi sân bay đến."]}
+{"id":"directions.06","lesson":"directions","t":"order","a":["Đi","thẳng","rồi","rẽ","phải"],"x":["phái"]}
+{"id":"directions.07","lesson":"directions","t":"order","a":["Cho","tôi","đến","khách sạn","này"],"x":["con"]}
+{"id":"directions.08","lesson":"directions","t":"order","a":["Sân bay","cách","đây","bao xa"],"x":["là"]}
+{"id":"directions.09","lesson":"directions","t":"fill","q":"Đi thẳng rồi rẽ __.","o":["phải","thẳng","gần"],"a":["trái"]}
+{"id":"directions.10","lesson":"directions","t":"fill","q":"Chợ cách đây bao __?","o":["gần","lâu","đâu"],"a":["xa"]}
+{"id":"directions.11","lesson":"directions","t":"fill","q":"Cho tôi __ đây.","o":["xương","xuồng","lên"],"a":["xuống"],"strict":true}
+{"id":"directions.12","lesson":"directions","t":"type","a":["Rẽ phải."],"x":["phái"],"strict":true}
+{"id":"directions.13","lesson":"directions","t":"type","a":["Khách sạn này có xa không?","Khách sạn này xa không?"],"x":["con"]}
+{"id":"directions.14","lesson":"directions","t":"type","a":["Chị chỉ đường giúp em được không?","Chị chỉ đường giúp tôi được không?","Chị chỉ đường giúp em được không ạ?","Chị chỉ đường giúp tôi được không ạ?","Chị chỉ đường cho em được không?","Chị chỉ đường cho tôi được không?","Chị chỉ đường cho em được không ạ?","Chị chỉ đường cho tôi được không ạ?"],"x":["bạn"]}
+{"id":"time.01","lesson":"time","t":"mc","o":["Bây giờ là mấy giờ?","Bây giờ là thứ mấy?","Mấy giờ là bây giờ?","Giờ mấy là bây giờ?"]}
+{"id":"time.02","lesson":"time","t":"mc","o":["ba giờ rưỡi","rưỡi ba giờ","ba rưỡi giờ","ba giờ nửa"]}
+{"id":"time.03","lesson":"time","t":"mc","o":["chủ nhật","thứ nhất","thứ bảy","thứ một"]}
+{"id":"time.04","lesson":"time","t":"mc","o":["tối","tôi","tồi","tới"],"strict":true}
+{"id":"time.05","lesson":"time","t":"mc","o":[null,null,null,null]}
+{"id":"time.06","lesson":"time","t":"order","a":["tám","giờ","tối"],"x":["tôi"]}
+{"id":"time.07","lesson":"time","t":"order","a":["mười","giờ","rưỡi"],"x":["mươi"]}
+{"id":"time.08","lesson":"time","t":"order","a":["ngày","mười lăm","tháng","chín"],"x":["là"]}
+{"id":"time.09","lesson":"time","t":"fill","q":"Bây giờ là mấy __?","o":["ngày","tuổi","tiền"],"a":["giờ"]}
+{"id":"time.10","lesson":"time","t":"fill","q":"Hôm nay là __ bảy.","o":["ngày","tháng","chủ"],"a":["thứ"]}
+{"id":"time.11","lesson":"time","t":"fill","q":"Ba giờ __.","o":["rưởi","rười","nửa"],"a":["rưỡi"],"strict":true}
+{"id":"time.12","lesson":"time","t":"type","a":["bảy giờ tối"],"x":["tôi"],"strict":true}
+{"id":"time.13","lesson":"time","t":"type","a":["Mười giờ rưỡi.","Bây giờ là mười giờ rưỡi.","Mười rưỡi."],"x":["mươi"],"strict":true}
+{"id":"time.14","lesson":"time","t":"type","a":["Anh đi làm lúc mấy giờ?","Mấy giờ anh đi làm?","Anh đi làm mấy giờ?","Anh đi làm lúc mấy giờ ạ?","Mấy giờ anh đi làm ạ?","Anh đi làm mấy giờ ạ?"],"x":["bạn"]}
+{"id":"because.01","lesson":"because","t":"mc","o":["Vì tôi bị ốm.","Nên tôi bị ốm.","Tại tôi ốm sao.","Bị tôi ốm."]}
+{"id":"because.02","lesson":"because","t":"mc","o":[null,null,null,null]}
+{"id":"because.03","lesson":"because","t":"mc","o":["Tôi bị đau đầu.","Tôi là đau đầu.","Tôi đầu đau bị.","Đau đầu tôi bị."]}
+{"id":"because.04","lesson":"because","t":"mc","o":["vì … nên","vì … vì","nên … vì","tại sao … nên"]}
+{"id":"because.05","lesson":"because","t":"mc","o":[null,null,null,null]}
+{"id":"because.06","lesson":"because","t":"order","a":["Tôi","bị","ốm"],"x":["ôm"]}
+{"id":"because.07","lesson":"because","t":"order","a":["Vì","trời","mưa","nên","tôi","ở","nhà"],"x":["mua"]}
+{"id":"because.08","lesson":"because","t":"order","a":["Tôi","bị","đau bụng"],"x":["là"]}
+{"id":"because.09","lesson":"because","t":"fill","q":"Vì trời mưa __ tôi ở nhà.","o":["vì","tại sao","là"],"a":["nên"]}
+{"id":"because.10","lesson":"because","t":"fill","q":"Tôi __ đau bụng.","o":["là","được","cần"],"a":["bị"]}
+{"id":"because.11","lesson":"because","t":"fill","q":"__ sao chị không đến?","o":["Tai","Tài","Tải"],"a":["Tại","Vì"],"strict":true}
+{"id":"because.12","lesson":"because","t":"type","a":["Tôi bị ốm.","Tôi ốm."],"x":["ôm"],"strict":true}
+{"id":"because.13","lesson":"because","t":"type","a":["Trời mưa nên tôi ở nhà.","Vì trời mưa nên tôi ở nhà.","Tôi ở nhà vì trời mưa.","Trời đang mưa nên tôi ở nhà.","Vì trời đang mưa nên tôi ở nhà.","Tôi ở nhà vì trời đang mưa."],"x":["mua"],"strict":true}
+{"id":"because.14","lesson":"because","t":"type","a":["Ông có bị đau đầu không?","Ông bị đau đầu không?","Ông có đau đầu không?","Ông đau đầu không?","Ông có bị đau đầu không ạ?","Ông bị đau đầu không ạ?","Ông có đau đầu không ạ?","Ông đau đầu không ạ?"],"x":["bạn"]}
+{"id":"requests.01","lesson":"requests","t":"mc","o":["Cho em xin một cốc nước ạ.","Mời em một cốc nước ạ.","Cho một cốc nước em xin ạ.","Em cho xin một nước cốc ạ."]}
+{"id":"requests.02","lesson":"requests","t":"mc","o":[null,null,null,null]}
+{"id":"requests.03","lesson":"requests","t":"mc","o":["nhé","ạ","không","chưa"]}
+{"id":"requests.04","lesson":"requests","t":"mc","o":["Dạ.","Ừ.","Không.","Gì?"]}
+{"id":"requests.05","lesson":"requests","t":"mc","o":["Chị ơi, cho em hỏi.","Chị ơi, mời em hỏi.","Em ơi, cho chị hỏi.","Chị ơi, cho hỏi em."]}
+{"id":"requests.06","lesson":"requests","t":"order","a":["Cho","em","một","ly","cà","phê"],"x":["ca"]}
+{"id":"requests.07","lesson":"requests","t":"order","a":["Cho","em","hai","cốc","trà","đá"],"x":["con"]}
+{"id":"requests.08","lesson":"requests","t":"order","a":["Mời","cô","ngồi"],"x":["Cho"]}
+{"id":"requests.09","lesson":"requests","t":"fill","q":"__ anh ngồi.","o":["Cho","Được","Làm ơn"],"a":["Mời"]}
+{"id":"requests.10","lesson":"requests","t":"fill","q":"Chị đợi em một chút __.","o":["chưa","gì","rồi"],"a":["nhé"]}
+{"id":"requests.11","lesson":"requests","t":"fill","q":"Cảm ơn chị __.","o":["à","á","a"],"a":["ạ"],"strict":true}
+{"id":"requests.12","lesson":"requests","t":"type","a":["Cho em hai cốc trà đá ạ.","Cho em hai ly trà đá ạ.","Cho tôi hai cốc trà đá ạ.","Cho tôi hai ly trà đá ạ.","Cho em xin hai cốc trà đá ạ.","Cho em xin hai ly trà đá ạ.","Cho tôi xin hai cốc trà đá ạ.","Cho tôi xin hai ly trà đá ạ."],"x":["tra"],"strict":true}
+{"id":"requests.13","lesson":"requests","t":"type","a":["Cho em một bát phở bò ạ.","Cho tôi một bát phở bò ạ.","Cho em xin một bát phở bò ạ.","Cho tôi xin một bát phở bò ạ."],"x":["con"]}
+{"id":"requests.14","lesson":"requests","t":"type","a":["Anh ơi, cho em hỏi.","Anh ơi, cho em hỏi ạ.","Anh ơi, cho tôi hỏi.","Anh ơi, cho tôi hỏi ạ.","Xin lỗi anh, cho em hỏi.","Xin lỗi anh, cho em hỏi ạ.","Xin lỗi anh, cho tôi hỏi.","Xin lỗi anh, cho tôi hỏi ạ.","Cho em hỏi.","Cho em hỏi ạ.","Cho tôi hỏi.","Cho tôi hỏi ạ."],"x":["bạn"]}

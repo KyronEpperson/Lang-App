@@ -1,6 +1,6 @@
 # Blueprint: making a reusable half for a language
 
-A **reusable half** is everything a course teaches about one language, stored once with permanent ids and no learner language in it. Any native language then attaches to it by translating the learner-facing side. Korean was the first (`tools/halves/target/ko/`), Mandarin the second (`target/zh/`, built 2026-11-24), Cantonese the third (`target/yue/`, built 2026-11-26; `docs/briefs/x-yue-design.md`). This is the recipe for the next ones.
+A **reusable half** is everything a course teaches about one language, stored once with permanent ids and no learner language in it. Any native language then attaches to it by translating the learner-facing side. Korean was the first (`tools/halves/target/ko/`), Mandarin the second (`target/zh/`, built 2026-11-24), Cantonese the third (`target/yue/`, built 2026-11-26; `docs/briefs/x-yue-design.md`), Vietnamese the fourth and the first in "by marks" mode (`target/vi/`, built 2026-11-26; `docs/briefs/x-vi-design.md`). This is the recipe for the next ones.
 
 Background: `docs/HALVES-SPEC.md` (the model; §11 = second target), `docs/briefs/vi-zh-design.md` (what generalising to Mandarin took). Models and reading lists: `docs/MODEL-ROUTING.md`.
 
@@ -15,12 +15,12 @@ Courses unlocked = halves × native languages. One half for Mandarin makes Manda
 | # | Language | Half | Source course | What is left |
 |---|---|---|---|---|
 | 1 | English | Different mechanism, already reusable | `tools/content/<l>/` on a shared English side, held equal by `parity.js` | Nothing: every X → English course already shares one English side. Do not convert it. |
-| 2 | Mandarin | **Done** `target/zh/` | `tools/target/zh/` (en-zh) | First native half in progress: Vietnamese |
+| 2 | Mandarin | **Done** `target/zh/` (re-exported 2026-11-26 with en-zh's foundation lessons) | `tools/target/zh/` (en-zh) | First native half: Vietnamese (`native/vi/zh/`), brought up to date with the foundation rows on 2026-11-26 (`DONE-foundations.jsonl`); vi-zh assembles and validates with 0 errors. |
 | 3 | Hindi | To build `target/hi/` | `tools/target/hi/` (en-hi) | Steps below; see §5 for the script problem |
-| 4 | Spanish | To build `target/es/` | `tools/target/es/` (en-es) | Steps below; §5 is the main work |
+| 4 | Spanish | To build `target/es/` | `tools/target/es/` (en-es) | Steps below. §5 exists since `target/vi/` (marks.jsonl, validator, per-item option classes); what Spanish still needs is its own classifier or explicit source marks (`x-vi-design.md` §5) |
 | 5 | French | To build `target/fr/` | `tools/target/fr/` (en-fr) | Same as Spanish; do it right after, the code is shared |
 
-Korean (`target/ko/`) is done and stays as it is. Outside the top five, **Cantonese is done: `target/yue/`** (third half, from `tools/target/yue/` en-yue; steps 1–4 of §3 passed, the first native half is not scaffolded yet; see `docs/briefs/x-yue-design.md`, including the open "by marks" problem for Han-writing learners). Suggested order: **Spanish → French → Hindi**. Spanish forces the one new piece of design (§5); French then costs little; Hindi needs that same piece plus its pronunciation aid.
+Korean (`target/ko/`) is done and stays as it is. Outside the top five, **Cantonese is done: `target/yue/`** (third half, from `tools/target/yue/` en-yue; steps 1–4 of §3 passed; `validate.js` and `mk_native.js` handle its in-lesson decks and tiles; the first native half is not scaffolded yet; see `docs/briefs/x-yue-design.md`, including the open "by marks" problem for Han-writing learners). **Vietnamese is done: `target/vi/`** (fourth half, from `tools/target/vi/` en-vi; steps 1–4 of §3 passed; the first half in "by marks" mode, §5; 793 English-half fields hold Vietnamese the source does not mark yet, listed in `native/en/vi/unmarked.tsv`; no native half scaffolded; see `docs/briefs/x-vi-design.md`). Suggested order: **Spanish → French → Hindi**. Spanish forces the one new piece of design (§5); French then costs little; Hindi needs that same piece plus its pronunciation aid.
 
 ## 3. The recipe (per target language `<t>`)
 
@@ -53,7 +53,7 @@ Korean and Chinese halves tell the two sides apart by **script**: Hangul or Han 
 - Spanish and French are Latin-script. For an English or Portuguese or Vietnamese speaker learning Spanish, script says nothing.
 - Hindi is Devanagari, which Marathi and Nepali speakers also write.
 
-So these halves need **position, not script**: the half records exactly which fields and which spans inside mixed fields are target text (the card front, the bold spans and example cells in lesson HTML, the answer lists), and the validator checks those spans are unchanged character for character in every native half. In `TARGETS` this is a mode (`by: 'script'` for ko and zh, `by: 'marks'` for the others).
+So these halves need **position, not script**: the half records exactly which fields and which spans inside mixed fields are target text (the card front, the bold spans and example cells in lesson HTML, the answer lists), and the validator checks those spans are unchanged character for character in every native half. In `TARGETS` this is a mode (`by: 'script'` for ko, zh and yue, `by: 'marks'` for the others). **Built 2026-11-26 for vi** (`docs/briefs/x-vi-design.md`): the spans are recorded in `target/<t>/marks.jsonl` and `validate.js` requires each one in every native half; mc / check options are decided once per item from its key answer; unmarked target-looking text is reported in `native/en/<t>/unmarked.tsv`.
 
 Consequences to plan for:
 - Lesson HTML in the source course must mark target-language spans consistently (it mostly does: bold and example cells). The exporter reports unmarked target text; fix the source.
@@ -94,5 +94,5 @@ Reading lists: writers read their brief, the digest, the work file and one finis
 ## 9. What this unlocks, in the owner's order
 
 1. East and Southeast Asian speakers learn Mandarin: native halves for th, id, ja, ko, yue, tl, ceb on `target/zh/` (Vietnamese first).
-2. The same learners get Japanese, Vietnamese and Cantonese once `target/ja/`, `target/vi/`, `target/yue/` exist (`target/yue/` exists since 2026-11-26) (same recipe; ja and yue are script-mode like zh, vi is marks-mode like Spanish).
+2. The same learners get Japanese, Vietnamese and Cantonese once `target/ja/`, `target/vi/`, `target/yue/` exist (`target/yue/` and `target/vi/` exist since 2026-11-26) (same recipe; ja and yue are script-mode like zh, vi is marks-mode like Spanish).
 3. Spanish, French and Hindi for every native language with an interface.

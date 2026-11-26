@@ -1,0 +1,31 @@
+{"id":"vi.d.letters-and-sounds","label":"Letters and sounds","desc":"Words that show each letter value: d, đ, gi, r, x, tr, nh, ng, ph, th, kh, and the vowels ă â ê ô ơ ư"}
+{"id":"vi.d.tone-pairs","label":"Tone pairs","desc":"Same letters, different tone, different word: ma, má, mà; bàn, bán, bạn"}
+{"id":"vi.d.greetings-and-courtesy","label":"Greetings and courtesy","desc":"Hello, goodbye, thank you and sorry, said with the right kinship word"}
+{"id":"vi.d.family-and-kinship","label":"Family and kinship","desc":"Family members, and the same words used for \"you\" and \"I\""}
+{"id":"vi.d.numbers-and-money","label":"Numbers and money","desc":"Numbers to 100 and up, and prices in đồng and nghìn"}
+{"id":"vi.d.classifiers-and-things","label":"Classifiers and things","desc":"Everyday things and animals with their classifier, and this and that"}
+{"id":"vi.d.food-and-drink","label":"Food and drink","desc":"Phở, bánh mì, coffee, and ordering at a street stall or café"}
+{"id":"vi.d.shopping-and-the-market","label":"Shopping and the market","desc":"Do you have…?, colors, haggling and paying"}
+{"id":"vi.d.time-days-and-dates","label":"Time, days and dates","desc":"Clock time, days, months, yesterday and tomorrow, and đã, đang, sẽ"}
+{"id":"vi.d.around-town-and-directions","label":"Around town and directions","desc":"Places in town, where things are, left, right and straight on"}
+{"id":"vi.d.travel-and-transport","label":"Travel and transport","desc":"Motorbike taxis, ride-hailing, buses, trains, tickets and hotels"}
+{"id":"vi.d.work-and-study","label":"Work and study","desc":"Jobs, school, skills and what you can do"}
+{"id":"vi.d.health-and-help","label":"Health and help","desc":"Feeling sick, the pharmacy, and asking for help"}
+{"id":"vi.d.about-me","label":"About me","desc":"Name, nationality, age, job, and where you live"}
+{"id":"vi.d.describing-things","label":"Describing things","desc":"Adjectives for people, places and things, and comparing them"}
+{"id":"vi.d.questions-and-connectors","label":"Questions and connectors","desc":"Question words, yes/no questions, and the words that join sentences"}
+{"id":"vi.d.traps-for-english-speakers","label":"Traps for English speakers","desc":"False friends, calques, and là where English says \"is\""}
+{"id":"vi.d.polite-vietnamese","label":"Polite Vietnamese","desc":"ạ, dạ, vâng, nhé, xin, mời: the small words that make you sound polite"}
+{"id":"vi.d.compliments","label":"Compliments","desc":"Praise food, work, homes and effort, and answer modestly the Vietnamese way"}
+{"id":"vi.d.flirting","label":"Flirting","desc":"Pretty, handsome, charming: the words, the phrases built on them, and kind ways to say yes or no (anh / em forms)"}
+{"id":"vi.d.top-nouns","label":"Top nouns","desc":"The most-used nouns, bare as in a dictionary; to count one, add a classifier (Top classifiers)"}
+{"id":"vi.d.top-verbs","label":"Top verbs","desc":"The most-used verbs; Vietnamese verbs never change form"}
+{"id":"vi.d.top-adjectives","label":"Top adjectives","desc":"The most-used describing words, which work like verbs: no là"}
+{"id":"vi.d.top-adverbs","label":"Top adverbs","desc":"Time markers, degree and frequency: đã, đang, sẽ, cũng, rất, lắm, vẫn"}
+{"id":"vi.d.top-pronouns","label":"Top pronouns","desc":"The kinship address system (anh, chị, em, bác, ông, mình…), with who says it to whom"}
+{"id":"vi.d.top-prepositions","label":"Top prepositions","desc":"của, cho, trong, với, ở, từ, trên and the other place, time and means words"}
+{"id":"vi.d.top-conjunctions","label":"Top conjunctions","desc":"và, để, khi, thì, vì, nên, nếu: the words that join ideas"}
+{"id":"vi.d.top-interjections","label":"Top interjections","desc":"What people really exclaim: Ôi!, Trời ơi!, Thôi chết!, Hú hồn!"}
+{"id":"vi.d.top-words","label":"Top words","desc":"Question words, determiners, yes and no, numbers 11 to 20, days and times"}
+{"id":"vi.d.top-classifiers","label":"Top classifiers","desc":"The counter words that go between a number and a noun: con, cái, chiếc, quả, bát…"}
+{"id":"vi.d.top-particles","label":"Top particles","desc":"The little words at the end of a sentence: ạ, nhé, nhỉ, à, chứ, đấy, cơ"}
