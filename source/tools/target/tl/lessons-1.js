@@ -5,15 +5,24 @@ module.exports = [
     title: "Sounds and spelling",
     blurb: "Read Tagalog aloud from its spelling and from the pronunciation line: the vowels, ng and mga, stress and the catch.",
     deck: "Sounds and spelling",
+    sections: [null, [{"deck": "Sounds and spelling", "n": [7, 8]}, {"deck": "Sounds and spelling", "n": [11, 14]}], [{"deck": "Sounds and spelling", "n": [1, 2]}, {"deck": "Sounds and spelling", "n": [10, 11]}, {"deck": "Sounds and spelling", "n": [16, 17]}], [{"deck": "Sounds and spelling", "n": [0, 1]}, {"deck": "Sounds and spelling", "n": [2, 3]}, {"deck": "Sounds and spelling", "n": [15, 16]}], [{"deck": "Sounds and spelling", "n": [3, 5]}, {"deck": "Sounds and spelling", "n": [6, 7]}], [{"deck": "Sounds and spelling", "n": [8, 10]}, {"deck": "Sounds and spelling", "n": [14, 15]}, {"name": "More spellings", "cards": [["ka", "kah", "the syllable ka", "Tagalog writes the k sound with k, never c: kape, kah-PEH (coffee)."], ["gi", "ghee", "the syllable gi", "g stays hard before i and e, as in go: gising, ghee-SEENG (awake)."], ["sya", "shah", "the syllable sya", "sy before a vowel is said sh: pasensya, pah-SEHN-shah (patience; sorry). siya (he, she) is usually said shah too."], ["dya", "jah", "the syllable dya", "dy is said j: medya, MEH-jah (half), as in alas-singko y medya (half past five)."], ["ña", "nyah", "the syllable ña", "ñ is said ny, as in canyon. It turns up in names and Spanish words: Santo Niño, SAHN-toh NEE-nyoh."]]}], null, [{"deck": "Sounds and spelling", "n": [5, 6]}, {"name": "Whole words", "cards": [["sisiw", "SEE-seew", "chick", "si-siw: iw is an ee that ends in w. Stress the first syllable."], ["kahoy", "KAH-hoy", "wood", "ka-hoy: oy as in boy. Stress the first syllable."], ["sabaw", "sah-BOW", "soup; broth", "sa-baw: aw sounds like the ow in cow. Stress the last syllable."], ["kalabaw", "kah-lah-BOW", "water buffalo", "ka-la-baw: three syllables, each with one vowel sound. Stress the last."], ["paa", "pah-AH", "foot", "pa-a: two vowels side by side are two syllables."], ["tainga", "tah-EE-ngah", "ear", "ta-i-nga: here a and i are two syllables, not the ay of eye; nga starts with the ng of singer. Casual: tenga."], ["ngipin", "ngee-PEEN", "tooth; teeth", "ngi-pin: ng starts the word. Stress the last syllable."], ["unggoy", "oong-GOY", "monkey", "ung-goy: ngg is the ng of singer, then a hard g; oy as in boy."], ["gitara", "ghee-TAH-rah", "guitar", "gi-ta-ra: g stays hard before i; r is one quick tap."], ["bundok", "boon-DOHK", "mountain", "bun-dok: a consonant can close a syllable. Stress the last syllable."], ["bulaklak", "boo-lahk-LAHK", "flower", "bu-lak-lak: three syllables. Stress the last."], ["tsokolate", "choh-koh-LAH-teh", "chocolate", "tso-ko-la-te: ts is ch, and k is written where English has c."], ["dyip", "jeep", "jeepney", "dy is said j. One syllable, so the line has no capitals."], ["radyo", "RAH-joh", "radio", "ra-dyo: r is one quick tap, dy is said j. Stress the first syllable."], ["mali", "mah-LEEQ", "wrong", "ma-li: stress the last syllable; the word ends in a catch."], ["pusa", "POO-sah", "cat", "pu-sa: two open syllables. Stress the first."], ["ulan", "oo-LAHN", "rain", "u-lan: stress the last syllable."], ["puno", "POO-noh", "tree", "pu-no: stress the first syllable. Stressed at the end, with a catch, it means full."]]}]],
     body: `
 <p>Tagalog (Filipinos also call it Filipino, the national language) is written in English letters, and most words are spelled the way they sound. Under every phrase in this course there is a pronunciation line in English letters. Keep it on: Tagalog spelling never shows two things the line does show, stress and the catch.</p>
+<h3>The letters</h3>
+<p>The native alphabet, the <b>abakada</b>, has 20 letters, and <b>ng</b> is one of them. The abakada reads each letter as a syllable: a, ba, ka, da. Tap a letter to hear it.</p>
+{{tiles:a=ah b=bah k=kah d=dah e=eh g=gah h=hah i=ee l=lah m=mah n=nah ng=ngah o=oh p=pah r=rah s=sah t=tah u=oo w=wah y=yah}}
+<p>The Filipino alphabet today adds eight more, for names and borrowed words: <b>c, f, j, ñ, q, v, x, z</b>. Native words do not use them. The q in the pronunciation line is not this letter: it marks the catch, explained below.</p>
+{{tiles:c=k_or_s f=f j=j ñ=ny q=k v=v x=ks z=z}}
 <h3>Five short, pure vowels</h3>
 <p>English vowels slide; Tagalog vowels stay put. The line spells them <i>ah, eh, ee, oh, oo</i>. Two vowel pairs blend: <b>ay</b> sounds like the <i>i</i> in <i>bite</i>, and <b>aw</b> like the <i>ow</i> in <i>cow</i>.</p>
 {{ex:bahay|BAH-hai|house}}
 {{ex:ikaw|ee-KOW|you}}
+<p>Two more pairs blend the same way: <b>oy</b> as in <i>boy</i>, and <b>iw</b>, an ee that ends in w. You will also meet <b>uy</b> (<b>Uy!</b>, hey!) and <b>ey</b> (<b>reyna</b>, queen). Any other two vowels side by side are two syllables: <b>oo</b> (yes) is OH-oh. Tap a vowel or pair to hear it.</p>
+{{tiles:a=ah e=eh i=ee o=oh u=oo ay=ai aw=ow oy=oy iw=eew}}
 <h3>Stress: the CAPITAL syllable</h3>
 <p>One syllable in each word is louder and longer, and the line writes it in CAPITALS. English speakers guess the stress; in Tagalog a wrong guess can make another word. <b>aso</b> stressed on the first syllable is "dog"; stressed at the end (ah-SOH) it means "smoke". The spelling is the same, so learn the stress with each word.</p>
 {{ex:aso|AH-soh|dog}}
+<p>Many words take the stress at the end: <b>kaunti</b> (a little) is kah-oon-TEEQ (the final q is the catch, next section).</p>
 <h3>The catch: q</h3>
 <p>A <b>q</b> at the end of a word in the line is a catch in the throat, the break in "uh-oh". <b>bata</b> with a catch is "child"; with no catch (BAH-tah) it means "robe". You hear the catch before a pause. Inside a sentence it usually drops and the vowel just stretches.</p>
 {{ex:bata|BAH-tahq|child}}
@@ -27,11 +36,16 @@ module.exports = [
 <h3>A few more letters</h3>
 <div class="tbl"><table><tr><th>Spelling</th><th>Sound</th><th>Example</th></tr><tr><td class="k">g</td><td>always hard, as in <i>go</i></td><td class="k">gising (awake)</td></tr><tr><td class="k">r</td><td>one quick tap, like the <i>tt</i> in American <i>butter</i></td><td class="k">aral (lesson)</td></tr><tr><td class="k">ts</td><td><i>ch</i> as in <i>church</i></td><td class="k">tsinelas (flip-flops)</td></tr><tr><td class="k">siya</td><td>usually <i>sha</i>, one syllable</td><td class="k">siya (he, she)</td></tr></table></div>
 {{ex:tsinelas|chee-NEH-lahs|flip-flops}}
+<p>The same habit runs through the spelling: one sound, one way to write it. Outside names, the k sound is written <b>k</b>, as in <b>kape</b> (coffee), and older spellings use <b>p</b> where English has f: <b>Pilipino</b> (Filipino). <b>sy</b> is said sh and <b>dy</b> is said j. <b>ñ</b>, in names and Spanish words, is ny. Tap a syllable to hear it.</p>
+{{tiles:ka gi sya dya ña}}
 <h3>Two small joiners you will see everywhere</h3>
 <p>English puts "big" straight before "house". Tagalog joins them with a linker: <b>-ng</b> on a word that ends in a vowel, <b>na</b> after a consonant. And for "Ana's", Tagalog puts <b>ni</b> before the owner's name, after the thing. Later lessons explain both; for now, read them as one phrase.</p>
 {{ex:malaking bahay|mah-lah-KEENG BAH-hai|a big house}}
 {{ex:maliit na bahay|mah-lee-EET nah BAH-hai|a small house}}
 {{ex:aso ni Ana|AH-soh nee AH-nah|Ana's dog}}
+<h3>Read whole words</h3>
+<p>Now put the pieces together. Cut a word into syllables: each has one vowel sound, often with one consonant before it and sometimes one after, so <b>bulaklak</b> is bu-lak-lak. Give each letter its Tagalog sound, read <b>ng</b> as one letter, and read two vowels side by side as two syllables, unless they are one of the pairs ay, aw, oy, iw (or the rarer uy, ey). The spelling does not show stress or the catch, so take those from the line. Each card's note cuts the word into syllables. Say the word aloud before you flip it.</p>
+{{ex:bulaklak|boo-lahk-LAHK|flower}}
 <p>The line is a map; the voice is the real sound. Listen first, then read along.</p>
 <div class="tip"><b>Most common mistake:</b> reading <b>mga</b> letter by letter. "em-ga bata" → <b>mga bata</b>, said <i>mah-NGAH BAH-tahq</i>, with the ng of <i>singer</i>.</div>
 `,

@@ -22,7 +22,7 @@ const E = (where, msg) => errs.push(where + ': ' + msg);
 const tryR = (s, where, soft) => { try { const r = R.respell(s); R.warnings().forEach(w => warns.push(where + ': ' + w)); return r; } catch (e) { if (soft) warns.push(where + ': ' + e.message + ' (wrong option)'); else E(where, e.message); return null; } };
 const clean = s => String(s).replace(/_{2,}/g, ' ').replace(/\([^()]*\)/g, ' ').trim();
 /* a letter or onset being taught (x, -b, ntxh, "j, v"): not a word, so neither respell nor the glossary applies */
-const isLetters = x => { const ys = String(x).trim().split(/[\s,/]+/).filter(Boolean); return ys.length > 0 && ys.every(y => /^-?[a-z]{1,4}-?$/i.test(y) && RCK.checkToken(y.replace(/-/g, ''), { allow: new Set() }).kind === 'letter'); };
+const isLetters = x => { const ys = String(x).trim().split(/[\s,/]+/).filter(Boolean); return ys.length > 0 && ys.every(y => /^-?[a-z]{1,4}-?$/i.test(y) && (RCK.checkToken(y.replace(/-/g, ''), { allow: new Set() }).kind === 'letter' || /^(a|e|i|o|u|w|ee|oo|ai|au|aw|ia|ua)$/i.test(y))); }; /* FND-1: the 13 RPA vowels are letters being taught too */
 /* every word in the glossary, NEW-WORDS or ALLOW.txt; neighbours that join into a run-together headword count too (daus las = dauslas), as in coverage.js */
 /* multi-word ALLOW entries (St. Paul, Medical Assistance) are masked as whole phrases first, as rpa_check.js tokens() does; their words alone are not in allow.words */
 const escRe = x => x.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');

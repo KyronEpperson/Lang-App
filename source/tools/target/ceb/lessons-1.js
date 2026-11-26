@@ -5,11 +5,17 @@ module.exports = [
     title: "Sounds, spelling and stress",
     blurb: "Read any Cebuano word with the pronunciation line: the three vowels, ng and mga, the catch, and the stressed syllable.",
     deck: "Sounds and spelling",
+    sections: [null, [{"deck": "Sounds and spelling", "n": [12, 13]}, {"deck": "Sounds and spelling", "n": [16, 18]}], null, [{"deck": "Sounds and spelling", "n": [0, 3]}, {"deck": "Sounds and spelling", "n": [11, 12]}, {"deck": "Sounds and spelling", "n": [14, 15]}], [{"deck": "Sounds and spelling", "n": [3, 5]}, {"deck": "Sounds and spelling", "n": [10, 11]}], [{"deck": "Sounds and spelling", "n": [15, 16]}, {"name": "Letters to watch", "cards": [["ay", "ai", "the letters ay", "Like Thai: balay (house), bah-LAI."], ["aw", "ow", "the letters aw", "Like how: sabaw (soup), sah-BOW."], ["uy", "ooy", "the letters uy", "oo gliding into a quick y, like gooey said in one beat: luy-a (ginger), looy-ah."], ["oy", "oy", "the letters oy", "Like boy: baboy (pork; pig), BAH-boy."], ["iw", "eew", "the letters iw", "ee gliding into a quick w. The line writes eew."], ["ts", "ch", "the letters ts", "Said ch when a vowel follows: otso (eight), oh-choh."], ["dy", "j", "the letters dy", "Said j when a vowel follows: dyip (jeepney), jeep."], ["g", "g", "the letter g", "Always hard in Cebuano words, as in go. Before ee or eh the line writes gh: ginikanan (parents), ghee-nee-kah-nahn."], ["r", "r", "the letter r", "A quick tap, like the tt in American butter: diri (here), dee-REE."]]}], null, [{"deck": "Sounds and spelling", "n": [5, 10]}, {"deck": "Sounds and spelling", "n": [13, 14]}, {"name": "Whole words", "cards": [["ulan", "oo-LAHN", "rain", "u-lan: u early in the word, a as in father. Stress on the last syllable."], ["pula", "poo-LAH", "red", "pu-la: two full vowels. Stress on the last syllable, not the first as English would put it."], ["dako", "dah-KOHQ", "big", "da-ko: o in the last syllable. The q is a final catch: stop the breath, add no k."], ["puti", "poo-TEEQ", "white", "pu-ti: p and t with no puff of air. Ends in a catch."], ["gamay", "gah-MAI", "small", "ga-may: g hard, as in go; ay as in Thai."], ["kapoy", "KAH-poy", "tired; tiring", "ka-poy: k with no puff of air; oy as in boy. Stress on the first syllable."], ["uhaw", "oo-HOW", "thirsty", "u-haw: the h is said; aw as in how."], ["bugnaw", "boog-NOW", "cold (things, drinks)", "bug-naw: u early in the word, g hard; aw as in how."], ["hugaw", "HOO-gow", "dirty", "hu-gaw: u early in the word; aw as in how. Stress on the first syllable."], ["tiil", "tee-EEL", "foot; leg", "ti-il: two vowels side by side are two syllables, with a catch between them."], ["tam-is", "TAHM-ees", "sweet (taste)", "tam-is: the hyphen marks a catch before the i."], ["tan-aw", "TAHN-ow", "look; watch", "tan-aw: a catch after the hyphen, then aw as in how."], ["ngipon", "NGEE-pohn", "tooth; teeth", "ngi-pon: ng starts the word, as in singer; o in the last syllable."], ["lungsod", "loong-SOHD", "town", "lung-sod: ng as in singer; u early in the word, o in the last syllable."], ["dagat", "DAH-gaht", "sea", "da-gat: g hard; both a's as in father. Stress on the first syllable."], ["diri", "dee-REE", "here", "di-ri: r is a quick tap. Stress on the last syllable."]]}]],
     body: `
 <p>Cebuano is written in plain English letters, and most of them sound the way you expect. Two things are never written: which syllable is stressed, and a short stop in the throat called the catch. That is why every Cebuano phrase in this course has a pronunciation line under it. This course has no audio, so keep that line switched on.</p>
+<h3>The alphabet</h3>
+<p>The alphabet has 28 letters: the 26 you know, plus <b>ñ</b> and <b>ng</b>, which count as letters of their own. <b>c, f, j, ñ, q, v, x</b> and <b>z</b> turn up only in names and borrowed words, such as <b>Cebu</b> and <b>Santo Niño</b>. Cebuano mostly spells by sound: the letters tell you how to say a word, all but the stress and most catches. The everyday exceptions are <b>mga</b>, said "manga", and names and borrowed words that keep their own spelling, such as <b>Cebu</b>, said seh-BOO. Tap a letter to see its sound. The vowels and <b>ng</b> come in their own sections below.</p>
+{{tiles:b=b c=k_or_s d=d f=f g=g h=h j=h_or_j k=k l=l m=m n=n ñ=ny p=p q=k r=r s=s t=t v=b w=w x=ks y=y z=s}}
 <h3>Three vowel sounds, five letters</h3>
 <p>English has about a dozen vowel sounds and blurs the unstressed ones (the a in "about"). Cebuano has three, and every one stays full.</p>
 <div class="tbl"><table><tr><th>Letter</th><th>Line</th><th>Sounds like</th><th>Example</th></tr><tr><td class="k">a</td><td>ah</td><td><i>father</i></td><td class="k">balay</td></tr><tr><td class="k">i, e</td><td>ee, eh</td><td><i>see</i>; e is mostly in borrowed words</td><td class="k">tubig, kape</td></tr><tr><td class="k">u, o</td><td>oo, oh</td><td><i>food</i>; <i>go</i> with no w at the end</td><td class="k">buntag, maayo</td></tr></table></div>
+<p>Tap a vowel to see its sound.</p>
+{{tiles:a=ah i=ee e=eh u=oo o=oh}}
 <p>Native words write <b>u</b> early in the word and <b>o</b> in the last syllable. Online you will see other spellings of the same words; this course always uses one.</p>
 {{ex:tubig|TOO-beeg|water}}
 <h3>Reading the line</h3>
@@ -17,21 +23,28 @@ module.exports = [
 {{ex:balay|bah-LAI|house}}
 <h3>The catch</h3>
 <p>The catch is the stop in the middle of "uh-oh". Cebuano has it between two vowels: <b>maayo</b> is three syllables, ma-a-yo, not "my-yo". It comes after a hyphen: <b>bag-o</b> (new). And some words end in it; the line writes it as <b>q</b>. Stop the breath sharply and add no k.</p>
+<div class="tbl"><table><tr><th>Where</th><th>Spelling</th><th>Line</th></tr><tr><td>between two vowels</td><td class="k">maayo</td><td>mah-AH-yoh</td></tr><tr><td>after a hyphen</td><td class="k">luy-a</td><td>looy-ah</td></tr><tr><td>at the end of some words</td><td class="k">bata</td><td>BAH-tahq</td></tr></table></div>
 {{ex:maayo|mah-AH-yoh|good; well}}
 {{ex:bata|BAH-tahq|child}}
 <h3>ng and mga</h3>
 <p><b>ng</b> is the sound in "singer", never "finger", and Cebuano can start a word with it. Say "singing", then drop the "si". The plural word <b>mga</b> is said "manga".</p>
 {{ex:ngalan|NGAH-lahn|name}}
 {{ex:mga bata|mah-ngah BAH-tahq|children}}
+{{tiles:ng=ng mga=mah-ngah}}
 <h3>Other letters</h3>
 <p><b>ay</b> sounds like "Thai" and <b>aw</b> like "how"; <b>uy</b>, <b>oy</b> and <b>iw</b> glide the same way (ooy, oy, eew in the line). <b>g</b> is always hard, as in "go"; before ee or eh the line writes gh, so you do not read it as in "gem". <b>ts</b> is said ch and <b>dy</b> is said j. <b>r</b> is a quick tap, like the tt in American "butter". <b>p, t, k</b> have no puff of air: say them as in "spin", not "pin".</p>
 {{ex:otso|oh-choh|eight}}
 {{ex:dyip|jeep|jeepney}}
+<p>Tap a pair to see its sound.</p>
+{{tiles:ay=ai aw=ow uy=ooy oy=oy iw=eew ts=ch dy=j}}
 <h3>My: akong</h3>
 <p>The deck for this lesson pairs words with <b>akong</b>, "my". Like English "my", it goes before the noun, but it always ends in <b>-ng</b>, which joins it to the noun.</p>
 {{ex:akong balay|ah-kohng bah-LAI|my house}}
 {{ex:akong ngalan|ah-kohng NGAH-lahn|my name}}
 <div class="tip"><b>Most common mistake:</b> reading <b>mga</b> letter by letter. <b>m-ga</b> → <b>manga</b>. A close second: <b>ako balay</b> → <b>akong balay</b>.</div>
+<h3>Read whole words</h3>
+<p>Now put the pieces together. First cut the word into syllables: every vowel letter is its own syllable (<b>mga</b>, said manga, is the one everyday exception), so <b>tiil</b> is ti-il, with a catch between the two i's. Then give each letter its Cebuano sound: full vowels, a hard g, ng as in "singer", ay as in "Thai". Last, take from the line the two things the spelling never shows: the stressed syllable in CAPITALS, and a final catch, q. Each card's note takes the word apart. Say it aloud before you flip it.</p>
+{{ex:tiil|tee-EEL|foot; leg}}
 `,
     check: [
       ["In the pronunciation line BAH-tahq (bata, child), what does the q stand for?", ["A catch: the breath stops at the end", "A k sound at the end", "A silent letter", "A long a sound"], 0, "q marks a catch at the end of the word: stop the breath, and add no k."],

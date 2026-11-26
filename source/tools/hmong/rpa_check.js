@@ -172,7 +172,8 @@ function walkPack(c, sink) {
   each(c.DIALOG, (v, k) => { (v || []).forEach((x, i) => put(x, i < v.length - 1 ? 'T' : 'N', `DIALOG{${k}}[${i}]`)); });
   each(c.EXAMPLES, (v, k) => { put(v[0], 'T', `EXAMPLES{${k}}[0]`); put(v[1], 'N', `EXAMPLES{${k}}[1]`); });
   (c.LESSONS || []).forEach((l, i) => { const p = `LESSONS[${i}:${l.id}]`; put(l.title, 'N', p + '.title'); put(l.blurb, 'N', p + '.blurb'); lessonBody(l.body || '', p + '.body', put);
-    Object.keys(l).forEach(k => { if (!['id', 'title', 'blurb', 'deck', 'body'].includes(k)) unknown(p + '.' + k); }); });
+    const secCards = (x, q) => { if (Array.isArray(x)) x.forEach((y, j) => secCards(y, q + '[' + j + ']')); else if (x && typeof x === 'object' && Array.isArray(x.cards)) { put(x.name, 'N', q + '.name'); x.cards.forEach((r, j) => { put(r[0], 'T', q + `.cards[${j}][0]`); put(r[1], 'P', q + `.cards[${j}][1]`); put(r[2], 'N', q + `.cards[${j}][2]`); put(r[3], 'N', q + `.cards[${j}][3]`); }); } }; secCards(l.sections, p + '.sections'); /* FND-1: in-lesson decks are cards like any other; deck names and slices point at DECKS */
+    Object.keys(l).forEach(k => { if (!['id', 'title', 'blurb', 'deck', 'body', 'sections'].includes(k)) unknown(p + '.' + k); }); });
   each(c.CHECKS, (arr, id) => (arr || []).forEach((q, i) => { const p = `CHECKS{${id}}[${i}]`; put(q[0], 'N', p + '[0]'); const ci = typeof q[2] === 'number' ? q[2] : 0;
     (q[1] || []).forEach((o, j) => put(o, j === ci ? 'O' : 'Od', p + `[1][${j}]`)); put(q[3], 'N', p + '[3]'); }));
   each(c.PRACTICE, (arr, id) => (arr || []).forEach((it, i) => { const p = `PRACTICE{${id}}[${i}:${it.t}]`;

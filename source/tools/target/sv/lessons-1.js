@@ -6,8 +6,12 @@ module.exports = [
     title: "Vowels: long, short, and å ä ö u y",
     blurb: "Hear long and short vowels, read å ä ö u y, and use the pronunciation line.",
     deck: "Sounds and spelling",
+    sections: [null, null, [{"deck": "Sounds and spelling", "n": [0, 4]}, {"deck": "Sounds and spelling", "n": [7, 9]}, {"name": "The vowel letters", "cards": [["o", "ooh", "the letter o", "Long o is usually ooh, as in food: en bok, ayn boohk. Short o is usually aw: kom, kawm."], ["u", "ueh", "the letter u", "Long u: purse the lips tight and say ooh with the tongue pushed forward, ueh: ett hus, eht huehs. Short u is uh: en buss, ayn buhs."], ["y", "ew", "the letter y", "Always a vowel: say ee with rounded lips, ew: fyra, FEW-rah."], ["å", "oh", "the letter å", "Long å is a pure oh: gå, goh. Short å is aw, as in law."], ["ä", "ae", "the letter ä", "Long ä is ae, the vowel of bad held long: här, haer. Short ä is eh: ett äpple, eht EHP-leh."], ["ö", "euh", "the letter ö", "Long ö is euh: snö, sneuh. Short ö is ur, and that r is not an r: öppna, URP-nah."]]}], {"deck": "Sounds and spelling", "n": [4, 7]}, {"name": "Whole words", "cards": [["en dag", "ayn dahg", "a day", "d + long a (ah) + g. One consonant after the vowel, so the a is long."], ["en båt", "ayn boht", "a boat", "b + long å (oh) + t. A pure oh, no glide."], ["ett tåg", "eht tohg", "a train", "t + long å (oh) + g. Here the g stays hard."], ["ett år", "eht ohr", "a year", "long å (oh) + r. One consonant after the vowel, so the å is long."], ["en väg", "ayn vaeg", "a road, a way", "v + long ä (ae) + g."], ["röd", "reuhd", "red", "r + long ö (euh) + d."], ["blå", "bloh", "blue", "bl + long å (oh). A vowel at the end of a stressed word is long."], ["tre", "tray", "three", "tr + long e (ay). A pure ay, with no glide into ee."], ["en fot", "ayn fooht", "a foot", "f + long o (ooh) + t. ooh is the vowel of food, not of foot."], ["en stol", "ayn stoohl", "a chair", "st + long o (ooh) + l."], ["en gata", "ayn GAH-tah", "a street", "g + long a (ah) + t + short a. g before a is hard."], ["ett namn", "eht nahmn", "a name", "n + short a (ah) + mn. Two consonants after the vowel, so it is short."], ["ett äpple", "eht EHP-leh", "an apple", "short ä (eh) + pp + l + e. The doubled p makes the ä short."], ["en dörr", "ayn durr", "a door", "d + short ö (ur) + rr. The doubled r makes the ö short."], ["en hund", "ayn huhnd", "a dog", "h + short u (uh) + nd. Two consonants after the vowel, so it is short."], ["en buss", "ayn buhs", "a bus", "b + short u (uh) + ss. The doubled s makes the u short."], ["en syster", "ayn SEWS-tehr", "a sister", "s + short y (ew) + st + er. The stress is on the first syllable."]]}],
     body: `
 <p>Under every Swedish phrase in this course there is a pronunciation line in English letters. The syllable in CAPITALS is the stressed one. A one-syllable word is all lowercase. The line does not mark pitch accent, the rise or fall on a word. Stress, and long versus short, matter more. Do not add tone marks.</p>
+<h3>29 letters</h3>
+<p>Swedish uses the 26 letters you know, plus three more at the end of the alphabet: <i>å</i>, <i>ä</i> and <i>ö</i>. They are letters of their own, not an a or an o with a mark. Most consonants sound as in English, but <i>r</i> is tapped or rolled with the tip of the tongue. <i>j</i> is the <i>y</i> of "yes". <i>c</i>, <i>q</i>, <i>w</i>, <i>x</i> and <i>z</i> turn up mostly in names and borrowed words: <i>c</i> is s before e, i and y, and k elsewhere, <i>q</i> is k, <i>w</i> is v, <i>x</i> is ks, <i>z</i> is s. <i>k</i> and <i>g</i> are hard here, and the next lesson shows where they soften. Tap a letter to hear it. The vowels come next.</p>
+{{tiles:b=b c=s d=d f=f g=g h=h j=y k=k l=l m=m n=n p=p q=k r=r s=s t=t v=v w=v x=ks z=s}}
 <h3>Long vowel, short consonant</h3>
 <p>English vowels slide. Swedish vowels stay put. In a stressed syllable, either the vowel is long and the consonant after it is short, or the vowel is short and the consonant is long. A doubled letter is that long consonant.</p>
 {{ex:mat|maht|food}}
@@ -24,6 +28,8 @@ module.exports = [
 <tr><td class="k">u</td><td>ueh long, uh short</td><td>say ee and round the lips</td></tr>
 <tr><td class="k">y</td><td>ew, long or short</td><td>not the English word new</td></tr>
 </table></div>
+<p>Nine vowel letters. Tap one to hear its long sound.</p>
+{{tiles:a=ah e=ay i=ee o=ooh u=ueh y=ew å=oh ä=ae ö=euh}}
 {{ex:en bok|ayn boohk|a book}}
 {{ex:god|goohd|good}}
 {{ex:gå|goh|go, walk}}
@@ -43,6 +49,10 @@ module.exports = [
 <p>Every noun in this course comes with <i>en</i> or <i>ett</i>. Both mean "a". <i>bil</i> (car) takes <i>en</i>. <i>hus</i> takes <i>ett</i>. Learn the small word with the noun. <i>j</i> is the <i>y</i> of "yes", never the <i>j</i> of "jam". <i>sj</i> and <i>tj</i> are two sounds. The next lesson drills them.</p>
 {{ex:en bil|ayn beel|a car}}
 <div class="tip"><b>Most common mistake:</b> reading <i>bok</i> like English "book", and saying <i>här</i>, <i>hår</i> and <i>har</i> alike. book-vowel → <i>boohk</i>. one sound for all three → <i>här</i> (here), <i>hår</i> (hair), <i>har</i> (have).</div>
+<h3>Read whole words</h3>
+<p>Now put it together. Read a word in two steps. First count the consonants after the stressed vowel. One consonant, or none: the vowel is long. Two, or a doubled letter: the vowel is short. Then give the vowel letter its Swedish sound. Long: <i>o</i> is ooh, <i>u</i> is ueh, <i>å</i> is oh, <i>ä</i> is ae, <i>ö</i> is euh. Short: <i>o</i> and <i>å</i> are aw, <i>u</i> is uh, <i>ä</i> is eh, <i>ö</i> is ur. So <i>båt</i> is <i>boht</i>, and <i>buss</i> is <i>buhs</i>. The rule has everyday exceptions. Some short words have one consonant and a short vowel: <i>han</i>, <i>den</i>, <i>kom</i>, <i>hem</i>. And a long vowel can come before <i>rd</i> or <i>rn</i>, as in <i>bord</i> (table) and <i>barn</i> (child), and in forms like <i>köpt</i> (bought). Each card's note breaks the word into its pieces. Say the word aloud before you flip it.</p>
+{{ex:en båt|ayn boht|a boat}}
+{{ex:en buss|ayn buhs|a bus}}
 `,
     check: [
       ["What does the doubled t in matt tell you?", ["The vowel in front of it is short", "The vowel is long", "The t is silent", "The word takes ett"], 0, "A doubled consonant is long, and the stressed vowel in front of it is short. mat is long a, matt is short a."],
@@ -71,6 +81,7 @@ module.exports = [
     title: "The sj-sound, the tj-sound, and soft k and g",
     blurb: "Keep the sj-sound and the tj-sound apart, and spot a hard k that stays hard.",
     deck: "Sounds and spelling",
+    sections: [[{"deck": "Sounds and spelling", "n": [9, 15]}, {"name": "sj and tj spellings", "cards": [["sj", "sj", "the sj-sound, spelled sj", "sju, sjueh: seven."], ["skj", "sj", "the sj-sound, spelled skj", "en skjorta, ayn SJAWRT-ah: a shirt. The k and j are not said."], ["stj", "sj", "the sj-sound, spelled stj", "en stjärna, ayn SJAERN-ah: a star. The t and j are not said."], ["tj", "tj", "the tj-sound, spelled tj", "tjugo, TJUEH-gaw: twenty."], ["kj", "tj", "the tj-sound, spelled kj", "en kjol, ayn tjoohl: a skirt."], ["j", "y", "the letter j", "The y of yes, never the j of jam: ja, yah."], ["hj", "y", "h before j", "The h is silent: hjälpa, YEHL-pah, to help."]]}], {"deck": "Sounds and spelling", "n": [15, 18]}],
     body: `
 <p>English has one "sh" and pours several Swedish sounds into it. Swedish keeps two. The aid writes them <i>sj</i> and <i>tj</i>. If you merge them, seven and twenty start the same way, and they are not the same word.</p>
 <h3>sj is not tj</h3>
@@ -83,6 +94,8 @@ module.exports = [
 {{ex:en kyrka|ayn TJEWR-kah|a church}}
 <p><i>j</i> by itself is the <i>y</i> of "yes", never the <i>j</i> of "jam". The aid writes that <i>j</i>, not a <i>y</i>.</p>
 {{ex:ja|yah|yes}}
+<p>These letter groups spell the sj-sound or the tj-sound, and <i>j</i> and <i>hj</i> give the <i>y</i> of "yes". They are not the only spellings: <i>k</i> and <i>sk</i> before a front vowel, later in this lesson, are just as common, and at the start of a word <i>dj</i>, <i>gj</i> and <i>lj</i> also give the <i>y</i> of "yes". Tap one to hear it.</p>
+{{tiles:sj=sj skj=sj stj=sj tj=tj kj=tj j=y hj=y}}
 <p>A <i>k</i> at the start of a word, immediately before <i>e</i>, <i>i</i>, <i>y</i>, <i>ä</i> or <i>ö</i>, is usually the tj-sound. That is why <i>köpa</i> and <i>kyrka</i> do not start with a hard <i>k</i>. A <i>g</i> in that same spot is the <i>j</i> of "yes".</p>
 {{ex:göra|YEUH-rah|to do}}
 <h3>Hard on purpose</h3>

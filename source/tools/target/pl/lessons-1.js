@@ -5,23 +5,41 @@ module.exports = [
     title: "The Polish letters",
     blurb: "Read the nine extra letters and the pronunciation line: stress, the nasal N, and ł versus l.",
     deck: "Sounds and spelling",
+    sections: [null, [{"deck": "Sounds and spelling", "n": [5, 7]}, {"deck": "Sounds and spelling", "n": [11, 12]}], {"deck": "Sounds and spelling", "n": [7, 10]}, [{"deck": "Sounds and spelling", "n": [0, 5]}, {"deck": "Sounds and spelling", "n": [15, 16]}], [{"deck": "Sounds and spelling", "n": [10, 11]}, {"deck": "Sounds and spelling", "n": [12, 15]}, {"name": "More spellings", "cards": [["c", "ts", "the letter c", "On its own, always ts, as in cats: noc, nohts, night. In cz, ch and ci it is part of another sound."], ["j", "y", "the letter j", "Always y, as in yes: jutro, YOO-troh, tomorrow."], ["h", "kh", "the letter h", "The same kh as ch, the loch sound: herbata, khehr-BAH-tah, tea."], ["dz", "dz", "the letter pair dz", "A voiced ts, as in adds: bardzo, BAHR-dzoh, very."], ["dź", "j'", "the letter pair dź", "The soft j, written j'. Before a vowel it is spelled dzi: dzień, jyehny, day."]]}], [{"deck": "Sounds and spelling", "n": [16, 18]}, {"name": "Whole words", "cards": [["dom", "dohm", "a house; home", "d, o, m as in English, with o held flat. One syllable, so no capitals."], ["woda", "VOH-dah", "water", "w is v. Stress on the next-to-last syllable."], ["głowa", "GWOH-vah", "a head", "ł is w, and w is v. The g is hard, as in go."], ["ryba", "RIH-bah", "a fish", "r is a tap. y is ih, a short i."], ["noc", "nohts", "night", "c is always ts. One syllable."], ["ulica", "oo-LEE-tsah", "a street", "u is oo, i is ee, c is ts. Three syllables, stress on the next to last."], ["jutro", "YOO-troh", "tomorrow", "j is y, u is oo. The cluster tr takes no extra vowel."], ["jajko", "YAHY-koh", "an egg", "j is y, both times: jaj is YAHY."], ["szkoła", "SHKOH-wah", "a school", "sz is hard sh, ł is w. sz and k stay together, with no vowel between."], ["czas", "chahs", "time", "cz is hard ch, as in chop."], ["ciocia", "CHYOH-chyah", "an aunt", "ci before a vowel is chy, twice. The i only softens the c."], ["gość", "gohsh'ch'", "a guest", "ś and ć are soft, with no vowel after them: sh'ch'."], ["róża", "ROO-zhah", "a rose", "ó is oo, ż is zh."], ["książka", "KSHYOHN-shkah", "a book", "si before a vowel is shy. ą inside the word is the nasal tail, ohN. ż before k turns to sh."], ["chłopiec", "KHWOH-pyehts", "a boy", "ch is kh, ł is w. pie is pyeh: the i only softens the p. c is ts."], ["dziecko", "JYEHTS-koh", "a child", "dzi before a vowel is jy. c is ts."], ["słońce", "SWOHNY-tseh", "the sun", "ł is w, ń is ny, c is ts."], ["miasto", "MYAH-stoh", "a city; a town", "mia is myah: the i only softens the m."]]}], null],
     body: `
 <p>Polish uses the Latin alphabet you know, plus nine letters: <b>ą ć ę ł ń ó ś ź ż</b>. Under every Polish phrase in this course there is a pronunciation line in English letters. The syllable in CAPITALS is the stressed one. A word of one syllable stays in small letters. A capital <b>N</b> inside <i>ohN</i> is not stress, and it is not its own syllable. It is a nasal tail on the vowel.</p>
+<p>Most letters sound much as in English. <b>g</b> is hard, as in "go", <b>s</b> on its own is the s of "sun", and <b>r</b> is a tap. <b>q</b>, <b>v</b> and <b>x</b> turn up only in foreign words. The rest of this lesson is about the letters that do not work as in English. Tap a letter to hear it.</p>
+{{tiles:b=b d=d f=f g=g k=k l=l m=m n=n p=p r=r s=s t=t z=z}}
 <h3>Vowels that stay put</h3>
 <p>English vowels slide. Say <i>no</i> slowly and the end is a <i>w</i>. Polish vowels hold one sound. The line spells them the same way every time.</p>
 <div class="tbl"><table><tr><th>Letter</th><th>Aid</th><th>Read it as</th></tr><tr><td class="k">a</td><td>ah</td><td>father</td></tr><tr><td class="k">e</td><td>eh</td><td>bed</td></tr><tr><td class="k">i</td><td>ee</td><td>meet, when i is its own vowel</td></tr><tr><td class="k">o</td><td>oh</td><td>the vowel of "more", held flat</td></tr><tr><td class="k">ó, u</td><td>oo</td><td>food. ó is the same vowel as u</td></tr><tr><td class="k">y</td><td>ih</td><td>a short i, not ee</td></tr></table></div>
+<p>Tap a vowel to hear it.</p>
+{{tiles:a=ah e=eh i=ee o=oh u=oo ó=oo y=ih}}
 {{ex:dobry|DOH-brih|good}}
 <h3>ł is w, and w is v</h3>
 <p><b>ł</b> and <b>l</b> are different letters. <b>ł</b> is the English <b>w</b> sound. Plain <b>l</b> stays a clear l. The letter <b>w</b> is an English <b>v</b>. At the end of a word, <b>w</b> sounds like <b>f</b>. The <b>r</b> is a tap, one quick flick of the tongue. The line cannot show the tap, so it writes r.</p>
+{{tiles:ł=w w=v}}
 {{ex:łódka|WOOT-kah|a boat}}
 {{ex:Kraków|KRAH-koof|Kraków}}
 <p><b>Kraków</b> is two beats, <i>KRAH-koof</i>. The <b>k</b> and the <b>r</b> stay together. A cluster takes no extra vowel, and <b>ó</b> is <i>oo</i>.</p>
-<h3>The nasal tail and the soft mark</h3>
-<p>Final <b>ą</b> is a nasal o, <i>ohN</i>. Final <b>ę</b> is an ordinary <i>eh</i>. It is not nasal. Hard <b>sz</b> is <i>sh</i>. <b>ś</b>, and <b>si</b> before a vowel, are <i>shy</i>. At the end of a word the soft sound is <i>sh'</i>. The apostrophe adds no vowel. It only marks softness. <b>cz</b> and <b>ć</b>, and <b>ż</b> and <b>ź</b>, follow that same three-way split: hard, soft with a y, soft with an apostrophe. <b>ch</b> and <b>h</b> are both <i>kh</i>, the sound in Scottish "loch". The next lesson drills the pairs.</p>
+<p><b>żółw</b>, a turtle, has all three: <b>ó</b> is <i>oo</i>, <b>ł</b> is <i>w</i>, and the final <b>w</b> is <i>f</i>. Its first letter, <b>ż</b>, is the <i>zh</i> of "measure". More on it below.</p>
+<h3>The nasal tail</h3>
+<p>Final <b>ą</b> is a nasal o, <i>ohN</i>. Final <b>ę</b> is an ordinary <i>eh</i>. It is not nasal. Inside a word both keep the nasal tail. Before <b>p</b> or <b>b</b> the tail is an <i>m</i>, before <b>t</b> or <b>d</b> it is an <i>n</i>, and before <b>k</b> or <b>g</b> it is an <i>ng</i>: <b>ręka</b>, a hand, is <i>REHNG-kah</i>.</p>
+{{tiles:ą=ohN ę=ehN}}
 {{ex:są|sohN|they are}}
+<h3>Hard and soft</h3>
+<p>Hard <b>sz</b> is <i>sh</i>. <b>ś</b>, and <b>si</b> before a vowel, are <i>shy</i>. At the end of a word the soft sound is <i>sh'</i>. The apostrophe adds no vowel. It only marks softness. <b>cz</b> and <b>ć</b>, and <b>ż</b> and <b>ź</b>, follow that same three-way split: hard, soft with a y, soft with an apostrophe. The next lesson drills the pairs.</p>
+{{tiles:sz=sh ś=sh' si=shy cz=ch ć=ch' ci=chy ż=zh ź=zh' zi=zhy}}
 {{ex:proszę|PROH-sheh|Please. You're welcome.}}
 {{ex:prosię|PROH-shyeh|a piglet}}
 {{ex:cześć|chehsh'ch'|Hi. Bye. To a friend.}}
+<h3>rz, ch, the dz family, ń, c and j</h3>
+<p><b>rz</b> is the same sound as <b>ż</b>, <i>zh</i>. Do not read it as r plus z. After <b>p</b>, <b>t</b>, <b>k</b> or <b>ch</b>, and at the end of a word, it turns to <i>sh</i>: <b>trzy</b>, three, is <i>tshih</i>. <b>ch</b> and <b>h</b> are both <i>kh</i>, the sound in Scottish "loch". <b>dż</b> is the j of "jam", and <b>dz</b> is a voiced ts, as in "adds". Soft <b>dź</b>, spelled <b>dzi</b> before a vowel, is <i>jy</i> before a vowel and <i>j'</i> otherwise. <b>ń</b>, and <b>ni</b> before a vowel, are <i>ny</i>, as in "canyon". Two plain-looking letters change too: <b>c</b> on its own is always <i>ts</i>, as in "cats", and <b>j</b> is always <i>y</i>, as in "yes".</p>
+{{tiles:rz=zh ch=kh h=kh dż=j dz=dz dź=j' ń=ny ni=ny c=ts j=y}}
+{{ex:rzeka|ZHEH-kah|a river}}
+<h3>Read whole words</h3>
+<p>Now put the pieces together. Read a word one letter or letter pair at a time, and give each its Polish sound: every vowel one steady sound, <b>ł</b> a w, <b>w</b> a v, <b>c</b> ts, <b>j</b> y. An <b>i</b> before another vowel only softens the consonant in front of it: <b>miasto</b> is <i>MYAH-stoh</i>. A voiced consonant at the end of a word, or before a voiceless one, turns voiceless, the way the final <b>w</b> of Kraków is f. A <b>w</b> right after a voiceless consonant turns to f too: <b>twój</b> is <i>tfooy</i>. Then put the stress on the next-to-last syllable. <b>muzyka</b> is the exception you meet here: its careful stress is <i>MOO-zih-kah</i>. Say each word aloud before you flip the card.</p>
+{{ex:szkoła|SHKOH-wah|a school}}
 <h3>A bare w, and three small words</h3>
 <p>The word <b>w</b> has no vowel of its own. Before a vowel it is a bare <i>v</i>. <b>w domu</b> is a set phrase, "at home". Keep it as a piece. The little word <b>z</b> can be a bare consonant too. You will meet it with place names.</p>
 {{ex:w domu|v DOH-moo|at home}}

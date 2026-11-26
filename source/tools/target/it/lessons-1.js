@@ -5,31 +5,47 @@ module.exports = [
     title: "Sounds, spelling and stress",
     blurb: "Read Italian words aloud: pure vowels, soft and hard c and g, double consonants and stress.",
     deck: "Sounds and spelling",
+    sections: [null, [{"deck": "Sounds and spelling", "n": [0, 3]}, {"deck": "Sounds and spelling", "n": [5, 7]}, {"deck": "Sounds and spelling", "n": [10, 11]}, {"deck": "Sounds and spelling", "n": [15, 16]}], [{"deck": "Sounds and spelling", "n": [3, 4]}, {"deck": "Sounds and spelling", "n": [7, 10]}, {"deck": "Sounds and spelling", "n": [11, 13]}, {"deck": "Sounds and spelling", "n": [17, 18]}], [{"deck": "Sounds and spelling", "n": [4, 5]}, {"deck": "Sounds and spelling", "n": [13, 15]}], [{"deck": "Sounds and spelling", "n": [16, 17]}, {"name": "Accent marks", "cards": [["la città", "lah cheet-TAH", "the city", "The accent mark puts the stress on the final a."], ["perché", "pehr-KEH", "why; because", "ch is a hard k. The mark puts the stress on the final e."], ["più", "pyoo", "more", "i before u glides as y: one syllable. The mark sits on the final vowel."], ["però", "peh-ROH", "but", "The mark puts the stress on the final o: peh-ROH, not PEH-roh."], ["il tè", "eel teh", "tea", "A one-syllable word: the mark is not about stress. It tells tè (tea) apart from te (you)."]]}], {"name": "Whole words", "cards": [["la casa", "lah KAH-sah", "the house", "c before a is hard, as in cat. Stress on the next-to-last syllable."], ["la cena", "lah CHEH-nah", "dinner", "c before e is ch, as in church. Stress on the next-to-last syllable."], ["gli amici", "lyee ah-MEE-chee", "the friends", "c before i is ch. Stress on the next-to-last syllable."], ["il gatto", "eel GAHT-toh", "the cat", "g before a is hard; hold the double t."], ["oggi", "OHD-jee", "today", "gg before i is a held j sound."], ["la famiglia", "lah fah-MEE-lyah", "the family", "gli before a vowel is the lli of million."], ["il bagno", "eel BAH-nyoh", "the bathroom", "gn is ny, as in canyon."], ["il prosciutto", "eel proh-SHOOT-toh", "cured ham", "sci before u is sh; the i is not said. Hold the double t."], ["la scuola", "lah SKWOH-lah", "the school", "sc before u is a hard sk; uo is woh, in one syllable."], ["la piazza", "lah PYAHT-tsah", "the square", "i before a glides as y; zz is a held ts."], ["la stazione", "lah stah-TSYOH-neh", "the station", "z is ts; i before o glides as y. Stress on the next-to-last syllable."], ["buono", "BWOH-noh", "good", "uo is woh, in one syllable."], ["ecco", "EHK-koh", "here it is; there you go", "cc before o is a held hard k."], ["gli spaghetti", "lyee spah-GHEHT-tee", "spaghetti", "gh keeps the g hard before e; hold the double t."], ["dieci", "DYEH-chee", "ten", "i before e glides as y; c before i is ch, and that i is said."], ["la mattina", "lah maht-TEE-nah", "the morning", "Hold the double t. Stress on the next-to-last syllable."], ["il caffè", "eel kahf-FEH", "coffee", "Hold the double f. The accent mark puts the stress on the final e."], ["il medico", "eel MEH-dee-koh", "the doctor", "c before o is hard. The stress falls three syllables from the end, with no mark to warn you."]]}, null],
     body: `
 <p>Italian spelling is regular: once you know a handful of rules, you can read almost any word. Under each Italian phrase in this course there is a pronunciation line in English letters. The syllable in CAPITALS is the stressed one.</p>
+<p>The alphabet has 21 letters; <b>j, k, w, x, y</b> turn up mainly in words and names from other languages. These letters sound much as in English: <b>c</b> and <b>g</b> as in <i>cat</i> and <i>go</i>, until an <b>e</b> or <b>i</b> follows, and <b>q</b> always comes with <b>u</b>, as in <i>quick</i>. The rest of this lesson is about the letters and groups that work differently, starting with the vowels. Tap a letter to hear it.</p>
+{{tiles:b=b c=k d=d f=f g=g l=l m=m n=n p=p q=kw s=s t=t v=v}}
 <h3>Five short, pure vowels</h3>
 <p>English vowels slide: say <i>no</i> slowly and your lips end on a <i>w</i>. Italian vowels stay put. The pronunciation line writes them <i>ah, eh, ee, oh, oo</i>, one sound each, with no glide.</p>
 {{ex:la casa|lah KAH-sah|the house}}
 {{ex:il vino|eel VEE-noh|the wine}}
+<p>When an unstressed <b>i</b> or <b>u</b> comes right before another vowel, it usually glides into it as a y or a w, in the same syllable: <b>la chiave</b> is lah KYAH-veh, <b>il cuore</b> is eel KWOH-reh. A stressed <b>i</b> or <b>u</b> keeps its own syllable, as in <b>mio</b>, MEE-oh. After <b>c</b>, <b>g</b> or <b>sc</b> the <b>i</b> is often not said at all, as the next sections show. Tap a vowel to hear it.</p>
+{{tiles:a=ah e=eh i=ee o=oh u=oo}}
 <h3>c and g: soft or hard</h3>
 <p>Before <b>e</b> or <b>i</b>, <b>c</b> sounds like the <i>ch</i> in <i>church</i> and <b>g</b> like the <i>j</i> in <i>jam</i>. Before <b>a, o, u</b> they are hard, as in <i>cat</i> and <i>go</i>. To keep them hard before <b>e</b> or <b>i</b>, Italian adds an <b>h</b>: <b>ch</b> is always a <i>k</i> sound, <b>gh</b> always a hard <i>g</i>. In <b>cia, cio, gia, gio</b> the <b>i</b> is not said; it only softens the letter before it.</p>
 {{ex:Ciao!|CHAH-oh|Hi! Bye!}}
 {{ex:il gelato|eel jeh-LAH-toh|the ice cream}}
 {{ex:la chiave|lah KYAH-veh|the key}}
+<p>Tap a spelling to hear it.</p>
+{{tiles:ca=kah co=koh cu=koo ce=cheh ci=chee che=keh chi=kee cia=chah cio=choh ciu=choo ga=gah go=goh gu=goo ge=jeh gi=jee ghe=gheh ghi=ghee gia=jah gio=joh giu=joo}}
 <h3>More letter groups</h3>
 <div class="tbl"><table><tr><th>Spelling</th><th>Sound</th><th>Example</th></tr><tr><td class="k">gn</td><td>ny, as in <i>canyon</i></td><td class="k">gli gnocchi</td></tr><tr><td class="k">gli</td><td>close to the lli in <i>million</i></td><td class="k">il figlio</td></tr><tr><td class="k">sce, sci</td><td>sh, as in <i>shoe</i></td><td class="k">il pesce</td></tr><tr><td class="k">sch</td><td>sk, as in <i>sky</i></td><td class="k">la bruschetta</td></tr><tr><td class="k">z, zz</td><td>ts, as in <i>cats</i> (in some words dz)</td><td class="k">la pizza</td></tr><tr><td class="k">h</td><td>always silent</td><td class="k">ho</td></tr></table></div>
 {{ex:la bruschetta|lah broos-KEHT-tah|bruschetta (toasted bread)}}
+<p>One more: <b>s</b> before <b>b, d, g, l, m, n, r</b> or <b>v</b> sounds like z, so <b>la sveglia</b> is lah ZVEH-lyah. Tap a spelling to hear it.</p>
+{{tiles:gn=ny gli=ly sce=sheh sci=shee sch=sk z=ts zz=tts h=silent sv=zv}}
 <h3>Double consonants</h3>
 <p>A double letter is held a little longer, and it changes the word. <b>La palla</b> is a ball; <b>la pala</b> is a shovel. The pronunciation line writes the letter on both sides of the hyphen.</p>
 {{ex:la palla|lah PAHL-lah|the ball}}
 {{ex:la notte|lah NOHT-teh|the night}}
+<p>You hear it clearly with <b>r</b>: one <b>r</b> is a quick tap of the tongue, <b>rr</b> a longer roll. Tap to hear the difference.</p>
+{{tiles:ll=l-l nn=n-n tt=t-t r=r rr=rr}}
 <h3>Stress</h3>
 <p>Most Italian words are stressed on the next-to-last syllable. A written accent appears only on a stressed final vowel, as in <b>città</b>. Many other words put the stress earlier, with nothing in the spelling to warn you, so learn the stress with the word. Words that look English often surprise: <b>telefono</b> is stressed on its second syllable.</p>
 {{ex:la città|lah cheet-TAH|the city}}
 {{ex:il telefono|eel teh-LEH-foh-noh|the phone}}
+<p>The accent marks are <b>à, è, é, ì, ò, ù</b>. In a longer word, a mark shows that the final vowel is stressed. <b>è</b> is a slightly more open eh than <b>é</b> (<b>il caffè</b>, but <b>perché</b>); the pronunciation line writes both as eh. On short words a mark often tells two words apart: <b>è</b> means <i>is</i>, <b>e</b> means <i>and</i>; <b>tè</b> is tea, <b>te</b> is you. Tap a mark to hear it.</p>
+{{tiles:à=ah è=eh é=eh ì=ee ò=oh ù=oo}}
+<h3>Read whole words</h3>
+<p>Now put it together. Read a word in two steps. First give each letter or group its Italian sound: every vowel short and pure, <b>c</b> and <b>g</b> soft only before <b>e</b> or <b>i</b>, double letters held. Then place the stress: on the final vowel if it has a mark, otherwise usually on the next-to-last syllable. So <b>il prosciutto</b> is eel proh-SHOOT-toh, and <b>il caffè</b> is eel kahf-FEH. Many words, like <b>il medico</b>, put the stress earlier, and the card shows it. Each card's note names the pieces. Say the word aloud before you flip it.</p>
+{{ex:il prosciutto|eel proh-SHOOT-toh|cured ham}}
 <h3>il and la, and their plurals</h3>
 <p>Nouns here come with a little word for "the". Every noun is masculine or feminine: masculine nouns take <b>il</b>, feminine nouns take <b>la</b>. For more than one, <b>il</b> becomes <b>i</b> and <b>la</b> becomes <b>le</b>, and the noun changes its last letter: <b>-o</b> becomes <b>-i</b>, <b>-a</b> becomes <b>-e</b>, <b>-e</b> becomes <b>-i</b>. So it's <b>le notti</b> and <b>le chiavi</b>. Some words take other forms: <b>gli gnocchi</b>, <b>gli spaghetti</b>. Lesson 4 explains them all.</p>
-<p>Finally, a single <b>r</b> is a quick tap of the tongue and <b>rr</b> is rolled, and <b>p, t, k</b> have no puff of air. Listen first; the pronunciation line is a crutch to drop later.</p>
+<p>Finally, <b>p, t, k</b> have no puff of air. Listen first; the pronunciation line is a crutch to drop later.</p>
 <div class="tip"><b>Most common mistake:</b> reading <b>sch</b> the English way. <b>bruschetta</b> with an English sh sound → <b>bruschetta</b> with a hard sk sound, as the line shows.</div>
 `,
     check: [

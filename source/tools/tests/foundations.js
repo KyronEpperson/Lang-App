@@ -31,9 +31,25 @@ const FOUND={'en-ja':{lessons:['hiragana','sounds','katakana'],letters:[...HIRA+
  'en-yue':{lessons:['jyutping','tones','characters'],letters:[...'亻氵口女木日月火心忄扌訁艹飠土糹釒門'],tilesOnly:['b','p','m','f','d','t','n','l','g','k','ng','h','gw','kw','w','z','c','s','j','aa','a','e','i','o','u','yu','oe','eo'],words:['jyutping','tones','characters']},
  /* Vietnamese: Latin script, but its own system (7 extra letters, tone marks, letter pairs): a block of four lessons; letters that read as in English are on tiles only */
  'en-vi':{lessons:['alphabet','tones','syllables','vowels'],letters:['ă','â','ê','ô','ơ','ư','đ','d','r','x','t','c','k','ch','tr','nh','ph','th','kh','gi','gh','ng','ngh','qu'],tilesOnly:[...'abeghilmnopqsuvy'],words:['alphabet','tones','syllables','vowels']},
+ /* batch 5: Latin-script courses, ONE lesson each, letters on tiles only */
+ 'en-it':{lessons:['sounds'],letters:[],tilesOnly:[...'abcdefghilmnopqrstuvzàèéìòù'],words:['sounds']},
+ 'en-pt':{lessons:['sounds'],letters:[],tilesOnly:[...'abcdefghijklmnopqrstuvwxyzçáâãàéêíóôõú'],words:['sounds']},
+ 'en-ptpt':{lessons:['vowels'],letters:[],tilesOnly:[...'abcdefghijklmnopqrstuvwxyzç'],words:['vowels']},
+ 'en-espr':{lessons:['sounds'],letters:[],tilesOnly:[...'abcdefghijklmnñoprstuvwxyz','qu'],words:['sounds']},
+ 'en-nl':{lessons:['vowels'],letters:[],tilesOnly:[...'abcdefghijklmnopqrstuvwxyz','ij'],words:['vowels']},
+ 'en-da':{lessons:['alphabet'],letters:[],tilesOnly:[...'abcdefghijklmnopqrstuvwxyzæøå'],words:['alphabet']},
+ 'en-no':{lessons:['alphabet'],letters:[],tilesOnly:[...'abcdefghijklmnopqrstuvwxyzæøå'],words:['alphabet']},
+ 'en-sv':{lessons:['vowels'],letters:[],tilesOnly:[...'abcdefghijklmnopqrstuvwxyzåäö'],words:['vowels']},
+ 'en-pl':{lessons:['alphabet'],letters:[],tilesOnly:[...'aąbcćdeęfghijklłmnńoóprsśtuwyzźż'],words:['alphabet']},
+ 'en-cs':{lessons:['alphabet'],letters:[],tilesOnly:[...'aábcčdďeéěfghiíjklmnňoópqrřsštťuúůvwxyýzž','ch'],words:['alphabet']},
+ 'en-id':{lessons:['sounds'],letters:[],tilesOnly:[...'abcdefghijklmnopqrstuvwxyz'],words:['sounds']},
+ 'en-tl':{lessons:['sounds'],letters:[],tilesOnly:[...'abkdeghilmnoprstuwycfjñqvxz','ng'],words:['sounds']},
+ 'en-ceb':{lessons:['sounds'],letters:[],tilesOnly:[...'abcdefghijklmnñopqrstuvwxyz','ng'],words:['sounds']},
+ /* Hmong (RPA): the pieces are consonant clusters, vowels and the tone letters, all on tiles */
+ 'en-hmn':{lessons:['tones'],letters:[],tilesOnly:'p ph np nph pl plh npl nplh t th nt nth d dh r rh nr nrh c ch nc nch k kh nk nkh q qh nq nqh tx txh ntx ntxh ts tsh nts ntsh m n ny ml l hm hn hny hml hl f v x s z xy y h a e i o u w ee oo ai au aw ia ua b j g'.split(' '),words:['tones']},
  'en-am':{lessons:['orders','fidel-1','fidel-2','fidel-3','reading'],letters:[...'ሀለሐመሠረሰሸቀበተቸኀነኘአከኸወዐዘዠየደጀገጠጨጰጸፀፈፐ'],tilesOnly:[],words:['fidel-1','fidel-2','fidel-3']}};
 /* older courses whose foundation is not built yet (docs/HANDOFF.md, "Character foundations"). This list only gets shorter. */
-const PENDING='en-ceb en-cs en-da en-espr en-hmn en-id en-it en-nan en-nl en-no en-pl en-pt en-ptpt en-sv en-tl'.split(' ');
+const PENDING='en-nan'.split(' ');
 /* English for X: lesson 1 `alphabet`, the 26 letters on cards (the letter names) and on tiles */
 'ar bn ceb cs de es fr hi hmn id it ja kn ko pa pl pt ru spr te th tl ur vi yue zh'.split(' ').forEach(t=>{ FOUND[t+'-en']={lessons:['alphabet'],letters:[...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'],tilesOnly:[],words:[],light:true}; });
 let fail=0,pass=0;const ok=(c,m)=>{ if(c){ pass++; console.log('PASS '+m); } else { fail++; console.log('FAIL '+m); } };
@@ -60,7 +76,7 @@ async function open(b,cid){ const lang=cid.split('-')[0]; const c=await b.newCon
       return {bad,n,own:inl,inNames:Object.keys(DECKS).filter(d=>!names.includes(d)).length}; });
     ok(!r.bad.length&&!p.errs.length,cid+': '+r.n+' lessons name their sections, '+r.own+' decks live inside a lesson '+r.bad.slice(0,6).join(' ; ')+p.errs.slice(0,2).join(' | ')); await p.ctx.close(); }
   /* B, C, D */
-  for(const cid of Object.keys(FOUND)){ const F=FOUND[cid]; let p=await open(b,cid);
+  for(const cid of Object.keys(FOUND).filter(c=>!process.env.FND_ONLY||process.env.FND_ONLY.split(',').includes(c))){ const F=FOUND[cid]; let p=await open(b,cid);
     const r=await p.evaluate(F=>{ const o={order:LESSONS.slice(0,F.lessons.length).map(l=>l.id),cardMiss:[],tileMiss:[],noRead:[],noChart:[],noWords:[],raw:[],wide:[]}; const fronts=new Set(), tiles=new Set();
       F.lessons.forEach(id=>{ const l=LESSONS.find(x=>x.id===id); if(!l) return; const pl=lsPlan(l); pl.all.forEach(x=>{ fronts.add(x.c[0]); if(F.frontStarts) fronts.add([...x.c[0]][0]); }); showLesson(id); const root=document.getElementById('lessonBody');
         root.querySelectorAll('.tiles-grid .sgl').forEach(t=>{ const g=t.querySelector('.sgf').textContent; tiles.add(g); const rd=t.querySelector('.sgb .rom'); if(!rd||!rd.textContent.trim()) o.noRead.push(g); });

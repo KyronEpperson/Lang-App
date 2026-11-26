@@ -1709,3 +1709,6 @@ Kii picked Hangul vowels, pressed Exam and was asked other cards. Cause: the exa
 
 ### FND-1 — English for X, spelling patterns (2.131.0): all 26 English courses
 A last section in lesson 1: letter groups that read differently from the learner's own spelling, a table, flip tiles, 10 word cards. Writers and cold reviewers on Opus; all reviewers' must-fix items applied (mostly: rules stated without their everyday exceptions). Not read by a native speaker.
+
+### FND-1 — batch 5 (2.134.0): 14 Latin-script courses at once
+Kii: "that sounds like only one or two agents cant we use more agents to build faster?" 14 Opus writers and 14 Opus cold reviewers ran side by side (2.7M tokens, 35 minutes), then 14 Sonnet passes applied the findings (22 must-fix, 74 should-fix; 1.0M tokens, 3 minutes). Found by the release checks: the Hmong checks did not know a lesson's `sections` and rejected the bare vowels in bold. Not tested: native speakers, real phones.

@@ -5,8 +5,14 @@ module.exports = [
     title: "Alphabet and the háček",
     blurb: "Read the Czech letters that English doesn't have, and read the pronunciation line under every phrase.",
     deck: "Háček letters",
+    sections: [null, [{"deck": "Háček letters", "n": [0, 9]}, {"deck": "Háček letters", "n": [12, 17]}], {"deck": "Háček letters", "n": [9, 12]}, null, {"name": "Whole words", "cards": [["voda", "VOH-dah", "water", "v, o, d, a: one sound each. The beat is on vo."], ["mléko", "MLEHH-koh", "milk", "m and l together, both said. é is a long eh."], ["ryba", "RIH-bah", "a fish", "y is a short ih, the same sound as i."], ["ulice", "OO-lih-tseh", "a street", "c is ts. Three syllables: u, li, ce."], ["kočka", "KOHCH-kah", "a cat", "č is the ch of church, said right before the second k."], ["škola", "SHKOH-lah", "a school", "š is sh, said together with the k."], ["žlutý", "ZHLOO-tee", "yellow", "ž is zh, ý is a long ee. The beat stays on žlu."], ["dveře", "DVEH-rzheh", "a door; doors", "d and v together, both said. ř is rzh. The word is always plural, even for one door."], ["ucho", "OO-khoh", "an ear", "ch is kh, as in loch."], ["děti", "DYEH-tyih", "children", "dě is a soft d, ti is a soft t."], ["tady", "TAH-dih", "here", "dy stays hard: a plain d, then a short ih."], ["nic", "nyihts", "nothing", "ni is a soft n. c is ts."], ["nůž", "noohsh", "a knife", "ů is a long ooh. ž at the end goes quiet and sounds like sh."], ["úterý", "OOH-teh-ree", "Tuesday", "ú starts the word, ý is a long ee. The beat stays on the first syllable."], ["vlak", "vlahk", "a train", "v and l together, then a. Not vlk, a wolf."], ["jídlo", "YEE-dloh", "food", "j is the y of yes, í is a long ee."], ["kniha", "KNYIH-hah", "a book", "The k is said. ni is a soft n, h is h."], ["čtyři", "CHTIH-rzhih", "four", "č then t, y is a short ih, ř is rzh."]]}, null],
     body: `
 <p>Czech uses the same alphabet as English, plus a few marks. The good news: each letter almost always has one sound, so once you know the letters you can read any word aloud. Under every Czech phrase in this course there is a line in English letters that tells you how to say it.</p>
+<h3>One letter, one sound</h3>
+<p>Czech has 42 letters. Most are the ones you know. These sound much as in English, with two small differences: <b>g</b> is always hard, as in <i>go</i>, and <b>r</b> is rolled with the tip of the tongue. <b>q</b>, <b>w</b> and <b>x</b> turn up only in borrowed words and names: <b>w</b> is said as v, <b>q</b> as kv and <b>x</b> as ks. Watch <b>j</b>: it is always the y of <i>yes</i>. Tap a letter to hear it.</p>
+{{tiles:b=b d=d f=f g=g h=h k=k l=l m=m n=n p=p r=r s=s t=t v=v z=z j=y q=kv w=v x=ks}}
+<p>The vowels are <b>a e i o u</b>, plus <b>y</b>, which sounds just like <b>i</b>. Each has a long partner with a mark, and the mark means: hold it longer. <b>ů</b> is a second spelling of long <b>ú</b>: <b>ú</b> mostly starts a word, as in <b>úterý</b>, and <b>ů</b> comes inside or at the end, as in <b>nůž</b>. Lesson 2 is all about them.</p>
+{{tiles:a=ah e=eh i=ih o=oh u=oo á=aah é=ehh í=ee ó=ohh ú=ooh _ _ y=ih _ ů=ooh _ _ ý=ee}}
 <h3>The háček: a little hook that changes the sound</h3>
 <p>The small hook on <b>č š ž ř ě ď ť ň</b> is called a <b>háček</b>. It is not decoration. Without it you get a different sound, and often a different word.</p>
 <div class="tbl"><table><tr><th>Letter</th><th>Sounds like</th><th>In the line</th><th>Example</th></tr><tr><td class="k">č</td><td><i>ch</i> in <i>church</i></td><td>ch</td><td class="k">čaj</td></tr><tr><td class="k">š</td><td><i>sh</i> in <i>shop</i></td><td>sh</td><td class="k">šest</td></tr><tr><td class="k">ž</td><td><i>s</i> in <i>measure</i></td><td>zh</td><td class="k">žena</td></tr><tr><td class="k">ř</td><td>a buzzing r (lesson 3)</td><td>rzh or rsh</td><td class="k">řeka</td></tr><tr><td class="k">ď ť ň</td><td>d, t, n with a y glued on</td><td>dy, ty, ny</td><td class="k">děkuji</td></tr></table></div>
@@ -15,12 +21,18 @@ module.exports = [
 {{ex:žena|ZHEH-nah|a woman}}
 <p><b>ě</b> is <i>e</i> with a <i>y</i> before it. After <b>d</b>, <b>t</b> and <b>n</b> it softens the consonant instead: <b>dě</b> sounds like <i>dye</i>. After <b>m</b> it sounds like mnye: <b>město</b> (a town).</p>
 {{ex:děkuji|DYEH-koo-yih|thank you}}
+<p>Tap a letter to hear it.</p>
+{{tiles:č=ch š=sh ž=zh ř=rzh ě=yeh ď=dy ť=ty ň=ny}}
 <h3>c and ch: the two big surprises</h3>
 <p>English reads <b>c</b> as k or s. Czech <b>c</b> is always <i>ts</i>, as in <i>cats</i>. And Czech <b>ch</b> is not the English <i>ch</i> at all: it is a rough <i>kh</i>, like the end of Scottish <i>loch</i>. The English <i>ch</i> sound is written <b>č</b>.</p>
+{{tiles:c=ts ch=kh}}
 {{ex:cena|TSEH-nah|a price}}
 {{ex:chléb|khlehhp|bread}}
 <h3>How to read the pronunciation line</h3>
 <ul><li><b>y</b> in the line is the Czech letter <b>j</b>, the y of <i>yes</i>: <b>já</b> (I) is yaah.</li><li><b>j</b> in the line is the rare Czech <b>dž</b>, as in <i>jam</i>.</li><li>CAPITALS show the beat. In Czech the beat is on the first syllable of a word. It is not about a long vowel, and not about shouting.</li><li><b>rr</b> and <b>ll</b> mean the r or l itself is the vowel: <b>vlk</b> (a wolf) is vllk, with no vowel in it.</li></ul>
+<h3>Read whole words</h3>
+<p>Now put the pieces together. Read a Czech word letter by letter, left to right. Each letter gives its own sound (<b>ch</b> counts as one letter), and every letter is said, even in a cluster like <b>dv</b> or <b>ml</b>. Watch the soft pairs: <b>dě tě ně</b> and <b>di ti ni</b> (also <b>dí tí ní</b>) are soft, but <b>dy ty ny</b> stay hard. Many borrowed words keep a hard <b>di ti ni</b>, as in <b>politika</b>. At the very end of a word, a buzzing sound swaps for its quiet partner: <b>ž</b> sounds like sh and <b>d</b> like t. So <b>pláž</b> ends in sh and <b>chléb</b> ends in p. Lesson 3 explains. Then put the beat on the first syllable. So <b>kniha</b> (a book) is KNYIH-hah, with the k said, and <b>děti</b> (children) is DYEH-tyih. Each card's note points out the letters to watch. Say the word aloud before you flip it.</p>
+{{ex:kniha|KNYIH-hah|a book}}
 <h3>ten, ta, to</h3>
 <p>Czech nouns come with a little partner word, which works like "the" or "this": <b>ten čaj</b>, <b>ta žena</b>, <b>to město</b> (the town). Which one a noun takes is part of the word. The gender lesson explains why. For now, learn these with their partner: <b>ten čaj</b>, <b>ten chléb</b>, <b>ta žena</b>, <b>ta cena</b>, <b>ta řeka</b> (the river), <b>to město</b>.</p>
 {{ex:ta žena|tah ZHEH-nah|the woman}}

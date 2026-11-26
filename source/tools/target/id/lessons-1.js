@@ -5,13 +5,19 @@ module.exports = [
     title: "Sounds and spelling",
     blurb: "Read any Indonesian word aloud: the six vowels, the two e sounds, c, ng and ny, and how words end.",
     deck: "Sounds and spelling",
+    sections: [null, [{"deck": "Sounds and spelling", "n": [1, 3]}, {"deck": "Sounds and spelling", "n": [12, 13]}, {"deck": "Sounds and spelling", "n": [17, 18]}], null, [{"deck": "Sounds and spelling", "n": [0, 1]}, {"deck": "Sounds and spelling", "n": [4, 5]}, {"deck": "Sounds and spelling", "n": [6, 11]}], [{"deck": "Sounds and spelling", "n": [3, 4]}, {"deck": "Sounds and spelling", "n": [11, 12]}, {"deck": "Sounds and spelling", "n": [13, 17]}], null, [{"deck": "Sounds and spelling", "n": [5, 6]}, {"name": "Read whole words", "cards": [["makan", "MAH-kahn", "to eat", "m + a + k + a + n: every letter as in English, every a a full ah."], ["minum", "MEE-noom", "to drink", "i is ee, u is oo; m and n as in English."], ["kecil", "kuh-CHEEL", "small", "The e here is the weak e, uh; c is ch."], ["kucing", "KOO-cheeng", "cat", "c is ch; the final ng is the ng of singer."], ["anjing", "AHN-jeeng", "dog", "j as in jam; the final ng is the ng of singer."], ["pagi", "PAH-ghee", "morning", "g is always hard; the line writes gh before ee."], ["nyamuk", "NYAH-mooq", "mosquito", "ny at the start, as in canyon; the final k is a catch, q."], ["dengan", "duh-NGAHN", "with", "The weak e, uh; ng between vowels is the ng of singer, with no g after it."], ["tinggi", "TEENG-ghee", "tall; high", "ngg is ng + g, as in finger; gh before ee."], ["syukur", "SHOO-koor", "gratitude; thank God, thank goodness", "sy is sh; r is rolled or tapped."], ["akhir", "AH-kheer", "end", "kh is a breathy k; r is rolled or tapped."], ["merah", "MEH-rahh", "red", "The strong e, eh; the final h is breathed out."], ["sekolah", "suh-KOH-lahh", "school", "The weak e, uh, then oh; the final h is breathed out."], ["kalau", "KAH-low", "if", "au at the end of a word is one sound, ow."], ["laut", "LAH-oot", "sea", "au before a final consonant splits in two: la + ut."], ["main", "MAH-een", "to play", "ai before a final consonant splits in two: ma + in."], ["anak", "AH-nahq", "child", "The final k is a catch in the throat, q."], ["teh", "tehh", "tea", "The strong e, eh; the final h is breathed out. One syllable, so no capitals."]]}]],
     body: `
 <p>Indonesian uses the same letters as English, and its spelling is very regular: a handful of rules let you read almost any word. Under every Indonesian phrase in this course there is a pronunciation line in English letters.</p>
+<h3>The letters</h3>
+<p>All 26 letters are used. These sound much as in English, except that a final <b>k</b> or <b>h</b> works differently (see "How words end"). <b>q</b>, <b>v</b>, <b>x</b> and <b>z</b> turn up only in borrowed words, and <b>v</b> is usually said as f. The sections below cover the vowels, the letters that differ from English, and how words end. Tap a letter to hear it.</p>
+{{tiles:b=b d=d f=f h=h k=k l=l m=m n=n p=p s=s t=t w=w y=y z=z v=f q=k x=ks}}
 <h3>Six short, pure vowels</h3>
 <p>English vowels slide: say "no" slowly and your lips end on a w. Indonesian vowels stay put. The line writes them <i>ah, ee, oo, oh</i>, plus two sounds for one letter. The letter <b>e</b> is either the strong e, <i>eh</i> as in "bed", or the weak e, <i>uh</i> as in "about". The spelling never shows which, so learn it with the word; the pronunciation line always tells you. An <b>e</b> at the very end of a word is usually strong.</p>
 {{ex:enak|EH-nahq|delicious}}
 {{ex:besar|buh-SAHR|big}}
 {{ex:sore|SOH-reh|late afternoon}}
+<p>Tap a vowel to hear it.</p>
+{{tiles:a=ah i=ee u=oo e=uh_or_eh o=oh}}
 <h3>Capitals mean a slight lift</h3>
 <p>One syllable per word is in CAPITALS. It gets a slight lift, nothing like an English stress. Say every syllable evenly and keep every vowel full: never swallow the others the way English swallows the first a in "banana".</p>
 <h3>Letters that differ from English</h3>
@@ -20,6 +26,8 @@ module.exports = [
 {{ex:mangga|MAHNG-gah|mango}}
 {{ex:nyanyi|NYAH-nyee|to sing}}
 <p>Before <i>ee</i> and <i>eh</i>, the line writes a hard g as <i>gh</i>, so that you never read it like the g of "gem": <b>pagi</b> (morning) is <i>PAH-ghee</i>. The letter <b>t</b> is always a plain t, never "ch" and never "d". And <b>p, t, k</b> have no puff of air after them.</p>
+<p>Tap a letter or letter group to hear it.</p>
+{{tiles:c=ch j=j g=g r=r _ sy=sh kh=kh ng=ng ngg=ng_g ny=ny}}
 <h3>How words end</h3>
 <p>A final <b>k</b> is a catch in the throat, like the break in "uh-oh" (a glottal stop). The line writes it as <i>q</i>. Don't pop the k. A final <b>h</b> is breathed out, never dropped: the line adds an h after the vowel, <i>ahh</i>, <i>eeh</i>.</p>
 {{ex:tidak|TEE-dahq|not; no}}
@@ -27,10 +35,14 @@ module.exports = [
 <p><b>ai</b> and <b>au</b> at the end of a word are one sound, as in "Thai" and "how". Before a final consonant they split into two syllables.</p>
 {{ex:pantai|PAHN-tai|beach}}
 {{ex:baik|BAH-eeq|good; fine}}
+<p>Tap an ending to hear it.</p>
+{{tiles:-k=q -h=hh ai=ai au=ow}}
 <h3>The noun comes first</h3>
 <p>Many cards come as two-word phrases, and they show the language's biggest rule. English says "hot coffee"; Indonesian says <b>kopi panas</b>, literally "coffee hot". The noun comes first and the describing word follows.</p>
 {{ex:kopi panas|KOH-pee PAH-nahs|hot coffee}}
 {{ex:nasi goreng|NAH-see GOH-rehng|fried rice}}
+<h3>Read whole words</h3>
+<p>Now put it together. Read a word one piece at a time, left to right: each vowel short and full, each letter or letter group with its Indonesian sound, and the ending as you learned it. So <b>kucing</b> is k + u + c + i + ng: <i>KOO-cheeng</i>. Then give the syllable in capitals a slight lift. Each card's note breaks the word into its pieces. Say the word aloud before you flip it.</p>
 <p>Listen first, then read. The line is a crutch: hide it once the spelling feels natural.</p>
 <div class="tip"><b>Most common mistake:</b> reading c as k. <b>cantik</b> said "kantik" → <b>cantik</b> said with ch, as in "church".</div>
 `,
