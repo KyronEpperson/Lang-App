@@ -15,6 +15,18 @@
    ["a university", "/ə ˌjuːnɪˈvɜːrsəti/", "isang unibersidad", ""],
    ["double L", "/ˈdʌbl ˈel/", "dalawang magkasunod na L", ""],
    ["dot", "/ˈdɑːt/", "tuldok (sa email at website)", ""]
+  ], "drop": []},
+  "4": {"add": [
+   ["fish", "/ˈfɪʃ/", "isda", ""],
+   ["chair", "/ˈtʃer/", "upuan", ""],
+   ["phone", "/ˈfoʊn/", "telepono / cellphone", ""],
+   ["knife", "/ˈnaɪf/", "kutsilyo", ""],
+   ["cake", "/ˈkeɪk/", "keyk", ""],
+   ["bike", "/ˈbaɪk/", "bisikleta", ""],
+   ["nose", "/ˈnoʊz/", "ilong", ""],
+   ["green", "/ˈgriːn/", "berde / luntian", ""],
+   ["moon", "/ˈmuːn/", "buwan (sa langit)", ""],
+   ["night", "/ˈnaɪt/", "gabi", ""]
   ], "drop": []}
  },
  "pron": {

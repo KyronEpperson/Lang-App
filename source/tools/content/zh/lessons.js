@@ -16,7 +16,12 @@ exports.LESSONS = [
 <h3>字母名称前用 a 还是 an</h3>
 <p>冠词看字母名称的<b>第一个音</b>，不看字母本身。F、H、L、M、N、R、S、X 的名称都以元音开头，所以说 <b>an F</b>、<b>an H</b>、<b>an L</b>、<b>an M</b>、<b>an N</b>、<b>an R</b>、<b>an S</b>、<b>an X</b>。</p>
 <p>U 虽然是元音字母，名称却和 you 一样以 /j/ 开头，所以是 <b>a U</b>，道理和 a university 相同。</p>
-<div class="tip">报邮箱的说法：大写字母说 <b>capital T</b>，两个相同字母连在一起说 <b>double L</b>，@ 读 <b>at</b>，点（.）读 <b>dot</b>。例如 li.wei@mail.com 读作 <b>L-I dot W-E-I at mail dot com</b>。</div>`},
+<div class="tip">报邮箱的说法：大写字母说 <b>capital T</b>，两个相同字母连在一起说 <b>double L</b>，@ 读 <b>at</b>，点（.）读 <b>dot</b>。例如 li.wei@mail.com 读作 <b>L-I dot W-E-I at mail dot com</b>。</div>
+<h3>字母组合：几个字母拼一个音</h3>
+<p>认识了字母名称，下一步是看懂单词怎么读。拼音大多是一个字母对应一个音，英语却常用<b>两三个字母拼一个音</b>，而且同样的字母组合，在拼音里的读法可能完全不同。下面 12 个组合最常见，表里给的是它们<b>最常见的读音</b>，也有例外（比如 you 里的 ou、have 里的 a-e）。</p>
+<p>最需要当心的是和拼音长得一样的组合：拼音 <b>qu</b> 读“去”，英语 qu 读 /kw/，quick 开头不是“去”；拼音 <b>ou</b> 读“欧”，英语 ou 常读 /aʊ/，接近拼音 ao；拼音 <b>ai</b> 读“爱”，英语 ai 却读 /eɪ/，接近拼音 ei，所以 rain 和 A 的名称押韵。词尾不发音的 <b>e</b> 也很关键：它通常让前面的元音字母读成自己的<b>名称</b>，cake 的 a 读 /eɪ/，bike 的 i 读 /aɪ/。kn 开头的 k、igh 里的 gh 都不发音。th 怎么发音，见“发音陷阱”一课。</p>
+<div class="tbl"><table><tr><th>组合</th><th>读音</th><th>例词</th></tr><tr><td class="k">sh</td><td>/ʃ/</td><td>shop、fish</td></tr><tr><td class="k">ch</td><td>/tʃ/</td><td>chair、lunch</td></tr><tr><td class="k">th</td><td>/θ/、/ð/</td><td>thank、mother</td></tr><tr><td class="k">ph</td><td>/f/</td><td>phone、photo</td></tr><tr><td class="k">qu</td><td>/kw/</td><td>queen、quick</td></tr><tr><td class="k">kn</td><td>/n/（k 不发音）</td><td>knife、know</td></tr><tr><td class="k">a-e</td><td>/eɪ/（A 的名称）</td><td>cake、name</td></tr><tr><td class="k">i-e</td><td>/aɪ/（I 的名称）</td><td>bike、five</td></tr><tr><td class="k">ee</td><td>/iː/</td><td>green、feet</td></tr><tr><td class="k">ai</td><td>/eɪ/</td><td>rain、wait</td></tr><tr><td class="k">ou</td><td>/aʊ/</td><td>house、out</td></tr><tr><td class="k">igh</td><td>/aɪ/（gh 不发音）</td><td>high、night</td></tr></table></div>
+{{tiles:sh=/ʃ/ ch=/tʃ/ th=/θ/、/ð/ ph=/f/ qu=/kw/ kn=/n/ a-e=/eɪ/ i-e=/aɪ/ ee=/iː/ ai=/eɪ/ ou=/aʊ/ igh=/aɪ/}}`},
 
 { id:"pron", title:"1 · 发音陷阱：词尾辅音、TH、V/W、R/L", blurb:"先看懂美式音标，再攻克最常见的发音问题：词尾辅音、TH、V/W 和重音。", deck:"发音易错", body:`
 <p>这门课的卡片和例句都标了<b>国际音标</b>。符号是课本里学过的那一套，但标的是<b>美式发音</b>。先花两分钟认识几处不同，后面就能直接看音标跟读。不想看音标时，可以用“Aa 音标”开关或设置里的“练习时显示音标”把它关掉。</p>

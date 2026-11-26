@@ -1706,3 +1706,6 @@ Kii, on seeing the green buttons: "maybe make exam look like sheet paper but tha
 
 ### PM-4 — practice modes follow the picked deck (2.130.0)
 Kii picked Hangul vowels, pressed Exam and was asked other cards. Cause: the exam and Weak spots ignored the picked decks (they did so before PM-1 too; PM-1 put the deck picker right above them, which made it visible). Fixed for both; tests record the deck of every card shown in all four modes.
+
+### FND-1 — English for X, spelling patterns (2.131.0): all 26 English courses
+A last section in lesson 1: letter groups that read differently from the learner's own spelling, a table, flip tiles, 10 word cards. Writers and cold reviewers on Opus; all reviewers' must-fix items applied (mostly: rules stated without their everyday exceptions). Not read by a native speaker.

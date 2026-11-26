@@ -8,6 +8,18 @@
    ["a U", "/ə ˈjuː/", "ein U", ""],
    ["double L", "/ˈdʌbl ˈel/", "Doppel-L", ""],
    ["dot", "/ˈdɑːt/", "Punkt (in E-Mail- und Webadressen)", ""]
+  ]},
+  "4": {"add": [
+   ["sleep", "/ˈsliːp/", "schlafen", ""],
+   ["tea", "/ˈtiː/", "der Tee", ""],
+   ["moon", "/ˈmuːn/", "der Mond", ""],
+   ["house", "/ˈhaʊs/", "das Haus", ""],
+   ["rain", "/ˈreɪn/", "der Regen", ""],
+   ["night", "/ˈnaɪt/", "die Nacht", ""],
+   ["cake", "/ˈkeɪk/", "der Kuchen", ""],
+   ["white", "/ˈwaɪt/", "weiß", ""],
+   ["know", "/ˈnoʊ/", "wissen, kennen", ""],
+   ["queen", "/ˈkwiːn/", "die Königin", ""]
   ]}
  },
  "pron": {

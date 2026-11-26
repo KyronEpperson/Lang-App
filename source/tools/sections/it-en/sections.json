@@ -50,6 +50,70 @@
      ""
     ]
    ]
+  },
+  "4": {
+   "add": [
+    [
+     "shop",
+     "/ˈʃɑːp/",
+     "negozio",
+     ""
+    ],
+    [
+     "phone",
+     "/ˈfoʊn/",
+     "telefono",
+     ""
+    ],
+    [
+     "white",
+     "/ˈwaɪt/",
+     "bianco",
+     ""
+    ],
+    [
+     "knife",
+     "/ˈnaɪf/",
+     "coltello",
+     ""
+    ],
+    [
+     "night",
+     "/ˈnaɪt/",
+     "notte",
+     ""
+    ],
+    [
+     "cake",
+     "/ˈkeɪk/",
+     "torta",
+     ""
+    ],
+    [
+     "nose",
+     "/ˈnoʊz/",
+     "naso",
+     ""
+    ],
+    [
+     "green",
+     "/ˈgriːn/",
+     "verde",
+     ""
+    ],
+    [
+     "moon",
+     "/ˈmuːn/",
+     "luna",
+     ""
+    ],
+    [
+     "rain",
+     "/ˈreɪn/",
+     "pioggia; piovere",
+     ""
+    ]
+   ]
   }
  },
  "pron": {

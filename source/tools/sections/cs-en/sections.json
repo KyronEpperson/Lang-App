@@ -9,6 +9,18 @@
    ["double L", "/ˈdʌbl ˈel/", "dvě L (dvě stejná písmena za sebou)", ""],
    ["at", "/ˈæt/", "zavináč (@)", ""],
    ["dot", "/ˈdɑːt/", "tečka (v e-mailu)", ""]
+  ]},
+  "4": {"add": [
+   ["shop", "/ˈʃɑːp/", "obchod", ""],
+   ["chair", "/ˈtʃer/", "židle", ""],
+   ["queen", "/ˈkwiːn/", "královna", ""],
+   ["cake", "/ˈkeɪk/", "dort / koláč", ""],
+   ["time", "/ˈtaɪm/", "čas", ""],
+   ["home", "/ˈhoʊm/", "domov / doma", ""],
+   ["green", "/ˈgriːn/", "zelený", ""],
+   ["tea", "/ˈtiː/", "čaj", ""],
+   ["food", "/ˈfuːd/", "jídlo", ""],
+   ["house", "/ˈhaʊs/", "dům", ""]
   ]}
  },
  "pron": {

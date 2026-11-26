@@ -9,6 +9,18 @@
    ["double L", "DA-bel EL", "doble L (dos L seguidas)", ""],
    ["dot", "DAAT", "punto (en un correo o una web)", ""],
    ["at", "AT", "arroba (@)", ""]
+  ]},
+  "4": {"add": [
+   ["cake", "KEIK", "pastel", ""],
+   ["five", "FAIV", "cinco", ""],
+   ["green", "GRIIN", "verde", ""],
+   ["moon", "MUUN", "luna", ""],
+   ["rain", "REIN", "lluvia", ""],
+   ["night", "NAIT", "noche", ""],
+   ["queen", "KWIIN", "reina", ""],
+   ["phone", "FOUN", "teléfono, celular", ""],
+   ["know", "NOU", "saber; conocer", ""],
+   ["write", "RAIT", "escribir", ""]
   ]}
  },
  "pron": {

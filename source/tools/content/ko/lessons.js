@@ -13,7 +13,13 @@ exports.LESSONS = [
 <h3>글자 이름 앞의 a와 an</h3>
 <p>관사는 철자가 아니라 <b>이름의 첫소리</b>로 정해요. F(에프), H(에이치), L(엘), M(엠), N(엔), R(아r), S(에스), X(엑스)는 이름이 모음 소리로 시작해서 <b>an F, an H, an L, an M, an N, an R, an S, an X</b>예요.</p>
 <p>반대로 U는 모음 글자지만 이름이 y 소리 '유'로 시작해서 <b>a U</b>예요. a university와 같은 원리예요.</p>
-<div class="tip">이메일 불러 주기 공식: 대문자는 <b>capital T</b>, 같은 글자 두 개는 <b>double L</b>, @는 <b>at</b>, 점(.)은 <b>dot</b>이에요. 예: jay.park@mail.com → "jay dot park at mail dot com".</div>`},
+<div class="tip">이메일 불러 주기 공식: 대문자는 <b>capital T</b>, 같은 글자 두 개는 <b>double L</b>, @는 <b>at</b>, 점(.)은 <b>dot</b>이에요. 예: jay.park@mail.com → "jay dot park at mail dot com".</div>
+<h3>글자가 모이면: 영어 철자 읽기</h3>
+<p>한글은 글자마다 소리가 거의 정해져 있지만, 영어는 글자 두세 개가 모여 <b>새로운 소리 하나</b>를 만들기도 해요. 글자 이름을 알았으니 이제 자주 나오는 묶음을 익혀 둬요. 그러면 처음 보는 단어도 소리 내어 읽을 수 있어요.</p>
+<p><b>sh</b>는 '쉬', <b>ch</b>는 '취'예요. 하지만 school처럼 ch가 '크'로 나는 단어도 있어요. <b>th</b>는 ㅆ도 ㄷ도 아닌 소리인데, 다음 과에서 자세히 볼 거예요. <b>ph</b>는 p가 아니라 f 소리예요. <b>kn</b>의 k와 <b>wr</b>의 w는 소리가 나지 않아요(know, write).</p>
+<p><b>모음 + 자음 하나 + e</b>로 끝나는 단어에서 끝의 e는 소리가 나지 않고, 앞의 모음을 <b>글자 이름대로</b> 읽게 해요. he, she, me, we처럼 모음이 e 하나뿐인 짧은 단어에서는 e가 '이'로 소리 나요. cake는 '케이크', bike는 '바이크'예요. 단, have, give, come, love는 예외라서 따로 외워야 해요. <b>ee</b>는 길게 '이'예요. ea도 대개 '이'(eat, sea)지만 bread, head는 '에'예요. <b>oo</b>는 길게 '우'인데 book, good은 짧은 '우'예요(북, 굳). <b>igh</b>는 '아이'로 읽고, gh는 소리가 없어요. <b>ng</b>는 받침 ㅇ처럼 끝내고 뒤에 '그'를 붙이지 않아요. 규칙을 먼저 알고, 예외는 만날 때마다 하나씩 외우면 돼요.</p>
+<div class="tbl"><table><tr><th>철자</th><th>소리</th><th>예</th></tr><tr><td class="k">sh</td><td>쉬</td><td>ship, fish</td></tr><tr><td class="k">ch</td><td>취 (school은 '스쿨')</td><td>chair, lunch</td></tr><tr><td class="k">th</td><td>쓰 / 드 (th), 다음 과에서 연습</td><td>thank, mother</td></tr><tr><td class="k">ph</td><td>프 (f)</td><td>phone, photo</td></tr><tr><td class="k">ng</td><td>ㅇ 받침 (끝에 '그' 없이)</td><td>sing, long</td></tr><tr><td class="k">kn</td><td>ㄴ (k는 소리 없음)</td><td>know, knee</td></tr><tr><td class="k">a-e</td><td>에이 (have는 예외)</td><td>cake, name</td></tr><tr><td class="k">i-e</td><td>아이 (give는 예외)</td><td>bike, time</td></tr><tr><td class="k">o-e</td><td>오우 (come, love는 예외)</td><td>home, nose</td></tr><tr><td class="k">ee</td><td>이 (길게)</td><td>see, green</td></tr><tr><td class="k">oo</td><td>우 (book, good은 짧게)</td><td>moon, food</td></tr><tr><td class="k">igh</td><td>아이 (gh는 소리 없음)</td><td>night, high</td></tr></table></div>
+{{tiles:sh=쉬 ch=취 th=쓰·드_(th) ph=프_(f) ng=ㅇ_받침 kn=ㄴ_(n) a-e=에이 i-e=아이 o-e=오우 ee=이 oo=우 igh=아이}}`},
 
 { id:"pron", title:"1 · 발음 함정: R/L·F/P·TH·V/B", blurb:"한국어에 없는 소리 다섯 가지와 강세 — 이것만 잡아도 알아듣는 사람이 확 늘어요.", deck:"발음 주의", body:`
 <p>영어에는 한국어에 없는 소리가 몇 개 있어요. 원어민은 이 소리로 단어를 구분하기 때문에, 조금만 신경 써도 훨씬 잘 통해요. 핵심은 <b>입 모양</b>이에요. 거울을 보면서 연습해 보세요.</p>

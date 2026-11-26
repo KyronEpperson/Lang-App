@@ -8,6 +8,18 @@
    ["double L", "/ˈdʌbl ˈel/", "duha ka L (LL)", ""],
    ["dot", "/ˈdɑːt/", "tulbok (.) sa email address", ""],
    ["at", "/ˈæt/", "@ sa email address", ""]
+  ]},
+  "4": {"add": [
+   ["fish", "/ˈfɪʃ/", "isda", ""],
+   ["chair", "/ˈtʃer/", "lingkoranan", ""],
+   ["phone", "/ˈfoʊn/", "telepono", ""],
+   ["duck", "/ˈdʌk/", "pato", ""],
+   ["knife", "/ˈnaɪf/", "kutsilyo", ""],
+   ["write", "/ˈraɪt/", "mosulat", ""],
+   ["cake", "/ˈkeɪk/", "keyk", ""],
+   ["moon", "/ˈmuːn/", "bulan (sa langit)", ""],
+   ["house", "/ˈhaʊs/", "balay", ""],
+   ["night", "/ˈnaɪt/", "gabii", ""]
   ]}
  },
  "pron": {

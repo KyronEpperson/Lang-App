@@ -8,6 +8,18 @@
     ["double L", "DA-bel él", "dua huruf L berurutan", ""],
     ["dot", "daat", "titik (dalam alamat email)", ""],
     ["at", "èt", "@ (dalam alamat email)", ""]
+  ]},
+  "4": {"add": [
+    ["chair", "cér", "kursi (ch dibaca c)", ""],
+    ["phone", "foun", "telepon (ph dibaca f)", ""],
+    ["knife", "naif", "pisau (k tidak dibaca)", ""],
+    ["cake", "keik", "kue (a-e dibaca ei)", ""],
+    ["nose", "nouz", "hidung (o-e dibaca ou)", ""],
+    ["green", "griin", "hijau (ee dibaca ii)", ""],
+    ["moon", "muun", "bulan di langit (oo dibaca uu)", ""],
+    ["rain", "rein", "hujan (ai dibaca ei)", ""],
+    ["house", "haus", "rumah (ou dibaca au)", ""],
+    ["night", "nait", "malam (igh dibaca ai)", ""]
   ]}
  },
  "pron": {

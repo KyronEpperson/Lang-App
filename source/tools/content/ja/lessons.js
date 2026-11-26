@@ -13,7 +13,12 @@ exports.LESSONS = [
 <h3>文字の名前の前の a と an</h3>
 <p>冠詞はつづりではなく、<b>名前の最初の音</b>で決まります。F（エフ）、H（エイチ）、L（エル）、M（エム）、N（エン）、R（アー）、S（エス）、X（エックス）は名前が母音の音で始まるので、<b>an F, an H, an L, an M, an N, an R, an S, an X</b> です。</p>
 <p>反対に U は母音字ですが、名前が「ユー」と y の音で始まるので <b>a U</b> です。a university と同じ考え方です。</p>
-<div class="tip">メールアドレスの伝え方：大文字は <b>capital T</b>、同じ文字が二つ続くときは <b>double L</b>、@ は <b>at</b>、ドット（.）は <b>dot</b> と言います。例：yuki.sato@mail.com → yuki dot sato at mail dot com。</div>`},
+<div class="tip">メールアドレスの伝え方：大文字は <b>capital T</b>、同じ文字が二つ続くときは <b>double L</b>、@ は <b>at</b>、ドット（.）は <b>dot</b> と言います。例：yuki.sato@mail.com → yuki dot sato at mail dot com。</div>
+<h3>つづりと音：ローマ字読みから卒業</h3>
+<p>文字の名前を覚えたら、次は<b>つづりの読み方</b>です。ローマ字の感覚で ai を「アイ」、ou を「オウ」、oo を「オー」と読みたくなりますが、英語では、同じつづりでもローマ字とはまったく違う音になります。rain は「ライン」ではなく<b>ゥレイン</b>、house は「ホウセ」ではなく<b>ハウス</b>です。sh と ch はふつうローマ字に近い音ですが（ch は school のように k の音になることもあります）、th の口の形は「発音の落とし穴」で練習します。ここでは、ローマ字読みでは読めない12のつづりを覚えましょう。</p>
+<div class="tbl"><table><tr><th>つづり</th><th>音</th><th>例</th></tr><tr><td class="k">ai</td><td>エイ</td><td>rain ゥレイン, wait ウェイト</td></tr><tr><td class="k">ee</td><td>イー</td><td>green グリーン, sleep スリープ</td></tr><tr><td class="k">ea</td><td>イー</td><td>tea ティー, eat イート</td></tr><tr><td class="k">oo</td><td>ウー</td><td>moon ムーン, school スクール</td></tr><tr><td class="k">ou</td><td>アウ</td><td>house ハウス, out アウト</td></tr><tr><td class="k">igh</td><td>アイ（gh は読まない）</td><td>night ナイト, high ハイ</td></tr><tr><td class="k">a-e</td><td>エイ（e は読まない）</td><td>cake ケイク, make メイク</td></tr><tr><td class="k">i-e</td><td>アイ（e は読まない）</td><td>time タイム, bike バイク</td></tr><tr><td class="k">o-e</td><td>オウ（e は読まない）</td><td>home ホウム, phone フォウン</td></tr><tr><td class="k">ph</td><td>フ (f)</td><td>photo フォウロウ, alphabet アルファベット</td></tr><tr><td class="k">ck</td><td>ク</td><td>black ブラック, clock クラック</td></tr><tr><td class="k">kn</td><td>ヌ（k は読まない）</td><td>know ノウ, knife ナイフ</td></tr></table></div>
+{{tiles:ai=エイ ee=イー ea=イー oo=ウー ou=アウ igh=アイ a-e=エイ i-e=アイ o-e=オウ ph=フ_(f) ck=ク kn=ヌ}}
+<p><b>a-e・i-e・o-e</b> は、母音字のあとに子音字が一つあり、最後に e がつく形です。最後の e は読まず、前の母音字を<b>文字の名前どおり</b>（エイ・アイ・オウ）に読みます。cake は「カケ」ではなくケイク、time は「ティメ」ではなくタイムです。ay も ai と同じエイ（day デイ）です。ただし、よく使う単語には例外もあります。oo は book（ブック）、good（グッド）のように短い「ウ」、ea は bread（ブレッド）、head（ヘッド）のように「エ」、ou は you（ユー）、o-e は come（カム）、love（ラヴ）、a-e は have（ハヴ）、i-e は give（ギヴ）になります。</p>`},
 
 { id:"pron",title:"1 · 発音の落とし穴：R/L・TH・F/H・V/B", blurb:"日本語にない音とカタカナ英語のくせ。ここを直すだけで、ぐっと通じやすくなります。", deck:"発音注意", body:`
 <p>英語には日本語にない音がいくつかあります。ネイティブはこれらの音で単語を区別するので、少し意識するだけで通じやすさが大きく変わります。ポイントは<b>口の形</b>です。鏡を見ながら練習してみましょう。</p>

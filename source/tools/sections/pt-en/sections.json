@@ -13,6 +13,18 @@
    ["a U", "/ə ˈjuː/", "um U", ""],
    ["double L", "/ˈdʌbl ˈel/", "dois L seguidos (LL)", ""],
    ["ana dot silva at example dot com", "/ˈænə ˈdɑːt ˈsɪlvə ˈæt ɪgˈzæmpl ˈdɑːt ˈkɑːm/", "ana.silva@example.com (ditando um e-mail)", ""]
+  ]},
+  "4": {"add": [
+   ["cheese", "/ˈtʃiːz/", "queijo", ""],
+   ["queen", "/ˈkwiːn/", "rainha", ""],
+   ["cake", "/ˈkeɪk/", "bolo", ""],
+   ["five", "/ˈfaɪv/", "cinco", ""],
+   ["nose", "/ˈnoʊz/", "nariz", ""],
+   ["moon", "/ˈmuːn/", "lua", ""],
+   ["house", "/ˈhaʊs/", "casa", ""],
+   ["rain", "/ˈreɪn/", "chuva", ""],
+   ["night", "/ˈnaɪt/", "noite", ""],
+   ["knife", "/ˈnaɪf/", "faca", ""]
   ]}
  },
  "pron": {

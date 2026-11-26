@@ -52,6 +52,71 @@
     ]
    ],
    "drop": []
+  },
+  "4": {
+   "add": [
+    [
+     "white",
+     "/waɪt/",
+     "màu trắng",
+     ""
+    ],
+    [
+     "clock",
+     "/klɑːk/",
+     "đồng hồ (treo tường, để bàn)",
+     ""
+    ],
+    [
+     "cake",
+     "/keɪk/",
+     "bánh ngọt",
+     ""
+    ],
+    [
+     "five",
+     "/faɪv/",
+     "số 5",
+     ""
+    ],
+    [
+     "nose",
+     "/noʊz/",
+     "cái mũi",
+     ""
+    ],
+    [
+     "green",
+     "/griːn/",
+     "màu xanh lá",
+     ""
+    ],
+    [
+     "moon",
+     "/muːn/",
+     "mặt trăng",
+     ""
+    ],
+    [
+     "mouth",
+     "/maʊθ/",
+     "cái miệng",
+     ""
+    ],
+    [
+     "wait",
+     "/weɪt/",
+     "chờ, đợi",
+     ""
+    ],
+    [
+     "knife",
+     "/naɪf/",
+     "con dao",
+     ""
+    ]
+   ],
+   "drop": []
   }
  },
  "pron": {

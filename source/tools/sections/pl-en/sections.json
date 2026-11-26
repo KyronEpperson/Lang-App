@@ -8,6 +8,18 @@
    ["double N", "/ˈdʌbl ˈen/", "dwie litery N pod rząd", ""],
    ["dot", "/ˈdɑːt/", "kropka (w adresie e-mail)", ""],
    ["at", "/ˈæt/", "małpa (@) w adresie e-mail", ""]
+  ]},
+  "4": {"add": [
+   ["shop", "/ˈʃɑːp/", "sklep", ""],
+   ["chair", "/ˈtʃer/", "krzesło", ""],
+   ["phone", "/ˈfoʊn/", "telefon", ""],
+   ["white", "/ˈwaɪt/", "biały", ""],
+   ["name", "/ˈneɪm/", "imię / nazwa", ""],
+   ["time", "/ˈtaɪm/", "czas / godzina", ""],
+   ["home", "/ˈhoʊm/", "dom (miejsce, gdzie się mieszka)", ""],
+   ["tea", "/ˈtiː/", "herbata", ""],
+   ["night", "/ˈnaɪt/", "noc", ""],
+   ["know", "/ˈnoʊ/", "wiedzieć / znać", ""]
   ]}
  },
  "pron": {
