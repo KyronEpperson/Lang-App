@@ -1,0 +1,904 @@
+{"id":"yue.c0001","meaning":"to have","note":"j sounds like English y: jau5 rhymes with 'how' after a y."}
+{"id":"yue.c0002","meaning":"early","note":"z is like the ds in 'beds', with no puff of air. c (as in 草 cou2) has the puff."}
+{"id":"yue.c0003","meaning":"grass","note":"c is like the ts in 'cats', with a puff of air: cou2. Compare 早 zou2, no puff."}
+{"id":"yue.c0004","meaning":"I; me","note":"ng- at the start, like the ng of 'singer'. Many young speakers say o5; learn ngo5."}
+{"id":"yue.c0005","meaning":"three","note":"aa is long, as in 'father'. 心 sam1 (heart) has the short a."}
+{"id":"yue.c0006","meaning":"heart","note":"Short a, like the u in 'sum': sam1. Compare 三 saam1, with a long aa."}
+{"id":"yue.c0007","meaning":"ten","note":"Final p: close your lips and stop. No puff, no extra vowel."}
+{"id":"yue.c0008","meaning":"seven","note":"Final t: touch the tongue behind your teeth and stop without releasing it: cat1."}
+{"id":"yue.c0009","meaning":"six","note":"Final k: stop at the back of the mouth, with no puff: luk6."}
+{"id":"yue.c0010","meaning":"ball","note":"b has no puff of air, closer to the p in 'spin' than to English b."}
+{"id":"yue.c0011","meaning":"old woman","note":"p has a strong puff of air, like the p in 'pin'. 婆婆 is grandma (mother's mother)."}
+{"id":"yue.c0012","meaning":"to hit; to play (a sport)","note":"d has no puff, like the t in 'stop'. t (睇 tai2, to look) has the puff."}
+{"id":"yue.c0013","meaning":"expensive","note":"gw is one sound, a g with rounded lips: gwai3."}
+{"id":"yue.c0014","meaning":"to go","note":"eo is one rounded vowel, a little like the u in 'fur' with rounded lips: heoi3."}
+{"id":"yue.c0015","meaning":"boot","note":"oe is like the e in 'her' said with rounded lips: hoe1."}
+{"id":"yue.c0016","meaning":"book","note":"yu is 'ee' said with rounded lips, like German ü: syu1. Not 'syoo'."}
+{"id":"yue.c0017","meaning":"not","note":"Syllabic m: hum with closed lips on a low falling tone, m4. Not 'um'."}
+{"id":"yue.c0018","meaning":"five","note":"Syllabic ng: hum through the nose with the back of the tongue raised, ng5. Many people say m5."}
+{"id":"yue.c0019","meaning":"poem","note":"Tone 1: high and level. Its twins: 史 si2, 試 si3, 時 si4, 市 si5, 事 si6."}
+{"id":"yue.c0020","meaning":"history","note":"Tone 2: starts in the middle and rises, like a surprised 'huh?'."}
+{"id":"yue.c0021","meaning":"to try","note":"Tone 3: mid and level, like speaking calmly."}
+{"id":"yue.c0022","meaning":"time; hour","note":"Tone 4: low and falling, the lowest tone."}
+{"id":"yue.c0023","meaning":"city; market","note":"Tone 5: starts low and rises a little. Less of a rise than tone 2 (史 si2)."}
+{"id":"yue.c0024","meaning":"matter; thing to do","note":"Tone 6: low and level. 有事 = something's up; 冇事 = I'm fine."}
+{"id":"yue.c0025","meaning":"to buy","note":"Tone 5: low, rising a little. Say it with tone 6 and you get 賣 (to sell)."}
+{"id":"yue.c0026","meaning":"to sell","note":"Tone 6: low and level. Mix up 買 and 賣 and you swap buyer and seller."}
+{"id":"yue.c0027","meaning":"to be","note":"Tone 6: low and level, hai6. Its twin 喺 hai2 (at, in) rises."}
+{"id":"yue.c0028","meaning":"at; in","note":"Tone 2: rising, hai2. Say it low and level and you get 係 hai6 (to be)."}
+{"id":"yue.c0029","meaning":"four","note":"Tone 3: mid and level, sei3. With tone 2 (sei2) it becomes 死, to die."}
+{"id":"yue.c0030","meaning":"to die","note":"Tone 2: rising, sei2. This is why 4 is an unlucky number in Hong Kong."}
+{"id":"yue.c0031","meaning":"nine","note":"Tone 2: rising, gau2. Its twins: 夠 gau3 (enough), 舊 gau6 (old)."}
+{"id":"yue.c0032","meaning":"enough","note":"Tone 3: mid and level, gau3. 夠喇 = that's enough."}
+{"id":"yue.c0033","meaning":"old (of things)","note":"Tone 6: low and level, gau6. For people, old is 老."}
+{"id":"yue.c0034","meaning":"rice noodles; powder","note":"Tone 2: rising, fan2. Its twin 瞓 fan3 (to sleep) is mid and level."}
+{"id":"yue.c0035","meaning":"to sleep","note":"Tone 3: mid and level, fan3. 瞓覺 = to go to sleep."}
+{"id":"yue.c0036","meaning":"horse","note":"Tone 5: low rising, maa5. 媽 maa1 (mom) is tone 1, 麻 maa4 (numb) is tone 4."}
+{"id":"yue.c0037","meaning":"person","note":"Two legs walking."}
+{"id":"yue.c0038","meaning":"mouth","note":"As a radical on the left it often marks a spoken-Cantonese word: 嘅 咗 啲 嘢 呢."}
+{"id":"yue.c0039","meaning":"sun; day","note":"Once a circle with a dot. 今日 = today."}
+{"id":"yue.c0040","meaning":"moon; month","note":"A crescent moon. 一月 = January, 一個月 = one month."}
+{"id":"yue.c0041","meaning":"bright","note":"日 (sun) + 月 (moon)."}
+{"id":"yue.c0042","meaning":"mountain; hill","note":"Three peaks. 山頂 is the Peak on Hong Kong Island."}
+{"id":"yue.c0043","meaning":"water","note":"A stream with drops on both sides."}
+{"id":"yue.c0044","meaning":"wood; tree","note":"A tree with branches and roots."}
+{"id":"yue.c0045","meaning":"woods","note":"Two trees. Also a common family name, Lam."}
+{"id":"yue.c0046","meaning":"to rest","note":"人 (person) + 木 (tree): a person leaning on a tree. 休息 = to rest."}
+{"id":"yue.c0047","meaning":"big","note":"A person with arms stretched wide."}
+{"id":"yue.c0048","meaning":"small","note":"Little dots: the opposite of 大."}
+{"id":"yue.c0049","meaning":"door; gate","note":"Two swinging doors, like a saloon. 門口 = doorway, entrance."}
+{"id":"yue.c0050","meaning":"hand","note":"A hand with its fingers. 手機 = cell phone."}
+{"id":"yue.c0051","meaning":"good","note":"女 (woman) + 子 (child). Also 'very': 好平 (very cheap)."}
+{"id":"yue.c0052","meaning":"'s; of (links owner and noun)","note":"口 + 既: a spoken-Cantonese character. 我嘅 = my, mine."}
+{"id":"yue.c0053","meaning":"(marks a finished action)","note":"口 + 左: 食咗 = have eaten. Never written in formal Chinese."}
+{"id":"yue.c0054","meaning":"thing; stuff","note":"口 + 野: 買嘢 = to buy things, 食嘢 = to eat something."}
+{"id":"yue.c0055","meaning":"Good morning!","note":"Until about noon. There is no everyday 'good afternoon'."}
+{"id":"yue.c0056","meaning":"Thanks! / Excuse me! (for a service)","note":"For a service or a small favor, and to call a server. Literally 'it shouldn't be'."}
+{"id":"yue.c0057","meaning":"Thank you! (for a gift or kind words)","note":"For gifts, money and compliments. To a server, say 唔該."}
+{"id":"yue.c0058","meaning":"Excuse me. / Sorry. (small things)","note":"Bumping into someone, being late. A real apology is 對唔住."}
+{"id":"yue.c0059","meaning":"Bye!","note":"From English 'bye-bye', the usual goodbye. 再見 is more formal."}
+{"id":"yue.c0060","meaning":"Hello!","note":"For strangers and first meetings. With friends it sounds stiff: say their name or 早晨."}
+{"id":"yue.c0061","meaning":"Thanks so much! (for help)","note":"晒 makes it stronger. For help with directions, a door held open, a favor."}
+{"id":"yue.c0062","meaning":"Thank you so much! (for a gift)","note":"Warmer than 多謝 alone, for a present or a treat."}
+{"id":"yue.c0063","meaning":"You're welcome.","note":"Literally 'no need to be polite'. Also just 唔使."}
+{"id":"yue.c0064","meaning":"I'm sorry.","note":"A real apology, when you were in the wrong."}
+{"id":"yue.c0065","meaning":"It's OK. / Never mind.","note":"The usual answer to 唔好意思 or 對唔住."}
+{"id":"yue.c0066","meaning":"No problem.","note":"Many people just say OK here."}
+{"id":"yue.c0067","meaning":"Good night! (get some rest)","note":"Said to someone going to bed, or at the end of a late chat."}
+{"id":"yue.c0068","meaning":"Long time no see!","note":"Literally 'very long, not seen'."}
+{"id":"yue.c0069","meaning":"Happy birthday!","note":"快樂 = happy. For the Lunar New Year, say 恭喜發財 or 新年快樂."}
+{"id":"yue.c0070","meaning":"Please have a seat.","note":"請 invites: 請坐, 請入嚟 (please come in). It is not a general 'please'."}
+{"id":"yue.c0071","meaning":"Hello? (on the phone)","note":"Only for answering the phone or calling out to someone."}
+{"id":"yue.c0072","meaning":"Happy Lunar New Year!","note":"Literally 'wishing you wealth'. You can answer with the same words."}
+{"id":"yue.c0073","meaning":"they; them","note":"哋 makes a pronoun plural: 我哋 (we), 你哋 (you all)."}
+{"id":"yue.c0074","meaning":"we; us","note":"我 + 哋. There is one word for 'we', whether or not it includes the listener."}
+{"id":"yue.c0075","meaning":"mom","note":"The second syllable rises to tone 1: maa4 maa1."}
+{"id":"yue.c0076","meaning":"dad","note":"Like 媽媽, the second syllable rises: baa4 baa1."}
+{"id":"yue.c0077","meaning":"older brother","note":"There is no plain 'brother': younger brother is 細佬."}
+{"id":"yue.c0078","meaning":"older sister","note":"There is no plain 'sister': younger sister is 細妹."}
+{"id":"yue.c0079","meaning":"younger brother","note":"Older brother: 哥哥. 細佬 is also 'little brother' in general."}
+{"id":"yue.c0080","meaning":"younger sister","note":"Older sister: 家姐."}
+{"id":"yue.c0081","meaning":"grandpa (father's father)","note":"Your mother's father is 公公."}
+{"id":"yue.c0082","meaning":"grandma (father's mother)","note":"Your mother's mother is 婆婆."}
+{"id":"yue.c0083","meaning":"grandpa (mother's father)","note":"Your father's father is 爺爺."}
+{"id":"yue.c0084","meaning":"grandma (mother's mother)","note":"Your father's mother is 嫲嫲."}
+{"id":"yue.c0085","meaning":"husband","note":"The everyday word. 老婆 is wife."}
+{"id":"yue.c0086","meaning":"wife","note":"Everyday and affectionate, not rude as 'old woman' might sound."}
+{"id":"yue.c0087","meaning":"son","note":"Literally 'the boy'. Daughter: 個女. 我個仔 = my son."}
+{"id":"yue.c0088","meaning":"friend","note":"我朋友 (my friend): no 嘅 needed with close people."}
+{"id":"yue.c0089","meaning":"He's my friend.","note":"佢 is he, she or it: the context tells you which."}
+{"id":"yue.c0090","meaning":"There are four people in my family.","note":"屋企 = home, family. People take the classifier 個."}
+{"id":"yue.c0091","meaning":"My name is Anna.","note":"叫 = to be called."}
+{"id":"yue.c0092","meaning":"What's your name?","note":"The question word sits where the answer goes: 我叫安娜."}
+{"id":"yue.c0093","meaning":"My last name is Chan.","note":"姓 = to have the family name. The family name comes first: 陳大文."}
+{"id":"yue.c0094","meaning":"Just call me Ming.","note":"阿 + a name is the friendly form. Many Hong Kong people also use an English name."}
+{"id":"yue.c0095","meaning":"Where are you from?","note":"Literally 'you are a where person?'. Answer: 我係美國人."}
+{"id":"yue.c0096","meaning":"I'm American.","note":"Country + 人 (person): 香港人, 中國人."}
+{"id":"yue.c0097","meaning":"I'm Canadian.","note":"加拿大 = Canada. No word for 'a': 我係 + nationality."}
+{"id":"yue.c0098","meaning":"I live in San Francisco.","note":"三藩市 is the name Cantonese speakers use; 舊金山 is also heard."}
+{"id":"yue.c0099","meaning":"I'm a nurse.","note":"No word for 'a' before a job: 我係老師, 我係醫生."}
+{"id":"yue.c0100","meaning":"I'm twenty-eight.","note":"No 係 before an age. 今年 = this year."}
+{"id":"yue.c0101","meaning":"I can speak a little Cantonese.","note":"識 = know how to. 少少 = a little."}
+{"id":"yue.c0102","meaning":"I'm learning Cantonese.","note":"緊 after the verb: in the middle of doing it."}
+{"id":"yue.c0103","meaning":"I speak English and Cantonese.","note":"同 joins two nouns: 英文同廣東話."}
+{"id":"yue.c0104","meaning":"I don't speak Mandarin.","note":"普通話 is Mandarin. Cantonese is 廣東話."}
+{"id":"yue.c0105","meaning":"I speak Cantonese at home.","note":"Where comes before the verb: 喺屋企 + 講."}
+{"id":"yue.c0106","meaning":"I like watching movies.","note":"鍾意 + verb = like doing. 睇戲 = to see a movie."}
+{"id":"yue.c0107","meaning":"My phone number is 9876 5432.","note":"Read phone numbers digit by digit. Hong Kong numbers have eight digits."}
+{"id":"yue.c0108","meaning":"two (of something)","note":"兩 before a classifier, never 二: 兩個人, 兩杯茶."}
+{"id":"yue.c0109","meaning":"fifteen","note":"Ten + five. Fifty is 五十."}
+{"id":"yue.c0110","meaning":"twenty","note":"In speech, twenty-something is often 廿: 廿五 (25)."}
+{"id":"yue.c0111","meaning":"twenty-five (spoken form)","note":"廿 (jaa6) is a short way to say 二十 in numbers from 21 to 29."}
+{"id":"yue.c0112","meaning":"forty-eight","note":"Four tens and eight: no extra word for 'and'."}
+{"id":"yue.c0113","meaning":"ninety-nine","note":"Nine tens + nine: 九十九."}
+{"id":"yue.c0114","meaning":"a hundred and fifty","note":"Short for 一百五十. 105 is 一百零五."}
+{"id":"yue.c0115","meaning":"a hundred and five","note":"零 (zero) marks the empty tens place."}
+{"id":"yue.c0116","meaning":"one thousand","note":"One thousand: 一千. Two thousand is 兩千 or 二千."}
+{"id":"yue.c0117","meaning":"two thousand","note":"2,000 is 兩千 or 二千, both common; 二 always stays in 二十 and 十二."}
+{"id":"yue.c0118","meaning":"ten thousand","note":"Cantonese counts in 萬 (10,000): 100,000 is 十萬."}
+{"id":"yue.c0119","meaning":"one million","note":"A hundred 萬: 100 × 10,000."}
+{"id":"yue.c0120","meaning":"zero","note":"In phone numbers, say 零 for each 0."}
+{"id":"yue.c0121","meaning":"a hundred dollars","note":"蚊 = dollar in speech: 五十蚊, 一百蚊."}
+{"id":"yue.c0122","meaning":"25 dollars","note":"蚊 is 'dollar' in speech; 元 is the written word on price tags."}
+{"id":"yue.c0123","meaning":"three dollars fifty","note":"半 = half, so half a dollar after 蚊."}
+{"id":"yue.c0124","meaning":"fifty cents","note":"毫子 = ten cents: 五毫子 is five ten-cent units."}
+{"id":"yue.c0125","meaning":"Hong Kong dollars","note":"Written HK$ or HKD. Money in speech: 蚊."}
+{"id":"yue.c0126","meaning":"one person; a person","note":"個 is the general classifier, but many nouns have their own."}
+{"id":"yue.c0127","meaning":"three books","note":"本 for books and magazines. Not 三書."}
+{"id":"yue.c0128","meaning":"this book","note":"呢 + classifier + noun: never 呢書."}
+{"id":"yue.c0129","meaning":"Which book?","note":"邊 + classifier asks 'which'."}
+{"id":"yue.c0130","meaning":"Where's the book?","note":"A classifier with no number in front means 'the': 本書."}
+{"id":"yue.c0131","meaning":"two tickets","note":"張 for flat things: tickets, tables, photos, paper. 飛 is 'ticket' (from English 'fare')."}
+{"id":"yue.c0132","meaning":"a table","note":"張 again: tables are flat. 枱 is also a desk."}
+{"id":"yue.c0133","meaning":"a cat","note":"隻 for most animals, and for one of a pair (一隻鞋)."}
+{"id":"yue.c0134","meaning":"two dogs","note":"兩 + 隻 + 狗. 二隻 is wrong."}
+{"id":"yue.c0135","meaning":"my phone","note":"Owner + classifier + noun means 'my': no 嘅 needed."}
+{"id":"yue.c0136","meaning":"a car","note":"架 for cars, planes and bikes."}
+{"id":"yue.c0137","meaning":"a top; a piece of clothing","note":"件 for shirts, jackets and most clothes."}
+{"id":"yue.c0138","meaning":"a pair of pants","note":"條 for long, thin things: pants, roads, fish. One 條, not 'a pair'."}
+{"id":"yue.c0139","meaning":"a pair of shoes","note":"對 = pair. One shoe is 一隻鞋."}
+{"id":"yue.c0140","meaning":"a glass of water","note":"杯 for a cup or glass of a drink. Not 一個水."}
+{"id":"yue.c0141","meaning":"a bowl of rice","note":"碗 = bowl, used as the classifier."}
+{"id":"yue.c0142","meaning":"that person","note":"嗰 = that: 嗰 + classifier + noun."}
+{"id":"yue.c0143","meaning":"How many people?","note":"幾 + classifier asks how many, for small numbers."}
+{"id":"yue.c0144","meaning":"to have dim sum (yum cha)","note":"Literally 'drink tea': a dim sum meal with tea."}
+{"id":"yue.c0145","meaning":"dim sum","note":"The small dishes themselves. 飲茶 is the meal."}
+{"id":"yue.c0146","meaning":"shrimp dumplings","note":"A dim sum classic: 一籠蝦餃 (a steamer of shrimp dumplings)."}
+{"id":"yue.c0147","meaning":"siu mai (pork dumplings)","note":"The open dumplings with a yellow wrapper. 賣 rises here: siu1 maai2."}
+{"id":"yue.c0148","meaning":"barbecue pork bun","note":"叉燒 = Cantonese barbecue pork, 包 = bun."}
+{"id":"yue.c0149","meaning":"rice noodle rolls","note":"Soft rolls with shrimp or barbecue pork, in sweet soy sauce."}
+{"id":"yue.c0150","meaning":"egg tart","note":"A Hong Kong bakery favorite."}
+{"id":"yue.c0151","meaning":"pineapple bun","note":"No pineapple inside: the crackly top looks like one."}
+{"id":"yue.c0152","meaning":"a bowl of wonton noodles","note":"碗 for a bowl. Wontons with shrimp in a light broth."}
+{"id":"yue.c0153","meaning":"iced milk tea","note":"Hong Kong milk tea, strong and creamy. Hot: 熱奶茶."}
+{"id":"yue.c0154","meaning":"iced lemon tea","note":"The cha chaan teng classic. Stir to crush the lemon."}
+{"id":"yue.c0155","meaning":"yuenyeung (coffee with tea)","note":"Coffee and milk tea mixed. Named after a pair of mandarin ducks."}
+{"id":"yue.c0156","meaning":"A coffee, please.","note":"唔該 + 我要 + number + classifier + drink."}
+{"id":"yue.c0157","meaning":"No ice, please.","note":"走 = leave out. Less sweet: 少甜."}
+{"id":"yue.c0158","meaning":"How many in your party?","note":"What staff ask at the door. 位 is the polite classifier for people. Answer: 兩位."}
+{"id":"yue.c0159","meaning":"For here or to go?","note":"定 = or, in questions. 外賣 = takeout."}
+{"id":"yue.c0160","meaning":"Why don't we go for dim sum?","note":"不如 suggests; 吖 makes it a friendly invitation."}
+{"id":"yue.c0161","meaning":"Check, please!","note":"Say it to any server, or draw a little circle in the air."}
+{"id":"yue.c0162","meaning":"How much is it?","note":"呀 makes it friendly. Answer: 三十蚊."}
+{"id":"yue.c0163","meaning":"Could you make it a bit cheaper?","note":"Fine at markets, not in malls or chain stores."}
+{"id":"yue.c0164","meaning":"Do you have it in a large?","note":"Sizes: 細碼, 中碼, 大碼."}
+{"id":"yue.c0165","meaning":"I'm just looking.","note":"先 at the end: 'first', i.e. for now."}
+{"id":"yue.c0166","meaning":"Can I pay with an Octopus card?","note":"八達通: the transit card that also pays in shops."}
+{"id":"yue.c0167","meaning":"How much is this top?","note":"件 is the classifier for clothes on the upper body: 一件衫, 呢件外套."}
+{"id":"yue.c0168","meaning":"That's too expensive!","note":"太 = too. 喇 marks a new situation: 'now it's too much'."}
+{"id":"yue.c0169","meaning":"I'll take this one.","note":"Talking about clothes, so the classifier 件 stands in for the noun."}
+{"id":"yue.c0170","meaning":"Could I see that one?","note":"嗰 = that, 呢 = this. 睇吓 = have a look."}
+{"id":"yue.c0171","meaning":"Can I try it on?","note":"試吓 = give it a try. Works for clothes, shoes and food samples."}
+{"id":"yue.c0172","meaning":"Do you have it in another color?","note":"第二 here means 'another', not 'second'. 隻 is the classifier for colors: 呢隻色."}
+{"id":"yue.c0173","meaning":"It fits just right.","note":"啱 = right, fitting. Too big: 太大喇. Too small: 太細喇."}
+{"id":"yue.c0174","meaning":"It's too small.","note":"細 = small. The opposite is 大."}
+{"id":"yue.c0175","meaning":"Do you take credit cards?","note":"收 = accept. Small shops and market stalls often take only cash or Octopus."}
+{"id":"yue.c0176","meaning":"I'll pay cash.","note":"畀 = give, pay. Many people just say 'cash' in English here."}
+{"id":"yue.c0177","meaning":"I don't have small change.","note":"散紙 = coins and small bills. 冇 = don't have."}
+{"id":"yue.c0178","meaning":"No bag, thanks.","note":"Hong Kong charges for plastic bags, so you will often be asked 使唔使袋呀？"}
+{"id":"yue.c0179","meaning":"I'd like to buy a present.","note":"份 is the classifier for gifts and newspapers."}
+{"id":"yue.c0180","meaning":"tomorrow","note":"Time words go before the verb: 我聽日去."}
+{"id":"yue.c0181","meaning":"Monday","note":"星期 + number; Sunday is 星期日. 禮拜一 means the same."}
+{"id":"yue.c0182","meaning":"What time is it now?","note":"點 = o'clock: 三點 (three o'clock)."}
+{"id":"yue.c0183","meaning":"half past three","note":"半 = half."}
+{"id":"yue.c0184","meaning":"December 3","note":"Month first, then day: big to small."}
+{"id":"yue.c0185","meaning":"What day is it today?","note":"幾 asks 'which number': the answer is 星期五, 星期六 and so on."}
+{"id":"yue.c0186","meaning":"yesterday","note":"Some people say 尋日 instead. Today is 今日."}
+{"id":"yue.c0187","meaning":"ten past three","note":"Hour + 點, then minutes + 分. Many people count in fives: 三點兩個字 is also 3:10."}
+{"id":"yue.c0188","meaning":"three in the afternoon","note":"Hong Kong speech uses the 12-hour clock: 朝早 (morning), 下晝 (afternoon), 夜晚 (evening) go first."}
+{"id":"yue.c0189","meaning":"I get up at seven in the morning.","note":"Who, then when, then the verb: the time goes before 起身."}
+{"id":"yue.c0190","meaning":"What time do you start work?","note":"幾點 sits before the verb, where the answer will go: 我九點返工."}
+{"id":"yue.c0191","meaning":"I get off work at six.","note":"放工 = finish work; 返工 = go to work."}
+{"id":"yue.c0192","meaning":"I have lunch at one.","note":"食晏 = have lunch. 晏 also means late: 晏啲 (a bit later)."}
+{"id":"yue.c0193","meaning":"I shower in the evening.","note":"沖涼 = take a shower. Many people in Hong Kong shower at night."}
+{"id":"yue.c0194","meaning":"I go to bed at eleven.","note":"瞓覺 = sleep, go to bed."}
+{"id":"yue.c0195","meaning":"What do you do on weekends?","note":"週末 = weekend. Saturday and Sunday: 星期六日."}
+{"id":"yue.c0196","meaning":"When's your birthday?","note":"Literally 'your birthday is which month, which day?'"}
+{"id":"yue.c0197","meaning":"an hour","note":"鐘頭 needs the classifier 個: 兩個鐘頭 (two hours). Minutes: 十分鐘."}
+{"id":"yue.c0198","meaning":"Where's the restroom?","note":"Thing + 喺 + 邊度. 廁所 is more direct."}
+{"id":"yue.c0199","meaning":"go straight","note":"行 here is haang4 (walk)."}
+{"id":"yue.c0200","meaning":"turn left","note":"Right: 轉右."}
+{"id":"yue.c0201","meaning":"The bank is next to the supermarket.","note":"The place word comes after its noun: 超市隔籬."}
+{"id":"yue.c0202","meaning":"Is there an MTR station nearby?","note":"Place first, then 有: 'nearby has…'."}
+{"id":"yue.c0203","meaning":"Excuse me, how do I get to the MTR station?","note":"請問 = may I ask. 點去 = how to go."}
+{"id":"yue.c0204","meaning":"cross the road","note":"過 = go across. 馬路 = road (literally 'horse road')."}
+{"id":"yue.c0205","meaning":"across from the bank","note":"Noun first, then the place word: 銀行對面, not 對面銀行."}
+{"id":"yue.c0206","meaning":"I'm in Hong Kong.","note":"喺 (hai2, tone 2) is 'at, in'. 係 (hai6, tone 6) is 'to be'."}
+{"id":"yue.c0207","meaning":"It's a five-minute walk.","note":"Literally 'walk five minutes and you're there'. 就 = then, right away."}
+{"id":"yue.c0208","meaning":"Is it far?","note":"Verb-not-verb question: answer 遠 or 唔遠."}
+{"id":"yue.c0209","meaning":"Not far, it's close.","note":"好 here means 'very', not 'good'."}
+{"id":"yue.c0210","meaning":"It's just up ahead.","note":"前面 = in front; 後面 = behind."}
+{"id":"yue.c0211","meaning":"Turn right at the traffic lights.","note":"Where you turn goes before the verb: 喺紅綠燈 + 轉右."}
+{"id":"yue.c0212","meaning":"The park is on the left.","note":"左邊 = left side; 右邊 = right side."}
+{"id":"yue.c0213","meaning":"The bookstore is inside the mall.","note":"入面 = inside, after its noun: 商場入面."}
+{"id":"yue.c0214","meaning":"Where is this?","note":"Ask it when you are lost. Here 係 links two places, so it is 係, not 喺."}
+{"id":"yue.c0215","meaning":"Where are you?","note":"The usual question on the phone."}
+{"id":"yue.c0216","meaning":"the MTR (Hong Kong subway)","note":"Most people just say 地鐵."}
+{"id":"yue.c0217","meaning":"Octopus card","note":"Tap it on the MTR, buses, ferries and in shops."}
+{"id":"yue.c0218","meaning":"To the airport, please.","note":"To a taxi driver. You can call him 師傅."}
+{"id":"yue.c0219","meaning":"Getting off ahead, please!","note":"Shout it on a minibus so the driver stops."}
+{"id":"yue.c0220","meaning":"I take the MTR to work.","note":"How you travel goes before the verb: 搭地鐵 + 返工."}
+{"id":"yue.c0221","meaning":"I take the bus to Central.","note":"坐 and 搭 both work for buses. Not 我去中環坐巴士, which means 'I go to Central to take a bus'."}
+{"id":"yue.c0222","meaning":"Let's take a taxi.","note":"的士 comes from English 'taxi'. 吖 makes it a suggestion."}
+{"id":"yue.c0223","meaning":"Does this minibus go to Mong Kok?","note":"架 is the classifier for vehicles. Ask the driver before you get on."}
+{"id":"yue.c0224","meaning":"Where do I get off?","note":"落車 = get off; 上車 = get on."}
+{"id":"yue.c0225","meaning":"the Star Ferry","note":"The green and white ferry across Victoria Harbour. Pay with Octopus."}
+{"id":"yue.c0226","meaning":"I'm on the MTR right now.","note":"緊 after the verb: the action is going on now."}
+{"id":"yue.c0227","meaning":"Have you ever been to Macau?","note":"過 = have ever done; 未 at the end asks 'yet?'."}
+{"id":"yue.c0228","meaning":"I've never been.","note":"未 + verb + 過: not yet, never so far."}
+{"id":"yue.c0229","meaning":"I'll walk there.","note":"行路 = walk. 行 here is haang4."}
+{"id":"yue.c0230","meaning":"The next stop is Central.","note":"下個 = next; 上個 = last."}
+{"id":"yue.c0231","meaning":"How long does it take to get to Tsim Sha Tsui by MTR?","note":"幾耐 = how long. Answer: 十分鐘."}
+{"id":"yue.c0232","meaning":"When are you coming to Hong Kong?","note":"嚟 = come (toward the speaker); 去 = go."}
+{"id":"yue.c0233","meaning":"I'm heading home now.","note":"返 = go back: 返屋企 (go home)."}
+{"id":"yue.c0234","meaning":"teacher","note":"Also how you address a teacher: 陳老師, or just 老師."}
+{"id":"yue.c0235","meaning":"student","note":"University student: 大學生."}
+{"id":"yue.c0236","meaning":"to go to work","note":"返 = go back: 返工, 返學, 返屋企."}
+{"id":"yue.c0237","meaning":"What line of work are you in?","note":"行 here is hong4 (trade). 㗎 makes it a friendly question."}
+{"id":"yue.c0238","meaning":"I work at a bank.","note":"Where you work goes before the verb: 喺銀行 + 做嘢."}
+{"id":"yue.c0239","meaning":"Do you speak English?","note":"識 = know how to. Answer 識 or 唔識, not 'yes'."}
+{"id":"yue.c0240","meaning":"I want to learn Cantonese.","note":"想 = want to, would like to."}
+{"id":"yue.c0241","meaning":"I can't write Chinese characters.","note":"唔識 = don't know how. Not 我唔可以寫, which means 'I'm not allowed to write'."}
+{"id":"yue.c0242","meaning":"I have to work tomorrow.","note":"要 = have to. Time goes before the verb."}
+{"id":"yue.c0243","meaning":"I can work from home.","note":"可以 = allowed to, possible. For a skill you learned, use 識."}
+{"id":"yue.c0244","meaning":"I don't have to work today.","note":"唔使 = no need to."}
+{"id":"yue.c0245","meaning":"I'll be a bit late tomorrow.","note":"會 = will (likely). 遲啲 = a bit late."}
+{"id":"yue.c0246","meaning":"I'm a university student.","note":"係 joins two nouns: I = a student."}
+{"id":"yue.c0247","meaning":"She's my coworker.","note":"No 嘅 needed with people close to you: 我同事, 我朋友."}
+{"id":"yue.c0248","meaning":"I have a meeting.","note":"開會 = hold or attend a meeting."}
+{"id":"yue.c0249","meaning":"I have an exam next week.","note":"下個禮拜 = next week; 上個禮拜 = last week."}
+{"id":"yue.c0250","meaning":"Where do you study?","note":"讀書 = study, go to school. 喺邊度 goes before the verb."}
+{"id":"yue.c0251","meaning":"I like studying.","note":"鍾意 + verb = like doing something."}
+{"id":"yue.c0252","meaning":"I don't feel well.","note":"Where does it hurt? 你邊度唔舒服呀？"}
+{"id":"yue.c0253","meaning":"I have a headache.","note":"Body part + 痛: 肚痛 (stomachache), 牙痛 (toothache)."}
+{"id":"yue.c0254","meaning":"I've caught a cold.","note":"咗 shows the change has happened."}
+{"id":"yue.c0255","meaning":"pharmacy","note":"藥 = medicine."}
+{"id":"yue.c0256","meaning":"Help!","note":"For emergencies. For everyday help: 可唔可以幫吓我呀？"}
+{"id":"yue.c0257","meaning":"I have a slight fever.","note":"有啲 = a little, somewhat."}
+{"id":"yue.c0258","meaning":"I have a sore throat.","note":"喉嚨 = throat. Same pattern: body part + 痛."}
+{"id":"yue.c0259","meaning":"I need to see a doctor.","note":"睇醫生 = see a doctor (literally 'look at a doctor')."}
+{"id":"yue.c0260","meaning":"Have you taken your medicine?","note":"Medicine is 'eaten' in Cantonese: 食藥."}
+{"id":"yue.c0261","meaning":"I haven't taken my medicine yet.","note":"未 = not yet. 冇 would mean 'I didn't'."}
+{"id":"yue.c0262","meaning":"I'm OK.","note":"Literally 'I have no matter'. Also 'It's nothing'."}
+{"id":"yue.c0263","meaning":"Could you help me?","note":"吓 after the verb makes the request lighter."}
+{"id":"yue.c0264","meaning":"Where's the hospital?","note":"For emergencies: 急症室 is the emergency room."}
+{"id":"yue.c0265","meaning":"Be careful!","note":"Also 'Watch out!'"}
+{"id":"yue.c0266","meaning":"Get some good rest.","note":"Said to someone who is sick."}
+{"id":"yue.c0267","meaning":"I've been coughing for a few days.","note":"咳 = cough. 幾日 = a few days."}
+{"id":"yue.c0268","meaning":"Call 999!","note":"999 is Hong Kong's emergency number for police, fire and ambulance."}
+{"id":"yue.c0269","meaning":"He's sick.","note":"病咗 = has fallen ill. For 'I feel unwell', say 我唔舒服."}
+{"id":"yue.c0270","meaning":"very pretty; really nice","note":"靚 is pretty, good-looking, or just good (靚衫, nice clothes)."}
+{"id":"yue.c0271","meaning":"really cheap","note":"No 係 before an adjective: 呢件衫好平."}
+{"id":"yue.c0272","meaning":"delicious","note":"好食 = good to eat; the first 好 means 'very'."}
+{"id":"yue.c0273","meaning":"She's taller than me.","note":"Adjective + 過 + the other person."}
+{"id":"yue.c0274","meaning":"It's hot today.","note":"好 is often just glue, not a strong 'very'."}
+{"id":"yue.c0275","meaning":"It's too spicy.","note":"太 = too. 辣 = spicy."}
+{"id":"yue.c0276","meaning":"Pretty good.","note":"幾 before an adjective = quite."}
+{"id":"yue.c0277","meaning":"Not very good.","note":"A polite way to say something is bad."}
+{"id":"yue.c0278","meaning":"So-so.","note":"Neither good nor bad."}
+{"id":"yue.c0279","meaning":"really nice clothes","note":"The describer with 嘅 goes before the noun."}
+{"id":"yue.c0280","meaning":"It's really noisy here.","note":"嘈 = noisy. Quiet: 靜."}
+{"id":"yue.c0281","meaning":"Hong Kong is really crowded.","note":"Literally 'Hong Kong, very many people': no verb needed."}
+{"id":"yue.c0282","meaning":"She's really smart.","note":"叻 = clever, good at things. A common compliment."}
+{"id":"yue.c0283","meaning":"This one is cheaper.","note":"Adjective + 啲 = a bit more: 平啲, 大啲, 快啲."}
+{"id":"yue.c0284","meaning":"The MTR is faster than the bus.","note":"Adjective + 過 + what you compare with. No word for 'more' is needed."}
+{"id":"yue.c0285","meaning":"The Octopus card is really handy.","note":"方便 = convenient."}
+{"id":"yue.c0286","meaning":"The weather is really nice today.","note":"好好: the first 好 is 'very', the second 'good'."}
+{"id":"yue.c0287","meaning":"He's really young.","note":"後生 = young. Old: 老."}
+{"id":"yue.c0288","meaning":"What?","note":"In a sentence it stays where the answer goes: 你食咩呀？"}
+{"id":"yue.c0289","meaning":"Who is it?","note":"Also 'which one' before a noun: 邊個人."}
+{"id":"yue.c0290","meaning":"And you?","note":"呢 asks the same question back."}
+{"id":"yue.c0291","meaning":"Let's go together!","note":"吖 makes it an invitation."}
+{"id":"yue.c0292","meaning":"That's right, it is.","note":"㗎 asserts or explains: 'it really is so'."}
+{"id":"yue.c0293","meaning":"Why?","note":"In a sentence: 你點解唔去呀？ (Why aren't you going?)"}
+{"id":"yue.c0294","meaning":"When?","note":"In a sentence it goes before the verb: 你幾時去呀？"}
+{"id":"yue.c0295","meaning":"Is that right?","note":"Verb-not-verb question. Answer 係 or 唔係."}
+{"id":"yue.c0296","meaning":"Are you going?","note":"Answer with the verb: 去 (yes) or 唔去 (no)."}
+{"id":"yue.c0297","meaning":"How about it?","note":"Ask it after a suggestion. Answer 好 or 唔好."}
+{"id":"yue.c0298","meaning":"OK, sure.","note":"啦 here agrees. Also 好吖 when you accept an invitation."}
+{"id":"yue.c0299","meaning":"Hurry up!","note":"啦 urges. 快啲 = a bit faster."}
+{"id":"yue.c0300","meaning":"You didn't know?","note":"咩 at the end shows surprise."}
+{"id":"yue.c0301","meaning":"What do you want to eat?","note":"The question word stays at the end, where the answer goes: 我想食麵."}
+{"id":"yue.c0302","meaning":"Who is she?","note":"佢 is he or she: the context tells you which."}
+{"id":"yue.c0303","meaning":"Do you have time?","note":"有冇 = have or not have. Answer 有 or 冇."}
+{"id":"yue.c0304","meaning":"How are you getting home?","note":"點 before the verb asks how: answer 我搭地鐵返屋企."}
+{"id":"yue.c0305","meaning":"Thanks, I'm counting on you.","note":"啦 softens a request you have just made."}
+{"id":"yue.c0306","meaning":"I'm tired.","note":"Not 我係攰: adjectives take 好, not 係."}
+{"id":"yue.c0307","meaning":"I don't have any money.","note":"冇 = not have. Never 唔有."}
+{"id":"yue.c0308","meaning":"I didn't go.","note":"冇 + verb for what did not happen; not 我唔去咗."}
+{"id":"yue.c0309","meaning":"two people","note":"兩 before a classifier, never 二個人."}
+{"id":"yue.c0310","meaning":"Have you eaten? (a greeting)","note":"A friendly hello around mealtimes, not an invitation."}
+{"id":"yue.c0311","meaning":"He's tall.","note":"Not 佢係高. 好 here is barely 'very'."}
+{"id":"yue.c0312","meaning":"I'm thirty.","note":"No 係 with ages: not 我係三十歲."}
+{"id":"yue.c0313","meaning":"I haven't eaten yet.","note":"未 = not yet. 我冇食 means 'I didn't eat'."}
+{"id":"yue.c0314","meaning":"I've been to Hong Kong.","note":"過 = have been, not 'went'. For 'I went last week', use 咗."}
+{"id":"yue.c0315","meaning":"I don't have time.","note":"冇 is the only negative of 有."}
+{"id":"yue.c0316","meaning":"I'm fine.","note":"People say 我幾好 or 我好好; a bare 我好 is less usual, since 好 also means 'very'."}
+{"id":"yue.c0317","meaning":"I was tired yesterday.","note":"No 咗 for how you felt then: 琴日 already says when. (我攰咗 means 'I've gotten tired'.)"}
+{"id":"yue.c0318","meaning":"really expensive","note":"好 before an adjective means 'very', not 'good'."}
+{"id":"yue.c0319","meaning":"Western guy (slang)","note":"Literally 'ghost guy'. Common among friends but can offend: learn it, don't use it."}
+{"id":"yue.c0320","meaning":"Thanks for your present.","note":"多謝 for gifts and kindness; 唔該 for a service."}
+{"id":"yue.c0321","meaning":"I used to eat dim sum all the time.","note":"No 咗 for habits: 以前 already shows it is the past."}
+{"id":"yue.c0322","meaning":"I'm not a teacher.","note":"唔係 before a noun; plain 唔 before an adjective: 唔貴."}
+{"id":"yue.c0323","meaning":"I'm going to school tomorrow.","note":"返 literally 'go back', but 返學 just means go to school."}
+{"id":"yue.c0324","meaning":"time (amount of)","note":"有冇時間？ = do you have time? 時候 is \"the time when\"."}
+{"id":"yue.c0325","meaning":"money","note":"冇錢 = to have no money. Never 唔有錢."}
+{"id":"yue.c0326","meaning":"home; family","note":"返屋企 = go home. No 嘅 needed: 我屋企."}
+{"id":"yue.c0327","meaning":"work; job","note":"Spoken: 份工 is more common. 做嘢 = to work."}
+{"id":"yue.c0328","meaning":"place","note":"呢個地方 = this place. Classifier 個."}
+{"id":"yue.c0329","meaning":"question; problem","note":"冇問題 = no problem. Classifier 個 or 條."}
+{"id":"yue.c0330","meaning":"meaning","note":"咩意思呀？ = what does it mean?"}
+{"id":"yue.c0331","meaning":"name","note":"你叫咩名呀？ Said meng2 in speech."}
+{"id":"yue.c0332","meaning":"character; word (written)","note":"中文字 = Chinese characters."}
+{"id":"yue.c0333","meaning":"phone; phone number","note":"打電話 = to make a call. Changed tone: waa2."}
+{"id":"yue.c0334","meaning":"mobile phone","note":"Classifier 部: 我部手機."}
+{"id":"yue.c0335","meaning":"computer","note":"Classifier 部."}
+{"id":"yue.c0336","meaning":"television","note":"睇電視 = to watch TV."}
+{"id":"yue.c0337","meaning":"film; movie","note":"In speech people often say 戲: 睇戲."}
+{"id":"yue.c0338","meaning":"clothes; top","note":"Classifier 件: 一件衫."}
+{"id":"yue.c0339","meaning":"shoes","note":"Classifier 對: 一對鞋."}
+{"id":"yue.c0340","meaning":"car; vehicle","note":"Classifier 架: 一架車. 揸車 = to drive."}
+{"id":"yue.c0341","meaning":"bus","note":"From English bus. 搭巴士 = to take the bus."}
+{"id":"yue.c0342","meaning":"taxi","note":"From English taxi. 搭的士."}
+{"id":"yue.c0343","meaning":"subway; MTR","note":"搭地鐵 = take the MTR."}
+{"id":"yue.c0344","meaning":"plane","note":"搭飛機 = to fly."}
+{"id":"yue.c0345","meaning":"street","note":"行街 = to go out shopping."}
+{"id":"yue.c0346","meaning":"road","note":"過馬路 = to cross the road."}
+{"id":"yue.c0347","meaning":"bank","note":"行 is hong4 here, not haang4."}
+{"id":"yue.c0348","meaning":"hospital","note":"入醫院 = to go into hospital."}
+{"id":"yue.c0349","meaning":"school","note":"Classifier 間: 一間學校."}
+{"id":"yue.c0350","meaning":"university","note":"讀大學 = to go to university."}
+{"id":"yue.c0351","meaning":"company; office","note":"返公司 = to go to the office."}
+{"id":"yue.c0352","meaning":"restaurant","note":"Classifier 間."}
+{"id":"yue.c0353","meaning":"supermarket","note":"Classifier 間."}
+{"id":"yue.c0354","meaning":"shopping mall","note":"Hong Kong life happens in malls."}
+{"id":"yue.c0355","meaning":"hotel","note":"Not a bar: 酒店 is a hotel."}
+{"id":"yue.c0356","meaning":"park","note":"去公園行吓 = go for a walk in the park."}
+{"id":"yue.c0357","meaning":"airport","note":"去機場 = to the airport."}
+{"id":"yue.c0358","meaning":"restroom","note":"Polite word. 廁所 is plainer."}
+{"id":"yue.c0359","meaning":"room; bedroom","note":"我間房 = my room. Classifier 間."}
+{"id":"yue.c0360","meaning":"kitchen","note":"喺廚房 = in the kitchen."}
+{"id":"yue.c0361","meaning":"bed","note":"Classifier 張: 一張床."}
+{"id":"yue.c0362","meaning":"table; desk","note":"Classifier 張: 一張枱."}
+{"id":"yue.c0363","meaning":"chair; stool","note":"Classifier 張."}
+{"id":"yue.c0364","meaning":"window","note":"開窗 = open the window."}
+{"id":"yue.c0365","meaning":"light; lamp","note":"開燈 / 閂燈 = lights on / off."}
+{"id":"yue.c0366","meaning":"air conditioning","note":"開冷氣 = turn on the A/C."}
+{"id":"yue.c0367","meaning":"rice (cooked); meal","note":"食飯 = to eat, to have a meal."}
+{"id":"yue.c0368","meaning":"vegetables; dish","note":"食多啲菜 = eat more veg."}
+{"id":"yue.c0369","meaning":"noodles","note":"雲吞麵 = wonton noodles."}
+{"id":"yue.c0370","meaning":"tea","note":"飲茶 also means dim sum."}
+{"id":"yue.c0371","meaning":"coffee","note":"一杯咖啡."}
+{"id":"yue.c0372","meaning":"meat","note":"牛肉, 豬肉 = beef, pork."}
+{"id":"yue.c0373","meaning":"chicken","note":"Classifier 隻."}
+{"id":"yue.c0374","meaning":"fish","note":"Classifier 條."}
+{"id":"yue.c0375","meaning":"fruit","note":"Hong Kong word; written 水果."}
+{"id":"yue.c0376","meaning":"breakfast","note":"食早餐."}
+{"id":"yue.c0377","meaning":"dinner","note":"食晚飯."}
+{"id":"yue.c0378","meaning":"weather","note":"今日天氣好好."}
+{"id":"yue.c0379","meaning":"rain","note":"落雨 = to rain."}
+{"id":"yue.c0380","meaning":"sun","note":"好大太陽 = very sunny."}
+{"id":"yue.c0381","meaning":"dog","note":"Classifier 隻."}
+{"id":"yue.c0382","meaning":"cat","note":"Classifier 隻."}
+{"id":"yue.c0383","meaning":"family members","note":"我同家人住."}
+{"id":"yue.c0384","meaning":"man","note":"男仔 is a boy or young guy."}
+{"id":"yue.c0385","meaning":"woman","note":"女仔 is a girl or young woman."}
+{"id":"yue.c0386","meaning":"boy; young man","note":"女仔 for a girl."}
+{"id":"yue.c0387","meaning":"girl; young woman","note":"男仔 for a boy."}
+{"id":"yue.c0388","meaning":"child; kid","note":"細路仔 also heard."}
+{"id":"yue.c0389","meaning":"little one (kind word for a child)","note":"Also how adults speak to kids."}
+{"id":"yue.c0390","meaning":"Mr.; sir; husband","note":"陳生 is short for 陳先生."}
+{"id":"yue.c0391","meaning":"Mrs.; wife (polite)","note":"陳太 is short for 陳太太."}
+{"id":"yue.c0392","meaning":"Miss; young lady","note":"李小姐. Also to call a waitress."}
+{"id":"yue.c0393","meaning":"classmate","note":"Also how students address each other."}
+{"id":"yue.c0394","meaning":"doctor","note":"睇醫生 = to see a doctor."}
+{"id":"yue.c0395","meaning":"boss; owner","note":"Also used to call a shopkeeper."}
+{"id":"yue.c0396","meaning":"guest; customer","note":"有客人 = we have guests."}
+{"id":"yue.c0397","meaning":"neighbor","note":"隔籬鄰居 = next-door neighbor."}
+{"id":"yue.c0398","meaning":"foreigner","note":"Neutral. 鬼佬 is slang."}
+{"id":"yue.c0399","meaning":"body; health","note":"身體好好 = in good health."}
+{"id":"yue.c0400","meaning":"head","note":"頭痛 = headache."}
+{"id":"yue.c0401","meaning":"foot; leg","note":"腳痛 = sore feet."}
+{"id":"yue.c0402","meaning":"stomach; belly","note":"肚餓 = hungry; 肚痛 = stomach ache."}
+{"id":"yue.c0403","meaning":"tooth","note":"牙痛 = toothache."}
+{"id":"yue.c0404","meaning":"present; gift","note":"Classifier 份: 一份禮物."}
+{"id":"yue.c0405","meaning":"map","note":"睇地圖."}
+{"id":"yue.c0406","meaning":"camera","note":"Classifier 部."}
+{"id":"yue.c0407","meaning":"passport","note":"Classifier 本."}
+{"id":"yue.c0408","meaning":"key","note":"Classifier 條. so2 si4."}
+{"id":"yue.c0409","meaning":"luggage","note":"行 is hang4 here."}
+{"id":"yue.c0410","meaning":"bag","note":"Changed tone: doi2. 膠袋 = plastic bag."}
+{"id":"yue.c0411","meaning":"umbrella","note":"Classifier 把. 帶遮 = bring an umbrella."}
+{"id":"yue.c0412","meaning":"pen","note":"Classifier 枝."}
+{"id":"yue.c0413","meaning":"paper","note":"Classifier 張."}
+{"id":"yue.c0414","meaning":"birthday","note":"生日快樂 = happy birthday."}
+{"id":"yue.c0415","meaning":"year","note":"一年, 今年. No classifier."}
+{"id":"yue.c0416","meaning":"sky; heaven","note":"For \"day\" people say 日."}
+{"id":"yue.c0417","meaning":"song","note":"唱歌 = to sing. Classifier 首."}
+{"id":"yue.c0418","meaning":"music","note":"聽音樂 = listen to music."}
+{"id":"yue.c0419","meaning":"exercise; sport","note":"做運動 = to exercise."}
+{"id":"yue.c0420","meaning":"homework","note":"做功課."}
+{"id":"yue.c0421","meaning":"salary; pay","note":"Hong Kong word for wages."}
+{"id":"yue.c0422","meaning":"meeting (formal)","note":"Speech: 開會 = to have a meeting."}
+{"id":"yue.c0423","meaning":"email","note":"Many say email in English."}
+{"id":"yue.c0424","meaning":"country","note":"中國 = China, 美國 = USA."}
+{"id":"yue.c0425","meaning":"price","note":"價錢幾多？ Speech: 幾多錢？"}
+{"id":"yue.c0426","meaning":"Chinese (language; written)","note":"中文字 = Chinese characters."}
+{"id":"yue.c0427","meaning":"English","note":"Tone change: man2."}
+{"id":"yue.c0428","meaning":"Mandarin","note":"Not 國語 in Hong Kong usage."}
+{"id":"yue.c0429","meaning":"house; flat","note":"屋企 is home; 屋 is the building."}
+{"id":"yue.c0430","meaning":"doorway; entrance","note":"喺門口等 = wait at the door."}
+{"id":"yue.c0431","meaning":"flat (apartment); floor","note":"lau2. 買樓 = buy a flat; 三樓 = third floor."}
+{"id":"yue.c0432","meaning":"to speak; to say","note":"講廣東話 = speak Cantonese."}
+{"id":"yue.c0433","meaning":"to say; to tell (someone)","note":"佢話… = he says… 我話你知 = let me tell you."}
+{"id":"yue.c0434","meaning":"to do; to make","note":"做咩呀？ = what are you doing?"}
+{"id":"yue.c0435","meaning":"to eat","note":"Also for medicine and smoking: 食藥."}
+{"id":"yue.c0436","meaning":"to look; to watch; to read","note":"睇書, 睇戲, 睇醫生."}
+{"id":"yue.c0437","meaning":"to know (a fact)","note":"我唔知 = I don't know."}
+{"id":"yue.c0438","meaning":"to want to; would like","note":"我想… is the polite \"I'd like\"."}
+{"id":"yue.c0439","meaning":"to want; to need; to have to","note":"要 sounds firm. 我要呢個 = I'll take this."}
+{"id":"yue.c0440","meaning":"to come","note":"嚟我屋企 = come to my place."}
+{"id":"yue.c0441","meaning":"to know how to; to know (a person)","note":"我識講英文."}
+{"id":"yue.c0442","meaning":"will; to be likely to","note":"聽日會落雨 = it'll rain tomorrow."}
+{"id":"yue.c0443","meaning":"can; may","note":"可唔可以…？ = may I…?"}
+{"id":"yue.c0444","meaning":"to feel; to think (opinion)","note":"我覺得好好 = I think it's great."}
+{"id":"yue.c0445","meaning":"to look for; to find","note":"搵工 = look for a job."}
+{"id":"yue.c0446","meaning":"to go back; to return","note":"返屋企, 返工, 返學."}
+{"id":"yue.c0447","meaning":"to wait","note":"等我 = wait for me."}
+{"id":"yue.c0448","meaning":"to listen; to hear","note":"聽日 (tomorrow) reads ting1."}
+{"id":"yue.c0449","meaning":"to walk","note":"haang4. Other words: 銀行 hong4, 行李 hang4."}
+{"id":"yue.c0450","meaning":"to leave; to go away","note":"我走先 = I'm off. Not \"walk\"."}
+{"id":"yue.c0451","meaning":"to ask","note":"問你 = ask you."}
+{"id":"yue.c0452","meaning":"to call; to be called; to order (food)","note":"我叫安娜."}
+{"id":"yue.c0453","meaning":"to take; to get","note":"攞嘢 = fetch things."}
+{"id":"yue.c0454","meaning":"to drink","note":"飲水, 飲茶."}
+{"id":"yue.c0455","meaning":"to learn","note":"學廣東話."}
+{"id":"yue.c0456","meaning":"to like","note":"鍾唔鍾意？ splits the word."}
+{"id":"yue.c0457","meaning":"to see; to meet","note":"見到 = to have seen. 見工 = job interview."}
+{"id":"yue.c0458","meaning":"to open; to turn on","note":"開門, 開燈."}
+{"id":"yue.c0459","meaning":"to close; to shut; to turn off","note":"閂門, 閂燈. Spoken word."}
+{"id":"yue.c0460","meaning":"to put; to let go","note":"放喺枱度 = put it on the table."}
+{"id":"yue.c0461","meaning":"to sit; to ride (bus, MTR)","note":"坐巴士."}
+{"id":"yue.c0462","meaning":"to take (transport)","note":"搭地鐵, 搭的士."}
+{"id":"yue.c0463","meaning":"to arrive; to reach; until","note":"到咗 = arrived. 等到三點 = wait till three."}
+{"id":"yue.c0464","meaning":"to go down; to get off","note":"落車 = get off."}
+{"id":"yue.c0465","meaning":"to play; to have fun","note":"玩得開心啲！ = have fun!"}
+{"id":"yue.c0466","meaning":"to write","note":"寫字."}
+{"id":"yue.c0467","meaning":"to read aloud; to study","note":"讀書 = to study."}
+{"id":"yue.c0468","meaning":"to teach","note":"教我 = teach me."}
+{"id":"yue.c0469","meaning":"to help; to lend a hand","note":"使唔使幫手？ = need a hand?"}
+{"id":"yue.c0470","meaning":"to give (as a gift); to see off","note":"送畀你 = it's for you."}
+{"id":"yue.c0471","meaning":"to remember","note":"記住 = keep in mind."}
+{"id":"yue.c0472","meaning":"to forget","note":"The everyday \"forget\"."}
+{"id":"yue.c0473","meaning":"to understand","note":"明唔明白？ = understand?"}
+{"id":"yue.c0474","meaning":"to know (a bit more formal)","note":"Speech prefers 知."}
+{"id":"yue.c0475","meaning":"to know (a person); to get to know","note":"好高興認識你 = nice to meet you."}
+{"id":"yue.c0476","meaning":"to phone; to call","note":"打電話畀我 = call me."}
+{"id":"yue.c0477","meaning":"to chat","note":"Spoken word for chatting."}
+{"id":"yue.c0478","meaning":"to laugh; to smile","note":"唔好笑我 = don't laugh at me."}
+{"id":"yue.c0479","meaning":"to cry","note":"Spoken word. Not \"shout\"."}
+{"id":"yue.c0480","meaning":"to wash","note":"洗手 = wash hands. 洗衫 = do laundry."}
+{"id":"yue.c0481","meaning":"to cook","note":"煮飯 = to cook a meal."}
+{"id":"yue.c0482","meaning":"to change; to exchange","note":"換錢 = change money."}
+{"id":"yue.c0483","meaning":"to move (house); to carry","note":"搬屋 = move house."}
+{"id":"yue.c0484","meaning":"to stop","note":"停車 = stop the car."}
+{"id":"yue.c0485","meaning":"to turn; to change (to)","note":"轉左 = turn left."}
+{"id":"yue.c0486","meaning":"to wear; to put on (clothes)","note":"着衫 = get dressed. Also written 著."}
+{"id":"yue.c0487","meaning":"to carry; to hold; to take","note":"ning1. 拎住 = holding."}
+{"id":"yue.c0488","meaning":"to prepare; to get ready","note":"準備好未呀？ = ready?"}
+{"id":"yue.c0489","meaning":"to start; to begin","note":"開始上堂 = class starts."}
+{"id":"yue.c0490","meaning":"to finish; to end","note":"Mostly after a verb: 食完 = finished eating."}
+{"id":"yue.c0491","meaning":"to need (formal)","note":"Speech: 要 or 使."}
+{"id":"yue.c0492","meaning":"to hope","note":"希望你鍾意 = hope you like it."}
+{"id":"yue.c0493","meaning":"to worry","note":"唔使擔心 = don't worry."}
+{"id":"yue.c0494","meaning":"to be afraid; to fear","note":"我驚狗 = I'm afraid of dogs."}
+{"id":"yue.c0495","meaning":"should; ought to","note":"jing1 goi1."}
+{"id":"yue.c0496","meaning":"to need to (in 唔使)","note":"唔使 = no need. 使唔使？ = is it needed?"}
+{"id":"yue.c0497","meaning":"to get up","note":"七點起身."}
+{"id":"yue.c0498","meaning":"to go to sleep","note":"瞓 alone also means sleep."}
+{"id":"yue.c0499","meaning":"to shower; to bathe","note":"Hong Kong word: 沖涼, not 洗澡."}
+{"id":"yue.c0500","meaning":"to rest","note":"好好休息 = rest well."}
+{"id":"yue.c0501","meaning":"to study; to go to school","note":"你喺邊度讀書？"}
+{"id":"yue.c0502","meaning":"to work","note":"Everyday word: 我喺銀行做嘢."}
+{"id":"yue.c0503","meaning":"to go out shopping","note":"Window-shopping and strolling."}
+{"id":"yue.c0504","meaning":"to go online","note":"soeng5. 上網睇 = look it up online."}
+{"id":"yue.c0505","meaning":"to practise","note":"練習廣東話."}
+{"id":"yue.c0506","meaning":"to introduce","note":"介紹你識… = introduce you to…"}
+{"id":"yue.c0507","meaning":"to welcome","note":"歡迎你嚟 = welcome!"}
+{"id":"yue.c0508","meaning":"to get married","note":"結咗婚 = married."}
+{"id":"yue.c0509","meaning":"to drive","note":"Hong Kong word. 揸 = to hold."}
+{"id":"yue.c0510","meaning":"to queue; to line up","note":"Hong Kong queues for everything."}
+{"id":"yue.c0511","meaning":"to run; to jog","note":"去跑步 = go running."}
+{"id":"yue.c0512","meaning":"to swim","note":"Spoken word."}
+{"id":"yue.c0513","meaning":"to sing","note":"去唱K = go to karaoke."}
+{"id":"yue.c0514","meaning":"to dance","note":"去跳舞 = go dancing."}
+{"id":"yue.c0515","meaning":"to take photos","note":"soeng2. 同我影張相 = take my photo."}
+{"id":"yue.c0516","meaning":"to travel","note":"去旅行 = go on a trip."}
+{"id":"yue.c0517","meaning":"to receive; to accept; to close (shop)","note":"收唔收卡？ = take cards?"}
+{"id":"yue.c0518","meaning":"to arrange to meet","note":"約咗朋友 = meeting friends."}
+{"id":"yue.c0519","meaning":"to be ill; illness","note":"病咗 = got sick."}
+{"id":"yue.c0520","meaning":"to have a fever","note":"有啲發燒 = a slight fever."}
+{"id":"yue.c0521","meaning":"to run (fast)","note":"跑步 = jogging."}
+{"id":"yue.c0522","meaning":"to meet up","note":"幾時見面？ = when shall we meet?"}
+{"id":"yue.c0523","meaning":"to have a day off; to be on holiday","note":"聽日放假."}
+{"id":"yue.c0524","meaning":"to take an exam","note":"haau2 si5 in this course."}
+{"id":"yue.c0525","meaning":"to rain","note":"落緊雨 = it's raining."}
+{"id":"yue.c0526","meaning":"pretty; nice; good-looking","note":"Cantonese adjectives need no 係: 佢好靚."}
+{"id":"yue.c0527","meaning":"many; much","note":"Usually 好多 before a noun."}
+{"id":"yue.c0528","meaning":"few; little","note":"Usually 好少."}
+{"id":"yue.c0529","meaning":"new","note":"新衫 = new clothes."}
+{"id":"yue.c0530","meaning":"tall; high","note":"佢好高. No 係."}
+{"id":"yue.c0531","meaning":"short (height)","note":"For length: 短."}
+{"id":"yue.c0532","meaning":"long","note":"coeng4."}
+{"id":"yue.c0533","meaning":"short (length)","note":"For height: 矮."}
+{"id":"yue.c0534","meaning":"fast; quick","note":"快啲 = faster, hurry."}
+{"id":"yue.c0535","meaning":"slow","note":"慢慢 = slowly."}
+{"id":"yue.c0536","meaning":"late","note":"遲咗 = I'm late."}
+{"id":"yue.c0537","meaning":"hot (weather, food)","note":"好熱 = very hot."}
+{"id":"yue.c0538","meaning":"cold","note":"凍檸茶 = iced lemon tea."}
+{"id":"yue.c0539","meaning":"warm","note":"暖水 = warm water."}
+{"id":"yue.c0540","meaning":"cool; pleasantly cool","note":"涼爽 also heard."}
+{"id":"yue.c0541","meaning":"busy","note":"我好忙."}
+{"id":"yue.c0542","meaning":"tired","note":"gui6. Spoken word."}
+{"id":"yue.c0543","meaning":"hungry","note":"我好肚餓."}
+{"id":"yue.c0544","meaning":"thirsty","note":"Lit. \"neck thirsty\"."}
+{"id":"yue.c0545","meaning":"sleepy","note":"Lit. \"eyes sleep\"."}
+{"id":"yue.c0546","meaning":"far","note":"遠唔遠呀？"}
+{"id":"yue.c0547","meaning":"near; close","note":"kan5 alone; 附近 gan6."}
+{"id":"yue.c0548","meaning":"cheap","note":"peng4. Also \"flat\"."}
+{"id":"yue.c0549","meaning":"small (spoken)","note":"The everyday word: 細碼 = size S."}
+{"id":"yue.c0550","meaning":"fat","note":"Can be rude about people."}
+{"id":"yue.c0551","meaning":"thin","note":"Often a compliment in Hong Kong."}
+{"id":"yue.c0552","meaning":"old (people)","note":"For things: 舊."}
+{"id":"yue.c0553","meaning":"young","note":"Spoken word."}
+{"id":"yue.c0554","meaning":"sour","note":"|"}
+{"id":"yue.c0555","meaning":"bitter","note":"Also \"hard (life)\"."}
+{"id":"yue.c0556","meaning":"spicy; hot","note":"太辣 = too spicy."}
+{"id":"yue.c0557","meaning":"salty","note":"|"}
+{"id":"yue.c0558","meaning":"fragrant; smells good","note":"好香呀！ for food."}
+{"id":"yue.c0559","meaning":"tasty (food)","note":"好好食 = delicious."}
+{"id":"yue.c0560","meaning":"tasty (drinks)","note":"好好飲 = really good to drink."}
+{"id":"yue.c0561","meaning":"fun","note":"好好玩 = great fun."}
+{"id":"yue.c0562","meaning":"difficult","note":"廣東話好難？"}
+{"id":"yue.c0563","meaning":"easy","note":"好易 = very easy."}
+{"id":"yue.c0564","meaning":"easy (fuller word)","note":"唔容易 = not easy."}
+{"id":"yue.c0565","meaning":"simple","note":"好簡單."}
+{"id":"yue.c0566","meaning":"comfortable; well","note":"唔舒服 = unwell."}
+{"id":"yue.c0567","meaning":"convenient","note":"好方便."}
+{"id":"yue.c0568","meaning":"clean","note":"|"}
+{"id":"yue.c0569","meaning":"dirty","note":"Spoken word."}
+{"id":"yue.c0570","meaning":"quiet","note":"|"}
+{"id":"yue.c0571","meaning":"noisy","note":"好嘈."}
+{"id":"yue.c0572","meaning":"famous","note":"好有名."}
+{"id":"yue.c0573","meaning":"important","note":"zung6 jiu3."}
+{"id":"yue.c0574","meaning":"happy","note":"唔開心 = upset."}
+{"id":"yue.c0575","meaning":"wrong","note":"唔好意思，我錯."}
+{"id":"yue.c0576","meaning":"right; correct","note":"啱唔啱？ = right?"}
+{"id":"yue.c0577","meaning":"poor; bad (quality)","note":"好差 = really bad."}
+{"id":"yue.c0578","meaning":"great; amazing","note":"Slang-ish praise."}
+{"id":"yue.c0579","meaning":"clear","note":"講清楚啲 = speak more clearly."}
+{"id":"yue.c0580","meaning":"boring; bored","note":"好悶."}
+{"id":"yue.c0581","meaning":"full (after eating)","note":"食飽未呀？"}
+{"id":"yue.c0582","meaning":"dangerous","note":"|"}
+{"id":"yue.c0583","meaning":"safe","note":"|"}
+{"id":"yue.c0584","meaning":"healthy","note":"|"}
+{"id":"yue.c0585","meaning":"the same","note":"A 同 B 一樣."}
+{"id":"yue.c0586","meaning":"different","note":"A 同 B 唔同."}
+{"id":"yue.c0587","meaning":"clever; capable; good at","note":"lek1. The big Hong Kong praise word."}
+{"id":"yue.c0588","meaning":"broken","note":"壞咗 = broken down."}
+{"id":"yue.c0589","meaning":"red","note":"Lucky color."}
+{"id":"yue.c0590","meaning":"white","note":"|"}
+{"id":"yue.c0591","meaning":"black","note":"|"}
+{"id":"yue.c0592","meaning":"blue","note":"|"}
+{"id":"yue.c0593","meaning":"green","note":"|"}
+{"id":"yue.c0594","meaning":"yellow","note":"|"}
+{"id":"yue.c0595","meaning":"so; this much","note":"咁貴？ = that expensive?"}
+{"id":"yue.c0596","meaning":"also; too; both","note":"Before the verb: 我都係."}
+{"id":"yue.c0597","meaning":"then; right away; just","note":"我就嚟 = coming right away."}
+{"id":"yue.c0598","meaning":"still; even more","note":"仲未 = still not yet; 仲好 = even better."}
+{"id":"yue.c0599","meaning":"first; before (others)","note":"Often at the end: 你食先."}
+{"id":"yue.c0600","meaning":"again; then (next)","note":"再見 = see you."}
+{"id":"yue.c0601","meaning":"again (already happened)","note":"又落雨 = raining again."}
+{"id":"yue.c0602","meaning":"also (a bit formal)","note":"Speech prefers 都."}
+{"id":"yue.c0603","meaning":"too (much)","note":"太貴 = too expensive."}
+{"id":"yue.c0604","meaning":"most","note":"最好 = best."}
+{"id":"yue.c0605","meaning":"really; truly","note":"真係好好食."}
+{"id":"yue.c0606","meaning":"quite; fairly","note":"幾好 = pretty good. Also \"how many\"."}
+{"id":"yue.c0607","meaning":"already","note":"已經食咗."}
+{"id":"yue.c0608","meaning":"all along; straight","note":"一直行 = go straight."}
+{"id":"yue.c0609","meaning":"always; all the time","note":"seng4 jat6."}
+{"id":"yue.c0610","meaning":"sometimes","note":"|"}
+{"id":"yue.c0611","meaning":"usually; normally","note":"|"}
+{"id":"yue.c0612","meaning":"often","note":"|"}
+{"id":"yue.c0613","meaning":"now","note":"ji4 gaa1."}
+{"id":"yue.c0614","meaning":"just now; a moment ago","note":"Hong Kong word."}
+{"id":"yue.c0615","meaning":"just (now); exactly","note":"啱啱到 = just arrived."}
+{"id":"yue.c0616","meaning":"slowly","note":"maan6 maan2."}
+{"id":"yue.c0617","meaning":"together","note":"一齊去 = go together."}
+{"id":"yue.c0618","meaning":"almost; about","note":"差唔多 = more or less."}
+{"id":"yue.c0619","meaning":"don't (do it)","note":"唔好走 = don't go."}
+{"id":"yue.c0620","meaning":"definitely; must","note":"|"}
+{"id":"yue.c0621","meaning":"maybe; possibly","note":"|"}
+{"id":"yue.c0622","meaning":"later","note":"遲啲見 = see you later."}
+{"id":"yue.c0623","meaning":"earlier; a bit early","note":"|"}
+{"id":"yue.c0624","meaning":"before; in the past","note":"我以前…"}
+{"id":"yue.c0625","meaning":"recently; lately","note":"|"}
+{"id":"yue.c0626","meaning":"rarely; seldom","note":"我好少食."}
+{"id":"yue.c0627","meaning":"ever; never (with 冇)","note":"從來冇 = have never."}
+{"id":"yue.c0628","meaning":"probably; roughly","note":"|"}
+{"id":"yue.c0629","meaning":"a bit; slightly","note":"有啲凍 = a bit cold."}
+{"id":"yue.c0630","meaning":"you (one person)","note":"The only \"you\": no polite form."}
+{"id":"yue.c0631","meaning":"he; she; it; him; her","note":"No gender in speech."}
+{"id":"yue.c0632","meaning":"you (more than one)","note":"哋 makes it plural."}
+{"id":"yue.c0633","meaning":"oneself; myself; yourself","note":"我自己去 = I'll go by myself."}
+{"id":"yue.c0634","meaning":"everyone (here)","note":"大家好 = hello everyone."}
+{"id":"yue.c0635","meaning":"other people; others","note":"Also a coy \"me\"."}
+{"id":"yue.c0636","meaning":"mine; my","note":"我嘅 at the end = mine."}
+{"id":"yue.c0637","meaning":"yours; your","note":"係你嘅 = it's yours."}
+{"id":"yue.c0638","meaning":"his; hers","note":"|"}
+{"id":"yue.c0639","meaning":"ours; our","note":"|"}
+{"id":"yue.c0640","meaning":"yours (more than one)","note":"|"}
+{"id":"yue.c0641","meaning":"theirs; their","note":"|"}
+{"id":"yue.c0642","meaning":"this; this one","note":"ni1 go3."}
+{"id":"yue.c0643","meaning":"that; that one","note":"go2 go3."}
+{"id":"yue.c0644","meaning":"these","note":"啲 is the plural classifier."}
+{"id":"yue.c0645","meaning":"those","note":"|"}
+{"id":"yue.c0646","meaning":"here","note":"喺呢度 = here."}
+{"id":"yue.c0647","meaning":"there","note":"喺嗰度 = there."}
+{"id":"yue.c0648","meaning":"where","note":"喺邊度？ = where?"}
+{"id":"yue.c0649","meaning":"who; which one","note":"邊個呀？ = who is it?"}
+{"id":"yue.c0650","meaning":"what","note":"Also 乜嘢. 做咩嘢？"}
+{"id":"yue.c0651","meaning":"which ones","note":"|"}
+{"id":"yue.c0652","meaning":"everybody","note":"人人都知."}
+{"id":"yue.c0653","meaning":"every one; each one","note":"個個都好好."}
+{"id":"yue.c0654","meaning":"someone; somebody","note":"有冇人？ = anyone?"}
+{"id":"yue.c0655","meaning":"nobody; no one","note":"冇人知."}
+{"id":"yue.c0656","meaning":"everything; anything","note":"咩都食 = eats anything."}
+{"id":"yue.c0657","meaning":"anyone; whoever","note":"邊個都得."}
+{"id":"yue.c0658","meaning":"with; and","note":"同你去 = go with you."}
+{"id":"yue.c0659","meaning":"to give; to (someone); for","note":"bei2. 畀你 = for you."}
+{"id":"yue.c0660","meaning":"to help; for (someone)","note":"幫我 = help me; do it for me."}
+{"id":"yue.c0661","meaning":"to use; with (a tool)","note":"用筷子食 = eat with chopsticks."}
+{"id":"yue.c0662","meaning":"to; towards","note":"佢對我好好 = he's kind to me."}
+{"id":"yue.c0663","meaning":"via; through","note":"經中環 = via Central."}
+{"id":"yue.c0664","meaning":"on top; above","note":"喺枱上面 = on the table."}
+{"id":"yue.c0665","meaning":"below; under","note":"喺床下面 = under the bed."}
+{"id":"yue.c0666","meaning":"inside","note":"喺商場入面 = in the mall."}
+{"id":"yue.c0667","meaning":"outside","note":"喺出面等 = wait outside."}
+{"id":"yue.c0668","meaning":"in front; ahead","note":"喺前面 = up ahead."}
+{"id":"yue.c0669","meaning":"behind; at the back","note":"|"}
+{"id":"yue.c0670","meaning":"next to; next door","note":"隔籬鄰居."}
+{"id":"yue.c0671","meaning":"across from; opposite","note":"喺銀行對面."}
+{"id":"yue.c0672","meaning":"in the middle; between","note":"|"}
+{"id":"yue.c0673","meaning":"left side","note":"喺左邊 = on the left."}
+{"id":"yue.c0674","meaning":"right side","note":"|"}
+{"id":"yue.c0675","meaning":"this side; over here","note":"|"}
+{"id":"yue.c0676","meaning":"that side; over there","note":"|"}
+{"id":"yue.c0677","meaning":"nearby; near","note":"附近有冇…？"}
+{"id":"yue.c0678","meaning":"upstairs","note":"|"}
+{"id":"yue.c0679","meaning":"downstairs","note":"|"}
+{"id":"yue.c0680","meaning":"place (someone's place)","note":"喺我度 = at my place."}
+{"id":"yue.c0681","meaning":"be here; be (in the middle of)","note":"佢喺度 = he's here."}
+{"id":"yue.c0682","meaning":"so; in that case","note":"gam2. 噉我哋走啦."}
+{"id":"yue.c0683","meaning":"and; and also","note":"Joins things or clauses."}
+{"id":"yue.c0684","meaning":"but","note":"|"}
+{"id":"yue.c0685","meaning":"but; however","note":"Softer than 但係."}
+{"id":"yue.c0686","meaning":"because","note":"因為…所以… often paired."}
+{"id":"yue.c0687","meaning":"so; therefore","note":"|"}
+{"id":"yue.c0688","meaning":"if","note":"如果…就… = if… then…"}
+{"id":"yue.c0689","meaning":"or (statements); maybe","note":"或者 for statements, 定係 for questions."}
+{"id":"yue.c0690","meaning":"or (in questions)","note":"茶定係咖啡？"}
+{"id":"yue.c0691","meaning":"or (short, in questions)","note":"凍定熱？"}
+{"id":"yue.c0692","meaning":"then; next","note":"|"}
+{"id":"yue.c0693","meaning":"and then; after that","note":"|"}
+{"id":"yue.c0694","meaning":"after; afterwards","note":"食完之後 = after eating."}
+{"id":"yue.c0695","meaning":"when; while","note":"細個嘅時候 = as a kid."}
+{"id":"yue.c0696","meaning":"how about; why don't we","note":"不如去飲茶吖？"}
+{"id":"yue.c0697","meaning":"while (doing two things)","note":"一邊食一邊講."}
+{"id":"yue.c0698","meaning":"in order to; for the sake of","note":"|"}
+{"id":"yue.c0699","meaning":"as if; like; seems","note":"好似要落雨 = looks like rain."}
+{"id":"yue.c0700","meaning":"Yay! / Great!","note":"Cheering a success."}
+{"id":"yue.c0701","meaning":"Oh no!","note":"Lit. \"dead now\": something went wrong."}
+{"id":"yue.c0702","meaning":"Really?","note":"Surprise at news."}
+{"id":"yue.c0703","meaning":"No way! / You're kidding!","note":"Disbelief."}
+{"id":"yue.c0704","meaning":"Surely not?","note":"Doubtful, softer than 唔係嘛."}
+{"id":"yue.c0705","meaning":"Oh, I see.","note":"o4. Taking in news."}
+{"id":"yue.c0706","meaning":"Oh, is that so.","note":"Polite \"I see\"."}
+{"id":"yue.c0707","meaning":"Exactly! / That's right!","note":"Agreeing."}
+{"id":"yue.c0708","meaning":"Wait a sec!","note":"dang2 zan6."}
+{"id":"yue.c0709","meaning":"I can't watch!","note":"Lit. \"no eyes to look\": embarrassment."}
+{"id":"yue.c0710","meaning":"Ouch!","note":"Lit. \"very painful\"."}
+{"id":"yue.c0711","meaning":"Go for it! / You can do it!","note":"gaa1 jau2. Cheering someone on."}
+{"id":"yue.c0712","meaning":"Congratulations!","note":"恭喜晒 = congrats to you all."}
+{"id":"yue.c0713","meaning":"OK, that's enough! / OK, done!","note":"|"}
+{"id":"yue.c0714","meaning":"That's it for now. / Bye for now.","note":"Ends a call or chat."}
+{"id":"yue.c0715","meaning":"Take your time!","note":"Also \"easy does it\"."}
+{"id":"yue.c0716","meaning":"It's true, honest!","note":"Insisting."}
+{"id":"yue.c0717","meaning":"one","note":"jat1. Before a classifier: 一個."}
+{"id":"yue.c0718","meaning":"two (counting)","note":"Before a classifier say 兩."}
+{"id":"yue.c0719","meaning":"two (of something)","note":"兩本書. 二 is for counting."}
+{"id":"yue.c0720","meaning":"eight","note":"Lucky number."}
+{"id":"yue.c0721","meaning":"eleven","note":"十 + 一."}
+{"id":"yue.c0722","meaning":"twelve","note":"|"}
+{"id":"yue.c0723","meaning":"thirteen","note":"|"}
+{"id":"yue.c0724","meaning":"fourteen","note":"Avoided in floor numbers: sounds like 實死 (sure to die)."}
+{"id":"yue.c0725","meaning":"sixteen","note":"|"}
+{"id":"yue.c0726","meaning":"seventeen","note":"|"}
+{"id":"yue.c0727","meaning":"eighteen","note":"|"}
+{"id":"yue.c0728","meaning":"nineteen","note":"|"}
+{"id":"yue.c0729","meaning":"hundred","note":"一百 = 100."}
+{"id":"yue.c0730","meaning":"thousand","note":"一千 = 1000."}
+{"id":"yue.c0731","meaning":"ten thousand","note":"一萬 = 10,000."}
+{"id":"yue.c0732","meaning":"half","note":"三點半 = 3:30."}
+{"id":"yue.c0733","meaning":"(ordinal) -th","note":"第一 = first, 第二 = second."}
+{"id":"yue.c0734","meaning":"every; each","note":"每日 = every day."}
+{"id":"yue.c0735","meaning":"all","note":"所有人 = everybody."}
+{"id":"yue.c0736","meaning":"that (before a classifier)","note":"嗰本書 = that book."}
+{"id":"yue.c0737","meaning":"a lot of; many","note":"好多人 = lots of people."}
+{"id":"yue.c0738","meaning":"a little bit","note":"少少廣東話."}
+{"id":"yue.c0739","meaning":"yes (that's right)","note":"No single \"yes\": repeat the verb."}
+{"id":"yue.c0740","meaning":"no; not (be)","note":"唔係呀 = no, it isn't."}
+{"id":"yue.c0741","meaning":"OK; can do; fine","note":"得唔得？ — 得！"}
+{"id":"yue.c0742","meaning":"not yet","note":"食咗未？ — 未呀."}
+{"id":"yue.c0743","meaning":"when","note":"Before the verb."}
+{"id":"yue.c0744","meaning":"why","note":"dim2 gaai2."}
+{"id":"yue.c0745","meaning":"how","note":"點樣去？ = how do I get there?"}
+{"id":"yue.c0746","meaning":"how; in what way","note":"點去？ 點呀？ = how are you?"}
+{"id":"yue.c0747","meaning":"how many; how much","note":"幾多錢？"}
+{"id":"yue.c0748","meaning":"how long","note":"要幾耐？"}
+{"id":"yue.c0749","meaning":"which","note":"邊本？ = which book?"}
+{"id":"yue.c0750","meaning":"today","note":"|"}
+{"id":"yue.c0751","meaning":"the day after tomorrow","note":"|"}
+{"id":"yue.c0752","meaning":"the day before yesterday","note":"|"}
+{"id":"yue.c0753","meaning":"this morning","note":"|"}
+{"id":"yue.c0754","meaning":"tonight","note":"|"}
+{"id":"yue.c0755","meaning":"morning","note":"|"}
+{"id":"yue.c0756","meaning":"noon","note":"|"}
+{"id":"yue.c0757","meaning":"afternoon","note":"|"}
+{"id":"yue.c0758","meaning":"night; evening","note":"|"}
+{"id":"yue.c0759","meaning":"this year","note":"gam1 nin2."}
+{"id":"yue.c0760","meaning":"last year","note":"|"}
+{"id":"yue.c0761","meaning":"next year","note":"Also 出年."}
+{"id":"yue.c0762","meaning":"week","note":"Also 禮拜."}
+{"id":"yue.c0763","meaning":"Tuesday","note":"|"}
+{"id":"yue.c0764","meaning":"Wednesday","note":"|"}
+{"id":"yue.c0765","meaning":"Thursday","note":"|"}
+{"id":"yue.c0766","meaning":"Friday","note":"|"}
+{"id":"yue.c0767","meaning":"Saturday","note":"|"}
+{"id":"yue.c0768","meaning":"Sunday","note":"|"}
+{"id":"yue.c0769","meaning":"weekend","note":"|"}
+{"id":"yue.c0770","meaning":"(general measure word)","note":"The default: 一個人, 呢個."}
+{"id":"yue.c0771","meaning":"(animals; one of a pair)","note":"一隻貓, 一隻手."}
+{"id":"yue.c0772","meaning":"(books)","note":"一本書."}
+{"id":"yue.c0773","meaning":"(flat things: tables, tickets, paper)","note":"一張枱, 一張飛."}
+{"id":"yue.c0774","meaning":"cup; glass (of)","note":"一杯茶."}
+{"id":"yue.c0775","meaning":"(long things: fish, roads, trousers)","note":"一條魚, 一條街."}
+{"id":"yue.c0776","meaning":"(clothes; items; matters)","note":"一件衫, 一件事."}
+{"id":"yue.c0777","meaning":"(people, polite)","note":"幾位？ = how many of you?"}
+{"id":"yue.c0778","meaning":"(machines: phones, computers)","note":"一部手機."}
+{"id":"yue.c0779","meaning":"(vehicles)","note":"一架車."}
+{"id":"yue.c0780","meaning":"(shops, rooms, schools)","note":"一間餐廳."}
+{"id":"yue.c0781","meaning":"pair (of)","note":"一雙筷子."}
+{"id":"yue.c0782","meaning":"bowl (of)","note":"一碗飯."}
+{"id":"yue.c0783","meaning":"plate (of)","note":"dip2 alone; dip6 after a number: 一碟."}
+{"id":"yue.c0784","meaning":"bottle (of)","note":"一樽水."}
+{"id":"yue.c0785","meaning":"(pens; bottles; sticks)","note":"一枝筆. Also written 支."}
+{"id":"yue.c0786","meaning":"(portions; newspapers; jobs)","note":"一份工 = a job."}
+{"id":"yue.c0787","meaning":"kind; type","note":"呢種 = this kind."}
+{"id":"yue.c0788","meaning":"packet (of)","note":"一包紙巾."}
+{"id":"yue.c0789","meaning":"box (of)","note":"一盒朱古力."}
+{"id":"yue.c0790","meaning":"(small round things)","note":"一粒糖."}
+{"id":"yue.c0791","meaning":"piece; slice (of)","note":"一塊蛋糕."}
+{"id":"yue.c0792","meaning":"(floors; flats)","note":"呢層 = this floor."}
+{"id":"yue.c0793","meaning":"time (occurrences)","note":"一次 = once."}
+{"id":"yue.c0794","meaning":"some; (plural measure word)","note":"啲書 = the books."}
+{"id":"yue.c0795","meaning":"(umbrellas, knives)","note":"一把遮 = an umbrella."}
+{"id":"yue.c0796","meaning":"(lessons)","note":"一堂 = one lesson."}
+{"id":"yue.c0797","meaning":"steamer basket (of)","note":"一籠蝦餃."}
+{"id":"yue.c0798","meaning":"years old","note":"三十歲. No 係."}
+{"id":"yue.c0799","meaning":"dollar","note":"十蚊. Written: 元."}
+{"id":"yue.c0800","meaning":"(softens a question or statement)","note":"The friendly default: 你去邊呀？"}
+{"id":"yue.c0801","meaning":"(new situation)","note":"夠喇 = that's enough now."}
+{"id":"yue.c0802","meaning":"(explaining; that's how it is)","note":"係㗎 = it is, really."}
+{"id":"yue.c0803","meaning":"(and…?; what about…?)","note":"你呢？ ne1 at the end."}
+{"id":"yue.c0804","meaning":"(request; agreement)","note":"好啦 = OK then."}
+{"id":"yue.c0805","meaning":"(offer; invitation)","note":"一齊去吖！"}
+{"id":"yue.c0806","meaning":"(noticing; mild surprise)","note":"好貴喎！ = hey, that's pricey!"}
+{"id":"yue.c0807","meaning":"(obviously; that's how it is)","note":"係囉 = exactly."}
+{"id":"yue.c0808","meaning":"(surprised question)","note":"你唔知咩？ = you didn't know?"}
+{"id":"yue.c0809","meaning":"(it's obvious)","note":"我話咗㗎嘛 = I told you."}
+{"id":"yue.c0810","meaning":"(only; just)","note":"十蚊咋 = only ten dollars."}
+{"id":"yue.c0811","meaning":"(I guess; probably)","note":"唔會啩 = probably not."}
+{"id":"yue.c0812","meaning":"(reminder; take note)","note":"好貴噃 = it's pricey, mind you."}
+{"id":"yue.c0813","meaning":"(formal yes/no question)","note":"Mostly written. Speech: 係唔係."}
+{"id":"yue.c0814","meaning":"(doing now: -ing)","note":"食緊飯 = eating."}
+{"id":"yue.c0815","meaning":"(have ever done; than)","note":"去過 = have been. 高過我 = taller than me."}
+{"id":"yue.c0816","meaning":"(keep doing; while)","note":"拎住 = holding. Also \"to live\": 住喺."}
+{"id":"yue.c0817","meaning":"(do briefly; a bit)","note":"試吓 = give it a try."}
+{"id":"yue.c0818","meaning":"(all; completely)","note":"食晒 = ate it all. 唔該晒."}
+{"id":"yue.c0819","meaning":"(also; finish off)","note":"食埋佢 = finish it off."}
+{"id":"yue.c0820","meaning":"(too; even; on top)","note":"仲有添 = and there's more."}
+{"id":"yue.c0821","meaning":"handsome (of a man)","note":"To a man. Warm. For a woman: 靚 (pretty); 靚女 is also said."}
+{"id":"yue.c0822","meaning":"handsome; dashing","note":"To a man. Warm to bold; 好有型 (stylish) is also common."}
+{"id":"yue.c0823","meaning":"cute; adorable","note":"To anyone. Mild and safe."}
+{"id":"yue.c0824","meaning":"cute; charming (Hong Kong word)","note":"To anyone. Mild; also used for kids and pets."}
+{"id":"yue.c0825","meaning":"clever; smart","note":"To anyone. Mild; a safe compliment."}
+{"id":"yue.c0826","meaning":"good-looking; nice to look at","note":"To anyone. Warm."}
+{"id":"yue.c0827","meaning":"lovely (to hear)","note":"For a voice or singing. Mild."}
+{"id":"yue.c0828","meaning":"sweet","note":"笑得好甜 = a sweet smile. Warm."}
+{"id":"yue.c0829","meaning":"thoughtful; caring","note":"For a kind gesture. Mild."}
+{"id":"yue.c0830","meaning":"a good person; kind","note":"Warm, but 你係好人 can open a gentle no."}
+{"id":"yue.c0831","meaning":"attentive; considerate","note":"Praise for care. Mild."}
+{"id":"yue.c0832","meaning":"fun; interesting","note":"你好有趣 = you're fun. Mild."}
+{"id":"yue.c0833","meaning":"funny","note":"你好好笑 = you're hilarious. Mild."}
+{"id":"yue.c0834","meaning":"eyes","note":"對 for the pair: 你對眼. Warm when praised."}
+{"id":"yue.c0835","meaning":"hair","note":"啲頭髮 = your hair. Mild."}
+{"id":"yue.c0836","meaning":"boyfriend","note":"有冇男朋友？ is a direct question."}
+{"id":"yue.c0837","meaning":"girlfriend","note":"neoi5 pang4 jau5. Same pattern as 男朋友."}
+{"id":"yue.c0838","meaning":"to date; to be going out","note":"拍緊拖 = seeing someone. Hong Kong word."}
+{"id":"yue.c0839","meaning":"to love","note":"Heavy: people rarely say 我愛你 early."}
+{"id":"yue.c0840","meaning":"You're so handsome.","note":"To a man. Warm."}
+{"id":"yue.c0841","meaning":"You look handsome today.","note":"To a man. 喎 adds playful surprise. Warm."}
+{"id":"yue.c0842","meaning":"You're so pretty.","note":"To a woman. Warm."}
+{"id":"yue.c0843","meaning":"You look beautiful tonight.","note":"To a woman, on a night out. Warm to bold."}
+{"id":"yue.c0844","meaning":"You're so good-looking.","note":"To a man. Bold."}
+{"id":"yue.c0845","meaning":"You're so cute.","note":"To anyone. Mild."}
+{"id":"yue.c0846","meaning":"You're cute when you smile.","note":"To anyone. Warm."}
+{"id":"yue.c0847","meaning":"You're adorable.","note":"To anyone. Playful, mild."}
+{"id":"yue.c0848","meaning":"You're really clever.","note":"To anyone. Mild."}
+{"id":"yue.c0849","meaning":"You have a lovely smile.","note":"To anyone. Warm."}
+{"id":"yue.c0850","meaning":"You have beautiful eyes.","note":"To anyone. Warm to bold."}
+{"id":"yue.c0851","meaning":"Your hair looks great.","note":"To anyone. Mild."}
+{"id":"yue.c0852","meaning":"You sing beautifully.","note":"To anyone. Mild."}
+{"id":"yue.c0853","meaning":"You have a sweet smile.","note":"Usually to a woman. Warm."}
+{"id":"yue.c0854","meaning":"You're such a sweet talker!","note":"Lit. \"your mouth is so sweet\". A playful reply to praise."}
+{"id":"yue.c0855","meaning":"That's so sweet of you.","note":"After a gift or favor. Mild."}
+{"id":"yue.c0856","meaning":"You're so considerate.","note":"To anyone. Mild."}
+{"id":"yue.c0857","meaning":"I love talking with you.","note":"To anyone. Warm."}
+{"id":"yue.c0858","meaning":"I'm happy when I'm with you.","note":"To someone you're seeing. Bold."}
+{"id":"yue.c0859","meaning":"You're fun to be around.","note":"To anyone. Mild."}
+{"id":"yue.c0860","meaning":"Are you seeing anyone?","note":"Direct. Bold."}
+{"id":"yue.c0861","meaning":"Do you have a boyfriend?","note":"To a woman. For a man: 女朋友. Bold."}
+{"id":"yue.c0862","meaning":"Are you free tonight?","note":"Hong Kong flirting often starts with a meal invite."}
+{"id":"yue.c0863","meaning":"Want to have dinner together?","note":"The usual first step. Warm."}
+{"id":"yue.c0864","meaning":"Shall we go for coffee?","note":"Low-pressure invite. Mild."}
+{"id":"yue.c0865","meaning":"Can I get your number?","note":"Bold. Many ask for WhatsApp instead."}
+{"id":"yue.c0866","meaning":"I'd like to ask you out.","note":"Clear and polite. Bold."}
+{"id":"yue.c0867","meaning":"Let's meet again.","note":"After a good time. Warm."}
+{"id":"yue.c0868","meaning":"I kind of like you.","note":"A shy confession. Bold."}
+{"id":"yue.c0869","meaning":"I like you.","note":"The standard confession. Bold."}
+{"id":"yue.c0870","meaning":"Sure, what time?","note":"A warm yes."}
+{"id":"yue.c0871","meaning":"I like you too.","note":"A warm yes to a confession."}
+{"id":"yue.c0872","meaning":"Are you kidding me?","note":"Playful deflection with a smile."}
+{"id":"yue.c0873","meaning":"Thanks, but I have a boyfriend.","note":"Kind, clear no. For a man: 女朋友."}
+{"id":"yue.c0874","meaning":"Thanks, but we're better as friends.","note":"Kind, clear no."}
+{"id":"yue.c0875","meaning":"You're a good person, but let's stay friends.","note":"The classic gentle no."}
+{"id":"yue.c0876","meaning":"Sorry, I don't want to date right now.","note":"Kind, clear no. 住 = for now."}
+{"id":"yue.c0877","meaning":"It smells amazing!","note":"For food as it arrives. Casual."}
+{"id":"yue.c0878","meaning":"Your cooking is delicious!","note":"To a host. The best thing to say at a meal."}
+{"id":"yue.c0879","meaning":"This is awesome!","note":"Hugely common for food. Casual."}
+{"id":"yue.c0880","meaning":"The soup is so good!","note":"Soup matters at Hong Kong home meals."}
+{"id":"yue.c0881","meaning":"Well done!","note":"Boss to staff, teacher to student."}
+{"id":"yue.c0882","meaning":"You did a great job.","note":"Warmer, fuller form."}
+{"id":"yue.c0883","meaning":"You're really good at this!","note":"叻 is the top Hong Kong praise word."}
+{"id":"yue.c0884","meaning":"You're great too!","note":"Returns the praise."}
+{"id":"yue.c0885","meaning":"That's amazing!","note":"Casual, among friends."}
+{"id":"yue.c0886","meaning":"You're very professional.","note":"Praise for someone's work."}
+{"id":"yue.c0887","meaning":"That's a great point.","note":"In a meeting or discussion."}
+{"id":"yue.c0888","meaning":"You're so kind.","note":"Lit. \"you, as a person, are good\"."}
+{"id":"yue.c0889","meaning":"You've helped me a lot.","note":"Thanks and praise in one."}
+{"id":"yue.c0890","meaning":"I couldn't have done it without you.","note":"Lit. \"without you, no go\"."}
+{"id":"yue.c0891","meaning":"Your home is beautiful!","note":"When you visit someone."}
+{"id":"yue.c0892","meaning":"Your place is so clean.","note":"To a host."}
+{"id":"yue.c0893","meaning":"It's so cozy here.","note":"About someone's home."}
+{"id":"yue.c0894","meaning":"Your son is so cute!","note":"Praise for kids is common. For a daughter: 個女."}
+{"id":"yue.c0895","meaning":"Your daughter is so pretty.","note":"To a parent."}
+{"id":"yue.c0896","meaning":"You have beautiful handwriting.","note":"For Chinese handwriting."}
+{"id":"yue.c0897","meaning":"You explain things so clearly.","note":"To a teacher or colleague."}
+{"id":"yue.c0898","meaning":"Your Cantonese is really good!","note":"What a learner hears often."}
+{"id":"yue.c0899","meaning":"You speak Cantonese?!","note":"The surprised reaction you hear first."}
+{"id":"yue.c0900","meaning":"Oh, not really!","note":"Lit. \"where is there?\". The modest reply."}
+{"id":"yue.c0901","meaning":"I'm still learning.","note":"The natural reply to praise of your Cantonese."}
+{"id":"yue.c0902","meaning":"Thanks for saying so.","note":"Accepts warmly. Say 多謝, not 唔該."}
+{"id":"yue.c0903","meaning":"Really? Thanks so much!","note":"Happy acceptance."}
+{"id":"yue.c0904","meaning":"Nah, it's just so-so.","note":"Downplays the praise: very Hong Kong."}

@@ -1,0 +1,81 @@
+{"id":"jyutping.k1","q":"What does the number at the end of a Jyutping syllable show?","o":["The tone","How long the vowel is","How many letters the syllable has","Which syllable is stressed"],"why":"Every syllable ends in a number from 1 to 6, and that number is its tone."}
+{"id":"jyutping.k2","q":"How do you say the j in 有 (jau5, to have)?","o":["Like the j in jam","Like the y in yes","Like the h in hat","Like the s in measure"],"why":"Jyutping j is the English y sound."}
+{"id":"jyutping.k3","q":"How do you end the syllable 十 (sap6, ten)?","o":["Pop the p with a puff of air","Add a little vowel after it: sa-puh","Close the lips and stop, with no puff","Turn it into an m"],"why":"Final p, t and k are stopped: the lips close and the sound just ends."}
+{"id":"tones.k1","q":"Which tone is high and level?","o":["Tone 6","Tone 1","Tone 4","Tone 2"],"why":"Tone 1 is the high, level tone: 詩 (si1)."}
+{"id":"tones.k2","q":"買 (maai5) means to buy. What does 賣 (maai6) mean?","o":["to buy, said more politely","to sell","to buy, in the past","to pay"],"why":"Only the tone changes, and the meaning flips: 賣 is to sell."}
+{"id":"tones.k3","q":"Which tones can a syllable ending in p, t or k have?","o":["Any of the six","Only tone 1","Tone 1, 3 or 6","Tone 2, 4 or 5"],"why":"Syllables in p, t or k are short and only take tone 1, 3 or 6."}
+{"id":"greetings.k1","q":"The server brings your noodles. What do you say?","why":"For a service, say 唔該; 多謝 is for gifts and kind words."}
+{"id":"greetings.k2","q":"A friend gives you a birthday present. What do you say?","why":"A gift takes 多謝."}
+{"id":"greetings.k3","q":"Which phrase is a real apology, for when you have done something wrong?","why":"對唔住 is the real apology; 唔好意思 is for small things."}
+{"id":"characters.k1","q":"What do 日 (sun) and 月 (moon) make together?","why":"The sun and the moon together make 明, bright."}
+{"id":"characters.k2","q":"What does 口 on the left of 嘅, 咗 and 啲 often tell you?","o":["The word is about eating","The word is a question","It is an everyday spoken-Cantonese word","The word has tone 1"],"why":"Many spoken-Cantonese characters carry 口 on the left."}
+{"id":"characters.k3","q":"Which characters does Hong Kong use?","o":["Traditional characters","Simplified characters","Only Jyutping","The Latin alphabet"],"why":"Hong Kong writes traditional characters; simplified ones are used in mainland China."}
+{"id":"hai.k1","q":"How do you say I'm a student?","why":"係 joins the two nouns, and there is no word for a: 我係學生。"}
+{"id":"hai.k2","q":"What can 佢 mean?","o":["Only he","Only she","They","He, she or it"],"why":"佢 covers he, she and it; 佢哋 is they."}
+{"id":"hai.k3","q":"How do you say She's tired?","why":"Adjectives take no 係: use 好, as in 佢好攰。"}
+{"id":"intro.k1","q":"How do you ask someone's name?","why":"The question word stays where the answer goes: 我叫安娜, 你叫咩名呀？"}
+{"id":"intro.k2","q":"How do you say My name is Mark?","why":"叫 means to be called, so 我叫馬克 already says my name is."}
+{"id":"intro.k3","q":"Someone asks 你貴姓呀？ What do you answer?","why":"Answer with 姓; 貴 is only for the other person's name."}
+{"id":"m.k1","q":"How do you ask Are you going?","why":"Say the verb, then 唔, then the verb again: 去唔去."}
+{"id":"m.k2","q":"Someone asks 你去唔去呀？ How do you say yes?","why":"Cantonese has no word for yes: repeat the verb, 去."}
+{"id":"m.k3","q":"How do you say I don't have any money?","why":"有 never takes 唔: its not is 冇."}
+{"id":"questions.k1","q":"How do you ask Where do you live?","why":"The question word stays where the answer goes: 我住喺紐約, 你住喺邊度呀？"}
+{"id":"questions.k2","q":"Where does 幾時 (when) go?","o":["At the very end","Before the subject, always","Before the verb, like other time words","After the verb"],"why":"幾時 is a time word, and time words go before the verb."}
+{"id":"questions.k3","q":"What does 點解 ask?","o":["why","how","when","where"],"why":"點解 is why; 點 on its own is how."}
+{"id":"numbers.k1","q":"How do you say two people?","why":"Before a classifier, two is 兩: 兩個人."}
+{"id":"numbers.k2","q":"How do you say 100,000?","why":"Cantonese counts in 萬 (10,000): 100,000 is 十萬."}
+{"id":"numbers.k3","q":"What does 一百五 mean?","o":["105","15","150","1,500"],"why":"一百五 is short for 一百五十, 150; 105 is 一百零五."}
+{"id":"classifiers.k1","q":"How do you say \"three books\"?","why":"Number + classifier + noun, and books take 本: 三本書."}
+{"id":"classifiers.k2","q":"What does 本書 mean, with nothing in front of the classifier?","o":["any book at all","the book (the one we both know)","books in general","a lot of books"],"why":"A bare classifier + noun points at one particular thing, like \"the\" in English."}
+{"id":"classifiers.k3","q":"Which classifier goes with 手機 (phone)?","why":"Machines such as phones take 部: 一部手機, 我部手機."}
+{"id":"ge.k1","q":"How do you say \"Anna's phone\"?","why":"The owner comes first, then 嘅, then the thing: 安娜嘅電話."}
+{"id":"ge.k2","q":"Which is the most natural way to say \"my mom\"?","why":"With family, Cantonese usually drops 嘅: 我媽媽."}
+{"id":"ge.k3","q":"What does 呢本書係我嘅 mean?","o":["I am this book.","This book is mine.","I have this book.","This is my book shop."],"why":"嘅 at the end stands for the thing: 係我嘅 means \"is mine\"."}
+{"id":"family.k1","q":"Your mother's mother is your…","why":"On your mother's side, grandma is 婆婆; 嫲嫲 is your father's mother."}
+{"id":"family.k2","q":"How do you say \"I'm thirty\"?","why":"Age takes no 係: 我今年三十歲 or just 我三十歲."}
+{"id":"family.k3","q":"Which means \"I have two older brothers\"?","why":"兩 + 個 before 哥哥; 細佬 is a younger brother."}
+{"id":"hai2.k1","q":"How do you say \"I work at a bank\"?","why":"喺 + place goes before the verb: 我喺銀行做嘢."}
+{"id":"hai2.k2","q":"What is the difference between 係 and 喺?","o":["Only the tone: 係 hai6 is \"to be\", 喺 hai2 is \"at, in\"","None: they are two spellings of one word","係 is for people, 喺 is for things","喺 is the written form of 係"],"why":"They are tone twins: hai6 means to be, hai2 means at or in."}
+{"id":"hai2.k3","q":"\"next to the bank\" =","why":"The place word comes after its noun: 銀行隔籬."}
+{"id":"jau-mou.k1","q":"How do you say \"I don't have any money\"?","why":"冇 is the only negative of 有: 我冇錢."}
+{"id":"jau-mou.k2","q":"\"Is there an MTR station nearby?\" =","why":"The place goes first, then 有冇 + the thing."}
+{"id":"jau-mou.k3","q":"Someone asks 你有冇哥哥呀？ and you do have one. You answer:","why":"Answer a 有冇 question with the verb: 有 for yes, 冇 for no."}
+{"id":"particles.k1","q":"Which particle turns 一齊去 into an invitation, \"Let's go together!\"?","why":"吖 makes an offer or an invitation: 一齊去吖！"}
+{"id":"particles.k2","q":"Why does 你叫咩名？ with no particle sound a little curt?","o":["Cantonese softens with a particle, not with a change of melody","It is missing a verb","咩 must come first","Every question needs 嗎"],"why":"The tones are fixed, so friendliness comes from a particle such as 呀."}
+{"id":"particles.k3","q":"How do you ask \"And you?\"","why":"呢 after a person asks the same question back."}
+{"id":"prices.k1","q":"How do you say \"35 dollars\" at a market stall?","why":"In speech a dollar is 蚊: 三十五蚊. 元 is the written word on tags."}
+{"id":"prices.k2","q":"\"two dollars\" =","why":"蚊 works like a classifier, so two is 兩: 兩蚊."}
+{"id":"prices.k3","q":"Where is 平啲得唔得呀？ a normal thing to say?","o":["In a chain store","At a street market","At the bank","Never: it is rude"],"why":"Asking for a lower price is fine at markets, not where prices are fixed."}
+{"id":"food.k1","q":"How do you order \"two milk teas\"?","why":"兩 + the classifier 杯 + 奶茶: 我要兩杯奶茶."}
+{"id":"food.k2","q":"The server brings your dish. What do you say?","why":"唔該 thanks someone for a service."}
+{"id":"food.k3","q":"What does 飲茶 usually mean?","o":["going out for a dim sum meal","drinking a cup of tea alone at home","ordering tea instead of coffee","a tea ceremony"],"why":"飲茶, \"drink tea\", is a dim sum meal with tea."}
+{"id":"time.k1","q":"How do you say \"I'm going to Hong Kong tomorrow\"?","why":"Time goes before the verb: 我聽日去香港."}
+{"id":"time.k2","q":"How do you say \"December 3\"?","why":"Month first, then day: 十二月三號."}
+{"id":"time.k3","q":"What does 三點半 mean?","o":["3:03","3:15","3:30","three and a half hours"],"why":"半 is half: 三點半 is half past three."}
+{"id":"routine.k1","q":"Where does a time word like 夜晚 (evening) go?","o":["Before the verb","At the end of the sentence","Right after the verb","After the thing you do"],"why":"Time words go before the verb, either after the person or at the very start."}
+{"id":"routine.k2","q":"Which sentence says \"I take the MTR to work\"?","why":"How you travel comes before the verb: 搭地鐵 + 返工."}
+{"id":"routine.k3","q":"In \"I get up at seven\", where does 七點 go?","o":["After 起身","At the very end, after a particle","Before 起身","Between 起 and 身"],"why":"A clock time goes before the verb, with no word for \"at\": 我七點起身."}
+{"id":"modals.k1","q":"A friend asks if you can swim. You learned as a child. Which word fits?","why":"識 is for a skill you learned: 我識游水."}
+{"id":"modals.k2","q":"You want to ask \"Can I sit here?\" (permission). Which word fits?","why":"可以 asks for permission: 我可唔可以坐呢度呀？"}
+{"id":"modals.k3","q":"What does 唔使 mean?","o":["no need to","don't want","can't, not allowed","don't know how"],"why":"唔使 means there is no need: 你唔使畀錢."}
+{"id":"ding-dou.k1","q":"Which word means 'or' in a question that offers a choice?","why":"A 定 B？ asks the listener to choose: 凍定熱呀？"}
+{"id":"ding-dou.k2","q":"'I'm going too' =","why":"都 goes after the person and before the verb."}
+{"id":"ding-dou.k3","q":"What does 同 join?","o":["Two things (nouns): tea and coffee","Two questions","Two verbs in a row","A question and its answer"],"why":"同 joins nouns: 奶茶同菠蘿包."}
+{"id":"describing.k1","q":"Which is right for 'I'm tired'?","why":"Adjectives take 好, not 係: 我好攰."}
+{"id":"describing.k2","q":"How do you say 'a bit cheaper'?","why":"Adjective + 啲 means a bit more: 平啲."}
+{"id":"describing.k3","q":"In 佢高過我, what does 過 do?","o":["It means 'very'","It says the action is over","It means 'than': taller than me","It means 'too'"],"why":"Adjective + 過 + the other person compares them: 高過我."}
+{"id":"zo.k1","q":"What does 咗 after a verb show?","o":["The action is done","The action is happening now","The action will happen","The action happens every day"],"why":"咗 marks a finished action or a change: 我食咗飯."}
+{"id":"zo.k2","q":"'I didn't go' =","why":"冇 + verb, with no 咗, says it did not happen."}
+{"id":"zo.k3","q":"Someone asks 你食咗飯未呀？ and you haven't eaten. You say:","why":"未 answers \"not yet\"."}
+{"id":"gan-gwo.k1","q":"How do you say 'I'm eating'?","why":"緊 after the verb means right now, with no 係."}
+{"id":"gan-gwo.k2","q":"What does 我去過香港 mean?","o":["I've been to Hong Kong","I'm going to Hong Kong","I'm in Hong Kong now","I'm on my way to Hong Kong"],"why":"過 after the verb is about experience: you have been there."}
+{"id":"gan-gwo.k3","q":"Which word after the verb means 'right now, in the middle of it'?","why":"緊 marks an action in progress: 我等緊巴士."}
+{"id":"go-come.k1","q":"Which word means 'come' (toward the speaker)?","why":"嚟 is come; 去 is go."}
+{"id":"go-come.k2","q":"In 'I go to Central by MTR', where does 搭地鐵 (by MTR) go?","o":["Before 去中環","After 中環","At the very end, after a particle","Between 去 and 中環"],"why":"How you travel comes before the verb of going: 我搭地鐵去中環."}
+{"id":"go-come.k3","q":"What does 返工 literally say?","o":["go back to work","come to work","get off work","take a bus to work"],"why":"返 is go back; 返工 is the everyday \"go to work\"."}
+{"id":"directions.k1","q":"'across from the bank' =","why":"The landmark comes first, then the place word: 銀行對面."}
+{"id":"directions.k2","q":"Which phrase means 'go straight'?","why":"直行 is go straight; 轉左 and 轉右 are turn left and right."}
+{"id":"directions.k3","q":"In 地鐵站喺銀行對面, what does 對面 mean?","o":["across from","next to","behind","in front of"],"why":"對面 is across from; 隔籬 is next to."}
+{"id":"suggest.k1","q":"Which particle turns 一齊去 into a friendly invitation?","why":"吖 marks offers and invitations: 一齊去吖！"}
+{"id":"suggest.k2","q":"Your friend says 不如去飲茶吖？ and you would love to. You say:","why":"好吖 is a happy yes."}
+{"id":"suggest.k3","q":"What does 唔好 + verb mean?","o":["not good at it","no need to","don't (do it)","not yet"],"why":"唔好 before a verb means don't: 唔好擔心."}

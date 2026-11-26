@@ -17,8 +17,8 @@ Order of languages: Cantonese first (owner: "vantonese first"), then Vietnamese,
 
 | Language | English to X | X to English | Foundation in English to X | Target half |
 |---|---|---|---|---|
-| Cantonese | released | released | done | pending |
-| Vietnamese | released | released | pending | pending |
+| Cantonese | released | released | done | done |
+| Vietnamese | released | released | done | pending |
 | Mandarin | released | released | done | done |
 | Korean | released | released | done | done |
 | Japanese | released | released | done | pending |

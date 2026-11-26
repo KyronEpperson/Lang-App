@@ -1,6 +1,6 @@
 # Blueprint: making a reusable half for a language
 
-A **reusable half** is everything a course teaches about one language, stored once with permanent ids and no learner language in it. Any native language then attaches to it by translating the learner-facing side. Korean was the first (`tools/halves/target/ko/`), Mandarin the second (`target/zh/`, built 2026-11-24). This is the recipe for the next ones.
+A **reusable half** is everything a course teaches about one language, stored once with permanent ids and no learner language in it. Any native language then attaches to it by translating the learner-facing side. Korean was the first (`tools/halves/target/ko/`), Mandarin the second (`target/zh/`, built 2026-11-24), Cantonese the third (`target/yue/`, built 2026-11-26; `docs/briefs/x-yue-design.md`). This is the recipe for the next ones.
 
 Background: `docs/HALVES-SPEC.md` (the model; §11 = second target), `docs/briefs/vi-zh-design.md` (what generalising to Mandarin took). Models and reading lists: `docs/MODEL-ROUTING.md`.
 
@@ -20,7 +20,7 @@ Courses unlocked = halves × native languages. One half for Mandarin makes Manda
 | 4 | Spanish | To build `target/es/` | `tools/target/es/` (en-es) | Steps below; §5 is the main work |
 | 5 | French | To build `target/fr/` | `tools/target/fr/` (en-fr) | Same as Spanish; do it right after, the code is shared |
 
-Korean (`target/ko/`) is done and stays as it is. Suggested order: **Spanish → French → Hindi**. Spanish forces the one new piece of design (§5); French then costs little; Hindi needs that same piece plus its pronunciation aid.
+Korean (`target/ko/`) is done and stays as it is. Outside the top five, **Cantonese is done: `target/yue/`** (third half, from `tools/target/yue/` en-yue; steps 1–4 of §3 passed, the first native half is not scaffolded yet; see `docs/briefs/x-yue-design.md`, including the open "by marks" problem for Han-writing learners). Suggested order: **Spanish → French → Hindi**. Spanish forces the one new piece of design (§5); French then costs little; Hindi needs that same piece plus its pronunciation aid.
 
 ## 3. The recipe (per target language `<t>`)
 
@@ -94,5 +94,5 @@ Reading lists: writers read their brief, the digest, the work file and one finis
 ## 9. What this unlocks, in the owner's order
 
 1. East and Southeast Asian speakers learn Mandarin: native halves for th, id, ja, ko, yue, tl, ceb on `target/zh/` (Vietnamese first).
-2. The same learners get Japanese, Vietnamese and Cantonese once `target/ja/`, `target/vi/`, `target/yue/` exist (same recipe; ja and yue are script-mode like zh, vi is marks-mode like Spanish).
+2. The same learners get Japanese, Vietnamese and Cantonese once `target/ja/`, `target/vi/`, `target/yue/` exist (`target/yue/` exists since 2026-11-26) (same recipe; ja and yue are script-mode like zh, vi is marks-mode like Spanish).
 3. Spanish, French and Hindi for every native language with an interface.

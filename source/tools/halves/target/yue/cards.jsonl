@@ -1,0 +1,904 @@
+{"id":"yue.c0001","deck":"yue.d.jyutping-sounds","yue":"有","rom":"jau5"}
+{"id":"yue.c0002","deck":"yue.d.jyutping-sounds","yue":"早","rom":"zou2"}
+{"id":"yue.c0003","deck":"yue.d.jyutping-sounds","yue":"草","rom":"cou2"}
+{"id":"yue.c0004","deck":"yue.d.jyutping-sounds","yue":"我","rom":"ngo5"}
+{"id":"yue.c0005","deck":"yue.d.jyutping-sounds","yue":"三","rom":"saam1"}
+{"id":"yue.c0006","deck":"yue.d.jyutping-sounds","yue":"心","rom":"sam1"}
+{"id":"yue.c0007","deck":"yue.d.jyutping-sounds","yue":"十","rom":"sap6"}
+{"id":"yue.c0008","deck":"yue.d.jyutping-sounds","yue":"七","rom":"cat1"}
+{"id":"yue.c0009","deck":"yue.d.jyutping-sounds","yue":"六","rom":"luk6"}
+{"id":"yue.c0010","deck":"yue.d.jyutping-sounds","yue":"波","rom":"bo1"}
+{"id":"yue.c0011","deck":"yue.d.jyutping-sounds","yue":"婆","rom":"po4"}
+{"id":"yue.c0012","deck":"yue.d.jyutping-sounds","yue":"打","rom":"daa2"}
+{"id":"yue.c0013","deck":"yue.d.jyutping-sounds","yue":"貴","rom":"gwai3"}
+{"id":"yue.c0014","deck":"yue.d.jyutping-sounds","yue":"去","rom":"heoi3"}
+{"id":"yue.c0015","deck":"yue.d.jyutping-sounds","yue":"靴","rom":"hoe1"}
+{"id":"yue.c0016","deck":"yue.d.jyutping-sounds","yue":"書","rom":"syu1"}
+{"id":"yue.c0017","deck":"yue.d.jyutping-sounds","yue":"唔","rom":"m4"}
+{"id":"yue.c0018","deck":"yue.d.jyutping-sounds","yue":"五","rom":"ng5"}
+{"id":"yue.c0019","deck":"yue.d.tone-twins","yue":"詩","rom":"si1"}
+{"id":"yue.c0020","deck":"yue.d.tone-twins","yue":"史","rom":"si2"}
+{"id":"yue.c0021","deck":"yue.d.tone-twins","yue":"試","rom":"si3"}
+{"id":"yue.c0022","deck":"yue.d.tone-twins","yue":"時","rom":"si4"}
+{"id":"yue.c0023","deck":"yue.d.tone-twins","yue":"市","rom":"si5"}
+{"id":"yue.c0024","deck":"yue.d.tone-twins","yue":"事","rom":"si6"}
+{"id":"yue.c0025","deck":"yue.d.tone-twins","yue":"買","rom":"maai5"}
+{"id":"yue.c0026","deck":"yue.d.tone-twins","yue":"賣","rom":"maai6"}
+{"id":"yue.c0027","deck":"yue.d.tone-twins","yue":"係","rom":"hai6"}
+{"id":"yue.c0028","deck":"yue.d.tone-twins","yue":"喺","rom":"hai2"}
+{"id":"yue.c0029","deck":"yue.d.tone-twins","yue":"四","rom":"sei3"}
+{"id":"yue.c0030","deck":"yue.d.tone-twins","yue":"死","rom":"sei2"}
+{"id":"yue.c0031","deck":"yue.d.tone-twins","yue":"九","rom":"gau2"}
+{"id":"yue.c0032","deck":"yue.d.tone-twins","yue":"夠","rom":"gau3"}
+{"id":"yue.c0033","deck":"yue.d.tone-twins","yue":"舊","rom":"gau6"}
+{"id":"yue.c0034","deck":"yue.d.tone-twins","yue":"粉","rom":"fan2"}
+{"id":"yue.c0035","deck":"yue.d.tone-twins","yue":"瞓","rom":"fan3"}
+{"id":"yue.c0036","deck":"yue.d.tone-twins","yue":"馬","rom":"maa5"}
+{"id":"yue.c0037","deck":"yue.d.first-characters","yue":"人","rom":"jan4"}
+{"id":"yue.c0038","deck":"yue.d.first-characters","yue":"口","rom":"hau2"}
+{"id":"yue.c0039","deck":"yue.d.first-characters","yue":"日","rom":"jat6"}
+{"id":"yue.c0040","deck":"yue.d.first-characters","yue":"月","rom":"jyut6"}
+{"id":"yue.c0041","deck":"yue.d.first-characters","yue":"明","rom":"ming4"}
+{"id":"yue.c0042","deck":"yue.d.first-characters","yue":"山","rom":"saan1"}
+{"id":"yue.c0043","deck":"yue.d.first-characters","yue":"水","rom":"seoi2"}
+{"id":"yue.c0044","deck":"yue.d.first-characters","yue":"木","rom":"muk6"}
+{"id":"yue.c0045","deck":"yue.d.first-characters","yue":"林","rom":"lam4"}
+{"id":"yue.c0046","deck":"yue.d.first-characters","yue":"休","rom":"jau1"}
+{"id":"yue.c0047","deck":"yue.d.first-characters","yue":"大","rom":"daai6"}
+{"id":"yue.c0048","deck":"yue.d.first-characters","yue":"小","rom":"siu2"}
+{"id":"yue.c0049","deck":"yue.d.first-characters","yue":"門","rom":"mun4"}
+{"id":"yue.c0050","deck":"yue.d.first-characters","yue":"手","rom":"sau2"}
+{"id":"yue.c0051","deck":"yue.d.first-characters","yue":"好","rom":"hou2"}
+{"id":"yue.c0052","deck":"yue.d.first-characters","yue":"嘅","rom":"ge3"}
+{"id":"yue.c0053","deck":"yue.d.first-characters","yue":"咗","rom":"zo2"}
+{"id":"yue.c0054","deck":"yue.d.first-characters","yue":"嘢","rom":"je5"}
+{"id":"yue.c0055","deck":"yue.d.greetings-and-courtesy","yue":"早晨！","rom":"zou2 san4!"}
+{"id":"yue.c0056","deck":"yue.d.greetings-and-courtesy","yue":"唔該！","rom":"m4 goi1!"}
+{"id":"yue.c0057","deck":"yue.d.greetings-and-courtesy","yue":"多謝！","rom":"do1 ze6!"}
+{"id":"yue.c0058","deck":"yue.d.greetings-and-courtesy","yue":"唔好意思。","rom":"m4 hou2 ji3 si3."}
+{"id":"yue.c0059","deck":"yue.d.greetings-and-courtesy","yue":"拜拜！","rom":"baai1 baai3!"}
+{"id":"yue.c0060","deck":"yue.d.greetings-and-courtesy","yue":"你好！","rom":"nei5 hou2!"}
+{"id":"yue.c0061","deck":"yue.d.greetings-and-courtesy","yue":"唔該晒！","rom":"m4 goi1 saai3!"}
+{"id":"yue.c0062","deck":"yue.d.greetings-and-courtesy","yue":"多謝晒！","rom":"do1 ze6 saai3!"}
+{"id":"yue.c0063","deck":"yue.d.greetings-and-courtesy","yue":"唔使客氣。","rom":"m4 sai2 haak3 hei3."}
+{"id":"yue.c0064","deck":"yue.d.greetings-and-courtesy","yue":"對唔住。","rom":"deoi3 m4 zyu6."}
+{"id":"yue.c0065","deck":"yue.d.greetings-and-courtesy","yue":"唔緊要。","rom":"m4 gan2 jiu3."}
+{"id":"yue.c0066","deck":"yue.d.greetings-and-courtesy","yue":"冇問題。","rom":"mou5 man6 tai4."}
+{"id":"yue.c0067","deck":"yue.d.greetings-and-courtesy","yue":"早抖！","rom":"zou2 dau2!"}
+{"id":"yue.c0068","deck":"yue.d.greetings-and-courtesy","yue":"好耐冇見！","rom":"hou2 noi6 mou5 gin3!"}
+{"id":"yue.c0069","deck":"yue.d.greetings-and-courtesy","yue":"生日快樂！","rom":"saang1 jat6 faai3 lok6!"}
+{"id":"yue.c0070","deck":"yue.d.greetings-and-courtesy","yue":"請坐。","rom":"cing2 co5."}
+{"id":"yue.c0071","deck":"yue.d.greetings-and-courtesy","yue":"喂？","rom":"wai2?"}
+{"id":"yue.c0072","deck":"yue.d.greetings-and-courtesy","yue":"恭喜發財！","rom":"gung1 hei2 faat3 coi4!"}
+{"id":"yue.c0073","deck":"yue.d.people-and-family","yue":"佢哋","rom":"keoi5 dei6"}
+{"id":"yue.c0074","deck":"yue.d.people-and-family","yue":"我哋","rom":"ngo5 dei6"}
+{"id":"yue.c0075","deck":"yue.d.people-and-family","yue":"媽媽","rom":"maa4 maa1"}
+{"id":"yue.c0076","deck":"yue.d.people-and-family","yue":"爸爸","rom":"baa4 baa1"}
+{"id":"yue.c0077","deck":"yue.d.people-and-family","yue":"哥哥","rom":"go4 go1"}
+{"id":"yue.c0078","deck":"yue.d.people-and-family","yue":"家姐","rom":"gaa1 ze1"}
+{"id":"yue.c0079","deck":"yue.d.people-and-family","yue":"細佬","rom":"sai3 lou2"}
+{"id":"yue.c0080","deck":"yue.d.people-and-family","yue":"細妹","rom":"sai3 mui2"}
+{"id":"yue.c0081","deck":"yue.d.people-and-family","yue":"爺爺","rom":"je4 je2"}
+{"id":"yue.c0082","deck":"yue.d.people-and-family","yue":"嫲嫲","rom":"maa4 maa4"}
+{"id":"yue.c0083","deck":"yue.d.people-and-family","yue":"公公","rom":"gung4 gung1"}
+{"id":"yue.c0084","deck":"yue.d.people-and-family","yue":"婆婆","rom":"po4 po2"}
+{"id":"yue.c0085","deck":"yue.d.people-and-family","yue":"老公","rom":"lou5 gung1"}
+{"id":"yue.c0086","deck":"yue.d.people-and-family","yue":"老婆","rom":"lou5 po4"}
+{"id":"yue.c0087","deck":"yue.d.people-and-family","yue":"個仔","rom":"go3 zai2"}
+{"id":"yue.c0088","deck":"yue.d.people-and-family","yue":"朋友","rom":"pang4 jau5"}
+{"id":"yue.c0089","deck":"yue.d.people-and-family","yue":"佢係我朋友。","rom":"keoi5 hai6 ngo5 pang4 jau5."}
+{"id":"yue.c0090","deck":"yue.d.people-and-family","yue":"我屋企有四個人。","rom":"ngo5 uk1 kei2 jau5 sei3 go3 jan4."}
+{"id":"yue.c0091","deck":"yue.d.about-me","yue":"我叫安娜。","rom":"ngo5 giu3 on1 naa4."}
+{"id":"yue.c0092","deck":"yue.d.about-me","yue":"你叫咩名呀？","rom":"nei5 giu3 me1 meng2 aa3?"}
+{"id":"yue.c0093","deck":"yue.d.about-me","yue":"我姓陳。","rom":"ngo5 sing3 can4."}
+{"id":"yue.c0094","deck":"yue.d.about-me","yue":"叫我阿明得啦。","rom":"giu3 ngo5 aa3 ming4 dak1 laa1."}
+{"id":"yue.c0095","deck":"yue.d.about-me","yue":"你係邊度人呀？","rom":"nei5 hai6 bin1 dou6 jan4 aa3?"}
+{"id":"yue.c0096","deck":"yue.d.about-me","yue":"我係美國人。","rom":"ngo5 hai6 mei5 gwok3 jan4."}
+{"id":"yue.c0097","deck":"yue.d.about-me","yue":"我係加拿大人。","rom":"ngo5 hai6 gaa1 naa4 daai6 jan4."}
+{"id":"yue.c0098","deck":"yue.d.about-me","yue":"我住喺三藩市。","rom":"ngo5 zyu6 hai2 saam1 faan4 si5."}
+{"id":"yue.c0099","deck":"yue.d.about-me","yue":"我係護士。","rom":"ngo5 hai6 wu6 si6."}
+{"id":"yue.c0100","deck":"yue.d.about-me","yue":"我今年二十八歲。","rom":"ngo5 gam1 nin2 ji6 sap6 baat3 seoi3."}
+{"id":"yue.c0101","deck":"yue.d.about-me","yue":"我識講少少廣東話。","rom":"ngo5 sik1 gong2 siu2 siu2 gwong2 dung1 waa2."}
+{"id":"yue.c0102","deck":"yue.d.about-me","yue":"我學緊廣東話。","rom":"ngo5 hok6 gan2 gwong2 dung1 waa2."}
+{"id":"yue.c0103","deck":"yue.d.about-me","yue":"我識講英文同廣東話。","rom":"ngo5 sik1 gong2 jing1 man2 tung4 gwong2 dung1 waa2."}
+{"id":"yue.c0104","deck":"yue.d.about-me","yue":"我唔識講普通話。","rom":"ngo5 m4 sik1 gong2 pou2 tung1 waa2."}
+{"id":"yue.c0105","deck":"yue.d.about-me","yue":"我喺屋企講廣東話。","rom":"ngo5 hai2 uk1 kei2 gong2 gwong2 dung1 waa2."}
+{"id":"yue.c0106","deck":"yue.d.about-me","yue":"我鍾意睇戲。","rom":"ngo5 zung1 ji3 tai2 hei3."}
+{"id":"yue.c0107","deck":"yue.d.about-me","yue":"我嘅電話號碼係九八七六五四三二。","rom":"ngo5 ge3 din6 waa2 hou6 maa5 hai6 gau2 baat3 cat1 luk6 ng5 sei3 saam1 ji6."}
+{"id":"yue.c0108","deck":"yue.d.numbers-and-money","yue":"兩個","rom":"loeng5 go3"}
+{"id":"yue.c0109","deck":"yue.d.numbers-and-money","yue":"十五","rom":"sap6 ng5"}
+{"id":"yue.c0110","deck":"yue.d.numbers-and-money","yue":"二十","rom":"ji6 sap6"}
+{"id":"yue.c0111","deck":"yue.d.numbers-and-money","yue":"廿五","rom":"jaa6 ng5"}
+{"id":"yue.c0112","deck":"yue.d.numbers-and-money","yue":"四十八","rom":"sei3 sap6 baat3"}
+{"id":"yue.c0113","deck":"yue.d.numbers-and-money","yue":"九十九","rom":"gau2 sap6 gau2"}
+{"id":"yue.c0114","deck":"yue.d.numbers-and-money","yue":"一百五","rom":"jat1 baak3 ng5"}
+{"id":"yue.c0115","deck":"yue.d.numbers-and-money","yue":"一百零五","rom":"jat1 baak3 ling4 ng5"}
+{"id":"yue.c0116","deck":"yue.d.numbers-and-money","yue":"一千","rom":"jat1 cin1"}
+{"id":"yue.c0117","deck":"yue.d.numbers-and-money","yue":"兩千","rom":"loeng5 cin1"}
+{"id":"yue.c0118","deck":"yue.d.numbers-and-money","yue":"一萬","rom":"jat1 maan6"}
+{"id":"yue.c0119","deck":"yue.d.numbers-and-money","yue":"一百萬","rom":"jat1 baak3 maan6"}
+{"id":"yue.c0120","deck":"yue.d.numbers-and-money","yue":"零","rom":"ling4"}
+{"id":"yue.c0121","deck":"yue.d.numbers-and-money","yue":"一百蚊","rom":"jat1 baak3 man1"}
+{"id":"yue.c0122","deck":"yue.d.numbers-and-money","yue":"二十五蚊","rom":"ji6 sap6 ng5 man1"}
+{"id":"yue.c0123","deck":"yue.d.numbers-and-money","yue":"三蚊半","rom":"saam1 man1 bun3"}
+{"id":"yue.c0124","deck":"yue.d.numbers-and-money","yue":"五毫子","rom":"ng5 hou4 zi2"}
+{"id":"yue.c0125","deck":"yue.d.numbers-and-money","yue":"港幣","rom":"gong2 bai6"}
+{"id":"yue.c0126","deck":"yue.d.classifiers","yue":"一個人","rom":"jat1 go3 jan4"}
+{"id":"yue.c0127","deck":"yue.d.classifiers","yue":"三本書","rom":"saam1 bun2 syu1"}
+{"id":"yue.c0128","deck":"yue.d.classifiers","yue":"呢本書","rom":"ni1 bun2 syu1"}
+{"id":"yue.c0129","deck":"yue.d.classifiers","yue":"邊本書呀？","rom":"bin1 bun2 syu1 aa3?"}
+{"id":"yue.c0130","deck":"yue.d.classifiers","yue":"本書喺邊度呀？","rom":"bun2 syu1 hai2 bin1 dou6 aa3?"}
+{"id":"yue.c0131","deck":"yue.d.classifiers","yue":"兩張飛","rom":"loeng5 zoeng1 fei1"}
+{"id":"yue.c0132","deck":"yue.d.classifiers","yue":"一張枱","rom":"jat1 zoeng1 toi2"}
+{"id":"yue.c0133","deck":"yue.d.classifiers","yue":"一隻貓","rom":"jat1 zek3 maau1"}
+{"id":"yue.c0134","deck":"yue.d.classifiers","yue":"兩隻狗","rom":"loeng5 zek3 gau2"}
+{"id":"yue.c0135","deck":"yue.d.classifiers","yue":"我部手機","rom":"ngo5 bou6 sau2 gei1"}
+{"id":"yue.c0136","deck":"yue.d.classifiers","yue":"一架車","rom":"jat1 gaa3 ce1"}
+{"id":"yue.c0137","deck":"yue.d.classifiers","yue":"一件衫","rom":"jat1 gin6 saam1"}
+{"id":"yue.c0138","deck":"yue.d.classifiers","yue":"一條褲","rom":"jat1 tiu4 fu3"}
+{"id":"yue.c0139","deck":"yue.d.classifiers","yue":"一對鞋","rom":"jat1 deoi3 haai4"}
+{"id":"yue.c0140","deck":"yue.d.classifiers","yue":"一杯水","rom":"jat1 bui1 seoi2"}
+{"id":"yue.c0141","deck":"yue.d.classifiers","yue":"一碗飯","rom":"jat1 wun2 faan6"}
+{"id":"yue.c0142","deck":"yue.d.classifiers","yue":"嗰個人","rom":"go2 go3 jan4"}
+{"id":"yue.c0143","deck":"yue.d.classifiers","yue":"幾個人呀？","rom":"gei2 go3 jan4 aa3?"}
+{"id":"yue.c0144","deck":"yue.d.food-and-drink","yue":"飲茶","rom":"jam2 caa4"}
+{"id":"yue.c0145","deck":"yue.d.food-and-drink","yue":"點心","rom":"dim2 sam1"}
+{"id":"yue.c0146","deck":"yue.d.food-and-drink","yue":"蝦餃","rom":"haa1 gaau2"}
+{"id":"yue.c0147","deck":"yue.d.food-and-drink","yue":"燒賣","rom":"siu1 maai2"}
+{"id":"yue.c0148","deck":"yue.d.food-and-drink","yue":"叉燒包","rom":"caa1 siu1 baau1"}
+{"id":"yue.c0149","deck":"yue.d.food-and-drink","yue":"腸粉","rom":"coeng2 fan2"}
+{"id":"yue.c0150","deck":"yue.d.food-and-drink","yue":"蛋撻","rom":"daan6 taat1"}
+{"id":"yue.c0151","deck":"yue.d.food-and-drink","yue":"菠蘿包","rom":"bo1 lo4 baau1"}
+{"id":"yue.c0152","deck":"yue.d.food-and-drink","yue":"一碗雲吞麵","rom":"jat1 wun2 wan4 tan1 min6"}
+{"id":"yue.c0153","deck":"yue.d.food-and-drink","yue":"凍奶茶","rom":"dung3 naai5 caa4"}
+{"id":"yue.c0154","deck":"yue.d.food-and-drink","yue":"凍檸茶","rom":"dung3 ning2 caa4"}
+{"id":"yue.c0155","deck":"yue.d.food-and-drink","yue":"鴛鴦","rom":"jyun1 joeng1"}
+{"id":"yue.c0156","deck":"yue.d.food-and-drink","yue":"唔該，我要一杯咖啡。","rom":"m4 goi1, ngo5 jiu3 jat1 bui1 gaa3 fe1."}
+{"id":"yue.c0157","deck":"yue.d.food-and-drink","yue":"唔該，走冰。","rom":"m4 goi1, zau2 bing1."}
+{"id":"yue.c0158","deck":"yue.d.food-and-drink","yue":"幾位呀？","rom":"gei2 wai2 aa3?"}
+{"id":"yue.c0159","deck":"yue.d.food-and-drink","yue":"堂食定外賣呀？","rom":"tong4 sik6 ding6 ngoi6 maai6 aa3?"}
+{"id":"yue.c0160","deck":"yue.d.food-and-drink","yue":"不如去飲茶吖？","rom":"bat1 jyu4 heoi3 jam2 caa4 aa1?"}
+{"id":"yue.c0161","deck":"yue.d.food-and-drink","yue":"唔該埋單！","rom":"m4 goi1 maai4 daan1!"}
+{"id":"yue.c0162","deck":"yue.d.shopping","yue":"幾多錢呀？","rom":"gei2 do1 cin2 aa3?"}
+{"id":"yue.c0163","deck":"yue.d.shopping","yue":"平啲得唔得呀？","rom":"peng4 di1 dak1 m4 dak1 aa3?"}
+{"id":"yue.c0164","deck":"yue.d.shopping","yue":"有冇大碼呀？","rom":"jau5 mou5 daai6 maa5 aa3?"}
+{"id":"yue.c0165","deck":"yue.d.shopping","yue":"我睇吓先。","rom":"ngo5 tai2 haa5 sin1."}
+{"id":"yue.c0166","deck":"yue.d.shopping","yue":"可唔可以用八達通呀？","rom":"ho2 m4 ho2 ji5 jung6 baat3 daat6 tung1 aa3?"}
+{"id":"yue.c0167","deck":"yue.d.shopping","yue":"呢件衫幾多錢呀？","rom":"ni1 gin6 saam1 gei2 do1 cin2 aa3?"}
+{"id":"yue.c0168","deck":"yue.d.shopping","yue":"太貴喇！","rom":"taai3 gwai3 laa3!"}
+{"id":"yue.c0169","deck":"yue.d.shopping","yue":"我要呢件。","rom":"ngo5 jiu3 ni1 gin6."}
+{"id":"yue.c0170","deck":"yue.d.shopping","yue":"我想睇吓嗰件。","rom":"ngo5 soeng2 tai2 haa5 go2 gin6."}
+{"id":"yue.c0171","deck":"yue.d.shopping","yue":"可唔可以試吓呀？","rom":"ho2 m4 ho2 ji5 si3 haa5 aa3?"}
+{"id":"yue.c0172","deck":"yue.d.shopping","yue":"有冇第二隻色呀？","rom":"jau5 mou5 dai6 ji6 zek3 sik1 aa3?"}
+{"id":"yue.c0173","deck":"yue.d.shopping","yue":"啱啱好。","rom":"ngaam1 ngaam1 hou2."}
+{"id":"yue.c0174","deck":"yue.d.shopping","yue":"太細喇。","rom":"taai3 sai3 laa3."}
+{"id":"yue.c0175","deck":"yue.d.shopping","yue":"收唔收信用卡呀？","rom":"sau1 m4 sau1 seon3 jung6 kaat1 aa3?"}
+{"id":"yue.c0176","deck":"yue.d.shopping","yue":"我畀現金。","rom":"ngo5 bei2 jin6 gam1."}
+{"id":"yue.c0177","deck":"yue.d.shopping","yue":"我冇散紙。","rom":"ngo5 mou5 saan2 zi2."}
+{"id":"yue.c0178","deck":"yue.d.shopping","yue":"唔使袋，唔該。","rom":"m4 sai2 doi2, m4 goi1."}
+{"id":"yue.c0179","deck":"yue.d.shopping","yue":"我想買一份禮物。","rom":"ngo5 soeng2 maai5 jat1 fan6 lai5 mat6."}
+{"id":"yue.c0180","deck":"yue.d.time-days-and-dates","yue":"聽日","rom":"ting1 jat6"}
+{"id":"yue.c0181","deck":"yue.d.time-days-and-dates","yue":"星期一","rom":"sing1 kei4 jat1"}
+{"id":"yue.c0182","deck":"yue.d.time-days-and-dates","yue":"而家幾點呀？","rom":"ji4 gaa1 gei2 dim2 aa3?"}
+{"id":"yue.c0183","deck":"yue.d.time-days-and-dates","yue":"三點半","rom":"saam1 dim2 bun3"}
+{"id":"yue.c0184","deck":"yue.d.time-days-and-dates","yue":"十二月三號","rom":"sap6 ji6 jyut6 saam1 hou6"}
+{"id":"yue.c0185","deck":"yue.d.time-days-and-dates","yue":"今日星期幾呀？","rom":"gam1 jat6 sing1 kei4 gei2 aa3?"}
+{"id":"yue.c0186","deck":"yue.d.time-days-and-dates","yue":"琴日","rom":"kam4 jat6"}
+{"id":"yue.c0187","deck":"yue.d.time-days-and-dates","yue":"三點十分","rom":"saam1 dim2 sap6 fan1"}
+{"id":"yue.c0188","deck":"yue.d.time-days-and-dates","yue":"下晝三點","rom":"haa6 zau3 saam1 dim2"}
+{"id":"yue.c0189","deck":"yue.d.time-days-and-dates","yue":"我朝早七點起身。","rom":"ngo5 ziu1 zou2 cat1 dim2 hei2 san1."}
+{"id":"yue.c0190","deck":"yue.d.time-days-and-dates","yue":"你幾點返工呀？","rom":"nei5 gei2 dim2 faan1 gung1 aa3?"}
+{"id":"yue.c0191","deck":"yue.d.time-days-and-dates","yue":"我六點放工。","rom":"ngo5 luk6 dim2 fong3 gung1."}
+{"id":"yue.c0192","deck":"yue.d.time-days-and-dates","yue":"我一點食晏。","rom":"ngo5 jat1 dim2 sik6 aan3."}
+{"id":"yue.c0193","deck":"yue.d.time-days-and-dates","yue":"我夜晚沖涼。","rom":"ngo5 je6 maan5 cung1 loeng4."}
+{"id":"yue.c0194","deck":"yue.d.time-days-and-dates","yue":"我十一點瞓覺。","rom":"ngo5 sap6 jat1 dim2 fan3 gaau3."}
+{"id":"yue.c0195","deck":"yue.d.time-days-and-dates","yue":"你週末做咩呀？","rom":"nei5 zau1 mut6 zou6 me1 aa3?"}
+{"id":"yue.c0196","deck":"yue.d.time-days-and-dates","yue":"你生日係幾月幾號呀？","rom":"nei5 saang1 jat6 hai6 gei2 jyut6 gei2 hou6 aa3?"}
+{"id":"yue.c0197","deck":"yue.d.time-days-and-dates","yue":"一個鐘頭","rom":"jat1 go3 zung1 tau4"}
+{"id":"yue.c0198","deck":"yue.d.around-town-and-directions","yue":"洗手間喺邊度呀？","rom":"sai2 sau2 gaan1 hai2 bin1 dou6 aa3?"}
+{"id":"yue.c0199","deck":"yue.d.around-town-and-directions","yue":"直行","rom":"zik6 haang4"}
+{"id":"yue.c0200","deck":"yue.d.around-town-and-directions","yue":"轉左","rom":"zyun3 zo2"}
+{"id":"yue.c0201","deck":"yue.d.around-town-and-directions","yue":"銀行喺超市隔籬。","rom":"ngan4 hong4 hai2 ciu1 si5 gaak3 lei4."}
+{"id":"yue.c0202","deck":"yue.d.around-town-and-directions","yue":"附近有冇地鐵站呀？","rom":"fu6 gan6 jau5 mou5 dei6 tit3 zaam6 aa3?"}
+{"id":"yue.c0203","deck":"yue.d.around-town-and-directions","yue":"請問地鐵站點去呀？","rom":"cing2 man6 dei6 tit3 zaam6 dim2 heoi3 aa3?"}
+{"id":"yue.c0204","deck":"yue.d.around-town-and-directions","yue":"過馬路","rom":"gwo3 maa5 lou6"}
+{"id":"yue.c0205","deck":"yue.d.around-town-and-directions","yue":"喺銀行對面","rom":"hai2 ngan4 hong4 deoi3 min6"}
+{"id":"yue.c0206","deck":"yue.d.around-town-and-directions","yue":"我喺香港。","rom":"ngo5 hai2 hoeng1 gong2."}
+{"id":"yue.c0207","deck":"yue.d.around-town-and-directions","yue":"行五分鐘就到。","rom":"haang4 ng5 fan1 zung1 zau6 dou3."}
+{"id":"yue.c0208","deck":"yue.d.around-town-and-directions","yue":"遠唔遠呀？","rom":"jyun5 m4 jyun5 aa3?"}
+{"id":"yue.c0209","deck":"yue.d.around-town-and-directions","yue":"唔遠，好近。","rom":"m4 jyun5, hou2 kan5."}
+{"id":"yue.c0210","deck":"yue.d.around-town-and-directions","yue":"就喺前面。","rom":"zau6 hai2 cin4 min6."}
+{"id":"yue.c0211","deck":"yue.d.around-town-and-directions","yue":"喺紅綠燈轉右。","rom":"hai2 hung4 luk6 dang1 zyun3 jau6."}
+{"id":"yue.c0212","deck":"yue.d.around-town-and-directions","yue":"公園喺左邊。","rom":"gung1 jyun2 hai2 zo2 bin1."}
+{"id":"yue.c0213","deck":"yue.d.around-town-and-directions","yue":"書店喺商場入面。","rom":"syu1 dim3 hai2 soeng1 coeng4 jap6 min6."}
+{"id":"yue.c0214","deck":"yue.d.around-town-and-directions","yue":"呢度係邊度呀？","rom":"ni1 dou6 hai6 bin1 dou6 aa3?"}
+{"id":"yue.c0215","deck":"yue.d.around-town-and-directions","yue":"你喺邊度呀？","rom":"nei5 hai2 bin1 dou6 aa3?"}
+{"id":"yue.c0216","deck":"yue.d.getting-around","yue":"港鐵","rom":"gong2 tit3"}
+{"id":"yue.c0217","deck":"yue.d.getting-around","yue":"八達通","rom":"baat3 daat6 tung1"}
+{"id":"yue.c0218","deck":"yue.d.getting-around","yue":"唔該，去機場。","rom":"m4 goi1, heoi3 gei1 coeng4."}
+{"id":"yue.c0219","deck":"yue.d.getting-around","yue":"前面有落！","rom":"cin4 min6 jau5 lok6!"}
+{"id":"yue.c0220","deck":"yue.d.getting-around","yue":"我搭地鐵返工。","rom":"ngo5 daap3 dei6 tit3 faan1 gung1."}
+{"id":"yue.c0221","deck":"yue.d.getting-around","yue":"我坐巴士去中環。","rom":"ngo5 co5 baa1 si2 heoi3 zung1 waan4."}
+{"id":"yue.c0222","deck":"yue.d.getting-around","yue":"我哋搭的士去吖。","rom":"ngo5 dei6 daap3 dik1 si2 heoi3 aa1."}
+{"id":"yue.c0223","deck":"yue.d.getting-around","yue":"呢架小巴去唔去旺角㗎？","rom":"ni1 gaa3 siu2 baa1 heoi3 m4 heoi3 wong6 gok3 gaa3?"}
+{"id":"yue.c0224","deck":"yue.d.getting-around","yue":"喺邊度落車呀？","rom":"hai2 bin1 dou6 lok6 ce1 aa3?"}
+{"id":"yue.c0225","deck":"yue.d.getting-around","yue":"天星小輪","rom":"tin1 sing1 siu2 leon4"}
+{"id":"yue.c0226","deck":"yue.d.getting-around","yue":"我搭緊地鐵。","rom":"ngo5 daap3 gan2 dei6 tit3."}
+{"id":"yue.c0227","deck":"yue.d.getting-around","yue":"你去過澳門未呀？","rom":"nei5 heoi3 gwo3 ou3 mun2 mei6 aa3?"}
+{"id":"yue.c0228","deck":"yue.d.getting-around","yue":"我未去過。","rom":"ngo5 mei6 heoi3 gwo3."}
+{"id":"yue.c0229","deck":"yue.d.getting-around","yue":"我行路去。","rom":"ngo5 haang4 lou6 heoi3."}
+{"id":"yue.c0230","deck":"yue.d.getting-around","yue":"下個站係中環。","rom":"haa6 go3 zaam6 hai6 zung1 waan4."}
+{"id":"yue.c0231","deck":"yue.d.getting-around","yue":"搭地鐵去尖沙咀要幾耐呀？","rom":"daap3 dei6 tit3 heoi3 zim1 saa1 zeoi2 jiu3 gei2 noi6 aa3?"}
+{"id":"yue.c0232","deck":"yue.d.getting-around","yue":"你幾時嚟香港呀？","rom":"nei5 gei2 si4 lei4 hoeng1 gong2 aa3?"}
+{"id":"yue.c0233","deck":"yue.d.getting-around","yue":"我而家返屋企。","rom":"ngo5 ji4 gaa1 faan1 uk1 kei2."}
+{"id":"yue.c0234","deck":"yue.d.work-and-study","yue":"老師","rom":"lou5 si1"}
+{"id":"yue.c0235","deck":"yue.d.work-and-study","yue":"學生","rom":"hok6 saang1"}
+{"id":"yue.c0236","deck":"yue.d.work-and-study","yue":"返工","rom":"faan1 gung1"}
+{"id":"yue.c0237","deck":"yue.d.work-and-study","yue":"你做邊行㗎？","rom":"nei5 zou6 bin1 hong4 gaa3?"}
+{"id":"yue.c0238","deck":"yue.d.work-and-study","yue":"我喺銀行做嘢。","rom":"ngo5 hai2 ngan4 hong4 zou6 je5."}
+{"id":"yue.c0239","deck":"yue.d.work-and-study","yue":"你識唔識講英文呀？","rom":"nei5 sik1 m4 sik1 gong2 jing1 man2 aa3?"}
+{"id":"yue.c0240","deck":"yue.d.work-and-study","yue":"我想學廣東話。","rom":"ngo5 soeng2 hok6 gwong2 dung1 waa2."}
+{"id":"yue.c0241","deck":"yue.d.work-and-study","yue":"我唔識寫中文字。","rom":"ngo5 m4 sik1 se2 zung1 man4 zi6."}
+{"id":"yue.c0242","deck":"yue.d.work-and-study","yue":"我聽日要返工。","rom":"ngo5 ting1 jat6 jiu3 faan1 gung1."}
+{"id":"yue.c0243","deck":"yue.d.work-and-study","yue":"我可以喺屋企做嘢。","rom":"ngo5 ho2 ji5 hai2 uk1 kei2 zou6 je5."}
+{"id":"yue.c0244","deck":"yue.d.work-and-study","yue":"今日唔使返工。","rom":"gam1 jat6 m4 sai2 faan1 gung1."}
+{"id":"yue.c0245","deck":"yue.d.work-and-study","yue":"我聽日會遲啲到。","rom":"ngo5 ting1 jat6 wui5 ci4 di1 dou3."}
+{"id":"yue.c0246","deck":"yue.d.work-and-study","yue":"我係大學生。","rom":"ngo5 hai6 daai6 hok6 saang1."}
+{"id":"yue.c0247","deck":"yue.d.work-and-study","yue":"佢係我同事。","rom":"keoi5 hai6 ngo5 tung4 si6."}
+{"id":"yue.c0248","deck":"yue.d.work-and-study","yue":"我要開會。","rom":"ngo5 jiu3 hoi1 wui2."}
+{"id":"yue.c0249","deck":"yue.d.work-and-study","yue":"我下個禮拜考試。","rom":"ngo5 haa6 go3 lai5 baai3 haau2 si5."}
+{"id":"yue.c0250","deck":"yue.d.work-and-study","yue":"你喺邊度讀書呀？","rom":"nei5 hai2 bin1 dou6 duk6 syu1 aa3?"}
+{"id":"yue.c0251","deck":"yue.d.work-and-study","yue":"我鍾意讀書。","rom":"ngo5 zung1 ji3 duk6 syu1."}
+{"id":"yue.c0252","deck":"yue.d.health-and-help","yue":"我唔舒服。","rom":"ngo5 m4 syu1 fuk6."}
+{"id":"yue.c0253","deck":"yue.d.health-and-help","yue":"我頭痛。","rom":"ngo5 tau4 tung3."}
+{"id":"yue.c0254","deck":"yue.d.health-and-help","yue":"我感冒咗。","rom":"ngo5 gam2 mou6 zo2."}
+{"id":"yue.c0255","deck":"yue.d.health-and-help","yue":"藥房","rom":"joek6 fong4"}
+{"id":"yue.c0256","deck":"yue.d.health-and-help","yue":"救命呀！","rom":"gau3 meng6 aa3!"}
+{"id":"yue.c0257","deck":"yue.d.health-and-help","yue":"我有啲發燒。","rom":"ngo5 jau5 di1 faat3 siu1."}
+{"id":"yue.c0258","deck":"yue.d.health-and-help","yue":"我喉嚨痛。","rom":"ngo5 hau4 lung4 tung3."}
+{"id":"yue.c0259","deck":"yue.d.health-and-help","yue":"我要睇醫生。","rom":"ngo5 jiu3 tai2 ji1 sang1."}
+{"id":"yue.c0260","deck":"yue.d.health-and-help","yue":"你食咗藥未呀？","rom":"nei5 sik6 zo2 joek6 mei6 aa3?"}
+{"id":"yue.c0261","deck":"yue.d.health-and-help","yue":"我未食藥。","rom":"ngo5 mei6 sik6 joek6."}
+{"id":"yue.c0262","deck":"yue.d.health-and-help","yue":"我冇事。","rom":"ngo5 mou5 si6."}
+{"id":"yue.c0263","deck":"yue.d.health-and-help","yue":"可唔可以幫吓我呀？","rom":"ho2 m4 ho2 ji5 bong1 haa5 ngo5 aa3?"}
+{"id":"yue.c0264","deck":"yue.d.health-and-help","yue":"醫院喺邊度呀？","rom":"ji1 jyun2 hai2 bin1 dou6 aa3?"}
+{"id":"yue.c0265","deck":"yue.d.health-and-help","yue":"小心呀！","rom":"siu2 sam1 aa3!"}
+{"id":"yue.c0266","deck":"yue.d.health-and-help","yue":"好好休息。","rom":"hou2 hou2 jau1 sik1."}
+{"id":"yue.c0267","deck":"yue.d.health-and-help","yue":"我咳咗幾日。","rom":"ngo5 kat1 zo2 gei2 jat6."}
+{"id":"yue.c0268","deck":"yue.d.health-and-help","yue":"打九九九！","rom":"daa2 gau2 gau2 gau2!"}
+{"id":"yue.c0269","deck":"yue.d.health-and-help","yue":"佢病咗。","rom":"keoi5 beng6 zo2."}
+{"id":"yue.c0270","deck":"yue.d.describing-things","yue":"好靚","rom":"hou2 leng3"}
+{"id":"yue.c0271","deck":"yue.d.describing-things","yue":"好平","rom":"hou2 peng4"}
+{"id":"yue.c0272","deck":"yue.d.describing-things","yue":"好好食","rom":"hou2 hou2 sik6"}
+{"id":"yue.c0273","deck":"yue.d.describing-things","yue":"佢高過我。","rom":"keoi5 gou1 gwo3 ngo5."}
+{"id":"yue.c0274","deck":"yue.d.describing-things","yue":"今日好熱。","rom":"gam1 jat6 hou2 jit6."}
+{"id":"yue.c0275","deck":"yue.d.describing-things","yue":"太辣喇。","rom":"taai3 laat6 laa3."}
+{"id":"yue.c0276","deck":"yue.d.describing-things","yue":"幾好。","rom":"gei2 hou2."}
+{"id":"yue.c0277","deck":"yue.d.describing-things","yue":"唔係幾好。","rom":"m4 hai6 gei2 hou2."}
+{"id":"yue.c0278","deck":"yue.d.describing-things","yue":"麻麻哋。","rom":"maa4 maa2 dei2."}
+{"id":"yue.c0279","deck":"yue.d.describing-things","yue":"好靚嘅衫","rom":"hou2 leng3 ge3 saam1"}
+{"id":"yue.c0280","deck":"yue.d.describing-things","yue":"呢度好嘈。","rom":"ni1 dou6 hou2 cou4."}
+{"id":"yue.c0281","deck":"yue.d.describing-things","yue":"香港好多人。","rom":"hoeng1 gong2 hou2 do1 jan4."}
+{"id":"yue.c0282","deck":"yue.d.describing-things","yue":"佢好叻。","rom":"keoi5 hou2 lek1."}
+{"id":"yue.c0283","deck":"yue.d.describing-things","yue":"呢個平啲。","rom":"ni1 go3 peng4 di1."}
+{"id":"yue.c0284","deck":"yue.d.describing-things","yue":"地鐵快過巴士。","rom":"dei6 tit3 faai3 gwo3 baa1 si2."}
+{"id":"yue.c0285","deck":"yue.d.describing-things","yue":"八達通好方便。","rom":"baat3 daat6 tung1 hou2 fong1 bin6."}
+{"id":"yue.c0286","deck":"yue.d.describing-things","yue":"今日天氣好好。","rom":"gam1 jat6 tin1 hei3 hou2 hou2."}
+{"id":"yue.c0287","deck":"yue.d.describing-things","yue":"佢好後生。","rom":"keoi5 hou2 hau6 saang1."}
+{"id":"yue.c0288","deck":"yue.d.questions-and-particles","yue":"咩呀？","rom":"me1 aa3?"}
+{"id":"yue.c0289","deck":"yue.d.questions-and-particles","yue":"邊個呀？","rom":"bin1 go3 aa3?"}
+{"id":"yue.c0290","deck":"yue.d.questions-and-particles","yue":"你呢？","rom":"nei5 ne1?"}
+{"id":"yue.c0291","deck":"yue.d.questions-and-particles","yue":"一齊去吖！","rom":"jat1 cai4 heoi3 aa1!"}
+{"id":"yue.c0292","deck":"yue.d.questions-and-particles","yue":"係㗎。","rom":"hai6 gaa3."}
+{"id":"yue.c0293","deck":"yue.d.questions-and-particles","yue":"點解呀？","rom":"dim2 gaai2 aa3?"}
+{"id":"yue.c0294","deck":"yue.d.questions-and-particles","yue":"幾時呀？","rom":"gei2 si4 aa3?"}
+{"id":"yue.c0295","deck":"yue.d.questions-and-particles","yue":"係唔係呀？","rom":"hai6 m4 hai6 aa3?"}
+{"id":"yue.c0296","deck":"yue.d.questions-and-particles","yue":"你去唔去呀？","rom":"nei5 heoi3 m4 heoi3 aa3?"}
+{"id":"yue.c0297","deck":"yue.d.questions-and-particles","yue":"好唔好呀？","rom":"hou2 m4 hou2 aa3?"}
+{"id":"yue.c0298","deck":"yue.d.questions-and-particles","yue":"好啦。","rom":"hou2 laa1."}
+{"id":"yue.c0299","deck":"yue.d.questions-and-particles","yue":"快啲啦！","rom":"faai3 di1 laa1!"}
+{"id":"yue.c0300","deck":"yue.d.questions-and-particles","yue":"你唔知咩？","rom":"nei5 m4 zi1 me1?"}
+{"id":"yue.c0301","deck":"yue.d.questions-and-particles","yue":"你想食咩呀？","rom":"nei5 soeng2 sik6 me1 aa3?"}
+{"id":"yue.c0302","deck":"yue.d.questions-and-particles","yue":"佢係邊個呀？","rom":"keoi5 hai6 bin1 go3 aa3?"}
+{"id":"yue.c0303","deck":"yue.d.questions-and-particles","yue":"你有冇時間呀？","rom":"nei5 jau5 mou5 si4 gaan3 aa3?"}
+{"id":"yue.c0304","deck":"yue.d.questions-and-particles","yue":"你點返屋企呀？","rom":"nei5 dim2 faan1 uk1 kei2 aa3?"}
+{"id":"yue.c0305","deck":"yue.d.questions-and-particles","yue":"唔該你啦。","rom":"m4 goi1 nei5 laa1."}
+{"id":"yue.c0306","deck":"yue.d.traps-for-english-speakers","yue":"我好攰。","rom":"ngo5 hou2 gui6."}
+{"id":"yue.c0307","deck":"yue.d.traps-for-english-speakers","yue":"我冇錢。","rom":"ngo5 mou5 cin2."}
+{"id":"yue.c0308","deck":"yue.d.traps-for-english-speakers","yue":"我冇去。","rom":"ngo5 mou5 heoi3."}
+{"id":"yue.c0309","deck":"yue.d.traps-for-english-speakers","yue":"兩個人","rom":"loeng5 go3 jan4"}
+{"id":"yue.c0310","deck":"yue.d.traps-for-english-speakers","yue":"你食咗飯未呀？","rom":"nei5 sik6 zo2 faan6 mei6 aa3?"}
+{"id":"yue.c0311","deck":"yue.d.traps-for-english-speakers","yue":"佢好高。","rom":"keoi5 hou2 gou1."}
+{"id":"yue.c0312","deck":"yue.d.traps-for-english-speakers","yue":"我三十歲。","rom":"ngo5 saam1 sap6 seoi3."}
+{"id":"yue.c0313","deck":"yue.d.traps-for-english-speakers","yue":"我未食。","rom":"ngo5 mei6 sik6."}
+{"id":"yue.c0314","deck":"yue.d.traps-for-english-speakers","yue":"我去過香港。","rom":"ngo5 heoi3 gwo3 hoeng1 gong2."}
+{"id":"yue.c0315","deck":"yue.d.traps-for-english-speakers","yue":"我冇時間。","rom":"ngo5 mou5 si4 gaan3."}
+{"id":"yue.c0316","deck":"yue.d.traps-for-english-speakers","yue":"我幾好。","rom":"ngo5 gei2 hou2."}
+{"id":"yue.c0317","deck":"yue.d.traps-for-english-speakers","yue":"我琴日好攰。","rom":"ngo5 kam4 jat6 hou2 gui6."}
+{"id":"yue.c0318","deck":"yue.d.traps-for-english-speakers","yue":"好貴","rom":"hou2 gwai3"}
+{"id":"yue.c0319","deck":"yue.d.traps-for-english-speakers","yue":"鬼佬","rom":"gwai2 lou2"}
+{"id":"yue.c0320","deck":"yue.d.traps-for-english-speakers","yue":"多謝你嘅禮物。","rom":"do1 ze6 nei5 ge3 lai5 mat6."}
+{"id":"yue.c0321","deck":"yue.d.traps-for-english-speakers","yue":"我以前成日食點心。","rom":"ngo5 ji5 cin4 seng4 jat6 sik6 dim2 sam1."}
+{"id":"yue.c0322","deck":"yue.d.traps-for-english-speakers","yue":"我唔係老師。","rom":"ngo5 m4 hai6 lou5 si1."}
+{"id":"yue.c0323","deck":"yue.d.traps-for-english-speakers","yue":"我聽日返學。","rom":"ngo5 ting1 jat6 faan1 hok6."}
+{"id":"yue.c0324","deck":"yue.d.top-nouns","yue":"時間","rom":"si4 gaan3"}
+{"id":"yue.c0325","deck":"yue.d.top-nouns","yue":"錢","rom":"cin2"}
+{"id":"yue.c0326","deck":"yue.d.top-nouns","yue":"屋企","rom":"uk1 kei2"}
+{"id":"yue.c0327","deck":"yue.d.top-nouns","yue":"工作","rom":"gung1 zok3"}
+{"id":"yue.c0328","deck":"yue.d.top-nouns","yue":"地方","rom":"dei6 fong1"}
+{"id":"yue.c0329","deck":"yue.d.top-nouns","yue":"問題","rom":"man6 tai4"}
+{"id":"yue.c0330","deck":"yue.d.top-nouns","yue":"意思","rom":"ji3 si1"}
+{"id":"yue.c0331","deck":"yue.d.top-nouns","yue":"名","rom":"meng2"}
+{"id":"yue.c0332","deck":"yue.d.top-nouns","yue":"字","rom":"zi6"}
+{"id":"yue.c0333","deck":"yue.d.top-nouns","yue":"電話","rom":"din6 waa2"}
+{"id":"yue.c0334","deck":"yue.d.top-nouns","yue":"手機","rom":"sau2 gei1"}
+{"id":"yue.c0335","deck":"yue.d.top-nouns","yue":"電腦","rom":"din6 nou5"}
+{"id":"yue.c0336","deck":"yue.d.top-nouns","yue":"電視","rom":"din6 si6"}
+{"id":"yue.c0337","deck":"yue.d.top-nouns","yue":"電影","rom":"din6 jing2"}
+{"id":"yue.c0338","deck":"yue.d.top-nouns","yue":"衫","rom":"saam1"}
+{"id":"yue.c0339","deck":"yue.d.top-nouns","yue":"鞋","rom":"haai4"}
+{"id":"yue.c0340","deck":"yue.d.top-nouns","yue":"車","rom":"ce1"}
+{"id":"yue.c0341","deck":"yue.d.top-nouns","yue":"巴士","rom":"baa1 si2"}
+{"id":"yue.c0342","deck":"yue.d.top-nouns","yue":"的士","rom":"dik1 si2"}
+{"id":"yue.c0343","deck":"yue.d.top-nouns","yue":"地鐵","rom":"dei6 tit3"}
+{"id":"yue.c0344","deck":"yue.d.top-nouns","yue":"飛機","rom":"fei1 gei1"}
+{"id":"yue.c0345","deck":"yue.d.top-nouns","yue":"街","rom":"gaai1"}
+{"id":"yue.c0346","deck":"yue.d.top-nouns","yue":"馬路","rom":"maa5 lou6"}
+{"id":"yue.c0347","deck":"yue.d.top-nouns","yue":"銀行","rom":"ngan4 hong4"}
+{"id":"yue.c0348","deck":"yue.d.top-nouns","yue":"醫院","rom":"ji1 jyun2"}
+{"id":"yue.c0349","deck":"yue.d.top-nouns","yue":"學校","rom":"hok6 haau6"}
+{"id":"yue.c0350","deck":"yue.d.top-nouns","yue":"大學","rom":"daai6 hok6"}
+{"id":"yue.c0351","deck":"yue.d.top-nouns","yue":"公司","rom":"gung1 si1"}
+{"id":"yue.c0352","deck":"yue.d.top-nouns","yue":"餐廳","rom":"caan1 teng1"}
+{"id":"yue.c0353","deck":"yue.d.top-nouns","yue":"超市","rom":"ciu1 si5"}
+{"id":"yue.c0354","deck":"yue.d.top-nouns","yue":"商場","rom":"soeng1 coeng4"}
+{"id":"yue.c0355","deck":"yue.d.top-nouns","yue":"酒店","rom":"zau2 dim3"}
+{"id":"yue.c0356","deck":"yue.d.top-nouns","yue":"公園","rom":"gung1 jyun2"}
+{"id":"yue.c0357","deck":"yue.d.top-nouns","yue":"機場","rom":"gei1 coeng4"}
+{"id":"yue.c0358","deck":"yue.d.top-nouns","yue":"洗手間","rom":"sai2 sau2 gaan1"}
+{"id":"yue.c0359","deck":"yue.d.top-nouns","yue":"房","rom":"fong2"}
+{"id":"yue.c0360","deck":"yue.d.top-nouns","yue":"廚房","rom":"cyu4 fong2"}
+{"id":"yue.c0361","deck":"yue.d.top-nouns","yue":"床","rom":"cong4"}
+{"id":"yue.c0362","deck":"yue.d.top-nouns","yue":"枱","rom":"toi2"}
+{"id":"yue.c0363","deck":"yue.d.top-nouns","yue":"凳","rom":"dang3"}
+{"id":"yue.c0364","deck":"yue.d.top-nouns","yue":"窗","rom":"coeng1"}
+{"id":"yue.c0365","deck":"yue.d.top-nouns","yue":"燈","rom":"dang1"}
+{"id":"yue.c0366","deck":"yue.d.top-nouns","yue":"冷氣","rom":"laang5 hei3"}
+{"id":"yue.c0367","deck":"yue.d.top-nouns","yue":"飯","rom":"faan6"}
+{"id":"yue.c0368","deck":"yue.d.top-nouns","yue":"菜","rom":"coi3"}
+{"id":"yue.c0369","deck":"yue.d.top-nouns","yue":"麵","rom":"min6"}
+{"id":"yue.c0370","deck":"yue.d.top-nouns","yue":"茶","rom":"caa4"}
+{"id":"yue.c0371","deck":"yue.d.top-nouns","yue":"咖啡","rom":"gaa3 fe1"}
+{"id":"yue.c0372","deck":"yue.d.top-nouns","yue":"肉","rom":"juk6"}
+{"id":"yue.c0373","deck":"yue.d.top-nouns","yue":"雞","rom":"gai1"}
+{"id":"yue.c0374","deck":"yue.d.top-nouns","yue":"魚","rom":"jyu2"}
+{"id":"yue.c0375","deck":"yue.d.top-nouns","yue":"生果","rom":"saang1 gwo2"}
+{"id":"yue.c0376","deck":"yue.d.top-nouns","yue":"早餐","rom":"zou2 caan1"}
+{"id":"yue.c0377","deck":"yue.d.top-nouns","yue":"晚飯","rom":"maan5 faan6"}
+{"id":"yue.c0378","deck":"yue.d.top-nouns","yue":"天氣","rom":"tin1 hei3"}
+{"id":"yue.c0379","deck":"yue.d.top-nouns","yue":"雨","rom":"jyu5"}
+{"id":"yue.c0380","deck":"yue.d.top-nouns","yue":"太陽","rom":"taai3 joeng4"}
+{"id":"yue.c0381","deck":"yue.d.top-nouns","yue":"狗","rom":"gau2"}
+{"id":"yue.c0382","deck":"yue.d.top-nouns","yue":"貓","rom":"maau1"}
+{"id":"yue.c0383","deck":"yue.d.top-nouns","yue":"家人","rom":"gaa1 jan4"}
+{"id":"yue.c0384","deck":"yue.d.top-nouns","yue":"男人","rom":"naam4 jan2"}
+{"id":"yue.c0385","deck":"yue.d.top-nouns","yue":"女人","rom":"neoi5 jan2"}
+{"id":"yue.c0386","deck":"yue.d.top-nouns","yue":"男仔","rom":"naam4 zai2"}
+{"id":"yue.c0387","deck":"yue.d.top-nouns","yue":"女仔","rom":"neoi5 zai2"}
+{"id":"yue.c0388","deck":"yue.d.top-nouns","yue":"細路","rom":"sai3 lou6"}
+{"id":"yue.c0389","deck":"yue.d.top-nouns","yue":"小朋友","rom":"siu2 pang4 jau5"}
+{"id":"yue.c0390","deck":"yue.d.top-nouns","yue":"先生","rom":"sin1 saang1"}
+{"id":"yue.c0391","deck":"yue.d.top-nouns","yue":"太太","rom":"taai3 taai2"}
+{"id":"yue.c0392","deck":"yue.d.top-nouns","yue":"小姐","rom":"siu2 ze2"}
+{"id":"yue.c0393","deck":"yue.d.top-nouns","yue":"同學","rom":"tung4 hok6"}
+{"id":"yue.c0394","deck":"yue.d.top-nouns","yue":"醫生","rom":"ji1 sang1"}
+{"id":"yue.c0395","deck":"yue.d.top-nouns","yue":"老闆","rom":"lou5 baan2"}
+{"id":"yue.c0396","deck":"yue.d.top-nouns","yue":"客人","rom":"haak3 jan4"}
+{"id":"yue.c0397","deck":"yue.d.top-nouns","yue":"鄰居","rom":"leon4 geoi1"}
+{"id":"yue.c0398","deck":"yue.d.top-nouns","yue":"外國人","rom":"ngoi6 gwok3 jan4"}
+{"id":"yue.c0399","deck":"yue.d.top-nouns","yue":"身體","rom":"san1 tai2"}
+{"id":"yue.c0400","deck":"yue.d.top-nouns","yue":"頭","rom":"tau4"}
+{"id":"yue.c0401","deck":"yue.d.top-nouns","yue":"腳","rom":"goek3"}
+{"id":"yue.c0402","deck":"yue.d.top-nouns","yue":"肚","rom":"tou5"}
+{"id":"yue.c0403","deck":"yue.d.top-nouns","yue":"牙","rom":"ngaa4"}
+{"id":"yue.c0404","deck":"yue.d.top-nouns","yue":"禮物","rom":"lai5 mat6"}
+{"id":"yue.c0405","deck":"yue.d.top-nouns","yue":"地圖","rom":"dei6 tou4"}
+{"id":"yue.c0406","deck":"yue.d.top-nouns","yue":"相機","rom":"soeng2 gei1"}
+{"id":"yue.c0407","deck":"yue.d.top-nouns","yue":"護照","rom":"wu6 ziu3"}
+{"id":"yue.c0408","deck":"yue.d.top-nouns","yue":"鎖匙","rom":"so2 si4"}
+{"id":"yue.c0409","deck":"yue.d.top-nouns","yue":"行李","rom":"hang4 lei5"}
+{"id":"yue.c0410","deck":"yue.d.top-nouns","yue":"袋","rom":"doi2"}
+{"id":"yue.c0411","deck":"yue.d.top-nouns","yue":"遮","rom":"ze1"}
+{"id":"yue.c0412","deck":"yue.d.top-nouns","yue":"筆","rom":"bat1"}
+{"id":"yue.c0413","deck":"yue.d.top-nouns","yue":"紙","rom":"zi2"}
+{"id":"yue.c0414","deck":"yue.d.top-nouns","yue":"生日","rom":"saang1 jat6"}
+{"id":"yue.c0415","deck":"yue.d.top-nouns","yue":"年","rom":"nin4"}
+{"id":"yue.c0416","deck":"yue.d.top-nouns","yue":"天","rom":"tin1"}
+{"id":"yue.c0417","deck":"yue.d.top-nouns","yue":"歌","rom":"go1"}
+{"id":"yue.c0418","deck":"yue.d.top-nouns","yue":"音樂","rom":"jam1 ngok6"}
+{"id":"yue.c0419","deck":"yue.d.top-nouns","yue":"運動","rom":"wan6 dung6"}
+{"id":"yue.c0420","deck":"yue.d.top-nouns","yue":"功課","rom":"gung1 fo3"}
+{"id":"yue.c0421","deck":"yue.d.top-nouns","yue":"人工","rom":"jan4 gung1"}
+{"id":"yue.c0422","deck":"yue.d.top-nouns","yue":"會議","rom":"wui6 ji5"}
+{"id":"yue.c0423","deck":"yue.d.top-nouns","yue":"電郵","rom":"din6 jau4"}
+{"id":"yue.c0424","deck":"yue.d.top-nouns","yue":"國","rom":"gwok3"}
+{"id":"yue.c0425","deck":"yue.d.top-nouns","yue":"價錢","rom":"gaa3 cin4"}
+{"id":"yue.c0426","deck":"yue.d.top-nouns","yue":"中文","rom":"zung1 man4"}
+{"id":"yue.c0427","deck":"yue.d.top-nouns","yue":"英文","rom":"jing1 man2"}
+{"id":"yue.c0428","deck":"yue.d.top-nouns","yue":"普通話","rom":"pou2 tung1 waa2"}
+{"id":"yue.c0429","deck":"yue.d.top-nouns","yue":"屋","rom":"uk1"}
+{"id":"yue.c0430","deck":"yue.d.top-nouns","yue":"門口","rom":"mun4 hau2"}
+{"id":"yue.c0431","deck":"yue.d.top-nouns","yue":"樓","rom":"lau2"}
+{"id":"yue.c0432","deck":"yue.d.top-verbs","yue":"講","rom":"gong2"}
+{"id":"yue.c0433","deck":"yue.d.top-verbs","yue":"話","rom":"waa6"}
+{"id":"yue.c0434","deck":"yue.d.top-verbs","yue":"做","rom":"zou6"}
+{"id":"yue.c0435","deck":"yue.d.top-verbs","yue":"食","rom":"sik6"}
+{"id":"yue.c0436","deck":"yue.d.top-verbs","yue":"睇","rom":"tai2"}
+{"id":"yue.c0437","deck":"yue.d.top-verbs","yue":"知","rom":"zi1"}
+{"id":"yue.c0438","deck":"yue.d.top-verbs","yue":"想","rom":"soeng2"}
+{"id":"yue.c0439","deck":"yue.d.top-verbs","yue":"要","rom":"jiu3"}
+{"id":"yue.c0440","deck":"yue.d.top-verbs","yue":"嚟","rom":"lei4"}
+{"id":"yue.c0441","deck":"yue.d.top-verbs","yue":"識","rom":"sik1"}
+{"id":"yue.c0442","deck":"yue.d.top-verbs","yue":"會","rom":"wui5"}
+{"id":"yue.c0443","deck":"yue.d.top-verbs","yue":"可以","rom":"ho2 ji5"}
+{"id":"yue.c0444","deck":"yue.d.top-verbs","yue":"覺得","rom":"gok3 dak1"}
+{"id":"yue.c0445","deck":"yue.d.top-verbs","yue":"搵","rom":"wan2"}
+{"id":"yue.c0446","deck":"yue.d.top-verbs","yue":"返","rom":"faan1"}
+{"id":"yue.c0447","deck":"yue.d.top-verbs","yue":"等","rom":"dang2"}
+{"id":"yue.c0448","deck":"yue.d.top-verbs","yue":"聽","rom":"teng1"}
+{"id":"yue.c0449","deck":"yue.d.top-verbs","yue":"行","rom":"haang4"}
+{"id":"yue.c0450","deck":"yue.d.top-verbs","yue":"走","rom":"zau2"}
+{"id":"yue.c0451","deck":"yue.d.top-verbs","yue":"問","rom":"man6"}
+{"id":"yue.c0452","deck":"yue.d.top-verbs","yue":"叫","rom":"giu3"}
+{"id":"yue.c0453","deck":"yue.d.top-verbs","yue":"攞","rom":"lo2"}
+{"id":"yue.c0454","deck":"yue.d.top-verbs","yue":"飲","rom":"jam2"}
+{"id":"yue.c0455","deck":"yue.d.top-verbs","yue":"學","rom":"hok6"}
+{"id":"yue.c0456","deck":"yue.d.top-verbs","yue":"鍾意","rom":"zung1 ji3"}
+{"id":"yue.c0457","deck":"yue.d.top-verbs","yue":"見","rom":"gin3"}
+{"id":"yue.c0458","deck":"yue.d.top-verbs","yue":"開","rom":"hoi1"}
+{"id":"yue.c0459","deck":"yue.d.top-verbs","yue":"閂","rom":"saan1"}
+{"id":"yue.c0460","deck":"yue.d.top-verbs","yue":"放","rom":"fong3"}
+{"id":"yue.c0461","deck":"yue.d.top-verbs","yue":"坐","rom":"co5"}
+{"id":"yue.c0462","deck":"yue.d.top-verbs","yue":"搭","rom":"daap3"}
+{"id":"yue.c0463","deck":"yue.d.top-verbs","yue":"到","rom":"dou3"}
+{"id":"yue.c0464","deck":"yue.d.top-verbs","yue":"落","rom":"lok6"}
+{"id":"yue.c0465","deck":"yue.d.top-verbs","yue":"玩","rom":"waan2"}
+{"id":"yue.c0466","deck":"yue.d.top-verbs","yue":"寫","rom":"se2"}
+{"id":"yue.c0467","deck":"yue.d.top-verbs","yue":"讀","rom":"duk6"}
+{"id":"yue.c0468","deck":"yue.d.top-verbs","yue":"教","rom":"gaau3"}
+{"id":"yue.c0469","deck":"yue.d.top-verbs","yue":"幫手","rom":"bong1 sau2"}
+{"id":"yue.c0470","deck":"yue.d.top-verbs","yue":"送","rom":"sung3"}
+{"id":"yue.c0471","deck":"yue.d.top-verbs","yue":"記得","rom":"gei3 dak1"}
+{"id":"yue.c0472","deck":"yue.d.top-verbs","yue":"唔記得","rom":"m4 gei3 dak1"}
+{"id":"yue.c0473","deck":"yue.d.top-verbs","yue":"明白","rom":"ming4 baak6"}
+{"id":"yue.c0474","deck":"yue.d.top-verbs","yue":"知道","rom":"zi1 dou3"}
+{"id":"yue.c0475","deck":"yue.d.top-verbs","yue":"認識","rom":"jing6 sik1"}
+{"id":"yue.c0476","deck":"yue.d.top-verbs","yue":"打電話","rom":"daa2 din6 waa2"}
+{"id":"yue.c0477","deck":"yue.d.top-verbs","yue":"傾偈","rom":"king1 gai2"}
+{"id":"yue.c0478","deck":"yue.d.top-verbs","yue":"笑","rom":"siu3"}
+{"id":"yue.c0479","deck":"yue.d.top-verbs","yue":"喊","rom":"haam3"}
+{"id":"yue.c0480","deck":"yue.d.top-verbs","yue":"洗","rom":"sai2"}
+{"id":"yue.c0481","deck":"yue.d.top-verbs","yue":"煮","rom":"zyu2"}
+{"id":"yue.c0482","deck":"yue.d.top-verbs","yue":"換","rom":"wun6"}
+{"id":"yue.c0483","deck":"yue.d.top-verbs","yue":"搬","rom":"bun1"}
+{"id":"yue.c0484","deck":"yue.d.top-verbs","yue":"停","rom":"ting4"}
+{"id":"yue.c0485","deck":"yue.d.top-verbs","yue":"轉","rom":"zyun3"}
+{"id":"yue.c0486","deck":"yue.d.top-verbs","yue":"着","rom":"zoek3"}
+{"id":"yue.c0487","deck":"yue.d.top-verbs","yue":"拎","rom":"ning1"}
+{"id":"yue.c0488","deck":"yue.d.top-verbs","yue":"準備","rom":"zeon2 bei6"}
+{"id":"yue.c0489","deck":"yue.d.top-verbs","yue":"開始","rom":"hoi1 ci2"}
+{"id":"yue.c0490","deck":"yue.d.top-verbs","yue":"完","rom":"jyun4"}
+{"id":"yue.c0491","deck":"yue.d.top-verbs","yue":"需要","rom":"seoi1 jiu3"}
+{"id":"yue.c0492","deck":"yue.d.top-verbs","yue":"希望","rom":"hei1 mong6"}
+{"id":"yue.c0493","deck":"yue.d.top-verbs","yue":"擔心","rom":"daam1 sam1"}
+{"id":"yue.c0494","deck":"yue.d.top-verbs","yue":"驚","rom":"geng1"}
+{"id":"yue.c0495","deck":"yue.d.top-verbs","yue":"應該","rom":"jing1 goi1"}
+{"id":"yue.c0496","deck":"yue.d.top-verbs","yue":"使","rom":"sai2"}
+{"id":"yue.c0497","deck":"yue.d.top-verbs","yue":"起身","rom":"hei2 san1"}
+{"id":"yue.c0498","deck":"yue.d.top-verbs","yue":"瞓覺","rom":"fan3 gaau3"}
+{"id":"yue.c0499","deck":"yue.d.top-verbs","yue":"沖涼","rom":"cung1 loeng4"}
+{"id":"yue.c0500","deck":"yue.d.top-verbs","yue":"休息","rom":"jau1 sik1"}
+{"id":"yue.c0501","deck":"yue.d.top-verbs","yue":"讀書","rom":"duk6 syu1"}
+{"id":"yue.c0502","deck":"yue.d.top-verbs","yue":"做嘢","rom":"zou6 je5"}
+{"id":"yue.c0503","deck":"yue.d.top-verbs","yue":"行街","rom":"haang4 gaai1"}
+{"id":"yue.c0504","deck":"yue.d.top-verbs","yue":"上網","rom":"soeng5 mong5"}
+{"id":"yue.c0505","deck":"yue.d.top-verbs","yue":"練習","rom":"lin6 zaap6"}
+{"id":"yue.c0506","deck":"yue.d.top-verbs","yue":"介紹","rom":"gaai3 siu6"}
+{"id":"yue.c0507","deck":"yue.d.top-verbs","yue":"歡迎","rom":"fun1 jing4"}
+{"id":"yue.c0508","deck":"yue.d.top-verbs","yue":"結婚","rom":"git3 fan1"}
+{"id":"yue.c0509","deck":"yue.d.top-verbs","yue":"揸車","rom":"zaa1 ce1"}
+{"id":"yue.c0510","deck":"yue.d.top-verbs","yue":"排隊","rom":"paai4 deoi2"}
+{"id":"yue.c0511","deck":"yue.d.top-verbs","yue":"跑步","rom":"paau2 bou6"}
+{"id":"yue.c0512","deck":"yue.d.top-verbs","yue":"游水","rom":"jau4 seoi2"}
+{"id":"yue.c0513","deck":"yue.d.top-verbs","yue":"唱歌","rom":"coeng3 go1"}
+{"id":"yue.c0514","deck":"yue.d.top-verbs","yue":"跳舞","rom":"tiu3 mou5"}
+{"id":"yue.c0515","deck":"yue.d.top-verbs","yue":"影相","rom":"jing2 soeng2"}
+{"id":"yue.c0516","deck":"yue.d.top-verbs","yue":"旅行","rom":"leoi5 hang4"}
+{"id":"yue.c0517","deck":"yue.d.top-verbs","yue":"收","rom":"sau1"}
+{"id":"yue.c0518","deck":"yue.d.top-verbs","yue":"約","rom":"joek3"}
+{"id":"yue.c0519","deck":"yue.d.top-verbs","yue":"病","rom":"beng6"}
+{"id":"yue.c0520","deck":"yue.d.top-verbs","yue":"發燒","rom":"faat3 siu1"}
+{"id":"yue.c0521","deck":"yue.d.top-verbs","yue":"跑","rom":"paau2"}
+{"id":"yue.c0522","deck":"yue.d.top-verbs","yue":"見面","rom":"gin3 min6"}
+{"id":"yue.c0523","deck":"yue.d.top-verbs","yue":"放假","rom":"fong3 gaa3"}
+{"id":"yue.c0524","deck":"yue.d.top-verbs","yue":"考試","rom":"haau2 si5"}
+{"id":"yue.c0525","deck":"yue.d.top-verbs","yue":"落雨","rom":"lok6 jyu5"}
+{"id":"yue.c0526","deck":"yue.d.top-adjectives","yue":"靚","rom":"leng3"}
+{"id":"yue.c0527","deck":"yue.d.top-adjectives","yue":"多","rom":"do1"}
+{"id":"yue.c0528","deck":"yue.d.top-adjectives","yue":"少","rom":"siu2"}
+{"id":"yue.c0529","deck":"yue.d.top-adjectives","yue":"新","rom":"san1"}
+{"id":"yue.c0530","deck":"yue.d.top-adjectives","yue":"高","rom":"gou1"}
+{"id":"yue.c0531","deck":"yue.d.top-adjectives","yue":"矮","rom":"ai2"}
+{"id":"yue.c0532","deck":"yue.d.top-adjectives","yue":"長","rom":"coeng4"}
+{"id":"yue.c0533","deck":"yue.d.top-adjectives","yue":"短","rom":"dyun2"}
+{"id":"yue.c0534","deck":"yue.d.top-adjectives","yue":"快","rom":"faai3"}
+{"id":"yue.c0535","deck":"yue.d.top-adjectives","yue":"慢","rom":"maan6"}
+{"id":"yue.c0536","deck":"yue.d.top-adjectives","yue":"遲","rom":"ci4"}
+{"id":"yue.c0537","deck":"yue.d.top-adjectives","yue":"熱","rom":"jit6"}
+{"id":"yue.c0538","deck":"yue.d.top-adjectives","yue":"凍","rom":"dung3"}
+{"id":"yue.c0539","deck":"yue.d.top-adjectives","yue":"暖","rom":"nyun5"}
+{"id":"yue.c0540","deck":"yue.d.top-adjectives","yue":"涼","rom":"loeng4"}
+{"id":"yue.c0541","deck":"yue.d.top-adjectives","yue":"忙","rom":"mong4"}
+{"id":"yue.c0542","deck":"yue.d.top-adjectives","yue":"攰","rom":"gui6"}
+{"id":"yue.c0543","deck":"yue.d.top-adjectives","yue":"肚餓","rom":"tou5 ngo6"}
+{"id":"yue.c0544","deck":"yue.d.top-adjectives","yue":"頸渴","rom":"geng2 hot3"}
+{"id":"yue.c0545","deck":"yue.d.top-adjectives","yue":"眼瞓","rom":"ngaan5 fan3"}
+{"id":"yue.c0546","deck":"yue.d.top-adjectives","yue":"遠","rom":"jyun5"}
+{"id":"yue.c0547","deck":"yue.d.top-adjectives","yue":"近","rom":"kan5"}
+{"id":"yue.c0548","deck":"yue.d.top-adjectives","yue":"平","rom":"peng4"}
+{"id":"yue.c0549","deck":"yue.d.top-adjectives","yue":"細","rom":"sai3"}
+{"id":"yue.c0550","deck":"yue.d.top-adjectives","yue":"肥","rom":"fei4"}
+{"id":"yue.c0551","deck":"yue.d.top-adjectives","yue":"瘦","rom":"sau3"}
+{"id":"yue.c0552","deck":"yue.d.top-adjectives","yue":"老","rom":"lou5"}
+{"id":"yue.c0553","deck":"yue.d.top-adjectives","yue":"後生","rom":"hau6 saang1"}
+{"id":"yue.c0554","deck":"yue.d.top-adjectives","yue":"酸","rom":"syun1"}
+{"id":"yue.c0555","deck":"yue.d.top-adjectives","yue":"苦","rom":"fu2"}
+{"id":"yue.c0556","deck":"yue.d.top-adjectives","yue":"辣","rom":"laat6"}
+{"id":"yue.c0557","deck":"yue.d.top-adjectives","yue":"鹹","rom":"haam4"}
+{"id":"yue.c0558","deck":"yue.d.top-adjectives","yue":"香","rom":"hoeng1"}
+{"id":"yue.c0559","deck":"yue.d.top-adjectives","yue":"好食","rom":"hou2 sik6"}
+{"id":"yue.c0560","deck":"yue.d.top-adjectives","yue":"好飲","rom":"hou2 jam2"}
+{"id":"yue.c0561","deck":"yue.d.top-adjectives","yue":"好玩","rom":"hou2 waan2"}
+{"id":"yue.c0562","deck":"yue.d.top-adjectives","yue":"難","rom":"naan4"}
+{"id":"yue.c0563","deck":"yue.d.top-adjectives","yue":"易","rom":"ji6"}
+{"id":"yue.c0564","deck":"yue.d.top-adjectives","yue":"容易","rom":"jung4 ji6"}
+{"id":"yue.c0565","deck":"yue.d.top-adjectives","yue":"簡單","rom":"gaan2 daan1"}
+{"id":"yue.c0566","deck":"yue.d.top-adjectives","yue":"舒服","rom":"syu1 fuk6"}
+{"id":"yue.c0567","deck":"yue.d.top-adjectives","yue":"方便","rom":"fong1 bin6"}
+{"id":"yue.c0568","deck":"yue.d.top-adjectives","yue":"乾淨","rom":"gon1 zeng6"}
+{"id":"yue.c0569","deck":"yue.d.top-adjectives","yue":"污糟","rom":"wu1 zou1"}
+{"id":"yue.c0570","deck":"yue.d.top-adjectives","yue":"靜","rom":"zing6"}
+{"id":"yue.c0571","deck":"yue.d.top-adjectives","yue":"嘈","rom":"cou4"}
+{"id":"yue.c0572","deck":"yue.d.top-adjectives","yue":"有名","rom":"jau5 meng4"}
+{"id":"yue.c0573","deck":"yue.d.top-adjectives","yue":"重要","rom":"zung6 jiu3"}
+{"id":"yue.c0574","deck":"yue.d.top-adjectives","yue":"開心","rom":"hoi1 sam1"}
+{"id":"yue.c0575","deck":"yue.d.top-adjectives","yue":"錯","rom":"co3"}
+{"id":"yue.c0576","deck":"yue.d.top-adjectives","yue":"啱","rom":"ngaam1"}
+{"id":"yue.c0577","deck":"yue.d.top-adjectives","yue":"差","rom":"caa1"}
+{"id":"yue.c0578","deck":"yue.d.top-adjectives","yue":"勁","rom":"ging6"}
+{"id":"yue.c0579","deck":"yue.d.top-adjectives","yue":"清楚","rom":"cing1 co2"}
+{"id":"yue.c0580","deck":"yue.d.top-adjectives","yue":"悶","rom":"mun6"}
+{"id":"yue.c0581","deck":"yue.d.top-adjectives","yue":"飽","rom":"baau2"}
+{"id":"yue.c0582","deck":"yue.d.top-adjectives","yue":"危險","rom":"ngai4 him2"}
+{"id":"yue.c0583","deck":"yue.d.top-adjectives","yue":"安全","rom":"on1 cyun4"}
+{"id":"yue.c0584","deck":"yue.d.top-adjectives","yue":"健康","rom":"gin6 hong1"}
+{"id":"yue.c0585","deck":"yue.d.top-adjectives","yue":"一樣","rom":"jat1 joeng6"}
+{"id":"yue.c0586","deck":"yue.d.top-adjectives","yue":"唔同","rom":"m4 tung4"}
+{"id":"yue.c0587","deck":"yue.d.top-adjectives","yue":"叻","rom":"lek1"}
+{"id":"yue.c0588","deck":"yue.d.top-adjectives","yue":"壞","rom":"waai6"}
+{"id":"yue.c0589","deck":"yue.d.top-adjectives","yue":"紅色","rom":"hung4 sik1"}
+{"id":"yue.c0590","deck":"yue.d.top-adjectives","yue":"白色","rom":"baak6 sik1"}
+{"id":"yue.c0591","deck":"yue.d.top-adjectives","yue":"黑色","rom":"hak1 sik1"}
+{"id":"yue.c0592","deck":"yue.d.top-adjectives","yue":"藍色","rom":"laam4 sik1"}
+{"id":"yue.c0593","deck":"yue.d.top-adjectives","yue":"綠色","rom":"luk6 sik1"}
+{"id":"yue.c0594","deck":"yue.d.top-adjectives","yue":"黃色","rom":"wong4 sik1"}
+{"id":"yue.c0595","deck":"yue.d.top-adverbs","yue":"咁","rom":"gam3"}
+{"id":"yue.c0596","deck":"yue.d.top-adverbs","yue":"都","rom":"dou1"}
+{"id":"yue.c0597","deck":"yue.d.top-adverbs","yue":"就","rom":"zau6"}
+{"id":"yue.c0598","deck":"yue.d.top-adverbs","yue":"仲","rom":"zung6"}
+{"id":"yue.c0599","deck":"yue.d.top-adverbs","yue":"先","rom":"sin1"}
+{"id":"yue.c0600","deck":"yue.d.top-adverbs","yue":"再","rom":"zoi3"}
+{"id":"yue.c0601","deck":"yue.d.top-adverbs","yue":"又","rom":"jau6"}
+{"id":"yue.c0602","deck":"yue.d.top-adverbs","yue":"亦","rom":"jik6"}
+{"id":"yue.c0603","deck":"yue.d.top-adverbs","yue":"太","rom":"taai3"}
+{"id":"yue.c0604","deck":"yue.d.top-adverbs","yue":"最","rom":"zeoi3"}
+{"id":"yue.c0605","deck":"yue.d.top-adverbs","yue":"真係","rom":"zan1 hai6"}
+{"id":"yue.c0606","deck":"yue.d.top-adverbs","yue":"幾","rom":"gei2"}
+{"id":"yue.c0607","deck":"yue.d.top-adverbs","yue":"已經","rom":"ji5 ging1"}
+{"id":"yue.c0608","deck":"yue.d.top-adverbs","yue":"一直","rom":"jat1 zik6"}
+{"id":"yue.c0609","deck":"yue.d.top-adverbs","yue":"成日","rom":"seng4 jat6"}
+{"id":"yue.c0610","deck":"yue.d.top-adverbs","yue":"有時","rom":"jau5 si4"}
+{"id":"yue.c0611","deck":"yue.d.top-adverbs","yue":"平時","rom":"ping4 si4"}
+{"id":"yue.c0612","deck":"yue.d.top-adverbs","yue":"經常","rom":"ging1 soeng4"}
+{"id":"yue.c0613","deck":"yue.d.top-adverbs","yue":"而家","rom":"ji4 gaa1"}
+{"id":"yue.c0614","deck":"yue.d.top-adverbs","yue":"頭先","rom":"tau4 sin1"}
+{"id":"yue.c0615","deck":"yue.d.top-adverbs","yue":"啱啱","rom":"ngaam1 ngaam1"}
+{"id":"yue.c0616","deck":"yue.d.top-adverbs","yue":"慢慢","rom":"maan6 maan2"}
+{"id":"yue.c0617","deck":"yue.d.top-adverbs","yue":"一齊","rom":"jat1 cai4"}
+{"id":"yue.c0618","deck":"yue.d.top-adverbs","yue":"差唔多","rom":"caa1 m4 do1"}
+{"id":"yue.c0619","deck":"yue.d.top-adverbs","yue":"唔好","rom":"m4 hou2"}
+{"id":"yue.c0620","deck":"yue.d.top-adverbs","yue":"一定","rom":"jat1 ding6"}
+{"id":"yue.c0621","deck":"yue.d.top-adverbs","yue":"可能","rom":"ho2 nang4"}
+{"id":"yue.c0622","deck":"yue.d.top-adverbs","yue":"遲啲","rom":"ci4 di1"}
+{"id":"yue.c0623","deck":"yue.d.top-adverbs","yue":"早啲","rom":"zou2 di1"}
+{"id":"yue.c0624","deck":"yue.d.top-adverbs","yue":"以前","rom":"ji5 cin4"}
+{"id":"yue.c0625","deck":"yue.d.top-adverbs","yue":"最近","rom":"zeoi3 gan6"}
+{"id":"yue.c0626","deck":"yue.d.top-adverbs","yue":"好少","rom":"hou2 siu2"}
+{"id":"yue.c0627","deck":"yue.d.top-adverbs","yue":"從來","rom":"cung4 loi4"}
+{"id":"yue.c0628","deck":"yue.d.top-adverbs","yue":"大概","rom":"daai6 koi3"}
+{"id":"yue.c0629","deck":"yue.d.top-adverbs","yue":"有啲","rom":"jau5 di1"}
+{"id":"yue.c0630","deck":"yue.d.top-pronouns","yue":"你","rom":"nei5"}
+{"id":"yue.c0631","deck":"yue.d.top-pronouns","yue":"佢","rom":"keoi5"}
+{"id":"yue.c0632","deck":"yue.d.top-pronouns","yue":"你哋","rom":"nei5 dei6"}
+{"id":"yue.c0633","deck":"yue.d.top-pronouns","yue":"自己","rom":"zi6 gei2"}
+{"id":"yue.c0634","deck":"yue.d.top-pronouns","yue":"大家","rom":"daai6 gaa1"}
+{"id":"yue.c0635","deck":"yue.d.top-pronouns","yue":"人哋","rom":"jan4 dei6"}
+{"id":"yue.c0636","deck":"yue.d.top-pronouns","yue":"我嘅","rom":"ngo5 ge3"}
+{"id":"yue.c0637","deck":"yue.d.top-pronouns","yue":"你嘅","rom":"nei5 ge3"}
+{"id":"yue.c0638","deck":"yue.d.top-pronouns","yue":"佢嘅","rom":"keoi5 ge3"}
+{"id":"yue.c0639","deck":"yue.d.top-pronouns","yue":"我哋嘅","rom":"ngo5 dei6 ge3"}
+{"id":"yue.c0640","deck":"yue.d.top-pronouns","yue":"你哋嘅","rom":"nei5 dei6 ge3"}
+{"id":"yue.c0641","deck":"yue.d.top-pronouns","yue":"佢哋嘅","rom":"keoi5 dei6 ge3"}
+{"id":"yue.c0642","deck":"yue.d.top-pronouns","yue":"呢個","rom":"ni1 go3"}
+{"id":"yue.c0643","deck":"yue.d.top-pronouns","yue":"嗰個","rom":"go2 go3"}
+{"id":"yue.c0644","deck":"yue.d.top-pronouns","yue":"呢啲","rom":"ni1 di1"}
+{"id":"yue.c0645","deck":"yue.d.top-pronouns","yue":"嗰啲","rom":"go2 di1"}
+{"id":"yue.c0646","deck":"yue.d.top-pronouns","yue":"呢度","rom":"ni1 dou6"}
+{"id":"yue.c0647","deck":"yue.d.top-pronouns","yue":"嗰度","rom":"go2 dou6"}
+{"id":"yue.c0648","deck":"yue.d.top-pronouns","yue":"邊度","rom":"bin1 dou6"}
+{"id":"yue.c0649","deck":"yue.d.top-pronouns","yue":"邊個","rom":"bin1 go3"}
+{"id":"yue.c0650","deck":"yue.d.top-pronouns","yue":"咩嘢","rom":"me1 je5"}
+{"id":"yue.c0651","deck":"yue.d.top-pronouns","yue":"邊啲","rom":"bin1 di1"}
+{"id":"yue.c0652","deck":"yue.d.top-pronouns","yue":"人人","rom":"jan4 jan4"}
+{"id":"yue.c0653","deck":"yue.d.top-pronouns","yue":"個個","rom":"go3 go3"}
+{"id":"yue.c0654","deck":"yue.d.top-pronouns","yue":"有人","rom":"jau5 jan4"}
+{"id":"yue.c0655","deck":"yue.d.top-pronouns","yue":"冇人","rom":"mou5 jan4"}
+{"id":"yue.c0656","deck":"yue.d.top-pronouns","yue":"咩都","rom":"me1 dou1"}
+{"id":"yue.c0657","deck":"yue.d.top-pronouns","yue":"邊個都","rom":"bin1 go3 dou1"}
+{"id":"yue.c0658","deck":"yue.d.top-coverbs-and-place-words","yue":"同","rom":"tung4"}
+{"id":"yue.c0659","deck":"yue.d.top-coverbs-and-place-words","yue":"畀","rom":"bei2"}
+{"id":"yue.c0660","deck":"yue.d.top-coverbs-and-place-words","yue":"幫","rom":"bong1"}
+{"id":"yue.c0661","deck":"yue.d.top-coverbs-and-place-words","yue":"用","rom":"jung6"}
+{"id":"yue.c0662","deck":"yue.d.top-coverbs-and-place-words","yue":"對","rom":"deoi3"}
+{"id":"yue.c0663","deck":"yue.d.top-coverbs-and-place-words","yue":"經","rom":"ging1"}
+{"id":"yue.c0664","deck":"yue.d.top-coverbs-and-place-words","yue":"上面","rom":"soeng6 min6"}
+{"id":"yue.c0665","deck":"yue.d.top-coverbs-and-place-words","yue":"下面","rom":"haa6 min6"}
+{"id":"yue.c0666","deck":"yue.d.top-coverbs-and-place-words","yue":"入面","rom":"jap6 min6"}
+{"id":"yue.c0667","deck":"yue.d.top-coverbs-and-place-words","yue":"出面","rom":"ceot1 min6"}
+{"id":"yue.c0668","deck":"yue.d.top-coverbs-and-place-words","yue":"前面","rom":"cin4 min6"}
+{"id":"yue.c0669","deck":"yue.d.top-coverbs-and-place-words","yue":"後面","rom":"hau6 min6"}
+{"id":"yue.c0670","deck":"yue.d.top-coverbs-and-place-words","yue":"隔籬","rom":"gaak3 lei4"}
+{"id":"yue.c0671","deck":"yue.d.top-coverbs-and-place-words","yue":"對面","rom":"deoi3 min6"}
+{"id":"yue.c0672","deck":"yue.d.top-coverbs-and-place-words","yue":"中間","rom":"zung1 gaan1"}
+{"id":"yue.c0673","deck":"yue.d.top-coverbs-and-place-words","yue":"左邊","rom":"zo2 bin1"}
+{"id":"yue.c0674","deck":"yue.d.top-coverbs-and-place-words","yue":"右邊","rom":"jau6 bin1"}
+{"id":"yue.c0675","deck":"yue.d.top-coverbs-and-place-words","yue":"呢邊","rom":"ni1 bin1"}
+{"id":"yue.c0676","deck":"yue.d.top-coverbs-and-place-words","yue":"嗰邊","rom":"go2 bin1"}
+{"id":"yue.c0677","deck":"yue.d.top-coverbs-and-place-words","yue":"附近","rom":"fu6 gan6"}
+{"id":"yue.c0678","deck":"yue.d.top-coverbs-and-place-words","yue":"樓上","rom":"lau4 soeng6"}
+{"id":"yue.c0679","deck":"yue.d.top-coverbs-and-place-words","yue":"樓下","rom":"lau4 haa6"}
+{"id":"yue.c0680","deck":"yue.d.top-coverbs-and-place-words","yue":"度","rom":"dou6"}
+{"id":"yue.c0681","deck":"yue.d.top-coverbs-and-place-words","yue":"喺度","rom":"hai2 dou6"}
+{"id":"yue.c0682","deck":"yue.d.top-conjunctions","yue":"噉","rom":"gam2"}
+{"id":"yue.c0683","deck":"yue.d.top-conjunctions","yue":"同埋","rom":"tung4 maai4"}
+{"id":"yue.c0684","deck":"yue.d.top-conjunctions","yue":"但係","rom":"daan6 hai6"}
+{"id":"yue.c0685","deck":"yue.d.top-conjunctions","yue":"不過","rom":"bat1 gwo3"}
+{"id":"yue.c0686","deck":"yue.d.top-conjunctions","yue":"因為","rom":"jan1 wai6"}
+{"id":"yue.c0687","deck":"yue.d.top-conjunctions","yue":"所以","rom":"so2 ji5"}
+{"id":"yue.c0688","deck":"yue.d.top-conjunctions","yue":"如果","rom":"jyu4 gwo2"}
+{"id":"yue.c0689","deck":"yue.d.top-conjunctions","yue":"或者","rom":"waak6 ze2"}
+{"id":"yue.c0690","deck":"yue.d.top-conjunctions","yue":"定係","rom":"ding6 hai6"}
+{"id":"yue.c0691","deck":"yue.d.top-conjunctions","yue":"定","rom":"ding6"}
+{"id":"yue.c0692","deck":"yue.d.top-conjunctions","yue":"跟住","rom":"gan1 zyu6"}
+{"id":"yue.c0693","deck":"yue.d.top-conjunctions","yue":"然後","rom":"jin4 hau6"}
+{"id":"yue.c0694","deck":"yue.d.top-conjunctions","yue":"之後","rom":"zi1 hau6"}
+{"id":"yue.c0695","deck":"yue.d.top-conjunctions","yue":"嘅時候","rom":"ge3 si4 hau6"}
+{"id":"yue.c0696","deck":"yue.d.top-conjunctions","yue":"不如","rom":"bat1 jyu4"}
+{"id":"yue.c0697","deck":"yue.d.top-conjunctions","yue":"一邊","rom":"jat1 bin1"}
+{"id":"yue.c0698","deck":"yue.d.top-conjunctions","yue":"為咗","rom":"wai6 zo2"}
+{"id":"yue.c0699","deck":"yue.d.top-conjunctions","yue":"好似","rom":"hou2 ci5"}
+{"id":"yue.c0700","deck":"yue.d.top-interjections","yue":"好嘢","rom":"hou2 je5"}
+{"id":"yue.c0701","deck":"yue.d.top-interjections","yue":"死喇","rom":"sei2 laa3"}
+{"id":"yue.c0702","deck":"yue.d.top-interjections","yue":"係咩","rom":"hai6 me1"}
+{"id":"yue.c0703","deck":"yue.d.top-interjections","yue":"唔係嘛","rom":"m4 hai6 maa3"}
+{"id":"yue.c0704","deck":"yue.d.top-interjections","yue":"唔係啩","rom":"m4 hai6 gwaa3"}
+{"id":"yue.c0705","deck":"yue.d.top-interjections","yue":"哦","rom":"o4"}
+{"id":"yue.c0706","deck":"yue.d.top-interjections","yue":"噉呀","rom":"gam2 aa3"}
+{"id":"yue.c0707","deck":"yue.d.top-interjections","yue":"係囉","rom":"hai6 lo1"}
+{"id":"yue.c0708","deck":"yue.d.top-interjections","yue":"等陣","rom":"dang2 zan6"}
+{"id":"yue.c0709","deck":"yue.d.top-interjections","yue":"冇眼睇","rom":"mou5 ngaan5 tai2"}
+{"id":"yue.c0710","deck":"yue.d.top-interjections","yue":"好痛","rom":"hou2 tung3"}
+{"id":"yue.c0711","deck":"yue.d.top-interjections","yue":"加油","rom":"gaa1 jau2"}
+{"id":"yue.c0712","deck":"yue.d.top-interjections","yue":"恭喜","rom":"gung1 hei2"}
+{"id":"yue.c0713","deck":"yue.d.top-interjections","yue":"得喇","rom":"dak1 laa3"}
+{"id":"yue.c0714","deck":"yue.d.top-interjections","yue":"係噉先","rom":"hai6 gam2 sin1"}
+{"id":"yue.c0715","deck":"yue.d.top-interjections","yue":"慢慢嚟","rom":"maan6 maan2 lei4"}
+{"id":"yue.c0716","deck":"yue.d.top-interjections","yue":"真係㗎","rom":"zan1 hai6 gaa3"}
+{"id":"yue.c0717","deck":"yue.d.top-words","yue":"一","rom":"jat1"}
+{"id":"yue.c0718","deck":"yue.d.top-words","yue":"二","rom":"ji6"}
+{"id":"yue.c0719","deck":"yue.d.top-words","yue":"兩","rom":"loeng5"}
+{"id":"yue.c0720","deck":"yue.d.top-words","yue":"八","rom":"baat3"}
+{"id":"yue.c0721","deck":"yue.d.top-words","yue":"十一","rom":"sap6 jat1"}
+{"id":"yue.c0722","deck":"yue.d.top-words","yue":"十二","rom":"sap6 ji6"}
+{"id":"yue.c0723","deck":"yue.d.top-words","yue":"十三","rom":"sap6 saam1"}
+{"id":"yue.c0724","deck":"yue.d.top-words","yue":"十四","rom":"sap6 sei3"}
+{"id":"yue.c0725","deck":"yue.d.top-words","yue":"十六","rom":"sap6 luk6"}
+{"id":"yue.c0726","deck":"yue.d.top-words","yue":"十七","rom":"sap6 cat1"}
+{"id":"yue.c0727","deck":"yue.d.top-words","yue":"十八","rom":"sap6 baat3"}
+{"id":"yue.c0728","deck":"yue.d.top-words","yue":"十九","rom":"sap6 gau2"}
+{"id":"yue.c0729","deck":"yue.d.top-words","yue":"百","rom":"baak3"}
+{"id":"yue.c0730","deck":"yue.d.top-words","yue":"千","rom":"cin1"}
+{"id":"yue.c0731","deck":"yue.d.top-words","yue":"萬","rom":"maan6"}
+{"id":"yue.c0732","deck":"yue.d.top-words","yue":"半","rom":"bun3"}
+{"id":"yue.c0733","deck":"yue.d.top-words","yue":"第","rom":"dai6"}
+{"id":"yue.c0734","deck":"yue.d.top-words","yue":"每","rom":"mui5"}
+{"id":"yue.c0735","deck":"yue.d.top-words","yue":"所有","rom":"so2 jau5"}
+{"id":"yue.c0736","deck":"yue.d.top-words","yue":"嗰","rom":"go2"}
+{"id":"yue.c0737","deck":"yue.d.top-words","yue":"好多","rom":"hou2 do1"}
+{"id":"yue.c0738","deck":"yue.d.top-words","yue":"少少","rom":"siu2 siu2"}
+{"id":"yue.c0739","deck":"yue.d.top-words","yue":"係呀","rom":"hai6 aa3"}
+{"id":"yue.c0740","deck":"yue.d.top-words","yue":"唔係","rom":"m4 hai6"}
+{"id":"yue.c0741","deck":"yue.d.top-words","yue":"得","rom":"dak1"}
+{"id":"yue.c0742","deck":"yue.d.top-words","yue":"未","rom":"mei6"}
+{"id":"yue.c0743","deck":"yue.d.top-words","yue":"幾時","rom":"gei2 si4"}
+{"id":"yue.c0744","deck":"yue.d.top-words","yue":"點解","rom":"dim2 gaai2"}
+{"id":"yue.c0745","deck":"yue.d.top-words","yue":"點樣","rom":"dim2 joeng2"}
+{"id":"yue.c0746","deck":"yue.d.top-words","yue":"點","rom":"dim2"}
+{"id":"yue.c0747","deck":"yue.d.top-words","yue":"幾多","rom":"gei2 do1"}
+{"id":"yue.c0748","deck":"yue.d.top-words","yue":"幾耐","rom":"gei2 noi6"}
+{"id":"yue.c0749","deck":"yue.d.top-words","yue":"邊","rom":"bin1"}
+{"id":"yue.c0750","deck":"yue.d.top-words","yue":"今日","rom":"gam1 jat6"}
+{"id":"yue.c0751","deck":"yue.d.top-words","yue":"後日","rom":"hau6 jat6"}
+{"id":"yue.c0752","deck":"yue.d.top-words","yue":"前日","rom":"cin4 jat6"}
+{"id":"yue.c0753","deck":"yue.d.top-words","yue":"今朝","rom":"gam1 ziu1"}
+{"id":"yue.c0754","deck":"yue.d.top-words","yue":"今晚","rom":"gam1 maan5"}
+{"id":"yue.c0755","deck":"yue.d.top-words","yue":"朝早","rom":"ziu1 zou2"}
+{"id":"yue.c0756","deck":"yue.d.top-words","yue":"中午","rom":"zung1 ng5"}
+{"id":"yue.c0757","deck":"yue.d.top-words","yue":"下晝","rom":"haa6 zau3"}
+{"id":"yue.c0758","deck":"yue.d.top-words","yue":"夜晚","rom":"je6 maan5"}
+{"id":"yue.c0759","deck":"yue.d.top-words","yue":"今年","rom":"gam1 nin2"}
+{"id":"yue.c0760","deck":"yue.d.top-words","yue":"舊年","rom":"gau6 nin2"}
+{"id":"yue.c0761","deck":"yue.d.top-words","yue":"明年","rom":"ming4 nin2"}
+{"id":"yue.c0762","deck":"yue.d.top-words","yue":"星期","rom":"sing1 kei4"}
+{"id":"yue.c0763","deck":"yue.d.top-words","yue":"星期二","rom":"sing1 kei4 ji6"}
+{"id":"yue.c0764","deck":"yue.d.top-words","yue":"星期三","rom":"sing1 kei4 saam1"}
+{"id":"yue.c0765","deck":"yue.d.top-words","yue":"星期四","rom":"sing1 kei4 sei3"}
+{"id":"yue.c0766","deck":"yue.d.top-words","yue":"星期五","rom":"sing1 kei4 ng5"}
+{"id":"yue.c0767","deck":"yue.d.top-words","yue":"星期六","rom":"sing1 kei4 luk6"}
+{"id":"yue.c0768","deck":"yue.d.top-words","yue":"星期日","rom":"sing1 kei4 jat6"}
+{"id":"yue.c0769","deck":"yue.d.top-words","yue":"週末","rom":"zau1 mut6"}
+{"id":"yue.c0770","deck":"yue.d.top-measure-words","yue":"個","rom":"go3"}
+{"id":"yue.c0771","deck":"yue.d.top-measure-words","yue":"隻","rom":"zek3"}
+{"id":"yue.c0772","deck":"yue.d.top-measure-words","yue":"本","rom":"bun2"}
+{"id":"yue.c0773","deck":"yue.d.top-measure-words","yue":"張","rom":"zoeng1"}
+{"id":"yue.c0774","deck":"yue.d.top-measure-words","yue":"杯","rom":"bui1"}
+{"id":"yue.c0775","deck":"yue.d.top-measure-words","yue":"條","rom":"tiu4"}
+{"id":"yue.c0776","deck":"yue.d.top-measure-words","yue":"件","rom":"gin6"}
+{"id":"yue.c0777","deck":"yue.d.top-measure-words","yue":"位","rom":"wai2"}
+{"id":"yue.c0778","deck":"yue.d.top-measure-words","yue":"部","rom":"bou6"}
+{"id":"yue.c0779","deck":"yue.d.top-measure-words","yue":"架","rom":"gaa3"}
+{"id":"yue.c0780","deck":"yue.d.top-measure-words","yue":"間","rom":"gaan1"}
+{"id":"yue.c0781","deck":"yue.d.top-measure-words","yue":"雙","rom":"soeng1"}
+{"id":"yue.c0782","deck":"yue.d.top-measure-words","yue":"碗","rom":"wun2"}
+{"id":"yue.c0783","deck":"yue.d.top-measure-words","yue":"碟","rom":"dip2"}
+{"id":"yue.c0784","deck":"yue.d.top-measure-words","yue":"樽","rom":"zeon1"}
+{"id":"yue.c0785","deck":"yue.d.top-measure-words","yue":"枝","rom":"zi1"}
+{"id":"yue.c0786","deck":"yue.d.top-measure-words","yue":"份","rom":"fan6"}
+{"id":"yue.c0787","deck":"yue.d.top-measure-words","yue":"種","rom":"zung2"}
+{"id":"yue.c0788","deck":"yue.d.top-measure-words","yue":"包","rom":"baau1"}
+{"id":"yue.c0789","deck":"yue.d.top-measure-words","yue":"盒","rom":"hap2"}
+{"id":"yue.c0790","deck":"yue.d.top-measure-words","yue":"粒","rom":"nap1"}
+{"id":"yue.c0791","deck":"yue.d.top-measure-words","yue":"塊","rom":"faai3"}
+{"id":"yue.c0792","deck":"yue.d.top-measure-words","yue":"層","rom":"cang4"}
+{"id":"yue.c0793","deck":"yue.d.top-measure-words","yue":"次","rom":"ci3"}
+{"id":"yue.c0794","deck":"yue.d.top-measure-words","yue":"啲","rom":"di1"}
+{"id":"yue.c0795","deck":"yue.d.top-measure-words","yue":"把","rom":"baa2"}
+{"id":"yue.c0796","deck":"yue.d.top-measure-words","yue":"堂","rom":"tong4"}
+{"id":"yue.c0797","deck":"yue.d.top-measure-words","yue":"籠","rom":"lung4"}
+{"id":"yue.c0798","deck":"yue.d.top-measure-words","yue":"歲","rom":"seoi3"}
+{"id":"yue.c0799","deck":"yue.d.top-measure-words","yue":"蚊","rom":"man1"}
+{"id":"yue.c0800","deck":"yue.d.top-particles","yue":"呀","rom":"aa3"}
+{"id":"yue.c0801","deck":"yue.d.top-particles","yue":"喇","rom":"laa3"}
+{"id":"yue.c0802","deck":"yue.d.top-particles","yue":"㗎","rom":"gaa3"}
+{"id":"yue.c0803","deck":"yue.d.top-particles","yue":"呢","rom":"ne1"}
+{"id":"yue.c0804","deck":"yue.d.top-particles","yue":"啦","rom":"laa1"}
+{"id":"yue.c0805","deck":"yue.d.top-particles","yue":"吖","rom":"aa1"}
+{"id":"yue.c0806","deck":"yue.d.top-particles","yue":"喎","rom":"wo3"}
+{"id":"yue.c0807","deck":"yue.d.top-particles","yue":"囉","rom":"lo1"}
+{"id":"yue.c0808","deck":"yue.d.top-particles","yue":"咩","rom":"me1"}
+{"id":"yue.c0809","deck":"yue.d.top-particles","yue":"嘛","rom":"maa3"}
+{"id":"yue.c0810","deck":"yue.d.top-particles","yue":"咋","rom":"zaa3"}
+{"id":"yue.c0811","deck":"yue.d.top-particles","yue":"啩","rom":"gwaa3"}
+{"id":"yue.c0812","deck":"yue.d.top-particles","yue":"噃","rom":"bo3"}
+{"id":"yue.c0813","deck":"yue.d.top-particles","yue":"嗎","rom":"maa3"}
+{"id":"yue.c0814","deck":"yue.d.top-particles","yue":"緊","rom":"gan2"}
+{"id":"yue.c0815","deck":"yue.d.top-particles","yue":"過","rom":"gwo3"}
+{"id":"yue.c0816","deck":"yue.d.top-particles","yue":"住","rom":"zyu6"}
+{"id":"yue.c0817","deck":"yue.d.top-particles","yue":"吓","rom":"haa5"}
+{"id":"yue.c0818","deck":"yue.d.top-particles","yue":"晒","rom":"saai3"}
+{"id":"yue.c0819","deck":"yue.d.top-particles","yue":"埋","rom":"maai4"}
+{"id":"yue.c0820","deck":"yue.d.top-particles","yue":"添","rom":"tim1"}
+{"id":"yue.c0821","deck":"yue.d.flirting","yue":"靚仔","rom":"leng3 zai2"}
+{"id":"yue.c0822","deck":"yue.d.flirting","yue":"帥","rom":"seoi3"}
+{"id":"yue.c0823","deck":"yue.d.flirting","yue":"可愛","rom":"ho2 oi3"}
+{"id":"yue.c0824","deck":"yue.d.flirting","yue":"得意","rom":"dak1 ji3"}
+{"id":"yue.c0825","deck":"yue.d.flirting","yue":"聰明","rom":"cung1 ming4"}
+{"id":"yue.c0826","deck":"yue.d.flirting","yue":"好睇","rom":"hou2 tai2"}
+{"id":"yue.c0827","deck":"yue.d.flirting","yue":"好聽","rom":"hou2 teng1"}
+{"id":"yue.c0828","deck":"yue.d.flirting","yue":"甜","rom":"tim4"}
+{"id":"yue.c0829","deck":"yue.d.flirting","yue":"有心","rom":"jau5 sam1"}
+{"id":"yue.c0830","deck":"yue.d.flirting","yue":"好人","rom":"hou2 jan4"}
+{"id":"yue.c0831","deck":"yue.d.flirting","yue":"細心","rom":"sai3 sam1"}
+{"id":"yue.c0832","deck":"yue.d.flirting","yue":"有趣","rom":"jau5 ceoi3"}
+{"id":"yue.c0833","deck":"yue.d.flirting","yue":"好笑","rom":"hou2 siu3"}
+{"id":"yue.c0834","deck":"yue.d.flirting","yue":"眼","rom":"ngaan5"}
+{"id":"yue.c0835","deck":"yue.d.flirting","yue":"頭髮","rom":"tau4 faat3"}
+{"id":"yue.c0836","deck":"yue.d.flirting","yue":"男朋友","rom":"naam4 pang4 jau5"}
+{"id":"yue.c0837","deck":"yue.d.flirting","yue":"女朋友","rom":"neoi5 pang4 jau5"}
+{"id":"yue.c0838","deck":"yue.d.flirting","yue":"拍拖","rom":"paak3 to1"}
+{"id":"yue.c0839","deck":"yue.d.flirting","yue":"愛","rom":"oi3"}
+{"id":"yue.c0840","deck":"yue.d.flirting","yue":"你好靚仔呀。","rom":"nei5 hou2 leng3 zai2 aa3."}
+{"id":"yue.c0841","deck":"yue.d.flirting","yue":"你今日好靚仔喎。","rom":"nei5 gam1 jat6 hou2 leng3 zai2 wo3."}
+{"id":"yue.c0842","deck":"yue.d.flirting","yue":"你好靚呀。","rom":"nei5 hou2 leng3 aa3."}
+{"id":"yue.c0843","deck":"yue.d.flirting","yue":"你今晚好靚。","rom":"nei5 gam1 maan5 hou2 leng3."}
+{"id":"yue.c0844","deck":"yue.d.flirting","yue":"你好帥呀。","rom":"nei5 hou2 seoi3 aa3."}
+{"id":"yue.c0845","deck":"yue.d.flirting","yue":"你好可愛。","rom":"nei5 hou2 ho2 oi3."}
+{"id":"yue.c0846","deck":"yue.d.flirting","yue":"你笑起嚟好可愛。","rom":"nei5 siu3 hei2 lei4 hou2 ho2 oi3."}
+{"id":"yue.c0847","deck":"yue.d.flirting","yue":"你好得意呀。","rom":"nei5 hou2 dak1 ji3 aa3."}
+{"id":"yue.c0848","deck":"yue.d.flirting","yue":"你真係好聰明。","rom":"nei5 zan1 hai6 hou2 cung1 ming4."}
+{"id":"yue.c0849","deck":"yue.d.flirting","yue":"你笑起嚟好好睇。","rom":"nei5 siu3 hei2 lei4 hou2 hou2 tai2."}
+{"id":"yue.c0850","deck":"yue.d.flirting","yue":"你對眼好靚。","rom":"nei5 deoi3 ngaan5 hou2 leng3."}
+{"id":"yue.c0851","deck":"yue.d.flirting","yue":"你啲頭髮好靚。","rom":"nei5 di1 tau4 faat3 hou2 leng3."}
+{"id":"yue.c0852","deck":"yue.d.flirting","yue":"你唱歌好好聽。","rom":"nei5 coeng3 go1 hou2 hou2 teng1."}
+{"id":"yue.c0853","deck":"yue.d.flirting","yue":"你笑得好甜。","rom":"nei5 siu3 dak1 hou2 tim4."}
+{"id":"yue.c0854","deck":"yue.d.flirting","yue":"你把口好甜喎！","rom":"nei5 baa2 hau2 hou2 tim4 wo3!"}
+{"id":"yue.c0855","deck":"yue.d.flirting","yue":"你好有心。","rom":"nei5 hou2 jau5 sam1."}
+{"id":"yue.c0856","deck":"yue.d.flirting","yue":"你好細心。","rom":"nei5 hou2 sai3 sam1."}
+{"id":"yue.c0857","deck":"yue.d.flirting","yue":"同你傾偈好開心。","rom":"tung4 nei5 king1 gai2 hou2 hoi1 sam1."}
+{"id":"yue.c0858","deck":"yue.d.flirting","yue":"同你一齊好開心。","rom":"tung4 nei5 jat1 cai4 hou2 hoi1 sam1."}
+{"id":"yue.c0859","deck":"yue.d.flirting","yue":"你好有趣。","rom":"nei5 hou2 jau5 ceoi3."}
+{"id":"yue.c0860","deck":"yue.d.flirting","yue":"你有冇拍拖呀？","rom":"nei5 jau5 mou5 paak3 to1 aa3?"}
+{"id":"yue.c0861","deck":"yue.d.flirting","yue":"你有冇男朋友呀？","rom":"nei5 jau5 mou5 naam4 pang4 jau5 aa3?"}
+{"id":"yue.c0862","deck":"yue.d.flirting","yue":"你今晚有冇時間呀？","rom":"nei5 gam1 maan5 jau5 mou5 si4 gaan3 aa3?"}
+{"id":"yue.c0863","deck":"yue.d.flirting","yue":"一齊食飯吖？","rom":"jat1 cai4 sik6 faan6 aa1?"}
+{"id":"yue.c0864","deck":"yue.d.flirting","yue":"一齊去飲咖啡吖？","rom":"jat1 cai4 heoi3 jam2 gaa3 fe1 aa1?"}
+{"id":"yue.c0865","deck":"yue.d.flirting","yue":"可唔可以攞你電話呀？","rom":"ho2 m4 ho2 ji5 lo2 nei5 din6 waa2 aa3?"}
+{"id":"yue.c0866","deck":"yue.d.flirting","yue":"我想約你出嚟。","rom":"ngo5 soeng2 joek3 nei5 ceot1 lei4."}
+{"id":"yue.c0867","deck":"yue.d.flirting","yue":"我哋下次再見吖。","rom":"ngo5 dei6 haa6 ci3 zoi3 gin3 aa1."}
+{"id":"yue.c0868","deck":"yue.d.flirting","yue":"我有啲鍾意你。","rom":"ngo5 jau5 di1 zung1 ji3 nei5."}
+{"id":"yue.c0869","deck":"yue.d.flirting","yue":"我鍾意你。","rom":"ngo5 zung1 ji3 nei5."}
+{"id":"yue.c0870","deck":"yue.d.flirting","yue":"好呀，幾點呀？","rom":"hou2 aa3, gei2 dim2 aa3?"}
+{"id":"yue.c0871","deck":"yue.d.flirting","yue":"我都鍾意你。","rom":"ngo5 dou1 zung1 ji3 nei5."}
+{"id":"yue.c0872","deck":"yue.d.flirting","yue":"你講笑咩？","rom":"nei5 gong2 siu3 me1?"}
+{"id":"yue.c0873","deck":"yue.d.flirting","yue":"多謝，不過我有男朋友喇。","rom":"do1 ze6, bat1 gwo3 ngo5 jau5 naam4 pang4 jau5 laa3."}
+{"id":"yue.c0874","deck":"yue.d.flirting","yue":"多謝，不過我哋做朋友好啲。","rom":"do1 ze6, bat1 gwo3 ngo5 dei6 zou6 pang4 jau5 hou2 di1."}
+{"id":"yue.c0875","deck":"yue.d.flirting","yue":"你係好人，不過我哋做朋友啦。","rom":"nei5 hai6 hou2 jan4, bat1 gwo3 ngo5 dei6 zou6 pang4 jau5 laa1."}
+{"id":"yue.c0876","deck":"yue.d.flirting","yue":"唔好意思，我唔想拍拖住。","rom":"m4 hou2 ji3 si3, ngo5 m4 soeng2 paak3 to1 zyu6."}
+{"id":"yue.c0877","deck":"yue.d.compliments","yue":"好香呀！","rom":"hou2 hoeng1 aa3!"}
+{"id":"yue.c0878","deck":"yue.d.compliments","yue":"你煮嘢好好食呀！","rom":"nei5 zyu2 je5 hou2 hou2 sik6 aa3!"}
+{"id":"yue.c0879","deck":"yue.d.compliments","yue":"好正呀！","rom":"hou2 zeng3 aa3!"}
+{"id":"yue.c0880","deck":"yue.d.compliments","yue":"個湯好好飲！","rom":"go3 tong1 hou2 hou2 jam2!"}
+{"id":"yue.c0881","deck":"yue.d.compliments","yue":"做得好！","rom":"zou6 dak1 hou2!"}
+{"id":"yue.c0882","deck":"yue.d.compliments","yue":"你做得好好。","rom":"nei5 zou6 dak1 hou2 hou2."}
+{"id":"yue.c0883","deck":"yue.d.compliments","yue":"你好叻呀！","rom":"nei5 hou2 lek1 aa3!"}
+{"id":"yue.c0884","deck":"yue.d.compliments","yue":"你都好叻呀！","rom":"nei5 dou1 hou2 lek1 aa3!"}
+{"id":"yue.c0885","deck":"yue.d.compliments","yue":"好勁呀！","rom":"hou2 ging6 aa3!"}
+{"id":"yue.c0886","deck":"yue.d.compliments","yue":"你好專業。","rom":"nei5 hou2 zyun1 jip6."}
+{"id":"yue.c0887","deck":"yue.d.compliments","yue":"你嘅意見好好。","rom":"nei5 ge3 ji3 gin3 hou2 hou2."}
+{"id":"yue.c0888","deck":"yue.d.compliments","yue":"你人好好呀。","rom":"nei5 jan4 hou2 hou2 aa3."}
+{"id":"yue.c0889","deck":"yue.d.compliments","yue":"你幫咗我好多。","rom":"nei5 bong1 zo2 ngo5 hou2 do1."}
+{"id":"yue.c0890","deck":"yue.d.compliments","yue":"冇你唔得。","rom":"mou5 nei5 m4 dak1."}
+{"id":"yue.c0891","deck":"yue.d.compliments","yue":"你屋企好靚呀！","rom":"nei5 uk1 kei2 hou2 leng3 aa3!"}
+{"id":"yue.c0892","deck":"yue.d.compliments","yue":"你屋企好乾淨。","rom":"nei5 uk1 kei2 hou2 gon1 zeng6."}
+{"id":"yue.c0893","deck":"yue.d.compliments","yue":"呢度好舒服。","rom":"ni1 dou6 hou2 syu1 fuk6."}
+{"id":"yue.c0894","deck":"yue.d.compliments","yue":"你個仔好得意呀！","rom":"nei5 go3 zai2 hou2 dak1 ji3 aa3!"}
+{"id":"yue.c0895","deck":"yue.d.compliments","yue":"你個女好靚。","rom":"nei5 go3 neoi2 hou2 leng3."}
+{"id":"yue.c0896","deck":"yue.d.compliments","yue":"你寫字好靚。","rom":"nei5 se2 zi6 hou2 leng3."}
+{"id":"yue.c0897","deck":"yue.d.compliments","yue":"你講嘢好清楚。","rom":"nei5 gong2 je5 hou2 cing1 co2."}
+{"id":"yue.c0898","deck":"yue.d.compliments","yue":"你廣東話講得好好呀！","rom":"nei5 gwong2 dung1 waa2 gong2 dak1 hou2 hou2 aa3!"}
+{"id":"yue.c0899","deck":"yue.d.compliments","yue":"你識講廣東話㗎？","rom":"nei5 sik1 gong2 gwong2 dung1 waa2 gaa3?"}
+{"id":"yue.c0900","deck":"yue.d.compliments","yue":"邊有呀！","rom":"bin1 jau5 aa3!"}
+{"id":"yue.c0901","deck":"yue.d.compliments","yue":"我仲學緊㗎。","rom":"ngo5 zung6 hok6 gan2 gaa3."}
+{"id":"yue.c0902","deck":"yue.d.compliments","yue":"多謝你噉講。","rom":"do1 ze6 nei5 gam2 gong2."}
+{"id":"yue.c0903","deck":"yue.d.compliments","yue":"真係？多謝晒！","rom":"zan1 hai6? do1 ze6 saai3!"}
+{"id":"yue.c0904","deck":"yue.d.compliments","yue":"冇呀，麻麻哋啦。","rom":"mou5 aa3, maa4 maa2 dei2 laa1."}

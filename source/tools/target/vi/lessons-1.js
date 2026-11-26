@@ -5,10 +5,15 @@ module.exports = [
     title: "Letters and sounds: reading Vietnamese",
     blurb: "Read Vietnamese letters the Hanoi way, and use the pronunciation line under every phrase.",
     deck: "Letters and sounds",
+    sections: [null, {"name": "New letters", "cards": [["ă", "a", "a short ah", "Never ends a syllable: ăn (an), to eat."], ["â", "uh", "uh, as in cup, kept short", "Never ends a syllable: chân (chuhn), foot; leg."], ["ê", "ey", "ey, as in hey, with no glide", "đêm (deym), night"], ["ô", "oh", "oh, as in go, with no glide", "khô (khoh), dry"], ["ơ", "er", "the vowel of her, with no r", "cơm (kerm), cooked rice"], ["ư", "uu", "oo said with spread lips, as in a smile", "thư (tuu), letter (mail)"], ["đ", "d", "d, as in dog: the crossed d", "đi (dee), to go"]]}, [{"deck": "Letters and sounds", "n": [0, 8]}, {"deck": "Letters and sounds", "n": [11, 13]}, {"name": "Letters to watch", "cards": [["d", "z", "z, as in zoo (Hanoi)", "da (zah), skin. Never the d of dog: that is đ."], ["r", "z", "z, the same sound as d (Hanoi)", "rau (zow), vegetables"], ["x", "s", "s, as in see", "xe (seh), vehicle; motorbike"], ["t", "dt", "between d and t, no puff of air", "tôi (dtohy), I; me"], ["ch", "ch", "ch, a little softer than English", "chân (chuhn), foot; leg"], ["tr", "ch", "the same sound as ch (Hanoi)", "trời (chuhy_), sky; weather"], ["nh", "ny", "ny, as in canyon", "nhà (nyah_), house; home"], ["ph", "f", "f, as in fun", "phở (fer?), pho (noodle soup)"], ["th", "t", "t with a puff of air", "thư (tuu), letter (mail)"], ["kh", "kh", "a soft throat sound, as in Scottish loch", "khô (khoh), dry"], ["gi", "z", "z again: gi, d and r sound alike (Hanoi)", "gió (zaw/), wind"]]}], null, null, {"name": "First words", "cards": [["đỏ", "daw?", "red", "đ + o, dipping tone (ỏ). đ is d, o is aw."], ["đất", "duht/", "earth; ground", "đ + â + t. â is uh, the last t is not released."], ["dê", "zey", "goat", "d + ê. d is z, ê is ey."], ["ra", "zah", "go out; come out", "r + a. r is z."], ["rẻ", "zeh?", "cheap", "r + e, dipping tone (ẻ). r is z, e is eh."], ["xa", "sah", "far", "x + a. x is s."], ["xem", "sehm", "watch; look at", "x + e + m. x is s."], ["thơ", "ter", "poem; poetry", "th + ơ. th is t with a puff, ơ is er with no r."], ["phố", "foh/", "street (in town)", "ph + ô, rising tone (ố). ph is f."], ["tre", "cheh", "bamboo", "tr + e. tr is ch."], ["chè", "cheh_", "sweet dessert soup; tea (Hanoi)", "ch + e, falling tone (è)."], ["nhỏ", "nyaw?", "small", "nh + o, dipping tone (ỏ). nh is ny."], ["khó", "khaw/", "difficult", "kh + o, rising tone (ó). kh is the throat sound of loch."], ["giờ", "zer_", "hour; o'clock", "gi + ơ, falling tone (ờ). gi is z."], ["chữ", "chuu~", "letter; written word", "ch + ư, broken tone (ữ). ư is oo with spread lips."], ["trăm", "cham", "hundred", "tr + ă + m. tr is ch, ă is a short a."], ["cần", "kuhn_", "need", "c + â + n, falling tone (ầ). c is k, â is uh."], ["hồ", "hoh_", "lake", "h + ô, falling tone (ồ). ô is oh, with no glide."]]}],
     body: `
+<h3>How Vietnamese writing works</h3>
 <p>Vietnamese is written in the same Latin letters as English, so you can start reading on day one. The catch: many letters stand for different sounds than in English. Under every Vietnamese phrase in this course there is a pronunciation line in plain English letters. This lesson teaches you to read both.</p>
+<p>The spelling is regular: once you know the pieces, you can say any word you see. Each written chunk between spaces is one syllable, built from a first sound (one letter or a pair such as <b>nh</b>, sometimes none), a vowel, maybe a last sound, and a tone: five of the six tones have a mark. These four lessons teach the pieces in order: the letters here, then the tones, then how a syllable is built, then the vowels.</p>
 <h3>Seven extra letters</h3>
 <p>The alphabet has 29 letters. <b>f, j, w</b> and <b>z</b> appear only in foreign words. Seven letters carry a vowel mark or a stroke: <b>ă â ê ô ơ ư</b> and <b>đ</b>, the crossed d. Each one is a separate letter, not a decoration, so leaving the mark off writes a different letter.</p>
+<p>Here are all 29. Tap a letter to see how it reads. The seven new ones have their own cards below. Most of the others sound close to what an English reader expects; the ones that do not come next.</p>
+{{tiles:a=ah ă â b=b c=k d đ e=eh ê g=g h=h i=ee k=k l=l m=m n=n o=aw ô ơ p=p q=kw s=s t u=oo ư v=v x y=ee}}
 {{ex:đi|dee|to go}}
 {{ex:ăn|an|to eat}}
 <h3>Letters that fool English readers</h3>
@@ -20,6 +25,8 @@ module.exports = [
 {{ex:nhà|nyah_|house; home}}
 {{ex:tôi|dtohy|I; me}}
 <p>In the South, <b>d</b> and <b>gi</b> sound like the y in <i>yes</i>. You will hear that too, but the lines here show Hanoi.</p>
+<p>Tap each letter and letter pair. A pair such as <b>nh</b> or <b>th</b> is one sound, never two. <b>ng</b> gets its own section in lesson 3.</p>
+{{tiles:d r x t _ ch tr nh ph th kh gi}}
 <h3>Reading the pronunciation line</h3>
 <p>Vietnamese puts a space after every syllable, and the line has one chunk for each written syllable. A hyphen inside a chunk is still one syllable: <b>Việt</b> is <i>vee-uht.</i>, one quick glide. There are no capitals in the line, because no syllable is stressed more than another.</p>
 {{ex:Việt Nam|vee-uht. nahm|Vietnam}}
@@ -28,6 +35,8 @@ module.exports = [
 <p>The line uses fixed vowel spellings: <i>ah</i> (father), <i>a</i> (a short ah), <i>uh</i> (cup), <i>eh</i> (bed), <i>ey</i> (hey), <i>ee</i> (see), <i>aw</i> (law), <i>oh</i> (go), <i>er</i> (her), <i>oo</i> (food) and <i>uu</i> (oo said with a smile). <i>er</i> never has an r sound: it is the vowel of <i>her</i> with the r left off.</p>
 {{ex:cơm|kerm|cooked rice}}
 <p>The line is a crutch. Listen to the audio first, read the line second, and hide it once the letters feel natural.</p>
+<h3>Read your first words</h3>
+<p>Now put the letters together. Read a syllable left to right: first sound, vowel, last sound. <b>đ + ỏ</b> is <b>đỏ</b>, <i>daw?</i>: đ is d, o is <i>aw</i>, and the hook is a tone mark (the next lesson teaches the tones; for now, trust the symbol in the line). Every card below is a common word spelled with the letters of this lesson. Read it aloud before you flip it.</p>
 <div class="tip"><b>Most common mistake:</b> reading <b>d</b> as an English d. <b>da</b> said "dah" → <b>da</b> said "zah". The English d sound belongs to the crossed d: <b>đi</b>.</div>
 `,
     check: [
@@ -57,11 +66,14 @@ module.exports = [
     title: "The six tones and their marks",
     blurb: "Hear and write the six tones, and tell bàn, bán and bạn apart.",
     deck: "Tone pairs",
+    sections: [[{"deck": "Tone pairs", "n": [0, 3]}, {"name": "Tone marks", "cards": [["à", "ah_", "the falling-tone mark (huyền)", "Slopes down: mà (mah_), but."], ["á", "ah/", "the rising-tone mark (sắc)", "Slopes up: cá (kah/), fish."], ["ả", "ah?", "the dipping-tone mark (hỏi)", "A small hook, like a question mark with no dot: sửa (suu-uh?), to fix."], ["ã", "ah~", "the broken-tone mark (ngã)", "A squiggle: sữa (suu-uh~), milk."], ["ạ", "ah.", "the heavy-tone mark (nặng)", "The only mark under the vowel: bạn (bahn.), friend."]]}], {"deck": "Tone pairs", "n": [3, 7]}, null, {"deck": "Tone pairs", "n": [7, 17]}, {"name": "Words with tones", "cards": [["cha", "chah", "father (formal)", "ch + a, level tone: no mark, no symbol in the line."], ["thu", "too", "autumn", "th + u, level tone."], ["là", "lah_", "be (A is B)", "l + à, falling tone. Compare lá (leaf) and lạ (strange)."], ["về", "vey_", "go back; go home", "v + ề, falling tone. ê keeps its hat; the tone mark goes on top."], ["trà", "chah_", "tea", "tr + à, falling tone. Same sound as cha with a falling tone."], ["có", "kaw/", "have; there is", "c + ó, rising tone."], ["lá", "lah/", "leaf", "l + á, rising tone."], ["đá", "dah/", "ice; stone", "đ + á, rising tone. Compare đã (already)."], ["mở", "mer?", "open; turn on", "m + ở, dipping tone. The hook sits on ơ."], ["thở", "ter?", "breathe", "th + ở, dipping tone."], ["cả", "kah?", "all; whole; even", "c + ả, dipping tone. Compare cá (fish)."], ["mũ", "moo~", "hat", "m + ũ, broken tone."], ["đã", "dah~", "already happened (past marker)", "đ + ã, broken tone. Compare đá (ice)."], ["vẽ", "veh~", "draw; paint", "v + ẽ, broken tone."], ["cũ", "koo~", "old (of things)", "c + ũ, broken tone."], ["chợ", "cher.", "market", "ch + ợ, heavy tone: the dot goes under the vowel."], ["lạ", "lah.", "strange; unfamiliar", "l + ạ, heavy tone."], ["họ", "haw.", "they; them", "h + ọ, heavy tone."]]}],
     body: `
 <p>English uses pitch for feeling: your voice goes up on a question and down when you are sure. Vietnamese uses pitch to tell words apart. Every syllable has one of six tones, and changing the tone changes the word, just as changing a letter would.</p>
 <h3>Six tones, five marks</h3>
 <p>The level tone has no mark. Each of the other five has a mark on the main vowel, and the pronunciation line ends each chunk with a matching symbol.</p>
 <div class="tbl"><table><tr><th>Tone</th><th>Mark</th><th>Line</th><th>How it sounds</th><th>Example</th></tr><tr><td>level (ngang)</td><td>none</td><td>none</td><td>flat, in the middle of your voice</td><td class="k">ma (ghost)</td></tr><tr><td>falling (huyền)</td><td class="k">à</td><td>_</td><td>starts low and falls gently</td><td class="k">mà (but)</td></tr><tr><td>rising (sắc)</td><td class="k">á</td><td>/</td><td>starts in the middle and rises</td><td class="k">má (mom, in the South)</td></tr><tr><td>dipping (hỏi)</td><td class="k">ả</td><td>?</td><td>falls low, then may rise a little</td><td class="k">mả (grave)</td></tr><tr><td>broken (ngã)</td><td class="k">ã</td><td>~</td><td>rises, with a catch in the middle</td><td class="k">mã (horse)</td></tr><tr><td>heavy (nặng)</td><td class="k">ạ</td><td>.</td><td>low and short, ending with a catch</td><td class="k">mạ (rice seedling)</td></tr></table></div>
+<p>Tap each tile: one syllable, <b>ma</b>, in all six tones. Then learn the five marks on their own with the cards below.</p>
+{{tiles:ma mà má mả=mah? mã=mah~ mạ=mah.}}
 {{ex:ma|mah|ghost}}
 {{ex:mà|mah_|but}}
 <p>The dipping and broken tones are the hardest for English speakers. In Hanoi they sound clearly different. In the South they merge into one tone, so if you grew up hearing Southern Vietnamese, they may sound the same to you at first.</p>
@@ -78,7 +90,10 @@ module.exports = [
 {{ex:Anh khỏe không?|aing khweh? khohng|How are you? (to a man a little older)}}
 <h3>Marks are part of the spelling</h3>
 <p>Vietnamese readers can often guess a word typed with no marks, so in this course a missing mark counts as "almost". A wrong mark, though, is a different word, and counts as wrong.</p>
+<p>The cards below are pairs that differ only in their marks: <b>mua</b> (to buy) and <b>múa</b> (to dance), <b>sữa</b> (milk) and <b>sửa</b> (to fix), <b>năm</b> (five; year) and <b>nằm</b> (to lie down). Read the mark before you flip.</p>
 <div class="tip"><b>Most common mistake:</b> treating the marks as decoration. <b>Bạn tôi bán bán.</b> → <b>Bạn tôi bán bàn.</b> (My friend sells tables.)</div>
+<h3>Read with tones</h3>
+<p>Now read whole words with their tones. Find the mark first: it tells you the pitch before you say a single letter. Some cards differ only in the mark: <b>lá</b> (leaf), <b>là</b> (to be) and <b>lạ</b> (strange). Say each word aloud, then flip.</p>
 `,
     check: [
       ["Which mark shows the heavy tone?",["A dot under the vowel, as in ạ","A hook above the vowel, as in ả","A squiggle above the vowel, as in ã","No mark at all"],0,"The heavy tone is the dot below: low, short, with a catch."],
@@ -107,6 +122,7 @@ module.exports = [
     title: "Syllables: first and last sounds",
     blurb: "Take any Vietnamese syllable apart, spell its first sound right, and say its last sound the Hanoi way.",
     deck: "Letters and sounds",
+    sections: [null, null, [{"deck": "Letters and sounds", "n": [8, 9]}, {"deck": "Letters and sounds", "n": [15, 16]}, {"name": "First sounds", "cards": [["c", "k", "the k sound, before a, o, u and the rest", "cá (kah/), fish"], ["k", "k", "the k sound, before i, e and ê", "kem (kehm), ice cream"], ["gh", "g", "the g of get, before i, e and ê", "ghế (gey/), chair"], ["ng", "ng", "ng, as in singer, even at the start", "ngon (ngawn), tasty"], ["ngh", "ng", "the same ng, before i, e and ê", "nghe (ngeh), to listen"], ["qu", "kw", "k with a w glide", "quà (kwah_), gift"]]}], null, null, [{"deck": "Letters and sounds", "n": [17, 18]}, {"name": "Whole syllables", "cards": [["làm", "lahm_", "do; make; work", "l + a + m, falling tone."], ["sáng", "sahng/", "morning", "s + a + ng, rising tone."], ["không", "khohng", "no; not; zero", "kh + ô + ng, level tone."], ["ngon", "ngawn", "tasty; delicious", "ng + o + n. It starts with ng, as in singer."], ["đêm", "deym", "night (late)", "đ + ê + m, level tone."], ["sông", "sohng", "river", "s + ô + ng, level tone."], ["xanh", "saing", "blue; green", "x + a + nh. -anh is aing."], ["nhanh", "nyaing", "fast; quick", "nh + a + nh: nh at the start is ny, at the end -anh is aing."], ["lạnh", "laing.", "cold", "l + a + nh, heavy tone. -anh is aing."], ["sách", "saik/", "book", "s + a + ch, rising tone. -ach is aik, cut short."], ["thích", "tik/", "like", "th + i + ch, rising tone. -ich is ik."], ["học", "hawk.", "study; learn", "h + o + c, heavy tone. Stop ending: only / or . is possible."], ["đẹp", "dehp.", "beautiful; pretty", "đ + e + p, heavy tone. The p is not released."], ["tốt", "dtoht/", "good (in quality or character)", "t + ô + t, rising tone. Stop ending."], ["mắt", "mat/", "eyes", "m + ă + t, rising tone. Stop ending."], ["nóng", "nawng/", "hot", "n + o + ng, rising tone. Not a stop ending: ng can take any tone."]]}]],
     body: `
 <p>An English word can pile up consonants: <i>strengths</i> has three at the start and four at the end. A Vietnamese syllable is much tidier. It has at most one first consonant, one vowel or vowel pair, one last consonant, and always a tone.</p>
 <h3>Four parts</h3>
@@ -118,19 +134,26 @@ module.exports = [
 {{ex:ghế|gey/|chair}}
 {{ex:nghe|ngeh|to listen}}
 {{ex:quà|kwah_|gift}}
+<p>Tap each spelling. Each of the first three rows is one sound, written two ways; <b>qu</b> is the k sound before a w glide.</p>
+{{tiles:c k _ _ _ g=g gh _ _ _ ng ngh _ _ _ qu}}
 <h3>ng at the start</h3>
 <p>English has the ng sound only at the end of a syllable, as in <i>sing</i>. Vietnamese also starts syllables with it. Say <i>singer</i>, then drop the <i>si</i>: what is left starts like <b>ngủ</b>. The family name <b>Nguyễn</b> is a single syllable that starts the same way.</p>
 {{ex:ngủ|ngoo?|to sleep}}
 {{ex:Nguyễn|ngwee-uhn~|Nguyen (family name)}}
+<p>The cards below cover the first sounds of this lesson: the spellings that change before i, e and ê, <b>qu</b>, and <b>ng</b>.</p>
 <h3>Last consonants</h3>
 <p>A syllable can end in <b>m, n, ng, nh, p, t, c</b> or <b>ch</b>. The last <b>p</b>, <b>t</b> and <b>c</b> are not released: your mouth gets into position and stops, with no puff. In Hanoi, <b>-anh</b> sounds like "aing" and <b>-ach</b> like "aik", so <b>bánh</b> is never the English word <i>bank</i>.</p>
 {{ex:bánh mì|baing/ mee_|bread; banh mi sandwich}}
 {{ex:sách|saik/|book}}
+<p>Here are the endings on the vowel a. Tap each one. The second row is the stop endings, which always carry a mark, as the next section explains.</p>
+{{tiles:am=ahm an=ahn ang=ahng anh=aing _ áp=ahp/ át=aht/ ác=ahk/ ách=aik/}}
 <h3>Stop endings</h3>
 <p>Syllables that end in <b>p, t, c</b> or <b>ch</b> are cut short, so they can carry only two tones: rising or heavy. That makes them easier to spell, since only two marks are possible. In the pronunciation line, these chunks always end in / or a dot, never in any other tone symbol.</p>
 {{ex:một|moht.|one}}
 {{ex:Tôi học tiếng Việt.|dtohy hawk. dtee-uhng/ vee-uht.|I'm learning Vietnamese.}}
 <div class="tip"><b>Most common mistake:</b> reading <b>-anh</b> the English way. <b>bánh mì</b> said "bank me" → <b>bánh mì</b> said as its line shows, <i>baing/ mee_</i>, with no k sound.</div>
+<h3>Read whole syllables</h3>
+<p>Now read whole syllables. Split each one into its parts: first sound, vowel, last sound, tone. <b>x + a + nh</b> is <b>xanh</b>, <i>saing</i>; <b>h + o + c</b> with the heavy tone is <b>học</b>, <i>hawk.</i> Every card below is a common word of one syllable. Say its parts, then say it whole, then flip.</p>
 `,
     check: [
       ["Which spelling is correct for chair?",["gế","ghế","ngế","gê"],1,"Before e, ê and i, g is written gh: ghế."],
@@ -159,6 +182,7 @@ module.exports = [
     title: "Vowels: ă, â, ơ, ư and vowel pairs",
     blurb: "Tell o, ô and ơ apart, say ư and the vowel pairs, and hear long and short vowels.",
     deck: "Letters and sounds",
+    sections: [null, [{"deck": "Letters and sounds", "n": [9, 11]}, {"deck": "Letters and sounds", "n": [13, 15]}, {"name": "Glide endings", "cards": [["ai", "ahy", "long ah gliding to ee", "tai (dtahy), ear"], ["ay", "ai", "short a gliding to ee", "tay (dtai), hand; arm"], ["ao", "ahw", "long ah gliding to oo", "sao (sahw), star"], ["au", "ow", "short a gliding to oo", "sau (sow), after; behind"], ["âu", "uhw", "short uh gliding to oo", "đâu (duhw), where"], ["ây", "ay", "short uh gliding to ee", "đây (day), here"]]}], [{"deck": "Letters and sounds", "n": [16, 17]}, {"name": "Vowel pairs", "cards": [["iê", "ee-uh", "ee gliding to uh, with a sound after it", "tiền (dtee-uhn_), money"], ["ia", "ee-uh", "ee gliding to uh, at the end of a syllable", "bia (bee-uh), beer"], ["uô", "oo-uh", "oo gliding to uh, with a sound after it", "chuối (choo-uhy/), banana"], ["ua", "oo-uh", "oo gliding to uh, at the end of a syllable", "mua (moo-uh), to buy"], ["ươ", "uu-uh", "uu gliding to uh, with a sound after it", "nước (nuu-uhk/), water"], ["ưa", "uu-uh", "uu gliding to uh, at the end of a syllable", "mưa (muu-uh), rain"]]}], {"name": "Glide spellings", "cards": [["oa", "wah", "w + ah", "hoa (hwah), flower"], ["oe", "weh", "w + eh", "khoe (khweh), to show off"], ["oă", "wa", "w + a short a", "hoặc (hwak.), or"], ["uâ", "wuh", "w + uh", "xuân (swuhn), spring"], ["uê", "wey", "w + ey", "thuê (twey), to rent"], ["uy", "wee", "w + ee", "tuy (dtwee), although"]]}, {"name": "Words with vowel pairs", "cards": [["mai", "mahy", "tomorrow", "m + ai: long ah, then ee."], ["cay", "kai", "spicy", "c + ay: short a, then ee."], ["cao", "kahw", "tall; high", "c + ao: long ah, then oo."], ["màu", "mow_", "color", "m + au, falling tone: short a, then oo."], ["đâu", "duhw", "where", "đ + âu: short uh, then oo."], ["mây", "may", "cloud", "m + ây: short uh, then ee."], ["mèo", "mehw_", "cat", "m + eo, falling tone: eh, then oo."], ["mới", "muhy/", "new", "m + ơi, rising tone: er, then ee. The line writes ơi as uhy."], ["vui", "vooy", "happy; fun", "v + ui: oo, then ee."], ["tiền", "dtee-uhn_", "money", "t + iê + n, falling tone. One syllable."], ["biển", "bee-uhn?", "sea; beach", "b + iê + n, dipping tone."], ["bia", "bee-uh", "beer", "b + ia: the pair iê, spelled ia at the end."], ["chuối", "choo-uhy/", "banana", "ch + uô + i, rising tone. One syllable."], ["nước", "nuu-uhk/", "water; country", "n + ươ + c, rising tone. One syllable."], ["đường", "duu-uhng_", "road; street; sugar", "đ + ươ + ng, falling tone."], ["mưa", "muu-uh", "rain", "m + ưa: the pair ươ, spelled ưa at the end."], ["xoài", "swahy_", "mango", "x + oai, falling tone: o is a quick w, swahy."], ["khỏe", "khweh?", "well; healthy; strong", "kh + oe, dipping tone: o is a quick w, khweh."]]}],
     body: `
 <p>English spells about fifteen vowel sounds with five letters, so <i>a</i> in <i>cat</i>, <i>car</i> and <i>cake</i> are three sounds. Vietnamese gives each vowel sound its own letter, and the vowel marks tell you which one. Once you know the twelve vowel letters (i and y share one sound), a word always sounds the way it is spelled.</p>
 <h3>Three families</h3>
@@ -167,20 +191,30 @@ module.exports = [
 {{ex:cơm gà|kerm gah_|rice with chicken}}
 {{ex:Tôi uống sữa.|dtohy oo-uhng/ suu-uh~|I drink milk.}}
 <p>For <b>ư</b>, say <i>oo</i>, then pull your lips into a smile without moving your tongue.</p>
+<p>Tap each vowel letter. Each row is one family.</p>
+{{tiles:a=ah ă=a â=uh _ _ o=aw ô=oh ơ=er _ _ e=eh ê=ey _ _ _ u=oo ư=uu _ _ _ i=ee y=ee}}
 <h3>Long and short</h3>
 <p>Some vowels change length before a glide, and the length changes the word. <b>ai</b> has a long ah, <b>ay</b> a short one; <b>ao</b> is long, <b>au</b> short.</p>
 {{ex:tai|dtahy|ear}}
 {{ex:tay|dtai|hand; arm}}
 {{ex:sao|sahw|star}}
 {{ex:sau|sow|after; behind}}
+<p><b>âu</b> and <b>ây</b> use the short â. And <b>ă</b> and <b>â</b> are short on their own, as in <b>ăn</b> and <b>chân</b>. Tap each glide ending.</p>
+{{tiles:ai ay ao au _ âu ây}}
 <h3>Vowel pairs</h3>
 <p>Three pairs glide from one vowel into a soft uh, inside one syllable: <b>iê</b> (written <b>ia</b> at the end), <b>uô</b> (<b>ua</b> at the end) and <b>ươ</b> (<b>ưa</b> at the end). The line shows them with a hyphen.</p>
 {{ex:người Việt|nguu-uhy_ vee-uht.|a Vietnamese person}}
 {{ex:Tôi muốn ăn cơm gà.|dtohy moo-uhn/ an kerm gah_|I want to eat rice with chicken.}}
+<p>Tap each pair. Both spellings of a pair sound the same; the second is used when nothing follows.</p>
+{{tiles:iê ia _ _ _ uô ua _ _ _ ươ ưa}}
 <h3>o and u as a glide</h3>
 <p>Before another vowel, <b>o</b> and <b>u</b> often turn into a quick w: <b>hoa</b> sounds like <i>hwah</i>, <b>thuê</b> like <i>twey</i>. The line writes the glide as a w, so you never read it as an extra syllable.</p>
 {{ex:hoa|hwah|flower}}
+<p>Six glide spellings to know. Tap each one.</p>
+{{tiles:oa oe oă uâ uê uy}}
 <div class="tip"><b>Most common mistake:</b> saying <b>o</b>, <b>ô</b> and <b>ơ</b> the same way, or adding an r. <b>cơm</b> said "kohm" or "kurm" → <b>cơm</b> said "kerm", with no r.</div>
+<h3>Read whole words</h3>
+<p>Now read words with glides and vowel pairs. However many vowel letters you see, one chunk is one syllable: <b>ch + uô + i</b> is <b>chuối</b>, <i>choo-uhy/</i>, one quick glide. A few cards add three more glide endings built the same way: <b>eo</b> (eh, then oo), <b>ơi</b> (er, then ee) and <b>ui</b> (oo, then ee). Every card below is a common word. Read it aloud before you flip it.</p>
 `,
     check: [
       ["Which vowel sounds like the vowel of her, with no r?",["o","ô","ơ","u"],2,"ơ is the vowel of her with the r left off."],

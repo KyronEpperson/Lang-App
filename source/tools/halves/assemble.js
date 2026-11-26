@@ -15,7 +15,7 @@ function loadHalves(nat, tgt, dir) {
   if (!fs.existsSync(N)) throw new Error('no native half at ' + N);
   const t = {}, n = {};
   ['decks', 'cards', 'dialog', 'examples', 'patterns', 'sentences', 'lessons', 'checks', 'practice'].forEach(f => t[f] = L.readJSONL(path.join(T, f + '.jsonl')));
-  ['decks', 'groups', 'cards', 'dialog', 'examples', 'patterns', 'sentences', 'lessons', 'checks', 'practice', 'labels'].forEach(f => n[f] = L.readJSONL(path.join(N, f + '.jsonl')));
+  ['decks', 'groups', 'cards', 'dialog', 'examples', 'patterns', 'sentences', 'lessons', 'checks', 'practice', 'labels', 'lessoncards'].forEach(f => n[f] = L.readJSONL(path.join(N, f + '.jsonl')));
   t.course = L.readJSON(path.join(T, 'course.json'));
   n.course = L.readJSON(path.join(N, 'course.json'));
   n.ui = fs.existsSync(path.join(N, 'ui.json')) ? L.readJSON(path.join(N, 'ui.json')) : {};
@@ -56,7 +56,17 @@ function assemble(nat, tgt, opts) {
     const s = sen.get(id); if (!s) { miss.push('sentence:' + id + ' (in ' + lid + ')'); return m; }
     return '{{ex:' + s[K] + '|' + s.rom + '|' + get('sentences', id).gloss + '}}';
   });
-  const LESSONS = t.lessons.map(l => { const x = get('lessons', l.id); return { id: l.id, title: x.title, blurb: x.blurb, deck: DL(l.deck), body: body(l.id, n.bodies[l.id]) }; });
+  /* {{tiles:<t>.tlNNN}}: the tile set from the target lesson row; a learner-language hint comes from its label, spaces written back as "_" (x-yue-design §3) */
+  const tileSet = new Map(); t.lessons.forEach(l => (l.tiles || []).forEach(s => tileSet.set(s.id, s)));
+  const tiles = (lid, h) => tileSet.size ? h.replace(/\{\{tiles:([a-z]+\.tl\d+)\}\}/g, (m, id) => {
+    const s = tileSet.get(id); if (!s) { miss.push('tiles:' + id + ' (in ' + lid + ')'); return m; }
+    return '{{tiles:' + s.items.map(i => i.r != null ? i.f + '=' + i.r : i.n != null ? i.f + '=' + String(label(i.n) == null ? '' : label(i.n)).replace(/ /g, '_') : i.f).join(' ') + '}}';
+  }) : h;
+  /* lesson.sections (FND-1): deck ids → deck labels, in-lesson decks → {name, cards} with the native meaning and note */
+  const sec = s => s === null ? null : typeof s === 'string' ? DL(s) : Array.isArray(s) ? s.map(sec) : s.ld != null
+    ? { name: label(s.ld), cards: s.cards.map(cd => { const x = get('lessoncards', cd.id); return [cd[K], cd.rom, x.meaning, x.note == null ? '' : x.note]; }) }
+    : (s.n ? { deck: DL(s.deck), n: s.n.slice() } : { deck: DL(s.deck) });
+  const LESSONS = t.lessons.map(l => { const x = get('lessons', l.id); const o = { id: l.id, title: x.title, blurb: x.blurb, deck: DL(l.deck), body: tiles(l.id, body(l.id, n.bodies[l.id])) }; if (l.sections) o.sections = l.sections.map(sec); return o; });
   const CHECKS = {}; t.checks.forEach(c => { const x = get('checks', c.id); (CHECKS[c.lesson] = CHECKS[c.lesson] || []).push([x.q, merge(c.o, x.o), c.a, x.why]); });
   const PRACTICE = {}; t.practice.forEach(p => {
     const x = get('practice', p.id), o = { t: p.t };

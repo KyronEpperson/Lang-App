@@ -22,9 +22,9 @@ const T = path.join(DIR, 'target', TG), N = path.join(DIR, 'native', 'en', TG);
 const slug = s => String(s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/&/g, ' ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const pad = (n, w) => String(n).padStart(w, '0');
 /* id allocator that remembers ids from a previous export; a key that occurs twice (en-zh has one duplicated pattern row) gets its old ids in order */
-function Alloc(prefix, width, file, keyOf) {
+function Alloc(prefix, width, file, keyOf) { /* file: a .jsonl path, or the previous rows themselves */
   const old = new Map(); let max = 0;
-  L.readJSONL(file).forEach(r => { const k = keyOf(r); if (k != null) { if (!old.has(k)) old.set(k, []); old.get(k).push(r.id); } const n = +String(r.id).slice(prefix.length); if (n > max) max = n; });
+  (Array.isArray(file) ? file : L.readJSONL(file)).forEach(r => { const k = keyOf(r); if (k != null) { if (!old.has(k)) old.set(k, []); old.get(k).push(r.id); } const n = +String(r.id).slice(prefix.length); if (n > max) max = n; });
   const used = new Set();
   return k => { let id = (old.get(k) || []).find(x => !used.has(x)); if (!id) id = prefix + pad(++max, width); used.add(id); return id; };
 }
@@ -91,10 +91,62 @@ const senKey = new Map(senPrev.map(r => [r[K] + '\u0001' + r.rom + '\u0001' + ((
 let senMax = Math.max(0, ...senPrev.map(r => +r.id.slice(sp.length)));
 const tSen = [], nSen = [], senSeen = new Map(), lessonFiles = {}, tLessons = [], nLessons = [];
 let exRows = 0;
+/* in-lesson decks (lesson.sections, FND-1: tools/patches/foundations.py) and {{tiles:…}} sets (docs/briefs/x-yue-design.md §3).
+   Target side: the section structure, deck references by deck id, slices n:[a,b], in-lesson card fronts + readings with ids <t>.lc0001 (key: front + reading),
+   tile sets <t>.tl001 (key: the fronts) whose items keep their front and any reading the target classifier accepts (Jyutping, pinyin, Han).
+   Native side: in-lesson deck names (label <t>.ld.<slug>), card meanings and notes (lessoncards.jsonl), and tile hints in the learner's language
+   (label <tile set>.<nn>, "_" written as a space). Any other shape is refused. */
+const prevLessons = L.readJSONL(path.join(T, 'lessons.jsonl'));
+const lcA = Alloc(TG + '.lc', 4, prevLessons.flatMap(r => { const o = []; const walk = x => { if (Array.isArray(x)) x.forEach(walk); else if (x && x.cards) o.push(...x.cards); }; walk(r.sections || []); return o; }), r => r[K] + '\u0001' + r.rom);
+const tlA = Alloc(TG + '.tl', 3, prevLessons.flatMap(r => r.tiles || []), r => r.items.map(i => i.f).join(' '));
+const ldSeen = new Set(), nLc = [], lessonLabels = [];
+let ldCards = 0, tileSets = 0, tileHints = 0;
+function mapSection(s, lid, top) {
+  const bad = () => { throw new Error('lesson ' + lid + ': section entry not mapped ' + JSON.stringify(s).slice(0, 120)); };
+  if (s === null) { if (!top) bad(); return null; }
+  if (typeof s === 'string') { if (!deckId[s]) throw new Error('lesson ' + lid + ': section names unknown deck ' + s); return deckId[s]; }
+  if (Array.isArray(s)) { if (!top || !s.length) bad(); return s.map(x => mapSection(x, lid, false)); }
+  if (typeof s !== 'object') bad();
+  const ks = Object.keys(s).join(',');
+  if (ks === 'deck' || ks === 'deck,n') {
+    if (!deckId[s.deck]) throw new Error('lesson ' + lid + ': section names unknown deck ' + s.deck);
+    if (ks === 'deck') return { deck: deckId[s.deck] };
+    const n = s.n, len = c.DECKS[s.deck].length;
+    if (!Array.isArray(n) || n.length !== 2 || !n.every(Number.isInteger) || n[0] < 0 || n[0] >= n[1] || n[1] > len) throw new Error('lesson ' + lid + ': bad slice ' + JSON.stringify(n) + ' of ' + s.deck + ' (' + len + ' cards)');
+    return { deck: deckId[s.deck], n: [n[0], n[1]] };
+  }
+  if (ks === 'name,cards') {
+    const id = TG + '.ld.' + slug(s.name);
+    if (typeof s.name !== 'string' || !s.name || ldSeen.has(id) || Object.values(deckId).includes(id)) throw new Error('lesson ' + lid + ': in-lesson deck name empty or clashes: ' + s.name);
+    if (!Array.isArray(s.cards) || !s.cards.length) bad();
+    ldSeen.add(id); lessonLabels.push({ id, text: s.name });
+    return { ld: id, cards: s.cards.map(cd => {
+      if (!Array.isArray(cd) || cd.length !== 4 || !cd.every(x => typeof x === 'string')) throw new Error('lesson ' + lid + ': in-lesson card shape ' + JSON.stringify(cd));
+      if (/@@/.test(cd[0] + cd[1])) throw new Error('learner-name token @@ in an in-lesson card front: ' + cd[0]);
+      if (!TC.has(cd[0]) && !TC.isValue(cd[0])) throw new Error('lesson ' + lid + ': in-lesson card front is not ' + TC.name + ' text: ' + cd[0]);
+      const cid = lcA(cd[0] + '\u0001' + cd[1]); ldCards++; nLc.push({ id: cid, meaning: cd[2], note: cd[3] }); return { id: cid, [K]: cd[0], rom: cd[1] };
+    }) };
+  }
+  return bad();
+}
+function mapTiles(inner, lid, sets) {
+  if (!/^\S+( \S+)*$/.test(inner)) throw new Error('lesson ' + lid + ': tiles token spacing not mapped {{tiles:' + inner + '}}');
+  const parts = inner.split(' '), id = tlA(parts.map(x => x.split('=')[0]).join(' '));
+  const items = parts.map((x, i) => {
+    const e = x.indexOf('='); if (e < 0) return { f: x };
+    const f = x.slice(0, e), r = x.slice(e + 1); if (!f || !r) throw new Error('lesson ' + lid + ': tile item not mapped ' + x);
+    if (TC.isValue(r.replace(/_/g, ' '))) return { f, r };                  /* a target reading (Jyutping, pinyin, Han): target side, kept raw */
+    const nid = id + '.' + pad(i + 1, 2); tileHints++; lessonLabels.push({ id: nid, text: r.replace(/_/g, ' ') }); return { f, n: nid }; /* a hint in the learner's language */
+  });
+  tileSets++; sets.push({ id, items }); return id;
+}
 c.LESSONS.forEach(l => {
   if (!deckId[l.deck]) throw new Error('lesson deck ' + l.deck);
-  Object.keys(l).forEach(k => { if (!['id', 'title', 'blurb', 'deck', 'body'].includes(k)) throw new Error('lesson field ' + k + ' not mapped (' + l.id + ')'); });
+  Object.keys(l).forEach(k => { if (!['id', 'title', 'blurb', 'deck', 'body', 'sections'].includes(k)) throw new Error('lesson field ' + k + ' not mapped (' + l.id + ')'); });
+  if (l.sections !== undefined && !Array.isArray(l.sections)) throw new Error('lesson ' + l.id + ': sections must be an array');
+  const sections = l.sections === undefined ? undefined : l.sections.map(s => mapSection(s, l.id, true)), tiles = [];
   const body = String(l.body).replace(L.TOKEN_RX, tok => {
+    const tm = tok.match(/^\{\{tiles:([^}]*)\}\}$/); if (tm) return '{{tiles:' + mapTiles(tm[1], l.id, tiles) + '}}';
     const m = tok.match(/^\{\{ex:([^|}]*)\|([^|}]*)\|([^|}]*)\}\}$/); if (!m) throw new Error('lesson ' + l.id + ': token not mapped ' + tok);
     exRows++;
     const key = m[1] + '\u0001' + m[2] + '\u0001' + m[3];
@@ -102,9 +154,10 @@ c.LESSONS.forEach(l => {
     if (!id) { id = senKey.get(key); if (!id || tSen.some(x => x.id === id)) id = sp + pad(++senMax, 4); senSeen.set(key, id); tSen.push({ id, [K]: m[1], rom: m[2] }); nSen.push({ id, gloss: m[3] }); }
     return '{{ex:' + id + '}}';
   });
-  const left = body.match(/class="ex"|data-say|<svg|<button|<script|\son[a-z]+\s*=\s*"|\{\{(?!ex:[a-z]+\.s\d+\}\})/);
+  const left = body.match(/class="ex"|data-say|<svg|<button|<script|\son[a-z]+\s*=\s*"|\{\{(?!ex:[a-z]+\.s\d+\}\}|tiles:[a-z]+\.tl\d+\}\})/);
   if (left) throw new Error('lesson ' + l.id + ' still contains ' + left[0] + ' after tokenising');
-  lessonFiles[l.id] = body; tLessons.push({ id: l.id, deck: deckId[l.deck] }); nLessons.push({ id: l.id, title: l.title, blurb: l.blurb });
+  const tl = { id: l.id, deck: deckId[l.deck] }; if (sections !== undefined) tl.sections = sections; if (tiles.length) tl.tiles = tiles;
+  lessonFiles[l.id] = body; tLessons.push(tl); nLessons.push({ id: l.id, title: l.title, blurb: l.blurb });
 });
 
 /* ---------- checks & practice: options and hints split with the shared classifier (lib.js TARGETS[t].isValue / splitLead) ---------- */
@@ -143,6 +196,7 @@ const goals = Object.entries(c.GOALS).map(([k, g]) => { const id = 'goal.' + k; 
 const plans = Object.entries(c.PLAN_PRESETS).map(([k, g]) => { const id = 'plan.' + k; labels.push({ id, text: g.label }); const o = { id, key: k }; Object.keys(g).forEach(f => { if (f !== 'label') o[f] = f === 'decks' ? g.decks.map(x => deckId[x]) : g[f]; }); return o; });
 const pauseSets = Object.entries((c.PAUSE || {}).sets || {}).map(([k, s]) => { const id = TG + '.z.' + k, sp2 = L.splitLead(TG, s[0]); if (!sp2 || !sp2.note) throw new Error('pause label ' + s[0]); labels.push({ id, text: sp2.note }); return { id, key: k, [K]: sp2.lead, sep: sp2.sep, items: s[1].map((it, i) => { const iid = id + '.' + pad(i + 1, 2); labels.push({ id: iid, text: it[1] }); return { id: iid, [K]: it[0] }; }) }; });
 const idioms = ((c.PAUSE || {}).idioms || []).map((x, i) => { const id = TG + '.i' + pad(i + 1, 2); labels.push({ id, text: x[3] }); return { id, [K]: x[0], hanja: x[1], rom: x[2] }; });
+labels.push(...lessonLabels); /* in-lesson deck names and tile hints, after the pack-level labels */
 
 /* ---------- interface strings a non-English half overrides for this target (ui.json; validate.js counts the missing ones) ----------
    The engine builds these from the target's English name (applyCourseUi: tn+' (required)' and the bulk-add placeholder), the grammar-search placeholder is
@@ -169,7 +223,8 @@ const W = (dir, f, rows) => L.writeJSONL(path.join(dir, f + '.jsonl'), rows);
 W(T, 'decks', tDecks); W(T, 'cards', tCards); W(T, 'dialog', tDlg); W(T, 'examples', tEx); W(T, 'patterns', tPat); W(T, 'sentences', tSen); W(T, 'lessons', tLessons); W(T, 'checks', tChk); W(T, 'practice', tPr);
 L.writeJSON(path.join(N, 'course.json'), nCourse);
 W(N, 'decks', nDecks); W(N, 'groups', nGroups); W(N, 'cards', nCards); W(N, 'dialog', nDlg); W(N, 'examples', nEx); W(N, 'patterns', nPat); W(N, 'sentences', nSen); W(N, 'lessons', nLessons); W(N, 'checks', nChk); W(N, 'practice', nPr); W(N, 'labels', labels);
+if (nLc.length || fs.existsSync(path.join(N, 'lessoncards.jsonl'))) W(N, 'lessoncards', nLc);
 Object.entries(lessonFiles).forEach(([id, h]) => { fs.mkdirSync(path.join(N, 'lessons'), { recursive: true }); fs.writeFileSync(path.join(N, 'lessons', id + '.html'), h); });
 if (!fs.existsSync(path.join(N, 'ui.json'))) L.writeJSON(path.join(N, 'ui.json'), {});
 const optCount = rows => rows.reduce((a, r) => { (r.o || []).forEach(o => { a[o == null ? 'prose' : 'target']++; }); return a; }, { target: 0, prose: 0 });
-console.log(JSON.stringify({ target: TG, source: tCourse.exportedFrom.file, sha256_16: srcHash, decks: tDecks.length, cards: tCards.length, notes: nCards.filter(x => x.note).length, groups: groups.length, dialog: tDlg.length, examples: tEx.length, patterns: tPat.length, lessons: tLessons.length, exampleRows: exRows, sentences: tSen.length, checks: tChk.length, practice: tPr.length, labels: labels.length, checkOptions: optCount(tChk), mcOptions: optCount(tPr.filter(p => p.t === 'mc')), hints: { target: tPr.filter(p => p.hint && !nPr.find(n => n.id === p.id).hint).length, split: tPr.filter(p => p.hint && p.hint.sep).length, native: nPr.filter(n => n.hint && !tPr.find(p => p.id === n.id).hint).length }, uiKeys: uiKeys.length, out: path.relative(L.ROOT, DIR) }));
+console.log(JSON.stringify({ target: TG, source: tCourse.exportedFrom.file, sha256_16: srcHash, decks: tDecks.length, cards: tCards.length, notes: nCards.filter(x => x.note).length, groups: groups.length, dialog: tDlg.length, examples: tEx.length, patterns: tPat.length, lessons: tLessons.length, exampleRows: exRows, sentences: tSen.length, checks: tChk.length, practice: tPr.length, labels: labels.length, lessonDecks: ldSeen.size, lessonCards: ldCards, tileSets, tileHints, checkOptions: optCount(tChk), mcOptions: optCount(tPr.filter(p => p.t === 'mc')), hints: { target: tPr.filter(p => p.hint && !nPr.find(n => n.id === p.id).hint).length, split: tPr.filter(p => p.hint && p.hint.sep).length, native: nPr.filter(n => n.hint && !tPr.find(p => p.id === n.id).hint).length }, uiKeys: uiKeys.length, out: path.relative(L.ROOT, DIR) }));

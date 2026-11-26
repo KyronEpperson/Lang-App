@@ -72,12 +72,23 @@ function pinyinRx() { if (!PIN_RX) { const p = path.join(ROOT, 'tools', 'target'
 /* a whole string of pinyin: passes the course's own pronPattern and every word carries a tone mark (or is a known toneless syllable), so "bú, rising" is prose */
 function isPinyin(s) { s = String(s == null ? '' : s).trim(); if (!s) return false; if (PIN_INITIAL.test(s)) return true; return pinyinRx().test(s) && s.split(/[\s,.?!:;]+/).filter(Boolean).every(w => PIN_MARK.test(w) || PIN_NEUTRAL.test(w)); }
 const isChineseValue = s => { s = String(s == null ? '' : s); return (hasHan(s) && !/[A-Za-zÀ-ɏ]/.test(s)) || isPinyin(s); };
+/* Cantonese (yue): Traditional Han text with Jyutping (tone digits 1-6) as the reading. A whole string of Jyutping passes the en-yue profile's pronPattern;
+   a bare Jyutping initial or final as a quiz option ("gw", "j", "oe") is language-neutral material, as pinyin initials are for zh. */
+const JYU_INITIAL = /^(ng|gw|kw|[bpmfdtnlgkhwzcsj])$/;
+const JYU_FINAL = /^(aang|oeng|aai|aau|aam|aan|aap|aat|aak|ang|eng|ing|ong|ung|oet|oek|eoi|eon|eot|yun|yut|aa|ai|au|am|an|ap|at|ak|ei|eu|em|en|ep|et|ek|iu|im|in|ip|it|ik|oi|ou|on|ot|ok|ui|um|un|up|ut|uk|oe|eo|yu|a|e|i|o|u)$/;
+let JYU_RX = null;
+function jyutpingRx() { if (!JYU_RX) { const p = path.join(ROOT, 'tools', 'target', 'yue', 'profile.json'); JYU_RX = new RegExp(readJSON(p).pronPattern); } return JYU_RX; }
+function isJyutping(s) { s = String(s == null ? '' : s).trim(); if (!s) return false; return JYU_INITIAL.test(s) || JYU_FINAL.test(s) || jyutpingRx().test(s); }
+const isCantoneseValue = s => { s = String(s == null ? '' : s); return (hasHan(s) && !/[A-Za-zÀ-ɏ]/.test(s)) || isJyutping(s); };
 function runSetOf(rx, s) { return (String(s || '').match(rx) || []).slice().sort(); }
 const TARGETS = {
   ko: { code: 'ko', field: 'ko', name: 'Korean', script: 'Hangul', runs: s => hangulSet(s), has: hasHangul, isValue: isKoreanValue, leadRx: /^([^A-Za-z]*[㄰-㆏가-힯][^A-Za-z]*)( · | — )(.*[A-Za-z].*)$/ },
   zh: { code: 'zh', field: 'zh', name: 'Chinese', script: 'Han', runs: s => runSetOf(HAN_RX, s), has: hasHan, isValue: isChineseValue, leadRx: /^([^A-Za-z]*[㐀-䶿一-鿿][^A-Za-z]*)( · | — )(.*[A-Za-z].*)$/,
     /* extra native-only card fields for learners whose language reads Chinese characters (vi: Hán Việt). Assembly ignores them; validate.js checks them. */
-    cardExtras: ['hv', 'hvUse', 'trad'] }
+    cardExtras: ['hv', 'hvUse', 'trad'] },
+  /* third half (docs/briefs/x-yue-design.md). Script mode like zh: a learner language written in Han characters (zh, ja, nan) cannot be told from it by script
+     and needs the "by marks" mode of docs/HALVES-BLUEPRINT.md §5 before its native half can be validated. */
+  yue: { code: 'yue', field: 'yue', name: 'Cantonese', script: 'Han', runs: s => runSetOf(HAN_RX, s), has: hasHan, isValue: isCantoneseValue, leadRx: /^([^A-Za-z]*[㐀-䶿一-鿿][^A-Za-z]*)( · | — )(.*[A-Za-z].*)$/ }
 };
 function target(t) { const c = TARGETS[t]; if (!c) throw new Error('unknown target "' + t + '" (known: ' + Object.keys(TARGETS).join(', ') + ')'); return c; }
 /* split "target lead<sep>native note" (hint, pause-set label); null when there is no leading target part */
@@ -87,4 +98,4 @@ function splitLead(t, s) {
 }
 
 module.exports = { ROOT, HALVES, SRC, openApp, liveBuiltin, readJSON, writeJSON, writeJSONL, readJSONL, byId, hangulSet, sameHangul, hasHangul, isKoreanValue, tokens, TOKEN_RX, words,
-  TARGETS, target, splitLead, hasHan, isPinyin, isChineseValue, HAN_RX };
+  TARGETS, target, splitLead, hasHan, isPinyin, isChineseValue, HAN_RX, isJyutping, isCantoneseValue };

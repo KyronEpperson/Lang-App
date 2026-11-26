@@ -1,0 +1,378 @@
+{"id":"jyutping.01","lesson":"jyutping","t":"mc","o":["j","z","c","g"]}
+{"id":"jyutping.02","lesson":"jyutping","t":"mc","o":["c","z","j","s"]}
+{"id":"jyutping.03","lesson":"jyutping","t":"mc","o":[null,null,null,null]}
+{"id":"jyutping.04","lesson":"jyutping","t":"mc","o":[null,null,null,null]}
+{"id":"jyutping.05","lesson":"jyutping","t":"mc","o":[null,null,null,null]}
+{"id":"jyutping.06","lesson":"jyutping","t":"order","a":["nei5","hou2"],"x":["nei2"],"strict":true}
+{"id":"jyutping.07","lesson":"jyutping","t":"order","a":["m4","goi1"],"x":["m2"],"strict":true}
+{"id":"jyutping.08","lesson":"jyutping","t":"order","a":["saam1","sap6"],"x":["sam1"]}
+{"id":"jyutping.09","lesson":"jyutping","t":"fill","q":"__au5 (有, to have)","o":["y","z","h"],"a":["j"]}
+{"id":"jyutping.10","lesson":"jyutping","t":"fill","q":"h__i3 (去, to go)","o":["e","o","u"],"a":["eo"]}
+{"id":"jyutping.11","lesson":"jyutping","t":"fill","q":"sa__6 (十, ten)","o":["t","k","m"],"a":["p"]}
+{"id":"jyutping.12","lesson":"jyutping","t":"type","a":["saam1"],"x":["saam3"],"strict":true}
+{"id":"jyutping.13","lesson":"jyutping","t":"type","a":["ngo5"],"x":["ngo6"],"strict":true}
+{"id":"jyutping.14","lesson":"jyutping","t":"type","a":["syu1"],"x":["su1"]}
+{"id":"tones.01","lesson":"tones","t":"mc","o":[null,null,null,null]}
+{"id":"tones.02","lesson":"tones","t":"mc","o":["maai6","maai5","maai4","maai2"]}
+{"id":"tones.03","lesson":"tones","t":"mc","o":["喺","係","四","死"]}
+{"id":"tones.04","lesson":"tones","t":"mc","o":[null,null,null,null]}
+{"id":"tones.05","lesson":"tones","t":"mc","o":[null,null,null,null]}
+{"id":"tones.06","lesson":"tones","t":"order","a":["ngo5","soeng2","maai5"],"x":["maai6"],"strict":true}
+{"id":"tones.07","lesson":"tones","t":"order","a":["si1","si3"],"x":["si4"],"strict":true}
+{"id":"tones.08","lesson":"tones","t":"order","a":["maa4","maa1"],"x":["maa5"],"strict":true}
+{"id":"tones.09","lesson":"tones","t":"fill","q":"maai__ (買, to buy)","o":["6","2","4"],"a":["5"],"strict":true}
+{"id":"tones.10","lesson":"tones","t":"fill","q":"sei__ (四, four)","o":["2","1","6"],"a":["3"],"strict":true}
+{"id":"tones.11","lesson":"tones","t":"fill","q":"hai__ (喺, at, in)","o":["6","5","1"],"a":["2"],"strict":true}
+{"id":"tones.12","lesson":"tones","t":"type","a":["maai6"],"x":["maai5"],"strict":true}
+{"id":"tones.13","lesson":"tones","t":"type","a":["hai6"],"x":["hai2"],"strict":true}
+{"id":"tones.14","lesson":"tones","t":"type","a":["din6 waa2"],"x":["waa6"],"strict":true}
+{"id":"greetings.01","lesson":"greetings","t":"mc","o":["唔該","多謝","對唔住","唔使客氣"]}
+{"id":"greetings.02","lesson":"greetings","t":"mc","o":["多謝","唔該","早晨","唔使客氣"]}
+{"id":"greetings.03","lesson":"greetings","t":"mc","o":["唔使客氣","唔該","對唔住","早晨"]}
+{"id":"greetings.04","lesson":"greetings","t":"mc","o":["早晨","早抖","拜拜","唔使客氣"]}
+{"id":"greetings.05","lesson":"greetings","t":"mc","o":["do1 ze6","do1 ze2","do2 ze6","do1 ze3"]}
+{"id":"greetings.06","lesson":"greetings","t":"order","a":["do1","ze6"],"x":["ze2"],"strict":true}
+{"id":"greetings.07","lesson":"greetings","t":"order","a":["zou2","san4"],"x":["san1"],"strict":true}
+{"id":"greetings.08","lesson":"greetings","t":"order","a":["唔該","一","杯","奶茶"],"x":["個"]}
+{"id":"greetings.09","lesson":"greetings","t":"fill","q":"__，一杯奶茶。","o":["多謝","對唔住","早晨"],"a":["唔該","m4 goi1"],"xr":["do1 ze6","deoi3 m4 zyu6","zou2 san4"]}
+{"id":"greetings.10","lesson":"greetings","t":"fill","q":"__晒！","o":["唔該","對唔住","早抖"],"a":["多謝","do1 ze6"],"xr":["m4 goi1","deoi3 m4 zyu6","zou2 dau2"]}
+{"id":"greetings.11","lesson":"greetings","t":"fill","q":"唔使__。","o":["好意思","早晨","拜拜"],"a":["客氣","多謝","唔該","haak3 hei3","do1 ze6","m4 goi1"],"xr":["hou2 ji3 si1","zou2 san4","baai1 baai3"]}
+{"id":"greetings.12","lesson":"greetings","t":"type","a":["多謝","多謝 晒","do1 ze6","do1 ze6 saai3"],"x":["唔該"],"hint":{"yue":"多謝","sep":" · "},"xr":["m4 goi1"]}
+{"id":"greetings.13","lesson":"greetings","t":"type","a":["m4 goi1"],"x":["goi3"],"strict":true}
+{"id":"greetings.14","lesson":"greetings","t":"type","a":["唔該 一 杯 咖啡","m4 goi1 jat1 bui1 gaa3 fe1"],"x":["個"],"hint":{"yue":"唔該 · 一 · 杯","sep":" · "},"xr":["go3"]}
+{"id":"characters.01","lesson":"characters","t":"mc","o":["明","林","休","好"]}
+{"id":"characters.02","lesson":"characters","t":"mc","o":[null,null,null,null]}
+{"id":"characters.03","lesson":"characters","t":"mc","o":[null,null,null,null]}
+{"id":"characters.04","lesson":"characters","t":"mc","o":["seoi2","seoi3","seoi4","seoi6"]}
+{"id":"characters.05","lesson":"characters","t":"mc","o":["亻","氵","口","女"]}
+{"id":"characters.06","lesson":"characters","t":"order","a":["好","人"],"x":["係"]}
+{"id":"characters.07","lesson":"characters","t":"order","a":["hou2","jan4"],"x":["hou3"],"strict":true}
+{"id":"characters.08","lesson":"characters","t":"order","a":["大","山"],"x":["係"]}
+{"id":"characters.09","lesson":"characters","t":"fill","q":"人 + 木 = __","o":["林","明","本"],"a":["休","jau1"],"xr":["lam4","ming4","bun2"]}
+{"id":"characters.10","lesson":"characters","t":"fill","q":"木 + 木 = __","o":["休","明","山"],"a":["林","lam4"],"xr":["jau1","ming4","saan1"]}
+{"id":"characters.11","lesson":"characters","t":"fill","q":"女 + 子 = __","o":["明","林","休"],"a":["好","hou2"],"xr":["ming4","lam4","jau1"]}
+{"id":"characters.12","lesson":"characters","t":"type","a":["hou2"],"x":["hou3"],"strict":true}
+{"id":"characters.13","lesson":"characters","t":"type","a":["好 人","hou2 jan4"],"x":["係"],"hint":{"yue":"好 · 人","sep":" · "},"xr":["hai6"]}
+{"id":"characters.14","lesson":"characters","t":"type","a":["jan4"],"x":["jan6"],"strict":true}
+{"id":"hai.01","lesson":"hai","t":"mc","o":["我係學生。","我學生係。","我係一學生。","係我學生。"]}
+{"id":"hai.02","lesson":"hai","t":"mc","o":[null,null,null,null]}
+{"id":"hai.03","lesson":"hai","t":"mc","o":["佢好攰。","佢係攰。","佢攰係。","係佢攰。"]}
+{"id":"hai.04","lesson":"hai","t":"mc","o":["係","喺","去","死"]}
+{"id":"hai.05","lesson":"hai","t":"mc","o":["佢哋","佢","我哋","你哋"]}
+{"id":"hai.06","lesson":"hai","t":"order","a":["佢","係","我","朋友"],"x":["喺"]}
+{"id":"hai.07","lesson":"hai","t":"order","a":["我哋","都","係","學生"],"x":["喺"]}
+{"id":"hai.08","lesson":"hai","t":"order","a":["佢哋","唔","係","老師"],"x":["喺"]}
+{"id":"hai.09","lesson":"hai","t":"fill","q":"我__學生。","o":["好","喺","唔"],"a":["係","hai6"],"strict":true,"xr":["hou2","hai2","m4"]}
+{"id":"hai.10","lesson":"hai","t":"fill","q":"佢__老師。","o":["係","好","唔好"],"a":["唔係","m4 hai6"],"xr":["hai6","hou2","m4 hou2"]}
+{"id":"hai.11","lesson":"hai","t":"fill","q":"佢__攰。","o":["係","唔係","哋"],"a":["好","hou2"],"xr":["hai6","m4 hai6","dei6"]}
+{"id":"hai.12","lesson":"hai","t":"type","a":["佢 係 我 朋友","佢 係 我 嘅 朋友","keoi5 hai6 ngo5 pang4 jau5","keoi5 hai6 ngo5 ge3 pang4 jau5"],"x":["喺"],"hint":{"yue":"佢 · 係 · 我 · 朋友","sep":" · "},"xr":["hai2"]}
+{"id":"hai.13","lesson":"hai","t":"type","a":["我 都 係 學生","ngo5 dou1 hai6 hok6 saang1"],"x":["喺"],"hint":{"yue":"我 · 都 · 係 · 學生"},"xr":["hai2"]}
+{"id":"hai.14","lesson":"hai","t":"type","a":["佢哋 係 老師","keoi5 dei6 hai6 lou5 si1"],"x":["喺"],"hint":{"yue":"佢哋 · 係 · 老師"},"xr":["hai2"]}
+{"id":"intro.01","lesson":"intro","t":"mc","o":["你叫咩名呀？","咩你叫名呀？","你叫名咩呀？","咩名你叫呀？"]}
+{"id":"intro.02","lesson":"intro","t":"mc","o":["我叫馬克。","我名係馬克。","我馬克叫。","馬克我叫。"]}
+{"id":"intro.03","lesson":"intro","t":"mc","o":["我住喺紐約。","我住紐約喺。","住喺我紐約。","我紐約住喺。"]}
+{"id":"intro.04","lesson":"intro","t":"mc","o":["giu3","giu2","giu6","giu1"]}
+{"id":"intro.05","lesson":"intro","t":"mc","o":[null,null,null,null]}
+{"id":"intro.06","lesson":"intro","t":"order","a":["佢","係","我","廣東話","老師"],"x":["喺"]}
+{"id":"intro.07","lesson":"intro","t":"order","a":["我","都","係","美國人"],"x":["喺"]}
+{"id":"intro.08","lesson":"intro","t":"order","a":["你","叫","咩","名","呀"],"x":["係"]}
+{"id":"intro.09","lesson":"intro","t":"fill","q":"我__安娜。","o":["名","住","講"],"a":["叫","giu3"],"xr":["meng2","zyu6","gong2"]}
+{"id":"intro.10","lesson":"intro","t":"fill","q":"我__陳。","o":["叫","名","住"],"a":["姓","sing3"],"xr":["giu3","meng2","zyu6"]}
+{"id":"intro.11","lesson":"intro","t":"fill","q":"我住__三藩市。","o":["係","嚟","去"],"a":["喺","hai2"],"strict":true,"xr":["hai6","lei4","heoi3"]}
+{"id":"intro.12","lesson":"intro","t":"type","a":["佢 係 我 廣東話 老師","佢 係 我 嘅 廣東話 老師","keoi5 hai6 ngo5 gwong2 dung1 waa2 lou5 si1","keoi5 hai6 ngo5 ge3 gwong2 dung1 waa2 lou5 si1"],"x":["喺"],"hint":{"yue":"佢 · 係 · 我 · 廣東話 · 老師","sep":" · "},"xr":["hai2"]}
+{"id":"intro.13","lesson":"intro","t":"type","a":["我哋 都 係 香港人","ngo5 dei6 dou1 hai6 hoeng1 gong2 jan4"],"x":["喺"],"hint":{"yue":"我哋 · 都 · 係 · 香港人"},"xr":["hai2"]}
+{"id":"intro.14","lesson":"intro","t":"type","a":["你 叫 咩 名 呀","你 叫 咩 名","nei5 giu3 me1 meng2 aa3","nei5 giu3 me1 meng2"],"x":["係"],"hint":{"yue":"叫 · 咩 · 名","sep":" · "},"xr":["hai6"]}
+{"id":"m.01","lesson":"m","t":"mc","o":["你去唔去呀？","你唔去去呀？","去你唔去呀？","唔去你去呀？"]}
+{"id":"m.02","lesson":"m","t":"mc","o":["食。","係。","唔。","有。"]}
+{"id":"m.03","lesson":"m","t":"mc","o":["我唔攰。","我攰唔。","唔我攰。","我攰唔係。"]}
+{"id":"m.04","lesson":"m","t":"mc","o":["m4","m1","m6","m2"]}
+{"id":"m.05","lesson":"m","t":"mc","o":["你係唔係學生呀？","你唔係學生。","你係學生。","我係學生呀。"]}
+{"id":"m.06","lesson":"m","t":"order","a":["我","都","唔","去"],"x":["你"]}
+{"id":"m.07","lesson":"m","t":"order","a":["佢","係唔係","你","老師"],"x":["喺"]}
+{"id":"m.08","lesson":"m","t":"order","a":["貴","唔","貴","呀"],"x":["係"]}
+{"id":"m.09","lesson":"m","t":"fill","q":"你去__去呀？","o":["係","好","有"],"a":["唔","m4"],"xr":["hai6","hou2","jau5"]}
+{"id":"m.10","lesson":"m","t":"fill","q":"你係唔係學生呀？__，我係學生。","o":["好","有","去"],"a":["係","hai6"],"xr":["hou2","jau5","heoi3"]}
+{"id":"m.11","lesson":"m","t":"fill","q":"佢__食。","o":["係","喺","你"],"a":["唔","m4"],"xr":["hai6","hai2","nei5"]}
+{"id":"m.12","lesson":"m","t":"type","a":["我 都 唔 係 學生","ngo5 dou1 m4 hai6 hok6 saang1"],"x":["喺"],"hint":{"yue":"我 · 都 · 唔 · 係 · 學生"},"xr":["hai2"]}
+{"id":"m.13","lesson":"m","t":"type","a":["佢 係 唔 係 你 朋友 呀","佢 係 唔 係 你 朋友","佢 係咪 你 朋友 呀","佢 係咪 你 朋友","佢 係 唔 係 你 嘅 朋友 呀","佢 係 唔 係 你 嘅 朋友","keoi5 hai6 m4 hai6 nei5 pang4 jau5 aa3","keoi5 hai6 m4 hai6 nei5 pang4 jau5","keoi5 hai6 mai6 nei5 pang4 jau5 aa3","keoi5 hai6 mai6 nei5 pang4 jau5","keoi5 hai6 m4 hai6 nei5 ge3 pang4 jau5 aa3","keoi5 hai6 m4 hai6 nei5 ge3 pang4 jau5"],"x":["喺"],"hint":{"yue":"佢 · 係唔係 · 你 · 朋友"},"xr":["hai2"]}
+{"id":"m.14","lesson":"m","t":"type","a":["你 去 唔 去 呀","你 去 唔 去","去 唔 去 呀","去 唔 去","nei5 heoi3 m4 heoi3 aa3","nei5 heoi3 m4 heoi3","heoi3 m4 heoi3 aa3","heoi3 m4 heoi3"],"x":["係"],"hint":{"yue":"去 · 唔 · 去 · 呀"},"xr":["hai6"]}
+{"id":"questions.01","lesson":"questions","t":"mc","o":["你住喺邊度呀？","邊度你住喺呀？","你邊度住喺呀？","喺邊度你住呀？"]}
+{"id":"questions.02","lesson":"questions","t":"mc","o":["佢係邊個呀？","邊個佢係呀？","佢邊個係呀？","係邊個佢呀？"]}
+{"id":"questions.03","lesson":"questions","t":"mc","o":[null,null,null,null]}
+{"id":"questions.04","lesson":"questions","t":"mc","o":["gei2 si4","gei2 si2","gei1 si4","gei2 si6"]}
+{"id":"questions.05","lesson":"questions","t":"mc","o":["你幾時去呀？","你去幾時呀？","你去呀幾時？","去你幾時呀？"]}
+{"id":"questions.06","lesson":"questions","t":"order","a":["你","聽日","去","邊度","呀"],"x":["咩"]}
+{"id":"questions.07","lesson":"questions","t":"order","a":["你","幾時","去","香港","呀"],"x":["邊度"]}
+{"id":"questions.08","lesson":"questions","t":"order","a":["佢","係","邊個","呀"],"x":["咩"]}
+{"id":"questions.09","lesson":"questions","t":"fill","q":"你食__呀？","o":["邊個","邊度","幾時"],"a":["咩","me1"],"xr":["bin1 go3","bin1 dou6","gei2 si4"]}
+{"id":"questions.10","lesson":"questions","t":"fill","q":"你住喺__呀？","o":["咩","邊個","幾時"],"a":["邊度","bin1 dou6"],"xr":["me1","bin1 go3","gei2 si4"]}
+{"id":"questions.11","lesson":"questions","t":"fill","q":"__你唔去呀？","o":["咩","邊度","幾多"],"a":["點解","dim2 gaai2"],"xr":["me1","bin1 dou6","gei2 do1"]}
+{"id":"questions.12","lesson":"questions","t":"type","a":["你 喺 邊度 做嘢 呀","你 喺 邊度 做嘢","你 喺 邊度 做嘢 呢","nei5 hai2 bin1 dou6 zou6 je5 aa3","nei5 hai2 bin1 dou6 zou6 je5","nei5 hai2 bin1 dou6 zou6 je5 ne1"],"x":["係"],"hint":{"yue":"喺 · 邊度 · 做嘢","sep":" · "},"xr":["hai6"]}
+{"id":"questions.13","lesson":"questions","t":"type","a":["佢 幾時 去 紐約 呀","佢 幾時 去 紐約","佢 幾時 去 紐約 呢","keoi5 gei2 si4 heoi3 nau2 joek3 aa3","keoi5 gei2 si4 heoi3 nau2 joek3","keoi5 gei2 si4 heoi3 nau2 joek3 ne1"],"x":["邊度"],"hint":{"yue":"佢 · 幾時 · 去 · 紐約"},"xr":["bin1 dou6"]}
+{"id":"questions.14","lesson":"questions","t":"type","a":["你 食 咩 呀","你 食 咩","你 食 咩 呢","食 咩 呀","食 咩","nei5 sik6 me1 aa3","nei5 sik6 me1","nei5 sik6 me1 ne1","sik6 me1 aa3","sik6 me1"],"x":["邊個"],"hint":{"yue":"食 · 咩"},"xr":["bin1 go3"]}
+{"id":"numbers.01","lesson":"numbers","t":"mc","o":["兩個人","二個人","兩人個","個兩人"]}
+{"id":"numbers.02","lesson":"numbers","t":"mc","o":["十萬","一百千","一萬","一千萬"]}
+{"id":"numbers.03","lesson":"numbers","t":"mc","o":[null,null,null,null]}
+{"id":"numbers.04","lesson":"numbers","t":"mc","o":["sei3","sei2","sei4","sei1"]}
+{"id":"numbers.05","lesson":"numbers","t":"mc","o":["二三四五","兩三四五","二千三百四十五","兩千三百四十五"]}
+{"id":"numbers.06","lesson":"numbers","t":"order","a":["兩","個","人"],"x":["二"]}
+{"id":"numbers.07","lesson":"numbers","t":"order","a":["二十","個","人"],"x":["兩"]}
+{"id":"numbers.08","lesson":"numbers","t":"order","a":["一百","零","五"],"x":["十"]}
+{"id":"numbers.09","lesson":"numbers","t":"fill","q":"__個人","o":["二","二十","十二"],"a":["兩","loeng5"],"xr":["ji6","ji6 sap6","sap6 ji6"]}
+{"id":"numbers.10","lesson":"numbers","t":"fill","q":"一百__五","o":["十","百","千"],"a":["零","ling4"],"xr":["sap6","baak3","cin1"]}
+{"id":"numbers.11","lesson":"numbers","t":"fill","q":"十__","o":["千","百","零"],"a":["萬","maan6"],"xr":["cin1","baak3","ling4"]}
+{"id":"numbers.12","lesson":"numbers","t":"type","a":["兩 杯 奶茶","loeng5 bui1 naai5 caa4"],"x":["二"],"hint":{"yue":"兩 · 杯 · 奶茶"},"xr":["ji6"]}
+{"id":"numbers.13","lesson":"numbers","t":"type","a":["十二 個 人","sap6 ji6 go3 jan4"],"x":["兩"],"hint":{"yue":"十二 · 個 · 人"},"xr":["loeng5"]}
+{"id":"numbers.14","lesson":"numbers","t":"type","a":["一百 五","一百 五十","jat1 baak3 ng5","jat1 baak3 ng5 sap6"],"x":["零"],"hint":{"yue":"一百 · 五","sep":" · "},"xr":["ling4"]}
+{"id":"classifiers.01","lesson":"classifiers","t":"mc","o":["bun2","bun1","bun3","bun6"],"strict":true}
+{"id":"classifiers.02","lesson":"classifiers","t":"mc","o":["兩杯茶","二杯茶","兩茶","杯兩茶"]}
+{"id":"classifiers.03","lesson":"classifiers","t":"mc","o":["隻","本","張","杯"]}
+{"id":"classifiers.04","lesson":"classifiers","t":"mc","o":["呢本書","呢書","書呢本","呢杯書"]}
+{"id":"classifiers.05","lesson":"classifiers","t":"mc","o":[null,null,null,null]}
+{"id":"classifiers.06","lesson":"classifiers","t":"order","a":["三","本","書"],"x":["個"]}
+{"id":"classifiers.07","lesson":"classifiers","t":"order","a":["呢","隻","貓"],"x":["本"]}
+{"id":"classifiers.08","lesson":"classifiers","t":"order","a":["我","部","手機","喺","邊度","呀"],"x":["本"]}
+{"id":"classifiers.09","lesson":"classifiers","t":"fill","q":"嗰__人係邊個呀？","o":["本","杯","隻"],"a":["個","go3"],"xr":["bun2","bui1","zek3"]}
+{"id":"classifiers.10","lesson":"classifiers","t":"fill","q":"唔該，一__奶茶。","o":["本","張","條"],"a":["杯","bui1"],"xr":["bun2","zoeng1","tiu4"]}
+{"id":"classifiers.11","lesson":"classifiers","t":"fill","q":"我__書喺邊度呀？","o":["杯","張","隻"],"a":["本","bun2"],"xr":["bui1","zoeng1","zek3"]}
+{"id":"classifiers.12","lesson":"classifiers","t":"type","a":["兩 杯 咖啡","loeng5 bui1 gaa3 fe1"],"x":["二","本"],"hint":{"yue":"兩 · 杯 · 咖啡","sep":" · "},"xr":["ji6","bun2"]}
+{"id":"classifiers.13","lesson":"classifiers","t":"type","a":["嗰 隻 貓","go2 zek3 maau1"],"x":["本","張"],"hint":{"yue":"嗰 · 隻 · 貓"},"xr":["bun2","zoeng1"]}
+{"id":"classifiers.14","lesson":"classifiers","t":"type","a":["我 本 書 喺 邊度 呀","我 本 書 喺 邊度","ngo5 bun2 syu1 hai2 bin1 dou6 aa3","ngo5 bun2 syu1 hai2 bin1 dou6"],"x":["張","杯"],"hint":{"yue":"我 · 本 · 書 · 喺邊度"},"xr":["zoeng1","bui1"]}
+{"id":"ge.01","lesson":"ge","t":"mc","o":["ge3","ge2","ge1","ge6"],"strict":true}
+{"id":"ge.02","lesson":"ge","t":"mc","o":["你嘅書","書你嘅","你係書","嘅你書"]}
+{"id":"ge.03","lesson":"ge","t":"mc","o":["係我嘅。","係我。","我嘅係。","嘅我係。"]}
+{"id":"ge.04","lesson":"ge","t":"mc","o":["我爸爸","爸爸我","我係爸爸","爸爸嘅我"]}
+{"id":"ge.05","lesson":"ge","t":"mc","o":["老師嘅手機","手機嘅老師","老師係手機","手機老師嘅"]}
+{"id":"ge.06","lesson":"ge","t":"order","a":["我","朋友","嘅","書"],"x":["係"]}
+{"id":"ge.07","lesson":"ge","t":"order","a":["呢","部","手機","係","我","嘅"],"x":["本"]}
+{"id":"ge.08","lesson":"ge","t":"order","a":["老師","嘅","書","喺","邊度","呀"],"x":["係"]}
+{"id":"ge.09","lesson":"ge","t":"fill","q":"呢本書係__嘅。","o":["我","佢","邊個"],"a":["你","nei5"],"xr":["ngo5","keoi5","bin1 go3"]}
+{"id":"ge.10","lesson":"ge","t":"fill","q":"老師__手機喺邊度呀？","o":["係","喺","呀"],"a":["嘅","部","ge3","bou6"],"xr":["hai6","hai2","aa3"]}
+{"id":"ge.11","lesson":"ge","t":"fill","q":"我__係老師。","o":["嘅","爸爸","你"],"a":["媽媽","maa4 maa1"],"xr":["ge3","baa4 baa1","nei5"]}
+{"id":"ge.12","lesson":"ge","t":"type","a":["我 朋友 嘅 手機","我 朋友 部 手機","ngo5 pang4 jau5 ge3 sau2 gei1","ngo5 pang4 jau5 bou6 sau2 gei1"],"x":["係","本"],"hint":{"yue":"我 · 朋友 · 嘅 · 手機"},"xr":["hai6","bun2"]}
+{"id":"ge.13","lesson":"ge","t":"type","a":["呢 本 書 係 我 嘅","ni1 bun2 syu1 hai6 ngo5 ge3"],"x":["個","張"],"hint":{"yue":"呢 · 本 · 書 · 係 · 我嘅"},"xr":["go3","zoeng1"]}
+{"id":"ge.14","lesson":"ge","t":"type","a":["老師 嘅 書","老師 本 書","lou5 si1 ge3 syu1","lou5 si1 bun2 syu1"],"x":["係","個"],"hint":{"yue":"老師 · 嘅 · 書"},"xr":["hai6","go3"]}
+{"id":"family.01","lesson":"family","t":"mc","o":["maa4 maa1","maa5 maa1","maa4 maa4","maa1 maa4"],"strict":true}
+{"id":"family.02","lesson":"family","t":"mc","o":["細妹","家姐","細佬","哥哥"]}
+{"id":"family.03","lesson":"family","t":"mc","o":["爺爺","公公","婆婆","叔叔"]}
+{"id":"family.04","lesson":"family","t":"mc","o":["你幾多歲呀？","你幾多歲係呀？","幾多歲你呀？","你有幾多歲係？"]}
+{"id":"family.05","lesson":"family","t":"mc","o":["我老公","我老婆","我哥哥","我公公"]}
+{"id":"family.06","lesson":"family","t":"order","a":["我","有","兩","個","家姐"],"x":["二"]}
+{"id":"family.07","lesson":"family","t":"order","a":["我","屋企","有","五","個","人"],"x":["本"]}
+{"id":"family.08","lesson":"family","t":"order","a":["我","今年","三十","歲"],"x":["係"]}
+{"id":"family.09","lesson":"family","t":"fill","q":"我有一__細佬。","o":["本","隻","張"],"a":["個","go3"],"xr":["bun2","zek3","zoeng1"]}
+{"id":"family.10","lesson":"family","t":"fill","q":"佢今年二十__。","o":["個","係","號"],"a":["歲","seoi3"],"xr":["go3","hai6","hou6"]}
+{"id":"family.11","lesson":"family","t":"fill","q":"我__係香港人。","o":["嫲嫲","公公","爺爺"],"a":["婆婆","po4 po2"],"xr":["maa4 maa4","gung4 gung1","je4 je2"]}
+{"id":"family.12","lesson":"family","t":"type","a":["兩 個 細妹","loeng5 go3 sai3 mui2"],"x":["二","本"],"hint":{"yue":"兩 · 個 · 細妹"},"xr":["ji6","bun2"]}
+{"id":"family.13","lesson":"family","t":"type","a":["我 屋企 有 四 個 人","ngo5 uk1 kei2 jau5 sei3 go3 jan4"],"x":["本","二"],"hint":{"yue":"我屋企 · 有 · 四 · 個 · 人"},"xr":["bun2","ji6"]}
+{"id":"family.14","lesson":"family","t":"type","a":["我 今年 二十五 歲","我 今年 廿五 歲","ngo5 gam1 nin2 ji6 sap6 ng5 seoi3","ngo5 gam1 nin2 jaa6 ng5 seoi3"],"x":["係"],"hint":{"yue":"我 · 今年 · 二十五 · 歲"},"xr":["hai6"]}
+{"id":"hai2.01","lesson":"hai2","t":"mc","o":["喺","係","嚟","去"],"strict":true}
+{"id":"hai2.02","lesson":"hai2","t":"mc","o":["我喺香港。","我係香港。","我香港喺。","喺香港我係。"]}
+{"id":"hai2.03","lesson":"hai2","t":"mc","o":["我喺屋企食飯。","我食飯喺屋企。","我屋企喺食飯。","我係屋企食飯。"]}
+{"id":"hai2.04","lesson":"hai2","t":"mc","o":["屋企入面","入面屋企","喺入面屋企","入面嘅屋企"]}
+{"id":"hai2.05","lesson":"hai2","t":"mc","o":["你住喺邊度呀？","邊度你住呀？","你住係邊度呀？","你邊度住喺呀？"]}
+{"id":"hai2.06","lesson":"hai2","t":"order","a":["我","喺","銀行","做嘢"],"x":["係"]}
+{"id":"hai2.07","lesson":"hai2","t":"order","a":["本","書","喺","枱","上面"],"x":["係"]}
+{"id":"hai2.08","lesson":"hai2","t":"order","a":["我","部","手機","喺","屋企"],"x":["本"]}
+{"id":"hai2.09","lesson":"hai2","t":"fill","q":"我__香港。","o":["係","嘅","呀"],"a":["喺","hai2"],"strict":true,"xr":["hai6","ge3","aa3"]}
+{"id":"hai2.10","lesson":"hai2","t":"fill","q":"銀行喺超市__。","o":["入面","上面","係"],"a":["隔籬","gaak3 lei4"],"xr":["jap6 min6","soeng6 min6","hai6"]}
+{"id":"hai2.11","lesson":"hai2","t":"fill","q":"我住__九龍。","o":["係","嘅","有"],"a":["喺","hai2"],"xr":["hai6","ge3","jau5"]}
+{"id":"hai2.12","lesson":"hai2","t":"type","a":["我 喺 銀行 做嘢","ngo5 hai2 ngan4 hong4 zou6 je5"],"x":["係"],"hint":{"yue":"喺 · 銀行 · 做嘢","sep":" · "},"xr":["hai6"]}
+{"id":"hai2.13","lesson":"hai2","t":"type","a":["我 喺 屋企 讀書","ngo5 hai2 uk1 kei2 duk6 syu1"],"x":["係"],"hint":{"yue":"喺 · 屋企","sep":" · "},"xr":["hai6"]}
+{"id":"hai2.14","lesson":"hai2","t":"type","a":["洗手間 喺 邊度 呀","洗手間 喺 邊度","sai2 sau2 gaan1 hai2 bin1 dou6 aa3","sai2 sau2 gaan1 hai2 bin1 dou6"],"x":["係"],"hint":{"yue":"洗手間 · 喺 · 邊度"},"strict":true,"xr":["hai6"]}
+{"id":"jau-mou.01","lesson":"jau-mou","t":"mc","o":["mou5","mou6","mou4","mou2"],"strict":true}
+{"id":"jau-mou.02","lesson":"jau-mou","t":"mc","o":["我冇車。","我唔有車。","我係冇車。","我有唔車。"]}
+{"id":"jau-mou.03","lesson":"jau-mou","t":"mc","o":["附近有間銀行。","附近係間銀行。","銀行有附近。","附近唔有間銀行。"]}
+{"id":"jau-mou.04","lesson":"jau-mou","t":"mc","o":["冇。","唔係。","唔有。","唔好。"]}
+{"id":"jau-mou.05","lesson":"jau-mou","t":"mc","o":["你有冇手機呀？","你係唔係手機呀？","你唔有手機呀？","你冇手機有呀？"]}
+{"id":"jau-mou.06","lesson":"jau-mou","t":"order","a":["附近","有","間","超市"],"x":["係"]}
+{"id":"jau-mou.07","lesson":"jau-mou","t":"order","a":["我","有","兩","部","手機"],"x":["本"]}
+{"id":"jau-mou.08","lesson":"jau-mou","t":"order","a":["附近","有冇","地鐵站","呀"],"x":["唔有"]}
+{"id":"jau-mou.09","lesson":"jau-mou","t":"fill","q":"我__錢。","o":["唔","唔係","未"],"a":["冇","mou5"],"xr":["m4","m4 hai6","mei6"]}
+{"id":"jau-mou.10","lesson":"jau-mou","t":"fill","q":"附近__冇超市呀？","o":["係","喺","唔"],"a":["有","jau5"],"xr":["hai6","hai2","m4"]}
+{"id":"jau-mou.11","lesson":"jau-mou","t":"fill","q":"我有一__車。","o":["本","張","隻"],"a":["架","部","gaa3","bou6"],"xr":["bun2","zoeng1","zek3"]}
+{"id":"jau-mou.12","lesson":"jau-mou","t":"type","a":["我 冇 哥哥","ngo5 mou5 go4 go1"],"x":["唔"],"hint":{"yue":"冇 · 哥哥"},"xr":["m4"]}
+{"id":"jau-mou.13","lesson":"jau-mou","t":"type","a":["附近 有 間 銀行","附近 有 一 間 銀行","fu6 gan6 jau5 gaan1 ngan4 hong4","fu6 gan6 jau5 jat1 gaan1 ngan4 hong4"],"x":["本","係"],"hint":{"yue":"附近 · 有 · 間 · 銀行","sep":" · "},"xr":["bun2","hai6"]}
+{"id":"jau-mou.14","lesson":"jau-mou","t":"type","a":["我 有 兩 隻 貓","ngo5 jau5 loeng5 zek3 maau1"],"x":["二","本"],"hint":{"yue":"兩 · 隻 · 貓"},"xr":["ji6","bun2"]}
+{"id":"particles.01","lesson":"particles","t":"mc","o":["laa1","laa3","laa4","laa6"],"strict":true}
+{"id":"particles.02","lesson":"particles","t":"mc","o":["吖","咩","呢","嗎"]}
+{"id":"particles.03","lesson":"particles","t":"mc","o":["你呢？","你吖？","你啦？","你咩？"]}
+{"id":"particles.04","lesson":"particles","t":"mc","o":["好啦！","好咩？","好呢？","好嗎？"]}
+{"id":"particles.05","lesson":"particles","t":"mc","o":["你叫咩名呀？","你叫咩名？","咩名你叫？","你叫咩名嗎？"]}
+{"id":"particles.06","lesson":"particles","t":"order","a":["你","喺","邊度","做嘢","呀"],"x":["係"]}
+{"id":"particles.07","lesson":"particles","t":"order","a":["飲","杯","茶","吖"],"x":["本"]}
+{"id":"particles.08","lesson":"particles","t":"order","a":["一齊","去","吖"],"x":["咩"]}
+{"id":"particles.09","lesson":"particles","t":"fill","q":"一齊去__！","o":["咩","呢","嗎"],"a":["吖","啦","aa1","laa1"],"xr":["me1","ne1","maa3"]}
+{"id":"particles.10","lesson":"particles","t":"fill","q":"我係美國人，你__？","o":["吖","啦","咩"],"a":["呢","ne1"],"xr":["aa1","laa1","me1"]}
+{"id":"particles.11","lesson":"particles","t":"fill","q":"唔該快啲__。","o":["呢","咩","嗎"],"a":["啦","laa1"],"xr":["ne1","me1","maa3"]}
+{"id":"particles.12","lesson":"particles","t":"type","a":["你 喺 邊度 讀書 呀","nei5 hai2 bin1 dou6 duk6 syu1 aa3"],"x":["係"],"hint":{"yue":"喺 · 邊度","sep":" · "},"xr":["hai6"]}
+{"id":"particles.13","lesson":"particles","t":"type","a":["飲 杯 奶茶 吖","飲 一 杯 奶茶 吖","jam2 bui1 naai5 caa4 aa1","jam2 jat1 bui1 naai5 caa4 aa1"],"x":["本","呀"],"hint":{"yue":"飲 · 杯 · 奶茶 · 吖"},"xr":["bun2","aa3"]}
+{"id":"particles.14","lesson":"particles","t":"type","a":["你 呢","nei5 ne1"],"x":["吖"],"hint":{"yue":"你 · 呢"},"xr":["aa1"]}
+{"id":"prices.01","lesson":"prices","t":"mc","o":["cin2","cin4","cin1","cin6"],"strict":true}
+{"id":"prices.02","lesson":"prices","t":"mc","o":["幾多錢呀？","錢幾多呀？","幾錢多呀？","幾多呀錢？"]}
+{"id":"prices.03","lesson":"prices","t":"mc","o":["太貴喇！","太平喇！","好平呀！","唔貴喇！"]}
+{"id":"prices.04","lesson":"prices","t":"mc","o":[null,null,null,null]}
+{"id":"prices.05","lesson":"prices","t":"mc","o":["二十蚊","兩十蚊","二十元蚊","蚊二十"]}
+{"id":"prices.06","lesson":"prices","t":"order","a":["呢","件","衫","幾多錢","呀"],"x":["本"]}
+{"id":"prices.07","lesson":"prices","t":"order","a":["我","有","一百","蚊"],"x":["個"]}
+{"id":"prices.08","lesson":"prices","t":"order","a":["平啲","得","唔","得","呀"],"x":["貴啲"]}
+{"id":"prices.09","lesson":"prices","t":"fill","q":"呢件衫幾多__呀？","o":["蚊","毫","個"],"a":["錢","cin2"],"xr":["man1","hou4","go3"]}
+{"id":"prices.10","lesson":"prices","t":"fill","q":"三十五__。","o":["毫","個","錢"],"a":["蚊","man1"],"xr":["hou4","go3","cin2"]}
+{"id":"prices.11","lesson":"prices","t":"fill","q":"呢個__蚊。","o":["二","一","個"],"a":["兩","loeng5"],"xr":["ji6","jat1","go3"]}
+{"id":"prices.12","lesson":"prices","t":"type","a":["呢 本 書 幾多錢 呀","呢 本 書 幾多錢","ni1 bun2 syu1 gei2 do1 cin2 aa3","ni1 bun2 syu1 gei2 do1 cin2"],"x":["個","張"],"hint":{"yue":"呢 · 本 · 書 · 幾多錢"},"xr":["go3","zoeng1"]}
+{"id":"prices.13","lesson":"prices","t":"type","a":["兩 蚊","loeng5 man1"],"x":["二"],"hint":{"yue":"兩 · 蚊"},"xr":["ji6"]}
+{"id":"prices.14","lesson":"prices","t":"type","a":["太 貴 喇","太 貴 啦","太 貴","taai3 gwai3 laa3","taai3 gwai3 laa1","taai3 gwai3"],"x":["平"],"hint":{"yue":"太 · 貴 · 喇"},"xr":["peng4"]}
+{"id":"food.01","lesson":"food","t":"mc","o":["wun2","wun5","wun3","wun1"],"strict":true}
+{"id":"food.02","lesson":"food","t":"mc","o":["籠","本","張","條"]}
+{"id":"food.03","lesson":"food","t":"mc","o":["唔該，一杯凍奶茶。","請一杯凍奶茶。","多謝，一杯凍奶茶。","唔該，一凍奶茶。"]}
+{"id":"food.04","lesson":"food","t":"mc","o":["唔該埋單！","唔該飲茶！","唔該走冰！","唔該少甜！"]}
+{"id":"food.05","lesson":"food","t":"mc","o":["走冰","少甜","凍冰","冇凍"]}
+{"id":"food.06","lesson":"food","t":"order","a":["我","要","一","碗","雲吞麵"],"x":["杯"]}
+{"id":"food.07","lesson":"food","t":"order","a":["兩","碟","炒飯"],"x":["二"]}
+{"id":"food.08","lesson":"food","t":"order","a":["唔該","一","杯","奶茶","走冰"],"x":["請"]}
+{"id":"food.09","lesson":"food","t":"fill","q":"唔該，我要一__雲吞麵。","o":["杯","本","張"],"a":["碗","wun2"],"xr":["bui1","bun2","zoeng1"]}
+{"id":"food.10","lesson":"food","t":"fill","q":"唔該__！","o":["走冰","飲茶","多謝"],"a":["埋單","maai4 daan1"],"xr":["zau2 bing1","jam2 caa4","do1 ze6"]}
+{"id":"food.11","lesson":"food","t":"fill","q":"我要一__蝦餃。","o":["杯","本","張"],"a":["籠","lung4"],"xr":["bui1","bun2","zoeng1"]}
+{"id":"food.12","lesson":"food","t":"type","a":["唔該 一 杯 凍奶茶","唔該 我 要 一 杯 凍奶茶","唔該 要 一 杯 凍奶茶","m4 goi1 jat1 bui1 dung3 naai5 caa4","m4 goi1 ngo5 jiu3 jat1 bui1 dung3 naai5 caa4","m4 goi1 jiu3 jat1 bui1 dung3 naai5 caa4"],"x":["本","請"],"hint":{"yue":"唔該 · 一 · 杯 · 凍奶茶"},"xr":["bun2","cing2"]}
+{"id":"food.13","lesson":"food","t":"type","a":["兩 籠 蝦餃","loeng5 lung4 haa1 gaau2"],"x":["二","杯"],"hint":{"yue":"兩 · 籠 · 蝦餃"},"xr":["ji6","bui1"]}
+{"id":"food.14","lesson":"food","t":"type","a":["唔該 埋單","埋單 唔該","m4 goi1 maai4 daan1","maai4 daan1 m4 goi1"],"x":["多謝"],"hint":{"yue":"唔該 · 埋單"},"xr":["do1 ze6"]}
+{"id":"time.01","lesson":"time","t":"mc","o":["ting1 jat6","teng1 jat6","ting1 jat1","ting4 jat6"],"strict":true}
+{"id":"time.02","lesson":"time","t":"mc","o":["而家幾點呀？","幾點而家呀？","而家點幾呀？","幾而家點呀？"]}
+{"id":"time.03","lesson":"time","t":"mc","o":["星期六","六星期","星期日","六月"]}
+{"id":"time.04","lesson":"time","t":"mc","o":["琴日","聽日","今日","星期日"]}
+{"id":"time.05","lesson":"time","t":"mc","o":["三點十分","十點三分","三點半","十分三點"]}
+{"id":"time.06","lesson":"time","t":"order","a":["我","聽日","去","香港"],"x":["係"]}
+{"id":"time.07","lesson":"time","t":"order","a":["我哋","星期六","飲茶"],"x":["係"]}
+{"id":"time.08","lesson":"time","t":"order","a":["十二","月","三","號"],"x":["星期"]}
+{"id":"time.09","lesson":"time","t":"fill","q":"而家三__半。","o":["號","月","分"],"a":["點","dim2"],"xr":["hou6","jyut6","fan1"]}
+{"id":"time.10","lesson":"time","t":"fill","q":"我__去香港。","o":["琴日","星期","號"],"a":["聽日","ting1 jat6"],"xr":["kam4 jat6","sing1 kei4","hou6"]}
+{"id":"time.11","lesson":"time","t":"fill","q":"今日係十二月三__。","o":["點","分","歲"],"a":["號","hou6"],"xr":["dim2","fan1","seoi3"]}
+{"id":"time.12","lesson":"time","t":"type","a":["我 聽日 去 香港","聽日 我 去 香港","ngo5 ting1 jat6 heoi3 hoeng1 gong2","ting1 jat6 ngo5 heoi3 hoeng1 gong2"],"x":["係"],"hint":{"yue":"聽日 · 去 · 香港"},"xr":["hai6"]}
+{"id":"time.13","lesson":"time","t":"type","a":["我 星期日 飲茶","我 禮拜日 飲茶","星期日 我 飲茶","禮拜日 我 飲茶","ngo5 sing1 kei4 jat6 jam2 caa4","ngo5 lai5 baai3 jat6 jam2 caa4","sing1 kei4 jat6 ngo5 jam2 caa4","lai5 baai3 jat6 ngo5 jam2 caa4"],"x":["號"],"hint":{"yue":"星期日 · 飲茶"},"xr":["hou6"]}
+{"id":"time.14","lesson":"time","t":"type","a":["而家 幾點 呀","而家 幾點","而家 幾點鐘 呀","而家 幾點鐘","ji4 gaa1 gei2 dim2 aa3","ji4 gaa1 gei2 dim2","ji4 gaa1 gei2 dim2 zung1 aa3","ji4 gaa1 gei2 dim2 zung1"],"x":["號"],"hint":{"yue":"而家 · 幾點"},"xr":["hou6"]}
+{"id":"routine.01","lesson":"routine","t":"mc","o":["fan3","fan2","fan6","fan1"],"strict":true}
+{"id":"routine.02","lesson":"routine","t":"mc","o":["我夜晚喺屋企食飯。","我食飯喺屋企夜晚。","我喺屋企食飯夜晚。","我食飯夜晚喺屋企。"]}
+{"id":"routine.03","lesson":"routine","t":"mc","o":["食晏","沖涼","瞓覺","放工"]}
+{"id":"routine.04","lesson":"routine","t":"mc","o":["我六點放工。","我放工六點。","放工我六點。","我放工喺六點。"]}
+{"id":"routine.05","lesson":"routine","t":"mc","o":["你幾點返工呀？","你返工幾點呀？","你幾點放工呀？","你喺邊度返工呀？"]}
+{"id":"routine.06","lesson":"routine","t":"order","a":["我","朝早","搭","地鐵","返工"],"x":["喺"]}
+{"id":"routine.07","lesson":"routine","t":"order","a":["我","夜晚","喺","屋企","食飯"],"x":["係"]}
+{"id":"routine.08","lesson":"routine","t":"order","a":["你","幾點","瞓覺","呀"],"x":["邊度"]}
+{"id":"routine.09","lesson":"routine","t":"fill","q":"我__屋企食飯。","o":["係","有","嘅"],"a":["喺","hai2"],"xr":["hai6","jau5","ge3"]}
+{"id":"routine.10","lesson":"routine","t":"fill","q":"我__搭地鐵返工。","o":["每日","成日","朝早"],"a":["有時","jau5 si4"],"xr":["mui5 jat6","seng4 jat6","ziu1 zou2"]}
+{"id":"routine.11","lesson":"routine","t":"fill","q":"你幾點__呀？","o":["返工","食晏","瞓覺"],"a":["放工","fong3 gung1"],"xr":["faan1 gung1","sik6 aan3","fan3 gaau3"]}
+{"id":"routine.12","lesson":"routine","t":"type","a":["我 搭 地鐵 返工","搭 地鐵 返工","ngo5 daap3 dei6 tit3 faan1 gung1","daap3 dei6 tit3 faan1 gung1"],"x":["喺"],"hint":{"yue":"搭 · 地鐵 · 返工","sep":" · "},"xr":["hai2"]}
+{"id":"routine.13","lesson":"routine","t":"type","a":["我 夜晚 喺 屋企 食飯","夜晚 我 喺 屋企 食飯","夜晚 喺 屋企 食飯","ngo5 je6 maan5 hai2 uk1 kei2 sik6 faan6","je6 maan5 ngo5 hai2 uk1 kei2 sik6 faan6","je6 maan5 hai2 uk1 kei2 sik6 faan6"],"x":["係"],"hint":{"yue":"夜晚 · 喺 · 屋企 · 食飯"},"xr":["hai6"]}
+{"id":"routine.14","lesson":"routine","t":"type","a":["我 朝早 七點 起身","朝早 七點 我 起身","朝早 七點 起身","ngo5 ziu1 zou2 cat1 dim2 hei2 san1","ziu1 zou2 cat1 dim2 ngo5 hei2 san1","ziu1 zou2 cat1 dim2 hei2 san1"],"x":["嘅"],"hint":{"yue":"朝早 · 七點 · 起身","sep":" · "},"xr":["ge3"]}
+{"id":"modals.01","lesson":"modals","t":"mc","o":["sik1","sik6","sik3","sik2"],"strict":true}
+{"id":"modals.02","lesson":"modals","t":"mc","o":["我識講廣東話。","我可以講廣東話。","我講識廣東話。","我廣東話講識。"]}
+{"id":"modals.03","lesson":"modals","t":"mc","o":["我可唔可以坐呢度呀？","我識唔識坐呢度呀？","我想唔想坐呢度呀？","我使唔使坐呢度呀？"]}
+{"id":"modals.04","lesson":"modals","t":"mc","o":["你唔使畀錢。","你唔要畀錢。","你唔可以畀錢。","你唔想畀錢。"]}
+{"id":"modals.05","lesson":"modals","t":"mc","o":["聽日會落雨。","聽日識落雨。","會落雨聽日。","聽日落雨會。"]}
+{"id":"modals.06","lesson":"modals","t":"order","a":["我","想","喺","香港","做嘢"],"x":["係"]}
+{"id":"modals.07","lesson":"modals","t":"order","a":["我","想","飲","杯","咖啡"],"x":["個"]}
+{"id":"modals.08","lesson":"modals","t":"order","a":["我","唔","識","游水"],"x":["可以"]}
+{"id":"modals.09","lesson":"modals","t":"fill","q":"我__講廣東話。","o":["可以","係","喺"],"a":["識","sik1"],"xr":["ho2 ji5","hai6","hai2"]}
+{"id":"modals.10","lesson":"modals","t":"fill","q":"我好__食點心。","o":["識","可以","會"],"a":["鍾意","zung1 ji3"],"xr":["sik1","ho2 ji5","wui5"]}
+{"id":"modals.11","lesson":"modals","t":"fill","q":"你__畀錢。","o":["唔要","唔可以","唔識"],"a":["唔使","m4 sai2"],"xr":["m4 jiu3","m4 ho2 ji5","m4 sik1"]}
+{"id":"modals.12","lesson":"modals","t":"type","a":["我 想 買 兩 本 書","想 買 兩 本 書","ngo5 soeng2 maai5 loeng5 bun2 syu1","soeng2 maai5 loeng5 bun2 syu1"],"x":["個"],"hint":{"yue":"想 · 買 · 兩 · 本 · 書"},"xr":["go3"]}
+{"id":"modals.13","lesson":"modals","t":"type","a":["我 聽日 九點 要 返工","聽日 九點 我 要 返工","聽日 九點 要 返工","我 聽日 要 九點 返工","ngo5 ting1 jat6 gau2 dim2 jiu3 faan1 gung1","ting1 jat6 gau2 dim2 ngo5 jiu3 faan1 gung1","ting1 jat6 gau2 dim2 jiu3 faan1 gung1","ngo5 ting1 jat6 jiu3 gau2 dim2 faan1 gung1"],"x":["嘅"],"hint":{"yue":"聽日 · 九點 · 要 · 返工","sep":" · "},"xr":["ge3"]}
+{"id":"modals.14","lesson":"modals","t":"type","a":["我 識 講 廣東話","識 講 廣東話","ngo5 sik1 gong2 gwong2 dung1 waa2","sik1 gong2 gwong2 dung1 waa2"],"x":["可以"],"hint":{"yue":"識 · 講 · 廣東話"},"xr":["ho2 ji5"]}
+{"id":"ding-dou.01","lesson":"ding-dou","t":"mc","o":["dung3","dung6","dung1","dung2"],"strict":true}
+{"id":"ding-dou.02","lesson":"ding-dou","t":"mc","o":["凍定熱呀？","凍或者熱呀？","凍同熱呀？","凍都熱呀？"]}
+{"id":"ding-dou.03","lesson":"ding-dou","t":"mc","o":["我都係！","我係都！","都我係！","我同係！"]}
+{"id":"ding-dou.04","lesson":"ding-dou","t":"mc","o":["唔該，一杯奶茶同一個菠蘿包。","唔該，一杯奶茶定一個菠蘿包。","唔該，一杯奶茶都一個菠蘿包。","唔該，一杯奶茶或者一個菠蘿包。"]}
+{"id":"ding-dou.05","lesson":"ding-dou","t":"mc","o":["我都唔去。","我唔都去。","我唔去都。","都我唔去。"]}
+{"id":"ding-dou.06","lesson":"ding-dou","t":"order","a":["我","都","鍾意","飲","奶茶"],"x":["同"]}
+{"id":"ding-dou.07","lesson":"ding-dou","t":"order","a":["我哋","都","去"],"x":["定"]}
+{"id":"ding-dou.08","lesson":"ding-dou","t":"order","a":["你","去","定","唔","去","呀"],"x":["或者"]}
+{"id":"ding-dou.09","lesson":"ding-dou","t":"fill","q":"凍__熱呀？","o":["或者","同","都"],"a":["定","ding6"],"xr":["waak6 ze2","tung4","dou1"]}
+{"id":"ding-dou.10","lesson":"ding-dou","t":"fill","q":"我__係美國人。","o":["定","同","或者"],"a":["都","dou1"],"xr":["ding6","tung4","waak6 ze2"]}
+{"id":"ding-dou.11","lesson":"ding-dou","t":"fill","q":"我聽日__後日去。","o":["定","同","都"],"a":["或者","waak6 ze2"],"xr":["ding6","tung4","dou1"]}
+{"id":"ding-dou.12","lesson":"ding-dou","t":"type","a":["我 都 鍾意 點心","我 都 鍾意 食 點心","ngo5 dou1 zung1 ji3 dim2 sam1","ngo5 dou1 zung1 ji3 sik6 dim2 sam1"],"x":["同"],"hint":{"yue":"都 · 鍾意 · 點心"},"xr":["tung4"]}
+{"id":"ding-dou.13","lesson":"ding-dou","t":"type","a":["我 都 去 香港","ngo5 dou1 heoi3 hoeng1 gong2"],"x":["定"],"hint":{"yue":"都 · 去 · 香港"},"xr":["ding6"]}
+{"id":"ding-dou.14","lesson":"ding-dou","t":"type","a":["兩 杯 茶 同 一 杯 咖啡","兩 杯 茶 同埋 一 杯 咖啡","loeng5 bui1 caa4 tung4 jat1 bui1 gaa3 fe1","loeng5 bui1 caa4 tung4 maai4 jat1 bui1 gaa3 fe1"],"x":["個"],"hint":{"yue":"兩 · 杯 · 茶 · 同 · 一 · 咖啡"},"xr":["go3"]}
+{"id":"describing.01","lesson":"describing","t":"mc","o":["gwai3","gwai2","gwai6","gwai1"],"strict":true}
+{"id":"describing.02","lesson":"describing","t":"mc","o":["佢好高。","佢係高。","佢高係。","佢高好。"]}
+{"id":"describing.03","lesson":"describing","t":"mc","o":[null,null,null,null]}
+{"id":"describing.04","lesson":"describing","t":"mc","o":["佢高過我。","佢過我高。","我高過佢。","佢高我過。"]}
+{"id":"describing.05","lesson":"describing","t":"mc","o":["一件好靚嘅衫","一件衫好靚嘅","一本好靚嘅衫","好靚一件嘅衫"]}
+{"id":"describing.06","lesson":"describing","t":"order","a":["一","間","好","平","嘅","餐廳"],"x":["本"]}
+{"id":"describing.07","lesson":"describing","t":"order","a":["呢","件","衫","好","平"],"x":["係"]}
+{"id":"describing.08","lesson":"describing","t":"order","a":["今日","熱","過","琴日"],"x":["係"]}
+{"id":"describing.09","lesson":"describing","t":"fill","q":"佢__高。","o":["係","過","嘅"],"a":["好","hou2"],"xr":["hai6","gwo3","ge3"]}
+{"id":"describing.10","lesson":"describing","t":"fill","q":"佢高__我。","o":["係","好","嘅"],"a":["過","gwo3"],"xr":["hai6","hou2","ge3"]}
+{"id":"describing.11","lesson":"describing","t":"fill","q":"呢杯咖啡__甜。","o":["係","過","嘅"],"a":["太","taai3"],"xr":["hai6","gwo3","ge3"]}
+{"id":"describing.12","lesson":"describing","t":"type","a":["呢 件 衫 好 平","ni1 gin6 saam1 hou2 peng4"],"x":["係"],"hint":{"yue":"呢 · 件 · 衫 · 好平"},"xr":["hai6"]}
+{"id":"describing.13","lesson":"describing","t":"type","a":["一 件 好 靚 嘅 衫","jat1 gin6 hou2 leng3 ge3 saam1"],"x":["本"],"hint":{"yue":"一 · 件 · 好靚 · 嘅 · 衫"},"xr":["bun2"]}
+{"id":"describing.14","lesson":"describing","t":"type","a":["佢 高 過 我","keoi5 gou1 gwo3 ngo5"],"x":["係"],"hint":{"yue":"佢 · 高 · 過 · 我"},"xr":["hai6"]}
+{"id":"zo.01","lesson":"zo","t":"mc","o":["mei6","mei5","mei4","mei2"],"strict":true}
+{"id":"zo.02","lesson":"zo","t":"mc","o":["我琴日冇去。","我琴日唔去。","我琴日冇去咗。","我去咗琴日。"]}
+{"id":"zo.03","lesson":"zo","t":"mc","o":["我未食。","我冇食咗。","我唔食咗。","我食咗未。"]}
+{"id":"zo.04","lesson":"zo","t":"mc","o":["你食咗藥未呀？","你食藥咗未呀？","你未食藥咗呀？","你咗食藥未呀？"]}
+{"id":"zo.05","lesson":"zo","t":"mc","o":["我以前成日食點心。","我以前成日食咗點心。","我成日食咗點心以前。","我食咗點心以前成日。"]}
+{"id":"zo.06","lesson":"zo","t":"order","a":["我","買","咗","兩","本","書"],"x":["個"]}
+{"id":"zo.07","lesson":"zo","t":"order","a":["我","琴日","睇","咗","醫生"],"x":["係"]}
+{"id":"zo.08","lesson":"zo","t":"order","a":["我","未","食","藥"],"x":["咗"]}
+{"id":"zo.09","lesson":"zo","t":"fill","q":"我感冒__。","o":["未","冇","唔"],"a":["咗","zo2"],"xr":["mei6","mou5","m4"]}
+{"id":"zo.10","lesson":"zo","t":"fill","q":"我琴日__去。","o":["唔","未","咗"],"a":["冇","mou5"],"xr":["m4","mei6","zo2"]}
+{"id":"zo.11","lesson":"zo","t":"fill","q":"你食咗飯__呀？","o":["唔","咗","嘅"],"a":["未","mei6"],"xr":["m4","zo2","ge3"]}
+{"id":"zo.12","lesson":"zo","t":"type","a":["我 琴日 買 咗 兩 本 書","琴日 我 買 咗 兩 本 書","琴日 買 咗 兩 本 書","ngo5 kam4 jat6 maai5 zo2 loeng5 bun2 syu1","kam4 jat6 ngo5 maai5 zo2 loeng5 bun2 syu1","kam4 jat6 maai5 zo2 loeng5 bun2 syu1"],"x":["個"],"hint":{"yue":"琴日 · 買 · 咗 · 兩 · 本 · 書"},"xr":["go3"]}
+{"id":"zo.13","lesson":"zo","t":"type","a":["我 琴日 冇 去","琴日 我 冇 去","琴日 冇 去","ngo5 kam4 jat6 mou5 heoi3","kam4 jat6 ngo5 mou5 heoi3","kam4 jat6 mou5 heoi3"],"x":["唔"],"hint":{"yue":"琴日 · 冇 · 去"},"xr":["m4"]}
+{"id":"zo.14","lesson":"zo","t":"type","a":["我 未 食","我 未 食飯","未 食","未 食飯","ngo5 mei6 sik6","ngo5 mei6 sik6 faan6","mei6 sik6","mei6 sik6 faan6"],"x":["冇"],"hint":{"yue":"未 · 食"},"xr":["mou5"]}
+{"id":"gan-gwo.01","lesson":"gan-gwo","t":"mc","o":["gan2","gan6","gan3","gan1"],"strict":true}
+{"id":"gan-gwo.02","lesson":"gan-gwo","t":"mc","o":["我食緊飯。","我係食飯。","我緊食飯。","我食飯緊。"]}
+{"id":"gan-gwo.03","lesson":"gan-gwo","t":"mc","o":["你去過香港未呀？","你去緊香港未呀？","你過去香港未呀？","你去香港過未呀？"]}
+{"id":"gan-gwo.04","lesson":"gan-gwo","t":"mc","o":["佢去咗中環。","佢去過中環。","佢去緊中環。","佢中環去咗。"]}
+{"id":"gan-gwo.05","lesson":"gan-gwo","t":"mc","o":["我未搭過小巴。","我未搭咗小巴。","我唔搭過小巴。","我搭過未小巴。"]}
+{"id":"gan-gwo.06","lesson":"gan-gwo","t":"order","a":["我","而家","食","緊","飯"],"x":["係"]}
+{"id":"gan-gwo.07","lesson":"gan-gwo","t":"order","a":["我","上個禮拜","去","咗","澳門"],"x":["緊"]}
+{"id":"gan-gwo.08","lesson":"gan-gwo","t":"order","a":["你","去","過","澳門","未","呀"],"x":["咗"]}
+{"id":"gan-gwo.09","lesson":"gan-gwo","t":"fill","q":"我而家食__飯。","o":["過","咗","係"],"a":["緊","gan2"],"xr":["gwo3","zo2","hai6"]}
+{"id":"gan-gwo.10","lesson":"gan-gwo","t":"fill","q":"你去__香港未呀？","o":["緊","咗","係"],"a":["過","gwo3"],"xr":["gan2","zo2","hai6"]}
+{"id":"gan-gwo.11","lesson":"gan-gwo","t":"fill","q":"佢冇去__澳門。","o":["緊","咗","未"],"a":["過","gwo3"],"xr":["gan2","zo2","mei6"]}
+{"id":"gan-gwo.12","lesson":"gan-gwo","t":"type","a":["我 而家 食 緊 飯","而家 我 食 緊 飯","而家 食 緊 飯","ngo5 ji4 gaa1 sik6 gan2 faan6","ji4 gaa1 ngo5 sik6 gan2 faan6","ji4 gaa1 sik6 gan2 faan6"],"x":["係"],"hint":{"yue":"而家 · 食 · 緊 · 飯"},"xr":["hai6"]}
+{"id":"gan-gwo.13","lesson":"gan-gwo","t":"type","a":["我 上個禮拜 去 咗 澳門","上個禮拜 我 去 咗 澳門","上個禮拜 去 咗 澳門","我 上個星期 去 咗 澳門","上個星期 我 去 咗 澳門","上個星期 去 咗 澳門","ngo5 soeng6 go3 lai5 baai3 heoi3 zo2 ou3 mun2","soeng6 go3 lai5 baai3 ngo5 heoi3 zo2 ou3 mun2","soeng6 go3 lai5 baai3 heoi3 zo2 ou3 mun2","ngo5 soeng6 go3 sing1 kei4 heoi3 zo2 ou3 mun2","soeng6 go3 sing1 kei4 ngo5 heoi3 zo2 ou3 mun2","soeng6 go3 sing1 kei4 heoi3 zo2 ou3 mun2"],"x":["緊"],"hint":{"yue":"上個禮拜 · 去 · 咗 · 澳門"},"xr":["gan2"]}
+{"id":"gan-gwo.14","lesson":"gan-gwo","t":"type","a":["我 未 去 過 香港","我 冇 去 過 香港","未 去 過 香港","冇 去 過 香港","ngo5 mei6 heoi3 gwo3 hoeng1 gong2","ngo5 mou5 heoi3 gwo3 hoeng1 gong2","mei6 heoi3 gwo3 hoeng1 gong2","mou5 heoi3 gwo3 hoeng1 gong2"],"x":["咗"],"hint":{"yue":"未 · 去 · 過 · 香港"},"xr":["zo2"]}
+{"id":"go-come.01","lesson":"go-come","t":"mc","o":["lei4","lei5","lei6","lei2"],"strict":true}
+{"id":"go-come.02","lesson":"go-come","t":"mc","o":["我搭地鐵去中環。","我去中環搭地鐵。","我去搭地鐵中環。","我中環去搭地鐵。"]}
+{"id":"go-come.03","lesson":"go-come","t":"mc","o":["嚟我屋企吖！","我屋企嚟吖！","嚟吖我屋企！","我屋企吖嚟！"]}
+{"id":"go-come.04","lesson":"go-come","t":"mc","o":["我返屋企。","我屋企返。","我嚟屋企。","我返去屋企返。"]}
+{"id":"go-come.05","lesson":"go-come","t":"mc","o":["前面有落！","唔該，上車！","前面去！","我嚟前面！"]}
+{"id":"go-come.06","lesson":"go-come","t":"order","a":["我","搭","地鐵","去","中環"],"x":["係"]}
+{"id":"go-come.07","lesson":"go-come","t":"order","a":["我","坐","巴士","返工"],"x":["喺"]}
+{"id":"go-come.08","lesson":"go-come","t":"order","a":["嚟","我","屋企","食飯","吖"],"x":["係"]}
+{"id":"go-come.09","lesson":"go-come","t":"fill","q":"我搭地鐵__中環。","o":["喺","係","嘅"],"a":["去","heoi3"],"xr":["hai2","hai6","ge3"]}
+{"id":"go-come.10","lesson":"go-come","t":"fill","q":"我六點__屋企。","o":["嚟","係","過"],"a":["返","faan1"],"xr":["lei4","hai6","gwo3"]}
+{"id":"go-come.11","lesson":"go-come","t":"fill","q":"我喺中環__車。","o":["上","去","嚟"],"a":["落","lok6"],"xr":["soeng6","heoi3","lei4"]}
+{"id":"go-come.12","lesson":"go-come","t":"type","a":["我 搭 地鐵 去 中環","我 坐 地鐵 去 中環","搭 地鐵 去 中環","坐 地鐵 去 中環","ngo5 daap3 dei6 tit3 heoi3 zung1 waan4","ngo5 co5 dei6 tit3 heoi3 zung1 waan4","daap3 dei6 tit3 heoi3 zung1 waan4","co5 dei6 tit3 heoi3 zung1 waan4"],"x":["喺"],"hint":{"yue":"搭 · 地鐵 · 去 · 中環"},"xr":["hai2"]}
+{"id":"go-come.13","lesson":"go-come","t":"type","a":["我 行路 返工","行路 返工","ngo5 haang4 lou6 faan1 gung1","haang4 lou6 faan1 gung1"],"x":["喺"],"hint":{"yue":"行路 · 返工"},"xr":["hai2"]}
+{"id":"go-come.14","lesson":"go-come","t":"type","a":["我 搭 的士 返屋企","我 坐 的士 返屋企","搭 的士 返屋企","坐 的士 返屋企","ngo5 daap3 dik1 si2 faan1 uk1 kei2","ngo5 co5 dik1 si2 faan1 uk1 kei2","daap3 dik1 si2 faan1 uk1 kei2","co5 dik1 si2 faan1 uk1 kei2"],"x":["喺"],"hint":{"yue":"搭 · 的士 · 返屋企"},"xr":["hai2"]}
+{"id":"directions.01","lesson":"directions","t":"mc","o":["喺","係","嚟","去"],"strict":true}
+{"id":"directions.02","lesson":"directions","t":"mc","o":["喺銀行對面","喺對面銀行","對面喺銀行","銀行喺對面"]}
+{"id":"directions.03","lesson":"directions","t":"mc","o":["轉左","轉右","直行","過馬路"]}
+{"id":"directions.04","lesson":"directions","t":"mc","o":["請問，地鐵站喺邊度呀？","請問，邊度喺地鐵站呀？","請問，喺邊度地鐵站呀？","請問，地鐵站邊度喺呀？"]}
+{"id":"directions.05","lesson":"directions","t":"mc","o":["haang4","hong4","hang4","hong2"]}
+{"id":"directions.06","lesson":"directions","t":"order","a":["我","喺","銀行","對面","等","你"],"x":["係"]}
+{"id":"directions.07","lesson":"directions","t":"order","a":["嗰","間","銀行","喺","對面"],"x":["本"]}
+{"id":"directions.08","lesson":"directions","t":"order","a":["遠","唔","遠","呀"],"x":["係"]}
+{"id":"directions.09","lesson":"directions","t":"fill","q":"地鐵站喺銀行__。","o":["隔籬","後面","左邊"],"a":["對面","deoi3 min6"],"xr":["gaak3 lei4","hau6 min6","zo2 bin1"]}
+{"id":"directions.10","lesson":"directions","t":"fill","q":"請問，洗手間__邊度呀？","o":["係","嚟","去"],"a":["喺","hai2"],"xr":["hai6","lei4","heoi3"]}
+{"id":"directions.11","lesson":"directions","t":"fill","q":"直行，去到紅綠燈__右。","o":["過","落","嚟"],"a":["轉","zyun3"],"xr":["gwo3","lok6","lei4"]}
+{"id":"directions.12","lesson":"directions","t":"type","a":["我 喺 銀行 對面 等 你","喺 銀行 對面 等 你","ngo5 hai2 ngan4 hong4 deoi3 min6 dang2 nei5","hai2 ngan4 hong4 deoi3 min6 dang2 nei5"],"x":["係"],"hint":{"yue":"喺 · 銀行 · 對面 · 等 · 你"},"xr":["hai6"]}
+{"id":"directions.13","lesson":"directions","t":"type","a":["嗰 間 餐廳 喺 銀行 隔籬","go2 gaan1 caan1 teng1 hai2 ngan4 hong4 gaak3 lei4"],"x":["本"],"hint":{"yue":"嗰 · 間 · 餐廳 · 喺 · 銀行 · 隔籬"},"xr":["bun2"]}
+{"id":"directions.14","lesson":"directions","t":"type","a":["請問 地鐵站 喺 邊度 呀","請問 地鐵站 喺 邊度","cing2 man6 dei6 tit3 zaam6 hai2 bin1 dou6 aa3","cing2 man6 dei6 tit3 zaam6 hai2 bin1 dou6"],"x":["係"],"hint":{"yue":"請問 · 地鐵站 · 喺 · 邊度"},"xr":["hai6"]}
+{"id":"suggest.01","lesson":"suggest","t":"mc","o":["aa1","aa3","aa4","aa2"],"strict":true}
+{"id":"suggest.02","lesson":"suggest","t":"mc","o":["不如去飲茶吖？","去飲茶！","飲茶不如去吖？","不如吖去飲茶？"]}
+{"id":"suggest.03","lesson":"suggest","t":"mc","o":["下次啦。","唔去。","好吖！","去吖！"]}
+{"id":"suggest.04","lesson":"suggest","t":"mc","o":["唔好擔心。","冇擔心。","擔心唔好。","未擔心。"]}
+{"id":"suggest.05","lesson":"suggest","t":"mc","o":["七點得唔得呀？","得唔得七點呀？","七點得呀唔得？","七點唔得得呀？"]}
+{"id":"suggest.06","lesson":"suggest","t":"order","a":["不如","聽日","去","飲茶","吖"],"x":["喺"]}
+{"id":"suggest.07","lesson":"suggest","t":"order","a":["我哋","一齊","食飯","吖"],"x":["同"]}
+{"id":"suggest.08","lesson":"suggest","t":"order","a":["唔好","擔心"],"x":["冇"]}
+{"id":"suggest.09","lesson":"suggest","t":"fill","q":"不如去飲茶__？","o":["咗","過","嘅"],"a":["吖","啦","aa1","laa1"],"xr":["zo2","gwo3","ge3"]}
+{"id":"suggest.10","lesson":"suggest","t":"fill","q":"我哋__食飯吖！","o":["都","同","定"],"a":["一齊","jat1 cai4"],"xr":["dou1","tung4","ding6"]}
+{"id":"suggest.11","lesson":"suggest","t":"fill","q":"__擔心。","o":["冇","未","唔要"],"a":["唔好","唔使","m4 hou2","m4 sai2"],"xr":["mou5","mei6","m4 jiu3"]}
+{"id":"suggest.12","lesson":"suggest","t":"type","a":["不如 聽日 去 飲茶 吖","聽日 不如 去 飲茶 吖","不如 聽日 去 飲茶 啦","聽日 不如 去 飲茶 啦","不如 聽日 飲茶 吖","不如 聽日 飲茶 啦","bat1 jyu4 ting1 jat6 heoi3 jam2 caa4 aa1","ting1 jat6 bat1 jyu4 heoi3 jam2 caa4 aa1","bat1 jyu4 ting1 jat6 heoi3 jam2 caa4 laa1","ting1 jat6 bat1 jyu4 heoi3 jam2 caa4 laa1","bat1 jyu4 ting1 jat6 jam2 caa4 aa1","bat1 jyu4 ting1 jat6 jam2 caa4 laa1"],"x":["喺"],"hint":{"yue":"不如 · 聽日 · 去 · 飲茶 · 吖"},"xr":["hai2"]}
+{"id":"suggest.13","lesson":"suggest","t":"type","a":["不如 搭 的士 去 吖","不如 坐 的士 去 吖","不如 搭 的士 去 啦","不如 坐 的士 去 啦","bat1 jyu4 daap3 dik1 si2 heoi3 aa1","bat1 jyu4 co5 dik1 si2 heoi3 aa1","bat1 jyu4 daap3 dik1 si2 heoi3 laa1","bat1 jyu4 co5 dik1 si2 heoi3 laa1"],"x":["喺"],"hint":{"yue":"不如 · 搭 · 的士 · 去 · 吖"},"xr":["hai2"]}
+{"id":"suggest.14","lesson":"suggest","t":"type","a":["一齊 去 吖","我哋 一齊 去 吖","一齊 去 啦","我哋 一齊 去 啦","jat1 cai4 heoi3 aa1","ngo5 dei6 jat1 cai4 heoi3 aa1","jat1 cai4 heoi3 laa1","ngo5 dei6 jat1 cai4 heoi3 laa1"],"x":["咗"],"hint":{"yue":"一齊 · 去 · 吖"},"xr":["zo2"]}

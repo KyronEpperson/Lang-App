@@ -1,0 +1,199 @@
+{
+ "target": "yue",
+ "ttsLang": "zh-HK",
+ "self": "廣東話",
+ "pack": {
+  "accents": true,
+  "keys": "",
+  "tilesDefault": true,
+  "romaAlmost": true,
+  "voiceMatch": "^(zh-(hant-)?hk|yue)"
+ },
+ "features": {
+  "script": false,
+  "pron": false,
+  "conj": false,
+  "register": false,
+  "numbers": false,
+  "sound": false,
+  "strokes": false
+ },
+ "groups": [
+  {
+   "id": "yue.grp.sounds-and-script",
+   "decks": [
+    "yue.d.jyutping-sounds",
+    "yue.d.tone-twins",
+    "yue.d.first-characters"
+   ]
+  },
+  {
+   "id": "yue.grp.first-steps",
+   "decks": [
+    "yue.d.greetings-and-courtesy",
+    "yue.d.people-and-family",
+    "yue.d.about-me"
+   ]
+  },
+  {
+   "id": "yue.grp.everyday-words",
+   "decks": [
+    "yue.d.numbers-and-money",
+    "yue.d.classifiers",
+    "yue.d.food-and-drink",
+    "yue.d.shopping",
+    "yue.d.time-days-and-dates"
+   ]
+  },
+  {
+   "id": "yue.grp.out-and-about",
+   "decks": [
+    "yue.d.around-town-and-directions",
+    "yue.d.getting-around",
+    "yue.d.work-and-study",
+    "yue.d.health-and-help"
+   ]
+  },
+  {
+   "id": "yue.grp.conversation",
+   "decks": [
+    "yue.d.describing-things",
+    "yue.d.questions-and-particles",
+    "yue.d.traps-for-english-speakers",
+    "yue.d.flirting",
+    "yue.d.compliments"
+   ]
+  },
+  {
+   "id": "yue.grp.core-words",
+   "decks": [
+    "yue.d.top-nouns",
+    "yue.d.top-verbs",
+    "yue.d.top-adjectives",
+    "yue.d.top-adverbs",
+    "yue.d.top-pronouns",
+    "yue.d.top-coverbs-and-place-words",
+    "yue.d.top-conjunctions",
+    "yue.d.top-interjections",
+    "yue.d.top-words",
+    "yue.d.top-measure-words",
+    "yue.d.top-particles"
+   ]
+  }
+ ],
+ "tags": {
+  "sounds-and-script": [
+   "yue.d.jyutping-sounds",
+   "yue.d.tone-twins",
+   "yue.d.first-characters"
+  ],
+  "first-steps": [
+   "yue.d.greetings-and-courtesy",
+   "yue.d.people-and-family",
+   "yue.d.about-me"
+  ],
+  "everyday-words": [
+   "yue.d.numbers-and-money",
+   "yue.d.classifiers",
+   "yue.d.food-and-drink",
+   "yue.d.shopping",
+   "yue.d.time-days-and-dates"
+  ],
+  "out-and-about": [
+   "yue.d.around-town-and-directions",
+   "yue.d.getting-around",
+   "yue.d.work-and-study",
+   "yue.d.health-and-help"
+  ],
+  "conversation": [
+   "yue.d.describing-things",
+   "yue.d.questions-and-particles",
+   "yue.d.traps-for-english-speakers",
+   "yue.d.flirting",
+   "yue.d.compliments"
+  ],
+  "core-words": [
+   "yue.d.top-nouns",
+   "yue.d.top-verbs",
+   "yue.d.top-adjectives",
+   "yue.d.top-adverbs",
+   "yue.d.top-pronouns",
+   "yue.d.top-coverbs-and-place-words",
+   "yue.d.top-conjunctions",
+   "yue.d.top-interjections",
+   "yue.d.top-words",
+   "yue.d.top-measure-words",
+   "yue.d.top-particles"
+  ]
+ },
+ "goals": [],
+ "plans": [],
+ "titles": [
+  {
+   "id": "yue.t01",
+   "level": 1
+  },
+  {
+   "id": "yue.t03",
+   "level": 3
+  },
+  {
+   "id": "yue.t05",
+   "level": 5
+  },
+  {
+   "id": "yue.t08",
+   "level": 8
+  },
+  {
+   "id": "yue.t12",
+   "level": 12
+  },
+  {
+   "id": "yue.t16",
+   "level": 16
+  },
+  {
+   "id": "yue.t20",
+   "level": 20
+  }
+ ],
+ "greet": [
+  {
+   "id": "yue.h.night",
+   "yue": "晚安"
+  },
+  {
+   "id": "yue.h.morning",
+   "yue": "早晨"
+  },
+  {
+   "id": "yue.h.afternoon",
+   "yue": "你好"
+  },
+  {
+   "id": "yue.h.evening",
+   "yue": "食咗飯未呀？"
+  }
+ ],
+ "pairs": [],
+ "pause": {
+  "sets": [],
+  "idioms": []
+ },
+ "uiKeys": [
+  "Cantonese (required)",
+  "Cantonese, pronunciation, meaning, note — one per line (pronunciation/note optional)",
+  "Search a pattern, e.g. 에서 or 'want'",
+  "#sounds-and-script",
+  "#first-steps",
+  "#everyday-words",
+  "#out-and-about",
+  "#conversation",
+  "#core-words"
+ ],
+ "exportedFrom": {
+  "file": "tools/target/yue/ (tools/target/gen.js yue)",
+  "sha256_16": "fac63d42f79a6de4"
+ }
+}

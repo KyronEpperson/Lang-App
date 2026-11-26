@@ -27,9 +27,11 @@ const FOUND={'en-ja':{lessons:['hiragana','sounds','katakana'],letters:[...HIRA+
  'en-th':{lessons:['consonants','vowels','finals','tone-marks','tones','sounds'],letters:[...'กขคฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ'],tilesOnly:['ฃ','ฅ'],words:['vowels','finals','tone-marks'],soundOnly:['tones','sounds'],anywhere:true,frontStarts:true},
  /* Cantonese: Jyutping initials and vowels are Latin pieces on tiles; the radicals are on a card and a tile; lesson 3 (greetings) sits between the sound lessons and the character lesson */
  'en-yue':{lessons:['jyutping','tones','characters'],letters:[...'亻氵口女木日月火心忄扌訁艹飠土糹釒門'],tilesOnly:['b','p','m','f','d','t','n','l','g','k','ng','h','gw','kw','w','z','c','s','j','aa','a','e','i','o','u','yu','oe','eo'],words:['jyutping','tones','characters'],anywhere:true},
+ /* Vietnamese: Latin script, but its own system (7 extra letters, tone marks, letter pairs): a block of four lessons; letters that read as in English are on tiles only */
+ 'en-vi':{lessons:['alphabet','tones','syllables','vowels'],letters:['ă','â','ê','ô','ơ','ư','đ','d','r','x','t','c','k','ch','tr','nh','ph','th','kh','gi','gh','ng','ngh','qu'],tilesOnly:[...'abeghilmnopqsuvy'],words:['alphabet','tones','syllables','vowels']},
  'en-am':{lessons:['orders','fidel-1','fidel-2','fidel-3','reading'],letters:[...'ሀለሐመሠረሰሸቀበተቸኀነኘአከኸወዐዘዠየደጀገጠጨጰጸፀፈፐ'],tilesOnly:[],words:['fidel-1','fidel-2','fidel-3']}};
 /* older courses whose foundation is not built yet (docs/HANDOFF.md, "Character foundations"). This list only gets shorter. */
-const PENDING='en-ceb en-cs en-da en-espr en-hmn en-id en-it en-nan en-nl en-no en-pl en-pt en-ptpt en-sv en-tl en-vi vi-zh'.split(' ');
+const PENDING='en-ceb en-cs en-da en-espr en-hmn en-id en-it en-nan en-nl en-no en-pl en-pt en-ptpt en-sv en-tl vi-zh'.split(' ');
 /* English for X: lesson 1 `alphabet`, the 26 letters on cards (the letter names) and on tiles */
 'ar bn ceb cs de es fr hi hmn id it ja kn ko pa pl pt ru spr te th tl ur vi yue zh'.split(' ').forEach(t=>{ FOUND[t+'-en']={lessons:['alphabet'],letters:[...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'],tilesOnly:[],words:[],light:true}; });
 let fail=0,pass=0;const ok=(c,m)=>{ if(c){ pass++; console.log('PASS '+m); } else { fail++; console.log('FAIL '+m); } };

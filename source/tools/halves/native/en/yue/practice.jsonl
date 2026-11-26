@@ -1,0 +1,378 @@
+{"id":"jyutping.01","q":"Which Jyutping initial sounds like the y in yes?","why":"Jyutping j is the y sound: 有 (jau5)."}
+{"id":"jyutping.02","q":"Which initial has a puff of air, like the ts in cats?","why":"c is ts with a puff, as in 草 (cou2); z is like ds, with no puff."}
+{"id":"jyutping.03","q":"How many syllables are in 美國人 (mei5 gwok3 jan4, American)?","o":["three","one","two","four"],"why":"One character is one syllable: 美, 國 and 人 are three syllables."}
+{"id":"jyutping.04","q":"Which word has the long aa, as in father?","o":["三 (saam1, three)","心 (sam1, heart)","十 (sap6, ten)","七 (cat1, seven)"],"why":"aa is long: 三 is saam1; the others have the short a."}
+{"id":"jyutping.05","q":"How do you say 唔 (m4, not)?","o":["A low hum with the lips closed","Like the English word um","Like moo","Like the letter M"],"why":"唔 has no vowel: m4 is a hum through closed lips."}
+{"id":"jyutping.06","p":"你好 (hello) in Jyutping","why":"Check the tone number at the end: nei5 has tone 5 and hou2 has tone 2."}
+{"id":"jyutping.07","p":"唔該 (thanks, excuse me) in Jyutping","why":"唔該 is m4 goi1: tone 4, a low hum, then tone 1."}
+{"id":"jyutping.08","p":"三十 (thirty) in Jyutping","why":"三 has the long aa, so it is written saam1; sam1 would be another word."}
+{"id":"jyutping.09","p":"to have","why":"有 starts with j, which sounds like the y in yes."}
+{"id":"jyutping.10","p":"to go","why":"去 has the rounded vowel eo: heoi3."}
+{"id":"jyutping.11","p":"ten","why":"十 ends in p: close the lips and stop, sap6."}
+{"id":"jyutping.12","p":"Type the Jyutping of 三 (three)","hint":"aa is long · tone 1 · type the number after the letters","why":"三 is saam1, tone 1: high and level."}
+{"id":"jyutping.13","p":"Type the Jyutping of 我 (I, me)","hint":"starts with ng · tone 5","why":"我 is ngo5, with tone 5; many people say o5, but the course writes ngo5."}
+{"id":"jyutping.14","p":"Type the Jyutping of 書 (book)","hint":"s + yu · tone 1","why":"書 has yu, the ee sound with rounded lips: syu1."}
+{"id":"tones.01","q":"Which tone is low and falling, the lowest of all?","o":["tone 4","tone 1","tone 3","tone 5"],"why":"Tone 4 falls low: 時 (si4)."}
+{"id":"tones.02","q":"Which is the Jyutping of 賣 (to sell)?","why":"賣 is maai6, tone 6; maai5 is 買, to buy."}
+{"id":"tones.03","q":"Which word is hai2 (at, in)?","why":"喺 is hai2; 係 (hai6) means to be."}
+{"id":"tones.04","q":"Which two words are tone twins?","o":["詩 (si1) and 試 (si3)","詩 (si1) and 書 (syu1)","三 (saam1) and 心 (sam1)","四 (sei3) and 十 (sap6)"],"why":"Tone twins have the same letters and a different tone: si1 and si3."}
+{"id":"tones.05","q":"話 alone is waa6, but in 電話 (phone) it is said waa2. What is this called?","o":["a changed tone","a lazy sound","a tone twin","a mistake in the Jyutping"],"why":"In some words the last syllable rises: that is a changed tone."}
+{"id":"tones.06","p":"我想買 (I want to buy) in Jyutping","why":"買 (maai5) has tone 5; with tone 6, maai6 means to sell."}
+{"id":"tones.07","p":"詩 and then 試 (poem, to try) in Jyutping","why":"Tone twins: 詩 is si1 with tone 1, 試 is si3 with tone 3."}
+{"id":"tones.08","p":"媽媽 (mom) in Jyutping","why":"Changed tone: the second 媽 rises to tone 1."}
+{"id":"tones.09","p":"to buy","why":"買 has tone 5; maai6 is 賣, to sell."}
+{"id":"tones.10","p":"four","why":"四 is sei3; with tone 2, sei2 means to die."}
+{"id":"tones.11","p":"at, in","why":"喺 (at, in) is hai2; hai6 is to be."}
+{"id":"tones.12","p":"Type the Jyutping of 賣 (to sell)","hint":"tone 6 · low and level","why":"賣 has tone 6: low and level. maai5 is 買, to buy."}
+{"id":"tones.13","p":"Type the Jyutping of 係 (to be)","hint":"tone 6 · low and level","why":"係 (to be) is hai6, tone 6; hai2, with tone 2, is 喺 (at, in)."}
+{"id":"tones.14","p":"Type the Jyutping of 電話 (phone)","hint":"two syllables · the second one rises","why":"Changed tone: 話 alone is waa6, but in 電話 it rises to waa2."}
+{"id":"greetings.01","q":"A server brings your dish. You say…","why":"For a service, say 唔該; 多謝 is for gifts and kind words."}
+{"id":"greetings.02","q":"Your grandma gives you a red envelope with money in it. You say…","why":"Gifts and money take 多謝."}
+{"id":"greetings.03","q":"Someone says 多謝 to you. You answer…","why":"唔使客氣 means you're welcome: no need to be polite."}
+{"id":"greetings.04","q":"It is 9 a.m. and you meet your neighbor. You say…","why":"早晨 is good morning, until about noon; 早抖 is good night."}
+{"id":"greetings.05","q":"Which is the Jyutping of 多謝 (thank you)?","why":"多謝 is do1 ze6: tone 1, then tone 6."}
+{"id":"greetings.06","p":"多謝 (thank you) in Jyutping","why":"Check the tone number: 謝 is ze6, tone 6, low and level."}
+{"id":"greetings.07","p":"早晨 (good morning) in Jyutping","why":"晨 has tone 4, low and falling: zou2 san4."}
+{"id":"greetings.08","p":"One milk tea, please. (start with 唔該)","why":"Milk tea in a cup takes the classifier 杯: 一杯奶茶."}
+{"id":"greetings.09","p":"One milk tea, please.","why":"To ask for something, start with 唔該."}
+{"id":"greetings.10","p":"Thanks so much! (for a gift)","why":"For a gift, thank with 多謝; 晒 makes it stronger."}
+{"id":"greetings.11","p":"You're welcome.","why":"唔使客氣 answers thanks: literally, no need to be polite. 唔使多謝 and 唔使唔該 (no need to thank me) work too."}
+{"id":"greetings.12","p":"Thank you! (for a gift)","hint":"for gifts and kind words","why":"Gifts and kind words take 多謝; 唔該 is for a service."}
+{"id":"greetings.13","p":"Type the Jyutping of 唔該 (thanks for a service)","hint":"two syllables · 唔 is a hum · tone 4, then tone 1","why":"唔該 is m4 goi1: tone 4, then tone 1."}
+{"id":"greetings.14","p":"One coffee, please. (start with 唔該)","hint":"咖啡 (coffee)","why":"Coffee in a cup takes the classifier 杯, between 一 and 咖啡."}
+{"id":"characters.01","q":"日 (sun) + 月 (moon) make…","why":"The sun and the moon together make 明, bright."}
+{"id":"characters.02","q":"What does 口 on the left of 嘅, 咗 and 啲 often tell you?","o":["It is an everyday spoken-Cantonese word","It is about eating","It is a question","It has tone 1"],"why":"Many characters for spoken-Cantonese words carry 口 on the left."}
+{"id":"characters.03","q":"A sign over a door says 出口. It means…","o":["exit","entrance","mouth","restroom"],"why":"出口 is exit: 出 is out, and 口 here is an opening."}
+{"id":"characters.04","q":"Which is the Jyutping of 水 (water)?","why":"水 is seoi2, tone 2: it rises from the middle."}
+{"id":"characters.05","q":"Which part is a squeezed 人 (person)?","why":"亻 is the person radical, as in 休 and 你."}
+{"id":"characters.06","p":"a good person (in characters)","why":"The describer goes before the noun: 好人, a good person."}
+{"id":"characters.07","p":"好人 (a good person) in Jyutping","why":"好 is hou2, tone 2; 人 is jan4, tone 4."}
+{"id":"characters.08","p":"a big mountain (in characters; 大 = big)","why":"The describer goes before the noun: 大山, a big mountain."}
+{"id":"characters.09","p":"person + tree = to rest","why":"A person leaning on a tree makes 休, to rest."}
+{"id":"characters.10","p":"tree + tree = woods","why":"Two trees make 林, woods."}
+{"id":"characters.11","p":"woman + child = good","why":"A woman and a child make 好, good."}
+{"id":"characters.12","p":"Type the Jyutping of 好 (good)","hint":"tone 2 · it rises from the middle","why":"好 (good) has tone 2: hou2."}
+{"id":"characters.13","p":"a good person (in characters)","hint":"the describer comes first","why":"The describer goes before the noun: 好人."}
+{"id":"characters.14","p":"Type the Jyutping of 人 (person)","hint":"j sounds like y · tone 4","why":"人 has tone 4, low and falling: jan4."}
+{"id":"hai.01","q":"I'm a student. =","why":"係 joins two nouns, and Cantonese has no word for a here."}
+{"id":"hai.02","q":"佢 can mean…","o":["he, she or it","only he","only she","they"],"why":"佢 covers he, she and it; context tells you which."}
+{"id":"hai.03","q":"She's tired. =","why":"Adjectives take 好, not 係: 佢好攰。"}
+{"id":"hai.04","q":"Which word is hai6 (to be)?","why":"係 is hai6; 喺 (hai2) means at, in."}
+{"id":"hai.05","q":"they =","why":"哋 makes a pronoun plural: 佢哋 is they."}
+{"id":"hai.06","p":"He is my friend. (start with 佢)","why":"The owner goes before the noun: 我朋友, my friend."}
+{"id":"hai.07","p":"We are students too. (都 = also)","why":"都 goes before the verb, not at the end like English too."}
+{"id":"hai.08","p":"They are not teachers.","why":"唔 goes right before 係: 唔係 means are not."}
+{"id":"hai.09","p":"I'm a student.","why":"係 (hai6) joins two nouns; 喺 (hai2) means at."}
+{"id":"hai.10","p":"She isn't a teacher.","why":"唔係 means is not: 唔 comes right before 係."}
+{"id":"hai.11","p":"He's tired.","why":"Adjectives take 好, not 係: 佢好攰。"}
+{"id":"hai.12","p":"She is my friend.","hint":"the owner comes first","why":"The owner goes before the noun: 我朋友, my friend."}
+{"id":"hai.13","p":"I am a student too. (都 = also)","why":"都 goes before the verb: 我都係學生."}
+{"id":"hai.14","p":"They are teachers.","why":"係 joins two nouns: 佢哋係老師, with no word for a."}
+{"id":"intro.01","q":"What's your name? =","why":"The question word stays where the answer goes: 你叫咩名呀？"}
+{"id":"intro.02","q":"My name is Mark. =","why":"叫 means to be called; 我名係 is a word-for-word copy of English."}
+{"id":"intro.03","q":"I live in New York. =","why":"住喺 + place: 我住喺紐約。"}
+{"id":"intro.04","q":"Which is the Jyutping of 叫 (to be called)?","why":"叫 is giu3, tone 3: middle and level."}
+{"id":"intro.05","q":"Someone asks 你貴姓呀？ They want to know…","o":["your family name","your age","where you live","what you do"],"why":"貴姓 is the polite way to ask a family name."}
+{"id":"intro.06","p":"She is my Cantonese teacher. (start with 佢)","why":"The describers go before the noun: 我廣東話老師, my Cantonese teacher."}
+{"id":"intro.07","p":"I am American too.","why":"都 goes before the verb: 我都係美國人."}
+{"id":"intro.08","p":"What is your name? (with 呀)","why":"The question word 咩 stays where the answer goes."}
+{"id":"intro.09","p":"My name is Anna.","why":"叫 means to be called: 我叫 + your name."}
+{"id":"intro.10","p":"My family name is Chan.","why":"Use 姓 for your family name: 我姓陳."}
+{"id":"intro.11","p":"I live in San Francisco.","why":"住喺 + place: 喺 (hai2) means at, in; 係 (hai6) is to be."}
+{"id":"intro.12","p":"She is my Cantonese teacher.","hint":"the describers come first","why":"The describers go before the noun: 我廣東話老師, my Cantonese teacher."}
+{"id":"intro.13","p":"We are from Hong Kong too. (都 = also)","why":"都 goes before the verb: 我哋都係香港人."}
+{"id":"intro.14","p":"What's your name? (friendly)","hint":"呀 makes it friendly","why":"The question word 咩 stays where the answer goes: 你叫咩名呀？"}
+{"id":"m.01","q":"Are you going? =","why":"Verb, 唔, verb: 去唔去."}
+{"id":"m.02","q":"Someone asks 你食唔食呀？ (食 = eat) To say yes, you answer…","why":"Cantonese has no single word for yes: repeat the verb, 食."}
+{"id":"m.03","q":"I'm not tired. =","why":"唔 goes right before the adjective: 我唔攰."}
+{"id":"m.04","q":"Which is the Jyutping of 唔 (not)?","why":"唔 is m4, tone 4: low and falling."}
+{"id":"m.05","q":"你係咪學生呀？ means the same as…","why":"係咪 is the short form of 係唔係."}
+{"id":"m.06","p":"I am not going either. (都 = also)","why":"都 goes before the verb, and 唔 comes right before 去."}
+{"id":"m.07","p":"Is she your teacher? (start with 佢)","why":"The owner goes before the noun: 你老師, your teacher."}
+{"id":"m.08","p":"Is it expensive?","why":"Say the adjective, then 唔, then the adjective again: 貴唔貴."}
+{"id":"m.09","p":"Are you going?","why":"Verb + 唔 + verb makes a yes/no question: 去唔去."}
+{"id":"m.10","p":"Are you a student? Yes, I'm a student.","why":"To a 係 question, answer 係 (yes) or 唔係 (no)."}
+{"id":"m.11","p":"He doesn't eat it. (食 = eat)","why":"唔 goes right before the verb: 佢唔食."}
+{"id":"m.12","p":"I am not a student either. (都 = also)","why":"都 goes before the verb: 我都唔係學生."}
+{"id":"m.13","p":"Is he your friend?","why":"The owner goes before the noun: 你朋友, your friend."}
+{"id":"m.14","p":"Are you going? (use 去)","why":"Say the verb, then 唔, then the verb again: 去唔去."}
+{"id":"questions.01","q":"Where do you live? =","why":"The question word stays where the answer goes."}
+{"id":"questions.02","q":"Who is she? =","why":"邊個 goes where the person would go: 佢係邊個呀？"}
+{"id":"questions.03","q":"點解 means…","o":["why","how","when","where"],"why":"點解 is why; 點 alone is how."}
+{"id":"questions.04","q":"Which is the Jyutping of 幾時 (when)?","why":"幾時 is gei2 si4: 時 has tone 4, low and falling."}
+{"id":"questions.05","q":"When are you going? =","why":"幾時 is a time word, so it comes before 去."}
+{"id":"questions.06","p":"Where are you going tomorrow? (start with 你; 聽日 = tomorrow)","why":"Time goes before the verb: 你聽日去邊度呀？"}
+{"id":"questions.07","p":"When are you going to Hong Kong? (start with 你)","why":"幾時 is a time word, so it goes before the verb."}
+{"id":"questions.08","p":"Who is he? (start with 佢)","why":"The question word stays where the answer goes: 佢係邊個呀？"}
+{"id":"questions.09","p":"What are you having?","why":"咩 asks what: it sits where the food would go."}
+{"id":"questions.10","p":"Where do you live?","why":"邊度 asks where: it sits where the place would go."}
+{"id":"questions.11","p":"Why aren't you going?","why":"點解 asks why and comes first, or right after 你."}
+{"id":"questions.12","p":"Where do you work? (做嘢 = to work)","hint":"the place comes first","why":"The place goes before the verb: 你喺邊度做嘢呀？"}
+{"id":"questions.13","p":"When is he going to New York?","why":"幾時 is a time word, so it goes before the verb: 佢幾時去紐約呀？"}
+{"id":"questions.14","p":"What are you having? (食 = to eat)","why":"The question word stays where the answer goes: 你食咩呀？"}
+{"id":"numbers.01","q":"two people =","why":"Before a classifier, two is 兩: 兩個人."}
+{"id":"numbers.02","q":"100,000 =","why":"Cantonese counts in 萬 (10,000): 100,000 is 十萬."}
+{"id":"numbers.03","q":"一百五 means…","o":["150","105","15","1,500"],"why":"一百五 is short for 一百五十; 105 is 一百零五."}
+{"id":"numbers.04","q":"Which is the Jyutping of 四 (four)?","why":"四 is sei3, tone 3; sei2 is 死, to die."}
+{"id":"numbers.05","q":"How do you read the phone number 2345, digit by digit?","why":"Phone numbers are read digit by digit, and 2 there is 二."}
+{"id":"numbers.06","p":"two people","why":"兩, not 二, goes before a classifier: 兩個人."}
+{"id":"numbers.07","p":"twenty people","why":"二十 is twenty, and the classifier 個 goes before the noun: 二十個人."}
+{"id":"numbers.08","p":"105 (one hundred and five)","why":"An empty tens place takes 零: 一百零五."}
+{"id":"numbers.09","p":"two people","why":"兩, not 二, goes right before 個."}
+{"id":"numbers.10","p":"105","why":"零 fills the empty tens place: 一百零五."}
+{"id":"numbers.11","p":"100,000","why":"Cantonese counts in 萬 (10,000): 100,000 is 十萬."}
+{"id":"numbers.12","p":"two cups of milk tea","why":"兩, not 二, before a classifier: 兩杯奶茶."}
+{"id":"numbers.13","p":"twelve people","why":"A number needs a classifier before the noun: 十二個人."}
+{"id":"numbers.14","p":"150 (a hundred and fifty)","hint":"the last 十 can be dropped","why":"一百五 is short for 一百五十; 一百零五 would be 105."}
+{"id":"classifiers.01","q":"Which is the Jyutping of 本 (the classifier for books)?","why":"本 is bun2, with tone 2, rising from the middle."}
+{"id":"classifiers.02","q":"'two cups of tea' =","why":"Two is 兩 before a classifier, and a drink in a cup takes 杯."}
+{"id":"classifiers.03","q":"Which classifier goes with 貓 (cat)?","why":"Most animals take 隻: 一隻貓."}
+{"id":"classifiers.04","q":"'this book' =","why":"呢 needs the book's own classifier between it and the noun: 呢本書."}
+{"id":"classifiers.05","q":"What does 我部手機 mean?","o":["my phone","I have a phone","I'm on the phone","a phone for me"],"why":"Owner + classifier + noun means \"my\": 我部手機."}
+{"id":"classifiers.06","p":"three books","why":"Books take the classifier 本: 三本書."}
+{"id":"classifiers.07","p":"this cat","why":"呢 + classifier + noun, and cats take the classifier 隻: 呢隻貓."}
+{"id":"classifiers.08","p":"Where's my phone?","why":"Owner + classifier + noun means my: 我部手機, with the classifier 部 for machines."}
+{"id":"classifiers.09","p":"Who is that person?","why":"People take 個: 嗰個人."}
+{"id":"classifiers.10","p":"A milk tea, please.","why":"A drink in a cup takes 杯: 一杯奶茶."}
+{"id":"classifiers.11","p":"Where's my book? (use a classifier)","why":"Owner + 本 + 書 means \"my book\"."}
+{"id":"classifiers.12","p":"two cups of coffee","hint":"two before a classifier is 兩","why":"A number needs a classifier before the noun: 兩杯咖啡, with 兩 for two."}
+{"id":"classifiers.13","p":"that cat","why":"嗰 + classifier + noun: 嗰隻貓, with the classifier 隻 for animals."}
+{"id":"classifiers.14","p":"Where's my book? (no 嘅)","why":"Owner + classifier + noun means my: 我本書."}
+{"id":"ge.01","q":"Which is the Jyutping of 嘅?","why":"嘅 is ge3, with tone 3: mid and level."}
+{"id":"ge.02","q":"'your book' =","why":"The owner comes first, then 嘅, then the thing: 你嘅書."}
+{"id":"ge.03","q":"Which one means 'It's mine.'?","why":"嘅 at the end stands for the thing: 係我嘅 means \"it's mine\"."}
+{"id":"ge.04","q":"Which sounds most natural for 'my dad'?","why":"With family, Cantonese usually drops 嘅: 我爸爸."}
+{"id":"ge.05","q":"'the teacher's phone' =","why":"The owner goes first: 老師嘅手機."}
+{"id":"ge.06","p":"my friend's book","why":"The owner goes before the noun, linked by 嘅: 我朋友嘅書."}
+{"id":"ge.07","p":"This phone is mine.","why":"呢 + the classifier 部 before the noun, then 係我嘅 for \"mine\"."}
+{"id":"ge.08","p":"Where's the teacher's book?","why":"The owner goes before the noun: 老師嘅書."}
+{"id":"ge.09","p":"This book is yours.","why":"Yours is 你嘅: the owner + 嘅 at the end."}
+{"id":"ge.10","p":"Where's the teacher's phone?","why":"Owner + 嘅 + thing, or owner + classifier + thing: 老師嘅手機 or 老師部手機."}
+{"id":"ge.11","p":"My mom is a teacher.","why":"With family there is usually no 嘅: 我媽媽."}
+{"id":"ge.12","p":"my friend's phone","why":"The owner goes before the noun: 我朋友嘅手機."}
+{"id":"ge.13","p":"This book is mine.","why":"呢 + the classifier 本 before the noun, and 係我嘅 at the end for \"mine\"."}
+{"id":"ge.14","p":"the teacher's book","why":"The owner goes before the noun: 老師嘅書, or with the classifier, 老師本書."}
+{"id":"family.01","q":"Which is the Jyutping of 媽媽 (mom)?","why":"Changed tone: the second syllable of 媽媽 rises to tone 1."}
+{"id":"family.02","q":"'younger sister' =","why":"細妹 is a younger sister; 家姐 is an older one."}
+{"id":"family.03","q":"Your father's father is your…","why":"On your father's side, grandpa is 爺爺; 公公 is your mother's father."}
+{"id":"family.04","q":"'How old are you?' =","why":"Age takes no 係, and the question word sits where the answer goes: 你幾多歲呀？"}
+{"id":"family.05","q":"'my husband' (the everyday word) =","why":"老公 is husband and 老婆 is wife; 公公 is a grandpa."}
+{"id":"family.06","p":"I have two older sisters.","why":"兩 + the classifier 個 before the noun: 兩個家姐."}
+{"id":"family.07","p":"There are five people in my family.","why":"A number needs a classifier before the noun: 五個人."}
+{"id":"family.08","p":"I'm thirty this year. (start with 我)","why":"Age needs no 係: 我今年三十歲."}
+{"id":"family.09","p":"I have a younger brother.","why":"Family members take 個: 一個細佬."}
+{"id":"family.10","p":"She's twenty this year.","why":"Number + 歲 gives an age, with no 係."}
+{"id":"family.11","p":"My grandma (my mom's mom) is from Hong Kong.","why":"Your mother's mother is 婆婆."}
+{"id":"family.12","p":"two younger sisters","why":"兩 + the classifier 個 before the noun: 兩個細妹."}
+{"id":"family.13","p":"There are four people in my family. (start with 我屋企)","why":"A number needs a classifier before the noun: 四個人."}
+{"id":"family.14","p":"I'm twenty-five this year. (start with 我)","why":"Age needs no 係: 我今年二十五歲."}
+{"id":"hai2.01","q":"Which word is hai2 (at, in)?","why":"喺 is hai2, with tone 2; its tone twin 係 is hai6, to be."}
+{"id":"hai2.02","q":"'I'm in Hong Kong.' =","why":"喺 means at or in; 係 means to be, so 我係香港 says \"I am Hong Kong\"."}
+{"id":"hai2.03","q":"'I eat at home.' =","why":"喺 + place comes before the verb: 我喺屋企食飯."}
+{"id":"hai2.04","q":"'inside the home' =","why":"The place word comes after its noun: 屋企入面."}
+{"id":"hai2.05","q":"'Where do you live?' =","why":"With 住 the place comes after: 住喺邊度, and the question word sits where the answer goes."}
+{"id":"hai2.06","p":"I work at a bank.","why":"Place with 喺 goes before the verb: 我喺銀行做嘢."}
+{"id":"hai2.07","p":"The book is on the table.","why":"Classifier + noun is \"the book\", and the place word follows its noun: 枱上面."}
+{"id":"hai2.08","p":"My phone is at home.","why":"Owner + classifier + noun is \"my phone\": 我部手機, with 部 for machines."}
+{"id":"hai2.09","p":"I'm in Hong Kong.","why":"喺 (hai2), tone 2, is at or in; 係 (hai6), tone 6, is to be."}
+{"id":"hai2.10","p":"The bank is next to the supermarket.","why":"隔籬 is next to, and it comes after its noun: 超市隔籬."}
+{"id":"hai2.11","p":"I live in Kowloon.","why":"With 住 the place comes after: 住喺九龍."}
+{"id":"hai2.12","p":"I work at a bank.","hint":"where comes first","why":"Place with 喺 goes before the verb: 我喺銀行做嘢."}
+{"id":"hai2.13","p":"I study at home.","hint":"讀書 (study)","why":"Place with 喺 goes before the verb: 我喺屋企讀書."}
+{"id":"hai2.14","p":"Where's the restroom?","why":"喺 (hai2), tone 2, asks where something is; 係 with tone 6 means to be."}
+{"id":"jau-mou.01","q":"Which is the Jyutping of 冇 (not have)?","why":"冇 is mou5, with tone 5: low, rising a little."}
+{"id":"jau-mou.02","q":"'I don't have a car.' =","why":"冇 is the only negative of 有: never 唔有."}
+{"id":"jau-mou.03","q":"'There's a bank nearby.' =","why":"The place comes first, then 有 + the thing: 附近有間銀行."}
+{"id":"jau-mou.04","q":"How do you answer 你有冇細妹呀？ (Do you have a younger sister?) with 'No'?","why":"Answer with the verb: 有 or 冇, not 係 or 唔係."}
+{"id":"jau-mou.05","q":"'Do you have a phone?' =","why":"The question form of 有 is 有冇: 你有冇手機呀？"}
+{"id":"jau-mou.06","p":"There's a supermarket nearby.","why":"The place goes first, before the verb 有: 附近有間超市."}
+{"id":"jau-mou.07","p":"I have two phones.","why":"兩 + the classifier 部 before the noun: 兩部手機."}
+{"id":"jau-mou.08","p":"Is there an MTR station nearby?","why":"The place goes before the verb: 附近有冇地鐵站呀？"}
+{"id":"jau-mou.09","p":"I don't have any money.","why":"冇 is the negative of 有: never 唔有."}
+{"id":"jau-mou.10","p":"Is there a supermarket nearby?","why":"The question form of 有 is 有冇."}
+{"id":"jau-mou.11","p":"I have a car.","why":"Cars take 架 (部 is also heard): 一架車."}
+{"id":"jau-mou.12","p":"I don't have any older brothers.","why":"冇 is the only negative of 有: 我冇哥哥."}
+{"id":"jau-mou.13","p":"There's a bank nearby.","hint":"place first","why":"The place goes before the verb 有, and banks take the classifier 間."}
+{"id":"jau-mou.14","p":"I have two cats.","why":"兩 + the classifier 隻 before the noun: 兩隻貓."}
+{"id":"particles.01","q":"Which is the Jyutping of 啦 (the particle for requests)?","why":"啦 is laa1, with tone 1: high and level."}
+{"id":"particles.02","q":"Which ending makes 飲杯茶 an offer: 'Have some tea!'?","why":"吖 makes an offer or an invitation: 飲杯茶吖！"}
+{"id":"particles.03","q":"Someone asks how you are. How do you ask back 'And you?'","why":"呢 asks the same question back: 你呢？"}
+{"id":"particles.04","q":"A friend suggests dim sum. Which means 'OK, sure!'?","why":"啦 agrees to a suggestion: 好啦！"}
+{"id":"particles.05","q":"Which question sounds friendly rather than curt?","why":"呀 is the friendly default ending for a question."}
+{"id":"particles.06","p":"Where do you work?","why":"Place with 喺 goes before the verb, even in a question: 你喺邊度做嘢呀？"}
+{"id":"particles.07","p":"Have a cup of tea!","why":"杯 is the classifier for a cup: 飲杯茶吖, with 吖 for an offer."}
+{"id":"particles.08","p":"Let's go together!","why":"吖 turns it into an invitation: 一齊去吖！"}
+{"id":"particles.09","p":"Let's go together!","why":"吖 makes an invitation."}
+{"id":"particles.10","p":"I'm American. And you?","why":"呢 asks the same question back."}
+{"id":"particles.11","p":"Hurry up, please.","why":"啦 goes on requests and urging: 快啲啦."}
+{"id":"particles.12","p":"Where do you study? (end with 呀)","hint":"讀書 (study) · end with 呀","why":"Place with 喺 goes before the verb, even in a question: 你喺邊度讀書呀？"}
+{"id":"particles.13","p":"Have a cup of milk tea! (an offer)","why":"杯 is the classifier for a cup, and 吖 makes it an offer."}
+{"id":"particles.14","p":"And you?","why":"呢 asks the same question back: 你呢？"}
+{"id":"prices.01","q":"Which is the Jyutping of 錢 (money) in the question 幾多錢呀？","why":"In 幾多錢 the word for money has a changed tone: cin2."}
+{"id":"prices.02","q":"'How much is it?' =","why":"幾多錢 stays together: 幾多錢呀？"}
+{"id":"prices.03","q":"'That's too expensive!' =","why":"貴 is expensive and 平 is cheap: 太貴喇！"}
+{"id":"prices.04","q":"What is 五毫?","o":["fifty cents","five dollars","five cents","fifty dollars"],"why":"毫 is ten cents, so 五毫 is fifty cents."}
+{"id":"prices.05","q":"'twenty dollars' =","why":"Inside a number, twenty is 二十; 兩 only goes straight before 蚊."}
+{"id":"prices.06","p":"How much is this top?","why":"呢 + the classifier 件 before the noun: 呢件衫."}
+{"id":"prices.07","p":"I have a hundred dollars.","why":"蚊 works like a classifier straight after the number: 一百蚊."}
+{"id":"prices.08","p":"Could you make it a bit cheaper?","why":"平啲 is a bit cheaper, and 得唔得 asks if that's OK."}
+{"id":"prices.09","p":"How much is this top?","why":"幾多錢 asks the price."}
+{"id":"prices.10","p":"Thirty-five dollars.","why":"In speech, dollars are 蚊: 三十五蚊."}
+{"id":"prices.11","p":"This one is two dollars.","why":"Two straight before 蚊 is 兩, not 二."}
+{"id":"prices.12","p":"How much is this book?","why":"呢 + the classifier 本 before the noun: 呢本書幾多錢呀？"}
+{"id":"prices.13","p":"two dollars","why":"蚊 works like a classifier, so two is 兩: 兩蚊."}
+{"id":"prices.14","p":"That's too expensive!","why":"貴 is expensive: 太貴喇！"}
+{"id":"food.01","q":"Which is the Jyutping of 碗 (bowl)?","why":"碗 is wun2, with tone 2, rising from the middle."}
+{"id":"food.02","q":"Which classifier goes with 蝦餃 (shrimp dumplings) at dim sum?","why":"Dim sum comes in a steamer basket: 一籠蝦餃."}
+{"id":"food.03","q":"'An iced milk tea, please.' =","why":"唔該 + number + classifier + drink."}
+{"id":"food.04","q":"How do you ask for the check?","why":"埋單 is the check: 唔該埋單！"}
+{"id":"food.05","q":"'no ice' =","why":"走 means leave out: 走冰 is no ice."}
+{"id":"food.06","p":"I'll have a bowl of wonton noodles.","why":"Noodles in a bowl take the classifier 碗 before the noun."}
+{"id":"food.07","p":"two plates of fried rice","why":"兩 + the classifier 碟 before the noun: 兩碟炒飯."}
+{"id":"food.08","p":"A milk tea, no ice, please. (start with 唔該)","why":"Order with 唔該, not 請: 唔該，一杯奶茶走冰."}
+{"id":"food.09","p":"A bowl of wonton noodles, please.","why":"Noodles in a bowl take 碗."}
+{"id":"food.10","p":"Check, please!","why":"埋單 is the check."}
+{"id":"food.11","p":"I'll have a basket of shrimp dumplings.","why":"Dim sum in a steamer basket takes 籠."}
+{"id":"food.12","p":"An iced milk tea, please. (start with 唔該)","why":"A drink in a cup takes the classifier 杯 before the noun: 一杯凍奶茶."}
+{"id":"food.13","p":"two baskets of shrimp dumplings","why":"兩 + the classifier 籠 before the noun: 兩籠蝦餃."}
+{"id":"food.14","p":"Check, please!","why":"唔該 is the thanks for a service: 唔該埋單！"}
+{"id":"time.01","q":"Which is the Jyutping of 聽日 (tomorrow)?","why":"聽日 is ting1 jat6: tone 1, then tone 6."}
+{"id":"time.02","q":"'What time is it now?' =","why":"而家 (now) + 幾點 (what time): 而家幾點呀？"}
+{"id":"time.03","q":"'Saturday' =","why":"星期 + six: 星期六. 六月 is June."}
+{"id":"time.04","q":"'yesterday' =","why":"琴日 is yesterday, 聽日 tomorrow, 今日 today."}
+{"id":"time.05","q":"'3:10' =","why":"The hour first, then the minutes: 三點十分."}
+{"id":"time.06","p":"I'm going to Hong Kong tomorrow. (start with 我)","why":"Time goes before the verb: 我聽日去香港."}
+{"id":"time.07","p":"We're having dim sum on Saturday. (start with 我哋)","why":"The time word goes before the verb: 我哋星期六飲茶."}
+{"id":"time.08","p":"December 3","why":"Month first, then day: 十二月三號."}
+{"id":"time.09","p":"It's half past three.","why":"點 is o'clock: 三點半."}
+{"id":"time.10","p":"I'm going to Hong Kong tomorrow.","why":"聽日 is tomorrow, and it goes before the verb."}
+{"id":"time.11","p":"Today is December 3.","why":"號 is the day of the month: 十二月三號."}
+{"id":"time.12","p":"I'm going to Hong Kong tomorrow.","why":"Time goes before the verb: 我聽日去香港."}
+{"id":"time.13","p":"I'm having dim sum on Sunday.","why":"The time word goes before the verb: 我星期日飲茶."}
+{"id":"time.14","p":"What time is it now?","why":"而家 (now) comes first, then 幾點."}
+{"id":"routine.01","q":"Which is the Jyutping of 瞓 (to sleep)?","why":"瞓 is fan3, tone 3: mid and level."}
+{"id":"routine.02","q":"'I eat at home in the evening' =","why":"When and where both come before the verb 食飯."}
+{"id":"routine.03","q":"Which word means 'to have lunch'?","why":"食晏 is lunch: 晏晝 is the middle of the day."}
+{"id":"routine.04","q":"'I get off work at six' =","why":"A clock time goes before the verb."}
+{"id":"routine.05","q":"Which question asks 'What time do you go to work?'","why":"幾點 sits where the answer would go, in front of 返工."}
+{"id":"routine.06","p":"I take the MTR to work in the morning (start with 我)","why":"When and how both go before the verb: 朝早 + 搭地鐵 + 返工."}
+{"id":"routine.07","p":"I eat at home in the evening (start with 我)","why":"Time and place go before the verb: 夜晚 + 喺屋企 + 食飯. The place word is 喺, not 係."}
+{"id":"routine.08","p":"What time do you go to bed?","why":"幾點 takes the time slot, before the verb 瞓覺."}
+{"id":"routine.09","p":"I eat at home.","why":"喺 (at, in) brings in the place, and the place comes before 食飯."}
+{"id":"routine.10","p":"I sometimes take the MTR to work.","why":"有時 means sometimes; 每日 is every day and 成日 is often."}
+{"id":"routine.11","p":"What time do you get off work?","why":"放工 is to get off work; 返工 is to go to work."}
+{"id":"routine.12","p":"I take the MTR to work (use 搭)","hint":"how you travel comes first","why":"How you travel goes before the verb: 搭地鐵 + 返工."}
+{"id":"routine.13","p":"I eat at home in the evening","why":"When and where both go before the verb: 夜晚 + 喺屋企 + 食飯."}
+{"id":"routine.14","p":"I get up at seven in the morning","hint":"no word for \"at\"","why":"The time goes before the verb: 朝早七點 + 起身."}
+{"id":"modals.01","q":"Which is the Jyutping of 識 (to know how)?","why":"識 is sik1, tone 1; sik6 with tone 6 is 食 (to eat)."}
+{"id":"modals.02","q":"'I can speak Cantonese' (you learned it) =","why":"識 is for a learned skill and goes right before the verb."}
+{"id":"modals.03","q":"'Can I sit here?' (asking permission) =","why":"可以 is for permission; 識 is for skills."}
+{"id":"modals.04","q":"'You don't need to pay' =","why":"唔使 means no need; 唔可以 means not allowed."}
+{"id":"modals.05","q":"'It will rain tomorrow' =","why":"會 means will, and the time word stays at the front."}
+{"id":"modals.06","p":"I want to work in Hong Kong (start with 我)","why":"The place with 喺 goes before the verb: 想 + 喺香港 + 做嘢."}
+{"id":"modals.07","p":"I'd like a coffee","why":"Coffee in a cup takes the classifier 杯: 飲杯咖啡."}
+{"id":"modals.08","p":"I can't swim (I never learned)","why":"唔識 means you never learned how; 唔可以 means you are not allowed."}
+{"id":"modals.09","p":"I can speak Cantonese. (I learned it.)","why":"識 is for a learned skill like a language."}
+{"id":"modals.10","p":"I really like dim sum.","why":"鍾意 means like; 好鍾意 is really like."}
+{"id":"modals.11","p":"You don't need to pay.","why":"唔使 means no need; 唔要 means you do not want something."}
+{"id":"modals.12","p":"I'd like to buy two books","why":"Books take the classifier 本: 兩本書, after 想買."}
+{"id":"modals.13","p":"I have to go to work at nine tomorrow","hint":"no word for \"at\"","why":"The time goes before the verb: 聽日九點 + 要返工."}
+{"id":"modals.14","p":"I can speak Cantonese (use 識)","why":"識 is for a skill you learned; 可以 is for permission."}
+{"id":"ding-dou.01","q":"Which is the Jyutping of 凍 (iced, cold)?","why":"凍 is dung3, tone 3: mid and level."}
+{"id":"ding-dou.02","q":"'Iced or hot?' (a server asks) =","why":"定 is \"or\" in a question; 或者 is for statements."}
+{"id":"ding-dou.03","q":"'Me too!' =","why":"都 goes after the person, in front of 係."}
+{"id":"ding-dou.04","q":"'A milk tea and a pineapple bun, please' =","why":"同 joins two things: 奶茶同菠蘿包."}
+{"id":"ding-dou.05","q":"'I'm not going either' =","why":"都 comes first, then 唔 and the verb."}
+{"id":"ding-dou.06","p":"I like milk tea too (start with 我)","why":"都 goes before the verb, not at the end like English too."}
+{"id":"ding-dou.07","p":"We're all going (start with 我哋)","why":"With a group, 都 often means all, and it goes before the verb: 我哋都去."}
+{"id":"ding-dou.08","p":"Are you going or not?","why":"定 offers the choice in a question; 或者 is only for statements."}
+{"id":"ding-dou.09","p":"Iced or hot?","why":"In a question that offers a choice, \"or\" is 定."}
+{"id":"ding-dou.10","p":"I'm American too.","why":"都 means also and sits right after the person."}
+{"id":"ding-dou.11","p":"I'll go tomorrow or the day after.","why":"In a statement, \"or\" is 或者."}
+{"id":"ding-dou.12","p":"I like dim sum too","why":"都 goes before the verb, not at the end like English too."}
+{"id":"ding-dou.13","p":"I'm going to Hong Kong too","why":"都 goes before the verb: 我都去香港."}
+{"id":"ding-dou.14","p":"two cups of tea and a cup of coffee","why":"Drinks in cups take the classifier 杯, and 同 joins the two things."}
+{"id":"describing.01","q":"Which is the Jyutping of 貴 (expensive)?","why":"貴 is gwai3, tone 3; gwai2 with tone 2 is 鬼 (ghost)."}
+{"id":"describing.02","q":"'He's tall' =","why":"Adjectives work like verbs: no 係, and 好 goes in front."}
+{"id":"describing.03","q":"What does 好平 mean?","o":["really cheap","good, and cheap","not cheap","cheaper than that"],"why":"好 before an adjective means very, or is just glue: 好平 = really cheap."}
+{"id":"describing.04","q":"'She's taller than me' =","why":"Adjective + 過 + the other person: 佢高過我."}
+{"id":"describing.05","q":"'a really nice top' =","why":"The describer with 嘅 goes right before 衫, and tops take 件."}
+{"id":"describing.06","p":"a really cheap restaurant","why":"The describer with 嘅 goes before the noun, and restaurants take the classifier 間."}
+{"id":"describing.07","p":"This top is really cheap","why":"呢 + classifier + noun: 呢件衫, then 好平 with no 係."}
+{"id":"describing.08","p":"It's hotter today than yesterday","why":"Adjective + 過 + what you compare with: 熱過琴日."}
+{"id":"describing.09","p":"He's tall.","why":"An adjective takes 好 in front, never 係."}
+{"id":"describing.10","p":"She's taller than me.","why":"過 after the adjective means than: 高過我."}
+{"id":"describing.11","p":"This coffee is too sweet.","why":"太 means too: 太甜."}
+{"id":"describing.12","p":"This top is really cheap","why":"呢 + classifier + noun: 呢件衫, then 好平 with no 係."}
+{"id":"describing.13","p":"a really nice top","why":"The describer with 嘅 goes before the noun: 好靚嘅衫, after the classifier 件."}
+{"id":"describing.14","p":"She's taller than me","why":"Adjective + 過 + the other person: 佢高過我."}
+{"id":"zo.01","q":"Which is the Jyutping of 未 (not yet)?","why":"未 is mei6, tone 6: low and level; 美國 (mei5 gwok3) starts with tone 5."}
+{"id":"zo.02","q":"'I didn't go yesterday' =","why":"冇 + verb says it did not happen, and 冇 never takes 咗."}
+{"id":"zo.03","q":"'I haven't eaten yet' =","why":"未 before the verb means not yet."}
+{"id":"zo.04","q":"'Have you taken your medicine yet?' =","why":"咗 goes right after the verb, and 未 at the end asks \"yet?\"."}
+{"id":"zo.05","q":"'I used to eat dim sum a lot' (a habit) =","why":"A past habit takes no 咗: the time word 以前 is enough."}
+{"id":"zo.06","p":"I bought two books","why":"Books take the classifier 本: 買咗兩本書."}
+{"id":"zo.07","p":"I went to the doctor yesterday (start with 我)","why":"Time goes before the verb: 琴日 + 睇咗醫生."}
+{"id":"zo.08","p":"I haven't taken my medicine yet","why":"未 means not yet, and it never takes 咗."}
+{"id":"zo.09","p":"I've caught a cold.","why":"咗 shows the change has happened: 我感冒咗."}
+{"id":"zo.10","p":"I didn't go yesterday.","why":"冇 + verb is for what did not happen."}
+{"id":"zo.11","p":"Have you eaten yet?","why":"…咗…未呀？ asks \"have you … yet?\"."}
+{"id":"zo.12","p":"I bought two books yesterday","why":"Time goes before the verb, and books take the classifier 本."}
+{"id":"zo.13","p":"I didn't go yesterday","why":"冇 + verb for what did not happen, with the time before the verb: 琴日冇去."}
+{"id":"zo.14","p":"I haven't eaten yet","why":"未 means not yet; 冇 means didn't."}
+{"id":"gan-gwo.01","q":"Which is the Jyutping of 緊 (in the middle of)?","why":"緊 is gan2, tone 2: it rises from the middle."}
+{"id":"gan-gwo.02","q":"'I'm eating' =","why":"緊 goes right after the verb, and there is no 係."}
+{"id":"gan-gwo.03","q":"'Have you ever been to Hong Kong?' =","why":"過 right after the verb means you have done it at some point."}
+{"id":"gan-gwo.04","q":"'She's gone to Central' (and is there now) =","why":"咗 says she went and is there; 過 would only mean she has been there before."}
+{"id":"gan-gwo.05","q":"'I've never taken a minibus' =","why":"未 before the verb and 過 after it mean never, so far."}
+{"id":"gan-gwo.06","p":"I'm eating now (start with 我)","why":"Time goes before the verb: 而家 + 食緊飯, with no 係."}
+{"id":"gan-gwo.07","p":"I went to Macau last week (start with 我)","why":"Time goes before the verb: 上個禮拜 + 去咗澳門."}
+{"id":"gan-gwo.08","p":"Have you ever been to Macau?","why":"過 after the verb asks about experience; 未 at the end makes it a question."}
+{"id":"gan-gwo.09","p":"I'm eating now.","why":"緊 after the verb means you are in the middle of it."}
+{"id":"gan-gwo.10","p":"Have you ever been to Hong Kong?","why":"過 asks about experience: 去過 = have been."}
+{"id":"gan-gwo.11","p":"He's never been to Macau.","why":"冇 + verb + 過 means never."}
+{"id":"gan-gwo.12","p":"I'm eating now","why":"Time goes before the verb: 而家 + 食緊飯, with no 係."}
+{"id":"gan-gwo.13","p":"I went to Macau last week","why":"Time goes before the verb: 上個禮拜 + 去咗澳門."}
+{"id":"gan-gwo.14","p":"I've never been to Hong Kong","why":"未 or 冇 before the verb and 過 after it mean never."}
+{"id":"go-come.01","q":"Which is the Jyutping of 嚟 (to come)?","why":"嚟 is lei4, tone 4: low and falling."}
+{"id":"go-come.02","q":"'I take the MTR to Central' =","why":"How you travel goes first: 搭地鐵 + 去中環."}
+{"id":"go-come.03","q":"'Come over to my place!' (an invitation) =","why":"嚟 + place, and 吖 at the end makes it an invitation."}
+{"id":"go-come.04","q":"'I'm going home' =","why":"返 is for going back to a place that is yours, like home."}
+{"id":"go-come.05","q":"On a minibus, how do you tell the driver you want to get off ahead?","why":"前面有落 is the set phrase: \"getting off ahead\"."}
+{"id":"go-come.06","p":"I take the MTR to Central (start with 我)","why":"How you travel goes before the verb: 搭地鐵 + 去中環."}
+{"id":"go-come.07","p":"I go to work by bus (start with 我)","why":"How you travel goes before the verb: 坐巴士 + 返工."}
+{"id":"go-come.08","p":"Come over to my place for dinner!","why":"嚟 is come, toward the speaker, and 吖 makes it an invitation."}
+{"id":"go-come.09","p":"I take the MTR to Central.","why":"去 + place, with no word for \"to\"."}
+{"id":"go-come.10","p":"I go home at six.","why":"返 is for going back to your own place: 返屋企."}
+{"id":"go-come.11","p":"I get off at Central.","why":"落車 is to get off; 上車 is to get on."}
+{"id":"go-come.12","p":"I take the MTR to Central","why":"How you travel goes before the verb: 搭地鐵 + 去中環."}
+{"id":"go-come.13","p":"I walk to work","why":"How you travel goes before the verb: 行路 + 返工."}
+{"id":"go-come.14","p":"I'm going home by taxi","why":"How you travel goes before the verb: 搭的士 + 返屋企."}
+{"id":"directions.01","q":"Which word is hai2 (at, in)?","why":"喺 is hai2, tone 2; 係 is hai6, tone 6 (to be)."}
+{"id":"directions.02","q":"'across from the bank' =","why":"The place word comes after its landmark: 銀行對面."}
+{"id":"directions.03","q":"Which means 'turn left'?","why":"轉左 is turn left; 轉右 is turn right."}
+{"id":"directions.04","q":"'Excuse me, where's the MTR station?' =","why":"Thing + 喺 + 邊度: the question word stays where the answer goes."}
+{"id":"directions.05","q":"In 直行 (go straight), how is 行 read?","why":"行 is haang4 (walk) here; hong4 is its reading in 銀行."}
+{"id":"directions.06","p":"I'll wait for you across from the bank (start with 我)","why":"The place goes before the verb: 喺銀行對面 + 等你."}
+{"id":"directions.07","p":"That bank is across the road","why":"嗰 + classifier + noun: banks take the classifier 間."}
+{"id":"directions.08","p":"Is it far?","why":"A verb-not-verb question asks if it is far: 遠唔遠呀？"}
+{"id":"directions.09","p":"The MTR station is across from the bank.","why":"對面 is across from; it comes after the landmark 銀行."}
+{"id":"directions.10","p":"Excuse me, where's the restroom?","why":"喺 (hai2) means at or in; 係 (hai6) means to be."}
+{"id":"directions.11","p":"Go straight, and turn right at the traffic lights.","why":"轉右 is turn right."}
+{"id":"directions.12","p":"I'll wait for you across from the bank","why":"The place goes before the verb: 喺銀行對面 + 等你."}
+{"id":"directions.13","p":"That restaurant is next to the bank","why":"嗰 + classifier + noun: restaurants take the classifier 間."}
+{"id":"directions.14","p":"Excuse me, where's the MTR station?","why":"Thing + 喺 + 邊度, with 喺 (at), not 係."}
+{"id":"suggest.01","q":"Which is the Jyutping of 吖 (the invitation particle)?","why":"吖 is aa1, tone 1: high; 呀 is aa3, tone 3."}
+{"id":"suggest.02","q":"'How about dim sum?' (an invitation) =","why":"不如 opens the suggestion and 吖 at the end makes it an invitation."}
+{"id":"suggest.03","q":"A friend invites you, but you can't go. The polite answer is:","why":"下次啦 (next time) is the soft way to say no."}
+{"id":"suggest.04","q":"'Don't worry' =","why":"唔好 + verb means don't."}
+{"id":"suggest.05","q":"'Is seven OK?' =","why":"得唔得 asks if a plan is OK, after the time."}
+{"id":"suggest.06","p":"How about going for dim sum tomorrow? (start with 不如)","why":"Time goes before the verb: 聽日 + 去飲茶."}
+{"id":"suggest.07","p":"Let's eat together! (start with 我哋)","why":"一齊 (together) goes before the verb: 一齊食飯."}
+{"id":"suggest.08","p":"Don't worry","why":"唔好 + verb means don't; 冇 is for what did not happen."}
+{"id":"suggest.09","p":"How about going for dim sum?","why":"吖 (or 啦) at the end makes it a friendly suggestion."}
+{"id":"suggest.10","p":"Let's eat together!","why":"一齊 means together and sits before the verb."}
+{"id":"suggest.11","p":"Don't worry.","why":"唔好 + verb means don't; 唔使擔心 (no need to worry) also works."}
+{"id":"suggest.12","p":"How about going for dim sum tomorrow?","why":"Time goes before the verb: 不如 + 聽日 + 去飲茶."}
+{"id":"suggest.13","p":"How about taking a taxi there? (use 不如)","why":"How you travel goes before the verb: 搭的士 + 去."}
+{"id":"suggest.14","p":"Let's go together! (an invitation)","why":"一齊 goes before the verb, and 吖 makes it an invitation."}
