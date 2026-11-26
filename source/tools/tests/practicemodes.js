@@ -54,7 +54,6 @@ T(tag+' "All decks in this category" selects the whole category',allc.n===allc.w
 await p.evaluate(()=>{ [...document.querySelectorAll('#tagPick .chip')].find(x=>/dating/.test(x.textContent)).click(); }); await tick();
 const tg=await p.evaluate(()=>({sel:[...qSel].sort(), want:TAGS.dating.filter(d=>DECKS[d]).sort()}));
 T(tag+' a hashtag still selects its decks in one tap',JSON.stringify(tg.sel)===JSON.stringify(tg.want)&&tg.want.includes('Intimate'),tg);
-await p.evaluate(()=>{ document.querySelectorAll('.toast').forEach(x=>x.remove()); });
 
 /* 3. Learn, then Change deck in the middle of it */
 await p.evaluate(()=>{ qSel=new Set(['Hangul vowels']); S.learnPos={}; S.justLearn=false; quizChips(); document.getElementById('learnStart').click(); }); await tick();
@@ -93,21 +92,54 @@ await p.evaluate(()=>{ location.hash='#today'; }); await tick(200);
 T(tag+' blitz: leaving the page stops the timer',await p.evaluate(()=>window.__live.size===0));
 await p.evaluate(()=>{ location.hash='#practice'; }); await tick(200); await p.evaluate(()=>{ backToSetup(); });
 
-/* 6. Weak spots and the exam have no Change deck */
-await p.evaluate(()=>{ document.getElementById('examStart').click(); }); await tick();
+/* 6. PM-4: every way to practice asks only the picked decks, and has Back and Change deck */
 const on2=i=>p.evaluate(i=>{ const e=document.getElementById(i); return !!e&&e.offsetParent!==null; },i);
-T(tag+' the exam has a Back button and no Change deck',await p.evaluate(()=>!document.getElementById('quizRun').hidden)&&await on2('runBack')&&!(await on2('runDeck')));
+await p.evaluate(()=>{ if(!window.__wrapQ){ window.__wrapQ=1; const oq=renderQuizQ; renderQuizQ=function(c,d,card,m,cb){ window.__asked.push(d); window.__cb=cb; return oq(c,d,card,m,cb); }; const of=renderFlashcard; renderFlashcard=function(c,d,card,cb){ window.__asked.push(d); window.__fcb=cb; return of(c,d,card,cb); }; } window.__asked=[];
+  /* cards in three decks need practice, so a mode that looked beyond the picked deck would show them */ ['Survival phrases','Intimate','Hangul consonants','Hangul vowels'].forEach(k=>DECKS[k].slice(0,6).forEach(c=>{ grade(k,c,false,true,'self'); })); memoClear(); qSel=new Set(['Hangul vowels']); S.learnPos={}; quizChips(); });
+const only=(l,set)=>l.length>0&&l.every(d=>set.includes(d));
+/* exam */
+await p.evaluate(()=>{ window.__asked=[]; }); await p.click('#examStart'); await tick();
+T(tag+' the exam has Back and Change deck',await on2('runBack')&&await on2('runDeck'));
 await shot('exam-back'); T(tag+' exam round does not scroll sideways',!(await wide()));
+for(let i=0;i<24;i++){ await p.evaluate(()=>window.__cb(true)); await tick(15); }
+const ex=await p.evaluate(()=>({asked:window.__asked.slice(), head:document.querySelector('#quizRun .stat').textContent, n:DECKS['Hangul vowels'].length}));
+T(tag+' the exam asks 25 questions, all from the picked deck (Hangul vowels, '+ex.n+' cards)',ex.asked.length===25&&only(ex.asked,['Hangul vowels'])&&/25\/25/.test(ex.head),[ex.asked.length,[...new Set(ex.asked)],ex.head]);
+await p.evaluate(()=>window.__cb(true)); await tick();
+T(tag+' the exam ends with its report',await p.evaluate(()=>!!document.getElementById('exBack')));
+await p.evaluate(()=>{ backToSetup(); window.__asked=[]; }); await p.click('#examStart'); await tick(); await p.click('#runDeck'); await tick(); await p.selectOption('#runSheet select[data-pick="cat"]','Social'); await tick(); await p.selectOption('#runSheet select[data-pick="deck"]','Intimate'); await tick(200);
+for(let i=0;i<5;i++){ await p.evaluate(()=>window.__cb(true)); await tick(15); }
+const ex2=await p.evaluate(()=>({asked:window.__asked.slice(), head:document.querySelector('#quizRun .stat').textContent}));
+T(tag+' exam: Change deck starts a new exam on the new deck',/Exam/.test(ex2.head)&&only(ex2.asked.slice(1),['Intimate'])&&ex2.asked[0]==='Hangul vowels',[ex2.head,ex2.asked]);
 await p.click('#runBack'); await tick();
 T(tag+' Back returns to the Practice start screen',await p.evaluate(()=>document.getElementById('quizRun').hidden&&!document.getElementById('quizSetup').hidden)&&!(await on2('runBar')));
-await p.evaluate(()=>{ const k=Object.keys(DECKS)[0]; DECKS[k].slice(0,6).forEach(c=>{ grade(k,c,false,true,'self'); }); memoClear(); quizChips(); document.getElementById('weakStart').click(); }); await tick();
-const wk=await p.evaluate(()=>!document.getElementById('quizRun').hidden);
-T(tag+' Weak spots has a Back button and no Change deck',wk&&await on2('runBack')&&!(await on2('runDeck')),wk);
-await p.click('#runBack'); await tick();
-T(tag+' Back leaves Weak spots',await p.evaluate(()=>document.getElementById('quizRun').hidden));
-await p.evaluate(()=>{ document.getElementById('learnStart').click(); }); await tick();
+/* weak spots */
+await p.evaluate(()=>{ qSel=new Set(['Hangul vowels']); quizChips(); window.__asked=[]; });
+const wkN=await p.evaluate(()=>({btn:document.getElementById('weakStart').textContent, picked:weakPicked().length, all:weakAll().length}));
+T(tag+' Weak spots counts the picked deck only',wkN.picked===6&&wkN.all>=24&&wkN.btn==='Weak spots · 6',wkN);
+await p.click('#weakStart'); await tick();
+T(tag+' Weak spots has Back and Change deck',await on2('runBack')&&await on2('runDeck'));
+for(let i=0;i<40;i++){ const more=await p.evaluate(()=>{ if(document.querySelector('#qBtns')) return false; window.__cb(true); return true; }); if(!more) break; await tick(15); }
+const wk=await p.evaluate(()=>window.__asked.slice());
+T(tag+' Weak spots asks only cards of the picked deck',wk.length>=6&&only(wk,['Hangul vowels']),[wk.length,[...new Set(wk)]]);
+await p.evaluate(()=>{ backToSetup(); qSel=new Set(['Hangul · advanced']); quizChips(); });
+T(tag+' Weak spots is off when the picked deck has nothing to practice',await p.evaluate(()=>document.getElementById('weakStart').disabled&&document.getElementById('weakStart').textContent==='Weak spots'));
+/* blitz and learn */
+await p.evaluate(()=>{ qSel=new Set(['Hangul vowels']); quizChips(); window.__asked=[]; }); await p.click('#blitzStart'); await tick();
+for(let i=0;i<30;i++){ await p.evaluate(()=>window.__cb(true)); await tick(10); }
+const bz=await p.evaluate(()=>window.__asked.slice());
+T(tag+' the blitz asks only cards of the picked deck',bz.length>=30&&only(bz,['Hangul vowels']),[...new Set(bz)]);
+await p.evaluate(()=>{ backToSetup(); window.__asked=[]; S.learnPos={}; S.justLearn=false; quizChips(); }); await p.click('#learnStart'); await tick();
+for(let i=0;i<5;i++){ await p.evaluate(()=>window.__fcb(true)); await tick(15); }
+for(let i=0;i<60;i++){ const more=await p.evaluate(()=>{ if(document.querySelector('#qBtns')) return false; window.__cb(true); return true; }); if(!more) break; await tick(15); }
+const ln=await p.evaluate(()=>window.__asked.slice());
+T(tag+' Learn shows and quizzes only cards of the picked deck',ln.length>=10&&only(ln,['Hangul vowels']),[ln.length,[...new Set(ln)]]);
 T(tag+' Learn has both Back and Change deck',await on2('runBack')&&await on2('runDeck'));
-await p.evaluate(()=>{ backToSetup(); });
+/* several decks picked: nothing outside them */
+await p.evaluate(()=>{ backToSetup(); qSel=new Set(['Hangul vowels','Intimate']); quizChips(); window.__asked=[]; }); await p.click('#examStart'); await tick();
+for(let i=0;i<24;i++){ await p.evaluate(()=>window.__cb(true)); await tick(10); }
+const ex3=await p.evaluate(()=>window.__asked.slice());
+T(tag+' exam with two decks picked asks those two only',ex3.length===25&&only(ex3,['Hangul vowels','Intimate'])&&new Set(ex3).size===2,[...new Set(ex3)]);
+await p.evaluate(()=>{ backToSetup(); qSel=new Set(['Hangul vowels']); S.learnPos={}; quizChips(); });
 
 /* 7. Settings on Practice */
 await p.click('#setBtn'); await tick();

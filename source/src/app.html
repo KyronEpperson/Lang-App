@@ -582,7 +582,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.129.0 · 2026-11-26';
+const APP_VERSION='2.130.0 · 2026-11-26';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -2861,13 +2861,13 @@ function learnLoop(){
     card(); };
   teach(); }
 $('learnStart').onclick=learnLoop;
-/* PM-1: Change deck while Learn or the blitz runs. The bar above the round shows the decks in play; the sheet holds the hashtags and the two dropdowns; a pick restarts the same mode on the new decks (Learn positions are saved per deck, so nothing is lost). Weak spots and the exam are not tied to the picked decks, so they have no bar. */
+/* PM-1: Change deck while Learn or the blitz runs. The bar above the round shows the decks in play; the sheet holds the hashtags and the two dropdowns; a pick restarts the same mode on the new decks (Learn positions are saved per deck, so nothing is lost). Since PM-4 Weak spots and the exam use the picked decks too. */
 function runHalt(){ if(runStop){ const f=runStop; runStop=null; f(); } }
 function runSet(m){ runMode=m; runBarSync(); }
 function runBarSync(){ const b=$('runBar'); if(!b) return; b.hidden=$('quizRun').hidden; $('runDeck').hidden=!runMode; const l=[...qSel]; $('runDeckN').textContent=!runMode?'':l.length>2?l.length+' decks selected':l.join(' + '); } /* the bar is on every round and result screen: Back always (owner: where there is no Change deck there should be a back button), the decks and Change deck only in Learn and blitz */
 function runDeckSheet(){ closeSheet(); const sh=document.createElement('div'); sh.className='sheet'; sh.id='runSheet'; sh.setAttribute('role','dialog'); sh.setAttribute('aria-modal','true'); sh.setAttribute('aria-label','Deck');
   sh.innerHTML=`<div class="sheet-in" style="gap:10px"><div class="row" style="flex-wrap:nowrap"><h3 style="margin:0">Deck</h3><button class="ghost" type="button" data-x aria-label="Close" style="padding:4px 10px">✕</button></div><div class="modes" data-tags style="width:auto"></div><div class="decks" data-sel></div></div>`;
-  const go=l=>{ if(l.reduce((a,d)=>a+DECKS[d].length,0)<4){ toast('Pick a deck with at least 4 cards.'); return; } const m=runMode; qSel=new Set(l); quizTouched=true; delete pickCat.practice; closeSheet(); runHalt(); if(cleanup){ cleanup(); cleanup=null; } if(m==='blitz') $('blitzStart').click(); else learnLoop(); };
+  const go=l=>{ if(l.reduce((a,d)=>a+DECKS[d].length,0)<4){ toast('Pick a deck with at least 4 cards.'); return; } const m=runMode; qSel=new Set(l); quizTouched=true; delete pickCat.practice; closeSheet(); runHalt(); if(cleanup){ cleanup(); cleanup=null; } if(m==='blitz') $('blitzStart').click(); else if(m==='exam') $('examStart').click(); else if(m==='weak'){ if(weakPicked().length<2){ toast('Not enough weak cards yet. Do a session first.'); backToSetup(); } else $('weakStart').click(); } else learnLoop(); };
   tagChips(sh.querySelector('[data-tags]'),t=>go(tagSet(t))); const draw=()=>deckSelects(sh.querySelector('[data-sel]'),'run',[...qSel],v=>go(Array.isArray(v)?v:[v]),{all:true, refresh:draw}); delete pickCat.run; draw();
   document.body.appendChild(sh); sh.addEventListener('click',e=>{ if(e.target===sh||e.target.closest('[data-x]')) closeSheet(); }); setTimeout(()=>{ const d=sh.querySelector('select'); if(d){ try{ d.focus({preventScroll:true}); }catch(e){} } },30); }
 $('runDeck').onclick=runDeckSheet; $('runBack').onclick=()=>{ closeSheet(); if(cleanup){ cleanup(); cleanup=null; } if('speechSynthesis' in window) speechSynthesis.cancel(); backToSetup(); };
@@ -2875,8 +2875,9 @@ document.addEventListener('keydown',e=>{ const sh=$('runSheet'); if(!sh) return;
 new MutationObserver(runBarSync).observe($('quizRun'),{attributes:true,attributeFilter:['hidden']});
 $('justLearn').addEventListener('change',e=>{ S.justLearn=!!e.target.checked; save(); });
 $('firstStart').onclick=()=>{ const wait=memWaiting([...qSel]); if(wait.length<2){ quizChips(); return; } practiceFirst(wait); }; /* MEM-2 */
-$('examStart').onclick=()=>{ const pool=[]; names.filter(d=>deckUnlocked(d)&&DECKS[d].length>=4).forEach(d=>DECKS[d].forEach(c=>pool.push({d,c}))); if(pool.length<25){ toast('Unlock a few more decks first.'); return; } userTouched=true; runHalt(); runSet(null);
-  const qs=shuffle(pool).slice(0,25).map(x=>({...x,mode:pick(koVoice?['read','recall','listen']:['read','recall'])})); const run=$('quizRun'); $('quizSetup').hidden=true; run.hidden=false; let i=0; const results=[];
+$('examStart').onclick=()=>{ const pool=[]; [...qSel].forEach(d=>DECKS[d].forEach(c=>pool.push({d,c}))); if(pool.length<4){ toast('Pick a deck with at least 4 cards.'); return; } userTouched=true; runHalt(); runSet('exam'); /* PM-4: the exam asks the picked decks only */
+  const order=[]; while(order.length<25){ const lap=shuffle(pool.slice()); if(order.length&&lap.length>1&&lap[0].c===order[order.length-1].c) lap.push(lap.shift()); order.push(...lap); } /* 25 questions; a deck of fewer cards is gone through again in a new order, never the same card twice in a row */
+  const qs=order.slice(0,25).map(x=>({...x,mode:pick(koVoice?['read','recall','listen']:['read','recall'])})); const run=$('quizRun'); $('quizSetup').hidden=true; run.hidden=false; let i=0; const results=[];
   const step=()=>{ if(cleanup){cleanup();cleanup=null;} if(i>=qs.length){ report(); return; } const q=qs[i];
     run.innerHTML=`<div class="row" style="flex-wrap:nowrap"><span class="stat">📝 Exam · ${i+1}/25 · ${q.mode}</span><span class="stat">no feedback until the end</span></div><div class="bar" style="margin:8px 0 4px"><i style="width:${i/25*100}%"></i></div><div class="qbody"></div>`;
     const body=run.querySelector('.qbody'); cleanup=renderQuizQ(body,q.d,q.c,q.mode,ok=>{ results.push({...q,ok}); i++; step(); });
@@ -2901,8 +2902,9 @@ $('regStart').onclick=()=>{ userTouched=true; runHalt(); runSet(null); const run
 function weakAll(){ /* MEM-2: Weak spots is the needs-practice list (not suspended, not buried for today). The cards not yet answered right today come first, the most at risk first; overconfident ones go before the rest */
   const t=dayNum(), wk='weak|'+t; if(memo[wk]) return memo[wk]; const l=[]; names.forEach(d=>DECKS[d].forEach(c=>{ const s=cardState(d,c); if(s&&s.bury!==t) l.push({d,c}); })); const r=memRank(l,['practice']), ov=x=>(cardState(x.d,x.c)||{}).over?1:0; return memo[wk]=r.filter(ov).concat(r.filter(x=>!ov(x))); }
 function weakPool(){ return weakAll().slice(0,20); } /* one run takes the 20 most at risk */
-$('weakStart').onclick=()=>{ const pool=weakPool(); if(pool.length<2){ toast('Not enough weak cards yet. Do a session first.'); return; } runQuiz(pool,'Weak spots',(s,t)=>quizResult(s,t,'Weak spots · '+pool.length+' cards',[{label:'Again',cls:'primary',fn:()=>$('weakStart').click()},{label:'Back',cls:'ghost',fn:backToSetup}])); };
-function refreshWeak(){ const n=weakAll().length; const b=$('weakStart'); b.textContent='Weak spots'+(n?' · '+n:''); b.disabled=n<2; b.style.opacity=n<2?.5:1; }
+function weakPicked(){ return weakAll().filter(x=>qSel.has(x.d)); } /* PM-4: the needs-practice cards of the picked decks */
+$('weakStart').onclick=e=>{ let pool=weakPicked().slice(0,20), mine=true; if(pool.length<2&&!(e&&e.isTrusted)){ pool=weakPool(); mine=false; } /* a shortcut pressed the button: every deck */ if(pool.length<2){ toast('Not enough weak cards yet. Do a session first.'); return; } runQuiz(pool,'Weak spots',(s,t)=>quizResult(s,t,'Weak spots · '+pool.length+' cards',[{label:'Again',cls:'primary',fn:()=>$('weakStart').click()},{label:'Back',cls:'ghost',fn:backToSetup}])); if(mine) runSet('weak'); };
+function refreshWeak(){ const n=weakPicked().length; const b=$('weakStart'); b.textContent='Weak spots'+(n?' · '+n:''); b.disabled=n<2; b.style.opacity=n<2?.5:1; }
 
 
 // ===================== HANGUL TAB =====================
