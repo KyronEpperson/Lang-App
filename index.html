@@ -106,7 +106,7 @@ nav a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visibl
 .ghost{background:none;border:1px solid var(--line);color:var(--muted);border-radius:8px;padding:7px 11px;font:500 .78rem var(--body);cursor:pointer}
 select.ghost{color:var(--ink);background:var(--paper)}
 select.dsel{flex:1 1 150px;min-width:0;max-width:100%;padding:10px 12px;border-radius:10px;font-size:.92rem;min-height:44px}
-#learnStart,#examStart{color:color-mix(in srgb,var(--ok) 60%,var(--ink))}#learnStart{background:var(--ok-soft)}#examStart{background:color-mix(in srgb,var(--ok-soft) 78%,var(--ok))}
+#learnStart,#examStart{color:color-mix(in srgb,var(--ok) 60%,var(--ink))}#learnStart{background:var(--ok-soft)}#examStart{background:linear-gradient(90deg,transparent 0 33px,color-mix(in srgb,#d2553f 65%,transparent) 33px 34.5px,transparent 34.5px),repeating-linear-gradient(180deg,transparent 0 8px,color-mix(in srgb,var(--ok) 24%,transparent) 8px 9px),color-mix(in srgb,var(--ok-soft) 78%,var(--ok));background-position:0 0,0 3px,0 0}[dir=rtl] #examStart{background-image:linear-gradient(270deg,transparent 0 33px,color-mix(in srgb,#d2553f 65%,transparent) 33px 34.5px,transparent 34.5px),repeating-linear-gradient(180deg,transparent 0 8px,color-mix(in srgb,var(--ok) 24%,transparent) 8px 9px)}
 #runBar{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:8px}#runBar[hidden]{display:none!important}#runDeckN{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}#runDeckN{flex:1 1 auto;text-align:center}#runDeck,#runBack{white-space:nowrap;flex:none}#runDeck[hidden]{display:none!important}
 .bar{height:6px;background:var(--line);border-radius:3px;overflow:hidden}
 .bar i{display:block;height:100%;background:var(--ok);width:0;transition:width .3s}
@@ -608,7 +608,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.127.0 · 2026-11-25';
+const APP_VERSION='2.128.0 · 2026-11-25';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields

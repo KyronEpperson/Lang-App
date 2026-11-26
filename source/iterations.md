@@ -1700,3 +1700,6 @@ All 26 English courses: 26 flip tiles under the letter-name table of lesson 1. N
 
 ### PM-2 — green Learn and Exam buttons (2.127.0)
 Kii asked for a light green Learn button and a slightly darker green Exam button on Practice. Done with the theme's own green tokens so the dark theme follows. Contrast measured in both themes (4.6 to 6.9).
+
+### PM-3 — Exam button as lined paper (2.128.0)
+Kii, on seeing the green buttons: "maybe make exam look like sheet paper but that color is fine". Ruled lines and a red margin line over the same green, CSS only.
