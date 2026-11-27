@@ -1715,3 +1715,11 @@ Kii: "that sounds like only one or two agents cant we use more agents to build f
 
 ### FND-1 — batch 6 (2.135.0): Taiwanese, the last course
 Kii chose "Keep characters with Tâi-lô" on a decision card. en-nan gets its foundation in lessons 1 to 3 and 7. With it all 71 courses open with their writing system and the waiting list in the release test is empty. Not tested: native speakers, real phones.
+
+## DO-1 (2.136.0, 2026-11-27) — prompt
+Owner: "also lets add dominican spanish", "for english speakers", "and vice versa". Rewritten: add Dominican Spanish as a variety of Spanish, both ways (en-esdo and sdo-en), hand-built like the Puerto Rican pair from the standard Spanish courses, to the current standard from the start (lesson flow, writing-system lesson first, section-matched cards); variety = educated Santo Domingo speech in standard spelling; writers and reviewers on Opus, interface on Sonnet, checks by script; release without native review.
+
+## DO-1 — results
+- en-esdo: 31 lessons (6 new), 34 decks (6 new), 1,007 cards; review 22 findings applied; e2e 31 lessons; foundations and sections checks pass.
+- sdo-en: 43 lessons (1 new, `dominicanismos`), 14 new cards; parity with es-en PASS; review 10 edits.
+- Open: pron mode (careful now; owner asked), no Dominican recordings, native review. Details in docs/HANDOFF.md.

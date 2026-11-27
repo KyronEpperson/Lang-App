@@ -1,4 +1,4 @@
-# Audio coverage (as of release 2.135.0)
+# Audio coverage (as of release 2.136.0)
 
 **7703 sentences have no recorded clip yet** (about 206080 characters to generate over all voices); they are spoken by the device voice until the clips are made.
 
@@ -16,4 +16,4 @@
 
 "Missing" = sentences the current courses can speak that have no clip in that voice. "Unused clips" = clips on disk whose sentence no course speaks any more (safe to delete). The sentence lists (`audio/<lang>/manifest.json`) were refreshed for this release, so `node source/tools/audio/gen_elevenlabs.js <lang> --gender=f` (and `m`) makes exactly the missing clips; add `--dry` first to see the count and the credits.
 
-Languages with a sentence list but no clips yet: am 794 · bn 1415 · ceb 1571 · cs 1547 · da 1512 · de 1816 · en 2836 · hi 1642 · id 1839 · ja 1766 · kn 1566 · nan 1030 · nl 1399 · no 1344 · pa 1681 · pl 1537 · ptpt 1469 · ru 1766 · sv 1496 · te 1544 · tl 1467 · ur 1552 · yue 1615
+Languages with a sentence list but no clips yet: am 794 · bn 1415 · ceb 1571 · cs 1547 · da 1512 · de 1816 · en 2889 · hi 1642 · id 1839 · ja 1766 · kn 1566 · nan 1030 · nl 1399 · no 1344 · pa 1681 · pl 1537 · ptpt 1469 · ru 1766 · sv 1496 · te 1544 · tl 1467 · ur 1552 · yue 1615

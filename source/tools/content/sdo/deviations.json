@@ -1,0 +1,24 @@
+{
+ "lessons": {},
+ "items": {
+  "pron#5": "sdo.md §8.2 setting",
+  "be#5": "sdo.md §8.2 setting",
+  "be#8": "sdo.md §8.2 setting",
+  "be#check1": "sdo.md §8.2 setting",
+  "prep#4": "sdo.md §8.2 setting",
+  "idioms#12": "sdo.md §8.3 typed-answer pass",
+  "present#2": "sdo.md §8.2 setting",
+  "object-have#10": "sdo.md §8.2 setting",
+  "going-to#0": "sdo.md §8.2 setting",
+  "false-friends#8": "sdo.md §8.2 setting",
+  "false-friends#check1": "sdo.md §8.2 setting"
+ },
+ "decks": {
+  "1": "sdo.md §8.2 setting: I'm from the Dominican Republic. / I live in Santo Domingo.",
+  "22": "sdo.md §9: renamed; 14 dominicanismo cards added"
+ },
+ "extraLessons": [
+  "dominicanismos"
+ ],
+ "droppedLessons": []
+}

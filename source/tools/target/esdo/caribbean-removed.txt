@@ -1,0 +1,86 @@
+=== lesson caribbean (en-es) ===
+  {
+    id: "caribbean",
+    title: "Hearing Caribbean Spanish",
+    blurb: "Recognize words you already know in fast Dominican and Caribbean speech, plus four everyday local words.",
+    deck: "Caribbean and Dominican Spanish",
+    body: `
+<p>Everything you have learned works in the Dominican Republic, Puerto Rico and Cuba. What changes most is the sound: Caribbean Spanish is fast, and it softens or drops sounds at the end of syllables. This lesson trains your ear. Keep speaking and writing the standard forms you know; you will be understood everywhere.</p>
+<h3>The disappearing s</h3>
+<p>At the end of a syllable, <b>s</b> often turns into a soft breath, like English "h", or disappears. <b>Los niños</b> can sound like "lo niño", and <b>¿Cómo estás?</b> like "¿Cómo 'tá?". The <b>s</b> is still there in writing and in the grammar, so use the article and the verb to tell that something is plural.</p>
+{{ex:Los niños están en la casa.|lohs NEE-nyohs ehs-TAHN ehn lah KAH-sah|The kids are in the house.}}
+{{ex:¿Cómo estás?|KOH-moh ehs-TAHS|How are you?}}
+<h3>-ado becomes -ao</h3>
+<p>In relaxed speech, the <b>d</b> in <b>-ado</b> softens until it is gone: <b>cansado</b> sounds like "cansao". You will hear this in other countries too, but it is very strong in the Caribbean.</p>
+{{ex:Estoy muy cansado.|ehs-TOY mwee kahn-SAH-doh|I'm very tired.}}
+<h3>r at the end of a syllable</h3>
+<p>Regional (Dominican): in Santo Domingo, an <b>r</b> at the end of a syllable often sounds like <b>l</b>, so <b>porque</b> sounds like "polque". In the Cibao region in the north, it can become an "ee" sound: "poique".</p>
+{{ex:Voy a comer porque tengo hambre.|boy ah koh-MEHR POHR-keh TEHN-goh AHM-breh|I'm going to eat because I'm hungry.}}
+<h3>tú before the verb in questions</h3>
+<p>Regional (Dominican): textbook Spanish says <b>¿Cómo estás?</b> or <b>¿Cómo estás tú?</b>, with any pronoun after the verb. Dominicans often put <b>tú</b> before the verb. The verb still agrees with <b>tú</b>, so it's written <b>quieres</b> with an <b>s</b>, even when you don't hear it.</p>
+{{ex:¿Cómo tú estás?|KOH-moh too ehs-TAHS|How are you?}}
+{{ex:¿Qué tú quieres?|keh too KYEH-rehs|What do you want?}}
+<h3>Four everyday words</h3>
+<div class="tbl"><table><tr><th>Caribbean</th><th>English</th><th>Elsewhere</th></tr><tr><td class="k">la guagua</td><td>the bus</td><td class="k">el autobús, el camión</td></tr><tr><td class="k">el colmado</td><td>the corner store</td><td class="k">la tienda</td></tr><tr><td class="k">un chin</td><td>a little bit</td><td class="k">un poco</td></tr><tr><td class="k">la vaina</td><td>the thing, stuff (informal)</td><td class="k">la cosa</td></tr></table></div>
+{{ex:Voy a tomar la guagua.|boy ah toh-MAHR lah GWAH-gwah|I'm going to take the bus.}}
+{{ex:Quiero un chin de café.|KYEH-roh oon cheen deh kah-FEH|I want a little coffee.}}
+<p>When you speak, standard Spanish is always right. If you use a local word, a Dominican friend will smile and understand.</p>
+<div class="tip">Don't write what you hear. In writing and in typed answers, use the standard spelling: <b>Estoy cansao</b> → <b>Estoy cansado</b>.</div>
+`,
+    check: [
+      ["A Dominican friend says \"¿Cómo tú 'tá?\" (written ¿Cómo tú estás?). She means…",["How are you?","Where are you?","Who are you?","How old are you?"],0,"It's ¿Cómo estás? with tú before the verb and the s softened."],
+      ["In Santo Domingo you hear \"polque\". Which word is it?",["pulque","porque","pollo","parque"],1,"r at the end of a syllable can sound like l: porque."],
+      ["What is a guagua?",["a dog","a corner store","a bus","a little bit"],2,"Regional (Caribbean): la guagua is the bus."]
+    ],
+    practice: [
+      ["mc","You hear \"lo niño 'tán aquí\". What was said?","Los niños están aquí.","El niño está aquí.","Lo niño está aquí.","Los niño está aquí.","The s is not heard, but están shows there is more than one child."],
+      ["mc","\"Estoy cansao\" is how many Caribbean speakers say…","Estoy cansado.","Estoy cansada.","Estoy cansando.","Estoy en casa.","-ado often sounds like -ao in relaxed speech."],
+      ["mc","\"¿Qué tú quieres?\" in textbook Spanish is…","¿Qué quieres?","¿Qué quiere?","¿Qué tú quiere?","¿Qué quieren?","Only the order changes; quieres stays the same."],
+      ["mc","At a colmado you can…","buy groceries and drinks","catch a bus","see a doctor","rent a car","Regional (Dominican): el colmado is the corner store."],
+      ["mc","\"Quiero un chin de café\" means…","I want a little coffee.","I want a lot of coffee.","I want a cold coffee.","I want a coffee cup.","Regional (Dominican): un chin = a little bit."],
+      ["or","What do you want? (Dominican style)","Qué | tú | quieres","quiere","tú goes before the verb in Dominican questions, and quieres is still the tú form."],
+      ["or","How are you? (Dominican style)","Cómo | tú | estás","está","estás is the tú form: the verb ending matches the subject even when the s is not heard."],
+      ["or","I'm going to take the bus (Caribbean word)","Voy a tomar la guagua","el va","guagua is feminine: la guagua, and voy is the yo form."],
+      ["fi","¿Qué tú __?","What do you want? (Dominican style)","quieres","quiere|quiero|quieren","With tú, write quieres in full, even if the s is not heard."],
+      ["fi","Voy al __ a comprar pan.","I'm going to the corner store to buy bread.","colmado","guagua|chin|vaina","el colmado is the corner store; al = a + el."],
+      ["fi","Los niños __ cansados.","The kids are tired.","están","está|son|es","How someone is right now uses estar, and los niños takes están."],
+      ["ty","How are you? (Dominican style, to a friend)","¿Cómo tú estás?|¿Cómo estás?|¿Cómo estás tú?","cómo · tú · estar · tú before the verb","está","estás is the tú form: write the s even when it is dropped in speech.","!strict"],
+      ["ty","What do you want? (Dominican style, to a friend)","¿Qué tú quieres?|¿Qué quieres?|¿Qué quieres tú?","qué · tú · querer","quiere","quieres is the tú form, written in full.","!strict"],
+      ["ty","I'm very tired (a man speaking; standard spelling)","Estoy muy cansado|Yo estoy muy cansado","estar · muy · cansado","cansao cansada","cansado agrees with a man speaking; write the d you don't hear."]
+    ]
+  }
+
+=== deck (en-es) ===
+  "Caribbean and Dominican Spanish": `
+    ¿Cómo tú estás? | KOH-moh too ehs-TAHS | How are you? | Regional (Dominican): pronoun before the verb in questions. Textbook: ¿Cómo estás? Often heard as ¿Cómo tú 'tá?
+    la guagua | lah GWAH-gwah | the bus | Regional (Caribbean). Mexico: el camión; general: el autobús.
+    un chin | oon cheen | a little bit | Regional (Dominican): Dame un chin de jugo = Give me a little juice. General: un poquito.
+    el colmado | ehl kohl-MAH-doh | the corner store | Regional (Dominican): the neighborhood shop. General: la tienda de la esquina. Often heard as colmao, without the d.
+    esa vaina | EH-sah BAI-nah | that thing | Regional (Caribbean), informal: vaina = thing, stuff, situation. General: esa cosa.
+    ¿Qué tú quieres? | keh too KYEH-rehs | What do you want? | Regional (Dominican): pronoun before the verb. Textbook: ¿Qué quieres? The final s is often not heard: ¿Qué tú quiere?
+    el zafacón | ehl sah-fah-KOHN | the trash can | Regional (Dominican): also heard in Puerto Rico. Mexico: el bote de basura.
+    la yipeta | lah yee-PEH-tah | the SUV | Regional (Dominican). General: la camioneta.
+    el motoconcho | ehl moh-toh-KOHN-choh | the motorcycle taxi | Regional (Dominican). General: el mototaxi.
+    la chinola | lah chee-NOH-lah | passion fruit | Regional (Dominican). Mexico: el maracuyá.
+    la lechosa | lah leh-CHOH-sah | papaya | Regional (Dominican): also heard in Venezuela. General: la papaya.
+    mi pana | mee PAH-nah | my buddy | Regional (Caribbean), informal: pana = buddy, friend. Mexico: mi cuate; general: mi amigo.
+    Está nítido. | ehs-TAH NEE-tee-doh | It's great. | Regional (Dominican), informal: nítido = great, cool. General: Está muy bien. Often heard as 'tá nítido.
+    el mangú | ehl mahn-GOO | mashed plantains | Regional (Dominican): the classic breakfast dish of boiled green plantains.
+    las habichuelas | lahs ah-bee-CHWEH-lahs | beans | Regional (Caribbean). Mexico: los frijoles. In fast speech the s sounds are often dropped.
+    el aposento | ehl ah-poh-SEHN-toh | the bedroom | Regional (Dominican). Elsewhere aposento sounds formal or old-fashioned. General: el cuarto, la habitación.
+  `
+
+=== extra-b.js row ===
+¿Qué tú quieres? | Yanelis, ¿qué tú quieres del colmado? | Un jugo de chinola, por favor. | Yanelis, what do you want from the corner store? / A passion fruit juice, please.
+
+=== extra-b.js row ===
+la guagua | ¿Cómo vas al trabajo? | Tomo la guagua en la esquina. | How do you get to work? / I take the bus on the corner.
+
+=== extra-b.js row ===
+Está nítido. | Wilson, ¿qué tal tu carro nuevo? | ¡Está nítido! | Wilson, how's your new car? / It's great!
+
+=== extra-b.js row ===
+el colmado | Voy al colmado a comprar pan y un chin de café. | I'm going to the corner store to buy bread and a little coffee.
+
+=== extra-b.js row ===
+el motoconcho | En Santiago tomamos un motoconcho para ir al centro. | In Santiago we took a motorcycle taxi to go downtown.

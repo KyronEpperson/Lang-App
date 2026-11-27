@@ -1,10 +1,10 @@
 import os,glob,re
 N={'en':'English','es':'Spanish','zh':'Mandarin','yue':'Cantonese','nan':'Taiwanese','ja':'Japanese','ko':'Korean','vi':'Vietnamese','th':'Thai','hmn':'Hmong','id':'Indonesian','tl':'Tagalog','ceb':'Cebuano','pt':'Portuguese','fr':'French','it':'Italian','de':'German','ar':'Arabic','am':'Amharic',
-'hi':'Hindi','bn':'Bengali','ur':'Urdu','pa':'Punjabi','te':'Telugu','kn':'Kannada','mr':'Marathi','ru':'Russian','pl':'Polish','cs':'Czech','spr':'Puerto Rican Spanish'}
+'hi':'Hindi','bn':'Bengali','ur':'Urdu','pa':'Punjabi','te':'Telugu','kn':'Kannada','mr':'Marathi','ru':'Russian','pl':'Polish','cs':'Czech','spr':'Puerto Rican Spanish','sdo':'Dominican Spanish'}
 T=['yue','vi','zh','ko','ja','nan','th','hmn','id','tl','ceb']
 have=set(os.path.basename(f)[7:-3] for f in glob.glob('packs/course-*.js'))
 ui=set(os.path.basename(f)[5:-3] for f in glob.glob('packs/i18n-*.js'))|{'en'}
-W1=['en','es']; W2=['zh','yue','nan','ja','ko','vi','th','hmn','id','tl','ceb']; W3=['pt','fr','it','de','ar','am']; W4=['hi','bn','ur','pa','te','kn','mr','ru','pl','cs','spr']
+W1=['en','es']; W2=['zh','yue','nan','ja','ko','vi','th','hmn','id','tl','ceb']; W3=['pt','fr','it','de','ar','am']; W4=['hi','bn','ur','pa','te','kn','mr','ru','pl','cs','spr','sdo']
 o=[]
 o.append('# Pending courses: East and Southeast Asian languages\n')
 o.append('Owner, 2026-11-25: "lets go east asia and southeast asia. english, spanish first. then the asian countries not india group. then portuguese, french, italian, german, arabic, and amharic then put the rest in a file saying that its pending work to do". This file is that list. **Everything marked pending is work still to do.** Update it in the release that builds a pair.\n')

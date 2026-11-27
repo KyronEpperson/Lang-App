@@ -86,5 +86,6 @@ The India group and the remaining interface languages. Not started; no order set
 | Polish | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending |
 | Czech | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending |
 | Puerto Rican Spanish (no interface yet) | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending |
+| Dominican Spanish (no interface yet) | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending |
 
 Counted on 2026-11-25 from `packs/`: regenerate with `python3 tools/curriculum/pending_courses.py` (run in the build home) after a pair is released; the lists of finished foundations and halves are at the top of that script.

@@ -36,6 +36,7 @@ const FOUND={'en-ja':{lessons:['hiragana','sounds','katakana'],letters:[...HIRA+
  'en-pt':{lessons:['sounds'],letters:[],tilesOnly:[...'abcdefghijklmnopqrstuvwxyzçáâãàéêíóôõú'],words:['sounds']},
  'en-ptpt':{lessons:['vowels'],letters:[],tilesOnly:[...'abcdefghijklmnopqrstuvwxyzç'],words:['vowels']},
  'en-espr':{lessons:['sounds'],letters:[],tilesOnly:[...'abcdefghijklmnñoprstuvwxyz','qu'],words:['sounds']},
+ 'en-esdo':{lessons:['sounds'],letters:[],tilesOnly:[...'abcdefghijklmnñoprstuvwxyz','qu'],words:['sounds']},
  'en-nl':{lessons:['vowels'],letters:[],tilesOnly:[...'abcdefghijklmnopqrstuvwxyz','ij'],words:['vowels']},
  'en-da':{lessons:['alphabet'],letters:[],tilesOnly:[...'abcdefghijklmnopqrstuvwxyzæøå'],words:['alphabet']},
  'en-no':{lessons:['alphabet'],letters:[],tilesOnly:[...'abcdefghijklmnopqrstuvwxyzæøå'],words:['alphabet']},
@@ -53,7 +54,7 @@ const FOUND={'en-ja':{lessons:['hiragana','sounds','katakana'],letters:[...HIRA+
 /* older courses whose foundation is not built yet (docs/HANDOFF.md, "Character foundations"). This list only gets shorter. */
 const PENDING=[]; /* empty since 2.135.0: every older course has its foundation */
 /* English for X: lesson 1 `alphabet`, the 26 letters on cards (the letter names) and on tiles */
-'ar bn ceb cs de es fr hi hmn id it ja kn ko pa pl pt ru spr te th tl ur vi yue zh'.split(' ').forEach(t=>{ FOUND[t+'-en']={lessons:['alphabet'],letters:[...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'],tilesOnly:[],words:[],light:true}; });
+'ar bn ceb cs de es fr hi hmn id it ja kn ko pa pl pt ru sdo spr te th tl ur vi yue zh'.split(' ').forEach(t=>{ FOUND[t+'-en']={lessons:['alphabet'],letters:[...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'],tilesOnly:[],words:[],light:true}; });
 let fail=0,pass=0;const ok=(c,m)=>{ if(c){ pass++; console.log('PASS '+m); } else { fail++; console.log('FAIL '+m); } };
 async function open(b,cid){ const lang=cid.split('-')[0]; const c=await b.newContext({viewport:{width:390,height:800},reducedMotion:'reduce'}); const p=await c.newPage(); p.errs=[]; p.on('pageerror',e=>p.errs.push(e.message));
   await p.addInitScript(([lang,cid])=>{ const st=JSON.stringify({nick:'K',welcomed:1,onboard:{skipped:1},hintSeen:1,tourDone:1,fx3d:false}); localStorage.setItem('la-s-'+cid,st); if(cid==='en-ko') localStorage.setItem('ko-app2',st); localStorage.setItem('la-meta',JSON.stringify({v:1,native:lang,course:cid,picked:1,seenHome:1,prefs:{}})); },[lang,cid]);
