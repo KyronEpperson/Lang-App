@@ -809,7 +809,9 @@ LANGAPP_PACKS.i18n.it = {
     "Learn": "Impara",
     "All categories": "Tutte le categorie",
     "All decks in this category": "Tutti i mazzi di questa categoria",
-    "Just learn (no quizzes)": "Solo imparare (senza quiz)"
+    "Just learn (no quizzes)": "Solo imparare (senza quiz)",
+    "No choices this time. Say it from memory, then check.": "Stavolta niente opzioni. Dillo a memoria, poi verifica.",
+    "Show answer": "Mostra risposta"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Esercizi"],
@@ -1089,7 +1091,8 @@ LANGAPP_PACKS.i18n.it = {
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "Da ripassare: $1 · imparate: $2/$3"],
     ["^memory lasts about (\\d+) days$", "la memoria dura circa $1 giorni"],
     ["^seen (\\d+) days ago$", "vista $1 giorni fa"],
-    ["^Round (\\d+) of (\\d+) · saved$", "Round $1 di $2 · salvato"]
+    ["^Round (\\d+) of (\\d+) · saved$", "Round $1 di $2 · salvato"],
+    ["^Forecast for your last (\\d+) answers after a break: (\\d+)% right\\. Result: (\\d+)%\\.$", "Previsione per le tue ultime risposte dopo una pausa ($1): $2% giuste. Risultato: $3%."]
   ],
   road: {
     "Standard (Seoul) Korean": "Coreano standard (di Seul)",

@@ -809,7 +809,9 @@ LANGAPP_PACKS.i18n.id = {
     "Learn": "Belajar",
     "All categories": "Semua kategori",
     "All decks in this category": "Semua dek di kategori ini",
-    "Just learn (no quizzes)": "Belajar saja (tanpa kuis)"
+    "Just learn (no quizzes)": "Belajar saja (tanpa kuis)",
+    "No choices this time. Say it from memory, then check.": "Kali ini tanpa pilihan. Ucapkan dari ingatan, lalu periksa.",
+    "Show answer": "Tampilkan jawaban"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Drill"],
@@ -1089,7 +1091,8 @@ LANGAPP_PACKS.i18n.id = {
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 perlu diulang · $2/$3 dipelajari"],
     ["^memory lasts about (\\d+) days$", "ingatan bertahan sekitar $1 hari"],
     ["^seen (\\d+) days ago$", "dilihat $1 hari lalu"],
-    ["^Round (\\d+) of (\\d+) · saved$", "Putaran $1 dari $2 · tersimpan"]
+    ["^Round (\\d+) of (\\d+) · saved$", "Putaran $1 dari $2 · tersimpan"],
+    ["^Forecast for your last (\\d+) answers after a break: (\\d+)% right\\. Result: (\\d+)%\\.$", "Perkiraan untuk $1 jawaban terakhir setelah jeda: $2% benar. Hasil: $3%."]
   ],
   road: {
     "Standard (Seoul) Korean": "Bahasa Korea standar (Seoul)",

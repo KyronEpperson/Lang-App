@@ -758,7 +758,9 @@
   "Learn": "배우기",
   "All categories": "전체 분류",
   "All decks in this category": "이 분류의 모든 덱",
-  "Just learn (no quizzes)": "배우기만 (퀴즈 없이)"
+  "Just learn (no quizzes)": "배우기만 (퀴즈 없이)",
+  "No choices this time. Say it from memory, then check.": "이번에는 보기가 없어요. 떠올려서 말해 본 다음 확인하세요.",
+  "Show answer": "정답 보기"
  },
  "patterns": {
   "{n}/{n} · Drills": "{1}/{2} · 훈련",
@@ -1021,6 +1023,7 @@
   "{n} due · {n}/{n} learned": "복습 대기 {1} · {2}/{3} 익힘",
   "memory lasts about {n} days": "기억 유지 약 {1}일",
   "seen {n} days ago": "{1}일 전에 봄",
-  "Round {n} of {n} · saved": "라운드 {1}/{2} · 저장됨"
+  "Round {n} of {n} · saved": "라운드 {1}/{2} · 저장됨",
+  "Forecast for your last {n} answers after a break: {n}% right. Result: {n}%.": "쉬었다가 답한 최근 {1}번의 예측: 정답률 {2}%. 결과: {3}%."
  }
 }

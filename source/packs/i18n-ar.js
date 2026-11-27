@@ -809,7 +809,9 @@ LANGAPP_PACKS.i18n.ar = {
     "Learn": "تعلّم",
     "All categories": "كل الفئات",
     "All decks in this category": "كل مجموعات هذه الفئة",
-    "Just learn (no quizzes)": "تعلّم فقط (بلا اختبارات)"
+    "Just learn (no quizzes)": "تعلّم فقط (بلا اختبارات)",
+    "No choices this time. Say it from memory, then check.": "لا خيارات هذه المرة. قلها من الذاكرة ثم تحقّق.",
+    "Show answer": "إظهار الإجابة"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · مهارات"],
@@ -1089,7 +1091,8 @@ LANGAPP_PACKS.i18n.ar = {
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "المستحق: $1 · المحفوظ: $2/$3"],
     ["^memory lasts about (\\d+) days$", "مدة بقائها في الذاكرة بالأيام: نحو $1"],
     ["^seen (\\d+) days ago$", "الأيام منذ آخر عرض: $1"],
-    ["^Round (\\d+) of (\\d+) · saved$", "الجولة $1 من $2 · تم الحفظ"]
+    ["^Round (\\d+) of (\\d+) · saved$", "الجولة $1 من $2 · تم الحفظ"],
+    ["^Forecast for your last (\\d+) answers after a break: (\\d+)% right\\. Result: (\\d+)%\\.$", "التوقع لآخر إجاباتك بعد انقطاع ($1): $2% صحيحة. النتيجة: $3%."]
   ],
   road: {
     "Standard (Seoul) Korean": "الكورية المعيارية (سول)",

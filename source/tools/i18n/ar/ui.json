@@ -5495,6 +5495,18 @@
    "ko": "배우기만 (퀴즈 없이)",
    "kind": "label",
    "context": "checkbox on the Practice screen: when ticked, Learn only shows the cards and skips the quiz after each five"
+  },
+  "No choices this time. Say it from memory, then check.": {
+   "t": "لا خيارات هذه المرة. قلها من الذاكرة ثم تحقّق.",
+   "ko": "이번에는 보기가 없어요. 떠올려서 말해 본 다음 확인하세요.",
+   "kind": "sentence",
+   "context": "Review and the quizzes: the hint on a recall question. The card shows only the meaning, with no four options to pick from; the learner says the word to themselves and then taps \"Show answer\". Shown on a card that is one right answer away from being called memorized"
+  },
+  "Show answer": {
+   "t": "إظهار الإجابة",
+   "ko": "정답 보기",
+   "kind": "label",
+   "context": "Review and the quizzes: the button on a recall question that reveals the word. Short UI label"
   }
  },
  "patterns": {
@@ -7290,6 +7302,13 @@
    "slots": "{1}=n, {2}=n",
    "example": "Round 5 of 2 · saved",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
+  },
+  "Forecast for your last {n} answers after a break: {n}% right. Result: {n}%.": {
+   "t": "التوقع لآخر إجاباتك بعد انقطاع ({1}): {2}% صحيحة. النتيجة: {3}%.",
+   "ko": "쉬었다가 답한 최근 {1}번의 예측: 정답률 {2}%. 결과: {3}%.",
+   "slots": "{1}=n, {2}=n, {3}=n",
+   "example": "Forecast for your last 5 answers after a break: 2% right. Result: 3%.",
+   "context": "Progress, How you learn: one line under the four bars. First number: how many of the learner's recent answers came half a day or more after the card was last seen (10 or more). Second: the share the app expected to be right. Third: the share that was right. The count is written so that it reads correctly at any number"
   }
  }
 }

@@ -809,7 +809,9 @@ LANGAPP_PACKS.i18n.kn = {
     "Learn": "ಕಲಿಯಿರಿ",
     "All categories": "ಎಲ್ಲ ವರ್ಗಗಳು",
     "All decks in this category": "ಈ ವರ್ಗದ ಎಲ್ಲ ಡೆಕ್‌ಗಳು",
-    "Just learn (no quizzes)": "ಕಲಿಕೆ ಮಾತ್ರ (ಕ್ವಿಜ್ ಇಲ್ಲ)"
+    "Just learn (no quizzes)": "ಕಲಿಕೆ ಮಾತ್ರ (ಕ್ವಿಜ್ ಇಲ್ಲ)",
+    "No choices this time. Say it from memory, then check.": "ಈ ಬಾರಿ ಆಯ್ಕೆಗಳಿಲ್ಲ. ನೆನಪಿನಿಂದ ಹೇಳಿ, ನಂತರ ಪರಿಶೀಲಿಸಿ.",
+    "Show answer": "ಉತ್ತರ ತೋರಿಸಿ"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ಡ್ರಿಲ್"],
@@ -1089,7 +1091,8 @@ LANGAPP_PACKS.i18n.kn = {
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "ಬಾಕಿ: $1 · ಕಲಿತದ್ದು: $2/$3"],
     ["^memory lasts about (\\d+) days$", "ಸುಮಾರು $1 ದಿನ ನೆನಪಿರುತ್ತದೆ"],
     ["^seen (\\d+) days ago$", "$1 ದಿನಗಳ ಹಿಂದೆ ನೋಡಿದ್ದು"],
-    ["^Round (\\d+) of (\\d+) · saved$", "ಸುತ್ತು $1/$2 · ಉಳಿಸಲಾಗಿದೆ"]
+    ["^Round (\\d+) of (\\d+) · saved$", "ಸುತ್ತು $1/$2 · ಉಳಿಸಲಾಗಿದೆ"],
+    ["^Forecast for your last (\\d+) answers after a break: (\\d+)% right\\. Result: (\\d+)%\\.$", "ವಿರಾಮದ ನಂತರದ ಇತ್ತೀಚಿನ ಉತ್ತರಗಳ ($1) ಅಂದಾಜು: $2% ಸರಿ. ಫಲಿತಾಂಶ: $3%."]
   ],
   road: {
     "General (American) English": "ಸಾಮಾನ್ಯ (ಅಮೆರಿಕನ್) ಇಂಗ್ಲಿಷ್",

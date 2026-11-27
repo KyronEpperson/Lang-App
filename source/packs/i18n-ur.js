@@ -809,7 +809,9 @@ LANGAPP_PACKS.i18n.ur = {
     "Learn": "سیکھیں",
     "All categories": "تمام زمرے",
     "All decks in this category": "اس زمرے کے تمام ڈیک",
-    "Just learn (no quizzes)": "صرف سیکھیں (کوئز نہیں)"
+    "Just learn (no quizzes)": "صرف سیکھیں (کوئز نہیں)",
+    "No choices this time. Say it from memory, then check.": "اس بار کوئی آپشن نہیں۔ یادداشت سے بولیں، پھر چیک کریں۔",
+    "Show answer": "جواب دکھائیں"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · مہارتیں"],
@@ -1089,7 +1091,8 @@ LANGAPP_PACKS.i18n.ur = {
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "دہرانے والے: $1 · سیکھے ہوئے: $2/$3"],
     ["^memory lasts about (\\d+) days$", "یاد تقریباً $1 دن رہتی ہے"],
     ["^seen (\\d+) days ago$", "$1 دن پہلے دیکھا"],
-    ["^Round (\\d+) of (\\d+) · saved$", "راؤنڈ $1/$2 · محفوظ ہو گیا"]
+    ["^Round (\\d+) of (\\d+) · saved$", "راؤنڈ $1/$2 · محفوظ ہو گیا"],
+    ["^Forecast for your last (\\d+) answers after a break: (\\d+)% right\\. Result: (\\d+)%\\.$", "وقفے کے بعد کے حالیہ جوابات ($1) کا اندازہ: $2% درست۔ نتیجہ: $3%۔"]
   ],
   road: {
     "General (American) English": "عام (امریکی) انگریزی",

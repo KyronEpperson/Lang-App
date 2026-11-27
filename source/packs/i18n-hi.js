@@ -809,7 +809,9 @@ LANGAPP_PACKS.i18n.hi = {
     "Learn": "सीखें",
     "All categories": "सभी श्रेणियाँ",
     "All decks in this category": "इस श्रेणी के सभी डेक",
-    "Just learn (no quizzes)": "सिर्फ़ सीखें (टेस्ट नहीं)"
+    "Just learn (no quizzes)": "सिर्फ़ सीखें (टेस्ट नहीं)",
+    "No choices this time. Say it from memory, then check.": "इस बार कोई विकल्प नहीं। याद से बोलें, फिर जाँचें।",
+    "Show answer": "उत्तर दिखाएँ"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ड्रिल"],
@@ -1089,7 +1091,8 @@ LANGAPP_PACKS.i18n.hi = {
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "दोहराने हैं: $1 · सीखे गए: $2/$3"],
     ["^memory lasts about (\\d+) days$", "याद क़रीब $1 दिन टिकती है"],
     ["^seen (\\d+) days ago$", "$1 दिन पहले देखा"],
-    ["^Round (\\d+) of (\\d+) · saved$", "राउंड $1/$2 · सेव हो गया"]
+    ["^Round (\\d+) of (\\d+) · saved$", "राउंड $1/$2 · सेव हो गया"],
+    ["^Forecast for your last (\\d+) answers after a break: (\\d+)% right\\. Result: (\\d+)%\\.$", "विराम के बाद के पिछले उत्तरों ($1) का अनुमान: $2% सही। नतीजा: $3%।"]
   ],
   road: {
     "Standard (Seoul) Korean": "मानक (सियोल) कोरियाई",

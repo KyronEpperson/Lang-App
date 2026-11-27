@@ -809,7 +809,9 @@ LANGAPP_PACKS.i18n.pa = {
     "Learn": "ਸਿੱਖੋ",
     "All categories": "ਸਾਰੀਆਂ ਕਿਸਮਾਂ",
     "All decks in this category": "ਇਸ ਕਿਸਮ ਦੇ ਸਾਰੇ ਡੈੱਕ",
-    "Just learn (no quizzes)": "ਸਿਰਫ਼ ਸਿੱਖੋ (ਕੁਇਜ਼ ਨਹੀਂ)"
+    "Just learn (no quizzes)": "ਸਿਰਫ਼ ਸਿੱਖੋ (ਕੁਇਜ਼ ਨਹੀਂ)",
+    "No choices this time. Say it from memory, then check.": "ਇਸ ਵਾਰ ਕੋਈ ਵਿਕਲਪ ਨਹੀਂ। ਯਾਦ ਤੋਂ ਬੋਲੋ, ਫਿਰ ਜਾਂਚੋ।",
+    "Show answer": "ਜਵਾਬ ਦਿਖਾਓ"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ਡਰਿੱਲ"],
@@ -1089,7 +1091,8 @@ LANGAPP_PACKS.i18n.pa = {
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "ਦੁਹਰਾਉਣੇ ਹਨ: $1 · ਸਿੱਖੇ: $2/$3"],
     ["^memory lasts about (\\d+) days$", "ਯਾਦ ਲਗਭਗ $1 ਦਿਨ ਰਹਿੰਦੀ ਹੈ"],
     ["^seen (\\d+) days ago$", "$1 ਦਿਨ ਪਹਿਲਾਂ ਦੇਖਿਆ"],
-    ["^Round (\\d+) of (\\d+) · saved$", "ਰਾਊਂਡ $1/$2 · ਸੇਵ ਹੋ ਗਿਆ"]
+    ["^Round (\\d+) of (\\d+) · saved$", "ਰਾਊਂਡ $1/$2 · ਸੇਵ ਹੋ ਗਿਆ"],
+    ["^Forecast for your last (\\d+) answers after a break: (\\d+)% right\\. Result: (\\d+)%\\.$", "ਵਕਫ਼ੇ ਤੋਂ ਬਾਅਦ ਦੇ ਪਿਛਲੇ ਜਵਾਬਾਂ ($1) ਦਾ ਅੰਦਾਜ਼ਾ: $2% ਸਹੀ। ਨਤੀਜਾ: $3%।"]
   ],
   road: {
     "General (American) English": "ਆਮ (ਅਮਰੀਕੀ) ਅੰਗਰੇਜ਼ੀ",

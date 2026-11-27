@@ -809,7 +809,9 @@ LANGAPP_PACKS.i18n.nan = {
     "Learn": "學",
     "All categories": "全部類別",
     "All decks in this category": "這類的全部牌組",
-    "Just learn (no quizzes)": "干焦學（無小考）"
+    "Just learn (no quizzes)": "干焦學（無小考）",
+    "No choices this time. Say it from memory, then check.": "這擺無選項。先靠記持講出來，才閣檢查。",
+    "Show answer": "看答案"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · 訓練"],
@@ -1089,7 +1091,8 @@ LANGAPP_PACKS.i18n.nan = {
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 張愛複習 · $2/$3 學過"],
     ["^memory lasts about (\\d+) days$", "會記得大約 $1 工"],
     ["^seen (\\d+) days ago$", "$1 工前看過"],
-    ["^Round (\\d+) of (\\d+) · saved$", "第 $1 輪，總共 $2 輪 · 儲存矣"]
+    ["^Round (\\d+) of (\\d+) · saved$", "第 $1 輪，總共 $2 輪 · 儲存矣"],
+    ["^Forecast for your last (\\d+) answers after a break: (\\d+)% right\\. Result: (\\d+)%\\.$", "歇睏了後最近 $1 擺回答的預測：$2% 著。結果：$3%。"]
   ],
   road: {
     "Standard (Seoul) Korean": "標準韓語（首爾）",

@@ -809,7 +809,9 @@ LANGAPP_PACKS.i18n.bn = {
     "Learn": "শিখুন",
     "All categories": "সব ধরন",
     "All decks in this category": "এই ধরনের সব ডেক",
-    "Just learn (no quizzes)": "শুধু শিখুন (কুইজ ছাড়া)"
+    "Just learn (no quizzes)": "শুধু শিখুন (কুইজ ছাড়া)",
+    "No choices this time. Say it from memory, then check.": "এবার কোনো বিকল্প নেই। মন থেকে বলুন, তারপর মিলিয়ে দেখুন।",
+    "Show answer": "উত্তর দেখুন"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ড্রিল"],
@@ -1089,7 +1091,8 @@ LANGAPP_PACKS.i18n.bn = {
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "রিভিশন বাকি $1টি · $2/$3 শেখা হয়েছে"],
     ["^memory lasts about (\\d+) days$", "প্রায় $1 দিন মনে থাকে"],
     ["^seen (\\d+) days ago$", "$1 দিন আগে দেখা হয়েছে"],
-    ["^Round (\\d+) of (\\d+) · saved$", "রাউন্ড $1/$2 · সেভ হয়েছে"]
+    ["^Round (\\d+) of (\\d+) · saved$", "রাউন্ড $1/$2 · সেভ হয়েছে"],
+    ["^Forecast for your last (\\d+) answers after a break: (\\d+)% right\\. Result: (\\d+)%\\.$", "বিরতির পরের শেষ $1টি উত্তরের পূর্বাভাস: $2% সঠিক। ফলাফল: $3%।"]
   ],
   road: {
     "General (American) English": "সাধারণ (আমেরিকান) ইংরেজি",

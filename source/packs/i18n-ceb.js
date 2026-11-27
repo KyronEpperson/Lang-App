@@ -809,7 +809,9 @@ LANGAPP_PACKS.i18n.ceb = {
     "Learn": "Tun-i",
     "All categories": "Tanang kategorya",
     "All decks in this category": "Tanang deck niining kategoryaha",
-    "Just learn (no quizzes)": "Pagtuon lang (walay quiz)"
+    "Just learn (no quizzes)": "Pagtuon lang (walay quiz)",
+    "No choices this time. Say it from memory, then check.": "Walay pagpilian karon. Isulti gikan sa panumdoman, dayon i-check.",
+    "Show answer": "Ipakita ang tubag"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Mga drill"],
@@ -1089,7 +1091,8 @@ LANGAPP_PACKS.i18n.ceb = {
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 i-review · $2/$3 nakat-onan"],
     ["^memory lasts about (\\d+) days$", "molungtad ang panumdoman og mga $1 ka adlaw"],
     ["^seen (\\d+) days ago$", "nakita $1 ka adlaw na ang milabay"],
-    ["^Round (\\d+) of (\\d+) · saved$", "Round $1 sa $2 · na-save"]
+    ["^Round (\\d+) of (\\d+) · saved$", "Round $1 sa $2 · na-save"],
+    ["^Forecast for your last (\\d+) answers after a break: (\\d+)% right\\. Result: (\\d+)%\\.$", "Banabana sa katapusang $1 ka tubag human sa pahulay: $2% sakto. Resulta: $3%."]
   ],
   road: {
     "Standard (Seoul) Korean": "Standard nga Koreano (Seoul)",

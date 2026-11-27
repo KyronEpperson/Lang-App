@@ -10,9 +10,9 @@
   "d": "text without \"·\", e.g. a deck name inside a \"·\"-separated line"
  },
  "counts": {
-  "exact": 809,
-  "patterns": 278,
-  "distinctPatternTemplates": 277
+  "exact": 811,
+  "patterns": 279,
+  "distinctPatternTemplates": 278
  },
  "exact": [
   {
@@ -2293,7 +2293,7 @@
    "key": "Unlock a few more decks first.",
    "kind": "sentence",
    "section": "quiz / practice flow",
-   "where": "js pool()"
+   "where": "not verbatim in src/app.html (assembled at runtime)"
   },
   {
    "key": "no feedback until the end",
@@ -2637,7 +2637,7 @@
    "key": "Not enough weak cards yet. Do a session first.",
    "kind": "sentence",
    "section": "quiz / practice flow",
-   "where": "js pool()"
+   "where": "js m()"
   },
   {
    "key": "Start typing",
@@ -5575,6 +5575,19 @@
    "kind": "label",
    "section": "added",
    "where": "html <input> text"
+  },
+  {
+   "key": "No choices this time. Say it from memory, then check.",
+   "kind": "sentence",
+   "section": "added",
+   "where": "js think() <p>"
+  },
+  {
+   "key": "Show answer",
+   "kind": "label",
+   "section": "added",
+   "where": "js renderRecallQ()",
+   "context": "short UI label (button, chip or heading); keep it short"
   }
  ],
  "patterns": [
@@ -10086,6 +10099,28 @@
    ],
    "regex": "^Round (\\d+) of (\\d+) · saved$",
    "example": "Round 5 of 2 · saved",
+   "section": "added",
+   "context": "count slot: the translation must read correctly at 1 and at 2+"
+  },
+  {
+   "id": "Forecast for your last {n} answers after a break: {n}% right. Result: {n}%.",
+   "template": "Forecast for your last {n} answers after a break: {n}% right. Result: {n}%.",
+   "slots": [
+    {
+     "n": 1,
+     "type": "n"
+    },
+    {
+     "n": 2,
+     "type": "n"
+    },
+    {
+     "n": 3,
+     "type": "n"
+    }
+   ],
+   "regex": "^Forecast for your last (\\d+) answers after a break: (\\d+)% right\\. Result: (\\d+)%\\.$",
+   "example": "Forecast for your last 5 answers after a break: 2% right. Result: 3%.",
    "section": "added",
    "context": "count slot: the translation must read correctly at 1 and at 2+"
   }

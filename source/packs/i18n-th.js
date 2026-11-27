@@ -809,7 +809,9 @@ LANGAPP_PACKS.i18n.th = {
     "Learn": "เรียน",
     "All categories": "ทุกหมวดหมู่",
     "All decks in this category": "ชุดการ์ดทั้งหมดในหมวดหมู่นี้",
-    "Just learn (no quizzes)": "เรียนอย่างเดียว (ไม่มีแบบทดสอบ)"
+    "Just learn (no quizzes)": "เรียนอย่างเดียว (ไม่มีแบบทดสอบ)",
+    "No choices this time. Say it from memory, then check.": "ครั้งนี้ไม่มีตัวเลือก ลองพูดจากความจำ แล้วค่อยตรวจคำตอบ",
+    "Show answer": "ดูคำตอบ"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ทักษะ"],
@@ -1089,7 +1091,8 @@ LANGAPP_PACKS.i18n.th = {
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "ถึงกำหนด $1 ใบ · เรียนแล้ว $2/$3 ใบ"],
     ["^memory lasts about (\\d+) days$", "จำได้ประมาณ $1 วัน"],
     ["^seen (\\d+) days ago$", "เห็นเมื่อ $1 วันก่อน"],
-    ["^Round (\\d+) of (\\d+) · saved$", "รอบที่ $1 จาก $2 · บันทึกแล้ว"]
+    ["^Round (\\d+) of (\\d+) · saved$", "รอบที่ $1 จาก $2 · บันทึกแล้ว"],
+    ["^Forecast for your last (\\d+) answers after a break: (\\d+)% right\\. Result: (\\d+)%\\.$", "ค่าคาดการณ์ของ $1 คำตอบล่าสุดหลังเว้นช่วง: ถูก $2% ผลจริง: $3%"]
   ],
   road: {
     "Standard (Seoul) Korean": "ภาษาเกาหลีมาตรฐาน (โซล)",

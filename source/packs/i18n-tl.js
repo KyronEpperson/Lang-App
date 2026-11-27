@@ -809,7 +809,9 @@ LANGAPP_PACKS.i18n.tl = {
     "Learn": "Mag-aral",
     "All categories": "Lahat ng kategorya",
     "All decks in this category": "Lahat ng deck sa kategoryang ito",
-    "Just learn (no quizzes)": "Mag-aral lang (walang quiz)"
+    "Just learn (no quizzes)": "Mag-aral lang (walang quiz)",
+    "No choices this time. Say it from memory, then check.": "Walang pagpipilian ngayon. Sabihin mula sa memorya, saka i-check.",
+    "Show answer": "Ipakita ang sagot"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Mga drill"],
@@ -1089,7 +1091,8 @@ LANGAPP_PACKS.i18n.tl = {
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 para i-review · $2/$3 natutunan"],
     ["^memory lasts about (\\d+) days$", "tumatagal ang alaala nang mga $1 araw"],
     ["^seen (\\d+) days ago$", "nakita $1 araw na ang nakalipas"],
-    ["^Round (\\d+) of (\\d+) · saved$", "Round $1 sa $2 · na-save"]
+    ["^Round (\\d+) of (\\d+) · saved$", "Round $1 sa $2 · na-save"],
+    ["^Forecast for your last (\\d+) answers after a break: (\\d+)% right\\. Result: (\\d+)%\\.$", "Tantiya para sa huling $1 sagot pagkatapos ng pahinga: $2% tama. Resulta: $3%."]
   ],
   road: {
     "Standard (Seoul) Korean": "Standard na Koreano (Seoul)",

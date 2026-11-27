@@ -809,7 +809,9 @@ LANGAPP_PACKS.i18n.ru = {
     "Learn": "Учить",
     "All categories": "Все категории",
     "All decks in this category": "Все колоды этой категории",
-    "Just learn (no quizzes)": "Только учить (без тестов)"
+    "Just learn (no quizzes)": "Только учить (без тестов)",
+    "No choices this time. Say it from memory, then check.": "На этот раз без вариантов. Скажи по памяти, затем проверь.",
+    "Show answer": "Показать ответ"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Тренажёр"],
@@ -1089,7 +1091,8 @@ LANGAPP_PACKS.i18n.ru = {
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "К повторению: $1 · выучено: $2/$3"],
     ["^memory lasts about (\\d+) days$", "память держится около $1 дн."],
     ["^seen (\\d+) days ago$", "показана $1 дн. назад"],
-    ["^Round (\\d+) of (\\d+) · saved$", "Раунд $1 из $2 · сохранено"]
+    ["^Round (\\d+) of (\\d+) · saved$", "Раунд $1 из $2 · сохранено"],
+    ["^Forecast for your last (\\d+) answers after a break: (\\d+)% right\\. Result: (\\d+)%\\.$", "Прогноз для последних ответов после перерыва ($1): верно $2 %. Результат: $3 %."]
   ],
   road: {
     "Standard (Seoul) Korean": "Стандартный (сеульский) корейский",

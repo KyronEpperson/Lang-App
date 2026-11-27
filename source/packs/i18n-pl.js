@@ -809,7 +809,9 @@ LANGAPP_PACKS.i18n.pl = {
     "Learn": "Nauka",
     "All categories": "Wszystkie kategorie",
     "All decks in this category": "Wszystkie talie w tej kategorii",
-    "Just learn (no quizzes)": "Tylko nauka (bez quizów)"
+    "Just learn (no quizzes)": "Tylko nauka (bez quizów)",
+    "No choices this time. Say it from memory, then check.": "Tym razem bez opcji. Powiedz z pamięci, potem sprawdź.",
+    "Show answer": "Pokaż odpowiedź"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Wprawki"],
@@ -1089,7 +1091,8 @@ LANGAPP_PACKS.i18n.pl = {
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "Do powtórki: $1 · poznane: $2/$3"],
     ["^memory lasts about (\\d+) days$", "utrzyma się w pamięci około $1 dni"],
     ["^seen (\\d+) days ago$", "widziana $1 dni temu"],
-    ["^Round (\\d+) of (\\d+) · saved$", "Runda $1 z $2 · zapisano"]
+    ["^Round (\\d+) of (\\d+) · saved$", "Runda $1 z $2 · zapisano"],
+    ["^Forecast for your last (\\d+) answers after a break: (\\d+)% right\\. Result: (\\d+)%\\.$", "Prognoza dla ostatnich odpowiedzi po przerwie ($1): $2% poprawnych. Wynik: $3%."]
   ],
   road: {
     "General (American) English": "Angielski ogólny (amerykański)",

@@ -809,7 +809,9 @@ LANGAPP_PACKS.i18n.ja = {
     "Learn": "覚える",
     "All categories": "すべてのカテゴリ",
     "All decks in this category": "このカテゴリのデッキすべて",
-    "Just learn (no quizzes)": "覚えるだけ（クイズなし）"
+    "Just learn (no quizzes)": "覚えるだけ（クイズなし）",
+    "No choices this time. Say it from memory, then check.": "今回は選択肢なし。思い出して言ってから、確認しましょう。",
+    "Show answer": "答えを見る"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · ドリル"],
@@ -1089,7 +1091,8 @@ LANGAPP_PACKS.i18n.ja = {
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "復習予定$1枚 · $2/$3枚を覚えた"],
     ["^memory lasts about (\\d+) days$", "記憶の持続：約$1日"],
     ["^seen (\\d+) days ago$", "$1日前に出題"],
-    ["^Round (\\d+) of (\\d+) · saved$", "ラウンド$1/$2 · 保存済み"]
+    ["^Round (\\d+) of (\\d+) · saved$", "ラウンド$1/$2 · 保存済み"],
+    ["^Forecast for your last (\\d+) answers after a break: (\\d+)% right\\. Result: (\\d+)%\\.$", "間隔をあけた後の最近の回答$1回の予測：正答率$2%。結果：$3%。"]
   ],
   road: {
     "Standard (Seoul) Korean": "標準語（ソウル）の韓国語",

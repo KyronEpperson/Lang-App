@@ -809,7 +809,9 @@ LANGAPP_PACKS.i18n.cs = {
     "Learn": "Učit se",
     "All categories": "Všechny kategorie",
     "All decks in this category": "Všechny balíčky v této kategorii",
-    "Just learn (no quizzes)": "Jen se učit (bez kvízů)"
+    "Just learn (no quizzes)": "Jen se učit (bez kvízů)",
+    "No choices this time. Say it from memory, then check.": "Tentokrát bez možností. Řekni to zpaměti a pak zkontroluj.",
+    "Show answer": "Zobrazit odpověď"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Drily"],
@@ -1089,7 +1091,8 @@ LANGAPP_PACKS.i18n.cs = {
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "K opakování: $1 · naučeno: $2/$3"],
     ["^memory lasts about (\\d+) days$", "v paměti vydrží kolem $1 dní"],
     ["^seen (\\d+) days ago$", "viděno před $1 dny"],
-    ["^Round (\\d+) of (\\d+) · saved$", "Kolo $1 z $2 · uloženo"]
+    ["^Round (\\d+) of (\\d+) · saved$", "Kolo $1 z $2 · uloženo"],
+    ["^Forecast for your last (\\d+) answers after a break: (\\d+)% right\\. Result: (\\d+)%\\.$", "Odhad pro poslední odpovědi po pauze ($1): $2 % správně. Výsledek: $3 %."]
   ],
   road: {
     "General (American) English": "Obecná (americká) angličtina",

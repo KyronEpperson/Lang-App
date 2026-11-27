@@ -809,7 +809,9 @@ LANGAPP_PACKS.i18n.zh = {
     "Learn": "学习",
     "All categories": "全部类别",
     "All decks in this category": "此类别的全部卡组",
-    "Just learn (no quizzes)": "只学习（不测验）"
+    "Just learn (no quizzes)": "只学习（不测验）",
+    "No choices this time. Say it from memory, then check.": "这次没有选项。凭记忆说出来，再检查。",
+    "Show answer": "显示答案"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · 专项练习"],
@@ -1089,7 +1091,8 @@ LANGAPP_PACKS.i18n.zh = {
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 张待复习 · 已学会 $2/$3"],
     ["^memory lasts about (\\d+) days$", "记忆可保持约 $1 天"],
     ["^seen (\\d+) days ago$", "$1 天前看过"],
-    ["^Round (\\d+) of (\\d+) · saved$", "第 $1 轮，共 $2 轮 · 已保存"]
+    ["^Round (\\d+) of (\\d+) · saved$", "第 $1 轮，共 $2 轮 · 已保存"],
+    ["^Forecast for your last (\\d+) answers after a break: (\\d+)% right\\. Result: (\\d+)%\\.$", "间隔后最近 $1 次回答的预测：正确率 $2%。结果：$3%。"]
   ],
   road: {
     "Standard (Seoul) Korean": "标准韩语（首尔）",

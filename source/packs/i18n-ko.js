@@ -744,7 +744,9 @@ LANGAPP_PACKS.i18n.ko = {
     "Learn": "배우기",
     "All categories": "전체 분류",
     "All decks in this category": "이 분류의 모든 덱",
-    "Just learn (no quizzes)": "배우기만 (퀴즈 없이)"
+    "Just learn (no quizzes)": "배우기만 (퀴즈 없이)",
+    "No choices this time. Say it from memory, then check.": "이번에는 보기가 없어요. 떠올려서 말해 본 다음 확인하세요.",
+    "Show answer": "정답 보기"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · 훈련"],
@@ -1008,6 +1010,7 @@ LANGAPP_PACKS.i18n.ko = {
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "복습 대기 $1 · $2/$3 익힘"],
     ["^memory lasts about (\\d+) days$", "기억 유지 약 $1일"],
     ["^seen (\\d+) days ago$", "$1일 전에 봄"],
-    ["^Round (\\d+) of (\\d+) · saved$", "라운드 $1/$2 · 저장됨"]
+    ["^Round (\\d+) of (\\d+) · saved$", "라운드 $1/$2 · 저장됨"],
+    ["^Forecast for your last (\\d+) answers after a break: (\\d+)% right\\. Result: (\\d+)%\\.$", "쉬었다가 답한 최근 $1번의 예측: 정답률 $2%. 결과: $3%."]
   ]
 };

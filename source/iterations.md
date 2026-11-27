@@ -1726,3 +1726,22 @@ Owner: "also lets add dominican spanish", "for english speakers", "and vice vers
 
 ## DO-2 (2.137.0, 2026-11-27)
 Owner chose the Dominican sound for the pron line of en-esdo. respell.js MODE natural, 516 prons regenerated, section-table and in-lesson readings too; prose pass on `sounds`, `do-sounds` and deck notes. validate PASS, repron 0 rewritten.
+
+## MEM-3 (2.138.0, 2026-11-27) — prompt
+Kii: "what is release c", then "yes start this". Rewritten: build release C of the plan "Judging card memory", sharper evidence. (1) Count answer speed: a right answer that took the learner far longer than usual is weaker evidence than a quick one; never reward speed, never punish a wrong answer more. (2) Ask a recall question instead of a pick before a card becomes Memorized, and call no card memorized that was never recalled; keep every card a learner already has as memorized. (3) Show on Progress what the judge forecast against what happened. (4) Tune the starting numbers from real answers if there are enough; if not, say so and leave them. Also, because the summary the owner approved said so: let the flashcards inside a lesson bring back the cards the judge would practise first instead of five at random. Saved progress keeps working in both directions with 2.101.0 to 2.137.0. Verify with: the simulation re-run against release B's rule; rule checks for speed and for the recall mark; mistakes planted in the judge; harness guards for the form in a quiz and in Review, the clock, the Progress line and the lesson quiz; the full release tests.
+
+### MEM-3 — results (release C)
+Models: one chat on the main model for the judge, the app, the tests and the three strings in 27 languages (`src/app.html` is shared tooling, Opus-tier work by `docs/MODEL-ROUTING.md`; three short strings did not warrant agents). No agents were launched.
+
+What changed for the learner, the rules, the files and the tests: `docs/HANDOFF.md`, 2.138.0 entry and "Release C" in the section "Card memory judge".
+
+Numbers (simulated learners, 60 of each kind, 300 cards, 60 days, then away; `node tools/tests/memjudge.js --table`). Release B's rule against release C, in that order. Learner the published numbers fit: memorized cards truly known while studying 0.941 / 0.942, close to forgotten 1.4% / 0.8%, known after 30 days away 0.879 / 0.879, reviews per study day 38.7 / 38.4. Learner who forgets faster: 0.941 / 0.945, 1.3% / 0.5%, 0.817 / 0.824, 75.1 / 75.2. Recall questions were 19% and 9% of all questions; 7% and 9% of right answers counted as slow. With the recall question alone the figures are nearly those of release C; with the speed rule alone nearly those of release B. The simulated answer time is this run's assumption: pace x (1 + 2.5 x (1 - true recall)) with lognormal noise, a guess slowest.
+
+What the simulation changed: the first thresholds for "slow" (1.5 and 4 times the usual time) counted 18% to 23% of right answers as slow, most of them from the noise alone; they are 2 and 5 times.
+
+Real answers (Supabase connector, totals only, 2026-11-27): 144 logged answers from 2 learners, 105 with a forecast, 7 after a gap of half a day or more (forecast 0.92, 6 of 7 right), 21 first answers all right. Nothing to tune on. The query is `tools/tests/memjudge-real.sql`.
+
+Tests: `memjudge.js` 108 checks (87 before; pinned path now 1, 3.2, 10.1, 27.2 days); 14 mistakes planted in the judge block, each caught. Harness 156 guards (151 before): `memRecallQ`, `memSpeedCounts`, `memForecastLine`, `memLessonEarlier`, `memRecallWired`; `memOnePath` and `memWalk` brought in line. All 27 dictionaries pass `tools/i18n/validate.js` except `ko` with its 16 older untranslated patterns. Screens: project files, `memory-judge/release-C-*.png` (sample progress, not a real learner).
+
+Not tested: real learners; real phones; the strings by native speakers; a browser round trip with an older build (covered on the judge's read and write only).
+

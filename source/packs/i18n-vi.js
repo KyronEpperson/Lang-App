@@ -809,7 +809,9 @@ LANGAPP_PACKS.i18n.vi = {
     "Learn": "Học",
     "All categories": "Tất cả các loại",
     "All decks in this category": "Tất cả bộ thẻ thuộc loại này",
-    "Just learn (no quizzes)": "Chỉ học (không trắc nghiệm)"
+    "Just learn (no quizzes)": "Chỉ học (không trắc nghiệm)",
+    "No choices this time. Say it from memory, then check.": "Lần này không có lựa chọn. Hãy nói từ trí nhớ, rồi kiểm tra.",
+    "Show answer": "Xem đáp án"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Kỹ năng"],
@@ -1089,7 +1091,8 @@ LANGAPP_PACKS.i18n.vi = {
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "$1 cần ôn · đã học $2/$3"],
     ["^memory lasts about (\\d+) days$", "nhớ được khoảng $1 ngày"],
     ["^seen (\\d+) days ago$", "gặp $1 ngày trước"],
-    ["^Round (\\d+) of (\\d+) · saved$", "Lượt $1/$2 · đã lưu"]
+    ["^Round (\\d+) of (\\d+) · saved$", "Lượt $1/$2 · đã lưu"],
+    ["^Forecast for your last (\\d+) answers after a break: (\\d+)% right\\. Result: (\\d+)%\\.$", "Dự đoán cho $1 câu trả lời gần nhất sau một quãng nghỉ: đúng $2%. Kết quả: $3%."]
   ],
   road: {
     "Standard (Seoul) Korean": "Tiếng Hàn chuẩn (Seoul)",

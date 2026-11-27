@@ -1,0 +1,157 @@
+{
+ "about": "MEM-3 (release C): the three new interface strings of the card memory judge, in every interface language. Read by tools/patches/mem_judge_c_i18n.py, which adds them to tools/i18n/<lang>/ui.json. Written by the main model; not read by native speakers. Each language keeps the register of its interface (du, tu, tú, ты and so on where the interface is informal). Hmong uses only words of tools/hmong/GLOSSARY.tsv and of the existing Hmong interface (\"txoj kev xaiv\", \"qhov teb\", \"kuaj xyuas\", \"zaus\", \"so\" for a rest); \"app\" stays English there as elsewhere, and \"forecast\" is said as \"app xav\" (the app thinks). The two buttons under the shown answer reuse the existing \"Again\" and \"Got it\".",
+ "keys": [
+  {
+   "key": "No choices this time. Say it from memory, then check.",
+   "type": "exact",
+   "context": "Review and the quizzes: the hint on a recall question. The card shows only the meaning, with no four options to pick from; the learner says the word to themselves and then taps \"Show answer\". Shown on a card that is one right answer away from being called memorized"
+  },
+  {
+   "key": "Show answer",
+   "type": "exact",
+   "context": "Review and the quizzes: the button on a recall question that reveals the word. Short UI label"
+  },
+  {
+   "key": "Forecast for your last {n} answers after a break: {n}% right. Result: {n}%.",
+   "type": "pattern",
+   "context": "Progress, How you learn: one line under the four bars. First number: how many of the learner's recent answers came half a day or more after the card was last seen (10 or more). Second: the share the app expected to be right. Third: the share that was right. The count is written so that it reads correctly at any number"
+  }
+ ],
+ "t": {
+  "ar": [
+   "لا خيارات هذه المرة. قلها من الذاكرة ثم تحقّق.",
+   "إظهار الإجابة",
+   "التوقع لآخر إجاباتك بعد انقطاع ({1}): {2}% صحيحة. النتيجة: {3}%."
+  ],
+  "bn": [
+   "এবার কোনো বিকল্প নেই। মন থেকে বলুন, তারপর মিলিয়ে দেখুন।",
+   "উত্তর দেখুন",
+   "বিরতির পরের শেষ {1}টি উত্তরের পূর্বাভাস: {2}% সঠিক। ফলাফল: {3}%।"
+  ],
+  "ceb": [
+   "Walay pagpilian karon. Isulti gikan sa panumdoman, dayon i-check.",
+   "Ipakita ang tubag",
+   "Banabana sa katapusang {1} ka tubag human sa pahulay: {2}% sakto. Resulta: {3}%."
+  ],
+  "cs": [
+   "Tentokrát bez možností. Řekni to zpaměti a pak zkontroluj.",
+   "Zobrazit odpověď",
+   "Odhad pro poslední odpovědi po pauze ({1}): {2} % správně. Výsledek: {3} %."
+  ],
+  "de": [
+   "Diesmal ohne Auswahl. Sag es aus dem Gedächtnis und prüfe dann.",
+   "Antwort zeigen",
+   "Prognose für deine letzten Antworten nach einer Pause ({1}): {2} % richtig. Ergebnis: {3} %."
+  ],
+  "es": [
+   "Esta vez sin opciones. Dilo de memoria y luego comprueba.",
+   "Mostrar respuesta",
+   "Previsión para tus últimas respuestas tras una pausa ({1}): {2}% correctas. Resultado: {3}%."
+  ],
+  "fr": [
+   "Pas de choix cette fois. Dis-le de mémoire, puis vérifie.",
+   "Afficher la réponse",
+   "Prévision pour tes dernières réponses après une pause ({1}) : {2} % de bonnes réponses. Résultat : {3} %."
+  ],
+  "hi": [
+   "इस बार कोई विकल्प नहीं। याद से बोलें, फिर जाँचें।",
+   "उत्तर दिखाएँ",
+   "विराम के बाद के पिछले उत्तरों ({1}) का अनुमान: {2}% सही। नतीजा: {3}%।"
+  ],
+  "hmn": [
+   "Zaus no tsis muaj txoj kev xaiv. Nco thiab hais ua ntej, mam li kuaj xyuas.",
+   "Saib qhov teb",
+   "Teb {1} zaus kawg tom qab so · app xav: raug {2}% · koj teb raug: {3}%."
+  ],
+  "id": [
+   "Kali ini tanpa pilihan. Ucapkan dari ingatan, lalu periksa.",
+   "Tampilkan jawaban",
+   "Perkiraan untuk {1} jawaban terakhir setelah jeda: {2}% benar. Hasil: {3}%."
+  ],
+  "it": [
+   "Stavolta niente opzioni. Dillo a memoria, poi verifica.",
+   "Mostra risposta",
+   "Previsione per le tue ultime risposte dopo una pausa ({1}): {2}% giuste. Risultato: {3}%."
+  ],
+  "ja": [
+   "今回は選択肢なし。思い出して言ってから、確認しましょう。",
+   "答えを見る",
+   "間隔をあけた後の最近の回答{1}回の予測：正答率{2}%。結果：{3}%。"
+  ],
+  "kn": [
+   "ಈ ಬಾರಿ ಆಯ್ಕೆಗಳಿಲ್ಲ. ನೆನಪಿನಿಂದ ಹೇಳಿ, ನಂತರ ಪರಿಶೀಲಿಸಿ.",
+   "ಉತ್ತರ ತೋರಿಸಿ",
+   "ವಿರಾಮದ ನಂತರದ ಇತ್ತೀಚಿನ ಉತ್ತರಗಳ ({1}) ಅಂದಾಜು: {2}% ಸರಿ. ಫಲಿತಾಂಶ: {3}%."
+  ],
+  "ko": [
+   "이번에는 보기가 없어요. 떠올려서 말해 본 다음 확인하세요.",
+   "정답 보기",
+   "쉬었다가 답한 최근 {1}번의 예측: 정답률 {2}%. 결과: {3}%."
+  ],
+  "mr": [
+   "या वेळी पर्याय नाहीत. आठवून म्हणा, मग तपासा.",
+   "उत्तर दाखवा",
+   "विरामानंतरच्या शेवटच्या {1} उत्तरांचा अंदाज: {2}% बरोबर. निकाल: {3}%."
+  ],
+  "nan": [
+   "這擺無選項。先靠記持講出來，才閣檢查。",
+   "看答案",
+   "歇睏了後最近 {1} 擺回答的預測：{2}% 著。結果：{3}%。"
+  ],
+  "pa": [
+   "ਇਸ ਵਾਰ ਕੋਈ ਵਿਕਲਪ ਨਹੀਂ। ਯਾਦ ਤੋਂ ਬੋਲੋ, ਫਿਰ ਜਾਂਚੋ।",
+   "ਜਵਾਬ ਦਿਖਾਓ",
+   "ਵਕਫ਼ੇ ਤੋਂ ਬਾਅਦ ਦੇ ਪਿਛਲੇ ਜਵਾਬਾਂ ({1}) ਦਾ ਅੰਦਾਜ਼ਾ: {2}% ਸਹੀ। ਨਤੀਜਾ: {3}%।"
+  ],
+  "pl": [
+   "Tym razem bez opcji. Powiedz z pamięci, potem sprawdź.",
+   "Pokaż odpowiedź",
+   "Prognoza dla ostatnich odpowiedzi po przerwie ({1}): {2}% poprawnych. Wynik: {3}%."
+  ],
+  "pt": [
+   "Desta vez sem opções. Diga de memória e depois verifique.",
+   "Mostrar resposta",
+   "Previsão para suas últimas respostas após uma pausa ({1}): {2}% certas. Resultado: {3}%."
+  ],
+  "ru": [
+   "На этот раз без вариантов. Скажи по памяти, затем проверь.",
+   "Показать ответ",
+   "Прогноз для последних ответов после перерыва ({1}): верно {2} %. Результат: {3} %."
+  ],
+  "te": [
+   "ఈసారి ఎంపికలు లేవు. గుర్తు నుంచి చెప్పి, తర్వాత సరిచూడండి.",
+   "జవాబు చూపించు",
+   "విరామం తర్వాత ఇచ్చిన చివరి జవాబుల ({1}) అంచనా: {2}% సరైనవి. ఫలితం: {3}%."
+  ],
+  "th": [
+   "ครั้งนี้ไม่มีตัวเลือก ลองพูดจากความจำ แล้วค่อยตรวจคำตอบ",
+   "ดูคำตอบ",
+   "ค่าคาดการณ์ของ {1} คำตอบล่าสุดหลังเว้นช่วง: ถูก {2}% ผลจริง: {3}%"
+  ],
+  "tl": [
+   "Walang pagpipilian ngayon. Sabihin mula sa memorya, saka i-check.",
+   "Ipakita ang sagot",
+   "Tantiya para sa huling {1} sagot pagkatapos ng pahinga: {2}% tama. Resulta: {3}%."
+  ],
+  "ur": [
+   "اس بار کوئی آپشن نہیں۔ یادداشت سے بولیں، پھر چیک کریں۔",
+   "جواب دکھائیں",
+   "وقفے کے بعد کے حالیہ جوابات ({1}) کا اندازہ: {2}% درست۔ نتیجہ: {3}%۔"
+  ],
+  "vi": [
+   "Lần này không có lựa chọn. Hãy nói từ trí nhớ, rồi kiểm tra.",
+   "Xem đáp án",
+   "Dự đoán cho {1} câu trả lời gần nhất sau một quãng nghỉ: đúng {2}%. Kết quả: {3}%."
+  ],
+  "yue": [
+   "今次冇選項。靠記憶講出嚟，然後檢查。",
+   "睇答案",
+   "隔咗一排之後最近 {1} 次回答嘅預測：答啱 {2}%。結果：{3}%。"
+  ],
+  "zh": [
+   "这次没有选项。凭记忆说出来，再检查。",
+   "显示答案",
+   "间隔后最近 {1} 次回答的预测：正确率 {2}%。结果：{3}%。"
+  ]
+ }
+}

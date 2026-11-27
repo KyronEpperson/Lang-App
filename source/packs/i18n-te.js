@@ -809,7 +809,9 @@ LANGAPP_PACKS.i18n.te = {
     "Learn": "నేర్చుకోండి",
     "All categories": "అన్ని వర్గాలు",
     "All decks in this category": "ఈ వర్గంలోని అన్ని డెక్‌లు",
-    "Just learn (no quizzes)": "నేర్చుకోవడం మాత్రమే (క్విజ్‌లు లేవు)"
+    "Just learn (no quizzes)": "నేర్చుకోవడం మాత్రమే (క్విజ్‌లు లేవు)",
+    "No choices this time. Say it from memory, then check.": "ఈసారి ఎంపికలు లేవు. గుర్తు నుంచి చెప్పి, తర్వాత సరిచూడండి.",
+    "Show answer": "జవాబు చూపించు"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · డ్రిల్స్"],
@@ -1089,7 +1091,8 @@ LANGAPP_PACKS.i18n.te = {
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "రివిజన్: $1 · నేర్చుకున్నవి: $2/$3"],
     ["^memory lasts about (\\d+) days$", "సుమారు $1 రోజులు గుర్తుంటుంది"],
     ["^seen (\\d+) days ago$", "$1 రోజుల క్రితం చూశారు"],
-    ["^Round (\\d+) of (\\d+) · saved$", "రౌండ్ $1/$2 · సేవ్ అయింది"]
+    ["^Round (\\d+) of (\\d+) · saved$", "రౌండ్ $1/$2 · సేవ్ అయింది"],
+    ["^Forecast for your last (\\d+) answers after a break: (\\d+)% right\\. Result: (\\d+)%\\.$", "విరామం తర్వాత ఇచ్చిన చివరి జవాబుల ($1) అంచనా: $2% సరైనవి. ఫలితం: $3%."]
   ],
   road: {
     "General (American) English": "సాధారణ (అమెరికన్) ఇంగ్లీష్",

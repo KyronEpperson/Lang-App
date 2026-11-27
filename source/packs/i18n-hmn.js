@@ -809,7 +809,9 @@ LANGAPP_PACKS.i18n.hmn = {
     "Learn": "Kawm",
     "All categories": "Txhua hom",
     "All decks in this category": "Txhua deck hauv hom no",
-    "Just learn (no quizzes)": "Kawm xwb (tsis muaj quiz)"
+    "Just learn (no quizzes)": "Kawm xwb (tsis muaj quiz)",
+    "No choices this time. Say it from memory, then check.": "Zaus no tsis muaj txoj kev xaiv. Nco thiab hais ua ntej, mam li kuaj xyuas.",
+    "Show answer": "Saib qhov teb"
   },
   patterns: [
     ["^(\\d+)\\/(\\d+) · Drills$", "$1/$2 · Drills"],
@@ -1089,7 +1091,8 @@ LANGAPP_PACKS.i18n.hmn = {
     ["^(\\d+) due · (\\d+)\\/(\\d+) learned$", "Yuav Review: $1 · kawm tau: $2/$3"],
     ["^memory lasts about (\\d+) days$", "nco tau $1 hnub"],
     ["^seen (\\d+) days ago$", "pom $1 hnub dhau los"],
-    ["^Round (\\d+) of (\\d+) · saved$", "Zaus $1 / $2 · kaw cia lawm"]
+    ["^Round (\\d+) of (\\d+) · saved$", "Zaus $1 / $2 · kaw cia lawm"],
+    ["^Forecast for your last (\\d+) answers after a break: (\\d+)% right\\. Result: (\\d+)%\\.$", "Teb $1 zaus kawg tom qab so · app xav: raug $2% · koj teb raug: $3%."]
   ],
   road: {
     "General (American) English": "Lus Askiv (Amelika)",
