@@ -47,9 +47,11 @@ const FOUND={'en-ja':{lessons:['hiragana','sounds','katakana'],letters:[...HIRA+
  'en-ceb':{lessons:['sounds'],letters:[],tilesOnly:[...'abcdefghijklmnñopqrstuvwxyz','ng'],words:['sounds']},
  /* Hmong (RPA): the pieces are consonant clusters, vowels and the tone letters, all on tiles */
  'en-hmn':{lessons:['tones'],letters:[],tilesOnly:'p ph np nph pl plh npl nplh t th nt nth d dh r rh nr nrh c ch nc nch k kh nk nkh q qh nq nqh tx txh ntx ntxh ts tsh nts ntsh m n ny ml l hm hn hny hml hl f v x s z xy y h a e i o u w ee oo ai au aw ia ua b j g'.split(' '),words:['tones']},
+ /* Taiwanese: Tâi-lô pieces on tiles (initials, vowels, nasals, endings, hummed syllables, tone marks); the eight tone animals and the MOE characters are a card and a tile; `characters` is lesson 7 */
+ 'en-nan':{lessons:['initials','finals','tones','characters'],letters:[...'獅豹鱉猴狗象鹿虎毋佇欲食啉媠予囝睏蹛遮遐冊厝囥佮个'],tilesOnly:'p ph b m t th n l k kh g ng h ts tsh s j a e i o oo u'.split(' '),words:['initials','finals','characters'],soundOnly:['tones'],anywhere:true},
  'en-am':{lessons:['orders','fidel-1','fidel-2','fidel-3','reading'],letters:[...'ሀለሐመሠረሰሸቀበተቸኀነኘአከኸወዐዘዠየደጀገጠጨጰጸፀፈፐ'],tilesOnly:[],words:['fidel-1','fidel-2','fidel-3']}};
 /* older courses whose foundation is not built yet (docs/HANDOFF.md, "Character foundations"). This list only gets shorter. */
-const PENDING='en-nan'.split(' ');
+const PENDING=[]; /* empty since 2.135.0: every older course has its foundation */
 /* English for X: lesson 1 `alphabet`, the 26 letters on cards (the letter names) and on tiles */
 'ar bn ceb cs de es fr hi hmn id it ja kn ko pa pl pt ru spr te th tl ur vi yue zh'.split(' ').forEach(t=>{ FOUND[t+'-en']={lessons:['alphabet'],letters:[...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'],tilesOnly:[],words:[],light:true}; });
 let fail=0,pass=0;const ok=(c,m)=>{ if(c){ pass++; console.log('PASS '+m); } else { fail++; console.log('FAIL '+m); } };

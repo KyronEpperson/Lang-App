@@ -1712,3 +1712,6 @@ A last section in lesson 1: letter groups that read differently from the learner
 
 ### FND-1 — batch 5 (2.134.0): 14 Latin-script courses at once
 Kii: "that sounds like only one or two agents cant we use more agents to build faster?" 14 Opus writers and 14 Opus cold reviewers ran side by side (2.7M tokens, 35 minutes), then 14 Sonnet passes applied the findings (22 must-fix, 74 should-fix; 1.0M tokens, 3 minutes). Found by the release checks: the Hmong checks did not know a lesson's `sections` and rejected the bare vowels in bold. Not tested: native speakers, real phones.
+
+### FND-1 — batch 6 (2.135.0): Taiwanese, the last course
+Kii chose "Keep characters with Tâi-lô" on a decision card. en-nan gets its foundation in lessons 1 to 3 and 7. With it all 71 courses open with their writing system and the waiting list in the release test is empty. Not tested: native speakers, real phones.

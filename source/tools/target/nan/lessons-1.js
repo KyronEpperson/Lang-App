@@ -5,6 +5,7 @@ module.exports = [
     title: "Tâi-lô consonants: p and ph, ts and tsh, and the voiced b, g, j",
     blurb: "Read the consonants of Tâi-lô correctly, including the ones that look English but are not.",
     deck: "Tâi-lô sounds",
+    sections: [null, {"deck": "Tâi-lô sounds", "n": [0, 7]}, {"deck": "Tâi-lô sounds", "n": [7, 10]}, {"name": "More initials", "cards": [["麵", "mī", "noodles", "m + i, tone 7. m as in me."], ["名", "miâ", "name", "m + ia, tone 5."], ["貓", "niau", "cat", "n + iau, tone 1. n as in no."], ["年", "nî", "year", "n + i, tone 5."], ["硬", "ngē", "hard; stiff", "ng + e, tone 7. ng starts the word, like the ng of singer without the si."]]}, null, null],
     body: `
 <p>This course teaches Taiwanese Hokkien as spoken in Taiwan. From here on we call it Taigi, or Taiwanese. Taigi is written in characters, and under every word you will see a line of <b>Tâi-lô</b>, the Ministry of Education's romanization. The course has no audio, so Tâi-lô is your guide to the sound. Learn to read it first.</p>
 <h3>One character, one syllable</h3>
@@ -25,6 +26,8 @@ module.exports = [
 {{ex:熱|jua̍h|hot}}
 <h3>The easy ones</h3>
 <p><b>m, n, l, s</b> and <b>h</b> are close to English: <b>麵</b> <i>mī</i> (noodles), <b>貓</b> <i>niau</i> (cat), <b>老師</b> <i>lāu-su</i> (teacher), <b>三</b> <i>sann</i> (three), <b>好</b> <i>hó</i> (good). <b>ng</b> can also start a syllable, like the ng of <i>singer</i> without the "si".</p>
+<p>That makes 17 initials. Here they all are, in rows by where you make them: the lips, the tongue tip, the back of the mouth (with h, from the throat), and ts, tsh, s and j. Tap a tile for an English sound that comes close. Before i, ts, tsh, s and j slide toward English ch, ch with a puff, sh and j: <b>遮</b> <i>tsia</i> (here) sounds close to "chia". A syllable can also start with no initial at all, straight on the vowel, as in <b>有</b> <i>ū</i> (have). The cards below are words that start with m, n and ng.</p>
+{{tiles:p=p_of_spin ph=p_of_pin b=b_of_bee m=m_of_me _ t=t_of_stop th=t_of_top n=n_of_no l=l_of_low _ k=k_of_skin kh=k_of_kin g=g_of_go ng=ng_of_singer h=h_of_hot ts=ts_of_cats tsh=ts_with_a_puff s=s_of_see j=voiced_dz _}}
 <h3>If you learned POJ</h3>
 <p>Older church books use POJ. Read ch as ts, chh as tsh, o͘ as oo, ⁿ as nn, oa and oe as ua and ue. When you type, POJ spellings are accepted.</p>
 <h3>Typing tones</h3>
@@ -58,29 +61,40 @@ module.exports = [
     title: "Vowels and endings: o and oo, nasal nn, and the stops -p -t -k -h",
     blurb: "Read Taigi vowels and syllable endings: o against oo, nasal vowels, and the short stopped endings.",
     deck: "Tâi-lô sounds",
+    sections: [[{"deck": "Tâi-lô sounds", "n": [10, 11]}, {"name": "Six vowels", "cards": [["跤", "kha", "foot; leg", "kh + a. a as in father. The MOE character; you may also see 腳."], ["雞", "ke", "chicken", "k + e. e as in café."], ["豬", "ti", "pig", "t + i. i as in see."], ["刀", "to", "knife", "t + o. Single o, as in 好 hó, not the oo of 虎."], ["烏", "oo", "black", "No initial: the open oo alone, like the aw of law."], ["有", "ū", "have; there is", "No initial: u alone, as in food. Tone 7."]]}], {"name": "Nasal vowels", "cards": [["三", "sann", "three", "s + a through the nose. No n at the end."], ["甜", "tinn", "sweet", "t + i through the nose."], ["圓", "înn", "round", "No initial: i through the nose, tone 5."], ["餅", "piánn", "cake; cookie", "p + ia through the nose, tone 2."], ["驚", "kiann", "afraid", "k + ia through the nose."]]}, {"deck": "Tâi-lô sounds", "n": [11, 14]}, {"deck": "Tâi-lô sounds", "n": [14, 17]}, [{"deck": "Tâi-lô sounds", "n": [17, 18]}, {"name": "Hummed syllables", "cards": [["卵", "nn̄g", "egg", "n + hummed ng, tone 7. Sounds the same as 兩 (two)."], ["黃", "n̂g", "yellow", "A hummed ng alone, tone 5."], ["湯", "thng", "soup", "th + hummed ng."], ["糖", "thn̂g", "sugar; candy", "th + hummed ng, tone 5."], ["門", "mn̂g", "door", "m + hummed ng, tone 5."]]}], {"name": "Tâi-lô words", "cards": [["豬肉", "ti-bah", "pork", "t + i · b + ah. The h is a catch in the throat."], ["雞肉", "ke-bah", "chicken (meat)", "k + e · b + ah."], ["米粉", "bí-hún", "rice noodles", "b + i · h + un. b is a voiced b."], ["番薯", "han-tsî", "sweet potato", "h + an · ts + i. ts with no puff."], ["西瓜", "si-kue", "watermelon", "s + i · k + ue. ue sounds like \"weh\"."], ["學校", "ha̍k-hāu", "school", "h + ak · h + au. The k is not released."], ["日頭", "ji̍t-thâu", "the sun", "j + it · th + au. j is voiced; th has a puff of air."], ["月娘", "gue̍h-niû", "the moon", "g + ueh · n + iu. g is a real g, as in go."], ["電腦", "tiān-náu", "computer", "t + ian · n + au."], ["市場", "tshī-tiûnn", "market", "tsh + i · t + iunn. tsh has a puff; nn makes iu nasal."], ["醫生", "i-sing", "doctor", "No initial: i alone · s + ing."], ["天氣", "thinn-khì", "weather", "th + inn · kh + i. Both have a puff of air."], ["鉛筆", "iân-pit", "pencil", "No initial: ian · p + it. The t is not released."], ["雨傘", "hōo-suànn", "umbrella", "h + oo · s + uann. oo is the aw of law; nn makes ua nasal."]]}],
     body: `
 <p>A Taigi syllable is an initial (lesson 1) plus a final: the vowel and whatever comes after it. Several finals look English and are not.</p>
 <h3>o and oo</h3>
 <p>Tâi-lô has two o's. <b>oo</b> is open, like the aw of <i>law</i>. Single <b>o</b> is a different vowel: Bite-size Taiwanese writes 好 <i>hó</i> as [hə] and 虎 <i>hóo</i> as [hɔ]. Copy the spelling: o and oo are never interchangeable. They make different words: <b>好</b> <i>hó</i> is good, <b>虎</b> <i>hóo</i> is tiger.</p>
 {{ex:好|hó|good}}
 {{ex:虎|hóo|tiger}}
+<p>With o and oo, Tâi-lô has six vowels: a, e, i, o, oo and u. Tap a tile for an English sound that comes close. Two vowels side by side glide into each other, as in <i>ai</i>, <i>au</i>, <i>ia</i>, <i>iu</i>, <i>ua</i> and <i>ue</i>: <b>歌</b> <i>kua</i> (song) sounds like "kwa".</p>
+{{tiles:a=a_of_father e=é_of_café i=ee_of_see o=a_of_about oo=aw_of_law u=oo_of_food}}
 <h3>Nasal vowels: nn</h3>
 <p>A double <b>nn</b> after the vowel is not a letter n. It means the vowel itself goes through the nose, as in French <i>vin</i>. Say "ah" and let air out through your nose: that is <b>三</b> <i>sann</i>. Do not close your tongue for an n.</p>
 {{ex:三|sann|three}}
 {{ex:天|thinn|sky}}
+<p>Most vowels can go through the nose. Tap a tile: <i>ann</i>, <i>inn</i> and <i>enn</i> are a, i and e said through the nose. After m, n and ng the vowel is always nasal, so Tâi-lô writes no nn: <b>名</b> <i>miâ</i> (name), <b>貓</b> <i>niau</i> (cat).</p>
+{{tiles:ann=nasal_a inn=nasal_i enn=nasal_e}}
 <h3>-m, -n, -ng</h3>
 <p>These are ordinary closing nasals, as in English <i>hum</i>, <i>sun</i>, <i>sung</i>. Keep them apart: <b>鹹</b> <i>kiâm</i> (salty) closes the lips, <b>真</b> <i>tsin</i> (very) touches the tongue behind the teeth, <b>人</b> <i>lâng</i> (person) closes at the back.</p>
 {{ex:鹹|kiâm|salty}}
+{{tiles:-m=m_of_hum -n=n_of_sun -ng=ng_of_sung}}
 <h3>Short stops: -p, -t, -k, -h</h3>
 <p>In English, a final p is often released with a small pop. In Taigi, -p, -t and -k are never released: close the lips or tongue and stop, with no pop and no extra vowel. <b>十</b> <i>tsa̍p</i> ends with closed lips; <b>七</b> <i>tshit</i> ends with the tongue held up; <b>鹿</b> <i>lo̍k</i> ends at the back of the mouth.</p>
 <p>A final <b>-h</b> is not a breath. It is a glottal stop, a catch in the throat that cuts the vowel short, like the break in <i>uh-oh</i>. These short syllables are called checked syllables, and they have only two tones (lesson 3).</p>
 {{ex:十|tsa̍p|ten}}
 {{ex:鹿|lo̍k|deer}}
 {{ex:肉|bah|meat}}
+{{tiles:-p=unreleased_p -t=unreleased_t -k=unreleased_k -h=throat_catch}}
 <h3>Syllables with no vowel</h3>
 <p><b>m</b> and <b>ng</b> can be whole syllables. <b>毋</b> <i>m̄</i> (not) is a hummed m, and <b>卵</b> <i>nn̄g</i> (egg) is a hummed ng. The tone mark sits on the m or the n. 卵 sounds exactly like <b>兩</b> <i>nn̄g</i> (two).</p>
 {{ex:毋|m̄|not (won't, isn't)}}
 {{ex:卵|nn̄g|egg}}
+{{tiles:m=hummed_m ng=hummed_ng}}
+<h3>Putting a syllable together</h3>
+<p>Now put the pieces together. A syllable is an initial, a final and a tone (tones 1 and 4 have no mark): <b>豬</b> is t + i, <i>ti</i>, and <b>肉</b> is b + ah, <i>bah</i>. Together they make <b>豬肉</b> <i>ti-bah</i>, pork. Some syllables have no initial: <b>醫生</b> <i>i-sing</i> (doctor) starts straight on the vowel. The cards below are common words. Read the Tâi-lô aloud before you flip each card, and find the initial and final of each syllable. Copy the tone marks: lesson 3 explains them, and lesson 4 shows how the first syllable changes its tone in speech.</p>
+{{ex:豬肉|ti-bah|pork}}
 <div class="tip"><b>Most common mistake:</b> saying nn as a real n. <b>三</b> said "san" → <i>sann</i>, an open nasal "ah" with no n at the end.</div>
 `,
     check: [
@@ -110,13 +124,17 @@ module.exports = [
     title: "The seven tones and their marks",
     blurb: "Name the tone of any marked Tâi-lô syllable and describe how it sounds.",
     deck: "Seven tones",
+    sections: [{"deck": "Seven tones", "n": [8, 17]}, {"deck": "Seven tones", "n": [0, 8]}, null, null],
     body: `
 <p>In English, pitch shows feeling: a rise for a question, a fall for a statement. In Taigi, pitch is part of the word. <b>獅</b> <i>sai</i> is a lion; <b>豹</b> <i>pà</i> is a leopard; <b>飽</b> <i>pá</i> is full. Change the tone and you change the word.</p>
 <h3>Seven tones, numbered 1 to 8</h3>
 <p>Tones are named by number. The general accent this course teaches has no tone 6, so you meet tones 1, 2, 3, 4, 5, 7 and 8. The pitch numbers run from 1 (low) to 5 (high): 51 means start high and fall low. Sources differ slightly: the numbers below are from taioaan.org, while Bite-size Taiwanese writes tone 2 as 53, tone 3 as 21 and tone 4 as 2.</p>
 <div class="tbl"><table><tr><th>Tone</th><th>Mark</th><th>Pitch</th><th>Example</th></tr><tr><td>1</td><td>none</td><td>55: high, level</td><td class="k">獅 sai (lion)</td></tr><tr><td>2</td><td>acute á</td><td>51: high, falling</td><td class="k">虎 hóo (tiger)</td></tr><tr><td>3</td><td>grave à</td><td>31: low, falling</td><td class="k">豹 pà (leopard)</td></tr><tr><td>4</td><td>none, ends in -p -t -k -h</td><td>3: short, mid</td><td class="k">鱉 pih (soft-shelled turtle)</td></tr><tr><td>5</td><td>circumflex â</td><td>24: rising</td><td class="k">猴 kâu (monkey)</td></tr><tr><td>7</td><td>macron ā</td><td>33: middle, level</td><td class="k">象 tshiūnn (elephant)</td></tr><tr><td>8</td><td>short vertical line a̍</td><td>5: short, high</td><td class="k">鹿 lo̍k (deer)</td></tr></table></div>
+<p>Tap a tile to see each mark on the one syllable <i>a</i>. Tone 4 and tone 8 need an ending, so they are shown on <i>ah</i>. There is no tone 6, so its cell is empty. The cards below give one more word for each tone: name the tone before you flip the card.</p>
+{{tiles:a=tone_1 á=tone_2 à=tone_3 ah=tone_4 â=tone_5 _ ā=tone_7 a̍h=tone_8}}
 <h3>The eight animals</h3>
-<p>Learners in Taiwan remember the tones with eight animals in tone order: <b>獅虎豹鱉猴狗象鹿</b>. The sixth animal, <b>狗</b> <i>káu</i> (dog), stands in for the missing tone 6 and is tone 2 again.</p>
+<p>Learners in Taiwan remember the tones with eight animals in tone order: <b>獅虎豹鱉猴狗象鹿</b>. The sixth animal, <b>狗</b> <i>káu</i> (dog), stands in for the missing tone 6 and is tone 2 again. Tap the animals in order.</p>
+{{tiles:獅 虎=hóo 豹 鱉 猴 狗 象 鹿}}
 {{ex:獅|sai|lion}}
 {{ex:虎|hóo|tiger}}
 {{ex:豹|pà|leopard}}
@@ -307,11 +325,14 @@ module.exports = [
     title: "Reading Taigi characters: 毋, 佇, 遮, 欲, 予",
     blurb: "Recognize the characters Taigi uses for its own words, and avoid the Mandarin look-alikes.",
     deck: "Taigi characters",
+    sections: [[{"deck": "Taigi characters", "n": [0, 11]}, {"deck": "Taigi characters", "n": [12, 17]}], null, null, [{"deck": "Taigi characters", "n": [11, 12]}, {"name": "Words from characters", "cards": [["食飯", "tsia̍h-pn̄g", "eat a meal", "食 (eat) + 飯 (rice, meal)."], ["食飽", "tsia̍h-pá", "eat your fill; finish eating", "食 (eat) + 飽 (full)."], ["好食", "hó-tsia̍h", "tasty; delicious", "好 (good) + 食 (eat): good to eat."], ["啉茶", "lim tê", "drink tea", "啉 (drink) + 茶 (tea)."], ["啉水", "lim tsuí", "drink water", "啉 (drink) + 水 (water)."], ["好啉", "hó-lim", "tasty (of a drink)", "好 (good) + 啉 (drink): good to drink."], ["毋是", "m̄ sī", "isn't; is not", "毋 (not) + 是 (be). Not 不是, which is Mandarin."], ["欲食", "beh tsia̍h", "want to eat; going to eat", "欲 (want to) + 食 (eat)."], ["欲睏", "beh khùn", "sleepy; about to sleep", "欲 (about to) + 睏 (sleep)."], ["真媠", "tsin suí", "very pretty", "真 (very) + 媠 (beautiful). No 是 before it."], ["佇遮", "tī tsia", "here; at this place", "佇 (at) + 遮 (here)."], ["佇遐", "tī hia", "there; at that place", "佇 (at) + 遐 (there)."], ["予你", "hōo lí", "give (it) to you; for you", "予 (give) + 你 (you)."], ["你佮我", "lí kah guá", "you and me", "你 (you) + 佮 (and) + 我 (I, me)."], ["四个人", "sì ê lâng", "four people", "四 (four) + 个 (classifier) + 人 (person)."], ["七本冊", "tshit pún tsheh", "seven books", "七 (seven) + 本 (classifier for books) + 冊 (book)."]]}], null],
     body: `
 <p>Taigi is written in traditional characters, like Taiwan Mandarin, but many everyday words have their own characters. This course uses the Ministry of Education's recommended characters. If you read Mandarin, this lesson is about unlearning a few habits. Taigi and Mandarin are different languages with different words, so a Mandarin character is not just another spelling: 不 is a Mandarin word, while 毋 is the Taigi word <i>m̄</i>, and they are not used the same way.</p>
 <h3>Taigi words, Taigi characters</h3>
 <div class="tbl"><table><tr><th>Taigi</th><th>Meaning</th><th>Not (Mandarin)</th></tr><tr><td class="k">毋 m̄</td><td>not (won't, isn't)</td><td class="k">不</td></tr><tr><td class="k">佇 tī</td><td>at, in</td><td class="k">在</td></tr><tr><td class="k">欲 beh</td><td>want to, about to</td><td class="k">要</td></tr><tr><td class="k">食 tsia̍h</td><td>eat</td><td class="k">吃</td></tr><tr><td class="k">啉 lim</td><td>drink</td><td class="k">喝</td></tr><tr><td class="k">媠 suí</td><td>beautiful</td><td class="k">漂亮</td></tr></table></div>
-<p>Others to know: <b>予</b> <i>hōo</i> (give, let), <b>囝</b> <i>kiánn</i> (child, son), <b>睏</b> <i>khùn</i> (sleep), <b>蹛</b> <i>tuà</i> (live), <b>遮</b> <i>tsia</i> (here) and <b>遐</b> <i>hia</i> (there), <b>冊</b> <i>tsheh</i> (book). Never write the Mandarin character for a Taigi word, even if a keyboard offers it first.</p>
+<p>Others to know: <b>予</b> <i>hōo</i> (give, let), <b>囝</b> <i>kiánn</i> (child, son), <b>睏</b> <i>khùn</i> (sleep), <b>蹛</b> <i>tuà</i> (live), <b>遮</b> <i>tsia</i> (here) and <b>遐</b> <i>hia</i> (there), <b>冊</b> <i>tsheh</i> (book), <b>囥</b> <i>khǹg</i> (put, place) and <b>佮</b> <i>kah</i> (and, with). Never write the Mandarin character for a Taigi word, even if a keyboard offers it first.</p>
+<p>Each character is one syllable. Tap a tile to see its Tâi-lô.</p>
+{{tiles:毋 佇 欲 食 啉 媠 予 囝 睏 蹛 遮 遐 冊 厝 囥 佮}}
 {{ex:我毋知。|Guá m̄ tsai.|I don't know.}}
 {{ex:伊佇厝裡。|I tī tshù--lí.|She's at home.}}
 {{ex:我欲啉茶。|Guá beh lim tê.|I'm going to drink tea.}}
@@ -326,6 +347,10 @@ module.exports = [
 {{ex:一个人|tsi̍t ê lâng|one person}}
 {{ex:兩本冊|nn̄g pún tsheh|two books}}
 {{ex:這本冊|tsit pún tsheh|this book}}
+{{tiles:个 本=pún 兩=nn̄g}}
+<h3>Putting characters together</h3>
+<p>Many Taigi words are two or three characters, and you read them one character, one syllable, at a time: <b>食</b> <i>tsia̍h</i> (eat) + <b>飯</b> <i>pn̄g</i> (rice) is <b>食飯</b> <i>tsia̍h-pn̄g</i>, eat a meal. The cards below are common words and short phrases built from characters you have already met. Read each one aloud from the characters before you flip it, then check the Tâi-lô.</p>
+{{ex:好啉|hó-lim|tasty (of a drink)}}
 <h3>Three rare characters</h3>
 <p>Three common words use characters some phones cannot show: <b>𪜶</b> <i>in</i> (they), <b>𠢕早</b> <i>gâu-tsá</i> (good morning) and <b>𨑨迌</b> <i>tshit-thô</i> (have fun). If you see an empty box, read the Tâi-lô.</p>
 <div class="tip"><b>Most common mistake:</b> writing the Mandarin character. <b>我不是</b> → <b>我毋是</b>, and <b>伊在厝裡</b> → <b>伊佇厝裡</b>.</div>
