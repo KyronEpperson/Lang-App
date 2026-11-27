@@ -1,0 +1,84 @@
+{"id":"sounds.k1","lesson":"sounds","o":[null,null,null,null],"a":0}
+{"id":"sounds.k2","lesson":"sounds","o":["s","t","c","d"],"a":2}
+{"id":"sounds.k3","lesson":"sounds","o":[null,null,null,null],"a":2}
+{"id":"greetings.k1","lesson":"greetings","o":[null,null,null,null],"a":0}
+{"id":"greetings.k2","lesson":"greetings","o":[null,null,null,null],"a":1}
+{"id":"greetings.k3","lesson":"greetings","o":["S'il vous plaît","Merci","S'il te plaît","De rien"],"a":2}
+{"id":"articles.k1","lesson":"articles","o":[null,null,null,null],"a":1}
+{"id":"articles.k2","lesson":"articles","o":["le appartement","la appartement","les appartement","l'appartement"],"a":3}
+{"id":"articles.k3","lesson":"articles","o":[null,null,null,null],"a":1}
+{"id":"etre-avoir.k1","lesson":"etre-avoir","o":["Je suis vingt-cinq","Je suis vingt-cinq ans","J'ai vingt-cinq ans","J'ai vingt-cinq"],"a":2}
+{"id":"etre-avoir.k2","lesson":"etre-avoir","o":["ils","nous","vous","je"],"a":0}
+{"id":"etre-avoir.k3","lesson":"etre-avoir","o":[null,null,null,null],"a":1}
+{"id":"pronouns.k1","lesson":"pronouns","o":["Je!","Moi!","Me!","Mon!"],"a":1}
+{"id":"pronouns.k2","lesson":"pronouns","o":[null,null,null,null],"a":2}
+{"id":"pronouns.k3","lesson":"pronouns","o":["avec ils","avec eux","avec leur","avec elles"],"a":3}
+{"id":"adjectives.k1","lesson":"adjectives","o":[null,null,null,null],"a":0}
+{"id":"adjectives.k2","lesson":"adjectives","o":[null,null,null,null],"a":1}
+{"id":"adjectives.k3","lesson":"adjectives","o":["rouge","noir","petit","vert"],"a":2}
+{"id":"present.k1","lesson":"present","o":["-e, -es, -ent","-ons, -ez, -ent","-e, -ez, -ons","-es, -ons, -ez"],"a":0}
+{"id":"present.k2","lesson":"present","o":["Je suis parle","Je suis parler","Je parlant","Je parle"],"a":3}
+{"id":"present.k3","lesson":"present","o":["nous mangons","nous mangeons","nous mangez","nous mangent"],"a":1}
+{"id":"negation.k1","lesson":"negation","o":[null,null,null,null],"a":1}
+{"id":"negation.k2","lesson":"negation","o":["Je n'ai pas un chat","Je ne ai pas de chat","Je n'ai pas de chat","Je n'ai de chat pas"],"a":2}
+{"id":"negation.k3","lesson":"negation","o":[null,null,null,null],"a":0}
+{"id":"questions.k1","lesson":"questions","o":["Est-ce que tu parles français?","Tu parles français est-ce que?","Tu est-ce que parles français?","Est-ce tu parles français?"],"a":0}
+{"id":"questions.k2","lesson":"questions","o":["Quel ville?","Quels ville?","Quelles ville?","Quelle ville?"],"a":3}
+{"id":"questions.k3","lesson":"questions","o":["ou","qui","où","quoi"],"a":2}
+{"id":"cest.k1","lesson":"cest","o":["Il est un professeur.","Il est professeur.","C'est professeur.","Il a professeur."],"a":1}
+{"id":"cest.k2","lesson":"cest","o":[null,null,null,null],"a":2}
+{"id":"cest.k3","lesson":"cest","o":["C'est un musée.","Il est un musée.","C'est musée.","Il y a musée."],"a":0}
+{"id":"possessives.k1","lesson":"possessives","o":["son mère","sa mère","ses mère","leur mère"],"a":1}
+{"id":"possessives.k2","lesson":"possessives","o":[null,null,null,null],"a":0}
+{"id":"possessives.k3","lesson":"possessives","o":["ce","cette","cet","ces"],"a":2}
+{"id":"numbers.k1","lesson":"numbers","o":["sept-cinq","soixante-cinq","soixante-quinze","quatre-vingt-quinze"],"a":2}
+{"id":"numbers.k2","lesson":"numbers","o":[null,null,null,null],"a":0}
+{"id":"numbers.k3","lesson":"numbers","o":["le un mai","le premier mai","mai premier","le mai un"],"a":1}
+{"id":"partitive.k1","lesson":"partitive","o":["Je voudrais eau.","Je voudrais de l'eau.","Je voudrais du eau.","Je voudrais la eau."],"a":1}
+{"id":"partitive.k2","lesson":"partitive","o":["Il y a du café.","Je voudrais du café.","J'aime le café.","Tu as du café?"],"a":2}
+{"id":"partitive.k3","lesson":"partitive","o":[null,null,null,null],"a":1}
+{"id":"polite.k1","lesson":"polite","o":[null,null,null,null],"a":1}
+{"id":"polite.k2","lesson":"polite","o":[null,null,null,null],"a":2}
+{"id":"polite.k3","lesson":"polite","o":["Vous pourriez…?","Tu pourrais…?","Vous pourrais…?","Je pourrais…?"],"a":0}
+{"id":"prepositions.k1","lesson":"prepositions","o":["à Paris","en Paris","au Paris","aux Paris"],"a":0}
+{"id":"prepositions.k2","lesson":"prepositions","o":["à le","au","aux","du"],"a":1}
+{"id":"prepositions.k3","lesson":"prepositions","o":["en Japon","à Japon","au Japon","aux Japon"],"a":2}
+{"id":"irregular.k1","lesson":"irregular","o":["Il est beau.","Il fait beau.","Il a beau temps.","C'est beau temps."],"a":1}
+{"id":"irregular.k2","lesson":"irregular","o":["ils allent","ils vas","ils aller","ils vont"],"a":3}
+{"id":"irregular.k3","lesson":"irregular","o":[null,null,null,null],"a":1}
+{"id":"modals.k1","lesson":"modals","o":["Je veux je mange.","Je veux manger.","Je veux mange.","Je veux à manger."],"a":1}
+{"id":"modals.k2","lesson":"modals","o":["Je sais nager.","Je suis nager.","Je fais nager.","Je dois nager."],"a":0}
+{"id":"modals.k3","lesson":"modals","o":["vous peuvez","vous peux","vous pouvez","vous pouvons"],"a":2}
+{"id":"futur-proche.k1","lesson":"futur-proche","o":["Je vais à manger.","Je vais manger.","Je vais mange.","Je mange aller."],"a":1}
+{"id":"futur-proche.k2","lesson":"futur-proche","o":[null,null,null,null],"a":0}
+{"id":"futur-proche.k3","lesson":"futur-proche","o":[null,null,null,null],"a":2}
+{"id":"pronominal.k1","lesson":"pronominal","o":["Je lève à sept heures.","Je me lève à sept heures.","Je se lève à sept heures.","Me lève à sept heures."],"a":1}
+{"id":"pronominal.k2","lesson":"pronominal","o":["se","me","nous","vous"],"a":2}
+{"id":"pronominal.k3","lesson":"pronominal","o":["Je vais me coucher.","Je me vais coucher.","Je vais coucher me.","Je vais se coucher."],"a":0}
+{"id":"imperative.k1","lesson":"imperative","o":["Tourne à droite.","Tournez à droite.","Tu tournes à droite.","Tournes à droite."],"a":1}
+{"id":"imperative.k2","lesson":"imperative","o":["Regardes!","Tu regardes!","Regarde!","Regardez-tu!"],"a":2}
+{"id":"imperative.k3","lesson":"imperative","o":[null,null,null,null],"a":0}
+{"id":"passe-compose.k1","lesson":"passe-compose","o":["J'ai allé à Paris.","Je suis allé à Paris.","Je vais allé à Paris.","Je suis aller à Paris."],"a":1}
+{"id":"passe-compose.k2","lesson":"passe-compose","o":["Léa est sorti hier soir.","Léa a sortie hier soir.","Léa est sortie hier soir.","Léa sortie hier soir."],"a":2}
+{"id":"passe-compose.k3","lesson":"passe-compose","o":[null,null,null,null],"a":0}
+{"id":"connectors.k1","lesson":"connectors","o":["où","et","mais","ou"],"a":3}
+{"id":"connectors.k2","lesson":"connectors","o":["Alors…","Mais…","Parce que…","Pourquoi…"],"a":2}
+{"id":"connectors.k3","lesson":"connectors","o":[null,null,null,null],"a":1}
+{"id":"spoken.k1","lesson":"spoken","o":[null,null,null,null],"a":1}
+{"id":"spoken.k2","lesson":"spoken","o":[null,null,null,null],"a":2}
+{"id":"spoken.k3","lesson":"spoken","o":[null,null,null,null],"a":0}
+{"id":"imparfait.k1","lesson":"imparfait","o":["-ait","-aient","-ions","-iez"],"a":1}
+{"id":"imparfait.k2","lesson":"imparfait","o":[null,null,null,null],"a":0}
+{"id":"imparfait.k3","lesson":"imparfait","o":["Quand j'ai été petit","Quand je suis petit","Quand je vais être petit","Quand j'étais petit"],"a":3}
+{"id":"futur.k1","lesson":"futur","o":["Je travailleré","Je travaillerai","Je travailler","Je travaillerons"],"a":1}
+{"id":"futur.k2","lesson":"futur","o":["Quand je suis à Paris, je visiterai le Louvre.","Quand j'étais à Paris, je visiterai le Louvre.","Quand je serai à Paris, je visite le Louvre.","Quand je serai à Paris, je visiterai le Louvre."],"a":3}
+{"id":"futur.k3","lesson":"futur","o":["ser-","êtr-","ét-","aur-"],"a":0}
+{"id":"object-pronouns.k1","lesson":"object-pronouns","o":["Je le prends.","Je prends la.","Je la prends.","Je prends le."],"a":2}
+{"id":"object-pronouns.k2","lesson":"object-pronouns","o":["la","lui","elle","leur"],"a":1}
+{"id":"object-pronouns.k3","lesson":"object-pronouns","o":["Oui, j'en voudrais.","Oui, je le voudrais.","Oui, j'y voudrais.","Oui, je voudrais en."],"a":0}
+{"id":"compare.k1","lesson":"compare","o":["Ma sœur est plus grand que moi.","Ma sœur est plus grande que je.","Ma sœur est plus grande que moi.","Ma sœur est grande plus que moi."],"a":2}
+{"id":"compare.k2","lesson":"compare","o":["Ce pain est plus bon.","Ce pain est meilleur.","Ce pain est plus meilleur.","Ce pain est bon plus."],"a":1}
+{"id":"compare.k3","lesson":"compare","o":["mieux","meilleur","meilleure","plus bon"],"a":0}
+{"id":"relatives.k1","lesson":"relatives","o":["le film j'ai vu","le film qui j'ai vu","le film que j'ai vu","le film où j'ai vu"],"a":2}
+{"id":"relatives.k2","lesson":"relatives","o":["que","qui","où","qu'"],"a":1}
+{"id":"relatives.k3","lesson":"relatives","o":["où","que","qui","ou"],"a":0}

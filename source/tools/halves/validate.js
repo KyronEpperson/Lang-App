@@ -120,6 +120,7 @@ n.practice.forEach(r => {
   const tr = tIx.practice.get(r.id); if (!tr) return; const w = 'practice:' + r.id;
   ['q', 'p', 'why', 'hint'].forEach(k => { if (typeof r[k] === 'string' && r[k].length + (k === 'hint' && tr.hint ? String(tr.hint[TC.field] || '').length + (tr.hint.sep || '').length : 0) > 400) err(w + '.' + k, 'longer than 400 characters: the app truncates it'); });
   (r.o || []).forEach((o, j) => { if (o != null && String(o).length > 200) err(w + '.o[' + j + ']', 'option longer than 200 characters'); });
+  if (tr.qk) { const miss = L.missingSpans(r.q, tr.qk); if (miss.length) err(w + '.q', TC.name + ' text around the blank missing or altered: ' + miss.map(x => '«' + x + '»').join(' ') + ' (keep it exactly: target practice qk)'); } /* fill prompts moved native by TARGETS[t].fillSplit */
 });
 n.dialog.forEach(r => { const ref = enIx.dialog.get(r.id); if (ref && typeof r.tr === 'string' && (r.tr.split(' / ').length !== ref.tr.split(' / ').length)) err('dialog:' + r.id + '.tr', 'keep one " / " between the two lines (' + (ref.tr.split(' / ').length - 1) + ' in English)'); });
 n.sentences.forEach(r => { if (/[{}]/.test(r.gloss || '')) err('sentences:' + r.id + '.gloss', 'braces are not allowed in an example gloss'); if (tgt !== 'ko' && /\|/.test(r.gloss || '')) err('sentences:' + r.id + '.gloss', '"|" is not allowed in an example gloss: the assembled {{ex:text|pron|gloss}} token is split on it'); });

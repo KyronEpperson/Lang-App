@@ -31,6 +31,22 @@ function inventoryTarget(cfg) {
   const respellMod = () => (RS || (RS = require(cfg.respell)));
   const pronRx = () => (PR || (PR = new RegExp(JSON.parse(fs.readFileSync(cfg.profile, 'utf8')).pronPattern)));
   let inv = null; /* { phrases: Set, lex: Set, source } */
+  /* items: explicit per-item classes, { '<lesson>.k<n>' | '<lesson>.<nn>': 'target' | 'prose' } (check ids and mc practice ids exactly as
+     export_target.js writes them). An item is 'target' only if every option is target text or language-neutral material; one option of English
+     prose makes it 'prose'. The table is read by itemIsValue through the item's options and key (the hook gets no id): useCourse records which ids
+     carry which (options, key), and refuses an unknown id, a bad class, or two ids with the same options but different classes. */
+  const ITEMS = cfg.items || null; let itemSig = null;
+  const sigOf = (opts, key) => JSON.stringify([opts, key]);
+  function indexItems(c) {
+    if (!ITEMS) return;
+    const ids = new Set(); itemSig = new Map();
+    const note = (id, opts, key) => { ids.add(id); const k = sigOf(opts, key); if (!itemSig.has(k)) itemSig.set(k, []); itemSig.get(k).push(id); };
+    Object.entries(c.CHECKS || {}).forEach(([lid, list]) => list.forEach((ch, i) => note(lid + '.k' + (i + 1), ch[1], ch[2])));
+    Object.entries(c.PRACTICE || {}).forEach(([lid, list]) => list.forEach((it, i) => { if (it.t === 'mc') note(lid + '.' + String(i + 1).padStart(2, '0'), it.o, 0); }));
+    Object.entries(ITEMS).forEach(([id, v]) => { if (!ids.has(id)) throw new Error(cfg.code + ' items: no check or mc item ' + id);
+      if (v !== 'target' && v !== 'prose') throw new Error(cfg.code + ' items: ' + id + ' must be target or prose, not ' + v); });
+    itemSig.forEach(list => { const v = new Set(list.map(id => ITEMS[id] || '')); if (v.size > 1) throw new Error(cfg.code + ' items: same options, different classes: ' + list.join(', ')); });
+  }
 
   function build(strings, source) {
     const phrases = new Set(), lex = new Set();
@@ -55,6 +71,7 @@ function inventoryTarget(cfg) {
       walk(l.sections || []);
     });
     Object.values(c.PRACTICE || {}).forEach(list => list.forEach(it => { if (it.t === 'mc') return; [].concat(it.a || [], it.o || [], it.x || []).forEach(x => S.push(x)); if (it.t === 'fill') S.push(it.q); }));
+    indexItems(c);
     return build(S, 'pack');
   }
   /* from an exported target half (same positional fields) */
@@ -93,7 +110,9 @@ function inventoryTarget(cfg) {
   }
   /* one decision per mc / check item (export_target.js): its key answer, or failing that most of its options (the key may be a form the inventory lacks:
      «comes» among come / como / comen) */
-  const itemIsValue = (opts, key) => isValue(opts[key]) || opts.filter(isValue).length * 2 > opts.length;
+  const autoItem = (opts, key) => isValue(opts[key]) || opts.filter(isValue).length * 2 > opts.length;
+  /* an explicit class from cfg.items wins (known once useCourse has indexed the pack; only export_target.js decides items) */
+  const itemIsValue = (opts, key) => { const ids = itemSig && itemSig.get(sigOf(opts, key)), v = ids && ITEMS[ids[0]]; return v ? v === 'target' : autoItem(opts, key); };
   /* text inside a MARKED position (bold, example cell): the position already says "a quoted form"; only English emphasis must be told apart,
      so English homographs count as target here */
   const isMarkedText = s => { s = String(s == null ? '' : s).trim(); if (!s) return false; if (isValue(s)) return true; if (/\d/.test(s)) return false; const w = words(s); return w.length > 0 && w.every(inLex); };
@@ -147,7 +166,7 @@ function inventoryTarget(cfg) {
   return { code: cfg.code, field: cfg.field, name: cfg.name, script: cfg.name, by: 'marks', runs: null, has: isValue, isValue, itemIsValue, leadRx: null, marks, useCourse,
     unmarkedNote: cfg.name + ' words of the course inventory, or with a ' + cfg.name + ' diacritic, outside every mark',
     /* exposed for tests and the design note */
-    inventory: () => I(), isMarkedText, isLine, reset: () => { inv = null; } };
+    inventory: () => I(), isMarkedText, isLine, autoItem, items: ITEMS, reset: () => { inv = null; } };
 }
 
 module.exports = { inventoryTarget, LAT_WORD };

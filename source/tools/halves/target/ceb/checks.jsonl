@@ -1,0 +1,84 @@
+{"id":"sounds.k1","lesson":"sounds","o":[null,null,null,null],"a":0}
+{"id":"sounds.k2","lesson":"sounds","o":[null,null,null,null],"a":1}
+{"id":"sounds.k3","lesson":"sounds","o":[null,null,null,null],"a":2}
+{"id":"greetings.k1","lesson":"greetings","o":["Maayong buntag.","Maayong hapon.","Maayong gabii.","Maayong udto."],"a":1}
+{"id":"greetings.k2","lesson":"greetings","o":["Salamat po.","Salamat, Nang.","Salamat, Nong.","Walay sapayan, Nong."],"a":2}
+{"id":"greetings.k3","lesson":"greetings","o":["Walay sapayan.","Palihug.","Amping.","Dayon."],"a":0}
+{"id":"particles.k1","lesson":"particles","o":["Lang usa.","Usa lang.","Usa sab.","Sab usa."],"a":1}
+{"id":"particles.k2","lesson":"particles","o":["Maayong buntag sab.","Sab maayong buntag.","Maayong buntag ba.","Maayong buntag diay."],"a":0}
+{"id":"particles.k3","lesson":"particles","o":[null,null,null,null],"a":2}
+{"id":"this-that.k1","lesson":"this-that","o":["Unsa kadto?","Unsa kana?","Unsa kini?","Kana unsa?"],"a":1}
+{"id":"this-that.k2","lesson":"this-that","o":[null,null,null,null],"a":2}
+{"id":"this-that.k3","lesson":"this-that","o":[null,null,null,null],"a":0}
+{"id":"ako.k1","lesson":"ako","o":["Ako Amerikano.","Amerikano ko.","Ko Amerikano.","Amerikano nako."],"a":1}
+{"id":"ako.k2","lesson":"ako","o":["si","ang","sa","ka"],"a":0}
+{"id":"ako.k3","lesson":"ako","o":[null,null,null,null],"a":2}
+{"id":"intro.k1","lesson":"intro","o":["Asa ka gikan?","Taga-asa ka?","Ka taga-asa?","Asa taga ka?"],"a":1}
+{"id":"intro.k2","lesson":"intro","o":["Ako si Emma.","Ko si Emma.","Ako ang Emma.","Si ako Emma."],"a":0}
+{"id":"intro.k3","lesson":"intro","o":[null,null,null,null],"a":2}
+{"id":"questions.k1","lesson":"questions","o":["Ka asa?","Asa ka?","Asa ikaw ka?","Asa nimo?"],"a":1}
+{"id":"questions.k2","lesson":"questions","o":["unsa","asa","kinsa","ngano"],"a":2}
+{"id":"questions.k3","lesson":"questions","o":["Dili.","Hindi.","Oo.","Po."],"a":0}
+{"id":"we-you.k1","lesson":"we-you","o":["Taga-Amerika kita.","Taga-Amerika mi.","Taga-Amerika sila.","Taga-Amerika ta."],"a":1}
+{"id":"we-you.k2","lesson":"we-you","o":[null,null,null,null],"a":2}
+{"id":"we-you.k3","lesson":"we-you","o":["batas","mga bata","mga batas","ang bata"],"a":1}
+{"id":"nako.k1","lesson":"nako","o":["ang balay sa Pedro","ang balay ni Pedro","ang Pedro balay","ang balay si Pedro"],"a":1}
+{"id":"nako.k2","lesson":"nako","o":["atong balay","among balay","balay namo","kitang balay"],"a":0}
+{"id":"nako.k3","lesson":"nako","o":["ang pultahan ni balay","ang balay pultahan","sa pultahan ang balay","ang pultahan sa balay"],"a":3}
+{"id":"nga.k1","lesson":"nga","o":["dako balay","dakong balay","balay dako","Dako ang balay."],"a":1}
+{"id":"nga.k2","lesson":"nga","o":[null,null,null,null],"a":0}
+{"id":"nga.k3","lesson":"nga","o":["maayo lang","maayo ba","maayo kaayo","maayo diay"],"a":2}
+{"id":"aduna.k1","lesson":"aduna","o":["Naa koy tubig.","Ako naa tubig.","Naa nakoy tubig.","Dili koy tubig."],"a":0}
+{"id":"aduna.k2","lesson":"aduna","o":[null,null,null,null],"a":1}
+{"id":"aduna.k3","lesson":"aduna","o":["Naa ba ang Ana?","Walay Ana?","Naa ba si Ana?","Naay Ana?"],"a":2}
+{"id":"feelings.k1","lesson":"feelings","o":["Ako giuhaw.","Giuhaw ko.","Giuhaw nako.","Ko giuhaw."],"a":1}
+{"id":"feelings.k2","lesson":"feelings","o":[null,null,null,null],"a":0}
+{"id":"feelings.k3","lesson":"feelings","o":[null,null,null,null],"a":2}
+{"id":"numbers.k1","lesson":"numbers","o":["tulo saging","tulo ka saging","saging tulo","tulo ang saging"],"a":1}
+{"id":"numbers.k2","lesson":"numbers","o":[null,null,null,null],"a":0}
+{"id":"numbers.k3","lesson":"numbers","o":["Ako naa duha anak.","Duha ako anak.","Anak duha ako.","Duha akong anak."],"a":3}
+{"id":"prices.k1","lesson":"prices","o":[null,null,null,null],"a":0}
+{"id":"prices.k2","lesson":"prices","o":["Kuwarenta pesos si usa ka kilo.","Upat pesos ang usa ka kilo.","Kuwarenta pesos ang usa ka kilo.","Ang usa ka kilo kuwarenta ka."],"a":2}
+{"id":"prices.k3","lesson":"prices","o":[null,null,null,null],"a":1}
+{"id":"family.k1","lesson":"family","o":[null,null,null,null],"a":0}
+{"id":"family.k2","lesson":"family","o":["Bana sa Ana si Pedro.","Bana ni Ana ang Pedro.","Bana ni Ana si Pedro.","Ana bana si Pedro."],"a":2}
+{"id":"family.k3","lesson":"family","o":["atong pamilya","among pamilya","akong pamilya","ilang pamilya"],"a":1}
+{"id":"mo.k1","lesson":"mo","o":["Mokaon ko gahapon.","Nikaon ko gahapon.","Nikaon nako gahapon.","Ko nikaon gahapon."],"a":1}
+{"id":"mo.k2","lesson":"mo","o":[null,null,null,null],"a":0}
+{"id":"mo.k3","lesson":"mo","o":["Mopalit ko ang tubig.","Mopalit og tubig ko.","Nipalit ko og tubig.","Mopalit ko og tubig."],"a":3}
+{"id":"mag.k1","lesson":"mag","o":[null,null,null,null],"a":0}
+{"id":"mag.k2","lesson":"mag","o":["Nagtuon ko.","Magtuon ko.","Magtuon nako.","Ko magtuon."],"a":1}
+{"id":"mag.k3","lesson":"mag","o":[null,null,null,null],"a":2}
+{"id":"negation.k1","lesson":"negation","o":["Dili ko moadto.","Wala ko moadto.","Wala moadto ko.","Wala nako moadto."],"a":1}
+{"id":"negation.k2","lesson":"negation","o":["Dili","Wala","Walay","Ayaw"],"a":0}
+{"id":"negation.k3","lesson":"negation","o":[null,null,null,null],"a":3}
+{"id":"time.k1","lesson":"time","o":["alas tulo","alas tres","tulo ka oras","ala tres"],"a":1}
+{"id":"time.k2","lesson":"time","o":[null,null,null,null],"a":0}
+{"id":"time.k3","lesson":"time","o":["alas siyete sa buntag","alas pito sa gabii","pito ka oras sa gabii","alas siyete sa gabii"],"a":3}
+{"id":"gusto.k1","lesson":"gusto","o":["Gusto ko sa mokaon.","Gusto ko mokaon.","Gusto ko nikaon.","Mokaon gusto ko."],"a":1}
+{"id":"gusto.k2","lesson":"gusto","o":["Ko kinahanglan og tabang.","Kinahanglan og tabang ko.","Kinahanglan ko og tabang.","Ako kinahanglan og tabang."],"a":2}
+{"id":"gusto.k3","lesson":"gusto","o":["Ayaw!","Dili ko!","Wala!","Gusto!"],"a":0}
+{"id":"requests.k1","lesson":"requests","o":["Hulat!","Hulat lang, Nong.","Hulat po.","Lang hulat, Nong."],"a":1}
+{"id":"requests.k2","lesson":"requests","o":[null,null,null,null],"a":0}
+{"id":"requests.k3","lesson":"requests","o":["Dili","Wala","Ayaw","Palihug"],"a":2}
+{"id":"food.k1","lesson":"food","o":["Usa sabaw.","Palihug, usa ka sabaw.","Uno ka sabaw.","Sabaw usa ka."],"a":1}
+{"id":"food.k2","lesson":"food","o":[null,null,null,null],"a":0}
+{"id":"food.k3","lesson":"food","o":["Gigutom ko.","Lami ko.","Busog na ko.","Ayaw ko."],"a":2}
+{"id":"places.k1","lesson":"places","o":["didto","diha","diri","dinhi"],"a":1}
+{"id":"places.k2","lesson":"places","o":["Moadto ko sa merkado.","Moadto ko merkado.","Moadto ko ang merkado.","Moadto sa merkado ko."],"a":0}
+{"id":"places.k3","lesson":"places","o":[null,null,null,null],"a":2}
+{"id":"directions.k1","lesson":"directions","o":[null,null,null,null],"a":0}
+{"id":"directions.k2","lesson":"directions","o":["Liko sa tuo.","Liko sa wala.","Diretso lang.","Para sa wala."],"a":1}
+{"id":"directions.k3","lesson":"directions","o":[null,null,null,null],"a":2}
+{"id":"on.k1","lesson":"on","o":[null,null,null,null],"a":0}
+{"id":"on.k2","lesson":"on","o":[null,null,null,null],"a":1}
+{"id":"on.k3","lesson":"on","o":["Gipalit nako ang saging.","Paliton nako ang saging.","Mopalit ko og saging.","Kaonon nako ang saging."],"a":2}
+{"id":"an.k1","lesson":"an","o":["Gihugasan nako ang plato.","Hugasi nako ang plato.","Mohugas nako ang plato.","Hugasan ako ang plato."],"a":0}
+{"id":"an.k2","lesson":"an","o":[null,null,null,null],"a":1}
+{"id":"an.k3","lesson":"an","o":["Hugasan po ang plato.","Gihugasan ang plato.","Palihug hugasi ang plato.","Palihug mohugas ang plato."],"a":2}
+{"id":"compare.k1","lesson":"compare","o":["dakoer","mas dako","dako mas","pinaka dako kaysa"],"a":1}
+{"id":"compare.k2","lesson":"compare","o":["kaysa","mas","labing","parehas"],"a":0}
+{"id":"compare.k3","lesson":"compare","o":[null,null,null,null],"a":2}
+{"id":"maka.k1","lesson":"maka","o":[null,null,null,null],"a":0}
+{"id":"maka.k2","lesson":"maka","o":["Makaadto ka sa Bohol?","Nakaadto na ka sa Bohol?","Moadto ka sa Bohol?","Gusto mo sa Bohol?"],"a":1}
+{"id":"maka.k3","lesson":"maka","o":["Nakaluto ko.","Gusto ko magluto.","Kahibalo ko magluto.","Dili ko magluto."],"a":2}

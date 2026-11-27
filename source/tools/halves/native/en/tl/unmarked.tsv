@@ -1,0 +1,1094 @@
+# Tagalog words of the course inventory, or with a Tagalog diacritic, outside every mark (export_target.js tl; not protected by validate.js until the source marks them). Columns: file, id, field, words, text
+decks	tl.d.sounds-and-spelling	desc	ng mga	Words that show each sound rule: ng and mga, the catch, stress that changes meaning, the tapped r and the vowel pairs
+decks	tl.d.greetings-and-respect	desc	sorry po opo kayo	Greetings by time of day, thanks, sorry and goodbyes, with po, opo and the polite kayo
+decks	tl.d.family-and-people	desc	kuya ate tito tita	Family words, the pronouns, and the titles Filipinos use for people: kuya, ate, tito, tita
+decks	tl.d.numbers-and-money	desc	pesos	Native numbers for counting, Spanish numbers for prices and the clock, and pesos
+decks	tl.d.time-days-and-dates	desc	alas	Telling the time with alas-, days of the week, yesterday and tomorrow
+decks	tl.d.shopping-and-the-market	label	Shopping	Shopping and the market
+decks	tl.d.shopping-and-the-market	desc	palengke	The palengke and the sari-sari store: asking prices, this one and that one
+decks	tl.d.home-and-daily-routine	desc	at	Rooms and things at home, and a day from waking to sleeping
+decks	tl.d.getting-around	desc	Grab	Jeepneys, tricycles, taxis and Grab: fares, stops and saying where to
+decks	tl.d.work-and-school	desc	mag	Jobs, the office, classes and daily mag- verbs
+decks	tl.d.traps-for-english-speakers	desc	no hindi wala huwag	False friends, calques, and the three words for "no": hindi, wala, huwag
+decks	tl.d.flirting	desc	no	Words people flirt with, the phrases built from them, and how to ask someone out and say yes or a kind no
+decks	tl.d.top-verbs	desc	mag gusto alam kailangan	The most-used verb roots, with the -um-, mag- and -in forms a beginner meets, plus gusto, alam and kailangan
+decks	tl.d.top-adjectives	desc	ma	The most-used describing words, mostly ma- words, joined to nouns with the linker
+decks	tl.d.top-pronouns	desc	ang ng sa	The ang, ng and sa pronoun sets, question pronouns and words like everyone and anything
+decks	tl.d.top-markers-and-particles	desc	ang ng sa si ni kay na pa rin po ba daw	Tagalog's stand-ins for prepositions: the markers ang, ng, sa, si, ni, kay, the little words na, pa, rin, po, ba, daw, and sa phrases
+decks	tl.d.top-interjections	desc	Uy Sayang Teka Ayos Kadiri	What Filipinos really exclaim: Uy!, Sayang!, Teka!, Ayos!, Kadiri!
+decks	tl.d.top-words	desc	no	Question words, numbers, yes and no words, there is, months and time words
+cards	tl.c0001	note	no	Ends in a catch. Said BAH-tah with no catch, it means "robe".
+cards	tl.c0002	note	at	Stress the first syllable. Stressed at the end, it means "smoke".
+cards	tl.c0003	note	no	Ends in a catch. With no catch it means "vomit".
+cards	tl.c0004	note	ng si	ng starts the word, as in "singer" without the "si".
+cards	tl.c0007	meaning	ate	I ate a mango.
+cards	tl.c0008	note	opo	Two vowels side by side are two syllables, with a tiny catch between them. To elders, say opo.
+cards	tl.c0009	note	ts ch	ts is said like English ch.
+cards	tl.c0010	note	ts ch AH	ts = ch, and the two a's are two syllables: chah-AH.
+cards	tl.c0011	note	at	Stressed at the end, with a catch before a pause. In casual speech: konti.
+cards	tl.c0012	note	aw	r is a single quick tap, like the tt in American "butter"; aw sounds like "ow".
+cards	tl.c0013	note	oy	oy sounds like the oy in "boy".
+cards	tl.c0014	note	ay	ay sounds like English "eye"; the word ends in a catch.
+cards	tl.c0015	note	no	Older Tagalog has no f sound, so the native spelling uses p.
+cards	tl.c0016	note	AH	The hyphen marks a small catch before aral: mahg-AH-rahl.
+cards	tl.c0018	note	ng maganda	The linker -ng joins maganda to umaga.
+cards	tl.c0023	note	kamusta	ka is for friends, family your age and children. Also spelled kamusta.
+cards	tl.c0024	note	po	naman softens the answer. To an elder: Mabuti naman po.
+cards	tl.c0025	note	oo	To elders and strangers. To a friend: oo.
+cards	tl.c0027	note	marami ng	marami + the linker -ng: maraming salamat.
+cards	tl.c0029	meaning	Sorry	Sorry. (polite)
+cards	tl.c0030	note	at	What a host says at the door.
+cards	tl.c0033	note	Ingat Sige	Sounds a little formal; everyday goodbyes are Ingat! or Sige!
+cards	tl.c0037	note	ng	ko is the ng form after the noun: pangalan ko = my name.
+cards	tl.c0038	note	po ninyo	Polite: Ano po ang pangalan ninyo?
+cards	tl.c0039	note	niyo	ninyo is the polite "your"; you will also hear niyo.
+cards	tl.c0044	note	Am	You will also hear the English Fil-Am.
+cards	tl.c0048	note	lima ng	Native numbers count years; lima + -ng is linked to taon.
+cards	tl.c0050	note	ng ko	alam takes the ng form ko, linked with -ng: alam kong Tagalog.
+cards	tl.c0051	note	ba ng	marunong = know how to; ba + -ng = bang.
+cards	tl.c0052	note	po ninyo	Polite: Ano po ang trabaho ninyo?
+cards	tl.c0054	note	ina	Also inay; the formal word is ina.
+cards	tl.c0055	note	ama	Also itay; the formal word is ama.
+cards	tl.c0056	note	man Jun	Also a polite title for a young man a bit older than you: Kuya Jun.
+cards	tl.c0057	note	AH	Also a title for a young woman a bit older than you. Said AH-teh.
+cards	tl.c0059	note	man	Also used for any elderly man: Lolo Ben.
+cards	tl.c0061	note	tita	Like tita, also used for family friends.
+cards	tl.c0062	note	na lalaki babae	One word for both; add na lalaki or na babae to say which.
+cards	tl.c0064	note	at bata	Your child at any age; a child in general is bata.
+cards	tl.c0067	note	baby	The baby of the family, even as a grown-up.
+cards	tl.c0072	note	isang bahay	Before a noun: isang bahay.
+cards	tl.c0073	note	ng dalawang anak	Before a noun, add -ng: dalawang anak.
+cards	tl.c0074	note	tatlong anak	Before a noun: tatlong anak.
+cards	tl.c0079	meaning	pesos	one hundred pesos
+cards	tl.c0079	note	daan ng	daan + -ng is linked to piso.
+cards	tl.c0082	note	piso	Spanish number; the native way is limampung piso.
+cards	tl.c0086	note	Wala akong no	Also "cash": Wala akong pera. = I have no money.
+cards	tl.c0087	note	on ako	barya = coins and small bills; the linker goes on ako: akong.
+cards	tl.c0089	note	tatlong oras	Spanish numbers for the clock; tatlong oras = three hours.
+cards	tl.c0090	note	no umaga gabi	One o'clock is ala-una, with no s. ng umaga, ng hapon, ng gabi = in the morning, afternoon, evening.
+cards	tl.c0092	note	tres	For how long, use native numbers: tatlong oras, not tres oras.
+cards	tl.c0093	note	lima ng	lima + -ng: the linker joins the number to the noun.
+cards	tl.c0094	note	Kumain ako	Goes with completed verbs: Kumain ako kahapon.
+cards	tl.c0095	note	at	Stressed at the end (boo-KAHS), bukas means "open".
+cards	tl.c0096	note	mamaya	For later today, say mamaya.
+cards	tl.c0099	note	sa on	sa Martes = on Tuesday.
+cards	tl.c0103	note	at Linggo	Sabado at Linggo = the weekend.
+cards	tl.c0104	note	isang	Also means "week": isang linggo = one week.
+cards	tl.c0105	note	bigas	Uncooked rice is bigas.
+cards	tl.c0113	note	Ang	Ang sarap! = So good!
+cards	tl.c0119	note	isa ng	nga softens a request; isa + -ng is linked to kape.
+cards	tl.c0121	note	no ang	may = there is; no ang after it.
+cards	tl.c0122	meaning	no	There's no more rice.
+cards	tl.c0122	note	na ng	wala + na + -ng = wala nang: none left.
+cards	tl.c0125	note	at	What you call out at a sari-sari store.
+cards	tl.c0126	note	tatlo	tatlo + -ng: the linker joins the number to mangga.
+cards	tl.c0132	note	kita	Also "dear, love": Mahal kita = I love you.
+cards	tl.c0137	note	ang	What a vendor asks you. po'ng = po + ang.
+cards	tl.c0139	note	ng	With binili, the fish gets ang and the buyer takes the ng form ko.
+cards	tl.c0144	note	At CR	At home; in public places, people say CR.
+cards	tl.c0150	note	at	Filipinos shower at least once a day; the word covers bath and shower.
+cards	tl.c0152	meaning	at	I woke up at six.
+cards	tl.c0155	note	matulog	tulog = asleep; matulog = to sleep.
+cards	tl.c0156	note	uwi	umuwi = went or came home (uwi = home).
+cards	tl.c0161	note	malapit	The opposite of malapit.
+cards	tl.c0164	note	diyan doon	Three words by distance: dito, diyan, doon.
+cards	tl.c0167	meaning	at	It's right at the corner.
+cards	tl.c0167	note	at	nasa + place = at or in that place.
+cards	tl.c0171	meaning	at	Turn right at the corner. (polite)
+cards	tl.c0171	note	kumaliwa	Turn left: kumaliwa.
+cards	tl.c0173	note	po kayo	Polite: Saan po kayo pupunta? Also a friendly hello in passing.
+cards	tl.c0177	note	dyip	Also written dyip.
+cards	tl.c0181	note	Grab	Also written taksi. Many people book a Grab instead.
+cards	tl.c0182	note	papunta ng	papunta + -ng = going to.
+cards	tl.c0185	note	at	Another way to ask a driver to stop: "just at the side".
+cards	tl.c0186	note	on	Ask before you get on.
+cards	tl.c0187	note	paki	paki- = please do; abot = reach, pass.
+cards	tl.c0189	note	taxi Grab	To a taxi or Grab driver when you want to get out.
+cards	tl.c0202	note	paki	paki- = please do.
+cards	tl.c0203	note	paki tawag	paki- + tawag (call).
+cards	tl.c0204	meaning	May	May I ask something? (polite)
+cards	tl.c0207	note	po kayong	huwag + the linker: huwag kang. Polite: Huwag po kayong mag-alala.
+cards	tl.c0208	meaning	okay	Are you okay? (to a friend)
+cards	tl.c0208	note	okay	Also written okay.
+cards	tl.c0213	note	paaralan	Also written eskwelahan; the formal word is paaralan.
+cards	tl.c0214	meaning	at	I work at a hospital.
+cards	tl.c0215	note	ka	To a friend: Saan ka nagtatrabaho?
+cards	tl.c0216	note	mag	Future: repeat the first syllable of the root, mag- stays.
+cards	tl.c0217	note	mag	Completed: mag- becomes nag-.
+cards	tl.c0221	meaning	no	There's no work or school today.
+cards	tl.c0221	note	on	What everyone hopes to hear on a typhoon day.
+cards	tl.c0227	note	malaki ng	malaki + -ng: the linker joins it to bahay.
+cards	tl.c0233	note	matanda	For people, say matanda.
+cards	tl.c0237	note	maganda ng	maganda + -ng, in front of the noun.
+cards	tl.c0241	note	kaysa	Before a name, "than" is kay (or kaysa kay).
+cards	tl.c0242	note	pinaka	pinaka- = most.
+cards	tl.c0251	note	ko ng	ko + -ng links gusto to the verb.
+cards	tl.c0252	note	ayaw ko	Short for ayaw ko.
+cards	tl.c0253	note	ang	-um- verb: the dancer takes ang.
+cards	tl.c0255	note	ng	mahilig = fond of; joined to the verb with -ng.
+cards	tl.c0257	note	aircon	Malls are where people hang out, partly for the aircon.
+cards	tl.c0259	note	ba ng	ba + -ng joins the verb: bang.
+cards	tl.c0262	note	nasaan	For where something happens; nasaan = where is it.
+cards	tl.c0265	note	Kumusta	Not for "How are you?": that is Kumusta?
+cards	tl.c0267	note	magkano	For prices, use magkano.
+cards	tl.c0273	note	lamang	Short for lamang.
+cards	tl.c0275	note	din	rin after a vowel; din after a consonant.
+cards	tl.c0278	meaning	No	No. (polite)
+cards	tl.c0278	note	wala	hindi = not; for "there isn't any", say wala.
+cards	tl.c0279	note	na	pa = yet. Hindi na = not anymore.
+cards	tl.c0280	note	ako	hindi pulls ko forward; never Hindi ako alam.
+cards	tl.c0283	note	hindi	For "don't have", use wala, not hindi.
+cards	tl.c0285	note	Hindi ka	Not Hindi ka umalis: that means "You didn't leave."
+cards	tl.c0287	note	tayo	kami leaves out the listener; tayo includes them.
+cards	tl.c0289	note	alam	Know a person = kilala; know a fact = alam.
+cards	tl.c0290	note	puwede may	marunong = know how; puwede = may, it's allowed.
+cards	tl.c0291	meaning	May	May I? (polite)
+cards	tl.c0292	note	siguro	Not "maybe" (that is baka or siguro).
+cards	tl.c0295	meaning	Okay	Okay; go ahead.
+cards	tl.c0296	note	Hindi alam	Careful: Hindi ko alam.
+cards	tl.c0298	note	na	Casual; also Tara na!
+cards	tl.c0300	note	masarap	Also "really" before a word: talagang masarap.
+cards	tl.c0301	note	hindi	Short for hindi ba; added to a statement, like "isn't it?"
+cards	tl.c0303	meaning	on	Oh, come on!
+cards	tl.c0303	note	iyan	For annoyance; 'yan = iyan.
+cards	tl.c0304	note	iyan	'yan is short for iyan.
+cards	tl.c0305	note	ang	'yung stands for ang in casual speech. Careful: Nasaan ang cellphone ko?
+cards	tl.c0311	note	Sandali Teka	Tagalog: Sandali lang or Teka lang.
+cards	tl.c0312	note	mo	Polite, to a host. To a friend: Masarap ang luto mo.
+cards	tl.c0313	note	no	Anyone; no "you" in it.
+cards	tl.c0314	note	kang	Polite. To a friend: Mahusay kang magluto.
+cards	tl.c0315	note	po	Says the meal was good. To a host, add po.
+cards	tl.c0316	meaning	May	May I have some more?
+cards	tl.c0317	meaning	at	You're so good at this!
+cards	tl.c0317	note	po ninyo galing	To a friend. Polite: Ang husay po ninyo! The plain everyday praise is Ang galing mo!
+cards	tl.c0323	note	po ninyo	To a friend. Polite: Ang bait po ninyo.
+cards	tl.c0328	note	po	To a family; add po for elders.
+cards	tl.c0329	note	gwapo	Polite, to a parent. For a boy: Ang gwapo po ng anak ninyo.
+cards	tl.c0332	note	pala	You will hear this; pala = pleased surprise.
+cards	tl.c0340	meaning	man	handsome; good-looking (man)
+cards	tl.c0340	note	man	Anyone to a man; also spelled guwapo. Casual: pogi. Warm.
+cards	tl.c0341	meaning	man	handsome (literally "beautiful man")
+cards	tl.c0341	note	man	About or to a man; polite, a bit old-fashioned. Mild.
+cards	tl.c0342	note	man	About a man. Warm.
+cards	tl.c0343	note	no	Anyone to anyone; no gender form. Mild.
+cards	tl.c0345	note	pormang	Casual: pormang-porma = all dressed up. Mild.
+cards	tl.c0347	note	Masarap kang	Masarap kang kausap = You're nice to talk to. Mild.
+cards	tl.c0349	meaning	man	smooth talker; flatterer (man)
+cards	tl.c0349	note	bolera	Playful. To a woman: bolera.
+cards	tl.c0350	note	man bolero	Playful. To a man: bolero.
+cards	tl.c0356	note	Mahal kita	Songs and writing; Mahal kita is what people say.
+cards	tl.c0357	note	man	To a man. Warm.
+cards	tl.c0358	note	man	To a man. Warm.
+cards	tl.c0369	note	Ang mo	Anyone. Never shorten it: Ang sarap mo is sexual. Warm.
+cards	tl.c0374	meaning	May	May I court you?
+cards	tl.c0374	note	man	Traditionally a man to a woman. Bold, sincere.
+cards	tl.c0377	meaning	on	Are you free on Saturday?
+cards	tl.c0381	note	man Bolera	Playful deflection to a man; to a woman: Bolera ka talaga!
+cards	tl.c0386	note	no	A clear, kind no. Taglish: may boyfriend / girlfriend na ako.
+cards	tl.c0387	meaning	Sorry	Sorry, I'm not interested.
+cards	tl.c0387	note	no	A clear, polite no.
+cards	tl.c0388	note	no	The gentle no.
+cards	tl.c0389	meaning	No	No, thank you.
+cards	tl.c0390	note	Walang po	Walang tao = there's nobody here. Tao po! = anyone home?
+cards	tl.c0391	note	Bagong	Bagong Taon = New Year.
+cards	tl.c0392	note	ang	Ganyan ang buhay. = That's life. Stressed BOO-hai; buháy = alive.
+cards	tl.c0393	note	mga	Plural: mga kaibigan. Linked: kaibigang.
+cards	tl.c0394	note	mamayang	mamayang gabi = tonight.
+cards	tl.c0395	meaning	on	hour; time (on the clock)
+cards	tl.c0395	note	Wala akong no	Wala akong oras. = I have no time.
+cards	tl.c0396	meaning	man	man; boy; male
+cards	tl.c0396	note	babae	Opposite: babae.
+cards	tl.c0397	note	Ano ang mo	Ano ang pangalan mo?
+cards	tl.c0398	note	sa iyo	Also "suits": Bagay sa iyo! = It suits you!
+cards	tl.c0399	note	Walang No	Walang problema. = No problem.
+cards	tl.c0400	note	tatay	Day to day: tatay or papa.
+cards	tl.c0402	note	kain	From kain (eat).
+cards	tl.c0403	note	kaninang	kaninang umaga = this morning.
+cards	tl.c0404	note	ka	Also an insult: Hayop ka!
+cards	tl.c0409	note	Masakit ang ko	Masakit ang ulo ko. = I have a headache.
+cards	tl.c0411	note	isang	Spanish loan; one family = isang pamilya.
+cards	tl.c0413	note	May ako	May sakit ako. = I'm sick.
+cards	tl.c0418	note	nanay	Day to day: nanay or mama.
+cards	tl.c0420	meaning	at	class (at school)
+cards	tl.c0420	note	Walang No	Walang klase. = No classes.
+cards	tl.c0424	note	late	From late morning to early afternoon.
+cards	tl.c0426	note	sa	sa bayan = in town.
+cards	tl.c0436	note	Patayin mo ang	Patayin mo ang ilaw. = Turn off the light.
+cards	tl.c0437	note	tayo	Kape tayo? = Coffee?
+cards	tl.c0439	note	pandesal	pandesal = the morning bread roll.
+cards	tl.c0442	note	tanghali	From tanghali (noon).
+cards	tl.c0447	note	kalsada	Spanish loan. Also kalsada (road).
+cards	tl.c0450	note	kanin	Cooked rice is kanin.
+cards	tl.c0457	note	Walang	Walang kuryente. = There's a power cut.
+cards	tl.c0460	note	Anong	Anong kulay? = What color?
+cards	tl.c0462	note	Jeep Kuya	Jeep drivers are often called Kuya or Manong.
+cards	tl.c0466	note	party	Fried or fresh; party food.
+cards	tl.c0467	note	on	Also spelled pancit; eaten on birthdays for long life.
+cards	tl.c0468	note	mga	mga magulang = parents.
+cards	tl.c0469	note	sa	apo sa tuhod = great-grandchild.
+cards	tl.c0470	note	No na babae	No gender: pamangkin na babae = niece.
+cards	tl.c0472	meaning	shopping	shopping mall
+cards	tl.c0474	note	eskuwelahan	Day to day: eskuwelahan or school.
+cards	tl.c0475	note	May ako	May lagnat ako. = I have a fever.
+cards	tl.c0476	note	Magkano ang	Magkano ang pamasahe?
+cards	tl.c0477	note	Wala akong	Wala akong barya.
+cards	tl.c0478	note	Ilang taon ka na	Formal; people ask Ilang taon ka na?
+cards	tl.c0479	note	Masakit ang ko	Masakit ang tiyan ko.
+cards	tl.c0480	note	manood ng	manood ng sine = go to the movies.
+cards	tl.c0483	note	ng ko Hindi	Takes the ng form: Alam ko. Hindi ko alam.
+cards	tl.c0484	note	ng ko No	Takes the ng form: Gusto ko. No aspect forms.
+cards	tl.c0485	note	kong umalis	Kailangan kong umalis. = I have to go.
+cards	tl.c0486	meaning	may	can; may (pseudo-verb)
+cards	tl.c0486	note	ba May	Casual spelling pwede. Puwede ba? = May I?
+cards	tl.c0487	note	umalis aalis	umalis · umaalis · aalis. -um- verb.
+cards	tl.c0488	note	pumunta pumupunta pupunta	pumunta · pumupunta · pupunta. -um- verb.
+cards	tl.c0489	note	kang magpahinga	Dapat kang magpahinga. = You should rest.
+cards	tl.c0490	note	tatawag tawagan	tumawag · tumatawag · tatawag. Object focus: tawagan.
+cards	tl.c0491	note	gamitin	gumamit · gumagamit · gagamit. Object focus: gamitin.
+cards	tl.c0492	note	mag nag iisip	mag-isip · nag-isip · nag-iisip. Object focus: isipin.
+cards	tl.c0493	note	ko Ayoko ng	Ayaw ko = Ayoko. Takes the ng form.
+cards	tl.c0495	note	pumasok papasok	pumasok · pumapasok · papasok. -um- verb.
+cards	tl.c0496	note	ng ko siya	Takes the ng form: Kilala ko siya.
+cards	tl.c0497	note	titigil	tumigil · tumitigil · titigil. Tigil! = Stop!
+cards	tl.c0498	note	tumatawa	tumawa · tumatawa · tatawa. Also the noun "laugh".
+cards	tl.c0499	note	sama sasama	Root sama: sumama · sumasama · sasama.
+cards	tl.c0500	note	kumain kumakain kakain	kumain · kumakain · kakain. -um- verb.
+cards	tl.c0502	note	ka	Root upo: umupo · umuupo · uupo. Maupo ka = have a seat.
+cards	tl.c0504	note	bumili bibili	bumili · bumibili · bibili. -um- verb.
+cards	tl.c0505	note	naglaro naglalaro	maglaro · naglaro · naglalaro · maglalaro. Also the noun "game".
+cards	tl.c0506	note	mag nag aaral	mag-aral · nag-aral · nag-aaral · mag-aaral. mag- verb.
+cards	tl.c0507	note	uminom umiinom iinom	uminom · umiinom · iinom. -um- verb.
+cards	tl.c0508	note	sumasagot	sumagot · sumasagot · sasagot. Also the noun "answer".
+cards	tl.c0509	note	uwi uuwi	Root uwi: umuwi · umuuwi · uuwi.
+cards	tl.c0511	note	gising	Root gising: gumising · gumigising · gigising.
+cards	tl.c0512	note	magluto nagluto nagluluto magluluto mag	magluto · nagluto · nagluluto · magluluto. mag- verb.
+cards	tl.c0513	note	nagbabasa mag	magbasa · nagbasa · nagbabasa · magbabasa. mag- verb.
+cards	tl.c0514	note	naglinis maglilinis mag	maglinis · naglinis · naglilinis · maglilinis. mag- verb.
+cards	tl.c0515	note	magbibihis	magbihis · nagbihis · nagbibihis · magbibihis.
+cards	tl.c0516	note	matuto	matuto · natuto · natututo · matututo.
+cards	tl.c0517	note	nagbebenta	magbenta · nagbenta · nagbebenta · magbebenta. Also magtinda.
+cards	tl.c0518	note	itapon	itapon (throw it away) · itinapon · itatapon.
+cards	tl.c0521	note	magbabayad	magbayad · nagbayad · nagbabayad · magbabayad.
+cards	tl.c0522	note	malaking bahay	Linked: malaking bahay. Root: laki.
+cards	tl.c0523	note	ayos okay	Formal-polite; everyday: ayos or okay.
+cards	tl.c0524	note	ang pakiramdam ko	Masama ang pakiramdam ko. = I feel unwell.
+cards	tl.c0525	note	sa ako aso	Takes sa: Takot ako sa aso.
+cards	tl.c0526	note	ka	Sigurado ka? = Are you sure?
+cards	tl.c0527	note	ang party	Masaya ang party. = The party is fun.
+cards	tl.c0528	note	naman	Maayos naman. = It's fine.
+cards	tl.c0529	note	ang ulan	Malakas ang ulan. = It's raining hard.
+cards	tl.c0531	note	ang na pamilya	Both meanings: Mahirap ang Tagalog. / mahirap na pamilya.
+cards	tl.c0533	note	sa at	galit sa = angry at.
+cards	tl.c0534	note	sa	mahilig sa = fond of.
+cards	tl.c0535	note	na kaibigan	tunay na kaibigan = a true friend.
+cards	tl.c0536	note	na ako	Pagod na ako.
+cards	tl.c0538	note	na ako	Gutom na ako.
+cards	tl.c0539	note	ko ito	Paborito ko ito.
+cards	tl.c0543	note	maliit	For height: maliit.
+cards	tl.c0544	note	ngayon	Mainit ngayon! = It's hot today!
+cards	tl.c0545	note	na tubig	malamig na tubig = cold water.
+cards	tl.c0547	note	na ako	Busog na ako.
+cards	tl.c0549	meaning	no	free (no cost or no plans)
+cards	tl.c0549	note	ka ba on	Libre ka ba? = Are you free? / Libre! = It's on me!
+cards	tl.c0561	note	ako	Nauuhaw ako. = I'm thirsty.
+cards	tl.c0562	note	ang ulo ko	Masakit ang ulo ko.
+cards	tl.c0563	meaning	at	knowing how; skilled at
+cards	tl.c0563	note	ka bang	Marunong ka bang lumangoy?
+cards	tl.c0564	note	na ako	Inaantok na ako.
+cards	tl.c0565	note	pa si Ana	Tulog pa si Ana.
+cards	tl.c0567	note	malaki	Mas malaki = bigger.
+cards	tl.c0568	note	dito	Form of dito.
+cards	tl.c0569	note	lang	Sandali lang. = Just a moment.
+cards	tl.c0570	note	masyadong mahal	masyadong mahal = too expensive.
+cards	tl.c0571	note	kong bahay	dati kong bahay = my old house.
+cards	tl.c0572	note	pagod ako	Medyo pagod ako.
+cards	tl.c0574	note	lang	Minsan lang. = Just once.
+cards	tl.c0575	note	sobrang ganda	sobrang ganda = so beautiful.
+cards	tl.c0577	note	siguro	More formal than siguro.
+cards	tl.c0579	note	lang	Dahan-dahan lang! = Easy now!
+cards	tl.c0584	note	ako dito	Kanina pa ako dito. = I've been here a while.
+cards	tl.c0585	note	Umuulan	Umuulan pa rin. = It's still raining.
+cards	tl.c0588	meaning	at	for now; at the moment
+cards	tl.c0589	note	lang po	Diretso lang po.
+cards	tl.c0591	note	bahay	bahay mo.
+cards	tl.c0592	note	ng bahay	ng form, after the noun: bahay ko.
+cards	tl.c0593	note	Kumain na	Kumain ka na?
+cards	tl.c0594	note	ang ko ng akin sa	ang form. ko is the ng form, akin the sa form.
+cards	tl.c0595	note	No	No gender.
+cards	tl.c0596	note	po	Polite to one person, with po.
+cards	tl.c0597	note	niyo	Casual: niyo.
+cards	tl.c0598	note	Tara kain	Includes the listener. Tara, kain tayo!
+cards	tl.c0599	note	sa at	sa akin = to me; at my place.
+cards	tl.c0600	note	tayo	Lahat tayo = all of us.
+cards	tl.c0604	note	No	No gender.
+cards	tl.c0605	note	sa	sa iyo; casual sa 'yo.
+cards	tl.c0606	note	ba si Ana	Ikaw ba si Ana?
+cards	tl.c0609	note	ko ikaw Mahal	Replaces ko + ikaw: Mahal kita.
+cards	tl.c0614	note	ko	sarili ko = myself.
+cards	tl.c0616	note	ito	Kanino ito? = Whose is this?
+cards	tl.c0618	meaning	at	anything (at all)
+cards	tl.c0619	meaning	at	anyone (at all)
+cards	tl.c0622	note	no	Literally "no person".
+cards	tl.c0624	note	on	Marks the topic, the one the verb focuses on.
+cards	tl.c0625	meaning	at	to; at; in; from
+cards	tl.c0626	note	Kumain ako maganda bahay magandang	Kumain na ako. As linker: maganda na bahay → magandang bahay.
+cards	tl.c0628	note	bata	Said mah-NGAH: mga bata = children.
+cards	tl.c0629	note	Ako guro am	Ako ay guro = I am a teacher (written style). Not a word for "is".
+cards	tl.c0630	note	Kumain ka na	Kumain ka na ba?
+cards	tl.c0631	note	iyo ito	Para sa iyo ito.
+cards	tl.c0632	note	Ana	Si Ana = Ana (as topic).
+cards	tl.c0633	note	Hindi Isa	Hindi pa. = Not yet. Isa pa. = One more.
+cards	tl.c0634	note	Isa po	Isa nga po. = One, please.
+cards	tl.c0635	meaning	on	softener; on the other hand
+cards	tl.c0635	note	Ikaw	Ikaw naman? = How about you?
+cards	tl.c0636	note	bahay Ana	bahay ni Ana = Ana's house.
+cards	tl.c0637	meaning	at	(is) at; (is) in
+cards	tl.c0637	note	bahay siya	Nasa bahay siya.
+cards	tl.c0638	note	Ako	Ako rin.
+cards	tl.c0640	note	Pagod ako	Pagod din ako.
+cards	tl.c0641	meaning	at	to; at (before a name)
+cards	tl.c0641	note	Ana	kay Ana = to Ana.
+cards	tl.c0642	note	Ikaw	Ikaw pala! = Oh, it's you!
+cards	tl.c0643	note	okay ka	Sana okay ka.
+cards	tl.c0644	note	Kain tayo	Kain muna tayo.
+cards	tl.c0645	note	ko si Joy	Kasama ko si Joy.
+cards	tl.c0646	note	lang	Everyday: lang.
+cards	tl.c0647	note	ako palengke	Galing ako sa palengke.
+cards	tl.c0648	meaning	kahit	even; also (with kahit)
+cards	tl.c0648	note	Kahit ano	Kahit ano man.
+cards	tl.c0649	note	bukas	hanggang bukas.
+cards	tl.c0650	meaning	on	toward; on the way to
+cards	tl.c0650	note	papuntang Makati	Also papuntang Makati.
+cards	tl.c0651	note	mesa	sa ilalim ng mesa.
+cards	tl.c0652	note	ko	sa tabi ko = next to me.
+cards	tl.c0653	note	Ana at Joy	Sina Ana at Joy.
+cards	tl.c0654	note	Umalis siya	Umalis daw siya.
+cards	tl.c0655	note	Umuulan	Umuulan yata.
+cards	tl.c0658	meaning	at	to; at the place of (names)
+cards	tl.c0658	note	Lola at	kina Lola = at Lola's.
+cards	tl.c0659	note	po	Recognition: the course teaches po.
+cards	tl.c0661	meaning	on	on top of; above
+cards	tl.c0661	note	mesa	sa ibabaw ng mesa.
+cards	tl.c0662	note	ulan	dahil sa ulan = because of the rain.
+cards	tl.c0663	note	isa	Short form 't after a vowel: isa't isa.
+cards	tl.c0664	note	gusto mo	Kung gusto mo. = If you want.
+cards	tl.c0665	note	po on jeep	Para po! (on a jeep) = Stop here!
+cards	tl.c0666	note	ngunit	Spanish loan; also ngunit (formal).
+cards	tl.c0668	note	ng	Said nahng, like ng.
+cards	tl.c0670	note	pag	Casual: pag.
+cards	tl.c0672	note	dahil	Usually spoken; formal: dahil.
+cards	tl.c0673	note	uulan	Parang uulan. = It looks like rain.
+cards	tl.c0674	note	pero	Written; speech uses pero.
+cards	tl.c0675	note	para	Everyday: para.
+cards	tl.c0678	note	mas	mas … kaysa = more … than.
+cards	tl.c0679	note	Ito	Ito na lang. = This one instead.
+cards	tl.c0681	meaning	Wait	Wait!
+cards	tl.c0681	note	muna	Short for teka muna.
+cards	tl.c0695	meaning	on	Come on, please!
+cards	tl.c0696	meaning	on	Come on! (annoyed)
+cards	tl.c0697	meaning	No	No way! / Really?
+cards	tl.c0699	meaning	no	no; not
+cards	tl.c0699	note	no po	The everyday "no". To elders: hindi po.
+cards	tl.c0700	note	bata	isang bata = a child.
+cards	tl.c0701	note	tubig	May tubig? = Is there water?
+cards	tl.c0702	note	oras	Anong oras? = What time?
+cards	tl.c0704	note	maraming salamat	Linked: maraming salamat.
+cards	tl.c0705	note	ka	Nasaan ka?
+cards	tl.c0706	note	ka	Kumusta ka? = How are you?
+cards	tl.c0707	note	araw	ilang araw = a few days.
+cards	tl.c0708	note	araw	Unang araw = first day.
+cards	tl.c0709	note	isang	isang daan = one hundred.
+cards	tl.c0710	note	meron	Casual: meron.
+cards	tl.c0711	note	araw	bawat araw = every day.
+cards	tl.c0715	note	isang	isang libo = one thousand.
+cards	tl.c0716	note	na aso	Linked: apat na aso.
+cards	tl.c0729	note	pesos isang daang	Prices: pesos; isang daang piso.
+cards	tl.c0734	meaning	May	May
+dialog	tl.g001	tr	Max	Do you have a dog? / Yes, his name is Max.
+dialog	tl.g002	tr	ate	Have you eaten? / Yes, I ate a mango earlier.
+dialog	tl.g004	tr	at Lola	Where are the kids? / They're at Lola's house.
+dialog	tl.g005	tr	Lola	Good morning, Lola! / Good morning to you too, dear. Have you eaten?
+dialog	tl.g006	tr	Tita	How are you, Tita? / I'm fine. And you, how are you?
+dialog	tl.g007	tr	Joy okay	Hey, Joy! How are you? / I'm okay. You?
+dialog	tl.g009	tr	Lolo	Bless me, Lolo. / God bless you.
+dialog	tl.g011	tr	Bea	What's your name? / Bea. You?
+dialog	tl.g012	tr	Cebu	Where are you from? / I'm from Cebu, but I live in Manila.
+dialog	tl.g015	tr	at Makati	What do you do for work? / I'm a nurse at a hospital in Makati.
+dialog	tl.g016	tr	Kuya Jun	Who's that? / That's Kuya Jun, my older brother.
+dialog	tl.g018	tr	Tita Juan	Tita, this is Juan, my friend. / How are you, Juan? Come in.
+dialog	tl.g020	tr	Lola sinigang	Where's Lola? / In the kitchen, cooking sinigang.
+dialog	tl.g021	tr	pesos	How much is this? / Twenty pesos.
+dialog	tl.g023	tr	pesos Sorry	That's twenty pesos. / Sorry, I don't have small change. I only have a hundred.
+dialog	tl.g028	tr	Batangas	How long is the trip to Batangas? / About three hours.
+dialog	tl.g030	tr	Lola	Have you eaten, Lola? / Yes, dear. You eat too.
+dialog	tl.g033	tr	pandesal	What would you like? / One coffee, please, and one pandesal.
+dialog	tl.g035	tr	pesos	How much is that? / Fifty pesos each.
+dialog	tl.g036	tr	ma kilo	What can I get you, ma'am? / A kilo of mangoes, please.
+dialog	tl.g037	tr	No	This is three hundred. / That's so expensive! No discount?
+dialog	tl.g043	tr	Bea	Bea, where's the restroom? / Over there, next to the kitchen.
+dialog	tl.g044	tr	at	Is the pharmacy near? / Yes, it's close. It's at the corner.
+dialog	tl.g045	tr	Jun	Where are you going, Jun? / To church. Want to come?
+dialog	tl.g046	tr	at	Excuse me, where's the hospital? / Just go straight, then turn right at the corner.
+dialog	tl.g048	tr	at Okay	Stop here, please, right at the side! / Okay.
+dialog	tl.g049	tr	Makati pesos	How much is the fare to Makati? / Fifteen pesos.
+dialog	tl.g050	tr	on	Does this go through Manila? / Yes, hop on.
+dialog	tl.g051	tr	Makati ma	To Makati, please. / Sure, ma'am.
+dialog	tl.g053	tr	at	Why aren't you at work? / I'm sick. I have a fever.
+dialog	tl.g054	tr	okay No	Are you okay? / No, I don't feel well.
+dialog	tl.g055	tr	May	May I ask something? / Yes, what is it?
+dialog	tl.g056	tr	At	Where do you work? / At a hospital. I'm a nurse.
+dialog	tl.g057	tr	No	Do you have work tomorrow? / No. Tomorrow's Saturday.
+dialog	tl.g058	tr	Nursing	What's your major? / Nursing. I'm still studying in Manila.
+dialog	tl.g059	tr	at	Did you study yesterday? / Yes, I studied at home yesterday.
+dialog	tl.g061	tr	Tita Baby	Is Tita Baby nice? / Yes, she's kind to everyone.
+dialog	tl.g063	tr	Carlo	Who's Carlo? / He's the tall guy over there.
+dialog	tl.g064	tr	on	Come on, let's dance! / I'm tired. Maybe tomorrow.
+dialog	tl.g065	tr	mall	We're going to the mall. Do you want to come along? / Sure, I'll come!
+dialog	tl.g067	tr	Mark at	Why is Mark so quiet? / He's angry at me.
+dialog	tl.g068	tr	Cebu	I'm going to Cebu. / When?
+dialog	tl.g069	tr	at	Where are you? / I'm still at home.
+dialog	tl.g070	tr	Lola	Lola, have you eaten yet? / Yes, I've eaten. You?
+dialog	tl.g074	tr	Ana	Do you know Ana? / Yes, I know Ana. She's my friend.
+dialog	tl.g076	tr	Boracay	I'm going to Boracay tomorrow! / Really? Lucky you!
+dialog	tl.g077	tr	Lola adobo	Lola's adobo is delicious, right? / Yes, so good!
+dialog	tl.g078	tr	Wait	Let's go! / Wait a sec, where's my phone?
+dialog	tl.g079	tr	Mark	Where's Mark? / I don't know.
+dialog	tl.g080	tr	on Okay	It's so hot! Please turn on the AC. / Okay.
+dialog	tl.g081	tr	Tita	Your cooking is delicious, Tita. / Thanks! Have some more.
+dialog	tl.g082	tr	May	May I have some more? / Of course! There's plenty.
+dialog	tl.g084	tr	report at	I've finished the report. / You're so good at this!
+dialog	tl.g088	tr	Carlo	Is this Carlo? Your child has gotten so big! / Yes, he's ten now.
+dialog	tl.g094	tr	on	You're fun to be with. / You too! Come on, let's eat.
+dialog	tl.g095	tr	on	Thanks for tonight. Dinner again on Saturday? / I'd like that too.
+dialog	tl.g096	tr	on	Come on, let's dance! / Oh, all right then.
+dialog	tl.g098	tr	Sorry late okay	Sorry, I'm late. / It's okay. You look beautiful tonight.
+dialog	tl.g099	tr	Liza	My name is Liza. / You have a pretty name.
+dialog	tl.g105	tr	May	May I court you? / Why not?
+dialog	tl.g106	tr	Bea	I like Bea, but I'm shy. / Don't be so shy! Talk to her.
+dialog	tl.g108	tr	on	Are you free on Saturday? / Of course! Where should we go?
+dialog	tl.g113	tr	Sorry	Are you free tonight? / Sorry, I'm not interested.
+dialog	tl.g114	tr	Joy	I like you, Joy. / Thanks, but we're really just friends.
+dialog	tl.g115	tr	Ana okay	Hey, Ana! How are you? / Hey! I'm okay.
+dialog	tl.g116	tr	Sorry	Hey! That's mine! / Sorry, so it's yours.
+dialog	tl.g118	tr	no	There's no school tomorrow! / Yay!
+dialog	tl.g119	tr	at	We leave at five tomorrow. / Huh? That's so early!
+dialog	tl.g120	tr	Wait bag	Let's go! / Wait, I'll just get my bag.
+dialog	tl.g123	tr	at	There's free coffee at the office. / Great!
+dialog	tl.g125	tr	Okay	Come here, let's eat! / Okay, thanks!
+dialog	tl.g128	tr	jeep	The jeep left without me. / Serves you right! You took so long.
+dialog	tl.g129	tr	on Okay	Come with us. Come on, please! / Okay, I'll come.
+dialog	tl.g130	tr	on Sorry	Come on! You're so noisy! / Sorry.
+dialog	tl.g132	tr	Cebu No	I'm from Cebu too. / No way! Me too!
+dialog	tl.g133	tr	Lola	Lola, I spilled the coffee. / Jesus, Mary and Joseph! Clean it up right away.
+examples	tl.e001	tr	adobo	Put some vinegar in the adobo.
+examples	tl.e004	tr	Sorry	Sorry, I took a while.
+examples	tl.e006	tr	Lola	I'm studying Tagalog so I can talk with Lola.
+examples	tl.e007	tr	Bea	Bea is the youngest in our family.
+examples	tl.e008	tr	Cebu	My cousins live in Cebu.
+examples	tl.e009	tr	Tita Baby on	We're going to Tita Baby's house on Sunday.
+examples	tl.e010	tr	Tito Rey at	Tito Rey has four dogs at home.
+examples	tl.e011	tr	pesos	I only brought a thousand pesos.
+examples	tl.e015	tr	sinigang	Mom's sinigang is delicious.
+examples	tl.e016	tr	no	There's no more rice, so I'll cook some more.
+examples	tl.e018	tr	at	I bought the fish at the market this morning.
+examples	tl.e019	tr	at Lola	Every Christmas, we get together at Lola's house.
+examples	tl.e020	tr	at	I woke up at six because I had work.
+examples	tl.e021	tr	Lola on	I'm going to Lola's place on Sunday.
+examples	tl.e025	tr	tricycle	We took a tricycle to the market.
+examples	tl.e030	tr	no	There's no school or work today because of the typhoon.
+examples	tl.e031	tr	on	I'll work tomorrow, but I'm free on Sunday.
+examples	tl.e035	tr	Palawan	For me, Palawan is the most beautiful.
+examples	tl.e036	tr	basketball	We played basketball yesterday afternoon.
+examples	tl.e045	tr	shopping at mall	We went shopping at the mall yesterday.
+examples	tl.e046	tr	traffic on EDSA late	The traffic on EDSA is terrible, I'm late!
+examples	tl.e047	tr	on	Oh, come on, it's raining again!
+examples	tl.e051	tr	Tita Baby man	Tita Baby's son is a handsome man.
+examples	tl.e052	tr	Mark at	Mark looked dashing at the wedding.
+examples	tl.e053	tr	Bea	Bea is smart and kind.
+examples	tl.e054	tr	Jun	Jun is too shy, he can't say it.
+examples	tl.e055	tr	Ana	You're such a flatterer, Ana!
+examples	tl.e057	tr	Davao	His girlfriend is from Davao.
+examples	tl.e058	tr	Bea	I like you, Bea.
+examples	tl.e059	tr	No	No, thank you. I'm going home.
+examples	tl.e069	tr	adobo	I love adobo.
+examples	tl.e070	tr	Lola	Lola is still asleep.
+examples	tl.e071	tr	Kuya	Just a moment, Kuya.
+examples	tl.e073	tr	at mall	There are lots of people at the mall today.
+examples	tl.e077	tr	at	Let's get off at the corner.
+examples	tl.e080	tr	Ana	Do you know where Ana is?
+examples	tl.e082	tr	May	May I sit here?
+examples	tl.e085	tr	Kuya Jun	Do you know Kuya Jun?
+examples	tl.e086	tr	Lola	Lola says we should eat first.
+examples	tl.e087	tr	Cebu	We're going to Cebu tomorrow.
+examples	tl.e091	tr	at	I'll buy bread at the store.
+examples	tl.e093	tr	adobo	Mom is cooking adobo.
+examples	tl.e094	tr	basketball	The kids are playing basketball.
+examples	tl.e096	tr	at	I go in to work at eight.
+examples	tl.e101	tr	on	We'll clean the house on Saturday.
+examples	tl.e105	tr	at	She sells fruit at the market.
+examples	tl.e108	tr	Kuya	I'll pay, Kuya.
+examples	tl.e110	tr	Lolo	Lolo is a good person.
+examples	tl.e116	tr	Baguio	The trip to Baguio is long.
+examples	tl.e120	tr	party	The party last night was fun.
+examples	tl.e121	tr	Ana	Ana is sad today.
+examples	tl.e131	tr	Adobo	Adobo is my favorite.
+examples	tl.e136	tr	Cebu	I used to live in Cebu.
+examples	tl.e143	tr	Kuya	Slowly, please, Kuya.
+examples	tl.e149	tr	okay	I'm okay for now.
+examples	tl.e151	tr	Ana	Are you Ana's older brother?
+examples	tl.e153	tr	Cebu	We're from Cebu.
+examples	tl.e154	tr	on	Come on, let's go home.
+examples	tl.e156	tr	at Lola	They're at Lola's house.
+examples	tl.e158	tr	bag	Where's your bag?
+examples	tl.e164	tr	bag	That bag is mine.
+examples	tl.e173	tr	ate	Who ate the mango?
+examples	tl.e181	tr	at	There's nobody at home.
+examples	tl.e183	tr	adobo	The adobo is delicious.
+examples	tl.e186	tr	Ana	Ana is my sister.
+examples	tl.e187	tr	Jun	This is Jun's house.
+examples	tl.e188	tr	Ana	Give this to Ana.
+examples	tl.e189	tr	Ana Mark	Ana and Mark are here now.
+examples	tl.e190	tr	Lola Lolo	This is Lola and Lolo's house.
+examples	tl.e191	tr	Tita	We're going to Tita's place tomorrow.
+examples	tl.e193	tr	am	I am a student.
+examples	tl.e197	tr	Ana	Ana is tired too.
+examples	tl.e200	tr	Lola	Thank you, Lola.
+examples	tl.e202	tr	Jun	They say Jun left.
+examples	tl.e203	tr	no	They say there's no school tomorrow.
+examples	tl.e204	tr	Kuya	Oh, it's you, Kuya!
+examples	tl.e212	tr	Lola	Lola is with me.
+examples	tl.e215	tr	jeep Makati	This jeep is going to Makati.
+examples	tl.e219	tr	no	I want to, but I have no money.
+patterns	tl.p013	meaning	at	I work at ___.
+patterns	tl.p013	tr	at	I work at an office.
+patterns	tl.p024	meaning	at	___ is at ___.
+sentences	tl.s0005	gloss	No	No. (polite)
+sentences	tl.s0008	gloss	ate	I ate a mango.
+sentences	tl.s0012	gloss	Ana	Ana's dog
+sentences	tl.s0024	gloss	Ana	I'm Ana.
+sentences	tl.s0025	gloss	Juan	He's Juan.
+sentences	tl.s0026	gloss	Mark	You're Mark.
+sentences	tl.s0027	gloss	Mark	You're Mark.
+sentences	tl.s0034	gloss	Carlo	I'm Carlo.
+sentences	tl.s0045	gloss	Ana	This is Ana's house.
+sentences	tl.s0046	gloss	Juan	That's Juan's dog.
+sentences	tl.s0047	gloss	Ana	This is Ana.
+sentences	tl.s0048	gloss	Ana	That's Ana's house over there.
+sentences	tl.s0051	gloss	Ana	Ana is a teacher.
+sentences	tl.s0053	gloss	Lola	Lola's kitchen is clean.
+sentences	tl.s0054	gloss	Makati	To Makati, please. (to a driver)
+sentences	tl.s0055	gloss	Juan	This is for Juan.
+sentences	tl.s0061	gloss	Ana	Ana is a kind teacher.
+sentences	tl.s0074	gloss	Ana	Is Ana a teacher?
+sentences	tl.s0077	gloss	Juan	Where's Juan's house?
+sentences	tl.s0088	gloss	No	No, I'm full.
+sentences	tl.s0092	gloss	pesos	twenty pesos
+sentences	tl.s0096	gloss	pesos	Twenty pesos. (polite)
+sentences	tl.s0098	gloss	adobo at	We have adobo. (polite, at a restaurant)
+sentences	tl.s0100	gloss	Ana	Ana has a dog.
+sentences	tl.s0105	gloss	no	There's no water.
+sentences	tl.s0112	gloss	Lola	How are you, Lola?
+sentences	tl.s0118	gloss	Lola	This is for Lola.
+sentences	tl.s0121	gloss	Ana at	Ana is at home.
+sentences	tl.s0122	gloss	Lola	Where's Lola? (polite)
+sentences	tl.s0123	gloss	at	I'm at the market.
+sentences	tl.s0125	gloss	am	I am a teacher. (more formal)
+sentences	tl.s0130	gloss	Ana	Ana danced.
+sentences	tl.s0133	gloss	Ana	Ana bought fish.
+sentences	tl.s0134	gloss	Makati	We went to Makati.
+sentences	tl.s0138	gloss	adobo	I cooked adobo.
+sentences	tl.s0139	gloss	Lola adobo	Lola cooked adobo.
+sentences	tl.s0143	gloss	ate	I ate yesterday.
+sentences	tl.s0148	gloss	at	I work at a hospital.
+sentences	tl.s0149	gloss	Ana	Ana wants a mango.
+sentences	tl.s0154	gloss	May	May I eat?
+sentences	tl.s0156	gloss	ate	I ate the mango.
+sentences	tl.s0157	gloss	Ana	Ana bought the fish.
+sentences	tl.s0158	gloss	Lola adobo	Lola cooked the adobo.
+sentences	tl.s0164	gloss	adobo	One adobo, please.
+sentences	tl.s0169	gloss	pesos	Twenty pesos.
+sentences	tl.s0174	gloss	Makati on	I'm going to Makati on Saturday.
+sentences	tl.s0175	gloss	ate	I ate earlier.
+sentences	tl.s0177	gloss	at	Turn right at the corner.
+sentences	tl.s0178	gloss	at	Turn left at the church.
+sentences	tl.s0180	gloss	Juan	I'm going to Juan's house.
+sentences	tl.s0181	gloss	Makati	Where do I get a ride to Makati?
+sentences	tl.s0182	gloss	Makati	How much to Makati?
+sentences	tl.s0183	gloss	Makati	To Makati, please.
+sentences	tl.s0204	gloss	Juan Ana	Juan is taller than Ana.
+sentences	tl.s0211	gloss	Okay	Okay.
+lessons	sounds	blurb	ng mga	Read Tagalog aloud from its spelling and from the pronunciation line: the vowels, ng and mga, stress and the catch.
+lessons	greetings	title	po opo	2 · Greetings and respect: po and opo
+lessons	greetings	blurb	at po opo kayo	Greet anyone at any time of day, say thank you and goodbye, and show respect with po, opo and kayo.
+lessons	pronouns	title	ang ako ikaw ka siya kami tayo kayo sila	3 · ang pronouns: ako, ikaw / ka, siya, kami, tayo, kayo, sila
+lessons	pronouns	blurb	si	Say I, you, he, she, we and they in Tagalog, choose the right we, and put si before a name.
+lessons	intro	title	Ako si Taga ako	4 · Introducing yourself: Ako si…, Taga-… ako
+lessons	this-that	title	ito iyan iyon	5 · ito, iyan, iyon: this and that
+lessons	this-that	blurb	at	Point at things near you, near the listener or far away, and ask what they are and how much they cost.
+lessons	markers	title	ang si ng ni sa kay	6 · Markers: ang / si, ng / ni, sa / kay
+lessons	markers	blurb	ang ng sa si ni kay	Use the markers ang, ng and sa, and si, ni and kay for names, to show what each noun does in a sentence.
+lessons	linker	title	na ng ma	7 · The linker na / -ng and ma- describing words
+lessons	linker	blurb	na ng	Describe people and things: join a describing word to its noun with the linker na or -ng, in either order.
+lessons	ng-pronouns	title	ng ko mo niya	8 · ng pronouns and possession: ko, mo, niya
+lessons	ng-pronouns	blurb	ko mo gusto alam Gusto Hindi	Say my, your, his and her, and use ko and mo after gusto and alam: Gusto ko, Hindi ko alam.
+lessons	questions	title	ba sino ano saan kailan	9 · Questions: ba, sino, ano, saan, kailan
+lessons	questions	blurb	no ba	Ask yes-or-no questions with ba, and ask who, what, where, when, why, how, which and how much.
+lessons	yes-no	title	no oo opo hindi wala huwag	10 · Yes and no: oo / opo, hindi, wala, huwag
+lessons	yes-no	blurb	no hindi wala huwag	Say yes and no politely, and pick the right "no" for the job: hindi, wala or huwag.
+lessons	may	title	may mayroon wala	12 · may, mayroon, wala: there is, have
+lessons	may	blurb	may mayroon wala	Say what there is and what you have, and say there's none, with may, mayroon and wala.
+lessons	family	blurb	kuya ate tito tita	Talk about your family, use kuya, ate, tito and tita the Filipino way, and say what people do for work.
+lessons	sa-pronouns	title	sa akin dito nasaan	14 · sa pronouns and place: sa akin, dito, nasaan
+lessons	word-order	title	ay	15 · Word order: predicate first, ay, and the little words
+lessons	um	title	kumain uminom pumunta	16 · -um- verbs (actor focus): kumain, uminom, pumunta
+lessons	mag	title	mag magluto	17 · mag- verbs (actor focus): magluto, maglaro, magtrabaho
+lessons	mag	blurb	mag nag aral ang	Say what someone did with mag- verbs, spell the hyphen in nag-aral, and keep the doer in the ang form.
+lessons	aspect	blurb	mag	Say what you did, what you are doing and what you will do with -um- and mag- verbs.
+lessons	gusto	title	gusto ayaw kailangan puwede	19 · gusto, ayaw, kailangan, puwede
+lessons	gusto	blurb	may	Say what you want, don't want, need, may do and know how to do, with the right pronoun and the linker.
+lessons	in	title	Kinain ko ang mangga	20 · -in verbs (object focus): Kinain ko ang mangga
+lessons	in	blurb	Kinain ko ang mangga	Say what someone did to a particular thing, with the thing as the topic: Kinain ko ang mangga.
+lessons	food	blurb	at	Eat with Filipinos, order at a carinderia, buy at a sari-sari store, and ask for the price.
+lessons	time	title	alas tres Lunes kahapon bukas	22 · Time and days: alas-tres, Lunes, kahapon, bukas
+lessons	directions	title	kaliwa kanan Para po	23 · Directions and transport: kaliwa, kanan, Para po!
+lessons	directions	blurb	tricycle taxi Grab	Ask the way, follow left and right, and ride a jeepney, tricycle, taxi or Grab.
+lessons	requests	title	paki huwag	24 · Requests and commands: paki-, huwag
+lessons	requests	blurb	paki Puwede po bang huwag	Ask politely with paki- and Puwede po bang…, give simple commands, and say "don't" with huwag.
+lessons	particles	title	na pa rin din lang naman	25 · Little words: na, pa, rin / din, lang, naman
+lessons	compare	title	mas kaysa pinaka	26 · Comparing: mas … kaysa, pinaka-
+lessons	compare	blurb	mas mura pinakamura kaysa	Say that something is more, most or as … as something else: mas mura, pinakamura, kaysa.
+body	sounds	body	on ba ka ah oo at no ng mga nang ch sh Ana ay aw oy iw uy bata	
+body	greetings	body	po opo ma kuya ate tito tita man AH	
+body	pronouns	body	ang si am Ana no ikaw ka at kayo	
+body	intro	body	taga at on may	
+body	this-that	body	At on Ana siya bag	
+body	markers	body	sina Ana at Juan ang si ng ni nang sa kay Makati	
+body	linker	body	on ma at no	
+body	ng-pronouns	body	ng ang gusto ayaw alam hindi	
+body	questions	body	no ba mark saan nasaan anong	
+body	yes-no	body	no at oo opo Lola hindi am On No po ng Hindi ako alam wala huwag pa may May tubig ba ka umalis	
+body	numbers	body	no dalawa bahay apat aso	
+body	may	body	may no On ang mayroon at wala Mayroon ako kotse May tubig	
+body	family	body	at ng kapatid no man ang ako nanay Guro	
+body	sa-pronouns	body	ang ng sa on kay kina nasa nasaan at para ako Juan	
+body	word-order	body	am Ana no ay at hindi Kumain na ba ikaw Hindi gusto ko	
+body	um	body	at ate on ang ng sa Kumain ko mangga ako	
+body	mag	body	at mag nag ma lumuto ng Nagluto ko adobo	
+body	aspect	body	mag ate at Kumain ako bukas kumaain	
+body	gusto	body	gusto ng mag ayaw kailangan no puwede marunong ang may Puwede akong Gusto ako kape ko kumain	
+body	in	body	ate mag ang ng on at Ana no Kumain ko mangga	
+body	food	body	at ulam adobo sinigang no Ano ang po At Isa	
+body	time	body	alas no on On sa tres oras tatlo	
+body	directions	body	Grab at ang po sa kay Juan jeep tricycle man Pupunta ako Makati	
+body	requests	body	at ka kayo no ang po Lola paki Puwede bang May on huwag hindi Hindi umalis	
+body	particles	body	at na pa rin din lang naman muna nga daw ka ko mo po ba ako kayo on Hindi kumakain	
+body	compare	body	no mas ang kaysa pinaka Ana si Mas matangkad Juan	
+body	taglish	body	mall on shopping ako aircon okay at man Lola tita Ewan ko	
+checks	sounds.k2	q	ng Kumain ako mangga	How is the little word ng in Kumain ako ng mangga said?
+checks	sounds.k2	o[2]	nang	Like nang
+checks	sounds.k2	o[3]	no	Like the ing in sing, with no vowel
+checks	sounds.k2	why	On ng nang	On its own, the word ng is always said nang.
+checks	sounds.k3	q	malaking bahay malaki	Why is it malaking bahay and not malaki bahay?
+checks	sounds.k3	o[0]	malaking malaki	malaking is the plural of malaki
+checks	sounds.k3	o[1]	ng	Tagalog joins a describing word to its noun with the linker -ng
+checks	sounds.k3	o[2]	bahay ng	bahay always needs ng before it
+checks	sounds.k3	o[3]	malaki bahay	malaki bahay means a small house
+checks	sounds.k3	why	malaki ng bahay	malaki ends in a vowel, so the linker -ng joins it to bahay.
+checks	greetings.k1	q	Magandang	Why does every greeting begin with Magandang?
+checks	greetings.k1	o[1]	maganda ng	maganda (beautiful) is joined to the time of day with the linker -ng
+checks	greetings.k1	o[2]	maganda	It is the polite form of maganda
+checks	greetings.k1	o[3]	magandang	magandang means good night
+checks	greetings.k1	why	maganda ng umaga	Tagalog says beautiful morning: maganda + the linker -ng + umaga.
+checks	pronouns.k1	q	Ako Ana	Which word goes before a person's name in Ako si Ana?
+checks	pronouns.k1	why	Ako Ana	si goes before a person's name: Ako si Ana.
+checks	pronouns.k3	q	Ka si Mark	Why is Ka si Mark wrong?
+checks	pronouns.k3	o[0]	ka ikaw	ka cannot start a sentence; use ikaw there
+checks	pronouns.k3	o[1]	ka	ka is only for elders
+checks	pronouns.k3	o[2]	Mark ang	Mark needs ang
+checks	pronouns.k3	o[3]	ka	ka means he
+checks	pronouns.k3	why	ka at ikaw	ka comes right after the first word; at the start, use ikaw.
+checks	intro.k2	q	Ilang taon Ilan	Why is it Ilang taon, not Ilan taon?
+checks	intro.k2	o[0]	Ilang	Ilang is the polite form
+checks	intro.k2	o[1]	ilan taon	ilan ends in n, so the linker -g joins it to taon
+checks	intro.k2	o[2]	taon ng	taon needs ng before it
+checks	intro.k2	o[3]	Ilang	Ilang is the plural
+checks	intro.k2	why	ilang taon	After n the linker is just -g: ilang taon.
+checks	intro.k3	q	Paano ka	A friend asks Paano ka? What did they mean to say?
+checks	intro.k3	o[3]	Kumusta ka	Nothing: How are you? is Kumusta ka?
+checks	intro.k3	why	Paano ka Kumusta	Paano ka? is a word-for-word copy of English; How are you? is Kumusta ka?
+checks	this-that.k1	q	bag	The vendor is holding a bag in her hand. You ask how much it is. Which word?
+checks	this-that.k3	q	at bag	Your friend points at a bag. How do you say It's expensive? (mahal = expensive)
+checks	this-that.k3	why	iyan iyon	siya is for people; for things Tagalog uses ito, iyan or iyon.
+checks	markers.k3	q	kay Maynila	Why is kay Maynila wrong?
+checks	markers.k3	o[0]	Maynila ang	Maynila needs ang
+checks	markers.k3	o[1]	kay sa	kay is for people; a place takes sa
+checks	markers.k3	o[2]	kay	kay is only for the topic
+checks	markers.k3	o[3]	kay	kay must come after the place
+checks	markers.k3	why	kay sa Maynila	kay is for people; places take sa: sa Maynila.
+checks	linker.k1	q	mabait bata	Which linker joins mabait (kind) to bata (child)?
+checks	linker.k1	o[0]	ng bata	-ng: mabaiting bata
+checks	linker.k1	o[1]	bata	-g: mabaitg bata
+checks	linker.k1	o[2]	mabait bata	none: mabait bata
+checks	linker.k1	o[3]	na mabait bata	na: mabait na bata
+checks	linker.k1	why	mabait na	mabait ends in a consonant, so the linker is na.
+checks	linker.k2	q	magandang	Which phrase means the same as magandang bahay?
+checks	linker.k3	q	pagkaing masarap	Why is it pagkaing masarap, with a g?
+checks	linker.k3	o[0]	pagkaing	pagkaing is the plural
+checks	linker.k3	o[1]	pagkain	pagkain ends in n, so the linker is just -g
+checks	linker.k3	o[2]	masarap	masarap starts with m
+checks	linker.k3	why	pagkaing masarap	After n, the linker is -g: pagkaing masarap.
+checks	ng-pronouns.k1	why	ng	The ng form ko goes after the noun: pangalan ko.
+checks	ng-pronouns.k2	q	Gusto ako ng kape	Why is Gusto ako ng kape wrong?
+checks	ng-pronouns.k2	o[0]	gusto ng Gusto ko	gusto takes the ng form: Gusto ko
+checks	ng-pronouns.k2	o[1]	kape ang	kape needs ang
+checks	ng-pronouns.k2	o[2]	ako	ako must come first
+checks	ng-pronouns.k2	o[3]	gusto	gusto is only for things you like, not want
+checks	ng-pronouns.k2	why	gusto ng ko Gusto kape	After gusto, use the ng form ko: Gusto ko ng kape.
+checks	questions.k1	q	ba no	Where does ba go in a yes-or-no question?
+checks	questions.k1	o[0]	At	At the very start
+checks	questions.k1	o[1]	At	At the very end, always
+checks	questions.k1	o[2]	ka	After the first word, and after ka if ka is there
+checks	questions.k1	why	ba ka Pagod	ba goes right after the first word and after ka: Pagod ka ba?
+checks	questions.k2	why	ang CR	nasaan asks where a thing or person is: Nasaan ang CR?
+checks	yes-no.k1	q	May kape ba	Your friend asks May kape ba? (Is there coffee?) and there is none. What do you answer?
+checks	yes-no.k3	q	Lola Pagod ka na ba	Lola asks Pagod ka na ba? (Are you tired?) and you are not. What do you say?
+checks	yes-no.k3	why	no Lola	It is a plain "no", so hindi; Lola gets po.
+checks	numbers.k1	q	apat na aso limang	Why is it apat na aso but limang aso?
+checks	numbers.k1	o[0]	na ng	na is for animals, -ng for people
+checks	numbers.k1	o[2]	apat na lima ng	apat ends in a consonant, so the linker is na; lima ends in a vowel, so it takes -ng
+checks	numbers.k1	o[3]	ng	-ng is only used with Spanish numbers
+checks	numbers.k1	why	on na ng	The linker depends on the sound before it: na after a consonant, -ng after a vowel.
+checks	numbers.k3	q	Singkwenta po	A vendor says Singkwenta po. How much is it?
+checks	numbers.k3	why	singkwenta	singkwenta is the Spanish 50, the usual way to say small prices.
+checks	may.k2	q	May ka ba	Your friend asks May pera ka ba? (Do you have money?) You have none. What do you answer?
+checks	may.k2	why	may	The opposite of may is wala: there's none.
+checks	may.k3	q	Mayroon akong aso ako	Why is it Mayroon akong aso and not Mayroon ako aso?
+checks	may.k3	o[0]	mayroon ng	After mayroon, the pronoun takes the linker -ng
+checks	may.k3	o[1]	ako mayroon ko	ako is wrong after mayroon; use ko
+checks	may.k3	o[2]	aso ang	aso needs the ang marker
+checks	may.k3	why	mayroon akong	mayroon is followed by the pronoun plus the linker: akong.
+checks	family.k1	why	no	kapatid has no sex; add lalaki with the linker na.
+checks	family.k2	q	Tita	Who can you call Tita?
+checks	family.k2	why	tito tita	tito and tita are used for parents' friends too, not only for real uncles and aunts.
+checks	family.k3	why	ng	The job comes first, then ang tatay ko, with the ng pronoun ko for "my".
+checks	sa-pronouns.k1	why	kanya	After para sa, use the sa form: kaniya (often written kanya).
+checks	sa-pronouns.k3	q	Juan	"This is for Juan." Which word goes before Juan?
+checks	sa-pronouns.k3	why	para Juan	With a person's name, use kay: para kay Juan.
+checks	word-order.k2	q	Ako ay guro	What does Ako ay guro. mean?
+checks	word-order.k2	o[0]	am	I am a teacher. (topic first, a bit formal)
+checks	word-order.k2	why	ay Guro ako	ay puts the topic first; it means the same as Guro ako.
+checks	word-order.k3	q	Kumain	Kumain __ __ kayo? (Have you eaten? polite) Which words fill the gaps, in order?
+checks	um.k1	q	kain	Where does -um- go in kain?
+checks	um.k1	o[0]	kumain	Before the first vowel: kumain
+checks	um.k1	o[1]	At	At the end: kainum
+checks	um.k1	o[2]	At	At the start: umkain
+checks	um.k2	q	Kumain ako ko	Why is it Kumain ako and not Kumain ko?
+checks	um.k2	o[0]	ko	ko is only used in questions
+checks	um.k2	o[2]	ang	With an -um- verb the doer takes the ang form
+checks	um.k2	o[3]	ako	ako shows that it happened in the past
+checks	um.k2	why	ang ako	Actor focus: the doer is the topic, so it takes the ang form ako.
+checks	um.k3	q	Juan tubig	In "Juan drank water", which word goes before tubig (water)?
+checks	mag.k1	q	magluto	How do you turn magluto into "cooked"?
+checks	mag.k1	o[0]	lumuto	Add -um-: lumuto
+checks	mag.k1	o[2]	na magluto	Add na after it: magluto na
+checks	mag.k1	o[3]	nagluto	Change the m to n: nagluto
+checks	mag.k1	why	nag mag	nag- instead of mag- shows the action is finished.
+checks	mag.k2	q	nag aral	Why does nag-aral have a hyphen?
+checks	mag.k2	o[0]	aral	It marks the catch before aral
+checks	mag.k2	o[2]	mag	Every mag- verb has one
+checks	mag.k3	q	Nagluto si Ana ng	In Nagluto si Ana ng pancit (Ana cooked pancit), which noun is the topic?
+checks	mag.k3	o[1]	Ana	Ana
+checks	mag.k3	why	mag si Ana	A mag- verb is actor focus: the doer, si Ana, is the topic.
+checks	aspect.k1	q	kain	How do you make the future of kain?
+checks	aspect.k1	o[0]	kakain	Repeat the first syllable: kakain
+checks	aspect.k1	o[1]	kumain	Add -um-: kumain
+checks	aspect.k1	o[2]	kumakain	Add -um- and repeat: kumakain
+checks	aspect.k1	why	no kakain	The future repeats the first syllable and has no -um-: kakain.
+checks	aspect.k3	q	Nagtatrabaho ako sa ospital	What does Nagtatrabaho ako sa ospital. mean?
+checks	aspect.k3	o[0]	at	I worked at a hospital once.
+checks	aspect.k3	o[1]	at	I work at a hospital.
+checks	aspect.k3	o[2]	at	I will work at a hospital.
+checks	aspect.k3	o[3]	at	I want to work at a hospital.
+checks	gusto.k1	q	gusto	Which word for "I" goes after gusto?
+checks	gusto.k1	why	gusto ng Gusto	gusto takes the ng form: Gusto ko.
+checks	gusto.k2	q	gusto ko	How do you join gusto ko to a verb?
+checks	gusto.k2	o[0]	Gusto kong kumain	Add the linker: Gusto kong kumain
+checks	gusto.k2	o[1]	ng Gusto ko kumain	Put ng between them: Gusto ko ng kumain
+checks	gusto.k2	o[2]	Gusto ko kumain	Nothing: Gusto ko kumain
+checks	gusto.k2	o[3]	ay Gusto ko kumain	Use ay: Gusto ko ay kumain
+checks	gusto.k2	why	gusto ko ng Gusto kong kumain	A verb after gusto ko is joined with the linker -ng: Gusto kong kumain.
+checks	gusto.k3	why	may	marunong is "know how to"; puwede is "may, allowed".
+checks	in.k1	q	Kinain ko ang mangga	In Kinain ko ang mangga, which noun is the topic?
+checks	in.k1	o[0]	ang mangga	the mango (ang mangga)
+checks	in.k1	o[1]	ko	ko
+checks	in.k1	o[2]	kinain	kinain
+checks	in.k1	o[3]	no	There is no topic
+checks	in.k1	why	ang mangga	With an -in verb the thing takes ang: ang mangga is the topic.
+checks	in.k2	q	Juan adobo	Which verb fits "Juan cooked the adobo"?
+checks	in.k2	why	adobo ni Juan ang	"the adobo" is a particular thing, so object focus: Niluto ni Juan ang adobo.
+checks	in.k3	o[0]	ang	the ang form
+checks	in.k3	o[1]	sa	the sa form
+checks	in.k3	o[2]	ng	the ng form
+checks	in.k3	o[3]	no at	no marker at all
+checks	in.k3	why	ng ko mo niya ni Ana	The doer of an -in verb takes the ng form: ko, mo, niya, ni Ana.
+checks	food.k1	q	ulam	What is ulam?
+checks	food.k1	why	kanin ulam	A meal is kanin plus ulam, the dish that goes with the rice.
+checks	food.k3	q	Kumain ka na	"Kumain ka na?" is usually…
+checks	time.k2	q	mamaya	What does mamaya mean?
+checks	time.k2	why	mamaya siguro	mamaya is later today; "maybe" is baka or siguro.
+checks	requests.k1	q	paki	What does paki- add to a verb?
+checks	requests.k1	why	paki pakiabot	paki- turns a verb into a polite request: pakiabot, please pass.
+checks	particles.k2	o[1]	At	At the end of the sentence
+checks	particles.k2	o[3]	at	Anywhere at all
+checks	compare.k2	q	kaysa	After kaysa, a person's name takes…
+checks	compare.k2	why	kaysa Ana	kay is for people after kaysa: kaysa kay Ana.
+checks	compare.k3	why	pinaka	pinaka- means most: pinakamura.
+checks	taglish.k1	q	Nag shopping kami	Is "Nag-shopping kami" bad Tagalog?
+checks	taglish.k1	o[1]	No	No, it is normal everyday Taglish
+checks	taglish.k3	q	Tara	"Tara!" means…
+checks	taglish.k3	o[1]	Okay	Okay.
+checks	taglish.k3	why	Tara	Tara! is a casual "Let's go!"
+practice	sounds.01	q	ng	Which word starts with the ng sound of singer?
+practice	sounds.01	why	ng	ngayon starts with ng, one sound, as in the middle of singer.
+practice	sounds.02	q	ts ch	In which word is the spelling ts said like the ch in church?
+practice	sounds.02	why	ts ch	ts is the Tagalog spelling of the ch sound: tsinelas.
+practice	sounds.03	q	mga	How is mga said?
+practice	sounds.03	o[0]	ma nga ng	Two syllables: ma, then nga with the ng of singer
+practice	sounds.03	o[3]	mag at	Like mag with a hard g at the end
+practice	sounds.03	why	mga	mga is short for a two-syllable word said mah-NGAH; it makes the noun plural.
+practice	sounds.04	q	at	In the pronunciation line, what does a q at the end of a word mean?
+practice	sounds.05	q	aso on	aso (dog) is stressed on the first syllable. What happens if you stress the last one?
+practice	sounds.06	why	ng	malaki ends in a vowel, so add the linker -ng: malaking bahay.
+practice	sounds.09	why	on malaking	After a vowel the linker is -ng, written on the end of the word: malaking.
+practice	sounds.11	why	tsinelas	Tagalog writes the ch sound as ts: tsinelas.
+practice	sounds.12	why	ng	dalawa ends in a vowel, so the linker -ng joins it to aso: dalawang aso.
+practice	greetings.03	q	Lola no	Lola asks you a yes-or-no question. The answer is yes:
+practice	greetings.04	q	Salamat po	Someone says Salamat po to you. You reply:
+practice	greetings.06	why	ng	The linker -ng joins maganda to umaga: Magandang umaga po.
+practice	greetings.07	why	ng	The linker -ng joins maganda to hapon: Magandang hapon.
+practice	greetings.12	why	ng	The linker -ng joins maganda to gabi: Magandang gabi po.
+practice	greetings.13	why	ng	The linker -ng joins maganda to tanghali: Magandang tanghali.
+practice	pronouns.04	q	at	You invite everyone at the table to start eating:
+practice	pronouns.05	q	po	Which you do you use with your teacher, together with po?
+practice	intro.05	q	Nag aaral ako ng	Nag-aaral ako ng Tagalog means:
+practice	intro.05	why	nag aaral	nag-aaral means studying.
+practice	intro.08	why	ng	ano is linked to pangalan with -ng: Anong pangalan mo?
+practice	intro.10	why	Anong	After a vowel the linker is -ng: Anong pangalan mo?
+practice	this-that.02	q	at	You point at a building far away: What's that?
+practice	linker.03	why	on	In the other order the linker goes on aso: asong malaki.
+practice	linker.06	why	ng	malaki ends in a vowel, so add the linker -ng: malaking aso.
+practice	linker.11	why	pagkaing	After n the linker is just -g: pagkaing.
+practice	linker.13	why	ng	maganda ends in a vowel, so the linker -ng joins it to bahay: magandang bahay.
+practice	ng-pronouns.06	why	ng	gusto takes the ng form ko: Gusto ko ito.
+practice	ng-pronouns.07	why	ng	alam takes the ng form ko, right after hindi: Hindi ko alam.
+practice	ng-pronouns.08	why	ng	my is the ng form ko, after the noun: bahay ko.
+practice	ng-pronouns.11	why	ng	his is niya, the ng form of siya.
+practice	ng-pronouns.13	why	ng	my is the ng form ko, after the noun: bahay ko.
+practice	ng-pronouns.14	why	ng	alam takes the ng form ko: Hindi ko alam.
+practice	questions.09	why	no	ba turns the sentence into a yes-or-no question.
+practice	questions.14	why	ng	your is the ng form mo, after the noun: bahay mo.
+practice	yes-no.02	q	Ate May tubig ba	Ate asks May tubig ba? (Is there water?). There is none. Best answer?
+practice	yes-no.05	q	Kumain ka ba	Kumain ka na ba? (Have you eaten?) You haven't eaten yet. Answer (to a friend):
+practice	yes-no.06	why	ng	wala is linked to the pronoun with -ng: Wala akong pera.
+practice	yes-no.07	why	ng	alam takes the ng form ko, even after hindi: Hindi ko alam.
+practice	yes-no.08	why	ng	The linker -ng joins kayo to the verb, and po goes right after huwag: Huwag po kayong umalis.
+practice	yes-no.12	why	ng	wala is linked to kami with -ng: Wala kaming kape.
+practice	yes-no.13	why	ng	alam takes the ng form ko, and po comes right after ko: Hindi ko po alam.
+practice	yes-no.14	p	No	No, not yet (polite)
+practice	numbers.06	why	ng	tatlo ends in a vowel, so the linker is -ng: tatlong bahay.
+practice	numbers.12	why	ng	lima ends in a vowel, so the linker -ng joins it to bata: limang bata.
+practice	may.01	why	no	may goes straight before the noun, with no ang; ba comes after it.
+practice	may.03	q	At May isda ba	At a restaurant you ask May isda po ba? (Is there fish?). There is none. The waiter says:
+practice	may.04	q	no	"There's no water." =
+practice	may.04	why	ng no	wala joins the noun with -ng, and no ang: walang tubig.
+practice	may.05	q	mayroon	Which word do people often say instead of mayroon?
+practice	may.05	why	mayroon	meron is the everyday way to say mayroon.
+practice	may.06	why	ng	mayroon is linked to the pronoun with -ng: Mayroon akong aso.
+practice	may.10	why	ng	kami (we, not you) takes -ng after mayroon: kaming.
+practice	may.12	why	ng	mayroon is linked to the pronoun with -ng: Mayroon akong kapatid.
+practice	may.13	p	no	There's no coffee.
+practice	may.13	why	ng	wala is linked to the noun with -ng: Walang kape.
+practice	family.01	q	kapatid	Your kapatid is…
+practice	family.01	why	kapatid no	kapatid is a brother or a sister, with no word for the sex.
+practice	family.03	why	ng	The ng pronoun ko comes after the noun: nanay ko.
+practice	family.05	q	Ako ang bunso	Ako ang bunso. means:
+practice	family.05	why	bunso	bunso is the youngest child in the family.
+practice	family.08	why	ng	ko is the ng pronoun for "my" after the noun: ang nanay ko.
+practice	family.12	why	ng	ko is the ng pronoun for "my", after the noun: kuya ko.
+practice	sa-pronouns.03	why	sa	With a person's name, para sa becomes para kay.
+practice	sa-pronouns.05	q	at	"Ana is at home." =
+practice	sa-pronouns.06	why	ang	After para sa use the sa form iyo, not the ang form ikaw.
+practice	sa-pronouns.08	p	at	Ana is at the market
+practice	word-order.04	q	ay	Which is true about ay?
+practice	word-order.04	why	ay	ay is not "is"; it shows that the topic came first.
+practice	word-order.07	why	ng	mo is the ng pronoun for "your", after the noun: ang bahay mo.
+practice	word-order.11	p	am	I am a teacher. (more formal)
+practice	word-order.12	why	ng	alam takes the ng form niya, pulled forward by hindi: Hindi niya alam.
+practice	um.01	q	bili	The -um- verb from the root bili (buy) is:
+practice	um.02	q	inom	The -um- verb from the root inom (drink) is:
+practice	um.03	q	ate	"I ate rice." =
+practice	um.06	why	ang	Actor focus: the doer takes ang, so ako, not ko.
+practice	um.09	p	ate	I ate a mango.
+practice	um.11	why	sayaw	-um- goes before the first vowel of sayaw: sumayaw.
+practice	um.12	hint	bili	bili · Ana · isda
+practice	um.12	why	ang	Actor focus: the doer takes ang, so si Ana, and the fish takes ng.
+practice	um.13	p	ate	I ate rice
+practice	um.13	hint	kain	kain · kanin = cooked rice
+practice	um.13	why	ang	Actor focus: the doer takes ang, so ako, and the rice takes ng.
+practice	um.14	hint	inom	hindi · inom · kape
+practice	mag.01	why	mag	Change the m of mag- to n to show it is finished: nagluto.
+practice	mag.03	why	mag	The players are the topic of a mag- verb, so ang mga bata.
+practice	mag.05	q	nagluto	In nagluto, which part shows that the cooking is finished?
+practice	mag.05	o[0]	nag mag	nag- (instead of mag-)
+practice	mag.05	o[1]	luto	the root luto
+practice	mag.05	o[2]	ng	the ng after the verb
+practice	mag.05	why	mag nag	mag- becomes nag- when the action is finished.
+practice	mag.06	why	ang	Actor focus: the doer takes ang, so ako, not ko.
+practice	mag.07	why	ang	Actor focus: the doer takes ang, so kami, not the ng form namin.
+practice	mag.09	why	mag	luto is a mag- verb; finished, it is nagluto.
+practice	mag.12	hint	luto	luto · Lola · sinigang
+practice	mag.12	why	ang	Actor focus: the doer takes ang, so si Lola, and the sinigang takes ng.
+practice	mag.13	why	ang	Actor focus: the doer takes ang, so ako, not ko.
+practice	mag.14	hint	laro	hindi · laro · kami
+practice	aspect.02	why	nag	Ongoing: nag- plus the repeated syllable, nagluluto, with ako as the doer.
+practice	aspect.03	q	ate	"I ate yesterday." =
+practice	aspect.04	q	bili	The future form of bili (buy) is:
+practice	aspect.05	q	Magluluto ako	Which time word fits Magluluto ako ___?
+practice	aspect.05	why	magluluto	magluluto is the future form, so it goes with bukas (tomorrow).
+practice	aspect.06	why	ang	Actor focus: the doer takes ang, so ako, in every aspect.
+practice	aspect.07	why	ang	Actor focus: the doer takes ang, so kami, not namin.
+practice	aspect.08	p	at	I work at a hospital
+practice	aspect.10	p	at	She works at a hospital.
+practice	aspect.11	p	ate	I ate yesterday.
+practice	aspect.12	hint	luto	luto · adobo · repeat lu
+practice	aspect.12	why	ang	Actor focus: the doer takes ang, so ako, and the adobo takes ng.
+practice	aspect.13	hint	kain	kain · kanin · kami
+practice	aspect.13	why	ang	Actor focus: the doer takes ang, so kami, not namin.
+practice	aspect.14	hint	punta	punta · palengke · bukas
+practice	gusto.05	why	ng	kailangan takes mo, joined to the verb with -ng: mong umuwi.
+practice	gusto.06	why	ko	gusto takes the ng form ko, linked to the verb with -ng: Gusto kong uminom.
+practice	gusto.08	why	ang ba	marunong takes the ang form ka; ba gets the linker before the verb: bang magluto.
+practice	gusto.09	why	ng	ko needs the linker -ng before the verb: kong kumain.
+practice	gusto.11	why	ang	Knowing how is marunong, and it takes the ang form akong.
+practice	gusto.12	why	ng	gusto takes the ng form ko, and the linker -ng joins it to the verb: Gusto kong kumain.
+practice	gusto.14	hint	ko no	ayaw · ko · umuwi · no hindi needed
+practice	gusto.14	why	ng	ayaw already means "don't want"; the linker -ng joins it to the verb: ayaw kong umuwi.
+practice	in.01	q	ate	"I ate the mango" =
+practice	in.03	q	Niluto ni Lola ang adobo	In "Niluto ni Lola ang adobo", who did the cooking?
+practice	in.03	o[0]	Lola	Lola
+practice	in.03	o[1]	adobo	the adobo
+practice	in.03	o[2]	Ana	Ana
+practice	in.03	why	ni Lola	ni marks the doer of an -in verb: ni Lola.
+practice	in.04	q	ate	Which one says "I ate a mango" (any mango)?
+practice	in.06	p	ate	I ate the mango
+practice	in.06	why	ng	Object focus: the mango takes ang, so the doer is the ng pronoun ko.
+practice	in.07	why	ng	Object focus: the adobo takes ang, so the doer is the ng pronoun niya.
+practice	in.08	why	ng	Object focus: the bread takes ang, so the doer is the ng pronoun mo, then ba.
+practice	in.09	p	ate	I ate the mango.
+practice	in.11	p	ate	I ate the bread.
+practice	in.12	p	ate	I ate the mango
+practice	in.12	hint	kain	kain · ko · mangga · "the mango" asks for an -in verb
+practice	in.12	why	ng	Object focus: the mango takes ang, and the doer is the ng form ko.
+practice	in.13	hint	bili	bili · niya · tinapay
+practice	in.13	why	ng	Object focus: the bread takes ang, and the doer is the ng form niya.
+practice	in.14	p	ate	I ate a mango
+practice	in.14	hint	kain	kain · ako · mangga · "a mango" asks for an -um- verb
+practice	in.14	why	ang	Actor focus for "a mango": the doer takes ang, so ako, and the mango takes ng.
+practice	food.03	why	ng	The number takes the linker -ng: isang adobo, and po for the staff.
+practice	food.04	q	at	What do you call out at a sari-sari store?
+practice	food.06	why	ng	The number is linked to the noun with -ng: dalawang kanin.
+practice	food.07	why	ng on	The linker -ng goes on the last word before the noun: isa pang kanin.
+practice	food.08	p	at	Some bread, please (at a sari-sari store, polite)
+practice	food.12	why	ng	The number is linked to the dish with -ng: dalawang adobo.
+practice	food.13	p	at	Some water, please (at a sari-sari store, polite)
+practice	time.04	q	mamaya	mamaya means…
+practice	time.04	why	mamaya	mamaya is later today, not "maybe".
+practice	time.05	q	ate	"I ate earlier (today)" =
+practice	time.07	p	on	on Monday
+practice	time.11	p	ate	I ate yesterday.
+practice	time.12	why	ng	Numbers are linked to the noun with -ng: limang minuto.
+practice	time.13	why	ng	dalawa ends in a vowel, so the linker -ng joins it to araw: dalawang araw.
+practice	time.14	hint	kain	kain · ako · bukas
+practice	directions.04	q	Bayad po	You pass coins forward and say "Bayad po." It means…
+practice	directions.04	why	bayad Bayad po	bayad is payment: Bayad po goes with the fare you pass forward.
+practice	directions.09	p	at	Turn right at the corner.
+practice	directions.12	p	at	Turn right at the church (to a friend)
+practice	directions.14	p	at	Turn left at the corner (polite)
+practice	requests.01	why	on	"Don't" is huwag, with the linker on the pronoun: kang.
+practice	requests.02	q	paki	paki- means…
+practice	requests.02	why	paki	paki- + root makes a polite request.
+practice	requests.04	why	paki	paki- + abot asks someone to pass something.
+practice	requests.05	q	nga Pakiabot	What does nga do in "Pakiabot nga"?
+practice	requests.05	why	nga	nga softens a request or an order.
+practice	requests.06	why	ng	huwag is linked to the pronoun with -ng: Huwag kang umalis.
+practice	requests.07	why	ang	In a command the doer takes the ang form: kayo, not ninyo.
+practice	requests.08	why	ang	The person helped takes ang here, so the ang form ako.
+practice	requests.12	why	ng	huwag is linked to ka with -ng: Huwag kang umalis.
+practice	requests.13	why	ang	In a command the doer takes the ang form ka: Kumain ka na.
+practice	particles.06	why	ang	The doer of kumain takes the ang form ka, then na, then ba.
+practice	particles.07	why	ng	alam takes the ng form ko, and pa comes right after it.
+practice	particles.12	why	ng	alam takes the ng form ko, and pa follows it: Hindi ko pa alam.
+practice	compare.02	why	pinaka	pinaka- + describing word means most.
+practice	compare.05	why	pinaka	pinaka- joins the describing word: pinakamasarap.
+practice	compare.07	why	pinaka ng	The pinaka- word ends in a vowel, so the linker -ng joins it to bahay.
+practice	compare.14	p	pinaka	Juan is the tallest (use pinaka-)
+practice	taglish.01	q	Nag shopping kami	In Manila, "Nag-shopping kami" is…
+practice	taglish.01	why	nag on	Tagalog nag- on an English verb is normal everyday speech.
+practice	taglish.02	q	Tara	"Tara!" means…
+practice	taglish.02	o[1]	Okay	Okay.
+practice	taglish.02	why	Tara	Tara! is a casual "Let's go!"
+practice	taglish.04	q	Nasaan CR	In "Nasaan 'yung CR?", 'yung takes the place of…
+practice	taglish.05	q	Paki on ang aircon	"Paki-on ang aircon" means…
+practice	taglish.05	o[0]	on aircon	Please turn on the aircon.
+practice	taglish.05	o[1]	aircon	Please turn off the aircon.
+practice	taglish.05	o[2]	aircon on	Is the aircon on?
+practice	taglish.05	o[3]	aircon	The aircon is broken.
+practice	taglish.05	why	paki on	paki- + the English word on: please turn it on.
+practice	taglish.06	why	ang	'yung replaces the ang marker in casual talk: Nasaan 'yung CR?
+practice	taglish.07	why	ng	ayoko takes the linker -ng before the verb: Ayokong umalis.
+practice	taglish.10	p	Okay	Okay, let's go!
+practice	taglish.10	why	okay	Sige means okay, go ahead.
+practice	taglish.11	why	at	'di ba or 'no at the end asks "right?".
+practice	taglish.13	why	ng	ayoko takes the linker -ng before the verb: Ayokong kumain.
+practice	taglish.14	why	ng	alam takes the ng form ko: 'Di ko alam.
+labels	tl.h.night	text	late	Good evening (you're up late)
+lessoncards	tl.lc0001	note	kape	Tagalog writes the k sound with k, never c: kape, kah-PEH (coffee).
+lessoncards	tl.lc0002	note	gising	g stays hard before i and e, as in go: gising, ghee-SEENG (awake).
+lessoncards	tl.lc0003	note	sh pasensya sorry siya	sy before a vowel is said sh: pasensya, pah-SEHN-shah (patience; sorry). siya (he, she) is usually said shah too.
+lessoncards	tl.lc0004	note	medya alas singko	dy is said j: medya, MEH-jah (half), as in alas-singko y medya (half past five).
+lessoncards	tl.lc0006	note	si iw	si-siw: iw is an ee that ends in w. Stress the first syllable.
+lessoncards	tl.lc0007	note	ka hoy oy	ka-hoy: oy as in boy. Stress the first syllable.
+lessoncards	tl.lc0008	note	sa aw	sa-baw: aw sounds like the ow in cow. Stress the last syllable.
+lessoncards	tl.lc0009	note	ka	ka-la-baw: three syllables, each with one vowel sound. Stress the last.
+lessoncards	tl.lc0010	note	pa	pa-a: two vowels side by side are two syllables.
+lessoncards	tl.lc0011	note	nga ay ng	ta-i-nga: here a and i are two syllables, not the ay of eye; nga starts with the ng of singer. Casual: tenga.
+lessoncards	tl.lc0012	note	ng	ngi-pin: ng starts the word. Stress the last syllable.
+lessoncards	tl.lc0013	note	ng oy	ung-goy: ngg is the ng of singer, then a hard g; oy as in boy.
+lessoncards	tl.lc0014	note	gi	gi-ta-ra: g stays hard before i; r is one quick tap.
+lessoncards	tl.lc0015	note	dok	bun-dok: a consonant can close a syllable. Stress the last syllable.
+lessoncards	tl.lc0017	note	ko ts ch	tso-ko-la-te: ts is ch, and k is written where English has c.
+lessoncards	tl.lc0018	note	no	dy is said j. One syllable, so the line has no capitals.
+lessoncards	tl.lc0020	note	ma	ma-li: stress the last syllable; the word ends in a catch.
+lessoncards	tl.lc0021	note	sa	pu-sa: two open syllables. Stress the first.
+lessoncards	tl.lc0023	note	no at	pu-no: stress the first syllable. Stressed at the end, with a catch, it means full.
+# option classes to review: pronouns.k3 (prose by its key «ka cannot start a sentence; use ikaw there»; «Mark needs ang» would classify the other way)
+# option classes to review: markers.k3 (prose by its key «kay is for people; a place takes sa»; «Maynila needs ang» would classify the other way)
+# option classes to review: linker.k1 (prose by its key «na: mabait na bata»; «-ng: mabaiting bata» «-g: mabaitg bata» «none: mabait bata» would classify the other way)
+# option classes to review: ng-pronouns.k2 (prose by its key «gusto takes the ng form: Gusto ko»; «kape needs ang» would classify the other way)
+# option classes to review: gusto.k2 (prose by its key «Add the linker: Gusto kong kumain»; «Nothing: Gusto ko kumain» «Use ay: Gusto ko ay kumain» would classify the other way)
+# option classes to review: in.k1 (prose by its key «the mango (ang mangga)»; «ko» «kinain» would classify the other way)
+# option classes to review: requests.k1 (prose by its key «"please"»; «"don't"» would classify the other way)
+# option classes to review: compare.k1 (target by its key «mas mura»; «murang» would classify the other way)
+# option classes to review: compare.k3 (target by its key «pinakamura»; «kasingmura» would classify the other way)
+# option classes to review: taglish.k3 (prose by its key «Let's go!»; «Okay.» would classify the other way)
+# option classes to review: sounds.04 (prose by its key «A catch in the throat, like the break in uh-oh»; «A k sound» would classify the other way)
+# option classes to review: numbers.01 (target by its key «tatlo»; «tatlumpu» would classify the other way)
+# option classes to review: may.05 (target by its key «meron»; «mayro» would classify the other way)
+# option classes to review: um.01 (target by its key «bumili»; «umbili» «bilium» «bilumi» would classify the other way)
+# option classes to review: um.02 (target by its key «uminom»; «inumom» «inomum» «numinom» would classify the other way)
+# option classes to review: mag.01 (target by its key «nagluto»; «mangluto» would classify the other way)
+# option classes to review: mag.02 (target by its key «nag-aral»; «nagaral» «nagar-al» would classify the other way)
+# option classes to review: aspect.04 (target by its key «bibili»; «bumibili» «bilibili» would classify the other way)
+# option classes to review: in.03 (prose by its key «Lola»; «the adobo» «Ana» would classify the other way)
+# option classes to review: requests.02 (prose by its key «please (do this)»; «don't» would classify the other way)
+# option classes to review: taglish.02 (prose by its key «Let's go!»; «Okay.» would classify the other way)

@@ -1,0 +1,75 @@
+{"id":"sounds.k1","q":"How do you say the w in Wasser?","o":["Like English v","Like English w","Like English f","It is silent"],"why":"German w always sounds like English v."}
+{"id":"sounds.k2","q":"Which syllable carries the stress in Entschuldigung?","o":["The first: ent","The second: schul","The third: di","The last: gung"],"why":"ent- is never stressed, so the stress falls on the next syllable: ehnt-SHOOL-dih-goong."}
+{"id":"sounds.k3","q":"How many syllables does Bitte have?","o":["One: the final e is silent","Three","Two: the final e is said, BIT-uh","It depends on the speaker"],"why":"A final e is always pronounced in German, like the a in about."}
+{"id":"greetings.k1","q":"Which one asks a stranger's name?","why":"Sie with a capital S is the polite you. With a small s, Wie heißen sie? asks what THEY are called."}
+{"id":"greetings.k2","q":"Someone says Danke. What do you answer?","why":"bitte means please, and it is also the answer to danke: you're welcome."}
+{"id":"greetings.k3","q":"Your new friend at a party asks where you are from. What did they say?","why":"Among friends people use du, and the verb with du ends in -st: kommst."}
+{"id":"gender.k1","q":"Why is it das Mädchen, although a girl is female?","o":["Every noun ending in -chen is neuter","Young people are always neuter","It is an old mistake that stuck","Mädchen is a plural"],"why":"-chen always makes a noun neuter: grammar follows the ending, not the meaning."}
+{"id":"gender.k2","q":"Which article do plural nouns take?","o":["der","das","die, for all three genders","It depends on the gender"],"why":"In the plural every noun takes die: die Tage, die Frauen, die Bücher."}
+{"id":"gender.k3","q":"What is the best way to learn the word Tisch (table)?","o":["Just the noun: Tisch","With its article: der Tisch","With an English article: the Tisch","Guess the gender from the meaning"],"why":"Gender cannot be guessed from the meaning, so learn the article and the noun together."}
+{"id":"sein-haben.k1","q":"How do you say I'm a doctor? (a woman speaking)","why":"No article before a job, and a woman uses the -in form: Ich bin Ärztin."}
+{"id":"sein-haben.k2","q":"Which form of haben goes with Sie (formal you)?","why":"Sie always shares the form of sie (they): Sie haben."}
+{"id":"sein-haben.k3","q":"How do you usually say I'm hungry?","why":"German says I have hunger: Ich habe Hunger."}
+{"id":"present.k1","q":"Which sentence is right?","why":"er takes -t: Er wohnt in Köln."}
+{"id":"present.k2","q":"How do you say I'm working? (right now)","why":"German has no -ing form: Ich arbeite covers I work and I'm working."}
+{"id":"present.k3","q":"What can Sie kommen aus Kanada mean?","o":["Only She comes from Canada","Only We come from Canada","They come from Canada, or You (formal) come from Canada","Only I come from Canada"],"why":"sie (they) and Sie (formal you) share the infinitive form: kommen. She would be sie kommt."}
+{"id":"word-order.k1","q":"Which sentence is right?","why":"heute takes the first place, so the verb comes second and ich follows it."}
+{"id":"word-order.k2","q":"In Am Montag habe ich Zeit, what is the first element?","why":"Am Montag is one building block, so habe is in second place."}
+{"id":"word-order.k3","q":"Does aber count as the first element?","o":["Yes, always","Only in questions","Only before a time word","No: aber joins two sentences and takes no place"],"why":"aber and und take no place: …, aber morgen arbeite ich."}
+{"id":"questions.k1","q":"What does wer mean?","o":["where","who","when","what"],"why":"wer means who. Where is wo."}
+{"id":"questions.k2","q":"How do you ask Do you live in Berlin? (to a friend)","why":"No do in German: the verb simply comes first, with its du ending."}
+{"id":"questions.k3","q":"Which word asks where someone is going?","why":"wohin asks where to; woher asks where from; wo asks where."}
+{"id":"numbers.k1","q":"What time is halb vier?","o":["4:30","3:30","3:15","4:15"],"why":"halb looks ahead to the next hour: half way to four, so 3:30."}
+{"id":"numbers.k2","q":"How do you say 42?","why":"Ones before tens, joined with und: zweiundvierzig."}
+{"id":"numbers.k3","q":"How do you say €2.50?","why":"Euros, the word Euro without -s, then the cents."}
+{"id":"stem-change.k1","q":"Which forms of fahren take the umlaut?","o":["All of them","Only du and er, sie, es","Only ich","Only wir and Sie"],"why":"Stem changes happen only with du and er, sie, es: du fährst, er fährt."}
+{"id":"stem-change.k2","q":"What are you having? (to a friend)","why":"nehmen changes to nimm- in the du form: nimmst."}
+{"id":"stem-change.k3","q":"I'm going to Hamburg =","why":"ich keeps the normal stem: ich fahre."}
+{"id":"accusative.k1","q":"'I'm looking for a sweater' (der Pullover) =","why":"Pullover is masculine and the direct object, so ein becomes einen."}
+{"id":"accusative.k2","q":"What happens to die Jacke when it is the direct object?","o":["die becomes den","die becomes der","die becomes das","Nothing: it stays die Jacke"],"why":"Only masculine articles change in the accusative; feminine die stays die."}
+{"id":"accusative.k3","q":"Den Rock kauft Anna. Who is buying?","o":["Anna","The skirt","Nobody: the sentence is wrong","You can't tell"],"why":"den marks Rock as the direct object, so Anna is the subject, even though she comes last."}
+{"id":"negation.k1","q":"'I don't have a car' =","why":"Before a noun that would take ein, use kein; Auto is neuter, so kein has no ending."}
+{"id":"negation.k2","q":"How do you say 'That's not expensive'?","why":"nicht goes right before an adjective, and kein is only for nouns."}
+{"id":"negation.k3","q":"'I don't have an appointment' (der Termin) =","why":"Termin is masculine and the direct object, so kein becomes keinen."}
+{"id":"possessives.k1","q":"'Anna and her brother' =","why":"The owner is Anna, so ihr; Bruder is masculine and the subject, so no ending."}
+{"id":"possessives.k2","q":"'I'm visiting my brother' =","why":"Bruder is masculine and the direct object, so mein becomes meinen."}
+{"id":"possessives.k3","q":"Who is being asked in Wie ist Ihr Name?","o":["Someone you call Sie","A woman, about her name","A group of friends","Two people, about their name"],"why":"Ihr with a capital I means your (formal). With a small i, ihr Name would be her name or their name."}
+{"id":"gern.k1","q":"'I like playing tennis' =","why":"For an activity, use the verb + gern, with the verb second."}
+{"id":"gern.k2","q":"'I like dogs' =","why":"For animals, things and people, use mögen: ich mag. Ich möchte Hunde would mean you want some dogs."}
+{"id":"gern.k3","q":"What does Am liebsten trinke ich Tee mean?","o":["Most of all, I like to drink tea.","I'd like a tea now.","I don't like tea.","I'd rather drink tea."],"why":"am liebsten means most of all; the verb trinke still comes second."}
+{"id":"modals.k1","q":"'I can speak German' =","why":"Sentence bracket: kann in second place, the infinitive sprechen at the end."}
+{"id":"modals.k2","q":"What does Ich will Deutsch lernen mean?","o":["I want to learn German.","I will learn German.","I must learn German.","I would like German lessons."],"why":"will is a form of wollen: it means want, not the future."}
+{"id":"modals.k3","q":"What does Ich muss heute nicht arbeiten mean?","o":["I must not work today.","I can't work today.","I won't work today.","I don't have to work today."],"why":"muss nicht means don't have to. Must not is darf nicht."}
+{"id":"separable.k1","q":"'I get up at seven' =","why":"aufstehen is separable: stehe in second place, auf at the end."}
+{"id":"separable.k2","q":"Which verb does NOT separate?","why":"ver- is an inseparable prefix, so verstehen always stays in one piece."}
+{"id":"separable.k3","q":"'I have to get up early' =","why":"After a modal, the separable verb is the infinitive at the end, in one piece."}
+{"id":"bracket.k1","q":"'I'd like to go to Berlin' =","why":"Sentence bracket: möchte second, fahren last, nach Berlin in the middle."}
+{"id":"bracket.k2","q":"'When does the train arrive?' (ankommen) =","why":"kommt follows wann, and the prefix an closes the bracket at the end."}
+{"id":"bracket.k3","q":"In the sentence bracket, what goes at the very end?","o":["The subject","The conjugated verb","The time word","The second verb part: an infinitive or a separable prefix"],"why":"The conjugated verb is second; the infinitive or the separable prefix comes last."}
+{"id":"dative.k1","q":"'I'm going by bus' (der Bus) =","why":"mit always takes the dative, and masculine der becomes dem."}
+{"id":"dative.k2","q":"'I'm going to the pharmacy' (die Apotheke) =","why":"zu + a shop; feminine die becomes der in the dative, and zu der becomes zur."}
+{"id":"dative.k3","q":"Which one means 'I'm going home'?","why":"nach Hause means going home; zu Hause means at home."}
+{"id":"pronouns.k1","q":"How do you say I'm cold (you feel cold)?","why":"Feeling cold uses the dative: Mir ist kalt. Ich bin kalt describes your personality."}
+{"id":"pronouns.k2","q":"That's for you. (to a friend)","why":"für always takes the accusative, and the accusative of du is dich."}
+{"id":"pronouns.k3","q":"Can you help me? (to a friend)","why":"helfen takes the dative, mir, and the infinitive goes to the end."}
+{"id":"prepositions.k1","q":"I'm going to the movies.","why":"Where to? in takes the accusative: ins Kino (in das Kino)."}
+{"id":"prepositions.k2","q":"on Monday","why":"Days take am: am Montag."}
+{"id":"prepositions.k3","q":"I've lived in Berlin for two years (and still do).","why":"seit with the present tense: the living started two years ago and is still going on."}
+{"id":"imperative.k1","q":"Call me, please! (formal)","why":"Sie imperative: the infinitive first, then Sie; the separable prefix an goes to the end."}
+{"id":"imperative.k2","q":"Take a pill! (to a friend)","why":"du nimmst without -st and without du: Nimm!"}
+{"id":"imperative.k3","q":"Drive carefully! (to a friend)","why":"du fährst drops the umlaut in the imperative: Fahr!"}
+{"id":"perfekt.k1","q":"I went to Berlin (by train).","why":"Moving from A to B takes sein, and the participle gefahren goes to the end."}
+{"id":"perfekt.k2","q":"Which is the past participle of verstehen?","why":"Verbs with the inseparable prefix ver- take no ge-: verstanden."}
+{"id":"perfekt.k3","q":"I ate pizza.","why":"essen takes haben, and the participle gegessen goes to the end."}
+{"id":"war-hatte.k1","q":"Where were you? (to a friend)","why":"The du form of war ends in -st: warst."}
+{"id":"war-hatte.k2","q":"We had no time.","why":"The wir form is hatten. Adding gehabt makes it we had had time."}
+{"id":"war-hatte.k3","q":"That's true.","why":"true is wahr, with an h; war means was."}
+{"id":"adjectives.k1","q":"The sweater is expensive.","why":"After sein the adjective has no ending; teurer would mean more expensive."}
+{"id":"adjectives.k2","q":"cheaper than","why":"Add -er to the adjective, and than is als."}
+{"id":"adjectives.k3","q":"My brother is older than me.","why":"alt adds an umlaut in the comparative: älter als."}
+{"id":"connectors.k1","q":"If I have time, I'll come.","why":"After wenn the verb goes to the end, and the main verb comes right after the comma."}
+{"id":"connectors.k2","q":"I'm staying home because I'm sick. (use denn)","why":"denn does not change the order: ich bin krank."}
+{"id":"connectors.k3","q":"Which word sends the verb to the end?","why":"wenn sends the verb to the end; aber, oder and denn leave the order alone."}
+{"id":"traps.k1","q":"What does Ich bekomme ein Geschenk mean?","o":["I'm becoming a present.","I'm getting a present.","I'm getting poison.","I'm becoming poison."],"why":"bekommen means get, and a present is ein Geschenk; das Gift is poison."}
+{"id":"traps.k2","q":"Your friend says: Ich will nach Hause. What does she mean?","o":["I want to go home.","I will go home later.","I went home.","I'm at home."],"why":"will is a form of wollen, so it means want."}
+{"id":"traps.k3","q":"I'm hot. (how you feel)","why":"How you feel takes mir: Mir ist heiß. Ich bin heiß means something else."}

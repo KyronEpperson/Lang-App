@@ -1,0 +1,192 @@
+{
+ "target": "it",
+ "ttsLang": "it-IT",
+ "self": "italiano",
+ "pack": {
+  "accents": true,
+  "keys": "à è é ì ò ù"
+ },
+ "features": {
+  "script": false,
+  "pron": false,
+  "conj": false,
+  "register": false,
+  "numbers": false,
+  "sound": false,
+  "strokes": false
+ },
+ "groups": [
+  {
+   "id": "it.grp.first-steps",
+   "decks": [
+    "it.d.sounds-and-spelling",
+    "it.d.greetings-and-courtesy",
+    "it.d.about-me",
+    "it.d.people-and-family"
+   ]
+  },
+  {
+   "id": "it.grp.everyday-words",
+   "decks": [
+    "it.d.numbers-time-and-prices",
+    "it.d.days-dates-and-weather",
+    "it.d.food-and-drink",
+    "it.d.shopping-and-clothes",
+    "it.d.home-and-routine"
+   ]
+  },
+  {
+   "id": "it.grp.out-and-about",
+   "decks": [
+    "it.d.around-town-and-directions",
+    "it.d.travel-and-transport",
+    "it.d.health-and-emergencies",
+    "it.d.work-and-study"
+   ]
+  },
+  {
+   "id": "it.grp.conversation",
+   "decks": [
+    "it.d.feelings-and-states",
+    "it.d.likes-and-free-time",
+    "it.d.questions-and-connectors",
+    "it.d.compliments",
+    "it.d.flirting"
+   ]
+  },
+  {
+   "id": "it.grp.watch-out",
+   "decks": [
+    "it.d.traps-for-english-speakers",
+    "it.d.cafe-and-menu-italian"
+   ]
+  },
+  {
+   "id": "it.grp.core-words",
+   "decks": [
+    "it.d.top-nouns",
+    "it.d.top-verbs",
+    "it.d.top-adjectives",
+    "it.d.top-adverbs",
+    "it.d.top-pronouns",
+    "it.d.top-prepositions",
+    "it.d.top-conjunctions",
+    "it.d.top-interjections",
+    "it.d.top-words"
+   ]
+  }
+ ],
+ "tags": {
+  "first-steps": [
+   "it.d.sounds-and-spelling",
+   "it.d.greetings-and-courtesy",
+   "it.d.about-me",
+   "it.d.people-and-family"
+  ],
+  "everyday-words": [
+   "it.d.numbers-time-and-prices",
+   "it.d.days-dates-and-weather",
+   "it.d.food-and-drink",
+   "it.d.shopping-and-clothes",
+   "it.d.home-and-routine"
+  ],
+  "out-and-about": [
+   "it.d.around-town-and-directions",
+   "it.d.travel-and-transport",
+   "it.d.health-and-emergencies",
+   "it.d.work-and-study"
+  ],
+  "conversation": [
+   "it.d.feelings-and-states",
+   "it.d.likes-and-free-time",
+   "it.d.questions-and-connectors",
+   "it.d.compliments",
+   "it.d.flirting"
+  ],
+  "watch-out": [
+   "it.d.traps-for-english-speakers",
+   "it.d.cafe-and-menu-italian"
+  ],
+  "core-words": [
+   "it.d.top-nouns",
+   "it.d.top-verbs",
+   "it.d.top-adjectives",
+   "it.d.top-adverbs",
+   "it.d.top-pronouns",
+   "it.d.top-prepositions",
+   "it.d.top-conjunctions",
+   "it.d.top-interjections",
+   "it.d.top-words"
+  ]
+ },
+ "goals": [],
+ "plans": [],
+ "titles": [
+  {
+   "id": "it.t01",
+   "level": 1
+  },
+  {
+   "id": "it.t03",
+   "level": 3
+  },
+  {
+   "id": "it.t05",
+   "level": 5
+  },
+  {
+   "id": "it.t08",
+   "level": 8
+  },
+  {
+   "id": "it.t12",
+   "level": 12
+  },
+  {
+   "id": "it.t16",
+   "level": 16
+  },
+  {
+   "id": "it.t20",
+   "level": 20
+  }
+ ],
+ "greet": [
+  {
+   "id": "it.h.night",
+   "it": "Buonanotte"
+  },
+  {
+   "id": "it.h.morning",
+   "it": "Buongiorno"
+  },
+  {
+   "id": "it.h.afternoon",
+   "it": "Buon pomeriggio"
+  },
+  {
+   "id": "it.h.evening",
+   "it": "Buonasera"
+  }
+ ],
+ "pairs": [],
+ "pause": {
+  "sets": [],
+  "idioms": []
+ },
+ "uiKeys": [
+  "Italian (required)",
+  "Italian, pronunciation, meaning, note — one per line (pronunciation/note optional)",
+  "Search a pattern, e.g. 에서 or 'want'",
+  "#first-steps",
+  "#everyday-words",
+  "#out-and-about",
+  "#conversation",
+  "#watch-out",
+  "#core-words"
+ ],
+ "exportedFrom": {
+  "file": "tools/target/it/ (tools/target/gen.js it)",
+  "sha256_16": "c76d6be936a075c3"
+ }
+}

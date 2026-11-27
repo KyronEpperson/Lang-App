@@ -1,0 +1,84 @@
+{"id":"sounds.k1","q":"In the pronunciation line BAH-tahq (bata, child), what does the q stand for?","o":["A catch: the breath stops at the end","A k sound at the end","A silent letter","A long a sound"],"why":"q marks a catch at the end of the word: stop the breath, and add no k."}
+{"id":"sounds.k2","q":"How many syllables does maayo (good) have?","o":["Two: my-yo","Three: ma-a-yo, with a catch before the second a","Four","One"],"why":"Two vowels side by side are two syllables, with a catch between them."}
+{"id":"sounds.k3","q":"How do you say mga, the plural word?","o":["m-ga, letter by letter","mee-ga","manga","ga"],"why":"mga is written short but said manga."}
+{"id":"greetings.k1","q":"It is 3 p.m. and you meet a neighbor. What do you say?","why":"From early afternoon until dark the greeting is Maayong hapon."}
+{"id":"greetings.k2","q":"A jeepney driver hands you your change. What is the most polite thanks?","why":"An older man or a driver is Nong; po is Tagalog, and Nang is for a woman."}
+{"id":"greetings.k3","q":"Someone says Salamat. You answer:","why":"Walay sapayan means you're welcome."}
+{"id":"particles.k1","q":"How do you say Just one?","why":"lang never comes first: it follows the main word, Usa lang."}
+{"id":"particles.k2","q":"Someone says Maayong buntag! How do you say Good morning to you too?","why":"sab means too, and it goes after the greeting."}
+{"id":"particles.k3","q":"What does diay add to a sentence?","o":["It turns it into a yes-or-no question","It means too, also","Surprise: you have just learned it","It means please"],"why":"diay shows you have just found something out: oh, so it is."}
+{"id":"this-that.k1","q":"The vendor is holding a fruit you don't know. How do you ask What's that?","why":"A thing near the listener is kana, and the question word comes first."}
+{"id":"this-that.k2","q":"How do you say This is a book?","o":["Kini ay libro.","Ang kini libro.","Libro kini.","Kini is libro."],"why":"The main word comes first and there is no word for is: Libro kini."}
+{"id":"this-that.k3","q":"In Unsa ni?, what is ni?","o":["The short form of kini","The short form of kana","A word for what","A word for please"],"why":"After another word, kini is often shortened to ni."}
+{"id":"ako.k1","q":"How do you say I'm American (a man)?","why":"The main word comes first, then the short form ko."}
+{"id":"ako.k2","q":"Which marker goes before a person's name, as in Maestra ___ Ana?","why":"Names take si; other nouns take ang."}
+{"id":"ako.k3","q":"What does siya mean?","o":["he only","she only","he or she","they"],"why":"siya is both he and she."}
+{"id":"intro.k1","q":"How do you ask a new friend where they are from?","why":"taga- + asa asks where someone is from; Asa ka gikan? asks where they have just been."}
+{"id":"intro.k2","q":"How do you say I'm Emma?","why":"Start with the full form ako; names take si."}
+{"id":"intro.k3","q":"What does imong mean in Unsay imong ngalan?","o":["my","his","your","what"],"why":"imong is your; it goes before the noun, like akong."}
+{"id":"questions.k1","q":"How do you ask Where are you going?","why":"The question word comes first, then the short form ka."}
+{"id":"questions.k2","q":"Which word means who?","why":"kinsa is who; unsa is what, asa is where, ngano is why."}
+{"id":"questions.k3","q":"How do you say No (to a yes-or-no question like Amerikano ka ba?)","why":"Dili is Cebuano no; hindi is Tagalog, and oo is yes."}
+{"id":"we-you.k1","q":"You tell a vendor We're from the US (you and your wife). Which do you say?","why":"The vendor is not included, so the we is kami, short form mi."}
+{"id":"we-you.k2","q":"kamo means:","o":["they","we","you all","you (one person)"],"why":"kamo is you for two or more people."}
+{"id":"we-you.k3","q":"How do you make bata (child) plural?","why":"Put mga before the noun; Cebuano never adds -s."}
+{"id":"nako.k1","q":"Pedro's house =","why":"Names take ni when they own something."}
+{"id":"nako.k2","q":"our house (yours and mine) =","why":"atong includes the listener; among and namo leave them out."}
+{"id":"nako.k3","q":"the door of the house =","why":"An owner that is not a name takes sa."}
+{"id":"nga.k1","q":"a big house =","why":"The linker joins the two words: dako + -ng, dakong balay."}
+{"id":"nga.k2","q":"What does Dako ang balay mean?","o":["The house is big.","the big house","a big house","my big house"],"why":"With the describing word first and ang before the noun, it is a full sentence."}
+{"id":"nga.k3","q":"very good =","why":"kaayo after the describing word means very; lang, ba and diay mean other things."}
+{"id":"aduna.k1","q":"How do you say \"I have water\"?","why":"naa + ko + -y: literally \"there is, mine, some water\"."}
+{"id":"aduna.k2","q":"What does Walay kape mean?","o":["I don't like coffee.","There's no coffee.","Where's the coffee?","The coffee isn't hot."],"why":"walay is wala + -y: there is no."}
+{"id":"aduna.k3","q":"Which sentence asks whether Ana is there?","why":"Names take si, and naa without -y says where someone is."}
+{"id":"feelings.k1","q":"How do you say \"I'm thirsty\"?","why":"The feeling comes first, then the short pronoun ko."}
+{"id":"feelings.k2","q":"Where does kaayo (very) usually go?","o":["After the feeling word: Kapoy kaayo.","Before the feeling word: Kaayo kapoy.","At the very start, before everything else","It is never used with feelings"],"why":"kaayo follows the word it makes stronger."}
+{"id":"feelings.k3","q":"What does Masakit akong ulo mean?","o":["I'm sick.","I'm tired.","My head hurts.","My head is hot."],"why":"masakit = hurts; akong ulo = my head."}
+{"id":"numbers.k1","q":"How do you say \"three bananas\"?","why":"A Cebuano number needs ka before the noun."}
+{"id":"numbers.k2","q":"Which numbers are used for prices?","o":["Spanish numbers: baynte, kuwarenta, siyen","Cebuano numbers: duha, tulo, upat","Cebuano numbers with ka","Only English numbers"],"why":"Prices are said in Spanish numbers (English is heard too, but never only English)."}
+{"id":"numbers.k3","q":"How do you say \"I have two children\"?","why":"The number comes first, and akong (with -ng) goes before the noun."}
+{"id":"prices.k1","q":"What does Tagpila? ask?","o":["The price of each piece or kilo","How many there are","Where the shop is","Whether there is a discount"],"why":"tag- means each, per: Tagpila? = how much each?"}
+{"id":"prices.k2","q":"A kilo costs ₱40. The vendor says:","why":"The price first, in Spanish numbers, then ang and the thing."}
+{"id":"prices.k3","q":"Where do you ask Pwede pahangyo?","o":["In a mall","At a market","In a bank","On a jeepney"],"why":"Asking for a small discount is normal at a market, not where prices are fixed."}
+{"id":"family.k1","q":"What does igsoon mean?","o":["brother or sister","brother only","cousin","son or daughter"],"why":"igsoon says nothing about sex: add nga lalaki or nga babaye."}
+{"id":"family.k2","q":"Pedro is Ana's husband. Which is right?","why":"ni before the owner's name, si before the name of the person you talk about."}
+{"id":"family.k3","q":"Talking to a guest, how do you say \"our family\"?","why":"among leaves the listener out; atong would include the guest."}
+{"id":"mo.k1","q":"How do you say \"I ate yesterday\"?","why":"It already happened, so ni-; ko follows the verb."}
+{"id":"mo.k2","q":"What does mo- show?","o":["The action has not happened yet, or is a habit","The action is finished","The action is a command","The action was done to you"],"why":"mo- is the future form, also used for habits."}
+{"id":"mo.k3","q":"How do you say \"I'll buy water\"?","why":"mo- for the future, ko right after the verb, og before the water."}
+{"id":"mag.k1","q":"What can Nagluto siya mean?","o":["She cooked, or she is cooking.","She will cook.","Cook it!","She can cook."],"why":"nag- covers something done and something going on now."}
+{"id":"mag.k2","q":"How do you say \"I'll study\"?","why":"mag- is the future form, and ko follows the verb."}
+{"id":"mag.k3","q":"What does Magdula ta! mean?","o":["We played.","Play!","Let's play!","They are playing."],"why":"mag- with ta (we, including you) is a suggestion: let's."}
+{"id":"negation.k1","q":"How do you say \"I didn't go\"?","why":"wala for the past, ko right after it, and the verb in the mo- form."}
+{"id":"negation.k2","q":"Which word is right in ___ ko Amerikano (I'm not American)?","why":"No verb and no 'there is': the 'not' is dili."}
+{"id":"negation.k3","q":"After wala, which form does the verb take?","o":["A form with gi-: giadto","No verb at all","The root alone: adto","The mo- form: moadto"],"why":"wala already says it did not happen, so this course keeps the verb in the mo- form."}
+{"id":"time.k1","q":"How do you say \"three o'clock\"?","why":"On the clock: alas + a Spanish number."}
+{"id":"time.k2","q":"What does unya mean?","o":["later today","tomorrow","yesterday","earlier today"],"why":"unya is later today; tomorrow is ugma."}
+{"id":"time.k3","q":"Which one is \"seven p.m.\"?","why":"alas + Spanish siyete, and sa gabii for the evening."}
+{"id":"gusto.k1","q":"How do you say 'I want to eat'?","why":"No word for 'to': gusto ko, then the verb with mo-."}
+{"id":"gusto.k2","q":"Which sentence means 'I need help'?","why":"kinahanglan comes first, ko right after it, then og and the thing."}
+{"id":"gusto.k3","q":"A child reaches for a hot pan. Which word means 'Don't!'?","why":"ayaw tells someone not to do something; dili and wala describe."}
+{"id":"requests.k1","q":"You want a jeepney driver (an older man) to wait a moment. Which is most polite?","why":"lang softens the command and Nong shows respect; Cebuano has no po."}
+{"id":"requests.k2","q":"What does 'Palihug ko og tubig' mean?","o":["Some water, please.","I am water, please.","My water, please.","I'll get some water."],"why":"Palihug ko og… is the everyday way to ask for something: 'please me some…'."}
+{"id":"requests.k3","q":"Which word begins 'Don't worry': '__ kabalaka'?","why":"ayaw tells someone not to do something: Ayaw kabalaka."}
+{"id":"food.k1","q":"How do you order one soup?","why":"A Cebuano number joins the food with ka: usa ka sabaw."}
+{"id":"food.k2","q":"What is kan-on?","o":["cooked rice","uncooked rice","soup","bread"],"why":"kan-on is cooked rice; uncooked rice is bugas."}
+{"id":"food.k3","q":"Your host offers more food and you've had enough. You say:","why":"Busog na ko: 'I'm full (already)'."}
+{"id":"places.k1","q":"Which word means 'there', near the person you're talking to?","why":"diha is near you, like kana; didto is far from you both."}
+{"id":"places.k2","q":"Which sentence means 'I'm going to the market'?","why":"sa covers 'to', and ko stays right after the verb."}
+{"id":"places.k3","q":"diri and dinhi both mean…","o":["over there","near you","here","where"],"why":"diri and dinhi are two words for 'here'."}
+{"id":"directions.k1","q":"What does 'Lugar lang' tell the driver?","o":["Drop me off right here","Go faster","Keep the change","Turn left"],"why":"Lugar lang means 'just here': you want to get off."}
+{"id":"directions.k2","q":"Which means 'Turn left'?","why":"Left is wala, right is tuo."}
+{"id":"directions.k3","q":"Why must you say Para! out loud on a jeepney?","o":["It is how you pay the fare","It means 'go faster'","Jeepneys have no fixed stops, so the driver stops only when asked","It is the greeting for the driver"],"why":"No fixed stops: the driver waits for Para! or Lugar lang."}
+{"id":"on.k1","q":"What does 'Paliton nako ang saging' mean?","o":["I'll buy the bananas.","I bought the bananas.","My bananas, please.","I'm not buying bananas."],"why":"-on is the future form of a thing-focus verb."}
+{"id":"on.k2","q":"Why is 'Gipalit ako ang saging' wrong?","o":["gi- verbs need po","The doer of a gi- verb takes the nako-set: nako","saging needs og","ako must come last"],"why":"With a thing-focus verb the doer takes the nako-set."}
+{"id":"on.k3","q":"Which sentence means 'I'll buy some bananas' (any bananas)?","why":"'Some' bananas, with og, go with a doer-focus mo- verb."}
+{"id":"an.k1","q":"Which sentence means 'I washed the plate'?","why":"Past place-focus: gi-…-an, with the doer in the nako-set."}
+{"id":"an.k2","q":"In 'Gitabangan nako si Pedro', why does Pedro have si?","o":["He is the one who helps","He is the focus of a place-focus verb, and names take si","si means 'for'","He owns something"],"why":"The person helped is the focus; a name that is the focus takes si."}
+{"id":"an.k3","q":"How do you ask someone to wash the plate?","why":"palihug plus the -i form asks someone to do something to a thing or person."}
+{"id":"compare.k1","q":"How do you say 'bigger'?","why":"Cebuano puts mas before the describing word and never adds an ending."}
+{"id":"compare.k2","q":"Which word means 'than'?","why":"kaysa means 'than': mas dako kaysa niana."}
+{"id":"compare.k3","q":"What does 'Pinakamahal ang litson' mean?","o":["The lechon is cheap.","The lechon is more expensive.","The lechon is the most expensive.","The lechon is the same price."],"why":"pinaka- means 'the most'."}
+{"id":"maka.k1","q":"What does 'Dili ko makaadto' mean?","o":["I can't go.","I couldn't go.","I don't want to go.","I didn't go."],"why":"dili + maka- is 'can't'; wala + maka- is 'couldn't'."}
+{"id":"maka.k2","q":"Which asks 'Have you ever been to Bohol?'","why":"naka- with na asks whether something has ever happened."}
+{"id":"maka.k3","q":"You learned to cook as a child. Which says 'I know how to cook'?","why":"kahibalo is 'know how' for a skill."}

@@ -1,0 +1,25 @@
+{"id":"sounds","deck":"de.d.sounds-and-spelling","sections":[null,{"deck":"de.d.sounds-and-spelling","n":[11,18]},[{"ld":"de.ld.vowel-pairs","cards":[{"id":"de.lc0001","de":"ei","rom":"ai"},{"id":"de.lc0002","de":"ie","rom":"ee"},{"id":"de.lc0003","de":"eu","rom":"oy"},{"id":"de.lc0004","de":"äu","rom":"oy"},{"id":"de.lc0005","de":"au","rom":"ow"}]},{"deck":"de.d.sounds-and-spelling","n":[5,8]}],{"deck":"de.d.sounds-and-spelling","n":[8,11]},null,{"deck":"de.d.sounds-and-spelling","n":[0,5]},{"ld":"de.ld.long-vowels","cards":[{"id":"de.lc0006","de":"ah","rom":"ah"},{"id":"de.lc0007","de":"eh","rom":"ay"},{"id":"de.lc0008","de":"ih","rom":"ee"},{"id":"de.lc0009","de":"oh","rom":"oh"},{"id":"de.lc0010","de":"uh","rom":"oo"},{"id":"de.lc0011","de":"aa","rom":"ah"},{"id":"de.lc0012","de":"ee","rom":"ay"},{"id":"de.lc0013","de":"oo","rom":"oh"}]},null,{"ld":"de.ld.read-whole-words","cards":[{"id":"de.lc0014","de":"der Spiegel","rom":"dayr SHPEE-guhl"},{"id":"de.lc0015","de":"der Strand","rom":"dayr shtrahnt"},{"id":"de.lc0016","de":"der Zoo","rom":"dayr tsoh"},{"id":"de.lc0017","de":"die Wurst","rom":"dee voorst"},{"id":"de.lc0018","de":"die Zwiebel","rom":"dee TSVEE-buhl"},{"id":"de.lc0019","de":"die Kirche","rom":"dee KIR-hhuh"},{"id":"de.lc0020","de":"die Brille","rom":"dee BRIL-uh"},{"id":"de.lc0021","de":"der Schuh","rom":"dayr shoo"},{"id":"de.lc0022","de":"das Eis","rom":"dahs ais"},{"id":"de.lc0023","de":"die Bäckerei","rom":"dee behk-uh-RAI"},{"id":"de.lc0024","de":"der Fußball","rom":"dayr FOOS-bahl"},{"id":"de.lc0025","de":"der Bahnhof","rom":"dayr BAHN-hohf"},{"id":"de.lc0026","de":"das Fahrrad","rom":"dahs FAHR-raht"},{"id":"de.lc0027","de":"der Handschuh","rom":"dayr HAHNT-shoo"},{"id":"de.lc0028","de":"das Flugzeug","rom":"dahs FLOOK-tsoyk"},{"id":"de.lc0029","de":"die Straßenbahn","rom":"dee SHTRAH-suhn-bahn"},{"id":"de.lc0030","de":"die Hausaufgabe","rom":"dee HOWS-owf-gah-buh"}]}],"tiles":[{"id":"de.tl001","items":[{"f":"a","r":"ah"},{"f":"b","n":"de.tl001.02"},{"f":"c","n":"de.tl001.03"},{"f":"d","n":"de.tl001.04"},{"f":"e","n":"de.tl001.05"},{"f":"f","n":"de.tl001.06"},{"f":"g","n":"de.tl001.07"},{"f":"h","n":"de.tl001.08"},{"f":"i","r":"ee"},{"f":"j","n":"de.tl001.10"},{"f":"k","n":"de.tl001.11"},{"f":"l","n":"de.tl001.12"},{"f":"m","n":"de.tl001.13"},{"f":"n","n":"de.tl001.14"},{"f":"o","r":"oh"},{"f":"p","n":"de.tl001.16"},{"f":"q","n":"de.tl001.17"},{"f":"r","n":"de.tl001.18"},{"f":"s","n":"de.tl001.19"},{"f":"t","n":"de.tl001.20"},{"f":"u","r":"oo"},{"f":"v","n":"de.tl001.22"},{"f":"w","n":"de.tl001.23"},{"f":"x","n":"de.tl001.24"},{"f":"y","r":"EWP-see-lawn"},{"f":"z","n":"de.tl001.26"},{"f":"ä","r":"eh"},{"f":"ö","n":"de.tl001.28"},{"f":"ü","n":"de.tl001.29"},{"f":"ß","r":"ehs-TSEHT"}]},{"id":"de.tl002","items":[{"f":"w","r":"v"},{"f":"v","r":"f"},{"f":"z","n":"de.tl002.03"},{"f":"j","r":"y"},{"f":"s","r":"z"},{"f":"sp","n":"de.tl002.06"},{"f":"st","n":"de.tl002.07"},{"f":"ß","r":"s"}]},{"id":"de.tl003","items":[{"f":"ei"},{"f":"ie"},{"f":"eu"},{"f":"äu"},{"f":"au"}]},{"id":"de.tl004","items":[{"f":"ä","r":"eh"},{"f":"ö","n":"de.tl004.02"},{"f":"ü","n":"de.tl004.03"}]},{"id":"de.tl005","items":[{"f":"ach","n":"de.tl005.01"},{"f":"och","n":"de.tl005.02"},{"f":"uch","n":"de.tl005.03"},{"f":"auch","n":"de.tl005.04"},{"f":"_"},{"f":"ich"},{"f":"ech","n":"de.tl005.07"},{"f":"_"},{"f":"_"},{"f":"_"},{"f":"sch","n":"de.tl005.11"}]},{"id":"de.tl006","items":[{"f":"b","r":"p"},{"f":"d","r":"t"},{"f":"g","r":"k"},{"f":"ig","n":"de.tl006.04"},{"f":"_"},{"f":"e","r":"uh"},{"f":"en","n":"de.tl006.07"},{"f":"er","r":"uh"}]},{"id":"de.tl007","items":[{"f":"ah"},{"f":"eh"},{"f":"ih"},{"f":"oh"},{"f":"uh"},{"f":"aa"},{"f":"ee"},{"f":"oo"}]}]}
+{"id":"greetings","deck":"de.d.greetings-and-courtesy"}
+{"id":"gender","deck":"de.d.people-and-family"}
+{"id":"sein-haben","deck":"de.d.about-me"}
+{"id":"present","deck":"de.d.work-and-study"}
+{"id":"word-order","deck":"de.d.days-dates-and-weather"}
+{"id":"questions","deck":"de.d.questions-and-connectors"}
+{"id":"numbers","deck":"de.d.numbers-time-and-prices"}
+{"id":"stem-change","deck":"de.d.food-and-drink"}
+{"id":"accusative","deck":"de.d.shopping-and-clothes"}
+{"id":"negation","deck":"de.d.life-in-germany"}
+{"id":"possessives","deck":"de.d.people-and-family"}
+{"id":"gern","deck":"de.d.likes-and-free-time"}
+{"id":"modals","deck":"de.d.work-and-study"}
+{"id":"separable","deck":"de.d.home-and-routine"}
+{"id":"bracket","deck":"de.d.travel-and-transport"}
+{"id":"dative","deck":"de.d.around-town-and-directions"}
+{"id":"pronouns","deck":"de.d.feelings-and-states"}
+{"id":"prepositions","deck":"de.d.around-town-and-directions"}
+{"id":"imperative","deck":"de.d.health-and-emergencies"}
+{"id":"perfekt","deck":"de.d.likes-and-free-time"}
+{"id":"war-hatte","deck":"de.d.days-dates-and-weather"}
+{"id":"adjectives","deck":"de.d.shopping-and-clothes"}
+{"id":"connectors","deck":"de.d.questions-and-connectors"}
+{"id":"traps","deck":"de.d.traps-for-english-speakers"}

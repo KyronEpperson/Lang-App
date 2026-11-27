@@ -1757,3 +1757,7 @@ Coordinator's task, with the owner's words "for vietnamese marking and cantonese
 What was chosen, the files and the tests: `docs/HANDOFF.md`, 2.140.0 entry; `docs/briefs/x-vi-design.md` §3a; `docs/briefs/x-yue-design.md` §6a.
 
 Not tested: a real native half on either target (stand-ins only); native speakers; real phones.
+
+## HALVES-13 + nan-en + am-en (2.141.0, 2026-11-27) — prompt
+
+Owner: "yes start all of these optimize agents and models"; on the decision card for Taiwanese he chose "Written Taiwanese". Thirteen more target halves, English for Taiwanese speakers, English for Amharic speakers and the Amharic interface. Details: `docs/HANDOFF.md`, 2.141.0 entry.

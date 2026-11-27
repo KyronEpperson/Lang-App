@@ -1,0 +1,192 @@
+{
+ "target": "de",
+ "ttsLang": "de-DE",
+ "self": "Deutsch",
+ "pack": {
+  "accents": true,
+  "keys": "ä ö ü ß"
+ },
+ "features": {
+  "script": false,
+  "pron": false,
+  "conj": false,
+  "register": false,
+  "numbers": false,
+  "sound": false,
+  "strokes": false
+ },
+ "groups": [
+  {
+   "id": "de.grp.first-steps",
+   "decks": [
+    "de.d.sounds-and-spelling",
+    "de.d.greetings-and-courtesy",
+    "de.d.about-me",
+    "de.d.people-and-family"
+   ]
+  },
+  {
+   "id": "de.grp.everyday-words",
+   "decks": [
+    "de.d.numbers-time-and-prices",
+    "de.d.days-dates-and-weather",
+    "de.d.food-and-drink",
+    "de.d.shopping-and-clothes",
+    "de.d.home-and-routine"
+   ]
+  },
+  {
+   "id": "de.grp.out-and-about",
+   "decks": [
+    "de.d.around-town-and-directions",
+    "de.d.travel-and-transport",
+    "de.d.health-and-emergencies",
+    "de.d.work-and-study"
+   ]
+  },
+  {
+   "id": "de.grp.conversation",
+   "decks": [
+    "de.d.feelings-and-states",
+    "de.d.likes-and-free-time",
+    "de.d.questions-and-connectors",
+    "de.d.compliments",
+    "de.d.flirting"
+   ]
+  },
+  {
+   "id": "de.grp.watch-out",
+   "decks": [
+    "de.d.traps-for-english-speakers",
+    "de.d.life-in-germany"
+   ]
+  },
+  {
+   "id": "de.grp.core-words",
+   "decks": [
+    "de.d.top-nouns",
+    "de.d.top-verbs",
+    "de.d.top-adjectives",
+    "de.d.top-adverbs",
+    "de.d.top-pronouns",
+    "de.d.top-prepositions",
+    "de.d.top-conjunctions",
+    "de.d.top-interjections",
+    "de.d.top-words"
+   ]
+  }
+ ],
+ "tags": {
+  "first-steps": [
+   "de.d.sounds-and-spelling",
+   "de.d.greetings-and-courtesy",
+   "de.d.about-me",
+   "de.d.people-and-family"
+  ],
+  "everyday-words": [
+   "de.d.numbers-time-and-prices",
+   "de.d.days-dates-and-weather",
+   "de.d.food-and-drink",
+   "de.d.shopping-and-clothes",
+   "de.d.home-and-routine"
+  ],
+  "out-and-about": [
+   "de.d.around-town-and-directions",
+   "de.d.travel-and-transport",
+   "de.d.health-and-emergencies",
+   "de.d.work-and-study"
+  ],
+  "conversation": [
+   "de.d.feelings-and-states",
+   "de.d.likes-and-free-time",
+   "de.d.questions-and-connectors",
+   "de.d.compliments",
+   "de.d.flirting"
+  ],
+  "watch-out": [
+   "de.d.traps-for-english-speakers",
+   "de.d.life-in-germany"
+  ],
+  "core-words": [
+   "de.d.top-nouns",
+   "de.d.top-verbs",
+   "de.d.top-adjectives",
+   "de.d.top-adverbs",
+   "de.d.top-pronouns",
+   "de.d.top-prepositions",
+   "de.d.top-conjunctions",
+   "de.d.top-interjections",
+   "de.d.top-words"
+  ]
+ },
+ "goals": [],
+ "plans": [],
+ "titles": [
+  {
+   "id": "de.t01",
+   "level": 1
+  },
+  {
+   "id": "de.t03",
+   "level": 3
+  },
+  {
+   "id": "de.t05",
+   "level": 5
+  },
+  {
+   "id": "de.t08",
+   "level": 8
+  },
+  {
+   "id": "de.t12",
+   "level": 12
+  },
+  {
+   "id": "de.t16",
+   "level": 16
+  },
+  {
+   "id": "de.t20",
+   "level": 20
+  }
+ ],
+ "greet": [
+  {
+   "id": "de.h.night",
+   "de": "Gute Nacht"
+  },
+  {
+   "id": "de.h.morning",
+   "de": "Guten Morgen"
+  },
+  {
+   "id": "de.h.afternoon",
+   "de": "Guten Tag"
+  },
+  {
+   "id": "de.h.evening",
+   "de": "Guten Abend"
+  }
+ ],
+ "pairs": [],
+ "pause": {
+  "sets": [],
+  "idioms": []
+ },
+ "uiKeys": [
+  "German (required)",
+  "German, pronunciation, meaning, note — one per line (pronunciation/note optional)",
+  "Search a pattern, e.g. 에서 or 'want'",
+  "#first-steps",
+  "#everyday-words",
+  "#out-and-about",
+  "#conversation",
+  "#watch-out",
+  "#core-words"
+ ],
+ "exportedFrom": {
+  "file": "tools/target/de/ (tools/target/gen.js de)",
+  "sha256_16": "b2f4111ef7a976e2"
+ }
+}

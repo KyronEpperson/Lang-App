@@ -1,0 +1,951 @@
+{"id":"id.c0001","meaning":"pretty","note":"c always sounds like ch in \"church\": never \"kantik\"."}
+{"id":"id.c0002","meaning":"delicious","note":"The strong e (eh). The spelling does not show it: learn it with the word."}
+{"id":"id.c0003","meaning":"big","note":"The weak e (uh). It is never the stressed syllable, so the lift moves to sar."}
+{"id":"id.c0004","meaning":"not; no","note":"A final k is a catch in the throat, as in \"uh-oh\". Do not pop the k."}
+{"id":"id.c0005","meaning":"to sing","note":"ny as in \"canyon\", even at the start of a word."}
+{"id":"id.c0006","meaning":"hot coffee","note":"The noun comes first: kopi, then panas. Keep both a's short and open, like \"ah\"."}
+{"id":"id.c0007","meaning":"sleepy","note":"ng as in \"singer\", even at the start of a word: never \"nantuk\"."}
+{"id":"id.c0008","meaning":"mango","note":"ngg is ng plus a hard g: MAHNG-gah."}
+{"id":"id.c0009","meaning":"flower","note":"A plain ng with no g after it: BOO-ngah, not \"boong-gah\"."}
+{"id":"id.c0010","meaning":"society; the public","note":"sy sounds like English sh."}
+{"id":"id.c0011","meaning":"special","note":"kh is a breathy k, made further back in the throat."}
+{"id":"id.c0012","meaning":"house","note":"A final h is breathed out softly. Don't drop it: rumah, not \"ruma\"."}
+{"id":"id.c0013","meaning":"satay","note":"An e at the end of a word is the strong e (eh): SAH-teh."}
+{"id":"id.c0014","meaning":"beach","note":"ai at the end of a word is one sound, as in \"Thai\"."}
+{"id":"id.c0015","meaning":"island","note":"au at the end of a word sounds like \"ow\" in \"how\"."}
+{"id":"id.c0016","meaning":"good; fine","note":"Before a final consonant the vowels stay apart: BAH-eeq, two syllables."}
+{"id":"id.c0017","meaning":"orange (the fruit)","note":"j as in \"jam\"; tap or roll the r; the final k is a catch."}
+{"id":"id.c0018","meaning":"bicycle","note":"Both e's in one word: the weak e first, then the strong e."}
+{"id":"id.c0019","meaning":"Good morning.","note":"Until about 11 a.m. Then selamat siang."}
+{"id":"id.c0020","meaning":"Good day. (around midday)","note":"From about 11 a.m. to 3 p.m."}
+{"id":"id.c0021","meaning":"Good afternoon.","note":"From about 3 p.m. until dark. After dark: selamat malam."}
+{"id":"id.c0022","meaning":"Good evening.","note":"After dark."}
+{"id":"id.c0023","meaning":"Good morning, sir.","note":"Add Pak for an older man, Bu for a woman. A bare greeting can sound cold."}
+{"id":"id.c0024","meaning":"How are you?","note":"Literally \"what news?\". Answer: Baik, terima kasih."}
+{"id":"id.c0025","meaning":"Fine, thank you.","note":"The usual answer to Apa kabar?"}
+{"id":"id.c0026","meaning":"Thank you.","note":"The reply is Sama-sama (You're welcome)."}
+{"id":"id.c0027","meaning":"Thank you very much.","note":"banyak (a lot) goes at the end."}
+{"id":"id.c0028","meaning":"You're welcome.","note":"Only as a reply to thanks. It never means \"same to you\"."}
+{"id":"id.c0029","meaning":"Excuse me.","note":"To pass someone or get attention. To say sorry: Maaf."}
+{"id":"id.c0030","meaning":"Sorry.","note":"For a mistake or a bump. Two a's: say both, with a tiny catch between them."}
+{"id":"id.c0031","meaning":"That's OK. / No problem.","note":"The answer to Maaf. The hyphen is part of the spelling."}
+{"id":"id.c0032","meaning":"Sorry, I don't understand.","note":"tidak goes right before the verb."}
+{"id":"id.c0033","meaning":"Welcome.","note":"On signs and from shop staff as you walk in."}
+{"id":"id.c0034","meaning":"Goodbye. (said by the one leaving)","note":"Literally \"safe staying\": you wish well to the ones who stay."}
+{"id":"id.c0035","meaning":"Goodbye. (to the one leaving)","note":"Literally \"safe going\": you wish well to the one who goes."}
+{"id":"id.c0036","meaning":"See you.","note":"The everyday goodbye. Sampai jumpa lagi = See you again."}
+{"id":"id.c0037","meaning":"My name is Emma.","note":"Literally \"name my Emma\": the owner comes after the noun, and there is no word for \"is\"."}
+{"id":"id.c0038","meaning":"I'm from the US.","note":"No word for \"am\". Amerika usually means the United States."}
+{"id":"id.c0039","meaning":"I'm American.","note":"orang (person) + country = nationality."}
+{"id":"id.c0040","meaning":"I live in Jakarta.","note":"di = in or at a place."}
+{"id":"id.c0041","meaning":"I speak a little Indonesian.","note":"bisa (can) + a language = speak it."}
+{"id":"id.c0042","meaning":"I speak English.","note":"Inggris = English (and England)."}
+{"id":"id.c0043","meaning":"Do you speak English?","note":"A rising voice makes it a question. Add Pak, Bu, Mas or Mbak."}
+{"id":"id.c0044","meaning":"Could you speak more slowly?","note":"lebih pelan = more slowly."}
+{"id":"id.c0045","meaning":"I'm thirty years old.","note":"Literally \"my age thirty years\". Not Saya punya tiga puluh tahun."}
+{"id":"id.c0046","meaning":"Nice to meet you.","note":"Said once names have been swapped."}
+{"id":"id.c0047","meaning":"Call me Emma.","note":"Handy when people try a longer or harder form of your name."}
+{"id":"id.c0048","meaning":"And you? (formal)","note":"To ask the same question back. To a friend: Kalau kamu?"}
+{"id":"id.c0049","meaning":"I work as a teacher.","note":"sebagai = as. bekerja = to work."}
+{"id":"id.c0050","meaning":"I'm here on vacation.","note":"No word for \"am\": Saya di sini is the whole \"I'm here\"."}
+{"id":"id.c0051","meaning":"I've just started learning Indonesian.","note":"baru = just, only recently."}
+{"id":"id.c0052","meaning":"How long have you been in Indonesia?","note":"People ask this a lot. Add Pak, Bu or a name for \"you\"."}
+{"id":"id.c0053","meaning":"Only a week so far.","note":"baru here = only, so far."}
+{"id":"id.c0054","meaning":"sir; Mr.; father","note":"The polite \"you\" for a man older than you or in a formal role. Short form: Pak."}
+{"id":"id.c0055","meaning":"ma'am; Mrs.; mother","note":"The polite \"you\" for a woman older than you or in a formal role. Short form: Bu."}
+{"id":"id.c0056","meaning":"you (to a young man)","note":"Everyday in Jakarta and Java for a waiter, a driver or a young man. It also means older brother."}
+{"id":"id.c0057","meaning":"you (to a young woman)","note":"Everyday in Jakarta and Java for a shop assistant or a young woman. It also means older sister."}
+{"id":"id.c0058","meaning":"Mr. Budi","note":"The title goes before the name: Pak Budi, Bu Sari. People often use it in place of \"you\"."}
+{"id":"id.c0059","meaning":"you (to a friend or a child)","note":"Only with friends, people your age and children. Never to an older stranger."}
+{"id":"id.c0060","meaning":"he; she","note":"One word for both: Indonesian does not mark he or she."}
+{"id":"id.c0061","meaning":"we (not you)","note":"Leaves the listener out: Kami dari Amerika = my friends and I are from the US."}
+{"id":"id.c0062","meaning":"we (you and me)","note":"Takes the listener in: Ayo kita makan = let's eat, you and me."}
+{"id":"id.c0063","meaning":"my older brother or sister","note":"kakak names the age, not the sex: kakak perempuan = older sister."}
+{"id":"id.c0064","meaning":"my younger brother or sister","note":"adik names the age, not the sex: adik laki-laki = younger brother."}
+{"id":"id.c0065","meaning":"my parents","note":"Literally \"people old my\": orang tua = parents."}
+{"id":"id.c0066","meaning":"my husband","note":"The owner comes after the noun."}
+{"id":"id.c0067","meaning":"my wife","note":"The owner comes after the noun."}
+{"id":"id.c0068","meaning":"children; kids","note":"The hyphen is part of the spelling. One child: anak."}
+{"id":"id.c0069","meaning":"two children","note":"Numbers go before the noun, and the noun is not repeated: not dua anak-anak."}
+{"id":"id.c0070","meaning":"grandpa and grandma","note":"Both words end in the strong e and a catch: KAH-kehq, NEH-nehq."}
+{"id":"id.c0071","meaning":"Are you married?","note":"Answer Sudah (yes) or Belum (not yet), not Tidak. Add Pak or Bu."}
+{"id":"id.c0072","meaning":"one, two, three","note":""}
+{"id":"id.c0073","meaning":"four, five, six","note":"Both e's here are weak (uh)."}
+{"id":"id.c0074","meaning":"seven, eight, nine","note":"Breathe out the final h of tujuh."}
+{"id":"id.c0075","meaning":"ten","note":"se- means one: \"one ten\"."}
+{"id":"id.c0076","meaning":"eleven","note":"se- means one: sebelas 11, seratus 100, seribu 1,000."}
+{"id":"id.c0077","meaning":"twelve","note":"belas = -teen: dua belas 12, tiga belas 13."}
+{"id":"id.c0078","meaning":"twenty-five","note":"puluh = ten(s): dua puluh = 20."}
+{"id":"id.c0079","meaning":"one hundred","note":"Not satu ratus."}
+{"id":"id.c0080","meaning":"one thousand","note":"Not satu ribu."}
+{"id":"id.c0081","meaning":"5,000 rupiah","note":"ribu = thousand. Written Rp5.000: a dot, not a comma, for thousands."}
+{"id":"id.c0082","meaning":"fifty thousand","note":"A very common bill: Rp50.000."}
+{"id":"id.c0083","meaning":"200,000 rupiah","note":"Written Rp200.000."}
+{"id":"id.c0084","meaning":"one million","note":"Prices run into the millions: Rp1.000.000."}
+{"id":"id.c0085","meaning":"How much is it?","note":"harga = price; -nya = \"its\" or \"the\"."}
+{"id":"id.c0086","meaning":"How much is it all together?","note":"semua = all. Heard at the checkout or the end of a meal."}
+{"id":"id.c0087","meaning":"Do you have small bills?","note":"Literally \"is there small money?\". Small sellers often can't break a big bill."}
+{"id":"id.c0088","meaning":"Can I pay by card?","note":"pakai = with, using."}
+{"id":"id.c0089","meaning":"my phone number","note":"The owner comes last. Zero in a phone number: nol, often said kosong."}
+{"id":"id.c0090","meaning":"What time is it?","note":"Literally \"hour how-many now?\"."}
+{"id":"id.c0091","meaning":"three o'clock","note":"jam before the number = o'clock. tiga jam = three hours."}
+{"id":"id.c0092","meaning":"three hours","note":"The number before jam = how long. For the clock time: jam tiga."}
+{"id":"id.c0093","meaning":"seven in the morning","note":"pagi, siang, sore and malam go after the hour, in place of a.m. and p.m."}
+{"id":"id.c0094","meaning":"half past two","note":"Literally \"half three\": half way to three. Not 3:30."}
+{"id":"id.c0095","meaning":"ten past two","note":"lewat = past. The e of lewat is strong (eh)."}
+{"id":"id.c0096","meaning":"quarter to five","note":"kurang = less: \"five less a quarter\"."}
+{"id":"id.c0097","meaning":"today","note":"ini after the noun: \"this day\"."}
+{"id":"id.c0098","meaning":"yesterday","note":"besok = tomorrow; hari ini = today."}
+{"id":"id.c0099","meaning":"tomorrow","note":"The e is strong (eh). The day after tomorrow: lusa."}
+{"id":"id.c0100","meaning":"next week","note":"depan = front: \"the week in front\"."}
+{"id":"id.c0101","meaning":"Monday","note":"Days usually take hari (day) in front."}
+{"id":"id.c0102","meaning":"Friday","note":"Spelled Jumat, with no apostrophe."}
+{"id":"id.c0103","meaning":"Sunday","note":"minggu alone also means week."}
+{"id":"id.c0104","meaning":"What day is it today?","note":"Literally \"today day what?\"."}
+{"id":"id.c0105","meaning":"What's the date today?","note":"tanggal = date (day of the month)."}
+{"id":"id.c0106","meaning":"August 17","note":"Day before month. August 17 is Independence Day."}
+{"id":"id.c0107","meaning":"Wait a moment.","note":"sebentar = a short while. Add Pak, Bu or ya to soften it."}
+{"id":"id.c0108","meaning":"What would you like to order, ma'am?","note":"What staff say to a woman customer. To a man: Pak."}
+{"id":"id.c0109","meaning":"One fried rice, please.","note":"minta = may I have. The number can follow the dish when you order."}
+{"id":"id.c0110","meaning":"fried rice","note":"The noun comes first: nasi (rice), then goreng (fried)."}
+{"id":"id.c0111","meaning":"fried noodles","note":"mi (noodles) first, then goreng (fried)."}
+{"id":"id.c0112","meaning":"chicken satay","note":"sate first, then what it's made of: ayam (chicken)."}
+{"id":"id.c0113","meaning":"sweet iced tea","note":"es teh (iced tea), then manis (sweet). Without sugar: es teh tawar."}
+{"id":"id.c0114","meaning":"coffee with milk","note":"Literally \"coffee milk\": the main noun comes first."}
+{"id":"id.c0115","meaning":"avocado juice","note":"Often made with chocolate syrup on top."}
+{"id":"id.c0116","meaning":"Some drinking water, please.","note":"air putih = drinking water (literally \"white water\"). minta = may I have."}
+{"id":"id.c0117","meaning":"No chili sauce, please.","note":"pakai = with, using. Not spicy: tidak pedas."}
+{"id":"id.c0118","meaning":"Not too spicy, please.","note":"terlalu = too. ya at the end softens the request."}
+{"id":"id.c0119","meaning":"I don't eat meat.","note":"tidak goes before the verb."}
+{"id":"id.c0120","meaning":"For here or to go?","note":"Literally \"eat here or wrapped?\"."}
+{"id":"id.c0121","meaning":"To go, please.","note":"Literally \"wrapped\". For here: Makan di sini."}
+{"id":"id.c0122","meaning":"really delicious","note":"sekali after the adjective = very."}
+{"id":"id.c0123","meaning":"Have you eaten?","note":"A friendly everyday question that shows you care. Answer: Sudah or Belum."}
+{"id":"id.c0124","meaning":"Please, help yourself.","note":"silakan = please, go ahead: the host invites you to eat."}
+{"id":"id.c0125","meaning":"Can I have the check, please?","note":"To a young waitress: Mbak. To a young waiter: Mas."}
+{"id":"id.c0126","meaning":"How much is this?","note":"At a market or a warung."}
+{"id":"id.c0127","meaning":"What's this?","note":"Literally \"this what?\". The question word can stay at the end."}
+{"id":"id.c0128","meaning":"this bag","note":"ini after the noun = this. Ini tas = This is a bag."}
+{"id":"id.c0129","meaning":"This one.","note":"yang ini = \"the one that is this\"."}
+{"id":"id.c0130","meaning":"That one.","note":"itu = that, for something further away."}
+{"id":"id.c0131","meaning":"red top; red shirt","note":"Colors come after the noun."}
+{"id":"id.c0132","meaning":"Do you have another color?","note":"Literally \"is there another color?\". lain = other, after the noun."}
+{"id":"id.c0133","meaning":"Do you have a bigger size?","note":"lebih = more: lebih besar = bigger."}
+{"id":"id.c0134","meaning":"Is there a cheaper one?","note":"Keep the final h of murah."}
+{"id":"id.c0135","meaning":"the cheapest","note":"paling before the adjective = most."}
+{"id":"id.c0136","meaning":"Can I try it on?","note":"Literally \"may (it) be tried?\"."}
+{"id":"id.c0137","meaning":"It's too expensive.","note":"terlalu = too. No word for \"it is\"."}
+{"id":"id.c0138","meaning":"Can you lower the price?","note":"The everyday way to bargain at a market. Not in shops with price tags."}
+{"id":"id.c0139","meaning":"Would you take fifty thousand?","note":"A counteroffer. Smile: bargaining is friendly."}
+{"id":"id.c0140","meaning":"It's cheaper at the market.","note":"lebih (more) before the adjective; no word for \"it's\"."}
+{"id":"id.c0141","meaning":"fixed price","note":"The seller's way of saying no more bargaining."}
+{"id":"id.c0142","meaning":"I'll take this one.","note":"ambil = take."}
+{"id":"id.c0143","meaning":"I'm just looking.","note":"Literally \"I look-look first\". Polite in any shop."}
+{"id":"id.c0144","meaning":"my house; my home","note":"The owner comes after the noun."}
+{"id":"id.c0145","meaning":"my room","note":"The owner comes after the noun: kamar (room) saya (my)."}
+{"id":"id.c0146","meaning":"his or her house; the house","note":"-nya = his, her, its, or \"the\"."}
+{"id":"id.c0147","meaning":"bedroom","note":"Literally \"room sleep\": the main noun first."}
+{"id":"id.c0148","meaning":"bathroom","note":"Literally \"bathing room\"."}
+{"id":"id.c0149","meaning":"kitchen","note":""}
+{"id":"id.c0150","meaning":"I have two cats.","note":"punya = have, own. The number goes before the noun."}
+{"id":"id.c0151","meaning":"I get up at six.","note":"No word for \"at\" before a time in everyday speech."}
+{"id":"id.c0152","meaning":"I've already showered.","note":"mandi = wash yourself, shower. sudah = already."}
+{"id":"id.c0153","meaning":"I have breakfast at seven.","note":"sarapan = (to have) breakfast."}
+{"id":"id.c0154","meaning":"I leave for work at eight.","note":"berangkat = set off, leave."}
+{"id":"id.c0155","meaning":"I get home at five p.m.","note":"pulang = go home, come home."}
+{"id":"id.c0156","meaning":"I go to bed at ten p.m.","note":"malam after the hour = at night."}
+{"id":"id.c0157","meaning":"I'm cooking (right now).","note":"sedang = in the middle of. The verb itself never changes."}
+{"id":"id.c0158","meaning":"I haven't eaten yet.","note":"belum = not yet. The verb doesn't change."}
+{"id":"id.c0159","meaning":"I'm still at home.","note":"masih = still. No word for \"am\"."}
+{"id":"id.c0160","meaning":"I went to the market earlier.","note":"tadi = earlier today. ke + place, with no verb for \"go\"."}
+{"id":"id.c0161","meaning":"I'll wash the dishes.","note":"akan = will. The verb itself does not change."}
+{"id":"id.c0162","meaning":"Where is the station?","note":"Literally \"at where station?\". No word for \"is\"."}
+{"id":"id.c0163","meaning":"Is there a pharmacy near here?","note":"ada = there is. A yes / no question needs only a rising voice."}
+{"id":"id.c0164","meaning":"turn left","note":"kanan = right. belok has the strong e."}
+{"id":"id.c0165","meaning":"go straight","note":"saja = just."}
+{"id":"id.c0166","meaning":"intersection","note":"Literally \"four-way\". A T-junction: pertigaan."}
+{"id":"id.c0167","meaning":"turn right","note":"Easy to mix up: kiri = left, kanan = right."}
+{"id":"id.c0168","meaning":"T-junction","note":"Literally \"three-way\". Drivers give directions by junctions, not by blocks."}
+{"id":"id.c0169","meaning":"traffic light","note":"Literally \"red light\", but it names the whole traffic light: belok kiri di lampu merah."}
+{"id":"id.c0170","meaning":"Excuse me, where's the restroom?","note":"kamar kecil = \"small room\". On signs: toilet or WC."}
+{"id":"id.c0171","meaning":"across the street","note":"jalan = street or road (and also \"walk\")."}
+{"id":"id.c0172","meaning":"on the left","note":"di sebelah kanan = on the right."}
+{"id":"id.c0173","meaning":"in front of the mosque","note":"di depan = in front of. Mosques make handy landmarks."}
+{"id":"id.c0174","meaning":"Is it far from here?","note":"dari = from. A rising voice makes it a question."}
+{"id":"id.c0175","meaning":"It's not far.","note":"tidak goes before a describing word: tidak jauh, tidak dekat."}
+{"id":"id.c0176","meaning":"There isn't one.","note":"The everyday answer to an Ada…? question."}
+{"id":"id.c0177","meaning":"I'm lost.","note":"Say it with a title: Maaf, Pak, saya tersesat."}
+{"id":"id.c0178","meaning":"post office","note":"The main noun first: kantor (office), then pos (post)."}
+{"id":"id.c0179","meaning":"Where's the market?","note":"The question word can go at the end: Pasar di mana? or Di mana pasar?"}
+{"id":"id.c0180","meaning":"I want to go to Bali.","note":"ke = to a place. After mau, no word for \"go\" is needed."}
+{"id":"id.c0181","meaning":"take a motorbike taxi","note":"naik = ride, get on. Booked by app or found on the street."}
+{"id":"id.c0182","meaning":"plane ticket","note":"The main noun first: tiket (ticket), then pesawat (plane)."}
+{"id":"id.c0183","meaning":"What time does the train leave?","note":"keretanya = the train. berangkat = leave, depart."}
+{"id":"id.c0184","meaning":"airport","note":"Short for bandar udara."}
+{"id":"id.c0185","meaning":"Where to, ma'am?","note":"What a driver asks an older woman. To a man: Ke mana, Pak?"}
+{"id":"id.c0186","meaning":"Stop here, please.","note":"To an older driver: Pak. To a young one: Mas."}
+{"id":"id.c0187","meaning":"take the train","note":"kereta = train. A car is mobil."}
+{"id":"id.c0188","meaning":"One ticket to Bandung.","note":"ke = to. The number goes before the noun: satu tiket."}
+{"id":"id.c0189","meaning":"from the airport to the hotel","note":"dari = from, ke = to. hotel has the strong e."}
+{"id":"id.c0190","meaning":"Do you have a room available?","note":"Literally \"is there an empty room?\". ada also means \"have\"."}
+{"id":"id.c0191","meaning":"for two nights","note":"malam = night. A hotel stay is counted in nights."}
+{"id":"id.c0192","meaning":"The room is already booked.","note":"dipesan is a di- verb (is booked), written as one word."}
+{"id":"id.c0193","meaning":"The tickets are bought at the station.","note":"dibeli is one word (a di- verb); di stasiun is two (di + place)."}
+{"id":"id.c0194","meaning":"The train is late.","note":"No word for \"is\". terlambat = late."}
+{"id":"id.c0195","meaning":"Do you use the meter? (to an older driver)","note":"argo = taxi meter. Ask before the ride starts."}
+{"id":"id.c0196","meaning":"my passport","note":"The owner comes after the noun."}
+{"id":"id.c0197","meaning":"How long does it take to get there?","note":"berapa lama = how long. ke sana = (to) there."}
+{"id":"id.c0198","meaning":"I'm sick.","note":"No word for \"am\"."}
+{"id":"id.c0199","meaning":"I have a headache.","note":"Literally \"my head (is) sick\"."}
+{"id":"id.c0200","meaning":"Help!","note":"Also \"please\" before a verb: Tolong bantu saya."}
+{"id":"id.c0201","meaning":"I have to go to the doctor.","note":"harus = must. ke + place, with no verb for \"go\"."}
+{"id":"id.c0202","meaning":"pharmacy","note":"The e is strong (eh)."}
+{"id":"id.c0203","meaning":"I have a stomachache.","note":"Literally \"my stomach (is) sick\". Any body part works: gigi saya sakit (toothache)."}
+{"id":"id.c0204","meaning":"I have a fever.","note":"No verb for \"have\" here: demam works like a describing word."}
+{"id":"id.c0205","meaning":"I feel dizzy.","note":"Also used for a light headache."}
+{"id":"id.c0206","meaning":"Please help me.","note":"tolong + verb = please do something. To an older man add Pak."}
+{"id":"id.c0207","meaning":"hospital","note":"Literally \"sick house\". A local clinic: puskesmas."}
+{"id":"id.c0208","meaning":"headache medicine","note":"obat (medicine) comes first, then what it is for."}
+{"id":"id.c0209","meaning":"Do you have cough medicine?","note":"At the pharmacy. ada = have, there is."}
+{"id":"id.c0210","meaning":"I'm allergic to peanuts.","note":"kacang = nuts or beans; peanuts specifically: kacang tanah."}
+{"id":"id.c0211","meaning":"Be careful!","note":"Also a kind goodbye: Hati-hati di jalan (take care on the road)."}
+{"id":"id.c0212","meaning":"I lost my wallet.","note":"kehilangan = to lose (something). The verb does not change for the past."}
+{"id":"id.c0213","meaning":"Could you call a doctor, please?","note":"bisa tolong + verb = could you please. Add a title: Pak, Bu, Mas or Mbak."}
+{"id":"id.c0214","meaning":"May I sit here?","note":"boleh = may (permission). bisa = can (ability)."}
+{"id":"id.c0215","meaning":"I need to rest.","note":"perlu = need. It goes straight before the verb, with no \"to\"."}
+{"id":"id.c0216","meaning":"I work in an office.","note":"bekerja is a ber- verb (be- before k-er)."}
+{"id":"id.c0217","meaning":"I'm a college student.","note":"No word for \"am\", and no \"a\" needed. A school pupil: murid or pelajar."}
+{"id":"id.c0218","meaning":"coworker","note":"Literally \"office friend\"."}
+{"id":"id.c0219","meaning":"I'm learning Indonesian.","note":"belajar = study, learn."}
+{"id":"id.c0220","meaning":"meeting","note":"At work. A date or a casual meetup: ketemuan."}
+{"id":"id.c0221","meaning":"read a book","note":"baca → membaca: mem- before b."}
+{"id":"id.c0222","meaning":"write a letter","note":"tulis → menulis: the t drops after men-."}
+{"id":"id.c0223","meaning":"send a message","note":"kirim → mengirim: the k drops after meng-."}
+{"id":"id.c0224","meaning":"do an assignment","note":"kerja → mengerjakan. tugas = task, homework, assignment."}
+{"id":"id.c0225","meaning":"finish the report","note":"selesai → menyelesaikan: the s drops and meny- takes its place."}
+{"id":"id.c0226","meaning":"look at the schedule","note":"lihat → melihat: plain me- before l."}
+{"id":"id.c0227","meaning":"Where do you work? (to an older man)","note":"Use a title, not kamu, with an older colleague. To a woman: Ibu."}
+{"id":"id.c0228","meaning":"I'm an English teacher.","note":"No word for \"am\". guru (teacher) comes first, then what is taught."}
+{"id":"id.c0229","meaning":"working hours","note":"The noun comes first: jam (hours), then kerja (work)."}
+{"id":"id.c0230","meaning":"I'm busy right now.","note":"sedang = in the middle of. No word for \"am\"."}
+{"id":"id.c0231","meaning":"There's an exam tomorrow.","note":"ada = there is. Time words like besok often start the sentence."}
+{"id":"id.c0232","meaning":"my professor","note":"dosen = college lecturer. A school teacher: guru."}
+{"id":"id.c0233","meaning":"I'm looking for work.","note":"cari → mencari. In writing: mencari pekerjaan."}
+{"id":"id.c0234","meaning":"a big house","note":"The describing word comes after the noun."}
+{"id":"id.c0235","meaning":"My house is big.","note":"Owner after the noun, adjective at the end, no word for \"is\"."}
+{"id":"id.c0236","meaning":"the tall person","note":"yang = \"who is / which is\"."}
+{"id":"id.c0237","meaning":"a new car","note":"Not baru mobil."}
+{"id":"id.c0238","meaning":"very pretty","note":"sangat before the adjective; sekali after it: cantik sekali."}
+{"id":"id.c0239","meaning":"a black bag","note":"Colors come after the noun, like every describing word."}
+{"id":"id.c0240","meaning":"white shoes","note":"sepatu = shoe or shoes: no plural needed."}
+{"id":"id.c0241","meaning":"long hair","note":"panjang = long (length). Long in time: lama."}
+{"id":"id.c0242","meaning":"that big house","note":"itu goes at the very end of the phrase."}
+{"id":"id.c0243","meaning":"That house is big.","note":"The adjective after itu makes a sentence. Compare rumah besar itu (that big house)."}
+{"id":"id.c0244","meaning":"He's handsome.","note":"ganteng for men; cantik for women. dia = he or she."}
+{"id":"id.c0245","meaning":"Indonesians are friendly.","note":"Literally \"people Indonesia friendly\". No word for \"are\"."}
+{"id":"id.c0246","meaning":"That book is thick.","note":"tebal = thick; thin: tipis."}
+{"id":"id.c0247","meaning":"the blue one","note":"yang + a color = \"the … one\". Handy when pointing at things."}
+{"id":"id.c0248","meaning":"the book I bought","note":"yang links a whole phrase to the noun: \"the book that I bought\"."}
+{"id":"id.c0249","meaning":"She's still young.","note":"masih = still. Old (people): tua. But orang tua = parents."}
+{"id":"id.c0250","meaning":"My cat is fat.","note":"gemuk = fat, chubby. Thin: kurus."}
+{"id":"id.c0251","meaning":"a smart kid","note":"pintar = smart, clever. A one-word describer needs no yang."}
+{"id":"id.c0252","meaning":"I'm hungry.","note":"Not Saya adalah lapar: adjectives take no verb."}
+{"id":"id.c0253","meaning":"I'm tired.","note":"Everyday word. In writing: lelah."}
+{"id":"id.c0254","meaning":"I'm happy.","note":"Also: glad, pleased."}
+{"id":"id.c0255","meaning":"I like swimming.","note":"berenang is a ber- verb: swim."}
+{"id":"id.c0256","meaning":"play soccer","note":"Everyday speech. Careful form: bermain sepak bola."}
+{"id":"id.c0257","meaning":"I'm thirsty.","note":"No word for \"am\": haus is the whole predicate."}
+{"id":"id.c0258","meaning":"I'm sad.","note":"sedih starts with the weak e (uh)."}
+{"id":"id.c0259","meaning":"I'm bored.","note":"Also: fed up with something."}
+{"id":"id.c0260","meaning":"He's angry.","note":"dia = he or she; the context tells you which."}
+{"id":"id.c0261","meaning":"I'm scared.","note":"Afraid of something: takut + the thing (takut anjing, afraid of dogs)."}
+{"id":"id.c0262","meaning":"I'm worried.","note":"kh is a breathy k. Don't worry (to a friend): Jangan khawatir."}
+{"id":"id.c0263","meaning":"I miss my family.","note":"Everyday speech also says kangen."}
+{"id":"id.c0264","meaning":"What's your hobby? (to a friend)","note":"To an older person: Apa hobi Bapak? or Apa hobi Ibu?"}
+{"id":"id.c0265","meaning":"I like reading.","note":"suka + a verb = like doing it."}
+{"id":"id.c0266","meaning":"play the guitar","note":"bermain = play (a ber- verb). In speech often just main."}
+{"id":"id.c0267","meaning":"watch a movie","note":"Also: menonton TV. In speech: nonton."}
+{"id":"id.c0268","meaning":"Do you want to go out? (to a friend)","note":"jalan-jalan = go out for fun, stroll, travel."}
+{"id":"id.c0269","meaning":"I exercise every morning.","note":"berolahraga is a ber- verb from olahraga (sport)."}
+{"id":"id.c0270","meaning":"What's your name?","note":"siapa (who), not apa (what): names are asked with \"who\"."}
+{"id":"id.c0271","meaning":"Where are you from?","note":"Literally \"from where?\". Also: where are you coming from?"}
+{"id":"id.c0272","meaning":"When?","note":"Kapan pulang? = When are you going home?"}
+{"id":"id.c0273","meaning":"because","note":"The e is weak (uh)."}
+{"id":"id.c0274","meaning":"but","note":"Everyday: tapi."}
+{"id":"id.c0275","meaning":"What does it mean?","note":"apa = what. artinya = its meaning. Point at a word and ask."}
+{"id":"id.c0276","meaning":"Why?","note":"Careful speech and writing: mengapa."}
+{"id":"id.c0277","meaning":"How do you do it?","note":"bagaimana = how. caranya = the way (of doing it)."}
+{"id":"id.c0278","meaning":"Which one?","note":"The answer: yang ini (this one) or yang itu (that one)."}
+{"id":"id.c0279","meaning":"How many people?","note":"berapa = how many or how much. The noun comes after it."}
+{"id":"id.c0280","meaning":"Whose car is this?","note":"Whose = noun + siapa: mobil siapa, never siapa mobil."}
+{"id":"id.c0281","meaning":"Where do you live? (to a friend)","note":"The question word can stay where the answer goes."}
+{"id":"id.c0282","meaning":"Where are you going?","note":"ke mana for movement. Not di mana. Also a friendly greeting."}
+{"id":"id.c0283","meaning":"Tea or coffee?","note":"atau = or."}
+{"id":"id.c0284","meaning":"then; and then","note":"For steps in order: lurus, lalu belok kiri."}
+{"id":"id.c0285","meaning":"so","note":"Starts a result: Jadi, kita pergi besok."}
+{"id":"id.c0286","meaning":"if","note":"Kalau hujan, saya di rumah saja = If it rains, I'll just stay home."}
+{"id":"id.c0287","meaning":"Me too.","note":"juga = also, too. It comes after the word it adds to."}
+{"id":"id.c0288","meaning":"water","note":"Two syllables, ah-eer. The air you breathe is udara."}
+{"id":"id.c0289","meaning":"alley; narrow lane","note":"Not a gang of people."}
+{"id":"id.c0290","meaning":"classroom; grade","note":"Also class. Kelas tiga = third grade."}
+{"id":"id.c0291","meaning":"I'm not a teacher.","note":"bukan before a noun. Before a verb or adjective: tidak."}
+{"id":"id.c0292","meaning":"Not yet.","note":"The polite answer to Sudah menikah? (Are you married?), not Tidak."}
+{"id":"id.c0293","meaning":"rented room; boarding house","note":"Nothing to do with cost. Anak kos = a student renting a room."}
+{"id":"id.c0294","meaning":"plain T-shirt","note":"Not an oblong shape. Also spelled kaos. People often just say kaus or kaos."}
+{"id":"id.c0295","meaning":"lace (fabric)","note":"A false friend: it looks like an English word but means lace."}
+{"id":"id.c0296","meaning":"head","note":"Easy to swap with kelapa (coconut). Kepala saya = my head."}
+{"id":"id.c0297","meaning":"coconut","note":"Easy to swap with kepala (head). Coconut water: air kelapa."}
+{"id":"id.c0298","meaning":"spirit; \"go for it!\"","note":"Said to cheer someone on: Semangat! Not to be confused with semangka."}
+{"id":"id.c0299","meaning":"watermelon","note":"Sounds close to semangat (spirit)."}
+{"id":"id.c0300","meaning":"I'm not hungry.","note":"tidak before an adjective or a verb, never bukan."}
+{"id":"id.c0301","meaning":"Don't go!","note":"\"Don't\" in a command is jangan, not tidak."}
+{"id":"id.c0302","meaning":"What's your name? (to a friend)","note":"Names take siapa (who), never apa. -mu = your."}
+{"id":"id.c0303","meaning":"How old are you? (formal)","note":"The answer: Umur saya … tahun. Never Saya punya … tahun."}
+{"id":"id.c0304","meaning":"I want to go.","note":"No word for \"to\" after mau: never Saya mau untuk pergi."}
+{"id":"id.c0305","meaning":"no; not (casual)","note":"Standard: tidak. Also spelled enggak."}
+{"id":"id.c0306","meaning":"already (casual)","note":"Standard: sudah."}
+{"id":"id.c0307","meaning":"how (casual)","note":"Standard: bagaimana."}
+{"id":"id.c0308","meaning":"just; only (casual)","note":"Standard: saja."}
+{"id":"id.c0309","meaning":"I; me (casual)","note":"With friends and family. Standard: saya."}
+{"id":"id.c0310","meaning":"Why, though? (casual)","note":"sih adds a curious or impatient tone. Without it: Kenapa? (careful: Mengapa?)"}
+{"id":"id.c0311","meaning":"so tired (casual)","note":"banget = very, after the word. Standard: capek sekali."}
+{"id":"id.c0312","meaning":"Come on! (casual)","note":"dong pushes a request or a point. Standard: Ayo!"}
+{"id":"id.c0313","meaning":"How come it's so expensive? (casual)","note":"kok = how come, with surprise. Standard: Mengapa mahal?"}
+{"id":"id.c0314","meaning":"Here, this is for you. (casual)","note":"nih = here you go (from ini); buat = for. Standard: Ini untuk kamu."}
+{"id":"id.c0315","meaning":"Okay, fine then. (casual)","note":"deh softens: okay, then. Standard: Baiklah."}
+{"id":"id.c0316","meaning":"Tell him (or her), okay? (casual)","note":"The -in ending replaces -kan or -i. Standard: Tolong beri tahu dia."}
+{"id":"id.c0317","meaning":"I; me (Jakarta slang)","note":"Jakarta, with friends your age only. Standard: saya."}
+{"id":"id.c0318","meaning":"you (Jakarta slang)","note":"Jakarta, with friends your age only. Never to elders or strangers. Standard: kamu or a title."}
+{"id":"id.c0319","meaning":"Thanks! (casual)","note":"Short for terima kasih. Standard: Terima kasih."}
+{"id":"id.c0320","meaning":"it's okay; no problem (casual)","note":"Standard: tidak apa-apa."}
+{"id":"id.c0321","meaning":"What are you up to? (casual)","note":"lagi = right now. Standard: Sedang apa?"}
+{"id":"id.c0322","meaning":"person; people","note":"No plural needed: banyak orang = lots of people. Also counts people: dua orang guru."}
+{"id":"id.c0323","meaning":"matter; thing (abstract)","note":"Not an object: hal penting = an important matter. An object: barang."}
+{"id":"id.c0324","meaning":"day","note":"hari ini = today; setiap hari = every day."}
+{"id":"id.c0325","meaning":"time","note":"Ada waktu? = Do you have time? Also \"when\" in speech: waktu saya kecil."}
+{"id":"id.c0326","meaning":"place","note":"tempat tidur = bed (literally \"sleeping place\")."}
+{"id":"id.c0327","meaning":"year","note":"tahun depan = next year; Umur saya tiga puluh tahun."}
+{"id":"id.c0328","meaning":"child; son or daughter","note":"anak saya = my child. With a number, no repeat: dua anak."}
+{"id":"id.c0329","meaning":"father","note":"Neutral and polite. At home many say bapak, papa or abah."}
+{"id":"id.c0330","meaning":"problem","note":"Tidak ada masalah = No problem."}
+{"id":"id.c0331","meaning":"man (formal)","note":"Signs, news and polite speech. Everyday: laki-laki."}
+{"id":"id.c0332","meaning":"woman (formal)","note":"Signs, news and polite speech. Everyday: perempuan."}
+{"id":"id.c0333","meaning":"way; method","note":"caranya = the way to do it: Bagaimana caranya?"}
+{"id":"id.c0334","meaning":"street; road","note":"Jalan Sudirman = Sudirman Street. jalan-jalan = to go out, stroll."}
+{"id":"id.c0335","meaning":"world","note":"di seluruh dunia = all over the world."}
+{"id":"id.c0336","meaning":"money","note":"Casual and slang: duit."}
+{"id":"id.c0337","meaning":"friend","note":"teman saya = my friend. Casual spelling and sound: temen."}
+{"id":"id.c0338","meaning":"girl; young woman","note":"Common in writing and songs. Casual: cewek."}
+{"id":"id.c0339","meaning":"hour; clock; watch","note":"jam tiga = three o'clock; tiga jam = three hours."}
+{"id":"id.c0340","meaning":"police; police officer","note":"False friend: \"policy\" is kebijakan."}
+{"id":"id.c0341","meaning":"name","note":"nama saya = my name: the owner comes after the noun."}
+{"id":"id.c0342","meaning":"city; town","note":"kota besar = a big city. Downtown: pusat kota."}
+{"id":"id.c0343","meaning":"car","note":"In Indonesia kereta is a train, not a car."}
+{"id":"id.c0344","meaning":"love","note":"Strong and romantic. Fond love for family or a partner: sayang."}
+{"id":"id.c0345","meaning":"taste; feeling","note":"Rasanya enak. = It tastes good."}
+{"id":"id.c0346","meaning":"human being","note":""}
+{"id":"id.c0347","meaning":"family","note":"keluarga saya = my family."}
+{"id":"id.c0348","meaning":"hand; arm","note":"Everyday speech uses tangan for the whole arm."}
+{"id":"id.c0349","meaning":"job; work (a task)","note":"Root kerja. Apa pekerjaan Anda? = What do you do? (formal)"}
+{"id":"id.c0350","meaning":"school","note":"ke sekolah = to school. The verb: bersekolah."}
+{"id":"id.c0351","meaning":"month; moon","note":"bulan depan = next month."}
+{"id":"id.c0352","meaning":"door","note":"Tolong tutup pintunya. = Please close the door."}
+{"id":"id.c0353","meaning":"heart (feelings)","note":"Feelings live in the hati: sakit hati = hurt feelings. The organ that pumps is jantung."}
+{"id":"id.c0354","meaning":"chance; opportunity","note":"Root sempat. Ini kesempatan bagus."}
+{"id":"id.c0355","meaning":"doctor","note":"ke dokter = to the doctor. In address: Dok."}
+{"id":"id.c0356","meaning":"work","note":"Casual: also the verb, Saya kerja di Jakarta. Careful: bekerja."}
+{"id":"id.c0357","meaning":"word","note":"Also \"says\": kata dia = he says, she says."}
+{"id":"id.c0358","meaning":"news (of someone)","note":"Apa kabar? = literally \"what news?\""}
+{"id":"id.c0359","meaning":"room","note":"kamar tidur = bedroom; kamar mandi = bathroom."}
+{"id":"id.c0360","meaning":"food","note":"Root makan. makanan Indonesia = Indonesian food."}
+{"id":"id.c0361","meaning":"book","note":"buku saya = my book."}
+{"id":"id.c0362","meaning":"phone; phone call","note":"A mobile phone is usually HP, said \"hah-peh\"."}
+{"id":"id.c0363","meaning":"question","note":"Root tanya. Ada pertanyaan? = Any questions?"}
+{"id":"id.c0364","meaning":"story","note":""}
+{"id":"id.c0365","meaning":"foot; leg","note":"Like tangan, one word for the whole limb."}
+{"id":"id.c0366","meaning":"country (nation)","note":"negara saya = my country."}
+{"id":"id.c0367","meaning":"dog","note":"Do not use anjing as an insult: it is very rude."}
+{"id":"id.c0368","meaning":"number","note":"nomor telepon = phone number."}
+{"id":"id.c0369","meaning":"airplane","note":"naik pesawat = to fly."}
+{"id":"id.c0370","meaning":"teacher","note":"Pak Guru, Bu Guru = sir, ma'am (to a teacher)."}
+{"id":"id.c0371","meaning":"movie","note":"nonton film = to watch a movie (casual)."}
+{"id":"id.c0372","meaning":"message; order (food)","note":"Also the root of memesan (to order)."}
+{"id":"id.c0373","meaning":"baby","note":""}
+{"id":"id.c0374","meaning":"language","note":"bahasa Indonesia = Indonesian (the language)."}
+{"id":"id.c0375","meaning":"office","note":"di kantor = at the office."}
+{"id":"id.c0376","meaning":"man; male","note":"Everyday. Formal: pria. Casual: cowok."}
+{"id":"id.c0377","meaning":"sea","note":"Two syllables: lah-oot."}
+{"id":"id.c0378","meaning":"woman; female","note":"The everyday neutral word. Formal: wanita."}
+{"id":"id.c0379","meaning":"thing (object); goods","note":"barang saya = my things."}
+{"id":"id.c0380","meaning":"news (report)","note":"News of a person: kabar."}
+{"id":"id.c0381","meaning":"dream","note":"Also the verb \"to dream\": bermimpi."}
+{"id":"id.c0382","meaning":"thought; mind","note":"Root pikir."}
+{"id":"id.c0383","meaning":"song","note":"lagu Indonesia = an Indonesian song."}
+{"id":"id.c0384","meaning":"task; assignment; duty","note":""}
+{"id":"id.c0385","meaning":"medicine","note":"obat batuk = cough medicine."}
+{"id":"id.c0386","meaning":"gift; prize","note":""}
+{"id":"id.c0387","meaning":"key; lock","note":""}
+{"id":"id.c0388","meaning":"wife","note":"istri saya = my wife."}
+{"id":"id.c0389","meaning":"older brother or sister","note":"No word for sex: kakak laki-laki = older brother. Kak = you (to a young person)."}
+{"id":"id.c0390","meaning":"floor (of a building)","note":"lantai dua = the second floor."}
+{"id":"id.c0391","meaning":"music","note":""}
+{"id":"id.c0392","meaning":"train","note":"naik kereta = to take the train."}
+{"id":"id.c0393","meaning":"photo","note":"Fotonya bagus! = Nice photo!"}
+{"id":"id.c0394","meaning":"card","note":"kartu kredit = credit card."}
+{"id":"id.c0395","meaning":"feeling","note":"Root rasa."}
+{"id":"id.c0396","meaning":"event; plans; TV show","note":"Ada acara? = Do you have plans?"}
+{"id":"id.c0397","meaning":"sun","note":"Literally \"eye of the day\"."}
+{"id":"id.c0398","meaning":"store; shop","note":"toko buku = bookstore."}
+{"id":"id.c0399","meaning":"grandmother","note":"Also a polite way to address an old woman."}
+{"id":"id.c0400","meaning":"coffee","note":"kopi hitam = black coffee; kopi susu = coffee with milk."}
+{"id":"id.c0401","meaning":"meat","note":"daging sapi = beef."}
+{"id":"id.c0402","meaning":"drink; beverage","note":"Root minum."}
+{"id":"id.c0403","meaning":"table; desk","note":"di atas meja = on the table."}
+{"id":"id.c0404","meaning":"boyfriend; girlfriend","note":"Same word for both: pacar saya. Casual: cowok saya, cewek saya."}
+{"id":"id.c0405","meaning":"fish","note":"ikan bakar = grilled fish."}
+{"id":"id.c0406","meaning":"hotel","note":""}
+{"id":"id.c0407","meaning":"tree","note":""}
+{"id":"id.c0408","meaning":"answer","note":"Root jawab."}
+{"id":"id.c0409","meaning":"animal","note":"Also binatang."}
+{"id":"id.c0410","meaning":"clothes; top; shirt","note":"baju baru = new clothes."}
+{"id":"id.c0411","meaning":"guest","note":"Tamu adalah raja = the guest is king."}
+{"id":"id.c0412","meaning":"shoe; shoes","note":""}
+{"id":"id.c0413","meaning":"husband","note":"suami saya = my husband."}
+{"id":"id.c0414","meaning":"price","note":"harganya = the price."}
+{"id":"id.c0415","meaning":"river","note":""}
+{"id":"id.c0416","meaning":"rain","note":"Hujan. = It's raining. No word for \"it\"."}
+{"id":"id.c0417","meaning":"cat","note":""}
+{"id":"id.c0418","meaning":"bag","note":"tas saya = my bag."}
+{"id":"id.c0419","meaning":"village","note":"Also the countryside: di desa."}
+{"id":"id.c0420","meaning":"chair; seat","note":""}
+{"id":"id.c0421","meaning":"window","note":""}
+{"id":"id.c0422","meaning":"mountain","note":"gunung api = volcano."}
+{"id":"id.c0423","meaning":"grandfather","note":"Also a polite way to address an old man."}
+{"id":"id.c0424","meaning":"younger brother or sister","note":"adik perempuan = younger sister. Dik = you (to a younger person)."}
+{"id":"id.c0425","meaning":"chicken","note":"nasi ayam, sate ayam."}
+{"id":"id.c0426","meaning":"tea","note":"es teh = iced tea; teh panas = hot tea."}
+{"id":"id.c0427","meaning":"station","note":"stasiun kereta = train station."}
+{"id":"id.c0428","meaning":"fruit","note":"Also a counting word for things: sebuah."}
+{"id":"id.c0429","meaning":"ticket","note":""}
+{"id":"id.c0430","meaning":"bus","note":""}
+{"id":"id.c0431","meaning":"egg","note":""}
+{"id":"id.c0432","meaning":"body","note":"Badan saya sakit. = My body aches."}
+{"id":"id.c0433","meaning":"vacation; holiday","note":"Root libur (day off)."}
+{"id":"id.c0434","meaning":"market","note":"pasar pagi = morning market."}
+{"id":"id.c0435","meaning":"address","note":""}
+{"id":"id.c0436","meaning":"pupil; school student","note":"A college student: mahasiswa."}
+{"id":"id.c0437","meaning":"weather","note":"Cuacanya panas. = The weather is hot."}
+{"id":"id.c0438","meaning":"motorbike","note":"The usual way to get around. A motorbike taxi: ojek."}
+{"id":"id.c0439","meaning":"neighbor","note":""}
+{"id":"id.c0440","meaning":"college student","note":"A woman student is sometimes mahasiswi."}
+{"id":"id.c0441","meaning":"sugar","note":"Tidak pakai gula. = No sugar, please."}
+{"id":"id.c0442","meaning":"cooked rice","note":"Raw rice: beras; the plant in the field: padi."}
+{"id":"id.c0443","meaning":"vegetable; vegetable dish","note":"sayur-sayuran = vegetables in general."}
+{"id":"id.c0444","meaning":"birthday","note":"Selamat ulang tahun! = Happy birthday!"}
+{"id":"id.c0445","meaning":"can; to be able to","note":"Bisa bahasa Inggris? = Do you speak English?"}
+{"id":"id.c0446","meaning":"there is; to be (somewhere); to have","note":"Ada kopi? = Is there coffee? / Do you have coffee? Not adalah."}
+{"id":"id.c0447","meaning":"to know (a fact)","note":"Casual: tau. To know a person: kenal. (tahu is also tofu.)"}
+{"id":"id.c0448","meaning":"must; to have to","note":"Straight before the verb: Saya harus pergi."}
+{"id":"id.c0449","meaning":"is (linking two nouns)","note":"Careful speech and writing: Ibu kota Indonesia adalah Jakarta. Never before an adjective."}
+{"id":"id.c0450","meaning":"to want; to wish","note":"A little more careful than mau."}
+{"id":"id.c0451","meaning":"to go","note":"ke + place: pergi ke pasar."}
+{"id":"id.c0452","meaning":"to have; to own","note":"Saya punya dua kucing."}
+{"id":"id.c0453","meaning":"to do","note":"Root laku. Careful; everyday speech often uses bikin or leaves it out."}
+{"id":"id.c0454","meaning":"to want; to be about to","note":"Everyday: Saya mau kopi. No \"to\" before a verb: mau makan."}
+{"id":"id.c0455","meaning":"to return; to go back","note":"Casual: balik. Uang kembali = change (money)."}
+{"id":"id.c0456","meaning":"to come; to arrive","note":"Kapan datang? = When did you arrive?"}
+{"id":"id.c0457","meaning":"to become","note":"Casual: jadi."}
+{"id":"id.c0458","meaning":"to see; to look at","note":"Root lihat. Lihat! = Look! Casual: liat."}
+{"id":"id.c0459","meaning":"to happen","note":"Apa yang terjadi? = What happened?"}
+{"id":"id.c0460","meaning":"to say; to tell","note":"Everyday. Careful: berkata, mengatakan."}
+{"id":"id.c0461","meaning":"to go out; to leave (a place)","note":"Literally \"to the outside\"."}
+{"id":"id.c0462","meaning":"to make","note":"Root buat. Casual: bikin."}
+{"id":"id.c0463","meaning":"to die; to be dead (a battery)","note":"HP saya mati. = My phone is dead. Of a person, politely: meninggal."}
+{"id":"id.c0464","meaning":"to get; to receive","note":"Root dapat. Also mendapatkan."}
+{"id":"id.c0465","meaning":"to say (careful)","note":"Root kata. In speech: bilang."}
+{"id":"id.c0466","meaning":"to live; to be alive","note":"Also \"life\": hidup saya = my life."}
+{"id":"id.c0467","meaning":"to need","note":"Saya perlu istirahat. = I need to rest."}
+{"id":"id.c0468","meaning":"to wait; to wait for","note":"Root tunggu. Tunggu sebentar! = Wait a moment!"}
+{"id":"id.c0469","meaning":"to enter; to come in","note":"Silakan masuk. = Please come in."}
+{"id":"id.c0470","meaning":"to hear","note":"Root dengar. To listen: mendengarkan."}
+{"id":"id.c0471","meaning":"to think","note":"Root pikir. Saya pikir… = I think…"}
+{"id":"id.c0472","meaning":"to speak; to talk","note":"Root bicara, used alone too. Casual: ngomong."}
+{"id":"id.c0473","meaning":"to like","note":"Saya suka kopi. Also \"often\" in casual speech."}
+{"id":"id.c0474","meaning":"to understand","note":"Casual: ngerti. Saya tidak mengerti. = I don't understand."}
+{"id":"id.c0475","meaning":"to find","note":"Root temu."}
+{"id":"id.c0476","meaning":"to meet","note":"Root temu. Casual: ketemu."}
+{"id":"id.c0477","meaning":"to believe; to trust","note":"percaya sama kamu = trust you."}
+{"id":"id.c0478","meaning":"to eat","note":"Sudah makan? = Have you eaten? (a common greeting)"}
+{"id":"id.c0479","meaning":"to live (somewhere); to stay","note":"Saya tinggal di Jakarta."}
+{"id":"id.c0480","meaning":"to work","note":"Root kerja; be-, not ber-, before kerja. Casual: kerja."}
+{"id":"id.c0481","meaning":"to stop","note":"Berhenti di sini, Pak. = Stop here, please."}
+{"id":"id.c0482","meaning":"to begin; to start","note":"Kita mulai sekarang. = We start now."}
+{"id":"id.c0483","meaning":"to take; to pick up","note":"Root ambil. Saya ambil yang ini. = I'll take this one."}
+{"id":"id.c0484","meaning":"may; to be allowed to","note":"Boleh saya duduk di sini? = May I sit here?"}
+{"id":"id.c0485","meaning":"to feel","note":"Root rasa. Saya merasa capek. = I feel tired."}
+{"id":"id.c0486","meaning":"to look for","note":"Root cari. Casual: nyari."}
+{"id":"id.c0487","meaning":"to need (everyday)","note":"Saya butuh bantuan. = I need help."}
+{"id":"id.c0488","meaning":"to try","note":"Root coba. Coba ini! = Try this!"}
+{"id":"id.c0489","meaning":"to bring; to carry","note":"Root bawa. Bawa payung! = Bring an umbrella!"}
+{"id":"id.c0490","meaning":"to remember","note":"Casual: inget."}
+{"id":"id.c0491","meaning":"to sleep; to go to bed","note":"tempat tidur = bed."}
+{"id":"id.c0492","meaning":"to go home","note":"No word for \"home\" needed: Saya pulang."}
+{"id":"id.c0493","meaning":"to ask for","note":"Root minta: Minta air putih. = Some water, please."}
+{"id":"id.c0494","meaning":"to help","note":"Root bantu. Tolong bantu saya. = Please help me."}
+{"id":"id.c0495","meaning":"to give","note":"Root beri. With the thing as object: memberikan."}
+{"id":"id.c0496","meaning":"to lose (something)","note":"Saya kehilangan kunci. = I lost my key."}
+{"id":"id.c0497","meaning":"to come along; to join","note":"Boleh saya ikut? = Can I come too?"}
+{"id":"id.c0498","meaning":"to finish; to be done","note":"Sudah selesai? = Are you done?"}
+{"id":"id.c0499","meaning":"to sit","note":"Silakan duduk. = Please have a seat."}
+{"id":"id.c0500","meaning":"to drink","note":"Also \"to take\" a medicine: minum obat."}
+{"id":"id.c0501","meaning":"to use (careful)","note":"Root guna. In speech: pakai."}
+{"id":"id.c0502","meaning":"to walk","note":"Root jalan. Casual: jalan kaki."}
+{"id":"id.c0503","meaning":"to play","note":"Root main, used alone in speech: main bola."}
+{"id":"id.c0504","meaning":"to fall","note":"jatuh cinta = to fall in love."}
+{"id":"id.c0505","meaning":"to ask (a question)","note":"Root tanya. Boleh saya bertanya? = May I ask something?"}
+{"id":"id.c0506","meaning":"to wake up; to get up","note":"Also \"to build\": membangun."}
+{"id":"id.c0507","meaning":"to run","note":"Root lari, used alone in speech."}
+{"id":"id.c0508","meaning":"to get married","note":"Sudah menikah? Belum. = Married? Not yet."}
+{"id":"id.c0509","meaning":"to study; to learn","note":"belajar bahasa Indonesia."}
+{"id":"id.c0510","meaning":"to forget","note":"Jangan lupa! = Don't forget!"}
+{"id":"id.c0511","meaning":"to go up; to ride; to get on","note":"naik ojek, naik kereta."}
+{"id":"id.c0512","meaning":"to go down; to get off","note":"Turun di sini. = I'll get off here."}
+{"id":"id.c0513","meaning":"to stand","note":"Root diri."}
+{"id":"id.c0514","meaning":"to open","note":"Root buka. Tokonya buka. = The shop is open."}
+{"id":"id.c0515","meaning":"to choose","note":"Root pilih: the p drops."}
+{"id":"id.c0516","meaning":"to arrive (careful)","note":"Signs and announcements. Everyday: sampai or datang."}
+{"id":"id.c0517","meaning":"to wear; to use","note":"Root pakai: the p drops after mem-. Pakai gula? = With sugar?"}
+{"id":"id.c0518","meaning":"to answer","note":"Root jawab."}
+{"id":"id.c0519","meaning":"to order; to book","note":"Root pesan. Casual: pesan."}
+{"id":"id.c0520","meaning":"to know (a person)","note":"Root kenal. Saya kenal dia. = I know him."}
+{"id":"id.c0521","meaning":"to pay","note":"Root bayar. Bayar di sini? = Do I pay here?"}
+{"id":"id.c0522","meaning":"to close","note":"Root tutup: the t drops. Tokonya tutup. = The shop is closed."}
+{"id":"id.c0523","meaning":"to buy","note":"Root beli. Casual: beli."}
+{"id":"id.c0524","meaning":"to cry","note":"Root tangis. Casual: nangis."}
+{"id":"id.c0525","meaning":"to write","note":"Root tulis: the t drops after men-."}
+{"id":"id.c0526","meaning":"to phone; to call","note":"Root telepon: the t drops. Casual: nelpon."}
+{"id":"id.c0527","meaning":"to read","note":"Root baca, used alone in speech."}
+{"id":"id.c0528","meaning":"to send","note":"Root kirim: the k drops."}
+{"id":"id.c0529","meaning":"to listen to","note":"Root dengar. mendengarkan musik."}
+{"id":"id.c0530","meaning":"to move (house)","note":"pindah ke Bali = move to Bali."}
+{"id":"id.c0531","meaning":"to bathe; to shower","note":"Usually a scoop-shower, not a long soak."}
+{"id":"id.c0532","meaning":"to laugh","note":"Root tawa. Casual: ketawa."}
+{"id":"id.c0533","meaning":"to watch (a show)","note":"Root tonton. Casual: nonton."}
+{"id":"id.c0534","meaning":"to sell","note":"Root jual."}
+{"id":"id.c0535","meaning":"to rest; to take a break","note":""}
+{"id":"id.c0536","meaning":"to set off; to depart","note":"Saya berangkat jam tujuh."}
+{"id":"id.c0537","meaning":"to be born","note":"Saya lahir di Amerika."}
+{"id":"id.c0538","meaning":"to dance","note":"Root tari."}
+{"id":"id.c0539","meaning":"to swim","note":"Root renang."}
+{"id":"id.c0540","meaning":"to cook","note":"Root masak, used alone in speech."}
+{"id":"id.c0541","meaning":"to go out; to stroll","note":"Not just walking: any trip for fun."}
+{"id":"id.c0542","meaning":"to take (someone somewhere)","note":"Root antar. Saya antar, ya. = I'll take you."}
+{"id":"id.c0543","meaning":"to teach","note":"Root ajar."}
+{"id":"id.c0544","meaning":"to rent","note":"Root sewa: the s drops after meny-."}
+{"id":"id.c0545","meaning":"to wash (things)","note":"Root cuci. mencuci piring = wash the dishes."}
+{"id":"id.c0546","meaning":"to pick (someone) up","note":"Root jemput."}
+{"id":"id.c0547","meaning":"to stay the night","note":"Root inap. menginap di hotel."}
+{"id":"id.c0548","meaning":"to chat","note":"Root obrol. Casual: ngobrol."}
+{"id":"id.c0549","meaning":"to shop","note":"Careful: berbelanja."}
+{"id":"id.c0550","meaning":"right; true; correct","note":"Same as betul. Benar? = Really? / Is that right?"}
+{"id":"id.c0551","meaning":"good; nice (things)","note":"Bagus sekali! = Very good! For food: enak."}
+{"id":"id.c0552","meaning":"other; different","note":"yang lain = the other one, others."}
+{"id":"id.c0553","meaning":"new","note":"Also \"just\": Saya baru datang. = I just arrived."}
+{"id":"id.c0554","meaning":"same","note":"sama dengan = the same as. Casual: also \"with\"."}
+{"id":"id.c0555","meaning":"wrong","note":"Maaf, salah nomor. = Sorry, wrong number."}
+{"id":"id.c0556","meaning":"fast; quick","note":"Cepat! = Hurry!"}
+{"id":"id.c0557","meaning":"long (time); old (things)","note":"Not for people: tua. Sudah lama? = Has it been long?"}
+{"id":"id.c0558","meaning":"small; little","note":"uang kecil = small bills."}
+{"id":"id.c0559","meaning":"happy; glad","note":"Also \"to like\": senang membaca."}
+{"id":"id.c0560","meaning":"bad","note":"cuaca buruk = bad weather."}
+{"id":"id.c0561","meaning":"ready","note":"Siap! = Ready! / Yes, sir!"}
+{"id":"id.c0562","meaning":"crazy","note":"Casual praise too: Gila, keren! = Wow, that's amazing!"}
+{"id":"id.c0563","meaning":"sick; painful","note":"Kepala saya sakit. = My head hurts."}
+{"id":"id.c0564","meaning":"afraid; scared","note":"takut sama anjing = afraid of dogs."}
+{"id":"id.c0565","meaning":"ordinary; usual","note":"biasa saja = nothing special."}
+{"id":"id.c0566","meaning":"stupid","note":"Rude about a person. Joking with friends: bego (casual)."}
+{"id":"id.c0567","meaning":"far","note":"Jauh dari sini? = Is it far from here?"}
+{"id":"id.c0568","meaning":"strange; weird","note":""}
+{"id":"id.c0569","meaning":"important","note":""}
+{"id":"id.c0570","meaning":"old (people)","note":"Polite to elders: Bapak, Ibu, not tua."}
+{"id":"id.c0571","meaning":"calm","note":"Tenang saja. = Don't worry."}
+{"id":"id.c0572","meaning":"safe","note":"Aman? = Is it safe? Also \"all good\"."}
+{"id":"id.c0573","meaning":"difficult","note":"Everyday: susah."}
+{"id":"id.c0574","meaning":"near; close","note":"dekat sini = near here."}
+{"id":"id.c0575","meaning":"easy","note":"Casual: gampang."}
+{"id":"id.c0576","meaning":"hard; loud","note":"Bicara keras = to speak loudly."}
+{"id":"id.c0577","meaning":"serious","note":"Serius? = Seriously?"}
+{"id":"id.c0578","meaning":"strong","note":""}
+{"id":"id.c0579","meaning":"beautiful (places, things)","note":"For a person's looks: cantik, ganteng."}
+{"id":"id.c0580","meaning":"empty; vacant","note":"kamar kosong = a free room."}
+{"id":"id.c0581","meaning":"angry","note":"marah sama saya = angry with me."}
+{"id":"id.c0582","meaning":"young","note":""}
+{"id":"id.c0583","meaning":"tall; high","note":""}
+{"id":"id.c0584","meaning":"full","note":""}
+{"id":"id.c0585","meaning":"hot","note":"Also of the weather: Hari ini panas."}
+{"id":"id.c0586","meaning":"perfect","note":""}
+{"id":"id.c0587","meaning":"wicked; mean","note":""}
+{"id":"id.c0588","meaning":"cold","note":"es = ice; air dingin = cold water."}
+{"id":"id.c0589","meaning":"brave; daring","note":""}
+{"id":"id.c0590","meaning":"black","note":"kopi hitam = black coffee."}
+{"id":"id.c0591","meaning":"heavy","note":"Also \"hard to bear\"."}
+{"id":"id.c0592","meaning":"red","note":"After the noun: baju merah."}
+{"id":"id.c0593","meaning":"white","note":"air putih = drinking water."}
+{"id":"id.c0594","meaning":"busy","note":"Of a person. A busy place: ramai."}
+{"id":"id.c0595","meaning":"long (length)","note":"rambut panjang = long hair."}
+{"id":"id.c0596","meaning":"dark","note":""}
+{"id":"id.c0597","meaning":"comfortable; cozy","note":""}
+{"id":"id.c0598","meaning":"hungry","note":"No word for \"am\": Saya lapar."}
+{"id":"id.c0599","meaning":"rich","note":""}
+{"id":"id.c0600","meaning":"weak","note":""}
+{"id":"id.c0601","meaning":"sad","note":""}
+{"id":"id.c0602","meaning":"clean","note":""}
+{"id":"id.c0603","meaning":"blue","note":""}
+{"id":"id.c0604","meaning":"dirty","note":""}
+{"id":"id.c0605","meaning":"healthy; well","note":"Semoga sehat! = Get well!"}
+{"id":"id.c0606","meaning":"ugly; bad (quality)","note":"Strong about people: say kurang bagus about things."}
+{"id":"id.c0607","meaning":"expensive","note":"Terlalu mahal. = Too expensive."}
+{"id":"id.c0608","meaning":"green","note":""}
+{"id":"id.c0609","meaning":"warm","note":""}
+{"id":"id.c0610","meaning":"polite","note":""}
+{"id":"id.c0611","meaning":"patient","note":"Sabar, ya. = Be patient."}
+{"id":"id.c0612","meaning":"bright; light (not dark)","note":""}
+{"id":"id.c0613","meaning":"fresh; refreshing","note":""}
+{"id":"id.c0614","meaning":"poor","note":""}
+{"id":"id.c0615","meaning":"short (height, length)","note":"The e is strong (eh)."}
+{"id":"id.c0616","meaning":"hard; difficult (everyday)","note":"Also \"poor; hard up\"."}
+{"id":"id.c0617","meaning":"wet","note":""}
+{"id":"id.c0618","meaning":"cheap","note":"Not an insult: murah is good news."}
+{"id":"id.c0619","meaning":"dry","note":""}
+{"id":"id.c0620","meaning":"yellow","note":""}
+{"id":"id.c0621","meaning":"light (not heavy)","note":""}
+{"id":"id.c0622","meaning":"slow; soft (voice)","note":"pelan-pelan = slowly."}
+{"id":"id.c0623","meaning":"friendly","note":"Orang Indonesia ramah."}
+{"id":"id.c0624","meaning":"thirsty","note":""}
+{"id":"id.c0625","meaning":"crowded; lively","note":"Of a place. Also spelled rame."}
+{"id":"id.c0626","meaning":"quiet; empty (place)","note":""}
+{"id":"id.c0627","meaning":"tired","note":"In writing: lelah."}
+{"id":"id.c0628","meaning":"spicy","note":"Tidak pedas, ya. = Not spicy, please."}
+{"id":"id.c0629","meaning":"lazy","note":"Also \"not in the mood\": Saya malas keluar."}
+{"id":"id.c0630","meaning":"salty","note":""}
+{"id":"id.c0631","meaning":"hard-working; diligent","note":""}
+{"id":"id.c0632","meaning":"extraordinary; amazing","note":"Literally \"outside ordinary\". Luar biasa! = Amazing!"}
+{"id":"id.c0633","meaning":"will; going to","note":"Often left out when the time is clear: Besok saya ke Bali."}
+{"id":"id.c0634","meaning":"already","note":"Casual: udah. Also says something is done: Sudah makan."}
+{"id":"id.c0635","meaning":"just; only","note":"Casual: aja. Air putih saja. = Just water."}
+{"id":"id.c0636","meaning":"only","note":"Before the word: hanya dua = only two."}
+{"id":"id.c0637","meaning":"now","note":""}
+{"id":"id.c0638","meaning":"here","note":"di sini = here (at); ke sini = (to) here."}
+{"id":"id.c0639","meaning":"again; more","note":"Sekali lagi! = Once more! Casual: also \"right now\" (Lagi apa?)."}
+{"id":"id.c0640","meaning":"more","note":"lebih murah = cheaper."}
+{"id":"id.c0641","meaning":"maybe; perhaps; possible","note":""}
+{"id":"id.c0642","meaning":"very (before the adjective)","note":"sangat besar. After it: besar sekali."}
+{"id":"id.c0643","meaning":"also; too","note":"After the word it adds to: Saya juga. = Me too."}
+{"id":"id.c0644","meaning":"ever; have done before","note":"Pernah ke Bali? = Have you been to Bali?"}
+{"id":"id.c0645","meaning":"still","note":"Saya masih di rumah."}
+{"id":"id.c0646","meaning":"there (far)","note":"di sana = over there."}
+{"id":"id.c0647","meaning":"in the middle of (doing)","note":"Saya sedang makan. The verb never changes."}
+{"id":"id.c0648","meaning":"very (after the adjective); once","note":"enak sekali = really delicious; sekali lagi = once more."}
+{"id":"id.c0649","meaning":"alone; by oneself","note":"Saya datang sendiri. = I came alone."}
+{"id":"id.c0650","meaning":"definitely; for sure","note":"Pasti! = Sure!"}
+{"id":"id.c0651","meaning":"really; truly","note":""}
+{"id":"id.c0652","meaning":"of course; certainly","note":"Tentu saja! = Of course!"}
+{"id":"id.c0653","meaning":"enough; quite","note":"Sudah cukup. = That's enough."}
+{"id":"id.c0654","meaning":"always","note":""}
+{"id":"id.c0655","meaning":"even","note":""}
+{"id":"id.c0656","meaning":"too (much)","note":"Terlalu mahal. = Too expensive."}
+{"id":"id.c0657","meaning":"still; constantly","note":"Dia tetap sabar. = She stays patient."}
+{"id":"id.c0658","meaning":"together","note":"Also bersama-sama."}
+{"id":"id.c0659","meaning":"actually; in fact","note":""}
+{"id":"id.c0660","meaning":"first; in the past","note":"Saya mandi dulu. = I'll shower first."}
+{"id":"id.c0661","meaning":"then; afterwards","note":"Everyday: lalu, terus."}
+{"id":"id.c0662","meaning":"keep on; straight ahead","note":"Jalan terus. = Keep going."}
+{"id":"id.c0663","meaning":"right away; soon","note":""}
+{"id":"id.c0664","meaning":"indeed; it's true that","note":"Memang mahal. = It really is expensive."}
+{"id":"id.c0665","meaning":"for a moment","note":"Tunggu sebentar. = Wait a moment."}
+{"id":"id.c0666","meaning":"later; in a while","note":"Nanti saja. = Later. Sampai nanti! = See you later!"}
+{"id":"id.c0667","meaning":"most","note":"paling enak = the most delicious."}
+{"id":"id.c0668","meaning":"earlier (today); just now","note":"tadi pagi = this morning (past)."}
+{"id":"id.c0669","meaning":"only (everyday)","note":"Casual. Careful: hanya."}
+{"id":"id.c0670","meaning":"almost","note":""}
+{"id":"id.c0671","meaning":"finally; in the end","note":""}
+{"id":"id.c0672","meaning":"straight away; directly","note":""}
+{"id":"id.c0673","meaning":"often","note":""}
+{"id":"id.c0674","meaning":"less; not very","note":"kurang manis = not sweet enough."}
+{"id":"id.c0675","meaning":"rather; a bit","note":"agak pedas = a bit spicy."}
+{"id":"id.c0676","meaning":"usually","note":"Root biasa."}
+{"id":"id.c0677","meaning":"suddenly","note":""}
+{"id":"id.c0678","meaning":"there (near you)","note":"di situ = there, where you are."}
+{"id":"id.c0679","meaning":"sometimes","note":"Short: kadang."}
+{"id":"id.c0680","meaning":"slowly; carefully","note":"Pelan-pelan, Pak. = Slowly, please."}
+{"id":"id.c0681","meaning":"rarely","note":""}
+{"id":"id.c0682","meaning":"really; so (casual)","note":"After the adjective: enak banget. Standard: sekali."}
+{"id":"id.c0683","meaning":"who; which; that (linking)","note":"orang yang tinggi = the person who is tall; yang merah = the red one."}
+{"id":"id.c0684","meaning":"this","note":"After a noun: buku ini = this book. First: Ini buku. = This is a book."}
+{"id":"id.c0685","meaning":"that; the","note":"After a noun: buku itu = that book, the book."}
+{"id":"id.c0686","meaning":"what","note":"Apa itu? = What's that? Never for names: Siapa nama Anda?"}
+{"id":"id.c0687","meaning":"they; them; their","note":"For people: rumah mereka = their house."}
+{"id":"id.c0688","meaning":"you (formal, neutral)","note":"Forms, signs, adverts and formal talk. With people you meet, a title is warmer."}
+{"id":"id.c0689","meaning":"I; me; my","note":"Right with everyone. Casual: aku. The same word for \"I\", \"me\" and \"my\"."}
+{"id":"id.c0690","meaning":"all; everybody","note":"semua orang = everyone."}
+{"id":"id.c0691","meaning":"you (more than one, informal)","note":"To friends or children. To older people: Bapak-Bapak, Ibu-Ibu."}
+{"id":"id.c0692","meaning":"who","note":"Also for names and owners: mobil siapa = whose car."}
+{"id":"id.c0693","meaning":"something","note":""}
+{"id":"id.c0694","meaning":"which; where","note":"yang mana = which one; di mana = where."}
+{"id":"id.c0695","meaning":"all of it; everything","note":"Semuanya berapa? = How much for everything?"}
+{"id":"id.c0696","meaning":"he; she (written)","note":"Mostly in writing and news. In speech: dia."}
+{"id":"id.c0697","meaning":"you (to an older man)","note":"Short for Bapak, used to his face: Terima kasih, Pak."}
+{"id":"id.c0698","meaning":"someone","note":""}
+{"id":"id.c0699","meaning":"anything; nothing (with tidak)","note":"Tidak apa-apa. = It's nothing."}
+{"id":"id.c0700","meaning":"my (ending, casual)","note":"bukuku = my book. With friends; careful: buku saya."}
+{"id":"id.c0701","meaning":"self","note":"diri saya = myself. By yourself: sendiri."}
+{"id":"id.c0702","meaning":"your (ending, to a friend)","note":"bukumu = your book. Goes with kamu."}
+{"id":"id.c0703","meaning":"his; her; its; the","note":"bukunya = his book, her book, or the book."}
+{"id":"id.c0704","meaning":"you (to an older woman)","note":"Short for Ibu, used to her face: Permisi, Bu."}
+{"id":"id.c0705","meaning":"belonging to","note":"Ini milik saya. = This is mine."}
+{"id":"id.c0706","meaning":"each (one)","note":""}
+{"id":"id.c0707","meaning":"you (to a young person)","note":"Shops and online, to a young adult. From kakak (older sibling)."}
+{"id":"id.c0708","meaning":"he; she (respectful)","note":"For an older or important person: Beliau guru saya."}
+{"id":"id.c0709","meaning":"anyone; nobody (with tidak)","note":"Tidak ada siapa-siapa. = There's nobody."}
+{"id":"id.c0710","meaning":"you (intimate; songs and films)","note":"Very common in subtitles and songs. In speech, kamu is safer."}
+{"id":"id.c0711","meaning":"at; in; on","note":"Written apart before a place: di rumah. Joined only in di- verbs."}
+{"id":"id.c0712","meaning":"for","note":"untuk kamu = for you."}
+{"id":"id.c0713","meaning":"with","note":"Casual: sama. dengan teman = with a friend."}
+{"id":"id.c0714","meaning":"from","note":"Saya dari Amerika."}
+{"id":"id.c0715","meaning":"to (a place)","note":"Saya ke kantor. = I'm going to the office."}
+{"id":"id.c0716","meaning":"like; as","note":"seperti ini = like this."}
+{"id":"id.c0717","meaning":"in; within","note":"dalam bahasa Indonesia = in Indonesian."}
+{"id":"id.c0718","meaning":"on; at (time, careful)","note":"pada hari Senin = on Monday. Careful speech and writing."}
+{"id":"id.c0719","meaning":"about","note":"buku tentang Bali = a book about Bali."}
+{"id":"id.c0720","meaning":"until; up to","note":"sampai besok = until tomorrow. Also \"to arrive\"."}
+{"id":"id.c0721","meaning":"by","note":"With a di- verb: dibuat oleh ibu saya = made by my mother."}
+{"id":"id.c0722","meaning":"for; on (careful)","note":"Terima kasih atas bantuannya. = Thanks for your help."}
+{"id":"id.c0723","meaning":"during; for (a time)","note":"selama dua minggu = for two weeks."}
+{"id":"id.c0724","meaning":"without","note":"kopi tanpa gula = coffee without sugar."}
+{"id":"id.c0725","meaning":"to (a person, careful)","note":"Terima kasih kepada… In speech: ke or sama."}
+{"id":"id.c0726","meaning":"for (careful)","note":"bagi saya = for me, as far as I'm concerned."}
+{"id":"id.c0727","meaning":"since","note":"sejak tahun lalu = since last year."}
+{"id":"id.c0728","meaning":"around; approximately","note":"sekitar jam tujuh = around seven."}
+{"id":"id.c0729","meaning":"than; rather than","note":"lebih baik daripada = better than. Casual: dari."}
+{"id":"id.c0730","meaning":"toward; heading to","note":"On signs and announcements: menuju Bandung."}
+{"id":"id.c0731","meaning":"between","note":"antara Jakarta dan Bandung."}
+{"id":"id.c0732","meaning":"via; through; past","note":"lewat Jakarta = via Jakarta. Also \"past\" in times."}
+{"id":"id.c0733","meaning":"according to","note":"Menurut saya… = In my opinion…"}
+{"id":"id.c0734","meaning":"outside","note":"di luar rumah = outside the house."}
+{"id":"id.c0735","meaning":"inside","note":"di dalam tas = in the bag."}
+{"id":"id.c0736","meaning":"under; below","note":"di bawah meja = under the table."}
+{"id":"id.c0737","meaning":"on top of; above","note":"di atas meja = on the table."}
+{"id":"id.c0738","meaning":"behind","note":"di belakang rumah = behind the house."}
+{"id":"id.c0739","meaning":"in front of","note":"Position words follow di, then the place."}
+{"id":"id.c0740","meaning":"next to","note":"di sebelah hotel = next to the hotel."}
+{"id":"id.c0741","meaning":"and","note":"Teh dan kopi. Lists: A, B, dan C."}
+{"id":"id.c0742","meaning":"but (everyday)","note":"Spoken and written; the careful form is tetapi."}
+{"id":"id.c0743","meaning":"if (careful)","note":"Everyday: kalau."}
+{"id":"id.c0744","meaning":"when; at the moment that","note":"saat ini = at the moment."}
+{"id":"id.c0745","meaning":"or","note":"Teh atau kopi? = Tea or coffee?"}
+{"id":"id.c0746","meaning":"that (after say, know)","note":"Often left out in speech: Saya tahu (bahwa) dia sibuk."}
+{"id":"id.c0747","meaning":"when (not a question)","note":"Never for questions; \"When?\" is Kapan?"}
+{"id":"id.c0748","meaning":"after","note":"setelah makan = after eating."}
+{"id":"id.c0749","meaning":"before","note":"sebelum makan = before eating."}
+{"id":"id.c0750","meaning":"so; then (careful)","note":"Writing and speeches."}
+{"id":"id.c0751","meaning":"in order that (careful)","note":"Written and formal. In speech: supaya."}
+{"id":"id.c0752","meaning":"even though","note":"Careful; same meaning as walaupun."}
+{"id":"id.c0753","meaning":"so (as a result)","note":""}
+{"id":"id.c0754","meaning":"so that","note":"Saya belajar supaya bisa bicara. = I study so I can talk."}
+{"id":"id.c0755","meaning":"although","note":"Also walau."}
+{"id":"id.c0756","meaning":"while (doing two things)","note":"makan sambil nonton TV."}
+{"id":"id.c0757","meaning":"as long as","note":"Also asalkan."}
+{"id":"id.c0758","meaning":"as well as","note":"Careful: a formal \"and\"."}
+{"id":"id.c0759","meaning":"when actually; even though","note":"Shows a surprise against the facts."}
+{"id":"id.c0760","meaning":"let alone; especially since","note":""}
+{"id":"id.c0761","meaning":"if only; supposing","note":""}
+{"id":"id.c0762","meaning":"that's why","note":"Casual."}
+{"id":"id.c0763","meaning":"whereas","note":"Contrasts two people or things."}
+{"id":"id.c0764","meaning":"after (everyday)","note":"Same as setelah, a little more spoken."}
+{"id":"id.c0765","meaning":"because (casual)","note":"Very common in speech. Careful: karena."}
+{"id":"id.c0766","meaning":"oh (I see)","note":"Oh, begitu. = Oh, I see."}
+{"id":"id.c0767","meaning":"come on; let's go","note":"Includes you: Ayo makan! = Let's eat!"}
+{"id":"id.c0768","meaning":"hey","note":"To a friend. To get a stranger's attention: Permisi, Pak."}
+{"id":"id.c0769","meaning":"OK","note":"Also spelled oke or OK."}
+{"id":"id.c0770","meaning":"congratulations","note":"Short for selamat, ya! On good news: a new job, a wedding."}
+{"id":"id.c0771","meaning":"hello? (on the phone)","note":"Answering the phone or checking someone is there."}
+{"id":"id.c0772","meaning":"really? no way","note":"Disbelief. Casual: Masa sih?"}
+{"id":"id.c0773","meaning":"ah; oh (dismissing)","note":"Ah, biasa saja. = Oh, it's nothing."}
+{"id":"id.c0774","meaning":"oh my God; good grief","note":"Shock. Not felt as rude."}
+{"id":"id.c0775","meaning":"there you go; right","note":"Nah, itu dia! = There it is!"}
+{"id":"id.c0776","meaning":"hey; oh (remembering)","note":"Eh, kamu sudah makan? Starts a new thought."}
+{"id":"id.c0777","meaning":"huh? what?","note":"Did not hear or cannot believe it. Polite: Maaf?"}
+{"id":"id.c0778","meaning":"oh my goodness","note":"Surprise or mild exasperation."}
+{"id":"id.c0779","meaning":"wow","note":"Surprise or delight: Wah, bagus! The most common reaction word."}
+{"id":"id.c0780","meaning":"poor thing","note":"Sympathy: Kasihan, dia sakit."}
+{"id":"id.c0781","meaning":"thank goodness","note":"Relief."}
+{"id":"id.c0782","meaning":"ouch; oh no","note":"Pain, worry or annoyance. Stronger: Waduh!"}
+{"id":"id.c0783","meaning":"amen","note":"After a wish or prayer: Semoga sukses! Amin."}
+{"id":"id.c0784","meaning":"hooray","note":"Children and happy news."}
+{"id":"id.c0785","meaning":"oops","note":"Small mistakes."}
+{"id":"id.c0786","meaning":"ugh; oh dear","note":"Annoyance with yourself or a situation."}
+{"id":"id.c0787","meaning":"let's (casual)","note":"Softer than ayo: Makan, yuk!"}
+{"id":"id.c0788","meaning":"great; OK (casual)","note":"Thumbs up in a word."}
+{"id":"id.c0789","meaning":"uh-oh; yikes","note":"Trouble ahead."}
+{"id":"id.c0790","meaning":"God willing","note":"From Arabic. Said about plans; it can mean a soft \"maybe\"."}
+{"id":"id.c0791","meaning":"praise God; thank God","note":"From Arabic; said by many Muslims for good news. Others hear it daily."}
+{"id":"id.c0792","meaning":"ooh (teasing)","note":"Friends teasing about a crush or new clothes. Also ciee."}
+{"id":"id.c0793","meaning":"eww; ugh (disgust)","note":"Casual, a little childish."}
+{"id":"id.c0794","meaning":"yes; right? (at the end)","note":"Kamu lapar, ya? = You're hungry, right? Softens a request too."}
+{"id":"id.c0795","meaning":"not (before a noun); right? (at the end)","note":"Saya bukan guru. Ini kopi, bukan? = This is coffee, isn't it?"}
+{"id":"id.c0796","meaning":"how","note":"Casual: gimana. Bagaimana kabarnya? = How are you doing?"}
+{"id":"id.c0797","meaning":"don't","note":"Commands only: Jangan lupa! = Don't forget!"}
+{"id":"id.c0798","meaning":"(starts a yes / no question)","note":"Formal and written: Apakah Anda lapar? In speech, just raise your voice."}
+{"id":"id.c0799","meaning":"many; a lot","note":"Before the noun: banyak orang. Never banyak orang-orang."}
+{"id":"id.c0800","meaning":"some; several","note":"beberapa hari = a few days."}
+{"id":"id.c0801","meaning":"why (careful)","note":"Everyday: kenapa."}
+{"id":"id.c0802","meaning":"where (at)","note":"Di mana toilet? Where to: ke mana; where from: dari mana."}
+{"id":"id.c0803","meaning":"a little; a few","note":"sedikit gula = a little sugar."}
+{"id":"id.c0804","meaning":"every; each","note":"setiap hari = every day. Also tiap."}
+{"id":"id.c0805","meaning":"first","note":"hari pertama = the first day. Ordinals follow the noun."}
+{"id":"id.c0806","meaning":"(group of people)","note":"Before a noun for people: para tamu = the guests."}
+{"id":"id.c0807","meaning":"how much; how many","note":"Berapa harganya? = How much is it?"}
+{"id":"id.c0808","meaning":"last","note":"hari terakhir = the last day."}
+{"id":"id.c0809","meaning":"whole; entire","note":"seluruh dunia = the whole world."}
+{"id":"id.c0810","meaning":"where to","note":"Ke mana, Pak? = Where to, sir?"}
+{"id":"id.c0811","meaning":"second; both","note":"anak kedua = second child; kedua anak = both children."}
+{"id":"id.c0812","meaning":"third","note":"ke- + number: keempat, kelima…"}
+{"id":"id.c0813","meaning":"not (short form)","note":"Songs, writing and set phrases (tak apa). In speech: tidak, nggak."}
+{"id":"id.c0814","meaning":"zero","note":"Phone numbers: also kosong."}
+{"id":"id.c0815","meaning":"one","note":"Before ribu, ratus, belas it becomes se-: seribu."}
+{"id":"id.c0816","meaning":"two","note":""}
+{"id":"id.c0817","meaning":"three","note":""}
+{"id":"id.c0818","meaning":"four","note":""}
+{"id":"id.c0819","meaning":"five","note":"lima ribu = five thousand."}
+{"id":"id.c0820","meaning":"six","note":""}
+{"id":"id.c0821","meaning":"seven","note":""}
+{"id":"id.c0822","meaning":"eight","note":""}
+{"id":"id.c0823","meaning":"nine","note":""}
+{"id":"id.c0824","meaning":"thirteen","note":"belas = -teen: tiga belas = three-teen."}
+{"id":"id.c0825","meaning":"fourteen","note":""}
+{"id":"id.c0826","meaning":"fifteen","note":""}
+{"id":"id.c0827","meaning":"sixteen","note":""}
+{"id":"id.c0828","meaning":"seventeen","note":"tujuh belas Agustus = Independence Day."}
+{"id":"id.c0829","meaning":"eighteen","note":""}
+{"id":"id.c0830","meaning":"nineteen","note":""}
+{"id":"id.c0831","meaning":"twenty","note":"puluh = tens: tiga puluh = thirty."}
+{"id":"id.c0832","meaning":"Tuesday","note":"Usually with hari: hari Selasa."}
+{"id":"id.c0833","meaning":"Wednesday","note":"hari Rabu."}
+{"id":"id.c0834","meaning":"Thursday","note":"hari Kamis."}
+{"id":"id.c0835","meaning":"Saturday","note":"malam Minggu = Saturday night (the night before Sunday)."}
+{"id":"id.c0836","meaning":"morning","note":"Until about 11 a.m.: jam tujuh pagi."}
+{"id":"id.c0837","meaning":"midday; early afternoon","note":"About 11 a.m. to 3 p.m."}
+{"id":"id.c0838","meaning":"late afternoon","note":"About 3 p.m. until dark."}
+{"id":"id.c0839","meaning":"night; evening","note":"After dark: jam delapan malam."}
+{"id":"id.c0840","meaning":"the day after tomorrow","note":"kemarin, hari ini, besok, lusa."}
+{"id":"id.c0841","meaning":"a; one (person)","note":"se- (one) + orang. Two: dua orang guru. Very common: seorang teman."}
+{"id":"id.c0842","meaning":"a; one (thing)","note":"se- + buah. For most objects: sebuah rumah, dua buah tas."}
+{"id":"id.c0843","meaning":"a piece of; a slice of","note":"se- + potong. sepotong kue."}
+{"id":"id.c0844","meaning":"a pair of","note":"se- + pasang. sepasang sepatu."}
+{"id":"id.c0845","meaning":"(counting word for animals); tail","note":"seekor kucing = a cat; tiga ekor ayam = three chickens."}
+{"id":"id.c0846","meaning":"a glass of","note":"se- + gelas. segelas air putih."}
+{"id":"id.c0847","meaning":"a cup of","note":"se- + cangkir. secangkir kopi."}
+{"id":"id.c0848","meaning":"a bottle of","note":"se- + botol. sebotol air."}
+{"id":"id.c0849","meaning":"a sheet of","note":"se- + lembar. selembar kertas, dua lembar tiket."}
+{"id":"id.c0850","meaning":"a stick of","note":"se- + batang. For long thin things: sebatang pohon."}
+{"id":"id.c0851","meaning":"a serving of","note":"se- + porsi. Ordering: dua porsi sate."}
+{"id":"id.c0852","meaning":"a bowl of","note":"se- + mangkuk. semangkuk bakso."}
+{"id":"id.c0853","meaning":"a strand of; a sheet of (cloth)","note":"se- + helai. sehelai rambut."}
+{"id":"id.c0854","meaning":"a plate of","note":"se- + piring. sepiring nasi goreng."}
+{"id":"id.c0855","meaning":"a pack of; a wrapped portion of","note":"se- + bungkus. sebungkus nasi."}
+{"id":"id.c0856","meaning":"one (egg, grain or pill)","note":"se- + butir. sebutir telur, dua butir obat."}
+{"id":"id.c0857","meaning":"one (piece of fruit)","note":"se- + biji (seed). dua biji mangga."}
+{"id":"id.c0858","meaning":"a kilo of","note":"se- + kilo. sekilo jeruk."}
+{"id":"id.c0859","meaning":"Your cooking is delicious. (to an older woman)","note":"To the host. To an older man: Masakan Bapak; to a friend: Masakan kamu. masakan = cooking, the dishes."}
+{"id":"id.c0860","meaning":"You're a really good cook. (to an older woman)","note":"pintar masak = good at cooking; ya at the end makes it warm. To a man: Bapak pintar masak, ya."}
+{"id":"id.c0861","meaning":"Could I have the recipe?","note":"Praise by asking: hosts love it. resepnya = the recipe."}
+{"id":"id.c0862","meaning":"Well done!","note":"Literally \"very good\". Fine with anyone, any age. sekali goes after the adjective."}
+{"id":"id.c0863","meaning":"Wow, you're really good at this! (to a friend)","note":"jago = skilled, a friendly everyday word. To an older person: Wah, Bapak jago! or Wah, Ibu jago!"}
+{"id":"id.c0864","meaning":"Wow, awesome!","note":"Casual and hugely common, for food, work or a goal. With older people: Bagus sekali."}
+{"id":"id.c0865","meaning":"Good work!","note":"To a coworker or someone who helped. Fine with anyone."}
+{"id":"id.c0866","meaning":"The result is really good.","note":"For work, a photo, a repair. -nya = the."}
+{"id":"id.c0867","meaning":"Good idea!","note":"The noun comes first: ide bagus, never bagus ide. Fine with anyone."}
+{"id":"id.c0868","meaning":"You're so hard-working. (to a friend)","note":"Effort is praised a lot. To an older person: Bapak rajin sekali or Ibu rajin sekali."}
+{"id":"id.c0869","meaning":"You've worked really hard. (to a friend)","note":"Praise for effort, even before the result. To an older person: Bapak or Ibu sudah bekerja keras."}
+{"id":"id.c0870","meaning":"You're so kind. (to a friend)","note":"baik = kind here (also good, fine). To an older person: Bapak baik sekali or Ibu baik sekali."}
+{"id":"id.c0871","meaning":"You're very friendly. (to an older man)","note":"Friendliness is prized. To a woman: Ibu ramah sekali."}
+{"id":"id.c0872","meaning":"You're so funny! (to a friend)","note":"lucu = funny, and also cute: said of a baby, a pet or a thing it means cute."}
+{"id":"id.c0873","meaning":"Your child is very smart. (to a mother)","note":"A warm, very common compliment to parents. To a father: Anak Bapak pintar sekali."}
+{"id":"id.c0874","meaning":"What a cute child!","note":"To the parent. -nya = the: no choice of \"you\" needed."}
+{"id":"id.c0875","meaning":"Your home is so cozy. (to an older woman)","note":"nyaman = comfortable, cozy: what a guest naturally says. To a man: Rumah Bapak nyaman sekali."}
+{"id":"id.c0876","meaning":"Your home is so neat.","note":"rapi = neat, tidy. -nya = the house, so no \"you\" is needed."}
+{"id":"id.c0877","meaning":"Batik looks great on you. (to a friend)","note":"cocok = it suits you; pakai = wearing. To an older person: Bapak or Ibu cocok pakai batik."}
+{"id":"id.c0878","meaning":"Nice outfit!","note":"Praise the clothes, not the body. -nya = the."}
+{"id":"id.c0879","meaning":"Nice photo!","note":"Phone photos and social media."}
+{"id":"id.c0880","meaning":"Your Indonesian is really fluent!","note":"You'll hear this often, even after a few words. -nya stands for \"your\", so no choice of \"you\" is needed."}
+{"id":"id.c0881","meaning":"Wow, you already speak Indonesian!","note":"Said with delight after you say a few words."}
+{"id":"id.c0882","meaning":"Oh, it's nothing special.","note":"The usual reply to praise: Indonesians tend to play a compliment down, not simply accept it. Casual: Ah, biasa aja."}
+{"id":"id.c0883","meaning":"Oh, not really.","note":"A gentle, modest denial. Casual: Ah, nggak juga."}
+{"id":"id.c0884","meaning":"Oh, you're too kind. (to an older woman)","note":"Literally \"oh, you can say anything\". Smiling, modest. To a man: Ah, Bapak bisa saja."}
+{"id":"id.c0885","meaning":"Not fluent yet, I'm still learning.","note":"The expected modest reply to praise for your Indonesian. Literally \"not yet fluent, still learning\"."}
+{"id":"id.c0886","meaning":"Thank you for the compliment.","note":"Polite and a little formal. A plain Terima kasih with a smile is fine too; a modest line usually follows."}
+{"id":"id.c0887","meaning":"handsome","note":"To or about a man. For a woman: cantik. Mild alone, warm with banget or sekali."}
+{"id":"id.c0888","meaning":"good-looking (casual)","note":"Casual; for a man or a woman. Mild and friendly."}
+{"id":"id.c0889","meaning":"sweet; cute (looks or manner)","note":"For anyone; also of food. A woman is often called manis for her smile. Mild."}
+{"id":"id.c0890","meaning":"cute; funny","note":"For anyone. Adults: funny or charming; babies and pets: cute. Mild."}
+{"id":"id.c0891","meaning":"adorable (casual)","note":"Casual, for anyone; a little playful. Mild."}
+{"id":"id.c0892","meaning":"cool; stylish","note":"For anyone, and for things. Mild, very common."}
+{"id":"id.c0893","meaning":"attractive; interesting","note":"For anyone. Kamu menarik can mean either: warm."}
+{"id":"id.c0894","meaning":"smart; clever","note":"For anyone. Praising someone's mind is safe and welcome. Mild."}
+{"id":"id.c0895","meaning":"kind-hearted","note":"For anyone. Warm, never forward."}
+{"id":"id.c0896","meaning":"fun (to be with)","note":"For a person or an outing: Kamu seru! Mild. Casual."}
+{"id":"id.c0897","meaning":"smile","note":"Your smile: senyummu, senyum kamu. The verb: tersenyum. Safe to praise. Mild."}
+{"id":"id.c0898","meaning":"eyes; eye","note":"Your eyes: mata kamu. Warm."}
+{"id":"id.c0899","meaning":"voice","note":"Your voice: suara kamu. Mild."}
+{"id":"id.c0900","meaning":"hair","note":"Your hair: rambut kamu. Mild."}
+{"id":"id.c0901","meaning":"style","note":"gaya kamu = your style. Mild."}
+{"id":"id.c0902","meaning":"dear; darling","note":"For a partner or family; also \"to love\" (fondly). Bold if said to someone you just met."}
+{"id":"id.c0903","meaning":"to miss (someone) (casual)","note":"Casual. Standard: rindu. For someone you already see. Warm."}
+{"id":"id.c0904","meaning":"to have a crush on (casual)","note":"Casual: Aku naksir dia. = I have a crush on him / her. Warm."}
+{"id":"id.c0905","meaning":"date (romantic)","note":"A first date is often just ngopi (coffee) or makan. Warm."}
+{"id":"id.c0906","meaning":"soulmate; the one","note":"Common in songs and family talk: belum ketemu jodoh = not found the one yet."}
+{"id":"id.c0907","meaning":"cheesy; a sweet-talker","note":"Ah, gombal! = Oh, you smooth talker! Teasing, not rude."}
+{"id":"id.c0908","meaning":"girl; woman (casual)","note":"Casual for a young woman; standard: perempuan. Not rude among peers."}
+{"id":"id.c0909","meaning":"guy; man (casual)","note":"Casual for a young man; standard: laki-laki."}
+{"id":"id.c0910","meaning":"You're pretty. (to a woman)","note":"To a woman. To a man: Kamu ganteng. Mild to warm."}
+{"id":"id.c0911","meaning":"You look beautiful tonight.","note":"To a woman on a date. To a man: Kamu ganteng sekali malam ini. Warm."}
+{"id":"id.c0912","meaning":"You look so pretty today.","note":"Casual: banget (standard sekali). To a woman you know. Warm."}
+{"id":"id.c0913","meaning":"You're handsome.","note":"To a man. To a woman: Kamu cantik. Mild to warm."}
+{"id":"id.c0914","meaning":"You look handsome in that shirt.","note":"To a man. Praising clothes is the safe way in. Warm."}
+{"id":"id.c0915","meaning":"You have a sweet smile.","note":"Anyone to anyone. Mild; one of the safest lines."}
+{"id":"id.c0916","meaning":"You're cute when you smile.","note":"Anyone to anyone. Warm."}
+{"id":"id.c0917","meaning":"You're cute when you're shy.","note":"Anyone to anyone. Warm and teasing."}
+{"id":"id.c0918","meaning":"You always make me laugh.","note":"Casual: bikin (make), ketawa (laugh); standard: membuat, tertawa. Warm."}
+{"id":"id.c0919","meaning":"You're really interesting.","note":"Anyone to anyone; can also mean attractive. Warm."}
+{"id":"id.c0920","meaning":"You're an interesting person.","note":"Safer than the line above: clearly about personality. Mild."}
+{"id":"id.c0921","meaning":"I like your style.","note":"Literally \"your style is cool\". Anyone to anyone. Mild."}
+{"id":"id.c0922","meaning":"You're so cool.","note":"Casual: banget. Anyone to anyone. Mild."}
+{"id":"id.c0923","meaning":"You have beautiful eyes.","note":"indah, not cantik, for eyes. Anyone to anyone. Warm to bold."}
+{"id":"id.c0924","meaning":"I love your eyes.","note":"Literally \"I like your eyes\". Warm."}
+{"id":"id.c0925","meaning":"You have a nice voice.","note":"After someone sings, or on the phone. Mild."}
+{"id":"id.c0926","meaning":"Your voice is lovely to listen to.","note":"-mu = your (to a friend). Warm."}
+{"id":"id.c0927","meaning":"Your hair looks nice.","note":"Anyone to anyone. Mild."}
+{"id":"id.c0928","meaning":"You're smart, aren't you?","note":"ya makes it warm and teasing. Mild."}
+{"id":"id.c0929","meaning":"You're so kind-hearted.","note":"Anyone to anyone. Warm, never forward."}
+{"id":"id.c0930","meaning":"I love talking with you.","note":"Casual: ngobrol (chat), sama (with). Warm."}
+{"id":"id.c0931","meaning":"You're so easy to talk to.","note":"Casual. Literally \"you're fun to be invited to chat\". Warm."}
+{"id":"id.c0932","meaning":"I miss you.","note":"Casual: kangen (standard rindu). For someone you are already seeing. Warm to bold."}
+{"id":"id.c0933","meaning":"I have a crush on you.","note":"Casual and playful. Bold."}
+{"id":"id.c0934","meaning":"I like you. (romantically)","note":"A real confession; a big step in Indonesia. Bold."}
+{"id":"id.c0935","meaning":"I love you. (fondly)","note":"For a partner. Far too strong for a first meeting. Bold."}
+{"id":"id.c0936","meaning":"Can I get to know you?","note":"The usual polite opener to a stranger your age. Mild."}
+{"id":"id.c0937","meaning":"Can I have your number?","note":"Usually means the WhatsApp number. Warm."}
+{"id":"id.c0938","meaning":"Want to get coffee sometime?","note":"Casual: ngopi (have coffee), bareng (together). The standard first date. Warm."}
+{"id":"id.c0939","meaning":"Got plans Saturday night?","note":"malam Minggu = Saturday night, the usual date night. Warm."}
+{"id":"id.c0940","meaning":"Are you seeing anyone?","note":"Literally \"do you already have a boyfriend / girlfriend?\". Direct but common. Warm to bold."}
+{"id":"id.c0941","meaning":"I'd like to see you again.","note":"Casual: ketemu (standard bertemu). Warm."}
+{"id":"id.c0942","meaning":"I'm glad you came.","note":"Warm, and safe in any setting."}
+{"id":"id.c0943","meaning":"Oh, you smooth talker!","note":"Playful deflection: \"you don't mean it\". Very common, not a no."}
+{"id":"id.c0944","meaning":"Thanks, you too!","note":"Casual: makasih (standard terima kasih). Returns the compliment."}
+{"id":"id.c0945","meaning":"That's sweet of you.","note":"Warm acceptance. deh adds a soft, settled tone."}
+{"id":"id.c0946","meaning":"Sure, I'd love to.","note":"The yes. Warm."}
+{"id":"id.c0947","meaning":"I'd really like that!","note":"Casual: banget. An enthusiastic yes."}
+{"id":"id.c0948","meaning":"Let's see.","note":"Polite and vague: often a soft no. Mild."}
+{"id":"id.c0949","meaning":"Thanks, but I'm seeing someone.","note":"A kind, clear no."}
+{"id":"id.c0950","meaning":"Sorry, I'm not interested.","note":"A clear no; still polite. Use it when hints don't work."}
+{"id":"id.c0951","meaning":"Thanks, but let's just be friends.","note":"A kind, clear no that keeps the friendship."}

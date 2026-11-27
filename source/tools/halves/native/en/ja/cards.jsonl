@@ -1,0 +1,974 @@
+{"id":"ja.c0001","meaning":"a, as in \"father\"","note":"Short and open, never \"ay\"."}
+{"id":"ja.c0002","meaning":"i, as in \"ski\"","note":"Always \"ee\", never \"eye\"."}
+{"id":"ja.c0003","meaning":"u, as in \"food\"","note":"Shorter than in English, with relaxed lips."}
+{"id":"ja.c0004","meaning":"e, as in \"pet\"","note":"Always \"eh\", never \"ee\"."}
+{"id":"ja.c0005","meaning":"o, as in \"kimono\"","note":"A pure \"oh\", with no w sound at the end."}
+{"id":"ja.c0006","meaning":"ka, as in \"karate\"","note":""}
+{"id":"ja.c0007","meaning":"ki, as in \"key\"","note":"Two crossbars; さ (sa) has only one."}
+{"id":"ja.c0008","meaning":"ku, as in \"cool\"","note":"A single bent stroke, like an open beak."}
+{"id":"ja.c0009","meaning":"ke, as in \"kettle\"","note":""}
+{"id":"ja.c0010","meaning":"ko, as in \"koi\"","note":"Two short lines, one above the other."}
+{"id":"ja.c0011","meaning":"sa, as in \"sake\"","note":"Do not mix it up with ち (chi): the curve faces the other way."}
+{"id":"ja.c0012","meaning":"shi, as in \"sushi\"","note":"Not si: the row is sa shi su se so."}
+{"id":"ja.c0013","meaning":"su, as in \"sumo\"","note":"The u is very light: です often sounds like \"dess\"."}
+{"id":"ja.c0014","meaning":"se, as in \"set\"","note":""}
+{"id":"ja.c0015","meaning":"so, as in \"soba\"","note":"Written in one zigzag stroke."}
+{"id":"ja.c0016","meaning":"ta, as in \"taco\"","note":"Compare な (na), which ends in a small loop."}
+{"id":"ja.c0017","meaning":"chi, as in \"cheese\"","note":"Do not mix it up with さ (sa): the curve faces the other way."}
+{"id":"ja.c0018","meaning":"tsu, as in \"tsunami\"","note":"ts as in \"cats\", at the start of the word."}
+{"id":"ja.c0019","meaning":"te, as in \"tempura\"","note":""}
+{"id":"ja.c0020","meaning":"to, as in \"tofu\"","note":"Also the particle と: \"and\", \"with\"."}
+{"id":"ja.c0021","meaning":"na, as in \"nachos\"","note":"Compare た (ta): な ends in a small loop."}
+{"id":"ja.c0022","meaning":"ni, as in \"knee\"","note":"Also the particle に: \"to\", \"at\"."}
+{"id":"ja.c0023","meaning":"nu, as in \"noodle\"","note":"Like め (me), with a small loop at the end."}
+{"id":"ja.c0024","meaning":"ne, as in \"net\"","note":"Ends in a loop; れ (re) ends in a kick, わ (wa) in a curve."}
+{"id":"ja.c0025","meaning":"no, as in \"nori\"","note":"Also the particle の: わたしの means \"my\"."}
+{"id":"ja.c0026","meaning":"ha, as in \"haiku\"","note":"As the topic particle it is said wa: わたしは."}
+{"id":"ja.c0027","meaning":"hi, as in \"heat\"","note":"One stroke, shaped like a wide smile."}
+{"id":"ja.c0028","meaning":"fu, as in \"Mount Fuji\"","note":"A soft f, blown between the lips."}
+{"id":"ja.c0029","meaning":"he, as in \"help\"","note":"As the direction particle it is said e: とうきょうへ."}
+{"id":"ja.c0030","meaning":"ho, as in \"hotel\"","note":"Like は (ha), with one more line on top."}
+{"id":"ja.c0031","meaning":"ma, as in \"manga\"","note":"Compare ほ (ho): ま has no line on the left."}
+{"id":"ja.c0032","meaning":"mi, as in \"meet\"","note":""}
+{"id":"ja.c0033","meaning":"mu, as in \"moose\"","note":"The u is short and light."}
+{"id":"ja.c0034","meaning":"me, as in \"met\"","note":"Like ぬ (nu), but with no loop at the end."}
+{"id":"ja.c0035","meaning":"mo, as in \"mochi\"","note":"Also the particle も: \"too\"."}
+{"id":"ja.c0036","meaning":"ya, as in \"yacht\"","note":""}
+{"id":"ja.c0037","meaning":"yu, as in \"you\"","note":""}
+{"id":"ja.c0038","meaning":"yo, as in \"yoga\"","note":""}
+{"id":"ja.c0039","meaning":"ra, as in \"ramen\"","note":"Japanese r is a light tap, between r, l and d."}
+{"id":"ja.c0040","meaning":"ri, as in \"reef\"","note":"Two strokes; the right one is longer."}
+{"id":"ja.c0041","meaning":"ru, as in \"root\"","note":"Ends in a small loop; ろ (ro) does not."}
+{"id":"ja.c0042","meaning":"re, as in \"red\"","note":"Compare ね (ne) and わ (wa): れ ends in a kick."}
+{"id":"ja.c0043","meaning":"ro, as in \"robot\"","note":"Like る (ru), but with no loop."}
+{"id":"ja.c0044","meaning":"wa, as in \"wasabi\"","note":"The topic particle is said wa but written は."}
+{"id":"ja.c0045","meaning":"o, only for the object particle","note":"Said like お; used only after the object: すしを."}
+{"id":"ja.c0046","meaning":"n, the letter with no vowel","note":"Before b, m, p it sounds like m: しんぶん."}
+{"id":"ja.c0047","meaning":"ga: か with two dots","note":"Two dots turn k into g, s into z, t into d, h into b."}
+{"id":"ja.c0048","meaning":"gi: き with two dots","note":"As in ぎんこう (bank)."}
+{"id":"ja.c0049","meaning":"gu: く with two dots","note":"As in すぐ (right away)."}
+{"id":"ja.c0050","meaning":"ge: け with two dots","note":"As in げんき (well, healthy)."}
+{"id":"ja.c0051","meaning":"go: こ with two dots","note":"As in ごはん (rice, a meal)."}
+{"id":"ja.c0052","meaning":"za: さ with two dots","note":"As in ざっし (magazine)."}
+{"id":"ja.c0053","meaning":"ji, as in \"jeep\"","note":"ぢ is said the same and is rare."}
+{"id":"ja.c0054","meaning":"zu: す with two dots","note":"づ is said the same and is rare."}
+{"id":"ja.c0055","meaning":"ze: せ with two dots","note":"As in ぜんぶ (all)."}
+{"id":"ja.c0056","meaning":"zo: そ with two dots","note":"As in かぞく (family)."}
+{"id":"ja.c0057","meaning":"da: た with two dots","note":"As in だいがく (university)."}
+{"id":"ja.c0058","meaning":"de: て with two dots","note":"Also the particle で: where something happens, or \"by\"."}
+{"id":"ja.c0059","meaning":"do: と with two dots","note":"As in どこ (where)."}
+{"id":"ja.c0060","meaning":"ba: は with two dots","note":"As in ばんごはん (dinner)."}
+{"id":"ja.c0061","meaning":"bi: ひ with two dots","note":"As in えび (shrimp)."}
+{"id":"ja.c0062","meaning":"bu: ふ with two dots","note":"As in しんぶん (newspaper)."}
+{"id":"ja.c0063","meaning":"be: へ with two dots","note":"As in たべます (to eat)."}
+{"id":"ja.c0064","meaning":"bo: ほ with two dots","note":"As in ぼうし (hat)."}
+{"id":"ja.c0065","meaning":"pa: は with a circle","note":"The circle turns h into p."}
+{"id":"ja.c0066","meaning":"pi: ひ with a circle","note":"As in えんぴつ (pencil)."}
+{"id":"ja.c0067","meaning":"pu: ふ with a circle","note":"As in てんぷら."}
+{"id":"ja.c0068","meaning":"pe: へ with a circle","note":""}
+{"id":"ja.c0069","meaning":"po: ほ with a circle","note":"As in さんぽ (a walk)."}
+{"id":"ja.c0070","meaning":"kya, one beat","note":"Small ゃ joins き into one beat: きゃ, not きや (ki-ya)."}
+{"id":"ja.c0071","meaning":"photo","note":"Small ゃ joins し into one beat: sha-shin, not shi-ya-shin."}
+{"id":"ja.c0072","meaning":"postage stamp","note":"Small っ is a short pause: kit-te. きて (kite) means \"come\"."}
+{"id":"ja.c0073","meaning":"grandmother","note":"Hold the あ for two beats. おばさん (obasan) means \"aunt\"."}
+{"id":"ja.c0074","meaning":"Tokyo","note":"お + う and ょ + う are long vowels: four beats, to-o-kyo-o."}
+{"id":"ja.c0075","meaning":"a, as in アメリカ (America)","note":""}
+{"id":"ja.c0076","meaning":"i, as in インク (ink)","note":"Two strokes: a slant and a straight line down."}
+{"id":"ja.c0077","meaning":"u, as in ウール (wool)","note":"Compare ワ (wa), which has no short stroke on top."}
+{"id":"ja.c0078","meaning":"e, as in エアコン (air conditioner)","note":"Three strokes, like a capital I."}
+{"id":"ja.c0079","meaning":"o, as in オレンジ (orange)","note":""}
+{"id":"ja.c0080","meaning":"ka, as in カメラ (camera)","note":"Looks like the hiragana か without the dot."}
+{"id":"ja.c0081","meaning":"ki, as in キロ (kilo)","note":"Like the hiragana き without the bottom curve."}
+{"id":"ja.c0082","meaning":"ku, as in クラス (class)","note":"Compare タ (ta), which has one more stroke inside."}
+{"id":"ja.c0083","meaning":"ke, as in ケーキ (cake)","note":"In katakana a long vowel is written with ー: ケーキ."}
+{"id":"ja.c0084","meaning":"ko, as in コーラ (cola)","note":"Two strokes, like a square bracket."}
+{"id":"ja.c0085","meaning":"sa, as in サラダ (salad)","note":""}
+{"id":"ja.c0086","meaning":"shi, as in タクシー (taxi)","note":"The two short strokes sit on the left; the long one sweeps up."}
+{"id":"ja.c0087","meaning":"su, as in スキー (ski)","note":"Compare ヌ (nu), which has an extra short stroke."}
+{"id":"ja.c0088","meaning":"se, as in セーター (sweater)","note":"Like the hiragana せ."}
+{"id":"ja.c0089","meaning":"so, as in ソース (sauce)","note":"Looks like ン (n): ソ's long stroke falls from the top."}
+{"id":"ja.c0090","meaning":"ta, as in タオル (towel)","note":"Like ク (ku), with an extra stroke inside."}
+{"id":"ja.c0091","meaning":"chi, as in チーズ (cheese)","note":"Compare テ (te): チ's top stroke slants."}
+{"id":"ja.c0092","meaning":"tsu, as in ツアー (tour)","note":"The two short strokes sit on top; the long one falls."}
+{"id":"ja.c0093","meaning":"te, as in テニス (tennis)","note":""}
+{"id":"ja.c0094","meaning":"to, as in トマト (tomato)","note":"One line down and a short stroke to the right."}
+{"id":"ja.c0095","meaning":"na, as in バナナ (banana)","note":"Compare メ (me): ナ is a straight cross."}
+{"id":"ja.c0096","meaning":"ni, as in ニュース (news)","note":"Two flat lines."}
+{"id":"ja.c0097","meaning":"nu, as in カヌー (canoe)","note":"Like ス (su), with an extra short stroke."}
+{"id":"ja.c0098","meaning":"ne, as in ネクタイ (necktie)","note":""}
+{"id":"ja.c0099","meaning":"no, as in ノート (notebook)","note":"A single slanting stroke."}
+{"id":"ja.c0100","meaning":"ha, as in ハンバーガー (hamburger)","note":"Two strokes spreading apart."}
+{"id":"ja.c0101","meaning":"hi, as in ヒーター (heater)","note":""}
+{"id":"ja.c0102","meaning":"fu, as in フランス (France)","note":"Compare ワ (wa), which has a short stroke on the left."}
+{"id":"ja.c0103","meaning":"he, as in ヘリコプター (helicopter)","note":"Almost the same as the hiragana へ."}
+{"id":"ja.c0104","meaning":"ho, as in ホテル (hotel)","note":"A cross with two short strokes below it."}
+{"id":"ja.c0105","meaning":"ma, as in マスク (mask)","note":"Compare ム (mu)."}
+{"id":"ja.c0106","meaning":"mi, as in ミルク (milk)","note":"Three short slanting strokes."}
+{"id":"ja.c0107","meaning":"mu, as in ゲーム (game)","note":"Compare マ (ma)."}
+{"id":"ja.c0108","meaning":"me, as in メニュー (menu)","note":""}
+{"id":"ja.c0109","meaning":"mo, as in メモ (memo)","note":"Like the hiragana も, but with straight lines."}
+{"id":"ja.c0110","meaning":"ya, as in タイヤ (tire)","note":"Like the hiragana や."}
+{"id":"ja.c0111","meaning":"yu, as in ユーロ (euro)","note":""}
+{"id":"ja.c0112","meaning":"yo, as in ヨーグルト (yogurt)","note":"Three flat strokes joined by one stroke down the right side."}
+{"id":"ja.c0113","meaning":"ra, as in ラーメン (ramen)","note":"Japanese r is a light tap, between r, l and d."}
+{"id":"ja.c0114","meaning":"ri, as in リモコン (remote control)","note":"Like the hiragana り."}
+{"id":"ja.c0115","meaning":"ru, as in ルール (rule)","note":""}
+{"id":"ja.c0116","meaning":"re, as in レストラン (restaurant)","note":"One stroke down and up; ル (ru) has two."}
+{"id":"ja.c0117","meaning":"ro, as in ロボット (robot)","note":"A square box."}
+{"id":"ja.c0118","meaning":"wa, as in ワイン (wine)","note":"Compare ウ (u), which has a short stroke on top."}
+{"id":"ja.c0119","meaning":"o, the rare katakana object particle","note":"Rare: the object particle is almost always written を."}
+{"id":"ja.c0120","meaning":"n, as in パン (bread)","note":"ン's long stroke rises from the bottom; compare ソ."}
+{"id":"ja.c0121","meaning":"coffee","note":"ー makes the vowel before it long: ko-o-hi-i."}
+{"id":"ja.c0122","meaning":"party (the event)","note":"ティ with a small ィ writes the English \"ti\" sound."}
+{"id":"ja.c0123","meaning":"fan (of a team or a singer)","note":"Small ァ joins フ into one beat: fa."}
+{"id":"ja.c0124","meaning":"the web","note":"Small ェ joins ウ into one beat: we."}
+{"id":"ja.c0125","meaning":"one","note":"Reading: いち. One line."}
+{"id":"ja.c0126","meaning":"two","note":"Reading: に. Two lines."}
+{"id":"ja.c0127","meaning":"three","note":"Reading: さん. One line, two lines, three lines: 一 二 三."}
+{"id":"ja.c0128","meaning":"four","note":"Reading: よん. But 4 o'clock is よじ."}
+{"id":"ja.c0129","meaning":"five","note":"Reading: ご."}
+{"id":"ja.c0130","meaning":"six","note":"Reading: ろく. 600 is ろっぴゃく."}
+{"id":"ja.c0131","meaning":"seven","note":"Reading: なな. You will also hear しち, as in しちじ (7:00)."}
+{"id":"ja.c0132","meaning":"eight","note":"Reading: はち. Two strokes spreading apart."}
+{"id":"ja.c0133","meaning":"nine","note":"Reading: きゅう. But 9 o'clock is くじ."}
+{"id":"ja.c0134","meaning":"ten","note":"Reading: じゅう. A cross, like a plus sign."}
+{"id":"ja.c0135","meaning":"one hundred","note":"Reading: ひゃく. 300 is さんびゃく."}
+{"id":"ja.c0136","meaning":"one thousand","note":"Reading: せん. 3,000 is さんぜん."}
+{"id":"ja.c0137","meaning":"ten thousand","note":"Reading: いちまん. Japanese counts big numbers in ten-thousands (まん)."}
+{"id":"ja.c0138","meaning":"yen","note":"Reading: えん. The ¥ sign stands for this word."}
+{"id":"ja.c0139","meaning":"Monday","note":"Reading: げつようび. 月 = moon, month."}
+{"id":"ja.c0140","meaning":"Tuesday","note":"Reading: かようび. 火 = fire."}
+{"id":"ja.c0141","meaning":"Wednesday","note":"Reading: すいようび. 水 = water."}
+{"id":"ja.c0142","meaning":"Thursday","note":"Reading: もくようび. 木 = tree, wood."}
+{"id":"ja.c0143","meaning":"Friday","note":"Reading: きんようび. 金 = gold, money."}
+{"id":"ja.c0144","meaning":"Saturday","note":"Reading: どようび. 土 = earth, soil."}
+{"id":"ja.c0145","meaning":"Sunday","note":"Reading: にちようび. 日 = sun, day; here it is にち."}
+{"id":"ja.c0146","meaning":"six o'clock","note":"Reading: ろくじ. 時 = o'clock, hour."}
+{"id":"ja.c0147","meaning":"five minutes","note":"Reading: ごふん. 分 = minute."}
+{"id":"ja.c0148","meaning":"one year","note":"Reading: いちねん. 年 = year."}
+{"id":"ja.c0149","meaning":"Japan","note":"Reading: にほん. 日 = sun, day; 本 = origin, book."}
+{"id":"ja.c0150","meaning":"Japanese person","note":"Reading: にほんじん. After a country, 人 is read じん."}
+{"id":"ja.c0151","meaning":"person","note":"Reading: ひと. After a country it is じん: アメリカじん."}
+{"id":"ja.c0152","meaning":"man","note":"Reading: おとこのひと. 男 = male; word for word, \"male person\"."}
+{"id":"ja.c0153","meaning":"woman","note":"Reading: おんなのひと. 女 = female."}
+{"id":"ja.c0154","meaning":"girl","note":"Reading: おんなのこ. 子 = child."}
+{"id":"ja.c0155","meaning":"Hello. / Good afternoon.","note":"Written with は, said wa. Used from late morning until evening."}
+{"id":"ja.c0156","meaning":"Good morning.","note":"To friends and family: おはよう."}
+{"id":"ja.c0157","meaning":"Good evening.","note":"Written with は, said wa."}
+{"id":"ja.c0158","meaning":"Nice to meet you.","note":"Said only the first time you meet someone."}
+{"id":"ja.c0159","meaning":"I'm Emily.","note":"No さん after your own name: さん is only for other people."}
+{"id":"ja.c0160","meaning":"I look forward to knowing you.","note":"Ends every self-introduction; there is no exact English."}
+{"id":"ja.c0161","meaning":"I'm American.","note":"Country + じん = a person from that country."}
+{"id":"ja.c0162","meaning":"I'm a student.","note":"No word for \"I\" is needed when it is clear who you mean."}
+{"id":"ja.c0163","meaning":"I work for a company.","note":"The usual answer for an office job."}
+{"id":"ja.c0164","meaning":"What's your name?","note":"お makes it polite. Never add お to your own name."}
+{"id":"ja.c0165","meaning":"What do you do for work?","note":"お makes it polite; your own job is just しごと."}
+{"id":"ja.c0166","meaning":"How have you been?","note":"To someone you have not seen for a while, not as a daily \"How are you?\""}
+{"id":"ja.c0167","meaning":"Excuse me. / Sorry.","note":"Also a polite \"thank you\" when someone goes to trouble for you."}
+{"id":"ja.c0168","meaning":"Thank you.","note":"To friends: ありがとう."}
+{"id":"ja.c0169","meaning":"You're welcome.","note":"Correct but a little stiff; in daily life people often answer thanks with いいえ."}
+{"id":"ja.c0170","meaning":"Excuse me. (entering or leaving)","note":"Said when you go into or leave an office, a classroom or a meeting."}
+{"id":"ja.c0171","meaning":"See you later.","note":"Casual goodbye to friends and coworkers you will see again; to a boss, しつれいします."}
+{"id":"ja.c0172","meaning":"Goodbye.","note":"Sounds final; to someone you will see again, じゃあ また is more natural."}
+{"id":"ja.c0173","meaning":"my mother","note":"Your own mother, when you talk to other people."}
+{"id":"ja.c0174","meaning":"(someone's) mother; Mom","note":"Someone else's mother, or what you call your own."}
+{"id":"ja.c0175","meaning":"my father","note":"Your own father, when you talk to other people."}
+{"id":"ja.c0176","meaning":"(someone's) father; Dad","note":"Someone else's father, or what you call your own."}
+{"id":"ja.c0177","meaning":"my older brother","note":"Someone else's older brother: おにいさん."}
+{"id":"ja.c0178","meaning":"(someone's) older brother","note":"Hold the い for two beats. Also what you call your own older brother."}
+{"id":"ja.c0179","meaning":"my older sister","note":"Someone else's older sister: おねえさん."}
+{"id":"ja.c0180","meaning":"(someone's) older sister","note":"Hold the え for two beats. Also what you call your own older sister."}
+{"id":"ja.c0181","meaning":"my younger sister","note":"Someone else's younger sister: いもうとさん."}
+{"id":"ja.c0182","meaning":"my younger brother","note":"Compare おとうさん (father). Someone else's: おとうとさん."}
+{"id":"ja.c0183","meaning":"brothers and sisters","note":"One word for brothers and sisters together."}
+{"id":"ja.c0184","meaning":"my family","note":"Someone else's family: ごかぞく."}
+{"id":"ja.c0185","meaning":"(someone's) family","note":"ご makes it polite; never use it for your own family."}
+{"id":"ja.c0186","meaning":"friend","note":""}
+{"id":"ja.c0187","meaning":"that person; he, she","note":"Safer than かれ and かのじょ, which also mean boyfriend and girlfriend."}
+{"id":"ja.c0188","meaning":"child; children","note":""}
+{"id":"ja.c0189","meaning":"teacher","note":"Also a title after a name, instead of さん: やまだせんせい."}
+{"id":"ja.c0190","meaning":"I'm married.","note":"けっこんします means \"I will get married.\""}
+{"id":"ja.c0191","meaning":"ten thousand","note":"Japanese counts in ten-thousands: 20,000 is にまん."}
+{"id":"ja.c0192","meaning":"three hundred","note":"ひゃく becomes びゃく after さん."}
+{"id":"ja.c0193","meaning":"six hundred","note":"ろく + ひゃく becomes ろっぴゃく."}
+{"id":"ja.c0194","meaning":"three thousand","note":"せん becomes ぜん after さん."}
+{"id":"ja.c0195","meaning":"1,000 yen","note":"A ¥1,000 bill; about the price of a bowl of ramen."}
+{"id":"ja.c0196","meaning":"150 yen","note":"About the price of a rice ball at a convenience store."}
+{"id":"ja.c0197","meaning":"20,000 yen","note":"Count the ten-thousands: not にじゅうせんえん."}
+{"id":"ja.c0198","meaning":"How much is it?","note":""}
+{"id":"ja.c0199","meaning":"800 yen","note":"はち + ひゃく becomes はっぴゃく."}
+{"id":"ja.c0200","meaning":"four o'clock","note":"Not しじ or よんじ."}
+{"id":"ja.c0201","meaning":"seven o'clock","note":"ななじ is also heard."}
+{"id":"ja.c0202","meaning":"nine o'clock","note":"Not きゅうじ."}
+{"id":"ja.c0203","meaning":"three thirty","note":"はん means \"half past\"."}
+{"id":"ja.c0204","meaning":"ten minutes","note":"ふん becomes ぷん after じゅう; じっぷん is also correct."}
+{"id":"ja.c0205","meaning":"What time is it?","note":"Add いま (now) to be clear: いま なんじですか."}
+{"id":"ja.c0206","meaning":"a.m.; in the morning","note":"Goes before the time: ごぜん くじ is 9 a.m."}
+{"id":"ja.c0207","meaning":"p.m.; in the afternoon","note":"Goes before the time: ごご さんじ is 3 p.m."}
+{"id":"ja.c0208","meaning":"How old are you?","note":"Fine with children; with adults, おいくつですか is more polite."}
+{"id":"ja.c0209","meaning":"(said before eating)","note":"No English equivalent; say it before every meal."}
+{"id":"ja.c0210","meaning":"(said after eating)","note":"Say it when you finish, to the cook, the host or the person who paid."}
+{"id":"ja.c0211","meaning":"rice ball","note":"About ¥150 at a convenience store."}
+{"id":"ja.c0212","meaning":"Water, please.","note":""}
+{"id":"ja.c0213","meaning":"green tea; tea","note":"The お is part of the word; in Japan \"tea\" usually means green tea."}
+{"id":"ja.c0214","meaning":"One coffee, please.","note":"The number comes after を, right before ください."}
+{"id":"ja.c0215","meaning":"Two apples, please.","note":"The number goes after を, right before the verb."}
+{"id":"ja.c0216","meaning":"Can I have the menu?","note":"メニュー has a long vowel at the end: me-nyu-u."}
+{"id":"ja.c0217","meaning":"What do you recommend?","note":"A good question for a waiter."}
+{"id":"ja.c0218","meaning":"There are two of us.","note":"The answer when staff ask how many are in your party."}
+{"id":"ja.c0219","meaning":"It's delicious.","note":""}
+{"id":"ja.c0220","meaning":"I'm hungry.","note":"Word for word: \"my stomach has become empty.\""}
+{"id":"ja.c0221","meaning":"I'm thirsty.","note":"Word for word: \"my throat has become dry.\""}
+{"id":"ja.c0222","meaning":"I don't eat meat.","note":"The object particle を, then the polite ending ません."}
+{"id":"ja.c0223","meaning":"Check, please.","note":"In many places you pay at the register by the door."}
+{"id":"ja.c0224","meaning":"tempura","note":"Seafood and vegetables fried in a light batter."}
+{"id":"ja.c0225","meaning":"breakfast","note":"ごはん is cooked rice, and also \"a meal\"."}
+{"id":"ja.c0226","meaning":"vegetables","note":""}
+{"id":"ja.c0227","meaning":"Welcome! (said by shop staff)","note":"Staff say it as you walk in; you don't need to answer."}
+{"id":"ja.c0228","meaning":"How much is this?","note":""}
+{"id":"ja.c0229","meaning":"How much is it altogether?","note":"ぜんぶで = \"all together\"."}
+{"id":"ja.c0230","meaning":"this one (near me)","note":"これ stands alone; before a noun use この."}
+{"id":"ja.c0231","meaning":"that one (near you)","note":"Near the person you are talking to."}
+{"id":"ja.c0232","meaning":"that one (over there)","note":"Far from both of you. それ is near the listener."}
+{"id":"ja.c0233","meaning":"this bag","note":"この comes before a noun; これ stands alone."}
+{"id":"ja.c0234","meaning":"I'll take that one.","note":"Word for word: \"please give me that.\""}
+{"id":"ja.c0235","meaning":"It's expensive.","note":""}
+{"id":"ja.c0236","meaning":"It's cheap.","note":"The opposite of たかい."}
+{"id":"ja.c0237","meaning":"Can I pay by card?","note":"で marks how you pay."}
+{"id":"ja.c0238","meaning":"I don't need a bag.","note":"Most shops charge a few yen for a bag."}
+{"id":"ja.c0239","meaning":"Do you have a pen?","note":"あります is for things; people and animals take います."}
+{"id":"ja.c0240","meaning":"It's on the desk.","note":"Where a thing is takes the location particle に."}
+{"id":"ja.c0241","meaning":"umbrella","note":""}
+{"id":"ja.c0242","meaning":"wallet","note":""}
+{"id":"ja.c0243","meaning":"smartphone","note":"Short for スマートフォン."}
+{"id":"ja.c0244","meaning":"receipt","note":"Cashiers usually hand it to you with the change."}
+{"id":"ja.c0245","meaning":"to get up","note":""}
+{"id":"ja.c0246","meaning":"to go to bed; to sleep","note":""}
+{"id":"ja.c0247","meaning":"to eat","note":"What you eat takes を: パンを たべます."}
+{"id":"ja.c0248","meaning":"to drink","note":"Also used for taking medicine."}
+{"id":"ja.c0249","meaning":"to go","note":"Where you go takes に or へ."}
+{"id":"ja.c0250","meaning":"I go home.","note":"かえります = go back to where you belong."}
+{"id":"ja.c0251","meaning":"to work","note":"Where you work usually takes で: ぎんこうで はたらきます."}
+{"id":"ja.c0252","meaning":"to study","note":""}
+{"id":"ja.c0253","meaning":"to take a shower","note":"Word for word: \"pour a shower over yourself\"."}
+{"id":"ja.c0254","meaning":"I watch TV and then go to bed.","note":"The て form joins two actions in order."}
+{"id":"ja.c0255","meaning":"every day","note":"No particle after it."}
+{"id":"ja.c0256","meaning":"today","note":"No particle after it."}
+{"id":"ja.c0257","meaning":"tomorrow","note":"No particle after it."}
+{"id":"ja.c0258","meaning":"yesterday","note":""}
+{"id":"ja.c0259","meaning":"Saturday","note":"With an action, a day takes に: どようびに."}
+{"id":"ja.c0260","meaning":"sometimes","note":"Goes before the verb phrase: ときどき すしを たべます."}
+{"id":"ja.c0261","meaning":"I don't eat much.","note":"あまり goes with a negative ending: ません."}
+{"id":"ja.c0262","meaning":"I didn't eat breakfast.","note":"Didn't: the polite ending ませんでした."}
+{"id":"ja.c0263","meaning":"big","note":""}
+{"id":"ja.c0264","meaning":"small","note":"Two い in a row: chi-i-sa-i."}
+{"id":"ja.c0265","meaning":"new","note":""}
+{"id":"ja.c0266","meaning":"old (for things)","note":"Not for a person's age."}
+{"id":"ja.c0267","meaning":"difficult","note":""}
+{"id":"ja.c0268","meaning":"interesting; fun","note":"Also \"funny\", for a person or a show."}
+{"id":"ja.c0269","meaning":"cold (weather)","note":"For a cold drink or object, use つめたい."}
+{"id":"ja.c0270","meaning":"It's hot, isn't it?","note":"Small talk about the weather; ね asks for agreement."}
+{"id":"ja.c0271","meaning":"a clean room; a pretty room","note":"きれい is a な-adjective, although it ends in い."}
+{"id":"ja.c0272","meaning":"quiet","note":"な-adjective: しずかな こうえん (a quiet park)."}
+{"id":"ja.c0273","meaning":"famous","note":""}
+{"id":"ja.c0274","meaning":"It was expensive.","note":"Not たかいでした."}
+{"id":"ja.c0275","meaning":"It's not expensive.","note":"Not たかいじゃないです."}
+{"id":"ja.c0276","meaning":"It's not clean.","note":"Not きれいくない: きれい is a な-adjective."}
+{"id":"ja.c0277","meaning":"It was good.","note":"いい is irregular: よかった, not いかった."}
+{"id":"ja.c0278","meaning":"I think it's delicious.","note":"No だ after an い-adjective before と."}
+{"id":"ja.c0279","meaning":"Which one is better?","note":"For a choice between two."}
+{"id":"ja.c0280","meaning":"Tokyo is bigger than Osaka.","note":"より means \"than\" and follows the thing you compare with."}
+{"id":"ja.c0281","meaning":"I like cats.","note":"すき takes が, not を."}
+{"id":"ja.c0282","meaning":"I love music.","note":"だいすき = \"really like\"; also takes が."}
+{"id":"ja.c0283","meaning":"I don't like vegetables.","note":"Sounds strong; あまり すきじゃないです is softer."}
+{"id":"ja.c0284","meaning":"What kind of movies do you like?","note":"どんな = \"what kind of\"; the question word stays where the answer goes."}
+{"id":"ja.c0285","meaning":"hobby","note":""}
+{"id":"ja.c0286","meaning":"What do you do on weekends?","note":"なにを sits where the answer will go: テニスを します."}
+{"id":"ja.c0287","meaning":"to watch a movie","note":""}
+{"id":"ja.c0288","meaning":"to read a book","note":"What you read takes the object particle を."}
+{"id":"ja.c0289","meaning":"to listen to music","note":"ききます also means \"to ask\"."}
+{"id":"ja.c0290","meaning":"to play tennis","note":"Many sports use します: サッカーを します."}
+{"id":"ja.c0291","meaning":"is good at cooking","note":"Praise for someone else; about yourself it sounds like bragging."}
+{"id":"ja.c0292","meaning":"in my free time","note":"ひま = free, not busy."}
+{"id":"ja.c0293","meaning":"day off; vacation","note":""}
+{"id":"ja.c0294","meaning":"Would you like to go together?","note":"ませんか is a polite invitation, not a real negative."}
+{"id":"ja.c0295","meaning":"Sounds good!","note":"The usual way to say yes to an invitation."}
+{"id":"ja.c0296","meaning":"Let's go to karaoke.","note":"ましょう = \"let's\"."}
+{"id":"ja.c0297","meaning":"I want to go.","note":""}
+{"id":"ja.c0298","meaning":"I'm planning to travel.","note":"Dictionary form before つもり: する, not します."}
+{"id":"ja.c0299","meaning":"Where is the station?","note":""}
+{"id":"ja.c0300","meaning":"restroom","note":""}
+{"id":"ja.c0301","meaning":"right (direction)","note":""}
+{"id":"ja.c0302","meaning":"left (direction)","note":"ひだりに まがります = turn left."}
+{"id":"ja.c0303","meaning":"straight ahead","note":""}
+{"id":"ja.c0304","meaning":"Please go straight.","note":"What you say to a taxi driver; you will also hear it in directions."}
+{"id":"ja.c0305","meaning":"Is it far from here?","note":"から = from."}
+{"id":"ja.c0306","meaning":"by train","note":"で marks how you travel."}
+{"id":"ja.c0307","meaning":"I'll go by bus.","note":"The means particle で: バスで."}
+{"id":"ja.c0308","meaning":"I'll walk there.","note":"Not あるくで: \"on foot\" is the て form あるいて."}
+{"id":"ja.c0309","meaning":"subway","note":"Word for word: \"underground iron\"."}
+{"id":"ja.c0310","meaning":"ticket (for a train)","note":"Small っ: kip-pu. Most people now tap a transit card."}
+{"id":"ja.c0311","meaning":"How much is it to Shinjuku?","note":"まで = \"as far as\"."}
+{"id":"ja.c0312","meaning":"Does this train go to Shibuya?","note":"Ask station staff or another passenger before you board."}
+{"id":"ja.c0313","meaning":"park","note":"Long ō: ko-o-e-n, four beats (ん is a beat too)."}
+{"id":"ja.c0314","meaning":"I'm lost.","note":"Word for word: \"I lost my way.\""}
+{"id":"ja.c0315","meaning":"I want to go to Kyoto.","note":"たい is for your own wishes, not other people's."}
+{"id":"ja.c0316","meaning":"I've been to Okinawa.","note":"Past short form いった + ことが あります = \"have done\"."}
+{"id":"ja.c0317","meaning":"Please wait a moment.","note":""}
+{"id":"ja.c0318","meaning":"One more time, please.","note":"When you didn't catch something."}
+{"id":"ja.c0319","meaning":"Please speak slowly.","note":"て form + ください = please do."}
+{"id":"ja.c0320","meaning":"Please help me.","note":"For a hand with something; for an emergency, shout たすけて."}
+{"id":"ja.c0321","meaning":"Help!","note":""}
+{"id":"ja.c0322","meaning":"May I come in?","note":""}
+{"id":"ja.c0323","meaning":"May I take a picture?","note":"ても いいですか asks permission for yourself."}
+{"id":"ja.c0324","meaning":"May I sit here?","note":"Where you sit takes に."}
+{"id":"ja.c0325","meaning":"You can't smoke here.","note":"ては いけません = must not; you will hear it more than say it."}
+{"id":"ja.c0326","meaning":"I have a headache.","note":"Word for word: \"head is painful\"."}
+{"id":"ja.c0327","meaning":"My stomach hurts.","note":"んです explains your situation, for example to a doctor."}
+{"id":"ja.c0328","meaning":"I feel sick.","note":"Word for word: \"my feeling is bad\"."}
+{"id":"ja.c0329","meaning":"I have to take medicine.","note":"You \"drink\" medicine in Japanese: のみます."}
+{"id":"ja.c0330","meaning":"You'd better rest.","note":"Advice to a friend; it can sound pushy to someone senior."}
+{"id":"ja.c0331","meaning":"hospital","note":"びよういん (biyōin) is a hair salon."}
+{"id":"ja.c0332","meaning":"Please call an ambulance.","note":"The emergency number for an ambulance in Japan is 119."}
+{"id":"ja.c0333","meaning":"police","note":"The police number in Japan is 110."}
+{"id":"ja.c0334","meaning":"I lost my wallet.","note":"Say it at a police box (こうばん)."}
+{"id":"ja.c0335","meaning":"yeah (casual yes)","note":"To friends only; はい to everyone else."}
+{"id":"ja.c0336","meaning":"nope (casual no)","note":"Polite: いいえ."}
+{"id":"ja.c0337","meaning":"thanks (casual)","note":"Polite: ありがとうございます."}
+{"id":"ja.c0338","meaning":"sorry (casual)","note":"Polite: すみません."}
+{"id":"ja.c0339","meaning":"How are you? (casual)","note":"To a friend you haven't seen for a while. Answer: うん、げんき."}
+{"id":"ja.c0340","meaning":"Are you going? (casual)","note":"Dictionary form with a rising voice. Polite: いきますか。"}
+{"id":"ja.c0341","meaning":"to eat (dictionary form)","note":"Polite: たべます."}
+{"id":"ja.c0342","meaning":"don't eat (casual)","note":"Polite: たべません."}
+{"id":"ja.c0343","meaning":"not going (casual)","note":"Polite: いきません."}
+{"id":"ja.c0344","meaning":"to do (dictionary form)","note":"Irregular. Polite: します."}
+{"id":"ja.c0345","meaning":"to come (dictionary form)","note":"Irregular: its negative is こない. Polite: きます."}
+{"id":"ja.c0346","meaning":"there isn't; I don't have one (casual)","note":"Short form of ありません; never あらない."}
+{"id":"ja.c0347","meaning":"What? (casual)","note":"Polite: なんですか。"}
+{"id":"ja.c0348","meaning":"Are you OK? (casual)","note":"Polite: だいじょうぶですか。"}
+{"id":"ja.c0349","meaning":"Want to eat together? (casual)","note":"Casual invitation; polite: いっしょに たべませんか。"}
+{"id":"ja.c0350","meaning":"Yeah, that's true. (casual)","note":"Polite: そうですね."}
+{"id":"ja.c0351","meaning":"Night! (casual good night)","note":"Polite: おやすみなさい."}
+{"id":"ja.c0352","meaning":"See you!","note":"Between friends."}
+{"id":"ja.c0353","meaning":"apartment building; condo","note":"Not a mansion."}
+{"id":"ja.c0354","meaning":"slim, stylish","note":"Not \"intelligent\"."}
+{"id":"ja.c0355","meaning":"all-you-can-eat buffet","note":"Not a Viking: hotels offer a breakfast バイキング."}
+{"id":"ja.c0356","meaning":"electrical outlet","note":"Not \"consent\"."}
+{"id":"ja.c0357","meaning":"complaint","note":"A complaint to a shop or company, not a claim."}
+{"id":"ja.c0358","meaning":"motorbike; scooter","note":"Not a bicycle: a bicycle is じてんしゃ."}
+{"id":"ja.c0359","meaning":"something free; on the house","note":"In a shop or restaurant it often means \"free of charge\"."}
+{"id":"ja.c0360","meaning":"you (avoid it)","note":"Can sound cold or rude. Use the person's name + さん, or leave \"you\" out."}
+{"id":"ja.c0361","meaning":"he; boyfriend","note":"Also means \"boyfriend\", like かのじょ (she; girlfriend). Use the name + さん."}
+{"id":"ja.c0362","meaning":"That's right, I don't eat it.","note":"はい agrees with a negative question: \"You don't eat meat?\""}
+{"id":"ja.c0363","meaning":"No, thank you.","note":"A polite way to turn down an offer."}
+{"id":"ja.c0364","meaning":"It's fine. (yes or no?)","note":"Can mean yes or no thanks; to say no clearly, use けっこうです."}
+{"id":"ja.c0365","meaning":"Sorry, I can't. (polite no)","note":"Trail off after ちょっと: it means no without saying no."}
+{"id":"ja.c0366","meaning":"I'm Smith.","note":"Never put さん after your own name."}
+{"id":"ja.c0367","meaning":"How is your mother?","note":"Someone else's mother is おかあさん; your own is はは."}
+{"id":"ja.c0368","meaning":"Thanks for going to the trouble.","note":"すみません often says thank you when someone does something for you."}
+{"id":"ja.c0369","meaning":"Thank you (for what you did).","note":"To a teacher or staff, not just ありがとう."}
+{"id":"ja.c0370","meaning":"Morning! (casual)","note":"To friends and family only; to a teacher or boss say おはようございます."}
+{"id":"ja.c0371","meaning":"That looks delicious!","note":"Said before you eat, about the food in front of you."}
+{"id":"ja.c0372","meaning":"It smells so good!","note":"In a kitchen or a restaurant."}
+{"id":"ja.c0373","meaning":"That was delicious.","note":"After the meal, to the cook or the host."}
+{"id":"ja.c0374","meaning":"You're a great cook!","note":"The お makes it polite: right for a host."}
+{"id":"ja.c0375","meaning":"That's amazing!","note":"The everyday praise for almost anything."}
+{"id":"ja.c0376","meaning":"Just what I'd expect from you!","note":"Praise for someone known to be good; fine to a senior."}
+{"id":"ja.c0377","meaning":"You're really good at that!","note":"To equals and juniors. To a boss, さすがですね is safer."}
+{"id":"ja.c0378","meaning":"You're a great singer!","note":"Heard at every karaoke night."}
+{"id":"ja.c0379","meaning":"That's a great idea!","note":""}
+{"id":"ja.c0380","meaning":"You work so fast!","note":"Praise for a colleague."}
+{"id":"ja.c0381","meaning":"That really helped.","note":"Thanks and praise in one; fine to anyone."}
+{"id":"ja.c0382","meaning":"That was really great.","note":"After a talk, a show or a meal."}
+{"id":"ja.c0383","meaning":"Thanks for all your hard work.","note":"Said at the end of work or an effort; safe to anyone, the boss included."}
+{"id":"ja.c0384","meaning":"You're so kind.","note":""}
+{"id":"ja.c0385","meaning":"That's so helpful of you.","note":"Kindness in action, like showing you the way."}
+{"id":"ja.c0386","meaning":"You're a fun person!","note":""}
+{"id":"ja.c0387","meaning":"You're such a hard worker!","note":"Warm; best to a friend or a junior."}
+{"id":"ja.c0388","meaning":"That's lovely!","note":"Clothes, things, places. Safe for anyone."}
+{"id":"ja.c0389","meaning":"That really suits you.","note":"About clothes, glasses or a haircut."}
+{"id":"ja.c0390","meaning":"You look so stylish!","note":"About clothes or a place."}
+{"id":"ja.c0391","meaning":"What a lovely house!","note":"Said when you visit; すてきな おへやですね for an apartment."}
+{"id":"ja.c0392","meaning":"Your place is so neat!","note":"The お makes it someone else's room."}
+{"id":"ja.c0393","meaning":"What a cute child!","note":"おこさん = someone else's child, polite."}
+{"id":"ja.c0394","meaning":"What a cute cat!","note":"ちゃん makes it affectionate."}
+{"id":"ja.c0395","meaning":"Your Japanese is very good!","note":"You'll hear this a lot, even after a few words."}
+{"id":"ja.c0396","meaning":"You're fluent in Japanese!","note":"ぺらぺら = fluent."}
+{"id":"ja.c0397","meaning":"Oh no, I still have a long way to go.","note":"The standard modest reply in Japan."}
+{"id":"ja.c0398","meaning":"Oh, that's not true.","note":"Deflecting is the polite default."}
+{"id":"ja.c0399","meaning":"Thank you, that makes me happy.","note":"Accepting warmly; more and more common."}
+{"id":"ja.c0400","meaning":"Even if you're just being nice, I'm glad.","note":"Light and modest."}
+{"id":"ja.c0401","meaning":"Thanks to you.","note":"When someone praises a result: the credit goes to them."}
+{"id":"ja.c0402","meaning":"You're praising me too much!","note":"Playful and modest."}
+{"id":"ja.c0403","meaning":"cute","note":"い-adjective · To women, children, pets and things. Warm; between young people it is everyday praise."}
+{"id":"ja.c0404","meaning":"beautiful; pretty","note":"な-adjective · Mostly about women. Warm, bold when said to someone's face."}
+{"id":"ja.c0405","meaning":"cool; good-looking","note":"い-adjective · Mostly about men; also clothes and cars. Mild to warm."}
+{"id":"ja.c0406","meaning":"lovely; wonderful","note":"な-adjective · About anyone or anything. Mild and safe."}
+{"id":"ja.c0407","meaning":"kind; gentle","note":"い-adjective · About anyone. The quality people in Japan say they want most. Mild."}
+{"id":"ja.c0408","meaning":"stylish","note":"な-adjective · About anyone. Mild."}
+{"id":"ja.c0409","meaning":"handsome guy (casual)","note":"About a man. Warm and playful; used among friends."}
+{"id":"ja.c0410","meaning":"beautiful woman","note":"About a woman. Warm; more grown-up than かわいい."}
+{"id":"ja.c0411","meaning":"smile","note":"えがおが すてき = a lovely smile. Safe to praise. Mild."}
+{"id":"ja.c0412","meaning":"voice","note":"いい こえ = a nice voice. Mild."}
+{"id":"ja.c0413","meaning":"taste; sense of style","note":"センスが いい = good taste. Mild."}
+{"id":"ja.c0414","meaning":"vibe (of a person or place)","note":"ふんいきが すてき = a lovely vibe. Mild and very common."}
+{"id":"ja.c0415","meaning":"type (my type)","note":"タイプです = you're my type. Warm to bold."}
+{"id":"ja.c0416","meaning":"heart pounding","note":"ドキドキします = my heart is racing. Bold when it's about someone."}
+{"id":"ja.c0417","meaning":"date (romantic)","note":"The word itself makes an invitation romantic."}
+{"id":"ja.c0418","meaning":"confession of love","note":"In Japan a relationship usually starts with one: すきです + つきあって ください."}
+{"id":"ja.c0419","meaning":"boyfriend","note":"Girlfriend: かのじょ."}
+{"id":"ja.c0420","meaning":"partner (romantic)","note":"For any gender."}
+{"id":"ja.c0421","meaning":"a nice person (often \"just a friend\")","note":"Praise, but it can also be a soft way of saying \"not for me\"."}
+{"id":"ja.c0422","meaning":"love at first sight","note":"Bold."}
+{"id":"ja.c0423","meaning":"You're so cute.","note":"Young people, mostly to a woman. Warm; from a stranger it can feel forward."}
+{"id":"ja.c0424","meaning":"That outfit is cute.","note":"Safer: praise the outfit, not the person. Mild."}
+{"id":"ja.c0425","meaning":"You're beautiful.","note":"To a woman. Bold to someone you just met; also said about a view."}
+{"id":"ja.c0426","meaning":"You look beautiful today too.","note":"To a woman you already know. Warm."}
+{"id":"ja.c0427","meaning":"You're so cool.","note":"Mostly to a man; women say it to men freely. Warm."}
+{"id":"ja.c0428","meaning":"That shirt looks great.","note":"Praises the style, not the body. Mild."}
+{"id":"ja.c0429","meaning":"You have a lovely smile.","note":"Anyone to anyone. Mild to warm."}
+{"id":"ja.c0430","meaning":"I love it when you smile.","note":"Word for word: \"I like your laughing face\". Warm."}
+{"id":"ja.c0431","meaning":"You have a nice voice.","note":"Anyone to anyone. Mild."}
+{"id":"ja.c0432","meaning":"I love your voice.","note":"Warm."}
+{"id":"ja.c0433","meaning":"You have great taste.","note":"About clothes, music, a gift. Mild."}
+{"id":"ja.c0434","meaning":"You always look so stylish.","note":"Shows you notice. Warm."}
+{"id":"ja.c0435","meaning":"You have a lovely vibe.","note":"A very Japanese compliment: safe and warm."}
+{"id":"ja.c0436","meaning":"I like kind people.","note":"An indirect hint, said in conversation. Mild."}
+{"id":"ja.c0437","meaning":"Did you get a haircut?","note":"Noticing small changes is a classic sign of interest. Mild."}
+{"id":"ja.c0438","meaning":"That color suits you.","note":"Anyone to anyone. Mild."}
+{"id":"ja.c0439","meaning":"You're my type.","note":"Bold; often softened: けっこう タイプです."}
+{"id":"ja.c0440","meaning":"You're easy to talk to.","note":"A real compliment in Japan. Mild."}
+{"id":"ja.c0441","meaning":"I have fun when I'm with you.","note":"Warm."}
+{"id":"ja.c0442","meaning":"I'd like to talk more.","note":"Warm."}
+{"id":"ja.c0443","meaning":"I was really happy to see you.","note":"After a date or a meeting. Warm."}
+{"id":"ja.c0444","meaning":"You're on my mind.","note":"A soft first hint: \"I'm interested in you\". Warm to bold."}
+{"id":"ja.c0445","meaning":"My heart is racing.","note":"Bold."}
+{"id":"ja.c0446","meaning":"I like you. (confession)","note":"The standard こくはく; much stronger than English \"like\". Bold."}
+{"id":"ja.c0447","meaning":"I've fallen for you.","note":"Bold."}
+{"id":"ja.c0448","meaning":"Will you go out with me?","note":"The classic line after すきです: it asks to start dating. Bold."}
+{"id":"ja.c0449","meaning":"It was love at first sight.","note":"Bold."}
+{"id":"ja.c0450","meaning":"Shall we swap LINE?","note":"LINE is the messaging app everyone uses. Mild."}
+{"id":"ja.c0451","meaning":"May I ask for your contact info?","note":"More formal than asking for LINE. Mild."}
+{"id":"ja.c0452","meaning":"Want to get dinner sometime?","note":"でも = \"or something\": keeps it light. The classic ask. Mild to warm."}
+{"id":"ja.c0453","meaning":"Want to go for a drink, just the two of us?","note":"ふたりで is what makes it a date. Warm."}
+{"id":"ja.c0454","meaning":"Are you free this weekend?","note":"Mild."}
+{"id":"ja.c0455","meaning":"Can I see you again?","note":"Warm."}
+{"id":"ja.c0456","meaning":"Would you go on a date with me?","note":"Direct by Japanese standards. Bold."}
+{"id":"ja.c0457","meaning":"I'd love to go.","note":"A warm yes."}
+{"id":"ja.c0458","meaning":"With pleasure.","note":"A warm yes, a little formal."}
+{"id":"ja.c0459","meaning":"Me too.","note":"The reply to すきです that means yes. Warm."}
+{"id":"ja.c0460","meaning":"That makes me so happy.","note":"A warm reply to a compliment or a こくはく."}
+{"id":"ja.c0461","meaning":"You're such a smooth talker!","note":"Teasing, not a no. Playful."}
+{"id":"ja.c0462","meaning":"You're good at flattery.","note":"A playful way to deflect a compliment."}
+{"id":"ja.c0463","meaning":"I'm happy you feel that way (but…).","note":"Starts a kind no; what follows is the reason. Gentle."}
+{"id":"ja.c0464","meaning":"Sorry, I'm seeing someone.","note":"A clear, kind no. Anyone can say it."}
+{"id":"ja.c0465","meaning":"Sorry, I'd like us to stay friends.","note":"A clear, kind no."}
+{"id":"ja.c0466","meaning":"I'm not looking for a relationship right now.","note":"A clear, kind no that blames no one."}
+{"id":"ja.c0467","meaning":"I'm a bit busy right now…","note":"The indirect no: it usually means no. If you hear it twice, stop asking."}
+{"id":"ja.c0468","meaning":"thing (abstract); matter","note":"Ideas, events and facts: たいへんな こと. Things you can touch are もの."}
+{"id":"ja.c0469","meaning":"side; direction (in comparisons)","note":"こっちの ほうが いいです = this one is better."}
+{"id":"ja.c0470","meaning":"feeling; impression","note":"こんな かんじ = like this, this sort of thing."}
+{"id":"ja.c0471","meaning":"front; the time before","note":"えきの まえ = in front of the station."}
+{"id":"ja.c0472","meaning":"talk; story","note":""}
+{"id":"ja.c0473","meaning":"reason; meaning behind something","note":"そういう わけです = that's why."}
+{"id":"ja.c0474","meaning":"place; spot","note":"いい ところですね = what a nice place."}
+{"id":"ja.c0475","meaning":"home; my house","note":"Your own home, warm and casual: うちに かえります."}
+{"id":"ja.c0476","meaning":"time (an amount of it)","note":"じかんが ありません = I don't have time."}
+{"id":"ja.c0477","meaning":"inside; middle","note":"かばんの なか = in the bag."}
+{"id":"ja.c0478","meaning":"top; above","note":"つくえの うえ = on the desk."}
+{"id":"ja.c0479","meaning":"school","note":""}
+{"id":"ja.c0480","meaning":"thing (you can touch)","note":"たべもの = food, のみもの = drink."}
+{"id":"ja.c0481","meaning":"first; the beginning","note":""}
+{"id":"ja.c0482","meaning":"under; below","note":"つくえの した = under the desk."}
+{"id":"ja.c0483","meaning":"work; job","note":""}
+{"id":"ja.c0484","meaning":"meaning","note":"どういう いみですか = what does it mean?"}
+{"id":"ja.c0485","meaning":"next","note":"つぎの えき = the next station."}
+{"id":"ja.c0486","meaning":"house (the building)","note":"The place you live is usually うち."}
+{"id":"ja.c0487","meaning":"money","note":"The お is part of the everyday word."}
+{"id":"ja.c0488","meaning":"last; the end","note":"さいごの でんしゃ = the last train."}
+{"id":"ja.c0489","meaning":"cooked rice; meal","note":"あさごはん = breakfast."}
+{"id":"ja.c0490","meaning":"car","note":""}
+{"id":"ja.c0491","meaning":"over there; the other side","note":"むこうの みせ = the shop across the street."}
+{"id":"ja.c0492","meaning":"company; office","note":"かいしゃに いきます = I go to work."}
+{"id":"ja.c0493","meaning":"name","note":"Someone else's name: おなまえ."}
+{"id":"ja.c0494","meaning":"face","note":""}
+{"id":"ja.c0495","meaning":"Japanese (the language)","note":""}
+{"id":"ja.c0496","meaning":"university; college","note":""}
+{"id":"ja.c0497","meaning":"problem; question (on a test)","note":"もんだい ありません = no problem."}
+{"id":"ja.c0498","meaning":"water","note":"Cold water. Hot water is おゆ."}
+{"id":"ja.c0499","meaning":"lie","note":"うそ！ among friends = no way!"}
+{"id":"ja.c0500","meaning":"bread","note":"Also buns and pastries."}
+{"id":"ja.c0501","meaning":"high school","note":""}
+{"id":"ja.c0502","meaning":"phone; phone call","note":""}
+{"id":"ja.c0503","meaning":"head","note":"あたまが いい = smart."}
+{"id":"ja.c0504","meaning":"bus","note":""}
+{"id":"ja.c0505","meaning":"shop; store","note":"Restaurants and bars too."}
+{"id":"ja.c0506","meaning":"taste; flavor","note":""}
+{"id":"ja.c0507","meaning":"color","note":"なにいろ = what color?"}
+{"id":"ja.c0508","meaning":"word; language","note":""}
+{"id":"ja.c0509","meaning":"beer","note":""}
+{"id":"ja.c0510","meaning":"station","note":""}
+{"id":"ja.c0511","meaning":"feeling (inside you)","note":"きもちいい = it feels good."}
+{"id":"ja.c0512","meaning":"alcohol; sake","note":"Any alcoholic drink."}
+{"id":"ja.c0513","meaning":"place; location","note":"ばしょは どこですか = where is it?"}
+{"id":"ja.c0514","meaning":"room","note":""}
+{"id":"ja.c0515","meaning":"meat","note":""}
+{"id":"ja.c0516","meaning":"class; lesson","note":""}
+{"id":"ja.c0517","meaning":"leg; foot","note":""}
+{"id":"ja.c0518","meaning":"outside","note":""}
+{"id":"ja.c0519","meaning":"customer; guest","note":"Staff say おきゃくさま."}
+{"id":"ja.c0520","meaning":"cooking; dish","note":""}
+{"id":"ja.c0521","meaning":"stomach; belly","note":""}
+{"id":"ja.c0522","meaning":"train","note":""}
+{"id":"ja.c0523","meaning":"body","note":"からだに いい = good for your health."}
+{"id":"ja.c0524","meaning":"mountain","note":""}
+{"id":"ja.c0525","meaning":"side; beside","note":"えきの よこ = beside the station."}
+{"id":"ja.c0526","meaning":"marriage","note":"けっこんします = get married."}
+{"id":"ja.c0527","meaning":"contact (getting in touch)","note":"れんらくします = I'll get in touch."}
+{"id":"ja.c0528","meaning":"sound; noise","note":"A person's voice is こえ."}
+{"id":"ja.c0529","meaning":"book","note":""}
+{"id":"ja.c0530","meaning":"next door; next to","note":"となりの ひと = the person next to you."}
+{"id":"ja.c0531","meaning":"hotel","note":""}
+{"id":"ja.c0532","meaning":"English (the language)","note":""}
+{"id":"ja.c0533","meaning":"world","note":""}
+{"id":"ja.c0534","meaning":"TV","note":""}
+{"id":"ja.c0535","meaning":"camera","note":""}
+{"id":"ja.c0536","meaning":"behind; the back","note":""}
+{"id":"ja.c0537","meaning":"email; message","note":""}
+{"id":"ja.c0538","meaning":"end","note":""}
+{"id":"ja.c0539","meaning":"trip; travel","note":""}
+{"id":"ja.c0540","meaning":"mouth","note":""}
+{"id":"ja.c0541","meaning":"road; way","note":""}
+{"id":"ja.c0542","meaning":"senior (at school or work)","note":"Someone who started before you; also used as a title."}
+{"id":"ja.c0543","meaning":"sweets; snacks","note":""}
+{"id":"ja.c0544","meaning":"flower","note":"Same sound: はな = nose."}
+{"id":"ja.c0545","meaning":"song","note":""}
+{"id":"ja.c0546","meaning":"music","note":""}
+{"id":"ja.c0547","meaning":"adult; grown-up","note":""}
+{"id":"ja.c0548","meaning":"plan; schedule","note":""}
+{"id":"ja.c0549","meaning":"rain","note":"Same sound: candy. Listen for the pitch."}
+{"id":"ja.c0550","meaning":"movie","note":""}
+{"id":"ja.c0551","meaning":"price","note":""}
+{"id":"ja.c0552","meaning":"game; video game","note":""}
+{"id":"ja.c0553","meaning":"chair","note":""}
+{"id":"ja.c0554","meaning":"fish","note":""}
+{"id":"ja.c0555","meaning":"bath","note":"Japanese soak in the evening, after washing."}
+{"id":"ja.c0556","meaning":"dog","note":""}
+{"id":"ja.c0557","meaning":"paper","note":"Same sound: hair."}
+{"id":"ja.c0558","meaning":"bird; chicken","note":"とりにく = chicken meat."}
+{"id":"ja.c0559","meaning":"cat","note":""}
+{"id":"ja.c0560","meaning":"hot spring","note":""}
+{"id":"ja.c0561","meaning":"exam","note":""}
+{"id":"ja.c0562","meaning":"question","note":"しつもんが あります = I have a question."}
+{"id":"ja.c0563","meaning":"food","note":""}
+{"id":"ja.c0564","meaning":"shopping","note":""}
+{"id":"ja.c0565","meaning":"weather","note":"いい てんきですね = nice weather."}
+{"id":"ja.c0566","meaning":"drink","note":"おのみものは？ = anything to drink?"}
+{"id":"ja.c0567","meaning":"to say","note":"ます: いいます · u-verb. なんて いいましたか = what did you say?"}
+{"id":"ja.c0568","meaning":"to be; to have (things)","note":"ます: あります · u-verb. For things and plants; negative: ない."}
+{"id":"ja.c0569","meaning":"to do (casual)","note":"ます: やります · u-verb. Casual word for する."}
+{"id":"ja.c0570","meaning":"to think","note":"ます: おもいます · u-verb. と おもいます = I think that…"}
+{"id":"ja.c0571","meaning":"to become","note":"ます: なります · u-verb. げんきに なる = get well."}
+{"id":"ja.c0572","meaning":"to be (people, animals)","note":"ます: います · ru-verb. A different いる (need) is a u-verb: いります."}
+{"id":"ja.c0573","meaning":"to understand","note":"ます: わかります · u-verb. What you understand takes が."}
+{"id":"ja.c0574","meaning":"to see; to watch","note":"ます: みます · ru-verb."}
+{"id":"ja.c0575","meaning":"to be different; to be wrong","note":"ます: ちがいます · u-verb. ちがいます = that's not right."}
+{"id":"ja.c0576","meaning":"to be able to; to be ready","note":"ます: できます · ru-verb. にほんごが できます = I can speak Japanese."}
+{"id":"ja.c0577","meaning":"to go out; to leave","note":"ます: でます · ru-verb. うちを でる = leave home."}
+{"id":"ja.c0578","meaning":"to enter; to go in","note":"ます: はいります · u-verb, though it ends in いる."}
+{"id":"ja.c0579","meaning":"to receive; to get","note":"ます: もらいます · u-verb. From someone: ともだちに もらいました."}
+{"id":"ja.c0580","meaning":"to take","note":"ます: とります · u-verb. しゃしんを とる = take a photo."}
+{"id":"ja.c0581","meaning":"to use","note":"ます: つかいます · u-verb."}
+{"id":"ja.c0582","meaning":"to hold; to carry","note":"ます: もちます · u-verb. もって います = I have it (with me)."}
+{"id":"ja.c0583","meaning":"to get to know","note":"ます: しります · u-verb. I know: しって います; I don't: しりません."}
+{"id":"ja.c0584","meaning":"to put in","note":"ます: いれます · ru-verb."}
+{"id":"ja.c0585","meaning":"to write","note":"ます: かきます · u-verb."}
+{"id":"ja.c0586","meaning":"to make; to cook","note":"ます: つくります · u-verb."}
+{"id":"ja.c0587","meaning":"to give (to me)","note":"ます: くれます · ru-verb. Someone gives to me or my family."}
+{"id":"ja.c0588","meaning":"to buy","note":"ます: かいます · u-verb."}
+{"id":"ja.c0589","meaning":"to drink","note":"ます: のみます · u-verb. Also for medicine."}
+{"id":"ja.c0590","meaning":"to listen; to ask","note":"ます: ききます · u-verb."}
+{"id":"ja.c0591","meaning":"to take out; to hand in","note":"ます: だします · u-verb."}
+{"id":"ja.c0592","meaning":"to go home; to return","note":"ます: かえります · u-verb, though it ends in える."}
+{"id":"ja.c0593","meaning":"to wait","note":"ます: まちます · u-verb. まって ください = please wait."}
+{"id":"ja.c0594","meaning":"to think about","note":"ます: かんがえます · ru-verb."}
+{"id":"ja.c0595","meaning":"to put; to place","note":"ます: おきます · u-verb. Same ます form as おきる (get up)."}
+{"id":"ja.c0596","meaning":"to give (to others)","note":"ます: あげます · ru-verb."}
+{"id":"ja.c0597","meaning":"to change (by itself)","note":"ます: かわります · u-verb."}
+{"id":"ja.c0598","meaning":"to ride; to get on","note":"ます: のります · u-verb. Takes に: でんしゃに のる."}
+{"id":"ja.c0599","meaning":"to quit; to stop","note":"ます: やめます · ru-verb."}
+{"id":"ja.c0600","meaning":"to turn on; to attach","note":"ます: つけます · ru-verb."}
+{"id":"ja.c0601","meaning":"to end; to finish","note":"ます: おわります · u-verb."}
+{"id":"ja.c0602","meaning":"to remember; to memorize","note":"ます: おぼえます · ru-verb."}
+{"id":"ja.c0603","meaning":"to be visible; can see","note":"ます: みえます · ru-verb."}
+{"id":"ja.c0604","meaning":"to meet","note":"ます: あいます · u-verb. Takes に: ともだちに あう."}
+{"id":"ja.c0605","meaning":"to read","note":"ます: よみます · u-verb."}
+{"id":"ja.c0606","meaning":"to walk","note":"ます: あるきます · u-verb."}
+{"id":"ja.c0607","meaning":"to sell","note":"ます: うります · u-verb."}
+{"id":"ja.c0608","meaning":"to sleep","note":"ます: ねます · ru-verb. Also \"to go to bed\"."}
+{"id":"ja.c0609","meaning":"to try hard; to hang in there","note":"ます: がんばります · u-verb."}
+{"id":"ja.c0610","meaning":"to forget","note":"ます: わすれます · ru-verb."}
+{"id":"ja.c0611","meaning":"to speak; to talk","note":"ます: はなします · u-verb."}
+{"id":"ja.c0612","meaning":"to teach; to tell","note":"ます: おしえます · ru-verb."}
+{"id":"ja.c0613","meaning":"to send","note":"ます: おくります · u-verb."}
+{"id":"ja.c0614","meaning":"to die","note":"ます: しにます · u-verb. The only verb ending in ぬ."}
+{"id":"ja.c0615","meaning":"to ask for; to order","note":"ます: たのみます · u-verb."}
+{"id":"ja.c0616","meaning":"to decide","note":"ます: きめます · ru-verb."}
+{"id":"ja.c0617","meaning":"to call","note":"ます: よびます · u-verb."}
+{"id":"ja.c0618","meaning":"to start (something)","note":"ます: はじめます · ru-verb."}
+{"id":"ja.c0619","meaning":"to open","note":"ます: あけます · ru-verb."}
+{"id":"ja.c0620","meaning":"to go back; to come back","note":"ます: もどります · u-verb."}
+{"id":"ja.c0621","meaning":"to live (somewhere)","note":"ます: すみます · u-verb. すんで います = I live (in)."}
+{"id":"ja.c0622","meaning":"to hang out; to play","note":"ます: あそびます · u-verb. Adults use it for going out with friends."}
+{"id":"ja.c0623","meaning":"to look up; to check","note":"ます: しらべます · ru-verb."}
+{"id":"ja.c0624","meaning":"to sit","note":"ます: すわります · u-verb."}
+{"id":"ja.c0625","meaning":"to wear (on the top half)","note":"ます: きます · ru-verb. A different きる (cut) is a u-verb: きります."}
+{"id":"ja.c0626","meaning":"to run","note":"ます: はしります · u-verb, though it ends in いる."}
+{"id":"ja.c0627","meaning":"to work (at a job)","note":"ます: はたらきます · u-verb."}
+{"id":"ja.c0628","meaning":"to borrow","note":"ます: かります · ru-verb."}
+{"id":"ja.c0629","meaning":"to be stuck; to be in trouble","note":"ます: こまります · u-verb. こまって います = I have a problem."}
+{"id":"ja.c0630","meaning":"to smoke; to breathe in","note":"ます: すいます · u-verb."}
+{"id":"ja.c0631","meaning":"to stop; to stay overnight","note":"ます: とまります · u-verb."}
+{"id":"ja.c0632","meaning":"to pay","note":"ます: はらいます · u-verb."}
+{"id":"ja.c0633","meaning":"to get tired","note":"ます: つかれます · ru-verb. つかれました = I'm tired."}
+{"id":"ja.c0634","meaning":"to get up; to wake up","note":"ます: おきます · ru-verb."}
+{"id":"ja.c0635","meaning":"to wash","note":"ます: あらいます · u-verb."}
+{"id":"ja.c0636","meaning":"to look for","note":"ます: さがします · u-verb."}
+{"id":"ja.c0637","meaning":"to begin (by itself)","note":"ます: はじまります · u-verb. Compare はじめる."}
+{"id":"ja.c0638","meaning":"to laugh; to smile","note":"ます: わらいます · u-verb."}
+{"id":"ja.c0639","meaning":"to sing","note":"ます: うたいます · u-verb."}
+{"id":"ja.c0640","meaning":"to fall (rain, snow)","note":"ます: ふります · u-verb. あめが ふって います."}
+{"id":"ja.c0641","meaning":"to rest; to take time off","note":"ます: やすみます · u-verb."}
+{"id":"ja.c0642","meaning":"to arrive","note":"ます: つきます · u-verb. Takes に: えきに つく."}
+{"id":"ja.c0643","meaning":"to lend","note":"ます: かします · u-verb."}
+{"id":"ja.c0644","meaning":"to give back","note":"ます: かえします · u-verb."}
+{"id":"ja.c0645","meaning":"to turn off; to erase","note":"ます: けします · u-verb."}
+{"id":"ja.c0646","meaning":"to be born","note":"ます: うまれます · ru-verb."}
+{"id":"ja.c0647","meaning":"to cry","note":"ます: なきます · u-verb."}
+{"id":"ja.c0648","meaning":"to help","note":"ます: てつだいます · u-verb."}
+{"id":"ja.c0649","meaning":"to go out with; to date","note":"ます: つきあいます · u-verb. Also \"to keep someone company\"."}
+{"id":"ja.c0650","meaning":"to go out (somewhere)","note":"ます: でかけます · ru-verb."}
+{"id":"ja.c0651","meaning":"to learn (from a teacher)","note":"ます: ならいます · u-verb."}
+{"id":"ja.c0652","meaning":"good","note":"い-adjective, irregular: よくない, よかった."}
+{"id":"ja.c0653","meaning":"amazing; great","note":"い-adjective · すごく = really. The everyday \"wow\"."}
+{"id":"ja.c0654","meaning":"normal; usual","note":"Takes の before a noun: ふつうの ひと."}
+{"id":"ja.c0655","meaning":"favorite; that you like","note":"な-adjective · すきな たべもの = favorite food."}
+{"id":"ja.c0656","meaning":"unpleasant; I'd rather not","note":"な-adjective · いやです = I don't want to."}
+{"id":"ja.c0657","meaning":"many; a lot","note":"い-adjective · Before a noun, say たくさんの."}
+{"id":"ja.c0658","meaning":"early; fast","note":"い-adjective · はやく = quickly, early."}
+{"id":"ja.c0659","meaning":"hard; terrible (situation)","note":"な-adjective · たいへんですね = that must be tough."}
+{"id":"ja.c0660","meaning":"crazy, good or bad (casual)","note":"い-adjective, slang between friends. Not to strangers."}
+{"id":"ja.c0661","meaning":"tasty; skillful (casual)","note":"い-adjective · Men use it more; おいしい is safer."}
+{"id":"ja.c0662","meaning":"bad","note":"い-adjective · わるくない = not bad."}
+{"id":"ja.c0663","meaning":"scary; afraid","note":"い-adjective · こわいです = I'm scared."}
+{"id":"ja.c0664","meaning":"wanted (I want)","note":"い-adjective · Xが ほしいです = I want X."}
+{"id":"ja.c0665","meaning":"painful; sore","note":"い-adjective · Said alone, it means \"Ouch!\""}
+{"id":"ja.c0666","meaning":"long","note":"い-adjective · not long: ながくない."}
+{"id":"ja.c0667","meaning":"fun; enjoyable","note":"い-adjective · たのしかったです = it was fun."}
+{"id":"ja.c0668","meaning":"strange; weird","note":"な-adjective."}
+{"id":"ja.c0669","meaning":"strong","note":"い-adjective."}
+{"id":"ja.c0670","meaning":"necessary","note":"な-adjective."}
+{"id":"ja.c0671","meaning":"few; little","note":"い-adjective."}
+{"id":"ja.c0672","meaning":"near; close","note":"い-adjective · えきに ちかい = close to the station."}
+{"id":"ja.c0673","meaning":"young","note":"い-adjective."}
+{"id":"ja.c0674","meaning":"important","note":"な-adjective."}
+{"id":"ja.c0675","meaning":"funny; strange","note":"い-adjective · Often \"something's wrong\"."}
+{"id":"ja.c0676","meaning":"same","note":"No な before a noun: おなじ ひと."}
+{"id":"ja.c0677","meaning":"sweet","note":"い-adjective."}
+{"id":"ja.c0678","meaning":"busy","note":"い-adjective."}
+{"id":"ja.c0679","meaning":"comfortable; effortless","note":"な-adjective."}
+{"id":"ja.c0680","meaning":"hot","note":"い-adjective · Hot weather and hot things share the sound."}
+{"id":"ja.c0681","meaning":"healthy; lively","note":"な-adjective · おげんきですか = how are you?"}
+{"id":"ja.c0682","meaning":"dangerous","note":"い-adjective · Said alone: \"Watch out!\""}
+{"id":"ja.c0683","meaning":"admirable; important (rank)","note":"い-adjective · えらいね is praise for a child."}
+{"id":"ja.c0684","meaning":"happy; glad","note":"い-adjective · About your own feelings."}
+{"id":"ja.c0685","meaning":"heavy","note":"い-adjective."}
+{"id":"ja.c0686","meaning":"terrible; cruel","note":"い-adjective."}
+{"id":"ja.c0687","meaning":"spicy; salty","note":"い-adjective."}
+{"id":"ja.c0688","meaning":"wide; spacious","note":"い-adjective."}
+{"id":"ja.c0689","meaning":"slow; late","note":"い-adjective."}
+{"id":"ja.c0690","meaning":"disliked","note":"な-adjective · Strong: にがて is softer."}
+{"id":"ja.c0691","meaning":"noisy; annoying","note":"い-adjective · Said alone to someone, it is rude: \"Shut up!\""}
+{"id":"ja.c0692","meaning":"far","note":"い-adjective."}
+{"id":"ja.c0693","meaning":"poor; pitiful","note":"な-adjective · かわいそう！ = poor thing!"}
+{"id":"ja.c0694","meaning":"easy; simple","note":"な-adjective."}
+{"id":"ja.c0695","meaning":"wonderful","note":"い-adjective."}
+{"id":"ja.c0696","meaning":"hard to bear; painful (feelings)","note":"い-adjective."}
+{"id":"ja.c0697","meaning":"strict","note":"い-adjective."}
+{"id":"ja.c0698","meaning":"skillful; good at","note":"な-adjective · Praise others with it, never yourself."}
+{"id":"ja.c0699","meaning":"hard (not soft)","note":"い-adjective."}
+{"id":"ja.c0700","meaning":"bad-tasting; awkward","note":"い-adjective · Never say it about food you are served."}
+{"id":"ja.c0701","meaning":"short (length)","note":"い-adjective · A short person is せが ひくい."}
+{"id":"ja.c0702","meaning":"white","note":"い-adjective."}
+{"id":"ja.c0703","meaning":"narrow; cramped","note":"い-adjective."}
+{"id":"ja.c0704","meaning":"mysterious; wondrous","note":"な-adjective."}
+{"id":"ja.c0705","meaning":"warm","note":"い-adjective · Often shortened to あったかい."}
+{"id":"ja.c0706","meaning":"dirty","note":"い-adjective."}
+{"id":"ja.c0707","meaning":"light (not heavy)","note":"い-adjective."}
+{"id":"ja.c0708","meaning":"free (not busy)","note":"な-adjective."}
+{"id":"ja.c0709","meaning":"free (no rules)","note":"な-adjective."}
+{"id":"ja.c0710","meaning":"disappointing; a pity","note":"な-adjective · ざんねんです = that's too bad."}
+{"id":"ja.c0711","meaning":"iffy; so-so (casual)","note":"な-adjective · A soft way of saying \"not great\"."}
+{"id":"ja.c0712","meaning":"black","note":"い-adjective."}
+{"id":"ja.c0713","meaning":"nostalgic","note":"い-adjective · Said when something brings back memories."}
+{"id":"ja.c0714","meaning":"rare; unusual","note":"い-adjective."}
+{"id":"ja.c0715","meaning":"low; short (height)","note":"い-adjective."}
+{"id":"ja.c0716","meaning":"sleepy","note":"い-adjective."}
+{"id":"ja.c0717","meaning":"red","note":"い-adjective."}
+{"id":"ja.c0718","meaning":"sad","note":"い-adjective."}
+{"id":"ja.c0719","meaning":"weak at; not your thing","note":"な-adjective · A polite way to say you dislike something."}
+{"id":"ja.c0720","meaning":"weak","note":"い-adjective."}
+{"id":"ja.c0721","meaning":"embarrassed; shy","note":"い-adjective."}
+{"id":"ja.c0722","meaning":"blue","note":"い-adjective · A green traffic light is あお too."}
+{"id":"ja.c0723","meaning":"cold (to the touch)","note":"い-adjective · Cold weather is さむい."}
+{"id":"ja.c0724","meaning":"lonely","note":"い-adjective."}
+{"id":"ja.c0725","meaning":"strong at; your specialty","note":"な-adjective."}
+{"id":"ja.c0726","meaning":"dark","note":"い-adjective."}
+{"id":"ja.c0727","meaning":"special","note":"な-adjective."}
+{"id":"ja.c0728","meaning":"convenient","note":"な-adjective."}
+{"id":"ja.c0729","meaning":"correct","note":"い-adjective."}
+{"id":"ja.c0730","meaning":"serious; hard-working","note":"な-adjective."}
+{"id":"ja.c0731","meaning":"various","note":"な-adjective · いろいろ ありがとう = thanks for everything."}
+{"id":"ja.c0732","meaning":"happy (in life)","note":"な-adjective."}
+{"id":"ja.c0733","meaning":"bright; cheerful","note":"い-adjective · Also for a cheerful person."}
+{"id":"ja.c0734","meaning":"cool (pleasantly)","note":"い-adjective."}
+{"id":"ja.c0735","meaning":"safe","note":"な-adjective."}
+{"id":"ja.c0736","meaning":"precious; dear","note":"な-adjective."}
+{"id":"ja.c0737","meaning":"kind; helpful","note":"な-adjective."}
+{"id":"ja.c0738","meaning":"so; that way","note":"そうです = that's right. そうですか = I see."}
+{"id":"ja.c0739","meaning":"already; (not) anymore","note":"もう いちど = once more."}
+{"id":"ja.c0740","meaning":"a little; a bit","note":"Also a soft \"no\": すみません、ちょっと…"}
+{"id":"ja.c0741","meaning":"like this; this way","note":""}
+{"id":"ja.c0742","meaning":"really; truly","note":""}
+{"id":"ja.c0743","meaning":"now","note":""}
+{"id":"ja.c0744","meaning":"as expected; after all","note":"Casual form of やはり."}
+{"id":"ja.c0745","meaning":"later","note":"No particle after it: あとで でんわします."}
+{"id":"ja.c0746","meaning":"probably","note":"Often ends in と おもいます."}
+{"id":"ja.c0747","meaning":"quite; fairly","note":"Not the same as けっこうです (no, thanks)."}
+{"id":"ja.c0748","meaning":"(not) at all","note":"With a negative: ぜんぜん わかりません."}
+{"id":"ja.c0749","meaning":"still; (not) yet","note":"まだです = not yet."}
+{"id":"ja.c0750","meaning":"(not) very; (not) much","note":"With a negative: あまり たかくないです."}
+{"id":"ja.c0751","meaning":"again","note":"じゃあ また = see you."}
+{"id":"ja.c0752","meaning":"often; well","note":"よく わかりません = I don't really know."}
+{"id":"ja.c0753","meaning":"most; best; number one","note":"いちばん すきな = favorite."}
+{"id":"ja.c0754","meaning":"together","note":""}
+{"id":"ja.c0755","meaning":"properly; neatly","note":""}
+{"id":"ja.c0756","meaning":"all the time; by far","note":""}
+{"id":"ja.c0757","meaning":"always","note":""}
+{"id":"ja.c0758","meaning":"a lot; full","note":"Also \"one cupful\"."}
+{"id":"ja.c0759","meaning":"long ago","note":""}
+{"id":"ja.c0760","meaning":"super; really (casual)","note":"In polite talk say とても."}
+{"id":"ja.c0761","meaning":"for example","note":""}
+{"id":"ja.c0762","meaning":"more","note":"もっと ゆっくり = more slowly."}
+{"id":"ja.c0763","meaning":"a moment ago","note":""}
+{"id":"ja.c0764","meaning":"recently; these days","note":""}
+{"id":"ja.c0765","meaning":"right away; soon","note":""}
+{"id":"ja.c0766","meaning":"next time; sometime","note":"こんど のみに いきましょう."}
+{"id":"ja.c0767","meaning":"the other day","note":""}
+{"id":"ja.c0768","meaning":"first of all","note":""}
+{"id":"ja.c0769","meaning":"for now; to start with","note":"とりあえず ビール = a beer to start (ordering)."}
+{"id":"ja.c0770","meaning":"surely; I bet","note":""}
+{"id":"ja.c0771","meaning":"exactly; just","note":"ちょうど いい = just right."}
+{"id":"ja.c0772","meaning":"of course","note":""}
+{"id":"ja.c0773","meaning":"quite (better than expected)","note":"With a negative: not easily."}
+{"id":"ja.c0774","meaning":"a little (more formal)","note":""}
+{"id":"ja.c0775","meaning":"for the first time","note":"はじめまして comes from it."}
+{"id":"ja.c0776","meaning":"especially","note":""}
+{"id":"ja.c0777","meaning":"relatively; rather","note":""}
+{"id":"ja.c0778","meaning":"almost all; hardly (with a negative)","note":""}
+{"id":"ja.c0779","meaning":"once in a while","note":"Less often than ときどき."}
+{"id":"ja.c0780","meaning":"gradually","note":""}
+{"id":"ja.c0781","meaning":"lots; many; much","note":""}
+{"id":"ja.c0782","meaning":"without fail","note":""}
+{"id":"ja.c0783","meaning":"slowly","note":"ゆっくり して ください = make yourself at home."}
+{"id":"ja.c0784","meaning":"anyway","note":""}
+{"id":"ja.c0785","meaning":"pretty; considerably","note":""}
+{"id":"ja.c0786","meaning":"firmly; reliably","note":""}
+{"id":"ja.c0787","meaning":"if I remember right","note":"たしかに = true, certainly."}
+{"id":"ja.c0788","meaning":"as you'd expect (praise)","note":""}
+{"id":"ja.c0789","meaning":"since you went to the trouble","note":""}
+{"id":"ja.c0790","meaning":"very; a lot (surprised)","note":""}
+{"id":"ja.c0791","meaning":"by all means; definitely","note":"ぜひ きて ください = please do come."}
+{"id":"ja.c0792","meaning":"soon; it's about time","note":"そろそろ かえります = I should be going."}
+{"id":"ja.c0793","meaning":"very","note":"Polite; in casual talk すごく or めっちゃ."}
+{"id":"ja.c0794","meaning":"finally (after waiting)","note":""}
+{"id":"ja.c0795","meaning":"I; me","note":"Polite and safe for anyone. Often left out."}
+{"id":"ja.c0796","meaning":"my; mine","note":"の makes any person possessive: たなかさんの."}
+{"id":"ja.c0797","meaning":"here","note":""}
+{"id":"ja.c0798","meaning":"there (near you)","note":""}
+{"id":"ja.c0799","meaning":"I (men, casual)","note":"Sounds tough; only with friends."}
+{"id":"ja.c0800","meaning":"we; us","note":""}
+{"id":"ja.c0801","meaning":"everyone; all of us","note":"Polite, to a group: みなさん."}
+{"id":"ja.c0802","meaning":"where","note":""}
+{"id":"ja.c0803","meaning":"this way; this person (polite)","note":"こちらは たなかさんです = this is Mr. Tanaka."}
+{"id":"ja.c0804","meaning":"this way; this one (casual)","note":"Casual こちら."}
+{"id":"ja.c0805","meaning":"oneself; myself","note":""}
+{"id":"ja.c0806","meaning":"what (before d, t, n sounds)","note":"なんですか. Before other sounds: なにを."}
+{"id":"ja.c0807","meaning":"over there","note":""}
+{"id":"ja.c0808","meaning":"who","note":"Polite: どなた."}
+{"id":"ja.c0809","meaning":"whose","note":""}
+{"id":"ja.c0810","meaning":"when","note":""}
+{"id":"ja.c0811","meaning":"I (boys and men)","note":"Softer than おれ; fine in most casual talk."}
+{"id":"ja.c0812","meaning":"which (of two); where (polite)","note":""}
+{"id":"ja.c0813","meaning":"which one (casual)","note":"Casual どちら."}
+{"id":"ja.c0814","meaning":"you (rough)","note":"Rude to most people. Use the person's name + さん."}
+{"id":"ja.c0815","meaning":"which one (of three or more)","note":""}
+{"id":"ja.c0816","meaning":"that way; your side (polite)","note":"Polite \"you\" on the phone or at a counter."}
+{"id":"ja.c0817","meaning":"that way; that one (casual)","note":"Casual そちら."}
+{"id":"ja.c0818","meaning":"something; anything","note":"なにか のみますか = would you like something to drink?"}
+{"id":"ja.c0819","meaning":"that way (over there, polite)","note":""}
+{"id":"ja.c0820","meaning":"over there (casual)","note":"Casual あちら."}
+{"id":"ja.c0821","meaning":"nothing (with a negative)","note":"なにも いりません = I don't need anything."}
+{"id":"ja.c0822","meaning":"someone; anyone","note":""}
+{"id":"ja.c0823","meaning":"somewhere","note":""}
+{"id":"ja.c0824","meaning":"you (to someone younger)","note":"Can sound bossy. Japanese says the name + さん instead of \"you\"."}
+{"id":"ja.c0825","meaning":"she; girlfriend","note":"Usually means \"girlfriend\"; for \"she\" use the name + さん."}
+{"id":"ja.c0826","meaning":"nobody (with a negative)","note":""}
+{"id":"ja.c0827","meaning":"someday","note":""}
+{"id":"ja.c0828","meaning":"everyone (polite, to a group)","note":""}
+{"id":"ja.c0829","meaning":"who (polite)","note":""}
+{"id":"ja.c0830","meaning":"right?; isn't it? (agreement)","note":"ね asks for agreement and sounds warm."}
+{"id":"ja.c0831","meaning":"'s; of (possessive)","note":"の joins two nouns: ともだちの くるま."}
+{"id":"ja.c0832","meaning":"or (between nouns)","note":"か between two nouns: coffee or tea."}
+{"id":"ja.c0833","meaning":"at; in (where you do something); by","note":"で marks where an action happens, or the means: でんしゃで."}
+{"id":"ja.c0834","meaning":"subject marker","note":"が marks who does it; question words always take が."}
+{"id":"ja.c0835","meaning":"topic marker (as for …)","note":"は, said \"wa\", marks what you are talking about."}
+{"id":"ja.c0836","meaning":"too; also","note":"も takes the place of は, が or を: わたしも いきます."}
+{"id":"ja.c0837","meaning":"to; at (a place, a time)","note":"に marks where you go, where things are, and clock times."}
+{"id":"ja.c0838","meaning":"you know (telling something new)","note":"よ gives the listener new information."}
+{"id":"ja.c0839","meaning":"with; and (between nouns)","note":"と joins a complete list: パンと コーヒー."}
+{"id":"ja.c0840","meaning":"they say; called (casual quote)","note":"Casual と: たなかさんって ひと = a person called Tanaka."}
+{"id":"ja.c0841","meaning":"question marker","note":"か at the end turns a sentence into a question."}
+{"id":"ja.c0842","meaning":"object marker","note":"を, said \"o\", marks what you act on."}
+{"id":"ja.c0843","meaning":"from; because","note":"After a place or time: from. After a sentence: because."}
+{"id":"ja.c0844","meaning":"about; around (an amount)","note":"Also said くらい: いちじかんぐらい."}
+{"id":"ja.c0845","meaning":"only; just","note":"ひとつだけ = just one."}
+{"id":"ja.c0846","meaning":"until; as far as","note":"くじまで = until nine."}
+{"id":"ja.c0847","meaning":"I wonder (casual)","note":"Said to yourself: あめかな = I wonder if it'll rain."}
+{"id":"ja.c0848","meaning":"only (with a negative)","note":"ひとつしか ありません = there's only one."}
+{"id":"ja.c0849","meaning":"right? (checking)","note":"よ + ね: you know this, don't you?"}
+{"id":"ja.c0850","meaning":"than","note":"Follows the thing you compare with."}
+{"id":"ja.c0851","meaning":"nothing but","note":"まんがばかり よみます = I read nothing but comics."}
+{"id":"ja.c0852","meaning":"toward","note":"へ, said \"e\", stresses the direction; に also works."}
+{"id":"ja.c0853","meaning":"each; at a time","note":"ひとつずつ = one each."}
+{"id":"ja.c0854","meaning":"(not) as … as","note":"とうきょうほど たかくない = not as expensive as Tokyo."}
+{"id":"ja.c0855","meaning":"and (among others)","note":"や gives examples; the list is not complete."}
+{"id":"ja.c0856","meaning":"and so on; etc.","note":""}
+{"id":"ja.c0857","meaning":"by (a deadline)","note":"くじまでに = by nine. まで alone is \"until\"."}
+{"id":"ja.c0858","meaning":"and then (the て form)","note":"The て form joins actions in order: おきて、シャワーを あびます."}
+{"id":"ja.c0859","meaning":"and so; and then","note":"Casual sentence-start で comes from it."}
+{"id":"ja.c0860","meaning":"but; though","note":"Joins two sentences: たかいけど、おいしいです. Softer at the end."}
+{"id":"ja.c0861","meaning":"well then; so","note":"じゃあ、いきましょう = OK, let's go."}
+{"id":"ja.c0862","meaning":"but (starting a sentence)","note":"Starts a new sentence; inside one, use けど."}
+{"id":"ja.c0863","meaning":"when; at the time","note":"Short form + とき: ひまな とき."}
+{"id":"ja.c0864","meaning":"if (you go): the ば form","note":"ば: いけば = if you go, たべれば = if you eat."}
+{"id":"ja.c0865","meaning":"and what's more (listing reasons)","note":"し lists reasons: やすいし、おいしいし."}
+{"id":"ja.c0866","meaning":"because; so (polite)","note":"Short form + ので: たかいので かいません."}
+{"id":"ja.c0867","meaning":"before (doing)","note":"Dictionary form + まえに: ねる まえに."}
+{"id":"ja.c0868","meaning":"so; that's why","note":"Polite: ですから."}
+{"id":"ja.c0869","meaning":"doing things like …","note":"〜たり 〜たり します lists some activities."}
+{"id":"ja.c0870","meaning":"while (doing)","note":"ます stem + ながら: たべながら."}
+{"id":"ja.c0871","meaning":"and then; after that","note":""}
+{"id":"ja.c0872","meaning":"but; it's just that","note":"Softens a point: ただ、ちょっと たかいです."}
+{"id":"ja.c0873","meaning":"if (by any chance)","note":"Goes with たら: もし あめだったら."}
+{"id":"ja.c0874","meaning":"but (soft, before a request)","note":"が after a polite form leads into a request or a no."}
+{"id":"ja.c0875","meaning":"even though","note":"Shows surprise or a complaint."}
+{"id":"ja.c0876","meaning":"on top of that","note":""}
+{"id":"ja.c0877","meaning":"if; when (after the past form)","note":"Past short form + ら: あめだったら."}
+{"id":"ja.c0878","meaning":"and; and then","note":"Formal or written; in speech, それから or a て form."}
+{"id":"ja.c0879","meaning":"besides; also","note":""}
+{"id":"ja.c0880","meaning":"in other words","note":""}
+{"id":"ja.c0881","meaning":"or (formal)","note":"Forms and announcements."}
+{"id":"ja.c0882","meaning":"however (formal)","note":"Written and in speeches."}
+{"id":"ja.c0883","meaning":"ah (understanding)","note":""}
+{"id":"ja.c0884","meaning":"yes","note":"Also \"here you are\", or \"I'm listening\"."}
+{"id":"ja.c0885","meaning":"um, excuse me","note":"Before you speak to a stranger."}
+{"id":"ja.c0886","meaning":"well; I guess","note":""}
+{"id":"ja.c0887","meaning":"no; well, actually (disagreeing)","note":"Casual; polite: いいえ."}
+{"id":"ja.c0888","meaning":"yes (softer)","note":""}
+{"id":"ja.c0889","meaning":"Really?","note":"Casual: ほんと？"}
+{"id":"ja.c0890","meaning":"huh, really? (interest)","note":""}
+{"id":"ja.c0891","meaning":"um, let me see","note":""}
+{"id":"ja.c0892","meaning":"look!; see?","note":""}
+{"id":"ja.c0893","meaning":"I see","note":"To a boss, そうですか is safer."}
+{"id":"ja.c0894","meaning":"whoa; oh!","note":""}
+{"id":"ja.c0895","meaning":"seriously? (casual)","note":"Between friends only."}
+{"id":"ja.c0896","meaning":"oh my","note":"Mostly women and older people."}
+{"id":"ja.c0897","meaning":"heave-ho (lifting, sitting down)","note":""}
+{"id":"ja.c0898","meaning":"good luck!; go for it!","note":"To friends. To a boss, say よろしく おねがいします instead."}
+{"id":"ja.c0899","meaning":"yikes; whoa","note":""}
+{"id":"ja.c0900","meaning":"no, no, not at all","note":"The modest reply to thanks or praise."}
+{"id":"ja.c0901","meaning":"right!; OK, let's go!","note":""}
+{"id":"ja.c0902","meaning":"wow","note":""}
+{"id":"ja.c0903","meaning":"hey! (rough)","note":"Men, to friends or juniors; rude to strangers."}
+{"id":"ja.c0904","meaning":"the worst; ugh","note":"Casual."}
+{"id":"ja.c0905","meaning":"come on; hmm, who knows","note":"さあ、いきましょう = come on, let's go."}
+{"id":"ja.c0906","meaning":"congratulations","note":"Polite: おめでとうございます."}
+{"id":"ja.c0907","meaning":"awesome!; the best","note":"Also: さいこうです."}
+{"id":"ja.c0908","meaning":"thank goodness (relief)","note":""}
+{"id":"ja.c0909","meaning":"phew","note":""}
+{"id":"ja.c0910","meaning":"oops; whoa there","note":""}
+{"id":"ja.c0911","meaning":"yay!; I did it!","note":""}
+{"id":"ja.c0912","meaning":"oh no!; darn (my mistake)","note":""}
+{"id":"ja.c0913","meaning":"hello (on the phone)","note":"Only on the phone."}
+{"id":"ja.c0914","meaning":"ow, ow","note":""}
+{"id":"ja.c0915","meaning":"Mr.; Ms. (after a name)","note":"Japanese says the name + さん where English says \"you\"."}
+{"id":"ja.c0916","meaning":"that (near you, before a noun)","note":""}
+{"id":"ja.c0917","meaning":"how; how about","note":"どうですか = how is it?"}
+{"id":"ja.c0918","meaning":"this (before a noun)","note":"この ほん = this book."}
+{"id":"ja.c0919","meaning":"(after a child's or close friend's name)","note":""}
+{"id":"ja.c0920","meaning":"that (over there, before a noun)","note":"Also \"um…\" when you hesitate."}
+{"id":"ja.c0921","meaning":"that kind of","note":"そんな こと ないです = that's not true."}
+{"id":"ja.c0922","meaning":"no good; not allowed","note":"だめです = you can't."}
+{"id":"ja.c0923","meaning":"all; everything","note":""}
+{"id":"ja.c0924","meaning":"(after a boy's or junior's name)","note":""}
+{"id":"ja.c0925","meaning":"this kind of","note":""}
+{"id":"ja.c0926","meaning":"why (casual)","note":""}
+{"id":"ja.c0927","meaning":"other; else","note":"ほかに なにか ありますか = anything else?"}
+{"id":"ja.c0928","meaning":"impossible; too much","note":"むり しないで ください = don't overdo it."}
+{"id":"ja.c0929","meaning":"go ahead; here you are","note":""}
+{"id":"ja.c0930","meaning":"Mr.; Ms. (very polite)","note":"Staff to customers: おきゃくさま."}
+{"id":"ja.c0931","meaning":"morning","note":""}
+{"id":"ja.c0932","meaning":"this year","note":""}
+{"id":"ja.c0933","meaning":"why","note":""}
+{"id":"ja.c0934","meaning":"last year","note":""}
+{"id":"ja.c0935","meaning":"night","note":""}
+{"id":"ja.c0936","meaning":"thanks; hi (short)","note":""}
+{"id":"ja.c0937","meaning":"which (before a noun)","note":""}
+{"id":"ja.c0938","meaning":"how many; how old (for children)","note":"Counts with the ひとつ, ふたつ set."}
+{"id":"ja.c0939","meaning":"what kind of","note":""}
+{"id":"ja.c0940","meaning":"summer","note":""}
+{"id":"ja.c0941","meaning":"noon; daytime","note":""}
+{"id":"ja.c0942","meaning":"zero","note":""}
+{"id":"ja.c0943","meaning":"that kind of (far from us)","note":""}
+{"id":"ja.c0944","meaning":"next year","note":""}
+{"id":"ja.c0945","meaning":"how long; how much","note":"どのくらい かかりますか = how long does it take?"}
+{"id":"ja.c0946","meaning":"why (formal)","note":""}
+{"id":"ja.c0947","meaning":"next week","note":""}
+{"id":"ja.c0948","meaning":"winter","note":""}
+{"id":"ja.c0949","meaning":"early evening","note":""}
+{"id":"ja.c0950","meaning":"fall; autumn","note":""}
+{"id":"ja.c0951","meaning":"tonight","note":""}
+{"id":"ja.c0952","meaning":"last week","note":""}
+{"id":"ja.c0953","meaning":"this week","note":""}
+{"id":"ja.c0954","meaning":"spring","note":""}
+{"id":"ja.c0955","meaning":"the day before yesterday","note":""}
+{"id":"ja.c0956","meaning":"this morning","note":""}
+{"id":"ja.c0957","meaning":"no (formal)","note":"Often softened: いいえ、ちがいます."}
+{"id":"ja.c0958","meaning":"the day after tomorrow","note":""}
+{"id":"ja.c0959","meaning":"twenty years old","note":"The age of the coming-of-age ceremony."}
+{"id":"ja.c0960","meaning":"weekend","note":""}
+{"id":"ja.c0961","meaning":"once; the first floor","note":"かい counts times and floors: にかい = twice, or the second floor."}
+{"id":"ja.c0962","meaning":"one hour","note":"にじかん, さんじかん. How long: なんじかん."}
+{"id":"ja.c0963","meaning":"one (small object)","note":"こ counts small things: にこ, さんこ. How many: なんこ."}
+{"id":"ja.c0964","meaning":"one day (a whole day)","note":"Days 2 to 10 have their own words: ふつか, みっか."}
+{"id":"ja.c0965","meaning":"two days; the 2nd (of the month)","note":"みっか = three days, or the 3rd."}
+{"id":"ja.c0966","meaning":"one time; one degree","note":"ど: さんど = three times, or 3 degrees."}
+{"id":"ja.c0967","meaning":"one month (a length of time)","note":"Month names are different: いちがつ = January."}
+{"id":"ja.c0968","meaning":"one week","note":"にしゅうかん = two weeks."}
+{"id":"ja.c0969","meaning":"one (machine or car)","note":"だい counts cars, bikes and computers."}
+{"id":"ja.c0970","meaning":"one night (at a hotel)","note":"にはく みっか = two nights, three days."}
+{"id":"ja.c0971","meaning":"two cupfuls; two glasses","note":"はい: いっぱい, にはい, さんばい."}
+{"id":"ja.c0972","meaning":"How many in your party? (polite)","note":"Restaurant staff ask it; answer ふたりです."}
+{"id":"ja.c0973","meaning":"double; twice as much","note":"ばい: さんばい = three times as much."}
+{"id":"ja.c0974","meaning":"one (small animal)","note":"ひき: にひき, さんびき."}

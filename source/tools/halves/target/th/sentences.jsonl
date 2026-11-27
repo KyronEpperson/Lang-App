@@ -1,0 +1,286 @@
+{"id":"th.s0001","th":"มา","rom":"maa"}
+{"id":"th.s0002","th":"ม้า","rom":"máa"}
+{"id":"th.s0003","th":"หมา","rom":"mǎa"}
+{"id":"th.s0004","th":"ใหม่","rom":"mài"}
+{"id":"th.s0005","th":"ไม่","rom":"mâi"}
+{"id":"th.s0006","th":"ใกล้มาก","rom":"glâi mâak"}
+{"id":"th.s0007","th":"ไกลมาก","rom":"glai mâak"}
+{"id":"th.s0008","th":"ข้าวขาว","rom":"khâao khǎao"}
+{"id":"th.s0009","th":"เขามาไหม","rom":"khǎo maa mǎi"}
+{"id":"th.s0010","th":"ไกลไหม","rom":"glai mǎi"}
+{"id":"th.s0011","th":"ไก่","rom":"gài"}
+{"id":"th.s0012","th":"ไข่","rom":"khài"}
+{"id":"th.s0013","th":"ปลา","rom":"bplaa"}
+{"id":"th.s0014","th":"ภูเก็ต","rom":"phuu-gèt"}
+{"id":"th.s0015","th":"งู","rom":"nguu"}
+{"id":"th.s0016","th":"ดู","rom":"duu"}
+{"id":"th.s0017","th":"ดุ","rom":"dù"}
+{"id":"th.s0018","th":"ขาด","rom":"khàat"}
+{"id":"th.s0019","th":"ขัด","rom":"khàt"}
+{"id":"th.s0020","th":"นก","rom":"nók"}
+{"id":"th.s0021","th":"บาท","rom":"bàat"}
+{"id":"th.s0022","th":"สวัสดีครับ","rom":"sà-wàt-dii khráp"}
+{"id":"th.s0023","th":"สวัสดีค่ะ คุณสมชาย","rom":"sà-wàt-dii khâ khun sǒm-chaai"}
+{"id":"th.s0024","th":"ไปก่อนนะครับ","rom":"bpai gàawn ná khráp"}
+{"id":"th.s0025","th":"ขอบคุณมากค่ะ","rom":"khàawp-khun mâak khâ"}
+{"id":"th.s0026","th":"ขอโทษครับ","rom":"khǎaw-thôot khráp"}
+{"id":"th.s0027","th":"ไม่เป็นไรค่ะ","rom":"mâi-bpen-rai khâ"}
+{"id":"th.s0028","th":"ยินดีที่ได้รู้จักครับ","rom":"yin-dii thîi dâai rúu-jàk khráp"}
+{"id":"th.s0029","th":"สบายดีไหมคะ","rom":"sà-baai dii mǎi khá"}
+{"id":"th.s0030","th":"สบายดีครับ แล้วคุณล่ะ","rom":"sà-baai dii khráp láaeo khun lâ"}
+{"id":"th.s0031","th":"ห้าบาท","rom":"hâa bàat"}
+{"id":"th.s0032","th":"เก้าบาท","rom":"gâao bàat"}
+{"id":"th.s0033","th":"เก้าสิบบาท","rom":"gâao-sìp bàat"}
+{"id":"th.s0034","th":"สิบเอ็ด","rom":"sìp-èt"}
+{"id":"th.s0035","th":"ยี่สิบ","rom":"yîi-sìp"}
+{"id":"th.s0036","th":"ยี่สิบเอ็ด","rom":"yîi-sìp-èt"}
+{"id":"th.s0037","th":"ยี่สิบห้า","rom":"yîi-sìp-hâa"}
+{"id":"th.s0038","th":"หนึ่งหมื่น","rom":"nùeng-mùuen"}
+{"id":"th.s0039","th":"ห้าร้อยบาท","rom":"hâa-ráawi bàat"}
+{"id":"th.s0040","th":"50 บาท","rom":"hâa-sìp bàat"}
+{"id":"th.s0041","th":"1,200 บาท","rom":"nùeng-phan-sǎawng-ráawi bàat"}
+{"id":"th.s0042","th":"เท่าไหร่คะ","rom":"thâo-rài khá"}
+{"id":"th.s0043","th":"ทั้งหมดเท่าไรครับ","rom":"tháng-mòt thâo-rai khráp"}
+{"id":"th.s0044","th":"ก ไก่","rom":"gaaw gài"}
+{"id":"th.s0045","th":"ข ไข่","rom":"khǎaw khài"}
+{"id":"th.s0046","th":"จาน","rom":"jaan"}
+{"id":"th.s0047","th":"เด็ก","rom":"dèk"}
+{"id":"th.s0048","th":"ตา","rom":"dtaa"}
+{"id":"th.s0049","th":"บ้าน","rom":"bâan"}
+{"id":"th.s0050","th":"อาหาร","rom":"aa-hǎan"}
+{"id":"th.s0051","th":"ฉัน","rom":"chǎn"}
+{"id":"th.s0052","th":"ถุง","rom":"thǔng"}
+{"id":"th.s0053","th":"ผม","rom":"phǒm"}
+{"id":"th.s0054","th":"ฝน","rom":"fǒn"}
+{"id":"th.s0055","th":"ช้าง","rom":"cháang"}
+{"id":"th.s0056","th":"ซอย","rom":"saawi"}
+{"id":"th.s0057","th":"ทา","rom":"thaa"}
+{"id":"th.s0058","th":"พ่อ","rom":"phâaw"}
+{"id":"th.s0059","th":"ฟัน","rom":"fan"}
+{"id":"th.s0060","th":"รถ","rom":"rót"}
+{"id":"th.s0061","th":"ค ควาย","rom":"khaaw khwaai"}
+{"id":"th.s0062","th":"ขา","rom":"khǎa"}
+{"id":"th.s0063","th":"ขายาว","rom":"khǎa yaao"}
+{"id":"th.s0064","th":"สวย","rom":"sǔuai"}
+{"id":"th.s0065","th":"ซวย","rom":"suuai"}
+{"id":"th.s0066","th":"ดี","rom":"dii"}
+{"id":"th.s0067","th":"กิน","rom":"gin"}
+{"id":"th.s0068","th":"มือ","rom":"muue"}
+{"id":"th.s0069","th":"หนึ่ง","rom":"nùeng"}
+{"id":"th.s0070","th":"แม่","rom":"mâae"}
+{"id":"th.s0071","th":"โรงเรียน","rom":"roong-riian"}
+{"id":"th.s0072","th":"ไป","rom":"bpai"}
+{"id":"th.s0073","th":"ใจ","rom":"jai"}
+{"id":"th.s0074","th":"เรือ","rom":"ruuea"}
+{"id":"th.s0075","th":"เรียน","rom":"riian"}
+{"id":"th.s0076","th":"ตัว","rom":"dtuua"}
+{"id":"th.s0077","th":"เธอ","rom":"thooe"}
+{"id":"th.s0078","th":"ขอ","rom":"khǎaw"}
+{"id":"th.s0079","th":"เรา","rom":"rao"}
+{"id":"th.s0080","th":"ทำ","rom":"tham"}
+{"id":"th.s0081","th":"เยอะมาก","rom":"yóe mâak"}
+{"id":"th.s0082","th":"เข้าบ้าน","rom":"khâo bâan"}
+{"id":"th.s0083","th":"กินข้าว","rom":"gin khâao"}
+{"id":"th.s0084","th":"ดูหมา","rom":"duu mǎa"}
+{"id":"th.s0085","th":"ดูเด็ก","rom":"duu dèk"}
+{"id":"th.s0086","th":"เรือใหม่","rom":"ruuea mài"}
+{"id":"th.s0087","th":"เสือ","rom":"sǔuea"}
+{"id":"th.s0088","th":"ผมชื่อไมค์","rom":"phǒm chûue mái"}
+{"id":"th.s0089","th":"คุณชื่ออะไร","rom":"khun chûue à-rai"}
+{"id":"th.s0090","th":"เขามา","rom":"khǎo maa"}
+{"id":"th.s0091","th":"พวกเขา","rom":"phûuak-khǎo"}
+{"id":"th.s0092","th":"พี่ครับ","rom":"phîi khráp"}
+{"id":"th.s0093","th":"น้องคะ","rom":"náawng khá"}
+{"id":"th.s0094","th":"ไปครับ","rom":"bpai khráp"}
+{"id":"th.s0095","th":"เราไปครับ","rom":"rao bpai khráp"}
+{"id":"th.s0096","th":"ไปก่อนนะคะ","rom":"bpai gàawn ná khá"}
+{"id":"th.s0097","th":"เพื่อนผม","rom":"phûuean phǒm"}
+{"id":"th.s0098","th":"พี่สาวฉัน","rom":"phîi-sǎao chǎn"}
+{"id":"th.s0099","th":"น้องชายผม","rom":"náawng-chaai phǒm"}
+{"id":"th.s0100","th":"พี่ชายฉัน","rom":"phîi-chaai chǎn"}
+{"id":"th.s0101","th":"ลูก","rom":"lûuk"}
+{"id":"th.s0102","th":"ฟุตบอล","rom":"fút-baawn"}
+{"id":"th.s0103","th":"คน","rom":"khon"}
+{"id":"th.s0104","th":"จาก","rom":"jàak"}
+{"id":"th.s0105","th":"สิบ","rom":"sìp"}
+{"id":"th.s0106","th":"รัก","rom":"rák"}
+{"id":"th.s0107","th":"ราก","rom":"râak"}
+{"id":"th.s0108","th":"รักคุณ","rom":"rák khun"}
+{"id":"th.s0109","th":"มาจากบ้าน","rom":"maa jàak bâan"}
+{"id":"th.s0110","th":"ใกล้ตลาด","rom":"glâi dtà-làat"}
+{"id":"th.s0111","th":"ชอบ","rom":"châawp"}
+{"id":"th.s0112","th":"ผมเป็นครู","rom":"phǒm bpen khruu"}
+{"id":"th.s0113","th":"ฉันเป็นคนอเมริกัน","rom":"chǎn bpen khon à-mee-rí-gan"}
+{"id":"th.s0114","th":"เพื่อนผมเป็นครู","rom":"phûuean phǒm bpen khruu"}
+{"id":"th.s0115","th":"พี่สาวฉันเป็นพยาบาล","rom":"phîi-sǎao chǎn bpen phá-yaa-baan"}
+{"id":"th.s0116","th":"นี่คือเพื่อนฉัน","rom":"nîi khuue phûuean chǎn"}
+{"id":"th.s0117","th":"ห้องน้ำอยู่ที่ไหน","rom":"hâwng-náam yùu thîi-nǎi"}
+{"id":"th.s0118","th":"ผมอยู่ที่บ้าน","rom":"phǒm yùu thîi bâan"}
+{"id":"th.s0119","th":"ตลาดอยู่ใกล้บ้าน","rom":"dtà-làat yùu glâi bâan"}
+{"id":"th.s0120","th":"บ้านผมอยู่ไกล","rom":"bâan phǒm yùu glai"}
+{"id":"th.s0121","th":"ธนาคารอยู่ไกล","rom":"thá-naa-khaan yùu glai"}
+{"id":"th.s0122","th":"อาหารอร่อย","rom":"aa-hǎan à-ràwi"}
+{"id":"th.s0123","th":"ฉันหิวค่ะ","rom":"chǎn hǐu khâ"}
+{"id":"th.s0124","th":"ผมไม่ใช่ครู","rom":"phǒm mâi châi khruu"}
+{"id":"th.s0125","th":"ผมไม่ได้เป็นครู","rom":"phǒm mâi dâai bpen khruu"}
+{"id":"th.s0126","th":"คุณเป็นคนอเมริกันไหม","rom":"khun bpen khon à-mee-rí-gan mǎi"}
+{"id":"th.s0127","th":"ใช่ครับ","rom":"châi khráp"}
+{"id":"th.s0128","th":"หนังสือสองเล่ม","rom":"nǎng-sǔue sǎawng lêm"}
+{"id":"th.s0129","th":"แมวสามตัว","rom":"maaeo sǎam dtuua"}
+{"id":"th.s0130","th":"หนังสือเก้าเล่ม","rom":"nǎng-sǔue gâao lêm"}
+{"id":"th.s0131","th":"เพื่อนสี่คน","rom":"phûuean sìi khon"}
+{"id":"th.s0132","th":"คนไทยห้าคน","rom":"khon thai hâa khon"}
+{"id":"th.s0133","th":"รถสองคัน","rom":"rót sǎawng khan"}
+{"id":"th.s0134","th":"กาแฟสองแก้ว","rom":"gaa-faae sǎawng gâaeo"}
+{"id":"th.s0135","th":"น้ำสามขวด","rom":"náam sǎam khùuat"}
+{"id":"th.s0136","th":"หนังสือเก่าสองเล่ม","rom":"nǎng-sǔue gào sǎawng lêm"}
+{"id":"th.s0137","th":"คุณมีแมวกี่ตัว","rom":"khun mii maaeo gìi dtuua"}
+{"id":"th.s0138","th":"สองตัว","rom":"sǎawng dtuua"}
+{"id":"th.s0139","th":"อันนี้","rom":"an níi"}
+{"id":"th.s0140","th":"ป่า","rom":"bpàa"}
+{"id":"th.s0141","th":"ป้า","rom":"bpâa"}
+{"id":"th.s0142","th":"โต๊ะสองตัว","rom":"dtó sǎawng dtuua"}
+{"id":"th.s0143","th":"ก๋วยเตี๋ยว","rom":"gǔuai-dtǐiao"}
+{"id":"th.s0144","th":"ผมกินข้าว","rom":"phǒm gin khâao"}
+{"id":"th.s0145","th":"ไม่ใช่ม้า","rom":"mâi châi máa"}
+{"id":"th.s0146","th":"น้อง","rom":"náawng"}
+{"id":"th.s0147","th":"โต๊ะใหม่","rom":"dtó mài"}
+{"id":"th.s0148","th":"นี่คือแมวของฉัน","rom":"nîi khuue maaeo khǎawng chǎn"}
+{"id":"th.s0149","th":"นั่นคือบ้านของผม","rom":"nân khuue bâan khǎawng phǒm"}
+{"id":"th.s0150","th":"เสื้อตัวนี้","rom":"sûuea dtuua níi"}
+{"id":"th.s0151","th":"หนังสือเล่มนั้น","rom":"nǎng-sǔue lêm nán"}
+{"id":"th.s0152","th":"รถคันนั้น","rom":"rót khan nán"}
+{"id":"th.s0153","th":"คนนั้นเป็นครู","rom":"khon nán bpen khruu"}
+{"id":"th.s0154","th":"บ้านของผม","rom":"bâan khǎawng phǒm"}
+{"id":"th.s0155","th":"บ้านผม","rom":"bâan phǒm"}
+{"id":"th.s0156","th":"หนังสือของฉัน","rom":"nǎng-sǔue khǎawng chǎn"}
+{"id":"th.s0157","th":"นี่ของใคร","rom":"nîi khǎawng khrai"}
+{"id":"th.s0158","th":"ของผมครับ","rom":"khǎawng phǒm khráp"}
+{"id":"th.s0159","th":"ผมไม่ชอบกาแฟ","rom":"phǒm mâi châawp gaa-faae"}
+{"id":"th.s0160","th":"อาหารไม่เผ็ด","rom":"aa-hǎan mâi phèt"}
+{"id":"th.s0161","th":"เผ็ดไหม","rom":"phèt mǎi"}
+{"id":"th.s0162","th":"ชอบไหมคะ","rom":"châawp mǎi khá"}
+{"id":"th.s0163","th":"ไม่ชอบครับ","rom":"mâi châawp khráp"}
+{"id":"th.s0164","th":"คุณเป็นครูใช่ไหม","rom":"khun bpen khruu châi mǎi"}
+{"id":"th.s0165","th":"ใช่ค่ะ","rom":"châi khâ"}
+{"id":"th.s0166","th":"ไปตลาดหรือเปล่า","rom":"bpai dtà-làat rǔue-bplàao"}
+{"id":"th.s0167","th":"ไม้","rom":"máai"}
+{"id":"th.s0168","th":"เลี้ยวขวา","rom":"líiao khwǎa"}
+{"id":"th.s0169","th":"ตรงไป","rom":"dtrong bpai"}
+{"id":"th.s0170","th":"ตลาดอยู่ใกล้ๆ","rom":"dtà-làat yùu glâi-glâi"}
+{"id":"th.s0171","th":"ไม่ไกล","rom":"mâi glai"}
+{"id":"th.s0172","th":"หมาตัวใหญ่","rom":"mǎa dtuua yài"}
+{"id":"th.s0173","th":"อยู่ที่ตลาด","rom":"yùu thîi dtà-làat"}
+{"id":"th.s0174","th":"ถนนนี้","rom":"thà-nǒn níi"}
+{"id":"th.s0175","th":"คุณกินอะไร","rom":"khun gin à-rai"}
+{"id":"th.s0176","th":"ผมกินข้าวผัด","rom":"phǒm gin khâao-phàt"}
+{"id":"th.s0177","th":"คนนั้นคือใคร","rom":"khon nán khuue khrai"}
+{"id":"th.s0178","th":"คุณรอใคร","rom":"khun raaw khrai"}
+{"id":"th.s0179","th":"ไปไหน","rom":"bpai nǎi"}
+{"id":"th.s0180","th":"ราคาเท่าไร","rom":"raa-khaa thâo-rai"}
+{"id":"th.s0181","th":"มีแมวกี่ตัว","rom":"mii maaeo gìi dtuua"}
+{"id":"th.s0182","th":"มีกี่คน","rom":"mii gìi khon"}
+{"id":"th.s0183","th":"เสื้อตัวไหน","rom":"sûuea dtuua nǎi"}
+{"id":"th.s0184","th":"หนังสือเล่มไหน","rom":"nǎng-sǔue lêm nǎi"}
+{"id":"th.s0185","th":"คุณไปเมื่อไร","rom":"khun bpai mûuea-rai"}
+{"id":"th.s0186","th":"ไปตลาดยังไง","rom":"bpai dtà-làat yang-ngai"}
+{"id":"th.s0187","th":"เบียร์สองขวด","rom":"biia sǎawng khùuat"}
+{"id":"th.s0188","th":"ผมไม่ทราบครับ","rom":"phǒm mâi sâap khráp"}
+{"id":"th.s0189","th":"จริงไหม","rom":"jing mǎi"}
+{"id":"th.s0190","th":"น้ำสองแก้ว","rom":"náam sǎawng gâaeo"}
+{"id":"th.s0191","th":"เงินสด","rom":"ngoen-sòt"}
+{"id":"th.s0192","th":"เด็กๆเล่นที่บ้าน","rom":"dèk-dèk lên thîi bâan"}
+{"id":"th.s0193","th":"ช่วยพูดช้าๆ","rom":"chûuai phûut cháa-cháa"}
+{"id":"th.s0194","th":"ข้าวผัดกุ้ง 60 บาท","rom":"khâao-phàt gûng hòk-sìp bàat"}
+{"id":"th.s0195","th":"ชาเย็น 40 บาท","rom":"chaa-yen sìi-sìp bàat"}
+{"id":"th.s0196","th":"ขอผัดไทยสองจานครับ","rom":"khǎaw phàt-thai sǎawng jaan khráp"}
+{"id":"th.s0197","th":"เอาส้มตำไม่เผ็ดค่ะ","rom":"ao sôm-dtam mâi phèt khâ"}
+{"id":"th.s0198","th":"ขอกาแฟเย็นสองแก้วครับ","rom":"khǎaw gaa-faae yen sǎawng gâaeo khráp"}
+{"id":"th.s0199","th":"ขอชาเย็นสองแก้วครับ","rom":"khǎaw chaa-yen sǎawng gâaeo khráp"}
+{"id":"th.s0200","th":"ไม่เผ็ดนะครับ","rom":"mâi phèt ná khráp"}
+{"id":"th.s0201","th":"เผ็ดนิดหน่อย","rom":"phèt nít-nàwi"}
+{"id":"th.s0202","th":"อร่อยมาก","rom":"à-ràwi mâak"}
+{"id":"th.s0203","th":"น้องคะ","rom":"náawng khá"}
+{"id":"th.s0204","th":"เช็คบิลด้วยค่ะ","rom":"chék-bin dûuai khâ"}
+{"id":"th.s0205","th":"ห่อกลับบ้านครับ","rom":"hàaw glàp bâan khráp"}
+{"id":"th.s0206","th":"แฟนฉันเป็นคนไทย","rom":"faaen chǎn bpen khon thai"}
+{"id":"th.s0207","th":"ลูกสาวอายุห้าขวบ","rom":"lûuk-sǎao aa-yú hâa khùuap"}
+{"id":"th.s0208","th":"ฉันมีน้องชายสองคน","rom":"chǎn mii náawng-chaai sǎawng khon"}
+{"id":"th.s0209","th":"มีพี่น้องกี่คน","rom":"mii phîi-náawng gìi khon"}
+{"id":"th.s0210","th":"แม่ผมเป็นหมอ","rom":"mâae phǒm bpen mǎaw"}
+{"id":"th.s0211","th":"พี่ชายเป็นครู","rom":"phîi-chaai bpen khruu"}
+{"id":"th.s0212","th":"พ่อทำงานที่ธนาคาร","rom":"phâaw tham-ngaan thîi thá-naa-khaan"}
+{"id":"th.s0213","th":"คุณทำงานอะไร","rom":"khun tham-ngaan à-rai"}
+{"id":"th.s0214","th":"ผมอายุสามสิบปี","rom":"phǒm aa-yú sǎam-sìp bpii"}
+{"id":"th.s0215","th":"คุณอายุเท่าไร","rom":"khun aa-yú thâo-rai"}
+{"id":"th.s0216","th":"บ้านใหญ่","rom":"bâan yài"}
+{"id":"th.s0217","th":"รถสีแดง","rom":"rót sǐi daaeng"}
+{"id":"th.s0218","th":"อาหารร้านนี้อร่อยมาก","rom":"aa-hǎan ráan níi à-ràwi mâak"}
+{"id":"th.s0219","th":"เสื้อตัวนี้แพงกว่าตัวนั้น","rom":"sûuea dtuua níi phaaeng gwàa dtuua nán"}
+{"id":"th.s0220","th":"กรุงเทพฯร้อนกว่าเชียงใหม่","rom":"grung-thêep ráawn gwàa chiiang-mài"}
+{"id":"th.s0221","th":"ร้านนี้ถูกที่สุด","rom":"ráan níi thùuk thîi-sùt"}
+{"id":"th.s0222","th":"รถคันนี้แพงที่สุด","rom":"rót khan níi phaaeng thîi-sùt"}
+{"id":"th.s0223","th":"เสื้อสองตัวนี้ราคาเท่ากัน","rom":"sûuea sǎawng dtuua níi raa-khaa thâo-gan"}
+{"id":"th.s0224","th":"กระเป๋าสองใบนี้เหมือนกัน","rom":"grà-bpǎo sǎawng bai níi mǔuean-gan"}
+{"id":"th.s0225","th":"หกโมงเช้า","rom":"hòk moong cháao"}
+{"id":"th.s0226","th":"เก้าโมงเช้า","rom":"gâao moong cháao"}
+{"id":"th.s0227","th":"บ่ายสองโมง","rom":"bàai sǎawng moong"}
+{"id":"th.s0228","th":"ห้าโมงเย็น","rom":"hâa moong yen"}
+{"id":"th.s0229","th":"หนึ่งทุ่ม","rom":"nùeng thûm"}
+{"id":"th.s0230","th":"บ่ายสามโมงครึ่ง","rom":"bàai sǎam moong khrûeng"}
+{"id":"th.s0231","th":"ตอนนี้กี่โมง","rom":"dtaawn-níi gìi moong"}
+{"id":"th.s0232","th":"ผมตื่นหกโมงเช้า","rom":"phǒm dtùuen hòk moong cháao"}
+{"id":"th.s0233","th":"วันเสาร์ฉันไม่ทำงาน","rom":"wan-sǎo chǎn mâi tham-ngaan"}
+{"id":"th.s0234","th":"เมื่อวานฉันไปตลาด","rom":"mûuea-waan chǎn bpai dtà-làat"}
+{"id":"th.s0235","th":"ผมจะไปภูเก็ต","rom":"phǒm jà bpai phuu-gèt"}
+{"id":"th.s0236","th":"เขากำลังกินข้าวอยู่","rom":"khǎo gam-lang gin khâao yùu"}
+{"id":"th.s0237","th":"กินแล้ว","rom":"gin láaeo"}
+{"id":"th.s0238","th":"เคยไปเชียงใหม่ไหม","rom":"khooei bpai chiiang-mài mǎi"}
+{"id":"th.s0239","th":"ไม่เคย","rom":"mâi khooei"}
+{"id":"th.s0240","th":"กินข้าวหรือยัง","rom":"gin khâao rǔue-yang"}
+{"id":"th.s0241","th":"เขายังไม่มา","rom":"khǎo yang mâi maa"}
+{"id":"th.s0242","th":"อยากไปทะเล","rom":"yàak bpai thá-lee"}
+{"id":"th.s0243","th":"ฉันอยากได้กระเป๋าใบนี้","rom":"chǎn yàak dâai grà-bpǎo bai níi"}
+{"id":"th.s0244","th":"ผมพูดภาษาไทยได้นิดหน่อย","rom":"phǒm phûut phaa-sǎa thai dâai nít-nàwi"}
+{"id":"th.s0245","th":"ไปไม่ได้","rom":"bpai mâi dâai"}
+{"id":"th.s0246","th":"ว่ายน้ำได้ไหม","rom":"wâai-náam dâai mǎi"}
+{"id":"th.s0247","th":"รอที่นี่ได้ไหม","rom":"raaw thîi-nîi dâai mǎi"}
+{"id":"th.s0248","th":"ต้องไปแล้ว","rom":"dtâwng bpai láaeo"}
+{"id":"th.s0249","th":"ต้องเปลี่ยนรถไหม","rom":"dtâwng bplìian rót mǎi"}
+{"id":"th.s0250","th":"ขอน้ำหน่อย","rom":"khǎaw náam nàwi"}
+{"id":"th.s0251","th":"ขอเมนูหน่อยครับ","rom":"khǎaw mee-nuu nàwi khráp"}
+{"id":"th.s0252","th":"ขอดูหน่อย","rom":"khǎaw duu nàwi"}
+{"id":"th.s0253","th":"ช่วยพูดช้าๆหน่อย","rom":"chûuai phûut cháa-cháa nàwi"}
+{"id":"th.s0254","th":"ช่วยเปิดแอร์หน่อยได้ไหม","rom":"chûuai bpòoet aae nàwi dâai mǎi"}
+{"id":"th.s0255","th":"รอก่อนนะ","rom":"raaw gàawn ná"}
+{"id":"th.s0256","th":"เช็คบิลด้วย","rom":"chék-bin dûuai"}
+{"id":"th.s0257","th":"อย่าลืมนะ","rom":"yàa luuem ná"}
+{"id":"th.s0258","th":"เชิญครับ","rom":"chooen khráp"}
+{"id":"th.s0259","th":"กรุณาปิดประตู","rom":"gà-rú-naa bpìt bprà-dtuu"}
+{"id":"th.s0260","th":"ตลาดอยู่ไกลไหม","rom":"dtà-làat yùu glai mǎi"}
+{"id":"th.s0261","th":"ธนาคารอยู่ใกล้ๆ","rom":"thá-naa-khaan yùu glâi-glâi"}
+{"id":"th.s0262","th":"ตรงไป","rom":"dtrong bpai"}
+{"id":"th.s0263","th":"เลี้ยวซ้ายที่ไฟแดง","rom":"líiao sáai thîi fai-daaeng"}
+{"id":"th.s0264","th":"อยู่ตรงข้ามโรงแรม","rom":"yùu dtrong-khâam roong-raaem"}
+{"id":"th.s0265","th":"ไปสนามบิน","rom":"bpai sà-nǎam-bin"}
+{"id":"th.s0266","th":"เปิดมิเตอร์ได้ไหม","rom":"bpòoet mí-dtôoe dâai mǎi"}
+{"id":"th.s0267","th":"จอดตรงนี้","rom":"jàawt dtrong-níi"}
+{"id":"th.s0268","th":"เสื้อตัวนี้ราคาเท่าไร","rom":"sûuea dtuua níi raa-khaa thâo-rai"}
+{"id":"th.s0269","th":"ลดได้ไหม","rom":"lót dâai mǎi"}
+{"id":"th.s0270","th":"รองเท้าคู่นี้","rom":"raawng-tháao khûu níi"}
+{"id":"th.s0271","th":"เสื้อสีแดง","rom":"sûuea sǐi daaeng"}
+{"id":"th.s0272","th":"กางเกงสีดำตัวนี้","rom":"gaang-geeng sǐi dam dtuua níi"}
+{"id":"th.s0273","th":"ลองได้ไหม","rom":"laawng dâai mǎi"}
+{"id":"th.s0274","th":"แพงไป","rom":"phaaeng bpai"}
+{"id":"th.s0275","th":"กางเกงตัวนี้ฟิต","rom":"gaang-geeng dtuua níi fít"}
+{"id":"th.s0276","th":"สแกนได้ไหม","rom":"sà-gaaen dâai mǎi"}
+{"id":"th.s0277","th":"ผมเหนื่อย","rom":"phǒm nùueai"}
+{"id":"th.s0278","th":"ฉันดีใจมาก","rom":"chǎn dii-jai mâak"}
+{"id":"th.s0279","th":"ปวดหัว","rom":"bpùuat-hǔua"}
+{"id":"th.s0280","th":"ปวดท้อง","rom":"bpùuat-tháawng"}
+{"id":"th.s0281","th":"เจ็บคอ","rom":"jèp khaaw"}
+{"id":"th.s0282","th":"ผมเป็นหวัด","rom":"phǒm bpen wàt"}
+{"id":"th.s0283","th":"ฉันเป็นไข้","rom":"chǎn bpen khâi"}
+{"id":"th.s0284","th":"แพ้กุ้ง","rom":"pháae gûng"}
+{"id":"th.s0285","th":"ร้านขายยาอยู่ใกล้ไหม","rom":"ráan-khǎai-yaa yùu glâi mǎi"}
+{"id":"th.s0286","th":"มียาไหมคะ","rom":"mii yaa mǎi khá"}

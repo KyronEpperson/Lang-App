@@ -1,0 +1,193 @@
+{
+ "target": "tl",
+ "ttsLang": "fil-PH",
+ "self": "Tagalog",
+ "pack": {
+  "accents": false,
+  "keys": "",
+  "voiceMatch": "^(fil|tl)(-|$)"
+ },
+ "features": {
+  "script": false,
+  "pron": false,
+  "conj": false,
+  "register": false,
+  "numbers": false,
+  "sound": false,
+  "strokes": false
+ },
+ "groups": [
+  {
+   "id": "tl.grp.first-steps",
+   "decks": [
+    "tl.d.sounds-and-spelling",
+    "tl.d.greetings-and-respect",
+    "tl.d.about-me",
+    "tl.d.family-and-people"
+   ]
+  },
+  {
+   "id": "tl.grp.everyday-words",
+   "decks": [
+    "tl.d.numbers-and-money",
+    "tl.d.time-days-and-dates",
+    "tl.d.food-and-drink",
+    "tl.d.shopping-and-the-market",
+    "tl.d.home-and-daily-routine"
+   ]
+  },
+  {
+   "id": "tl.grp.out-and-about",
+   "decks": [
+    "tl.d.around-town-and-directions",
+    "tl.d.getting-around",
+    "tl.d.health-and-help",
+    "tl.d.work-and-school"
+   ]
+  },
+  {
+   "id": "tl.grp.conversation",
+   "decks": [
+    "tl.d.describing-people-and-things",
+    "tl.d.feelings-and-free-time",
+    "tl.d.questions-and-little-words",
+    "tl.d.compliments",
+    "tl.d.flirting"
+   ]
+  },
+  {
+   "id": "tl.grp.watch-out",
+   "decks": [
+    "tl.d.traps-for-english-speakers",
+    "tl.d.everyday-manila-taglish"
+   ]
+  },
+  {
+   "id": "tl.grp.core-words",
+   "decks": [
+    "tl.d.top-nouns",
+    "tl.d.top-verbs",
+    "tl.d.top-adjectives",
+    "tl.d.top-adverbs",
+    "tl.d.top-pronouns",
+    "tl.d.top-markers-and-particles",
+    "tl.d.top-conjunctions",
+    "tl.d.top-interjections",
+    "tl.d.top-words"
+   ]
+  }
+ ],
+ "tags": {
+  "first-steps": [
+   "tl.d.sounds-and-spelling",
+   "tl.d.greetings-and-respect",
+   "tl.d.about-me",
+   "tl.d.family-and-people"
+  ],
+  "everyday-words": [
+   "tl.d.numbers-and-money",
+   "tl.d.time-days-and-dates",
+   "tl.d.food-and-drink",
+   "tl.d.shopping-and-the-market",
+   "tl.d.home-and-daily-routine"
+  ],
+  "out-and-about": [
+   "tl.d.around-town-and-directions",
+   "tl.d.getting-around",
+   "tl.d.health-and-help",
+   "tl.d.work-and-school"
+  ],
+  "conversation": [
+   "tl.d.describing-people-and-things",
+   "tl.d.feelings-and-free-time",
+   "tl.d.questions-and-little-words",
+   "tl.d.compliments",
+   "tl.d.flirting"
+  ],
+  "watch-out": [
+   "tl.d.traps-for-english-speakers",
+   "tl.d.everyday-manila-taglish"
+  ],
+  "core-words": [
+   "tl.d.top-nouns",
+   "tl.d.top-verbs",
+   "tl.d.top-adjectives",
+   "tl.d.top-adverbs",
+   "tl.d.top-pronouns",
+   "tl.d.top-markers-and-particles",
+   "tl.d.top-conjunctions",
+   "tl.d.top-interjections",
+   "tl.d.top-words"
+  ]
+ },
+ "goals": [],
+ "plans": [],
+ "titles": [
+  {
+   "id": "tl.t01",
+   "level": 1
+  },
+  {
+   "id": "tl.t03",
+   "level": 3
+  },
+  {
+   "id": "tl.t05",
+   "level": 5
+  },
+  {
+   "id": "tl.t08",
+   "level": 8
+  },
+  {
+   "id": "tl.t12",
+   "level": 12
+  },
+  {
+   "id": "tl.t16",
+   "level": 16
+  },
+  {
+   "id": "tl.t20",
+   "level": 20
+  }
+ ],
+ "greet": [
+  {
+   "id": "tl.h.night",
+   "tl": "Magandang gabi"
+  },
+  {
+   "id": "tl.h.morning",
+   "tl": "Magandang umaga"
+  },
+  {
+   "id": "tl.h.afternoon",
+   "tl": "Magandang hapon"
+  },
+  {
+   "id": "tl.h.evening",
+   "tl": "Magandang gabi"
+  }
+ ],
+ "pairs": [],
+ "pause": {
+  "sets": [],
+  "idioms": []
+ },
+ "uiKeys": [
+  "Tagalog (required)",
+  "Tagalog, pronunciation, meaning, note — one per line (pronunciation/note optional)",
+  "Search a pattern, e.g. 에서 or 'want'",
+  "#first-steps",
+  "#everyday-words",
+  "#out-and-about",
+  "#conversation",
+  "#watch-out",
+  "#core-words"
+ ],
+ "exportedFrom": {
+  "file": "tools/target/tl/ (tools/target/gen.js tl)",
+  "sha256_16": "7feda8e8d1331043"
+ }
+}

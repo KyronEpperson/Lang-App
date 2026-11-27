@@ -1,0 +1,378 @@
+{"id":"sounds.01","lesson":"sounds","t":"mc","o":["ngayon","gabi","bata","aso"]}
+{"id":"sounds.02","lesson":"sounds","t":"mc","o":["tsinelas","salamat","siya","bahay"]}
+{"id":"sounds.03","lesson":"sounds","t":"mc","o":[null,null,null,null]}
+{"id":"sounds.04","lesson":"sounds","t":"mc","o":[null,null,null,null]}
+{"id":"sounds.05","lesson":"sounds","t":"mc","o":[null,null,null,null]}
+{"id":"sounds.06","lesson":"sounds","t":"order","a":["malaking","bahay"],"x":["malaki"]}
+{"id":"sounds.07","lesson":"sounds","t":"order","a":["aso","ni","Ana"],"x":["si"]}
+{"id":"sounds.08","lesson":"sounds","t":"order","a":["mga","bata"],"x":["ng"]}
+{"id":"sounds.09","lesson":"sounds","t":"fill","q":"malaki__ bahay","o":["na","g","y"],"a":["ng"]}
+{"id":"sounds.10","lesson":"sounds","t":"fill","q":"__ bata","o":["ng","na","ni"],"a":["mga"]}
+{"id":"sounds.11","lesson":"sounds","t":"fill","q":"__inelas","o":["ch","s","sh"],"a":["ts"]}
+{"id":"sounds.12","lesson":"sounds","t":"type","a":["dalawang aso"],"x":["dalawa"]}
+{"id":"sounds.13","lesson":"sounds","t":"type","a":["bahay ni Ana","ang bahay ni Ana"],"x":["si"]}
+{"id":"sounds.14","lesson":"sounds","t":"type","a":["maliit na bahay","bahay na maliit"],"x":["ng"]}
+{"id":"greetings.01","lesson":"greetings","t":"mc","o":["Magandang umaga po.","Magandang umaga.","Maganda umaga po.","Magandang umaga ka."]}
+{"id":"greetings.02","lesson":"greetings","t":"mc","o":["Magandang hapon.","Magandang umaga.","Magandang gabi.","Magandang tanghali."]}
+{"id":"greetings.03","lesson":"greetings","t":"mc","o":["Opo.","Oo.","Po.","Salamat."]}
+{"id":"greetings.04","lesson":"greetings","t":"mc","o":["Walang anuman.","Paalam.","Mabuti naman.","Opo."]}
+{"id":"greetings.05","lesson":"greetings","t":"mc","o":["Ingat!","Paalam!","Salamat!","Opo!"]}
+{"id":"greetings.06","lesson":"greetings","t":"order","a":["Magandang","umaga","po"],"x":["maganda"]}
+{"id":"greetings.07","lesson":"greetings","t":"order","a":["Magandang","hapon"],"x":["maganda"]}
+{"id":"greetings.08","lesson":"greetings","t":"order","a":["Kumusta","po","kayo"],"x":["ka"]}
+{"id":"greetings.09","lesson":"greetings","t":"fill","q":"Salamat __.","o":["ka","kayo","ba"],"a":["po"]}
+{"id":"greetings.10","lesson":"greetings","t":"fill","q":"Kumusta po __?","o":["ka","ikaw","ako"],"a":["kayo"]}
+{"id":"greetings.11","lesson":"greetings","t":"fill","q":"__, Lola.","o":["Oo","Po","Hindi"],"a":["Opo"]}
+{"id":"greetings.12","lesson":"greetings","t":"type","a":["Magandang gabi po"],"x":["maganda"]}
+{"id":"greetings.13","lesson":"greetings","t":"type","a":["Magandang tanghali"],"x":["maganda"]}
+{"id":"greetings.14","lesson":"greetings","t":"type","a":["Kumusta po kayo","Kamusta po kayo"],"x":["ka"]}
+{"id":"pronouns.01","lesson":"pronouns","t":"mc","o":["siya","sila","kayo","ako"]}
+{"id":"pronouns.02","lesson":"pronouns","t":"mc","o":["Guro kami.","Guro tayo.","Guro sila.","Guro kayo."]}
+{"id":"pronouns.03","lesson":"pronouns","t":"mc","o":["Si Mark ka.","Ka si Mark.","Ang Mark ka.","Ka ang Mark."]}
+{"id":"pronouns.04","lesson":"pronouns","t":"mc","o":["Kain tayo!","Kain kami!","Kain sila!","Kain ako!"]}
+{"id":"pronouns.05","lesson":"pronouns","t":"mc","o":["kayo","ka","ikaw","ako"]}
+{"id":"pronouns.06","lesson":"pronouns","t":"order","a":["Ako","si","Ana"],"x":["ang"]}
+{"id":"pronouns.07","lesson":"pronouns","t":"order","a":["Siya","si","Juan"],"x":["ang"]}
+{"id":"pronouns.08","lesson":"pronouns","t":"order","a":["Kain","tayo"],"x":["kami"]}
+{"id":"pronouns.09","lesson":"pronouns","t":"fill","q":"__ si Ana.","o":["Ka","Kami","Ang"],"a":["Ako"]}
+{"id":"pronouns.10","lesson":"pronouns","t":"fill","q":"Ako __ Juan.","o":["ang","ni","ng"],"a":["si"]}
+{"id":"pronouns.11","lesson":"pronouns","t":"fill","q":"Guro __.","o":["kami","ka","sila"],"a":["tayo"]}
+{"id":"pronouns.12","lesson":"pronouns","t":"type","a":["Ikaw si Mark","Si Mark ka"],"x":["ang"]}
+{"id":"pronouns.13","lesson":"pronouns","t":"type","a":["Ako si Joy","Si Joy ako"],"x":["ang"]}
+{"id":"pronouns.14","lesson":"pronouns","t":"type","a":["Siya si Bea","Si Bea siya"],"x":["ang"]}
+{"id":"intro.01","lesson":"intro","t":"mc","o":["Kumusta ka?","Paano ka?","Ano ka?","Saan ka?"]}
+{"id":"intro.02","lesson":"intro","t":"mc","o":["Taga-Amerika ako.","Ako ay Amerika.","Amerika ako.","Taga ako Amerika."]}
+{"id":"intro.03","lesson":"intro","t":"mc","o":["Taga-saan po kayo?","Taga-saan ka po?","Taga-saan kayo ka?","Taga po saan kayo?"]}
+{"id":"intro.04","lesson":"intro","t":"mc","o":["Amerikano ako.","Amerika ako.","Ako Amerikano.","Taga-Amerikano ako."]}
+{"id":"intro.05","lesson":"intro","t":"mc","o":[null,null,null,null]}
+{"id":"intro.06","lesson":"intro","t":"order","a":["Ako","si","Carlo"],"x":["ang"]}
+{"id":"intro.07","lesson":"intro","t":"order","a":["Ilang","taon","ka","na"],"x":["ilan"]}
+{"id":"intro.08","lesson":"intro","t":"order","a":["Anong","pangalan","mo"],"x":["ano"]}
+{"id":"intro.09","lesson":"intro","t":"fill","q":"__-Cebu ako.","o":["Sa","Si","Ang"],"a":["Taga"]}
+{"id":"intro.10","lesson":"intro","t":"fill","q":"Ano__ pangalan mo?","o":["na","g","y"],"a":["ng"]}
+{"id":"intro.11","lesson":"intro","t":"fill","q":"Ako __ Liza.","o":["ang","ni","ng"],"a":["si"]}
+{"id":"intro.12","lesson":"intro","t":"type","a":["Ako si Rey","Si Rey ako"],"x":["ang"]}
+{"id":"intro.13","lesson":"intro","t":"type","a":["Ilang taon ka na","Ilang taon ka"],"x":["ilan"]}
+{"id":"intro.14","lesson":"intro","t":"type","a":["Taga-Maynila ako","Ako ay taga-Maynila"],"x":["sa"]}
+{"id":"this-that.01","lesson":"this-that","t":"mc","o":["Magkano po ito?","Magkano po iyan?","Magkano po iyon?","Magkano po siya?"]}
+{"id":"this-that.02","lesson":"this-that","t":"mc","o":["Ano iyon?","Ano iyan?","Ano ito?","Sino iyon?"]}
+{"id":"this-that.03","lesson":"this-that","t":"mc","o":["iyan","iyon","ito","siya"]}
+{"id":"this-that.04","lesson":"this-that","t":"mc","o":["iyan","iyon","ito","ikaw"]}
+{"id":"this-that.05","lesson":"this-that","t":"mc","o":["Mahal ito.","Mahal siya.","Ito mahal siya.","Siya ito mahal."]}
+{"id":"this-that.06","lesson":"this-that","t":"order","a":["Ito","si","Ana"],"x":["ang"]}
+{"id":"this-that.07","lesson":"this-that","t":"order","a":["Iyan","ang","bahay","ni","Juan"],"x":["si"]}
+{"id":"this-that.08","lesson":"this-that","t":"order","a":["Magkano","po","ito"],"x":["iyon"]}
+{"id":"this-that.09","lesson":"this-that","t":"fill","q":"Ano __?","o":["iyan","iyon","siya"],"a":["ito"]}
+{"id":"this-that.10","lesson":"this-that","t":"fill","q":"Magkano po __?","o":["ito","iyon","siya"],"a":["iyan"]}
+{"id":"this-that.11","lesson":"this-that","t":"fill","q":"Ito __ Ana.","o":["ang","ni","ng"],"a":["si"]}
+{"id":"this-that.12","lesson":"this-that","t":"type","a":["Ito si Mark","Si Mark ito"],"x":["ang"]}
+{"id":"this-that.13","lesson":"this-that","t":"type","a":["Iyan ang aso ni Ana","Aso ni Ana iyan"],"x":["si"]}
+{"id":"this-that.14","lesson":"this-that","t":"type","a":["Ano iyon"],"x":["iyan"]}
+{"id":"markers.01","lesson":"markers","t":"mc","o":["Guro si Ana.","Guro ang Ana.","Guro ni Ana.","Guro kay Ana."]}
+{"id":"markers.02","lesson":"markers","t":"mc","o":["bahay ng guro","bahay ang guro","bahay ni guro","bahay sa guro"]}
+{"id":"markers.03","lesson":"markers","t":"mc","o":["Kuya, sa Makati po.","Kuya, kay Makati po.","Kuya, ang Makati po.","Kuya, ni Makati po."]}
+{"id":"markers.04","lesson":"markers","t":"mc","o":["Para kay Juan ito.","Para sa Juan ito.","Para si Juan ito.","Para ni Juan ito."]}
+{"id":"markers.05","lesson":"markers","t":"mc","o":["Malaki ang bahay.","Malaki ng bahay.","Malaki sa bahay.","Malaki si bahay."]}
+{"id":"markers.06","lesson":"markers","t":"order","a":["Malinis","ang","kusina","ni","Lola"],"x":["si"]}
+{"id":"markers.07","lesson":"markers","t":"order","a":["Ito","ang","bahay","ng","guro"],"x":["ni"]}
+{"id":"markers.08","lesson":"markers","t":"order","a":["Para","kay","Ana","ito"],"x":["sa"]}
+{"id":"markers.09","lesson":"markers","t":"fill","q":"Guro __ Juan.","o":["ang","ni","kay"],"a":["si"]}
+{"id":"markers.10","lesson":"markers","t":"fill","q":"bahay __ Ana","o":["si","ng","kay"],"a":["ni"]}
+{"id":"markers.11","lesson":"markers","t":"fill","q":"Kuya, __ Makati po.","o":["kay","si","ang"],"a":["sa"]}
+{"id":"markers.12","lesson":"markers","t":"type","a":["Guro si Ana","Si Ana ay guro"],"x":["ang"]}
+{"id":"markers.13","lesson":"markers","t":"type","a":["bahay ng guro","ang bahay ng guro"],"x":["ni"]}
+{"id":"markers.14","lesson":"markers","t":"type","a":["Para kay Juan ito","Ito ay para kay Juan"],"x":["sa"]}
+{"id":"linker.01","lesson":"linker","t":"mc","o":["magandang bahay","maganda bahay","magandang na bahay","maganda ng bahay"]}
+{"id":"linker.02","lesson":"linker","t":"mc","o":["mabait na bata","mabaitng bata","mabait bata","mabaiting bata"]}
+{"id":"linker.03","lesson":"linker","t":"mc","o":["asong malaki","aso malaki","asong na malaki","aso ng malaki"]}
+{"id":"linker.04","lesson":"linker","t":"mc","o":["masarap na pagkain","masarap pagkain","masarapng pagkain","masarap ng pagkain"]}
+{"id":"linker.05","lesson":"linker","t":"mc","o":["Mabait na guro si Ana.","Mabait guro si Ana.","Mabaitng guro si Ana.","Mabait na guro ang Ana."]}
+{"id":"linker.06","lesson":"linker","t":"order","a":["malaking","aso"],"x":["malaki"]}
+{"id":"linker.07","lesson":"linker","t":"order","a":["mabait","na","guro"],"x":["ng"]}
+{"id":"linker.08","lesson":"linker","t":"order","a":["Mabait","na","guro","si","Ana"],"x":["ang"]}
+{"id":"linker.09","lesson":"linker","t":"fill","q":"malaki__ aso","o":["na","g","y"],"a":["ng"]}
+{"id":"linker.10","lesson":"linker","t":"fill","q":"mabait __ bata","o":["ng","g","ang"],"a":["na"]}
+{"id":"linker.11","lesson":"linker","t":"fill","q":"pagkain__ masarap","o":["ng","na","y"],"a":["g"]}
+{"id":"linker.12","lesson":"linker","t":"type","a":["masarap na pagkain","pagkaing masarap"],"x":["ng"]}
+{"id":"linker.13","lesson":"linker","t":"type","a":["magandang bahay","bahay na maganda"],"x":["maganda"]}
+{"id":"linker.14","lesson":"linker","t":"type","a":["maliit na aso","asong maliit"],"x":["ng"]}
+{"id":"ng-pronouns.01","lesson":"ng-pronouns","t":"mc","o":["Gusto ko ng kape.","Gusto ako ng kape.","Ako gusto ng kape.","Gusto akin ng kape."]}
+{"id":"ng-pronouns.02","lesson":"ng-pronouns","t":"mc","o":["Hindi ko alam.","Hindi ako alam.","Hindi alam ko.","Ako hindi alam."]}
+{"id":"ng-pronouns.03","lesson":"ng-pronouns","t":"mc","o":["pangalan mo","pangalan ka","pangalan ikaw","mo pangalan"]}
+{"id":"ng-pronouns.04","lesson":"ng-pronouns","t":"mc","o":["bahay namin","bahay natin","bahay kami","bahay nila"]}
+{"id":"ng-pronouns.05","lesson":"ng-pronouns","t":"mc","o":["Ano po ang pangalan ninyo?","Ano po ang pangalan mo?","Ano po ang pangalan kayo?","Ano ang pangalan ka po?"]}
+{"id":"ng-pronouns.06","lesson":"ng-pronouns","t":"order","a":["Gusto","ko","ito"],"x":["ako"]}
+{"id":"ng-pronouns.07","lesson":"ng-pronouns","t":"order","a":["Hindi","ko","alam"],"x":["ako"]}
+{"id":"ng-pronouns.08","lesson":"ng-pronouns","t":"order","a":["Ito","ang","bahay","ko"],"x":["ako"]}
+{"id":"ng-pronouns.09","lesson":"ng-pronouns","t":"fill","q":"Gusto __ ng kape.","o":["ako","akin","ka"],"a":["ko"]}
+{"id":"ng-pronouns.10","lesson":"ng-pronouns","t":"fill","q":"Ano ang pangalan __?","o":["ka","ikaw","kayo"],"a":["mo"]}
+{"id":"ng-pronouns.11","lesson":"ng-pronouns","t":"fill","q":"Aso __ iyan.","o":["siya","nila","ko"],"a":["niya"]}
+{"id":"ng-pronouns.12","lesson":"ng-pronouns","t":"type","a":["Gusto ko ng kape"],"x":["ako"]}
+{"id":"ng-pronouns.13","lesson":"ng-pronouns","t":"type","a":["bahay ko","ang bahay ko"],"x":["ako"]}
+{"id":"ng-pronouns.14","lesson":"ng-pronouns","t":"type","a":["Hindi ko alam"],"x":["ako"]}
+{"id":"questions.01","lesson":"questions","t":"mc","o":["Pagod ka ba?","Ba pagod ka?","Ikaw pagod ba?","Pagod ba ka?"]}
+{"id":"questions.02","lesson":"questions","t":"mc","o":["Nasaan ang CR?","Sino ang CR?","Ano ang CR?","Kailan ang CR?"]}
+{"id":"questions.03","lesson":"questions","t":"mc","o":["Pagod ba siya?","Pagod siya ba?","Ba pagod siya?","Siya pagod ba?"]}
+{"id":"questions.04","lesson":"questions","t":"mc","o":["Sino iyon?","Ano iyon?","Saan iyon?","Ilan iyon?"]}
+{"id":"questions.05","lesson":"questions","t":"mc","o":["Bakit?","Paano?","Kailan?","Ilan?"]}
+{"id":"questions.06","lesson":"questions","t":"order","a":["Guro","ba","si","Ana"],"x":["ang"]}
+{"id":"questions.07","lesson":"questions","t":"order","a":["Nasaan","ang","bahay","ni","Juan"],"x":["si"]}
+{"id":"questions.08","lesson":"questions","t":"order","a":["Pagod","ka","ba"],"x":["ikaw"]}
+{"id":"questions.09","lesson":"questions","t":"fill","q":"Pagod ka __?","o":["ang","si","ko"],"a":["ba"]}
+{"id":"questions.10","lesson":"questions","t":"fill","q":"__ ang CR?","o":["Sino","Ano","Kailan"],"a":["Nasaan"]}
+{"id":"questions.11","lesson":"questions","t":"fill","q":"__ siya?","o":["Ano","Saan","Ilan"],"a":["Sino"]}
+{"id":"questions.12","lesson":"questions","t":"type","a":["Guro ba si Ana"],"x":["ang"]}
+{"id":"questions.13","lesson":"questions","t":"type","a":["Nasaan ang aso ni Ana"],"x":["si"]}
+{"id":"questions.14","lesson":"questions","t":"type","a":["Alin ang bahay mo"],"x":["ka"]}
+{"id":"yes-no.01","lesson":"yes-no","t":"mc","o":["opo","oo","po","hindi po"]}
+{"id":"yes-no.02","lesson":"yes-no","t":"mc","o":["Wala po.","Hindi po.","Huwag po.","Hindi pa po."]}
+{"id":"yes-no.03","lesson":"yes-no","t":"mc","o":["Huwag kang kumain!","Hindi ka kumain!","Wala kang kumain!","Hindi kumain!"]}
+{"id":"yes-no.04","lesson":"yes-no","t":"mc","o":["Hindi ako pagod.","Hindi pagod ko.","Huwag akong pagod.","Hindi ko pagod."]}
+{"id":"yes-no.05","lesson":"yes-no","t":"mc","o":["Hindi pa.","Hindi na.","Huwag pa.","Oo pa."]}
+{"id":"yes-no.06","lesson":"yes-no","t":"order","a":["Wala","akong","pera"],"x":["ako"]}
+{"id":"yes-no.07","lesson":"yes-no","t":"order","a":["Hindi","ko","alam"],"x":["ako"]}
+{"id":"yes-no.08","lesson":"yes-no","t":"order","a":["Huwag","po","kayong","umalis"],"x":["kayo"]}
+{"id":"yes-no.09","lesson":"yes-no","t":"fill","q":"May kape ba? — __ po.","o":["Hindi","Huwag","Opo"],"a":["Wala"]}
+{"id":"yes-no.10","lesson":"yes-no","t":"fill","q":"__ kang umalis.","o":["Hindi","Wala","Oo"],"a":["Huwag"]}
+{"id":"yes-no.11","lesson":"yes-no","t":"fill","q":"Kumain ka na ba? — Hindi __.","o":["na","po","ba"],"a":["pa"]}
+{"id":"yes-no.12","lesson":"yes-no","t":"type","a":["Wala kaming kape","Kami ay walang kape"],"x":["kami"]}
+{"id":"yes-no.13","lesson":"yes-no","t":"type","a":["Hindi ko po alam"],"x":["ako"]}
+{"id":"yes-no.14","lesson":"yes-no","t":"type","a":["Hindi pa po"],"x":["na"]}
+{"id":"numbers.01","lesson":"numbers","t":"mc","o":["tatlo","tres","apat","tatlumpu"]}
+{"id":"numbers.02","lesson":"numbers","t":"mc","o":["apat na aso","apat aso","apat ng aso","apatng aso"]}
+{"id":"numbers.03","lesson":"numbers","t":"mc","o":["bente pesos","tres pesos","dalawa pesos","alas-bente"]}
+{"id":"numbers.04","lesson":"numbers","t":"mc","o":["tatlong oras","tres oras","alas-tres","tatlo oras"]}
+{"id":"numbers.05","lesson":"numbers","t":"mc","o":["dalawampu","labindalawa","dalawang sampu","sampung dalawa"]}
+{"id":"numbers.06","lesson":"numbers","t":"order","a":["tatlong","bahay"],"x":["tatlo"]}
+{"id":"numbers.07","lesson":"numbers","t":"order","a":["apat","na","aso"],"x":["ng"]}
+{"id":"numbers.08","lesson":"numbers","t":"order","a":["Magkano","po","ito"],"x":["ka"]}
+{"id":"numbers.09","lesson":"numbers","t":"fill","q":"__ bahay","o":["dalawa","dalawampung","ikalawa"],"a":["dalawang"]}
+{"id":"numbers.10","lesson":"numbers","t":"fill","q":"anim __ mangga","o":["ng","ang","sa"],"a":["na"]}
+{"id":"numbers.11","lesson":"numbers","t":"fill","q":"Magkano po ito? — __ pesos po.","o":["Lima","Limang","Tres"],"a":["Singkwenta"]}
+{"id":"numbers.12","lesson":"numbers","t":"type","a":["limang bata"],"x":["lima"]}
+{"id":"numbers.13","lesson":"numbers","t":"type","a":["anim na mangga"],"x":["ng"]}
+{"id":"numbers.14","lesson":"numbers","t":"type","a":["bente pesos","beinte pesos","dalawampung piso"],"x":["dalawa"]}
+{"id":"may.01","lesson":"may","t":"mc","o":["May kanin ba?","May ang kanin ba?","Ba may kanin?","Hindi kanin ba?"]}
+{"id":"may.02","lesson":"may","t":"mc","o":["May aso ako.","May ako aso.","May ang aso ako.","Mayroon ako aso."]}
+{"id":"may.03","lesson":"may","t":"mc","o":["Wala po.","Hindi po.","Huwag po.","Mayroon po."]}
+{"id":"may.04","lesson":"may","t":"mc","o":["Walang tubig.","Wala tubig.","Hindi tubig.","Walang ang tubig."]}
+{"id":"may.05","lesson":"may","t":"mc","o":["meron","marami","wala","mayro"]}
+{"id":"may.06","lesson":"may","t":"order","a":["Mayroon","akong","aso"],"x":["ako"]}
+{"id":"may.07","lesson":"may","t":"order","a":["Wala","siyang","aso"],"x":["siya"]}
+{"id":"may.08","lesson":"may","t":"order","a":["May","aso","si","Ana"],"x":["ang"]}
+{"id":"may.09","lesson":"may","t":"fill","q":"__ kanin ba?","o":["Wala","Ang","Hindi"],"a":["May"]}
+{"id":"may.10","lesson":"may","t":"fill","q":"Mayroon __ pera.","o":["kami","namin","tayong"],"a":["kaming"]}
+{"id":"may.11","lesson":"may","t":"fill","q":"May adobo ba? — __ po.","o":["May","Hindi","Huwag"],"a":["Mayroon","Meron"]}
+{"id":"may.12","lesson":"may","t":"type","a":["Mayroon akong kapatid","Meron akong kapatid"],"x":["ako"]}
+{"id":"may.13","lesson":"may","t":"type","a":["Walang kape"],"x":["wala"]}
+{"id":"may.14","lesson":"may","t":"type","a":["May tubig po ba","Mayroon po bang tubig","Meron po bang tubig"],"x":["ang"]}
+{"id":"family.01","lesson":"family","t":"mc","o":[null,null,null,null]}
+{"id":"family.02","lesson":"family","t":"mc","o":["Ate","Kuya","Lolo","Anak"]}
+{"id":"family.03","lesson":"family","t":"mc","o":["nanay ko","ko nanay","nanay ako","ako nanay"]}
+{"id":"family.04","lesson":"family","t":"mc","o":["Ano ang trabaho mo?","Ano ang trabaho ka?","Ano ka trabaho?","Paano ang trabaho mo?"]}
+{"id":"family.05","lesson":"family","t":"mc","o":[null,null,null,null]}
+{"id":"family.06","lesson":"family","t":"order","a":["kapatid","na","babae"],"x":["ng"]}
+{"id":"family.07","lesson":"family","t":"order","a":["nanay","ni","Juan"],"x":["si"]}
+{"id":"family.08","lesson":"family","t":"order","a":["Guro","ang","nanay","ko"],"x":["ako"]}
+{"id":"family.09","lesson":"family","t":"fill","q":"Ito ang nanay __.","o":["ako","akin","mo"],"a":["ko"]}
+{"id":"family.10","lesson":"family","t":"fill","q":"kapatid __ lalaki","o":["ng","ang","si"],"a":["na"]}
+{"id":"family.11","lesson":"family","t":"fill","q":"__, magkano po ito?","o":["Kuya","Lolo","Anak"],"a":["Ate"]}
+{"id":"family.12","lesson":"family","t":"type","a":["kuya ko","ang kuya ko"],"x":["ako"]}
+{"id":"family.13","lesson":"family","t":"type","a":["lola ni Ana","ang lola ni Ana"],"x":["si"]}
+{"id":"family.14","lesson":"family","t":"type","a":["Ano po ang trabaho ninyo","Ano po ang trabaho niyo"],"x":["mo"]}
+{"id":"sa-pronouns.01","lesson":"sa-pronouns","t":"mc","o":["para sa akin","para ako","para sa ako","para ko"]}
+{"id":"sa-pronouns.02","lesson":"sa-pronouns","t":"mc","o":["Nasaan ang CR?","Nasa ang CR?","Nasaan kay CR?","Sino ang CR?"]}
+{"id":"sa-pronouns.03","lesson":"sa-pronouns","t":"mc","o":["Para kay Lola ito.","Para si Lola ito.","Para ni Lola ito.","Para Lola ito."]}
+{"id":"sa-pronouns.04","lesson":"sa-pronouns","t":"mc","o":["diyan","dito","doon","nasaan"]}
+{"id":"sa-pronouns.05","lesson":"sa-pronouns","t":"mc","o":["Nasa bahay si Ana.","Nasaan bahay si Ana.","Nasa bahay ang Ana.","Bahay si Ana nasa."]}
+{"id":"sa-pronouns.06","lesson":"sa-pronouns","t":"order","a":["Para","sa","iyo","ito"],"x":["ikaw"]}
+{"id":"sa-pronouns.07","lesson":"sa-pronouns","t":"order","a":["para","kay","Juan"],"x":["sa"]}
+{"id":"sa-pronouns.08","lesson":"sa-pronouns","t":"order","a":["Nasa","palengke","si","Ana"],"x":["ang"]}
+{"id":"sa-pronouns.09","lesson":"sa-pronouns","t":"fill","q":"Para sa __ ito.","o":["ako","ko","ikaw"],"a":["akin"]}
+{"id":"sa-pronouns.10","lesson":"sa-pronouns","t":"fill","q":"__ ang CR?","o":["Nasa","Sino","Kanino"],"a":["Nasaan"]}
+{"id":"sa-pronouns.11","lesson":"sa-pronouns","t":"fill","q":"Para __ Juan ito.","o":["sa","si","ni"],"a":["kay"]}
+{"id":"sa-pronouns.12","lesson":"sa-pronouns","t":"type","a":["para sa atin"],"x":["tayo"]}
+{"id":"sa-pronouns.13","lesson":"sa-pronouns","t":"type","a":["Nasaan po si Lola"],"x":["ang"]}
+{"id":"sa-pronouns.14","lesson":"sa-pronouns","t":"type","a":["Para sa inyo po ito","Para po sa inyo ito","Ito po ay para sa inyo"],"x":["iyo"]}
+{"id":"word-order.01","lesson":"word-order","t":"mc","o":["Guro ako.","Ako guro.","Guro ay ako.","Ay guro ako."]}
+{"id":"word-order.02","lesson":"word-order","t":"mc","o":["Pagod ka ba?","Ba pagod ka?","Pagod ba ka?","Ikaw pagod ba?"]}
+{"id":"word-order.03","lesson":"word-order","t":"mc","o":["Kumain na po kayo?","Kumain kayo na po?","Kumain na kayo po?","Po kumain na kayo?"]}
+{"id":"word-order.04","lesson":"word-order","t":"mc","o":[null,null,null,null]}
+{"id":"word-order.05","lesson":"word-order","t":"mc","o":["Hindi ko alam.","Hindi alam ko.","Alam hindi ko.","Ko hindi alam."]}
+{"id":"word-order.06","lesson":"word-order","t":"order","a":["Guro","si","Ana"],"x":["ang"]}
+{"id":"word-order.07","lesson":"word-order","t":"order","a":["Maganda","ang","bahay","mo"],"x":["ikaw"]}
+{"id":"word-order.08","lesson":"word-order","t":"order","a":["Kumain","ka","na","ba"],"x":["ikaw"]}
+{"id":"word-order.09","lesson":"word-order","t":"fill","q":"Pagod __ ba?","o":["ikaw","ko","mo"],"a":["ka"]}
+{"id":"word-order.10","lesson":"word-order","t":"fill","q":"Kumain na __ kayo?","o":["ka","ko","mo"],"a":["po"]}
+{"id":"word-order.11","lesson":"word-order","t":"fill","q":"Ako __ guro.","o":["ang","si","ng"],"a":["ay"]}
+{"id":"word-order.12","lesson":"word-order","t":"type","a":["Hindi niya alam"],"x":["siya"]}
+{"id":"word-order.13","lesson":"word-order","t":"type","a":["Pagod si Juan","Si Juan ay pagod"],"x":["ang"]}
+{"id":"word-order.14","lesson":"word-order","t":"type","a":["Busog na po ba kayo","Busog na po kayo"],"x":["ka"]}
+{"id":"um.01","lesson":"um","t":"mc","o":["bumili","umbili","bilium","bilumi"]}
+{"id":"um.02","lesson":"um","t":"mc","o":["uminom","inumom","inomum","numinom"]}
+{"id":"um.03","lesson":"um","t":"mc","o":["Kumain ako ng kanin.","Kumain ko ng kanin.","Kumain ako ang kanin.","Kumain ko ang kanin."]}
+{"id":"um.04","lesson":"um","t":"mc","o":["Sumayaw si Ana.","Sumayaw ni Ana.","Sumayaw ang Ana.","Sumayaw kay Ana."]}
+{"id":"um.05","lesson":"um","t":"mc","o":["Pumunta kami sa Makati.","Pumunta kami kay Makati.","Pumunta namin sa Makati.","Pumunta tayo sa Makati."]}
+{"id":"um.06","lesson":"um","t":"order","a":["Uminom","ako","ng","tubig"],"x":["ko"]}
+{"id":"um.07","lesson":"um","t":"order","a":["Bumili","siya","ng","isda"],"x":["ang"]}
+{"id":"um.08","lesson":"um","t":"order","a":["Pumunta","kami","sa","palengke"],"x":["kay"]}
+{"id":"um.09","lesson":"um","t":"fill","q":"Kumain __ ng mangga.","o":["ko","akin","ang"],"a":["ako"]}
+{"id":"um.10","lesson":"um","t":"fill","q":"Uminom siya __ kape.","o":["ang","si","kay"],"a":["ng"]}
+{"id":"um.11","lesson":"um","t":"fill","q":"__ si Juan.","o":["Umsayaw","Sayawum","Sayumaw"],"a":["Sumayaw"]}
+{"id":"um.12","lesson":"um","t":"type","a":["Bumili si Ana ng isda","Bumili ng isda si Ana","Si Ana ay bumili ng isda"],"x":["ni"]}
+{"id":"um.13","lesson":"um","t":"type","a":["Kumain ako ng kanin","Ako ay kumain ng kanin"],"x":["ko"]}
+{"id":"um.14","lesson":"um","t":"type","a":["Hindi siya uminom ng kape","Siya ay hindi uminom ng kape"],"x":["niya"]}
+{"id":"mag.01","lesson":"mag","t":"mc","o":["nagluto","magluto","mangluto","nagluton"]}
+{"id":"mag.02","lesson":"mag","t":"mc","o":["nag-aral","nagaral","na-garal","nagar-al"]}
+{"id":"mag.03","lesson":"mag","t":"mc","o":["Naglaro ang mga bata.","Naglaro ng mga bata.","Naglaro sa mga bata.","Naglaro ni mga bata."]}
+{"id":"mag.04","lesson":"mag","t":"mc","o":["Nagluto si Lola ng adobo.","Nagluto ni Lola ng adobo.","Nagluto si Lola ang adobo.","Nagluto ni Lola ang adobo."]}
+{"id":"mag.05","lesson":"mag","t":"mc","o":[null,null,null,null]}
+{"id":"mag.06","lesson":"mag","t":"order","a":["Nagluto","ako","ng","adobo"],"x":["ko"]}
+{"id":"mag.07","lesson":"mag","t":"order","a":["Nag-aral","kami","ng","Tagalog"],"x":["namin"]}
+{"id":"mag.08","lesson":"mag","t":"order","a":["Nagtrabaho","siya","sa","Makati"],"x":["kay"]}
+{"id":"mag.09","lesson":"mag","t":"fill","q":"__ ako ng adobo.","o":["Lumuto","Luto","Nagluton"],"a":["Nagluto"]}
+{"id":"mag.10","lesson":"mag","t":"fill","q":"Nag-aral siya __ Tagalog.","o":["ang","si","kay"],"a":["ng"]}
+{"id":"mag.11","lesson":"mag","t":"fill","q":"Naglaro __ mga bata.","o":["ng","sa","si"],"a":["ang"]}
+{"id":"mag.12","lesson":"mag","t":"type","a":["Nagluto si Lola ng sinigang","Nagluto ng sinigang si Lola","Si Lola ay nagluto ng sinigang"],"x":["ni"]}
+{"id":"mag.13","lesson":"mag","t":"type","a":["Nag-aral ako ng Tagalog","Ako ay nag-aral ng Tagalog"],"x":["ko"]}
+{"id":"mag.14","lesson":"mag","t":"type","a":["Hindi kami naglaro","Kami ay hindi naglaro"],"x":["namin"]}
+{"id":"aspect.01","lesson":"aspect","t":"mc","o":["kakain","kumain","kumakain","kumaain"]}
+{"id":"aspect.02","lesson":"aspect","t":"mc","o":["Nagluluto ako ngayon.","Nagluto ako ngayon.","Nagluluto ko ngayon.","Naglulu ako ngayon."]}
+{"id":"aspect.03","lesson":"aspect","t":"mc","o":["Kumain ako kahapon.","Kakain ako kahapon.","Kumain ko kahapon.","Kumaain ako kahapon."]}
+{"id":"aspect.04","lesson":"aspect","t":"mc","o":["bibili","bumibili","bumili","bilibili"]}
+{"id":"aspect.05","lesson":"aspect","t":"mc","o":["bukas","kahapon","kahapon ng umaga","kahapon ng gabi"]}
+{"id":"aspect.06","lesson":"aspect","t":"order","a":["Umiinom","ako","ng","kape"],"x":["ko"]}
+{"id":"aspect.07","lesson":"aspect","t":"order","a":["Bibili","kami","ng","isda"],"x":["namin"]}
+{"id":"aspect.08","lesson":"aspect","t":"order","a":["Nagtatrabaho","ako","sa","ospital"],"x":["kay"]}
+{"id":"aspect.09","lesson":"aspect","t":"fill","q":"__ ako bukas.","o":["Kumain","Kumakain","Kumaain"],"a":["Kakain"]}
+{"id":"aspect.10","lesson":"aspect","t":"fill","q":"Nagtatrabaho siya __ ospital.","o":["kay","ng","si"],"a":["sa"]}
+{"id":"aspect.11","lesson":"aspect","t":"fill","q":"Kumain ako __.","o":["bukas","mamaya","bukas ng umaga"],"a":["kahapon"]}
+{"id":"aspect.12","lesson":"aspect","t":"type","a":["Nagluluto ako ng adobo","Ako ay nagluluto ng adobo"],"x":["ko"]}
+{"id":"aspect.13","lesson":"aspect","t":"type","a":["Kakain kami ng kanin","Kami ay kakain ng kanin"],"x":["namin"]}
+{"id":"aspect.14","lesson":"aspect","t":"type","a":["Pupunta ako sa palengke bukas","Bukas ako pupunta sa palengke","Bukas pupunta ako sa palengke","Bukas ay pupunta ako sa palengke","Pupunta ako bukas sa palengke","Ako ay pupunta sa palengke bukas"],"x":["pumunta"]}
+{"id":"gusto.01","lesson":"gusto","t":"mc","o":["Gusto ko ng kape","Gusto ako ng kape","Ako gusto ng kape","Gusto ko sa kape"]}
+{"id":"gusto.02","lesson":"gusto","t":"mc","o":["Gusto kong kumain","Gusto ko kumain","Gusto akong kumain","Gusto ko ng kumain"]}
+{"id":"gusto.03","lesson":"gusto","t":"mc","o":["Ayaw ko ng gatas","Hindi gusto ko ng gatas","Ayaw ako ng gatas","Wala ko ng gatas"]}
+{"id":"gusto.04","lesson":"gusto","t":"mc","o":["Marunong akong magluto","Puwede akong magluto","Gusto kong magluto","Kailangan kong magluto"]}
+{"id":"gusto.05","lesson":"gusto","t":"mc","o":["Kailangan mong umuwi","Kailangan kang umuwi","Kailangan mo umuwi","Kailangan ikaw umuwi"]}
+{"id":"gusto.06","lesson":"gusto","t":"order","a":["Gusto","kong","uminom","ng","tubig"],"x":["ako"]}
+{"id":"gusto.07","lesson":"gusto","t":"order","a":["Kailangan","ni","Ana","ng","tubig"],"x":["si"]}
+{"id":"gusto.08","lesson":"gusto","t":"order","a":["Marunong","ka","bang","magluto"],"x":["mo"]}
+{"id":"gusto.09","lesson":"gusto","t":"fill","q":"Gusto __ kumain.","o":["ko","akong","ako"],"a":["kong"]}
+{"id":"gusto.10","lesson":"gusto","t":"fill","q":"__ ko ng tubig.","o":["Puwede","Marunong","Ayaw"],"a":["Kailangan"]}
+{"id":"gusto.11","lesson":"gusto","t":"fill","q":"__ akong mag-Tagalog.","o":["Puwede","Gusto","Kailangan"],"a":["Marunong"]}
+{"id":"gusto.12","lesson":"gusto","t":"type","a":["Gusto kong kumain"],"x":["ko"]}
+{"id":"gusto.13","lesson":"gusto","t":"type","a":["Gusto ni Juan ng kanin"],"x":["si"]}
+{"id":"gusto.14","lesson":"gusto","t":"type","a":["Ayaw kong umuwi","Ayokong umuwi"],"x":["hindi"]}
+{"id":"in.01","lesson":"in","t":"mc","o":["Kinain ko ang mangga","Kumain ko ang mangga","Kinain ako ang mangga","Kinain ko ng mangga"]}
+{"id":"in.02","lesson":"in","t":"mc","o":["Binili ni Ana ang isda","Binili si Ana ang isda","Bumili ni Ana ang isda","Binili ni Ana ng isda"]}
+{"id":"in.03","lesson":"in","t":"mc","o":[null,null,null,null]}
+{"id":"in.04","lesson":"in","t":"mc","o":["Kumain ako ng mangga","Kinain ko ang mangga","Kumain ko ng mangga","Kinain ako ng mangga"]}
+{"id":"in.05","lesson":"in","t":"mc","o":["Kakainin ko ang tinapay","Kinain ko ang tinapay","Kinakain ko ang tinapay","Kakain ko ang tinapay"]}
+{"id":"in.06","lesson":"in","t":"order","a":["Kinain","ko","ang","mangga"],"x":["ako"]}
+{"id":"in.07","lesson":"in","t":"order","a":["Niluto","niya","ang","adobo"],"x":["siya"]}
+{"id":"in.08","lesson":"in","t":"order","a":["Kinain","mo","ba","ang","tinapay"],"x":["ka"]}
+{"id":"in.09","lesson":"in","t":"fill","q":"__ ko ang mangga.","o":["Kumain","Kakain","Kumakain"],"a":["Kinain"]}
+{"id":"in.10","lesson":"in","t":"fill","q":"Binili __ Ana ang isda.","o":["si","ang","kay"],"a":["ni"]}
+{"id":"in.11","lesson":"in","t":"fill","q":"Kinain ko __ tinapay.","o":["ng","sa","si"],"a":["ang"]}
+{"id":"in.12","lesson":"in","t":"type","a":["Kinain ko ang mangga","Ang mangga ay kinain ko"],"x":["ako"]}
+{"id":"in.13","lesson":"in","t":"type","a":["Binili niya ang tinapay","Ang tinapay ay binili niya"],"x":["siya"]}
+{"id":"in.14","lesson":"in","t":"type","a":["Kumain ako ng mangga","Ako ay kumain ng mangga"],"x":["ko"]}
+{"id":"food.01","lesson":"food","t":"mc","o":["Kumain ka na?","Kumain ko na?","Kumain na ba ikaw?","Ka kumain na?"]}
+{"id":"food.02","lesson":"food","t":"mc","o":["ulam","kanin","bigas","tubig"]}
+{"id":"food.03","lesson":"food","t":"mc","o":["Isang adobo po","Isa adobo po","Isang na adobo po","Adobo isang po"]}
+{"id":"food.04","lesson":"food","t":"mc","o":["Pabili po!","Kain tayo!","Busog na ako!","Salamat po!"]}
+{"id":"food.05","lesson":"food","t":"mc","o":["bente pesos","dose pesos","dalawang pesos","tres pesos"]}
+{"id":"food.06","lesson":"food","t":"order","a":["Dalawang","kanin","po"],"x":["dalawa"]}
+{"id":"food.07","lesson":"food","t":"order","a":["Isa","pang","kanin","po"],"x":["pa"]}
+{"id":"food.08","lesson":"food","t":"order","a":["Pabili","po","ng","tinapay"],"x":["ang"]}
+{"id":"food.09","lesson":"food","t":"fill","q":"__ adobo nga po.","o":["Isa","Uno","Isa na"],"a":["Isang"]}
+{"id":"food.10","lesson":"food","t":"fill","q":"Magkano po __?","o":["ito","isa","dito"],"a":["lahat"]}
+{"id":"food.11","lesson":"food","t":"fill","q":"Pabili po __ tubig.","o":["ang","sa","si"],"a":["ng"]}
+{"id":"food.12","lesson":"food","t":"type","a":["Dalawang adobo po","Dalawang adobo nga po"],"x":["dalawa"]}
+{"id":"food.13","lesson":"food","t":"type","a":["Pabili po ng tubig"],"x":["ang"]}
+{"id":"food.14","lesson":"food","t":"type","a":["Magkano po ito"],"x":["kayo"]}
+{"id":"time.01","lesson":"time","t":"mc","o":["Anong oras na?","Ilang oras na?","Kailan oras na?","Anong oras ka?"]}
+{"id":"time.02","lesson":"time","t":"mc","o":["Alas-tres na","Alas-tatlo na","Tatlong oras na","Tres oras na"]}
+{"id":"time.03","lesson":"time","t":"mc","o":["tatlong oras","tres oras","alas-tres","tatlo oras"]}
+{"id":"time.04","lesson":"time","t":"mc","o":[null,null,null,null]}
+{"id":"time.05","lesson":"time","t":"mc","o":["Kumain ako kanina","Kakain ako kanina","Kumain ako mamaya","Kumakain ako kanina"]}
+{"id":"time.06","lesson":"time","t":"order","a":["tatlong","oras"],"x":["tres"]}
+{"id":"time.07","lesson":"time","t":"order","a":["sa","Lunes"],"x":["kay"]}
+{"id":"time.08","lesson":"time","t":"order","a":["Alas-siyete","y","medya","na"],"x":["pito"]}
+{"id":"time.09","lesson":"time","t":"fill","q":"Alas-__ na.","o":["lima","limang","sais"],"a":["singko"]}
+{"id":"time.10","lesson":"time","t":"fill","q":"__ minuto","o":["lima","singko","alas-singko"],"a":["limang"]}
+{"id":"time.11","lesson":"time","t":"fill","q":"Kumain ako __.","o":["bukas","mamaya","ngayon"],"a":["kahapon"]}
+{"id":"time.12","lesson":"time","t":"type","a":["limang minuto"],"x":["lima"]}
+{"id":"time.13","lesson":"time","t":"type","a":["dalawang araw"],"x":["dalawa"]}
+{"id":"time.14","lesson":"time","t":"type","a":["Kakain ako bukas","Bukas ako kakain","Ako ay kakain bukas"],"x":["kumain"]}
+{"id":"directions.01","lesson":"directions","t":"mc","o":["kanan","kaliwa","diretso","kanto"]}
+{"id":"directions.02","lesson":"directions","t":"mc","o":["Para po!","Bayad po!","Pabili po!","Diretso po!"]}
+{"id":"directions.03","lesson":"directions","t":"mc","o":["sa Makati","kay Makati","si Makati","ng Makati"]}
+{"id":"directions.04","lesson":"directions","t":"mc","o":[null,null,null,null]}
+{"id":"directions.05","lesson":"directions","t":"mc","o":["Kumaliwa ka","Kumanan ka","Kaliwa ikaw","Kumaliwa mo"]}
+{"id":"directions.06","lesson":"directions","t":"order","a":["sa","simbahan"],"x":["kay"]}
+{"id":"directions.07","lesson":"directions","t":"order","a":["sa","bahay","ni","Juan"],"x":["si"]}
+{"id":"directions.08","lesson":"directions","t":"order","a":["Magkano","po","hanggang","Makati"],"x":["kayo"]}
+{"id":"directions.09","lesson":"directions","t":"fill","q":"Kumanan ka __ kanto.","o":["kay","ang","ni"],"a":["sa"]}
+{"id":"directions.10","lesson":"directions","t":"fill","q":"__ po!","o":["Bayad","Pabili","Diretso"],"a":["Para"]}
+{"id":"directions.11","lesson":"directions","t":"fill","q":"Pupunta ako __ Juan.","o":["sa","si","ni"],"a":["kay"]}
+{"id":"directions.12","lesson":"directions","t":"type","a":["Kumanan ka sa simbahan"],"x":["kay"]}
+{"id":"directions.13","lesson":"directions","t":"type","a":["sa bahay ni Juan"],"x":["si"]}
+{"id":"directions.14","lesson":"directions","t":"type","a":["Kumaliwa po kayo sa kanto"],"x":["ka"]}
+{"id":"requests.01","lesson":"requests","t":"mc","o":["Huwag kang umalis!","Hindi ka umalis!","Huwag ka umalis!","Wala kang umalis!"]}
+{"id":"requests.02","lesson":"requests","t":"mc","o":[null,null,null,null]}
+{"id":"requests.03","lesson":"requests","t":"mc","o":["Umupo po kayo","Umupo po ka","Umupo kayo po","Umupo ko po"]}
+{"id":"requests.04","lesson":"requests","t":"mc","o":["Pakiabot po ang tubig","Huwag po abot ang tubig","Pakiabot po ako ang tubig","Hindi po abot ang tubig"]}
+{"id":"requests.05","lesson":"requests","t":"mc","o":[null,null,null,null]}
+{"id":"requests.06","lesson":"requests","t":"order","a":["Huwag","kang","umalis"],"x":["ka"]}
+{"id":"requests.07","lesson":"requests","t":"order","a":["Kumain","na","po","kayo"],"x":["ninyo"]}
+{"id":"requests.08","lesson":"requests","t":"order","a":["Pakitulungan","po","ako"],"x":["ko"]}
+{"id":"requests.09","lesson":"requests","t":"fill","q":"Huwag __ umalis.","o":["ka","hindi","mo"],"a":["kang"]}
+{"id":"requests.10","lesson":"requests","t":"fill","q":"__abot po ang tubig.","o":["Huwag","Hindi","Nag"],"a":["Paki"]}
+{"id":"requests.11","lesson":"requests","t":"fill","q":"Umupo po __.","o":["ka","ninyo","mo"],"a":["kayo"]}
+{"id":"requests.12","lesson":"requests","t":"type","a":["Huwag kang umalis"],"x":["ka"]}
+{"id":"requests.13","lesson":"requests","t":"type","a":["Kumain ka na"],"x":["mo"]}
+{"id":"requests.14","lesson":"requests","t":"type","a":["Huwag po kayong umalis"],"x":["kayo"]}
+{"id":"particles.01","lesson":"particles","t":"mc","o":["Hindi pa","Hindi na","Wala na","Huwag pa"]}
+{"id":"particles.02","lesson":"particles","t":"mc","o":["Ako rin","Ako lang","Ako na","Ako naman"]}
+{"id":"particles.03","lesson":"particles","t":"mc","o":["Tubig lang po","Tubig na po","Tubig pa po","Tubig rin po"]}
+{"id":"particles.04","lesson":"particles","t":"mc","o":["Kumain ka na ba?","Kumain na ba ka?","Kumain ba ka na?","Ba kumain ka na?"]}
+{"id":"particles.05","lesson":"particles","t":"mc","o":["Kain muna tayo","Kain na tayo","Kain pa tayo","Kain lang tayo"]}
+{"id":"particles.06","lesson":"particles","t":"order","a":["Kumain","ka","na","ba"],"x":["mo"]}
+{"id":"particles.07","lesson":"particles","t":"order","a":["Hindi","ko","pa","alam"],"x":["ako"]}
+{"id":"particles.08","lesson":"particles","t":"order","a":["Kumain","na","po","ba","kayo"],"x":["ka"]}
+{"id":"particles.09","lesson":"particles","t":"fill","q":"Hindi __ ako kumakain.","o":["na","lang","rin"],"a":["pa"]}
+{"id":"particles.10","lesson":"particles","t":"fill","q":"Pagod __ ako.","o":["na","pa","lang"],"a":["din"]}
+{"id":"particles.11","lesson":"particles","t":"fill","q":"Tubig __ po.","o":["na","pa","rin"],"a":["lang"]}
+{"id":"particles.12","lesson":"particles","t":"type","a":["Hindi ko pa alam"],"x":["ako"]}
+{"id":"particles.13","lesson":"particles","t":"type","a":["Gusto ko pang kumain"],"x":["pa"]}
+{"id":"particles.14","lesson":"particles","t":"type","a":["Ako rin"],"x":["lang"]}
+{"id":"compare.01","lesson":"compare","t":"mc","o":["mas malaki","pinakamalaki","malaking","malaki na"]}
+{"id":"compare.02","lesson":"compare","t":"mc","o":["pinakamalaki","mas malaki","malaki pa","malaking"]}
+{"id":"compare.03","lesson":"compare","t":"mc","o":["kaysa","kasi","mas","pa"]}
+{"id":"compare.04","lesson":"compare","t":"mc","o":["Mas matangkad si Ana kaysa kay Juan","Mas matangkad si Ana kaysa si Juan","Mas matangkad ang Ana kaysa kay Juan","Pinakamatangkad si Ana kaysa kay Juan"]}
+{"id":"compare.05","lesson":"compare","t":"mc","o":["pinakamasarap","mas masarap","masarap na","masarap pa"]}
+{"id":"compare.06","lesson":"compare","t":"order","a":["Mas","matangkad","si","Juan","kaysa","kay","Ana"],"x":["sa"]}
+{"id":"compare.07","lesson":"compare","t":"order","a":["pinakamalaking","bahay"],"x":["pinakamalaki"]}
+{"id":"compare.08","lesson":"compare","t":"order","a":["Mas","mura","ito","kaysa","diyan"],"x":["kay"]}
+{"id":"compare.09","lesson":"compare","t":"fill","q":"Mas malaki ito __ diyan.","o":["pinaka","mas","kasi"],"a":["kaysa"]}
+{"id":"compare.10","lesson":"compare","t":"fill","q":"Si Ana ang __matangkad.","o":["mas","kasi","na"],"a":["pinaka"]}
+{"id":"compare.11","lesson":"compare","t":"fill","q":"Mas matangkad si Juan kaysa __ Ana.","o":["sa","si","ni"],"a":["kay"]}
+{"id":"compare.12","lesson":"compare","t":"type","a":["Mas matangkad si Ana kaysa kay Juan","Si Ana ay mas matangkad kaysa kay Juan"],"x":["sa"]}
+{"id":"compare.13","lesson":"compare","t":"type","a":["pinakamasarap na adobo","ang pinakamasarap na adobo","adobong pinakamasarap"],"x":["ng"]}
+{"id":"compare.14","lesson":"compare","t":"type","a":["Si Juan ang pinakamatangkad","Pinakamatangkad si Juan"],"x":["ni"]}
+{"id":"taglish.01","lesson":"taglish","t":"mc","o":[null,null,null,null]}
+{"id":"taglish.02","lesson":"taglish","t":"mc","o":[null,null,null,null]}
+{"id":"taglish.03","lesson":"taglish","t":"mc","o":["Hindi ko po alam.","Ewan ko.","'Di ko alam, Pare.","Ayoko."]}
+{"id":"taglish.04","lesson":"taglish","t":"mc","o":["ang","ng","sa","si"]}
+{"id":"taglish.05","lesson":"taglish","t":"mc","o":[null,null,null,null]}
+{"id":"taglish.06","lesson":"taglish","t":"order","a":["Nasaan","'yung","CR"],"x":["ng"]}
+{"id":"taglish.07","lesson":"taglish","t":"order","a":["Ayokong","umalis"],"x":["ayoko"]}
+{"id":"taglish.08","lesson":"taglish","t":"order","a":["Ewan","ko"],"x":["ako"]}
+{"id":"taglish.09","lesson":"taglish","t":"fill","q":"__ ko alam.","o":["Wala","Huwag","Ayaw"],"a":["'Di","Hindi"]}
+{"id":"taglish.10","lesson":"taglish","t":"fill","q":"__, tara na!","o":["Ewan","Grabe","Ayoko"],"a":["Sige"]}
+{"id":"taglish.11","lesson":"taglish","t":"fill","q":"Masarap, __?","o":["talaga","ewan","sige"],"a":["'di ba","'no","hindi ba"]}
+{"id":"taglish.12","lesson":"taglish","t":"type","a":["Nasaan 'yung jeep","Nasaan ang jeep","Nasaan 'yung dyip","Nasaan ang dyip"],"x":["ng"]}
+{"id":"taglish.13","lesson":"taglish","t":"type","a":["Ayokong kumain","Ayaw kong kumain"],"x":["ayoko"]}
+{"id":"taglish.14","lesson":"taglish","t":"type","a":["'Di ko alam","Hindi ko alam","Ewan ko"],"x":["ako"]}

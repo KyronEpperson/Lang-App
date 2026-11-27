@@ -1,0 +1,696 @@
+# Hmong words of the course inventory, or with a Hmong diacritic, outside every mark (export_target.js hmn; not protected by validate.js until the source marks them). Columns: file, id, field, words, text
+decks	hmn.d.tones	desc	pob poj pov po pos pog pom	The silent tone letter: pob, poj, pov, po, pos, pog, pom, and common words for each of the eight tone spellings
+decks	hmn.d.consonants-and-vowels	desc	ph th kh np nt nk hm hn ee oo ia ua	RPA letters English reads wrong (x, s, z, r, c, q, w), puffs of air (ph, th, kh), nasal starts (np, nt, nk), breathy nasals (hm, hn), and the vowels ee, oo, ia, ua
+decks	hmn.d.greetings-and-courtesy	desc	Nyob zoo ua tsaug thov txim sib ntsib dua them	Nyob zoo, ua tsaug, thov txim, sib ntsib dua: hello, thanks, sorry and goodbye the way Hmong Americans say them
+decks	hmn.d.about-me	label	me	About me
+decks	hmn.d.numbers-and-money	desc	to caug caum puas pua	Counting from one to a million, caug and caum for the tens, puas and pua for the hundreds, dollars and "how many?"
+decks	hmn.d.things-and-classifiers	desc	lub tsev daim ntawv rab riam txoj hlua phau nkawm khau	Everyday things with their counting word: lub tsev, daim ntawv, rab riam, txoj hlua, phau ntawv, nkawm khau
+decks	hmn.d.food-and-drink	desc	noj haus	Rice, vegetables, meat, fish, eggs, noodles, chili, water, tea and coffee; noj for eating and haus for drinking
+decks	hmn.d.time-and-days	desc	to	Today, yesterday, tomorrow, morning to night, days and months, clock hours, years, and every day
+decks	hmn.d.talking-with-elders	desc	os	Greeting grandparents when they arrive and leave, "have you eaten?", respectful address, and the soft os
+decks	hmn.d.new-year-and-celebrations	desc	Noj peb caug qeej paj ntaub	Noj peb caug: the ball toss, the qeej, paj ntaub, the silver sash, new clothes, songs, and happy birthday
+decks	hmn.d.questions-and-connectors	desc	puas los	What, who, where, when, how many, why, the puas and los questions, and the words for and, but, because and or
+decks	hmn.d.traps-for-english-speakers	desc	pob pov pog no peb wb nus kwv	Tone twins (pob, pov, pog), the right counting word, no "is" before an adjective, peb or wb, and who says nus or kwv
+cards	hmn.c0002	note	niam	-j = falling tone, like a sharp "Hey!". You mostly meet it inside poj niam (woman).
+cards	hmn.c0003	meaning	to	to throw
+cards	hmn.c0003	note	pob	-v = rising tone, like a question. pov pob is the New Year ball toss.
+cards	hmn.c0004	note	No	No tone letter = mid tone: a flat speaking voice.
+cards	hmn.c0007	meaning	to	to see
+cards	hmn.c0008	note	no	High tone (-b) and no b sound: say "Hmong". Green Hmong: Moob.
+cards	hmn.c0009	note	to	Falling tone (-j). Used to anyone, strangers too.
+cards	hmn.c0010	meaning	me	I; me; my
+cards	hmn.c0010	note	kub	Rising tone (-v). Its tone twin kub means "hot".
+cards	hmn.c0011	note	dej	Rising tone. Tone twin: dej (water) has the falling tone. Green Hmong: dlev.
+cards	hmn.c0012	note	no oo	Mid tone (no letter). oo is a nasal vowel, about "ong".
+cards	hmn.c0014	note	ee	Falling breathy tone (-g). ee is a nasal vowel, about "eng".
+cards	hmn.c0015	meaning	to	to like
+cards	hmn.c0015	note	niam	Creaky tone (-m), the same tone as niam (mother).
+cards	hmn.c0016	note	nkawd tod	-d = rising-final: only at the end of a phrase (ntawd, nkawd, tod).
+cards	hmn.c0017	meaning	to	to live; to be (somewhere)
+cards	hmn.c0017	note	nyom	High tone. Tone twin: nyom (grass).
+cards	hmn.c0018	note	nyob to	Creaky tone. Tone twin: nyob (to live).
+cards	hmn.c0019	meaning	to	to think; to want
+cards	hmn.c0020	note	ia ee zoo	s sounds like sh, and ia is about "ee-uh". zoo siab = happy.
+cards	hmn.c0021	note	lub	z sounds like the s in "measure". With its classifier: lub zos.
+cards	hmn.c0022	note	oo	r is a t with the tongue curled back; oo is a nasal vowel.
+cards	hmn.c0023	note	ee	c sounds like the ty in "got you"; ee is a nasal vowel.
+cards	hmn.c0024	note	ai	q is a k made far back in the throat; ai sounds like "eye".
+cards	hmn.c0026	note	ph	ph = p with a puff of air, never an f sound.
+cards	hmn.c0027	meaning	to	to talk; to chat
+cards	hmn.c0027	note	th	th = t with a puff of air, never the th of "think".
+cards	hmn.c0028	meaning	to	to run
+cards	hmn.c0028	note	kh	kh = k with a puff of air.
+cards	hmn.c0029	note	np ua oo	np sounds like "mb": a nasal start. ua is about "oo-uh".
+cards	hmn.c0030	note	nt daim phau	nt sounds like "nd". A sheet: daim ntawv; a book: phau ntawv.
+cards	hmn.c0031	note	nk	nk sounds like "ngg".
+cards	hmn.c0032	note	nts ntses	nts sounds like "ndj": a nasal start. Tone twin: ntses (fish).
+cards	hmn.c0033	note	hm	hm = a breathy m. Green Hmong: mo.
+cards	hmn.c0034	note	hn	hn = a breathy n. Green Hmong: nub.
+cards	hmn.c0035	meaning	to	to love
+cards	hmn.c0035	note	hl	hl = a breathy l, like Welsh ll.
+cards	hmn.c0036	note	tsh ts ia ee	tsh = ts with a puff of air; ia is about "ee-uh".
+cards	hmn.c0037	note	to	Any time of day, to anyone.
+cards	hmn.c0039	note	no	A yes-no question: puas goes right before the verb.
+cards	hmn.c0040	note	to	The reply to either "how are you" question.
+cards	hmn.c0041	note	os	Add os for warmth: it softens what you say.
+cards	hmn.c0042	note	No	Also "It's nothing" or "No problem".
+cards	hmn.c0043	note	to	thov = please; to ask.
+cards	hmn.c0045	meaning	me	Excuse me (let me pass).
+cards	hmn.c0045	note	To	To get past someone in a crowd or a doorway.
+cards	hmn.c0047	meaning	to	Go well (goodbye to someone leaving).
+cards	hmn.c0047	note	to	Said to the person who is leaving.
+cards	hmn.c0048	meaning	to	Nice to meet you.
+cards	hmn.c0048	note	to	Literally: happy to have met you.
+cards	hmn.c0049	meaning	to	I'm pleased to meet you.
+cards	hmn.c0049	note	to	Literally: I'm happy to meet you.
+cards	hmn.c0051	note	to	thov = please; it also means "to ask".
+cards	hmn.c0054	note	to taub	tsis goes before the verb. Also heard: Kuv tsis to taub.
+cards	hmn.c0058	note	to	nyob = to live; to be somewhere.
+cards	hmn.c0061	note	Vang	xeem = clan. Clans: Vang, Yang, Xiong, Lee, Thao, Vue, Moua, Her, Lor.
+cards	hmn.c0062	note	dab tsi	The answer goes where dab tsi was. Clan names keep their usual English spelling.
+cards	hmn.c0067	note	no	wb = we two: English has no word for it.
+cards	hmn.c0069	meaning	to	I go to school.
+cards	hmn.c0070	note	tus	xib fwb (teacher) takes tus, written tug after ib.
+cards	hmn.c0074	note	niam	Also "husband" and "fruit". Both parents: niam txiv.
+cards	hmn.c0079	note	nus	A woman calls a brother nus.
+cards	hmn.c0080	note	nus	A woman calls a brother nus.
+cards	hmn.c0081	note	viv ncaus	A woman says viv ncaus.
+cards	hmn.c0083	note	muam	A man says muam.
+cards	hmn.c0084	note	pog	The sources do not say which side. Father's mother: pog.
+cards	hmn.c0091	note	tug dev	Also "a" in counts: ib tug dev, a dog.
+cards	hmn.c0095	note	ts ch	ts sounds like a ch with the tongue curled back.
+cards	hmn.c0096	note	to	Also "to put" and "to, for".
+cards	hmn.c0099	note	caum	c sounds like the ty in "got you". Ninety: cuaj caum.
+cards	hmn.c0100	note	to ib ob	11 to 19: kaum ib, kaum ob … Zero: ntxaiv, the only form the sources give.
+cards	hmn.c0101	note	ob kaum ib	Not "ob kaum". 21: nees nkaum ib.
+cards	hmn.c0102	note	to plaub tsib caum	caug after three to five tens (plaub caug, tsib caug); caum after six to nine.
+cards	hmn.c0103	note	to xya yim cuaj	caum after six to nine tens: xya caum, yim caum, cuaj caum.
+cards	hmn.c0104	note	ob peb plaub tsib cuaj	puas after ib, ob, peb, plaub, tsib, cuaj: ob puas, peb puas.
+cards	hmn.c0105	note	no xya yim	pua (no s) after rau, xya and yim: xya pua, yim pua.
+cards	hmn.c0106	note	kaum	Ten thousand: kaum txhiab (also ib vam).
+cards	hmn.c0107	note	lab roob	Also ib lab; Omniglot gives ib roob.
+cards	hmn.c0108	note	daulas nyiaj	Also written daulas (EnglishConnect). Money in general: nyiaj.
+cards	hmn.c0118	note	tus	Not tus kaus: the classic beginner slip.
+cards	hmn.c0119	note	tus	Number + classifier + noun. tus is written tug here, as the sources do.
+cards	hmn.c0124	note	kav fes	khob counts cups: ib khob kav fes, a cup of coffee.
+cards	hmn.c0127	note	noj to	Rice is the meal: noj mov = to eat (a meal).
+cards	hmn.c0129	note	npuas	Also written nqaij npuas.
+cards	hmn.c0131	note	ntsev nqaij	Tone twin: ntsev (salt). As food, also nqaij ntses.
+cards	hmn.c0132	note	lub	Eggs take lub.
+cards	hmn.c0135	note	dev	Tone twin: dev (dog).
+cards	hmn.c0136	note	haus	Drunk with haus, like every drink.
+cards	hmn.c0137	note	ib khob	A cup of coffee: ib khob kav fes.
+cards	hmn.c0140	meaning	to	to eat
+cards	hmn.c0140	note	haus	Food is noj, drinks are haus.
+cards	hmn.c0141	meaning	to	to drink
+cards	hmn.c0141	note	noj	Never noj for a drink.
+cards	hmn.c0142	meaning	to	to eat breakfast
+cards	hmn.c0142	note	hmo	Dinner: noj hmo.
+cards	hmn.c0143	meaning	to	to eat lunch
+cards	hmn.c0146	note	kuv mus tom khw to	Often first in the sentence: Nag hmo kuv mus tom khw, yesterday I went to the store.
+cards	hmn.c0147	note	taskis	Also written taskis or tagkis.
+cards	hmn.c0152	note	ib ob	US Hmong texts use English day names after hnub. Some families and books number the days (hnub ib, hnub ob …), but the books disagree on whether hnub ib is Sunday or Monday: ask your family.
+cards	hmn.c0153	meaning	to	Monday to Friday
+cards	hmn.c0156	note	ob peb	Months are numbered: ob hlis ntuj (February), peb hlis ntuj (March) …
+cards	hmn.c0157	note	tshiab	New Year: xyoo tshiab.
+cards	hmn.c0158	note	no	Last year: tsaib no.
+cards	hmn.c0160	note	them tsaus ntuj	Clock times as US Hmong texts write them: 6 tsaus ntuj = 6 p.m.
+cards	hmn.c0164	note	no Kuv	Like the other feeling words, it needs no "am": Kuv tu siab.
+cards	hmn.c0165	note	to	chim alone is "to be angry at".
+cards	hmn.c0167	note	to	Also a verb: to be afraid of something.
+cards	hmn.c0170	note	luv	Literally "long liver". Its opposite in the glossary is siab luv (short temper).
+cards	hmn.c0171	note	No	No word for "am": the feeling word works as the verb, and heev (very) comes after it.
+cards	hmn.c0174	meaning	to	to rain; it's raining
+cards	hmn.c0176	note	dub	cua daj cua dub is a storm.
+cards	hmn.c0177	note	kuv	Also "gold" and "horn". Tone twin of kuv (I).
+cards	hmn.c0178	note	lub tsev	The same word as no "this" (lub tsev no).
+cards	hmn.c0180	meaning	to	Where do you want to go?
+cards	hmn.c0181	note	to	los = to come (back); the question word sits between the two los.
+cards	hmn.c0182	note	to	nyob = to be (somewhere).
+cards	hmn.c0183	meaning	to	I'm going to the market.
+cards	hmn.c0183	note	no to	tom = over there, at: no word for "to" after mus. Green Hmong: moog for mus.
+cards	hmn.c0184	note	tom	tod is the short form of tom (over there) seen at the end of a phrase.
+cards	hmn.c0186	meaning	to	I'm going down to the river.
+cards	hmn.c0187	note	tom	tim = over there, opposite: farther away than tom.
+cards	hmn.c0191	note	laug	The left is sab laug.
+cards	hmn.c0193	meaning	to	I drive to work.
+cards	hmn.c0193	note	no to them	Verbs in a row with no "and" or "to" between them. Also written haujlwm.
+cards	hmn.c0194	meaning	to	We're going to Fresno by car.
+cards	hmn.c0194	note	to	caij = to ride (a vehicle).
+cards	hmn.c0206	meaning	to	I want to buy a pair of shoes.
+cards	hmn.c0206	note	to	Pairs take nkawm. yuav also means "will" and "to marry".
+cards	hmn.c0208	note	to yuav	muag = to sell; yuav = to buy.
+cards	hmn.c0209	note	no	puas goes before the verb in a yes-or-no question.
+cards	hmn.c0210	note	to	them nqi = to pay (a price).
+cards	hmn.c0213	note	daulas	xwb (only) comes at the end. Also written daulas.
+cards	hmn.c0214	note	No yog	No "am": never Kuv yog mob.
+cards	hmn.c0223	meaning	to	I want to see a doctor.
+cards	hmn.c0223	note	to	ntsib = to meet.
+cards	hmn.c0226	meaning	to	You need to take medicine.
+cards	hmn.c0227	meaning	to	I'd like to make an appointment.
+cards	hmn.c0228	note	to tus	xav tau = to want to get, to need (tau = to get). tus is written tug after ib.
+cards	hmn.c0229	note	to os	pab = to help. Omniglot gives Pab!; a Wikivoyage phrasebook writes Pab os!
+cards	hmn.c0230	meaning	me	Please help me.
+cards	hmn.c0233	note	to Koj los	The reply to Koj tuaj los?
+cards	hmn.c0236	note	koj	Use the kinship word, not just koj. yawg: the sources do not say which side.
+cards	hmn.c0241	note	to	nco = to miss, to remember.
+cards	hmn.c0243	note	to	A modest reply to praise.
+cards	hmn.c0244	note	to	Said when you have to leave. Green Hmong: moog for mus.
+cards	hmn.c0245	note	No to	No word for "to" before tsev (home).
+cards	hmn.c0246	note	to	Said to a guest who is leaving. wb = the two of us.
+cards	hmn.c0247	note	to	Said to a guest who is leaving.
+cards	hmn.c0249	note	noj peb caug	The greeting at noj peb caug.
+cards	hmn.c0250	meaning	to	We're going to the New Year celebration.
+cards	hmn.c0252	note	to	nyiam = to like.
+cards	hmn.c0253	meaning	to me	She throws the ball to me.
+cards	hmn.c0254	meaning	to	I like listening to the qeej.
+cards	hmn.c0255	note	to	hnav = to wear. Green Hmong: Moob.
+cards	hmn.c0261	note	to	hu nkauj = to sing.
+cards	hmn.c0267	note	to	npaj = to prepare.
+cards	hmn.c0271	meaning	to	Everyone comes to eat.
+cards	hmn.c0274	note	them	nkawd = the two of them.
+cards	hmn.c0278	meaning	to	We're going to visit Grandma and Grandpa.
+cards	hmn.c0281	meaning	to	What do you want to eat?
+cards	hmn.c0285	note	to	yuav before the verb points to the future.
+cards	hmn.c0290	note	no	twg (which) comes after the noun, like no (this).
+cards	hmn.c0292	meaning	to	I want to go, but I'm sick.
+cards	hmn.c0295	meaning	No	No, it isn't.
+cards	hmn.c0300	note	tus	Umbrellas take lub, not tus.
+cards	hmn.c0301	note	No yog	No yog before a feeling: Kuv yog zoo siab is wrong.
+cards	hmn.c0304	note	yog	nyob for where someone is, not yog.
+cards	hmn.c0308	note	tij laug	A man says kwv for a younger brother and tij laug for an older one.
+cards	hmn.c0309	note	plaub tsib	caug after peb, plaub and tsib.
+cards	hmn.c0310	note	xya yim cuaj	caum after rau, xya, yim and cuaj.
+cards	hmn.c0314	note	to	dab tsi stays at the end; it does not move to the front.
+cards	hmn.c0315	meaning	to	Yesterday I went to the store.
+dialog	hmn.g004	tr	Milwaukee	Where do you live? / I live in Milwaukee.
+dialog	hmn.g005	tr	to	What do you want to eat? / I want to eat pork.
+dialog	hmn.g014	tr	Paj	What's your name? / My name is Paj.
+dialog	hmn.g015	tr	Minneapolis	Where do you live? / I live in Minneapolis.
+dialog	hmn.g016	tr	Vang	Which Hmong clan are you? / I'm Hmong, of the Vang clan.
+dialog	hmn.g020	tr	to	Do you have a sister? (to a man) / I have one sister.
+dialog	hmn.g021	tr	to	Do you have sisters? (to a woman) / I have two sisters.
+dialog	hmn.g025	tr	Milwaukee	Where is your house? / My house is in Milwaukee.
+dialog	hmn.g029	tr	to	What do you want to drink? / I want to drink water.
+dialog	hmn.g030	tr	to	What do you want to eat? / I want to eat rice and vegetables.
+dialog	hmn.g032	tr	so	Do you like pho? / I like pho. It's so tasty!
+dialog	hmn.g033	tr	to	Where are you going tomorrow? / Tomorrow I'm going to school.
+dialog	hmn.g034	tr	to	Where did you go yesterday? / Yesterday I went to the store.
+dialog	hmn.g035	tr	Monday to Friday	When do you work? / I work Monday to Friday.
+dialog	hmn.g042	tr	to	Where do you want to go? / I want to go to the market.
+dialog	hmn.g044	tr	to	How do you get to work? / I drive to work.
+dialog	hmn.g052	tr	to	I want to see a doctor. / What's wrong?
+dialog	hmn.g060	tr	to Milwaukee	Where are you all going? / We're going to the New Year celebration in Milwaukee.
+dialog	hmn.g062	tr	them	Your clothes are beautiful. / Thanks, my mom sewed them.
+dialog	hmn.g063	tr	Paj	Happy birthday, Paj! / Thank you!
+dialog	hmn.g065	tr	Vang	What's your clan? / I'm a Vang.
+dialog	hmn.g066	tr	to	This is my husband. / Nice to meet you.
+dialog	hmn.g068	tr	to	What do you want to eat? / I want to eat pho.
+dialog	hmn.g072	tr	qeej	What's this called? / It's called a qeej.
+dialog	hmn.g077	tr	to	Where did you go yesterday? / Yesterday I went to the store.
+examples	hmn.e007	tr	Paj to	Hello, Paj. Nice to meet you.
+examples	hmn.e010	tr	Monday to Friday	I work Monday to Friday.
+examples	hmn.e011	tr	to	I go to school every day.
+examples	hmn.e012	tr	Paj	Paj, you're my friend.
+examples	hmn.e013	tr	Sacramento	Grandpa lives in Sacramento.
+examples	hmn.e027	tr	to Fresno	Tomorrow we're going to Fresno by car.
+examples	hmn.e032	tr	to	You need to take medicine every day.
+examples	hmn.e034	tr	me	Please help me. I'm very sick.
+examples	hmn.e038	tr	paj ntaub	My mom sews paj ntaub every day.
+examples	hmn.e040	tr	to	The relatives are coming to eat.
+examples	hmn.e041	tr	to	I want to go to school, but I'm sick.
+examples	hmn.e043	tr	to	Don't go to the market today.
+examples	hmn.e044	tr	to me	Grandma throws the ball to me.
+patterns	hmn.p008	meaning	to	I want to drink ___.
+patterns	hmn.p008	tr	to	I want to drink tea.
+patterns	hmn.p009	meaning	to	___ I'm going to school.
+patterns	hmn.p009	tr	to	Tomorrow I'm going to school.
+patterns	hmn.p014	meaning	to	I want to go to ___.
+patterns	hmn.p014	tr	to	I want to go to Fresno.
+sentences	hmn.s0004	gloss	me	I; me; my
+sentences	hmn.s0005	gloss	to	to go
+sentences	hmn.s0012	gloss	to	to think; to want
+sentences	hmn.s0017	gloss	to	to lie down; to sleep
+sentences	hmn.s0024	gloss	to	to love
+sentences	hmn.s0034	gloss	to	Nice to meet you.
+sentences	hmn.s0038	gloss	me	You love me.
+sentences	hmn.s0043	gloss	Minneapolis	I live in Minneapolis.
+sentences	hmn.s0050	gloss	to	Where do you want to go?
+sentences	hmn.s0052	gloss	to	What do you want to eat?
+sentences	hmn.s0060	gloss	No	No. (It isn't.)
+sentences	hmn.s0065	gloss	Paj	My name is Paj.
+sentences	hmn.s0067	gloss	Fresno	I'm from Fresno.
+sentences	hmn.s0070	gloss	Vang	I'm a Vang. (I'm of the Vang clan.)
+sentences	hmn.s0099	gloss	Fresno	My parents live in Fresno.
+sentences	hmn.s0103	gloss	to	Yesterday I went to the store.
+sentences	hmn.s0104	gloss	to	Today I'm going to the store.
+sentences	hmn.s0106	gloss	to	7 a.m. to 6 p.m.
+sentences	hmn.s0107	gloss	Monday to Friday	Monday to Friday
+sentences	hmn.s0118	gloss	to	I'm going to the market.
+sentences	hmn.s0129	gloss	to	I like to eat pho.
+sentences	hmn.s0137	gloss	to	I'm going out to buy vegetables.
+sentences	hmn.s0139	gloss	to	She goes to work.
+sentences	hmn.s0142	gloss	to	I want to go home.
+sentences	hmn.s0143	gloss	to	I don't want to go.
+sentences	hmn.s0145	gloss	me	She gives me a cup of water.
+sentences	hmn.s0148	gloss	me	Please help me.
+sentences	hmn.s0150	gloss	me	Could you help me?
+sentences	hmn.s0179	gloss	to	I want to go see the doctor.
+sentences	hmn.s0180	gloss	me	The interpreter helps me.
+sentences	hmn.s0181	gloss	to	I have to take medicine.
+sentences	hmn.s0182	gloss	to	I want to make an appointment.
+sentences	hmn.s0199	gloss	to	We're going to the New Year celebration.
+sentences	hmn.s0201	gloss	paj ntaub	She sews paj ntaub.
+sentences	hmn.s0205	gloss	Vang	I'm from the Vang clan.
+sentences	hmn.s0206	gloss	to	Everyone comes to eat.
+lessons	consonants-1	blurb	ph th kh qh	Read the RPA letters that stand for different sounds than in English, and tell plain p, t, k, q from ph, th, kh, qh.
+lessons	consonants-2	title	npua ntawv hmo hnub	3 · n- and h- sounds: npua, ntawv, hmo, hnub
+lessons	consonants-2	blurb	np nt nk hm hn hl ee oo	Read the nasal starts (np, nt, nk), the breathy hm, hn and hl, the nasal vowels ee and oo, and the vowel pairs.
+lessons	greetings	title	Nyob zoo ua tsaug sib ntsib dua	4 · Nyob zoo, ua tsaug, sib ntsib dua
+lessons	pronouns	title	kuv koj nws	5 · kuv, koj, nws, and "the two of us"
+lessons	yog-nyob	title	to yog nyob	6 · Two ways to say "is": yog and nyob
+lessons	yog-nyob	blurb	yog nyob no	Say what something is with yog, where it is with nyob, and describe with no word for is at all.
+lessons	questions	title	puas los dab tsi leej twg qhov	7 · puas, los, dab tsi, leej twg, qhov twg
+lessons	questions	blurb	no puas los tsis yog	Ask yes-or-no questions with puas and los tsis yog, and ask what, who, where, when and how many.
+lessons	negation	title	tsis txhob	8 · tsis and tsis txhob
+lessons	negation	blurb	tsis no	Say what you don't know or understand with tsis, answer no, say not yet, and tell someone don't.
+lessons	intro	title	Koj lub npe hu li cas	9 · Koj lub npe hu li cas?
+lessons	numbers	blurb	to	Count from one to a million, spell the tens and hundreds right, and talk about dollars.
+lessons	classifiers	title	tus lub daim rab	11 · tus, lub, daim, rab: counting words
+lessons	classifiers	blurb	ib tug dev ob lub tsev phau ntawv	Count people, animals and things with the right counting word: ib tug dev, ob lub tsev, ib phau ntawv.
+lessons	noun-phrase	title	lub tsheb liab	12 · lub tsheb liab: describing words come after
+lessons	noun-phrase	blurb	lub tsheb liab tsev no kuv	Describe things in Hmong order: lub tsheb liab, lub tsev no, kuv lub tsev.
+lessons	aspect	title	to lawm tab tom yuav	15 · Done, doing, going to: lawm, tab tom, yuav
+lessons	aspect	blurb	to lawm tab tom yuav	Show whether an action is done, going on or still to come with lawm, tab tom, yuav and their friends.
+lessons	places	title	pem nram tom tim	16 · pem, nram, tom, tim: up, down, over there
+lessons	food	title	Noj mov	17 · Noj mov: food and eating
+lessons	food	blurb	noj haus	Talk about meals and food, and use noj for eating and haus for drinking.
+lessons	serial-verbs	title	mus yuav los noj	18 · Verbs in a row: mus yuav, los noj
+lessons	serial-verbs	blurb	no mus yuav zaub los noj mov muab rau	String verbs together with no 'and' or 'to': mus yuav zaub, los noj mov, muab … rau.
+lessons	requests	title	thov puas tau	19 · Please and may I: thov, puas tau
+lessons	requests	blurb	puas tau to	Ask for help politely, ask permission with puas tau, and tell someone not to do something.
+lessons	feelings-weather	title	Zoo siab tu kub no	20 · Zoo siab, tu siab, kub, no
+lessons	feelings-weather	blurb	no	Say how you feel and what the weather is like, with no word for "is".
+lessons	shopping	title	Pes tsawg	21 · Pes tsawg? Shopping and prices
+lessons	health	blurb	to	Say what hurts, talk to the doctor, take medicine and make an appointment.
+lessons	compare	title	tshaj	23 · More than: tshaj
+lessons	compare	blurb	tshaj heev	Compare two things with tshaj, say "the most", and make words stronger with heev.
+lessons	elders	blurb	them	Greet an elder who arrives, ask if they have eaten, see them off, and speak with warmth and respect.
+lessons	new-year	title	Noj peb caug	25 · Noj peb caug: Hmong New Year
+lessons	new-year	blurb	qeej paj ntaub	Talk about the Hmong New Year: the greeting, the ball toss, the qeej, paj ntaub and new clothes.
+body	tones	body	to hm oo no So ny them ee aw so ntxh ai ts No	
+body	consonants-1	body	them to ts ch no ph th kh qh txh tsh So No	
+body	consonants-2	body	to hm hn hny hl ee oo No ia ua ai au aw np	
+body	greetings	body	to No so me os To	
+body	pronouns	body	me so nej nws lawv peb	
+body	yog-nyob	body	yog to them nyob So no	
+body	questions	body	no puas los to them To so	
+body	negation	body	no me to so them No To tsis	
+body	intro	body	lub Kuv tuaj to Vang npe	
+body	numbers	body	them to caug caum puas pua no To	
+body	classifiers	body	tus tug cov no to	
+body	noun-phrase	body	so them me So to To	
+body	family	body	to so them	
+body	time	body	Monday so to To	
+body	aspect	body	to so them lawm tab tom yuav mam li	
+body	places	body	to To tod	
+body	food	body	To to so noj haus no	
+body	serial-verbs	body	to mus no los so xav To muab rau	
+body	requests	body	tag thov to puas tau me pab tsis txhob To os	
+body	feelings-weather	body	them siab so	
+body	shopping	body	to so no To	
+body	health	body	mob to no To them so	
+body	compare	body	to loj tshaj no so To them	
+body	elders	body	to so To them	
+body	new-year	body	Fresno Sacramento Milwaukee Noj peb caug no to	
+body	family-events	body	to Vang them no	
+checks	tones.k1	q	Hmoob	What does the b at the end of Hmoob tell you?
+checks	tones.k2	q	no zoo	A syllable has no tone letter at all, like zoo (good). How is it said?
+checks	tones.k2	why	No	No tone letter means the mid tone: flat, your normal speaking voice.
+checks	tones.k3	q	dej dev	dej means water. What does dev mean?
+checks	tones.k3	why	dej dev	dej has the falling tone and dev the rising tone; they are two different words.
+checks	consonants-1.k1	q	xav to	How is the x in xav (to think) said?
+checks	consonants-1.k2	q	tw	What is the w in tw (tail)?
+checks	consonants-1.k3	q	ph th kh qh	What does the h in ph, th, kh and qh show?
+checks	consonants-1.k3	o[1]	ph th	Say ph as f and th as in think
+checks	consonants-2.k1	q	np npua	How does the np in npua (pig) start?
+checks	consonants-2.k1	why	np	np is pre-nasalised: a quick hum, then the p, like the mb of number.
+checks	consonants-2.k2	q	nab hnab	What is the difference between nab and hnab?
+checks	consonants-2.k2	o[1]	hnab	hnab is the plural
+checks	consonants-2.k2	o[2]	hnab nab	hnab starts breathy and means bag; nab is snake
+checks	consonants-2.k2	o[3]	hnab	hnab has a higher tone
+checks	consonants-2.k2	why	hn hnab	hn is a breathy n, and it makes a different word: hnab, bag.
+checks	consonants-2.k3	q	neeg	In neeg (person), what does the double e show?
+checks	consonants-2.k3	o[3]	to	A nasal vowel, close to eng
+checks	consonants-2.k3	why	ee to no	A doubled vowel is nasal: ee is close to eng, with no g said.
+checks	greetings.k1	why	no	Nyob zoo works at any time of day; Hmong has no separate good morning.
+checks	greetings.k2	q	tsaug to	Someone says Ua tsaug to you. What is a natural reply?
+checks	greetings.k3	q	os Pw zoo	What does os do at the end of Pw zoo os?
+checks	greetings.k3	why	os	os is a softening word at the end of a sentence.
+checks	pronouns.k2	q	nws	What does nws mean?
+checks	pronouns.k2	why	nws	nws covers he, she and it.
+checks	yog-nyob.k1	why	no	A describing word needs no yog: Kuv zoo siab.
+checks	yog-nyob.k2	q	hauv tsev	Which word fills 'Kuv ___ hauv lub tsev' (I'm in the house)?
+checks	yog-nyob.k3	q	Nov yog lub tsev	What does Nov yog lub tsev mean?
+checks	yog-nyob.k3	why	Nov yog lub tsev	Nov is this, yog says what it is, lub tsev is the house.
+checks	questions.k1	q	puas no	Where does puas go in a yes-or-no question?
+checks	questions.k1	why	puas Koj hais lus Askiv	puas sits right before the verb: Koj puas hais lus Askiv?
+checks	questions.k2	q	to	How do you ask 'Where do you want to go?'
+checks	questions.k3	q	los tsis yog	What does los tsis yog add at the end of a sentence?
+checks	questions.k3	why	los tsis yog no	los tsis yog means or not? and turns a statement into a yes-or-no question.
+checks	negation.k1	q	tsis	Where does tsis go?
+checks	negation.k1	why	tsis Kuv paub	tsis comes right before the verb: Kuv tsis paub.
+checks	negation.k3	q	Koj puas	Someone asks Koj puas paub? (Do you know?) and you don't. You say…
+checks	intro.k1	q	npe hu ua Paj	What is missing in 'Kuv npe hu ua Paj'?
+checks	intro.k1	o[0]	lub npe	lub, the classifier for npe
+checks	intro.k1	o[1]	yog	yog, the word for is
+checks	intro.k1	o[2]	puas	puas, the question word
+checks	intro.k1	why	npe Kuv lub hu ua Paj	npe (name) needs its classifier: Kuv lub npe hu ua Paj.
+checks	numbers.k3	q	kaum ob	What is kaum ob?
+checks	numbers.k3	why	kaum	kaum (ten) comes first, then the extra: ten and two.
+checks	classifiers.k1	o[0]	ob tsev lub	After the noun: ob tsev lub
+checks	classifiers.k1	o[1]	lub ob tsev	Before the number: lub ob tsev
+checks	classifiers.k1	o[2]	ob lub tsev	Between the number and the noun: ob lub tsev
+checks	classifiers.k1	o[3]	ob tsev	Nowhere: ob tsev
+checks	classifiers.k1	why	ob lub tsev	Number, then classifier, then noun: ob lub tsev.
+checks	classifiers.k2	q	kaus	Which classifier goes with kaus (umbrella)?
+checks	classifiers.k2	why	kaus	Umbrellas take lub, not tus: lub kaus.
+checks	classifiers.k3	q	daim ntawv phau	What is the difference between daim ntawv and phau ntawv?
+checks	classifiers.k3	why	daim phau	daim counts flat things (a sheet of paper); phau counts books.
+checks	noun-phrase.k2	q	no	Where does no (this) go?
+checks	noun-phrase.k2	why	lub tsev no loj	This and that come last: lub tsev no, lub tsev loj no.
+checks	noun-phrase.k3	q	kuv lub tsheb	In kuv lub tsheb, where does 'my' go?
+checks	noun-phrase.k3	o[3]	no	Hmong has no word for my
+checks	noun-phrase.k3	why	kuv lub tsheb	The owner goes first: kuv lub tsheb.
+checks	family.k3	q	phauj	What is phauj?
+checks	family.k3	why	phauj dab laug	phauj is your father's sister; dab laug is your mother's brother.
+checks	time.k1	o[1]	nag hmo	With a time word such as nag hmo; the verb stays the same
+checks	time.k1	o[2]	to	The verb moves to the end
+checks	time.k1	why	nag hmo	Hmong verbs never change; nag hmo (yesterday) tells you when.
+checks	time.k2	q	tag kis	What does tag kis mean?
+checks	time.k2	why	tag kis nag hmo hnub no	tag kis is tomorrow; nag hmo is yesterday and hnub no is today.
+checks	time.k3	q	kaum ob hlis ntuj	What is kaum ob hlis ntuj?
+checks	time.k3	why	hlis ntuj	Months are numbered: twelve + hlis ntuj is December.
+checks	aspect.k1	q	lawm	Where does lawm go?
+checks	aspect.k1	why	lawm Kuv noj mov	lawm follows the verb and its object: Kuv noj mov lawm.
+checks	aspect.k2	q	tab tom	What does tab tom show?
+checks	aspect.k2	why	tab tom Lawv haus dej	tab tom means 'in the middle of': Lawv tab tom haus dej.
+checks	aspect.k3	q	Kuv yuav ib lub tsheb	In Kuv yuav yuav ib lub tsheb, what does the second yuav mean?
+checks	aspect.k3	why	yuav	The first yuav is 'will', the second is the verb 'buy'.
+checks	places.k3	q	tod	What is tod?
+checks	places.k3	o[1]	tom	The form of tom at the end of a phrase
+checks	places.k3	why	tom tod	At the end of a phrase tom becomes tod.
+checks	food.k1	q	dej	Which verb goes with dej (water)?
+checks	food.k1	why	Kuv dej	Drinks take haus: Kuv haus dej.
+checks	food.k2	q	noj mov	What does noj mov mean?
+checks	food.k2	o[0]	To	To eat a meal
+checks	food.k2	o[1]	To	To cook rice
+checks	food.k2	o[2]	To	To buy rice
+checks	food.k2	o[3]	To	To drink soup
+checks	food.k2	why	noj mov to	noj mov, literally 'eat rice', is to eat a meal.
+checks	serial-verbs.k1	q	to	How do you say 'I'm going out to buy vegetables'?
+checks	serial-verbs.k1	why	no	The verbs sit side by side, with no thiab: mus yuav.
+checks	serial-verbs.k2	q	Kuv muab phau ntawv rau koj	In Kuv muab phau ntawv rau koj, who gets the book?
+checks	serial-verbs.k2	o[0]	koj	koj (you)
+checks	serial-verbs.k2	o[1]	kuv me	kuv (me)
+checks	serial-verbs.k2	o[2]	nws	nws (him)
+checks	serial-verbs.k2	why	rau	The person after rau gets the thing.
+checks	serial-verbs.k3	q	yuav	Where does yuav (will) go in a row of verbs?
+checks	serial-verbs.k3	why	yuav Kuv mus nqaij npua	yuav goes before the first verb: Kuv yuav mus yuav nqaij npua.
+checks	requests.k1	q	thov	Where does thov (please) go?
+checks	requests.k1	why	thov Thov zaum pab kuv	thov goes right before the action: Thov zaum, Thov pab kuv.
+checks	requests.k2	q	to noj	You want to tell a child "Don't eat." Which word goes before noj?
+checks	requests.k2	why	noj	tsis txhob before the verb means don't: Tsis txhob noj.
+checks	requests.k3	q	puas tau	What does puas tau? do at the end of a sentence?
+checks	requests.k3	why	Pab kuv puas tau me Kuv nug	Pab kuv puas tau? = Could you help me? Kuv nug puas tau? = May I ask?
+checks	feelings-weather.k1	why	No	No yog before a feeling: the feeling word is the verb.
+checks	feelings-weather.k2	q	Hnub no los nag	What does Hnub no los nag mean?
+checks	feelings-weather.k2	why	hnub no los nag to	hnub no = today, los nag = to rain.
+checks	shopping.k3	q	pheej yig	What does pheej yig mean?
+checks	shopping.k3	o[3]	to	to pay
+checks	shopping.k3	why	pheej yig kim	pheej yig is cheap; kim is expensive.
+checks	health.k2	q	noj tshuaj	What does noj tshuaj mean?
+checks	health.k2	why	noj tshuaj	Hmong eats medicine: noj tshuaj.
+checks	health.k3	q	kws kho mob	Which counting word goes with kws kho mob (doctor)?
+checks	health.k3	why	kws kho mob	People take tus: tus kws kho mob.
+checks	compare.k1	q	tshaj	Where does tshaj go?
+checks	compare.k1	why	tshaj loj	Describing word first, then tshaj: loj tshaj.
+checks	compare.k2	q	Kuv laus tshaj koj	What does Kuv laus tshaj koj mean?
+checks	compare.k2	o[1]	me	You're older than me.
+checks	compare.k2	why	kuv	The first thing (kuv) is the one that is more: older than you.
+checks	elders.k3	q	Mus ho tuaj	When do you say Mus ho tuaj?
+checks	elders.k3	why	Mus ho tuaj to	Mus ho tuaj, come again, is said to a departing guest.
+checks	new-year.k1	q	noj peb caug	What is noj peb caug?
+checks	new-year.k1	why	noj peb caug	noj peb caug is the New Year celebration.
+checks	family-events.k1	q	xeem	What is a xeem?
+checks	family-events.k1	why	xeem xeev	xeem is clan; xeev, with a different tone letter, is a state.
+checks	family-events.k2	why	tus	People take tus, written tug after ob.
+checks	family-events.k3	q	khi tes	What is khi tes?
+practice	tones.01	q	pob	Which tone does the final -b in pob (ball) mark?
+practice	tones.01	why	pob	-b is the high-tone letter: pob is said high and level.
+practice	tones.03	q	no	Which word has the mid tone, with no tone letter?
+practice	tones.03	why	so no	zoo ends in a vowel, so it has no tone letter: mid tone.
+practice	tones.05	q	mus to	Which tone does the -s in mus (to go) mark?
+practice	tones.12	hint	po	po · add the high-tone letter
+practice	tones.13	hint	de	de · add the falling-tone letter, which is silent
+practice	consonants-1.02	why	tsh so no	tsh has the h, so it is aspirated: tshis (goat). tsis (not) has no puff.
+practice	consonants-1.03	q	riam	In riam (knife), the r is…
+practice	consonants-1.05	why	no	c is like the ty of got you; cuaj has the falling tone -j. cua, with no tone letter, is wind.
+practice	consonants-1.06	why	th	Thov starts with an aspirated th; txim ends in the creaky tone letter -m, while txiv (father) has the rising tone.
+practice	consonants-1.07	why	ph	phooj starts with aspirated ph, a p with a puff of air; kuv (my) has the rising tone letter -v, kub means hot.
+practice	consonants-1.08	why	no so	dua has no tone letter, so it has the mid tone; duab, with -b, means picture.
+practice	consonants-1.09	why	tsh	Goat is tshis, with aspirated tsh. tsis is not, tsev is house, txiv is father.
+practice	consonants-1.11	why	no	Hello is nyob zoo: z like the s in measure, no tone letter. sov is warm.
+practice	consonants-1.12	hint	tsh	tsh, with a puff of air · add the low-tone letter
+practice	consonants-1.12	why	tsh	Goat is tshis: aspirated tsh and the low tone letter -s. tsis means not.
+practice	consonants-1.14	why	th	Thov has an aspirated th; txim ends in the creaky tone letter -m.
+practice	consonants-2.01	why	nts	ntses (fish) starts with nts, a nasal start.
+practice	consonants-2.03	why	hn	hnab starts with the breathy hn; nab is snake.
+practice	consonants-2.04	q	oo zoo to	The vowel oo in zoo (good) is close to…
+practice	consonants-2.04	o[1]	oo	the oo of food
+practice	consonants-2.04	why	oo to no	oo is a nasal vowel, close to ong, with no g said.
+practice	consonants-2.06	why	oo	Hmoob ends in the high tone letter -b, after the nasal oo; pem has the creaky tone.
+practice	consonants-2.07	why	hl	hlub starts with the breathy hl and has the high tone (-b); lub is a different word.
+practice	consonants-2.09	why	np	Pork is nqaij npua (also written nqaij npuas): np, a nasal start. pua is hundred.
+practice	consonants-2.10	why	hl to	Love is hlub, with the breathy hl. hlob means to grow up.
+practice	consonants-2.11	why	oo	Hmong is Hmoob, with the nasal oo and the high tone. hmo is night, and hmoov, with the rising tone, is luck.
+practice	consonants-2.12	hint	np no	np, a nasal start like mb · no tone letter
+practice	consonants-2.12	why	np	Pig is npua: pre-nasalised np and the mid tone. pua without the n is hundred.
+practice	consonants-2.13	hint	hn	hn, a breathy n · add the high-tone letter
+practice	consonants-2.13	why	hn	Day is hnub: a breathy hn and the high tone letter -b.
+practice	greetings.04	q	to	You want to get past someone in a crowded hall. You say…
+practice	greetings.04	why	to	Thov zam kev asks the other person to make way.
+practice	greetings.05	why	to	Mus zoo, go well, is said to the one who leaves.
+practice	greetings.08	p	to	Build: Nice to meet you
+practice	greetings.13	p	to	Type: I'm fine (the answer to 'How are you?')
+practice	greetings.14	why	no	dua has no tone letter: mid tone. duab, with the high tone letter -b, means picture.
+practice	pronouns.05	why	me	kuv is I, me and my; kub means hot.
+practice	pronouns.06	p	me	Build: You love me
+practice	pronouns.06	why	me	kuv (me) has the rising tone letter -v; kub means hot.
+practice	pronouns.14	p	me	Type: You love me
+practice	pronouns.14	why	me	kuv (me) has the rising tone; kub, with the high tone, means hot.
+practice	yog-nyob.03	why	No	No yog before a describing word, and heev comes after it.
+practice	yog-nyob.04	q	to	Which word do you use to say where someone is?
+practice	yog-nyob.04	why	to	nyob is to be in a place; yog is X is a Y.
+practice	yog-nyob.08	why	No	No yog before a describing word: Kuv zoo siab.
+practice	yog-nyob.09	why	to	yog says what something is; yos, with the low tone, means to stroll.
+practice	yog-nyob.10	why	to	nyob is to live or be somewhere; nyom is grass.
+practice	yog-nyob.11	why	no	Happy is zoo siab, with no yog; zoov is forest.
+practice	yog-nyob.14	hint	no	kuv · zoo siab · no word for is
+practice	yog-nyob.14	why	no	Describing words need no yog; zoo has the mid tone (no tone letter).
+practice	questions.07	p	to	Build: Where do you want to go?
+practice	questions.09	why	no	The question word is puas, before the verb. pov means throw, pob is ball, and pua, with no tone letter, is hundred.
+practice	questions.10	p	to	Where do you want to go?
+practice	questions.11	why	to	The ending is los tsis yog, or not?; yos means to stroll.
+practice	questions.13	p	to	Type: Where do you want to go?
+practice	negation.04	why	no	tsis tau is not yet; tsis yog is no, it isn't.
+practice	negation.05	q	No	No. (It isn't.) =
+practice	negation.05	why	no	Tsis yog answers no; yog is yes.
+practice	negation.07	why	txh	txhob is aspirated (txh), with a puff of air; txob, without it, is pepper.
+practice	negation.08	why	no	tsis has no puff of air; the aspirated tshis is goat.
+practice	intro.05	why	to	tuaj on both sides of the place; tuag means to die.
+practice	intro.08	why	to	tuaj (come) ends in the falling tone letter -j; tuag means to die.
+practice	intro.10	why	to	tuaj (come) closes the question; tuag means to die.
+practice	intro.14	why	to	tuaj sits on both sides of the place and has the falling tone letter -j; tuag means to die.
+practice	numbers.04	why	rau yim no	rau, xya and yim take pua, with no tone letter.
+practice	numbers.05	q	caum	Which tone does the last letter of caum show?
+practice	numbers.09	why	no	rau takes pua, with no tone letter (the mid tone).
+practice	numbers.12	hint	to	rau (six) · the tens word for six to nine
+practice	classifiers.02	why	tus	Umbrellas take lub, not tus.
+practice	noun-phrase.14	why	no	Books take phau (no tone letter), and tshiab (new) goes after the noun. phauj is an aunt.
+practice	family.05	q	txiv hlob	txiv hlob is…
+practice	family.05	why	txiv hlob	txiv hlob is your father's older brother; txiv ntxawm is his younger brother.
+practice	family.06	why	tus	People take the classifier tus, written tug after ob: ob tug tub.
+practice	family.07	why	tus	Count people with the classifier tus, written tug after ib.
+practice	time.07	p	to	(start with the time word) Yesterday I went to the store
+practice	time.09	p	to	Yesterday I went to the store.
+practice	time.11	why	hli	Month names end in hlis ntuj (or hli ntuj).
+practice	aspect.05	q	nyuam qhuav	nyuam qhuav means…
+practice	aspect.05	why	Nws nyuam qhuav tuaj txog	Nws nyuam qhuav tuaj txog: he just arrived.
+practice	aspect.11	why	to	yuav before the verb points to what is coming.
+practice	places.03	why	tom	tim is across, farther than tom.
+practice	places.05	q	to	Which verb means to come back home?
+practice	places.05	why	to	los is to come back home; tuaj is to come to a place that is not home.
+practice	places.09	why	tom	At the end of a phrase tom becomes tod; tob means deep.
+practice	places.10	p	to	I'm going to the market.
+practice	places.11	why	no	saum is on top of; sau, with no m, means write.
+practice	places.14	p	tom	He's over there (the short form of tom)
+practice	places.14	hint	tom	nws · nyob · tom at the end of a phrase
+practice	places.14	why	tom	At the end of a phrase tom becomes tod, with the tone letter d.
+practice	food.05	q	tshuaj yej	Which verb goes with tshuaj yej (tea)?
+practice	food.09	why	so	Coffee is a drink, so it takes haus.
+practice	food.10	p	to	I like to eat pho.
+practice	food.10	why	haus	Pho is fawm; the others are drinks, which take haus.
+practice	serial-verbs.01	q	to	'I'm going out to buy vegetables' (use mus) =
+practice	serial-verbs.01	why	no	Verbs sit side by side with no thiab.
+practice	serial-verbs.03	q	to	'Come and eat!' (to family at home) =
+practice	serial-verbs.03	why	no	los and noj sit side by side, with no thiab.
+practice	serial-verbs.04	q	to	'I want to go home' =
+practice	serial-verbs.04	why	no	xav takes the next verb directly, with no word for 'to'.
+practice	serial-verbs.05	why	muab	muab + the thing + rau + the person.
+practice	serial-verbs.07	p	me	She gives me a cup of water
+practice	serial-verbs.08	p	to	(use mus) I'm going out to buy a car
+practice	serial-verbs.08	why	no	mus and yuav sit side by side with no thiab; cars take the classifier lub.
+practice	serial-verbs.09	p	to	I'm going out to buy vegetables.
+practice	serial-verbs.11	p	to	Come and eat! (to family at home)
+practice	serial-verbs.11	why	to	los is to come back home; it sits right before noj. loj, with the tone letter j, is big.
+practice	serial-verbs.13	p	to	(use mus) We're going out to buy a car
+practice	serial-verbs.13	why	No	No thiab between mus and yuav; cars take the classifier lub.
+practice	serial-verbs.14	p	to	Come and eat! (to family at home)
+practice	serial-verbs.14	why	no	los and noj sit side by side, with no thiab. mov (meal) ends in v; mob is sick.
+practice	requests.02	q	me	"Could you help me?" =
+practice	requests.03	q	Tsis txhob mus	What does Tsis txhob mus mean?
+practice	requests.03	why	tsis txhob	tsis txhob before the verb means don't.
+practice	requests.04	q	Kuv nug puas tau	What does Kuv nug puas tau? mean?
+practice	requests.04	o[2]	me	Don't ask me.
+practice	requests.04	o[3]	me	Please ask me.
+practice	requests.04	why	nug puas tau	nug = ask; puas tau? at the end asks permission.
+practice	requests.05	q	Pab	What does Pab! mean?
+practice	requests.05	why	pab to Pab	pab is to help; Pab! on its own is the call for help.
+practice	requests.06	p	me	Please help me.
+practice	requests.06	why	me	kuv (me) has the rising tone, letter v; kub with the high tone is "hot".
+practice	requests.07	why	no	puas has the low tone (tone letter s); pua with no tone letter means "hundred".
+practice	requests.09	p	me	Please help me.
+practice	requests.09	why	to	pab is to help; pob is a ball, pom is to see, and paj, with the tone letter j, is flower.
+practice	requests.12	p	me	Please help me.
+practice	requests.12	hint	me	thov (please) · pab (help) · kuv (me)
+practice	requests.14	p	me	Could you help me? (use puas tau)
+practice	requests.14	hint	me	pab (help) · kuv (me) · puas tau
+practice	feelings-weather.01	why	No	No yog before a feeling, and the feeling comes after the subject.
+practice	feelings-weather.03	q	Nag hmo los daus	What does Nag hmo los daus mean?
+practice	feelings-weather.03	why	nag hmo los daus to	nag hmo is yesterday and los daus is to snow.
+practice	feelings-weather.06	why	no	Kuv (I) has the rising tone, not kub (high tone, hot); and no yog before a feeling.
+practice	feelings-weather.10	why	to	los nag is to rain; los daus would be snow.
+practice	feelings-weather.13	why	No yog	Kuv ends in the tone letter v (rising tone); kub means hot. No yog before kho siab.
+practice	feelings-weather.14	why	no	tsis (low tone letter s) goes right before the feeling word, and there is no yog; tsib is five.
+practice	shopping.01	q	Qhov no pes tsawg	What does Qhov no pes tsawg? mean?
+practice	shopping.01	why	pes tsawg	pes tsawg asks how much, and it stays at the end.
+practice	shopping.03	q	Lub kaus no kim heev	What does Lub kaus no kim heev mean?
+practice	shopping.03	why	kim no	kim is expensive, and no after the noun means this.
+practice	shopping.05	q	to	Which verb means "to sell"?
+practice	shopping.05	why	to	muag is to sell; yuav and muas are to buy.
+practice	shopping.11	why	to	them nqi is to pay; luv nqi is a discount.
+practice	health.01	why	no	mob + body part, with no yog.
+practice	health.03	q	Kuv yuav tsum noj tshuaj	What does Kuv yuav tsum noj tshuaj mean?
+practice	health.03	o[0]	to	I have to take medicine.
+practice	health.03	o[1]	to	I want to eat rice.
+practice	health.03	why	yuav tsum noj tshuaj	yuav tsum = must; noj tshuaj = take medicine.
+practice	health.04	q	neeg txhais lus	Which classifier goes with neeg txhais lus (interpreter)?
+practice	health.04	why	neeg txhais lus	People take tus: tus neeg txhais lus.
+practice	health.05	q	kub ib ce	What is kub ib ce?
+practice	health.05	why	kub ib ce	kub ib ce, a hot body, is a fever.
+practice	health.06	p	me	The doctor helps me.
+practice	health.07	p	to	I want to go see the doctor.
+practice	health.07	why	so	A doctor is a person, so tus, not lub.
+practice	health.08	why	No	No yog before mob; the body part follows mob.
+practice	health.09	why	to	mob is to hurt; mov is rice.
+practice	health.10	p	to	I have to take medicine.
+practice	health.11	p	me	The doctor helps me.
+practice	health.13	p	me	The interpreter helps me.
+practice	health.13	hint	me	neeg txhais lus (interpreter) · pab (help) · kuv (me)
+practice	health.14	p	to	I want to make an appointment. (use xav)
+practice	compare.03	q	Kav fes kim tshaj tshuaj yej	What does Kav fes kim tshaj tshuaj yej mean?
+practice	compare.03	why	kav fes	The first thing, kav fes, is the one that costs more.
+practice	compare.04	q	to	Which word goes after a describing word to mean "extremely"?
+practice	compare.04	why	zoo siab	kawg, after the word, means extremely: zoo siab kawg.
+practice	elders.01	why	to	Mus ho tuaj, come again, is said to a guest who is leaving.
+practice	elders.02	q	to Koj los	What is the usual reply to Koj tuaj los?
+practice	elders.03	q	Koj tuaj los	What does Koj tuaj los? mean?
+practice	elders.03	why	Koj tuaj los	Koj tuaj los? greets someone who has just arrived.
+practice	elders.04	q	pog	What does pog mean? (Watch the tone letter.)
+practice	elders.04	o[2]	to	to throw
+practice	elders.04	o[3]	to	to see
+practice	elders.04	why	pog pob pov to	pog ends in -g, the breathy tone: grandmother. pob is a ball, pov is to throw.
+practice	elders.08	p	to	Come again. (to a guest who is leaving)
+practice	elders.08	why	to	Mus ho tuaj is said to a guest who is leaving.
+practice	elders.11	why	to	noj mov is to eat a meal; mob is sick.
+practice	new-year.01	q	pov pob	What is pov pob?
+practice	new-year.01	why	pov pob	pov pob: pov is throw and pob is ball.
+practice	new-year.04	q	qeej	What is a qeej?
+practice	new-year.04	why	qeej	The qeej is played at New Year and at weddings.
+practice	new-year.05	q	Kuv hnav khaub ncaws tshiab	What does Kuv hnav khaub ncaws tshiab mean?
+practice	new-year.05	why	hnav to tshiab khaub ncaws	hnav is to wear, and tshiab (new) comes after khaub ncaws.
+practice	new-year.08	p	to	We're going to the New Year celebration.
+practice	new-year.10	why	to	hlab nyiaj is the silver sash; nyiam is to like.
+practice	family-events.01	q	koob tsheej	What is koob tsheej?
+practice	family-events.01	why	koob tsheej	koob tsheej is a celebration or ceremony.
+practice	family-events.06	why	so tus	Children are people, so they take tus, written tug after ob: ob tug me nyuam.
+practice	family-events.08	p	to	Everyone comes to eat.
+labels	hmn.tl002.37	text	ch	curled ch+puff
+labels	hmn.tl002.39	text	ch	n+curled ch+puff
+lessoncards	hmn.lc0001	note	xav to	English s, never ks: xav, to think.
+lessoncards	hmn.lc0002	note	to siab	Close to sh: siab, liver.
+lessoncards	hmn.lc0003	note	zoo	Like the s in measure: zoo, good.
+lessoncards	hmn.lc0004	note	riam	A t with the tongue curled back, never an English r: riam, knife.
+lessoncards	hmn.lc0005	note	cuaj	Like the ty in got you: cuaj, nine.
+lessoncards	hmn.lc0006	note	qaib	A k made far back in the throat: qaib, chicken.
+lessoncards	hmn.lc0007	note	xyoo	A soft hiss, like the h in huge: xyoo, year.
+lessoncards	hmn.lc0008	note	ts txiv	ts as in cats: txiv, father.
+lessoncards	hmn.lc0009	note	ch tsev	Like ch, with the tongue curled back: tsev, house.
+lessoncards	hmn.lc0010	note	phom th kh qh ch txh tsh rh plh dh	The h is a puff of air, never f: phom, gun. The same in th, kh, qh, ch, txh, tsh, rh, plh and dh.
+lessoncards	hmn.lc0011	note	npua nt nk ny	A short hum through the nose, then the consonant: npua, pig. nt is nd, nk is ngg. But ny is one sound of its own.
+lessoncards	hmn.lc0012	note	hmo hn hny	A breathy m. Let air out through your nose first: hmo, night. The same in hn and hny.
+lessoncards	hmn.lc0013	note	hlub to	A breathy l, like the Welsh ll: hlub, to love.
+lessoncards	hmn.lc0014	note	nyob to	The ny of canyon, here at the start of a word: nyob, to live; to be somewhere.
+lessoncards	hmn.lc0015	note	tw	Always a vowel: the i of roses, said with your lips spread: tw, tail.
+lessoncards	hmn.lc0016	note	to no neeg	A nasal vowel, close to eng; no g is said: neeg, person.
+lessoncards	hmn.lc0017	note	to no zoo	A nasal vowel, close to ong; no g is said: zoo, good.
+lessoncards	hmn.lc0018	note	ee to niam	A glide from ee to uh: niam, mother.
+lessoncards	hmn.lc0019	note	oo to	A glide from oo to uh: ua, to do.
+lessoncards	hmn.lc0020	note	hais to	Like the word eye: hais, to say.
+lessoncards	hmn.lc0021	note	nkauj	Like the ow of cow: nkauj, song.
+lessoncards	hmn.lc0022	note	sawv to	a sliding into the Hmong w: sawv, to get up.
+lessoncards	hmn.lc0023	note	No	No first consonant: i + b. b is the high-tone letter.
+lessoncards	hmn.lc0024	meaning	to	to help
+lessoncards	hmn.lc0024	note	no	p (no puff) + a + b, the high-tone letter.
+lessoncards	hmn.lc0026	note	ts ch	ts (ch with the tongue curled back) + e + v, the rising-tone letter.
+lessoncards	hmn.lc0027	note	tx ts	tx (ts as in cats) + i + v, the rising-tone letter.
+lessoncards	hmn.lc0028	note	ia ee	n + ia (ee-uh) + m, the creaky-tone letter.
+lessoncards	hmn.lc0029	note	nts ch	nts (a hum, then ch with the tongue curled back) + e + s. The last s is the low-tone letter, not a sound.
+lessoncards	hmn.lc0031	note	xy oo to no	xy (the h of huge) + oo (close to ong) and no tone letter: mid tone.
+lessoncards	hmn.lc0032	note	pl au	pl (a p with an l after it, one sound) + au (ow) + b, the high-tone letter.
+lessoncards	hmn.lc0033	meaning	to	to eat
+lessoncards	hmn.lc0034	note	ua oo	c (the ty of got you) + ua (oo-uh) + j, the falling-tone letter.
+lessoncards	hmn.lc0035	meaning	to	to say; to speak
+lessoncards	hmn.lc0035	note	ai	h + ai (eye) + s, the low-tone letter.
+lessoncards	hmn.lc0036	meaning	to	to get up
+lessoncards	hmn.lc0036	note	aw	s (sh) + aw (a sliding into w) + v, the rising-tone letter.
+lessoncards	hmn.lc0037	note	ee to	n + ee (close to eng) + s, the low-tone letter.
+lessoncards	hmn.lc0038	meaning	to	to be (X is a Y)
+lessoncards	hmn.lc0039	note	ntxh ts ai	ntxh (a nasal start, then ts with a puff of air) + ai (eye) + s, the low-tone letter.
+lessoncards	hmn.lc0040	meaning	to	to go
+lessoncards	hmn.lc0041	meaning	to	to lie down; to sleep
+lessoncards	hmn.lc0041	note	no	p + w (a vowel) and no tone letter: mid tone.
+# option classes to review: consonants-1.k1 (prose by its key «Like English s»; «Like z» would classify the other way)
+# option classes to review: classifiers.k1 (prose by its key «Between the number and the noun: ob lub tsev»; «Nowhere: ob tsev» would classify the other way)
+# option classes to review: serial-verbs.k2 (prose by its key «koj (you)»; «kuv (me)» «nws (him)» would classify the other way)
+# option classes to review: shopping.k3 (prose by its key «cheap»; «to pay» would classify the other way)
+# option classes to review: family-events.k1 (prose by its key «a clan, which is also the surname»; «a birthday» would classify the other way)
+# option classes to review: family-events.k3 (prose by its key «a blessing with strings on the wrist»; «a meal» would classify the other way)
+# option classes to review: consonants-1.03 (prose by its key «a t with the tongue curled back»; «a rolled r» would classify the other way)
+# option classes to review: consonants-1.04 (target by its key «kaus»; «khaus» would classify the other way)
+# option classes to review: consonants-2.04 (prose by its key «ong»; «a long o» would classify the other way)
+# option classes to review: health.05 (prose by its key «a fever»; «a cough» «a headache» «a toothache» would classify the other way)
+# option classes to review: elders.04 (prose by its key «grandmother»; «to throw» «to see» would classify the other way)
+# option classes to review: new-year.04 (prose by its key «a bamboo pipe»; «a ball» would classify the other way)
+# option classes to review: family-events.01 (prose by its key «a celebration or ceremony»; «a clan» «a birthday» «a family» would classify the other way)

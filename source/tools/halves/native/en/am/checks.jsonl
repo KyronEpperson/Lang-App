@@ -1,0 +1,78 @@
+{"id":"orders.k1","q":"What is one fidel character?","o":["A consonant plus a vowel","The name of an English letter","Only a vowel, with no consonant","A whole English word"],"why":"One fidel character writes a consonant and a vowel together."}
+{"id":"orders.k2","q":"What is true of the sixth order?","o":["It is always the vowel of see","It always marks a long consonant","It may be a vowel or no vowel, and the spelling does not say which","It is always the vowel of father"],"why":"The sixth order may be a short vowel or no vowel, and you learn which by listening."}
+{"id":"orders.k3","q":"Why can ገና be two different words?","o":["Amharic writes a long consonant twice","A long consonant and a short one are written the same way","The sixth order is always silent","ገና has two different spellings"],"why":"The fidel writes a long consonant once, so one spelling can hold two meanings."}
+{"id":"fidel-1.k1","q":"In Addis Ababa, ሀ and ሐ are…","o":["One h sound, spelled with two letters","Two different h sounds","A vowel and a consonant","Both ejectives"],"why":"ሀ and ሐ are one h in Addis Ababa. The spelling still keeps them apart."}
+{"id":"fidel-1.k2","q":"What is ቀ?","o":["The plain k","An ejective, not a plain k","The same sound as በ","A silent letter"],"why":"ቀ is an ejective. The plain k letter has not been taught yet, and it is not this one."}
+{"id":"fidel-1.k3","q":"Why do ሀ and ሃ sound alike?","o":["Every first order uses the father vowel","ሃ is the sixth order","ሀ is an exception: its first order uses the father vowel, like its fourth order","They are a long consonant"],"why":"For ሀ and ሐ, the first order and the fourth order share the father vowel."}
+{"id":"fidel-2.k1","q":"In Addis Ababa, how many h sounds do ሀ, ሐ, ኀ and ኸ make?","o":["Four","Two","One","None. They are silent"],"why":"Those four letters are one h in Addis Ababa. Words still keep their own spelling."}
+{"id":"fidel-2.k2","q":"What do አ and ዐ do?","o":["They are two different consonants","They write a vowel with no consonant, and in Addis Ababa they share that job","They are both ejectives","They mark a long consonant"],"why":"አ and ዐ are vowel carriers. They do the same job in Addis Ababa."}
+{"id":"fidel-2.k3","q":"ከ and ቀ are…","o":["The same sound","Both h","A plain k and an ejective, two consonants","Both sixth order"],"why":"ከ is a plain k. ቀ is an ejective. Do not trade them."}
+{"id":"fidel-3.k1","q":"ጠ and ተ are…","o":["The same consonant","An ejective and a plain t, two consonants","Both h","A long t and a short t"],"why":"ጠ is an ejective. ተ is a plain t. The length of a consonant is a different issue, and it is not written."}
+{"id":"fidel-3.k2","q":"ፀ and ጸ are…","o":["Two different sounds","One ejective ts, two letters","A plain s and an ejective","Both the s of ሰ"],"why":"ፀ and ጸ are the same ejective ts. ሰ is the plain s."}
+{"id":"fidel-3.k3","q":"What does አቶ ከበደ use አቶ for?","o":["A woman's name","Hello","A title before a man's name","The word coffee"],"why":"አቶ sits before a man's name. It is a title, not a greeting."}
+{"id":"reading.k1","q":"In Addis Ababa, ጸ and ፀ are…","o":["A plain s and an ejective","Two vowels","Both h","One ejective ts, two letters"],"why":"ጸ and ፀ are the same ejective ts. The plain s letters are ሰ and ሠ."}
+{"id":"reading.k2","q":"ኳ is the -wa form on…","o":["the ejective ቀ","plain k, the ከ row","g","b"],"why":"ኳ is plain k plus w. ቧ is b, and ጓ is g."}
+{"id":"reading.k3","q":"You see ገና with no audio and no context. What can you know?","o":["It must mean still","It must mean Christmas","It is one of those two, and the letters do not say which","The n is written twice if it is long"],"why":"ገና is still or Christmas. The long consonant is not written."}
+{"id":"greetings.k1","q":"You walk into a shop and greet a stranger. You do not know the hour. What fits?","why":"ጤና ይስጥልኝ is the formal hello for any person and any time of day."}
+{"id":"greetings.k2","q":"Good morning to a woman is…","why":"The woman form in the morning is አደርሽ. ዋልሽ is afternoon."}
+{"id":"greetings.k3","q":"አመሰግናለሁ is said to…","o":["a man only","a woman only","anyone, because the ending means I","a stranger only"],"why":"አመሰግናለሁ means I thank, so the ending does not change for the listener."}
+{"id":"intro.k1","q":"Abebech gives her name. Which sentence is right?","why":"The subject is ስም, so the verb ending is ነው, even though Abebech is a woman."}
+{"id":"intro.k2","q":"You ask a woman her name. Which is right?","why":"The woman form is ስምሽ, and the verb ending stays ነው."}
+{"id":"intro.k3","q":"You ask an older stranger their name. Which is right?","why":"The polite form is ስምዎ, and the verb ending is ነው."}
+{"id":"be.k1","q":"She is fine. Which is the form to learn?","why":"እሷ is feminine, so the verb ending is ናት. ነው is the he form."}
+{"id":"be.k2","q":"We are fine. Which is right?","why":"The verb ending ነን agrees with the subject እኛ."}
+{"id":"be.k3","q":"You are speaking to one older stranger. You are fine, addressed to them, is…","why":"The polite form for the person you are talking to is ነዎት."}
+{"id":"definite.k1","q":"How does Amharic say the for a house?","o":["With a small word before ቤት","By adding an English s","With the ending on ቤቱ","It cannot say the"],"why":"The masculine definite ending is on the noun: ቤቱ."}
+{"id":"definite.k2","q":"The girl is…","why":"ልጇ is the feminine form. ልጁ is the boy."}
+{"id":"definite.k3","q":"Houses, more than one, is…","why":"The plural ending is -ኦች: ቤቶች. An English s is not the plural."}
+{"id":"this-that.k1","q":"How do you say this for a book?","why":"A book is masculine, so this is ይህ."}
+{"id":"this-that.k2","q":"Which sentence is 'This is Tigist'?","why":"Tigist is a woman, so use ይህች and the verb ending ናት."}
+{"id":"this-that.k3","q":"'That is a pen' =","why":"A pen farther away takes ያ, and the verb ending is ነው."}
+{"id":"questions.k1","q":"'Where is the house?' =","why":"የት asks where. There is no helper like do."}
+{"id":"questions.k2","q":"'Who are you?' to a woman =","why":"አንቺ takes the woman form ነሽ."}
+{"id":"questions.k3","q":"'How are you?' to a stranger =","why":"እርስዎ takes the polite form ነዎት."}
+{"id":"numbers.k1","q":"Five =","why":"Five is አምስት. ስድስት is six."}
+{"id":"numbers.k2","q":"'They are two houses' =","why":"More than one takes the verb ending ናቸው. This line keeps ቤት singular."}
+{"id":"numbers.k3","q":"Twenty =","why":"Twenty is its own word, ሃያ. ሀያ is the same word."}
+{"id":"possessive.k1","q":"'Your house,' to a woman =","why":"The woman form is ቤትሽ. ቤቷ is her house."}
+{"id":"possessive.k2","q":"'It is my house' =","why":"The verb ending ነው agrees with the house, not with I."}
+{"id":"possessive.k3","q":"'Your house,' to an older stranger =","why":"The polite form is ቤትዎ."}
+{"id":"have.k1","q":"'I have a pen' =","why":"The thing comes first. The verb ending አለኝ is I."}
+{"id":"have.k2","q":"'You do not have a book,' to a woman =","why":"The woman form of the negative is የለሽም."}
+{"id":"have.k3","q":"Said with a long l, አለ means","o":["he said","there is","he went","a house"],"why":"The long l means there is. The short l, same letters, means he said."}
+{"id":"prepositions.k1","q":"'I am from America' =","why":"ከ joins the place, and I takes ነኝ, not the man form ነህ."}
+{"id":"prepositions.k2","q":"'This book is for you,' to a woman =","why":"ለ joins the person. The book is masculine, so the verb ending is ነው."}
+{"id":"prepositions.k3","q":"'You are in Addis Ababa,' polite =","why":"በ is in, joined to the place, and እርስዎ takes the polite form ነዎት."}
+{"id":"past.k1","q":"'I drank the coffee' =","why":"The definite object takes ን, and the verb ending ጠጣሁ is I."}
+{"id":"past.k2","q":"'You went,' to a woman =","why":"The woman form is ሄድሽ. ሄደች is she went."}
+{"id":"past.k3","q":"'She went home' =","why":"The feminine verb ending is ሄደች, and it comes last."}
+{"id":"present.k1","q":"'I will go home' =","why":"እሄዳለሁ is I go and I will go. ሄድኩ is the past."}
+{"id":"present.k2","q":"'You drink coffee,' to a woman =","why":"The woman form is ትጠጫለሽ. ትጠጣለሽ leaves the consonant unpalatalized."}
+{"id":"present.k3","q":"'He goes to Gondar' =","why":"The masculine verb ending is ይሄዳል, after the place."}
+{"id":"negative.k1","q":"'I did not go' =","why":"The past negative wraps the past form: አልሄድኩም. አልሄድም is the present."}
+{"id":"negative.k2","q":"'You did not go home,' to a woman =","why":"The woman form is አልሄድሽም, and the verb comes last."}
+{"id":"negative.k3","q":"'I do not go' =","why":"The present negative is the short form አልሄድም."}
+{"id":"want.k1","q":"Where does እፈልጋለሁ go in \"I want coffee\"?","o":["After ቡና","Before ቡና","In the middle, as in English","It is left off"],"why":"The thing comes first and the verb comes last: ቡና እፈልጋለሁ."}
+{"id":"want.k2","q":"\"I want to go\" uses which word before want?","why":"Want takes the infinitive, the to-form መሄድ, not a second finished verb."}
+{"id":"want.k3","q":"Which form is said to a woman?","why":"The woman form is ትፈልጊያለሽ. ትፈልጋለህ is the man form."}
+{"id":"commands.k1","q":"How do you say \"Come!\" to a woman?","why":"The woman form of come is ነይ. ና is the man form."}
+{"id":"commands.k2","q":"How do you say \"please\" to a stranger?","why":"A stranger is እርስዎ, so please is እባክዎ."}
+{"id":"commands.k3","q":"ተቀመጡ is said to…","o":["one man","one woman",null,"more than one person"],"why":"ተቀመጡ is the plural. The polite form is ይቀመጡ."}
+{"id":"time.k1","q":"Abebech asks a stranger the time. She starts with…","why":"The manual says ይቅርታ before you ask a stranger the time."}
+{"id":"time.k2","q":"ጠዋት አስራ ሁለት ሰዓት is…","o":["noon","6 a.m.","midnight","6 p.m."],"why":"The manual's pair: Ethiopian 12 in the morning is 6 a.m."}
+{"id":"time.k3","q":"Which Wednesday does this course write?","why":"The manual writes ሮብ. ረቡዕ is another spelling you may see, not a mistake."}
+{"id":"prices.k1","q":"How do you ask the price?","why":"The price you both mean is ዋጋው, and one price takes ነው."}
+{"id":"prices.k2","q":"The manual's coffee figure is for practice. It is…","o":["today's price in Addis Ababa","four birr in that book","one hundred birr","a dollar price"],"why":"The book says coffee is four birr. That is not a claim about today's menu."}
+{"id":"prices.k3","q":"ሂሳብ ስንት ነው asks…","o":["what time it is","where the shop is","how much the bill is","how the coffee is"],"why":"ሂሳብ is the bill. ስንት ነው asks how much."}
+{"id":"likes.k1","q":"\"I like coffee\" is…","why":"The thing comes first. እፈልጋለሁ means I want, not I like."}
+{"id":"likes.k2","q":"Which word is the feminine form of ውብ?","why":"The manual marks ውቢት as the feminine word. ቆንጆ does not change in that way."}
+{"id":"likes.k3","q":"What does this lesson teach you to say after a compliment?","o":["A special reply from the manual","ምንም አይደለም as the set reply","Nothing. A checked reply is not in the sources",null],"why":"A reply to a compliment was not in the sources, so it is not taught here."}
+{"id":"family.k1","q":"How do you say \"your father\" to a woman?","why":"The woman form is አባትሽ. አባትህ is the man form."}
+{"id":"family.k2","q":"\"I have no brother\" is…","why":"የለኝም is the negative of አለኝ. ወንድም is brother."}
+{"id":"family.k3","q":"My sister is in Addis Ababa. The last word is…","why":"እህቴ is feminine, so the verb ending is ናት."}
+{"id":"restaurant.k1","q":"You want injera. What comes first?","o":[null,"እባክህ, even to a woman",null,null],"why":"The food comes first, then want."}
+{"id":"restaurant.k2","q":"Please, to a woman server you know, is…","o":[null,null,"እባክዎ only",null],"why":"እባክሽ is please to a woman. እባክህ is the man form."}
+{"id":"restaurant.k3","q":"ፍርፍር on this menu is…","o":["chicken stew","tea","a dish of torn injera","the bill"],"why":"The manual treats እንጀራ as the base of ፍርፍር."}
+{"id":"directions.k1","q":"\"Where is the hotel?\" ends with…","why":"The hotel is the subject, so the verb ending is ነው."}
+{"id":"directions.k2","q":"\"Go left\" to a woman starts with…","why":"The place comes first: ወደ ግራ ሂጂ."}
+{"id":"directions.k3","q":"\"Where are you?\" to እርስዎ is…","why":"The polite form is ነዎት."}

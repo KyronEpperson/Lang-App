@@ -1,0 +1,26 @@
+{"id":"ar.lc0001","meaning":"door","note":"بـ start, ـا end. ا never joins forward, so the last ب stands alone: ب."}
+{"id":"ar.lc0002","meaning":"book","note":"كـ start, ـتـ middle, ـا end; after the gap, ب alone."}
+{"id":"ar.lc0003","meaning":"boy","note":"و alone (it never joins forward), then لـ start, ـد end."}
+{"id":"ar.lc0004","meaning":"pen","note":"قـ start, ـلـ middle, ـم end: one unbroken word."}
+{"id":"ar.lc0005","meaning":"new","note":"جـ start, ـد end; after the gap, يـ start, ـد end. Kasra + ي is the long ī."}
+{"id":"ar.lc0006","meaning":"big","note":"كـ start, ـبـ middle, ـيـ middle, ـر end."}
+{"id":"ar.lc0007","meaning":"small","note":"صـ start, ـغـ middle, ـيـ middle, ـر end. In the middle, غ is a small closed loop with a dot."}
+{"id":"ar.lc0008","meaning":"student (a man)","note":"طـ start, ـا end; after the gap, لـ start, ـب end."}
+{"id":"ar.lc0009","meaning":"street","note":"شـ start, ـا end; after the gap, ر alone; ر never joins forward, so ع stands alone too."}
+{"id":"ar.lc0010","meaning":"market","note":"سـ start, ـو end; after the gap, ق alone. Damma + و is the long ū."}
+{"id":"ar.lc0011","meaning":"light","note":"نـ start, ـو end; after the gap, ر alone."}
+{"id":"ar.lc0012","meaning":"city","note":"مـ start, ـد end; after the gap, يـ start, ـنـ middle, ـة end."}
+{"id":"ar.lc0013","meaning":"fish","note":"سـ start, ـمـ middle, ـك end."}
+{"id":"ar.lc0014","meaning":"milk","note":"حـ start, ـلـ middle, ـيـ middle, ـب end."}
+{"id":"ar.lc0015","meaning":"friend","note":"صـ start, ـد end; after the gap, يـ start, ـق end."}
+{"id":"ar.lc0016","meaning":"peace","note":"سـ start, then ل and ا melt into one shape, ـلا; after the gap, م alone."}
+{"id":"ar.lc0017","meaning":"three","note":"ثـ start, ـلا (lām alif); after the gap, ثـ start, ـة end."}
+{"id":"ar.lc0018","meaning":"airport","note":"مـ start, ـطـ middle, ـا end; after the gap, ر alone."}
+{"id":"ar.lc0019","meaning":"the door","note":"Moon letter ب: the l is said, with sukun. al-bāb, like al-qamar."}
+{"id":"ar.lc0020","meaning":"the lesson","note":"Sun letter د: the l is silent and د is doubled (shadda). ad-dars, like ash-shams."}
+{"id":"ar.lc0021","meaning":"the boy","note":"Moon letter و: the l is said. al-walad, like al-qamar."}
+{"id":"ar.lc0022","meaning":"the light","note":"Sun letter ن: the l is silent and ن is doubled. an-nūr, like ash-shams."}
+{"id":"ar.lc0023","meaning":"the city","note":"Moon letter م: the l is said. al-madīna, like al-qamar."}
+{"id":"ar.lc0024","meaning":"the man","note":"Sun letter ر: the l is silent and ر is doubled. ar-rajul, like ash-shams."}
+{"id":"ar.lc0025","meaning":"the day; today","note":"Moon letter ي: the l is said. al-yawm, like al-qamar."}
+{"id":"ar.lc0026","meaning":"the morning","note":"Sun letter ص: the l is silent and ص is doubled. aṣ-ṣabāḥ, like ash-shams."}

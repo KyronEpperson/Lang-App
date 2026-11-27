@@ -1,0 +1,30 @@
+{"id":"ja.d.hiragana-1-a-ka-sa-ta-rows","label":"Hiragana 1: a, ka, sa, ta rows","desc":"The first 20 hiragana, one letter per card: あ い う え お, か…こ, さ…そ, た…と"}
+{"id":"ja.d.hiragana-2-na-to-n","label":"Hiragana 2: na to n","desc":"The other 26 basic hiragana, one letter per card: な…の, は…ほ, ま…も, や ゆ よ, ら…ろ, わ を ん"}
+{"id":"ja.d.hiragana-3-marks-and-small-letters","label":"Hiragana 3: marks and small letters","desc":"Sound marks (が, ざ, だ, ば, ぱ rows), small ゃ ゅ ょ, and words with small っ and long vowels"}
+{"id":"ja.d.katakana-1-a-ka-sa-ta-rows","label":"Katakana 1: a, ka, sa, ta rows","desc":"The first 20 katakana, each with a loanword you know: ア (アメリカ), カ (カメラ)…"}
+{"id":"ja.d.katakana-2-na-to-n-plus-long-vowels","label":"Katakana 2: na to n, plus long vowels","desc":"The other 26 katakana, plus loanwords with ー and the extra sounds ティ, ファ"}
+{"id":"ja.d.first-kanji","label":"First kanji","desc":"The 30 kanji words of the course (numbers, yen, days of the week, time, people, Japan), one reading each"}
+{"id":"ja.d.greetings-and-introductions","label":"Greetings and introductions","desc":"Hello, thank you, excuse me, and introducing yourself politely"}
+{"id":"ja.d.family-and-people","label":"Family and people","desc":"Your family and someone else's family, friends, and words for people"}
+{"id":"ja.d.numbers-money-and-time","label":"Numbers, money and time","desc":"Numbers up to 99,999, prices in yen, and telling the time"}
+{"id":"ja.d.food-and-drink","label":"Food and drink","desc":"Japanese food, ordering, counting what you order, and mealtime phrases"}
+{"id":"ja.d.shopping-and-things","label":"Shopping and things","desc":"This and that, everyday things, where things are, and paying"}
+{"id":"ja.d.daily-routine","label":"Daily routine","desc":"Everyday verbs in the ます form, time words and days of the week"}
+{"id":"ja.d.describing-things","label":"Describing things","desc":"い and な adjectives, opinions and comparisons"}
+{"id":"ja.d.likes-plans-and-free-time","label":"Likes, plans and free time","desc":"Hobbies, likes and dislikes, and plans for the weekend"}
+{"id":"ja.d.places-and-getting-around","label":"Places and getting around","desc":"Stations, directions, trains and travel in Japan"}
+{"id":"ja.d.polite-requests-and-help","label":"Polite requests and help","desc":"Please, may I, must not, feeling sick, and asking for help"}
+{"id":"ja.d.casual-and-polite","label":"Casual and polite","desc":"The same thing said to a friend and to a stranger: short forms and polite forms"}
+{"id":"ja.d.traps-for-english-speakers","label":"Traps for English speakers","desc":"Katakana false friends, あなた, yes and no, and polite ways to say no"}
+{"id":"ja.d.compliments","label":"Compliments","desc":"Praise for food, work, skills, homes and people, and the modest way to answer it."}
+{"id":"ja.d.flirting","label":"Flirting","desc":"Words people flirt with, phrases built from them, asking someone out, and kind ways to say no."}
+{"id":"ja.d.top-nouns","label":"Top nouns","desc":"The most-used nouns in everyday spoken Japanese."}
+{"id":"ja.d.top-verbs","label":"Top verbs","desc":"The most-used verbs in dictionary form, with the ます form and verb group."}
+{"id":"ja.d.top-adjectives","label":"Top adjectives","desc":"The most-used い and な adjectives."}
+{"id":"ja.d.top-adverbs","label":"Top adverbs","desc":"Time, manner and degree: already, still, very, often, maybe."}
+{"id":"ja.d.top-pronouns","label":"Top pronouns","desc":"I, here, who, which, someone, and why Japanese avoids \"you\"."}
+{"id":"ja.d.top-particles","label":"Top particles","desc":"は, が, を, に, で and the other particles that do the work of English prepositions."}
+{"id":"ja.d.top-connectors","label":"Top connectors","desc":"Joining words and endings: but, so, and then, because, if, when."}
+{"id":"ja.d.top-interjections","label":"Top interjections","desc":"What people really say: oh, wow, um, oops, seriously?"}
+{"id":"ja.d.top-words","label":"Top words","desc":"Question words, this and that, yes and no, name endings, times and seasons."}
+{"id":"ja.d.top-counters","label":"Top counters","desc":"Counters the course has not taught yet: small things, times, hours, days, animals, cups."}

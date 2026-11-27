@@ -1,0 +1,31 @@
+{"id":"nan.d.tai-lo-sounds","label":"Tâi-lô sounds","desc":"One word for each Tâi-lô letter or ending that misleads English readers: ph, th, kh, tsh, b, g, j, oo, nn, and the stops -p -t -k -h."}
+{"id":"nan.d.seven-tones","label":"Seven tones","desc":"The tone mnemonic 獅虎豹鱉猴狗象鹿 (sai hóo pà pih kâu káu tshiūnn lo̍k): one animal per tone, with its mark."}
+{"id":"nan.d.tone-sandhi-in-action","label":"Tone sandhi in action","desc":"Two-syllable words whose first syllable is said in its sandhi tone, while the last keeps the tone you see."}
+{"id":"nan.d.taigi-characters","label":"Taigi characters","desc":"Characters that Taiwanese writes and Mandarin does not use this way: 毋, 佇, 欲, 予, 媠, 囝, 厝, 睏, 啉."}
+{"id":"nan.d.greetings-and-courtesy","label":"Greetings and courtesy","desc":"Good morning, have you eaten?, thank you, sorry and goodbye."}
+{"id":"nan.d.people-and-family","label":"People and family","desc":"Pronouns (我, 你, 伊, 阮, 咱, 恁, 𪜶) and the family words a grandchild needs."}
+{"id":"nan.d.about-me","label":"About me","desc":"Name, surname, being a student, where you live."}
+{"id":"nan.d.in-class","label":"In class","desc":"Asking the teacher to repeat, to slow down, and saying you don't know."}
+{"id":"nan.d.numbers-and-money","label":"Numbers and money","desc":"Counting numbers, the literary numbers for digits, and prices in 箍."}
+{"id":"nan.d.classifiers","label":"Classifiers","desc":"Number or this / that + classifier + noun: 个, 本, 隻, 碗, 杯, 擺."}
+{"id":"nan.d.night-market-food","label":"Night market food","desc":"The night market, its stalls and its food."}
+{"id":"nan.d.at-the-market","label":"At the market","desc":"The traditional market: vegetables, meat, eggs, fish and fruit, and haggling over price."}
+{"id":"nan.d.time-and-days","label":"Time and days","desc":"Today, tomorrow, yesterday, parts of the day, the week and the clock."}
+{"id":"nan.d.places-and-directions","label":"Places and directions","desc":"In front, behind, above, below, left, right, and turning."}
+{"id":"nan.d.getting-around","label":"Getting around","desc":"MRT, trains, taxis, walking, getting on."}
+{"id":"nan.d.questions-and-particles","label":"Questions and particles","desc":"Question words and the yes/no questions with 無, 未, 敢 and 是毋是."}
+{"id":"nan.d.describing-and-comparing","label":"Describing and comparing","desc":"Very, too, more, most; and actions in progress or done."}
+{"id":"nan.d.traps-for-english-speakers","label":"Traps for English speakers","desc":"No \"to be\" with adjectives, the four negatives, 會 and 袂, sound-alikes and false friends."}
+{"id":"nan.d.compliments","label":"Compliments","desc":"Praise for food, work, effort and homes, and the modest answers Taiwanese people give back (無啦！)."}
+{"id":"nan.d.flirting","label":"Flirting","desc":"Warm, respectful flirting: the words (古錐, 目睭), phrases built from them, asking someone out, and kind ways to say yes or no."}
+{"id":"nan.d.top-nouns","label":"Top nouns","desc":"Common everyday nouns: people, family, food, things at home."}
+{"id":"nan.d.top-verbs","label":"Top verbs","desc":"Common verbs and modal verbs (會, 會使, 會當, 捌). Taigi verbs never change form."}
+{"id":"nan.d.top-adjectives","label":"Top adjectives","desc":"Common adjectives. No 是 before an adjective: 真好, 傷貴."}
+{"id":"nan.d.top-adverbs","label":"Top adverbs","desc":"Very, more, all, again, already, now, often, not yet: they go before the verb."}
+{"id":"nan.d.top-pronouns","label":"Top pronouns","desc":"They, the possessives with 的, this and that, oneself, everyone, other people."}
+{"id":"nan.d.top-prepositions","label":"Top prepositions","desc":"What Taigi uses for prepositions: coverbs (共, 比, 對, 用, 到) and place words after the noun (邊仔, 對面, 中央)."}
+{"id":"nan.d.top-conjunctions","label":"Top conjunctions","desc":"Or, but, if, then, because, so, although, after, before."}
+{"id":"nan.d.top-interjections","label":"Top interjections","desc":"Short exclamations and replies: really?, that's wrong!, careful!, oh well."}
+{"id":"nan.d.top-words","label":"Top words","desc":"Numbers to thirty and beyond, how many, half, first, yes/no questions, days and weeks."}
+{"id":"nan.d.top-measure-words","label":"Top measure words","desc":"More classifiers, one per card: books, animals, clothes, flat things, pairs, dollars, years of age, o'clock."}
+{"id":"nan.d.top-particles","label":"Top particles","desc":"The small words that change a sentence: 矣, 啦, 咧, the question endings 無 / 未 / 袂, 敢, 的, 仔, 過."}

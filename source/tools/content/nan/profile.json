@@ -1,0 +1,28 @@
+{
+  "native": "nan",
+  "nativeNameEn": "Taiwanese",
+  "name": {
+    "en": "English",
+    "nan": "英語"
+  },
+  "ttsLang": "en-US",
+  "nativeScript": "[\\u3400-\\u4dbf\\u4e00-\\u9fff]",
+  "pron": "required",
+  "pronPattern": "^(?=.*ˈ)/[abdefghijklmnoprstuvwzæɑɔəɛɝɚɪʊʌθðʃʒŋḷṇˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɛɝɚɪʊʌθðʃʒŋḷṇˈˌ‖]+)*/(?: /[abdefghijklmnoprstuvwzæɑɔəɛɝɚɪʊʌθðʃʒŋḷṇˈˌ‖]+(?: [abdefghijklmnoprstuvwzæɑɔəɛɝɚɪʊʌθðʃʒŋḷṇˈˌ‖]+)*/)*$",
+  "pronScript": "ˈ",
+  "standingRule": {
+    "kind": "article-plural",
+    "keywords": "冠詞|複數"
+  },
+  "labels": {
+    "mcBlankCue": " 空格愛填啥？",
+    "typeHintCue": " — 用這寡詞",
+    "cueTest": "[\\u3400-\\u4dbf\\u4e00-\\u9fff]"
+  },
+  "lessonOrder": {
+    "after": {
+      "tw-english": "smalltalk",
+      "articles-3": "passive"
+    }
+  }
+}

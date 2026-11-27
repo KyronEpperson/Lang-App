@@ -1,0 +1,999 @@
+# Indonesian words of the course inventory, or with a Indonesian diacritic, outside every mark (export_target.js id; not protected by validate.js until the source marks them). Columns: file, id, field, words, text
+decks	id.d.sounds-and-spelling	desc	ng ny sy	Words that show each spelling rule: c, the two e sounds, final k and h, ng, ny, sy and the rolled r
+decks	id.d.people-and-family	desc	Bapak Ibu Mas Mbak	Family words and the titles Indonesians use for "you": Bapak, Ibu, Mas, Mbak
+decks	id.d.numbers-and-money	desc	rupiah	Numbers to a million and prices in rupiah
+decks	id.d.food-and-drink	desc	warung	Ordering at a warung or restaurant, and everyday dishes and drinks
+decks	id.d.transport-and-travel	desc	Ojek hotel	Ojek, taxis, trains and planes, tickets and hotel basics
+decks	id.d.top-adverbs	desc	sudah masih sangat sekali juga saja	Time, place, manner and degree: sudah, masih, sangat, sekali, juga, saja
+decks	id.d.top-prepositions	desc	di ke dari	di, ke, dari and the other place, time and linking words
+decks	id.d.top-conjunctions	desc	dan atau tapi supaya walaupun	dan, atau, tapi, supaya, walaupun: the words that join ideas
+decks	id.d.top-interjections	desc	wah aduh ayo astaga ya ampun	What people really exclaim: wah, aduh, ayo, astaga, ya ampun
+decks	id.d.top-classifiers	desc	seorang sebuah ekor	Counting words: seorang, sebuah, ekor, and the measure words for glasses, plates and bottles
+cards	id.c0001	note	ch	c always sounds like ch in "church": never "kantik".
+cards	id.c0004	note	oh	A final k is a catch in the throat, as in "uh-oh". Do not pop the k.
+cards	id.c0005	note	ny	ny as in "canyon", even at the start of a word.
+cards	id.c0006	note	ah	The noun comes first: kopi, then panas. Keep both a's short and open, like "ah".
+cards	id.c0007	note	ng	ng as in "singer", even at the start of a word: never "nantuk".
+cards	id.c0008	note	ngg ng	ngg is ng plus a hard g: MAHNG-gah.
+cards	id.c0009	note	ng	A plain ng with no g after it: BOO-ngah, not "boong-gah".
+cards	id.c0010	note	sy	sy sounds like English sh.
+cards	id.c0011	note	kh	kh is a breathy k, made further back in the throat.
+cards	id.c0013	note	teh	An e at the end of a word is the strong e (eh): SAH-teh.
+cards	id.c0014	note	ai	ai at the end of a word is one sound, as in "Thai".
+cards	id.c0015	note	au	au at the end of a word sounds like "ow" in "how".
+cards	id.c0017	note	jam	j as in "jam"; tap or roll the r; the final k is a catch.
+cards	id.c0019	note	siang	Until about 11 a.m. Then selamat siang.
+cards	id.c0021	note	malam	From about 3 p.m. until dark. After dark: selamat malam.
+cards	id.c0023	note	Bu	Add Pak for an older man, Bu for a woman. A bare greeting can sound cold.
+cards	id.c0024	note	Baik terima kasih	Literally "what news?". Answer: Baik, terima kasih.
+cards	id.c0025	note	Apa kabar	The usual answer to Apa kabar?
+cards	id.c0026	note	Sama sama	The reply is Sama-sama (You're welcome).
+cards	id.c0029	note	Maaf	To pass someone or get attention. To say sorry: Maaf.
+cards	id.c0031	note	Maaf	The answer to Maaf. The hyphen is part of the spelling.
+cards	id.c0036	note	lagi	The everyday goodbye. Sampai jumpa lagi = See you again.
+cards	id.c0043	note	Pak Bu Mas Mbak	A rising voice makes it a question. Add Pak, Bu, Mas or Mbak.
+cards	id.c0045	note	punya	Literally "my age thirty years". Not Saya punya tiga puluh tahun.
+cards	id.c0048	note	kamu	To ask the same question back. To a friend: Kalau kamu?
+cards	id.c0052	note	Pak Bu	People ask this a lot. Add Pak, Bu or a name for "you".
+cards	id.c0054	note	Pak	The polite "you" for a man older than you or in a formal role. Short form: Pak.
+cards	id.c0055	note	Bu	The polite "you" for a woman older than you or in a formal role. Short form: Bu.
+cards	id.c0056	note	Jakarta	Everyday in Jakarta and Java for a waiter, a driver or a young man. It also means older brother.
+cards	id.c0057	note	Jakarta	Everyday in Jakarta and Java for a shop assistant or a young woman. It also means older sister.
+cards	id.c0058	note	Bu Sari	The title goes before the name: Pak Budi, Bu Sari. People often use it in place of "you".
+cards	id.c0061	note	dari Amerika	Leaves the listener out: Kami dari Amerika = my friends and I are from the US.
+cards	id.c0062	note	Ayo makan	Takes the listener in: Ayo kita makan = let's eat, you and me.
+cards	id.c0063	note	perempuan	kakak names the age, not the sex: kakak perempuan = older sister.
+cards	id.c0064	note	laki	adik names the age, not the sex: adik laki-laki = younger brother.
+cards	id.c0071	note	Belum Tidak Pak Bu	Answer Sudah (yes) or Belum (not yet), not Tidak. Add Pak or Bu.
+cards	id.c0076	note	seratus seribu	se- means one: sebelas 11, seratus 100, seribu 1,000.
+cards	id.c0077	note	tiga	belas = -teen: dua belas 12, tiga belas 13.
+cards	id.c0079	note	satu ratus	Not satu ratus.
+cards	id.c0080	note	satu ribu	Not satu ribu.
+cards	id.c0085	note	harga nya	harga = price; -nya = "its" or "the".
+cards	id.c0086	note	semua	semua = all. Heard at the checkout or the end of a meal.
+cards	id.c0089	note	nol kosong	The owner comes last. Zero in a phone number: nol, often said kosong.
+cards	id.c0093	note	siang sore malam	pagi, siang, sore and malam go after the hour, in place of a.m. and p.m.
+cards	id.c0095	note	eh	lewat = past. The e of lewat is strong (eh).
+cards	id.c0098	note	besok hari ini	besok = tomorrow; hari ini = today.
+cards	id.c0099	note	eh lusa	The e is strong (eh). The day after tomorrow: lusa.
+cards	id.c0107	note	Pak Bu ya	sebentar = a short while. Add Pak, Bu or ya to soften it.
+cards	id.c0108	note	Pak	What staff say to a woman customer. To a man: Pak.
+cards	id.c0114	note	main	Literally "coffee milk": the main noun comes first.
+cards	id.c0117	note	pedas	pakai = with, using. Not spicy: tidak pedas.
+cards	id.c0121	note	Makan di sini	Literally "wrapped". For here: Makan di sini.
+cards	id.c0123	note	Belum	A friendly everyday question that shows you care. Answer: Sudah or Belum.
+cards	id.c0125	note	Mas	To a young waitress: Mbak. To a young waiter: Mas.
+cards	id.c0126	note	warung	At a market or a warung.
+cards	id.c0146	note	nya	-nya = his, her, its, or "the".
+cards	id.c0147	note	main	Literally "room sleep": the main noun first.
+cards	id.c0164	note	kanan	kanan = right. belok has the strong e.
+cards	id.c0166	note	pertigaan	Literally "four-way". A T-junction: pertigaan.
+cards	id.c0167	note	kiri	Easy to mix up: kiri = left, kanan = right.
+cards	id.c0169	note	belok kiri di	Literally "red light", but it names the whole traffic light: belok kiri di lampu merah.
+cards	id.c0170	note	toilet	kamar kecil = "small room". On signs: toilet or WC.
+cards	id.c0172	note	kanan	di sebelah kanan = on the right.
+cards	id.c0175	note	dekat	tidak goes before a describing word: tidak jauh, tidak dekat.
+cards	id.c0177	note	Maaf Pak	Say it with a title: Maaf, Pak, saya tersesat.
+cards	id.c0178	note	main	The main noun first: kantor (office), then pos (post).
+cards	id.c0182	note	main	The main noun first: tiket (ticket), then pesawat (plane).
+cards	id.c0185	note	Pak	What a driver asks an older woman. To a man: Ke mana, Pak?
+cards	id.c0186	note	Mas	To an older driver: Pak. To a young one: Mas.
+cards	id.c0187	note	mobil	kereta = train. A car is mobil.
+cards	id.c0191	note	hotel	malam = night. A hotel stay is counted in nights.
+cards	id.c0192	note	di	dipesan is a di- verb (is booked), written as one word.
+cards	id.c0200	note	bantu saya	Also "please" before a verb: Tolong bantu saya.
+cards	id.c0202	note	eh	The e is strong (eh).
+cards	id.c0203	note	gigi	Literally "my stomach (is) sick". Any body part works: gigi saya sakit (toothache).
+cards	id.c0206	note	Pak	tolong + verb = please do something. To an older man add Pak.
+cards	id.c0211	note	di jalan	Also a kind goodbye: Hati-hati di jalan (take care on the road).
+cards	id.c0213	note	Pak Bu Mas Mbak	bisa tolong + verb = could you please. Add a title: Pak, Bu, Mas or Mbak.
+cards	id.c0214	note	bisa	boleh = may (permission). bisa = can (ability).
+cards	id.c0217	note	murid	No word for "am", and no "a" needed. A school pupil: murid or pelajar.
+cards	id.c0223	note	kirim	kirim → mengirim: the k drops after meng-.
+cards	id.c0224	note	kerja	kerja → mengerjakan. tugas = task, homework, assignment.
+cards	id.c0225	note	selesai	selesai → menyelesaikan: the s drops and meny- takes its place.
+cards	id.c0226	note	lihat	lihat → melihat: plain me- before l.
+cards	id.c0227	note	kamu Ibu	Use a title, not kamu, with an older colleague. To a woman: Ibu.
+cards	id.c0232	note	guru	dosen = college lecturer. A school teacher: guru.
+cards	id.c0233	note	cari pekerjaan	cari → mencari. In writing: mencari pekerjaan.
+cards	id.c0238	note	sekali	sangat before the adjective; sekali after it: cantik sekali.
+cards	id.c0241	note	lama	panjang = long (length). Long in time: lama.
+cards	id.c0244	note	cantik	ganteng for men; cantik for women. dia = he or she.
+cards	id.c0249	note	tua orang	masih = still. Old (people): tua. But orang tua = parents.
+cards	id.c0251	note	yang	pintar = smart, clever. A one-word describer needs no yang.
+cards	id.c0252	note	adalah	Not Saya adalah lapar: adjectives take no verb.
+cards	id.c0253	note	lelah	Everyday word. In writing: lelah.
+cards	id.c0256	note	bermain	Everyday speech. Careful form: bermain sepak bola.
+cards	id.c0261	note	anjing	Afraid of something: takut + the thing (takut anjing, afraid of dogs).
+cards	id.c0262	note	kh Jangan	kh is a breathy k. Don't worry (to a friend): Jangan khawatir.
+cards	id.c0263	note	kangen	Everyday speech also says kangen.
+cards	id.c0264	note	Bapak Ibu	To an older person: Apa hobi Bapak? or Apa hobi Ibu?
+cards	id.c0266	note	main	bermain = play (a ber- verb). In speech often just main.
+cards	id.c0267	note	nonton	Also: menonton TV. In speech: nonton.
+cards	id.c0270	note	apa	siapa (who), not apa (what): names are asked with "who".
+cards	id.c0272	note	pulang	Kapan pulang? = When are you going home?
+cards	id.c0274	note	tapi	Everyday: tapi.
+cards	id.c0276	note	mengapa	Careful speech and writing: mengapa.
+cards	id.c0278	note	ini itu	The answer: yang ini (this one) or yang itu (that one).
+cards	id.c0282	note	di	ke mana for movement. Not di mana. Also a friendly greeting.
+cards	id.c0284	note	lurus belok kiri	For steps in order: lurus, lalu belok kiri.
+cards	id.c0285	note	kita pergi besok	Starts a result: Jadi, kita pergi besok.
+cards	id.c0286	note	hujan saya di rumah saja	Kalau hujan, saya di rumah saja = If it rains, I'll just stay home.
+cards	id.c0288	note	ah	Two syllables, ah-eer. The air you breathe is udara.
+cards	id.c0290	note	tiga	Also class. Kelas tiga = third grade.
+cards	id.c0291	note	tidak	bukan before a noun. Before a verb or adjective: tidak.
+cards	id.c0292	note	Sudah menikah Tidak	The polite answer to Sudah menikah? (Are you married?), not Tidak.
+cards	id.c0293	note	Anak	Nothing to do with cost. Anak kos = a student renting a room.
+cards	id.c0296	note	kelapa saya	Easy to swap with kelapa (coconut). Kepala saya = my head.
+cards	id.c0297	note	kepala air	Easy to swap with kepala (head). Coconut water: air kelapa.
+cards	id.c0298	note	semangka	Said to cheer someone on: Semangat! Not to be confused with semangka.
+cards	id.c0299	note	semangat	Sounds close to semangat (spirit).
+cards	id.c0300	note	bukan	tidak before an adjective or a verb, never bukan.
+cards	id.c0301	note	tidak	"Don't" in a command is jangan, not tidak.
+cards	id.c0302	note	apa mu	Names take siapa (who), never apa. -mu = your.
+cards	id.c0303	note	saya tahun Saya punya	The answer: Umur saya … tahun. Never Saya punya … tahun.
+cards	id.c0304	note	untuk	No word for "to" after mau: never Saya mau untuk pergi.
+cards	id.c0305	note	tidak enggak	Standard: tidak. Also spelled enggak.
+cards	id.c0306	note	sudah	Standard: sudah.
+cards	id.c0307	note	bagaimana	Standard: bagaimana.
+cards	id.c0308	note	saja	Standard: saja.
+cards	id.c0309	note	saya	With friends and family. Standard: saya.
+cards	id.c0310	note	Mengapa	sih adds a curious or impatient tone. Without it: Kenapa? (careful: Mengapa?)
+cards	id.c0311	note	sekali	banget = very, after the word. Standard: capek sekali.
+cards	id.c0313	note	Mengapa	kok = how come, with surprise. Standard: Mengapa mahal?
+cards	id.c0314	note	ini Ini untuk	nih = here you go (from ini); buat = for. Standard: Ini untuk kamu.
+cards	id.c0316	note	Tolong tahu	The -in ending replaces -kan or -i. Standard: Tolong beri tahu dia.
+cards	id.c0317	meaning	Jakarta	I; me (Jakarta slang)
+cards	id.c0317	note	Jakarta saya	Jakarta, with friends your age only. Standard: saya.
+cards	id.c0318	meaning	Jakarta	you (Jakarta slang)
+cards	id.c0318	note	Jakarta kamu	Jakarta, with friends your age only. Never to elders or strangers. Standard: kamu or a title.
+cards	id.c0319	note	terima kasih Terima	Short for terima kasih. Standard: Terima kasih.
+cards	id.c0320	note	tidak	Standard: tidak apa-apa.
+cards	id.c0321	note	Sedang	lagi = right now. Standard: Sedang apa?
+cards	id.c0322	note	banyak dua guru	No plural needed: banyak orang = lots of people. Also counts people: dua orang guru.
+cards	id.c0323	note	penting barang	Not an object: hal penting = an important matter. An object: barang.
+cards	id.c0324	note	ini setiap	hari ini = today; setiap hari = every day.
+cards	id.c0325	note	Ada saya kecil	Ada waktu? = Do you have time? Also "when" in speech: waktu saya kecil.
+cards	id.c0326	note	tidur	tempat tidur = bed (literally "sleeping place").
+cards	id.c0327	note	depan Umur saya tiga puluh	tahun depan = next year; Umur saya tiga puluh tahun.
+cards	id.c0328	note	saya dua	anak saya = my child. With a number, no repeat: dua anak.
+cards	id.c0329	note	bapak	Neutral and polite. At home many say bapak, papa or abah.
+cards	id.c0330	note	Tidak ada	Tidak ada masalah = No problem.
+cards	id.c0331	note	laki	Signs, news and polite speech. Everyday: laki-laki.
+cards	id.c0332	note	perempuan	Signs, news and polite speech. Everyday: perempuan.
+cards	id.c0333	note	caranya Bagaimana	caranya = the way to do it: Bagaimana caranya?
+cards	id.c0334	note	Sudirman	Jalan Sudirman = Sudirman Street. jalan-jalan = to go out, stroll.
+cards	id.c0335	note	di seluruh	di seluruh dunia = all over the world.
+cards	id.c0337	note	saya	teman saya = my friend. Casual spelling and sound: temen.
+cards	id.c0338	note	cewek	Common in writing and songs. Casual: cewek.
+cards	id.c0339	note	tiga	jam tiga = three o'clock; tiga jam = three hours.
+cards	id.c0341	note	saya	nama saya = my name: the owner comes after the noun.
+cards	id.c0342	note	besar	kota besar = a big city. Downtown: pusat kota.
+cards	id.c0343	note	Indonesia kereta	In Indonesia kereta is a train, not a car.
+cards	id.c0344	note	sayang	Strong and romantic. Fond love for family or a partner: sayang.
+cards	id.c0345	note	Rasanya enak	Rasanya enak. = It tastes good.
+cards	id.c0347	note	saya	keluarga saya = my family.
+cards	id.c0349	note	kerja Apa Anda	Root kerja. Apa pekerjaan Anda? = What do you do? (formal)
+cards	id.c0350	note	ke	ke sekolah = to school. The verb: bersekolah.
+cards	id.c0351	note	depan	bulan depan = next month.
+cards	id.c0352	note	Tolong tutup pintunya	Tolong tutup pintunya. = Please close the door.
+cards	id.c0353	note	sakit	Feelings live in the hati: sakit hati = hurt feelings. The organ that pumps is jantung.
+cards	id.c0354	note	Ini bagus	Root sempat. Ini kesempatan bagus.
+cards	id.c0355	note	ke	ke dokter = to the doctor. In address: Dok.
+cards	id.c0356	note	Saya di Jakarta bekerja	Casual: also the verb, Saya kerja di Jakarta. Careful: bekerja.
+cards	id.c0357	note	dia	Also "says": kata dia = he says, she says.
+cards	id.c0358	note	Apa	Apa kabar? = literally "what news?"
+cards	id.c0359	note	tidur mandi	kamar tidur = bedroom; kamar mandi = bathroom.
+cards	id.c0360	note	makan Indonesia	Root makan. makanan Indonesia = Indonesian food.
+cards	id.c0361	note	saya	buku saya = my book.
+cards	id.c0362	note	hah	A mobile phone is usually HP, said "hah-peh".
+cards	id.c0363	note	Ada	Root tanya. Ada pertanyaan? = Any questions?
+cards	id.c0365	note	tangan	Like tangan, one word for the whole limb.
+cards	id.c0366	note	saya	negara saya = my country.
+cards	id.c0368	note	telepon	nomor telepon = phone number.
+cards	id.c0369	note	naik	naik pesawat = to fly.
+cards	id.c0370	note	Pak Bu	Pak Guru, Bu Guru = sir, ma'am (to a teacher).
+cards	id.c0371	note	nonton	nonton film = to watch a movie (casual).
+cards	id.c0372	note	memesan	Also the root of memesan (to order).
+cards	id.c0374	note	Indonesia	bahasa Indonesia = Indonesian (the language).
+cards	id.c0375	note	di	di kantor = at the office.
+cards	id.c0376	note	pria cowok	Everyday. Formal: pria. Casual: cowok.
+cards	id.c0378	note	wanita	The everyday neutral word. Formal: wanita.
+cards	id.c0379	note	saya	barang saya = my things.
+cards	id.c0380	note	kabar	News of a person: kabar.
+cards	id.c0383	note	Indonesia	lagu Indonesia = an Indonesian song.
+cards	id.c0385	note	batuk	obat batuk = cough medicine.
+cards	id.c0388	note	saya	istri saya = my wife.
+cards	id.c0389	note	laki Kak	No word for sex: kakak laki-laki = older brother. Kak = you (to a young person).
+cards	id.c0390	note	dua	lantai dua = the second floor.
+cards	id.c0392	note	naik	naik kereta = to take the train.
+cards	id.c0393	note	Fotonya bagus	Fotonya bagus! = Nice photo!
+cards	id.c0395	note	rasa	Root rasa.
+cards	id.c0396	note	Ada	Ada acara? = Do you have plans?
+cards	id.c0398	note	buku	toko buku = bookstore.
+cards	id.c0400	note	hitam susu	kopi hitam = black coffee; kopi susu = coffee with milk.
+cards	id.c0402	note	minum	Root minum.
+cards	id.c0403	note	di atas	di atas meja = on the table.
+cards	id.c0404	note	saya cowok cewek	Same word for both: pacar saya. Casual: cowok saya, cewek saya.
+cards	id.c0410	note	baru	baju baru = new clothes.
+cards	id.c0411	note	adalah	Tamu adalah raja = the guest is king.
+cards	id.c0413	note	saya	suami saya = my husband.
+cards	id.c0414	note	harganya	harganya = the price.
+cards	id.c0418	note	saya	tas saya = my bag.
+cards	id.c0419	note	di	Also the countryside: di desa.
+cards	id.c0424	note	perempuan	adik perempuan = younger sister. Dik = you (to a younger person).
+cards	id.c0425	note	nasi sate	nasi ayam, sate ayam.
+cards	id.c0426	note	es panas	es teh = iced tea; teh panas = hot tea.
+cards	id.c0427	note	kereta	stasiun kereta = train station.
+cards	id.c0428	note	sebuah	Also a counting word for things: sebuah.
+cards	id.c0432	note	saya sakit	Badan saya sakit. = My body aches.
+cards	id.c0433	note	libur	Root libur (day off).
+cards	id.c0434	note	pagi	pasar pagi = morning market.
+cards	id.c0436	note	mahasiswa	A college student: mahasiswa.
+cards	id.c0437	note	panas	Cuacanya panas. = The weather is hot.
+cards	id.c0438	note	ojek	The usual way to get around. A motorbike taxi: ojek.
+cards	id.c0441	note	Tidak pakai	Tidak pakai gula. = No sugar, please.
+cards	id.c0444	note	Selamat	Selamat ulang tahun! = Happy birthday!
+cards	id.c0445	note	bahasa Inggris	Bisa bahasa Inggris? = Do you speak English?
+cards	id.c0446	note	kopi adalah	Ada kopi? = Is there coffee? / Do you have coffee? Not adalah.
+cards	id.c0447	note	kenal	Casual: tau. To know a person: kenal. (tahu is also tofu.)
+cards	id.c0448	note	Saya pergi	Straight before the verb: Saya harus pergi.
+cards	id.c0449	note	Ibu kota Indonesia Jakarta	Careful speech and writing: Ibu kota Indonesia adalah Jakarta. Never before an adjective.
+cards	id.c0450	note	mau	A little more careful than mau.
+cards	id.c0451	note	ke pasar	ke + place: pergi ke pasar.
+cards	id.c0452	note	Saya dua kucing	Saya punya dua kucing.
+cards	id.c0453	note	bikin	Root laku. Careful; everyday speech often uses bikin or leaves it out.
+cards	id.c0454	note	Saya kopi makan	Everyday: Saya mau kopi. No "to" before a verb: mau makan.
+cards	id.c0455	note	Uang	Casual: balik. Uang kembali = change (money).
+cards	id.c0456	note	Kapan	Kapan datang? = When did you arrive?
+cards	id.c0457	note	jadi	Casual: jadi.
+cards	id.c0458	note	lihat Lihat	Root lihat. Lihat! = Look! Casual: liat.
+cards	id.c0459	note	Apa yang	Apa yang terjadi? = What happened?
+cards	id.c0460	note	mengatakan	Everyday. Careful: berkata, mengatakan.
+cards	id.c0462	note	buat bikin	Root buat. Casual: bikin.
+cards	id.c0463	note	saya	HP saya mati. = My phone is dead. Of a person, politely: meninggal.
+cards	id.c0464	note	dapat	Root dapat. Also mendapatkan.
+cards	id.c0465	note	kata bilang	Root kata. In speech: bilang.
+cards	id.c0466	note	saya	Also "life": hidup saya = my life.
+cards	id.c0467	note	Saya istirahat	Saya perlu istirahat. = I need to rest.
+cards	id.c0468	note	tunggu Tunggu sebentar	Root tunggu. Tunggu sebentar! = Wait a moment!
+cards	id.c0469	note	Silakan	Silakan masuk. = Please come in.
+cards	id.c0470	note	mendengarkan	Root dengar. To listen: mendengarkan.
+cards	id.c0471	note	Saya	Root pikir. Saya pikir… = I think…
+cards	id.c0472	note	bicara	Root bicara, used alone too. Casual: ngomong.
+cards	id.c0473	note	Saya kopi	Saya suka kopi. Also "often" in casual speech.
+cards	id.c0474	note	Saya tidak	Casual: ngerti. Saya tidak mengerti. = I don't understand.
+cards	id.c0476	note	ketemu	Root temu. Casual: ketemu.
+cards	id.c0477	note	sama kamu	percaya sama kamu = trust you.
+cards	id.c0478	note	Sudah	Sudah makan? = Have you eaten? (a common greeting)
+cards	id.c0479	note	Saya di Jakarta	Saya tinggal di Jakarta.
+cards	id.c0480	note	kerja	Root kerja; be-, not ber-, before kerja. Casual: kerja.
+cards	id.c0481	note	di sini Pak	Berhenti di sini, Pak. = Stop here, please.
+cards	id.c0482	note	Kita sekarang	Kita mulai sekarang. = We start now.
+cards	id.c0483	note	ambil Saya yang ini	Root ambil. Saya ambil yang ini. = I'll take this one.
+cards	id.c0484	note	saya duduk di sini	Boleh saya duduk di sini? = May I sit here?
+cards	id.c0485	note	rasa Saya capek	Root rasa. Saya merasa capek. = I feel tired.
+cards	id.c0486	note	cari	Root cari. Casual: nyari.
+cards	id.c0487	note	Saya	Saya butuh bantuan. = I need help.
+cards	id.c0488	note	coba Coba ini	Root coba. Coba ini! = Try this!
+cards	id.c0489	note	bawa Bawa payung	Root bawa. Bawa payung! = Bring an umbrella!
+cards	id.c0491	note	tempat	tempat tidur = bed.
+cards	id.c0492	note	Saya	No word for "home" needed: Saya pulang.
+cards	id.c0493	note	minta Minta air putih	Root minta: Minta air putih. = Some water, please.
+cards	id.c0494	note	bantu Tolong saya	Root bantu. Tolong bantu saya. = Please help me.
+cards	id.c0496	note	Saya kunci	Saya kehilangan kunci. = I lost my key.
+cards	id.c0497	note	Boleh saya	Boleh saya ikut? = Can I come too?
+cards	id.c0498	note	Sudah	Sudah selesai? = Are you done?
+cards	id.c0499	note	Silakan	Silakan duduk. = Please have a seat.
+cards	id.c0500	note	obat	Also "to take" a medicine: minum obat.
+cards	id.c0501	note	pakai	Root guna. In speech: pakai.
+cards	id.c0502	note	jalan kaki	Root jalan. Casual: jalan kaki.
+cards	id.c0503	note	main bola	Root main, used alone in speech: main bola.
+cards	id.c0504	note	cinta	jatuh cinta = to fall in love.
+cards	id.c0505	note	Boleh saya	Root tanya. Boleh saya bertanya? = May I ask something?
+cards	id.c0507	note	lari	Root lari, used alone in speech.
+cards	id.c0508	note	Sudah Belum	Sudah menikah? Belum. = Married? Not yet.
+cards	id.c0509	note	bahasa Indonesia	belajar bahasa Indonesia.
+cards	id.c0510	note	Jangan	Jangan lupa! = Don't forget!
+cards	id.c0511	note	ojek kereta	naik ojek, naik kereta.
+cards	id.c0512	note	di sini	Turun di sini. = I'll get off here.
+cards	id.c0513	note	diri	Root diri.
+cards	id.c0514	note	buka Tokonya	Root buka. Tokonya buka. = The shop is open.
+cards	id.c0516	note	sampai datang	Signs and announcements. Everyday: sampai or datang.
+cards	id.c0517	note	pakai Pakai gula	Root pakai: the p drops after mem-. Pakai gula? = With sugar?
+cards	id.c0519	note	pesan	Root pesan. Casual: pesan.
+cards	id.c0520	note	kenal Saya dia	Root kenal. Saya kenal dia. = I know him.
+cards	id.c0521	note	bayar Bayar di sini	Root bayar. Bayar di sini? = Do I pay here?
+cards	id.c0522	note	tutup Tokonya	Root tutup: the t drops. Tokonya tutup. = The shop is closed.
+cards	id.c0523	note	beli	Root beli. Casual: beli.
+cards	id.c0526	note	telepon	Root telepon: the t drops. Casual: nelpon.
+cards	id.c0528	note	kirim	Root kirim: the k drops.
+cards	id.c0529	note	musik	Root dengar. mendengarkan musik.
+cards	id.c0530	note	ke Bali	pindah ke Bali = move to Bali.
+cards	id.c0532	note	ketawa	Root tawa. Casual: ketawa.
+cards	id.c0533	note	nonton	Root tonton. Casual: nonton.
+cards	id.c0536	note	Saya jam tujuh	Saya berangkat jam tujuh.
+cards	id.c0537	note	Saya di Amerika	Saya lahir di Amerika.
+cards	id.c0539	note	renang	Root renang.
+cards	id.c0540	note	masak	Root masak, used alone in speech.
+cards	id.c0542	note	Saya ya	Root antar. Saya antar, ya. = I'll take you.
+cards	id.c0544	note	sewa	Root sewa: the s drops after meny-.
+cards	id.c0545	note	cuci piring	Root cuci. mencuci piring = wash the dishes.
+cards	id.c0546	note	jemput	Root jemput.
+cards	id.c0547	note	di hotel	Root inap. menginap di hotel.
+cards	id.c0548	note	ngobrol	Root obrol. Casual: ngobrol.
+cards	id.c0551	note	sekali enak	Bagus sekali! = Very good! For food: enak.
+cards	id.c0552	note	yang	yang lain = the other one, others.
+cards	id.c0553	note	Saya datang	Also "just": Saya baru datang. = I just arrived.
+cards	id.c0554	note	dengan	sama dengan = the same as. Casual: also "with".
+cards	id.c0555	note	Maaf nomor	Maaf, salah nomor. = Sorry, wrong number.
+cards	id.c0557	note	tua Sudah	Not for people: tua. Sudah lama? = Has it been long?
+cards	id.c0558	note	uang	uang kecil = small bills.
+cards	id.c0559	note	membaca	Also "to like": senang membaca.
+cards	id.c0560	note	cuaca	cuaca buruk = bad weather.
+cards	id.c0562	note	keren	Casual praise too: Gila, keren! = Wow, that's amazing!
+cards	id.c0563	note	Kepala saya	Kepala saya sakit. = My head hurts.
+cards	id.c0564	note	sama anjing	takut sama anjing = afraid of dogs.
+cards	id.c0565	note	saja	biasa saja = nothing special.
+cards	id.c0567	note	dari sini	Jauh dari sini? = Is it far from here?
+cards	id.c0570	note	Bapak Ibu	Polite to elders: Bapak, Ibu, not tua.
+cards	id.c0571	note	saja	Tenang saja. = Don't worry.
+cards	id.c0573	note	susah	Everyday: susah.
+cards	id.c0574	note	sini	dekat sini = near here.
+cards	id.c0576	note	Bicara	Bicara keras = to speak loudly.
+cards	id.c0579	note	cantik ganteng	For a person's looks: cantik, ganteng.
+cards	id.c0580	note	kamar	kamar kosong = a free room.
+cards	id.c0581	note	sama saya	marah sama saya = angry with me.
+cards	id.c0585	note	Hari ini	Also of the weather: Hari ini panas.
+cards	id.c0588	note	es air	es = ice; air dingin = cold water.
+cards	id.c0590	note	kopi	kopi hitam = black coffee.
+cards	id.c0592	note	baju	After the noun: baju merah.
+cards	id.c0593	note	air	air putih = drinking water.
+cards	id.c0594	note	ramai	Of a person. A busy place: ramai.
+cards	id.c0595	note	rambut	rambut panjang = long hair.
+cards	id.c0598	note	Saya	No word for "am": Saya lapar.
+cards	id.c0605	note	Semoga	Semoga sehat! = Get well!
+cards	id.c0606	note	kurang bagus	Strong about people: say kurang bagus about things.
+cards	id.c0607	note	Terlalu	Terlalu mahal. = Too expensive.
+cards	id.c0611	note	ya	Sabar, ya. = Be patient.
+cards	id.c0615	note	eh	The e is strong (eh).
+cards	id.c0623	note	Orang Indonesia	Orang Indonesia ramah.
+cards	id.c0627	note	lelah	In writing: lelah.
+cards	id.c0628	note	Tidak ya	Tidak pedas, ya. = Not spicy, please.
+cards	id.c0629	note	Saya keluar	Also "not in the mood": Saya malas keluar.
+cards	id.c0633	note	Besok saya ke Bali	Often left out when the time is clear: Besok saya ke Bali.
+cards	id.c0634	note	udah makan	Casual: udah. Also says something is done: Sudah makan.
+cards	id.c0635	note	aja Air putih	Casual: aja. Air putih saja. = Just water.
+cards	id.c0636	note	dua	Before the word: hanya dua = only two.
+cards	id.c0638	note	di ke	di sini = here (at); ke sini = (to) here.
+cards	id.c0639	note	Sekali apa	Sekali lagi! = Once more! Casual: also "right now" (Lagi apa?).
+cards	id.c0640	note	murah	lebih murah = cheaper.
+cards	id.c0642	note	besar sekali	sangat besar. After it: besar sekali.
+cards	id.c0643	note	Saya	After the word it adds to: Saya juga. = Me too.
+cards	id.c0644	note	ke Bali	Pernah ke Bali? = Have you been to Bali?
+cards	id.c0645	note	Saya di rumah	Saya masih di rumah.
+cards	id.c0646	note	di	di sana = over there.
+cards	id.c0647	note	Saya makan	Saya sedang makan. The verb never changes.
+cards	id.c0648	note	enak lagi	enak sekali = really delicious; sekali lagi = once more.
+cards	id.c0649	note	Saya datang	Saya datang sendiri. = I came alone.
+cards	id.c0652	note	saja	Tentu saja! = Of course!
+cards	id.c0653	note	Sudah	Sudah cukup. = That's enough.
+cards	id.c0656	note	mahal	Terlalu mahal. = Too expensive.
+cards	id.c0657	note	Dia sabar	Dia tetap sabar. = She stays patient.
+cards	id.c0658	note	sama	Also bersama-sama.
+cards	id.c0660	note	Saya mandi	Saya mandi dulu. = I'll shower first.
+cards	id.c0661	note	lalu terus	Everyday: lalu, terus.
+cards	id.c0662	note	Jalan	Jalan terus. = Keep going.
+cards	id.c0664	note	mahal	Memang mahal. = It really is expensive.
+cards	id.c0665	note	Tunggu	Tunggu sebentar. = Wait a moment.
+cards	id.c0666	note	saja Sampai	Nanti saja. = Later. Sampai nanti! = See you later!
+cards	id.c0667	note	enak	paling enak = the most delicious.
+cards	id.c0668	note	pagi	tadi pagi = this morning (past).
+cards	id.c0669	note	hanya	Casual. Careful: hanya.
+cards	id.c0674	note	manis	kurang manis = not sweet enough.
+cards	id.c0675	note	pedas	agak pedas = a bit spicy.
+cards	id.c0676	note	biasa	Root biasa.
+cards	id.c0678	note	di	di situ = there, where you are.
+cards	id.c0680	note	Pak	Pelan-pelan, Pak. = Slowly, please.
+cards	id.c0682	note	enak sekali	After the adjective: enak banget. Standard: sekali.
+cards	id.c0683	note	orang tinggi merah	orang yang tinggi = the person who is tall; yang merah = the red one.
+cards	id.c0684	note	buku	After a noun: buku ini = this book. First: Ini buku. = This is a book.
+cards	id.c0685	note	buku	After a noun: buku itu = that book, the book.
+cards	id.c0686	note	itu Siapa nama Anda	Apa itu? = What's that? Never for names: Siapa nama Anda?
+cards	id.c0687	note	rumah	For people: rumah mereka = their house.
+cards	id.c0689	note	aku	Right with everyone. Casual: aku. The same word for "I", "me" and "my".
+cards	id.c0690	note	orang	semua orang = everyone.
+cards	id.c0691	note	Bapak Ibu	To friends or children. To older people: Bapak-Bapak, Ibu-Ibu.
+cards	id.c0692	note	mobil	Also for names and owners: mobil siapa = whose car.
+cards	id.c0694	note	yang di	yang mana = which one; di mana = where.
+cards	id.c0695	note	berapa	Semuanya berapa? = How much for everything?
+cards	id.c0696	note	dia	Mostly in writing and news. In speech: dia.
+cards	id.c0697	note	Bapak Terima kasih	Short for Bapak, used to his face: Terima kasih, Pak.
+cards	id.c0699	meaning	tidak	anything; nothing (with tidak)
+cards	id.c0699	note	Tidak	Tidak apa-apa. = It's nothing.
+cards	id.c0700	note	bukuku buku saya	bukuku = my book. With friends; careful: buku saya.
+cards	id.c0701	note	saya sendiri	diri saya = myself. By yourself: sendiri.
+cards	id.c0702	note	bukumu kamu	bukumu = your book. Goes with kamu.
+cards	id.c0703	note	bukunya	bukunya = his book, her book, or the book.
+cards	id.c0704	note	Ibu Permisi	Short for Ibu, used to her face: Permisi, Bu.
+cards	id.c0705	note	Ini saya	Ini milik saya. = This is mine.
+cards	id.c0707	note	kakak	Shops and online, to a young adult. From kakak (older sibling).
+cards	id.c0708	note	guru saya	For an older or important person: Beliau guru saya.
+cards	id.c0709	meaning	tidak	anyone; nobody (with tidak)
+cards	id.c0709	note	Tidak ada	Tidak ada siapa-siapa. = There's nobody.
+cards	id.c0710	note	kamu	Very common in subtitles and songs. In speech, kamu is safer.
+cards	id.c0711	note	rumah	Written apart before a place: di rumah. Joined only in di- verbs.
+cards	id.c0712	note	kamu	untuk kamu = for you.
+cards	id.c0713	note	sama teman	Casual: sama. dengan teman = with a friend.
+cards	id.c0714	note	Saya Amerika	Saya dari Amerika.
+cards	id.c0715	note	Saya kantor	Saya ke kantor. = I'm going to the office.
+cards	id.c0716	note	ini	seperti ini = like this.
+cards	id.c0717	note	bahasa Indonesia	dalam bahasa Indonesia = in Indonesian.
+cards	id.c0718	note	hari Senin	pada hari Senin = on Monday. Careful speech and writing.
+cards	id.c0719	note	buku Bali	buku tentang Bali = a book about Bali.
+cards	id.c0720	note	besok	sampai besok = until tomorrow. Also "to arrive".
+cards	id.c0721	note	di dibuat ibu saya	With a di- verb: dibuat oleh ibu saya = made by my mother.
+cards	id.c0722	note	Terima kasih	Terima kasih atas bantuannya. = Thanks for your help.
+cards	id.c0723	note	dua minggu	selama dua minggu = for two weeks.
+cards	id.c0724	note	kopi gula	kopi tanpa gula = coffee without sugar.
+cards	id.c0725	note	Terima kasih ke sama	Terima kasih kepada… In speech: ke or sama.
+cards	id.c0726	note	saya	bagi saya = for me, as far as I'm concerned.
+cards	id.c0727	note	tahun lalu	sejak tahun lalu = since last year.
+cards	id.c0728	note	jam tujuh	sekitar jam tujuh = around seven.
+cards	id.c0729	note	lebih baik dari	lebih baik daripada = better than. Casual: dari.
+cards	id.c0730	note	Bandung	On signs and announcements: menuju Bandung.
+cards	id.c0731	note	Jakarta dan Bandung	antara Jakarta dan Bandung.
+cards	id.c0732	note	Jakarta	lewat Jakarta = via Jakarta. Also "past" in times.
+cards	id.c0733	note	saya	Menurut saya… = In my opinion…
+cards	id.c0734	note	rumah	di luar rumah = outside the house.
+cards	id.c0735	note	tas	di dalam tas = in the bag.
+cards	id.c0736	note	meja	di bawah meja = under the table.
+cards	id.c0737	note	meja	di atas meja = on the table.
+cards	id.c0738	note	rumah	di belakang rumah = behind the house.
+cards	id.c0740	note	hotel	di sebelah hotel = next to the hotel.
+cards	id.c0741	note	Teh kopi	Teh dan kopi. Lists: A, B, dan C.
+cards	id.c0742	note	tetapi	Spoken and written; the careful form is tetapi.
+cards	id.c0743	note	kalau	Everyday: kalau.
+cards	id.c0744	note	ini	saat ini = at the moment.
+cards	id.c0745	note	Teh kopi	Teh atau kopi? = Tea or coffee?
+cards	id.c0746	note	Saya tahu dia sibuk	Often left out in speech: Saya tahu (bahwa) dia sibuk.
+cards	id.c0747	note	Kapan	Never for questions; "When?" is Kapan?
+cards	id.c0748	note	makan	setelah makan = after eating.
+cards	id.c0749	note	makan	sebelum makan = before eating.
+cards	id.c0751	note	supaya	Written and formal. In speech: supaya.
+cards	id.c0752	note	walaupun	Careful; same meaning as walaupun.
+cards	id.c0754	note	Saya belajar bisa bicara	Saya belajar supaya bisa bicara. = I study so I can talk.
+cards	id.c0756	note	makan nonton	makan sambil nonton TV.
+cards	id.c0764	note	setelah	Same as setelah, a little more spoken.
+cards	id.c0765	note	karena	Very common in speech. Careful: karena.
+cards	id.c0766	note	begitu	Oh, begitu. = Oh, I see.
+cards	id.c0767	note	makan	Includes you: Ayo makan! = Let's eat!
+cards	id.c0768	note	Permisi Pak	To a friend. To get a stranger's attention: Permisi, Pak.
+cards	id.c0770	note	ya	Short for selamat, ya! On good news: a new job, a wedding.
+cards	id.c0772	note	sih	Disbelief. Casual: Masa sih?
+cards	id.c0773	meaning	oh	ah; oh (dismissing)
+cards	id.c0773	note	biasa saja Oh	Ah, biasa saja. = Oh, it's nothing.
+cards	id.c0774	meaning	oh	oh my God; good grief
+cards	id.c0775	note	itu dia	Nah, itu dia! = There it is!
+cards	id.c0776	meaning	oh	hey; oh (remembering)
+cards	id.c0776	note	kamu sudah makan	Eh, kamu sudah makan? Starts a new thought.
+cards	id.c0777	note	Maaf	Did not hear or cannot believe it. Polite: Maaf?
+cards	id.c0778	meaning	oh	oh my goodness
+cards	id.c0779	note	bagus	Surprise or delight: Wah, bagus! The most common reaction word.
+cards	id.c0780	note	dia sakit	Sympathy: Kasihan, dia sakit.
+cards	id.c0782	meaning	oh	ouch; oh no
+cards	id.c0782	note	Waduh	Pain, worry or annoyance. Stronger: Waduh!
+cards	id.c0783	note	Semoga	After a wish or prayer: Semoga sukses! Amin.
+cards	id.c0786	meaning	oh	ugh; oh dear
+cards	id.c0787	note	ayo Makan	Softer than ayo: Makan, yuk!
+cards	id.c0789	meaning	oh	uh-oh; yikes
+cards	id.c0794	note	Kamu lapar	Kamu lapar, ya? = You're hungry, right? Softens a request too.
+cards	id.c0795	note	Saya guru Ini kopi	Saya bukan guru. Ini kopi, bukan? = This is coffee, isn't it?
+cards	id.c0796	note	gimana kabarnya	Casual: gimana. Bagaimana kabarnya? = How are you doing?
+cards	id.c0797	note	lupa	Commands only: Jangan lupa! = Don't forget!
+cards	id.c0798	note	Anda lapar	Formal and written: Apakah Anda lapar? In speech, just raise your voice.
+cards	id.c0799	note	orang	Before the noun: banyak orang. Never banyak orang-orang.
+cards	id.c0800	note	hari	beberapa hari = a few days.
+cards	id.c0801	note	kenapa	Everyday: kenapa.
+cards	id.c0802	note	toilet ke dari	Di mana toilet? Where to: ke mana; where from: dari mana.
+cards	id.c0803	note	gula	sedikit gula = a little sugar.
+cards	id.c0804	note	hari	setiap hari = every day. Also tiap.
+cards	id.c0805	note	hari	hari pertama = the first day. Ordinals follow the noun.
+cards	id.c0806	note	tamu	Before a noun for people: para tamu = the guests.
+cards	id.c0807	note	harganya	Berapa harganya? = How much is it?
+cards	id.c0808	note	hari	hari terakhir = the last day.
+cards	id.c0809	note	dunia	seluruh dunia = the whole world.
+cards	id.c0810	note	Pak	Ke mana, Pak? = Where to, sir?
+cards	id.c0811	note	anak	anak kedua = second child; kedua anak = both children.
+cards	id.c0812	note	ke	ke- + number: keempat, kelima…
+cards	id.c0813	note	apa tidak nggak	Songs, writing and set phrases (tak apa). In speech: tidak, nggak.
+cards	id.c0814	note	kosong	Phone numbers: also kosong.
+cards	id.c0815	note	ribu ratus belas seribu	Before ribu, ratus, belas it becomes se-: seribu.
+cards	id.c0819	note	ribu	lima ribu = five thousand.
+cards	id.c0828	note	Agustus	tujuh belas Agustus = Independence Day.
+cards	id.c0831	note	tiga	puluh = tens: tiga puluh = thirty.
+cards	id.c0832	note	hari	Usually with hari: hari Selasa.
+cards	id.c0833	note	hari	hari Rabu.
+cards	id.c0834	note	hari	hari Kamis.
+cards	id.c0835	note	malam Minggu	malam Minggu = Saturday night (the night before Sunday).
+cards	id.c0836	note	jam tujuh	Until about 11 a.m.: jam tujuh pagi.
+cards	id.c0839	note	jam delapan	After dark: jam delapan malam.
+cards	id.c0840	note	kemarin hari ini besok	kemarin, hari ini, besok, lusa.
+cards	id.c0841	note	orang dua guru teman	se- (one) + orang. Two: dua orang guru. Very common: seorang teman.
+cards	id.c0842	note	buah rumah dua tas	se- + buah. For most objects: sebuah rumah, dua buah tas.
+cards	id.c0843	note	kue	se- + potong. sepotong kue.
+cards	id.c0844	note	sepatu	se- + pasang. sepasang sepatu.
+cards	id.c0845	note	kucing tiga ayam	seekor kucing = a cat; tiga ekor ayam = three chickens.
+cards	id.c0846	note	air putih	se- + gelas. segelas air putih.
+cards	id.c0847	note	kopi	se- + cangkir. secangkir kopi.
+cards	id.c0848	note	air	se- + botol. sebotol air.
+cards	id.c0849	note	kertas dua tiket	se- + lembar. selembar kertas, dua lembar tiket.
+cards	id.c0850	note	pohon	se- + batang. For long thin things: sebatang pohon.
+cards	id.c0851	note	dua sate	se- + porsi. Ordering: dua porsi sate.
+cards	id.c0852	note	bakso	se- + mangkuk. semangkuk bakso.
+cards	id.c0853	note	rambut	se- + helai. sehelai rambut.
+cards	id.c0854	note	piring nasi goreng	se- + piring. sepiring nasi goreng.
+cards	id.c0855	note	nasi	se- + bungkus. sebungkus nasi.
+cards	id.c0856	note	telur dua obat	se- + butir. sebutir telur, dua butir obat.
+cards	id.c0857	note	dua mangga	se- + biji (seed). dua biji mangga.
+cards	id.c0858	meaning	kilo	a kilo of
+cards	id.c0858	note	kilo jeruk	se- + kilo. sekilo jeruk.
+cards	id.c0859	note	Bapak kamu	To the host. To an older man: Masakan Bapak; to a friend: Masakan kamu. masakan = cooking, the dishes.
+cards	id.c0860	note	Bapak	pintar masak = good at cooking; ya at the end makes it warm. To a man: Bapak pintar masak, ya.
+cards	id.c0863	note	Bapak Ibu	jago = skilled, a friendly everyday word. To an older person: Wah, Bapak jago! or Wah, Ibu jago!
+cards	id.c0864	note	Bagus sekali	Casual and hugely common, for food, work or a goal. With older people: Bagus sekali.
+cards	id.c0866	note	nya	For work, a photo, a repair. -nya = the.
+cards	id.c0868	note	Bapak Ibu	Effort is praised a lot. To an older person: Bapak rajin sekali or Ibu rajin sekali.
+cards	id.c0869	note	Bapak Ibu	Praise for effort, even before the result. To an older person: Bapak or Ibu sudah bekerja keras.
+cards	id.c0870	note	Bapak Ibu	baik = kind here (also good, fine). To an older person: Bapak baik sekali or Ibu baik sekali.
+cards	id.c0871	note	Ibu	Friendliness is prized. To a woman: Ibu ramah sekali.
+cards	id.c0873	note	Bapak	A warm, very common compliment to parents. To a father: Anak Bapak pintar sekali.
+cards	id.c0874	note	nya	To the parent. -nya = the: no choice of "you" needed.
+cards	id.c0875	note	Bapak	nyaman = comfortable, cozy: what a guest naturally says. To a man: Rumah Bapak nyaman sekali.
+cards	id.c0876	note	nya	rapi = neat, tidy. -nya = the house, so no "you" is needed.
+cards	id.c0877	note	Bapak Ibu	cocok = it suits you; pakai = wearing. To an older person: Bapak or Ibu cocok pakai batik.
+cards	id.c0878	note	nya	Praise the clothes, not the body. -nya = the.
+cards	id.c0880	note	nya	You'll hear this often, even after a few words. -nya stands for "your", so no choice of "you" is needed.
+cards	id.c0882	meaning	Oh	Oh, it's nothing special.
+cards	id.c0882	note	aja	The usual reply to praise: Indonesians tend to play a compliment down, not simply accept it. Casual: Ah, biasa aja.
+cards	id.c0883	meaning	Oh	Oh, not really.
+cards	id.c0883	note	nggak	A gentle, modest denial. Casual: Ah, nggak juga.
+cards	id.c0884	meaning	Oh	Oh, you're too kind. (to an older woman)
+cards	id.c0884	note	oh Bapak	Literally "oh, you can say anything". Smiling, modest. To a man: Ah, Bapak bisa saja.
+cards	id.c0887	note	cantik banget sekali	To or about a man. For a woman: cantik. Mild alone, warm with banget or sekali.
+cards	id.c0893	note	Kamu	For anyone. Kamu menarik can mean either: warm.
+cards	id.c0896	note	Kamu	For a person or an outing: Kamu seru! Mild. Casual.
+cards	id.c0897	note	kamu tersenyum	Your smile: senyummu, senyum kamu. The verb: tersenyum. Safe to praise. Mild.
+cards	id.c0898	note	kamu	Your eyes: mata kamu. Warm.
+cards	id.c0899	note	kamu	Your voice: suara kamu. Mild.
+cards	id.c0900	note	kamu	Your hair: rambut kamu. Mild.
+cards	id.c0901	note	kamu	gaya kamu = your style. Mild.
+cards	id.c0903	note	rindu	Casual. Standard: rindu. For someone you already see. Warm.
+cards	id.c0904	note	Aku dia	Casual: Aku naksir dia. = I have a crush on him / her. Warm.
+cards	id.c0905	note	ngopi makan	A first date is often just ngopi (coffee) or makan. Warm.
+cards	id.c0906	note	belum ketemu	Common in songs and family talk: belum ketemu jodoh = not found the one yet.
+cards	id.c0907	note	Ah Oh	Ah, gombal! = Oh, you smooth talker! Teasing, not rude.
+cards	id.c0908	note	perempuan	Casual for a young woman; standard: perempuan. Not rude among peers.
+cards	id.c0909	note	laki	Casual for a young man; standard: laki-laki.
+cards	id.c0910	note	ganteng	To a woman. To a man: Kamu ganteng. Mild to warm.
+cards	id.c0911	note	ganteng	To a woman on a date. To a man: Kamu ganteng sekali malam ini. Warm.
+cards	id.c0912	note	sekali	Casual: banget (standard sekali). To a woman you know. Warm.
+cards	id.c0913	note	cantik	To a man. To a woman: Kamu cantik. Mild to warm.
+cards	id.c0918	note	membuat tertawa	Casual: bikin (make), ketawa (laugh); standard: membuat, tertawa. Warm.
+cards	id.c0923	note	cantik	indah, not cantik, for eyes. Anyone to anyone. Warm to bold.
+cards	id.c0926	note	mu	-mu = your (to a friend). Warm.
+cards	id.c0932	note	rindu	Casual: kangen (standard rindu). For someone you are already seeing. Warm to bold.
+cards	id.c0934	note	Indonesia	A real confession; a big step in Indonesia. Bold.
+cards	id.c0941	note	bertemu	Casual: ketemu (standard bertemu). Warm.
+cards	id.c0943	meaning	Oh	Oh, you smooth talker!
+cards	id.c0944	note	terima kasih	Casual: makasih (standard terima kasih). Returns the compliment.
+dialog	id.g004	tr	Kuta	Shall we go to the beach tomorrow? / Sure, let's just go to Kuta beach.
+dialog	id.g006	tr	Budi Emma	Good morning, Mr. Budi. / Good morning, Emma. How are you?
+dialog	id.g007	tr	Rina	Hi, Rina! How are you? / Fine, thanks. You?
+dialog	id.g008	tr	Sari Emma	Thank you so much, Mrs. Sari. / You're welcome, Emma.
+dialog	id.g010	tr	Oh	Excuse me, sir, I need to get past. / Oh, go ahead.
+dialog	id.g013	tr	Emma	What's your name? / My name is Emma.
+dialog	id.g016	tr	Indonesia	How long have you been in Indonesia? / Only a week so far.
+dialog	id.g017	tr	Surabaya Bandung	I'm from Surabaya. And you? / I'm from the US, but I live in Bandung.
+dialog	id.g020	tr	Rina	Who's this? / This is my older sister, Rina.
+dialog	id.g021	tr	Medan	Where do your parents live? / My parents live in Medan.
+dialog	id.g023	tr	warung	Where shall we eat? / Let's just go to that warung.
+dialog	id.g045	tr	warung	Where are you going? / To the warung. I haven't eaten yet.
+dialog	id.g052	tr	Ubud	Is the Ubud market far from here? / It's not far. Ten minutes on foot.
+dialog	id.g055	tr	Bali	Where are you going for the holidays? / I want to go to Bali.
+dialog	id.g060	tr	Ubud Kuta	From Ubud to Kuta, how long does it take to get there? / About an hour by car.
+dialog	id.g062	tr	Ayu	What's wrong, Ayu? / I have a bad headache.
+dialog	id.g067	tr	Jakarta	Where do you work? / I work in an office, in Jakarta.
+dialog	id.g068	tr	bank Surabaya	Where do you work, sir? / I work at a bank, in Surabaya.
+dialog	id.g070	tr	Sari	Sari, can you help me? / Sorry, I'm busy right now. Later, okay?
+dialog	id.g072	tr	Budi	Is Mr. Budi in? / He's in a meeting until three.
+dialog	id.g074	tr	Agus	That house is big, isn't it? / Yes, that's Mr. Agus's house.
+dialog	id.g077	tr	Bandung	What book is that? / This is the book I bought in Bandung.
+dialog	id.g082	tr	Rina	What's wrong, Rina? / My little brother isn't home yet. I'm worried.
+dialog	id.g086	tr	Emma	What's your name? / My name is Emma.
+dialog	id.g087	tr	Joko	Whose car is this? / Mr. Joko's car.
+dialog	id.g088	tr	Fajar	Where are you going, Fajar? / To the market. Do you want to come?
+dialog	id.g097	tr	Putri	Hi, what's your name? / Putri. You?
+dialog	id.g106	tr	Oh	Your cooking is delicious. / Oh, it's nothing special. Have some more!
+dialog	id.g112	tr	Batik batik Solo	Batik looks great on you. / Thanks! This batik is from Solo.
+dialog	id.g115	tr	sayur asem	This is sayur asem I made myself. / It's delicious! Could I have the recipe?
+dialog	id.g118	tr	Oh	You still look so young! / Oh, you're too kind.
+dialog	id.g120	tr	Oh	You're really good at the guitar. / Oh, not really. I'm still learning.
+dialog	id.g123	tr	Oh	You have a sweet smile. / Oh, you smooth talker! But thanks.
+dialog	id.g130	tr	Ryan Putri	Excuse me, can I introduce myself? I'm Ryan. / Sure. I'm Putri.
+dialog	id.g139	tr	Budi	Hey, Budi! Where are you going? / To the market. Want to come?
+dialog	id.g140	tr	Oh	The shop is closed on Sundays. / Oh, I see. Thank you.
+dialog	id.g141	tr	Ah	Your Indonesian is really good! / Ah, I'm still learning.
+dialog	id.g142	tr	Bali	Here's a little gift from Bali. / Wow! Thank you so much!
+dialog	id.g145	tr	Oh	Oh my God! My wallet's gone! / Calm down, look in your bag.
+dialog	id.g146	tr	Oh	Oh my goodness, you're soaking wet! / Yes, it was pouring earlier.
+dialog	id.g147	tr	oh	The train is two hours late. / Uh-oh! We might be late.
+dialog	id.g150	tr	bakso	Let's go eat bakso! / Sure, let's go!
+dialog	id.g157	tr	Rina	Hello? Is this Rina? / Yes, this is Rina. Who's this?
+dialog	id.g161	tr	Andi	This is my boyfriend, Andi. / Ooh! Finally!
+dialog	id.g163	tr	durian	Want to try durian? / Eww! The smell!
+examples	id.e001	tr	Bandung	My friend's house in Bandung is really big.
+examples	id.e002	tr	Budi	Every morning Budi rides his bike to the market.
+examples	id.e003	tr	Lombok Bali	Lombok is an island east of Bali.
+examples	id.e004	tr	Emma	Welcome to our home, Emma.
+examples	id.e007	tr	Jakarta	I live in Jakarta, but my family is in the US.
+examples	id.e009	tr	Bandung	In Bandung I work as an English teacher.
+examples	id.e010	tr	Budi	Mr. Budi lives next door to us.
+examples	id.e012	tr	Bali	We're from the US, but we live in Bali.
+examples	id.e014	tr	rupiah	The rent for this room is one million rupiah a month.
+examples	id.e016	tr	Jakarta Bandung	From Jakarta to Bandung by train takes about three hours.
+examples	id.e018	tr	Lombok	Next week I'm going to Lombok.
+examples	id.e020	tr	warung	The avocado juice at this warung is really good.
+examples	id.e024	tr	minimarket	At a minimarket all prices are fixed, so you can't bargain.
+examples	id.e030	tr	hotel	The hotel is at the second T-junction, on the right.
+examples	id.e031	tr	Lombok	I've already bought a plane ticket to Lombok.
+examples	id.e032	tr	hotel	From the station, I take a motorbike taxi to the hotel.
+examples	id.e033	tr	Emma	The room is already booked for two nights under the name Emma.
+examples	id.e037	tr	Bali	I'm learning Indonesian because I want to live in Bali.
+examples	id.e045	tr	Fajar Indah	Fajar plays the guitar and Indah sings.
+examples	id.e047	tr	Jakarta Bandung	Where do you live now, in Jakarta or in Bandung?
+examples	id.e055	tr	rendang	You're such a good cook. The rendang is delicious.
+examples	id.e058	tr	Sari Oh	Mrs. Sari smiled and said, "Oh, it's nothing special."
+examples	id.e077	tr	Bandung	She's my friend from Bandung.
+examples	id.e086	tr	Indonesia Jakarta	The capital of Indonesia is Jakarta.
+examples	id.e087	tr	hotel	I don't know the way to the hotel.
+examples	id.e091	tr	rendang	I want to learn to cook rendang.
+examples	id.e092	tr	Ubud	We're going to Ubud tomorrow.
+examples	id.e094	tr	Jakarta	When did you come from Jakarta? (to an older man)
+examples	id.e095	tr	Budi	I saw Budi at the market earlier.
+examples	id.e099	tr	hotel	I'm waiting for a friend in front of the hotel.
+examples	id.e106	tr	Budi	May I speak with Mr. Budi?
+examples	id.e131	tr	café	She likes reading books at a café.
+examples	id.e145	tr	hotel Ubud	We're staying at a small hotel in Ubud.
+examples	id.e152	tr	Bali	Have you lived in Bali long?
+examples	id.e166	tr	Kuta	Hotels in Kuta are expensive.
+examples	id.e167	tr	warung	Food at a warung is cheap and good.
+examples	id.e169	tr	hotel	The hotel is near the beach.
+examples	id.e179	tr	Oh	Oh, this is ordinary food.
+examples	id.e186	tr	Lombok	The beaches in Lombok are beautiful.
+examples	id.e202	tr	Bali	I'll go to Bali next month.
+examples	id.e203	tr	Lombok	I've never been to Lombok.
+examples	id.e204	tr	warung	We often eat at that warung.
+examples	id.e222	tr	hotel	We finally got to the hotel.
+examples	id.e228	tr	Surabaya	He lives in Surabaya.
+examples	id.e234	tr	Rina	This is my friend, Rina.
+examples	id.e252	tr	hotel	I'm at the hotel now.
+examples	id.e254	tr	Bandung	This train is from Bandung.
+examples	id.e262	tr	Jakarta	I've lived in Jakarta since last year.
+examples	id.e264	tr	hotel bank	The hotel is between the bank and the market.
+examples	id.e267	tr	Bali	I'm in Bali for two weeks.
+examples	id.e272	tr	hotel	The parking is behind the hotel.
+examples	id.e275	tr	Sudirman	Let's just go via Sudirman Street.
+examples	id.e291	tr	Medan	I have a friend in Medan.
+examples	id.e301	tr	kilo	How much is a kilo of oranges?
+examples	id.e302	tr	Jakarta	There are lots of cars in Jakarta.
+examples	id.e304	tr	Bandung	I'm in Bandung for a few days.
+examples	id.e306	tr	Jakarta	This is my first day in Jakarta.
+sentences	id.s0022	gloss	Emma	My name is Emma.
+sentences	id.s0030	gloss	Budi	How are you, Budi?
+sentences	id.s0034	gloss	Jakarta	I live in Jakarta.
+sentences	id.s0044	gloss	Bali	They're in Bali.
+sentences	id.s0046	gloss	Budi	Budi is a doctor.
+sentences	id.s0047	gloss	Indonesia Jakarta	The capital of Indonesia is Jakarta.
+sentences	id.s0069	gloss	Budi	Budi's car
+sentences	id.s0076	gloss	Siti	Siti's house is big.
+sentences	id.s0081	gloss	Bali	When are you going to Bali? (to a friend)
+sentences	id.s0095	gloss	rupiah	100,000 rupiah
+sentences	id.s0096	gloss	rupiah	It's fifty thousand rupiah.
+sentences	id.s0115	gloss	hotel	I'm at the hotel.
+sentences	id.s0116	gloss	Bali	I'm going to Bali.
+sentences	id.s0117	gloss	Jakarta	We're coming from Jakarta.
+sentences	id.s0121	gloss	hotel	That shop is next to the hotel.
+sentences	id.s0122	gloss	Bandung	My grandmother lives in Bandung.
+sentences	id.s0132	gloss	Bali	I've never been to Bali.
+sentences	id.s0135	gloss	Jakarta	I work in Jakarta.
+sentences	id.s0144	gloss	hotel	I'm looking for a cheap hotel.
+sentences	id.s0168	gloss	Bali	My friend who lives in Bali is coming tomorrow.
+sentences	id.s0176	gloss	Budi	This letter was written by Mr. Budi.
+sentences	id.s0182	gloss	Jakarta Bandung	Jakarta is bigger than Bandung.
+sentences	id.s0194	gloss	bank	The bank is on the right.
+sentences	id.s0195	gloss	hotel	The hotel isn't far from here.
+sentences	id.s0204	gloss	kilo	How much for one kilo?
+sentences	id.s0213	gloss	Ubud	We want to take a trip to Ubud.
+lessons	sounds	blurb	ng ny	Read any Indonesian word aloud: the six vowels, the two e sounds, c, ng and ny, and how words end.
+lessons	pronouns	title	saya kamu Anda Bapak Ibu	3 · Pronouns and titles: saya, kamu, Anda, Bapak, Ibu
+lessons	pronouns	blurb	kamu Anda	Say I, you, he, she, we and they, and choose the polite way to say you: a title, a name, kamu or Anda.
+lessons	no-be	blurb	adalah	Say what you are, how you feel and where you are with no word for am, is or are, and know the one place adalah belongs.
+lessons	ini-itu	title	ini itu	6 · ini, itu: this and that
+lessons	noun-adj	title	rumah besar	7 · Noun + adjective: rumah besar
+lessons	possession	title	buku saya bukuku bukunya	8 · Possession: buku saya, bukuku, bukunya
+lessons	possession	blurb	Budi punya	Say my, your, his, Budi's and my friend's the Indonesian way, with the owner after the thing, and say what you have with punya.
+lessons	questions	title	apa siapa di mana kapan berapa	9 · apa, siapa, di mana, kapan, berapa
+lessons	negation	title	tidak bukan	10 · tidak and bukan
+lessons	negation	blurb	tidak bukan	Say "not" the Indonesian way: tidak before verbs and describing words, bukan before nouns.
+lessons	numbers	blurb	rupiah	Count to a million, read prices in rupiah, and put numbers in the right place in a sentence.
+lessons	time	title	jam pukul setengah	12 · Telling the time: jam, pukul, setengah
+lessons	ada	title	ada	13 · ada: there is, have
+lessons	ada	blurb	hotel	Ask whether something is there, say there isn't any, and ask a shop or hotel what they have.
+lessons	prepositions	title	di ke dari	14 · di, ke, dari
+lessons	time-words	title	sudah sedang akan belum	16 · sudah, sedang, akan, belum
+lessons	modals	title	mau bisa harus boleh	19 · mau, bisa, harus, boleh
+lessons	requests	title	tolong minta silakan jangan	20 · Asking and telling: tolong, minta, silakan, jangan
+lessons	yang	title	yang	21 · yang: which, who
+lessons	passive	title	di	22 · The di- passive
+lessons	passive	blurb	Kamarnya sudah dipesan	Say what is done or was done to something, the way Indonesians do it every day: Kamarnya sudah dipesan.
+lessons	compare	title	lebih paling	23 · lebih, paling: comparing
+lessons	daily	blurb	warung	Talk through your day from getting up to going to bed, and buy things at a warung or market.
+lessons	plural	title	buku	26 · Plurals by repeating: buku-buku
+body	sounds	body	ah oh eh ch jam ng ny air	
+body	pronouns	body	Jakarta kamu Anda	
+body	intro	body	Indonesia Emma	
+body	no-be	body	adalah	
+body	ini-itu	body	itu	
+body	noun-adj	body	main Indonesia sangat sekali	
+body	possession	body	Budi ku mu nya punya Indonesia	
+body	questions	body	kenapa siapa	
+body	negation	body	tidak bukan	
+body	numbers	body	rupiah	
+body	time	body	jam	
+body	ada	body	ada tidak adalah	
+body	prepositions	body	di ke dari main	
+body	family	body	Indonesia	
+body	time-words	body	sudah sedang akan belum pernah masih	
+body	me	body	ng ny	
+body	modals	body	bisa boleh	
+body	requests	body	tolong minta warung silakan coba ayo jangan	
+body	yang	body	yang ini itu	
+body	passive	body	di oleh	
+body	compare	body	lebih paling sama nya kurang terlalu	
+body	directions	body	jalan Sudirman Jalan	
+body	daily	body	mandi warung minimarket rupiah	
+body	plural	body	anak	
+body	casual	body	dong sih kok deh gue lo Jakarta	
+checks	sounds.k1	q	cantik	How is the c in cantik (pretty) pronounced?
+checks	sounds.k1	o[1]	ch	Like the ch in church
+checks	sounds.k1	why	ch	c is always ch in Indonesian, never k or s.
+checks	sounds.k2	o[0]	eh	Learn it with the word: the pronunciation line shows eh or uh
+checks	sounds.k2	o[2]	eh	An e at the start of a word is always eh
+checks	sounds.k3	q	tidak	How do you end the word tidak (not)?
+checks	sounds.k3	o[2]	oh	With a catch in the throat, like the break in uh-oh
+checks	pronouns.k3	q	hotel	You tell a hotel clerk that you and your wife come from the US. Which we?
+checks	no-be.k2	q	adalah	Where does adalah belong?
+checks	no-be.k2	why	adalah	adalah links two noun phrases; it is never used before an adjective or a place.
+checks	no-be.k3	q	Kemarin saya makan	Kemarin saya makan. means Yesterday I ate. What shows the past?
+checks	no-be.k3	o[0]	kemarin	The word kemarin
+checks	no-be.k3	o[1]	makan	A change in makan
+checks	no-be.k3	o[2]	saya	The word saya
+checks	no-be.k3	why	makan kemarin	makan never changes; kemarin (yesterday) shows the time.
+checks	ini-itu.k2	q	Ini teh	What does Ini teh. mean?
+checks	ini-itu.k2	why	ini	With ini first, the words make a sentence: This is tea.
+checks	ini-itu.k3	q	Kopi itu panas	Kopi itu panas. means…
+checks	ini-itu.k3	why	kopi itu panas	kopi itu is that coffee, and panas after it says what it is like: That coffee is hot.
+checks	noun-adj.k3	q	sangat	Where does sangat (very) go?
+checks	noun-adj.k3	why	sangat besar sekali	sangat goes before the adjective (sangat besar); sekali goes after it (besar sekali).
+checks	possession.k1	q	Budi	How do you say Budi's house?
+checks	possession.k1	o[0]	Budi rumah	Budi rumah
+checks	possession.k1	o[1]	rumah Budi	rumah Budi
+checks	possession.k1	o[2]	Budi rumah	Budi's rumah
+checks	possession.k1	o[3]	rumah Budi	rumah-Budi
+checks	possession.k1	why	rumah Budi	The owner comes after the thing: rumah Budi.
+checks	possession.k2	q	bukunya	What does bukunya mean?
+checks	possession.k2	why	nya	-nya is his, her, its or their, and it can also work like the.
+checks	questions.k3	q	Kamu lapar	How do you turn Kamu lapar (You're hungry) into a question?
+checks	questions.k3	o[1]	adalah	Put adalah first
+checks	questions.k3	o[2]	kamu	Move kamu to the end
+checks	questions.k3	why	Apakah	A rising voice is enough; Apakah at the start is the careful written form.
+checks	negation.k2	q	lapar	Which word goes before lapar (hungry) to say "not hungry"?
+checks	negation.k2	why	lapar	lapar is a describing word, so it takes tidak.
+checks	negation.k3	q	Itu mobil kamu	Your friend points at a car and asks Itu mobil kamu? It isn't yours. The short answer is…
+checks	time.k1	q	setengah tiga	setengah tiga is…
+checks	time.k1	why	setengah	setengah counts toward the next hour: half way to three is 2:30.
+checks	time.k2	q	jam tiga	jam tiga means…
+checks	time.k2	why	jam tiga	jam before the number means o'clock; tiga jam would be three hours.
+checks	ada.k2	q	kamar kosong	You ask a receptionist Ada kamar kosong? There are none. The answer is…
+checks	ada.k3	q	Dia di rumah ada	Dia di rumah and Dia ada di rumah…
+checks	ada.k3	why	ada	ada before a place is optional: both say where she is.
+checks	family.k1	q	adik	adik means…
+checks	family.k1	why	adik	adik names the age, not the sex: any younger sibling.
+checks	family.k2	q	Sudah menikah	Someone asks Sudah menikah? You're single. The expected answer is…
+checks	time-words.k3	why	Dia di kantor	masih means still: Dia masih di kantor.
+checks	ber.k1	why	kerja	kerja takes be-, not ber-: bekerja.
+checks	ber.k3	q	Saya kerja di Jakarta	Saya kerja di Jakarta is…
+checks	ber.k3	o[0]	bekerja	fine in casual speech; careful speech says bekerja
+checks	ber.k3	why	bekerja	Dropping ber- is normal casual speech; the full form is bekerja.
+checks	me.k3	q	kirim	kirim + me- =
+checks	modals.k3	q	Saya tidak bisa datang	What does Saya tidak bisa datang mean?
+checks	modals.k3	why	bisa tidak	bisa is about being able to, so tidak bisa is 'can't'.
+checks	requests.k3	q	Silakan duduk	Your host says Silakan duduk. What is she doing?
+checks	requests.k3	why	silakan	silakan offers or invites: please, go ahead.
+checks	yang.k2	q	Yang merah	Pointing at some shirts, what does Yang merah mean?
+checks	yang.k2	why	yang	yang + a describing word on its own means 'the … one'.
+checks	passive.k2	q	membeli	What is the di- verb of membeli (to buy)?
+checks	compare.k2	q	paling enak	What does paling enak mean?
+checks	compare.k2	why	paling	paling means 'most, -est'.
+checks	directions.k2	q	perempatan	What is a perempatan?
+checks	directions.k2	why	perempatan pertigaan	perempatan has four ways; a T-junction is a pertigaan.
+checks	directions.k3	q	Apoteknya di seberang bank	What does Apoteknya di seberang bank mean?
+checks	directions.k3	o[0]	bank	The pharmacy is across from the bank.
+checks	directions.k3	o[1]	bank	The pharmacy is next to the bank.
+checks	directions.k3	o[2]	bank	The pharmacy is behind the bank.
+checks	directions.k3	o[3]	bank	The pharmacy is inside the bank.
+checks	directions.k3	why	di seberang	di seberang means 'across from'.
+checks	daily.k2	q	mandi	What does mandi mean in daily life?
+checks	daily.k2	why	mandi	mandi is the everyday wash, not a long bath.
+checks	daily.k3	q	Bisa kurang	Where is bargaining with Bisa kurang? normal?
+checks	daily.k3	o[0]	minimarket	at a minimarket with price tags
+checks	plural.k2	q	buku	What does buku mean on its own?
+checks	plural.k2	why	buku	Plural is usually not marked: buku can be one or many.
+checks	casual.k1	q	nggak	What is the standard form of nggak?
+checks	casual.k1	why	nggak enggak	nggak and enggak are the casual forms of tidak.
+checks	casual.k2	q	lo	Who can you call lo?
+checks	casual.k2	o[2]	Jakarta	a Jakarta friend your own age
+checks	casual.k2	why	gue lo Jakarta	gue and lo are only for Jakarta friends your own age.
+practice	sounds.01	q	cantik	How is the c in cantik (pretty) pronounced?
+practice	sounds.01	o[0]	ch	ch, as in church
+practice	sounds.01	why	ch cantik	c always sounds like ch: cantik, never kantik.
+practice	sounds.02	q	tidak	The final k in tidak (not) is…
+practice	sounds.02	o[0]	oh	a catch in the throat, like the break in uh-oh
+practice	sounds.02	why	air	A final k is a catch: stop the air, don't pop the k.
+practice	sounds.04	q	baik	How many syllables does baik (good) have?
+practice	sounds.04	why	ai	ai before a final consonant splits into two syllables: ba-ik.
+practice	sounds.05	q	ng	Which word has the ng + g sound of English finger?
+practice	sounds.05	o[0]	mangga	mangga (mango)
+practice	sounds.05	o[1]	ngantuk	ngantuk (sleepy)
+practice	sounds.05	o[2]	nyanyi	nyanyi (to sing)
+practice	sounds.05	o[3]	gula	gula (sugar)
+practice	sounds.05	why	ngg ng mangga	ngg is ng followed by a hard g: mangga.
+practice	sounds.09	why	cantik	Indonesian spells the ch sound with c alone: cantik.
+practice	sounds.10	why	mangga	mango is mangga: ng followed by a hard g, spelled ngg.
+practice	sounds.11	why	rumah	rumah ends in a breathed h, which you must write and say.
+practice	greetings.02	q	Terima kasih	Someone says Terima kasih. You answer…
+practice	greetings.02	why	terima kasih	Sama-sama means you're welcome, the reply to terima kasih.
+practice	pronouns.01	q	dia	dia means…
+practice	pronouns.01	why	dia	dia is both he and she.
+practice	pronouns.05	q	Jakarta	You call over a young woman at a shop counter in Jakarta:
+practice	intro.03	q	Dari mana	Dari mana? means…
+practice	intro.03	why	dari mana	dari is from and mana is where: from where?
+practice	intro.04	q	Saya bisa bahasa Indonesia sedikit	Saya bisa bahasa Indonesia sedikit. means…
+practice	intro.04	why	bisa sedikit	bisa plus a language means you speak it; sedikit is a little.
+practice	intro.05	q	Saya orang Amerika	Saya orang Amerika. means…
+practice	intro.05	why	orang Amerika	orang Amerika, literally person America, is an American.
+practice	no-be.04	q	Saya makan nasi	Saya makan nasi. can mean…
+practice	no-be.05	q	Saya guru	Saya guru. means…
+practice	no-be.05	why	saya guru	A noun straight after saya says what you are; my teacher would be guru saya.
+practice	ini-itu.02	q	Ini buku	Ini buku. means…
+practice	ini-itu.02	why	ini	With ini first, the words form a sentence: This is a book.
+practice	ini-itu.04	q	itu	itu means…
+practice	ini-itu.04	why	itu	itu is that, and after a noun it can work like the.
+practice	noun-adj.02	why	main	The main noun, tiket, comes first, then the kind: pesawat.
+practice	noun-adj.04	q	Rumah itu besar	Rumah itu besar. means…
+practice	noun-adj.04	why	besar itu	besar after itu says something about the house, so it is a full sentence.
+practice	noun-adj.05	q	rumah besar itu	rumah besar itu means…
+practice	noun-adj.05	why	besar itu	besar before itu is part of the phrase: that big house.
+practice	noun-adj.07	why	main	In a noun phrase the main noun leads: tiket (ticket), then pesawat (plane).
+practice	noun-adj.10	why	sangat	sekali goes after the adjective; sangat would go before it.
+practice	possession.03	q	harganya	harganya means…
+practice	possession.03	why	harga nya	harga is price, and -nya adds its or the.
+practice	possession.05	q	Saya punya mobil	Saya punya mobil. means…
+practice	possession.05	why	punya Saya mobil	punya means have: Saya punya mobil.
+practice	possession.10	why	harganya	its price is harganya, with the ending -nya.
+practice	questions.03	q	berapa	berapa asks…
+practice	questions.03	why	berapa Berapa harganya	berapa asks for a number or a price: Berapa harganya?
+practice	questions.04	q	kapan	kapan means…
+practice	questions.04	why	kapan Kapan kamu ke Bali	kapan is when: Kapan kamu ke Bali?
+practice	negation.04	q	Itu rumah kamu	Your friend asks Itu rumah kamu? It isn't yours. The short answer is…
+practice	numbers.03	why	ribu	ribu is thousand, and se- means one: seribu.
+practice	time.03	q	Berapa jam	Berapa jam? asks…
+practice	time.03	why	berapa jam	berapa before jam asks how many hours; jam berapa asks the time.
+practice	ada.03	q	hotel	Do you have a free room? (to hotel staff) =
+practice	ada.04	q	toilet di sini	Someone asks Ada toilet di sini? There is one. The short answer is…
+practice	family.04	q	menikah	Someone asks Sudah menikah? You're not married. The expected answer is…
+practice	time-words.03	q	Sudah makan	Someone asks Sudah makan? You haven't. The short answer is…
+practice	ber.01	why	renang	renang takes ber- with a single r: berenang.
+practice	ber.03	why	main	main takes ber-: bermain.
+practice	ber.05	why	kerja	kerja takes be-, so berkerja is not a word.
+practice	ber.06	why	kerja	The owner comes after the noun: teman saya, and kerja takes be-.
+practice	ber.08	why	renang	renang takes ber-: berenang.
+practice	ber.09	why	kerja	kerja takes be-: bekerja.
+practice	ber.10	why	main	main takes ber-: bermain.
+practice	ber.12	hint	kerja	kakak perempuan · kerja (ber-) · Bali
+practice	ber.12	why	kerja	The owner comes after the noun: kakak perempuan saya, and kerja takes be-.
+practice	ber.14	hint	renang	tidak · renang (ber-)
+practice	ber.14	why	renang	A verb takes tidak, and renang becomes berenang.
+practice	me.01	q	pakai	pakai + me- =
+practice	me.02	q	lihat	lihat + me- =
+practice	me.03	q	cari	cari + me- =
+practice	me.04	q	sewa	sewa + me- =
+practice	me.12	hint	cari	cari · hotel · murah
+practice	me.12	why	cari	murah comes after the noun: hotel murah; cari becomes mencari.
+practice	me.14	hint	masak	belum · masak
+practice	me.14	why	masak	belum is the time word for not yet; masak becomes memasak.
+practice	modals.04	q	Bisa bahasa Inggris	Bisa bahasa Inggris? means…
+practice	modals.04	why	bisa	bisa + a language means you can speak it.
+practice	requests.04	q	Silakan	A waiter puts down your plate and says Silakan. He means…
+practice	requests.04	why	silakan	silakan offers or invites: go ahead, please enjoy.
+practice	passive.02	q	menulis	Which is the di- verb of menulis (to write)?
+practice	passive.05	q	sudah dicuci	Mobilnya sudah dicuci means…
+practice	passive.05	why	sudah di	sudah + a di- verb: it has already been done to the car.
+practice	passive.12	hint	beli	tiket · beli (root) · sudah
+practice	passive.13	hint	pesan	tiket pesawat · pesan (root) · sudah
+practice	passive.13	why	main	The main noun comes first: tiket pesawat, and sudah is the time word.
+practice	passive.14	hint	makan	kue · makan (root) · di rumah
+practice	compare.03	q	Kopinya kurang manis	Kopinya kurang manis means…
+practice	compare.03	why	kurang	kurang means 'less, not … enough'.
+practice	compare.05	why	nya	sama + describing word + -nya means 'the same …'.
+practice	directions.04	q	pertigaan	What is a pertigaan?
+practice	directions.04	why	tiga pertigaan	tiga is three: a pertigaan is where three ways meet.
+practice	directions.06	p	bank	The bank is near the station
+practice	directions.11	p	hotel	The hotel isn't far from here.
+practice	plural.03	q	Hati hati	What does Hati-hati! mean?
+practice	plural.03	why	hati	hati-hati is not a plural: it means 'be careful'.
+practice	plural.05	q	Anak anak sedang bermain	Anak-anak sedang bermain means…
+practice	plural.05	why	anak sedang	anak-anak is 'the children', and sedang means 'right now'.
+practice	casual.01	q	sudah	Which word is the casual form of sudah?
+practice	casual.01	why	sudah saja bagaimana tidak	udah is casual sudah; aja is saja, gimana is bagaimana, nggak is tidak.
+practice	casual.02	q	Gimana	Gimana? means…
+practice	casual.02	why	gimana bagaimana	gimana is the casual form of bagaimana, 'how'.
+practice	casual.03	q	Kok mahal	A friend says Kok mahal? What is she expressing?
+practice	casual.03	why	kok	kok shows surprise, like 'how come?'.
+practice	casual.04	q	gue	Who should you NOT use gue with?
+practice	casual.04	o[1]	Jakarta	a close friend your age in Jakarta
+practice	casual.04	o[2]	Jakarta	your Jakarta roommate, who is your age
+practice	casual.04	o[3]	Jakarta	a Jakarta classmate your own age
+practice	casual.04	why	gue Jakarta	gue is only for Jakarta friends your own age, never for older people.
+practice	casual.05	why	tidak	nggak takes the place of tidak, right before the verb.
+practice	casual.08	why	tidak	nggak takes the place of tidak, before the verb; bukan is for nouns.
+practice	casual.09	why	tidak	nggak, the casual tidak, goes before bisa.
+practice	casual.10	why	sudah	udah is the casual form of sudah, 'already'.
+practice	casual.11	why	saja	aja is the casual form of saja, 'just'.
+labels	id.tl002.04	text	eh	uh or eh
+lessoncards	id.lc0001	note	ah	m + a + k + a + n: every letter as in English, every a a full ah.
+lessoncards	id.lc0003	note	ch	The e here is the weak e, uh; c is ch.
+lessoncards	id.lc0004	note	ch ng	c is ch; the final ng is the ng of singer.
+lessoncards	id.lc0005	note	jam ng	j as in jam; the final ng is the ng of singer.
+lessoncards	id.lc0007	note	ny	ny at the start, as in canyon; the final k is a catch, q.
+lessoncards	id.lc0008	note	ng	The weak e, uh; ng between vowels is the ng of singer, with no g after it.
+lessoncards	id.lc0009	note	ngg ng	ngg is ng + g, as in finger; gh before ee.
+lessoncards	id.lc0010	note	sy	sy is sh; r is rolled or tapped.
+lessoncards	id.lc0011	note	kh	kh is a breathy k; r is rolled or tapped.
+lessoncards	id.lc0013	note	oh	The weak e, uh, then oh; the final h is breathed out.
+lessoncards	id.lc0014	note	au	au at the end of a word is one sound, ow.
+lessoncards	id.lc0015	note	au	au before a final consonant splits in two: la + ut.
+lessoncards	id.lc0016	note	ai	ai before a final consonant splits in two: ma + in.
+# option classes to review: possession.k1 (prose by its key «rumah Budi»; «Budi rumah» «Budi's rumah» «rumah-Budi» would classify the other way)
+# option classes to review: ber.k1 (target by its key «bekerja»; «kerjaber» would classify the other way)
+# option classes to review: ber.k3 (prose by its key «fine in casual speech; careful speech says bekerja»; «a question» would classify the other way)
+# option classes to review: me.k1 (target by its key «membaca»; «mebaca» «menbaca» would classify the other way)
+# option classes to review: me.k2 (target by its key «menulis»; «metulis» «menyulis» would classify the other way)
+# option classes to review: passive.k2 (target by its key «dibeli»; «dimembeli» would classify the other way)
+# option classes to review: directions.k2 (prose by its key «a four-way intersection»; «a T-junction» «a bridge» would classify the other way)
+# option classes to review: sounds.02 (prose by its key «a catch in the throat, like the break in uh-oh»; «a g sound» would classify the other way)
+# option classes to review: sounds.05 (prose by its key «mangga (mango)»; «ngantuk (sleepy)» «gula (sugar)» would classify the other way)
+# option classes to review: no-be.04 (prose by its key «I eat rice, or I ate rice»; «I'm rice» would classify the other way)
+# option classes to review: possession.04 (target by its key «tasmu»; «mutas» would classify the other way)
+# option classes to review: possession.05 (prose by its key «I have a car.»; «I'm a car.» would classify the other way)
+# option classes to review: numbers.03 (target by its key «seribu»; «sejuta» would classify the other way)
+# option classes to review: family.05 (target by its key «suaminya»; «istrinya» would classify the other way)
+# option classes to review: ber.01 (target by its key «berenang»; «berrenang» «bernang» would classify the other way)
+# option classes to review: me.01 (target by its key «memakai»; «mempakai» «mepakai» «mengpakai» would classify the other way)
+# option classes to review: me.02 (target by its key «melihat»; «menlihat» would classify the other way)
+# option classes to review: me.03 (target by its key «mencari»; «menyari» «mecari» would classify the other way)
+# option classes to review: passive.02 (target by its key «ditulis»; «dinulis» «dimenulis» would classify the other way)
+# option classes to review: passive.03 (target by its key «di stasiun»; «distasiun» would classify the other way)
+# option classes to review: directions.04 (prose by its key «a T-junction»; «a bridge» would classify the other way)
+# option classes to review: plural.02 (target by its key «anak-anak»; «anakanak» «anak2» would classify the other way)

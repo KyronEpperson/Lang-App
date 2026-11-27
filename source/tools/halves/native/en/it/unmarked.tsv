@@ -1,0 +1,1488 @@
+# Italian words of the course inventory, or with a Italian diacritic, outside every mark (export_target.js it; not protected by validate.js until the source marks them). Columns: file, id, field, words, text
+decks	it.d.sounds-and-spelling	desc	ch gn gli	Words that show each spelling rule: c and g before e and i, ch, gn, gli, sc, z and double consonants
+decks	it.d.about-me	label	me	About me
+decks	it.d.numbers-time-and-prices	desc	in	Numbers to 1,000, telling the time, prices in euros
+decks	it.d.around-town-and-directions	desc	in	Places in town, asking where things are, and following directions
+decks	it.d.feelings-and-states	desc	essere avere stare	How you feel, with essere, avere and stare
+decks	it.d.cafe-and-menu-italian	label	Café	Café and menu Italian
+decks	it.d.flirting	desc	no	Words people flirt with, the phrases built on them, asking someone out, and kind ways to say yes or no
+decks	it.d.top-nouns	desc	il la lo	The most-used nouns, with il, la, lo or l'
+decks	it.d.top-verbs	desc	io	The most-used verbs, with the io form and irregulars flagged
+decks	it.d.top-adverbs	desc	già sempre qui molto	When, where, how and how much: già, sempre, qui, molto
+decks	it.d.top-prepositions	desc	di da in con per	di, a, da, in, con, per and the rest, with the contracted forms
+decks	it.d.top-conjunctions	desc	che se però quindi mentre	The small words that join ideas: che, se, però, quindi, mentre
+decks	it.d.top-interjections	desc	boh dai magari mamma mia	What Italians really exclaim: boh, dai, magari, mamma mia
+decks	it.d.top-words	desc	no	Articles, yes and no, question words, numbers to twenty, days and months
+cards	it.c0001	note	ch in	c before e or i sounds like English ch. The i in cie is silent.
+cards	it.c0002	note	ch	ch before i or e is a hard k sound.
+cards	it.c0004	note	gn in	gn sounds like ny in canyon. gli is the article before gn.
+cards	it.c0005	note	single	Hold the double t. note (notes) has a single t.
+cards	it.c0006	note	ci ch	ci before o is a ch sound; the i is not said.
+cards	it.c0007	note	gi	gi before o is a j sound; the i is not said.
+cards	it.c0008	note	gli in	gli before a vowel sounds like lli in million. The article loses its vowel: l'aglio.
+cards	it.c0010	note	sch la	sch is a hard sk sound. One peach: la pesca.
+cards	it.c0011	note	ch	gh is a hard g; cci before a vowel is a ch sound.
+cards	it.c0012	note	zz	zz sounds like ts, held a little: PEET-tsah, not PEE-zuh.
+cards	it.c0013	note	so il	Here z sounds like dz. zucchero is masculine and starts with z, so lo, not il.
+cards	it.c0014	note	single	Hold the double n. With a single n, the word means something else entirely.
+cards	it.c0016	note	in	uo sounds like woh, in one syllable.
+cards	it.c0018	note	gli	s before v sounds like z; gli sounds like lly.
+cards	it.c0021	note	tu Buongiorno	Informal (tu): friends, family, kids. To a stranger: Buongiorno.
+cards	it.c0022	note	Lei stai	Lei form, to a stranger or someone older. To a friend: Come stai?
+cards	it.c0023	meaning	me	Excuse me.
+cards	it.c0023	note	Lei Scusa	Lei form, to get a stranger's attention. To a friend: Scusa.
+cards	it.c0024	note	tu in sta	tu form: the verb ends in -i. To a stranger: Come sta?
+cards	it.c0025	meaning	Fine	Fine, thanks, and you?
+cards	it.c0025	note	Lei	To a stranger: Bene, grazie, e Lei?
+cards	it.c0026	note	buona notte	When someone goes to bed, or as you leave late at night. buona agrees with notte (feminine).
+cards	it.c0027	note	Fine Ciao	Fine with anyone. Between friends, Ciao! is more usual.
+cards	it.c0028	note	Lei	To one person you call Lei, such as an older customer. Write the capital L.
+cards	it.c0031	note	molto	Literally: a thousand thanks. Not molto grazie.
+cards	it.c0032	note	go	Also: go ahead, please, when you offer a seat or let someone pass.
+cards	it.c0033	note	Un caffè	Goes at the start or the end: Un caffè, per favore.
+cards	it.c0034	meaning	me	Sorry. / Excuse me. (to a friend)
+cards	it.c0034	note	tu Mi scusi	tu form. To a stranger: Mi scusi.
+cards	it.c0036	note	Lei Puoi	Lei form. To a friend: Puoi ripetere?
+cards	it.c0038	note	americana	A woman says americana. Nationalities are lowercase.
+cards	it.c0039	note	da gli Sono di Boston	dagli = da + gli. For a city: Sono di Boston.
+cards	it.c0040	note	avere	Age uses avere: literally, I have thirty years.
+cards	it.c0041	note	No io	No io needed: the -o ending already says I. Write po' with an apostrophe.
+cards	it.c0042	note	tu si chiama	tu form, to a friend, a kid or someone your age. To a stranger: Come si chiama?
+cards	it.c0043	note	Lei	Lei form, to a stranger. The same words also mean What's his name? or What's her name?
+cards	it.c0044	note	tu dov	tu form. To a stranger: Di dov'è?
+cards	it.c0045	meaning	in	I live in Milan.
+cards	it.c0045	note	Roma	Use a before a city: a Milano, a Roma.
+cards	it.c0046	note	tu AH abita	tu form. Stress on the first syllable: AH-bee-tee. To a stranger: Dove abita?
+cards	it.c0048	note	tu Parla	tu form. To a stranger: Parla inglese?
+cards	it.c0053	note	No le mie sorelle	No article before mia with a singular family word. Plural: le mie sorelle.
+cards	it.c0054	note	parenti	i parenti means relatives, not parents.
+cards	it.c0055	note	fratelli	i fratelli can mean brothers, or brothers and sisters.
+cards	it.c0056	note	il nonni	Grandfather: il nonno. Grandparents: i nonni.
+cards	it.c0057	note	mia madre simpatica	simpatico agrees with padre (masculine). For mia madre: simpatica.
+cards	it.c0058	note	mia le mie sorelle	With a possessive: mia sorella, but le mie sorelle.
+cards	it.c0059	note	il	A son: il figlio.
+cards	it.c0060	note	fratelli	The masculine plural covers a mixed group, like i fratelli.
+cards	it.c0062	note	gli le	gli sounds like lly. The plural is le mogli.
+cards	it.c0063	note	la	lo before z. An aunt: la zia.
+cards	it.c0064	note	la	A female cousin: la cugina.
+cards	it.c0065	note	so la mia ragazza	Not a family word, so the article stays. A girlfriend: la mia ragazza.
+cards	it.c0066	meaning	male	a friend (male)
+cards	it.c0066	note	No	No apostrophe: un amico. Compare un'amica.
+cards	it.c0067	note	una	una loses its a before a vowel: un'amica, with an apostrophe.
+cards	it.c0070	note	No in	No article after hai in this question.
+cards	it.c0071	note	venti uno otto ventotto	venti drops its i before uno and otto: ventuno, ventotto.
+cards	it.c0072	note	ora è	Also: Che ora è?
+cards	it.c0073	note	ore È	le (ore) is feminine plural. One o'clock: È l'una.
+cards	it.c0074	note	costano	For more than one thing: Quanto costano?
+cards	it.c0075	note	in un	euro does not change in the plural: un euro, dieci euro.
+cards	it.c0076	note	Sono le	Singular for one o'clock only. Every other hour: Sono le…
+cards	it.c0079	note	mezzanotte	Midnight: È mezzanotte.
+cards	it.c0082	note	un	One cent: un centesimo.
+cards	it.c0083	note	No uno	No word for one: cento, not uno cento.
+cards	it.c0085	note	venti otto	venti drops its i before otto.
+cards	it.c0086	meaning	in	at eight in the evening
+cards	it.c0086	note	le venti	alle = a + le. Timetables use the 24-hour clock: alle venti.
+cards	it.c0088	note	No il	No word for on. Every Monday: il lunedì. Days are lowercase.
+cards	it.c0089	note	fare freddo bel tempo	Weather uses fare: fa freddo, fa bel tempo.
+cards	it.c0090	note	Sta	Also: Sta piovendo.
+cards	it.c0092	note	oggi domani	oggi = today; domani = tomorrow.
+cards	it.c0094	note	in all lunedì	The accent marks the stressed last syllable, as in all days from lunedì to venerdì.
+cards	it.c0095	note	sera	Tomorrow evening: domani sera.
+cards	it.c0097	note	due	Only the first of the month uses primo. Other days use plain numbers: il due maggio.
+cards	it.c0099	note	brutto	Bad weather: fa brutto tempo.
+cards	it.c0103	note	fare	Weather questions use fare too.
+cards	it.c0104	note	il mese prossimo	prossima agrees with settimana (feminine). Next month: il mese prossimo.
+cards	it.c0106	note	In	In Italy un caffè is an espresso. The accent marks the stressed final syllable.
+cards	it.c0107	note	di	d' = di before a vowel.
+cards	it.c0109	note	il pranzo cena	Lunch: il pranzo. Dinner: la cena.
+cards	it.c0112	note	ch	c before e sounds like ch.
+cards	it.c0113	note	bianco	rosso agrees with vino (masculine). White wine: vino bianco.
+cards	it.c0116	note	so	spaghetti is plural and starts with s + consonant, so gli.
+cards	it.c0117	note	pasta	Grated cheese for pasta: il formaggio grattugiato.
+cards	it.c0119	note	in	Feminine, though it ends in -e: la carne.
+cards	it.c0120	note	so in	Feminine plural, so adjectives end in -e: le verdure fresche.
+cards	it.c0122	note	la pizza	For a feminine thing, such as la pizza: È buonissima!
+cards	it.c0124	note	pantaloni bianchi	Color after the noun, and it agrees: camicia bianca, pantaloni bianchi.
+cards	it.c0126	note	Lei	Lei form, from a shop assistant.
+cards	it.c0127	note	la giacca il maglione	la = it, for a feminine thing (la giacca). For il maglione: Posso provarlo?
+cards	it.c0128	note	il maglione la borsa La	lo for a masculine thing (il maglione). For la borsa: La prendo.
+cards	it.c0130	note	Lei	Lei form, to a shop assistant.
+cards	it.c0133	note	in so il maglione	verde ends in -e, so it is the same for both genders: il maglione verde.
+cards	it.c0134	note	cara	For a feminine thing: È troppo cara.
+cards	it.c0135	note	in contanti	Cash: in contanti.
+cards	it.c0136	note	in	Season sales, usually in January and July.
+cards	it.c0139	meaning	me	How does it look on me?
+cards	it.c0139	note	stare bene Ti	stare bene = to suit you: Ti sta bene!
+cards	it.c0141	note	voi	voi form, asking the shop as a whole.
+cards	it.c0142	note	io le	alzarsi is reflexive: mi with io. alle = a + le.
+cards	it.c0147	note	io	svegliarsi is reflexive: mi with io.
+cards	it.c0149	note	fare no	fare colazione, with no article.
+cards	it.c0150	note	uscire	uscire: esco, esci, esce.
+cards	it.c0151	note	no	a casa = home, with no article.
+cards	it.c0152	meaning	go	I go to bed at midnight.
+cards	it.c0152	note	no casa	a letto, with no article, like a casa.
+cards	it.c0154	note	sofà	Also: il sofà.
+cards	it.c0156	note	AH	Stress on the first syllable: AH-bee-toh.
+cards	it.c0157	note	tu in	tu form: ti with tu, and the verb ends in -i.
+cards	it.c0158	note	in	Feminine, though it ends in -e.
+cards	it.c0160	note	dove	dov'è = dove è.
+cards	it.c0161	note	ci sono	c'è for one thing; for more: ci sono.
+cards	it.c0162	note	sinistra dritto	a sinistra = left; dritto = straight ahead.
+cards	it.c0163	note	Lei	Lei form: what a stranger will say to you.
+cards	it.c0165	meaning	me	Excuse me, where's the museum?
+cards	it.c0165	note	Lei scusa	Scusi is the Lei form, for strangers. To a friend: scusa.
+cards	it.c0166	meaning	cafés	There are two cafés in the square.
+cards	it.c0166	note	un café	ci sono for more than one. bar does not change in the plural; in Italy un bar is a café.
+cards	it.c0167	note	vicino	lontano = far; vicino = near.
+cards	it.c0169	meaning	Go	Go straight ahead.
+cards	it.c0169	note	Lei Vai	Lei form, heard from strangers. To a friend: Vai dritto.
+cards	it.c0170	note	ch le	ch is a hard k sound. Plural: le chiese.
+cards	it.c0172	note	Vado in alla	Going there: Vado in banca, not alla banca.
+cards	it.c0173	note	Lei strada	Lei form. seconda is feminine because it means la seconda strada (street).
+cards	it.c0177	note	no	in centro = downtown, with no article.
+cards	it.c0179	note	macchina autobus piedi	in + vehicle: in macchina, in autobus. But a piedi = on foot.
+cards	it.c0182	note	arrivato arrivare essere	Said by a woman; a man says arrivato. arrivare takes essere.
+cards	it.c0183	note	solo	One way: solo andata.
+cards	it.c0184	note	il	il binario = the platform (track) number.
+cards	it.c0185	note	orario	On time: in orario.
+cards	it.c0186	note	di	dell' = di + l' before a vowel.
+cards	it.c0187	note	in	Some bus and train tickets must be stamped in a machine before you board.
+cards	it.c0189	note	le	Plural: le valigie.
+cards	it.c0191	note	single	Here camera = room. A single room: una camera singola.
+cards	it.c0193	note	partire essere so noi partite	partire takes essere, so partiti agrees with noi. A group of women: partite.
+cards	it.c0196	note	me mia	Literally: the head hurts me. la testa, not mia testa.
+cards	it.c0197	note	stare bene	stare for how you feel: sto bene, sto male.
+cards	it.c0199	note	potere Lei	può: potere, Lei form.
+cards	it.c0200	meaning	go	I have to go to the pharmacy.
+cards	it.c0200	note	dovere no	dovere + infinitive. in farmacia, with no article.
+cards	it.c0201	note	avere	avere bisogno di = to need.
+cards	it.c0202	note	fa la testa	A plural thing takes fanno: mi fa male la testa, mi fanno male i piedi.
+cards	it.c0204	note	freddo	Not Ho freddo, which means I feel cold.
+cards	it.c0206	note	Lei in	Lei form. The emergency number in Italy is 112.
+cards	it.c0208	note	Lei	Lei form, to a pharmacist.
+cards	it.c0211	note	Lei	Lei form, from a doctor or pharmacist.
+cards	it.c0213	note	me	Literally: they stole the wallet from me.
+cards	it.c0217	note	fare Sono	fare + article + job is very common. Also: Sono insegnante.
+cards	it.c0218	meaning	male	colleague (male)
+cards	it.c0218	note	la le	A woman: la collega. Plural: i colleghi, le colleghe.
+cards	it.c0219	note	no	da casa, with no article.
+cards	it.c0220	note	fare	fare una pausa = to take a break.
+cards	it.c0221	meaning	in	I'm in college.
+cards	it.c0222	note	le	la lezione = the class or lesson. alle = a + le.
+cards	it.c0223	note	mia madre	Keep the article: only singular family words drop it (mia madre).
+cards	it.c0226	note	finire finisci finisce	finire is an -isc- verb: finisco, finisci, finisce.
+cards	it.c0229	note	cercare	cercare: cerco, cerchi (the h keeps the k sound).
+cards	it.c0231	note	lo la	gli before s + consonant. One student: lo studente; a woman: la studentessa.
+cards	it.c0232	note	stanca	A woman says stanca.
+cards	it.c0233	note	avere sete freddo paura	avere + noun: ho sete, ho freddo, ho paura.
+cards	it.c0234	note	contento	Said by a woman; a man says contento.
+cards	it.c0235	note	Sono	Not Sono freddo: that means I am a cold person.
+cards	it.c0237	note	avere essere	avere, not essere: literally, I have thirst.
+cards	it.c0239	note	dei cani	Of something: Ho paura dei cani.
+cards	it.c0240	note	stare bene	stare for health: sto bene, sto meglio.
+cards	it.c0244	note	in	Adjectives in -e are the same for men and women: triste.
+cards	it.c0245	note	avere	avere ragione: literally, to have reason.
+cards	it.c0247	note	bella	With a feminine noun: Che bella giornata!
+cards	it.c0248	meaning	in	I'm in a hurry.
+cards	it.c0248	note	avere	Another avere expression: literally, I have hurry.
+cards	it.c0250	note	me	Literally: soccer pleases me. The article is required.
+cards	it.c0251	note	in	A plural thing takes piacciono. film does not change in the plural.
+cards	it.c0254	note	prossimo avere	Passato prossimo: avere + visto.
+cards	it.c0256	note	piacere anch	With piacere, me too is anche a me, not anch'io.
+cards	it.c0257	note	anche	The negative of anche a me.
+cards	it.c0258	note	giocare calcio	giocare a + sport: gioco a calcio.
+cards	it.c0259	note	giocare	Instruments take suonare, not giocare.
+cards	it.c0260	meaning	go	I go to the gym.
+cards	it.c0260	note	no	in palestra, with no article.
+cards	it.c0261	meaning	in	What do you do in your free time?
+cards	it.c0261	note	in il	nel = in + il.
+cards	it.c0262	note	fare	fatto is the past participle of fare.
+cards	it.c0263	note	andare essere so noi andate	andare takes essere, so andati agrees with noi; a group of women: andate. al mare = to the seaside.
+cards	it.c0264	note	fare	fare una passeggiata = to take a walk.
+cards	it.c0266	note	preferire	preferire is an -isc- verb: preferisco.
+cards	it.c0267	note	noi	la partita = a game or match. A noi question works like Shall we...?
+cards	it.c0272	note	Me anch	Me too: anch'io.
+cards	it.c0274	note	cosa	cos'è = cosa è. Also: Cos'è?
+cards	it.c0275	note	tu va	tu form. To a stranger: Dove va?
+cards	it.c0276	note	come Roma	com'è = come è: Com'è Roma?
+cards	it.c0277	note	no	qual è has no apostrophe.
+cards	it.c0279	note	stanca	perché = because here. A woman says stanca.
+cards	it.c0280	meaning	go	If you want, we can go together.
+cards	it.c0280	note	sì	se = if. Do not confuse it with sì (yes).
+cards	it.c0281	meaning	so	so; then
+cards	it.c0281	note	andiamo	Very common to start a sentence: Allora, andiamo?
+cards	it.c0282	note	te	tè has an accent; te without it means you.
+cards	it.c0284	meaning	Me	Me too.
+cards	it.c0284	note	anche	anche + io: the e drops and an apostrophe takes its place.
+cards	it.c0286	note	biblioteca	Library = la biblioteca.
+cards	it.c0287	note	genitori	Parents = i genitori.
+cards	it.c0288	note	macchina	A camera is la macchina fotografica.
+cards	it.c0289	note	avere essere	Feeling hot uses avere, not essere.
+cards	it.c0290	note	conoscere sapere	People and places: conoscere. Facts and skills: sapere.
+cards	it.c0293	meaning	in	Right now I work in Rome.
+cards	it.c0293	note	in realtà	attualmente = currently. Actually is in realtà.
+cards	it.c0294	note	alla fine	eventualmente = if necessary. Eventually is alla fine.
+cards	it.c0297	meaning	me	This movie bores me.
+cards	it.c0297	note	dare fastidio	annoiare = to bore. To annoy: dare fastidio.
+cards	it.c0298	meaning	me	It bothers me.
+cards	it.c0299	note	attualmente	Not attualmente, which means currently.
+cards	it.c0300	note	avere fa	Uses avere: literally, it has sense. Not fa senso.
+cards	it.c0301	note	prendere	Italian makes a photo: fare, not prendere.
+cards	it.c0302	note	chiedere	Italian makes a question: fare una domanda, not chiedere una domanda.
+cards	it.c0303	note	sapere so	A learned skill uses sapere: so nuotare = I can swim.
+cards	it.c0304	note	macchiato	latte = milk. The coffee drink is a latte macchiato.
+cards	it.c0305	note	salame piccante	Not pepperoni. Spicy salami: salame piccante.
+cards	it.c0307	note	sch	sch is a hard sk sound.
+cards	it.c0312	note	il	Any cookies, not only the hard almond kind. One cookie: il biscotto.
+cards	it.c0313	note	sci	sci before u sounds like sh. Cooked ham: il prosciutto cotto.
+cards	it.c0314	note	cc ch	cc before i sounds like ch, held long; the i is silent.
+cards	it.c0315	note	un	Bottled juice: un succo d'arancia.
+cards	it.c0316	note	una in	Also called una brioche, especially in the north.
+cards	it.c0317	note	prendere	prendere = to have, when you order food or drink.
+cards	it.c0318	meaning	me	Could you bring me the check?
+cards	it.c0318	note	Lei	Lei form, to the waiter.
+cards	it.c0319	note	Lei come in	Lei form: what staff say as you come in.
+cards	it.c0320	note	Lei	Lei form: the waiter asking you.
+cards	it.c0321	note	in so sono	Usually plural in Italian, so the verb is too: le lasagne sono buone.
+cards	it.c0322	note	fine tu Lei	Say it to the host or cook after a meal; fine with tu or Lei.
+cards	it.c0323	note	tu Lei Cucina	tu form. To someone you call Lei: Cucina benissimo!
+cards	it.c0324	note	tu Lei	For a result, a meal, a new home: to anyone, tu or Lei. It never changes.
+cards	it.c0325	note	bravissima Lei È	To a woman: Sei bravissima! To someone you call Lei: È bravissimo / bravissima!
+cards	it.c0326	note	Fine	ottima agrees with idea (feminine). Fine with anyone.
+cards	it.c0327	note	Lei è	gentile is the same for men and women. To someone you call Lei: Lei è molto gentile.
+cards	it.c0328	meaning	so	You're so much fun!
+cards	it.c0329	note	una in	To a woman: Sei una gran lavoratrice. A real compliment in Italy, at work or at home.
+cards	it.c0330	note	tu Lei no	bella agrees with casa. Works with tu or Lei: no verb.
+cards	it.c0331	note	Lei Le	About clothes. To someone you call Lei: Le sta benissimo!
+cards	it.c0332	note	so bello	foto is feminine (short for fotografia), so bella, not bello.
+cards	it.c0333	note	in Lei Parli	What a stranger will say to you, in the Lei form. A friend says: Parli molto bene l'italiano.
+cards	it.c0334	meaning	so	Thanks, that's so kind of you!
+cards	it.c0334	note	in tu Lei	The usual reply in Italy: thank the person warmly. Same with tu or Lei.
+cards	it.c0335	note	in	A modest reply to praise of your Italian; a little modesty is normal in Italy.
+cards	it.c0336	note	In	In a kitchen or a bakery: very Italian.
+cards	it.c0337	meaning	So	So good!
+cards	it.c0337	note	buona questa torta	About food. For a feminine dish: Che buona questa torta!
+cards	it.c0338	note	tu Lei Ha	tu form. To someone you call Lei: Ha fatto un ottimo lavoro.
+cards	it.c0339	note	simpatica	To a woman: simpatica. Likable, fun to be with.
+cards	it.c0340	note	Lei Sta	Health and style. To someone you call Lei: Sta proprio bene!
+cards	it.c0341	note	bella	For a girl: Che bella bambina! Parents love hearing it.
+cards	it.c0342	note	in Lei Hai	What a stranger says to you, in the Lei form. A friend: Hai un'ottima pronuncia.
+cards	it.c0344	note	tu Lei	tu form. To someone you call Lei: Canta benissimo!
+cards	it.c0346	note	tu	Praise for effort. tu form.
+cards	it.c0347	meaning	so	You think so?
+cards	it.c0348	meaning	Oh come	Oh, come on, thanks!
+cards	it.c0350	meaning	so	Thanks, I'm glad you think so!
+cards	it.c0350	note	tu Lei	A warm reply with tu or Lei.
+cards	it.c0352	note	carina	To a man or a thing; to a woman: carina. Mild: also means kind.
+cards	it.c0353	note	bellissima	To a man; to a woman: bellissima. Warm.
+cards	it.c0356	note	simpatica	To a man; to a woman: simpatica. Mild; the key Italian word.
+cards	it.c0357	meaning	in	sweet (in character)
+cards	it.c0359	meaning	in	sunny (in personality)
+cards	it.c0367	note	le	Plural: le voci. Mild.
+cards	it.c0368	meaning	in	the look (in someone's eyes)
+cards	it.c0369	note	in	Always plural in Italian. Mild.
+cards	it.c0372	note	carino	To a woman, or about a thing; to a man: Che carino! Mild.
+cards	it.c0373	note	carino	To a woman; to a man: Sei carino. Warm.
+cards	it.c0374	note	carina	To a man; to a woman: carina. Mild: about a kind act.
+cards	it.c0375	note	bellissimo	To a woman; to a man: Sei bellissimo. Warm to bold.
+cards	it.c0376	note	bellissimo	To a woman; to a man: bellissimo. Warm.
+cards	it.c0381	note	bello gli	begli: bello before gli. Warm.
+cards	it.c0382	note	simpatica	To a man; to a woman: simpatica. Mild and friendly, not romantic.
+cards	it.c0383	meaning	me	You make me laugh.
+cards	it.c0385	meaning	so	I have so much fun with you.
+cards	it.c0389	meaning	so	You're so sweet.
+cards	it.c0390	meaning	so	That's so sweet of you!
+cards	it.c0397	meaning	go	Would you like to go out with me?
+cards	it.c0398	note	libero	To a woman; to a man: Sei libero. Warm.
+cards	it.c0400	meaning	me	Will you give me your number?
+cards	it.c0402	note	me	mi piaci = you please me. Bold.
+cards	it.c0408	meaning	all	Do you say that to all the girls?
+cards	it.c0408	note	tutti	To a man; a man to a woman: Lo dici a tutti? Playful.
+cards	it.c0411	note	no	Kind no; a man says: fidanzato.
+cards	it.c0412	note	no	Kind, clear no; a man says: interessato.
+cards	it.c0413	note	no	The softest no.
+cards	it.c0415	note	le	a casa = at home, or home (going there). Plural: le case.
+cards	it.c0416	note	una le	una cosa = one thing. Plural: le cose.
+cards	it.c0417	note	Non ho Che fa	Non ho tempo. / Che tempo fa?
+cards	it.c0418	note	una due volte	una volta = once; due volte = twice.
+cards	it.c0419	note	gli	Irregular plural: gli uomini.
+cards	it.c0420	note	le	Plural: le donne.
+cards	it.c0421	note	è bella	La vita è bella.
+cards	it.c0422	note	tutto	tutto il mondo = the whole world.
+cards	it.c0423	note	da questa	da questa parte = this way.
+cards	it.c0424	note	in questo	in questo modo = like this.
+cards	it.c0425	note	Un	Un momento! = just a moment!
+cards	it.c0426	note	È libero questo	È libero questo posto? = is this seat free?
+cards	it.c0428	note	Vado al lavori	Vado al lavoro. Plural: i lavori.
+cards	it.c0429	note	le	Never changes: le città.
+cards	it.c0431	note	le	Also: l'auto. Plural: le macchine.
+cards	it.c0432	note	papà No mio	Day to day: il papà. No article with mio: mio padre.
+cards	it.c0433	note	mamma	Day to day: la mamma.
+cards	it.c0436	note	mio	il mio ragazzo = my boyfriend.
+cards	it.c0437	note	mia	la mia ragazza = my girlfriend.
+cards	it.c0438	note	la bambini	A girl: la bambina. Kids: i bambini.
+cards	it.c0439	note	signor Rossi	Before a name it drops the -e: il signor Rossi.
+cards	it.c0440	meaning	ma	lady; Mrs.; ma'am
+cards	it.c0441	note	le	Plural: le storie.
+cards	it.c0442	note	in	Masculine though it ends in -a: i problemi.
+cards	it.c0443	note	fare una	fare una domanda = to ask a question.
+cards	it.c0444	note	le	Plural: le risposte.
+cards	it.c0445	note	le	Plural: le parole.
+cards	it.c0447	note	Parli	Parli altre lingue?
+cards	it.c0448	note	in le mani	Feminine though it ends in -o. Plural: le mani.
+cards	it.c0449	note	Mi fa male	Mi fa male la testa = I have a headache.
+cards	it.c0451	note	per favore	Chiudi la porta, per favore.
+cards	it.c0452	meaning	window	window
+cards	it.c0453	note	In via Roma	In addresses: via Roma.
+cards	it.c0455	note	stamattina	stamattina = this morning.
+cards	it.c0456	note	stasera	stasera = this evening, tonight.
+cards	it.c0457	note	oggi	oggi pomeriggio = this afternoon.
+cards	it.c0458	note	Che ore sono le	Che ore sono? = what time is it? Plural: le ore.
+cards	it.c0459	note	Un	Un minuto! = just a minute!
+cards	it.c0460	note	scorsa	la settimana scorsa = last week.
+cards	it.c0461	note	prossimo	il mese prossimo = next month.
+cards	it.c0463	note	non ho	Always plural: non ho soldi.
+cards	it.c0465	note	italiano	Masculine: il cibo italiano.
+cards	it.c0466	note	fredda	Feminine: l'acqua fredda.
+cards	it.c0467	note	bianco rosso	vino bianco, vino rosso.
+cards	it.c0468	note	in	in treno = by train.
+cards	it.c0470	note	gli	Also: l'hotel. Plural: gli alberghi.
+cards	it.c0473	note	in	in ufficio = at the office.
+cards	it.c0474	note	libri	Plural: i libri.
+cards	it.c0475	note	Ti piace italiana	Ti piace la musica italiana?
+cards	it.c0477	note	le	Feminine, and never changes: le foto.
+cards	it.c0478	note	Buon	Buon viaggio! = have a good trip!
+cards	it.c0479	note	in le	in vacanza = on vacation. Often plural: le vacanze.
+cards	it.c0480	note	le	Plural: le feste.
+cards	it.c0482	note	al	al mare = to the beach, at the beach.
+cards	it.c0484	note	Piove	Piove = it's raining.
+cards	it.c0486	note	un bel	Masculine: un bel colore.
+cards	it.c0487	note	Che bella	Che bella idea!
+cards	it.c0488	note	le	Never changes: le verità.
+cards	it.c0489	note	mio	amore mio = my love.
+cards	it.c0490	note	mia è grande	Singular: la mia famiglia è grande.
+cards	it.c0491	note	cani	Plural: i cani.
+cards	it.c0493	note	dottore	Also: il dottore, which is also a title.
+cards	it.c0494	note	in è simpatica	Singular in Italian: la gente è simpatica.
+cards	it.c0495	note	avere di	avere bisogno di = to need.
+cards	it.c0496	note	avere	avere ragione = to be right.
+cards	it.c0497	note	avere	avere paura = to be scared.
+cards	it.c0498	note	le	Plural: le sedie.
+cards	it.c0499	note	tavoli	Plural: i tavoli.
+cards	it.c0500	note	le	Plural: le lettere.
+cards	it.c0501	note	per	per caso = by any chance.
+cards	it.c0502	note	le	le notizie = the news.
+cards	it.c0503	note	per	per terra = on the floor.
+cards	it.c0504	note	all aperta	all'aria aperta = outdoors.
+cards	it.c0505	note	Buon	Buon compleanno!
+cards	it.c0506	note	fiori	Masculine. Plural: i fiori.
+cards	it.c0507	note	per	per esempio = for example.
+cards	it.c0508	note	alla in	alla fine = in the end.
+cards	it.c0509	note	all	all'inizio = at first.
+cards	it.c0510	note	Che	Che sorpresa!
+cards	it.c0511	note	primo	il primo piatto = the first course.
+cards	it.c0514	note	al	al mercato = at the market.
+cards	it.c0515	note	in	in spiaggia = on the beach.
+cards	it.c0516	note	in	in montagna = in the mountains.
+cards	it.c0517	note	io sono sei è siamo siete	io sono. Irregular: sei, è, siamo, siete, sono.
+cards	it.c0518	note	io ho hai ha	io ho. Irregular. The h is silent: ho, hai, ha.
+cards	it.c0519	note	io faccio	io faccio. Irregular.
+cards	it.c0520	note	io	io dico. Irregular.
+cards	it.c0521	note	io posso	io posso. Irregular.
+cards	it.c0522	meaning	go	to go
+cards	it.c0522	note	io vado	io vado. Irregular.
+cards	it.c0523	note	io vedo visto	io vedo. Regular; past participle visto.
+cards	it.c0524	note	io so	io so. Irregular.
+cards	it.c0525	meaning	come	to come
+cards	it.c0525	note	io vengo	io vengo. Irregular.
+cards	it.c0526	note	io devo	io devo. Irregular.
+cards	it.c0527	note	io voglio vorrei	io voglio. Irregular. Polite: vorrei.
+cards	it.c0528	note	io sto Sto bene	io sto. Irregular. Sto bene.
+cards	it.c0529	note	io	io do. Irregular.
+cards	it.c0530	note	io parlo	io parlo. Regular.
+cards	it.c0531	note	io trovo	io trovo. Regular.
+cards	it.c0532	note	io sento	io sento. Regular.
+cards	it.c0533	note	io lascio	io lascio. Regular.
+cards	it.c0534	note	io prendo preso	io prendo. Regular; past participle preso.
+cards	it.c0535	note	io guardo No la	io guardo. Regular. No "at": guardo la TV.
+cards	it.c0536	note	io metto messo	io metto. Regular; past participle messo.
+cards	it.c0537	note	io penso te	io penso. Regular. penso a te = I think about you.
+cards	it.c0538	note	io passo	io passo. Regular.
+cards	it.c0539	note	io credo Credo di sì so	io credo. Regular. Credo di sì = I think so.
+cards	it.c0540	note	io porto	io porto. Regular.
+cards	it.c0541	meaning	come go	to come back; to go back
+cards	it.c0541	note	io torno essere	io torno. Regular. Past with essere.
+cards	it.c0542	note	io chiamo Mi	io chiamo. Regular. Mi chiamo = my name is.
+cards	it.c0543	note	io capisco	io capisco. Regular -isc- verb.
+cards	it.c0544	note	io conosco	io conosco. Regular; past participle conosciuto.
+cards	it.c0545	note	io	io vivo. Regular; past participle vissuto.
+cards	it.c0546	meaning	go	to go out
+cards	it.c0546	note	io esco	io esco. Irregular.
+cards	it.c0547	note	io resto essere	io resto. Regular. Past with essere.
+cards	it.c0548	note	io aspetto No il treno	io aspetto. Regular. No "for": aspetto il treno.
+cards	it.c0549	note	io chiedo	io chiedo. Regular; past participle chiesto.
+cards	it.c0550	note	io finisco	io finisco. Regular -isc- verb.
+cards	it.c0551	note	io cerco No le chiavi	io cerco. Regular. No "for": cerco le chiavi.
+cards	it.c0552	meaning	go in come	to go in; to come in
+cards	it.c0552	note	io entro essere	io entro. Regular. Past with essere.
+cards	it.c0553	note	io arrivo essere	io arrivo. Regular. Past with essere.
+cards	it.c0554	note	io	io rimango. Irregular.
+cards	it.c0555	note	io aiuto	io aiuto. Regular.
+cards	it.c0556	note	io lavoro	io lavoro. Regular.
+cards	it.c0557	note	io mangio	io mangio. Regular.
+cards	it.c0558	note	io bevo	io bevo. Irregular.
+cards	it.c0559	note	io scrivo scritto	io scrivo. Regular; past participle scritto.
+cards	it.c0560	note	io leggo letto	io leggo. Regular; past participle letto.
+cards	it.c0561	note	io gioco	io gioco. Regular. For music: suonare.
+cards	it.c0562	note	io perso	io perdo. Regular; past participle perso.
+cards	it.c0563	note	io pago No il caffè	io pago. Regular. No "for": pago io il caffè.
+cards	it.c0564	note	io compro	io compro. Regular.
+cards	it.c0565	note	io aperto	io apro. Regular; past participle aperto.
+cards	it.c0566	note	io chiuso	io chiudo. Regular; past participle chiuso.
+cards	it.c0567	note	io	io comincio. Regular.
+cards	it.c0568	note	io dormo	io dormo. Regular.
+cards	it.c0569	note	io parto essere	io parto. Regular. Past with essere.
+cards	it.c0570	note	io ascolto No la radio	io ascolto. Regular. No "to": ascolto la radio.
+cards	it.c0571	note	io	io rispondo. Regular; past participle risposto.
+cards	it.c0572	note	io mando	io mando. Regular.
+cards	it.c0573	note	io ricordo	io ricordo. Regular.
+cards	it.c0574	note	io	io dimentico. Regular.
+cards	it.c0575	note	io	io cambio. Regular.
+cards	it.c0576	note	io	io imparo. Regular. imparare a + verb.
+cards	it.c0577	note	io studio	io studio. Regular.
+cards	it.c0578	note	io	io uso. Regular.
+cards	it.c0579	note	io abito Abito Roma	io abito. Regular. Abito a Roma.
+cards	it.c0580	note	io preferisco	io preferisco. Regular -isc- verb.
+cards	it.c0581	note	io Sembra facile	io sembro. Regular. Sembra facile.
+cards	it.c0582	note	lui Cosa succede	Mostly the lui form: Cosa succede? Past participle successo.
+cards	it.c0583	note	io	io muoio. Irregular.
+cards	it.c0584	note	nato sono Boston	Past participle nato: sono nato a Boston.
+cards	it.c0585	note	costa costano	Mostly costa / costano.
+cards	it.c0586	note	io	io vendo. Regular.
+cards	it.c0587	note	io	io provo. Regular.
+cards	it.c0588	note	io	io spiego. Regular.
+cards	it.c0589	note	io	io insegno. Regular.
+cards	it.c0590	note	io	io mostro. Regular.
+cards	it.c0591	note	io offro Offro	io offro. Past participle offerto. Offro io! = my treat!
+cards	it.c0592	meaning	go	to go up; to get on
+cards	it.c0592	note	io	io salgo. Irregular.
+cards	it.c0593	meaning	go	to go down; to get off
+cards	it.c0593	note	io scendo	io scendo. Past participle sceso.
+cards	it.c0594	note	io	io tengo. Irregular.
+cards	it.c0595	note	io essere	io cado. Regular. Past with essere.
+cards	it.c0596	note	io	io decido. Past participle deciso.
+cards	it.c0597	note	io	io corro. Past participle corso.
+cards	it.c0598	note	io	io ballo. Regular.
+cards	it.c0599	note	io	io canto. Regular.
+cards	it.c0600	note	io	io nuoto. Regular.
+cards	it.c0601	note	io cucino	io cucino. Regular.
+cards	it.c0602	note	io viaggio	io viaggio. Regular.
+cards	it.c0603	note	io	io cammino. Regular.
+cards	it.c0604	note	io	io incontro. Regular.
+cards	it.c0605	note	io	io invito. Regular.
+cards	it.c0606	note	io	io guido. Regular.
+cards	it.c0607	note	io	io amo. Strong: for a partner, or a deep love.
+cards	it.c0608	note	io di sì so	io spero. Regular. Spero di sì = I hope so.
+cards	it.c0609	note	io	io rido. Past participle riso.
+cards	it.c0610	note	io	io piango. Past participle pianto.
+cards	it.c0611	note	io vinto	io vinco. Past participle vinto.
+cards	it.c0612	note	io	io ricevo. Regular.
+cards	it.c0613	note	io	io spendo. Past participle speso.
+cards	it.c0614	note	Mi me	Mi manchi = I miss you (you are missing to me).
+cards	it.c0615	meaning	serve	to be needed; to serve
+cards	it.c0615	note	Mi serve una	Mi serve una penna = I need a pen.
+cards	it.c0616	note	Basta così	Basta così = that's enough.
+cards	it.c0617	note	io di	io smetto. smettere di + verb.
+cards	it.c0618	note	io	io accendo. Past participle acceso.
+cards	it.c0619	note	io	io spengo. Irregular.
+cards	it.c0620	note	io lavo	io lavo. Regular.
+cards	it.c0621	note	io	io pulisco. Regular -isc- verb.
+cards	it.c0622	note	io	io prenoto. Regular.
+cards	it.c0623	meaning	go	to turn; to go around
+cards	it.c0623	note	io	io giro. Regular.
+cards	it.c0624	note	io	io sbaglio. Regular.
+cards	it.c0625	note	io	io cresco. Past participle cresciuto.
+cards	it.c0626	note	io tocco Tocca te	io tocco. Tocca a te = it's your turn.
+cards	it.c0627	note	buona buon giorno	Woman: buona. Before a noun: buon giorno.
+cards	it.c0629	note	nuova	Woman: nuova.
+cards	it.c0630	note	bella bel	Woman: bella. Before a noun: bel, bell', bello.
+cards	it.c0631	note	piccola	Woman: piccola.
+cards	it.c0634	note	prima	Woman: prima.
+cards	it.c0636	note	stessa lo	Woman: stessa. lo stesso = the same thing.
+cards	it.c0639	note	alta	Woman: alta.
+cards	it.c0641	note	cara	Woman: cara.
+cards	it.c0646	note	brava	Woman: brava. Bravo! = well done!
+cards	it.c0647	note	giusta	Woman: giusta. Giusto! = exactly!
+cards	it.c0649	note	pronta	Woman: pronta. On the phone, Pronto? = hello?
+cards	it.c0650	note	contenta	Woman: contenta.
+cards	it.c0653	note	stanca stanchi	Woman: stanca. Plural: stanchi.
+cards	it.c0654	note	libera	Woman: libera. Free of charge: gratis.
+cards	it.c0658	note	fredda	Woman: fredda.
+cards	it.c0659	note	aperta	Woman: aperta.
+cards	it.c0664	note	pulita	Woman: pulita.
+cards	it.c0668	note	bianca bianchi	Woman: bianca. Plural: bianchi.
+cards	it.c0669	note	nera	Woman: nera.
+cards	it.c0670	note	rossa	Woman: rossa.
+cards	it.c0672	note	gialla	Woman: gialla.
+cards	it.c0673	note	Gli	Woman: azzurra. Gli Azzurri = Italy's teams.
+cards	it.c0674	note	le scarpe	Never changes: le scarpe blu.
+cards	it.c0686	note	il	Same for both. il migliore = the best.
+cards	it.c0688	note	prossima	Woman: prossima.
+cards	it.c0699	note	parlo tedesco	Before the verb: non parlo tedesco.
+cards	it.c0700	meaning	non	more; any more (non… più)
+cards	it.c0700	note	il bello	il più bello = the most beautiful.
+cards	it.c0701	note	molti amici	Before a noun it agrees: molti amici.
+cards	it.c0702	note	acqua un po	Before a noun it agrees: poca acqua. un po' = a little.
+cards	it.c0703	note	troppa gente	Before a noun it agrees: troppa gente.
+cards	it.c0704	meaning	so	so much; so
+cards	it.c0704	note	amici	Before a noun it agrees: tanti amici.
+cards	it.c0705	note	so	così così = so-so.
+cards	it.c0706	note	Sto fine	Sto bene = I'm fine.
+cards	it.c0707	note	Non	Non c'è male = not bad.
+cards	it.c0708	meaning	in	already; yet (in a question)
+cards	it.c0708	note	Hai mangiato	Hai già mangiato?
+cards	it.c0709	meaning	non	still; again; yet (non… ancora)
+cards	it.c0709	note	Non	Non ancora = not yet.
+cards	it.c0710	note	mangio qui	After the verb: mangio sempre qui.
+cards	it.c0711	meaning	non	never (non… mai); ever
+cards	it.c0711	note	Non bevo il latte	Non bevo mai il latte.
+cards	it.c0712	note	ora	Also: ora.
+cards	it.c0713	note	Prima mangio esco	Prima mangio, poi esco.
+cards	it.c0714	note	di	prima di + noun = before.
+cards	it.c0715	note	cena	dopo cena = after dinner.
+cards	it.c0716	note	pomeriggio	oggi pomeriggio = this afternoon.
+cards	it.c0717	note	sera	domani sera = tomorrow evening.
+cards	it.c0718	note	questa sera	Short for questa sera.
+cards	it.c0720	note	È in ritardo	È tardi = it's late. Late for something: in ritardo.
+cards	it.c0721	note	Arrivo	Arrivo subito!
+cards	it.c0722	note	vengo qui	After the verb: vengo spesso qui.
+cards	it.c0724	note	là li	Also: là. The accent matters: li = them.
+cards	it.c0725	meaning	in	inside; in
+cards	it.c0726	note	Andiamo cena	Andiamo fuori a cena?
+cards	it.c0727	note	su	su e giù = up and down.
+cards	it.c0729	note	domani	Forse domani.
+cards	it.c0731	note	Sei bravo	Sei proprio bravo!
+cards	it.c0732	note	Sono le otto	Sono quasi le otto.
+cards	it.c0734	note	una volta	almeno una volta.
+cards	it.c0735	note	Io resto qui	Io invece resto qui.
+cards	it.c0736	note	soldi	Never changes: abbastanza soldi.
+cards	it.c0737	note	Parla	Parla piano! Also a noun: floor, plan.
+cards	it.c0738	note	non posso	Purtroppo non posso.
+cards	it.c0739	note	sei arrivato	Finalmente sei arrivato!
+cards	it.c0740	note	vero	vero + -mente.
+cards	it.c0741	note	me	Neanch'io = me neither.
+cards	it.c0742	note	È arrivata	È appena arrivata.
+cards	it.c0743	note	è tardi	Ormai è tardi.
+cards	it.c0744	note	mangiamo	Intanto mangiamo.
+cards	it.c0745	note	sicuro	sicuro + -mente.
+cards	it.c0746	note	dieci euro	circa dieci euro.
+cards	it.c0747	note	Torno	Torno indietro.
+cards	it.c0748	note	come in	Avanti! = come in!
+cards	it.c0749	note	sono stanco	Usually dropped: sono stanco.
+cards	it.c0750	note	sei italiano	Usually dropped: sei italiano?
+cards	it.c0751	note	con	After a preposition: con lui.
+cards	it.c0753	note	siamo qui	Usually dropped: siamo qui.
+cards	it.c0755	note	il amico	Also "their": il loro amico.
+cards	it.c0756	meaning	me	me; to me; myself
+cards	it.c0756	note	vedi piace	Before the verb: mi vedi? / mi piace.
+cards	it.c0757	note	chiamo dopo	Before the verb: ti chiamo dopo.
+cards	it.c0758	note	sono	ci sono = there are.
+cards	it.c0759	meaning	all	you all; to you all
+cards	it.c0759	note	aspetto all	Vi aspetto = I'll wait for you all.
+cards	it.c0760	meaning	in	himself; herself; one (people in general)
+cards	it.c0760	note	chiama Marco Come dice	Si chiama Marco. / Come si dice?
+cards	it.c0761	note	le	For women or feminine things: le.
+cards	it.c0762	note	vuoi	Ne vuoi? = do you want some?
+cards	it.c0763	note	per con	per me, con me.
+cards	it.c0764	note	per con	per te, con te.
+cards	it.c0765	note	mia miei mie	mia, miei, mie: agrees with the thing owned.
+cards	it.c0766	note	tua tuoi tue	tua, tuoi, tue.
+cards	it.c0767	note	sua	sua, suoi, sue. Formal "your": Suo.
+cards	it.c0768	note	nostra	nostra, nostri, nostre.
+cards	it.c0770	note	questa questi queste	questa, questi, queste.
+cards	it.c0771	note	quella quel	quella. Before a noun: quel, quell', quello.
+cards	it.c0772	note	è	Chi è? = who is it?
+cards	it.c0773	note	fai	Also just cosa or che: Cosa fai?
+cards	it.c0774	note	è qual quali	Before è: qual è. Plural: quali.
+cards	it.c0775	note	la ragazza con esco	la ragazza con cui esco.
+cards	it.c0776	note	Vuoi	Vuoi qualcosa?
+cards	it.c0778	note	Non vedo nulla	Non vedo niente. Also: nulla.
+cards	it.c0779	note	niente	Same as niente.
+cards	it.c0780	meaning	no	nobody; no one
+cards	it.c0780	note	Non	Non c'è nessuno.
+cards	it.c0781	note	Ciao	Ciao a tutti!
+cards	it.c0782	note	paga per sé	Singular verb: ognuno paga per sé.
+cards	it.c0783	meaning	all	anyone (at all); whoever
+cards	it.c0783	note	può venire	Chiunque può venire.
+cards	it.c0784	note	che	ciò che = what, the thing that.
+cards	it.c0785	note	Marco	di Marco = Marco's. Before a vowel: d'.
+cards	it.c0786	meaning	in	to; at; in (a city)
+cards	it.c0786	note	Roma casa	a Roma, a casa.
+cards	it.c0787	note	dal medico	dal medico = at the doctor's.
+cards	it.c0788	note	Italia treno	in Italia, in treno.
+cards	it.c0789	note	me il latte	con me, con il latte.
+cards	it.c0790	meaning	in	for; through; in order to
+cards	it.c0790	note	te imparare	per te; per imparare.
+cards	it.c0791	note	sul tavolo	sul tavolo = on the table.
+cards	it.c0792	meaning	in	between; among; in (time from now)
+cards	it.c0792	note	due giorni in	tra due giorni = in two days.
+cards	it.c0793	meaning	tra	between (same as tra)
+cards	it.c0793	note	tre ore	Pick the one that sounds better: fra tre ore.
+cards	it.c0794	note	di il della dei delle	di + il. Also: della, dei, delle.
+cards	it.c0795	note	il alla alle	a + il. Also: alla, ai, alle.
+cards	it.c0796	meaning	in	in the (masculine)
+cards	it.c0796	note	in il nella	in + il. Also: nella, nei, nelle.
+cards	it.c0797	note	da il dai	da + il. Also: dalla, dai, dalle.
+cards	it.c0798	note	su il sulla	su + il. Also: sulla, sui, sulle.
+cards	it.c0799	note	zucchero	senza zucchero.
+cards	it.c0800	note	cena partire	prima di cena; prima di partire.
+cards	it.c0801	note	domani	fino a domani.
+cards	it.c0802	note	le otto	verso le otto = around eight.
+cards	it.c0803	note	il	contro il muro.
+cards	it.c0804	note	il viaggio	durante il viaggio.
+cards	it.c0805	note	il tavolo	sopra il tavolo.
+cards	it.c0806	note	il letto	sotto il letto.
+cards	it.c0807	note	la casa	dietro la casa.
+cards	it.c0808	meaning	in	in front of
+cards	it.c0808	note	alla stazione	davanti alla stazione.
+cards	it.c0809	note	me	accanto a me.
+cards	it.c0810	note	alla stazione	vicino alla stazione.
+cards	it.c0811	note	casa	lontano da casa.
+cards	it.c0812	note	me in	secondo me = in my opinion. Also: second.
+cards	it.c0813	note	tutti lui	tutti tranne lui.
+cards	it.c0814	note	del treno	invece del treno.
+cards	it.c0815	note	il	oltre il ponte.
+cards	it.c0816	note	il	attraverso il parco.
+cards	it.c0817	note	alla piazza	intorno alla piazza.
+cards	it.c0818	note	venerdì	entro venerdì = by Friday.
+cards	it.c0819	note	della pioggia	a causa della pioggia.
+cards	it.c0820	note	so vieni	Never dropped, unlike English: so che vieni.
+cards	it.c0821	note	ed Marco Elena	Before a vowel, often ed: Marco ed Elena.
+cards	it.c0822	note	vuoi vengo anch	Se vuoi, vengo anch'io.
+cards	it.c0823	note	ma come	A bit stronger than ma; can come last.
+cards	it.c0826	meaning	so	so; therefore
+cards	it.c0826	note	Piove resto casa	Piove, quindi resto a casa.
+cards	it.c0827	note	grazie	Comunque, grazie.
+cards	it.c0828	note	piove esco	Anche se piove, esco.
+cards	it.c0830	note	sei qui cena	Visto che sei qui, resta a cena.
+cards	it.c0831	note	mangio guardo la	Mentre mangio, guardo la TV.
+cards	it.c0833	meaning	so	so; that's why
+cards	it.c0833	note	Sono stanco vado letto	Sono stanco, perciò vado a letto.
+cards	it.c0834	note	ne so	per quanto ne so = as far as I know.
+cards	it.c0835	note	piove prendo	Siccome piove, prendo l'autobus.
+cards	it.c0836	meaning	in	in fact; indeed
+cards	it.c0837	meaning	so	so; well then
+cards	it.c0837	note	in	A little formal in writing; common to restart a talk.
+cards	it.c0838	note	Aspetto arrivi	Aspetto finché arrivi.
+cards	it.c0839	note	no sì	Corrects yourself: no, anzi, sì.
+cards	it.c0840	note	è vero	Eppure è vero.
+cards	it.c0841	note	ho capito	Understanding: Ah, ho capito!
+cards	it.c0843	note	Scusi	Casual. To a stranger: Scusi?
+cards	it.c0844	note	Scusi	To friends. To a stranger: Scusi!
+cards	it.c0845	note	non lo so	Starts an answer: Beh, non lo so.
+cards	it.c0846	meaning	No idea	Dunno! / No idea!
+cards	it.c0847	meaning	so	Hmm, I'm not so sure…
+cards	it.c0848	meaning	Come	Come on! (urging)
+cards	it.c0849	meaning	Come	Really? / Come off it!
+cards	it.c0850	meaning	go	Here you go! / There!
+cards	it.c0850	note	il caffè	Ecco il caffè. Ecco! = that's it!
+cards	it.c0853	note	all	Bored or annoyed; childlike but used by all.
+cards	it.c0859	meaning	Oh	Oh my goodness!
+cards	it.c0860	note	Che	Che peccato! is warmer.
+cards	it.c0862	meaning	all	Don't mention it! / Not at all!
+cards	it.c0862	note	tu Si	tu form. To a stranger: Si figuri!
+cards	it.c0863	note	Fine	Fine with anyone.
+cards	it.c0864	meaning	All	OK! / All right!
+cards	it.c0865	meaning	Go	Go! / You can do it!
+cards	it.c0870	meaning	Oh Fine	Oh well / Fine, whatever
+cards	it.c0870	note	va bene	Short for va bene; resigned.
+cards	it.c0871	meaning	all	Not at all! / As if!
+cards	it.c0871	note	no	Strong no.
+cards	it.c0873	note	libro	il libro. Plural: i.
+cards	it.c0874	note	zio gli	lo zio. Plural: gli. Also a pronoun: him, it.
+cards	it.c0875	note	casa le	la casa. Plural: le. Also a pronoun: her, it.
+cards	it.c0876	note	libri	i libri.
+cards	it.c0877	note	amici	gli amici. Also a pronoun: to him.
+cards	it.c0879	note	libro uno	un libro. Before s + consonant or z: uno.
+cards	it.c0880	note	casa un	una casa. Before a vowel: un'amica.
+cards	it.c0882	note	si	With the accent. si without it = oneself.
+cards	it.c0883	note	vieni	Also tags a question: vieni, no?
+cards	it.c0884	meaning	all	all; everything
+cards	it.c0884	note	il giorno all tutti tutte	tutto il giorno = all day. tutta, tutti, tutte.
+cards	it.c0885	note	un caffè	un altro caffè = another espresso.
+cards	it.c0886	note	giorno	Never changes: ogni giorno.
+cards	it.c0887	note	giorno	qualche giorno = a few days.
+cards	it.c0888	note	amiche	Woman: alcune amiche.
+cards	it.c0889	note	Dov	Dov'è…? = where is…?
+cards	it.c0890	note	stai te	Come stai? / come te = like you.
+cards	it.c0891	note	quanta quanti quante	Agrees: quanta, quanti, quante.
+cards	it.c0892	note	gli	Plural: gli zeri.
+cards	it.c0894	note	ventitré	Compounds take an accent: ventitré.
+cards	it.c0916	note	la	The only feminine day: la domenica = on Sundays.
+cards	it.c0929	note	mezza	e mezza = half past (time).
+dialog	it.g004	tr	in No	Do you want sugar in your coffee? / No, thanks, I take it without.
+dialog	it.g005	tr	Luca	Hi, Luca! How are you? / Great! And you?
+dialog	it.g006	tr	Rossi Fine	Good evening, Mr. Rossi. How are you? / Fine, thank you. And you?
+dialog	it.g007	tr	Matteo	This is my friend Matteo. / Nice to meet you, Matteo!
+dialog	it.g009	tr	Giorgia	Hi! What's your name? / My name is Giorgia, and you?
+dialog	it.g010	tr	Paolo Bianchi	Good morning, what's your name? / My name is Paolo Bianchi.
+dialog	it.g011	tr	Megan in	Where are you from, Megan? / I'm American, but now I live in Florence.
+dialog	it.g013	tr	in Bologna	Where do you live now? / I live in Bologna, near the university.
+dialog	it.g015	tr	in	Where do your parents live? / My parents live in Naples.
+dialog	it.g017	tr	Simone	Who's that guy? / That's my boyfriend, Simone.
+dialog	it.g020	tr	go	Is it one o'clock already? / Yes, let's go to lunch!
+dialog	it.g022	tr	in	What's the weather like in Milan? / It's raining today, but tomorrow it'll be sunny.
+dialog	it.g029	tr	spaghetti	And for you, sir? / I'll have the spaghetti with tomato sauce.
+dialog	it.g033	tr	me	How does it look on me? / It looks great on you!
+dialog	it.g034	tr	in	What time do you wake up in the morning? / I wake up at six thirty.
+dialog	it.g036	tr	in No	Do you live in a house? / No, I live in an apartment downtown.
+dialog	it.g038	tr	Go	Where is the station? / Go straight and then turn right.
+dialog	it.g039	tr	No	Is the cathedral far? / No, it's five minutes on foot.
+dialog	it.g040	tr	in	Is there a pharmacy near here? / Yes, there's one in the square.
+dialog	it.g042	tr	Bologna	What time does the train to Bologna leave? / At 6:20 p.m., from platform three.
+dialog	it.g048	tr	in	Where does it hurt? / Here, in my knee.
+dialog	it.g051	tr	No	Are you going to the office today? / No, on Fridays I work from home.
+dialog	it.g052	tr	go	Shall we go out tonight? / I can't, I have an exam tomorrow.
+dialog	it.g054	tr	go pizzeria	I'm hungry. Shall we eat something? / Yes, let's go to a pizzeria.
+dialog	it.g055	tr	all	How are you? / I'm tired, I worked all day.
+dialog	it.g059	tr	gelato Me	I really like gelato. / Me too!
+dialog	it.g061	tr	Roma come	Roma is playing tonight. Shall we watch the game? / Sure, I'll come over to your place at nine.
+dialog	it.g062	tr	me Luca	Who is it? / It's me, Luca!
+dialog	it.g066	tr	Me go	I'm tired. / Me too. Shall we go home?
+dialog	it.g067	tr	Marco	Do you know Marco? / Yes, we work together.
+dialog	it.g068	tr	me no flash	Excuse me, can I take a picture? / Yes, but no flash.
+dialog	it.g069	tr	so	Let's take the eight o'clock train, so we get there earlier. / Yes, that makes sense.
+dialog	it.g071	tr	cappuccino	Good morning, what can I get you? / I'd like a cappuccino and a croissant.
+dialog	it.g072	tr	No me	Anything else? / No, thank you. Could you bring me the check?
+dialog	it.g074	tr	me	And you, what will you have? / The lasagna for me.
+dialog	it.g075	tr	so	Thanks for dinner, everything was delicious. / I'm so glad! Would you like a coffee?
+dialog	it.g077	tr	go idea	Shall we go to the beach on Sunday? / Great idea!
+dialog	it.g079	tr	so	What a lovely home! / Thanks, that's so kind of you!
+dialog	it.g084	tr	risotto so	Do you like the risotto? / Yes, it's so good!
+dialog	it.g085	tr	so	Your Italian is perfect! / You think so? I still have a lot to learn.
+dialog	it.g086	tr	Oh come	You're a really good dancer! / Oh, come on, thanks!
+dialog	it.g091	tr	so	I really like your garden. / Thanks, I'm glad you think so!
+dialog	it.g095	tr	me	Why are you laughing? / Because you make me laugh!
+dialog	it.g096	tr	Me	I like talking with you. / Me too. Shall we have another espresso?
+dialog	it.g097	tr	café	Do you feel like getting a coffee? / Sure! I know a café near here.
+dialog	it.g098	tr	go me	Would you like to go out with me on Saturday? / Yes! Where shall we go?
+dialog	it.g100	tr	me	Will you give me your number? / Sure, here it is.
+dialog	it.g101	tr	No single	Can I ask you a question? Are you seeing someone? / No, I'm single. Why?
+dialog	it.g103	tr	go	I missed you! / I missed you too! How did the trip go?
+dialog	it.g104	tr	come	Will you come to dinner at my place tomorrow? / I'd love to! What time?
+dialog	it.g106	tr	all	You're the most beautiful girl at the party. / Do you say that to all the girls?
+dialog	it.g107	tr	in	You're the nicest person in the world! / You're exaggerating!
+dialog	it.g111	tr	go me	Would you like to go out with me, just the two of us? / You're very sweet, but I'd rather we stayed friends.
+dialog	it.g112	tr	go no	Shall we go dancing tonight? / That's kind of you, but no, thanks. I'm tired.
+dialog	it.g113	tr	Ah go	The museum is closed on Mondays. / Ah! Then let's go tomorrow.
+dialog	it.g114	tr	Oh	Oh! What a surprise! / Hi! I got back yesterday.
+dialog	it.g115	tr	café	See you at eight at the café. / Huh? I didn't hear.
+dialog	it.g116	tr	Marco	Hey, Marco! How's it going? / Good, and you?
+dialog	it.g118	tr	Luca no idea	Where's Luca? / Dunno! I have no idea.
+dialog	it.g119	tr	no	Do you think it'll rain tomorrow? / Hmm! Maybe yes, maybe no.
+dialog	it.g120	tr	Come come	I don't feel like going out. / Come on, come with us!
+dialog	it.g121	tr	No	I won a hundred euros! / No way! Really?
+dialog	it.g122	tr	cappuccino	A cappuccino, please. / Here you are!
+dialog	it.g124	tr	go Capri no	Shall we go on vacation to Capri? / I wish! But I have no money.
+dialog	it.g126	tr	me	Ouch! My foot hurts. / Let me see.
+dialog	it.g128	tr	no	There's no school tomorrow! / Hooray!
+dialog	it.g129	tr	in	Darn, I've lost my keys! / Maybe they're in the car?
+dialog	it.g131	tr	Oh so go	Oh my goodness, it's so hot! / Yes, let's go to the beach!
+dialog	it.g132	tr	come	I can't come tonight. / Too bad! Another time, then.
+dialog	it.g137	tr	Come	I can't do it anymore! / Come on, you're almost there!
+dialog	it.g142	tr	Oh pizza	The restaurant is closed. / Oh well, let's have a pizza at home.
+dialog	it.g143	tr	all go	Are you tired? / Not at all! Let's go dancing!
+dialog	it.g144	tr	in	There's a bug in my salad! / Gross! Call the waiter.
+examples	it.e001	tr	gnocchi	On Sundays Grandma makes homemade gnocchi.
+examples	it.e004	tr	me	Excuse me, do you know where the station is?
+examples	it.e007	tr	in	I'm thirty, and I've lived in Turin for two years.
+examples	it.e008	tr	so	I'm learning Italian so I can talk to my relatives.
+examples	it.e009	tr	Palermo	My family is of Italian descent: my great-grandparents were from Palermo.
+examples	it.e010	tr	Giorgio in	Uncle Giorgio lives in Rome with his wife and kids.
+examples	it.e012	tr	in America	My grandparents are Italian, but my parents were born in America.
+examples	it.e014	tr	in	The restaurant opens at eight in the evening.
+examples	it.e016	tr	In go	In August it's hot, and a lot of Italians go to the beach.
+examples	it.e017	tr	go	On Saturday mornings I go to the market with my mother.
+examples	it.e019	tr	tiramisù	Try this tiramisù: it's delicious!
+examples	it.e020	tr	In cappuccino	In Italy breakfast is often a cappuccino and a croissant.
+examples	it.e024	tr	me in	Excuse me, can I pay by card or only in cash?
+examples	it.e028	tr	In cafés in	In summer there are two cafés in the square with tables outside.
+examples	it.e029	tr	in Siena	The old town in Siena is beautiful.
+examples	it.e030	tr	me	Excuse me, how do I get downtown by bus?
+examples	it.e032	tr	me in	Excuse me, is breakfast included in the price?
+examples	it.e035	tr	so	I have a fever, so I'm not going to work today.
+examples	it.e037	tr	in	The meeting is at ten in the big room.
+examples	it.e038	tr	Marco Giulia	Marco is Giulia's colleague: they've worked together for two years.
+examples	it.e041	tr	window	I'm cold: can you close the window?
+examples	it.e045	tr	so	It's raining tonight, so I'd rather stay home.
+examples	it.e046	tr	go	I'm going to the market tomorrow: if you want, we can go together.
+examples	it.e047	tr	Bologna	Have you been to Bologna? What's it like?
+examples	it.e048	tr	So	So, what are we doing tonight?
+examples	it.e049	tr	all come	At Christmas all my father's relatives come over.
+examples	it.e050	tr	in	The bookstore in the square also sells books in English.
+examples	it.e051	tr	me	The noise from the street bothers me.
+examples	it.e052	tr	in	I live in Rome, but actually I'm from Milan.
+examples	it.e053	tr	In latte	In the morning I have a latte and a croissant.
+examples	it.e054	tr	pizza	I'd like a pizza with bell peppers.
+examples	it.e056	tr	me	You're a great cook! Will you give me the recipe for the sauce?
+examples	it.e057	tr	so	You're so much fun; there's never a dull moment with you.
+examples	it.e065	tr	Come	You're really nice! Come and see us again soon.
+examples	it.e070	tr	me so	You brought me flowers? You're so sweet!
+examples	it.e080	tr	in	There are always lots of people in the square.
+examples	it.e081	tr	No	No problem, I'll wait for you.
+examples	it.e083	tr	taxi	I don't have money for the taxi.
+examples	it.e084	tr	me	Excuse me, is this seat free?
+examples	it.e085	tr	come	It's the first time I've come to Rome.
+examples	it.e087	tr	in	My sister is a doctor in Rome.
+examples	it.e091	tr	come in	May I come in?
+examples	it.e092	tr	Luca	Tomorrow I'm going to the beach with Luca.
+examples	it.e099	tr	me	Will you give me your number?
+examples	it.e102	tr	me	Hello? Can you hear me?
+examples	it.e103	tr	in	I leave the car in front of the house.
+examples	it.e106	tr	in	I put a little milk in my coffee.
+examples	it.e107	tr	so	I think so.
+examples	it.e115	tr	in	My brother lives in London.
+examples	it.e117	tr	in	I'm staying in Rome for a week.
+examples	it.e118	tr	in	I'll wait for you in front of the movie theater.
+examples	it.e121	tr	me	Excuse me, I'm looking for a pharmacy.
+examples	it.e122	tr	go	Shall we go into this shop?
+examples	it.e124	tr	me	Will you help me with the bags?
+examples	it.e126	tr	pizza	Shall we have a pizza tonight?
+examples	it.e127	tr	In	In the morning I always have an espresso.
+examples	it.e129	tr	go	I read a book before I go to sleep.
+examples	it.e130	tr	in	The kids are playing in the yard.
+examples	it.e132	tr	me	It's on me!
+examples	it.e136	tr	in	The movie starts in ten minutes.
+examples	it.e138	tr	In radio	In the car I listen to the radio.
+examples	it.e143	tr	in	Do you still live in Milan?
+examples	it.e147	tr	in Chicago	I was born in Chicago. (a woman speaking)
+examples	it.e157	tr	gelato	The gelato here is very good.
+examples	it.e161	tr	in	I live in a small apartment.
+examples	it.e164	tr	come	It's the first time I've come to Italy.
+examples	it.e175	tr	me	Excuse me, I took the wrong train.
+examples	it.e178	tr	go	Tonight I'm too tired to go out.
+examples	it.e179	tr	all	Tomorrow I'm free all day.
+examples	it.e190	tr	pizza	This restaurant is famous for its pizza.
+examples	it.e191	tr	Marco	That's strange, Marco isn't answering.
+examples	it.e193	tr	me	Excuse me, is this taken?
+examples	it.e197	tr	Giulia	Giulia is my best friend.
+examples	it.e203	tr	café	The lady at the café is very kind.
+examples	it.e206	tr	in	I don't live in Rome anymore.
+examples	it.e208	tr	In	In the evening I don't eat much.
+examples	it.e210	tr	so	Thanks so much!
+examples	it.e216	tr	go	I always go to work by bus.
+examples	it.e219	tr	go	Let's go to dinner and then to the movies.
+examples	it.e220	tr	go	First I study, then I go out.
+examples	it.e226	tr	go	It's late, I have to go.
+examples	it.e228	tr	come café	I often come to this café.
+examples	it.e232	tr	come	Maybe I'll come too.
+examples	it.e241	tr	euro	I don't even have one euro.
+examples	it.e243	tr	Boston	I'm from Boston, and you?
+examples	it.e245	tr	Paolo	He's my brother, Paolo.
+examples	it.e246	tr	Anna	She's my sister, Anna.
+examples	it.e248	tr	all	Are you all from Milan?
+examples	it.e251	tr	gelato	Do you like gelato?
+examples	it.e253	tr	all café	I'll wait for you all at the café.
+examples	it.e254	tr	window in	How do you say "window" in Italian?
+examples	it.e257	tr	me	Is this gift for me?
+examples	it.e261	tr	Marco café	Marco is at the café with his sister.
+examples	it.e281	tr	Luca	Tonight we're having dinner at Luca's.
+examples	it.e282	tr	In	In June I'm going to Italy.
+examples	it.e286	tr	in	The train leaves in five minutes.
+examples	it.e287	tr	café	The pharmacy is between the bank and the café.
+examples	it.e290	tr	in	The milk is in the fridge.
+examples	it.e295	tr	in	I'm staying in Rome until Sunday.
+examples	it.e299	tr	in	Let's meet in front of the station.
+examples	it.e300	tr	me	Sit next to me.
+examples	it.e302	tr	In	In my opinion, this restaurant is the best.
+examples	it.e311	tr	in	I'll be there soon, I mean in ten minutes.
+examples	it.e312	tr	so	I'm working tomorrow, so tonight I'm staying home.
+examples	it.e313	tr	come	I can't come. Thanks anyway!
+examples	it.e315	tr	go	Shall we go to the movies, or stay home?
+examples	it.e316	tr	go	Since the weather's nice, let's go to the beach.
+examples	it.e319	tr	so	I'm hungry, so I'll eat something.
+examples	it.e320	tr	taxi	Since it's late, I'll take a taxi.
+patterns	it.p015	meaning	avere	I'm really ___. (avere + a feminine noun)
+patterns	it.p024	tr	go	First I eat, then I go out.
+sentences	it.s0006	gloss	bruschetta	bruschetta (toasted bread)
+sentences	it.s0013	gloss	ma	Good evening, ma'am.
+sentences	it.s0014	gloss	Luca	Hi, Luca! How are you?
+sentences	it.s0016	gloss	fine	I'm fine, thanks. And you?
+sentences	it.s0017	gloss	Emma	My name is Emma. Nice to meet you.
+sentences	it.s0027	gloss	pizza	the pizza and the water
+sentences	it.s0028	gloss	spaghetti gnocchi	the spaghetti and the gnocchi
+sentences	it.s0032	gloss	Ma	Ma'am, how are you?
+sentences	it.s0034	gloss	all	Hey guys, how are you all?
+sentences	it.s0035	gloss	Marco Chiara fine	Marco and Chiara are fine.
+sentences	it.s0036	gloss	fine	I'm fine, thanks.
+sentences	it.s0037	gloss	fine all	We're fine. And you all?
+sentences	it.s0040	gloss	Luca Giulia	Luca is tired and Giulia is happy.
+sentences	it.s0049	gloss	Giulia Marco	Giulia and Marco are tall.
+sentences	it.s0051	gloss	in	I work in an office.
+sentences	it.s0054	gloss	all	Are you all having a coffee?
+sentences	it.s0061	gloss	Giulia	Where does Giulia live?
+sentences	it.s0071	gloss	no	There's no ATM near here.
+sentences	it.s0086	gloss	euro	The espresso costs one euro twenty.
+sentences	it.s0096	gloss	in	I live in Rome.
+sentences	it.s0099	gloss	Marco	Marco's car
+sentences	it.s0113	gloss	all fine	How are you all? We're fine.
+sentences	it.s0115	gloss	come in	May I come in?
+sentences	it.s0116	gloss	me	Excuse me, can you help me?
+sentences	it.s0117	gloss	go	I have to go to the pharmacy.
+sentences	it.s0123	gloss	pizza	I like pizza.
+sentences	it.s0130	gloss	gelato Me	I like gelato. Me too!
+sentences	it.s0131	gloss	Me	I don't like soccer. Me neither.
+sentences	it.s0134	gloss	all	Do you all get up at eight?
+sentences	it.s0136	gloss	Chiara	My sister's name is Chiara.
+sentences	it.s0145	gloss	Marco	Are you calling Marco? Yes, I'll call him tomorrow.
+sentences	it.s0146	gloss	Giulia café	Giulia? I'll wait for her at the café.
+sentences	it.s0149	gloss	cappuccino	I'd like a cappuccino, please.
+sentences	it.s0154	gloss	go café	Let's go to the café!
+sentences	it.s0157	gloss	pizza	Yesterday I ate a pizza.
+sentences	it.s0162	gloss	Marco	Marco took the train.
+sentences	it.s0166	gloss	Giulia	Giulia arrived yesterday.
+sentences	it.s0168	gloss	all	My friends went out last night. (all women)
+sentences	it.s0169	gloss	in	My grandmother was born in Naples.
+sentences	it.s0173	gloss	in	I never drink coffee in the evening.
+sentences	it.s0174	gloss	No	Have you eaten yet? No, not yet.
+sentences	it.s0178	gloss	in	I have a lot of friends in Rome.
+sentences	it.s0183	gloss	go	When I'm tired, I go to bed. (a man speaking)
+sentences	it.s0184	gloss	go	If you want, let's go to the movies.
+sentences	it.s0185	gloss	so	It's raining, so I'll take the bus.
+sentences	it.s0186	gloss	Me	I'm hungry. Me too!
+sentences	it.s0187	gloss	Me	I like ice cream. Me too!
+sentences	it.s0192	gloss	Marco	Do you know Marco?
+sentences	it.s0194	gloss	me	Excuse me, do you know where the pharmacy is?
+sentences	it.s0195	gloss	Marco	Where is Marco? I don't know.
+sentences	it.s0196	gloss	in	My relatives live in Naples.
+lessons	greetings	title	tu Lei	2 · Greetings: tu and Lei
+lessons	greetings	blurb	tu Lei	Greet people at any time of day, say your name, and choose between tu and Lei.
+lessons	articles	title	il lo la gli le	4 · Articles: il, lo, la, l', i, gli, le
+lessons	pronouns	title	io tu Lei voi	5 · Subject pronouns: io, tu, Lei, voi
+lessons	pronouns	blurb	Lei voi	Know the words for I, you, he, she, we and they, when to use Lei and voi, and when to leave them out.
+lessons	essere-avere	title	essere avere	6 · essere and avere: I am, I have
+lessons	essere-avere	blurb	essere avere	Say who you are, where you're from, how old you are and how you feel, with essere and avere.
+lessons	adjectives	blurb	come	Describe clothes and people with adjectives that come after the noun and agree with it.
+lessons	present	blurb	Lei voi	Conjugate regular verbs for every subject, including Lei and voi, and talk about work and study.
+lessons	questions	blurb	no	Ask yes / no questions without any extra word, and use the question words for who, what, where, when, why, how and how many.
+lessons	ce	title	ci sono	10 · c'è and ci sono: there is, there are
+lessons	ce	blurb	in ci sono è	Say what there is in town with c'è and ci sono, ask whether there is a pharmacy nearby, and tell c'è from è.
+lessons	numbers	blurb	in	Count to a thousand, tell the time, give a date and ask what something costs in euros.
+lessons	prepositions	title	di da in al del nel	13 · Prepositions: a, di, da, in, and al, del, nel
+lessons	prepositions	blurb	di da in su	Say where you live, where you are going and how, whose things they are, and join a, di, da, in and su with the article.
+lessons	irregular	title	andare fare venire stare	14 · andare, fare, venire, stare
+lessons	irregular	blurb	andare venire fare stare in go come	Use andare, venire, fare and stare in every person to say where you go, where you come from, what the weather is like and how you feel.
+lessons	modals	title	potere dovere volere	15 · potere, dovere, volere
+lessons	modals	blurb	vorrei	Say what you can, must and want to do, ask a stranger for help, and ask politely with vorrei.
+lessons	piacere	title	piacere mi piace piacciono	16 · piacere: mi piace, mi piacciono
+lessons	piacere	blurb	mi piace piacciono me	Say what you and others like and don't like with mi piace and mi piacciono, and answer me too and me neither.
+lessons	lo-la	title	lo la li le	18 · Object pronouns: lo, la, li, le
+lessons	lo-la	blurb	Lo prendo Posso provarla	Say "it", "them", "him" and "her" without repeating the noun: Lo prendo, Posso provarla?
+lessons	imperative	title	vorrei	19 · Imperative and vorrei: ordering and asking
+lessons	imperative	blurb	vorrei	Order politely with vorrei, tell a friend what to do (or not to do), and understand what staff and strangers tell you.
+lessons	passato	title	prossimo avere	20 · Passato prossimo with avere
+lessons	passato	blurb	ho mangiato hai visto abbiamo fatto	Say what you did yesterday, last week or two years ago: ho mangiato, hai visto, abbiamo fatto.
+lessons	passato-essere	title	prossimo essere sono andato andata	21 · Passato prossimo with essere: sono andato, sono andata
+lessons	passato-essere	blurb	sono andato siamo arrivati mi alzata	Tell a trip story with sono andato, siamo arrivati and mi sono alzata, making the past participle agree.
+lessons	adverbs	blurb	sempre non mai già qui lì molto troppo	Say how often, where and how much: sempre, non… mai, già, qui, lì, molto and troppo.
+lessons	connectors	title	ma perché quando se	23 · e, ma, perché, quando, se
+lessons	connectors	blurb	so me	Join your sentences with and, but, because, when, if and so, and say "me too" and "me neither".
+lessons	sapere-conoscere	title	sapere conoscere	24 · sapere and conoscere: two ways to know
+body	sounds	body	in go no ah eh oh all ch In so So il la come	
+body	greetings	body	in all fine so tu Lei me	
+body	gender	body	In so in no	
+body	articles	body	il lo la gli le All So gn in	
+body	pronouns	body	all In stare Lei So Voi so no in	
+body	essere-avere	body	in so essere avere no	
+body	adjectives	body	come go in so essere	
+body	present	body	in lavorare scrivere dormire io tu noi voi lui lei loro In Lei so capire no	
+body	questions	body	no all in In fine quanto quale qual è perché	
+body	ce	body	ci sono café in no è	
+body	numbers	body	in ottanta Zero no so single	
+body	possessives	body	In in tu voi suo no questo quello studenti amici	
+body	prepositions	body	in In go So no di Marco da il lo la gli le	
+body	irregular	body	go come in so andare venire fare stare noi voi lui lei no	
+body	modals	body	come go no in potere dovere volere All so me vorrei fine sapere	
+body	piacere	body	pizza me so piace piacciono in all Me	
+body	reflexive	body	in In so all Emma go	
+body	lo-la	body	In so no in all go lo	
+body	imperative	body	In so vorrei café tu in noi go no Lei me come voglio	
+body	passato	body	all avere prossimo mangiare so in fare vedere prendere leggere scrivere dire In non no	
+body	passato-essere	body	In prossimo no so essere go come in stare avere So	
+body	adverbs	body	sempre mai già ancora in In prossimo qui lì vicino lontano molto poco troppo all So so	
+body	connectors	body	So in ma perché quando se allora so anche neanche Me me piacere	
+body	sapere-conoscere	body	in sapere conoscere lui lei Lo so non lo camera	
+checks	sounds.k1	q	in ciao	How do you say the c in ciao?
+checks	sounds.k1	o[0]	ch in	Like the ch in church
+checks	sounds.k1	o[1]	in	Like the k in cat
+checks	sounds.k1	o[2]	in	Like the s in see
+checks	sounds.k1	o[3]	in	Like the sh in shoe
+checks	sounds.k1	why	ch in cia	c before i or e sounds like ch, and the i in cia is not said.
+checks	sounds.k2	q	in notte	What does the double t in notte tell you?
+checks	sounds.k2	why	notte	A double consonant is held longer, and it changes the word: notte, night.
+checks	sounds.k3	q	sch in bruschetta	How do you say the sch in bruschetta?
+checks	sounds.k3	o[0]	in	sh, as in shoe
+checks	sounds.k3	o[1]	in	sk, as in sky
+checks	sounds.k3	o[2]	ch in	ch, as in church
+checks	sounds.k3	o[3]	in	s, as in see
+checks	sounds.k3	why	sch in	sch is always a hard sk sound in Italian.
+checks	greetings.k1	q	in	You check in at a hotel in the morning. What do you say to the receptionist?
+checks	greetings.k1	why	Lei	A stranger at work gets a polite greeting and the Lei form: Buongiorno, come sta?
+checks	greetings.k2	q	buonasera buongiorno	Why is it buonasera but buongiorno?
+checks	greetings.k2	o[0]	sera giorno	sera is feminine and giorno is masculine, and the word for good changes to match
+checks	greetings.k2	o[1]	buona	buona is the polite form
+checks	greetings.k2	o[3]	No	No reason: either form works
+checks	greetings.k2	why	buono giorno sera	buono agrees with the noun: giorno is masculine, sera is feminine.
+checks	greetings.k3	o[0]	lei	lei, with a small l
+checks	greetings.k3	o[1]	Tu	Tu, with a capital T
+checks	greetings.k3	o[2]	Lei	Lei, with a capital L
+checks	greetings.k3	o[3]	LEI in	LEI, in capitals
+checks	greetings.k3	why	Lei lei	Lei with a capital L is the formal you; lei with a small l means she.
+checks	gender.k1	why	in	problema ends in -a but is masculine: il problema.
+checks	gender.k2	why	in	-e becomes -i in the plural, and la becomes le: le chiavi.
+checks	gender.k3	q	in pane	How can you tell the gender of a noun ending in -e, like pane?
+checks	gender.k3	o[0]	no	Learn it with its article: the ending gives no clue
+checks	gender.k3	o[1]	All	All -e nouns are masculine
+checks	gender.k3	o[2]	All	All -e nouns are feminine
+checks	gender.k3	o[3]	in	It is the same as in English
+checks	gender.k3	why	in il pane la chiave	Nouns in -e can be either gender: il pane, la chiave.
+checks	articles.k3	why	in	Things in general take the article in Italian: il caffè.
+checks	pronouns.k1	q	Lei	What does Lei with a capital L mean?
+checks	pronouns.k1	o[3]	all	you all
+checks	pronouns.k1	why	Lei lei	Lei with a capital L is the formal you; lei with a small l is she.
+checks	pronouns.k2	why	voi	voi, for more than one person, takes state.
+checks	pronouns.k3	q	Sto bene io	Why is Sto bene enough, without io?
+checks	pronouns.k3	o[0]	sto	The ending of sto already shows that the subject is I
+checks	pronouns.k3	o[1]	io	Italian never uses io
+checks	pronouns.k3	o[2]	io	io is rude
+checks	pronouns.k3	o[3]	sto	sto means we are
+checks	pronouns.k3	why	sto	The verb ending tells you who: sto can only mean I am.
+checks	essere-avere.k1	why	avere	Hunger uses avere: ho fame, literally I have hunger.
+checks	essere-avere.k2	q	è	What is the difference between è and e?
+checks	essere-avere.k2	o[0]	è	è means is; e means and
+checks	essere-avere.k2	o[3]	è	è means and; e means is
+checks	essere-avere.k2	why	è Luca stanco	The accent makes è the verb: Luca è stanco. Without it, e means and.
+checks	essere-avere.k3	q	essere voi	Which form of essere goes with voi?
+checks	essere-avere.k3	why	voi	voi takes siete: Siete americani?
+checks	adjectives.k1	q	go	Where does a color go?
+checks	adjectives.k1	o[0]	in	Before the noun, as in English
+checks	adjectives.k1	o[2]	no	Either place, with no difference
+checks	adjectives.k1	why	go la camicia bianca	Colors go after the noun: la camicia bianca.
+checks	adjectives.k3	q	il la	Which adjective has the same form with il and la?
+checks	adjectives.k3	why	in il cappotto la borsa	Adjectives in -e do not change for gender: il cappotto verde, la borsa verde.
+checks	present.k1	q	Lei	Which form goes with Lei (formal you)?
+checks	present.k1	why	Lei lui lei	Lei takes the lui / lei form: parla.
+checks	present.k2	q	Lavoro in un ufficio	Lavoro in un ufficio can mean…
+checks	present.k2	o[0]	in	I work, or I'm working, in an office
+checks	present.k2	o[1]	in	Only I worked in an office
+checks	present.k2	o[2]	in	You work in an office
+checks	present.k2	o[3]	in	They work in an office
+checks	present.k3	q	loro capire	What is the loro form of capire?
+checks	present.k3	why	capire	capire is an -isc- verb: capiscono.
+checks	questions.k1	q	Parli italiano	How do you turn Parli italiano (you speak Italian) into a question?
+checks	questions.k1	o[0]	che in	Put che in front of it
+checks	questions.k1	o[3]	non	Put the subject after the verb and add non
+checks	questions.k1	why	no	Italian has no helper verb: the same words with a rising voice make the question.
+checks	questions.k2	why	so	quanto agrees with its noun: sorelle is feminine plural, so quante.
+checks	questions.k3	why	no	qual è is written with no apostrophe.
+checks	ce.k3	q	È un	What does È un bar mean?
+checks	ce.k3	why	ci è	Without ci, è just means it is.
+checks	numbers.k2	why	venti all	venti drops its i before otto, and it is all one word: ventotto.
+checks	numbers.k3	why	un	euro never changes: un euro, dieci euro.
+checks	possessives.k1	q	Giulia Marco	Giulia is Marco's sister. How does Marco's friend say his sister?
+checks	possessives.k1	why	Marco no	sua agrees with sorella, not with Marco, and one family member takes no article.
+checks	possessives.k2	why	no	With a singular family word, no article: mia madre.
+checks	possessives.k3	q	la sua casa	What does la sua casa mean?
+checks	possessives.k3	why	sua casa so	sua agrees with casa, so it can mean his or her.
+checks	prepositions.k1	why	no	Many everyday places take in with no article: in banca.
+checks	prepositions.k2	q	di il	di + il =
+checks	prepositions.k2	why	di il	di and il join into del.
+checks	prepositions.k3	q	Sono di Milano	What does Sono di Milano mean?
+checks	prepositions.k3	o[1]	in	I'm in Milan.
+checks	prepositions.k3	why	di	di with a city says where you are from.
+checks	irregular.k1	why	fare	Weather uses fare: fa caldo.
+checks	irregular.k2	why	venire	Moving toward the person you talk to takes venire: vengo.
+checks	irregular.k3	q	loro andare	Which is the loro form of andare?
+checks	irregular.k3	why	andare loro	andare is irregular: the loro form is vanno.
+checks	modals.k1	why	Lei potere	With a stranger, use the Lei form of potere: può.
+checks	modals.k3	why	sapere	A learned skill takes sapere: sa suonare.
+checks	piacere.k1	why	so	le scarpe is plural, so piacciono agrees with it, and the article stays.
+checks	piacere.k2	q	piace il gelato	Mi piace il gelato. How do you say Me too?
+checks	piacere.k2	why	piacere	With piacere, me too is anche a me.
+checks	reflexive.k2	why	noi	With noi, both parts match: ci and the -iamo ending.
+checks	reflexive.k3	why	io	The pronoun joins the infinitive and matches io: alzarmi. Mi devo alzare is also right.
+checks	lo-la.k1	q	borsa prendo	"La borsa? ___ prendo." Which word fits?
+checks	lo-la.k1	why	borsa so	borsa is feminine and singular, so la.
+checks	lo-la.k2	why	so	scarpe is feminine plural, so le, and it goes before the verb.
+checks	lo-la.k3	q	il maglione	"Can I try it on?" (il maglione) is…
+checks	lo-la.k3	why	maglione so	maglione is masculine, so lo, joined to the infinitive. Lo posso provare? is also right.
+checks	imperative.k3	q	Prego si accomodi	A waiter says "Prego, si accomodi." He means…
+checks	imperative.k3	why	si accomodi Lei	si accomodi is the Lei imperative: make yourself comfortable, have a seat.
+checks	passato.k1	why	prossimo	A finished visit takes the passato prossimo: ho visitato.
+checks	passato.k2	why	tu fare	hai for tu, and fare has the irregular participle fatto.
+checks	passato.k3	q	Ho preso	"Ho preso" comes from which verb?
+checks	passato.k3	why	preso	prendere has the irregular participle preso.
+checks	passato-essere.k1	why	andare essere	andare takes essere, and a man says andato.
+checks	passato-essere.k2	why	arrivare essere	arrivare takes essere, and the participle agrees with Giulia: arrivata.
+checks	passato-essere.k3	q	avere in prossimo	Which verb takes avere in the passato prossimo?
+checks	passato-essere.k3	why	avere essere	mangiare takes avere; andare, partire and tornare take essere.
+checks	adverbs.k1	why	lei	Before an adjective, molto never changes; alta agrees with lei.
+checks	adverbs.k2	why	so	Before a noun, molto agrees: amici is masculine plural, so molti.
+checks	connectors.k1	q	studi mi piace	"___ studi l'italiano? ___ mi piace." (Why…? Because…) Which word fills both blanks?
+checks	sapere-conoscere.k1	why	conoscere tu	People take conoscere, and conosci is the tu form.
+checks	sapere-conoscere.k2	why	sapere	A skill takes sapere + infinitive.
+checks	sapere-conoscere.k3	q	parenti	"i parenti" means…
+checks	sapere-conoscere.k3	why	parenti genitori	i parenti are relatives; parents are i genitori.
+practice	sounds.01	q	In ch in	In which word does the c sound like the ch in church?
+practice	sounds.01	why	ch	c before e or i is soft, like ch; ch before i or e is a hard k.
+practice	sounds.02	why	ch	ch is always a hard k sound, even before i or e.
+practice	sounds.03	q	In in	In which word does the g sound like the j in jam?
+practice	sounds.05	q	città	Why does città have an accent mark?
+practice	sounds.05	why	città	Italian writes an accent only on a stressed final vowel: città.
+practice	sounds.06	why	so	notte is feminine, so the word for the is la: la notte.
+practice	sounds.07	why	gn so	gnocchi is masculine and starts with gn, so the plural article is gli, not i.
+practice	sounds.08	why	sch in	The sk sound is spelled sch in Italian: bruschetta.
+practice	sounds.09	why	notte	Hold the double t: notte. With one t, note means notes.
+practice	sounds.10	p	gnocchi	the gnocchi
+practice	sounds.12	hint	chiave	chiave · for more than one, -e becomes -i
+practice	sounds.12	why	so	chiavi is a feminine plural noun, so the article is le: le chiavi.
+practice	sounds.13	hint	notte	notte · for more than one, -e becomes -i
+practice	sounds.13	why	so	notti is a feminine plural noun, so the article is le, and the double t stays.
+practice	greetings.03	q	Grazie	Someone says Grazie. You answer…
+practice	greetings.04	q	Mi chiamo Giulia	Someone says Mi chiamo Giulia. You reply…
+practice	greetings.06	why	so	serata is feminine, so the word for good agrees: buona serata.
+practice	greetings.07	why	Lei tu	With a stranger, use the Lei form: sta. The tu form, stai, is for friends.
+practice	greetings.08	p	me ma	Excuse me, ma'am.
+practice	greetings.08	why	me	Mi scusi is the polite way to say excuse me to a stranger; scusa is for a friend.
+practice	greetings.09	why	so tu	Luca is a friend, so use the tu form: stai.
+practice	greetings.10	p	ma	Good morning, ma'am. How are you?
+practice	greetings.10	why	Lei	To a stranger, use the Lei form: sta.
+practice	greetings.12	hint	stare	stare · tu
+practice	greetings.12	why	in	To a friend, use the tu form: stai, which ends in -i.
+practice	greetings.13	hint	stare	stare · Lei
+practice	gender.01	why	in la	mano ends in -o but is feminine: la mano.
+practice	gender.02	why	sorella	sorella is feminine: -a becomes -e, and la becomes le.
+practice	gender.03	why	so	problema is masculine, so its plural is i problemi.
+practice	gender.04	why	in	Nouns ending in an accented vowel do not change; only the article does: le città.
+practice	gender.05	q	figli	i figli can mean…
+practice	gender.05	why	so figli	A mixed group takes the masculine plural, so i figli covers sons and daughters.
+practice	gender.06	why	mano so	mano is feminine, so the plural article is le: le mani.
+practice	gender.07	why	so	fratelli is a masculine plural noun, so the article is i.
+practice	gender.08	why	so	foto is a short form, so it does not change for more than one: le foto.
+practice	gender.09	why	in	problema ends in -a but is masculine: il problema.
+practice	gender.10	why	in sorelle	Feminine -a becomes -e in the plural: le sorelle.
+practice	gender.11	why	in	For nouns in -e, the -e becomes -i in the plural, whatever their gender: i padri.
+practice	gender.12	hint	sorella	sorella
+practice	gender.12	why	so	sorelle is a feminine plural noun, so the article is le.
+practice	gender.13	why	in	mano ends in -o but is feminine: la mano.
+practice	articles.01	why	so	zucchero is masculine and starts with z, so the article is lo.
+practice	articles.06	p	all	the friends (all men)
+practice	articles.09	why	gn	gnocchi is masculine plural and starts with gn: gli.
+practice	articles.12	why	so	acqua is feminine and starts with a vowel, so la becomes l'.
+practice	articles.13	p	all	the students (all men)
+practice	pronouns.03	q	fine	I'm fine, thanks. =
+practice	pronouns.03	why	so	sto is the verb for I, so io is not needed.
+practice	pronouns.05	q	Lei come sta	Lei come sta? can mean…
+practice	pronouns.05	o[3]	all	How are you all?
+practice	pronouns.05	why	Lei lei sta in	Lei and lei take the same verb, sta; in writing, the capital L shows the formal you.
+practice	pronouns.06	p	all	How are you all? (to two friends)
+practice	pronouns.06	why	voi	voi takes the voi form: state.
+practice	pronouns.07	p	fine	They're fine.
+practice	pronouns.07	why	loro	loro takes the loro form: stanno.
+practice	pronouns.09	p	all	Are you all well?
+practice	pronouns.09	why	so	state is the verb for voi, so the subject is voi.
+practice	pronouns.10	p	fine	Marco and Chiara are fine.
+practice	pronouns.10	why	loro so	Two people are loro, so the verb is stanno.
+practice	pronouns.11	p	Ma	Ma'am, how are you?
+practice	pronouns.11	why	Lei lei	Lei takes the same verb as lei: sta.
+practice	pronouns.12	p	fine	We're fine.
+practice	pronouns.12	hint	stare	stare · bene
+practice	pronouns.13	hint	stare	stare · Giulia
+practice	pronouns.13	why	so lui lei	Giulia is one person, so the verb takes the lui/lei form: sta.
+practice	essere-avere.01	why	avere	Feeling cold uses avere: ho freddo.
+practice	essere-avere.02	why	avere	Age uses avere: literally, I have twenty years.
+practice	essere-avere.03	q	Marco stanco	Marco __ stanco. Which word fits?
+practice	essere-avere.04	why	avere	Hunger uses avere, and hanno keeps its silent h; anno means year.
+practice	essere-avere.05	q	all	Are you all American? (to a group of men)
+practice	essere-avere.05	why	voi	voi takes siete, and americani is plural.
+practice	essere-avere.06	why	noi avere essere	noi takes the noi form of avere: abbiamo. Hunger uses avere, not essere.
+practice	essere-avere.07	why	tu avere	To a friend, use the tu form of avere: hai.
+practice	essere-avere.08	why	avere	Age uses avere: ho trent'anni.
+practice	essere-avere.10	p	all	Are you all hungry?
+practice	essere-avere.10	why	avere	voi takes the voi form of avere: avete.
+practice	essere-avere.11	why	avere	Being right uses avere: ho ragione. Without the h, o means or.
+practice	essere-avere.12	hint	avere	avere · ragione
+practice	essere-avere.12	why	avere	To a friend, use the tu form of avere: hai.
+practice	essere-avere.13	hint	avere	avere · freddo
+practice	essere-avere.13	why	avere	loro takes the loro form of avere: hanno, with a silent h.
+practice	essere-avere.14	hint	essere	essere · stanco
+practice	essere-avere.14	why	so	Chiara is a woman, so the adjective is feminine: stanca.
+practice	adjectives.03	why	no	verde has no -a form, and is needs the accent: è.
+practice	adjectives.05	why	buono piccolo come	bello, buono and piccolo usually come first; colors and nationalities always come after.
+practice	adjectives.06	why	so	camicie is feminine plural, so the adjective agrees: bianche.
+practice	adjectives.07	why	so	maglione is masculine, so the adjective agrees: nero.
+practice	adjectives.08	why	in so	verde ends in -e, so for more than one it becomes verdi: the plural ending is the same for both genders.
+practice	adjectives.12	hint	maglione bianco	maglione · bianco
+practice	adjectives.12	why	so	maglioni is masculine plural, so the adjective agrees: bianchi.
+practice	adjectives.13	hint	essere	giacca · essere · rosso
+practice	adjectives.13	why	so	giacca is feminine, so the adjective agrees: rossa.
+practice	adjectives.14	hint	essere alto	essere · alto
+practice	present.01	q	in	We work in Rome. =
+practice	present.01	why	in	The noi form ends in -iamo: lavoriamo.
+practice	present.02	why	Lei	With a stranger, use Lei, which takes parla.
+practice	present.03	why	capire	capire adds -isc-: capisco.
+practice	present.04	why	in	For -ere verbs, the they form ends in -ono.
+practice	present.05	why	cercare	cercare keeps its hard c with an h before i: cerchi.
+practice	present.06	why	noi	noi takes the noi form: studiamo.
+practice	present.07	why	Lei lui lei	With Lei, use the lui/lei form: lavora.
+practice	present.08	why	capire so	capire is an -isc- verb, so it keeps -isc- here: capiscono.
+practice	present.09	p	all in	Do you all work in Milan?
+practice	present.09	why	in	For -are verbs, the voi form ends in -ate.
+practice	present.10	why	finire	finire is an -isc- verb: Marco takes finisce.
+practice	present.11	why	in	The tu form ends in -i: prendi.
+practice	present.12	p	in abitare	We live in Rome. (use abitare)
+practice	present.12	hint	abitare	abitare · Roma
+practice	present.13	hint	parlare	parlare · Lei
+practice	present.13	why	lui	Lei takes the lui/lei form: parla.
+practice	present.14	hint	capire	capire · tu
+practice	present.14	why	capire	capire is an -isc- verb, and the tu form is capisci.
+practice	questions.01	why	No	No helper verb: the tu form with a rising voice makes the question.
+practice	questions.03	why	no	qual è has no apostrophe, and problema is masculine: il problema.
+practice	questions.04	why	Lei lui lei	Lei takes the lui/lei form of the verb: abita.
+practice	questions.07	why	tu essere	To a friend, use the tu form of essere: sei, not è.
+practice	questions.09	why	so	anni is masculine plural, so quanti agrees with it.
+practice	questions.10	why	quale no	Before è, quale shortens to qual, with no apostrophe.
+practice	questions.11	why	so	Giulia is she, so the verb ending matches the subject: abita.
+practice	questions.12	hint	quanto fratello avere	quanto · fratello · avere
+practice	questions.13	hint	lavorare	dove · lavorare
+practice	questions.14	hint	studiare no	che cosa · studiare · no helper verb
+practice	questions.14	why	No in	No helper verb in Italian: che cosa (or cosa, or che) plus the verb.
+practice	ce.02	why	in	More than one thing takes ci sono; hotel does not change in the plural.
+practice	ce.06	why	so	ci sono: plural subject (due bar), so the verb is sono.
+practice	ce.07	why	so	farmacia is feminine, so the article agrees: una.
+practice	ce.12	why	so	bagno is masculine, so the article agrees: un bagno.
+practice	ce.14	hint	essere	banca · essere · in centro
+practice	numbers.01	why	venti	venti drops its i before uno: ventuno, written as one word.
+practice	numbers.02	why	ore	From two o'clock on: sono le, because ore is feminine plural.
+practice	numbers.03	why	in	euro never changes in Italian: dieci euro.
+practice	numbers.04	why	single	One o'clock is a single hour: è l'una.
+practice	numbers.05	why	primo	Dates are il + number + month; only the first of the month uses primo.
+practice	numbers.06	why	in ore	Sono le tre: plural, feminine le, as in le ore.
+practice	numbers.07	why	so	Plural subject (more than one thing), so the verb is costano.
+practice	numbers.09	why	so	i biglietti is plural, so the verb ending matches the subject: costano.
+practice	numbers.10	why	ore	From two o'clock on, sono le: ore is feminine plural.
+practice	numbers.11	why	venti no	venti drops its i before otto, with no apostrophe: ventotto.
+practice	numbers.12	hint	essere single	essere · una · one o'clock is a single hour
+practice	numbers.12	why	so	una is singular, so the verb is è, not sono.
+practice	numbers.14	hint	costare	quanto · costare · scarpa
+practice	numbers.14	why	so	le scarpe is plural, so the verb ending matches the subject: costano.
+practice	possessives.01	why	no	One family member takes no article, and mia agrees with madre.
+practice	possessives.03	why	no	suo agrees with fratello, not with her, and one family member takes no article.
+practice	possessives.04	why	so	libri is masculine plural, so questi.
+practice	possessives.05	why	il so	ragazzo takes il, so that is quel ragazzo.
+practice	possessives.07	why	so	genitori is masculine plural, so the possessive agrees: i tuoi.
+practice	possessives.08	why	no	One family member takes no article: mia madre.
+practice	possessives.09	why	so	sorelle is feminine plural, so mie.
+practice	possessives.10	why	no	One family member takes no article, and padre is masculine: mio padre.
+practice	possessives.11	why	so	ragazze is feminine plural, so queste.
+practice	possessives.12	hint	mio sorella	mio · sorella · more than one
+practice	possessives.12	why	so	sorelle is feminine plural, so the possessive agrees: le mie.
+practice	possessives.13	p	all	these friends (all women)
+practice	possessives.13	hint	questo amica	questo · amica
+practice	possessives.13	why	so questo	amiche is feminine plural, so questo agrees: queste.
+practice	prepositions.03	why	no	Italian has no 's: the car of Marco, la macchina di Marco.
+practice	prepositions.04	why	da il	To a person's place takes da: da + il = dal.
+practice	prepositions.06	why	il	mercato is masculine: a + il = al.
+practice	prepositions.07	why	di	studenti is masculine plural and starts with s + consonant: di + gli = degli.
+practice	prepositions.08	why	no	Transport takes in with no article: in treno.
+practice	prepositions.12	hint	chiave di	chiave · di · macchina
+practice	prepositions.12	why	so di la	macchina is feminine, so di + la = della.
+practice	prepositions.13	hint	go	vado (I go) · a · stazione
+practice	prepositions.13	why	so la	stazione is feminine, so a + la = alla.
+practice	prepositions.14	why	No in	No 's in Italian: the sister of Marco, la sorella di Marco.
+practice	irregular.01	why	fare	Weather uses fare: fa freddo.
+practice	irregular.02	why	tu	The tu form of fare is fai.
+practice	irregular.04	q	all	How are you all?
+practice	irregular.04	why	all voi stare	For you all, the voi form of stare: state.
+practice	irregular.05	q	fine	I'm fine.
+practice	irregular.05	why	stare	How you feel uses stare: sto bene.
+practice	irregular.06	why	noi andare	The noi form of andare: andiamo.
+practice	irregular.07	why	tu	To a friend, the tu form: vai.
+practice	irregular.08	why	fare	Weather uses fare: fa freddo, not è freddo.
+practice	irregular.09	why	so io	I is the subject, so the io form of andare: vado.
+practice	irregular.10	why	so	Marco is he, so the verb ending matches the subject: viene.
+practice	irregular.11	why	fare	Weather uses fare: fa caldo.
+practice	irregular.12	hint	fare	fare · colazione
+practice	irregular.12	why	fare	The noi form of fare: facciamo.
+practice	irregular.13	hint	andare	andare · a casa
+practice	irregular.13	why	andare	The loro form of andare: vanno.
+practice	irregular.14	hint	fare	domani · fare · freddo
+practice	irregular.14	why	fare essere	Weather uses fare, not essere: fa freddo.
+practice	modals.01	q	come in	May I come in?
+practice	modals.04	why	sapere potere	A learned skill takes sapere, not potere: sa suonare.
+practice	modals.05	q	go	They want to go home.
+practice	modals.06	p	me	Can you help me? (to a stranger)
+practice	modals.06	why	Lei lui lei	With Lei, use the lui/lei form: può.
+practice	modals.07	p	go	We have to go to the pharmacy.
+practice	modals.07	why	noi dovere	The noi form of dovere: dobbiamo.
+practice	modals.09	why	Lei	To a stranger, use the Lei form: può.
+practice	modals.10	why	so io	I is the subject, so the io form of potere: posso.
+practice	modals.11	p	go	Marco has to go to the pharmacy.
+practice	modals.11	why	so	Marco is he, so the verb ending matches the subject: deve.
+practice	modals.12	p	go	I have to go to the doctor.
+practice	modals.12	hint	dovere	dovere · andare · dal dottore
+practice	modals.12	why	dovere	The io form of dovere: devo, then the infinitive.
+practice	modals.13	hint	potere	potere · chiamare · ambulanza
+practice	modals.13	why	lui	With Lei, use the lui/lei form: può.
+practice	modals.14	why	sapere potere	A learned skill takes sapere, not potere: so nuotare.
+practice	piacere.02	why	so	le scarpe is plural, so the verb agrees: piacciono.
+practice	piacere.04	q	Mi piace il caffè Anche me	Mi piace il caffè. Anche a me. means…
+practice	piacere.04	o[0]	Me	I like coffee. Me too.
+practice	piacere.04	o[1]	Me	I like coffee. Me neither.
+practice	piacere.04	o[3]	Me	I don't like coffee. Me too.
+practice	piacere.04	why	anche me	anche a me means me too.
+practice	piacere.08	why	piacere	With piacere, answer neanche a me, because it means to me.
+practice	piacere.09	why	so	gli spaghetti is plural, so piacciono agrees with it.
+practice	piacere.12	hint	piacere italiano	piacere · film · italiano
+practice	piacere.13	hint	piacere	le (to her) · piacere · calcio
+practice	piacere.14	hint	piacere	piacere · cucinare
+practice	reflexive.02	why	so	Your sister is she, so si chiama.
+practice	reflexive.03	why	so noi	Ci vediamo: we see each other, so ci with the noi form.
+practice	reflexive.04	why	io	The pronoun joins the infinitive and matches io: alzarmi.
+practice	reflexive.06	why	noi so	Ci laviamo: the noi form, so the pronoun and the verb ending match the subject.
+practice	reflexive.07	why	lui lei	For she, use the lui/lei form: si chiama.
+practice	reflexive.08	why	mi io	lavarmi: mi matches the io form voglio, joined to the infinitive.
+practice	reflexive.09	why	tu in	ti goes with the tu form, which ends in -i: ti chiami.
+practice	reflexive.11	why	voi so	alzate is the voi form, so the pronoun is vi.
+practice	reflexive.13	why	in	The tu form: ti chiami, ending in -i.
+practice	lo-la.02	why	so	pantaloni is masculine plural, so li, before the verb.
+practice	lo-la.05	q	giacca	"Can I try it on?" (la giacca) =
+practice	lo-la.06	why	camicia so	camicia is feminine, so the pronoun is la.
+practice	lo-la.07	why	scarpe so	scarpe is feminine plural, so the pronoun agrees: le.
+practice	lo-la.08	why	maglione so	maglione is masculine, so the pronoun agrees: lo.
+practice	lo-la.09	why	so	biglietti is masculine plural, so li.
+practice	lo-la.11	why	so	scarpe is feminine plural, so le, joined to the infinitive.
+practice	lo-la.12	p	giacca	I'll take it (la giacca)
+practice	lo-la.12	hint	prendere giacca	prendere · la giacca
+practice	lo-la.12	why	giacca so	giacca is feminine, so the pronoun is la.
+practice	lo-la.13	p	pantaloni	Can I try them on? (i pantaloni)
+practice	lo-la.13	hint	potere pantaloni	potere · provare · i pantaloni
+practice	lo-la.13	why	pantaloni so	pantaloni is masculine plural, so the pronoun agrees: li.
+practice	lo-la.14	p	il maglione	We're not buying it (il maglione)
+practice	lo-la.14	hint	comprare il maglione	comprare · non · il maglione
+practice	lo-la.14	why	maglione	lo agrees with maglione (masculine), and compriamo is the noi form.
+practice	imperative.02	why	so tu in	guardare is an -are verb, so the tu imperative ends in -a. Guardi is for a stranger.
+practice	imperative.04	q	go	"Let's go!" =
+practice	imperative.04	why	noi	Let's uses the noi form: andiamo.
+practice	imperative.05	q	Giri destra	A man giving you directions says "Giri a destra." He means…
+practice	imperative.05	o[2]	Go	Go straight ahead.
+practice	imperative.05	why	giri Lei girare destra	giri is the Lei imperative of girare, and a destra means to the right.
+practice	imperative.06	p	me	Excuse me, where is the station? (to a stranger, start with Mi scusi)
+practice	imperative.07	why	noi so	Let's is the noi form: prendiamo. pizza is feminine, so una.
+practice	imperative.08	why	so	birra is feminine, so una. vorrei is the polite way to order.
+practice	imperative.09	why	tu in	aspettare is an -are verb: the tu imperative ends in -a.
+practice	imperative.12	hint	il	vorrei · il bicchiere · l'acqua
+practice	imperative.12	why	so	bicchiere is masculine, so un bicchiere; vorrei is the polite way to order.
+practice	imperative.13	hint	mangiare la noi	mangiare · la pizza · let's = the noi form
+practice	imperative.13	why	noi	Let's is the noi form, mangiamo, and pizza is feminine: una.
+practice	passato.01	why	mangiare avere	mangiare takes avere, and the participle stays mangiato.
+practice	passato.02	why	vedere	vedere has the irregular participle visto, and we is abbiamo.
+practice	passato.05	why	avere	They is hanno, and fatto does not change with avere.
+practice	passato.06	why	noi avere	abbiamo is the noi form of avere, and biglietti takes the plural article i.
+practice	passato.07	why	tu avere prendere	hai is the tu form of avere; prendere has the participle preso.
+practice	passato.08	why	avere capire	non goes before avere, and capire gives capito.
+practice	passato.09	why	so	Giulia is she, so ha.
+practice	passato.10	why	scrivere	scrivere has the irregular participle scritto.
+practice	passato.11	why	so	settimana is feminine singular, so scorsa.
+practice	passato.12	hint	vedere il	vedere · il film
+practice	passato.12	why	avere	abbiamo is the noi form: avere carries the verb ending.
+practice	passato.13	hint	mangiare	mangiare
+practice	passato.13	why	avere	hai is the tu form of avere.
+practice	passato.14	why	prossimo	A finished visit takes the passato prossimo, even if it was long ago: ho visitato.
+practice	passato-essere.01	why	partire essere	partire takes essere, and a woman says partita.
+practice	passato-essere.02	why	venire essere so	venire takes essere; genitori is masculine plural, so venuti.
+practice	passato-essere.03	why	tornare essere so	tornare takes essere; two women, so tornate.
+practice	passato-essere.04	why	uscire essere	uscire takes essere, and Marco is masculine: uscito.
+practice	passato-essere.05	why	essere	Reflexive verbs take essere: mi sono alzato.
+practice	passato-essere.06	p	in	I arrived in Rome (a woman speaking)
+practice	passato-essere.06	why	essere	With essere the participle agrees with the subject: a woman says arrivata.
+practice	passato-essere.08	p	go	Did you go out? (to a woman friend)
+practice	passato-essere.08	why	tu	sei is the tu form, and uscita agrees with a woman (feminine).
+practice	passato-essere.09	why	so	ragazze is feminine plural, so partite.
+practice	passato-essere.10	why	tornare essere	tornare takes essere: è, with the accent. e without it means and.
+practice	passato-essere.11	why	uscire essere	uscire takes essere, and I is sono.
+practice	passato-essere.12	hint	andare	andare · Roma · a woman speaking
+practice	passato-essere.12	why	essere	With essere the participle agrees with the subject: andata for a woman.
+practice	passato-essere.13	p	in	We arrived in Milan (two men)
+practice	passato-essere.13	hint	arrivare	arrivare · Milano
+practice	passato-essere.14	p	in	My grandmother was born in Naples
+practice	passato-essere.14	hint	nascere	nascere · nato · Napoli
+practice	passato-essere.14	why	so	nonna is feminine, so the participle agrees: nata.
+practice	adverbs.07	p	la città	It's very beautiful (la città)
+practice	adverbs.07	why	città	molto never changes before an adjective, and bella agrees with città (feminine).
+practice	adverbs.09	p	in all	I have a lot of friends in Milan. (all women)
+practice	adverbs.09	why	so	amiche is feminine plural, so molte.
+practice	adverbs.12	hint	avere	avere · molto · l'amico
+practice	adverbs.13	hint	essere	essere · molto · alto
+practice	adverbs.14	hint	bere	bere · mai · il caffè
+practice	connectors.02	q	go	"If you want, let's go to the movies" =
+practice	connectors.05	q	so	"It's raining, so I'll take the bus" =
+practice	connectors.05	why	so	allora introduces a result, like so.
+practice	connectors.07	why	noi	studiamo is the noi form: the verb ending matches the subject.
+practice	connectors.08	p	me	Yes, me too
+practice	connectors.08	why	me	sì with an accent means yes; anch'io means me too.
+practice	connectors.09	why	no	If is se, with no accent.
+practice	connectors.11	why	piacere	With piacere, me too is anche a me.
+practice	connectors.12	hint	essere stanco lavorare	essere · stanco · perché · lavorare · molto
+practice	connectors.13	hint	volere mangiare	se · volere · mangiare · a casa
+practice	connectors.14	p	me	Yes, me too
+practice	sapere-conoscere.01	why	sapere	A fact with dove takes sapere; I is so.
+practice	sapere-conoscere.02	why	conoscere	A place takes conoscere; to a friend, conosci.
+practice	sapere-conoscere.03	why	sapere	A skill takes sapere + infinitive: sa suonare.
+practice	sapere-conoscere.04	q	in	"My parents live in Rome" =
+practice	sapere-conoscere.05	why	la	A library is la biblioteca; la libreria is a bookstore.
+practice	sapere-conoscere.06	why	conoscere tu	People take conoscere, and conosci is the tu form.
+practice	sapere-conoscere.07	why	Lei lui lei	Lei takes the lui/lei form: sa. stazione is feminine: la.
+practice	sapere-conoscere.08	why	loro	conoscono is the loro form; i genitori are parents, i parenti relatives.
+practice	sapere-conoscere.09	why	sapere	A fact takes sapere; with tu, sai.
+practice	sapere-conoscere.10	why	conoscere	A person takes conoscere; I is conosco.
+practice	sapere-conoscere.11	why	sapere so	Know how to takes sapere; my grandmother is she, so sa.
+practice	sapere-conoscere.12	hint	sapere	sapere · dov'è · la stazione
+practice	sapere-conoscere.12	why	lui	Lei takes the lui/lei form: sa.
+practice	sapere-conoscere.13	hint	conoscere	conoscere · Giulia
+practice	sapere-conoscere.13	why	conoscere	People take conoscere; the io form is conosco.
+practice	sapere-conoscere.14	p	in	My relatives live in Naples
+practice	sapere-conoscere.14	hint	il abitare	il parente · abitare · Napoli
+lessoncards	it.lc0002	note	ch	ch is a hard k. The mark puts the stress on the final e.
+lessoncards	it.lc0005	note	te	A one-syllable word: the mark is not about stress. It tells tè (tea) apart from te (you).
+lessoncards	it.lc0006	note	in	c before a is hard, as in cat. Stress on the next-to-last syllable.
+lessoncards	it.lc0007	note	ch in	c before e is ch, as in church. Stress on the next-to-last syllable.
+lessoncards	it.lc0008	note	ch	c before i is ch. Stress on the next-to-last syllable.
+lessoncards	it.lc0011	note	gli	gli before a vowel is the lli of million.
+lessoncards	it.lc0012	note	gn in	gn is ny, as in canyon.
+lessoncards	it.lc0013	note	sci	sci before u is sh; the i is not said. Hold the double t.
+lessoncards	it.lc0014	note	in	sc before u is a hard sk; uo is woh, in one syllable.
+lessoncards	it.lc0015	note	zz	i before a glides as y; zz is a held ts.
+lessoncards	it.lc0017	note	in	uo is woh, in one syllable.
+lessoncards	it.lc0018	meaning	go	here it is; there you go
+lessoncards	it.lc0018	note	cc	cc before o is a held hard k.
+lessoncards	it.lc0020	note	ch	i before e glides as y; c before i is ch, and that i is said.
+lessoncards	it.lc0023	note	no	c before o is hard. The stress falls three syllables from the end, with no mark to warn you.
+# option classes to review: greetings.k3 (prose by its key «Lei, with a capital L»; «LEI, in capitals» would classify the other way)
+# option classes to review: pronouns.k1 (prose by its key «you, to a stranger»; «you all» would classify the other way)
+# option classes to review: present.k1 (target by its key «parla»; «parlate» would classify the other way)
+# option classes to review: present.k3 (target by its key «capiscono»; «capiscano» «capiano» would classify the other way)
+# option classes to review: ce.k3 (prose by its key «It's a bar.»; «There's a bar.» would classify the other way)
+# option classes to review: numbers.k2 (target by its key «ventotto»; «ventotte» would classify the other way)
+# option classes to review: prepositions.k2 (target by its key «del»; «dello» «dil» would classify the other way)
+# option classes to review: prepositions.k3 (prose by its key «I'm from Milan.»; «I'm in Milan.» would classify the other way)
+# option classes to review: irregular.k3 (target by its key «vanno»; «andano» would classify the other way)
+# option classes to review: modals.k3 (target by its key «Luisa sa suonare il piano.»; «Luisa può suonare il piano.» «Luisa deve suonare il piano.» «Luisa vuole suonare il piano.» would classify the other way)
+# option classes to review: passato.k3 (target by its key «prendere»; «pregare» would classify the other way)
+# option classes to review: gender.01 (target by its key «mano»; «nonno» would classify the other way)
+# option classes to review: present.03 (target by its key «Capisco.»; «Capio.» «Capiscio.» would classify the other way)
+# option classes to review: present.04 (target by its key «Scrivono.»; «Scrivano.» would classify the other way)
+# option classes to review: numbers.01 (target by its key «ventuno»; «ventiuno» «ventuni» would classify the other way)
+# option classes to review: modals.04 (target by its key «Luisa sa suonare il piano.»; «Luisa può suonare il piano.» «Luisa vuole suonare il piano.» would classify the other way)
+# option classes to review: imperative.02 (target by its key «Guarda!»; «Guardi!» would classify the other way)
+# option classes to review: sapere-conoscere.03 (target by its key «Luisa sa suonare il piano.»; «Luisa conosce suonare il piano.» «Luisa sai suonare il piano.» «Luisa conosce il piano suonare.» would classify the other way)

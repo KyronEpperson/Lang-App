@@ -1,0 +1,28 @@
+{"id":"hiragana","title":"1 · Hiragana: reading Japanese sounds","blurb":"Read the basic hiragana letters, the two sound marks, and the particles は, を and へ."}
+{"id":"sounds","title":"2 · Small letters, long vowels and pitch","blurb":"Read small ゃ ゅ ょ and っ, hold long vowels for two beats, and hear pitch differences."}
+{"id":"katakana","title":"3 · Katakana: loanwords and names","blurb":"Read katakana loanwords and names, with ー for long vowels and the extra sounds for foreign words."}
+{"id":"desu","title":"4 · X は Y です: introducing yourself","blurb":"Introduce yourself, say what you are and are not, and ask simple questions politely."}
+{"id":"kosoado","title":"5 · これ・それ・あれ: this and that","blurb":"Point at things and places near you, near the listener or far away, and ask for them in a shop."}
+{"id":"numbers","title":"6 · Numbers, prices and the time","blurb":"Say numbers up to 99,999, ask and give prices in yen, and tell the time."}
+{"id":"no-mo","title":"7 · の and も: my, your, and \"too\"","blurb":"Say whose something is with の, add \"too\" with も, and talk about your family and someone else's."}
+{"id":"masu","title":"8 · Verbs in the ます form","blurb":"Say what you do and don't do with polite verbs, and put the verb at the end of the sentence."}
+{"id":"particles","title":"9 · Particles を・に・で・へ","blurb":"Say what you act on, where you go, when, where you do something and how, with を, に, へ and で."}
+{"id":"arimasu","title":"10 · あります / います: there is","blurb":"Say what is where, for things and for people and animals, with on, under, next to and more."}
+{"id":"past","title":"11 · Past: でした・ました","blurb":"Say what you did, what you didn't do, and what something was, with ました, ませんでした and でした."}
+{"id":"invite","title":"12 · ませんか・ましょう: inviting","blurb":"Invite someone, suggest a plan, offer help, and say yes or a polite no."}
+{"id":"kanji-first","title":"13 · First kanji: numbers, days, people","blurb":"Read 30 everyday kanji words: numbers, yen, the days of the week, times, people and Japan."}
+{"id":"adjectives","title":"14 · い and な adjectives","blurb":"Describe things now and in the past, say what they aren't, and put adjectives before nouns."}
+{"id":"suki","title":"15 · すき・きらい: likes and dislikes","blurb":"Say what you like, love and dislike, what people are good or bad at, and ask what kind of things someone likes."}
+{"id":"counters","title":"16 · Counting things: ひとつ, にまい, さんぼん","blurb":"Order and count things and people with the right counter, and put the number in the right place."}
+{"id":"te","title":"17 · The て form: and then","blurb":"Make the て form of any verb and use it to string actions and descriptions together."}
+{"id":"te-requests","title":"18 · てください・てもいいですか・てはいけません","blurb":"Ask people to do things, ask for permission, and understand what you must not do."}
+{"id":"teiru","title":"19 · ている: doing now, and states","blurb":"Say what people are doing right now, and talk about states such as being married, living somewhere or knowing someone."}
+{"id":"short","title":"20 · Short forms and casual speech","blurb":"Talk casually with friends in short forms, and know when to stay with です and ます."}
+{"id":"to-omou","title":"21 · とおもいます・といっていました: opinions and reports","blurb":"Say what you think and pass on what someone said, with と おもいます and と いって いました."}
+{"id":"noun-mod","title":"22 · Describing people and things with verbs","blurb":"Describe a person or thing with a whole clause, like \"the book I bought yesterday\", using past short forms."}
+{"id":"compare","title":"23 · Comparing: より・いちばん","blurb":"Compare two things with より, ask \"which one?\" with どちら, and say \"the most\" with いちばん."}
+{"id":"tsumori","title":"24 · つもり・なる: plans and changes","blurb":"Talk about your plans with つもりです, and about changes (get cold, become a teacher) with なります."}
+{"id":"tai","title":"25 · たい: want to","blurb":"Say what you want to do (and don't), what you want to have, and invite people without asking what they want."}
+{"id":"koto-aru","title":"26 · たことがあります: experiences","blurb":"Say what you have and haven't done before, and ask \"Have you ever…?\""}
+{"id":"n-desu","title":"27 · んです・ので: explaining","blurb":"Explain a situation with んです, ask \"What's wrong?\", and give a reason politely with ので."}
+{"id":"must","title":"28 · なければいけません・ほうがいい","blurb":"Say what you must do and don't have to do, and give advice with ほうが いいです."}

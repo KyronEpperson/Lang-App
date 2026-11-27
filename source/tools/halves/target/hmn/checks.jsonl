@@ -1,0 +1,78 @@
+{"id":"tones.k1","lesson":"tones","o":[null,null,null,null],"a":1}
+{"id":"tones.k2","lesson":"tones","o":[null,null,null,null],"a":2}
+{"id":"tones.k3","lesson":"tones","o":[null,null,null,null],"a":3}
+{"id":"consonants-1.k1","lesson":"consonants-1","o":[null,null,null,null],"a":0}
+{"id":"consonants-1.k2","lesson":"consonants-1","o":[null,null,null,null],"a":2}
+{"id":"consonants-1.k3","lesson":"consonants-1","o":[null,null,null,null],"a":3}
+{"id":"consonants-2.k1","lesson":"consonants-2","o":[null,null,null,null],"a":0}
+{"id":"consonants-2.k2","lesson":"consonants-2","o":[null,null,null,null],"a":2}
+{"id":"consonants-2.k3","lesson":"consonants-2","o":[null,null,null,null],"a":3}
+{"id":"greetings.k1","lesson":"greetings","o":["Pw zoo os","Nyob zoo","Sib ntsib dua","Thov txim"],"a":1}
+{"id":"greetings.k2","lesson":"greetings","o":["Thov txim","Nyob zoo","Tsis ua li cas","Mus zoo"],"a":2}
+{"id":"greetings.k3","lesson":"greetings","o":[null,null,null,null],"a":3}
+{"id":"pronouns.k1","lesson":"pronouns","o":["peb","nej","wb","lawv"],"a":2}
+{"id":"pronouns.k2","lesson":"pronouns","o":[null,null,null,null],"a":0}
+{"id":"pronouns.k3","lesson":"pronouns","o":["koj","neb","nkawd","nej"],"a":3}
+{"id":"yog-nyob.k1","lesson":"yog-nyob","o":["Kuv zoo siab","Kuv yog zoo siab","Siab zoo kuv","Zoo siab kuv"],"a":0}
+{"id":"yog-nyob.k2","lesson":"yog-nyob","o":["yog","zoo","nyob","lub"],"a":2}
+{"id":"yog-nyob.k3","lesson":"yog-nyob","o":[null,null,null,null],"a":3}
+{"id":"questions.k1","lesson":"questions","o":[null,null,null,null],"a":1}
+{"id":"questions.k2","lesson":"questions","o":["Qhov twg koj xav mus?","Mus qhov twg koj xav?","Koj xav mus qhov twg?","Koj xav qhov twg mus?"],"a":2}
+{"id":"questions.k3","lesson":"questions","o":[null,null,null,null],"a":3}
+{"id":"negation.k1","lesson":"negation","o":[null,null,null,null],"a":2}
+{"id":"negation.k2","lesson":"negation","o":["Tsis txhob mus","Tsis mus","Mus tsis","Txhob tsis mus"],"a":0}
+{"id":"negation.k3","lesson":"negation","o":["Kuv paub","Kuv paub tsis","Tsis txhob paub","Kuv tsis paub"],"a":3}
+{"id":"intro.k1","lesson":"intro","o":[null,null,null,null],"a":0}
+{"id":"intro.k2","lesson":"intro","o":["Koj tuaj tuaj qhov twg?","Qhov twg koj tuaj tuaj?","Koj tuaj qhov twg tuaj?","Koj qhov twg tuaj tuaj?"],"a":2}
+{"id":"intro.k3","lesson":"intro","o":["lub npe","hu ua","kuv lub","Paj"],"a":1}
+{"id":"numbers.k1","lesson":"numbers","o":["ob kaum","nees nkaum","kaum ob","ob caug"],"a":1}
+{"id":"numbers.k2","lesson":"numbers","o":["rau caug","rau pua","rau caum","rau kaum"],"a":2}
+{"id":"numbers.k3","lesson":"numbers","o":[null,null,null,null],"a":0}
+{"id":"classifiers.k1","lesson":"classifiers","o":[null,null,null,null],"a":2}
+{"id":"classifiers.k2","lesson":"classifiers","o":["lub","tus","daim","rab"],"a":0}
+{"id":"classifiers.k3","lesson":"classifiers","o":[null,null,null,null],"a":1}
+{"id":"noun-phrase.k1","lesson":"noun-phrase","o":["liab lub tsheb","lub tsheb liab","lub liab tsheb","tsheb liab lub"],"a":1}
+{"id":"noun-phrase.k2","lesson":"noun-phrase","o":[null,null,null,null],"a":0}
+{"id":"noun-phrase.k3","lesson":"noun-phrase","o":[null,null,null,null],"a":2}
+{"id":"family.k1","lesson":"family","o":["kwv","tij laug","muam","nus"],"a":3}
+{"id":"family.k2","lesson":"family","o":["muam","viv ncaus","nus","niam"],"a":0}
+{"id":"family.k3","lesson":"family","o":[null,null,null,null],"a":1}
+{"id":"time.k1","lesson":"time","o":[null,null,null,null],"a":1}
+{"id":"time.k2","lesson":"time","o":[null,null,null,null],"a":3}
+{"id":"time.k3","lesson":"time","o":[null,null,null,null],"a":0}
+{"id":"aspect.k1","lesson":"aspect","o":[null,null,null,null],"a":2}
+{"id":"aspect.k2","lesson":"aspect","o":[null,null,null,null],"a":0}
+{"id":"aspect.k3","lesson":"aspect","o":[null,null,null,null],"a":1}
+{"id":"places.k1","lesson":"places","o":["nram","tom","pem","hauv"],"a":2}
+{"id":"places.k2","lesson":"places","o":["Phau ntawv nyob saum lub rooj.","Phau ntawv yog saum lub rooj.","Phau ntawv saum lub rooj nyob.","Saum lub rooj phau ntawv yog."],"a":0}
+{"id":"places.k3","lesson":"places","o":[null,null,null,null],"a":1}
+{"id":"food.k1","lesson":"food","o":["noj","haus","nyob","hauv"],"a":1}
+{"id":"food.k2","lesson":"food","o":[null,null,null,null],"a":0}
+{"id":"food.k3","lesson":"food","o":["nqaij npua","nqaij nyuj","ntses","nqaij qaib"],"a":3}
+{"id":"serial-verbs.k1","lesson":"serial-verbs","o":["Kuv mus thiab yuav zaub","Kuv yuav zaub mus","Kuv mus yuav zaub","Kuv mus rau yuav zaub"],"a":2}
+{"id":"serial-verbs.k2","lesson":"serial-verbs","o":[null,null,null,null],"a":0}
+{"id":"serial-verbs.k3","lesson":"serial-verbs","o":[null,null,null,null],"a":1}
+{"id":"requests.k1","lesson":"requests","o":[null,null,null,null],"a":0}
+{"id":"requests.k2","lesson":"requests","o":["thov","tsis txhob","puas tau","lawm"],"a":1}
+{"id":"requests.k3","lesson":"requests","o":[null,null,null,null],"a":2}
+{"id":"feelings-weather.k1","lesson":"feelings-weather","o":["Kuv zoo siab.","Kuv yog zoo siab.","Zoo siab kuv.","Kuv nyob zoo siab."],"a":0}
+{"id":"feelings-weather.k2","lesson":"feelings-weather","o":[null,null,null,null],"a":1}
+{"id":"feelings-weather.k3","lesson":"feelings-weather","o":["no","cua","sov","nag"],"a":2}
+{"id":"shopping.k1","lesson":"shopping","o":["Qhov twg pes tsawg?","Pes tsawg qhov no?","Qhov no pes tsawg?","Qhov no kim heev."],"a":2}
+{"id":"shopping.k2","lesson":"shopping","o":["ob nkawm khau","ob khau","ob lub khau","ob daim khau"],"a":0}
+{"id":"shopping.k3","lesson":"shopping","o":[null,null,null,null],"a":1}
+{"id":"health.k1","lesson":"health","o":["Kuv yog mob taub hau.","Kuv mob taub hau.","Taub hau kuv mob.","Kuv taub hau yog mob."],"a":1}
+{"id":"health.k2","lesson":"health","o":[null,null,null,null],"a":2}
+{"id":"health.k3","lesson":"health","o":["tus","lub","daim","phau"],"a":0}
+{"id":"compare.k1","lesson":"compare","o":[null,null,null,null],"a":1}
+{"id":"compare.k2","lesson":"compare","o":[null,null,null,null],"a":0}
+{"id":"compare.k3","lesson":"compare","o":["heev loj","ntau loj","loj heev","tshaj loj"],"a":2}
+{"id":"elders.k1","lesson":"elders","o":["Pog, koj tuaj los?","Pog, mus ho tuaj.","Pog, pw zoo os.","Pog, thov txim."],"a":0}
+{"id":"elders.k2","lesson":"elders","o":["Kuv noj mov lawm.","Kuv tsis noj tau.","Kuv tsis tau noj.","Tsis tau kuv noj."],"a":2}
+{"id":"elders.k3","lesson":"elders","o":[null,null,null,null],"a":1}
+{"id":"new-year.k1","lesson":"new-year","o":[null,null,null,null],"a":0}
+{"id":"new-year.k2","lesson":"new-year","o":["pob","pog","pov","pom"],"a":2}
+{"id":"new-year.k3","lesson":"new-year","o":["tshiab khaub ncaws","khaub ncaws tshiab","khaub tshiab ncaws","tshiab ncaws"],"a":1}
+{"id":"family-events.k1","lesson":"family-events","o":[null,null,null,null],"a":0}
+{"id":"family-events.k2","lesson":"family-events","o":["Kuv muaj ob me nyuam.","Kuv muaj ob lub me nyuam.","Kuv muaj ob tug me nyuam.","Kuv muaj ob phau me nyuam."],"a":2}
+{"id":"family-events.k3","lesson":"family-events","o":[null,null,null,null],"a":1}

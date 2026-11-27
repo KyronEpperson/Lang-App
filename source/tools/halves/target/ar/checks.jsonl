@@ -1,0 +1,84 @@
+{"id":"letters.k1","lesson":"letters","o":[null,null,null,null],"a":0}
+{"id":"letters.k2","lesson":"letters","o":[null,null,null,null],"a":1}
+{"id":"letters.k3","lesson":"letters","o":[null,null,null,null],"a":2}
+{"id":"sounds.k1","lesson":"sounds","o":["ه","ح","خ","ع"],"a":1}
+{"id":"sounds.k2","lesson":"sounds","o":[null,null,null,null],"a":3}
+{"id":"sounds.k3","lesson":"sounds","o":[null,null,null,null],"a":1}
+{"id":"vowels.k1","lesson":"vowels","o":[null,null,null,null],"a":0}
+{"id":"vowels.k2","lesson":"vowels","o":[null,null,null,null],"a":1}
+{"id":"vowels.k3","lesson":"vowels","o":[null,null,null,null],"a":2}
+{"id":"shapes.k1","lesson":"shapes","o":["ب","ر","س","م"],"a":1}
+{"id":"shapes.k2","lesson":"shapes","o":[null,null,null,null],"a":2}
+{"id":"shapes.k3","lesson":"shapes","o":[null,null,null,null],"a":1}
+{"id":"sukun-shadda.k1","lesson":"sukun-shadda","o":[null,null,null,null],"a":1}
+{"id":"sukun-shadda.k2","lesson":"sukun-shadda","o":[null,null,null,null],"a":2}
+{"id":"sukun-shadda.k3","lesson":"sukun-shadda","o":[null,null,null,null],"a":0}
+{"id":"hamza.k1","lesson":"hamza","o":["ī","ā",null,null],"a":1}
+{"id":"hamza.k2","lesson":"hamza","o":[null,null,null,null],"a":3}
+{"id":"hamza.k3","lesson":"hamza","o":[null,null,null,null],"a":0}
+{"id":"al.k1","lesson":"al","o":[null,null,null,null],"a":1}
+{"id":"al.k2","lesson":"al","o":[null,null,null,null],"a":2}
+{"id":"al.k3","lesson":"al","o":["الْبَيْت الْكَبِير","الْبَيْت كَبِير","بَيْت الْكَبِير","الْكَبِير الْبَيْت"],"a":0}
+{"id":"greetings.k1","lesson":"greetings","o":["مَعَ السَّلَامَة","وَعَلَيْكُم السَّلَام","عَفْوًا","صَبَاح النُّور"],"a":1}
+{"id":"greetings.k2","lesson":"greetings","o":[null,null,null,null],"a":2}
+{"id":"greetings.k3","lesson":"greetings","o":["كَيْفَ حَالُكِ؟","كَيْفَ حَالُكَ؟","بِخَيْر","مَعَ السَّلَامَة"],"a":0}
+{"id":"gender.k1","lesson":"gender","o":["بَيْت","كِتَاب","سَيَّارَة","بَاب"],"a":2}
+{"id":"gender.k2","lesson":"gender","o":[null,null,null,null],"a":1}
+{"id":"gender.k3","lesson":"gender","o":["هِيَ","هُوَ","هٰذَا","أَنَا"],"a":0}
+{"id":"pronouns.k1","lesson":"pronouns","o":["أَنْتَ","أَنْتِ","أَنَا","هِيَ"],"a":1}
+{"id":"pronouns.k2","lesson":"pronouns","o":["أَنَا طَالِب","أَنَا طَالِبَة","أَنْتَ طَالِب","هُوَ طَالِب"],"a":0}
+{"id":"pronouns.k3","lesson":"pronouns","o":["هِيَ","أَنْتَ","هُوَ","نَحْنُ"],"a":2}
+{"id":"nominal.k1","lesson":"nominal","o":["الْبَيْت كَبِير","الْبَيْت هُوَ كَبِير","الْبَيْت الْكَبِير","بَيْت كَبِير"],"a":0}
+{"id":"nominal.k2","lesson":"nominal","o":[null,null,null,null],"a":1}
+{"id":"nominal.k3","lesson":"nominal","o":["أَنَا مَشْغُول","أَنَا هِيَ مَشْغُولَة","أَنَا أَكُون مَشْغُولَة","أَنَا مَشْغُولَة"],"a":3}
+{"id":"definite.k1","lesson":"definite","o":["وَاحِد سَيَّارَة","سَيَّارَة","السَّيَّارَة","هٰذِهِ سَيَّارَة"],"a":1}
+{"id":"definite.k2","lesson":"definite","o":["الشَّقَّة جَدِيدَة","شَقَّة الْجَدِيدَة","الشَّقَّة الْجَدِيدَة","الشَّقَّة الْجَدِيد"],"a":2}
+{"id":"definite.k3","lesson":"definite","o":[null,null,null,null],"a":0}
+{"id":"nisba.k1","lesson":"nisba","o":["أَنَا مِصْرِيّ","أَنَا مِصْرِيَّة","أَنَا مِصْر","أَنَا الْمِصْرِيَّة"],"a":1}
+{"id":"nisba.k2","lesson":"nisba","o":["هُوَ الْمَغْرِبِيّ","هُوَ مَغْرِب","هُوَ مِن مَغْرِبِيّ","هُوَ مَغْرِبِيّ"],"a":3}
+{"id":"nisba.k3","lesson":"nisba","o":[null,null,null,null],"a":0}
+{"id":"questions.k1","lesson":"questions","o":["مَاذَا","مَا","مَن","كَيْفَ"],"a":1}
+{"id":"questions.k2","lesson":"questions","o":[null,null,null,null],"a":0}
+{"id":"questions.k3","lesson":"questions","o":["مَتَى الْمَدْرَسَة؟","مَن الْمَدْرَسَة؟","أَيْنَ الْمَدْرَسَة؟","مَاذَا الْمَدْرَسَة؟"],"a":2}
+{"id":"numbers.k1","lesson":"numbers","o":[null,null,null,null],"a":0}
+{"id":"numbers.k2","lesson":"numbers","o":["عِشْرُون وَوَاحِد","وَاحِد عِشْرُون","وَاحِد وَعِشْرُون","عِشْرُون وَاحِد"],"a":2}
+{"id":"numbers.k3","lesson":"numbers","o":["وَاحِدَة مَدْرَسَة","مَدْرَسَة وَاحِدَة","مَدْرَسَة وَاحِد","الْمَدْرَسَة وَاحِد"],"a":1}
+{"id":"ordering.k1","lesson":"ordering","o":["مِن فَضْلِكَ","مِن فَضْلِكِ","شُكْرًا","عَفْوًا"],"a":1}
+{"id":"ordering.k2","lesson":"ordering","o":[null,null,null,null],"a":0}
+{"id":"ordering.k3","lesson":"ordering","o":[null,null,null,null],"a":2}
+{"id":"adjectives.k1","lesson":"adjectives","o":[null,null,null,null],"a":0}
+{"id":"adjectives.k2","lesson":"adjectives","o":["السَّيَّارَة جَدِيدَة","سَيَّارَة الْجَدِيدَة","السَّيَّارَة الْجَدِيدَة","السَّيَّارَة الْجَدِيد"],"a":2}
+{"id":"adjectives.k3","lesson":"adjectives","o":[null,null,null,null],"a":1}
+{"id":"idafa.k1","lesson":"idafa","o":["الْكِتَاب الطَّالِب","كِتَاب الطَّالِب","الطَّالِب كِتَاب","كِتَاب طَالِب"],"a":1}
+{"id":"idafa.k2","lesson":"idafa","o":[null,null,null,null],"a":0}
+{"id":"idafa.k3","lesson":"idafa","o":[null,null,null,null],"a":2}
+{"id":"possessive.k1","lesson":"possessive","o":["الْبَيْتِي","بَيْت أَنَا","بَيْتِي","أَنَا بَيْت"],"a":2}
+{"id":"possessive.k2","lesson":"possessive","o":[null,null,null,null],"a":0}
+{"id":"possessive.k3","lesson":"possessive","o":["اِسْمُكَ","اِسْمُكِ","اِسْمُهَا","اِسْمِي"],"a":1}
+{"id":"have.k1","lesson":"have","o":["أَنَا عِنْدَ","عِنْدِي","لَا عِنْدِي","عِنْدَهُ"],"a":1}
+{"id":"have.k2","lesson":"have","o":["لَا عِنْدِي سَيَّارَة","عِنْدِي لَا سَيَّارَة","لَيْسَ عِنْدِي سَيَّارَة","لَيْسَ سَيَّارَة عِنْدِي"],"a":2}
+{"id":"have.k3","lesson":"have","o":[null,null,null,null],"a":0}
+{"id":"plurals.k1","lesson":"plurals","o":["كِتَابُون","كُتُب","كِتَابَة","الْكِتَاب"],"a":1}
+{"id":"plurals.k2","lesson":"plurals","o":["السَّيَّارَات جَدِيدُون","السَّيَّارَات الْجَدِيدَة","السَّيَّارَات جَدِيدَة","السَّيَّارَة جَدِيدُون"],"a":2}
+{"id":"plurals.k3","lesson":"plurals","o":[null,null,null,null],"a":0}
+{"id":"roots.k1","lesson":"roots","o":[null,null,null,null],"a":1}
+{"id":"roots.k2","lesson":"roots","o":[null,null,null,null],"a":0}
+{"id":"roots.k3","lesson":"roots","o":["كَاتِب","مَكْتَب","مَدْرَسَة","مَطْبَخ"],"a":2}
+{"id":"present.k1","lesson":"present","o":["يَدْرُس","تَدْرُس","أَدْرُس","نَدْرُس"],"a":2}
+{"id":"present.k2","lesson":"present","o":["أَنْتِ تَدْرُسِين","أَنْتِ تَدْرُس","أَنْتَ تَدْرُسِين","أَنْتِ يَدْرُس"],"a":0}
+{"id":"present.k3","lesson":"present","o":[null,null,null,null],"a":1}
+{"id":"verb-sentences.k1","lesson":"verb-sentences","o":[null,null,null,null],"a":1}
+{"id":"verb-sentences.k2","lesson":"verb-sentences","o":[null,null,null,null],"a":0}
+{"id":"verb-sentences.k3","lesson":"verb-sentences","o":["يَدْرُس","يَدْرُسُون","تَدْرُس","أَدْرُس"],"a":2}
+{"id":"negation.k1","lesson":"negation","o":["لَيْسَ","لَا","لَيْسَت","لَسْتُ"],"a":1}
+{"id":"negation.k2","lesson":"negation","o":["لَا عِنْدِي سَيَّارَة","عِنْدِي لَا سَيَّارَة","لَسْتُ عِنْدِي سَيَّارَة","لَيْسَ عِنْدِي سَيَّارَة"],"a":3}
+{"id":"negation.k3","lesson":"negation","o":["هِيَ لَيْسَت هُنَا","هِيَ لَا هُنَا","هِيَ لَيْسَ هُنَا","هِيَ لَا تَكُون هُنَا"],"a":0}
+{"id":"adverbs.k1","lesson":"adverbs","o":[null,null,null,null],"a":1}
+{"id":"adverbs.k2","lesson":"adverbs","o":["كُلّ الْيَوْم","يَوْم كُلّ","كُلّ يَوْم","الْيَوْم"],"a":2}
+{"id":"adverbs.k3","lesson":"adverbs","o":["يَوْم الِاثْنَيْن","الْيَوْم اِثْنَيْن","اِثْنَيْن يَوْم","يَوْم الْأَحَد"],"a":0}
+{"id":"past.k1","lesson":"past","o":["دَرَسَ","دَرَسْتُ","دَرَسَت","دَرَسُوا"],"a":1}
+{"id":"past.k2","lesson":"past","o":["ذَهَبَ","ذَهَبُوا","تَذْهَب","ذَهَبَت"],"a":3}
+{"id":"past.k3","lesson":"past","o":[null,null,null,null],"a":0}
+{"id":"directions.k1","lesson":"directions","o":["لَوْ سَمَحْتَ","لَوْ سَمَحْتِ","مَعَ السَّلَامَة","لَا أَفْهَم"],"a":1}
+{"id":"directions.k2","lesson":"directions","o":["الْمَحَطَّة الْقِطَار","الْقِطَار مَحَطَّة","مَحَطَّةْ الْقِطَار","مَحَطَّةْ قِطَار"],"a":2}
+{"id":"directions.k3","lesson":"directions","o":["عَلَى الْيَمِين","عَلَى الْيَسَار","عَلَى طُول","هُنَاكَ"],"a":0}

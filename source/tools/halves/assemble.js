@@ -72,7 +72,7 @@ function assemble(nat, tgt, opts) {
   const CHECKS = {}; t.checks.forEach(c => { const x = get('checks', c.id); (CHECKS[c.lesson] = CHECKS[c.lesson] || []).push([x.q, merge(c.o, x.o), c.a, x.why]); });
   const PRACTICE = {}; t.practice.forEach(p => {
     const x = get('practice', p.id), o = { t: p.t };
-    if (p.t === 'fill') o.q = p.q; else if (x.q != null) o.q = x.q;
+    if (p.t === 'fill' && p.q != null) o.q = p.q; else if (x.q != null) o.q = x.q;
     if (x.p != null) o.p = x.p;
     if (p.o) o.o = p.t === 'mc' ? merge(p.o, x.o) : p.o;
     if (p.a) o.a = p.a; if (p.x) o.x = p.x; if (p.alt) o.alt = p.alt;

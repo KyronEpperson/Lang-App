@@ -1,0 +1,78 @@
+{"id":"tones.k1","q":"What does the b at the end of Hmoob tell you?","o":["Say a b sound at the end","It marks the high tone","The vowel is long","The word is a name"],"why":"The last letter is a tone letter: -b marks the high tone, and it is never said."}
+{"id":"tones.k2","q":"A syllable has no tone letter at all, like zoo (good). How is it said?","o":["As high as you can","Low, with a creak","Flat, in your normal speaking voice","Falling, like a sigh"],"why":"No tone letter means the mid tone: flat, your normal speaking voice."}
+{"id":"tones.k3","q":"dej means water. What does dev mean?","o":["Water too, said more politely","Cold water","Hot water","Dog: a different tone letter makes a different word"],"why":"dej has the falling tone and dev the rising tone; they are two different words."}
+{"id":"consonants-1.k1","q":"How is the x in xav (to think) said?","o":["Like English s","Like the ks in box","Like sh","Like z"],"why":"In RPA x is an English s sound; s is the sh-like sound."}
+{"id":"consonants-1.k2","q":"What is the w in tw (tail)?","o":["A consonant, as in English we","A silent letter","A vowel, like the i of roses with spread lips","A tone letter"],"why":"w is always a vowel in Hmong, never a consonant."}
+{"id":"consonants-1.k3","q":"What does the h in ph, th, kh and qh show?","o":["It marks the high tone","Say ph as f and th as in think","The h is silent","A puff of air after the consonant"],"why":"An h after a consonant makes it aspirated: a puff of air follows."}
+{"id":"consonants-2.k1","q":"How does the np in npua (pig) start?","o":["With a short hum through the nose, like mb","Like English n, then a separate p","Like English b","With a puff of air"],"why":"np is pre-nasalised: a quick hum, then the p, like the mb of number."}
+{"id":"consonants-2.k2","q":"What is the difference between nab and hnab?","o":["None: two spellings of one word","hnab is the plural","hnab starts breathy and means bag; nab is snake","hnab has a higher tone"],"why":"hn is a breathy n, and it makes a different word: hnab, bag."}
+{"id":"consonants-2.k3","q":"In neeg (person), what does the double e show?","o":["A long vowel","Two syllables","A g sound at the end","A nasal vowel, close to eng"],"why":"A doubled vowel is nasal: ee is close to eng, with no g said."}
+{"id":"greetings.k1","q":"It's 8 a.m. and you meet a neighbor. What do you say?","why":"Nyob zoo works at any time of day; Hmong has no separate good morning."}
+{"id":"greetings.k2","q":"Someone says Ua tsaug to you. What is a natural reply?","why":"Tsis ua li cas, it's nothing, answers thanks."}
+{"id":"greetings.k3","q":"What does os do at the end of Pw zoo os?","o":["It makes the sentence a question","It means and you?","It is the word for night","It softens the sentence and sounds warm"],"why":"os is a softening word at the end of a sentence."}
+{"id":"pronouns.k1","q":"You are talking about yourself and one friend. Which word means 'we'?","why":"wb is exactly two people; peb is three or more."}
+{"id":"pronouns.k2","q":"What does nws mean?","o":["He, she or it","Only he","Only she","They"],"why":"nws covers he, she and it."}
+{"id":"pronouns.k3","q":"Which word means 'you' for three or more people?","why":"koj is one person, neb two, nej three or more."}
+{"id":"yog-nyob.k1","q":"How do you say 'I'm happy'?","why":"A describing word needs no yog: Kuv zoo siab."}
+{"id":"yog-nyob.k2","q":"Which word fills 'Kuv ___ hauv lub tsev' (I'm in the house)?","why":"nyob is for where someone is."}
+{"id":"yog-nyob.k3","q":"What does Nov yog lub tsev mean?","o":["I live in the house","The house is new","Where is the house?","This is the house"],"why":"Nov is this, yog says what it is, lub tsev is the house."}
+{"id":"questions.k1","q":"Where does puas go in a yes-or-no question?","o":["At the very end","Right before the verb","At the very start","After the verb"],"why":"puas sits right before the verb: Koj puas hais lus Askiv?"}
+{"id":"questions.k2","q":"How do you ask 'Where do you want to go?'","why":"The question word stays where the answer goes, after the verb mus."}
+{"id":"questions.k3","q":"What does los tsis yog add at the end of a sentence?","o":["why?","who?","when?","or not?"],"why":"los tsis yog means or not? and turns a statement into a yes-or-no question."}
+{"id":"negation.k1","q":"Where does tsis go?","o":["At the end of the sentence","Right after the verb","Right before the verb","At the very start, before the person"],"why":"tsis comes right before the verb: Kuv tsis paub."}
+{"id":"negation.k2","q":"How do you say 'Don't go!'?","why":"Don't is tsis txhob, before the verb."}
+{"id":"negation.k3","q":"Someone asks Koj puas paub? (Do you know?) and you don't. You say…","why":"tsis before the verb paub: Kuv tsis paub."}
+{"id":"intro.k1","q":"What is missing in 'Kuv npe hu ua Paj'?","o":["lub, the classifier for npe","yog, the word for is","puas, the question word","Nothing: it is correct"],"why":"npe (name) needs its classifier: Kuv lub npe hu ua Paj."}
+{"id":"intro.k2","q":"How do you ask 'Where are you from?'","why":"tuaj sits on both sides of the place word: Koj tuaj qhov twg tuaj?"}
+{"id":"intro.k3","q":"In Kuv lub npe hu ua Paj, which words mean 'is called'?","why":"hu ua means is called; lub npe is the name."}
+{"id":"numbers.k1","q":"How do you say 20?","why":"Twenty has its own word: nees nkaum. kaum ob is 12."}
+{"id":"numbers.k2","q":"Which one is 60?","why":"After six, seven, eight and nine the tens word is caum, with the creaky tone letter m."}
+{"id":"numbers.k3","q":"What is kaum ob?","o":["12","20","2","10"],"why":"kaum (ten) comes first, then the extra: ten and two."}
+{"id":"classifiers.k1","q":"Where does the classifier go in 'two houses'?","o":["After the noun: ob tsev lub","Before the number: lub ob tsev","Between the number and the noun: ob lub tsev","Nowhere: ob tsev"],"why":"Number, then classifier, then noun: ob lub tsev."}
+{"id":"classifiers.k2","q":"Which classifier goes with kaus (umbrella)?","why":"Umbrellas take lub, not tus: lub kaus."}
+{"id":"classifiers.k3","q":"What is the difference between daim ntawv and phau ntawv?","o":["None, they mean the same","A sheet of paper and a book","A book and a letter","One paper and two papers"],"why":"daim counts flat things (a sheet of paper); phau counts books."}
+{"id":"noun-phrase.k1","q":"How do you say 'the red car'?","why":"Classifier and noun first, then the describing word: lub tsheb liab."}
+{"id":"noun-phrase.k2","q":"Where does no (this) go?","o":["At the very end of the noun phrase","Before the classifier","Between the classifier and the noun","Before the number"],"why":"This and that come last: lub tsev no, lub tsev loj no."}
+{"id":"noun-phrase.k3","q":"In kuv lub tsheb, where does 'my' go?","o":["After the noun","At the end","First, as in English","Hmong has no word for my"],"why":"The owner goes first: kuv lub tsheb."}
+{"id":"family.k1","q":"A woman talks about her brother. Which word does she use?","why":"A woman calls any brother nus; kwv and tij laug are said by a man."}
+{"id":"family.k2","q":"A man talks about his sister. Which word does he use?","why":"A man says muam; a woman says viv ncaus."}
+{"id":"family.k3","q":"What is phauj?","o":["Mother's brother","Father's sister","Grandmother","Daughter-in-law"],"why":"phauj is your father's sister; dab laug is your mother's brother."}
+{"id":"time.k1","q":"How does Hmong show that something happened yesterday?","o":["The verb takes an ending","With a time word such as nag hmo; the verb stays the same","The verb moves to the end","With a different tone on the verb"],"why":"Hmong verbs never change; nag hmo (yesterday) tells you when."}
+{"id":"time.k2","q":"What does tag kis mean?","o":["yesterday","today","tonight","tomorrow"],"why":"tag kis is tomorrow; nag hmo is yesterday and hnub no is today."}
+{"id":"time.k3","q":"What is kaum ob hlis ntuj?","o":["December","February","October","twelve days"],"why":"Months are numbered: twelve + hlis ntuj is December."}
+{"id":"aspect.k1","q":"Where does lawm go?","o":["Before the verb","At the start of the sentence","After the verb and its object","Between the subject and the verb"],"why":"lawm follows the verb and its object: Kuv noj mov lawm."}
+{"id":"aspect.k2","q":"What does tab tom show?","o":["The action is going on now","The action is finished","The action will happen later","The action did not happen"],"why":"tab tom means 'in the middle of': Lawv tab tom haus dej."}
+{"id":"aspect.k3","q":"In Kuv yuav yuav ib lub tsheb, what does the second yuav mean?","o":["will","buy","want","already"],"why":"The first yuav is 'will', the second is the verb 'buy'."}
+{"id":"places.k1","q":"Which word means 'up there' (higher than you)?","why":"pem is up there; nram is down there."}
+{"id":"places.k2","q":"How do you say 'The book is on the table'?","why":"Location takes nyob, then saum and the place."}
+{"id":"places.k3","q":"What is tod?","o":["The word for 'here'","The form of tom at the end of a phrase","A word for 'up there'","The word for 'turn'"],"why":"At the end of a phrase tom becomes tod."}
+{"id":"food.k1","q":"Which verb goes with dej (water)?","why":"Drinks take haus: Kuv haus dej."}
+{"id":"food.k2","q":"What does noj mov mean?","o":["To eat a meal","To cook rice","To buy rice","To drink soup"],"why":"noj mov, literally 'eat rice', is to eat a meal."}
+{"id":"food.k3","q":"How do you say 'chicken' (the meat)?","why":"nqaij (meat) + qaib (chicken): nqaij qaib."}
+{"id":"serial-verbs.k1","q":"How do you say 'I'm going out to buy vegetables'?","why":"The verbs sit side by side, with no thiab: mus yuav."}
+{"id":"serial-verbs.k2","q":"In Kuv muab phau ntawv rau koj, who gets the book?","o":["koj (you)","kuv (me)","nws (him)","nobody"],"why":"The person after rau gets the thing."}
+{"id":"serial-verbs.k3","q":"Where does yuav (will) go in a row of verbs?","o":["After the last verb","Before the first verb","Between the verbs","At the end of the sentence"],"why":"yuav goes before the first verb: Kuv yuav mus yuav nqaij npua."}
+{"id":"requests.k1","q":"Where does thov (please) go?","o":["Right before the verb","After the verb","At the very end of the sentence","After the object"],"why":"thov goes right before the action: Thov zaum, Thov pab kuv."}
+{"id":"requests.k2","q":"You want to tell a child \"Don't eat.\" Which word goes before noj?","why":"tsis txhob before the verb means don't: Tsis txhob noj."}
+{"id":"requests.k3","q":"What does puas tau? do at the end of a sentence?","o":["It makes the sentence past","It means don't","It turns it into a polite \"may I / could you?\"","It means thank you"],"why":"Pab kuv puas tau? = Could you help me? Kuv nug puas tau? = May I ask?"}
+{"id":"feelings-weather.k1","q":"How do you say \"I'm happy\"?","why":"No yog before a feeling: the feeling word is the verb."}
+{"id":"feelings-weather.k2","q":"What does Hnub no los nag mean?","o":["It was cold yesterday.","It's raining today.","It's snowing today.","It's hot today."],"why":"hnub no = today, los nag = to rain."}
+{"id":"feelings-weather.k3","q":"Which word means \"warm\"?","why":"sov is warm; no is cold, cua is wind and nag is rain."}
+{"id":"shopping.k1","q":"How do you ask \"How much is this?\"","why":"pes tsawg stays at the end, where the answer goes."}
+{"id":"shopping.k2","q":"Which means \"two pairs of shoes\"?","why":"Shoes are counted in pairs with nkawm, between the number and the noun."}
+{"id":"shopping.k3","q":"What does pheej yig mean?","o":["expensive","cheap","discount","to pay"],"why":"pheej yig is cheap; kim is expensive."}
+{"id":"health.k1","q":"How do you say \"I have a headache\"?","why":"mob works as the verb, and the body part comes right after it."}
+{"id":"health.k2","q":"What does noj tshuaj mean?","o":["eat rice","buy medicine","take medicine","see the doctor"],"why":"Hmong eats medicine: noj tshuaj."}
+{"id":"health.k3","q":"Which counting word goes with kws kho mob (doctor)?","why":"People take tus: tus kws kho mob."}
+{"id":"compare.k1","q":"Where does tshaj go?","o":["Before the describing word","Right after the describing word","At the very start","At the very end"],"why":"Describing word first, then tshaj: loj tshaj."}
+{"id":"compare.k2","q":"What does Kuv laus tshaj koj mean?","o":["I'm older than you.","You're older than me.","I'm very old.","I'm the youngest."],"why":"The first thing (kuv) is the one that is more: older than you."}
+{"id":"compare.k3","q":"\"very big\" is…","why":"heev goes after the describing word."}
+{"id":"elders.k1","q":"Your grandmother has just arrived. What do you say?","why":"Koj tuaj los? greets someone who has just come."}
+{"id":"elders.k2","q":"Grandpa asks if you have eaten. You haven't yet. You say…","why":"tsis tau goes before the verb: not yet."}
+{"id":"elders.k3","q":"When do you say Mus ho tuaj?","o":["When a guest arrives","When a guest is leaving","Before eating","At bedtime"],"why":"Mus ho tuaj, come again, is said to a departing guest."}
+{"id":"new-year.k1","q":"What is noj peb caug?","o":["the Hmong New Year celebration","a bamboo pipe","a silver sash","the ball toss"],"why":"noj peb caug is the New Year celebration."}
+{"id":"new-year.k2","q":"Which word means \"throw\"?","why":"pov has the rising tone (-v): throw. pob is a ball."}
+{"id":"new-year.k3","q":"\"new clothes\" is…","why":"The describing word comes after the noun."}
+{"id":"family-events.k1","q":"What is a xeem?","o":["a clan, which is also the surname","a soul-calling ceremony","a US state","a birthday"],"why":"xeem is clan; xeev, with a different tone letter, is a state."}
+{"id":"family-events.k2","q":"\"I have two children\" is…","why":"People take tus, written tug after ob."}
+{"id":"family-events.k3","q":"What is khi tes?","o":["a New Year game","a blessing with strings on the wrist","a clan name","a meal"],"why":"Elders tie strings around the wrist and wish the person health."}

@@ -1,0 +1,973 @@
+{"id":"de.c0001","deck":"de.d.sounds-and-spelling","de":"das Buch","rom":"dahs bookh"}
+{"id":"de.c0002","deck":"de.d.sounds-and-spelling","de":"der Tag","rom":"dayr tahk"}
+{"id":"de.c0003","deck":"de.d.sounds-and-spelling","de":"ich","rom":"ihh"}
+{"id":"de.c0004","deck":"de.d.sounds-and-spelling","de":"gelb","rom":"gehlp"}
+{"id":"de.c0005","deck":"de.d.sounds-and-spelling","de":"der Hund","rom":"dayr hoont"}
+{"id":"de.c0006","deck":"de.d.sounds-and-spelling","de":"der Wein","rom":"dayr vain"}
+{"id":"de.c0007","deck":"de.d.sounds-and-spelling","de":"das Haus","rom":"dahs hows"}
+{"id":"de.c0008","deck":"de.d.sounds-and-spelling","de":"die Leute","rom":"dee LOY-tuh"}
+{"id":"de.c0009","deck":"de.d.sounds-and-spelling","de":"schön","rom":"shurn"}
+{"id":"de.c0010","deck":"de.d.sounds-and-spelling","de":"die Tür","rom":"dee tewr"}
+{"id":"de.c0011","deck":"de.d.sounds-and-spelling","de":"der Käse","rom":"dayr KEH-zuh"}
+{"id":"de.c0012","deck":"de.d.sounds-and-spelling","de":"das Wasser","rom":"dahs VAHS-uh"}
+{"id":"de.c0013","deck":"de.d.sounds-and-spelling","de":"der Vogel","rom":"dayr FOH-guhl"}
+{"id":"de.c0014","deck":"de.d.sounds-and-spelling","de":"die Zeit","rom":"dee tsait"}
+{"id":"de.c0015","deck":"de.d.sounds-and-spelling","de":"ja","rom":"yah"}
+{"id":"de.c0016","deck":"de.d.sounds-and-spelling","de":"die Sonne","rom":"dee ZAWN-uh"}
+{"id":"de.c0017","deck":"de.d.sounds-and-spelling","de":"die Straße","rom":"dee SHTRAH-suh"}
+{"id":"de.c0018","deck":"de.d.sounds-and-spelling","de":"der Sport","rom":"dayr shpawrt"}
+{"id":"de.c0019","deck":"de.d.greetings-and-courtesy","de":"Guten Morgen!","rom":"GOO-tuhn MAWR-guhn"}
+{"id":"de.c0020","deck":"de.d.greetings-and-courtesy","de":"Guten Tag!","rom":"GOO-tuhn tahk"}
+{"id":"de.c0021","deck":"de.d.greetings-and-courtesy","de":"Guten Abend!","rom":"GOO-tuhn AH-buhnt"}
+{"id":"de.c0022","deck":"de.d.greetings-and-courtesy","de":"Gute Nacht!","rom":"GOO-tuh nahkht"}
+{"id":"de.c0023","deck":"de.d.greetings-and-courtesy","de":"Hallo!","rom":"HAHL-oh"}
+{"id":"de.c0024","deck":"de.d.greetings-and-courtesy","de":"Wie heißen Sie?","rom":"vee HAI-suhn zee"}
+{"id":"de.c0025","deck":"de.d.greetings-and-courtesy","de":"Wie heißt du?","rom":"vee haist doo"}
+{"id":"de.c0026","deck":"de.d.greetings-and-courtesy","de":"Freut mich!","rom":"froyt mihh"}
+{"id":"de.c0027","deck":"de.d.greetings-and-courtesy","de":"Gut, danke. Und Ihnen?","rom":"goot DAHN-kuh oont EE-nuhn"}
+{"id":"de.c0028","deck":"de.d.greetings-and-courtesy","de":"Danke, gut. Und dir?","rom":"DAHN-kuh goot oont deer"}
+{"id":"de.c0029","deck":"de.d.greetings-and-courtesy","de":"Danke!","rom":"DAHN-kuh"}
+{"id":"de.c0030","deck":"de.d.greetings-and-courtesy","de":"Vielen Dank!","rom":"FEE-luhn dahnk"}
+{"id":"de.c0031","deck":"de.d.greetings-and-courtesy","de":"Bitte!","rom":"BIT-uh"}
+{"id":"de.c0032","deck":"de.d.greetings-and-courtesy","de":"Entschuldigung!","rom":"ehnt-SHOOL-dih-goong"}
+{"id":"de.c0033","deck":"de.d.greetings-and-courtesy","de":"Wie bitte?","rom":"vee BIT-uh"}
+{"id":"de.c0034","deck":"de.d.greetings-and-courtesy","de":"Bis später!","rom":"bis SHPEH-tuh"}
+{"id":"de.c0035","deck":"de.d.greetings-and-courtesy","de":"Tschüss!","rom":"chews"}
+{"id":"de.c0036","deck":"de.d.greetings-and-courtesy","de":"Auf Wiedersehen!","rom":"owf VEE-duh-zay-uhn"}
+{"id":"de.c0037","deck":"de.d.about-me","de":"Ich heiße Emily.","rom":"ihh HAI-suh EH-mih-lee"}
+{"id":"de.c0038","deck":"de.d.about-me","de":"Mein Name ist Ryan.","rom":"main NAH-muh ist RAI-uhn"}
+{"id":"de.c0039","deck":"de.d.about-me","de":"Ich komme aus den USA.","rom":"ihh KAWM-uh ows dayn oo-ehs-AH"}
+{"id":"de.c0040","deck":"de.d.about-me","de":"Ich komme aus Kanada.","rom":"ihh KAWM-uh ows KAH-nah-dah"}
+{"id":"de.c0041","deck":"de.d.about-me","de":"Ich bin Amerikanerin.","rom":"ihh bin ah-may-ree-KAH-nuh-rin"}
+{"id":"de.c0042","deck":"de.d.about-me","de":"Ich wohne in Berlin.","rom":"ihh VOH-nuh in behr-LEEN"}
+{"id":"de.c0043","deck":"de.d.about-me","de":"Ich wohne allein.","rom":"ihh VOH-nuh ahl-AIN"}
+{"id":"de.c0044","deck":"de.d.about-me","de":"Ich bin Ingenieurin.","rom":"ihh bin in-zheh-NYUR-in"}
+{"id":"de.c0045","deck":"de.d.about-me","de":"Ich bin Student.","rom":"ihh bin shtoo-DEHNT"}
+{"id":"de.c0046","deck":"de.d.about-me","de":"Ich bin dreißig Jahre alt.","rom":"ihh bin DRAI-sihh YAH-ruh ahlt"}
+{"id":"de.c0047","deck":"de.d.about-me","de":"Ich bin verheiratet.","rom":"ihh bin fehr-HAI-rah-tuht"}
+{"id":"de.c0048","deck":"de.d.about-me","de":"Ich spreche Englisch.","rom":"ihh SHPREHH-uh EHNG-lish"}
+{"id":"de.c0049","deck":"de.d.about-me","de":"Ich spreche ein bisschen Deutsch.","rom":"ihh SHPREHH-uh ain BIS-hhuhn doych"}
+{"id":"de.c0050","deck":"de.d.about-me","de":"Ich lerne seit drei Monaten Deutsch.","rom":"ihh LEHR-nuh zait drai MOH-nah-tuhn doych"}
+{"id":"de.c0051","deck":"de.d.about-me","de":"Ich bin hier im Urlaub.","rom":"ihh bin heer im OOR-lowp"}
+{"id":"de.c0052","deck":"de.d.about-me","de":"Ich bin neu hier.","rom":"ihh bin noy heer"}
+{"id":"de.c0053","deck":"de.d.about-me","de":"Meine Familie kommt aus Deutschland.","rom":"MAI-nuh fah-MEE-lee-uh kawmt ows DOYCH-lahnt"}
+{"id":"de.c0054","deck":"de.d.people-and-family","de":"der Vater","rom":"dayr FAH-tuh"}
+{"id":"de.c0055","deck":"de.d.people-and-family","de":"die Mutter","rom":"dee MOOT-uh"}
+{"id":"de.c0056","deck":"de.d.people-and-family","de":"die Eltern","rom":"dee EHL-tuhn"}
+{"id":"de.c0057","deck":"de.d.people-and-family","de":"der Sohn","rom":"dayr zohn"}
+{"id":"de.c0058","deck":"de.d.people-and-family","de":"die Tochter","rom":"dee TAWKH-tuh"}
+{"id":"de.c0059","deck":"de.d.people-and-family","de":"das Kind","rom":"dahs kint"}
+{"id":"de.c0060","deck":"de.d.people-and-family","de":"das Mädchen","rom":"dahs MEHT-hhuhn"}
+{"id":"de.c0061","deck":"de.d.people-and-family","de":"der Mann","rom":"dayr mahn"}
+{"id":"de.c0062","deck":"de.d.people-and-family","de":"die Frau","rom":"dee frow"}
+{"id":"de.c0063","deck":"de.d.people-and-family","de":"die Geschwister","rom":"dee guh-SHVIS-tuh"}
+{"id":"de.c0064","deck":"de.d.people-and-family","de":"mein Bruder","rom":"main BROO-duh"}
+{"id":"de.c0065","deck":"de.d.people-and-family","de":"meine Schwester","rom":"MAI-nuh SHVEHS-tuh"}
+{"id":"de.c0066","deck":"de.d.people-and-family","de":"die Oma","rom":"dee OH-mah"}
+{"id":"de.c0067","deck":"de.d.people-and-family","de":"der Freund","rom":"dayr froynt"}
+{"id":"de.c0068","deck":"de.d.people-and-family","de":"die Freundin","rom":"dee FROYN-din"}
+{"id":"de.c0069","deck":"de.d.people-and-family","de":"Das ist meine Frau.","rom":"dahs ist MAI-nuh frow"}
+{"id":"de.c0070","deck":"de.d.people-and-family","de":"Ich habe zwei Kinder.","rom":"ihh HAH-buh tsvai KIN-duh"}
+{"id":"de.c0071","deck":"de.d.people-and-family","de":"Hast du Geschwister?","rom":"hahst doo guh-SHVIS-tuh"}
+{"id":"de.c0072","deck":"de.d.numbers-time-and-prices","de":"eins","rom":"ains"}
+{"id":"de.c0073","deck":"de.d.numbers-time-and-prices","de":"zwölf","rom":"tsvurlf"}
+{"id":"de.c0074","deck":"de.d.numbers-time-and-prices","de":"sechzehn","rom":"ZEHH-tsayn"}
+{"id":"de.c0075","deck":"de.d.numbers-time-and-prices","de":"siebzehn","rom":"ZEEP-tsayn"}
+{"id":"de.c0076","deck":"de.d.numbers-time-and-prices","de":"einundzwanzig","rom":"AIN-oont-tsvahn-tsihh"}
+{"id":"de.c0077","deck":"de.d.numbers-time-and-prices","de":"dreißig","rom":"DRAI-sihh"}
+{"id":"de.c0078","deck":"de.d.numbers-time-and-prices","de":"hundert","rom":"HOON-duht"}
+{"id":"de.c0079","deck":"de.d.numbers-time-and-prices","de":"Was kostet das?","rom":"vahs KAWS-tuht dahs"}
+{"id":"de.c0080","deck":"de.d.numbers-time-and-prices","de":"Was kosten die Brötchen?","rom":"vahs KAWS-tuhn dee BRURT-hhuhn"}
+{"id":"de.c0081","deck":"de.d.numbers-time-and-prices","de":"zwei Euro fünfzig","rom":"tsvai OY-roh FEWNF-tsihh"}
+{"id":"de.c0082","deck":"de.d.numbers-time-and-prices","de":"Das macht vier Euro zwanzig.","rom":"dahs mahkht feer OY-roh TSVAHN-tsihh"}
+{"id":"de.c0083","deck":"de.d.numbers-time-and-prices","de":"Wie spät ist es?","rom":"vee shpeht ist ehs"}
+{"id":"de.c0084","deck":"de.d.numbers-time-and-prices","de":"Es ist halb drei.","rom":"ehs ist hahlp drai"}
+{"id":"de.c0085","deck":"de.d.numbers-time-and-prices","de":"Es ist Viertel nach drei.","rom":"ehs ist FIR-tuhl nahkh drai"}
+{"id":"de.c0086","deck":"de.d.numbers-time-and-prices","de":"Es ist Viertel vor neun.","rom":"ehs ist FIR-tuhl fohr noyn"}
+{"id":"de.c0087","deck":"de.d.numbers-time-and-prices","de":"um acht Uhr","rom":"oom ahkht oor"}
+{"id":"de.c0088","deck":"de.d.numbers-time-and-prices","de":"um halb acht","rom":"oom hahlp ahkht"}
+{"id":"de.c0089","deck":"de.d.numbers-time-and-prices","de":"um zwanzig Uhr","rom":"oom TSVAHN-tsihh oor"}
+{"id":"de.c0090","deck":"de.d.days-dates-and-weather","de":"am Montag","rom":"ahm MOHN-tahk"}
+{"id":"de.c0091","deck":"de.d.days-dates-and-weather","de":"am Samstag","rom":"ahm ZAHMS-tahk"}
+{"id":"de.c0092","deck":"de.d.days-dates-and-weather","de":"Heute ist Freitag.","rom":"HOY-tuh ist FRAI-tahk"}
+{"id":"de.c0093","deck":"de.d.days-dates-and-weather","de":"Morgen habe ich frei.","rom":"MAWR-guhn HAH-buh ihh frai"}
+{"id":"de.c0094","deck":"de.d.days-dates-and-weather","de":"Nächste Woche habe ich Urlaub.","rom":"NEHHS-tuh VAWKH-uh HAH-buh ihh OOR-lowp"}
+{"id":"de.c0095","deck":"de.d.days-dates-and-weather","de":"jeden Tag","rom":"YAY-duhn tahk"}
+{"id":"de.c0096","deck":"de.d.days-dates-and-weather","de":"im Januar","rom":"im YAH-noo-ahr"}
+{"id":"de.c0097","deck":"de.d.days-dates-and-weather","de":"im Sommer","rom":"im ZAWM-uh"}
+{"id":"de.c0098","deck":"de.d.days-dates-and-weather","de":"der Herbst","rom":"dayr hehrpst"}
+{"id":"de.c0099","deck":"de.d.days-dates-and-weather","de":"Ich habe am zwölften Mai Geburtstag.","rom":"ihh HAH-buh ahm TSVURLF-tuhn mai guh-BOORTS-tahk"}
+{"id":"de.c0100","deck":"de.d.days-dates-and-weather","de":"Wie ist das Wetter?","rom":"vee ist dahs VEHT-uh"}
+{"id":"de.c0101","deck":"de.d.days-dates-and-weather","de":"Heute ist es kalt.","rom":"HOY-tuh ist ehs kahlt"}
+{"id":"de.c0102","deck":"de.d.days-dates-and-weather","de":"Es ist heiß.","rom":"ehs ist hais"}
+{"id":"de.c0103","deck":"de.d.days-dates-and-weather","de":"Es regnet.","rom":"ehs RAYG-nuht"}
+{"id":"de.c0104","deck":"de.d.days-dates-and-weather","de":"Die Sonne scheint.","rom":"dee ZAWN-uh shaint"}
+{"id":"de.c0105","deck":"de.d.days-dates-and-weather","de":"Es ist windig.","rom":"ehs ist VIN-dihh"}
+{"id":"de.c0106","deck":"de.d.days-dates-and-weather","de":"Es sind zwanzig Grad.","rom":"ehs zint TSVAHN-tsihh graht"}
+{"id":"de.c0107","deck":"de.d.days-dates-and-weather","de":"Gestern war es warm.","rom":"GEHS-tuhn vahr ehs vahrm"}
+{"id":"de.c0108","deck":"de.d.food-and-drink","de":"Ich hätte gern ein Brötchen.","rom":"ihh HEHT-uh gehrn ain BRURT-hhuhn"}
+{"id":"de.c0109","deck":"de.d.food-and-drink","de":"Ich möchte einen Kaffee.","rom":"ihh MURHH-tuh AI-nuhn KAHF-ay"}
+{"id":"de.c0110","deck":"de.d.food-and-drink","de":"Was möchten Sie trinken?","rom":"vahs MURHH-tuhn zee TRIN-kuhn"}
+{"id":"de.c0111","deck":"de.d.food-and-drink","de":"Ein Wasser, bitte.","rom":"ain VAHS-uh BIT-uh"}
+{"id":"de.c0112","deck":"de.d.food-and-drink","de":"Die Speisekarte, bitte.","rom":"dee SHPAI-zuh-kahr-tuh BIT-uh"}
+{"id":"de.c0113","deck":"de.d.food-and-drink","de":"Was nimmst du?","rom":"vahs nimst doo"}
+{"id":"de.c0114","deck":"de.d.food-and-drink","de":"Ich nehme die Suppe.","rom":"ihh NAY-muh dee ZOOP-uh"}
+{"id":"de.c0115","deck":"de.d.food-and-drink","de":"Er isst kein Fleisch.","rom":"ayr ist kain flaish"}
+{"id":"de.c0116","deck":"de.d.food-and-drink","de":"Isst du Fisch?","rom":"ist doo fish"}
+{"id":"de.c0117","deck":"de.d.food-and-drink","de":"zum Frühstück","rom":"tsoom FREW-shtewk"}
+{"id":"de.c0118","deck":"de.d.food-and-drink","de":"ein Stück Kuchen","rom":"ain shtewk KOOKH-uhn"}
+{"id":"de.c0119","deck":"de.d.food-and-drink","de":"Guten Appetit!","rom":"GOO-tuhn ahp-ay-TEET"}
+{"id":"de.c0120","deck":"de.d.food-and-drink","de":"Prost!","rom":"prohst"}
+{"id":"de.c0121","deck":"de.d.food-and-drink","de":"Das schmeckt gut.","rom":"dahs shmehkt goot"}
+{"id":"de.c0122","deck":"de.d.food-and-drink","de":"Ich bin satt.","rom":"ihh bin zaht"}
+{"id":"de.c0123","deck":"de.d.food-and-drink","de":"Zahlen, bitte!","rom":"TSAH-luhn BIT-uh"}
+{"id":"de.c0124","deck":"de.d.food-and-drink","de":"Zusammen oder getrennt?","rom":"tsoo-ZAHM-uhn OH-duh guh-TREHNT"}
+{"id":"de.c0125","deck":"de.d.food-and-drink","de":"Stimmt so.","rom":"shtimt zoh"}
+{"id":"de.c0126","deck":"de.d.shopping-and-clothes","de":"Kann ich Ihnen helfen?","rom":"kahn ihh EE-nuhn HEHL-fuhn"}
+{"id":"de.c0127","deck":"de.d.shopping-and-clothes","de":"Ich schaue nur.","rom":"ihh SHOW-uh noor"}
+{"id":"de.c0128","deck":"de.d.shopping-and-clothes","de":"Ich suche einen Pullover.","rom":"ihh ZOOKH-uh AI-nuhn pool-OH-vuh"}
+{"id":"de.c0129","deck":"de.d.shopping-and-clothes","de":"die Hose","rom":"dee HOH-zuh"}
+{"id":"de.c0130","deck":"de.d.shopping-and-clothes","de":"das Kleid","rom":"dahs klait"}
+{"id":"de.c0131","deck":"de.d.shopping-and-clothes","de":"der Mantel","rom":"dayr MAHN-tuhl"}
+{"id":"de.c0132","deck":"de.d.shopping-and-clothes","de":"ein weißes Hemd","rom":"ain VAI-suhs hehmt"}
+{"id":"de.c0133","deck":"de.d.shopping-and-clothes","de":"die rote Jacke","rom":"dee ROH-tuh YAHK-uh"}
+{"id":"de.c0134","deck":"de.d.shopping-and-clothes","de":"Welche Größe haben Sie?","rom":"VEHL-hhuh GRUR-suh HAH-buhn zee"}
+{"id":"de.c0135","deck":"de.d.shopping-and-clothes","de":"Kann ich das anprobieren?","rom":"kahn ihh dahs AHN-proh-bee-ruhn"}
+{"id":"de.c0136","deck":"de.d.shopping-and-clothes","de":"Haben Sie das eine Nummer größer?","rom":"HAH-buhn zee dahs AI-nuh NOOM-uh GRUR-suh"}
+{"id":"de.c0137","deck":"de.d.shopping-and-clothes","de":"Haben Sie die Schuhe in Größe vierzig?","rom":"HAH-buhn zee dee SHOO-uh in GRUR-suh FIR-tsihh"}
+{"id":"de.c0138","deck":"de.d.shopping-and-clothes","de":"Das steht Ihnen gut.","rom":"dahs shtayt EE-nuhn goot"}
+{"id":"de.c0139","deck":"de.d.shopping-and-clothes","de":"Wie viel kostet die Jacke?","rom":"vee feel KAWS-tuht dee YAHK-uh"}
+{"id":"de.c0140","deck":"de.d.shopping-and-clothes","de":"Das ist zu teuer.","rom":"dahs ist tsoo TOY-uh"}
+{"id":"de.c0141","deck":"de.d.shopping-and-clothes","de":"Den Pullover nehme ich.","rom":"dayn pool-OH-vuh NAY-muh ihh"}
+{"id":"de.c0142","deck":"de.d.shopping-and-clothes","de":"Kann ich mit Karte zahlen?","rom":"kahn ihh mit KAHR-tuh TSAH-luhn"}
+{"id":"de.c0143","deck":"de.d.shopping-and-clothes","de":"Brauchen Sie eine Tüte?","rom":"BROWKH-uhn zee AI-nuh TEW-tuh"}
+{"id":"de.c0144","deck":"de.d.home-and-routine","de":"die Wohnung","rom":"dee VOH-noong"}
+{"id":"de.c0145","deck":"de.d.home-and-routine","de":"die Küche","rom":"dee KEWHH-uh"}
+{"id":"de.c0146","deck":"de.d.home-and-routine","de":"das Wohnzimmer","rom":"dahs VOHN-tsim-uh"}
+{"id":"de.c0147","deck":"de.d.home-and-routine","de":"das Schlafzimmer","rom":"dahs SHLAHF-tsim-uh"}
+{"id":"de.c0148","deck":"de.d.home-and-routine","de":"das Badezimmer","rom":"dahs BAH-duh-tsim-uh"}
+{"id":"de.c0149","deck":"de.d.home-and-routine","de":"der Kühlschrank","rom":"dayr KEWL-shrahnk"}
+{"id":"de.c0150","deck":"de.d.home-and-routine","de":"Ich stehe um sieben auf.","rom":"ihh SHTAY-uh oom ZEE-buhn owf"}
+{"id":"de.c0151","deck":"de.d.home-and-routine","de":"Wann stehst du auf?","rom":"vahn shtayst doo owf"}
+{"id":"de.c0152","deck":"de.d.home-and-routine","de":"Ich dusche morgens.","rom":"ihh DOOSH-uh MAWR-guhns"}
+{"id":"de.c0153","deck":"de.d.home-and-routine","de":"Ich frühstücke um halb acht.","rom":"ihh FREW-shtewk-uh oom hahlp ahkht"}
+{"id":"de.c0154","deck":"de.d.home-and-routine","de":"Ich kaufe heute ein.","rom":"ihh KOW-fuh HOY-tuh ain"}
+{"id":"de.c0155","deck":"de.d.home-and-routine","de":"Ich koche heute Abend.","rom":"ihh KAWKH-uh HOY-tuh AH-buhnt"}
+{"id":"de.c0156","deck":"de.d.home-and-routine","de":"Am Samstag räume ich auf.","rom":"ahm ZAHMS-tahk ROY-muh ihh owf"}
+{"id":"de.c0157","deck":"de.d.home-and-routine","de":"Ich komme um sechs nach Hause.","rom":"ihh KAWM-uh oom zehks nahkh HOW-zuh"}
+{"id":"de.c0158","deck":"de.d.home-and-routine","de":"Ich rufe dich an.","rom":"ihh ROO-fuh dihh ahn"}
+{"id":"de.c0159","deck":"de.d.home-and-routine","de":"Ich sehe abends fern.","rom":"ihh ZAY-uh AH-buhnts fehrn"}
+{"id":"de.c0160","deck":"de.d.home-and-routine","de":"Ich mache das Licht aus.","rom":"ihh MAHKH-uh dahs lihht ows"}
+{"id":"de.c0161","deck":"de.d.home-and-routine","de":"Ich gehe um elf ins Bett.","rom":"ihh GAY-uh oom ehlf ins beht"}
+{"id":"de.c0162","deck":"de.d.around-town-and-directions","de":"Wo ist der Bahnhof?","rom":"voh ist dayr BAHN-hohf"}
+{"id":"de.c0163","deck":"de.d.around-town-and-directions","de":"Gehen Sie geradeaus.","rom":"GAY-uhn zee guh-rah-duh-OWS"}
+{"id":"de.c0164","deck":"de.d.around-town-and-directions","de":"die Apotheke","rom":"dee ah-poh-TAY-kuh"}
+{"id":"de.c0165","deck":"de.d.around-town-and-directions","de":"Ich fahre mit dem Bus.","rom":"ihh FAH-ruh mit daym boos"}
+{"id":"de.c0166","deck":"de.d.around-town-and-directions","de":"neben der Bank","rom":"NAY-buhn dayr bahnk"}
+{"id":"de.c0167","deck":"de.d.around-town-and-directions","de":"Entschuldigung, wie komme ich zum Rathaus?","rom":"ehnt-SHOOL-dih-goong vee KAWM-uh ihh tsoom RAHT-hows"}
+{"id":"de.c0168","deck":"de.d.around-town-and-directions","de":"Biegen Sie rechts ab.","rom":"BEE-guhn zee rehhts ahp"}
+{"id":"de.c0169","deck":"de.d.around-town-and-directions","de":"die erste Straße links","rom":"dee AYRS-tuh SHTRAH-suh links"}
+{"id":"de.c0170","deck":"de.d.around-town-and-directions","de":"Ist das weit?","rom":"ist dahs vait"}
+{"id":"de.c0171","deck":"de.d.around-town-and-directions","de":"Das ist gleich um die Ecke.","rom":"dahs ist glaihh oom dee EHK-uh"}
+{"id":"de.c0172","deck":"de.d.around-town-and-directions","de":"Ich muss zur Post.","rom":"ihh moos tsoor pawst"}
+{"id":"de.c0173","deck":"de.d.around-town-and-directions","de":"Gibt es hier einen Supermarkt?","rom":"geept ehs heer AI-nuhn ZOO-puh-mahrkt"}
+{"id":"de.c0174","deck":"de.d.around-town-and-directions","de":"Wo ist die nächste Haltestelle?","rom":"voh ist dee NEHHS-tuh HAHL-tuh-shtehl-uh"}
+{"id":"de.c0175","deck":"de.d.around-town-and-directions","de":"Ich gehe zu Fuß.","rom":"ihh GAY-uh tsoo foos"}
+{"id":"de.c0176","deck":"de.d.around-town-and-directions","de":"vor dem Kino","rom":"fohr daym KEE-noh"}
+{"id":"de.c0177","deck":"de.d.around-town-and-directions","de":"hinter dem Bahnhof","rom":"HIN-tuh daym BAHN-hohf"}
+{"id":"de.c0178","deck":"de.d.around-town-and-directions","de":"Können Sie mir das auf der Karte zeigen?","rom":"KURN-uhn zee meer dahs owf dayr KAHR-tuh TSAI-guhn"}
+{"id":"de.c0179","deck":"de.d.around-town-and-directions","de":"Ich habe mich verlaufen.","rom":"ihh HAH-buh mihh fehr-LOW-fuhn"}
+{"id":"de.c0180","deck":"de.d.travel-and-transport","de":"die Fahrkarte","rom":"dee FAHR-kahr-tuh"}
+{"id":"de.c0181","deck":"de.d.travel-and-transport","de":"Wann fährt der Zug ab?","rom":"vahn fehrt dayr tsook ahp"}
+{"id":"de.c0182","deck":"de.d.travel-and-transport","de":"der Hauptbahnhof","rom":"dayr HOWPT-bahn-hohf"}
+{"id":"de.c0183","deck":"de.d.travel-and-transport","de":"Ich möchte nach Berlin fahren.","rom":"ihh MURHH-tuh nahkh behr-LEEN FAH-ruhn"}
+{"id":"de.c0184","deck":"de.d.travel-and-transport","de":"Wo muss ich umsteigen?","rom":"voh moos ihh OOM-shtai-guhn"}
+{"id":"de.c0185","deck":"de.d.travel-and-transport","de":"Einmal nach Hamburg, bitte.","rom":"AIN-mahl nahkh HAHM-boork BIT-uh"}
+{"id":"de.c0186","deck":"de.d.travel-and-transport","de":"hin und zurück","rom":"hin oont tsoo-REWK"}
+{"id":"de.c0187","deck":"de.d.travel-and-transport","de":"Von welchem Gleis fährt der Zug?","rom":"fawn VEHL-hhuhm glais fehrt dayr tsook"}
+{"id":"de.c0188","deck":"de.d.travel-and-transport","de":"Der Zug hat Verspätung.","rom":"dayr tsook haht fehr-SHPEH-toong"}
+{"id":"de.c0189","deck":"de.d.travel-and-transport","de":"Ist dieser Platz frei?","rom":"ist DEE-zuh plahts frai"}
+{"id":"de.c0190","deck":"de.d.travel-and-transport","de":"Ich habe ein Zimmer gebucht.","rom":"ihh HAH-buh ain TSIM-uh guh-BOOKHT"}
+{"id":"de.c0191","deck":"de.d.travel-and-transport","de":"Haben Sie ein Zimmer frei?","rom":"HAH-buhn zee ain TSIM-uh frai"}
+{"id":"de.c0192","deck":"de.d.travel-and-transport","de":"der Flughafen","rom":"dayr FLOOK-hah-fuhn"}
+{"id":"de.c0193","deck":"de.d.travel-and-transport","de":"Ich fliege morgen nach München.","rom":"ihh FLEE-guh MAWR-guhn nahkh MEWN-hhuhn"}
+{"id":"de.c0194","deck":"de.d.travel-and-transport","de":"Wann kommen wir in Köln an?","rom":"vahn KAWM-uhn veer in kurln ahn"}
+{"id":"de.c0195","deck":"de.d.travel-and-transport","de":"Wo kann ich eine Fahrkarte kaufen?","rom":"voh kahn ihh AI-nuh FAHR-kahr-tuh KOW-fuhn"}
+{"id":"de.c0196","deck":"de.d.travel-and-transport","de":"Mein Koffer ist weg.","rom":"main KAWF-uh ist vehk"}
+{"id":"de.c0197","deck":"de.d.travel-and-transport","de":"Wo ist der Ausgang?","rom":"voh ist dayr OWS-gahng"}
+{"id":"de.c0198","deck":"de.d.health-and-emergencies","de":"Ich habe Kopfschmerzen.","rom":"ihh HAH-buh KAWPF-shmehr-tsuhn"}
+{"id":"de.c0199","deck":"de.d.health-and-emergencies","de":"Mir ist schlecht.","rom":"meer ist shlehht"}
+{"id":"de.c0200","deck":"de.d.health-and-emergencies","de":"Ich brauche einen Arzt.","rom":"ihh BROWKH-uh AI-nuhn ahrtst"}
+{"id":"de.c0201","deck":"de.d.health-and-emergencies","de":"Rufen Sie einen Krankenwagen!","rom":"ROO-fuhn zee AI-nuhn KRAHN-kuhn-vah-guhn"}
+{"id":"de.c0202","deck":"de.d.health-and-emergencies","de":"Hilfe!","rom":"HIL-fuh"}
+{"id":"de.c0203","deck":"de.d.health-and-emergencies","de":"Mein Bauch tut weh.","rom":"main bowkh toot vay"}
+{"id":"de.c0204","deck":"de.d.health-and-emergencies","de":"Ich habe Fieber.","rom":"ihh HAH-buh FEE-buh"}
+{"id":"de.c0205","deck":"de.d.health-and-emergencies","de":"Ich bin erkältet.","rom":"ihh bin ehr-KEHL-tuht"}
+{"id":"de.c0206","deck":"de.d.health-and-emergencies","de":"Ich möchte einen Termin machen.","rom":"ihh MURHH-tuh AI-nuhn tehr-MEEN MAHKH-uhn"}
+{"id":"de.c0207","deck":"de.d.health-and-emergencies","de":"Was fehlt Ihnen?","rom":"vahs faylt EE-nuhn"}
+{"id":"de.c0208","deck":"de.d.health-and-emergencies","de":"Gute Besserung!","rom":"GOO-tuh BEHS-uh-roong"}
+{"id":"de.c0209","deck":"de.d.health-and-emergencies","de":"Bleib im Bett!","rom":"blaip im beht"}
+{"id":"de.c0210","deck":"de.d.health-and-emergencies","de":"Trink viel Wasser!","rom":"trink feel VAHS-uh"}
+{"id":"de.c0211","deck":"de.d.health-and-emergencies","de":"Ich habe eine Allergie.","rom":"ihh HAH-buh AI-nuh ahl-ehr-GEE"}
+{"id":"de.c0212","deck":"de.d.health-and-emergencies","de":"Wo ist das nächste Krankenhaus?","rom":"voh ist dahs NEHHS-tuh KRAHN-kuhn-hows"}
+{"id":"de.c0213","deck":"de.d.health-and-emergencies","de":"Rufen Sie die Polizei!","rom":"ROO-fuhn zee dee poh-lee-TSAI"}
+{"id":"de.c0214","deck":"de.d.health-and-emergencies","de":"Ich habe Halsschmerzen.","rom":"ihh HAH-buh HAHLS-shmehr-tsuhn"}
+{"id":"de.c0215","deck":"de.d.health-and-emergencies","de":"Vorsicht!","rom":"FOHR-zihht"}
+{"id":"de.c0216","deck":"de.d.work-and-study","de":"Was sind Sie von Beruf?","rom":"vahs zint zee fawn buh-ROOF"}
+{"id":"de.c0217","deck":"de.d.work-and-study","de":"Ich arbeite im Büro.","rom":"ihh AHR-bai-tuh im bew-ROH"}
+{"id":"de.c0218","deck":"de.d.work-and-study","de":"Ich muss heute arbeiten.","rom":"ihh moos HOY-tuh AHR-bai-tuhn"}
+{"id":"de.c0219","deck":"de.d.work-and-study","de":"Ich studiere Informatik.","rom":"ihh shtoo-DEE-ruh in-fawr-MAH-tik"}
+{"id":"de.c0220","deck":"de.d.work-and-study","de":"Wir duzen uns hier.","rom":"veer DOO-tsuhn oons heer"}
+{"id":"de.c0221","deck":"de.d.work-and-study","de":"Ich arbeite als Lehrerin.","rom":"ihh AHR-bai-tuh ahls LAY-ruh-rin"}
+{"id":"de.c0222","deck":"de.d.work-and-study","de":"Wo arbeiten Sie?","rom":"voh AHR-bai-tuhn zee"}
+{"id":"de.c0223","deck":"de.d.work-and-study","de":"Was machst du beruflich?","rom":"vahs mahkhst doo buh-ROOF-lihh"}
+{"id":"de.c0224","deck":"de.d.work-and-study","de":"Wir lernen für die Prüfung.","rom":"veer LEHR-nuhn fewr dee PREW-foong"}
+{"id":"de.c0225","deck":"de.d.work-and-study","de":"Das ist meine Kollegin.","rom":"dahs ist MAI-nuh koh-LAY-gin"}
+{"id":"de.c0226","deck":"de.d.work-and-study","de":"Ich habe um zehn eine Besprechung.","rom":"ihh HAH-buh oom tsayn AI-nuh buh-SHPREHH-oong"}
+{"id":"de.c0227","deck":"de.d.work-and-study","de":"Ich habe eine Frage.","rom":"ihh HAH-buh AI-nuh FRAH-guh"}
+{"id":"de.c0228","deck":"de.d.work-and-study","de":"Kann ich heute früher gehen?","rom":"kahn ihh HOY-tuh FREW-uh GAY-uhn"}
+{"id":"de.c0229","deck":"de.d.work-and-study","de":"Ich mache eine Ausbildung.","rom":"ihh MAHKH-uh AI-nuh OWS-bil-doong"}
+{"id":"de.c0230","deck":"de.d.work-and-study","de":"Ich arbeite Teilzeit.","rom":"ihh AHR-bai-tuh TAIL-tsait"}
+{"id":"de.c0231","deck":"de.d.work-and-study","de":"Ich schreibe eine E-Mail.","rom":"ihh SHRAI-buh AI-nuh EE-mayl"}
+{"id":"de.c0232","deck":"de.d.work-and-study","de":"Ich arbeite bei einer Firma in Frankfurt.","rom":"ihh AHR-bai-tuh bai AI-nuh FIR-mah in FRAHNK-foort"}
+{"id":"de.c0233","deck":"de.d.work-and-study","de":"Ich habe heute frei.","rom":"ihh HAH-buh HOY-tuh frai"}
+{"id":"de.c0234","deck":"de.d.feelings-and-states","de":"Mir ist kalt.","rom":"meer ist kahlt"}
+{"id":"de.c0235","deck":"de.d.feelings-and-states","de":"Wie geht es Ihnen?","rom":"vee gayt ehs EE-nuhn"}
+{"id":"de.c0236","deck":"de.d.feelings-and-states","de":"Ich habe Hunger.","rom":"ihh HAH-buh HOONG-uh"}
+{"id":"de.c0237","deck":"de.d.feelings-and-states","de":"Es tut mir leid.","rom":"ehs toot meer lait"}
+{"id":"de.c0238","deck":"de.d.feelings-and-states","de":"Ich bin müde.","rom":"ihh bin MEW-duh"}
+{"id":"de.c0239","deck":"de.d.feelings-and-states","de":"Wie geht es dir?","rom":"vee gayt ehs deer"}
+{"id":"de.c0240","deck":"de.d.feelings-and-states","de":"Mir geht es gut, danke.","rom":"meer gayt ehs goot DAHN-kuh"}
+{"id":"de.c0241","deck":"de.d.feelings-and-states","de":"Es geht mir besser.","rom":"ehs gayt meer BEHS-uh"}
+{"id":"de.c0242","deck":"de.d.feelings-and-states","de":"Ich habe Angst.","rom":"ihh HAH-buh ahngst"}
+{"id":"de.c0243","deck":"de.d.feelings-and-states","de":"Ich bin traurig.","rom":"ihh bin TROW-rihh"}
+{"id":"de.c0244","deck":"de.d.feelings-and-states","de":"Ich freue mich!","rom":"ihh FROY-uh mihh"}
+{"id":"de.c0245","deck":"de.d.feelings-and-states","de":"Ich bin nervös.","rom":"ihh bin nehr-VURS"}
+{"id":"de.c0246","deck":"de.d.feelings-and-states","de":"Das ist mir egal.","rom":"dahs ist meer ay-GAHL"}
+{"id":"de.c0247","deck":"de.d.feelings-and-states","de":"Ich bin krank.","rom":"ihh bin krahnk"}
+{"id":"de.c0248","deck":"de.d.feelings-and-states","de":"Was ist los?","rom":"vahs ist lohs"}
+{"id":"de.c0249","deck":"de.d.feelings-and-states","de":"Keine Sorge!","rom":"KAI-nuh ZAWR-guh"}
+{"id":"de.c0250","deck":"de.d.feelings-and-states","de":"Mir ist langweilig.","rom":"meer ist LAHNG-vai-lihh"}
+{"id":"de.c0251","deck":"de.d.feelings-and-states","de":"Ich bin gestresst.","rom":"ihh bin guh-SHTREHST"}
+{"id":"de.c0252","deck":"de.d.likes-and-free-time","de":"Ich spiele gern Fußball.","rom":"ihh SHPEE-luh gehrn FOOS-bahl"}
+{"id":"de.c0253","deck":"de.d.likes-and-free-time","de":"Ich mag Hunde.","rom":"ihh mahk HOON-duh"}
+{"id":"de.c0254","deck":"de.d.likes-and-free-time","de":"Was machst du am Wochenende?","rom":"vahs mahkhst doo ahm VAWKH-uhn-ehn-duh"}
+{"id":"de.c0255","deck":"de.d.likes-and-free-time","de":"Ich bin ins Kino gegangen.","rom":"ihh bin ins KEE-noh guh-GAHNG-uhn"}
+{"id":"de.c0256","deck":"de.d.likes-and-free-time","de":"Ich habe ein Buch gelesen.","rom":"ihh HAH-buh ain bookh guh-LAY-zuhn"}
+{"id":"de.c0257","deck":"de.d.likes-and-free-time","de":"Was machst du gern?","rom":"vahs mahkhst doo gehrn"}
+{"id":"de.c0258","deck":"de.d.likes-and-free-time","de":"Ich koche nicht gern.","rom":"ihh KAWKH-uh nihht gehrn"}
+{"id":"de.c0259","deck":"de.d.likes-and-free-time","de":"Ich höre gern Musik.","rom":"ihh HUR-uh gehrn moo-ZEEK"}
+{"id":"de.c0260","deck":"de.d.likes-and-free-time","de":"Ich schwimme lieber.","rom":"ihh SHVIM-uh LEE-buh"}
+{"id":"de.c0261","deck":"de.d.likes-and-free-time","de":"Am liebsten wandere ich.","rom":"ahm LEEPS-tuhn VAHN-duh-ruh ihh"}
+{"id":"de.c0262","deck":"de.d.likes-and-free-time","de":"Wie findest du den Film?","rom":"vee FIN-duhst doo dayn film"}
+{"id":"de.c0263","deck":"de.d.likes-and-free-time","de":"Das gefällt mir.","rom":"dahs guh-FEHLT meer"}
+{"id":"de.c0264","deck":"de.d.likes-and-free-time","de":"Hast du Lust auf Kino?","rom":"hahst doo loost owf KEE-noh"}
+{"id":"de.c0265","deck":"de.d.likes-and-free-time","de":"Ich gehe gern spazieren.","rom":"ihh GAY-uh gehrn shpah-TSEE-ruhn"}
+{"id":"de.c0266","deck":"de.d.likes-and-free-time","de":"Ich mache Sport.","rom":"ihh MAHKH-uh shpawrt"}
+{"id":"de.c0267","deck":"de.d.likes-and-free-time","de":"Wir haben am Samstag gegrillt.","rom":"veer HAH-buhn ahm ZAHMS-tahk guh-GRILT"}
+{"id":"de.c0268","deck":"de.d.likes-and-free-time","de":"Ich bin nach Hamburg gefahren.","rom":"ihh bin nahkh HAHM-boork guh-FAH-ruhn"}
+{"id":"de.c0269","deck":"de.d.likes-and-free-time","de":"Was hast du gestern gemacht?","rom":"vahs hahst doo GEHS-tuhn guh-MAHKHT"}
+{"id":"de.c0270","deck":"de.d.questions-and-connectors","de":"Woher kommen Sie?","rom":"voh-HAYR KAWM-uhn zee"}
+{"id":"de.c0271","deck":"de.d.questions-and-connectors","de":"Wer ist das?","rom":"vayr ist dahs"}
+{"id":"de.c0272","deck":"de.d.questions-and-connectors","de":"Warum?","rom":"vah-ROOM"}
+{"id":"de.c0273","deck":"de.d.questions-and-connectors","de":"aber","rom":"AH-buh"}
+{"id":"de.c0274","deck":"de.d.questions-and-connectors","de":"wenn","rom":"vehn"}
+{"id":"de.c0275","deck":"de.d.questions-and-connectors","de":"Wohin fährst du?","rom":"voh-HIN fehrst doo"}
+{"id":"de.c0276","deck":"de.d.questions-and-connectors","de":"Wann beginnt der Film?","rom":"vahn buh-GINT dayr film"}
+{"id":"de.c0277","deck":"de.d.questions-and-connectors","de":"Wie viele Leute kommen?","rom":"vee FEE-luh LOY-tuh KAWM-uhn"}
+{"id":"de.c0278","deck":"de.d.questions-and-connectors","de":"Wie lange dauert das?","rom":"vee LAHNG-uh DOW-uht dahs"}
+{"id":"de.c0279","deck":"de.d.questions-and-connectors","de":"Kommst du mit?","rom":"kawmst doo mit"}
+{"id":"de.c0280","deck":"de.d.questions-and-connectors","de":"Haben Sie Zeit?","rom":"HAH-buhn zee tsait"}
+{"id":"de.c0281","deck":"de.d.questions-and-connectors","de":"und","rom":"oont"}
+{"id":"de.c0282","deck":"de.d.questions-and-connectors","de":"oder","rom":"OH-duh"}
+{"id":"de.c0283","deck":"de.d.questions-and-connectors","de":"denn","rom":"dehn"}
+{"id":"de.c0284","deck":"de.d.questions-and-connectors","de":"weil","rom":"vail"}
+{"id":"de.c0285","deck":"de.d.questions-and-connectors","de":"dass","rom":"dahs"}
+{"id":"de.c0286","deck":"de.d.questions-and-connectors","de":"deshalb","rom":"DEHS-hahlp"}
+{"id":"de.c0287","deck":"de.d.questions-and-connectors","de":"Doch!","rom":"dawkh"}
+{"id":"de.c0288","deck":"de.d.traps-for-english-speakers","de":"das Gift","rom":"dahs gift"}
+{"id":"de.c0289","deck":"de.d.traps-for-english-speakers","de":"der Chef","rom":"dayr shehf"}
+{"id":"de.c0290","deck":"de.d.traps-for-english-speakers","de":"Ich will einen Kaffee.","rom":"ihh vil AI-nuhn KAHF-ay"}
+{"id":"de.c0291","deck":"de.d.traps-for-english-speakers","de":"bekommen","rom":"buh-KAWM-uhn"}
+{"id":"de.c0292","deck":"de.d.traps-for-english-speakers","de":"fast","rom":"fahst"}
+{"id":"de.c0293","deck":"de.d.traps-for-english-speakers","de":"also","rom":"AHL-zoh"}
+{"id":"de.c0294","deck":"de.d.traps-for-english-speakers","de":"aktuell","rom":"ahk-too-EHL"}
+{"id":"de.c0295","deck":"de.d.traps-for-english-speakers","de":"eventuell","rom":"ay-vehn-too-EHL"}
+{"id":"de.c0296","deck":"de.d.traps-for-english-speakers","de":"sensibel","rom":"zehn-ZEE-buhl"}
+{"id":"de.c0297","deck":"de.d.traps-for-english-speakers","de":"Wo ist mein Handy?","rom":"voh ist main HEHN-dee"}
+{"id":"de.c0298","deck":"de.d.traps-for-english-speakers","de":"das Rezept","rom":"dahs ray-TSEHPT"}
+{"id":"de.c0299","deck":"de.d.traps-for-english-speakers","de":"Er ist sehr nett.","rom":"ayr ist zayr neht"}
+{"id":"de.c0300","deck":"de.d.traps-for-english-speakers","de":"spenden","rom":"SHPEHN-duhn"}
+{"id":"de.c0301","deck":"de.d.traps-for-english-speakers","de":"Mir ist heiß.","rom":"meer ist hais"}
+{"id":"de.c0302","deck":"de.d.traps-for-english-speakers","de":"Ich habe Durst.","rom":"ihh HAH-buh doorst"}
+{"id":"de.c0303","deck":"de.d.traps-for-english-speakers","de":"Ich habe recht.","rom":"ihh HAH-buh rehht"}
+{"id":"de.c0304","deck":"de.d.traps-for-english-speakers","de":"Ich bin dreißig.","rom":"ihh bin DRAI-sihh"}
+{"id":"de.c0305","deck":"de.d.traps-for-english-speakers","de":"Wie alt bist du?","rom":"vee ahlt bist doo"}
+{"id":"de.c0306","deck":"de.d.life-in-germany","de":"der Termin","rom":"dayr tehr-MEEN"}
+{"id":"de.c0307","deck":"de.d.life-in-germany","de":"die Anmeldung","rom":"dee AHN-mehl-doong"}
+{"id":"de.c0308","deck":"de.d.life-in-germany","de":"Nur Bargeld.","rom":"noor BAHR-gehlt"}
+{"id":"de.c0309","deck":"de.d.life-in-germany","de":"das Pfand","rom":"dahs pfahnt"}
+{"id":"de.c0310","deck":"de.d.life-in-germany","de":"Kein Problem.","rom":"kain proh-BLAYM"}
+{"id":"de.c0311","deck":"de.d.life-in-germany","de":"das Bürgeramt","rom":"dahs BEWR-guh-ahmt"}
+{"id":"de.c0312","deck":"de.d.life-in-germany","de":"der Ausweis","rom":"dayr OWS-vais"}
+{"id":"de.c0313","deck":"de.d.life-in-germany","de":"die Kasse","rom":"dee KAHS-uh"}
+{"id":"de.c0314","deck":"de.d.life-in-germany","de":"der Feierabend","rom":"dayr FAI-uh-ah-buhnt"}
+{"id":"de.c0315","deck":"de.d.life-in-germany","de":"Das geht nicht.","rom":"dahs gayt nihht"}
+{"id":"de.c0316","deck":"de.d.life-in-germany","de":"geschlossen","rom":"guh-SHLAWS-uhn"}
+{"id":"de.c0317","deck":"de.d.life-in-germany","de":"Am Sonntag haben die Geschäfte zu.","rom":"ahm ZAWN-tahk HAH-buhn dee guh-SHEHF-tuh tsoo"}
+{"id":"de.c0318","deck":"de.d.life-in-germany","de":"der Mülleimer","rom":"dayr MEWL-ai-muh"}
+{"id":"de.c0319","deck":"de.d.life-in-germany","de":"die Mülltrennung","rom":"dee MEWL-trehn-oong"}
+{"id":"de.c0320","deck":"de.d.life-in-germany","de":"der Hausmeister","rom":"dayr HOWS-mais-tuh"}
+{"id":"de.c0321","deck":"de.d.life-in-germany","de":"die Miete","rom":"dee MEE-tuh"}
+{"id":"de.c0322","deck":"de.d.life-in-germany","de":"die Nebenkosten","rom":"dee NAY-buhn-kaws-tuhn"}
+{"id":"de.c0323","deck":"de.d.life-in-germany","de":"Das ist nicht erlaubt.","rom":"dahs ist nihht ehr-LOWPT"}
+{"id":"de.c0324","deck":"de.d.compliments","de":"Das war sehr lecker.","rom":"dahs vahr zayr LEHK-uh"}
+{"id":"de.c0325","deck":"de.d.compliments","de":"Du kochst richtig gut.","rom":"doo kawkhst RIHH-tihh goot"}
+{"id":"de.c0326","deck":"de.d.compliments","de":"Das riecht aber gut!","rom":"dahs reehht AH-buh goot"}
+{"id":"de.c0327","deck":"de.d.compliments","de":"Das Essen war ausgezeichnet.","rom":"dahs EHS-uhn vahr OWS-guh-tsaihh-nuht"}
+{"id":"de.c0328","deck":"de.d.compliments","de":"Gut gemacht!","rom":"goot guh-MAHKHT"}
+{"id":"de.c0329","deck":"de.d.compliments","de":"Herzlichen Glückwunsch!","rom":"HEHRTS-lihh-uhn GLEWK-voonsh"}
+{"id":"de.c0330","deck":"de.d.compliments","de":"Das kannst du echt gut.","rom":"dahs kahnst doo ehht goot"}
+{"id":"de.c0331","deck":"de.d.compliments","de":"Gute Idee!","rom":"GOO-tuh ee-DAY"}
+{"id":"de.c0332","deck":"de.d.compliments","de":"Gute Arbeit!","rom":"GOO-tuh AHR-bait"}
+{"id":"de.c0333","deck":"de.d.compliments","de":"Das hast du toll gemacht.","rom":"dahs hahst doo tawl guh-MAHKHT"}
+{"id":"de.c0334","deck":"de.d.compliments","de":"Du hast dir viel Mühe gegeben.","rom":"doo hahst deer feel MEW-uh guh-GAY-buhn"}
+{"id":"de.c0335","deck":"de.d.compliments","de":"Sie haben das sehr gut erklärt.","rom":"zee HAH-buhn dahs zayr goot ehr-KLEHRT"}
+{"id":"de.c0336","deck":"de.d.compliments","de":"Du bist echt nett.","rom":"doo bist ehht neht"}
+{"id":"de.c0337","deck":"de.d.compliments","de":"Du bist so witzig!","rom":"doo bist zoh VITS-ihh"}
+{"id":"de.c0338","deck":"de.d.compliments","de":"Du bist sehr fleißig.","rom":"doo bist zayr FLAI-sihh"}
+{"id":"de.c0339","deck":"de.d.compliments","de":"Auf dich kann man sich verlassen.","rom":"owf dihh kahn mahn zihh fehr-LAHS-uhn"}
+{"id":"de.c0340","deck":"de.d.compliments","de":"Du siehst gut aus!","rom":"doo zeest goot ows"}
+{"id":"de.c0341","deck":"de.d.compliments","de":"Schöne Frisur!","rom":"SHUR-nuh free-ZOOR"}
+{"id":"de.c0342","deck":"de.d.compliments","de":"Ihr habt eine schöne Wohnung.","rom":"eer hahpt AI-nuh SHUR-nuh VOH-noong"}
+{"id":"de.c0343","deck":"de.d.compliments","de":"Hier ist es richtig gemütlich.","rom":"heer ist ehs RIHH-tihh guh-MEWT-lihh"}
+{"id":"de.c0344","deck":"de.d.compliments","de":"Schönes Foto!","rom":"SHUR-nuhs FOH-toh"}
+{"id":"de.c0345","deck":"de.d.compliments","de":"Der ist ja süß!","rom":"dayr ist yah zews"}
+{"id":"de.c0346","deck":"de.d.compliments","de":"Das sieht toll aus!","rom":"dahs zeet tawl ows"}
+{"id":"de.c0347","deck":"de.d.compliments","de":"Sie sprechen sehr gut Deutsch.","rom":"zee SHPREHH-uhn zayr goot doych"}
+{"id":"de.c0348","deck":"de.d.compliments","de":"Sie haben kaum einen Akzent.","rom":"zee HAH-buhn kowm AI-nuhn ahk-TSEHNT"}
+{"id":"de.c0349","deck":"de.d.compliments","de":"Danke, das ist nett.","rom":"DAHN-kuh dahs ist neht"}
+{"id":"de.c0350","deck":"de.d.compliments","de":"Danke, das freut mich.","rom":"DAHN-kuh dahs froyt mihh"}
+{"id":"de.c0351","deck":"de.d.compliments","de":"Findest du?","rom":"FIN-duhst doo"}
+{"id":"de.c0352","deck":"de.d.compliments","de":"Ich lerne noch.","rom":"ihh LEHR-nuh nawkh"}
+{"id":"de.c0353","deck":"de.d.compliments","de":"Danke, du auch!","rom":"DAHN-kuh doo owkh"}
+{"id":"de.c0354","deck":"de.d.flirting","de":"hübsch","rom":"hewpsh"}
+{"id":"de.c0355","deck":"de.d.flirting","de":"süß","rom":"zews"}
+{"id":"de.c0356","deck":"de.d.flirting","de":"wunderschön","rom":"VOON-duh-shurn"}
+{"id":"de.c0357","deck":"de.d.flirting","de":"attraktiv","rom":"aht-rahk-TEEF"}
+{"id":"de.c0358","deck":"de.d.flirting","de":"umwerfend","rom":"OOM-vehr-fuhnt"}
+{"id":"de.c0359","deck":"de.d.flirting","de":"witzig","rom":"VITS-ihh"}
+{"id":"de.c0360","deck":"de.d.flirting","de":"lustig","rom":"LOOS-tihh"}
+{"id":"de.c0361","deck":"de.d.flirting","de":"klug","rom":"klook"}
+{"id":"de.c0362","deck":"de.d.flirting","de":"schlau","rom":"shlow"}
+{"id":"de.c0363","deck":"de.d.flirting","de":"verliebt","rom":"fehr-LEEPT"}
+{"id":"de.c0364","deck":"de.d.flirting","de":"verknallt","rom":"fehr-KNAHLT"}
+{"id":"de.c0365","deck":"de.d.flirting","de":"das Lächeln","rom":"dahs LEHH-uhln"}
+{"id":"de.c0366","deck":"de.d.flirting","de":"die Stimme","rom":"dee SHTIM-uh"}
+{"id":"de.c0367","deck":"de.d.flirting","de":"die Haare","rom":"dee HAH-ruh"}
+{"id":"de.c0368","deck":"de.d.flirting","de":"der Stil","rom":"dayr shteel"}
+{"id":"de.c0369","deck":"de.d.flirting","de":"der Typ","rom":"dayr tewp"}
+{"id":"de.c0370","deck":"de.d.flirting","de":"die Ausstrahlung","rom":"dee OWS-shtrah-loong"}
+{"id":"de.c0371","deck":"de.d.flirting","de":"die Verabredung","rom":"dee fehr-AHP-ray-doong"}
+{"id":"de.c0372","deck":"de.d.flirting","de":"das Kompliment","rom":"dahs kawm-plee-MEHNT"}
+{"id":"de.c0373","deck":"de.d.flirting","de":"der Schatz","rom":"dayr shahts"}
+{"id":"de.c0374","deck":"de.d.flirting","de":"Du bist hübsch.","rom":"doo bist hewpsh"}
+{"id":"de.c0375","deck":"de.d.flirting","de":"Du siehst heute hübsch aus.","rom":"doo zeest HOY-tuh hewpsh ows"}
+{"id":"de.c0376","deck":"de.d.flirting","de":"Du bist echt süß.","rom":"doo bist ehht zews"}
+{"id":"de.c0377","deck":"de.d.flirting","de":"Das ist so süß von dir.","rom":"dahs ist zoh zews fawn deer"}
+{"id":"de.c0378","deck":"de.d.flirting","de":"Du siehst wunderschön aus.","rom":"doo zeest VOON-duh-shurn ows"}
+{"id":"de.c0379","deck":"de.d.flirting","de":"Du hast wunderschöne Augen.","rom":"doo hahst VOON-duh-shur-nuh OW-guhn"}
+{"id":"de.c0380","deck":"de.d.flirting","de":"Du siehst heute toll aus.","rom":"doo zeest HOY-tuh tawl ows"}
+{"id":"de.c0381","deck":"de.d.flirting","de":"Du siehst umwerfend aus.","rom":"doo zeest OOM-vehr-fuhnt ows"}
+{"id":"de.c0382","deck":"de.d.flirting","de":"Mit dir kann man so gut lachen.","rom":"mit deer kahn mahn zoh goot LAHKH-uhn"}
+{"id":"de.c0383","deck":"de.d.flirting","de":"Du bringst mich zum Lachen.","rom":"doo bringst mihh tsoom LAHKH-uhn"}
+{"id":"de.c0384","deck":"de.d.flirting","de":"Du bist echt lustig.","rom":"doo bist ehht LOOS-tihh"}
+{"id":"de.c0385","deck":"de.d.flirting","de":"Du bist echt klug.","rom":"doo bist ehht klook"}
+{"id":"de.c0386","deck":"de.d.flirting","de":"Ich mag, wie du denkst.","rom":"ihh mahk vee doo dehnkst"}
+{"id":"de.c0387","deck":"de.d.flirting","de":"Du hast ein schönes Lächeln.","rom":"doo hahst ain SHUR-nuhs LEHH-uhln"}
+{"id":"de.c0388","deck":"de.d.flirting","de":"Ich mag dein Lächeln.","rom":"ihh mahk dain LEHH-uhln"}
+{"id":"de.c0389","deck":"de.d.flirting","de":"Du hast eine schöne Stimme.","rom":"doo hahst AI-nuh SHUR-nuh SHTIM-uh"}
+{"id":"de.c0390","deck":"de.d.flirting","de":"Ich höre dir gern zu.","rom":"ihh HUR-uh deer gehrn tsoo"}
+{"id":"de.c0391","deck":"de.d.flirting","de":"Deine Haare sehen toll aus.","rom":"DAI-nuh HAH-ruh ZAY-uhn tawl ows"}
+{"id":"de.c0392","deck":"de.d.flirting","de":"Du hast Stil.","rom":"doo hahst shteel"}
+{"id":"de.c0393","deck":"de.d.flirting","de":"Ich mag deinen Stil.","rom":"ihh mahk DAI-nuhn shteel"}
+{"id":"de.c0394","deck":"de.d.flirting","de":"Du bist genau mein Typ.","rom":"doo bist guh-NOW main tewp"}
+{"id":"de.c0395","deck":"de.d.flirting","de":"Du hast eine tolle Ausstrahlung.","rom":"doo hahst AI-nuh TAWL-uh OWS-shtrah-loong"}
+{"id":"de.c0396","deck":"de.d.flirting","de":"Ich bin in dich verknallt.","rom":"ihh bin in dihh fehr-KNAHLT"}
+{"id":"de.c0397","deck":"de.d.flirting","de":"Ich glaube, ich bin verliebt.","rom":"ihh GLOW-buh ihh bin fehr-LEEPT"}
+{"id":"de.c0398","deck":"de.d.flirting","de":"Danke für das Kompliment!","rom":"DAHN-kuh fewr dahs kawm-plee-MEHNT"}
+{"id":"de.c0399","deck":"de.d.flirting","de":"Ich rede gern mit dir.","rom":"ihh RAY-duh gehrn mit deer"}
+{"id":"de.c0400","deck":"de.d.flirting","de":"Bist du vergeben?","rom":"bist doo fehr-GAY-buhn"}
+{"id":"de.c0401","deck":"de.d.flirting","de":"Darf ich dich auf einen Kaffee einladen?","rom":"dahrf ihh dihh owf AI-nuhn KAHF-ay AIN-lah-duhn"}
+{"id":"de.c0402","deck":"de.d.flirting","de":"Hast du Lust, mal mit mir essen zu gehen?","rom":"hahst doo loost mahl mit meer EHS-uhn tsoo GAY-uhn"}
+{"id":"de.c0403","deck":"de.d.flirting","de":"Kann ich deine Nummer haben?","rom":"kahn ihh DAI-nuh NOOM-uh HAH-buhn"}
+{"id":"de.c0404","deck":"de.d.flirting","de":"Hast du am Samstag Zeit?","rom":"hahst doo ahm ZAHMS-tahk tsait"}
+{"id":"de.c0405","deck":"de.d.flirting","de":"Wollen wir uns wiedersehen?","rom":"VAWL-uhn veer oons VEE-duh-zay-uhn"}
+{"id":"de.c0406","deck":"de.d.flirting","de":"Ich mag dich.","rom":"ihh mahk dihh"}
+{"id":"de.c0407","deck":"de.d.flirting","de":"Du hast mir gefehlt.","rom":"doo hahst meer guh-FAYLT"}
+{"id":"de.c0408","deck":"de.d.flirting","de":"Ja, sehr gern!","rom":"yah zayr gehrn"}
+{"id":"de.c0409","deck":"de.d.flirting","de":"Das wäre schön.","rom":"dahs VEH-ruh shurn"}
+{"id":"de.c0410","deck":"de.d.flirting","de":"Sagst du das zu allen?","rom":"zahkst doo dahs tsoo AHL-uhn"}
+{"id":"de.c0411","deck":"de.d.flirting","de":"Mal sehen.","rom":"mahl ZAY-uhn"}
+{"id":"de.c0412","deck":"de.d.flirting","de":"Danke, aber ich habe einen Freund.","rom":"DAHN-kuh AH-buh ihh HAH-buh AI-nuhn froynt"}
+{"id":"de.c0413","deck":"de.d.flirting","de":"Das ist lieb von dir, aber nein danke.","rom":"dahs ist leep fawn deer AH-buh nain DAHN-kuh"}
+{"id":"de.c0414","deck":"de.d.flirting","de":"Ich bin schon vergeben.","rom":"ihh bin shohn fehr-GAY-buhn"}
+{"id":"de.c0415","deck":"de.d.flirting","de":"Lass uns lieber Freunde bleiben.","rom":"lahs oons LEE-buh FROYN-duh BLAI-buhn"}
+{"id":"de.c0416","deck":"de.d.top-nouns","de":"das Jahr","rom":"dahs yahr"}
+{"id":"de.c0417","deck":"de.d.top-nouns","de":"die Uhr","rom":"dee oor"}
+{"id":"de.c0418","deck":"de.d.top-nouns","de":"der Euro","rom":"dayr OY-roh"}
+{"id":"de.c0419","deck":"de.d.top-nouns","de":"das Prozent","rom":"dahs proh-TSEHNT"}
+{"id":"de.c0420","deck":"de.d.top-nouns","de":"der Mensch","rom":"dayr mehnsh"}
+{"id":"de.c0421","deck":"de.d.top-nouns","de":"das Land","rom":"dahs lahnt"}
+{"id":"de.c0422","deck":"de.d.top-nouns","de":"die Stadt","rom":"dee shtaht"}
+{"id":"de.c0423","deck":"de.d.top-nouns","de":"das Ende","rom":"dahs EHN-duh"}
+{"id":"de.c0424","deck":"de.d.top-nouns","de":"die Woche","rom":"dee VAWKH-uh"}
+{"id":"de.c0425","deck":"de.d.top-nouns","de":"der Fall","rom":"dayr fahl"}
+{"id":"de.c0426","deck":"de.d.top-nouns","de":"die Hand","rom":"dee hahnt"}
+{"id":"de.c0427","deck":"de.d.top-nouns","de":"das Auge","rom":"dahs OW-guh"}
+{"id":"de.c0428","deck":"de.d.top-nouns","de":"der Kopf","rom":"dayr kawpf"}
+{"id":"de.c0429","deck":"de.d.top-nouns","de":"das Gesicht","rom":"dahs guh-ZIHHT"}
+{"id":"de.c0430","deck":"de.d.top-nouns","de":"das Leben","rom":"dahs LAY-buhn"}
+{"id":"de.c0431","deck":"de.d.top-nouns","de":"der Blick","rom":"dayr blik"}
+{"id":"de.c0432","deck":"de.d.top-nouns","de":"das Wort","rom":"dahs vawrt"}
+{"id":"de.c0433","deck":"de.d.top-nouns","de":"der Herr","rom":"dayr hehr"}
+{"id":"de.c0434","deck":"de.d.top-nouns","de":"das Geld","rom":"dahs gehlt"}
+{"id":"de.c0435","deck":"de.d.top-nouns","de":"die Arbeit","rom":"dee AHR-bait"}
+{"id":"de.c0436","deck":"de.d.top-nouns","de":"die Frage","rom":"dee FRAH-guh"}
+{"id":"de.c0437","deck":"de.d.top-nouns","de":"das Problem","rom":"dahs proh-BLAYM"}
+{"id":"de.c0438","deck":"de.d.top-nouns","de":"der Weg","rom":"dayr vayk"}
+{"id":"de.c0439","deck":"de.d.top-nouns","de":"die Welt","rom":"dee vehlt"}
+{"id":"de.c0440","deck":"de.d.top-nouns","de":"die Sache","rom":"dee ZAHKH-uh"}
+{"id":"de.c0441","deck":"de.d.top-nouns","de":"das Ding","rom":"dahs ding"}
+{"id":"de.c0442","deck":"de.d.top-nouns","de":"die Seite","rom":"dee ZAI-tuh"}
+{"id":"de.c0443","deck":"de.d.top-nouns","de":"der Name","rom":"dayr NAH-muh"}
+{"id":"de.c0444","deck":"de.d.top-nouns","de":"die Nacht","rom":"dee nahkht"}
+{"id":"de.c0445","deck":"de.d.top-nouns","de":"der Abend","rom":"dayr AH-buhnt"}
+{"id":"de.c0446","deck":"de.d.top-nouns","de":"der Monat","rom":"dayr MOH-naht"}
+{"id":"de.c0447","deck":"de.d.top-nouns","de":"die Stunde","rom":"dee SHTOON-duh"}
+{"id":"de.c0448","deck":"de.d.top-nouns","de":"die Minute","rom":"dee mee-NOO-tuh"}
+{"id":"de.c0449","deck":"de.d.top-nouns","de":"die Familie","rom":"dee fah-MEE-lee-uh"}
+{"id":"de.c0450","deck":"de.d.top-nouns","de":"das Auto","rom":"dahs OW-toh"}
+{"id":"de.c0451","deck":"de.d.top-nouns","de":"die Schule","rom":"dee SHOO-luh"}
+{"id":"de.c0452","deck":"de.d.top-nouns","de":"das Wetter","rom":"dahs VEHT-uh"}
+{"id":"de.c0453","deck":"de.d.top-nouns","de":"die Musik","rom":"dee moo-ZEEK"}
+{"id":"de.c0454","deck":"de.d.top-nouns","de":"der Film","rom":"dayr film"}
+{"id":"de.c0455","deck":"de.d.top-nouns","de":"das Spiel","rom":"dahs shpeel"}
+{"id":"de.c0456","deck":"de.d.top-nouns","de":"das Zimmer","rom":"dahs TSIM-uh"}
+{"id":"de.c0457","deck":"de.d.top-nouns","de":"der Tisch","rom":"dayr tish"}
+{"id":"de.c0458","deck":"de.d.top-nouns","de":"der Stuhl","rom":"dayr shtool"}
+{"id":"de.c0459","deck":"de.d.top-nouns","de":"das Bett","rom":"dahs beht"}
+{"id":"de.c0460","deck":"de.d.top-nouns","de":"das Fenster","rom":"dahs FEHNS-tuh"}
+{"id":"de.c0461","deck":"de.d.top-nouns","de":"der Zug","rom":"dayr tsook"}
+{"id":"de.c0462","deck":"de.d.top-nouns","de":"der Bus","rom":"dayr boos"}
+{"id":"de.c0463","deck":"de.d.top-nouns","de":"das Telefon","rom":"dahs tay-lay-FOHN"}
+{"id":"de.c0464","deck":"de.d.top-nouns","de":"die Nummer","rom":"dee NOOM-uh"}
+{"id":"de.c0465","deck":"de.d.top-nouns","de":"die Zahl","rom":"dee tsahl"}
+{"id":"de.c0466","deck":"de.d.top-nouns","de":"die Adresse","rom":"dee ah-DREHS-uh"}
+{"id":"de.c0467","deck":"de.d.top-nouns","de":"die Sprache","rom":"dee SHPRAHKH-uh"}
+{"id":"de.c0468","deck":"de.d.top-nouns","de":"die Idee","rom":"dee ee-DAY"}
+{"id":"de.c0469","deck":"de.d.top-nouns","de":"der Grund","rom":"dayr groont"}
+{"id":"de.c0470","deck":"de.d.top-nouns","de":"die Liebe","rom":"dee LEE-buh"}
+{"id":"de.c0471","deck":"de.d.top-nouns","de":"das Herz","rom":"dahs hehrts"}
+{"id":"de.c0472","deck":"de.d.top-nouns","de":"die Freude","rom":"dee FROY-duh"}
+{"id":"de.c0473","deck":"de.d.top-nouns","de":"das Glück","rom":"dahs glewk"}
+{"id":"de.c0474","deck":"de.d.top-nouns","de":"der Spaß","rom":"dayr shpahs"}
+{"id":"de.c0475","deck":"de.d.top-nouns","de":"die Lust","rom":"dee loost"}
+{"id":"de.c0476","deck":"de.d.top-nouns","de":"die Ruhe","rom":"dee ROO-uh"}
+{"id":"de.c0477","deck":"de.d.top-nouns","de":"das Bild","rom":"dahs bilt"}
+{"id":"de.c0478","deck":"de.d.top-nouns","de":"das Foto","rom":"dahs FOH-toh"}
+{"id":"de.c0479","deck":"de.d.top-nouns","de":"die Farbe","rom":"dee FAHR-buh"}
+{"id":"de.c0480","deck":"de.d.top-nouns","de":"die Karte","rom":"dee KAHR-tuh"}
+{"id":"de.c0481","deck":"de.d.top-nouns","de":"der Brief","rom":"dayr breef"}
+{"id":"de.c0482","deck":"de.d.top-nouns","de":"das Kino","rom":"dahs KEE-noh"}
+{"id":"de.c0483","deck":"de.d.top-nouns","de":"die Party","rom":"dee PAHR-tee"}
+{"id":"de.c0484","deck":"de.d.top-nouns","de":"das Geschenk","rom":"dahs guh-SHEHNK"}
+{"id":"de.c0485","deck":"de.d.top-nouns","de":"der Geburtstag","rom":"dayr guh-BOORTS-tahk"}
+{"id":"de.c0486","deck":"de.d.top-nouns","de":"das Wochenende","rom":"dahs VAWKH-uhn-ehn-duh"}
+{"id":"de.c0487","deck":"de.d.top-nouns","de":"der Urlaub","rom":"dayr OOR-lowp"}
+{"id":"de.c0488","deck":"de.d.top-nouns","de":"die Reise","rom":"dee RAI-zuh"}
+{"id":"de.c0489","deck":"de.d.top-nouns","de":"die Polizei","rom":"dee poh-lee-TSAI"}
+{"id":"de.c0490","deck":"de.d.top-nouns","de":"der Arzt","rom":"dayr ahrtst"}
+{"id":"de.c0491","deck":"de.d.top-nouns","de":"der Körper","rom":"dayr KUR-puh"}
+{"id":"de.c0492","deck":"de.d.top-nouns","de":"der Fuß","rom":"dayr foos"}
+{"id":"de.c0493","deck":"de.d.top-nouns","de":"das Bein","rom":"dahs bain"}
+{"id":"de.c0494","deck":"de.d.top-nouns","de":"die Tasche","rom":"dee TAHSH-uh"}
+{"id":"de.c0495","deck":"de.d.top-nouns","de":"der Schlüssel","rom":"dayr SHLEWS-uhl"}
+{"id":"de.c0496","deck":"de.d.top-nouns","de":"die Geschichte","rom":"dee guh-SHIHH-tuh"}
+{"id":"de.c0497","deck":"de.d.top-nouns","de":"die Art","rom":"dee ahrt"}
+{"id":"de.c0498","deck":"de.d.top-nouns","de":"der Platz","rom":"dayr plahts"}
+{"id":"de.c0499","deck":"de.d.top-nouns","de":"das Thema","rom":"dahs TAY-mah"}
+{"id":"de.c0500","deck":"de.d.top-nouns","de":"das Ziel","rom":"dahs tseel"}
+{"id":"de.c0501","deck":"de.d.top-nouns","de":"die Gruppe","rom":"dee GROOP-uh"}
+{"id":"de.c0502","deck":"de.d.top-nouns","de":"die Möglichkeit","rom":"dee MURK-lihh-kait"}
+{"id":"de.c0503","deck":"de.d.top-nouns","de":"der Anfang","rom":"dayr AHN-fahng"}
+{"id":"de.c0504","deck":"de.d.top-nouns","de":"die Luft","rom":"dee looft"}
+{"id":"de.c0505","deck":"de.d.top-nouns","de":"das Meer","rom":"dahs mayr"}
+{"id":"de.c0506","deck":"de.d.top-nouns","de":"der Berg","rom":"dayr behrk"}
+{"id":"de.c0507","deck":"de.d.top-nouns","de":"der Baum","rom":"dayr bowm"}
+{"id":"de.c0508","deck":"de.d.top-nouns","de":"der Garten","rom":"dayr GAHR-tuhn"}
+{"id":"de.c0509","deck":"de.d.top-nouns","de":"die Katze","rom":"dee KAHTS-uh"}
+{"id":"de.c0510","deck":"de.d.top-nouns","de":"das Tier","rom":"dahs teer"}
+{"id":"de.c0511","deck":"de.d.top-nouns","de":"das Brot","rom":"dahs broht"}
+{"id":"de.c0512","deck":"de.d.top-nouns","de":"das Fleisch","rom":"dahs flaish"}
+{"id":"de.c0513","deck":"de.d.top-nouns","de":"die Milch","rom":"dee milhh"}
+{"id":"de.c0514","deck":"de.d.top-nouns","de":"das Bier","rom":"dahs beer"}
+{"id":"de.c0515","deck":"de.d.top-nouns","de":"der Tee","rom":"dayr tay"}
+{"id":"de.c0516","deck":"de.d.top-nouns","de":"das Dorf","rom":"dahs dawrf"}
+{"id":"de.c0517","deck":"de.d.top-nouns","de":"die Ecke","rom":"dee EHK-uh"}
+{"id":"de.c0518","deck":"de.d.top-nouns","de":"das Krankenhaus","rom":"dahs KRAHN-kuhn-hows"}
+{"id":"de.c0519","deck":"de.d.top-nouns","de":"die Nachricht","rom":"dee NAHKH-rihht"}
+{"id":"de.c0520","deck":"de.d.top-nouns","de":"die Zeitung","rom":"dee TSAI-toong"}
+{"id":"de.c0521","deck":"de.d.top-nouns","de":"der Laden","rom":"dayr LAH-duhn"}
+{"id":"de.c0522","deck":"de.d.top-nouns","de":"der Preis","rom":"dayr prais"}
+{"id":"de.c0523","deck":"de.d.top-nouns","de":"die Rechnung","rom":"dee REHH-noong"}
+{"id":"de.c0524","deck":"de.d.top-nouns","de":"die Antwort","rom":"dee AHNT-vawrt"}
+{"id":"de.c0525","deck":"de.d.top-nouns","de":"der Fehler","rom":"dayr FAY-luh"}
+{"id":"de.c0526","deck":"de.d.top-nouns","de":"die Ahnung","rom":"dee AH-noong"}
+{"id":"de.c0527","deck":"de.d.top-nouns","de":"der Moment","rom":"dayr moh-MEHNT"}
+{"id":"de.c0528","deck":"de.d.top-nouns","de":"der Nachbar","rom":"dayr NAHKH-bahr"}
+{"id":"de.c0529","deck":"de.d.top-verbs","de":"sein","rom":"zain"}
+{"id":"de.c0530","deck":"de.d.top-verbs","de":"haben","rom":"HAH-buhn"}
+{"id":"de.c0531","deck":"de.d.top-verbs","de":"werden","rom":"VAYR-duhn"}
+{"id":"de.c0532","deck":"de.d.top-verbs","de":"können","rom":"KURN-uhn"}
+{"id":"de.c0533","deck":"de.d.top-verbs","de":"sagen","rom":"ZAH-guhn"}
+{"id":"de.c0534","deck":"de.d.top-verbs","de":"müssen","rom":"MEWS-uhn"}
+{"id":"de.c0535","deck":"de.d.top-verbs","de":"sollen","rom":"ZAWL-uhn"}
+{"id":"de.c0536","deck":"de.d.top-verbs","de":"geben","rom":"GAY-buhn"}
+{"id":"de.c0537","deck":"de.d.top-verbs","de":"wollen","rom":"VAWL-uhn"}
+{"id":"de.c0538","deck":"de.d.top-verbs","de":"kommen","rom":"KAWM-uhn"}
+{"id":"de.c0539","deck":"de.d.top-verbs","de":"gehen","rom":"GAY-uhn"}
+{"id":"de.c0540","deck":"de.d.top-verbs","de":"machen","rom":"MAHKH-uhn"}
+{"id":"de.c0541","deck":"de.d.top-verbs","de":"stehen","rom":"SHTAY-uhn"}
+{"id":"de.c0542","deck":"de.d.top-verbs","de":"lassen","rom":"LAHS-uhn"}
+{"id":"de.c0543","deck":"de.d.top-verbs","de":"sehen","rom":"ZAY-uhn"}
+{"id":"de.c0544","deck":"de.d.top-verbs","de":"finden","rom":"FIN-duhn"}
+{"id":"de.c0545","deck":"de.d.top-verbs","de":"bleiben","rom":"BLAI-buhn"}
+{"id":"de.c0546","deck":"de.d.top-verbs","de":"liegen","rom":"LEE-guhn"}
+{"id":"de.c0547","deck":"de.d.top-verbs","de":"zeigen","rom":"TSAI-guhn"}
+{"id":"de.c0548","deck":"de.d.top-verbs","de":"dürfen","rom":"DEWR-fuhn"}
+{"id":"de.c0549","deck":"de.d.top-verbs","de":"wissen","rom":"VIS-uhn"}
+{"id":"de.c0550","deck":"de.d.top-verbs","de":"fragen","rom":"FRAH-guhn"}
+{"id":"de.c0551","deck":"de.d.top-verbs","de":"tun","rom":"toon"}
+{"id":"de.c0552","deck":"de.d.top-verbs","de":"nehmen","rom":"NAY-muhn"}
+{"id":"de.c0553","deck":"de.d.top-verbs","de":"hören","rom":"HUR-uhn"}
+{"id":"de.c0554","deck":"de.d.top-verbs","de":"heißen","rom":"HAI-suhn"}
+{"id":"de.c0555","deck":"de.d.top-verbs","de":"glauben","rom":"GLOW-buhn"}
+{"id":"de.c0556","deck":"de.d.top-verbs","de":"denken","rom":"DEHN-kuhn"}
+{"id":"de.c0557","deck":"de.d.top-verbs","de":"sprechen","rom":"SHPREHH-uhn"}
+{"id":"de.c0558","deck":"de.d.top-verbs","de":"bringen","rom":"BRING-uhn"}
+{"id":"de.c0559","deck":"de.d.top-verbs","de":"fahren","rom":"FAH-ruhn"}
+{"id":"de.c0560","deck":"de.d.top-verbs","de":"arbeiten","rom":"AHR-bai-tuhn"}
+{"id":"de.c0561","deck":"de.d.top-verbs","de":"spielen","rom":"SHPEE-luhn"}
+{"id":"de.c0562","deck":"de.d.top-verbs","de":"essen","rom":"EHS-uhn"}
+{"id":"de.c0563","deck":"de.d.top-verbs","de":"trinken","rom":"TRIN-kuhn"}
+{"id":"de.c0564","deck":"de.d.top-verbs","de":"schreiben","rom":"SHRAI-buhn"}
+{"id":"de.c0565","deck":"de.d.top-verbs","de":"lesen","rom":"LAY-zuhn"}
+{"id":"de.c0566","deck":"de.d.top-verbs","de":"laufen","rom":"LOW-fuhn"}
+{"id":"de.c0567","deck":"de.d.top-verbs","de":"kennen","rom":"KEHN-uhn"}
+{"id":"de.c0568","deck":"de.d.top-verbs","de":"halten","rom":"HAHL-tuhn"}
+{"id":"de.c0569","deck":"de.d.top-verbs","de":"sitzen","rom":"ZITS-uhn"}
+{"id":"de.c0570","deck":"de.d.top-verbs","de":"brauchen","rom":"BROWKH-uhn"}
+{"id":"de.c0571","deck":"de.d.top-verbs","de":"suchen","rom":"ZOOKH-uhn"}
+{"id":"de.c0572","deck":"de.d.top-verbs","de":"kaufen","rom":"KOW-fuhn"}
+{"id":"de.c0573","deck":"de.d.top-verbs","de":"verstehen","rom":"fehr-SHTAY-uhn"}
+{"id":"de.c0574","deck":"de.d.top-verbs","de":"erklären","rom":"ehr-KLEH-ruhn"}
+{"id":"de.c0575","deck":"de.d.top-verbs","de":"beginnen","rom":"buh-GIN-uhn"}
+{"id":"de.c0576","deck":"de.d.top-verbs","de":"helfen","rom":"HEHL-fuhn"}
+{"id":"de.c0577","deck":"de.d.top-verbs","de":"lernen","rom":"LEHR-nuhn"}
+{"id":"de.c0578","deck":"de.d.top-verbs","de":"wohnen","rom":"VOH-nuhn"}
+{"id":"de.c0579","deck":"de.d.top-verbs","de":"warten","rom":"VAHR-tuhn"}
+{"id":"de.c0580","deck":"de.d.top-verbs","de":"versuchen","rom":"fehr-ZOOKH-uhn"}
+{"id":"de.c0581","deck":"de.d.top-verbs","de":"mögen","rom":"MUR-guhn"}
+{"id":"de.c0582","deck":"de.d.top-verbs","de":"gefallen","rom":"guh-FAHL-uhn"}
+{"id":"de.c0583","deck":"de.d.top-verbs","de":"gehören","rom":"guh-HUR-uhn"}
+{"id":"de.c0584","deck":"de.d.top-verbs","de":"treffen","rom":"TREHF-uhn"}
+{"id":"de.c0585","deck":"de.d.top-verbs","de":"vergessen","rom":"fehr-GEHS-uhn"}
+{"id":"de.c0586","deck":"de.d.top-verbs","de":"erzählen","rom":"ehr-TSEH-luhn"}
+{"id":"de.c0587","deck":"de.d.top-verbs","de":"öffnen","rom":"URF-nuhn"}
+{"id":"de.c0588","deck":"de.d.top-verbs","de":"schließen","rom":"SHLEE-suhn"}
+{"id":"de.c0589","deck":"de.d.top-verbs","de":"legen","rom":"LAY-guhn"}
+{"id":"de.c0590","deck":"de.d.top-verbs","de":"stellen","rom":"SHTEHL-uhn"}
+{"id":"de.c0591","deck":"de.d.top-verbs","de":"setzen","rom":"ZEHTS-uhn"}
+{"id":"de.c0592","deck":"de.d.top-verbs","de":"tragen","rom":"TRAH-guhn"}
+{"id":"de.c0593","deck":"de.d.top-verbs","de":"schlafen","rom":"SHLAH-fuhn"}
+{"id":"de.c0594","deck":"de.d.top-verbs","de":"fliegen","rom":"FLEE-guhn"}
+{"id":"de.c0595","deck":"de.d.top-verbs","de":"rufen","rom":"ROO-fuhn"}
+{"id":"de.c0596","deck":"de.d.top-verbs","de":"anrufen","rom":"AHN-roo-fuhn"}
+{"id":"de.c0597","deck":"de.d.top-verbs","de":"aufstehen","rom":"OWF-shtay-uhn"}
+{"id":"de.c0598","deck":"de.d.top-verbs","de":"ankommen","rom":"AHN-kawm-uhn"}
+{"id":"de.c0599","deck":"de.d.top-verbs","de":"anfangen","rom":"AHN-fahng-uhn"}
+{"id":"de.c0600","deck":"de.d.top-verbs","de":"einkaufen","rom":"AIN-kow-fuhn"}
+{"id":"de.c0601","deck":"de.d.top-verbs","de":"mitkommen","rom":"MIT-kawm-uhn"}
+{"id":"de.c0602","deck":"de.d.top-verbs","de":"fernsehen","rom":"FEHRN-zay-uhn"}
+{"id":"de.c0603","deck":"de.d.top-verbs","de":"aufhören","rom":"OWF-hur-uhn"}
+{"id":"de.c0604","deck":"de.d.top-verbs","de":"aufmachen","rom":"OWF-mahkh-uhn"}
+{"id":"de.c0605","deck":"de.d.top-verbs","de":"zumachen","rom":"TSOO-mahkh-uhn"}
+{"id":"de.c0606","deck":"de.d.top-verbs","de":"mitbringen","rom":"MIT-bring-uhn"}
+{"id":"de.c0607","deck":"de.d.top-verbs","de":"zuhören","rom":"TSOO-hur-uhn"}
+{"id":"de.c0608","deck":"de.d.top-verbs","de":"lieben","rom":"LEE-buhn"}
+{"id":"de.c0609","deck":"de.d.top-verbs","de":"lachen","rom":"LAHKH-uhn"}
+{"id":"de.c0610","deck":"de.d.top-verbs","de":"singen","rom":"ZING-uhn"}
+{"id":"de.c0611","deck":"de.d.top-verbs","de":"tanzen","rom":"TAHN-tsuhn"}
+{"id":"de.c0612","deck":"de.d.top-verbs","de":"reisen","rom":"RAI-zuhn"}
+{"id":"de.c0613","deck":"de.d.top-verbs","de":"besuchen","rom":"buh-ZOOKH-uhn"}
+{"id":"de.c0614","deck":"de.d.top-verbs","de":"verlieren","rom":"fehr-LEE-ruhn"}
+{"id":"de.c0615","deck":"de.d.top-verbs","de":"gewinnen","rom":"guh-VIN-uhn"}
+{"id":"de.c0616","deck":"de.d.top-verbs","de":"holen","rom":"HOH-luhn"}
+{"id":"de.c0617","deck":"de.d.top-verbs","de":"schicken","rom":"SHIK-uhn"}
+{"id":"de.c0618","deck":"de.d.top-verbs","de":"fühlen","rom":"FEW-luhn"}
+{"id":"de.c0619","deck":"de.d.top-verbs","de":"passieren","rom":"pahs-EE-ruhn"}
+{"id":"de.c0620","deck":"de.d.top-verbs","de":"dauern","rom":"DOW-uhn"}
+{"id":"de.c0621","deck":"de.d.top-verbs","de":"kosten","rom":"KAWS-tuhn"}
+{"id":"de.c0622","deck":"de.d.top-verbs","de":"kochen","rom":"KAWKH-uhn"}
+{"id":"de.c0623","deck":"de.d.top-verbs","de":"waschen","rom":"VAHSH-uhn"}
+{"id":"de.c0624","deck":"de.d.top-verbs","de":"schwimmen","rom":"SHVIM-uhn"}
+{"id":"de.c0625","deck":"de.d.top-verbs","de":"reden","rom":"RAY-duhn"}
+{"id":"de.c0626","deck":"de.d.top-verbs","de":"antworten","rom":"AHNT-vawr-tuhn"}
+{"id":"de.c0627","deck":"de.d.top-verbs","de":"studieren","rom":"shtoo-DEE-ruhn"}
+{"id":"de.c0628","deck":"de.d.top-verbs","de":"feiern","rom":"FAI-uhn"}
+{"id":"de.c0629","deck":"de.d.top-verbs","de":"bezahlen","rom":"buh-TSAH-luhn"}
+{"id":"de.c0630","deck":"de.d.top-verbs","de":"verkaufen","rom":"fehr-KOW-fuhn"}
+{"id":"de.c0631","deck":"de.d.top-verbs","de":"hoffen","rom":"HAWF-uhn"}
+{"id":"de.c0632","deck":"de.d.top-verbs","de":"wünschen","rom":"VEWN-shuhn"}
+{"id":"de.c0633","deck":"de.d.top-verbs","de":"kriegen","rom":"KREE-guhn"}
+{"id":"de.c0634","deck":"de.d.top-verbs","de":"entscheiden","rom":"ehnt-SHAI-duhn"}
+{"id":"de.c0635","deck":"de.d.top-verbs","de":"bedeuten","rom":"buh-DOY-tuhn"}
+{"id":"de.c0636","deck":"de.d.top-verbs","de":"ziehen","rom":"TSEE-uhn"}
+{"id":"de.c0637","deck":"de.d.top-verbs","de":"fallen","rom":"FAHL-uhn"}
+{"id":"de.c0638","deck":"de.d.top-verbs","de":"sterben","rom":"SHTEHR-buhn"}
+{"id":"de.c0639","deck":"de.d.top-verbs","de":"schmecken","rom":"SHMEHK-uhn"}
+{"id":"de.c0640","deck":"de.d.top-verbs","de":"putzen","rom":"POOTS-uhn"}
+{"id":"de.c0641","deck":"de.d.top-verbs","de":"sich freuen","rom":"zihh FROY-uhn"}
+{"id":"de.c0642","deck":"de.d.top-verbs","de":"sich erinnern","rom":"zihh ehr-IN-uhn"}
+{"id":"de.c0643","deck":"de.d.top-verbs","de":"sich vorstellen","rom":"zihh FOHR-shtehl-uhn"}
+{"id":"de.c0644","deck":"de.d.top-adjectives","de":"neu","rom":"noy"}
+{"id":"de.c0645","deck":"de.d.top-adjectives","de":"groß","rom":"grohs"}
+{"id":"de.c0646","deck":"de.d.top-adjectives","de":"weit","rom":"vait"}
+{"id":"de.c0647","deck":"de.d.top-adjectives","de":"deutsch","rom":"doych"}
+{"id":"de.c0648","deck":"de.d.top-adjectives","de":"gut","rom":"goot"}
+{"id":"de.c0649","deck":"de.d.top-adjectives","de":"klein","rom":"klain"}
+{"id":"de.c0650","deck":"de.d.top-adjectives","de":"eigen","rom":"AI-guhn"}
+{"id":"de.c0651","deck":"de.d.top-adjectives","de":"letzte","rom":"LEHTS-tuh"}
+{"id":"de.c0652","deck":"de.d.top-adjectives","de":"alt","rom":"ahlt"}
+{"id":"de.c0653","deck":"de.d.top-adjectives","de":"hoch","rom":"hohkh"}
+{"id":"de.c0654","deck":"de.d.top-adjectives","de":"jung","rom":"yoong"}
+{"id":"de.c0655","deck":"de.d.top-adjectives","de":"lang","rom":"lahng"}
+{"id":"de.c0656","deck":"de.d.top-adjectives","de":"nah","rom":"nah"}
+{"id":"de.c0657","deck":"de.d.top-adjectives","de":"ganz","rom":"gahnts"}
+{"id":"de.c0658","deck":"de.d.top-adjectives","de":"spät","rom":"shpeht"}
+{"id":"de.c0659","deck":"de.d.top-adjectives","de":"einzig","rom":"AIN-tsihh"}
+{"id":"de.c0660","deck":"de.d.top-adjectives","de":"lieb","rom":"leep"}
+{"id":"de.c0661","deck":"de.d.top-adjectives","de":"wichtig","rom":"VIHH-tihh"}
+{"id":"de.c0662","deck":"de.d.top-adjectives","de":"richtig","rom":"RIHH-tihh"}
+{"id":"de.c0663","deck":"de.d.top-adjectives","de":"falsch","rom":"fahlsh"}
+{"id":"de.c0664","deck":"de.d.top-adjectives","de":"schnell","rom":"shnehl"}
+{"id":"de.c0665","deck":"de.d.top-adjectives","de":"langsam","rom":"LAHNG-zahm"}
+{"id":"de.c0666","deck":"de.d.top-adjectives","de":"einfach","rom":"AIN-fahkh"}
+{"id":"de.c0667","deck":"de.d.top-adjectives","de":"schwer","rom":"shvayr"}
+{"id":"de.c0668","deck":"de.d.top-adjectives","de":"leicht","rom":"laihht"}
+{"id":"de.c0669","deck":"de.d.top-adjectives","de":"schlecht","rom":"shlehht"}
+{"id":"de.c0670","deck":"de.d.top-adjectives","de":"früh","rom":"frew"}
+{"id":"de.c0671","deck":"de.d.top-adjectives","de":"kurz","rom":"koorts"}
+{"id":"de.c0672","deck":"de.d.top-adjectives","de":"billig","rom":"BIL-ihh"}
+{"id":"de.c0673","deck":"de.d.top-adjectives","de":"teuer","rom":"TOY-uh"}
+{"id":"de.c0674","deck":"de.d.top-adjectives","de":"warm","rom":"vahrm"}
+{"id":"de.c0675","deck":"de.d.top-adjectives","de":"kalt","rom":"kahlt"}
+{"id":"de.c0676","deck":"de.d.top-adjectives","de":"heiß","rom":"hais"}
+{"id":"de.c0677","deck":"de.d.top-adjectives","de":"voll","rom":"fawl"}
+{"id":"de.c0678","deck":"de.d.top-adjectives","de":"leer","rom":"layr"}
+{"id":"de.c0679","deck":"de.d.top-adjectives","de":"frei","rom":"frai"}
+{"id":"de.c0680","deck":"de.d.top-adjectives","de":"offen","rom":"AWF-uhn"}
+{"id":"de.c0681","deck":"de.d.top-adjectives","de":"fertig","rom":"FEHR-tihh"}
+{"id":"de.c0682","deck":"de.d.top-adjectives","de":"bereit","rom":"buh-RAIT"}
+{"id":"de.c0683","deck":"de.d.top-adjectives","de":"möglich","rom":"MURK-lihh"}
+{"id":"de.c0684","deck":"de.d.top-adjectives","de":"sicher","rom":"ZIHH-uh"}
+{"id":"de.c0685","deck":"de.d.top-adjectives","de":"klar","rom":"klahr"}
+{"id":"de.c0686","deck":"de.d.top-adjectives","de":"müde","rom":"MEW-duh"}
+{"id":"de.c0687","deck":"de.d.top-adjectives","de":"krank","rom":"krahnk"}
+{"id":"de.c0688","deck":"de.d.top-adjectives","de":"gesund","rom":"guh-ZOONT"}
+{"id":"de.c0689","deck":"de.d.top-adjectives","de":"glücklich","rom":"GLEWK-lihh"}
+{"id":"de.c0690","deck":"de.d.top-adjectives","de":"traurig","rom":"TROW-rihh"}
+{"id":"de.c0691","deck":"de.d.top-adjectives","de":"froh","rom":"froh"}
+{"id":"de.c0692","deck":"de.d.top-adjectives","de":"zufrieden","rom":"tsoo-FREE-duhn"}
+{"id":"de.c0693","deck":"de.d.top-adjectives","de":"interessant","rom":"in-tuh-reh-SAHNT"}
+{"id":"de.c0694","deck":"de.d.top-adjectives","de":"langweilig","rom":"LAHNG-vai-lihh"}
+{"id":"de.c0695","deck":"de.d.top-adjectives","de":"schwierig","rom":"SHVEE-rihh"}
+{"id":"de.c0696","deck":"de.d.top-adjectives","de":"gleich","rom":"glaihh"}
+{"id":"de.c0697","deck":"de.d.top-adjectives","de":"anders","rom":"AHN-duhs"}
+{"id":"de.c0698","deck":"de.d.top-adjectives","de":"ruhig","rom":"ROO-ihh"}
+{"id":"de.c0699","deck":"de.d.top-adjectives","de":"laut","rom":"lowt"}
+{"id":"de.c0700","deck":"de.d.top-adjectives","de":"leise","rom":"LAI-zuh"}
+{"id":"de.c0701","deck":"de.d.top-adjectives","de":"dunkel","rom":"DOON-kuhl"}
+{"id":"de.c0702","deck":"de.d.top-adjectives","de":"hell","rom":"hehl"}
+{"id":"de.c0703","deck":"de.d.top-adjectives","de":"sauber","rom":"ZOW-buh"}
+{"id":"de.c0704","deck":"de.d.top-adjectives","de":"schmutzig","rom":"SHMOOTS-ihh"}
+{"id":"de.c0705","deck":"de.d.top-adjectives","de":"stark","rom":"shtahrk"}
+{"id":"de.c0706","deck":"de.d.top-adjectives","de":"schwach","rom":"shvahkh"}
+{"id":"de.c0707","deck":"de.d.top-adjectives","de":"reich","rom":"raihh"}
+{"id":"de.c0708","deck":"de.d.top-adjectives","de":"rot","rom":"roht"}
+{"id":"de.c0709","deck":"de.d.top-adjectives","de":"blau","rom":"blow"}
+{"id":"de.c0710","deck":"de.d.top-adjectives","de":"grün","rom":"grewn"}
+{"id":"de.c0711","deck":"de.d.top-adjectives","de":"schwarz","rom":"shvahrts"}
+{"id":"de.c0712","deck":"de.d.top-adjectives","de":"weiß","rom":"vais"}
+{"id":"de.c0713","deck":"de.d.top-adjectives","de":"braun","rom":"brown"}
+{"id":"de.c0714","deck":"de.d.top-adjectives","de":"nett","rom":"neht"}
+{"id":"de.c0715","deck":"de.d.top-adjectives","de":"freundlich","rom":"FROYNT-lihh"}
+{"id":"de.c0716","deck":"de.d.top-adjectives","de":"höflich","rom":"HURF-lihh"}
+{"id":"de.c0717","deck":"de.d.top-adjectives","de":"lecker","rom":"LEHK-uh"}
+{"id":"de.c0718","deck":"de.d.top-adjectives","de":"bekannt","rom":"buh-KAHNT"}
+{"id":"de.c0719","deck":"de.d.top-adjectives","de":"ehrlich","rom":"AYR-lihh"}
+{"id":"de.c0720","deck":"de.d.top-adjectives","de":"wahr","rom":"vahr"}
+{"id":"de.c0721","deck":"de.d.top-adverbs","de":"auch","rom":"owkh"}
+{"id":"de.c0722","deck":"de.d.top-adverbs","de":"noch","rom":"nawkh"}
+{"id":"de.c0723","deck":"de.d.top-adverbs","de":"so","rom":"zoh"}
+{"id":"de.c0724","deck":"de.d.top-adverbs","de":"nur","rom":"noor"}
+{"id":"de.c0725","deck":"de.d.top-adverbs","de":"schon","rom":"shohn"}
+{"id":"de.c0726","deck":"de.d.top-adverbs","de":"dann","rom":"dahn"}
+{"id":"de.c0727","deck":"de.d.top-adverbs","de":"wieder","rom":"VEE-duh"}
+{"id":"de.c0728","deck":"de.d.top-adverbs","de":"immer","rom":"IM-uh"}
+{"id":"de.c0729","deck":"de.d.top-adverbs","de":"jetzt","rom":"yehtst"}
+{"id":"de.c0730","deck":"de.d.top-adverbs","de":"bereits","rom":"buh-RAITS"}
+{"id":"de.c0731","deck":"de.d.top-adverbs","de":"da","rom":"dah"}
+{"id":"de.c0732","deck":"de.d.top-adverbs","de":"selbst","rom":"zehlpst"}
+{"id":"de.c0733","deck":"de.d.top-adverbs","de":"nun","rom":"noon"}
+{"id":"de.c0734","deck":"de.d.top-adverbs","de":"etwa","rom":"EHT-vah"}
+{"id":"de.c0735","deck":"de.d.top-adverbs","de":"heute","rom":"HOY-tuh"}
+{"id":"de.c0736","deck":"de.d.top-adverbs","de":"sehr","rom":"zayr"}
+{"id":"de.c0737","deck":"de.d.top-adverbs","de":"hier","rom":"heer"}
+{"id":"de.c0738","deck":"de.d.top-adverbs","de":"erst","rom":"ayrst"}
+{"id":"de.c0739","deck":"de.d.top-adverbs","de":"weiter","rom":"VAI-tuh"}
+{"id":"de.c0740","deck":"de.d.top-adverbs","de":"einmal","rom":"AIN-mahl"}
+{"id":"de.c0741","deck":"de.d.top-adverbs","de":"dort","rom":"dawrt"}
+{"id":"de.c0742","deck":"de.d.top-adverbs","de":"zurück","rom":"tsoo-REWK"}
+{"id":"de.c0743","deck":"de.d.top-adverbs","de":"gar","rom":"gahr"}
+{"id":"de.c0744","deck":"de.d.top-adverbs","de":"gestern","rom":"GEHS-tuhn"}
+{"id":"de.c0745","deck":"de.d.top-adverbs","de":"kaum","rom":"kowm"}
+{"id":"de.c0746","deck":"de.d.top-adverbs","de":"gerade","rom":"guh-RAH-duh"}
+{"id":"de.c0747","deck":"de.d.top-adverbs","de":"wohl","rom":"vohl"}
+{"id":"de.c0748","deck":"de.d.top-adverbs","de":"später","rom":"SHPEH-tuh"}
+{"id":"de.c0749","deck":"de.d.top-adverbs","de":"mal","rom":"mahl"}
+{"id":"de.c0750","deck":"de.d.top-adverbs","de":"zusammen","rom":"tsoo-ZAHM-uhn"}
+{"id":"de.c0751","deck":"de.d.top-adverbs","de":"nie","rom":"nee"}
+{"id":"de.c0752","deck":"de.d.top-adverbs","de":"besonders","rom":"buh-ZAWN-duhs"}
+{"id":"de.c0753","deck":"de.d.top-adverbs","de":"allein","rom":"ahl-AIN"}
+{"id":"de.c0754","deck":"de.d.top-adverbs","de":"schließlich","rom":"SHLEES-lihh"}
+{"id":"de.c0755","deck":"de.d.top-adverbs","de":"eher","rom":"AY-uh"}
+{"id":"de.c0756","deck":"de.d.top-adverbs","de":"oft","rom":"awft"}
+{"id":"de.c0757","deck":"de.d.top-adverbs","de":"morgen","rom":"MAWR-guhn"}
+{"id":"de.c0758","deck":"de.d.top-adverbs","de":"gern","rom":"gehrn"}
+{"id":"de.c0759","deck":"de.d.top-adverbs","de":"vielleicht","rom":"fee-LAIHHT"}
+{"id":"de.c0760","deck":"de.d.top-adverbs","de":"natürlich","rom":"nah-TEWR-lihh"}
+{"id":"de.c0761","deck":"de.d.top-adverbs","de":"wirklich","rom":"VIRK-lihh"}
+{"id":"de.c0762","deck":"de.d.top-adverbs","de":"leider","rom":"LAI-duh"}
+{"id":"de.c0763","deck":"de.d.top-adverbs","de":"bald","rom":"bahlt"}
+{"id":"de.c0764","deck":"de.d.top-adverbs","de":"endlich","rom":"EHNT-lihh"}
+{"id":"de.c0765","deck":"de.d.top-adverbs","de":"oben","rom":"OH-buhn"}
+{"id":"de.c0766","deck":"de.d.top-adverbs","de":"unten","rom":"OON-tuhn"}
+{"id":"de.c0767","deck":"de.d.top-adverbs","de":"links","rom":"links"}
+{"id":"de.c0768","deck":"de.d.top-adverbs","de":"rechts","rom":"rehhts"}
+{"id":"de.c0769","deck":"de.d.top-adverbs","de":"draußen","rom":"DROW-suhn"}
+{"id":"de.c0770","deck":"de.d.top-adverbs","de":"drinnen","rom":"DRIN-uhn"}
+{"id":"de.c0771","deck":"de.d.top-adverbs","de":"ziemlich","rom":"TSEEM-lihh"}
+{"id":"de.c0772","deck":"de.d.top-adverbs","de":"eigentlich","rom":"AI-guhnt-lihh"}
+{"id":"de.c0773","deck":"de.d.top-adverbs","de":"vorher","rom":"FOHR-hayr"}
+{"id":"de.c0774","deck":"de.d.top-adverbs","de":"nachher","rom":"NAHKH-hayr"}
+{"id":"de.c0775","deck":"de.d.top-adverbs","de":"zuerst","rom":"tsoo-AYRST"}
+{"id":"de.c0776","deck":"de.d.top-adverbs","de":"genug","rom":"guh-NOOK"}
+{"id":"de.c0777","deck":"de.d.top-adverbs","de":"ungefähr","rom":"OONG-uh-fehr"}
+{"id":"de.c0778","deck":"de.d.top-adverbs","de":"lieber","rom":"LEE-buh"}
+{"id":"de.c0779","deck":"de.d.top-adverbs","de":"irgendwo","rom":"IR-guhnt-voh"}
+{"id":"de.c0780","deck":"de.d.top-adverbs","de":"selten","rom":"ZEHL-tuhn"}
+{"id":"de.c0781","deck":"de.d.top-adverbs","de":"meistens","rom":"MAIS-tuhns"}
+{"id":"de.c0782","deck":"de.d.top-adverbs","de":"hoffentlich","rom":"HAWF-uhnt-lihh"}
+{"id":"de.c0783","deck":"de.d.top-adverbs","de":"übrigens","rom":"EW-brih-guhns"}
+{"id":"de.c0784","deck":"de.d.top-adverbs","de":"plötzlich","rom":"PLURTS-lihh"}
+{"id":"de.c0785","deck":"de.d.top-adverbs","de":"noch nicht","rom":"nawkh nihht"}
+{"id":"de.c0786","deck":"de.d.top-adverbs","de":"nicht mehr","rom":"nihht mayr"}
+{"id":"de.c0787","deck":"de.d.top-adverbs","de":"nach Hause","rom":"nahkh HOW-zuh"}
+{"id":"de.c0788","deck":"de.d.top-adverbs","de":"zu Hause","rom":"tsoo HOW-zuh"}
+{"id":"de.c0789","deck":"de.d.top-adverbs","de":"höchstens","rom":"HURHHS-tuhns"}
+{"id":"de.c0790","deck":"de.d.top-adverbs","de":"mindestens","rom":"MIN-duhs-tuhns"}
+{"id":"de.c0791","deck":"de.d.top-pronouns","de":"sich","rom":"zihh"}
+{"id":"de.c0792","deck":"de.d.top-pronouns","de":"es","rom":"ehs"}
+{"id":"de.c0793","deck":"de.d.top-pronouns","de":"er","rom":"ayr"}
+{"id":"de.c0794","deck":"de.d.top-pronouns","de":"sie","rom":"zee"}
+{"id":"de.c0795","deck":"de.d.top-pronouns","de":"Sie","rom":"zee"}
+{"id":"de.c0796","deck":"de.d.top-pronouns","de":"man","rom":"mahn"}
+{"id":"de.c0797","deck":"de.d.top-pronouns","de":"wir","rom":"veer"}
+{"id":"de.c0798","deck":"de.d.top-pronouns","de":"was","rom":"vahs"}
+{"id":"de.c0799","deck":"de.d.top-pronouns","de":"ihr","rom":"eer"}
+{"id":"de.c0800","deck":"de.d.top-pronouns","de":"ihm","rom":"eem"}
+{"id":"de.c0801","deck":"de.d.top-pronouns","de":"ihn","rom":"een"}
+{"id":"de.c0802","deck":"de.d.top-pronouns","de":"uns","rom":"oons"}
+{"id":"de.c0803","deck":"de.d.top-pronouns","de":"etwas","rom":"EHT-vahs"}
+{"id":"de.c0804","deck":"de.d.top-pronouns","de":"nichts","rom":"nihhts"}
+{"id":"de.c0805","deck":"de.d.top-pronouns","de":"alles","rom":"AHL-uhs"}
+{"id":"de.c0806","deck":"de.d.top-pronouns","de":"ihnen","rom":"EE-nuhn"}
+{"id":"de.c0807","deck":"de.d.top-pronouns","de":"mich","rom":"mihh"}
+{"id":"de.c0808","deck":"de.d.top-pronouns","de":"wer","rom":"vayr"}
+{"id":"de.c0809","deck":"de.d.top-pronouns","de":"mir","rom":"meer"}
+{"id":"de.c0810","deck":"de.d.top-pronouns","de":"du","rom":"doo"}
+{"id":"de.c0811","deck":"de.d.top-pronouns","de":"dich","rom":"dihh"}
+{"id":"de.c0812","deck":"de.d.top-pronouns","de":"dir","rom":"deer"}
+{"id":"de.c0813","deck":"de.d.top-pronouns","de":"euch","rom":"oyhh"}
+{"id":"de.c0814","deck":"de.d.top-pronouns","de":"Ihnen","rom":"EE-nuhn"}
+{"id":"de.c0815","deck":"de.d.top-pronouns","de":"wen","rom":"vayn"}
+{"id":"de.c0816","deck":"de.d.top-pronouns","de":"wem","rom":"vaym"}
+{"id":"de.c0817","deck":"de.d.top-pronouns","de":"welcher","rom":"VEHL-hhuh"}
+{"id":"de.c0818","deck":"de.d.top-pronouns","de":"jemand","rom":"YAY-mahnt"}
+{"id":"de.c0819","deck":"de.d.top-pronouns","de":"niemand","rom":"NEE-mahnt"}
+{"id":"de.c0820","deck":"de.d.top-prepositions","de":"in","rom":"in"}
+{"id":"de.c0821","deck":"de.d.top-prepositions","de":"von","rom":"fawn"}
+{"id":"de.c0822","deck":"de.d.top-prepositions","de":"zu","rom":"tsoo"}
+{"id":"de.c0823","deck":"de.d.top-prepositions","de":"mit","rom":"mit"}
+{"id":"de.c0824","deck":"de.d.top-prepositions","de":"auf","rom":"owf"}
+{"id":"de.c0825","deck":"de.d.top-prepositions","de":"für","rom":"fewr"}
+{"id":"de.c0826","deck":"de.d.top-prepositions","de":"im","rom":"im"}
+{"id":"de.c0827","deck":"de.d.top-prepositions","de":"an","rom":"ahn"}
+{"id":"de.c0828","deck":"de.d.top-prepositions","de":"aus","rom":"ows"}
+{"id":"de.c0829","deck":"de.d.top-prepositions","de":"nach","rom":"nahkh"}
+{"id":"de.c0830","deck":"de.d.top-prepositions","de":"bei","rom":"bai"}
+{"id":"de.c0831","deck":"de.d.top-prepositions","de":"um","rom":"oom"}
+{"id":"de.c0832","deck":"de.d.top-prepositions","de":"am","rom":"ahm"}
+{"id":"de.c0833","deck":"de.d.top-prepositions","de":"über","rom":"EW-buh"}
+{"id":"de.c0834","deck":"de.d.top-prepositions","de":"zum","rom":"tsoom"}
+{"id":"de.c0835","deck":"de.d.top-prepositions","de":"vor","rom":"fohr"}
+{"id":"de.c0836","deck":"de.d.top-prepositions","de":"zur","rom":"tsoor"}
+{"id":"de.c0837","deck":"de.d.top-prepositions","de":"bis","rom":"bis"}
+{"id":"de.c0838","deck":"de.d.top-prepositions","de":"durch","rom":"doorhh"}
+{"id":"de.c0839","deck":"de.d.top-prepositions","de":"gegen","rom":"GAY-guhn"}
+{"id":"de.c0840","deck":"de.d.top-prepositions","de":"vom","rom":"fawm"}
+{"id":"de.c0841","deck":"de.d.top-prepositions","de":"unter","rom":"OON-tuh"}
+{"id":"de.c0842","deck":"de.d.top-prepositions","de":"zwischen","rom":"TSVISH-uhn"}
+{"id":"de.c0843","deck":"de.d.top-prepositions","de":"seit","rom":"zait"}
+{"id":"de.c0844","deck":"de.d.top-prepositions","de":"beim","rom":"baim"}
+{"id":"de.c0845","deck":"de.d.top-prepositions","de":"ab","rom":"ahp"}
+{"id":"de.c0846","deck":"de.d.top-prepositions","de":"ohne","rom":"OH-nuh"}
+{"id":"de.c0847","deck":"de.d.top-prepositions","de":"ins","rom":"ins"}
+{"id":"de.c0848","deck":"de.d.top-prepositions","de":"wegen","rom":"VAY-guhn"}
+{"id":"de.c0849","deck":"de.d.top-prepositions","de":"während","rom":"VEH-ruhnt"}
+{"id":"de.c0850","deck":"de.d.top-prepositions","de":"gegenüber","rom":"gay-guhn-EW-buh"}
+{"id":"de.c0851","deck":"de.d.top-prepositions","de":"statt","rom":"shtaht"}
+{"id":"de.c0852","deck":"de.d.top-prepositions","de":"pro","rom":"proh"}
+{"id":"de.c0853","deck":"de.d.top-prepositions","de":"neben","rom":"NAY-buhn"}
+{"id":"de.c0854","deck":"de.d.top-prepositions","de":"hinter","rom":"HIN-tuh"}
+{"id":"de.c0855","deck":"de.d.top-prepositions","de":"außer","rom":"OW-suh"}
+{"id":"de.c0856","deck":"de.d.top-prepositions","de":"trotz","rom":"trawts"}
+{"id":"de.c0857","deck":"de.d.top-prepositions","de":"entlang","rom":"ehnt-LAHNG"}
+{"id":"de.c0858","deck":"de.d.top-prepositions","de":"innerhalb","rom":"IN-uh-hahlp"}
+{"id":"de.c0859","deck":"de.d.top-conjunctions","de":"als","rom":"ahls"}
+{"id":"de.c0860","deck":"de.d.top-conjunctions","de":"sondern","rom":"ZAWN-duhn"}
+{"id":"de.c0861","deck":"de.d.top-conjunctions","de":"sowie","rom":"zoh-VEE"}
+{"id":"de.c0862","deck":"de.d.top-conjunctions","de":"ob","rom":"awp"}
+{"id":"de.c0863","deck":"de.d.top-conjunctions","de":"zwar","rom":"tsvahr"}
+{"id":"de.c0864","deck":"de.d.top-conjunctions","de":"bevor","rom":"buh-FOHR"}
+{"id":"de.c0865","deck":"de.d.top-conjunctions","de":"falls","rom":"fahls"}
+{"id":"de.c0866","deck":"de.d.top-conjunctions","de":"trotzdem","rom":"TRAWTS-duhm"}
+{"id":"de.c0867","deck":"de.d.top-conjunctions","de":"entweder","rom":"ehnt-VAY-duh"}
+{"id":"de.c0868","deck":"de.d.top-conjunctions","de":"weder","rom":"VAY-duh"}
+{"id":"de.c0869","deck":"de.d.top-conjunctions","de":"außerdem","rom":"OW-suh-duhm"}
+{"id":"de.c0870","deck":"de.d.top-conjunctions","de":"sonst","rom":"zawnst"}
+{"id":"de.c0871","deck":"de.d.top-conjunctions","de":"nämlich","rom":"NEHM-lihh"}
+{"id":"de.c0872","deck":"de.d.top-conjunctions","de":"deswegen","rom":"DEHS-vay-guhn"}
+{"id":"de.c0873","deck":"de.d.top-conjunctions","de":"je … desto","rom":"yay DEHS-toh"}
+{"id":"de.c0874","deck":"de.d.top-conjunctions","de":"als ob","rom":"ahls awp"}
+{"id":"de.c0875","deck":"de.d.top-conjunctions","de":"so dass","rom":"zoh dahs"}
+{"id":"de.c0876","deck":"de.d.top-conjunctions","de":"beziehungsweise","rom":"buh-TSEE-oongs-vai-zuh"}
+{"id":"de.c0877","deck":"de.d.top-interjections","de":"Ach so!","rom":"ahkh zoh"}
+{"id":"de.c0878","deck":"de.d.top-interjections","de":"Na ja.","rom":"nah yah"}
+{"id":"de.c0879","deck":"de.d.top-interjections","de":"Aua!","rom":"OW-ah"}
+{"id":"de.c0880","deck":"de.d.top-interjections","de":"Oh!","rom":"oh"}
+{"id":"de.c0881","deck":"de.d.top-interjections","de":"Ach!","rom":"ahkh"}
+{"id":"de.c0882","deck":"de.d.top-interjections","de":"Hoppla!","rom":"HAWP-lah"}
+{"id":"de.c0883","deck":"de.d.top-interjections","de":"Ups!","rom":"oops"}
+{"id":"de.c0884","deck":"de.d.top-interjections","de":"Super!","rom":"ZOO-puh"}
+{"id":"de.c0885","deck":"de.d.top-interjections","de":"Toll!","rom":"tawl"}
+{"id":"de.c0886","deck":"de.d.top-interjections","de":"Genau!","rom":"guh-NOW"}
+{"id":"de.c0887","deck":"de.d.top-interjections","de":"Schade!","rom":"SHAH-duh"}
+{"id":"de.c0888","deck":"de.d.top-interjections","de":"Na klar!","rom":"nah klahr"}
+{"id":"de.c0889","deck":"de.d.top-interjections","de":"Quatsch!","rom":"kvahch"}
+{"id":"de.c0890","deck":"de.d.top-interjections","de":"Achtung!","rom":"AHKH-toong"}
+{"id":"de.c0891","deck":"de.d.top-interjections","de":"Mist!","rom":"mist"}
+{"id":"de.c0892","deck":"de.d.top-interjections","de":"Echt?","rom":"ehht"}
+{"id":"de.c0893","deck":"de.d.top-interjections","de":"Na und?","rom":"nah oont"}
+{"id":"de.c0894","deck":"de.d.top-interjections","de":"Krass!","rom":"krahs"}
+{"id":"de.c0895","deck":"de.d.top-interjections","de":"Tja.","rom":"tyah"}
+{"id":"de.c0896","deck":"de.d.top-interjections","de":"Hey!","rom":"hai"}
+{"id":"de.c0897","deck":"de.d.top-interjections","de":"Na?","rom":"nah"}
+{"id":"de.c0898","deck":"de.d.top-interjections","de":"Huch!","rom":"hookh"}
+{"id":"de.c0899","deck":"de.d.top-interjections","de":"Wahnsinn!","rom":"VAHN-zin"}
+{"id":"de.c0900","deck":"de.d.top-interjections","de":"Gott sei Dank!","rom":"gawt zai dahnk"}
+{"id":"de.c0901","deck":"de.d.top-interjections","de":"Gesundheit!","rom":"guh-ZOONT-hait"}
+{"id":"de.c0902","deck":"de.d.top-interjections","de":"Mahlzeit!","rom":"MAHL-tsait"}
+{"id":"de.c0903","deck":"de.d.top-interjections","de":"Moment mal!","rom":"moh-MEHNT mahl"}
+{"id":"de.c0904","deck":"de.d.top-interjections","de":"Oh nein!","rom":"oh nain"}
+{"id":"de.c0905","deck":"de.d.top-interjections","de":"Stimmt!","rom":"shtimt"}
+{"id":"de.c0906","deck":"de.d.top-interjections","de":"Alles klar!","rom":"AHL-uhs klahr"}
+{"id":"de.c0907","deck":"de.d.top-interjections","de":"Prima!","rom":"PREE-mah"}
+{"id":"de.c0908","deck":"de.d.top-interjections","de":"Ach was!","rom":"ahkh vahs"}
+{"id":"de.c0909","deck":"de.d.top-interjections","de":"Oh Mann!","rom":"oh mahn"}
+{"id":"de.c0910","deck":"de.d.top-words","de":"der","rom":"dayr"}
+{"id":"de.c0911","deck":"de.d.top-words","de":"die","rom":"dee"}
+{"id":"de.c0912","deck":"de.d.top-words","de":"das","rom":"dahs"}
+{"id":"de.c0913","deck":"de.d.top-words","de":"nicht","rom":"nihht"}
+{"id":"de.c0914","deck":"de.d.top-words","de":"ein","rom":"ain"}
+{"id":"de.c0915","deck":"de.d.top-words","de":"eine","rom":"AI-nuh"}
+{"id":"de.c0916","deck":"de.d.top-words","de":"wie","rom":"vee"}
+{"id":"de.c0917","deck":"de.d.top-words","de":"mehr","rom":"mayr"}
+{"id":"de.c0918","deck":"de.d.top-words","de":"seine","rom":"ZAI-nuh"}
+{"id":"de.c0919","deck":"de.d.top-words","de":"ihre","rom":"EE-ruh"}
+{"id":"de.c0920","deck":"de.d.top-words","de":"zwei","rom":"tsvai"}
+{"id":"de.c0921","deck":"de.d.top-words","de":"dieser","rom":"DEE-zuh"}
+{"id":"de.c0922","deck":"de.d.top-words","de":"kein","rom":"kain"}
+{"id":"de.c0923","deck":"de.d.top-words","de":"alle","rom":"AHL-uh"}
+{"id":"de.c0924","deck":"de.d.top-words","de":"drei","rom":"drai"}
+{"id":"de.c0925","deck":"de.d.top-words","de":"erste","rom":"AYRS-tuh"}
+{"id":"de.c0926","deck":"de.d.top-words","de":"andere","rom":"AHN-duh-ruh"}
+{"id":"de.c0927","deck":"de.d.top-words","de":"beide","rom":"BAI-duh"}
+{"id":"de.c0928","deck":"de.d.top-words","de":"vier","rom":"feer"}
+{"id":"de.c0929","deck":"de.d.top-words","de":"viele","rom":"FEE-luh"}
+{"id":"de.c0930","deck":"de.d.top-words","de":"wo","rom":"voh"}
+{"id":"de.c0931","deck":"de.d.top-words","de":"viel","rom":"feel"}
+{"id":"de.c0932","deck":"de.d.top-words","de":"fünf","rom":"fewnf"}
+{"id":"de.c0933","deck":"de.d.top-words","de":"zehn","rom":"tsayn"}
+{"id":"de.c0934","deck":"de.d.top-words","de":"wenig","rom":"VAY-nihh"}
+{"id":"de.c0935","deck":"de.d.top-words","de":"sechs","rom":"zehks"}
+{"id":"de.c0936","deck":"de.d.top-words","de":"jeder","rom":"YAY-duh"}
+{"id":"de.c0937","deck":"de.d.top-words","de":"einige","rom":"AI-nih-guh"}
+{"id":"de.c0938","deck":"de.d.top-words","de":"nein","rom":"nain"}
+{"id":"de.c0939","deck":"de.d.top-words","de":"wann","rom":"vahn"}
+{"id":"de.c0940","deck":"de.d.top-words","de":"woher","rom":"voh-HAYR"}
+{"id":"de.c0941","deck":"de.d.top-words","de":"wohin","rom":"voh-HIN"}
+{"id":"de.c0942","deck":"de.d.top-words","de":"wie viel","rom":"vee feel"}
+{"id":"de.c0943","deck":"de.d.top-words","de":"wie viele","rom":"vee FEE-luh"}
+{"id":"de.c0944","deck":"de.d.top-words","de":"manche","rom":"MAHN-hhuh"}
+{"id":"de.c0945","deck":"de.d.top-words","de":"ein paar","rom":"ain pahr"}
+{"id":"de.c0946","deck":"de.d.top-words","de":"ein bisschen","rom":"ain BIS-hhuhn"}
+{"id":"de.c0947","deck":"de.d.top-words","de":"mein","rom":"main"}
+{"id":"de.c0948","deck":"de.d.top-words","de":"dein","rom":"dain"}
+{"id":"de.c0949","deck":"de.d.top-words","de":"unser","rom":"OON-zuh"}
+{"id":"de.c0950","deck":"de.d.top-words","de":"euer","rom":"OY-uh"}
+{"id":"de.c0951","deck":"de.d.top-words","de":"Ihr","rom":"eer"}
+{"id":"de.c0952","deck":"de.d.top-words","de":"null","rom":"nool"}
+{"id":"de.c0953","deck":"de.d.top-words","de":"sieben","rom":"ZEE-buhn"}
+{"id":"de.c0954","deck":"de.d.top-words","de":"acht","rom":"ahkht"}
+{"id":"de.c0955","deck":"de.d.top-words","de":"neun","rom":"noyn"}
+{"id":"de.c0956","deck":"de.d.top-words","de":"elf","rom":"ehlf"}
+{"id":"de.c0957","deck":"de.d.top-words","de":"dreizehn","rom":"DRAI-tsayn"}
+{"id":"de.c0958","deck":"de.d.top-words","de":"vierzehn","rom":"FIR-tsayn"}
+{"id":"de.c0959","deck":"de.d.top-words","de":"fünfzehn","rom":"FEWNF-tsayn"}
+{"id":"de.c0960","deck":"de.d.top-words","de":"achtzehn","rom":"AHKHT-tsayn"}
+{"id":"de.c0961","deck":"de.d.top-words","de":"neunzehn","rom":"NOYN-tsayn"}
+{"id":"de.c0962","deck":"de.d.top-words","de":"zwanzig","rom":"TSVAHN-tsihh"}
+{"id":"de.c0963","deck":"de.d.top-words","de":"tausend","rom":"TOW-zuhnt"}
+{"id":"de.c0964","deck":"de.d.top-words","de":"zweite","rom":"TSVAI-tuh"}
+{"id":"de.c0965","deck":"de.d.top-words","de":"dritte","rom":"DRIT-uh"}
+{"id":"de.c0966","deck":"de.d.top-words","de":"halb","rom":"hahlp"}
+{"id":"de.c0967","deck":"de.d.top-words","de":"der Montag","rom":"dayr MOHN-tahk"}
+{"id":"de.c0968","deck":"de.d.top-words","de":"der Dienstag","rom":"dayr DEENS-tahk"}
+{"id":"de.c0969","deck":"de.d.top-words","de":"der Mittwoch","rom":"dayr MIT-vawkh"}
+{"id":"de.c0970","deck":"de.d.top-words","de":"der Donnerstag","rom":"dayr DAWN-uhs-tahk"}
+{"id":"de.c0971","deck":"de.d.top-words","de":"der Freitag","rom":"dayr FRAI-tahk"}
+{"id":"de.c0972","deck":"de.d.top-words","de":"der Samstag","rom":"dayr ZAHMS-tahk"}
+{"id":"de.c0973","deck":"de.d.top-words","de":"der Sonntag","rom":"dayr ZAWN-tahk"}

@@ -1,0 +1,205 @@
+{"id":"ar.s0001","ar":"بَيْت","rom":"bayt"}
+{"id":"ar.s0002","ar":"بِنْت","rom":"bint"}
+{"id":"ar.s0003","ar":"بَاب","rom":"bāb"}
+{"id":"ar.s0004","ar":"هٰذَا كِتَاب","rom":"hādhā kitāb"}
+{"id":"ar.s0005","ar":"هِيَ طَالِبَة","rom":"hiya ṭāliba"}
+{"id":"ar.s0006","ar":"هٰذِهِ سَيَّارَة","rom":"hādhihi sayyāra"}
+{"id":"ar.s0007","ar":"بَيْت كَبِير","rom":"bayt kabīr"}
+{"id":"ar.s0008","ar":"مَدْرَسَة كَبِيرَة","rom":"madrasa kabīra"}
+{"id":"ar.s0009","ar":"عَلَم","rom":"ʿalam"}
+{"id":"ar.s0010","ar":"أَلَم","rom":"alam"}
+{"id":"ar.s0011","ar":"خَال","rom":"khāl"}
+{"id":"ar.s0012","ar":"حَال","rom":"ḥāl"}
+{"id":"ar.s0013","ar":"قَلْب","rom":"qalb"}
+{"id":"ar.s0014","ar":"كَلْب","rom":"kalb"}
+{"id":"ar.s0015","ar":"صَيْف","rom":"ṣayf"}
+{"id":"ar.s0016","ar":"سَيْف","rom":"sayf"}
+{"id":"ar.s0017","ar":"طِين","rom":"ṭīn"}
+{"id":"ar.s0018","ar":"تِين","rom":"tīn"}
+{"id":"ar.s0019","ar":"جَمَل","rom":"jamal"}
+{"id":"ar.s0020","ar":"جَمَال","rom":"jamāl"}
+{"id":"ar.s0021","ar":"وَلَد","rom":"walad"}
+{"id":"ar.s0022","ar":"قَلَم","rom":"qalam"}
+{"id":"ar.s0023","ar":"جَدِيد","rom":"jadīd"}
+{"id":"ar.s0024","ar":"جَمِيلَة","rom":"jamīla"}
+{"id":"ar.s0025","ar":"أَنَا طَالِب","rom":"anā ṭālib"}
+{"id":"ar.s0026","ar":"هُوَ مُدَرِّس","rom":"huwa mudarris"}
+{"id":"ar.s0027","ar":"كِتَاب","rom":"kitāb"}
+{"id":"ar.s0028","ar":"سَيَّارَة","rom":"sayyāra"}
+{"id":"ar.s0029","ar":"مَدْرَسَة","rom":"madrasa"}
+{"id":"ar.s0030","ar":"هٰذِهِ بِنْت","rom":"hādhihi bint"}
+{"id":"ar.s0031","ar":"هُوَ كَبِير","rom":"huwa kabīr"}
+{"id":"ar.s0032","ar":"لَا","rom":"lā"}
+{"id":"ar.s0033","ar":"مَكْتَب","rom":"maktab"}
+{"id":"ar.s0034","ar":"مُدَرِّسَة","rom":"mudarrisa"}
+{"id":"ar.s0035","ar":"دَرَسَ","rom":"darasa"}
+{"id":"ar.s0036","ar":"دَرَّسَ","rom":"darrasa"}
+{"id":"ar.s0037","ar":"يَوْم","rom":"yawm"}
+{"id":"ar.s0038","ar":"هٰذَا مَكْتَب جَدِيد","rom":"hādhā maktab jadīd"}
+{"id":"ar.s0039","ar":"أَنَا طَالِبَة","rom":"anā ṭāliba"}
+{"id":"ar.s0040","ar":"سُؤَال","rom":"suʾāl"}
+{"id":"ar.s0041","ar":"آسِف","rom":"āsif"}
+{"id":"ar.s0042","ar":"عَلَى","rom":"ʿalā"}
+{"id":"ar.s0043","ar":"مُسْتَشْفَى","rom":"mustashfā"}
+{"id":"ar.s0044","ar":"مَدْرَسَة جَدِيدَة","rom":"madrasa jadīda"}
+{"id":"ar.s0045","ar":"شُكْرًا","rom":"shukran"}
+{"id":"ar.s0046","ar":"بَيْت كَبِير جِدًّا","rom":"bayt kabīr jiddan"}
+{"id":"ar.s0047","ar":"الْقَمَر","rom":"al-qamar"}
+{"id":"ar.s0048","ar":"الْكِتَاب","rom":"al-kitāb"}
+{"id":"ar.s0049","ar":"الشَّمْس","rom":"ash-shams"}
+{"id":"ar.s0050","ar":"السَّيَّارَة","rom":"as-sayyāra"}
+{"id":"ar.s0051","ar":"الطَّالِب","rom":"aṭ-ṭālib"}
+{"id":"ar.s0052","ar":"بِالسَّيَّارَة","rom":"bis-sayyāra"}
+{"id":"ar.s0053","ar":"الْبَيْت الْكَبِير","rom":"al-bayt al-kabīr"}
+{"id":"ar.s0054","ar":"الْبَيْت كَبِير","rom":"al-bayt kabīr"}
+{"id":"ar.s0055","ar":"السَّلَامُ عَلَيْكُم","rom":"as-salāmu ʿalaykum"}
+{"id":"ar.s0056","ar":"وَعَلَيْكُم السَّلَام","rom":"waʿalaykum as-salām"}
+{"id":"ar.s0057","ar":"أَهْلًا وَسَهْلًا","rom":"ahlan wasahlan"}
+{"id":"ar.s0058","ar":"صَبَاح الْخَيْر","rom":"ṣabāḥ al-khayr"}
+{"id":"ar.s0059","ar":"مَسَاء النُّور","rom":"masāʾ an-nūr"}
+{"id":"ar.s0060","ar":"كَيْفَ حَالُكِ؟","rom":"kayfa ḥāluki?"}
+{"id":"ar.s0061","ar":"بِخَيْر، الْحَمْدُ لِلّٰه","rom":"bikhayr, al-ḥamdu lillāh"}
+{"id":"ar.s0062","ar":"أَنَا آسِفَة","rom":"anā āsifa"}
+{"id":"ar.s0063","ar":"مَعَ السَّلَامَة","rom":"maʿa as-salāma"}
+{"id":"ar.s0064","ar":"هٰذَا بَيْت","rom":"hādhā bayt"}
+{"id":"ar.s0065","ar":"هٰذَا طَالِب","rom":"hādhā ṭālib"}
+{"id":"ar.s0066","ar":"هٰذِهِ مُدَرِّسَة","rom":"hādhihi mudarrisa"}
+{"id":"ar.s0067","ar":"هٰذَا رَجُل","rom":"hādhā rajul"}
+{"id":"ar.s0068","ar":"هٰذِهِ اِمْرَأَة","rom":"hādhihi imraʾa"}
+{"id":"ar.s0069","ar":"هِيَ جَدِيدَة","rom":"hiya jadīda"}
+{"id":"ar.s0070","ar":"بِنْت صَغِيرَة","rom":"bint ṣaghīra"}
+{"id":"ar.s0071","ar":"أَنَا طَالِب","rom":"anā ṭālib"}
+{"id":"ar.s0072","ar":"أَنَا طَالِبَة","rom":"anā ṭāliba"}
+{"id":"ar.s0073","ar":"أَنْتَ مُدَرِّس","rom":"anta mudarris"}
+{"id":"ar.s0074","ar":"أَنْتِ مُدَرِّسَة","rom":"anti mudarrisa"}
+{"id":"ar.s0075","ar":"هُوَ مُهَنْدِس","rom":"huwa muhandis"}
+{"id":"ar.s0076","ar":"هِيَ مُهَنْدِسَة","rom":"hiya muhandisa"}
+{"id":"ar.s0077","ar":"نَحْنُ مِن شِيكَاغُو","rom":"naḥnu min shīkāghū"}
+{"id":"ar.s0078","ar":"هُم مِن تِكْسَاس","rom":"hum min tiksās"}
+{"id":"ar.s0079","ar":"السَّيَّارَة جَدِيدَة","rom":"as-sayyāra jadīda"}
+{"id":"ar.s0080","ar":"هِيَ مَشْغُولَة","rom":"hiya mashghūla"}
+{"id":"ar.s0081","ar":"هِيَ فِي الْبَيْت","rom":"hiya fī al-bayt"}
+{"id":"ar.s0082","ar":"الْمُدَرِّس فِي الْمَدْرَسَة","rom":"al-mudarris fī al-madrasa"}
+{"id":"ar.s0083","ar":"هَل أَنْتَ طَالِب؟","rom":"hal anta ṭālib?"}
+{"id":"ar.s0084","ar":"غُرْفَة","rom":"ghurfa"}
+{"id":"ar.s0085","ar":"الْغُرْفَة","rom":"al-ghurfa"}
+{"id":"ar.s0086","ar":"سَارَة فِي الْقَاهِرَة","rom":"sāra fī al-qāhira"}
+{"id":"ar.s0087","ar":"الشَّقَّة الْجَدِيدَة","rom":"ash-shaqqa al-jadīda"}
+{"id":"ar.s0088","ar":"الشَّقَّة جَمِيلَة","rom":"ash-shaqqa jamīla"}
+{"id":"ar.s0089","ar":"أُحِبّ الْقَهْوَة","rom":"uḥibb al-qahwa"}
+{"id":"ar.s0090","ar":"الْعَرَبِيَّة جَمِيلَة","rom":"al-ʿarabiyya jamīla"}
+{"id":"ar.s0091","ar":"أَنَا أَمْرِيكِيّ","rom":"anā amrīkī"}
+{"id":"ar.s0092","ar":"أَنَا أَمْرِيكِيَّة","rom":"anā amrīkiyya"}
+{"id":"ar.s0093","ar":"هُوَ مِصْرِيّ","rom":"huwa miṣrī"}
+{"id":"ar.s0094","ar":"هِيَ مَغْرِبِيَّة","rom":"hiya maghribiyya"}
+{"id":"ar.s0095","ar":"أَنَا مِن شِيكَاغُو","rom":"anā min shīkāghū"}
+{"id":"ar.s0096","ar":"مِن أَيْنَ أَنْتِ؟","rom":"min ayna anti?"}
+{"id":"ar.s0097","ar":"أَدْرُس الْعَرَبِيَّة","rom":"adrus al-ʿarabiyya"}
+{"id":"ar.s0098","ar":"هَل الْبَيْت كَبِير؟","rom":"hal al-bayt kabīr?"}
+{"id":"ar.s0099","ar":"أَيْنَ الْمَدْرَسَة؟","rom":"ayna al-madrasa?"}
+{"id":"ar.s0100","ar":"مَن هٰذَا؟","rom":"man hādhā?"}
+{"id":"ar.s0101","ar":"مَتَى الدَّرْس؟","rom":"matā ad-dars?"}
+{"id":"ar.s0102","ar":"مَا اِسْمُكَ؟","rom":"mā ismuka?"}
+{"id":"ar.s0103","ar":"مَاذَا تَعْمَل؟","rom":"mādhā taʿmal?"}
+{"id":"ar.s0104","ar":"وَاحِد، اِثْنَان، ثَلَاثَة","rom":"wāḥid, ithnān, thalātha"}
+{"id":"ar.s0105","ar":"اِثْنَا عَشَر","rom":"ithnā ʿashar"}
+{"id":"ar.s0106","ar":"خَمْسَة وَعِشْرُون","rom":"khamsa waʿishrūn"}
+{"id":"ar.s0107","ar":"عُمْرِي خَمْسَة وَعِشْرُون","rom":"ʿumrī khamsa waʿishrūn"}
+{"id":"ar.s0108","ar":"سَيَّارَة وَاحِدَة","rom":"sayyāra wāḥida"}
+{"id":"ar.s0109","ar":"كِتَاب وَاحِد","rom":"kitāb wāḥid"}
+{"id":"ar.s0110","ar":"الثَّمَن عِشْرُون","rom":"ath-thaman ʿishrūn"}
+{"id":"ar.s0111","ar":"أُرِيد قَهْوَة مِن فَضْلِكَ","rom":"urīd qahwa min faḍlika"}
+{"id":"ar.s0112","ar":"أُرِيد مَاء","rom":"urīd māʾ"}
+{"id":"ar.s0113","ar":"أُرِيد شَايًا","rom":"urīd shāyan"}
+{"id":"ar.s0114","ar":"أُرِيد الشَّاي بِالنَّعْنَاع","rom":"urīd ash-shāy bin-naʿnāʿ"}
+{"id":"ar.s0115","ar":"بِكَم هٰذِهِ؟","rom":"bikam hādhihi?"}
+{"id":"ar.s0116","ar":"عِشْرُون رِيَالًا","rom":"ʿishrūn riyālan"}
+{"id":"ar.s0117","ar":"الْحِسَاب مِن فَضْلِكِ","rom":"al-ḥisāb min faḍliki"}
+{"id":"ar.s0118","ar":"الْقَهْوَة لَذِيذَة","rom":"al-qahwa ladhīdha"}
+{"id":"ar.s0119","ar":"مَدِينَة جَمِيلَة","rom":"madīna jamīla"}
+{"id":"ar.s0120","ar":"الْمَدِينَة الْجَمِيلَة","rom":"al-madīna al-jamīla"}
+{"id":"ar.s0121","ar":"الْبَيْت الْكَبِير جَمِيل","rom":"al-bayt al-kabīr jamīl"}
+{"id":"ar.s0122","ar":"مَرْيَم طَالِبَة جَدِيدَة","rom":"maryam ṭāliba jadīda"}
+{"id":"ar.s0123","ar":"سَيَّارَة صَغِيرَة وَجَمِيلَة","rom":"sayyāra ṣaghīra wajamīla"}
+{"id":"ar.s0124","ar":"كِتَاب الطَّالِب","rom":"kitāb aṭ-ṭālib"}
+{"id":"ar.s0125","ar":"بَاب الْبَيْت","rom":"bāb al-bayt"}
+{"id":"ar.s0126","ar":"جَوَاز السَّفَر","rom":"jawāz as-safar"}
+{"id":"ar.s0127","ar":"مِفْتَاح الْغُرْفَة","rom":"miftāḥ al-ghurfa"}
+{"id":"ar.s0128","ar":"مَحَطَّةْ الْقِطَار","rom":"maḥaṭṭat al-qiṭār"}
+{"id":"ar.s0129","ar":"جَامِعَةْ تُولْسَا","rom":"jāmiʿat tūlsā"}
+{"id":"ar.s0130","ar":"أَيْنَ مَحَطَّةْ الْقِطَار؟","rom":"ayna maḥaṭṭat al-qiṭār?"}
+{"id":"ar.s0131","ar":"سَيَّارَةْ الْمُدَرِّس الْجَدِيدَة","rom":"sayyārat al-mudarris al-jadīda"}
+{"id":"ar.s0132","ar":"بَيْتِي كَبِير","rom":"baytī kabīr"}
+{"id":"ar.s0133","ar":"مَا اِسْمُكِ؟","rom":"mā ismuki?"}
+{"id":"ar.s0134","ar":"بَيْتُهَا جَمِيل","rom":"baytuhā jamīl"}
+{"id":"ar.s0135","ar":"مَدِينَتِي صَغِيرَة","rom":"madīnatī ṣaghīra"}
+{"id":"ar.s0136","ar":"سَيَّارَتُهُ جَدِيدَة","rom":"sayyāratuhu jadīda"}
+{"id":"ar.s0137","ar":"أُمِّي مُدَرِّسَة","rom":"ummī mudarrisa"}
+{"id":"ar.s0138","ar":"هٰذَا صَدِيقِي أَحْمَد","rom":"hādhā ṣadīqī aḥmad"}
+{"id":"ar.s0139","ar":"عِنْدِي سَيَّارَة","rom":"ʿindī sayyāra"}
+{"id":"ar.s0140","ar":"عِنْدَهَا قِطَّة","rom":"ʿindahā qiṭṭa"}
+{"id":"ar.s0141","ar":"عِنْدَنَا بَيْت كَبِير","rom":"ʿindanā bayt kabīr"}
+{"id":"ar.s0142","ar":"عِنْدَهُ سَيَّارَة جَدِيدَة","rom":"ʿindahu sayyāra jadīda"}
+{"id":"ar.s0143","ar":"هَل عِنْدَكَ قَلَم؟","rom":"hal ʿindaka qalam?"}
+{"id":"ar.s0144","ar":"هَل عِنْدَكِ سُؤَال؟","rom":"hal ʿindaki suʾāl?"}
+{"id":"ar.s0145","ar":"لَيْسَ عِنْدِي وَقْت","rom":"laysa ʿindī waqt"}
+{"id":"ar.s0146","ar":"هُنَاكَ غُرْفَة صَغِيرَة","rom":"hunāka ghurfa ṣaghīra"}
+{"id":"ar.s0147","ar":"الْمُدَرِّسُون فِي الْمَدْرَسَة","rom":"al-mudarrisūn fī al-madrasa"}
+{"id":"ar.s0148","ar":"الْمُهَنْدِسُون هُنَا","rom":"al-muhandisūn hunā"}
+{"id":"ar.s0149","ar":"الْمُدَرِّسَات فِي الْمَكْتَب","rom":"al-mudarrisāt fī al-maktab"}
+{"id":"ar.s0150","ar":"الطُّلَّاب فِي الْمَطْعَم","rom":"aṭ-ṭullāb fī al-maṭʿam"}
+{"id":"ar.s0151","ar":"الْفَنَاجِين صَغِيرَة","rom":"al-fanājīn ṣaghīra"}
+{"id":"ar.s0152","ar":"السَّيَّارَات الْجَدِيدَة","rom":"as-sayyārāt al-jadīda"}
+{"id":"ar.s0153","ar":"هٰذِهِ سَيَّارَات جَدِيدَة","rom":"hādhihi sayyārāt jadīda"}
+{"id":"ar.s0154","ar":"أَبِي كَاتِب","rom":"abī kātib"}
+{"id":"ar.s0155","ar":"الْمَكْتَبَة جَمِيلَة","rom":"al-maktaba jamīla"}
+{"id":"ar.s0156","ar":"الدَّرْس سَهْل","rom":"ad-dars sahl"}
+{"id":"ar.s0157","ar":"مُدَرِّسَةْ الْعَرَبِيَّة فِي الْمَدْرَسَة","rom":"mudarrisat al-ʿarabiyya fī al-madrasa"}
+{"id":"ar.s0158","ar":"الْمَطْعَم قَرِيب","rom":"al-maṭʿam qarīb"}
+{"id":"ar.s0159","ar":"الطَّعَام فِي الْمَطْبَخ","rom":"aṭ-ṭaʿām fī al-maṭbakh"}
+{"id":"ar.s0160","ar":"أَدْرُس الْعَرَبِيَّة","rom":"adrus al-ʿarabiyya"}
+{"id":"ar.s0161","ar":"هِيَ تَدْرُس فِي الْجَامِعَة","rom":"hiya tadrus fī al-jāmiʿa"}
+{"id":"ar.s0162","ar":"أَيْنَ تَدْرُسِين؟","rom":"ayna tadrusīn?"}
+{"id":"ar.s0163","ar":"هُم يَدْرُسُون فِي الْجَامِعَة","rom":"hum yadrusūn fī al-jāmiʿa"}
+{"id":"ar.s0164","ar":"نَسْكُن فِي شِيكَاغُو","rom":"naskun fī shīkāghū"}
+{"id":"ar.s0165","ar":"هُوَ يَعْمَل فِي مَطْعَم","rom":"huwa yaʿmal fī maṭʿam"}
+{"id":"ar.s0166","ar":"تَدْرُس سَارَة الْعَرَبِيَّة","rom":"tadrus sāra al-ʿarabiyya"}
+{"id":"ar.s0167","ar":"سَارَة تَدْرُس الْعَرَبِيَّة","rom":"sāra tadrus al-ʿarabiyya"}
+{"id":"ar.s0168","ar":"يَشْرَب أَحْمَد الشَّاي","rom":"yashrab aḥmad ash-shāy"}
+{"id":"ar.s0169","ar":"هَل تَدْرُس سَارَة الْعَرَبِيَّة؟","rom":"hal tadrus sāra al-ʿarabiyya?"}
+{"id":"ar.s0170","ar":"تَسْكُن مَرْيَم فِي عَمَّان","rom":"taskun maryam fī ʿammān"}
+{"id":"ar.s0171","ar":"يُحِبّ عُمَر الْقَهْوَة الْعَرَبِيَّة","rom":"yuḥibb ʿumar al-qahwa al-ʿarabiyya"}
+{"id":"ar.s0172","ar":"يَعْمَل الطُّلَّاب فِي الْمَكْتَبَة","rom":"yaʿmal aṭ-ṭullāb fī al-maktaba"}
+{"id":"ar.s0173","ar":"الطُّلَّاب يَعْمَلُون فِي الْمَكْتَبَة","rom":"aṭ-ṭullāb yaʿmalūn fī al-maktaba"}
+{"id":"ar.s0174","ar":"لَا أَعْرِف","rom":"lā aʿrif"}
+{"id":"ar.s0175","ar":"لَا أَتَكَلَّم الْفَرَنْسِيَّة","rom":"lā atakallam al-faransiyya"}
+{"id":"ar.s0176","ar":"هِيَ لَا تَشْرَب الْقَهْوَة","rom":"hiya lā tashrab al-qahwa"}
+{"id":"ar.s0177","ar":"لَا شُكْرًا","rom":"lā shukran"}
+{"id":"ar.s0178","ar":"هُوَ لَيْسَ هُنَا","rom":"huwa laysa hunā"}
+{"id":"ar.s0179","ar":"الْغُرْفَة لَيْسَت نَظِيفَة","rom":"al-ghurfa laysat naẓīfa"}
+{"id":"ar.s0180","ar":"أَنَا لَسْتُ طَالِبًا","rom":"anā lastu ṭāliban"}
+{"id":"ar.s0181","ar":"أَدْرُس الْعَرَبِيَّة كُلّ يَوْم","rom":"adrus al-ʿarabiyya kull yawm"}
+{"id":"ar.s0182","ar":"أَحْيَانًا أَشْرَب الشَّاي","rom":"aḥyānan ashrab ash-shāy"}
+{"id":"ar.s0183","ar":"هِيَ فِي الْمَكْتَب الْآن","rom":"hiya fī al-maktab al-ān"}
+{"id":"ar.s0184","ar":"أَشْرَب الْقَهْوَة صَبَاحًا","rom":"ashrab al-qahwa ṣabāḥan"}
+{"id":"ar.s0185","ar":"نَدْرُس فِي الْمَسَاء","rom":"nadrus fī al-masāʾ"}
+{"id":"ar.s0186","ar":"الْيَوْم يَوْم السَّبْت","rom":"al-yawm yawm as-sabt"}
+{"id":"ar.s0187","ar":"غَدًا يَوْم الْجُمُعَة","rom":"ghadan yawm al-jumuʿa"}
+{"id":"ar.s0188","ar":"الْبَيْت كَبِير جِدًّا","rom":"al-bayt kabīr jiddan"}
+{"id":"ar.s0189","ar":"أُحِبّ الْقَهْوَة كَثِيرًا","rom":"uḥibb al-qahwa kathīran"}
+{"id":"ar.s0190","ar":"دَرَسْتُ الْعَرَبِيَّة فِي الْجَامِعَة","rom":"darastu al-ʿarabiyya fī al-jāmiʿa"}
+{"id":"ar.s0191","ar":"سَارَة دَرَسَت فِي الْقَاهِرَة","rom":"sāra darasat fī al-qāhira"}
+{"id":"ar.s0192","ar":"ذَهَبْتُ إِلَى السُّوق","rom":"dhahabtu ilā as-sūq"}
+{"id":"ar.s0193","ar":"سَكَنَ أَحْمَد فِي عَمَّان","rom":"sakana aḥmad fī ʿammān"}
+{"id":"ar.s0194","ar":"أَكَلْنَا فِي مَطْعَم لُبْنَانِيّ","rom":"akalnā fī maṭʿam lubnānī"}
+{"id":"ar.s0195","ar":"شَرِبُوا الْقَهْوَة الْعَرَبِيَّة","rom":"sharibū al-qahwa al-ʿarabiyya"}
+{"id":"ar.s0196","ar":"عَمِلَت فِي الْمُسْتَشْفَى الْأُسْبُوع الْمَاضِي","rom":"ʿamilat fī al-mustashfā al-usbūʿ al-māḍī"}
+{"id":"ar.s0197","ar":"لَم أَذْهَب","rom":"lam adhhab"}
+{"id":"ar.s0198","ar":"لَوْ سَمَحْتَ، أَيْنَ الْمَتْحَف؟","rom":"law samaḥta, ayna al-matḥaf?"}
+{"id":"ar.s0199","ar":"الْبَنْك عَلَى الْيَسَار","rom":"al-bank ʿalā al-yasār"}
+{"id":"ar.s0200","ar":"الْفُنْدُق قَرِيب مِن هُنَا","rom":"al-funduq qarīb min hunā"}
+{"id":"ar.s0201","ar":"الْمَحَطَّة بَعِيدَة","rom":"al-maḥaṭṭa baʿīda"}
+{"id":"ar.s0202","ar":"الصَّيْدَلِيَّة هُنَاكَ، عَلَى الْيَمِين","rom":"aṣ-ṣaydaliyya hunāka, ʿalā al-yamīn"}
+{"id":"ar.s0203","ar":"هَل تَتَكَلَّمِين الْإِنْجِلِيزِيَّة؟","rom":"hal tatakallamīn al-injilīziyya?"}
+{"id":"ar.s0204","ar":"لَا أَفْهَم","rom":"lā afham"}
+{"id":"ar.s0205","ar":"مِن فَضْلِكَ أَعِد","rom":"min faḍlika aʿid"}

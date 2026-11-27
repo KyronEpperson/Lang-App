@@ -1,0 +1,392 @@
+{"id":"letters.01","lesson":"letters","t":"mc","o":["بَيْت","بِنْت","بَاب","كِتَاب"]}
+{"id":"letters.02","lesson":"letters","t":"mc","o":["bint","bayt","bāb","kitāb"]}
+{"id":"letters.03","lesson":"letters","t":"mc","o":["ث","ذ","ت","س"]}
+{"id":"letters.04","lesson":"letters","t":"mc","o":["ة","ه","ت","ن"]}
+{"id":"letters.05","lesson":"letters","t":"mc","o":["طَالِبَة","طَالِب","بَيْت","كِتَاب"]}
+{"id":"letters.06","lesson":"letters","t":"order","a":["سَيَّارَة","كَبِيرَة"],"x":["كَبِير"]}
+{"id":"letters.07","lesson":"letters","t":"order","a":["بَيْت","كَبِير"],"x":["كَبِيرَة"]}
+{"id":"letters.08","lesson":"letters","t":"order","a":["مَدْرَسَة","كَبِيرَة"],"x":["كَبِير"]}
+{"id":"letters.09","lesson":"letters","t":"fill","q":"هٰذِهِ __","o":["كِتَاب","بَيْت","بَاب"],"a":["سَيَّارَة","sayyāra"],"xr":["kitāb","bayt","bāb"]}
+{"id":"letters.10","lesson":"letters","t":"fill","q":"هٰذَا __","o":["سَيَّارَة","مَدْرَسَة","طَالِبَة"],"a":["كِتَاب","kitāb"],"xr":["sayyāra","madrasa","ṭāliba"]}
+{"id":"letters.11","lesson":"letters","t":"fill","q":"مَدْرَسَة __","o":["كَبِير","بَيْت","بِنْت"],"a":["كَبِيرَة","kabīra"],"xr":["kabīr","bayt","bint"]}
+{"id":"letters.12","lesson":"letters","t":"type","a":["هٰذَا كِتَاب","hādhā kitāb"],"x":["هٰذِهِ"],"hint":{"ar":"هٰذَا · كِتَاب","sep":" · "},"xr":["hādhihi"]}
+{"id":"letters.13","lesson":"letters","t":"type","a":["هٰذِهِ سَيَّارَة","hādhihi sayyāra"],"x":["هٰذَا"],"hint":{"ar":"هٰذِهِ · سَيَّارَة","sep":" · "},"xr":["hādhā"]}
+{"id":"letters.14","lesson":"letters","t":"type","a":["بَيْت كَبِير","bayt kabīr"],"x":["كَبِيرَة"],"hint":{"ar":"بَيْت · كَبِير","sep":" · "},"xr":["kabīra"]}
+{"id":"sounds.01","lesson":"sounds","t":"mc","o":["قَلْب","كَلْب","قَلَم","كِتَاب"]}
+{"id":"sounds.02","lesson":"sounds","t":"mc","o":["ṣayf","sayf","ḍayf","ṭīn"]}
+{"id":"sounds.03","lesson":"sounds","t":"mc","o":["ح","ه","خ","غ"]}
+{"id":"sounds.04","lesson":"sounds","t":"mc","o":["عَلَم","أَلَم","حَال","خَال"]}
+{"id":"sounds.05","lesson":"sounds","t":"mc","o":["طِين","تِين","صَيْف","قَلْب"]}
+{"id":"sounds.06","lesson":"sounds","t":"order","a":["سَيَّارَة","صَغِيرَة"],"x":["صَغِير"]}
+{"id":"sounds.07","lesson":"sounds","t":"order","a":["هِيَ","طَالِبَة"],"x":["طَالِب","هُوَ"]}
+{"id":"sounds.08","lesson":"sounds","t":"order","a":["قَلَم","صَغِير"],"x":["صَغِيرَة"]}
+{"id":"sounds.09","lesson":"sounds","t":"fill","q":"هٰذَا __","o":["كَلْب","قَلْب","سَيْف"],"a":["قَلَم","qalam"],"xr":["kalb","qalb","sayf"]}
+{"id":"sounds.10","lesson":"sounds","t":"fill","q":"هٰذِهِ __","o":["طَالِب","كَلْب","قَلَم"],"a":["طَالِبَة","ṭāliba"],"xr":["ṭālib","kalb","qalam"]}
+{"id":"sounds.11","lesson":"sounds","t":"fill","q":"كِتَاب __","o":["صَغِيرَة","سَيْف","صَيْف"],"a":["صَغِير","ṣaghīr"],"xr":["ṣaghīra","sayf","ṣayf"]}
+{"id":"sounds.12","lesson":"sounds","t":"type","a":["هِيَ طَالِبَة","hiya ṭāliba"],"x":["طَالِب"],"hint":{"ar":"هِيَ · طَالِبَة"},"xr":["ṭālib"]}
+{"id":"sounds.13","lesson":"sounds","t":"type","a":["سَيَّارَة صَغِيرَة","sayyāra ṣaghīra"],"x":["صَغِير"],"hint":{"ar":"سَيَّارَة · صَغِير","sep":" · "},"xr":["ṣaghīr"]}
+{"id":"sounds.14","lesson":"sounds","t":"type","a":["هٰذَا قَلَم","hādhā qalam"],"x":["هٰذِهِ"],"hint":{"ar":"هٰذَا · قَلَم","sep":" · "},"xr":["hādhihi"]}
+{"id":"vowels.01","lesson":"vowels","t":"mc","o":["بَاب","بِنْت","قَلَم","وَلَد"]}
+{"id":"vowels.02","lesson":"vowels","t":"mc","o":["jamāl","jamal","jamīl","jumal"]}
+{"id":"vowels.03","lesson":"vowels","t":"mc","o":["بُ","بَ","بِ","بُو"]}
+{"id":"vowels.04","lesson":"vowels","t":"mc","o":["كَبِير","كِتَاب","بِنْت","قَلَم"]}
+{"id":"vowels.05","lesson":"vowels","t":"mc","o":["جَمَل","جَمَال","جَمِيل","جَدِيد"]}
+{"id":"vowels.06","lesson":"vowels","t":"order","a":["بِنْت","جَمِيلَة"],"x":["جَمِيل"]}
+{"id":"vowels.07","lesson":"vowels","t":"order","a":["مُدَرِّس","جَدِيد"],"x":["جَدِيدَة"]}
+{"id":"vowels.08","lesson":"vowels","t":"order","a":["هٰذَا","بَاب","كَبِير"],"x":["هٰذِهِ","كَبِيرَة"]}
+{"id":"vowels.09","lesson":"vowels","t":"fill","q":"وَلَد __","o":["صَغِيرَة","جَمِيلَة","كَبِيرَة"],"a":["صَغِير","ṣaghīr"],"xr":["ṣaghīra","jamīla","kabīra"]}
+{"id":"vowels.10","lesson":"vowels","t":"fill","q":"هٰذِهِ __","o":["كِتَاب","بَاب","قَلَم"],"a":["مَدْرَسَة","madrasa"],"xr":["kitāb","bāb","qalam"]}
+{"id":"vowels.11","lesson":"vowels","t":"fill","q":"__ طَالِبَة","o":["هُوَ","هٰذَا","وَلَد"],"a":["هِيَ","hiya"],"xr":["huwa","hādhā","walad"]}
+{"id":"vowels.12","lesson":"vowels","t":"type","a":["بِنْت جَمِيلَة","bint jamīla"],"x":["جَمِيل"],"hint":{"ar":"بِنْت · جَمِيل","sep":" · "},"xr":["jamīl"]}
+{"id":"vowels.13","lesson":"vowels","t":"type","a":["هٰذَا بَاب","hādhā bāb"],"x":["هٰذِهِ"],"hint":{"ar":"هٰذَا · بَاب"},"xr":["hādhihi"]}
+{"id":"vowels.14","lesson":"vowels","t":"type","a":["كِتَاب جَدِيد","kitāb jadīd"],"x":["جَدِيدَة"],"hint":{"ar":"كِتَاب · جَدِيد","sep":" · "},"xr":["jadīda"]}
+{"id":"shapes.01","lesson":"shapes","t":"mc","o":["د","ب","س","ل"]}
+{"id":"shapes.02","lesson":"shapes","t":"mc","o":["م","د","ز","و"]}
+{"id":"shapes.03","lesson":"shapes","t":"mc","o":["ك","ت","ا","ب"]}
+{"id":"shapes.04","lesson":"shapes","t":"mc","o":["ة","ه","س","ت"]}
+{"id":"shapes.05","lesson":"shapes","t":"mc","o":["لَا","بَاب","قَلَم","هُوَ"]}
+{"id":"shapes.06","lesson":"shapes","t":"order","a":["مَدْرَسَة","كَبِيرَة"],"x":["كَبِير"]}
+{"id":"shapes.07","lesson":"shapes","t":"order","a":["سَيَّارَة","جَمِيلَة"],"x":["جَمِيل"]}
+{"id":"shapes.08","lesson":"shapes","t":"order","a":["هُوَ","مُدَرِّس","جَدِيد"],"x":["جَدِيدَة","هِيَ"]}
+{"id":"shapes.09","lesson":"shapes","t":"fill","q":"هٰذَا وَلَد __","o":["صَغِيرَة","جَمِيلَة","لَا"],"a":["صَغِير","ṣaghīr"],"xr":["ṣaghīra","jamīla","lā"]}
+{"id":"shapes.10","lesson":"shapes","t":"fill","q":"هٰذِهِ بِنْت __","o":["جَمِيل","كَبِير","صَغِير"],"a":["جَمِيلَة","jamīla"],"xr":["jamīl","kabīr","ṣaghīr"]}
+{"id":"shapes.11","lesson":"shapes","t":"fill","q":"__ مُدَرِّس","o":["هِيَ","هٰذِهِ","لَا"],"a":["هُوَ","huwa"],"xr":["hiya","hādhihi","lā"]}
+{"id":"shapes.12","lesson":"shapes","t":"type","a":["مَدْرَسَة جَدِيدَة","madrasa jadīda"],"x":["جَدِيد"],"hint":{"ar":"مَدْرَسَة · جَدِيد","sep":" · "},"xr":["jadīd"]}
+{"id":"shapes.13","lesson":"shapes","t":"type","a":["هُوَ مُدَرِّس","huwa mudarris"],"x":["مُدَرِّسَة"],"hint":{"ar":"هُوَ · مُدَرِّس"},"xr":["mudarrisa"]}
+{"id":"shapes.14","lesson":"shapes","t":"type","a":["هٰذِهِ سَيَّارَة كَبِيرَة","hādhihi sayyāra kabīra"],"x":["كَبِير"],"hint":{"ar":"هٰذِهِ · سَيَّارَة · كَبِير"},"xr":["kabīr"]}
+{"id":"sukun-shadda.01","lesson":"sukun-shadda","t":"mc","o":["سَيَّارَة","مَدْرَسَة","كِتَاب","بَيْت"]}
+{"id":"sukun-shadda.02","lesson":"sukun-shadda","t":"mc","o":["maktab","makatab","mukattab","maktāb"]}
+{"id":"sukun-shadda.03","lesson":"sukun-shadda","t":"mc","o":["دَرَّسَ","دَرَسَ","مُدَرِّس","مَدْرَسَة"]}
+{"id":"sukun-shadda.04","lesson":"sukun-shadda","t":"mc","o":[null,null,null,null]}
+{"id":"sukun-shadda.05","lesson":"sukun-shadda","t":"mc","o":["بَيْت","بِنْت","بَاب","كَبِير"]}
+{"id":"sukun-shadda.06","lesson":"sukun-shadda","t":"order","a":["مَكْتَب","كَبِير"],"x":["كَبِيرَة"]}
+{"id":"sukun-shadda.07","lesson":"sukun-shadda","t":"order","a":["سَيَّارَة","جَدِيدَة"],"x":["جَدِيد"]}
+{"id":"sukun-shadda.08","lesson":"sukun-shadda","t":"order","a":["هٰذِهِ","مُدَرِّسَة"],"x":["هٰذَا"]}
+{"id":"sukun-shadda.09","lesson":"sukun-shadda","t":"fill","q":"هُوَ __","o":["مُدَرِّسَة","مَكْتَب","بَيْت"],"a":["مُدَرِّس","mudarris"],"xr":["mudarrisa","maktab","bayt"]}
+{"id":"sukun-shadda.10","lesson":"sukun-shadda","t":"fill","q":"مُدَرِّسَة __","o":["جَدِيد","كَبِير","صَغِير"],"a":["جَدِيدَة","jadīda"],"xr":["jadīd","kabīr","ṣaghīr"]}
+{"id":"sukun-shadda.11","lesson":"sukun-shadda","t":"fill","q":"هٰذَا __ جَمِيل","o":["بِنْت","سَيَّارَة","مَدْرَسَة"],"a":["بَيْت","bayt"],"xr":["bint","sayyāra","madrasa"]}
+{"id":"sukun-shadda.12","lesson":"sukun-shadda","t":"type","a":["مَكْتَب جَدِيد","maktab jadīd"],"x":["جَدِيدَة"],"hint":{"ar":"مَكْتَب · جَدِيد","sep":" · "},"xr":["jadīda"]}
+{"id":"sukun-shadda.13","lesson":"sukun-shadda","t":"type","a":["هِيَ مُدَرِّسَة","hiya mudarrisa"],"x":["مُدَرِّس"],"hint":{"ar":"هِيَ · مُدَرِّسَة"},"xr":["mudarris"]}
+{"id":"sukun-shadda.14","lesson":"sukun-shadda","t":"type","a":["سَيَّارَة جَمِيلَة","sayyāra jamīla"],"x":["جَمِيل"],"hint":{"ar":"سَيَّارَة · جَمِيل","sep":" · "},"xr":["jamīl"]}
+{"id":"hamza.01","lesson":"hamza","t":"mc","o":["عَلَى","عَلِيّ","هِيَ","كَبِيرَة"]}
+{"id":"hamza.02","lesson":"hamza","t":"mc","o":["shukran","shukrā","shukr","shakran"]}
+{"id":"hamza.03","lesson":"hamza","t":"mc","o":["أَنَا","هِيَ","بِنْت","عَلَى"]}
+{"id":"hamza.04","lesson":"hamza","t":"mc","o":[null,null,null,null]}
+{"id":"hamza.05","lesson":"hamza","t":"mc","o":["جِدًّا","جَدِيد","جَدِيدَة","جَمِيل"]}
+{"id":"hamza.06","lesson":"hamza","t":"order","a":["سُؤَال","جَدِيد"],"x":["جَدِيدَة"]}
+{"id":"hamza.07","lesson":"hamza","t":"order","a":["بَيْت","كَبِير","جِدًّا"],"x":["كَبِيرَة"]}
+{"id":"hamza.08","lesson":"hamza","t":"order","a":["سَيَّارَة","جَمِيلَة","جِدًّا"],"x":["جَمِيل"]}
+{"id":"hamza.09","lesson":"hamza","t":"fill","q":"هٰذَا سُؤَال __","o":["جَدِيدَة","كَبِيرَة","جِدًّا"],"a":["جَدِيد","jadīd"],"xr":["jadīda","kabīra","jiddan"]}
+{"id":"hamza.10","lesson":"hamza","t":"fill","q":"هِيَ __","o":["طَالِبَه","طَالِب","كِتَاب"],"a":["طَالِبَة","ṭāliba"],"strict":true,"xr":["ṭālibah","ṭālib","kitāb"]}
+{"id":"hamza.11","lesson":"hamza","t":"fill","q":"__ سُؤَال","o":["هٰذِهِ","هِيَ","أَنَا"],"a":["هٰذَا","hādhā"],"xr":["hādhihi","hiya","anā"]}
+{"id":"hamza.12","lesson":"hamza","t":"type","a":["أَنَا طَالِبَة","anā ṭāliba"],"x":["طَالِب"],"hint":{"ar":"أَنَا · طَالِبَة","sep":" · "},"strict":true,"xr":["ṭālib"]}
+{"id":"hamza.13","lesson":"hamza","t":"type","a":["هٰذَا مُسْتَشْفَى","hādhā mustashfā"],"x":["هٰذِهِ"],"hint":{"ar":"هٰذَا · مُسْتَشْفَى"},"xr":["hādhihi"]}
+{"id":"hamza.14","lesson":"hamza","t":"type","a":["مَدْرَسَة جَدِيدَة","madrasa jadīda"],"x":["جَدِيد"],"hint":{"ar":"مَدْرَسَة · جَدِيد","sep":" · "},"xr":["jadīd"]}
+{"id":"al.01","lesson":"al","t":"mc","o":["السَّيَّارَة","الْبَيْت","الْكِتَاب","الْقَمَر"]}
+{"id":"al.02","lesson":"al","t":"mc","o":["الْبَيْت الْكَبِير","الْبَيْت كَبِير","بَيْت الْكَبِير","الْكَبِير الْبَيْت"]}
+{"id":"al.03","lesson":"al","t":"mc","o":["الْبَيْت كَبِير","الْبَيْت الْكَبِير","بَيْت كَبِير","الْبَيْت هُوَ كَبِير"]}
+{"id":"al.04","lesson":"al","t":"mc","o":["bis-sayyāra","as-sayyāra","sayyāra","was-sayyāra"]}
+{"id":"al.05","lesson":"al","t":"mc","o":["ق","س","ن","د"]}
+{"id":"al.06","lesson":"al","t":"order","a":["الْبَيْت","الْكَبِير"],"x":["كَبِير"]}
+{"id":"al.07","lesson":"al","t":"order","a":["الْبَيْت","كَبِير"],"x":["هُوَ","الْكَبِير"]}
+{"id":"al.08","lesson":"al","t":"order","a":["السَّيَّارَة","الْجَدِيدَة"],"x":["جَدِيدَة","الْجَدِيد"]}
+{"id":"al.09","lesson":"al","t":"fill","q":"الْبَيْت __","o":["كَبِير","الْكَبِيرَة","كَبِيرَة"],"a":["الْكَبِير","al-kabīr"],"xr":["kabīr","al-kabīra","kabīra"]}
+{"id":"al.10","lesson":"al","t":"fill","q":"الْبَيْت __","o":["الْكَبِير","كَبِيرَة","الْكَبِيرَة"],"a":["كَبِير","kabīr"],"xr":["al-kabīr","kabīra","al-kabīra"]}
+{"id":"al.11","lesson":"al","t":"fill","q":"__ الْجَدِيدَة","o":["مَدْرَسَة","الْكِتَاب","الْبَيْت"],"a":["الْمَدْرَسَة","al-madrasa"],"xr":["madrasa","al-kitāb","al-bayt"]}
+{"id":"al.12","lesson":"al","t":"type","a":["الْبَيْت كَبِير","al-bayt kabīr"],"x":["الْكَبِير"],"hint":{"ar":"بَيْت · كَبِير","sep":" · "},"xr":["al-kabīr"]}
+{"id":"al.13","lesson":"al","t":"type","a":["السَّيَّارَة الْجَدِيدَة","as-sayyāra al-jadīda"],"x":["جَدِيدَة"],"hint":{"ar":"سَيَّارَة · جَدِيدَة","sep":" · "},"xr":["jadīda"]}
+{"id":"al.14","lesson":"al","t":"type","a":["الْبِنْت جَمِيلَة","al-bint jamīla"],"x":["الْجَمِيلَة","جَمِيل"],"hint":{"ar":"بِنْت · جَمِيل","sep":" · "},"xr":["al-jamīla","jamīl"]}
+{"id":"greetings.01","lesson":"greetings","t":"mc","o":["عَفْوًا","صَبَاح النُّور","مَسَاء الْخَيْر","وَعَلَيْكُم السَّلَام"]}
+{"id":"greetings.02","lesson":"greetings","t":"mc","o":["كَيْفَ حَالُكِ؟","كَيْفَ حَالُكَ؟","بِخَيْر","مَعَ السَّلَامَة"]}
+{"id":"greetings.03","lesson":"greetings","t":"mc","o":["بِخَيْر، الْحَمْدُ لِلّٰه","صَبَاح النُّور","أَهْلًا وَسَهْلًا","عَفْوًا"]}
+{"id":"greetings.04","lesson":"greetings","t":"mc","o":["صَبَاح النُّور","مَسَاء النُّور","وَعَلَيْكُم السَّلَام","مَعَ السَّلَامَة"]}
+{"id":"greetings.05","lesson":"greetings","t":"mc","o":["كَيْفَ حَالُكَ؟","كَيْفَ حَالُكِ؟","صَبَاح الْخَيْر","شُكْرًا"]}
+{"id":"greetings.06","lesson":"greetings","t":"order","a":["صَبَاح","الْخَيْر"],"x":["الصَّبَاح"]}
+{"id":"greetings.07","lesson":"greetings","t":"order","a":["أَنَا","آسِفَة"],"x":["آسِف"]}
+{"id":"greetings.08","lesson":"greetings","t":"order","a":["كَيْفَ","حَالُكِ"],"x":["حَالُكَ"]}
+{"id":"greetings.09","lesson":"greetings","t":"fill","q":"وَعَلَيْكُم __","o":["سَلَام","السَّلَامَة","الْخَيْر"],"a":["السَّلَام","as-salām"],"xr":["salām","as-salāma","al-khayr"]}
+{"id":"greetings.10","lesson":"greetings","t":"fill","q":"مَعَ __","o":["سَلَامَة","الْخَيْر","النُّور"],"a":["السَّلَامَة","as-salāma"],"xr":["salāma","al-khayr","an-nūr"]}
+{"id":"greetings.11","lesson":"greetings","t":"fill","q":"الْحَمْدُ __","o":["اللّٰه","الْخَيْر","النُّور"],"a":["لِلّٰه","lillāh"],"xr":["allāh","al-khayr","an-nūr"]}
+{"id":"greetings.12","lesson":"greetings","t":"type","a":["مَسَاء الْخَيْر","masāʾ al-khayr"],"x":["الْمَسَاء"],"hint":{"ar":"مَسَاء · الْخَيْر","sep":" · "},"xr":["al-masāʾ"]}
+{"id":"greetings.13","lesson":"greetings","t":"type","a":["أَنَا آسِفَة","آسِفَة","anā āsifa","āsifa"],"x":["آسِف"],"hint":{"ar":"أَنَا · آسِف"},"xr":["āsif"]}
+{"id":"greetings.14","lesson":"greetings","t":"type","a":["صَبَاح النُّور","ṣabāḥ an-nūr"],"x":["الصَّبَاح"],"hint":{"ar":"صَبَاح · النُّور","sep":" · "},"xr":["aṣ-ṣabāḥ"]}
+{"id":"gender.01","lesson":"gender","t":"mc","o":["سَيَّارَة","بَيْت","كِتَاب","قَلَم"]}
+{"id":"gender.02","lesson":"gender","t":"mc","o":["أُمّ","أَب","رَجُل","بَاب"]}
+{"id":"gender.03","lesson":"gender","t":"mc","o":["هٰذِهِ مَدْرَسَة","هٰذَا مَدْرَسَة","هٰذِهِ مُدَرِّس","هٰذَا الْمَدْرَسَة"]}
+{"id":"gender.04","lesson":"gender","t":"mc","o":["مُدَرِّسَة","مُدَرِّس","مَدْرَسَة","مُدَرِّسَه"]}
+{"id":"gender.05","lesson":"gender","t":"mc","o":["هِيَ","هُوَ","هٰذَا","أَنَا"]}
+{"id":"gender.06","lesson":"gender","t":"order","a":["هٰذِهِ","سَيَّارَة","كَبِيرَة"],"x":["هٰذَا","كَبِير"]}
+{"id":"gender.07","lesson":"gender","t":"order","a":["مُدَرِّسَة","جَدِيدَة"],"x":["جَدِيد"]}
+{"id":"gender.08","lesson":"gender","t":"order","a":["الْبِنْت","صَغِيرَة"],"x":["صَغِير","الصَّغِيرَة"]}
+{"id":"gender.09","lesson":"gender","t":"fill","q":"هٰذَا __","o":["اِمْرَأَة","بِنْت","أُمّ"],"a":["رَجُل","rajul"],"xr":["imraʾa","bint","umm"]}
+{"id":"gender.10","lesson":"gender","t":"fill","q":"بِنْت __","o":["صَغِير","كَبِير","جَدِيد"],"a":["صَغِيرَة","ṣaghīra"],"xr":["ṣaghīr","kabīr","jadīd"]}
+{"id":"gender.11","lesson":"gender","t":"fill","q":"هِيَ __","o":["مُدَرِّس","رَجُل","أَب"],"a":["مُدَرِّسَة","mudarrisa"],"xr":["mudarris","rajul","ab"]}
+{"id":"gender.12","lesson":"gender","t":"type","a":["هٰذِهِ اِمْرَأَة","hādhihi imraʾa"],"x":["هٰذَا"],"hint":{"ar":"هٰذِهِ · اِمْرَأَة"},"xr":["hādhā"]}
+{"id":"gender.13","lesson":"gender","t":"type","a":["سَيَّارَة جَدِيدَة","sayyāra jadīda"],"x":["جَدِيد"],"hint":{"ar":"سَيَّارَة · جَدِيد","sep":" · "},"xr":["jadīd"]}
+{"id":"gender.14","lesson":"gender","t":"type","a":["الْمَدْرَسَة جَدِيدَة","al-madrasa jadīda"],"x":["جَدِيد","الْجَدِيدَة"],"hint":{"ar":"مَدْرَسَة · جَدِيد","sep":" · "},"xr":["jadīd","al-jadīda"]}
+{"id":"pronouns.01","lesson":"pronouns","t":"mc","o":["أَنْتِ طَالِبَة","أَنْتَ طَالِبَة","أَنْتَ طَالِب","هِيَ طَالِبَة"]}
+{"id":"pronouns.02","lesson":"pronouns","t":"mc","o":["نَحْنُ","هُم","أَنَا","أَنْتُم"]}
+{"id":"pronouns.03","lesson":"pronouns","t":"mc","o":["هِيَ جَدِيدَة","هُوَ جَدِيد","هُوَ جَدِيدَة","هٰذَا جَدِيد"]}
+{"id":"pronouns.04","lesson":"pronouns","t":"mc","o":["أَنَا مُدَرِّسَة","أَنَا مُدَرِّس","أَنْتِ مُدَرِّسَة","هِيَ مُدَرِّسَة"]}
+{"id":"pronouns.05","lesson":"pronouns","t":"mc","o":["أَنْتَ مُدَرِّس","أَنْتِ مُدَرِّس","أَنْتَ مُدَرِّسَة","أَنَا مُدَرِّس"]}
+{"id":"pronouns.06","lesson":"pronouns","t":"order","a":["أَنْتِ","طَالِبَة"],"x":["أَنْتَ"]}
+{"id":"pronouns.07","lesson":"pronouns","t":"order","a":["أَنْتَ","طَالِب","جَدِيد"],"x":["أَنْتِ","جَدِيدَة"]}
+{"id":"pronouns.08","lesson":"pronouns","t":"order","a":["هِيَ","جَدِيدَة"],"x":["هُوَ","جَدِيد"]}
+{"id":"pronouns.09","lesson":"pronouns","t":"fill","q":"__ مِن شِيكَاغُو","o":["هُم","هُوَ","أَنَا"],"a":["نَحْنُ","naḥnu"],"xr":["hum","huwa","anā"]}
+{"id":"pronouns.10","lesson":"pronouns","t":"fill","q":"__ مِن تِكْسَاس","o":["هُوَ","هِيَ","أَنَا"],"a":["هُم","hum"],"xr":["huwa","hiya","anā"]}
+{"id":"pronouns.11","lesson":"pronouns","t":"fill","q":"__ كَبِير","o":["هِيَ","نَحْنُ","هُم"],"a":["هُوَ","huwa"],"xr":["hiya","naḥnu","hum"]}
+{"id":"pronouns.12","lesson":"pronouns","t":"type","a":["هِيَ طَالِبَة","hiya ṭāliba"],"x":["طَالِب"],"hint":{"ar":"هِيَ · طَالِبَة"},"xr":["ṭālib"]}
+{"id":"pronouns.13","lesson":"pronouns","t":"type","a":["أَنَا مُهَنْدِسَة","anā muhandisa"],"x":["مُهَنْدِس"],"hint":{"ar":"أَنَا · مُهَنْدِسَة"},"xr":["muhandis"]}
+{"id":"pronouns.14","lesson":"pronouns","t":"type","a":["هُوَ مُهَنْدِس","huwa muhandis"],"x":["مُهَنْدِسَة"],"hint":{"ar":"هُوَ · مُهَنْدِس"},"xr":["muhandisa"]}
+{"id":"nominal.01","lesson":"nominal","t":"mc","o":["أَنَا مُدَرِّس","أَنَا هُوَ مُدَرِّس","أَنَا أَكُون مُدَرِّس","أَنَا مُدَرِّسَة"]}
+{"id":"nominal.02","lesson":"nominal","t":"mc","o":["السَّيَّارَة صَغِيرَة","السَّيَّارَة صَغِير","السَّيَّارَة الصَّغِيرَة","السَّيَّارَة هِيَ صَغِيرَة"]}
+{"id":"nominal.03","lesson":"nominal","t":"mc","o":[null,null,null,null]}
+{"id":"nominal.04","lesson":"nominal","t":"mc","o":["الْبَيْت جَمِيل","الْبَيْت الْجَمِيل","بَيْت جَمِيل","الْبَيْت الْجَدِيد"]}
+{"id":"nominal.05","lesson":"nominal","t":"mc","o":["هَل أَنْتِ طَالِبَة؟","هَل أَنْتَ طَالِب؟","هَل أَنْتَ طَالِبَة؟","هَل أَنْتِ هِيَ طَالِبَة؟"]}
+{"id":"nominal.06","lesson":"nominal","t":"order","a":["الْبَيْت","كَبِير"],"x":["هُوَ"]}
+{"id":"nominal.07","lesson":"nominal","t":"order","a":["السَّيَّارَة","جَدِيدَة"],"x":["جَدِيد"]}
+{"id":"nominal.08","lesson":"nominal","t":"order","a":["الْمُدَرِّسَة","فِي","الْمَدْرَسَة"],"x":["الْمُدَرِّس","هِيَ"]}
+{"id":"nominal.09","lesson":"nominal","t":"fill","q":"الْبَيْت __","o":["الصَّغِير","صَغِيرَة","هُوَ"],"a":["صَغِير","ṣaghīr"],"xr":["aṣ-ṣaghīr","ṣaghīra","huwa"]}
+{"id":"nominal.10","lesson":"nominal","t":"fill","q":"السَّيَّارَة __","o":["جَمِيل","الْجَمِيلَة","هِيَ"],"a":["جَمِيلَة","jamīla"],"xr":["jamīl","al-jamīla","hiya"]}
+{"id":"nominal.11","lesson":"nominal","t":"fill","q":"أَنَا __ الْبَيْت","o":["هُوَ","أَكُون","مِن"],"a":["فِي","fī"],"xr":["huwa","akūn","min"]}
+{"id":"nominal.12","lesson":"nominal","t":"type","a":["الْبَيْت جَدِيد","al-bayt jadīd"],"x":["الْجَدِيد"],"xr":["al-jadīd"]}
+{"id":"nominal.13","lesson":"nominal","t":"type","a":["هِيَ مَشْغُولَة","hiya mashghūla"],"x":["مَشْغُول"],"hint":{"ar":"هِيَ","sep":" · "},"xr":["mashghūl"]}
+{"id":"nominal.14","lesson":"nominal","t":"type","a":["أَنَا مُدَرِّسَة","anā mudarrisa"],"x":["مُدَرِّس","هُوَ"],"hint":{"ar":"أَنَا","sep":" · "},"xr":["mudarris","huwa"]}
+{"id":"definite.01","lesson":"definite","t":"mc","o":["هَاتِف","الْهَاتِف","وَاحِد هَاتِف","هٰذَا هَاتِف"]}
+{"id":"definite.02","lesson":"definite","t":"mc","o":["الْغُرْفَة الْكَبِيرَة","الْغُرْفَة كَبِيرَة","غُرْفَة الْكَبِيرَة","الْغُرْفَة الْكَبِير"]}
+{"id":"definite.03","lesson":"definite","t":"mc","o":["أُحِبّ الْقَهْوَة","أُحِبّ قَهْوَة","أَنَا أُحِبّ قَهْوَة","أَنَا الْقَهْوَة"]}
+{"id":"definite.04","lesson":"definite","t":"mc","o":["سَارَة فِي الْقَاهِرَة","السَّارَة فِي الْقَاهِرَة","سَارَة فِي قَاهِرَة","سَارَة هِيَ فِي الْقَاهِرَة"]}
+{"id":"definite.05","lesson":"definite","t":"mc","o":[null,null,null,null]}
+{"id":"definite.06","lesson":"definite","t":"order","a":["الشَّقَّة","الْجَدِيدَة"],"x":["جَدِيدَة"]}
+{"id":"definite.07","lesson":"definite","t":"order","a":["الْغُرْفَة","كَبِيرَة"],"x":["الْكَبِيرَة"]}
+{"id":"definite.08","lesson":"definite","t":"order","a":["أُحِبّ","الْعَرَبِيَّة"],"x":["عَرَبِيَّة"]}
+{"id":"definite.09","lesson":"definite","t":"fill","q":"أُحِبّ __","o":["شَاي","هُوَ","فِي"],"a":["الشَّاي","ash-shāy"],"xr":["shāy","huwa","fī"]}
+{"id":"definite.10","lesson":"definite","t":"fill","q":"الْبَيْت __","o":["جَمِيل","جَمِيلَة","الْجَمِيلَة"],"a":["الْجَمِيل","al-jamīl"],"xr":["jamīl","jamīla","al-jamīla"]}
+{"id":"definite.11","lesson":"definite","t":"fill","q":"__ الْجَدِيد","o":["مِفْتَاح","غُرْفَة","هُوَ"],"a":["الْمِفْتَاح","al-miftāḥ"],"xr":["miftāḥ","ghurfa","huwa"]}
+{"id":"definite.12","lesson":"definite","t":"type","a":["الْغُرْفَة الْكَبِيرَة","al-ghurfa al-kabīra"],"x":["كَبِيرَة"],"xr":["kabīra"]}
+{"id":"definite.13","lesson":"definite","t":"type","a":["الشَّقَّة جَدِيدَة","ash-shaqqa jadīda"],"x":["الْجَدِيدَة"],"xr":["al-jadīda"]}
+{"id":"definite.14","lesson":"definite","t":"type","a":["أُحِبّ الْقَهْوَة","أَنَا أُحِبّ الْقَهْوَة","uḥibb al-qahwa","anā uḥibb al-qahwa"],"x":["قَهْوَة"],"xr":["qahwa"]}
+{"id":"nisba.01","lesson":"nisba","t":"mc","o":["هِيَ مِصْرِيَّة","هِيَ مِصْرِيّ","هِيَ الْمِصْرِيَّة","هِيَ مِصْر"]}
+{"id":"nisba.02","lesson":"nisba","t":"mc","o":["مَغْرِبِيّ","الْمَغْرِب","مَغْرِبِيَّة","الْمَغْرِبِيَّة"]}
+{"id":"nisba.03","lesson":"nisba","t":"mc","o":["أَنَا مِن شِيكَاغُو","أَنَا شِيكَاغُو","أَنَا مِن الشِّيكَاغُو","أَنَا هُوَ مِن شِيكَاغُو"]}
+{"id":"nisba.04","lesson":"nisba","t":"mc","o":["الْإِنْجِلِيزِيَّة","إِنْجِلِيزِيّ","الْإِنْجِلِيزِيّ","إِنْجِلِيزِيَّة"]}
+{"id":"nisba.05","lesson":"nisba","t":"mc","o":["مِن أَيْنَ أَنْتَ؟","مِن أَيْنَ أَنْتِ؟","أَيْنَ أَنْتَ مِن؟","مِن أَيْنَ هُوَ؟"]}
+{"id":"nisba.06","lesson":"nisba","t":"order","a":["هِيَ","لُبْنَانِيَّة"],"x":["لُبْنَانِيّ"]}
+{"id":"nisba.07","lesson":"nisba","t":"order","a":["هُوَ","مَغْرِبِيّ"],"x":["الْمَغْرِبِيّ"]}
+{"id":"nisba.08","lesson":"nisba","t":"order","a":["أَدْرُس","الْعَرَبِيَّة"],"x":["عَرَبِيَّة"]}
+{"id":"nisba.09","lesson":"nisba","t":"fill","q":"أَنَا __","o":["أَمْرِيكِيّ","أَمْرِيكَا","الْأَمْرِيكِيَّة"],"a":["أَمْرِيكِيَّة","amrīkiyya"],"xr":["amrīkī","amrīkā","al-amrīkiyya"]}
+{"id":"nisba.10","lesson":"nisba","t":"fill","q":"هُوَ مِن __","o":["مِصْرِيّ","مِصْرِيَّة","الْمِصْرِيّ"],"a":["مِصْر","miṣr"],"xr":["miṣrī","miṣriyya","al-miṣrī"]}
+{"id":"nisba.11","lesson":"nisba","t":"fill","q":"أَدْرُس __","o":["فَرَنْسِيَّة","فَرَنْسِيّ","الْفَرَنْسِيّ"],"a":["الْفَرَنْسِيَّة","al-faransiyya"],"xr":["faransiyya","faransī","al-faransī"]}
+{"id":"nisba.12","lesson":"nisba","t":"type","a":["هُوَ لُبْنَانِيّ","huwa lubnānī"],"x":["لُبْنَانِيَّة"],"hint":{"ar":"هُوَ","sep":" · "},"xr":["lubnāniyya"]}
+{"id":"nisba.13","lesson":"nisba","t":"type","a":["هِيَ مَغْرِبِيَّة","hiya maghribiyya"],"x":["الْمَغْرِبِيَّة"],"hint":{"ar":"هِيَ","sep":" · "},"xr":["al-maghribiyya"]}
+{"id":"nisba.14","lesson":"nisba","t":"type","a":["أَنَا مِن نِيُويُورْك","anā min niyūyūrk"],"x":["هُوَ"],"xr":["huwa"]}
+{"id":"questions.01","lesson":"questions","t":"mc","o":["أَيْنَ","مَتَى","مَن","كَيْفَ"]}
+{"id":"questions.02","lesson":"questions","t":"mc","o":["مَا هٰذَا؟","مَاذَا هٰذَا؟","مَا هٰذِهِ؟","مَن هٰذَا؟"]}
+{"id":"questions.03","lesson":"questions","t":"mc","o":[null,null,null,null]}
+{"id":"questions.04","lesson":"questions","t":"mc","o":["مَن هِيَ؟","مَا هِيَ؟","مَن هُوَ؟","أَيْنَ هِيَ؟"]}
+{"id":"questions.05","lesson":"questions","t":"mc","o":["مَا اِسْمُكِ؟","مَا اِسْمُكَ؟","مَاذَا اِسْمُكِ؟","مَن اِسْمُكِ؟"]}
+{"id":"questions.06","lesson":"questions","t":"order","a":["أَيْنَ","الْمَدْرَسَة","الْجَدِيدَة"],"x":["جَدِيدَة"]}
+{"id":"questions.07","lesson":"questions","t":"order","a":["هَل","السَّيَّارَة","جَدِيدَة"],"x":["جَدِيد"]}
+{"id":"questions.08","lesson":"questions","t":"order","a":["مَن","الْمُدَرِّسَة"],"x":["الْمُدَرِّس","مَاذَا"]}
+{"id":"questions.09","lesson":"questions","t":"fill","q":"__ الْمَطْعَم؟","o":["مَتَى","مَن","مَاذَا"],"a":["أَيْنَ","ayna"],"xr":["matā","man","mādhā"]}
+{"id":"questions.10","lesson":"questions","t":"fill","q":"__ اِسْمُكَ؟","o":["مَاذَا","مَن","كَيْفَ"],"a":["مَا","mā"],"xr":["mādhā","man","kayfa"]}
+{"id":"questions.11","lesson":"questions","t":"fill","q":"هَل الْغُرْفَة __؟","o":["كَبِير","الْكَبِيرَة","هِيَ"],"a":["كَبِيرَة","kabīra"],"xr":["kabīr","al-kabīra","hiya"]}
+{"id":"questions.12","lesson":"questions","t":"type","a":["أَيْنَ الْبَيْت الْكَبِير؟","أَيْنَ هُوَ الْبَيْت الْكَبِير؟","ayna al-bayt al-kabīr?","ayna huwa al-bayt al-kabīr?"],"x":["كَبِير"],"hint":{"ar":"أَيْنَ · بَيْت · كَبِير"},"xr":["kabīr"]}
+{"id":"questions.13","lesson":"questions","t":"type","a":["هَل هِيَ مِصْرِيَّة؟","هِيَ مِصْرِيَّة؟","hal hiya miṣriyya?","hiya miṣriyya?"],"x":["مِصْرِيّ"],"hint":{"ar":"هَل · هِيَ · مِصْرِيّ"},"xr":["miṣrī"]}
+{"id":"questions.14","lesson":"questions","t":"type","a":["مَتَى الدَّرْس؟","matā ad-dars?"],"x":["مَاذَا"],"hint":{"ar":"مَتَى","sep":" · "},"xr":["mādhā"]}
+{"id":"numbers.01","lesson":"numbers","t":"mc","o":["٢٥","٥٢","٣٥","٢٤"]}
+{"id":"numbers.02","lesson":"numbers","t":"mc","o":["خَمْسَة وَعِشْرُون","عِشْرُون وَخَمْسَة","خَمْسُون","عِشْرُون خَمْسَة"]}
+{"id":"numbers.03","lesson":"numbers","t":"mc","o":[null,null,null,null]}
+{"id":"numbers.04","lesson":"numbers","t":"mc","o":["سَيَّارَة وَاحِدَة","سَيَّارَة وَاحِد","وَاحِد سَيَّارَة","وَاحِدَة سَيَّارَة"]}
+{"id":"numbers.05","lesson":"numbers","t":"mc","o":["٧","٨","٦","٢"]}
+{"id":"numbers.06","lesson":"numbers","t":"order","a":["كِتَاب","وَاحِد"],"x":["وَاحِدَة"]}
+{"id":"numbers.07","lesson":"numbers","t":"order","a":["الثَّمَن","أَرْبَعُون"],"x":["هُوَ"]}
+{"id":"numbers.08","lesson":"numbers","t":"order","a":["خَمْسَة","وَثَلَاثُون"],"x":["ثَلَاثُون"]}
+{"id":"numbers.09","lesson":"numbers","t":"fill","q":"سَيَّارَة __","o":["وَاحِد","اِثْنَان","الْوَاحِدَة"],"a":["وَاحِدَة","wāḥida"],"xr":["wāḥid","ithnān","al-wāḥida"]}
+{"id":"numbers.10","lesson":"numbers","t":"fill","q":"خَمْسَة __","o":["خَمْسُون","وَخَمْسَة","وَعِشْرُون"],"a":["وَخَمْسُون","wakhamsūn"],"xr":["khamsūn","wakhamsa","waʿishrūn"]}
+{"id":"numbers.11","lesson":"numbers","t":"fill","q":"الثَّمَن __","o":["تِسْعَة","التِّسْعُون","تِسْعَة عَشَر"],"a":["تِسْعُون","tisʿūn"],"xr":["tisʿa","at-tisʿūn","tisʿa ʿashar"]}
+{"id":"numbers.12","lesson":"numbers","t":"type","a":["سَيَّارَة وَاحِدَة","sayyāra wāḥida"],"x":["وَاحِد"],"hint":{"ar":"سَيَّارَة","sep":" · "},"xr":["wāḥid"]}
+{"id":"numbers.13","lesson":"numbers","t":"type","a":["الثَّمَن عِشْرُون","ath-thaman ʿishrūn"],"x":["هُوَ"],"xr":["huwa"]}
+{"id":"numbers.14","lesson":"numbers","t":"type","a":["خَمْسَة وَعِشْرُون","khamsa waʿishrūn"],"x":["عِشْرُون"],"hint":{"ar":"خَمْسَة (5) · عِشْرُون (20)"},"xr":["ʿishrūn"]}
+{"id":"ordering.01","lesson":"ordering","t":"mc","o":["الْحِسَاب مِن فَضْلِكِ","الْحِسَاب مِن فَضْلِكَ","بِكَم مِن فَضْلِكِ","أَيْنَ الْحِسَاب؟"]}
+{"id":"ordering.02","lesson":"ordering","t":"mc","o":["بِكَم هٰذَا؟","بِكَم هٰذِهِ؟","أَيْنَ هٰذَا؟","مَتَى هٰذَا؟"]}
+{"id":"ordering.03","lesson":"ordering","t":"mc","o":[null,null,null,null]}
+{"id":"ordering.04","lesson":"ordering","t":"mc","o":["أُرِيد قَهْوَة","أَنَا قَهْوَة","قَهْوَة أَنَا أُرِيد","أُرِيد هِيَ قَهْوَة"]}
+{"id":"ordering.05","lesson":"ordering","t":"mc","o":["الشَّاي لَذِيذ","الشَّاي لَذِيذَة","الشَّاي اللَّذِيذ","الشَّاي هُوَ لَذِيذ"]}
+{"id":"ordering.06","lesson":"ordering","t":"order","a":["الْقَهْوَة","لَذِيذَة"],"x":["لَذِيذ"]}
+{"id":"ordering.07","lesson":"ordering","t":"order","a":["أُرِيد","الْقَهْوَة","الْعَرَبِيَّة"],"x":["عَرَبِيَّة"]}
+{"id":"ordering.08","lesson":"ordering","t":"order","a":["الطَّعَام","لَذِيذ"],"x":["اللَّذِيذ"]}
+{"id":"ordering.09","lesson":"ordering","t":"fill","q":"بِكَم __؟","o":["هٰذَا","هُوَ","مَا"],"a":["هٰذِهِ","hādhihi"],"xr":["hādhā","huwa","mā"]}
+{"id":"ordering.10","lesson":"ordering","t":"fill","q":"__ مِن فَضْلِكِ","o":["بِكَم","أَيْنَ","أَنَا"],"a":["الْحِسَاب","al-ḥisāb"],"xr":["bikam","ayna","anā"]}
+{"id":"ordering.11","lesson":"ordering","t":"fill","q":"الشَّاي __","o":["حَارَّة","الْحَارّ","هُوَ"],"a":["حَارّ","ḥārr"],"xr":["ḥārra","al-ḥārr","huwa"]}
+{"id":"ordering.12","lesson":"ordering","t":"type","a":["أُرِيد قَهْوَة","أَنَا أُرِيد قَهْوَة","أُرِيد فِنْجَان قَهْوَة","urīd qahwa","anā urīd qahwa","urīd finjān qahwa"],"x":["شَاي"],"xr":["shāy"]}
+{"id":"ordering.13","lesson":"ordering","t":"type","a":["الْقَهْوَة لَذِيذَة","al-qahwa ladhīdha"],"x":["لَذِيذ"],"hint":{"ar":"قَهْوَة","sep":" · "},"xr":["ladhīdh"]}
+{"id":"ordering.14","lesson":"ordering","t":"type","a":["بِكَم هٰذِهِ؟","بِكَم هٰذِهِ الْحَقِيبَة؟","bikam hādhihi?","bikam hādhihi al-ḥaqība?"],"x":["هٰذَا"],"hint":{"ar":"بِكَم","sep":" · "},"xr":["hādhā"]}
+{"id":"adjectives.01","lesson":"adjectives","t":"mc","o":["سَيَّارَة جَدِيدَة","جَدِيدَة سَيَّارَة","سَيَّارَة جَدِيد","سَيَّارَة الْجَدِيدَة"]}
+{"id":"adjectives.02","lesson":"adjectives","t":"mc","o":["الْبَيْت الْقَدِيم","الْبَيْت قَدِيم","بَيْت الْقَدِيم","الْقَدِيم الْبَيْت"]}
+{"id":"adjectives.03","lesson":"adjectives","t":"mc","o":[null,null,null,null]}
+{"id":"adjectives.04","lesson":"adjectives","t":"mc","o":["الْغُرْفَة الْكَبِيرَة بَارِدَة","الْغُرْفَة كَبِيرَة بَارِدَة","الْغُرْفَة الْكَبِيرَة الْبَارِدَة","غُرْفَة كَبِيرَة بَارِدَة"]}
+{"id":"adjectives.05","lesson":"adjectives","t":"mc","o":["أَنْتِ طَالِبَة جَدِيدَة","أَنْتَ طَالِب جَدِيد","أَنْتِ طَالِبَة جَدِيد","أَنْتِ الطَّالِبَة جَدِيدَة"]}
+{"id":"adjectives.06","lesson":"adjectives","t":"order","a":["السَّيَّارَة","الصَّغِيرَة"],"x":["صَغِيرَة"]}
+{"id":"adjectives.07","lesson":"adjectives","t":"order","a":["رَجُل","طَوِيل"],"x":["طَوِيلَة"]}
+{"id":"adjectives.08","lesson":"adjectives","t":"order","a":["الْمُدَرِّسَة","الْجَدِيدَة","مِن","مِصْر"],"x":["جَدِيدَة"]}
+{"id":"adjectives.09","lesson":"adjectives","t":"fill","q":"سَيَّارَة __","o":["رَخِيص","الرَّخِيصَة","هِيَ"],"a":["رَخِيصَة","rakhīṣa"],"xr":["rakhīṣ","ar-rakhīṣa","hiya"]}
+{"id":"adjectives.10","lesson":"adjectives","t":"fill","q":"الطَّالِب __","o":["جَدِيد","الْجَدِيدَة","جَدِيدَة"],"a":["الْجَدِيد","al-jadīd"],"xr":["jadīd","al-jadīda","jadīda"]}
+{"id":"adjectives.11","lesson":"adjectives","t":"fill","q":"الْكِتَاب الْجَدِيد __","o":["السَّهْل","سَهْلَة","هُوَ"],"a":["سَهْل","sahl"],"xr":["as-sahl","sahla","huwa"]}
+{"id":"adjectives.12","lesson":"adjectives","t":"type","a":["مَدِينَة جَمِيلَة","madīna jamīla"],"x":["جَمِيل"],"xr":["jamīl"]}
+{"id":"adjectives.13","lesson":"adjectives","t":"type","a":["الْبَيْت الْكَبِير","al-bayt al-kabīr"],"x":["كَبِير"],"hint":{"ar":"بَيْت · كَبِير"},"xr":["kabīr"]}
+{"id":"adjectives.14","lesson":"adjectives","t":"type","a":["السَّيَّارَة الْقَدِيمَة رَخِيصَة","as-sayyāra al-qadīma rakhīṣa"],"x":["الرَّخِيصَة"],"hint":{"ar":"سَيَّارَة","sep":" · "},"xr":["ar-rakhīṣa"]}
+{"id":"idafa.01","lesson":"idafa","t":"mc","o":["كِتَاب الطَّالِب","الْكِتَاب الطَّالِب","الطَّالِب كِتَاب","الْكِتَاب طَالِب"]}
+{"id":"idafa.02","lesson":"idafa","t":"mc","o":["بَاب الْمَدْرَسَة","الْبَاب الْمَدْرَسَة","الْمَدْرَسَة بَاب","بَاب مَدْرَسَة"]}
+{"id":"idafa.03","lesson":"idafa","t":"mc","o":[null,null,null,null]}
+{"id":"idafa.04","lesson":"idafa","t":"mc","o":[null,null,null,null]}
+{"id":"idafa.05","lesson":"idafa","t":"mc","o":["الْمِفْتَاح الْجَدِيد","مِفْتَاح الْجَدِيد","الْمِفْتَاح جَدِيد","جَدِيد الْمِفْتَاح"]}
+{"id":"idafa.06","lesson":"idafa","t":"order","a":["بَاب","الْبَيْت"],"x":["الْبَاب"]}
+{"id":"idafa.07","lesson":"idafa","t":"order","a":["مَحَطَّةْ","الْقِطَار"],"x":["الْمَحَطَّة"]}
+{"id":"idafa.08","lesson":"idafa","t":"order","a":["أَيْنَ","سَيَّارَةْ","الْمُدَرِّس"],"x":["السَّيَّارَة"]}
+{"id":"idafa.09","lesson":"idafa","t":"fill","q":"__ الطَّالِب","o":["الْكِتَاب","الطَّالِب","هٰذَا"],"a":["كِتَاب","kitāb"],"xr":["al-kitāb","aṭ-ṭālib","hādhā"]}
+{"id":"idafa.10","lesson":"idafa","t":"fill","q":"مِفْتَاح __","o":["غُرْفَة","الْبَيْت","الْمِفْتَاح"],"a":["الْغُرْفَة","al-ghurfa"],"xr":["ghurfa","al-bayt","al-miftāḥ"]}
+{"id":"idafa.11","lesson":"idafa","t":"fill","q":"أَيْنَ __ السَّفَر؟","o":["الْجَوَاز","سَفَر","هُوَ"],"a":["جَوَاز","jawāz"],"xr":["al-jawāz","safar","huwa"]}
+{"id":"idafa.12","lesson":"idafa","t":"type","a":["كِتَاب الطَّالِب","كِتَاب الطَّالِبَة","kitāb aṭ-ṭālib","kitāb aṭ-ṭāliba"],"x":["الْكِتَاب"],"hint":{"ar":"كِتَاب · طَالِب"},"xr":["al-kitāb"]}
+{"id":"idafa.13","lesson":"idafa","t":"type","a":["جَامِعَةْ تُولْسَا","jāmiʿat tūlsā"],"x":["الْجَامِعَة"],"xr":["al-jāmiʿa"]}
+{"id":"idafa.14","lesson":"idafa","t":"type","a":["بَاب السَّيَّارَة","bāb as-sayyāra"],"x":["الْبَاب"],"hint":{"ar":"بَاب · سَيَّارَة"},"xr":["al-bāb"]}
+{"id":"possessive.01","lesson":"possessive","t":"mc","o":["بَيْتِي","الْبَيْتِي","بَيْت أَنَا","الْبَيْت أَنَا"]}
+{"id":"possessive.02","lesson":"possessive","t":"mc","o":["سَيَّارَتُهَا جَدِيدَة","سَيَّارَتُهُ جَدِيدَة","سَيَّارَتُهَا جَدِيد","السَّيَّارَة هِيَ جَدِيدَة"]}
+{"id":"possessive.03","lesson":"possessive","t":"mc","o":["اِسْمُكِ","اِسْمُكَ","اِسْمُهَا","اِسْمِي"]}
+{"id":"possessive.04","lesson":"possessive","t":"mc","o":[null,null,null,null]}
+{"id":"possessive.05","lesson":"possessive","t":"mc","o":["مَدِينَتِي جَمِيلَة","مَدِينَتِي جَمِيل","الْمَدِينَتِي جَمِيلَة","مَدِينَتِي الْجَمِيلَة"]}
+{"id":"possessive.06","lesson":"possessive","t":"order","a":["بَيْتِي","كَبِير"],"x":["الْبَيْت","أَنَا"]}
+{"id":"possessive.07","lesson":"possessive","t":"order","a":["عَائِلَتُهَا","كَبِيرَة"],"x":["كَبِير"]}
+{"id":"possessive.08","lesson":"possessive","t":"order","a":["صَدِيقَتِي","مِن","لُبْنَان"],"x":["صَدِيقِي"]}
+{"id":"possessive.09","lesson":"possessive","t":"fill","q":"__ مُدَرِّسَة","o":["الْأُمّ","أُمّ","أُمُّهَا"],"a":["أُمِّي","ummī"],"xr":["al-umm","umm","ummuhā"]}
+{"id":"possessive.10","lesson":"possessive","t":"fill","q":"بَيْتُهُ __","o":["الْجَدِيد","جَدِيدَة","هُوَ"],"a":["جَدِيد","jadīd"],"xr":["al-jadīd","jadīda","huwa"]}
+{"id":"possessive.11","lesson":"possessive","t":"fill","q":"مَدِينَتُنَا __","o":["صَغِير","الصَّغِيرَة","هِيَ"],"a":["صَغِيرَة","ṣaghīra"],"xr":["ṣaghīr","aṣ-ṣaghīra","hiya"]}
+{"id":"possessive.12","lesson":"possessive","t":"type","a":["سَيَّارَتِي جَدِيدَة","sayyāratī jadīda"],"x":["جَدِيد"],"hint":{"ar":"سَيَّارَة · جَدِيد","sep":" · "},"xr":["jadīd"]}
+{"id":"possessive.13","lesson":"possessive","t":"type","a":["بَيْتُهَا جَمِيل","baytuhā jamīl"],"x":["الْبَيْت"],"hint":{"ar":"بَيْت · جَمِيل","sep":" · "},"xr":["al-bayt"]}
+{"id":"possessive.14","lesson":"possessive","t":"type","a":["صَدِيقِي طَوِيل","ṣadīqī ṭawīl"],"x":["طَوِيلَة"],"xr":["ṭawīla"]}
+{"id":"have.01","lesson":"have","t":"mc","o":["عِنْدِي سَيَّارَة","عِنْدَ أَنَا سَيَّارَة","أَنَا سَيَّارَة","عِنْدَهُ سَيَّارَة"]}
+{"id":"have.02","lesson":"have","t":"mc","o":["عِنْدَهَا قِطَّة","عِنْدَهُ قِطَّة","عِنْدِي قِطَّة","هِيَ قِطَّة"]}
+{"id":"have.03","lesson":"have","t":"mc","o":["هَل عِنْدَكِ قَلَم؟","هَل عِنْدَكَ قَلَم؟","هَل عِنْدَهَا قَلَم؟","هَل عِنْدِي قَلَم؟"]}
+{"id":"have.04","lesson":"have","t":"mc","o":["لَيْسَ عِنْدِي وَقْت","لَا عِنْدِي وَقْت","عِنْدِي لَا وَقْت","عِنْدِي لَيْسَ وَقْت"]}
+{"id":"have.05","lesson":"have","t":"mc","o":[null,null,null,null]}
+{"id":"have.06","lesson":"have","t":"order","a":["عِنْدِي","سَيَّارَة","جَدِيدَة"],"x":["جَدِيد"]}
+{"id":"have.07","lesson":"have","t":"order","a":["عِنْدَهُ","بَيْت","كَبِير"],"x":["الْكَبِير","كَبِيرَة"]}
+{"id":"have.08","lesson":"have","t":"order","a":["هَل","عِنْدَكَ","سُؤَال"],"x":["عِنْدَكِ"]}
+{"id":"have.09","lesson":"have","t":"fill","q":"__ سَيَّارَة","o":["عِنْدَهَا","عِنْدِي","عِنْدَنَا"],"a":["عِنْدَهُ","ʿindahu"],"xr":["ʿindahā","ʿindī","ʿindanā"]}
+{"id":"have.10","lesson":"have","t":"fill","q":"لَيْسَ __ وَقْت","o":["عِنْدِي","عِنْدَهُ","عِنْدَهَا"],"a":["عِنْدَنَا","ʿindanā"],"xr":["ʿindī","ʿindahu","ʿindahā"]}
+{"id":"have.11","lesson":"have","t":"fill","q":"عِنْدَهَا شَقَّة __","o":["جَمِيل","الْجَمِيلَة","الْجَمِيل"],"a":["جَمِيلَة","jamīla"],"xr":["jamīl","al-jamīla","al-jamīl"]}
+{"id":"have.12","lesson":"have","t":"type","a":["عِنْدِي غُرْفَة صَغِيرَة","أَنَا عِنْدِي غُرْفَة صَغِيرَة","ʿindī ghurfa ṣaghīra","anā ʿindī ghurfa ṣaghīra"],"x":["صَغِير"],"xr":["ṣaghīr"]}
+{"id":"have.13","lesson":"have","t":"type","a":["عِنْدَهَا سَيَّارَة جَدِيدَة","هِيَ عِنْدَهَا سَيَّارَة جَدِيدَة","ʿindahā sayyāra jadīda","hiya ʿindahā sayyāra jadīda"],"x":["الْجَدِيدَة"],"xr":["al-jadīda"]}
+{"id":"have.14","lesson":"have","t":"type","a":["لَيْسَ عِنْدِي سَيَّارَة","laysa ʿindī sayyāra"],"x":["لَا"],"xr":["lā"]}
+{"id":"plurals.01","lesson":"plurals","t":"mc","o":["مُدَرِّسُون","مُدَرِّسَات","مُدَرِّس","مُدَرِّسَة"]}
+{"id":"plurals.02","lesson":"plurals","t":"mc","o":["سَيَّارَات","سَيَّارُون","سَيَّارَة","السَّيَّارَة"]}
+{"id":"plurals.03","lesson":"plurals","t":"mc","o":["كُتُب","كِتَابُون","كِتَاب","كُتُبُون"]}
+{"id":"plurals.04","lesson":"plurals","t":"mc","o":["السَّيَّارَات جَدِيدَة","السَّيَّارَات جَدِيدُون","السَّيَّارَات الْجَدِيدَة","السَّيَّارَات جَدِيد"]}
+{"id":"plurals.05","lesson":"plurals","t":"mc","o":[null,null,null,null]}
+{"id":"plurals.06","lesson":"plurals","t":"order","a":["السَّيَّارَات","الْجَدِيدَة"],"x":["جَدِيدَة","جَدِيدُون"]}
+{"id":"plurals.07","lesson":"plurals","t":"order","a":["الْكُتُب","كَبِيرَة"],"x":["كَبِيرُون","هِيَ"]}
+{"id":"plurals.08","lesson":"plurals","t":"order","a":["الْمُدَرِّسَات","فِي","الْمَدْرَسَة"],"x":["الْمُدَرِّسُون"]}
+{"id":"plurals.09","lesson":"plurals","t":"fill","q":"هٰذِهِ __ جَدِيدَة","o":["كِتَاب","كِتَابُون","كُتُبُون"],"a":["كُتُب","kutub"],"xr":["kitāb","kitābūn","kutubūn"]}
+{"id":"plurals.10","lesson":"plurals","t":"fill","q":"__ فِي الْمَكْتَب","o":["الْمُدَرِّسُون","مُدَرِّسَات","الْمُدَرِّسَة"],"a":["الْمُدَرِّسَات","al-mudarrisāt"],"xr":["al-mudarrisūn","mudarrisāt","al-mudarrisa"]}
+{"id":"plurals.11","lesson":"plurals","t":"fill","q":"السَّيَّارَات __","o":["رَخِيصُون","رَخِيص","الرَّخِيصَة"],"a":["رَخِيصَة","rakhīṣa"],"xr":["rakhīṣūn","rakhīṣ","ar-rakhīṣa"]}
+{"id":"plurals.12","lesson":"plurals","t":"type","a":["الْكُتُب الْجَدِيدَة","al-kutub al-jadīda"],"x":["جَدِيدَة"],"xr":["jadīda"]}
+{"id":"plurals.13","lesson":"plurals","t":"type","a":["السَّيَّارَات كَبِيرَة","as-sayyārāt kabīra"],"x":["كَبِير","الْكَبِيرَة"],"xr":["kabīr","al-kabīra"]}
+{"id":"plurals.14","lesson":"plurals","t":"type","a":["الْمُدَرِّسَات هُنَا","al-mudarrisāt hunā"],"x":["الْمُدَرِّسُون"],"xr":["al-mudarrisūn"]}
+{"id":"roots.01","lesson":"roots","t":"mc","o":["مَكْتَب","قَلَم","بَيْت","دَرْس"]}
+{"id":"roots.02","lesson":"roots","t":"mc","o":["د ر س","م د ر","ر س ة","م د س"]}
+{"id":"roots.03","lesson":"roots","t":"mc","o":[null,null,null,null]}
+{"id":"roots.04","lesson":"roots","t":"mc","o":["طَالِب","مَكْتَب","كِتَاب","مَدْرَسَة"]}
+{"id":"roots.05","lesson":"roots","t":"mc","o":[null,null,null,null]}
+{"id":"roots.06","lesson":"roots","t":"order","a":["الْمَكْتَبَة","الْكَبِيرَة"],"x":["كَبِيرَة","الْكَبِير"]}
+{"id":"roots.07","lesson":"roots","t":"order","a":["أَبِي","كَاتِب"],"x":["هُوَ","كِتَاب"]}
+{"id":"roots.08","lesson":"roots","t":"order","a":["مَدْرَسَة","جَدِيدَة"],"x":["جَدِيد"]}
+{"id":"roots.09","lesson":"roots","t":"fill","q":"أَبِي __","o":["مَكْتَب","كِتَاب","الْكَاتِب"],"a":["كَاتِب","kātib"],"xr":["maktab","kitāb","al-kātib"]}
+{"id":"roots.10","lesson":"roots","t":"fill","q":"الْمُدَرِّسَة فِي __","o":["الْكِتَاب","الْكَاتِب","الْمَكْتَبَة"],"a":["الْمَكْتَب","al-maktab"],"xr":["al-kitāb","al-kātib","al-maktaba"]}
+{"id":"roots.11","lesson":"roots","t":"fill","q":"هٰذِهِ __ كَبِيرَة","o":["دَرْس","مُدَرِّس","مَكْتَب"],"a":["مَدْرَسَة","madrasa"],"xr":["dars","mudarris","maktab"]}
+{"id":"roots.12","lesson":"roots","t":"type","a":["الْمَكْتَبَة كَبِيرَة","al-maktaba kabīra"],"x":["كَبِير","الْكَبِيرَة"],"xr":["kabīr","al-kabīra"]}
+{"id":"roots.13","lesson":"roots","t":"type","a":["الْمَطْعَم الْجَدِيد","al-maṭʿam al-jadīd"],"x":["جَدِيد"],"xr":["jadīd"]}
+{"id":"roots.14","lesson":"roots","t":"type","a":["الدَّرْس سَهْل","ad-dars sahl"],"x":["السَّهْل"],"xr":["as-sahl"]}
+{"id":"present.01","lesson":"present","t":"mc","o":["هِيَ تَدْرُس","هِيَ يَدْرُس","هِيَ أَدْرُس","هِيَ تَدْرُسِين"]}
+{"id":"present.02","lesson":"present","t":"mc","o":["أَنْتِ تَدْرُسِين","أَنْتِ تَدْرُس","أَنْتِ يَدْرُسُون","أَنْتِ أَدْرُس"]}
+{"id":"present.03","lesson":"present","t":"mc","o":[null,null,null,null]}
+{"id":"present.04","lesson":"present","t":"mc","o":["هُم يَعْمَلُون فِي مَطْعَم","هُم يَعْمَل فِي مَطْعَم","هُم تَعْمَلُون فِي مَطْعَم","هُم نَعْمَل فِي مَطْعَم"]}
+{"id":"present.05","lesson":"present","t":"mc","o":["أَيْنَ تَسْكُن؟","أَيْنَ تَسْكُنِين؟","أَيْنَ يَسْكُن؟","أَيْنَ أَسْكُن؟"]}
+{"id":"present.06","lesson":"present","t":"order","a":["هِيَ","تَشْرَب","الشَّاي"],"x":["يَشْرَب"]}
+{"id":"present.07","lesson":"present","t":"order","a":["أَنْتِ","تَتَكَلَّمِين","الْعَرَبِيَّة"],"x":["تَتَكَلَّم","عَرَبِيَّة"]}
+{"id":"present.08","lesson":"present","t":"order","a":["نَسْكُن","فِي","بَيْت","كَبِير"],"x":["كَبِيرَة"]}
+{"id":"present.09","lesson":"present","t":"fill","q":"هِيَ __ فِي مَكْتَب","o":["يَعْمَل","أَعْمَل","تَعْمَلِين"],"a":["تَعْمَل","taʿmal"],"xr":["yaʿmal","aʿmal","taʿmalīn"]}
+{"id":"present.10","lesson":"present","t":"fill","q":"هُم __ فِي الْجَامِعَة","o":["يَدْرُس","نَدْرُس","تَدْرُسِين"],"a":["يَدْرُسُون","yadrusūn"],"xr":["yadrus","nadrus","tadrusīn"]}
+{"id":"present.11","lesson":"present","t":"fill","q":"__ الْقَهْوَة","o":["يُحِبّ","تُحِبّ","نُحِبّ"],"a":["أُحِبّ","uḥibb"],"xr":["yuḥibb","tuḥibb","nuḥibb"]}
+{"id":"present.12","lesson":"present","t":"type","a":["تَعْمَل فِي شِيكَاغُو","هِيَ تَعْمَل فِي شِيكَاغُو","taʿmal fī shīkāghū","hiya taʿmal fī shīkāghū"],"x":["يَعْمَل"],"xr":["yaʿmal"]}
+{"id":"present.13","lesson":"present","t":"type","a":["أَدْرُس الْعَرَبِيَّة","أَنَا أَدْرُس الْعَرَبِيَّة","adrus al-ʿarabiyya","anā adrus al-ʿarabiyya"],"x":["عَرَبِيَّة"],"xr":["ʿarabiyya"]}
+{"id":"present.14","lesson":"present","t":"type","a":["يَسْكُنُون فِي الْقَاهِرَة","هُم يَسْكُنُون فِي الْقَاهِرَة","yaskunūn fī al-qāhira","hum yaskunūn fī al-qāhira"],"x":["يَسْكُن"],"xr":["yaskun"]}
+{"id":"verb-sentences.01","lesson":"verb-sentences","t":"mc","o":[null,null,null,null]}
+{"id":"verb-sentences.02","lesson":"verb-sentences","t":"mc","o":["تَدْرُس سَارَة الْعَرَبِيَّة","يَدْرُس سَارَة الْعَرَبِيَّة","تَدْرُسِين سَارَة الْعَرَبِيَّة","سَارَة الْعَرَبِيَّة تَدْرُس"]}
+{"id":"verb-sentences.03","lesson":"verb-sentences","t":"mc","o":["هَل تَدْرُس سَارَة الْعَرَبِيَّة؟","هَل يَدْرُس سَارَة الْعَرَبِيَّة؟","تَدْرُس هَل سَارَة الْعَرَبِيَّة؟","هَل تَدْرُس سَارَة عَرَبِيَّة؟"]}
+{"id":"verb-sentences.04","lesson":"verb-sentences","t":"mc","o":["يَعْمَل الطُّلَّاب فِي الْمَكْتَبَة","يَعْمَلُون الطُّلَّاب فِي الْمَكْتَبَة","نَعْمَل الطُّلَّاب فِي الْمَكْتَبَة","أَعْمَل الطُّلَّاب فِي الْمَكْتَبَة"]}
+{"id":"verb-sentences.05","lesson":"verb-sentences","t":"mc","o":["يَشْرَب عُمَر الْقَهْوَة","تَشْرَب عُمَر الْقَهْوَة","عُمَر الْقَهْوَة يَشْرَب","يَشْرَبُون عُمَر الْقَهْوَة"]}
+{"id":"verb-sentences.06","lesson":"verb-sentences","t":"order","a":["تَدْرُس","سَارَة","الْعَرَبِيَّة"],"x":["يَدْرُس"]}
+{"id":"verb-sentences.07","lesson":"verb-sentences","t":"order","a":["فَاطِمَة","تَقْرَأ","الْكِتَاب","الْجَدِيد"],"x":["جَدِيد"]}
+{"id":"verb-sentences.08","lesson":"verb-sentences","t":"order","a":["تَسْكُن","مَرْيَم","فِي","شَقَّة","صَغِيرَة"],"x":["صَغِير"]}
+{"id":"verb-sentences.09","lesson":"verb-sentences","t":"fill","q":"__ سَارَة فِي مَكْتَب","o":["يَعْمَل","تَعْمَلِين","يَعْمَلُون"],"a":["تَعْمَل","taʿmal"],"xr":["yaʿmal","taʿmalīn","yaʿmalūn"]}
+{"id":"verb-sentences.10","lesson":"verb-sentences","t":"fill","q":"تَدْرُس فَاطِمَة __","o":["عَرَبِيَّة","الْعَرَبِيّ","عَرَبِيّ"],"a":["الْعَرَبِيَّة","al-ʿarabiyya"],"xr":["ʿarabiyya","al-ʿarabī","ʿarabī"]}
+{"id":"verb-sentences.11","lesson":"verb-sentences","t":"fill","q":"هَل __ عُمَر فِي الْبَيْت؟","o":["تَعْمَل","أَعْمَل","يَعْمَلُون"],"a":["يَعْمَل","yaʿmal"],"xr":["taʿmal","aʿmal","yaʿmalūn"]}
+{"id":"verb-sentences.12","lesson":"verb-sentences","t":"type","a":["تَدْرُس سَارَة الْعَرَبِيَّة","سَارَة تَدْرُس الْعَرَبِيَّة","tadrus sāra al-ʿarabiyya","sāra tadrus al-ʿarabiyya"],"x":["يَدْرُس"],"xr":["yadrus"]}
+{"id":"verb-sentences.13","lesson":"verb-sentences","t":"type","a":["يُحِبّ عُمَر الْقَهْوَة الْعَرَبِيَّة","عُمَر يُحِبّ الْقَهْوَة الْعَرَبِيَّة","yuḥibb ʿumar al-qahwa al-ʿarabiyya","ʿumar yuḥibb al-qahwa al-ʿarabiyya"],"x":["عَرَبِيَّة"],"xr":["ʿarabiyya"]}
+{"id":"verb-sentences.14","lesson":"verb-sentences","t":"type","a":["تَسْكُن مَرْيَم فِي عَمَّان","مَرْيَم تَسْكُن فِي عَمَّان","taskun maryam fī ʿammān","maryam taskun fī ʿammān"],"x":["يَسْكُن"],"xr":["yaskun"]}
+{"id":"negation.01","lesson":"negation","t":"mc","o":["لَا أَعْرِف","لَيْسَ أَعْرِف","أَنَا لَا","لَا يَعْرِف"]}
+{"id":"negation.02","lesson":"negation","t":"mc","o":["هِيَ لَيْسَت مَشْغُولَة","هِيَ لَا مَشْغُولَة","هِيَ لَيْسَ مَشْغُولَة","هِيَ لَيْسَت مَشْغُول"]}
+{"id":"negation.03","lesson":"negation","t":"mc","o":["لَيْسَ عِنْدِي سَيَّارَة","لَا عِنْدِي سَيَّارَة","عِنْدِي لَا سَيَّارَة","لَسْتُ سَيَّارَة"]}
+{"id":"negation.04","lesson":"negation","t":"mc","o":["هُوَ لَا يَعْمَل هُنَا","هُوَ لَيْسَ يَعْمَل هُنَا","هُوَ لَا تَعْمَل هُنَا","هُوَ يَعْمَل لَا هُنَا"]}
+{"id":"negation.05","lesson":"negation","t":"mc","o":["أَنْتِ لَا تَتَكَلَّمِين الْفَرَنْسِيَّة","أَنْتِ لَا تَتَكَلَّم الْفَرَنْسِيَّة","أَنْتِ لَيْسَت تَتَكَلَّمِين الْفَرَنْسِيَّة","أَنْتِ لَا تَتَكَلَّمِين فَرَنْسِيَّة"]}
+{"id":"negation.06","lesson":"negation","t":"order","a":["الْغُرْفَة","لَيْسَت","كَبِيرَة"],"x":["لَيْسَ","كَبِير"]}
+{"id":"negation.07","lesson":"negation","t":"order","a":["لَا","أَتَكَلَّم","الْفَرَنْسِيَّة"],"x":["لَيْسَ","فَرَنْسِيَّة"]}
+{"id":"negation.08","lesson":"negation","t":"order","a":["هِيَ","لَيْسَت","فِي","الْبَيْت"],"x":["لَيْسَ","بَيْت"]}
+{"id":"negation.09","lesson":"negation","t":"fill","q":"هُوَ __ هُنَا","o":["لَا","لَيْسَت","لَسْتُ"],"a":["لَيْسَ","laysa"],"xr":["lā","laysat","lastu"]}
+{"id":"negation.10","lesson":"negation","t":"fill","q":"__ أَفْهَم","o":["لَيْسَ","لَسْتُ","لَيْسَت"],"a":["لَا","lā"],"xr":["laysa","lastu","laysat"]}
+{"id":"negation.11","lesson":"negation","t":"fill","q":"الْعَرَبِيَّة __ صَعْبَة","o":["لَيْسَ","لَا","لَسْتُ"],"a":["لَيْسَت","laysat"],"xr":["laysa","lā","lastu"]}
+{"id":"negation.12","lesson":"negation","t":"type","a":["لَيْسَ عِنْدِي وَقْت","laysa ʿindī waqt"],"x":["لَا"],"hint":{"ar":"لَيْسَ · عِنْدِي","sep":" · "},"xr":["lā"]}
+{"id":"negation.13","lesson":"negation","t":"type","a":["هِيَ لَيْسَت مَشْغُولَة","لَيْسَت مَشْغُولَة","hiya laysat mashghūla","laysat mashghūla"],"x":["لَيْسَ","مَشْغُول"],"xr":["laysa","mashghūl"]}
+{"id":"negation.14","lesson":"negation","t":"type","a":["السَّيَّارَة لَيْسَت جَدِيدَة","لَيْسَت السَّيَّارَة جَدِيدَة","as-sayyāra laysat jadīda","laysat as-sayyāra jadīda"],"x":["جَدِيد","الْجَدِيدَة"],"xr":["jadīd","al-jadīda"]}
+{"id":"adverbs.01","lesson":"adverbs","t":"mc","o":["كَبِير جِدًّا","جِدًّا كَبِير","كَبِير كُلّ","الْكَبِير جِدًّا"]}
+{"id":"adverbs.02","lesson":"adverbs","t":"mc","o":["غَدًا يَوْم الْجُمُعَة","غَدًا الْيَوْم الْجُمُعَة","أَمْس يَوْم الْجُمُعَة","الْآن يَوْم الْجُمُعَة"]}
+{"id":"adverbs.03","lesson":"adverbs","t":"mc","o":[null,null,null,null]}
+{"id":"adverbs.04","lesson":"adverbs","t":"mc","o":["فِي الْمَسَاء","فِي مَسَاء","مَسَاء الْخَيْر","الْمَسَاء الْيَوْم"]}
+{"id":"adverbs.05","lesson":"adverbs","t":"mc","o":["أَشْرَب الْقَهْوَة كُلّ يَوْم","أَشْرَب الْقَهْوَة كُلّ الْيَوْم","أَشْرَب الْقَهْوَة يَوْم كُلّ","أَشْرَب قَهْوَة الْيَوْم كُلّ"]}
+{"id":"adverbs.06","lesson":"adverbs","t":"order","a":["غَدًا","يَوْم","الِاثْنَيْن"],"x":["الْيَوْم"]}
+{"id":"adverbs.07","lesson":"adverbs","t":"order","a":["الْمَدِينَة","جَمِيلَة","جِدًّا"],"x":["جَمِيل"]}
+{"id":"adverbs.08","lesson":"adverbs","t":"order","a":["أَدْرُس","الْعَرَبِيَّة","كُلّ","يَوْم"],"x":["الْيَوْم","عَرَبِيَّة"]}
+{"id":"adverbs.09","lesson":"adverbs","t":"fill","q":"أَشْرَب الشَّاي __","o":["أَمْس","يَوْم","كُلّ"],"a":["الْآن","al-ān"],"xr":["ams","yawm","kull"]}
+{"id":"adverbs.10","lesson":"adverbs","t":"fill","q":"الْيَوْم يَوْم __","o":["خَمِيس","الْيَوْم","الْجُمُعَة"],"a":["الْخَمِيس","al-khamīs"],"xr":["khamīs","al-yawm","al-jumuʿa"]}
+{"id":"adverbs.11","lesson":"adverbs","t":"fill","q":"أَعْمَل __ يَوْم","o":["جِدًّا","كَثِيرًا","الْآن"],"a":["كُلّ","kull"],"xr":["jiddan","kathīran","al-ān"]}
+{"id":"adverbs.12","lesson":"adverbs","t":"type","a":["نَدْرُس الْعَرَبِيَّة فِي الْمَسَاء","نَحْنُ نَدْرُس الْعَرَبِيَّة فِي الْمَسَاء","فِي الْمَسَاء نَدْرُس الْعَرَبِيَّة","nadrus al-ʿarabiyya fī al-masāʾ","naḥnu nadrus al-ʿarabiyya fī al-masāʾ","fī al-masāʾ nadrus al-ʿarabiyya"],"x":["مَسَاء"],"xr":["masāʾ"]}
+{"id":"adverbs.13","lesson":"adverbs","t":"type","a":["تَعْمَل كُلّ يَوْم","هِيَ تَعْمَل كُلّ يَوْم","كُلّ يَوْم تَعْمَل","taʿmal kull yawm","hiya taʿmal kull yawm","kull yawm taʿmal"],"x":["يَعْمَل","الْيَوْم"],"xr":["yaʿmal","al-yawm"]}
+{"id":"adverbs.14","lesson":"adverbs","t":"type","a":["أَبِي فِي الْمَكْتَب الْآن","الْآن أَبِي فِي الْمَكْتَب","أَبِي الْآن فِي الْمَكْتَب","abī fī al-maktab al-ān","al-ān abī fī al-maktab","abī al-ān fī al-maktab"],"x":["هُوَ"],"xr":["huwa"]}
+{"id":"past.01","lesson":"past","t":"mc","o":["دَرَسْتُ","دَرَسَ","دَرَسَت","أَدْرُس"]}
+{"id":"past.02","lesson":"past","t":"mc","o":["ذَهَبَت إِلَى السُّوق","ذَهَبَ إِلَى السُّوق","ذَهَبْتِ إِلَى السُّوق","تَذْهَب إِلَى السُّوق"]}
+{"id":"past.03","lesson":"past","t":"mc","o":["دَرَسْتِ","دَرَسْتَ","دَرَسَت","دَرَسْتُ"]}
+{"id":"past.04","lesson":"past","t":"mc","o":[null,null,null,null]}
+{"id":"past.05","lesson":"past","t":"mc","o":["أَكَلْنَا فِي مَطْعَم لُبْنَانِيّ","أَكَلُوا فِي مَطْعَم لُبْنَانِيّ","نَأْكُل فِي مَطْعَم لُبْنَانِيّ","أَكَلْنَا فِي مَطْعَم لُبْنَانِيَّة"]}
+{"id":"past.06","lesson":"past","t":"order","a":["دَرَسَت","سَارَة","الْعَرَبِيَّة"],"x":["دَرَسَ"]}
+{"id":"past.07","lesson":"past","t":"order","a":["أَحْمَد","سَكَنَ","فِي","بَيْت","كَبِير"],"x":["سَكَنَت","كَبِيرَة"]}
+{"id":"past.08","lesson":"past","t":"order","a":["ذَهَبْنَا","إِلَى","الْمَطْعَم","الْجَدِيد"],"x":["جَدِيد"]}
+{"id":"past.09","lesson":"past","t":"fill","q":"سَارَة __ فِي الْقَاهِرَة","o":["سَكَنَ","سَكَنُوا","تَسْكُن"],"a":["سَكَنَت","sakanat"],"xr":["sakana","sakanū","taskun"]}
+{"id":"past.10","lesson":"past","t":"fill","q":"__ إِلَى السُّوق أَمْس","o":["ذَهَبَ","ذَهَبُوا","أَذْهَب"],"a":["ذَهَبْتُ","dhahabtu"],"xr":["dhahaba","dhahabū","adhhab"]}
+{"id":"past.11","lesson":"past","t":"fill","q":"هُم __ الْقَهْوَة","o":["شَرِبَ","يَشْرَبُون","شَرِبْنَا"],"a":["شَرِبُوا","sharibū"],"xr":["shariba","yashrabūn","sharibnā"]}
+{"id":"past.12","lesson":"past","t":"type","a":["دَرَسَت سَارَة الْعَرَبِيَّة","سَارَة دَرَسَت الْعَرَبِيَّة","darasat sāra al-ʿarabiyya","sāra darasat al-ʿarabiyya"],"x":["دَرَسَ"],"xr":["darasa"]}
+{"id":"past.13","lesson":"past","t":"type","a":["أَكَلَت فِي الْمَطْعَم الْجَدِيد","هِيَ أَكَلَت فِي الْمَطْعَم الْجَدِيد","akalat fī al-maṭʿam al-jadīd","hiya akalat fī al-maṭʿam al-jadīd"],"x":["أَكَلَ","جَدِيد"],"xr":["akala","jadīd"]}
+{"id":"past.14","lesson":"past","t":"type","a":["سَكَنْتُ فِي شِيكَاغُو","أَنَا سَكَنْتُ فِي شِيكَاغُو","sakantu fī shīkāghū","anā sakantu fī shīkāghū"],"x":["سَكَنَ"],"xr":["sakana"]}
+{"id":"directions.01","lesson":"directions","t":"mc","o":["لَوْ سَمَحْتِ","لَوْ سَمَحْتَ","لَوْ سَمَحْتُ","مَعَ السَّلَامَة"]}
+{"id":"directions.02","lesson":"directions","t":"mc","o":["عَلَى الْيَسَار","عَلَى يَسَار","عَلَى الْيَمِين","الْيَسَار عَلَى"]}
+{"id":"directions.03","lesson":"directions","t":"mc","o":["الْمَحَطَّة بَعِيدَة","الْمَحَطَّة بَعِيد","الْمَحَطَّة الْبَعِيدَة","الْمَحَطَّة هِيَ بَعِيدَة"]}
+{"id":"directions.04","lesson":"directions","t":"mc","o":["أَيْنَ مَحَطَّةْ الْقِطَار؟","أَيْنَ الْمَحَطَّة الْقِطَار؟","أَيْنَ الْقِطَار مَحَطَّة؟","أَيْنَ الْمَحَطَّة قِطَار؟"]}
+{"id":"directions.05","lesson":"directions","t":"mc","o":["هَل تَتَكَلَّمِين الْإِنْجِلِيزِيَّة؟","هَل تَتَكَلَّم الْإِنْجِلِيزِيَّة؟","هَل تَتَكَلَّمِين إِنْجِلِيزِيَّة؟","هَل يَتَكَلَّم الْإِنْجِلِيزِيَّة؟"]}
+{"id":"directions.06","lesson":"directions","t":"order","a":["الْبَنْك","عَلَى","الْيَسَار"],"x":["يَسَار","هُوَ"]}
+{"id":"directions.07","lesson":"directions","t":"order","a":["أَيْنَ","الْفُنْدُق","الْكَبِير"],"x":["كَبِير"]}
+{"id":"directions.08","lesson":"directions","t":"order","a":["الصَّيْدَلِيَّة","قَرِيبَة","مِن","هُنَا"],"x":["قَرِيب"]}
+{"id":"directions.09","lesson":"directions","t":"fill","q":"الصَّيْدَلِيَّة __ عَن هُنَا","o":["بَعِيد","الْبَعِيدَة","قَرِيبَة"],"a":["بَعِيدَة","baʿīda"],"xr":["baʿīd","al-baʿīda","qarība"]}
+{"id":"directions.10","lesson":"directions","t":"fill","q":"أَيْنَ مَحَطَّةْ __؟","o":["قِطَار","الْمَحَطَّة","الْفُنْدُق"],"a":["الْقِطَار","al-qiṭār"],"xr":["qiṭār","al-maḥaṭṭa","al-funduq"]}
+{"id":"directions.11","lesson":"directions","t":"fill","q":"الْفُنْدُق __ مِن الْمَحَطَّة","o":["قَرِيبَة","الْقَرِيب","بَعِيد"],"a":["قَرِيب","qarīb"],"xr":["qarība","al-qarīb","baʿīd"]}
+{"id":"directions.12","lesson":"directions","t":"type","a":["أَيْنَ مَحَطَّةْ الْقِطَار","ayna maḥaṭṭat al-qiṭār"],"x":["الْمَحَطَّة"],"hint":{"ar":"أَيْنَ","sep":" · "},"xr":["al-maḥaṭṭa"]}
+{"id":"directions.13","lesson":"directions","t":"type","a":["الْبَنْك عَلَى الْيَمِين","al-bank ʿalā al-yamīn"],"x":["يَمِين","هُوَ"],"xr":["yamīn","huwa"]}
+{"id":"directions.14","lesson":"directions","t":"type","a":["الْمَحَطَّة قَرِيبَة","al-maḥaṭṭa qarība"],"x":["قَرِيب"],"xr":["qarīb"]}

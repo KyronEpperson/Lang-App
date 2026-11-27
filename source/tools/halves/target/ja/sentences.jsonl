@@ -1,0 +1,224 @@
+{"id":"ja.s0001","ja":"あい","rom":"ai"}
+{"id":"ja.s0002","ja":"いえ","rom":"ie"}
+{"id":"ja.s0003","ja":"すし","rom":"sushi"}
+{"id":"ja.s0004","ja":"ふね","rom":"fune"}
+{"id":"ja.s0005","ja":"やま","rom":"yama"}
+{"id":"ja.s0006","ja":"ねこ","rom":"neko"}
+{"id":"ja.s0007","ja":"くるま","rom":"kuruma"}
+{"id":"ja.s0008","ja":"かぎ","rom":"kagi"}
+{"id":"ja.s0009","ja":"てんぷら","rom":"tenpura"}
+{"id":"ja.s0010","ja":"こんにちは。","rom":"konnichiwa"}
+{"id":"ja.s0011","ja":"これは すしです。","rom":"kore wa sushi desu"}
+{"id":"ja.s0012","ja":"すしを ください。","rom":"sushi o kudasai"}
+{"id":"ja.s0013","ja":"えきへ いきます。","rom":"eki e ikimasu"}
+{"id":"ja.s0014","ja":"でんわ","rom":"denwa"}
+{"id":"ja.s0015","ja":"しゃしん","rom":"shashin"}
+{"id":"ja.s0016","ja":"きょう","rom":"kyō"}
+{"id":"ja.s0017","ja":"きって","rom":"kitte"}
+{"id":"ja.s0018","ja":"がっこう","rom":"gakkō"}
+{"id":"ja.s0019","ja":"おばあさん","rom":"obāsan"}
+{"id":"ja.s0020","ja":"おばさん","rom":"obasan"}
+{"id":"ja.s0021","ja":"せんせい","rom":"sensei"}
+{"id":"ja.s0022","ja":"ほんや","rom":"hon'ya"}
+{"id":"ja.s0023","ja":"しんぶん","rom":"shinbun"}
+{"id":"ja.s0024","ja":"はし","rom":"hashi"}
+{"id":"ja.s0025","ja":"あめ","rom":"ame"}
+{"id":"ja.s0026","ja":"アイス","rom":"aisu"}
+{"id":"ja.s0027","ja":"アメリカ","rom":"amerika"}
+{"id":"ja.s0028","ja":"ホテル","rom":"hoteru"}
+{"id":"ja.s0029","ja":"コーヒー","rom":"kōhī"}
+{"id":"ja.s0030","ja":"ラーメン","rom":"rāmen"}
+{"id":"ja.s0031","ja":"ベッド","rom":"beddo"}
+{"id":"ja.s0032","ja":"パーティー","rom":"pātī"}
+{"id":"ja.s0033","ja":"マクドナルド","rom":"makudonarudo"}
+{"id":"ja.s0034","ja":"わたしは エミリーです。","rom":"watashi wa emirī desu"}
+{"id":"ja.s0035","ja":"コーヒーを ください。","rom":"kōhī o kudasai"}
+{"id":"ja.s0036","ja":"アメリカじんです。","rom":"amerikajin desu"}
+{"id":"ja.s0037","ja":"がくせいです。","rom":"gakusei desu"}
+{"id":"ja.s0038","ja":"たなかさんは かいしゃいんです。","rom":"tanaka-san wa kaishain desu"}
+{"id":"ja.s0039","ja":"たなかさんは がくせいですか。","rom":"tanaka-san wa gakusei desu ka"}
+{"id":"ja.s0040","ja":"いいえ、がくせいじゃないです。","rom":"iie gakusei janai desu"}
+{"id":"ja.s0041","ja":"がくせいじゃありません。","rom":"gakusei ja arimasen"}
+{"id":"ja.s0042","ja":"はじめまして。","rom":"hajimemashite"}
+{"id":"ja.s0043","ja":"よろしく おねがいします。","rom":"yoroshiku onegaishimasu"}
+{"id":"ja.s0044","ja":"これは なんですか。","rom":"kore wa nan desu ka"}
+{"id":"ja.s0045","ja":"それは かさです。","rom":"sore wa kasa desu"}
+{"id":"ja.s0046","ja":"この かばんは いくらですか。","rom":"kono kaban wa ikura desu ka"}
+{"id":"ja.s0047","ja":"あの ひとは だれですか。","rom":"ano hito wa dare desu ka"}
+{"id":"ja.s0048","ja":"トイレは どこですか。","rom":"toire wa doko desu ka"}
+{"id":"ja.s0049","ja":"トイレは あそこです。","rom":"toire wa asoko desu"}
+{"id":"ja.s0050","ja":"これは だれの かさですか。","rom":"kore wa dare no kasa desu ka"}
+{"id":"ja.s0051","ja":"それを ください。","rom":"sore o kudasai"}
+{"id":"ja.s0052","ja":"にじゅうご","rom":"nijūgo"}
+{"id":"ja.s0053","ja":"さんびゃく","rom":"sanbyaku"}
+{"id":"ja.s0054","ja":"いちまん","rom":"ichiman"}
+{"id":"ja.s0055","ja":"これは いくらですか。","rom":"kore wa ikura desu ka"}
+{"id":"ja.s0056","ja":"ひゃくごじゅうえんです。","rom":"hyakugojūen desu"}
+{"id":"ja.s0057","ja":"いま なんじですか。","rom":"ima nanji desu ka"}
+{"id":"ja.s0058","ja":"よじはんです。","rom":"yojihan desu"}
+{"id":"ja.s0059","ja":"しちじに おきます。","rom":"shichiji ni okimasu"}
+{"id":"ja.s0060","ja":"これは わたしの かさです。","rom":"kore wa watashi no kasa desu"}
+{"id":"ja.s0061","ja":"やまだせんせいは にほんごの せんせいです。","rom":"yamada sensei wa nihongo no sensei desu"}
+{"id":"ja.s0062","ja":"とうきょうの だいがくです。","rom":"tōkyō no daigaku desu"}
+{"id":"ja.s0063","ja":"わたしも がくせいです。","rom":"watashi mo gakusei desu"}
+{"id":"ja.s0064","ja":"サラさんも アメリカじんです。","rom":"sara-san mo amerikajin desu"}
+{"id":"ja.s0065","ja":"これも ください。","rom":"kore mo kudasai"}
+{"id":"ja.s0066","ja":"ははは せんせいです。","rom":"haha wa sensei desu"}
+{"id":"ja.s0067","ja":"おかあさんは おげんきですか。","rom":"okāsan wa ogenki desu ka"}
+{"id":"ja.s0068","ja":"すしを たべます。","rom":"sushi o tabemasu"}
+{"id":"ja.s0069","ja":"まいにち べんきょうします。","rom":"mainichi benkyō shimasu"}
+{"id":"ja.s0070","ja":"コーヒーを のみません。","rom":"kōhī o nomimasen"}
+{"id":"ja.s0071","ja":"あした きます。","rom":"ashita kimasu"}
+{"id":"ja.s0072","ja":"ときどき おちゃを のみます。","rom":"tokidoki ocha o nomimasu"}
+{"id":"ja.s0073","ja":"あまり テレビを みません。","rom":"amari terebi o mimasen"}
+{"id":"ja.s0074","ja":"ほんを よみます。","rom":"hon o yomimasu"}
+{"id":"ja.s0075","ja":"えきに いきます。","rom":"eki ni ikimasu"}
+{"id":"ja.s0076","ja":"うちへ かえります。","rom":"uchi e kaerimasu"}
+{"id":"ja.s0077","ja":"さんじに がっこうに いきます。","rom":"sanji ni gakkō ni ikimasu"}
+{"id":"ja.s0078","ja":"レストランで たべます。","rom":"resutoran de tabemasu"}
+{"id":"ja.s0079","ja":"うちで ほんを よみます。","rom":"uchi de hon o yomimasu"}
+{"id":"ja.s0080","ja":"バスで いきます。","rom":"basu de ikimasu"}
+{"id":"ja.s0081","ja":"にほんごで はなします。","rom":"nihongo de hanashimasu"}
+{"id":"ja.s0082","ja":"でんしゃで しんじゅくに いきます。","rom":"densha de shinjuku ni ikimasu"}
+{"id":"ja.s0083","ja":"ペンが ありますか。","rom":"pen ga arimasu ka"}
+{"id":"ja.s0084","ja":"いぬが います。","rom":"inu ga imasu"}
+{"id":"ja.s0085","ja":"こうえんに いぬが います。","rom":"kōen ni inu ga imasu"}
+{"id":"ja.s0086","ja":"えきの まえに コンビニが あります。","rom":"eki no mae ni konbini ga arimasu"}
+{"id":"ja.s0087","ja":"さいふは かばんの なかに あります。","rom":"saifu wa kaban no naka ni arimasu"}
+{"id":"ja.s0088","ja":"たなかさんは どこに いますか。","rom":"tanaka-san wa doko ni imasu ka"}
+{"id":"ja.s0089","ja":"ほんは つくえの うえに あります。","rom":"hon wa tsukue no ue ni arimasu"}
+{"id":"ja.s0090","ja":"ねこは いすの したに います。","rom":"neko wa isu no shita ni imasu"}
+{"id":"ja.s0091","ja":"きのう すしを たべました。","rom":"kinō sushi o tabemashita"}
+{"id":"ja.s0092","ja":"けさ コーヒーを のみませんでした。","rom":"kesa kōhī o nomimasen deshita"}
+{"id":"ja.s0093","ja":"きのうは やすみでした。","rom":"kinō wa yasumi deshita"}
+{"id":"ja.s0094","ja":"きのうは にちようびじゃなかったです。","rom":"kinō wa nichiyōbi janakatta desu"}
+{"id":"ja.s0095","ja":"どようびに ともだちと えいがを みました。","rom":"doyōbi ni tomodachi to eiga o mimashita"}
+{"id":"ja.s0096","ja":"きょねん とうきょうに いきました。","rom":"kyonen tōkyō ni ikimashita"}
+{"id":"ja.s0097","ja":"せんしゅう きょうとに いきましたか。","rom":"senshū kyōto ni ikimashita ka"}
+{"id":"ja.s0098","ja":"いいえ、いきませんでした。","rom":"iie ikimasen deshita"}
+{"id":"ja.s0099","ja":"いっしょに ひるごはんを たべませんか。","rom":"issho ni hirugohan o tabemasen ka"}
+{"id":"ja.s0100","ja":"どようびに えいがを みませんか。","rom":"doyōbi ni eiga o mimasen ka"}
+{"id":"ja.s0101","ja":"さんじに えきで あいましょう。","rom":"sanji ni eki de aimashō"}
+{"id":"ja.s0102","ja":"なにを たべましょうか。","rom":"nani o tabemashō ka"}
+{"id":"ja.s0103","ja":"てつだいましょうか。","rom":"tetsudaimashō ka"}
+{"id":"ja.s0104","ja":"いいですね。いきましょう。","rom":"ii desu ne ikimashō"}
+{"id":"ja.s0105","ja":"すみません、どようびは ちょっと…。","rom":"sumimasen doyōbi wa chotto"}
+{"id":"ja.s0106","ja":"はい、たべません。","rom":"hai tabemasen"}
+{"id":"ja.s0107","ja":"一、二、三。","rom":"ichi ni san"}
+{"id":"ja.s0108","ja":"月曜日に がっこうに いきます。","rom":"getsuyōbi ni gakkō ni ikimasu"}
+{"id":"ja.s0109","ja":"金曜日は やすみです。","rom":"kin'yōbi wa yasumi desu"}
+{"id":"ja.s0110","ja":"六時に おきます。","rom":"rokuji ni okimasu"}
+{"id":"ja.s0111","ja":"たなかさんは 日本人です。","rom":"tanaka-san wa nihonjin desu"}
+{"id":"ja.s0112","ja":"あの 女の人は せんせいです。","rom":"ano onna no hito wa sensei desu"}
+{"id":"ja.s0113","ja":"日本に 一年 いました。","rom":"nihon ni ichinen imashita"}
+{"id":"ja.s0114","ja":"これは たかい ほんです。","rom":"kore wa takai hon desu"}
+{"id":"ja.s0115","ja":"きれいな へやですね。","rom":"kirei na heya desu ne"}
+{"id":"ja.s0116","ja":"この ラーメンは たかくないです。","rom":"kono rāmen wa takakunai desu"}
+{"id":"ja.s0117","ja":"テストは むずかしかったです。","rom":"tesuto wa muzukashikatta desu"}
+{"id":"ja.s0118","ja":"この へやは しずかじゃないです。","rom":"kono heya wa shizuka janai desu"}
+{"id":"ja.s0119","ja":"こうえんは きれいでした。","rom":"kōen wa kirei deshita"}
+{"id":"ja.s0120","ja":"きのうは てんきが よかったです。","rom":"kinō wa tenki ga yokatta desu"}
+{"id":"ja.s0121","ja":"とても おいしいです。","rom":"totemo oishii desu"}
+{"id":"ja.s0122","ja":"あまり たかくないです。","rom":"amari takakunai desu"}
+{"id":"ja.s0123","ja":"わたしは ねこが すきです。","rom":"watashi wa neko ga suki desu"}
+{"id":"ja.s0124","ja":"けんさんは サッカーが すきです。","rom":"ken-san wa sakkā ga suki desu"}
+{"id":"ja.s0125","ja":"おんがくが だいすきです。","rom":"ongaku ga daisuki desu"}
+{"id":"ja.s0126","ja":"やさいが きらいです。","rom":"yasai ga kirai desu"}
+{"id":"ja.s0127","ja":"エミリーさんは りょうりが じょうずです。","rom":"emirī-san wa ryōri ga jōzu desu"}
+{"id":"ja.s0128","ja":"わたしは うたが へたです。","rom":"watashi wa uta ga heta desu"}
+{"id":"ja.s0129","ja":"どんな えいがが すきですか。","rom":"donna eiga ga suki desu ka"}
+{"id":"ja.s0130","ja":"すきな たべものは すしです。","rom":"suki na tabemono wa sushi desu"}
+{"id":"ja.s0131","ja":"りんごを ふたつ ください。","rom":"ringo o futatsu kudasai"}
+{"id":"ja.s0132","ja":"おにぎりを みっつ かいました。","rom":"onigiri o mittsu kaimashita"}
+{"id":"ja.s0133","ja":"きっぷを にまい ください。","rom":"kippu o nimai kudasai"}
+{"id":"ja.s0134","ja":"ペンが さんぼん あります。","rom":"pen ga sanbon arimasu"}
+{"id":"ja.s0135","ja":"ほんを にさつ かいました。","rom":"hon o nisatsu kaimashita"}
+{"id":"ja.s0136","ja":"ふたりです。","rom":"futari desu"}
+{"id":"ja.s0137","ja":"あねが ふたり います。","rom":"ane ga futari imasu"}
+{"id":"ja.s0138","ja":"あさ おきて、コーヒーを のんで、でかけます。","rom":"asa okite kōhī o nonde dekakemasu"}
+{"id":"ja.s0139","ja":"あさごはんを たべて、がっこうに いきます。","rom":"asagohan o tabete gakkō ni ikimasu"}
+{"id":"ja.s0140","ja":"テレビを みて、ねます。","rom":"terebi o mite nemasu"}
+{"id":"ja.s0141","ja":"きのうは しぶやに いって、かいものを しました。","rom":"kinō wa shibuya ni itte kaimono o shimashita"}
+{"id":"ja.s0142","ja":"うちに かえって、ばんごはんを つくりました。","rom":"uchi ni kaette bangohan o tsukurimashita"}
+{"id":"ja.s0143","ja":"この みせは やすくて、おいしいです。","rom":"kono mise wa yasukute oishii desu"}
+{"id":"ja.s0144","ja":"こうえんは しずかで、きれいでした。","rom":"kōen wa shizuka de kirei deshita"}
+{"id":"ja.s0145","ja":"ちょっと まって ください。","rom":"chotto matte kudasai"}
+{"id":"ja.s0146","ja":"ゆっくり はなして ください。","rom":"yukkuri hanashite kudasai"}
+{"id":"ja.s0147","ja":"みずを のんで ください。","rom":"mizu o nonde kudasai"}
+{"id":"ja.s0148","ja":"すみません、もう いちど いって ください。","rom":"sumimasen mō ichido itte kudasai"}
+{"id":"ja.s0149","ja":"しゃしんを とっても いいですか。","rom":"shashin o totte mo ii desu ka"}
+{"id":"ja.s0150","ja":"はい、どうぞ。","rom":"hai dōzo"}
+{"id":"ja.s0151","ja":"ここで たばこを すっては いけません。","rom":"koko de tabako o sutte wa ikemasen"}
+{"id":"ja.s0152","ja":"ここで しゃしんを とっては いけません。","rom":"koko de shashin o totte wa ikemasen"}
+{"id":"ja.s0153","ja":"いま なにを して いますか。","rom":"ima nani o shite imasu ka"}
+{"id":"ja.s0154","ja":"テレビを みて います。","rom":"terebi o mite imasu"}
+{"id":"ja.s0155","ja":"ははは いま りょうりを して います。","rom":"haha wa ima ryōri o shite imasu"}
+{"id":"ja.s0156","ja":"あねは けっこんして います。","rom":"ane wa kekkon shite imasu"}
+{"id":"ja.s0157","ja":"とうきょうに すんで います。","rom":"tōkyō ni sunde imasu"}
+{"id":"ja.s0158","ja":"たなかさんを しって いますか。","rom":"tanaka-san o shitte imasu ka"}
+{"id":"ja.s0159","ja":"ちちは ぎんこうで はたらいて います。","rom":"chichi wa ginkō de hataraite imasu"}
+{"id":"ja.s0160","ja":"らいねん けっこんします。","rom":"rainen kekkon shimasu"}
+{"id":"ja.s0161","ja":"いいえ、しりません。","rom":"iie shirimasen"}
+{"id":"ja.s0162","ja":"まいにち コーヒーを のむ。","rom":"mainichi kōhī o nomu"}
+{"id":"ja.s0163","ja":"あした なにを する？","rom":"ashita nani o suru"}
+{"id":"ja.s0164","ja":"きょうは いかない。","rom":"kyō wa ikanai"}
+{"id":"ja.s0165","ja":"この ラーメン、おいしい！","rom":"kono rāmen oishii"}
+{"id":"ja.s0166","ja":"けんは がくせいじゃない。","rom":"ken wa gakusei janai"}
+{"id":"ja.s0167","ja":"あした いく？うん、いく。","rom":"ashita iku un iku"}
+{"id":"ja.s0168","ja":"ひま？ううん、いそがしい。","rom":"hima uun isogashii"}
+{"id":"ja.s0169","ja":"この ほんは おもしろいと おもいます。","rom":"kono hon wa omoshiroi to omoimasu"}
+{"id":"ja.s0170","ja":"けんさんも くると おもいます。","rom":"ken-san mo kuru to omoimasu"}
+{"id":"ja.s0171","ja":"あの ひとは せんせいだと おもいます。","rom":"ano hito wa sensei da to omoimasu"}
+{"id":"ja.s0172","ja":"あしたは あめだと おもいます。","rom":"ashita wa ame da to omoimasu"}
+{"id":"ja.s0173","ja":"あまり たかくないと おもいます。","rom":"amari takakunai to omoimasu"}
+{"id":"ja.s0174","ja":"たなかさんは こないと おもいます。","rom":"tanaka-san wa konai to omoimasu"}
+{"id":"ja.s0175","ja":"けんさんは あした いくと いって いました。","rom":"ken-san wa ashita iku to itte imashita"}
+{"id":"ja.s0176","ja":"よく いく レストランは しぶやに あります。","rom":"yoku iku resutoran wa shibuya ni arimasu"}
+{"id":"ja.s0177","ja":"これは きのう かった ほんです。","rom":"kore wa kinō katta hon desu"}
+{"id":"ja.s0178","ja":"きのう みた えいがは おもしろかったです。","rom":"kinō mita eiga wa omoshirokatta desu"}
+{"id":"ja.s0179","ja":"ははが つくった ケーキです。","rom":"haha ga tsukutta kēki desu"}
+{"id":"ja.s0180","ja":"めがねを かけて いる ひとが たなかさんです。","rom":"megane o kakete iru hito ga tanaka-san desu"}
+{"id":"ja.s0181","ja":"あそこで コーヒーを のんで いる ひとは あにです。","rom":"asoko de kōhī o nonde iru hito wa ani desu"}
+{"id":"ja.s0182","ja":"とうきょうは おおさかより おおきいです。","rom":"tōkyō wa ōsaka yori ōkii desu"}
+{"id":"ja.s0183","ja":"でんしゃは バスより はやいです。","rom":"densha wa basu yori hayai desu"}
+{"id":"ja.s0184","ja":"すしと ラーメンと どちらが すきですか。","rom":"sushi to rāmen to dochira ga suki desu ka"}
+{"id":"ja.s0185","ja":"ラーメンの ほうが すきです。","rom":"rāmen no hō ga suki desu"}
+{"id":"ja.s0186","ja":"くだものの なかで りんごが いちばん すきです。","rom":"kudamono no naka de ringo ga ichiban suki desu"}
+{"id":"ja.s0187","ja":"にほんで いちばん たかい やまは ふじさんです。","rom":"nihon de ichiban takai yama wa fujisan desu"}
+{"id":"ja.s0188","ja":"この なかで どれが いちばん いいですか。","rom":"kono naka de dore ga ichiban ii desu ka"}
+{"id":"ja.s0189","ja":"なつやすみに ほっかいどうへ いく つもりです。","rom":"natsuyasumi ni hokkaidō e iku tsumori desu"}
+{"id":"ja.s0190","ja":"らいねん にほんごを べんきょうする つもりです。","rom":"rainen nihongo o benkyō suru tsumori desu"}
+{"id":"ja.s0191","ja":"ことしは くるまを かわない つもりです。","rom":"kotoshi wa kuruma o kawanai tsumori desu"}
+{"id":"ja.s0192","ja":"これから さむく なります。","rom":"kore kara samuku narimasu"}
+{"id":"ja.s0193","ja":"エミリーさんは にほんごが じょうずに なりました。","rom":"emirī-san wa nihongo ga jōzu ni narimashita"}
+{"id":"ja.s0194","ja":"いもうとは いしゃに なりました。","rom":"imōto wa isha ni narimashita"}
+{"id":"ja.s0195","ja":"かぜは よく なりましたか。","rom":"kaze wa yoku narimashita ka"}
+{"id":"ja.s0196","ja":"きょうとに いきたいです。","rom":"kyōto ni ikitai desu"}
+{"id":"ja.s0197","ja":"ふじさんを みたいです。","rom":"fujisan o mitai desu"}
+{"id":"ja.s0198","ja":"きょうは はたらきたくないです。","rom":"kyō wa hatarakitakunai desu"}
+{"id":"ja.s0199","ja":"ずっと にほんに きたかったです。","rom":"zutto nihon ni kitakatta desu"}
+{"id":"ja.s0200","ja":"ラーメンが たべたいです。","rom":"rāmen ga tabetai desu"}
+{"id":"ja.s0201","ja":"あたらしい スマホが ほしいです。","rom":"atarashii sumaho ga hoshii desu"}
+{"id":"ja.s0202","ja":"けんさんは きょうとに いきたいと いって いました。","rom":"ken-san wa kyōto ni ikitai to itte imashita"}
+{"id":"ja.s0203","ja":"いっしょに いきませんか。","rom":"issho ni ikimasen ka"}
+{"id":"ja.s0204","ja":"きょうとに いった ことが あります。","rom":"kyōto ni itta koto ga arimasu"}
+{"id":"ja.s0205","ja":"てんぷらを たべた ことが あります。","rom":"tenpura o tabeta koto ga arimasu"}
+{"id":"ja.s0206","ja":"ふじさんに のぼった ことが ありません。","rom":"fujisan ni nobotta koto ga arimasen"}
+{"id":"ja.s0207","ja":"すしを つくった ことは ありません。","rom":"sushi o tsukutta koto wa arimasen"}
+{"id":"ja.s0208","ja":"にほんに いった ことが ありますか。いいえ、ありません。","rom":"nihon ni itta koto ga arimasu ka iie arimasen"}
+{"id":"ja.s0209","ja":"ときどき バスで いく ことが あります。","rom":"tokidoki basu de iku koto ga arimasu"}
+{"id":"ja.s0210","ja":"きょねん きょうとに いきました。","rom":"kyonen kyōto ni ikimashita"}
+{"id":"ja.s0211","ja":"あたまが いたいんです。","rom":"atama ga itai n desu"}
+{"id":"ja.s0212","ja":"さいふが ないんです。","rom":"saifu ga nai n desu"}
+{"id":"ja.s0213","ja":"どうしたんですか。","rom":"dō shita n desu ka"}
+{"id":"ja.s0214","ja":"あしたは しごとなんです。","rom":"ashita wa shigoto na n desu"}
+{"id":"ja.s0215","ja":"あたまが いたいので、かえっても いいですか。","rom":"atama ga itai node kaette mo ii desu ka"}
+{"id":"ja.s0216","ja":"あしたは やすみなので、えいがを みます。","rom":"ashita wa yasumi na node eiga o mimasu"}
+{"id":"ja.s0217","ja":"ここは しずかなので、よく きます。","rom":"koko wa shizuka na node yoku kimasu"}
+{"id":"ja.s0218","ja":"あしたは はやく おきなければ いけません。","rom":"ashita wa hayaku okinakereba ikemasen"}
+{"id":"ja.s0219","ja":"くすりを のまなければ いけません。","rom":"kusuri o nomanakereba ikemasen"}
+{"id":"ja.s0220","ja":"あしたは こなくても いいです。","rom":"ashita wa konakute mo ii desu"}
+{"id":"ja.s0221","ja":"くつを ぬがなくても いいですか。","rom":"kutsu o nuganakute mo ii desu ka"}
+{"id":"ja.s0222","ja":"やすんだ ほうが いいです。","rom":"yasunda hō ga ii desu"}
+{"id":"ja.s0223","ja":"びょういんに いった ほうが いいですよ。","rom":"byōin ni itta hō ga ii desu yo"}
+{"id":"ja.s0224","ja":"よる ひとりで あるかない ほうが いいです。","rom":"yoru hitori de arukanai hō ga ii desu"}

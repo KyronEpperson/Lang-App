@@ -1,0 +1,974 @@
+{"id":"ja.c0001","deck":"ja.d.hiragana-1-a-ka-sa-ta-rows","ja":"あ","rom":"a"}
+{"id":"ja.c0002","deck":"ja.d.hiragana-1-a-ka-sa-ta-rows","ja":"い","rom":"i"}
+{"id":"ja.c0003","deck":"ja.d.hiragana-1-a-ka-sa-ta-rows","ja":"う","rom":"u"}
+{"id":"ja.c0004","deck":"ja.d.hiragana-1-a-ka-sa-ta-rows","ja":"え","rom":"e"}
+{"id":"ja.c0005","deck":"ja.d.hiragana-1-a-ka-sa-ta-rows","ja":"お","rom":"o"}
+{"id":"ja.c0006","deck":"ja.d.hiragana-1-a-ka-sa-ta-rows","ja":"か","rom":"ka"}
+{"id":"ja.c0007","deck":"ja.d.hiragana-1-a-ka-sa-ta-rows","ja":"き","rom":"ki"}
+{"id":"ja.c0008","deck":"ja.d.hiragana-1-a-ka-sa-ta-rows","ja":"く","rom":"ku"}
+{"id":"ja.c0009","deck":"ja.d.hiragana-1-a-ka-sa-ta-rows","ja":"け","rom":"ke"}
+{"id":"ja.c0010","deck":"ja.d.hiragana-1-a-ka-sa-ta-rows","ja":"こ","rom":"ko"}
+{"id":"ja.c0011","deck":"ja.d.hiragana-1-a-ka-sa-ta-rows","ja":"さ","rom":"sa"}
+{"id":"ja.c0012","deck":"ja.d.hiragana-1-a-ka-sa-ta-rows","ja":"し","rom":"shi"}
+{"id":"ja.c0013","deck":"ja.d.hiragana-1-a-ka-sa-ta-rows","ja":"す","rom":"su"}
+{"id":"ja.c0014","deck":"ja.d.hiragana-1-a-ka-sa-ta-rows","ja":"せ","rom":"se"}
+{"id":"ja.c0015","deck":"ja.d.hiragana-1-a-ka-sa-ta-rows","ja":"そ","rom":"so"}
+{"id":"ja.c0016","deck":"ja.d.hiragana-1-a-ka-sa-ta-rows","ja":"た","rom":"ta"}
+{"id":"ja.c0017","deck":"ja.d.hiragana-1-a-ka-sa-ta-rows","ja":"ち","rom":"chi"}
+{"id":"ja.c0018","deck":"ja.d.hiragana-1-a-ka-sa-ta-rows","ja":"つ","rom":"tsu"}
+{"id":"ja.c0019","deck":"ja.d.hiragana-1-a-ka-sa-ta-rows","ja":"て","rom":"te"}
+{"id":"ja.c0020","deck":"ja.d.hiragana-1-a-ka-sa-ta-rows","ja":"と","rom":"to"}
+{"id":"ja.c0021","deck":"ja.d.hiragana-2-na-to-n","ja":"な","rom":"na"}
+{"id":"ja.c0022","deck":"ja.d.hiragana-2-na-to-n","ja":"に","rom":"ni"}
+{"id":"ja.c0023","deck":"ja.d.hiragana-2-na-to-n","ja":"ぬ","rom":"nu"}
+{"id":"ja.c0024","deck":"ja.d.hiragana-2-na-to-n","ja":"ね","rom":"ne"}
+{"id":"ja.c0025","deck":"ja.d.hiragana-2-na-to-n","ja":"の","rom":"no"}
+{"id":"ja.c0026","deck":"ja.d.hiragana-2-na-to-n","ja":"は","rom":"ha"}
+{"id":"ja.c0027","deck":"ja.d.hiragana-2-na-to-n","ja":"ひ","rom":"hi"}
+{"id":"ja.c0028","deck":"ja.d.hiragana-2-na-to-n","ja":"ふ","rom":"fu"}
+{"id":"ja.c0029","deck":"ja.d.hiragana-2-na-to-n","ja":"へ","rom":"he"}
+{"id":"ja.c0030","deck":"ja.d.hiragana-2-na-to-n","ja":"ほ","rom":"ho"}
+{"id":"ja.c0031","deck":"ja.d.hiragana-2-na-to-n","ja":"ま","rom":"ma"}
+{"id":"ja.c0032","deck":"ja.d.hiragana-2-na-to-n","ja":"み","rom":"mi"}
+{"id":"ja.c0033","deck":"ja.d.hiragana-2-na-to-n","ja":"む","rom":"mu"}
+{"id":"ja.c0034","deck":"ja.d.hiragana-2-na-to-n","ja":"め","rom":"me"}
+{"id":"ja.c0035","deck":"ja.d.hiragana-2-na-to-n","ja":"も","rom":"mo"}
+{"id":"ja.c0036","deck":"ja.d.hiragana-2-na-to-n","ja":"や","rom":"ya"}
+{"id":"ja.c0037","deck":"ja.d.hiragana-2-na-to-n","ja":"ゆ","rom":"yu"}
+{"id":"ja.c0038","deck":"ja.d.hiragana-2-na-to-n","ja":"よ","rom":"yo"}
+{"id":"ja.c0039","deck":"ja.d.hiragana-2-na-to-n","ja":"ら","rom":"ra"}
+{"id":"ja.c0040","deck":"ja.d.hiragana-2-na-to-n","ja":"り","rom":"ri"}
+{"id":"ja.c0041","deck":"ja.d.hiragana-2-na-to-n","ja":"る","rom":"ru"}
+{"id":"ja.c0042","deck":"ja.d.hiragana-2-na-to-n","ja":"れ","rom":"re"}
+{"id":"ja.c0043","deck":"ja.d.hiragana-2-na-to-n","ja":"ろ","rom":"ro"}
+{"id":"ja.c0044","deck":"ja.d.hiragana-2-na-to-n","ja":"わ","rom":"wa"}
+{"id":"ja.c0045","deck":"ja.d.hiragana-2-na-to-n","ja":"を","rom":"o"}
+{"id":"ja.c0046","deck":"ja.d.hiragana-2-na-to-n","ja":"ん","rom":"n"}
+{"id":"ja.c0047","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"が","rom":"ga"}
+{"id":"ja.c0048","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"ぎ","rom":"gi"}
+{"id":"ja.c0049","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"ぐ","rom":"gu"}
+{"id":"ja.c0050","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"げ","rom":"ge"}
+{"id":"ja.c0051","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"ご","rom":"go"}
+{"id":"ja.c0052","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"ざ","rom":"za"}
+{"id":"ja.c0053","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"じ","rom":"ji"}
+{"id":"ja.c0054","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"ず","rom":"zu"}
+{"id":"ja.c0055","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"ぜ","rom":"ze"}
+{"id":"ja.c0056","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"ぞ","rom":"zo"}
+{"id":"ja.c0057","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"だ","rom":"da"}
+{"id":"ja.c0058","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"で","rom":"de"}
+{"id":"ja.c0059","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"ど","rom":"do"}
+{"id":"ja.c0060","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"ば","rom":"ba"}
+{"id":"ja.c0061","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"び","rom":"bi"}
+{"id":"ja.c0062","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"ぶ","rom":"bu"}
+{"id":"ja.c0063","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"べ","rom":"be"}
+{"id":"ja.c0064","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"ぼ","rom":"bo"}
+{"id":"ja.c0065","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"ぱ","rom":"pa"}
+{"id":"ja.c0066","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"ぴ","rom":"pi"}
+{"id":"ja.c0067","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"ぷ","rom":"pu"}
+{"id":"ja.c0068","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"ぺ","rom":"pe"}
+{"id":"ja.c0069","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"ぽ","rom":"po"}
+{"id":"ja.c0070","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"きゃ","rom":"kya"}
+{"id":"ja.c0071","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"しゃしん","rom":"shashin"}
+{"id":"ja.c0072","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"きって","rom":"kitte"}
+{"id":"ja.c0073","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"おばあさん","rom":"obāsan"}
+{"id":"ja.c0074","deck":"ja.d.hiragana-3-marks-and-small-letters","ja":"とうきょう","rom":"tōkyō"}
+{"id":"ja.c0075","deck":"ja.d.katakana-1-a-ka-sa-ta-rows","ja":"ア","rom":"a"}
+{"id":"ja.c0076","deck":"ja.d.katakana-1-a-ka-sa-ta-rows","ja":"イ","rom":"i"}
+{"id":"ja.c0077","deck":"ja.d.katakana-1-a-ka-sa-ta-rows","ja":"ウ","rom":"u"}
+{"id":"ja.c0078","deck":"ja.d.katakana-1-a-ka-sa-ta-rows","ja":"エ","rom":"e"}
+{"id":"ja.c0079","deck":"ja.d.katakana-1-a-ka-sa-ta-rows","ja":"オ","rom":"o"}
+{"id":"ja.c0080","deck":"ja.d.katakana-1-a-ka-sa-ta-rows","ja":"カ","rom":"ka"}
+{"id":"ja.c0081","deck":"ja.d.katakana-1-a-ka-sa-ta-rows","ja":"キ","rom":"ki"}
+{"id":"ja.c0082","deck":"ja.d.katakana-1-a-ka-sa-ta-rows","ja":"ク","rom":"ku"}
+{"id":"ja.c0083","deck":"ja.d.katakana-1-a-ka-sa-ta-rows","ja":"ケ","rom":"ke"}
+{"id":"ja.c0084","deck":"ja.d.katakana-1-a-ka-sa-ta-rows","ja":"コ","rom":"ko"}
+{"id":"ja.c0085","deck":"ja.d.katakana-1-a-ka-sa-ta-rows","ja":"サ","rom":"sa"}
+{"id":"ja.c0086","deck":"ja.d.katakana-1-a-ka-sa-ta-rows","ja":"シ","rom":"shi"}
+{"id":"ja.c0087","deck":"ja.d.katakana-1-a-ka-sa-ta-rows","ja":"ス","rom":"su"}
+{"id":"ja.c0088","deck":"ja.d.katakana-1-a-ka-sa-ta-rows","ja":"セ","rom":"se"}
+{"id":"ja.c0089","deck":"ja.d.katakana-1-a-ka-sa-ta-rows","ja":"ソ","rom":"so"}
+{"id":"ja.c0090","deck":"ja.d.katakana-1-a-ka-sa-ta-rows","ja":"タ","rom":"ta"}
+{"id":"ja.c0091","deck":"ja.d.katakana-1-a-ka-sa-ta-rows","ja":"チ","rom":"chi"}
+{"id":"ja.c0092","deck":"ja.d.katakana-1-a-ka-sa-ta-rows","ja":"ツ","rom":"tsu"}
+{"id":"ja.c0093","deck":"ja.d.katakana-1-a-ka-sa-ta-rows","ja":"テ","rom":"te"}
+{"id":"ja.c0094","deck":"ja.d.katakana-1-a-ka-sa-ta-rows","ja":"ト","rom":"to"}
+{"id":"ja.c0095","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"ナ","rom":"na"}
+{"id":"ja.c0096","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"ニ","rom":"ni"}
+{"id":"ja.c0097","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"ヌ","rom":"nu"}
+{"id":"ja.c0098","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"ネ","rom":"ne"}
+{"id":"ja.c0099","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"ノ","rom":"no"}
+{"id":"ja.c0100","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"ハ","rom":"ha"}
+{"id":"ja.c0101","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"ヒ","rom":"hi"}
+{"id":"ja.c0102","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"フ","rom":"fu"}
+{"id":"ja.c0103","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"ヘ","rom":"he"}
+{"id":"ja.c0104","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"ホ","rom":"ho"}
+{"id":"ja.c0105","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"マ","rom":"ma"}
+{"id":"ja.c0106","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"ミ","rom":"mi"}
+{"id":"ja.c0107","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"ム","rom":"mu"}
+{"id":"ja.c0108","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"メ","rom":"me"}
+{"id":"ja.c0109","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"モ","rom":"mo"}
+{"id":"ja.c0110","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"ヤ","rom":"ya"}
+{"id":"ja.c0111","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"ユ","rom":"yu"}
+{"id":"ja.c0112","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"ヨ","rom":"yo"}
+{"id":"ja.c0113","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"ラ","rom":"ra"}
+{"id":"ja.c0114","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"リ","rom":"ri"}
+{"id":"ja.c0115","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"ル","rom":"ru"}
+{"id":"ja.c0116","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"レ","rom":"re"}
+{"id":"ja.c0117","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"ロ","rom":"ro"}
+{"id":"ja.c0118","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"ワ","rom":"wa"}
+{"id":"ja.c0119","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"ヲ","rom":"o"}
+{"id":"ja.c0120","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"ン","rom":"n"}
+{"id":"ja.c0121","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"コーヒー","rom":"kōhī"}
+{"id":"ja.c0122","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"パーティー","rom":"pātī"}
+{"id":"ja.c0123","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"ファン","rom":"fan"}
+{"id":"ja.c0124","deck":"ja.d.katakana-2-na-to-n-plus-long-vowels","ja":"ウェブ","rom":"webu"}
+{"id":"ja.c0125","deck":"ja.d.first-kanji","ja":"一","rom":"ichi"}
+{"id":"ja.c0126","deck":"ja.d.first-kanji","ja":"二","rom":"ni"}
+{"id":"ja.c0127","deck":"ja.d.first-kanji","ja":"三","rom":"san"}
+{"id":"ja.c0128","deck":"ja.d.first-kanji","ja":"四","rom":"yon"}
+{"id":"ja.c0129","deck":"ja.d.first-kanji","ja":"五","rom":"go"}
+{"id":"ja.c0130","deck":"ja.d.first-kanji","ja":"六","rom":"roku"}
+{"id":"ja.c0131","deck":"ja.d.first-kanji","ja":"七","rom":"nana"}
+{"id":"ja.c0132","deck":"ja.d.first-kanji","ja":"八","rom":"hachi"}
+{"id":"ja.c0133","deck":"ja.d.first-kanji","ja":"九","rom":"kyū"}
+{"id":"ja.c0134","deck":"ja.d.first-kanji","ja":"十","rom":"jū"}
+{"id":"ja.c0135","deck":"ja.d.first-kanji","ja":"百","rom":"hyaku"}
+{"id":"ja.c0136","deck":"ja.d.first-kanji","ja":"千","rom":"sen"}
+{"id":"ja.c0137","deck":"ja.d.first-kanji","ja":"一万","rom":"ichiman"}
+{"id":"ja.c0138","deck":"ja.d.first-kanji","ja":"円","rom":"en"}
+{"id":"ja.c0139","deck":"ja.d.first-kanji","ja":"月曜日","rom":"getsuyōbi"}
+{"id":"ja.c0140","deck":"ja.d.first-kanji","ja":"火曜日","rom":"kayōbi"}
+{"id":"ja.c0141","deck":"ja.d.first-kanji","ja":"水曜日","rom":"suiyōbi"}
+{"id":"ja.c0142","deck":"ja.d.first-kanji","ja":"木曜日","rom":"mokuyōbi"}
+{"id":"ja.c0143","deck":"ja.d.first-kanji","ja":"金曜日","rom":"kin'yōbi"}
+{"id":"ja.c0144","deck":"ja.d.first-kanji","ja":"土曜日","rom":"doyōbi"}
+{"id":"ja.c0145","deck":"ja.d.first-kanji","ja":"日曜日","rom":"nichiyōbi"}
+{"id":"ja.c0146","deck":"ja.d.first-kanji","ja":"六時","rom":"rokuji"}
+{"id":"ja.c0147","deck":"ja.d.first-kanji","ja":"五分","rom":"gofun"}
+{"id":"ja.c0148","deck":"ja.d.first-kanji","ja":"一年","rom":"ichinen"}
+{"id":"ja.c0149","deck":"ja.d.first-kanji","ja":"日本","rom":"nihon"}
+{"id":"ja.c0150","deck":"ja.d.first-kanji","ja":"日本人","rom":"nihonjin"}
+{"id":"ja.c0151","deck":"ja.d.first-kanji","ja":"人","rom":"hito"}
+{"id":"ja.c0152","deck":"ja.d.first-kanji","ja":"男の人","rom":"otoko no hito"}
+{"id":"ja.c0153","deck":"ja.d.first-kanji","ja":"女の人","rom":"onna no hito"}
+{"id":"ja.c0154","deck":"ja.d.first-kanji","ja":"女の子","rom":"onna no ko"}
+{"id":"ja.c0155","deck":"ja.d.greetings-and-introductions","ja":"こんにちは","rom":"konnichiwa"}
+{"id":"ja.c0156","deck":"ja.d.greetings-and-introductions","ja":"おはようございます","rom":"ohayō gozaimasu"}
+{"id":"ja.c0157","deck":"ja.d.greetings-and-introductions","ja":"こんばんは","rom":"konbanwa"}
+{"id":"ja.c0158","deck":"ja.d.greetings-and-introductions","ja":"はじめまして","rom":"hajimemashite"}
+{"id":"ja.c0159","deck":"ja.d.greetings-and-introductions","ja":"わたしは エミリーです","rom":"watashi wa emirī desu"}
+{"id":"ja.c0160","deck":"ja.d.greetings-and-introductions","ja":"よろしく おねがいします","rom":"yoroshiku onegaishimasu"}
+{"id":"ja.c0161","deck":"ja.d.greetings-and-introductions","ja":"アメリカじんです","rom":"amerikajin desu"}
+{"id":"ja.c0162","deck":"ja.d.greetings-and-introductions","ja":"がくせいです","rom":"gakusei desu"}
+{"id":"ja.c0163","deck":"ja.d.greetings-and-introductions","ja":"かいしゃいんです","rom":"kaishain desu"}
+{"id":"ja.c0164","deck":"ja.d.greetings-and-introductions","ja":"おなまえは？","rom":"onamae wa"}
+{"id":"ja.c0165","deck":"ja.d.greetings-and-introductions","ja":"おしごとは？","rom":"oshigoto wa"}
+{"id":"ja.c0166","deck":"ja.d.greetings-and-introductions","ja":"おげんきですか","rom":"ogenki desu ka"}
+{"id":"ja.c0167","deck":"ja.d.greetings-and-introductions","ja":"すみません","rom":"sumimasen"}
+{"id":"ja.c0168","deck":"ja.d.greetings-and-introductions","ja":"ありがとうございます","rom":"arigatō gozaimasu"}
+{"id":"ja.c0169","deck":"ja.d.greetings-and-introductions","ja":"どういたしまして","rom":"dō itashimashite"}
+{"id":"ja.c0170","deck":"ja.d.greetings-and-introductions","ja":"しつれいします","rom":"shitsurei shimasu"}
+{"id":"ja.c0171","deck":"ja.d.greetings-and-introductions","ja":"じゃあ また","rom":"jā mata"}
+{"id":"ja.c0172","deck":"ja.d.greetings-and-introductions","ja":"さようなら","rom":"sayōnara"}
+{"id":"ja.c0173","deck":"ja.d.family-and-people","ja":"はは","rom":"haha"}
+{"id":"ja.c0174","deck":"ja.d.family-and-people","ja":"おかあさん","rom":"okāsan"}
+{"id":"ja.c0175","deck":"ja.d.family-and-people","ja":"ちち","rom":"chichi"}
+{"id":"ja.c0176","deck":"ja.d.family-and-people","ja":"おとうさん","rom":"otōsan"}
+{"id":"ja.c0177","deck":"ja.d.family-and-people","ja":"あに","rom":"ani"}
+{"id":"ja.c0178","deck":"ja.d.family-and-people","ja":"おにいさん","rom":"oniisan"}
+{"id":"ja.c0179","deck":"ja.d.family-and-people","ja":"あね","rom":"ane"}
+{"id":"ja.c0180","deck":"ja.d.family-and-people","ja":"おねえさん","rom":"onēsan"}
+{"id":"ja.c0181","deck":"ja.d.family-and-people","ja":"いもうと","rom":"imōto"}
+{"id":"ja.c0182","deck":"ja.d.family-and-people","ja":"おとうと","rom":"otōto"}
+{"id":"ja.c0183","deck":"ja.d.family-and-people","ja":"きょうだい","rom":"kyōdai"}
+{"id":"ja.c0184","deck":"ja.d.family-and-people","ja":"かぞく","rom":"kazoku"}
+{"id":"ja.c0185","deck":"ja.d.family-and-people","ja":"ごかぞく","rom":"gokazoku"}
+{"id":"ja.c0186","deck":"ja.d.family-and-people","ja":"ともだち","rom":"tomodachi"}
+{"id":"ja.c0187","deck":"ja.d.family-and-people","ja":"あの ひと","rom":"ano hito"}
+{"id":"ja.c0188","deck":"ja.d.family-and-people","ja":"こども","rom":"kodomo"}
+{"id":"ja.c0189","deck":"ja.d.family-and-people","ja":"せんせい","rom":"sensei"}
+{"id":"ja.c0190","deck":"ja.d.family-and-people","ja":"けっこんして います","rom":"kekkon shite imasu"}
+{"id":"ja.c0191","deck":"ja.d.numbers-money-and-time","ja":"いちまん","rom":"ichiman"}
+{"id":"ja.c0192","deck":"ja.d.numbers-money-and-time","ja":"さんびゃく","rom":"sanbyaku"}
+{"id":"ja.c0193","deck":"ja.d.numbers-money-and-time","ja":"ろっぴゃく","rom":"roppyaku"}
+{"id":"ja.c0194","deck":"ja.d.numbers-money-and-time","ja":"さんぜん","rom":"sanzen"}
+{"id":"ja.c0195","deck":"ja.d.numbers-money-and-time","ja":"せんえん","rom":"sen'en"}
+{"id":"ja.c0196","deck":"ja.d.numbers-money-and-time","ja":"ひゃくごじゅうえん","rom":"hyakugojūen"}
+{"id":"ja.c0197","deck":"ja.d.numbers-money-and-time","ja":"にまんえん","rom":"niman'en"}
+{"id":"ja.c0198","deck":"ja.d.numbers-money-and-time","ja":"いくらですか","rom":"ikura desu ka"}
+{"id":"ja.c0199","deck":"ja.d.numbers-money-and-time","ja":"はっぴゃくえん","rom":"happyakuen"}
+{"id":"ja.c0200","deck":"ja.d.numbers-money-and-time","ja":"よじ","rom":"yoji"}
+{"id":"ja.c0201","deck":"ja.d.numbers-money-and-time","ja":"しちじ","rom":"shichiji"}
+{"id":"ja.c0202","deck":"ja.d.numbers-money-and-time","ja":"くじ","rom":"kuji"}
+{"id":"ja.c0203","deck":"ja.d.numbers-money-and-time","ja":"さんじはん","rom":"sanjihan"}
+{"id":"ja.c0204","deck":"ja.d.numbers-money-and-time","ja":"じゅっぷん","rom":"juppun"}
+{"id":"ja.c0205","deck":"ja.d.numbers-money-and-time","ja":"なんじですか","rom":"nanji desu ka"}
+{"id":"ja.c0206","deck":"ja.d.numbers-money-and-time","ja":"ごぜん","rom":"gozen"}
+{"id":"ja.c0207","deck":"ja.d.numbers-money-and-time","ja":"ごご","rom":"gogo"}
+{"id":"ja.c0208","deck":"ja.d.numbers-money-and-time","ja":"なんさいですか","rom":"nansai desu ka"}
+{"id":"ja.c0209","deck":"ja.d.food-and-drink","ja":"いただきます","rom":"itadakimasu"}
+{"id":"ja.c0210","deck":"ja.d.food-and-drink","ja":"ごちそうさまでした","rom":"gochisōsama deshita"}
+{"id":"ja.c0211","deck":"ja.d.food-and-drink","ja":"おにぎり","rom":"onigiri"}
+{"id":"ja.c0212","deck":"ja.d.food-and-drink","ja":"みずを ください","rom":"mizu o kudasai"}
+{"id":"ja.c0213","deck":"ja.d.food-and-drink","ja":"おちゃ","rom":"ocha"}
+{"id":"ja.c0214","deck":"ja.d.food-and-drink","ja":"コーヒーを ひとつ ください","rom":"kōhī o hitotsu kudasai"}
+{"id":"ja.c0215","deck":"ja.d.food-and-drink","ja":"りんごを ふたつ ください","rom":"ringo o futatsu kudasai"}
+{"id":"ja.c0216","deck":"ja.d.food-and-drink","ja":"メニューを ください","rom":"menyū o kudasai"}
+{"id":"ja.c0217","deck":"ja.d.food-and-drink","ja":"おすすめは なんですか","rom":"osusume wa nan desu ka"}
+{"id":"ja.c0218","deck":"ja.d.food-and-drink","ja":"ふたりです","rom":"futari desu"}
+{"id":"ja.c0219","deck":"ja.d.food-and-drink","ja":"おいしいです","rom":"oishii desu"}
+{"id":"ja.c0220","deck":"ja.d.food-and-drink","ja":"おなかが すきました","rom":"onaka ga sukimashita"}
+{"id":"ja.c0221","deck":"ja.d.food-and-drink","ja":"のどが かわきました","rom":"nodo ga kawakimashita"}
+{"id":"ja.c0222","deck":"ja.d.food-and-drink","ja":"にくを たべません","rom":"niku o tabemasen"}
+{"id":"ja.c0223","deck":"ja.d.food-and-drink","ja":"おかいけい おねがいします","rom":"okaikei onegaishimasu"}
+{"id":"ja.c0224","deck":"ja.d.food-and-drink","ja":"てんぷら","rom":"tenpura"}
+{"id":"ja.c0225","deck":"ja.d.food-and-drink","ja":"あさごはん","rom":"asagohan"}
+{"id":"ja.c0226","deck":"ja.d.food-and-drink","ja":"やさい","rom":"yasai"}
+{"id":"ja.c0227","deck":"ja.d.shopping-and-things","ja":"いらっしゃいませ","rom":"irasshaimase"}
+{"id":"ja.c0228","deck":"ja.d.shopping-and-things","ja":"これは いくらですか","rom":"kore wa ikura desu ka"}
+{"id":"ja.c0229","deck":"ja.d.shopping-and-things","ja":"ぜんぶで いくらですか","rom":"zenbu de ikura desu ka"}
+{"id":"ja.c0230","deck":"ja.d.shopping-and-things","ja":"これ","rom":"kore"}
+{"id":"ja.c0231","deck":"ja.d.shopping-and-things","ja":"それ","rom":"sore"}
+{"id":"ja.c0232","deck":"ja.d.shopping-and-things","ja":"あれ","rom":"are"}
+{"id":"ja.c0233","deck":"ja.d.shopping-and-things","ja":"この かばん","rom":"kono kaban"}
+{"id":"ja.c0234","deck":"ja.d.shopping-and-things","ja":"それを ください","rom":"sore o kudasai"}
+{"id":"ja.c0235","deck":"ja.d.shopping-and-things","ja":"たかいです","rom":"takai desu"}
+{"id":"ja.c0236","deck":"ja.d.shopping-and-things","ja":"やすいです","rom":"yasui desu"}
+{"id":"ja.c0237","deck":"ja.d.shopping-and-things","ja":"カードで いいですか","rom":"kādo de ii desu ka"}
+{"id":"ja.c0238","deck":"ja.d.shopping-and-things","ja":"ふくろは いりません","rom":"fukuro wa irimasen"}
+{"id":"ja.c0239","deck":"ja.d.shopping-and-things","ja":"ペンが ありますか","rom":"pen ga arimasu ka"}
+{"id":"ja.c0240","deck":"ja.d.shopping-and-things","ja":"つくえの うえに あります","rom":"tsukue no ue ni arimasu"}
+{"id":"ja.c0241","deck":"ja.d.shopping-and-things","ja":"かさ","rom":"kasa"}
+{"id":"ja.c0242","deck":"ja.d.shopping-and-things","ja":"さいふ","rom":"saifu"}
+{"id":"ja.c0243","deck":"ja.d.shopping-and-things","ja":"スマホ","rom":"sumaho"}
+{"id":"ja.c0244","deck":"ja.d.shopping-and-things","ja":"レシート","rom":"reshīto"}
+{"id":"ja.c0245","deck":"ja.d.daily-routine","ja":"おきます","rom":"okimasu"}
+{"id":"ja.c0246","deck":"ja.d.daily-routine","ja":"ねます","rom":"nemasu"}
+{"id":"ja.c0247","deck":"ja.d.daily-routine","ja":"たべます","rom":"tabemasu"}
+{"id":"ja.c0248","deck":"ja.d.daily-routine","ja":"のみます","rom":"nomimasu"}
+{"id":"ja.c0249","deck":"ja.d.daily-routine","ja":"いきます","rom":"ikimasu"}
+{"id":"ja.c0250","deck":"ja.d.daily-routine","ja":"うちに かえります","rom":"uchi ni kaerimasu"}
+{"id":"ja.c0251","deck":"ja.d.daily-routine","ja":"はたらきます","rom":"hatarakimasu"}
+{"id":"ja.c0252","deck":"ja.d.daily-routine","ja":"べんきょうします","rom":"benkyō shimasu"}
+{"id":"ja.c0253","deck":"ja.d.daily-routine","ja":"シャワーを あびます","rom":"shawā o abimasu"}
+{"id":"ja.c0254","deck":"ja.d.daily-routine","ja":"テレビを みて ねます","rom":"terebi o mite nemasu"}
+{"id":"ja.c0255","deck":"ja.d.daily-routine","ja":"まいにち","rom":"mainichi"}
+{"id":"ja.c0256","deck":"ja.d.daily-routine","ja":"きょう","rom":"kyō"}
+{"id":"ja.c0257","deck":"ja.d.daily-routine","ja":"あした","rom":"ashita"}
+{"id":"ja.c0258","deck":"ja.d.daily-routine","ja":"きのう","rom":"kinō"}
+{"id":"ja.c0259","deck":"ja.d.daily-routine","ja":"どようび","rom":"doyōbi"}
+{"id":"ja.c0260","deck":"ja.d.daily-routine","ja":"ときどき","rom":"tokidoki"}
+{"id":"ja.c0261","deck":"ja.d.daily-routine","ja":"あまり たべません","rom":"amari tabemasen"}
+{"id":"ja.c0262","deck":"ja.d.daily-routine","ja":"あさごはんを たべませんでした","rom":"asagohan o tabemasen deshita"}
+{"id":"ja.c0263","deck":"ja.d.describing-things","ja":"おおきい","rom":"ōkii"}
+{"id":"ja.c0264","deck":"ja.d.describing-things","ja":"ちいさい","rom":"chiisai"}
+{"id":"ja.c0265","deck":"ja.d.describing-things","ja":"あたらしい","rom":"atarashii"}
+{"id":"ja.c0266","deck":"ja.d.describing-things","ja":"ふるい","rom":"furui"}
+{"id":"ja.c0267","deck":"ja.d.describing-things","ja":"むずかしい","rom":"muzukashii"}
+{"id":"ja.c0268","deck":"ja.d.describing-things","ja":"おもしろい","rom":"omoshiroi"}
+{"id":"ja.c0269","deck":"ja.d.describing-things","ja":"さむい","rom":"samui"}
+{"id":"ja.c0270","deck":"ja.d.describing-things","ja":"あついですね","rom":"atsui desu ne"}
+{"id":"ja.c0271","deck":"ja.d.describing-things","ja":"きれいな へや","rom":"kirei na heya"}
+{"id":"ja.c0272","deck":"ja.d.describing-things","ja":"しずかな","rom":"shizuka na"}
+{"id":"ja.c0273","deck":"ja.d.describing-things","ja":"ゆうめいな","rom":"yūmei na"}
+{"id":"ja.c0274","deck":"ja.d.describing-things","ja":"たかかったです","rom":"takakatta desu"}
+{"id":"ja.c0275","deck":"ja.d.describing-things","ja":"たかくないです","rom":"takakunai desu"}
+{"id":"ja.c0276","deck":"ja.d.describing-things","ja":"きれいじゃないです","rom":"kirei janai desu"}
+{"id":"ja.c0277","deck":"ja.d.describing-things","ja":"よかったです","rom":"yokatta desu"}
+{"id":"ja.c0278","deck":"ja.d.describing-things","ja":"おいしいと おもいます","rom":"oishii to omoimasu"}
+{"id":"ja.c0279","deck":"ja.d.describing-things","ja":"どちらが いいですか","rom":"dochira ga ii desu ka"}
+{"id":"ja.c0280","deck":"ja.d.describing-things","ja":"とうきょうは おおさかより おおきいです","rom":"tōkyō wa ōsaka yori ōkii desu"}
+{"id":"ja.c0281","deck":"ja.d.likes-plans-and-free-time","ja":"ねこが すきです","rom":"neko ga suki desu"}
+{"id":"ja.c0282","deck":"ja.d.likes-plans-and-free-time","ja":"おんがくが だいすきです","rom":"ongaku ga daisuki desu"}
+{"id":"ja.c0283","deck":"ja.d.likes-plans-and-free-time","ja":"やさいが きらいです","rom":"yasai ga kirai desu"}
+{"id":"ja.c0284","deck":"ja.d.likes-plans-and-free-time","ja":"どんな えいがが すきですか","rom":"donna eiga ga suki desu ka"}
+{"id":"ja.c0285","deck":"ja.d.likes-plans-and-free-time","ja":"しゅみ","rom":"shumi"}
+{"id":"ja.c0286","deck":"ja.d.likes-plans-and-free-time","ja":"しゅうまつは なにを しますか","rom":"shūmatsu wa nani o shimasu ka"}
+{"id":"ja.c0287","deck":"ja.d.likes-plans-and-free-time","ja":"えいがを みます","rom":"eiga o mimasu"}
+{"id":"ja.c0288","deck":"ja.d.likes-plans-and-free-time","ja":"ほんを よみます","rom":"hon o yomimasu"}
+{"id":"ja.c0289","deck":"ja.d.likes-plans-and-free-time","ja":"おんがくを ききます","rom":"ongaku o kikimasu"}
+{"id":"ja.c0290","deck":"ja.d.likes-plans-and-free-time","ja":"テニスを します","rom":"tenisu o shimasu"}
+{"id":"ja.c0291","deck":"ja.d.likes-plans-and-free-time","ja":"りょうりが じょうずです","rom":"ryōri ga jōzu desu"}
+{"id":"ja.c0292","deck":"ja.d.likes-plans-and-free-time","ja":"ひまな とき","rom":"hima na toki"}
+{"id":"ja.c0293","deck":"ja.d.likes-plans-and-free-time","ja":"やすみ","rom":"yasumi"}
+{"id":"ja.c0294","deck":"ja.d.likes-plans-and-free-time","ja":"いっしょに いきませんか","rom":"issho ni ikimasen ka"}
+{"id":"ja.c0295","deck":"ja.d.likes-plans-and-free-time","ja":"いいですね","rom":"ii desu ne"}
+{"id":"ja.c0296","deck":"ja.d.likes-plans-and-free-time","ja":"カラオケに いきましょう","rom":"karaoke ni ikimashō"}
+{"id":"ja.c0297","deck":"ja.d.likes-plans-and-free-time","ja":"いきたいです","rom":"ikitai desu"}
+{"id":"ja.c0298","deck":"ja.d.likes-plans-and-free-time","ja":"りょこうする つもりです","rom":"ryokō suru tsumori desu"}
+{"id":"ja.c0299","deck":"ja.d.places-and-getting-around","ja":"えきは どこですか","rom":"eki wa doko desu ka"}
+{"id":"ja.c0300","deck":"ja.d.places-and-getting-around","ja":"トイレ","rom":"toire"}
+{"id":"ja.c0301","deck":"ja.d.places-and-getting-around","ja":"みぎ","rom":"migi"}
+{"id":"ja.c0302","deck":"ja.d.places-and-getting-around","ja":"ひだり","rom":"hidari"}
+{"id":"ja.c0303","deck":"ja.d.places-and-getting-around","ja":"まっすぐ","rom":"massugu"}
+{"id":"ja.c0304","deck":"ja.d.places-and-getting-around","ja":"まっすぐ いって ください","rom":"massugu itte kudasai"}
+{"id":"ja.c0305","deck":"ja.d.places-and-getting-around","ja":"ここから とおいですか","rom":"koko kara tōi desu ka"}
+{"id":"ja.c0306","deck":"ja.d.places-and-getting-around","ja":"でんしゃで","rom":"densha de"}
+{"id":"ja.c0307","deck":"ja.d.places-and-getting-around","ja":"バスで いきます","rom":"basu de ikimasu"}
+{"id":"ja.c0308","deck":"ja.d.places-and-getting-around","ja":"あるいて いきます","rom":"aruite ikimasu"}
+{"id":"ja.c0309","deck":"ja.d.places-and-getting-around","ja":"ちかてつ","rom":"chikatetsu"}
+{"id":"ja.c0310","deck":"ja.d.places-and-getting-around","ja":"きっぷ","rom":"kippu"}
+{"id":"ja.c0311","deck":"ja.d.places-and-getting-around","ja":"しんじゅくまで いくらですか","rom":"shinjuku made ikura desu ka"}
+{"id":"ja.c0312","deck":"ja.d.places-and-getting-around","ja":"この でんしゃは しぶやに いきますか","rom":"kono densha wa shibuya ni ikimasu ka"}
+{"id":"ja.c0313","deck":"ja.d.places-and-getting-around","ja":"こうえん","rom":"kōen"}
+{"id":"ja.c0314","deck":"ja.d.places-and-getting-around","ja":"みちに まよいました","rom":"michi ni mayoimashita"}
+{"id":"ja.c0315","deck":"ja.d.places-and-getting-around","ja":"きょうとに いきたいです","rom":"kyōto ni ikitai desu"}
+{"id":"ja.c0316","deck":"ja.d.places-and-getting-around","ja":"おきなわに いった ことが あります","rom":"okinawa ni itta koto ga arimasu"}
+{"id":"ja.c0317","deck":"ja.d.polite-requests-and-help","ja":"ちょっと まって ください","rom":"chotto matte kudasai"}
+{"id":"ja.c0318","deck":"ja.d.polite-requests-and-help","ja":"もう いちど おねがいします","rom":"mō ichido onegaishimasu"}
+{"id":"ja.c0319","deck":"ja.d.polite-requests-and-help","ja":"ゆっくり はなして ください","rom":"yukkuri hanashite kudasai"}
+{"id":"ja.c0320","deck":"ja.d.polite-requests-and-help","ja":"てつだって ください","rom":"tetsudatte kudasai"}
+{"id":"ja.c0321","deck":"ja.d.polite-requests-and-help","ja":"たすけて！","rom":"tasukete"}
+{"id":"ja.c0322","deck":"ja.d.polite-requests-and-help","ja":"はいっても いいですか","rom":"haitte mo ii desu ka"}
+{"id":"ja.c0323","deck":"ja.d.polite-requests-and-help","ja":"しゃしんを とっても いいですか","rom":"shashin o totte mo ii desu ka"}
+{"id":"ja.c0324","deck":"ja.d.polite-requests-and-help","ja":"ここに すわっても いいですか","rom":"koko ni suwatte mo ii desu ka"}
+{"id":"ja.c0325","deck":"ja.d.polite-requests-and-help","ja":"ここで たばこを すっては いけません","rom":"koko de tabako o sutte wa ikemasen"}
+{"id":"ja.c0326","deck":"ja.d.polite-requests-and-help","ja":"あたまが いたいです","rom":"atama ga itai desu"}
+{"id":"ja.c0327","deck":"ja.d.polite-requests-and-help","ja":"おなかが いたいんです","rom":"onaka ga itai n desu"}
+{"id":"ja.c0328","deck":"ja.d.polite-requests-and-help","ja":"きぶんが わるいです","rom":"kibun ga warui desu"}
+{"id":"ja.c0329","deck":"ja.d.polite-requests-and-help","ja":"くすりを のまなければ いけません","rom":"kusuri o nomanakereba ikemasen"}
+{"id":"ja.c0330","deck":"ja.d.polite-requests-and-help","ja":"やすんだ ほうが いいです","rom":"yasunda hō ga ii desu"}
+{"id":"ja.c0331","deck":"ja.d.polite-requests-and-help","ja":"びょういん","rom":"byōin"}
+{"id":"ja.c0332","deck":"ja.d.polite-requests-and-help","ja":"きゅうきゅうしゃを よんで ください","rom":"kyūkyūsha o yonde kudasai"}
+{"id":"ja.c0333","deck":"ja.d.polite-requests-and-help","ja":"けいさつ","rom":"keisatsu"}
+{"id":"ja.c0334","deck":"ja.d.polite-requests-and-help","ja":"さいふを なくしました","rom":"saifu o nakushimashita"}
+{"id":"ja.c0335","deck":"ja.d.casual-and-polite","ja":"うん","rom":"un"}
+{"id":"ja.c0336","deck":"ja.d.casual-and-polite","ja":"ううん","rom":"uun"}
+{"id":"ja.c0337","deck":"ja.d.casual-and-polite","ja":"ありがとう","rom":"arigatō"}
+{"id":"ja.c0338","deck":"ja.d.casual-and-polite","ja":"ごめん","rom":"gomen"}
+{"id":"ja.c0339","deck":"ja.d.casual-and-polite","ja":"げんき？","rom":"genki"}
+{"id":"ja.c0340","deck":"ja.d.casual-and-polite","ja":"いく？","rom":"iku"}
+{"id":"ja.c0341","deck":"ja.d.casual-and-polite","ja":"たべる","rom":"taberu"}
+{"id":"ja.c0342","deck":"ja.d.casual-and-polite","ja":"たべない","rom":"tabenai"}
+{"id":"ja.c0343","deck":"ja.d.casual-and-polite","ja":"いかない","rom":"ikanai"}
+{"id":"ja.c0344","deck":"ja.d.casual-and-polite","ja":"する","rom":"suru"}
+{"id":"ja.c0345","deck":"ja.d.casual-and-polite","ja":"くる","rom":"kuru"}
+{"id":"ja.c0346","deck":"ja.d.casual-and-polite","ja":"ない","rom":"nai"}
+{"id":"ja.c0347","deck":"ja.d.casual-and-polite","ja":"なに？","rom":"nani"}
+{"id":"ja.c0348","deck":"ja.d.casual-and-polite","ja":"だいじょうぶ？","rom":"daijōbu"}
+{"id":"ja.c0349","deck":"ja.d.casual-and-polite","ja":"いっしょに たべない？","rom":"issho ni tabenai"}
+{"id":"ja.c0350","deck":"ja.d.casual-and-polite","ja":"そうだね","rom":"sō da ne"}
+{"id":"ja.c0351","deck":"ja.d.casual-and-polite","ja":"おやすみ","rom":"oyasumi"}
+{"id":"ja.c0352","deck":"ja.d.casual-and-polite","ja":"じゃあ またね","rom":"jā mata ne"}
+{"id":"ja.c0353","deck":"ja.d.traps-for-english-speakers","ja":"マンション","rom":"manshon"}
+{"id":"ja.c0354","deck":"ja.d.traps-for-english-speakers","ja":"スマート","rom":"sumāto"}
+{"id":"ja.c0355","deck":"ja.d.traps-for-english-speakers","ja":"バイキング","rom":"baikingu"}
+{"id":"ja.c0356","deck":"ja.d.traps-for-english-speakers","ja":"コンセント","rom":"konsento"}
+{"id":"ja.c0357","deck":"ja.d.traps-for-english-speakers","ja":"クレーム","rom":"kurēmu"}
+{"id":"ja.c0358","deck":"ja.d.traps-for-english-speakers","ja":"バイク","rom":"baiku"}
+{"id":"ja.c0359","deck":"ja.d.traps-for-english-speakers","ja":"サービス","rom":"sābisu"}
+{"id":"ja.c0360","deck":"ja.d.traps-for-english-speakers","ja":"あなた","rom":"anata"}
+{"id":"ja.c0361","deck":"ja.d.traps-for-english-speakers","ja":"かれ","rom":"kare"}
+{"id":"ja.c0362","deck":"ja.d.traps-for-english-speakers","ja":"はい たべません","rom":"hai tabemasen"}
+{"id":"ja.c0363","deck":"ja.d.traps-for-english-speakers","ja":"けっこうです","rom":"kekkō desu"}
+{"id":"ja.c0364","deck":"ja.d.traps-for-english-speakers","ja":"いいです","rom":"ii desu"}
+{"id":"ja.c0365","deck":"ja.d.traps-for-english-speakers","ja":"すみません ちょっと","rom":"sumimasen chotto"}
+{"id":"ja.c0366","deck":"ja.d.traps-for-english-speakers","ja":"わたしは スミスです","rom":"watashi wa sumisu desu"}
+{"id":"ja.c0367","deck":"ja.d.traps-for-english-speakers","ja":"おかあさんは おげんきですか","rom":"okāsan wa ogenki desu ka"}
+{"id":"ja.c0368","deck":"ja.d.traps-for-english-speakers","ja":"わざわざ すみません","rom":"wazawaza sumimasen"}
+{"id":"ja.c0369","deck":"ja.d.traps-for-english-speakers","ja":"ありがとうございました","rom":"arigatō gozaimashita"}
+{"id":"ja.c0370","deck":"ja.d.traps-for-english-speakers","ja":"おはよう","rom":"ohayō"}
+{"id":"ja.c0371","deck":"ja.d.compliments","ja":"おいしそうですね","rom":"oishisō desu ne"}
+{"id":"ja.c0372","deck":"ja.d.compliments","ja":"いい においですね","rom":"ii nioi desu ne"}
+{"id":"ja.c0373","deck":"ja.d.compliments","ja":"とても おいしかったです","rom":"totemo oishikatta desu"}
+{"id":"ja.c0374","deck":"ja.d.compliments","ja":"りょうりが おじょうずですね","rom":"ryōri ga ojōzu desu ne"}
+{"id":"ja.c0375","deck":"ja.d.compliments","ja":"すごいですね","rom":"sugoi desu ne"}
+{"id":"ja.c0376","deck":"ja.d.compliments","ja":"さすがですね","rom":"sasuga desu ne"}
+{"id":"ja.c0377","deck":"ja.d.compliments","ja":"おじょうずですね","rom":"ojōzu desu ne"}
+{"id":"ja.c0378","deck":"ja.d.compliments","ja":"うたが じょうずですね","rom":"uta ga jōzu desu ne"}
+{"id":"ja.c0379","deck":"ja.d.compliments","ja":"いい アイデアですね","rom":"ii aidea desu ne"}
+{"id":"ja.c0380","deck":"ja.d.compliments","ja":"しごとが はやいですね","rom":"shigoto ga hayai desu ne"}
+{"id":"ja.c0381","deck":"ja.d.compliments","ja":"たすかりました","rom":"tasukarimashita"}
+{"id":"ja.c0382","deck":"ja.d.compliments","ja":"すごく よかったです","rom":"sugoku yokatta desu"}
+{"id":"ja.c0383","deck":"ja.d.compliments","ja":"おつかれさまでした","rom":"otsukaresama deshita"}
+{"id":"ja.c0384","deck":"ja.d.compliments","ja":"やさしいですね","rom":"yasashii desu ne"}
+{"id":"ja.c0385","deck":"ja.d.compliments","ja":"しんせつですね","rom":"shinsetsu desu ne"}
+{"id":"ja.c0386","deck":"ja.d.compliments","ja":"おもしろい ひとですね","rom":"omoshiroi hito desu ne"}
+{"id":"ja.c0387","deck":"ja.d.compliments","ja":"がんばりやさんですね","rom":"ganbariyasan desu ne"}
+{"id":"ja.c0388","deck":"ja.d.compliments","ja":"すてきですね","rom":"suteki desu ne"}
+{"id":"ja.c0389","deck":"ja.d.compliments","ja":"よく にあって いますね","rom":"yoku niatte imasu ne"}
+{"id":"ja.c0390","deck":"ja.d.compliments","ja":"おしゃれですね","rom":"oshare desu ne"}
+{"id":"ja.c0391","deck":"ja.d.compliments","ja":"すてきな いえですね","rom":"suteki na ie desu ne"}
+{"id":"ja.c0392","deck":"ja.d.compliments","ja":"おへやが きれいですね","rom":"oheya ga kirei desu ne"}
+{"id":"ja.c0393","deck":"ja.d.compliments","ja":"かわいい おこさんですね","rom":"kawaii okosan desu ne"}
+{"id":"ja.c0394","deck":"ja.d.compliments","ja":"かわいい ねこちゃんですね","rom":"kawaii nekochan desu ne"}
+{"id":"ja.c0395","deck":"ja.d.compliments","ja":"にほんごが おじょうずですね","rom":"nihongo ga ojōzu desu ne"}
+{"id":"ja.c0396","deck":"ja.d.compliments","ja":"にほんご ぺらぺらですね","rom":"nihongo perapera desu ne"}
+{"id":"ja.c0397","deck":"ja.d.compliments","ja":"いえいえ まだまだです","rom":"ieie madamada desu"}
+{"id":"ja.c0398","deck":"ja.d.compliments","ja":"そんな こと ないです","rom":"sonna koto nai desu"}
+{"id":"ja.c0399","deck":"ja.d.compliments","ja":"ありがとうございます うれしいです","rom":"arigatō gozaimasu ureshii desu"}
+{"id":"ja.c0400","deck":"ja.d.compliments","ja":"おせじでも うれしいです","rom":"oseji demo ureshii desu"}
+{"id":"ja.c0401","deck":"ja.d.compliments","ja":"おかげさまで","rom":"okagesama de"}
+{"id":"ja.c0402","deck":"ja.d.compliments","ja":"ほめすぎですよ","rom":"homesugi desu yo"}
+{"id":"ja.c0403","deck":"ja.d.flirting","ja":"かわいい","rom":"kawaii"}
+{"id":"ja.c0404","deck":"ja.d.flirting","ja":"きれいな","rom":"kirei na"}
+{"id":"ja.c0405","deck":"ja.d.flirting","ja":"かっこいい","rom":"kakkoii"}
+{"id":"ja.c0406","deck":"ja.d.flirting","ja":"すてきな","rom":"suteki na"}
+{"id":"ja.c0407","deck":"ja.d.flirting","ja":"やさしい","rom":"yasashii"}
+{"id":"ja.c0408","deck":"ja.d.flirting","ja":"おしゃれな","rom":"oshare na"}
+{"id":"ja.c0409","deck":"ja.d.flirting","ja":"イケメン","rom":"ikemen"}
+{"id":"ja.c0410","deck":"ja.d.flirting","ja":"びじん","rom":"bijin"}
+{"id":"ja.c0411","deck":"ja.d.flirting","ja":"えがお","rom":"egao"}
+{"id":"ja.c0412","deck":"ja.d.flirting","ja":"こえ","rom":"koe"}
+{"id":"ja.c0413","deck":"ja.d.flirting","ja":"センス","rom":"sensu"}
+{"id":"ja.c0414","deck":"ja.d.flirting","ja":"ふんいき","rom":"fun'iki"}
+{"id":"ja.c0415","deck":"ja.d.flirting","ja":"タイプ","rom":"taipu"}
+{"id":"ja.c0416","deck":"ja.d.flirting","ja":"ドキドキ","rom":"dokidoki"}
+{"id":"ja.c0417","deck":"ja.d.flirting","ja":"デート","rom":"dēto"}
+{"id":"ja.c0418","deck":"ja.d.flirting","ja":"こくはく","rom":"kokuhaku"}
+{"id":"ja.c0419","deck":"ja.d.flirting","ja":"かれし","rom":"kareshi"}
+{"id":"ja.c0420","deck":"ja.d.flirting","ja":"こいびと","rom":"koibito"}
+{"id":"ja.c0421","deck":"ja.d.flirting","ja":"いい ひと","rom":"ii hito"}
+{"id":"ja.c0422","deck":"ja.d.flirting","ja":"ひとめぼれ","rom":"hitomebore"}
+{"id":"ja.c0423","deck":"ja.d.flirting","ja":"かわいいですね","rom":"kawaii desu ne"}
+{"id":"ja.c0424","deck":"ja.d.flirting","ja":"その ふく かわいいですね","rom":"sono fuku kawaii desu ne"}
+{"id":"ja.c0425","deck":"ja.d.flirting","ja":"きれいですね","rom":"kirei desu ne"}
+{"id":"ja.c0426","deck":"ja.d.flirting","ja":"きょうも きれいですね","rom":"kyō mo kirei desu ne"}
+{"id":"ja.c0427","deck":"ja.d.flirting","ja":"かっこいいですね","rom":"kakkoii desu ne"}
+{"id":"ja.c0428","deck":"ja.d.flirting","ja":"その シャツ かっこいいですね","rom":"sono shatsu kakkoii desu ne"}
+{"id":"ja.c0429","deck":"ja.d.flirting","ja":"えがおが すてきですね","rom":"egao ga suteki desu ne"}
+{"id":"ja.c0430","deck":"ja.d.flirting","ja":"わらった かおが すきです","rom":"waratta kao ga suki desu"}
+{"id":"ja.c0431","deck":"ja.d.flirting","ja":"いい こえですね","rom":"ii koe desu ne"}
+{"id":"ja.c0432","deck":"ja.d.flirting","ja":"こえが すきです","rom":"koe ga suki desu"}
+{"id":"ja.c0433","deck":"ja.d.flirting","ja":"センスが いいですね","rom":"sensu ga ii desu ne"}
+{"id":"ja.c0434","deck":"ja.d.flirting","ja":"いつも おしゃれですね","rom":"itsumo oshare desu ne"}
+{"id":"ja.c0435","deck":"ja.d.flirting","ja":"ふんいきが すてきですね","rom":"fun'iki ga suteki desu ne"}
+{"id":"ja.c0436","deck":"ja.d.flirting","ja":"やさしい ひとが すきです","rom":"yasashii hito ga suki desu"}
+{"id":"ja.c0437","deck":"ja.d.flirting","ja":"かみ きりましたか","rom":"kami kirimashita ka"}
+{"id":"ja.c0438","deck":"ja.d.flirting","ja":"その いろ にあいますね","rom":"sono iro niaimasu ne"}
+{"id":"ja.c0439","deck":"ja.d.flirting","ja":"タイプです","rom":"taipu desu"}
+{"id":"ja.c0440","deck":"ja.d.flirting","ja":"はなしやすいですね","rom":"hanashiyasui desu ne"}
+{"id":"ja.c0441","deck":"ja.d.flirting","ja":"いっしょに いると たのしいです","rom":"issho ni iru to tanoshii desu"}
+{"id":"ja.c0442","deck":"ja.d.flirting","ja":"もっと はなしたいです","rom":"motto hanashitai desu"}
+{"id":"ja.c0443","deck":"ja.d.flirting","ja":"あえて うれしかったです","rom":"aete ureshikatta desu"}
+{"id":"ja.c0444","deck":"ja.d.flirting","ja":"きに なって います","rom":"ki ni natte imasu"}
+{"id":"ja.c0445","deck":"ja.d.flirting","ja":"ドキドキします","rom":"dokidoki shimasu"}
+{"id":"ja.c0446","deck":"ja.d.flirting","ja":"すきです","rom":"suki desu"}
+{"id":"ja.c0447","deck":"ja.d.flirting","ja":"すきに なりました","rom":"suki ni narimashita"}
+{"id":"ja.c0448","deck":"ja.d.flirting","ja":"つきあって ください","rom":"tsukiatte kudasai"}
+{"id":"ja.c0449","deck":"ja.d.flirting","ja":"ひとめぼれでした","rom":"hitomebore deshita"}
+{"id":"ja.c0450","deck":"ja.d.flirting","ja":"ライン こうかんしませんか","rom":"rain kōkan shimasen ka"}
+{"id":"ja.c0451","deck":"ja.d.flirting","ja":"れんらくさきを きいても いいですか","rom":"renrakusaki o kiite mo ii desu ka"}
+{"id":"ja.c0452","deck":"ja.d.flirting","ja":"こんど ごはんでも いきませんか","rom":"kondo gohan demo ikimasen ka"}
+{"id":"ja.c0453","deck":"ja.d.flirting","ja":"ふたりで のみに いきませんか","rom":"futari de nomi ni ikimasen ka"}
+{"id":"ja.c0454","deck":"ja.d.flirting","ja":"しゅうまつ あいて いますか","rom":"shūmatsu aite imasu ka"}
+{"id":"ja.c0455","deck":"ja.d.flirting","ja":"また あえますか","rom":"mata aemasu ka"}
+{"id":"ja.c0456","deck":"ja.d.flirting","ja":"こんど デートしませんか","rom":"kondo dēto shimasen ka"}
+{"id":"ja.c0457","deck":"ja.d.flirting","ja":"ぜひ いきたいです","rom":"zehi ikitai desu"}
+{"id":"ja.c0458","deck":"ja.d.flirting","ja":"よろこんで","rom":"yorokonde"}
+{"id":"ja.c0459","deck":"ja.d.flirting","ja":"わたしもです","rom":"watashi mo desu"}
+{"id":"ja.c0460","deck":"ja.d.flirting","ja":"うれしいです","rom":"ureshii desu"}
+{"id":"ja.c0461","deck":"ja.d.flirting","ja":"くちが うまいですね","rom":"kuchi ga umai desu ne"}
+{"id":"ja.c0462","deck":"ja.d.flirting","ja":"おせじが じょうずですね","rom":"oseji ga jōzu desu ne"}
+{"id":"ja.c0463","deck":"ja.d.flirting","ja":"きもちは うれしいです","rom":"kimochi wa ureshii desu"}
+{"id":"ja.c0464","deck":"ja.d.flirting","ja":"ごめんなさい つきあって いる ひとが います","rom":"gomen nasai tsukiatte iru hito ga imasu"}
+{"id":"ja.c0465","deck":"ja.d.flirting","ja":"ごめんなさい ともだちで いたいです","rom":"gomen nasai tomodachi de itai desu"}
+{"id":"ja.c0466","deck":"ja.d.flirting","ja":"いまは れんあいは かんがえて いないんです","rom":"ima wa ren'ai wa kangaete inai n desu"}
+{"id":"ja.c0467","deck":"ja.d.flirting","ja":"ちょっと いそがしくて","rom":"chotto isogashikute"}
+{"id":"ja.c0468","deck":"ja.d.top-nouns","ja":"こと","rom":"koto"}
+{"id":"ja.c0469","deck":"ja.d.top-nouns","ja":"ほう","rom":"hō"}
+{"id":"ja.c0470","deck":"ja.d.top-nouns","ja":"かんじ","rom":"kanji"}
+{"id":"ja.c0471","deck":"ja.d.top-nouns","ja":"まえ","rom":"mae"}
+{"id":"ja.c0472","deck":"ja.d.top-nouns","ja":"はなし","rom":"hanashi"}
+{"id":"ja.c0473","deck":"ja.d.top-nouns","ja":"わけ","rom":"wake"}
+{"id":"ja.c0474","deck":"ja.d.top-nouns","ja":"ところ","rom":"tokoro"}
+{"id":"ja.c0475","deck":"ja.d.top-nouns","ja":"うち","rom":"uchi"}
+{"id":"ja.c0476","deck":"ja.d.top-nouns","ja":"じかん","rom":"jikan"}
+{"id":"ja.c0477","deck":"ja.d.top-nouns","ja":"なか","rom":"naka"}
+{"id":"ja.c0478","deck":"ja.d.top-nouns","ja":"うえ","rom":"ue"}
+{"id":"ja.c0479","deck":"ja.d.top-nouns","ja":"がっこう","rom":"gakkō"}
+{"id":"ja.c0480","deck":"ja.d.top-nouns","ja":"もの","rom":"mono"}
+{"id":"ja.c0481","deck":"ja.d.top-nouns","ja":"さいしょ","rom":"saisho"}
+{"id":"ja.c0482","deck":"ja.d.top-nouns","ja":"した","rom":"shita"}
+{"id":"ja.c0483","deck":"ja.d.top-nouns","ja":"しごと","rom":"shigoto"}
+{"id":"ja.c0484","deck":"ja.d.top-nouns","ja":"いみ","rom":"imi"}
+{"id":"ja.c0485","deck":"ja.d.top-nouns","ja":"つぎ","rom":"tsugi"}
+{"id":"ja.c0486","deck":"ja.d.top-nouns","ja":"いえ","rom":"ie"}
+{"id":"ja.c0487","deck":"ja.d.top-nouns","ja":"おかね","rom":"okane"}
+{"id":"ja.c0488","deck":"ja.d.top-nouns","ja":"さいご","rom":"saigo"}
+{"id":"ja.c0489","deck":"ja.d.top-nouns","ja":"ごはん","rom":"gohan"}
+{"id":"ja.c0490","deck":"ja.d.top-nouns","ja":"くるま","rom":"kuruma"}
+{"id":"ja.c0491","deck":"ja.d.top-nouns","ja":"むこう","rom":"mukō"}
+{"id":"ja.c0492","deck":"ja.d.top-nouns","ja":"かいしゃ","rom":"kaisha"}
+{"id":"ja.c0493","deck":"ja.d.top-nouns","ja":"なまえ","rom":"namae"}
+{"id":"ja.c0494","deck":"ja.d.top-nouns","ja":"かお","rom":"kao"}
+{"id":"ja.c0495","deck":"ja.d.top-nouns","ja":"にほんご","rom":"nihongo"}
+{"id":"ja.c0496","deck":"ja.d.top-nouns","ja":"だいがく","rom":"daigaku"}
+{"id":"ja.c0497","deck":"ja.d.top-nouns","ja":"もんだい","rom":"mondai"}
+{"id":"ja.c0498","deck":"ja.d.top-nouns","ja":"みず","rom":"mizu"}
+{"id":"ja.c0499","deck":"ja.d.top-nouns","ja":"うそ","rom":"uso"}
+{"id":"ja.c0500","deck":"ja.d.top-nouns","ja":"パン","rom":"pan"}
+{"id":"ja.c0501","deck":"ja.d.top-nouns","ja":"こうこう","rom":"kōkō"}
+{"id":"ja.c0502","deck":"ja.d.top-nouns","ja":"でんわ","rom":"denwa"}
+{"id":"ja.c0503","deck":"ja.d.top-nouns","ja":"あたま","rom":"atama"}
+{"id":"ja.c0504","deck":"ja.d.top-nouns","ja":"バス","rom":"basu"}
+{"id":"ja.c0505","deck":"ja.d.top-nouns","ja":"みせ","rom":"mise"}
+{"id":"ja.c0506","deck":"ja.d.top-nouns","ja":"あじ","rom":"aji"}
+{"id":"ja.c0507","deck":"ja.d.top-nouns","ja":"いろ","rom":"iro"}
+{"id":"ja.c0508","deck":"ja.d.top-nouns","ja":"ことば","rom":"kotoba"}
+{"id":"ja.c0509","deck":"ja.d.top-nouns","ja":"ビール","rom":"bīru"}
+{"id":"ja.c0510","deck":"ja.d.top-nouns","ja":"えき","rom":"eki"}
+{"id":"ja.c0511","deck":"ja.d.top-nouns","ja":"きもち","rom":"kimochi"}
+{"id":"ja.c0512","deck":"ja.d.top-nouns","ja":"おさけ","rom":"osake"}
+{"id":"ja.c0513","deck":"ja.d.top-nouns","ja":"ばしょ","rom":"basho"}
+{"id":"ja.c0514","deck":"ja.d.top-nouns","ja":"へや","rom":"heya"}
+{"id":"ja.c0515","deck":"ja.d.top-nouns","ja":"にく","rom":"niku"}
+{"id":"ja.c0516","deck":"ja.d.top-nouns","ja":"じゅぎょう","rom":"jugyō"}
+{"id":"ja.c0517","deck":"ja.d.top-nouns","ja":"あし","rom":"ashi"}
+{"id":"ja.c0518","deck":"ja.d.top-nouns","ja":"そと","rom":"soto"}
+{"id":"ja.c0519","deck":"ja.d.top-nouns","ja":"おきゃくさん","rom":"okyakusan"}
+{"id":"ja.c0520","deck":"ja.d.top-nouns","ja":"りょうり","rom":"ryōri"}
+{"id":"ja.c0521","deck":"ja.d.top-nouns","ja":"おなか","rom":"onaka"}
+{"id":"ja.c0522","deck":"ja.d.top-nouns","ja":"でんしゃ","rom":"densha"}
+{"id":"ja.c0523","deck":"ja.d.top-nouns","ja":"からだ","rom":"karada"}
+{"id":"ja.c0524","deck":"ja.d.top-nouns","ja":"やま","rom":"yama"}
+{"id":"ja.c0525","deck":"ja.d.top-nouns","ja":"よこ","rom":"yoko"}
+{"id":"ja.c0526","deck":"ja.d.top-nouns","ja":"けっこん","rom":"kekkon"}
+{"id":"ja.c0527","deck":"ja.d.top-nouns","ja":"れんらく","rom":"renraku"}
+{"id":"ja.c0528","deck":"ja.d.top-nouns","ja":"おと","rom":"oto"}
+{"id":"ja.c0529","deck":"ja.d.top-nouns","ja":"ほん","rom":"hon"}
+{"id":"ja.c0530","deck":"ja.d.top-nouns","ja":"となり","rom":"tonari"}
+{"id":"ja.c0531","deck":"ja.d.top-nouns","ja":"ホテル","rom":"hoteru"}
+{"id":"ja.c0532","deck":"ja.d.top-nouns","ja":"えいご","rom":"eigo"}
+{"id":"ja.c0533","deck":"ja.d.top-nouns","ja":"せかい","rom":"sekai"}
+{"id":"ja.c0534","deck":"ja.d.top-nouns","ja":"テレビ","rom":"terebi"}
+{"id":"ja.c0535","deck":"ja.d.top-nouns","ja":"カメラ","rom":"kamera"}
+{"id":"ja.c0536","deck":"ja.d.top-nouns","ja":"うしろ","rom":"ushiro"}
+{"id":"ja.c0537","deck":"ja.d.top-nouns","ja":"メール","rom":"mēru"}
+{"id":"ja.c0538","deck":"ja.d.top-nouns","ja":"おわり","rom":"owari"}
+{"id":"ja.c0539","deck":"ja.d.top-nouns","ja":"りょこう","rom":"ryokō"}
+{"id":"ja.c0540","deck":"ja.d.top-nouns","ja":"くち","rom":"kuchi"}
+{"id":"ja.c0541","deck":"ja.d.top-nouns","ja":"みち","rom":"michi"}
+{"id":"ja.c0542","deck":"ja.d.top-nouns","ja":"せんぱい","rom":"senpai"}
+{"id":"ja.c0543","deck":"ja.d.top-nouns","ja":"おかし","rom":"okashi"}
+{"id":"ja.c0544","deck":"ja.d.top-nouns","ja":"はな","rom":"hana"}
+{"id":"ja.c0545","deck":"ja.d.top-nouns","ja":"うた","rom":"uta"}
+{"id":"ja.c0546","deck":"ja.d.top-nouns","ja":"おんがく","rom":"ongaku"}
+{"id":"ja.c0547","deck":"ja.d.top-nouns","ja":"おとな","rom":"otona"}
+{"id":"ja.c0548","deck":"ja.d.top-nouns","ja":"よてい","rom":"yotei"}
+{"id":"ja.c0549","deck":"ja.d.top-nouns","ja":"あめ","rom":"ame"}
+{"id":"ja.c0550","deck":"ja.d.top-nouns","ja":"えいが","rom":"eiga"}
+{"id":"ja.c0551","deck":"ja.d.top-nouns","ja":"ねだん","rom":"nedan"}
+{"id":"ja.c0552","deck":"ja.d.top-nouns","ja":"ゲーム","rom":"gēmu"}
+{"id":"ja.c0553","deck":"ja.d.top-nouns","ja":"いす","rom":"isu"}
+{"id":"ja.c0554","deck":"ja.d.top-nouns","ja":"さかな","rom":"sakana"}
+{"id":"ja.c0555","deck":"ja.d.top-nouns","ja":"おふろ","rom":"ofuro"}
+{"id":"ja.c0556","deck":"ja.d.top-nouns","ja":"いぬ","rom":"inu"}
+{"id":"ja.c0557","deck":"ja.d.top-nouns","ja":"かみ","rom":"kami"}
+{"id":"ja.c0558","deck":"ja.d.top-nouns","ja":"とり","rom":"tori"}
+{"id":"ja.c0559","deck":"ja.d.top-nouns","ja":"ねこ","rom":"neko"}
+{"id":"ja.c0560","deck":"ja.d.top-nouns","ja":"おんせん","rom":"onsen"}
+{"id":"ja.c0561","deck":"ja.d.top-nouns","ja":"しけん","rom":"shiken"}
+{"id":"ja.c0562","deck":"ja.d.top-nouns","ja":"しつもん","rom":"shitsumon"}
+{"id":"ja.c0563","deck":"ja.d.top-nouns","ja":"たべもの","rom":"tabemono"}
+{"id":"ja.c0564","deck":"ja.d.top-nouns","ja":"かいもの","rom":"kaimono"}
+{"id":"ja.c0565","deck":"ja.d.top-nouns","ja":"てんき","rom":"tenki"}
+{"id":"ja.c0566","deck":"ja.d.top-nouns","ja":"のみもの","rom":"nomimono"}
+{"id":"ja.c0567","deck":"ja.d.top-verbs","ja":"いう","rom":"iu"}
+{"id":"ja.c0568","deck":"ja.d.top-verbs","ja":"ある","rom":"aru"}
+{"id":"ja.c0569","deck":"ja.d.top-verbs","ja":"やる","rom":"yaru"}
+{"id":"ja.c0570","deck":"ja.d.top-verbs","ja":"おもう","rom":"omou"}
+{"id":"ja.c0571","deck":"ja.d.top-verbs","ja":"なる","rom":"naru"}
+{"id":"ja.c0572","deck":"ja.d.top-verbs","ja":"いる","rom":"iru"}
+{"id":"ja.c0573","deck":"ja.d.top-verbs","ja":"わかる","rom":"wakaru"}
+{"id":"ja.c0574","deck":"ja.d.top-verbs","ja":"みる","rom":"miru"}
+{"id":"ja.c0575","deck":"ja.d.top-verbs","ja":"ちがう","rom":"chigau"}
+{"id":"ja.c0576","deck":"ja.d.top-verbs","ja":"できる","rom":"dekiru"}
+{"id":"ja.c0577","deck":"ja.d.top-verbs","ja":"でる","rom":"deru"}
+{"id":"ja.c0578","deck":"ja.d.top-verbs","ja":"はいる","rom":"hairu"}
+{"id":"ja.c0579","deck":"ja.d.top-verbs","ja":"もらう","rom":"morau"}
+{"id":"ja.c0580","deck":"ja.d.top-verbs","ja":"とる","rom":"toru"}
+{"id":"ja.c0581","deck":"ja.d.top-verbs","ja":"つかう","rom":"tsukau"}
+{"id":"ja.c0582","deck":"ja.d.top-verbs","ja":"もつ","rom":"motsu"}
+{"id":"ja.c0583","deck":"ja.d.top-verbs","ja":"しる","rom":"shiru"}
+{"id":"ja.c0584","deck":"ja.d.top-verbs","ja":"いれる","rom":"ireru"}
+{"id":"ja.c0585","deck":"ja.d.top-verbs","ja":"かく","rom":"kaku"}
+{"id":"ja.c0586","deck":"ja.d.top-verbs","ja":"つくる","rom":"tsukuru"}
+{"id":"ja.c0587","deck":"ja.d.top-verbs","ja":"くれる","rom":"kureru"}
+{"id":"ja.c0588","deck":"ja.d.top-verbs","ja":"かう","rom":"kau"}
+{"id":"ja.c0589","deck":"ja.d.top-verbs","ja":"のむ","rom":"nomu"}
+{"id":"ja.c0590","deck":"ja.d.top-verbs","ja":"きく","rom":"kiku"}
+{"id":"ja.c0591","deck":"ja.d.top-verbs","ja":"だす","rom":"dasu"}
+{"id":"ja.c0592","deck":"ja.d.top-verbs","ja":"かえる","rom":"kaeru"}
+{"id":"ja.c0593","deck":"ja.d.top-verbs","ja":"まつ","rom":"matsu"}
+{"id":"ja.c0594","deck":"ja.d.top-verbs","ja":"かんがえる","rom":"kangaeru"}
+{"id":"ja.c0595","deck":"ja.d.top-verbs","ja":"おく","rom":"oku"}
+{"id":"ja.c0596","deck":"ja.d.top-verbs","ja":"あげる","rom":"ageru"}
+{"id":"ja.c0597","deck":"ja.d.top-verbs","ja":"かわる","rom":"kawaru"}
+{"id":"ja.c0598","deck":"ja.d.top-verbs","ja":"のる","rom":"noru"}
+{"id":"ja.c0599","deck":"ja.d.top-verbs","ja":"やめる","rom":"yameru"}
+{"id":"ja.c0600","deck":"ja.d.top-verbs","ja":"つける","rom":"tsukeru"}
+{"id":"ja.c0601","deck":"ja.d.top-verbs","ja":"おわる","rom":"owaru"}
+{"id":"ja.c0602","deck":"ja.d.top-verbs","ja":"おぼえる","rom":"oboeru"}
+{"id":"ja.c0603","deck":"ja.d.top-verbs","ja":"みえる","rom":"mieru"}
+{"id":"ja.c0604","deck":"ja.d.top-verbs","ja":"あう","rom":"au"}
+{"id":"ja.c0605","deck":"ja.d.top-verbs","ja":"よむ","rom":"yomu"}
+{"id":"ja.c0606","deck":"ja.d.top-verbs","ja":"あるく","rom":"aruku"}
+{"id":"ja.c0607","deck":"ja.d.top-verbs","ja":"うる","rom":"uru"}
+{"id":"ja.c0608","deck":"ja.d.top-verbs","ja":"ねる","rom":"neru"}
+{"id":"ja.c0609","deck":"ja.d.top-verbs","ja":"がんばる","rom":"ganbaru"}
+{"id":"ja.c0610","deck":"ja.d.top-verbs","ja":"わすれる","rom":"wasureru"}
+{"id":"ja.c0611","deck":"ja.d.top-verbs","ja":"はなす","rom":"hanasu"}
+{"id":"ja.c0612","deck":"ja.d.top-verbs","ja":"おしえる","rom":"oshieru"}
+{"id":"ja.c0613","deck":"ja.d.top-verbs","ja":"おくる","rom":"okuru"}
+{"id":"ja.c0614","deck":"ja.d.top-verbs","ja":"しぬ","rom":"shinu"}
+{"id":"ja.c0615","deck":"ja.d.top-verbs","ja":"たのむ","rom":"tanomu"}
+{"id":"ja.c0616","deck":"ja.d.top-verbs","ja":"きめる","rom":"kimeru"}
+{"id":"ja.c0617","deck":"ja.d.top-verbs","ja":"よぶ","rom":"yobu"}
+{"id":"ja.c0618","deck":"ja.d.top-verbs","ja":"はじめる","rom":"hajimeru"}
+{"id":"ja.c0619","deck":"ja.d.top-verbs","ja":"あける","rom":"akeru"}
+{"id":"ja.c0620","deck":"ja.d.top-verbs","ja":"もどる","rom":"modoru"}
+{"id":"ja.c0621","deck":"ja.d.top-verbs","ja":"すむ","rom":"sumu"}
+{"id":"ja.c0622","deck":"ja.d.top-verbs","ja":"あそぶ","rom":"asobu"}
+{"id":"ja.c0623","deck":"ja.d.top-verbs","ja":"しらべる","rom":"shiraberu"}
+{"id":"ja.c0624","deck":"ja.d.top-verbs","ja":"すわる","rom":"suwaru"}
+{"id":"ja.c0625","deck":"ja.d.top-verbs","ja":"きる","rom":"kiru"}
+{"id":"ja.c0626","deck":"ja.d.top-verbs","ja":"はしる","rom":"hashiru"}
+{"id":"ja.c0627","deck":"ja.d.top-verbs","ja":"はたらく","rom":"hataraku"}
+{"id":"ja.c0628","deck":"ja.d.top-verbs","ja":"かりる","rom":"kariru"}
+{"id":"ja.c0629","deck":"ja.d.top-verbs","ja":"こまる","rom":"komaru"}
+{"id":"ja.c0630","deck":"ja.d.top-verbs","ja":"すう","rom":"suu"}
+{"id":"ja.c0631","deck":"ja.d.top-verbs","ja":"とまる","rom":"tomaru"}
+{"id":"ja.c0632","deck":"ja.d.top-verbs","ja":"はらう","rom":"harau"}
+{"id":"ja.c0633","deck":"ja.d.top-verbs","ja":"つかれる","rom":"tsukareru"}
+{"id":"ja.c0634","deck":"ja.d.top-verbs","ja":"おきる","rom":"okiru"}
+{"id":"ja.c0635","deck":"ja.d.top-verbs","ja":"あらう","rom":"arau"}
+{"id":"ja.c0636","deck":"ja.d.top-verbs","ja":"さがす","rom":"sagasu"}
+{"id":"ja.c0637","deck":"ja.d.top-verbs","ja":"はじまる","rom":"hajimaru"}
+{"id":"ja.c0638","deck":"ja.d.top-verbs","ja":"わらう","rom":"warau"}
+{"id":"ja.c0639","deck":"ja.d.top-verbs","ja":"うたう","rom":"utau"}
+{"id":"ja.c0640","deck":"ja.d.top-verbs","ja":"ふる","rom":"furu"}
+{"id":"ja.c0641","deck":"ja.d.top-verbs","ja":"やすむ","rom":"yasumu"}
+{"id":"ja.c0642","deck":"ja.d.top-verbs","ja":"つく","rom":"tsuku"}
+{"id":"ja.c0643","deck":"ja.d.top-verbs","ja":"かす","rom":"kasu"}
+{"id":"ja.c0644","deck":"ja.d.top-verbs","ja":"かえす","rom":"kaesu"}
+{"id":"ja.c0645","deck":"ja.d.top-verbs","ja":"けす","rom":"kesu"}
+{"id":"ja.c0646","deck":"ja.d.top-verbs","ja":"うまれる","rom":"umareru"}
+{"id":"ja.c0647","deck":"ja.d.top-verbs","ja":"なく","rom":"naku"}
+{"id":"ja.c0648","deck":"ja.d.top-verbs","ja":"てつだう","rom":"tetsudau"}
+{"id":"ja.c0649","deck":"ja.d.top-verbs","ja":"つきあう","rom":"tsukiau"}
+{"id":"ja.c0650","deck":"ja.d.top-verbs","ja":"でかける","rom":"dekakeru"}
+{"id":"ja.c0651","deck":"ja.d.top-verbs","ja":"ならう","rom":"narau"}
+{"id":"ja.c0652","deck":"ja.d.top-adjectives","ja":"いい","rom":"ii"}
+{"id":"ja.c0653","deck":"ja.d.top-adjectives","ja":"すごい","rom":"sugoi"}
+{"id":"ja.c0654","deck":"ja.d.top-adjectives","ja":"ふつう","rom":"futsū"}
+{"id":"ja.c0655","deck":"ja.d.top-adjectives","ja":"すきな","rom":"suki na"}
+{"id":"ja.c0656","deck":"ja.d.top-adjectives","ja":"いやな","rom":"iya na"}
+{"id":"ja.c0657","deck":"ja.d.top-adjectives","ja":"おおい","rom":"ōi"}
+{"id":"ja.c0658","deck":"ja.d.top-adjectives","ja":"はやい","rom":"hayai"}
+{"id":"ja.c0659","deck":"ja.d.top-adjectives","ja":"たいへんな","rom":"taihen na"}
+{"id":"ja.c0660","deck":"ja.d.top-adjectives","ja":"やばい","rom":"yabai"}
+{"id":"ja.c0661","deck":"ja.d.top-adjectives","ja":"うまい","rom":"umai"}
+{"id":"ja.c0662","deck":"ja.d.top-adjectives","ja":"わるい","rom":"warui"}
+{"id":"ja.c0663","deck":"ja.d.top-adjectives","ja":"こわい","rom":"kowai"}
+{"id":"ja.c0664","deck":"ja.d.top-adjectives","ja":"ほしい","rom":"hoshii"}
+{"id":"ja.c0665","deck":"ja.d.top-adjectives","ja":"いたい","rom":"itai"}
+{"id":"ja.c0666","deck":"ja.d.top-adjectives","ja":"ながい","rom":"nagai"}
+{"id":"ja.c0667","deck":"ja.d.top-adjectives","ja":"たのしい","rom":"tanoshii"}
+{"id":"ja.c0668","deck":"ja.d.top-adjectives","ja":"へんな","rom":"hen na"}
+{"id":"ja.c0669","deck":"ja.d.top-adjectives","ja":"つよい","rom":"tsuyoi"}
+{"id":"ja.c0670","deck":"ja.d.top-adjectives","ja":"ひつような","rom":"hitsuyō na"}
+{"id":"ja.c0671","deck":"ja.d.top-adjectives","ja":"すくない","rom":"sukunai"}
+{"id":"ja.c0672","deck":"ja.d.top-adjectives","ja":"ちかい","rom":"chikai"}
+{"id":"ja.c0673","deck":"ja.d.top-adjectives","ja":"わかい","rom":"wakai"}
+{"id":"ja.c0674","deck":"ja.d.top-adjectives","ja":"だいじな","rom":"daiji na"}
+{"id":"ja.c0675","deck":"ja.d.top-adjectives","ja":"おかしい","rom":"okashii"}
+{"id":"ja.c0676","deck":"ja.d.top-adjectives","ja":"おなじ","rom":"onaji"}
+{"id":"ja.c0677","deck":"ja.d.top-adjectives","ja":"あまい","rom":"amai"}
+{"id":"ja.c0678","deck":"ja.d.top-adjectives","ja":"いそがしい","rom":"isogashii"}
+{"id":"ja.c0679","deck":"ja.d.top-adjectives","ja":"らくな","rom":"raku na"}
+{"id":"ja.c0680","deck":"ja.d.top-adjectives","ja":"あつい","rom":"atsui"}
+{"id":"ja.c0681","deck":"ja.d.top-adjectives","ja":"げんきな","rom":"genki na"}
+{"id":"ja.c0682","deck":"ja.d.top-adjectives","ja":"あぶない","rom":"abunai"}
+{"id":"ja.c0683","deck":"ja.d.top-adjectives","ja":"えらい","rom":"erai"}
+{"id":"ja.c0684","deck":"ja.d.top-adjectives","ja":"うれしい","rom":"ureshii"}
+{"id":"ja.c0685","deck":"ja.d.top-adjectives","ja":"おもい","rom":"omoi"}
+{"id":"ja.c0686","deck":"ja.d.top-adjectives","ja":"ひどい","rom":"hidoi"}
+{"id":"ja.c0687","deck":"ja.d.top-adjectives","ja":"からい","rom":"karai"}
+{"id":"ja.c0688","deck":"ja.d.top-adjectives","ja":"ひろい","rom":"hiroi"}
+{"id":"ja.c0689","deck":"ja.d.top-adjectives","ja":"おそい","rom":"osoi"}
+{"id":"ja.c0690","deck":"ja.d.top-adjectives","ja":"きらいな","rom":"kirai na"}
+{"id":"ja.c0691","deck":"ja.d.top-adjectives","ja":"うるさい","rom":"urusai"}
+{"id":"ja.c0692","deck":"ja.d.top-adjectives","ja":"とおい","rom":"tōi"}
+{"id":"ja.c0693","deck":"ja.d.top-adjectives","ja":"かわいそうな","rom":"kawaisō na"}
+{"id":"ja.c0694","deck":"ja.d.top-adjectives","ja":"かんたんな","rom":"kantan na"}
+{"id":"ja.c0695","deck":"ja.d.top-adjectives","ja":"すばらしい","rom":"subarashii"}
+{"id":"ja.c0696","deck":"ja.d.top-adjectives","ja":"つらい","rom":"tsurai"}
+{"id":"ja.c0697","deck":"ja.d.top-adjectives","ja":"きびしい","rom":"kibishii"}
+{"id":"ja.c0698","deck":"ja.d.top-adjectives","ja":"じょうずな","rom":"jōzu na"}
+{"id":"ja.c0699","deck":"ja.d.top-adjectives","ja":"かたい","rom":"katai"}
+{"id":"ja.c0700","deck":"ja.d.top-adjectives","ja":"まずい","rom":"mazui"}
+{"id":"ja.c0701","deck":"ja.d.top-adjectives","ja":"みじかい","rom":"mijikai"}
+{"id":"ja.c0702","deck":"ja.d.top-adjectives","ja":"しろい","rom":"shiroi"}
+{"id":"ja.c0703","deck":"ja.d.top-adjectives","ja":"せまい","rom":"semai"}
+{"id":"ja.c0704","deck":"ja.d.top-adjectives","ja":"ふしぎな","rom":"fushigi na"}
+{"id":"ja.c0705","deck":"ja.d.top-adjectives","ja":"あたたかい","rom":"atatakai"}
+{"id":"ja.c0706","deck":"ja.d.top-adjectives","ja":"きたない","rom":"kitanai"}
+{"id":"ja.c0707","deck":"ja.d.top-adjectives","ja":"かるい","rom":"karui"}
+{"id":"ja.c0708","deck":"ja.d.top-adjectives","ja":"ひまな","rom":"hima na"}
+{"id":"ja.c0709","deck":"ja.d.top-adjectives","ja":"じゆうな","rom":"jiyū na"}
+{"id":"ja.c0710","deck":"ja.d.top-adjectives","ja":"ざんねんな","rom":"zannen na"}
+{"id":"ja.c0711","deck":"ja.d.top-adjectives","ja":"びみょうな","rom":"bimyō na"}
+{"id":"ja.c0712","deck":"ja.d.top-adjectives","ja":"くろい","rom":"kuroi"}
+{"id":"ja.c0713","deck":"ja.d.top-adjectives","ja":"なつかしい","rom":"natsukashii"}
+{"id":"ja.c0714","deck":"ja.d.top-adjectives","ja":"めずらしい","rom":"mezurashii"}
+{"id":"ja.c0715","deck":"ja.d.top-adjectives","ja":"ひくい","rom":"hikui"}
+{"id":"ja.c0716","deck":"ja.d.top-adjectives","ja":"ねむい","rom":"nemui"}
+{"id":"ja.c0717","deck":"ja.d.top-adjectives","ja":"あかい","rom":"akai"}
+{"id":"ja.c0718","deck":"ja.d.top-adjectives","ja":"かなしい","rom":"kanashii"}
+{"id":"ja.c0719","deck":"ja.d.top-adjectives","ja":"にがてな","rom":"nigate na"}
+{"id":"ja.c0720","deck":"ja.d.top-adjectives","ja":"よわい","rom":"yowai"}
+{"id":"ja.c0721","deck":"ja.d.top-adjectives","ja":"はずかしい","rom":"hazukashii"}
+{"id":"ja.c0722","deck":"ja.d.top-adjectives","ja":"あおい","rom":"aoi"}
+{"id":"ja.c0723","deck":"ja.d.top-adjectives","ja":"つめたい","rom":"tsumetai"}
+{"id":"ja.c0724","deck":"ja.d.top-adjectives","ja":"さびしい","rom":"sabishii"}
+{"id":"ja.c0725","deck":"ja.d.top-adjectives","ja":"とくいな","rom":"tokui na"}
+{"id":"ja.c0726","deck":"ja.d.top-adjectives","ja":"くらい","rom":"kurai"}
+{"id":"ja.c0727","deck":"ja.d.top-adjectives","ja":"とくべつな","rom":"tokubetsu na"}
+{"id":"ja.c0728","deck":"ja.d.top-adjectives","ja":"べんりな","rom":"benri na"}
+{"id":"ja.c0729","deck":"ja.d.top-adjectives","ja":"ただしい","rom":"tadashii"}
+{"id":"ja.c0730","deck":"ja.d.top-adjectives","ja":"まじめな","rom":"majime na"}
+{"id":"ja.c0731","deck":"ja.d.top-adjectives","ja":"いろいろな","rom":"iroiro na"}
+{"id":"ja.c0732","deck":"ja.d.top-adjectives","ja":"しあわせな","rom":"shiawase na"}
+{"id":"ja.c0733","deck":"ja.d.top-adjectives","ja":"あかるい","rom":"akarui"}
+{"id":"ja.c0734","deck":"ja.d.top-adjectives","ja":"すずしい","rom":"suzushii"}
+{"id":"ja.c0735","deck":"ja.d.top-adjectives","ja":"あんぜんな","rom":"anzen na"}
+{"id":"ja.c0736","deck":"ja.d.top-adjectives","ja":"たいせつな","rom":"taisetsu na"}
+{"id":"ja.c0737","deck":"ja.d.top-adjectives","ja":"しんせつな","rom":"shinsetsu na"}
+{"id":"ja.c0738","deck":"ja.d.top-adverbs","ja":"そう","rom":"sō"}
+{"id":"ja.c0739","deck":"ja.d.top-adverbs","ja":"もう","rom":"mō"}
+{"id":"ja.c0740","deck":"ja.d.top-adverbs","ja":"ちょっと","rom":"chotto"}
+{"id":"ja.c0741","deck":"ja.d.top-adverbs","ja":"こう","rom":"kō"}
+{"id":"ja.c0742","deck":"ja.d.top-adverbs","ja":"ほんとうに","rom":"hontō ni"}
+{"id":"ja.c0743","deck":"ja.d.top-adverbs","ja":"いま","rom":"ima"}
+{"id":"ja.c0744","deck":"ja.d.top-adverbs","ja":"やっぱり","rom":"yappari"}
+{"id":"ja.c0745","deck":"ja.d.top-adverbs","ja":"あとで","rom":"ato de"}
+{"id":"ja.c0746","deck":"ja.d.top-adverbs","ja":"たぶん","rom":"tabun"}
+{"id":"ja.c0747","deck":"ja.d.top-adverbs","ja":"けっこう","rom":"kekkō"}
+{"id":"ja.c0748","deck":"ja.d.top-adverbs","ja":"ぜんぜん","rom":"zenzen"}
+{"id":"ja.c0749","deck":"ja.d.top-adverbs","ja":"まだ","rom":"mada"}
+{"id":"ja.c0750","deck":"ja.d.top-adverbs","ja":"あまり","rom":"amari"}
+{"id":"ja.c0751","deck":"ja.d.top-adverbs","ja":"また","rom":"mata"}
+{"id":"ja.c0752","deck":"ja.d.top-adverbs","ja":"よく","rom":"yoku"}
+{"id":"ja.c0753","deck":"ja.d.top-adverbs","ja":"いちばん","rom":"ichiban"}
+{"id":"ja.c0754","deck":"ja.d.top-adverbs","ja":"いっしょに","rom":"issho ni"}
+{"id":"ja.c0755","deck":"ja.d.top-adverbs","ja":"ちゃんと","rom":"chanto"}
+{"id":"ja.c0756","deck":"ja.d.top-adverbs","ja":"ずっと","rom":"zutto"}
+{"id":"ja.c0757","deck":"ja.d.top-adverbs","ja":"いつも","rom":"itsumo"}
+{"id":"ja.c0758","deck":"ja.d.top-adverbs","ja":"いっぱい","rom":"ippai"}
+{"id":"ja.c0759","deck":"ja.d.top-adverbs","ja":"むかし","rom":"mukashi"}
+{"id":"ja.c0760","deck":"ja.d.top-adverbs","ja":"めっちゃ","rom":"metcha"}
+{"id":"ja.c0761","deck":"ja.d.top-adverbs","ja":"たとえば","rom":"tatoeba"}
+{"id":"ja.c0762","deck":"ja.d.top-adverbs","ja":"もっと","rom":"motto"}
+{"id":"ja.c0763","deck":"ja.d.top-adverbs","ja":"さっき","rom":"sakki"}
+{"id":"ja.c0764","deck":"ja.d.top-adverbs","ja":"さいきん","rom":"saikin"}
+{"id":"ja.c0765","deck":"ja.d.top-adverbs","ja":"すぐ","rom":"sugu"}
+{"id":"ja.c0766","deck":"ja.d.top-adverbs","ja":"こんど","rom":"kondo"}
+{"id":"ja.c0767","deck":"ja.d.top-adverbs","ja":"このあいだ","rom":"kono aida"}
+{"id":"ja.c0768","deck":"ja.d.top-adverbs","ja":"まず","rom":"mazu"}
+{"id":"ja.c0769","deck":"ja.d.top-adverbs","ja":"とりあえず","rom":"toriaezu"}
+{"id":"ja.c0770","deck":"ja.d.top-adverbs","ja":"きっと","rom":"kitto"}
+{"id":"ja.c0771","deck":"ja.d.top-adverbs","ja":"ちょうど","rom":"chōdo"}
+{"id":"ja.c0772","deck":"ja.d.top-adverbs","ja":"もちろん","rom":"mochiron"}
+{"id":"ja.c0773","deck":"ja.d.top-adverbs","ja":"なかなか","rom":"nakanaka"}
+{"id":"ja.c0774","deck":"ja.d.top-adverbs","ja":"すこし","rom":"sukoshi"}
+{"id":"ja.c0775","deck":"ja.d.top-adverbs","ja":"はじめて","rom":"hajimete"}
+{"id":"ja.c0776","deck":"ja.d.top-adverbs","ja":"とくに","rom":"tokuni"}
+{"id":"ja.c0777","deck":"ja.d.top-adverbs","ja":"わりと","rom":"warito"}
+{"id":"ja.c0778","deck":"ja.d.top-adverbs","ja":"ほとんど","rom":"hotondo"}
+{"id":"ja.c0779","deck":"ja.d.top-adverbs","ja":"たまに","rom":"tamani"}
+{"id":"ja.c0780","deck":"ja.d.top-adverbs","ja":"だんだん","rom":"dandan"}
+{"id":"ja.c0781","deck":"ja.d.top-adverbs","ja":"たくさん","rom":"takusan"}
+{"id":"ja.c0782","deck":"ja.d.top-adverbs","ja":"かならず","rom":"kanarazu"}
+{"id":"ja.c0783","deck":"ja.d.top-adverbs","ja":"ゆっくり","rom":"yukkuri"}
+{"id":"ja.c0784","deck":"ja.d.top-adverbs","ja":"とにかく","rom":"tonikaku"}
+{"id":"ja.c0785","deck":"ja.d.top-adverbs","ja":"かなり","rom":"kanari"}
+{"id":"ja.c0786","deck":"ja.d.top-adverbs","ja":"しっかり","rom":"shikkari"}
+{"id":"ja.c0787","deck":"ja.d.top-adverbs","ja":"たしか","rom":"tashika"}
+{"id":"ja.c0788","deck":"ja.d.top-adverbs","ja":"さすが","rom":"sasuga"}
+{"id":"ja.c0789","deck":"ja.d.top-adverbs","ja":"せっかく","rom":"sekkaku"}
+{"id":"ja.c0790","deck":"ja.d.top-adverbs","ja":"ずいぶん","rom":"zuibun"}
+{"id":"ja.c0791","deck":"ja.d.top-adverbs","ja":"ぜひ","rom":"zehi"}
+{"id":"ja.c0792","deck":"ja.d.top-adverbs","ja":"そろそろ","rom":"sorosoro"}
+{"id":"ja.c0793","deck":"ja.d.top-adverbs","ja":"とても","rom":"totemo"}
+{"id":"ja.c0794","deck":"ja.d.top-adverbs","ja":"やっと","rom":"yatto"}
+{"id":"ja.c0795","deck":"ja.d.top-pronouns","ja":"わたし","rom":"watashi"}
+{"id":"ja.c0796","deck":"ja.d.top-pronouns","ja":"わたしの","rom":"watashi no"}
+{"id":"ja.c0797","deck":"ja.d.top-pronouns","ja":"ここ","rom":"koko"}
+{"id":"ja.c0798","deck":"ja.d.top-pronouns","ja":"そこ","rom":"soko"}
+{"id":"ja.c0799","deck":"ja.d.top-pronouns","ja":"おれ","rom":"ore"}
+{"id":"ja.c0800","deck":"ja.d.top-pronouns","ja":"わたしたち","rom":"watashitachi"}
+{"id":"ja.c0801","deck":"ja.d.top-pronouns","ja":"みんな","rom":"minna"}
+{"id":"ja.c0802","deck":"ja.d.top-pronouns","ja":"どこ","rom":"doko"}
+{"id":"ja.c0803","deck":"ja.d.top-pronouns","ja":"こちら","rom":"kochira"}
+{"id":"ja.c0804","deck":"ja.d.top-pronouns","ja":"こっち","rom":"kotchi"}
+{"id":"ja.c0805","deck":"ja.d.top-pronouns","ja":"じぶん","rom":"jibun"}
+{"id":"ja.c0806","deck":"ja.d.top-pronouns","ja":"なん","rom":"nan"}
+{"id":"ja.c0807","deck":"ja.d.top-pronouns","ja":"あそこ","rom":"asoko"}
+{"id":"ja.c0808","deck":"ja.d.top-pronouns","ja":"だれ","rom":"dare"}
+{"id":"ja.c0809","deck":"ja.d.top-pronouns","ja":"だれの","rom":"dare no"}
+{"id":"ja.c0810","deck":"ja.d.top-pronouns","ja":"いつ","rom":"itsu"}
+{"id":"ja.c0811","deck":"ja.d.top-pronouns","ja":"ぼく","rom":"boku"}
+{"id":"ja.c0812","deck":"ja.d.top-pronouns","ja":"どちら","rom":"dochira"}
+{"id":"ja.c0813","deck":"ja.d.top-pronouns","ja":"どっち","rom":"dotchi"}
+{"id":"ja.c0814","deck":"ja.d.top-pronouns","ja":"おまえ","rom":"omae"}
+{"id":"ja.c0815","deck":"ja.d.top-pronouns","ja":"どれ","rom":"dore"}
+{"id":"ja.c0816","deck":"ja.d.top-pronouns","ja":"そちら","rom":"sochira"}
+{"id":"ja.c0817","deck":"ja.d.top-pronouns","ja":"そっち","rom":"sotchi"}
+{"id":"ja.c0818","deck":"ja.d.top-pronouns","ja":"なにか","rom":"nanika"}
+{"id":"ja.c0819","deck":"ja.d.top-pronouns","ja":"あちら","rom":"achira"}
+{"id":"ja.c0820","deck":"ja.d.top-pronouns","ja":"あっち","rom":"atchi"}
+{"id":"ja.c0821","deck":"ja.d.top-pronouns","ja":"なにも","rom":"nanimo"}
+{"id":"ja.c0822","deck":"ja.d.top-pronouns","ja":"だれか","rom":"dareka"}
+{"id":"ja.c0823","deck":"ja.d.top-pronouns","ja":"どこか","rom":"dokoka"}
+{"id":"ja.c0824","deck":"ja.d.top-pronouns","ja":"きみ","rom":"kimi"}
+{"id":"ja.c0825","deck":"ja.d.top-pronouns","ja":"かのじょ","rom":"kanojo"}
+{"id":"ja.c0826","deck":"ja.d.top-pronouns","ja":"だれも","rom":"daremo"}
+{"id":"ja.c0827","deck":"ja.d.top-pronouns","ja":"いつか","rom":"itsuka"}
+{"id":"ja.c0828","deck":"ja.d.top-pronouns","ja":"みなさん","rom":"minasan"}
+{"id":"ja.c0829","deck":"ja.d.top-pronouns","ja":"どなた","rom":"donata"}
+{"id":"ja.c0830","deck":"ja.d.top-particles","ja":"そうですね","rom":"sō desu ne"}
+{"id":"ja.c0831","deck":"ja.d.top-particles","ja":"ともだちの","rom":"tomodachi no"}
+{"id":"ja.c0832","deck":"ja.d.top-particles","ja":"コーヒーか おちゃ","rom":"kōhī ka ocha"}
+{"id":"ja.c0833","deck":"ja.d.top-particles","ja":"えきで","rom":"eki de"}
+{"id":"ja.c0834","deck":"ja.d.top-particles","ja":"だれが","rom":"dare ga"}
+{"id":"ja.c0835","deck":"ja.d.top-particles","ja":"わたしは","rom":"watashi wa"}
+{"id":"ja.c0836","deck":"ja.d.top-particles","ja":"わたしも","rom":"watashi mo"}
+{"id":"ja.c0837","deck":"ja.d.top-particles","ja":"えきに","rom":"eki ni"}
+{"id":"ja.c0838","deck":"ja.d.top-particles","ja":"おいしいですよ","rom":"oishii desu yo"}
+{"id":"ja.c0839","deck":"ja.d.top-particles","ja":"ともだちと","rom":"tomodachi to"}
+{"id":"ja.c0840","deck":"ja.d.top-particles","ja":"って","rom":"tte"}
+{"id":"ja.c0841","deck":"ja.d.top-particles","ja":"これですか","rom":"kore desu ka"}
+{"id":"ja.c0842","deck":"ja.d.top-particles","ja":"すしを","rom":"sushi o"}
+{"id":"ja.c0843","deck":"ja.d.top-particles","ja":"から","rom":"kara"}
+{"id":"ja.c0844","deck":"ja.d.top-particles","ja":"ぐらい","rom":"gurai"}
+{"id":"ja.c0845","deck":"ja.d.top-particles","ja":"だけ","rom":"dake"}
+{"id":"ja.c0846","deck":"ja.d.top-particles","ja":"まで","rom":"made"}
+{"id":"ja.c0847","deck":"ja.d.top-particles","ja":"かな","rom":"kana"}
+{"id":"ja.c0848","deck":"ja.d.top-particles","ja":"しか","rom":"shika"}
+{"id":"ja.c0849","deck":"ja.d.top-particles","ja":"よね","rom":"yone"}
+{"id":"ja.c0850","deck":"ja.d.top-particles","ja":"より","rom":"yori"}
+{"id":"ja.c0851","deck":"ja.d.top-particles","ja":"ばかり","rom":"bakari"}
+{"id":"ja.c0852","deck":"ja.d.top-particles","ja":"にほんへ","rom":"nihon e"}
+{"id":"ja.c0853","deck":"ja.d.top-particles","ja":"ずつ","rom":"zutsu"}
+{"id":"ja.c0854","deck":"ja.d.top-particles","ja":"ほど","rom":"hodo"}
+{"id":"ja.c0855","deck":"ja.d.top-particles","ja":"ペンや ノート","rom":"pen ya nōto"}
+{"id":"ja.c0856","deck":"ja.d.top-particles","ja":"など","rom":"nado"}
+{"id":"ja.c0857","deck":"ja.d.top-particles","ja":"までに","rom":"made ni"}
+{"id":"ja.c0858","deck":"ja.d.top-connectors","ja":"おきて","rom":"okite"}
+{"id":"ja.c0859","deck":"ja.d.top-connectors","ja":"それで","rom":"sorede"}
+{"id":"ja.c0860","deck":"ja.d.top-connectors","ja":"けど","rom":"kedo"}
+{"id":"ja.c0861","deck":"ja.d.top-connectors","ja":"じゃあ","rom":"jā"}
+{"id":"ja.c0862","deck":"ja.d.top-connectors","ja":"でも","rom":"demo"}
+{"id":"ja.c0863","deck":"ja.d.top-connectors","ja":"とき","rom":"toki"}
+{"id":"ja.c0864","deck":"ja.d.top-connectors","ja":"いけば","rom":"ikeba"}
+{"id":"ja.c0865","deck":"ja.d.top-connectors","ja":"やすいし","rom":"yasuishi"}
+{"id":"ja.c0866","deck":"ja.d.top-connectors","ja":"ので","rom":"node"}
+{"id":"ja.c0867","deck":"ja.d.top-connectors","ja":"まえに","rom":"mae ni"}
+{"id":"ja.c0868","deck":"ja.d.top-connectors","ja":"だから","rom":"dakara"}
+{"id":"ja.c0869","deck":"ja.d.top-connectors","ja":"たり","rom":"tari"}
+{"id":"ja.c0870","deck":"ja.d.top-connectors","ja":"ながら","rom":"nagara"}
+{"id":"ja.c0871","deck":"ja.d.top-connectors","ja":"それから","rom":"sorekara"}
+{"id":"ja.c0872","deck":"ja.d.top-connectors","ja":"ただ","rom":"tada"}
+{"id":"ja.c0873","deck":"ja.d.top-connectors","ja":"もし","rom":"moshi"}
+{"id":"ja.c0874","deck":"ja.d.top-connectors","ja":"すみませんが","rom":"sumimasen ga"}
+{"id":"ja.c0875","deck":"ja.d.top-connectors","ja":"のに","rom":"noni"}
+{"id":"ja.c0876","deck":"ja.d.top-connectors","ja":"しかも","rom":"shikamo"}
+{"id":"ja.c0877","deck":"ja.d.top-connectors","ja":"たら","rom":"tara"}
+{"id":"ja.c0878","deck":"ja.d.top-connectors","ja":"そして","rom":"soshite"}
+{"id":"ja.c0879","deck":"ja.d.top-connectors","ja":"それに","rom":"soreni"}
+{"id":"ja.c0880","deck":"ja.d.top-connectors","ja":"つまり","rom":"tsumari"}
+{"id":"ja.c0881","deck":"ja.d.top-connectors","ja":"または","rom":"mata wa"}
+{"id":"ja.c0882","deck":"ja.d.top-connectors","ja":"しかし","rom":"shikashi"}
+{"id":"ja.c0883","deck":"ja.d.top-interjections","ja":"ああ","rom":"ā"}
+{"id":"ja.c0884","deck":"ja.d.top-interjections","ja":"はい","rom":"hai"}
+{"id":"ja.c0885","deck":"ja.d.top-interjections","ja":"あのう","rom":"anō"}
+{"id":"ja.c0886","deck":"ja.d.top-interjections","ja":"まあ","rom":"mā"}
+{"id":"ja.c0887","deck":"ja.d.top-interjections","ja":"いや","rom":"iya"}
+{"id":"ja.c0888","deck":"ja.d.top-interjections","ja":"ええ","rom":"ē"}
+{"id":"ja.c0889","deck":"ja.d.top-interjections","ja":"ほんとうですか","rom":"hontō desu ka"}
+{"id":"ja.c0890","deck":"ja.d.top-interjections","ja":"へえ","rom":"hē"}
+{"id":"ja.c0891","deck":"ja.d.top-interjections","ja":"えーと","rom":"ēto"}
+{"id":"ja.c0892","deck":"ja.d.top-interjections","ja":"ほら","rom":"hora"}
+{"id":"ja.c0893","deck":"ja.d.top-interjections","ja":"なるほど","rom":"naruhodo"}
+{"id":"ja.c0894","deck":"ja.d.top-interjections","ja":"おお","rom":"ō"}
+{"id":"ja.c0895","deck":"ja.d.top-interjections","ja":"まじで","rom":"majide"}
+{"id":"ja.c0896","deck":"ja.d.top-interjections","ja":"あら","rom":"ara"}
+{"id":"ja.c0897","deck":"ja.d.top-interjections","ja":"よいしょ","rom":"yoisho"}
+{"id":"ja.c0898","deck":"ja.d.top-interjections","ja":"がんばって","rom":"ganbatte"}
+{"id":"ja.c0899","deck":"ja.d.top-interjections","ja":"うわ","rom":"uwa"}
+{"id":"ja.c0900","deck":"ja.d.top-interjections","ja":"いえいえ","rom":"ieie"}
+{"id":"ja.c0901","deck":"ja.d.top-interjections","ja":"よし","rom":"yoshi"}
+{"id":"ja.c0902","deck":"ja.d.top-interjections","ja":"わあ","rom":"wā"}
+{"id":"ja.c0903","deck":"ja.d.top-interjections","ja":"おい","rom":"oi"}
+{"id":"ja.c0904","deck":"ja.d.top-interjections","ja":"さいあく","rom":"saiaku"}
+{"id":"ja.c0905","deck":"ja.d.top-interjections","ja":"さあ","rom":"sā"}
+{"id":"ja.c0906","deck":"ja.d.top-interjections","ja":"おめでとう","rom":"omedetō"}
+{"id":"ja.c0907","deck":"ja.d.top-interjections","ja":"さいこう","rom":"saikō"}
+{"id":"ja.c0908","deck":"ja.d.top-interjections","ja":"よかった","rom":"yokatta"}
+{"id":"ja.c0909","deck":"ja.d.top-interjections","ja":"ふう","rom":"fū"}
+{"id":"ja.c0910","deck":"ja.d.top-interjections","ja":"おっと","rom":"otto"}
+{"id":"ja.c0911","deck":"ja.d.top-interjections","ja":"やった","rom":"yatta"}
+{"id":"ja.c0912","deck":"ja.d.top-interjections","ja":"しまった","rom":"shimatta"}
+{"id":"ja.c0913","deck":"ja.d.top-interjections","ja":"もしもし","rom":"moshimoshi"}
+{"id":"ja.c0914","deck":"ja.d.top-interjections","ja":"いてて","rom":"itete"}
+{"id":"ja.c0915","deck":"ja.d.top-words","ja":"さん","rom":"san"}
+{"id":"ja.c0916","deck":"ja.d.top-words","ja":"その","rom":"sono"}
+{"id":"ja.c0917","deck":"ja.d.top-words","ja":"どう","rom":"dō"}
+{"id":"ja.c0918","deck":"ja.d.top-words","ja":"この","rom":"kono"}
+{"id":"ja.c0919","deck":"ja.d.top-words","ja":"ちゃん","rom":"chan"}
+{"id":"ja.c0920","deck":"ja.d.top-words","ja":"あの","rom":"ano"}
+{"id":"ja.c0921","deck":"ja.d.top-words","ja":"そんな","rom":"sonna"}
+{"id":"ja.c0922","deck":"ja.d.top-words","ja":"だめ","rom":"dame"}
+{"id":"ja.c0923","deck":"ja.d.top-words","ja":"ぜんぶ","rom":"zenbu"}
+{"id":"ja.c0924","deck":"ja.d.top-words","ja":"くん","rom":"kun"}
+{"id":"ja.c0925","deck":"ja.d.top-words","ja":"こんな","rom":"konna"}
+{"id":"ja.c0926","deck":"ja.d.top-words","ja":"なんで","rom":"nande"}
+{"id":"ja.c0927","deck":"ja.d.top-words","ja":"ほか","rom":"hoka"}
+{"id":"ja.c0928","deck":"ja.d.top-words","ja":"むり","rom":"muri"}
+{"id":"ja.c0929","deck":"ja.d.top-words","ja":"どうぞ","rom":"dōzo"}
+{"id":"ja.c0930","deck":"ja.d.top-words","ja":"さま","rom":"sama"}
+{"id":"ja.c0931","deck":"ja.d.top-words","ja":"あさ","rom":"asa"}
+{"id":"ja.c0932","deck":"ja.d.top-words","ja":"ことし","rom":"kotoshi"}
+{"id":"ja.c0933","deck":"ja.d.top-words","ja":"どうして","rom":"dōshite"}
+{"id":"ja.c0934","deck":"ja.d.top-words","ja":"きょねん","rom":"kyonen"}
+{"id":"ja.c0935","deck":"ja.d.top-words","ja":"よる","rom":"yoru"}
+{"id":"ja.c0936","deck":"ja.d.top-words","ja":"どうも","rom":"dōmo"}
+{"id":"ja.c0937","deck":"ja.d.top-words","ja":"どの","rom":"dono"}
+{"id":"ja.c0938","deck":"ja.d.top-words","ja":"いくつ","rom":"ikutsu"}
+{"id":"ja.c0939","deck":"ja.d.top-words","ja":"どんな","rom":"donna"}
+{"id":"ja.c0940","deck":"ja.d.top-words","ja":"なつ","rom":"natsu"}
+{"id":"ja.c0941","deck":"ja.d.top-words","ja":"ひる","rom":"hiru"}
+{"id":"ja.c0942","deck":"ja.d.top-words","ja":"ゼロ","rom":"zero"}
+{"id":"ja.c0943","deck":"ja.d.top-words","ja":"あんな","rom":"anna"}
+{"id":"ja.c0944","deck":"ja.d.top-words","ja":"らいねん","rom":"rainen"}
+{"id":"ja.c0945","deck":"ja.d.top-words","ja":"どのくらい","rom":"dono kurai"}
+{"id":"ja.c0946","deck":"ja.d.top-words","ja":"なぜ","rom":"naze"}
+{"id":"ja.c0947","deck":"ja.d.top-words","ja":"らいしゅう","rom":"raishū"}
+{"id":"ja.c0948","deck":"ja.d.top-words","ja":"ふゆ","rom":"fuyu"}
+{"id":"ja.c0949","deck":"ja.d.top-words","ja":"ゆうがた","rom":"yūgata"}
+{"id":"ja.c0950","deck":"ja.d.top-words","ja":"あき","rom":"aki"}
+{"id":"ja.c0951","deck":"ja.d.top-words","ja":"こんばん","rom":"konban"}
+{"id":"ja.c0952","deck":"ja.d.top-words","ja":"せんしゅう","rom":"senshū"}
+{"id":"ja.c0953","deck":"ja.d.top-words","ja":"こんしゅう","rom":"konshū"}
+{"id":"ja.c0954","deck":"ja.d.top-words","ja":"はる","rom":"haru"}
+{"id":"ja.c0955","deck":"ja.d.top-words","ja":"おととい","rom":"ototoi"}
+{"id":"ja.c0956","deck":"ja.d.top-words","ja":"けさ","rom":"kesa"}
+{"id":"ja.c0957","deck":"ja.d.top-words","ja":"いいえ","rom":"iie"}
+{"id":"ja.c0958","deck":"ja.d.top-words","ja":"あさって","rom":"asatte"}
+{"id":"ja.c0959","deck":"ja.d.top-words","ja":"はたち","rom":"hatachi"}
+{"id":"ja.c0960","deck":"ja.d.top-words","ja":"しゅうまつ","rom":"shūmatsu"}
+{"id":"ja.c0961","deck":"ja.d.top-counters","ja":"いっかい","rom":"ikkai"}
+{"id":"ja.c0962","deck":"ja.d.top-counters","ja":"いちじかん","rom":"ichijikan"}
+{"id":"ja.c0963","deck":"ja.d.top-counters","ja":"いっこ","rom":"ikko"}
+{"id":"ja.c0964","deck":"ja.d.top-counters","ja":"いちにち","rom":"ichinichi"}
+{"id":"ja.c0965","deck":"ja.d.top-counters","ja":"ふつか","rom":"futsuka"}
+{"id":"ja.c0966","deck":"ja.d.top-counters","ja":"いちど","rom":"ichido"}
+{"id":"ja.c0967","deck":"ja.d.top-counters","ja":"いっかげつ","rom":"ikkagetsu"}
+{"id":"ja.c0968","deck":"ja.d.top-counters","ja":"いっしゅうかん","rom":"isshūkan"}
+{"id":"ja.c0969","deck":"ja.d.top-counters","ja":"いちだい","rom":"ichidai"}
+{"id":"ja.c0970","deck":"ja.d.top-counters","ja":"いっぱく","rom":"ippaku"}
+{"id":"ja.c0971","deck":"ja.d.top-counters","ja":"にはい","rom":"nihai"}
+{"id":"ja.c0972","deck":"ja.d.top-counters","ja":"なんめいさま","rom":"nanmeisama"}
+{"id":"ja.c0973","deck":"ja.d.top-counters","ja":"にばい","rom":"nibai"}
+{"id":"ja.c0974","deck":"ja.d.top-counters","ja":"いっぴき","rom":"ippiki"}

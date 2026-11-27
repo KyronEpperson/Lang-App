@@ -1,0 +1,25 @@
+{"id":"sounds","deck":"pt.d.sounds-and-spelling","sections":[null,null,{"deck":"pt.d.sounds-and-spelling","n":[8,12]},{"deck":"pt.d.sounds-and-spelling","n":[0,4]},[{"deck":"pt.d.sounds-and-spelling","n":[4,8]},{"deck":"pt.d.sounds-and-spelling","n":[12,17]},{"ld":"pt.ld.more-spellings","cards":[{"id":"pt.lc0001","pt":"ç","rom":"s"},{"id":"pt.lc0002","pt":"ss","rom":"s"},{"id":"pt.lc0003","pt":"gi","rom":"zhee"},{"id":"pt.lc0004","pt":"gu","rom":"g"},{"id":"pt.lc0005","pt":"x","rom":"sh"}]}],[{"deck":"pt.d.sounds-and-spelling","n":[17,18]},{"ld":"pt.ld.accent-marks","cards":[{"id":"pt.lc0006","pt":"á","rom":"ah"},{"id":"pt.lc0007","pt":"é","rom":"eh"},{"id":"pt.lc0008","pt":"ê","rom":"ay"},{"id":"pt.lc0009","pt":"í","rom":"ee"},{"id":"pt.lc0010","pt":"ó","rom":"aw"},{"id":"pt.lc0011","pt":"ô","rom":"oh"},{"id":"pt.lc0012","pt":"ú","rom":"oo"}]}],{"ld":"pt.ld.whole-words","cards":[{"id":"pt.lc0013","pt":"a gente","rom":"ah ZHAYN-chee"},{"id":"pt.lc0014","pt":"o hotel","rom":"oo oh-TEHW"},{"id":"pt.lc0015","pt":"a praia","rom":"ah PRAI-uh"},{"id":"pt.lc0016","pt":"o açúcar","rom":"oo ah-SOO-kahr"},{"id":"pt.lc0017","pt":"a caixa","rom":"ah KAI-shuh"},{"id":"pt.lc0018","pt":"o sorvete","rom":"oo sohr-VAY-chee"},{"id":"pt.lc0019","pt":"a manhã","rom":"ah mah-NYAHNG"},{"id":"pt.lc0020","pt":"o limão","rom":"oo lee-MOWNG"},{"id":"pt.lc0021","pt":"a garrafa","rom":"ah gah-HAH-fuh"},{"id":"pt.lc0022","pt":"o jantar","rom":"oo zhahn-TAHR"},{"id":"pt.lc0023","pt":"o médico","rom":"oo MEH-jee-koo"},{"id":"pt.lc0024","pt":"o ônibus","rom":"oo OH-nee-boos"},{"id":"pt.lc0025","pt":"a música","rom":"ah MOO-zee-kuh"},{"id":"pt.lc0026","pt":"a viagem","rom":"ah vee-AH-zhayng"},{"id":"pt.lc0027","pt":"a chuva","rom":"ah SHOO-vuh"},{"id":"pt.lc0028","pt":"a mulher","rom":"ah moo-LYEHR"},{"id":"pt.lc0029","pt":"grande","rom":"GRAHN-jee"}]},null],"tiles":[{"id":"pt.tl001","items":[{"f":"b","r":"b"},{"f":"f","r":"f"},{"f":"k","r":"k"},{"f":"m","r":"m"},{"f":"n","r":"n"},{"f":"p","r":"p"},{"f":"v","r":"v"},{"f":"w","r":"w"},{"f":"y","r":"y"},{"f":"z","r":"z"}]},{"id":"pt.tl002","items":[{"f":"a","r":"ah"},{"f":"e","n":"pt.tl002.02"},{"f":"i","n":"pt.tl002.03"},{"f":"o","n":"pt.tl002.04"},{"f":"u","n":"pt.tl002.05"},{"f":"é","n":"pt.tl002.06"},{"f":"ê","n":"pt.tl002.07"},{"f":"ó","n":"pt.tl002.08"},{"f":"ô","n":"pt.tl002.09"}]},{"id":"pt.tl003","items":[{"f":"t","r":"t"},{"f":"ti","n":"pt.tl003.02"},{"f":"d","r":"d"},{"f":"di","n":"pt.tl003.04"}]},{"id":"pt.tl004","items":[{"f":"ã","n":"pt.tl004.01"},{"f":"õ","n":"pt.tl004.02"},{"f":"ão","n":"pt.tl004.03"},{"f":"ãe","n":"pt.tl004.04"},{"f":"õe","n":"pt.tl004.05"},{"f":"em","n":"pt.tl004.06"},{"f":"im","n":"pt.tl004.07"},{"f":"om","n":"pt.tl004.08"},{"f":"um","n":"pt.tl004.09"}]},{"id":"pt.tl005","items":[{"f":"c","r":"k"},{"f":"ci","n":"pt.tl005.02"},{"f":"ç","r":"s"},{"f":"g","r":"g"},{"f":"gi","n":"pt.tl005.05"},{"f":"gu","r":"g"},{"f":"h","n":"pt.tl005.07"},{"f":"j","n":"pt.tl005.08"},{"f":"l","r":"l/w"},{"f":"lh","n":"pt.tl005.10"},{"f":"nh","n":"pt.tl005.11"},{"f":"q","r":"k"},{"f":"qu","r":"k/kw"},{"f":"r","r":"h/r"},{"f":"rr","r":"h"},{"f":"s","r":"s/z"},{"f":"ss","r":"s"},{"f":"x","n":"pt.tl005.18"},{"f":"ch","n":"pt.tl005.19"}]},{"id":"pt.tl006","items":[{"f":"á","r":"ah"},{"f":"í","n":"pt.tl006.02"},{"f":"ú","n":"pt.tl006.03"},{"f":"â","r":"ah"},{"f":"à","r":"ah"}]}]}
+{"id":"greetings","deck":"pt.d.greetings-and-courtesy"}
+{"id":"articles","deck":"pt.d.food-and-drink"}
+{"id":"ser","deck":"pt.d.about-me"}
+{"id":"adjectives","deck":"pt.d.people-and-family"}
+{"id":"present","deck":"pt.d.work-and-study"}
+{"id":"estar","deck":"pt.d.around-town-and-directions"}
+{"id":"contractions","deck":"pt.d.travel-and-transport"}
+{"id":"ser-estar","deck":"pt.d.feelings-and-states"}
+{"id":"ter","deck":"pt.d.traps-for-english-speakers"}
+{"id":"questions","deck":"pt.d.questions-and-connectors"}
+{"id":"numbers","deck":"pt.d.numbers-time-and-prices"}
+{"id":"location","deck":"pt.d.home-and-routine"}
+{"id":"possessives","deck":"pt.d.people-and-family"}
+{"id":"irregular","deck":"pt.d.shopping-and-clothes"}
+{"id":"future","deck":"pt.d.days-dates-and-weather"}
+{"id":"gostar","deck":"pt.d.likes-and-free-time"}
+{"id":"prepositions","deck":"pt.d.travel-and-transport"}
+{"id":"progressive","deck":"pt.d.work-and-study"}
+{"id":"reflexive","deck":"pt.d.home-and-routine"}
+{"id":"object-pronouns","deck":"pt.d.spoken-brazilian-portuguese"}
+{"id":"past","deck":"pt.d.likes-and-free-time"}
+{"id":"requests","deck":"pt.d.health-and-emergencies"}
+{"id":"connectors","deck":"pt.d.questions-and-connectors"}
+{"id":"city","deck":"pt.d.around-town-and-directions"}

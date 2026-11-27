@@ -1,0 +1,59 @@
+{"id":"nan.t01","text":"Beginner"}
+{"id":"nan.t03","text":"Explorer"}
+{"id":"nan.t05","text":"Traveler"}
+{"id":"nan.t08","text":"Neighbor"}
+{"id":"nan.t12","text":"Local"}
+{"id":"nan.t16","text":"Storyteller"}
+{"id":"nan.t20","text":"Master"}
+{"id":"nan.h.night","text":"Get some sleep (good night)"}
+{"id":"nan.h.morning","text":"Good morning"}
+{"id":"nan.h.afternoon","text":"Hello"}
+{"id":"nan.h.evening","text":"Have you eaten? (a friendly hello)"}
+{"id":"nan.ld.more-initials","text":"More initials"}
+{"id":"nan.tl001.01","text":"p of spin"}
+{"id":"nan.tl001.02","text":"p of pin"}
+{"id":"nan.tl001.03","text":"b of bee"}
+{"id":"nan.tl001.04","text":"m of me"}
+{"id":"nan.tl001.06","text":"t of stop"}
+{"id":"nan.tl001.07","text":"t of top"}
+{"id":"nan.tl001.08","text":"n of no"}
+{"id":"nan.tl001.09","text":"l of low"}
+{"id":"nan.tl001.11","text":"k of skin"}
+{"id":"nan.tl001.12","text":"k of kin"}
+{"id":"nan.tl001.13","text":"g of go"}
+{"id":"nan.tl001.14","text":"ng of singer"}
+{"id":"nan.tl001.15","text":"h of hot"}
+{"id":"nan.tl001.16","text":"ts of cats"}
+{"id":"nan.tl001.17","text":"ts with a puff"}
+{"id":"nan.tl001.18","text":"s of see"}
+{"id":"nan.tl001.19","text":"voiced dz"}
+{"id":"nan.ld.six-vowels","text":"Six vowels"}
+{"id":"nan.ld.nasal-vowels","text":"Nasal vowels"}
+{"id":"nan.ld.hummed-syllables","text":"Hummed syllables"}
+{"id":"nan.ld.tai-lo-words","text":"Tâi-lô words"}
+{"id":"nan.tl002.01","text":"a of father"}
+{"id":"nan.tl002.02","text":"é of café"}
+{"id":"nan.tl002.03","text":"ee of see"}
+{"id":"nan.tl002.04","text":"a of about"}
+{"id":"nan.tl002.05","text":"aw of law"}
+{"id":"nan.tl002.06","text":"oo of food"}
+{"id":"nan.tl003.01","text":"nasal a"}
+{"id":"nan.tl003.02","text":"nasal i"}
+{"id":"nan.tl003.03","text":"nasal e"}
+{"id":"nan.tl004.01","text":"m of hum"}
+{"id":"nan.tl004.02","text":"n of sun"}
+{"id":"nan.tl004.03","text":"ng of sung"}
+{"id":"nan.tl005.01","text":"unreleased p"}
+{"id":"nan.tl005.02","text":"unreleased t"}
+{"id":"nan.tl005.03","text":"unreleased k"}
+{"id":"nan.tl005.04","text":"throat catch"}
+{"id":"nan.tl006.01","text":"hummed m"}
+{"id":"nan.tl006.02","text":"hummed ng"}
+{"id":"nan.tl007.01","text":"tone 1"}
+{"id":"nan.tl007.02","text":"tone 2"}
+{"id":"nan.tl007.03","text":"tone 3"}
+{"id":"nan.tl007.04","text":"tone 4"}
+{"id":"nan.tl007.05","text":"tone 5"}
+{"id":"nan.tl007.07","text":"tone 7"}
+{"id":"nan.tl007.08","text":"tone 8"}
+{"id":"nan.ld.words-from-characters","text":"Words from characters"}

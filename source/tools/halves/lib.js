@@ -186,7 +186,20 @@ const TARGETS = {
      mc / check item). Hints are never split: a hint is a mixed native field. marks = the span finder above; target/vi/marks.jsonl holds its output. */
   vi: { code: 'vi', field: 'vi', name: 'Vietnamese', script: 'Vietnamese', by: 'marks', runs: null, has: isVietnamese, isValue: isVietnameseValue, leadRx: null, marks: viMarks },
   /* fifth half (docs/briefs/x-es-design.md): "by marks", target text recognised by the course's own inventory (targets/_inventory.js; Spanish data: targets/es.js) */
-  es: require('./targets/es.js')
+  es: require('./targets/es.js'),
+  id: require('./targets/id.js'),
+  tl: require('./targets/tl.js'),
+  ceb: require('./targets/ceb.js'),
+  hmn: require('./targets/hmn.js'),
+  pt: require('./targets/pt.js'),
+  fr: require('./targets/fr.js'),
+  it: require('./targets/it.js'),
+  de: require('./targets/de.js'),
+  ja: require('./targets/ja.js') /* sixth half (docs/briefs/x-ja-design.md): script mode, kana + kanji runs, Hepburn romaji reading */,
+  th: require('./targets/th.js') /* sixth half (docs/briefs/x-th-design.md): script mode like zh and yue, Thai-script runs, en-th romanization as the reading */,
+  ar: require('./targets/ar.js'), /* seventh half (docs/briefs/x-ar-design.md): script mode, Arabic-script runs (harakat, shadda, tatweel, digits; punctuation free), en-ar romanisation as the reading */
+  am: require('./targets/am.js'), /* eighth half (docs/briefs/x-am-design.md): script mode, Ethiopic runs (punctuation free), en-am romanisation as the reading */
+  nan: require('./targets/nan.js') /* Taiwanese Hokkien (docs/briefs/x-nan-design.md): script mode, Han runs incl. the supplementary planes, Tâi-lô as the reading */
 };
 /* Learner languages that are themselves written in Han characters (docs/briefs/x-yue-design.md §6): Mandarin, Cantonese, Taiwanese, Wu, Japanese (kanji).
    On a Han-script target (zh, yue) their notes, prompts and glosses are full of Han runs that are not target text, so "the native string holds the same

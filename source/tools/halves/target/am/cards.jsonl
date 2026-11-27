@@ -1,0 +1,426 @@
+{"id":"am.c0001","deck":"am.d.how-the-fidel-works","am":"በ","rom":"be"}
+{"id":"am.c0002","deck":"am.d.how-the-fidel-works","am":"ቡ","rom":"bu"}
+{"id":"am.c0003","deck":"am.d.how-the-fidel-works","am":"ቢ","rom":"bi"}
+{"id":"am.c0004","deck":"am.d.how-the-fidel-works","am":"ባ","rom":"ba"}
+{"id":"am.c0005","deck":"am.d.how-the-fidel-works","am":"ቤ","rom":"bé"}
+{"id":"am.c0006","deck":"am.d.how-the-fidel-works","am":"ብ","rom":"bi"}
+{"id":"am.c0007","deck":"am.d.how-the-fidel-works","am":"ቦ","rom":"bo"}
+{"id":"am.c0008","deck":"am.d.how-the-fidel-works","am":"ሉ","rom":"lu"}
+{"id":"am.c0009","deck":"am.d.how-the-fidel-works","am":"ሊ","rom":"li"}
+{"id":"am.c0010","deck":"am.d.how-the-fidel-works","am":"ላ","rom":"la"}
+{"id":"am.c0011","deck":"am.d.how-the-fidel-works","am":"ሌ","rom":"lé"}
+{"id":"am.c0012","deck":"am.d.how-the-fidel-works","am":"ል","rom":"li"}
+{"id":"am.c0013","deck":"am.d.how-the-fidel-works","am":"ሎ","rom":"lo"}
+{"id":"am.c0014","deck":"am.d.how-the-fidel-works","am":"ሙ","rom":"mu"}
+{"id":"am.c0015","deck":"am.d.how-the-fidel-works","am":"ሚ","rom":"mi"}
+{"id":"am.c0016","deck":"am.d.how-the-fidel-works","am":"ማ","rom":"ma"}
+{"id":"am.c0017","deck":"am.d.how-the-fidel-works","am":"ልብ","rom":"libb"}
+{"id":"am.c0018","deck":"am.d.fidel-rows-1200-to-1278","am":"ሀ","rom":"ha"}
+{"id":"am.c0019","deck":"am.d.fidel-rows-1200-to-1278","am":"ለ","rom":"le"}
+{"id":"am.c0020","deck":"am.d.fidel-rows-1200-to-1278","am":"ሐ","rom":"ha"}
+{"id":"am.c0021","deck":"am.d.fidel-rows-1200-to-1278","am":"መ","rom":"me"}
+{"id":"am.c0022","deck":"am.d.fidel-rows-1200-to-1278","am":"ሠ","rom":"se"}
+{"id":"am.c0023","deck":"am.d.fidel-rows-1200-to-1278","am":"ረ","rom":"re"}
+{"id":"am.c0024","deck":"am.d.fidel-rows-1200-to-1278","am":"ሰ","rom":"se"}
+{"id":"am.c0025","deck":"am.d.fidel-rows-1200-to-1278","am":"ሸ","rom":"she"}
+{"id":"am.c0026","deck":"am.d.fidel-rows-1200-to-1278","am":"ቀ","rom":"k'e"}
+{"id":"am.c0027","deck":"am.d.fidel-rows-1200-to-1278","am":"ቨ","rom":"ve"}
+{"id":"am.c0028","deck":"am.d.fidel-rows-1200-to-1278","am":"ተ","rom":"te"}
+{"id":"am.c0029","deck":"am.d.fidel-rows-1200-to-1278","am":"ቸ","rom":"che"}
+{"id":"am.c0030","deck":"am.d.fidel-rows-1200-to-1278","am":"ቤት","rom":"bét"}
+{"id":"am.c0031","deck":"am.d.fidel-rows-1200-to-1278","am":"ሰው","rom":"sew"}
+{"id":"am.c0032","deck":"am.d.fidel-rows-1200-to-1278","am":"ሸሚዝ","rom":"shemiz"}
+{"id":"am.c0033","deck":"am.d.fidel-rows-1200-to-1278","am":"ሃ","rom":"ha"}
+{"id":"am.c0034","deck":"am.d.fidel-rows-1200-to-1278","am":"ሳምንት","rom":"samint"}
+{"id":"am.c0035","deck":"am.d.fidel-rows-1280-to-12e0","am":"ኀ","rom":"ha"}
+{"id":"am.c0036","deck":"am.d.fidel-rows-1280-to-12e0","am":"ነ","rom":"ne"}
+{"id":"am.c0037","deck":"am.d.fidel-rows-1280-to-12e0","am":"ኘ","rom":"nye"}
+{"id":"am.c0038","deck":"am.d.fidel-rows-1280-to-12e0","am":"አ","rom":"a"}
+{"id":"am.c0039","deck":"am.d.fidel-rows-1280-to-12e0","am":"ከ","rom":"ke"}
+{"id":"am.c0040","deck":"am.d.fidel-rows-1280-to-12e0","am":"ኸ","rom":"he"}
+{"id":"am.c0041","deck":"am.d.fidel-rows-1280-to-12e0","am":"ወ","rom":"we"}
+{"id":"am.c0042","deck":"am.d.fidel-rows-1280-to-12e0","am":"ዐ","rom":"a"}
+{"id":"am.c0043","deck":"am.d.fidel-rows-1280-to-12e0","am":"ዘ","rom":"ze"}
+{"id":"am.c0044","deck":"am.d.fidel-rows-1280-to-12e0","am":"ዠ","rom":"zhe"}
+{"id":"am.c0045","deck":"am.d.fidel-rows-1280-to-12e0","am":"ኔ","rom":"né"}
+{"id":"am.c0046","deck":"am.d.fidel-rows-1280-to-12e0","am":"ኖ","rom":"no"}
+{"id":"am.c0047","deck":"am.d.fidel-rows-1280-to-12e0","am":"ኩ","rom":"ku"}
+{"id":"am.c0048","deck":"am.d.fidel-rows-1280-to-12e0","am":"ዋ","rom":"wa"}
+{"id":"am.c0049","deck":"am.d.fidel-rows-1280-to-12e0","am":"አዲስ","rom":"addis"}
+{"id":"am.c0050","deck":"am.d.fidel-rows-1280-to-12e0","am":"ዛፍ","rom":"zaf"}
+{"id":"am.c0051","deck":"am.d.fidel-rows-1280-to-12e0","am":"ውሻ","rom":"wisha"}
+{"id":"am.c0052","deck":"am.d.fidel-rows-12e8-to-1350","am":"የ","rom":"ye"}
+{"id":"am.c0053","deck":"am.d.fidel-rows-12e8-to-1350","am":"ደ","rom":"de"}
+{"id":"am.c0054","deck":"am.d.fidel-rows-12e8-to-1350","am":"ጀ","rom":"je"}
+{"id":"am.c0055","deck":"am.d.fidel-rows-12e8-to-1350","am":"ገ","rom":"ge"}
+{"id":"am.c0056","deck":"am.d.fidel-rows-12e8-to-1350","am":"ጠ","rom":"t'e"}
+{"id":"am.c0057","deck":"am.d.fidel-rows-12e8-to-1350","am":"ጨ","rom":"ch'e"}
+{"id":"am.c0058","deck":"am.d.fidel-rows-12e8-to-1350","am":"ጰ","rom":"p'e"}
+{"id":"am.c0059","deck":"am.d.fidel-rows-12e8-to-1350","am":"ጸ","rom":"ts'e"}
+{"id":"am.c0060","deck":"am.d.fidel-rows-12e8-to-1350","am":"ፀ","rom":"ts'e"}
+{"id":"am.c0061","deck":"am.d.fidel-rows-12e8-to-1350","am":"ፈ","rom":"fe"}
+{"id":"am.c0062","deck":"am.d.fidel-rows-12e8-to-1350","am":"ፐ","rom":"pe"}
+{"id":"am.c0063","deck":"am.d.fidel-rows-12e8-to-1350","am":"ድመት","rom":"dimmet"}
+{"id":"am.c0064","deck":"am.d.fidel-rows-12e8-to-1350","am":"ገበያ","rom":"gebeya"}
+{"id":"am.c0065","deck":"am.d.fidel-rows-12e8-to-1350","am":"ጥሩ","rom":"t'ru"}
+{"id":"am.c0066","deck":"am.d.fidel-rows-12e8-to-1350","am":"ጠዋት","rom":"t'ewat"}
+{"id":"am.c0067","deck":"am.d.fidel-rows-12e8-to-1350","am":"ጣ","rom":"t'a"}
+{"id":"am.c0068","deck":"am.d.fidel-rows-12e8-to-1350","am":"ፍቅር","rom":"fik'ir"}
+{"id":"am.c0069","deck":"am.d.reading-words","am":"ገና","rom":"gena"}
+{"id":"am.c0070","deck":"am.d.reading-words","am":"ሽፍታ","rom":"shifta"}
+{"id":"am.c0071","deck":"am.d.reading-words","am":"ቧ","rom":"bwa"}
+{"id":"am.c0072","deck":"am.d.reading-words","am":"ሏ","rom":"lwa"}
+{"id":"am.c0073","deck":"am.d.reading-words","am":"ኳ","rom":"kwa"}
+{"id":"am.c0074","deck":"am.d.reading-words","am":"ጓ","rom":"gwa"}
+{"id":"am.c0075","deck":"am.d.reading-words","am":"አገር","rom":"ager"}
+{"id":"am.c0076","deck":"am.d.reading-words","am":"ስራ","rom":"sira"}
+{"id":"am.c0077","deck":"am.d.reading-words","am":"ስልክ","rom":"silk"}
+{"id":"am.c0078","deck":"am.d.reading-words","am":"ቋንቋ","rom":"k'wank'wa"}
+{"id":"am.c0079","deck":"am.d.reading-words","am":"ዓለም","rom":"alem"}
+{"id":"am.c0080","deck":"am.d.reading-words","am":"አማርኛ","rom":"amarinnya"}
+{"id":"am.c0081","deck":"am.d.reading-words","am":"ጎንደር","rom":"gonder"}
+{"id":"am.c0082","deck":"am.d.reading-words","am":"አዲስ አበባ","rom":"addis abeba"}
+{"id":"am.c0083","deck":"am.d.reading-words","am":"ማር","rom":"mar"}
+{"id":"am.c0084","deck":"am.d.reading-words","am":"ጅብ","rom":"jib"}
+{"id":"am.c0085","deck":"am.d.reading-words","am":"ሃይቅ","rom":"hayk'"}
+{"id":"am.c0086","deck":"am.d.greetings-and-courtesy","am":"ሰላም","rom":"selam"}
+{"id":"am.c0087","deck":"am.d.greetings-and-courtesy","am":"ጤና ይስጥልኝ","rom":"t'éna yist'illiny"}
+{"id":"am.c0088","deck":"am.d.greetings-and-courtesy","am":"አንተ","rom":"ante"}
+{"id":"am.c0089","deck":"am.d.greetings-and-courtesy","am":"አንቺ","rom":"anchi"}
+{"id":"am.c0090","deck":"am.d.greetings-and-courtesy","am":"እርስዎ","rom":"irswo"}
+{"id":"am.c0091","deck":"am.d.greetings-and-courtesy","am":"ደህና አደርክ?","rom":"dehna adderk?"}
+{"id":"am.c0092","deck":"am.d.greetings-and-courtesy","am":"ደህና አደርሽ?","rom":"dehna addersh?"}
+{"id":"am.c0093","deck":"am.d.greetings-and-courtesy","am":"ደህና አደሩ?","rom":"dehna adderu?"}
+{"id":"am.c0094","deck":"am.d.greetings-and-courtesy","am":"ደህና ዋልክ?","rom":"dehna walk?"}
+{"id":"am.c0095","deck":"am.d.greetings-and-courtesy","am":"ደህና ዋልሽ?","rom":"dehna walsh?"}
+{"id":"am.c0096","deck":"am.d.greetings-and-courtesy","am":"ደህና ዋሉ?","rom":"dehna walu?"}
+{"id":"am.c0097","deck":"am.d.greetings-and-courtesy","am":"ደህና አመሸህ?","rom":"dehna amessheh?"}
+{"id":"am.c0098","deck":"am.d.greetings-and-courtesy","am":"ደህና አመሸሽ?","rom":"dehna amesshesh?"}
+{"id":"am.c0099","deck":"am.d.greetings-and-courtesy","am":"ደህና አመሹ?","rom":"dehna amesshu?"}
+{"id":"am.c0100","deck":"am.d.greetings-and-courtesy","am":"ደህና እደሩ","rom":"dehna ideru"}
+{"id":"am.c0101","deck":"am.d.greetings-and-courtesy","am":"አመሰግናለሁ","rom":"amesegginallehu"}
+{"id":"am.c0102","deck":"am.d.greetings-and-courtesy","am":"እባክህ","rom":"ibakih"}
+{"id":"am.c0103","deck":"am.d.greetings-and-courtesy","am":"እባክሽ","rom":"ibakish"}
+{"id":"am.c0104","deck":"am.d.about-me","am":"ስሜ ትግስት ነው","rom":"simé tigist new"}
+{"id":"am.c0105","deck":"am.d.about-me","am":"አገሬ አሜሪካ ነው","rom":"ageré amérika new"}
+{"id":"am.c0106","deck":"am.d.about-me","am":"ስምህ ማን ነው","rom":"simih man new"}
+{"id":"am.c0107","deck":"am.d.about-me","am":"ስምሽ ማን ነው","rom":"simish man new"}
+{"id":"am.c0108","deck":"am.d.about-me","am":"ስምዎ ማን ነው","rom":"simwo man new"}
+{"id":"am.c0109","deck":"am.d.about-me","am":"እኔ ነኝ","rom":"iné neny"}
+{"id":"am.c0110","deck":"am.d.about-me","am":"አንተ ነህ","rom":"ante neh"}
+{"id":"am.c0111","deck":"am.d.about-me","am":"አንቺ ነሽ","rom":"anchi nesh"}
+{"id":"am.c0112","deck":"am.d.about-me","am":"እርስዎ ነዎት","rom":"irswo newot"}
+{"id":"am.c0113","deck":"am.d.about-me","am":"እሱ ነው","rom":"issu new"}
+{"id":"am.c0114","deck":"am.d.about-me","am":"እሷ ናት","rom":"isswa nat"}
+{"id":"am.c0115","deck":"am.d.about-me","am":"እኛ ነን","rom":"innya nen"}
+{"id":"am.c0116","deck":"am.d.about-me","am":"እናንተ ናችሁ","rom":"innante nacchihu"}
+{"id":"am.c0117","deck":"am.d.about-me","am":"እነሱ ናቸው","rom":"innessu nacchew"}
+{"id":"am.c0118","deck":"am.d.about-me","am":"እሳቸው ናቸው","rom":"issachew nacchew"}
+{"id":"am.c0119","deck":"am.d.about-me","am":"እኔ አሜሪካዊ ነኝ","rom":"iné amérikawi neny"}
+{"id":"am.c0120","deck":"am.d.about-me","am":"እኔ አሜሪካዊት ነኝ","rom":"iné amérikawit neny"}
+{"id":"am.c0121","deck":"am.d.about-me","am":"እኔ ኢትዮጵያዊ ነኝ","rom":"iné ityop'yawi neny"}
+{"id":"am.c0122","deck":"am.d.people-and-family","am":"አባት","rom":"abbat"}
+{"id":"am.c0123","deck":"am.d.people-and-family","am":"እናት","rom":"innat"}
+{"id":"am.c0124","deck":"am.d.people-and-family","am":"ወንድም","rom":"wendim"}
+{"id":"am.c0125","deck":"am.d.people-and-family","am":"እህት","rom":"ihit"}
+{"id":"am.c0126","deck":"am.d.people-and-family","am":"ልጅ","rom":"lij"}
+{"id":"am.c0127","deck":"am.d.people-and-family","am":"ቤተሰብ","rom":"béteseb"}
+{"id":"am.c0128","deck":"am.d.people-and-family","am":"ጓደኛ","rom":"gwadennya"}
+{"id":"am.c0129","deck":"am.d.people-and-family","am":"ሴት አያት","rom":"sét ayat"}
+{"id":"am.c0130","deck":"am.d.people-and-family","am":"ወንድ አያት","rom":"wend ayat"}
+{"id":"am.c0131","deck":"am.d.people-and-family","am":"አባቴ","rom":"abbaté"}
+{"id":"am.c0132","deck":"am.d.people-and-family","am":"እናቴ","rom":"innaté"}
+{"id":"am.c0133","deck":"am.d.people-and-family","am":"ወንድሜ","rom":"wendimé"}
+{"id":"am.c0134","deck":"am.d.people-and-family","am":"አባትህ","rom":"abbatih"}
+{"id":"am.c0135","deck":"am.d.people-and-family","am":"አባትሽ","rom":"abbatish"}
+{"id":"am.c0136","deck":"am.d.people-and-family","am":"ቤቴ","rom":"bété"}
+{"id":"am.c0137","deck":"am.d.people-and-family","am":"ቤትህ","rom":"bétih"}
+{"id":"am.c0138","deck":"am.d.people-and-family","am":"ቤትሽ","rom":"bétish"}
+{"id":"am.c0139","deck":"am.d.people-and-family","am":"ቤቷ","rom":"bétwa"}
+{"id":"am.c0140","deck":"am.d.numbers-time-and-prices","am":"አንድ","rom":"and"}
+{"id":"am.c0141","deck":"am.d.numbers-time-and-prices","am":"ሁለት","rom":"hulet"}
+{"id":"am.c0142","deck":"am.d.numbers-time-and-prices","am":"ሶስት","rom":"sost"}
+{"id":"am.c0143","deck":"am.d.numbers-time-and-prices","am":"አራት","rom":"arat"}
+{"id":"am.c0144","deck":"am.d.numbers-time-and-prices","am":"አምስት","rom":"ammist"}
+{"id":"am.c0145","deck":"am.d.numbers-time-and-prices","am":"ስድስት","rom":"siddist"}
+{"id":"am.c0146","deck":"am.d.numbers-time-and-prices","am":"ሰባት","rom":"sebat"}
+{"id":"am.c0147","deck":"am.d.numbers-time-and-prices","am":"ስምንት","rom":"simmint"}
+{"id":"am.c0148","deck":"am.d.numbers-time-and-prices","am":"ዘጠኝ","rom":"zet'eny"}
+{"id":"am.c0149","deck":"am.d.numbers-time-and-prices","am":"አስር","rom":"assir"}
+{"id":"am.c0150","deck":"am.d.numbers-time-and-prices","am":"ሃያ","rom":"haya"}
+{"id":"am.c0151","deck":"am.d.numbers-time-and-prices","am":"መቶ","rom":"meto"}
+{"id":"am.c0152","deck":"am.d.numbers-time-and-prices","am":"ስንት ሰዓት ነው","rom":"sint se'at new"}
+{"id":"am.c0153","deck":"am.d.numbers-time-and-prices","am":"ጠዋት አስራ ሁለት ሰዓት","rom":"t'ewat assira hulet se'at"}
+{"id":"am.c0154","deck":"am.d.numbers-time-and-prices","am":"ከቀኑ ስድስት ሰዓት","rom":"kek'enu siddist se'at"}
+{"id":"am.c0155","deck":"am.d.numbers-time-and-prices","am":"ሀበሻ ሰዓት","rom":"habesha se'at"}
+{"id":"am.c0156","deck":"am.d.numbers-time-and-prices","am":"ዋጋው ስንት ነው","rom":"wagaw sint new"}
+{"id":"am.c0157","deck":"am.d.numbers-time-and-prices","am":"አራት ብር","rom":"arat birr"}
+{"id":"am.c0158","deck":"am.d.classroom-and-home","am":"ይህ","rom":"yih"}
+{"id":"am.c0159","deck":"am.d.classroom-and-home","am":"ይህች","rom":"yihich"}
+{"id":"am.c0160","deck":"am.d.classroom-and-home","am":"ያ","rom":"ya"}
+{"id":"am.c0161","deck":"am.d.classroom-and-home","am":"ያች","rom":"yach"}
+{"id":"am.c0162","deck":"am.d.classroom-and-home","am":"እነዚህ","rom":"innezih"}
+{"id":"am.c0163","deck":"am.d.classroom-and-home","am":"እነዚያ","rom":"inneziya"}
+{"id":"am.c0164","deck":"am.d.classroom-and-home","am":"መጽሀፍ","rom":"mets'haf"}
+{"id":"am.c0165","deck":"am.d.classroom-and-home","am":"ብዕር","rom":"bi'ir"}
+{"id":"am.c0166","deck":"am.d.classroom-and-home","am":"እርሳስ","rom":"irsas"}
+{"id":"am.c0167","deck":"am.d.classroom-and-home","am":"ቤቱ","rom":"bétu"}
+{"id":"am.c0168","deck":"am.d.classroom-and-home","am":"ቤቶች","rom":"bétoch"}
+{"id":"am.c0169","deck":"am.d.classroom-and-home","am":"መጽሀፉ","rom":"mets'hafu"}
+{"id":"am.c0170","deck":"am.d.classroom-and-home","am":"ይህ መጽሀፍ ነው","rom":"yih mets'haf new"}
+{"id":"am.c0171","deck":"am.d.classroom-and-home","am":"አለኝ","rom":"alleny"}
+{"id":"am.c0172","deck":"am.d.classroom-and-home","am":"የለኝም","rom":"yellenyim"}
+{"id":"am.c0173","deck":"am.d.classroom-and-home","am":"አለህ","rom":"alleh"}
+{"id":"am.c0174","deck":"am.d.classroom-and-home","am":"አለሽ","rom":"allesh"}
+{"id":"am.c0175","deck":"am.d.classroom-and-home","am":"ቤት አለዎት","rom":"bét allewot"}
+{"id":"am.c0176","deck":"am.d.food-and-drink","am":"እንጀራ","rom":"injera"}
+{"id":"am.c0177","deck":"am.d.food-and-drink","am":"ቡና","rom":"bunna"}
+{"id":"am.c0178","deck":"am.d.food-and-drink","am":"ውሃ","rom":"wiha"}
+{"id":"am.c0179","deck":"am.d.food-and-drink","am":"ቀይ ወጥ","rom":"k'ey wet'"}
+{"id":"am.c0180","deck":"am.d.food-and-drink","am":"አልጫ ወጥ","rom":"allich'a wet'"}
+{"id":"am.c0181","deck":"am.d.food-and-drink","am":"ዶሮ ወጥ","rom":"doro wet'"}
+{"id":"am.c0182","deck":"am.d.food-and-drink","am":"ምስር ወጥ","rom":"misir wet'"}
+{"id":"am.c0183","deck":"am.d.food-and-drink","am":"ክትፎ","rom":"kitfo"}
+{"id":"am.c0184","deck":"am.d.food-and-drink","am":"ጥብስ","rom":"t'ibs"}
+{"id":"am.c0185","deck":"am.d.food-and-drink","am":"ፍርፍር","rom":"firfir"}
+{"id":"am.c0186","deck":"am.d.food-and-drink","am":"እንቁላል ጥብስ","rom":"ink'ulal t'ibs"}
+{"id":"am.c0187","deck":"am.d.food-and-drink","am":"አምቦ ውሃ","rom":"ambo wiha"}
+{"id":"am.c0188","deck":"am.d.food-and-drink","am":"ሻይ","rom":"shay"}
+{"id":"am.c0189","deck":"am.d.food-and-drink","am":"ቢራ","rom":"birra"}
+{"id":"am.c0190","deck":"am.d.food-and-drink","am":"ሂሳብ","rom":"hisab"}
+{"id":"am.c0191","deck":"am.d.food-and-drink","am":"ቡና አለዎት?","rom":"bunna allewot?"}
+{"id":"am.c0192","deck":"am.d.food-and-drink","am":"ዶሮ ወጥ እወስዳለሁ","rom":"doro wet' iwesdallehu"}
+{"id":"am.c0193","deck":"am.d.food-and-drink","am":"ሻይ አልጠጣም","rom":"shay alt'ett'am"}
+{"id":"am.c0194","deck":"am.d.likes-and-free-time","am":"መሄድ","rom":"mehéd"}
+{"id":"am.c0195","deck":"am.d.likes-and-free-time","am":"መብላት","rom":"mebilat"}
+{"id":"am.c0196","deck":"am.d.likes-and-free-time","am":"መጠጣት","rom":"met'et'at"}
+{"id":"am.c0197","deck":"am.d.likes-and-free-time","am":"መተኛት","rom":"metenyat"}
+{"id":"am.c0198","deck":"am.d.likes-and-free-time","am":"ማንበብ","rom":"manibeb"}
+{"id":"am.c0199","deck":"am.d.likes-and-free-time","am":"እፈልጋለሁ","rom":"ifelligallehu"}
+{"id":"am.c0200","deck":"am.d.likes-and-free-time","am":"አልፈልግም","rom":"alfelligim"}
+{"id":"am.c0201","deck":"am.d.likes-and-free-time","am":"ቡና እፈልጋለሁ","rom":"bunna ifelligallehu"}
+{"id":"am.c0202","deck":"am.d.likes-and-free-time","am":"መሄድ እፈልጋለሁ","rom":"mehéd ifelligallehu"}
+{"id":"am.c0203","deck":"am.d.likes-and-free-time","am":"መተኛት እፈልጋለሁ","rom":"metenyat ifelligallehu"}
+{"id":"am.c0204","deck":"am.d.likes-and-free-time","am":"እወዳለሁ","rom":"iweddallehu"}
+{"id":"am.c0205","deck":"am.d.likes-and-free-time","am":"በጣም እወዳለሁ","rom":"bet'am iweddallehu"}
+{"id":"am.c0206","deck":"am.d.likes-and-free-time","am":"ቡና እወዳለሁ","rom":"bunna iweddallehu"}
+{"id":"am.c0207","deck":"am.d.likes-and-free-time","am":"አልወድም","rom":"alweddim"}
+{"id":"am.c0208","deck":"am.d.likes-and-free-time","am":"ቢራ አልወድም","rom":"birra alweddim"}
+{"id":"am.c0209","deck":"am.d.likes-and-free-time","am":"ትፈልጋለህ","rom":"tifelligalleh"}
+{"id":"am.c0210","deck":"am.d.likes-and-free-time","am":"ትፈልጊያለሽ","rom":"tifelligiyallesh"}
+{"id":"am.c0211","deck":"am.d.likes-and-free-time","am":"ይፈልጋሉ","rom":"yifelligallu"}
+{"id":"am.c0212","deck":"am.d.getting-around","am":"ከአሜሪካ ነኝ","rom":"keamérika neny"}
+{"id":"am.c0213","deck":"am.d.getting-around","am":"ከአዲስ አበባ ነሽ","rom":"keaddis abeba nesh"}
+{"id":"am.c0214","deck":"am.d.getting-around","am":"ከጎንደር ነህ","rom":"kegonder neh"}
+{"id":"am.c0215","deck":"am.d.getting-around","am":"ከኢትዮጵያ ነዎት","rom":"keityop'ya newot"}
+{"id":"am.c0216","deck":"am.d.getting-around","am":"በአዲስ አበባ","rom":"beaddis abeba"}
+{"id":"am.c0217","deck":"am.d.getting-around","am":"ወደ አዲስ አበባ","rom":"wede addis abeba"}
+{"id":"am.c0218","deck":"am.d.getting-around","am":"ለአበበች","rom":"leabebech"}
+{"id":"am.c0219","deck":"am.d.getting-around","am":"ወደ ቀኝ","rom":"wede k'eny"}
+{"id":"am.c0220","deck":"am.d.getting-around","am":"ወደ ግራ","rom":"wede gira"}
+{"id":"am.c0221","deck":"am.d.getting-around","am":"በስተቀኝ","rom":"besitek'eny"}
+{"id":"am.c0222","deck":"am.d.getting-around","am":"ቀጥ ብለው ይሂዱ","rom":"k'et' billew yihidu"}
+{"id":"am.c0223","deck":"am.d.getting-around","am":"ቀጥ ብለህ ሂድ","rom":"k'et' billeh hid"}
+{"id":"am.c0224","deck":"am.d.getting-around","am":"ሆቴሉ የት ነው?","rom":"hotélu yet new?"}
+{"id":"am.c0225","deck":"am.d.getting-around","am":"ገበያው የት ነው?","rom":"gebeyaw yet new?"}
+{"id":"am.c0226","deck":"am.d.getting-around","am":"ትምህርት ቤቱ የት ነው?","rom":"timihirt bétu yet new?"}
+{"id":"am.c0227","deck":"am.d.getting-around","am":"በመኪና","rom":"bemekina"}
+{"id":"am.c0228","deck":"am.d.getting-around","am":"በአውቶቡስ","rom":"beawtobus"}
+{"id":"am.c0229","deck":"am.d.getting-around","am":"ጎንደር ሩቅ ናት","rom":"gonder ruk' nat"}
+{"id":"am.c0230","deck":"am.d.verbs","am":"ሄድኩ","rom":"hédku"}
+{"id":"am.c0231","deck":"am.d.verbs","am":"ሄድክ","rom":"hédk"}
+{"id":"am.c0232","deck":"am.d.verbs","am":"ሄድሽ","rom":"hédsh"}
+{"id":"am.c0233","deck":"am.d.verbs","am":"ሄደ","rom":"héde"}
+{"id":"am.c0234","deck":"am.d.verbs","am":"ሄደች","rom":"hédech"}
+{"id":"am.c0235","deck":"am.d.verbs","am":"ሄድን","rom":"hédin"}
+{"id":"am.c0236","deck":"am.d.verbs","am":"ሄዱ","rom":"hédu"}
+{"id":"am.c0237","deck":"am.d.verbs","am":"እሄዳለሁ","rom":"ihédallehu"}
+{"id":"am.c0238","deck":"am.d.verbs","am":"ትሄዳለህ","rom":"tihédalleh"}
+{"id":"am.c0239","deck":"am.d.verbs","am":"ትሄጃለሽ","rom":"tihéjallesh"}
+{"id":"am.c0240","deck":"am.d.verbs","am":"ይሄዳል","rom":"yihédal"}
+{"id":"am.c0241","deck":"am.d.verbs","am":"ትሄዳለች","rom":"tihédallech"}
+{"id":"am.c0242","deck":"am.d.verbs","am":"እንሄዳለን","rom":"inhédallen"}
+{"id":"am.c0243","deck":"am.d.verbs","am":"ይሄዳሉ","rom":"yihédallu"}
+{"id":"am.c0244","deck":"am.d.verbs","am":"ቡናውን ጠጣሁ","rom":"bunnawn t'ett'ahu"}
+{"id":"am.c0245","deck":"am.d.verbs","am":"ውሃ ጠጣሁ","rom":"wiha t'ett'ahu"}
+{"id":"am.c0246","deck":"am.d.verbs","am":"በላሁ","rom":"bellahu"}
+{"id":"am.c0247","deck":"am.d.verbs","am":"እንጀራ በላሁ","rom":"injera bellahu"}
+{"id":"am.c0248","deck":"am.d.questions-and-connectors","am":"ምን","rom":"min"}
+{"id":"am.c0249","deck":"am.d.questions-and-connectors","am":"ማን","rom":"man"}
+{"id":"am.c0250","deck":"am.d.questions-and-connectors","am":"የት","rom":"yet"}
+{"id":"am.c0251","deck":"am.d.questions-and-connectors","am":"መቼ","rom":"meché"}
+{"id":"am.c0252","deck":"am.d.questions-and-connectors","am":"ስንት","rom":"sint"}
+{"id":"am.c0253","deck":"am.d.questions-and-connectors","am":"እንዴት","rom":"indét"}
+{"id":"am.c0254","deck":"am.d.questions-and-connectors","am":"እና","rom":"inna"}
+{"id":"am.c0255","deck":"am.d.questions-and-connectors","am":"ግን","rom":"gin"}
+{"id":"am.c0256","deck":"am.d.questions-and-connectors","am":"ወይም","rom":"weyim"}
+{"id":"am.c0257","deck":"am.d.questions-and-connectors","am":"ወይስ","rom":"weyis"}
+{"id":"am.c0258","deck":"am.d.questions-and-connectors","am":"ምንድን ነው?","rom":"mindin new?"}
+{"id":"am.c0259","deck":"am.d.questions-and-connectors","am":"ማን ነህ?","rom":"man neh?"}
+{"id":"am.c0260","deck":"am.d.questions-and-connectors","am":"ማን ነሽ?","rom":"man nesh?"}
+{"id":"am.c0261","deck":"am.d.questions-and-connectors","am":"ማን ነዎት?","rom":"man newot?"}
+{"id":"am.c0262","deck":"am.d.questions-and-connectors","am":"ምን ትፈልጋለህ?","rom":"min tifelligalleh?"}
+{"id":"am.c0263","deck":"am.d.questions-and-connectors","am":"ምን ትፈልጊያለሽ?","rom":"min tifelligiyallesh?"}
+{"id":"am.c0264","deck":"am.d.questions-and-connectors","am":"የት ትሄዳለህ?","rom":"yet tihédalleh?"}
+{"id":"am.c0265","deck":"am.d.questions-and-connectors","am":"ቡናው እንዴት ነው?","rom":"bunnaw indét new?"}
+{"id":"am.c0266","deck":"am.d.compliments","am":"ውብ","rom":"wib"}
+{"id":"am.c0267","deck":"am.d.compliments","am":"ውቢት","rom":"wibit"}
+{"id":"am.c0268","deck":"am.d.compliments","am":"ቆንጆ","rom":"k'onjo"}
+{"id":"am.c0269","deck":"am.d.compliments","am":"በጣም ቆንጆ","rom":"bet'am k'onjo"}
+{"id":"am.c0270","deck":"am.d.compliments","am":"መልካም ቀን","rom":"melkam k'en"}
+{"id":"am.c0271","deck":"am.d.compliments","am":"መልካም ጉዞ","rom":"melkam guzo"}
+{"id":"am.c0272","deck":"am.d.compliments","am":"በጣም አሪፍ","rom":"bet'am arif"}
+{"id":"am.c0273","deck":"am.d.compliments","am":"ቡናው በጣም ቆንጆ ነው","rom":"bunnaw bet'am k'onjo new"}
+{"id":"am.c0274","deck":"am.d.compliments","am":"አበበች ቆንጆ ናት","rom":"abebech k'onjo nat"}
+{"id":"am.c0275","deck":"am.d.compliments","am":"ትግስት ውቢት ናት","rom":"tigist wibit nat"}
+{"id":"am.c0276","deck":"am.d.compliments","am":"አዳም ውብ ነው","rom":"adam wib new"}
+{"id":"am.c0277","deck":"am.d.compliments","am":"አዲስ አበባ ውቢት ናት","rom":"addis abeba wibit nat"}
+{"id":"am.c0278","deck":"am.d.compliments","am":"ቤቱ ውብ ነው","rom":"bétu wib new"}
+{"id":"am.c0279","deck":"am.d.compliments","am":"በጣም ቆንጆ እርሳስ ነው","rom":"bet'am k'onjo irsas new"}
+{"id":"am.c0280","deck":"am.d.compliments","am":"ምግቡ በጣም አሪፍ ነው","rom":"migibu bet'am arif new"}
+{"id":"am.c0281","deck":"am.d.compliments","am":"አቶ ከበደ መልካም ሰው ነው","rom":"ato kebbede melkam sew new"}
+{"id":"am.c0282","deck":"am.d.compliments","am":"በጣም አሪፍ ነው","rom":"bet'am arif new"}
+{"id":"am.c0283","deck":"am.d.compliments","am":"ጎንደር ውቢት ናት","rom":"gonder wibit nat"}
+{"id":"am.c0284","deck":"am.d.traps-for-english-speakers","am":"አልሄድኩም","rom":"alhédkum"}
+{"id":"am.c0285","deck":"am.d.traps-for-english-speakers","am":"አልሄድም","rom":"alhédim"}
+{"id":"am.c0286","deck":"am.d.traps-for-english-speakers","am":"አልሄድክም","rom":"alhédkim"}
+{"id":"am.c0287","deck":"am.d.traps-for-english-speakers","am":"አልሄድሽም","rom":"alhédshim"}
+{"id":"am.c0288","deck":"am.d.traps-for-english-speakers","am":"አልሄደም","rom":"alhédem"}
+{"id":"am.c0289","deck":"am.d.traps-for-english-speakers","am":"አልሄደችም","rom":"alhédechim"}
+{"id":"am.c0290","deck":"am.d.traps-for-english-speakers","am":"አልሄዱም","rom":"alhédum"}
+{"id":"am.c0291","deck":"am.d.traps-for-english-speakers","am":"አትሄድም","rom":"atihédim"}
+{"id":"am.c0292","deck":"am.d.traps-for-english-speakers","am":"አትሄጂም","rom":"atihéjim"}
+{"id":"am.c0293","deck":"am.d.traps-for-english-speakers","am":"አንተ ተማሪ ነህ","rom":"ante temari neh"}
+{"id":"am.c0294","deck":"am.d.traps-for-english-speakers","am":"አንቺ ተማሪ ነሽ","rom":"anchi temari nesh"}
+{"id":"am.c0295","deck":"am.d.traps-for-english-speakers","am":"እሱ ተማሪ ነው","rom":"issu temari new"}
+{"id":"am.c0296","deck":"am.d.traps-for-english-speakers","am":"እሷ ተማሪ ናት","rom":"isswa temari nat"}
+{"id":"am.c0297","deck":"am.d.traps-for-english-speakers","am":"በሩን ዘጋሁት","rom":"berun zeggahut"}
+{"id":"am.c0298","deck":"am.d.traps-for-english-speakers","am":"ቡና ጠጣሁ","rom":"bunna t'ett'ahu"}
+{"id":"am.c0299","deck":"am.d.traps-for-english-speakers","am":"ልጆች","rom":"lijoch"}
+{"id":"am.c0300","deck":"am.d.traps-for-english-speakers","am":"ገና አልመጣችም","rom":"gena almet'achim"}
+{"id":"am.c0301","deck":"am.d.traps-for-english-speakers","am":"ጨው","rom":"ch'ew"}
+{"id":"am.c0302","deck":"am.d.flirting","am":"ቆንጆ ነሽ","rom":"k'onjo nesh"}
+{"id":"am.c0303","deck":"am.d.flirting","am":"ቆንጆ ነህ","rom":"k'onjo neh"}
+{"id":"am.c0304","deck":"am.d.flirting","am":"ዛሬ በጣም ቆንጆ ነሽ","rom":"zaré bet'am k'onjo nesh"}
+{"id":"am.c0305","deck":"am.d.flirting","am":"ስምሽ ቆንጆ ነው","rom":"simish k'onjo new"}
+{"id":"am.c0306","deck":"am.d.flirting","am":"በጣም ቆንጆ ነዎት","rom":"bet'am k'onjo newot"}
+{"id":"am.c0307","deck":"am.d.flirting","am":"ውቢት ነሽ","rom":"wibit nesh"}
+{"id":"am.c0308","deck":"am.d.flirting","am":"በጣም ውቢት ነሽ","rom":"bet'am wibit nesh"}
+{"id":"am.c0309","deck":"am.d.flirting","am":"አሪፍ ነህ","rom":"arif neh"}
+{"id":"am.c0310","deck":"am.d.flirting","am":"አሪፍ ሰው ነሽ","rom":"arif sew nesh"}
+{"id":"am.c0311","deck":"am.d.flirting","am":"መልካም ሰው ነህ","rom":"melkam sew neh"}
+{"id":"am.c0312","deck":"am.d.flirting","am":"ጥሩ ሰው ነሽ","rom":"t'ru sew nesh"}
+{"id":"am.c0313","deck":"am.d.flirting","am":"ቡና ትፈልጊያለሽ?","rom":"bunna tifelligiyallesh?"}
+{"id":"am.c0314","deck":"am.d.flirting","am":"ቡና ይፈልጋሉ?","rom":"bunna yifelligallu?"}
+{"id":"am.c0315","deck":"am.d.flirting","am":"ነገ ቡና ትፈልጋለህ?","rom":"nege bunna tifelligalleh?"}
+{"id":"am.c0316","deck":"am.d.flirting","am":"ለአንቺ ነው","rom":"leanchi new"}
+{"id":"am.c0317","deck":"am.d.flirting","am":"ደህና እደሪ","rom":"dehna ideri"}
+{"id":"am.c0318","deck":"am.d.flirting","am":"ኧረ","rom":"ere"}
+{"id":"am.c0319","deck":"am.d.flirting","am":"ኧረ አይደለም","rom":"ere aydellem"}
+{"id":"am.c0320","deck":"am.d.flirting","am":"አዎ በጣም እፈልጋለሁ","rom":"awo bet'am ifelligallehu"}
+{"id":"am.c0321","deck":"am.d.flirting","am":"እሺ ነገ","rom":"isshi nege"}
+{"id":"am.c0322","deck":"am.d.flirting","am":"ጥሩ ጓደኛ ነህ","rom":"t'ru gwadennya neh"}
+{"id":"am.c0323","deck":"am.d.flirting","am":"አመሰግናለሁ ግን አልፈልግም","rom":"amesegginallehu gin alfelligim"}
+{"id":"am.c0324","deck":"am.d.flirting","am":"ይቅርታ አልፈልግም","rom":"yik'irta alfelligim"}
+{"id":"am.c0325","deck":"am.d.flirting","am":"ይቅርታ ጓደኛ አለኝ","rom":"yik'irta gwadennya alleny"}
+{"id":"am.c0326","deck":"am.d.flirting","am":"ጥሩ ሰው ነህ ግን አልፈልግም","rom":"t'ru sew neh gin alfelligim"}
+{"id":"am.c0327","deck":"am.d.top-nouns","am":"ቀን","rom":"k'en"}
+{"id":"am.c0328","deck":"am.d.top-nouns","am":"ሰዓት","rom":"se'at"}
+{"id":"am.c0329","deck":"am.d.top-nouns","am":"ሴት","rom":"sét"}
+{"id":"am.c0330","deck":"am.d.top-nouns","am":"ወንድ","rom":"wend"}
+{"id":"am.c0331","deck":"am.d.top-nouns","am":"ብር","rom":"birr"}
+{"id":"am.c0332","deck":"am.d.top-nouns","am":"ትምህርት","rom":"timihirt"}
+{"id":"am.c0333","deck":"am.d.top-nouns","am":"ጤና","rom":"t'éna"}
+{"id":"am.c0334","deck":"am.d.top-nouns","am":"ራስ","rom":"ras"}
+{"id":"am.c0335","deck":"am.d.top-nouns","am":"በር","rom":"ber"}
+{"id":"am.c0336","deck":"am.d.top-nouns","am":"መኪና","rom":"mekina"}
+{"id":"am.c0337","deck":"am.d.top-nouns","am":"ጉዞ","rom":"guzo"}
+{"id":"am.c0338","deck":"am.d.top-nouns","am":"ተማሪ","rom":"temari"}
+{"id":"am.c0339","deck":"am.d.top-nouns","am":"አያት","rom":"ayat"}
+{"id":"am.c0340","deck":"am.d.top-nouns","am":"ቀኝ","rom":"k'eny"}
+{"id":"am.c0341","deck":"am.d.top-nouns","am":"ግራ","rom":"gira"}
+{"id":"am.c0342","deck":"am.d.top-nouns","am":"ዶሮ","rom":"doro"}
+{"id":"am.c0343","deck":"am.d.top-nouns","am":"እንቁላል","rom":"ink'ulal"}
+{"id":"am.c0344","deck":"am.d.top-nouns","am":"ወጥ","rom":"wet'"}
+{"id":"am.c0345","deck":"am.d.top-nouns","am":"ምስር","rom":"misir"}
+{"id":"am.c0346","deck":"am.d.top-nouns","am":"ኳስ","rom":"kwas"}
+{"id":"am.c0347","deck":"am.d.top-nouns","am":"ሀበሻ","rom":"habesha"}
+{"id":"am.c0348","deck":"am.d.top-nouns","am":"እግዚአብሔር","rom":"igziabihér"}
+{"id":"am.c0349","deck":"am.d.top-nouns","am":"አበባ","rom":"abeba"}
+{"id":"am.c0350","deck":"am.d.top-verbs","am":"ነው","rom":"new"}
+{"id":"am.c0351","deck":"am.d.top-verbs","am":"አለ","rom":"alle"}
+{"id":"am.c0352","deck":"am.d.top-verbs","am":"የለም","rom":"yellem"}
+{"id":"am.c0353","deck":"am.d.top-verbs","am":"ሂድ","rom":"hid"}
+{"id":"am.c0354","deck":"am.d.top-verbs","am":"ሂጂ","rom":"hijji"}
+{"id":"am.c0355","deck":"am.d.top-verbs","am":"ይሂዱ","rom":"yihidu"}
+{"id":"am.c0356","deck":"am.d.top-verbs","am":"ና","rom":"na"}
+{"id":"am.c0357","deck":"am.d.top-verbs","am":"ነይ","rom":"ney"}
+{"id":"am.c0358","deck":"am.d.top-verbs","am":"ተቀመጥ","rom":"tek'emet'"}
+{"id":"am.c0359","deck":"am.d.top-verbs","am":"ተቀመጪ","rom":"tek'emech'i"}
+{"id":"am.c0360","deck":"am.d.top-verbs","am":"ይቀመጡ","rom":"yik'emet'u"}
+{"id":"am.c0361","deck":"am.d.top-verbs","am":"ጠጣ","rom":"t'ett'a"}
+{"id":"am.c0362","deck":"am.d.top-verbs","am":"ጠጣሁ","rom":"t'ett'ahu"}
+{"id":"am.c0363","deck":"am.d.top-verbs","am":"ጠጣች","rom":"t'ett'ach"}
+{"id":"am.c0364","deck":"am.d.top-verbs","am":"እጠጣለሁ","rom":"it'ett'allehu"}
+{"id":"am.c0365","deck":"am.d.top-verbs","am":"ትጠጣለህ","rom":"tit'ett'alleh"}
+{"id":"am.c0366","deck":"am.d.top-verbs","am":"ትጠጫለሽ","rom":"tit'ecch'allesh"}
+{"id":"am.c0367","deck":"am.d.top-verbs","am":"እበላለሁ","rom":"ibelallehu"}
+{"id":"am.c0368","deck":"am.d.top-verbs","am":"ትወዳለህ","rom":"tiweddalleh"}
+{"id":"am.c0369","deck":"am.d.top-verbs","am":"ትወጃለሽ","rom":"tiwejjallesh"}
+{"id":"am.c0370","deck":"am.d.top-verbs","am":"ይወዳሉ","rom":"yiweddallu"}
+{"id":"am.c0371","deck":"am.d.top-verbs","am":"እወስዳለሁ","rom":"iwesdallehu"}
+{"id":"am.c0372","deck":"am.d.top-verbs","am":"ይሻለኛል","rom":"yishalenyal"}
+{"id":"am.c0373","deck":"am.d.top-verbs","am":"ዘጋህ","rom":"zeggah"}
+{"id":"am.c0374","deck":"am.d.top-verbs","am":"ይታጠፉ","rom":"yitat'efu"}
+{"id":"am.c0375","deck":"am.d.top-adjectives","am":"ትልቅ","rom":"tilik'"}
+{"id":"am.c0376","deck":"am.d.top-adjectives","am":"ትንሽ","rom":"tinish"}
+{"id":"am.c0377","deck":"am.d.top-adjectives","am":"ብዙ","rom":"bizu"}
+{"id":"am.c0378","deck":"am.d.top-adjectives","am":"ደህና","rom":"dehna"}
+{"id":"am.c0379","deck":"am.d.top-adjectives","am":"መልካም","rom":"melkam"}
+{"id":"am.c0380","deck":"am.d.top-adjectives","am":"ውድ","rom":"widd"}
+{"id":"am.c0381","deck":"am.d.top-adjectives","am":"ቀይ","rom":"k'ey"}
+{"id":"am.c0382","deck":"am.d.top-adjectives","am":"ሩቅ","rom":"ruk'"}
+{"id":"am.c0383","deck":"am.d.top-adjectives","am":"አሪፍ","rom":"arif"}
+{"id":"am.c0384","deck":"am.d.top-adjectives","am":"ኢትዮጵያዊ","rom":"ityop'yawi"}
+{"id":"am.c0385","deck":"am.d.top-adjectives","am":"አሜሪካዊ","rom":"amérikawi"}
+{"id":"am.c0386","deck":"am.d.top-adjectives","am":"አሜሪካዊት","rom":"amérikawit"}
+{"id":"am.c0387","deck":"am.d.top-pronouns","am":"እኔ","rom":"iné"}
+{"id":"am.c0388","deck":"am.d.top-pronouns","am":"እሱ","rom":"issu"}
+{"id":"am.c0389","deck":"am.d.top-pronouns","am":"እሷ","rom":"isswa"}
+{"id":"am.c0390","deck":"am.d.top-pronouns","am":"እኛ","rom":"innya"}
+{"id":"am.c0391","deck":"am.d.top-pronouns","am":"እነሱ","rom":"innessu"}
+{"id":"am.c0392","deck":"am.d.top-pronouns","am":"እናንተ","rom":"innante"}
+{"id":"am.c0393","deck":"am.d.top-pronouns","am":"እሳቸው","rom":"issachew"}
+{"id":"am.c0394","deck":"am.d.top-pronouns","am":"ምንድን","rom":"mindin"}
+{"id":"am.c0395","deck":"am.d.top-pronouns","am":"ይቺ","rom":"yichi"}
+{"id":"am.c0396","deck":"am.d.top-pronouns","am":"ስሜ","rom":"simé"}
+{"id":"am.c0397","deck":"am.d.top-pronouns","am":"ስምህ","rom":"simih"}
+{"id":"am.c0398","deck":"am.d.top-pronouns","am":"ስምሽ","rom":"simish"}
+{"id":"am.c0399","deck":"am.d.top-pronouns","am":"ስምዎ","rom":"simwo"}
+{"id":"am.c0400","deck":"am.d.top-pronouns","am":"ልጁ","rom":"liju"}
+{"id":"am.c0401","deck":"am.d.top-pronouns","am":"ልጇ","rom":"lijwa"}
+{"id":"am.c0402","deck":"am.d.top-prepositions-and-postpositions","am":"ወደ","rom":"wede"}
+{"id":"am.c0403","deck":"am.d.top-prepositions-and-postpositions","am":"ጋር","rom":"gar"}
+{"id":"am.c0404","deck":"am.d.top-prepositions-and-postpositions","am":"ከየት","rom":"keyet"}
+{"id":"am.c0405","deck":"am.d.top-prepositions-and-postpositions","am":"ከኢትዮጵያ","rom":"keityop'ya"}
+{"id":"am.c0406","deck":"am.d.top-prepositions-and-postpositions","am":"በኢትዮጵያ","rom":"beityop'ya"}
+{"id":"am.c0407","deck":"am.d.top-prepositions-and-postpositions","am":"ከአሜሪካ","rom":"keamérika"}
+{"id":"am.c0408","deck":"am.d.top-prepositions-and-postpositions","am":"በቤት","rom":"bebét"}
+{"id":"am.c0409","deck":"am.d.top-prepositions-and-postpositions","am":"በቤቱ","rom":"bebétu"}
+{"id":"am.c0410","deck":"am.d.top-prepositions-and-postpositions","am":"ለአንቺ","rom":"leanchi"}
+{"id":"am.c0411","deck":"am.d.top-prepositions-and-postpositions","am":"ለእርስዎ","rom":"leirswo"}
+{"id":"am.c0412","deck":"am.d.top-prepositions-and-postpositions","am":"ከጠዋቱ","rom":"ket'ewatu"}
+{"id":"am.c0413","deck":"am.d.top-prepositions-and-postpositions","am":"ከቀኑ","rom":"kek'enu"}
+{"id":"am.c0414","deck":"am.d.top-prepositions-and-postpositions","am":"ከሆቴሉ","rom":"kehotélu"}
+{"id":"am.c0415","deck":"am.d.top-words","am":"አዎ","rom":"awo"}
+{"id":"am.c0416","deck":"am.d.top-words","am":"አይደለም","rom":"aydellem"}
+{"id":"am.c0417","deck":"am.d.top-words","am":"እሺ","rom":"isshi"}
+{"id":"am.c0418","deck":"am.d.top-words","am":"ይቅርታ","rom":"yik'irta"}
+{"id":"am.c0419","deck":"am.d.top-words","am":"ዛሬ","rom":"zaré"}
+{"id":"am.c0420","deck":"am.d.top-words","am":"ነገ","rom":"nege"}
+{"id":"am.c0421","deck":"am.d.top-words","am":"ትናንት","rom":"tinant"}
+{"id":"am.c0422","deck":"am.d.top-words","am":"ሰኞ","rom":"sennyo"}
+{"id":"am.c0423","deck":"am.d.top-words","am":"ሀሙስ","rom":"hamus"}
+{"id":"am.c0424","deck":"am.d.top-words","am":"አርብ","rom":"arb"}
+{"id":"am.c0425","deck":"am.d.top-words","am":"አስራ","rom":"assira"}
+{"id":"am.c0426","deck":"am.d.top-words","am":"አርባ","rom":"arba"}

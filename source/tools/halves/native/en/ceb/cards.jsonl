@@ -1,0 +1,855 @@
+{"id":"ceb.c0001","meaning":"house","note":"Stress on the last syllable: bah-LAI."}
+{"id":"ceb.c0002","meaning":"child","note":"Ends in a catch (q in the aid). Without it, bata is a nightgown."}
+{"id":"ceb.c0003","meaning":"good; well","note":"Three syllables, ma-a-yo, with a catch before the second a."}
+{"id":"ceb.c0004","meaning":"name","note":"ng as in \"singer\", even at the start of a word."}
+{"id":"ceb.c0005","meaning":"children","note":"mga is said \"manga\"."}
+{"id":"ceb.c0006","meaning":"person","note":"o is a pure oh, without the glide of English \"toe\"."}
+{"id":"ceb.c0007","meaning":"woman","note":"One of the few native words written with e."}
+{"id":"ceb.c0008","meaning":"man","note":"Keep every a a full \"ah\", even where English would blur it."}
+{"id":"ceb.c0009","meaning":"egg","note":"Stress on the last syllable: eet-LOHG."}
+{"id":"ceb.c0010","meaning":"dog","note":"Ends in a catch: stop the breath after the o, with no k."}
+{"id":"ceb.c0011","meaning":"cat","note":"ng at the end, as in \"sing\". Stress on the last syllable."}
+{"id":"ceb.c0012","meaning":"night; evening","note":"Two i's are two syllables, with a catch between them."}
+{"id":"ceb.c0013","meaning":"hair","note":"h is always said, even in the middle of a word."}
+{"id":"ceb.c0014","meaning":"my dog","note":"akong (my) goes before the noun and ends in -ng."}
+{"id":"ceb.c0015","meaning":"ginger","note":"The hyphen marks a catch: luy, a short stop, then a."}
+{"id":"ceb.c0016","meaning":"eight","note":"ts sounds like English ch. A Spanish number."}
+{"id":"ceb.c0017","meaning":"coffee","note":"e is used in loanwords like this one; native words use i."}
+{"id":"ceb.c0018","meaning":"Cebu (the old Cebuano name)","note":"Ends in a catch, like bata."}
+{"id":"ceb.c0019","meaning":"Good morning.","note":"Until about 11 a.m."}
+{"id":"ceb.c0020","meaning":"Good day. (around noon)","note":"Used from about 11 a.m. to 1 p.m."}
+{"id":"ceb.c0021","meaning":"Good afternoon.","note":"From about 1 p.m. until dark. Around noon: Maayong udto."}
+{"id":"ceb.c0022","meaning":"Good evening.","note":"After dark."}
+{"id":"ceb.c0023","meaning":"How are you?","note":"The answer: Maayo man. Salamat."}
+{"id":"ceb.c0024","meaning":"I'm fine.","note":"man softens the answer; a bare Maayo sounds curt."}
+{"id":"ceb.c0025","meaning":"Thank you.","note":"Add a title for an older person: Salamat, Nong."}
+{"id":"ceb.c0026","meaning":"Thank you very much.","note":"Literally \"many thanks\"."}
+{"id":"ceb.c0027","meaning":"Thank you, ma'am.","note":"Nang (from Manang) to an older woman: a vendor, a helper."}
+{"id":"ceb.c0028","meaning":"You're welcome.","note":"Literally \"no bother\"."}
+{"id":"ceb.c0029","meaning":"Welcome.","note":"To a guest or someone just arrived."}
+{"id":"ceb.c0030","meaning":"Come on in.","note":"What the host says at the door. lang makes it friendly."}
+{"id":"ceb.c0031","meaning":"Have a seat first.","note":"usa here means \"first, for a moment\". The pronunciation line shows usa \"one\"; this usa may sound different."}
+{"id":"ceb.c0032","meaning":"I'm sorry. (please forgive me)","note":"For a real apology."}
+{"id":"ceb.c0033","meaning":"Sorry about that.","note":"For a small slip or a delay."}
+{"id":"ceb.c0034","meaning":"Excuse me, ma'am, just a question.","note":"A polite way to stop someone and ask. To a man: Nong."}
+{"id":"ceb.c0035","meaning":"I'll go ahead now.","note":"A friendly way to leave. ko is the short pronoun."}
+{"id":"ceb.c0036","meaning":"Take care.","note":"Said when someone leaves."}
+{"id":"ceb.c0037","meaning":"I'm Emma.","note":"si comes before a name."}
+{"id":"ceb.c0038","meaning":"My name is Pedro.","note":"The name comes first, then ang akong ngalan."}
+{"id":"ceb.c0039","meaning":"What's your name?","note":"Unsay is short for unsa ang."}
+{"id":"ceb.c0040","meaning":"This is Ana.","note":"siya means he or she; si comes before the name."}
+{"id":"ceb.c0041","meaning":"I'm from the US.","note":"taga- means \"from\". The short pronoun ko comes second."}
+{"id":"ceb.c0042","meaning":"Where are you from?","note":"Not Asa ka gikan?, which means \"Where have you just been?\""}
+{"id":"ceb.c0043","meaning":"Are you from Cebu?","note":"A yes-or-no question can use the same words as a statement."}
+{"id":"ceb.c0044","meaning":"I live in Cebu.","note":"sa = in, at."}
+{"id":"ceb.c0045","meaning":"Where do you live?","note":"The question word comes first, then ka."}
+{"id":"ceb.c0046","meaning":"Nice to meet you.","note":"Literally \"I'm happy that I got to know you\"."}
+{"id":"ceb.c0047","meaning":"I'm thirty.","note":"Age uses Spanish numbers and anyos, not a word for \"have\"."}
+{"id":"ceb.c0048","meaning":"How old are you?","note":"Literally \"How many is your age now?\""}
+{"id":"ceb.c0049","meaning":"I'm a teacher (woman).","note":"The main word comes first, then ko. A man: maestro."}
+{"id":"ceb.c0050","meaning":"I'm a student.","note":"No word for \"a\": the job word comes first."}
+{"id":"ceb.c0051","meaning":"What's your job?","note":"trabaho = work, job."}
+{"id":"ceb.c0052","meaning":"I work at a hospital.","note":"nag- here means it is going on these days."}
+{"id":"ceb.c0053","meaning":"I'm married.","note":"na = already."}
+{"id":"ceb.c0054","meaning":"I'm studying Cebuano.","note":"og before the thing you study. Many people call the language Bisaya."}
+{"id":"ceb.c0055","meaning":"brother or sister","note":"Says nothing about sex: igsoon nga lalaki = brother."}
+{"id":"ceb.c0056","meaning":"mother","note":"Everyday: mama."}
+{"id":"ceb.c0057","meaning":"father","note":"Everyday: papa."}
+{"id":"ceb.c0058","meaning":"parents","note":"The whole pair, mother and father."}
+{"id":"ceb.c0059","meaning":"son or daughter","note":"Your own child, of any age."}
+{"id":"ceb.c0060","meaning":"husband","note":""}
+{"id":"ceb.c0061","meaning":"wife","note":""}
+{"id":"ceb.c0062","meaning":"grandchild","note":""}
+{"id":"ceb.c0063","meaning":"grandmother","note":"Also used for any old woman you respect."}
+{"id":"ceb.c0064","meaning":"grandfather","note":"Also used for any old man you respect."}
+{"id":"ceb.c0065","meaning":"older brother or sister","note":"Younger: manghod."}
+{"id":"ceb.c0066","meaning":"younger brother or sister","note":"Older: magulang."}
+{"id":"ceb.c0067","meaning":"cousin","note":"The hyphen marks a catch."}
+{"id":"ceb.c0068","meaning":"friend","note":""}
+{"id":"ceb.c0069","meaning":"sir (to an older man)","note":"Short for Manong: drivers, guards, vendors."}
+{"id":"ceb.c0070","meaning":"We're from the US.","note":"mi (kami) leaves out the person you are talking to."}
+{"id":"ceb.c0071","meaning":"Where are you all from?","note":"mo (kamo) is \"you\" for more than one person."}
+{"id":"ceb.c0072","meaning":"They're my friends.","note":"sila = they. nako comes after the noun."}
+{"id":"ceb.c0073","meaning":"one banana","note":"ka joins a Cebuano number to the noun."}
+{"id":"ceb.c0074","meaning":"two days","note":"Cebuano numbers for counting things and days."}
+{"id":"ceb.c0075","meaning":"three children","note":"Not tulo bata: ka is needed."}
+{"id":"ceb.c0076","meaning":"four people","note":"Counting people uses Cebuano numbers too."}
+{"id":"ceb.c0077","meaning":"ten","note":"Ends in a catch: nah-POO-lohq."}
+{"id":"ceb.c0078","meaning":"one hundred","note":"Cebuano. For pesos most people say siyen."}
+{"id":"ceb.c0079","meaning":"one thousand","note":"You will also hear the English \"one thousand\"."}
+{"id":"ceb.c0080","meaning":"five pesos","note":"Prices are said in Spanish numbers. Written ₱5."}
+{"id":"ceb.c0081","meaning":"twenty pesos","note":"Prices are said in Spanish numbers. Written ₱20."}
+{"id":"ceb.c0082","meaning":"twenty-five pesos","note":"Written ₱25. Tens first, then the ones."}
+{"id":"ceb.c0083","meaning":"forty pesos","note":"Written ₱40."}
+{"id":"ceb.c0084","meaning":"fifty","note":"Spanish. In Cebu City you will also hear \"fifty\"."}
+{"id":"ceb.c0085","meaning":"a hundred pesos","note":"Written ₱100."}
+{"id":"ceb.c0086","meaning":"money","note":""}
+{"id":"ceb.c0087","meaning":"I have two children.","note":"No word for \"have\": literally \"two my children\"."}
+{"id":"ceb.c0088","meaning":"my three brothers and sisters","note":"akong goes before the number."}
+{"id":"ceb.c0089","meaning":"How many pieces?","note":"buok = piece, item. Asked in shops and markets."}
+{"id":"ceb.c0090","meaning":"I have no money.","note":"wala, not dili, for \"have none\"."}
+{"id":"ceb.c0091","meaning":"What time is it?","note":"Learn it as a whole phrase."}
+{"id":"ceb.c0092","meaning":"It's already two o'clock.","note":"na = already, now."}
+{"id":"ceb.c0093","meaning":"one o'clock","note":"One o'clock is ala una, not alas una."}
+{"id":"ceb.c0094","meaning":"three o'clock","note":"Spanish numbers on the clock."}
+{"id":"ceb.c0095","meaning":"half past eight","note":"y medya = and a half."}
+{"id":"ceb.c0096","meaning":"seven p.m.","note":"sa gabii = in the evening, at night."}
+{"id":"ceb.c0097","meaning":"tomorrow morning","note":"sa buntag = in the morning."}
+{"id":"ceb.c0098","meaning":"now","note":"Also \"today\" in some phrases."}
+{"id":"ceb.c0099","meaning":"today","note":"Literally \"this day\"."}
+{"id":"ceb.c0100","meaning":"tomorrow","note":"Later today: unya."}
+{"id":"ceb.c0101","meaning":"yesterday","note":""}
+{"id":"ceb.c0102","meaning":"later today","note":"Not tomorrow: that is ugma."}
+{"id":"ceb.c0103","meaning":"earlier today","note":"The opposite of unya."}
+{"id":"ceb.c0104","meaning":"Monday","note":"The days are Spanish: Lunes, Martes, Miyerkoles…"}
+{"id":"ceb.c0105","meaning":"Saturday","note":"The weekend is Sabado and Domingo."}
+{"id":"ceb.c0106","meaning":"next week","note":"nga links sunod (next) to semana (week)."}
+{"id":"ceb.c0107","meaning":"I'll leave at three.","note":"The short pronoun ko comes right after the verb."}
+{"id":"ceb.c0108","meaning":"I woke up at six.","note":"ni- = past form."}
+{"id":"ceb.c0109","meaning":"cooked rice","note":"Uncooked rice is bugas."}
+{"id":"ceb.c0110","meaning":"water","note":""}
+{"id":"ceb.c0111","meaning":"one coffee","note":"Ordering: Palihug, usa ka kape."}
+{"id":"ceb.c0112","meaning":"chicken","note":"Stress on the last syllable: mah-NOHK."}
+{"id":"ceb.c0113","meaning":"fish","note":""}
+{"id":"ceb.c0114","meaning":"pork; pig","note":"The same word for the animal and the meat."}
+{"id":"ceb.c0115","meaning":"soup; broth","note":"Comes with most carinderia meals."}
+{"id":"ceb.c0116","meaning":"dish eaten with rice","note":"Meat, fish or vegetables: whatever goes with the rice."}
+{"id":"ceb.c0117","meaning":"roast pig (lechon)","note":"Cebu is famous for it."}
+{"id":"ceb.c0118","meaning":"hanging rice","note":"Rice cooked in a small pouch of woven leaves."}
+{"id":"ceb.c0119","meaning":"mango","note":""}
+{"id":"ceb.c0120","meaning":"hot chocolate","note":"One of the few native words written with e."}
+{"id":"ceb.c0121","meaning":"What do you have?","note":"Asked at a carinderia to see what dishes are ready."}
+{"id":"ceb.c0122","meaning":"Just water.","note":"lang = just, only."}
+{"id":"ceb.c0123","meaning":"grilled fish","note":"sinugba (grilled) + -ng links it to isda."}
+{"id":"ceb.c0124","meaning":"It's really good!","note":"kaayo after the describing word means \"very\"."}
+{"id":"ceb.c0125","meaning":"I'm full.","note":"na = already, now."}
+{"id":"ceb.c0126","meaning":"I don't eat pork.","note":"The short pronoun ko comes right after dili."}
+{"id":"ceb.c0127","meaning":"How much is each?","note":""}
+{"id":"ceb.c0128","meaning":"How much is this?","note":"ni is short for kini (this)."}
+{"id":"ceb.c0129","meaning":"How much for a kilo?","note":"At the market, fruit and fish are sold by the kilo."}
+{"id":"ceb.c0130","meaning":"How much altogether?","note":""}
+{"id":"ceb.c0131","meaning":"That's really expensive.","note":""}
+{"id":"ceb.c0132","meaning":"This one is cheap.","note":"ra = only, just: \"only cheap\"."}
+{"id":"ceb.c0133","meaning":"Can you give me a discount?","note":"At a market, not in a mall."}
+{"id":"ceb.c0134","meaning":"Just this one.","note":"lang = just, only."}
+{"id":"ceb.c0135","meaning":"This one or that one?","note":"kana = that one, near you."}
+{"id":"ceb.c0136","meaning":"What's that? (near you)","note":"For something far from both of you: Unsa kadto?"}
+{"id":"ceb.c0137","meaning":"That red one. (near you)","note":"kana + -ng links it to the describing word."}
+{"id":"ceb.c0138","meaning":"That big one over there.","note":"kadto = that one, far from both of you."}
+{"id":"ceb.c0139","meaning":"This is my book.","note":"The main word comes first, then kini."}
+{"id":"ceb.c0140","meaning":"Do you have rice? (in a shop)","note":"naa + ba + mo + y: \"is there, you all, some\"."}
+{"id":"ceb.c0141","meaning":"I'll take this one.","note":"Said when you have chosen."}
+{"id":"ceb.c0142","meaning":"There's none left.","note":"Sold out, all gone."}
+{"id":"ceb.c0143","meaning":"change (money back)","note":"Ask for it: Ang akong sukli, Nang."}
+{"id":"ceb.c0144","meaning":"my house","note":"akong goes before the noun and ends in -ng."}
+{"id":"ceb.c0145","meaning":"my house (owner after)","note":"nako goes after the noun. Same meaning as akong balay."}
+{"id":"ceb.c0146","meaning":"You have a nice house.","note":"A friendly thing to say as a guest. inyong = your (family's)."}
+{"id":"ceb.c0147","meaning":"Pedro's house","note":"Names take ni for the owner."}
+{"id":"ceb.c0148","meaning":"room; bedroom","note":"Not \"quarter\"."}
+{"id":"ceb.c0149","meaning":"kitchen","note":""}
+{"id":"ceb.c0150","meaning":"bed","note":"From higda (lie down)."}
+{"id":"ceb.c0151","meaning":"the door of the house","note":"sa joins two things: the door of the house."}
+{"id":"ceb.c0152","meaning":"This is my room.","note":"ni is short for kini (this)."}
+{"id":"ceb.c0153","meaning":"I have water.","note":"naa + ko + y: \"there is, mine, some\"."}
+{"id":"ceb.c0154","meaning":"Is anyone home?","note":"Called at the gate. Literally \"Is there a person?\""}
+{"id":"ceb.c0155","meaning":"There's no electricity.","note":"A power cut is also called a brownout."}
+{"id":"ceb.c0156","meaning":"Mom is in the kitchen.","note":"naa sa = is at, is in."}
+{"id":"ceb.c0157","meaning":"Are you at home?","note":"ka comes right after naa."}
+{"id":"ceb.c0158","meaning":"I'm going home now.","note":"pauli = go home."}
+{"id":"ceb.c0159","meaning":"It's late.","note":"Literally \"It's night already.\" Also a polite reason to leave."}
+{"id":"ceb.c0160","meaning":"I'll wash the plate.","note":"Learn it as a whole phrase for now."}
+{"id":"ceb.c0161","meaning":"Where's the restroom?","note":"In Cebu people also say CR (comfort room)."}
+{"id":"ceb.c0162","meaning":"here","note":"Also dinhi."}
+{"id":"ceb.c0163","meaning":"there (near you)","note":"Near the person you are talking to."}
+{"id":"ceb.c0164","meaning":"over there","note":"Far from both of you."}
+{"id":"ceb.c0165","meaning":"here in Cebu","note":"Another word for \"here\"."}
+{"id":"ceb.c0166","meaning":"at the market","note":"sa = at, in, to."}
+{"id":"ceb.c0167","meaning":"It's at the church.","note":""}
+{"id":"ceb.c0168","meaning":"It's right there.","note":"ra = just; diha points to a spot near the person you are talking to."}
+{"id":"ceb.c0169","meaning":"Where's the store?","note":"To an older man, add a title: Asa ang tindahan, Nong?"}
+{"id":"ceb.c0170","meaning":"Which one is your house?","note":"hain asks \"which one\" when you can point."}
+{"id":"ceb.c0171","meaning":"Is it far?","note":"ba turns it into a yes / no question and goes in second place."}
+{"id":"ceb.c0172","meaning":"It's close.","note":"ra = only, just: \"only near\"."}
+{"id":"ceb.c0173","meaning":"near the church","note":""}
+{"id":"ceb.c0174","meaning":"in front of the school","note":"atubangan = front."}
+{"id":"ceb.c0175","meaning":"behind the house","note":"likod = back."}
+{"id":"ceb.c0176","meaning":"at the side of the road","note":"kilid = side; dalan = road, street."}
+{"id":"ceb.c0177","meaning":"in town; downtown","note":""}
+{"id":"ceb.c0178","meaning":"She's outside. / He's outside.","note":"siya is \"he\" and \"she\"."}
+{"id":"ceb.c0179","meaning":"Stop! (to the driver)","note":"Said in a jeepney when you want to get off."}
+{"id":"ceb.c0180","meaning":"Here's my fare.","note":"Pass your coins forward with this word."}
+{"id":"ceb.c0181","meaning":"jeepney","note":""}
+{"id":"ceb.c0182","meaning":"Turn right.","note":"Left: wala, spelled like wala (none) but a different word."}
+{"id":"ceb.c0183","meaning":"Turn left.","note":"Here wala means \"left\". The pronunciation line shows wala \"none\"; wala \"left\" may be said differently."}
+{"id":"ceb.c0184","meaning":"straight ahead","note":"Diretso lang = just keep going straight."}
+{"id":"ceb.c0185","meaning":"I'm getting off here.","note":"Said to the driver; literally \"just the place\"."}
+{"id":"ceb.c0186","meaning":"What route does this take?","note":"Ask before you get on: moagi = will pass through."}
+{"id":"ceb.c0187","meaning":"Does this go past the market?","note":"ba goes in second place, right after the verb."}
+{"id":"ceb.c0188","meaning":"How much is the fare?","note":"plete = fare; the price is said in Spanish numbers."}
+{"id":"ceb.c0189","meaning":"It's full.","note":"Said of a jeepney or a bus with no seats left."}
+{"id":"ceb.c0190","meaning":"motorbike taxi","note":"One hyphen joins the two halves."}
+{"id":"ceb.c0191","meaning":"tricycle","note":"A motorbike with a sidecar."}
+{"id":"ceb.c0192","meaning":"ship; ferry","note":"For the big boats to Bohol and other islands."}
+{"id":"ceb.c0193","meaning":"at the pier","note":"pantalan = port, pier."}
+{"id":"ceb.c0194","meaning":"Where are you headed?","note":"paingon = on the way to."}
+{"id":"ceb.c0195","meaning":"I'm on my way to Talisay.","note":"The short pronoun ko goes in second place."}
+{"id":"ceb.c0196","meaning":"Slow down a bit, sir.","note":"To an older male driver: Nong."}
+{"id":"ceb.c0197","meaning":"Help!","note":"Shout it in an emergency."}
+{"id":"ceb.c0198","meaning":"Please.","note":""}
+{"id":"ceb.c0199","meaning":"Please help me.","note":"tabangi is the command form of tabang (help)."}
+{"id":"ceb.c0200","meaning":"My stomach hurts.","note":"akong before the noun."}
+{"id":"ceb.c0201","meaning":"My head hurts.","note":"Literally \"painful my head\"."}
+{"id":"ceb.c0202","meaning":"It hurts.","note":"Point to the spot as you say it."}
+{"id":"ceb.c0203","meaning":"Where does it hurt?","note":"A doctor or a nurse will ask you this."}
+{"id":"ceb.c0204","meaning":"I have a fever.","note":"koy = ko + y: \"there is, mine, some\"."}
+{"id":"ceb.c0205","meaning":"I have a cold.","note":"The hyphen marks a catch: sip-on."}
+{"id":"ceb.c0206","meaning":"I need a doctor.","note":"og before an indefinite thing: \"a doctor\"."}
+{"id":"ceb.c0207","meaning":"Where's the hospital?","note":"To an older man: Asa ang ospital, Nong?"}
+{"id":"ceb.c0208","meaning":"pharmacy","note":"To an older woman at the counter, add Nang."}
+{"id":"ceb.c0209","meaning":"medicine","note":""}
+{"id":"ceb.c0210","meaning":"Do you have cough medicine?","note":"At the pharmacy. moy = mo + y; mo here is \"you all\", the staff."}
+{"id":"ceb.c0211","meaning":"I can't go.","note":"The short pronoun ko comes right after dili."}
+{"id":"ceb.c0212","meaning":"I can't sleep.","note":"maka- = can."}
+{"id":"ceb.c0213","meaning":"Do you understand English?","note":"Iningles = the English language."}
+{"id":"ceb.c0214","meaning":"Don't worry.","note":"ayaw = don't."}
+{"id":"ceb.c0215","meaning":"a big house","note":"dako + -ng: the linker joins the describing word."}
+{"id":"ceb.c0216","meaning":"a small house","note":"gamay ends in a consonant sound, so nga stays a separate word."}
+{"id":"ceb.c0217","meaning":"small","note":""}
+{"id":"ceb.c0218","meaning":"new","note":"The hyphen marks a catch: bag-o."}
+{"id":"ceb.c0219","meaning":"old (of things)","note":"For people: tigulang."}
+{"id":"ceb.c0220","meaning":"This one is bigger.","note":"mas = more."}
+{"id":"ceb.c0221","meaning":"This one is cheaper than that one.","note":"kaysa = than; niana is the \"that\" used after kaysa."}
+{"id":"ceb.c0222","meaning":"the biggest one","note":"pinaka- = most."}
+{"id":"ceb.c0223","meaning":"They're the same.","note":""}
+{"id":"ceb.c0224","meaning":"pretty (of a woman)","note":"For a man: gwapo."}
+{"id":"ceb.c0225","meaning":"He's tall. / She's tall.","note":"The describing word comes first, then siya."}
+{"id":"ceb.c0226","meaning":"cold water","note":"For cold drinks and food. For the cold you feel, you will also hear tugnaw."}
+{"id":"ceb.c0227","meaning":"a red shirt","note":"pula + -ng. sinina = shirt, dress, clothes."}
+{"id":"ceb.c0228","meaning":"a black dog","note":""}
+{"id":"ceb.c0229","meaning":"The kitchen is clean.","note":"The describing word comes first: \"clean the kitchen\"."}
+{"id":"ceb.c0230","meaning":"It's really dirty.","note":"kaayo after the describing word means \"very\"."}
+{"id":"ceb.c0231","meaning":"It's really hard.","note":"Hard as in difficult, not as in solid."}
+{"id":"ceb.c0232","meaning":"It's easy.","note":"ra = just: \"just easy\"."}
+{"id":"ceb.c0233","meaning":"I'm hungry.","note":"Not Ako gigutom: the main word comes first."}
+{"id":"ceb.c0234","meaning":"I'm thirsty.","note":"The main word first, then ko, as in Gigutom ko."}
+{"id":"ceb.c0235","meaning":"I'm really tired.","note":"kaayo = very. Just tired: Kapoy ko."}
+{"id":"ceb.c0236","meaning":"I'm happy.","note":"Often: Nalipay ko nga… (I'm glad that…)."}
+{"id":"ceb.c0237","meaning":"She's angry. / He's angry.","note":""}
+{"id":"ceb.c0238","meaning":"I'm scared.","note":"Scared of something: add sa, as in Nahadlok ko sa iro."}
+{"id":"ceb.c0239","meaning":"I miss you.","note":"nimo = you, after the verb."}
+{"id":"ceb.c0240","meaning":"It's really cold.","note":"For the cold you feel. Cold water: bugnaw nga tubig."}
+{"id":"ceb.c0241","meaning":"It's really hot.","note":"For the weather, and for food or drinks."}
+{"id":"ceb.c0242","meaning":"I like it.","note":"ganahan = like; gusto = want."}
+{"id":"ceb.c0243","meaning":"I don't like it.","note":"The short pronoun ko moves up, right after dili."}
+{"id":"ceb.c0244","meaning":"I want coffee.","note":"og before an indefinite thing."}
+{"id":"ceb.c0245","meaning":"I want to go.","note":"No word for \"to\": gusto + the mo- verb."}
+{"id":"ceb.c0246","meaning":"I don't want it.","note":"ko moves up, right after dili."}
+{"id":"ceb.c0247","meaning":"What would you like?","note":"unsay = unsa ang."}
+{"id":"ceb.c0248","meaning":"I need help.","note":"og before what you need."}
+{"id":"ceb.c0249","meaning":"Don't!","note":"ayaw + a verb = don't do it."}
+{"id":"ceb.c0250","meaning":"Never mind.","note":"Also: forget it, don't bother."}
+{"id":"ceb.c0251","meaning":"What's this?","note":"kini = this, near me."}
+{"id":"ceb.c0252","meaning":"Who is he? / Who is she?","note":"siya is he and she."}
+{"id":"ceb.c0253","meaning":"Where are you going?","note":"Literally \"Where you?\". A common greeting in passing."}
+{"id":"ceb.c0254","meaning":"Why?","note":"The answer often starts with kay (because)."}
+{"id":"ceb.c0255","meaning":"When?","note":"The hyphen marks a catch: kanus-a."}
+{"id":"ceb.c0256","meaning":"When are you coming back?","note":"ka goes right after the question word."}
+{"id":"ceb.c0257","meaning":"How many?","note":"Also \"how much\" for a price; Tagpila? asks \"how much each\"."}
+{"id":"ceb.c0258","meaning":"Which one?","note":"Use it when you can point."}
+{"id":"ceb.c0259","meaning":"How do I get to the market?","note":"unsaon = how (to do something)."}
+{"id":"ceb.c0260","meaning":"Are you American?","note":"ba makes a yes / no question. A woman: Amerikana."}
+{"id":"ceb.c0261","meaning":"Yes.","note":"Two syllables: o-o."}
+{"id":"ceb.c0262","meaning":"No.","note":"Also \"not\". For \"didn't\" and \"there isn't\", wala."}
+{"id":"ceb.c0263","meaning":"because","note":""}
+{"id":"ceb.c0264","meaning":"you and me","note":"ug = and. og (with an o) is a different word."}
+{"id":"ceb.c0265","meaning":"but","note":""}
+{"id":"ceb.c0266","meaning":"water or coffee","note":"o = or."}
+{"id":"ceb.c0267","meaning":"if you want","note":"kung = if."}
+{"id":"ceb.c0268","meaning":"I'll eat.","note":"mo- = future form."}
+{"id":"ceb.c0269","meaning":"I've already eaten.","note":"ni- = past form; na = already."}
+{"id":"ceb.c0270","meaning":"She's cooking. / She cooked.","note":"nag- covers both."}
+{"id":"ceb.c0271","meaning":"I bought it.","note":"Thing-focus: the doer takes nako."}
+{"id":"ceb.c0272","meaning":"Can you go?","note":"maka- = can."}
+{"id":"ceb.c0273","meaning":"I'll drink some water.","note":"og before an indefinite thing."}
+{"id":"ceb.c0274","meaning":"I bought some bananas.","note":"Also written mipalit."}
+{"id":"ceb.c0275","meaning":"I'll go to the market.","note":"sa = to."}
+{"id":"ceb.c0276","meaning":"I'll be back.","note":""}
+{"id":"ceb.c0277","meaning":"He works in Cebu.","note":"nag- = doing now, or done. Also \"she\"."}
+{"id":"ceb.c0278","meaning":"I'll study.","note":"Some verbs take mag- instead of mo-: learn each with its prefix."}
+{"id":"ceb.c0279","meaning":"I'm going to sleep now.","note":"na = now, already."}
+{"id":"ceb.c0280","meaning":"I'll buy it.","note":"-on = future, with the thing as the focus."}
+{"id":"ceb.c0281","meaning":"I'll eat the mango.","note":"With -on the thing gets ang."}
+{"id":"ceb.c0282","meaning":"I made it.","note":"gi- = past, with the thing as the focus."}
+{"id":"ceb.c0283","meaning":"Have you ever been to Bohol?","note":"naka- = have ever, managed to."}
+{"id":"ceb.c0284","meaning":"Let's eat.","note":"ta = we, including you."}
+{"id":"ceb.c0285","meaning":"for; Stop! (in a jeepney)","note":"Both meanings are everyday."}
+{"id":"ceb.c0286","meaning":"free of charge; my treat","note":"Libre nako = it's on me."}
+{"id":"ceb.c0287","meaning":"living room; fault","note":"Two everyday meanings."}
+{"id":"ceb.c0288","meaning":"bread","note":"Not a cooking pan."}
+{"id":"ceb.c0289","meaning":"uncooked rice","note":"English has one word for rice; cooked rice is kan-on."}
+{"id":"ceb.c0290","meaning":"strong; loud; fast","note":"One word for all three: kusog nga ulan = heavy rain."}
+{"id":"ceb.c0291","meaning":"Later, then.","note":"unya = later today. Tomorrow is ugma."}
+{"id":"ceb.c0292","meaning":"It's okay. / Never mind.","note":"sige also means \"OK, go ahead\" and \"bye\"."}
+{"id":"ceb.c0293","meaning":"No, thanks.","note":"Not hindi: that is Tagalog."}
+{"id":"ceb.c0294","meaning":"Where have you just been?","note":"Not \"Where are you from?\": that is Taga-asa ka?"}
+{"id":"ceb.c0295","meaning":"I'm twenty-five.","note":"No \"have\": literally \"twenty-five years already I\"."}
+{"id":"ceb.c0296","meaning":"I like coffee.","note":"Not Ako ganahan sa kape. Want: gusto."}
+{"id":"ceb.c0297","meaning":"I'll buy water.","note":"Not Mopalit og tubig ko: ko goes second."}
+{"id":"ceb.c0298","meaning":"There's no water.","note":"wala, not dili, for \"there isn't\"."}
+{"id":"ceb.c0299","meaning":"I didn't go.","note":"wala for the past; the verb keeps the mo- form."}
+{"id":"ceb.c0300","meaning":"I won't go.","note":"dili for the future."}
+{"id":"ceb.c0301","meaning":"I'm not American.","note":"dili, not wala, for \"is not\"."}
+{"id":"ceb.c0302","meaning":"What is it?","note":"man softens the question."}
+{"id":"ceb.c0303","meaning":"Really?","note":"Surprise at news."}
+{"id":"ceb.c0304","meaning":"really; truly","note":"Also spelled gyod, jud."}
+{"id":"ceb.c0305","meaning":"I won't.","note":"Short for Dili ko."}
+{"id":"ceb.c0306","meaning":"I don't know.","note":"Casual, very common."}
+{"id":"ceb.c0307","meaning":"I have no idea.","note":"Short for Wala ko kahibalo."}
+{"id":"ceb.c0308","meaning":"Not yet.","note":"Often said as Wa pa."}
+{"id":"ceb.c0309","meaning":"Just a little.","note":"ra = only, just; also lang."}
+{"id":"ceb.c0310","meaning":"Me too.","note":"sab is short for usab; you will also hear sad and pod."}
+{"id":"ceb.c0311","meaning":"What's this? (short)","note":"ni = kini, after another word."}
+{"id":"ceb.c0312","meaning":"Who was that?","note":"to = kadto, after another word."}
+{"id":"ceb.c0313","meaning":"What's new?","note":"unsay = unsa ang."}
+{"id":"ceb.c0314","meaning":"Any bananas?","note":"naay = naa + y: \"is there any\". A quick question at a stall."}
+{"id":"ceb.c0315","meaning":"No problem.","note":"walay = wala + y."}
+{"id":"ceb.c0316","meaning":"miss (to a girl or young woman)","note":"Short for Inday."}
+{"id":"ceb.c0317","meaning":"OK. / Go ahead.","note":"Also used for \"bye\"."}
+{"id":"ceb.c0318","meaning":"That's true.","note":"Agreeing with someone."}
+{"id":"ceb.c0319","meaning":"Oh no!","note":"Surprise or worry."}
+{"id":"ceb.c0320","meaning":"day; sun","note":"duha ka adlaw = two days. Also the sun: init ang adlaw."}
+{"id":"ceb.c0321","meaning":"year","note":"sa sunod nga tuig = next year."}
+{"id":"ceb.c0322","meaning":"month; moon","note":"usa ka bulan = one month."}
+{"id":"ceb.c0323","meaning":"hour; time (on the clock)","note":"Unsa nang orasa? uses it: what time is it?"}
+{"id":"ceb.c0324","meaning":"time (period); weather","note":"Init ang panahon karon = the weather is hot now."}
+{"id":"ceb.c0325","meaning":"thing; object","note":"Unsa kanang butang? = What's that thing?"}
+{"id":"ceb.c0326","meaning":"work; job","note":"Also the verb: magtrabaho, nagtrabaho."}
+{"id":"ceb.c0327","meaning":"family","note":"Spanish loan; akong pamilya = my family."}
+{"id":"ceb.c0328","meaning":"road; street","note":"sa kilid sa dalan = at the side of the road."}
+{"id":"ceb.c0329","meaning":"city","note":"Also written syudad: Siyudad sa Sugbo = Cebu City."}
+{"id":"ceb.c0330","meaning":"place","note":"Lugar lang! is what you say to get off a jeepney."}
+{"id":"ceb.c0331","meaning":"church","note":"duol sa simbahan = near the church; a common landmark."}
+{"id":"ceb.c0332","meaning":"school","note":"Also eskuylahan in speech."}
+{"id":"ceb.c0333","meaning":"store; shop","note":"A small neighborhood shop is a sari-sari store."}
+{"id":"ceb.c0334","meaning":"hospital","note":"Spanish loan: Asa ang ospital?"}
+{"id":"ceb.c0335","meaning":"office","note":"Spanish loan: sa opisina = at the office."}
+{"id":"ceb.c0336","meaning":"country (nation)","note":"Taga-asa ka nga nasod? = Which country are you from?"}
+{"id":"ceb.c0337","meaning":"province; the countryside","note":"sa probinsya = out in the province."}
+{"id":"ceb.c0338","meaning":"sea","note":"Lapu-Lapu and Bohol are across the sea from Cebu City."}
+{"id":"ceb.c0339","meaning":"beach; seashore","note":"sa baybayon = at the beach."}
+{"id":"ceb.c0340","meaning":"mountain; hill","note":"Also \"upland, the country\": taga-bukid."}
+{"id":"ceb.c0341","meaning":"river","note":"sa suba = at the river."}
+{"id":"ceb.c0342","meaning":"island","note":"Spanish loan; Bohol and Mactan are islands."}
+{"id":"ceb.c0343","meaning":"food","note":"Root kaon (eat) with pag-: food in general."}
+{"id":"ceb.c0344","meaning":"fruit","note":"Spanish loan: mangga, saging, durian."}
+{"id":"ceb.c0345","meaning":"vegetables; vegetable dish","note":"Also a soup of vegetables."}
+{"id":"ceb.c0346","meaning":"meat","note":"karne sa baka = beef; baboy = pork."}
+{"id":"ceb.c0347","meaning":"banana","note":"usa ka saging = one banana."}
+{"id":"ceb.c0348","meaning":"milk","note":"kape nga may gatas = coffee with milk."}
+{"id":"ceb.c0349","meaning":"salt","note":"Pass the salt: Palihug ang asin."}
+{"id":"ceb.c0350","meaning":"sugar","note":"Spanish loan."}
+{"id":"ceb.c0351","meaning":"glass (for drinking)","note":"usa ka baso nga tubig = a glass of water."}
+{"id":"ceb.c0352","meaning":"spoon","note":"Filipinos eat with spoon and fork, not knife."}
+{"id":"ceb.c0353","meaning":"fork","note":"Spanish loan: tenedor."}
+{"id":"ceb.c0354","meaning":"table","note":"Spanish loan: la mesa."}
+{"id":"ceb.c0355","meaning":"chair; seat","note":"Root lingkod (sit) + -an: a place to sit."}
+{"id":"ceb.c0356","meaning":"door","note":"ang pultahan sa balay = the door of the house."}
+{"id":"ceb.c0357","meaning":"window","note":"Spanish loan: ventana."}
+{"id":"ceb.c0358","meaning":"bathroom","note":"Many people say CR (comfort room) instead."}
+{"id":"ceb.c0359","meaning":"hand; arm","note":"One word covers hand and arm."}
+{"id":"ceb.c0360","meaning":"foot; leg","note":"One word covers foot and leg."}
+{"id":"ceb.c0361","meaning":"head","note":"Masakit akong ulo = my head hurts."}
+{"id":"ceb.c0362","meaning":"stomach; belly","note":"Masakit akong tiyan = my stomach hurts."}
+{"id":"ceb.c0363","meaning":"nose","note":"Masakit akong ilong = my nose hurts."}
+{"id":"ceb.c0364","meaning":"mouth","note":"Ablihi ang imong baba = open your mouth."}
+{"id":"ceb.c0365","meaning":"ear","note":"Root dungog (hear)."}
+{"id":"ceb.c0366","meaning":"body","note":"Kapoy akong lawas = my body is tired."}
+{"id":"ceb.c0367","meaning":"tooth; teeth","note":"No plural ending: ngipon is one or many."}
+{"id":"ceb.c0368","meaning":"illness; pain","note":"Masakit = it hurts."}
+{"id":"ceb.c0369","meaning":"doctor","note":"Kinahanglan ko og doktor = I need a doctor."}
+{"id":"ceb.c0370","meaning":"teacher (man)","note":"For a woman: maestra."}
+{"id":"ceb.c0371","meaning":"driver","note":"Drivers are called Nong or Kuya."}
+{"id":"ceb.c0372","meaning":"neighbor","note":"Root siling (next to)."}
+{"id":"ceb.c0373","meaning":"visitor; guest","note":"Also the verb: mobisita (will visit)."}
+{"id":"ceb.c0374","meaning":"group of friends; buddy","note":"Everyday word across the Philippines."}
+{"id":"ceb.c0375","meaning":"companion; coworker","note":"Lingaw kaayo ka kauban = you're fun company."}
+{"id":"ceb.c0376","meaning":"owner","note":"Kinsay tag-iya ani? = Who owns this?"}
+{"id":"ceb.c0377","meaning":"shopkeeper (woman); vendor","note":"For a man: tindero."}
+{"id":"ceb.c0378","meaning":"God; Lord","note":"Salamat sa Ginoo = thank the Lord."}
+{"id":"ceb.c0379","meaning":"vehicle; car","note":"The general word: anything you ride."}
+{"id":"ceb.c0380","meaning":"car","note":"Spanish loan; many say kotse or sakyanan."}
+{"id":"ceb.c0381","meaning":"motorbike","note":"Habal-habal is a motorbike taxi."}
+{"id":"ceb.c0382","meaning":"cell phone","note":"From cellphone; written selpon in Cebuano."}
+{"id":"ceb.c0383","meaning":"book","note":"Spanish loan."}
+{"id":"ceb.c0384","meaning":"paper","note":"Spanish loan."}
+{"id":"ceb.c0385","meaning":"bag","note":"English loan."}
+{"id":"ceb.c0386","meaning":"clothes; shirt; dress","note":"pulang sinina = a red shirt."}
+{"id":"ceb.c0387","meaning":"shoes","note":"One or a pair: sapatos."}
+{"id":"ceb.c0388","meaning":"pants; trousers","note":"Spanish loan."}
+{"id":"ceb.c0389","meaning":"umbrella","note":"For sun as much as rain."}
+{"id":"ceb.c0390","meaning":"key","note":"Spanish loan: llave."}
+{"id":"ceb.c0391","meaning":"electricity; power","note":"Walay kuryente = there's a power outage."}
+{"id":"ceb.c0392","meaning":"light; lamp","note":"Patya ang suga = turn off the light."}
+{"id":"ceb.c0393","meaning":"rain","note":"Nag-ulan = it's raining."}
+{"id":"ceb.c0394","meaning":"wind; air","note":"Kusog ang hangin = the wind is strong."}
+{"id":"ceb.c0395","meaning":"sky; heaven","note":"Both meanings, like Spanish cielo."}
+{"id":"ceb.c0396","meaning":"color","note":"Unsay kolor? = What color?"}
+{"id":"ceb.c0397","meaning":"problem","note":"Walay problema = no problem."}
+{"id":"ceb.c0398","meaning":"news","note":"Unsay balita? = What's new?"}
+{"id":"ceb.c0399","meaning":"age","note":"Pila na ang imong edad? = How old are you?"}
+{"id":"ceb.c0400","meaning":"number","note":"For phone numbers, people often say the English word."}
+{"id":"ceb.c0401","meaning":"price","note":"Pila ang presyo? = What's the price?"}
+{"id":"ceb.c0402","meaning":"language","note":"Bisaya ug Iningles = Cebuano and English."}
+{"id":"ceb.c0403","meaning":"English (the language)","note":"Makasabot ka og Iningles?"}
+{"id":"ceb.c0404","meaning":"love","note":"Strong, poetic word; songs and prayers."}
+{"id":"ceb.c0405","meaning":"life","note":"Ingon ana ang kinabuhi = that's life."}
+{"id":"ceb.c0406","meaning":"world","note":"sa tibuok kalibutan = in the whole world."}
+{"id":"ceb.c0407","meaning":"reason","note":"Spanish loan: razon."}
+{"id":"ceb.c0408","meaning":"chance; moment","note":"Sa sunod nga higayon = next time."}
+{"id":"ceb.c0409","meaning":"trip; travel","note":"Also the verb: mobiyahe (will travel)."}
+{"id":"ceb.c0410","meaning":"go (there)","note":"moadto (will go); niadto (went). Moadto ko sa merkado."}
+{"id":"ceb.c0411","meaning":"eat","note":"mokaon; nikaon. Thing-focus: kan-on (irregular), gikaon."}
+{"id":"ceb.c0412","meaning":"know (a fact); know how","note":"No prefix. Wala ko kahibalo = I don't know."}
+{"id":"ceb.c0413","meaning":"want","note":"No prefix: Gusto ko og kape. Spanish loan."}
+{"id":"ceb.c0414","meaning":"say","note":"moingon; niingon. Ingon siya = he said."}
+{"id":"ceb.c0415","meaning":"make; do","note":"mohimo; nihimo. Thing-focus: himoon, gihimo."}
+{"id":"ceb.c0416","meaning":"buy","note":"mopalit; nipalit. Thing-focus: paliton, gipalit."}
+{"id":"ceb.c0417","meaning":"get; take","note":"mokuha; nikuha. Thing-focus: kuhaon, gikuha."}
+{"id":"ceb.c0418","meaning":"give","note":"mohatag; nihatag. To someone: hatagan, gihatagan."}
+{"id":"ceb.c0419","meaning":"look; watch","note":"motan-aw; nitan-aw. Thing-focus: tan-awon."}
+{"id":"ceb.c0420","meaning":"drink","note":"moinom; niinom. Thing-focus: imnon (irregular)."}
+{"id":"ceb.c0421","meaning":"come back; return","note":"mobalik; nibalik. Mobalik ko = I'll be back."}
+{"id":"ceb.c0422","meaning":"like","note":"No prefix: Ganahan ko og kape."}
+{"id":"ceb.c0423","meaning":"need; must","note":"No prefix: Kinahanglan ko og tabang."}
+{"id":"ceb.c0424","meaning":"speak; tell","note":"mosulti; nisulti. Tell someone: sultihan."}
+{"id":"ceb.c0425","meaning":"understand","note":"makasabot (can understand); nakasabot."}
+{"id":"ceb.c0426","meaning":"live (somewhere); stay","note":"nagpuyo = live, are living. Asa ka nagpuyo?"}
+{"id":"ceb.c0427","meaning":"study; learn","note":"magtuon (will study); nagtuon (studying, studied)."}
+{"id":"ceb.c0428","meaning":"do; make (work)","note":"mobuhat; nibuhat. Unsay imong gibuhat? = What did you do?"}
+{"id":"ceb.c0429","meaning":"bring; carry","note":"modala; nidala. Thing-focus: dad-on (irregular)."}
+{"id":"ceb.c0430","meaning":"cook","note":"magluto; nagluto. Thing-focus: lutoon, giluto."}
+{"id":"ceb.c0431","meaning":"sleep","note":"Irregular: matulog (will sleep); natulog (slept)."}
+{"id":"ceb.c0432","meaning":"walk; go out; leave","note":"molakaw; nilakaw. Lakaw na ko = I'm off."}
+{"id":"ceb.c0433","meaning":"go home","note":"mouli; niuli. Also mopauli."}
+{"id":"ceb.c0434","meaning":"arrive","note":"moabot; niabot. Maayong pag-abot = welcome."}
+{"id":"ceb.c0435","meaning":"leave; depart","note":"mobiya; nibiya. Mobiya ko alas tres."}
+{"id":"ceb.c0436","meaning":"come (here)","note":"moanhi; nianhi. Anhi diri! = Come here!"}
+{"id":"ceb.c0437","meaning":"ride; get on","note":"mosakay; nisakay. Sakay na! = Get on!"}
+{"id":"ceb.c0438","meaning":"get off; go down","note":"monaog; ninaog. Lugar lang is the polite way to ask."}
+{"id":"ceb.c0439","meaning":"wait","note":"mohulat; nihulat. Hulat lang = wait a moment."}
+{"id":"ceb.c0440","meaning":"ask (a question)","note":"Irregular: mangutana; nangutana."}
+{"id":"ceb.c0441","meaning":"answer","note":"motubag; nitubag. Thing-focus: tubagon."}
+{"id":"ceb.c0442","meaning":"call; phone","note":"motawag; nitawag. Call someone: tawagan."}
+{"id":"ceb.c0443","meaning":"chat; talk","note":"makig-istorya (chat with); nag-istorya."}
+{"id":"ceb.c0444","meaning":"hear","note":"makadungog (can hear); nakadungog (heard)."}
+{"id":"ceb.c0445","meaning":"listen","note":"maminaw; naminaw. Paminaw! = Listen!"}
+{"id":"ceb.c0446","meaning":"think","note":"maghunahuna; naghunahuna. Thing-focus: hunahunaon."}
+{"id":"ceb.c0447","meaning":"remember","note":"mahinumdom; nahinumdom."}
+{"id":"ceb.c0448","meaning":"forget","note":"makalimot; nakalimot. Forgot it: nakalimtan."}
+{"id":"ceb.c0449","meaning":"read","note":"mobasa; nagbasa (reading, read). Thing-focus: basahon."}
+{"id":"ceb.c0450","meaning":"write","note":"mosulat; nisulat. Thing-focus: sulaton."}
+{"id":"ceb.c0451","meaning":"teach; point","note":"motudlo; nagtudlo. Teach someone: tudloan."}
+{"id":"ceb.c0452","meaning":"sit","note":"molingkod; nilingkod. Lingkod usa = have a seat."}
+{"id":"ceb.c0453","meaning":"stand","note":"motindog; nitindog."}
+{"id":"ceb.c0454","meaning":"lie down","note":"mohigda; nihigda."}
+{"id":"ceb.c0455","meaning":"get up (from bed)","note":"mobangon; nibangon."}
+{"id":"ceb.c0456","meaning":"bathe; take a shower","note":"Irregular: maligo; naligo."}
+{"id":"ceb.c0457","meaning":"play","note":"magdula; nagdula. Nagdula ang mga bata."}
+{"id":"ceb.c0458","meaning":"sing","note":"mokanta; nikanta. Also a noun: song."}
+{"id":"ceb.c0459","meaning":"dance","note":"mosayaw; nisayaw."}
+{"id":"ceb.c0460","meaning":"swim","note":"molangoy; nilangoy."}
+{"id":"ceb.c0461","meaning":"start; begin","note":"mosugod; nisugod. Start something: sugdan."}
+{"id":"ceb.c0462","meaning":"stop","note":"mohunong; nihunong. Different from Para! in a jeepney."}
+{"id":"ceb.c0463","meaning":"visit (someone)","note":"moduaw; niduaw."}
+{"id":"ceb.c0464","meaning":"go around; sightsee","note":"mosuroy; nisuroy. Suroy-suroy = stroll."}
+{"id":"ceb.c0465","meaning":"sell","note":"mobaligya; nibaligya. Also a noun: goods for sale."}
+{"id":"ceb.c0466","meaning":"borrow","note":"mohulam; nihulam. Lend me: pahulama ko."}
+{"id":"ceb.c0467","meaning":"open","note":"moabli; niabli. Ablihi ang pultahan = open the door."}
+{"id":"ceb.c0468","meaning":"close; shut","note":"Sira-a ang pultahan = close the door. sirado = closed."}
+{"id":"ceb.c0469","meaning":"wash (dishes, hands)","note":"manghugas; Hugasan nako ang plato."}
+{"id":"ceb.c0470","meaning":"do laundry","note":"maglaba; naglaba."}
+{"id":"ceb.c0471","meaning":"use","note":"mogamit; nigamit. Also a noun: things, belongings."}
+{"id":"ceb.c0472","meaning":"look for","note":"Irregular: mangita; nangita. Pangitaa = look for it."}
+{"id":"ceb.c0473","meaning":"receive; accept","note":"modawat; nidawat."}
+{"id":"ceb.c0474","meaning":"choose; pick","note":"mopili; nipili. Pilia = choose it."}
+{"id":"ceb.c0475","meaning":"try","note":"mosulay; nisulay. Sulayi = try it."}
+{"id":"ceb.c0476","meaning":"send","note":"mopadala; nipadala. Also money sent home."}
+{"id":"ceb.c0477","meaning":"take someone; drop off","note":"mohatod; nihatod. Drop someone: hatdan."}
+{"id":"ceb.c0478","meaning":"pick up (someone)","note":"mosundo; nisundo."}
+{"id":"ceb.c0479","meaning":"turn","note":"moliko; niliko. Liko sa tuo = turn right."}
+{"id":"ceb.c0480","meaning":"look after; care for","note":"moatiman; giatiman."}
+{"id":"ceb.c0481","meaning":"go with; tag along","note":"mokuyog; nikuyog. Kuyog ko! = I'll come along!"}
+{"id":"ceb.c0482","meaning":"marry; married","note":"magminyo (will marry). Minyo na ko = I'm married."}
+{"id":"ceb.c0483","meaning":"die; turn off","note":"mamatay = die. Patya = turn it off."}
+{"id":"ceb.c0484","meaning":"turn on; light","note":"Sindihi ang suga = turn on the light."}
+{"id":"ceb.c0485","meaning":"cry","note":"mohilak; nihilak."}
+{"id":"ceb.c0486","meaning":"pray","note":"mag-ampo; nag-ampo."}
+{"id":"ceb.c0487","meaning":"learn","note":"makakat-on (can learn); nakakat-on (learned)."}
+{"id":"ceb.c0488","meaning":"rest","note":"mopahulay; nipahulay. Pahulay sa = rest first."}
+{"id":"ceb.c0489","meaning":"continue; go on","note":"mopadayon. Padayon! = Keep going!"}
+{"id":"ceb.c0490","meaning":"love (deeply)","note":"gihigugma. Gihigugma tika = I love you (very strong)."}
+{"id":"ceb.c0491","meaning":"big","note":"dakong balay = a big house. Ka- form: Kadako! = How big!"}
+{"id":"ceb.c0492","meaning":"nice; beautiful","note":"Nindot kaayo! = Really nice!"}
+{"id":"ceb.c0493","meaning":"delicious; tasty","note":"Lami kaayo! The everyday compliment for food."}
+{"id":"ceb.c0494","meaning":"bad; evil","note":"Strong. For \"not good\" people say dili maayo."}
+{"id":"ceb.c0495","meaning":"bad (feeling, taste); different","note":"Lain ang lami = it tastes off."}
+{"id":"ceb.c0496","meaning":"tall; long; high","note":"Taas siya = he's tall. Upstairs: sa taas."}
+{"id":"ceb.c0497","meaning":"short","note":"mubo nga buhok = short hair."}
+{"id":"ceb.c0498","meaning":"hot","note":"Init kaayo = it's really hot."}
+{"id":"ceb.c0499","meaning":"cold (things, drinks)","note":"bugnaw nga tubig = cold water. For weather: tugnaw."}
+{"id":"ceb.c0500","meaning":"cold (weather, feeling)","note":"Tugnaw kaayo = it's really cold."}
+{"id":"ceb.c0501","meaning":"expensive; dear","note":"Mahal kaayo = too expensive."}
+{"id":"ceb.c0502","meaning":"cheap","note":"Spanish loan: barato ra = it's cheap."}
+{"id":"ceb.c0503","meaning":"far","note":"Layo ba? = Is it far?"}
+{"id":"ceb.c0504","meaning":"hard; difficult; poor","note":"Lisod kaayo = it's really hard."}
+{"id":"ceb.c0505","meaning":"easy","note":"Sayon ra = it's easy."}
+{"id":"ceb.c0506","meaning":"clean","note":"Spanish loan: limpio."}
+{"id":"ceb.c0507","meaning":"dirty","note":"Hugaw kaayo = it's really dirty."}
+{"id":"ceb.c0508","meaning":"old (of people)","note":"Polite: magulang na. For things: daan."}
+{"id":"ceb.c0509","meaning":"young","note":"batan-on pa = still young."}
+{"id":"ceb.c0510","meaning":"kind; good-natured; well-behaved","note":"Of adults: kind. Of children: well-behaved."}
+{"id":"ceb.c0511","meaning":"fast; quick","note":"Paspas kaayo ang dyip = the jeepney is very fast."}
+{"id":"ceb.c0512","meaning":"white","note":"puti nga sinina = a white shirt."}
+{"id":"ceb.c0513","meaning":"black","note":"itom nga iro = a black dog."}
+{"id":"ceb.c0514","meaning":"red","note":"pulang sinina = a red shirt."}
+{"id":"ceb.c0515","meaning":"blue","note":"Spanish loan: azul."}
+{"id":"ceb.c0516","meaning":"green","note":"Spanish loan: verde."}
+{"id":"ceb.c0517","meaning":"yellow","note":"dalag nga sinina = a yellow shirt."}
+{"id":"ceb.c0518","meaning":"full (after eating)","note":"Busog na ko = I'm full."}
+{"id":"ceb.c0519","meaning":"hungry","note":"Usually as Gigutom ko = I'm hungry."}
+{"id":"ceb.c0520","meaning":"thirsty","note":"Usually as Giuhaw ko = I'm thirsty."}
+{"id":"ceb.c0521","meaning":"tired; tiring","note":"Kapoy kaayo ko = I'm really tired."}
+{"id":"ceb.c0522","meaning":"happy","note":"Root lipay; Nalipay ko = I'm glad."}
+{"id":"ceb.c0523","meaning":"sad","note":"Root subo."}
+{"id":"ceb.c0524","meaning":"sick; sickly","note":"More common: may sakit (has an illness)."}
+{"id":"ceb.c0525","meaning":"ready","note":"Andam na ka? = Are you ready?"}
+{"id":"ceb.c0526","meaning":"different","note":"Lahi ni = this one is different."}
+{"id":"ceb.c0527","meaning":"same; alike","note":"Parehas ra = they're the same."}
+{"id":"ceb.c0528","meaning":"true; real","note":"Tinuod? = Really? True?"}
+{"id":"ceb.c0529","meaning":"correct; just right","note":"Spanish loan: exacto. Sakto! = Exactly!"}
+{"id":"ceb.c0530","meaning":"wrong; mistaken","note":"Sayop ko = I was wrong."}
+{"id":"ceb.c0531","meaning":"heavy","note":"Bug-at kaayo = it's really heavy."}
+{"id":"ceb.c0532","meaning":"light (not heavy)","note":"Gaan ra = it's light."}
+{"id":"ceb.c0533","meaning":"smelly","note":"Baho kaayo! = It really stinks!"}
+{"id":"ceb.c0534","meaning":"fragrant; smells good","note":"Humot kaayo ang kan-on = the rice smells great."}
+{"id":"ceb.c0535","meaning":"sweet (taste)","note":"For people, many say swit (from English sweet)."}
+{"id":"ceb.c0536","meaning":"sour","note":"Aslom ang mangga = the mango is sour."}
+{"id":"ceb.c0537","meaning":"salty","note":"Parat kaayo ang sabaw = the soup is too salty."}
+{"id":"ceb.c0538","meaning":"bitter","note":"Pait ang kape = the coffee is bitter."}
+{"id":"ceb.c0539","meaning":"spicy (hot)","note":"Halang ba? = Is it spicy?"}
+{"id":"ceb.c0540","meaning":"empty","note":"The hyphen marks a catch: haw, a stop, then ang."}
+{"id":"ceb.c0541","meaning":"quiet","note":"Hilom! = Quiet!"}
+{"id":"ceb.c0542","meaning":"noisy","note":"Also a cooking banana; context decides."}
+{"id":"ceb.c0543","meaning":"bright; well lit","note":"Hayag na = it's light out already."}
+{"id":"ceb.c0544","meaning":"dark","note":"Ngitngit na = it's dark already."}
+{"id":"ceb.c0545","meaning":"wide","note":"lapad nga dalan = a wide road."}
+{"id":"ceb.c0546","meaning":"fresh; cool (breeze)","note":"Spanish loan: fresco."}
+{"id":"ceb.c0547","meaning":"ripe","note":"hinog nga mangga = a ripe mango."}
+{"id":"ceb.c0548","meaning":"raw; unripe","note":"hilaw nga mangga = green (unripe) mango."}
+{"id":"ceb.c0549","meaning":"important","note":"Spanish loan; everyday word."}
+{"id":"ceb.c0550","meaning":"dry","note":"Uga na ang sinina = the clothes are dry."}
+{"id":"ceb.c0551","meaning":"rich","note":"Spanish loan: dato."}
+{"id":"ceb.c0552","meaning":"poor","note":"Spanish loan: pobre."}
+{"id":"ceb.c0553","meaning":"always; often","note":"Kanunay ko moadto diri = I always come here."}
+{"id":"ceb.c0554","meaning":"always (everyday word)","note":"Spanish loan: firme. Pirmi ko gigutom!"}
+{"id":"ceb.c0555","meaning":"sometimes","note":"Usahay mokaon mi og isda."}
+{"id":"ceb.c0556","meaning":"right away; then","note":"Moadto ko dayon = I'll go right away."}
+{"id":"ceb.c0557","meaning":"slowly; softly","note":"Hinay-hinay lang = slow down a bit."}
+{"id":"ceb.c0558","meaning":"early","note":"Sayo pa = it's still early."}
+{"id":"ceb.c0559","meaning":"late","note":"Ulahi ko = I'm late."}
+{"id":"ceb.c0560","meaning":"(for) a long time","note":"Dugay na = it's been a long time."}
+{"id":"ceb.c0561","meaning":"still; as usual","note":"Maayo gihapon = still fine."}
+{"id":"ceb.c0562","meaning":"again; also (full form)","note":"Short forms: sab, sad. Usab is the careful form."}
+{"id":"ceb.c0563","meaning":"again; one more time","note":"Palihug, ingna pag-usab = please say it again."}
+{"id":"ceb.c0564","meaning":"maybe; perhaps","note":"Tingali moabot siya ugma."}
+{"id":"ceb.c0565","meaning":"might; maybe (often a worry)","note":"Basin moulan = it might rain."}
+{"id":"ceb.c0566","meaning":"probably; I guess","note":"Spanish loan: seguro."}
+{"id":"ceb.c0567","meaning":"more","note":"Mas dako kini = this one is bigger."}
+{"id":"ceb.c0568","meaning":"too (much); extremely","note":"Spanish loan: sobra. Sobra ka mahal!"}
+{"id":"ceb.c0569","meaning":"almost; nearly","note":"Hapit na = almost there; almost done."}
+{"id":"ceb.c0570","meaning":"rather; a bit","note":"Spanish loan: medio. Medyo layo = rather far."}
+{"id":"ceb.c0571","meaning":"here (with sa)","note":"dinhi sa Cebu = here in Cebu. diri alone = here."}
+{"id":"ceb.c0572","meaning":"there (near you, with sa)","note":"dinha sa imong balay = there at your house."}
+{"id":"ceb.c0573","meaning":"(to) there; toward","note":"Moadto ko ngadto = I'll go over there."}
+{"id":"ceb.c0574","meaning":"(to) here; this way","note":"Ngari ka = come over here."}
+{"id":"ceb.c0575","meaning":"in the past; back then","note":"Kaniadto, nagpuyo ko sa Bohol."}
+{"id":"ceb.c0576","meaning":"next; after","note":"sa sunod nga semana = next week."}
+{"id":"ceb.c0577","meaning":"first; ahead","note":"Una na ko = I'll go ahead now."}
+{"id":"ceb.c0578","meaning":"suddenly","note":"Kalit lang nag-ulan = it suddenly rained."}
+{"id":"ceb.c0579","meaning":"(for) a moment","note":"Kadiyot lang = just a moment."}
+{"id":"ceb.c0580","meaning":"in a while; later","note":"Taod-taod mobalik ko."}
+{"id":"ceb.c0581","meaning":"exactly; itself","note":"Spanish loan: diri mismo = right here."}
+{"id":"ceb.c0582","meaning":"especially; more","note":"labi na = especially."}
+{"id":"ceb.c0583","meaning":"tonight","note":"karon (now) + gabii: this evening."}
+{"id":"ceb.c0584","meaning":"I; me (full form)","note":"Ako si Emma. Short form: ko."}
+{"id":"ceb.c0585","meaning":"I; me; my (short form)","note":"Second place: Gigutom ko. Also short for nako."}
+{"id":"ceb.c0586","meaning":"you (one person, full form)","note":"Ikaw? = And you? Short form: ka."}
+{"id":"ceb.c0587","meaning":"you (one person, short form)","note":"Second place: Kumusta ka?"}
+{"id":"ceb.c0588","meaning":"he; she","note":"One word for he and she. No short form."}
+{"id":"ceb.c0589","meaning":"we (not you)","note":"Leaves out the listener. Short form: mi."}
+{"id":"ceb.c0590","meaning":"we (not you, short form)","note":"Taga-Amerika mi."}
+{"id":"ceb.c0591","meaning":"we (you and I)","note":"Includes the listener. Short form: ta. Also a verb \"see\"."}
+{"id":"ceb.c0592","meaning":"we (you and I, short form)","note":"Kaon na ta = let's eat."}
+{"id":"ceb.c0593","meaning":"you (more than one)","note":"Short form: mo."}
+{"id":"ceb.c0594","meaning":"you (more than one, short form); by you","note":"Short for kamo and for nimo."}
+{"id":"ceb.c0595","meaning":"they; them","note":"Also before names for \"and company\": sila Ana."}
+{"id":"ceb.c0596","meaning":"my; by me (after the noun)","note":"balay nako = my house."}
+{"id":"ceb.c0597","meaning":"your; by you (after the noun)","note":"Gimingaw ko nimo = I miss you."}
+{"id":"ceb.c0598","meaning":"his; her; by him or her (after the noun)","note":"balay niya = his or her house."}
+{"id":"ceb.c0599","meaning":"our; by us (not you, after the noun)","note":"balay namo = our house (not yours)."}
+{"id":"ceb.c0600","meaning":"our; by us (you and I, after the noun)","note":"balay nato = our house (yours too)."}
+{"id":"ceb.c0601","meaning":"your; by you all (after the noun)","note":"balay ninyo = your house (you all)."}
+{"id":"ceb.c0602","meaning":"their; by them (after the noun)","note":"balay nila = their house."}
+{"id":"ceb.c0603","meaning":"my (before the noun)","note":"akong balay = my house."}
+{"id":"ceb.c0604","meaning":"your (before the noun)","note":"Unsay imong ngalan?"}
+{"id":"ceb.c0605","meaning":"his; her (before the noun)","note":"iyang anak = his or her child."}
+{"id":"ceb.c0606","meaning":"our (not you, before the noun)","note":"among balay = our house (not yours)."}
+{"id":"ceb.c0607","meaning":"our (you and I, before the noun)","note":"atong pamilya = our family."}
+{"id":"ceb.c0608","meaning":"your (more than one, before the noun)","note":"inyong balay = your house (you all)."}
+{"id":"ceb.c0609","meaning":"their (before the noun)","note":"ilang anak = their child."}
+{"id":"ceb.c0610","meaning":"to me; for me","note":"Ihatag kanako = give it to me."}
+{"id":"ceb.c0611","meaning":"to you; for you","note":"Para kanimo = for you."}
+{"id":"ceb.c0612","meaning":"to him; to her","note":"Ihatag kaniya = give it to him or her."}
+{"id":"ceb.c0613","meaning":"to us (not you)","note":"Ihatag kanamo = give it to us."}
+{"id":"ceb.c0614","meaning":"to us (you and I)","note":"Para kanato = for us (you too)."}
+{"id":"ceb.c0615","meaning":"to you (more than one)","note":"Para kaninyo = for you all."}
+{"id":"ceb.c0616","meaning":"to them","note":"Ihatag kanila = give it to them."}
+{"id":"ceb.c0617","meaning":"mine","note":"Akoa ni = this is mine."}
+{"id":"ceb.c0618","meaning":"yours (one person)","note":"Imoha ba ni? = Is this yours?"}
+{"id":"ceb.c0619","meaning":"his; hers","note":"Iyaha kana = that's his or hers."}
+{"id":"ceb.c0620","meaning":"this","note":"Ni after a word: Unsa ni?"}
+{"id":"ceb.c0621","meaning":"that (near you)","note":"Na after a word: Unsa na?"}
+{"id":"ceb.c0622","meaning":"that (far from us both)","note":"To after a word: Kinsa to?"}
+{"id":"ceb.c0623","meaning":"of this; this (after sa or a verb)","note":"Mas barato kini kaysa niini."}
+{"id":"ceb.c0624","meaning":"of that; that (near you, after sa or a verb)","note":"Mas barato kini kaysa niana."}
+{"id":"ceb.c0625","meaning":"of that; that (far, after sa or a verb)","note":"Also the past of adto: niadto ko = I went."}
+{"id":"ceb.c0626","meaning":"who","note":"Kinsa siya? = Who is he?"}
+{"id":"ceb.c0627","meaning":"what","note":"Unsa kini? = What's this?"}
+{"id":"ceb.c0628","meaning":"all; everyone; everything","note":"Pila tanan? = How much altogether?"}
+{"id":"ceb.c0629","meaning":"others; the rest; with","note":"ang uban = the others. uban nako = with me."}
+{"id":"ceb.c0630","meaning":"anyone; whoever","note":"Bisan kinsa pwede = anyone can."}
+{"id":"ceb.c0631","meaning":"anything; whatever","note":"Bisan unsa lang = anything's fine."}
+{"id":"ceb.c0632","meaning":"the (marks the focus)","note":"Maayo ang balay. The thing the sentence is about."}
+{"id":"ceb.c0633","meaning":"at; in; to; of (place and owner marker)","note":"sa merkado = at the market. Also a softener: Lingkod sa."}
+{"id":"ceb.c0634","meaning":"a; some (marks the thing done)","note":"Mopalit ko og saging. Not ug, which means \"and\"."}
+{"id":"ceb.c0635","meaning":"marks a name as the focus","note":"Ako si Emma. Siya si Ana."}
+{"id":"ceb.c0636","meaning":"of; by (before a name)","note":"ang balay ni Pedro = Pedro's house."}
+{"id":"ceb.c0637","meaning":"to; for (before a name)","note":"Ihatag kang Ana = give it to Ana."}
+{"id":"ceb.c0638","meaning":"linker (joins a describing word); that","note":"gamay nga balay; after a vowel it becomes -ng."}
+{"id":"ceb.c0639","meaning":"already; now; anymore","note":"Busog na ko. Dili na = not anymore."}
+{"id":"ceb.c0640","meaning":"still; yet; more","note":"Wala pa = not yet. Usa pa = one more."}
+{"id":"ceb.c0641","meaning":"just; only","note":"Tubig lang = just water. Softens requests."}
+{"id":"ceb.c0642","meaning":"only; just (merely)","note":"Gamay ra = just a little. Duol ra = it's close."}
+{"id":"ceb.c0643","meaning":"after all; softener","note":"Maayo man = I'm fine. Unsa man? = What is it?"}
+{"id":"ceb.c0644","meaning":"question particle","note":"Layo ba? Turns a sentence into a yes-or-no question."}
+{"id":"ceb.c0645","meaning":"also; too","note":"Short for usab. Ako sab = me too. Also sad."}
+{"id":"ceb.c0646","meaning":"also; too (everyday)","note":"Also written pud. Ikaw pod = you too."}
+{"id":"ceb.c0647","meaning":"very; really","note":"After the describing word: lami kaayo."}
+{"id":"ceb.c0648","meaning":"hopefully; should have","note":"Moabot unta siya = I hope she comes."}
+{"id":"ceb.c0649","meaning":"they say; supposedly","note":"Repeats what someone said: Moulan kuno."}
+{"id":"ceb.c0650","meaning":"seems; like","note":"Daw gikapoy ka = you look tired."}
+{"id":"ceb.c0651","meaning":"even; indeed","note":"Wala gani ko kahibalo = I don't even know."}
+{"id":"ceb.c0652","meaning":"of course; really","note":"Lagi! = Of course! Sure!"}
+{"id":"ceb.c0653","meaning":"poor thing; please (pity)","note":"Kapoy intawon siya = poor thing, she's tired."}
+{"id":"ceb.c0654","meaning":"from","note":"gikan sa Amerika = from America."}
+{"id":"ceb.c0655","meaning":"until; up to","note":"hangtod ugma = until tomorrow."}
+{"id":"ceb.c0656","meaning":"because of","note":"tungod sa ulan = because of the rain."}
+{"id":"ceb.c0657","meaning":"about; part","note":"bahin sa trabaho = about work."}
+{"id":"ceb.c0658","meaning":"for (careful)","note":"alang sa bata = for the child. Everyday: para sa."}
+{"id":"ceb.c0659","meaning":"on top of; above","note":"sa ibabaw sa lamesa = on the table."}
+{"id":"ceb.c0660","meaning":"under; below","note":"sa ilalom sa higdaanan = under the bed."}
+{"id":"ceb.c0661","meaning":"inside; in","note":"sa sulod sa balay = inside the house. Also mosulod (enter)."}
+{"id":"ceb.c0662","meaning":"outside","note":"Naa siya sa gawas = she's outside. Also mogawas (go out)."}
+{"id":"ceb.c0663","meaning":"next to; beside","note":"sa tupad sa simbahan = next to the church."}
+{"id":"ceb.c0664","meaning":"near; close to","note":"duol sa simbahan = near the church."}
+{"id":"ceb.c0665","meaning":"in front of; opposite","note":"sa atubangan sa eskuwelahan."}
+{"id":"ceb.c0666","meaning":"behind; back","note":"sa likod sa balay. Also \"the back\" of the body."}
+{"id":"ceb.c0667","meaning":"beside; at the side of","note":"sa kilid sa dalan = at the side of the road."}
+{"id":"ceb.c0668","meaning":"middle; half","note":"sa tunga sa dalan = in the middle of the road."}
+{"id":"ceb.c0669","meaning":"between; among","note":"sa taliwala sa duha ka balay."}
+{"id":"ceb.c0670","meaning":"behind; the other side","note":"sa luyo sa bukid = behind the mountain."}
+{"id":"ceb.c0671","meaning":"below; downstairs","note":"sa ubos = downstairs."}
+{"id":"ceb.c0672","meaning":"ahead; beyond","note":"sa unahan = up ahead."}
+{"id":"ceb.c0673","meaning":"and","note":"ikaw ug ako. Not og, which marks \"a / some\"."}
+{"id":"ceb.c0674","meaning":"or","note":"tubig o kape = water or coffee."}
+{"id":"ceb.c0675","meaning":"if; when (not yet)","note":"Also written kung, as in the card kung gusto nimo."}
+{"id":"ceb.c0676","meaning":"so; therefore","note":"Careful style; in speech also mao nga."}
+{"id":"ceb.c0677","meaning":"that's why; so","note":"Gikapoy ko, mao nga natulog ko."}
+{"id":"ceb.c0678","meaning":"so that; in order to","note":"Nagtuon ko aron makasabot."}
+{"id":"ceb.c0679","meaning":"while","note":"samtang nagkaon = while eating."}
+{"id":"ceb.c0680","meaning":"after; finished","note":"human sa trabaho = after work. Human na = it's done."}
+{"id":"ceb.c0681","meaning":"since","note":"sukad gahapon = since yesterday."}
+{"id":"ceb.c0682","meaning":"even; even though","note":"Bisan gamay = even a little."}
+{"id":"ceb.c0683","meaning":"even if; even","note":"Spanish loan: mas que. Maskin unsa = anything at all."}
+{"id":"ceb.c0684","meaning":"as long as; just","note":"Spanish loan: Basta ikaw = as long as it's you."}
+{"id":"ceb.c0685","meaning":"but (written)","note":"In speech, pero is far more common."}
+{"id":"ceb.c0686","meaning":"or else; or maybe","note":"Kape o kaha tubig?"}
+{"id":"ceb.c0687","meaning":"before","note":"sa wala pa ko mokaon = before I eat."}
+{"id":"ceb.c0688","meaning":"unless","note":"Gawas kon moulan = unless it rains."}
+{"id":"ceb.c0689","meaning":"so (English loan)","note":"Very common in Cebu City speech mixed with English."}
+{"id":"ceb.c0690","meaning":"Oh!","note":"Surprise, small mistakes, or a warm \"aw\": Ay, salamat!"}
+{"id":"ceb.c0691","meaning":"Ouch!","note":"Sudden pain."}
+{"id":"ceb.c0692","meaning":"Ow! / Oh my!","note":"Pain or dismay; very Cebuano."}
+{"id":"ceb.c0693","meaning":"Hey! (friendly)","note":"Gets a friend's attention, or \"Oh, look!\""}
+{"id":"ceb.c0694","meaning":"Hey! (sharp)","note":"Can sound rude to a stranger; use Nong or Nang."}
+{"id":"ceb.c0695","meaning":"Oh, come on! / Oh my!","note":"Mild disbelief or fond impatience."}
+{"id":"ceb.c0696","meaning":"Wow!","note":"English loan, used just as in English."}
+{"id":"ceb.c0697","meaning":"Too much! / Incredible!","note":"Spanish grave: anything extreme, good or bad."}
+{"id":"ceb.c0698","meaning":"Awesome! / Scary!","note":"Very Cebuano: impressive or dangerous."}
+{"id":"ceb.c0699","meaning":"You're in trouble now!","note":"Teasing; Hala alone is \"Oh no!\""}
+{"id":"ceb.c0700","meaning":"Huh? / What?","note":"Didn't hear or can't believe it. At a sentence end, ha = OK?"}
+{"id":"ceb.c0701","meaning":"Phew, thank goodness!","note":"Relief."}
+{"id":"ceb.c0702","meaning":"Sorry!","note":"English loan; also written sorry. Careful: Pasayloa ko."}
+{"id":"ceb.c0703","meaning":"OK!","note":"English loan; okay ra = it's fine."}
+{"id":"ceb.c0704","meaning":"Yay!","note":"Kids and happy news."}
+{"id":"ceb.c0705","meaning":"Hurry! / Come on!","note":"Also \"easy, quick\": dali ra."}
+{"id":"ceb.c0706","meaning":"Watch out!","note":"Also \"guard\"; Bantay is a common dog name."}
+{"id":"ceb.c0707","meaning":"Be careful! / Take care!","note":"Said when someone leaves or does something risky."}
+{"id":"ceb.c0708","meaning":"Here it is!","note":"Handing something over or finding it."}
+{"id":"ceb.c0709","meaning":"So delicious!","note":"ka- + lami: how tasty!"}
+{"id":"ceb.c0710","meaning":"Good grief!","note":"Older people's exclamation; heard in the province."}
+{"id":"ceb.c0711","meaning":"Look!","note":"The command form of tan-aw."}
+{"id":"ceb.c0712","meaning":"Is that so?","note":"Interested reaction to news."}
+{"id":"ceb.c0713","meaning":"where","note":"Asa ka? = Where are you going? Asa ang kasilyas?"}
+{"id":"ceb.c0714","meaning":"how (to do)","note":"Unsaon pag-adto? = How do I get there?"}
+{"id":"ceb.c0715","meaning":"none; no; did not","note":"Also \"left (side)\": Liko sa wala. The aid shows the \"none\" reading."}
+{"id":"ceb.c0716","meaning":"there is; have; is (at)","note":"Naa koy tubig = I have water. Naa sa balay = it's at home."}
+{"id":"ceb.c0717","meaning":"there is; have (careful)","note":"Aduna ka bay anak? = Do you have children?"}
+{"id":"ceb.c0718","meaning":"that's it; it's the one","note":"Mao na = that's it. Mao ba? = Is that so?"}
+{"id":"ceb.c0719","meaning":"plural word","note":"mga bata = children. Said \"manga\"."}
+{"id":"ceb.c0720","meaning":"each; every","note":"matag adlaw = every day."}
+{"id":"ceb.c0721","meaning":"a few; some","note":"pipila ka tawo = a few people."}
+{"id":"ceb.c0722","meaning":"many; a lot","note":"Daghang salamat = thanks a lot."}
+{"id":"ceb.c0723","meaning":"few; little","note":"Diyutay ra = only a little."}
+{"id":"ceb.c0724","meaning":"can; may; possible","note":"Spanish loan: puede. Pwede? = May I?"}
+{"id":"ceb.c0725","meaning":"should; must","note":"Dapat ka mopahulay = you should rest."}
+{"id":"ceb.c0726","meaning":"one (Cebuano)","note":"usa ka saging. Also a softener: Lingkod usa."}
+{"id":"ceb.c0727","meaning":"two (Cebuano)","note":"duha ka adlaw = two days."}
+{"id":"ceb.c0728","meaning":"three (Cebuano)","note":"tulo ka bata = three children."}
+{"id":"ceb.c0729","meaning":"four (Cebuano)","note":"upat ka tawo = four people."}
+{"id":"ceb.c0730","meaning":"five (Cebuano)","note":"lima ka saging = five bananas."}
+{"id":"ceb.c0731","meaning":"six (Cebuano)","note":"unom ka buok = six pieces."}
+{"id":"ceb.c0732","meaning":"seven (Cebuano)","note":"pito ka adlaw = seven days."}
+{"id":"ceb.c0733","meaning":"eight (Cebuano)","note":"Spanish eight is otso."}
+{"id":"ceb.c0734","meaning":"nine (Cebuano)","note":"Spanish nine is nuwebe."}
+{"id":"ceb.c0735","meaning":"twenty (Cebuano)","note":"For prices people say baynte."}
+{"id":"ceb.c0736","meaning":"hundred (Cebuano)","note":"usa ka gatos = 100. For pesos: siyen."}
+{"id":"ceb.c0737","meaning":"thousand","note":"usa ka libo = 1,000. Same for counting and money."}
+{"id":"ceb.c0738","meaning":"one (Spanish)","note":"Clock: ala una = one o'clock."}
+{"id":"ceb.c0739","meaning":"two (Spanish)","note":"alas dos = two o'clock."}
+{"id":"ceb.c0740","meaning":"three (Spanish)","note":"alas tres = three o'clock."}
+{"id":"ceb.c0741","meaning":"four (Spanish)","note":"Also written kwatro."}
+{"id":"ceb.c0742","meaning":"five (Spanish)","note":"singko pesos = five pesos."}
+{"id":"ceb.c0743","meaning":"six (Spanish)","note":"alas sais = six o'clock."}
+{"id":"ceb.c0744","meaning":"seven (Spanish)","note":"Also written syete."}
+{"id":"ceb.c0745","meaning":"nine (Spanish)","note":"Also written nuybe."}
+{"id":"ceb.c0746","meaning":"ten (Spanish)","note":"diyes pesos = ten pesos."}
+{"id":"ceb.c0747","meaning":"eleven (Spanish)","note":"alas onse = eleven o'clock."}
+{"id":"ceb.c0748","meaning":"twelve (Spanish)","note":"alas dose = twelve o'clock."}
+{"id":"ceb.c0749","meaning":"thirteen (Spanish)","note":"Prices: trese pesos."}
+{"id":"ceb.c0750","meaning":"fourteen (Spanish)","note":"Prices: katorse pesos."}
+{"id":"ceb.c0751","meaning":"fifteen (Spanish)","note":"alas dos y kinse = 2:15."}
+{"id":"ceb.c0752","meaning":"sixteen (Spanish)","note":"Also written disisays."}
+{"id":"ceb.c0753","meaning":"seventeen (Spanish)","note":"Ages: disisiyete anyos."}
+{"id":"ceb.c0754","meaning":"eighteen (Spanish)","note":"Disiotso anyos = eighteen years old."}
+{"id":"ceb.c0755","meaning":"nineteen (Spanish)","note":"Ages: disinuwebe anyos."}
+{"id":"ceb.c0756","meaning":"twenty (Spanish)","note":"baynte pesos = twenty pesos."}
+{"id":"ceb.c0757","meaning":"thirty (Spanish)","note":"Traynta anyos ko = I'm thirty."}
+{"id":"ceb.c0758","meaning":"forty (Spanish)","note":"kuwarenta pesos = forty pesos."}
+{"id":"ceb.c0759","meaning":"sixty (Spanish)","note":"sesenta pesos = 60 pesos."}
+{"id":"ceb.c0760","meaning":"seventy (Spanish)","note":"setenta pesos = 70 pesos."}
+{"id":"ceb.c0761","meaning":"eighty (Spanish)","note":"otsenta pesos = 80 pesos."}
+{"id":"ceb.c0762","meaning":"ninety (Spanish)","note":"nobenta pesos = 90 pesos."}
+{"id":"ceb.c0763","meaning":"a hundred (Spanish)","note":"siyen pesos = 100 pesos."}
+{"id":"ceb.c0764","meaning":"o'clock (before the hour)","note":"alas tres = three o'clock; but ala una."}
+{"id":"ceb.c0765","meaning":"half past","note":"alas otso y medya = 8:30."}
+{"id":"ceb.c0766","meaning":"years old","note":"Baynte anyos ko = I'm twenty."}
+{"id":"ceb.c0767","meaning":"peso","note":"One peso: usa ka piso. With Spanish numbers: pesos."}
+{"id":"ceb.c0768","meaning":"morning","note":"Maayong buntag = good morning."}
+{"id":"ceb.c0769","meaning":"noon; midday","note":"Maayong udto = good day (around noon)."}
+{"id":"ceb.c0770","meaning":"afternoon","note":"Maayong hapon = good afternoon."}
+{"id":"ceb.c0771","meaning":"week","note":"sa sunod nga semana = next week."}
+{"id":"ceb.c0772","meaning":"Sunday","note":"Spanish day names, with a capital."}
+{"id":"ceb.c0773","meaning":"Tuesday","note":"sa Martes = on Tuesday."}
+{"id":"ceb.c0774","meaning":"Wednesday","note":"From Spanish miercoles."}
+{"id":"ceb.c0775","meaning":"Thursday","note":"From Spanish jueves."}
+{"id":"ceb.c0776","meaning":"Friday","note":"From Spanish viernes."}
+{"id":"ceb.c0777","meaning":"Your cooking is really delicious!","note":"To the host; add Nang for an older woman."}
+{"id":"ceb.c0778","meaning":"You cook really well.","note":"Praise for the cook, not the dish."}
+{"id":"ceb.c0779","meaning":"The soup is really good.","note":"Said while still eating; the host notices."}
+{"id":"ceb.c0780","meaning":"Very good! / Well done!","note":"For effort or results; any age."}
+{"id":"ceb.c0781","meaning":"You're really skilled!","note":"hanas = good at it, practiced."}
+{"id":"ceb.c0782","meaning":"Nice idea!","note":"At work or among friends."}
+{"id":"ceb.c0783","meaning":"You did a really good job.","note":"At work, to a worker or helper."}
+{"id":"ceb.c0784","meaning":"Thanks for all your hard work.","note":"kugi = diligence; warm thanks for effort."}
+{"id":"ceb.c0785","meaning":"You're very hard-working.","note":"Warm praise."}
+{"id":"ceb.c0786","meaning":"You're very kind.","note":"buotan = good-hearted."}
+{"id":"ceb.c0787","meaning":"You're so fun to be with.","note":"The natural \"you're fun\"."}
+{"id":"ceb.c0788","meaning":"You're so smart!","note":"Lit. \"brainy\"; English bright is also heard."}
+{"id":"ceb.c0789","meaning":"Your clothes are nice.","note":"Clothes, not the body."}
+{"id":"ceb.c0790","meaning":"It really suits you!","note":"Clothes, a haircut, glasses."}
+{"id":"ceb.c0791","meaning":"Your child is so cute!","note":"Also written cute; very common."}
+{"id":"ceb.c0792","meaning":"Your child is so well-behaved.","note":"Same buotan, now \"well-behaved\"."}
+{"id":"ceb.c0793","meaning":"Your house is so clean.","note":"To the host; inyong = your (the family's)."}
+{"id":"ceb.c0794","meaning":"Your kitchen is really nice.","note":"To the host."}
+{"id":"ceb.c0795","meaning":"Your photo is really nice.","note":"Phone photos, social media."}
+{"id":"ceb.c0796","meaning":"You sing really well.","note":"Karaoke is everywhere; you will need this."}
+{"id":"ceb.c0797","meaning":"Oh, you speak Bisaya!","note":"diay = pleased surprise; you WILL hear it."}
+{"id":"ceb.c0798","meaning":"Your Bisaya is already really good!","note":"Said to learners; reply modestly."}
+{"id":"ceb.c0799","meaning":"Really? Thanks!","note":"Pleased surprise."}
+{"id":"ceb.c0800","meaning":"Not that much.","note":"Modest denial; the normal reply."}
+{"id":"ceb.c0801","meaning":"Thanks, I'm still learning.","note":"Expected reply about your Cebuano."}
+{"id":"ceb.c0802","meaning":"Aw, thanks!","note":"Warm, accepting."}
+{"id":"ceb.c0803","meaning":"You too!","note":"Returning it."}
+{"id":"ceb.c0804","meaning":"Thanks, you too.","note":"Returning it, everyday form."}
+{"id":"ceb.c0805","meaning":"Thanks so much!","note":"Warm and pleased."}
+{"id":"ceb.c0806","meaning":"handsome","note":"To a man; for a woman: gwapa. Said freely, even as friendly teasing. Mild."}
+{"id":"ceb.c0807","meaning":"beautiful (deep, poetic word)","note":"To a woman; sounds like a song or a poem. Warm."}
+{"id":"ceb.c0808","meaning":"cute","note":"From English cute; also written cute. To anyone, children too. Mild."}
+{"id":"ceb.c0809","meaning":"sweet (of a person)","note":"From English sweet; also written sweet. Mild."}
+{"id":"ceb.c0810","meaning":"fun (to be with); entertaining","note":"Lingaw kaayo = so much fun. Mild."}
+{"id":"ceb.c0811","meaning":"funny (makes you laugh)","note":"Of a person or a story. Mild."}
+{"id":"ceb.c0812","meaning":"smart; brainy","note":"Root utok (brain). Warm praise, never sarcastic."}
+{"id":"ceb.c0813","meaning":"darling; dear; cherished","note":"Very Cebuano endearment, also for family. Warm to bold."}
+{"id":"ceb.c0814","meaning":"smooth talker; flatterer (man)","note":"For a woman: bolera. Playful teasing, never an insult."}
+{"id":"ceb.c0815","meaning":"smooth talker; flatterer (woman)","note":"For a man: bolero."}
+{"id":"ceb.c0816","meaning":"smile","note":"Nindot ang imong pahiyom = you have a nice smile."}
+{"id":"ceb.c0817","meaning":"eyes; eye","note":"No plural ending: ang imong mata = your eyes."}
+{"id":"ceb.c0818","meaning":"voice","note":"Nindot ang imong tingog = you have a nice voice."}
+{"id":"ceb.c0819","meaning":"laugh","note":"Also the verb: mokatawa (will laugh)."}
+{"id":"ceb.c0820","meaning":"outfit; style; look","note":"Spanish forma: how someone dresses up."}
+{"id":"ceb.c0821","meaning":"boyfriend; girlfriend","note":"One word for both. Naa kay uyab? = Are you seeing someone?"}
+{"id":"ceb.c0822","meaning":"You're so handsome.","note":"To a man. To a woman: Gwapa kaayo ka. Warm."}
+{"id":"ceb.c0823","meaning":"You look really handsome today.","note":"To a man. Warm."}
+{"id":"ceb.c0824","meaning":"You're so pretty.","note":"To a woman. To a man: Gwapo kaayo ka. Warm."}
+{"id":"ceb.c0825","meaning":"You look beautiful tonight.","note":"To a woman. Warm."}
+{"id":"ceb.c0826","meaning":"You're so beautiful.","note":"To a woman; deeper and more serious than gwapa. Bold."}
+{"id":"ceb.c0827","meaning":"You're so cute.","note":"To anyone. Mild."}
+{"id":"ceb.c0828","meaning":"Your smile is so cute.","note":"Mild."}
+{"id":"ceb.c0829","meaning":"You're so sweet.","note":"Also a warm reply to a compliment. Mild."}
+{"id":"ceb.c0830","meaning":"I had so much fun tonight.","note":"At the end of a date or an evening out. Warm."}
+{"id":"ceb.c0831","meaning":"You're so funny!","note":"Mild."}
+{"id":"ceb.c0832","meaning":"Pretty and smart too!","note":"About a woman; to a man: Gwapo na, utokan pa! Warm."}
+{"id":"ceb.c0833","meaning":"You have a lovely smile.","note":"Mild."}
+{"id":"ceb.c0834","meaning":"I like your smile.","note":"Warm."}
+{"id":"ceb.c0835","meaning":"You have beautiful eyes.","note":"Warm."}
+{"id":"ceb.c0836","meaning":"I like your laugh.","note":"Warm."}
+{"id":"ceb.c0837","meaning":"You have a lovely voice.","note":"Mild; often said after karaoke."}
+{"id":"ceb.c0838","meaning":"You look sharp. (nice outfit)","note":"Mild."}
+{"id":"ceb.c0839","meaning":"Red really suits you.","note":"Mild; swap the color."}
+{"id":"ceb.c0840","meaning":"I like talking with you.","note":"Warm."}
+{"id":"ceb.c0841","meaning":"I'm glad you're here.","note":"Warm."}
+{"id":"ceb.c0842","meaning":"Are you free on Saturday?","note":"Libre here means free (not busy). Mild."}
+{"id":"ceb.c0843","meaning":"Coffee sometime?","note":"Light and easy to refuse. Mild."}
+{"id":"ceb.c0844","meaning":"Can I get your number?","note":"Many say the English word number. Warm."}
+{"id":"ceb.c0845","meaning":"Are you seeing someone?","note":"Direct but common. Warm."}
+{"id":"ceb.c0846","meaning":"I'd like us to meet again.","note":"Warm."}
+{"id":"ceb.c0847","meaning":"I keep thinking about you.","note":"Bold."}
+{"id":"ceb.c0848","meaning":"I like you. (romantically)","note":"A confession. Bold."}
+{"id":"ceb.c0849","meaning":"You're such a smooth talker!","note":"Playful deflection, to a man; to a woman: Bolera ka gyud! Mild."}
+{"id":"ceb.c0850","meaning":"Oh, stop it, thanks.","note":"Pleased but modest; a typical reply. Mild."}
+{"id":"ceb.c0851","meaning":"Sure, I'd like that.","note":"A warm yes."}
+{"id":"ceb.c0852","meaning":"Yes, see you on Saturday.","note":"A clear yes to a date."}
+{"id":"ceb.c0853","meaning":"Thanks, but I'm already seeing someone.","note":"A kind, clear no."}
+{"id":"ceb.c0854","meaning":"Sorry, you're really just a friend to me.","note":"A gentle, clear no."}
+{"id":"ceb.c0855","meaning":"Thanks, but I'm not ready yet.","note":"A kind no that stays friendly."}

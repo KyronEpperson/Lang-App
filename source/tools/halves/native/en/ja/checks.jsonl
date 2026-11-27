@@ -1,0 +1,84 @@
+{"id":"hiragana.k1","q":"How do you say the vowel え?","o":["Like the e in \"pet\"","Like the ee in \"see\"","Like the a in \"say\", with a glide","Like the e in \"the\""],"why":"Japanese え is always a short, pure \"eh\", never \"ee\"."}
+{"id":"hiragana.k2","q":"You want to write \"kore wa\" (this is). Which spelling is right?","why":"The topic particle is said wa but written は."}
+{"id":"hiragana.k3","q":"What do the two dots ゛ do to か (ka)?","o":["Make it longer","Turn it into pa","Turn it into ga","Make it silent"],"why":"Two dots turn k into g: か becomes が."}
+{"id":"sounds.k1","q":"What does the small っ do in きって (postage stamp)?","o":["Adds a short pause before the t","Adds a tsu sound","Makes the word a question","Makes the vowel long"],"why":"Small っ is a silent beat: kit-te."}
+{"id":"sounds.k2","q":"おばさん means \"aunt\". How do you write \"grandmother\"?","why":"Grandmother has a long a: おばあさん, with the extra あ right after ば."}
+{"id":"sounds.k3","q":"Which pair differs only in pitch?","o":[null,"あめ (rain) / あめ (candy)",null,null],"why":"あめ is written the same both times; only the melody tells rain from candy."}
+{"id":"katakana.k1","q":"What does ー do in コーヒー?","o":["Makes the vowel before it long","Adds a short pause","Turns ko into go","Nothing; it is decoration"],"why":"ー makes the vowel before it last two beats: kōhī."}
+{"id":"katakana.k2","q":"How do シ (shi) and ツ (tsu) differ?","o":["シ's short strokes sit on top","シ's short strokes sit on the left, and its long stroke sweeps up","ツ has three long strokes","They are the same letter"],"why":"シ: strokes on the left, sweeping up. ツ: strokes on top, falling down."}
+{"id":"katakana.k3","q":"Why is McDonald's マクドナルド in Japanese?","o":["Katakana has no letter for d","It is a different company","Japanese beats end in a vowel, so the consonants get vowels","It is a joke spelling"],"why":"Japanese beats end in a vowel or ん, so ma-ku-do-na-ru-do has six beats."}
+{"id":"desu.k1","q":"Which is the right self-introduction?","why":"さん goes after other people's names, never your own."}
+{"id":"desu.k2","q":"What does は do in わたしは がくせいです?","o":["It marks the topic: \"as for me\"","It means \"is\"","It makes a question","It means \"I\""],"why":"は is the topic particle; です is the word for \"am / is / are\"."}
+{"id":"desu.k3","q":"How do you ask Ms. Sato if she is a teacher?","why":"Use her name + さん instead of あなた, and end with か."}
+{"id":"kosoado.k1","q":"Which is correct for \"this book\"?","why":"この goes before a noun; これ stands alone."}
+{"id":"kosoado.k2","q":"The thing is far from both you and the listener. Which word do you use?","why":"あ words point at things far from both people; それ is near the listener."}
+{"id":"kosoado.k3","q":"How do you say \"Where is it?\"","why":"どこ is \"where\"; どれ is \"which one\", だれ is \"who\", なん is \"what\"."}
+{"id":"numbers.k1","q":"How do you say 20,000?","why":"Japanese counts in ten-thousands: 20,000 is two まん, にまん."}
+{"id":"numbers.k2","q":"How do you say 4:00?","why":"Four o'clock is always よじ."}
+{"id":"numbers.k3","q":"Which particle goes after a clock time, as in \"at seven\"?","why":"A clock time takes the time particle に: しちじに."}
+{"id":"no-mo.k1","q":"How do you say \"my friend\"?","why":"Owner first, then の, then the thing: わたしの ともだち."}
+{"id":"no-mo.k2","q":"Emily is a student. How do you say \"I'm a student too\"?","why":"も replaces は: わたしも."}
+{"id":"no-mo.k3","q":"A friend asks about your mother. You say \"My mother is a teacher.\"","why":"Your own mother, when you talk to others, is はは, with no さん."}
+{"id":"masu.k1","q":"Where does the verb go in a Japanese sentence?","o":["At the very end","Second, after the subject","First","Anywhere"],"why":"Japanese puts the verb last: すしを たべます."}
+{"id":"masu.k2","q":"How do you make たべます (eat) negative?","why":"Replace ます with ません."}
+{"id":"masu.k3","q":"あまり (not much) goes with which verb form?","why":"あまり needs a negative verb: あまり のみません."}
+{"id":"particles.k1","q":"\"I eat at a restaurant\": which particle goes after レストラン?","why":"Where an action happens takes で."}
+{"id":"particles.k2","q":"Which particle marks where you go?","o":["に or へ",null,null,null],"why":"With verbs of going and coming, に or へ marks the destination."}
+{"id":"particles.k3","q":"How do you say \"by train\"?","why":"The means of travel takes で."}
+{"id":"arimasu.k1","q":"Which verb do you use for a dog?","why":"People and animals take います."}
+{"id":"arimasu.k2","q":"\"The book is on the desk.\" Which particle goes after うえ?","why":"Where something is takes に: つくえの うえに."}
+{"id":"arimasu.k3","q":"Which is right for \"next to the bank\"?","why":"The thing you measure from comes first, then の, then となり."}
+{"id":"past.k1","q":"Which one says \"I didn't eat breakfast\"?","why":"Didn't eat: the negative ません plus the past でした, and the object particle を on あさごはん."}
+{"id":"past.k2","q":"How do you say \"It wasn't my day off\"?","why":"The past of じゃないです is じゃなかったです."}
+{"id":"past.k3","q":"Which time word takes the time particle に?","why":"Days of the week take に; きのう, せんしゅう and きょねん take no particle."}
+{"id":"invite.k1","q":"A coworker says: どようびに えいがを みませんか。 What is she doing?","o":["Asking whether you missed a movie on Saturday","Telling you not to watch the movie","Inviting you to a movie on Saturday","Asking if you dislike movies"],"why":"ませんか, a negative question, is the usual polite invitation."}
+{"id":"invite.k2","q":"How do you turn down an invitation politely?","why":"Apologize and trail off with ちょっと…; a bare いいえ sounds cold."}
+{"id":"invite.k3","q":"Someone asks: にくは たべませんか (Don't you eat meat?). You don't. What do you answer?","why":"はい agrees with the question as asked: that's right, I don't."}
+{"id":"kanji-first.k1","q":"How is the first kanji of 日曜日 (Sunday) read?","why":"日曜日 is にちようび: にち at the start, び at the end."}
+{"id":"kanji-first.k2","q":"Which word means Japanese person?","why":"日本 (Japan) + 人 (person), read にほんじん."}
+{"id":"kanji-first.k3","q":"Do you have to type kanji in your answers?","o":["Yes, from this lesson on","Only for numbers","Only for days of the week","No: kana are always accepted"],"why":"Kanji are never required; every answer also accepts kana."}
+{"id":"adjectives.k1","q":"The movie was interesting. =","why":"An い-adjective drops い and adds かったです for the past."}
+{"id":"adjectives.k2","q":"Which is right before a noun?","why":"きれい is a な-adjective, so it adds な before a noun."}
+{"id":"adjectives.k3","q":"It wasn't good. =","why":"いい switches to よ- for its other endings: よくなかったです."}
+{"id":"suki.k1","q":"I like sushi. =","why":"すき is a な-adjective, so the thing you like takes が."}
+{"id":"suki.k2","q":"Which is the softer way to say you don't like something?","why":"すきじゃないです is gentler than きらいです."}
+{"id":"suki.k3","q":"Emily is good at Japanese. =","why":"じょうず works like すき: the skill takes が."}
+{"id":"counters.k1","q":"Two apples, please. =","why":"Thing を, then the number, then ください; ふたつ is the all-purpose counter."}
+{"id":"counters.k2","q":"Which counter is for pens and bottles?","why":"ほん counts long, thin things."}
+{"id":"counters.k3","q":"How do you say one person?","why":"One and two people are ひとり and ふたり."}
+{"id":"te.k1","q":"What is the て form of のみます (drink)?","why":"み before ます becomes んで: のんで."}
+{"id":"te.k2","q":"What is the て form of いきます (go)?","why":"いきます is the exception: いって."}
+{"id":"te.k3","q":"I got up and ate breakfast. =","why":"The first verb takes the て form; the last one carries the past ました."}
+{"id":"te-requests.k1","q":"Please wait. =","why":"まちます is a u-verb: ち before ます becomes って, then ください."}
+{"id":"te-requests.k2","q":"May I sit here? =","why":"ても いいですか asks for permission."}
+{"id":"te-requests.k3","q":"You want a coworker to close (しめます) the door. What do you say?","why":"Asking someone else to do something: て form + ください."}
+{"id":"teiru.k1","q":"I'm married. =","why":"A state that is still true: て form + います."}
+{"id":"teiru.k2","q":"Do you know Ms. Sato? — No, I don't. =","why":"The negative of しって います is しりません."}
+{"id":"teiru.k3","q":"My mother is cooking now. =","why":"An action going on now: て form + います."}
+{"id":"short.k1","q":"What is the dictionary form of のみます (drink)?","why":"のみます is a u-verb: the み sound changes to む."}
+{"id":"short.k2","q":"How do you say \"there isn't\" in the short form?","why":"ある is special: its short negative is just ない."}
+{"id":"short.k3","q":"You ask a friend \"Are you a student?\" casually. Which is right?","why":"Casual questions drop か and never end in だ."}
+{"id":"to-omou.k1","q":"How do you say \"I think it's expensive\"?","why":"An い-adjective goes straight before と, and おもいます comes last."}
+{"id":"to-omou.k2","q":"How do you say \"I don't think it's difficult\"?","why":"The negative goes inside the quote: むずかしくないと おもいます."}
+{"id":"to-omou.k3","q":"Which word needs だ before と?","why":"ゆうめい is a な-adjective, so it takes だ: ゆうめいだと おもいます."}
+{"id":"noun-mod.k1","q":"How do you say \"the book I bought yesterday\"?","why":"The describing clause goes before the noun, and \"bought\" is the past short form かった."}
+{"id":"noun-mod.k2","q":"What is the past short form of のみます (drink)?","why":"The て form is のんで, so the past short form is のんだ."}
+{"id":"noun-mod.k3","q":"\"the cake my mother made\" =","why":"Inside the clause the maker takes が, and the short form つくった goes right before the noun."}
+{"id":"compare.k1","q":"\"The train is faster than the bus.\" =","why":"より goes after the slower one, the bus: でんしゃは バスより はやいです."}
+{"id":"compare.k2","q":"Which question word asks \"which of the two\"?","why":"どちら is \"which\" for a choice between two things."}
+{"id":"compare.k3","q":"Someone asks: すしと ラーメンと どちらが すきですか。 How do you say \"Sushi\"?","why":"Answer with の ほうが: すしの ほうが すきです."}
+{"id":"tsumori.k1","q":"\"I'm planning to buy a camera.\" =","why":"つもり follows the dictionary form: かう つもりです."}
+{"id":"tsumori.k2","q":"\"It got cold.\" =","why":"An い-adjective changes い to く before なります."}
+{"id":"tsumori.k3","q":"\"I'm not planning to go.\" =","why":"Put the short negative before つもり: いかない つもりです."}
+{"id":"tai.k1","q":"\"I want to eat sushi.\" =","why":"Drop ます and add たいです: たべたいです."}
+{"id":"tai.k2","q":"\"I didn't want to go.\" =","why":"たい changes like an い-adjective: たくなかったです."}
+{"id":"tai.k3","q":"\"I want a new bag.\" =","why":"For a thing, use ほしいです with が."}
+{"id":"koto-aru.k1","q":"\"I've eaten natto.\" =","why":"Experience: past short form + ことが あります."}
+{"id":"koto-aru.k2","q":"What does いく ことが あります mean?","o":["I have been there","I want to go","I sometimes go","I will go"],"why":"With the dictionary form, the pattern means \"there are times when…\"."}
+{"id":"koto-aru.k3","q":"\"I've never been to Okinawa.\" =","why":"Keep いった, and make the end negative: ありません."}
+{"id":"n-desu.k1","q":"Your coworker looks pale. What do you ask?","why":"どうしたんですか asks for an explanation of what you notice: \"What's wrong?\""}
+{"id":"n-desu.k2","q":"Which is correct before んです for \"I'm a student, you see\"?","why":"A noun takes な before んです: がくせいなんです."}
+{"id":"n-desu.k3","q":"\"It's my day off, so…\" =","why":"A noun takes な before ので: やすみなので."}
+{"id":"must.k1","q":"\"I have to study.\" =","why":"する → しない → しなければ いけません."}
+{"id":"must.k2","q":"\"You don't have to come.\" =","why":"くる → こない → こなくても いいです."}
+{"id":"must.k3","q":"\"You'd better go to the hospital.\" =","why":"Advice: past short form いった + ほうが いいです, and going to a place takes に."}

@@ -1,0 +1,81 @@
+{"id":"sounds.k1","q":"How is the c in cantik (pretty) pronounced?","o":["Like the k in cat","Like the ch in church","Like the s in city","Like the ts in cats"],"why":"c is always ch in Indonesian, never k or s."}
+{"id":"sounds.k2","q":"The letter e has two sounds. How do you know which one a word has?","o":["Learn it with the word: the pronunciation line shows eh or uh","It is always the uh sound","An e at the start of a word is always eh","There is no difference: both sound the same"],"why":"The spelling writes both sounds as e, so learn each word's e from the pronunciation line."}
+{"id":"sounds.k3","q":"How do you end the word tidak (not)?","o":["With a popped k, as in English kick","With a g sound","With a catch in the throat, like the break in uh-oh","Drop the k and stretch the a"],"why":"A final k is a catch in the throat; it is never popped."}
+{"id":"greetings.k1","q":"It's 4 p.m. and still light. Which greeting fits?","why":"sore runs from about 3 p.m. until dark; malam starts after dark."}
+{"id":"greetings.k2","q":"A friend says Selamat tahun baru! (Happy New Year!). What do you say back?","why":"Return a wish by repeating it with juga (too); sama-sama only answers thank you."}
+{"id":"greetings.k3","q":"How do you say My name is Emma?","why":"Nama saya is literally name my: nama comes first, saya after it."}
+{"id":"pronouns.k1","q":"Which word means both he and she?","why":"dia covers he and she; Indonesian does not mark the difference."}
+{"id":"pronouns.k2","q":"Your friend's father greets you. What do you call him?","why":"An older man gets the title Bapak, or Pak when you speak to him."}
+{"id":"pronouns.k3","q":"You tell a hotel clerk that you and your wife come from the US. Which we?","why":"kami leaves the listener out; the clerk is not part of your family."}
+{"id":"intro.k1","q":"How do you ask a stranger's name?","why":"Names are asked with siapa (who), and the owner Anda comes after nama."}
+{"id":"intro.k2","q":"How do you say I'm 25 years old?","why":"Age is said as my age, 25 years: umur saya dua puluh lima tahun, never with punya."}
+{"id":"intro.k3","q":"Which sentence means I'm from America?","why":"Before a place phrase Indonesian needs no word for am: Saya dari Amerika."}
+{"id":"no-be.k1","q":"How do you say I'm tired?","why":"A describing word follows the person directly: Saya capek."}
+{"id":"no-be.k2","q":"Where does adalah belong?","o":["Before any adjective","Before a place","Between two noun phrases, in careful speech","After every pronoun"],"why":"adalah links two noun phrases; it is never used before an adjective or a place."}
+{"id":"no-be.k3","q":"Kemarin saya makan. means Yesterday I ate. What shows the past?","o":["The word kemarin","A change in makan","The word saya","Nothing: it can only mean now"],"why":"makan never changes; kemarin (yesterday) shows the time."}
+{"id":"ini-itu.k1","q":"How do you say this book?","why":"ini comes after the noun in a phrase: buku ini."}
+{"id":"ini-itu.k2","q":"What does Ini teh. mean?","o":["This is tea.","this tea","that tea","That is tea."],"why":"With ini first, the words make a sentence: This is tea."}
+{"id":"ini-itu.k3","q":"Kopi itu panas. means…","o":["that hot coffee","That's hot coffee.","That coffee is hot.","This coffee is hot."],"why":"kopi itu is that coffee, and panas after it says what it is like: That coffee is hot."}
+{"id":"noun-adj.k1","q":"How do you say a new car?","why":"The describing word comes after the noun: mobil baru."}
+{"id":"noun-adj.k2","q":"Which one means That house is big?","why":"When besar comes after itu, it says something about the house: a full sentence."}
+{"id":"noun-adj.k3","q":"Where does sangat (very) go?","o":["After the adjective","At the start of the sentence","Before the adjective","Before the noun"],"why":"sangat goes before the adjective (sangat besar); sekali goes after it (besar sekali)."}
+{"id":"possession.k1","q":"How do you say Budi's house?","o":["Budi rumah","rumah Budi","Budi's rumah","rumah-Budi"],"why":"The owner comes after the thing: rumah Budi."}
+{"id":"possession.k2","q":"What does bukunya mean?","o":["my book","your book","his or her book, or the book","our book"],"why":"-nya is his, her, its or their, and it can also work like the."}
+{"id":"possession.k3","q":"my friend's car =","why":"Each owner follows what it owns: mobil, then teman, then saya."}
+{"id":"questions.k1","q":"How do you ask Whose car is this?","why":"The thing comes first and siapa takes the owner's place: mobil siapa."}
+{"id":"questions.k2","q":"Where are you going? (to a friend)","why":"Going somewhere takes ke mana; di mana asks where something is."}
+{"id":"questions.k3","q":"How do you turn Kamu lapar (You're hungry) into a question?","o":["Say it with a rising voice","Put adalah first","Move kamu to the end","Add do at the start"],"why":"A rising voice is enough; Apakah at the start is the careful written form."}
+{"id":"negation.k1","q":"How do you say \"I'm not a teacher\"?","why":"guru is a noun, so the negative word is bukan, placed right before it."}
+{"id":"negation.k2","q":"Which word goes before lapar (hungry) to say \"not hungry\"?","why":"lapar is a describing word, so it takes tidak."}
+{"id":"negation.k3","q":"Your friend points at a car and asks Itu mobil kamu? It isn't yours. The short answer is…","why":"The question is about a noun (your car), so the short no is Bukan."}
+{"id":"numbers.k1","q":"How do you say 100?","why":"se- means one in front of a block: seratus."}
+{"id":"numbers.k2","q":"How is Rp15.000 read?","why":"The dot marks thousands, and belas makes the teens: lima belas ribu."}
+{"id":"numbers.k3","q":"\"two big houses\" =","why":"The number goes before the noun and the describing word after it: dua rumah besar."}
+{"id":"time.k1","q":"setengah tiga is…","o":["3:30","2:30","3:00","0:30"],"why":"setengah counts toward the next hour: half way to three is 2:30."}
+{"id":"time.k2","q":"jam tiga means…","o":["three hours","3:30","three o'clock","a quarter past three"],"why":"jam before the number means o'clock; tiga jam would be three hours."}
+{"id":"time.k3","q":"Which question asks the time?","why":"Jam berapa? is \"what time?\"; Berapa jam? asks how many hours."}
+{"id":"ada.k1","q":"\"There's a pharmacy near here.\" =","why":"ada means there is; adalah only links two noun phrases."}
+{"id":"ada.k2","q":"You ask a receptionist Ada kamar kosong? There are none. The answer is…","why":"There isn't any is tidak ada."}
+{"id":"ada.k3","q":"Dia di rumah and Dia ada di rumah…","o":["only the first is correct","both mean she's at home","only the second is correct","the second means she has a house"],"why":"ada before a place is optional: both say where she is."}
+{"id":"prepositions.k1","q":"\"I'm going to Bali.\" =","why":"Going somewhere takes ke."}
+{"id":"prepositions.k2","q":"\"Where are you going?\" (to a friend) =","why":"Where to is ke mana."}
+{"id":"prepositions.k3","q":"Which is spelled correctly for \"at home\"?","why":"di before a place is a separate word: di rumah."}
+{"id":"family.k1","q":"adik means…","o":["older brother or sister","younger brother only","younger brother or sister","cousin"],"why":"adik names the age, not the sex: any younger sibling."}
+{"id":"family.k2","q":"Someone asks Sudah menikah? You're single. The expected answer is…","why":"Belum (not yet) is the expected answer; Tidak sounds blunt."}
+{"id":"family.k3","q":"\"my older brother\" =","why":"kakak first, then laki-laki, then the owner: kakak laki-laki saya."}
+{"id":"time-words.k1","q":"\"I haven't eaten yet.\" =","why":"Not yet is belum, the time word placed before the verb."}
+{"id":"time-words.k2","q":"Which word means \"right now, in the middle of doing\"?","why":"sedang marks something in progress."}
+{"id":"time-words.k3","q":"Which word means \"still\"?","why":"masih means still: Dia masih di kantor."}
+{"id":"ber.k1","q":"\"to work\" (the ber- verb) =","why":"kerja takes be-, not ber-: bekerja."}
+{"id":"ber.k2","q":"Which one is a ber- verb?","why":"berenang (swim) is a ber- verb; membaca takes me-."}
+{"id":"ber.k3","q":"Saya kerja di Jakarta is…","o":["fine in casual speech; careful speech says bekerja","always wrong","the only correct form","a question"],"why":"Dropping ber- is normal casual speech; the full form is bekerja."}
+{"id":"me.k1","q":"baca + me- =","why":"Before b the prefix is mem-: membaca."}
+{"id":"me.k2","q":"tulis + me- =","why":"t drops after men-: menulis."}
+{"id":"me.k3","q":"kirim + me- =","why":"k drops after meng-: mengirim."}
+{"id":"modals.k1","q":"How do you say 'I want to go'?","why":"mau goes straight before the verb, with no word for 'to'."}
+{"id":"modals.k2","q":"Which question asks for permission: 'May I come in?'","why":"boleh is about permission: Boleh saya masuk?"}
+{"id":"modals.k3","q":"What does Saya tidak bisa datang mean?","o":["I'm not allowed to come.","I can't come.","I don't need to come.","I don't want to come."],"why":"bisa is about being able to, so tidak bisa is 'can't'."}
+{"id":"requests.k1","q":"How do you say 'Don't go!'?","why":"Commands with 'don't' use jangan; tidak only describes."}
+{"id":"requests.k2","q":"Which is the polite way to ask a waiter for an iced tea?","why":"minta + a thing means 'may I have'."}
+{"id":"requests.k3","q":"Your host says Silakan duduk. What is she doing?","o":["Asking you for a chair","Inviting you to sit down","Telling you not to sit","Asking whether you can sit"],"why":"silakan offers or invites: please, go ahead."}
+{"id":"yang.k1","q":"How do you say 'the person who lives here'?","why":"yang comes right after the noun, then the description."}
+{"id":"yang.k2","q":"Pointing at some shirts, what does Yang merah mean?","o":["Red.","Very red.","Is it red?","The red one."],"why":"yang + a describing word on its own means 'the … one'."}
+{"id":"yang.k3","q":"Which is correct for 'the book I bought yesterday'?","why":"A longer description needs yang, even where English drops 'that'."}
+{"id":"passive.k1","q":"How do you say 'The room has been booked'?","why":"di- goes on the root and is written as one word: dipesan."}
+{"id":"passive.k2","q":"What is the di- verb of membeli (to buy)?","why":"Take off meN- to get the root beli, then add di-: dibeli."}
+{"id":"passive.k3","q":"Which spelling is right for 'eaten at home'?","why":"The di- verb is joined; di before a place is a separate word."}
+{"id":"compare.k1","q":"How do you say 'This one is cheaper'?","why":"lebih goes before the describing word, which never changes."}
+{"id":"compare.k2","q":"What does paling enak mean?","o":["more delicious","too delicious","the most delicious","less delicious"],"why":"paling means 'most, -est'."}
+{"id":"compare.k3","q":"How do you say 'too expensive'?","why":"terlalu means 'too'; sangat only means 'very'."}
+{"id":"directions.k1","q":"How do you say 'Turn right'?","why":"belok is turn, and kanan is right."}
+{"id":"directions.k2","q":"What is a perempatan?","o":["a traffic light","a T-junction","a four-way intersection","a bridge"],"why":"perempatan has four ways; a T-junction is a pertigaan."}
+{"id":"directions.k3","q":"What does Apoteknya di seberang bank mean?","o":["The pharmacy is across from the bank.","The pharmacy is next to the bank.","The pharmacy is behind the bank.","The pharmacy is inside the bank."],"why":"di seberang means 'across from'."}
+{"id":"daily.k1","q":"How do you say 'I get up at six'?","why":"jam before the number is the clock time; enam jam would be six hours."}
+{"id":"daily.k2","q":"What does mandi mean in daily life?","o":["a long soak in a bathtub","washing yourself, usually a shower or scooped water","swimming","washing clothes"],"why":"mandi is the everyday wash, not a long bath."}
+{"id":"daily.k3","q":"Where is bargaining with Bisa kurang? normal?","o":["at a minimarket with price tags","in a department store","at a market stall","at a pharmacy"],"why":"Bargain at markets and street stalls, not where prices are printed."}
+{"id":"plural.k1","q":"How do you say 'three books'?","why":"The number already shows the plural, so the noun is not repeated."}
+{"id":"plural.k2","q":"What does buku mean on its own?","o":["only one book","only several books","book or books, depending on the situation","a big book"],"why":"Plural is usually not marked: buku can be one or many."}
+{"id":"plural.k3","q":"Which repeated word is NOT a plural?","why":"kupu-kupu just means butterfly; the word only exists repeated."}
+{"id":"casual.k1","q":"What is the standard form of nggak?","why":"nggak and enggak are the casual forms of tidak."}
+{"id":"casual.k2","q":"Who can you call lo?","o":["your boss","an older shopkeeper","a Jakarta friend your own age","a stranger on the street"],"why":"gue and lo are only for Jakarta friends your own age."}
+{"id":"casual.k3","q":"Which message suits an email to your teacher?","why":"Writing to a teacher calls for standard forms: saya, belum, selesai."}

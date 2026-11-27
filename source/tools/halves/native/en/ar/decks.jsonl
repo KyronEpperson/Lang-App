@@ -1,0 +1,28 @@
+{"id":"ar.d.letters-1-alif-to-sad","label":"Letters 1: alif to sad","desc":"The first 14 letters, alif to ṣād, with their sounds and families."}
+{"id":"ar.d.letters-2-dad-to-ya","label":"Letters 2: dad to ya","desc":"The last 14 letters, ḍād to yāʾ."}
+{"id":"ar.d.vowels-and-marks","label":"Vowels and marks","desc":"Short and long vowels, sukun, shadda, tanwin, hamza, ة, ى, and ال with sun and moon letters."}
+{"id":"ar.d.sound-pairs","label":"Sound pairs","desc":"Words that differ only in a sound English speakers merge: q / k, ṣ / s, ṭ / t, ʿ / ʾ, ḥ / h, kh / ḥ, short / long, single / doubled."}
+{"id":"ar.d.greetings-and-courtesy","label":"Greetings and courtesy","desc":"Hello, thank you, please, sorry, goodbye: the phrases MSA shares with everyday speech."}
+{"id":"ar.d.about-me","label":"About me","desc":"Your name, where you're from, where you live, what you do."}
+{"id":"ar.d.family-and-people","label":"Family and people","desc":"Family members and people, with my / your."}
+{"id":"ar.d.numbers-and-money","label":"Numbers and money","desc":"Numbers 0–100, the Eastern Arabic digits, prices and currencies."}
+{"id":"ar.d.food-and-drink","label":"Food and drink","desc":"Coffee, tea, food, ordering and paying."}
+{"id":"ar.d.home-and-things","label":"Home and things","desc":"Rooms and everyday objects; \"I have\"; the and a."}
+{"id":"ar.d.describing-things","label":"Describing things","desc":"Adjectives in pairs, with agreement."}
+{"id":"ar.d.daily-routine","label":"Daily routine","desc":"Everyday verbs in the present, and word families."}
+{"id":"ar.d.time-and-days","label":"Time and days","desc":"Today, tomorrow, yesterday, days of the week, and the past."}
+{"id":"ar.d.around-town-and-directions","label":"Around town and directions","desc":"Asking the way: where, right, left, near, far."}
+{"id":"ar.d.travel-and-help","label":"Travel and help","desc":"Airport, hotel, transport, and asking for help."}
+{"id":"ar.d.spoken-arabic","label":"Spoken Arabic","desc":"The MSA word, and what you'll hear instead in Egypt and the Levant (recognition only)."}
+{"id":"ar.d.traps-for-english-speakers","label":"Traps for English speakers","desc":"Calques, false friends and courtesy traps."}
+{"id":"ar.d.compliments","label":"Compliments","desc":"Everyday praise: food and the cook, work and effort, someone's home, the learner's Arabic, and how people answer (with the blessing phrases)."}
+{"id":"ar.d.flirting","label":"Flirting","desc":"Words people flirt with, the phrases built from them, then moves and replies, including kind ways to say no. Mostly indirect, as in real life."}
+{"id":"ar.d.top-nouns","label":"Top nouns","desc":"The most-used nouns, with gender and the plural where it changes inside."}
+{"id":"ar.d.top-verbs","label":"Top verbs","desc":"The most-used verbs by their past \"he\" form, with the \"I\" form of the present."}
+{"id":"ar.d.top-adjectives","label":"Top adjectives","desc":"The most-used adjectives, with the feminine form."}
+{"id":"ar.d.top-adverbs","label":"Top adverbs","desc":"Time, place, manner and degree: very, only, also, maybe, soon."}
+{"id":"ar.d.top-pronouns","label":"Top pronouns","desc":"I, you, he, she, the possessive endings, this and that, and some, every, nobody."}
+{"id":"ar.d.top-prepositions","label":"Top prepositions","desc":"In, from, to, with, before, after, and the forms with endings: for me, with you, I have."}
+{"id":"ar.d.top-conjunctions","label":"Top conjunctions","desc":"And, or, but, because, if, when, that, so."}
+{"id":"ar.d.top-interjections","label":"Top interjections","desc":"What people really exclaim: oh, ouch, wow, congratulations, oh my God."}
+{"id":"ar.d.top-words","label":"Top words","desc":"Small words that fit no other class: no, will, did not, numbers to twenty, ordinals, days."}

@@ -280,5 +280,211 @@ if (fs.existsSync(path.join(L.HALVES, 'target', 'es'))) {
   });
   { const d = fresh('eclean'); const v = run('proof.js', ['es'], d); const ok = v.status === 0 && /differences: 0/.test(v.stdout); if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'proof es: target/es + native/en/es reassemble the en-es pack exactly'); }
 }
+/* ---------- a script target with two kana scripts and kanji: Japanese (target/ja, docs/briefs/x-ja-design.md) ----------
+   The classifier (targets/ja.js) is unit-checked; a stand-in Spanish half (a copy of the English half) must validate; each mutation of a kana or kanji run must be reported. */
+if (fs.existsSync(path.join(L.HALVES, 'target', 'ja'))) {
+  const JT = L.target('ja');
+  { const ok = JT.isValue('すしを ください。') && JT.isValue('コーヒー') && JT.isValue('日本語') && JT.isValue('kyō') && JT.isValue('ji') && !JT.isValue('Four') && !JT.isValue('no') && !JT.isValue('sake') && !JT.isValue('あめ (rain) / あめ (candy)')
+      && JT.runs('ES ねこ (gato), 日本 y コーヒー、ok').join('|') === 'ねこ|コーヒー|日本' && JT.kanaRuns('日本 ねこ 学生').join() === 'ねこ' && JSON.stringify(L.splitLead('ja', 'えき · いきます · わたし (I)')) === JSON.stringify({ lead: 'えき · いきます', sep: ' · ', note: 'わたし (I)' });
+    if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'ja: classifier (kana + kanji runs, punctuation free, marked romaji only, split hints)'); }
+  const jb = fresh('jbase'), JN = d => path.join(d, 'native', 'es', 'ja');
+  fs.cpSync(path.join(jb, 'native', 'en', 'ja'), JN(jb), { recursive: true }); { const c = path.join(JN(jb), 'course.json'); const o = L.readJSON(c); o.native = 'es'; L.writeJSON(c, o); }
+  const jedit = (d, f, fn) => { const p = path.join(JN(d), f); L.writeJSONL(p, fn(L.readJSONL(p))); };
+  const jcases = [
+    ['ja: stand-in es half (copy of the English) validates', d => { }, null],
+    ['ja: a kana run changed in a card note', d => jedit(d, 'cards.jsonl', rows => { const x = rows.find(r => /[ぁ-ゖ]{2,}/.test(r.note)); x.note = x.note.replace(/[ぁ-ゖ]+/, 'XX'); return rows; }), /kana and kanji differs from the English · missing/],
+    ['ja: katakana added to a dialogue translation', d => jedit(d, 'dialog.jsonl', rows => { rows[0].tr += ' コーヒー'; return rows; }), /dialog:ja\.g001\.tr: kana and kanji differs/],
+    ['ja: a Japanese option slot overwritten', d => jedit(d, 'checks.jsonl', rows => { const x = rows.find(r => Array.isArray(r.o) && r.o.includes(null)); x.o[x.o.indexOf(null)] = 'hack'; return rows; }), /holds a Japanese option/],
+    ['ja: kanji dropped from a lesson body', d => { const p = path.join(JN(d), 'lessons', 'kanji-first.html'); const h = fs.readFileSync(p, 'utf8'), run1 = h.replace(L.TOKEN_RX, ' ').match(/[一-鿿]+/)[0]; fs.writeFileSync(p, h.split(run1).join('X')); }, /lessons\/kanji-first\.html: kana and kanji differs/]
+  ];
+  jcases.forEach(([name, mut, want]) => {
+    const d = path.join(tmp, 'j' + Math.random().toString(36).slice(2)); fs.cpSync(jb, d, { recursive: true }); mut(d);
+    const v = run('validate.js', ['es', 'ja'], d), out = v.stdout + v.stderr;
+    const ok = want ? (v.status === 1 && want.test(out)) : v.status === 0;
+    if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + name + (ok ? '' : '\n' + out.split('\n').filter(l => /ERROR|errors:|Error/.test(l)).slice(0, 5).join('\n')));
+  });
+  { const d = fresh('jproof'); const p = path.join(d, 'target', 'ja', 'cards.jsonl'); const rows = L.readJSONL(p); rows[7].ja += 'ー'; L.writeJSONL(p, rows);
+    const v = run('proof.js', ['ja'], d); const ok = v.status === 1 && /differences: [1-9]/.test(v.stdout); if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'proof ja detects an altered target ja card'); }
+  { const d = fresh('jclean'); const v = run('proof.js', ['ja'], d); const ok = v.status === 0 && /differences: 0/.test(v.stdout); if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'proof ja: target/ja + native/en/ja reassemble the en-ja pack exactly'); }
+}
+/* ---------- a script-mode target with a romanised reading: Thai (target/th, docs/briefs/x-th-design.md) ----------
+   The classifier is unit-checked; every classifier-decided slot of target/th holds Thai (no English); a fake Vietnamese half goes through
+   mk_native --target th, --merge, validate and assemble; mutations of Thai runs and option slots are reported; the proof holds. */
+if (fs.existsSync(path.join(L.HALVES, 'target', 'th'))) {
+  const TH = L.target('th');
+  { const ok = TH.isValue('glai mâak') && TH.isValue('sà-wàt-dii') && TH.isValue('ไกล') && TH.isValue('t') && TH.isValue('khr') && !TH.isValue('noon') && !TH.isValue('mid') && !TH.isValue('Rising')
+      && !TH.isValue('with a b') && !TH.isValue('ไกล (glai)') && TH.runs('ไก่ (gài) ข').join() === 'ข,ไก่' && L.splitLead('th', 'น้ำ · สอง · two bottles').note === 'two bottles';
+    if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'th: classifier (Thai script, whole romanised readings, bare initials, "noon" and prose refused, lead · note split)'); }
+  { const bad = [], T = path.join(L.HALVES, 'target', 'th'); /* the slots the classifier decides: check / mc options, hint leads, tile readings */
+    L.readJSONL(path.join(T, 'checks.jsonl')).forEach(r => r.o.forEach(o => { if (o != null && !TH.isValue(o)) bad.push(r.id + ' ' + o); }));
+    L.readJSONL(path.join(T, 'practice.jsonl')).forEach(r => { if (r.t === 'mc') (r.o || []).forEach(o => { if (o != null && !TH.isValue(o)) bad.push(r.id + ' ' + o); }); if (r.hint && !TH.isValue(r.hint.th)) bad.push(r.id + ' hint ' + r.hint.th); });
+    L.readJSONL(path.join(T, 'lessons.jsonl')).forEach(l => (l.tiles || []).forEach(ts => ts.items.forEach(i => { if (i.r != null && !TH.isValue(i.r.replace(/_/g, ' '))) bad.push(ts.id + ' ' + i.r); })));
+    const ok = !bad.length; if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'th: no English in target/th (every option, hint lead and tile reading is Thai or en-th romanization)' + (ok ? '' : ': ' + bad.slice(0, 5).join(' | '))); }
+  const tb = fresh('tbase'), TN = d => path.join(d, 'native', 'vi', 'th');
+  const mk = run('mk_native.js', ['vi', '--target', 'th'], tb); if (mk.status) throw new Error('mk_native vi --target th: ' + mk.stderr);
+  const TW = path.join(TN(tb), 'work');
+  fs.readdirSync(TW).forEach(f => {
+    if (/^w(\d+|U)\.jsonl$/.test(f)) L.writeJSONL(path.join(TW, f), L.readJSONL(path.join(TW, f)).map(x => { x.tgt = x.src === '' ? '' : x.pre ? x.tgt : x.f === 'course' ? 'Tiếng Thái' : 'VI ' + x.src; return x; }));
+    if (/^w\d+$/.test(f)) { const d = path.join(TW, f, 'lessons'); fs.readdirSync(d).filter(x => x.endsWith('.src.html')).forEach(x => fs.writeFileSync(path.join(d, x.replace('.src', '')), fs.readFileSync(path.join(d, x), 'utf8').replace(/<p>/g, '<p>VI '))); }
+  });
+  const mg = run('mk_native.js', ['vi', '--target', 'th', '--merge'], tb); if (mg.status) throw new Error('merge vi th: ' + mg.stderr);
+  const tedit = (d, f, fn) => { const p = path.join(TN(d), f); L.writeJSONL(p, fn(L.readJSONL(p))); };
+  const tcases = [
+    ['th: clean fake vi half validates', d => { }, null],
+    ['th: a Thai run dropped from a card note', d => tedit(d, 'cards.jsonl', rows => { const x = rows.find(r => /[฀-๿]/.test(r.note)); x.note = x.note.replace(/[฀-๿]+/, 'XX'); return rows; }), /Thai differs from the English · missing/],
+    ['th: Thai added to a dialogue translation', d => tedit(d, 'dialog.jsonl', rows => { rows[0].tr += ' ครับ'; return rows; }), /dialog:th\.g001\.tr: Thai differs/],
+    ['th: a romanised option slot overwritten', d => tedit(d, 'checks.jsonl', rows => { const x = rows.find(r => Array.isArray(r.o) && r.o.includes(null)); x.o[x.o.indexOf(null)] = 'hack'; return rows; }), /holds a Thai option/],
+    ['th: Thai dropped from a lesson body', d => { const p = path.join(TN(d), 'lessons', 'tones.html'); const h = fs.readFileSync(p, 'utf8'), run1 = h.replace(L.TOKEN_RX, ' ').match(/[฀-๿]+/)[0]; fs.writeFileSync(p, h.split(run1).join('X')); }, /lessons\/tones\.html: Thai differs/]
+  ];
+  tcases.forEach(([name, mut, want]) => {
+    const d = path.join(tmp, 't' + Math.random().toString(36).slice(2)); fs.cpSync(tb, d, { recursive: true }); mut(d);
+    const v = run('validate.js', ['vi', 'th', '--all'], d), out = v.stdout + v.stderr;
+    const ok = want ? (v.status === 1 && want.test(out)) : v.status === 0;
+    if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + name + (ok ? '' : '\n' + out.split('\n').filter(l => /ERROR|errors:|Error/.test(l)).slice(0, 5).join('\n')));
+  });
+  { const out = path.join(tmp, 'course-vi-th.js'); const a = run('assemble.js', ['vi', 'th', out], tb); let ok = a.status === 0;
+    if (ok) { const P = { course: {}, i18n: {} }; new Function('LANGAPP_PACKS', fs.readFileSync(out, 'utf8'))(P); const c = P.course['vi-th'];
+      ok = !!c && c.native === 'vi' && c.target === 'th' && c.ttsLang === 'th-TH' && c.accents === true && c.romaAlmost === true && c.tilesDefault === true && /ǎ/.test(c.keys) && /^VI /.test(c.TITLES[0][1]) && c.UI['Thai (required)'] === 'VI Thai (required)'; }
+    if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'th: the filled vi half assembles (th-TH, accent keys, romaAlmost, titles, UI)' + (ok ? '' : '\n' + a.stdout + a.stderr)); }
+  { const d = fresh('tproof'); const p = path.join(d, 'target', 'th', 'cards.jsonl'); const rows = L.readJSONL(p); rows[7].rom += 'x'; L.writeJSONL(p, rows);
+    const v = run('proof.js', ['th'], d); const ok = v.status === 1 && /differences: [1-9]/.test(v.stdout); if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'proof th detects an altered romanization'); }
+  { const d = fresh('tclean'); const v = run('proof.js', ['th'], d); const ok = v.status === 0 && /differences: 0/.test(v.stdout); if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'proof th: target/th + native/en/th reassemble the en-th pack exactly'); }
+}
+/* ---------- a script-mode target with harakat and a romanised reading: Arabic (target/ar, docs/briefs/x-ar-design.md) ----------
+   Same shape as the Thai block. Extra: a dropped shadda / haraka inside a run is reported; Arabic punctuation (، ؟ ؛) is free. */
+if (fs.existsSync(path.join(L.HALVES, 'target', 'ar'))) {
+  const AR = L.target('ar');
+  { const ok = AR.isValue('hādhā kitāb') && AR.isValue('al-bayt') && AR.isValue('bint') && AR.isValue('بَيْت') && AR.isValue('ـبـ') && AR.isValue('٢٠') && !AR.isValue('always') && !AR.isValue('Right to left')
+      && !AR.isValue('sometimes') && !AR.isValue('بَيْت (bayt)') && AR.runs('شُكْرًا، بَيْت (bayt)؟').join() === 'بَيْت,شُكْرًا' && AR.runs('سَيَّارَة').join() !== AR.runs('سَيَارَة').join() && L.splitLead('ar', 'بَيْت · house').note === 'house';
+    if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'ar: classifier (Arabic script with harakat, tatweel and digits, whole romanised readings, "always" and prose refused, punctuation free, lead · note split)'); }
+  { const bad = [], T = path.join(L.HALVES, 'target', 'ar');
+    L.readJSONL(path.join(T, 'checks.jsonl')).forEach(r => r.o.forEach(o => { if (o != null && !AR.isValue(o)) bad.push(r.id + ' ' + o); }));
+    L.readJSONL(path.join(T, 'practice.jsonl')).forEach(r => { if (r.t === 'mc') (r.o || []).forEach(o => { if (o != null && !AR.isValue(o)) bad.push(r.id + ' ' + o); }); if (r.hint && !AR.isValue(r.hint.ar)) bad.push(r.id + ' hint ' + r.hint.ar); });
+    L.readJSONL(path.join(T, 'lessons.jsonl')).forEach(l => (l.tiles || []).forEach(ts => ts.items.forEach(i => { if (i.r != null && !AR.isValue(i.r.replace(/_/g, ' '))) bad.push(ts.id + ' ' + i.r); })));
+    const ok = !bad.length; if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'ar: no English in target/ar (every option, hint lead and tile reading is Arabic or en-ar romanisation)' + (ok ? '' : ': ' + bad.slice(0, 5).join(' | '))); }
+  const ab = fresh('abase'), AN = d => path.join(d, 'native', 'vi', 'ar');
+  const mk = run('mk_native.js', ['vi', '--target', 'ar'], ab); if (mk.status) throw new Error('mk_native vi --target ar: ' + mk.stderr);
+  const AW = path.join(AN(ab), 'work');
+  fs.readdirSync(AW).forEach(f => {
+    if (/^w(\d+|U)\.jsonl$/.test(f)) L.writeJSONL(path.join(AW, f), L.readJSONL(path.join(AW, f)).map(x => { x.tgt = x.src === '' ? '' : x.pre ? x.tgt : x.f === 'course' ? 'Tiếng Ả Rập' : 'VI ' + x.src; return x; }));
+    if (/^w\d+$/.test(f)) { const d = path.join(AW, f, 'lessons'); fs.readdirSync(d).filter(x => x.endsWith('.src.html')).forEach(x => fs.writeFileSync(path.join(d, x.replace('.src', '')), fs.readFileSync(path.join(d, x), 'utf8').replace(/<p>/g, '<p>VI '))); }
+  });
+  const mg = run('mk_native.js', ['vi', '--target', 'ar', '--merge'], ab); if (mg.status) throw new Error('merge vi ar: ' + mg.stderr);
+  const aedit = (d, f, fn) => { const p = path.join(AN(d), f); L.writeJSONL(p, fn(L.readJSONL(p))); };
+  const ARX = /[ؠ-ي][ً-ْٰ]*/;
+  const acases = [
+    ['ar: clean fake vi half validates', d => { }, null],
+    ['ar: Arabic punctuation added to a note is free', d => aedit(d, 'cards.jsonl', rows => { const x = rows.find(r => /[ؠ-ي]/.test(r.note)); x.note += ' ،؟'; return rows; }), null],
+    ['ar: an Arabic run dropped from a card note', d => aedit(d, 'cards.jsonl', rows => { const x = rows.find(r => /[ؠ-ي]/.test(r.note)); x.note = x.note.replace(/[ؠ-ٰٟ]+/, 'XX'); return rows; }), /Arabic differs from the English · missing/],
+    ['ar: a shadda dropped inside a note run', d => aedit(d, 'cards.jsonl', rows => { const x = rows.find(r => /ّ/.test(r.note || '')); x.note = x.note.replace('ّ', ''); return rows; }), /Arabic differs from the English/],
+    ['ar: Arabic added to a dialogue translation', d => aedit(d, 'dialog.jsonl', rows => { rows[0].tr += ' شُكْرًا'; return rows; }), /dialog:ar\.g001\.tr: Arabic differs/],
+    ['ar: an option slot overwritten', d => aedit(d, 'checks.jsonl', rows => { const x = rows.find(r => Array.isArray(r.o) && r.o.includes(null)); x.o[x.o.indexOf(null)] = 'hack'; return rows; }), /holds a Arabic option/],
+    ['ar: Arabic dropped from a lesson body', d => { const p = path.join(AN(d), 'lessons', 'letters.html'); const h = fs.readFileSync(p, 'utf8'), run1 = h.replace(L.TOKEN_RX, ' ').match(ARX)[0]; fs.writeFileSync(p, h.split(run1).join('X')); }, /lessons\/letters\.html: Arabic differs/]
+  ];
+  acases.forEach(([name, mut, want]) => {
+    const d = path.join(tmp, 'a' + Math.random().toString(36).slice(2)); fs.cpSync(ab, d, { recursive: true }); mut(d);
+    const v = run('validate.js', ['vi', 'ar', '--all'], d), out = v.stdout + v.stderr;
+    const ok = want ? (v.status === 1 && want.test(out)) : v.status === 0;
+    if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + name + (ok ? '' : '\n' + out.split('\n').filter(l => /ERROR|errors:|Error/.test(l)).slice(0, 5).join('\n')));
+  });
+  { const out = path.join(tmp, 'course-vi-ar.js'); const a = run('assemble.js', ['vi', 'ar', out], ab); let ok = a.status === 0;
+    if (ok) { const P = { course: {}, i18n: {} }; new Function('LANGAPP_PACKS', fs.readFileSync(out, 'utf8'))(P); const c = P.course['vi-ar'];
+      ok = !!c && c.native === 'vi' && c.target === 'ar' && c.ttsLang === 'ar-SA' && c.accents === true && c.romaAlmost === true && c.tilesDefault === true && /ḥ/.test(c.keys) && /^VI /.test(c.TITLES[0][1]) && c.UI['Arabic (required)'] === 'VI Arabic (required)'; }
+    if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'ar: the filled vi half assembles (ar-SA, accent keys, romaAlmost, titles, UI)' + (ok ? '' : '\n' + a.stdout + a.stderr)); }
+  { const d = fresh('aproof'); const p = path.join(d, 'target', 'ar', 'cards.jsonl'); const rows = L.readJSONL(p); rows[7].rom += 'x'; L.writeJSONL(p, rows);
+    const v = run('proof.js', ['ar'], d); const ok = v.status === 1 && /differences: [1-9]/.test(v.stdout); if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'proof ar detects an altered romanisation'); }
+  { const d = fresh('aclean'); const v = run('proof.js', ['ar'], d); const ok = v.status === 0 && /differences: 0/.test(v.stdout); if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'proof ar: target/ar + native/en/ar reassemble the en-ar pack exactly'); }
+}
+/* ---------- a script-mode target in Ethiopic with a romanised reading: Amharic (target/am, docs/briefs/x-am-design.md) ----------
+   Same shape as the Arabic block. Extra: one fidel swapped inside a run (ሀ / ሐ, same sound) is reported; Ethiopic punctuation (። ፣ ፧) is free;
+   the en-am English options that pronPattern accepts ("tea", "he said") are prose. */
+if (fs.existsSync(path.join(L.HALVES, 'target', 'am'))) {
+  const AM = L.target('am');
+  { const ok = AM.isValue('dehna neh') && AM.isValue("t'ewat") && AM.isValue('bunna bét') && AM.isValue("yih mets'haf new.") && AM.isValue('ቤት') && AM.isValue('ይህ ቤቴ ነው።') && !AM.isValue('tea') && !AM.isValue('he said')
+      && !AM.isValue('g') && !AM.isValue('A consonant plus a vowel') && !AM.isValue('ቤት (bét)') && AM.runs('ሰላም፣ ቤት (bét)።').join() === 'ሰላም,ቤት' && AM.runs('ሀሙስ').join() !== AM.runs('ሐሙስ').join() && L.splitLead('am', 'ደህና · ነህ · man form').note === 'man form';
+    if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'am: classifier (Ethiopic runs, whole romanised readings, English homographs and prose refused, punctuation free, lead · note split)'); }
+  { const bad = [], T = path.join(L.HALVES, 'target', 'am');
+    L.readJSONL(path.join(T, 'checks.jsonl')).forEach(r => r.o.forEach(o => { if (o != null && !AM.isValue(o)) bad.push(r.id + ' ' + o); }));
+    L.readJSONL(path.join(T, 'practice.jsonl')).forEach(r => { if (r.t === 'mc') (r.o || []).forEach(o => { if (o != null && !AM.isValue(o)) bad.push(r.id + ' ' + o); }); if (r.hint && !AM.isValue(r.hint.am)) bad.push(r.id + ' hint ' + r.hint.am); });
+    L.readJSONL(path.join(T, 'lessons.jsonl')).forEach(l => (l.tiles || []).forEach(ts => ts.items.forEach(i => { if (i.r != null && !AM.isValue(i.r.replace(/_/g, ' '))) bad.push(ts.id + ' ' + i.r); })));
+    const ok = !bad.length; if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'am: no English in target/am (every option, hint lead and tile reading is Ethiopic or en-am romanisation)' + (ok ? '' : ': ' + bad.slice(0, 5).join(' | '))); }
+  const mb = fresh('mbase'), MN = d => path.join(d, 'native', 'vi', 'am');
+  const mk = run('mk_native.js', ['vi', '--target', 'am'], mb); if (mk.status) throw new Error('mk_native vi --target am: ' + mk.stderr);
+  const MW = path.join(MN(mb), 'work');
+  fs.readdirSync(MW).forEach(f => {
+    if (/^w(\d+|U)\.jsonl$/.test(f)) L.writeJSONL(path.join(MW, f), L.readJSONL(path.join(MW, f)).map(x => { x.tgt = x.src === '' ? '' : x.pre ? x.tgt : x.f === 'course' ? 'Tiếng Amhara' : 'VI ' + x.src; return x; }));
+    if (/^w\d+$/.test(f)) { const d = path.join(MW, f, 'lessons'); fs.readdirSync(d).filter(x => x.endsWith('.src.html')).forEach(x => fs.writeFileSync(path.join(d, x.replace('.src', '')), fs.readFileSync(path.join(d, x), 'utf8').replace(/<p>/g, '<p>VI '))); }
+  });
+  const mg = run('mk_native.js', ['vi', '--target', 'am', '--merge'], mb); if (mg.status) throw new Error('merge vi am: ' + mg.stderr);
+  const medit = (d, f, fn) => { const p = path.join(MN(d), f); L.writeJSONL(p, fn(L.readJSONL(p))); };
+  const ETX = /[ሀ-ፚ]+/;
+  const mcases = [
+    ['am: clean fake vi half validates', d => { }, null],
+    ['am: Ethiopic punctuation added to a note is free', d => medit(d, 'cards.jsonl', rows => { const x = rows.find(r => ETX.test(r.note)); x.note += ' ።፣፧'; return rows; }), null],
+    ['am: an Ethiopic run dropped from a card note', d => medit(d, 'cards.jsonl', rows => { const x = rows.find(r => ETX.test(r.note)); x.note = x.note.replace(ETX, 'XX'); return rows; }), /Ethiopic differs from the English · missing/],
+    ['am: one fidel swapped inside a note run (ሀ / ሐ)', d => medit(d, 'cards.jsonl', rows => { const x = rows.find(r => /ሀ/.test(r.note || '')); x.note = x.note.replace('ሀ', 'ሐ'); return rows; }), /Ethiopic differs from the English/],
+    ['am: Amharic added to a dialogue translation', d => medit(d, 'dialog.jsonl', rows => { rows[0].tr += ' ሰላም'; return rows; }), /dialog:am\.g001\.tr: Ethiopic differs/],
+    ['am: an option slot overwritten', d => medit(d, 'checks.jsonl', rows => { const x = rows.find(r => Array.isArray(r.o) && r.o.includes(null)); x.o[x.o.indexOf(null)] = 'hack'; return rows; }), /holds a Amharic option/],
+    ['am: Amharic dropped from a lesson body', d => { const p = path.join(MN(d), 'lessons', 'orders.html'); const h = fs.readFileSync(p, 'utf8'), run1 = h.replace(L.TOKEN_RX, ' ').match(ETX)[0]; fs.writeFileSync(p, h.split(run1).join('X')); }, /lessons\/orders\.html: Ethiopic differs/]
+  ];
+  mcases.forEach(([name, mut, want]) => {
+    const d = path.join(tmp, 'm' + Math.random().toString(36).slice(2)); fs.cpSync(mb, d, { recursive: true }); mut(d);
+    const v = run('validate.js', ['vi', 'am', '--all'], d), out = v.stdout + v.stderr;
+    const ok = want ? (v.status === 1 && want.test(out)) : v.status === 0;
+    if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + name + (ok ? '' : '\n' + out.split('\n').filter(l => /ERROR|errors:|Error/.test(l)).slice(0, 5).join('\n')));
+  });
+  { const out = path.join(tmp, 'course-vi-am.js'); const a = run('assemble.js', ['vi', 'am', out], mb); let ok = a.status === 0;
+    if (ok) { const P = { course: {}, i18n: {} }; new Function('LANGAPP_PACKS', fs.readFileSync(out, 'utf8'))(P); const c = P.course['vi-am'];
+      ok = !!c && c.native === 'vi' && c.target === 'am' && c.ttsLang === 'am-ET' && c.accents === true && c.romaAlmost === true && c.tilesDefault === true && c.keys === '' && /^VI /.test(c.TITLES[0][1]) && c.UI['Amharic (required)'] === 'VI Amharic (required)'; }
+    if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'am: the filled vi half assembles (am-ET, romaAlmost, tilesDefault, titles, UI)' + (ok ? '' : '\n' + a.stdout + a.stderr)); }
+  { const d = fresh('mproof'); const p = path.join(d, 'target', 'am', 'cards.jsonl'); const rows = L.readJSONL(p); rows[7].rom += 'x'; L.writeJSONL(p, rows);
+    const v = run('proof.js', ['am'], d); const ok = v.status === 1 && /differences: [1-9]/.test(v.stdout); if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'proof am detects an altered romanisation'); }
+  { const d = fresh('mclean'); const v = run('proof.js', ['am'], d); const ok = v.status === 0 && /differences: 0/.test(v.stdout); if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'proof am: target/am + native/en/am reassemble the en-am pack exactly'); }
+}
+/* ---------- a script target with a Latin reading taught in answer slots: Taiwanese Hokkien (target/nan, docs/briefs/x-nan-design.md) ----------
+   The classifier (targets/nan.js) is unit-checked, including Han outside the BMP (𠢕, 𪜶) and the fill prompts that go native (fillSplit / qk);
+   a fake Vietnamese half goes through mk_native → merge → validate → assemble; each mutation must be reported. */
+if (fs.existsSync(path.join(L.HALVES, 'target', 'nan'))) {
+  const NT = L.target('nan');
+  { const ok = NT.isValue('你好') && NT.isValue('𠢕早') && NT.isValue('tshù') && NT.isValue('bah') && NT.isValue('tsia̍h-pn̄g') && NT.isValue('m̄ sī') && NT.isValue('chhù') && NT.isValue('to')
+      && !NT.isValue('spin') && !NT.isValue('pin') && !NT.isValue('too') && !NT.isValue('Two separate words') && !NT.isValue('g, as in gû (牛)') && !NT.isValue('é of café')
+      && NT.runs('VI 阿伯𠢕早 (tsá), 𪜶').join('|') === '阿伯𠢕早|𪜶' && JSON.stringify(NT.fillSplit('火車 (train), as spelled: __-tshia')) === '["__-tshia"]' && NT.fillSplit('Tâi-lô for 厝: __').length === 0
+      && NT.fillSplit('我 __ 學生。') === null && NT.fillSplit('Guá __ tsia̍h-pá.') === null && L.splitLead('nan', '厝 · house').note === 'house';
+    if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'nan: classifier (Han incl. supplementary planes, whole Tâi-lô only, English homographs refused, fill prompts split)'); }
+  { const bad = [], T = path.join(L.HALVES, 'target', 'nan');
+    L.readJSONL(path.join(T, 'checks.jsonl')).forEach(r => r.o.forEach(o => { if (o != null && !NT.isValue(o)) bad.push(r.id + ' ' + o); }));
+    L.readJSONL(path.join(T, 'practice.jsonl')).forEach(r => { if (r.t === 'mc') (r.o || []).forEach(o => { if (o != null && !NT.isValue(o)) bad.push(r.id + ' ' + o); }); if (r.hint && !NT.isValue(r.hint.nan)) bad.push(r.id + ' hint ' + r.hint.nan); if (r.t === 'fill' && r.q != null && NT.fillSplit(r.q)) bad.push(r.id + ' q ' + r.q); });
+    const ok = !bad.length; if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'nan: no English in target/nan (options, hint leads, fill prompts)' + (ok ? '' : ': ' + bad.slice(0, 5).join(' | '))); }
+  const nb = fresh('nbase'), NN = d => path.join(d, 'native', 'vi', 'nan');
+  const mk = run('mk_native.js', ['vi', '--target', 'nan'], nb); if (mk.status) throw new Error('mk_native vi --target nan: ' + mk.stderr);
+  const NW = path.join(NN(nb), 'work');
+  fs.readdirSync(NW).forEach(f => {
+    if (/^w(\d+|U)\.jsonl$/.test(f)) L.writeJSONL(path.join(NW, f), L.readJSONL(path.join(NW, f)).map(x => { x.tgt = x.src === '' ? '' : x.pre ? x.tgt : x.f === 'course' ? 'Tiếng Đài Loan' : 'VI ' + x.src; return x; }));
+    if (/^w\d+$/.test(f)) { const d = path.join(NW, f, 'lessons'); fs.readdirSync(d).filter(x => x.endsWith('.src.html')).forEach(x => fs.writeFileSync(path.join(d, x.replace('.src', '')), fs.readFileSync(path.join(d, x), 'utf8').replace(/<p>/g, '<p>VI '))); }
+  });
+  const nm = run('mk_native.js', ['vi', '--target', 'nan', '--merge'], nb); if (nm.status) throw new Error('merge vi nan: ' + nm.stderr);
+  const nedit = (d, f, fn) => { const p = path.join(NN(d), f); L.writeJSONL(p, fn(L.readJSONL(p))); };
+  const ncases = [
+    ['nan: clean fake vi half validates', d => { }, null],
+    ['nan: a supplementary-plane character (𠢕) dropped from a card note', d => nedit(d, 'cards.jsonl', rows => { const x = rows.find(r => /𠢕/.test(r.note || '')); x.note = x.note.split('𠢕').join(''); return rows; }), /Han differs from the English · missing/],
+    ['nan: Han added to a dialogue translation', d => nedit(d, 'dialog.jsonl', rows => { rows[0].tr += ' 多謝'; return rows; }), /dialog:nan\.g001\.tr: Han differs/],
+    ['nan: a Taiwanese option slot overwritten', d => nedit(d, 'practice.jsonl', rows => { const x = rows.find(r => Array.isArray(r.o) && r.o.includes(null)); x.o[x.o.indexOf(null)] = 'hack'; return rows; }), /holds a Taiwanese option/],
+    ['nan: the Tâi-lô around a blank altered in a native fill prompt', d => nedit(d, 'practice.jsonl', rows => { const x = rows.find(r => /__-tshia/.test(r.q || '')); x.q = x.q.replace('__-tshia', '__-tsia'); return rows; }), /text around the blank missing or altered: «__-tshia»/]
+  ];
+  ncases.forEach(([name, mut, want]) => {
+    const d = path.join(tmp, 'n' + Math.random().toString(36).slice(2)); fs.cpSync(nb, d, { recursive: true }); mut(d);
+    const v = run('validate.js', ['vi', 'nan', '--all'], d), out = v.stdout + v.stderr;
+    const ok = want ? (v.status === 1 && want.test(out)) : v.status === 0;
+    if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + name + (ok ? '' : '\n' + out.split('\n').filter(l => /ERROR|errors:|Error/.test(l)).slice(0, 5).join('\n')));
+  });
+  { const out = path.join(tmp, 'course-vi-nan.js'); const a = run('assemble.js', ['vi', 'nan', out], nb); let ok = a.status === 0;
+    if (ok) { const P = { course: {}, i18n: {} }; new Function('LANGAPP_PACKS', fs.readFileSync(out, 'utf8'))(P); const c = P.course['vi-nan'];
+      const f = c && c.PRACTICE.initials.find(x => x.t === 'fill');
+      ok = !!c && c.native === 'vi' && c.target === 'nan' && c.ttsLang === 'nan-TW' && c.accents === true && c.romaAlmost === true && c.tilesDefault === true && c.noAudio === true && /^VI /.test(c.TITLES[0][1]) && !!f && /^VI .*厝: __$/.test(f.q); }
+    if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'nan: the filled vi half assembles (nan-TW, accents, romaAlmost, noAudio, titles, native fill prompt)' + (ok ? '' : '\n' + a.stdout + a.stderr)); }
+  { const d = fresh('nproof'); const p = path.join(d, 'target', 'nan', 'cards.jsonl'); const rows = L.readJSONL(p); rows[7].rom += 'h'; L.writeJSONL(p, rows);
+    const v = run('proof.js', ['nan'], d); const ok = v.status === 1 && /differences: [1-9]/.test(v.stdout); if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'proof nan detects an altered Tâi-lô reading'); }
+  { const d = fresh('nclean'); const v = run('proof.js', ['nan'], d); const ok = v.status === 0 && /differences: 0/.test(v.stdout); if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'proof nan: target/nan + native/en/nan reassemble the en-nan pack exactly'); }
+}
 fs.rmSync(tmp, { recursive: true, force: true });
 console.log(fail ? fail + ' FAILED' : 'all self-tests passed'); process.exit(fail ? 1 : 0);

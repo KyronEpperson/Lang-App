@@ -21,15 +21,15 @@ Order of languages: Cantonese first (owner: "vantonese first"), then Vietnamese,
 | Vietnamese | released | released | done | done |
 | Mandarin | released | released | done | done |
 | Korean | released | released | done | done |
-| Japanese | released | released | done | pending |
-| Taiwanese | released | pending | pending | pending |
-| Thai | released | released | done | pending |
-| Hmong | released | released | pending | pending |
-| Indonesian | released | released | pending | pending |
-| Tagalog | released | released | pending | pending |
-| Cebuano | released | released | pending | pending |
+| Japanese | released | released | done | done |
+| Taiwanese | released | released | done | done |
+| Thai | released | released | done | done |
+| Hmong | released | released | done | done |
+| Indonesian | released | released | done | done |
+| Tagalog | released | released | done | done |
+| Cebuano | released | released | done | done |
 
-Korean for English speakers is the built-in course. Taiwanese to English is pending and waits on the owner's script choice (Traditional Chinese (Taiwan) or written Taiwanese), as does Taiwanese to Korean.
+Korean for English speakers is the built-in course. Taiwanese to English is released in written Taiwanese (owner's choice, 2026-11-27); Taiwanese to Korean follows that choice. Halves also exist for Spanish, Portuguese, French, Italian, German, Arabic and Amharic (2.139.0, 2.141.0).
 
 ## Wave 1: English and Spanish speakers
 
@@ -58,7 +58,7 @@ Korean for English speakers is the built-in course. Taiwanese to English is pend
 
 ## Wave 3: Portuguese, French, Italian, German, Arabic and Amharic speakers
 
-Amharic has no interface dictionary and no English course yet; both come before any course for Amharic speakers.
+Amharic has its interface and its English course since 2.141.0.
 
 | Learner speaks | Cantonese | Vietnamese | Mandarin | Korean | Japanese | Taiwanese | Thai | Hmong | Indonesian | Tagalog | Cebuano |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -67,7 +67,7 @@ Amharic has no interface dictionary and no English course yet; both come before 
 | Italian | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending |
 | German | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending |
 | Arabic | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending |
-| Amharic (no interface yet) | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending |
+| Amharic | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending |
 
 ## Pending, not scheduled: everyone else
 
@@ -88,4 +88,4 @@ The India group and the remaining interface languages. Not started; no order set
 | Puerto Rican Spanish (no interface yet) | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending |
 | Dominican Spanish (no interface yet) | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending |
 
-Counted on 2026-11-25 from `packs/`: regenerate with `python3 tools/curriculum/pending_courses.py` (run in the build home) after a pair is released; the lists of finished foundations and halves are at the top of that script.
+Counted on 2026-11-27 from `packs/`: regenerate with `python3 tools/curriculum/pending_courses.py` (run in the build home) after a pair is released; the lists of finished foundations and halves are at the top of that script.

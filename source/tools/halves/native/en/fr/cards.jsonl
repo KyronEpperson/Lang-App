@@ -1,0 +1,1008 @@
+{"id":"fr.c0001","meaning":"the key","note":"Nouns come with their article: la means \"the\" for a feminine noun."}
+{"id":"fr.c0002","meaning":"the cat","note":"The final t is silent."}
+{"id":"fr.c0003","meaning":"the bed","note":"le means \"the\" for a masculine noun. The final t is silent."}
+{"id":"fr.c0004","meaning":"Paris","note":"The final s is silent: the word ends in an ee sound."}
+{"id":"fr.c0005","meaning":"the street","note":"u is ee said with rounded lips. Not la roue (the wheel), which has ou."}
+{"id":"fr.c0006","meaning":"the wheel","note":"ou is the oo in \"food\". Compare la rue (the street)."}
+{"id":"fr.c0007","meaning":"the wine","note":"in is a nasal vowel: do not say the n. Compare le vent (the wind)."}
+{"id":"fr.c0008","meaning":"the wind","note":"en is a nasal vowel, said further back than in. The final t is silent."}
+{"id":"fr.c0009","meaning":"the bridge","note":"on is a nasal vowel. Keep it apart from an and en: le vent."}
+{"id":"fr.c0010","meaning":"the bench","note":"an sounds the same as en (le vent), not like on (le pont). The final c is silent here."}
+{"id":"fr.c0011","meaning":"the bag","note":"A final c is usually sounded (think CaReFuL: c, r, f, l)."}
+{"id":"fr.c0012","meaning":"the sea","note":"A final r is usually sounded. la mère (the mother) sounds the same."}
+{"id":"fr.c0013","meaning":"the boss; the chef","note":"A final f is usually sounded. ch sounds like English sh."}
+{"id":"fr.c0014","meaning":"the salt","note":"A final l is usually sounded."}
+{"id":"fr.c0015","meaning":"the friends","note":"Liaison: the silent s of les sounds like z before a vowel."}
+{"id":"fr.c0016","meaning":"a friend","note":"Liaison: the n of un links to the vowel of ami."}
+{"id":"fr.c0017","meaning":"the water","note":"(f.) le and la drop their vowel before a vowel: l'eau. eau sounds like oh."}
+{"id":"fr.c0018","meaning":"That's all.","note":"ou is the oo in \"food\"; the final t is silent. Compare tu (you), which has u."}
+{"id":"fr.c0019","meaning":"Hello (to a woman).","note":"Add madame or monsieur in shops; always say bonjour before asking anything."}
+{"id":"fr.c0020","meaning":"Good evening.","note":"From about 6 p.m. Bonne nuit is only for going to bed."}
+{"id":"fr.c0021","meaning":"Hi, how's it going?","note":"For friends and family only. Salut also means bye."}
+{"id":"fr.c0022","meaning":"I'm fine, thanks.","note":"The everyday answer to ça va?"}
+{"id":"fr.c0023","meaning":"How are you?","note":"vous form: to a stranger or someone older. To a friend: Ça va? or Comment vas-tu?"}
+{"id":"fr.c0024","meaning":"And you?","note":"To a friend. To a stranger: Et vous?"}
+{"id":"fr.c0025","meaning":"Nice to meet you.","note":"Written by a woman; a man writes enchanté. They sound the same."}
+{"id":"fr.c0026","meaning":"Thank you very much.","note":"beaucoup = a lot. Never merci très."}
+{"id":"fr.c0027","meaning":"You're welcome.","note":"Everyday and friendly."}
+{"id":"fr.c0028","meaning":"You're welcome. (formal)","note":"More polite: to a customer or a stranger."}
+{"id":"fr.c0029","meaning":"Please.","note":"vous form. To a friend: s'il te plaît."}
+{"id":"fr.c0030","meaning":"Excuse me.","note":"vous form, to a stranger. To a friend: excuse-moi."}
+{"id":"fr.c0031","meaning":"Sorry. / Excuse me.","note":"For bumping into someone or squeezing past."}
+{"id":"fr.c0032","meaning":"I'm sorry.","note":"A woman writes désolée; it sounds the same."}
+{"id":"fr.c0033","meaning":"I don't understand.","note":"ne … pas goes around the verb."}
+{"id":"fr.c0034","meaning":"Can you repeat that, please?","note":"vous form, to a stranger."}
+{"id":"fr.c0035","meaning":"Goodbye.","note":"Add madame or monsieur when you leave a shop."}
+{"id":"fr.c0036","meaning":"Have a nice day!","note":"bonne is feminine, like journée. In the evening: Bonne soirée!"}
+{"id":"fr.c0037","meaning":"My name is Emma.","note":"Literally: I call myself Emma."}
+{"id":"fr.c0038","meaning":"What's your name? (informal)","note":"To a friend or a child. Don't drop the t': tu t'appelles."}
+{"id":"fr.c0039","meaning":"What's your name? (formal)","note":"vous form, to a stranger. In this polite question the subject vous comes after the verb."}
+{"id":"fr.c0040","meaning":"I'm American.","note":"A woman says américaine (the n is sounded). Nationalities are lowercase."}
+{"id":"fr.c0041","meaning":"I'm Canadian.","note":"Said by a woman. A man says canadien: the n is not sounded."}
+{"id":"fr.c0042","meaning":"Me, I'm from Boston.","note":"moi adds emphasis; je cannot stand alone."}
+{"id":"fr.c0043","meaning":"Where are you from?","note":"Everyday question to a friend. To a stranger: Vous êtes d'où?"}
+{"id":"fr.c0044","meaning":"I'm from the United States.","note":"des = de + les, because États-Unis is plural."}
+{"id":"fr.c0045","meaning":"I live in Chicago.","note":"à before a city."}
+{"id":"fr.c0046","meaning":"Where do you live?","note":"Everyday question. To a stranger: Vous habitez où?"}
+{"id":"fr.c0047","meaning":"I've lived in Paris for two years.","note":"Still true now, so French uses the present with depuis."}
+{"id":"fr.c0048","meaning":"I'm thirty.","note":"Age uses avoir: literally, I have thirty years."}
+{"id":"fr.c0049","meaning":"I'm a student.","note":"Said by a woman. A man says étudiant (the t is silent). No une before it."}
+{"id":"fr.c0050","meaning":"I speak a little French.","note":"Language names are lowercase."}
+{"id":"fr.c0051","meaning":"Do you speak English?","note":"tu form. To a stranger: Vous parlez anglais?"}
+{"id":"fr.c0052","meaning":"I'm learning French.","note":"After apprendre, the language takes le. After parler it usually doesn't."}
+{"id":"fr.c0053","meaning":"Me too.","note":"Use moi here, never je alone."}
+{"id":"fr.c0054","meaning":"Me neither.","note":"The answer to a negative: Je ne parle pas allemand. Moi non plus."}
+{"id":"fr.c0055","meaning":"my brother","note":""}
+{"id":"fr.c0056","meaning":"my sister","note":"œ is one letter; type it from the accent bar."}
+{"id":"fr.c0057","meaning":"my parents","note":"parents can also mean relatives; la famille is safer for that."}
+{"id":"fr.c0058","meaning":"my father; my dad","note":"Everyday: papa."}
+{"id":"fr.c0059","meaning":"my grandmother","note":"grand stays without -e in grand-mère. Grandpa: mon grand-père."}
+{"id":"fr.c0060","meaning":"Do you have brothers and sisters?","note":"To say no: Non, je n'ai pas de frères et sœurs."}
+{"id":"fr.c0061","meaning":"I have two kids.","note":"Liaison: the x of deux links to enfants with a z sound."}
+{"id":"fr.c0062","meaning":"my son","note":"The l is silent and the s is sounded."}
+{"id":"fr.c0063","meaning":"my daughter","note":"fille means daughter or girl."}
+{"id":"fr.c0064","meaning":"my husband","note":""}
+{"id":"fr.c0065","meaning":"my wife","note":"femme means wife and woman. The e in femme sounds like a."}
+{"id":"fr.c0066","meaning":"My mom is nice.","note":"gentille agrees with mère (feminine): gentil + le."}
+{"id":"fr.c0067","meaning":"my friend Léa","note":"mon before a vowel, even for a feminine noun: never ma amie."}
+{"id":"fr.c0068","meaning":"his father; her father","note":"son agrees with père (masculine), not with the owner."}
+{"id":"fr.c0069","meaning":"his mother; her mother","note":"sa agrees with mère (feminine), whoever's mother it is."}
+{"id":"fr.c0070","meaning":"their children","note":"leurs is plural, like enfants. One child: leur enfant."}
+{"id":"fr.c0071","meaning":"My brother is taller than me.","note":"plus … que = more … than; use moi after que. For a sister: plus grande (the d is sounded)."}
+{"id":"fr.c0072","meaning":"She's as tall as her mother.","note":"aussi … que = as … as. grande agrees with elle; for a man: grand (the d is silent)."}
+{"id":"fr.c0073","meaning":"seventeen","note":"Literally ten-seven, with a hyphen. 11 to 16 have their own words."}
+{"id":"fr.c0074","meaning":"twenty-one","note":"et only in 21, 31, 41, 51, 61 and 71."}
+{"id":"fr.c0075","meaning":"seventy","note":"Literally sixty-ten. Belgium and Switzerland say septante."}
+{"id":"fr.c0076","meaning":"eighty","note":"Literally four twenties. Parts of Switzerland say huitante."}
+{"id":"fr.c0077","meaning":"ninety","note":"Literally four-twenty-ten. Belgium and Switzerland say nonante."}
+{"id":"fr.c0078","meaning":"two hundred euros","note":"cents takes -s when no number follows it: deux cent dix has no -s."}
+{"id":"fr.c0079","meaning":"a thousand","note":"No un before mille, and it never takes -s: deux mille."}
+{"id":"fr.c0080","meaning":"What time is it?","note":"quelle is feminine, like heure."}
+{"id":"fr.c0081","meaning":"It's one o'clock.","note":"heure is feminine, so it's une heure. Never il est un."}
+{"id":"fr.c0082","meaning":"It's two thirty.","note":"heures is plural after deux; demie agrees with heure (feminine)."}
+{"id":"fr.c0083","meaning":"It's noon.","note":"Midnight: Il est minuit. No heures with midi or minuit."}
+{"id":"fr.c0084","meaning":"at a quarter past eight","note":"et quart = quarter past."}
+{"id":"fr.c0085","meaning":"It's a quarter to ten.","note":"moins le quart = a quarter to."}
+{"id":"fr.c0086","meaning":"at 8 p.m.","note":"Schedules use the 24-hour clock: vingt heures = 8 p.m."}
+{"id":"fr.c0087","meaning":"How much is it?","note":"Also: C'est combien?"}
+{"id":"fr.c0088","meaning":"three euros fifty","note":"euros goes between the two numbers; no et."}
+{"id":"fr.c0089","meaning":"That's twelve euros.","note":"What a cashier says for the total."}
+{"id":"fr.c0090","meaning":"The apples are two euros.","note":"coûtent agrees with les pommes (plural); one apple: la pomme coûte."}
+{"id":"fr.c0091","meaning":"Monday; on Monday","note":"Days and months are lowercase. Every Monday: le lundi."}
+{"id":"fr.c0092","meaning":"on Saturdays","note":"le + day = every week on that day. Just this Saturday: samedi."}
+{"id":"fr.c0093","meaning":"What day is it today?","note":"Everyday question; on means \"we\" here."}
+{"id":"fr.c0094","meaning":"Today is Wednesday.","note":"No le before the day here."}
+{"id":"fr.c0095","meaning":"tomorrow","note":"Tomorrow morning: demain matin."}
+{"id":"fr.c0096","meaning":"the weekend","note":"In Québec: la fin de semaine."}
+{"id":"fr.c0097","meaning":"next week","note":"prochaine agrees with semaine (feminine). Next month: le mois prochain."}
+{"id":"fr.c0098","meaning":"July 14","note":"Day before month. Bastille Day, the national holiday."}
+{"id":"fr.c0099","meaning":"May 1","note":"The first of the month is le premier; other days use plain numbers."}
+{"id":"fr.c0100","meaning":"in August","note":"Months take en and no article: en mai, en août."}
+{"id":"fr.c0101","meaning":"My birthday is March 3.","note":"le before the date. The s of mars is sounded."}
+{"id":"fr.c0102","meaning":"What's the weather like?","note":"Weather questions use faire: literally, what weather does it make?"}
+{"id":"fr.c0103","meaning":"The weather's nice.","note":"Weather uses faire: il fait chaud, il fait froid."}
+{"id":"fr.c0104","meaning":"It's hot.","note":"The weather. To say you feel hot: j'ai chaud."}
+{"id":"fr.c0105","meaning":"It's raining.","note":""}
+{"id":"fr.c0106","meaning":"It's sunny.","note":"Literally: there is some sun."}
+{"id":"fr.c0107","meaning":"It's twenty degrees.","note":"France uses Celsius: 20 degrees is about 68 degrees Fahrenheit."}
+{"id":"fr.c0108","meaning":"in spring","note":"But en été, en automne, en hiver."}
+{"id":"fr.c0109","meaning":"a coffee with milk","note":"Un café alone is a small black espresso."}
+{"id":"fr.c0110","meaning":"a croissant","note":"The final t is silent."}
+{"id":"fr.c0111","meaning":"a chocolate croissant","note":"In parts of southwest France: une chocolatine."}
+{"id":"fr.c0112","meaning":"a baguette, please","note":""}
+{"id":"fr.c0113","meaning":"I'd like a croque-monsieur.","note":"Je voudrais is the polite way to order; je veux sounds blunt."}
+{"id":"fr.c0114","meaning":"I'll have the quiche.","note":"Another common way to order."}
+{"id":"fr.c0115","meaning":"I'd like some water.","note":"de l' before a vowel: some."}
+{"id":"fr.c0116","meaning":"some cheese","note":"du = de + le: some, with a masculine noun."}
+{"id":"fr.c0117","meaning":"some soup","note":"de la with a feminine noun: some soup."}
+{"id":"fr.c0118","meaning":"I don't eat meat.","note":"After a negative, du and de la become de."}
+{"id":"fr.c0119","meaning":"a pitcher of tap water","note":"Free in restaurants: just ask for it."}
+{"id":"fr.c0120","meaning":"a glass of red wine","note":"rouge is the same for masculine and feminine."}
+{"id":"fr.c0121","meaning":"Do you have a table for two?","note":"vous form, to the server."}
+{"id":"fr.c0122","meaning":"The menu, please.","note":"la carte = the menu. Le menu is a fixed-price set meal."}
+{"id":"fr.c0123","meaning":"breakfast","note":"In Québec: le déjeuner (breakfast), le dîner (lunch), le souper (dinner)."}
+{"id":"fr.c0124","meaning":"Enjoy your meal!","note":"bon is masculine, like appétit, and links to it with an n sound."}
+{"id":"fr.c0125","meaning":"For here or to go?","note":"What you will hear at a bakery or sandwich counter."}
+{"id":"fr.c0126","meaning":"The check, please.","note":""}
+{"id":"fr.c0127","meaning":"the white shirt","note":"Color after the noun, and it agrees: blanc becomes blanche."}
+{"id":"fr.c0128","meaning":"the black shoes","note":"noires is feminine plural, like chaussures."}
+{"id":"fr.c0129","meaning":"the red sweater","note":"rouge is the same for masculine and feminine."}
+{"id":"fr.c0130","meaning":"the green dress","note":"vert becomes verte: the t is sounded in the feminine."}
+{"id":"fr.c0131","meaning":"the blue pants","note":"pantalon is singular in French: one pair of pants."}
+{"id":"fr.c0132","meaning":"the white socks","note":"chaussettes is feminine plural, so blanc becomes blanches."}
+{"id":"fr.c0133","meaning":"a new coat","note":"nouveau goes before the noun. Feminine: une nouvelle veste."}
+{"id":"fr.c0134","meaning":"I'm just looking, thanks.","note":"What to say when a salesperson offers help."}
+{"id":"fr.c0135","meaning":"I'm looking for a jacket.","note":"chercher = to look for: no word for \"for\"."}
+{"id":"fr.c0136","meaning":"I'm a size thirty-eight.","note":"French clothing sizes are European; faire du + size."}
+{"id":"fr.c0137","meaning":"Do you have a bigger size?","note":"grande agrees with taille (feminine)."}
+{"id":"fr.c0138","meaning":"Can I try it on?","note":"l' = it, before the verb."}
+{"id":"fr.c0139","meaning":"Where are the fitting rooms?","note":"sont agrees with les cabines (plural)."}
+{"id":"fr.c0140","meaning":"It's too small.","note":"After c'est, the adjective stays masculine singular."}
+{"id":"fr.c0141","meaning":"How much is this dress?","note":"cette with a feminine noun; ce with a masculine one: ce pull."}
+{"id":"fr.c0142","meaning":"I'll take it.","note":"la = it, for a feminine thing (la veste). For le pull: Je le prends."}
+{"id":"fr.c0143","meaning":"I'll take them.","note":"les = them, for masculine and feminine plurals alike."}
+{"id":"fr.c0144","meaning":"Do you take cards?","note":""}
+{"id":"fr.c0145","meaning":"the kitchen","note":"Also: cooking."}
+{"id":"fr.c0146","meaning":"the bedroom","note":"Not a chamber: the room you sleep in, also a hotel room."}
+{"id":"fr.c0147","meaning":"the living room","note":""}
+{"id":"fr.c0148","meaning":"the bathroom","note":"The toilet is often a separate room: les toilettes."}
+{"id":"fr.c0149","meaning":"an apartment","note":"un shows that appartement is masculine; l'appartement would hide it."}
+{"id":"fr.c0150","meaning":"a house","note":""}
+{"id":"fr.c0151","meaning":"the window","note":"The ê is the trace of an old s, as in English \"fenestration\"."}
+{"id":"fr.c0152","meaning":"the fridge","note":"Short for le réfrigérateur."}
+{"id":"fr.c0153","meaning":"There's a table.","note":"il y a = there is and there are."}
+{"id":"fr.c0154","meaning":"There's no milk.","note":"After il n'y a pas, use de with no article."}
+{"id":"fr.c0155","meaning":"I wake up at six.","note":"se réveiller is reflexive: me goes with je."}
+{"id":"fr.c0156","meaning":"I get up at seven.","note":"se lever is reflexive: me goes with je."}
+{"id":"fr.c0157","meaning":"What time do you get up?","note":"te goes with tu: tu te lèves."}
+{"id":"fr.c0158","meaning":"I take a shower.","note":""}
+{"id":"fr.c0159","meaning":"I brush my teeth.","note":"les dents, not mes dents: me already says whose."}
+{"id":"fr.c0160","meaning":"I leave for work at eight.","note":"au = à + le: the contraction is required."}
+{"id":"fr.c0161","meaning":"We have dinner at eight.","note":"on = we in everyday speech, with the il form: on dîne."}
+{"id":"fr.c0162","meaning":"I go to bed late.","note":""}
+{"id":"fr.c0163","meaning":"Where is the train station?","note":""}
+{"id":"fr.c0164","meaning":"the bakery","note":""}
+{"id":"fr.c0165","meaning":"It's straight ahead.","note":"tout droit = straight ahead; à droite = on the right."}
+{"id":"fr.c0166","meaning":"Turn left.","note":"vous form: what a stranger will tell you."}
+{"id":"fr.c0167","meaning":"Is there a pharmacy near here?","note":""}
+{"id":"fr.c0168","meaning":"Turn right.","note":"droite (right) and tout droit (straight) sound close: listen for tout."}
+{"id":"fr.c0169","meaning":"Take the second street on the right.","note":"vous form, to a stranger."}
+{"id":"fr.c0170","meaning":"Is it far?","note":"Just raise your voice at the end to make it a question."}
+{"id":"fr.c0171","meaning":"It's a five-minute walk.","note":"à pied = on foot. By car: en voiture."}
+{"id":"fr.c0172","meaning":"It's across from the museum.","note":"en face de + le contracts to du."}
+{"id":"fr.c0173","meaning":"next to the bank","note":"With a masculine noun, de + le contracts: à côté du café."}
+{"id":"fr.c0174","meaning":"the town hall","note":"In big cities also called l'hôtel de ville (m.)."}
+{"id":"fr.c0175","meaning":"the market square","note":"la place = the square. It also means a seat or a parking space."}
+{"id":"fr.c0176","meaning":"Excuse me, I'm looking for the post office.","note":"vous form, to a stranger. chercher = to look for: no word for \"for\"."}
+{"id":"fr.c0177","meaning":"I'm lost.","note":"A woman writes perdue; it sounds the same."}
+{"id":"fr.c0178","meaning":"It's on the corner of the street.","note":"à + le contracts to au: au coin."}
+{"id":"fr.c0179","meaning":"There's no bank here.","note":"After a negative, une becomes de: pas de banque."}
+{"id":"fr.c0180","meaning":"Keep going to the traffic light.","note":"jusqu'à + le contracts to jusqu'au. le feu = the traffic light (also: fire)."}
+{"id":"fr.c0181","meaning":"the ticket","note":""}
+{"id":"fr.c0182","meaning":"I'm going to Lyon by train.","note":"en + vehicle: en train, en voiture. But à pied (on foot)."}
+{"id":"fr.c0183","meaning":"the airport","note":"(m.) l' hides the gender: un aéroport."}
+{"id":"fr.c0184","meaning":"I'm going to take the subway.","note":"aller + infinitive: the near future."}
+{"id":"fr.c0185","meaning":"in the United States","note":"Plural country: aux. Feminine: en France. Masculine: au Canada."}
+{"id":"fr.c0186","meaning":"a round-trip ticket to Bordeaux","note":"One way: un aller simple."}
+{"id":"fr.c0187","meaning":"What time does the train leave?","note":"quelle agrees with heure, which is feminine."}
+{"id":"fr.c0188","meaning":"Which track does the train leave from?","note":"la voie = the track. Station signs say Voie A, Voie B."}
+{"id":"fr.c0189","meaning":"the flight","note":"Also means theft."}
+{"id":"fr.c0190","meaning":"My flight is delayed.","note":"en retard = late, for people, trains and planes."}
+{"id":"fr.c0191","meaning":"Your passport, please.","note":"What you'll hear at the border. votre for one thing, vos for several."}
+{"id":"fr.c0192","meaning":"I have two suitcases.","note":"The plural s is silent; deux tells you it's plural."}
+{"id":"fr.c0193","meaning":"in France; to France","note":"Feminine country: en. Same word for \"in\" and \"to\"."}
+{"id":"fr.c0194","meaning":"I'm renting a car.","note":"louer = to rent. A rental is une location."}
+{"id":"fr.c0195","meaning":"Where is the bus stop?","note":"(m.) un arrêt. In bus the s is sounded."}
+{"id":"fr.c0196","meaning":"I have a reservation.","note":"At a hotel desk: J'ai une réservation au nom de Megan Smith."}
+{"id":"fr.c0197","meaning":"The train is full.","note":"complet = fully booked, for trains, hotels and shows."}
+{"id":"fr.c0198","meaning":"I have a headache.","note":"avoir mal à + body part, with la, not ma."}
+{"id":"fr.c0199","meaning":"I'm sick.","note":""}
+{"id":"fr.c0200","meaning":"Help!","note":""}
+{"id":"fr.c0201","meaning":"Can you help me?","note":"pouvoir, vous form, to a stranger."}
+{"id":"fr.c0202","meaning":"the pharmacy","note":"Look for the green cross."}
+{"id":"fr.c0203","meaning":"My stomach hurts.","note":"à + le contracts to au: mal au ventre, mal au dos."}
+{"id":"fr.c0204","meaning":"I have a toothache.","note":"à + les contracts to aux. Plural in French: the teeth."}
+{"id":"fr.c0205","meaning":"Call an ambulance!","note":"vous form. In France, dial 15 for an ambulance or 112 for any emergency."}
+{"id":"fr.c0206","meaning":"I need to see a doctor.","note":"devoir + infinitive: the second verb stays in the infinitive."}
+{"id":"fr.c0207","meaning":"Can I get an appointment?","note":"un rendez-vous = an appointment; also a date."}
+{"id":"fr.c0208","meaning":"I'm allergic to antibiotics.","note":"à + les contracts to aux. allergique is the same for men and women."}
+{"id":"fr.c0209","meaning":"I have a fever.","note":"Literally I have some fever: de la, because fièvre is feminine."}
+{"id":"fr.c0210","meaning":"Where is the emergency room?","note":"les urgences is always plural, so the verb is sont."}
+{"id":"fr.c0211","meaning":"Do you have something for a cough?","note":"contre = against: what you ask at the pharmacy."}
+{"id":"fr.c0212","meaning":"I don't feel well.","note":"se sentir is reflexive; ne … pas goes around me sens."}
+{"id":"fr.c0213","meaning":"It hurts here.","note":"faire mal = to hurt. Point to the spot."}
+{"id":"fr.c0214","meaning":"I lost my passport.","note":"perdu is the past participle of perdre."}
+{"id":"fr.c0215","meaning":"I work in an office.","note":""}
+{"id":"fr.c0216","meaning":"the meeting","note":""}
+{"id":"fr.c0217","meaning":"I'm a nurse.","note":"No un or une before a job. A man says infirmier."}
+{"id":"fr.c0218","meaning":"My boss is nice.","note":"sympa is informal and the same for men and women."}
+{"id":"fr.c0219","meaning":"the university","note":"(f.) Informal: la fac. Le collège is middle school."}
+{"id":"fr.c0220","meaning":"Where do you work?","note":"Everyday question order. The verb ending matches vous: -ez."}
+{"id":"fr.c0221","meaning":"I'm out of work.","note":"le chômage = unemployment. au = à + le, a contraction."}
+{"id":"fr.c0222","meaning":"I'm studying computer science.","note":"(f.) l'informatique. The present also means \"I'm doing\"."}
+{"id":"fr.c0223","meaning":"He's a teacher.","note":"No un after il est. With an article, use c'est: C'est un professeur."}
+{"id":"fr.c0224","meaning":"I start at nine.","note":"à + a clock time = at. neuf links to heures with a v sound."}
+{"id":"fr.c0225","meaning":"I'm in a meeting.","note":"No article after en."}
+{"id":"fr.c0226","meaning":"This is my coworker, Camille.","note":"ma for a woman; for a man, mon collègue. collègue sounds the same."}
+{"id":"fr.c0227","meaning":"I finish at six p.m.","note":"The 24-hour clock is normal at work. finir: je finis, il finit."}
+{"id":"fr.c0228","meaning":"I'm looking for an internship.","note":"un stage = an internship or a training course, not a theater stage."}
+{"id":"fr.c0229","meaning":"I'm taking a day off.","note":"le congé = time off. Paid vacation: les congés payés."}
+{"id":"fr.c0230","meaning":"I have an exam on Monday.","note":"No word for \"on\" before a day."}
+{"id":"fr.c0231","meaning":"I'll be on vacation next week.","note":"je serai: the futur simple of être. vacances is always plural."}
+{"id":"fr.c0232","meaning":"I'm tired.","note":"A woman writes fatiguée; it sounds the same."}
+{"id":"fr.c0233","meaning":"I'm hungry.","note":"avoir, not être: literally I have hunger."}
+{"id":"fr.c0234","meaning":"I'm cold.","note":"Feeling cold uses avoir. Il fait froid is the weather."}
+{"id":"fr.c0235","meaning":"I'm not happy.","note":"ne … pas goes around the verb."}
+{"id":"fr.c0236","meaning":"I'm late.","note":""}
+{"id":"fr.c0237","meaning":"I'm thirsty.","note":"avoir, like j'ai faim."}
+{"id":"fr.c0238","meaning":"I'm hot.","note":"Feeling hot uses avoir. Don't say je suis chaud for this."}
+{"id":"fr.c0239","meaning":"I'm scared.","note":"avoir peur de = to be afraid of: J'ai peur des chiens."}
+{"id":"fr.c0240","meaning":"I'm happy.","note":"A man says content. The t is silent in content and sounded in contente."}
+{"id":"fr.c0241","meaning":"I'm sad.","note":"Same for men and women."}
+{"id":"fr.c0242","meaning":"She's annoyed.","note":"énervé = annoyed or worked up, not nervous. A man: énervé (same sound)."}
+{"id":"fr.c0243","meaning":"I'm not sleepy.","note":"avoir sommeil = to be sleepy. ne … pas goes around ai."}
+{"id":"fr.c0244","meaning":"You look tired.","note":"avoir l'air = to look, to seem."}
+{"id":"fr.c0245","meaning":"I'm not hungry anymore.","note":"ne … plus = not anymore."}
+{"id":"fr.c0246","meaning":"We're very happy.","note":"heureux agrees: a group of women says heureuses."}
+{"id":"fr.c0247","meaning":"I'm bored.","note":"s'ennuyer is reflexive: me before the verb."}
+{"id":"fr.c0248","meaning":"I disagree.","note":"Literally I'm not in agreement."}
+{"id":"fr.c0249","meaning":"I like movies.","note":"le is required: things in general take le, la or les."}
+{"id":"fr.c0250","meaning":"I don't like sports.","note":""}
+{"id":"fr.c0251","meaning":"On weekends, I go biking.","note":"faire du + activity."}
+{"id":"fr.c0252","meaning":"Yesterday I saw a movie.","note":"vu is the past participle of voir."}
+{"id":"fr.c0253","meaning":"I went to the museum.","note":"aller takes être; a woman adds -e: allée."}
+{"id":"fr.c0254","meaning":"I love music.","note":"Things in general take the article: la musique."}
+{"id":"fr.c0255","meaning":"I hate cooking.","note":"After aimer, adorer, détester, a verb stays in the infinitive."}
+{"id":"fr.c0256","meaning":"Do you like to read?","note":"tu form, to a friend: aimes ends in a silent s."}
+{"id":"fr.c0257","meaning":"I play soccer.","note":"jouer à + le contracts to au. American football: le football américain."}
+{"id":"fr.c0258","meaning":"I play the guitar.","note":"Instruments take jouer de: de la guitare, du piano."}
+{"id":"fr.c0259","meaning":"I go hiking.","note":"faire de la + a feminine activity, faire du + a masculine one."}
+{"id":"fr.c0260","meaning":"Do you want to go to the concert tonight?","note":"vouloir + infinitive."}
+{"id":"fr.c0261","meaning":"Last night I watched a show.","note":"regardé sounds just like regarder."}
+{"id":"fr.c0262","meaning":"We went out on Saturday.","note":"sortir takes être, so the participle agrees with nous: sortis."}
+{"id":"fr.c0263","meaning":"That's the book I read.","note":"que can't be dropped, unlike English \"that\"."}
+{"id":"fr.c0264","meaning":"It's a scary movie.","note":"qui is the subject of fait. Literally a movie that makes fear."}
+{"id":"fr.c0265","meaning":"What do you like to do?","note":"tu form, to a friend. To a stranger: Qu'est-ce que vous aimez faire?"}
+{"id":"fr.c0266","meaning":"I'd rather stay home.","note":"rester = to stay, not to rest."}
+{"id":"fr.c0267","meaning":"Why?","note":"The answer starts with parce que."}
+{"id":"fr.c0268","meaning":"because","note":"parce qu' before a vowel: parce qu'il pleut."}
+{"id":"fr.c0269","meaning":"Are you coming?","note":"est-ce que turns a sentence into a yes/no question."}
+{"id":"fr.c0270","meaning":"Where?","note":"où has an accent; ou (or) does not."}
+{"id":"fr.c0271","meaning":"but","note":"The s is silent."}
+{"id":"fr.c0272","meaning":"When?","note":"The d is silent, but it links as a t before a vowel: quand il pleut."}
+{"id":"fr.c0273","meaning":"How?","note":"Also a polite \"Sorry, what?\" when you didn't hear."}
+{"id":"fr.c0274","meaning":"How much? How many?","note":"Before a noun: combien de billets?"}
+{"id":"fr.c0275","meaning":"What is it?","note":"The everyday way to ask \"What's that?\""}
+{"id":"fr.c0276","meaning":"What's your address?","note":"quelle agrees with adresse (feminine); ton before a vowel even so."}
+{"id":"fr.c0277","meaning":"and","note":"Never a liaison after et: et un is said ay uhN."}
+{"id":"fr.c0278","meaning":"or","note":"No accent. With an accent, où means where."}
+{"id":"fr.c0279","meaning":"so; then","note":"Very common at the start of a sentence: Alors, on y va?"}
+{"id":"fr.c0280","meaning":"so; therefore","note":"A little more formal than alors."}
+{"id":"fr.c0281","meaning":"then; next","note":"For steps in order: d'abord, ensuite, enfin."}
+{"id":"fr.c0282","meaning":"also; too","note":"Me too: moi aussi."}
+{"id":"fr.c0283","meaning":"Why not?","note":"A handy yes to a suggestion."}
+{"id":"fr.c0284","meaning":"I'm twenty-five.","note":"Age uses avoir: literally I have 25 years. Never je suis 25."}
+{"id":"fr.c0285","meaning":"the bookstore","note":"Library = la bibliothèque."}
+{"id":"fr.c0286","meaning":"currently","note":"Not actually. Actually = en fait."}
+{"id":"fr.c0287","meaning":"sensitive","note":"Not sensible. Sensible = raisonnable."}
+{"id":"fr.c0288","meaning":"to wait (for)","note":"Not attend. To attend = assister à."}
+{"id":"fr.c0289","meaning":"middle school","note":"Not college. College = l'université or la fac."}
+{"id":"fr.c0290","meaning":"the day (as a whole)","note":"Not journey. A journey or trip = un voyage."}
+{"id":"fr.c0291","meaning":"injured","note":"Not blessed. Blessed = béni. A woman: blessée."}
+{"id":"fr.c0292","meaning":"to stay","note":"Not rest. To rest = se reposer."}
+{"id":"fr.c0293","meaning":"the rental","note":"Not location. A location = un endroit."}
+{"id":"fr.c0294","meaning":"to ask","note":"Not demand. To demand = exiger."}
+{"id":"fr.c0295","meaning":"I'm listening to the radio.","note":"No à: écouter already means \"listen to\"."}
+{"id":"fr.c0296","meaning":"I'm looking for my keys.","note":"No pour: chercher already means \"look for\"."}
+{"id":"fr.c0297","meaning":"I'm right.","note":"avoir, not être: never je suis raison. I'm wrong: j'ai tort."}
+{"id":"fr.c0298","meaning":"I'm calling Léa.","note":"téléphoner takes à before the person."}
+{"id":"fr.c0299","meaning":"I've been studying French for two years.","note":"Still going on, so French uses the present with depuis."}
+{"id":"fr.c0300","meaning":"the restaurant","note":"Same spelling, French sounds: nasal an, silent final t."}
+{"id":"fr.c0301","meaning":"a hotel","note":"Same spelling: the h is silent, and hôtel is masculine."}
+{"id":"fr.c0302","meaning":"Shall we go?","note":"Spoken: on = we, with the il form of the verb."}
+{"id":"fr.c0303","meaning":"I don't know.","note":"Spoken: ne is dropped. Written: Je ne sais pas."}
+{"id":"fr.c0304","meaning":"It's no big deal.","note":"Spoken: ne is dropped. Written: Ce n'est pas grave."}
+{"id":"fr.c0305","meaning":"Yeah.","note":"Spoken: informal oui. Fine with friends, not at work."}
+{"id":"fr.c0306","meaning":"Okay. / Sounds good.","note":"Spoken: literally that works. More neutral: D'accord."}
+{"id":"fr.c0307","meaning":"You're welcome. / No problem.","note":"Spoken: il and ne are dropped. Written: Il n'y a pas de quoi."}
+{"id":"fr.c0308","meaning":"Did you see that?","note":"Spoken: t'as = tu as. Written: Tu as vu?"}
+{"id":"fr.c0309","meaning":"Are you coming?","note":"Spoken: a question by rising voice only. More formal: Est-ce que tu viens?"}
+{"id":"fr.c0310","meaning":"Meh.","note":"Spoken: a shrug in one word. More neutral: Pas vraiment."}
+{"id":"fr.c0311","meaning":"That's nice. / That's kind.","note":"Spoken: short for sympathique. Same for men and women."}
+{"id":"fr.c0312","meaning":"No problem. / No worries.","note":"Spoken: you'll hear it in shops too. Written: Il n'y a pas de souci."}
+{"id":"fr.c0313","meaning":"Love! / Kisses!","note":"Spoken: to end a call or text with friends and family. In a letter: Je t'embrasse."}
+{"id":"fr.c0314","meaning":"See you! / Later!","note":"Spoken: short for à plus tard; the s is sounded. In texts: A+."}
+{"id":"fr.c0315","meaning":"I'm fed up.","note":"Spoken: informal. More neutral: J'en ai assez."}
+{"id":"fr.c0316","meaning":"I'm exhausted.","note":"Spoken: a woman says crevée (same sound). Neutral: Je suis très fatigué."}
+{"id":"fr.c0317","meaning":"What are you doing?","note":"Spoken: the question word comes last. Written: Qu'est-ce que tu fais?"}
+{"id":"fr.c0318","meaning":"time; weather","note":"Quel temps fait-il? = What's the weather like?"}
+{"id":"fr.c0319","meaning":"life","note":"C'est la vie! = That's life!"}
+{"id":"fr.c0320","meaning":"day","note":"A unit of time. The whole day as you live it: la journée."}
+{"id":"fr.c0321","meaning":"man","note":"The h is silent, so it links: un homme, l'homme."}
+{"id":"fr.c0322","meaning":"woman","note":"Also wife: ma femme. Said fahm."}
+{"id":"fr.c0323","meaning":"child","note":"For a girl: une enfant. Plural: les enfants."}
+{"id":"fr.c0324","meaning":"people","note":"Always plural: les gens sont sympas."}
+{"id":"fr.c0325","meaning":"thing","note":"quelque chose = something."}
+{"id":"fr.c0326","meaning":"world","note":"tout le monde = everybody, not the whole world."}
+{"id":"fr.c0327","meaning":"hand","note":"Feminine, though it ends in a consonant sound."}
+{"id":"fr.c0328","meaning":"time (one occasion)","note":"une fois = once; deux fois = twice."}
+{"id":"fr.c0329","meaning":"moment","note":"en ce moment = right now."}
+{"id":"fr.c0330","meaning":"head","note":"Also: faire la tête = to sulk."}
+{"id":"fr.c0331","meaning":"door","note":"Fermez la porte, s'il vous plaît."}
+{"id":"fr.c0332","meaning":"country (nation)","note":"The s is silent; same form in the plural."}
+{"id":"fr.c0333","meaning":"city; town","note":"en ville = downtown, in town."}
+{"id":"fr.c0334","meaning":"work; job","note":"Plural: les travaux (roadwork, repairs)."}
+{"id":"fr.c0335","meaning":"family","note":"Singular in French: ma famille est grande."}
+{"id":"fr.c0336","meaning":"name; last name","note":"Your first name is le prénom."}
+{"id":"fr.c0337","meaning":"first name","note":"Quel est ton prénom?"}
+{"id":"fr.c0338","meaning":"word","note":"un petit mot = a short note."}
+{"id":"fr.c0339","meaning":"question","note":"poser une question = to ask a question."}
+{"id":"fr.c0340","meaning":"answer","note":"la bonne réponse = the right answer."}
+{"id":"fr.c0341","meaning":"problem","note":"Masculine despite the -e: Pas de problème!"}
+{"id":"fr.c0342","meaning":"idea","note":"Feminine: une bonne idée."}
+{"id":"fr.c0343","meaning":"hour","note":"Also o'clock: il est trois heures."}
+{"id":"fr.c0344","meaning":"minute","note":"Une minute, s'il vous plaît!"}
+{"id":"fr.c0345","meaning":"week","note":"cette semaine = this week."}
+{"id":"fr.c0346","meaning":"month","note":"The s is silent: le mois de mai."}
+{"id":"fr.c0347","meaning":"year (when counting)","note":"With numbers: j'ai vingt ans, il y a deux ans."}
+{"id":"fr.c0348","meaning":"year (as a stretch of time)","note":"Bonne année! = Happy New Year!"}
+{"id":"fr.c0349","meaning":"money","note":"(m.) Also silver. de l'argent = some money."}
+{"id":"fr.c0350","meaning":"book","note":"Feminine une livre = a pound."}
+{"id":"fr.c0351","meaning":"car","note":"en voiture = by car."}
+{"id":"fr.c0352","meaning":"train","note":"en train = by train."}
+{"id":"fr.c0353","meaning":"road","note":"Bonne route! = Drive safely!"}
+{"id":"fr.c0354","meaning":"way; path","note":"Je cherche mon chemin = I'm trying to find my way."}
+{"id":"fr.c0355","meaning":"school","note":"Elementary school. Middle school is le collège."}
+{"id":"fr.c0356","meaning":"class; classroom","note":"en classe = in class."}
+{"id":"fr.c0357","meaning":"story; history","note":"Raconte-moi une histoire."}
+{"id":"fr.c0358","meaning":"phone","note":"Answering: Allô?"}
+{"id":"fr.c0359","meaning":"cellphone","note":"Also a laptop: un ordinateur portable."}
+{"id":"fr.c0360","meaning":"computer","note":"Spoken: un ordi."}
+{"id":"fr.c0361","meaning":"photo","note":"prendre une photo = to take a picture."}
+{"id":"fr.c0362","meaning":"movie","note":"un film d'horreur, un film d'action."}
+{"id":"fr.c0363","meaning":"music","note":"écouter de la musique."}
+{"id":"fr.c0364","meaning":"bread","note":"du pain = some bread."}
+{"id":"fr.c0365","meaning":"meat","note":"Je ne mange pas de viande."}
+{"id":"fr.c0366","meaning":"meal","note":"The s is silent."}
+{"id":"fr.c0367","meaning":"lunch","note":"In Québec: le dîner."}
+{"id":"fr.c0368","meaning":"dinner","note":"In Québec: le souper."}
+{"id":"fr.c0369","meaning":"store; shop","note":"un grand magasin = a department store."}
+{"id":"fr.c0370","meaning":"table","note":"À table! = Dinner's ready!"}
+{"id":"fr.c0371","meaning":"chair","note":"Not a sofa: that's le canapé."}
+{"id":"fr.c0372","meaning":"paper","note":"vos papiers = your ID documents."}
+{"id":"fr.c0373","meaning":"party; holiday","note":"faire la fête = to party."}
+{"id":"fr.c0374","meaning":"gift; present","note":"Plural with -x: les cadeaux."}
+{"id":"fr.c0375","meaning":"vacation","note":"Always plural: en vacances."}
+{"id":"fr.c0376","meaning":"trip; journey","note":"Bon voyage!"}
+{"id":"fr.c0377","meaning":"health","note":"Santé! = Cheers! (raising a glass)."}
+{"id":"fr.c0378","meaning":"color","note":"De quelle couleur?"}
+{"id":"fr.c0379","meaning":"price; prize","note":"The x is silent."}
+{"id":"fr.c0380","meaning":"body","note":"The p and s are silent."}
+{"id":"fr.c0381","meaning":"foot","note":"à pied = on foot."}
+{"id":"fr.c0382","meaning":"arm","note":"The s is silent."}
+{"id":"fr.c0383","meaning":"back (of the body)","note":"J'ai mal au dos = My back hurts."}
+{"id":"fr.c0384","meaning":"heart","note":"par cœur = by heart."}
+{"id":"fr.c0385","meaning":"doctor","note":"Spoken: le docteur. A woman: elle est médecin."}
+{"id":"fr.c0386","meaning":"hospital","note":"The h is silent, so it links: un hôpital."}
+{"id":"fr.c0387","meaning":"police","note":"Singular in French: la police arrive."}
+{"id":"fr.c0388","meaning":"sun","note":"au soleil = in the sun."}
+{"id":"fr.c0389","meaning":"sky","note":"Plural, in poems: les cieux."}
+{"id":"fr.c0390","meaning":"earth; ground","note":"par terre = on the floor."}
+{"id":"fr.c0391","meaning":"beach","note":"à la plage = at the beach."}
+{"id":"fr.c0392","meaning":"countryside","note":"à la campagne = in the country."}
+{"id":"fr.c0393","meaning":"mountain; the mountains","note":"à la montagne = in the mountains."}
+{"id":"fr.c0394","meaning":"neighborhood","note":"un quartier tranquille."}
+{"id":"fr.c0395","meaning":"place; spot","note":"un bel endroit = a lovely spot."}
+{"id":"fr.c0396","meaning":"side","note":"à côté = nearby, next door."}
+{"id":"fr.c0397","meaning":"end","note":"à la fin = at the end."}
+{"id":"fr.c0398","meaning":"beginning","note":"au début = at first."}
+{"id":"fr.c0399","meaning":"end (tip); bit","note":"au bout de la rue = at the end of the street."}
+{"id":"fr.c0400","meaning":"bottom; back (far end)","note":"au fond = at the back; deep down."}
+{"id":"fr.c0401","meaning":"way (manner)","note":"de toute façon = anyway."}
+{"id":"fr.c0402","meaning":"case","note":"en tout cas = in any case."}
+{"id":"fr.c0403","meaning":"kind; type","note":"Spoken: c'est pas mon genre = it's not my thing."}
+{"id":"fr.c0404","meaning":"part; game (match)","note":"une partie de cartes = a game of cards."}
+{"id":"fr.c0405","meaning":"group; band","note":"un groupe de rock."}
+{"id":"fr.c0406","meaning":"dog","note":"Feminine: la chienne."}
+{"id":"fr.c0407","meaning":"language; tongue","note":"ma langue maternelle = my native language."}
+{"id":"fr.c0408","meaning":"job; trade","note":"Quel est ton métier?"}
+{"id":"fr.c0409","meaning":"evening; party","note":"Bonne soirée! = Have a nice evening!"}
+{"id":"fr.c0410","meaning":"birthday; anniversary","note":"Bon anniversaire!"}
+{"id":"fr.c0411","meaning":"class (lesson); course","note":"The s is there even in the singular, and silent."}
+{"id":"fr.c0412","meaning":"bike","note":"à vélo or en vélo = by bike."}
+{"id":"fr.c0413","meaning":"bus","note":"The s is sounded."}
+{"id":"fr.c0414","meaning":"train station","note":"For buses: la gare routière."}
+{"id":"fr.c0415","meaning":"bank","note":"Also: la banque alimentaire = food bank."}
+{"id":"fr.c0416","meaning":"office; desk","note":"Plural with -x: les bureaux."}
+{"id":"fr.c0417","meaning":"park","note":"The c is sounded."}
+{"id":"fr.c0418","meaning":"garden; yard","note":"un jardin public = a public park."}
+{"id":"fr.c0419","meaning":"room; hall","note":"la salle de classe, la salle d'attente."}
+{"id":"fr.c0420","meaning":"box; club (spoken)","note":"une boîte de nuit = a nightclub."}
+{"id":"fr.c0421","meaning":"piece of clothing","note":"Usually plural: les vêtements = clothes."}
+{"id":"fr.c0422","meaning":"death","note":"Feminine. Dead (adjective): mort, morte."}
+{"id":"fr.c0423","meaning":"love","note":"(m.) faire l'amour is to make love: careful with it."}
+{"id":"fr.c0424","meaning":"war","note":"gu sounds like a hard g."}
+{"id":"fr.c0425","meaning":"fear","note":"avoir peur = to be scared."}
+{"id":"fr.c0426","meaning":"reason","note":"avoir raison = to be right."}
+{"id":"fr.c0427","meaning":"need","note":"avoir besoin de = to need."}
+{"id":"fr.c0428","meaning":"air; look (appearance)","note":"(m.) avoir l'air = to look, to seem."}
+{"id":"fr.c0429","meaning":"fire; traffic light","note":"Plural with -x: les feux."}
+{"id":"fr.c0430","meaning":"boy","note":"Don't call a waiter garçon: say Monsieur."}
+{"id":"fr.c0431","meaning":"teacher (informal)","note":"Spoken short for le professeur; same for a woman: la prof."}
+{"id":"fr.c0432","meaning":"friend; boyfriend","note":"Feminine: la copine. mon copain often means my boyfriend."}
+{"id":"fr.c0433","meaning":"gentleman; man","note":"Polite for \"the man\": le monsieur au chapeau."}
+{"id":"fr.c0434","meaning":"lady","note":"Polite for \"the woman\": la dame à la caisse."}
+{"id":"fr.c0435","meaning":"song","note":"une chanson française."}
+{"id":"fr.c0436","meaning":"game","note":"Plural with -x: les jeux vidéo."}
+{"id":"fr.c0437","meaning":"food","note":"Food in general. A dish: un plat."}
+{"id":"fr.c0438","meaning":"glass","note":"prendre un verre = to have a drink."}
+{"id":"fr.c0439","meaning":"bottle","note":"une bouteille d'eau."}
+{"id":"fr.c0440","meaning":"milk","note":"The t is silent."}
+{"id":"fr.c0441","meaning":"tea","note":"th sounds like t."}
+{"id":"fr.c0442","meaning":"noise","note":"Il y a trop de bruit."}
+{"id":"fr.c0443","meaning":"light","note":"Allume la lumière = Turn on the light."}
+{"id":"fr.c0444","meaning":"number (phone, room)","note":"ton numéro de téléphone. For counting: le nombre."}
+{"id":"fr.c0445","meaning":"to be","note":"je suis. Irregular: tu es, il est, nous sommes."}
+{"id":"fr.c0446","meaning":"to have","note":"j'ai. Irregular; also for age: j'ai vingt ans."}
+{"id":"fr.c0447","meaning":"to go","note":"je vais. Irregular: ils vont. Passé composé with être."}
+{"id":"fr.c0448","meaning":"to do; to make","note":"je fais. Irregular: vous faites, ils font."}
+{"id":"fr.c0449","meaning":"to say; to tell","note":"je dis. Irregular: vous dites."}
+{"id":"fr.c0450","meaning":"can; to be able to","note":"je peux. Irregular. Je peux…? = Can I…?"}
+{"id":"fr.c0451","meaning":"to want","note":"je veux. Irregular. Polite: je voudrais."}
+{"id":"fr.c0452","meaning":"to know (a fact; how to)","note":"je sais. Irregular. Je sais nager = I can swim."}
+{"id":"fr.c0453","meaning":"to see","note":"je vois. Irregular. Past participle: vu."}
+{"id":"fr.c0454","meaning":"must; to have to; to owe","note":"je dois. Irregular."}
+{"id":"fr.c0455","meaning":"to come","note":"je viens. Irregular. Passé composé with être."}
+{"id":"fr.c0456","meaning":"to speak; to talk","note":"je parle. Regular -er verb."}
+{"id":"fr.c0457","meaning":"to take; to have (food, drink)","note":"je prends. Irregular: nous prenons, ils prennent."}
+{"id":"fr.c0458","meaning":"to believe","note":"je crois. Irregular. Je crois que oui = I think so."}
+{"id":"fr.c0459","meaning":"to find","note":"je trouve. Also \"to think\": Je trouve ça beau."}
+{"id":"fr.c0460","meaning":"to give","note":"je donne. Regular -er verb."}
+{"id":"fr.c0461","meaning":"to be necessary (il faut)","note":"Only il faut: Il faut partir. Irregular."}
+{"id":"fr.c0462","meaning":"to put; to put on","note":"je mets. Irregular. Past participle: mis."}
+{"id":"fr.c0463","meaning":"to pass; to spend (time); to stop by","note":"je passe. passer une semaine à Nice."}
+{"id":"fr.c0464","meaning":"to look at; to watch","note":"je regarde. No word for \"at\"."}
+{"id":"fr.c0465","meaning":"to like; to love","note":"j'aime. With a person: aimer = love, aimer bien = like."}
+{"id":"fr.c0466","meaning":"to answer","note":"je réponds. répondre à quelqu'un."}
+{"id":"fr.c0467","meaning":"to hear","note":"j'entends. Regular -re verb."}
+{"id":"fr.c0468","meaning":"to think","note":"je pense. penser à = to think about."}
+{"id":"fr.c0469","meaning":"to arrive; to happen","note":"j'arrive. Passé composé with être."}
+{"id":"fr.c0470","meaning":"to know (a person, a place)","note":"je connais. Irregular."}
+{"id":"fr.c0471","meaning":"to become","note":"je deviens. Like venir; passé composé with être."}
+{"id":"fr.c0472","meaning":"to smell; to feel","note":"je sens. Irregular. Feeling well or ill: se sentir."}
+{"id":"fr.c0473","meaning":"to seem","note":"il semble. Mostly in the il form: il semble que…"}
+{"id":"fr.c0474","meaning":"to hold","note":"je tiens. Like venir. Tiens! = Here you go!"}
+{"id":"fr.c0475","meaning":"to understand","note":"je comprends. Like prendre."}
+{"id":"fr.c0476","meaning":"to give back","note":"je rends. Regular -re verb."}
+{"id":"fr.c0477","meaning":"to go out; to leave","note":"je sors. Irregular. Passé composé with être."}
+{"id":"fr.c0478","meaning":"to live (be alive; live a life)","note":"je vis. Irregular. Live somewhere: habiter."}
+{"id":"fr.c0479","meaning":"to come in; to go in","note":"j'entre. Passé composé with être. Entrez! = Come in!"}
+{"id":"fr.c0480","meaning":"to carry; to wear","note":"je porte. Regular -er verb."}
+{"id":"fr.c0481","meaning":"to look for","note":"je cherche. No word for \"for\"."}
+{"id":"fr.c0482","meaning":"to come back","note":"je reviens. Like venir."}
+{"id":"fr.c0483","meaning":"to call","note":"j'appelle. Double l in the je, tu, il and ils forms."}
+{"id":"fr.c0484","meaning":"to die","note":"je meurs. Irregular. Passé composé with être: il est mort."}
+{"id":"fr.c0485","meaning":"to leave","note":"je pars. Irregular. Passé composé with être."}
+{"id":"fr.c0486","meaning":"to throw; to throw away","note":"je jette. Double t in the je form."}
+{"id":"fr.c0487","meaning":"to follow; to take (a course)","note":"je suis: the same form as être. Irregular."}
+{"id":"fr.c0488","meaning":"to write","note":"j'écris. Irregular: nous écrivons."}
+{"id":"fr.c0489","meaning":"to show","note":"je montre. Regular -er verb."}
+{"id":"fr.c0490","meaning":"to fall","note":"je tombe. With être. tomber amoureux = to fall in love."}
+{"id":"fr.c0491","meaning":"to open","note":"j'ouvre. Irregular: -er endings."}
+{"id":"fr.c0492","meaning":"to stop","note":"j'arrête. Arrête! = Stop it!"}
+{"id":"fr.c0493","meaning":"to lose","note":"je perds. Regular -re verb."}
+{"id":"fr.c0494","meaning":"to start; to begin","note":"je commence. ç before a: nous commençons."}
+{"id":"fr.c0495","meaning":"to walk; to work (a machine)","note":"je marche. Ça marche = OK, that works."}
+{"id":"fr.c0496","meaning":"to get up","note":"je me lève. Reflexive; è in the je form."}
+{"id":"fr.c0497","meaning":"to allow","note":"je permets. Like mettre."}
+{"id":"fr.c0498","meaning":"to sit down","note":"je m'assieds. Irregular. Asseyez-vous! = Have a seat!"}
+{"id":"fr.c0499","meaning":"to listen (to)","note":"j'écoute. No word for \"to\"."}
+{"id":"fr.c0500","meaning":"to go up; to get in (a car)","note":"je monte. Passé composé with être."}
+{"id":"fr.c0501","meaning":"to receive; to get","note":"je reçois. Irregular."}
+{"id":"fr.c0502","meaning":"to serve","note":"je sers. Irregular. Ça sert à quoi? = What's it for?"}
+{"id":"fr.c0503","meaning":"to finish","note":"je finis. Regular -ir verb: nous finissons."}
+{"id":"fr.c0504","meaning":"to laugh","note":"je ris. Irregular. Past participle: ri."}
+{"id":"fr.c0505","meaning":"to play","note":"je joue. jouer à (a game), jouer de (an instrument)."}
+{"id":"fr.c0506","meaning":"to turn","note":"je tourne. Tournez à gauche = Turn left."}
+{"id":"fr.c0507","meaning":"to keep; to look after","note":"je garde. garder des enfants = to babysit."}
+{"id":"fr.c0508","meaning":"to recognize","note":"je reconnais. Like connaître."}
+{"id":"fr.c0509","meaning":"to leave (a place, a person)","note":"je quitte. Needs an object: Je quitte Paris."}
+{"id":"fr.c0510","meaning":"to eat","note":"je mange. Keeps the e: nous mangeons."}
+{"id":"fr.c0511","meaning":"to run","note":"je cours. Irregular."}
+{"id":"fr.c0512","meaning":"to continue; to keep going","note":"je continue. Regular -er verb."}
+{"id":"fr.c0513","meaning":"to forget","note":"j'oublie. Regular -er verb."}
+{"id":"fr.c0514","meaning":"to go down; to get off","note":"je descends. Passé composé with être."}
+{"id":"fr.c0515","meaning":"to put down; to ask (a question)","note":"je pose. poser une question."}
+{"id":"fr.c0516","meaning":"to introduce; to present","note":"je présente. Je te présente Léa = This is Léa."}
+{"id":"fr.c0517","meaning":"to add","note":"j'ajoute. Regular -er verb."}
+{"id":"fr.c0518","meaning":"to find again; to meet up with","note":"je retrouve. On se retrouve à huit heures?"}
+{"id":"fr.c0519","meaning":"to give (as a gift); to offer","note":"j'offre. Irregular: -er endings."}
+{"id":"fr.c0520","meaning":"to learn; to teach","note":"j'apprends. Like prendre."}
+{"id":"fr.c0521","meaning":"to go back; to turn over","note":"je retourne. Going back: with être."}
+{"id":"fr.c0522","meaning":"to meet","note":"je rencontre. For the first time or by chance."}
+{"id":"fr.c0523","meaning":"to send","note":"j'envoie. Futur: j'enverrai."}
+{"id":"fr.c0524","meaning":"to sleep","note":"je dors. Irregular."}
+{"id":"fr.c0525","meaning":"to call back; to remind","note":"je rappelle. Like appeler."}
+{"id":"fr.c0526","meaning":"to read","note":"je lis. Irregular. Past participle: lu."}
+{"id":"fr.c0527","meaning":"to change","note":"je change. Keeps the e: nous changeons."}
+{"id":"fr.c0528","meaning":"to try; to try on","note":"j'essaie. y becomes i before a silent e."}
+{"id":"fr.c0529","meaning":"to count; to matter","note":"je compte. The p is silent."}
+{"id":"fr.c0530","meaning":"to explain","note":"j'explique. Regular -er verb."}
+{"id":"fr.c0531","meaning":"to work","note":"je travaille. Regular -er verb."}
+{"id":"fr.c0532","meaning":"to go home; to come back in","note":"je rentre. Passé composé with être."}
+{"id":"fr.c0533","meaning":"to cry","note":"je pleure. Regular -er verb."}
+{"id":"fr.c0534","meaning":"to repeat","note":"je répète. é becomes è in the je form."}
+{"id":"fr.c0535","meaning":"to pay; to pay for","note":"je paie. No word for \"for\"."}
+{"id":"fr.c0536","meaning":"to bring","note":"j'apporte. For a person: amener."}
+{"id":"fr.c0537","meaning":"to drink","note":"je bois. Irregular: nous buvons."}
+{"id":"fr.c0538","meaning":"to go to bed","note":"je me couche. Reflexive."}
+{"id":"fr.c0539","meaning":"to tell (a story)","note":"je raconte. Regular -er verb."}
+{"id":"fr.c0540","meaning":"to miss; to be lacking","note":"Tu me manques = I miss you: the word order flips."}
+{"id":"fr.c0541","meaning":"to drive","note":"je conduis. Irregular."}
+{"id":"fr.c0542","meaning":"to touch","note":"je touche. Regular -er verb."}
+{"id":"fr.c0543","meaning":"to close","note":"je ferme. Regular -er verb."}
+{"id":"fr.c0544","meaning":"to accept","note":"j'accepte. Regular -er verb."}
+{"id":"fr.c0545","meaning":"to remember","note":"je me souviens. Like venir: se souvenir de."}
+{"id":"fr.c0546","meaning":"to win; to earn","note":"je gagne. gagner sa vie = to earn a living."}
+{"id":"fr.c0547","meaning":"to please","note":"Ça me plaît = I like it. Irregular."}
+{"id":"fr.c0548","meaning":"to kiss; to hug","note":"j'embrasse. Letters to friends end Je t'embrasse."}
+{"id":"fr.c0549","meaning":"to decide","note":"je décide. décider de + infinitive."}
+{"id":"fr.c0550","meaning":"to hope","note":"j'espère. é becomes è in the je form."}
+{"id":"fr.c0551","meaning":"to sing","note":"je chante. Regular -er verb."}
+{"id":"fr.c0552","meaning":"to help","note":"j'aide. Aidez-moi! = Help me!"}
+{"id":"fr.c0553","meaning":"to live (somewhere)","note":"j'habite. The h is silent, so je becomes j'."}
+{"id":"fr.c0554","meaning":"to buy","note":"j'achète. e becomes è in the je form."}
+{"id":"fr.c0555","meaning":"to sell","note":"je vends. Regular -re verb."}
+{"id":"fr.c0556","meaning":"to prefer","note":"je préfère. é becomes è in the je form."}
+{"id":"fr.c0557","meaning":"to love (things, activities)","note":"j'adore. Stronger than aimer for things."}
+{"id":"fr.c0558","meaning":"to hate","note":"je déteste. Regular -er verb."}
+{"id":"fr.c0559","meaning":"to choose","note":"je choisis. Regular -ir verb."}
+{"id":"fr.c0560","meaning":"to use","note":"j'utilise. Regular -er verb."}
+{"id":"fr.c0561","meaning":"to visit (a place)","note":"je visite. A person: rendre visite à."}
+{"id":"fr.c0562","meaning":"to study","note":"j'étudie. Regular -er verb."}
+{"id":"fr.c0563","meaning":"to travel","note":"je voyage. Keeps the e: nous voyageons."}
+{"id":"fr.c0564","meaning":"to leave (behind); to let","note":"je laisse. Laisse-moi = Leave me alone."}
+{"id":"fr.c0565","meaning":"to be called","note":"je m'appelle. Reflexive; double l."}
+{"id":"fr.c0566","meaning":"to rest","note":"je me repose. Not rester (to stay)."}
+{"id":"fr.c0567","meaning":"to cook","note":"je cuisine. Also: faire la cuisine."}
+{"id":"fr.c0568","meaning":"to swim","note":"je nage. Keeps the e: nous nageons."}
+{"id":"fr.c0569","meaning":"to dance","note":"je danse. Regular -er verb."}
+{"id":"fr.c0570","meaning":"to succeed; to pass (an exam)","note":"je réussis. Regular -ir verb."}
+{"id":"fr.c0571","meaning":"big; tall","note":"Before the noun. Feminine: grande (the d is sounded)."}
+{"id":"fr.c0572","meaning":"small; little","note":"Before the noun. Feminine: petite (the t is sounded)."}
+{"id":"fr.c0573","meaning":"good","note":"Before the noun. Feminine: bonne (sounds different: bohn)."}
+{"id":"fr.c0574","meaning":"new","note":"Before the noun. Feminine: nouvelle; before a vowel: nouvel."}
+{"id":"fr.c0575","meaning":"old","note":"Before the noun. Feminine: vieille; before a vowel: vieil."}
+{"id":"fr.c0576","meaning":"young","note":"Before the noun. Same for men and women."}
+{"id":"fr.c0577","meaning":"alone; only","note":"Feminine: seule (same sound). un seul = just one."}
+{"id":"fr.c0578","meaning":"last","note":"Feminine: dernière (sounds different). la semaine dernière."}
+{"id":"fr.c0579","meaning":"long","note":"Before the noun. Feminine: longue (the g is sounded)."}
+{"id":"fr.c0580","meaning":"high; tall","note":"Feminine: haute (the t is sounded). The h is aspirated: no liaison."}
+{"id":"fr.c0581","meaning":"big; fat","note":"Feminine: grosse (the s is sounded). Careful: about people it's rude."}
+{"id":"fr.c0582","meaning":"bad","note":"Before the noun. Feminine: mauvaise (the s is sounded, like z)."}
+{"id":"fr.c0583","meaning":"true; real","note":"Feminine: vraie (same sound). C'est vrai? = Really?"}
+{"id":"fr.c0584","meaning":"false; wrong","note":"Feminine: fausse (sounds different). un faux numéro."}
+{"id":"fr.c0585","meaning":"full","note":"Feminine: pleine (sounds different). plein de = lots of."}
+{"id":"fr.c0586","meaning":"empty","note":"Same for men and women."}
+{"id":"fr.c0587","meaning":"strong; loud","note":"Feminine: forte (the t is sounded). Also: good at: fort en maths."}
+{"id":"fr.c0588","meaning":"white","note":"Feminine: blanche (sounds different)."}
+{"id":"fr.c0589","meaning":"black","note":"Feminine: noire (same sound)."}
+{"id":"fr.c0590","meaning":"red","note":"Same for men and women."}
+{"id":"fr.c0591","meaning":"blue","note":"Feminine: bleue (same sound)."}
+{"id":"fr.c0592","meaning":"green","note":"Feminine: verte (the t is sounded)."}
+{"id":"fr.c0593","meaning":"yellow","note":"Same for men and women."}
+{"id":"fr.c0594","meaning":"gray","note":"Feminine: grise (the s is sounded, like z)."}
+{"id":"fr.c0595","meaning":"pink","note":"Same for men and women. Also la rose = the rose."}
+{"id":"fr.c0596","meaning":"brown","note":"Never changes: des chaussures marron. For hair: brun."}
+{"id":"fr.c0597","meaning":"hot; warm","note":"Feminine: chaude (the d is sounded). Feeling hot: j'ai chaud."}
+{"id":"fr.c0598","meaning":"cold","note":"Feminine: froide (the d is sounded). Feeling cold: j'ai froid."}
+{"id":"fr.c0599","meaning":"clean; own","note":"Same for men and women. After the noun: clean; before: own."}
+{"id":"fr.c0600","meaning":"dirty","note":"Same for men and women. Not \"for sale\"."}
+{"id":"fr.c0601","meaning":"expensive; dear","note":"Feminine: chère (same sound). C'est trop cher."}
+{"id":"fr.c0602","meaning":"free (not busy); vacant","note":"Same for men and women. Free of charge: gratuit."}
+{"id":"fr.c0603","meaning":"ready","note":"Feminine: prête (the t is sounded). Tu es prêt?"}
+{"id":"fr.c0604","meaning":"sure; safe","note":"Feminine: sûre (same sound). Bien sûr = of course."}
+{"id":"fr.c0605","meaning":"possible","note":"Same for men and women. Opposite: impossible."}
+{"id":"fr.c0606","meaning":"easy","note":"Same for men and women."}
+{"id":"fr.c0607","meaning":"difficult; hard","note":"Same for men and women."}
+{"id":"fr.c0608","meaning":"important","note":"Feminine: importante (the t is sounded)."}
+{"id":"fr.c0609","meaning":"simple; plain","note":"Same for men and women."}
+{"id":"fr.c0610","meaning":"happy","note":"Feminine: heureuse (sounds different)."}
+{"id":"fr.c0611","meaning":"sad","note":"Same for men and women."}
+{"id":"fr.c0612","meaning":"sick; ill","note":"Same for men and women."}
+{"id":"fr.c0613","meaning":"tired","note":"Feminine: fatiguée (same sound)."}
+{"id":"fr.c0614","meaning":"rich","note":"Same for men and women."}
+{"id":"fr.c0615","meaning":"poor","note":"Same for men and women. Before the noun: pitiful (pauvre chat!)."}
+{"id":"fr.c0616","meaning":"heavy","note":"Feminine: lourde (the d is sounded)."}
+{"id":"fr.c0617","meaning":"light (not heavy)","note":"Feminine: légère (sounds different)."}
+{"id":"fr.c0618","meaning":"fast; quick","note":"Same for men and women."}
+{"id":"fr.c0619","meaning":"slow","note":"Feminine: lente (the t is sounded)."}
+{"id":"fr.c0620","meaning":"calm; quiet","note":"Same for men and women."}
+{"id":"fr.c0621","meaning":"quiet; peaceful","note":"Same for men and women. Spoken: Tranquille! = No worries."}
+{"id":"fr.c0622","meaning":"different","note":"Feminine: différente (the t is sounded)."}
+{"id":"fr.c0623","meaning":"the same; alike","note":"Feminine: pareille (same sound). C'est pareil = It's the same."}
+{"id":"fr.c0624","meaning":"next","note":"Feminine: prochaine (sounds different). la semaine prochaine."}
+{"id":"fr.c0625","meaning":"old; former","note":"Feminine: ancienne. Before the noun: former (mon ancien patron)."}
+{"id":"fr.c0626","meaning":"kind; nice","note":"Feminine: gentille (sounds different: the ll is said y)."}
+{"id":"fr.c0627","meaning":"mean; nasty","note":"Feminine: méchante. Chien méchant = Beware of the dog."}
+{"id":"fr.c0628","meaning":"polite","note":"Feminine: polie (same sound)."}
+{"id":"fr.c0629","meaning":"serious","note":"Feminine: sérieuse (sounds different)."}
+{"id":"fr.c0630","meaning":"interesting","note":"Feminine: intéressante (the t is sounded)."}
+{"id":"fr.c0631","meaning":"strange; weird","note":"Same for men and women."}
+{"id":"fr.c0632","meaning":"normal","note":"Feminine: normale (same sound). Plural: normaux."}
+{"id":"fr.c0633","meaning":"useless; rubbish (spoken)","note":"Feminine: nulle (same sound). Spoken: C'est nul!"}
+{"id":"fr.c0634","meaning":"busy; taken","note":"Feminine: occupée (same sound). La place est occupée?"}
+{"id":"fr.c0635","meaning":"open","note":"Feminine: ouverte (the t is sounded)."}
+{"id":"fr.c0636","meaning":"closed","note":"Feminine: fermée (same sound)."}
+{"id":"fr.c0637","meaning":"delicious","note":"Feminine: délicieuse (sounds different)."}
+{"id":"fr.c0638","meaning":"better; best","note":"Feminine: meilleure (same sound). Never plus bon."}
+{"id":"fr.c0639","meaning":"worse; worst","note":"Same for men and women."}
+{"id":"fr.c0640","meaning":"whole; entire","note":"Feminine: entière (sounds different). le monde entier."}
+{"id":"fr.c0641","meaning":"short (not long)","note":"Feminine: courte (the t is sounded). For people: petit."}
+{"id":"fr.c0642","meaning":"worried","note":"Feminine: inquiète (the t is sounded)."}
+{"id":"fr.c0643","meaning":"in love","note":"Feminine: amoureuse. amoureux de = in love with."}
+{"id":"fr.c0644","meaning":"famous","note":"Same for men and women."}
+{"id":"fr.c0645","meaning":"foreign","note":"Feminine: étrangère. un étranger = a foreigner."}
+{"id":"fr.c0646","meaning":"not (first half of ne … pas)","note":"Goes before the verb: je ne sais pas. Spoken French often drops it."}
+{"id":"fr.c0647","meaning":"not","note":"ne … pas around the verb. Alone: pas moi = not me."}
+{"id":"fr.c0648","meaning":"more; no more (ne … plus)","note":"Je n'ai plus faim = I'm not hungry anymore."}
+{"id":"fr.c0649","meaning":"very","note":"Before an adjective or adverb: très bien. Never très beaucoup."}
+{"id":"fr.c0650","meaning":"well; really","note":"Ça va bien. Also: c'est bien = that's good."}
+{"id":"fr.c0651","meaning":"again; still; more","note":"encore une fois = once more; encore du pain?"}
+{"id":"fr.c0652","meaning":"already; ever","note":"Tu es déjà allé à Paris? = Have you ever been to Paris?"}
+{"id":"fr.c0653","meaning":"here","note":"près d'ici = near here."}
+{"id":"fr.c0654","meaning":"there; here (spoken)","note":"Je suis là = I'm here. Not la (the)."}
+{"id":"fr.c0655","meaning":"always; still","note":"Il pleut toujours = It's still raining."}
+{"id":"fr.c0656","meaning":"never; ever","note":"ne … jamais = never: je ne bois jamais de café."}
+{"id":"fr.c0657","meaning":"maybe; perhaps","note":"Two words joined by a hyphen. Without it, peut être = can be."}
+{"id":"fr.c0658","meaning":"now","note":"Et maintenant? = What now?"}
+{"id":"fr.c0659","meaning":"today","note":"One word with an apostrophe inside."}
+{"id":"fr.c0660","meaning":"yesterday","note":"hier soir = last night."}
+{"id":"fr.c0661","meaning":"a lot; much; many","note":"beaucoup de = a lot of: beaucoup de gens."}
+{"id":"fr.c0662","meaning":"too; too much","note":"trop cher = too expensive; trop de bruit = too much noise."}
+{"id":"fr.c0663","meaning":"enough; fairly","note":"assez de temps = enough time; assez bien = pretty good."}
+{"id":"fr.c0664","meaning":"little; not much","note":"un peu = a little; peu de = few."}
+{"id":"fr.c0665","meaning":"really; truly","note":"Je suis vraiment désolé."}
+{"id":"fr.c0666","meaning":"only","note":"Also: ne … que: je n'ai que dix euros."}
+{"id":"fr.c0667","meaning":"often","note":"The t is silent."}
+{"id":"fr.c0668","meaning":"sometimes","note":"Also, everyday: de temps en temps."}
+{"id":"fr.c0669","meaning":"late","note":"Late for an appointment: en retard."}
+{"id":"fr.c0670","meaning":"early","note":"trop tôt = too early."}
+{"id":"fr.c0671","meaning":"quickly; fast","note":"Vite! = Quick!"}
+{"id":"fr.c0672","meaning":"badly","note":"J'ai mal = it hurts. Opposite of bien."}
+{"id":"fr.c0673","meaning":"together","note":"Also a noun: un ensemble = an outfit."}
+{"id":"fr.c0674","meaning":"first; at first","note":"For steps: d'abord, ensuite, enfin."}
+{"id":"fr.c0675","meaning":"finally; at last","note":"Also a sigh: Enfin! = At last!"}
+{"id":"fr.c0676","meaning":"above all; especially","note":"Surtout pas! = Definitely not!"}
+{"id":"fr.c0677","meaning":"almost; nearly","note":"presque fini = almost done."}
+{"id":"fr.c0678","meaning":"over there","note":"With a hyphen. Là-bas, à gauche."}
+{"id":"fr.c0679","meaning":"outside","note":"On mange dehors? = Shall we eat outside?"}
+{"id":"fr.c0680","meaning":"a long time; for long","note":"depuis longtemps = for a long time."}
+{"id":"fr.c0681","meaning":"soon","note":"À bientôt! = See you soon!"}
+{"id":"fr.c0682","meaning":"everywhere","note":"Il y a du monde partout."}
+{"id":"fr.c0683","meaning":"so; so much","note":"C'est tellement beau! Spoken: trop does the same job."}
+{"id":"fr.c0684","meaning":"rather; quite","note":"plutôt bien = quite well. Not plus tôt (earlier)."}
+{"id":"fr.c0685","meaning":"yet; and yet","note":"C'est pourtant simple! = But it's so simple!"}
+{"id":"fr.c0686","meaning":"thus; this way","note":"A little formal. Everyday: comme ça."}
+{"id":"fr.c0687","meaning":"elsewhere","note":"d'ailleurs = besides, by the way."}
+{"id":"fr.c0688","meaning":"about; around (a number)","note":"environ dix minutes."}
+{"id":"fr.c0689","meaning":"less","note":"moins cher = cheaper. Opposite of plus."}
+{"id":"fr.c0690","meaning":"anyway; all the same","note":"Very common in speech: Merci quand même!"}
+{"id":"fr.c0691","meaning":"right away","note":"Je reviens tout de suite = I'll be right back."}
+{"id":"fr.c0692","meaning":"actually; in fact","note":"Not actuellement, which means currently."}
+{"id":"fr.c0693","meaning":"slowly","note":"Parlez lentement, s'il vous plaît."}
+{"id":"fr.c0694","meaning":"gently; softly","note":"Doucement! = Easy! / Careful!"}
+{"id":"fr.c0695","meaning":"exactly","note":"Also a reply: Exactement! = Exactly!"}
+{"id":"fr.c0696","meaning":"I","note":"j' before a vowel or a silent h: j'ai, j'habite."}
+{"id":"fr.c0697","meaning":"you (one person, friendly)","note":"For friends, family, children. Strangers get vous."}
+{"id":"fr.c0698","meaning":"he; it (masculine)","note":"Also impersonal: il pleut, il faut."}
+{"id":"fr.c0699","meaning":"she; it (feminine); her (after a preposition)","note":"Also a stress pronoun: avec elle."}
+{"id":"fr.c0700","meaning":"we (spoken); one; people","note":"Takes the il form: on va, on est."}
+{"id":"fr.c0701","meaning":"we; us","note":"The written \"we\"; in speech often on."}
+{"id":"fr.c0702","meaning":"you (polite or plural)","note":"To a stranger, or to two people or more."}
+{"id":"fr.c0703","meaning":"they (masculine or mixed)","note":"A group with one man in it: ils."}
+{"id":"fr.c0704","meaning":"they (all feminine)","note":"Only when everyone in the group is feminine."}
+{"id":"fr.c0705","meaning":"me (stress pronoun)","note":"After c'est and prepositions: c'est moi, avec moi."}
+{"id":"fr.c0706","meaning":"you (stress pronoun, friendly)","note":"Et toi? = And you?"}
+{"id":"fr.c0707","meaning":"him; to him; to her","note":"Stress pronoun (avec lui) and indirect object (je lui parle)."}
+{"id":"fr.c0708","meaning":"them (stress pronoun, masculine or mixed)","note":"Feminine: elles. avec eux = with them."}
+{"id":"fr.c0709","meaning":"me; to me; myself","note":"Before the verb: il me voit. m' before a vowel."}
+{"id":"fr.c0710","meaning":"you; to you; yourself (friendly)","note":"Before the verb: je te vois. t' before a vowel."}
+{"id":"fr.c0711","meaning":"himself; herself; themselves; each other","note":"Reflexive verbs: il se lève. s' before a vowel."}
+{"id":"fr.c0712","meaning":"there; about it","note":"J'y vais = I'm going (there). Always before the verb."}
+{"id":"fr.c0713","meaning":"that; it (spoken)","note":"Ça va? Short for cela."}
+{"id":"fr.c0714","meaning":"that (written)","note":"More formal than ça."}
+{"id":"fr.c0715","meaning":"this","note":"Rare in speech; you'll see it written."}
+{"id":"fr.c0716","meaning":"the one (masculine)","note":"celui-ci = this one; celui de Léa = Léa's."}
+{"id":"fr.c0717","meaning":"the one (feminine)","note":"celle-là = that one (a feminine thing)."}
+{"id":"fr.c0718","meaning":"the ones (masculine or mixed)","note":"Feminine: celles."}
+{"id":"fr.c0719","meaning":"mine (masculine thing)","note":"Agrees with the thing: la mienne, les miens."}
+{"id":"fr.c0720","meaning":"mine (feminine thing)","note":"C'est ta valise ou la mienne?"}
+{"id":"fr.c0721","meaning":"yours (friendly, masculine thing)","note":"Feminine thing: la tienne."}
+{"id":"fr.c0722","meaning":"his; hers (masculine thing)","note":"Agrees with the thing, not the owner: la sienne."}
+{"id":"fr.c0723","meaning":"ours","note":"Feminine: la nôtre; plural: les nôtres."}
+{"id":"fr.c0724","meaning":"yours (polite or plural)","note":"Feminine: la vôtre. À la vôtre! = Cheers!"}
+{"id":"fr.c0725","meaning":"who; that (relative)","note":"Qui est là? / la fille qui parle."}
+{"id":"fr.c0726","meaning":"what (after a preposition or at the end)","note":"De quoi tu parles? Spoken: Tu fais quoi?"}
+{"id":"fr.c0727","meaning":"which one (masculine)","note":"Feminine: laquelle. Lequel tu préfères?"}
+{"id":"fr.c0728","meaning":"someone; anyone (in a question)","note":"Il y a quelqu'un? = Is anyone there?"}
+{"id":"fr.c0729","meaning":"something; anything (in a question)","note":"quelque chose de bon = something good."}
+{"id":"fr.c0730","meaning":"nothing","note":"ne … rien: je ne vois rien. De rien = You're welcome."}
+{"id":"fr.c0731","meaning":"nobody","note":"ne … personne: je ne vois personne. The noun la personne = person."}
+{"id":"fr.c0732","meaning":"each one; everyone","note":"Feminine: chacune. Chacun son tour = Wait your turn."}
+{"id":"fr.c0733","meaning":"everybody","note":"Takes the il form: tout le monde est là."}
+{"id":"fr.c0734","meaning":"whose; of which","note":"le livre dont je parle = the book I'm talking about."}
+{"id":"fr.c0735","meaning":"of; from","note":"d' before a vowel. de + le = du, de + les = des."}
+{"id":"fr.c0736","meaning":"to; at; in (a city)","note":"à + le = au, à + les = aux. à Paris."}
+{"id":"fr.c0737","meaning":"in; to (a feminine country); by","note":"en France, en mai, en train. Also the pronoun \"some, of it\"."}
+{"id":"fr.c0738","meaning":"in; inside","note":"dans la boîte = in the box. dans deux jours = in two days."}
+{"id":"fr.c0739","meaning":"for; in order to","note":"pour toi; pour aller à la gare."}
+{"id":"fr.c0740","meaning":"on; about","note":"sur la table; un livre sur Paris."}
+{"id":"fr.c0741","meaning":"by; through; per","note":"par la fenêtre; deux fois par semaine."}
+{"id":"fr.c0742","meaning":"with","note":"avec moi, avec du sucre."}
+{"id":"fr.c0743","meaning":"without","note":"sans sucre; un café sans lait."}
+{"id":"fr.c0744","meaning":"under","note":"sous le lit."}
+{"id":"fr.c0745","meaning":"at (someone's place)","note":"chez moi = at my place; chez le médecin."}
+{"id":"fr.c0746","meaning":"between; among","note":"entre midi et deux heures."}
+{"id":"fr.c0747","meaning":"toward; around (a time)","note":"vers la gare; vers huit heures."}
+{"id":"fr.c0748","meaning":"before","note":"avant le dîner; avant de partir."}
+{"id":"fr.c0749","meaning":"after","note":"après le travail; après avoir mangé."}
+{"id":"fr.c0750","meaning":"during; for (a length of time)","note":"pendant les vacances; pendant deux heures."}
+{"id":"fr.c0751","meaning":"since; for (still going on)","note":"depuis lundi; j'habite ici depuis un an."}
+{"id":"fr.c0752","meaning":"in front of","note":"devant la gare."}
+{"id":"fr.c0753","meaning":"behind","note":"derrière la maison."}
+{"id":"fr.c0754","meaning":"against","note":"Je suis contre = I'm against it."}
+{"id":"fr.c0755","meaning":"until; as far as","note":"jusqu'à demain; jusqu'à la gare."}
+{"id":"fr.c0756","meaning":"near; close to","note":"près de la mer. Near here: près d'ici."}
+{"id":"fr.c0757","meaning":"far from","note":"loin de Paris."}
+{"id":"fr.c0758","meaning":"to the; at the (masculine)","note":"à + le: au cinéma, au Canada."}
+{"id":"fr.c0759","meaning":"to the; at the (plural)","note":"à + les: aux États-Unis."}
+{"id":"fr.c0760","meaning":"of the; from the (masculine); some","note":"de + le: le livre du prof. Also \"some\": du pain."}
+{"id":"fr.c0761","meaning":"according to","note":"selon la météo = according to the forecast."}
+{"id":"fr.c0762","meaning":"except","note":"tous les jours sauf le lundi."}
+{"id":"fr.c0763","meaning":"despite","note":"malgré la pluie."}
+{"id":"fr.c0764","meaning":"among","note":"parmi mes amis."}
+{"id":"fr.c0765","meaning":"around","note":"autour de la table."}
+{"id":"fr.c0766","meaning":"above","note":"au-dessus du lit."}
+{"id":"fr.c0767","meaning":"because of","note":"à cause de la grève = because of the strike."}
+{"id":"fr.c0768","meaning":"thanks to","note":"grâce à toi."}
+{"id":"fr.c0769","meaning":"instead of","note":"au lieu de prendre le bus."}
+{"id":"fr.c0770","meaning":"from (a time on); as early as","note":"dès demain = starting tomorrow."}
+{"id":"fr.c0771","meaning":"that; than","note":"Je pense que… (never dropped). Also a relative pronoun: le film que j'aime."}
+{"id":"fr.c0772","meaning":"if; yes (to a negative question)","note":"s' before il: s'il pleut. Tu ne viens pas? Si!"}
+{"id":"fr.c0773","meaning":"as; like; since","note":"comme toi = like you; comme il pleut = since it's raining."}
+{"id":"fr.c0774","meaning":"because; for","note":"Written. In speech: parce que."}
+{"id":"fr.c0775","meaning":"nor; neither … nor","note":"ne … ni … ni: je n'aime ni le thé ni le café."}
+{"id":"fr.c0776","meaning":"then","note":"Spoken, for steps: et puis…"}
+{"id":"fr.c0777","meaning":"when","note":"More formal than quand."}
+{"id":"fr.c0778","meaning":"since; given that","note":"puisqu'il before a vowel."}
+{"id":"fr.c0779","meaning":"while (at the same time)","note":"pendant que tu cuisines."}
+{"id":"fr.c0780","meaning":"while; whereas","note":"Il sort alors qu'il pleut."}
+{"id":"fr.c0781","meaning":"whereas; while","note":"Mostly written."}
+{"id":"fr.c0782","meaning":"even if","note":"même s'il pleut."}
+{"id":"fr.c0783","meaning":"as soon as","note":"dès que j'arrive. For the future, French uses the future after it."}
+{"id":"fr.c0784","meaning":"although","note":"Takes the subjunctive (later level): bien qu'il soit tard."}
+{"id":"fr.c0785","meaning":"so that","note":"Takes the subjunctive (later level)."}
+{"id":"fr.c0786","meaning":"before (+ a clause)","note":"Takes the subjunctive. Simple: avant de + infinitive."}
+{"id":"fr.c0787","meaning":"otherwise; or else","note":"Dépêche-toi, sinon on va rater le train."}
+{"id":"fr.c0788","meaning":"yet; now (in an argument)","note":"Formal. Not the noun l'or (gold)."}
+{"id":"fr.c0789","meaning":"that is to say; I mean","note":"Spoken: Ça veut dire…"}
+{"id":"fr.c0790","meaning":"Oh dear! / Wow!","note":"Surprise, worry or admiration. Said by everyone, not a cliché."}
+{"id":"fr.c0791","meaning":"Ouch!","note":"For a sharp pain. Also: Aïe!"}
+{"id":"fr.c0792","meaning":"Phew!","note":"Relief after a close call."}
+{"id":"fr.c0793","meaning":"Huh? / Eh?","note":"Spoken: didn't hear, or surprised. Impolite to a stranger: say Pardon?"}
+{"id":"fr.c0794","meaning":"Um… / Er…","note":"The French thinking sound: never \"um\"."}
+{"id":"fr.c0795","meaning":"Well… / Meh!","note":"Spoken shrug: Bah, je sais pas."}
+{"id":"fr.c0796","meaning":"Yuck!","note":"Something disgusting. Also spelled berk."}
+{"id":"fr.c0797","meaning":"Darn! / Shoot!","note":"A polite curse. Strong one: avoid."}
+{"id":"fr.c0798","meaning":"Come on! / Go!","note":"Cheering a team, or hurrying a friend. Also: Allez, salut! = OK, bye!"}
+{"id":"fr.c0799","meaning":"Here! / Well, well!","note":"Handing something: Tiens! (to a friend), Tenez! (vous)."}
+{"id":"fr.c0800","meaning":"Hi there! / Peekaboo!","note":"Friendly hello to friends, family and kids."}
+{"id":"fr.c0801","meaning":"Hey!","note":"To get attention, with friends. To a stranger: Excusez-moi!"}
+{"id":"fr.c0802","meaning":"Really?","note":"Polite surprise at news."}
+{"id":"fr.c0803","meaning":"Great!","note":"Very common, any age."}
+{"id":"fr.c0804","meaning":"Awesome!","note":"Stronger than super."}
+{"id":"fr.c0805","meaning":"Too bad! / What a pity!","note":"C'est dommage = It's a shame."}
+{"id":"fr.c0806","meaning":"Watch out! / Careful!","note":"Also on signs: Attention à la marche = Mind the step."}
+{"id":"fr.c0807","meaning":"Oh well! / Never mind!","note":"Accepting something bad."}
+{"id":"fr.c0808","meaning":"Good! / So much the better!","note":"Pleased at good news."}
+{"id":"fr.c0809","meaning":"Good luck! / Hang in there!","note":"For work or a hard task ahead, not for a game."}
+{"id":"fr.c0810","meaning":"Good luck! (for chance)","note":"For an exam, a game, a lottery."}
+{"id":"fr.c0811","meaning":"Well, I never! / No way!","note":"Real surprise."}
+{"id":"fr.c0812","meaning":"My God! / Oh my!","note":"Common and mild in French."}
+{"id":"fr.c0813","meaning":"Wow!","note":"Impressed. Also written waouh."}
+{"id":"fr.c0814","meaning":"What do you mean?","note":"Surprise or disbelief."}
+{"id":"fr.c0815","meaning":"Bless you!","note":"After a sneeze, to a friend. To a stranger: À vos souhaits!"}
+{"id":"fr.c0816","meaning":"Welcome!","note":"Bienvenue à Paris!"}
+{"id":"fr.c0817","meaning":"No way! / Out of the question!","note":"A firm no."}
+{"id":"fr.c0818","meaning":"Of course!","note":"Also: Bien sûr que oui!"}
+{"id":"fr.c0819","meaning":"Good grief!","note":"Annoyance or shock. Mild."}
+{"id":"fr.c0820","meaning":"the (masculine)","note":"l' before a vowel. Also the pronoun him or it: je le vois."}
+{"id":"fr.c0821","meaning":"the (feminine)","note":"l' before a vowel. Also the pronoun her or it: je la vois."}
+{"id":"fr.c0822","meaning":"the (plural)","note":"Liaison: les amis. Also the pronoun them: je les vois."}
+{"id":"fr.c0823","meaning":"a; one (masculine)","note":"Also the number 1: un café, un euro."}
+{"id":"fr.c0824","meaning":"a; one (feminine)","note":"Also the number 1 before a feminine noun: une heure."}
+{"id":"fr.c0825","meaning":"some (plural of un, une)","note":"Also de + les: la fin des vacances."}
+{"id":"fr.c0826","meaning":"this; that (masculine)","note":"cet before a vowel: cet homme. ce soir = tonight."}
+{"id":"fr.c0827","meaning":"this; that (feminine)","note":"Sounds like the masculine cet."}
+{"id":"fr.c0828","meaning":"these; those","note":"For masculine and feminine."}
+{"id":"fr.c0829","meaning":"my (masculine)","note":"Also before a feminine noun starting with a vowel: mon amie."}
+{"id":"fr.c0830","meaning":"my (feminine)","note":"mon before a vowel: mon école."}
+{"id":"fr.c0831","meaning":"my (plural)","note":"Liaison: mes amis."}
+{"id":"fr.c0832","meaning":"your (friendly, masculine)","note":"Feminine: ta; plural: tes."}
+{"id":"fr.c0833","meaning":"your (friendly, feminine)","note":"ton before a vowel: ton amie."}
+{"id":"fr.c0834","meaning":"your (friendly, plural)","note":"For masculine and feminine."}
+{"id":"fr.c0835","meaning":"his; her; its (masculine)","note":"Agrees with the thing owned, not the owner."}
+{"id":"fr.c0836","meaning":"his; her; its (feminine)","note":"sa mère = his mother or her mother."}
+{"id":"fr.c0837","meaning":"his; her; its (plural)","note":"ses enfants = his or her children."}
+{"id":"fr.c0838","meaning":"our (one thing)","note":"Plural: nos."}
+{"id":"fr.c0839","meaning":"our (several things)","note":"Liaison: nos amis."}
+{"id":"fr.c0840","meaning":"your (polite or plural, one thing)","note":"Plural: vos."}
+{"id":"fr.c0841","meaning":"your (polite or plural, several things)","note":"Votre passeport? / Vos papiers?"}
+{"id":"fr.c0842","meaning":"their (one thing)","note":"Also the pronoun \"to them\": je leur parle."}
+{"id":"fr.c0843","meaning":"their (several things)","note":"leurs enfants."}
+{"id":"fr.c0844","meaning":"which; what (masculine)","note":"Agrees: quelle, quels, quelles. Quel âge as-tu?"}
+{"id":"fr.c0845","meaning":"which; what (feminine)","note":"Quelle heure est-il?"}
+{"id":"fr.c0846","meaning":"all; everything (masculine)","note":"tout le temps = all the time. C'est tout = That's all."}
+{"id":"fr.c0847","meaning":"all (masculine plural); every","note":"tous les jours = every day."}
+{"id":"fr.c0848","meaning":"all; the whole (feminine)","note":"toute la journée = all day."}
+{"id":"fr.c0849","meaning":"all (feminine plural)","note":"toutes les semaines = every week."}
+{"id":"fr.c0850","meaning":"each; every","note":"Never changes: chaque jour."}
+{"id":"fr.c0851","meaning":"other","note":"un autre café = another coffee."}
+{"id":"fr.c0852","meaning":"same; even","note":"le même = the same one; même moi = even me."}
+{"id":"fr.c0853","meaning":"a few; some","note":"quelques jours = a few days."}
+{"id":"fr.c0854","meaning":"several","note":"Never changes: plusieurs fois."}
+{"id":"fr.c0855","meaning":"no; not any","note":"ne … aucun: aucun problème = no problem at all."}
+{"id":"fr.c0856","meaning":"yes","note":"Spoken: ouais."}
+{"id":"fr.c0857","meaning":"no","note":"Also a tag: C'est joli, non? = It's pretty, isn't it?"}
+{"id":"fr.c0858","meaning":"here is; here are","note":"Formal; in speech voilà does both."}
+{"id":"fr.c0859","meaning":"there is; there you go","note":"Voilà! = There you go! / That's it!"}
+{"id":"fr.c0860","meaning":"it is; this is; that's","note":"Before a noun: c'est un ami. Plural: ce sont."}
+{"id":"fr.c0861","meaning":"there is; there are; ago","note":"il y a deux ans = two years ago."}
+{"id":"fr.c0862","meaning":"zero","note":"Plural: des zéros."}
+{"id":"fr.c0863","meaning":"two","note":"Liaison: deux ans (duh zahN)."}
+{"id":"fr.c0864","meaning":"three","note":"Liaison: trois amis."}
+{"id":"fr.c0865","meaning":"four","note":"Spoken often quat'."}
+{"id":"fr.c0866","meaning":"five","note":"The q is sounded."}
+{"id":"fr.c0867","meaning":"six","note":"sees alone; see before a consonant; seez before a vowel."}
+{"id":"fr.c0868","meaning":"seven","note":"The p is silent, the t is sounded."}
+{"id":"fr.c0869","meaning":"eight","note":"No liaison before it: les huit jours."}
+{"id":"fr.c0870","meaning":"nine","note":"Also \"brand new\" (adjective). neuf heures: f sounds like v."}
+{"id":"fr.c0871","meaning":"ten","note":"dees alone; dee before a consonant."}
+{"id":"fr.c0872","meaning":"eleven","note":"No liaison before it: le onze."}
+{"id":"fr.c0873","meaning":"twelve","note":"une douzaine = a dozen."}
+{"id":"fr.c0874","meaning":"thirteen","note":""}
+{"id":"fr.c0875","meaning":"fourteen","note":"le quatorze juillet = Bastille Day."}
+{"id":"fr.c0876","meaning":"fifteen","note":"quinze jours = two weeks."}
+{"id":"fr.c0877","meaning":"sixteen","note":"The last number with its own word before dix-sept."}
+{"id":"fr.c0878","meaning":"eighteen","note":"Ten-eight, with a hyphen."}
+{"id":"fr.c0879","meaning":"nineteen","note":"Ten-nine. The x sounds like z."}
+{"id":"fr.c0880","meaning":"twenty","note":"The t is silent alone, sounded in vingt et un."}
+{"id":"fr.c0881","meaning":"thirty","note":"trente et un = thirty-one."}
+{"id":"fr.c0882","meaning":"forty","note":""}
+{"id":"fr.c0883","meaning":"fifty","note":""}
+{"id":"fr.c0884","meaning":"sixty","note":"x sounds like s. Then soixante-dix = seventy."}
+{"id":"fr.c0885","meaning":"a hundred","note":"No un before cent: cent euros."}
+{"id":"fr.c0886","meaning":"first","note":"Feminine: première. le premier mai."}
+{"id":"fr.c0887","meaning":"second","note":"Also: second, seconde."}
+{"id":"fr.c0888","meaning":"Tuesday","note":"Lowercase. le mardi = on Tuesdays."}
+{"id":"fr.c0889","meaning":"Wednesday","note":"Kids have Wednesday afternoons off in many schools."}
+{"id":"fr.c0890","meaning":"Thursday","note":""}
+{"id":"fr.c0891","meaning":"Friday","note":"Vendredi soir = Friday night."}
+{"id":"fr.c0892","meaning":"Sunday","note":"Many shops are closed on Sunday."}
+{"id":"fr.c0893","meaning":"morning","note":"ce matin = this morning."}
+{"id":"fr.c0894","meaning":"afternoon","note":"(m. or f.) cet après-midi = this afternoon."}
+{"id":"fr.c0895","meaning":"evening","note":"ce soir = tonight."}
+{"id":"fr.c0896","meaning":"night","note":"Bonne nuit = Good night (going to bed)."}
+{"id":"fr.c0897","meaning":"January","note":"Months are lowercase."}
+{"id":"fr.c0898","meaning":"February","note":""}
+{"id":"fr.c0899","meaning":"March","note":"The s is sounded."}
+{"id":"fr.c0900","meaning":"April","note":"The l is sounded."}
+{"id":"fr.c0901","meaning":"May","note":"le premier mai = Labor Day in France."}
+{"id":"fr.c0902","meaning":"July","note":"Long summer holidays start in July."}
+{"id":"fr.c0903","meaning":"September","note":"la rentrée = back to school, in September."}
+{"id":"fr.c0904","meaning":"October","note":""}
+{"id":"fr.c0905","meaning":"November","note":""}
+{"id":"fr.c0906","meaning":"December","note":""}
+{"id":"fr.c0907","meaning":"It's delicious!","note":"About food or a dish, to anyone; c'est never changes."}
+{"id":"fr.c0908","meaning":"It smells so good!","note":"In a kitchen or a bakery. Spoken, friendly."}
+{"id":"fr.c0909","meaning":"It's really good!","note":"About food, to the cook. Simple and very common."}
+{"id":"fr.c0910","meaning":"You're a really good cook.","note":"tu form. To someone you call vous: Vous cuisinez vraiment bien."}
+{"id":"fr.c0911","meaning":"Your tart turned out really well!","note":"réussie agrees with tarte. For a cake: Il est très réussi, ton gâteau!"}
+{"id":"fr.c0912","meaning":"Well done!","note":"For anyone, any age: a result, a game, a speech."}
+{"id":"fr.c0913","meaning":"Congratulations!","note":"For a new job, an exam, a wedding, a baby."}
+{"id":"fr.c0914","meaning":"Nice work!","note":"About a job well done, at work or at home."}
+{"id":"fr.c0915","meaning":"Hats off! / Impressive!","note":"Spoken, warm admiration for an effort or a result."}
+{"id":"fr.c0916","meaning":"Nice one! / Well played!","note":"Spoken, after a clever move or a good result."}
+{"id":"fr.c0917","meaning":"You're really talented!","note":"To a woman: douée (same sound). To someone you call vous: Vous êtes vraiment doué."}
+{"id":"fr.c0918","meaning":"You've made progress!","note":"About a skill: a language, a sport, music."}
+{"id":"fr.c0919","meaning":"Good idea!","note":"Fine with anyone. bonne agrees with idée (feminine)."}
+{"id":"fr.c0920","meaning":"You're really kind.","note":"To a woman: gentille (sounds different: the l is said like y). vous: Vous êtes vraiment gentil."}
+{"id":"fr.c0921","meaning":"You're so funny!","note":"drôle is the same for men and women. To someone you call vous: Vous êtes tellement drôle."}
+{"id":"fr.c0922","meaning":"You're very hard-working.","note":"To a woman: travailleuse (sounds different). vous: Vous êtes très travailleur."}
+{"id":"fr.c0923","meaning":"You have very good taste.","note":"About clothes, a home, music. A real compliment in France."}
+{"id":"fr.c0924","meaning":"Your place is really lovely.","note":"chez toi = your home. To someone you call vous: C'est très joli chez vous."}
+{"id":"fr.c0925","meaning":"What a beautiful view!","note":"From someone's window or balcony. belle agrees with vue."}
+{"id":"fr.c0926","meaning":"That looks great on you.","note":"About clothes or a haircut. To someone you call vous: Ça vous va très bien."}
+{"id":"fr.c0927","meaning":"You look well!","note":"About health and energy, to a friend."}
+{"id":"fr.c0928","meaning":"What a beautiful photo!","note":"belle agrees with photo (feminine)."}
+{"id":"fr.c0929","meaning":"Your baby is adorable!","note":"For a baby girl: Elle est adorable, ta fille!"}
+{"id":"fr.c0930","meaning":"You speak French really well.","note":"What people will say to you, usually with vous. A friend says: Tu parles très bien français."}
+{"id":"fr.c0931","meaning":"You hardly have an accent.","note":"A big compliment in France; what you might hear."}
+{"id":"fr.c0932","meaning":"Thanks, that's nice of you.","note":"The usual reply in France: a simple, warm thank-you. gentil never changes here."}
+{"id":"fr.c0933","meaning":"You think so?","note":"A common light reply to a compliment in France, often followed by merci. vous: Vous trouvez?"}
+{"id":"fr.c0934","meaning":"Thanks, that makes me happy.","note":"A warm reply, often from the cook or the host."}
+{"id":"fr.c0935","meaning":"Oh, it's nothing.","note":"Playing down praise for a dish or a favor. Modesty is normal in France."}
+{"id":"fr.c0936","meaning":"You're exaggerating!","note":"A playful, modest reply to big praise, to a friend. vous: Vous exagérez!"}
+{"id":"fr.c0937","meaning":"Thanks, but I still have a lot to learn.","note":"A modest reply to praise of your French; this little deflection is normal in France."}
+{"id":"fr.c0938","meaning":"Thanks, you too!","note":"Returning a compliment. vous: Merci, vous aussi!"}
+{"id":"fr.c0939","meaning":"handsome; beautiful","note":"To a man; to a woman: belle (sounds different). Warm. Also the weather: il fait beau."}
+{"id":"fr.c0940","meaning":"pretty","note":"Mostly to a woman: jolie (same sound). Mild, light and safe."}
+{"id":"fr.c0941","meaning":"cute","note":"To a man; to a woman: mignonne (the n is sounded). Mild to warm; very common."}
+{"id":"fr.c0942","meaning":"charming","note":"To a man; to a woman: charmante (the t is sounded). Warm, a little old-fashioned."}
+{"id":"fr.c0943","meaning":"adorable; lovely","note":"Same for both. Warm, also for a sweet gesture."}
+{"id":"fr.c0944","meaning":"gorgeous; stunning","note":"Same for both. Bold: keep it for a big night out."}
+{"id":"fr.c0945","meaning":"stunning; breathtaking","note":"Same for both. Bold and a bit dramatic."}
+{"id":"fr.c0946","meaning":"funny","note":"Same for both. Mild: being funny counts a lot in French flirting."}
+{"id":"fr.c0947","meaning":"fun; funny (spoken)","note":"To a man; to a woman: marrante. Mild, casual."}
+{"id":"fr.c0948","meaning":"smart; clever","note":"To a man; to a woman: intelligente. Warm: wit and ideas are real compliments in France."}
+{"id":"fr.c0949","meaning":"elegant; well-dressed","note":"To a man; to a woman: élégante. Warm: people notice style."}
+{"id":"fr.c0950","meaning":"gentle; sweet","note":"To a man; to a woman: douce (sounds different). Warm."}
+{"id":"fr.c0951","meaning":"irresistible; adorable (spoken)","note":"To a man; to a woman: craquante. Warm, playful."}
+{"id":"fr.c0952","meaning":"attractive","note":"To a man; to a woman: séduisante. Warm to bold, a bit formal."}
+{"id":"fr.c0953","meaning":"sexy","note":"Same for both. Bold: an ordinary word, not crude, but keep it for someone you know."}
+{"id":"fr.c0954","meaning":"smile","note":"Masculine: un beau sourire. Mild, the safest thing to praise."}
+{"id":"fr.c0955","meaning":"eyes","note":"Plural of un œil; liaison: de beaux yeux. Warm."}
+{"id":"fr.c0956","meaning":"look (in someone's eyes); gaze","note":"Masculine: ton regard. Warm: French songs love it."}
+{"id":"fr.c0957","meaning":"voice","note":"Feminine: une jolie voix. Mild."}
+{"id":"fr.c0958","meaning":"hair","note":"Always plural: tes cheveux. Mild."}
+{"id":"fr.c0959","meaning":"style","note":"Masculine: j'aime ton style. Mild."}
+{"id":"fr.c0960","meaning":"charm","note":"Masculine: avoir du charme. Warm."}
+{"id":"fr.c0961","meaning":"to flirt with; to hit on","note":"je drague. Spoken; can sound pushy. Tu me dragues? = Are you hitting on me?"}
+{"id":"fr.c0962","meaning":"date (spoken)","note":"Spoken; also spelled rancard. Neutral: un rendez-vous."}
+{"id":"fr.c0963","meaning":"love at first sight","note":"Literally a lightning strike. Warm."}
+{"id":"fr.c0964","meaning":"You're beautiful.","note":"To a woman; to a man: Tu es beau. Warm."}
+{"id":"fr.c0965","meaning":"I think you're very beautiful.","note":"To a woman; to a man: très beau. Warm: \"je te trouve\" is a very French way in."}
+{"id":"fr.c0966","meaning":"You look very handsome tonight.","note":"To a man; to a woman: très belle. Warm."}
+{"id":"fr.c0967","meaning":"You have beautiful eyes.","note":"Anyone to anyone. Warm; echoes a famous 1938 film line, T'as d'beaux yeux, tu sais."}
+{"id":"fr.c0968","meaning":"You're very pretty.","note":"To a woman; joli to a man is rare. Mild."}
+{"id":"fr.c0969","meaning":"You have a lovely smile.","note":"Anyone to anyone. Mild: a safe opener."}
+{"id":"fr.c0970","meaning":"You have a really lovely voice.","note":"Anyone to anyone. Mild."}
+{"id":"fr.c0971","meaning":"You're cute.","note":"To a man; to a woman: mignonne. Mild to warm."}
+{"id":"fr.c0972","meaning":"That's sweet.","note":"About something someone did for you. Mild."}
+{"id":"fr.c0973","meaning":"You're charming.","note":"To a woman; to a man: charmant. Warm."}
+{"id":"fr.c0974","meaning":"I love your smile.","note":"Anyone to anyone. Warm."}
+{"id":"fr.c0975","meaning":"I love your laugh.","note":"Anyone to anyone. Warm."}
+{"id":"fr.c0976","meaning":"Your eyes are gorgeous.","note":"Anyone to anyone. Bold."}
+{"id":"fr.c0977","meaning":"You make me laugh.","note":"Anyone to anyone. Warm: humor is half of French flirting."}
+{"id":"fr.c0978","meaning":"I really like talking with you.","note":"Anyone to anyone. Warm: good conversation is the classic French way in."}
+{"id":"fr.c0979","meaning":"You're really interesting.","note":"To a man; to a woman: intéressante. Mild to warm."}
+{"id":"fr.c0980","meaning":"You look very elegant tonight.","note":"To a woman; to a man: élégant. Warm."}
+{"id":"fr.c0981","meaning":"I like your style.","note":"Anyone to anyone. Mild."}
+{"id":"fr.c0982","meaning":"That color suits you.","note":"Anyone to anyone. Mild."}
+{"id":"fr.c0983","meaning":"You have a lot of charm.","note":"Anyone to anyone. Warm."}
+{"id":"fr.c0984","meaning":"I like you (I'm attracted to you).","note":"The usual way to say it; je t'aime is far stronger. Warm to bold."}
+{"id":"fr.c0985","meaning":"I really like you.","note":"Bold, but sweet."}
+{"id":"fr.c0986","meaning":"I miss you.","note":"Literally \"you are missing to me\": the word order flips. Warm."}
+{"id":"fr.c0987","meaning":"Can I buy you a drink?","note":"vous form, to a stranger at a bar. Mild to warm."}
+{"id":"fr.c0988","meaning":"Mind if I sit down?","note":"vous form, to a stranger at a café. Mild, very polite."}
+{"id":"fr.c0989","meaning":"Can we say tu to each other?","note":"To someone you call vous. Mild in words, but a real step closer."}
+{"id":"fr.c0990","meaning":"You can call me tu.","note":"Warm: an invitation to be less formal."}
+{"id":"fr.c0991","meaning":"Do you want to get a coffee with me?","note":"Mild: the classic first step."}
+{"id":"fr.c0992","meaning":"How about having dinner with me?","note":"Warm: clearly a date."}
+{"id":"fr.c0993","meaning":"Are you free Saturday night?","note":"Mild."}
+{"id":"fr.c0994","meaning":"Can I have your number?","note":"Mild."}
+{"id":"fr.c0995","meaning":"Are you seeing someone?","note":"Gentle way to ask. Mild."}
+{"id":"fr.c0996","meaning":"I had a great evening with you.","note":"Warm, at the end of a date."}
+{"id":"fr.c0997","meaning":"Shall we see each other again?","note":"Warm, at the end of an evening."}
+{"id":"fr.c0998","meaning":"With pleasure!","note":"A warm yes."}
+{"id":"fr.c0999","meaning":"Yes, I'd like that.","note":"A warm yes."}
+{"id":"fr.c1000","meaning":"Do you say that to all the girls?","note":"To a man; to a woman: à tous les garçons. Playful."}
+{"id":"fr.c1001","meaning":"Stop, you're making me blush!","note":"Playful and pleased."}
+{"id":"fr.c1002","meaning":"What a smooth talker!","note":"Playful, a little teasing."}
+{"id":"fr.c1003","meaning":"We'll see.","note":"Playful, keeps it open."}
+{"id":"fr.c1004","meaning":"That's kind, but I'm not interested.","note":"Said by a woman; a man: intéressé (same sound). Clear and polite."}
+{"id":"fr.c1005","meaning":"Thanks, but I'm seeing someone.","note":"Clear and kind."}
+{"id":"fr.c1006","meaning":"I'd rather we stay friends.","note":"Soft but clear."}
+{"id":"fr.c1007","meaning":"Sorry, I don't feel the same way.","note":"Said by a woman; a man: désolé (same sound). Clear and kind."}
+{"id":"fr.c1008","meaning":"No thanks, I'm fine.","note":"Short and firm, to a stranger who offers a drink."}

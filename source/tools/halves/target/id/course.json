@@ -1,0 +1,194 @@
+{
+ "target": "id",
+ "ttsLang": "id-ID",
+ "self": "bahasa Indonesia",
+ "pack": {
+  "accents": false,
+  "keys": ""
+ },
+ "features": {
+  "script": false,
+  "pron": false,
+  "conj": false,
+  "register": false,
+  "numbers": false,
+  "sound": false,
+  "strokes": false
+ },
+ "groups": [
+  {
+   "id": "id.grp.first-steps",
+   "decks": [
+    "id.d.sounds-and-spelling",
+    "id.d.greetings-and-courtesy",
+    "id.d.about-me",
+    "id.d.people-and-family"
+   ]
+  },
+  {
+   "id": "id.grp.everyday-words",
+   "decks": [
+    "id.d.numbers-and-money",
+    "id.d.time-days-and-dates",
+    "id.d.food-and-drink",
+    "id.d.shopping-and-bargaining",
+    "id.d.home-and-routine"
+   ]
+  },
+  {
+   "id": "id.grp.out-and-about",
+   "decks": [
+    "id.d.around-town-and-directions",
+    "id.d.transport-and-travel",
+    "id.d.health-and-help",
+    "id.d.work-and-study"
+   ]
+  },
+  {
+   "id": "id.grp.conversation",
+   "decks": [
+    "id.d.describing-people-and-things",
+    "id.d.feelings-and-free-time",
+    "id.d.questions-and-connectors",
+    "id.d.compliments",
+    "id.d.flirting"
+   ]
+  },
+  {
+   "id": "id.grp.watch-out",
+   "decks": [
+    "id.d.traps-for-english-speakers",
+    "id.d.everyday-spoken-indonesian"
+   ]
+  },
+  {
+   "id": "id.grp.core-words",
+   "decks": [
+    "id.d.top-nouns",
+    "id.d.top-verbs",
+    "id.d.top-adjectives",
+    "id.d.top-adverbs",
+    "id.d.top-pronouns",
+    "id.d.top-prepositions",
+    "id.d.top-conjunctions",
+    "id.d.top-interjections",
+    "id.d.top-words",
+    "id.d.top-classifiers"
+   ]
+  }
+ ],
+ "tags": {
+  "first-steps": [
+   "id.d.sounds-and-spelling",
+   "id.d.greetings-and-courtesy",
+   "id.d.about-me",
+   "id.d.people-and-family"
+  ],
+  "everyday-words": [
+   "id.d.numbers-and-money",
+   "id.d.time-days-and-dates",
+   "id.d.food-and-drink",
+   "id.d.shopping-and-bargaining",
+   "id.d.home-and-routine"
+  ],
+  "out-and-about": [
+   "id.d.around-town-and-directions",
+   "id.d.transport-and-travel",
+   "id.d.health-and-help",
+   "id.d.work-and-study"
+  ],
+  "conversation": [
+   "id.d.describing-people-and-things",
+   "id.d.feelings-and-free-time",
+   "id.d.questions-and-connectors",
+   "id.d.compliments",
+   "id.d.flirting"
+  ],
+  "watch-out": [
+   "id.d.traps-for-english-speakers",
+   "id.d.everyday-spoken-indonesian"
+  ],
+  "core-words": [
+   "id.d.top-nouns",
+   "id.d.top-verbs",
+   "id.d.top-adjectives",
+   "id.d.top-adverbs",
+   "id.d.top-pronouns",
+   "id.d.top-prepositions",
+   "id.d.top-conjunctions",
+   "id.d.top-interjections",
+   "id.d.top-words",
+   "id.d.top-classifiers"
+  ]
+ },
+ "goals": [],
+ "plans": [],
+ "titles": [
+  {
+   "id": "id.t01",
+   "level": 1
+  },
+  {
+   "id": "id.t03",
+   "level": 3
+  },
+  {
+   "id": "id.t05",
+   "level": 5
+  },
+  {
+   "id": "id.t08",
+   "level": 8
+  },
+  {
+   "id": "id.t12",
+   "level": 12
+  },
+  {
+   "id": "id.t16",
+   "level": 16
+  },
+  {
+   "id": "id.t20",
+   "level": 20
+  }
+ ],
+ "greet": [
+  {
+   "id": "id.h.night",
+   "ind": "Selamat malam"
+  },
+  {
+   "id": "id.h.morning",
+   "ind": "Selamat pagi"
+  },
+  {
+   "id": "id.h.afternoon",
+   "ind": "Selamat siang"
+  },
+  {
+   "id": "id.h.evening",
+   "ind": "Selamat malam"
+  }
+ ],
+ "pairs": [],
+ "pause": {
+  "sets": [],
+  "idioms": []
+ },
+ "uiKeys": [
+  "Indonesian (required)",
+  "Indonesian, pronunciation, meaning, note — one per line (pronunciation/note optional)",
+  "Search a pattern, e.g. 에서 or 'want'",
+  "#first-steps",
+  "#everyday-words",
+  "#out-and-about",
+  "#conversation",
+  "#watch-out",
+  "#core-words"
+ ],
+ "exportedFrom": {
+  "file": "tools/target/id/ (tools/target/gen.js id)",
+  "sha256_16": "c75d1b6506d5b0a2"
+ }
+}

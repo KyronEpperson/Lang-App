@@ -14,11 +14,11 @@ o.append('1. **Reference pair first, by hand.** For each language X: English to 
 o.append('Order of languages: Cantonese first (owner: "vantonese first"), then Vietnamese, then Mandarin, Korean, Japanese, Taiwanese, Thai, Hmong, Indonesian, Tagalog, Cebuano. Coming soon, no course at all yet: Wu, Burmese, Javanese, Hiligaynon, Waray.\n')
 o.append('## Step 1: reference pairs and halves\n')
 o.append('| Language | English to X | X to English | Foundation in English to X | Target half |\n|---|---|---|---|---|')
-half={'ko','zh','yue','vi'}
-found_done={'zh','ja','th','yue','vi'}
+half={'ko','zh','yue','vi','ja','nan','th','hmn','id','tl','ceb'}
+found_done={'zh','ja','th','yue','vi','nan','hmn','id','tl','ceb'}
 for t in T:
     o.append('| %s | %s | %s | %s | %s |'%(N[t],'released' if 'en-'+t in have or t=='ko' else 'pending','released' if t+'-en' in have else 'pending','done' if t in found_done or t=='ko' else 'pending','done' if t in half else 'pending'))
-o.append('\nKorean for English speakers is the built-in course. Taiwanese to English is pending and waits on the owner\'s script choice (Traditional Chinese (Taiwan) or written Taiwanese), as does Taiwanese to Korean.\n')
+o.append('\nKorean for English speakers is the built-in course. Taiwanese to English is released in written Taiwanese (owner\'s choice, 2026-11-27); Taiwanese to Korean follows that choice. Halves also exist for Spanish, Portuguese, French, Italian, German, Arabic and Amharic (2.139.0, 2.141.0).\n')
 def wave(title,nat,note=''):
     o.append('## '+title+'\n'); 
     if note: o.append(note+'\n')
@@ -33,9 +33,9 @@ def wave(title,nat,note=''):
     o.append('')
 wave('Wave 1: English and Spanish speakers',W1,'"released" means the course is live; it still gets the foundation and the reference-pair treatment in step 1 if the table above says pending.')
 wave('Wave 2: speakers of the other East and Southeast Asian languages',W2)
-wave('Wave 3: Portuguese, French, Italian, German, Arabic and Amharic speakers',W3,'Amharic has no interface dictionary and no English course yet; both come before any course for Amharic speakers.')
+wave('Wave 3: Portuguese, French, Italian, German, Arabic and Amharic speakers',W3,'Amharic has its interface and its English course since 2.141.0.')
 wave('Pending, not scheduled: everyone else',W4,'The India group and the remaining interface languages. Not started; no order set by the owner. Kannada to Korean is paused by the owner. Korean for Telugu, Bengali, Urdu and Punjabi speakers: writer files exist, not merged (see `docs/HANDOFF.md`, queue item 4).')
 cnt=sum(l.count('pending') for l in o if l.startswith('| '))
-o.append('Counted on 2026-11-25 from `packs/`: regenerate with `python3 tools/curriculum/pending_courses.py` (run in the build home) after a pair is released; the lists of finished foundations and halves are at the top of that script.\n')
+o.append('Counted on 2026-11-27 from `packs/`: regenerate with `python3 tools/curriculum/pending_courses.py` (run in the build home) after a pair is released; the lists of finished foundations and halves are at the top of that script.\n')
 open('docs/PENDING-COURSES.md','w',encoding='utf8').write('\n'.join(o))
 print(cnt)

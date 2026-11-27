@@ -1,0 +1,744 @@
+{"id":"tl.c0001","deck":"tl.d.sounds-and-spelling","tl":"bata","rom":"BAH-tahq"}
+{"id":"tl.c0002","deck":"tl.d.sounds-and-spelling","tl":"aso","rom":"AH-soh"}
+{"id":"tl.c0003","deck":"tl.d.sounds-and-spelling","tl":"suka","rom":"SOO-kahq"}
+{"id":"tl.c0004","deck":"tl.d.sounds-and-spelling","tl":"ngayon","rom":"ngah-YOHN"}
+{"id":"tl.c0005","deck":"tl.d.sounds-and-spelling","tl":"mga bata","rom":"mah-NGAH BAH-tahq"}
+{"id":"tl.c0006","deck":"tl.d.sounds-and-spelling","tl":"aso ni Ana","rom":"AH-soh nee AH-nah"}
+{"id":"tl.c0007","deck":"tl.d.sounds-and-spelling","tl":"Kumain ako ng mangga.","rom":"koo-MAH-een ah-KOH nahng mahng-GAH"}
+{"id":"tl.c0008","deck":"tl.d.sounds-and-spelling","tl":"oo","rom":"OH-oh"}
+{"id":"tl.c0009","deck":"tl.d.sounds-and-spelling","tl":"tsinelas","rom":"chee-NEH-lahs"}
+{"id":"tl.c0010","deck":"tl.d.sounds-and-spelling","tl":"tsaa","rom":"chah-AH"}
+{"id":"tl.c0011","deck":"tl.d.sounds-and-spelling","tl":"kaunti","rom":"kah-oon-TEEQ"}
+{"id":"tl.c0012","deck":"tl.d.sounds-and-spelling","tl":"araw","rom":"AH-row"}
+{"id":"tl.c0013","deck":"tl.d.sounds-and-spelling","tl":"baboy","rom":"BAH-boy"}
+{"id":"tl.c0014","deck":"tl.d.sounds-and-spelling","tl":"Maynila","rom":"mai-NEE-lahq"}
+{"id":"tl.c0015","deck":"tl.d.sounds-and-spelling","tl":"Pilipino","rom":"pee-lee-PEE-noh"}
+{"id":"tl.c0016","deck":"tl.d.sounds-and-spelling","tl":"mag-aral","rom":"mahg-AH-rahl"}
+{"id":"tl.c0017","deck":"tl.d.sounds-and-spelling","tl":"Tagalog","rom":"tah-GAH-lohg"}
+{"id":"tl.c0018","deck":"tl.d.greetings-and-respect","tl":"Magandang umaga po.","rom":"mah-gahn-DAHNG oo-MAH-gah pohq"}
+{"id":"tl.c0019","deck":"tl.d.greetings-and-respect","tl":"Magandang tanghali po.","rom":"mah-gahn-DAHNG tahng-HAH-lee pohq"}
+{"id":"tl.c0020","deck":"tl.d.greetings-and-respect","tl":"Magandang hapon po.","rom":"mah-gahn-DAHNG HAH-pohn pohq"}
+{"id":"tl.c0021","deck":"tl.d.greetings-and-respect","tl":"Magandang gabi po.","rom":"mah-gahn-DAHNG gah-BEE pohq"}
+{"id":"tl.c0022","deck":"tl.d.greetings-and-respect","tl":"Kumusta po kayo?","rom":"koo-moos-TAH poh kah-YOH"}
+{"id":"tl.c0023","deck":"tl.d.greetings-and-respect","tl":"Kumusta ka?","rom":"koo-moos-TAH kah"}
+{"id":"tl.c0024","deck":"tl.d.greetings-and-respect","tl":"Mabuti naman.","rom":"mah-BOO-tee nah-MAHN"}
+{"id":"tl.c0025","deck":"tl.d.greetings-and-respect","tl":"Opo.","rom":"OH-pohq"}
+{"id":"tl.c0026","deck":"tl.d.greetings-and-respect","tl":"Salamat po.","rom":"sah-LAH-maht pohq"}
+{"id":"tl.c0027","deck":"tl.d.greetings-and-respect","tl":"Maraming salamat po.","rom":"mah-RAH-meeng sah-LAH-maht pohq"}
+{"id":"tl.c0028","deck":"tl.d.greetings-and-respect","tl":"Walang anuman.","rom":"wah-LAHNG ah-noo-MAHN"}
+{"id":"tl.c0029","deck":"tl.d.greetings-and-respect","tl":"Pasensya na po.","rom":"pah-SEHN-shah nah pohq"}
+{"id":"tl.c0030","deck":"tl.d.greetings-and-respect","tl":"Tuloy po kayo.","rom":"too-LOY poh kah-YOH"}
+{"id":"tl.c0031","deck":"tl.d.greetings-and-respect","tl":"Mano po.","rom":"MAH-noh pohq"}
+{"id":"tl.c0032","deck":"tl.d.greetings-and-respect","tl":"Salamat po, Ate.","rom":"sah-LAH-maht pohq AH-teh"}
+{"id":"tl.c0033","deck":"tl.d.greetings-and-respect","tl":"Paalam.","rom":"pah-AH-lahm"}
+{"id":"tl.c0034","deck":"tl.d.greetings-and-respect","tl":"Ingat!","rom":"EE-ngaht"}
+{"id":"tl.c0035","deck":"tl.d.greetings-and-respect","tl":"Ingat po kayo.","rom":"EE-ngaht poh kah-YOH"}
+{"id":"tl.c0036","deck":"tl.d.about-me","tl":"Ako si Ana.","rom":"ah-KOH see AH-nah"}
+{"id":"tl.c0037","deck":"tl.d.about-me","tl":"Mark ang pangalan ko.","rom":"mahrk ahng pah-NGAH-lahn koh"}
+{"id":"tl.c0038","deck":"tl.d.about-me","tl":"Ano ang pangalan mo?","rom":"ah-NOH ahng pah-NGAH-lahn moh"}
+{"id":"tl.c0039","deck":"tl.d.about-me","tl":"Ano po ang pangalan ninyo?","rom":"ah-NOH poh ahng pah-NGAH-lahn nee-NYOH"}
+{"id":"tl.c0040","deck":"tl.d.about-me","tl":"Taga-Amerika ako.","rom":"tah-gah-ah-MEH-ree-kah ah-KOH"}
+{"id":"tl.c0041","deck":"tl.d.about-me","tl":"Taga-saan ka?","rom":"tah-gah-sah-AHN kah"}
+{"id":"tl.c0042","deck":"tl.d.about-me","tl":"Taga-saan po kayo?","rom":"tah-gah-sah-AHN poh kah-YOH"}
+{"id":"tl.c0043","deck":"tl.d.about-me","tl":"Amerikano ako.","rom":"ah-meh-ree-KAH-noh ah-KOH"}
+{"id":"tl.c0044","deck":"tl.d.about-me","tl":"Pilipino-Amerikano ako.","rom":"pee-lee-PEE-noh ah-meh-ree-KAH-noh ah-KOH"}
+{"id":"tl.c0045","deck":"tl.d.about-me","tl":"Nakatira ako sa Maynila.","rom":"nah-kah-tee-RAH ah-KOH sah mai-NEE-lahq"}
+{"id":"tl.c0046","deck":"tl.d.about-me","tl":"Ilang taon ka na?","rom":"ee-LAHNG tah-OHN kah nah"}
+{"id":"tl.c0047","deck":"tl.d.about-me","tl":"Ilang taon na po kayo?","rom":"ee-LAHNG tah-OHN nah poh kah-YOH"}
+{"id":"tl.c0048","deck":"tl.d.about-me","tl":"Dalawampu't limang taon na ako.","rom":"dah-lah-wahm-POOT lee-MAHNG tah-OHN nah ah-KOH"}
+{"id":"tl.c0049","deck":"tl.d.about-me","tl":"Nag-aaral ako ng Tagalog.","rom":"nahg-ah-AH-rahl ah-KOH nahng tah-GAH-lohg"}
+{"id":"tl.c0050","deck":"tl.d.about-me","tl":"Kaunti lang ang alam kong Tagalog.","rom":"kah-oon-TEE lahng ahng ah-LAHM kohng tah-GAH-lohg"}
+{"id":"tl.c0051","deck":"tl.d.about-me","tl":"Marunong ka bang mag-Ingles?","rom":"mah-ROO-nohng kah bahng mahg-eeng-LEHS"}
+{"id":"tl.c0052","deck":"tl.d.about-me","tl":"Ano ang trabaho mo?","rom":"ah-NOH ahng trah-BAH-hoh moh"}
+{"id":"tl.c0053","deck":"tl.d.about-me","tl":"May asawa na ako.","rom":"mai ah-SAH-wah nah ah-KOH"}
+{"id":"tl.c0054","deck":"tl.d.family-and-people","tl":"nanay","rom":"NAH-nai"}
+{"id":"tl.c0055","deck":"tl.d.family-and-people","tl":"tatay","rom":"TAH-tai"}
+{"id":"tl.c0056","deck":"tl.d.family-and-people","tl":"kuya","rom":"KOO-yah"}
+{"id":"tl.c0057","deck":"tl.d.family-and-people","tl":"ate","rom":"AH-teh"}
+{"id":"tl.c0058","deck":"tl.d.family-and-people","tl":"lola","rom":"LOH-lah"}
+{"id":"tl.c0059","deck":"tl.d.family-and-people","tl":"lolo","rom":"LOH-loh"}
+{"id":"tl.c0060","deck":"tl.d.family-and-people","tl":"tita","rom":"TEE-tah"}
+{"id":"tl.c0061","deck":"tl.d.family-and-people","tl":"tito","rom":"TEE-toh"}
+{"id":"tl.c0062","deck":"tl.d.family-and-people","tl":"kapatid","rom":"kah-pah-TEED"}
+{"id":"tl.c0063","deck":"tl.d.family-and-people","tl":"kapatid na babae","rom":"kah-pah-TEED nah bah-BAH-eh"}
+{"id":"tl.c0064","deck":"tl.d.family-and-people","tl":"anak","rom":"ah-NAHK"}
+{"id":"tl.c0065","deck":"tl.d.family-and-people","tl":"asawa","rom":"ah-SAH-wah"}
+{"id":"tl.c0066","deck":"tl.d.family-and-people","tl":"pinsan","rom":"PEEN-sahn"}
+{"id":"tl.c0067","deck":"tl.d.family-and-people","tl":"bunso","rom":"boon-SOHQ"}
+{"id":"tl.c0068","deck":"tl.d.family-and-people","tl":"mga magulang ko","rom":"mah-NGAH mah-GOO-lahng koh"}
+{"id":"tl.c0069","deck":"tl.d.family-and-people","tl":"Ito ang pamilya ko.","rom":"ee-TOH ahng pah-MEEL-yah koh"}
+{"id":"tl.c0070","deck":"tl.d.family-and-people","tl":"Siya si Juan.","rom":"shah see hwahn"}
+{"id":"tl.c0071","deck":"tl.d.family-and-people","tl":"Kaibigan ko si Joy.","rom":"kah-ee-BEE-gahn koh see joy"}
+{"id":"tl.c0072","deck":"tl.d.numbers-and-money","tl":"isa","rom":"ee-SAH"}
+{"id":"tl.c0073","deck":"tl.d.numbers-and-money","tl":"dalawa","rom":"dah-lah-WAH"}
+{"id":"tl.c0074","deck":"tl.d.numbers-and-money","tl":"tatlo","rom":"taht-LOH"}
+{"id":"tl.c0075","deck":"tl.d.numbers-and-money","tl":"lima","rom":"lee-MAH"}
+{"id":"tl.c0076","deck":"tl.d.numbers-and-money","tl":"sampu","rom":"sahm-POOQ"}
+{"id":"tl.c0077","deck":"tl.d.numbers-and-money","tl":"apat na aso","rom":"AH-paht nah AH-soh"}
+{"id":"tl.c0078","deck":"tl.d.numbers-and-money","tl":"dalawang daan","rom":"dah-lah-WAHNG dah-AHN"}
+{"id":"tl.c0079","deck":"tl.d.numbers-and-money","tl":"isang daang piso","rom":"ee-SAHNG dah-AHNG PEE-soh"}
+{"id":"tl.c0080","deck":"tl.d.numbers-and-money","tl":"isang libo","rom":"ee-SAHNG LEE-boh"}
+{"id":"tl.c0081","deck":"tl.d.numbers-and-money","tl":"bente pesos","rom":"BEHN-teh PEH-sohs"}
+{"id":"tl.c0082","deck":"tl.d.numbers-and-money","tl":"singkwenta pesos","rom":"seeng-KWEHN-tah PEH-sohs"}
+{"id":"tl.c0083","deck":"tl.d.numbers-and-money","tl":"Magkano po ito?","rom":"mahg-KAH-noh poh ee-TOH"}
+{"id":"tl.c0084","deck":"tl.d.numbers-and-money","tl":"Magkano po lahat?","rom":"mahg-KAH-noh poh lah-HAHT"}
+{"id":"tl.c0085","deck":"tl.d.numbers-and-money","tl":"sukli","rom":"soo-KLEEQ"}
+{"id":"tl.c0086","deck":"tl.d.numbers-and-money","tl":"pera","rom":"PEH-rah"}
+{"id":"tl.c0087","deck":"tl.d.numbers-and-money","tl":"Wala po akong barya.","rom":"wah-LAH poh ah-KOHNG bahr-YAH"}
+{"id":"tl.c0088","deck":"tl.d.time-days-and-dates","tl":"Anong oras na?","rom":"ah-NOHNG OH-rahs nah"}
+{"id":"tl.c0089","deck":"tl.d.time-days-and-dates","tl":"alas-tres","rom":"ah-lahs-TREHS"}
+{"id":"tl.c0090","deck":"tl.d.time-days-and-dates","tl":"ala-una ng hapon","rom":"ah-lah-OO-nah nahng HAH-pohn"}
+{"id":"tl.c0091","deck":"tl.d.time-days-and-dates","tl":"Alas-singko y medya.","rom":"ah-lahs-SEENG-koh ee MEH-jah"}
+{"id":"tl.c0092","deck":"tl.d.time-days-and-dates","tl":"tatlong oras","rom":"taht-LOHNG OH-rahs"}
+{"id":"tl.c0093","deck":"tl.d.time-days-and-dates","tl":"limang minuto","rom":"lee-MAHNG mee-NOO-toh"}
+{"id":"tl.c0094","deck":"tl.d.time-days-and-dates","tl":"kahapon","rom":"kah-HAH-pohn"}
+{"id":"tl.c0095","deck":"tl.d.time-days-and-dates","tl":"bukas","rom":"BOO-kahs"}
+{"id":"tl.c0096","deck":"tl.d.time-days-and-dates","tl":"kanina","rom":"kah-NEE-nah"}
+{"id":"tl.c0097","deck":"tl.d.time-days-and-dates","tl":"Anong araw ngayon?","rom":"ah-NOHNG AH-row ngah-YOHN"}
+{"id":"tl.c0098","deck":"tl.d.time-days-and-dates","tl":"Lunes","rom":"LOO-nehs"}
+{"id":"tl.c0099","deck":"tl.d.time-days-and-dates","tl":"Martes","rom":"mahr-TEHS"}
+{"id":"tl.c0100","deck":"tl.d.time-days-and-dates","tl":"Miyerkoles","rom":"MYEHR-koh-lehs"}
+{"id":"tl.c0101","deck":"tl.d.time-days-and-dates","tl":"Huwebes","rom":"HWEH-behs"}
+{"id":"tl.c0102","deck":"tl.d.time-days-and-dates","tl":"Biyernes","rom":"BYEHR-nehs"}
+{"id":"tl.c0103","deck":"tl.d.time-days-and-dates","tl":"Sabado","rom":"SAH-bah-doh"}
+{"id":"tl.c0104","deck":"tl.d.time-days-and-dates","tl":"Linggo","rom":"leeng-GOH"}
+{"id":"tl.c0105","deck":"tl.d.food-and-drink","tl":"kanin","rom":"KAH-neen"}
+{"id":"tl.c0106","deck":"tl.d.food-and-drink","tl":"ulam","rom":"OO-lahm"}
+{"id":"tl.c0107","deck":"tl.d.food-and-drink","tl":"tubig","rom":"TOO-beeg"}
+{"id":"tl.c0108","deck":"tl.d.food-and-drink","tl":"Kain tayo!","rom":"KAH-een TAH-yoh"}
+{"id":"tl.c0109","deck":"tl.d.food-and-drink","tl":"Kumain ka na?","rom":"koo-MAH-een kah nah"}
+{"id":"tl.c0110","deck":"tl.d.food-and-drink","tl":"Kumain na po kayo?","rom":"koo-MAH-een nah poh kah-YOH"}
+{"id":"tl.c0111","deck":"tl.d.food-and-drink","tl":"Gutom na ako.","rom":"goo-TOHM nah ah-KOH"}
+{"id":"tl.c0112","deck":"tl.d.food-and-drink","tl":"Busog na ako.","rom":"boo-SOHG nah ah-KOH"}
+{"id":"tl.c0113","deck":"tl.d.food-and-drink","tl":"masarap","rom":"mah-sah-RAHP"}
+{"id":"tl.c0114","deck":"tl.d.food-and-drink","tl":"adobo","rom":"ah-DOH-boh"}
+{"id":"tl.c0115","deck":"tl.d.food-and-drink","tl":"sinigang","rom":"see-nee-GAHNG"}
+{"id":"tl.c0116","deck":"tl.d.food-and-drink","tl":"pandesal","rom":"pahn-deh-SAHL"}
+{"id":"tl.c0117","deck":"tl.d.food-and-drink","tl":"manok","rom":"mah-NOHK"}
+{"id":"tl.c0118","deck":"tl.d.food-and-drink","tl":"isda","rom":"ees-DAHQ"}
+{"id":"tl.c0119","deck":"tl.d.food-and-drink","tl":"Isang kape nga po.","rom":"ee-SAHNG kah-PEH ngah pohq"}
+{"id":"tl.c0120","deck":"tl.d.food-and-drink","tl":"Isa pa nga po.","rom":"ee-SAH pah ngah pohq"}
+{"id":"tl.c0121","deck":"tl.d.food-and-drink","tl":"May tubig ba?","rom":"mai TOO-beeg bah"}
+{"id":"tl.c0122","deck":"tl.d.food-and-drink","tl":"Wala nang kanin.","rom":"wah-LAH nahng KAH-neen"}
+{"id":"tl.c0123","deck":"tl.d.shopping-and-the-market","tl":"palengke","rom":"pah-LEHNG-keh"}
+{"id":"tl.c0124","deck":"tl.d.shopping-and-the-market","tl":"tindahan","rom":"teen-DAH-hahn"}
+{"id":"tl.c0125","deck":"tl.d.shopping-and-the-market","tl":"Pabili po.","rom":"pah-bee-LEE pohq"}
+{"id":"tl.c0126","deck":"tl.d.shopping-and-the-market","tl":"Pabili po ng tatlong mangga.","rom":"pah-bee-LEE poh nahng taht-LOHNG mahng-GAH"}
+{"id":"tl.c0127","deck":"tl.d.shopping-and-the-market","tl":"ito","rom":"ee-TOH"}
+{"id":"tl.c0128","deck":"tl.d.shopping-and-the-market","tl":"iyan","rom":"ee-YAHN"}
+{"id":"tl.c0129","deck":"tl.d.shopping-and-the-market","tl":"iyon","rom":"ee-YOHN"}
+{"id":"tl.c0130","deck":"tl.d.shopping-and-the-market","tl":"Ano ito?","rom":"ah-NOH ee-TOH"}
+{"id":"tl.c0131","deck":"tl.d.shopping-and-the-market","tl":"Magkano po iyan?","rom":"mahg-KAH-noh poh ee-YAHN"}
+{"id":"tl.c0132","deck":"tl.d.shopping-and-the-market","tl":"mahal","rom":"mah-HAHL"}
+{"id":"tl.c0133","deck":"tl.d.shopping-and-the-market","tl":"mura","rom":"MOO-rah"}
+{"id":"tl.c0134","deck":"tl.d.shopping-and-the-market","tl":"Ang mahal naman!","rom":"ahng mah-HAHL nah-MAHN"}
+{"id":"tl.c0135","deck":"tl.d.shopping-and-the-market","tl":"Mura lang po ito.","rom":"MOO-rah lahng poh ee-TOH"}
+{"id":"tl.c0136","deck":"tl.d.shopping-and-the-market","tl":"Ito na lang po.","rom":"ee-TOH nah lahng pohq"}
+{"id":"tl.c0137","deck":"tl.d.shopping-and-the-market","tl":"Ano po'ng sa inyo?","rom":"ah-NOH pohng sah ee-NYOH"}
+{"id":"tl.c0138","deck":"tl.d.shopping-and-the-market","tl":"Bibili ako ng isda.","rom":"bee-bee-LEE ah-KOH nahng ees-DAHQ"}
+{"id":"tl.c0139","deck":"tl.d.shopping-and-the-market","tl":"Binili ko ang isda.","rom":"bee-nee-LEE koh ahng ees-DAHQ"}
+{"id":"tl.c0140","deck":"tl.d.home-and-daily-routine","tl":"bahay","rom":"BAH-hai"}
+{"id":"tl.c0141","deck":"tl.d.home-and-daily-routine","tl":"bahay ni Lola","rom":"BAH-hai nee LOH-lah"}
+{"id":"tl.c0142","deck":"tl.d.home-and-daily-routine","tl":"kusina","rom":"koo-SEE-nah"}
+{"id":"tl.c0143","deck":"tl.d.home-and-daily-routine","tl":"kuwarto","rom":"KWAHR-toh"}
+{"id":"tl.c0144","deck":"tl.d.home-and-daily-routine","tl":"banyo","rom":"BAH-nyoh"}
+{"id":"tl.c0145","deck":"tl.d.home-and-daily-routine","tl":"sala","rom":"SAH-lah"}
+{"id":"tl.c0146","deck":"tl.d.home-and-daily-routine","tl":"Malinis ang kuwarto ko.","rom":"mah-LEE-nees ahng KWAHR-toh koh"}
+{"id":"tl.c0147","deck":"tl.d.home-and-daily-routine","tl":"Nagluluto si Nanay sa kusina.","rom":"nahg-loo-LOO-toh see NAH-nai sah koo-SEE-nah"}
+{"id":"tl.c0148","deck":"tl.d.home-and-daily-routine","tl":"gising","rom":"ghee-SEENG"}
+{"id":"tl.c0149","deck":"tl.d.home-and-daily-routine","tl":"Gising ka pa?","rom":"ghee-SEENG kah pah"}
+{"id":"tl.c0150","deck":"tl.d.home-and-daily-routine","tl":"maligo","rom":"mah-LEE-gohq"}
+{"id":"tl.c0151","deck":"tl.d.home-and-daily-routine","tl":"Naligo na ako.","rom":"nah-LEE-goh nah ah-KOH"}
+{"id":"tl.c0152","deck":"tl.d.home-and-daily-routine","tl":"Alas-sais ako gumising.","rom":"ah-lahs-sah-EES ah-KOH goo-MEE-seeng"}
+{"id":"tl.c0153","deck":"tl.d.home-and-daily-routine","tl":"Nagluto si Lola ng adobo.","rom":"nahg-LOO-toh see LOH-lah nahng ah-DOH-boh"}
+{"id":"tl.c0154","deck":"tl.d.home-and-daily-routine","tl":"matulog","rom":"mah-TOO-lohg"}
+{"id":"tl.c0155","deck":"tl.d.home-and-daily-routine","tl":"Tulog na si Ana.","rom":"too-LOHG nah see AH-nah"}
+{"id":"tl.c0156","deck":"tl.d.home-and-daily-routine","tl":"Umuwi na si Tatay.","rom":"oo-moo-WEE nah see TAH-tai"}
+{"id":"tl.c0157","deck":"tl.d.around-town-and-directions","tl":"Nasaan ang CR?","rom":"nah-sah-AHN ahng see-AHR"}
+{"id":"tl.c0158","deck":"tl.d.around-town-and-directions","tl":"Nasaan po ang ospital?","rom":"nah-sah-AHN poh ahng ohs-pee-TAHL"}
+{"id":"tl.c0159","deck":"tl.d.around-town-and-directions","tl":"simbahan","rom":"seem-BAH-hahn"}
+{"id":"tl.c0160","deck":"tl.d.around-town-and-directions","tl":"malapit","rom":"mah-LAH-peet"}
+{"id":"tl.c0161","deck":"tl.d.around-town-and-directions","tl":"malayo","rom":"mah-LAH-yohq"}
+{"id":"tl.c0162","deck":"tl.d.around-town-and-directions","tl":"Malapit lang dito.","rom":"mah-LAH-peet lahng DEE-toh"}
+{"id":"tl.c0163","deck":"tl.d.around-town-and-directions","tl":"Malayo pa ba?","rom":"mah-LAH-yoh pah bah"}
+{"id":"tl.c0164","deck":"tl.d.around-town-and-directions","tl":"dito","rom":"DEE-toh"}
+{"id":"tl.c0165","deck":"tl.d.around-town-and-directions","tl":"diyan","rom":"jahn"}
+{"id":"tl.c0166","deck":"tl.d.around-town-and-directions","tl":"doon","rom":"doh-OHN"}
+{"id":"tl.c0167","deck":"tl.d.around-town-and-directions","tl":"Nasa kanto lang.","rom":"NAH-sah KAHN-toh lahng"}
+{"id":"tl.c0168","deck":"tl.d.around-town-and-directions","tl":"Nasa tabi ng simbahan.","rom":"NAH-sah tah-BEE nahng seem-BAH-hahn"}
+{"id":"tl.c0169","deck":"tl.d.around-town-and-directions","tl":"kanan","rom":"KAH-nahn"}
+{"id":"tl.c0170","deck":"tl.d.around-town-and-directions","tl":"kaliwa","rom":"kah-lee-WAHQ"}
+{"id":"tl.c0171","deck":"tl.d.around-town-and-directions","tl":"Kumanan po kayo sa kanto.","rom":"koo-MAH-nahn poh kah-YOH sah KAHN-toh"}
+{"id":"tl.c0172","deck":"tl.d.around-town-and-directions","tl":"Diretso lang po.","rom":"dee-REH-choh lahng pohq"}
+{"id":"tl.c0173","deck":"tl.d.around-town-and-directions","tl":"Saan ka pupunta?","rom":"sah-AHN kah poo-poon-TAH"}
+{"id":"tl.c0174","deck":"tl.d.around-town-and-directions","tl":"Pupunta ako kina Lola.","rom":"poo-poon-TAH ah-KOH kee-NAH LOH-lah"}
+{"id":"tl.c0175","deck":"tl.d.getting-around","tl":"Para po!","rom":"PAH-rah pohq"}
+{"id":"tl.c0176","deck":"tl.d.getting-around","tl":"Bayad po.","rom":"BAH-yahd pohq"}
+{"id":"tl.c0177","deck":"tl.d.getting-around","tl":"jeep","rom":"jeep"}
+{"id":"tl.c0178","deck":"tl.d.getting-around","tl":"sakayan","rom":"sah-KAH-yahn"}
+{"id":"tl.c0179","deck":"tl.d.getting-around","tl":"Kuya, sa Makati po.","rom":"KOO-yah sah mah-KAH-tee pohq"}
+{"id":"tl.c0180","deck":"tl.d.getting-around","tl":"tricycle","rom":"trai-see-KEHL"}
+{"id":"tl.c0181","deck":"tl.d.getting-around","tl":"taxi","rom":"TAHK-see"}
+{"id":"tl.c0182","deck":"tl.d.getting-around","tl":"Saan po ang sakayan papuntang Makati?","rom":"sah-AHN poh ahng sah-KAH-yahn pah-poon-TAHNG mah-KAH-tee"}
+{"id":"tl.c0183","deck":"tl.d.getting-around","tl":"Magkano po hanggang Maynila?","rom":"mahg-KAH-noh poh hahng-GAHNG mai-NEE-lahq"}
+{"id":"tl.c0184","deck":"tl.d.getting-around","tl":"Magkano po ang pamasahe?","rom":"mahg-KAH-noh poh ahng pah-mah-SAH-heh"}
+{"id":"tl.c0185","deck":"tl.d.getting-around","tl":"Sa tabi lang po.","rom":"sah tah-BEE lahng pohq"}
+{"id":"tl.c0186","deck":"tl.d.getting-around","tl":"Dadaan po ba ito sa Maynila?","rom":"dah-dah-AHN poh bah ee-TOH sah mai-NEE-lahq"}
+{"id":"tl.c0187","deck":"tl.d.getting-around","tl":"Pakiabot po ang bayad.","rom":"pah-kee-ah-BOHT poh ahng BAH-yahd"}
+{"id":"tl.c0188","deck":"tl.d.getting-around","tl":"Bayad po, dalawa.","rom":"BAH-yahd pohq dah-lah-WAH"}
+{"id":"tl.c0189","deck":"tl.d.getting-around","tl":"Dito na lang po.","rom":"DEE-toh nah lahng pohq"}
+{"id":"tl.c0190","deck":"tl.d.getting-around","tl":"Malapit na tayo.","rom":"mah-LAH-peet nah TAH-yoh"}
+{"id":"tl.c0191","deck":"tl.d.getting-around","tl":"Sasakay ako ng jeep.","rom":"sah-sah-KAI ah-KOH nahng jeep"}
+{"id":"tl.c0192","deck":"tl.d.health-and-help","tl":"Masakit ang ulo ko.","rom":"mah-sah-KEET ahng OO-loh koh"}
+{"id":"tl.c0193","deck":"tl.d.health-and-help","tl":"Masakit ang tiyan ko.","rom":"mah-sah-KEET ahng tee-YAHN koh"}
+{"id":"tl.c0194","deck":"tl.d.health-and-help","tl":"Saan masakit?","rom":"sah-AHN mah-sah-KEET"}
+{"id":"tl.c0195","deck":"tl.d.health-and-help","tl":"May sakit ako.","rom":"mai sah-KEET ah-KOH"}
+{"id":"tl.c0196","deck":"tl.d.health-and-help","tl":"May lagnat ako.","rom":"mai lahg-NAHT ah-KOH"}
+{"id":"tl.c0197","deck":"tl.d.health-and-help","tl":"Masama ang pakiramdam ko.","rom":"mah-sah-MAH ahng pah-kee-rahm-DAHM koh"}
+{"id":"tl.c0198","deck":"tl.d.health-and-help","tl":"Tulong!","rom":"TOO-lohng"}
+{"id":"tl.c0199","deck":"tl.d.health-and-help","tl":"botika","rom":"boh-TEE-kah"}
+{"id":"tl.c0200","deck":"tl.d.health-and-help","tl":"gamot","rom":"gah-MOHT"}
+{"id":"tl.c0201","deck":"tl.d.health-and-help","tl":"Kailangan ko ng doktor.","rom":"kah-ee-LAH-ngahn koh nahng dohk-TOHR"}
+{"id":"tl.c0202","deck":"tl.d.health-and-help","tl":"Pakitulungan po ako.","rom":"pah-kee-too-LOO-ngahn poh ah-KOH"}
+{"id":"tl.c0203","deck":"tl.d.health-and-help","tl":"Pakitawag po ng doktor.","rom":"pah-kee-TAH-wahg poh nahng dohk-TOHR"}
+{"id":"tl.c0204","deck":"tl.d.health-and-help","tl":"Puwede po bang magtanong?","rom":"PWEH-deh poh bahng mahg-tah-NOHNG"}
+{"id":"tl.c0205","deck":"tl.d.health-and-help","tl":"Uminom ka ng gamot.","rom":"oo-mee-NOHM kah nahng gah-MOHT"}
+{"id":"tl.c0206","deck":"tl.d.health-and-help","tl":"Magpahinga ka muna.","rom":"mahg-pah-hee-NGAH kah MOO-nah"}
+{"id":"tl.c0207","deck":"tl.d.health-and-help","tl":"Huwag kang mag-alala.","rom":"hoo-WAHG kahng mahg-ah-lah-LAH"}
+{"id":"tl.c0208","deck":"tl.d.health-and-help","tl":"Okey ka lang ba?","rom":"OH-kay kah lahng bah"}
+{"id":"tl.c0209","deck":"tl.d.work-and-school","tl":"trabaho","rom":"trah-BAH-hoh"}
+{"id":"tl.c0210","deck":"tl.d.work-and-school","tl":"opisina","rom":"oh-pee-SEE-nah"}
+{"id":"tl.c0211","deck":"tl.d.work-and-school","tl":"guro","rom":"GOO-rohq"}
+{"id":"tl.c0212","deck":"tl.d.work-and-school","tl":"estudyante","rom":"ehs-too-JAHN-teh"}
+{"id":"tl.c0213","deck":"tl.d.work-and-school","tl":"eskuwelahan","rom":"ehs-KWEH-lah-hahn"}
+{"id":"tl.c0214","deck":"tl.d.work-and-school","tl":"Nagtatrabaho ako sa ospital.","rom":"nahg-tah-trah-BAH-hoh ah-KOH sah ohs-pee-TAHL"}
+{"id":"tl.c0215","deck":"tl.d.work-and-school","tl":"Saan po kayo nagtatrabaho?","rom":"sah-AHN poh kah-YOH nahg-tah-trah-BAH-hoh"}
+{"id":"tl.c0216","deck":"tl.d.work-and-school","tl":"Magtatrabaho ako bukas.","rom":"mahg-tah-trah-BAH-hoh ah-KOH BOO-kahs"}
+{"id":"tl.c0217","deck":"tl.d.work-and-school","tl":"Nag-aral ako kahapon.","rom":"nahg-AH-rahl ah-KOH kah-HAH-pohn"}
+{"id":"tl.c0218","deck":"tl.d.work-and-school","tl":"Nag-aaral pa ako.","rom":"nahg-ah-AH-rahl pah ah-KOH"}
+{"id":"tl.c0219","deck":"tl.d.work-and-school","tl":"Mag-aaral ako mamaya.","rom":"mahg-ah-AH-rahl ah-KOH mah-mah-YAHQ"}
+{"id":"tl.c0220","deck":"tl.d.work-and-school","tl":"May pasok ka bukas?","rom":"mai PAH-sohk kah BOO-kahs"}
+{"id":"tl.c0221","deck":"tl.d.work-and-school","tl":"Walang pasok ngayon.","rom":"wah-LAHNG PAH-sohk ngah-YOHN"}
+{"id":"tl.c0222","deck":"tl.d.work-and-school","tl":"Anong oras ang pasok mo?","rom":"ah-NOHNG OH-rahs ahng PAH-sohk moh"}
+{"id":"tl.c0223","deck":"tl.d.work-and-school","tl":"Ano ang kurso mo?","rom":"ah-NOH ahng KOOR-soh moh"}
+{"id":"tl.c0224","deck":"tl.d.work-and-school","tl":"Tapos na ang klase.","rom":"tah-POHS nah ahng KLAH-seh"}
+{"id":"tl.c0225","deck":"tl.d.work-and-school","tl":"Pagod ako sa trabaho.","rom":"pah-GOHD ah-KOH sah trah-BAH-hoh"}
+{"id":"tl.c0226","deck":"tl.d.describing-people-and-things","tl":"maganda","rom":"mah-gahn-DAH"}
+{"id":"tl.c0227","deck":"tl.d.describing-people-and-things","tl":"malaking bahay","rom":"mah-lah-KEENG BAH-hai"}
+{"id":"tl.c0228","deck":"tl.d.describing-people-and-things","tl":"mabait","rom":"mah-bah-EET"}
+{"id":"tl.c0229","deck":"tl.d.describing-people-and-things","tl":"matangkad","rom":"mah-tahng-KAHD"}
+{"id":"tl.c0230","deck":"tl.d.describing-people-and-things","tl":"maliit","rom":"mah-lee-EET"}
+{"id":"tl.c0231","deck":"tl.d.describing-people-and-things","tl":"pangit","rom":"PAH-ngeet"}
+{"id":"tl.c0232","deck":"tl.d.describing-people-and-things","tl":"bago","rom":"BAH-goh"}
+{"id":"tl.c0233","deck":"tl.d.describing-people-and-things","tl":"luma","rom":"LOO-mahq"}
+{"id":"tl.c0234","deck":"tl.d.describing-people-and-things","tl":"matanda","rom":"mah-tahn-DAHQ"}
+{"id":"tl.c0235","deck":"tl.d.describing-people-and-things","tl":"mabilis","rom":"mah-bee-LEES"}
+{"id":"tl.c0236","deck":"tl.d.describing-people-and-things","tl":"mabagal","rom":"mah-BAH-gahl"}
+{"id":"tl.c0237","deck":"tl.d.describing-people-and-things","tl":"magandang babae","rom":"mah-gahn-DAHNG bah-BAH-eh"}
+{"id":"tl.c0238","deck":"tl.d.describing-people-and-things","tl":"mabait na bata","rom":"mah-bah-EET nah BAH-tahq"}
+{"id":"tl.c0239","deck":"tl.d.describing-people-and-things","tl":"Ang ganda!","rom":"ahng gahn-DAH"}
+{"id":"tl.c0240","deck":"tl.d.describing-people-and-things","tl":"Mas malaki ito kaysa diyan.","rom":"mahs mah-lah-KEE ee-TOH kai-SAH jahn"}
+{"id":"tl.c0241","deck":"tl.d.describing-people-and-things","tl":"Mas matangkad si Juan kay Mark.","rom":"mahs mah-tahng-KAHD see hwahn kai mahrk"}
+{"id":"tl.c0242","deck":"tl.d.describing-people-and-things","tl":"pinakamaganda","rom":"pee-nah-kah-mah-gahn-DAH"}
+{"id":"tl.c0243","deck":"tl.d.feelings-and-free-time","tl":"Masaya ako.","rom":"mah-sah-YAH ah-KOH"}
+{"id":"tl.c0244","deck":"tl.d.feelings-and-free-time","tl":"Malungkot ako.","rom":"mah-loong-KOHT ah-KOH"}
+{"id":"tl.c0245","deck":"tl.d.feelings-and-free-time","tl":"Pagod na ako.","rom":"pah-GOHD nah ah-KOH"}
+{"id":"tl.c0246","deck":"tl.d.feelings-and-free-time","tl":"Galit siya.","rom":"gah-LEET shah"}
+{"id":"tl.c0247","deck":"tl.d.feelings-and-free-time","tl":"Takot ako sa aso.","rom":"tah-KOHT ah-KOH sah AH-soh"}
+{"id":"tl.c0248","deck":"tl.d.feelings-and-free-time","tl":"Inaantok na ako.","rom":"ee-nah-ahn-TOHK nah ah-KOH"}
+{"id":"tl.c0249","deck":"tl.d.feelings-and-free-time","tl":"Masaya ako para sa iyo.","rom":"mah-sah-YAH ah-KOH PAH-rah sah ee-YOH"}
+{"id":"tl.c0250","deck":"tl.d.feelings-and-free-time","tl":"Gusto ko ng kape.","rom":"goos-TOH koh nahng kah-PEH"}
+{"id":"tl.c0251","deck":"tl.d.feelings-and-free-time","tl":"Gusto kong sumayaw.","rom":"goos-TOH kohng soo-mah-YOW"}
+{"id":"tl.c0252","deck":"tl.d.feelings-and-free-time","tl":"Ayoko.","rom":"ah-YOH-koh"}
+{"id":"tl.c0253","deck":"tl.d.feelings-and-free-time","tl":"sumayaw","rom":"soo-mah-YOW"}
+{"id":"tl.c0254","deck":"tl.d.feelings-and-free-time","tl":"kumanta","rom":"koo-mahn-TAH"}
+{"id":"tl.c0255","deck":"tl.d.feelings-and-free-time","tl":"Mahilig akong kumanta.","rom":"mah-HEE-leeg ah-KOHNG koo-mahn-TAH"}
+{"id":"tl.c0256","deck":"tl.d.feelings-and-free-time","tl":"Naglaro kami ng basketball.","rom":"nahg-lah-ROH kah-MEE nahng BAHS-keht-bohl"}
+{"id":"tl.c0257","deck":"tl.d.feelings-and-free-time","tl":"Pumunta kami sa mall.","rom":"poo-moon-TAH kah-MEE sah mohl"}
+{"id":"tl.c0258","deck":"tl.d.feelings-and-free-time","tl":"Manood tayo ng sine.","rom":"mah-noh-OHD TAH-yoh nahng SEE-neh"}
+{"id":"tl.c0259","deck":"tl.d.feelings-and-free-time","tl":"Gusto mo bang sumama?","rom":"goos-TOH moh bahng soo-MAH-mah"}
+{"id":"tl.c0260","deck":"tl.d.questions-and-little-words","tl":"Ano?","rom":"ah-NOH"}
+{"id":"tl.c0261","deck":"tl.d.questions-and-little-words","tl":"Sino?","rom":"SEE-noh"}
+{"id":"tl.c0262","deck":"tl.d.questions-and-little-words","tl":"Saan?","rom":"sah-AHN"}
+{"id":"tl.c0263","deck":"tl.d.questions-and-little-words","tl":"Kailan?","rom":"kah-ee-LAHN"}
+{"id":"tl.c0264","deck":"tl.d.questions-and-little-words","tl":"Bakit?","rom":"BAH-keet"}
+{"id":"tl.c0265","deck":"tl.d.questions-and-little-words","tl":"Paano?","rom":"pah-AH-noh"}
+{"id":"tl.c0266","deck":"tl.d.questions-and-little-words","tl":"Alin?","rom":"ah-LEEN"}
+{"id":"tl.c0267","deck":"tl.d.questions-and-little-words","tl":"Ilan?","rom":"ee-LAHN"}
+{"id":"tl.c0268","deck":"tl.d.questions-and-little-words","tl":"Sino siya?","rom":"SEE-noh shah"}
+{"id":"tl.c0269","deck":"tl.d.questions-and-little-words","tl":"Nasaan ka?","rom":"nah-sah-AHN kah"}
+{"id":"tl.c0270","deck":"tl.d.questions-and-little-words","tl":"Pagod ka ba?","rom":"pah-GOHD kah bah"}
+{"id":"tl.c0271","deck":"tl.d.questions-and-little-words","tl":"Kumain ka na ba?","rom":"koo-MAH-een kah nah bah"}
+{"id":"tl.c0272","deck":"tl.d.questions-and-little-words","tl":"Kumain na po ba kayo?","rom":"koo-MAH-een nah poh bah kah-YOH"}
+{"id":"tl.c0273","deck":"tl.d.questions-and-little-words","tl":"lang","rom":"lahng"}
+{"id":"tl.c0274","deck":"tl.d.questions-and-little-words","tl":"Ikaw naman?","rom":"ee-KOW nah-MAHN"}
+{"id":"tl.c0275","deck":"tl.d.questions-and-little-words","tl":"Ako rin.","rom":"ah-KOH reen"}
+{"id":"tl.c0276","deck":"tl.d.questions-and-little-words","tl":"Pagod din ako.","rom":"pah-GOHD deen ah-KOH"}
+{"id":"tl.c0277","deck":"tl.d.questions-and-little-words","tl":"Sandali lang po.","rom":"sahn-dah-LEE lahng pohq"}
+{"id":"tl.c0278","deck":"tl.d.traps-for-english-speakers","tl":"Hindi po.","rom":"heen-DEE pohq"}
+{"id":"tl.c0279","deck":"tl.d.traps-for-english-speakers","tl":"Hindi pa.","rom":"heen-DEE pah"}
+{"id":"tl.c0280","deck":"tl.d.traps-for-english-speakers","tl":"Hindi ko alam.","rom":"heen-DEE koh ah-LAHM"}
+{"id":"tl.c0281","deck":"tl.d.traps-for-english-speakers","tl":"Hindi ako pagod.","rom":"heen-DEE ah-KOH pah-GOHD"}
+{"id":"tl.c0282","deck":"tl.d.traps-for-english-speakers","tl":"Wala.","rom":"wah-LAHQ"}
+{"id":"tl.c0283","deck":"tl.d.traps-for-english-speakers","tl":"Wala akong pera.","rom":"wah-LAH ah-KOHNG PEH-rah"}
+{"id":"tl.c0284","deck":"tl.d.traps-for-english-speakers","tl":"Huwag!","rom":"hoo-WAHG"}
+{"id":"tl.c0285","deck":"tl.d.traps-for-english-speakers","tl":"Huwag kang umalis.","rom":"hoo-WAHG kahng oo-mah-LEES"}
+{"id":"tl.c0286","deck":"tl.d.traps-for-english-speakers","tl":"siya","rom":"shah"}
+{"id":"tl.c0287","deck":"tl.d.traps-for-english-speakers","tl":"Taga-Amerika kami.","rom":"tah-gah-ah-MEH-ree-kah kah-MEE"}
+{"id":"tl.c0288","deck":"tl.d.traps-for-english-speakers","tl":"Pupunta tayo sa Cebu.","rom":"poo-poon-TAH TAH-yoh sah seh-BOO"}
+{"id":"tl.c0289","deck":"tl.d.traps-for-english-speakers","tl":"Kilala ko si Ana.","rom":"kee-lah-LAH koh see AH-nah"}
+{"id":"tl.c0290","deck":"tl.d.traps-for-english-speakers","tl":"Marunong akong magsalita ng Tagalog.","rom":"mah-ROO-nohng ah-KOHNG mahg-sah-lee-TAH nahng tah-GAH-lohg"}
+{"id":"tl.c0291","deck":"tl.d.traps-for-english-speakers","tl":"Puwede po ba?","rom":"PWEH-deh poh bah"}
+{"id":"tl.c0292","deck":"tl.d.traps-for-english-speakers","tl":"mamaya","rom":"mah-mah-YAHQ"}
+{"id":"tl.c0293","deck":"tl.d.traps-for-english-speakers","tl":"Siguro.","rom":"see-GOO-roh"}
+{"id":"tl.c0294","deck":"tl.d.traps-for-english-speakers","tl":"Mahal kita.","rom":"mah-HAHL kee-TAH"}
+{"id":"tl.c0295","deck":"tl.d.everyday-manila-taglish","tl":"Sige.","rom":"SEE-gheh"}
+{"id":"tl.c0296","deck":"tl.d.everyday-manila-taglish","tl":"Ewan ko.","rom":"EH-wahn koh"}
+{"id":"tl.c0297","deck":"tl.d.everyday-manila-taglish","tl":"Grabe!","rom":"GRAH-beh"}
+{"id":"tl.c0298","deck":"tl.d.everyday-manila-taglish","tl":"Tara!","rom":"tah-RAH"}
+{"id":"tl.c0299","deck":"tl.d.everyday-manila-taglish","tl":"Kain na tayo.","rom":"KAH-een nah TAH-yoh"}
+{"id":"tl.c0300","deck":"tl.d.everyday-manila-taglish","tl":"Talaga?","rom":"tah-lah-GAH"}
+{"id":"tl.c0301","deck":"tl.d.everyday-manila-taglish","tl":"'Di ba?","rom":"dee bah"}
+{"id":"tl.c0302","deck":"tl.d.everyday-manila-taglish","tl":"Ayoko na.","rom":"ah-YOH-koh nah"}
+{"id":"tl.c0303","deck":"tl.d.everyday-manila-taglish","tl":"Ano ba 'yan!","rom":"ah-NOH bah yahn"}
+{"id":"tl.c0304","deck":"tl.d.everyday-manila-taglish","tl":"'Yan ang gusto ko.","rom":"yahn ahng goos-TOH koh"}
+{"id":"tl.c0305","deck":"tl.d.everyday-manila-taglish","tl":"Nasaan 'yung cellphone ko?","rom":"nah-sah-AHN yoong SEHL-fohn koh"}
+{"id":"tl.c0306","deck":"tl.d.everyday-manila-taglish","tl":"pare","rom":"PAH-reh"}
+{"id":"tl.c0307","deck":"tl.d.everyday-manila-taglish","tl":"mare","rom":"MAH-reh"}
+{"id":"tl.c0308","deck":"tl.d.everyday-manila-taglish","tl":"Nag-shopping kami.","rom":"nahg-SHAH-peeng kah-MEE"}
+{"id":"tl.c0309","deck":"tl.d.everyday-manila-taglish","tl":"Paki-on ang aircon.","rom":"pah-kee-OHN ahng EHR-kohn"}
+{"id":"tl.c0310","deck":"tl.d.everyday-manila-taglish","tl":"Ang traffic!","rom":"ahng TRAH-feek"}
+{"id":"tl.c0311","deck":"tl.d.everyday-manila-taglish","tl":"Wait lang.","rom":"wayt lahng"}
+{"id":"tl.c0312","deck":"tl.d.compliments","tl":"Masarap po ang luto ninyo.","rom":"mah-sah-RAHP poh ahng LOO-toh nee-NYOH"}
+{"id":"tl.c0313","deck":"tl.d.compliments","tl":"Masarap ito!","rom":"mah-sah-RAHP ee-TOH"}
+{"id":"tl.c0314","deck":"tl.d.compliments","tl":"Mahusay po kayong magluto.","rom":"mah-HOO-sai poh kah-YOHNG mahg-LOO-tohq"}
+{"id":"tl.c0315","deck":"tl.d.compliments","tl":"Busog na busog ako.","rom":"boo-SOHG nah boo-SOHG ah-KOH"}
+{"id":"tl.c0316","deck":"tl.d.compliments","tl":"Puwede pa po ba?","rom":"PWEH-deh pah poh bah"}
+{"id":"tl.c0317","deck":"tl.d.compliments","tl":"Ang husay mo!","rom":"ahng HOO-sai moh"}
+{"id":"tl.c0318","deck":"tl.d.compliments","tl":"Ang husay ng trabaho mo.","rom":"ahng HOO-sai nahng trah-BAH-hoh moh"}
+{"id":"tl.c0319","deck":"tl.d.compliments","tl":"Ang sipag mo naman!","rom":"ahng SEE-pahg moh nah-MAHN"}
+{"id":"tl.c0320","deck":"tl.d.compliments","tl":"Ang sipag po ninyo.","rom":"ahng SEE-pahg poh nee-NYOH"}
+{"id":"tl.c0321","deck":"tl.d.compliments","tl":"Ang talino mo!","rom":"ahng tah-LEE-noh moh"}
+{"id":"tl.c0322","deck":"tl.d.compliments","tl":"Ang husay mong magsalita.","rom":"ahng HOO-sai mohng mahg-sah-lee-TAHQ"}
+{"id":"tl.c0323","deck":"tl.d.compliments","tl":"Ang bait mo.","rom":"ahng bah-EET moh"}
+{"id":"tl.c0324","deck":"tl.d.compliments","tl":"Bagay sa iyo!","rom":"BAH-gai sah ee-YOH"}
+{"id":"tl.c0325","deck":"tl.d.compliments","tl":"Bagay po sa inyo.","rom":"BAH-gai poh sah ee-NYOH"}
+{"id":"tl.c0326","deck":"tl.d.compliments","tl":"Ang ganda ng damit mo!","rom":"ahng gahn-DAH nahng dah-MEET moh"}
+{"id":"tl.c0327","deck":"tl.d.compliments","tl":"Ang ganda po ng bahay ninyo.","rom":"ahng gahn-DAH poh nahng BAH-hai nee-NYOH"}
+{"id":"tl.c0328","deck":"tl.d.compliments","tl":"Ang linis ng bahay ninyo.","rom":"ahng LEE-nees nahng BAH-hai nee-NYOH"}
+{"id":"tl.c0329","deck":"tl.d.compliments","tl":"Ang ganda po ng anak ninyo.","rom":"ahng gahn-DAH poh nahng ah-NAHK nee-NYOH"}
+{"id":"tl.c0330","deck":"tl.d.compliments","tl":"Malaki na ang anak mo!","rom":"mah-lah-KEE nah ahng ah-NAHK moh"}
+{"id":"tl.c0331","deck":"tl.d.compliments","tl":"Ang husay po ng anak ninyo.","rom":"ahng HOO-sai poh nahng ah-NAHK nee-NYOH"}
+{"id":"tl.c0332","deck":"tl.d.compliments","tl":"Marunong ka palang mag-Tagalog!","rom":"mah-ROO-nohng kah pah-LAHNG mahg-tah-GAH-lohg"}
+{"id":"tl.c0333","deck":"tl.d.compliments","tl":"Ang husay mong mag-Tagalog!","rom":"ahng HOO-sai mohng mahg-tah-GAH-lohg"}
+{"id":"tl.c0334","deck":"tl.d.compliments","tl":"Ang ganda ng Tagalog mo!","rom":"ahng gahn-DAH nahng tah-GAH-lohg moh"}
+{"id":"tl.c0335","deck":"tl.d.compliments","tl":"Hindi naman.","rom":"heen-DEE nah-MAHN"}
+{"id":"tl.c0336","deck":"tl.d.compliments","tl":"Hindi naman po.","rom":"heen-DEE nah-MAHN pohq"}
+{"id":"tl.c0337","deck":"tl.d.compliments","tl":"Salamat, pero nag-aaral pa lang ako.","rom":"sah-LAH-maht PEH-roh nahg-ah-AH-rahl pah lahng ah-KOH"}
+{"id":"tl.c0338","deck":"tl.d.compliments","tl":"Salamat, ikaw rin!","rom":"sah-LAH-maht ee-KOW reen"}
+{"id":"tl.c0339","deck":"tl.d.compliments","tl":"Talaga? Salamat!","rom":"tah-lah-GAH sah-LAH-maht"}
+{"id":"tl.c0340","deck":"tl.d.flirting","tl":"gwapo","rom":"GWAH-poh"}
+{"id":"tl.c0341","deck":"tl.d.flirting","tl":"magandang lalaki","rom":"mah-gahn-DAHNG lah-LAH-kee"}
+{"id":"tl.c0342","deck":"tl.d.flirting","tl":"makisig","rom":"mah-KEE-seeg"}
+{"id":"tl.c0343","deck":"tl.d.flirting","tl":"matalino","rom":"mah-tah-LEE-noh"}
+{"id":"tl.c0344","deck":"tl.d.flirting","tl":"boses","rom":"BOH-sehs"}
+{"id":"tl.c0345","deck":"tl.d.flirting","tl":"porma","rom":"POHR-mah"}
+{"id":"tl.c0346","deck":"tl.d.flirting","tl":"estilo","rom":"ehs-TEE-loh"}
+{"id":"tl.c0347","deck":"tl.d.flirting","tl":"kausap","rom":"kah-OO-sahp"}
+{"id":"tl.c0348","deck":"tl.d.flirting","tl":"torpe","rom":"TOHR-peh"}
+{"id":"tl.c0349","deck":"tl.d.flirting","tl":"bolero","rom":"boh-LEH-roh"}
+{"id":"tl.c0350","deck":"tl.d.flirting","tl":"bolera","rom":"boh-LEH-rah"}
+{"id":"tl.c0351","deck":"tl.d.flirting","tl":"ligaw","rom":"LEE-gow"}
+{"id":"tl.c0352","deck":"tl.d.flirting","tl":"manligaw","rom":"mahn-LEE-gow"}
+{"id":"tl.c0353","deck":"tl.d.flirting","tl":"kasintahan","rom":"kah-seen-TAH-hahn"}
+{"id":"tl.c0354","deck":"tl.d.flirting","tl":"nobyo","rom":"NOH-byoh"}
+{"id":"tl.c0355","deck":"tl.d.flirting","tl":"nobya","rom":"NOH-byah"}
+{"id":"tl.c0356","deck":"tl.d.flirting","tl":"pag-ibig","rom":"pahg-EE-beeg"}
+{"id":"tl.c0357","deck":"tl.d.flirting","tl":"Ang gwapo mo.","rom":"ahng GWAH-poh moh"}
+{"id":"tl.c0358","deck":"tl.d.flirting","tl":"Ang gwapo mo ngayon.","rom":"ahng GWAH-poh moh ngah-YOHN"}
+{"id":"tl.c0359","deck":"tl.d.flirting","tl":"Maganda ka.","rom":"mah-gahn-DAH kah"}
+{"id":"tl.c0360","deck":"tl.d.flirting","tl":"Ang ganda mo.","rom":"ahng gahn-DAH moh"}
+{"id":"tl.c0361","deck":"tl.d.flirting","tl":"Ang ganda mo ngayong gabi.","rom":"ahng gahn-DAH moh ngah-YOHNG gah-BEE"}
+{"id":"tl.c0362","deck":"tl.d.flirting","tl":"Ang ganda ng pangalan mo.","rom":"ahng gahn-DAH nahng pah-NGAH-lahn moh"}
+{"id":"tl.c0363","deck":"tl.d.flirting","tl":"Matalino ka pala.","rom":"mah-tah-LEE-noh kah pah-LAH"}
+{"id":"tl.c0364","deck":"tl.d.flirting","tl":"Ang talino mo talaga.","rom":"ahng tah-LEE-noh moh tah-lah-GAH"}
+{"id":"tl.c0365","deck":"tl.d.flirting","tl":"Ang ganda ng boses mo.","rom":"ahng gahn-DAH nahng BOH-sehs moh"}
+{"id":"tl.c0366","deck":"tl.d.flirting","tl":"Gusto ko ang boses mo.","rom":"goos-TOH koh ahng BOH-sehs moh"}
+{"id":"tl.c0367","deck":"tl.d.flirting","tl":"Ang ganda ng porma mo.","rom":"ahng gahn-DAH nahng POHR-mah moh"}
+{"id":"tl.c0368","deck":"tl.d.flirting","tl":"Pormang-porma ka ngayon!","rom":"POHR-mahng POHR-mah kah ngah-YOHN"}
+{"id":"tl.c0369","deck":"tl.d.flirting","tl":"Masarap kang kausap.","rom":"mah-sah-RAHP kahng kah-OO-sahp"}
+{"id":"tl.c0370","deck":"tl.d.flirting","tl":"Masaya kang kasama.","rom":"mah-sah-YAH kahng kah-SAH-mah"}
+{"id":"tl.c0371","deck":"tl.d.flirting","tl":"Ang bait mo sa akin.","rom":"ahng bah-EET moh sah AH-keen"}
+{"id":"tl.c0372","deck":"tl.d.flirting","tl":"Masaya akong kasama ka.","rom":"mah-sah-YAH ah-KOHNG kah-SAH-mah kah"}
+{"id":"tl.c0373","deck":"tl.d.flirting","tl":"Masaya ako kapag kasama kita.","rom":"mah-sah-YAH ah-KOH kah-PAHG kah-SAH-mah kee-TAH"}
+{"id":"tl.c0374","deck":"tl.d.flirting","tl":"Puwede ba kitang ligawan?","rom":"PWEH-deh bah kee-TAHNG lee-GAH-wahn"}
+{"id":"tl.c0375","deck":"tl.d.flirting","tl":"Huwag kang torpe!","rom":"hoo-WAHG kahng TOHR-peh"}
+{"id":"tl.c0376","deck":"tl.d.flirting","tl":"Kape tayo minsan?","rom":"kah-PEH TAH-yoh MEEN-sahn"}
+{"id":"tl.c0377","deck":"tl.d.flirting","tl":"Libre ka ba sa Sabado?","rom":"LEE-breh kah bah sah SAH-bah-doh"}
+{"id":"tl.c0378","deck":"tl.d.flirting","tl":"Gusto kita.","rom":"goos-TOH kee-TAH"}
+{"id":"tl.c0379","deck":"tl.d.flirting","tl":"May gusto ako sa iyo.","rom":"mai goos-TOH ah-KOH sah ee-YOH"}
+{"id":"tl.c0380","deck":"tl.d.flirting","tl":"Ikaw talaga!","rom":"ee-KOW tah-lah-GAH"}
+{"id":"tl.c0381","deck":"tl.d.flirting","tl":"Bolero ka talaga!","rom":"boh-LEH-roh kah tah-lah-GAH"}
+{"id":"tl.c0382","deck":"tl.d.flirting","tl":"Sige, gusto ko iyan.","rom":"SEE-gheh goos-TOH koh ee-YAHN"}
+{"id":"tl.c0383","deck":"tl.d.flirting","tl":"Sige na nga.","rom":"SEE-gheh nah ngahq"}
+{"id":"tl.c0384","deck":"tl.d.flirting","tl":"Oo naman!","rom":"OH-oh nah-MAHN"}
+{"id":"tl.c0385","deck":"tl.d.flirting","tl":"Gusto ko rin.","rom":"goos-TOH koh reen"}
+{"id":"tl.c0386","deck":"tl.d.flirting","tl":"Salamat, pero may kasintahan na ako.","rom":"sah-LAH-maht PEH-roh mai kah-seen-TAH-hahn nah ah-KOH"}
+{"id":"tl.c0387","deck":"tl.d.flirting","tl":"Pasensya na, hindi ako interesado.","rom":"pah-SEHN-shah nah heen-DEE ah-KOH een-teh-reh-SAH-doh"}
+{"id":"tl.c0388","deck":"tl.d.flirting","tl":"Salamat, pero kaibigan lang talaga tayo.","rom":"sah-LAH-maht PEH-roh kah-ee-BEE-gahn lahng tah-lah-GAH TAH-yoh"}
+{"id":"tl.c0389","deck":"tl.d.flirting","tl":"Hindi, salamat.","rom":"heen-DEEQ sah-LAH-maht"}
+{"id":"tl.c0390","deck":"tl.d.top-nouns","tl":"tao","rom":"TAH-oh"}
+{"id":"tl.c0391","deck":"tl.d.top-nouns","tl":"taon","rom":"tah-OHN"}
+{"id":"tl.c0392","deck":"tl.d.top-nouns","tl":"buhay","rom":"BOO-hai"}
+{"id":"tl.c0393","deck":"tl.d.top-nouns","tl":"kaibigan","rom":"kah-ee-BEE-gahn"}
+{"id":"tl.c0394","deck":"tl.d.top-nouns","tl":"gabi","rom":"gah-BEE"}
+{"id":"tl.c0395","deck":"tl.d.top-nouns","tl":"oras","rom":"OH-rahs"}
+{"id":"tl.c0396","deck":"tl.d.top-nouns","tl":"lalaki","rom":"lah-LAH-kee"}
+{"id":"tl.c0397","deck":"tl.d.top-nouns","tl":"pangalan","rom":"pah-NGAH-lahn"}
+{"id":"tl.c0398","deck":"tl.d.top-nouns","tl":"bagay","rom":"BAH-gai"}
+{"id":"tl.c0399","deck":"tl.d.top-nouns","tl":"problema","rom":"proh-BLEH-mah"}
+{"id":"tl.c0400","deck":"tl.d.top-nouns","tl":"ama","rom":"ah-MAH"}
+{"id":"tl.c0401","deck":"tl.d.top-nouns","tl":"babae","rom":"bah-BAH-eh"}
+{"id":"tl.c0402","deck":"tl.d.top-nouns","tl":"pagkain","rom":"pahg-KAH-een"}
+{"id":"tl.c0403","deck":"tl.d.top-nouns","tl":"umaga","rom":"oo-MAH-gah"}
+{"id":"tl.c0404","deck":"tl.d.top-nouns","tl":"hayop","rom":"HAH-yohp"}
+{"id":"tl.c0405","deck":"tl.d.top-nouns","tl":"lupa","rom":"LOO-pahq"}
+{"id":"tl.c0406","deck":"tl.d.top-nouns","tl":"kotse","rom":"KOH-cheh"}
+{"id":"tl.c0407","deck":"tl.d.top-nouns","tl":"tren","rom":"trehn"}
+{"id":"tl.c0408","deck":"tl.d.top-nouns","tl":"hangin","rom":"HAH-ngeen"}
+{"id":"tl.c0409","deck":"tl.d.top-nouns","tl":"ulo","rom":"OO-loh"}
+{"id":"tl.c0410","deck":"tl.d.top-nouns","tl":"gubat","rom":"GOO-baht"}
+{"id":"tl.c0411","deck":"tl.d.top-nouns","tl":"pamilya","rom":"pah-MEEL-yah"}
+{"id":"tl.c0412","deck":"tl.d.top-nouns","tl":"kama","rom":"KAH-mah"}
+{"id":"tl.c0413","deck":"tl.d.top-nouns","tl":"sakit","rom":"sah-KEET"}
+{"id":"tl.c0414","deck":"tl.d.top-nouns","tl":"dagat","rom":"DAH-gaht"}
+{"id":"tl.c0415","deck":"tl.d.top-nouns","tl":"litrato","rom":"lee-TRAH-toh"}
+{"id":"tl.c0416","deck":"tl.d.top-nouns","tl":"ilog","rom":"EE-lohg"}
+{"id":"tl.c0417","deck":"tl.d.top-nouns","tl":"sundalo","rom":"soon-DAH-loh"}
+{"id":"tl.c0418","deck":"tl.d.top-nouns","tl":"ina","rom":"ee-NAH"}
+{"id":"tl.c0419","deck":"tl.d.top-nouns","tl":"itlog","rom":"eet-LOHG"}
+{"id":"tl.c0420","deck":"tl.d.top-nouns","tl":"klase","rom":"KLAH-seh"}
+{"id":"tl.c0421","deck":"tl.d.top-nouns","tl":"plano","rom":"PLAH-noh"}
+{"id":"tl.c0422","deck":"tl.d.top-nouns","tl":"bisita","rom":"bee-SEE-tah"}
+{"id":"tl.c0423","deck":"tl.d.top-nouns","tl":"hapon","rom":"HAH-pohn"}
+{"id":"tl.c0424","deck":"tl.d.top-nouns","tl":"tanghali","rom":"tahng-HAH-leeq"}
+{"id":"tl.c0425","deck":"tl.d.top-nouns","tl":"cellphone","rom":"SEHL-fohn"}
+{"id":"tl.c0426","deck":"tl.d.top-nouns","tl":"bayan","rom":"BAH-yahn"}
+{"id":"tl.c0427","deck":"tl.d.top-nouns","tl":"damit","rom":"dah-MEET"}
+{"id":"tl.c0428","deck":"tl.d.top-nouns","tl":"regalo","rom":"reh-GAH-loh"}
+{"id":"tl.c0429","deck":"tl.d.top-nouns","tl":"mesa","rom":"MEH-sah"}
+{"id":"tl.c0430","deck":"tl.d.top-nouns","tl":"upuan","rom":"oo-POO-ahn"}
+{"id":"tl.c0431","deck":"tl.d.top-nouns","tl":"ospital","rom":"ohs-pee-TAHL"}
+{"id":"tl.c0432","deck":"tl.d.top-nouns","tl":"kanto","rom":"KAHN-toh"}
+{"id":"tl.c0433","deck":"tl.d.top-nouns","tl":"langit","rom":"LAH-ngeet"}
+{"id":"tl.c0434","deck":"tl.d.top-nouns","tl":"ibon","rom":"EE-bohn"}
+{"id":"tl.c0435","deck":"tl.d.top-nouns","tl":"ulap","rom":"OO-lahp"}
+{"id":"tl.c0436","deck":"tl.d.top-nouns","tl":"ilaw","rom":"EE-low"}
+{"id":"tl.c0437","deck":"tl.d.top-nouns","tl":"kape","rom":"kah-PEH"}
+{"id":"tl.c0438","deck":"tl.d.top-nouns","tl":"gatas","rom":"GAH-tahs"}
+{"id":"tl.c0439","deck":"tl.d.top-nouns","tl":"tinapay","rom":"tee-NAH-pai"}
+{"id":"tl.c0440","deck":"tl.d.top-nouns","tl":"gulay","rom":"GOO-lai"}
+{"id":"tl.c0441","deck":"tl.d.top-nouns","tl":"prutas","rom":"PROO-tahs"}
+{"id":"tl.c0442","deck":"tl.d.top-nouns","tl":"tanghalian","rom":"tahng-hah-LEE-ahn"}
+{"id":"tl.c0443","deck":"tl.d.top-nouns","tl":"hapunan","rom":"hah-POO-nahn"}
+{"id":"tl.c0444","deck":"tl.d.top-nouns","tl":"kapitbahay","rom":"kah-peet-BAH-hai"}
+{"id":"tl.c0445","deck":"tl.d.top-nouns","tl":"negosyo","rom":"neh-GOH-shoh"}
+{"id":"tl.c0446","deck":"tl.d.top-nouns","tl":"amo","rom":"AH-moh"}
+{"id":"tl.c0447","deck":"tl.d.top-nouns","tl":"kalye","rom":"KAHL-yeh"}
+{"id":"tl.c0448","deck":"tl.d.top-nouns","tl":"kalsada","rom":"kahl-SAH-dah"}
+{"id":"tl.c0449","deck":"tl.d.top-nouns","tl":"sapatos","rom":"sah-PAH-tohs"}
+{"id":"tl.c0450","deck":"tl.d.top-nouns","tl":"bigas","rom":"bee-GAHS"}
+{"id":"tl.c0451","deck":"tl.d.top-nouns","tl":"asukal","rom":"ah-SOO-kahl"}
+{"id":"tl.c0452","deck":"tl.d.top-nouns","tl":"baso","rom":"BAH-soh"}
+{"id":"tl.c0453","deck":"tl.d.top-nouns","tl":"plato","rom":"PLAH-toh"}
+{"id":"tl.c0454","deck":"tl.d.top-nouns","tl":"kutsara","rom":"koo-CHAH-rah"}
+{"id":"tl.c0455","deck":"tl.d.top-nouns","tl":"bag","rom":"bahg"}
+{"id":"tl.c0456","deck":"tl.d.top-nouns","tl":"payong","rom":"PAH-yohng"}
+{"id":"tl.c0457","deck":"tl.d.top-nouns","tl":"kuryente","rom":"koor-YEHN-teh"}
+{"id":"tl.c0458","deck":"tl.d.top-nouns","tl":"dyaryo","rom":"JAHR-yoh"}
+{"id":"tl.c0459","deck":"tl.d.top-nouns","tl":"eroplano","rom":"eh-roh-PLAH-noh"}
+{"id":"tl.c0460","deck":"tl.d.top-nouns","tl":"kulay","rom":"KOO-lai"}
+{"id":"tl.c0461","deck":"tl.d.top-nouns","tl":"nars","rom":"nahrs"}
+{"id":"tl.c0462","deck":"tl.d.top-nouns","tl":"drayber","rom":"DRAI-behr"}
+{"id":"tl.c0463","deck":"tl.d.top-nouns","tl":"kabayo","rom":"kah-BAH-yoh"}
+{"id":"tl.c0464","deck":"tl.d.top-nouns","tl":"mangga","rom":"mahng-GAH"}
+{"id":"tl.c0465","deck":"tl.d.top-nouns","tl":"saging","rom":"SAH-gheeng"}
+{"id":"tl.c0466","deck":"tl.d.top-nouns","tl":"lumpia","rom":"loom-PYAHQ"}
+{"id":"tl.c0467","deck":"tl.d.top-nouns","tl":"pansit","rom":"pahn-SEET"}
+{"id":"tl.c0468","deck":"tl.d.top-nouns","tl":"magulang","rom":"mah-GOO-lahng"}
+{"id":"tl.c0469","deck":"tl.d.top-nouns","tl":"apo","rom":"ah-POH"}
+{"id":"tl.c0470","deck":"tl.d.top-nouns","tl":"pamangkin","rom":"pah-mahng-KEEN"}
+{"id":"tl.c0471","deck":"tl.d.top-nouns","tl":"doktor","rom":"dohk-TOHR"}
+{"id":"tl.c0472","deck":"tl.d.top-nouns","tl":"mall","rom":"mohl"}
+{"id":"tl.c0473","deck":"tl.d.top-nouns","tl":"aircon","rom":"EHR-kohn"}
+{"id":"tl.c0474","deck":"tl.d.top-nouns","tl":"paaralan","rom":"pah-ah-rah-LAHN"}
+{"id":"tl.c0475","deck":"tl.d.top-nouns","tl":"lagnat","rom":"lahg-NAHT"}
+{"id":"tl.c0476","deck":"tl.d.top-nouns","tl":"pamasahe","rom":"pah-mah-SAH-heh"}
+{"id":"tl.c0477","deck":"tl.d.top-nouns","tl":"barya","rom":"bahr-YAH"}
+{"id":"tl.c0478","deck":"tl.d.top-nouns","tl":"edad","rom":"eh-DAHD"}
+{"id":"tl.c0479","deck":"tl.d.top-nouns","tl":"tiyan","rom":"tee-YAHN"}
+{"id":"tl.c0480","deck":"tl.d.top-nouns","tl":"sine","rom":"SEE-neh"}
+{"id":"tl.c0481","deck":"tl.d.top-nouns","tl":"pangarap","rom":"pah-NGAH-rahp"}
+{"id":"tl.c0482","deck":"tl.d.top-verbs","tl":"sabi","rom":"SAH-bee"}
+{"id":"tl.c0483","deck":"tl.d.top-verbs","tl":"alam","rom":"ah-LAHM"}
+{"id":"tl.c0484","deck":"tl.d.top-verbs","tl":"gusto","rom":"goos-TOH"}
+{"id":"tl.c0485","deck":"tl.d.top-verbs","tl":"kailangan","rom":"kah-ee-LAH-ngahn"}
+{"id":"tl.c0486","deck":"tl.d.top-verbs","tl":"puwede","rom":"PWEH-deh"}
+{"id":"tl.c0487","deck":"tl.d.top-verbs","tl":"alis","rom":"ah-LEES"}
+{"id":"tl.c0488","deck":"tl.d.top-verbs","tl":"punta","rom":"poon-TAH"}
+{"id":"tl.c0489","deck":"tl.d.top-verbs","tl":"dapat","rom":"DAH-paht"}
+{"id":"tl.c0490","deck":"tl.d.top-verbs","tl":"tawag","rom":"TAH-wahg"}
+{"id":"tl.c0491","deck":"tl.d.top-verbs","tl":"gamit","rom":"GAH-meet"}
+{"id":"tl.c0492","deck":"tl.d.top-verbs","tl":"isip","rom":"EE-seep"}
+{"id":"tl.c0493","deck":"tl.d.top-verbs","tl":"ayaw","rom":"AH-yow"}
+{"id":"tl.c0494","deck":"tl.d.top-verbs","tl":"dumating","rom":"doo-mah-TEENG"}
+{"id":"tl.c0495","deck":"tl.d.top-verbs","tl":"pasok","rom":"PAH-sohk"}
+{"id":"tl.c0496","deck":"tl.d.top-verbs","tl":"kilala","rom":"kee-lah-LAH"}
+{"id":"tl.c0497","deck":"tl.d.top-verbs","tl":"tigil","rom":"TEE-gheel"}
+{"id":"tl.c0498","deck":"tl.d.top-verbs","tl":"tawa","rom":"TAH-wah"}
+{"id":"tl.c0499","deck":"tl.d.top-verbs","tl":"sumama","rom":"soo-MAH-mah"}
+{"id":"tl.c0500","deck":"tl.d.top-verbs","tl":"kain","rom":"KAH-een"}
+{"id":"tl.c0501","deck":"tl.d.top-verbs","tl":"subok","rom":"SOO-bohk"}
+{"id":"tl.c0502","deck":"tl.d.top-verbs","tl":"umupo","rom":"oo-moo-POHQ"}
+{"id":"tl.c0503","deck":"tl.d.top-verbs","tl":"magsalita","rom":"mahg-sah-lee-TAHQ"}
+{"id":"tl.c0504","deck":"tl.d.top-verbs","tl":"bili","rom":"bee-LEE"}
+{"id":"tl.c0505","deck":"tl.d.top-verbs","tl":"laro","rom":"lah-ROHQ"}
+{"id":"tl.c0506","deck":"tl.d.top-verbs","tl":"aral","rom":"AH-rahl"}
+{"id":"tl.c0507","deck":"tl.d.top-verbs","tl":"inom","rom":"ee-NOHM"}
+{"id":"tl.c0508","deck":"tl.d.top-verbs","tl":"sagot","rom":"sah-GOHT"}
+{"id":"tl.c0509","deck":"tl.d.top-verbs","tl":"umuwi","rom":"oo-moo-WEEQ"}
+{"id":"tl.c0510","deck":"tl.d.top-verbs","tl":"manood","rom":"mah-noh-OHD"}
+{"id":"tl.c0511","deck":"tl.d.top-verbs","tl":"gumising","rom":"goo-MEE-seeng"}
+{"id":"tl.c0512","deck":"tl.d.top-verbs","tl":"luto","rom":"LOO-tohq"}
+{"id":"tl.c0513","deck":"tl.d.top-verbs","tl":"basa","rom":"BAH-sah"}
+{"id":"tl.c0514","deck":"tl.d.top-verbs","tl":"linis","rom":"LEE-nees"}
+{"id":"tl.c0515","deck":"tl.d.top-verbs","tl":"bihis","rom":"BEE-hees"}
+{"id":"tl.c0516","deck":"tl.d.top-verbs","tl":"tuto","rom":"TOO-toh"}
+{"id":"tl.c0517","deck":"tl.d.top-verbs","tl":"benta","rom":"BEHN-tah"}
+{"id":"tl.c0518","deck":"tl.d.top-verbs","tl":"tapon","rom":"TAH-pohn"}
+{"id":"tl.c0519","deck":"tl.d.top-verbs","tl":"magpahinga","rom":"mahg-pah-hee-NGAH"}
+{"id":"tl.c0520","deck":"tl.d.top-verbs","tl":"magtanong","rom":"mahg-tah-NOHNG"}
+{"id":"tl.c0521","deck":"tl.d.top-verbs","tl":"bayad","rom":"BAH-yahd"}
+{"id":"tl.c0522","deck":"tl.d.top-adjectives","tl":"malaki","rom":"mah-lah-KEE"}
+{"id":"tl.c0523","deck":"tl.d.top-adjectives","tl":"mabuti","rom":"mah-BOO-tee"}
+{"id":"tl.c0524","deck":"tl.d.top-adjectives","tl":"masama","rom":"mah-sah-MAHQ"}
+{"id":"tl.c0525","deck":"tl.d.top-adjectives","tl":"takot","rom":"tah-KOHT"}
+{"id":"tl.c0526","deck":"tl.d.top-adjectives","tl":"sigurado","rom":"see-goo-RAH-doh"}
+{"id":"tl.c0527","deck":"tl.d.top-adjectives","tl":"masaya","rom":"mah-sah-YAH"}
+{"id":"tl.c0528","deck":"tl.d.top-adjectives","tl":"maayos","rom":"mah-AH-yohs"}
+{"id":"tl.c0529","deck":"tl.d.top-adjectives","tl":"malakas","rom":"mah-lah-KAHS"}
+{"id":"tl.c0530","deck":"tl.d.top-adjectives","tl":"mahaba","rom":"mah-HAH-bahq"}
+{"id":"tl.c0531","deck":"tl.d.top-adjectives","tl":"mahirap","rom":"mah-HEE-rahp"}
+{"id":"tl.c0532","deck":"tl.d.top-adjectives","tl":"tahimik","rom":"tah-HEE-meek"}
+{"id":"tl.c0533","deck":"tl.d.top-adjectives","tl":"galit","rom":"gah-LEET"}
+{"id":"tl.c0534","deck":"tl.d.top-adjectives","tl":"mahilig","rom":"mah-HEE-leeg"}
+{"id":"tl.c0535","deck":"tl.d.top-adjectives","tl":"tunay","rom":"TOO-nai"}
+{"id":"tl.c0536","deck":"tl.d.top-adjectives","tl":"pagod","rom":"pah-GOHD"}
+{"id":"tl.c0537","deck":"tl.d.top-adjectives","tl":"mahusay","rom":"mah-HOO-sai"}
+{"id":"tl.c0538","deck":"tl.d.top-adjectives","tl":"gutom","rom":"goo-TOHM"}
+{"id":"tl.c0539","deck":"tl.d.top-adjectives","tl":"paborito","rom":"pah-boh-REE-toh"}
+{"id":"tl.c0540","deck":"tl.d.top-adjectives","tl":"seryoso","rom":"sehr-YOH-soh"}
+{"id":"tl.c0541","deck":"tl.d.top-adjectives","tl":"madali","rom":"mah-dah-LEEQ"}
+{"id":"tl.c0542","deck":"tl.d.top-adjectives","tl":"importante","rom":"eem-pohr-TAHN-teh"}
+{"id":"tl.c0543","deck":"tl.d.top-adjectives","tl":"maikli","rom":"mah-ee-KLEEQ"}
+{"id":"tl.c0544","deck":"tl.d.top-adjectives","tl":"mainit","rom":"mah-EE-neet"}
+{"id":"tl.c0545","deck":"tl.d.top-adjectives","tl":"malamig","rom":"mah-lah-MEEG"}
+{"id":"tl.c0546","deck":"tl.d.top-adjectives","tl":"malungkot","rom":"mah-loong-KOHT"}
+{"id":"tl.c0547","deck":"tl.d.top-adjectives","tl":"busog","rom":"boo-SOHG"}
+{"id":"tl.c0548","deck":"tl.d.top-adjectives","tl":"maingay","rom":"mah-EE-ngai"}
+{"id":"tl.c0549","deck":"tl.d.top-adjectives","tl":"libre","rom":"LEE-breh"}
+{"id":"tl.c0550","deck":"tl.d.top-adjectives","tl":"maalat","rom":"mah-AH-laht"}
+{"id":"tl.c0551","deck":"tl.d.top-adjectives","tl":"maasim","rom":"mah-AH-seem"}
+{"id":"tl.c0552","deck":"tl.d.top-adjectives","tl":"mayaman","rom":"mah-YAH-mahn"}
+{"id":"tl.c0553","deck":"tl.d.top-adjectives","tl":"masipag","rom":"mah-SEE-pahg"}
+{"id":"tl.c0554","deck":"tl.d.top-adjectives","tl":"malinis","rom":"mah-LEE-nees"}
+{"id":"tl.c0555","deck":"tl.d.top-adjectives","tl":"maliwanag","rom":"mah-lee-WAH-nahg"}
+{"id":"tl.c0556","deck":"tl.d.top-adjectives","tl":"sarado","rom":"sah-RAH-doh"}
+{"id":"tl.c0557","deck":"tl.d.top-adjectives","tl":"malalim","rom":"mah-LAH-leem"}
+{"id":"tl.c0558","deck":"tl.d.top-adjectives","tl":"malawak","rom":"mah-LAH-wahk"}
+{"id":"tl.c0559","deck":"tl.d.top-adjectives","tl":"kulot","rom":"KOO-loht"}
+{"id":"tl.c0560","deck":"tl.d.top-adjectives","tl":"mabango","rom":"mah-bah-NGOH"}
+{"id":"tl.c0561","deck":"tl.d.top-adjectives","tl":"uhaw","rom":"oo-HOW"}
+{"id":"tl.c0562","deck":"tl.d.top-adjectives","tl":"masakit","rom":"mah-sah-KEET"}
+{"id":"tl.c0563","deck":"tl.d.top-adjectives","tl":"marunong","rom":"mah-ROO-nohng"}
+{"id":"tl.c0564","deck":"tl.d.top-adjectives","tl":"inaantok","rom":"ee-nah-ahn-TOHK"}
+{"id":"tl.c0565","deck":"tl.d.top-adjectives","tl":"tulog","rom":"too-LOHG"}
+{"id":"tl.c0566","deck":"tl.d.top-adjectives","tl":"mataba","rom":"mah-tah-BAHQ"}
+{"id":"tl.c0567","deck":"tl.d.top-adverbs","tl":"mas","rom":"mahs"}
+{"id":"tl.c0568","deck":"tl.d.top-adverbs","tl":"rito","rom":"REE-toh"}
+{"id":"tl.c0569","deck":"tl.d.top-adverbs","tl":"sandali","rom":"sahn-dah-LEEQ"}
+{"id":"tl.c0570","deck":"tl.d.top-adverbs","tl":"masyado","rom":"mah-SHAH-doh"}
+{"id":"tl.c0571","deck":"tl.d.top-adverbs","tl":"dati","rom":"DAH-tee"}
+{"id":"tl.c0572","deck":"tl.d.top-adverbs","tl":"medyo","rom":"MEH-joh"}
+{"id":"tl.c0573","deck":"tl.d.top-adverbs","tl":"ngayong gabi","rom":"ngah-YOHNG gah-BEE"}
+{"id":"tl.c0574","deck":"tl.d.top-adverbs","tl":"minsan","rom":"MEEN-sahn"}
+{"id":"tl.c0575","deck":"tl.d.top-adverbs","tl":"sobra","rom":"SOH-brah"}
+{"id":"tl.c0576","deck":"tl.d.top-adverbs","tl":"halos","rom":"HAH-lohs"}
+{"id":"tl.c0577","deck":"tl.d.top-adverbs","tl":"marahil","rom":"mah-RAH-heel"}
+{"id":"tl.c0578","deck":"tl.d.top-adverbs","tl":"maaga","rom":"mah-AH-gah"}
+{"id":"tl.c0579","deck":"tl.d.top-adverbs","tl":"dahan-dahan","rom":"DAH-hahn DAH-hahn"}
+{"id":"tl.c0580","deck":"tl.d.top-adverbs","tl":"mamayang gabi","rom":"mah-mah-YAHNG gah-BEE"}
+{"id":"tl.c0581","deck":"tl.d.top-adverbs","tl":"kaninang umaga","rom":"kah-NEE-nahng oo-MAH-gah"}
+{"id":"tl.c0582","deck":"tl.d.top-adverbs","tl":"araw-araw","rom":"AH-row AH-row"}
+{"id":"tl.c0583","deck":"tl.d.top-adverbs","tl":"gabi-gabi","rom":"gah-BEE gah-BEE"}
+{"id":"tl.c0584","deck":"tl.d.top-adverbs","tl":"kanina pa","rom":"kah-NEE-nah pah"}
+{"id":"tl.c0585","deck":"tl.d.top-adverbs","tl":"pa rin","rom":"pah reen"}
+{"id":"tl.c0586","deck":"tl.d.top-adverbs","tl":"hanggang ngayon","rom":"hahng-GAHNG ngah-YOHN"}
+{"id":"tl.c0587","deck":"tl.d.top-adverbs","tl":"ngayon lang","rom":"ngah-YOHN lahng"}
+{"id":"tl.c0588","deck":"tl.d.top-adverbs","tl":"sa ngayon","rom":"sah ngah-YOHN"}
+{"id":"tl.c0589","deck":"tl.d.top-adverbs","tl":"diretso","rom":"dee-REH-choh"}
+{"id":"tl.c0590","deck":"tl.d.top-adverbs","tl":"isa-isa","rom":"ee-SAH ee-SAH"}
+{"id":"tl.c0591","deck":"tl.d.top-pronouns","tl":"mo","rom":"moh"}
+{"id":"tl.c0592","deck":"tl.d.top-pronouns","tl":"ko","rom":"koh"}
+{"id":"tl.c0593","deck":"tl.d.top-pronouns","tl":"ka","rom":"kah"}
+{"id":"tl.c0594","deck":"tl.d.top-pronouns","tl":"ako","rom":"ah-KOH"}
+{"id":"tl.c0595","deck":"tl.d.top-pronouns","tl":"niya","rom":"nyah"}
+{"id":"tl.c0596","deck":"tl.d.top-pronouns","tl":"kayo","rom":"kah-YOH"}
+{"id":"tl.c0597","deck":"tl.d.top-pronouns","tl":"ninyo","rom":"nee-NYOH"}
+{"id":"tl.c0598","deck":"tl.d.top-pronouns","tl":"tayo","rom":"TAH-yoh"}
+{"id":"tl.c0599","deck":"tl.d.top-pronouns","tl":"akin","rom":"AH-keen"}
+{"id":"tl.c0600","deck":"tl.d.top-pronouns","tl":"lahat","rom":"lah-HAHT"}
+{"id":"tl.c0601","deck":"tl.d.top-pronouns","tl":"natin","rom":"NAH-teen"}
+{"id":"tl.c0602","deck":"tl.d.top-pronouns","tl":"kami","rom":"kah-MEE"}
+{"id":"tl.c0603","deck":"tl.d.top-pronouns","tl":"namin","rom":"NAH-meen"}
+{"id":"tl.c0604","deck":"tl.d.top-pronouns","tl":"sila","rom":"see-LAH"}
+{"id":"tl.c0605","deck":"tl.d.top-pronouns","tl":"iyo","rom":"ee-YOH"}
+{"id":"tl.c0606","deck":"tl.d.top-pronouns","tl":"ikaw","rom":"ee-KOW"}
+{"id":"tl.c0607","deck":"tl.d.top-pronouns","tl":"kanya","rom":"kah-NYAH"}
+{"id":"tl.c0608","deck":"tl.d.top-pronouns","tl":"nila","rom":"nee-LAH"}
+{"id":"tl.c0609","deck":"tl.d.top-pronouns","tl":"kita","rom":"kee-TAH"}
+{"id":"tl.c0610","deck":"tl.d.top-pronouns","tl":"inyo","rom":"ee-NYOH"}
+{"id":"tl.c0611","deck":"tl.d.top-pronouns","tl":"atin","rom":"AH-teen"}
+{"id":"tl.c0612","deck":"tl.d.top-pronouns","tl":"amin","rom":"AH-meen"}
+{"id":"tl.c0613","deck":"tl.d.top-pronouns","tl":"kanila","rom":"kah-nee-LAH"}
+{"id":"tl.c0614","deck":"tl.d.top-pronouns","tl":"sarili","rom":"sah-REE-lee"}
+{"id":"tl.c0615","deck":"tl.d.top-pronouns","tl":"pareho","rom":"pah-REH-hoh"}
+{"id":"tl.c0616","deck":"tl.d.top-pronouns","tl":"kanino","rom":"kah-NEE-noh"}
+{"id":"tl.c0617","deck":"tl.d.top-pronouns","tl":"nino","rom":"NEE-noh"}
+{"id":"tl.c0618","deck":"tl.d.top-pronouns","tl":"kahit ano","rom":"KAH-heet ah-NOH"}
+{"id":"tl.c0619","deck":"tl.d.top-pronouns","tl":"kahit sino","rom":"KAH-heet SEE-noh"}
+{"id":"tl.c0620","deck":"tl.d.top-pronouns","tl":"kahit saan","rom":"KAH-heet sah-AHN"}
+{"id":"tl.c0621","deck":"tl.d.top-pronouns","tl":"kahit kailan","rom":"KAH-heet kah-ee-LAHN"}
+{"id":"tl.c0622","deck":"tl.d.top-pronouns","tl":"walang tao","rom":"wah-LAHNG TAH-oh"}
+{"id":"tl.c0623","deck":"tl.d.top-pronouns","tl":"isa't isa","rom":"ee-SAHT ee-SAH"}
+{"id":"tl.c0624","deck":"tl.d.top-markers-and-particles","tl":"ang","rom":"ahng"}
+{"id":"tl.c0625","deck":"tl.d.top-markers-and-particles","tl":"sa","rom":"sah"}
+{"id":"tl.c0626","deck":"tl.d.top-markers-and-particles","tl":"na","rom":"nah"}
+{"id":"tl.c0627","deck":"tl.d.top-markers-and-particles","tl":"ng","rom":"nahng"}
+{"id":"tl.c0628","deck":"tl.d.top-markers-and-particles","tl":"mga","rom":"mah-NGAH"}
+{"id":"tl.c0629","deck":"tl.d.top-markers-and-particles","tl":"ay","rom":"ai"}
+{"id":"tl.c0630","deck":"tl.d.top-markers-and-particles","tl":"ba","rom":"bah"}
+{"id":"tl.c0631","deck":"tl.d.top-markers-and-particles","tl":"para sa","rom":"PAH-rah sah"}
+{"id":"tl.c0632","deck":"tl.d.top-markers-and-particles","tl":"si","rom":"see"}
+{"id":"tl.c0633","deck":"tl.d.top-markers-and-particles","tl":"pa","rom":"pah"}
+{"id":"tl.c0634","deck":"tl.d.top-markers-and-particles","tl":"nga","rom":"ngahq"}
+{"id":"tl.c0635","deck":"tl.d.top-markers-and-particles","tl":"naman","rom":"nah-MAHN"}
+{"id":"tl.c0636","deck":"tl.d.top-markers-and-particles","tl":"ni","rom":"nee"}
+{"id":"tl.c0637","deck":"tl.d.top-markers-and-particles","tl":"nasa","rom":"NAH-sah"}
+{"id":"tl.c0638","deck":"tl.d.top-markers-and-particles","tl":"rin","rom":"reen"}
+{"id":"tl.c0639","deck":"tl.d.top-markers-and-particles","tl":"po","rom":"pohq"}
+{"id":"tl.c0640","deck":"tl.d.top-markers-and-particles","tl":"din","rom":"deen"}
+{"id":"tl.c0641","deck":"tl.d.top-markers-and-particles","tl":"kay","rom":"kai"}
+{"id":"tl.c0642","deck":"tl.d.top-markers-and-particles","tl":"pala","rom":"pah-LAH"}
+{"id":"tl.c0643","deck":"tl.d.top-markers-and-particles","tl":"sana","rom":"SAH-nah"}
+{"id":"tl.c0644","deck":"tl.d.top-markers-and-particles","tl":"muna","rom":"MOO-nah"}
+{"id":"tl.c0645","deck":"tl.d.top-markers-and-particles","tl":"kasama","rom":"kah-SAH-mah"}
+{"id":"tl.c0646","deck":"tl.d.top-markers-and-particles","tl":"lamang","rom":"LAH-mahng"}
+{"id":"tl.c0647","deck":"tl.d.top-markers-and-particles","tl":"galing sa","rom":"GAH-leeng sah"}
+{"id":"tl.c0648","deck":"tl.d.top-markers-and-particles","tl":"man","rom":"mahn"}
+{"id":"tl.c0649","deck":"tl.d.top-markers-and-particles","tl":"hanggang","rom":"hahng-GAHNG"}
+{"id":"tl.c0650","deck":"tl.d.top-markers-and-particles","tl":"papunta sa","rom":"pah-poon-TAH sah"}
+{"id":"tl.c0651","deck":"tl.d.top-markers-and-particles","tl":"sa ilalim ng","rom":"sah ee-LAH-leem nahng"}
+{"id":"tl.c0652","deck":"tl.d.top-markers-and-particles","tl":"sa tabi ng","rom":"sah tah-BEE nahng"}
+{"id":"tl.c0653","deck":"tl.d.top-markers-and-particles","tl":"sina","rom":"see-NAH"}
+{"id":"tl.c0654","deck":"tl.d.top-markers-and-particles","tl":"daw","rom":"dow"}
+{"id":"tl.c0655","deck":"tl.d.top-markers-and-particles","tl":"yata","rom":"YAH-tahq"}
+{"id":"tl.c0656","deck":"tl.d.top-markers-and-particles","tl":"raw","rom":"row"}
+{"id":"tl.c0657","deck":"tl.d.top-markers-and-particles","tl":"nina","rom":"nee-NAH"}
+{"id":"tl.c0658","deck":"tl.d.top-markers-and-particles","tl":"kina","rom":"kee-NAH"}
+{"id":"tl.c0659","deck":"tl.d.top-markers-and-particles","tl":"ho","rom":"hohq"}
+{"id":"tl.c0660","deck":"tl.d.top-markers-and-particles","tl":"ayon sa","rom":"AH-yohn sah"}
+{"id":"tl.c0661","deck":"tl.d.top-markers-and-particles","tl":"sa ibabaw ng","rom":"sah ee-BAH-bow nahng"}
+{"id":"tl.c0662","deck":"tl.d.top-markers-and-particles","tl":"dahil sa","rom":"DAH-heel sah"}
+{"id":"tl.c0663","deck":"tl.d.top-conjunctions","tl":"at","rom":"aht"}
+{"id":"tl.c0664","deck":"tl.d.top-conjunctions","tl":"kung","rom":"koong"}
+{"id":"tl.c0665","deck":"tl.d.top-conjunctions","tl":"para","rom":"PAH-rah"}
+{"id":"tl.c0666","deck":"tl.d.top-conjunctions","tl":"pero","rom":"PEH-roh"}
+{"id":"tl.c0667","deck":"tl.d.top-conjunctions","tl":"o","rom":"oh"}
+{"id":"tl.c0668","deck":"tl.d.top-conjunctions","tl":"nang","rom":"nahng"}
+{"id":"tl.c0669","deck":"tl.d.top-conjunctions","tl":"dahil","rom":"DAH-heel"}
+{"id":"tl.c0670","deck":"tl.d.top-conjunctions","tl":"kapag","rom":"kah-PAHG"}
+{"id":"tl.c0671","deck":"tl.d.top-conjunctions","tl":"kahit","rom":"KAH-heet"}
+{"id":"tl.c0672","deck":"tl.d.top-conjunctions","tl":"kasi","rom":"kah-SEE"}
+{"id":"tl.c0673","deck":"tl.d.top-conjunctions","tl":"parang","rom":"PAH-rahng"}
+{"id":"tl.c0674","deck":"tl.d.top-conjunctions","tl":"ngunit","rom":"NGOO-neet"}
+{"id":"tl.c0675","deck":"tl.d.top-conjunctions","tl":"upang","rom":"OO-pahng"}
+{"id":"tl.c0676","deck":"tl.d.top-conjunctions","tl":"habang","rom":"HAH-bahng"}
+{"id":"tl.c0677","deck":"tl.d.top-conjunctions","tl":"pagkatapos","rom":"pahg-kah-TAH-pohs"}
+{"id":"tl.c0678","deck":"tl.d.top-conjunctions","tl":"kaysa","rom":"kai-SAH"}
+{"id":"tl.c0679","deck":"tl.d.top-conjunctions","tl":"na lang","rom":"nah lahng"}
+{"id":"tl.c0680","deck":"tl.d.top-interjections","tl":"Hoy!","rom":"hoy"}
+{"id":"tl.c0681","deck":"tl.d.top-interjections","tl":"Teka!","rom":"TEH-kah"}
+{"id":"tl.c0682","deck":"tl.d.top-interjections","tl":"Ha?","rom":"hah"}
+{"id":"tl.c0683","deck":"tl.d.top-interjections","tl":"Ayos!","rom":"AH-yohs"}
+{"id":"tl.c0684","deck":"tl.d.top-interjections","tl":"Heto!","rom":"HEH-toh"}
+{"id":"tl.c0685","deck":"tl.d.top-interjections","tl":"Halika!","rom":"hah-LEE-kah"}
+{"id":"tl.c0686","deck":"tl.d.top-interjections","tl":"Uy!","rom":"ooy"}
+{"id":"tl.c0687","deck":"tl.d.top-interjections","tl":"Mabuhay!","rom":"mah-BOO-hai"}
+{"id":"tl.c0688","deck":"tl.d.top-interjections","tl":"Sayang!","rom":"SAH-yahng"}
+{"id":"tl.c0689","deck":"tl.d.top-interjections","tl":"Yehey!","rom":"YEH-hay"}
+{"id":"tl.c0690","deck":"tl.d.top-interjections","tl":"Hay!","rom":"hai"}
+{"id":"tl.c0691","deck":"tl.d.top-interjections","tl":"Hay, salamat!","rom":"hai sah-LAH-maht"}
+{"id":"tl.c0692","deck":"tl.d.top-interjections","tl":"Oo nga!","rom":"OH-oh ngahq"}
+{"id":"tl.c0693","deck":"tl.d.top-interjections","tl":"Kadiri!","rom":"kah-DEE-ree"}
+{"id":"tl.c0694","deck":"tl.d.top-interjections","tl":"Buti nga!","rom":"BOO-tee ngahq"}
+{"id":"tl.c0695","deck":"tl.d.top-interjections","tl":"Sige na!","rom":"SEE-gheh nah"}
+{"id":"tl.c0696","deck":"tl.d.top-interjections","tl":"Ano ba!","rom":"ah-NOH bah"}
+{"id":"tl.c0697","deck":"tl.d.top-interjections","tl":"Hindi nga?","rom":"heen-DEE ngahq"}
+{"id":"tl.c0698","deck":"tl.d.top-interjections","tl":"Susmaryosep!","rom":"soos-mahr-YOH-sehp"}
+{"id":"tl.c0699","deck":"tl.d.top-words","tl":"hindi","rom":"heen-DEEQ"}
+{"id":"tl.c0700","deck":"tl.d.top-words","tl":"isang","rom":"ee-SAHNG"}
+{"id":"tl.c0701","deck":"tl.d.top-words","tl":"may","rom":"mai"}
+{"id":"tl.c0702","deck":"tl.d.top-words","tl":"anong","rom":"ah-NOHNG"}
+{"id":"tl.c0703","deck":"tl.d.top-words","tl":"meron","rom":"MEH-rohn"}
+{"id":"tl.c0704","deck":"tl.d.top-words","tl":"marami","rom":"mah-RAH-mee"}
+{"id":"tl.c0705","deck":"tl.d.top-words","tl":"nasaan","rom":"nah-sah-AHN"}
+{"id":"tl.c0706","deck":"tl.d.top-words","tl":"kumusta","rom":"koo-moos-TAH"}
+{"id":"tl.c0707","deck":"tl.d.top-words","tl":"ilang","rom":"ee-LAHNG"}
+{"id":"tl.c0708","deck":"tl.d.top-words","tl":"una","rom":"OO-nah"}
+{"id":"tl.c0709","deck":"tl.d.top-words","tl":"daan","rom":"dah-AHN"}
+{"id":"tl.c0710","deck":"tl.d.top-words","tl":"mayroon","rom":"mai-roh-OHN"}
+{"id":"tl.c0711","deck":"tl.d.top-words","tl":"bawat","rom":"BAH-waht"}
+{"id":"tl.c0712","deck":"tl.d.top-words","tl":"buwan","rom":"boo-WAHN"}
+{"id":"tl.c0713","deck":"tl.d.top-words","tl":"minuto","rom":"mee-NOO-toh"}
+{"id":"tl.c0714","deck":"tl.d.top-words","tl":"gaano","rom":"gah-AH-noh"}
+{"id":"tl.c0715","deck":"tl.d.top-words","tl":"libo","rom":"LEE-boh"}
+{"id":"tl.c0716","deck":"tl.d.top-words","tl":"apat","rom":"AH-paht"}
+{"id":"tl.c0717","deck":"tl.d.top-words","tl":"magkano","rom":"mahg-KAH-noh"}
+{"id":"tl.c0718","deck":"tl.d.top-words","tl":"anim","rom":"AH-neem"}
+{"id":"tl.c0719","deck":"tl.d.top-words","tl":"pito","rom":"pee-TOH"}
+{"id":"tl.c0720","deck":"tl.d.top-words","tl":"walo","rom":"wah-LOH"}
+{"id":"tl.c0721","deck":"tl.d.top-words","tl":"siyam","rom":"shahm"}
+{"id":"tl.c0722","deck":"tl.d.top-words","tl":"labindalawa","rom":"lah-been-dah-lah-WAH"}
+{"id":"tl.c0723","deck":"tl.d.top-words","tl":"labintatlo","rom":"lah-been-taht-LOH"}
+{"id":"tl.c0724","deck":"tl.d.top-words","tl":"labinlima","rom":"lah-been-lee-MAH"}
+{"id":"tl.c0725","deck":"tl.d.top-words","tl":"labimpito","rom":"lah-beem-pee-TOH"}
+{"id":"tl.c0726","deck":"tl.d.top-words","tl":"labingwalo","rom":"lah-beeng-wah-LOH"}
+{"id":"tl.c0727","deck":"tl.d.top-words","tl":"labinsiyam","rom":"lah-been-SHAHM"}
+{"id":"tl.c0728","deck":"tl.d.top-words","tl":"dalawampu","rom":"dah-lah-wahm-POOQ"}
+{"id":"tl.c0729","deck":"tl.d.top-words","tl":"piso","rom":"PEE-soh"}
+{"id":"tl.c0730","deck":"tl.d.top-words","tl":"Enero","rom":"eh-NEH-roh"}
+{"id":"tl.c0731","deck":"tl.d.top-words","tl":"Pebrero","rom":"peh-BREH-roh"}
+{"id":"tl.c0732","deck":"tl.d.top-words","tl":"Marso","rom":"MAHR-soh"}
+{"id":"tl.c0733","deck":"tl.d.top-words","tl":"Abril","rom":"ah-BREEL"}
+{"id":"tl.c0734","deck":"tl.d.top-words","tl":"Mayo","rom":"MAH-yoh"}
+{"id":"tl.c0735","deck":"tl.d.top-words","tl":"Hunyo","rom":"HOO-nyoh"}
+{"id":"tl.c0736","deck":"tl.d.top-words","tl":"Hulyo","rom":"HOOL-yoh"}
+{"id":"tl.c0737","deck":"tl.d.top-words","tl":"Agosto","rom":"ah-GOHS-toh"}
+{"id":"tl.c0738","deck":"tl.d.top-words","tl":"Setyembre","rom":"seh-CHEHM-breh"}
+{"id":"tl.c0739","deck":"tl.d.top-words","tl":"Oktubre","rom":"ohk-TOO-breh"}
+{"id":"tl.c0740","deck":"tl.d.top-words","tl":"Nobyembre","rom":"noh-BYEHM-breh"}
+{"id":"tl.c0741","deck":"tl.d.top-words","tl":"Disyembre","rom":"dee-SHEHM-breh"}
+{"id":"tl.c0742","deck":"tl.d.top-words","tl":"segundo","rom":"seh-GOON-doh"}
+{"id":"tl.c0743","deck":"tl.d.top-words","tl":"ngayong araw","rom":"ngah-YOHNG AH-row"}
+{"id":"tl.c0744","deck":"tl.d.top-words","tl":"bukas ng umaga","rom":"BOO-kahs nahng oo-MAH-gah"}

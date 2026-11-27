@@ -1,0 +1,192 @@
+{
+ "target": "ar",
+ "ttsLang": "ar-SA",
+ "self": "العربية",
+ "pack": {
+  "accents": true,
+  "keys": "ʿ ʾ ā ī ū ḥ ṣ ḍ ṭ ẓ",
+  "tilesDefault": true,
+  "romaAlmost": true
+ },
+ "features": {
+  "script": false,
+  "pron": false,
+  "conj": false,
+  "register": false,
+  "numbers": false,
+  "sound": false,
+  "strokes": false
+ },
+ "groups": [
+  {
+   "id": "ar.grp.script-and-sounds",
+   "decks": [
+    "ar.d.letters-1-alif-to-sad",
+    "ar.d.letters-2-dad-to-ya",
+    "ar.d.vowels-and-marks",
+    "ar.d.sound-pairs"
+   ]
+  },
+  {
+   "id": "ar.grp.first-steps",
+   "decks": [
+    "ar.d.greetings-and-courtesy",
+    "ar.d.about-me",
+    "ar.d.family-and-people",
+    "ar.d.numbers-and-money"
+   ]
+  },
+  {
+   "id": "ar.grp.everyday-life",
+   "decks": [
+    "ar.d.food-and-drink",
+    "ar.d.home-and-things",
+    "ar.d.describing-things",
+    "ar.d.daily-routine",
+    "ar.d.time-and-days"
+   ]
+  },
+  {
+   "id": "ar.grp.out-and-about",
+   "decks": [
+    "ar.d.around-town-and-directions",
+    "ar.d.travel-and-help"
+   ]
+  },
+  {
+   "id": "ar.grp.watch-out",
+   "decks": [
+    "ar.d.spoken-arabic",
+    "ar.d.traps-for-english-speakers",
+    "ar.d.compliments",
+    "ar.d.flirting"
+   ]
+  },
+  {
+   "id": "ar.grp.core-words",
+   "decks": [
+    "ar.d.top-nouns",
+    "ar.d.top-verbs",
+    "ar.d.top-adjectives",
+    "ar.d.top-adverbs",
+    "ar.d.top-pronouns",
+    "ar.d.top-prepositions",
+    "ar.d.top-conjunctions",
+    "ar.d.top-interjections",
+    "ar.d.top-words"
+   ]
+  }
+ ],
+ "tags": {
+  "script-and-sounds": [
+   "ar.d.letters-1-alif-to-sad",
+   "ar.d.letters-2-dad-to-ya",
+   "ar.d.vowels-and-marks",
+   "ar.d.sound-pairs"
+  ],
+  "first-steps": [
+   "ar.d.greetings-and-courtesy",
+   "ar.d.about-me",
+   "ar.d.family-and-people",
+   "ar.d.numbers-and-money"
+  ],
+  "everyday-life": [
+   "ar.d.food-and-drink",
+   "ar.d.home-and-things",
+   "ar.d.describing-things",
+   "ar.d.daily-routine",
+   "ar.d.time-and-days"
+  ],
+  "out-and-about": [
+   "ar.d.around-town-and-directions",
+   "ar.d.travel-and-help"
+  ],
+  "watch-out": [
+   "ar.d.spoken-arabic",
+   "ar.d.traps-for-english-speakers",
+   "ar.d.compliments",
+   "ar.d.flirting"
+  ],
+  "core-words": [
+   "ar.d.top-nouns",
+   "ar.d.top-verbs",
+   "ar.d.top-adjectives",
+   "ar.d.top-adverbs",
+   "ar.d.top-pronouns",
+   "ar.d.top-prepositions",
+   "ar.d.top-conjunctions",
+   "ar.d.top-interjections",
+   "ar.d.top-words"
+  ]
+ },
+ "goals": [],
+ "plans": [],
+ "titles": [
+  {
+   "id": "ar.t01",
+   "level": 1
+  },
+  {
+   "id": "ar.t03",
+   "level": 3
+  },
+  {
+   "id": "ar.t05",
+   "level": 5
+  },
+  {
+   "id": "ar.t08",
+   "level": 8
+  },
+  {
+   "id": "ar.t12",
+   "level": 12
+  },
+  {
+   "id": "ar.t16",
+   "level": 16
+  },
+  {
+   "id": "ar.t20",
+   "level": 20
+  }
+ ],
+ "greet": [
+  {
+   "id": "ar.h.night",
+   "ar": "لَيْلَة سَعِيدَة"
+  },
+  {
+   "id": "ar.h.morning",
+   "ar": "صَبَاح الْخَيْر"
+  },
+  {
+   "id": "ar.h.afternoon",
+   "ar": "مَرْحَبًا"
+  },
+  {
+   "id": "ar.h.evening",
+   "ar": "مَسَاء الْخَيْر"
+  }
+ ],
+ "pairs": [],
+ "pause": {
+  "sets": [],
+  "idioms": []
+ },
+ "uiKeys": [
+  "Arabic (required)",
+  "Arabic, pronunciation, meaning, note — one per line (pronunciation/note optional)",
+  "Search a pattern, e.g. 에서 or 'want'",
+  "#script-and-sounds",
+  "#first-steps",
+  "#everyday-life",
+  "#out-and-about",
+  "#watch-out",
+  "#core-words"
+ ],
+ "exportedFrom": {
+  "file": "tools/target/ar/ (tools/target/gen.js ar)",
+  "sha256_16": "21781b5589b00df2"
+ }
+}

@@ -1,0 +1,392 @@
+{"id":"hiragana.01","q":"Which word is \"sushi\"?","why":"し is shi and す is su: すし."}
+{"id":"hiragana.02","q":"Which word is \"neko\" (cat)?","why":"ね ends in a loop; れ and わ do not, and め is me."}
+{"id":"hiragana.03","q":"In これは (this is), the は sounds the same as which letter?","why":"As a particle, は is said wa, like わ."}
+{"id":"hiragana.04","q":"Which letter is \"ga\"?","why":"Two dots on か make が."}
+{"id":"hiragana.05","q":"Which letter is \"sa\"?","why":"さ and ち are mirror images: さ is sa, ち is chi."}
+{"id":"hiragana.06","p":"This is sushi. (start with これ)","why":"The topic particle は is written は but said wa."}
+{"id":"hiragana.07","p":"Sushi, please.","why":"The object particle を is said o but written を."}
+{"id":"hiragana.08","p":"I'm going to the station.","why":"The direction particle へ is said e but written へ."}
+{"id":"hiragana.09","p":"sushi","why":"Sushi is す + し (shi)."}
+{"id":"hiragana.10","p":"cat","why":"Cat is ね + こ (ko)."}
+{"id":"hiragana.11","p":"tempura","why":"The circle turns ふ (fu) into ぷ (pu): てんぷら."}
+{"id":"hiragana.12","p":"This is sushi.","why":"Spell the topic particle は, although you say wa."}
+{"id":"hiragana.13","p":"Sushi, please. (use ください)","why":"The object particle を is written を, not お."}
+{"id":"hiragana.14","p":"I'm going to the station.","hint":"わたし (I)","why":"The direction particle へ is said e but written へ."}
+{"id":"sounds.01","q":"Which word is \"grandmother\"?","why":"Grandmother has a long a (obāsan); おばさん is aunt."}
+{"id":"sounds.02","q":"Which word is \"postage stamp\"?","why":"A stamp has a short pause: small っ, kitte."}
+{"id":"sounds.03","q":"How many beats does とうきょう (Tokyo) have?","o":["Four","Two","Three","Five"],"why":"と, う, きょ, う: small ょ joins き, and each long vowel adds a beat."}
+{"id":"sounds.04","q":"Which spelling is \"kya\", one beat?","why":"A small ゃ joins き into one beat; a full-size や is a second beat."}
+{"id":"sounds.05","q":"Which word is \"teacher\"?","why":"Teacher ends in えい, said as a long e: せんせい."}
+{"id":"sounds.06","p":"I'm going to Tokyo.","why":"The direction particle へ is said e but written へ."}
+{"id":"sounds.07","p":"Tea, please.","why":"The object particle を is said o but written を."}
+{"id":"sounds.08","p":"This is a photo. (start with これ)","why":"Small ゃ joins し into one beat: しゃしん, not shi-ya-shin."}
+{"id":"sounds.09","p":"postage stamp","why":"A small っ makes the pause in kitte."}
+{"id":"sounds.10","p":"grandmother","why":"The long a of grandmother is written with an extra あ."}
+{"id":"sounds.11","p":"photo","why":"Photo ends in ん: しゃしん (shashin)."}
+{"id":"sounds.12","p":"I'm going to school.","why":"Going to a place takes the destination particle に or へ."}
+{"id":"sounds.13","p":"I'm going to Tokyo.","why":"Going to a place takes the destination particle に or へ."}
+{"id":"sounds.14","p":"Tea, please. (use ください)","why":"ください takes the object particle を."}
+{"id":"katakana.01","q":"Which word is \"coffee\"?","why":"Coffee has two long vowels, so it has two ー marks."}
+{"id":"katakana.02","q":"Which letter is \"shi\"?","why":"シ has its short strokes on the left; ツ (tsu) has them on top."}
+{"id":"katakana.03","q":"Which word is \"taxi\"?","why":"Taxi is ta-ku-shī, with ー for the long i."}
+{"id":"katakana.04","q":"Which word is \"beer\"?","why":"Beer has a long i: ビール. ビル is a building."}
+{"id":"katakana.05","q":"Emily writes her name in Japanese. Which is right?","why":"Foreign names go in katakana, with ー for the long i."}
+{"id":"katakana.06","p":"Coffee, please.","why":"ください takes the object particle を."}
+{"id":"katakana.07","p":"I'm Emily.","why":"The topic particle は is written は, even next to katakana."}
+{"id":"katakana.08","p":"This is ramen. (start with これ)","why":"ー makes the vowel long: ラーメン has four beats."}
+{"id":"katakana.09","p":"coffee","why":"Coffee is kōhī: the katakana ヒ (hi)."}
+{"id":"katakana.10","p":"ramen","why":"Ramen is rāmen: the katakana メ (me)."}
+{"id":"katakana.11","p":"party","why":"テ with a small ィ writes the English ti sound: パーティー."}
+{"id":"katakana.12","p":"I drink coffee.","hint":"のみます (drink)","why":"The object particle を marks what you drink."}
+{"id":"katakana.13","p":"Bread, please. (use ください)","hint":"パン (bread) · ください","why":"ください takes the object particle を."}
+{"id":"katakana.14","p":"I'm Emily.","why":"The topic particle は is written は, although you say wa."}
+{"id":"desu.01","q":"\"I'm a student.\" =","why":"Leave out わたし once it is clear; です comes last."}
+{"id":"desu.02","q":"\"Is Mr. Tanaka a student?\" =","why":"Keep the order of the statement and add か at the end."}
+{"id":"desu.03","q":"You introduce yourself: \"I'm Emily.\"","why":"さん never goes after your own name."}
+{"id":"desu.04","q":"\"I'm not a student.\" =","why":"The negative of です is じゃないです, in one piece after the noun."}
+{"id":"desu.05","q":"You meet someone for the first time. You start with…","why":"はじめまして is said only the first time you meet someone."}
+{"id":"desu.06","p":"I'm American.","why":"The topic particle は follows わたし: \"as for me, American\"."}
+{"id":"desu.07","p":"I'm not a teacher.","why":"The negative polite ending is じゃないです, after the noun."}
+{"id":"desu.08","p":"Is Ms. Sato a student?","why":"か at the end turns the sentence into a question."}
+{"id":"desu.09","p":"I'm Emily.","why":"は marks the topic: \"as for me\"."}
+{"id":"desu.10","p":"I'm not a student.","why":"Not a student: じゃないです (or じゃありません)."}
+{"id":"desu.11","p":"Is Mr. Tanaka a student?","why":"か at the end makes it a question."}
+{"id":"desu.12","p":"I'm not a student.","hint":"not","why":"The negative polite ending is じゃないです."}
+{"id":"desu.13","p":"I'm American.","why":"The topic particle は follows わたし."}
+{"id":"desu.14","p":"Is Ms. Sato a teacher?","why":"The topic particle は follows the person you ask about."}
+{"id":"kosoado.01","q":"\"this bag\" =","why":"この needs a noun right after it; これ stands alone."}
+{"id":"kosoado.02","q":"Your friend is holding something. You ask \"What is that?\"","why":"Something near the listener is それ."}
+{"id":"kosoado.03","q":"\"Where is the restroom?\" =","why":"どこ is \"where\", and it stays where the answer would go."}
+{"id":"kosoado.04","q":"\"Whose umbrella is this?\" =","why":"Whose = だれの, and か at the end makes the question."}
+{"id":"kosoado.05","q":"The item is next to the clerk. \"That one, please.\" =","why":"ください takes を, and その would need a noun after it."}
+{"id":"kosoado.06","p":"That one, please. (it is near the clerk)","why":"ください takes the object particle を."}
+{"id":"kosoado.07","p":"Whose umbrella is this?","why":"The linking particle の joins だれ and かさ: whose umbrella."}
+{"id":"kosoado.08","p":"How much is this bag?","why":"この goes before the noun かばん; これ stands alone."}
+{"id":"kosoado.09","p":"How much is this bag?","why":"Before a noun, \"this\" is この."}
+{"id":"kosoado.10","p":"Where is the restroom?","why":"どこ asks \"where\"."}
+{"id":"kosoado.11","p":"That one, please.","why":"ください takes を after the thing you want."}
+{"id":"kosoado.12","p":"This one, please. (use ください)","why":"ください takes the object particle を."}
+{"id":"kosoado.13","p":"Whose bag is this?","why":"The linking particle の turns だれ into \"whose\": だれの かばん."}
+{"id":"kosoado.14","p":"Where is the station?","hint":"えき (station) · どこ","why":"The topic particle は marks the place you ask about."}
+{"id":"numbers.01","q":"\"300 yen\" =","why":"After さん, ひゃく becomes びゃく."}
+{"id":"numbers.02","q":"\"10,000\" =","why":"Japanese has a word for ten thousand: まん."}
+{"id":"numbers.03","q":"\"4 o'clock\" =","why":"Four o'clock is よじ, never しじ or よんじ."}
+{"id":"numbers.04","q":"\"What time is it?\" =","why":"じ is \"o'clock\", so なんじ asks the hour; いくら asks a price."}
+{"id":"numbers.05","q":"\"800 yen\" =","why":"はち + ひゃく becomes はっぴゃく, with small っ."}
+{"id":"numbers.06","p":"I get up at seven.","why":"A clock time takes the time particle に."}
+{"id":"numbers.07","p":"This is 600 yen. (start with これ)","why":"The topic particle は marks the thing whose price you give."}
+{"id":"numbers.08","p":"How much is this umbrella?","why":"いくら asks a price; なんじ asks the time."}
+{"id":"numbers.09","p":"It's 300 yen.","why":"After さん, ひゃく becomes びゃく: さんびゃく."}
+{"id":"numbers.10","p":"I get up at nine.","why":"A clock time takes に: くじに."}
+{"id":"numbers.11","p":"It's four o'clock.","why":"Four o'clock is よじ."}
+{"id":"numbers.12","p":"I get up at seven.","why":"A clock time takes the time particle に."}
+{"id":"numbers.13","p":"This is 300 yen.","why":"The topic particle は marks the thing whose price you give."}
+{"id":"numbers.14","p":"This isn't 1,000 yen.","hint":"not","why":"The negative polite ending is じゃないです."}
+{"id":"no-mo.01","q":"\"my book\" =","why":"Owner first, then の, then the thing owned."}
+{"id":"no-mo.02","q":"\"I'm a student too.\" =","why":"も takes the place of は; they never sit together."}
+{"id":"no-mo.03","q":"You talk about your own mother to a coworker. Which word?","why":"To other people, your own mother is はは."}
+{"id":"no-mo.04","q":"\"a Japanese teacher\" (a teacher of Japanese) =","why":"The main noun, せんせい, comes last, after の."}
+{"id":"no-mo.05","q":"You ask Mr. Tanaka: \"Is your mother a teacher?\"","why":"Someone else's mother is おかあさん."}
+{"id":"no-mo.06","p":"This is my umbrella. (start with これ)","why":"The linking particle の joins わたし and かさ: my umbrella."}
+{"id":"no-mo.07","p":"I'm American too.","why":"The also particle も replaces は: わたしも."}
+{"id":"no-mo.08","p":"My mother is a teacher. (to a coworker)","why":"To other people, your own mother is はは."}
+{"id":"no-mo.09","p":"This is my book.","why":"の joins the owner and the thing: わたしの ほん."}
+{"id":"no-mo.10","p":"Emily is a student too.","why":"\"Too\" is も, in place of は."}
+{"id":"no-mo.11","p":"Mr. Tanaka's mother is a teacher.","why":"Someone else's mother is おかあさん."}
+{"id":"no-mo.12","p":"This is my bag.","why":"The linking particle の joins わたし and かばん."}
+{"id":"no-mo.13","p":"I'm a student too.","hint":"too","why":"The also particle も replaces は: わたしも."}
+{"id":"no-mo.14","p":"Is your mother a teacher? (to Mr. Tanaka)","why":"Someone else's mother is おかあさん, never はは."}
+{"id":"masu.01","q":"\"I eat sushi.\" =","why":"The object with を comes first, the verb last."}
+{"id":"masu.02","q":"\"I don't drink coffee.\" =","why":"For \"not\", ます becomes ません, and the verb stays last."}
+{"id":"masu.03","q":"\"I study every day.\" =","why":"まいにち takes no particle, and the verb comes last."}
+{"id":"masu.04","q":"\"I don't watch TV much.\" =","why":"あまり needs the negative ending ません."}
+{"id":"masu.05","q":"\"I get up at six.\" =","why":"A clock time takes に, and the verb comes last."}
+{"id":"masu.06","p":"I drink tea.","why":"The object particle を marks what you drink."}
+{"id":"masu.07","p":"I don't eat meat.","why":"Don't eat: the polite ending ません replaces ます."}
+{"id":"masu.08","p":"I'll come tomorrow.","why":"Time words like あした take no particle, and the verb comes last."}
+{"id":"masu.09","p":"I eat sushi.","why":"What you eat takes を."}
+{"id":"masu.10","p":"I don't drink coffee.","why":"\"Don't\" is ません in place of ます."}
+{"id":"masu.11","p":"I don't eat much.","why":"あまり goes with ません."}
+{"id":"masu.12","p":"I don't eat meat.","hint":"にく (meat) · たべます · not","why":"Don't eat: the polite ending ません."}
+{"id":"masu.13","p":"I drink coffee every day.","why":"The object particle を marks what you drink."}
+{"id":"masu.14","p":"I get up at six.","why":"A clock time takes the time particle に."}
+{"id":"particles.01","q":"\"I eat at a restaurant.\" =","why":"Eating is an action, so the place takes で, after the noun."}
+{"id":"particles.02","q":"\"I'm going to the station.\" =","why":"Where you go takes に, after the noun."}
+{"id":"particles.03","q":"\"I'll go by bus.\" =","why":"How you travel takes で."}
+{"id":"particles.04","q":"\"I speak Japanese.\" =","why":"What you speak is the object: を, and the verb comes last."}
+{"id":"particles.05","q":"\"I study at home.\" =","why":"Studying is an action, so the place takes で."}
+{"id":"particles.06","p":"I eat at a restaurant.","why":"Where an action happens takes the place-of-action particle で."}
+{"id":"particles.07","p":"I'm going to Kyoto.","why":"Going to a place takes the destination particle に."}
+{"id":"particles.08","p":"I'm going by train.","why":"How you travel takes the means particle で."}
+{"id":"particles.09","p":"I play in the park.","why":"Playing is an action, so the park takes で."}
+{"id":"particles.10","p":"I'm going to Tokyo tomorrow.","why":"Where you go takes に or へ."}
+{"id":"particles.11","p":"I go to school at three.","why":"A clock time takes に."}
+{"id":"particles.12","p":"I eat at a restaurant.","why":"Where you eat takes the place-of-action particle で."}
+{"id":"particles.13","p":"I go to school by bus.","why":"How you travel takes the means particle で."}
+{"id":"particles.14","p":"I'm going to Osaka.","why":"Going to a place takes the destination particle に or へ."}
+{"id":"arimasu.01","q":"\"There's a cat in the room.\" =","why":"A cat is an animal, so います; where it is takes に."}
+{"id":"arimasu.02","q":"\"There's a book on the desk.\" =","why":"A book is a thing, so あります; on the desk is つくえの うえに."}
+{"id":"arimasu.03","q":"\"Where is Mr. Tanaka?\" =","why":"A person takes います, and where someone is takes に."}
+{"id":"arimasu.04","q":"\"next to the station\" =","why":"The station comes first, then の, then となり."}
+{"id":"arimasu.05","q":"\"My wallet is in my bag.\" =","why":"A wallet is a thing (あります), and in the bag is かばんの なかに."}
+{"id":"arimasu.06","p":"It's on the desk.","why":"Where something is takes the location particle に, not で."}
+{"id":"arimasu.07","p":"Where's Emily? She's in the park.","why":"Where someone is takes the location particle に, and a person takes います."}
+{"id":"arimasu.08","p":"Is there a convenience store?","why":"A store is a thing, so it takes あります, not います."}
+{"id":"arimasu.09","p":"There's a book on the desk.","why":"The thing that is there takes が."}
+{"id":"arimasu.10","p":"There's a dog in the park.","why":"A dog is an animal, so います."}
+{"id":"arimasu.11","p":"There's a convenience store in front of the station.","why":"In front of the station is えきの まえ, with の."}
+{"id":"arimasu.12","p":"It's in the bag. (use あります)","why":"Where something is takes the location particle に."}
+{"id":"arimasu.13","p":"Mr. Tanaka is at the station. (use います)","why":"Where someone is takes the location particle に, not で."}
+{"id":"arimasu.14","p":"There's a cat under the chair.","hint":"いす (chair) · した · ねこ · います","why":"The cat that is there takes the subject particle が."}
+{"id":"past.01","q":"I went to Tokyo. =","why":"The past of ます is ました; ませんでした would mean didn't go."}
+{"id":"past.02","q":"I didn't drink coffee. =","why":"Didn't drink: ませんでした, with を on what you drink."}
+{"id":"past.03","q":"Yesterday was Sunday. =","why":"A noun takes でした for was; ました belongs to verbs."}
+{"id":"past.04","q":"Ms. Tanaka wasn't a student. =","why":"Wasn't, after a noun: じゃなかったです."}
+{"id":"past.05","q":"Which day comes right after きんようび (Friday)?","why":"Friday is followed by Saturday, どようび."}
+{"id":"past.06","p":"I ate sushi.","why":"What you eat takes the object particle を."}
+{"id":"past.07","p":"I didn't go to school.","why":"Didn't go: the polite ending ませんでした, after the destination particle に."}
+{"id":"past.08","p":"Ms. Tanaka was a teacher.","why":"The past of です is the polite ending でした."}
+{"id":"past.09","p":"I didn't eat sushi yesterday.","why":"Didn't eat: ませんでした, the negative and then the past."}
+{"id":"past.10","p":"I went to Kyoto on Saturday.","why":"A day of the week takes the time particle に."}
+{"id":"past.11","p":"Yesterday was my day off.","why":"A noun in the past takes でした."}
+{"id":"past.12","p":"I didn't go to Kyoto.","hint":"didn't","why":"Didn't go: the polite ending is ませんでした."}
+{"id":"past.13","p":"I watched a movie.","hint":"past","why":"What you watch takes the object particle を."}
+{"id":"past.14","p":"Did you eat breakfast?","hint":"past question","why":"Leave out you; the object particle を marks what you ate."}
+{"id":"invite.01","q":"Would you like to go together? =","why":"An invitation is a negative question: ませんか."}
+{"id":"invite.02","q":"Let's eat. =","why":"Let's is the ending ましょう."}
+{"id":"invite.03","q":"Shall I help you? =","why":"ましょうか offers to do something; ませんか would ask the other person to help."}
+{"id":"invite.04","q":"A friend invites you to karaoke and you want to go. What do you say?","why":"いいですね means sounds good; けっこうです turns an offer down."}
+{"id":"invite.05","q":"テレビは みませんか (Don't you watch TV?) — That's right, I don't. =","why":"はい agrees with the negative question as it was asked."}
+{"id":"invite.06","p":"Let's go to karaoke.","why":"Going to a place takes the destination particle に."}
+{"id":"invite.07","p":"Would you like to drink some tea?","why":"An invitation uses the polite ending ませんか, and the object particle を marks the tea."}
+{"id":"invite.08","p":"What shall we eat?","why":"なに is what you eat, so it takes the object particle を."}
+{"id":"invite.09","p":"Would you like to see a movie together?","why":"An invitation is a negative question: みませんか."}
+{"id":"invite.10","p":"Let's meet at the station.","why":"Where you meet, the place where something happens, takes で."}
+{"id":"invite.11","p":"Sorry, Saturday is a bit… (I can't make it.)","why":"Trail off with ちょっと… to say no without saying no."}
+{"id":"invite.12","p":"Let's go to Kyoto.","hint":"let's","why":"Going to a place takes the destination particle に or へ."}
+{"id":"invite.13","p":"Would you like to have lunch together?","hint":"ひるごはん (lunch) · たべます","why":"An invitation takes the polite ending ませんか."}
+{"id":"invite.14","p":"What shall we drink?","hint":"shall we","why":"なに is what you drink, so it takes the object particle を."}
+{"id":"kanji-first.01","q":"Which word means Japan?","why":"日本 is Japan; add 人 and it is a Japanese person."}
+{"id":"kanji-first.02","q":"How do you read 六時?","why":"六時 is ろくじ, six o'clock."}
+{"id":"kanji-first.03","q":"Which day is 金曜日?","o":["Friday","Monday","Saturday","Wednesday"],"why":"金曜日 is きんようび, Friday."}
+{"id":"kanji-first.04","q":"Which word means woman?","why":"女の人 is a woman; 女の子 is a girl."}
+{"id":"kanji-first.05","q":"In 日本人, how is 人 read?","why":"After a country, 人 is read じん: にほんじん."}
+{"id":"kanji-first.06","p":"Mr. Tanaka is Japanese.","why":"The topic particle は follows the person you talk about."}
+{"id":"kanji-first.07","p":"Monday is my day off. (Start with Monday.)","why":"The topic particle は marks the day you talk about."}
+{"id":"kanji-first.08","p":"I'm going to Japan.","why":"Going to a place takes the destination particle に."}
+{"id":"kanji-first.09","p":"Sunday is my day off.","why":"日曜日 is Sunday: the sun day."}
+{"id":"kanji-first.10","p":"That man is a teacher.","why":"男の人 is a man; 女の人 is a woman."}
+{"id":"kanji-first.11","p":"I get up at six.","why":"A clock time takes the time particle に."}
+{"id":"kanji-first.12","p":"I get up at six.","why":"A clock time takes the time particle に."}
+{"id":"kanji-first.13","p":"Mr. Tanaka is Japanese.","why":"The topic particle は follows the person you talk about."}
+{"id":"kanji-first.14","p":"Friday is my day off.","why":"The topic particle は marks the day you talk about."}
+{"id":"adjectives.01","q":"It's not expensive. =","why":"An い-adjective drops い and adds くないです."}
+{"id":"adjectives.02","q":"It was cold. (the weather) =","why":"An い-adjective drops い and adds かったです for was."}
+{"id":"adjectives.03","q":"a quiet room =","why":"しずか is a な-adjective: な goes before the noun."}
+{"id":"adjectives.04","q":"It isn't famous. =","why":"ゆうめい ends in い but is a な-adjective: じゃないです."}
+{"id":"adjectives.05","q":"It was good. =","why":"いい is irregular: was good is よかったです."}
+{"id":"adjectives.06","p":"The ramen was delicious.","why":"Past of an い-adjective: the polite ending かったです, not いでした."}
+{"id":"adjectives.07","p":"This room isn't clean.","why":"きれい is a な-adjective, so the polite ending is じゃないです."}
+{"id":"adjectives.08","p":"It's a famous park.","why":"A な-adjective keeps な before a noun."}
+{"id":"adjectives.09","p":"This book isn't interesting.","why":"An い-adjective drops い and adds くないです."}
+{"id":"adjectives.10","p":"It was cold yesterday.","why":"Was, for an い-adjective: かったです."}
+{"id":"adjectives.11","p":"It's a quiet park.","why":"A な-adjective takes な before a noun."}
+{"id":"adjectives.12","p":"The test was difficult.","hint":"past","why":"Past of an い-adjective takes the polite ending かったです."}
+{"id":"adjectives.13","p":"This room isn't quiet.","hint":"not","why":"しずか is a な-adjective, so the polite ending is じゃないです."}
+{"id":"adjectives.14","p":"It's not very expensive.","hint":"not","why":"Negative of an い-adjective: the polite ending くないです."}
+{"id":"suki.01","q":"I like music. =","why":"すき is not a verb: the thing you like takes が, and です ends the sentence."}
+{"id":"suki.02","q":"I love ramen. =","why":"だいすき works like すき: が and です."}
+{"id":"suki.03","q":"What kind of music do you like? =","why":"どんな goes before the noun, and すき takes が."}
+{"id":"suki.04","q":"Ken is good at tennis. =","why":"じょうず takes が for the skill, and です at the end."}
+{"id":"suki.05","q":"I don't like coffee very much. =","why":"すき is a な-adjective: すきじゃないです, and あまり needs a negative."}
+{"id":"suki.06","p":"I like cats.","why":"すき takes the subject particle が, not を."}
+{"id":"suki.07","p":"Sakura is bad at singing. (start with Sakura)","why":"へた, like すき, takes the subject particle が for the skill."}
+{"id":"suki.08","p":"I didn't like that movie.","why":"すき is a な-adjective, so the polite ending is じゃなかったです."}
+{"id":"suki.09","p":"I love cats.","why":"だいすき, like すき, takes が."}
+{"id":"suki.10","p":"I don't like vegetables.","why":"きらいです, or the softer すきじゃないです."}
+{"id":"suki.11","p":"What kind of food do you like?","why":"The thing you like takes が."}
+{"id":"suki.12","p":"I like sushi.","why":"すき takes the subject particle が."}
+{"id":"suki.13","p":"Emily is good at cooking.","hint":"りょうり (cooking) · じょうず","why":"じょうず takes the subject particle が for the skill."}
+{"id":"suki.14","p":"I don't like coffee.","why":"Like すき, きらい takes the subject particle が."}
+{"id":"counters.01","q":"Three pens, please. =","why":"Pens are long, so ほん, which becomes ぼん after さん."}
+{"id":"counters.02","q":"two people =","why":"Two people is ふたり."}
+{"id":"counters.03","q":"Two tickets, please. =","why":"Tickets are flat, so they take まい."}
+{"id":"counters.04","q":"One bottle of beer, please. =","why":"A bottle is long: いっぽん, with a small っ."}
+{"id":"counters.05","q":"I bought three books. =","why":"Books take さつ."}
+{"id":"counters.06","p":"Two apples, please.","why":"The object particle を comes first; the number goes right before the verb."}
+{"id":"counters.07","p":"One coffee, please.","why":"The object particle を follows コーヒー, and then the number."}
+{"id":"counters.08","p":"I have two older sisters.","why":"With います, the people take the subject particle が; the number comes before the verb."}
+{"id":"counters.09","p":"Three pens, please.","why":"Long things take ほん: さんぼん. みっつ also works."}
+{"id":"counters.10","p":"I have two children.","why":"Two people is ふたり."}
+{"id":"counters.11","p":"Four apples, please.","why":"ください takes を, and the number comes after it."}
+{"id":"counters.12","p":"Two coffees, please.","why":"The object particle を comes after コーヒー; the number goes before ください."}
+{"id":"counters.13","p":"Three tickets, please.","hint":"まい (flat things) · ください","why":"The object particle を marks what you want, then the number with まい."}
+{"id":"counters.14","p":"I bought two books.","hint":"さつ (books) · かいます · past","why":"The object particle を marks what you bought; the number goes right before the verb."}
+{"id":"te.01","q":"The て form of たべます:","why":"たべます is a ru-verb: replace ます with て."}
+{"id":"te.02","q":"The て form of かいます (buy):","why":"い before ます becomes って: かって."}
+{"id":"te.03","q":"The て form of よみます (read):","why":"み before ます becomes んで: よんで."}
+{"id":"te.04","q":"The て form of します:","why":"します is irregular: して."}
+{"id":"te.05","q":"It's cheap and delicious. =","why":"An い-adjective drops い and adds くて."}
+{"id":"te.06","p":"I eat breakfast and go to school.","why":"Going to a place takes the destination particle に; only the last verb has the polite ending."}
+{"id":"te.07","p":"I went to Kyoto and saw a temple (おてら).","why":"いきます has the て form いって, and the object particle を marks what you saw."}
+{"id":"te.08","p":"I watch TV and then go to bed.","why":"Only the last verb keeps its ます; the first one is in the て form."}
+{"id":"te.09","p":"I take a shower (あびます) and go to bed.","why":"あびます is a ru-verb: あびて."}
+{"id":"te.10","p":"I met (あいます) a friend at the station and went to a café.","why":"い before ます becomes って: あって."}
+{"id":"te.11","p":"This place is cheap and good.","why":"An い-adjective drops い and adds くて."}
+{"id":"te.12","p":"I go home and eat dinner.","hint":"ばんごはん (dinner) · たべます","why":"Going home takes the destination particle に or へ; かえります becomes かえって."}
+{"id":"te.13","p":"I got up at seven and took a shower.","why":"A clock time takes the time particle に."}
+{"id":"te.14","p":"The park is quiet and pretty.","why":"A な-adjective joins with で: しずかで."}
+{"id":"te-requests.01","q":"Please speak slowly. =","why":"A request: the て form はなして, then ください."}
+{"id":"te-requests.02","q":"May I take a picture? =","why":"Permission is ても いいですか, with を on the picture."}
+{"id":"te-requests.03","q":"You can't smoke here. =","why":"A rule is ては いけません, and where you do it takes で."}
+{"id":"te-requests.04","q":"Water, please. (asking for some) =","why":"Asking for a thing: thing を ください, with no て form."}
+{"id":"te-requests.05","q":"May I come in? =","why":"はいります is a u-verb: はいって, then も いいですか."}
+{"id":"te-requests.06","p":"Please wait here.","why":"Where you wait takes the place-of-action particle で."}
+{"id":"te-requests.07","p":"May I take a picture?","why":"The object particle を marks what you take."}
+{"id":"te-requests.08","p":"You must not eat here.","why":"Where you eat takes the place-of-action particle で."}
+{"id":"te-requests.09","p":"Please wait a moment.","why":"まちます becomes まって before ください."}
+{"id":"te-requests.10","p":"May I sit here?","why":"Where you sit down takes に."}
+{"id":"te-requests.11","p":"You can't take pictures here.","why":"Must not: the て form, then は いけません."}
+{"id":"te-requests.12","p":"Please wait at the station.","hint":"please","why":"Where you wait takes the place-of-action particle で."}
+{"id":"te-requests.13","p":"May I drink some water?","hint":"may I","why":"The object particle を marks what you drink."}
+{"id":"te-requests.14","p":"Please open the window.","hint":"まど (window) · あけます (open) · please","why":"To ask someone to do something, use the て form + ください."}
+{"id":"teiru.01","q":"I'm reading a book. =","why":"よみます becomes よんで, then います."}
+{"id":"teiru.02","q":"I live in Osaka. =","why":"A state: すんで います, with に for the place."}
+{"id":"teiru.03","q":"Do you know Mr. Sato? =","why":"Knowing someone is a state: しって います, with を on the person."}
+{"id":"teiru.04","q":"No, I don't (know him). =","why":"The negative of しって います is しりません."}
+{"id":"teiru.05","q":"My older sister is married. =","why":"Being married is a state: けっこんして います."}
+{"id":"teiru.06","p":"I'm watching TV.","why":"The object particle を marks what you watch; then the て form and います."}
+{"id":"teiru.07","p":"I live in Tokyo.","why":"Where someone lives takes the location particle に."}
+{"id":"teiru.08","p":"My younger brother is sleeping.","why":"The て form ねて comes first, then います."}
+{"id":"teiru.09","p":"I'm reading a book now.","why":"み before ます becomes んで: よんで."}
+{"id":"teiru.10","p":"My older brother lives in Tokyo.","why":"Where someone lives takes に."}
+{"id":"teiru.11","p":"Do you know Mr. Suzuki? No, I don't.","why":"The negative of しって います is しりません."}
+{"id":"teiru.12","p":"I'm drinking coffee.","hint":"now","why":"The object particle を marks what you drink."}
+{"id":"teiru.13","p":"I live in Osaka.","why":"Where someone lives takes the location particle に."}
+{"id":"teiru.14","p":"Is Ken married?","why":"A state uses the て form + います; けっこんしますか asks about the future."}
+{"id":"short.01","q":"Dictionary form of たべます =","why":"たべます is a ru-verb: swap ます for る."}
+{"id":"short.02","q":"Dictionary form of のみます =","why":"のみます is a u-verb: the み sound changes to む."}
+{"id":"short.03","q":"Short negative of かう (buy) =","why":"A verb ending in う takes わ before ない: かわない."}
+{"id":"short.04","q":"\"There's no time.\" (casual, to a friend) =","why":"The short negative of ある is just ない."}
+{"id":"short.05","q":"You ask a stranger \"Are you going?\" Which is right?","why":"With a stranger, stay polite: いきますか."}
+{"id":"short.06","p":"I don't eat meat. (casual, to a friend)","why":"The object particle を marks what you eat, in casual speech too."}
+{"id":"short.07","p":"I am not going tomorrow. (polite, to a teacher)","why":"To a teacher, use the polite ending ません, not the short form."}
+{"id":"short.08","p":"Ken isn't a student. (casual, to a friend)","why":"A noun's short negative is じゃない."}
+{"id":"short.09","p":"What are you doing tomorrow? (casual, to a friend)","why":"Casual speech uses the dictionary form する."}
+{"id":"short.10","p":"I'm not going today. (casual, to a friend)","why":"いく is a u-verb: く changes to か before ない."}
+{"id":"short.11","p":"That person isn't a teacher. (casual, to a friend)","why":"A noun's short negative is じゃない; くない is only for い-adjectives."}
+{"id":"short.12","p":"Will you eat at home? (casual, to a friend)","hint":"rising voice, no か","why":"Where you eat takes the place-of-action particle で."}
+{"id":"short.13","p":"I don't drink coffee. (polite, to a stranger)","hint":"negative","why":"To a stranger, use the polite ending ません, not the short form のまない."}
+{"id":"short.14","p":"Are you going tomorrow? (casual, to a friend)","hint":"rising voice","why":"A casual question is the dictionary form with a rising voice."}
+{"id":"to-omou.01","q":"\"I think it's interesting.\" =","why":"An い-adjective goes straight before と, with no だ."}
+{"id":"to-omou.02","q":"\"I think Mr. Tanaka is a teacher.\" =","why":"A noun takes だ before と, and おもいます goes last."}
+{"id":"to-omou.03","q":"\"I don't think it's expensive.\" =","why":"Put the short negative たかくない inside the quote."}
+{"id":"to-omou.04","q":"\"Ken said he's coming.\" =","why":"Reports use と いって いました; いって has a small っ, いて does not."}
+{"id":"to-omou.05","q":"Which is a な-adjective, so it needs だ before と?","why":"しずか is a な-adjective: しずかだと おもいます."}
+{"id":"to-omou.06","p":"I think it is delicious.","why":"Quote what you think with the particle と."}
+{"id":"to-omou.07","p":"I think Ken will go to Kyoto. (start with Ken)","why":"Going to a place takes the destination particle に."}
+{"id":"to-omou.08","p":"I don't think it's difficult.","why":"Put the negative inside the quote and keep the polite ending おもいます."}
+{"id":"to-omou.09","p":"I think it'll rain tomorrow.","why":"A noun takes だ before と: あめだと."}
+{"id":"to-omou.10","p":"I think this room is cold.","why":"An い-adjective goes straight before と, with no だ."}
+{"id":"to-omou.11","p":"Ken said he isn't coming.","why":"What someone said is quoted with と."}
+{"id":"to-omou.12","p":"I think it's delicious.","why":"Quote what you think with the particle と."}
+{"id":"to-omou.13","p":"I think Ken will come to the party.","why":"Coming to a place takes the destination particle に or へ."}
+{"id":"to-omou.14","p":"I don't think it's expensive.","hint":"put \"not\" in the quote","why":"Put the negative inside the quote and keep the polite ending おもいます."}
+{"id":"noun-mod.01","q":"Past short form of かいます (buy) =","why":"かう has the て form かって, so the past short form is かった, with a small っ."}
+{"id":"noun-mod.02","q":"Past short form of みます (see) =","why":"みる is a ru-verb: swap る for た."}
+{"id":"noun-mod.03","q":"Past short form of いきます (go) =","why":"いく has the て form いって, so いった. いた, with no small っ, is a different verb."}
+{"id":"noun-mod.04","q":"\"the movie I saw yesterday\" =","why":"The describing clause goes before the noun, in the short form."}
+{"id":"noun-mod.05","q":"\"the bag my father bought\" =","why":"Inside a describing clause, the buyer takes が, not は."}
+{"id":"noun-mod.06","p":"I read the book I bought yesterday.","why":"The whole described noun takes the object particle を."}
+{"id":"noun-mod.07","p":"This is a cake my mother made.","why":"Inside the clause, my mother takes the subject particle が."}
+{"id":"noun-mod.08","p":"The movie I saw yesterday was interesting.","why":"Past of an い-adjective: the polite ending is かったです."}
+{"id":"noun-mod.09","p":"The book I read yesterday is interesting.","why":"よむ has the て form よんで, so the past short form is よんだ."}
+{"id":"noun-mod.10","p":"This is the car my father bought.","why":"Inside the clause, the buyer takes が (の is also fine), never は."}
+{"id":"noun-mod.11","p":"The person reading a book over there is my older sister.","why":"The whole phrase \"the person reading a book\" is the topic or subject: は or が."}
+{"id":"noun-mod.12","p":"I read the book I bought yesterday.","why":"The whole described noun takes the object particle を."}
+{"id":"noun-mod.13","p":"This is the cake my mother made.","why":"Inside the clause, the maker takes the subject particle が, not は."}
+{"id":"noun-mod.14","p":"The movie I saw yesterday was interesting.","hint":"past","why":"Past of an い-adjective: the polite ending is かったです."}
+{"id":"compare.01","q":"\"than\" in a comparison =","why":"より is the word for \"than\"."}
+{"id":"compare.02","q":"\"Osaka is smaller than Tokyo.\" =","why":"より goes after the bigger one here, Tokyo: おおさかは とうきょうより ちいさいです."}
+{"id":"compare.03","q":"\"Which is cheaper, the bus or the train?\" =","why":"For two things, ask with どちら; as the subject, a question word takes が, never は."}
+{"id":"compare.04","q":"\"Of all foods, I like sushi best.\" =","why":"The group takes の なかで, and すき takes が."}
+{"id":"compare.05","q":"\"Kyoto was quieter than Tokyo.\" =","why":"しずか is a な-adjective, so its past is でした."}
+{"id":"compare.06","p":"Tokyo is bigger than Osaka. (start with Tokyo)","why":"より is the comparison particle: \"than\"."}
+{"id":"compare.07","p":"I like ramen better.","why":"すき takes the subject particle が: ラーメンの ほうが すきです."}
+{"id":"compare.08","p":"Which is better?","why":"As the subject, a question word takes the subject particle が: どちらが."}
+{"id":"compare.09","p":"Tokyo is bigger than Osaka.","why":"より means \"than\" and goes right after the thing you compare against."}
+{"id":"compare.10","p":"Which do you like better, coffee or tea?","why":"As the subject, a question word takes が: どちらが."}
+{"id":"compare.11","p":"Yesterday was colder than today.","why":"Past of an い-adjective: さむかったです."}
+{"id":"compare.12","p":"Tokyo is bigger than Osaka.","why":"より is the comparison particle: \"than\"."}
+{"id":"compare.13","p":"I like tea better.","why":"すき takes the subject particle が: ほうが すきです."}
+{"id":"compare.14","p":"Of all fruit, I like apples best.","why":"すき takes the subject particle が, also with いちばん."}
+{"id":"tsumori.01","q":"\"I'm planning to go to Kyoto.\" =","why":"つもり follows the dictionary form: いく つもりです."}
+{"id":"tsumori.02","q":"\"I'm not planning to buy it.\" =","why":"A plan not to: the short negative かわない + つもりです."}
+{"id":"tsumori.03","q":"\"It got expensive.\" =","why":"An い-adjective changes い to く before なります."}
+{"id":"tsumori.04","q":"\"The room got clean.\" =","why":"きれい is a な-adjective, so it takes に: きれいに なります."}
+{"id":"tsumori.05","q":"\"It got better.\" =","why":"いい is irregular: よく なります."}
+{"id":"tsumori.06","p":"I'm planning to go to Hokkaido.","why":"Going to a place takes the destination particle に."}
+{"id":"tsumori.07","p":"I'm planning to watch a movie.","why":"みる takes the object particle を: えいがを."}
+{"id":"tsumori.08","p":"It's gotten cold, hasn't it?","why":"An い-adjective changes い to く before なります."}
+{"id":"tsumori.09","p":"I'm planning to go to Japan next year.","why":"つもり follows the dictionary form いく."}
+{"id":"tsumori.10","p":"The room got quiet.","why":"しずか is a な-adjective, so it takes に before なります."}
+{"id":"tsumori.11","p":"Emily's Japanese got good.","why":"じょうず is a な-adjective: じょうずに なります."}
+{"id":"tsumori.12","p":"I'm planning to go to Hokkaido.","why":"Going to a place takes the destination particle に or へ."}
+{"id":"tsumori.13","p":"I'm planning to read a book.","why":"よむ takes the object particle を: ほんを."}
+{"id":"tsumori.14","p":"It got cold.","hint":"past","why":"An い-adjective changes い to く before なります."}
+{"id":"tai.01","q":"\"I want to see Mt. Fuji.\" =","why":"Drop ます and add たいです: みたいです."}
+{"id":"tai.02","q":"\"I don't want to go.\" =","why":"たい changes like an い-adjective: たくないです."}
+{"id":"tai.03","q":"\"I wanted to eat ramen.\" =","why":"Past of たい: たかったです, never たいでした."}
+{"id":"tai.04","q":"\"I want a car.\" =","why":"For a thing, use ほしいです with が."}
+{"id":"tai.05","q":"You want to invite Ms. Sato to lunch. You say:","why":"Invite with the ませんか form; don't state another person's wish."}
+{"id":"tai.06","p":"I want to go to Kyoto.","why":"Going to a place takes the destination particle に."}
+{"id":"tai.07","p":"I don't want to work tomorrow.","why":"たい changes like an い-adjective: the polite ending is たくないです."}
+{"id":"tai.08","p":"I want to eat sushi.","why":"What you eat takes the object particle を (が is also fine with たい)."}
+{"id":"tai.09","p":"I want to go to Kyoto.","why":"Drop ます and add たいです: いきたいです."}
+{"id":"tai.10","p":"I want a new umbrella.","why":"The thing you want takes が before ほしいです."}
+{"id":"tai.11","p":"I didn't want to work yesterday.","why":"Past negative of たい: たくなかったです."}
+{"id":"tai.12","p":"I want to go to Kyoto.","hint":"want to","why":"Going to a place takes the destination particle に or へ."}
+{"id":"tai.13","p":"I want to eat ramen.","hint":"want to","why":"With たい, the food takes the object particle を or the subject particle が."}
+{"id":"tai.14","p":"I didn't want to go to school.","hint":"want to · past negative","why":"Past negative of たい: the polite ending is たくなかったです."}
+{"id":"koto-aru.01","q":"\"I've seen sumo.\" =","why":"Experience: past short form + ことが あります."}
+{"id":"koto-aru.02","q":"\"I've never eaten natto.\" =","why":"Keep the past short form たべた and make あります negative."}
+{"id":"koto-aru.03","q":"\"Have you ever been to Hokkaido?\" =","why":"Past short form + ことが ありますか; going to a place takes に."}
+{"id":"koto-aru.04","q":"Past short form of のぼります (climb) =","why":"The て form is のぼって, so the past short form is のぼった."}
+{"id":"koto-aru.05","q":"\"I went to Kyoto last year.\" =","why":"A set time in the past takes the plain polite past いきました."}
+{"id":"koto-aru.06","p":"I've been to Kyoto.","why":"Going to a place takes the destination particle に."}
+{"id":"koto-aru.07","p":"I've eaten tempura.","why":"たべる takes the object particle を: てんぷらを."}
+{"id":"koto-aru.08","p":"I've never been to Okinawa.","why":"Keep the past short form いった before こと."}
+{"id":"koto-aru.09","p":"I've made sushi.","why":"Experience needs the past short form つくった, with a small っ."}
+{"id":"koto-aru.10","p":"Have you ever seen a Japanese movie?","why":"The pattern is ことが あります (ことは is also fine)."}
+{"id":"koto-aru.11","p":"I've never climbed Mt. Fuji.","why":"\"Never\": make あります negative, ありません."}
+{"id":"koto-aru.12","p":"I've been to Kyoto.","why":"Going to a place takes the destination particle に or へ."}
+{"id":"koto-aru.13","p":"I've eaten ramen.","why":"たべる takes the object particle を: ラーメンを."}
+{"id":"koto-aru.14","p":"I've never seen sumo.","why":"Keep the past short form みた before こと."}
+{"id":"n-desu.01","q":"\"My stomach hurts, you see.\" =","why":"An い-adjective goes straight before んです, and the part that hurts takes が."}
+{"id":"n-desu.02","q":"\"The thing is, tomorrow is a holiday.\" =","why":"A noun takes な before んです."}
+{"id":"n-desu.03","q":"Your friend looks upset. \"What's wrong?\" =","why":"どうしたんですか asks what happened to cause what you see."}
+{"id":"n-desu.04","q":"\"It's raining, so let's take a taxi.\" =","why":"A noun takes な before ので."}
+{"id":"n-desu.05","q":"\"My head hurts, so may I go home?\" =","why":"May I is ても いいですか, and いたい needs no な."}
+{"id":"n-desu.06","p":"I have a headache, you see.","why":"いたい takes the subject particle が: あたまが いたい."}
+{"id":"n-desu.07","p":"The thing is, I lost my wallet.","why":"なくす takes the object particle を: さいふを."}
+{"id":"n-desu.08","p":"Tomorrow is my day off, you see.","why":"A noun takes な before んです: やすみなんです."}
+{"id":"n-desu.09","p":"I have a headache, you see.","why":"An い-adjective goes straight before んです."}
+{"id":"n-desu.10","p":"I have work tomorrow, so I'll go to bed early.","why":"A noun takes な before ので: しごとなので."}
+{"id":"n-desu.11","p":"The thing is, I don't have my wallet.","why":"The short negative of ある is ない: ないんです."}
+{"id":"n-desu.12","p":"I have a headache, you see.","hint":"explain with んです","why":"いたい takes the subject particle が: あたまが."}
+{"id":"n-desu.13","p":"The thing is, I lost my wallet.","hint":"past · んです","why":"なくす takes the object particle を: さいふを."}
+{"id":"n-desu.14","p":"Tomorrow is my day off, so I'll go to the park.","why":"A noun takes な before ので: やすみなので."}
+{"id":"must.01","q":"\"I must go.\" =","why":"Start from the short negative いかない: いかなければ いけません."}
+{"id":"must.02","q":"\"You don't have to buy it.\" =","why":"かう → かわない → かわなくても いいです."}
+{"id":"must.03","q":"\"You'd better rest.\" =","why":"Advice: past short form + ほうが いいです."}
+{"id":"must.04","q":"\"You'd better not go.\" =","why":"\"Better not\": the short negative + ほうが いいです."}
+{"id":"must.05","q":"\"You must not smoke here.\" =","why":"Must not is ては いけません, and where an action happens takes で."}
+{"id":"must.06","p":"I have to take medicine.","why":"のむ takes the object particle を: くすりを."}
+{"id":"must.07","p":"I have to go to the hospital.","why":"Going to a place takes the destination particle に."}
+{"id":"must.08","p":"You don't have to come tomorrow.","why":"くる → こない, so \"don't have to come\" is こなくても."}
+{"id":"must.09","p":"I have to get up early tomorrow.","why":"おきる → おきない → おきなければ いけません."}
+{"id":"must.10","p":"You'd better take medicine.","why":"The pattern is ほうが いいです."}
+{"id":"must.11","p":"You don't have to take off your shoes here.","why":"\"Don't have to\" is なくても いいです."}
+{"id":"must.12","p":"I have to take medicine. (use なければ いけません)","hint":"must","why":"のむ takes the object particle を: くすりを."}
+{"id":"must.13","p":"You'd better go to the hospital.","why":"Going to a place takes the destination particle に or へ."}
+{"id":"must.14","p":"You don't have to come tomorrow.","hint":"don't have to","why":"くる → こない, so \"don't have to come\" is こなくても いいです."}

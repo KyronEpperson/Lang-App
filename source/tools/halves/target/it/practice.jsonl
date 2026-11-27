@@ -1,0 +1,336 @@
+{"id":"sounds.01","lesson":"sounds","t":"mc","o":["la cena","la casa","la chiave","il caffè"]}
+{"id":"sounds.02","lesson":"sounds","t":"mc","o":["la chiave","il cielo","la cena","Ciao!"]}
+{"id":"sounds.03","lesson":"sounds","t":"mc","o":["il gelato","gli spaghetti","il gatto","gli gnocchi"]}
+{"id":"sounds.04","lesson":"sounds","t":"mc","o":["la palla","la pala","la balla","la pila"]}
+{"id":"sounds.05","lesson":"sounds","t":"mc","o":[null,null,null,null]}
+{"id":"sounds.06","lesson":"sounds","t":"order","a":["la","notte"],"x":["il"]}
+{"id":"sounds.07","lesson":"sounds","t":"order","a":["gli","gnocchi"],"x":["i"]}
+{"id":"sounds.08","lesson":"sounds","t":"order","a":["la","bruschetta"],"x":["brusketta"]}
+{"id":"sounds.09","lesson":"sounds","t":"fill","q":"la no__e","o":["t","ct","th"],"a":["tt"]}
+{"id":"sounds.10","lesson":"sounds","t":"fill","q":"gli gno__i","o":["ch","cc","k"],"a":["cch"]}
+{"id":"sounds.11","lesson":"sounds","t":"fill","q":"__ chiave","o":["il","le","i"],"a":["la"]}
+{"id":"sounds.12","lesson":"sounds","t":"type","a":["le chiavi"],"x":["la"]}
+{"id":"sounds.13","lesson":"sounds","t":"type","a":["le notti"],"x":["la"]}
+{"id":"sounds.14","lesson":"sounds","t":"type","a":["la città"],"x":["citta"],"strict":true}
+{"id":"greetings.01","lesson":"greetings","t":"mc","o":["Buongiorno.","Buonanotte.","Ciao.","Buona serata."]}
+{"id":"greetings.02","lesson":"greetings","t":"mc","o":["Come sta?","Come stai?","Come stai Lei?","Come state?"]}
+{"id":"greetings.03","lesson":"greetings","t":"mc","o":["Prego.","Per favore.","Piacere.","Scusa."]}
+{"id":"greetings.04","lesson":"greetings","t":"mc","o":["Piacere.","Prego.","Grazie.","Buonanotte."]}
+{"id":"greetings.05","lesson":"greetings","t":"mc","o":["Buonanotte.","Buongiorno.","Buon pomeriggio.","Prego."]}
+{"id":"greetings.06","lesson":"greetings","t":"order","a":["Buona","serata!"],"x":["Buono"]}
+{"id":"greetings.07","lesson":"greetings","t":"order","a":["Come","sta?"],"x":["stai"]}
+{"id":"greetings.08","lesson":"greetings","t":"order","a":["Mi","scusi,","signora."],"x":["Scusa,"]}
+{"id":"greetings.09","lesson":"greetings","t":"fill","q":"Ciao, Luca! Come __?","o":["sta","stare","sto"],"a":["stai"]}
+{"id":"greetings.10","lesson":"greetings","t":"fill","q":"Buongiorno, signora. Come __?","o":["stai","stare","sto"],"a":["sta"]}
+{"id":"greetings.11","lesson":"greetings","t":"fill","q":"Mi __ Emma.","o":["chiama","chiami","nome"],"a":["chiamo"]}
+{"id":"greetings.12","lesson":"greetings","t":"type","a":["Come stai?","Come stai tu?","Tu come stai?"],"x":["sta"]}
+{"id":"greetings.13","lesson":"greetings","t":"type","a":["Come sta?","Come sta Lei?","Lei come sta?"],"x":["stai"]}
+{"id":"greetings.14","lesson":"greetings","t":"type","a":["Mi chiamo Marco.","Io mi chiamo Marco.","Il mio nome è Marco."],"x":["chiama"]}
+{"id":"gender.01","lesson":"gender","t":"mc","o":["mano","problema","padre","nonno"]}
+{"id":"gender.02","lesson":"gender","t":"mc","o":["le sorelle","le sorellas","la sorelle","i sorelle"]}
+{"id":"gender.03","lesson":"gender","t":"mc","o":["i problemi","le probleme","le problemi","i problema"]}
+{"id":"gender.04","lesson":"gender","t":"mc","o":["le città","le cittàs","le citte","la città"]}
+{"id":"gender.05","lesson":"gender","t":"mc","o":[null,null,null,null]}
+{"id":"gender.06","lesson":"gender","t":"order","a":["le","mani"],"x":["i"]}
+{"id":"gender.07","lesson":"gender","t":"order","a":["i","fratelli"],"x":["le"]}
+{"id":"gender.08","lesson":"gender","t":"order","a":["le","foto"],"x":["fotos"]}
+{"id":"gender.09","lesson":"gender","t":"fill","q":"__ problema","o":["la","i","le"],"a":["il"]}
+{"id":"gender.10","lesson":"gender","t":"fill","q":"le sorell__","o":["a","i","o"],"a":["e"]}
+{"id":"gender.11","lesson":"gender","t":"fill","q":"i padr__","o":["e","a","o"],"a":["i"]}
+{"id":"gender.12","lesson":"gender","t":"type","a":["le sorelle"],"x":["i"]}
+{"id":"gender.13","lesson":"gender","t":"type","a":["la mano"],"x":["il"]}
+{"id":"gender.14","lesson":"gender","t":"type","a":["i nonni"],"x":["le"]}
+{"id":"articles.01","lesson":"articles","t":"mc","o":["lo zucchero","il zucchero","la zucchero","gli zucchero"]}
+{"id":"articles.02","lesson":"articles","t":"mc","o":["l'acqua","la acqua","lo acqua","il acqua"]}
+{"id":"articles.03","lesson":"articles","t":"mc","o":["uno studente","un studente","una studente","un'studente"]}
+{"id":"articles.04","lesson":"articles","t":"mc","o":["un'amica","un amica","uno amica","un amico"]}
+{"id":"articles.05","lesson":"articles","t":"mc","o":["gli spaghetti","i spaghetti","le spaghetti","lo spaghetti"]}
+{"id":"articles.06","lesson":"articles","t":"order","a":["gli","amici"],"x":["i"]}
+{"id":"articles.07","lesson":"articles","t":"order","a":["lo","zucchero"],"x":["il"]}
+{"id":"articles.08","lesson":"articles","t":"order","a":["Un","caffè,","per","favore."],"x":["Uno"]}
+{"id":"articles.09","lesson":"articles","t":"fill","q":"__ gnocchi","o":["i","le","lo"],"a":["gli"]}
+{"id":"articles.10","lesson":"articles","t":"fill","q":"__ pizza","o":["un","uno","un'"],"a":["una"]}
+{"id":"articles.11","lesson":"articles","t":"fill","q":"__ spuntino","o":["un","una","un'"],"a":["uno"]}
+{"id":"articles.12","lesson":"articles","t":"type","a":["l'acqua"],"x":["la"]}
+{"id":"articles.13","lesson":"articles","t":"type","a":["gli studenti"],"x":["i"]}
+{"id":"articles.14","lesson":"articles","t":"type","a":["un'aranciata"],"x":["una"]}
+{"id":"pronouns.01","lesson":"pronouns","t":"mc","o":["lei","lui","loro","io"]}
+{"id":"pronouns.02","lesson":"pronouns","t":"mc","o":["voi","tu","Lei","loro"]}
+{"id":"pronouns.03","lesson":"pronouns","t":"mc","o":["Sto bene, grazie.","Sta bene, grazie.","Stai bene, grazie.","Io sta bene, grazie."]}
+{"id":"pronouns.04","lesson":"pronouns","t":"mc","o":["Lei","tu","voi","io"]}
+{"id":"pronouns.05","lesson":"pronouns","t":"mc","o":[null,null,null,null]}
+{"id":"pronouns.06","lesson":"pronouns","t":"order","a":["Come","state?"],"x":["stai"]}
+{"id":"pronouns.07","lesson":"pronouns","t":"order","a":["Stanno","bene."],"x":["Sta"]}
+{"id":"pronouns.08","lesson":"pronouns","t":"order","a":["E","Lei?"],"x":["tu"]}
+{"id":"pronouns.09","lesson":"pronouns","t":"fill","q":"__ state bene?","o":["Tu","Lei","Loro"],"a":["Voi"]}
+{"id":"pronouns.10","lesson":"pronouns","t":"fill","q":"Marco e Chiara __ bene.","o":["sta","state","stai"],"a":["stanno"]}
+{"id":"pronouns.11","lesson":"pronouns","t":"fill","q":"Signora, come __?","o":["stai","state","sto"],"a":["sta"]}
+{"id":"pronouns.12","lesson":"pronouns","t":"type","a":["Stiamo bene.","Noi stiamo bene."],"x":["stanno"]}
+{"id":"pronouns.13","lesson":"pronouns","t":"type","a":["Come sta Giulia?","Giulia come sta?"],"x":["stai"]}
+{"id":"pronouns.14","lesson":"pronouns","t":"type","a":["E tu?"],"x":["Lei"]}
+{"id":"essere-avere.01","lesson":"essere-avere","t":"mc","o":["Ho freddo.","Sono freddo.","Ho fredda.","Ha freddo."]}
+{"id":"essere-avere.02","lesson":"essere-avere","t":"mc","o":["Ho vent'anni.","Sono vent'anni.","Ho vent'anni vecchio.","Sono vent'anni vecchio."]}
+{"id":"essere-avere.03","lesson":"essere-avere","t":"mc","o":["è","e","ha","sei"],"strict":true}
+{"id":"essere-avere.04","lesson":"essere-avere","t":"mc","o":["Hanno fame.","Sono fame.","Anno fame.","Ha fame."]}
+{"id":"essere-avere.05","lesson":"essere-avere","t":"mc","o":["Siete americani?","Sono americani?","Sei americani?","Siete americano?"]}
+{"id":"essere-avere.06","lesson":"essere-avere","t":"order","a":["Abbiamo","fame."],"x":["Hanno","Siamo"]}
+{"id":"essere-avere.07","lesson":"essere-avere","t":"order","a":["Hai","freddo?"],"x":["Ha"]}
+{"id":"essere-avere.08","lesson":"essere-avere","t":"order","a":["Ho","trent'anni."],"x":["Sono"]}
+{"id":"essere-avere.09","lesson":"essere-avere","t":"fill","q":"Luca __ di Milano.","o":["e","ha","sono"],"a":["è"],"strict":true}
+{"id":"essere-avere.10","lesson":"essere-avere","t":"fill","q":"Voi __ fame?","o":["hanno","ha","siete"],"a":["avete"]}
+{"id":"essere-avere.11","lesson":"essere-avere","t":"fill","q":"Io __ ragione.","o":["sono","o","ha"],"a":["ho"]}
+{"id":"essere-avere.12","lesson":"essere-avere","t":"type","a":["Hai ragione.","Tu hai ragione."],"x":["Ha"]}
+{"id":"essere-avere.13","lesson":"essere-avere","t":"type","a":["Hanno freddo.","Loro hanno freddo."],"x":["Ha"]}
+{"id":"essere-avere.14","lesson":"essere-avere","t":"type","a":["Chiara è stanca."],"x":["stanco"],"strict":true}
+{"id":"adjectives.01","lesson":"adjectives","t":"mc","o":["la camicia bianca","la camicia bianco","la bianca camicia","il camicia bianca"]}
+{"id":"adjectives.02","lesson":"adjectives","t":"mc","o":["le scarpe nere","le scarpe neri","le nere scarpe","i scarpe nere"]}
+{"id":"adjectives.03","lesson":"adjectives","t":"mc","o":["La borsa è verde.","La borsa è verda.","La borsa è verdi.","La borsa e verde."],"strict":true}
+{"id":"adjectives.04","lesson":"adjectives","t":"mc","o":["Giulia e Marco sono alti.","Giulia e Marco sono alte.","Giulia e Marco è alti.","Giulia e Marco sono alto."]}
+{"id":"adjectives.05","lesson":"adjectives","t":"mc","o":["bello","rosso","italiano","nero"]}
+{"id":"adjectives.06","lesson":"adjectives","t":"order","a":["le","camicie","bianche"],"x":["bianchi"]}
+{"id":"adjectives.07","lesson":"adjectives","t":"order","a":["il","maglione","nero"],"x":["nera"]}
+{"id":"adjectives.08","lesson":"adjectives","t":"order","a":["le","scarpe","verdi"],"x":["verde"]}
+{"id":"adjectives.09","lesson":"adjectives","t":"fill","q":"la gonna __","o":["giallo","gialle","gialli"],"a":["gialla"]}
+{"id":"adjectives.10","lesson":"adjectives","t":"fill","q":"I pantaloni sono __.","o":["caro","cara","care"],"a":["cari"]}
+{"id":"adjectives.11","lesson":"adjectives","t":"fill","q":"le borse __","o":["verde","verda","verdo"],"a":["verdi"]}
+{"id":"adjectives.12","lesson":"adjectives","t":"type","a":["i maglioni bianchi"],"x":["bianche"]}
+{"id":"adjectives.13","lesson":"adjectives","t":"type","a":["La giacca è rossa."],"x":["rosso"],"strict":true}
+{"id":"adjectives.14","lesson":"adjectives","t":"type","a":["Chiara e Giulia sono alte."],"x":["alti"]}
+{"id":"present.01","lesson":"present","t":"mc","o":["Lavoriamo a Roma.","Lavorano a Roma.","Noi lavora a Roma.","Lavoramo a Roma."]}
+{"id":"present.02","lesson":"present","t":"mc","o":["Parla inglese?","Parli inglese?","Parlate inglese?","Parlo inglese?"]}
+{"id":"present.03","lesson":"present","t":"mc","o":["Capisco.","Capio.","Capiscio.","Capisce."]}
+{"id":"present.04","lesson":"present","t":"mc","o":["Scrivono.","Scrivano.","Scrive.","Scriviamo."]}
+{"id":"present.05","lesson":"present","t":"mc","o":["Cerchi Marco?","Cerci Marco?","Cerca Marco?","Cercate Marco?"]}
+{"id":"present.06","lesson":"present","t":"order","a":["Studiamo","l'italiano."],"x":["Studiano"]}
+{"id":"present.07","lesson":"present","t":"order","a":["Lavora","qui?"],"x":["Lavori"]}
+{"id":"present.08","lesson":"present","t":"order","a":["Capiscono","l'italiano."],"x":["Capono"]}
+{"id":"present.09","lesson":"present","t":"fill","q":"Voi __ a Milano?","o":["lavorano","lavora","lavoriamo"],"a":["lavorate"]}
+{"id":"present.10","lesson":"present","t":"fill","q":"Marco __ il lavoro.","o":["fine","finisci","finiscono"],"a":["finisce"]}
+{"id":"present.11","lesson":"present","t":"fill","q":"Tu __ un caffè?","o":["prende","prendo","prendete"],"a":["prendi"]}
+{"id":"present.12","lesson":"present","t":"type","a":["Abitiamo a Roma.","Noi abitiamo a Roma."],"x":["abitano"]}
+{"id":"present.13","lesson":"present","t":"type","a":["Parla italiano?","Lei parla italiano?"],"x":["Parli"]}
+{"id":"present.14","lesson":"present","t":"type","a":["Capisci?","Tu capisci?"],"x":["Capisce"]}
+{"id":"questions.01","lesson":"questions","t":"mc","o":["Parli italiano?","Tu parla italiano?","Parlo italiano?","Tu parlare italiano?"]}
+{"id":"questions.02","lesson":"questions","t":"mc","o":["Quante sorelle hai?","Quanti sorelle hai?","Quanto sorelle hai?","Quanta sorelle hai?"]}
+{"id":"questions.03","lesson":"questions","t":"mc","o":["Qual è il problema?","Qual'è il problema?","Qual è la problema?","Quali è il problema?"]}
+{"id":"questions.04","lesson":"questions","t":"mc","o":["Dove abita?","Dove abiti?","Dove abito?","Dove abitano?"]}
+{"id":"questions.05","lesson":"questions","t":"mc","o":["Perché studi l'italiano?","Come studi l'italiano?","Quando studi l'italiano?","Dove studi l'italiano?"]}
+{"id":"questions.06","lesson":"questions","t":"order","a":["Quante","sorelle","hai?"],"x":["Quanti"]}
+{"id":"questions.07","lesson":"questions","t":"order","a":["Di","dove","sei?"],"x":["è"]}
+{"id":"questions.08","lesson":"questions","t":"order","a":["Che","cosa","leggi?"],"x":["Chi"]}
+{"id":"questions.09","lesson":"questions","t":"fill","q":"__ anni hai?","o":["Quanto","Quante","Quanta"],"a":["Quanti"]}
+{"id":"questions.10","lesson":"questions","t":"fill","q":"__ è il problema?","o":["Quali","Chi","Come"],"a":["Qual"]}
+{"id":"questions.11","lesson":"questions","t":"fill","q":"Dove __ Giulia?","o":["abiti","abito","abitano"],"a":["abita"]}
+{"id":"questions.12","lesson":"questions","t":"type","a":["Quanti fratelli hai?","Quanti fratelli hai tu?","Tu quanti fratelli hai?"],"x":["Quante","ha"]}
+{"id":"questions.13","lesson":"questions","t":"type","a":["Dove lavori?","Dove lavori tu?","Tu dove lavori?"],"x":["lavora"]}
+{"id":"questions.14","lesson":"questions","t":"type","a":["Che cosa studi?","Cosa studi?","Che studi?","Che cosa studi tu?","Cosa studi tu?","Che studi tu?","Tu che cosa studi?","Tu cosa studi?","Tu che studi?"],"x":["Chi"]}
+{"id":"ce.01","lesson":"ce","t":"mc","o":["C'è un bar qui vicino.","Ci sono un bar qui vicino.","È un bar qui vicino.","C'è una bar qui vicino."]}
+{"id":"ce.02","lesson":"ce","t":"mc","o":["Ci sono due hotel.","C'è due hotel.","Sono due hotel.","Ci è due hotel."]}
+{"id":"ce.03","lesson":"ce","t":"mc","o":["Dov'è la farmacia?","Dove ci sono la farmacia?","Dove sono la farmacia?","C'è dove la farmacia?"]}
+{"id":"ce.04","lesson":"ce","t":"mc","o":["C'è un supermercato?","Ci un supermercato?","È un supermercato?","Ci sono un supermercato?"]}
+{"id":"ce.05","lesson":"ce","t":"mc","o":["Il museo è in piazza.","Il museo c'è in piazza.","Il museo ci sono in piazza.","Il museo sono in piazza."]}
+{"id":"ce.06","lesson":"ce","t":"order","a":["Ci","sono","due","bar"],"x":["c'è"]}
+{"id":"ce.07","lesson":"ce","t":"order","a":["C'è","una","farmacia?"],"x":["un"]}
+{"id":"ce.08","lesson":"ce","t":"order","a":["Dov'è","la","stazione?"],"x":["C'è"]}
+{"id":"ce.09","lesson":"ce","t":"fill","q":"__ un bagno qui?","o":["Ci sono","È","Sono"],"a":["C'è"]}
+{"id":"ce.10","lesson":"ce","t":"fill","q":"__ due banche in centro.","o":["C'è","Sono","È"],"a":["Ci sono"]}
+{"id":"ce.11","lesson":"ce","t":"fill","q":"Il museo __ in centro.","o":["c'è","ci sono","sono"],"a":["è"],"strict":true}
+{"id":"ce.12","lesson":"ce","t":"type","a":["C'è un bagno?"],"x":["una"]}
+{"id":"ce.13","lesson":"ce","t":"type","a":["Ci sono due farmacie."],"x":["c'è","farmacia"]}
+{"id":"ce.14","lesson":"ce","t":"type","a":["La banca è in centro?","È in centro la banca?"],"x":["C'è"]}
+{"id":"numbers.01","lesson":"numbers","t":"mc","o":["ventuno","ventiuno","vent'uno","ventuni"]}
+{"id":"numbers.02","lesson":"numbers","t":"mc","o":["Sono le tre.","È le tre.","Sono la tre.","È tre."]}
+{"id":"numbers.03","lesson":"numbers","t":"mc","o":["dieci euro","dieci euri","dieci euros","diece euro"]}
+{"id":"numbers.04","lesson":"numbers","t":"mc","o":["È l'una.","Sono l'una.","Sono le una.","È la uno."]}
+{"id":"numbers.05","lesson":"numbers","t":"mc","o":["il quindici settembre","settembre quindici","il quindicesimo settembre","il settembre quindici"]}
+{"id":"numbers.06","lesson":"numbers","t":"order","a":["Sono","le","tre"],"x":["È","la"]}
+{"id":"numbers.07","lesson":"numbers","t":"order","a":["Quanto","costano?"],"x":["costa?"]}
+{"id":"numbers.08","lesson":"numbers","t":"order","a":["il","primo","maggio"],"x":["uno"]}
+{"id":"numbers.09","lesson":"numbers","t":"fill","q":"Quanto __ i biglietti?","o":["costa","costi","costate"],"a":["costano"]}
+{"id":"numbers.10","lesson":"numbers","t":"fill","q":"__ le sette.","o":["È","C'è","Ha"],"a":["Sono"]}
+{"id":"numbers.11","lesson":"numbers","t":"fill","q":"Ho __ anni.","o":["ventiotto","vent'otto","ventotta"],"a":["ventotto"]}
+{"id":"numbers.12","lesson":"numbers","t":"type","a":["È l'una."],"x":["Sono"],"strict":true}
+{"id":"numbers.13","lesson":"numbers","t":"type","a":["due pizze"],"x":["pizza"]}
+{"id":"numbers.14","lesson":"numbers","t":"type","a":["Quanto costano le scarpe?","Le scarpe quanto costano?"],"x":["costa"]}
+{"id":"possessives.01","lesson":"possessives","t":"mc","o":["mia madre","la mia madre","mio madre","il mio madre"]}
+{"id":"possessives.02","lesson":"possessives","t":"mc","o":["la sua macchina","il suo macchina","la suo macchina","sua macchina"]}
+{"id":"possessives.03","lesson":"possessives","t":"mc","o":["suo fratello","sua fratello","la sua fratello","il suo fratello"]}
+{"id":"possessives.04","lesson":"possessives","t":"mc","o":["questi libri","queste libri","questo libri","quest libri"]}
+{"id":"possessives.05","lesson":"possessives","t":"mc","o":["quel ragazzo","quello ragazzo","quella ragazzo","quel' ragazzo"]}
+{"id":"possessives.06","lesson":"possessives","t":"order","a":["le","mie","sorelle"],"x":["mia"]}
+{"id":"possessives.07","lesson":"possessives","t":"order","a":["i","tuoi","genitori"],"x":["tue"]}
+{"id":"possessives.08","lesson":"possessives","t":"order","a":["mia","madre"],"x":["la"]}
+{"id":"possessives.09","lesson":"possessives","t":"fill","q":"Le __ sorelle sono alte.","o":["mia","miei","mio"],"a":["mie"]}
+{"id":"possessives.10","lesson":"possessives","t":"fill","q":"__ padre è italiano.","o":["Il mio","Mia","Il mia"],"a":["Mio"]}
+{"id":"possessives.11","lesson":"possessives","t":"fill","q":"__ ragazze sono mie amiche.","o":["Questi","Questa","Questo"],"a":["Queste"]}
+{"id":"possessives.12","lesson":"possessives","t":"type","a":["le mie sorelle"],"x":["mia"]}
+{"id":"possessives.13","lesson":"possessives","t":"type","a":["queste amiche"],"x":["questi"]}
+{"id":"possessives.14","lesson":"possessives","t":"type","a":["la sua casa","casa sua"],"x":["suo"]}
+{"id":"prepositions.01","lesson":"prepositions","t":"mc","o":["Abito a Roma.","Abito in Roma.","Abito di Roma.","Abito al Roma."]}
+{"id":"prepositions.02","lesson":"prepositions","t":"mc","o":["Vado in Italia.","Vado a Italia.","Vado all'Italia.","Vado di Italia."]}
+{"id":"prepositions.03","lesson":"prepositions","t":"mc","o":["la macchina di Marco","la Marco macchina","la macchina per Marco","Marco la macchina"]}
+{"id":"prepositions.04","lesson":"prepositions","t":"mc","o":["Vado dal dottore.","Vado al dottore.","Vado in dottore.","Vado di dottore."]}
+{"id":"prepositions.05","lesson":"prepositions","t":"mc","o":["Sono in Italia da una settimana.","Sono in Italia per una settimana.","Sono in Italia di una settimana.","Sono in Italia a una settimana."]}
+{"id":"prepositions.06","lesson":"prepositions","t":"order","a":["Vado","al","mercato"],"x":["alla"]}
+{"id":"prepositions.07","lesson":"prepositions","t":"order","a":["gli","zaini","degli","studenti"],"x":["dei"]}
+{"id":"prepositions.08","lesson":"prepositions","t":"order","a":["Vado","in","treno"],"x":["al"]}
+{"id":"prepositions.09","lesson":"prepositions","t":"fill","q":"Abito __ Milano.","o":["in","di","da"],"a":["a"]}
+{"id":"prepositions.10","lesson":"prepositions","t":"fill","q":"Il libro è __ tavolo.","o":["sulla","su","nel"],"a":["sul"]}
+{"id":"prepositions.11","lesson":"prepositions","t":"fill","q":"Sono qui __ una settimana.","o":["per","di","a"],"a":["da"]}
+{"id":"prepositions.12","lesson":"prepositions","t":"type","a":["le chiavi della macchina","le chiavi dell'auto"],"x":["del"]}
+{"id":"prepositions.13","lesson":"prepositions","t":"type","a":["Vado alla stazione.","Vado in stazione.","Io vado alla stazione.","Io vado in stazione."],"x":["al"]}
+{"id":"prepositions.14","lesson":"prepositions","t":"type","a":["la sorella di Marco"],"x":["del"]}
+{"id":"irregular.01","lesson":"irregular","t":"mc","o":["Oggi fa freddo.","Oggi è freddo.","Oggi ha freddo.","Oggi fa fredda."]}
+{"id":"irregular.02","lesson":"irregular","t":"mc","o":["Che cosa fai?","Che cosa fa?","Che cosa faci?","Che cosa fare?"]}
+{"id":"irregular.03","lesson":"irregular","t":"mc","o":["Vengo!","Vado!","Viene!","Venire!"]}
+{"id":"irregular.04","lesson":"irregular","t":"mc","o":["Come state?","Come stai?","Come stato?","Come stiamo?"]}
+{"id":"irregular.05","lesson":"irregular","t":"mc","o":["Sto bene.","Sono bene.","Faccio bene.","Ho bene."]}
+{"id":"irregular.06","lesson":"irregular","t":"order","a":["Andiamo","a","Roma"],"x":["vanno"]}
+{"id":"irregular.07","lesson":"irregular","t":"order","a":["Dove","vai?"],"x":["va?"]}
+{"id":"irregular.08","lesson":"irregular","t":"order","a":["Fa","freddo"],"x":["È"]}
+{"id":"irregular.09","lesson":"irregular","t":"fill","q":"Domani __ a Firenze.","o":["va","vai","andare"],"a":["vado"]}
+{"id":"irregular.10","lesson":"irregular","t":"fill","q":"Marco __ da Napoli.","o":["vengo","vieni","vengono"],"a":["viene"]}
+{"id":"irregular.11","lesson":"irregular","t":"fill","q":"Oggi __ caldo.","o":["è","ha","sta"],"a":["fa"]}
+{"id":"irregular.12","lesson":"irregular","t":"type","a":["Facciamo colazione.","Noi facciamo colazione."],"x":["fanno"]}
+{"id":"irregular.13","lesson":"irregular","t":"type","a":["Vanno a casa.","Loro vanno a casa."],"x":["va"]}
+{"id":"irregular.14","lesson":"irregular","t":"type","a":["Domani fa freddo.","Fa freddo domani."],"x":["È"]}
+{"id":"modals.01","lesson":"modals","t":"mc","o":["Posso entrare?","Può entrare?","Posso entro?","Voglio entrare?"]}
+{"id":"modals.02","lesson":"modals","t":"mc","o":["Devi riposare.","Deve riposare.","Devi riposi.","Devo riposare."]}
+{"id":"modals.03","lesson":"modals","t":"mc","o":["Vorrei un caffè.","Voglio un caffè.","Vorrei caffè.","Volere un caffè."]}
+{"id":"modals.04","lesson":"modals","t":"mc","o":["Luisa sa suonare il piano.","Luisa può suonare il piano.","Luisa sa suona il piano.","Luisa vuole suonare il piano."]}
+{"id":"modals.05","lesson":"modals","t":"mc","o":["Vogliono andare a casa.","Vuole andare a casa.","Vogliono vanno a casa.","Vogliamo andare a casa."]}
+{"id":"modals.06","lesson":"modals","t":"order","a":["Può","aiutarmi?"],"x":["Puoi"]}
+{"id":"modals.07","lesson":"modals","t":"order","a":["Dobbiamo","andare","in","farmacia"],"x":["devono"]}
+{"id":"modals.08","lesson":"modals","t":"order","a":["Vorrei","un","bicchiere","d'acqua"],"x":["Voglio"]}
+{"id":"modals.09","lesson":"modals","t":"fill","q":"__ chiamare un medico?","o":["Puoi","Posso","Possono"],"a":["Può"]}
+{"id":"modals.10","lesson":"modals","t":"fill","q":"Oggi non __ mangiare.","o":["può","puoi","potere"],"a":["posso"]}
+{"id":"modals.11","lesson":"modals","t":"fill","q":"Marco __ andare in farmacia.","o":["devo","devi","devono"],"a":["deve"]}
+{"id":"modals.12","lesson":"modals","t":"type","a":["Devo andare dal dottore.","Io devo andare dal dottore.","Devo andare dal medico.","Io devo andare dal medico."],"x":["deve"]}
+{"id":"modals.13","lesson":"modals","t":"type","a":["Può chiamare un'ambulanza?","Lei può chiamare un'ambulanza?","Può chiamare un'ambulanza Lei?"],"x":["Puoi"]}
+{"id":"modals.14","lesson":"modals","t":"type","a":["So nuotare.","Io so nuotare."],"x":["Posso"]}
+{"id":"piacere.01","lesson":"piacere","t":"mc","o":["Mi piace la pizza.","Io piace la pizza.","Mi piace pizza.","Io piaccio la pizza."]}
+{"id":"piacere.02","lesson":"piacere","t":"mc","o":["Mi piacciono le scarpe.","Mi piace le scarpe.","Io piacciono le scarpe.","Mi piacciono scarpe."]}
+{"id":"piacere.03","lesson":"piacere","t":"mc","o":["Le piace ballare?","Ti piace ballare?","Lei piace ballare?","Le piacciono ballare?"]}
+{"id":"piacere.04","lesson":"piacere","t":"mc","o":[null,null,null,null]}
+{"id":"piacere.05","lesson":"piacere","t":"mc","o":["Non mi piace il tè.","Mi non piace il tè.","Non piace mi il tè.","Non mi piace tè."]}
+{"id":"piacere.06","lesson":"piacere","t":"order","a":["Mi","piacciono","i","libri"],"x":["piace"]}
+{"id":"piacere.07","lesson":"piacere","t":"order","a":["Ti","piace","la","pizza?"],"x":["piacciono"]}
+{"id":"piacere.08","lesson":"piacere","t":"order","a":["Neanche","a","me"],"x":["io"]}
+{"id":"piacere.09","lesson":"piacere","t":"fill","q":"Mi __ gli spaghetti.","o":["piace","piaccio","piaci"],"a":["piacciono"]}
+{"id":"piacere.10","lesson":"piacere","t":"fill","q":"__ piace il calcio.","o":["Le","Lui","Mi"],"a":["Gli","A lui"]}
+{"id":"piacere.11","lesson":"piacere","t":"fill","q":"Ti __ ballare?","o":["piacciono","piaci","piacere"],"a":["piace"]}
+{"id":"piacere.12","lesson":"piacere","t":"type","a":["Mi piacciono i film italiani.","A me piacciono i film italiani.","I film italiani mi piacciono."],"x":["piace"]}
+{"id":"piacere.13","lesson":"piacere","t":"type","a":["Le piace il calcio.","A lei piace il calcio.","Il calcio le piace."],"x":["Gli","piacciono"]}
+{"id":"piacere.14","lesson":"piacere","t":"type","a":["Mi piace cucinare.","A me piace cucinare."],"x":["piacciono"]}
+{"id":"reflexive.01","lesson":"reflexive","t":"mc","o":["Mi sveglio alle sette.","Sveglio alle sette.","Io sveglio alle sette.","Si sveglio alle sette."]}
+{"id":"reflexive.02","lesson":"reflexive","t":"mc","o":["Come si chiama tua sorella?","Come ti chiama tua sorella?","Come chiama tua sorella?","Come si chiamano tua sorella?"]}
+{"id":"reflexive.03","lesson":"reflexive","t":"mc","o":["Ci vediamo domani!","Si vediamo domani!","Ci vedo domani!","Mi vediamo domani!"]}
+{"id":"reflexive.04","lesson":"reflexive","t":"mc","o":["Devo alzarmi alle sei.","Devo alzare alle sei.","Devo alzarsi alle sei.","Devo mi alzare alle sei."]}
+{"id":"reflexive.05","lesson":"reflexive","t":"mc","o":["Mi chiamo Jack.","Chiamo Jack.","Io chiamo Jack.","Mi chiama Jack."]}
+{"id":"reflexive.06","lesson":"reflexive","t":"order","a":["Ci","laviamo","le","mani"],"x":["si","lavano"]}
+{"id":"reflexive.07","lesson":"reflexive","t":"order","a":["Si","chiama","Chiara"],"x":["mi","chiamo"]}
+{"id":"reflexive.08","lesson":"reflexive","t":"order","a":["Voglio","lavarmi","le","mani"],"x":["lavarsi"]}
+{"id":"reflexive.09","lesson":"reflexive","t":"fill","q":"Come ti __?","o":["chiamo","chiama","chiamate"],"a":["chiami"]}
+{"id":"reflexive.10","lesson":"reflexive","t":"fill","q":"Mia madre si __ alle sei.","o":["alzo","alzi","alzano"],"a":["alza"]}
+{"id":"reflexive.11","lesson":"reflexive","t":"fill","q":"Ragazzi, a che ora __ alzate?","o":["ci","si","ti"],"a":["vi"]}
+{"id":"reflexive.12","lesson":"reflexive","t":"type","a":["Ci alziamo alle sette","Noi ci alziamo alle sette","Alle sette ci alziamo","Alle sette noi ci alziamo"],"x":["alzano","si"]}
+{"id":"reflexive.13","lesson":"reflexive","t":"type","a":["Come ti chiami?","Tu come ti chiami?","Come ti chiami tu?"],"x":["chiama","si"]}
+{"id":"reflexive.14","lesson":"reflexive","t":"type","a":["Mi chiamo Megan","Io mi chiamo Megan"],"x":["chiama"]}
+{"id":"lo-la.01","lesson":"lo-la","t":"mc","o":["Il maglione? Lo prendo.","Il maglione? La prendo.","Il maglione? Prendo lo.","Il maglione? Prendo il."]}
+{"id":"lo-la.02","lesson":"lo-la","t":"mc","o":["I pantaloni? Li compro.","I pantaloni? Le compro.","I pantaloni? Lo compro.","I pantaloni? Compro li."]}
+{"id":"lo-la.03","lesson":"lo-la","t":"mc","o":["Marco? Lo chiamo domani.","Marco? La chiamo domani.","Marco? Chiamo lo domani.","Marco? Li chiamo domani."]}
+{"id":"lo-la.04","lesson":"lo-la","t":"mc","o":["Le chiavi? Non le ho.","Le chiavi? Non li ho.","Le chiavi? Le non ho.","Le chiavi? Non ho le."]}
+{"id":"lo-la.05","lesson":"lo-la","t":"mc","o":["Posso provarla?","Posso provarlo?","Posso la provare?","Posso provare la?"]}
+{"id":"lo-la.06","lesson":"lo-la","t":"order","a":["La","prendo"],"x":["Lo","Li"]}
+{"id":"lo-la.07","lesson":"lo-la","t":"order","a":["Non","le","compro"],"x":["li","lo"]}
+{"id":"lo-la.08","lesson":"lo-la","t":"order","a":["Non","lo","voglio"],"x":["la","li"]}
+{"id":"lo-la.09","lesson":"lo-la","t":"fill","q":"I biglietti? __ compro io.","o":["Lo","La","Le"],"a":["Li"]}
+{"id":"lo-la.10","lesson":"lo-la","t":"fill","q":"La borsa? Non __ prendo.","o":["lo","le","li"],"a":["la"]}
+{"id":"lo-la.11","lesson":"lo-la","t":"fill","q":"Le scarpe? Posso __?","o":["provarli","provarla","provare le"],"a":["provarle"]}
+{"id":"lo-la.12","lesson":"lo-la","t":"type","a":["La prendo","Io la prendo"],"x":["Lo"]}
+{"id":"lo-la.13","lesson":"lo-la","t":"type","a":["Posso provarli?","Li posso provare?"],"x":["provarle"]}
+{"id":"lo-la.14","lesson":"lo-la","t":"type","a":["Non lo compriamo","Noi non lo compriamo"],"x":["la","comprano"]}
+{"id":"imperative.01","lesson":"imperative","t":"mc","o":["Vorrei un cappuccino.","Voglio un cappuccino.","Vorrei uno cappuccino.","Vorrei una cappuccino."]}
+{"id":"imperative.02","lesson":"imperative","t":"mc","o":["Guarda!","Guardi!","Guardare!","Guardo!"]}
+{"id":"imperative.03","lesson":"imperative","t":"mc","o":["Non mangiare il mio gelato!","Non mangia il mio gelato!","Mangiare non il mio gelato!","Non mangio il mio gelato!"]}
+{"id":"imperative.04","lesson":"imperative","t":"mc","o":["Andiamo!","Andate!","Vado!","Andare!"]}
+{"id":"imperative.05","lesson":"imperative","t":"mc","o":[null,null,null,null]}
+{"id":"imperative.06","lesson":"imperative","t":"order","a":["Mi","scusi","dov'è","la","stazione"],"x":["scusa","il"]}
+{"id":"imperative.07","lesson":"imperative","t":"order","a":["Prendiamo","una","pizza"],"x":["prendo","un"]}
+{"id":"imperative.08","lesson":"imperative","t":"order","a":["Vorrei","una","birra"],"x":["un"]}
+{"id":"imperative.09","lesson":"imperative","t":"fill","q":"__ un momento, arrivo!","o":["Aspetti","Aspettare","Aspetto"],"a":["Aspetta"]}
+{"id":"imperative.10","lesson":"imperative","t":"fill","q":"Non __ il telefono!","o":["tocca","tocchi","tocco"],"a":["toccare"]}
+{"id":"imperative.11","lesson":"imperative","t":"fill","q":"__ un caffè, per favore.","o":["Voglio","Vuoi","Vuole"],"a":["Vorrei"]}
+{"id":"imperative.12","lesson":"imperative","t":"type","a":["Vorrei un bicchiere d'acqua","Vorrei un bicchiere di acqua"],"x":["una"]}
+{"id":"imperative.13","lesson":"imperative","t":"type","a":["Mangiamo una pizza"],"x":["mangio","un"]}
+{"id":"imperative.14","lesson":"imperative","t":"type","a":["Non toccare il telefono"],"x":["tocca"]}
+{"id":"passato.01","lesson":"passato","t":"mc","o":["Ho mangiato una pizza.","Ho mangiata una pizza.","Sono mangiato una pizza.","Mangiato una pizza."]}
+{"id":"passato.02","lesson":"passato","t":"mc","o":["Abbiamo visto un film.","Abbiamo vedato un film.","Hanno visto un film.","Siamo visto un film."]}
+{"id":"passato.03","lesson":"passato","t":"mc","o":["Hai letto il libro?","Hai leggiuto il libro?","Ha letto il libro?","Hai leggere il libro?"]}
+{"id":"passato.04","lesson":"passato","t":"mc","o":["Ho visitato Firenze l'anno scorso.","Visito Firenze l'anno scorso.","Ho visitato Firenze l'anno prossimo.","Sono visitato Firenze l'anno scorso."]}
+{"id":"passato.05","lesson":"passato","t":"mc","o":["Che cosa hanno fatto ieri?","Che cosa ha fatto ieri?","Che cosa hanno fatti ieri?","Che cosa hanno faciuto ieri?"]}
+{"id":"passato.06","lesson":"passato","t":"order","a":["Abbiamo","comprato","i","biglietti"],"x":["hanno","gli"]}
+{"id":"passato.07","lesson":"passato","t":"order","a":["Hai","preso","il","treno"],"x":["ha","prendito"]}
+{"id":"passato.08","lesson":"passato","t":"order","a":["Non","ho","capito"],"x":["capiuto"]}
+{"id":"passato.09","lesson":"passato","t":"fill","q":"Ieri sera Giulia __ cucinato la pasta.","o":["ho","hanno","hai"],"a":["ha"]}
+{"id":"passato.10","lesson":"passato","t":"fill","q":"Ho __ una lettera a mia nonna.","o":["scrivuto","scrivato","scrivito"],"a":["scritto"]}
+{"id":"passato.11","lesson":"passato","t":"fill","q":"La settimana __ abbiamo visitato Napoli.","o":["scorso","scorse","scorsi"],"a":["scorsa"]}
+{"id":"passato.12","lesson":"passato","t":"type","a":["Abbiamo visto un film","Noi abbiamo visto un film","Abbiamo guardato un film","Noi abbiamo guardato un film"],"x":["hanno"]}
+{"id":"passato.13","lesson":"passato","t":"type","a":["Hai mangiato?","Tu hai mangiato?"],"x":["ha"]}
+{"id":"passato.14","lesson":"passato","t":"type","a":["Ho visitato Roma l'anno scorso","L'anno scorso ho visitato Roma","Io ho visitato Roma l'anno scorso","L'anno scorso io ho visitato Roma"],"x":["visito"]}
+{"id":"passato-essere.01","lesson":"passato-essere","t":"mc","o":["Sono partita alle otto.","Sono partito alle otto.","Ho partito alle otto.","Ho partita alle otto."]}
+{"id":"passato-essere.02","lesson":"passato-essere","t":"mc","o":["I miei genitori sono venuti a Roma.","I miei genitori sono venute a Roma.","I miei genitori hanno venuto a Roma.","I miei genitori è venuto a Roma."]}
+{"id":"passato-essere.03","lesson":"passato-essere","t":"mc","o":["Siamo tornate domenica.","Siamo tornati domenica.","Abbiamo tornato domenica.","Siamo tornata domenica."]}
+{"id":"passato-essere.04","lesson":"passato-essere","t":"mc","o":["Marco è uscito.","Marco ha uscito.","Marco è uscita.","Marco è usciuto."]}
+{"id":"passato-essere.05","lesson":"passato-essere","t":"mc","o":["Mi sono alzato alle sette.","Mi ho alzato alle sette.","Ho alzato alle sette.","Mi sono alzata alle sette."]}
+{"id":"passato-essere.06","lesson":"passato-essere","t":"order","a":["Sono","arrivata","a","Roma"],"x":["arrivato","ho"]}
+{"id":"passato-essere.07","lesson":"passato-essere","t":"order","a":["Siamo","andati","al","mare"],"x":["andate","abbiamo"]}
+{"id":"passato-essere.08","lesson":"passato-essere","t":"order","a":["Sei","uscita"],"x":["uscito","hai"]}
+{"id":"passato-essere.09","lesson":"passato-essere","t":"fill","q":"Le ragazze sono __ alle nove.","o":["partiti","partita","partito"],"a":["partite"]}
+{"id":"passato-essere.10","lesson":"passato-essere","t":"fill","q":"Mio fratello __ tornato ieri.","o":["ha","sono","e"],"a":["è"],"strict":true}
+{"id":"passato-essere.11","lesson":"passato-essere","t":"fill","q":"Ieri sera __ uscito con Luca.","o":["ho","è","sei"],"a":["sono"]}
+{"id":"passato-essere.12","lesson":"passato-essere","t":"type","a":["Sono andata a Roma","Io sono andata a Roma"],"x":["andato","ho"]}
+{"id":"passato-essere.13","lesson":"passato-essere","t":"type","a":["Siamo arrivati a Milano","Noi siamo arrivati a Milano"],"x":["arrivate","abbiamo"]}
+{"id":"passato-essere.14","lesson":"passato-essere","t":"type","a":["Mia nonna è nata a Napoli"],"x":["nato","ha"],"strict":true}
+{"id":"adverbs.01","lesson":"adverbs","t":"mc","o":["Hai già mangiato?","Hai ancora mangiato?","Hai mai mangiato?","Già mangiato hai?"]}
+{"id":"adverbs.02","lesson":"adverbs","t":"mc","o":["Non lavoro mai la domenica.","Lavoro mai la domenica.","Non lavoro sempre la domenica.","Non mai lavoro la domenica."]}
+{"id":"adverbs.03","lesson":"adverbs","t":"mc","o":["Il bagno è lì.","Il bagno è li.","Il bagno è la.","Il bagno e lì."],"strict":true}
+{"id":"adverbs.04","lesson":"adverbs","t":"mc","o":["C'è troppa gente.","C'è troppo gente.","Ci sono troppa gente.","C'è troppe gente."]}
+{"id":"adverbs.05","lesson":"adverbs","t":"mc","o":["La pizza è molto buona.","La pizza è molta buona.","La pizza è molto buono.","La pizza è molta buono."]}
+{"id":"adverbs.06","lesson":"adverbs","t":"order","a":["Ho","molti","amici"],"x":["molto"]}
+{"id":"adverbs.07","lesson":"adverbs","t":"order","a":["È","molto","bella"],"x":["molta","bello"]}
+{"id":"adverbs.08","lesson":"adverbs","t":"order","a":["Non","mangio","mai","carne"],"x":["sempre"]}
+{"id":"adverbs.09","lesson":"adverbs","t":"fill","q":"Ho __ amiche a Milano.","o":["molti","molto","molta"],"a":["molte"]}
+{"id":"adverbs.10","lesson":"adverbs","t":"fill","q":"Il caffè è __ caldo.","o":["troppa","troppi","troppe"],"a":["troppo"]}
+{"id":"adverbs.11","lesson":"adverbs","t":"fill","q":"Le chiavi sono __, sul tavolo.","o":["li","la","le"],"a":["lì","là"],"strict":true}
+{"id":"adverbs.12","lesson":"adverbs","t":"type","a":["Ho molti amici","Io ho molti amici"],"x":["molto"]}
+{"id":"adverbs.13","lesson":"adverbs","t":"type","a":["È molto alta","Lei è molto alta"],"x":["alto","molta"],"strict":true}
+{"id":"adverbs.14","lesson":"adverbs","t":"type","a":["Non bevo mai il caffè","Non bevo mai caffè","Io non bevo mai il caffè","Io non bevo mai caffè"],"x":["sempre"]}
+{"id":"connectors.01","lesson":"connectors","t":"mc","o":["Sono stanco ma contento.","Sono stanco ma contenta.","Sono stanco perché contento.","Sono stanco se contento."]}
+{"id":"connectors.02","lesson":"connectors","t":"mc","o":["Se vuoi, andiamo al cinema.","Sì vuoi, andiamo al cinema.","Si vuoi, andiamo al cinema.","Perché vuoi, andiamo al cinema."],"strict":true}
+{"id":"connectors.03","lesson":"connectors","t":"mc","o":["Neanch'io.","Anch'io.","Neanche me.","Anche non io."]}
+{"id":"connectors.04","lesson":"connectors","t":"mc","o":["Perché non vieni? Perché sono stanco.","Perché non vieni? Allora sono stanco.","Perché non vieni? Se sono stanco.","Perché non vieni? Quando sono stanco."]}
+{"id":"connectors.05","lesson":"connectors","t":"mc","o":["Piove, allora prendo l'autobus.","Piove, o prendo l'autobus.","Piove, se prendo l'autobus.","Piove, perché prendo l'autobus."]}
+{"id":"connectors.06","lesson":"connectors","t":"order","a":["Sono","stanca","ma","contenta"],"x":["contento","stanco"]}
+{"id":"connectors.07","lesson":"connectors","t":"order","a":["Studiamo","l'italiano","perché","ci","piace"],"x":["studiano","mi"]}
+{"id":"connectors.08","lesson":"connectors","t":"order","a":["Sì","anch'io"],"x":["Si"],"strict":true}
+{"id":"connectors.09","lesson":"connectors","t":"fill","q":"Vado al mare __ fa bel tempo.","o":["sì","si","perché"],"a":["se"],"strict":true}
+{"id":"connectors.10","lesson":"connectors","t":"fill","q":"Anna è stanca __ lavora troppo.","o":["o","allora","anche"],"a":["perché"]}
+{"id":"connectors.11","lesson":"connectors","t":"fill","q":"Mi piace il gelato. __ a me!","o":["Anch'io","Neanche","Ma"],"a":["Anche"]}
+{"id":"connectors.12","lesson":"connectors","t":"type","a":["Siamo stanchi perché lavoriamo molto","Noi siamo stanchi perché lavoriamo molto"],"x":["lavorano"]}
+{"id":"connectors.13","lesson":"connectors","t":"type","a":["Se vuoi, mangiamo a casa","Mangiamo a casa se vuoi","Se tu vuoi, mangiamo a casa","Mangiamo a casa se tu vuoi"],"x":["vuole"]}
+{"id":"connectors.14","lesson":"connectors","t":"type","a":["Sì, anch'io","Sì, anche io"],"x":["si"],"strict":true}
+{"id":"sapere-conoscere.01","lesson":"sapere-conoscere","t":"mc","o":["Non so dov'è l'albergo.","Non conosco dov'è l'albergo.","Non sa dov'è l'albergo.","Non so dove l'albergo."]}
+{"id":"sapere-conoscere.02","lesson":"sapere-conoscere","t":"mc","o":["Conosci Roma?","Sai Roma?","Conosce Roma?","Sei Roma?"]}
+{"id":"sapere-conoscere.03","lesson":"sapere-conoscere","t":"mc","o":["Luisa sa suonare il piano.","Luisa conosce suonare il piano.","Luisa sai suonare il piano.","Luisa conosce il piano suonare."]}
+{"id":"sapere-conoscere.04","lesson":"sapere-conoscere","t":"mc","o":["I miei genitori abitano a Roma.","I miei parenti abitano a Roma.","I miei padri abitano a Roma.","Le mie genitori abitano a Roma."]}
+{"id":"sapere-conoscere.05","lesson":"sapere-conoscere","t":"mc","o":["Vado in biblioteca.","Vado in libreria.","Vado in libraria.","Vado in bibliotheca."]}
+{"id":"sapere-conoscere.06","lesson":"sapere-conoscere","t":"order","a":["Conosci","Marco"],"x":["Conosce","Sai"]}
+{"id":"sapere-conoscere.07","lesson":"sapere-conoscere","t":"order","a":["Sa","dov'è","la","stazione"],"x":["sai","il"]}
+{"id":"sapere-conoscere.08","lesson":"sapere-conoscere","t":"order","a":["Non","conoscono","i","miei","genitori"],"x":["conosce","parenti"]}
+{"id":"sapere-conoscere.09","lesson":"sapere-conoscere","t":"fill","q":"Tu __ dov'è il bagno?","o":["conosci","sa","so"],"a":["sai"]}
+{"id":"sapere-conoscere.10","lesson":"sapere-conoscere","t":"fill","q":"Non __ la sorella di Marco.","o":["so","conosce","sa"],"a":["conosco"]}
+{"id":"sapere-conoscere.11","lesson":"sapere-conoscere","t":"fill","q":"Mia nonna non __ usare il cellulare.","o":["conosce","sai","sanno"],"a":["sa"]}
+{"id":"sapere-conoscere.12","lesson":"sapere-conoscere","t":"type","a":["Sa dov'è la stazione?","Lei sa dov'è la stazione?","Sa dove è la stazione?","Lei sa dove è la stazione?"],"x":["sai"]}
+{"id":"sapere-conoscere.13","lesson":"sapere-conoscere","t":"type","a":["Conosco Giulia","Io conosco Giulia"],"x":["So","conosce"]}
+{"id":"sapere-conoscere.14","lesson":"sapere-conoscere","t":"type","a":["I miei parenti abitano a Napoli","I miei parenti vivono a Napoli"],"x":["genitori","abita"]}

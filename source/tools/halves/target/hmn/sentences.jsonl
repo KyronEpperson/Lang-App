@@ -1,0 +1,211 @@
+{"id":"hmn.s0001","hmn":"Hmoob","rom":"high"}
+{"id":"hmn.s0002","hmn":"Nyob zoo.","rom":"high · mid"}
+{"id":"hmn.s0003","hmn":"dej","rom":"falling"}
+{"id":"hmn.s0004","hmn":"kuv","rom":"rising"}
+{"id":"hmn.s0005","hmn":"mus","rom":"low"}
+{"id":"hmn.s0006","hmn":"neeg","rom":"falling-breathy"}
+{"id":"hmn.s0007","hmn":"niam","rom":"creaky"}
+{"id":"hmn.s0008","hmn":"Kuv hlub koj.","rom":"rising · high · falling"}
+{"id":"hmn.s0009","hmn":"Ua tsaug.","rom":"mid · falling-breathy"}
+{"id":"hmn.s0010","hmn":"phooj ywg","rom":"falling · falling-breathy"}
+{"id":"hmn.s0011","hmn":"ntxhais","rom":"low"}
+{"id":"hmn.s0012","hmn":"xav","rom":"rising"}
+{"id":"hmn.s0013","hmn":"riam","rom":"creaky"}
+{"id":"hmn.s0014","hmn":"cuaj","rom":"falling"}
+{"id":"hmn.s0015","hmn":"qaib","rom":"high"}
+{"id":"hmn.s0016","hmn":"tsev","rom":"rising"}
+{"id":"hmn.s0017","hmn":"pw","rom":"mid"}
+{"id":"hmn.s0018","hmn":"Thov txim.","rom":"rising · creaky"}
+{"id":"hmn.s0019","hmn":"npua","rom":"mid"}
+{"id":"hmn.s0020","hmn":"ntawv","rom":"rising"}
+{"id":"hmn.s0021","hmn":"ntses","rom":"low"}
+{"id":"hmn.s0022","hmn":"hmo","rom":"mid"}
+{"id":"hmn.s0023","hmn":"hnub","rom":"high"}
+{"id":"hmn.s0024","hmn":"hlub","rom":"high"}
+{"id":"hmn.s0025","hmn":"Peb hais lus Hmoob.","rom":"high · low · low · high"}
+{"id":"hmn.s0026","hmn":"Koj nyob li cas?","rom":"falling · high · mid · low"}
+{"id":"hmn.s0027","hmn":"Koj puas nyob zoo?","rom":"falling · low · high · mid"}
+{"id":"hmn.s0028","hmn":"Kuv nyob zoo.","rom":"rising · high · mid"}
+{"id":"hmn.s0029","hmn":"Tsis ua li cas.","rom":"low · mid · mid · low"}
+{"id":"hmn.s0030","hmn":"Thov hais dua.","rom":"rising · low · mid"}
+{"id":"hmn.s0031","hmn":"Thov hais maj mam.","rom":"rising · low · falling · creaky"}
+{"id":"hmn.s0032","hmn":"Sib ntsib dua.","rom":"high · high · mid"}
+{"id":"hmn.s0033","hmn":"Pw zoo os.","rom":"mid · mid · low"}
+{"id":"hmn.s0034","hmn":"Zoo siab tau ntsib koj.","rom":"mid · high · mid · high · falling"}
+{"id":"hmn.s0035","hmn":"Nws nyob zoo.","rom":"low · high · mid"}
+{"id":"hmn.s0036","hmn":"Wb nyob zoo.","rom":"high · high · mid"}
+{"id":"hmn.s0037","hmn":"Lawv nyob zoo.","rom":"rising · high · mid"}
+{"id":"hmn.s0038","hmn":"Koj hlub kuv.","rom":"falling · high · rising"}
+{"id":"hmn.s0039","hmn":"Koj yog kuv tus phooj ywg.","rom":"falling · falling-breathy · rising · low · falling · falling-breathy"}
+{"id":"hmn.s0040","hmn":"Nov yog lub tsev.","rom":"rising · falling-breathy · high · rising"}
+{"id":"hmn.s0041","hmn":"Kuv yog Hmoob.","rom":"rising · falling-breathy · high"}
+{"id":"hmn.s0042","hmn":"Kuv nyob hauv lub tsev.","rom":"rising · high · rising · high · rising"}
+{"id":"hmn.s0043","hmn":"Kuv nyob Minneapolis.","rom":"rising · high · —"}
+{"id":"hmn.s0044","hmn":"Kuv zoo siab.","rom":"rising · mid · high"}
+{"id":"hmn.s0045","hmn":"Nws zoo siab heev.","rom":"low · mid · high · rising"}
+{"id":"hmn.s0046","hmn":"Nws siab zoo.","rom":"low · high · mid"}
+{"id":"hmn.s0047","hmn":"Koj puas hais lus Askiv?","rom":"falling · low · low · low · low · rising"}
+{"id":"hmn.s0048","hmn":"Koj noj mov lawm los tsis yog?","rom":"falling · falling · rising · creaky · low · low · falling-breathy"}
+{"id":"hmn.s0049","hmn":"Koj tuaj los?","rom":"falling · falling · low"}
+{"id":"hmn.s0050","hmn":"Koj xav mus qhov twg?","rom":"falling · rising · low · rising · falling-breathy"}
+{"id":"hmn.s0051","hmn":"Chav dej nyob qhov twg?","rom":"rising · falling · high · rising · falling-breathy"}
+{"id":"hmn.s0052","hmn":"Koj xav noj dab tsi?","rom":"falling · rising · falling · high · mid"}
+{"id":"hmn.s0053","hmn":"Nws yog leej twg?","rom":"low · falling-breathy · falling · falling-breathy"}
+{"id":"hmn.s0054","hmn":"No hu li cas?","rom":"mid · mid · mid · low"}
+{"id":"hmn.s0055","hmn":"Koj hnub nyoog pes tsawg?","rom":"falling · high · falling-breathy · low · falling-breathy"}
+{"id":"hmn.s0056","hmn":"Kuv tsis paub.","rom":"rising · low · high"}
+{"id":"hmn.s0057","hmn":"Kuv tsis nkag siab.","rom":"rising · low · falling-breathy · high"}
+{"id":"hmn.s0058","hmn":"Kuv tsis to taub.","rom":"rising · low · mid · high"}
+{"id":"hmn.s0059","hmn":"Kuv tsis zoo siab.","rom":"rising · low · mid · high"}
+{"id":"hmn.s0060","hmn":"Tsis yog.","rom":"low · falling-breathy"}
+{"id":"hmn.s0061","hmn":"Kuv tsis tau noj mov.","rom":"rising · low · mid · falling · rising"}
+{"id":"hmn.s0062","hmn":"Tsis txhob noj.","rom":"low · high · falling"}
+{"id":"hmn.s0063","hmn":"Tsis txhob mus.","rom":"low · high · low"}
+{"id":"hmn.s0064","hmn":"Koj lub npe hu li cas?","rom":"falling · high · mid · mid · mid · low"}
+{"id":"hmn.s0065","hmn":"Kuv lub npe hu ua Paj.","rom":"rising · high · mid · mid · mid · falling"}
+{"id":"hmn.s0066","hmn":"Koj tuaj qhov twg tuaj?","rom":"falling · falling · rising · falling-breathy · falling"}
+{"id":"hmn.s0067","hmn":"Kuv tuaj Fresno tuaj.","rom":"rising · falling · — · falling"}
+{"id":"hmn.s0068","hmn":"Kuv hnub nyoog muaj nees nkaum xyoo.","rom":"rising · high · falling-breathy · falling · low · creaky · mid"}
+{"id":"hmn.s0069","hmn":"Koj yog Hmoob xeem dab tsi?","rom":"falling · falling-breathy · high · creaky · high · mid"}
+{"id":"hmn.s0070","hmn":"Kuv yog Hmoob xeem Vang.","rom":"rising · falling-breathy · high · creaky · —"}
+{"id":"hmn.s0071","hmn":"ib, ob, peb, plaub, tsib","rom":"high · high · high · high · high"}
+{"id":"hmn.s0072","hmn":"kaum ob","rom":"creaky · high"}
+{"id":"hmn.s0073","hmn":"nees nkaum ib","rom":"low · creaky · high"}
+{"id":"hmn.s0074","hmn":"peb caug ob","rom":"high · falling-breathy · high"}
+{"id":"hmn.s0075","hmn":"rau caum","rom":"mid · creaky"}
+{"id":"hmn.s0076","hmn":"ib puas","rom":"high · low"}
+{"id":"hmn.s0077","hmn":"yim pua","rom":"creaky · mid"}
+{"id":"hmn.s0078","hmn":"Koj muaj pes tsawg daus las?","rom":"falling · falling · low · falling-breathy · low · low"}
+{"id":"hmn.s0079","hmn":"Kuv muaj nees nkaum daus las.","rom":"rising · falling · low · creaky · low · low"}
+{"id":"hmn.s0080","hmn":"Kuv hnub nyoog muaj peb caug xyoo.","rom":"rising · high · falling-breathy · falling · high · falling-breathy · mid"}
+{"id":"hmn.s0081","hmn":"ob lub tsev","rom":"high · high · rising"}
+{"id":"hmn.s0082","hmn":"Kuv muaj ob lub tsheb.","rom":"rising · falling · high · high · high"}
+{"id":"hmn.s0083","hmn":"ib rab riam","rom":"high · high · creaky"}
+{"id":"hmn.s0084","hmn":"ib nkawm khau","rom":"high · creaky · mid"}
+{"id":"hmn.s0085","hmn":"ib khob dej","rom":"high · high · falling"}
+{"id":"hmn.s0086","hmn":"ib phau ntawv","rom":"high · mid · rising"}
+{"id":"hmn.s0087","hmn":"ib tug dev","rom":"high · falling-breathy · rising"}
+{"id":"hmn.s0088","hmn":"Koj muaj pes tsawg tus me nyuam?","rom":"falling · falling · low · falling-breathy · low · mid · creaky"}
+{"id":"hmn.s0089","hmn":"cov me nyuam","rom":"rising · mid · creaky"}
+{"id":"hmn.s0090","hmn":"lub tsheb liab","rom":"high · high · high"}
+{"id":"hmn.s0091","hmn":"tus dev dub","rom":"low · rising · high"}
+{"id":"hmn.s0092","hmn":"Kuv muaj ib phau ntawv tshiab.","rom":"rising · falling · high · mid · rising · high"}
+{"id":"hmn.s0093","hmn":"lub tsev ko","rom":"high · rising · mid"}
+{"id":"hmn.s0094","hmn":"lub tsev loj no","rom":"high · rising · falling · mid"}
+{"id":"hmn.s0095","hmn":"Kuv nyiam koj lub tsheb dawb.","rom":"rising · creaky · falling · high · high · high"}
+{"id":"hmn.s0096","hmn":"Nov yog kuv lub tsev.","rom":"rising · falling-breathy · rising · high · rising"}
+{"id":"hmn.s0097","hmn":"Kuv muaj ob tug tub.","rom":"rising · falling · high · falling-breathy · high"}
+{"id":"hmn.s0098","hmn":"Kuv muaj ib tug ntxhais.","rom":"rising · falling · high · falling-breathy · low"}
+{"id":"hmn.s0099","hmn":"Kuv niam txiv nyob Fresno.","rom":"rising · creaky · rising · high · —"}
+{"id":"hmn.s0100","hmn":"Kuv muaj ib tug tij laug.","rom":"rising · falling · high · falling-breathy · falling · falling-breathy"}
+{"id":"hmn.s0101","hmn":"Kuv muaj ob tug nus.","rom":"rising · falling · high · falling-breathy · low"}
+{"id":"hmn.s0102","hmn":"Kuv muaj ib tug viv ncaus.","rom":"rising · falling · high · falling-breathy · rising · low"}
+{"id":"hmn.s0103","hmn":"Nag hmo kuv mus tom khw.","rom":"falling-breathy · mid · rising · low · creaky · mid"}
+{"id":"hmn.s0104","hmn":"Hnub no kuv mus tom khw.","rom":"high · mid · rising · low · creaky · mid"}
+{"id":"hmn.s0105","hmn":"Sawv ntxov kuv haus kav fes.","rom":"rising · rising · rising · low · rising · low"}
+{"id":"hmn.s0106","hmn":"7 sawv ntxov txog 6 tsaus ntuj","rom":"— · rising · rising · falling-breathy · — · low · falling"}
+{"id":"hmn.s0107","hmn":"hnub Monday txog hnub Friday","rom":"high · — · falling-breathy · high · —"}
+{"id":"hmn.s0108","hmn":"Kuv ua hauj lwm txhua hnub.","rom":"rising · mid · falling · creaky · mid · high"}
+{"id":"hmn.s0109","hmn":"kaum ob hlis ntuj","rom":"creaky · high · low · falling"}
+{"id":"hmn.s0110","hmn":"Kuv noj mov lawm.","rom":"rising · falling · rising · creaky"}
+{"id":"hmn.s0111","hmn":"Kuv twb noj mov lawm.","rom":"rising · high · falling · rising · creaky"}
+{"id":"hmn.s0112","hmn":"Lawv tab tom haus dej.","rom":"rising · high · creaky · low · falling"}
+{"id":"hmn.s0113","hmn":"Kuv yuav mus tsev.","rom":"rising · rising · low · rising"}
+{"id":"hmn.s0114","hmn":"Kuv mam li mus.","rom":"rising · creaky · mid · low"}
+{"id":"hmn.s0115","hmn":"Nws nyuam qhuav tuaj txog.","rom":"low · creaky · rising · falling · falling-breathy"}
+{"id":"hmn.s0116","hmn":"Nws nyob pem roob.","rom":"low · high · creaky · high"}
+{"id":"hmn.s0117","hmn":"Lawv nyob nram lub zos.","rom":"rising · high · creaky · high · low"}
+{"id":"hmn.s0118","hmn":"Kuv mus tom khw.","rom":"rising · low · creaky · mid"}
+{"id":"hmn.s0119","hmn":"Nws lub tsev nyob tim tus dej.","rom":"low · high · rising · high · creaky · low · falling"}
+{"id":"hmn.s0120","hmn":"Phau ntawv nyob saum lub rooj.","rom":"mid · rising · high · creaky · high · falling"}
+{"id":"hmn.s0121","hmn":"Tus miv nyob hauv qab lub rooj.","rom":"low · rising · high · rising · high · high · falling"}
+{"id":"hmn.s0122","hmn":"Nws nyob tod.","rom":"low · high · rising-final"}
+{"id":"hmn.s0123","hmn":"Lub khw nyob qhov twg?","rom":"high · mid · high · rising · falling-breathy"}
+{"id":"hmn.s0124","hmn":"Lem sab xis.","rom":"creaky · high · low"}
+{"id":"hmn.s0125","hmn":"Lub khw nyob ze.","rom":"high · mid · high · mid"}
+{"id":"hmn.s0126","hmn":"Kuv los tsev.","rom":"rising · low · rising"}
+{"id":"hmn.s0127","hmn":"Kuv noj mov.","rom":"rising · falling · rising"}
+{"id":"hmn.s0128","hmn":"Peb noj tshais.","rom":"high · falling · low"}
+{"id":"hmn.s0129","hmn":"Kuv nyiam noj fawm.","rom":"rising · creaky · falling · creaky"}
+{"id":"hmn.s0130","hmn":"Kuv tsis noj nqaij nyuj.","rom":"rising · low · falling · falling · falling"}
+{"id":"hmn.s0131","hmn":"Kuv haus dej.","rom":"rising · low · falling"}
+{"id":"hmn.s0132","hmn":"Koj puas haus kav fes?","rom":"falling · low · low · rising · low"}
+{"id":"hmn.s0133","hmn":"Kuv haus ib khob tshuaj yej.","rom":"rising · low · high · high · falling · falling"}
+{"id":"hmn.s0134","hmn":"ib lub qe","rom":"high · high · mid"}
+{"id":"hmn.s0135","hmn":"Koj puas tshaib plab?","rom":"falling · low · high · high"}
+{"id":"hmn.s0136","hmn":"Qab heev!","rom":"high · rising"}
+{"id":"hmn.s0137","hmn":"Kuv mus yuav zaub.","rom":"rising · low · rising · high"}
+{"id":"hmn.s0138","hmn":"Peb mus kav khw.","rom":"high · low · rising · mid"}
+{"id":"hmn.s0139","hmn":"Nws mus ua hauj lwm.","rom":"low · low · mid · falling · creaky"}
+{"id":"hmn.s0140","hmn":"Los noj mov!","rom":"low · falling · rising"}
+{"id":"hmn.s0141","hmn":"Kuv yuav mus yuav nqaij npua.","rom":"rising · rising · low · rising · falling · mid"}
+{"id":"hmn.s0142","hmn":"Kuv xav mus tsev.","rom":"rising · rising · low · rising"}
+{"id":"hmn.s0143","hmn":"Kuv tsis xav mus.","rom":"rising · low · rising · low"}
+{"id":"hmn.s0144","hmn":"Kuv muab phau ntawv rau koj.","rom":"rising · high · mid · rising · mid · falling"}
+{"id":"hmn.s0145","hmn":"Nws muab ib khob dej rau kuv.","rom":"low · high · high · high · falling · mid · rising"}
+{"id":"hmn.s0146","hmn":"Thov zaum.","rom":"rising · creaky"}
+{"id":"hmn.s0147","hmn":"Thov los noj mov.","rom":"rising · low · falling · rising"}
+{"id":"hmn.s0148","hmn":"Thov pab kuv.","rom":"rising · high · rising"}
+{"id":"hmn.s0149","hmn":"Hais dua puas tau?","rom":"low · mid · low · mid"}
+{"id":"hmn.s0150","hmn":"Pab kuv puas tau?","rom":"high · rising · low · mid"}
+{"id":"hmn.s0151","hmn":"Kuv nug puas tau?","rom":"rising · falling-breathy · low · mid"}
+{"id":"hmn.s0152","hmn":"Pab!","rom":"high"}
+{"id":"hmn.s0153","hmn":"Tsis txhob noj.","rom":"low · high · falling"}
+{"id":"hmn.s0154","hmn":"Thov zaum os.","rom":"rising · creaky · low"}
+{"id":"hmn.s0155","hmn":"Kuv zoo siab heev.","rom":"rising · mid · high · rising"}
+{"id":"hmn.s0156","hmn":"Nws tu siab.","rom":"low · mid · high"}
+{"id":"hmn.s0157","hmn":"Kuv kho siab.","rom":"rising · mid · high"}
+{"id":"hmn.s0158","hmn":"Kuv ntshai.","rom":"rising · mid"}
+{"id":"hmn.s0159","hmn":"Kuv tsis tu siab.","rom":"rising · low · mid · high"}
+{"id":"hmn.s0160","hmn":"Koj puas chim siab?","rom":"falling · low · creaky · high"}
+{"id":"hmn.s0161","hmn":"Hnub no los nag.","rom":"high · mid · low · falling-breathy"}
+{"id":"hmn.s0162","hmn":"Nag hmo los daus.","rom":"falling-breathy · mid · low · low"}
+{"id":"hmn.s0163","hmn":"Hnub no no heev.","rom":"high · mid · mid · rising"}
+{"id":"hmn.s0164","hmn":"Hnub no kub heev.","rom":"high · mid · high · rising"}
+{"id":"hmn.s0165","hmn":"Lawv muag zaub.","rom":"rising · falling-breathy · high"}
+{"id":"hmn.s0166","hmn":"Qhov no pes tsawg?","rom":"rising · mid · low · falling-breathy"}
+{"id":"hmn.s0167","hmn":"Nkawm khau no pes tsawg?","rom":"creaky · mid · mid · low · falling-breathy"}
+{"id":"hmn.s0168","hmn":"Tus nqi yog li cas?","rom":"low · mid · falling-breathy · mid · low"}
+{"id":"hmn.s0169","hmn":"Nees nkaum daus las.","rom":"low · creaky · low · low"}
+{"id":"hmn.s0170","hmn":"Lub kaus no kim heev.","rom":"high · low · mid · creaky · rising"}
+{"id":"hmn.s0171","hmn":"Phau ntawv no pheej yig.","rom":"mid · rising · mid · falling · falling-breathy"}
+{"id":"hmn.s0172","hmn":"Qhov no puas muaj luv nqi?","rom":"rising · mid · low · falling · rising · mid"}
+{"id":"hmn.s0173","hmn":"Kuv them nqi.","rom":"rising · creaky · mid"}
+{"id":"hmn.s0174","hmn":"Kuv yuav ob nkawm khau.","rom":"rising · rising · high · creaky · mid"}
+{"id":"hmn.s0175","hmn":"Kuv mob.","rom":"rising · high"}
+{"id":"hmn.s0176","hmn":"Kuv mob plab.","rom":"rising · high · high"}
+{"id":"hmn.s0177","hmn":"Kuv mob taub hau.","rom":"rising · high · high · mid"}
+{"id":"hmn.s0178","hmn":"Kuv hnoos heev.","rom":"rising · low · rising"}
+{"id":"hmn.s0179","hmn":"Kuv xav mus ntsib tus kws kho mob.","rom":"rising · rising · low · high · low · low · mid · high"}
+{"id":"hmn.s0180","hmn":"Tus neeg txhais lus pab kuv.","rom":"low · falling-breathy · low · low · high · rising"}
+{"id":"hmn.s0181","hmn":"Kuv yuav tsum noj tshuaj.","rom":"rising · rising · creaky · falling · falling"}
+{"id":"hmn.s0182","hmn":"Kuv xav teem sij hawm.","rom":"rising · rising · creaky · falling · creaky"}
+{"id":"hmn.s0183","hmn":"Kuv laus tshaj koj.","rom":"rising · low · falling · falling"}
+{"id":"hmn.s0184","hmn":"Lub tsev no loj tshaj lub tsev ntawd.","rom":"high · rising · mid · falling · falling · high · rising · rising-final"}
+{"id":"hmn.s0185","hmn":"Kav fes kim tshaj tshuaj yej.","rom":"rising · low · creaky · falling · falling · falling"}
+{"id":"hmn.s0186","hmn":"Nkawm khau no kim tshaj nkawm khau ntawd.","rom":"creaky · mid · mid · creaky · falling · creaky · mid · rising-final"}
+{"id":"hmn.s0187","hmn":"Phau ntawv no zoo tshaj.","rom":"mid · rising · mid · mid · falling"}
+{"id":"hmn.s0188","hmn":"Leej twg laus tshaj?","rom":"falling · falling-breathy · low · falling"}
+{"id":"hmn.s0189","hmn":"Lub tsheb no loj heev.","rom":"high · high · mid · falling · rising"}
+{"id":"hmn.s0190","hmn":"Nws zoo siab kawg.","rom":"low · mid · high · falling-breathy"}
+{"id":"hmn.s0191","hmn":"Koj tuaj los?","rom":"falling · falling · low"}
+{"id":"hmn.s0192","hmn":"Peb tuaj os.","rom":"high · falling · low"}
+{"id":"hmn.s0193","hmn":"Pog, koj tuaj los?","rom":"falling-breathy · falling · falling · low"}
+{"id":"hmn.s0194","hmn":"Yawg, koj noj mov lawm los tsis yog?","rom":"falling-breathy · falling · falling · rising · creaky · low · low · falling-breathy"}
+{"id":"hmn.s0195","hmn":"Kuv tsis tau noj.","rom":"rising · low · mid · falling"}
+{"id":"hmn.s0196","hmn":"Mus ho tuaj.","rom":"low · mid · falling"}
+{"id":"hmn.s0197","hmn":"Pog, thov zaum os.","rom":"falling-breathy · rising · creaky · low"}
+{"id":"hmn.s0198","hmn":"Nyob zoo xyoo tshiab!","rom":"high · mid · mid · high"}
+{"id":"hmn.s0199","hmn":"Peb mus noj peb caug.","rom":"high · low · falling · high · falling-breathy"}
+{"id":"hmn.s0200","hmn":"Lawv pov pob.","rom":"rising · rising · high"}
+{"id":"hmn.s0201","hmn":"Nws xaws paj ntaub.","rom":"low · low · falling · high"}
+{"id":"hmn.s0202","hmn":"Lawv hu nkauj.","rom":"rising · mid · falling"}
+{"id":"hmn.s0203","hmn":"Kuv hnav khaub ncaws tshiab.","rom":"rising · rising · high · low · high"}
+{"id":"hmn.s0204","hmn":"Nws hnav hlab nyiaj.","rom":"low · rising · high · falling"}
+{"id":"hmn.s0205","hmn":"Kuv yog Hmoob xeem Vang.","rom":"rising · falling-breathy · high · creaky · —"}
+{"id":"hmn.s0206","hmn":"Sawvdaws tuaj noj mov.","rom":"rising · low · falling · falling · rising"}
+{"id":"hmn.s0207","hmn":"Zoo siab hnub yug!","rom":"mid · high · high · falling-breathy"}
+{"id":"hmn.s0208","hmn":"Kuv muaj ob tug me nyuam.","rom":"rising · falling · high · falling-breathy · mid · creaky"}
+{"id":"hmn.s0209","hmn":"Lawv hu plig.","rom":"rising · mid · falling-breathy"}
+{"id":"hmn.s0210","hmn":"Yawg khi tes.","rom":"falling-breathy · mid · low"}
+{"id":"hmn.s0211","hmn":"Pog, ua tsaug.","rom":"falling-breathy · mid · falling-breathy"}

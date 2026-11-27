@@ -1,0 +1,392 @@
+{"id":"letters.01","q":"Which word means 'house'?","why":"بَيْت: ب, then ي with two dots below, then ت with two dots above."}
+{"id":"letters.02","q":"How do you say بِنْت (girl)?","why":"The middle letter has one dot above, so it is ن: بِنْت, not بَيْت."}
+{"id":"letters.03","q":"Which letter sounds like the th in 'think'?","why":"ث has three dots above; ذ is the th of 'this'."}
+{"id":"letters.04","q":"Which sign at the end of a word usually means the word is feminine?","why":"ة, the taa marbuta, is the feminine ending: سَيَّارَة, طَالِبَة."}
+{"id":"letters.05","q":"Which word means 'student (a woman)'?","why":"ة at the end marks the feminine; طَالِب is a man."}
+{"id":"letters.06","p":"a big car","why":"سَيَّارَة ends in ة, so it is feminine and the adjective agrees: كَبِيرَة."}
+{"id":"letters.07","p":"a big house","why":"بَيْت is masculine, so the adjective is masculine too: no ة."}
+{"id":"letters.08","p":"a big school","why":"مَدْرَسَة is feminine (ة), so the adjective after it agrees: كَبِيرَة."}
+{"id":"letters.09","p":"This is a car.","why":"هٰذِهِ is the feminine 'this', and سَيَّارَة is the word that means car."}
+{"id":"letters.10","p":"This is a book.","why":"هٰذَا is the masculine 'this'; words ending in ة need هٰذِهِ."}
+{"id":"letters.11","p":"a big school","why":"مَدْرَسَة ends in ة, so 'big' takes ة too: كَبِيرَة."}
+{"id":"letters.12","p":"This is a book.","hint":"'this' comes first","why":"كِتَاب is masculine: هٰذَا, not the feminine هٰذِهِ."}
+{"id":"letters.13","p":"This is a car.","hint":"'this' comes first","why":"سَيَّارَة is feminine (taa marbuta): هٰذِهِ."}
+{"id":"letters.14","p":"a big house","hint":"the describing word comes second","why":"بَيْت has no ة: it is masculine, so كَبِير agrees without ة."}
+{"id":"sounds.01","q":"Which word means 'heart'?","why":"قَلْب starts with the deep ق; كَلْب, with plain ك, is 'dog'."}
+{"id":"sounds.02","q":"How do you say صَيْف (summer)?","why":"ص is the heavy s, written ṣ: صَيْف. With plain س it is سَيْف, 'sword'."}
+{"id":"sounds.03","q":"Which letter is a breathy h from the throat, not the English h?","why":"ح is the throat h; ه is English h; خ is the kh of Bach."}
+{"id":"sounds.04","q":"Which word starts with ʿayn?","why":"عَلَم 'flag' starts with ع; أَلَم 'pain' starts with a plain catch, ء."}
+{"id":"sounds.05","q":"Which word means 'mud', with the heavy t?","why":"ط is the heavy t: طِين 'mud'. With plain ت it is تِين, 'figs'."}
+{"id":"sounds.06","p":"a small car","why":"Feminine noun, feminine adjective: صَغِيرَة agrees with سَيَّارَة."}
+{"id":"sounds.07","p":"She is a student.","why":"A woman: the feminine طَالِبَة agrees with هِيَ."}
+{"id":"sounds.08","p":"a small pen","why":"قَلَم has no ة: it is masculine, so صَغِير agrees without ة."}
+{"id":"sounds.09","p":"This is a pen.","why":"قَلَم 'pen' starts with the deep q; كَلْب is 'dog' and قَلْب is 'heart'."}
+{"id":"sounds.10","p":"This is a student (a woman).","why":"هٰذِهِ is feminine, so the student is طَالِبَة, with ة."}
+{"id":"sounds.11","p":"a small book","why":"كِتَاب is masculine, so صَغِير has no ة; it starts with the heavy ص."}
+{"id":"sounds.12","p":"She is a student.","why":"A woman: the feminine طَالِبَة agrees with هِيَ."}
+{"id":"sounds.13","p":"a small car","hint":"the describing word comes second","why":"سَيَّارَة is feminine, so the adjective agrees: صَغِيرَة."}
+{"id":"sounds.14","p":"This is a pen.","hint":"a deep q, not k","why":"قَلَم is masculine: هٰذَا agrees, not the feminine هٰذِهِ."}
+{"id":"vowels.01","q":"Which word has a long ā?","why":"Fatha followed by ا is the long ā: بَاب."}
+{"id":"vowels.02","q":"How do you say جَمَال (beauty)?","why":"Fatha + ا is the long ā, so the second vowel is held: جَمَال."}
+{"id":"vowels.03","q":"Which one shows a short u?","why":"Damma, the little و above, is a short u; with a full و after it, it is the long ū."}
+{"id":"vowels.04","q":"Which word has a long ī?","why":"Kasra followed by ي is the long ī: كَبِير."}
+{"id":"vowels.05","q":"Which word means 'camel'?","why":"Two short a's: جَمَل. With the long ā, جَمَال is 'beauty'."}
+{"id":"vowels.06","p":"a beautiful girl","why":"A girl is feminine even without ة, so the adjective agrees: جَمِيلَة."}
+{"id":"vowels.07","p":"a new teacher (a man)","why":"A man is masculine, so جَدِيد agrees with مُدَرِّس without ة."}
+{"id":"vowels.08","p":"This is a big door.","why":"بَاب is masculine: هٰذَا and كَبِير agree with it."}
+{"id":"vowels.09","p":"a small boy","why":"A boy is masculine, so 'small' has no ة: صَغِير."}
+{"id":"vowels.10","p":"This is a school.","why":"هٰذِهِ is feminine, so it goes with the ة word مَدْرَسَة."}
+{"id":"vowels.11","p":"She is a student.","why":"هِيَ is 'she'; its final vowel is part of the word, so it is written."}
+{"id":"vowels.12","p":"a beautiful girl","hint":"the describing word comes second","why":"بِنْت is feminine, so the adjective agrees: جَمِيلَة."}
+{"id":"vowels.13","p":"This is a door.","why":"بَاب is masculine: هٰذَا, not the feminine هٰذِهِ."}
+{"id":"vowels.14","p":"a new book","hint":"the describing word comes second","why":"كِتَاب is masculine, so جَدِيد agrees without ة."}
+{"id":"shapes.01","q":"Which letter never joins to the letter after it?","why":"د is a non-joining letter, like ا ذ ر ز و."}
+{"id":"shapes.02","q":"Which of these letters joins on both sides?","why":"م joins both ways; د ز و never join to the next letter."}
+{"id":"shapes.03","q":"In كِتَاب, which letter comes first?","why":"Read from the right: ك, then ت, then ا, then ب."}
+{"id":"shapes.04","q":"Which letter is at the end of مَدْرَسَة?","why":"مَدْرَسَة ends in ة, the feminine ending, said -a."}
+{"id":"shapes.05","q":"Which word means 'no' and is written with lām alif?","why":"ل + ا join into one shape: لَا."}
+{"id":"shapes.06","p":"a big school","why":"مَدْرَسَة is feminine (ة), so the adjective agrees: كَبِيرَة."}
+{"id":"shapes.07","p":"a beautiful car","why":"سَيَّارَة is feminine, so جَمِيلَة agrees with it."}
+{"id":"shapes.08","p":"He is a new teacher.","why":"A man: masculine هُوَ, and جَدِيد agrees with مُدَرِّس without ة."}
+{"id":"shapes.09","p":"This is a small boy.","why":"A boy is masculine, so 'small' has no ة: صَغِير."}
+{"id":"shapes.10","p":"This is a beautiful girl.","why":"A girl is feminine, so 'beautiful' takes ة: جَمِيلَة."}
+{"id":"shapes.11","p":"He is a teacher.","why":"هُوَ is 'he'; هِيَ and هٰذِهِ are feminine."}
+{"id":"shapes.12","p":"a new school","hint":"the describing word comes second","why":"مَدْرَسَة is feminine, so the adjective agrees: جَدِيدَة."}
+{"id":"shapes.13","p":"He is a teacher.","why":"A man: the masculine مُدَرِّس agrees with هُوَ; مُدَرِّسَة is a woman."}
+{"id":"shapes.14","p":"This is a big car.","why":"سَيَّارَة is feminine, so كَبِيرَة agrees with it."}
+{"id":"sukun-shadda.01","q":"Which word has a shadda?","why":"The w-shaped sign on ي in سَيَّارَة doubles it: the y is held."}
+{"id":"sukun-shadda.02","q":"How do you say مَكْتَب (office)?","why":"ك has sukun, so no vowel follows it: two beats, not three."}
+{"id":"sukun-shadda.03","q":"Which word means 'he taught'?","why":"The shadda on ر makes 'taught'; without it, دَرَسَ is 'he studied'."}
+{"id":"sukun-shadda.04","q":"What does a small circle above a letter mean?","o":["No vowel after this letter","A long vowel","Say the letter twice","The word is feminine"],"why":"That circle is sukun: the letter has no vowel."}
+{"id":"sukun-shadda.05","q":"Which word has the gliding sound ay?","why":"Fatha + ي with sukun is ay: بَيْت."}
+{"id":"sukun-shadda.06","p":"a big office","why":"مَكْتَب has no ة: masculine, so كَبِير agrees without ة."}
+{"id":"sukun-shadda.07","p":"a new car","why":"سَيَّارَة is feminine, so the adjective agrees: جَدِيدَة."}
+{"id":"sukun-shadda.08","p":"This is a teacher (a woman).","why":"A woman: the feminine هٰذِهِ agrees with مُدَرِّسَة."}
+{"id":"sukun-shadda.09","p":"He is a teacher.","why":"هُوَ is a man, so the teacher is مُدَرِّس, without ة."}
+{"id":"sukun-shadda.10","p":"a new teacher (a woman)","why":"مُدَرِّسَة is feminine, so 'new' takes ة: جَدِيدَة."}
+{"id":"sukun-shadda.11","p":"This is a beautiful house.","why":"هٰذَا and جَمِيل are masculine, like بَيْت with its gliding ay."}
+{"id":"sukun-shadda.12","p":"a new office","hint":"the describing word comes second","why":"مَكْتَب is masculine, so جَدِيد agrees without ة."}
+{"id":"sukun-shadda.13","p":"She is a teacher.","why":"A woman: the feminine مُدَرِّسَة agrees with هِيَ."}
+{"id":"sukun-shadda.14","p":"a beautiful car","hint":"the describing word comes second","why":"سَيَّارَة is feminine, so جَمِيلَة agrees with it."}
+{"id":"hamza.01","q":"Which word ends in alif maqsura, said ā?","why":"ى without dots is ā; عَلِيّ, the name Ali, ends in ي with dots, said ī."}
+{"id":"hamza.02","q":"How do you say شُكْرًا (thanks)?","why":"The doubled fatha plus the extra ا is said -an, and ش has damma, a short u."}
+{"id":"hamza.03","q":"Which word starts with a hamza?","why":"أ is hamza on its alif seat; عَلَى starts with ʿayn, a different sound."}
+{"id":"hamza.04","q":"How is ة at the end of مَدْرَسَة said?","o":["-a, with nothing after it","Like English h","Like a full t","It is silent"],"why":"ة at the end of a word is said -a, with no t and no h."}
+{"id":"hamza.05","q":"Which word has tanwin -an?","why":"Doubled fatha + ا is tanwin, said -an: جِدًّا."}
+{"id":"hamza.06","p":"a new question","why":"سُؤَال has no ة: it is masculine, so جَدِيد agrees without ة."}
+{"id":"hamza.07","p":"a very big house","why":"بَيْت is masculine, so كَبِير agrees; جِدًّا comes after it."}
+{"id":"hamza.08","p":"a very beautiful car","why":"سَيَّارَة is feminine, so جَمِيلَة agrees; جِدًّا comes last."}
+{"id":"hamza.09","p":"This is a new question.","why":"سُؤَال is masculine, so 'new' has no ة: جَدِيد."}
+{"id":"hamza.10","p":"She is a student.","why":"The feminine ending is ة, with two dots: طَالِبَة, never طَالِبَه."}
+{"id":"hamza.11","p":"This is a question.","why":"سُؤَال is masculine, so 'this' is هٰذَا."}
+{"id":"hamza.12","p":"I'm a student. (a woman speaking)","hint":"spell the hamza and the ة","why":"A woman speaking: the feminine طَالِبَة agrees with her; أَنَا starts with أ."}
+{"id":"hamza.13","p":"This is a hospital.","why":"مُسْتَشْفَى ends in ى, not ة: it is masculine, so هٰذَا agrees."}
+{"id":"hamza.14","p":"a new school","hint":"the describing word comes second","why":"مَدْرَسَة is feminine (taa marbuta), so جَدِيدَة agrees."}
+{"id":"al.01","q":"In which word is the l of ال not said?","why":"س is a sun letter: it swallows the l and takes a shadda."}
+{"id":"al.02","q":"the big house","why":"Both words take the article, noun first: الْبَيْت الْكَبِير."}
+{"id":"al.03","q":"The house is big.","why":"No 'is' in Arabic, and no article on كَبِير: الْبَيْت كَبِير."}
+{"id":"al.04","q":"How do you say بِالسَّيَّارَة (by car)?","why":"بِ + ال before the sun letter س: the vowel of بِ takes the place of the a, and the s is doubled."}
+{"id":"al.05","q":"Which letter is a moon letter (the l of ال is said)?","why":"ق is a moon letter, as in الْقَمَر; س ن د are sun letters."}
+{"id":"al.06","p":"the big house","why":"Both words take the article: الْبَيْت الْكَبِير."}
+{"id":"al.07","p":"The house is big.","why":"No \"is\" in Arabic: the two words side by side, with no article on كَبِير."}
+{"id":"al.08","p":"the new car","why":"Both words take the article, and الْجَدِيدَة is feminine to agree with السَّيَّارَة."}
+{"id":"al.09","p":"the big house","why":"'the big house': the describing word takes the article too, الْكَبِير."}
+{"id":"al.10","p":"The house is big.","why":"A sentence: no article on the describing word, كَبِير."}
+{"id":"al.11","p":"the new school","why":"The noun needs the article too, and it must be feminine like الْجَدِيدَة."}
+{"id":"al.12","p":"The house is big.","hint":"no word for 'is'","why":"No article on كَبِير: with the article it would mean 'the big house'."}
+{"id":"al.13","p":"the new car","hint":"'the' on both words","why":"Both words take the article; the sun letter س swallows the ل."}
+{"id":"al.14","p":"The girl is beautiful.","hint":"no word for 'is'","why":"No article on the describing word, and جَمِيلَة is feminine to agree with الْبِنْت."}
+{"id":"greetings.01","q":"Someone says شُكْرًا. You answer:","why":"عَفْوًا is 'you're welcome', the answer to شُكْرًا."}
+{"id":"greetings.02","q":"How are you? (to a woman)","why":"To a woman: حَالُكِ, with kasra under the ك."}
+{"id":"greetings.03","q":"Someone asks how you are. Say you're fine:","why":"بِخَيْر is 'fine', often with الْحَمْدُ لِلّٰه; the others answer 'good morning', welcome someone or answer 'thanks'."}
+{"id":"greetings.04","q":"Which phrase answers صَبَاح الْخَيْر?","why":"Morning answers morning: صَبَاح النُّور, 'morning of light'."}
+{"id":"greetings.05","q":"How are you? (to a man)","why":"To a man: حَالُكَ, with fatha on the ك."}
+{"id":"greetings.06","p":"Good morning","why":"The first word of an iḍāfa takes no article: صَبَاح الْخَيْر."}
+{"id":"greetings.07","p":"I'm sorry. (a woman speaking)","why":"A woman speaking: the feminine آسِفَة agrees with her."}
+{"id":"greetings.08","p":"How are you? (to a woman)","why":"To a woman: حَالُكِ, with kasra; حَالُكَ is for a man."}
+{"id":"greetings.09","p":"And upon you peace. (the reply)","why":"The reply ends with السَّلَام, with the article."}
+{"id":"greetings.10","p":"Goodbye.","why":"مَعَ السَّلَامَة, 'with safety': السَّلَامَة takes the article."}
+{"id":"greetings.11","p":"Fine, thank God.","why":"الْحَمْدُ لِلّٰه: 'praise be to God', the everyday 'fine, thanks'."}
+{"id":"greetings.12","p":"Good evening","hint":"'evening of the good'","why":"Iḍāfa: no article on the first word, مَسَاء."}
+{"id":"greetings.13","p":"I'm sorry. (a woman speaking)","why":"A woman speaking: the feminine آسِفَة agrees with her."}
+{"id":"greetings.14","p":"Good morning (the reply)","hint":"'morning of the light'","why":"Iḍāfa: صَبَاح has no article; only النُّور takes it."}
+{"id":"gender.01","q":"Which word is feminine?","why":"سَيَّارَة ends in ة, the feminine sign."}
+{"id":"gender.02","q":"Which word is feminine even without ة?","why":"أُمّ means 'mother', so it is feminine with no ة."}
+{"id":"gender.03","q":"This is a school.","why":"مَدْرَسَة is feminine, so 'this' is هٰذِهِ."}
+{"id":"gender.04","q":"teacher (a woman)","why":"A woman teacher adds ة, written with two dots: مُدَرِّسَة. مَدْرَسَة is 'school'."}
+{"id":"gender.05","q":"'It', talking about a car (سَيَّارَة), is:","why":"A feminine thing is هِيَ."}
+{"id":"gender.06","p":"This is a big car.","why":"سَيَّارَة is feminine: هٰذِهِ and كَبِيرَة agree with it."}
+{"id":"gender.07","p":"a new teacher (a woman)","why":"A woman: the feminine جَدِيدَة agrees with مُدَرِّسَة."}
+{"id":"gender.08","p":"The girl is small.","why":"بِنْت is feminine, so صَغِيرَة agrees; no article on it, because this is a sentence."}
+{"id":"gender.09","p":"This is a man.","why":"هٰذَا is masculine; اِمْرَأَة, بِنْت and أُمّ are feminine."}
+{"id":"gender.10","p":"a small girl","why":"بِنْت is feminine without ة, but the describing word still takes ة."}
+{"id":"gender.11","p":"She is a teacher.","why":"She is a woman, so the teacher is مُدَرِّسَة, with ة."}
+{"id":"gender.12","p":"This is a woman.","why":"اِمْرَأَة is feminine: هٰذِهِ agrees, not هٰذَا."}
+{"id":"gender.13","p":"a new car","hint":"the describing word comes second","why":"سَيَّارَة is feminine, so جَدِيدَة agrees with it."}
+{"id":"gender.14","p":"The school is new.","hint":"no word for 'is'","why":"Feminine noun, feminine جَدِيدَة; no article on it, because the sentence has no 'is'."}
+{"id":"pronouns.01","q":"You're a student. (to a woman)","why":"To a woman: أَنْتِ, and طَالِبَة agrees with her."}
+{"id":"pronouns.02","q":"Which word means 'we'?","why":"نَحْنُ is 'we'; هُم is 'they'."}
+{"id":"pronouns.03","q":"Talking about a car (سَيَّارَة): 'It's new.'","why":"سَيَّارَة is feminine: 'it' is هِيَ, and جَدِيدَة agrees."}
+{"id":"pronouns.04","q":"I'm a teacher. (a woman speaking)","why":"'I' is أَنَا, and a woman says مُدَرِّسَة."}
+{"id":"pronouns.05","q":"You're a teacher. (to a man)","why":"To a man: أَنْتَ, with fatha, and the masculine مُدَرِّس."}
+{"id":"pronouns.06","p":"You're a student. (to a woman)","why":"To a woman: the feminine أَنْتِ and طَالِبَة agree."}
+{"id":"pronouns.07","p":"You're a new student. (to a man)","why":"To a man: أَنْتَ, and the masculine جَدِيد agrees with طَالِب."}
+{"id":"pronouns.08","p":"It's new. (the car)","why":"A car is feminine: 'it' is هِيَ, and جَدِيدَة agrees."}
+{"id":"pronouns.09","p":"We're from Chicago.","why":"'We' is نَحْنُ."}
+{"id":"pronouns.10","p":"They're from Texas.","why":"'They' is هُم; هُوَ is only one man."}
+{"id":"pronouns.11","p":"It's big. (the house)","why":"بَيْت is masculine, so 'it' is هُوَ, and كَبِير has no ة."}
+{"id":"pronouns.12","p":"She's a student.","why":"A woman: the feminine طَالِبَة agrees with هِيَ."}
+{"id":"pronouns.13","p":"I'm an engineer. (a woman speaking)","why":"A woman speaking: the feminine مُهَنْدِسَة agrees with her."}
+{"id":"pronouns.14","p":"He's an engineer.","why":"A man: the masculine مُهَنْدِس agrees with هُوَ."}
+{"id":"nominal.01","q":"'I'm a teacher' (a man speaking) =","why":"No word for \"am\", and a man speaking uses مُدَرِّس without ة."}
+{"id":"nominal.02","q":"'The car is small' =","why":"No \"is\", no article on the predicate, and صَغِيرَة agrees with the feminine سَيَّارَة."}
+{"id":"nominal.03","q":"What does هِيَ فِي الْبَيْت mean?","o":["She's at home.","She's a house.","Her house.","the house of a woman"],"why":"فِي means in or at; with no \"is\" needed, هِيَ فِي الْبَيْت is a whole sentence."}
+{"id":"nominal.04","q":"Which one is a whole sentence (\"… is …\")?","why":"Only الْبَيْت جَمِيل has a predicate without the article: \"The house is beautiful.\""}
+{"id":"nominal.05","q":"'Are you a student?' (to a woman) =","why":"To a woman: أَنْتِ with a kasra and the feminine طَالِبَة; هَل starts a yes / no question."}
+{"id":"nominal.06","p":"The house is big.","why":"No 'is' in Arabic: الْبَيْت and كَبِير simply stand side by side."}
+{"id":"nominal.07","p":"The car is new.","why":"سَيَّارَة is feminine, so the adjective agrees: جَدِيدَة."}
+{"id":"nominal.08","p":"The teacher (a woman) is at school.","why":"A woman: the feminine الْمُدَرِّسَة, and no 'is' before فِي."}
+{"id":"nominal.09","p":"The house is small.","why":"The predicate takes no article and agrees with the masculine بَيْت: صَغِير."}
+{"id":"nominal.10","p":"The car is beautiful.","why":"No article on the predicate, and it agrees with the feminine سَيَّارَة: جَمِيلَة."}
+{"id":"nominal.11","p":"I'm at home.","why":"No \"am\": أَنَا فِي الْبَيْت. فِي means in or at."}
+{"id":"nominal.12","p":"The house is new.","hint":"بَيْت (house) · جَدِيد (new) · the house","why":"Without the article, جَدِيد says \"is new\"; with the article, الْجَدِيد would make it \"the new house\"."}
+{"id":"nominal.13","p":"She's busy.","hint":"مَشْغُول (busy)","why":"هِيَ is feminine, so the adjective agrees: مَشْغُولَة."}
+{"id":"nominal.14","p":"I'm a teacher. (a woman speaking)","hint":"مُدَرِّس (teacher)","why":"No 'am' in Arabic, and a woman speaking uses the feminine مُدَرِّسَة."}
+{"id":"definite.01","q":"How do you say 'a phone'?","why":"No word for \"a\": هَاتِف alone is \"a phone\"; الْهَاتِف is \"the phone\"."}
+{"id":"definite.02","q":"'the big room' =","why":"A phrase: the article on both words, and كَبِيرَة agrees with the feminine غُرْفَة."}
+{"id":"definite.03","q":"'I like coffee' (coffee in general) =","why":"Things in general take the article: الْقَهْوَة."}
+{"id":"definite.04","q":"Which one means 'Sara is in Cairo'?","why":"A name is already definite, so no ال on سَارَة; الْقَاهِرَة keeps the ال of its name."}
+{"id":"definite.05","q":"What does الْغُرْفَة صَغِيرَة mean?","o":["The room is small.","the small room","a small room","my small room"],"why":"No article on صَغِيرَة, so it is the predicate: a whole sentence."}
+{"id":"definite.06","p":"the new apartment","why":"Both words take the article: الشَّقَّة الْجَدِيدَة."}
+{"id":"definite.07","p":"The room is big.","why":"No 'is', and the predicate has no article; الْكَبِيرَة would make it 'the big room'."}
+{"id":"definite.08","p":"I like Arabic.","why":"Names of languages take the article: الْعَرَبِيَّة."}
+{"id":"definite.09","p":"I like tea. (tea in general)","why":"Tea in general takes the article: الشَّاي."}
+{"id":"definite.10","p":"the beautiful house","why":"A phrase: the adjective takes the article too, and agrees with the masculine بَيْت."}
+{"id":"definite.11","p":"the new key","why":"Both words of the phrase take the article: الْمِفْتَاح الْجَدِيد."}
+{"id":"definite.12","p":"the big room","hint":"غُرْفَة (room) · كَبِير","why":"Both words take the article, and the adjective agrees with the feminine غُرْفَة."}
+{"id":"definite.13","p":"The apartment is new.","hint":"شَقَّة (apartment) · جَدِيد","why":"No 'is' and no ال on the predicate; with the article, الْجَدِيدَة would mean 'the new apartment'."}
+{"id":"definite.14","p":"I like coffee. (coffee in general)","hint":"أُحِبّ (I like) · قَهْوَة","why":"A general statement takes the article: الْقَهْوَة."}
+{"id":"nisba.01","q":"'She's Egyptian' =","why":"A woman: the feminine nisba مِصْرِيَّة, with no article on the predicate."}
+{"id":"nisba.02","q":"Which word means 'Moroccan' (a man)?","why":"The country is الْمَغْرِب; the nisba drops ال and adds -ī. With ة it would be a woman."}
+{"id":"nisba.03","q":"'I'm from Chicago' =","why":"مِن means from; a city name takes no ال, and there is no word for \"am\"."}
+{"id":"nisba.04","q":"Which one is 'English', the language?","why":"A language is the feminine nisba with the article: الْإِنْجِلِيزِيَّة."}
+{"id":"nisba.05","q":"'Where are you from?' (to a man) =","why":"To a man: أَنْتَ with a fatha. The question starts with مِن أَيْنَ."}
+{"id":"nisba.06","p":"She's Lebanese.","why":"هِيَ is feminine, so the nisba agrees: لُبْنَانِيَّة."}
+{"id":"nisba.07","p":"He's Moroccan.","why":"No 'is', and the predicate drops the article: مَغْرِبِيّ, even though the country is الْمَغْرِب."}
+{"id":"nisba.08","p":"I'm studying Arabic.","why":"Names of languages take the article: الْعَرَبِيَّة."}
+{"id":"nisba.09","p":"I'm American. (a woman speaking)","why":"A woman speaking: the feminine nisba, with no article on the predicate."}
+{"id":"nisba.10","p":"He's from Egypt.","why":"After مِن comes the country itself; مِصْرِيّ is the word for \"Egyptian\"."}
+{"id":"nisba.11","p":"I'm studying French.","why":"A language is the feminine nisba with the article: الْفَرَنْسِيَّة."}
+{"id":"nisba.12","p":"He's Lebanese. (use the nisba)","hint":"لُبْنَان (Lebanon)","why":"هُوَ is masculine, so the nisba agrees: -ī with no ة."}
+{"id":"nisba.13","p":"She's Moroccan. (use the nisba)","hint":"الْمَغْرِب (Morocco)","why":"The nisba drops the article of الْمَغْرِب, and it is feminine to agree with هِيَ."}
+{"id":"nisba.14","p":"I'm from New York.","hint":"مِن (from) · نِيُويُورْك","why":"No 'am' in Arabic: أَنَا مِن نِيُويُورْك."}
+{"id":"questions.01","q":"Which word asks 'where'?","why":"أَيْنَ is where; مَتَى is when, مَن is who, كَيْفَ is how."}
+{"id":"questions.02","q":"'What's this?' (pointing at a book) =","why":"No verb follows, so مَا; كِتَاب is masculine, so هٰذَا; مَن would ask about a person."}
+{"id":"questions.03","q":"What does مَتَى الدَّرْس؟ mean?","o":["When is the class?","Where is the class?","Who is the teacher?","How is the class?"],"why":"مَتَى means when."}
+{"id":"questions.04","q":"'Who is she?' =","why":"مَن asks about a person; هِيَ is she."}
+{"id":"questions.05","q":"'What's your name?' (to a woman) =","why":"To a woman: اِسْمُكِ, with a kasra, and a noun takes مَا, not مَاذَا."}
+{"id":"questions.06","p":"Where's the new school?","why":"Both words take the article: الْمَدْرَسَة الْجَدِيدَة, after the question word."}
+{"id":"questions.07","p":"Is the car new?","why":"سَيَّارَة is feminine, so the adjective agrees: جَدِيدَة."}
+{"id":"questions.08","p":"Who is the teacher? (a woman)","why":"The teacher is a woman: the feminine الْمُدَرِّسَة, after مَن."}
+{"id":"questions.09","p":"Where's the restaurant?","why":"أَيْنَ asks where, and it comes first."}
+{"id":"questions.10","p":"What's your name? (to a man)","why":"A noun follows, so \"what\" is مَا, not مَاذَا."}
+{"id":"questions.11","p":"Is the room big?","why":"هَل keeps the sentence as it is: no article on the predicate, which agrees with the feminine غُرْفَة."}
+{"id":"questions.12","p":"Where's the big house?","why":"Both words take the article: الْبَيْت الْكَبِير."}
+{"id":"questions.13","p":"Is she Egyptian?","why":"هِيَ is feminine, so the nisba agrees: مِصْرِيَّة."}
+{"id":"questions.14","p":"When is the class?","hint":"دَرْس (class)","why":"مَتَى asks when; it comes first and the class takes the article."}
+{"id":"numbers.01","q":"Which one is 25?","why":"Digits run left to right, as in English: ٢ then ٥ is 25."}
+{"id":"numbers.02","q":"How do you say 25?","why":"Units first, then وَ and the tens: \"five and twenty\". خَمْسُون is 50."}
+{"id":"numbers.03","q":"What is ثَلَاثُون?","o":["30","3","13","300"],"why":"ثَلَاثَة (3) with -ūn on the end makes the ten: 30."}
+{"id":"numbers.04","q":"'one car' =","why":"\"One\" follows the noun and agrees with the feminine سَيَّارَة."}
+{"id":"numbers.05","q":"Which digit is 7?","why":"٧ opens upward like a V; ٨, which opens downward, is 8."}
+{"id":"numbers.06","p":"one book","why":"كِتَاب is masculine, so \"one\" agrees: وَاحِد, with no ة."}
+{"id":"numbers.07","p":"The price is forty.","why":"No 'is': الثَّمَن and the number stand side by side."}
+{"id":"numbers.08","p":"thirty-five","why":"Units first, then the ten joined by وَ: \"five and thirty\"."}
+{"id":"numbers.09","p":"one car","why":"سَيَّارَة is feminine (taa marbuta), so \"one\" agrees: وَاحِدَة."}
+{"id":"numbers.10","p":"fifty-five","why":"After the unit comes وَ joined to the ten: خَمْسَة وَخَمْسُون."}
+{"id":"numbers.11","p":"The price is ninety.","why":"Ninety is تِسْعُون; as the predicate it takes no article."}
+{"id":"numbers.12","p":"one car","hint":"one","why":"\"One\" agrees with the feminine سَيَّارَة: وَاحِدَة."}
+{"id":"numbers.13","p":"The price is twenty.","hint":"ثَمَن (price) · 20","why":"No 'is': الثَّمَن عِشْرُون."}
+{"id":"numbers.14","p":"twenty-five","why":"Units first, then وَ and the tens: \"five and twenty\"."}
+{"id":"ordering.01","q":"'The check, please' (to a woman) =","why":"To a woman: مِن فَضْلِكِ, with a kasra; the check is الْحِسَاب."}
+{"id":"ordering.02","q":"'How much is this?' (pointing at a book) =","why":"كِتَاب is masculine, so هٰذَا; بِكَم asks the price."}
+{"id":"ordering.03","q":"What does عِشْرُون رِيَالًا mean?","o":["twenty riyals","two riyals","twelve riyals","twenty-one riyals"],"why":"عِشْرُون is twenty; from eleven to ninety-nine the currency takes -an: رِيَالًا."}
+{"id":"ordering.04","q":"Which is a natural way to order a coffee?","why":"أُرِيد (I want) and then the thing: أُرِيد قَهْوَة."}
+{"id":"ordering.05","q":"'The tea is delicious' =","why":"شَاي is masculine, the predicate has no article, and there is no \"is\"."}
+{"id":"ordering.06","p":"The coffee is delicious.","why":"قَهْوَة is feminine, so the adjective agrees: لَذِيذَة."}
+{"id":"ordering.07","p":"I'd like the Arabic coffee.","why":"Both words take the article: الْقَهْوَة الْعَرَبِيَّة."}
+{"id":"ordering.08","p":"The food is delicious.","why":"No 'is', and no article on the predicate: الطَّعَام لَذِيذ."}
+{"id":"ordering.09","p":"How much is this? (a car)","why":"سَيَّارَة is feminine, so \"this\" is هٰذِهِ."}
+{"id":"ordering.10","p":"The check, please. (to a woman)","why":"Name what you want, the check, with the article: الْحِسَاب."}
+{"id":"ordering.11","p":"The tea is hot.","why":"No article on the predicate, and شَاي is masculine: حَارّ."}
+{"id":"ordering.12","p":"I'd like a coffee. (use أُرِيد)","hint":"أُرِيد (I want) · قَهْوَة","why":"أُرِيد and then the thing; قَهْوَة ends in ة, so it needs no extra ending."}
+{"id":"ordering.13","p":"The coffee is delicious.","hint":"لَذِيذ (delicious)","why":"قَهْوَة is feminine (taa marbuta), so the adjective agrees: لَذِيذَة."}
+{"id":"ordering.14","p":"How much is this? (a bag)","hint":"حَقِيبَة (bag)","why":"حَقِيبَة is feminine, so \"this\" agrees: هٰذِهِ."}
+{"id":"adjectives.01","q":"'a new car' =","why":"The adjective follows the noun, agrees with the feminine سَيَّارَة, and has no ال because سَيَّارَة has none."}
+{"id":"adjectives.02","q":"'the old house' =","why":"A definite phrase: the article on both words, the adjective second."}
+{"id":"adjectives.03","q":"What does الْمَدِينَة الْجَمِيلَة mean?","o":["the beautiful city","The city is beautiful.","a beautiful city","the city's beauty"],"why":"Both words have ال, so it is a phrase: \"the beautiful city\"."}
+{"id":"adjectives.04","q":"Which one says 'The big room is cold'?","why":"\"The big room\" has ال on both words; the predicate بَارِدَة has none."}
+{"id":"adjectives.05","q":"'You're a new student.' (to a woman) =","why":"To a woman: أَنْتِ, and both طَالِبَة and جَدِيدَة are feminine."}
+{"id":"adjectives.06","p":"the small car","why":"Both words take the article: السَّيَّارَة الصَّغِيرَة."}
+{"id":"adjectives.07","p":"a tall man","why":"رَجُل is masculine, so the adjective is masculine too: no ة."}
+{"id":"adjectives.08","p":"The new teacher (a woman) is from Egypt.","why":"\"The new teacher\" takes the article on both words; مِن مِصْر is the predicate."}
+{"id":"adjectives.09","p":"a cheap car","why":"سَيَّارَة is feminine and has no ال, so the adjective is رَخِيصَة."}
+{"id":"adjectives.10","p":"the new student (a man)","why":"A definite noun takes a definite adjective: الْجَدِيد, masculine for a man."}
+{"id":"adjectives.11","p":"The new book is easy.","why":"The predicate has no article and agrees with the masculine كِتَاب: سَهْل."}
+{"id":"adjectives.12","p":"a beautiful city","hint":"مَدِينَة (city) · جَمِيل","why":"مَدِينَة is feminine (taa marbuta), so the adjective agrees: جَمِيلَة."}
+{"id":"adjectives.13","p":"the big house","why":"Both words take the article: الْبَيْت الْكَبِير."}
+{"id":"adjectives.14","p":"The old car is cheap.","hint":"قَدِيم (old) · رَخِيص (cheap)","why":"\"The old car\" has the article on both words; the predicate رَخِيصَة has none, and both adjectives agree with the feminine سَيَّارَة."}
+{"id":"idafa.01","q":"'the student's book' =","why":"Owned thing first, with no article; owner second, with the article."}
+{"id":"idafa.02","q":"'the door of the school' =","why":"Iḍāfa: بَاب first with no article; الْمَدْرَسَة, with the article, makes it \"the\"."}
+{"id":"idafa.03","q":"In مَحَطَّةْ الْقِطَار, how is the ة of the first word said?","o":["as -at, with a t","as -a, with no t","as an h","not at all"],"why":"A ة at the end of the first word of an iḍāfa is said -at: the sukun reminds you."}
+{"id":"idafa.04","q":"What does جَوَاز السَّفَر mean?","o":["passport","a long trip","the airport","ticket"],"why":"Literally \"permit of the travel\": a passport."}
+{"id":"idafa.05","q":"'the new key' =","why":"With an adjective, both words take the article; only an iḍāfa leaves it off the first word."}
+{"id":"idafa.06","p":"the door of the house","why":"First word of an iḍāfa: no article."}
+{"id":"idafa.07","p":"the train station","why":"Iḍāfa: no article on the first word, and its ة is said -at."}
+{"id":"idafa.08","p":"Where's the teacher's car?","why":"The owned thing comes first in the iḍāfa and takes no article: سَيَّارَةْ الْمُدَرِّس."}
+{"id":"idafa.09","p":"the student's book","why":"The first word of an iḍāfa takes no article: كِتَاب الطَّالِب."}
+{"id":"idafa.10","p":"the room key","why":"The owner comes second, with the article: مِفْتَاح الْغُرْفَة."}
+{"id":"idafa.11","p":"Where's the passport?","why":"جَوَاز is the first word of the iḍāfa, so it takes no article."}
+{"id":"idafa.12","p":"the student's book","why":"First word of an iḍāfa: no article."}
+{"id":"idafa.13","p":"the University of Tulsa","hint":"جَامِعَة (university) · تُولْسَا","why":"Iḍāfa with a name: no article on جَامِعَة, and its ة is said -at."}
+{"id":"idafa.14","p":"the door of the car","why":"Iḍāfa: the door comes first with no article; السَّيَّارَة keeps the article."}
+{"id":"possessive.01","q":"'my house' =","why":"بَيْتِي is \"my house\": the ending makes the noun definite, so no ال and no أَنَا."}
+{"id":"possessive.02","q":"'Her car is new' =","why":"\"Her car\" is سَيَّارَتُهَا; the car is still feminine, so جَدِيدَة."}
+{"id":"possessive.03","q":"'your name' (to a woman) =","why":"To a woman: اِسْمُكِ, with a kasra; اِسْمُكَ is to a man and اِسْمُهَا is \"her name\"."}
+{"id":"possessive.04","q":"What does صَدِيقَتِي mean?","o":["my friend (a woman)","my friend (a man)","your friend (a woman)","her friend"],"why":"صَدِيقَة plus \"my\": ة becomes ت, giving صَدِيقَتِي."}
+{"id":"possessive.05","q":"'My city is beautiful' =","why":"No ال with an ending, no ال on the predicate, and جَمِيلَة agrees with the feminine مَدِينَة."}
+{"id":"possessive.06","p":"My house is big.","why":"A possessive ending makes the noun definite: بَيْتِي, with no article and no أَنَا."}
+{"id":"possessive.07","p":"Her family is big.","why":"عَائِلَة is feminine, so the adjective agrees: كَبِيرَة."}
+{"id":"possessive.08","p":"My friend (a woman) is from Lebanon.","why":"A woman friend: the feminine صَدِيقَتِي, with its ة turned into ت."}
+{"id":"possessive.09","p":"My mother is a teacher.","why":"\"My mother\" is أُمِّي: an ending, with no article."}
+{"id":"possessive.10","p":"His house is new.","why":"The predicate has no article and agrees with the masculine بَيْت: جَدِيد."}
+{"id":"possessive.11","p":"Our city is small.","why":"The predicate has no article and agrees with the feminine مَدِينَة: صَغِيرَة."}
+{"id":"possessive.12","p":"My car is new.","hint":"ة becomes ت","why":"سَيَّارَة is feminine, so the adjective agrees: جَدِيدَة."}
+{"id":"possessive.13","p":"Her house is beautiful.","hint":"her = هَا at the end","why":"A possessive ending makes بَيْت definite, so it takes no article."}
+{"id":"possessive.14","p":"My friend (a man) is tall.","hint":"صَدِيق (friend) · طَوِيل (tall)","why":"A man friend: the masculine صَدِيقِي, and the adjective agrees: طَوِيل, with no ة."}
+{"id":"have.01","q":"I have a car.","why":"عِنْدِي = with me: its ending says \"I\"; there is no separate word for \"have\"."}
+{"id":"have.02","q":"She has a cat.","why":"عِنْدَهَا ends in the ending for \"her\": she has. هِيَ قِطَّة would mean \"she is a cat\"."}
+{"id":"have.03","q":"Do you have a pen? (to a woman)","why":"To a woman the last letter takes a kasra: عِنْدَكِ."}
+{"id":"have.04","q":"I don't have time.","why":"عِنْدِي is not a verb, so \"not\" is لَيْسَ, placed in front: لَيْسَ عِنْدِي."}
+{"id":"have.05","q":"What does عِنْدَنَا mean?","o":["we have","they have","you have (to a man)","I have"],"why":"عِنْدَنَا ends in the ending for \"us\": we have."}
+{"id":"have.06","p":"I have a new car.","why":"سَيَّارَة ends in taa marbuta, so it is feminine and the adjective agrees: جَدِيدَة."}
+{"id":"have.07","p":"He has a big house.","why":"An indefinite noun takes an indefinite adjective: بَيْت كَبِير, with no article, and masculine like بَيْت."}
+{"id":"have.08","p":"Do you have a question? (to a man)","why":"To a man the last letter takes a fatha: عِنْدَكَ."}
+{"id":"have.09","p":"He has a car.","why":"عِنْدَهُ ends in the ending for \"him\": he has."}
+{"id":"have.10","p":"We don't have time.","why":"We have is عِنْدَنَا: لَيْسَ عِنْدَنَا وَقْت."}
+{"id":"have.11","p":"She has a beautiful apartment.","why":"شَقَّة is feminine and has no article, so the adjective is feminine with no article: جَمِيلَة."}
+{"id":"have.12","p":"I have a small room.","hint":"غُرْفَة (room) · صَغِير (small)","why":"غُرْفَة is feminine (taa marbuta), so the adjective agrees: صَغِيرَة."}
+{"id":"have.13","p":"She has a new car.","hint":"she · سَيَّارَة (car) · جَدِيد (new)","why":"An indefinite noun takes an indefinite adjective: سَيَّارَة جَدِيدَة, no article on either word."}
+{"id":"have.14","p":"I don't have a car.","hint":"لَيْسَ (not) · عِنْدِي · سَيَّارَة","why":"عِنْدِي is not a verb, so it is made negative with لَيْسَ, never لَا."}
+{"id":"plurals.01","q":"teachers (men) =","why":"A group of men takes the sound plural -ūn: مُدَرِّسُون."}
+{"id":"plurals.02","q":"cars =","why":"سَيَّارَة drops its ة and adds -āt: سَيَّارَات."}
+{"id":"plurals.03","q":"books =","why":"كِتَاب has a broken plural: كُتُب. -ūn is only for people."}
+{"id":"plurals.04","q":"The cars are new.","why":"Things in the plural take a feminine singular adjective, with no article in an \"are\" sentence."}
+{"id":"plurals.05","q":"What does كِتَابَان mean?","o":["two books","books","a book","the book"],"why":"The ending -ān is the dual: exactly two."}
+{"id":"plurals.06","p":"the new cars","why":"Both words take the article, and a plural of things takes a feminine adjective: الْجَدِيدَة."}
+{"id":"plurals.07","p":"The books are big.","why":"No \"is\" in Arabic, and a plural of things takes a feminine singular adjective: كَبِيرَة."}
+{"id":"plurals.08","p":"The teachers (women) are at the school.","why":"A group of women takes the feminine plural -āt: الْمُدَرِّسَات."}
+{"id":"plurals.09","p":"These are new books.","why":"The plural of كِتَاب is the broken plural كُتُب; -ūn is only for people."}
+{"id":"plurals.10","p":"The teachers (women) are in the office.","why":"Women: the feminine plural -āt, with the article for \"the teachers\"."}
+{"id":"plurals.11","p":"The cars are cheap.","why":"A plural of things takes a feminine singular adjective: رَخِيصَة, with no article."}
+{"id":"plurals.12","p":"the new books","hint":"كِتَاب (plural كُتُب) · جَدِيد (new)","why":"Both words take the article, and the adjective is feminine because كُتُب is a plural of things."}
+{"id":"plurals.13","p":"The cars are big.","hint":"سَيَّارَة (plural سَيَّارَات) · كَبِير (big)","why":"A plural of things takes a feminine adjective: كَبِيرَة agrees, with no article on the predicate."}
+{"id":"plurals.14","p":"The teachers (women) are here.","hint":"مُدَرِّسَة (plural -āt) · هُنَا (here)","why":"A group of women takes the feminine plural: الْمُدَرِّسَات."}
+{"id":"roots.01","q":"Which word comes from the same root as كِتَاب (book)?","why":"مَكْتَب keeps the root letters ك ت ب; it is the place of writing."}
+{"id":"roots.02","q":"What are the three root letters of مَدْرَسَة (school)?","why":"Take away the م in front and the ة at the end: د ر س, \"study\"."}
+{"id":"roots.03","q":"مَطْعَم comes from طَعَام (food). The ma- pattern names a place, so مَطْعَم is…","o":["a restaurant","a cook","food","delicious"],"why":"ma- + the root of \"food\": the place of eating, a restaurant."}
+{"id":"roots.04","q":"كَاتِب (writer) names the person who does something. Which word has the same pattern?","why":"طَالِب has the same shape as كَاتِب: a long ā after the first root letter, then i."}
+{"id":"roots.05","q":"Where do you look up مَكْتَبَة in an Arabic dictionary?","o":["under ك ت ب","under م","under ة","under ب"],"why":"Arabic dictionaries are ordered by root: ك ت ب."}
+{"id":"roots.06","p":"the big library","why":"Both words take the article, and مَكْتَبَة is feminine (taa marbuta), so the adjective agrees."}
+{"id":"roots.07","p":"My father is a writer.","why":"No \"is\" in Arabic: أَبِي كَاتِب. كَاتِب is the person, كِتَاب the book."}
+{"id":"roots.08","p":"a new school","why":"مَدْرَسَة is feminine, so the adjective agrees: جَدِيدَة."}
+{"id":"roots.09","p":"My father is a writer.","why":"The person pattern: كَاتِب, with no article in an \"is\" sentence."}
+{"id":"roots.10","p":"The teacher (a woman) is in the office.","why":"The office is the place of writing: الْمَكْتَب. مَكْتَبَة is a library."}
+{"id":"roots.11","p":"This is a big school.","why":"هٰذِهِ and كَبِيرَة are feminine, so the noun is the feminine مَدْرَسَة."}
+{"id":"roots.12","p":"The library is big.","hint":"مَكْتَبَة (library) · كَبِير (big)","why":"مَكْتَبَة is feminine, so كَبِيرَة agrees; no article on the predicate."}
+{"id":"roots.13","p":"the new restaurant","hint":"مَطْعَم (restaurant) · جَدِيد (new)","why":"Both words take the article: الْمَطْعَم الْجَدِيد."}
+{"id":"roots.14","p":"The lesson is easy.","hint":"دَرْس (lesson) · سَهْل (easy)","why":"No \"is\" in Arabic, and no article on سَهْل: with it, the phrase would mean \"the easy lesson\"."}
+{"id":"present.01","q":"She studies.","why":"She takes the same prefix as \"you\" to a man: تَدْرُس."}
+{"id":"present.02","q":"You study. (to a woman)","why":"To a woman, \"you\" adds -īn: تَدْرُسِين."}
+{"id":"present.03","q":"What does نَدْرُس mean?","o":["we study","they study","I study","you study (to a man)"],"why":"The prefix نَ says \"we\"."}
+{"id":"present.04","q":"They work in a restaurant.","why":"They = the \"he\" form plus -ūn: يَعْمَلُون."}
+{"id":"present.05","q":"Where do you live? (to a man)","why":"To a man, \"you\" is the prefix تَ with no ending: تَسْكُن."}
+{"id":"present.06","p":"She drinks tea.","why":"The verb agrees with a feminine subject: هِيَ تَشْرَب, not the \"he\" form."}
+{"id":"present.07","p":"You speak Arabic. (to a woman)","why":"To a woman the verb adds -īn, and languages take the article: الْعَرَبِيَّة."}
+{"id":"present.08","p":"We live in a big house.","why":"بَيْت is masculine, so the adjective agrees: كَبِير, with no ة."}
+{"id":"present.09","p":"She works in an office.","why":"She takes the prefix تَ and no ending: تَعْمَل."}
+{"id":"present.10","p":"They study at the university.","why":"They = يَ in front and -ūn at the end: يَدْرُسُون."}
+{"id":"present.11","p":"I like coffee.","why":"The prefix أُ says \"I\": أُحِبّ."}
+{"id":"present.12","p":"She works in Chicago.","hint":"أَعْمَل (I work) · she · شِيكَاغُو","why":"She: the feminine prefix agrees with the subject, تَعْمَل."}
+{"id":"present.13","p":"I study Arabic.","hint":"أَدْرُس (I study) · عَرَبِيَّة (Arabic)","why":"Languages take the article: الْعَرَبِيَّة."}
+{"id":"present.14","p":"They live in Cairo.","hint":"أَسْكُن (I live) · they · الْقَاهِرَة (Cairo)","why":"They = the \"he\" form plus -ūn: يَسْكُنُون."}
+{"id":"verb-sentences.01","q":"What does يَشْرَب أَحْمَد الشَّاي mean?","o":["Ahmad drinks tea.","Does Ahmad drink tea?","Drink tea, Ahmad!","Ahmad doesn't drink tea."],"why":"Verb first is a normal statement in Arabic, not a question."}
+{"id":"verb-sentences.02","q":"Sara studies Arabic. (verb first)","why":"Sara is a woman, so the verb takes the form of هِيَ: تَدْرُس."}
+{"id":"verb-sentences.03","q":"Does Sara study Arabic?","why":"هَل goes first; the verb agrees with Sara, and the language takes ال."}
+{"id":"verb-sentences.04","q":"The students work in the library. (verb first)","why":"Verb first, the verb stays singular before a plural subject: يَعْمَل الطُّلَّاب."}
+{"id":"verb-sentences.05","q":"Omar drinks coffee.","why":"Omar is a man: the \"he\" form يَشْرَب, then the name, then the object."}
+{"id":"verb-sentences.06","p":"Sara studies Arabic. (verb, then the name)","why":"Sara is a woman: the feminine prefix agrees with her, even when the verb comes first."}
+{"id":"verb-sentences.07","p":"Fatima reads the new book. (start with the name)","why":"Both words take the article: الْكِتَاب الْجَدِيد."}
+{"id":"verb-sentences.08","p":"Maryam lives in a small apartment. (verb, then the name)","why":"شَقَّة is feminine (taa marbuta), so the adjective agrees: صَغِيرَة."}
+{"id":"verb-sentences.09","p":"Sara works in an office.","why":"Sara is a woman: the \"she\" form تَعْمَل, even before her name."}
+{"id":"verb-sentences.10","p":"Fatima studies Arabic.","why":"Languages take the article: الْعَرَبِيَّة."}
+{"id":"verb-sentences.11","p":"Does Omar work at home?","why":"Omar is one man: the \"he\" form يَعْمَل after هَل."}
+{"id":"verb-sentences.12","p":"Sara studies Arabic.","hint":"أَدْرُس (I study) · سَارَة","why":"Sara is a woman: the feminine prefix agrees with her in either order."}
+{"id":"verb-sentences.13","p":"Omar likes Arabic coffee.","hint":"أُحِبّ (I like) · عُمَر · قَهْوَة عَرَبِيَّة","why":"Coffee in general takes the article, and so does its adjective: الْقَهْوَة الْعَرَبِيَّة."}
+{"id":"verb-sentences.14","p":"Maryam lives in Amman.","hint":"أَسْكُن (I live) · مَرْيَم · عَمَّان (Amman)","why":"Maryam is a woman, so the verb agrees: the feminine تَسْكُن."}
+{"id":"negation.01","q":"I don't know.","why":"A present verb takes لَا right in front of it; the prefix أَ says \"I\"."}
+{"id":"negation.02","q":"She isn't busy.","why":"No verb, so لَيْسَ; it agrees with هِيَ (لَيْسَت), and so does the adjective."}
+{"id":"negation.03","q":"I don't have a car.","why":"عِنْدِي is not a verb: لَيْسَ عِنْدِي."}
+{"id":"negation.04","q":"He doesn't work here.","why":"A present verb takes لَا in front, and \"he\" keeps the prefix يَ."}
+{"id":"negation.05","q":"You don't speak French. (to a woman)","why":"لَا before the verb, -īn for a woman, and the language takes ال."}
+{"id":"negation.06","p":"The room isn't big. (start with \"the room\")","why":"غُرْفَة is feminine, so لَيْسَت and كَبِيرَة both agree with it."}
+{"id":"negation.07","p":"I don't speak French.","why":"لَا goes before a present verb, and languages take the article: الْفَرَنْسِيَّة."}
+{"id":"negation.08","p":"She isn't at home. (start with \"she\")","why":"لَيْسَت agrees with the feminine هِيَ, and \"at home\" takes the article: فِي الْبَيْت."}
+{"id":"negation.09","p":"He's not here.","why":"No verb in the sentence, and the subject is \"he\": لَيْسَ."}
+{"id":"negation.10","p":"I don't understand.","why":"أَفْهَم is a present verb, so \"not\" is لَا."}
+{"id":"negation.11","p":"Arabic isn't hard.","why":"الْعَرَبِيَّة is feminine, so \"is not\" is the feminine لَيْسَت."}
+{"id":"negation.12","p":"I don't have time.","hint":"وَقْت (time)","why":"عِنْدِي is not a verb, so \"not\" is لَيْسَ, never لَا."}
+{"id":"negation.13","p":"She isn't busy.","hint":"she · لَيْسَ (not) · مَشْغُول (busy)","why":"She: لَيْسَت and مَشْغُولَة are feminine to agree with هِيَ."}
+{"id":"negation.14","p":"The car isn't new.","hint":"سَيَّارَة (car) · لَيْسَ (not) · جَدِيد (new)","why":"سَيَّارَة is feminine: لَيْسَت and جَدِيدَة agree, and the predicate has no article."}
+{"id":"adverbs.01","q":"very big =","why":"جِدًّا comes after the adjective."}
+{"id":"adverbs.02","q":"Tomorrow is Friday.","why":"Tomorrow is غَدًا, and a day name is يَوْم with no article plus the day."}
+{"id":"adverbs.03","q":"What does أَحْيَانًا mean?","o":["sometimes","always","every day","now"],"why":"أَحْيَانًا is \"sometimes\"; \"always\" is دَائِمًا."}
+{"id":"adverbs.04","q":"in the evening =","why":"Say \"in the evening\" with \"in\" and the article: فِي الْمَسَاء."}
+{"id":"adverbs.05","q":"I drink coffee every day.","why":"Every day is كُلّ يَوْم, with no article; كُلّ الْيَوْم means \"all day\"."}
+{"id":"adverbs.06","p":"Tomorrow is Monday. (start with \"tomorrow\")","why":"Day names are an iḍāfa: يَوْم takes no article."}
+{"id":"adverbs.07","p":"The city is very beautiful.","why":"مَدِينَة is feminine, so the adjective agrees: جَمِيلَة, and جِدًّا comes after it."}
+{"id":"adverbs.08","p":"I study Arabic every day. (time at the end)","why":"كُلّ يَوْم has no article, but the language takes the article: الْعَرَبِيَّة."}
+{"id":"adverbs.09","p":"I'm drinking tea now.","why":"Now is الْآن."}
+{"id":"adverbs.10","p":"Today is Thursday.","why":"In a day name the second word takes the article: يَوْم الْخَمِيس."}
+{"id":"adverbs.11","p":"I work every day.","why":"Every day is كُلّ يَوْم."}
+{"id":"adverbs.12","p":"We study Arabic in the evening.","hint":"نَدْرُس (we study) · عَرَبِيَّة · فِي الْمَسَاء","why":"In the evening is فِي الْمَسَاء, with the article; languages take the article too."}
+{"id":"adverbs.13","p":"She works every day.","hint":"أَعْمَل (I work) · she · كُلّ يَوْم","why":"She: the feminine prefix agrees, تَعْمَل; كُلّ يَوْم takes no article."}
+{"id":"adverbs.14","p":"My father is in the office now.","hint":"أَبِي (my father) · مَكْتَب (office) · الْآن (now)","why":"No \"is\" in Arabic: أَبِي فِي الْمَكْتَب, with nothing between."}
+{"id":"past.01","q":"I studied.","why":"In the past the ending says who: -tu is \"I\". أَدْرُس is the present."}
+{"id":"past.02","q":"She went to the market.","why":"She = the ending -at: ذَهَبَت. ذَهَبْتِ is \"you went\" to a woman."}
+{"id":"past.03","q":"You studied. (to a woman)","why":"To a woman the ending is -ti, with a kasra: دَرَسْتِ."}
+{"id":"past.04","q":"What does شَرِبُوا الشَّاي mean?","o":["They drank tea.","We drank tea.","He drinks tea.","They drink tea."],"why":"The ending -ū (written with a silent ا) says \"they\", and there is no prefix, so it is the past."}
+{"id":"past.05","q":"We ate at a Lebanese restaurant.","why":"We = the ending -nā; مَطْعَم is masculine, so لُبْنَانِيّ has no ة."}
+{"id":"past.06","p":"Sara studied Arabic. (verb, then the name)","why":"Sara is a woman: the feminine ending -at agrees with her, even before her name."}
+{"id":"past.07","p":"Ahmad lived in a big house. (start with the name)","why":"Ahmad is a man and بَيْت is masculine: the verb and the adjective agree, with no feminine ending."}
+{"id":"past.08","p":"We went to the new restaurant.","why":"Both words take the article: الْمَطْعَم الْجَدِيد."}
+{"id":"past.09","p":"Sara lived in Cairo.","why":"Sara is a woman, and it is the past: سَكَنَت."}
+{"id":"past.10","p":"I went to the market yesterday.","why":"Yesterday, and \"I\": the past with the ending -tu, ذَهَبْتُ."}
+{"id":"past.11","p":"They drank coffee.","why":"They, in the past: the ending -ū, شَرِبُوا."}
+{"id":"past.12","p":"Sara studied Arabic.","hint":"دَرَسَ (he studied) · سَارَة","why":"Sara is a woman: the feminine ending -at agrees with her."}
+{"id":"past.13","p":"She ate at the new restaurant.","hint":"أَكَلَ (he ate) · she · مَطْعَم · جَدِيد","why":"She: the feminine ending -at agrees; both words of \"the new restaurant\" take the article."}
+{"id":"past.14","p":"I lived in Chicago.","hint":"سَكَنَ (he lived) · شِيكَاغُو","why":"The ending -tu says \"I\": سَكَنْتُ."}
+{"id":"directions.01","q":"Excuse me. (to a woman)","why":"To a woman the last vowel is a kasra: سَمَحْتِ."}
+{"id":"directions.02","q":"on the left =","why":"عَلَى first, and \"the left\" takes the article: عَلَى الْيَسَار."}
+{"id":"directions.03","q":"The station is far.","why":"مَحَطَّة is feminine, so the adjective agrees, with no article and no \"is\"."}
+{"id":"directions.04","q":"Where's the train station?","why":"Iḍāfa: \"station of the train\", no article on the first word."}
+{"id":"directions.05","q":"Do you speak English? (to a woman)","why":"To a woman the verb adds -īn, and the language takes ال."}
+{"id":"directions.06","p":"The bank is on the left.","why":"No \"is\" in Arabic, and the left takes the article: عَلَى الْيَسَار."}
+{"id":"directions.07","p":"Where is the big hotel?","why":"Both words take the article: الْفُنْدُق الْكَبِير."}
+{"id":"directions.08","p":"The pharmacy is near here.","why":"صَيْدَلِيَّة is feminine (taa marbuta), so the adjective agrees: قَرِيبَة."}
+{"id":"directions.09","p":"The pharmacy is far from here.","why":"A feminine place takes the feminine adjective بَعِيدَة, with no article."}
+{"id":"directions.10","p":"Where's the train station?","why":"In an iḍāfa the second word takes the article: مَحَطَّةْ الْقِطَار."}
+{"id":"directions.11","p":"The hotel is near the station.","why":"فُنْدُق is masculine, so the adjective is قَرِيب, with no article."}
+{"id":"directions.12","p":"Where's the train station?","hint":"مَحَطَّة (station) · قِطَار (train)","why":"Iḍāfa: no article on the first word, مَحَطَّةْ الْقِطَار."}
+{"id":"directions.13","p":"The bank is on the right.","hint":"بَنْك (bank) · عَلَى · يَمِين (right)","why":"No \"is\" in Arabic, and the right takes the article: عَلَى الْيَمِين."}
+{"id":"directions.14","p":"The station is near.","hint":"مَحَطَّة (station) · قَرِيب (near)","why":"مَحَطَّة is feminine, so the adjective agrees: قَرِيبَة."}

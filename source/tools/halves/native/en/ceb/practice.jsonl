@@ -1,0 +1,392 @@
+{"id":"sounds.01","q":"What does a syllable in CAPITALS mean in the pronunciation line?","o":["It is the stressed syllable","It is said with a catch","It is spelled with a capital letter","It is a name"],"why":"CAPITALS mark the stressed syllable: bah-LAI."}
+{"id":"sounds.02","q":"Which two letters stand for the same vowel sound in Cebuano?","o":["u and o","a and e","i and u","a and o"],"why":"u and o are one sound: u early in a word, o in the last syllable (buntag, maayo)."}
+{"id":"sounds.03","q":"The line for balay says bah-LAI. Which syllable is stressed?","o":["The last one","The first one","Neither: both are equal","It changes from sentence to sentence"],"why":"The syllable in CAPITALS is stressed, here the last one."}
+{"id":"sounds.04","q":"What does ng sound like in ngalan (name)?","o":["the ng in singer","the ng in finger","an n, then a g","the n in name"],"why":"ng is one sound, as in singer, even at the start of a word."}
+{"id":"sounds.05","q":"A word in the line is all lowercase, like dee-lee for dili. What does that mean?","o":["Its stress has not been checked yet, so the line shows none","It has no stress at all","It is said very quietly","It is an English word"],"why":"Lowercase means the course makes no claim yet about that word's stress."}
+{"id":"sounds.06","p":"my house","why":"akong-set words go before the noun and add -ng: akong balay."}
+{"id":"sounds.07","p":"my name","why":"akong goes before the noun and always ends in -ng: akong ngalan."}
+{"id":"sounds.08","p":"children","why":"The plural word is written mga, even though it is said manga."}
+{"id":"sounds.09","p":"my house","why":"my before a noun is akong, ending in -ng: akong balay."}
+{"id":"sounds.10","p":"children","why":"The plural word mga goes before the noun: mga bata."}
+{"id":"sounds.11","p":"good","why":"maayo has two a's side by side, with a catch between them: ma-a-yo."}
+{"id":"sounds.12","p":"my water","hint":"akong · tubig","why":"akong-set words go before the noun and add -ng: akong tubig."}
+{"id":"sounds.13","p":"my name","hint":"akong · ngalan","why":"akong goes before the noun and ends in -ng: akong ngalan."}
+{"id":"sounds.14","p":"children","hint":"mga · bata","why":"The plural word is written mga, though it is said manga."}
+{"id":"greetings.01","q":"Good evening (after dark) =","why":"After dark the greeting is Maayong gabii."}
+{"id":"greetings.02","q":"Thank you very much =","why":"The fixed phrase is Daghang salamat, with -ng joining the two words."}
+{"id":"greetings.03","q":"You call Maayo! at a friend's gate. The host answers:","why":"Dayon means come in."}
+{"id":"greetings.04","q":"How do you address an older woman selling fruit?","why":"An older woman is Nang (short for Manang); po is Tagalog."}
+{"id":"greetings.05","q":"Your friend is leaving. You say:","why":"Amping means take care."}
+{"id":"greetings.06","p":"How are you? (to a friend)","why":"ka is the short pronoun for you and goes in second place, right after kumusta."}
+{"id":"greetings.07","p":"How are you, sir? (to an older man; title last)","why":"The short pronoun ka goes in second place; the title Nong comes at the end."}
+{"id":"greetings.08","p":"Thank you very much","why":"The phrase is daghang salamat, with -ng joining the two words."}
+{"id":"greetings.09","p":"Good afternoon.","why":"From early afternoon until dark the greeting is Maayong hapon."}
+{"id":"greetings.10","p":"How are you?","why":"Kumusta takes ka, the short word for you."}
+{"id":"greetings.11","p":"Thank you, ma'am. (to an older woman)","why":"An older woman is Nang (short for Manang); po is Tagalog."}
+{"id":"greetings.12","p":"I'm fine. (reply to Kumusta ka?; use man)","hint":"maayo · man · ko","why":"The short pronoun ko follows the main word maayo and man: Maayo man ko."}
+{"id":"greetings.13","p":"How are you, sir? (to an older man)","hint":"kumusta · ka · Nong","why":"The short pronoun ka goes in second place, right after kumusta; then the title."}
+{"id":"greetings.14","p":"Good afternoon, ma'am. (to an older woman)","hint":"maayo · hapon · Nang","why":"Maayong hapon is the afternoon greeting, and Nang is for an older woman."}
+{"id":"particles.01","q":"Which small word turns Maayo into a yes-or-no question?","why":"ba makes a yes-or-no question: Maayo ba?"}
+{"id":"particles.02","q":"Which word means too, also?","why":"sab means too, also; sad and pod are used the same way."}
+{"id":"particles.03","q":"You did not expect the food to be good, and it is. You say:","why":"diay shows surprise at something you just found out, and it comes after lami."}
+{"id":"particles.04","q":"Which word order is right for It's really good?","why":"Small words like gyud never come first; they follow the main word."}
+{"id":"particles.05","q":"What does man do in Maayo man (I'm fine)?","o":["It softens the answer","It means a man","It makes it a question","It means very"],"why":"man softens an answer, so it sounds relaxed rather than clipped."}
+{"id":"particles.06","p":"Just one","why":"lang is a small word that goes in second place, after the main word: Usa lang."}
+{"id":"particles.07","p":"Good morning to you too","why":"sab never comes first; it takes second place, after the greeting: Maayong buntag sab."}
+{"id":"particles.08","p":"It's really good","why":"gyud follows the main word in second place: Maayo gyud."}
+{"id":"particles.09","p":"Good morning to you too.","why":"sab (also sad or pod) means too."}
+{"id":"particles.10","p":"Just one.","why":"lang or ra means just, only."}
+{"id":"particles.11","p":"Is it tasty?","why":"ba makes a yes-or-no question."}
+{"id":"particles.12","p":"Just one","hint":"usa · lang","why":"lang goes in second place, after the main word: Usa lang."}
+{"id":"particles.13","p":"I'm fine too. (use sab)","hint":"maayo · sab · ko","why":"The short pronoun ko and the small word sab follow the main word maayo; neither ever comes first."}
+{"id":"particles.14","p":"Are you American? (use ba)","hint":"Amerikano · ka · ba","why":"The short pronoun ka and the small word ba follow the main word; neither ever comes first."}
+{"id":"this-that.01","q":"this (near me) =","why":"kini is for a thing near you, the speaker."}
+{"id":"this-that.02","q":"that, far from both of us =","why":"kadto is for a thing away from both speaker and listener."}
+{"id":"this-that.03","q":"Unsa ni? means:","o":["What's this?","What's that over there?","Who is this?","Is this good?"],"why":"ni is the short form of kini, this."}
+{"id":"this-that.04","q":"You have picked a bunch of bananas at a stall. Just this one =","why":"lang follows kini, and kini is the one near you."}
+{"id":"this-that.05","q":"this house =","why":"Right before a noun, kini takes -ng: kining balay."}
+{"id":"this-that.06","p":"What's this?","why":"The question word comes first, then kini: Unsa kini?"}
+{"id":"this-that.07","p":"This is a book","why":"The main word comes first: Libro kini, literally book this."}
+{"id":"this-that.08","p":"That's a house over there","why":"The main word comes first, and kadto is for a thing far from both of you."}
+{"id":"this-that.09","p":"What's that? (near you)","why":"A thing near the person you are talking to is kana."}
+{"id":"this-that.10","p":"Just this one.","why":"kini is the thing near you, the speaker."}
+{"id":"this-that.11","p":"this house","why":"Right before a noun, kini takes -ng: kining balay."}
+{"id":"this-that.12","p":"What's that? (near the listener)","hint":"unsa · kana","why":"The question word comes first, then kana: Unsa kana?"}
+{"id":"this-that.13","p":"This is my coffee.","hint":"kini · ang · akong · kape","why":"akong-set words go before the noun: Kini ang akong kape."}
+{"id":"this-that.14","p":"This is my house.","hint":"kini · ang · akong · balay","why":"akong-set words go before the noun: Kini ang akong balay."}
+{"id":"ako.01","q":"Ana is a teacher =","why":"Names take si, and the main word maestra comes first."}
+{"id":"ako.02","q":"Which of these can never be right?","why":"ka is a short form, and a short form never starts a sentence."}
+{"id":"ako.03","q":"The child is a student =","why":"bata is not a name, so it takes ang; the main word estudyante comes first."}
+{"id":"ako.04","q":"Which is the short form of ikaw (you)?","why":"ikaw and ka both mean you; ka is the short form."}
+{"id":"ako.05","q":"A woman says I'm a teacher:","why":"maestra is the form for a woman, and ko follows it."}
+{"id":"ako.06","p":"Ana is a teacher","why":"Names take si, and the main word comes first: Maestra si Ana."}
+{"id":"ako.07","p":"I'm American (a man)","why":"The short pronoun ko goes in second place, after the main word: Amerikano ko."}
+{"id":"ako.08","p":"The child is a student","why":"ang marks the focus when it is not a name: Estudyante ang bata."}
+{"id":"ako.09","p":"Pedro is a teacher.","why":"Names take si: Maestro si Pedro."}
+{"id":"ako.10","p":"I'm American.","why":"After the main word, I is ko or ako."}
+{"id":"ako.11","p":"The child is a student.","why":"A noun that is not a name takes ang."}
+{"id":"ako.12","p":"Pedro is a teacher.","hint":"maestro · Pedro","why":"Names take si, and the main word comes first: Maestro si Pedro."}
+{"id":"ako.13","p":"I'm a student.","hint":"estudyante · ko","why":"The short pronoun ko goes in second place, after the main word: Estudyante ko."}
+{"id":"ako.14","p":"She's American.","hint":"Amerikana · siya","why":"The main word comes first, then siya: Amerikana siya."}
+{"id":"intro.01","q":"I'm from the US =","why":"taga- joins the place, and ko comes after it."}
+{"id":"intro.02","q":"What does Asa ka gikan? really mean?","o":["Where have you just been?","Where are you from?","Where do you live?","What's your name?"],"why":"Asa ka gikan? asks where you have just come from, not your home country."}
+{"id":"intro.03","q":"unsay is short for:","why":"In speech, unsa ang shrinks to unsay."}
+{"id":"intro.04","q":"How do you say I'm thirty?","why":"Age is said with a Spanish number and anyos, then ko; no verb for have."}
+{"id":"intro.05","q":"In Taga-asa ka?, which part means from?","why":"taga- means from; asa means where."}
+{"id":"intro.06","p":"I'm from the US","why":"The short pronoun ko goes in second place, after the place: Taga-Amerika ko."}
+{"id":"intro.07","p":"Where are you from?","why":"The short pronoun ka goes in second place, right after taga-asa."}
+{"id":"intro.08","p":"I'm Ben. (start with ako)","why":"Names take si: Ako si Ben."}
+{"id":"intro.09","p":"I'm Emma.","why":"Names take si: Ako si Emma."}
+{"id":"intro.10","p":"What's your name?","why":"Before a noun, your is imong, with -ng."}
+{"id":"intro.11","p":"Where are you from?","why":"taga- + asa asks where someone is from; Asa ka? asks where they are going."}
+{"id":"intro.12","p":"I'm from the US.","hint":"taga- · Amerika · ko","why":"The short pronoun ko goes in second place, after the main word: Taga-Amerika ko."}
+{"id":"intro.13","p":"Where are you from?","hint":"taga- · asa · ka","why":"The short pronoun ka goes in second place: Taga-asa ka?"}
+{"id":"intro.14","p":"What's your name?","hint":"unsa · imong · ngalan","why":"imong is the akong-set word for your: it goes before the noun."}
+{"id":"questions.01","q":"unsa =","o":["what","who","where","why"],"why":"unsa is what: Unsa kini?"}
+{"id":"questions.02","q":"ngano =","o":["why","when","where","how much"],"why":"ngano is why."}
+{"id":"questions.03","q":"Who is Ana? =","why":"kinsa is who, and names keep si in questions."}
+{"id":"questions.04","q":"Kanus-a? means:","o":["When?","Where?","How?","Who?"],"why":"kanus-a is when; the hyphen marks a catch."}
+{"id":"questions.05","q":"pila =","o":["how many, how much","who","why","what"],"why":"pila asks how many or how much."}
+{"id":"questions.06","p":"Where are you going?","why":"The question word comes first and the short pronoun ka goes in second place: Asa ka?"}
+{"id":"questions.07","p":"Who is she?","why":"The question word comes first, then siya: Kinsa siya?"}
+{"id":"questions.08","p":"What's your name?","why":"The question word comes first, and imong (your) goes before the noun."}
+{"id":"questions.09","p":"Where are you going?","why":"asa means where."}
+{"id":"questions.10","p":"Who is Pedro?","why":"Names take si, even in questions."}
+{"id":"questions.11","p":"Are you American?","why":"ba makes a yes-or-no question."}
+{"id":"questions.12","p":"Where are you going?","hint":"asa · ka","why":"The question word comes first and the short pronoun ka follows it: Asa ka?"}
+{"id":"questions.13","p":"Who is Pedro?","hint":"kinsa · Pedro","why":"Names take si: Kinsa si Pedro?"}
+{"id":"questions.14","p":"Who is he?","hint":"kinsa · siya","why":"The question word comes first, then siya: Kinsa siya?"}
+{"id":"we-you.01","q":"we (you and I) =","why":"kita includes the listener; kami leaves them out."}
+{"id":"we-you.02","q":"they =","why":"sila is they; siya is he or she."}
+{"id":"we-you.03","q":"Which is the short form of kami?","why":"kami shortens to mi, kita to ta, kamo to mo."}
+{"id":"we-you.04","q":"the children =","why":"mga goes right before the noun: ang mga bata."}
+{"id":"we-you.05","q":"You ask two tourists where they are from:","why":"Two or more listeners are kamo, short form mo."}
+{"id":"we-you.06","p":"We're from the US (not including you)","why":"The short pronoun mi (we, not you) goes in second place, after the main word."}
+{"id":"we-you.07","p":"They're teachers","why":"The main word comes first, then sila: Mga maestro sila."}
+{"id":"we-you.08","p":"We're students (you and I)","why":"The main word comes first; kita includes the listener."}
+{"id":"we-you.09","p":"We're from the US. (not including you)","why":"kami or mi leaves the listener out."}
+{"id":"we-you.10","p":"You're students. (you all)","why":"kamo is you for two or more people."}
+{"id":"we-you.11","p":"the children","why":"mga makes the noun plural."}
+{"id":"we-you.12","p":"They're American.","hint":"Amerikano · sila","why":"The main word comes first, then sila: Amerikano sila."}
+{"id":"we-you.13","p":"We're from the US. (not including the listener)","hint":"taga- · Amerika · mi","why":"The short pronoun mi goes in second place: Taga-Amerika mi."}
+{"id":"we-you.14","p":"Where are you all from?","hint":"taga- · asa · mo","why":"The short pronoun mo (you all) goes in second place, after taga-asa."}
+{"id":"nako.01","q":"my house (owner after the noun) =","why":"nako goes after the noun, with no -ng."}
+{"id":"nako.02","q":"his room =","why":"iyang goes before the noun; niya would go after it."}
+{"id":"nako.03","q":"Ana's kitchen =","why":"A name that owns something takes ni."}
+{"id":"nako.04","q":"our house (not yours) =","why":"among leaves the listener out; atong and nato include them."}
+{"id":"nako.05","q":"their room =","why":"ilang goes before the noun and ends in -ng."}
+{"id":"nako.06","p":"Pedro's house","why":"Names take ni when they own something: ang balay ni Pedro."}
+{"id":"nako.07","p":"my room (owner after the noun)","why":"The nako-set goes after the noun: kuwarto nako."}
+{"id":"nako.08","p":"the door of the house","why":"sa marks an owner that is not a name: ang pultahan sa balay."}
+{"id":"nako.09","p":"Ana's house","why":"Names take ni when they own something."}
+{"id":"nako.10","p":"your room (one person)","why":"Before the noun, your is imong, with -ng."}
+{"id":"nako.11","p":"their house","why":"After the noun, their is nila."}
+{"id":"nako.12","p":"my room","hint":"akong · kuwarto","why":"akong goes before the noun and nako after it: akong kuwarto or kuwarto nako."}
+{"id":"nako.13","p":"Ana's kitchen","hint":"kusina · Ana","why":"Names take ni when they own something: ang kusina ni Ana."}
+{"id":"nako.14","p":"our house (yours and mine)","hint":"atong · balay","why":"atong includes the listener, and akong-set words go before the noun: atong balay."}
+{"id":"nga.01","q":"a new book =","why":"bag-o ends in a vowel, so the linker joins it as -ng: bag-ong libro."}
+{"id":"nga.02","q":"The coffee is hot. =","why":"A full sentence has the describing word first and ang before the noun; Init nga kape is just a phrase."}
+{"id":"nga.03","q":"Which word is the linker?","why":"nga links a describing word and a noun."}
+{"id":"nga.04","q":"small =","why":"gamay is small; dako is big."}
+{"id":"nga.05","q":"very tasty =","why":"kaayo comes straight after the describing word and means very; lang is just, ba asks, sab is too."}
+{"id":"nga.06","p":"The house is big","why":"The main word comes first, and ang marks the focus: Dako ang balay."}
+{"id":"nga.07","p":"my big house","why":"akong goes before the noun phrase, and dako takes -ng to join balay."}
+{"id":"nga.08","p":"Ana's room is small","why":"The main word comes first, and names take ni when they own something."}
+{"id":"nga.09","p":"a big house","why":"nga links the noun and the describing word: balay nga dako."}
+{"id":"nga.10","p":"It's very tasty.","why":"kaayo after the describing word means very."}
+{"id":"nga.11","p":"The coffee is cold.","why":"bugnaw means cold, for things and drinks."}
+{"id":"nga.12","p":"a big house","hint":"dako · balay","why":"dako takes -ng to join balay: dakong balay."}
+{"id":"nga.13","p":"My house is new.","hint":"bag-o · akong · balay","why":"The main word comes first, and akong goes before the noun: Bag-o ang akong balay."}
+{"id":"nga.14","p":"Ana's house is big.","hint":"dako · balay · Ana","why":"The main word comes first, and names take ni as owners: Dako ang balay ni Ana."}
+{"id":"aduna.01","q":"'There's water.' =","why":"naay is naa + -y (a short og): there is some."}
+{"id":"aduna.02","q":"What does Wala koy kuwarta mean?","o":["I don't have money.","I have money.","There's my money.","Where's my money?"],"why":"Wala koy… means there is none of mine: I don't have."}
+{"id":"aduna.03","q":"Which word means \"there isn't\"?","why":"wala means none; dili means no or not."}
+{"id":"aduna.04","q":"In a shop: 'Do you have water?' =","why":"Naa ba moy…? is the shop phrase; mo is short for kamo."}
+{"id":"aduna.05","q":"Which is the careful way to say 'There's water'?","why":"aduna is the careful word for naa: Adunay tubig."}
+{"id":"aduna.06","p":"I have water.","why":"The short pronoun ko goes in second place, right after naa, with -y joined: Naa koy tubig."}
+{"id":"aduna.07","p":"Is Ana there?","why":"Names take si, and naa comes first: Naa ba si Ana?"}
+{"id":"aduna.08","p":"There's no water.","why":"For 'there is no', use walay, never dili."}
+{"id":"aduna.09","p":"There's water.","why":"naay (or adunay) means there is some; wala alone needs the -y, and it means the opposite."}
+{"id":"aduna.10","p":"I have money.","why":"Use the ako-set: ko with -y joined, Naa koy kuwarta."}
+{"id":"aduna.11","p":"Pedro isn't here.","why":"Wala si… says someone is not here; walay is for things."}
+{"id":"aduna.12","p":"There's no coffee.","hint":"wala + -y · kape","why":"walay means there is no; dili is never used for that."}
+{"id":"aduna.13","p":"I have money.","hint":"naa · ko + -y · kuwarta","why":"The short pronoun ko goes in second place, right after naa: Naa koy kuwarta."}
+{"id":"aduna.14","p":"I don't have water.","hint":"wala · ko + -y · tubig","why":"The short pronoun ko goes in second place, right after wala: Wala koy tubig."}
+{"id":"feelings.01","q":"'I'm hungry.' =","why":"Feeling first, then ko: Gigutom ko."}
+{"id":"feelings.02","q":"Which one means 'I'm full'?","why":"busog = full; na = already."}
+{"id":"feelings.03","q":"'It's really hot.' (the weather) =","why":"kaayo follows the word it makes stronger; lang means just, and tugnaw means cold."}
+{"id":"feelings.04","q":"Your friend says Kapoy kaayo ko. She is…","o":["really tired","very hungry","a little cold","happy"],"why":"kapoy = tired; kaayo = very."}
+{"id":"feelings.05","q":"'Is Ana tired?' =","why":"A name needs si here, and ba follows the first word."}
+{"id":"feelings.06","p":"I'm hungry.","why":"The short pronoun ko goes in second place, after the feeling word: Gigutom ko."}
+{"id":"feelings.07","p":"Ana is tired.","why":"Names take si, and the feeling word comes first: Kapoy si Ana."}
+{"id":"feelings.08","p":"It's really hot.","why":"kaayo (very) follows the describing word: Init kaayo."}
+{"id":"feelings.09","p":"I'm hungry.","why":"Use the ako-set after the feeling word: Gigutom ko."}
+{"id":"feelings.10","p":"My head hurts.","why":"akong goes before the noun: akong ulo."}
+{"id":"feelings.11","p":"It's really cold.","why":"kaayo or gyud after the word makes it very or really cold."}
+{"id":"feelings.12","p":"It's really cold. (the weather; use kaayo)","hint":"tugnaw · kaayo","why":"Weather words need no person and no 'it is': Tugnaw kaayo."}
+{"id":"feelings.13","p":"I'm thirsty.","hint":"giuhaw · ko","why":"The short pronoun ko goes in second place, after the feeling word: Giuhaw ko."}
+{"id":"feelings.14","p":"My head hurts. (use masakit)","hint":"masakit · akong · ulo","why":"akong-set words go before the noun: Masakit akong ulo."}
+{"id":"numbers.01","q":"'two days' =","why":"A Cebuano number, then ka, then the noun."}
+{"id":"numbers.02","q":"'twenty pesos' =","why":"baynte is 20 in Spanish numbers, the ones used for prices."}
+{"id":"numbers.03","q":"What is siyam?","o":["nine","seven","six","ten"],"why":"siyam is the Cebuano 9; the Spanish one is nuwebe."}
+{"id":"numbers.04","q":"A vendor says singkuwenta. How much is it?","o":["₱50","₱40","₱5","₱60"],"why":"singkuwenta = 50; kuwarenta = 40, singko = 5, sesenta = 60."}
+{"id":"numbers.05","q":"'I'm thirty.' =","why":"The age first, then ko; Cebuano does not 'have' years."}
+{"id":"numbers.06","p":"three bananas","why":"Count things with a Cebuano number and ka: tulo ka saging."}
+{"id":"numbers.07","p":"I have two children.","why":"akong goes before the noun, and the number comes first: Duha akong anak."}
+{"id":"numbers.08","p":"I'm twenty-five. (years old)","why":"The age comes first, and the short pronoun ko follows it: Baynte singko anyos ko."}
+{"id":"numbers.09","p":"three bananas","why":"ka joins a Cebuano number to the thing it counts."}
+{"id":"numbers.10","p":"I have two children.","why":"akong goes before the noun: Duha akong anak."}
+{"id":"numbers.11","p":"twenty pesos (₱20)","why":"Prices use Spanish numbers: baynte = 20."}
+{"id":"numbers.12","p":"two days","hint":"duha (2) · adlaw (day)","why":"A Cebuano number, then ka, then the noun: duha ka adlaw."}
+{"id":"numbers.13","p":"my three brothers and sisters","hint":"akong · tulo · igsoon","why":"akong goes before the noun, then the number and ka: akong tulo ka igsoon."}
+{"id":"numbers.14","p":"Ana is thirty. (years old)","hint":"traynta · anyos · Ana","why":"Names take si, and the age comes first: Traynta anyos si Ana."}
+{"id":"prices.01","q":"'How much is this?' =","why":"pila asks how much; unsa asks what."}
+{"id":"prices.02","q":"What does Mahal kaayo mean?","o":["That's really expensive.","That's really cheap.","That's very big.","That's very small."],"why":"mahal = expensive; barato = cheap."}
+{"id":"prices.03","q":"'How much altogether?' =","why":"tanan = all; Tagpila? asks the price of each."}
+{"id":"prices.04","q":"'₱25' =","why":"The ten first, then the one: baynte singko."}
+{"id":"prices.05","q":"At a market you want a small discount. You say:","why":"pahangyo is the small discount you ask for at a market."}
+{"id":"prices.06","p":"How much for one kilo?","why":"The question word comes first, and ang marks the thing you ask about: Tagpila ang usa ka kilo?"}
+{"id":"prices.07","p":"How much are your bananas? (to a vendor)","why":"imong is the akong-set word for your, and it goes before the noun: Tagpila imong saging?"}
+{"id":"prices.08","p":"That's really expensive.","why":"kaayo follows mahal; barato means cheap."}
+{"id":"prices.09","p":"How much is this?","why":"pila asks how much; unsa asks what."}
+{"id":"prices.10","p":"One kilo is forty pesos.","why":"ang marks the thing whose price you give."}
+{"id":"prices.11","p":"twenty-five pesos (₱25)","why":"Prices use Spanish numbers: baynte singko = 25."}
+{"id":"prices.12","p":"How much altogether?","hint":"pila · tanan","why":"tanan means all: Pila tanan?"}
+{"id":"prices.13","p":"How much is your fish? (to a vendor; use tagpila)","hint":"tagpila · imong · isda (fish)","why":"imong goes before the noun: Tagpila imong isda?"}
+{"id":"prices.14","p":"One kilo is ₱40. (start with the price)","hint":"kuwarenta · pesos · kilo","why":"The price comes first, and ang marks the thing: Kuwarenta pesos ang kilo."}
+{"id":"family.01","q":"'my younger brother or sister' =","why":"manghod = younger; magulang = older."}
+{"id":"family.02","q":"Who is your ig-agaw?","o":["your cousin","your aunt","your grandchild","your husband"],"why":"ig-agaw = cousin; tiya = aunt, apo = grandchild, bana = husband."}
+{"id":"family.03","q":"Your grandmother hands you food. You say:","why":"Use her title, Lola; po is Tagalog, not Cebuano."}
+{"id":"family.04","q":"What is your anak?","o":["your son or daughter","any young person","your brother or sister","your grandchild"],"why":"anak is your own child; bata is any child."}
+{"id":"family.05","q":"'our family' (to a guest) =","why":"among leaves the listener out; atong includes them."}
+{"id":"family.06","p":"two children (sons or daughters)","why":"Count with a Cebuano number and ka: duha ka anak."}
+{"id":"family.07","p":"Ana's husband","why":"Names take ni when they own something: bana ni Ana."}
+{"id":"family.08","p":"my younger sister","why":"akong goes before the noun and ends in -ng: akong manghod nga babaye."}
+{"id":"family.09","p":"my brother","why":"igsoon nga lalaki is a brother; anak nga lalaki would be a son."}
+{"id":"family.10","p":"Ana's husband","why":"ni goes before a name that owns something."}
+{"id":"family.11","p":"Rosa is my mother.","why":"akong goes before the noun: akong inahan."}
+{"id":"family.12","p":"a brother (a male sibling)","hint":"igsoon · lalaki","why":"There is no single word for brother: igsoon nga lalaki."}
+{"id":"family.13","p":"Rosa is my mother. (use inahan)","hint":"akong · inahan · Rosa","why":"Names take si, and the main word comes first: Akong inahan si Rosa."}
+{"id":"family.14","p":"my grandchildren","hint":"akong · mga · apo","why":"akong goes before the noun, with mga between: akong mga apo."}
+{"id":"mo.01","q":"'I'll eat.' =","why":"mo- means not done yet; ko follows the verb."}
+{"id":"mo.02","q":"Which one is about the past?","why":"ni- means the action is already done."}
+{"id":"mo.03","q":"What does Nipalit si Ana og saging mean?","o":["Ana bought bananas.","Ana will buy bananas.","Ana likes bananas.","Ana has bananas."],"why":"ni- = done; palit = buy."}
+{"id":"mo.04","q":"'I'll go tomorrow.' =","why":"ugma (tomorrow) needs the mo- form."}
+{"id":"mo.05","q":"After Mopalit ko, which small word goes before 'water' (not a specific one)?","why":"After a mo- verb, 'some, a' is og: Mopalit ko og tubig."}
+{"id":"mo.06","p":"I'll buy water.","why":"With a mo- verb the doer is the focus, and og marks a thing that is not specific: Mopalit ko og tubig."}
+{"id":"mo.07","p":"Where will you go?","why":"The question word comes first, and the short pronoun ka goes in second place: Asa ka moadto?"}
+{"id":"mo.08","p":"I ate yesterday. (start with the verb)","why":"For something already done, use the past form ni-: Nikaon ko gahapon."}
+{"id":"mo.09","p":"I'll buy coffee tomorrow.","why":"ugma means tomorrow, so the verb takes the future form mo-."}
+{"id":"mo.10","p":"I ate a banana.","why":"og marks a thing that is not specific after a doer-focus verb."}
+{"id":"mo.11","p":"She will go to Bohol.","why":"With a mo- verb the doer is the focus, so use siya."}
+{"id":"mo.12","p":"I'll go tomorrow. (start with the verb)","hint":"adto (go) · ugma (tomorrow)","why":"Not done yet, so the future form: Moadto ko ugma."}
+{"id":"mo.13","p":"I bought bananas. (start with the verb)","hint":"palit (buy) · saging","why":"The doer is the focus, and og marks bananas that are not specific: Nipalit ko og saging."}
+{"id":"mo.14","p":"Pedro will drink water.","hint":"inom (drink) · Pedro · tubig","why":"Names take si, and with mo- the doer is the focus: Moinom si Pedro og tubig."}
+{"id":"mag.01","q":"'She is cooking.' =","why":"nag- covers what is going on now; siya is the right word for she here."}
+{"id":"mag.02","q":"'I'll work tomorrow.' =","why":"ugma needs the future form mag-, with ko right after the verb."}
+{"id":"mag.03","q":"What does Nagtuon ko og Bisaya mean?","o":["I'm studying Cebuano.","I'll teach Cebuano.","I speak Cebuano.","I like Cebuano."],"why":"tuon = study; nag- = going on now (or done)."}
+{"id":"mag.04","q":"'Let's pray.' =","why":"mag- with ta makes a suggestion; nag- would mean we prayed."}
+{"id":"mag.05","q":"'Where do you work?' =","why":"Question word first, then ka, then the verb."}
+{"id":"mag.06","p":"I'm studying Cebuano.","why":"The short pronoun ko goes in second place, right after the verb: Nagtuon ko og Bisaya."}
+{"id":"mag.07","p":"Where do you work?","why":"The question word comes first, and the short pronoun ka goes in second place: Asa ka nagtrabaho?"}
+{"id":"mag.08","p":"Let's play!","why":"mag- with ta makes a suggestion: Magdula ta!"}
+{"id":"mag.09","p":"I'm working in Cebu now. (karon = now)","why":"Something going on now takes nag-: Nagtrabaho ko."}
+{"id":"mag.10","p":"I'll cook tomorrow.","why":"With a mag- verb the doer is the focus: use the ako-set, ko."}
+{"id":"mag.11","p":"I'm studying Cebuano.","why":"og marks a thing that is not specific after a doer-focus verb."}
+{"id":"mag.12","p":"She is cooking.","hint":"luto (cook) · siya","why":"nag- covers something going on now, not only something done."}
+{"id":"mag.13","p":"I work in Cebu. (start with the verb)","hint":"trabaho (work) · Cebu","why":"The short pronoun ko goes in second place, right after the verb: Nagtrabaho ko sa Cebu."}
+{"id":"mag.14","p":"Ana will cook adobo. (start with the verb)","hint":"luto (cook) · Ana · adobo","why":"Names take si; with mag- the doer is the focus, and og comes before the dish."}
+{"id":"negation.01","q":"'There's no water.' =","why":"For 'there is no', use walay."}
+{"id":"negation.02","q":"'I didn't eat.' =","why":"wala for the past, then ko, then the mo- form."}
+{"id":"negation.03","q":"'I won't go tomorrow.' =","why":"dili for what will not happen, then ko, then the verb."}
+{"id":"negation.04","q":"'He isn't a teacher.' =","why":"dili is the 'not' of a sentence with no verb; wala siyay maestro means he has no teacher."}
+{"id":"negation.05","q":"Someone asks Niadto ka? (Did you go?). You didn't. You answer:","why":"It did not happen, so the short answer is Wala."}
+{"id":"negation.06","p":"I don't like it.","why":"The short pronoun ko moves up to second place, right after dili: Dili ko ganahan."}
+{"id":"negation.07","p":"We didn't go. (not including you)","why":"The short pronoun mi moves up to second place, right after wala: Wala mi moadto."}
+{"id":"negation.08","p":"There's no rice. (uncooked)","why":"For 'there is no', use walay, never dili."}
+{"id":"negation.09","p":"I didn't go yesterday.","why":"It did not happen, so wala; dili is for what will not happen."}
+{"id":"negation.10","p":"I don't like it.","why":"Use the ako-set: the short pronoun ko goes in second place, after dili."}
+{"id":"negation.11","p":"I won't go tomorrow.","why":"After dili, the verb keeps the mo- form."}
+{"id":"negation.12","p":"I'm not American.","hint":"dili · Amerikano (a woman: Amerikana)","why":"For 'is not' with no verb, use dili, never wala."}
+{"id":"negation.13","p":"I didn't go.","hint":"wala · adto (go)","why":"The short pronoun ko moves up to second place, right after wala, and the verb stays in the mo- form."}
+{"id":"negation.14","p":"I won't go tomorrow. (start with dili)","hint":"dili · adto (go) · ugma","why":"dili for what will not happen; the short pronoun ko moves up to second place."}
+{"id":"time.01","q":"'three o'clock' =","why":"On the clock: alas + a Spanish number."}
+{"id":"time.02","q":"'one o'clock' =","why":"One o'clock is the odd one: ala una."}
+{"id":"time.03","q":"Which day is Monday?","why":"Lunes is Monday; Domingo is Sunday."}
+{"id":"time.04","q":"'I ate earlier today.' =","why":"ganina is earlier today, so the past form ni-."}
+{"id":"time.05","q":"'I'll go home later today.' =","why":"unya is later today and goes with mo-."}
+{"id":"time.06","p":"I'll leave at 3:00. (start with the verb)","why":"The short pronoun ko goes in second place, after the verb; the time comes after it."}
+{"id":"time.07","p":"When will you go?","why":"The question word comes first, and the short pronoun ka goes in second place: Kanus-a ka moadto?"}
+{"id":"time.08","p":"half past eight","why":"alas + Spanish otso, then y medya for half past."}
+{"id":"time.09","p":"half past eight","why":"y medya means 'and a half'."}
+{"id":"time.10","p":"I'll leave on Monday.","why":"Days take sa: sa Lunes."}
+{"id":"time.11","p":"I'll go tomorrow.","why":"ugma is tomorrow; unya is later today."}
+{"id":"time.12","p":"three o'clock (3:00)","hint":"alas · tres (3)","why":"On the clock, alas + a Spanish number: alas tres."}
+{"id":"time.13","p":"I woke up at 6:00. (start with the verb)","hint":"mata (wake up) · alas · sais (6)","why":"The short pronoun ko goes in second place, after the verb: Nimata ko alas sais."}
+{"id":"time.14","p":"I'll go home later today. (start with the verb; use uli)","hint":"uli (go home) · unya","why":"The short pronoun ko goes in second place, after the verb; unya is later today."}
+{"id":"gusto.01","q":"'I want coffee' =","why":"gusto comes first, the short pronoun ko in second place, then og and the thing."}
+{"id":"gusto.02","q":"'I want to go' =","why":"No word for 'to', and the verb after gusto takes mo-, the future form."}
+{"id":"gusto.03","q":"'I need water' =","why":"kinahanglan comes first, the short pronoun ko in second place, then og and the thing."}
+{"id":"gusto.04","q":"'I like mangoes' =","why":"ganahan takes the ako-set: ko, in second place."}
+{"id":"gusto.05","q":"'Don't!' (telling someone to stop) =","why":"ayaw is 'don't' for telling someone not to do something."}
+{"id":"gusto.06","p":"I want coffee","why":"The short pronoun ko goes in second place, right after gusto: Gusto ko og kape."}
+{"id":"gusto.07","p":"I want to eat","why":"ko goes in second place after gusto, and no word for 'to' comes before mokaon."}
+{"id":"gusto.08","p":"I don't like it","why":"Short pronouns move up behind dili: Dili ko ganahan."}
+{"id":"gusto.09","p":"I want some coffee.","why":"og comes before a thing you want when it is not one particular thing."}
+{"id":"gusto.10","p":"I want to eat.","why":"After gusto ko, the verb takes the future form mo-, with no word for 'to'."}
+{"id":"gusto.11","p":"I don't want it.","why":"dili is 'not' for your own wants; ayaw tells someone else not to do something."}
+{"id":"gusto.12","p":"I need help","hint":"kinahanglan · tabang (help)","why":"The short pronoun ko goes in second place, after kinahanglan, then og and the thing."}
+{"id":"gusto.13","p":"I want to go to Bohol","hint":"gusto · adto · Bohol","why":"ko goes in second place after gusto, and the verb takes mo- with no word for 'to'."}
+{"id":"gusto.14","p":"Do you like lechon? (to one person; lechon = litson)","hint":"ganahan · litson","why":"ganahan takes the ako-set: ka goes in second place, right after ganahan."}
+{"id":"requests.01","q":"The polite way to ask someone to sit down:","why":"palihug plus the bare root is a polite command; a bare root alone sounds rough."}
+{"id":"requests.02","q":"At a friend's house, you want some water. You say:","why":"Palihug ko og… asks for something; tubig ko would mean 'my water'."}
+{"id":"requests.03","q":"What does lang add in 'Hulat lang'?","o":["It softens it: 'just a moment'","It turns it into a question","It means 'not'","It means 'later'"],"why":"lang means 'just' and makes a command gentle."}
+{"id":"requests.04","q":"Tagalog adds po to be polite. In Cebuano you…","o":["leave po out and use palihug, salamat or a title","add po at the end","add po after the first word","say opo instead"],"why":"Cebuano has no po; politeness comes from palihug, salamat and titles."}
+{"id":"requests.05","q":"'Don't worry' =","why":"ayaw tells someone not to do something; dili and wala describe."}
+{"id":"requests.06","p":"Just a moment (wait)","why":"lang is a small word that goes in second place, after the root: Hulat lang."}
+{"id":"requests.07","p":"May I ask something? (use pwede)","why":"The short pronoun ko goes in second place, right after pwede."}
+{"id":"requests.08","p":"Give me some water (use tagai)","why":"ko goes in second place, right after tagai; og comes before the water."}
+{"id":"requests.09","p":"Just a moment, sir.","why":"lang softens a command: Hulat lang. Cebuano has no po."}
+{"id":"requests.10","p":"Don't worry.","why":"ayaw is the 'don't' you say to someone else."}
+{"id":"requests.11","p":"Some water, please.","why":"og comes before a thing you ask for when it is not one particular thing."}
+{"id":"requests.12","p":"Please sit down","hint":"palihug · lingkod (sit)","why":"palihug plus the bare root makes a polite command."}
+{"id":"requests.13","p":"May I ask something? (use pwede)","hint":"pwede · mangutana (ask)","why":"The short pronoun ko goes in second place, right after pwede."}
+{"id":"requests.14","p":"Give me some water (use tagai)","hint":"tagai · tubig","why":"ko goes in second place, right after tagai, and og comes before the water."}
+{"id":"food.01","q":"'One soup, please' =","why":"Count dishes with a Cebuano number and ka: usa ka sabaw."}
+{"id":"food.02","q":"kan-on is…","o":["cooked rice","uncooked rice","soup","fish"],"why":"kan-on is cooked rice; uncooked rice is bugas."}
+{"id":"food.03","q":"sud-an is…","o":["the dish you eat with rice","dessert","a drink","the bill"],"why":"sud-an is whatever you eat with your rice: meat, fish or vegetables."}
+{"id":"food.04","q":"You've had enough to eat. You say:","why":"Busog na ko: busog first, then na and ko."}
+{"id":"food.05","q":"To ask the price of everything you ate:","why":"pila asks 'how much'; tanan means 'all'."}
+{"id":"food.06","p":"I'm full","why":"The main word comes first and the short pronoun ko follows na: Busog na ko."}
+{"id":"food.07","p":"Do you have fish? (to the cook, use naa)","why":"naa comes first; ba and the short pronoun mo follow it, and mo joins og as moy."}
+{"id":"food.08","p":"one coffee","why":"Count with a Cebuano number and ka: usa ka kape."}
+{"id":"food.09","p":"One soup, please.","why":"ka joins a Cebuano number to the food: usa ka sabaw."}
+{"id":"food.10","p":"It's really good!","why":"kaayo after a describing word means 'really, very'."}
+{"id":"food.11","p":"I'm full (already).","why":"na means 'already': Busog na ko."}
+{"id":"food.12","p":"Two rice, please","hint":"duha · kan-on (cooked rice)","why":"Count with a Cebuano number and ka: duha ka kan-on."}
+{"id":"food.13","p":"I want soup (use gusto)","hint":"gusto · sabaw","why":"The short pronoun ko goes in second place after gusto, and og comes before the soup."}
+{"id":"food.14","p":"My soup is really good","hint":"lami · kaayo · sabaw","why":"akong goes before the noun, and the main word comes first: Lami kaayo ang akong sabaw."}
+{"id":"places.01","q":"'over there' (far from both of you) =","why":"didto is far from both of you, like kadto."}
+{"id":"places.02","q":"'there' (near the person you're talking to) =","why":"diha is near the listener, like kana."}
+{"id":"places.03","q":"'Where's the market?' =","why":"Question word, then ang and the place."}
+{"id":"places.04","q":"'I'm going to the church' =","why":"sa means 'to' before a place, and ko stays right after the verb."}
+{"id":"places.05","q":"Which question word means 'which one?'","why":"Hain asks which one; kinsa is who, unsa is what, kanus-a is when."}
+{"id":"places.06","p":"I'm here","why":"The short pronoun ko goes in second place, right after naa."}
+{"id":"places.07","p":"Where's the church?","why":"ang marks a place; names take si."}
+{"id":"places.08","p":"It's at the market","why":"sa marks the place: 'at the market' is sa merkado."}
+{"id":"places.09","p":"I'm going to the market.","why":"sa means 'to, at, in' before a place."}
+{"id":"places.10","p":"The water is there (near you).","why":"diha is 'there' near the listener."}
+{"id":"places.11","p":"Where's the restroom?","why":"asa (or hain) asks where."}
+{"id":"places.12","p":"I'm at home (use naa)","hint":"naa · balay","why":"The short pronoun ko goes in second place after naa, and sa comes before the place."}
+{"id":"places.13","p":"Pedro is at the church","hint":"naa · Pedro · simbahan","why":"Names take si: Naa si Pedro sa simbahan."}
+{"id":"places.14","p":"My house is over there","hint":"didto · balay","why":"akong goes before the noun, and the place word comes first: Didto ang akong balay."}
+{"id":"directions.01","q":"On a jeepney, you want to get off now. You say:","why":"Para! tells the driver to stop."}
+{"id":"directions.02","q":"You pass your coins forward and say:","why":"Bayad means 'here's my fare'."}
+{"id":"directions.03","q":"'Turn right' =","why":"liko, then sa and the side; right is tuo."}
+{"id":"directions.04","q":"In Liko sa wala, wala means…","o":["left","none","not","right"],"why":"After liko sa, wala is the left side; right is tuo."}
+{"id":"directions.05","q":"A habal-habal is…","o":["a motorbike taxi","a jeepney stop","a ferry","a bus ticket"],"why":"A habal-habal is a motorbike that carries passengers."}
+{"id":"directions.06","p":"Turn right","why":"liko, then sa and the side: right is tuo, left is wala."}
+{"id":"directions.07","p":"I'll get off (use naog)","why":"The short pronoun ko goes in second place, after the verb: Monaog ko."}
+{"id":"directions.08","p":"Where are you going? (to a friend, use moadto)","why":"The question word comes first and ka goes in second place: Asa ka moadto?"}
+{"id":"directions.09","p":"Turn right.","why":"Right is tuo; left is wala."}
+{"id":"directions.10","p":"Stop here, sir! (on a jeepney)","why":"Para! stops the jeepney; Bayad is for paying."}
+{"id":"directions.11","p":"Here's my fare, sir.","why":"Bayad goes with the coins you pass forward."}
+{"id":"directions.12","p":"Turn left","hint":"liko · wala (left)","why":"Left is wala, spelled like wala 'none'."}
+{"id":"directions.13","p":"I'm going to the market (use adto)","hint":"adto · merkado","why":"The short pronoun ko goes in second place, after moadto; sa comes before the place."}
+{"id":"directions.14","p":"Where are you going, sir? (to an older man, use moadto)","hint":"asa · adto · Nong","why":"The question word comes first and ka goes in second place: Asa ka moadto, Nong?"}
+{"id":"on.01","q":"'I bought the bananas' =","why":"Past thing-focus: gi-, the doer in the nako-set, and ang on the thing."}
+{"id":"on.02","q":"'I'll eat the mango' =","why":"Future thing-focus: -on, with the doer in the nako-set."}
+{"id":"on.03","q":"In 'Gipalit nako ang saging', which word is the focus?","why":"Thing-focus verb: the thing, saging, gets ang."}
+{"id":"on.04","q":"The best English for 'Gikaon ni Pedro ang mangga':","o":["Pedro ate the mango.","Pedro will eat the mango.","The mango ate Pedro.","Pedro is eating a mango."],"why":"gi- is the past form; ni marks Pedro as the doer."}
+{"id":"on.05","q":"'I'll buy some bananas' (any bananas) =","why":"A thing with og goes with a doer-focus mo- verb."}
+{"id":"on.06","p":"I bought the bananas","why":"With a thing-focus verb the doer takes the nako-set and the thing gets ang."}
+{"id":"on.07","p":"I'll eat the mango","why":"Who gets ang? The mango. The doer of -on takes the nako-set: nako."}
+{"id":"on.08","p":"You took my water","why":"The doer of a gi- verb is from the nako-set: nimo, not ikaw."}
+{"id":"on.09","p":"I bought the bananas.","why":"The doer of a gi- verb takes the nako-set: nako."}
+{"id":"on.10","p":"I'll eat the mango tomorrow.","why":"Future thing-focus is -on; gi- is the past form."}
+{"id":"on.11","p":"Pedro ate the mango.","why":"Names take ni when they are the doer of a thing-focus verb."}
+{"id":"on.12","p":"I bought the bananas (use palit)","hint":"palit · saging","why":"With a thing-focus verb the doer takes the nako-set and the bananas get ang."}
+{"id":"on.13","p":"Pedro will eat the mango","hint":"kaon · Pedro · mangga","why":"With a thing-focus verb, names take ni for the doer and the thing gets ang."}
+{"id":"on.14","p":"Did you buy the fish? (use palit)","hint":"palit · isda","why":"The doer of a gi- verb is from the nako-set: nimo or mo, and the fish gets ang."}
+{"id":"an.01","q":"'I helped Pedro' =","why":"Place-focus past is gi-…-an; Pedro is the focus with si, and the doer is nako-set."}
+{"id":"an.02","q":"'Please wash the plate' =","why":"palihug plus the -i form, then ang and the thing washed."}
+{"id":"an.03","q":"In 'Gisulatan nako si Ana', who is the focus?","o":["Ana","the writer","the letter","nobody"],"why":"With a place-focus verb the person written to is the focus: si Ana."}
+{"id":"an.04","q":"The command form of a place-focus verb ends in…","why":"-i is the command; -an is the future form."}
+{"id":"an.05","q":"'Please help me!' =","why":"The -i form asks for help; ko here means 'me'."}
+{"id":"an.06","p":"I helped Pedro","why":"Names take si: Pedro is the focus, and the doer is from the nako-set."}
+{"id":"an.07","p":"I'll wash the plate","why":"With a place-focus verb the doer takes the nako-set and the plate gets ang."}
+{"id":"an.08","p":"I wrote to Ana","why":"Names take si: the person written to is the focus, si Ana."}
+{"id":"an.09","p":"I helped Pedro.","why":"Names take si when they are the focus."}
+{"id":"an.10","p":"Please wash the plate.","why":"-i is the command form of a place-focus verb."}
+{"id":"an.11","p":"I'll wash the plate tomorrow.","why":"-an is the future form; gi-…-an is the past form."}
+{"id":"an.12","p":"I'll wash the plate (use hugas)","hint":"hugas · plato","why":"With a place-focus verb the doer takes the nako-set and the plate gets ang."}
+{"id":"an.13","p":"I wrote to Ana (use sulat)","hint":"sulat · Ana","why":"Names take si: Ana is the focus, and the doer is from the nako-set."}
+{"id":"an.14","p":"Please help me (use tabang)","hint":"palihug · tabang","why":"The -i form makes the request; here ko means 'me'."}
+{"id":"compare.01","q":"'This one is bigger' =","why":"mas goes right before the describing word, and the describing word comes first."}
+{"id":"compare.02","q":"Which word means 'than' in 'bigger than that one'?","why":"kaysa means 'than'."}
+{"id":"compare.03","q":"'the most expensive' =","why":"pinaka- joined to the front means 'the most'."}
+{"id":"compare.04","q":"'It's the same' =","why":"parehas means 'the same'; ra adds 'just'."}
+{"id":"compare.05","q":"labing maayo is…","o":["a careful way to say 'the best'","'not good'","'better than'","'very bad'"],"why":"labing is the careful-speech word for 'most'."}
+{"id":"compare.06","p":"This one is more expensive","why":"The main word comes first: Mas mahal kini."}
+{"id":"compare.07","p":"Ana is prettier (use gwapa)","why":"Names take si, and mas gwapa comes first: Mas gwapa si Ana."}
+{"id":"compare.08","p":"bigger than that one","why":"mas before the describing word, then kaysa for 'than'."}
+{"id":"compare.09","p":"This one is bigger.","why":"mas before the describing word means 'more'."}
+{"id":"compare.10","p":"The chicken is tastier than the pork.","why":"kaysa means 'than'; before a noun, kaysa sa."}
+{"id":"compare.11","p":"This is the biggest one.","why":"pinaka- means 'the most': pinakadako."}
+{"id":"compare.12","p":"My house is bigger","hint":"mas · dako · balay","why":"akong goes before the noun (or nako after it), and mas dako comes first."}
+{"id":"compare.13","p":"Your mango is tastier","hint":"mas · lami · mangga","why":"imong goes before the noun (or nimo after it), and mas lami comes first."}
+{"id":"compare.14","p":"The price is the same","hint":"parehas · presyo (price)","why":"parehas means 'the same'; ra adds 'just'."}
+{"id":"maka.01","q":"'I can't go' =","why":"dili for 'can't', and ko moves up right behind it."}
+{"id":"maka.02","q":"'Have you ever been to Bohol?' =","why":"naka- with na asks 'have you ever'; ka, from the ako-set, comes after the verb."}
+{"id":"maka.03","q":"'I couldn't go (yesterday)' =","why":"wala for the past, with maka- after it."}
+{"id":"maka.04","q":"'I know how to cook' (a skill) =","why":"kahibalo for a skill, with ko in second place."}
+{"id":"maka.05","q":"'Nakakaon na ka?' means…","o":["Have you eaten yet?","Can you eat?","Don't eat!","You will eat."],"why":"naka- with na asks if something has happened yet."}
+{"id":"maka.06","p":"I can't go","why":"Short pronouns move up behind dili: Dili ko makaadto."}
+{"id":"maka.07","p":"Can you help? (use tabang)","why":"maka- is doer-focus, so ka from the ako-set goes in second place."}
+{"id":"maka.08","p":"I couldn't go (yesterday)","why":"wala for the past; the short pronoun ko moves up right behind it."}
+{"id":"maka.09","p":"I can't go tomorrow.","why":"dili for now and later; wala for the past."}
+{"id":"maka.10","p":"Have you ever been to Bohol?","why":"naka- asks whether something has ever happened."}
+{"id":"maka.11","p":"I know how to cook.","why":"kahibalo means 'know how' and is used for skills."}
+{"id":"maka.12","p":"I can't go (use adto)","hint":"dili · adto","why":"Short pronouns move up behind dili: Dili ko makaadto."}
+{"id":"maka.13","p":"Can you go tomorrow? (use adto)","hint":"adto · ugma","why":"maka- is doer-focus, so the short pronoun ka goes in second place."}
+{"id":"maka.14","p":"Have you eaten yet? (use naka-)","hint":"kaon · na (already, yet)","why":"naka- asks whether something has happened; na means 'yet'."}

@@ -1,0 +1,81 @@
+{"id":"sounds.k1","q":"What does the CAPITAL syllable in the pronunciation line show?","o":["The first syllable of the word","The stressed syllable, said louder and longer","A letter you do not say","A word borrowed from English"],"why":"Stress is not written in Tagalog spelling, so the line shows it in CAPITALS."}
+{"id":"sounds.k2","q":"How is the little word ng in Kumain ako ng mangga said?","o":["Like the letters N and G","It is silent","Like nang","Like the ing in sing, with no vowel"],"why":"On its own, the word ng is always said nang."}
+{"id":"sounds.k3","q":"Why is it malaking bahay and not malaki bahay?","o":["malaking is the plural of malaki","Tagalog joins a describing word to its noun with the linker -ng","bahay always needs ng before it","malaki bahay means a small house"],"why":"malaki ends in a vowel, so the linker -ng joins it to bahay."}
+{"id":"greetings.k1","q":"Why does every greeting begin with Magandang?","o":["It means hello","maganda (beautiful) is joined to the time of day with the linker -ng","It is the polite form of maganda","magandang means good night"],"why":"Tagalog says beautiful morning: maganda + the linker -ng + umaga."}
+{"id":"greetings.k2","q":"Your friend's grandmother asks you a question. How do you say yes?","why":"opo is the polite yes; oo is for friends."}
+{"id":"greetings.k3","q":"Which is the polite How are you? for an older stranger?","why":"To an elder, use the polite kayo with po: Kumusta po kayo?"}
+{"id":"pronouns.k1","q":"Which word goes before a person's name in Ako si Ana?","why":"si goes before a person's name: Ako si Ana."}
+{"id":"pronouns.k2","q":"You tell a Filipino friend about you and your sister: We're teachers. Which we?","why":"kami leaves the listener out; tayo would include your friend."}
+{"id":"pronouns.k3","q":"Why is Ka si Mark wrong?","o":["ka cannot start a sentence; use ikaw there","ka is only for elders","Mark needs ang","ka means he"],"why":"ka comes right after the first word; at the start, use ikaw."}
+{"id":"intro.k1","q":"How do you say I'm from Cebu?","why":"taga- + place means from that place: Taga-Cebu ako."}
+{"id":"intro.k2","q":"Why is it Ilang taon, not Ilan taon?","o":["Ilang is the polite form","ilan ends in n, so the linker -g joins it to taon","taon needs ng before it","Ilang is the plural"],"why":"After n the linker is just -g: ilang taon."}
+{"id":"intro.k3","q":"A friend asks Paano ka? What did they mean to say?","o":["How old are you?","Where are you from?","What's your name?","Nothing: How are you? is Kumusta ka?"],"why":"Paano ka? is a word-for-word copy of English; How are you? is Kumusta ka?"}
+{"id":"this-that.k1","q":"The vendor is holding a bag in her hand. You ask how much it is. Which word?","why":"iyan is that, near the listener."}
+{"id":"this-that.k2","q":"How do you say This is Ana?","why":"si goes before a person's name: Ito si Ana."}
+{"id":"this-that.k3","q":"Your friend points at a bag. How do you say It's expensive? (mahal = expensive)","why":"siya is for people; for things Tagalog uses ito, iyan or iyon."}
+{"id":"markers.k1","q":"Which marker goes before a name when the person is the topic?","why":"si marks a name as the topic; ang is for ordinary nouns."}
+{"id":"markers.k2","q":"How do you say the teacher's house?","why":"guro is an ordinary noun, so the owner takes ng: bahay ng guro."}
+{"id":"markers.k3","q":"Why is kay Maynila wrong?","o":["Maynila needs ang","kay is for people; a place takes sa","kay is only for the topic","kay must come after the place"],"why":"kay is for people; places take sa: sa Maynila."}
+{"id":"linker.k1","q":"Which linker joins mabait (kind) to bata (child)?","o":["-ng: mabaiting bata","-g: mabaitg bata","none: mabait bata","na: mabait na bata"],"why":"mabait ends in a consonant, so the linker is na."}
+{"id":"linker.k2","q":"Which phrase means the same as magandang bahay?","why":"Both orders are correct; the linker sits between the words: bahay na maganda."}
+{"id":"linker.k3","q":"Why is it pagkaing masarap, with a g?","o":["pagkaing is the plural","pagkain ends in n, so the linker is just -g","masarap starts with m","It is a spelling mistake"],"why":"After n, the linker is -g: pagkaing masarap."}
+{"id":"ng-pronouns.k1","q":"How do you say my name?","why":"The ng form ko goes after the noun: pangalan ko."}
+{"id":"ng-pronouns.k2","q":"Why is Gusto ako ng kape wrong?","o":["gusto takes the ng form: Gusto ko","kape needs ang","ako must come first","gusto is only for things you like, not want"],"why":"After gusto, use the ng form ko: Gusto ko ng kape."}
+{"id":"ng-pronouns.k3","q":"Which means our house, talking about your own family to a friend?","why":"namin is our without the listener; natin includes them."}
+{"id":"questions.k1","q":"Where does ba go in a yes-or-no question?","o":["At the very start","At the very end, always","After the first word, and after ka if ka is there","Before the verb"],"why":"ba goes right after the first word and after ka: Pagod ka ba?"}
+{"id":"questions.k2","q":"Which word asks where something is right now, as in Where's the restroom?","why":"nasaan asks where a thing or person is: Nasaan ang CR?"}
+{"id":"questions.k3","q":"How do you ask Is she tired?","why":"siya comes after ba: Pagod ba siya?"}
+{"id":"yes-no.k1","q":"Your friend asks May kape ba? (Is there coffee?) and there is none. What do you answer?","why":"wala answers \"Is there any…?\" when there is none; hindi is just \"not\"."}
+{"id":"yes-no.k2","q":"How do you tell a friend \"Don't leave\"?","why":"huwag is the word for \"don't\", and the linker joins it to ka: huwag kang."}
+{"id":"yes-no.k3","q":"Lola asks Pagod ka na ba? (Are you tired?) and you are not. What do you say?","why":"It is a plain \"no\", so hindi; Lola gets po."}
+{"id":"numbers.k1","q":"Why is it apat na aso but limang aso?","o":["na is for animals, -ng for people","Both are correct for either number","apat ends in a consonant, so the linker is na; lima ends in a vowel, so it takes -ng","-ng is only used with Spanish numbers"],"why":"The linker depends on the sound before it: na after a consonant, -ng after a vowel."}
+{"id":"numbers.k2","q":"Which means \"three hours\"?","why":"Durations use native numbers with the linker; alas-tres is three o'clock."}
+{"id":"numbers.k3","q":"A vendor says Singkwenta po. How much is it?","o":["₱15","₱50","₱5","₱500"],"why":"singkwenta is the Spanish 50, the usual way to say small prices."}
+{"id":"may.k1","q":"Which sentence means \"I have a car\"?","why":"may goes straight before the noun, and the owner comes after it: May kotse ako."}
+{"id":"may.k2","q":"Your friend asks May pera ka ba? (Do you have money?) You have none. What do you answer?","why":"The opposite of may is wala: there's none."}
+{"id":"may.k3","q":"Why is it Mayroon akong aso and not Mayroon ako aso?","o":["After mayroon, the pronoun takes the linker -ng","ako is wrong after mayroon; use ko","aso needs the ang marker","Both are correct"],"why":"mayroon is followed by the pronoun plus the linker: akong."}
+{"id":"family.k1","q":"How do you make clear that your kapatid is a brother?","why":"kapatid has no sex; add lalaki with the linker na."}
+{"id":"family.k2","q":"Who can you call Tita?","o":["Only your mother's sisters","Your aunts, and also your parents' friends","Any woman younger than you","Only your grandmother"],"why":"tito and tita are used for parents' friends too, not only for real uncles and aunts."}
+{"id":"family.k3","q":"\"My dad is a doctor\" =","why":"The job comes first, then ang tatay ko, with the ng pronoun ko for \"my\"."}
+{"id":"sa-pronouns.k1","q":"Which means \"for her\"?","why":"After para sa, use the sa form: kaniya (often written kanya)."}
+{"id":"sa-pronouns.k2","q":"How do you ask where Ana is right now?","why":"nasaan asks where someone or something is; nasa is the answer word."}
+{"id":"sa-pronouns.k3","q":"\"This is for Juan.\" Which word goes before Juan?","why":"With a person's name, use kay: para kay Juan."}
+{"id":"word-order.k1","q":"\"Are you tired?\" (to a friend) =","why":"The predicate pagod comes first, then ka, then ba."}
+{"id":"word-order.k2","q":"What does Ako ay guro. mean?","o":["I am a teacher. (topic first, a bit formal)","Me and a teacher.","Is he a teacher?","I want a teacher."],"why":"ay puts the topic first; it means the same as Guro ako."}
+{"id":"word-order.k3","q":"Kumain __ __ kayo? (Have you eaten? polite) Which words fill the gaps, in order?","why":"na comes before po, and the longer pronoun kayo comes last."}
+{"id":"um.k1","q":"Where does -um- go in kain?","o":["Before the first vowel: kumain","At the end: kainum","At the start: umkain","After the last vowel: kaium"],"why":"-um- goes right before the first vowel of the root."}
+{"id":"um.k2","q":"Why is it Kumain ako and not Kumain ko?","o":["ko is only used in questions","Both are correct","With an -um- verb the doer takes the ang form","ako shows that it happened in the past"],"why":"Actor focus: the doer is the topic, so it takes the ang form ako."}
+{"id":"um.k3","q":"In \"Juan drank water\", which word goes before tubig (water)?","why":"The doer already has the ang form; the thing takes ng."}
+{"id":"mag.k1","q":"How do you turn magluto into \"cooked\"?","o":["Add -um-: lumuto","Repeat a syllable: maglulu","Add na after it: magluto na","Change the m to n: nagluto"],"why":"nag- instead of mag- shows the action is finished."}
+{"id":"mag.k2","q":"Why does nag-aral have a hyphen?","o":["It marks the catch before aral","It shows the action is finished","Every mag- verb has one","It is optional decoration"],"why":"The hyphen stands for the catch before a root that starts with a vowel."}
+{"id":"mag.k3","q":"In Nagluto si Ana ng pancit (Ana cooked pancit), which noun is the topic?","o":["pancit","Ana","neither","both"],"why":"A mag- verb is actor focus: the doer, si Ana, is the topic."}
+{"id":"aspect.k1","q":"How do you make the future of kain?","o":["Repeat the first syllable: kakain","Add -um-: kumain","Add -um- and repeat: kumakain","Repeat the whole root: kainkain"],"why":"The future repeats the first syllable and has no -um-: kakain."}
+{"id":"aspect.k2","q":"Which sentence is wrong?","why":"bukas (tomorrow) needs the future form: Kakain ako bukas."}
+{"id":"aspect.k3","q":"What does Nagtatrabaho ako sa ospital. mean?","o":["I worked at a hospital once.","I work at a hospital.","I will work at a hospital.","I want to work at a hospital."],"why":"The ongoing form is used for a regular job or habit."}
+{"id":"gusto.k1","q":"Which word for \"I\" goes after gusto?","why":"gusto takes the ng form: Gusto ko."}
+{"id":"gusto.k2","q":"How do you join gusto ko to a verb?","o":["Add the linker: Gusto kong kumain","Put ng between them: Gusto ko ng kumain","Nothing: Gusto ko kumain","Use ay: Gusto ko ay kumain"],"why":"A verb after gusto ko is joined with the linker -ng: Gusto kong kumain."}
+{"id":"gusto.k3","q":"\"I can speak Tagalog\" (I know how) is…","why":"marunong is \"know how to\"; puwede is \"may, allowed\"."}
+{"id":"in.k1","q":"In Kinain ko ang mangga, which noun is the topic?","o":["the mango (ang mangga)","ko","kinain","There is no topic"],"why":"With an -in verb the thing takes ang: ang mangga is the topic."}
+{"id":"in.k2","q":"Which verb fits \"Juan cooked the adobo\"?","why":"\"the adobo\" is a particular thing, so object focus: Niluto ni Juan ang adobo."}
+{"id":"in.k3","q":"In object focus, the doer takes…","o":["the ang form","the sa form","the ng form","no marker at all"],"why":"The doer of an -in verb takes the ng form: ko, mo, niya, ni Ana."}
+{"id":"food.k1","q":"What is ulam?","o":["Uncooked rice","The dish you eat with rice","Dessert","The bill"],"why":"A meal is kanin plus ulam, the dish that goes with the rice."}
+{"id":"food.k2","q":"How do you order one adobo from the staff?","why":"Number + linker + dish, and po to the staff: Isang adobo po."}
+{"id":"food.k3","q":"\"Kumain ka na?\" is usually…","o":["A friendly greeting","A complaint","A way to ask for the bill","An order to eat right now"],"why":"Filipinos ask \"Have you eaten?\" the way English speakers ask \"How are you?\""}
+{"id":"time.k1","q":"Which means \"three o'clock\"?","why":"The clock uses alas- + a Spanish number: alas-tres."}
+{"id":"time.k2","q":"What does mamaya mean?","o":["maybe","yesterday","earlier today","later today"],"why":"mamaya is later today; \"maybe\" is baka or siguro."}
+{"id":"time.k3","q":"Which means \"five minutes\"?","why":"Lengths of time use native numbers with the linker: limang minuto."}
+{"id":"directions.k1","q":"Which word means \"left\"?","why":"kaliwa is left; kanan is right."}
+{"id":"directions.k2","q":"What do you say to get off a jeepney?","why":"Para po! asks the driver to stop."}
+{"id":"directions.k3","q":"\"to Makati\" is…","why":"Places take sa; kay is for people."}
+{"id":"requests.k1","q":"What does paki- add to a verb?","o":["\"don't\"","\"please\"","\"again\"","\"already\""],"why":"paki- turns a verb into a polite request: pakiabot, please pass."}
+{"id":"requests.k2","q":"\"Don't leave!\" (to a friend) is…","why":"\"Don't\" is huwag, and the pronoun after it takes the linker: kang."}
+{"id":"requests.k3","q":"Which is a polite command to an older person?","why":"Use po kayo with anyone who gets po."}
+{"id":"particles.k1","q":"\"not yet\" is…","why":"pa is still or yet: Hindi pa is not yet."}
+{"id":"particles.k2","q":"Where do the little words go?","o":["Right after the first word","At the end of the sentence","Before the first word","Anywhere at all"],"why":"Little words sit right after the first word."}
+{"id":"particles.k3","q":"Which order is right?","why":"One-syllable ka first, then na, then ba."}
+{"id":"compare.k1","q":"\"cheaper\" is…","why":"mas means more: mas mura."}
+{"id":"compare.k2","q":"After kaysa, a person's name takes…","why":"kay is for people after kaysa: kaysa kay Ana."}
+{"id":"compare.k3","q":"\"the cheapest\" is…","why":"pinaka- means most: pinakamura."}
+{"id":"taglish.k1","q":"Is \"Nag-shopping kami\" bad Tagalog?","o":["Yes, it is a mistake","No, it is normal everyday Taglish","Only children say it","It is formal written Tagalog"],"why":"Mixing English words into Tagalog grammar is normal in Manila."}
+{"id":"taglish.k2","q":"What would you say to your grandmother?","why":"With elders, use the careful form with po."}
+{"id":"taglish.k3","q":"\"Tara!\" means…","o":["Let's go!","Okay.","Wow!","I don't know."],"why":"Tara! is a casual \"Let's go!\""}

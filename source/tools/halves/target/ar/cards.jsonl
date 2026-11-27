@@ -1,0 +1,789 @@
+{"id":"ar.c0001","deck":"ar.d.letters-1-alif-to-sad","ar":"ا","rom":"alif"}
+{"id":"ar.c0002","deck":"ar.d.letters-1-alif-to-sad","ar":"ب","rom":"bāʾ"}
+{"id":"ar.c0003","deck":"ar.d.letters-1-alif-to-sad","ar":"ت","rom":"tāʾ"}
+{"id":"ar.c0004","deck":"ar.d.letters-1-alif-to-sad","ar":"ث","rom":"thāʾ"}
+{"id":"ar.c0005","deck":"ar.d.letters-1-alif-to-sad","ar":"ج","rom":"jīm"}
+{"id":"ar.c0006","deck":"ar.d.letters-1-alif-to-sad","ar":"ح","rom":"ḥāʾ"}
+{"id":"ar.c0007","deck":"ar.d.letters-1-alif-to-sad","ar":"خ","rom":"khāʾ"}
+{"id":"ar.c0008","deck":"ar.d.letters-1-alif-to-sad","ar":"د","rom":"dāl"}
+{"id":"ar.c0009","deck":"ar.d.letters-1-alif-to-sad","ar":"ذ","rom":"dhāl"}
+{"id":"ar.c0010","deck":"ar.d.letters-1-alif-to-sad","ar":"ر","rom":"rāʾ"}
+{"id":"ar.c0011","deck":"ar.d.letters-1-alif-to-sad","ar":"ز","rom":"zāy"}
+{"id":"ar.c0012","deck":"ar.d.letters-1-alif-to-sad","ar":"س","rom":"sīn"}
+{"id":"ar.c0013","deck":"ar.d.letters-1-alif-to-sad","ar":"ش","rom":"shīn"}
+{"id":"ar.c0014","deck":"ar.d.letters-1-alif-to-sad","ar":"ص","rom":"ṣād"}
+{"id":"ar.c0015","deck":"ar.d.letters-2-dad-to-ya","ar":"ض","rom":"ḍād"}
+{"id":"ar.c0016","deck":"ar.d.letters-2-dad-to-ya","ar":"ط","rom":"ṭāʾ"}
+{"id":"ar.c0017","deck":"ar.d.letters-2-dad-to-ya","ar":"ظ","rom":"ẓāʾ"}
+{"id":"ar.c0018","deck":"ar.d.letters-2-dad-to-ya","ar":"ع","rom":"ʿayn"}
+{"id":"ar.c0019","deck":"ar.d.letters-2-dad-to-ya","ar":"غ","rom":"ghayn"}
+{"id":"ar.c0020","deck":"ar.d.letters-2-dad-to-ya","ar":"ف","rom":"fāʾ"}
+{"id":"ar.c0021","deck":"ar.d.letters-2-dad-to-ya","ar":"ق","rom":"qāf"}
+{"id":"ar.c0022","deck":"ar.d.letters-2-dad-to-ya","ar":"ك","rom":"kāf"}
+{"id":"ar.c0023","deck":"ar.d.letters-2-dad-to-ya","ar":"ل","rom":"lām"}
+{"id":"ar.c0024","deck":"ar.d.letters-2-dad-to-ya","ar":"م","rom":"mīm"}
+{"id":"ar.c0025","deck":"ar.d.letters-2-dad-to-ya","ar":"ن","rom":"nūn"}
+{"id":"ar.c0026","deck":"ar.d.letters-2-dad-to-ya","ar":"ه","rom":"hāʾ"}
+{"id":"ar.c0027","deck":"ar.d.letters-2-dad-to-ya","ar":"و","rom":"wāw"}
+{"id":"ar.c0028","deck":"ar.d.letters-2-dad-to-ya","ar":"ي","rom":"yāʾ"}
+{"id":"ar.c0029","deck":"ar.d.vowels-and-marks","ar":"بَ","rom":"ba"}
+{"id":"ar.c0030","deck":"ar.d.vowels-and-marks","ar":"بُو","rom":"bū"}
+{"id":"ar.c0031","deck":"ar.d.vowels-and-marks","ar":"بَا","rom":"bā"}
+{"id":"ar.c0032","deck":"ar.d.vowels-and-marks","ar":"بِي","rom":"bī"}
+{"id":"ar.c0033","deck":"ar.d.vowels-and-marks","ar":"بِنْت","rom":"bint"}
+{"id":"ar.c0034","deck":"ar.d.vowels-and-marks","ar":"مَكْتَب","rom":"maktab"}
+{"id":"ar.c0035","deck":"ar.d.vowels-and-marks","ar":"مُدَرِّسَة","rom":"mudarrisa"}
+{"id":"ar.c0036","deck":"ar.d.vowels-and-marks","ar":"بَيْت","rom":"bayt"}
+{"id":"ar.c0037","deck":"ar.d.vowels-and-marks","ar":"شُكْرًا","rom":"shukran"}
+{"id":"ar.c0038","deck":"ar.d.vowels-and-marks","ar":"سُؤَال","rom":"suʾāl"}
+{"id":"ar.c0039","deck":"ar.d.vowels-and-marks","ar":"عَلَى","rom":"ʿalā"}
+{"id":"ar.c0040","deck":"ar.d.vowels-and-marks","ar":"ة","rom":"tāʾ marbūṭa"}
+{"id":"ar.c0041","deck":"ar.d.vowels-and-marks","ar":"ى","rom":"alif maqṣūra"}
+{"id":"ar.c0042","deck":"ar.d.vowels-and-marks","ar":"ء","rom":"hamza"}
+{"id":"ar.c0043","deck":"ar.d.vowels-and-marks","ar":"لا","rom":"lām alif"}
+{"id":"ar.c0044","deck":"ar.d.vowels-and-marks","ar":"الشَّمْس","rom":"ash-shams"}
+{"id":"ar.c0045","deck":"ar.d.vowels-and-marks","ar":"الْقَمَر","rom":"al-qamar"}
+{"id":"ar.c0046","deck":"ar.d.vowels-and-marks","ar":"هٰذَا","rom":"hādhā"}
+{"id":"ar.c0047","deck":"ar.d.sound-pairs","ar":"قَلْب","rom":"qalb"}
+{"id":"ar.c0048","deck":"ar.d.sound-pairs","ar":"كَلْب","rom":"kalb"}
+{"id":"ar.c0049","deck":"ar.d.sound-pairs","ar":"صَيْف","rom":"ṣayf"}
+{"id":"ar.c0050","deck":"ar.d.sound-pairs","ar":"سَيْف","rom":"sayf"}
+{"id":"ar.c0051","deck":"ar.d.sound-pairs","ar":"طِين","rom":"ṭīn"}
+{"id":"ar.c0052","deck":"ar.d.sound-pairs","ar":"تِين","rom":"tīn"}
+{"id":"ar.c0053","deck":"ar.d.sound-pairs","ar":"حَال","rom":"ḥāl"}
+{"id":"ar.c0054","deck":"ar.d.sound-pairs","ar":"هَال","rom":"hāl"}
+{"id":"ar.c0055","deck":"ar.d.sound-pairs","ar":"خَال","rom":"khāl"}
+{"id":"ar.c0056","deck":"ar.d.sound-pairs","ar":"عَيْن","rom":"ʿayn"}
+{"id":"ar.c0057","deck":"ar.d.sound-pairs","ar":"عَلَم","rom":"ʿalam"}
+{"id":"ar.c0058","deck":"ar.d.sound-pairs","ar":"أَلَم","rom":"alam"}
+{"id":"ar.c0059","deck":"ar.d.sound-pairs","ar":"جَمَل","rom":"jamal"}
+{"id":"ar.c0060","deck":"ar.d.sound-pairs","ar":"جَمَال","rom":"jamāl"}
+{"id":"ar.c0061","deck":"ar.d.sound-pairs","ar":"دَرَسَ","rom":"darasa"}
+{"id":"ar.c0062","deck":"ar.d.sound-pairs","ar":"دَرَّسَ","rom":"darrasa"}
+{"id":"ar.c0063","deck":"ar.d.greetings-and-courtesy","ar":"السَّلَامُ عَلَيْكُم","rom":"as-salāmu ʿalaykum"}
+{"id":"ar.c0064","deck":"ar.d.greetings-and-courtesy","ar":"وَعَلَيْكُم السَّلَام","rom":"waʿalaykum as-salām"}
+{"id":"ar.c0065","deck":"ar.d.greetings-and-courtesy","ar":"مَرْحَبًا","rom":"marḥaban"}
+{"id":"ar.c0066","deck":"ar.d.greetings-and-courtesy","ar":"أَهْلًا وَسَهْلًا","rom":"ahlan wasahlan"}
+{"id":"ar.c0067","deck":"ar.d.greetings-and-courtesy","ar":"صَبَاح الْخَيْر","rom":"ṣabāḥ al-khayr"}
+{"id":"ar.c0068","deck":"ar.d.greetings-and-courtesy","ar":"صَبَاح النُّور","rom":"ṣabāḥ an-nūr"}
+{"id":"ar.c0069","deck":"ar.d.greetings-and-courtesy","ar":"مَسَاء الْخَيْر","rom":"masāʾ al-khayr"}
+{"id":"ar.c0070","deck":"ar.d.greetings-and-courtesy","ar":"مَسَاء النُّور","rom":"masāʾ an-nūr"}
+{"id":"ar.c0071","deck":"ar.d.greetings-and-courtesy","ar":"كَيْفَ حَالُكَ؟","rom":"kayfa ḥāluka?"}
+{"id":"ar.c0072","deck":"ar.d.greetings-and-courtesy","ar":"كَيْفَ حَالُكِ؟","rom":"kayfa ḥāluki?"}
+{"id":"ar.c0073","deck":"ar.d.greetings-and-courtesy","ar":"الْحَمْدُ لِلّٰه","rom":"al-ḥamdu lillāh"}
+{"id":"ar.c0074","deck":"ar.d.greetings-and-courtesy","ar":"شُكْرًا جَزِيلًا","rom":"shukran jazīlan"}
+{"id":"ar.c0075","deck":"ar.d.greetings-and-courtesy","ar":"مِن فَضْلِكَ","rom":"min faḍlika"}
+{"id":"ar.c0076","deck":"ar.d.greetings-and-courtesy","ar":"مِن فَضْلِكِ","rom":"min faḍliki"}
+{"id":"ar.c0077","deck":"ar.d.greetings-and-courtesy","ar":"عُذْرًا","rom":"ʿudhran"}
+{"id":"ar.c0078","deck":"ar.d.greetings-and-courtesy","ar":"تَشَرَّفْنَا","rom":"tasharrafnā"}
+{"id":"ar.c0079","deck":"ar.d.greetings-and-courtesy","ar":"مَعَ السَّلَامَة","rom":"maʿa as-salāma"}
+{"id":"ar.c0080","deck":"ar.d.greetings-and-courtesy","ar":"إِلَى اللِّقَاء","rom":"ilā al-liqāʾ"}
+{"id":"ar.c0081","deck":"ar.d.about-me","ar":"مَا اِسْمُكَ؟","rom":"mā ismuka?"}
+{"id":"ar.c0082","deck":"ar.d.about-me","ar":"مَا اِسْمُكِ؟","rom":"mā ismuki?"}
+{"id":"ar.c0083","deck":"ar.d.about-me","ar":"اِسْمِي سَارَة","rom":"ismī sāra"}
+{"id":"ar.c0084","deck":"ar.d.about-me","ar":"مِن أَيْنَ أَنْتَ؟","rom":"min ayna anta?"}
+{"id":"ar.c0085","deck":"ar.d.about-me","ar":"مِن أَيْنَ أَنْتِ؟","rom":"min ayna anti?"}
+{"id":"ar.c0086","deck":"ar.d.about-me","ar":"أَنَا مِن شِيكَاغُو","rom":"anā min shīkāghū"}
+{"id":"ar.c0087","deck":"ar.d.about-me","ar":"أَنَا مِن الْوِلَايَات الْمُتَّحِدَة","rom":"anā min al-wilāyāt al-muttaḥida"}
+{"id":"ar.c0088","deck":"ar.d.about-me","ar":"أَنَا أَمْرِيكِيّ","rom":"anā amrīkī"}
+{"id":"ar.c0089","deck":"ar.d.about-me","ar":"أَنَا مِن أَصْل لُبْنَانِيّ","rom":"anā min aṣl lubnānī"}
+{"id":"ar.c0090","deck":"ar.d.about-me","ar":"أَيْنَ تَسْكُن؟","rom":"ayna taskun?"}
+{"id":"ar.c0091","deck":"ar.d.about-me","ar":"أَسْكُن فِي تِكْسَاس","rom":"askun fī tiksās"}
+{"id":"ar.c0092","deck":"ar.d.about-me","ar":"أَنَا طَالِب","rom":"anā ṭālib"}
+{"id":"ar.c0093","deck":"ar.d.about-me","ar":"أَنَا مُهَنْدِسَة","rom":"anā muhandisa"}
+{"id":"ar.c0094","deck":"ar.d.about-me","ar":"مَاذَا تَعْمَل؟","rom":"mādhā taʿmal?"}
+{"id":"ar.c0095","deck":"ar.d.about-me","ar":"أَدْرُس الْعَرَبِيَّة","rom":"adrus al-ʿarabiyya"}
+{"id":"ar.c0096","deck":"ar.d.about-me","ar":"أَتَكَلَّم الْإِنْجِلِيزِيَّة","rom":"atakallam al-injilīziyya"}
+{"id":"ar.c0097","deck":"ar.d.about-me","ar":"كَم عُمْرُكَ؟","rom":"kam ʿumruka?"}
+{"id":"ar.c0098","deck":"ar.d.about-me","ar":"عُمْرِي خَمْسَة وَعِشْرُون","rom":"ʿumrī khamsa waʿishrūn"}
+{"id":"ar.c0099","deck":"ar.d.family-and-people","ar":"أُمِّي","rom":"ummī"}
+{"id":"ar.c0100","deck":"ar.d.family-and-people","ar":"أَبِي","rom":"abī"}
+{"id":"ar.c0101","deck":"ar.d.family-and-people","ar":"أَخِي","rom":"akhī"}
+{"id":"ar.c0102","deck":"ar.d.family-and-people","ar":"أُخْتِي","rom":"ukhtī"}
+{"id":"ar.c0103","deck":"ar.d.family-and-people","ar":"اِبْنِي","rom":"ibnī"}
+{"id":"ar.c0104","deck":"ar.d.family-and-people","ar":"اِبْنَتِي","rom":"ibnatī"}
+{"id":"ar.c0105","deck":"ar.d.family-and-people","ar":"زَوْجِي","rom":"zawjī"}
+{"id":"ar.c0106","deck":"ar.d.family-and-people","ar":"زَوْجَتِي","rom":"zawjatī"}
+{"id":"ar.c0107","deck":"ar.d.family-and-people","ar":"جَدِّي","rom":"jaddī"}
+{"id":"ar.c0108","deck":"ar.d.family-and-people","ar":"جَدَّتِي","rom":"jaddatī"}
+{"id":"ar.c0109","deck":"ar.d.family-and-people","ar":"صَدِيقِي","rom":"ṣadīqī"}
+{"id":"ar.c0110","deck":"ar.d.family-and-people","ar":"صَدِيقَتِي","rom":"ṣadīqatī"}
+{"id":"ar.c0111","deck":"ar.d.family-and-people","ar":"رَجُل","rom":"rajul"}
+{"id":"ar.c0112","deck":"ar.d.family-and-people","ar":"اِمْرَأَة","rom":"imraʾa"}
+{"id":"ar.c0113","deck":"ar.d.family-and-people","ar":"عَائِلَتِي كَبِيرَة","rom":"ʿāʾilatī kabīra"}
+{"id":"ar.c0114","deck":"ar.d.family-and-people","ar":"أُمِّي مُدَرِّسَة","rom":"ummī mudarrisa"}
+{"id":"ar.c0115","deck":"ar.d.family-and-people","ar":"عِنْدِي أَخ وَأُخْت","rom":"ʿindī akh waʾukht"}
+{"id":"ar.c0116","deck":"ar.d.family-and-people","ar":"هٰذَا صَدِيقِي أَحْمَد","rom":"hādhā ṣadīqī aḥmad"}
+{"id":"ar.c0117","deck":"ar.d.numbers-and-money","ar":"صِفْر","rom":"ṣifr"}
+{"id":"ar.c0118","deck":"ar.d.numbers-and-money","ar":"وَاحِد","rom":"wāḥid"}
+{"id":"ar.c0119","deck":"ar.d.numbers-and-money","ar":"اِثْنَان","rom":"ithnān"}
+{"id":"ar.c0120","deck":"ar.d.numbers-and-money","ar":"خَمْسَة","rom":"khamsa"}
+{"id":"ar.c0121","deck":"ar.d.numbers-and-money","ar":"عَشَرَة","rom":"ʿashara"}
+{"id":"ar.c0122","deck":"ar.d.numbers-and-money","ar":"أَحَد عَشَر","rom":"aḥad ʿashar"}
+{"id":"ar.c0123","deck":"ar.d.numbers-and-money","ar":"عِشْرُون","rom":"ʿishrūn"}
+{"id":"ar.c0124","deck":"ar.d.numbers-and-money","ar":"وَاحِد وَعِشْرُون","rom":"wāḥid waʿishrūn"}
+{"id":"ar.c0125","deck":"ar.d.numbers-and-money","ar":"خَمْسُون","rom":"khamsūn"}
+{"id":"ar.c0126","deck":"ar.d.numbers-and-money","ar":"مِئَة","rom":"miʾa"}
+{"id":"ar.c0127","deck":"ar.d.numbers-and-money","ar":"٣","rom":"thalātha"}
+{"id":"ar.c0128","deck":"ar.d.numbers-and-money","ar":"٧","rom":"sabʿa"}
+{"id":"ar.c0129","deck":"ar.d.numbers-and-money","ar":"٨","rom":"thamāniya"}
+{"id":"ar.c0130","deck":"ar.d.numbers-and-money","ar":"بِكَم هٰذَا؟","rom":"bikam hādhā?"}
+{"id":"ar.c0131","deck":"ar.d.numbers-and-money","ar":"كَم الثَّمَن؟","rom":"kam ath-thaman?"}
+{"id":"ar.c0132","deck":"ar.d.numbers-and-money","ar":"عِشْرُون رِيَالًا","rom":"ʿishrūn riyālan"}
+{"id":"ar.c0133","deck":"ar.d.numbers-and-money","ar":"رِيَال","rom":"riyāl"}
+{"id":"ar.c0134","deck":"ar.d.numbers-and-money","ar":"جُنَيْه","rom":"junayh"}
+{"id":"ar.c0135","deck":"ar.d.food-and-drink","ar":"قَهْوَة عَرَبِيَّة","rom":"qahwa ʿarabiyya"}
+{"id":"ar.c0136","deck":"ar.d.food-and-drink","ar":"شَاي بِالنَّعْنَاع","rom":"shāy bin-naʿnāʿ"}
+{"id":"ar.c0137","deck":"ar.d.food-and-drink","ar":"قَهْوَة بِالْحَلِيب","rom":"qahwa bil-ḥalīb"}
+{"id":"ar.c0138","deck":"ar.d.food-and-drink","ar":"بِدُون سُكَّر","rom":"bidūn sukkar"}
+{"id":"ar.c0139","deck":"ar.d.food-and-drink","ar":"عَصِير بُرْتُقَال","rom":"ʿaṣīr burtuqāl"}
+{"id":"ar.c0140","deck":"ar.d.food-and-drink","ar":"أُرِيد مَاء","rom":"urīd māʾ"}
+{"id":"ar.c0141","deck":"ar.d.food-and-drink","ar":"أُرِيد فِنْجَان قَهْوَة","rom":"urīd finjān qahwa"}
+{"id":"ar.c0142","deck":"ar.d.food-and-drink","ar":"مَاذَا تُرِيد؟","rom":"mādhā turīd?"}
+{"id":"ar.c0143","deck":"ar.d.food-and-drink","ar":"خُبْز","rom":"khubz"}
+{"id":"ar.c0144","deck":"ar.d.food-and-drink","ar":"حُمُّص","rom":"ḥummuṣ"}
+{"id":"ar.c0145","deck":"ar.d.food-and-drink","ar":"فَلَافِل","rom":"falāfil"}
+{"id":"ar.c0146","deck":"ar.d.food-and-drink","ar":"شَاوَرْمَا","rom":"shāwarmā"}
+{"id":"ar.c0147","deck":"ar.d.food-and-drink","ar":"تَمْر","rom":"tamr"}
+{"id":"ar.c0148","deck":"ar.d.food-and-drink","ar":"أَنَا جَائِع","rom":"anā jāʾiʿ"}
+{"id":"ar.c0149","deck":"ar.d.food-and-drink","ar":"أَنَا نَبَاتِيَّة","rom":"anā nabātiyya"}
+{"id":"ar.c0150","deck":"ar.d.food-and-drink","ar":"لَذِيذ","rom":"ladhīdh"}
+{"id":"ar.c0151","deck":"ar.d.food-and-drink","ar":"الطَّعَام لَذِيذ","rom":"aṭ-ṭaʿām ladhīdh"}
+{"id":"ar.c0152","deck":"ar.d.food-and-drink","ar":"الْحِسَاب مِن فَضْلِكَ","rom":"al-ḥisāb min faḍlika"}
+{"id":"ar.c0153","deck":"ar.d.home-and-things","ar":"عِنْدِي سَيَّارَة","rom":"ʿindī sayyāra"}
+{"id":"ar.c0154","deck":"ar.d.home-and-things","ar":"غُرْفَة","rom":"ghurfa"}
+{"id":"ar.c0155","deck":"ar.d.home-and-things","ar":"مِفْتَاح","rom":"miftāḥ"}
+{"id":"ar.c0156","deck":"ar.d.home-and-things","ar":"هَاتِف","rom":"hātif"}
+{"id":"ar.c0157","deck":"ar.d.home-and-things","ar":"الشَّقَّة جَمِيلَة","rom":"ash-shaqqa jamīla"}
+{"id":"ar.c0158","deck":"ar.d.home-and-things","ar":"الشَّقَّة الْجَدِيدَة","rom":"ash-shaqqa al-jadīda"}
+{"id":"ar.c0159","deck":"ar.d.home-and-things","ar":"مَطْبَخ","rom":"maṭbakh"}
+{"id":"ar.c0160","deck":"ar.d.home-and-things","ar":"حَمَّام","rom":"ḥammām"}
+{"id":"ar.c0161","deck":"ar.d.home-and-things","ar":"غُرْفَةْ النَّوْم","rom":"ghurfat an-nawm"}
+{"id":"ar.c0162","deck":"ar.d.home-and-things","ar":"طَاوِلَة","rom":"ṭāwila"}
+{"id":"ar.c0163","deck":"ar.d.home-and-things","ar":"كُرْسِيّ","rom":"kursī"}
+{"id":"ar.c0164","deck":"ar.d.home-and-things","ar":"سَرِير","rom":"sarīr"}
+{"id":"ar.c0165","deck":"ar.d.home-and-things","ar":"نَافِذَة","rom":"nāfidha"}
+{"id":"ar.c0166","deck":"ar.d.home-and-things","ar":"لَيْسَ عِنْدِي وَقْت","rom":"laysa ʿindī waqt"}
+{"id":"ar.c0167","deck":"ar.d.home-and-things","ar":"هَل عِنْدَكَ قَلَم؟","rom":"hal ʿindaka qalam?"}
+{"id":"ar.c0168","deck":"ar.d.home-and-things","ar":"عِنْدَهَا قِطَّة","rom":"ʿindahā qiṭṭa"}
+{"id":"ar.c0169","deck":"ar.d.home-and-things","ar":"أَيْنَ الْمِفْتَاح؟","rom":"ayna al-miftāḥ?"}
+{"id":"ar.c0170","deck":"ar.d.describing-things","ar":"كَبِير","rom":"kabīr"}
+{"id":"ar.c0171","deck":"ar.d.describing-things","ar":"صَغِيرَة","rom":"ṣaghīra"}
+{"id":"ar.c0172","deck":"ar.d.describing-things","ar":"جَمِيل جِدًّا","rom":"jamīl jiddan"}
+{"id":"ar.c0173","deck":"ar.d.describing-things","ar":"قَدِيم","rom":"qadīm"}
+{"id":"ar.c0174","deck":"ar.d.describing-things","ar":"رَخِيص","rom":"rakhīṣ"}
+{"id":"ar.c0175","deck":"ar.d.describing-things","ar":"جَدِيد","rom":"jadīd"}
+{"id":"ar.c0176","deck":"ar.d.describing-things","ar":"طَوِيل","rom":"ṭawīl"}
+{"id":"ar.c0177","deck":"ar.d.describing-things","ar":"قَصِيرَة","rom":"qaṣīra"}
+{"id":"ar.c0178","deck":"ar.d.describing-things","ar":"سَهْل","rom":"sahl"}
+{"id":"ar.c0179","deck":"ar.d.describing-things","ar":"صَعْبَة","rom":"ṣaʿba"}
+{"id":"ar.c0180","deck":"ar.d.describing-things","ar":"حَارّ","rom":"ḥārr"}
+{"id":"ar.c0181","deck":"ar.d.describing-things","ar":"بَارِد","rom":"bārid"}
+{"id":"ar.c0182","deck":"ar.d.describing-things","ar":"الْجَوّ جَمِيل","rom":"al-jaww jamīl"}
+{"id":"ar.c0183","deck":"ar.d.describing-things","ar":"هِيَ مَشْغُولَة","rom":"hiya mashghūla"}
+{"id":"ar.c0184","deck":"ar.d.describing-things","ar":"مَدِينَة جَمِيلَة","rom":"madīna jamīla"}
+{"id":"ar.c0185","deck":"ar.d.describing-things","ar":"الْمَدِينَة الْجَمِيلَة","rom":"al-madīna al-jamīla"}
+{"id":"ar.c0186","deck":"ar.d.describing-things","ar":"الْعَرَبِيَّة لَيْسَت صَعْبَة","rom":"al-ʿarabiyya laysat ṣaʿba"}
+{"id":"ar.c0187","deck":"ar.d.daily-routine","ar":"أَعْمَل فِي مَكْتَب","rom":"aʿmal fī maktab"}
+{"id":"ar.c0188","deck":"ar.d.daily-routine","ar":"أَشْرَب الْقَهْوَة كُلّ يَوْم","rom":"ashrab al-qahwa kull yawm"}
+{"id":"ar.c0189","deck":"ar.d.daily-routine","ar":"أَتَكَلَّم الْعَرَبِيَّة قَلِيلًا","rom":"atakallam al-ʿarabiyya qalīlan"}
+{"id":"ar.c0190","deck":"ar.d.daily-routine","ar":"أَسْتَيْقِظ مُبَكِّرًا","rom":"astayqiẓ mubakkiran"}
+{"id":"ar.c0191","deck":"ar.d.daily-routine","ar":"تَدْرُسِين","rom":"tadrusīn"}
+{"id":"ar.c0192","deck":"ar.d.daily-routine","ar":"آكُل الْفَطُور فِي الْبَيْت","rom":"ākul al-faṭūr fī al-bayt"}
+{"id":"ar.c0193","deck":"ar.d.daily-routine","ar":"أَذْهَب إِلَى الْعَمَل بِالسَّيَّارَة","rom":"adhhab ilā al-ʿamal bis-sayyāra"}
+{"id":"ar.c0194","deck":"ar.d.daily-routine","ar":"أَرْجِع إِلَى الْبَيْت","rom":"arjiʿ ilā al-bayt"}
+{"id":"ar.c0195","deck":"ar.d.daily-routine","ar":"أَطْبُخ الْعَشَاء","rom":"aṭbukh al-ʿashāʾ"}
+{"id":"ar.c0196","deck":"ar.d.daily-routine","ar":"أَقْرَأ الْجَرِيدَة","rom":"aqraʾ al-jarīda"}
+{"id":"ar.c0197","deck":"ar.d.daily-routine","ar":"أَنَام مُتَأَخِّرًا","rom":"anām mutaʾakhkhiran"}
+{"id":"ar.c0198","deck":"ar.d.daily-routine","ar":"أَكْتُب بِالْعَرَبِيَّة","rom":"aktub bil-ʿarabiyya"}
+{"id":"ar.c0199","deck":"ar.d.daily-routine","ar":"مَكْتَبَة","rom":"maktaba"}
+{"id":"ar.c0200","deck":"ar.d.daily-routine","ar":"كَاتِب","rom":"kātib"}
+{"id":"ar.c0201","deck":"ar.d.daily-routine","ar":"هِيَ تَعْمَل فِي مُسْتَشْفَى","rom":"hiya taʿmal fī mustashfā"}
+{"id":"ar.c0202","deck":"ar.d.daily-routine","ar":"هُم يَدْرُسُون فِي الْجَامِعَة","rom":"hum yadrusūn fī al-jāmiʿa"}
+{"id":"ar.c0203","deck":"ar.d.daily-routine","ar":"يَشْرَب أَحْمَد الشَّاي","rom":"yashrab aḥmad ash-shāy"}
+{"id":"ar.c0204","deck":"ar.d.time-and-days","ar":"الْيَوْم","rom":"al-yawm"}
+{"id":"ar.c0205","deck":"ar.d.time-and-days","ar":"غَدًا","rom":"ghadan"}
+{"id":"ar.c0206","deck":"ar.d.time-and-days","ar":"أَمْس","rom":"ams"}
+{"id":"ar.c0207","deck":"ar.d.time-and-days","ar":"يَوْم الْجُمُعَة","rom":"yawm al-jumuʿa"}
+{"id":"ar.c0208","deck":"ar.d.time-and-days","ar":"ذَهَبْتُ إِلَى السُّوق","rom":"dhahabtu ilā as-sūq"}
+{"id":"ar.c0209","deck":"ar.d.time-and-days","ar":"يَوْم السَّبْت","rom":"yawm as-sabt"}
+{"id":"ar.c0210","deck":"ar.d.time-and-days","ar":"يَوْم الْأَحَد","rom":"yawm al-aḥad"}
+{"id":"ar.c0211","deck":"ar.d.time-and-days","ar":"يَوْم الِاثْنَيْن","rom":"yawm al-ithnayn"}
+{"id":"ar.c0212","deck":"ar.d.time-and-days","ar":"دَائِمًا","rom":"dāʾiman"}
+{"id":"ar.c0213","deck":"ar.d.time-and-days","ar":"أَحْيَانًا","rom":"aḥyānan"}
+{"id":"ar.c0214","deck":"ar.d.time-and-days","ar":"صَبَاحًا","rom":"ṣabāḥan"}
+{"id":"ar.c0215","deck":"ar.d.time-and-days","ar":"فِي الْمَسَاء","rom":"fī al-masāʾ"}
+{"id":"ar.c0216","deck":"ar.d.time-and-days","ar":"الْأُسْبُوع الْمَاضِي","rom":"al-usbūʿ al-māḍī"}
+{"id":"ar.c0217","deck":"ar.d.time-and-days","ar":"الشَّهْر الْقَادِم","rom":"ash-shahr al-qādim"}
+{"id":"ar.c0218","deck":"ar.d.time-and-days","ar":"مَاذَا فَعَلْتَ أَمْس؟","rom":"mādhā faʿalta ams?"}
+{"id":"ar.c0219","deck":"ar.d.time-and-days","ar":"سَافَرَت إِلَى عَمَّان","rom":"sāfarat ilā ʿammān"}
+{"id":"ar.c0220","deck":"ar.d.time-and-days","ar":"أَكَلْنَا فِي مَطْعَم لُبْنَانِيّ","rom":"akalnā fī maṭʿam lubnānī"}
+{"id":"ar.c0221","deck":"ar.d.around-town-and-directions","ar":"أَيْنَ الْمَطْعَم؟","rom":"ayna al-maṭʿam?"}
+{"id":"ar.c0222","deck":"ar.d.around-town-and-directions","ar":"عَلَى الْيَمِين","rom":"ʿalā al-yamīn"}
+{"id":"ar.c0223","deck":"ar.d.around-town-and-directions","ar":"قَرِيب مِن هُنَا","rom":"qarīb min hunā"}
+{"id":"ar.c0224","deck":"ar.d.around-town-and-directions","ar":"لَوْ سَمَحْتِ","rom":"law samaḥti"}
+{"id":"ar.c0225","deck":"ar.d.around-town-and-directions","ar":"عَلَى طُول","rom":"ʿalā ṭūl"}
+{"id":"ar.c0226","deck":"ar.d.around-town-and-directions","ar":"لَوْ سَمَحْتَ","rom":"law samaḥta"}
+{"id":"ar.c0227","deck":"ar.d.around-town-and-directions","ar":"عَلَى الْيَسَار","rom":"ʿalā al-yasār"}
+{"id":"ar.c0228","deck":"ar.d.around-town-and-directions","ar":"بَعِيد عَن هُنَا","rom":"baʿīd ʿan hunā"}
+{"id":"ar.c0229","deck":"ar.d.around-town-and-directions","ar":"هُنَاكَ","rom":"hunāka"}
+{"id":"ar.c0230","deck":"ar.d.around-town-and-directions","ar":"الْبَنْك عَلَى الْيَسَار","rom":"al-bank ʿalā al-yasār"}
+{"id":"ar.c0231","deck":"ar.d.around-town-and-directions","ar":"أَيْنَ الصَّيْدَلِيَّة؟","rom":"ayna aṣ-ṣaydaliyya?"}
+{"id":"ar.c0232","deck":"ar.d.around-town-and-directions","ar":"كَيْفَ أَذْهَب إِلَى الْمَتْحَف؟","rom":"kayfa adhhab ilā al-matḥaf?"}
+{"id":"ar.c0233","deck":"ar.d.around-town-and-directions","ar":"بِجَانِب الْفُنْدُق","rom":"bijānib al-funduq"}
+{"id":"ar.c0234","deck":"ar.d.around-town-and-directions","ar":"أَمَام الْمَحَطَّة","rom":"amām al-maḥaṭṭa"}
+{"id":"ar.c0235","deck":"ar.d.around-town-and-directions","ar":"وَسَط الْمَدِينَة","rom":"wasaṭ al-madīna"}
+{"id":"ar.c0236","deck":"ar.d.around-town-and-directions","ar":"لَا أَفْهَم","rom":"lā afham"}
+{"id":"ar.c0237","deck":"ar.d.around-town-and-directions","ar":"تَكَلَّم بِبُطْء مِن فَضْلِكَ","rom":"takallam bibuṭʾ min faḍlika"}
+{"id":"ar.c0238","deck":"ar.d.travel-and-help","ar":"مَحَطَّةْ الْقِطَار","rom":"maḥaṭṭat al-qiṭār"}
+{"id":"ar.c0239","deck":"ar.d.travel-and-help","ar":"جَوَاز السَّفَر","rom":"jawāz as-safar"}
+{"id":"ar.c0240","deck":"ar.d.travel-and-help","ar":"الْمَطَار","rom":"al-maṭār"}
+{"id":"ar.c0241","deck":"ar.d.travel-and-help","ar":"فُنْدُق","rom":"funduq"}
+{"id":"ar.c0242","deck":"ar.d.travel-and-help","ar":"هَل تَتَكَلَّم الْإِنْجِلِيزِيَّة؟","rom":"hal tatakallam al-injilīziyya?"}
+{"id":"ar.c0243","deck":"ar.d.travel-and-help","ar":"تَذْكِرَةْ الْقِطَار","rom":"tadhkirat al-qiṭār"}
+{"id":"ar.c0244","deck":"ar.d.travel-and-help","ar":"سَيَّارَةْ أُجْرَة","rom":"sayyārat ujra"}
+{"id":"ar.c0245","deck":"ar.d.travel-and-help","ar":"الْحَافِلَة","rom":"al-ḥāfila"}
+{"id":"ar.c0246","deck":"ar.d.travel-and-help","ar":"الطَّائِرَة","rom":"aṭ-ṭāʾira"}
+{"id":"ar.c0247","deck":"ar.d.travel-and-help","ar":"حَقِيبَة","rom":"ḥaqība"}
+{"id":"ar.c0248","deck":"ar.d.travel-and-help","ar":"عِنْدِي حَجْز","rom":"ʿindī ḥajz"}
+{"id":"ar.c0249","deck":"ar.d.travel-and-help","ar":"مِفْتَاح الْغُرْفَة","rom":"miftāḥ al-ghurfa"}
+{"id":"ar.c0250","deck":"ar.d.travel-and-help","ar":"مَكْتَب الِاسْتِقْبَال","rom":"maktab al-istiqbāl"}
+{"id":"ar.c0251","deck":"ar.d.travel-and-help","ar":"بِكَم التَّذْكِرَة؟","rom":"bikam at-tadhkira?"}
+{"id":"ar.c0252","deck":"ar.d.travel-and-help","ar":"هَل يُمْكِن أَن تُسَاعِدَنِي؟","rom":"hal yumkin an tusāʿidanī?"}
+{"id":"ar.c0253","deck":"ar.d.travel-and-help","ar":"أَحْتَاج إِلَى طَبِيب","rom":"aḥtāj ilā ṭabīb"}
+{"id":"ar.c0254","deck":"ar.d.travel-and-help","ar":"اِتَّصِل بِالشُّرْطَة","rom":"ittaṣil bish-shurṭa"}
+{"id":"ar.c0255","deck":"ar.d.travel-and-help","ar":"رِحْلَة سَعِيدَة","rom":"riḥla saʿīda"}
+{"id":"ar.c0256","deck":"ar.d.spoken-arabic","ar":"مَاذَا","rom":"mādhā"}
+{"id":"ar.c0257","deck":"ar.d.spoken-arabic","ar":"أُرِيد","rom":"urīd"}
+{"id":"ar.c0258","deck":"ar.d.spoken-arabic","ar":"جَيِّد","rom":"jayyid"}
+{"id":"ar.c0259","deck":"ar.d.spoken-arabic","ar":"لِمَاذَا","rom":"limādhā"}
+{"id":"ar.c0260","deck":"ar.d.spoken-arabic","ar":"نَعَم","rom":"naʿam"}
+{"id":"ar.c0261","deck":"ar.d.spoken-arabic","ar":"مَا","rom":"mā"}
+{"id":"ar.c0262","deck":"ar.d.spoken-arabic","ar":"مَن","rom":"man"}
+{"id":"ar.c0263","deck":"ar.d.spoken-arabic","ar":"أَيْنَ","rom":"ayna"}
+{"id":"ar.c0264","deck":"ar.d.spoken-arabic","ar":"كَيْفَ","rom":"kayfa"}
+{"id":"ar.c0265","deck":"ar.d.spoken-arabic","ar":"مَتَى","rom":"matā"}
+{"id":"ar.c0266","deck":"ar.d.spoken-arabic","ar":"كَم","rom":"kam"}
+{"id":"ar.c0267","deck":"ar.d.spoken-arabic","ar":"بِكَم","rom":"bikam"}
+{"id":"ar.c0268","deck":"ar.d.spoken-arabic","ar":"هَل","rom":"hal"}
+{"id":"ar.c0269","deck":"ar.d.spoken-arabic","ar":"الْآن","rom":"al-ān"}
+{"id":"ar.c0270","deck":"ar.d.spoken-arabic","ar":"يُوجَد","rom":"yūjad"}
+{"id":"ar.c0271","deck":"ar.d.spoken-arabic","ar":"لَيْسَ","rom":"laysa"}
+{"id":"ar.c0272","deck":"ar.d.spoken-arabic","ar":"هُنَا","rom":"hunā"}
+{"id":"ar.c0273","deck":"ar.d.spoken-arabic","ar":"حَسَنًا","rom":"ḥasanan"}
+{"id":"ar.c0274","deck":"ar.d.traps-for-english-speakers","ar":"بِخَيْر","rom":"bikhayr"}
+{"id":"ar.c0275","deck":"ar.d.traps-for-english-speakers","ar":"عَفْوًا","rom":"ʿafwan"}
+{"id":"ar.c0276","deck":"ar.d.traps-for-english-speakers","ar":"إِن شَاءَ اللّٰه","rom":"in shāʾa llāh"}
+{"id":"ar.c0277","deck":"ar.d.traps-for-english-speakers","ar":"أَنَا آسِفَة","rom":"anā āsifa"}
+{"id":"ar.c0278","deck":"ar.d.traps-for-english-speakers","ar":"لَا أَعْرِف","rom":"lā aʿrif"}
+{"id":"ar.c0279","deck":"ar.d.traps-for-english-speakers","ar":"مَا شَاءَ اللّٰه","rom":"mā shāʾa llāh"}
+{"id":"ar.c0280","deck":"ar.d.traps-for-english-speakers","ar":"تَفَضَّل","rom":"tafaḍḍal"}
+{"id":"ar.c0281","deck":"ar.d.traps-for-english-speakers","ar":"لَا شُكْرًا","rom":"lā shukran"}
+{"id":"ar.c0282","deck":"ar.d.traps-for-english-speakers","ar":"دُكْتُور","rom":"duktūr"}
+{"id":"ar.c0283","deck":"ar.d.traps-for-english-speakers","ar":"أُسْتَاذ","rom":"ustādh"}
+{"id":"ar.c0284","deck":"ar.d.traps-for-english-speakers","ar":"عِنْدِي سُؤَال","rom":"ʿindī suʾāl"}
+{"id":"ar.c0285","deck":"ar.d.traps-for-english-speakers","ar":"أُحِبّ الْمُوسِيقَى","rom":"uḥibb al-mūsīqā"}
+{"id":"ar.c0286","deck":"ar.d.traps-for-english-speakers","ar":"لَا أَتَكَلَّم الْفَرَنْسِيَّة","rom":"lā atakallam al-faransiyya"}
+{"id":"ar.c0287","deck":"ar.d.traps-for-english-speakers","ar":"هُوَ لَيْسَ هُنَا","rom":"huwa laysa hunā"}
+{"id":"ar.c0288","deck":"ar.d.traps-for-english-speakers","ar":"الْغُرْفَة لَيْسَت نَظِيفَة","rom":"al-ghurfa laysat naẓīfa"}
+{"id":"ar.c0289","deck":"ar.d.traps-for-english-speakers","ar":"أَنَا فِي الْبَيْت","rom":"anā fī al-bayt"}
+{"id":"ar.c0290","deck":"ar.d.traps-for-english-speakers","ar":"عُمْرِي عِشْرُون سَنَة","rom":"ʿumrī ʿishrūn sana"}
+{"id":"ar.c0291","deck":"ar.d.traps-for-english-speakers","ar":"يَعْنِي","rom":"yaʿnī"}
+{"id":"ar.c0292","deck":"ar.d.compliments","ar":"هٰذَا لَذِيذ جِدًّا","rom":"hādhā ladhīdh jiddan"}
+{"id":"ar.c0293","deck":"ar.d.compliments","ar":"سَلِمَت يَدَاكِ","rom":"salimat yadāki"}
+{"id":"ar.c0294","deck":"ar.d.compliments","ar":"سَلِمَت يَدَاكَ","rom":"salimat yadāka"}
+{"id":"ar.c0295","deck":"ar.d.compliments","ar":"أَكْلُكِ رَائِع","rom":"akluki rāʾiʿ"}
+{"id":"ar.c0296","deck":"ar.d.compliments","ar":"سُفْرَة دَائِمَة","rom":"sufra dāʾima"}
+{"id":"ar.c0297","deck":"ar.d.compliments","ar":"بِالْهَنَاء وَالشِّفَاء","rom":"bil-hanāʾ wash-shifāʾ"}
+{"id":"ar.c0298","deck":"ar.d.compliments","ar":"بَيْتُكُم جَمِيل جِدًّا","rom":"baytukum jamīl jiddan"}
+{"id":"ar.c0299","deck":"ar.d.compliments","ar":"أَحْسَنْتَ","rom":"aḥsanta"}
+{"id":"ar.c0300","deck":"ar.d.compliments","ar":"أَحْسَنْتِ","rom":"aḥsanti"}
+{"id":"ar.c0301","deck":"ar.d.compliments","ar":"مُمْتَاز!","rom":"mumtāz!"}
+{"id":"ar.c0302","deck":"ar.d.compliments","ar":"فِكْرَة رَائِعَة!","rom":"fikra rāʾiʿa!"}
+{"id":"ar.c0303","deck":"ar.d.compliments","ar":"عَمَل رَائِع","rom":"ʿamal rāʾiʿ"}
+{"id":"ar.c0304","deck":"ar.d.compliments","ar":"أَنْتَ مَاهِر جِدًّا فِي هٰذَا","rom":"anta māhir jiddan fī hādhā"}
+{"id":"ar.c0305","deck":"ar.d.compliments","ar":"أَنْتَ مُجْتَهِد جِدًّا","rom":"anta mujtahid jiddan"}
+{"id":"ar.c0306","deck":"ar.d.compliments","ar":"اللّٰه يُعْطِيكَ الْعَافِيَة","rom":"allāh yuʿṭīka al-ʿāfiya"}
+{"id":"ar.c0307","deck":"ar.d.compliments","ar":"اللّٰه يُعَافِيكَ","rom":"allāh yuʿāfīka"}
+{"id":"ar.c0308","deck":"ar.d.compliments","ar":"أَنْتَ طَيِّب جِدًّا","rom":"anta ṭayyib jiddan"}
+{"id":"ar.c0309","deck":"ar.d.compliments","ar":"دَمُكَ خَفِيف","rom":"damuka khafīf"}
+{"id":"ar.c0310","deck":"ar.d.compliments","ar":"أَنْتِ ذَكِيَّة جِدًّا","rom":"anti dhakiyya jiddan"}
+{"id":"ar.c0311","deck":"ar.d.compliments","ar":"اللَّوْن يَلِيق بِكِ","rom":"al-lawn yalīq biki"}
+{"id":"ar.c0312","deck":"ar.d.compliments","ar":"نَعِيمًا","rom":"naʿīman"}
+{"id":"ar.c0313","deck":"ar.d.compliments","ar":"صُورَة جَمِيلَة!","rom":"ṣūra jamīla!"}
+{"id":"ar.c0314","deck":"ar.d.compliments","ar":"مَا شَاءَ اللّٰه عَلَيْهِ","rom":"mā shāʾa llāh ʿalayhi"}
+{"id":"ar.c0315","deck":"ar.d.compliments","ar":"اللّٰه يَحْفَظُهُم","rom":"allāh yaḥfaẓuhum"}
+{"id":"ar.c0316","deck":"ar.d.compliments","ar":"عَرَبِيَّتُكَ مُمْتَازَة","rom":"ʿarabiyyatuka mumtāza"}
+{"id":"ar.c0317","deck":"ar.d.compliments","ar":"تَتَكَلَّم الْعَرَبِيَّة جَيِّدًا","rom":"tatakallam al-ʿarabiyya jayyidan"}
+{"id":"ar.c0318","deck":"ar.d.compliments","ar":"أَيْنَ تَعَلَّمْتَ الْعَرَبِيَّة؟","rom":"ayna taʿallamta al-ʿarabiyya?"}
+{"id":"ar.c0319","deck":"ar.d.compliments","ar":"شُكْرًا، هٰذَا لُطْف مِنْكَ","rom":"shukran, hādhā luṭf minka"}
+{"id":"ar.c0320","deck":"ar.d.compliments","ar":"مَا زِلْتُ أَتَعَلَّم","rom":"mā ziltu ataʿallam"}
+{"id":"ar.c0321","deck":"ar.d.compliments","ar":"أَنْتَ تُجَامِلُنِي","rom":"anta tujāmilunī"}
+{"id":"ar.c0322","deck":"ar.d.compliments","ar":"بَارَكَ اللّٰه فِيكَ","rom":"bāraka llāh fīka"}
+{"id":"ar.c0323","deck":"ar.d.flirting","ar":"جَمِيل","rom":"jamīl"}
+{"id":"ar.c0324","deck":"ar.d.flirting","ar":"حُلْو","rom":"ḥulw"}
+{"id":"ar.c0325","deck":"ar.d.flirting","ar":"وَسِيم","rom":"wasīm"}
+{"id":"ar.c0326","deck":"ar.d.flirting","ar":"أَنِيق","rom":"anīq"}
+{"id":"ar.c0327","deck":"ar.d.flirting","ar":"لَطِيف","rom":"laṭīf"}
+{"id":"ar.c0328","deck":"ar.d.flirting","ar":"ظَرِيف","rom":"ẓarīf"}
+{"id":"ar.c0329","deck":"ar.d.flirting","ar":"ذَكِيّ","rom":"dhakī"}
+{"id":"ar.c0330","deck":"ar.d.flirting","ar":"رَقِيق","rom":"raqīq"}
+{"id":"ar.c0331","deck":"ar.d.flirting","ar":"جَذَّاب","rom":"jadhdhāb"}
+{"id":"ar.c0332","deck":"ar.d.flirting","ar":"سَاحِر","rom":"sāḥir"}
+{"id":"ar.c0333","deck":"ar.d.flirting","ar":"مُمَيَّز","rom":"mumayyaz"}
+{"id":"ar.c0334","deck":"ar.d.flirting","ar":"خَلُوق","rom":"khalūq"}
+{"id":"ar.c0335","deck":"ar.d.flirting","ar":"خَجُول","rom":"khajūl"}
+{"id":"ar.c0336","deck":"ar.d.flirting","ar":"اِبْتِسَامَة","rom":"ibtisāma"}
+{"id":"ar.c0337","deck":"ar.d.flirting","ar":"عُيُون","rom":"ʿuyūn"}
+{"id":"ar.c0338","deck":"ar.d.flirting","ar":"ضِحْكَة","rom":"ḍiḥka"}
+{"id":"ar.c0339","deck":"ar.d.flirting","ar":"صَوْت","rom":"ṣawt"}
+{"id":"ar.c0340","deck":"ar.d.flirting","ar":"شَعْر","rom":"shaʿr"}
+{"id":"ar.c0341","deck":"ar.d.flirting","ar":"ذَوْق","rom":"dhawq"}
+{"id":"ar.c0342","deck":"ar.d.flirting","ar":"رُوح","rom":"rūḥ"}
+{"id":"ar.c0343","deck":"ar.d.flirting","ar":"مَوْعِد","rom":"mawʿid"}
+{"id":"ar.c0344","deck":"ar.d.flirting","ar":"أَنْتِ جَمِيلَة","rom":"anti jamīla"}
+{"id":"ar.c0345","deck":"ar.d.flirting","ar":"تَبْدِين جَمِيلَة اللَّيْلَة","rom":"tabdīn jamīla al-layla"}
+{"id":"ar.c0346","deck":"ar.d.flirting","ar":"مَا أَجْمَلَكِ","rom":"mā ajmalaki"}
+{"id":"ar.c0347","deck":"ar.d.flirting","ar":"رُوحُكِ حُلْوَة","rom":"rūḥuki ḥulwa"}
+{"id":"ar.c0348","deck":"ar.d.flirting","ar":"صَوْتُكِ حُلْو","rom":"ṣawtuki ḥulw"}
+{"id":"ar.c0349","deck":"ar.d.flirting","ar":"كَلَامُكَ حُلْو","rom":"kalāmuka ḥulw"}
+{"id":"ar.c0350","deck":"ar.d.flirting","ar":"أَنْتَ وَسِيم","rom":"anta wasīm"}
+{"id":"ar.c0351","deck":"ar.d.flirting","ar":"تَبْدُو أَنِيقًا الْيَوْم","rom":"tabdū anīqan al-yawm"}
+{"id":"ar.c0352","deck":"ar.d.flirting","ar":"ذَوْقُكِ رَائِع","rom":"dhawquki rāʾiʿ"}
+{"id":"ar.c0353","deck":"ar.d.flirting","ar":"أَنْتَ لَطِيف جِدًّا","rom":"anta laṭīf jiddan"}
+{"id":"ar.c0354","deck":"ar.d.flirting","ar":"أَنْتِ تُضْحِكِينَنِي","rom":"anti tuḍḥikīnanī"}
+{"id":"ar.c0355","deck":"ar.d.flirting","ar":"ضِحْكَتُكِ جَمِيلَة","rom":"ḍiḥkatuki jamīla"}
+{"id":"ar.c0356","deck":"ar.d.flirting","ar":"أَنْتِ ذَكِيَّة وَجَمِيلَة","rom":"anti dhakiyya wajamīla"}
+{"id":"ar.c0357","deck":"ar.d.flirting","ar":"أَنْتِ إِنْسَانَة مُمَيَّزَة","rom":"anti insāna mumayyaza"}
+{"id":"ar.c0358","deck":"ar.d.flirting","ar":"أَنْتَ إِنْسَان خَلُوق","rom":"anta insān khalūq"}
+{"id":"ar.c0359","deck":"ar.d.flirting","ar":"اِبْتِسَامَتُكِ جَمِيلَة","rom":"ibtisāmatuki jamīla"}
+{"id":"ar.c0360","deck":"ar.d.flirting","ar":"اِبْتِسَامَتُكَ جَمِيلَة","rom":"ibtisāmatuka jamīla"}
+{"id":"ar.c0361","deck":"ar.d.flirting","ar":"عُيُونُكِ جَمِيلَة","rom":"ʿuyūnuki jamīla"}
+{"id":"ar.c0362","deck":"ar.d.flirting","ar":"شَعْرُكِ جَمِيل","rom":"shaʿruki jamīl"}
+{"id":"ar.c0363","deck":"ar.d.flirting","ar":"مَا شَاءَ اللّٰه عَلَيْكِ","rom":"mā shāʾa llāh ʿalayki"}
+{"id":"ar.c0364","deck":"ar.d.flirting","ar":"مَا شَاءَ اللّٰه عَلَيْكَ","rom":"mā shāʾa llāh ʿalayka"}
+{"id":"ar.c0365","deck":"ar.d.flirting","ar":"تَبَارَكَ اللّٰه","rom":"tabāraka llāh"}
+{"id":"ar.c0366","deck":"ar.d.flirting","ar":"اللّٰه يَحْفَظُكِ","rom":"allāh yaḥfaẓuki"}
+{"id":"ar.c0367","deck":"ar.d.flirting","ar":"أُحِبّ الْحَدِيث مَعَكِ","rom":"uḥibb al-ḥadīth maʿaki"}
+{"id":"ar.c0368","deck":"ar.d.flirting","ar":"الْوَقْت مَعَكِ يَمُرّ بِسُرْعَة","rom":"al-waqt maʿaki yamurr bisurʿa"}
+{"id":"ar.c0369","deck":"ar.d.flirting","ar":"أُرِيد أَن أَتَعَرَّف عَلَيْكِ أَكْثَر","rom":"urīd an ataʿarraf ʿalayki akthar"}
+{"id":"ar.c0370","deck":"ar.d.flirting","ar":"هَل تَشْرَبِين قَهْوَة مَعِي؟","rom":"hal tashrabīn qahwa maʿī?"}
+{"id":"ar.c0371","deck":"ar.d.flirting","ar":"هَل أَنْتِ مَشْغُولَة يَوْم الْجُمُعَة؟","rom":"hal anti mashghūla yawm al-jumuʿa?"}
+{"id":"ar.c0372","deck":"ar.d.flirting","ar":"هَل يُمْكِن أَن نَلْتَقِي مَرَّة أُخْرَى؟","rom":"hal yumkin an naltaqī marra ukhrā?"}
+{"id":"ar.c0373","deck":"ar.d.flirting","ar":"أَنْتِ تُعْجِبِينَنِي","rom":"anti tuʿjibīnanī"}
+{"id":"ar.c0374","deck":"ar.d.flirting","ar":"أَنْتَ تُعْجِبُنِي","rom":"anta tuʿjibunī"}
+{"id":"ar.c0375","deck":"ar.d.flirting","ar":"اِشْتَقْتُ إِلَيْكِ","rom":"ishtaqtu ilayki"}
+{"id":"ar.c0376","deck":"ar.d.flirting","ar":"أُفَكِّر فِيكِ كَثِيرًا","rom":"ufakkir fīki kathīran"}
+{"id":"ar.c0377","deck":"ar.d.flirting","ar":"نِيَّتِي جَادَّة","rom":"niyyatī jādda"}
+{"id":"ar.c0378","deck":"ar.d.flirting","ar":"بِكُلّ سُرُور","rom":"bikull surūr"}
+{"id":"ar.c0379","deck":"ar.d.flirting","ar":"نَعَم، يُسْعِدُنِي ذٰلِكَ","rom":"naʿam, yusʿidunī dhālika"}
+{"id":"ar.c0380","deck":"ar.d.flirting","ar":"تَقُول هٰذَا لِكُلّ الْبَنَات","rom":"taqūl hādhā likull al-banāt"}
+{"id":"ar.c0381","deck":"ar.d.flirting","ar":"وَأَنْتَ أَيْضًا","rom":"waʾanta ayḍan"}
+{"id":"ar.c0382","deck":"ar.d.flirting","ar":"رُبَّمَا فِي وَقْت آخَر","rom":"rubbamā fī waqt ākhar"}
+{"id":"ar.c0383","deck":"ar.d.flirting","ar":"أُفَضِّل أَن نَبْقَى أَصْدِقَاء","rom":"ufaḍḍil an nabqā aṣdiqāʾ"}
+{"id":"ar.c0384","deck":"ar.d.flirting","ar":"شُكْرًا، لٰكِنِّي مُرْتَبِطَة","rom":"shukran, lākinnī murtabiṭa"}
+{"id":"ar.c0385","deck":"ar.d.flirting","ar":"عُذْرًا، لَسْتُ مُهْتَمَّة","rom":"ʿudhran, lastu muhtamma"}
+{"id":"ar.c0386","deck":"ar.d.flirting","ar":"أَنَا مُتَزَوِّجَة","rom":"anā mutazawwija"}
+{"id":"ar.c0387","deck":"ar.d.flirting","ar":"مِن فَضْلِكَ، تَوَقَّف","rom":"min faḍlika, tawaqqaf"}
+{"id":"ar.c0388","deck":"ar.d.top-nouns","ar":"شَيْء","rom":"shayʾ"}
+{"id":"ar.c0389","deck":"ar.d.top-nouns","ar":"أَمْر","rom":"amr"}
+{"id":"ar.c0390","deck":"ar.d.top-nouns","ar":"وَقْت","rom":"waqt"}
+{"id":"ar.c0391","deck":"ar.d.top-nouns","ar":"شَخْص","rom":"shakhṣ"}
+{"id":"ar.c0392","deck":"ar.d.top-nouns","ar":"مَرَّة","rom":"marra"}
+{"id":"ar.c0393","deck":"ar.d.top-nouns","ar":"نَاس","rom":"nās"}
+{"id":"ar.c0394","deck":"ar.d.top-nouns","ar":"مَكَان","rom":"makān"}
+{"id":"ar.c0395","deck":"ar.d.top-nouns","ar":"عَمَل","rom":"ʿamal"}
+{"id":"ar.c0396","deck":"ar.d.top-nouns","ar":"لَيْلَة","rom":"layla"}
+{"id":"ar.c0397","deck":"ar.d.top-nouns","ar":"عَالَم","rom":"ʿālam"}
+{"id":"ar.c0398","deck":"ar.d.top-nouns","ar":"فِكْرَة","rom":"fikra"}
+{"id":"ar.c0399","deck":"ar.d.top-nouns","ar":"أُمّ","rom":"umm"}
+{"id":"ar.c0400","deck":"ar.d.top-nouns","ar":"طَرِيق","rom":"ṭarīq"}
+{"id":"ar.c0401","deck":"ar.d.top-nouns","ar":"مُشْكِلَة","rom":"mushkila"}
+{"id":"ar.c0402","deck":"ar.d.top-nouns","ar":"سَبَب","rom":"sabab"}
+{"id":"ar.c0403","deck":"ar.d.top-nouns","ar":"بَاب","rom":"bāb"}
+{"id":"ar.c0404","deck":"ar.d.top-nouns","ar":"سَيَّارَة","rom":"sayyāra"}
+{"id":"ar.c0405","deck":"ar.d.top-nouns","ar":"مَدِينَة","rom":"madīna"}
+{"id":"ar.c0406","deck":"ar.d.top-nouns","ar":"أَرْض","rom":"arḍ"}
+{"id":"ar.c0407","deck":"ar.d.top-nouns","ar":"دَقِيقَة","rom":"daqīqa"}
+{"id":"ar.c0408","deck":"ar.d.top-nouns","ar":"عِيد","rom":"ʿīd"}
+{"id":"ar.c0409","deck":"ar.d.top-nouns","ar":"سَاعَة","rom":"sāʿa"}
+{"id":"ar.c0410","deck":"ar.d.top-nouns","ar":"رَقْم","rom":"raqm"}
+{"id":"ar.c0411","deck":"ar.d.top-nouns","ar":"صَبَاح","rom":"ṣabāḥ"}
+{"id":"ar.c0412","deck":"ar.d.top-nouns","ar":"مَدْرَسَة","rom":"madrasa"}
+{"id":"ar.c0413","deck":"ar.d.top-nouns","ar":"سَنَة","rom":"sana"}
+{"id":"ar.c0414","deck":"ar.d.top-nouns","ar":"حُبّ","rom":"ḥubb"}
+{"id":"ar.c0415","deck":"ar.d.top-nouns","ar":"طِفْل","rom":"ṭifl"}
+{"id":"ar.c0416","deck":"ar.d.top-nouns","ar":"طَعَام","rom":"ṭaʿām"}
+{"id":"ar.c0417","deck":"ar.d.top-nouns","ar":"نِصْف","rom":"niṣf"}
+{"id":"ar.c0418","deck":"ar.d.top-nouns","ar":"مَاء","rom":"māʾ"}
+{"id":"ar.c0419","deck":"ar.d.top-nouns","ar":"حَقّ","rom":"ḥaqq"}
+{"id":"ar.c0420","deck":"ar.d.top-nouns","ar":"صَدِيق","rom":"ṣadīq"}
+{"id":"ar.c0421","deck":"ar.d.top-nouns","ar":"جَوّ","rom":"jaww"}
+{"id":"ar.c0422","deck":"ar.d.top-nouns","ar":"كَلِمَة","rom":"kalima"}
+{"id":"ar.c0423","deck":"ar.d.top-nouns","ar":"أُسْبُوع","rom":"usbūʿ"}
+{"id":"ar.c0424","deck":"ar.d.top-nouns","ar":"عَائِلَة","rom":"ʿāʾila"}
+{"id":"ar.c0425","deck":"ar.d.top-nouns","ar":"طَبِيب","rom":"ṭabīb"}
+{"id":"ar.c0426","deck":"ar.d.top-nouns","ar":"رِسَالَة","rom":"risāla"}
+{"id":"ar.c0427","deck":"ar.d.top-nouns","ar":"مَوْضُوع","rom":"mawḍūʿ"}
+{"id":"ar.c0428","deck":"ar.d.top-nouns","ar":"اِسْم","rom":"ism"}
+{"id":"ar.c0429","deck":"ar.d.top-nouns","ar":"قِصَّة","rom":"qiṣṣa"}
+{"id":"ar.c0430","deck":"ar.d.top-nouns","ar":"صُورَة","rom":"ṣūra"}
+{"id":"ar.c0431","deck":"ar.d.top-nouns","ar":"اِبْن","rom":"ibn"}
+{"id":"ar.c0432","deck":"ar.d.top-nouns","ar":"حَظّ","rom":"ḥaẓẓ"}
+{"id":"ar.c0433","deck":"ar.d.top-nouns","ar":"سَمَاء","rom":"samāʾ"}
+{"id":"ar.c0434","deck":"ar.d.top-nouns","ar":"جَانِب","rom":"jānib"}
+{"id":"ar.c0435","deck":"ar.d.top-nouns","ar":"مُسْتَشْفَى","rom":"mustashfā"}
+{"id":"ar.c0436","deck":"ar.d.top-nouns","ar":"شَارِع","rom":"shāriʿ"}
+{"id":"ar.c0437","deck":"ar.d.top-nouns","ar":"كِتَاب","rom":"kitāb"}
+{"id":"ar.c0438","deck":"ar.d.top-nouns","ar":"وَجْه","rom":"wajh"}
+{"id":"ar.c0439","deck":"ar.d.top-nouns","ar":"شَهْر","rom":"shahr"}
+{"id":"ar.c0440","deck":"ar.d.top-nouns","ar":"مَسَاء","rom":"masāʾ"}
+{"id":"ar.c0441","deck":"ar.d.top-nouns","ar":"قَهْوَة","rom":"qahwa"}
+{"id":"ar.c0442","deck":"ar.d.top-nouns","ar":"بَحْر","rom":"baḥr"}
+{"id":"ar.c0443","deck":"ar.d.top-nouns","ar":"وَلَد","rom":"walad"}
+{"id":"ar.c0444","deck":"ar.d.top-nouns","ar":"هَدِيَّة","rom":"hadiyya"}
+{"id":"ar.c0445","deck":"ar.d.top-nouns","ar":"أَب","rom":"ab"}
+{"id":"ar.c0446","deck":"ar.d.top-nouns","ar":"رَأْس","rom":"raʾs"}
+{"id":"ar.c0447","deck":"ar.d.top-nouns","ar":"قِطَار","rom":"qiṭār"}
+{"id":"ar.c0448","deck":"ar.d.top-nouns","ar":"يَد","rom":"yad"}
+{"id":"ar.c0449","deck":"ar.d.top-nouns","ar":"شَاي","rom":"shāy"}
+{"id":"ar.c0450","deck":"ar.d.top-nouns","ar":"جَامِعَة","rom":"jāmiʿa"}
+{"id":"ar.c0451","deck":"ar.d.top-nouns","ar":"مَطْعَم","rom":"maṭʿam"}
+{"id":"ar.c0452","deck":"ar.d.top-nouns","ar":"لَوْن","rom":"lawn"}
+{"id":"ar.c0453","deck":"ar.d.top-nouns","ar":"سُوق","rom":"sūq"}
+{"id":"ar.c0454","deck":"ar.d.top-nouns","ar":"خَبَر","rom":"khabar"}
+{"id":"ar.c0455","deck":"ar.d.top-nouns","ar":"بَلَد","rom":"balad"}
+{"id":"ar.c0456","deck":"ar.d.top-nouns","ar":"جِسْم","rom":"jism"}
+{"id":"ar.c0457","deck":"ar.d.top-nouns","ar":"أَخ","rom":"akh"}
+{"id":"ar.c0458","deck":"ar.d.top-nouns","ar":"لُغَة","rom":"lugha"}
+{"id":"ar.c0459","deck":"ar.d.top-nouns","ar":"طَالِب","rom":"ṭālib"}
+{"id":"ar.c0460","deck":"ar.d.top-nouns","ar":"أُخْت","rom":"ukht"}
+{"id":"ar.c0461","deck":"ar.d.top-nouns","ar":"دَرْس","rom":"dars"}
+{"id":"ar.c0462","deck":"ar.d.top-nouns","ar":"صِحَّة","rom":"ṣiḥḥa"}
+{"id":"ar.c0463","deck":"ar.d.top-nouns","ar":"أَهْل","rom":"ahl"}
+{"id":"ar.c0464","deck":"ar.d.top-nouns","ar":"ضَيْف","rom":"ḍayf"}
+{"id":"ar.c0465","deck":"ar.d.top-nouns","ar":"جَار","rom":"jār"}
+{"id":"ar.c0466","deck":"ar.d.top-verbs","ar":"كَانَ","rom":"kāna"}
+{"id":"ar.c0467","deck":"ar.d.top-verbs","ar":"عَرَفَ","rom":"ʿarafa"}
+{"id":"ar.c0468","deck":"ar.d.top-verbs","ar":"أَرَادَ","rom":"arāda"}
+{"id":"ar.c0469","deck":"ar.d.top-verbs","ar":"اِسْتَطَاعَ","rom":"istaṭāʿa"}
+{"id":"ar.c0470","deck":"ar.d.top-verbs","ar":"حَدَثَ","rom":"ḥadatha"}
+{"id":"ar.c0471","deck":"ar.d.top-verbs","ar":"فَعَلَ","rom":"faʿala"}
+{"id":"ar.c0472","deck":"ar.d.top-verbs","ar":"قَالَ","rom":"qāla"}
+{"id":"ar.c0473","deck":"ar.d.top-verbs","ar":"ظَنَّ","rom":"ẓanna"}
+{"id":"ar.c0474","deck":"ar.d.top-verbs","ar":"عَمِلَ","rom":"ʿamila"}
+{"id":"ar.c0475","deck":"ar.d.top-verbs","ar":"بَدَأَ","rom":"badaʾa"}
+{"id":"ar.c0476","deck":"ar.d.top-verbs","ar":"نَظَرَ","rom":"naẓara"}
+{"id":"ar.c0477","deck":"ar.d.top-verbs","ar":"شَعَرَ","rom":"shaʿara"}
+{"id":"ar.c0478","deck":"ar.d.top-verbs","ar":"رَأَى","rom":"raʾā"}
+{"id":"ar.c0479","deck":"ar.d.top-verbs","ar":"ذَهَبَ","rom":"dhahaba"}
+{"id":"ar.c0480","deck":"ar.d.top-verbs","ar":"أَحَبَّ","rom":"aḥabba"}
+{"id":"ar.c0481","deck":"ar.d.top-verbs","ar":"اِنْتَظَرَ","rom":"intaẓara"}
+{"id":"ar.c0482","deck":"ar.d.top-verbs","ar":"اِحْتَاجَ","rom":"iḥtāja"}
+{"id":"ar.c0483","deck":"ar.d.top-verbs","ar":"قَامَ","rom":"qāma"}
+{"id":"ar.c0484","deck":"ar.d.top-verbs","ar":"حَاوَلَ","rom":"ḥāwala"}
+{"id":"ar.c0485","deck":"ar.d.top-verbs","ar":"تَمَنَّى","rom":"tamannā"}
+{"id":"ar.c0486","deck":"ar.d.top-verbs","ar":"فَهِمَ","rom":"fahima"}
+{"id":"ar.c0487","deck":"ar.d.top-verbs","ar":"تَعَلَّمَ","rom":"taʿallama"}
+{"id":"ar.c0488","deck":"ar.d.top-verbs","ar":"فَكَّرَ","rom":"fakkara"}
+{"id":"ar.c0489","deck":"ar.d.top-verbs","ar":"سَمِعَ","rom":"samiʿa"}
+{"id":"ar.c0490","deck":"ar.d.top-verbs","ar":"أَصْبَحَ","rom":"aṣbaḥa"}
+{"id":"ar.c0491","deck":"ar.d.top-verbs","ar":"وَضَعَ","rom":"waḍaʿa"}
+{"id":"ar.c0492","deck":"ar.d.top-verbs","ar":"أَخَذَ","rom":"akhadha"}
+{"id":"ar.c0493","deck":"ar.d.top-verbs","ar":"تَذَكَّرَ","rom":"tadhakkara"}
+{"id":"ar.c0494","deck":"ar.d.top-verbs","ar":"صَدَّقَ","rom":"ṣaddaqa"}
+{"id":"ar.c0495","deck":"ar.d.top-verbs","ar":"أَحْضَرَ","rom":"aḥḍara"}
+{"id":"ar.c0496","deck":"ar.d.top-verbs","ar":"خَرَجَ","rom":"kharaja"}
+{"id":"ar.c0497","deck":"ar.d.top-verbs","ar":"جَاءَ","rom":"jāʾa"}
+{"id":"ar.c0498","deck":"ar.d.top-verbs","ar":"تَرَكَ","rom":"taraka"}
+{"id":"ar.c0499","deck":"ar.d.top-verbs","ar":"اِتَّصَلَ","rom":"ittaṣala"}
+{"id":"ar.c0500","deck":"ar.d.top-verbs","ar":"بَحَثَ","rom":"baḥatha"}
+{"id":"ar.c0501","deck":"ar.d.top-verbs","ar":"كَرِهَ","rom":"kariha"}
+{"id":"ar.c0502","deck":"ar.d.top-verbs","ar":"وَجَدَ","rom":"wajada"}
+{"id":"ar.c0503","deck":"ar.d.top-verbs","ar":"عَاشَ","rom":"ʿāsha"}
+{"id":"ar.c0504","deck":"ar.d.top-verbs","ar":"وَصَلَ","rom":"waṣala"}
+{"id":"ar.c0505","deck":"ar.d.top-verbs","ar":"دَفَعَ","rom":"dafaʿa"}
+{"id":"ar.c0506","deck":"ar.d.top-verbs","ar":"بَقِيَ","rom":"baqiya"}
+{"id":"ar.c0507","deck":"ar.d.top-verbs","ar":"أَرْسَلَ","rom":"arsala"}
+{"id":"ar.c0508","deck":"ar.d.top-verbs","ar":"جَلَسَ","rom":"jalasa"}
+{"id":"ar.c0509","deck":"ar.d.top-verbs","ar":"دَخَلَ","rom":"dakhala"}
+{"id":"ar.c0510","deck":"ar.d.top-verbs","ar":"فَتَحَ","rom":"fataḥa"}
+{"id":"ar.c0511","deck":"ar.d.top-verbs","ar":"أَكَلَ","rom":"akala"}
+{"id":"ar.c0512","deck":"ar.d.top-verbs","ar":"كَتَبَ","rom":"kataba"}
+{"id":"ar.c0513","deck":"ar.d.top-verbs","ar":"أَغْلَقَ","rom":"aghlaqa"}
+{"id":"ar.c0514","deck":"ar.d.top-verbs","ar":"لَعِبَ","rom":"laʿiba"}
+{"id":"ar.c0515","deck":"ar.d.top-verbs","ar":"سَمَحَ","rom":"samaḥa"}
+{"id":"ar.c0516","deck":"ar.d.top-verbs","ar":"تَكَلَّمَ","rom":"takallama"}
+{"id":"ar.c0517","deck":"ar.d.top-verbs","ar":"سَاعَدَ","rom":"sāʿada"}
+{"id":"ar.c0518","deck":"ar.d.top-verbs","ar":"سَأَلَ","rom":"saʾala"}
+{"id":"ar.c0519","deck":"ar.d.top-verbs","ar":"نَسِيَ","rom":"nasiya"}
+{"id":"ar.c0520","deck":"ar.d.top-verbs","ar":"وَقَفَ","rom":"waqafa"}
+{"id":"ar.c0521","deck":"ar.d.top-verbs","ar":"قَابَلَ","rom":"qābala"}
+{"id":"ar.c0522","deck":"ar.d.top-verbs","ar":"اِسْتَيْقَظَ","rom":"istayqaẓa"}
+{"id":"ar.c0523","deck":"ar.d.top-verbs","ar":"شَرِبَ","rom":"shariba"}
+{"id":"ar.c0524","deck":"ar.d.top-verbs","ar":"نَامَ","rom":"nāma"}
+{"id":"ar.c0525","deck":"ar.d.top-verbs","ar":"ضَحِكَ","rom":"ḍaḥika"}
+{"id":"ar.c0526","deck":"ar.d.top-verbs","ar":"غَيَّرَ","rom":"ghayyara"}
+{"id":"ar.c0527","deck":"ar.d.top-verbs","ar":"قَرَأَ","rom":"qaraʾa"}
+{"id":"ar.c0528","deck":"ar.d.top-verbs","ar":"أَعْطَى","rom":"aʿṭā"}
+{"id":"ar.c0529","deck":"ar.d.top-verbs","ar":"شَكَرَ","rom":"shakara"}
+{"id":"ar.c0530","deck":"ar.d.top-verbs","ar":"رَجَعَ","rom":"rajaʿa"}
+{"id":"ar.c0531","deck":"ar.d.top-verbs","ar":"نَزَلَ","rom":"nazala"}
+{"id":"ar.c0532","deck":"ar.d.top-verbs","ar":"اِشْتَرَى","rom":"ishtarā"}
+{"id":"ar.c0533","deck":"ar.d.top-verbs","ar":"خَافَ","rom":"khāfa"}
+{"id":"ar.c0534","deck":"ar.d.top-verbs","ar":"اِخْتَارَ","rom":"ikhtāra"}
+{"id":"ar.c0535","deck":"ar.d.top-verbs","ar":"بَاعَ","rom":"bāʿa"}
+{"id":"ar.c0536","deck":"ar.d.top-verbs","ar":"بَكَى","rom":"bakā"}
+{"id":"ar.c0537","deck":"ar.d.top-verbs","ar":"مَشَى","rom":"mashā"}
+{"id":"ar.c0538","deck":"ar.d.top-verbs","ar":"أَجَابَ","rom":"ajāba"}
+{"id":"ar.c0539","deck":"ar.d.top-verbs","ar":"رَكِبَ","rom":"rakiba"}
+{"id":"ar.c0540","deck":"ar.d.top-verbs","ar":"اِسْتَعْمَلَ","rom":"istaʿmala"}
+{"id":"ar.c0541","deck":"ar.d.top-verbs","ar":"سَكَنَ","rom":"sakana"}
+{"id":"ar.c0542","deck":"ar.d.top-verbs","ar":"لَبِسَ","rom":"labisa"}
+{"id":"ar.c0543","deck":"ar.d.top-verbs","ar":"سَافَرَ","rom":"sāfara"}
+{"id":"ar.c0544","deck":"ar.d.top-verbs","ar":"طَبَخَ","rom":"ṭabakha"}
+{"id":"ar.c0545","deck":"ar.d.top-verbs","ar":"زَارَ","rom":"zāra"}
+{"id":"ar.c0546","deck":"ar.d.top-adjectives","ar":"صَحِيح","rom":"ṣaḥīḥ"}
+{"id":"ar.c0547","deck":"ar.d.top-adjectives","ar":"آخِر","rom":"ākhir"}
+{"id":"ar.c0548","deck":"ar.d.top-adjectives","ar":"آخَر","rom":"ākhar"}
+{"id":"ar.c0549","deck":"ar.d.top-adjectives","ar":"كَثِير","rom":"kathīr"}
+{"id":"ar.c0550","deck":"ar.d.top-adjectives","ar":"رَائِع","rom":"rāʾiʿ"}
+{"id":"ar.c0551","deck":"ar.d.top-adjectives","ar":"وَحِيد","rom":"waḥīd"}
+{"id":"ar.c0552","deck":"ar.d.top-adjectives","ar":"خَاصّ","rom":"khāṣṣ"}
+{"id":"ar.c0553","deck":"ar.d.top-adjectives","ar":"سَعِيد","rom":"saʿīd"}
+{"id":"ar.c0554","deck":"ar.d.top-adjectives","ar":"عَظِيم","rom":"ʿaẓīm"}
+{"id":"ar.c0555","deck":"ar.d.top-adjectives","ar":"أَوَّل","rom":"awwal"}
+{"id":"ar.c0556","deck":"ar.d.top-adjectives","ar":"مُمْكِن","rom":"mumkin"}
+{"id":"ar.c0557","deck":"ar.d.top-adjectives","ar":"وَاضِح","rom":"wāḍiḥ"}
+{"id":"ar.c0558","deck":"ar.d.top-adjectives","ar":"مُسْتَحِيل","rom":"mustaḥīl"}
+{"id":"ar.c0559","deck":"ar.d.top-adjectives","ar":"قَلِيل","rom":"qalīl"}
+{"id":"ar.c0560","deck":"ar.d.top-adjectives","ar":"مُهِمّ","rom":"muhimm"}
+{"id":"ar.c0561","deck":"ar.d.top-adjectives","ar":"كَامِل","rom":"kāmil"}
+{"id":"ar.c0562","deck":"ar.d.top-adjectives","ar":"مُخْتَلِف","rom":"mukhtalif"}
+{"id":"ar.c0563","deck":"ar.d.top-adjectives","ar":"جَاهِز","rom":"jāhiz"}
+{"id":"ar.c0564","deck":"ar.d.top-adjectives","ar":"بَعِيد","rom":"baʿīd"}
+{"id":"ar.c0565","deck":"ar.d.top-adjectives","ar":"قَرِيب","rom":"qarīb"}
+{"id":"ar.c0566","deck":"ar.d.top-adjectives","ar":"مَرِيض","rom":"marīḍ"}
+{"id":"ar.c0567","deck":"ar.d.top-adjectives","ar":"شَابّ","rom":"shābb"}
+{"id":"ar.c0568","deck":"ar.d.top-adjectives","ar":"مُتَأَخِّر","rom":"mutaʾakhkhir"}
+{"id":"ar.c0569","deck":"ar.d.top-adjectives","ar":"قَوِيّ","rom":"qawī"}
+{"id":"ar.c0570","deck":"ar.d.top-adjectives","ar":"خَاطِئ","rom":"khāṭiʾ"}
+{"id":"ar.c0571","deck":"ar.d.top-adjectives","ar":"أَبْيَض","rom":"abyaḍ"}
+{"id":"ar.c0572","deck":"ar.d.top-adjectives","ar":"سَيِّئ","rom":"sayyiʾ"}
+{"id":"ar.c0573","deck":"ar.d.top-adjectives","ar":"مَشْغُول","rom":"mashghūl"}
+{"id":"ar.c0574","deck":"ar.d.top-adjectives","ar":"أَسْوَد","rom":"aswad"}
+{"id":"ar.c0575","deck":"ar.d.top-adjectives","ar":"أَحْمَر","rom":"aḥmar"}
+{"id":"ar.c0576","deck":"ar.d.top-adjectives","ar":"سَرِيع","rom":"sarīʿ"}
+{"id":"ar.c0577","deck":"ar.d.top-adjectives","ar":"مُمْتِع","rom":"mumtiʿ"}
+{"id":"ar.c0578","deck":"ar.d.top-adjectives","ar":"عَادِيّ","rom":"ʿādī"}
+{"id":"ar.c0579","deck":"ar.d.top-adjectives","ar":"جَائِع","rom":"jāʾiʿ"}
+{"id":"ar.c0580","deck":"ar.d.top-adjectives","ar":"ضَعِيف","rom":"ḍaʿīf"}
+{"id":"ar.c0581","deck":"ar.d.top-adjectives","ar":"أَزْرَق","rom":"azraq"}
+{"id":"ar.c0582","deck":"ar.d.top-adjectives","ar":"فَارِغ","rom":"fārigh"}
+{"id":"ar.c0583","deck":"ar.d.top-adjectives","ar":"أَخْضَر","rom":"akhḍar"}
+{"id":"ar.c0584","deck":"ar.d.top-adjectives","ar":"هَادِئ","rom":"hādiʾ"}
+{"id":"ar.c0585","deck":"ar.d.top-adjectives","ar":"مُتْعَب","rom":"mutʿab"}
+{"id":"ar.c0586","deck":"ar.d.top-adjectives","ar":"حَزِين","rom":"ḥazīn"}
+{"id":"ar.c0587","deck":"ar.d.top-adjectives","ar":"نَظِيف","rom":"naẓīf"}
+{"id":"ar.c0588","deck":"ar.d.top-adjectives","ar":"حُرّ","rom":"ḥurr"}
+{"id":"ar.c0589","deck":"ar.d.top-adjectives","ar":"مُرِيح","rom":"murīḥ"}
+{"id":"ar.c0590","deck":"ar.d.top-adjectives","ar":"مُفِيد","rom":"mufīd"}
+{"id":"ar.c0591","deck":"ar.d.top-adjectives","ar":"غَنِيّ","rom":"ghanī"}
+{"id":"ar.c0592","deck":"ar.d.top-adjectives","ar":"ثَقِيل","rom":"thaqīl"}
+{"id":"ar.c0593","deck":"ar.d.top-adjectives","ar":"خَفِيف","rom":"khafīf"}
+{"id":"ar.c0594","deck":"ar.d.top-adjectives","ar":"أَصْفَر","rom":"aṣfar"}
+{"id":"ar.c0595","deck":"ar.d.top-adjectives","ar":"فَقِير","rom":"faqīr"}
+{"id":"ar.c0596","deck":"ar.d.top-adjectives","ar":"بَطِيء","rom":"baṭīʾ"}
+{"id":"ar.c0597","deck":"ar.d.top-adjectives","ar":"غَالِي","rom":"ghālī"}
+{"id":"ar.c0598","deck":"ar.d.top-adjectives","ar":"أَجْنَبِيّ","rom":"ajnabī"}
+{"id":"ar.c0599","deck":"ar.d.top-adjectives","ar":"عَطْشَان","rom":"ʿaṭshān"}
+{"id":"ar.c0600","deck":"ar.d.top-adjectives","ar":"مُجْتَهِد","rom":"mujtahid"}
+{"id":"ar.c0601","deck":"ar.d.top-adjectives","ar":"عَرَبِيّ","rom":"ʿarabī"}
+{"id":"ar.c0602","deck":"ar.d.top-adjectives","ar":"وَسِخ","rom":"wasikh"}
+{"id":"ar.c0603","deck":"ar.d.top-adverbs","ar":"فَقَط","rom":"faqaṭ"}
+{"id":"ar.c0604","deck":"ar.d.top-adverbs","ar":"كَذٰلِكَ","rom":"kadhālika"}
+{"id":"ar.c0605","deck":"ar.d.top-adverbs","ar":"رُبَّمَا","rom":"rubbamā"}
+{"id":"ar.c0606","deck":"ar.d.top-adverbs","ar":"جِدًّا","rom":"jiddan"}
+{"id":"ar.c0607","deck":"ar.d.top-adverbs","ar":"أَكْثَر","rom":"akthar"}
+{"id":"ar.c0608","deck":"ar.d.top-adverbs","ar":"حَقًّا","rom":"ḥaqqan"}
+{"id":"ar.c0609","deck":"ar.d.top-adverbs","ar":"أَيْضًا","rom":"ayḍan"}
+{"id":"ar.c0610","deck":"ar.d.top-adverbs","ar":"مَرَّة أُخْرَى","rom":"marra ukhrā"}
+{"id":"ar.c0611","deck":"ar.d.top-adverbs","ar":"هٰكَذَا","rom":"hākadhā"}
+{"id":"ar.c0612","deck":"ar.d.top-adverbs","ar":"أَبَدًا","rom":"abadan"}
+{"id":"ar.c0613","deck":"ar.d.top-adverbs","ar":"تَمَامًا","rom":"tamāman"}
+{"id":"ar.c0614","deck":"ar.d.top-adverbs","ar":"قَلِيلًا","rom":"qalīlan"}
+{"id":"ar.c0615","deck":"ar.d.top-adverbs","ar":"كَثِيرًا","rom":"kathīran"}
+{"id":"ar.c0616","deck":"ar.d.top-adverbs","ar":"بِسُرْعَة","rom":"bisurʿa"}
+{"id":"ar.c0617","deck":"ar.d.top-adverbs","ar":"جَيِّدًا","rom":"jayyidan"}
+{"id":"ar.c0618","deck":"ar.d.top-adverbs","ar":"أَقَلّ","rom":"aqall"}
+{"id":"ar.c0619","deck":"ar.d.top-adverbs","ar":"مَعًا","rom":"maʿan"}
+{"id":"ar.c0620","deck":"ar.d.top-adverbs","ar":"لَاحِقًا","rom":"lāḥiqan"}
+{"id":"ar.c0621","deck":"ar.d.top-adverbs","ar":"فِعْلًا","rom":"fiʿlan"}
+{"id":"ar.c0622","deck":"ar.d.top-adverbs","ar":"بَعِيدًا","rom":"baʿīdan"}
+{"id":"ar.c0623","deck":"ar.d.top-adverbs","ar":"قَرِيبًا","rom":"qarīban"}
+{"id":"ar.c0624","deck":"ar.d.top-adverbs","ar":"تَقْرِيبًا","rom":"taqrīban"}
+{"id":"ar.c0625","deck":"ar.d.top-adverbs","ar":"أَخِيرًا","rom":"akhīran"}
+{"id":"ar.c0626","deck":"ar.d.top-adverbs","ar":"طَبْعًا","rom":"ṭabʿan"}
+{"id":"ar.c0627","deck":"ar.d.top-adverbs","ar":"لِلْأَسَف","rom":"lil-asaf"}
+{"id":"ar.c0628","deck":"ar.d.top-adverbs","ar":"فَوْرًا","rom":"fawran"}
+{"id":"ar.c0629","deck":"ar.d.top-adverbs","ar":"مُبَكِّرًا","rom":"mubakkiran"}
+{"id":"ar.c0630","deck":"ar.d.top-adverbs","ar":"بِبُطْء","rom":"bibuṭʾ"}
+{"id":"ar.c0631","deck":"ar.d.top-adverbs","ar":"غَالِبًا","rom":"ghāliban"}
+{"id":"ar.c0632","deck":"ar.d.top-adverbs","ar":"لَيْلًا","rom":"laylan"}
+{"id":"ar.c0633","deck":"ar.d.top-adverbs","ar":"مَثَلًا","rom":"mathalan"}
+{"id":"ar.c0634","deck":"ar.d.top-adverbs","ar":"يَوْمِيًّا","rom":"yawmiyyan"}
+{"id":"ar.c0635","deck":"ar.d.top-adverbs","ar":"مُتَأَخِّرًا","rom":"mutaʾakhkhiran"}
+{"id":"ar.c0636","deck":"ar.d.top-pronouns","ar":"أَنَا","rom":"anā"}
+{"id":"ar.c0637","deck":"ar.d.top-pronouns","ar":"ذٰلِكَ","rom":"dhālika"}
+{"id":"ar.c0638","deck":"ar.d.top-pronouns","ar":"أَنْتَ","rom":"anta"}
+{"id":"ar.c0639","deck":"ar.d.top-pronouns","ar":"أَنْتِ","rom":"anti"}
+{"id":"ar.c0640","deck":"ar.d.top-pronouns","ar":"هُوَ","rom":"huwa"}
+{"id":"ar.c0641","deck":"ar.d.top-pronouns","ar":"هٰذِهِ","rom":"hādhihi"}
+{"id":"ar.c0642","deck":"ar.d.top-pronouns","ar":"كُلّ","rom":"kull"}
+{"id":"ar.c0643","deck":"ar.d.top-pronouns","ar":"نَحْنُ","rom":"naḥnu"}
+{"id":"ar.c0644","deck":"ar.d.top-pronouns","ar":"أَيّ","rom":"ayy"}
+{"id":"ar.c0645","deck":"ar.d.top-pronouns","ar":"هِيَ","rom":"hiya"}
+{"id":"ar.c0646","deck":"ar.d.top-pronouns","ar":"بَيْتِي","rom":"baytī"}
+{"id":"ar.c0647","deck":"ar.d.top-pronouns","ar":"بَيْتُكَ","rom":"baytuka"}
+{"id":"ar.c0648","deck":"ar.d.top-pronouns","ar":"بَيْتُكِ","rom":"baytuki"}
+{"id":"ar.c0649","deck":"ar.d.top-pronouns","ar":"بَيْتُهُ","rom":"baytuhu"}
+{"id":"ar.c0650","deck":"ar.d.top-pronouns","ar":"بَيْتُهَا","rom":"baytuhā"}
+{"id":"ar.c0651","deck":"ar.d.top-pronouns","ar":"بَيْتُنَا","rom":"baytunā"}
+{"id":"ar.c0652","deck":"ar.d.top-pronouns","ar":"بَيْتُكُم","rom":"baytukum"}
+{"id":"ar.c0653","deck":"ar.d.top-pronouns","ar":"بَيْتُهُم","rom":"baytuhum"}
+{"id":"ar.c0654","deck":"ar.d.top-pronouns","ar":"تِلْكَ","rom":"tilka"}
+{"id":"ar.c0655","deck":"ar.d.top-pronouns","ar":"بَعْض","rom":"baʿḍ"}
+{"id":"ar.c0656","deck":"ar.d.top-pronouns","ar":"أَحَد","rom":"aḥad"}
+{"id":"ar.c0657","deck":"ar.d.top-pronouns","ar":"لَا شَيْء","rom":"lā shayʾ"}
+{"id":"ar.c0658","deck":"ar.d.top-pronouns","ar":"لَا أَحَد","rom":"lā aḥad"}
+{"id":"ar.c0659","deck":"ar.d.top-pronouns","ar":"هُم","rom":"hum"}
+{"id":"ar.c0660","deck":"ar.d.top-pronouns","ar":"هٰؤُلَاءِ","rom":"hāʾulāʾi"}
+{"id":"ar.c0661","deck":"ar.d.top-pronouns","ar":"نَفْس","rom":"nafs"}
+{"id":"ar.c0662","deck":"ar.d.top-pronouns","ar":"أَنْتُم","rom":"antum"}
+{"id":"ar.c0663","deck":"ar.d.top-pronouns","ar":"هُمَا","rom":"humā"}
+{"id":"ar.c0664","deck":"ar.d.top-pronouns","ar":"هُنَّ","rom":"hunna"}
+{"id":"ar.c0665","deck":"ar.d.top-prepositions","ar":"مِن","rom":"min"}
+{"id":"ar.c0666","deck":"ar.d.top-prepositions","ar":"فِي","rom":"fī"}
+{"id":"ar.c0667","deck":"ar.d.top-prepositions","ar":"بِ","rom":"bi"}
+{"id":"ar.c0668","deck":"ar.d.top-prepositions","ar":"لِ","rom":"li"}
+{"id":"ar.c0669","deck":"ar.d.top-prepositions","ar":"إِلَى","rom":"ilā"}
+{"id":"ar.c0670","deck":"ar.d.top-prepositions","ar":"عَن","rom":"ʿan"}
+{"id":"ar.c0671","deck":"ar.d.top-prepositions","ar":"مَعَ","rom":"maʿa"}
+{"id":"ar.c0672","deck":"ar.d.top-prepositions","ar":"لَكَ","rom":"laka"}
+{"id":"ar.c0673","deck":"ar.d.top-prepositions","ar":"لَكِ","rom":"laki"}
+{"id":"ar.c0674","deck":"ar.d.top-prepositions","ar":"لِي","rom":"lī"}
+{"id":"ar.c0675","deck":"ar.d.top-prepositions","ar":"حَتَّى","rom":"ḥattā"}
+{"id":"ar.c0676","deck":"ar.d.top-prepositions","ar":"بَعْد","rom":"baʿd"}
+{"id":"ar.c0677","deck":"ar.d.top-prepositions","ar":"قَبْل","rom":"qabl"}
+{"id":"ar.c0678","deck":"ar.d.top-prepositions","ar":"مِثْل","rom":"mithl"}
+{"id":"ar.c0679","deck":"ar.d.top-prepositions","ar":"مُنْذُ","rom":"mundhu"}
+{"id":"ar.c0680","deck":"ar.d.top-prepositions","ar":"لَهُ","rom":"lahu"}
+{"id":"ar.c0681","deck":"ar.d.top-prepositions","ar":"كَ","rom":"ka"}
+{"id":"ar.c0682","deck":"ar.d.top-prepositions","ar":"مَعَكَ","rom":"maʿaka"}
+{"id":"ar.c0683","deck":"ar.d.top-prepositions","ar":"مَعَكِ","rom":"maʿaki"}
+{"id":"ar.c0684","deck":"ar.d.top-prepositions","ar":"لَهَا","rom":"lahā"}
+{"id":"ar.c0685","deck":"ar.d.top-prepositions","ar":"مَعِي","rom":"maʿī"}
+{"id":"ar.c0686","deck":"ar.d.top-prepositions","ar":"حَوْل","rom":"ḥawl"}
+{"id":"ar.c0687","deck":"ar.d.top-prepositions","ar":"خِلَال","rom":"khilāl"}
+{"id":"ar.c0688","deck":"ar.d.top-prepositions","ar":"بَيْن","rom":"bayn"}
+{"id":"ar.c0689","deck":"ar.d.top-prepositions","ar":"مِنِّي","rom":"minnī"}
+{"id":"ar.c0690","deck":"ar.d.top-prepositions","ar":"بِدُون","rom":"bidūn"}
+{"id":"ar.c0691","deck":"ar.d.top-prepositions","ar":"عِنْد","rom":"ʿind"}
+{"id":"ar.c0692","deck":"ar.d.top-prepositions","ar":"تَحْت","rom":"taḥt"}
+{"id":"ar.c0693","deck":"ar.d.top-prepositions","ar":"خَارِج","rom":"khārij"}
+{"id":"ar.c0694","deck":"ar.d.top-prepositions","ar":"عَلَيَّ","rom":"ʿalayya"}
+{"id":"ar.c0695","deck":"ar.d.top-prepositions","ar":"فَوْق","rom":"fawq"}
+{"id":"ar.c0696","deck":"ar.d.top-prepositions","ar":"دَاخِل","rom":"dākhil"}
+{"id":"ar.c0697","deck":"ar.d.top-prepositions","ar":"ضِدّ","rom":"ḍidd"}
+{"id":"ar.c0698","deck":"ar.d.top-prepositions","ar":"أَمَام","rom":"amām"}
+{"id":"ar.c0699","deck":"ar.d.top-prepositions","ar":"نَحْو","rom":"naḥw"}
+{"id":"ar.c0700","deck":"ar.d.top-prepositions","ar":"عِنْدِي","rom":"ʿindī"}
+{"id":"ar.c0701","deck":"ar.d.top-prepositions","ar":"خَلْف","rom":"khalf"}
+{"id":"ar.c0702","deck":"ar.d.top-prepositions","ar":"عِنْدَهَا","rom":"ʿindahā"}
+{"id":"ar.c0703","deck":"ar.d.top-prepositions","ar":"عِنْدَكَ","rom":"ʿindaka"}
+{"id":"ar.c0704","deck":"ar.d.top-prepositions","ar":"عِنْدَكِ","rom":"ʿindaki"}
+{"id":"ar.c0705","deck":"ar.d.top-prepositions","ar":"عِنْدَنَا","rom":"ʿindanā"}
+{"id":"ar.c0706","deck":"ar.d.top-prepositions","ar":"عِنْدَهُ","rom":"ʿindahu"}
+{"id":"ar.c0707","deck":"ar.d.top-conjunctions","ar":"أَنَّ","rom":"anna"}
+{"id":"ar.c0708","deck":"ar.d.top-conjunctions","ar":"أَن","rom":"an"}
+{"id":"ar.c0709","deck":"ar.d.top-conjunctions","ar":"وَ","rom":"wa"}
+{"id":"ar.c0710","deck":"ar.d.top-conjunctions","ar":"لٰكِن","rom":"lākin"}
+{"id":"ar.c0711","deck":"ar.d.top-conjunctions","ar":"إِذَا","rom":"idhā"}
+{"id":"ar.c0712","deck":"ar.d.top-conjunctions","ar":"عِنْدَمَا","rom":"ʿindamā"}
+{"id":"ar.c0713","deck":"ar.d.top-conjunctions","ar":"أَوْ","rom":"aw"}
+{"id":"ar.c0714","deck":"ar.d.top-conjunctions","ar":"لَوْ","rom":"law"}
+{"id":"ar.c0715","deck":"ar.d.top-conjunctions","ar":"كَمَا","rom":"kamā"}
+{"id":"ar.c0716","deck":"ar.d.top-conjunctions","ar":"فَ","rom":"fa"}
+{"id":"ar.c0717","deck":"ar.d.top-conjunctions","ar":"ثُمَّ","rom":"thumma"}
+{"id":"ar.c0718","deck":"ar.d.top-conjunctions","ar":"إِذَن","rom":"idhan"}
+{"id":"ar.c0719","deck":"ar.d.top-conjunctions","ar":"لِذٰلِكَ","rom":"lidhālika"}
+{"id":"ar.c0720","deck":"ar.d.top-conjunctions","ar":"لِأَنَّ","rom":"liʾanna"}
+{"id":"ar.c0721","deck":"ar.d.top-conjunctions","ar":"أَم","rom":"am"}
+{"id":"ar.c0722","deck":"ar.d.top-conjunctions","ar":"بَل","rom":"bal"}
+{"id":"ar.c0723","deck":"ar.d.top-conjunctions","ar":"إِن","rom":"in"}
+{"id":"ar.c0724","deck":"ar.d.top-conjunctions","ar":"قَبْل أَن","rom":"qabl an"}
+{"id":"ar.c0725","deck":"ar.d.top-conjunctions","ar":"بَيْنَمَا","rom":"baynamā"}
+{"id":"ar.c0726","deck":"ar.d.top-conjunctions","ar":"بَعْد أَن","rom":"baʿd an"}
+{"id":"ar.c0727","deck":"ar.d.top-conjunctions","ar":"حِين","rom":"ḥīn"}
+{"id":"ar.c0728","deck":"ar.d.top-conjunctions","ar":"كَيْ","rom":"kay"}
+{"id":"ar.c0729","deck":"ar.d.top-conjunctions","ar":"مَعَ أَنَّ","rom":"maʿa anna"}
+{"id":"ar.c0730","deck":"ar.d.top-conjunctions","ar":"بِمَا أَنَّ","rom":"bimā anna"}
+{"id":"ar.c0731","deck":"ar.d.top-conjunctions","ar":"إِمَّا","rom":"immā"}
+{"id":"ar.c0732","deck":"ar.d.top-interjections","ar":"هَيَّا","rom":"hayyā"}
+{"id":"ar.c0733","deck":"ar.d.top-interjections","ar":"يَا إِلٰهِي","rom":"yā ilāhī"}
+{"id":"ar.c0734","deck":"ar.d.top-interjections","ar":"مَهْلًا","rom":"mahlan"}
+{"id":"ar.c0735","deck":"ar.d.top-interjections","ar":"آه","rom":"āh"}
+{"id":"ar.c0736","deck":"ar.d.top-interjections","ar":"أُفّ","rom":"uff"}
+{"id":"ar.c0737","deck":"ar.d.top-interjections","ar":"النَّجْدَة","rom":"an-najda"}
+{"id":"ar.c0738","deck":"ar.d.top-interjections","ar":"يَا رَبّ","rom":"yā rabb"}
+{"id":"ar.c0739","deck":"ar.d.top-interjections","ar":"كَفَى","rom":"kafā"}
+{"id":"ar.c0740","deck":"ar.d.top-interjections","ar":"اِنْتَبِه","rom":"intabih"}
+{"id":"ar.c0741","deck":"ar.d.top-interjections","ar":"يَا سَلَام","rom":"yā salām"}
+{"id":"ar.c0742","deck":"ar.d.top-interjections","ar":"مَعْقُول؟","rom":"maʿqūl?"}
+{"id":"ar.c0743","deck":"ar.d.top-interjections","ar":"سُبْحَانَ اللّٰه","rom":"subḥāna llāh"}
+{"id":"ar.c0744","deck":"ar.d.top-interjections","ar":"آخ","rom":"ākh"}
+{"id":"ar.c0745","deck":"ar.d.top-interjections","ar":"يَا حَرَام","rom":"yā ḥarām"}
+{"id":"ar.c0746","deck":"ar.d.top-interjections","ar":"آمِين","rom":"āmīn"}
+{"id":"ar.c0747","deck":"ar.d.top-interjections","ar":"مَبْرُوك","rom":"mabrūk"}
+{"id":"ar.c0748","deck":"ar.d.top-interjections","ar":"عَجَبًا","rom":"ʿajaban"}
+{"id":"ar.c0749","deck":"ar.d.top-interjections","ar":"أَلُو","rom":"alū"}
+{"id":"ar.c0750","deck":"ar.d.top-interjections","ar":"بِالتَّوْفِيق","rom":"bit-tawfīq"}
+{"id":"ar.c0751","deck":"ar.d.top-interjections","ar":"وَاللّٰه","rom":"wallāh"}
+{"id":"ar.c0752","deck":"ar.d.top-words","ar":"لَا","rom":"lā"}
+{"id":"ar.c0753","deck":"ar.d.top-words","ar":"يَا","rom":"yā"}
+{"id":"ar.c0754","deck":"ar.d.top-words","ar":"لَقَد","rom":"laqad"}
+{"id":"ar.c0755","deck":"ar.d.top-words","ar":"لَم","rom":"lam"}
+{"id":"ar.c0756","deck":"ar.d.top-words","ar":"أَجَل","rom":"ajal"}
+{"id":"ar.c0757","deck":"ar.d.top-words","ar":"لَن","rom":"lan"}
+{"id":"ar.c0758","deck":"ar.d.top-words","ar":"سَوْفَ","rom":"sawfa"}
+{"id":"ar.c0759","deck":"ar.d.top-words","ar":"قَد","rom":"qad"}
+{"id":"ar.c0760","deck":"ar.d.top-words","ar":"إِنَّ","rom":"inna"}
+{"id":"ar.c0761","deck":"ar.d.top-words","ar":"غَيْر","rom":"ghayr"}
+{"id":"ar.c0762","deck":"ar.d.top-words","ar":"إِلَّا","rom":"illā"}
+{"id":"ar.c0763","deck":"ar.d.top-words","ar":"ثَلَاثَة","rom":"thalātha"}
+{"id":"ar.c0764","deck":"ar.d.top-words","ar":"بَلَى","rom":"balā"}
+{"id":"ar.c0765","deck":"ar.d.top-words","ar":"أَيْ","rom":"ay"}
+{"id":"ar.c0766","deck":"ar.d.top-words","ar":"أَرْبَعَة","rom":"arbaʿa"}
+{"id":"ar.c0767","deck":"ar.d.top-words","ar":"ثَانِي","rom":"thānī"}
+{"id":"ar.c0768","deck":"ar.d.top-words","ar":"سِتَّة","rom":"sitta"}
+{"id":"ar.c0769","deck":"ar.d.top-words","ar":"ثَالِث","rom":"thālith"}
+{"id":"ar.c0770","deck":"ar.d.top-words","ar":"سَبْعَة","rom":"sabʿa"}
+{"id":"ar.c0771","deck":"ar.d.top-words","ar":"ثَمَانِيَة","rom":"thamāniya"}
+{"id":"ar.c0772","deck":"ar.d.top-words","ar":"رَابِع","rom":"rābiʿ"}
+{"id":"ar.c0773","deck":"ar.d.top-words","ar":"تِسْعَة","rom":"tisʿa"}
+{"id":"ar.c0774","deck":"ar.d.top-words","ar":"خَامِس","rom":"khāmis"}
+{"id":"ar.c0775","deck":"ar.d.top-words","ar":"رُبْع","rom":"rubʿ"}
+{"id":"ar.c0776","deck":"ar.d.top-words","ar":"ظُهْرًا","rom":"ẓuhran"}
+{"id":"ar.c0777","deck":"ar.d.top-words","ar":"اِثْنَا عَشَر","rom":"ithnā ʿashar"}
+{"id":"ar.c0778","deck":"ar.d.top-words","ar":"ثَلَاثَة عَشَر","rom":"thalātha ʿashar"}
+{"id":"ar.c0779","deck":"ar.d.top-words","ar":"أَرْبَعَة عَشَر","rom":"arbaʿa ʿashar"}
+{"id":"ar.c0780","deck":"ar.d.top-words","ar":"خَمْسَة عَشَر","rom":"khamsa ʿashar"}
+{"id":"ar.c0781","deck":"ar.d.top-words","ar":"سِتَّة عَشَر","rom":"sitta ʿashar"}
+{"id":"ar.c0782","deck":"ar.d.top-words","ar":"سَبْعَة عَشَر","rom":"sabʿa ʿashar"}
+{"id":"ar.c0783","deck":"ar.d.top-words","ar":"ثَمَانِيَة عَشَر","rom":"thamāniya ʿashar"}
+{"id":"ar.c0784","deck":"ar.d.top-words","ar":"تِسْعَة عَشَر","rom":"tisʿa ʿashar"}
+{"id":"ar.c0785","deck":"ar.d.top-words","ar":"يَوْم الثُّلَاثَاء","rom":"yawm ath-thulāthāʾ"}
+{"id":"ar.c0786","deck":"ar.d.top-words","ar":"يَوْم الْأَرْبِعَاء","rom":"yawm al-arbiʿāʾ"}
+{"id":"ar.c0787","deck":"ar.d.top-words","ar":"يَوْم الْخَمِيس","rom":"yawm al-khamīs"}
+{"id":"ar.c0788","deck":"ar.d.top-words","ar":"بَعْد غَد","rom":"baʿd ghad"}
+{"id":"ar.c0789","deck":"ar.d.top-words","ar":"أَوَّل أَمْس","rom":"awwal ams"}

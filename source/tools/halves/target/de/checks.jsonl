@@ -1,0 +1,75 @@
+{"id":"sounds.k1","lesson":"sounds","o":[null,null,null,null],"a":0}
+{"id":"sounds.k2","lesson":"sounds","o":[null,null,null,null],"a":1}
+{"id":"sounds.k3","lesson":"sounds","o":[null,null,null,null],"a":2}
+{"id":"greetings.k1","lesson":"greetings","o":["Wie heißen sie?","Wie heißen Sie?","Wie heißt du?","Wie heißt sie?"],"a":1}
+{"id":"greetings.k2","lesson":"greetings","o":["Danke.","Tschüss.","Bitte.","Gute Nacht."],"a":2}
+{"id":"greetings.k3","lesson":"greetings","o":["Woher kommst du?","Woher kommen du?","Woher kommen Sie?","Woher kommt du?"],"a":0}
+{"id":"gender.k1","lesson":"gender","o":[null,null,null,null],"a":0}
+{"id":"gender.k2","lesson":"gender","o":[null,null,null,null],"a":2}
+{"id":"gender.k3","lesson":"gender","o":[null,null,null,null],"a":1}
+{"id":"sein-haben.k1","lesson":"sein-haben","o":["Ich bin eine Ärztin.","Ich habe Ärztin.","Ich bin Ärztin.","Ich bin ein Arzt."],"a":2}
+{"id":"sein-haben.k2","lesson":"sein-haben","o":["haben","hast","hat","habt"],"a":0}
+{"id":"sein-haben.k3","lesson":"sein-haben","o":["Ich bin Hunger.","Ich habe Hunger.","Ich habe hungrig.","Ich bin Hungers."],"a":1}
+{"id":"present.k1","lesson":"present","o":["Er wohnen in Köln.","Er wohnt in Köln.","Er wohnst in Köln.","Er wohne in Köln."],"a":1}
+{"id":"present.k2","lesson":"present","o":["Ich arbeite.","Ich bin arbeite.","Ich arbeiten.","Ich bin arbeitend."],"a":0}
+{"id":"present.k3","lesson":"present","o":[null,null,null,null],"a":2}
+{"id":"word-order.k1","lesson":"word-order","o":["Heute ich arbeite.","Heute arbeite ich.","Ich heute arbeite.","Arbeite heute ich."],"a":1}
+{"id":"word-order.k2","lesson":"word-order","o":["Am","Am Montag","habe","ich"],"a":1}
+{"id":"word-order.k3","lesson":"word-order","o":[null,null,null,null],"a":3}
+{"id":"questions.k1","lesson":"questions","o":[null,null,null,null],"a":1}
+{"id":"questions.k2","lesson":"questions","o":["Wohnst du in Berlin?","Tust du wohnen in Berlin?","Du wohnst in Berlin, tun?","Wohnen du in Berlin?"],"a":0}
+{"id":"questions.k3","lesson":"questions","o":["wo","woher","wer","wohin"],"a":3}
+{"id":"numbers.k1","lesson":"numbers","o":[null,null,null,null],"a":1}
+{"id":"numbers.k2","lesson":"numbers","o":["vierzigzwei","zweivierzig","vierundzwanzig","zweiundvierzig"],"a":3}
+{"id":"numbers.k3","lesson":"numbers","o":["zwei Euro fünfzig","zwei Euros fünfzig","zwei Komma fünfzig Euros","fünfzig zwei Euro"],"a":0}
+{"id":"stem-change.k1","lesson":"stem-change","o":[null,null,null,null],"a":1}
+{"id":"stem-change.k2","lesson":"stem-change","o":["Was nehmst du?","Was nimmt du?","Was nehmen du?","Was nimmst du?"],"a":3}
+{"id":"stem-change.k3","lesson":"stem-change","o":["Ich fahre nach Hamburg.","Ich fähre nach Hamburg.","Ich fährt nach Hamburg.","Ich fahrt nach Hamburg."],"a":0}
+{"id":"accusative.k1","lesson":"accusative","o":["Ich suche ein Pullover.","Ich suche einen Pullover.","Ich suche eine Pullover.","Ich suche einem Pullover."],"a":1}
+{"id":"accusative.k2","lesson":"accusative","o":[null,null,null,null],"a":3}
+{"id":"accusative.k3","lesson":"accusative","o":[null,null,null,null],"a":0}
+{"id":"negation.k1","lesson":"negation","o":["Ich habe nicht ein Auto.","Ich habe kein Auto.","Ich nicht habe ein Auto.","Ich habe keinen Auto."],"a":1}
+{"id":"negation.k2","lesson":"negation","o":["Das nicht ist teuer.","Das ist kein teuer.","Das ist teuer nicht.","Das ist nicht teuer."],"a":3}
+{"id":"negation.k3","lesson":"negation","o":["Ich habe keinen Termin.","Ich habe kein Termin.","Ich habe keine Termin.","Ich habe nicht Termin."],"a":0}
+{"id":"possessives.k1","lesson":"possessives","o":["Anna und sein Bruder","Anna und ihr Bruder","Anna und ihre Bruder","Anna und seine Bruder"],"a":1}
+{"id":"possessives.k2","lesson":"possessives","o":["Ich besuche mein Bruder.","Ich besuche meine Bruder.","Ich besuche meinen Bruder.","Ich besuche meiner Bruder."],"a":2}
+{"id":"possessives.k3","lesson":"possessives","o":[null,null,null,null],"a":0}
+{"id":"gern.k1","lesson":"gern","o":["Ich mag spielen Tennis.","Ich spiele gern Tennis.","Ich gern spiele Tennis.","Ich möchte Tennis spielen."],"a":1}
+{"id":"gern.k2","lesson":"gern","o":["Ich möchte Hunde.","Ich gern Hunde.","Ich magst Hunde.","Ich mag Hunde."],"a":3}
+{"id":"gern.k3","lesson":"gern","o":[null,null,null,null],"a":0}
+{"id":"modals.k1","lesson":"modals","o":["Ich kann sprechen Deutsch.","Ich kann Deutsch sprechen.","Ich kann Deutsch spreche.","Ich kanne Deutsch sprechen."],"a":1}
+{"id":"modals.k2","lesson":"modals","o":[null,null,null,null],"a":0}
+{"id":"modals.k3","lesson":"modals","o":[null,null,null,null],"a":3}
+{"id":"separable.k1","lesson":"separable","o":["Ich aufstehe um sieben.","Ich stehe um sieben auf.","Ich um sieben aufstehe.","Ich stehe um sieben aufstehen."],"a":1}
+{"id":"separable.k2","lesson":"separable","o":["einkaufen","anrufen","verstehen","aufstehen"],"a":2}
+{"id":"separable.k3","lesson":"separable","o":["Ich muss früh aufstehen.","Ich muss früh stehen auf.","Ich muss aufstehen früh.","Ich stehe muss früh auf."],"a":0}
+{"id":"bracket.k1","lesson":"bracket","o":["Ich möchte fahren nach Berlin.","Ich möchte nach Berlin fahren.","Ich möchte nach Berlin fahre.","Ich nach Berlin möchte fahren."],"a":1}
+{"id":"bracket.k2","lesson":"bracket","o":["Wann kommt der Zug an?","Wann ankommt der Zug?","Wann kommt an der Zug?","Wann der Zug kommt an?"],"a":0}
+{"id":"bracket.k3","lesson":"bracket","o":[null,null,null,null],"a":3}
+{"id":"dative.k1","lesson":"dative","o":["Ich fahre mit der Bus.","Ich fahre mit den Bus.","Ich fahre mit dem Bus.","Ich fahre mit die Bus."],"a":2}
+{"id":"dative.k2","lesson":"dative","o":["Ich gehe zum Apotheke.","Ich gehe zur Apotheke.","Ich gehe nach der Apotheke.","Ich gehe zu die Apotheke."],"a":1}
+{"id":"dative.k3","lesson":"dative","o":["Ich gehe nach Hause.","Ich gehe zu Hause.","Ich gehe zum Hause.","Ich gehe in Hause."],"a":0}
+{"id":"pronouns.k1","lesson":"pronouns","o":["Ich bin kalt.","Mir ist kalt.","Ich habe kalt.","Mich ist kalt."],"a":1}
+{"id":"pronouns.k2","lesson":"pronouns","o":["Das ist für dir.","Das ist für du.","Das ist für dich.","Das ist für dein."],"a":2}
+{"id":"pronouns.k3","lesson":"pronouns","o":["Kannst du mir helfen?","Kannst du mich helfen?","Kannst du ich helfen?","Kannst du helfen mir?"],"a":0}
+{"id":"prepositions.k1","lesson":"prepositions","o":["Ich gehe ins Kino.","Ich gehe im Kino.","Ich gehe nach Kino.","Ich gehe zu Kino."],"a":0}
+{"id":"prepositions.k2","lesson":"prepositions","o":["in Montag","am Montag","auf Montag","um Montag"],"a":1}
+{"id":"prepositions.k3","lesson":"prepositions","o":["Ich wohne für zwei Jahre in Berlin.","Ich wohne vor zwei Jahren in Berlin.","Ich bin seit zwei Jahren in Berlin wohnen.","Ich wohne seit zwei Jahren in Berlin."],"a":3}
+{"id":"imperative.k1","lesson":"imperative","o":["Rufen Sie mich bitte an!","Rufen mich bitte an!","Ruf Sie mich bitte an!","Anrufen Sie mich bitte!"],"a":0}
+{"id":"imperative.k2","lesson":"imperative","o":["Nimmst eine Tablette!","Du nimm eine Tablette!","Nimm eine Tablette!","Nehmst eine Tablette!"],"a":2}
+{"id":"imperative.k3","lesson":"imperative","o":["Fähr vorsichtig!","Fahr vorsichtig!","Fahrst vorsichtig!","Du fahr vorsichtig!"],"a":1}
+{"id":"perfekt.k1","lesson":"perfekt","o":["Ich habe nach Berlin gefahren.","Ich bin nach Berlin gefahren.","Ich bin gefahren nach Berlin.","Ich habe nach Berlin gefahrt."],"a":1}
+{"id":"perfekt.k2","lesson":"perfekt","o":["verstanden","geverstanden","verstehen","geversteht"],"a":0}
+{"id":"perfekt.k3","lesson":"perfekt","o":["Ich habe gegessen Pizza.","Ich bin Pizza gegessen.","Ich habe Pizza gegesst.","Ich habe Pizza gegessen."],"a":3}
+{"id":"war-hatte.k1","lesson":"war-hatte","o":["Wo warst du?","Wo war du?","Wo wart du?","Wo waren du?"],"a":0}
+{"id":"war-hatte.k2","lesson":"war-hatte","o":["Wir hatte keine Zeit.","Wir hatten keine Zeit.","Wir hatten keine Zeit gehabt.","Wir hattet keine Zeit."],"a":1}
+{"id":"war-hatte.k3","lesson":"war-hatte","o":["Das ist war.","Das ist waar.","Das ist wahr.","Das ist wahar."],"a":2}
+{"id":"adjectives.k1","lesson":"adjectives","o":["Der Pullover ist teuere.","Der Pullover ist teuer.","Der Pullover ist teurer.","Der Pullover teuer ist."],"a":1}
+{"id":"adjectives.k2","lesson":"adjectives","o":["billiger als","mehr billig als","billiger dass","billigerer als"],"a":0}
+{"id":"adjectives.k3","lesson":"adjectives","o":["Mein Bruder ist alter als ich.","Mein Bruder ist mehr alt als ich.","Mein Bruder ist älter als ich.","Mein Bruder ist älter von mir."],"a":2}
+{"id":"connectors.k1","lesson":"connectors","o":["Wenn ich habe Zeit, komme ich.","Wenn ich Zeit habe, ich komme.","Wenn ich Zeit habe, komme ich.","Wenn habe ich Zeit, komme ich."],"a":2}
+{"id":"connectors.k2","lesson":"connectors","o":["Ich bleibe zu Hause, denn ich krank bin.","Ich bleibe zu Hause, denn ich bin krank.","Ich bleibe zu Hause, denn bin ich krank.","Ich bleibe zu Hause denn krank."],"a":1}
+{"id":"connectors.k3","lesson":"connectors","o":["wenn","aber","oder","denn"],"a":0}
+{"id":"traps.k1","lesson":"traps","o":[null,null,null,null],"a":1}
+{"id":"traps.k2","lesson":"traps","o":[null,null,null,null],"a":0}
+{"id":"traps.k3","lesson":"traps","o":["Ich bin heiß.","Ich habe heiß.","Mich ist heiß.","Mir ist heiß."],"a":3}

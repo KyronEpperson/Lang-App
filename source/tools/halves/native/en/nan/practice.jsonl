@@ -1,0 +1,378 @@
+{"id":"initials.01","q":"Which word starts with a puff of air?","why":"tsh has the h, so it comes with a puff of air: tshù (厝, house)."}
+{"id":"initials.02","q":"The p in pá (飽, full) sounds like the p in…","o":["spin","pin","bin","fin"],"why":"p with no h has no puff of air, like the p of spin."}
+{"id":"initials.03","q":"What does the space in m̄ sī (毋是, isn't) show?","o":["Two separate words","A pause for breath","A missing letter","Two tones on one syllable"],"why":"Tâi-lô puts a space between words and a hyphen between the syllables of one word."}
+{"id":"initials.04","q":"Which consonant is voiced, with the throat buzzing?","o":["g, as in gû (牛)","k, as in káu (狗)","kh, as in khì (去)","h, as in hó (好)"],"why":"b, g and j are voiced; k and kh are not."}
+{"id":"initials.05","q":"In POJ, tshù (厝, house) is spelled…","o":[null,null,null,"shù"],"why":"POJ writes ch for ts and chh for tsh, so tshù is chhù."}
+{"id":"initials.06","p":"Build 老師 (teacher) syllable by syllable","why":"Copy the tone mark: lāu has the macron (tone 7), not the acute."}
+{"id":"initials.07","p":"Build 公園 (park) syllable by syllable","why":"Copy the tone mark: hn̂g has the circumflex (tone 5); hn̄g with tone 7 is far (遠)."}
+{"id":"initials.08","p":"Build 歹勢 (sorry) syllable by syllable","why":"ph has a puff of air: pháinn. Without the h it is a different sound."}
+{"id":"initials.09","q":"Tâi-lô for 厝: __","p":"house; home","why":"厝 starts with ts plus a puff of air: tshù."}
+{"id":"initials.10","q":"Tâi-lô for 天: __","p":"sky","why":"th has a puff of air, and nn makes the vowel nasal: thinn."}
+{"id":"initials.11","q":"Tâi-lô for 牛: __","p":"cow; ox","why":"g is a real voiced g, as in go: gû."}
+{"id":"initials.12","p":"Type 飽 (full, after eating) in Tâi-lô","hint":"p with no puff · tone 2: the acute mark, or type pa2","why":"No puff, so p; tone 2 has the acute mark: pá. pà with tone 3 is leopard (豹)."}
+{"id":"initials.13","p":"Type 肉 (meat) in Tâi-lô","hint":"a voiced b · ends in h · no tone mark","why":"bah is tone 4, which has no tone mark; ba̍h with the short vertical line would be tone 8."}
+{"id":"initials.14","p":"Type 厝 (house) in Tâi-lô","hint":"ts with a puff of air · the grave mark, or type tshu3","why":"厝 starts with a puff of air, so it is tsh: tshù."}
+{"id":"finals.01","q":"Which word has a nasal vowel?","why":"nn after the vowel makes it nasal: sann (三, three)."}
+{"id":"finals.02","q":"The oo in hóo (虎, tiger) sounds like…","o":["the aw of law","the o of go","the oo of food","the u of cup"],"why":"Tâi-lô oo is open, like the aw of law; single o is a different vowel."}
+{"id":"finals.03","q":"The -h at the end of bah (肉, meat) is…","o":["a catch in the throat that cuts the vowel short","a breath, as in English h","silent, with a long vowel","a k sound"],"why":"A final -h stops the vowel short; it is not a breath."}
+{"id":"finals.04","q":"Which two words sound exactly the same?","o":["卵 and 兩","好 and 虎","三 and 十","肉 and 鹿"],"why":"卵 (egg) and 兩 (two) are both nn̄g."}
+{"id":"finals.05","q":"What is the m in m̄ (毋, not)?","o":["A whole syllable: a hummed m","The start of a word with a missing vowel","A silent letter","An English em sound"],"why":"m can be a syllable by itself: a hum with tone 7."}
+{"id":"finals.06","p":"Build 雞卵 (chicken egg) syllable by syllable","why":"卵 has tone 7, the macron: nn̄g. The circumflex would be tone 5."}
+{"id":"finals.07","p":"Build 牛肉 (beef) syllable by syllable","why":"bah is tone 4 with no tone mark; ba̍h with the short vertical line is tone 8."}
+{"id":"finals.08","p":"Build 小心 (careful) syllable by syllable","why":"小心 ends with closed lips: sim, with -m, not -n."}
+{"id":"finals.09","q":"Tâi-lô for 三: __","p":"three","why":"三 has a nasal vowel, written nn: sann."}
+{"id":"finals.10","q":"Tâi-lô for 虎: __","p":"tiger","why":"Tiger has the open oo: hóo. hó is good (好)."}
+{"id":"finals.11","q":"Tâi-lô for 十: __","p":"ten","why":"十 ends with closed lips: tsa̍p."}
+{"id":"finals.12","p":"Type 鹿 (deer) in Tâi-lô","hint":"ends in -k · tone 8: the short vertical line, or type lok8","why":"Tone 8 has the short vertical line: lo̍k. lok with no mark would be tone 4."}
+{"id":"finals.13","p":"Type 毋 (not) in Tâi-lô","hint":"a hummed m · tone 7: the macron, or type m7","why":"毋 is a hummed m with tone 7, the macron: m̄."}
+{"id":"finals.14","p":"Type 三 (three) in Tâi-lô","hint":"a nasal vowel · no tone mark","why":"The nasal vowel is written nn: sann, not san."}
+{"id":"tones.01","q":"Which tone does kâu (猴, monkey) have?","o":["tone 5","tone 2","tone 3","tone 7"],"why":"The circumflex is tone 5: kâu."}
+{"id":"tones.02","q":"Which mark shows tone 3?","o":["the grave: à","the acute: á","the macron: ā","the circumflex: â"],"why":"Tone 3 has the grave mark: pà (豹, leopard)."}
+{"id":"tones.03","q":"Which tone does the general accent of Taiwan not use?","o":["tone 6","tone 4","tone 8","tone 1"],"why":"There is no tone 6 in the general accent; that is why 狗 káu repeats tone 2 in the animal list."}
+{"id":"tones.04","q":"How does tone 2 (hó, good) sound?","o":["a fall from high to low","a rise, like an English question","low and level","middle and level"],"why":"Tone 2 is high falling, pitch 51."}
+{"id":"tones.05","q":"Which of these words is tone 8?","why":"The short vertical line on a checked syllable is tone 8: lo̍k (鹿, deer)."}
+{"id":"tones.06","p":"The first four animals, in tone order: 獅 虎 豹 鱉","why":"豹 is tone 3, with the grave: pà. pá with tone 2 is full (飽)."}
+{"id":"tones.07","p":"The last four animals, in tone order: 猴 狗 象 鹿","why":"猴 is tone 5 (kâu) and 狗 is tone 2 (káu): the tone marks tell them apart."}
+{"id":"tones.08","p":"Build 老師 (teacher) syllable by syllable","why":"lāu has tone 7, the macron; the acute would be tone 2."}
+{"id":"tones.09","q":"Tâi-lô for 猴: __","p":"monkey","why":"Monkey is tone 5, the circumflex: kâu. káu is dog."}
+{"id":"tones.10","q":"Tâi-lô for 豹: __","p":"leopard","why":"Leopard is tone 3, the grave: pà. pá is full."}
+{"id":"tones.11","q":"Tâi-lô for 象: __","p":"elephant","why":"Elephant is tone 7, the macron: tshiūnn."}
+{"id":"tones.12","p":"Type 獅 (lion) in Tâi-lô","hint":"tone 1: no mark","why":"Tone 1 has no mark: sai."}
+{"id":"tones.13","p":"Type 狗 (dog) in Tâi-lô","hint":"tone 2: the acute, or type kau2","why":"Dog is tone 2, the acute: káu. kâu with tone 5 is monkey."}
+{"id":"tones.14","p":"Type 鱉 (soft-shelled turtle) in Tâi-lô","hint":"ends in -h · tone 4: no mark","why":"鱉 is tone 4, with no mark: pih. The short vertical line would make it tone 8."}
+{"id":"sandhi.01","q":"In 火車 (hué-tshia), which tone is hué said in?","o":["tone 1","tone 2","tone 3","tone 7"],"why":"Tone 2 becomes tone 1 in sandhi."}
+{"id":"sandhi.02","q":"In 公園 (kong-hn̂g), which tone is kong said in?","o":["tone 7","tone 1","tone 2","tone 5"],"why":"Tone 1 becomes tone 7 in sandhi."}
+{"id":"sandhi.03","q":"In 大人 (tuā-lâng), which tone is tuā said in?","o":["tone 3","tone 7","tone 1","tone 5"],"why":"Tone 7 becomes tone 3 in sandhi."}
+{"id":"sandhi.04","q":"Which syllable of 大人 (tuā-lâng) keeps its own tone?","o":["lâng, the last one","tuā, the first one","both","neither"],"why":"The last syllable of the group keeps its citation tone."}
+{"id":"sandhi.05","q":"In the general accent this course follows, which tone is gû (tone 5) said in, in 牛肉 (gû-bah)?","o":["tone 7","tone 5","tone 1","tone 2"],"why":"In the general accent, tone 5 becomes tone 7 in sandhi (some northern speakers say tone 3)."}
+{"id":"sandhi.06","p":"Build 牛肉 (beef) as it is spelled","why":"The spelling keeps the citation tone: gû with tone 5, even though sandhi changes it in speech."}
+{"id":"sandhi.07","p":"Build 大人 (adult) as it is spelled","why":"tuā is spelled with tone 7; tone 3 is only how sandhi makes it sound."}
+{"id":"sandhi.08","p":"Build 好食 (tasty) as it is spelled","why":"hó is spelled with tone 2; sandhi makes it sound like tone 1, but the spelling keeps the acute."}
+{"id":"sandhi.09","q":"火車 (train), as spelled: __-tshia","p":"train","why":"The spelling keeps the citation tone 2: hué. Sandhi only changes the sound."}
+{"id":"sandhi.10","q":"公園 (park), as spelled: __-hn̂g","p":"park","why":"kong is tone 1 with no mark; sandhi makes it sound like tone 7, but you write kong."}
+{"id":"sandhi.11","q":"老師 (teacher), as spelled: __-su","p":"teacher","why":"lāu is spelled with tone 7, the macron; in speech sandhi turns it into tone 3."}
+{"id":"sandhi.12","p":"Type 火車 (train) in Tâi-lô, as it is spelled","hint":"first syllable: tone 2, the acute, or type hue2","why":"Write the citation tone: hué has tone 2, though sandhi makes it sound like tone 1."}
+{"id":"sandhi.13","p":"Type 公園 (park) in Tâi-lô, as it is spelled","hint":"kong has no mark · hn̂g: tone 5, or type hng5","why":"Write the citation tone: kong is tone 1; tone 7 is only the sandhi tone."}
+{"id":"sandhi.14","p":"Type 菜單 (menu) in Tâi-lô, as it is spelled","hint":"first syllable: tone 3, the grave, or type tshai3","why":"Write tshài with tone 3; tone 2 is only how sandhi makes it sound."}
+{"id":"sandhi-2.01","q":"In 失禮 (sit-lé), sit has tone 4 and ends in -t. In speech it is said in…","o":["tone 8","tone 4","tone 2","tone 1"],"why":"In sandhi, checked syllables in -p -t -k swap: tone 4 becomes tone 8."}
+{"id":"sandhi-2.02","q":"In 多謝你 (To-siā--lí), how is 你 said?","o":["light and short, in the neutral tone","with a full tone 2","in tone 1, by sandhi","it is silent"],"why":"After -- the syllable has the neutral tone: light and short."}
+{"id":"sandhi-2.03","q":"What does -- before lí show?","o":["lí is in the neutral tone","lí is a new word","take a pause before lí","lí is stressed"],"why":"-- marks the neutral tone on the syllable after it."}
+{"id":"sandhi-2.04","q":"In 肉圓 (bah-uân), what happens to the -h of bah in sandhi?","o":["it disappears, and the syllable takes a full tone","it becomes louder","it turns into -k","nothing changes"],"why":"A checked syllable in -h loses its catch in sandhi."}
+{"id":"sandhi-2.05","q":"In 多謝你, which syllable keeps its citation tone because a light syllable follows?","o":[null,null,"none of them",null],"why":"The syllable right before -- keeps its own tone."}
+{"id":"sandhi-2.06","p":"Build 失禮 (I apologize) as it is spelled","why":"The spelling keeps the citation tone 4: sit, though sandhi makes it sound like tone 8."}
+{"id":"sandhi-2.07","p":"Build 讀冊 (study) as it is spelled","why":"tha̍k is spelled with tone 8; sandhi changes only the sound."}
+{"id":"sandhi-2.08","p":"Build 捷運 (MRT) as it is spelled","why":"tsia̍t is spelled with tone 8, the short vertical line, whatever sandhi does to it."}
+{"id":"sandhi-2.09","q":"讀冊 (study), as spelled: __-tsheh","p":"study","why":"Write the citation tone 8 with the short vertical line: tha̍k."}
+{"id":"sandhi-2.10","q":"厝裡 (at home): tshù--__","p":"at home","why":"The neutral tone syllable keeps its own mark in the spelling: --lí."}
+{"id":"sandhi-2.11","q":"食飽矣。(I have eaten.) Tsia̍h-pá--__.","p":"I have eaten.","why":"矣 is a light neutral tone syllable written --ah, with no mark."}
+{"id":"sandhi-2.12","p":"Type 失禮 (I apologize) in Tâi-lô, as it is spelled","hint":"sit: tone 4, no mark · lé: tone 2","why":"Write the citation tone: sit is tone 4; tone 8 is only the sandhi tone."}
+{"id":"sandhi-2.13","p":"Type 捷運 (MRT) in Tâi-lô, as it is spelled","hint":"tsia̍t: tone 8 · ūn: tone 7","why":"Write tsia̍t with tone 8, whatever sandhi does in speech."}
+{"id":"sandhi-2.14","p":"Type 多謝你 (thank you) in Tâi-lô","hint":"siā: tone 7 · lí: the neutral tone, after --","why":"lí after -- has the neutral tone, but the spelling keeps its tone 2 mark."}
+{"id":"greetings.01","q":"Good morning! (to an older man)","why":"𠢕早 is good morning; 阿伯 is a polite word for an older man."}
+{"id":"greetings.02","q":"A neighbor asks you 你食飽未？ What is she doing?","o":["Saying a friendly hello","Inviting you to dinner","Asking you to leave","Saying sorry"],"why":"你食飽未？ is a greeting; answer 食飽矣 or greet back."}
+{"id":"greetings.03","q":"You bump into someone on the MRT. You say…","why":"歹勢 means excuse me, sorry (MOE: 不好意思、對不起、抱歉)."}
+{"id":"greetings.04","q":"Which is the Tâi-lô of 再會 (goodbye)?","why":"tsài has tone 3 (grave) and huē has tone 7 (macron)."}
+{"id":"greetings.05","q":"You meet your friend's parents for the first time. You say…","why":"請你多多指教 is the set phrase for nice to meet you."}
+{"id":"greetings.06","p":"Build 再會 (goodbye) in Tâi-lô","why":"tsài has tone 3, the grave mark; the acute would be tone 2."}
+{"id":"greetings.07","p":"Build 𠢕早 (good morning) in Tâi-lô","why":"gâu has tone 5, the circumflex; the acute would be tone 2."}
+{"id":"greetings.08","p":"Nice to meet you.","why":"Taigi has one word for you, 你; 您 is Mandarin."}
+{"id":"greetings.09","p":"Good morning, sir.","why":"Good morning is 𠢕早: 阿伯𠢕早."}
+{"id":"greetings.10","p":"Have you eaten? (a friendly hello)","why":"未 at the end asks yet?; 嗎, 呢 and 吧 are Mandarin."}
+{"id":"greetings.11","p":"Thank you! (use 多謝)","why":"Thank you is 多謝你, with 你 said light."}
+{"id":"greetings.12","p":"Type 多謝 (thanks) in Tâi-lô","hint":"to: tone 1, no mark · siā: tone 7, or type sia7","why":"siā has tone 7, the macron; the grave would be tone 3."}
+{"id":"greetings.13","p":"Type 歹勢 (sorry) in Tâi-lô","hint":"ph with a puff · sè: tone 3, or type se3","why":"sè has tone 3, the grave; the acute would be tone 2."}
+{"id":"greetings.14","p":"Have you eaten? (greet a friend, starting with 你)","why":"未 at the end makes the greeting: 你食飽未？ Mandarin 嗎 is not Taigi."}
+{"id":"characters.01","q":"I'm not a student. (in Taigi characters)","why":"The Taigi not before 是 is 毋: 我毋是學生."}
+{"id":"characters.02","q":"She's at home =","why":"Taigi writes at as 佇; 在 is Mandarin."}
+{"id":"characters.03","q":"Which is the MOE character for beautiful?","why":"Beautiful is 媠 suí; 水 is water, and 漂亮 is Mandarin."}
+{"id":"characters.04","q":"Which is the Tâi-lô of 佇 (at; in)?","why":"佇 has tone 7, the macron: tī."}
+{"id":"characters.05","q":"In a Taigi text, which character means eat?","why":"Taigi eat is 食 tsia̍h; 吃 is Mandarin, and 飯 is rice."}
+{"id":"characters.06","p":"this book","why":"Books take the classifier 本: 這本冊."}
+{"id":"characters.07","p":"two people","why":"Before a classifier, two is 兩: 兩个人."}
+{"id":"characters.08","p":"I eat at home.","why":"Place with 佇 goes before the verb: 我佇厝裡食飯."}
+{"id":"characters.09","p":"I'm not a student.","why":"Not before 是 is 毋: 毋是."}
+{"id":"characters.10","p":"She's at home.","why":"At is 佇 in Taigi; 在 is Mandarin."}
+{"id":"characters.11","p":"I'm going to drink tea.","why":"Going to is 欲; 要 is Mandarin."}
+{"id":"characters.12","p":"two books","why":"Books take the classifier 本, and two is 兩: 兩本冊."}
+{"id":"characters.13","p":"this book","why":"這 needs a classifier before the noun: 這本冊."}
+{"id":"characters.14","p":"She's at home.","why":"At is 佇, not Mandarin 在: 伊佇厝裡."}
+{"id":"classroom.01","q":"Ask the teacher to say it again.","why":"Times take the classifier 擺, and 閣 goes before 講: 請閣講一擺."}
+{"id":"classroom.02","q":"You don't know the answer. You say…","why":"Taigi I don't know is 我毋知; 不 and 沒 are Mandarin."}
+{"id":"classroom.03","q":"The teacher is speaking too fast. You say…","why":"慢慢仔 (slowly) goes before 講 (speak); 說 is Mandarin."}
+{"id":"classroom.04","q":"Which is the Tâi-lô of 老師 (teacher)?","why":"lāu has tone 7, the macron."}
+{"id":"classroom.05","q":"How do you address Teacher Lîm?","why":"The surname goes before the title: 林老師."}
+{"id":"classroom.06","p":"Please say it once more.","why":"Times are counted with the classifier 擺: 一擺."}
+{"id":"classroom.07","p":"I study at home.","why":"Place with 佇 goes before the verb: 我佇厝裡讀冊."}
+{"id":"classroom.08","p":"I don't know. (start with 我)","why":"Not is 毋 in Taigi: 我毋知. 不 is Mandarin."}
+{"id":"classroom.09","p":"Please say it once more.","why":"Times take the classifier 擺: 一擺."}
+{"id":"classroom.10","p":"I don't know.","why":"The Taigi not here is 毋: 我毋知影."}
+{"id":"classroom.11","p":"Please say it once more.","why":"講 means say: 請閣講一擺."}
+{"id":"classroom.12","p":"Please say it once more.","why":"Times take the classifier 擺: 一擺."}
+{"id":"classroom.13","p":"Please say it two more times.","why":"Before the classifier 擺, two is 兩: 兩擺."}
+{"id":"classroom.14","p":"I don't know. (start with 我)","why":"Not is 毋 in Taigi: 我毋知. 不 is Mandarin."}
+{"id":"si.01","q":"I'm a student =","why":"是 goes between the two nouns: 我是學生."}
+{"id":"si.02","q":"She's very pretty =","why":"No 是 before an adjective: 真 does the job."}
+{"id":"si.03","q":"Inviting a friend to the night market, which word for we do you use?","why":"咱 includes the person you are talking to."}
+{"id":"si.04","q":"they; them =","why":"They is 𪜶; 伊 is only he or she, and 他們 is Mandarin."}
+{"id":"si.05","q":"Which is the Tâi-lô of 毋是 (isn't)?","why":"Both syllables have tone 7, the macron: m̄ sī."}
+{"id":"si.06","p":"The two of them get along well.","why":"兩 before the classifier 个, and no 是 before 真好."}
+{"id":"si.07","p":"We (not you) eat at home.","why":"Place with 佇 goes before the verb; 阮 leaves the listener out."}
+{"id":"si.08","p":"I'm not a teacher.","why":"The negative of 是 is 毋是; 不 is Mandarin."}
+{"id":"si.09","p":"I'm not a student.","why":"The negative of 是 is 毋是."}
+{"id":"si.10","p":"Let's go stroll the night market. (you and me)","why":"An invitation includes the listener, so we is 咱."}
+{"id":"si.11","p":"His wife is beautiful.","why":"No 是 before an adjective: 真媠."}
+{"id":"si.12","p":"That person is a teacher.","why":"彼 + the classifier 个 + noun: 彼个人."}
+{"id":"si.13","p":"This person isn't a student.","why":"People take the classifier 个: 這个人, then 毋是."}
+{"id":"si.14","p":"We (not you) are students.","why":"Leaving the listener out, we is 阮."}
+{"id":"intro.01","q":"'What's your name?' =","why":"The question word stays where the answer goes: 號做啥物名, answered 號做阿美仔."}
+{"id":"intro.02","q":"Someone asks you 貴姓？ You answer…","why":"貴姓 asks for your surname; answer with 姓 and the surname."}
+{"id":"intro.03","q":"'I'm a student.' =","why":"是 joins two nouns, and nothing like 'a' goes before 學生."}
+{"id":"intro.04","q":"Which is the Tâi-lô of 林 (the surname Lin)?","why":"林 has tone 5, written with the circumflex: Lîm."}
+{"id":"intro.05","q":"'I live in Taipei.' =","why":"蹛 (live) is followed by 佇 and the place: 蹛佇臺北."}
+{"id":"intro.06","p":"I study in Taipei. (start with I)","why":"Place with 佇 goes before the verb: 佇臺北讀冊. 在 is Mandarin."}
+{"id":"intro.07","p":"I eat at home. (start with I)","why":"Place with 佇 goes before the verb: 佇厝裡食飯."}
+{"id":"intro.08","p":"What's your name?","why":"The question word stays where the answer goes: 你號做啥物名？"}
+{"id":"intro.09","p":"My surname is Lîm.","why":"姓 is the verb 'to have the surname': 我姓林."}
+{"id":"intro.10","p":"I'm a student.","why":"是 joins two nouns: 我是學生."}
+{"id":"intro.11","p":"I live in Taipei.","why":"蹛佇 + place: live in. 在 is the Mandarin word, never Taigi."}
+{"id":"intro.12","p":"I study in Taipei. (start with I)","hint":"the place comes first","why":"Place with 佇 goes before the verb: 我佇臺北讀冊."}
+{"id":"intro.13","p":"I study at home. (start with I)","why":"Place with 佇 goes before the verb: 我佇厝裡讀冊."}
+{"id":"intro.14","p":"I'm a student.","why":"是 joins two nouns, with nothing for 'a': 我是學生."}
+{"id":"questions.01","q":"'What do you want to eat?' =","why":"The question word stays where the answer goes, after 食."}
+{"id":"questions.02","q":"Which word asks 'who'?","why":"啥人 is who; 啥物 what, 佗位 where, 當時 when."}
+{"id":"questions.03","q":"'Where's the restroom?' =","why":"The thing, then 佇, then the place word: 便所佇佗位？"}
+{"id":"questions.04","q":"Which is the Tâi-lô of 佗位 (where)?","why":"佗 has tone 2, the acute mark: tó-uī."}
+{"id":"questions.05","q":"Your friend says 我欲食炒飯. To ask 'And you?' you say…","why":"咧 after the person bounces the question back: 你咧？"}
+{"id":"questions.06","p":"Where do you eat? (start with you)","why":"Place with 佇 goes before the verb, even when the place is the question word 佗位."}
+{"id":"questions.07","p":"When are you coming? (start with you)","why":"Time goes before the verb: 當時 comes before 欲來."}
+{"id":"questions.08","p":"Who is he?","why":"啥人 goes where the person would be: 伊是啥人？ 誰 is Mandarin."}
+{"id":"questions.09","p":"Who is he?","why":"啥人 asks who, in the place of the answer."}
+{"id":"questions.10","p":"Where are you going?","why":"佗位 asks where; it stays after 去, where the place would be."}
+{"id":"questions.11","p":"When are you coming?","why":"當時 asks when and goes before the verb, like any time word."}
+{"id":"questions.12","p":"Where do you eat? (start with you)","why":"Place with 佇 goes before the verb: 你佇佗位食飯？"}
+{"id":"questions.13","p":"When are you going? (start with you)","why":"Time goes before the verb: 當時 comes before 欲去."}
+{"id":"questions.14","p":"And you?","hint":"咧 at the end","why":"咧 after the person sends the question back: 你咧？ 呢 is Mandarin."}
+{"id":"numbers.01","q":"How do you say 'two people'?","why":"Before a classifier, two is 兩, and 个 comes between the number and 人."}
+{"id":"numbers.02","q":"In a phone number such as 空九八三, which readings do the digits take?","o":["The literary readings, every digit","The counting readings","Literary for 空, counting for the rest","Counting for 空, literary for the rest"],"why":"A phone number is read digit by digit in the literary readings, all the way through."}
+{"id":"numbers.03","q":"'twelve' =","why":"Ten, two: 十二. 兩 is only for two of something, before a classifier."}
+{"id":"numbers.04","q":"'How old are you?' =","why":"幾 (how many) goes before 歲 (years old), where the number would be."}
+{"id":"numbers.05","q":"Which is the Tâi-lô of 兩 (two, before a classifier)?","why":"兩 is a syllabic ng with tone 7, the macron: nn̄g."}
+{"id":"numbers.06","p":"two people","why":"Before a classifier, two is 兩: 兩个人."}
+{"id":"numbers.07","p":"three bowls of rice","why":"Rice by the bowl takes the classifier 碗: 三碗飯."}
+{"id":"numbers.08","p":"the digits 0983, as in a phone number","why":"空 is zero in a phone number; 零 is Mandarin. Each digit is its own tile."}
+{"id":"numbers.09","p":"two people","why":"Before a classifier, two is 兩, never 二."}
+{"id":"numbers.10","p":"I'm thirty.","why":"Three, ten: 三十 is thirty."}
+{"id":"numbers.11","p":"What's your phone number?","why":"幾 asks for a number: 你的電話幾號？"}
+{"id":"numbers.12","p":"two people","why":"Before the classifier 个, two is 兩: 兩个人."}
+{"id":"numbers.13","p":"twelve","why":"Ten, two: 十二. Here 二 is right, because no classifier follows."}
+{"id":"numbers.14","p":"three bowls of rice","why":"Rice by the bowl takes the classifier 碗: 三碗飯."}
+{"id":"family.01","q":"'mom' =","why":"Mom is 阿母. 阿媽 is grandma; 媽媽 is Mandarin."}
+{"id":"family.02","q":"'grandma' =","why":"阿媽 is grandma; 阿母 is mom, 阿姊 an older sister, 阿姨 an aunt."}
+{"id":"family.03","q":"𪜶某真媠 means…","o":["His wife is beautiful.","My wife is beautiful.","Your wife is beautiful.","They are beautiful."],"why":"𪜶 works as 'his' or 'their' before a family word, and 某 is wife."}
+{"id":"family.04","q":"In 外公 (mother's father), which tone is the first syllable said in?","o":["tone 3","tone 7","tone 2","tone 1"],"why":"Tone sandhi: in guā-kong the first syllable has tone 7, and tone 7 is said as tone 3 before another syllable."}
+{"id":"family.05","q":"'older sister' =","why":"阿姊 is an older sister; 阿兄 an older brother, 小弟 a younger brother, 後生 a son."}
+{"id":"family.06","p":"two sons","why":"Before the classifier 个, two is 兩: 兩个後生."}
+{"id":"family.07","p":"two older brothers","why":"Before the classifier 个, two is 兩: 兩个阿兄."}
+{"id":"family.08","p":"My dad is a teacher. (use 阮)","why":"阮 works as 'my' before 阿爸. 爸爸 is the Mandarin word."}
+{"id":"family.09","p":"And your little brother?","why":"恁 (you all) is 'your' before a family word."}
+{"id":"family.10","p":"My mom is a teacher.","why":"Mom is 阿母; 阿媽 is grandma and 媽媽 is Mandarin."}
+{"id":"family.11","p":"The two of them get along really well.","why":"People take the classifier 个: 𪜶兩个."}
+{"id":"family.12","p":"two sons","why":"Before the classifier 个, two is 兩: 兩个後生."}
+{"id":"family.13","p":"the two of them","why":"Before the classifier 个, two is 兩: 𪜶兩个."}
+{"id":"family.14","p":"My dad is a teacher. (use 阮)","why":"阮 is 'my' before a family word, and 是 joins the two nouns."}
+{"id":"u-bo.01","q":"'I don't have any money.' =","why":"The negative of 有 is 無; 毋 never goes with 有, and 不 is Mandarin."}
+{"id":"u-bo.02","q":"Which one is a yes/no question?","why":"無 at the end turns the sentence into a question: you have a book, or not?"}
+{"id":"u-bo.03","q":"'Is this yours?' =","why":"敢 goes after the subject, right before 是."}
+{"id":"u-bo.04","q":"In 你欲去無？, how is the last word, 無, said?","o":["In the neutral tone: light and short","With a full tone 5 rise","With an English question rise","It is not said at all"],"why":"A question particle at the end takes the neutral tone; the Tâi-lô shows it with --: Lí beh khì--bô?"}
+{"id":"u-bo.05","q":"'I've been there.' =","why":"有 + verb + 過 at the end: have ever done it. 無 would make it 'I haven't'."}
+{"id":"u-bo.06","p":"I have a younger brother.","why":"People take the classifier 个: 一个小弟. 本 is for books."}
+{"id":"u-bo.07","p":"Is there tea here?","why":"The place word 遮 goes before the verb 有, and 無 at the end asks the question."}
+{"id":"u-bo.08","p":"Do you have a book?","why":"無 at the end asks have-or-not; 毋 never goes with 有."}
+{"id":"u-bo.09","p":"Do you have a book?","why":"無 at the end makes a yes/no question; 嗎 and 不 are Mandarin."}
+{"id":"u-bo.10","p":"I don't have any money.","why":"The negative of 有 is 無: 我無錢."}
+{"id":"u-bo.11","p":"Is this yours?","why":"敢 before 是 asks a yes/no question: 這敢是你的？"}
+{"id":"u-bo.12","p":"I have two books.","why":"Before the classifier 本, two is 兩: 兩本冊."}
+{"id":"u-bo.13","p":"I have a younger brother.","why":"People take the classifier 个: 一个小弟."}
+{"id":"u-bo.14","p":"I don't have any money.","why":"The negative of 有 is 無, never 毋: 我無錢."}
+{"id":"classifiers.01","q":"'one person' =","why":"A number needs a classifier before the noun; people take 个."}
+{"id":"classifiers.02","q":"Which classifier goes with 冊 (book)?","why":"Books take 本: 兩本冊."}
+{"id":"classifiers.03","q":"'this book' =","why":"這 + classifier + noun: 這本冊."}
+{"id":"classifiers.04","q":"Which is the Tâi-lô of 本 (the classifier for books)?","why":"本 has tone 2, the acute mark: pún."}
+{"id":"classifiers.05","q":"這 is read differently in 這敢是你的？ than in 這本冊, because…","o":["no classifier follows it","it is a question","敢 is a classifier","it is the Taipei accent"],"why":"Before a classifier 這 has one reading; standing for 'this thing' it has another."}
+{"id":"classifiers.06","p":"two books","why":"Before the classifier 本, two is 兩: 兩本冊."}
+{"id":"classifiers.07","p":"this dog","why":"這 + classifier + noun; animals take the classifier 隻."}
+{"id":"classifiers.08","p":"three cups of tea","why":"Tea by the cup takes the classifier 杯: 三杯茶."}
+{"id":"classifiers.09","p":"one person","why":"People take the general classifier 个: 一个人."}
+{"id":"classifiers.10","p":"two books","why":"Books take the classifier 本: 兩本冊."}
+{"id":"classifiers.11","p":"that cat","why":"Animals take the classifier 隻: 彼隻貓."}
+{"id":"classifiers.12","p":"this book","why":"這 + classifier + noun: books take 本."}
+{"id":"classifiers.13","p":"two dogs","why":"Before the classifier 隻, two is 兩: 兩隻狗."}
+{"id":"classifiers.14","p":"a cup of tea","why":"Tea by the cup takes the classifier 杯: 一杯茶."}
+{"id":"prices.01","q":"'How much is it?' =","why":"偌濟錢 is literally how-much money; 幾號 asks for a number such as a phone number."}
+{"id":"prices.02","q":"'300 dollars' =","why":"箍 comes after the number, like a classifier: 三百箍."}
+{"id":"prices.03","q":"'This is so expensive, don't buy it!' =","why":"No 是 before an adjective, and 'don't!' is 莫 (MOE: 這遮貴，莫買啦！). 不要 and 別 are Mandarin."}
+{"id":"prices.04","q":"Which is the Tâi-lô of 箍 (dollar)?","why":"箍 has tone 1, so no tone mark, and the vowel is oo: khoo."}
+{"id":"prices.05","q":"Which word means 'cheap'?","why":"俗 is cheap; 貴 expensive, 傷 too, 濟 many."}
+{"id":"prices.06","p":"How much is a bowl of noodles? (start with 一)","why":"Noodles by the bowl take the classifier 碗: 一碗麵."}
+{"id":"prices.07","p":"35 dollars","why":"箍 is the classifier for dollars and comes after the number. 元 is Mandarin."}
+{"id":"prices.08","p":"too expensive","why":"傷 goes right before the adjective, and no 是 is needed."}
+{"id":"prices.09","p":"This is so expensive, don't buy it!","why":"'Don't!' is 莫: 莫買啦 (an MOE sentence). 不要, 別 and 不 are Mandarin."}
+{"id":"prices.10","p":"The fruit at that stall is cheaper.","why":"俗 is cheap; 較俗 is cheaper."}
+{"id":"prices.11","p":"How much is a bowl of noodles?","why":"偌濟錢 asks the price."}
+{"id":"prices.12","p":"How much is a bowl of noodles?","why":"Noodles by the bowl take the classifier 碗: 一碗麵偌濟錢？"}
+{"id":"prices.13","p":"two cups of tea","why":"Before the classifier 杯, two is 兩: 兩杯茶."}
+{"id":"prices.14","p":"too expensive","why":"傷 means too and goes right before the adjective, with no 是."}
+{"id":"want.01","q":"'I want to drink tea.' =","why":"欲 goes before the verb; 要 and 喝 are Mandarin."}
+{"id":"want.02","q":"欲落雨矣 means…","o":["It's about to rain.","I want rain.","It rained yesterday.","It never rains."],"why":"With the weather, 欲 is about to; 矣 marks the change."}
+{"id":"want.03","q":"'I'd like to go to the restroom.' =","why":"想欲 is the polite 'would like', right before the verb 去."}
+{"id":"want.04","q":"In 夜市 (night market), which tone is the first syllable said in?","o":["tone 3","tone 7","tone 2","tone 5"],"why":"Tone sandhi: in iā-tshī the first syllable has tone 7, and tone 7 is said as tone 3 before another syllable."}
+{"id":"want.05","q":"'I don't want it.' =","why":"無愛 is don't want; 不要 is Mandarin."}
+{"id":"want.06","p":"I'll have two bowls of noodles.","why":"Before the classifier 碗, two is 兩: 兩碗麵."}
+{"id":"want.07","p":"I'd like to drink a cup of tea.","why":"Tea by the cup takes the classifier 杯; 本 is for books."}
+{"id":"want.08","p":"I don't want to eat meat.","why":"無愛 is don't want; 毋 would mean refusing."}
+{"id":"want.09","p":"I'll have fried rice, and you?","why":"欲 + verb orders food; 要 and 吃 are Mandarin."}
+{"id":"want.10","p":"Be careful when you walk.","why":"In advice, 愛 means must; 要 is Mandarin."}
+{"id":"want.11","p":"It's about to rain.","why":"矣 at the end shows the change is coming; 了 is Mandarin."}
+{"id":"want.12","p":"I want to drink a cup of tea. (use 欲)","why":"Tea by the cup takes the classifier 杯: 一杯茶."}
+{"id":"want.13","p":"I want to eat three bowls of rice. (use 欲)","why":"Rice by the bowl takes the classifier 碗: 三碗飯."}
+{"id":"want.14","p":"I don't want to eat meat.","why":"The negative of 愛 is 無愛; 毋 means refusing."}
+{"id":"place.01","q":"'She's at home.' =","why":"佇 alone means is at, with no 是; 在 is Mandarin."}
+{"id":"place.02","q":"'The cat is under the chair.' =","why":"The place word comes after the noun: 椅仔下跤."}
+{"id":"place.03","q":"'I eat at home.' =","why":"Place with 佇 goes before the verb: 佇厝裡食飯. 吃 and 在 are Mandarin."}
+{"id":"place.04","q":"In 頂懸 (on top), which tone is the first syllable said in?","o":["tone 1","tone 2","tone 3","tone 7"],"why":"Tone sandhi: in tíng-kuân the first syllable has tone 2, and tone 2 is said as tone 1 before another syllable."}
+{"id":"place.05","q":"Which word means 'there'?","why":"遐 is there; 遮 is here."}
+{"id":"place.06","p":"He studies at home. (start with he)","why":"Place with 佇 goes before the verb: 佇厝裡讀冊."}
+{"id":"place.07","p":"The cat is under the chair.","why":"The place word follows the noun: 椅仔下跤. 頂懸 would be on top."}
+{"id":"place.08","p":"We eat here. (we = you and me: use 咱, start with it)","why":"Place with 佇 goes before the verb: 佇遮食飯."}
+{"id":"place.09","p":"The cat is under the chair.","why":"下跤 is under, and it follows the noun 椅仔."}
+{"id":"place.10","p":"You walk in front, I'll follow you.","why":"頭前 is in front."}
+{"id":"place.11","p":"He's sleeping at home now.","why":"佇 + place before the verb; 在 is Mandarin."}
+{"id":"place.12","p":"He studies at home. (start with he)","why":"Place with 佇 goes before the verb: 伊佇厝裡讀冊."}
+{"id":"place.13","p":"I eat here. (start with I)","why":"Place with 佇 goes before the verb: 我佇遮食飯."}
+{"id":"place.14","p":"Where's the restroom?","why":"The thing, then 佇, then the question word where the place would be: 便所佇佗位？"}
+{"id":"directions.01","q":"Which word means 'turn'?","why":"斡 is turn; 行 is walk, 到 is arrive, 坐 is sit or ride."}
+{"id":"directions.02","q":"'right hand' =","why":"正手 is the right hand; 倒手 is the left hand."}
+{"id":"directions.03","q":"'Turn left' =","why":"斡 (turn) + 倒爿 (the left side)."}
+{"id":"directions.04","q":"In 正手 (tsiànn-tshiú), which tone is tsiànn said in?","o":["tone 2","tone 3","tone 1","tone 7"],"why":"tsiànn has tone 3 (the grave mark); in sandhi, tone 3 becomes tone 2."}
+{"id":"directions.05","q":"Which sentence means 'Turn right at the intersection ahead and you're there'?","why":"The place, 頭前路口, comes first; 斡正爿 is turn right."}
+{"id":"directions.06","p":"Turn right at the intersection.","why":"The place word 路口 goes before the verb 斡."}
+{"id":"directions.07","p":"Turn right at the intersection ahead. (start with 頭前)","why":"Where comes first: 頭前路口 goes before the verb 斡."}
+{"id":"directions.08","p":"Where is the restroom?","why":"佗位 (where) sits in the place slot after 佇, where the answer will go."}
+{"id":"directions.09","p":"Turn right at the intersection ahead and you're there.","why":"斡 is followed by the side: 正爿, the right side."}
+{"id":"directions.10","p":"Go straight and you're there.","why":"直直 (straight) comes before 行 (go)."}
+{"id":"directions.11","p":"He writes and eats with his left hand.","why":"The left hand is 倒手; 倒爿 is the left side, not a hand."}
+{"id":"directions.12","p":"Turn left at the intersection. (start with 路口)","hint":"the place comes first","why":"The place 路口 comes before the verb 斡."}
+{"id":"directions.13","p":"Turn right at the intersection ahead and you're there. (start with 頭前)","why":"頭前路口 is the place, so it goes before the verb 斡."}
+{"id":"directions.14","p":"Where is the restroom?","why":"Thing + 佇 + 佗位: the question word stays where the answer goes."}
+{"id":"go-come.01","q":"'MRT' =","why":"捷運 is the MRT; 火車 is a train and 高鐵 high-speed rail."}
+{"id":"go-come.02","q":"Which word means 'come'?","why":"來 is come, toward you; 去 is go, away from you."}
+{"id":"go-come.03","q":"'Let's go and stroll around the night market' =","why":"咱 is we with you included, so it invites the listener."}
+{"id":"go-come.04","q":"In 高鐵 (Ko-thih), which tone is Ko said in?","o":["tone 7","tone 1","tone 3","tone 2"],"why":"Ko has tone 1; in sandhi, tone 1 becomes tone 7."}
+{"id":"go-come.05","q":"'I'll get off at Taipei Main Station' =","why":"佇 + the place comes before the verb 落車 (get off), as in the MOE sentence; 在 is Mandarin."}
+{"id":"go-come.06","p":"I go to the park by MRT.","why":"The means, 坐捷運, comes before the verb 去."}
+{"id":"go-come.07","p":"I'll get off at Taipei Main Station.","why":"Place with 佇 goes before the verb: 佇臺北車頭落車."}
+{"id":"go-come.08","p":"Let's go and stroll around the night market.","why":"咱 includes the listener; 阮 leaves them out."}
+{"id":"go-come.09","p":"I'm going to Tainan by train.","why":"You ride a vehicle with 坐: 坐火車."}
+{"id":"go-come.10","p":"He'll come.","why":"來 is come; 去 would be go."}
+{"id":"go-come.11","p":"I'll get off at Taipei Main Station.","why":"落車 is get off; 上車 is get on."}
+{"id":"go-come.12","p":"I go to the park by MRT. (start with 我)","hint":"how you go comes first","why":"坐捷運 goes before the verb 去."}
+{"id":"go-come.13","p":"He comes to Taipei by high-speed rail. (start with 伊)","why":"The means, 坐高鐵, goes before the verb 來."}
+{"id":"go-come.14","p":"I don't want to take a taxi. (use 無愛)","why":"無愛 is 'don't want'; 毋 would be a flat refusal."}
+{"id":"time.01","q":"'afternoon' =","why":"下晡 is afternoon; 中晝 is noon and 早起 morning."}
+{"id":"time.02","q":"'tomorrow' =","why":"明仔載 is tomorrow."}
+{"id":"time.03","q":"'Sunday' =","why":"禮拜日 is Sunday; 禮拜一 is Monday and 禮拜六 Saturday."}
+{"id":"time.04","q":"In 早起 (tsá-khí), which tone is tsá said in?","o":["tone 1","tone 2","tone 3","tone 7"],"why":"tsá has tone 2 (the acute mark); in sandhi, tone 2 becomes tone 1."}
+{"id":"time.05","q":"'He goes to the park to exercise every morning' =","why":"The time, 逐工早起, comes before the verb."}
+{"id":"time.06","p":"It's twelve: time for lunch!","why":"The time, 十二點, goes before the verb 食."}
+{"id":"time.07","p":"He'll come tomorrow. (start with 伊; use 欲)","why":"The time word 明仔載 goes before the verb."}
+{"id":"time.08","p":"What time is it now?","why":"幾點 asks the hour; the question word stays where the answer goes."}
+{"id":"time.09","p":"He goes to the park to exercise every morning.","why":"逐工 (every day) + 早起 (morning) is every morning."}
+{"id":"time.10","p":"It's twelve: time for lunch!","why":"中晝 is noon and lunch; 早起 would be breakfast."}
+{"id":"time.11","p":"He says he'll come again tomorrow.","why":"明仔載 is tomorrow."}
+{"id":"time.12","p":"I'm going to the night market on Sunday. (start with 禮拜日)","why":"The time, 禮拜日, comes before the verb."}
+{"id":"time.13","p":"He'll come tomorrow. (start with 伊)","hint":"欲 or 會 · 來","why":"The time word 明仔載 goes before the verb 來."}
+{"id":"time.14","p":"I didn't eat breakfast.","why":"For something that didn't happen, the negative is 無, not 毋."}
+{"id":"food.01","q":"'night market' =","why":"夜市 is the night market; 菜市仔 is the morning market."}
+{"id":"food.02","q":"'braised pork rice' =","why":"滷肉飯 is braised pork rice; 炒飯 is fried rice."}
+{"id":"food.03","q":"'It tastes bad' (the adjective) =","why":"歹食 is bad to eat; 歹勢 means sorry."}
+{"id":"food.04","q":"In 菜單 (tshài-tuann), which tone is tshài said in?","o":["tone 2","tone 3","tone 1","tone 7"],"why":"tshài has tone 3 (the grave mark); in sandhi, tone 3 becomes tone 2."}
+{"id":"food.05","q":"'Boss, two bowls of noodles!' =","why":"Two is 兩 before a classifier, and noodles come by the bowl: 兩碗麵."}
+{"id":"food.06","p":"two bowls of braised pork rice","why":"Before a classifier, two is 兩: 兩碗滷肉飯."}
+{"id":"food.07","p":"I'd like to drink a glass of oolong tea.","why":"Tea by the glass takes the classifier 杯."}
+{"id":"food.08","p":"I'll have fried rice, and you?","why":"咧 after 你 at the end asks 'and you?'"}
+{"id":"food.09","p":"Boss, a bowl of noodles!","why":"Noodles by the bowl take the classifier 碗."}
+{"id":"food.10","p":"This bowl of noodles is really good.","why":"No 是 before an adjective: a word for 'very' goes there instead."}
+{"id":"food.11","p":"What he cooks tastes awful.","why":"歹食 is bad to eat; 好食 is the opposite."}
+{"id":"food.12","p":"a bowl of noodles","why":"Noodles by the bowl take the classifier 碗."}
+{"id":"food.13","p":"Boss, two bowls of braised pork rice! (start with 頭家)","why":"Before a classifier, two is 兩, never 二."}
+{"id":"food.14","p":"I don't want fried rice.","why":"無愛 means 'don't want'; 毋 is a flat refusal."}
+{"id":"market.01","q":"'traditional market' =","why":"菜市仔 is the morning market; 夜市 is the night market."}
+{"id":"market.02","q":"'fruit' (in general) =","why":"水果 is fruit; 弓蕉 is one fruit, the banana."}
+{"id":"market.03","q":"Which is the Tâi-lô of 魚 (fish)?","why":"魚 has tone 5, the circumflex: hî."}
+{"id":"market.04","q":"卵 (egg) sounds exactly like which word?","why":"卵 and 兩 are both nn̄g; context tells them apart."}
+{"id":"market.05","q":"'The fruit at that stall is cheaper' =","why":"No 是 before 俗, and 彼 needs its classifier: 彼擔."}
+{"id":"market.06","p":"two eggs","why":"Eggs take the classifier 粒, and two is 兩 before it."}
+{"id":"market.07","p":"I want to buy a catty of meat.","why":"Meat by weight takes the classifier 斤: 一斤肉."}
+{"id":"market.08","p":"Boss, how much for a catty of bananas? (start with 頭家, then 弓蕉)","why":"The food, then the amount, then the question 偌濟錢."}
+{"id":"market.09","p":"Boss, how much for a catty of bananas?","why":"Fruit by weight takes 斤, the catty."}
+{"id":"market.10","p":"The fruit at that stall is cheaper.","why":"較俗 is cheaper; 較貴 would be more expensive."}
+{"id":"market.11","p":"I want to buy two eggs.","why":"Eggs take the classifier 粒."}
+{"id":"market.12","p":"two eggs","why":"Eggs take the classifier 粒, with 兩 for two."}
+{"id":"market.13","p":"I want to buy a catty of meat.","why":"Meat by weight takes the classifier 斤."}
+{"id":"market.14","p":"It's so expensive, don't buy it! (start with 這)","why":"莫 tells someone not to do it; 毋 is for refusing yourself."}
+{"id":"describing.01","q":"Which word can mean 'very' before an adjective?","why":"真, 誠 and 足 all mean very; 是 never stands before an adjective."}
+{"id":"describing.02","q":"'too salty' =","why":"傷 + adjective is too; 較 is more and 上 most."}
+{"id":"describing.03","q":"'best' =","why":"上 before an adjective is most: 上好."}
+{"id":"describing.04","q":"Which is the Tâi-lô of 寒 (cold)?","why":"寒 has tone 5, the circumflex: kuânn."}
+{"id":"describing.05","q":"'He has more candy than me' =","why":"A 比 B 較 + adjective: 比我較濟."}
+{"id":"describing.06","p":"this table","why":"這 + classifier + noun: tables take 塊."}
+{"id":"describing.07","p":"That table is lower.","why":"彼 + classifier before the noun: 彼塊桌仔, then 較低 with no 是."}
+{"id":"describing.08","p":"Tomorrow will be colder than today. (start with 明仔載 會)","why":"A 比 B 較 + adjective: 比今仔日較寒."}
+{"id":"describing.09","p":"It's very hot today.","why":"No 是 before an adjective; 真, 誠 or 足 goes there."}
+{"id":"describing.10","p":"He has more candy than me.","why":"比 introduces what you compare with."}
+{"id":"describing.11","p":"This table is lower than that one.","why":"Tables take the classifier 塊."}
+{"id":"describing.12","p":"This table is lower.","why":"這 + classifier + noun: 這塊桌仔."}
+{"id":"describing.13","p":"Tomorrow will be colder than today. (start with 明仔載 會)","why":"The time word 明仔載 comes before the verb 會, and 比 + 較 compare."}
+{"id":"describing.14","p":"It's very hot today. (start with 今仔日)","why":"No 是 before an adjective: 真熱, 誠熱 or 足熱."}
+{"id":"can.01","q":"'know how to' =","why":"會曉 is know how; 知影 is know a fact."}
+{"id":"can.02","q":"'may not; not allowed' =","why":"袂使 is may not; 袂曉 is don't know how."}
+{"id":"can.03","q":"'He'll come' =","why":"會 before the verb says it will happen."}
+{"id":"can.04","q":"In 會使 (ē-sái), which tone is ē said in?","o":["tone 3","tone 7","tone 2","tone 1"],"why":"ē has tone 7 (the macron); in sandhi, tone 7 becomes tone 3."}
+{"id":"can.05","q":"'Can you sing this song?' =","why":"A song takes the classifier 條, and 會曉…袂 asks about a skill."}
+{"id":"can.06","p":"this song","why":"這 + classifier + noun: songs take 條."}
+{"id":"can.07","p":"I can't come tomorrow. (start with 我)","why":"The time word 明仔載 goes before the verb."}
+{"id":"can.08","p":"I can speak Taigi.","why":"A learned skill takes 會曉."}
+{"id":"can.09","p":"I can't speak Taigi.","why":"The negative of 會曉 is 袂曉; 不會 is Mandarin."}
+{"id":"can.10","p":"You may not go.","why":"袂使 is may not."}
+{"id":"can.11","p":"Can you sing this song?","why":"會曉…袂 at the end asks 'can you or not?'"}
+{"id":"can.12","p":"this song","why":"Songs take the classifier 條: 這條歌."}
+{"id":"can.13","p":"I can't come tomorrow. (start with 我; use 袂當)","why":"The time word 明仔載 goes before the verb 來."}
+{"id":"can.14","p":"I don't know how. (use 袂)","why":"Can't do a learned skill is 袂曉, the MOE's opposite of 會曉."}
+{"id":"negation.01","q":"'isn't' (the negative of 是) =","why":"The negative of 是 is 毋是."}
+{"id":"negation.02","q":"'No need!' =","why":"免 means no need; 莫 means don't."}
+{"id":"negation.03","q":"The negative of 有 (have) is…","why":"有 and 無 are a pair: have and don't have."}
+{"id":"negation.04","q":"In 免錢 (bián-tsînn, free of charge), which tone is bián said in?","o":["tone 1","tone 2","tone 3","tone 7"],"why":"bián has tone 2 (the acute mark); in sandhi, tone 2 becomes tone 1."}
+{"id":"negation.05","q":"'I told you not to come, and you came anyway.' =","why":"莫 tells someone not to do it (an MOE sentence); 不要, 別 and 不 are Mandarin."}
+{"id":"negation.06","p":"I don't want this book. (start with 我)","why":"這 + classifier + noun: books take 本, so 這本冊."}
+{"id":"negation.07","p":"I didn't buy two books.","why":"Before a classifier, two is 兩: 兩本冊."}
+{"id":"negation.08","p":"You don't need to come. (use 免)","why":"免 is no need; 袂 would be can't."}
+{"id":"negation.09","p":"I didn't eat breakfast.","why":"Didn't is 無."}
+{"id":"negation.10","p":"He isn't a teacher.","why":"The negative of 是 is 毋."}
+{"id":"negation.11","p":"I told you not to come, and you came anyway.","why":"Don't! is 莫 (MOE: 叫你莫來你閣來); 不, 別 and 沒 are Mandarin."}
+{"id":"negation.12","p":"I didn't buy two books.","why":"Books take the classifier 本, with 兩 for two."}
+{"id":"negation.13","p":"You don't need to come tomorrow. (start with 你)","why":"The time word 明仔載 goes before the verb; no need is 免."}
+{"id":"negation.14","p":"I don't want it.","why":"Don't want is 無愛; 毋 would be a refusal."}
+{"id":"aspect.01","q":"'He's studying' =","why":"咧 before the verb: the action is going on now."}
+{"id":"aspect.02","q":"'not yet' =","why":"猶未 is not yet; 已經 is already."}
+{"id":"aspect.03","q":"'He came again today' =","why":"矣 at the end shows the change has happened."}
+{"id":"aspect.04","q":"In 猶未 (iáu-buē), which tone is iáu said in?","o":["tone 1","tone 2","tone 3","tone 7"],"why":"iáu has tone 2 (the acute mark); in sandhi, tone 2 becomes tone 1."}
+{"id":"aspect.05","q":"'Have you heard this song?' =","why":"這 + classifier 條 + 歌, then 有 + verb + 過 and the question 無."}
+{"id":"aspect.06","p":"He's sleeping at home now. (start with 伊)","why":"Time and place come before the verb: 這馬佇厝裡咧睏."}
+{"id":"aspect.07","p":"Have you heard this song? (start with 這)","why":"A song takes the classifier 條: 這條歌."}
+{"id":"aspect.08","p":"I haven't eaten yet.","why":"猶未 before the verb means not yet."}
+{"id":"aspect.09","p":"He's studying.","why":"咧 before the verb: in progress."}
+{"id":"aspect.10","p":"It's about to rain.","why":"矣 at the end marks the change."}
+{"id":"aspect.11","p":"I haven't eaten yet.","why":"食飯 is eat (a meal)."}
+{"id":"aspect.12","p":"He's sleeping at home now. (start with 伊)","why":"Time and place go before the verb: 這馬佇厝裡咧睏."}
+{"id":"aspect.13","p":"Have you heard this song? (start with 這)","why":"Songs take the classifier 條."}
+{"id":"aspect.14","p":"I haven't eaten yet.","why":"猶未 is not yet; 毋 would be refuse."}

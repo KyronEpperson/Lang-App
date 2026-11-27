@@ -1,0 +1,24 @@
+{"id":"sounds","deck":"it.d.sounds-and-spelling","sections":[null,[{"deck":"it.d.sounds-and-spelling","n":[0,3]},{"deck":"it.d.sounds-and-spelling","n":[5,7]},{"deck":"it.d.sounds-and-spelling","n":[10,11]},{"deck":"it.d.sounds-and-spelling","n":[15,16]}],[{"deck":"it.d.sounds-and-spelling","n":[3,4]},{"deck":"it.d.sounds-and-spelling","n":[7,10]},{"deck":"it.d.sounds-and-spelling","n":[11,13]},{"deck":"it.d.sounds-and-spelling","n":[17,18]}],[{"deck":"it.d.sounds-and-spelling","n":[4,5]},{"deck":"it.d.sounds-and-spelling","n":[13,15]}],[{"deck":"it.d.sounds-and-spelling","n":[16,17]},{"ld":"it.ld.accent-marks","cards":[{"id":"it.lc0001","it":"la città","rom":"lah cheet-TAH"},{"id":"it.lc0002","it":"perché","rom":"pehr-KEH"},{"id":"it.lc0003","it":"più","rom":"pyoo"},{"id":"it.lc0004","it":"però","rom":"peh-ROH"},{"id":"it.lc0005","it":"il tè","rom":"eel teh"}]}],{"ld":"it.ld.whole-words","cards":[{"id":"it.lc0006","it":"la casa","rom":"lah KAH-sah"},{"id":"it.lc0007","it":"la cena","rom":"lah CHEH-nah"},{"id":"it.lc0008","it":"gli amici","rom":"lyee ah-MEE-chee"},{"id":"it.lc0009","it":"il gatto","rom":"eel GAHT-toh"},{"id":"it.lc0010","it":"oggi","rom":"OHD-jee"},{"id":"it.lc0011","it":"la famiglia","rom":"lah fah-MEE-lyah"},{"id":"it.lc0012","it":"il bagno","rom":"eel BAH-nyoh"},{"id":"it.lc0013","it":"il prosciutto","rom":"eel proh-SHOOT-toh"},{"id":"it.lc0014","it":"la scuola","rom":"lah SKWOH-lah"},{"id":"it.lc0015","it":"la piazza","rom":"lah PYAHT-tsah"},{"id":"it.lc0016","it":"la stazione","rom":"lah stah-TSYOH-neh"},{"id":"it.lc0017","it":"buono","rom":"BWOH-noh"},{"id":"it.lc0018","it":"ecco","rom":"EHK-koh"},{"id":"it.lc0019","it":"gli spaghetti","rom":"lyee spah-GHEHT-tee"},{"id":"it.lc0020","it":"dieci","rom":"DYEH-chee"},{"id":"it.lc0021","it":"la mattina","rom":"lah maht-TEE-nah"},{"id":"it.lc0022","it":"il caffè","rom":"eel kahf-FEH"},{"id":"it.lc0023","it":"il medico","rom":"eel MEH-dee-koh"}]},null],"tiles":[{"id":"it.tl001","items":[{"f":"b","r":"b"},{"f":"c","r":"k"},{"f":"d","r":"d"},{"f":"f","r":"f"},{"f":"g","r":"g"},{"f":"l","r":"l"},{"f":"m","r":"m"},{"f":"n","r":"n"},{"f":"p","r":"p"},{"f":"q","n":"it.tl001.10"},{"f":"s","r":"s"},{"f":"t","r":"t"},{"f":"v","r":"v"}]},{"id":"it.tl002","items":[{"f":"a","r":"ah"},{"f":"e","r":"eh"},{"f":"i","n":"it.tl002.03"},{"f":"o","r":"oh"},{"f":"u","n":"it.tl002.05"}]},{"id":"it.tl003","items":[{"f":"ca","n":"it.tl003.01"},{"f":"co","n":"it.tl003.02"},{"f":"cu","n":"it.tl003.03"},{"f":"ce","n":"it.tl003.04"},{"f":"ci","n":"it.tl003.05"},{"f":"che","n":"it.tl003.06"},{"f":"chi","n":"it.tl003.07"},{"f":"cia","n":"it.tl003.08"},{"f":"cio","n":"it.tl003.09"},{"f":"ciu","n":"it.tl003.10"},{"f":"ga","n":"it.tl003.11"},{"f":"go","n":"it.tl003.12"},{"f":"gu","n":"it.tl003.13"},{"f":"ge","n":"it.tl003.14"},{"f":"gi","n":"it.tl003.15"},{"f":"ghe","n":"it.tl003.16"},{"f":"ghi","n":"it.tl003.17"},{"f":"gia","n":"it.tl003.18"},{"f":"gio","n":"it.tl003.19"},{"f":"giu","n":"it.tl003.20"}]},{"id":"it.tl004","items":[{"f":"gn","n":"it.tl004.01"},{"f":"gli","n":"it.tl004.02"},{"f":"sce","n":"it.tl004.03"},{"f":"sci","n":"it.tl004.04"},{"f":"sch","n":"it.tl004.05"},{"f":"z","n":"it.tl004.06"},{"f":"zz","n":"it.tl004.07"},{"f":"h","n":"it.tl004.08"},{"f":"sv","n":"it.tl004.09"}]},{"id":"it.tl005","items":[{"f":"ll","r":"l-l"},{"f":"nn","r":"n-n"},{"f":"tt","r":"t-t"},{"f":"r","r":"r"},{"f":"rr","r":"rr"}]},{"id":"it.tl006","items":[{"f":"à","r":"ah"},{"f":"è","r":"eh"},{"f":"é","r":"eh"},{"f":"ì","n":"it.tl006.04"},{"f":"ò","r":"oh"},{"f":"ù","n":"it.tl006.06"}]}]}
+{"id":"greetings","deck":"it.d.greetings-and-courtesy"}
+{"id":"gender","deck":"it.d.people-and-family"}
+{"id":"articles","deck":"it.d.food-and-drink"}
+{"id":"pronouns","deck":"it.d.about-me"}
+{"id":"essere-avere","deck":"it.d.feelings-and-states"}
+{"id":"adjectives","deck":"it.d.shopping-and-clothes"}
+{"id":"present","deck":"it.d.work-and-study"}
+{"id":"questions","deck":"it.d.questions-and-connectors"}
+{"id":"ce","deck":"it.d.around-town-and-directions"}
+{"id":"numbers","deck":"it.d.numbers-time-and-prices"}
+{"id":"possessives","deck":"it.d.people-and-family"}
+{"id":"prepositions","deck":"it.d.travel-and-transport"}
+{"id":"irregular","deck":"it.d.days-dates-and-weather"}
+{"id":"modals","deck":"it.d.health-and-emergencies"}
+{"id":"piacere","deck":"it.d.likes-and-free-time"}
+{"id":"reflexive","deck":"it.d.home-and-routine"}
+{"id":"lo-la","deck":"it.d.shopping-and-clothes"}
+{"id":"imperative","deck":"it.d.cafe-and-menu-italian"}
+{"id":"passato","deck":"it.d.likes-and-free-time"}
+{"id":"passato-essere","deck":"it.d.travel-and-transport"}
+{"id":"adverbs","deck":"it.d.days-dates-and-weather"}
+{"id":"connectors","deck":"it.d.questions-and-connectors"}
+{"id":"sapere-conoscere","deck":"it.d.traps-for-english-speakers"}

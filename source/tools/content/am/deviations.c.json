@@ -1,0 +1,8 @@
+{
+  "lessons": {
+    "ethiopian-english": "am-only lesson (profile am.md §4 zones 4/11/15, §8), already recorded by the lead in deviations.p.json; rewritten by CONTENT-C from the scaffold's konglish: three groups (fine in Ethiopia / say this abroad; copied from Amharic; wrong everywhere); NEW English side; 16 practice items, 3 checks; deck 22 «ኢትዮጵያዊ እንግሊዝኛ፦ እዚህና ውጭ»"
+  },
+  "items": {},
+  "decks": {},
+  "extraLessons": ["ethiopian-english"]
+}

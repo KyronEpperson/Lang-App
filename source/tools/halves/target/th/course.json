@@ -1,0 +1,196 @@
+{
+ "target": "th",
+ "ttsLang": "th-TH",
+ "self": "ภาษาไทย",
+ "pack": {
+  "accents": true,
+  "keys": "à â á ǎ è ê é ě ì î í ǐ ò ô ó ǒ ù û ú ǔ",
+  "tilesDefault": true,
+  "romaAlmost": true
+ },
+ "features": {
+  "script": false,
+  "pron": false,
+  "conj": false,
+  "register": false,
+  "numbers": false,
+  "sound": false,
+  "strokes": false
+ },
+ "groups": [
+  {
+   "id": "th.grp.sounds-and-script",
+   "decks": [
+    "th.d.tones-and-vowel-length",
+    "th.d.consonants-mid-and-high-class",
+    "th.d.consonants-low-class",
+    "th.d.vowels-and-tone-marks"
+   ]
+  },
+  {
+   "id": "th.grp.first-steps",
+   "decks": [
+    "th.d.greetings-and-politeness",
+    "th.d.people-and-family",
+    "th.d.about-me",
+    "th.d.numbers-and-money"
+   ]
+  },
+  {
+   "id": "th.grp.everyday-words",
+   "decks": [
+    "th.d.counting-with-classifiers",
+    "th.d.food-and-drink",
+    "th.d.describing-things",
+    "th.d.time-and-days"
+   ]
+  },
+  {
+   "id": "th.grp.out-and-about",
+   "decks": [
+    "th.d.directions-and-places",
+    "th.d.getting-around",
+    "th.d.shopping-and-colors",
+    "th.d.health-and-feelings"
+   ]
+  },
+  {
+   "id": "th.grp.conversation",
+   "decks": [
+    "th.d.questions-and-requests",
+    "th.d.traps-for-english-speakers",
+    "th.d.compliments",
+    "th.d.flirting"
+   ]
+  },
+  {
+   "id": "th.grp.core-words",
+   "decks": [
+    "th.d.top-nouns",
+    "th.d.top-verbs",
+    "th.d.top-adjectives",
+    "th.d.top-adverbs",
+    "th.d.top-pronouns",
+    "th.d.top-prepositions",
+    "th.d.top-conjunctions",
+    "th.d.top-words",
+    "th.d.top-classifiers",
+    "th.d.top-particles"
+   ]
+  }
+ ],
+ "tags": {
+  "sounds-and-script": [
+   "th.d.tones-and-vowel-length",
+   "th.d.consonants-mid-and-high-class",
+   "th.d.consonants-low-class",
+   "th.d.vowels-and-tone-marks"
+  ],
+  "first-steps": [
+   "th.d.greetings-and-politeness",
+   "th.d.people-and-family",
+   "th.d.about-me",
+   "th.d.numbers-and-money"
+  ],
+  "everyday-words": [
+   "th.d.counting-with-classifiers",
+   "th.d.food-and-drink",
+   "th.d.describing-things",
+   "th.d.time-and-days"
+  ],
+  "out-and-about": [
+   "th.d.directions-and-places",
+   "th.d.getting-around",
+   "th.d.shopping-and-colors",
+   "th.d.health-and-feelings"
+  ],
+  "conversation": [
+   "th.d.questions-and-requests",
+   "th.d.traps-for-english-speakers",
+   "th.d.compliments",
+   "th.d.flirting"
+  ],
+  "core-words": [
+   "th.d.top-nouns",
+   "th.d.top-verbs",
+   "th.d.top-adjectives",
+   "th.d.top-adverbs",
+   "th.d.top-pronouns",
+   "th.d.top-prepositions",
+   "th.d.top-conjunctions",
+   "th.d.top-words",
+   "th.d.top-classifiers",
+   "th.d.top-particles"
+  ]
+ },
+ "goals": [],
+ "plans": [],
+ "titles": [
+  {
+   "id": "th.t01",
+   "level": 1
+  },
+  {
+   "id": "th.t03",
+   "level": 3
+  },
+  {
+   "id": "th.t05",
+   "level": 5
+  },
+  {
+   "id": "th.t08",
+   "level": 8
+  },
+  {
+   "id": "th.t12",
+   "level": 12
+  },
+  {
+   "id": "th.t16",
+   "level": 16
+  },
+  {
+   "id": "th.t20",
+   "level": 20
+  }
+ ],
+ "greet": [
+  {
+   "id": "th.h.night",
+   "th": "ฝันดีนะ"
+  },
+  {
+   "id": "th.h.morning",
+   "th": "อรุณสวัสดิ์"
+  },
+  {
+   "id": "th.h.afternoon",
+   "th": "สวัสดีตอนบ่าย"
+  },
+  {
+   "id": "th.h.evening",
+   "th": "สวัสดีตอนเย็น"
+  }
+ ],
+ "pairs": [],
+ "pause": {
+  "sets": [],
+  "idioms": []
+ },
+ "uiKeys": [
+  "Thai (required)",
+  "Thai, pronunciation, meaning, note — one per line (pronunciation/note optional)",
+  "Search a pattern, e.g. 에서 or 'want'",
+  "#sounds-and-script",
+  "#first-steps",
+  "#everyday-words",
+  "#out-and-about",
+  "#conversation",
+  "#core-words"
+ ],
+ "exportedFrom": {
+  "file": "tools/target/th/ (tools/target/gen.js th)",
+  "sha256_16": "7bd25f24be8d3dd5"
+ }
+}

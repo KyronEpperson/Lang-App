@@ -1,0 +1,364 @@
+{"id":"orders.01","lesson":"orders","t":"mc","o":["ብ","በ","ባ","ቦ"]}
+{"id":"orders.02","lesson":"orders","t":"mc","o":["ባ","በ","ቤ","ቡ"]}
+{"id":"orders.03","lesson":"orders","t":"mc","o":["ቤት","በር","ቡና","ገና"]}
+{"id":"orders.04","lesson":"orders","t":"mc","o":[null,null,null,null]}
+{"id":"orders.05","lesson":"orders","t":"mc","o":["ደህና ነህ","ደህና ነሽ","ነሽ ደህና","ደህና"]}
+{"id":"orders.06","lesson":"orders","t":"order","a":["ደህና","ነህ"],"x":["ነሽ"]}
+{"id":"orders.07","lesson":"orders","t":"order","a":["ደህና","ነሽ"],"x":["ነህ"]}
+{"id":"orders.08","lesson":"orders","t":"order","a":["ቡና","ቤት"],"x":["በር"]}
+{"id":"orders.09","lesson":"orders","t":"fill","q":"ቤ__","o":["ባ","ቡ","ቦ"],"a":["ት"],"xr":["ba","bu","bo"]}
+{"id":"orders.10","lesson":"orders","t":"fill","q":"ደህና __","o":["ነሽ","ነው","ናት"],"a":["ነህ","neh"],"xr":["nesh","new","nat"]}
+{"id":"orders.11","lesson":"orders","t":"fill","q":"ደህና __","o":["ነህ","ነው","ናት"],"a":["ነሽ","nesh"],"xr":["neh","new","nat"]}
+{"id":"orders.12","lesson":"orders","t":"type","a":["ደህና ነህ","dehna neh"],"x":["ነሽ"],"hint":{"am":"ደህና · ነህ","sep":" · "},"xr":["nesh"]}
+{"id":"orders.13","lesson":"orders","t":"type","a":["ደህና ነሽ","dehna nesh"],"x":["ነህ"],"hint":{"am":"ደህና · ነሽ","sep":" · "},"xr":["neh"]}
+{"id":"orders.14","lesson":"orders","t":"type","a":["ቡና ቤት","bunna bét"],"x":["በር"],"hint":{"am":"ቡና · ቤት","sep":" · "},"xr":["ber"]}
+{"id":"fidel-1.01","lesson":"fidel-1","t":"mc","o":["ቀ","በ","ተ","መ"]}
+{"id":"fidel-1.02","lesson":"fidel-1","t":"mc","o":[null,null,null,null]}
+{"id":"fidel-1.03","lesson":"fidel-1","t":"mc","o":["ሰላም","ሠላም","ሰላበ","ሳላም"]}
+{"id":"fidel-1.04","lesson":"fidel-1","t":"mc","o":["ልብ","ራስ","ቤት","በር"]}
+{"id":"fidel-1.05","lesson":"fidel-1","t":"mc","o":["ደህና ነሽ","ደህና ነህ","ነህ ደህና","ደህና"]}
+{"id":"fidel-1.06","lesson":"fidel-1","t":"order","a":["ደህና","ነህ"],"x":["ነሽ"]}
+{"id":"fidel-1.07","lesson":"fidel-1","t":"order","a":["ደህና","ነሽ"],"x":["ነህ"]}
+{"id":"fidel-1.08","lesson":"fidel-1","t":"order","a":["ቡና","ቤት"],"x":["በር"]}
+{"id":"fidel-1.09","lesson":"fidel-1","t":"fill","q":"ሰላ__","o":["ማ","ሜ","ሞ"],"a":["ም"],"xr":["ma"]}
+{"id":"fidel-1.10","lesson":"fidel-1","t":"fill","q":"ደህና __","o":["ነሽ","ናት","ነው"],"a":["ነህ","neh"],"xr":["nesh","nat","new"]}
+{"id":"fidel-1.11","lesson":"fidel-1","t":"fill","q":"ደህና __","o":["ነህ","ናት","ነው"],"a":["ነሽ","nesh"],"xr":["neh","nat","new"]}
+{"id":"fidel-1.12","lesson":"fidel-1","t":"type","a":["ደህና ነህ","dehna neh"],"x":["ነሽ"],"hint":{"am":"ደህና · ነህ","sep":" · "},"xr":["nesh"]}
+{"id":"fidel-1.13","lesson":"fidel-1","t":"type","a":["ደህና ነሽ","dehna nesh"],"x":["ነህ"],"hint":{"am":"ደህና · ነሽ","sep":" · "},"xr":["neh"]}
+{"id":"fidel-1.14","lesson":"fidel-1","t":"type","a":["ቡና ቤት","bunna bét"],"x":["በር"],"hint":{"am":"ቡና · ቤት","sep":" · "},"xr":["ber"]}
+{"id":"fidel-2.01","lesson":"fidel-2","t":"mc","o":["ከ","ቀ","ኸ","ኀ"]}
+{"id":"fidel-2.02","lesson":"fidel-2","t":"mc","o":["አ","ነ","ወ","ዘ"]}
+{"id":"fidel-2.03","lesson":"fidel-2","t":"mc","o":["ውሃ","አበባ","ሰላም","ቤት"]}
+{"id":"fidel-2.04","lesson":"fidel-2","t":"mc","o":["ሰላም አበበች","ሠላም አበበች","ሰላም አበባ","አበባ ሰላም"]}
+{"id":"fidel-2.05","lesson":"fidel-2","t":"mc","o":["ደህና ነው","ደህና ነሽ","ደህና ነህ","ነው ደህና"]}
+{"id":"fidel-2.06","lesson":"fidel-2","t":"order","a":["ደህና","ነህ"],"x":["ነሽ"]}
+{"id":"fidel-2.07","lesson":"fidel-2","t":"order","a":["ደህና","ነሽ"],"x":["ነህ"]}
+{"id":"fidel-2.08","lesson":"fidel-2","t":"order","a":["ሰላም","አበበች"],"x":["ቤት"]}
+{"id":"fidel-2.09","lesson":"fidel-2","t":"fill","q":"ው__","o":["ሁ","ለ","ነ"],"a":["ሃ"],"xr":["hu","le","ne"]}
+{"id":"fidel-2.10","lesson":"fidel-2","t":"fill","q":"ደህና __","o":["ነህ","ነው","ናት"],"a":["ነሽ","nesh"],"xr":["neh","new","nat"]}
+{"id":"fidel-2.11","lesson":"fidel-2","t":"fill","q":"ደህና __","o":["ነህ","ነሽ","ናት"],"a":["ነው","new"],"xr":["neh","nesh","nat"]}
+{"id":"fidel-2.12","lesson":"fidel-2","t":"type","a":["ደህና ነህ","dehna neh"],"x":["ነሽ"],"hint":{"am":"ደህና · ነህ","sep":" · "},"xr":["nesh"]}
+{"id":"fidel-2.13","lesson":"fidel-2","t":"type","a":["ደህና ነው","dehna new"],"x":["ነሽ"],"hint":{"am":"ደህና · ነው","sep":" · "},"xr":["nesh"]}
+{"id":"fidel-2.14","lesson":"fidel-2","t":"type","a":["ሰላም አበበች","አበበች ሰላም","selam abebech","abebech selam"],"x":["ቤት"],"hint":{"am":"ሰላም · አበበች","sep":" · "},"xr":["bét"]}
+{"id":"fidel-3.01","lesson":"fidel-3","t":"mc","o":["ጠ","ጨ","ፐ","ደ"]}
+{"id":"fidel-3.02","lesson":"fidel-3","t":"mc","o":["ፀ","ሰ","ሠ","ዘ"]}
+{"id":"fidel-3.03","lesson":"fidel-3","t":"mc","o":["ጤና","ደህና","ቡና","ገና"]}
+{"id":"fidel-3.04","lesson":"fidel-3","t":"mc","o":[null,null,null,null]}
+{"id":"fidel-3.05","lesson":"fidel-3","t":"mc","o":["ደህና ነህ","ደህና ነሽ","ነሽ ደህና","አቶ ነህ"]}
+{"id":"fidel-3.06","lesson":"fidel-3","t":"order","a":["ደህና","ነሽ"],"x":["ነህ"]}
+{"id":"fidel-3.07","lesson":"fidel-3","t":"order","a":["ደህና","ነህ"],"x":["ነሽ"]}
+{"id":"fidel-3.08","lesson":"fidel-3","t":"order","a":["አቶ","ከበደ"],"x":["ቡና"]}
+{"id":"fidel-3.09","lesson":"fidel-3","t":"fill","q":"ጤ__","o":["ነ","ን","ኖ"],"a":["ና"],"xr":["ne","no"]}
+{"id":"fidel-3.10","lesson":"fidel-3","t":"fill","q":"ደህና __","o":["ነሽ","ነው","ናት"],"a":["ነህ","neh"],"xr":["nesh","new","nat"]}
+{"id":"fidel-3.11","lesson":"fidel-3","t":"fill","q":"ደህና __","o":["ነህ","ነው","ናት"],"a":["ነሽ","nesh"],"xr":["neh","new","nat"]}
+{"id":"fidel-3.12","lesson":"fidel-3","t":"type","a":["ደህና ነሽ","dehna nesh"],"x":["ነህ"],"hint":{"am":"ደህና · ነሽ","sep":" · "},"xr":["neh"]}
+{"id":"fidel-3.13","lesson":"fidel-3","t":"type","a":["ደህና ነህ","dehna neh"],"x":["ነሽ"],"hint":{"am":"ደህና · ነህ","sep":" · "},"xr":["nesh"]}
+{"id":"fidel-3.14","lesson":"fidel-3","t":"type","a":["አቶ ከበደ","ato kebbede"],"x":["ቡና"],"hint":{"am":"አቶ · ከበደ","sep":" · "},"xr":["bunna"]}
+{"id":"reading.01","lesson":"reading","t":"mc","o":["ሀ, ሐ, ኀ, ኸ","ሰ, ሸ, ጸ","ቀ, ከ, ገ","ጠ, ተ, ደ"]}
+{"id":"reading.02","lesson":"reading","t":"mc","o":["ኳስ","ጓደኛ","አቧራ","አበባ"]}
+{"id":"reading.03","lesson":"reading","t":"mc","o":["መጽሐፍ","መጽሰፍ","መስሐፍ","ሀገር"]}
+{"id":"reading.04","lesson":"reading","t":"mc","o":[null,null,null,null]}
+{"id":"reading.05","lesson":"reading","t":"mc","o":["ደህና ነሽ","ደህና ነህ","ነህ ደህና","አዲስ ነሽ"]}
+{"id":"reading.06","lesson":"reading","t":"order","a":["ደህና","ነህ"],"x":["ነሽ"]}
+{"id":"reading.07","lesson":"reading","t":"order","a":["ደህና","ነሽ"],"x":["ነህ"]}
+{"id":"reading.08","lesson":"reading","t":"order","a":["አዲስ","አበባ"],"x":["ሀገር"]}
+{"id":"reading.09","lesson":"reading","t":"fill","q":"ኳ__","o":["ሰ","ሱ","ሶ"],"a":["ስ"],"xr":["se"]}
+{"id":"reading.10","lesson":"reading","t":"fill","q":"ደህና __","o":["ነሽ","ነው","ናት"],"a":["ነህ","neh"],"xr":["nesh","new","nat"]}
+{"id":"reading.11","lesson":"reading","t":"fill","q":"ደህና __","o":["ነህ","ነው","ናት"],"a":["ነሽ","nesh"],"xr":["neh","new","nat"]}
+{"id":"reading.12","lesson":"reading","t":"type","a":["ደህና ነህ","dehna neh"],"x":["ነሽ"],"hint":{"am":"ደህና · ነህ","sep":" · "},"xr":["nesh"]}
+{"id":"reading.13","lesson":"reading","t":"type","a":["ደህና ነሽ","dehna nesh"],"x":["ነህ"],"hint":{"am":"ደህና · ነሽ","sep":" · "},"xr":["neh"]}
+{"id":"reading.14","lesson":"reading","t":"type","a":["አዲስ አበባ","addis abeba"],"x":["ሀገር"],"hint":{"am":"አዲስ · አበባ","sep":" · "},"xr":["hager"]}
+{"id":"greetings.01","lesson":"greetings","t":"mc","o":["ሰላም","ጤና ይስጥልኝ","አመሰግናለሁ","ደህና ነኝ"]}
+{"id":"greetings.02","lesson":"greetings","t":"mc","o":["ደህና ዋልክ","ደህና ዋልሽ","ደህና ዋሉ","ደህና አደርክ"]}
+{"id":"greetings.03","lesson":"greetings","t":"mc","o":["ደህና አመሹ","ደህና አመሸህ","ደህና አመሸሽ","ደህና እደሩ"]}
+{"id":"greetings.04","lesson":"greetings","t":"mc","o":["ደህና ነኝ","ደህና ነህ","ደህና ነሽ","አመሰግናለሁ"]}
+{"id":"greetings.05","lesson":"greetings","t":"mc","o":["ደህና እደሪ","ደህና እደር","ደህና እደሩ","ደህና አደርሽ"]}
+{"id":"greetings.06","lesson":"greetings","t":"order","a":["ደህና","አደርክ"],"x":["አደርሽ"]}
+{"id":"greetings.07","lesson":"greetings","t":"order","a":["ደህና","አደርሽ"],"x":["አደርክ"]}
+{"id":"greetings.08","lesson":"greetings","t":"order","a":["ደህና","አደሩ"],"x":["አደርክ"]}
+{"id":"greetings.09","lesson":"greetings","t":"fill","q":"ደህና __","o":["ዋልክ","አደርሽ","ዋሉ"],"a":["ዋልሽ","walsh"],"xr":["walk","addersh","walu"]}
+{"id":"greetings.10","lesson":"greetings","t":"fill","q":"ደህና __","o":["እደር","እደሪ","አደሩ"],"a":["እደሩ","ideru"],"xr":["ideri","adderu"]}
+{"id":"greetings.11","lesson":"greetings","t":"fill","q":"አመሰግናለ__","o":["ህ","ሽ","ክ"],"a":["ሁ"],"xr":["shi"]}
+{"id":"greetings.12","lesson":"greetings","t":"type","a":["ደህና ዋልክ","dehna walk"],"x":["ዋልሽ"],"hint":{"am":"ደህና · ዋልክ","sep":" · "},"xr":["walsh"]}
+{"id":"greetings.13","lesson":"greetings","t":"type","a":["ደህና አመሸሽ","dehna amesshesh"],"x":["አመሸህ"],"hint":{"am":"ደህና · አመሸሽ","sep":" · "},"xr":["amessheh"]}
+{"id":"greetings.14","lesson":"greetings","t":"type","a":["አመሰግናለሁ","amesegginallehu"],"x":["ሰላም"],"hint":{"am":"አመሰግናለሁ","sep":" · "},"xr":["selam"]}
+{"id":"intro.01","lesson":"intro","t":"mc","o":["ስሜ አዳም ነው","ስሜ አዳም","ስሜ አዳም ነህ","አዳም ስሜ ነው"]}
+{"id":"intro.02","lesson":"intro","t":"mc","o":["ስምሽ ማን ነው","ስምህ ማን ነው","ስምዎ ማን ነው","ስምሽ ማን ነሽ"]}
+{"id":"intro.03","lesson":"intro","t":"mc","o":["ስምህ ማን ነው","ስምሽ ማን ነው","ስምዎ ማን ነው","ማን ስምህ ነው"]}
+{"id":"intro.04","lesson":"intro","t":"mc","o":["እኔ ትግስት ነኝ","ስሜ ትግስት ነኝ","እኔ ትግስት ነው","ትግስት እኔ ነኝ"]}
+{"id":"intro.05","lesson":"intro","t":"mc","o":["ስምዎ ማን ነው","ስምህ ማን ነው","ስምሽ ማን ነው","ስምዎ ማን ነህ"]}
+{"id":"intro.06","lesson":"intro","t":"order","a":["ስሜ","ትግስት","ነው"],"x":["ናት"]}
+{"id":"intro.07","lesson":"intro","t":"order","a":["ስምሽ","ማን","ነው"],"x":["ስምህ"]}
+{"id":"intro.08","lesson":"intro","t":"order","a":["ስምህ","ማን","ነው"],"x":["ስምሽ"]}
+{"id":"intro.09","lesson":"intro","t":"fill","q":"ስሜ ትግስት __","o":["ናት","ነኝ","ነሽ"],"a":["ነው","new"],"xr":["nat","neny","nesh"]}
+{"id":"intro.10","lesson":"intro","t":"fill","q":"ስም__ ማን ነው","o":["ህ","ዎ","ኝ"],"a":["ሽ"],"xr":["wo"]}
+{"id":"intro.11","lesson":"intro","t":"fill","q":"ስም__ ማን ነው","o":["ህ","ሽ","ኝ"],"a":["ዎ"],"xr":["shi"]}
+{"id":"intro.12","lesson":"intro","t":"type","a":["ስሜ አዳም ነው","simé adam new"],"x":["ናት"],"hint":{"am":"ስሜ · አዳም · ነው"},"xr":["nat"]}
+{"id":"intro.13","lesson":"intro","t":"type","a":["ስምሽ ማን ነው","simish man new"],"x":["ስምህ"],"hint":{"am":"ስምሽ · ማን · ነው"},"xr":["simih"]}
+{"id":"intro.14","lesson":"intro","t":"type","a":["እኔ ትግስት ነኝ","ትግስት ነኝ","iné tigist neny","tigist neny"],"x":["ነሽ"],"hint":{"am":"እኔ · ትግስት · ነኝ"},"xr":["nesh"]}
+{"id":"be.01","lesson":"be","t":"mc","o":["አንቺ ደህና ነሽ","አንቺ ደህና ነህ","አንተ ደህና ነሽ","አንቺ ነሽ ደህና"]}
+{"id":"be.02","lesson":"be","t":"mc","o":["እሱ ደህና ነው","እሱ ደህና ናት","እሷ ደህና ነው","ነው እሱ ደህና"]}
+{"id":"be.03","lesson":"be","t":"mc","o":["እርስዎ ደህና ነዎት","እርስዎ ደህና ነህ","አንተ ደህና ነዎት","እርስዎ ነዎት ደህና"]}
+{"id":"be.04","lesson":"be","t":"mc","o":["እነሱ ደህና ናቸው","እነሱ ደህና ነው","እሳቸው ደህና ናቸው","እነሱ ናቸው ደህና"]}
+{"id":"be.05","lesson":"be","t":"mc","o":["እኔ አዳም ነኝ","እኔ አዳም ነው","ስሜ አዳም ነኝ","አዳም እኔ ነኝ"]}
+{"id":"be.06","lesson":"be","t":"order","a":["አንተ","ደህና","ነህ"],"x":["ነሽ"]}
+{"id":"be.07","lesson":"be","t":"order","a":["አንቺ","ደህና","ነሽ"],"x":["ነህ"]}
+{"id":"be.08","lesson":"be","t":"order","a":["እርስዎ","ደህና","ነዎት"],"x":["ነህ"]}
+{"id":"be.09","lesson":"be","t":"fill","q":"እሷ ደህና __","o":["ነው","ነሽ","ነህ"],"a":["ናት","ነች","nat","nech"],"xr":["new","nesh","neh"]}
+{"id":"be.10","lesson":"be","t":"fill","q":"እኛ ደህና __","o":["ነው","ናቸው","ነኝ"],"a":["ነን","nen"],"xr":["new","nacchew","neny"]}
+{"id":"be.11","lesson":"be","t":"fill","q":"እርስዎ ደህና __","o":["ነህ","ነሽ","ናት"],"a":["ነዎት","newot"],"xr":["neh","nesh","nat"]}
+{"id":"be.12","lesson":"be","t":"type","a":["እሷ ደህና ናት","እሷ ደህና ነች","ደህና ናት","ደህና ነች","isswa dehna nat","isswa dehna nech","dehna nat","dehna nech"],"x":["ነው"],"hint":{"am":"እሷ · ደህና · ናት"},"xr":["new"]}
+{"id":"be.13","lesson":"be","t":"type","a":["እኛ ደህና ነን","ደህና ነን","innya dehna nen","dehna nen"],"x":["ናቸው"],"hint":{"am":"እኛ · ደህና · ነን"},"xr":["nacchew"]}
+{"id":"be.14","lesson":"be","t":"type","a":["እነሱ ደህና ናቸው","ደህና ናቸው","innessu dehna nacchew","dehna nacchew"],"x":["ነው"],"hint":{"am":"እነሱ · ደህና · ናቸው"},"xr":["new"]}
+{"id":"definite.01","lesson":"definite","t":"mc","o":["ቤቱ","ቤት","ቤቶች","ቤትስ"]}
+{"id":"definite.02","lesson":"definite","t":"mc","o":["ልጇ","ልጁ","ልጅ","ልጆች"]}
+{"id":"definite.03","lesson":"definite","t":"mc","o":["ቤቶች","ቤትስ","ቤቱ","ቤቶቹ"]}
+{"id":"definite.04","lesson":"definite","t":"mc","o":["ልጇ ትንሽ ናት","ልጇ ትንሽ ነው","ልጁ ትንሽ ናት","ትንሽ ልጇ ናት"]}
+{"id":"definite.05","lesson":"definite","t":"mc","o":["ልጁ ትልቅ ነው","ልጁ ትልቅ ናት","ልጇ ትልቅ ነው","ልጅ ትልቅ ነው"]}
+{"id":"definite.06","lesson":"definite","t":"order","a":["ልጁ","ትልቅ","ነው"],"x":["ናት"]}
+{"id":"definite.07","lesson":"definite","t":"order","a":["ልጇ","ትንሽ","ናት"],"x":["ነው"]}
+{"id":"definite.08","lesson":"definite","t":"order","a":["ልጆቹ","ትልቅ","ናቸው"],"x":["ነው"]}
+{"id":"definite.09","lesson":"definite","t":"fill","q":"ቤ__","o":["ት","ቶ","ች"],"a":["ቱ"],"xr":["ti"]}
+{"id":"definite.10","lesson":"definite","t":"fill","q":"ል__","o":["ጁ","ጅ","ጆ"],"a":["ጇ"]}
+{"id":"definite.11","lesson":"definite","t":"fill","q":"ልጇ ትንሽ __","o":["ነው","ነህ","ነሽ"],"a":["ናት","ነች","nat","nech"],"xr":["new","neh","nesh"]}
+{"id":"definite.12","lesson":"definite","t":"type","a":["ልጁ ትልቅ ነው","liju tilik' new"],"x":["ናት"],"hint":{"am":"ልጁ · ትልቅ · ነው"},"xr":["nat"]}
+{"id":"definite.13","lesson":"definite","t":"type","a":["ልጇ ትንሽ ናት","ልጇ ትንሽ ነች","lijwa tinish nat","lijwa tinish nech"],"x":["ነው"],"hint":{"am":"ልጇ · ትንሽ · ናት"},"xr":["new"]}
+{"id":"definite.14","lesson":"definite","t":"type","a":["ልጆቹ ትልቅ ናቸው","lijochu tilik' nacchew"],"x":["ነው"],"hint":{"am":"ልጆቹ · ትልቅ · ናቸው"},"xr":["new"]}
+{"id":"this-that.01","lesson":"this-that","t":"mc","o":["ይህ መጽሐፍ ነው","ይህች መጽሐፍ ናት","ያ መጽሐፍ ነው","መጽሐፍ ይህ ነው"]}
+{"id":"this-that.02","lesson":"this-that","t":"mc","o":["ይህች","ይህ","ያ","ያች"]}
+{"id":"this-that.03","lesson":"this-that","t":"mc","o":["ያ ብዕር ነው","ይህ ብዕር ነው","ያ ብዕር ናት","ይህች ብዕር ናት"]}
+{"id":"this-that.04","lesson":"this-that","t":"mc","o":["ናት","ነው","ነህ","ነሽ"]}
+{"id":"this-that.05","lesson":"this-that","t":"mc","o":["ያች አበበች ናት","ያ አበበች ነው","ይህች አበበች ነው","ያች አበበች ነህ"]}
+{"id":"this-that.06","lesson":"this-that","t":"order","a":["ይህ","መጽሐፍ","ነው"],"x":["ናት"]}
+{"id":"this-that.07","lesson":"this-that","t":"order","a":["ይህች","ትግስት","ናት"],"x":["ነው"]}
+{"id":"this-that.08","lesson":"this-that","t":"order","a":["ያ","ብዕር","ነው"],"x":["ይህ"]}
+{"id":"this-that.09","lesson":"this-that","t":"fill","q":"ይህ መጽሐፍ __","o":["ናት","ነህ","ነሽ"],"a":["ነው","new"],"xr":["nat","neh","nesh"]}
+{"id":"this-that.10","lesson":"this-that","t":"fill","q":"__ ትግስት ናት","o":["ይህ","ያ","ያች"],"a":["ይህች","ይቺ","yihich","yichi"],"xr":["yih","ya","yach"]}
+{"id":"this-that.11","lesson":"this-that","t":"fill","q":"ያ __ ነው","o":["መጽሐፍ","ቤት","ሴት"],"a":["ብዕር","bi'ir"],"xr":["mets'haf","bét","sét"]}
+{"id":"this-that.12","lesson":"this-that","t":"type","a":["ይህች ሴት ናት","ይህች ሴት ነች","ይቺ ሴት ናት","ይቺ ሴት ነች","yihich sét nat","yihich sét nech","yichi sét nat","yichi sét nech"],"x":["ነው","ይህ"],"hint":{"am":"ይህች · ሴት · ናት","sep":" · "},"xr":["new","yih"]}
+{"id":"this-that.13","lesson":"this-that","t":"type","a":["ያች አበበች ናት","ያች አበበች ነች","yach abebech nat","yach abebech nech"],"x":["ነው","ያ"],"hint":{"am":"ያች · አበበች · ናት","sep":" · "},"xr":["new","ya"]}
+{"id":"this-that.14","lesson":"this-that","t":"type","a":["ያ መጽሐፍ ነው","ya mets'haf new"],"x":["ናት","ይህ"],"hint":{"am":"ያ · መጽሐፍ · ነው"},"xr":["nat","yih"]}
+{"id":"questions.01","lesson":"questions","t":"mc","o":["የት","መቼ","ማን","ምን"]}
+{"id":"questions.02","lesson":"questions","t":"mc","o":["ማን ነሽ","ማን ነህ","ማን ነው","ማን ነኝ"]}
+{"id":"questions.03","lesson":"questions","t":"mc","o":["እንዴት ነዎት","እንዴት ነህ","እንዴት ነሽ","ምን ነዎት"]}
+{"id":"questions.04","lesson":"questions","t":"mc","o":["ይህ ምንድን ነው","ይህ ማን ነው","ይህ የት ነው","ምንድን ይህ ነው"]}
+{"id":"questions.05","lesson":"questions","t":"mc","o":["መቼ ነው","የት ነው","ማን ነው","ስንት ነው"]}
+{"id":"questions.06","lesson":"questions","t":"order","a":["ማን","ነሽ"],"x":["ነህ"]}
+{"id":"questions.07","lesson":"questions","t":"order","a":["የት","ነዎት"],"x":["ነህ"]}
+{"id":"questions.08","lesson":"questions","t":"order","a":["ይህ","ምንድን","ነው"],"x":["ናት"]}
+{"id":"questions.09","lesson":"questions","t":"fill","q":"አንቺ የት __","o":["ነህ","ነው","ነኝ"],"a":["ነሽ","nesh"],"xr":["neh","new","neny"]}
+{"id":"questions.10","lesson":"questions","t":"fill","q":"ይህ __","o":["ማን ነው","የት ነው","መቼ ነው"],"a":["ምንድን ነው","ምንድነው","ምን ነው","mindin new","mindinew","min new"],"xr":["man new","yet new","meché new"]}
+{"id":"questions.11","lesson":"questions","t":"fill","q":"__ ነህ","o":["ምን","ማን","የት"],"a":["እንዴት","indét"],"xr":["min","man","yet"]}
+{"id":"questions.12","lesson":"questions","t":"type","a":["እንዴት ነህ","አንተ እንዴት ነህ","indét neh","ante indét neh"],"x":["ነሽ"],"hint":{"am":"እንዴት · ነህ","sep":" · "},"xr":["nesh"]}
+{"id":"questions.13","lesson":"questions","t":"type","a":["ማን ናት","እሷ ማን ናት","ማን ነች","እሷ ማን ነች","man nat","isswa man nat","man nech","isswa man nech"],"x":["ነው"],"hint":{"am":"ማን · ናት","sep":" · "},"xr":["new"]}
+{"id":"questions.14","lesson":"questions","t":"type","a":["ቤቱ የት ነው","bétu yet new"],"x":["ናት","ማን"],"hint":{"am":"ቤቱ · የት · ነው"},"xr":["nat","man"]}
+{"id":"numbers.01","lesson":"numbers","t":"mc","o":["ሶስት","ሁለት","አራት","ሃያ"]}
+{"id":"numbers.02","lesson":"numbers","t":"mc","o":["አስር","አንድ","መቶ","ሁለት"]}
+{"id":"numbers.03","lesson":"numbers","t":"mc","o":["መቶ","ሃያ","አስር","አምስት"]}
+{"id":"numbers.04","lesson":"numbers","t":"mc","o":["ሁለት ቤት","ሁለት ቤትስ","ቤት ሁለት","ሁለት ቤት ነህ"]}
+{"id":"numbers.05","lesson":"numbers","t":"mc","o":["አስር ቤት ናቸው","አስር ቤት ነው","አስር ቤት ነሽ","ቤት አስር ነኝ"]}
+{"id":"numbers.06","lesson":"numbers","t":"order","a":["ይህ","አንድ","መጽሐፍ","ነው"],"x":["ናት"]}
+{"id":"numbers.07","lesson":"numbers","t":"order","a":["ይህች","አንድ","ሴት","ናት"],"x":["ነው"]}
+{"id":"numbers.08","lesson":"numbers","t":"order","a":["ሃያ","ቤት","ናቸው"],"x":["ነው","ቤቶች"]}
+{"id":"numbers.09","lesson":"numbers","t":"fill","q":"__ ቤት ናቸው","o":["ሁለት","አራት","አስር"],"a":["ሶስት","ሦስት","sost"],"xr":["hulet","arat","assir"]}
+{"id":"numbers.10","lesson":"numbers","t":"fill","q":"አንድ መጽሐፍ __","o":["ናት","ናቸው","ነህ"],"a":["ነው","new"],"xr":["nat","nacchew","neh"]}
+{"id":"numbers.11","lesson":"numbers","t":"fill","q":"ይህች አንድ ሴት __","o":["ነው","ነህ","ናቸው"],"a":["ናት","ነች","nat","nech"],"xr":["new","neh","nacchew"]}
+{"id":"numbers.12","lesson":"numbers","t":"type","a":["አቶ ከበደ አንድ ወንድ ነው","እሱ አቶ ከበደ አንድ ወንድ ነው","ato kebbede and wend new","issu ato kebbede and wend new"],"x":["ናት"],"hint":{"am":"አቶ ከበደ · አንድ · ወንድ · ነው"},"xr":["nat"]}
+{"id":"numbers.13","lesson":"numbers","t":"type","a":["ትግስት አንድ ሴት ናት","ትግስት አንድ ሴት ነች","እሷ ትግስት አንድ ሴት ናት","እሷ ትግስት አንድ ሴት ነች","tigist and sét nat","tigist and sét nech","isswa tigist and sét nat","isswa tigist and sét nech"],"x":["ነው"],"hint":{"am":"ትግስት · አንድ · ሴት · ናት"},"xr":["new"]}
+{"id":"numbers.14","lesson":"numbers","t":"type","a":["ሶስት ቤት ናቸው","ሦስት ቤት ናቸው","sost bét nacchew"],"x":["ቤቶች","ነው"],"hint":{"am":"ሶስት · ቤት · ናቸው"},"xr":["bétoch","new"]}
+{"id":"possessive.01","lesson":"possessive","t":"mc","o":["ቤትሽ","ቤትህ","ቤቷ","ቤቴ"]}
+{"id":"possessive.02","lesson":"possessive","t":"mc","o":["ቤትህ","ቤትሽ","ቤትዎ","ቤቱ"]}
+{"id":"possessive.03","lesson":"possessive","t":"mc","o":["ቤቴ","ቤትህ","ቤትሽ","ቤቷ"]}
+{"id":"possessive.04","lesson":"possessive","t":"mc","o":["ቤቷ","ቤቱ","ቤትሽ","ቤቴ"]}
+{"id":"possessive.05","lesson":"possessive","t":"mc","o":["ቤትዎ","ቤትህ","ቤትሽ","ቤታቸው"]}
+{"id":"possessive.06","lesson":"possessive","t":"order","a":["ቤትሽ","ነው"],"x":["ቤትህ"]}
+{"id":"possessive.07","lesson":"possessive","t":"order","a":["ቤትዎ","ነው"],"x":["ቤትህ"]}
+{"id":"possessive.08","lesson":"possessive","t":"order","a":["ቤቷ","ነው"],"x":["ናት"]}
+{"id":"possessive.09","lesson":"possessive","t":"fill","q":"__ ነው","o":["ቤትህ","ቤቷ","ቤቴ"],"a":["ቤትሽ","bétish"],"xr":["bétih","bétwa","bété"]}
+{"id":"possessive.10","lesson":"possessive","t":"fill","q":"__ ነው","o":["ቤትህ","ቤትሽ","ነኝ"],"a":["ቤቴ","bété"],"xr":["bétih","bétish","neny"]}
+{"id":"possessive.11","lesson":"possessive","t":"fill","q":"__ ነው","o":["ቤቷ","ቤትሽ","ቤቴ"],"a":["ቤቱ","bétu"],"xr":["bétwa","bétish","bété"]}
+{"id":"possessive.12","lesson":"possessive","t":"type","a":["ቤትህ ነው","bétih new"],"x":["ቤትሽ","ነኝ"],"hint":{"am":"ቤትህ · ነው","sep":" · "},"xr":["bétish","neny"]}
+{"id":"possessive.13","lesson":"possessive","t":"type","a":["ቤቴ ነው","bété new"],"x":["ነኝ","ቤትህ"],"hint":{"am":"ቤቴ · ነው"},"xr":["neny","bétih"]}
+{"id":"possessive.14","lesson":"possessive","t":"type","a":["ቤቱ ነው","bétu new"],"x":["ቤቷ","ናት"],"hint":{"am":"ቤቱ · ነው"},"xr":["bétwa","nat"]}
+{"id":"have.01","lesson":"have","t":"mc","o":["መጽሐፍ አለኝ","አለኝ መጽሐፍ","መጽሐፍ አለህ","መጽሐፍ የለኝም"]}
+{"id":"have.02","lesson":"have","t":"mc","o":["ብዕር አለሽ","ብዕር አለህ","ብዕር አለኝ","አለሽ ብዕር"]}
+{"id":"have.03","lesson":"have","t":"mc","o":["ቤት የለኝም","ቤት አለኝ","ቤት የለህም","የለኝም ቤት"]}
+{"id":"have.04","lesson":"have","t":"mc","o":["መጽሐፍ አላት","መጽሐፍ አለው","መጽሐፍ አለኝ","መጽሐፍ ናት"]}
+{"id":"have.05","lesson":"have","t":"mc","o":[null,null,null,null]}
+{"id":"have.06","lesson":"have","t":"order","a":["መጽሐፍ","አለኝ"],"x":["አለህ"]}
+{"id":"have.07","lesson":"have","t":"order","a":["ብዕር","አለሽ"],"x":["አለህ"]}
+{"id":"have.08","lesson":"have","t":"order","a":["ቤት","የለዎትም"],"x":["የለህም"]}
+{"id":"have.09","lesson":"have","t":"fill","q":"መጽሐፍ __","o":["አለህ","አለሽ","አላት"],"a":["አለኝ","alleny"],"xr":["alleh","allesh","allat"]}
+{"id":"have.10","lesson":"have","t":"fill","q":"ብዕር __","o":["የለሽም","የለኝም","አለህ"],"a":["የለህም","yellehim"],"xr":["yelleshim","yellenyim","alleh"]}
+{"id":"have.11","lesson":"have","t":"fill","q":"ቤት __","o":["አለው","አለኝ","ናት"],"a":["አላት","allat"],"xr":["alleny","nat"]}
+{"id":"have.12","lesson":"have","t":"type","a":["መጽሐፍ አለህ","አንተ መጽሐፍ አለህ","mets'haf alleh","ante mets'haf alleh"],"x":["አለሽ"],"hint":{"am":"መጽሐፍ · አለህ","sep":" · "},"xr":["allesh"]}
+{"id":"have.13","lesson":"have","t":"type","a":["ብዕር የለኝም","እኔ ብዕር የለኝም","bi'ir yellenyim","iné bi'ir yellenyim"],"x":["የለህም"],"hint":{"am":"ብዕር · የለኝም"},"xr":["yellehim"]}
+{"id":"have.14","lesson":"have","t":"type","a":["ቤት አላት","እሷ ቤት አላት","bét allat","isswa bét allat"],"x":["አለው"],"hint":{"am":"ቤት · አላት","sep":" · "}}
+{"id":"prepositions.01","lesson":"prepositions","t":"mc","o":["ከአሜሪካ ነኝ","ከ አሜሪካ ነኝ","ከአሜሪካ ነህ","በአሜሪካ ነኝ"]}
+{"id":"prepositions.02","lesson":"prepositions","t":"mc","o":["ወደ ቤት","በቤት","ከቤት","ቤት ወደ"]}
+{"id":"prepositions.03","lesson":"prepositions","t":"mc","o":["ለአንቺ","ለአንተ","ወደ አንቺ","አንቺ ለ"]}
+{"id":"prepositions.04","lesson":"prepositions","t":"mc","o":["ከጎንደር ነህ","ከጎንደር ነሽ","ከ ጎንደር ነህ","በጎንደር ነህ"]}
+{"id":"prepositions.05","lesson":"prepositions","t":"mc","o":["በቤት ናት","በቤት ነው","ቤት በ ናት","ከቤት ናት"]}
+{"id":"prepositions.06","lesson":"prepositions","t":"order","a":["ከአሜሪካ","ነኝ"],"x":["ነህ"]}
+{"id":"prepositions.07","lesson":"prepositions","t":"order","a":["ከጎንደር","ነሽ"],"x":["ነህ"]}
+{"id":"prepositions.08","lesson":"prepositions","t":"order","a":["በአዲስ አበባ","ነህ"],"x":["ነሽ"]}
+{"id":"prepositions.09","lesson":"prepositions","t":"fill","q":"__ ነኝ","o":["ከ አሜሪካ","በአሜሪካ","አሜሪካ"],"a":["ከአሜሪካ","keamérika"],"xr":["ke amérika","amérika"]}
+{"id":"prepositions.10","lesson":"prepositions","t":"fill","q":"ይህ መጽሐፍ __ ነው","o":["ለአንተ","ለአንቺ","ወደ እርስዎ"],"a":["ለእርስዎ","leirswo"],"xr":["leanchi","wede irswo"]}
+{"id":"prepositions.11","lesson":"prepositions","t":"fill","q":"__ ነሽ","o":["በ አዲስ አበባ","ከአዲስ አበባ","ወደ አዲስ አበባ"],"a":["በአዲስ አበባ","beaddis abeba"],"xr":["be addis abeba","keaddis abeba","wede addis abeba"]}
+{"id":"prepositions.12","lesson":"prepositions","t":"type","a":["ከኢትዮጵያ ነኝ","እኔ ከኢትዮጵያ ነኝ","keityop'ya neny","iné keityop'ya neny"],"x":["ነህ"],"hint":{"am":"ከ · ኢትዮጵያ · ነኝ"},"xr":["neh"]}
+{"id":"prepositions.13","lesson":"prepositions","t":"type","a":["ከአሜሪካ ነሽ","አንቺ ከአሜሪካ ነሽ","keamérika nesh","anchi keamérika nesh"],"x":["ነህ"],"hint":{"am":"ከ · አሜሪካ · ነሽ"},"xr":["neh"]}
+{"id":"prepositions.14","lesson":"prepositions","t":"type","a":["በቤት ናት","እሷ በቤት ናት","በቤት ነች","እሷ በቤት ነች","bebét nat","isswa bebét nat","bebét nech","isswa bebét nech"],"x":["ነው"],"hint":{"am":"በቤት · ናት","sep":" · "},"xr":["new"]}
+{"id":"past.01","lesson":"past","t":"mc","o":["ሄድኩ","ሄድክ","ሄደ","ጠጣሁ"]}
+{"id":"past.02","lesson":"past","t":"mc","o":["ሄድሽ","ሄድክ","ሄደች","ሄድኩ"]}
+{"id":"past.03","lesson":"past","t":"mc","o":["ቡናውን ጠጣሁ","ቡናው ጠጣሁ","ጠጣሁ ቡናውን","ቡናውን ጠጣህ"]}
+{"id":"past.04","lesson":"past","t":"mc","o":["ሄደች","ሄደ","ሄድሽ","ሄድኩ"]}
+{"id":"past.05","lesson":"past","t":"mc","o":["ጠጣህ","ጠጣሁ","ሄድክ","ጠጣሽ"]}
+{"id":"past.06","lesson":"past","t":"order","a":["ወደ","ቤት","ሄድሽ"],"x":["ሄድክ"]}
+{"id":"past.07","lesson":"past","t":"order","a":["ቡናውን","ጠጣሁ"],"x":["ጠጣህ","ቡናው"]}
+{"id":"past.08","lesson":"past","t":"order","a":["ወደ","ጎንደር","ሄደች"],"x":["ሄደ"]}
+{"id":"past.09","lesson":"past","t":"fill","q":"__ ጠጣሁ","o":["ቡናው","ቡና","ጠጣሁ"],"a":["ቡናውን","bunnawn"],"xr":["bunnaw","bunna","t'ett'ahu"]}
+{"id":"past.10","lesson":"past","t":"fill","q":"ወደ ቤት __","o":["ሄድክ","ሄደች","ሄድኩ"],"a":["ሄድሽ","hédsh"],"xr":["hédk","hédech","hédku"]}
+{"id":"past.11","lesson":"past","t":"fill","q":"ወደ ጎንደር __","o":["ሄደች","ሄድኩ","ሄድክ"],"a":["ሄደ","héde"],"xr":["hédech","hédku","hédk"]}
+{"id":"past.12","lesson":"past","t":"type","a":["ወደ አዲስ አበባ ሄድክ","አንተ ወደ አዲስ አበባ ሄድክ","wede addis abeba hédk","ante wede addis abeba hédk"],"x":["ሄድሽ"],"hint":{"am":"ሄደ · ወደ · አዲስ አበባ","sep":" · "},"xr":["hédsh"]}
+{"id":"past.13","lesson":"past","t":"type","a":["ቡናውን ጠጣ","bunnawn t'ett'a"],"x":["ጠጣች","ቡናው"],"hint":{"am":"ቡናውን · ጠጣ","sep":" · "},"xr":["t'ett'ach","bunnaw"]}
+{"id":"past.14","lesson":"past","t":"type","a":["ወደ ቤት ሄዱ","እርስዎ ወደ ቤት ሄዱ","wede bét hédu","irswo wede bét hédu"],"x":["ሄድክ"],"hint":{"am":"ሄደ · ወደ ቤት","sep":" · "},"xr":["hédk"]}
+{"id":"present.01","lesson":"present","t":"mc","o":["እሄዳለሁ","ሄድኩ","ትሄዳለህ","ይሄዳል"]}
+{"id":"present.02","lesson":"present","t":"mc","o":["ትሄጃለሽ","ትሄዳለህ","ትሄዳለች","ትሄዳለሽ"]}
+{"id":"present.03","lesson":"present","t":"mc","o":["ይሄዳል","ትሄዳለች","እሄዳለሁ","ትሄዳለህ"]}
+{"id":"present.04","lesson":"present","t":"mc","o":["ቡና እጠጣለሁ","እጠጣለሁ ቡና","ቡና ትጠጣለህ","ቡና ጠጣሁ"]}
+{"id":"present.05","lesson":"present","t":"mc","o":["ይሄዳሉ","ትሄዳለህ","እሄዳለሁ","ይሄዳል"]}
+{"id":"present.06","lesson":"present","t":"order","a":["ወደ","ቤት","ትሄጃለሽ"],"x":["ትሄዳለህ"]}
+{"id":"present.07","lesson":"present","t":"order","a":["ቡናውን","እጠጣለሁ"],"x":["ትጠጣለህ"]}
+{"id":"present.08","lesson":"present","t":"order","a":["ወደ","ጎንደር","ይሄዳል"],"x":["ትሄዳለች"]}
+{"id":"present.09","lesson":"present","t":"fill","q":"ወደ ቤት __","o":["ትሄዳለህ","ይሄዳል","ሄድኩ"],"a":["እሄዳለሁ","ihédallehu"],"xr":["tihédalleh","yihédal","hédku"]}
+{"id":"present.10","lesson":"present","t":"fill","q":"ቡና __","o":["ትጠጣለህ","ትጠጣለሽ","እጠጣለሁ"],"a":["ትጠጫለሽ","tit'ecch'allesh"],"xr":["tit'ett'alleh","it'ett'allehu"]}
+{"id":"present.11","lesson":"present","t":"fill","q":"ወደ ጎንደር __","o":["ይሄዳል","ትሄጃለሽ","እሄዳለሁ"],"a":["ትሄዳለች","tihédallech"],"xr":["yihédal","tihéjallesh","ihédallehu"]}
+{"id":"present.12","lesson":"present","t":"type","a":["ቡና ትጠጣለህ","አንተ ቡና ትጠጣለህ","bunna tit'ett'alleh","ante bunna tit'ett'alleh"],"x":["ትጠጫለሽ"],"hint":{"am":"ጠጣ · ቡና","sep":" · "},"xr":["tit'ecch'allesh"]}
+{"id":"present.13","lesson":"present","t":"type","a":["ወደ ቤት ትሄዳለች","እሷ ወደ ቤት ትሄዳለች","wede bét tihédallech","isswa wede bét tihédallech"],"x":["ይሄዳል"],"hint":{"am":"ሄደ · ወደ ቤት","sep":" · "},"xr":["yihédal"]}
+{"id":"present.14","lesson":"present","t":"type","a":["ወደ አዲስ አበባ ይሄዳሉ","እርስዎ ወደ አዲስ አበባ ይሄዳሉ","wede addis abeba yihédallu","irswo wede addis abeba yihédallu"],"x":["ትሄዳለህ"],"hint":{"am":"ሄደ · ወደ · አዲስ አበባ","sep":" · "},"xr":["tihédalleh"]}
+{"id":"negative.01","lesson":"negative","t":"mc","o":["አልሄድኩም","አልሄድም","አልእሄዳለሁም","ሄድኩም"]}
+{"id":"negative.02","lesson":"negative","t":"mc","o":["አልሄድም","አልሄድኩም","አልእሄዳለሁም","አይሄድም"]}
+{"id":"negative.03","lesson":"negative","t":"mc","o":["አልሄድሽም","አልሄድክም","አልሄደችም","ሄድሽም"]}
+{"id":"negative.04","lesson":"negative","t":"mc","o":["አይሄድም","አልሄድም","አልሄደም","ይሄዳል"]}
+{"id":"negative.05","lesson":"negative","t":"mc","o":["ቡናውን አልጠጣሁም","ቡናው አልጠጣሁም","አልጠጣሁም ቡናውን","ቡናውን ጠጣሁ"]}
+{"id":"negative.06","lesson":"negative","t":"order","a":["ወደ","ቤት","አልሄድሽም"],"x":["አልሄድክም"]}
+{"id":"negative.07","lesson":"negative","t":"order","a":["ወደ","ቤት","አልሄድም"],"x":["አይሄድም"]}
+{"id":"negative.08","lesson":"negative","t":"order","a":["ወደ","ቤት","አልሄደችም"],"x":["አልሄደም"]}
+{"id":"negative.09","lesson":"negative","t":"fill","q":"ወደ ቤት __","o":["አልሄድም","አልሄድክም","ሄድኩ"],"a":["አልሄድኩም","alhédkum"],"xr":["alhédim","alhédkim","hédku"]}
+{"id":"negative.10","lesson":"negative","t":"fill","q":"አንቺ ወደ ቤት __","o":["አትሄድም","አልሄድሽም","ትሄጃለሽ"],"a":["አትሄጂም","atihéjim"],"xr":["atihédim","alhédshim","tihéjallesh"]}
+{"id":"negative.11","lesson":"negative","t":"fill","q":"ቡናውን __","o":["ጠጣሁ","አልሄድኩም","አልጠጣህም"],"a":["አልጠጣሁም","alt'ett'ahum"],"xr":["t'ett'ahu","alhédkum"]}
+{"id":"negative.12","lesson":"negative","t":"type","a":["ወደ ቤት አልሄድክም","አንተ ወደ ቤት አልሄድክም","wede bét alhédkim","ante wede bét alhédkim"],"x":["አልሄድሽም"],"hint":{"am":"ሄደ · ወደ ቤት","sep":" · "},"xr":["alhédshim"]}
+{"id":"negative.13","lesson":"negative","t":"type","a":["ወደ አዲስ አበባ አልሄድኩም","እኔ ወደ አዲስ አበባ አልሄድኩም","wede addis abeba alhédkum","iné wede addis abeba alhédkum"],"x":["አልሄድክም"],"hint":{"am":"ሄደ · ወደ · አዲስ አበባ"},"xr":["alhédkim"]}
+{"id":"negative.14","lesson":"negative","t":"type","a":["ወደ ቤት አይሄድም","እሱ ወደ ቤት አይሄድም","wede bét ayihédim","issu wede bét ayihédim"],"x":["አልሄድም","እሄዳለሁ"],"hint":{"am":"ሄደ · ወደ ቤት","sep":" · "},"xr":["alhédim","ihédallehu"]}
+{"id":"want.01","lesson":"want","t":"mc","o":["ቡና እፈልጋለሁ","እፈልጋለሁ ቡና","ቡና እሄዳለሁ","መሄድ እፈልጋለሁ"]}
+{"id":"want.02","lesson":"want","t":"mc","o":["መሄድ እፈልጋለሁ","እሄዳለሁ እፈልጋለሁ","እፈልጋለሁ መሄድ","ሄድኩ እፈልጋለሁ"]}
+{"id":"want.03","lesson":"want","t":"mc","o":["ቡና ትፈልጊያለሽ","ቡና ትፈልጋለህ","ቡና እፈልጋለሁ","ቡና ይፈልጋል"]}
+{"id":"want.04","lesson":"want","t":"mc","o":["ቡና አልፈልግም","አልፈልግም ቡና","ቡና እፈልጋለሁ","ቡና አልሄድም"]}
+{"id":"want.05","lesson":"want","t":"mc","o":["ቡና ይፈልጋሉ","ቡና ትፈልጋለህ","ቡና ትፈልጊያለሽ","ቡና እፈልጋለሁ"]}
+{"id":"want.06","lesson":"want","t":"order","a":["ቡና","እፈልጋለሁ"],"x":["ትፈልጋለህ"]}
+{"id":"want.07","lesson":"want","t":"order","a":["መሄድ","እፈልጋለሁ"],"x":["እሄዳለሁ"]}
+{"id":"want.08","lesson":"want","t":"order","a":["ቡና","ትፈልጊያለሽ"],"x":["ትፈልጋለህ"]}
+{"id":"want.09","lesson":"want","t":"fill","q":"ቡና __","o":["ትፈልጋለህ","ይፈልጋል","አልፈልግም"],"a":["እፈልጋለሁ","ifelligallehu"],"xr":["tifelligalleh","alfelligim"]}
+{"id":"want.10","lesson":"want","t":"fill","q":"__ እፈልጋለሁ","o":["እሄዳለሁ","ሄድኩ","ቡና"],"a":["መሄድ","mehéd"],"xr":["ihédallehu","hédku","bunna"]}
+{"id":"want.11","lesson":"want","t":"fill","q":"ቡና __","o":["ትፈልጊያለሽ","እፈልጋለሁ","ይፈልጋሉ"],"a":["ትፈልጋለህ","tifelligalleh"],"xr":["tifelligiyallesh","ifelligallehu","yifelligallu"]}
+{"id":"want.12","lesson":"want","t":"type","a":["ቡና እፈልጋለሁ","bunna ifelligallehu"],"x":["ትፈልጋለህ","ይፈልጋል"],"hint":{"am":"ቡና · እፈልጋለሁ","sep":" · "},"xr":["tifelligalleh"]}
+{"id":"want.13","lesson":"want","t":"type","a":["መሄድ እፈልጋለሁ","mehéd ifelligallehu"],"x":["እሄዳለሁ","ቡና"],"hint":{"am":"መሄድ · እፈልጋለሁ","sep":" · "},"xr":["ihédallehu","bunna"]}
+{"id":"want.14","lesson":"want","t":"type","a":["መሄድ ትፈልጊያለሽ","mehéd tifelligiyallesh"],"x":["ትፈልጋለህ","እፈልጋለሁ"],"hint":{"am":"መሄድ · ትፈልጊያለሽ","sep":" · "},"xr":["tifelligalleh","ifelligallehu"]}
+{"id":"commands.01","lesson":"commands","t":"mc","o":["ነይ","ና","ኑ","ይምጡ"]}
+{"id":"commands.02","lesson":"commands","t":"mc","o":["ተቀመጥ","ተቀመጪ","ይቀመጡ","ተቀመጡ"]}
+{"id":"commands.03","lesson":"commands","t":"mc","o":["እባክሽ","እባክህ","እባክዎ","አመሰግናለሁ"]}
+{"id":"commands.04","lesson":"commands","t":"mc","o":["ይቀመጡ","ተቀመጥ","ተቀመጪ","ተቀመጡ"]}
+{"id":"commands.05","lesson":"commands","t":"mc","o":["ሂጂ","ሂድ","ሂዱ","ይሂዱ"]}
+{"id":"commands.06","lesson":"commands","t":"order","a":["እባክሽ","ተቀመጪ"],"x":["እባክህ","ተቀመጥ"]}
+{"id":"commands.07","lesson":"commands","t":"order","a":["ወደ","ቤት","ና"],"x":["ነይ"]}
+{"id":"commands.08","lesson":"commands","t":"order","a":["እባክዎ","ይቀመጡ"],"x":["ተቀመጥ"]}
+{"id":"commands.09","lesson":"commands","t":"fill","q":"__ ተቀመጪ","o":["እባክህ","እባክዎ","አመሰግናለሁ"],"a":["እባክሽ","ibakish"],"xr":["ibakih","ibakwo","amesegginallehu"]}
+{"id":"commands.10","lesson":"commands","t":"fill","q":"እባክህ __","o":["ነይ","ኑ","ይምጡ"],"a":["ና","na"],"xr":["ney"]}
+{"id":"commands.11","lesson":"commands","t":"fill","q":"ወደ ቤት __","o":["ሂድ","ሂዱ","ይሂዱ"],"a":["ሂጂ","hijji"],"xr":["hid","yihidu"]}
+{"id":"commands.12","lesson":"commands","t":"type","a":["እባክሽ ነይ","ibakish ney"],"x":["እባክህ","ና"],"hint":{"am":"እባክሽ · ነይ","sep":" · "},"xr":["ibakih","na"]}
+{"id":"commands.13","lesson":"commands","t":"type","a":["እባክህ ተቀመጥ","ibakih tek'emet'"],"x":["እባክሽ","ተቀመጪ"],"hint":{"am":"እባክህ · ተቀመጥ","sep":" · "},"xr":["ibakish","tek'emech'i"]}
+{"id":"commands.14","lesson":"commands","t":"type","a":["ወደ ቤት ይሂዱ","wede bét yihidu"],"x":["ሂድ","ሂጂ"],"hint":{"am":"ወደ · ቤት · ይሂዱ","sep":" · "},"xr":["hid","hijji"]}
+{"id":"time.01","lesson":"time","t":"mc","o":["ስንት ሰዓት ነው","ስንት ሰዓት ነሽ","ስንት ሰዓት ነህ","ሰዓት ነው ስንት"]}
+{"id":"time.02","lesson":"time","t":"mc","o":["ጠዋት አስራ ሁለት ሰዓት","ጠዋት ስድስት ሰዓት","ከቀኑ ስድስት ሰዓት","ከምሽቱ ስድስት ሰዓት"]}
+{"id":"time.03","lesson":"time","t":"mc","o":["ከቀኑ ስድስት ሰዓት","ከጠዋቱ ስድስት ሰዓት","ጠዋት አስራ ሁለት ሰዓት","ከለሊቱ ስድስት ሰዓት"]}
+{"id":"time.04","lesson":"time","t":"mc","o":["ሰኞ","ማክሰኞ","አርብ","እሁድ"]}
+{"id":"time.05","lesson":"time","t":"mc","o":["ትሄጃለሽ","ትሄዳለህ","እሄዳለሁ","ይሄዳል"]}
+{"id":"time.06","lesson":"time","t":"order","a":["ዛሬ","ሰኞ","ነው"],"x":["ነሽ"]}
+{"id":"time.07","lesson":"time","t":"order","a":["ከጠዋቱ","አንድ","ሰዓት","ነው"],"x":["አስራ"]}
+{"id":"time.08","lesson":"time","t":"order","a":["ከጠዋቱ","ሶስት","ሰዓት","ትሄዳለህ"],"x":["ትሄጃለሽ"]}
+{"id":"time.09","lesson":"time","t":"fill","q":"ይቅርታ ስንት ሰዓት __","o":["ነህ","ነሽ","ነዎት"],"a":["ነው","new"],"xr":["neh","nesh","newot"]}
+{"id":"time.10","lesson":"time","t":"fill","q":"ጠዋት __ ሰዓት","o":["ስድስት","አንድ","ሶስት"],"a":["አስራ ሁለት","assira hulet"],"xr":["siddist","and","sost"]}
+{"id":"time.11","lesson":"time","t":"fill","q":"ዛሬ __ ነው","o":["ሰኞ","አርብ","እሁድ"],"a":["ሀሙስ","hamus"],"xr":["sennyo","arb"]}
+{"id":"time.12","lesson":"time","t":"type","a":["ይቅርታ ስንት ሰዓት ነው","yik'irta sint se'at new"],"x":["ነሽ","ነህ"],"hint":{"am":"ይቅርታ · ስንት · ሰዓት · ነው"},"xr":["nesh","neh"]}
+{"id":"time.13","lesson":"time","t":"type","a":["ዛሬ ሰኞ ነው","zaré sennyo new"],"x":["ነሽ","ማክሰኞ"],"hint":{"am":"ዛሬ · ሰኞ · ነው"},"xr":["nesh"]}
+{"id":"time.14","lesson":"time","t":"type","a":["ወደ ቤት ትሄጃለሽ","wede bét tihéjallesh"],"x":["ትሄዳለህ","እሄዳለሁ"],"hint":{"am":"ወደ · ቤት · ትሄጃለሽ"},"xr":["tihédalleh","ihédallehu"]}
+{"id":"prices.01","lesson":"prices","t":"mc","o":["ዋጋው ስንት ነው","ዋጋ ስንት ነው","ዋጋው ስንት ናቸው","ስንት ነው ዋጋው"]}
+{"id":"prices.02","lesson":"prices","t":"mc","o":["ሂሳብ ስንት ነው","ሂሳብ ስንት ናቸው","ዋጋው ስንት ነህ","ብር ስንት ነሽ"]}
+{"id":"prices.03","lesson":"prices","t":"mc","o":["አራት ብር ነው","አራት ብር ናቸው","ብር አራት ነው","አራት ነው ብር"]}
+{"id":"prices.04","lesson":"prices","t":"mc","o":["ቡና አራት ብር ነው","ቡና አራት ብር ናቸው","አራት ቡና ብር ነው","ቡና ነው አራት ብር"]}
+{"id":"prices.05","lesson":"prices","t":"mc","o":["ሻይ ሁለት ብር ነው","ሻይ ሁለት ብር ናችሁ","ሁለት ሻይ ነው","ሻይ ነው ሁለት ብር"]}
+{"id":"prices.06","lesson":"prices","t":"order","a":["ዋጋው","ስንት","ነው"],"x":["ነሽ"]}
+{"id":"prices.07","lesson":"prices","t":"order","a":["ሃያ","ብር","ነው"],"x":["ናት"]}
+{"id":"prices.08","lesson":"prices","t":"order","a":["ቡና","አራት","ብር","ነው"],"x":["ናቸው"]}
+{"id":"prices.09","lesson":"prices","t":"fill","q":"__ ስንት ነው","o":["ዋጋ","ሂሳብ","ብር"],"a":["ዋጋው","wagaw"],"xr":["hisab","birr"]}
+{"id":"prices.10","lesson":"prices","t":"fill","q":"ሂሳብ ስንት __","o":["ናቸው","ነሽ","ናት"],"a":["ነው","new"],"xr":["nacchew","nesh","nat"]}
+{"id":"prices.11","lesson":"prices","t":"fill","q":"ሻይ ሁለት ብር __","o":["ናቸው","ነህ","ናችሁ"],"a":["ነው","new"],"xr":["nacchew","neh","nacchihu"]}
+{"id":"prices.12","lesson":"prices","t":"type","a":["ዋጋው ስንት ነው","wagaw sint new"],"x":["ነሽ","ናቸው"],"hint":{"am":"ዋጋው · ስንት · ነው"},"xr":["nesh","nacchew"]}
+{"id":"prices.13","lesson":"prices","t":"type","a":["አራት ብር ነው","arat birr new"],"x":["ናት","ናቸው"],"hint":{"am":"አራት · ብር · ነው"},"xr":["nat","nacchew"]}
+{"id":"prices.14","lesson":"prices","t":"type","a":["ሂሳብ ስንት ነው","hisab sint new"],"x":["ዋጋው","ናቸው"],"hint":{"am":"ሂሳብ · ስንት · ነው"},"xr":["wagaw","nacchew"]}
+{"id":"likes.01","lesson":"likes","t":"mc","o":["ቡና እወዳለሁ","እወዳለሁ ቡና","ቡና እፈልጋለሁ","ቡና አልወድም"]}
+{"id":"likes.02","lesson":"likes","t":"mc","o":["ቡና አልወድም","አልወድም ቡና","ቡና እወዳለሁ","ቡና አልፈልግም"]}
+{"id":"likes.03","lesson":"likes","t":"mc","o":["ቡና ትወጃለሽ","ቡና ትወዳለህ","ቡና እወዳለሁ","ቡና ይወዳሉ"]}
+{"id":"likes.04","lesson":"likes","t":"mc","o":["ውቢት ናት","ውብ ናት","ውቢት ነው","ውብ ነህ"]}
+{"id":"likes.05","lesson":"likes","t":"mc","o":["ቡናው በጣም ቆንጆ ነው","በጣም ቆንጆ ቡናው ነው","ቡናው ቆንጆ በጣም ነው","ቡና በጣም ቆንጆ ናት"]}
+{"id":"likes.06","lesson":"likes","t":"order","a":["ቡና","እወዳለሁ"],"x":["ትወዳለህ"]}
+{"id":"likes.07","lesson":"likes","t":"order","a":["ቡና","ትወዳለህ"],"x":["ትወጃለሽ"]}
+{"id":"likes.08","lesson":"likes","t":"order","a":["ትግስት","ቆንጆ","ናት"],"x":["ነው"]}
+{"id":"likes.09","lesson":"likes","t":"fill","q":"ቡና __","o":["እወዳለሁ","አልፈልግም","እፈልጋለሁ"],"a":["አልወድም","alweddim"],"xr":["iweddallehu","alfelligim","ifelligallehu"]}
+{"id":"likes.10","lesson":"likes","t":"fill","q":"__ ናት","o":["ውብ","ቆንጆ","አሪፍ"],"a":["ውቢት","wibit"],"xr":["wib","k'onjo","arif"]}
+{"id":"likes.11","lesson":"likes","t":"fill","q":"ቡና __","o":["ትወዳለህ","እወዳለሁ","ትወጃለሽ"],"a":["ይወዳሉ","yiweddallu"],"xr":["tiweddalleh","iweddallehu","tiwejjallesh"]}
+{"id":"likes.12","lesson":"likes","t":"type","a":["ቡና በጣም እወዳለሁ","bunna bet'am iweddallehu"],"x":["ትወዳለህ","አልወድም"],"hint":{"am":"ቡና · በጣም · እወዳለሁ"},"xr":["tiweddalleh","alweddim"]}
+{"id":"likes.13","lesson":"likes","t":"type","a":["ቡና ትወጃለሽ","bunna tiwejjallesh"],"x":["ትወዳለህ","እወዳለሁ"],"hint":{"am":"ቡና · ትወጃለሽ"},"xr":["tiweddalleh","iweddallehu"]}
+{"id":"likes.14","lesson":"likes","t":"type","a":["መልካም ጉዞ","melkam guzo"],"x":["ቀን","አሪፍ"],"hint":{"am":"መልካም · ጉዞ"},"xr":["k'en","arif"]}
+{"id":"family.01","lesson":"family","t":"mc","o":["አባቴ","አባትህ","አባትሽ","አባትዎ"]}
+{"id":"family.02","lesson":"family","t":"mc","o":["አባትሽ","አባትህ","አባቴ","አባቷ"]}
+{"id":"family.03","lesson":"family","t":"mc","o":["አባትዎ","አባትህ","አባትሽ","አባቱ"]}
+{"id":"family.04","lesson":"family","t":"mc","o":["አባት አለኝ","አባት የለኝም","አለኝ አባት","አባቴ ነው"]}
+{"id":"family.05","lesson":"family","t":"mc","o":["እህት","ወንድም","እናት","አባት"]}
+{"id":"family.06","lesson":"family","t":"order","a":["አባትሽ","ማን","ነው"],"x":["አባትህ"]}
+{"id":"family.07","lesson":"family","t":"order","a":["እናትህ","ማን","ናት"],"x":["እናትሽ"]}
+{"id":"family.08","lesson":"family","t":"order","a":["እህቴ","በአዲስ","አበባ","ናት"],"x":["ነው"]}
+{"id":"family.09","lesson":"family","t":"fill","q":"__ ማን ናት","o":["እህትህ","እህቴ","እህቷ"],"a":["እህትሽ","ihitish"],"xr":["ihité"]}
+{"id":"family.10","lesson":"family","t":"fill","q":"ወንድም __","o":["አለኝ","ነው","አለው"],"a":["የለኝም","yellenyim"],"xr":["alleny","new"]}
+{"id":"family.11","lesson":"family","t":"fill","q":"__ በአዲስ አበባ ናት","o":["እናትህ","እናትሽ","እናት"],"a":["እናቴ","innaté"],"xr":["innatih","innat"]}
+{"id":"family.12","lesson":"family","t":"type","a":["ወንድምሽ ማን ነው","wendimish man new"],"x":["ወንድምህ","አባትሽ"],"hint":{"am":"ወንድምሽ · ማን · ነው"},"xr":["abbatish"]}
+{"id":"family.13","lesson":"family","t":"type","a":["አባትዎ ማን ነው","abbatwo man new"],"x":["አባትህ","አባትሽ"],"hint":{"am":"አባትዎ · ማን · ነው"},"xr":["abbatih","abbatish"]}
+{"id":"family.14","lesson":"family","t":"type","a":["እህት አለኝ","ihit alleny"],"x":["የለኝም","ወንድም"],"hint":{"am":"እህት · አለኝ"},"xr":["yellenyim","wendim"]}
+{"id":"restaurant.01","lesson":"restaurant","t":"mc","o":["እንጀራ እፈልጋለሁ","እፈልጋለሁ እንጀራ","እንጀራ እወዳለሁ","ቡና እፈልጋለሁ"]}
+{"id":"restaurant.02","lesson":"restaurant","t":"mc","o":["እባክሽ","እባክህ","እባክዎ","አመሰግናለሁ"]}
+{"id":"restaurant.03","lesson":"restaurant","t":"mc","o":["ሂሳብ ስንት ነው","ሂሳብ ስንት ናቸው","ዋጋ ስንት ነው","ሂሳብ ነው ስንት"]}
+{"id":"restaurant.04","lesson":"restaurant","t":"mc","o":["ዶሮ ወጥ","ቀይ ወጥ","ምስር ወጥ","ጥብስ"]}
+{"id":"restaurant.05","lesson":"restaurant","t":"mc","o":["እባክዎ ቡና እፈልጋለሁ","እባክህ ቡና እፈልጋለሁ","ቡና እፈልጋለሁ እባክዎ","እባክሽ ቡና ትፈልጊያለሽ"]}
+{"id":"restaurant.06","lesson":"restaurant","t":"order","a":["ፍርፍር","እፈልጋለሁ"],"x":["ትፈልጋለህ"]}
+{"id":"restaurant.07","lesson":"restaurant","t":"order","a":["እባክሽ","ውሃ","እፈልጋለሁ"],"x":["እባክህ"]}
+{"id":"restaurant.08","lesson":"restaurant","t":"order","a":["ሂሳብ","ስንት","ነው"],"x":["ናቸው"]}
+{"id":"restaurant.09","lesson":"restaurant","t":"fill","q":"__ እፈልጋለሁ","o":["ቡና","ውሃ","ቢራ"],"a":["ሻይ","shay"],"xr":["bunna","wiha","birra"]}
+{"id":"restaurant.10","lesson":"restaurant","t":"fill","q":"__ ውሃ እፈልጋለሁ","o":["እባክህ","እባክዎ","አመሰግናለሁ"],"a":["እባክሽ","ibakish"],"xr":["ibakih","ibakwo","amesegginallehu"]}
+{"id":"restaurant.11","lesson":"restaurant","t":"fill","q":"ሂሳብ ስንት __","o":["ናቸው","ነሽ","ናት"],"a":["ነው","new"],"xr":["nacchew","nesh","nat"]}
+{"id":"restaurant.12","lesson":"restaurant","t":"type","a":["ዶሮ ወጥ እፈልጋለሁ","doro wet' ifelligallehu"],"x":["ትፈልጋለህ","ቀይ"],"hint":{"am":"ዶሮ · ወጥ · እፈልጋለሁ"},"xr":["tifelligalleh","k'ey"]}
+{"id":"restaurant.13","lesson":"restaurant","t":"type","a":["እባክሽ ቡና እፈልጋለሁ","ibakish bunna ifelligallehu"],"x":["እባክህ","ትፈልጊያለሽ"],"hint":{"am":"እባክሽ · ቡና · እፈልጋለሁ"},"xr":["ibakih","tifelligiyallesh"]}
+{"id":"restaurant.14","lesson":"restaurant","t":"type","a":["አምቦ ውሃ እፈልጋለሁ","ambo wiha ifelligallehu"],"x":["ቡና","ትፈልጋለህ"],"hint":{"am":"አምቦ · ውሃ · እፈልጋለሁ"},"xr":["bunna","tifelligalleh"]}
+{"id":"directions.01","lesson":"directions","t":"mc","o":["ሆቴሉ የት ነው","ሆቴሉ የት ነህ","ነው ሆቴሉ የት","የት ነሽ ሆቴሉ"]}
+{"id":"directions.02","lesson":"directions","t":"mc","o":["የት ነሽ","የት ነህ","የት ነው","የት ነዎት"]}
+{"id":"directions.03","lesson":"directions","t":"mc","o":["ወደ ቀኝ ሂድ","ሂድ ወደ ቀኝ","ወደ ቀኝ ሂጂ","ወደ ግራ ሂድ"]}
+{"id":"directions.04","lesson":"directions","t":"mc","o":["ቀጥ ብለህ ሂድ","ወደ ቀኝ ሂድ","ወደ ግራ ሂድ","የት ነህ"]}
+{"id":"directions.05","lesson":"directions","t":"mc","o":["የት ነዎት","የት ነህ","የት ነሽ","የት ነው"]}
+{"id":"directions.06","lesson":"directions","t":"order","a":["ሆቴሉ","የት","ነው"],"x":["ነህ"]}
+{"id":"directions.07","lesson":"directions","t":"order","a":["ወደ","ግራ","ሂጂ"],"x":["ሂድ"]}
+{"id":"directions.08","lesson":"directions","t":"order","a":["ሆቴሉ","ወደ","ቀኝ","ነው"],"x":["ነሽ"]}
+{"id":"directions.09","lesson":"directions","t":"fill","q":"ሆቴሉ የት __","o":["ነህ","ነሽ","ነዎት"],"a":["ነው","new"],"xr":["neh","nesh","newot"]}
+{"id":"directions.10","lesson":"directions","t":"fill","q":"ወደ __ ሂድ","o":["ግራ","ቀጥ","ቤት"],"a":["ቀኝ","k'eny"],"xr":["gira","k'et'","bét"]}
+{"id":"directions.11","lesson":"directions","t":"fill","q":"የት __","o":["ነህ","ነሽ","ነው"],"a":["ነዎት","newot"],"xr":["neh","nesh","new"]}
+{"id":"directions.12","lesson":"directions","t":"type","a":["የት ነህ","yet neh"],"x":["ነሽ","ነው"],"hint":{"am":"የት · ነህ"},"xr":["nesh","new"]}
+{"id":"directions.13","lesson":"directions","t":"type","a":["ቀጥ ብለው ይሂዱ","k'et' billew yihidu"],"x":["ሂድ","ሂጂ"],"hint":{"am":"ቀጥ · ብለው · ይሂዱ"},"xr":["hid","hijji"]}
+{"id":"directions.14","lesson":"directions","t":"type","a":["ሆቴሉ የት ነው","hotélu yet new"],"x":["ነህ","ቤቱ"],"hint":{"am":"ሆቴሉ · የት · ነው"},"xr":["neh","bétu"]}

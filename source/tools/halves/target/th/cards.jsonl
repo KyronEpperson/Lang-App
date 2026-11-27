@@ -1,0 +1,802 @@
+{"id":"th.c0001","deck":"th.d.tones-and-vowel-length","th":"มา","rom":"maa"}
+{"id":"th.c0002","deck":"th.d.tones-and-vowel-length","th":"ม้า","rom":"máa"}
+{"id":"th.c0003","deck":"th.d.tones-and-vowel-length","th":"หมา","rom":"mǎa"}
+{"id":"th.c0004","deck":"th.d.tones-and-vowel-length","th":"ใกล้","rom":"glâi"}
+{"id":"th.c0005","deck":"th.d.tones-and-vowel-length","th":"ไกล","rom":"glai"}
+{"id":"th.c0006","deck":"th.d.tones-and-vowel-length","th":"ข้าว","rom":"khâao"}
+{"id":"th.c0007","deck":"th.d.tones-and-vowel-length","th":"ขาว","rom":"khǎao"}
+{"id":"th.c0008","deck":"th.d.tones-and-vowel-length","th":"เขา","rom":"khǎo"}
+{"id":"th.c0009","deck":"th.d.tones-and-vowel-length","th":"ไม้","rom":"máai"}
+{"id":"th.c0010","deck":"th.d.tones-and-vowel-length","th":"ใหม่","rom":"mài"}
+{"id":"th.c0011","deck":"th.d.tones-and-vowel-length","th":"ไหม","rom":"mǎi"}
+{"id":"th.c0012","deck":"th.d.tones-and-vowel-length","th":"ดู","rom":"duu"}
+{"id":"th.c0013","deck":"th.d.tones-and-vowel-length","th":"ดุ","rom":"dù"}
+{"id":"th.c0014","deck":"th.d.tones-and-vowel-length","th":"เข้า","rom":"khâo"}
+{"id":"th.c0015","deck":"th.d.tones-and-vowel-length","th":"สวย","rom":"sǔuai"}
+{"id":"th.c0016","deck":"th.d.tones-and-vowel-length","th":"ซวย","rom":"suuai"}
+{"id":"th.c0017","deck":"th.d.tones-and-vowel-length","th":"ป่า","rom":"bpàa"}
+{"id":"th.c0018","deck":"th.d.tones-and-vowel-length","th":"หา","rom":"hǎa"}
+{"id":"th.c0019","deck":"th.d.consonants-mid-and-high-class","th":"ก ไก่","rom":"gaaw gài"}
+{"id":"th.c0020","deck":"th.d.consonants-mid-and-high-class","th":"จ จาน","rom":"jaaw jaan"}
+{"id":"th.c0021","deck":"th.d.consonants-mid-and-high-class","th":"ด เด็ก","rom":"daaw dèk"}
+{"id":"th.c0022","deck":"th.d.consonants-mid-and-high-class","th":"ต เต่า","rom":"dtaaw dtào"}
+{"id":"th.c0023","deck":"th.d.consonants-mid-and-high-class","th":"บ ใบไม้","rom":"baaw bai-máai"}
+{"id":"th.c0024","deck":"th.d.consonants-mid-and-high-class","th":"ป ปลา","rom":"bpaaw bplaa"}
+{"id":"th.c0025","deck":"th.d.consonants-mid-and-high-class","th":"อ อ่าง","rom":"aaw àang"}
+{"id":"th.c0026","deck":"th.d.consonants-mid-and-high-class","th":"ข ไข่","rom":"khǎaw khài"}
+{"id":"th.c0027","deck":"th.d.consonants-mid-and-high-class","th":"ฉ ฉิ่ง","rom":"chǎaw chìng"}
+{"id":"th.c0028","deck":"th.d.consonants-mid-and-high-class","th":"ฐ ฐาน","rom":"thǎaw thǎan"}
+{"id":"th.c0029","deck":"th.d.consonants-mid-and-high-class","th":"ถ ถุง","rom":"thǎaw thǔng"}
+{"id":"th.c0030","deck":"th.d.consonants-mid-and-high-class","th":"ผ ผึ้ง","rom":"phǎaw phûeng"}
+{"id":"th.c0031","deck":"th.d.consonants-mid-and-high-class","th":"ฝ ฝา","rom":"fǎaw fǎa"}
+{"id":"th.c0032","deck":"th.d.consonants-mid-and-high-class","th":"ศ ศาลา","rom":"sǎaw sǎa-laa"}
+{"id":"th.c0033","deck":"th.d.consonants-mid-and-high-class","th":"ษ ฤๅษี","rom":"sǎaw ruue-sǐi"}
+{"id":"th.c0034","deck":"th.d.consonants-mid-and-high-class","th":"ส เสือ","rom":"sǎaw sǔuea"}
+{"id":"th.c0035","deck":"th.d.consonants-mid-and-high-class","th":"ห หีบ","rom":"hǎaw hìip"}
+{"id":"th.c0036","deck":"th.d.consonants-low-class","th":"ค ควาย","rom":"khaaw khwaai"}
+{"id":"th.c0037","deck":"th.d.consonants-low-class","th":"ง งู","rom":"ngaaw nguu"}
+{"id":"th.c0038","deck":"th.d.consonants-low-class","th":"ช ช้าง","rom":"chaaw cháang"}
+{"id":"th.c0039","deck":"th.d.consonants-low-class","th":"ซ โซ่","rom":"saaw sôo"}
+{"id":"th.c0040","deck":"th.d.consonants-low-class","th":"ญ หญิง","rom":"yaaw yǐng"}
+{"id":"th.c0041","deck":"th.d.consonants-low-class","th":"ณ เณร","rom":"naaw neen"}
+{"id":"th.c0042","deck":"th.d.consonants-low-class","th":"ท ทหาร","rom":"thaaw thá-hǎan"}
+{"id":"th.c0043","deck":"th.d.consonants-low-class","th":"ธ ธง","rom":"thaaw thong"}
+{"id":"th.c0044","deck":"th.d.consonants-low-class","th":"น หนู","rom":"naaw nǔu"}
+{"id":"th.c0045","deck":"th.d.consonants-low-class","th":"พ พาน","rom":"phaaw phaan"}
+{"id":"th.c0046","deck":"th.d.consonants-low-class","th":"ฟ ฟัน","rom":"faaw fan"}
+{"id":"th.c0047","deck":"th.d.consonants-low-class","th":"ภ สำเภา","rom":"phaaw sǎm-phao"}
+{"id":"th.c0048","deck":"th.d.consonants-low-class","th":"ม ม้า","rom":"maaw máa"}
+{"id":"th.c0049","deck":"th.d.consonants-low-class","th":"ย ยักษ์","rom":"yaaw yák"}
+{"id":"th.c0050","deck":"th.d.consonants-low-class","th":"ร เรือ","rom":"raaw ruuea"}
+{"id":"th.c0051","deck":"th.d.consonants-low-class","th":"ล ลิง","rom":"laaw ling"}
+{"id":"th.c0052","deck":"th.d.consonants-low-class","th":"ว แหวน","rom":"waaw wǎaen"}
+{"id":"th.c0053","deck":"th.d.consonants-low-class","th":"ฮ นกฮูก","rom":"haaw nók-hûuk"}
+{"id":"th.c0054","deck":"th.d.vowels-and-tone-marks","th":"ตา","rom":"dtaa"}
+{"id":"th.c0055","deck":"th.d.vowels-and-tone-marks","th":"ดี","rom":"dii"}
+{"id":"th.c0056","deck":"th.d.vowels-and-tone-marks","th":"มือ","rom":"muue"}
+{"id":"th.c0057","deck":"th.d.vowels-and-tone-marks","th":"เด็ก","rom":"dèk"}
+{"id":"th.c0058","deck":"th.d.vowels-and-tone-marks","th":"แม่","rom":"mâae"}
+{"id":"th.c0059","deck":"th.d.vowels-and-tone-marks","th":"โต๊ะ","rom":"dtó"}
+{"id":"th.c0060","deck":"th.d.vowels-and-tone-marks","th":"ขอ","rom":"khǎaw"}
+{"id":"th.c0061","deck":"th.d.vowels-and-tone-marks","th":"เธอ","rom":"thooe"}
+{"id":"th.c0062","deck":"th.d.vowels-and-tone-marks","th":"เรียน","rom":"riian"}
+{"id":"th.c0063","deck":"th.d.vowels-and-tone-marks","th":"เรือ","rom":"ruuea"}
+{"id":"th.c0064","deck":"th.d.vowels-and-tone-marks","th":"ตัว","rom":"dtuua"}
+{"id":"th.c0065","deck":"th.d.vowels-and-tone-marks","th":"ไป","rom":"bpai"}
+{"id":"th.c0066","deck":"th.d.vowels-and-tone-marks","th":"ใจ","rom":"jai"}
+{"id":"th.c0067","deck":"th.d.vowels-and-tone-marks","th":"ทำ","rom":"tham"}
+{"id":"th.c0068","deck":"th.d.vowels-and-tone-marks","th":"เรา","rom":"rao"}
+{"id":"th.c0069","deck":"th.d.vowels-and-tone-marks","th":"ไม่","rom":"mâi"}
+{"id":"th.c0070","deck":"th.d.vowels-and-tone-marks","th":"ได้","rom":"dâai"}
+{"id":"th.c0071","deck":"th.d.vowels-and-tone-marks","th":"จ๋า","rom":"jǎa"}
+{"id":"th.c0072","deck":"th.d.greetings-and-politeness","th":"สวัสดีครับ","rom":"sà-wàt-dii khráp"}
+{"id":"th.c0073","deck":"th.d.greetings-and-politeness","th":"สวัสดีค่ะ","rom":"sà-wàt-dii khâ"}
+{"id":"th.c0074","deck":"th.d.greetings-and-politeness","th":"ขอบคุณครับ","rom":"khàawp-khun khráp"}
+{"id":"th.c0075","deck":"th.d.greetings-and-politeness","th":"ขอบคุณค่ะ","rom":"khàawp-khun khâ"}
+{"id":"th.c0076","deck":"th.d.greetings-and-politeness","th":"ขอบคุณมากครับ","rom":"khàawp-khun mâak khráp"}
+{"id":"th.c0077","deck":"th.d.greetings-and-politeness","th":"ขอโทษค่ะ","rom":"khǎaw-thôot khâ"}
+{"id":"th.c0078","deck":"th.d.greetings-and-politeness","th":"ขอโทษครับ","rom":"khǎaw-thôot khráp"}
+{"id":"th.c0079","deck":"th.d.greetings-and-politeness","th":"ไม่เป็นไร","rom":"mâi-bpen-rai"}
+{"id":"th.c0080","deck":"th.d.greetings-and-politeness","th":"ยินดีที่ได้รู้จัก","rom":"yin-dii thîi dâai rúu-jàk"}
+{"id":"th.c0081","deck":"th.d.greetings-and-politeness","th":"สบายดีไหมคะ","rom":"sà-baai dii mǎi khá"}
+{"id":"th.c0082","deck":"th.d.greetings-and-politeness","th":"สบายดีครับ","rom":"sà-baai dii khráp"}
+{"id":"th.c0083","deck":"th.d.greetings-and-politeness","th":"แล้วคุณล่ะ","rom":"láaeo khun lâ"}
+{"id":"th.c0084","deck":"th.d.greetings-and-politeness","th":"ครับ","rom":"khráp"}
+{"id":"th.c0085","deck":"th.d.greetings-and-politeness","th":"ค่ะ","rom":"khâ"}
+{"id":"th.c0086","deck":"th.d.greetings-and-politeness","th":"ไปก่อนนะ","rom":"bpai gàawn ná"}
+{"id":"th.c0087","deck":"th.d.greetings-and-politeness","th":"โชคดีนะ","rom":"chôok-dii ná"}
+{"id":"th.c0088","deck":"th.d.greetings-and-politeness","th":"ยินดีต้อนรับ","rom":"yin-dii-dtâawn-ráp"}
+{"id":"th.c0089","deck":"th.d.greetings-and-politeness","th":"ไหว้","rom":"wâai"}
+{"id":"th.c0090","deck":"th.d.people-and-family","th":"ผม","rom":"phǒm"}
+{"id":"th.c0091","deck":"th.d.people-and-family","th":"ฉัน","rom":"chǎn"}
+{"id":"th.c0092","deck":"th.d.people-and-family","th":"ดิฉัน","rom":"dì-chǎn"}
+{"id":"th.c0093","deck":"th.d.people-and-family","th":"คุณ","rom":"khun"}
+{"id":"th.c0094","deck":"th.d.people-and-family","th":"พวกเขา","rom":"phûuak-khǎo"}
+{"id":"th.c0095","deck":"th.d.people-and-family","th":"พี่","rom":"phîi"}
+{"id":"th.c0096","deck":"th.d.people-and-family","th":"พี่สาว","rom":"phîi-sǎao"}
+{"id":"th.c0097","deck":"th.d.people-and-family","th":"พี่ชาย","rom":"phîi-chaai"}
+{"id":"th.c0098","deck":"th.d.people-and-family","th":"น้องชาย","rom":"náawng-chaai"}
+{"id":"th.c0099","deck":"th.d.people-and-family","th":"น้องสาว","rom":"náawng-sǎao"}
+{"id":"th.c0100","deck":"th.d.people-and-family","th":"พ่อ","rom":"phâaw"}
+{"id":"th.c0101","deck":"th.d.people-and-family","th":"ลูก","rom":"lûuk"}
+{"id":"th.c0102","deck":"th.d.people-and-family","th":"สามี","rom":"sǎa-mii"}
+{"id":"th.c0103","deck":"th.d.people-and-family","th":"ภรรยา","rom":"phan-rá-yaa"}
+{"id":"th.c0104","deck":"th.d.people-and-family","th":"แฟน","rom":"faaen"}
+{"id":"th.c0105","deck":"th.d.people-and-family","th":"เพื่อน","rom":"phûuean"}
+{"id":"th.c0106","deck":"th.d.people-and-family","th":"ครอบครัว","rom":"khrâawp-khruua"}
+{"id":"th.c0107","deck":"th.d.people-and-family","th":"ลุง","rom":"lung"}
+{"id":"th.c0108","deck":"th.d.about-me","th":"ผมชื่อไมค์","rom":"phǒm chûue mái"}
+{"id":"th.c0109","deck":"th.d.about-me","th":"ฉันชื่อแอนนา","rom":"chǎn chûue aaen-naa"}
+{"id":"th.c0110","deck":"th.d.about-me","th":"คุณชื่ออะไร","rom":"khun chûue à-rai"}
+{"id":"th.c0111","deck":"th.d.about-me","th":"คุณมาจากไหน","rom":"khun maa jàak nǎi"}
+{"id":"th.c0112","deck":"th.d.about-me","th":"ฉันมาจากอเมริกา","rom":"chǎn maa jàak à-mee-rí-gaa"}
+{"id":"th.c0113","deck":"th.d.about-me","th":"ผมเป็นคนอเมริกัน","rom":"phǒm bpen khon à-mee-rí-gan"}
+{"id":"th.c0114","deck":"th.d.about-me","th":"ผมไม่ใช่คนอังกฤษ","rom":"phǒm mâi châi khon ang-grìt"}
+{"id":"th.c0115","deck":"th.d.about-me","th":"คุณทำงานอะไร","rom":"khun tham-ngaan à-rai"}
+{"id":"th.c0116","deck":"th.d.about-me","th":"ฉันเป็นครู","rom":"chǎn bpen khruu"}
+{"id":"th.c0117","deck":"th.d.about-me","th":"ผมเป็นวิศวกร","rom":"phǒm bpen wít-sà-wá-gaawn"}
+{"id":"th.c0118","deck":"th.d.about-me","th":"ฉันเป็นนักศึกษา","rom":"chǎn bpen nák-sùek-sǎa"}
+{"id":"th.c0119","deck":"th.d.about-me","th":"ผมทำงานที่กรุงเทพฯ","rom":"phǒm tham-ngaan thîi grung-thêep"}
+{"id":"th.c0120","deck":"th.d.about-me","th":"ฉันอยู่ที่เชียงใหม่","rom":"chǎn yùu thîi chiiang-mài"}
+{"id":"th.c0121","deck":"th.d.about-me","th":"ผมอายุสามสิบปี","rom":"phǒm aa-yú sǎam-sìp bpii"}
+{"id":"th.c0122","deck":"th.d.about-me","th":"ฉันโสด","rom":"chǎn sòot"}
+{"id":"th.c0123","deck":"th.d.about-me","th":"นี่คือแฟนฉัน","rom":"nîi khuue faaen chǎn"}
+{"id":"th.c0124","deck":"th.d.about-me","th":"พูดภาษาไทยได้นิดหน่อย","rom":"phûut phaa-sǎa thai dâai nít-nàwi"}
+{"id":"th.c0125","deck":"th.d.about-me","th":"ผมพูดภาษาไทยไม่เก่ง","rom":"phǒm phûut phaa-sǎa thai mâi gèng"}
+{"id":"th.c0126","deck":"th.d.numbers-and-money","th":"ศูนย์","rom":"sǔun"}
+{"id":"th.c0127","deck":"th.d.numbers-and-money","th":"หนึ่ง","rom":"nùeng"}
+{"id":"th.c0128","deck":"th.d.numbers-and-money","th":"สอง","rom":"sǎawng"}
+{"id":"th.c0129","deck":"th.d.numbers-and-money","th":"สาม","rom":"sǎam"}
+{"id":"th.c0130","deck":"th.d.numbers-and-money","th":"สี่","rom":"sìi"}
+{"id":"th.c0131","deck":"th.d.numbers-and-money","th":"ห้า","rom":"hâa"}
+{"id":"th.c0132","deck":"th.d.numbers-and-money","th":"เก้า","rom":"gâao"}
+{"id":"th.c0133","deck":"th.d.numbers-and-money","th":"สิบ","rom":"sìp"}
+{"id":"th.c0134","deck":"th.d.numbers-and-money","th":"สิบเอ็ด","rom":"sìp-èt"}
+{"id":"th.c0135","deck":"th.d.numbers-and-money","th":"ยี่สิบ","rom":"yîi-sìp"}
+{"id":"th.c0136","deck":"th.d.numbers-and-money","th":"ยี่สิบเอ็ด","rom":"yîi-sìp-èt"}
+{"id":"th.c0137","deck":"th.d.numbers-and-money","th":"หนึ่งร้อย","rom":"nùeng-ráawi"}
+{"id":"th.c0138","deck":"th.d.numbers-and-money","th":"หนึ่งพัน","rom":"nùeng-phan"}
+{"id":"th.c0139","deck":"th.d.numbers-and-money","th":"หนึ่งหมื่น","rom":"nùeng-mùuen"}
+{"id":"th.c0140","deck":"th.d.numbers-and-money","th":"หนึ่งล้าน","rom":"nùeng-láan"}
+{"id":"th.c0141","deck":"th.d.numbers-and-money","th":"ห้าสิบบาท","rom":"hâa-sìp bàat"}
+{"id":"th.c0142","deck":"th.d.numbers-and-money","th":"สองร้อยห้าสิบบาท","rom":"sǎawng-ráawi-hâa-sìp bàat"}
+{"id":"th.c0143","deck":"th.d.numbers-and-money","th":"ทั้งหมดเท่าไร","rom":"tháng-mòt thâo-rai"}
+{"id":"th.c0144","deck":"th.d.counting-with-classifiers","th":"หนังสือสองเล่ม","rom":"nǎng-sǔue sǎawng lêm"}
+{"id":"th.c0145","deck":"th.d.counting-with-classifiers","th":"แมวสามตัว","rom":"maaeo sǎam dtuua"}
+{"id":"th.c0146","deck":"th.d.counting-with-classifiers","th":"เสื้อสามตัว","rom":"sûuea sǎam dtuua"}
+{"id":"th.c0147","deck":"th.d.counting-with-classifiers","th":"กาแฟสองแก้ว","rom":"gaa-faae sǎawng gâaeo"}
+{"id":"th.c0148","deck":"th.d.counting-with-classifiers","th":"น้ำสองขวด","rom":"náam sǎawng khùuat"}
+{"id":"th.c0149","deck":"th.d.counting-with-classifiers","th":"ข้าวผัดหนึ่งจาน","rom":"khâao-phàt nùeng jaan"}
+{"id":"th.c0150","deck":"th.d.counting-with-classifiers","th":"ก๋วยเตี๋ยวสองชาม","rom":"gǔuai-dtǐiao sǎawng chaam"}
+{"id":"th.c0151","deck":"th.d.counting-with-classifiers","th":"ขนมสามชิ้น","rom":"khà-nǒm sǎam chín"}
+{"id":"th.c0152","deck":"th.d.counting-with-classifiers","th":"คนไทยห้าคน","rom":"khon thai hâa khon"}
+{"id":"th.c0153","deck":"th.d.counting-with-classifiers","th":"เพื่อนสองคน","rom":"phûuean sǎawng khon"}
+{"id":"th.c0154","deck":"th.d.counting-with-classifiers","th":"รถสองคัน","rom":"rót sǎawng khan"}
+{"id":"th.c0155","deck":"th.d.counting-with-classifiers","th":"กระเป๋าสองใบ","rom":"grà-bpǎo sǎawng bai"}
+{"id":"th.c0156","deck":"th.d.counting-with-classifiers","th":"มือถือสองเครื่อง","rom":"muue-thǔue sǎawng khrûueang"}
+{"id":"th.c0157","deck":"th.d.counting-with-classifiers","th":"บ้านหลังนี้","rom":"bâan lǎng níi"}
+{"id":"th.c0158","deck":"th.d.counting-with-classifiers","th":"หมาตัวนั้น","rom":"mǎa dtuua nán"}
+{"id":"th.c0159","deck":"th.d.counting-with-classifiers","th":"มากี่คน","rom":"maa gìi khon"}
+{"id":"th.c0160","deck":"th.d.counting-with-classifiers","th":"อันนี้","rom":"an níi"}
+{"id":"th.c0161","deck":"th.d.counting-with-classifiers","th":"อันนั้น","rom":"an nán"}
+{"id":"th.c0162","deck":"th.d.food-and-drink","th":"ข้าวผัดกุ้ง","rom":"khâao-phàt gûng"}
+{"id":"th.c0163","deck":"th.d.food-and-drink","th":"ไม่เผ็ด","rom":"mâi phèt"}
+{"id":"th.c0164","deck":"th.d.food-and-drink","th":"น้ำเปล่า","rom":"nám-bplàao"}
+{"id":"th.c0165","deck":"th.d.food-and-drink","th":"อร่อยมาก","rom":"à-ràwi mâak"}
+{"id":"th.c0166","deck":"th.d.food-and-drink","th":"เช็คบิลด้วย","rom":"chék-bin dûuai"}
+{"id":"th.c0167","deck":"th.d.food-and-drink","th":"ขอเมนูหน่อย","rom":"khǎaw mee-nuu nàwi"}
+{"id":"th.c0168","deck":"th.d.food-and-drink","th":"เผ็ดนิดหน่อย","rom":"phèt nít-nàwi"}
+{"id":"th.c0169","deck":"th.d.food-and-drink","th":"เอาผัดไทยหนึ่งจาน","rom":"ao phàt-thai nùeng jaan"}
+{"id":"th.c0170","deck":"th.d.food-and-drink","th":"ส้มตำไม่ใส่พริก","rom":"sôm-dtam mâi sài phrík"}
+{"id":"th.c0171","deck":"th.d.food-and-drink","th":"ต้มยำกุ้ง","rom":"dtôm-yam gûng"}
+{"id":"th.c0172","deck":"th.d.food-and-drink","th":"ข้าวเหนียวมะม่วง","rom":"khâao-nǐiao má-mûuang"}
+{"id":"th.c0173","deck":"th.d.food-and-drink","th":"ชาเย็น","rom":"chaa-yen"}
+{"id":"th.c0174","deck":"th.d.food-and-drink","th":"ไม่ใส่น้ำแข็ง","rom":"mâi sài nám-khǎeng"}
+{"id":"th.c0175","deck":"th.d.food-and-drink","th":"ห่อกลับบ้าน","rom":"hàaw glàp bâan"}
+{"id":"th.c0176","deck":"th.d.food-and-drink","th":"หิวน้ำ","rom":"hǐu-náam"}
+{"id":"th.c0177","deck":"th.d.food-and-drink","th":"ผมกินมังสวิรัติ","rom":"phǒm gin mang-sà-wí-rát"}
+{"id":"th.c0178","deck":"th.d.food-and-drink","th":"แพ้ถั่ว","rom":"pháae thùua"}
+{"id":"th.c0179","deck":"th.d.describing-things","th":"บ้านใหญ่","rom":"bâan yài"}
+{"id":"th.c0180","deck":"th.d.describing-things","th":"รถสีแดง","rom":"rót sǐi daaeng"}
+{"id":"th.c0181","deck":"th.d.describing-things","th":"เสื้อตัวนี้","rom":"sûuea dtuua níi"}
+{"id":"th.c0182","deck":"th.d.describing-things","th":"สวยมาก","rom":"sǔuai mâak"}
+{"id":"th.c0183","deck":"th.d.describing-things","th":"แพงกว่า","rom":"phaaeng gwàa"}
+{"id":"th.c0184","deck":"th.d.describing-things","th":"ห้องเล็ก","rom":"hâwng lék"}
+{"id":"th.c0185","deck":"th.d.describing-things","th":"หนังสือเล่มนั้น","rom":"nǎng-sǔue lêm nán"}
+{"id":"th.c0186","deck":"th.d.describing-things","th":"กระเป๋าของใคร","rom":"grà-bpǎo khǎawng khrai"}
+{"id":"th.c0187","deck":"th.d.describing-things","th":"ใหญ่ที่สุด","rom":"yài thîi-sùt"}
+{"id":"th.c0188","deck":"th.d.describing-things","th":"ถูกกว่า","rom":"thùuk gwàa"}
+{"id":"th.c0189","deck":"th.d.describing-things","th":"เหมือนกัน","rom":"mǔuean-gan"}
+{"id":"th.c0190","deck":"th.d.describing-things","th":"สูงเท่ากัน","rom":"sǔung thâo-gan"}
+{"id":"th.c0191","deck":"th.d.describing-things","th":"ไม่ยาก","rom":"mâi yâak"}
+{"id":"th.c0192","deck":"th.d.describing-things","th":"น่ารักมาก","rom":"nâa-rák mâak"}
+{"id":"th.c0193","deck":"th.d.describing-things","th":"รถคันใหม่","rom":"rót khan mài"}
+{"id":"th.c0194","deck":"th.d.describing-things","th":"บ้านเก่า","rom":"bâan gào"}
+{"id":"th.c0195","deck":"th.d.describing-things","th":"ห้องสะอาด","rom":"hâwng sà-àat"}
+{"id":"th.c0196","deck":"th.d.time-and-days","th":"วันนี้","rom":"wan-níi"}
+{"id":"th.c0197","deck":"th.d.time-and-days","th":"พรุ่งนี้","rom":"phrûng-níi"}
+{"id":"th.c0198","deck":"th.d.time-and-days","th":"เมื่อวาน","rom":"mûuea-waan"}
+{"id":"th.c0199","deck":"th.d.time-and-days","th":"บ่ายสองโมง","rom":"bàai sǎawng moong"}
+{"id":"th.c0200","deck":"th.d.time-and-days","th":"วันเสาร์","rom":"wan-sǎo"}
+{"id":"th.c0201","deck":"th.d.time-and-days","th":"ตอนนี้กี่โมง","rom":"dtaawn-níi gìi moong"}
+{"id":"th.c0202","deck":"th.d.time-and-days","th":"หกโมงเช้า","rom":"hòk moong cháao"}
+{"id":"th.c0203","deck":"th.d.time-and-days","th":"เที่ยง","rom":"thîiang"}
+{"id":"th.c0204","deck":"th.d.time-and-days","th":"หนึ่งทุ่ม","rom":"nùeng thûm"}
+{"id":"th.c0205","deck":"th.d.time-and-days","th":"เที่ยงคืน","rom":"thîiang-khuuen"}
+{"id":"th.c0206","deck":"th.d.time-and-days","th":"ตีสอง","rom":"dtii sǎawng"}
+{"id":"th.c0207","deck":"th.d.time-and-days","th":"ห้าโมงเย็น","rom":"hâa moong yen"}
+{"id":"th.c0208","deck":"th.d.time-and-days","th":"วันจันทร์","rom":"wan-jan"}
+{"id":"th.c0209","deck":"th.d.time-and-days","th":"อาทิตย์หน้า","rom":"aa-thít nâa"}
+{"id":"th.c0210","deck":"th.d.time-and-days","th":"กินแล้ว","rom":"gin láaeo"}
+{"id":"th.c0211","deck":"th.d.time-and-days","th":"กำลังไป","rom":"gam-lang bpai"}
+{"id":"th.c0212","deck":"th.d.time-and-days","th":"จะไปพรุ่งนี้","rom":"jà bpai phrûng-níi"}
+{"id":"th.c0213","deck":"th.d.time-and-days","th":"ทุกวัน","rom":"thúk-wan"}
+{"id":"th.c0214","deck":"th.d.directions-and-places","th":"ห้องน้ำอยู่ที่ไหน","rom":"hâwng-náam yùu thîi-nǎi"}
+{"id":"th.c0215","deck":"th.d.directions-and-places","th":"เลี้ยวซ้าย","rom":"líiao sáai"}
+{"id":"th.c0216","deck":"th.d.directions-and-places","th":"ตรงไป","rom":"dtrong bpai"}
+{"id":"th.c0217","deck":"th.d.directions-and-places","th":"ใกล้ไหม","rom":"glâi mǎi"}
+{"id":"th.c0218","deck":"th.d.directions-and-places","th":"ตลาด","rom":"dtà-làat"}
+{"id":"th.c0219","deck":"th.d.directions-and-places","th":"เลี้ยวขวา","rom":"líiao khwǎa"}
+{"id":"th.c0220","deck":"th.d.directions-and-places","th":"ไกลมาก","rom":"glai mâak"}
+{"id":"th.c0221","deck":"th.d.directions-and-places","th":"อยู่ตรงข้าม","rom":"yùu dtrong-khâam"}
+{"id":"th.c0222","deck":"th.d.directions-and-places","th":"อยู่ข้างหน้า","rom":"yùu khâang-nâa"}
+{"id":"th.c0223","deck":"th.d.directions-and-places","th":"ไฟแดง","rom":"fai-daaeng"}
+{"id":"th.c0224","deck":"th.d.directions-and-places","th":"หัวมุม","rom":"hǔua-mum"}
+{"id":"th.c0225","deck":"th.d.directions-and-places","th":"แถวนี้มีเซเว่นไหม","rom":"thǎaeo-níi mii see-wên mǎi"}
+{"id":"th.c0226","deck":"th.d.directions-and-places","th":"โรงแรม","rom":"roong-raaem"}
+{"id":"th.c0227","deck":"th.d.directions-and-places","th":"สถานีรถไฟฟ้า","rom":"sà-thǎa-nii rót-fai-fáa"}
+{"id":"th.c0228","deck":"th.d.directions-and-places","th":"ซอย","rom":"saawi"}
+{"id":"th.c0229","deck":"th.d.directions-and-places","th":"ธนาคารอยู่ใกล้ๆ","rom":"thá-naa-khaan yùu glâi-glâi"}
+{"id":"th.c0230","deck":"th.d.directions-and-places","th":"ไปทางไหน","rom":"bpai thaang nǎi"}
+{"id":"th.c0231","deck":"th.d.directions-and-places","th":"วัด","rom":"wát"}
+{"id":"th.c0232","deck":"th.d.getting-around","th":"ไปสนามบิน","rom":"bpai sà-nǎam-bin"}
+{"id":"th.c0233","deck":"th.d.getting-around","th":"เปิดมิเตอร์ได้ไหม","rom":"bpòoet mí-dtôoe dâai mǎi"}
+{"id":"th.c0234","deck":"th.d.getting-around","th":"จอดตรงนี้","rom":"jàawt dtrong-níi"}
+{"id":"th.c0235","deck":"th.d.getting-around","th":"รถไฟฟ้า","rom":"rót-fai-fáa"}
+{"id":"th.c0236","deck":"th.d.getting-around","th":"ตั๋วหนึ่งใบ","rom":"dtǔua nùeng bai"}
+{"id":"th.c0237","deck":"th.d.getting-around","th":"ไปสุขุมวิทเท่าไร","rom":"bpai sù-khǔm-wít thâo-rai"}
+{"id":"th.c0238","deck":"th.d.getting-around","th":"แท็กซี่","rom":"tháek-sîi"}
+{"id":"th.c0239","deck":"th.d.getting-around","th":"ตุ๊กตุ๊ก","rom":"dtúk-dtúk"}
+{"id":"th.c0240","deck":"th.d.getting-around","th":"รถเมล์","rom":"rót-mee"}
+{"id":"th.c0241","deck":"th.d.getting-around","th":"มอเตอร์ไซค์","rom":"maaw-dtôoe-sai"}
+{"id":"th.c0242","deck":"th.d.getting-around","th":"ขึ้นรถไฟฟ้าที่สยาม","rom":"khûen rót-fai-fáa thîi sà-yǎam"}
+{"id":"th.c0243","deck":"th.d.getting-around","th":"ลงที่นี่","rom":"long thîi-nîi"}
+{"id":"th.c0244","deck":"th.d.getting-around","th":"อยากไปเชียงใหม่","rom":"yàak bpai chiiang-mài"}
+{"id":"th.c0245","deck":"th.d.getting-around","th":"รอที่นี่ได้ไหม","rom":"raaw thîi-nîi dâai mǎi"}
+{"id":"th.c0246","deck":"th.d.getting-around","th":"ค่าโดยสารเท่าไร","rom":"khâa-dooi-sǎan thâo-rai"}
+{"id":"th.c0247","deck":"th.d.getting-around","th":"ขับช้าๆหน่อย","rom":"khàp cháa-cháa nàwi"}
+{"id":"th.c0248","deck":"th.d.getting-around","th":"ต้องเปลี่ยนรถไหม","rom":"dtâwng bplìian rót mǎi"}
+{"id":"th.c0249","deck":"th.d.shopping-and-colors","th":"ราคาเท่าไร","rom":"raa-khaa thâo-rai"}
+{"id":"th.c0250","deck":"th.d.shopping-and-colors","th":"ลดได้ไหม","rom":"lót dâai mǎi"}
+{"id":"th.c0251","deck":"th.d.shopping-and-colors","th":"ลองได้ไหม","rom":"laawng dâai mǎi"}
+{"id":"th.c0252","deck":"th.d.shopping-and-colors","th":"แพงไป","rom":"phaaeng bpai"}
+{"id":"th.c0253","deck":"th.d.shopping-and-colors","th":"สีดำ","rom":"sǐi dam"}
+{"id":"th.c0254","deck":"th.d.shopping-and-colors","th":"สีขาว","rom":"sǐi khǎao"}
+{"id":"th.c0255","deck":"th.d.shopping-and-colors","th":"สีแดง","rom":"sǐi daaeng"}
+{"id":"th.c0256","deck":"th.d.shopping-and-colors","th":"สีน้ำเงิน","rom":"sǐi nám-ngoen"}
+{"id":"th.c0257","deck":"th.d.shopping-and-colors","th":"สีฟ้า","rom":"sǐi fáa"}
+{"id":"th.c0258","deck":"th.d.shopping-and-colors","th":"มีไซส์ใหญ่กว่านี้ไหม","rom":"mii sái yài gwàa níi mǎi"}
+{"id":"th.c0259","deck":"th.d.shopping-and-colors","th":"ใหญ่ไป","rom":"yài bpai"}
+{"id":"th.c0260","deck":"th.d.shopping-and-colors","th":"รองเท้าคู่นี้","rom":"raawng-tháao khûu níi"}
+{"id":"th.c0261","deck":"th.d.shopping-and-colors","th":"มีสีเขียวไหม","rom":"mii sǐi khǐiao mǎi"}
+{"id":"th.c0262","deck":"th.d.shopping-and-colors","th":"สแกนได้ไหม","rom":"sà-gaaen dâai mǎi"}
+{"id":"th.c0263","deck":"th.d.shopping-and-colors","th":"จ่ายเงินสด","rom":"jàai ngoen-sòt"}
+{"id":"th.c0264","deck":"th.d.shopping-and-colors","th":"เอาอันนี้","rom":"ao an níi"}
+{"id":"th.c0265","deck":"th.d.shopping-and-colors","th":"ดูก่อน","rom":"duu gàawn"}
+{"id":"th.c0266","deck":"th.d.shopping-and-colors","th":"ขอถุงด้วย","rom":"khǎaw thǔng dûuai"}
+{"id":"th.c0267","deck":"th.d.health-and-feelings","th":"ปวดหัว","rom":"bpùuat-hǔua"}
+{"id":"th.c0268","deck":"th.d.health-and-feelings","th":"ไม่สบาย","rom":"mâi-sà-baai"}
+{"id":"th.c0269","deck":"th.d.health-and-feelings","th":"เหนื่อย","rom":"nùueai"}
+{"id":"th.c0270","deck":"th.d.health-and-feelings","th":"ร้านขายยาอยู่ที่ไหน","rom":"ráan-khǎai-yaa yùu thîi-nǎi"}
+{"id":"th.c0271","deck":"th.d.health-and-feelings","th":"ดีใจ","rom":"dii-jai"}
+{"id":"th.c0272","deck":"th.d.health-and-feelings","th":"ปวดท้อง","rom":"bpùuat-tháawng"}
+{"id":"th.c0273","deck":"th.d.health-and-feelings","th":"เป็นหวัด","rom":"bpen wàt"}
+{"id":"th.c0274","deck":"th.d.health-and-feelings","th":"เป็นไข้","rom":"bpen khâi"}
+{"id":"th.c0275","deck":"th.d.health-and-feelings","th":"เจ็บคอ","rom":"jèp khaaw"}
+{"id":"th.c0276","deck":"th.d.health-and-feelings","th":"ง่วงนอน","rom":"ngûuang-naawn"}
+{"id":"th.c0277","deck":"th.d.health-and-feelings","th":"เครียด","rom":"khrîiat"}
+{"id":"th.c0278","deck":"th.d.health-and-feelings","th":"เบื่อ","rom":"bùuea"}
+{"id":"th.c0279","deck":"th.d.health-and-feelings","th":"เสียใจ","rom":"sǐia-jai"}
+{"id":"th.c0280","deck":"th.d.health-and-feelings","th":"ต้องไปหาหมอ","rom":"dtâwng bpai hǎa mǎaw"}
+{"id":"th.c0281","deck":"th.d.health-and-feelings","th":"แพ้ยา","rom":"pháae yaa"}
+{"id":"th.c0282","deck":"th.d.health-and-feelings","th":"ช่วยด้วย","rom":"chûuai-dûuai"}
+{"id":"th.c0283","deck":"th.d.health-and-feelings","th":"หายแล้ว","rom":"hǎai láaeo"}
+{"id":"th.c0284","deck":"th.d.questions-and-requests","th":"ไปไหน","rom":"bpai nǎi"}
+{"id":"th.c0285","deck":"th.d.questions-and-requests","th":"กินข้าวหรือยัง","rom":"gin khâao rǔue-yang"}
+{"id":"th.c0286","deck":"th.d.questions-and-requests","th":"ขอน้ำหน่อย","rom":"khǎaw náam nàwi"}
+{"id":"th.c0287","deck":"th.d.questions-and-requests","th":"ช่วยพูดช้าๆหน่อย","rom":"chûuai phûut cháa-cháa nàwi"}
+{"id":"th.c0288","deck":"th.d.questions-and-requests","th":"พูดภาษาอังกฤษได้ไหม","rom":"phûut phaa-sǎa ang-grìt dâai mǎi"}
+{"id":"th.c0289","deck":"th.d.questions-and-requests","th":"นี่อะไร","rom":"nîi à-rai"}
+{"id":"th.c0290","deck":"th.d.questions-and-requests","th":"นั่นใคร","rom":"nân khrai"}
+{"id":"th.c0291","deck":"th.d.questions-and-requests","th":"ไปเมื่อไร","rom":"bpai mûuea-rai"}
+{"id":"th.c0292","deck":"th.d.questions-and-requests","th":"ทำไมมาสาย","rom":"tham-mai maa sǎai"}
+{"id":"th.c0293","deck":"th.d.questions-and-requests","th":"อันไหน","rom":"an nǎi"}
+{"id":"th.c0294","deck":"th.d.questions-and-requests","th":"กี่ชั่วโมง","rom":"gìi chûua-moong"}
+{"id":"th.c0295","deck":"th.d.questions-and-requests","th":"ไปยังไง","rom":"bpai yang-ngai"}
+{"id":"th.c0296","deck":"th.d.questions-and-requests","th":"ช่วยถ่ายรูปให้หน่อยได้ไหม","rom":"chûuai thàai-rûup hâi nàwi dâai mǎi"}
+{"id":"th.c0297","deck":"th.d.questions-and-requests","th":"เข้าใจไหม","rom":"khâo-jai mǎi"}
+{"id":"th.c0298","deck":"th.d.questions-and-requests","th":"ไม่เข้าใจ","rom":"mâi khâo-jai"}
+{"id":"th.c0299","deck":"th.d.questions-and-requests","th":"พูดอีกครั้งได้ไหม","rom":"phûut ìik khráng dâai mǎi"}
+{"id":"th.c0300","deck":"th.d.questions-and-requests","th":"อย่าลืมนะ","rom":"yàa luuem ná"}
+{"id":"th.c0301","deck":"th.d.traps-for-english-speakers","th":"ผมหิว","rom":"phǒm hǐu"}
+{"id":"th.c0302","deck":"th.d.traps-for-english-speakers","th":"ฝรั่ง","rom":"fà-ràng"}
+{"id":"th.c0303","deck":"th.d.traps-for-english-speakers","th":"ฟิต","rom":"fít"}
+{"id":"th.c0304","deck":"th.d.traps-for-english-speakers","th":"อิ่มแล้ว","rom":"ìm láaeo"}
+{"id":"th.c0305","deck":"th.d.traps-for-english-speakers","th":"เผ็ด","rom":"phèt"}
+{"id":"th.c0306","deck":"th.d.traps-for-english-speakers","th":"อาหารอร่อย","rom":"aa-hǎan à-ràwi"}
+{"id":"th.c0307","deck":"th.d.traps-for-english-speakers","th":"ฉันไม่ใช่ครู","rom":"chǎn mâi châi khruu"}
+{"id":"th.c0308","deck":"th.d.traps-for-english-speakers","th":"ผมอยู่ที่บ้าน","rom":"phǒm yùu thîi bâan"}
+{"id":"th.c0309","deck":"th.d.traps-for-english-speakers","th":"บ้านผม","rom":"bâan phǒm"}
+{"id":"th.c0310","deck":"th.d.traps-for-english-speakers","th":"โอเวอร์","rom":"oo-wôoe"}
+{"id":"th.c0311","deck":"th.d.traps-for-english-speakers","th":"แอร์","rom":"aae"}
+{"id":"th.c0312","deck":"th.d.traps-for-english-speakers","th":"ร้อน","rom":"ráawn"}
+{"id":"th.c0313","deck":"th.d.traps-for-english-speakers","th":"น้องครับ","rom":"náawng khráp"}
+{"id":"th.c0314","deck":"th.d.traps-for-english-speakers","th":"น้องคะ","rom":"náawng khá"}
+{"id":"th.c0315","deck":"th.d.traps-for-english-speakers","th":"ไปไหนมา","rom":"bpai nǎi maa"}
+{"id":"th.c0316","deck":"th.d.traps-for-english-speakers","th":"เกรงใจ","rom":"greeng-jai"}
+{"id":"th.c0317","deck":"th.d.traps-for-english-speakers","th":"ไปไหมคะ","rom":"bpai mǎi khá"}
+{"id":"th.c0318","deck":"th.d.traps-for-english-speakers","th":"ว่ายน้ำได้","rom":"wâai-náam dâai"}
+{"id":"th.c0319","deck":"th.d.compliments","th":"อร่อยทุกอย่าง","rom":"à-ràwi thúk yàang"}
+{"id":"th.c0320","deck":"th.d.compliments","th":"ทำอาหารเก่งมาก","rom":"tham-aa-hǎan gèng mâak"}
+{"id":"th.c0321","deck":"th.d.compliments","th":"เก่งมาก","rom":"gèng mâak"}
+{"id":"th.c0322","deck":"th.d.compliments","th":"ทำได้ดีมาก","rom":"tham dâai dii mâak"}
+{"id":"th.c0323","deck":"th.d.compliments","th":"ดีมากเลย","rom":"dii mâak looei"}
+{"id":"th.c0324","deck":"th.d.compliments","th":"คุณเก่งเรื่องนี้จริงๆ","rom":"khun gèng rûueang níi jing-jing"}
+{"id":"th.c0325","deck":"th.d.compliments","th":"ทำงานเก่งมาก","rom":"tham-ngaan gèng mâak"}
+{"id":"th.c0326","deck":"th.d.compliments","th":"ทำงานหนักมาก","rom":"tham-ngaan nàk mâak"}
+{"id":"th.c0327","deck":"th.d.compliments","th":"ใจดีมาก","rom":"jai-dii mâak"}
+{"id":"th.c0328","deck":"th.d.compliments","th":"วันนี้ดูดีนะ","rom":"wan-níi duu dii ná"}
+{"id":"th.c0329","deck":"th.d.compliments","th":"ใส่แล้วสวย","rom":"sài láaeo sǔuai"}
+{"id":"th.c0330","deck":"th.d.compliments","th":"ใส่แล้วหล่อ","rom":"sài láaeo làaw"}
+{"id":"th.c0331","deck":"th.d.compliments","th":"เสื้อสวยมาก","rom":"sûuea sǔuai mâak"}
+{"id":"th.c0332","deck":"th.d.compliments","th":"บ้านสวยมาก","rom":"bâan sǔuai mâak"}
+{"id":"th.c0333","deck":"th.d.compliments","th":"บ้านน่าอยู่มาก","rom":"bâan nâa yùu mâak"}
+{"id":"th.c0334","deck":"th.d.compliments","th":"สะอาดมาก","rom":"sà-àat mâak"}
+{"id":"th.c0335","deck":"th.d.compliments","th":"ลูกน่ารักมาก","rom":"lûuk nâa-rák mâak"}
+{"id":"th.c0336","deck":"th.d.compliments","th":"รูปสวยมาก","rom":"rûup sǔuai mâak"}
+{"id":"th.c0337","deck":"th.d.compliments","th":"ร้องเพลงเพราะมาก","rom":"ráawng-phleeng phráw mâak"}
+{"id":"th.c0338","deck":"th.d.compliments","th":"เต้นเก่งมาก","rom":"dtên gèng mâak"}
+{"id":"th.c0339","deck":"th.d.compliments","th":"เขียนสวยมาก","rom":"khǐian sǔuai mâak"}
+{"id":"th.c0340","deck":"th.d.compliments","th":"พูดภาษาไทยเก่งมาก","rom":"phûut phaa-sǎa thai gèng mâak"}
+{"id":"th.c0341","deck":"th.d.compliments","th":"เก่งที่สุด","rom":"gèng thîi-sùt"}
+{"id":"th.c0342","deck":"th.d.compliments","th":"ไม่หรอก","rom":"mâi ràawk"}
+{"id":"th.c0343","deck":"th.d.compliments","th":"ยังไม่เก่งหรอก","rom":"yang mâi gèng ràawk"}
+{"id":"th.c0344","deck":"th.d.compliments","th":"ยังต้องเรียนอีกเยอะ","rom":"yang dtâwng riian ìik yóe"}
+{"id":"th.c0345","deck":"th.d.compliments","th":"พูดได้นิดหน่อยเอง","rom":"phûut dâai nít-nàwi eeng"}
+{"id":"th.c0346","deck":"th.d.compliments","th":"ขอบคุณนะ","rom":"khàawp-khun ná"}
+{"id":"th.c0347","deck":"th.d.compliments","th":"คุณก็เหมือนกัน","rom":"khun gâaw mǔuean-gan"}
+{"id":"th.c0348","deck":"th.d.flirting","th":"หล่อ","rom":"làaw"}
+{"id":"th.c0349","deck":"th.d.flirting","th":"น่ารัก","rom":"nâa-rák"}
+{"id":"th.c0350","deck":"th.d.flirting","th":"ใจดี","rom":"jai-dii"}
+{"id":"th.c0351","deck":"th.d.flirting","th":"โสด","rom":"sòot"}
+{"id":"th.c0352","deck":"th.d.flirting","th":"ปากหวาน","rom":"bpàak wǎan"}
+{"id":"th.c0353","deck":"th.d.flirting","th":"รัก","rom":"rák"}
+{"id":"th.c0354","deck":"th.d.flirting","th":"คิดถึง","rom":"khít-thǔeng"}
+{"id":"th.c0355","deck":"th.d.flirting","th":"สบายใจ","rom":"sà-baai-jai"}
+{"id":"th.c0356","deck":"th.d.flirting","th":"วันนี้สวยมากเลย","rom":"wan-níi sǔuai mâak looei"}
+{"id":"th.c0357","deck":"th.d.flirting","th":"ตาสวยมากเลย","rom":"dtaa sǔuai mâak looei"}
+{"id":"th.c0358","deck":"th.d.flirting","th":"ใส่สีนี้แล้วดูดีมาก","rom":"sài sǐi níi láaeo duu dii mâak"}
+{"id":"th.c0359","deck":"th.d.flirting","th":"วันนี้หล่อมากเลย","rom":"wan-níi làaw mâak looei"}
+{"id":"th.c0360","deck":"th.d.flirting","th":"หล่อมาก","rom":"làaw mâak"}
+{"id":"th.c0361","deck":"th.d.flirting","th":"น่ารักจริงๆ","rom":"nâa-rák jing-jing"}
+{"id":"th.c0362","deck":"th.d.flirting","th":"น่ารักที่สุด","rom":"nâa-rák thîi-sùt"}
+{"id":"th.c0363","deck":"th.d.flirting","th":"คุณเป็นคนน่ารัก","rom":"khun bpen khon nâa-rák"}
+{"id":"th.c0364","deck":"th.d.flirting","th":"คุณใจดีกับฉันเสมอ","rom":"khun jai-dii gàp chǎn sà-mǒoe"}
+{"id":"th.c0365","deck":"th.d.flirting","th":"ผมชอบคุณนะ","rom":"phǒm châawp khun ná"}
+{"id":"th.c0366","deck":"th.d.flirting","th":"ฉันชอบคุณนะ","rom":"chǎn châawp khun ná"}
+{"id":"th.c0367","deck":"th.d.flirting","th":"ผมรักคุณ","rom":"phǒm rák khun"}
+{"id":"th.c0368","deck":"th.d.flirting","th":"ฉันรักคุณ","rom":"chǎn rák khun"}
+{"id":"th.c0369","deck":"th.d.flirting","th":"คิดถึงนะ","rom":"khít-thǔeng ná"}
+{"id":"th.c0370","deck":"th.d.flirting","th":"คิดถึงทุกวัน","rom":"khít-thǔeng thúk-wan"}
+{"id":"th.c0371","deck":"th.d.flirting","th":"อยู่กับคุณแล้วสนุก","rom":"yùu gàp khun láaeo sà-nùk"}
+{"id":"th.c0372","deck":"th.d.flirting","th":"อยู่กับคุณแล้วสบายใจ","rom":"yùu gàp khun láaeo sà-baai-jai"}
+{"id":"th.c0373","deck":"th.d.flirting","th":"วันนี้สนุกมาก","rom":"wan-níi sà-nùk mâak"}
+{"id":"th.c0374","deck":"th.d.flirting","th":"โสดไหม","rom":"sòot mǎi"}
+{"id":"th.c0375","deck":"th.d.flirting","th":"ยังโสดอยู่","rom":"yang sòot yùu"}
+{"id":"th.c0376","deck":"th.d.flirting","th":"มีแฟนหรือยัง","rom":"mii faaen rǔue-yang"}
+{"id":"th.c0377","deck":"th.d.flirting","th":"ไปกินกาแฟกันไหม","rom":"bpai gin gaa-faae gan mǎi"}
+{"id":"th.c0378","deck":"th.d.flirting","th":"ไปกินข้าวกันไหม","rom":"bpai gin khâao gan mǎi"}
+{"id":"th.c0379","deck":"th.d.flirting","th":"วันเสาร์นี้ว่างไหม","rom":"wan-sǎo níi wâang mǎi"}
+{"id":"th.c0380","deck":"th.d.flirting","th":"คืนนี้ว่างไหม","rom":"khuuen-níi wâang mǎi"}
+{"id":"th.c0381","deck":"th.d.flirting","th":"ไปเที่ยวด้วยกันไหม","rom":"bpai thîiao dûuai-gan mǎi"}
+{"id":"th.c0382","deck":"th.d.flirting","th":"ขอไลน์หน่อยได้ไหม","rom":"khǎaw lai nàwi dâai mǎi"}
+{"id":"th.c0383","deck":"th.d.flirting","th":"เจอกันอีกได้ไหม","rom":"jooe gan ìik dâai mǎi"}
+{"id":"th.c0384","deck":"th.d.flirting","th":"อยากเจออีก","rom":"yàak jooe ìik"}
+{"id":"th.c0385","deck":"th.d.flirting","th":"ดีใจที่ได้เจอ","rom":"dii-jai thîi dâai jooe"}
+{"id":"th.c0386","deck":"th.d.flirting","th":"เป็นแฟนกันไหม","rom":"bpen faaen gan mǎi"}
+{"id":"th.c0387","deck":"th.d.flirting","th":"ฝันดีนะ","rom":"fǎn-dii ná"}
+{"id":"th.c0388","deck":"th.d.flirting","th":"กลับบ้านดีๆนะ","rom":"glàp bâan dii-dii ná"}
+{"id":"th.c0389","deck":"th.d.flirting","th":"ถึงบ้านแล้วบอกด้วยนะ","rom":"thǔeng bâan láaeo bàawk dûuai ná"}
+{"id":"th.c0390","deck":"th.d.flirting","th":"คุณก็น่ารักนะ","rom":"khun gâaw nâa-rák ná"}
+{"id":"th.c0391","deck":"th.d.flirting","th":"พูดอย่างนี้กับทุกคนหรือเปล่า","rom":"phûut yàang níi gàp thúk khon rǔue-bplàao"}
+{"id":"th.c0392","deck":"th.d.flirting","th":"ขอคิดก่อนนะ","rom":"khǎaw khít gàawn ná"}
+{"id":"th.c0393","deck":"th.d.flirting","th":"ได้สิ ไปกัน","rom":"dâai sì bpai gan"}
+{"id":"th.c0394","deck":"th.d.flirting","th":"ได้เลย","rom":"dâai looei"}
+{"id":"th.c0395","deck":"th.d.flirting","th":"ขอบคุณนะ แต่ฉันมีแฟนแล้ว","rom":"khàawp-khun ná dtàae chǎn mii faaen láaeo"}
+{"id":"th.c0396","deck":"th.d.flirting","th":"ขอบคุณนะ แต่ผมมีแฟนแล้ว","rom":"khàawp-khun ná dtàae phǒm mii faaen láaeo"}
+{"id":"th.c0397","deck":"th.d.flirting","th":"ขอโทษนะ ไม่ว่างจริงๆ","rom":"khǎaw-thôot ná mâi wâang jing-jing"}
+{"id":"th.c0398","deck":"th.d.flirting","th":"ขอบคุณนะ แต่ไม่ดีกว่า","rom":"khàawp-khun ná dtàae mâi dii gwàa"}
+{"id":"th.c0399","deck":"th.d.flirting","th":"เป็นเพื่อนกันดีกว่า","rom":"bpen phûuean gan dii gwàa"}
+{"id":"th.c0400","deck":"th.d.top-nouns","th":"บ้าน","rom":"bâan"}
+{"id":"th.c0401","deck":"th.d.top-nouns","th":"วัน","rom":"wan"}
+{"id":"th.c0402","deck":"th.d.top-nouns","th":"เวลา","rom":"wee-laa"}
+{"id":"th.c0403","deck":"th.d.top-nouns","th":"งาน","rom":"ngaan"}
+{"id":"th.c0404","deck":"th.d.top-nouns","th":"น้ำ","rom":"náam"}
+{"id":"th.c0405","deck":"th.d.top-nouns","th":"ชื่อ","rom":"chûue"}
+{"id":"th.c0406","deck":"th.d.top-nouns","th":"เงิน","rom":"ngoen"}
+{"id":"th.c0407","deck":"th.d.top-nouns","th":"อาหาร","rom":"aa-hǎan"}
+{"id":"th.c0408","deck":"th.d.top-nouns","th":"ปี","rom":"bpii"}
+{"id":"th.c0409","deck":"th.d.top-nouns","th":"เรื่อง","rom":"rûueang"}
+{"id":"th.c0410","deck":"th.d.top-nouns","th":"ภาษา","rom":"phaa-sǎa"}
+{"id":"th.c0411","deck":"th.d.top-nouns","th":"รถ","rom":"rót"}
+{"id":"th.c0412","deck":"th.d.top-nouns","th":"ทาง","rom":"thaang"}
+{"id":"th.c0413","deck":"th.d.top-nouns","th":"ผู้หญิง","rom":"phûu-yǐng"}
+{"id":"th.c0414","deck":"th.d.top-nouns","th":"ผู้ชาย","rom":"phûu-chaai"}
+{"id":"th.c0415","deck":"th.d.top-nouns","th":"เมือง","rom":"muueang"}
+{"id":"th.c0416","deck":"th.d.top-nouns","th":"ประเทศ","rom":"bprà-thêet"}
+{"id":"th.c0417","deck":"th.d.top-nouns","th":"ร้าน","rom":"ráan"}
+{"id":"th.c0418","deck":"th.d.top-nouns","th":"หัว","rom":"hǔua"}
+{"id":"th.c0419","deck":"th.d.top-nouns","th":"หน้า","rom":"nâa"}
+{"id":"th.c0420","deck":"th.d.top-nouns","th":"ปัญหา","rom":"bpan-hǎa"}
+{"id":"th.c0421","deck":"th.d.top-nouns","th":"เดือน","rom":"duuean"}
+{"id":"th.c0422","deck":"th.d.top-nouns","th":"อาทิตย์","rom":"aa-thít"}
+{"id":"th.c0423","deck":"th.d.top-nouns","th":"ชั่วโมง","rom":"chûua-moong"}
+{"id":"th.c0424","deck":"th.d.top-nouns","th":"นาที","rom":"naa-thii"}
+{"id":"th.c0425","deck":"th.d.top-nouns","th":"คำ","rom":"kham"}
+{"id":"th.c0426","deck":"th.d.top-nouns","th":"รูป","rom":"rûup"}
+{"id":"th.c0427","deck":"th.d.top-nouns","th":"เพลง","rom":"phleeng"}
+{"id":"th.c0428","deck":"th.d.top-nouns","th":"หนัง","rom":"nǎng"}
+{"id":"th.c0429","deck":"th.d.top-nouns","th":"หนังสือ","rom":"nǎng-sǔue"}
+{"id":"th.c0430","deck":"th.d.top-nouns","th":"โทรศัพท์","rom":"thoo-rá-sàp"}
+{"id":"th.c0431","deck":"th.d.top-nouns","th":"มือถือ","rom":"muue-thǔue"}
+{"id":"th.c0432","deck":"th.d.top-nouns","th":"ทีวี","rom":"thii-wii"}
+{"id":"th.c0433","deck":"th.d.top-nouns","th":"ข่าว","rom":"khàao"}
+{"id":"th.c0434","deck":"th.d.top-nouns","th":"สี","rom":"sǐi"}
+{"id":"th.c0435","deck":"th.d.top-nouns","th":"ราคา","rom":"raa-khaa"}
+{"id":"th.c0436","deck":"th.d.top-nouns","th":"นักเรียน","rom":"nák-riian"}
+{"id":"th.c0437","deck":"th.d.top-nouns","th":"นักศึกษา","rom":"nák-sùek-sǎa"}
+{"id":"th.c0438","deck":"th.d.top-nouns","th":"ครู","rom":"khruu"}
+{"id":"th.c0439","deck":"th.d.top-nouns","th":"หมอ","rom":"mǎaw"}
+{"id":"th.c0440","deck":"th.d.top-nouns","th":"พนักงาน","rom":"phá-nák-ngaan"}
+{"id":"th.c0441","deck":"th.d.top-nouns","th":"ตำรวจ","rom":"dtam-rùuat"}
+{"id":"th.c0442","deck":"th.d.top-nouns","th":"ลูกสาว","rom":"lûuk-sǎao"}
+{"id":"th.c0443","deck":"th.d.top-nouns","th":"ลูกชาย","rom":"lûuk-chaai"}
+{"id":"th.c0444","deck":"th.d.top-nouns","th":"พ่อแม่","rom":"phâaw-mâae"}
+{"id":"th.c0445","deck":"th.d.top-nouns","th":"คุณแม่","rom":"khun-mâae"}
+{"id":"th.c0446","deck":"th.d.top-nouns","th":"คุณพ่อ","rom":"khun-phâaw"}
+{"id":"th.c0447","deck":"th.d.top-nouns","th":"ปู่","rom":"bpùu"}
+{"id":"th.c0448","deck":"th.d.top-nouns","th":"ย่า","rom":"yâa"}
+{"id":"th.c0449","deck":"th.d.top-nouns","th":"ยาย","rom":"yaai"}
+{"id":"th.c0450","deck":"th.d.top-nouns","th":"ห้องน้ำ","rom":"hâwng-náam"}
+{"id":"th.c0451","deck":"th.d.top-nouns","th":"โรงเรียน","rom":"roong-riian"}
+{"id":"th.c0452","deck":"th.d.top-nouns","th":"ร้านอาหาร","rom":"ráan-aa-hǎan"}
+{"id":"th.c0453","deck":"th.d.top-nouns","th":"โรงพยาบาล","rom":"roong-phá-yaa-baan"}
+{"id":"th.c0454","deck":"th.d.top-nouns","th":"ธนาคาร","rom":"thá-naa-khaan"}
+{"id":"th.c0455","deck":"th.d.top-nouns","th":"บริษัท","rom":"baaw-rí-sàt"}
+{"id":"th.c0456","deck":"th.d.top-nouns","th":"ออฟฟิศ","rom":"aaw-fít"}
+{"id":"th.c0457","deck":"th.d.top-nouns","th":"สนามบิน","rom":"sà-nǎam-bin"}
+{"id":"th.c0458","deck":"th.d.top-nouns","th":"สถานี","rom":"sà-thǎa-nii"}
+{"id":"th.c0459","deck":"th.d.top-nouns","th":"ถนน","rom":"thà-nǒn"}
+{"id":"th.c0460","deck":"th.d.top-nouns","th":"ทะเล","rom":"thá-lee"}
+{"id":"th.c0461","deck":"th.d.top-nouns","th":"ภูเขา","rom":"phuu-khǎo"}
+{"id":"th.c0462","deck":"th.d.top-nouns","th":"เกาะ","rom":"gàw"}
+{"id":"th.c0463","deck":"th.d.top-nouns","th":"สวน","rom":"sǔuan"}
+{"id":"th.c0464","deck":"th.d.top-nouns","th":"ฝน","rom":"fǒn"}
+{"id":"th.c0465","deck":"th.d.top-nouns","th":"อากาศ","rom":"aa-gàat"}
+{"id":"th.c0466","deck":"th.d.top-nouns","th":"แดด","rom":"dàaet"}
+{"id":"th.c0467","deck":"th.d.top-nouns","th":"ไฟ","rom":"fai"}
+{"id":"th.c0468","deck":"th.d.top-nouns","th":"ประตู","rom":"bprà-dtuu"}
+{"id":"th.c0469","deck":"th.d.top-nouns","th":"หน้าต่าง","rom":"nâa-dtàang"}
+{"id":"th.c0470","deck":"th.d.top-nouns","th":"เก้าอี้","rom":"gâo-îi"}
+{"id":"th.c0471","deck":"th.d.top-nouns","th":"กุญแจ","rom":"gun-jaae"}
+{"id":"th.c0472","deck":"th.d.top-nouns","th":"กระเป๋า","rom":"grà-bpǎo"}
+{"id":"th.c0473","deck":"th.d.top-nouns","th":"เสื้อ","rom":"sûuea"}
+{"id":"th.c0474","deck":"th.d.top-nouns","th":"เสื้อผ้า","rom":"sûuea-phâa"}
+{"id":"th.c0475","deck":"th.d.top-nouns","th":"รองเท้า","rom":"raawng-tháao"}
+{"id":"th.c0476","deck":"th.d.top-nouns","th":"หมวก","rom":"mùuak"}
+{"id":"th.c0477","deck":"th.d.top-nouns","th":"ผลไม้","rom":"phǒn-lá-máai"}
+{"id":"th.c0478","deck":"th.d.top-nouns","th":"ผัก","rom":"phàk"}
+{"id":"th.c0479","deck":"th.d.top-nouns","th":"ไก่","rom":"gài"}
+{"id":"th.c0480","deck":"th.d.top-nouns","th":"หมู","rom":"mǔu"}
+{"id":"th.c0481","deck":"th.d.top-nouns","th":"ปลา","rom":"bplaa"}
+{"id":"th.c0482","deck":"th.d.top-nouns","th":"ไข่","rom":"khài"}
+{"id":"th.c0483","deck":"th.d.top-nouns","th":"นม","rom":"nom"}
+{"id":"th.c0484","deck":"th.d.top-nouns","th":"กาแฟ","rom":"gaa-faae"}
+{"id":"th.c0485","deck":"th.d.top-nouns","th":"ชา","rom":"chaa"}
+{"id":"th.c0486","deck":"th.d.top-nouns","th":"ยา","rom":"yaa"}
+{"id":"th.c0487","deck":"th.d.top-nouns","th":"แมว","rom":"maaeo"}
+{"id":"th.c0488","deck":"th.d.top-nouns","th":"ช้าง","rom":"cháang"}
+{"id":"th.c0489","deck":"th.d.top-nouns","th":"นก","rom":"nók"}
+{"id":"th.c0490","deck":"th.d.top-nouns","th":"อายุ","rom":"aa-yú"}
+{"id":"th.c0491","deck":"th.d.top-nouns","th":"ของขวัญ","rom":"khǎawng-khwǎn"}
+{"id":"th.c0492","deck":"th.d.top-nouns","th":"เครื่องบิน","rom":"khrûueang-bin"}
+{"id":"th.c0493","deck":"th.d.top-nouns","th":"รถไฟ","rom":"rót-fai"}
+{"id":"th.c0494","deck":"th.d.top-nouns","th":"ตั๋ว","rom":"dtǔua"}
+{"id":"th.c0495","deck":"th.d.top-nouns","th":"บาท","rom":"bàat"}
+{"id":"th.c0496","deck":"th.d.top-nouns","th":"ที่อยู่","rom":"thîi-yùu"}
+{"id":"th.c0497","deck":"th.d.top-nouns","th":"หนังสือเดินทาง","rom":"nǎng-sǔue-dooen-thaang"}
+{"id":"th.c0498","deck":"th.d.top-verbs","th":"เป็น","rom":"bpen"}
+{"id":"th.c0499","deck":"th.d.top-verbs","th":"มี","rom":"mii"}
+{"id":"th.c0500","deck":"th.d.top-verbs","th":"อยู่","rom":"yùu"}
+{"id":"th.c0501","deck":"th.d.top-verbs","th":"คือ","rom":"khuue"}
+{"id":"th.c0502","deck":"th.d.top-verbs","th":"ให้","rom":"hâi"}
+{"id":"th.c0503","deck":"th.d.top-verbs","th":"อยาก","rom":"yàak"}
+{"id":"th.c0504","deck":"th.d.top-verbs","th":"ต้อง","rom":"dtâwng"}
+{"id":"th.c0505","deck":"th.d.top-verbs","th":"รู้","rom":"rúu"}
+{"id":"th.c0506","deck":"th.d.top-verbs","th":"รู้จัก","rom":"rúu-jàk"}
+{"id":"th.c0507","deck":"th.d.top-verbs","th":"กิน","rom":"gin"}
+{"id":"th.c0508","deck":"th.d.top-verbs","th":"พูด","rom":"phûut"}
+{"id":"th.c0509","deck":"th.d.top-verbs","th":"ชอบ","rom":"châawp"}
+{"id":"th.c0510","deck":"th.d.top-verbs","th":"คิด","rom":"khít"}
+{"id":"th.c0511","deck":"th.d.top-verbs","th":"เห็น","rom":"hěn"}
+{"id":"th.c0512","deck":"th.d.top-verbs","th":"บอก","rom":"bàawk"}
+{"id":"th.c0513","deck":"th.d.top-verbs","th":"ทำงาน","rom":"tham-ngaan"}
+{"id":"th.c0514","deck":"th.d.top-verbs","th":"ใช้","rom":"chái"}
+{"id":"th.c0515","deck":"th.d.top-verbs","th":"เอา","rom":"ao"}
+{"id":"th.c0516","deck":"th.d.top-verbs","th":"กลับ","rom":"glàp"}
+{"id":"th.c0517","deck":"th.d.top-verbs","th":"ออก","rom":"àawk"}
+{"id":"th.c0518","deck":"th.d.top-verbs","th":"ซื้อ","rom":"súue"}
+{"id":"th.c0519","deck":"th.d.top-verbs","th":"เจอ","rom":"jooe"}
+{"id":"th.c0520","deck":"th.d.top-verbs","th":"รอ","rom":"raaw"}
+{"id":"th.c0521","deck":"th.d.top-verbs","th":"ฟัง","rom":"fang"}
+{"id":"th.c0522","deck":"th.d.top-verbs","th":"อ่าน","rom":"àan"}
+{"id":"th.c0523","deck":"th.d.top-verbs","th":"เขียน","rom":"khǐian"}
+{"id":"th.c0524","deck":"th.d.top-verbs","th":"ดื่ม","rom":"dùuem"}
+{"id":"th.c0525","deck":"th.d.top-verbs","th":"นอน","rom":"naawn"}
+{"id":"th.c0526","deck":"th.d.top-verbs","th":"เข้าใจ","rom":"khâo-jai"}
+{"id":"th.c0527","deck":"th.d.top-verbs","th":"ช่วย","rom":"chûuai"}
+{"id":"th.c0528","deck":"th.d.top-verbs","th":"ถาม","rom":"thǎam"}
+{"id":"th.c0529","deck":"th.d.top-verbs","th":"ตอบ","rom":"dtàawp"}
+{"id":"th.c0530","deck":"th.d.top-verbs","th":"ขาย","rom":"khǎai"}
+{"id":"th.c0531","deck":"th.d.top-verbs","th":"จ่าย","rom":"jàai"}
+{"id":"th.c0532","deck":"th.d.top-verbs","th":"นั่ง","rom":"nâng"}
+{"id":"th.c0533","deck":"th.d.top-verbs","th":"เดิน","rom":"dooen"}
+{"id":"th.c0534","deck":"th.d.top-verbs","th":"วิ่ง","rom":"wîng"}
+{"id":"th.c0535","deck":"th.d.top-verbs","th":"ขึ้น","rom":"khûen"}
+{"id":"th.c0536","deck":"th.d.top-verbs","th":"ลง","rom":"long"}
+{"id":"th.c0537","deck":"th.d.top-verbs","th":"เปิด","rom":"bpòoet"}
+{"id":"th.c0538","deck":"th.d.top-verbs","th":"ปิด","rom":"bpìt"}
+{"id":"th.c0539","deck":"th.d.top-verbs","th":"เริ่ม","rom":"rôoem"}
+{"id":"th.c0540","deck":"th.d.top-verbs","th":"เสร็จ","rom":"sèt"}
+{"id":"th.c0541","deck":"th.d.top-verbs","th":"เล่น","rom":"lên"}
+{"id":"th.c0542","deck":"th.d.top-verbs","th":"ใส่","rom":"sài"}
+{"id":"th.c0543","deck":"th.d.top-verbs","th":"ลอง","rom":"laawng"}
+{"id":"th.c0544","deck":"th.d.top-verbs","th":"เที่ยว","rom":"thîiao"}
+{"id":"th.c0545","deck":"th.d.top-verbs","th":"พักผ่อน","rom":"phák-phàawn"}
+{"id":"th.c0546","deck":"th.d.top-verbs","th":"ทาน","rom":"thaan"}
+{"id":"th.c0547","deck":"th.d.top-verbs","th":"สอน","rom":"sǎawn"}
+{"id":"th.c0548","deck":"th.d.top-verbs","th":"โทร","rom":"thoo"}
+{"id":"th.c0549","deck":"th.d.top-verbs","th":"ส่ง","rom":"sòng"}
+{"id":"th.c0550","deck":"th.d.top-verbs","th":"ได้ยิน","rom":"dâai-yin"}
+{"id":"th.c0551","deck":"th.d.top-verbs","th":"รู้สึก","rom":"rúu-sùek"}
+{"id":"th.c0552","deck":"th.d.top-verbs","th":"เปลี่ยน","rom":"bplìian"}
+{"id":"th.c0553","deck":"th.d.top-verbs","th":"แนะนำ","rom":"náe-nam"}
+{"id":"th.c0554","deck":"th.d.top-verbs","th":"สั่ง","rom":"sàng"}
+{"id":"th.c0555","deck":"th.d.top-verbs","th":"จำ","rom":"jam"}
+{"id":"th.c0556","deck":"th.d.top-verbs","th":"ลืม","rom":"luuem"}
+{"id":"th.c0557","deck":"th.d.top-verbs","th":"พา","rom":"phaa"}
+{"id":"th.c0558","deck":"th.d.top-verbs","th":"ฝาก","rom":"fàak"}
+{"id":"th.c0559","deck":"th.d.top-verbs","th":"เล่า","rom":"lâo"}
+{"id":"th.c0560","deck":"th.d.top-verbs","th":"ถ่ายรูป","rom":"thàai-rûup"}
+{"id":"th.c0561","deck":"th.d.top-verbs","th":"ตื่น","rom":"dtùuen"}
+{"id":"th.c0562","deck":"th.d.top-verbs","th":"อาบน้ำ","rom":"àap-náam"}
+{"id":"th.c0563","deck":"th.d.top-verbs","th":"ทำอาหาร","rom":"tham-aa-hǎan"}
+{"id":"th.c0564","deck":"th.d.top-verbs","th":"ขับรถ","rom":"khàp-rót"}
+{"id":"th.c0565","deck":"th.d.top-verbs","th":"เต้น","rom":"dtên"}
+{"id":"th.c0566","deck":"th.d.top-verbs","th":"ร้องเพลง","rom":"ráawng-phleeng"}
+{"id":"th.c0567","deck":"th.d.top-verbs","th":"ควร","rom":"khuuan"}
+{"id":"th.c0568","deck":"th.d.top-verbs","th":"ทราบ","rom":"sâap"}
+{"id":"th.c0569","deck":"th.d.top-verbs","th":"เชิญ","rom":"chooen"}
+{"id":"th.c0570","deck":"th.d.top-verbs","th":"หาย","rom":"hǎai"}
+{"id":"th.c0571","deck":"th.d.top-verbs","th":"ตก","rom":"dtòk"}
+{"id":"th.c0572","deck":"th.d.top-verbs","th":"แต่งงาน","rom":"dtàeng-ngaan"}
+{"id":"th.c0573","deck":"th.d.top-verbs","th":"เจ็บ","rom":"jèp"}
+{"id":"th.c0574","deck":"th.d.top-verbs","th":"ข้าม","rom":"khâam"}
+{"id":"th.c0575","deck":"th.d.top-verbs","th":"จอด","rom":"jàawt"}
+{"id":"th.c0576","deck":"th.d.top-verbs","th":"เลี้ยว","rom":"líiao"}
+{"id":"th.c0577","deck":"th.d.top-verbs","th":"แลก","rom":"lâaek"}
+{"id":"th.c0578","deck":"th.d.top-verbs","th":"ลด","rom":"lót"}
+{"id":"th.c0579","deck":"th.d.top-verbs","th":"แพ้","rom":"pháae"}
+{"id":"th.c0580","deck":"th.d.top-verbs","th":"ล้าง","rom":"láang"}
+{"id":"th.c0581","deck":"th.d.top-verbs","th":"สามารถ","rom":"sǎa-mâat"}
+{"id":"th.c0582","deck":"th.d.top-verbs","th":"พัก","rom":"phák"}
+{"id":"th.c0583","deck":"th.d.top-adjectives","th":"ใหญ่","rom":"yài"}
+{"id":"th.c0584","deck":"th.d.top-adjectives","th":"เล็ก","rom":"lék"}
+{"id":"th.c0585","deck":"th.d.top-adjectives","th":"เก่า","rom":"gào"}
+{"id":"th.c0586","deck":"th.d.top-adjectives","th":"ยาว","rom":"yaao"}
+{"id":"th.c0587","deck":"th.d.top-adjectives","th":"สั้น","rom":"sân"}
+{"id":"th.c0588","deck":"th.d.top-adjectives","th":"สูง","rom":"sǔung"}
+{"id":"th.c0589","deck":"th.d.top-adjectives","th":"เตี้ย","rom":"dtîia"}
+{"id":"th.c0590","deck":"th.d.top-adjectives","th":"อ้วน","rom":"ûuan"}
+{"id":"th.c0591","deck":"th.d.top-adjectives","th":"ผอม","rom":"phǎawm"}
+{"id":"th.c0592","deck":"th.d.top-adjectives","th":"ง่าย","rom":"ngâai"}
+{"id":"th.c0593","deck":"th.d.top-adjectives","th":"ยาก","rom":"yâak"}
+{"id":"th.c0594","deck":"th.d.top-adjectives","th":"น้อย","rom":"náawi"}
+{"id":"th.c0595","deck":"th.d.top-adjectives","th":"สะอาด","rom":"sà-àat"}
+{"id":"th.c0596","deck":"th.d.top-adjectives","th":"สกปรก","rom":"sòk-gà-bpròk"}
+{"id":"th.c0597","deck":"th.d.top-adjectives","th":"ดัง","rom":"dang"}
+{"id":"th.c0598","deck":"th.d.top-adjectives","th":"เงียบ","rom":"ngîiap"}
+{"id":"th.c0599","deck":"th.d.top-adjectives","th":"เก่ง","rom":"gèng"}
+{"id":"th.c0600","deck":"th.d.top-adjectives","th":"หนัก","rom":"nàk"}
+{"id":"th.c0601","deck":"th.d.top-adjectives","th":"เบา","rom":"bao"}
+{"id":"th.c0602","deck":"th.d.top-adjectives","th":"ยุ่ง","rom":"yûng"}
+{"id":"th.c0603","deck":"th.d.top-adjectives","th":"ว่าง","rom":"wâang"}
+{"id":"th.c0604","deck":"th.d.top-adjectives","th":"จริง","rom":"jing"}
+{"id":"th.c0605","deck":"th.d.top-adjectives","th":"หนาว","rom":"nǎao"}
+{"id":"th.c0606","deck":"th.d.top-adjectives","th":"เย็น","rom":"yen"}
+{"id":"th.c0607","deck":"th.d.top-adjectives","th":"แพง","rom":"phaaeng"}
+{"id":"th.c0608","deck":"th.d.top-adjectives","th":"ถูก","rom":"thùuk"}
+{"id":"th.c0609","deck":"th.d.top-adjectives","th":"อร่อย","rom":"à-ràwi"}
+{"id":"th.c0610","deck":"th.d.top-adjectives","th":"หวาน","rom":"wǎan"}
+{"id":"th.c0611","deck":"th.d.top-adjectives","th":"เค็ม","rom":"khem"}
+{"id":"th.c0612","deck":"th.d.top-adjectives","th":"เปรี้ยว","rom":"bprîiao"}
+{"id":"th.c0613","deck":"th.d.top-adjectives","th":"ขม","rom":"khǒm"}
+{"id":"th.c0614","deck":"th.d.top-adjectives","th":"จืด","rom":"jùuet"}
+{"id":"th.c0615","deck":"th.d.top-adjectives","th":"สนุก","rom":"sà-nùk"}
+{"id":"th.c0616","deck":"th.d.top-adjectives","th":"หิว","rom":"hǐu"}
+{"id":"th.c0617","deck":"th.d.top-adjectives","th":"อิ่ม","rom":"ìm"}
+{"id":"th.c0618","deck":"th.d.top-adjectives","th":"กลัว","rom":"gluua"}
+{"id":"th.c0619","deck":"th.d.top-adjectives","th":"โกรธ","rom":"gròot"}
+{"id":"th.c0620","deck":"th.d.top-adjectives","th":"ตื่นเต้น","rom":"dtùuen-dtên"}
+{"id":"th.c0621","deck":"th.d.top-adjectives","th":"สบาย","rom":"sà-baai"}
+{"id":"th.c0622","deck":"th.d.top-adjectives","th":"เร็ว","rom":"reo"}
+{"id":"th.c0623","deck":"th.d.top-adjectives","th":"ช้า","rom":"cháa"}
+{"id":"th.c0624","deck":"th.d.top-adjectives","th":"พร้อม","rom":"phráawm"}
+{"id":"th.c0625","deck":"th.d.top-adjectives","th":"สาย","rom":"sǎai"}
+{"id":"th.c0626","deck":"th.d.top-adjectives","th":"เต็ม","rom":"dtem"}
+{"id":"th.c0627","deck":"th.d.top-adjectives","th":"ฟรี","rom":"frii"}
+{"id":"th.c0628","deck":"th.d.top-adjectives","th":"ปกติ","rom":"bpòk-gà-dtì"}
+{"id":"th.c0629","deck":"th.d.top-adjectives","th":"แข็ง","rom":"khǎeng"}
+{"id":"th.c0630","deck":"th.d.top-adjectives","th":"แดง","rom":"daaeng"}
+{"id":"th.c0631","deck":"th.d.top-adjectives","th":"ดำ","rom":"dam"}
+{"id":"th.c0632","deck":"th.d.top-adjectives","th":"เขียว","rom":"khǐiao"}
+{"id":"th.c0633","deck":"th.d.top-adjectives","th":"เหลือง","rom":"lǔueang"}
+{"id":"th.c0634","deck":"th.d.top-adjectives","th":"ชมพู","rom":"chom-phuu"}
+{"id":"th.c0635","deck":"th.d.top-adjectives","th":"ม่วง","rom":"mûuang"}
+{"id":"th.c0636","deck":"th.d.top-adverbs","th":"มาก","rom":"mâak"}
+{"id":"th.c0637","deck":"th.d.top-adverbs","th":"แล้ว","rom":"láaeo"}
+{"id":"th.c0638","deck":"th.d.top-adverbs","th":"ยัง","rom":"yang"}
+{"id":"th.c0639","deck":"th.d.top-adverbs","th":"อีก","rom":"ìik"}
+{"id":"th.c0640","deck":"th.d.top-adverbs","th":"ก่อน","rom":"gàawn"}
+{"id":"th.c0641","deck":"th.d.top-adverbs","th":"จริงๆ","rom":"jing-jing"}
+{"id":"th.c0642","deck":"th.d.top-adverbs","th":"แค่","rom":"khâae"}
+{"id":"th.c0643","deck":"th.d.top-adverbs","th":"เพิ่ง","rom":"phôeng"}
+{"id":"th.c0644","deck":"th.d.top-adverbs","th":"ด้วยกัน","rom":"dûuai-gan"}
+{"id":"th.c0645","deck":"th.d.top-adverbs","th":"คนเดียว","rom":"khon-diiao"}
+{"id":"th.c0646","deck":"th.d.top-adverbs","th":"บ่อย","rom":"bàwi"}
+{"id":"th.c0647","deck":"th.d.top-adverbs","th":"บางครั้ง","rom":"baang-khráng"}
+{"id":"th.c0648","deck":"th.d.top-adverbs","th":"เสมอ","rom":"sà-mǒoe"}
+{"id":"th.c0649","deck":"th.d.top-adverbs","th":"เกินไป","rom":"gooen-bpai"}
+{"id":"th.c0650","deck":"th.d.top-adverbs","th":"นิดหน่อย","rom":"nít-nàwi"}
+{"id":"th.c0651","deck":"th.d.top-adverbs","th":"เยอะ","rom":"yóe"}
+{"id":"th.c0652","deck":"th.d.top-adverbs","th":"ที่นี่","rom":"thîi-nîi"}
+{"id":"th.c0653","deck":"th.d.top-adverbs","th":"ที่นั่น","rom":"thîi-nân"}
+{"id":"th.c0654","deck":"th.d.top-adverbs","th":"ตรงนี้","rom":"dtrong-níi"}
+{"id":"th.c0655","deck":"th.d.top-adverbs","th":"ตรงนั้น","rom":"dtrong-nán"}
+{"id":"th.c0656","deck":"th.d.top-adverbs","th":"แถวนี้","rom":"thǎaeo-níi"}
+{"id":"th.c0657","deck":"th.d.top-adverbs","th":"ตอนนี้","rom":"dtaawn-níi"}
+{"id":"th.c0658","deck":"th.d.top-adverbs","th":"กว่า","rom":"gwàa"}
+{"id":"th.c0659","deck":"th.d.top-adverbs","th":"ที่สุด","rom":"thîi-sùt"}
+{"id":"th.c0660","deck":"th.d.top-adverbs","th":"เท่ากัน","rom":"thâo-gan"}
+{"id":"th.c0661","deck":"th.d.top-pronouns","th":"น้อง","rom":"náawng"}
+{"id":"th.c0662","deck":"th.d.top-pronouns","th":"หนู","rom":"nǔu"}
+{"id":"th.c0663","deck":"th.d.top-pronouns","th":"พวกเรา","rom":"phûuak-rao"}
+{"id":"th.c0664","deck":"th.d.top-pronouns","th":"พวกคุณ","rom":"phûuak-khun"}
+{"id":"th.c0665","deck":"th.d.top-pronouns","th":"มัน","rom":"man"}
+{"id":"th.c0666","deck":"th.d.top-pronouns","th":"ป้า","rom":"bpâa"}
+{"id":"th.c0667","deck":"th.d.top-pronouns","th":"นี่","rom":"nîi"}
+{"id":"th.c0668","deck":"th.d.top-pronouns","th":"นั่น","rom":"nân"}
+{"id":"th.c0669","deck":"th.d.top-pronouns","th":"โน่น","rom":"nôon"}
+{"id":"th.c0670","deck":"th.d.top-pronouns","th":"ใคร","rom":"khrai"}
+{"id":"th.c0671","deck":"th.d.top-pronouns","th":"อะไร","rom":"à-rai"}
+{"id":"th.c0672","deck":"th.d.top-pronouns","th":"เอง","rom":"eeng"}
+{"id":"th.c0673","deck":"th.d.top-pronouns","th":"กัน","rom":"gan"}
+{"id":"th.c0674","deck":"th.d.top-pronouns","th":"ของฉัน","rom":"khǎawng chǎn"}
+{"id":"th.c0675","deck":"th.d.top-pronouns","th":"ของผม","rom":"khǎawng phǒm"}
+{"id":"th.c0676","deck":"th.d.top-pronouns","th":"ของคุณ","rom":"khǎawng khun"}
+{"id":"th.c0677","deck":"th.d.top-pronouns","th":"ของเขา","rom":"khǎawng khǎo"}
+{"id":"th.c0678","deck":"th.d.top-pronouns","th":"ของเรา","rom":"khǎawng rao"}
+{"id":"th.c0679","deck":"th.d.top-pronouns","th":"ทุกคน","rom":"thúk khon"}
+{"id":"th.c0680","deck":"th.d.top-pronouns","th":"บางคน","rom":"baang khon"}
+{"id":"th.c0681","deck":"th.d.top-pronouns","th":"ใครก็ได้","rom":"khrai gâaw dâai"}
+{"id":"th.c0682","deck":"th.d.top-pronouns","th":"อะไรก็ได้","rom":"à-rai gâaw dâai"}
+{"id":"th.c0683","deck":"th.d.top-prepositions","th":"ที่","rom":"thîi"}
+{"id":"th.c0684","deck":"th.d.top-prepositions","th":"ใน","rom":"nai"}
+{"id":"th.c0685","deck":"th.d.top-prepositions","th":"กับ","rom":"gàp"}
+{"id":"th.c0686","deck":"th.d.top-prepositions","th":"จาก","rom":"jàak"}
+{"id":"th.c0687","deck":"th.d.top-prepositions","th":"ของ","rom":"khǎawng"}
+{"id":"th.c0688","deck":"th.d.top-prepositions","th":"ถึง","rom":"thǔeng"}
+{"id":"th.c0689","deck":"th.d.top-prepositions","th":"บน","rom":"bon"}
+{"id":"th.c0690","deck":"th.d.top-prepositions","th":"ใต้","rom":"dtâai"}
+{"id":"th.c0691","deck":"th.d.top-prepositions","th":"เหมือน","rom":"mǔuean"}
+{"id":"th.c0692","deck":"th.d.top-prepositions","th":"ระหว่าง","rom":"rá-wàang"}
+{"id":"th.c0693","deck":"th.d.top-prepositions","th":"ข้าง","rom":"khâang"}
+{"id":"th.c0694","deck":"th.d.top-prepositions","th":"ข้างหน้า","rom":"khâang-nâa"}
+{"id":"th.c0695","deck":"th.d.top-prepositions","th":"ข้างหลัง","rom":"khâang-lǎng"}
+{"id":"th.c0696","deck":"th.d.top-prepositions","th":"ข้างใน","rom":"khâang-nai"}
+{"id":"th.c0697","deck":"th.d.top-prepositions","th":"ข้างนอก","rom":"khâang-nâawk"}
+{"id":"th.c0698","deck":"th.d.top-prepositions","th":"ตรงข้าม","rom":"dtrong-khâam"}
+{"id":"th.c0699","deck":"th.d.top-prepositions","th":"นอก","rom":"nâawk"}
+{"id":"th.c0700","deck":"th.d.top-prepositions","th":"แถว","rom":"thǎaeo"}
+{"id":"th.c0701","deck":"th.d.top-conjunctions","th":"และ","rom":"láe"}
+{"id":"th.c0702","deck":"th.d.top-conjunctions","th":"แต่","rom":"dtàae"}
+{"id":"th.c0703","deck":"th.d.top-conjunctions","th":"หรือ","rom":"rǔue"}
+{"id":"th.c0704","deck":"th.d.top-conjunctions","th":"เพราะ","rom":"phráw"}
+{"id":"th.c0705","deck":"th.d.top-conjunctions","th":"เพราะว่า","rom":"phráw-wâa"}
+{"id":"th.c0706","deck":"th.d.top-conjunctions","th":"ว่า","rom":"wâa"}
+{"id":"th.c0707","deck":"th.d.top-conjunctions","th":"ถ้า","rom":"thâa"}
+{"id":"th.c0708","deck":"th.d.top-conjunctions","th":"ก็","rom":"gâaw"}
+{"id":"th.c0709","deck":"th.d.top-conjunctions","th":"แล้วก็","rom":"láaeo gâaw"}
+{"id":"th.c0710","deck":"th.d.top-conjunctions","th":"ก็เลย","rom":"gâaw looei"}
+{"id":"th.c0711","deck":"th.d.top-conjunctions","th":"หรือว่า","rom":"rǔue wâa"}
+{"id":"th.c0712","deck":"th.d.top-conjunctions","th":"แต่ว่า","rom":"dtàae wâa"}
+{"id":"th.c0713","deck":"th.d.top-conjunctions","th":"ตอนที่","rom":"dtaawn thîi"}
+{"id":"th.c0714","deck":"th.d.top-conjunctions","th":"หลังจาก","rom":"lǎng jàak"}
+{"id":"th.c0715","deck":"th.d.top-conjunctions","th":"ก่อนที่","rom":"gàawn thîi"}
+{"id":"th.c0716","deck":"th.d.top-words","th":"นี้","rom":"níi"}
+{"id":"th.c0717","deck":"th.d.top-words","th":"นั้น","rom":"nán"}
+{"id":"th.c0718","deck":"th.d.top-words","th":"โน้น","rom":"nóon"}
+{"id":"th.c0719","deck":"th.d.top-words","th":"ไหน","rom":"nǎi"}
+{"id":"th.c0720","deck":"th.d.top-words","th":"ทุก","rom":"thúk"}
+{"id":"th.c0721","deck":"th.d.top-words","th":"บาง","rom":"baang"}
+{"id":"th.c0722","deck":"th.d.top-words","th":"หลาย","rom":"lǎai"}
+{"id":"th.c0723","deck":"th.d.top-words","th":"ทั้งหมด","rom":"tháng-mòt"}
+{"id":"th.c0724","deck":"th.d.top-words","th":"ที่ไหน","rom":"thîi-nǎi"}
+{"id":"th.c0725","deck":"th.d.top-words","th":"เมื่อไร","rom":"mûuea-rai"}
+{"id":"th.c0726","deck":"th.d.top-words","th":"เท่าไร","rom":"thâo-rai"}
+{"id":"th.c0727","deck":"th.d.top-words","th":"ทำไม","rom":"tham-mai"}
+{"id":"th.c0728","deck":"th.d.top-words","th":"อย่างไร","rom":"yàang-rai"}
+{"id":"th.c0729","deck":"th.d.top-words","th":"ยังไง","rom":"yang-ngai"}
+{"id":"th.c0730","deck":"th.d.top-words","th":"กี่","rom":"gìi"}
+{"id":"th.c0731","deck":"th.d.top-words","th":"ใช่","rom":"châi"}
+{"id":"th.c0732","deck":"th.d.top-words","th":"ไม่ใช่","rom":"mâi châi"}
+{"id":"th.c0733","deck":"th.d.top-words","th":"เปล่า","rom":"bplàao"}
+{"id":"th.c0734","deck":"th.d.top-words","th":"จะ","rom":"jà"}
+{"id":"th.c0735","deck":"th.d.top-words","th":"กำลัง","rom":"gam-lang"}
+{"id":"th.c0736","deck":"th.d.top-words","th":"เคย","rom":"khooei"}
+{"id":"th.c0737","deck":"th.d.top-words","th":"ที่หนึ่ง","rom":"thîi nùeng"}
+{"id":"th.c0738","deck":"th.d.top-words","th":"หก","rom":"hòk"}
+{"id":"th.c0739","deck":"th.d.top-words","th":"เจ็ด","rom":"jèt"}
+{"id":"th.c0740","deck":"th.d.top-words","th":"แปด","rom":"bpàaet"}
+{"id":"th.c0741","deck":"th.d.top-words","th":"สิบสอง","rom":"sìp-sǎawng"}
+{"id":"th.c0742","deck":"th.d.top-words","th":"สิบสาม","rom":"sìp-sǎam"}
+{"id":"th.c0743","deck":"th.d.top-words","th":"สิบสี่","rom":"sìp-sìi"}
+{"id":"th.c0744","deck":"th.d.top-words","th":"สิบห้า","rom":"sìp-hâa"}
+{"id":"th.c0745","deck":"th.d.top-words","th":"สิบหก","rom":"sìp-hòk"}
+{"id":"th.c0746","deck":"th.d.top-words","th":"สิบเจ็ด","rom":"sìp-jèt"}
+{"id":"th.c0747","deck":"th.d.top-words","th":"สิบแปด","rom":"sìp-bpàaet"}
+{"id":"th.c0748","deck":"th.d.top-words","th":"สิบเก้า","rom":"sìp-gâao"}
+{"id":"th.c0749","deck":"th.d.top-words","th":"ครึ่ง","rom":"khrûeng"}
+{"id":"th.c0750","deck":"th.d.top-words","th":"ร้อย","rom":"ráawi"}
+{"id":"th.c0751","deck":"th.d.top-words","th":"พัน","rom":"phan"}
+{"id":"th.c0752","deck":"th.d.top-words","th":"วันอังคาร","rom":"wan-ang-khaan"}
+{"id":"th.c0753","deck":"th.d.top-words","th":"วันพุธ","rom":"wan-phút"}
+{"id":"th.c0754","deck":"th.d.top-words","th":"วันพฤหัส","rom":"wan-phá-rúe-hàt"}
+{"id":"th.c0755","deck":"th.d.top-words","th":"วันศุกร์","rom":"wan-sùk"}
+{"id":"th.c0756","deck":"th.d.top-words","th":"วันอาทิตย์","rom":"wan-aa-thít"}
+{"id":"th.c0757","deck":"th.d.top-words","th":"ตอนเช้า","rom":"dtaawn cháao"}
+{"id":"th.c0758","deck":"th.d.top-words","th":"ตอนบ่าย","rom":"dtaawn bàai"}
+{"id":"th.c0759","deck":"th.d.top-words","th":"ตอนเย็น","rom":"dtaawn yen"}
+{"id":"th.c0760","deck":"th.d.top-words","th":"กลางคืน","rom":"glaang-khuuen"}
+{"id":"th.c0761","deck":"th.d.top-words","th":"คืนนี้","rom":"khuuen-níi"}
+{"id":"th.c0762","deck":"th.d.top-words","th":"ปีนี้","rom":"bpii-níi"}
+{"id":"th.c0763","deck":"th.d.top-words","th":"ปีหน้า","rom":"bpii nâa"}
+{"id":"th.c0764","deck":"th.d.top-words","th":"ปีที่แล้ว","rom":"bpii thîi láaeo"}
+{"id":"th.c0765","deck":"th.d.top-classifiers","th":"คน","rom":"khon"}
+{"id":"th.c0766","deck":"th.d.top-classifiers","th":"อัน","rom":"an"}
+{"id":"th.c0767","deck":"th.d.top-classifiers","th":"ใบ","rom":"bai"}
+{"id":"th.c0768","deck":"th.d.top-classifiers","th":"เล่ม","rom":"lêm"}
+{"id":"th.c0769","deck":"th.d.top-classifiers","th":"คัน","rom":"khan"}
+{"id":"th.c0770","deck":"th.d.top-classifiers","th":"ขวด","rom":"khùuat"}
+{"id":"th.c0771","deck":"th.d.top-classifiers","th":"แก้ว","rom":"gâaeo"}
+{"id":"th.c0772","deck":"th.d.top-classifiers","th":"จาน","rom":"jaan"}
+{"id":"th.c0773","deck":"th.d.top-classifiers","th":"ชาม","rom":"chaam"}
+{"id":"th.c0774","deck":"th.d.top-classifiers","th":"ชิ้น","rom":"chín"}
+{"id":"th.c0775","deck":"th.d.top-classifiers","th":"คู่","rom":"khûu"}
+{"id":"th.c0776","deck":"th.d.top-classifiers","th":"ชุด","rom":"chút"}
+{"id":"th.c0777","deck":"th.d.top-classifiers","th":"ห้อง","rom":"hâwng"}
+{"id":"th.c0778","deck":"th.d.top-classifiers","th":"ถ้วย","rom":"thûuai"}
+{"id":"th.c0779","deck":"th.d.top-classifiers","th":"กล่อง","rom":"glàwng"}
+{"id":"th.c0780","deck":"th.d.top-classifiers","th":"แผ่น","rom":"phàen"}
+{"id":"th.c0781","deck":"th.d.top-classifiers","th":"เครื่อง","rom":"khrûueang"}
+{"id":"th.c0782","deck":"th.d.top-classifiers","th":"ดอก","rom":"dàawk"}
+{"id":"th.c0783","deck":"th.d.top-classifiers","th":"เส้น","rom":"sên"}
+{"id":"th.c0784","deck":"th.d.top-classifiers","th":"หลัง","rom":"lǎng"}
+{"id":"th.c0785","deck":"th.d.top-classifiers","th":"ครั้ง","rom":"khráng"}
+{"id":"th.c0786","deck":"th.d.top-classifiers","th":"ต้น","rom":"dtôn"}
+{"id":"th.c0787","deck":"th.d.top-particles","th":"คะ","rom":"khá"}
+{"id":"th.c0788","deck":"th.d.top-particles","th":"นะ","rom":"ná"}
+{"id":"th.c0789","deck":"th.d.top-particles","th":"สิ","rom":"sì"}
+{"id":"th.c0790","deck":"th.d.top-particles","th":"เลย","rom":"looei"}
+{"id":"th.c0791","deck":"th.d.top-particles","th":"ล่ะ","rom":"lâ"}
+{"id":"th.c0792","deck":"th.d.top-particles","th":"จ้ะ","rom":"jâ"}
+{"id":"th.c0793","deck":"th.d.top-particles","th":"จ้า","rom":"jâa"}
+{"id":"th.c0794","deck":"th.d.top-particles","th":"เถอะ","rom":"thòe"}
+{"id":"th.c0795","deck":"th.d.top-particles","th":"หรอก","rom":"ràawk"}
+{"id":"th.c0796","deck":"th.d.top-particles","th":"น่ะ","rom":"nâ"}
+{"id":"th.c0797","deck":"th.d.top-particles","th":"ด้วย","rom":"dûuai"}
+{"id":"th.c0798","deck":"th.d.top-particles","th":"หน่อย","rom":"nàwi"}
+{"id":"th.c0799","deck":"th.d.top-particles","th":"บ้าง","rom":"bâang"}
+{"id":"th.c0800","deck":"th.d.top-particles","th":"หรือเปล่า","rom":"rǔue-bplàao"}
+{"id":"th.c0801","deck":"th.d.top-particles","th":"หรือยัง","rom":"rǔue-yang"}
+{"id":"th.c0802","deck":"th.d.top-particles","th":"ครับผม","rom":"khráp phǒm"}

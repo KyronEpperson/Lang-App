@@ -1,0 +1,426 @@
+{"id":"am.c0001","meaning":"b, first order","note":"One character is a consonant plus a vowel. This is the first of seven orders."}
+{"id":"am.c0002","meaning":"b, second order","note":"Same consonant as በ. Only the vowel shape changed."}
+{"id":"am.c0003","meaning":"b, third order","note":"Same consonant again. You read the consonant and the vowel together."}
+{"id":"am.c0004","meaning":"b, fourth order","note":"Same consonant. This vowel is more open than the first order."}
+{"id":"am.c0005","meaning":"b, fifth order","note":"Same consonant, the fifth vowel shape. There is no eighth shape."}
+{"id":"am.c0006","meaning":"b, sixth order","note":"A vowel, or no vowel at all. The shape does not say which. A long consonant is not written either."}
+{"id":"am.c0007","meaning":"b, seventh order","note":"The last vowel shape of this consonant. The next row is a new consonant."}
+{"id":"am.c0008","meaning":"l, second order","note":"The same second-order shape as ቡ, now on l."}
+{"id":"am.c0009","meaning":"l, third order","note":"The same third-order shape as ቢ, on l."}
+{"id":"am.c0010","meaning":"l, fourth order","note":"The same fourth-order shape as ባ, on l."}
+{"id":"am.c0011","meaning":"l, fifth order","note":"The same fifth-order shape as ቤ, on l."}
+{"id":"am.c0012","meaning":"l, sixth order","note":"Sixth order again: a vowel, or nothing. You learn which from the word."}
+{"id":"am.c0013","meaning":"l, seventh order","note":"The same seventh-order shape as ቦ, on l."}
+{"id":"am.c0014","meaning":"m, second order","note":"The same second-order shape, on m."}
+{"id":"am.c0015","meaning":"m, third order","note":"The same third-order shape, on m."}
+{"id":"am.c0016","meaning":"m, fourth order","note":"The same fourth-order shape, on m."}
+{"id":"am.c0017","meaning":"heart","note":"The sixth-order ል is a vowel here, and a long consonant is not written. Listen. Not ልብስ, clothes."}
+{"id":"am.c0018","meaning":"h, the first h-letter","note":"In Addis Ababa this is the same sound as ሐ. They stay different letters. The first order already sounds like the fourth."}
+{"id":"am.c0019","meaning":"the l row","note":"First order of l. The other orders are on the previous deck."}
+{"id":"am.c0020","meaning":"h, the second h-letter","note":"Same sound as ሀ in Addis Ababa. Do not respell a word from one of these letters to the other."}
+{"id":"am.c0021","meaning":"the m row","note":"First order of m. ሙ, ሚ and ማ are on the previous deck."}
+{"id":"am.c0022","meaning":"s, the first s-letter","note":"Same s sound as ሰ. Both letters stay in the spelling."}
+{"id":"am.c0023","meaning":"the r row","note":"A trill when you hear it held, a tap when you hear it short. The letter does not show which."}
+{"id":"am.c0024","meaning":"s, the second s-letter","note":"Same s sound as ሠ. Learn which word uses which letter."}
+{"id":"am.c0025","meaning":"the sh row","note":"One consonant, like the sh in shoe. Not an s followed by an h."}
+{"id":"am.c0026","meaning":"the ejective q row","note":"A popped consonant. It is not a plain k. The plain partner, ከ, is a later row."}
+{"id":"am.c0027","meaning":"the v row","note":"Its own consonant, mostly in newer words. It is not በ."}
+{"id":"am.c0028","meaning":"the t row","note":"A plain t. The ejective partner ጠ is a later row, and it is not this letter."}
+{"id":"am.c0029","meaning":"the ch row","note":"Like the ch in church. The ejective partner ጨ is a later row."}
+{"id":"am.c0030","meaning":"a house","note":"The በ row in a real word. The seven orders of በ are on the previous deck."}
+{"id":"am.c0031","meaning":"a person","note":"ሰ is the second s-letter. ው is the sixth order of w."}
+{"id":"am.c0032","meaning":"a shirt","note":"ሸ is the sh row. A usual word for a shirt."}
+{"id":"am.c0033","meaning":"h, fourth order of the first h-letter","note":"For ሀ, ሐ, ኀ, አ and ዐ, the first order already uses this vowel, with a few exceptions such as ኧረ."}
+{"id":"am.c0034","meaning":"a week","note":"ሰ is the second s-letter. ም and ን are sixth order: each may be a vowel or none."}
+{"id":"am.c0035","meaning":"h, the third h-letter","note":"Same sound as ሀ and ሐ in Addis Ababa. Still its own letter."}
+{"id":"am.c0036","meaning":"the n row","note":"First order of n. A long n is not written. You only hear it."}
+{"id":"am.c0037","meaning":"the ny row","note":"Like the ny in canyon. Not a plain n."}
+{"id":"am.c0038","meaning":"the vowel carrier, first letter","note":"No consonant of its own. Same sound as ዐ, written apart. The first order uses the fourth-order vowel."}
+{"id":"am.c0039","meaning":"the plain k row","note":"Plain k. Not the ejective ቀ."}
+{"id":"am.c0040","meaning":"h, the fourth h-letter","note":"Same sound as ሀ, ሐ and ኀ in Addis Ababa. Four letters, one sound."}
+{"id":"am.c0041","meaning":"the w row","note":"Like English w. The -wa shapes are a later deck."}
+{"id":"am.c0042","meaning":"the vowel carrier, second letter","note":"Same sound as አ. Do not swap them in a word."}
+{"id":"am.c0043","meaning":"the z row","note":"Like the z in zoo. Not ሰ."}
+{"id":"am.c0044","meaning":"the zh row","note":"Like the s in measure. The voiced partner of ሸ."}
+{"id":"am.c0045","meaning":"n, fifth order","note":"The same fifth-order shape as ቤ, on n."}
+{"id":"am.c0046","meaning":"n, seventh order","note":"The same seventh-order shape as ቦ, on n."}
+{"id":"am.c0047","meaning":"plain k, second order","note":"Plain k with the second-order vowel. Still not ቀ."}
+{"id":"am.c0048","meaning":"w, fourth order","note":"Fourth order of w. You will see this shape inside many words."}
+{"id":"am.c0049","meaning":"new","note":"Starts with the vowel carrier አ. አዲስ አበባ, Addis Ababa, is new flower."}
+{"id":"am.c0050","meaning":"a tree","note":"Starts with z."}
+{"id":"am.c0051","meaning":"a dog","note":"ው is the sixth order of w. It may be a vowel or none. Listen."}
+{"id":"am.c0052","meaning":"the y row","note":"Like English y."}
+{"id":"am.c0053","meaning":"the d row","note":"Like English d. Not an ejective."}
+{"id":"am.c0054","meaning":"the j row","note":"Like English j. Not the ejective ጨ."}
+{"id":"am.c0055","meaning":"the g row","note":"Like the g in go. Not an ejective."}
+{"id":"am.c0056","meaning":"ejective t","note":"An ejective t. Not the plain ተ. Listen for the pop."}
+{"id":"am.c0057","meaning":"ejective ch","note":"An ejective ch. Not ቸ."}
+{"id":"am.c0058","meaning":"ejective p","note":"An ejective p. Not the plain ፐ."}
+{"id":"am.c0059","meaning":"ejective ts, first letter","note":"An ejective ts. Not ሰ. Same sound as ፀ, written apart."}
+{"id":"am.c0060","meaning":"ejective ts, second letter","note":"Same ejective ts as ጸ in Addis Ababa. Do not swap them."}
+{"id":"am.c0061","meaning":"the f row","note":"Like English f."}
+{"id":"am.c0062","meaning":"plain p","note":"Plain p. Not the ejective ጰ."}
+{"id":"am.c0063","meaning":"a cat","note":"ደ is plain d. ም and ት are sixth order."}
+{"id":"am.c0064","meaning":"a market","note":"ገ is plain g. A market in Addis Ababa."}
+{"id":"am.c0065","meaning":"good","note":"ጥ is the ejective t, sixth order. Not a plain t."}
+{"id":"am.c0066","meaning":"morning","note":"Starts with the ejective ጠ. You meet this word again on the clock."}
+{"id":"am.c0067","meaning":"ejective t, fourth order","note":"The same ejective as ጠ, with the fourth-order vowel."}
+{"id":"am.c0068","meaning":"love","note":"ፍ is the sixth order of f. Listen for whether that vowel is there."}
+{"id":"am.c0069","meaning":"still; yet","note":"The same letters also mean Christmas, with a long n. The spelling does not say which. Listen."}
+{"id":"am.c0070","meaning":"a bandit","note":"The same letters can mean a rash, with a long consonant. The spelling shows neither. Listen."}
+{"id":"am.c0071","meaning":"b with wa","note":"The -wa form. One character for the consonant plus w plus the a-vowel."}
+{"id":"am.c0072","meaning":"l with wa","note":"The -wa form of l."}
+{"id":"am.c0073","meaning":"plain k with wa","note":"The -wa form of plain k. Not the ejective ቀ."}
+{"id":"am.c0074","meaning":"g with wa","note":"The -wa form of g. ጓደኛ, a friend, starts with this character."}
+{"id":"am.c0075","meaning":"a country","note":"Peace Corps spelling. Also written ሀገር and ሃገር."}
+{"id":"am.c0076","meaning":"work","note":"Peace Corps spelling, with ሰ. Also written ሥራ. Same s sound."}
+{"id":"am.c0077","meaning":"a telephone","note":"The middle ል has no vowel in this word. A long consonant would not be written. Listen."}
+{"id":"am.c0078","meaning":"a language","note":"Starts with the -wa form of the ejective ቀ."}
+{"id":"am.c0079","meaning":"the world","note":"ዐ, the second vowel carrier, not አ."}
+{"id":"am.c0080","meaning":"Amharic","note":"Starts with አ, the first vowel carrier. The name of this language."}
+{"id":"am.c0081","meaning":"Gondar","note":"A city. ጎ is the seventh order of g."}
+{"id":"am.c0082","meaning":"Addis Ababa","note":"New flower. The usual setting for this course."}
+{"id":"am.c0083","meaning":"honey","note":"ማ is the fourth order of m. ር is sixth order."}
+{"id":"am.c0084","meaning":"a hyena","note":"ጀ is the j row."}
+{"id":"am.c0085","meaning":"a lake","note":"ሃ is the fourth order of ሀ. Same sound as a word spelled with ሀ."}
+{"id":"am.c0086","meaning":"Hello.","note":"Fine with a friend, any time of day. You will also hear ሰላም ነው, is everything all right."}
+{"id":"am.c0087","meaning":"Hello. (polite)","note":"The formal greeting for any person and any time of day. Say it back, or say thank you."}
+{"id":"am.c0088","meaning":"you (to a man)","note":"English has one you. This is the man. The verb ending has to match."}
+{"id":"am.c0089","meaning":"you (to a woman)","note":"The woman. Not አንተ, and not the same verb ending."}
+{"id":"am.c0090","meaning":"you (polite)","note":"A stranger or an older person. Not አንተ."}
+{"id":"am.c0091","meaning":"Good morning. (to a man)","note":"Man form. Until about noon. A usual reply is ደህና እግዚአብሔር ይመስገን."}
+{"id":"am.c0092","meaning":"Good morning. (to a woman)","note":"Woman form. Do not greet a woman with አደርክ."}
+{"id":"am.c0093","meaning":"Good morning. (polite)","note":"Polite form, for እርስዎ. A group of friends is አደራችሁ."}
+{"id":"am.c0094","meaning":"Good afternoon. (to a man)","note":"After noon, to a man. The verb ending is not the morning one."}
+{"id":"am.c0095","meaning":"Good afternoon. (to a woman)","note":"Woman form of the afternoon greeting."}
+{"id":"am.c0096","meaning":"Good afternoon. (polite)","note":"Polite afternoon greeting."}
+{"id":"am.c0097","meaning":"Good evening. (to a man)","note":"Man form. አመሸህ, not the morning ending."}
+{"id":"am.c0098","meaning":"Good evening. (to a woman)","note":"Woman form."}
+{"id":"am.c0099","meaning":"Good evening. (polite)","note":"Polite evening greeting."}
+{"id":"am.c0100","meaning":"Good night. (polite)","note":"Polite, or to more than one person. To a man: ደህና እደር. To a woman: ደህና እደሪ."}
+{"id":"am.c0101","meaning":"Thank you.","note":"Works for anyone. Also a warm reply after a greeting."}
+{"id":"am.c0102","meaning":"Please. (to a man)","note":"Man form. To a woman: እባክሽ."}
+{"id":"am.c0103","meaning":"Please. (to a woman)","note":"Woman form. Do not say እባክህ to a woman."}
+{"id":"am.c0104","meaning":"My name is Tigist.","note":"ስሜ is my name. ነው is required. A name alone does not mean is."}
+{"id":"am.c0105","meaning":"My country is the United States.","note":"አገሬ is my country. አሜሪካ here is the United States."}
+{"id":"am.c0106","meaning":"What's your name? (to a man)","note":"ስምህ is your name for አንተ. ነው agrees with ስም, not with you."}
+{"id":"am.c0107","meaning":"What's your name? (to a woman)","note":"ስምሽ is for አንቺ. Do not ask a woman with ስምህ."}
+{"id":"am.c0108","meaning":"What's your name? (polite)","note":"For እርስዎ. Same polite ending as አባትዎ."}
+{"id":"am.c0109","meaning":"I am","note":"The verb ending for እኔ is ነኝ."}
+{"id":"am.c0110","meaning":"you are (to a man)","note":"Man form ነህ. Not ነሽ."}
+{"id":"am.c0111","meaning":"you are (to a woman)","note":"Woman form ነሽ."}
+{"id":"am.c0112","meaning":"you are (polite)","note":"Polite form ነዎት."}
+{"id":"am.c0113","meaning":"he is","note":"እሱ takes ነው."}
+{"id":"am.c0114","meaning":"she is","note":"Feminine ending ናት. You will also hear ነች."}
+{"id":"am.c0115","meaning":"we are","note":"እኛ takes ነን."}
+{"id":"am.c0116","meaning":"you are (plural)","note":"Plural you, not እርስዎ. The ending is ናችሁ."}
+{"id":"am.c0117","meaning":"they are","note":"እነሱ takes ናቸው."}
+{"id":"am.c0118","meaning":"he or she is (polite)","note":"An older person you are talking about, not to."}
+{"id":"am.c0119","meaning":"I'm American. (a man)","note":"A man says አሜሪካዊ. ነኝ still matches እኔ."}
+{"id":"am.c0120","meaning":"I'm American. (a woman)","note":"A woman says አሜሪካዊት. The verb ending stays ነኝ."}
+{"id":"am.c0121","meaning":"I'm Ethiopian. (a man)","note":"Nationality sits before ነኝ. A woman says ኢትዮጵያዊት ነኝ."}
+{"id":"am.c0122","meaning":"father","note":"My father puts the ending on the noun: አባቴ."}
+{"id":"am.c0123","meaning":"mother","note":"My mother is እናቴ."}
+{"id":"am.c0124","meaning":"brother","note":"My brother is ወንድሜ."}
+{"id":"am.c0125","meaning":"sister","note":"The my-ending attaches the same way as on እናት."}
+{"id":"am.c0126","meaning":"a child","note":"A son or a daughter. The word itself does not say which."}
+{"id":"am.c0127","meaning":"a family","note":"One word. Of Ato Kebede: የአቶ ከበደ ቤተሰብ."}
+{"id":"am.c0128","meaning":"a friend","note":"A man or a woman. ጓ is the -wa form of g."}
+{"id":"am.c0129","meaning":"grandmother","note":"ሴት plus አያት. Grandfather is ወንድ አያት."}
+{"id":"am.c0130","meaning":"grandfather","note":"ወንድ plus አያት."}
+{"id":"am.c0131","meaning":"my father","note":"The ending is my. There is no separate word for my."}
+{"id":"am.c0132","meaning":"my mother","note":"Same my-ending as አባቴ."}
+{"id":"am.c0133","meaning":"my brother","note":"ወንድም plus my."}
+{"id":"am.c0134","meaning":"your father (to a man)","note":"The ending matches አንተ. Polite, for እርስዎ: አባትዎ."}
+{"id":"am.c0135","meaning":"your father (to a woman)","note":"The ending matches አንቺ. Do not say አባትህ to a woman."}
+{"id":"am.c0136","meaning":"my house","note":"ቤት plus my."}
+{"id":"am.c0137","meaning":"your house (to a man)","note":"Man form of your. The house itself is not masculine or feminine here. The ending follows you."}
+{"id":"am.c0138","meaning":"your house (to a woman)","note":"Woman form of your."}
+{"id":"am.c0139","meaning":"her house","note":"The ending matches እሷ. His house is a different ending, on the home deck."}
+{"id":"am.c0140","meaning":"one","note":"The teens use አስራ in front: አስራ አንድ is eleven."}
+{"id":"am.c0141","meaning":"two","note":"አስራ ሁለት is twelve. ሁለት መቶ is two hundred."}
+{"id":"am.c0142","meaning":"three","note":"Peace Corps spelling. Also written ሦስት."}
+{"id":"am.c0143","meaning":"four","note":"አርባ አራት is forty-four, two words. The ten and the unit stay two words."}
+{"id":"am.c0144","meaning":"five","note":"Forty-five is አርባ አምስት."}
+{"id":"am.c0145","meaning":"six","note":"Not the word ሰባት."}
+{"id":"am.c0146","meaning":"seven","note":"A week has ሰባት days."}
+{"id":"am.c0147","meaning":"eight","note":"Eighteen is አስራ ስምንት."}
+{"id":"am.c0148","meaning":"nine","note":"Nineteen is አስራ ዘጠኝ."}
+{"id":"am.c0149","meaning":"ten","note":"Peace Corps spelling. Also written ዐስር. Eleven switches to አስራ."}
+{"id":"am.c0150","meaning":"twenty","note":"Peace Corps spelling. Twenty-one is ሃያ አንድ, two words."}
+{"id":"am.c0151","meaning":"one hundred","note":"Two hundred is ሁለት መቶ. The manual's word for one thousand is አንድ ሺህ."}
+{"id":"am.c0152","meaning":"What time is it?","note":"Say ይቅርታ to a stranger first. There is no word for do."}
+{"id":"am.c0153","meaning":"6:00 a.m.","note":"Ethiopian twelve in the morning. Ask if this is ሀበሻ ሰዓት or ፈረንጅ ሰዓት."}
+{"id":"am.c0154","meaning":"noon","note":"Ethiopian six in the daytime. The manual writes the hour as a digit, ከቀኑ 6 ሰዓት. 7 a.m. is ከጠዋቱ አንድ ሰዓት."}
+{"id":"am.c0155","meaning":"Ethiopian time","note":"European time is ፈረንጅ ሰዓት. Days: ሰኞ, ማክሰኞ, ሮብ (also ረቡዕ), ሀሙስ (also ሐሙስ), አርብ (also ዓርብ), ቅዳሜ, እሁድ (also እሑድ)."}
+{"id":"am.c0156","meaning":"How much is it?","note":"ዋጋው is the price, with the definite ending. Market prices are often open to bargaining."}
+{"id":"am.c0157","meaning":"four birr","note":"A coffee on an old training menu. A practice figure, not today's price."}
+{"id":"am.c0158","meaning":"this (masculine)","note":"Masculine this. A feminine noun takes ይህች."}
+{"id":"am.c0159","meaning":"this (feminine)","note":"Feminine this. ይህች ትግስት ናት is an ordinary introduction. Pointing and saying ይህች instead of her name can sound rude."}
+{"id":"am.c0160","meaning":"that (masculine)","note":"Masculine that, farther away than ይህ."}
+{"id":"am.c0161","meaning":"that (feminine)","note":"Feminine that. Same caution as ይህች: pointing it at a person instead of using her name can sound rude."}
+{"id":"am.c0162","meaning":"these","note":"These, for any gender."}
+{"id":"am.c0163","meaning":"those","note":"Those, for any gender."}
+{"id":"am.c0164","meaning":"a book","note":"Masculine, so ይህ መጽሀፍ. Also spelled መጽሐፍ."}
+{"id":"am.c0165","meaning":"a pen","note":"A pen. The usual word for a pencil is እርሳስ."}
+{"id":"am.c0166","meaning":"a pencil","note":"A pencil. Masculine."}
+{"id":"am.c0167","meaning":"the house","note":"Definite ending. A specific house. The same letters can mean his house."}
+{"id":"am.c0168","meaning":"houses","note":"Plural -ኦች. Do not add an English s."}
+{"id":"am.c0169","meaning":"the book","note":"Definite ending on መጽሀፍ."}
+{"id":"am.c0170","meaning":"this is a book","note":"You need ነው. ይህ መጽሀፍ alone does not mean this is a book."}
+{"id":"am.c0171","meaning":"I have","note":"I have. The consonant in the middle is long, and the fidel does not show it."}
+{"id":"am.c0172","meaning":"I don't have","note":"The negative wraps the verb. There is no separate word for not."}
+{"id":"am.c0173","meaning":"you have (to a man)","note":"Man form. To a woman, say አለሽ."}
+{"id":"am.c0174","meaning":"you have (to a woman)","note":"Woman form. The man form is አለህ."}
+{"id":"am.c0175","meaning":"you have a house (polite)","note":"Polite form, for እርስዎ. A stranger or an older person. The verb is last."}
+{"id":"am.c0176","meaning":"injera","note":"The flatbread. Firfir is made from this."}
+{"id":"am.c0177","meaning":"coffee","note":"Coffee. Masculine: the coffee is ቡናው."}
+{"id":"am.c0178","meaning":"water","note":"Water."}
+{"id":"am.c0179","meaning":"spicy red stew","note":"The hot stew, with berbere."}
+{"id":"am.c0180","meaning":"mild stew","note":"The mild stew."}
+{"id":"am.c0181","meaning":"chicken stew","note":"Chicken stew."}
+{"id":"am.c0182","meaning":"lentil stew","note":"Lentil stew. It may or may not be hot."}
+{"id":"am.c0183","meaning":"kitfo","note":"Finely chopped beef. Ask for it cooked if you do not eat it raw."}
+{"id":"am.c0184","meaning":"tibs","note":"Sautéed meat."}
+{"id":"am.c0185","meaning":"firfir","note":"Injera torn into a sauce."}
+{"id":"am.c0186","meaning":"egg tibs","note":"Eggs cooked with pepper and onion."}
+{"id":"am.c0187","meaning":"Ambo water","note":"Sparkling water."}
+{"id":"am.c0188","meaning":"tea","note":"Tea."}
+{"id":"am.c0189","meaning":"beer","note":"Beer."}
+{"id":"am.c0190","meaning":"the bill","note":"Ask for this at the end of the meal."}
+{"id":"am.c0191","meaning":"Do you have coffee? (polite)","note":"To a waiter, a stranger. እርስዎ takes አለዎት."}
+{"id":"am.c0192","meaning":"I'll take the chicken stew","note":"The verb is last. እወስዳለሁ means I take."}
+{"id":"am.c0193","meaning":"I don't drink tea","note":"The negative wraps the verb: አልጠጣም."}
+{"id":"am.c0194","meaning":"to go","note":"Infinitive. After want, use this, not a second finite verb."}
+{"id":"am.c0195","meaning":"to eat","note":"Infinitive of eat."}
+{"id":"am.c0196","meaning":"to drink","note":"Infinitive of drink."}
+{"id":"am.c0197","meaning":"to sleep","note":"Infinitive of sleep."}
+{"id":"am.c0198","meaning":"to read","note":"Infinitive of read."}
+{"id":"am.c0199","meaning":"I want","note":"Verb ending for I. A man you is ትፈልጋለህ."}
+{"id":"am.c0200","meaning":"I don't want","note":"The negative wraps the verb. It does not keep እፈልጋለሁ."}
+{"id":"am.c0201","meaning":"I want coffee","note":"The thing comes first. The verb is last."}
+{"id":"am.c0202","meaning":"I want to go","note":"Infinitive, then እፈልጋለሁ. The verb is last."}
+{"id":"am.c0203","meaning":"I want to sleep","note":"Same pattern as መሄድ እፈልጋለሁ."}
+{"id":"am.c0204","meaning":"I like","note":"Verb ending for I. Same person split as እፈልጋለሁ."}
+{"id":"am.c0205","meaning":"I really like","note":"በጣም means very. The verb is still last."}
+{"id":"am.c0206","meaning":"I like coffee","note":"The thing comes first."}
+{"id":"am.c0207","meaning":"I don't like","note":"The negative wraps the verb."}
+{"id":"am.c0208","meaning":"I don't like beer","note":"Beer first, then the negative."}
+{"id":"am.c0209","meaning":"you want (to a man)","note":"Man form. Do not say this to a woman."}
+{"id":"am.c0210","meaning":"you want (to a woman)","note":"Woman form. The man form is ትፈልጋለህ."}
+{"id":"am.c0211","meaning":"you want (polite)","note":"Polite form, for እርስዎ. They uses this ending too."}
+{"id":"am.c0212","meaning":"I'm from America","note":"ከ attaches to the next word. The verb ending for I is ነኝ."}
+{"id":"am.c0213","meaning":"You're from Addis Ababa (to a woman)","note":"Woman form ነሽ. ከ stays attached."}
+{"id":"am.c0214","meaning":"You're from Gondar (to a man)","note":"Man form ነህ."}
+{"id":"am.c0215","meaning":"You're from Ethiopia (polite)","note":"Polite form ነዎት, for a stranger or an older person."}
+{"id":"am.c0216","meaning":"in Addis Ababa","note":"በ attaches to አዲስ."}
+{"id":"am.c0217","meaning":"to Addis Ababa","note":"ወደ is its own word. ከ and በ attach."}
+{"id":"am.c0218","meaning":"for Abebech","note":"ለ attaches to the name."}
+{"id":"am.c0219","meaning":"to the right","note":"The direction you turn."}
+{"id":"am.c0220","meaning":"to the left","note":"The direction you turn."}
+{"id":"am.c0221","meaning":"on the right","note":"One word. Where something is, rather than the turn itself."}
+{"id":"am.c0222","meaning":"go straight (polite)","note":"Polite form, for a stranger or an older person. You will also hear ቀጥታ, straight ahead."}
+{"id":"am.c0223","meaning":"go straight (to a man)","note":"Man form. To a woman: ቀጥ ብለሽ ሂጂ."}
+{"id":"am.c0224","meaning":"Where is the hotel?","note":"ሆቴሉ has the definite ending. The verb is last."}
+{"id":"am.c0225","meaning":"Where is the market?","note":"ገበያው is the market. The verb is last."}
+{"id":"am.c0226","meaning":"Where is the school?","note":"ትምህርት ቤት is school. The definite ending is on ቤት."}
+{"id":"am.c0227","meaning":"by car","note":"በ attaches to the vehicle."}
+{"id":"am.c0228","meaning":"by bus","note":"በ attaches, as in በመኪና."}
+{"id":"am.c0229","meaning":"Gondar is far","note":"A town is feminine, so ናት, not ነው."}
+{"id":"am.c0230","meaning":"I went","note":"Perfective, the past. Verb ending for I."}
+{"id":"am.c0231","meaning":"you went (to a man)","note":"Man form. The woman form is ሄድሽ."}
+{"id":"am.c0232","meaning":"you went (to a woman)","note":"Woman form. The man form is ሄድክ."}
+{"id":"am.c0233","meaning":"he went","note":"Masculine. እሱ takes ሄደ."}
+{"id":"am.c0234","meaning":"she went","note":"Feminine. እሷ takes ሄደች."}
+{"id":"am.c0235","meaning":"we went","note":"Verb ending for we."}
+{"id":"am.c0236","meaning":"you went (polite)","note":"Polite form, for እርስዎ. They uses this ending too."}
+{"id":"am.c0237","meaning":"I go","note":"Present and future. There is no separate future tense."}
+{"id":"am.c0238","meaning":"you go (to a man)","note":"Man form. Do not say this to a woman."}
+{"id":"am.c0239","meaning":"you go (to a woman)","note":"Woman form. The consonant changes. The man form is ትሄዳለህ."}
+{"id":"am.c0240","meaning":"he goes","note":"Masculine. Present and future."}
+{"id":"am.c0241","meaning":"she goes","note":"Feminine. Present and future."}
+{"id":"am.c0242","meaning":"we go","note":"Verb ending for we."}
+{"id":"am.c0243","meaning":"you go (polite)","note":"Polite form, for እርስዎ. They uses this ending too."}
+{"id":"am.c0244","meaning":"I drank the coffee","note":"Object ending -ን on ቡናው, the coffee. The verb is last."}
+{"id":"am.c0245","meaning":"I drank water","note":"No -ን. Water in general, not one particular water."}
+{"id":"am.c0246","meaning":"I ate","note":"Perfective. Verb ending for I."}
+{"id":"am.c0247","meaning":"I ate injera","note":"The food comes first. The verb is last."}
+{"id":"am.c0248","meaning":"what","note":"No word for do. The verb ending shows the person."}
+{"id":"am.c0249","meaning":"who","note":"Who. The verb ending still matches the person."}
+{"id":"am.c0250","meaning":"where","note":"Where. The verb stays last."}
+{"id":"am.c0251","meaning":"when","note":"When."}
+{"id":"am.c0252","meaning":"how many","note":"How many, or how much."}
+{"id":"am.c0253","meaning":"how","note":"How. For a person, the verb ending still has to match."}
+{"id":"am.c0254","meaning":"and","note":"Joins words or clauses. After a vowel you may hear ና."}
+{"id":"am.c0255","meaning":"but","note":"Joins two clauses. Each clause still ends with its verb."}
+{"id":"am.c0256","meaning":"or (in a statement)","note":"Or, when you are stating something."}
+{"id":"am.c0257","meaning":"or (in a question)","note":"Or, when you ask someone to choose."}
+{"id":"am.c0258","meaning":"What is it?","note":"ምንድን asks what a thing is. You still need ነው."}
+{"id":"am.c0259","meaning":"Who are you? (to a man)","note":"Man form ነህ. No word for do."}
+{"id":"am.c0260","meaning":"Who are you? (to a woman)","note":"Woman form ነሽ. The man form is ነህ."}
+{"id":"am.c0261","meaning":"Who are you? (polite)","note":"Polite form ነዎት, for a stranger or an older person."}
+{"id":"am.c0262","meaning":"What do you want? (to a man)","note":"Man form. No word for do."}
+{"id":"am.c0263","meaning":"What do you want? (to a woman)","note":"Woman form ትፈልጊያለሽ."}
+{"id":"am.c0264","meaning":"Where are you going? (to a man)","note":"Man form. To a woman: ትሄጃለሽ. The verb is last."}
+{"id":"am.c0265","meaning":"How is the coffee?","note":"Masculine ነው. No word for do."}
+{"id":"am.c0266","meaning":"beautiful (masculine)","note":"For a man or a masculine noun. A woman takes ውቢት."}
+{"id":"am.c0267","meaning":"beautiful (feminine)","note":"Feminine. The masculine word is ውብ."}
+{"id":"am.c0268","meaning":"pretty","note":"Same form for a man or a woman."}
+{"id":"am.c0269","meaning":"very pretty","note":"በጣም means very."}
+{"id":"am.c0270","meaning":"have a good day","note":"A wish, not a question."}
+{"id":"am.c0271","meaning":"have a good trip","note":"Say it when someone is leaving."}
+{"id":"am.c0272","meaning":"great (informal)","note":"Informal. Fine with a friend."}
+{"id":"am.c0273","meaning":"the coffee is really nice","note":"Masculine ነው. The verb is last."}
+{"id":"am.c0274","meaning":"Abebech is pretty","note":"ቆንጆ stays. A woman takes ናት."}
+{"id":"am.c0275","meaning":"Tigist is beautiful","note":"Feminine adjective and feminine verb ending."}
+{"id":"am.c0276","meaning":"Adam is beautiful","note":"Masculine ውብ and ነው."}
+{"id":"am.c0277","meaning":"Addis Ababa is beautiful","note":"A city is feminine, so ውቢት and ናት."}
+{"id":"am.c0278","meaning":"the house is beautiful","note":"Masculine ውብ and ነው. The verb is last."}
+{"id":"am.c0279","meaning":"it is a very nice pencil","note":"Masculine ነው. እርሳስ does not change ቆንጆ."}
+{"id":"am.c0280","meaning":"the food is great","note":"Informal አሪፍ. ምግቡ is the food. Fine with a friend."}
+{"id":"am.c0281","meaning":"Ato Kebede is a good person","note":"አቶ before a man's name. Masculine ነው."}
+{"id":"am.c0282","meaning":"it is great (informal)","note":"Informal, for a thing you are with a friend about. Masculine ነው."}
+{"id":"am.c0283","meaning":"Gondar is beautiful","note":"A town is feminine, so ውቢት and ናት."}
+{"id":"am.c0284","meaning":"I didn't go","note":"አል- and -ም wrap the past verb. There is no separate word for not."}
+{"id":"am.c0285","meaning":"I don't go","note":"Present and future. The past is አልሄድኩም."}
+{"id":"am.c0286","meaning":"you didn't go (to a man)","note":"Man form. The negative does not leave the affirmative ending bare."}
+{"id":"am.c0287","meaning":"you didn't go (to a woman)","note":"Woman form. The man form is አልሄድክም."}
+{"id":"am.c0288","meaning":"he didn't go","note":"Masculine. እሱ takes አልሄደም."}
+{"id":"am.c0289","meaning":"she didn't go","note":"Feminine. እሷ takes አልሄደችም."}
+{"id":"am.c0290","meaning":"you didn't go (polite)","note":"Polite form, for እርስዎ."}
+{"id":"am.c0291","meaning":"you don't go (to a man)","note":"Man form of the present negative. She uses this same form. A woman you is አትሄጂም."}
+{"id":"am.c0292","meaning":"you don't go (to a woman)","note":"Woman form. The man form is አትሄድም."}
+{"id":"am.c0293","meaning":"You are a student (to a man)","note":"Man form ነህ. አንተ is the man."}
+{"id":"am.c0294","meaning":"You are a student (to a woman)","note":"Woman form ነሽ. አንቺ with ነህ is one you for everyone."}
+{"id":"am.c0295","meaning":"He is a student","note":"Masculine ነው. ተማሪ alone does not mean is."}
+{"id":"am.c0296","meaning":"She is a student","note":"Feminine ናት. እሷ does not take ነው."}
+{"id":"am.c0297","meaning":"I closed the door","note":"Object ending -ን on በሩ. The -ት points back at the door."}
+{"id":"am.c0298","meaning":"I drank coffee","note":"The verb is last. Coffee in general, so no -ን."}
+{"id":"am.c0299","meaning":"children","note":"Plural -ኦች. Do not add an English s to ልጅ."}
+{"id":"am.c0300","meaning":"She hasn't come yet","note":"ገና here is still, a short consonant. The same letters with a long consonant are Christmas. The fidel does not show which."}
+{"id":"am.c0301","meaning":"salt","note":"ጨ is an ejective. It is not ቸ. Listen for the pop."}
+{"id":"am.c0302","meaning":"You're pretty (to a woman)","note":"Warm. To a man: ቆንጆ ነህ. Polite: ቆንጆ ነዎት."}
+{"id":"am.c0303","meaning":"You're handsome (to a man)","note":"Warm. ቆንጆ works for both genders; only the ending changes."}
+{"id":"am.c0304","meaning":"You look really pretty today (to a woman)","note":"Warm. To a man: ዛሬ በጣም ቆንጆ ነህ."}
+{"id":"am.c0305","meaning":"What a pretty name (to a woman)","note":"Mild, a safe opener after introductions. To a man: ስምህ ቆንጆ ነው."}
+{"id":"am.c0306","meaning":"You're very good-looking (polite)","note":"Respectful, to someone older or just met."}
+{"id":"am.c0307","meaning":"You're beautiful (to a woman)","note":"Bold: stronger than ቆንጆ. To a man people say ቆንጆ ነህ."}
+{"id":"am.c0308","meaning":"You're really beautiful (to a woman)","note":"Bold. Say it once, not every five minutes."}
+{"id":"am.c0309","meaning":"You're great (to a man)","note":"Mild, casual. To a woman: አሪፍ ነሽ."}
+{"id":"am.c0310","meaning":"You're a great person (to a woman)","note":"Warm. To a man: አሪፍ ሰው ነህ."}
+{"id":"am.c0311","meaning":"You're a kind person (to a man)","note":"Warm, respectful. To a woman: መልካም ሰው ነሽ."}
+{"id":"am.c0312","meaning":"You're a good person (to a woman)","note":"Warm. To a man: ጥሩ ሰው ነህ."}
+{"id":"am.c0313","meaning":"Would you like a coffee? (to a woman)","note":"The classic low-pressure invitation. To a man: ቡና ትፈልጋለህ?"}
+{"id":"am.c0314","meaning":"Would you like a coffee? (polite)","note":"Respectful version, for someone older or just met."}
+{"id":"am.c0315","meaning":"Coffee tomorrow? (to a man)","note":"Asking someone out, warm. To a woman: ነገ ቡና ትፈልጊያለሽ?"}
+{"id":"am.c0316","meaning":"It's for you (to a woman)","note":"Handing over a coffee or a flower. Polite: ለእርስዎ ነው."}
+{"id":"am.c0317","meaning":"Good night (to a woman)","note":"Warm, at the end of an evening. To a man: ደህና እደር."}
+{"id":"am.c0318","meaning":"Oh, stop it! (playful)","note":"The smiling, modest answer to a compliment. Very common."}
+{"id":"am.c0319","meaning":"Oh no, not really","note":"Modest reply: compliments are played down, not accepted outright."}
+{"id":"am.c0320","meaning":"Yes, I'd love to","note":"A warm yes to an invitation."}
+{"id":"am.c0321","meaning":"OK, tomorrow then","note":"A warm yes that fixes the day."}
+{"id":"am.c0322","meaning":"You're a good friend (to a man)","note":"Gentle \"just friends\" signal. To a woman: ጥሩ ጓደኛ ነሽ."}
+{"id":"am.c0323","meaning":"Thank you, but no","note":"Kind and clear. Works for any person."}
+{"id":"am.c0324","meaning":"Sorry, I don't want to","note":"Kind and clear; ይቅርታ softens it."}
+{"id":"am.c0325","meaning":"Sorry, I'm seeing someone","note":"Clear no. ጓደኛ is friend; here it means partner."}
+{"id":"am.c0326","meaning":"You're a nice guy, but no (to a man)","note":"Gracious and final. To a woman: ጥሩ ሰው ነሽ ግን አልፈልግም."}
+{"id":"am.c0327","meaning":"day","note":"መልካም ቀን = have a nice day. ከቀኑ = in the daytime (clock times)."}
+{"id":"am.c0328","meaning":"hour; o'clock; watch","note":"ስንት ሰዓት ነው? = what time is it? The ዓ is a glottal stop."}
+{"id":"am.c0329","meaning":"woman","note":"ሴት ልጅ = girl. ሴት አያት = grandmother."}
+{"id":"am.c0330","meaning":"man; male","note":"ወንድ ልጅ = boy. ወንድ አያት = grandfather."}
+{"id":"am.c0331","meaning":"birr (money)","note":"The Ethiopian currency, and the everyday word for money. Final r is long."}
+{"id":"am.c0332","meaning":"lesson; education; school subject","note":"ትምህርት ቤት = school (lesson house)."}
+{"id":"am.c0333","meaning":"health","note":"ጤና ይስጥልኝ = hello (formal), literally \"give me health\"."}
+{"id":"am.c0334","meaning":"head; self","note":"Also \"self\" with endings. Reading not yet checked: see the lexicon."}
+{"id":"am.c0335","meaning":"door","note":"The door (object): በሩን, as in በሩን ዘጋሁት."}
+{"id":"am.c0336","meaning":"car","note":"በመኪና = by car."}
+{"id":"am.c0337","meaning":"trip; journey","note":"መልካም ጉዞ = have a good trip."}
+{"id":"am.c0338","meaning":"student","note":"Same form for a man or a woman; the verb ending shows which."}
+{"id":"am.c0339","meaning":"grandparent","note":"ሴት አያት = grandmother, ወንድ አያት = grandfather."}
+{"id":"am.c0340","meaning":"the right (side)","note":"ወደ ቀኝ = to the right."}
+{"id":"am.c0341","meaning":"the left (side)","note":"ወደ ግራ = to the left."}
+{"id":"am.c0342","meaning":"chicken","note":"ዶሮ ወጥ = chicken stew, the festive dish."}
+{"id":"am.c0343","meaning":"egg","note":"እንቁላል ጥብስ = fried eggs."}
+{"id":"am.c0344","meaning":"stew","note":"Eaten with እንጀራ. ቀይ ወጥ = red (spicy) stew."}
+{"id":"am.c0345","meaning":"lentils","note":"ምስር ወጥ = lentil stew, a fasting-day dish."}
+{"id":"am.c0346","meaning":"ball; football","note":"The -wa letter ኳ: kwas."}
+{"id":"am.c0347","meaning":"Habesha (Ethiopian or Eritrean person)","note":"Also a style: ሀበሻ ሰዓት = Ethiopian time."}
+{"id":"am.c0348","meaning":"God","note":"እግዚአብሔር ይመስገን = thank God, the usual reply to \"how are you?\"."}
+{"id":"am.c0349","meaning":"flower","note":"As in አዲስ አበባ, \"new flower\". Reading not yet checked: see the lexicon."}
+{"id":"am.c0350","meaning":"is (copula, he / it form)","note":"Comes last: ይህ ቤት ነው. Other persons: ነኝ, ነህ, ነሽ, ናት."}
+{"id":"am.c0351","meaning":"there is; exists","note":"With endings it means have: አለኝ. Said alle; short-l ale means \"he said\"."}
+{"id":"am.c0352","meaning":"there isn't; is not there","note":"Also the everyday \"no\": ቡና የለም = there's no coffee."}
+{"id":"am.c0353","meaning":"go! (to a man)","note":"To a woman: ሂጂ. Polite: ይሂዱ. Dictionary form: ሄደ."}
+{"id":"am.c0354","meaning":"go! (to a woman)","note":"The d of ሂድ becomes j for a woman."}
+{"id":"am.c0355","meaning":"go (polite)","note":"For an older person, a stranger, or more than one person."}
+{"id":"am.c0356","meaning":"come! (to a man)","note":"To a woman: ነይ. Irregular: it looks nothing like the other forms."}
+{"id":"am.c0357","meaning":"come! (to a woman)","note":"To a man: ና."}
+{"id":"am.c0358","meaning":"sit down! (to a man)","note":"To a woman: ተቀመጪ. Polite: ይቀመጡ."}
+{"id":"am.c0359","meaning":"sit down! (to a woman)","note":"The ejective t' becomes ch' for a woman."}
+{"id":"am.c0360","meaning":"please sit (polite)","note":"What a host says to a guest: እባክዎ ይቀመጡ."}
+{"id":"am.c0361","meaning":"drink (dictionary form: he drank)","note":"Dictionaries list a verb by this \"he did\" form. The t' is long."}
+{"id":"am.c0362","meaning":"I drank","note":"-ሁ = I, in the past. ቡናውን ጠጣሁ = I drank the coffee."}
+{"id":"am.c0363","meaning":"she drank","note":"-ች = she, in the past."}
+{"id":"am.c0364","meaning":"I drink; I will drink","note":"One form for present and future. Not: አልጠጣም = I don't drink."}
+{"id":"am.c0365","meaning":"you drink (to a man)","note":"To a woman: ትጠጫለሽ."}
+{"id":"am.c0366","meaning":"you drink (to a woman)","note":"t' becomes ch' before the woman ending."}
+{"id":"am.c0367","meaning":"I eat; I will eat","note":"Past: በላሁ = I ate. Dictionary form: በላ."}
+{"id":"am.c0368","meaning":"you like (to a man)","note":"To a woman: ትወጃለሽ. I like: እወዳለሁ."}
+{"id":"am.c0369","meaning":"you like (to a woman)","note":"The long d becomes jj for a woman."}
+{"id":"am.c0370","meaning":"they like; you like (polite)","note":"One form for \"they\" and for polite \"you\"."}
+{"id":"am.c0371","meaning":"I'll take (it)","note":"How you order: ክትፎ እወስዳለሁ = I'll have the kitfo."}
+{"id":"am.c0372","meaning":"I'd rather; I feel better","note":"Literally \"it is better for me\": ሻይ ይሻለኛል = I'd rather have tea."}
+{"id":"am.c0373","meaning":"you closed (to a man)","note":"Dictionary form: ዘጋ. Reading not yet checked: see the lexicon."}
+{"id":"am.c0374","meaning":"turn (polite)","note":"For directions: ወደ ግራ ይታጠፉ. Reading not yet checked."}
+{"id":"am.c0375","meaning":"big; old (of a person)","note":"After the noun: ቤቱ ትልቅ ነው. Same form for both genders."}
+{"id":"am.c0376","meaning":"small; a little","note":"Also \"a little\": ትንሽ ውሃ = a little water."}
+{"id":"am.c0377","meaning":"many; a lot of","note":"Before the noun: ብዙ ሰው = many people (the noun stays singular)."}
+{"id":"am.c0378","meaning":"fine; well; safe","note":"ደህና ነኝ = I'm fine. Also in every greeting: ደህና አደርክ?"}
+{"id":"am.c0379","meaning":"good; kind","note":"For wishes and people: መልካም ቀን, መልካም ሰው."}
+{"id":"am.c0380","meaning":"expensive; dear","note":"ዋጋው ውድ ነው = it's expensive. Final d is long."}
+{"id":"am.c0381","meaning":"red","note":"ቀይ ወጥ = red (spicy) stew."}
+{"id":"am.c0382","meaning":"far","note":"ጎንደር ሩቅ ናት = Gondar is far. Reading not yet checked: see the lexicon."}
+{"id":"am.c0383","meaning":"cool; great","note":"Casual, young speech: በጣም አሪፍ = really great."}
+{"id":"am.c0384","meaning":"Ethiopian (a man)","note":"A woman: ኢትዮጵያዊት."}
+{"id":"am.c0385","meaning":"American (a man)","note":"A woman: አሜሪካዊት."}
+{"id":"am.c0386","meaning":"American (a woman)","note":"-ት marks the woman form; a man: አሜሪካዊ."}
+{"id":"am.c0387","meaning":"I; me","note":"Often dropped, because the verb ending already says \"I\": ተማሪ ነኝ."}
+{"id":"am.c0388","meaning":"he; him","note":"Polite \"he\": እሳቸው. The s is long."}
+{"id":"am.c0389","meaning":"she; her","note":"Polite \"she\": እሳቸው. Her verb ending: ናት / ነች."}
+{"id":"am.c0390","meaning":"we; us","note":"Copula: ነን. The ny is long."}
+{"id":"am.c0391","meaning":"they; them","note":"Copula: ናቸው."}
+{"id":"am.c0392","meaning":"you (more than one person)","note":"Copula: ናችሁ."}
+{"id":"am.c0393","meaning":"he or she (polite)","note":"For an older person or someone you respect. Copula: ናቸው."}
+{"id":"am.c0394","meaning":"what (is it)","note":"ምንድን ነው? = what is it? Shorter: ምን."}
+{"id":"am.c0395","meaning":"this (a woman or girl; casual)","note":"Speech form of ይህች. Reading not yet checked: see the lexicon."}
+{"id":"am.c0396","meaning":"my name","note":"-ኤ (the fifth order) on a noun = my: ቤቴ, አባቴ."}
+{"id":"am.c0397","meaning":"your name (to a man)","note":"-ህ on a noun = your (a man)."}
+{"id":"am.c0398","meaning":"your name (to a woman)","note":"-ሽ on a noun = your (a woman)."}
+{"id":"am.c0399","meaning":"your name (polite)","note":"-ዎ on a noun = your (polite)."}
+{"id":"am.c0400","meaning":"his child; the boy","note":"-ኡ is both \"his\" and \"the\": the context decides."}
+{"id":"am.c0401","meaning":"her child","note":"-ዋ on a noun = her: ቤቷ = her house."}
+{"id":"am.c0402","meaning":"to; toward","note":"A separate word before the place: ወደ ገበያ = to the market."}
+{"id":"am.c0403","meaning":"with; at (someone's place)","note":"After the word, usually with ከ- before it: ከ … ጋር."}
+{"id":"am.c0404","meaning":"from where","note":"ከ- = from, joined to the next word: ከየት ነህ? = where are you from?"}
+{"id":"am.c0405","meaning":"from Ethiopia","note":"ከ- is written joined to the word."}
+{"id":"am.c0406","meaning":"in Ethiopia","note":"በ- = in, at, by; joined to the word."}
+{"id":"am.c0407","meaning":"from America","note":"ከአሜሪካ ነኝ = I'm from America."}
+{"id":"am.c0408","meaning":"at home","note":"በ- = at. In speech you often hear just ቤት."}
+{"id":"am.c0409","meaning":"in the house","note":"በ- + ቤቱ (the house)."}
+{"id":"am.c0410","meaning":"for you (to a woman)","note":"ለ- = for, to. Polite: ለእርስዎ."}
+{"id":"am.c0411","meaning":"for you (polite)","note":"ለ- joined to እርስዎ."}
+{"id":"am.c0412","meaning":"in the morning (clock times)","note":"ከ- with a time of day: ከጠዋቱ ሶስት ሰዓት = 9 a.m."}
+{"id":"am.c0413","meaning":"in the daytime (clock times)","note":"ከቀኑ ስምንት ሰዓት = 2 p.m. (Ethiopian clock)."}
+{"id":"am.c0414","meaning":"from the hotel","note":"Also \"than\": ከ- marks the thing you compare with. Reading not yet checked."}
+{"id":"am.c0415","meaning":"yes","note":"Answers a yes-no question: አዎ, ተማሪ ነኝ."}
+{"id":"am.c0416","meaning":"no (it isn't)","note":"Literally \"it is not\": the negative of ነው."}
+{"id":"am.c0417","meaning":"OK; sure","note":"Agreeing to a request or a plan."}
+{"id":"am.c0418","meaning":"sorry; excuse me","note":"To get attention, to apologise, or to soften a no."}
+{"id":"am.c0419","meaning":"today","note":"ዛሬ ቡና አለ? = is there coffee today?"}
+{"id":"am.c0420","meaning":"tomorrow","note":"ነገ እሄዳለሁ = I'll go tomorrow."}
+{"id":"am.c0421","meaning":"yesterday","note":"Goes with the past: ትናንት ሄድኩ."}
+{"id":"am.c0422","meaning":"Monday","note":"The ny is long: sennyo."}
+{"id":"am.c0423","meaning":"Thursday","note":"Starts with the h letter ሀ."}
+{"id":"am.c0424","meaning":"Friday","note":"A fasting day for many Orthodox Christians."}
+{"id":"am.c0425","meaning":"ten- (in 11 to 19)","note":"አስራ አንድ = 11, አስራ ሁለት = 12. On its own, ten is አስር."}
+{"id":"am.c0426","meaning":"forty","note":"አርባ ብር = 40 birr."}

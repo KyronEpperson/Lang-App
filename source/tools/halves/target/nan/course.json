@@ -1,0 +1,200 @@
+{
+ "target": "nan",
+ "ttsLang": "nan-TW",
+ "self": "台語",
+ "pack": {
+  "accents": true,
+  "keys": "",
+  "tilesDefault": true,
+  "romaAlmost": true,
+  "noAudio": true,
+  "voiceMatch": "^nan(-|_|$)"
+ },
+ "features": {
+  "script": false,
+  "pron": false,
+  "conj": false,
+  "register": false,
+  "numbers": false,
+  "sound": false,
+  "strokes": false
+ },
+ "groups": [
+  {
+   "id": "nan.grp.sounds-and-script",
+   "decks": [
+    "nan.d.tai-lo-sounds",
+    "nan.d.seven-tones",
+    "nan.d.tone-sandhi-in-action",
+    "nan.d.taigi-characters"
+   ]
+  },
+  {
+   "id": "nan.grp.first-steps",
+   "decks": [
+    "nan.d.greetings-and-courtesy",
+    "nan.d.people-and-family",
+    "nan.d.about-me",
+    "nan.d.in-class"
+   ]
+  },
+  {
+   "id": "nan.grp.everyday-words",
+   "decks": [
+    "nan.d.numbers-and-money",
+    "nan.d.classifiers",
+    "nan.d.night-market-food",
+    "nan.d.at-the-market",
+    "nan.d.time-and-days"
+   ]
+  },
+  {
+   "id": "nan.grp.out-and-about",
+   "decks": [
+    "nan.d.places-and-directions",
+    "nan.d.getting-around"
+   ]
+  },
+  {
+   "id": "nan.grp.conversation",
+   "decks": [
+    "nan.d.questions-and-particles",
+    "nan.d.describing-and-comparing",
+    "nan.d.traps-for-english-speakers",
+    "nan.d.compliments",
+    "nan.d.flirting"
+   ]
+  },
+  {
+   "id": "nan.grp.core-words",
+   "decks": [
+    "nan.d.top-nouns",
+    "nan.d.top-verbs",
+    "nan.d.top-adjectives",
+    "nan.d.top-adverbs",
+    "nan.d.top-pronouns",
+    "nan.d.top-prepositions",
+    "nan.d.top-conjunctions",
+    "nan.d.top-interjections",
+    "nan.d.top-words",
+    "nan.d.top-measure-words",
+    "nan.d.top-particles"
+   ]
+  }
+ ],
+ "tags": {
+  "sounds-and-script": [
+   "nan.d.tai-lo-sounds",
+   "nan.d.seven-tones",
+   "nan.d.tone-sandhi-in-action",
+   "nan.d.taigi-characters"
+  ],
+  "first-steps": [
+   "nan.d.greetings-and-courtesy",
+   "nan.d.people-and-family",
+   "nan.d.about-me",
+   "nan.d.in-class"
+  ],
+  "everyday-words": [
+   "nan.d.numbers-and-money",
+   "nan.d.classifiers",
+   "nan.d.night-market-food",
+   "nan.d.at-the-market",
+   "nan.d.time-and-days"
+  ],
+  "out-and-about": [
+   "nan.d.places-and-directions",
+   "nan.d.getting-around"
+  ],
+  "conversation": [
+   "nan.d.questions-and-particles",
+   "nan.d.describing-and-comparing",
+   "nan.d.traps-for-english-speakers",
+   "nan.d.compliments",
+   "nan.d.flirting"
+  ],
+  "core-words": [
+   "nan.d.top-nouns",
+   "nan.d.top-verbs",
+   "nan.d.top-adjectives",
+   "nan.d.top-adverbs",
+   "nan.d.top-pronouns",
+   "nan.d.top-prepositions",
+   "nan.d.top-conjunctions",
+   "nan.d.top-interjections",
+   "nan.d.top-words",
+   "nan.d.top-measure-words",
+   "nan.d.top-particles"
+  ]
+ },
+ "goals": [],
+ "plans": [],
+ "titles": [
+  {
+   "id": "nan.t01",
+   "level": 1
+  },
+  {
+   "id": "nan.t03",
+   "level": 3
+  },
+  {
+   "id": "nan.t05",
+   "level": 5
+  },
+  {
+   "id": "nan.t08",
+   "level": 8
+  },
+  {
+   "id": "nan.t12",
+   "level": 12
+  },
+  {
+   "id": "nan.t16",
+   "level": 16
+  },
+  {
+   "id": "nan.t20",
+   "level": 20
+  }
+ ],
+ "greet": [
+  {
+   "id": "nan.h.night",
+   "nan": "早睏"
+  },
+  {
+   "id": "nan.h.morning",
+   "nan": "𠢕早"
+  },
+  {
+   "id": "nan.h.afternoon",
+   "nan": "你好"
+  },
+  {
+   "id": "nan.h.evening",
+   "nan": "你食飽未？"
+  }
+ ],
+ "pairs": [],
+ "pause": {
+  "sets": [],
+  "idioms": []
+ },
+ "uiKeys": [
+  "Taiwanese Hokkien (required)",
+  "Taiwanese Hokkien, pronunciation, meaning, note — one per line (pronunciation/note optional)",
+  "Search a pattern, e.g. 에서 or 'want'",
+  "#sounds-and-script",
+  "#first-steps",
+  "#everyday-words",
+  "#out-and-about",
+  "#conversation",
+  "#core-words"
+ ],
+ "exportedFrom": {
+  "file": "tools/target/nan/ (tools/target/gen.js nan)",
+  "sha256_16": "54c66ab7e36b56b0"
+ }
+}

@@ -1,0 +1,63 @@
+{
+  "lessons": {
+    "ethiopian-english": "am-only lesson (profile am.md §4 zones 4/11/15, §8): Ethiopian English usages fine at home but puzzling abroad, Amharic calques (called to me, tell to him, let her to come, passed to university, made my homework, go to home) and forms wrong everywhere (I am not understanding, furnitures, best student); NEW English side; placed after smalltalk (profile.json lessonOrder.after); deck 22; replaces the scaffold's Korean-only konglish (id renamed by the lead)",
+    "stative-since": "am-only lesson (profile am.md §4 zones 6-7, §8): no continuous with states; Present Perfect with since/for; English side identical to hi-en's lesson of the same id; placed after perfect-2; deck 2",
+    "articles-3": "kept from ko-en's own lessons (profile am.md §4 zone 1, §8): zero article for generic nouns, the for specified ones, fixed expressions; English side identical to ko-en's articles-3; placed after passive; deck 2"
+  },
+  "items": {
+    "be#check0": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): K-pop → football in all four options (I like football.)",
+    "be#check1": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Seoul → Addis Ababa in all four options",
+    "third-s#check0": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Seoul → Addis Ababa (She ___ in Addis Ababa.)",
+    "will#check2": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Jeju → Lalibela in every option",
+    "perfect#check2": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Jeju → Lalibela in every option",
+    "relative#check0": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Busan → Hawassa (I have a friend ___ lives in Hawassa.)",
+    "passive#check1": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Korea → China (This phone ___ made in China.)",
+    "email#check1": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): distractors \"You suffered a lot.\" / \"Good suffering.\" (Korean 수고 calques) → \"Thanks for your hard works!\" / \"You did a hard work.\" (uncountable work, zone 3); answer and its position unchanged",
+    "be#5": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Seoul → Adama (order tiles: My brother works in Adama; a single-word tile)",
+    "be#8": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Seoul → Addis Ababa",
+    "present#2": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Seoul → Addis Ababa in all options",
+    "present#10": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Busan → Hawassa",
+    "third-s#0": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Busan → Hawassa",
+    "prep#4": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Seoul → Addis Ababa in all options (I live in the Addis Ababa. stays the distractor shape)",
+    "countable#4": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Seoul → Addis Ababa",
+    "can-like#0": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Korean → Amharic (He can ___ Amharic.)",
+    "irregular-past#8": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Jeju → Lalibela",
+    "irregular-past#11": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Busan → Hawassa in answer and hint (I went to Hawassa; went · to · Hawassa)",
+    "going-to#0": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Busan → Hawassa in all options",
+    "tense#2": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Jeju → Lalibela in all options",
+    "numbers#9": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): won → birr (That's fifty __ birr.)",
+    "smalltalk#4": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Busan → Hawassa in the question (I went to Hawassa last weekend.)",
+    "will#4": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Jeju → Lalibela in all options",
+    "perfect#2": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): kimchi → injera in all options",
+    "perfect#4": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Jeju → Lalibela in all options",
+    "perfect#6": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Korea → Kenya (order tiles I've been to Kenya twice)",
+    "perfect#8": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Busan → Hawassa",
+    "perfect#10": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Korea → Kenya",
+    "articles-2#1": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Korea → Ethiopia: I live in Ethiopia. / I live in the Ethiopia. / I live in an Ethiopia. (a → an before the vowel) / I live Ethiopia in.",
+    "relative#12": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Korean → Japanese in answers and hint (the learner's own language would be trivial here)",
+    "phrasal#2": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Daegu → Adama in all options",
+    "passive#1": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Korea → Ethiopia in all options",
+    "passive#8": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Korea → Ethiopia",
+    "passive#10": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): Han Kang → Haddis Alemayehu",
+    "idioms#9": "localisation per profile am.md §9 (Korean setting → Ethiopia; grammar point unchanged): distractor tiger (Korean 'speak of the tiger') → ghost"
+  },
+  "decks": {
+    "21": "am-only deck 22 «ኢትዮጵያዊ እንግሊዝኛ፦ እዚህና ውጭ» (profile am.md §8 ethiopian-english, §9 card shape): 25 new English cards (group 1 fine at home / say this abroad, group 2 copied from Amharic, group 3 wrong everywhere); deviations.p.json 'count' covers the deck count only, parity reports the extra deck position separately",
+    "1": "localisation per profile am.md §9 (deck 2 «ራስን ማስተዋወቅ»): cards 0 'My name is Selam.', 4 'I'm from Ethiopia.', 5 'I live in Addis Ababa.' (same positions as te/ur)",
+    "2": "localisation per profile am.md §9 (deck 3): card 12 'Do you speak Amharic?'",
+    "9": "localisation per profile am.md §9 (deck 10): card 6 'Have you been to Ethiopia?'",
+    "11": "localisation per profile am.md §9 (deck 12): card 8 'Your Amharic is really good!'",
+    "13": "localisation per profile am.md §9 (deck 14): cards 0 'Hello, this is Selam.', 1 'Can I speak to Mr. Haile?'",
+    "14": "localisation per profile am.md §9 (deck 15): card 8 'I have a reservation under Haile.'",
+    "15": "localisation per profile am.md §9 (deck 16): card 15 'I need to contact the Ethiopian embassy.'",
+    "17": "am-only cards appended per profile am.md §9 to deck 18 «የአጠራር ወጥመዶች» (th, v/b, vowel length, æ/ʌ/e, boat/bought, clusters, -s/-ed endings, stress: Gashaw 2014/2016); the original 26 cards unchanged",
+    "19": "localisation per profile am.md §9 (deck 20): card 14 \"Who's your bias?\" (K-pop fan word) → \"Who's your favorite singer?\"",
+    "count": "deck count 22 vs ko-en 21: am-only deck 22 «ኢትዮጵያዊ እንግሊዝኛ፦ እዚህና ውጭ» (profile am.md §9) appended last"
+  },
+  "extraLessons": [
+    "ethiopian-english",
+    "stative-since",
+    "articles-3"
+  ],
+  "droppedLessons": []
+}

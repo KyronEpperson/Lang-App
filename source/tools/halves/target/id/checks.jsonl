@@ -1,0 +1,81 @@
+{"id":"sounds.k1","lesson":"sounds","o":[null,null,null,null],"a":1}
+{"id":"sounds.k2","lesson":"sounds","o":[null,null,null,null],"a":0}
+{"id":"sounds.k3","lesson":"sounds","o":[null,null,null,null],"a":2}
+{"id":"greetings.k1","lesson":"greetings","o":["Selamat pagi.","Selamat malam.","Selamat sore.","Selamat jalan."],"a":2}
+{"id":"greetings.k2","lesson":"greetings","o":["Sama-sama.","Selamat tahun baru juga!","Permisi.","Selamat jalan!"],"a":1}
+{"id":"greetings.k3","lesson":"greetings","o":["Nama saya Emma.","Saya nama Emma.","Saya punya nama Emma.","Nama punya saya Emma."],"a":0}
+{"id":"pronouns.k1","lesson":"pronouns","o":["dia","mereka","kamu","kita"],"a":0}
+{"id":"pronouns.k2","lesson":"pronouns","o":["kamu","aku","Bapak (Pak)","Mas"],"a":2}
+{"id":"pronouns.k3","lesson":"pronouns","o":["kita","kami","mereka","dia"],"a":1}
+{"id":"intro.k1","lesson":"intro","o":["Apa nama Anda?","Siapa nama Anda?","Nama apa Anda?","Anda siapa nama?"],"a":1}
+{"id":"intro.k2","lesson":"intro","o":["Saya punya dua puluh lima tahun.","Saya adalah dua puluh lima tahun.","Umur saya dua puluh lima tahun.","Dua puluh lima saya tahun."],"a":2}
+{"id":"intro.k3","lesson":"intro","o":["Saya dari Amerika.","Saya adalah dari Amerika.","Saya di Amerika dari.","Dari saya Amerika."],"a":0}
+{"id":"no-be.k1","lesson":"no-be","o":["Saya adalah capek.","Saya capek.","Saya ada capek.","Capek adalah saya."],"a":1}
+{"id":"no-be.k2","lesson":"no-be","o":[null,null,null,null],"a":2}
+{"id":"no-be.k3","lesson":"no-be","o":[null,null,null,null],"a":0}
+{"id":"ini-itu.k1","lesson":"ini-itu","o":["ini buku","buku ini","buku itu","itu buku"],"a":1}
+{"id":"ini-itu.k2","lesson":"ini-itu","o":[null,null,null,null],"a":0}
+{"id":"ini-itu.k3","lesson":"ini-itu","o":[null,null,null,null],"a":2}
+{"id":"noun-adj.k1","lesson":"noun-adj","o":["baru mobil","mobil baru","mobil adalah baru","baru adalah mobil"],"a":1}
+{"id":"noun-adj.k2","lesson":"noun-adj","o":["Rumah itu besar.","rumah besar itu","itu besar rumah","besar rumah itu"],"a":0}
+{"id":"noun-adj.k3","lesson":"noun-adj","o":[null,null,null,null],"a":2}
+{"id":"possession.k1","lesson":"possession","o":[null,null,null,null],"a":1}
+{"id":"possession.k2","lesson":"possession","o":[null,null,null,null],"a":2}
+{"id":"possession.k3","lesson":"possession","o":["teman saya mobil","mobil teman saya","saya teman mobil","mobil saya teman"],"a":1}
+{"id":"questions.k1","lesson":"questions","o":["Siapa mobil ini?","Mobil siapa ini?","Ini siapa mobil?","Siapa punya ini mobil?"],"a":1}
+{"id":"questions.k2","lesson":"questions","o":["Di mana kamu pergi?","Dari mana kamu pergi?","Kamu pergi di mana?","Ke mana kamu pergi?"],"a":3}
+{"id":"questions.k3","lesson":"questions","o":[null,null,null,null],"a":0}
+{"id":"negation.k1","lesson":"negation","o":["Saya tidak guru.","Saya bukan guru.","Saya adalah tidak guru.","Saya guru bukan."],"a":1}
+{"id":"negation.k2","lesson":"negation","o":["tidak","bukan","adalah","ya"],"a":0}
+{"id":"negation.k3","lesson":"negation","o":["Ya.","Jangan.","Bukan.","Adalah."],"a":2}
+{"id":"numbers.k1","lesson":"numbers","o":["satu ratus","sepuluh","seribu","seratus"],"a":3}
+{"id":"numbers.k2","lesson":"numbers","o":["lima belas ribu rupiah","lima puluh ribu rupiah","lima belas rupiah","lima belas ratus rupiah"],"a":0}
+{"id":"numbers.k3","lesson":"numbers","o":["dua besar rumah","dua rumah besar","besar dua rumah","rumah-rumah besar dua"],"a":1}
+{"id":"time.k1","lesson":"time","o":[null,null,null,null],"a":1}
+{"id":"time.k2","lesson":"time","o":[null,null,null,null],"a":2}
+{"id":"time.k3","lesson":"time","o":["Jam berapa?","Berapa jam?","Jam apa?","Berapa tiga?"],"a":0}
+{"id":"ada.k1","lesson":"ada","o":["Adalah apotek di dekat sini.","Apotek adalah di dekat sini.","Ada apotek di dekat sini.","Punya apotek di dekat sini."],"a":2}
+{"id":"ada.k2","lesson":"ada","o":["Tidak ada.","Bukan ada.","Tidak adalah.","Jangan ada."],"a":0}
+{"id":"ada.k3","lesson":"ada","o":[null,null,null,null],"a":1}
+{"id":"prepositions.k1","lesson":"prepositions","o":["Saya pergi di Bali.","Saya pergi dari Bali.","Saya ke pergi Bali.","Saya pergi ke Bali."],"a":3}
+{"id":"prepositions.k2","lesson":"prepositions","o":["Kamu pergi ke mana?","Di mana kamu pergi?","Dari mana kamu pergi?","Kamu pergi di mana?"],"a":0}
+{"id":"prepositions.k3","lesson":"prepositions","o":["dirumah","di rumah","di-rumah","de rumah"],"a":1}
+{"id":"family.k1","lesson":"family","o":[null,null,null,null],"a":2}
+{"id":"family.k2","lesson":"family","o":["Belum.","Tidak.","Bukan.","Jangan."],"a":0}
+{"id":"family.k3","lesson":"family","o":["saya kakak laki-laki","adik laki-laki saya","laki-laki kakak saya","kakak laki-laki saya"],"a":3}
+{"id":"time-words.k1","lesson":"time-words","o":["Saya tidak makan.","Saya belum makan.","Saya bukan makan.","Saya akan makan."],"a":1}
+{"id":"time-words.k2","lesson":"time-words","o":["sudah","akan","pernah","sedang"],"a":3}
+{"id":"time-words.k3","lesson":"time-words","o":["masih","sudah","pernah","belum"],"a":0}
+{"id":"ber.k1","lesson":"ber","o":["berkerja","bekerja","mekerja","kerjaber"],"a":1}
+{"id":"ber.k2","lesson":"ber","o":["membaca","makan","berenang","tinggal"],"a":2}
+{"id":"ber.k3","lesson":"ber","o":[null,null,null,null],"a":0}
+{"id":"me.k1","lesson":"me","o":["mengbaca","mebaca","membaca","menbaca"],"a":2}
+{"id":"me.k2","lesson":"me","o":["menulis","mentulis","metulis","menyulis"],"a":0}
+{"id":"me.k3","lesson":"me","o":["mengkirim","memkirim","mekirim","mengirim"],"a":3}
+{"id":"modals.k1","lesson":"modals","o":["Saya mau pergi.","Saya mau untuk pergi.","Saya pergi mau.","Saya mau ke pergi."],"a":0}
+{"id":"modals.k2","lesson":"modals","o":["Saya harus masuk?","Saya perlu masuk?","Boleh saya masuk?","Saya mau untuk masuk?"],"a":2}
+{"id":"modals.k3","lesson":"modals","o":[null,null,null,null],"a":1}
+{"id":"requests.k1","lesson":"requests","o":["Tidak pergi!","Bukan pergi!","Jangan pergi!","Belum pergi!"],"a":2}
+{"id":"requests.k2","lesson":"requests","o":["Minta es teh satu, Mas.","Silakan es teh satu, Mas.","Jangan es teh satu, Mas.","Ayo es teh satu, Mas."],"a":0}
+{"id":"requests.k3","lesson":"requests","o":[null,null,null,null],"a":1}
+{"id":"yang.k1","lesson":"yang","o":["yang orang tinggal di sini","orang yang tinggal di sini","orang siapa tinggal di sini","orang tinggal yang di sini"],"a":1}
+{"id":"yang.k2","lesson":"yang","o":[null,null,null,null],"a":3}
+{"id":"yang.k3","lesson":"yang","o":["buku yang saya beli kemarin","buku saya beli kemarin","yang buku saya beli kemarin","saya beli buku kemarin"],"a":0}
+{"id":"passive.k1","lesson":"passive","o":["Kamarnya sudah di pesan.","Kamarnya sudah memesan.","Kamarnya adalah dipesan.","Kamarnya sudah dipesan."],"a":3}
+{"id":"passive.k2","lesson":"passive","o":["dimembeli","dibeli","dimbeli","di beli"],"a":1}
+{"id":"passive.k3","lesson":"passive","o":["di makan di rumah","dimakan dirumah","dimakan di rumah","di makan dirumah"],"a":2}
+{"id":"compare.k1","lesson":"compare","o":["Ini murahan.","Ini lebih murah.","Ini paling murah.","Ini murah lebih."],"a":1}
+{"id":"compare.k2","lesson":"compare","o":[null,null,null,null],"a":2}
+{"id":"compare.k3","lesson":"compare","o":["terlalu mahal","sangat mahal","paling mahal","lebih mahal"],"a":0}
+{"id":"directions.k1","lesson":"directions","o":["Belok kiri.","Belok kanan.","Lurus kanan.","Jalan kiri."],"a":1}
+{"id":"directions.k2","lesson":"directions","o":[null,null,null,null],"a":2}
+{"id":"directions.k3","lesson":"directions","o":[null,null,null,null],"a":0}
+{"id":"daily.k1","lesson":"daily","o":["Saya bangun jam enam.","Saya bangun enam jam.","Saya bangun setengah enam.","Saya tidur jam enam."],"a":0}
+{"id":"daily.k2","lesson":"daily","o":[null,null,null,null],"a":1}
+{"id":"daily.k3","lesson":"daily","o":[null,null,null,null],"a":2}
+{"id":"plural.k1","lesson":"plural","o":["tiga buku-buku","tiga buku","buku-buku tiga","tiga-tiga buku"],"a":1}
+{"id":"plural.k2","lesson":"plural","o":[null,null,null,null],"a":2}
+{"id":"plural.k3","lesson":"plural","o":["kupu-kupu","anak-anak","buku-buku","rumah-rumah"],"a":0}
+{"id":"casual.k1","lesson":"casual","o":["bukan","tidak","belum","jangan"],"a":1}
+{"id":"casual.k2","lesson":"casual","o":[null,null,null,null],"a":2}
+{"id":"casual.k3","lesson":"casual","o":["Bu, saya belum selesai.","Bu, gue belum kelar.","Bu, aku udah nggak bisa.","Bu, kok gitu sih?"],"a":0}

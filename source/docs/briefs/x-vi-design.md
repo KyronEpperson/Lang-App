@@ -5,9 +5,7 @@
 - `validate.js en vi`: 0 errors.
 - Every half-built pack re-assembles byte-identically.
 
-No native half exists yet. Nothing in `packs/` was written.
-
-**Update 2026-11-27 (2.140.0):** the unmarked Vietnamese of §3 is marked. `tools/target/vi/marks.extra.jsonl` holds hand-set spans per field, `export_target.js` reads it, and `unmarked.tsv` is empty (§3a). `mk_native.js` is reworded and hands writers the spans. The engine check ran on a stand-in es-vi pack (§5).
+No native half exists yet. Nothing in `packs/` or `tools/target/vi/` was written.
 
 ## 1. The marks model
 
@@ -108,30 +106,17 @@ Typical plain-field cases:
 
 The en-vi source is unchanged. Any markup edit, even a "safe" `<b>`, changes the regenerated pack and would make `packs/course-en-vi.js` stale. The en-vi team should mark these, then run `export_target.js vi` again.
 
-## 3a. Hand-set spans (2026-11-27): how §3 was closed
-
-Decision: a list kept by hand beside the course, not markup in the source. Plain fields have no markup, and any edit to the source would change the live pack.
-
-- `tools/target/vi/marks.extra.jsonl`: one row per native field, `{f, id, k, spans, not}`. `spans` is Vietnamese text of that field that no rule can prove; `not` lists words with a Vietnamese diacritic that are not Vietnamese (café, goût).
-- `viMarks(kind, text, own, extra)` marks every free whole-word occurrence of each span, longest first, **before** the row's own words, so a phrase stays one span. A span that occurs nowhere is returned in `extraMissing`.
-- `export_target.js vi` stops on a row that names no field, a span that is not in its field, or a field that does not hold its own spans. `HALVES_MARKS_DUMP=<file>` writes every scanned field with its marked ranges.
-- `node tools/halves/marks_propose.js vi [--write]` drafts the file: a run of syllables joined by single spaces around a strong word (a word with a diacritic, or a judged plain word), cut at everyday-English spellings that no neighbour backs, and carried across words the rules already mark. Its judgement file is `tools/target/vi/marks.judged.json` (`words`, `runs`, `not`, `names`, `keep`, `cut`, `skip`). It prints what a person must judge.
-- Numbers: 889 rows, 1,340 spans (628 distinct). `marks.jsonl`: 1,586 fields, 4,819 spans. `unmarked.tsv`: 0 fields.
-- Still not protected: bare letters and rimes without a diacritic in running text (d, ay, nh), and a plain Vietnamese word that is also an everyday English spelling when it stands alone with no marked neighbour and was not judged.
-- `selftest.js`: a hand-set word altered in a native note is an error; the English half leaves nothing unmarked; a stale span stops the export.
-
 ## 4. What a native writer for `<n>-vi` must know
 
 - Keep every `<b>Vietnamese</b>` with its tags. Keep `td.k` cell text, pronunciation lines in `<i>`, `word (line)` pairs, and every Vietnamese word the row quotes from its own card or answers, exactly as written, including tone marks and capitals.
 - Translate the English around them freely. Glosses in `(…)` inside `td.k` cells are yours.
 - Unmarked Vietnamese (see `unmarked.tsv`) is not checked. Keep it anyway; the reviewer must compare it by eye.
 - The pronunciation line is an **English-reader respelling** (`dtohy`, `er` "with no r"). A Spanish or French reader misreads it. The writer's early lessons must say how to read it, as en-ko's README does for Revised Romanization.
-- `mk_native.js <n> --target vi` runs (4 balanced work files, 12 wU rows). Since 2.140.0 its README and `REPEATS.md` speak of Vietnamese and the learner's language, each work row carries `"keep"` (the spans of that field) and each lesson body has `<id>.keep.txt`.
+- `mk_native.js <n> --target vi` runs (tested in scratch: 4 balanced work files, 12 wU rows). Its README and `REPEATS.md` heading still speak of Chinese, Han and pinyin. Reword them before the first vi scaffold.
 
 ## 5. Open
 
-- ~~Source marking of the 793 fields~~ Done 2026-11-27 with a per-row span list (§3a).
-- **Engine check done 2026-11-27** on a stand-in es-vi pack (English text with a prefix): 28 lessons render, 90 tiles, 392 practice items accept their own answers, five tabs, no page errors. The points below were not judged by a learner.
+- **Source marking** of the 793 fields above (en-vi team). Plain-text fields have no markup at all. A note can only be protected through the row's own text or a `word (line)` pair. A convention, or a per-row span list read by the exporter, would close the gap.
 - **Engine, for a non-English learner of a Latin-script target** (step 5 not run):
   - the English respelling line;
   - "almost" credit for missing marks;

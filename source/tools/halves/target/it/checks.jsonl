@@ -1,0 +1,72 @@
+{"id":"sounds.k1","lesson":"sounds","o":[null,null,null,null],"a":0}
+{"id":"sounds.k2","lesson":"sounds","o":[null,null,null,null],"a":2}
+{"id":"sounds.k3","lesson":"sounds","o":[null,null,null,null],"a":1}
+{"id":"greetings.k1","lesson":"greetings","o":["Ciao, come stai?","Buongiorno, come sta?","Buongiorno, come stai?","Ciao, come sta?"],"a":1}
+{"id":"greetings.k2","lesson":"greetings","o":[null,null,null,null],"a":0}
+{"id":"greetings.k3","lesson":"greetings","o":[null,null,null,null],"a":2}
+{"id":"gender.k1","lesson":"gender","o":["la problema","il problema","le problema","i problema"],"a":1}
+{"id":"gender.k2","lesson":"gender","o":["le chiave","la chiavi","le chiavi","i chiavi"],"a":2}
+{"id":"gender.k3","lesson":"gender","o":[null,null,null,null],"a":0}
+{"id":"articles.k1","lesson":"articles","o":["il","lo","la","l'"],"a":1}
+{"id":"articles.k2","lesson":"articles","o":["i amici","le amici","gli amici","l'amici"],"a":2}
+{"id":"articles.k3","lesson":"articles","o":["Mi piace il caffè.","Mi piace caffè.","Mi piace un caffè.","Mi piace lo caffè."],"a":0}
+{"id":"pronouns.k1","lesson":"pronouns","o":[null,null,null,null],"a":1}
+{"id":"pronouns.k2","lesson":"pronouns","o":["Come stai?","Come sta?","Come state?","Come stanno?"],"a":2}
+{"id":"pronouns.k3","lesson":"pronouns","o":[null,null,null,null],"a":0}
+{"id":"essere-avere.k1","lesson":"essere-avere","o":["Sono fame.","Ho fame.","È fame.","Ha fame."],"a":1}
+{"id":"essere-avere.k2","lesson":"essere-avere","o":[null,null,null,null],"a":0}
+{"id":"essere-avere.k3","lesson":"essere-avere","o":["sono","siamo","siete","sei"],"a":2}
+{"id":"adjectives.k1","lesson":"adjectives","o":[null,null,null,null],"a":1}
+{"id":"adjectives.k2","lesson":"adjectives","o":["le camicie bianchi","le bianche camicie","le camicie bianche","la camicie bianca"],"a":2}
+{"id":"adjectives.k3","lesson":"adjectives","o":["verde","rosso","nero","bianco"],"a":0}
+{"id":"present.k1","lesson":"present","o":["parli","parla","parlate","parlo"],"a":1}
+{"id":"present.k2","lesson":"present","o":[null,null,null,null],"a":0}
+{"id":"present.k3","lesson":"present","o":["capono","capiscano","capiscono","capiano"],"a":2}
+{"id":"questions.k1","lesson":"questions","o":[null,null,null,null],"a":1}
+{"id":"questions.k2","lesson":"questions","o":["Quanti sorelle hai?","Quanto sorelle hai?","Quante sorelle hai?","Quanta sorelle hai?"],"a":2}
+{"id":"questions.k3","lesson":"questions","o":["Qual è il problema?","Qual'è il problema?","Quale'è il problema?","Quali è il problema?"],"a":0}
+{"id":"ce.k1","lesson":"ce","o":["C'è due banche in centro.","Ci sono due banche in centro.","Sono due banche in centro.","Ci è due banche in centro."],"a":1}
+{"id":"ce.k2","lesson":"ce","o":["È farmacia in centro.","Ci sono la farmacia in centro.","C'è farmacia in centro.","La farmacia è in centro."],"a":3}
+{"id":"ce.k3","lesson":"ce","o":[null,null,null,null],"a":2}
+{"id":"numbers.k1","lesson":"numbers","o":["È le cinque.","Sono le cinque.","Sono la cinque.","È cinque."],"a":1}
+{"id":"numbers.k2","lesson":"numbers","o":["ventiotto","vent'otto","ventotto","ventotte"],"a":2}
+{"id":"numbers.k3","lesson":"numbers","o":["dieci euro","dieci euri","dieci euros","dieci euroi"],"a":0}
+{"id":"possessives.k1","lesson":"possessives","o":["suo sorella","sua sorella","la sua sorella","la suo sorella"],"a":1}
+{"id":"possessives.k2","lesson":"possessives","o":["la mia madre","mio madre","il mio madre","mia madre"],"a":3}
+{"id":"possessives.k3","lesson":"possessives","o":[null,null,null,null],"a":2}
+{"id":"prepositions.k1","lesson":"prepositions","o":["Vado alla banca.","Vado in banca.","Vado a banca.","Vado nella banca."],"a":1}
+{"id":"prepositions.k2","lesson":"prepositions","o":["dello","dal","dil","del"],"a":3}
+{"id":"prepositions.k3","lesson":"prepositions","o":[null,null,null,null],"a":0}
+{"id":"irregular.k1","lesson":"irregular","o":["Oggi è caldo.","Oggi ha caldo.","Oggi fa caldo.","Oggi sta caldo."],"a":2}
+{"id":"irregular.k2","lesson":"irregular","o":["Vengo!","Vado!","Viene!","Faccio!"],"a":0}
+{"id":"irregular.k3","lesson":"irregular","o":["vado","andano","andiamo","vanno"],"a":3}
+{"id":"modals.k1","lesson":"modals","o":["Puoi aiutarmi?","Può aiutarmi?","Posso aiutarmi?","Voglio aiuto."],"a":1}
+{"id":"modals.k2","lesson":"modals","o":["Voglio…","Devo…","Posso volere…","Vorrei…"],"a":3}
+{"id":"modals.k3","lesson":"modals","o":["Luisa sa suonare il piano.","Luisa può suonare il piano.","Luisa deve suonare il piano.","Luisa vuole suonare il piano."],"a":0}
+{"id":"piacere.k1","lesson":"piacere","o":["Mi piace le scarpe.","Io piaccio le scarpe.","Mi piacciono le scarpe.","Mi piacciono scarpe."],"a":2}
+{"id":"piacere.k2","lesson":"piacere","o":["Anche a me.","Anch'io.","Anche mi.","Neanche a me."],"a":0}
+{"id":"piacere.k3","lesson":"piacere","o":["Ti piace la musica?","Lei piace la musica?","Le piacciono la musica?","Le piace la musica?"],"a":3}
+{"id":"reflexive.k1","lesson":"reflexive","o":["Mi chiamo Emma.","Chiamo Emma.","Io chiamo Emma.","Mi chiama Emma."],"a":0}
+{"id":"reflexive.k2","lesson":"reflexive","o":["Ci alzo alle sette.","Si alziamo alle sette.","Ci alziamo alle sette.","Alziamo alle sette."],"a":2}
+{"id":"reflexive.k3","lesson":"reflexive","o":["Devo alzare alle sei.","Devo alzarmi alle sei.","Devo mi alzare alle sei.","Devo alzarsi alle sei."],"a":1}
+{"id":"lo-la.k1","lesson":"lo-la","o":["Lo","La","Li","Le"],"a":1}
+{"id":"lo-la.k2","lesson":"lo-la","o":["Le scarpe? Prendo le.","Le scarpe? Li prendo.","Le scarpe? Le prendo.","Le scarpe? Lo prendo."],"a":2}
+{"id":"lo-la.k3","lesson":"lo-la","o":["Posso provarlo?","Posso provarla?","Posso lo provare?","Posso provare lo?"],"a":0}
+{"id":"imperative.k1","lesson":"imperative","o":["Vorrei un caffè.","Voglio un caffè.","Io voglio caffè.","Vorrei uno caffè."],"a":0}
+{"id":"imperative.k2","lesson":"imperative","o":["Non tocca!","Non toccare!","Tocca non!","Non tocco!"],"a":1}
+{"id":"imperative.k3","lesson":"imperative","o":[null,null,null,null],"a":3}
+{"id":"passato.k1","lesson":"passato","o":["Visito Roma due anni fa.","Ho visitato Roma due anni fa.","Sono visitato Roma due anni fa.","Ho visitata Roma due anni fa."],"a":1}
+{"id":"passato.k2","lesson":"passato","o":["Che cosa fai sabato?","Che cosa ha fatto sabato?","Che cosa hai fatta sabato?","Che cosa hai fatto sabato?"],"a":3}
+{"id":"passato.k3","lesson":"passato","o":["prendere","perdere","pregare","provare"],"a":0}
+{"id":"passato-essere.k1","lesson":"passato-essere","o":["Ho andato a Firenze.","Sono andato a Firenze.","Sono andata a Firenze.","Sono andati a Firenze."],"a":1}
+{"id":"passato-essere.k2","lesson":"passato-essere","o":["Giulia ha arrivato ieri.","Giulia è arrivato ieri.","Giulia è arrivata ieri.","Giulia ha arrivata ieri."],"a":2}
+{"id":"passato-essere.k3","lesson":"passato-essere","o":["mangiare","andare","partire","tornare"],"a":0}
+{"id":"adverbs.k1","lesson":"adverbs","o":["È molto alta.","È molta alta.","È molte alta.","È alta molta."],"a":0}
+{"id":"adverbs.k2","lesson":"adverbs","o":["Ho molto amici.","Ho molti amici.","Ho molte amici.","Ho molta amici."],"a":1}
+{"id":"adverbs.k3","lesson":"adverbs","o":["Bevo mai il latte.","Mai non bevo il latte.","Non bevo mai il latte.","Non mai bevo il latte."],"a":2}
+{"id":"connectors.k1","lesson":"connectors","o":["Quando","Se","Perché","Allora"],"a":2}
+{"id":"connectors.k2","lesson":"connectors","o":["Anch'io.","Anche me.","Io anche.","Neanch'io."],"a":0}
+{"id":"connectors.k3","lesson":"connectors","o":["Si, vengo.","Sì, vengo.","Se, vengo.","Sé, vengo."],"a":1}
+{"id":"sapere-conoscere.k1","lesson":"sapere-conoscere","o":["Sai Giulia?","Conosci Giulia?","Conosce Giulia?","Sapete Giulia?"],"a":1}
+{"id":"sapere-conoscere.k2","lesson":"sapere-conoscere","o":["So nuotare.","Conosco nuotare.","Sono nuotare.","Conosco a nuotare."],"a":0}
+{"id":"sapere-conoscere.k3","lesson":"sapere-conoscere","o":[null,null,null,null],"a":2}

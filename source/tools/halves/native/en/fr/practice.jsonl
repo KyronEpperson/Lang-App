@@ -1,0 +1,392 @@
+{"id":"sounds.01","q":"Which word ends in a sounded consonant?","why":"c is one of the careful letters, so the c of sac is sounded; the t of chat and lit and the s of Paris are silent."}
+{"id":"sounds.02","q":"Which word has the vowel of English food?","why":"ou sounds like the oo in food; u (la rue) is ee said with rounded lips."}
+{"id":"sounds.03","q":"Which word has a nasal vowel?","why":"on at the end of a word is a nasal vowel: the n is not pronounced."}
+{"id":"sounds.04","q":"In les amis, what do you hear between les and amis?","o":["a z sound","an s sound","nothing, a short pause","a t sound"],"why":"Liaison: the silent s of les is said as z before a vowel."}
+{"id":"sounds.05","q":"How do you write the water? (eau takes la)","why":"Elision: la drops its vowel before a vowel, so it is l'eau."}
+{"id":"sounds.06","p":"the friends","why":"amis is a plural noun, so it takes the plural article les, not le."}
+{"id":"sounds.07","p":"the key","why":"clé is feminine, so its word for the is la."}
+{"id":"sounds.08","p":"the cat","why":"chat is masculine, so its word for the is le."}
+{"id":"sounds.09","p":"the street","why":"the street is la rue, with u; la roue, with ou, is the wheel."}
+{"id":"sounds.10","p":"the wine","why":"the wine is le vin; le vent (with en) is the wind."}
+{"id":"sounds.11","p":"the friends","why":"More than one friend, so the plural les."}
+{"id":"sounds.12","p":"the keys","hint":"clé · add -s for more than one","why":"clés is a plural noun, so the article agrees: les clés."}
+{"id":"sounds.13","p":"the street","hint":"rue · feminine","why":"rue is feminine, so the article agrees: la rue."}
+{"id":"sounds.14","p":"the school","hint":"école · starts with a vowel","why":"Elision: la becomes l' before a vowel, so l'école."}
+{"id":"greetings.01","q":"You walk into a bakery. What do you say first?","why":"Always start with bonjour, plus madame or monsieur, before you ask for anything."}
+{"id":"greetings.02","q":"Which one do you say to a stranger?","why":"Excusez-moi is the vous version, for people you don't know."}
+{"id":"greetings.03","q":"It's 8 p.m. You meet your neighbor. You say:","why":"Bonsoir is the evening hello; bonne nuit is for bedtime and bonne soirée for when you leave."}
+{"id":"greetings.04","q":"Thank you very much =","why":"beaucoup (a lot) goes after merci; très is never used with merci."}
+{"id":"greetings.05","q":"How does a woman write Nice to meet you?","why":"A woman adds -e: enchantée. Enchantées is for several women."}
+{"id":"greetings.06","p":"Have a nice day!","why":"journée is feminine, so good agrees with it: bonne, not bon."}
+{"id":"greetings.07","p":"Have a nice evening!","why":"soirée is feminine, so good agrees: bonne soirée."}
+{"id":"greetings.08","p":"How are you? (to a stranger)","why":"To a stranger, use vous, and aller takes the vous form: allez-vous."}
+{"id":"greetings.09","p":"Have a nice evening!","why":"soirée is one feminine thing, so bonne."}
+{"id":"greetings.10","p":"Please. (to a stranger)","why":"To a stranger, please is s'il vous plaît; s'il te plaît is for friends."}
+{"id":"greetings.11","p":"Thank you very much.","why":"merci beaucoup = thank you very much."}
+{"id":"greetings.12","p":"Nice to meet you. (said by a woman)","hint":"enchanté · add -e for a woman","why":"A woman writes enchantée: the -e agrees with a feminine speaker."}
+{"id":"greetings.13","p":"How are you? (to a stranger, use comment)","hint":"comment · allez-vous","why":"To a stranger, aller takes the vous form: allez-vous."}
+{"id":"greetings.14","p":"Excuse me. (to a stranger)","hint":"excusez · moi","why":"Use the polite form with a stranger: excusez-moi."}
+{"id":"articles.01","q":"table is feminine. the table =","why":"table is feminine, so it takes la."}
+{"id":"articles.02","q":"How do you write the school? (école is feminine)","why":"Before a vowel, la becomes l': l'école."}
+{"id":"articles.03","q":"a bed =","why":"lit is masculine and singular, so a bed is un lit."}
+{"id":"articles.04","q":"some keys =","why":"More than one key: des, and clé takes -s."}
+{"id":"articles.05","q":"Which two sound exactly the same?","o":["chaise and chaises","la and les","un and une","le and les"],"why":"The plural -s is silent: chaise and chaises sound alike, so listen for the article."}
+{"id":"articles.06","p":"a bed","why":"lit is masculine, so a bed is un lit, not une."}
+{"id":"articles.07","p":"chairs (some chairs)","why":"chaises is a plural noun, so it takes the plural article des."}
+{"id":"articles.08","p":"the bedroom window","why":"fenêtre and chambre are both feminine, so both take la."}
+{"id":"articles.09","p":"a school","why":"école is feminine and singular, so a school is une école."}
+{"id":"articles.10","p":"the apartment","why":"Before a vowel, le and la become l'."}
+{"id":"articles.11","p":"houses (some houses)","why":"maisons is a plural noun, so the article is des."}
+{"id":"articles.12","p":"the kitchen","hint":"cuisine · feminine","why":"cuisine is feminine, so the article agrees: la cuisine."}
+{"id":"articles.13","p":"a house","hint":"maison · feminine","why":"maison is feminine, so a is une: une maison."}
+{"id":"articles.14","p":"beds (some beds)","hint":"lit · add -s for more than one","why":"lits is a plural noun, so the article is the plural des."}
+{"id":"etre-avoir.01","q":"I'm hungry =","why":"Hunger uses avoir: literally, I have hunger."}
+{"id":"etre-avoir.02","q":"I'm twenty years old =","why":"Age uses avoir, and you always say ans."}
+{"id":"etre-avoir.03","q":"nous ___ (être)","why":"With nous, être is sommes."}
+{"id":"etre-avoir.04","q":"Which one means you have, to a stranger?","why":"With vous, avoir is avez."}
+{"id":"etre-avoir.05","q":"They have a cat =","why":"ont (with a z sound after ils) is have; sont is are."}
+{"id":"etre-avoir.06","p":"We are in Paris (use nous)","why":"With nous, use the nous form of être: sommes."}
+{"id":"etre-avoir.07","p":"You have a cat (to a friend)","why":"With tu, use the tu form of avoir: as, not a."}
+{"id":"etre-avoir.08","p":"She is cold","why":"Feeling cold uses avoir, not être: elle a froid."}
+{"id":"etre-avoir.09","p":"You're late.","why":"With vous, être is êtes."}
+{"id":"etre-avoir.10","p":"He's twenty-five.","why":"Age uses avoir; with il it is a."}
+{"id":"etre-avoir.11","p":"We have a house in Lyon.","why":"With nous, avoir is avons."}
+{"id":"etre-avoir.12","p":"I'm hungry.","hint":"avoir · faim (hunger)","why":"Hunger uses avoir, and the je form is ai: j'ai faim."}
+{"id":"etre-avoir.13","p":"We have a cat. (use nous)","hint":"avoir · un chat","why":"The nous form of avoir is avons."}
+{"id":"etre-avoir.14","p":"You're late. (to a stranger)","hint":"être · en retard","why":"To a stranger, être takes the vous form: vous êtes."}
+{"id":"pronouns.01","q":"Who's late? Me! =","why":"A pronoun alone is a stress pronoun: moi."}
+{"id":"pronouns.02","q":"with you (a friend) =","why":"After avec, use the stress pronoun toi."}
+{"id":"pronouns.03","q":"for him =","why":"After pour, him is lui; eux means them."}
+{"id":"pronouns.04","q":"In conversation, on a faim means:","o":["We're hungry.","They're hungry.","I'm hungry.","She's hungry."],"why":"on is the everyday we: on a faim = we're hungry."}
+{"id":"pronouns.05","q":"We have a cat. (use on) =","why":"on takes the same form as il: on a."}
+{"id":"pronouns.06","p":"We're at home. (use on)","why":"on takes the il form: on est, not on sommes."}
+{"id":"pronouns.07","p":"They are with me. (a group of men)","why":"ils takes the ils form of être, sont; after avec, use moi."}
+{"id":"pronouns.08","p":"It's me.","why":"After c'est, use the stress pronoun moi."}
+{"id":"pronouns.09","p":"And you? (to a friend)","why":"Et toi? uses the stress pronoun toi."}
+{"id":"pronouns.10","p":"We're late.","why":"on takes the il form of être: on est."}
+{"id":"pronouns.11","p":"I'm with them. (a group of men)","why":"After avec, them is eux for men or a mixed group."}
+{"id":"pronouns.12","p":"We're hungry. (use on)","hint":"avoir · faim","why":"on takes the il form of avoir: on a faim."}
+{"id":"pronouns.13","p":"We're with him. (use nous)","hint":"être · avec · him","why":"The nous form of être is sommes; after avec, him is lui."}
+{"id":"pronouns.14","p":"And you? (to a friend)","hint":"et · you","why":"Et toi? needs the stress pronoun toi, not tu."}
+{"id":"adjectives.01","q":"the white shirt =","why":"chemise is feminine, and the color goes after it in the feminine form."}
+{"id":"adjectives.02","q":"a red dress =","why":"Colors go after the noun; rouge already ends in -e."}
+{"id":"adjectives.03","q":"a small house =","why":"petit goes before the noun and agrees with maison: petite."}
+{"id":"adjectives.04","q":"Les chaussures sont ___. (black)","why":"chaussures is feminine plural, so noir takes -es."}
+{"id":"adjectives.05","q":"Which pair sounds different?","why":"In verte, the t is heard; the other pairs sound the same."}
+{"id":"adjectives.06","p":"the white shirt","why":"chemise is feminine, so the adjective agrees: blanche."}
+{"id":"adjectives.07","p":"the black shoes","why":"chaussures is feminine plural, so the adjective agrees: noires."}
+{"id":"adjectives.08","p":"The jacket is green.","why":"veste is feminine, so the adjective agrees after être too: verte."}
+{"id":"adjectives.09","p":"a white dress","why":"robe is feminine singular: blanche."}
+{"id":"adjectives.10","p":"a green sweater","why":"pull is masculine singular: vert, with no ending."}
+{"id":"adjectives.11","p":"a small house","why":"maison is feminine singular: petite."}
+{"id":"adjectives.12","p":"the white shirt","hint":"chemise · blanc","why":"chemise is feminine, so the adjective agrees: blanche."}
+{"id":"adjectives.13","p":"The shoes are black.","hint":"chaussures · être · noir","why":"chaussures is feminine plural, so noir agrees: noires."}
+{"id":"adjectives.14","p":"a small house","hint":"petit · maison","why":"maison is feminine, so petit agrees: une petite maison."}
+{"id":"present.01","q":"We speak French. (use nous) =","why":"With nous, the ending is -ons: parlons."}
+{"id":"present.02","q":"I'm working. =","why":"The French present already means I'm working: no être."}
+{"id":"present.03","q":"Which one sounds different from the other three?","why":"parle, parles and parlent sound the same; the -ez of parlez is heard."}
+{"id":"present.04","q":"nous ___ (manger)","why":"manger keeps its e before -ons: mangeons."}
+{"id":"present.05","q":"I've been studying French for two years. =","why":"For something still going on, French uses the present with depuis."}
+{"id":"present.06","p":"They work in Paris. (use ils)","why":"With ils, the verb ending is -ent: travaillent."}
+{"id":"present.07","p":"You speak French. (to a stranger)","why":"To a stranger, use vous and the vous form: parlez."}
+{"id":"present.08","p":"We're looking for an apartment. (use nous)","why":"The nous form ends in -ons, and chercher already means look for: no pour."}
+{"id":"present.09","p":"You work in Paris.","why":"The tu form ends in -s: tu travailles."}
+{"id":"present.10","p":"We start at eight.","why":"The nous form ends in -ons, with ç: commençons."}
+{"id":"present.11","p":"They're listening to the radio.","why":"With elles, the verb ending is -ent: écoutent."}
+{"id":"present.12","p":"We speak French. (use nous)","hint":"parler · français","why":"The nous form ends in -ons: nous parlons."}
+{"id":"present.13","p":"They live in Paris. (use ils)","hint":"habiter · à Paris","why":"With ils, the verb ending is -ent: ils habitent."}
+{"id":"present.14","p":"I'm working.","hint":"travailler","why":"No être for -ing: the je form travaille already means I'm working."}
+{"id":"negation.01","q":"I don't speak German. =","why":"ne goes before the verb and pas after it."}
+{"id":"negation.02","q":"I don't have a car. =","why":"After a negative, une becomes de, and ne becomes n' before ai."}
+{"id":"negation.03","q":"Il ne travaille jamais means:","o":["He never works.","He doesn't work anymore.","He doesn't work yet.","He works a lot."],"why":"ne … jamais = never; ne … plus would be not anymore."}
+{"id":"negation.04","q":"I'm not hungry. =","why":"Hunger uses avoir, and ne … pas wraps ai."}
+{"id":"negation.05","q":"She isn't tired. =","why":"n' before est, pas right after it, and fatiguée agrees with elle."}
+{"id":"negation.06","p":"We're not tired. (use nous; a group of men)","why":"With nous, the adjective agrees in the plural: fatigués."}
+{"id":"negation.07","p":"She isn't happy.","why":"elle is feminine, so the adjective agrees: contente."}
+{"id":"negation.08","p":"They don't speak English. (use ils)","why":"With ils, the verb ending is -ent, inside ne … pas: ne parlent pas."}
+{"id":"negation.09","p":"I don't have a car.","why":"After a negative verb, une becomes de."}
+{"id":"negation.10","p":"We're not sick.","why":"With nous, être is sommes; ne … pas goes around it."}
+{"id":"negation.11","p":"I don't work on Mondays.","why":"Before a consonant, it is ne, not n'."}
+{"id":"negation.12","p":"I'm not hungry.","hint":"avoir · faim · ne … pas","why":"Hunger uses avoir: ne … pas wraps ai, the je form."}
+{"id":"negation.13","p":"We don't have a car. (use nous)","hint":"avoir · voiture · ne … pas","why":"The nous form avons goes inside ne … pas, and une becomes de."}
+{"id":"negation.14","p":"She isn't tired.","hint":"être · fatigué · ne … pas","why":"elle is feminine, so the adjective agrees: fatiguée."}
+{"id":"questions.01","q":"Do you speak English? (to a friend, use est-ce que) =","why":"No word for do: est-ce que + tu parles, with the -s of the tu form."}
+{"id":"questions.02","q":"Where do you live? (to a friend) =","why":"Question word + est-ce que + the normal sentence; no do."}
+{"id":"questions.03","q":"___ heure est-il? (heure is feminine)","why":"heure is feminine singular, so quelle."}
+{"id":"questions.04","q":"Parlez-vous anglais? means:","o":["Do you speak English?","Speak English!","You speak English.","Are you English?"],"why":"Inversion (verb, hyphen, subject) makes a question."}
+{"id":"questions.05","q":"Which word asks how much or how many?","why":"combien = how much, how many; comment = how."}
+{"id":"questions.06","p":"Which shoes? (chaussures)","why":"chaussures is feminine plural, so quel agrees: quelles."}
+{"id":"questions.07","p":"Where do you work? (to a stranger, use est-ce que)","why":"To a stranger, use vous and the vous form: travaillez."}
+{"id":"questions.08","p":"Why are they late? (use est-ce que and ils)","why":"With ils, être takes the ils form: sont."}
+{"id":"questions.09","p":"How old are you?","why":"âge is masculine singular, so quel."}
+{"id":"questions.10","p":"Does she work in Paris?","why":"Before a vowel, que becomes qu': est-ce qu'elle."}
+{"id":"questions.11","p":"Where do you live?","why":"Where is où, with an accent; ou means or."}
+{"id":"questions.12","p":"Do you speak French? (to a stranger, use est-ce que)","hint":"est-ce que · parler · français","why":"To a stranger, parler takes the vous form: vous parlez."}
+{"id":"questions.13","p":"Where do you live? (to a friend, use est-ce que)","hint":"où · est-ce que · habiter","why":"The tu form ends in -s: tu habites."}
+{"id":"questions.14","p":"Which dress? (robe)","hint":"quel · robe","why":"robe is feminine, so quel agrees: quelle robe."}
+{"id":"cest.01","q":"He's a doctor. =","why":"After il est, a job takes no article."}
+{"id":"cest.02","q":"It's a museum. =","why":"c'est + a noun with its article; il y a un musée means there's a museum."}
+{"id":"cest.03","q":"Is there a pharmacy near here? =","why":"there is = il y a, and the noun keeps its article."}
+{"id":"cest.04","q":"There's no bank. =","why":"After a negative, une becomes de: il n'y a pas de banque."}
+{"id":"cest.05","q":"Léa? ___ est sympa. (She's nice.)","why":"To describe a person, use il est or elle est; Léa is a woman, so elle."}
+{"id":"cest.06","p":"She's a nurse. (use elle)","why":"elle is feminine, so the job takes its feminine form: infirmière."}
+{"id":"cest.07","p":"There are two parks.","why":"deux needs a plural noun: parcs, with -s."}
+{"id":"cest.08","p":"It's a bakery.","why":"boulangerie is feminine, so the article is une."}
+{"id":"cest.09","p":"He's a doctor.","why":"A job with no article goes after il est, not c'est."}
+{"id":"cest.10","p":"There's a hotel here.","why":"hôtel is masculine and singular, and il y a takes un, une or des."}
+{"id":"cest.11","p":"There's no restroom.","why":"After a negative, des becomes de."}
+{"id":"cest.12","p":"It's a museum.","hint":"c'est · musée","why":"musée is masculine, so the article agrees: c'est un musée."}
+{"id":"cest.13","p":"There's a pharmacy.","hint":"il y a · pharmacie","why":"pharmacie is feminine, so the article agrees: une pharmacie."}
+{"id":"cest.14","p":"She's a doctor. (use elle)","hint":"être · médecin","why":"After elle est, a job takes no article: elle est médecin."}
+{"id":"possessives.01","q":"my sister =","why":"sœur is feminine and singular, so my is ma."}
+{"id":"possessives.02","q":"Thomas loves his mother: Thomas aime ___ mère.","why":"mère is feminine, so the word is sa, even though Thomas is a man."}
+{"id":"possessives.03","q":"my friend Camille (a woman) =","why":"Before a vowel, ma becomes mon; amie keeps its feminine -e."}
+{"id":"possessives.04","q":"this hotel =","why":"hôtel is masculine and starts with a silent h, so ce becomes cet."}
+{"id":"possessives.05","q":"their children (Monsieur and Madame Martin's children) =","why":"Several owners and several children: leurs, with an -s."}
+{"id":"possessives.06","p":"my parents","why":"parents is a plural noun, so the possessive is plural too: mes."}
+{"id":"possessives.07","p":"Léa and her brother","why":"The possessive agrees with frère, which is masculine: son frère, even though Léa is a woman."}
+{"id":"possessives.08","p":"This dress is pretty.","why":"robe is feminine, so cette and jolie both agree with it."}
+{"id":"possessives.09","p":"This is my friend Chloé.","why":"Before a vowel, ma becomes mon, even for a feminine noun."}
+{"id":"possessives.10","p":"These shoes are black.","why":"chaussures is plural, so this or these is ces."}
+{"id":"possessives.11","p":"My grandparents live in Nice. Their house is big.","why":"One house with several owners: leur, with no -s. sa would mean his or her."}
+{"id":"possessives.12","p":"our house","hint":"maison · one house","why":"maison is singular, so our is notre; nos goes with plural nouns."}
+{"id":"possessives.13","p":"Hugo and his sister","hint":"sœur (type œ or oe) · et","why":"The possessive agrees with sœur, which is feminine: sa, even though Hugo is a man."}
+{"id":"possessives.14","p":"Is this your room? (to a stranger)","hint":"c'est · chambre · vous","why":"chambre is singular, so the vous possessive is votre, not vos."}
+{"id":"numbers.01","q":"70 =","why":"70 is literally sixty-ten: soixante-dix."}
+{"id":"numbers.02","q":"80 =","why":"80 is four twenties: quatre-vingts."}
+{"id":"numbers.03","q":"It's two o'clock. =","why":"Time is il est + number + heures, with an -s after deux."}
+{"id":"numbers.04","q":"July 14 =","why":"French gives the day first, with le: le quatorze juillet."}
+{"id":"numbers.05","q":"€3.50 =","why":"Euros first, then the cents, and euros takes an -s after trois."}
+{"id":"numbers.06","p":"It's two o'clock.","why":"After deux, heure takes the plural ending: heures; il est stays singular."}
+{"id":"numbers.07","p":"twenty-one people","why":"personne is feminine, so the one in twenty-one agrees: vingt et une."}
+{"id":"numbers.08","p":"The apples cost two euros.","why":"pommes is plural, so the verb ending matches the subject: coûtent."}
+{"id":"numbers.09","p":"It's a quarter past eight.","why":"A quarter past is et quart; et demie is half past."}
+{"id":"numbers.10","p":"My birthday is May 1.","why":"The first of a month is le premier; other days use a plain number."}
+{"id":"numbers.11","p":"The concert starts at 8 p.m. (24-hour clock)","why":"On the 24-hour clock, 8 p.m. is vingt heures."}
+{"id":"numbers.12","p":"It's three o'clock.","hint":"être · heure","why":"After trois, heure takes the plural ending: heures."}
+{"id":"numbers.13","p":"twenty-one girls (in words)","hint":"vingt · un · fille","why":"fille is feminine, so the one in twenty-one agrees: vingt et une."}
+{"id":"numbers.14","p":"I'm twenty-one. (in words)","hint":"avoir · vingt et un · an","why":"Age uses avoir, as in j'ai vingt et un ans, never je suis."}
+{"id":"partitive.01","q":"I'm eating some cheese. =","why":"Some with a masculine noun is du; de le always contracts to du."}
+{"id":"partitive.02","q":"I like coffee. =","why":"Liking is about coffee in general, so it takes le."}
+{"id":"partitive.03","q":"some water =","why":"Before a vowel, some is de l'."}
+{"id":"partitive.04","q":"There's no milk. =","why":"After ne … pas, du becomes de; il n'a pas de lait means he has no milk."}
+{"id":"partitive.05","q":"a lot of fruit =","why":"After beaucoup, just de."}
+{"id":"partitive.06","p":"I'm eating salad.","why":"salade is feminine, so some is de la, not du."}
+{"id":"partitive.07","p":"We're eating apples. (use nous)","why":"pommes is a plural noun, so some is des; and nous takes the nous form, mangeons."}
+{"id":"partitive.08","p":"I like cheese.","why":"After aimer, use le: you like cheese in general, not some cheese."}
+{"id":"partitive.09","p":"I'd like some bread.","why":"pain is masculine, and de + le contracts to du."}
+{"id":"partitive.10","p":"I'm having soup.","why":"soupe is feminine, so some is de la."}
+{"id":"partitive.11","p":"I don't have any brothers.","why":"After ne … pas, des becomes de."}
+{"id":"partitive.12","p":"some bread","hint":"pain (masculine) · some","why":"pain is masculine, and de + le contracts to du."}
+{"id":"partitive.13","p":"We're eating salad. (use nous)","hint":"manger · salade (feminine)","why":"salade is feminine, so some is de la; the nous form is mangeons."}
+{"id":"partitive.14","p":"I don't eat meat.","hint":"manger · viande · ne … pas","why":"After ne … pas, the partitive becomes just de: pas de viande."}
+{"id":"polite.01","q":"At a bakery, the most polite way to ask for a baguette:","why":"bonjour, je voudrais and s'il vous plaît, and baguette is feminine: une baguette."}
+{"id":"polite.02","q":"Could you help me? (to a stranger) =","why":"vous with a stranger, the ending -iez, and m'aider (help me) as one fixed piece."}
+{"id":"polite.03","q":"I'll have a coffee. (ordering) =","why":"After je vais, the next verb stays in the infinitive, with no à."}
+{"id":"polite.04","q":"Could I have the check? =","why":"je pourrais + avoir, and la becomes l' before a vowel."}
+{"id":"polite.05","q":"You walk into a small shop. What do you say first?","why":"Always greet staff with bonjour before asking; salut is for friends."}
+{"id":"polite.06","p":"I'd like a baguette.","why":"baguette is feminine, so the article agrees: une baguette."}
+{"id":"polite.07","p":"Could you help me? (to a stranger)","why":"With vous, the verb ending is -iez: vous pourriez, never vous pourrais."}
+{"id":"polite.08","p":"I'd like two croissants.","why":"After deux, croissant takes the plural ending -s, even though you can't hear it."}
+{"id":"polite.09","p":"I'd like a coffee with milk, please.","why":"I'd like is je voudrais; je veux means I want."}
+{"id":"polite.10","p":"Could you repeat that, please?","why":"With vous, the ending is -iez: vous pourriez."}
+{"id":"polite.11","p":"I'll have the salade niçoise.","why":"After je vais, the verb stays in the infinitive: prendre."}
+{"id":"polite.12","p":"I'd like a croissant, please. (at a bakery)","hint":"vouloir (je voudrais) · croissant","why":"croissant is masculine, so the article is un."}
+{"id":"polite.13","p":"Could you help me? (to a stranger)","hint":"pourriez · m'aider","why":"With vous, the verb ending is -iez: vous pourriez."}
+{"id":"polite.14","p":"Could I have the check? (use est-ce que)","hint":"pourrais · avoir · l'addition","why":"With je, the verb ending is -ais: je pourrais."}
+{"id":"prepositions.01","q":"I'm going to the movies. =","why":"cinéma is masculine, and à + le contracts to au."}
+{"id":"prepositions.02","q":"in France =","why":"France is a feminine country, so in is en."}
+{"id":"prepositions.03","q":"in Canada =","why":"Canada is a masculine country, so in is au."}
+{"id":"prepositions.04","q":"I live in the United States. =","why":"A plural country takes aux: à + les contract."}
+{"id":"prepositions.05","q":"I'm going to Lyon by train. =","why":"à before a city, en before a vehicle."}
+{"id":"prepositions.06","p":"I'm going to the movies.","why":"cinéma is masculine, so à + le contracts to au."}
+{"id":"prepositions.07","p":"I live in the United States.","why":"États-Unis is plural, so à + les contracts to aux."}
+{"id":"prepositions.08","p":"The keys are on the table.","why":"sur means on; sous means under."}
+{"id":"prepositions.09","p":"She works in Canada.","why":"Canada is a masculine country, so it takes au."}
+{"id":"prepositions.10","p":"The café is next to the museum.","why":"à côté de + le musée: de + le becomes du."}
+{"id":"prepositions.11","p":"I'm having dinner at Léa's.","why":"At someone's place is chez."}
+{"id":"prepositions.12","p":"I live in France.","hint":"habiter · France","why":"France is feminine, so in is en, not au."}
+{"id":"prepositions.13","p":"I'm going to the train station.","hint":"je vais · gare (feminine)","why":"gare is feminine, so à la stays as it is: no contraction."}
+{"id":"prepositions.14","p":"I go to work on foot.","hint":"je vais · travail · pied","why":"On foot is à pied; en is for things you ride in, like en train."}
+{"id":"irregular.01","q":"They're going to the beach. =","why":"aller is irregular: the ils form is vont."}
+{"id":"irregular.02","q":"The weather's nice. =","why":"Weather uses faire: il fait beau. Il est beau means he is handsome."}
+{"id":"irregular.03","q":"I'm from Chicago. (use venir) =","why":"venir de + a city, and the je form is viens."}
+{"id":"irregular.04","q":"We take the bus. (use nous) =","why":"prendre drops the d in the plural: nous prenons, with one n."}
+{"id":"irregular.05","q":"What are you doing on Saturday? (to a friend) =","why":"faire with tu is fais, with an -s."}
+{"id":"irregular.06","p":"We're going to the market. (use nous)","why":"With nous, aller takes the nous form: allons."}
+{"id":"irregular.07","p":"It's cold. (the weather)","why":"Weather uses faire: il fait froid."}
+{"id":"irregular.08","p":"They take the subway.","why":"The ils form of prendre is prennent, with a double n."}
+{"id":"irregular.09","p":"Do you play sports? (to a stranger)","why":"faire is irregular with vous: vous faites."}
+{"id":"irregular.10","p":"She's from Lyon.","why":"With elle, venir takes vient, with a t."}
+{"id":"irregular.11","p":"On Sundays, I go biking.","why":"faire du + activity: vélo is masculine, so de + le becomes du."}
+{"id":"irregular.12","p":"They're going to Paris. (a group of men)","hint":"aller · Paris","why":"The ils form of aller is vont: ils vont."}
+{"id":"irregular.13","p":"We're coming tonight. (use nous)","hint":"venir · ce soir","why":"The nous form of venir is venons."}
+{"id":"irregular.14","p":"It's hot today. (the weather)","hint":"faire · chaud · aujourd'hui","why":"Weather uses faire, not être: il fait chaud."}
+{"id":"modals.01","q":"Can I pay? =","why":"pouvoir in the je form (peux), then the infinitive payer."}
+{"id":"modals.02","q":"I have to leave. =","why":"devoir in the je form (dois), then the infinitive, with no à."}
+{"id":"modals.03","q":"I can swim. (I know how) =","why":"A learned skill uses savoir: je sais + infinitive."}
+{"id":"modals.04","q":"They want to eat. =","why":"vouloir with ils is veulent, and manger stays in the infinitive."}
+{"id":"modals.05","q":"I can't sleep. =","why":"ne … pas goes around peux, and dormir stays in the infinitive."}
+{"id":"modals.06","p":"Can you help me? (to a stranger)","why":"With vous, pouvoir takes the vous form: pouvez."}
+{"id":"modals.07","p":"We have to call a doctor. (use nous)","why":"The nous form of devoir is devons; appeler stays in the infinitive."}
+{"id":"modals.08","p":"Do you want a coffee? (to a friend)","why":"With tu, vouloir takes the tu form, veux; voulez goes with vous."}
+{"id":"modals.09","p":"He has to stay in bed.","why":"After devoir, the verb stays in the infinitive: rester."}
+{"id":"modals.10","p":"They can come tomorrow.","why":"pouvoir with elles is peuvent."}
+{"id":"modals.11","p":"Do you know how to drive?","why":"A learned skill uses savoir; with tu it's sais."}
+{"id":"modals.12","p":"I have to go to the pharmacy.","hint":"devoir · aller · pharmacie","why":"The je form of devoir is dois; aller stays in the infinitive."}
+{"id":"modals.13","p":"We want to visit the Louvre. (use nous)","hint":"vouloir · visiter · le Louvre","why":"The nous form of vouloir is voulons."}
+{"id":"modals.14","p":"Can I pay?","hint":"pouvoir · payer","why":"After pouvoir, the second verb stays in the infinitive: payer."}
+{"id":"futur-proche.01","q":"I'm going to visit Paris. =","why":"aller + infinitive, with no à in between."}
+{"id":"futur-proche.02","q":"It's going to rain. =","why":"The il form va, then the infinitive pleuvoir."}
+{"id":"futur-proche.03","q":"I'm not going to leave. =","why":"ne … pas goes around vais, and partir stays in the infinitive."}
+{"id":"futur-proche.04","q":"What are you going to do? (to a friend) =","why":"tu takes vas, and faire stays in the infinitive."}
+{"id":"futur-proche.05","q":"next week =","why":"semaine is feminine, so it's la semaine, and prochaine agrees."}
+{"id":"futur-proche.06","p":"They're going to take the train.","why":"Ils takes the ils form of aller, vont; prendre stays in the infinitive."}
+{"id":"futur-proche.07","p":"We're going to leave. (use nous)","why":"The nous form of aller is allons."}
+{"id":"futur-proche.08","p":"I'm going to book a hotel.","why":"No à between aller and the infinitive: je vais réserver."}
+{"id":"futur-proche.09","p":"She's going to arrive tonight.","why":"After aller, the verb stays in the infinitive: arriver."}
+{"id":"futur-proche.10","p":"Are you going to fly? (to a stranger)","why":"With vous, aller is allez."}
+{"id":"futur-proche.11","p":"I'm not going to work tomorrow.","why":"With je, aller is vais; ne … pas goes around it."}
+{"id":"futur-proche.12","p":"I'm going to visit Lyon.","hint":"aller · visiter · Lyon","why":"The je form of aller is vais, then the infinitive visiter."}
+{"id":"futur-proche.13","p":"We're going to eat at Léa's. (use nous)","hint":"aller · manger · chez Léa","why":"The nous form of aller is allons."}
+{"id":"futur-proche.14","p":"This weekend, I'm going to go biking.","hint":"ce week-end · aller · faire du vélo","why":"In the futur proche, faire stays in the infinitive after je vais."}
+{"id":"pronominal.01","q":"I get up at seven. =","why":"se lever needs its pronoun, and with je it is me."}
+{"id":"pronominal.02","q":"What's your name? (to a friend) =","why":"With tu, the pronoun is t' and the verb ends in -s."}
+{"id":"pronominal.03","q":"She showers in the morning. =","why":"se doucher keeps se before a consonant, and elle takes douche."}
+{"id":"pronominal.04","q":"I'm going to go to bed. =","why":"The pronoun matches je and goes right before the infinitive."}
+{"id":"pronominal.05","q":"I don't get up early. =","why":"ne … pas wraps around the pronoun and the verb together."}
+{"id":"pronominal.06","p":"You get up early. (to a friend)","why":"With tu, the pronoun is te and the verb ending is -es: tu te lèves."}
+{"id":"pronominal.07","p":"They're getting ready. (women)","why":"Elles takes the elles form: se préparent, with a silent -ent."}
+{"id":"pronominal.08","p":"My name is Ryan.","why":"je m'appelle already means my name is; nothing else goes in."}
+{"id":"pronominal.09","p":"Do you go to bed late?","why":"With tu, the reflexive pronoun is te."}
+{"id":"pronominal.10","p":"What's your name? (to a stranger)","why":"With vous, the verb ends in -ez: vous vous appelez."}
+{"id":"pronominal.11","p":"I'm going to go to bed.","why":"The pronoun before the infinitive still matches je: me."}
+{"id":"pronominal.12","p":"I get up at seven. (in words)","hint":"se lever · sept heures","why":"With je, the pronoun is me and the je form is lève."}
+{"id":"pronominal.13","p":"We're going to go for a walk. (use nous and se promener)","hint":"aller · se promener","why":"The nous form of aller is allons, and the pronoun nous goes before promener."}
+{"id":"pronominal.14","p":"She showers in the morning. (use se doucher)","hint":"se doucher · le matin","why":"A reflexive verb needs its pronoun: elle se douche."}
+{"id":"imperative.01","q":"'Turn left' (to a stranger) =","why":"To a stranger, use the vous form: Tournez."}
+{"id":"imperative.02","q":"'Let's go!' =","why":"The nous form, with no nous, means let's: Allons-y!"}
+{"id":"imperative.03","q":"'Look!' (to a friend) =","why":"-er verbs drop the -s in a tu command: Regarde!"}
+{"id":"imperative.04","q":"'Take the subway' (to a friend) =","why":"prendre keeps its -s in a tu command: Prends le métro."}
+{"id":"imperative.05","q":"'You have to book' =","why":"il faut is followed directly by the infinitive: Il faut réserver."}
+{"id":"imperative.06","p":"Turn left (to a stranger)","why":"To a stranger, use the vous form: the verb ending is -ez, Tournez."}
+{"id":"imperative.07","p":"Let's go to the park","why":"Let's is the nous form, allons, and à + le contracts to au."}
+{"id":"imperative.08","p":"Don't cross the street (to a stranger)","why":"rue is feminine, so it's la rue; ne … pas goes around the verb."}
+{"id":"imperative.09","p":"Keep going straight ahead (to a stranger).","why":"To a stranger, use the vous form: Continuez."}
+{"id":"imperative.10","p":"Go to the train station.","why":"gare is feminine, so à stays separate: à la gare."}
+{"id":"imperative.11","p":"You need to book a table.","why":"il faut + infinitive: you need to, we need to."}
+{"id":"imperative.12","p":"Let's take the subway. (use the nous command)","hint":"prendre · le métro","why":"Let's is the nous form: the verb ending is -ons, Prenons."}
+{"id":"imperative.13","p":"Turn right. (to a stranger)","hint":"tourner · à droite","why":"To a stranger, use the vous form: Tournez, with the verb ending -ez."}
+{"id":"imperative.14","p":"Go to the museum. (to a friend)","hint":"aller · le musée · tu command","why":"aller drops its -s in a tu command, and à + le contracts to au: Va au musée."}
+{"id":"passe-compose.01","q":"'I ate' =","why":"avoir + past participle, and -er verbs end in -é: j'ai mangé."}
+{"id":"passe-compose.02","q":"'She went' =","why":"aller takes être, and the participle agrees with elle: allée."}
+{"id":"passe-compose.03","q":"Which verb takes être in the passé composé?","why":"Verbs of coming and going, like arriver, take être."}
+{"id":"passe-compose.04","q":"'We saw a movie' =","why":"voir has the participle vu, and with avoir it does not change."}
+{"id":"passe-compose.05","q":"'I spoke with Léa' =","why":"The past participle needs its accent: parlé, not parle."}
+{"id":"passe-compose.06","p":"She arrived in Lyon","why":"With être, the participle agrees with the subject: elle est arrivée."}
+{"id":"passe-compose.07","p":"We watched a movie","why":"nous takes the nous form of avoir: avons."}
+{"id":"passe-compose.08","p":"They went to the park (all women)","why":"With être, the participle agrees with elles: the feminine plural allées."}
+{"id":"passe-compose.09","p":"Yesterday I spoke with Hugo.","why":"After avoir, use the past participle, with its accent: parlé."}
+{"id":"passe-compose.10","p":"We left at eight.","why":"partir takes être, and nous takes sommes."}
+{"id":"passe-compose.11","p":"I haven't finished.","why":"ne … pas goes around the helper verb: Je n'ai pas fini."}
+{"id":"passe-compose.12","p":"I went to the movies. (said by a woman)","hint":"aller · le cinéma","why":"aller takes être, and the participle agrees with je, a woman: allée."}
+{"id":"passe-compose.13","p":"We arrived. (use nous; men or a mixed group)","hint":"arriver · être","why":"arriver takes être, so the participle takes the plural form: arrivés."}
+{"id":"passe-compose.14","p":"Did you see the movie? (to a friend)","hint":"voir (vu) · le film","why":"tu takes the tu form of avoir, as, and voir has the participle vu."}
+{"id":"connectors.01","q":"'Coffee or tea?' =","why":"ou with no accent means or; où means where."}
+{"id":"connectors.02","q":"'I'm tired but happy' (said by a woman) =","why":"mais means but, and a woman uses the feminine forms fatiguée and contente."}
+{"id":"connectors.03","q":"'because' =","why":"parce que gives a reason; pourquoi asks why."}
+{"id":"connectors.04","q":"'It's raining, so I'm staying home.' =","why":"alors means so: it introduces the result."}
+{"id":"connectors.05","q":"'Me too.' =","why":"aussi goes after the stress pronoun: moi aussi."}
+{"id":"connectors.06","p":"I'm tired but happy (said by a woman)","why":"A woman uses the feminine form fatiguée, and contente agrees too."}
+{"id":"connectors.07","p":"We're late, so we're leaving","why":"nous takes the nous form: partons, with the verb ending -ons."}
+{"id":"connectors.08","p":"I like tea but not coffee","why":"Things you like in general take le: le thé, le café."}
+{"id":"connectors.09","p":"Are you coming or staying?","why":"ou with no accent means or."}
+{"id":"connectors.10","p":"I'm not coming because I'm sick.","why":"parce que gives the reason."}
+{"id":"connectors.11","p":"When the weather's nice, we go to the park.","why":"quand means when and can start the sentence."}
+{"id":"connectors.12","p":"My sister is tall and blond.","hint":"sœur · grand · blond","why":"sœur is feminine, so both adjectives agree: grande et blonde."}
+{"id":"connectors.13","p":"We're late, so we're leaving. (use nous)","hint":"être en retard · alors · partir (nous partons)","why":"nous takes the nous form of both verbs: sommes, partons."}
+{"id":"connectors.14","p":"Where are you? (to a friend)","hint":"où · être","why":"où with an accent asks where; ou means or."}
+{"id":"spoken.01","q":"You hear C'est pas grave. The written form is…","why":"Spoken French drops ne; written French keeps it around the verb."}
+{"id":"spoken.02","q":"On est en retard means…","o":["We're late.","We were late.","Are you late?","Don't be late."],"why":"on is the everyday we, with the il form est."}
+{"id":"spoken.03","q":"T'as faim? is short for…","why":"t'as is spoken tu as, and hunger uses avoir."}
+{"id":"spoken.04","q":"Y a un problème? is short for…","why":"y a is spoken il y a: there is."}
+{"id":"spoken.05","q":"Your friend asks On mange ensemble? You agree:","why":"Ouais, ça marche means yeah, sounds good."}
+{"id":"spoken.06","p":"We're tired (use on; a group of men)","why":"on takes the il form: est, not sommes."}
+{"id":"spoken.07","p":"Shall we go to the movies? (use on)","why":"on takes the il form, va, and à + le contracts to au."}
+{"id":"spoken.08","p":"I don't know (spoken)","why":"Spoken French drops ne and keeps pas: je sais pas."}
+{"id":"spoken.09","p":"We're tired.","why":"on takes the il form: on est."}
+{"id":"spoken.10","p":"It's no big deal. (spoken)","why":"In speech ne drops, but pas stays."}
+{"id":"spoken.11","p":"There's no problem. (spoken)","why":"y a is spoken il y a: there is."}
+{"id":"spoken.12","p":"We're going to the park. (use on)","hint":"aller · le parc","why":"on takes the il form: on va, not on allons."}
+{"id":"spoken.13","p":"We're tired. (use on; you are all women)","hint":"être · fatigué","why":"on takes the il form, est, but the adjective agrees with the real group: fatiguées."}
+{"id":"spoken.14","p":"I don't know. (spoken)","hint":"savoir · pas","why":"Spoken French drops ne; the written Je ne sais pas is right too."}
+{"id":"imparfait.01","q":"'It was raining.' =","why":"Something that was going on takes the imparfait: il pleuvait."}
+{"id":"imparfait.02","q":"'The weather was nice.' =","why":"Weather uses faire, and a past description takes the imparfait: il faisait beau."}
+{"id":"imparfait.03","q":"'We lived in Lyon.' (for years) =","why":"The nous form of the imparfait ends in -ions: habitions."}
+{"id":"imparfait.04","q":"'On Saturdays, I used to go biking.' =","why":"A past habit takes the imparfait, and le samedi means every Saturday."}
+{"id":"imparfait.05","q":"'It was great!' =","why":"c'est becomes c'était, from the stem ét-."}
+{"id":"imparfait.06","p":"We were tired (use nous; men or a mixed group)","why":"nous takes the nous form, étions, and fatigués is a plural adjective."}
+{"id":"imparfait.07","p":"It was raining when I arrived (said by a woman; start with Il)","why":"arriver takes être, so the participle agrees with je: a woman writes arrivée."}
+{"id":"imparfait.08","p":"My grandmother lived in Nice","why":"ma grand-mère is one person, so the verb takes the il form: habitait."}
+{"id":"imparfait.09","p":"When I was little, I used to play soccer.","why":"A past habit takes the imparfait; the je form ends in -ais."}
+{"id":"imparfait.10","p":"It was crowded.","why":"il y a becomes il y avait in the imparfait."}
+{"id":"imparfait.11","p":"It was raining when I went out.","why":"The background, what was going on, takes the imparfait: il pleuvait."}
+{"id":"imparfait.12","p":"We were at home. (use nous)","hint":"être · la maison","why":"nous takes the nous form of the imparfait: étions."}
+{"id":"imparfait.13","p":"They used to live in Paris. (men or a mixed group)","hint":"habiter · Paris","why":"ils takes the ils form, habitaient, with the silent verb ending -aient."}
+{"id":"imparfait.14","p":"The weather was nice.","hint":"faire · beau","why":"Weather uses faire: in the past, il faisait beau."}
+{"id":"futur.01","q":"'I'll be late.' =","why":"être has the future stem ser-: je serai."}
+{"id":"futur.02","q":"'Tomorrow the weather will be nice.' =","why":"Weather uses faire, whose future stem is fer-: il fera."}
+{"id":"futur.03","q":"'We'll go to the movies.' (use nous) =","why":"aller has the future stem ir-, and the nous ending is -ons."}
+{"id":"futur.04","q":"'They'll have a meeting.' =","why":"avoir has the future stem aur-, ils takes -ont, and réunion is feminine."}
+{"id":"futur.05","q":"'When I'm in Paris next year, …' =","why":"After quand, French uses the future when the time is in the future."}
+{"id":"futur.06","p":"We'll be in Lyon (use nous)","why":"nous takes the nous form of the future: serons, verb ending -ons."}
+{"id":"futur.07","p":"They'll have a meeting","why":"réunion is feminine, so the article is une."}
+{"id":"futur.08","p":"I'll visit the Louvre","why":"The je form of the future ends in -ai: visiterai."}
+{"id":"futur.09","p":"Tomorrow we'll take the train. (futur simple)","why":"prendre drops its final e, and nous takes -ons: prendrons."}
+{"id":"futur.10","p":"When you're in Paris, you'll visit the Louvre.","why":"After quand, with a future time, use the future: tu seras."}
+{"id":"futur.11","p":"I'll be able to see you tomorrow.","why":"pouvoir has the future stem pourr-; the je form ends in -ai."}
+{"id":"futur.12","p":"We'll be at home. (use nous; futur simple)","hint":"être · la maison","why":"nous takes the nous form of the future: serons."}
+{"id":"futur.13","p":"They'll have a meeting on Monday. (men or a mixed group; futur simple)","hint":"avoir · une réunion · lundi","why":"ils takes the ils form, auront, and réunion is feminine: une réunion."}
+{"id":"futur.14","p":"Tomorrow the weather will be nice. (futur simple)","hint":"faire · beau · demain","why":"faire has the future stem fer-: il fera beau."}
+{"id":"object-pronouns.01","q":"Le pull? 'I'll take it.' =","why":"pull is masculine, so it's le, before the verb."}
+{"id":"object-pronouns.02","q":"Les chaussures? 'I'll take them.' =","why":"les stands for a plural thing and goes before the verb."}
+{"id":"object-pronouns.03","q":"'I'm calling her.' =","why":"téléphoner takes à, so to her is lui, before the verb."}
+{"id":"object-pronouns.04","q":"Tu vas à la gare? 'Yes, I'm going.' =","why":"y replaces à + a place and goes before the verb."}
+{"id":"object-pronouns.05","q":"Vous voulez des pommes? 'I'd like three.' =","why":"With a number and no noun, French adds en: j'en voudrais trois."}
+{"id":"object-pronouns.06","p":"I'll take it (the jacket, la veste)","why":"veste is feminine, so the pronoun is la."}
+{"id":"object-pronouns.07","p":"I'm going to take them (the shoes)","why":"chaussures is plural, so the pronoun takes the plural form les, before the infinitive."}
+{"id":"object-pronouns.08","p":"I'm not taking it (the sweater, le pull)","why":"pull is masculine: le, inside ne … pas."}
+{"id":"object-pronouns.09","p":"The dress? I'll buy it.","why":"la becomes l' before a vowel: je l'achète."}
+{"id":"object-pronouns.10","p":"Are you talking to Léa? Yes, I'm talking to her.","why":"parler à takes lui: to her."}
+{"id":"object-pronouns.11","p":"Is there any bread? Yes, there is.","why":"en replaces du + noun: il y en a."}
+{"id":"object-pronouns.12","p":"I'll take it. (la chemise)","hint":"prendre · la chemise","why":"chemise is feminine, so the pronoun agrees: la."}
+{"id":"object-pronouns.13","p":"We're going to buy them. (les chaussures; use nous)","hint":"aller · acheter · les chaussures","why":"nous takes the nous form, allons, and les is the plural form for chaussures."}
+{"id":"object-pronouns.14","p":"I'm calling them. (mes parents; use téléphoner)","hint":"téléphoner à · mes parents","why":"téléphoner takes à, so to them is leur."}
+{"id":"compare.01","q":"'Léa is taller than Thomas.' =","why":"plus … que, and grande agrees with Léa."}
+{"id":"compare.02","q":"'This croissant is better.' =","why":"bon becomes meilleur, and croissant is masculine."}
+{"id":"compare.03","q":"'He sings better than me.' =","why":"With a verb, better is mieux; after que, use the stress pronoun moi."}
+{"id":"compare.04","q":"'as … as' =","why":"aussi … que means as … as."}
+{"id":"compare.05","q":"'Chloé is the youngest.' =","why":"The superlative takes the article: la plus, for Chloé."}
+{"id":"compare.06","p":"My sister is taller than me","why":"sœur is feminine, so the adjective agrees: grande."}
+{"id":"compare.07","p":"My brothers are shorter than my dad (use moins)","why":"frères is plural, so the plural adjective is grands."}
+{"id":"compare.08","p":"It's the best bakery in Paris","why":"boulangerie is feminine, so it's la meilleure."}
+{"id":"compare.09","p":"This crêpe is better than the other one.","why":"crêpe is feminine, so better is meilleure."}
+{"id":"compare.10","p":"Lucas talks faster than me.","why":"plus … que compares: plus vite que moi."}
+{"id":"compare.11","p":"She's as tall as her mother.","why":"aussi … que: the second word is always que."}
+{"id":"compare.12","p":"My sister is older than me. (âgé = old)","hint":"sœur · âgé · plus … que","why":"sœur is feminine, so the adjective agrees: âgée."}
+{"id":"compare.13","p":"Léa and Chloé are taller than Thomas.","hint":"grand · plus … que","why":"Two women: the verb ending matches the subject, sont, and grandes is feminine plural."}
+{"id":"compare.14","p":"He sings better than me.","hint":"chanter · mieux","why":"With a verb, better is mieux, not meilleur."}
+{"id":"relatives.01","q":"'a friend who speaks French' =","why":"The next word is a verb, so use qui."}
+{"id":"relatives.02","q":"'the cake you made' =","why":"The next word is a subject, tu, so use que; French never drops it."}
+{"id":"relatives.03","q":"'the café where we eat' =","why":"où with an accent means where; ou means or."}
+{"id":"relatives.04","q":"'the bread he buys' =","why":"que becomes qu' before a vowel: qu'il."}
+{"id":"relatives.05","q":"'the day I arrived' =","why":"After a time word like le jour, French uses où."}
+{"id":"relatives.06","p":"the girls who live in Lyon","why":"qui stands for les filles, so the verb ending is plural: the ils form habitent."}
+{"id":"relatives.07","p":"the movie we saw (use nous)","why":"que is followed by the subject nous, which takes the nous form: avons."}
+{"id":"relatives.08","p":"the town where I live","why":"ville is feminine, so it's la ville; où means where."}
+{"id":"relatives.09","p":"She's a friend who lives in Paris.","why":"The next word is a verb, habite, so qui."}
+{"id":"relatives.10","p":"That's the friend I saw yesterday.","why":"j' is the subject of ai vu, so que, even for a person; English who does not mean qui here."}
+{"id":"relatives.11","p":"It's the café where we eat on Saturdays.","why":"A place, where: où, with its accent."}
+{"id":"relatives.12","p":"my friends who speak French (men or a mixed group)","hint":"mon ami · parler · français","why":"qui stands for mes amis, so the verb takes the ils form: parlent."}
+{"id":"relatives.13","p":"the movie we watched (use nous)","hint":"le film · regarder · nous","why":"nous takes the nous form, avons, and French never drops que."}
+{"id":"relatives.14","p":"the train that leaves at eight","hint":"le train · partir · huit heures","why":"The next word is a verb, part, so use qui."}

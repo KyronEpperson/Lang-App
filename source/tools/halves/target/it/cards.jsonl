@@ -1,0 +1,929 @@
+{"id":"it.c0001","deck":"it.d.sounds-and-spelling","it":"il cielo","rom":"eel CHEH-loh"}
+{"id":"it.c0002","deck":"it.d.sounds-and-spelling","it":"la chiave","rom":"lah KYAH-veh"}
+{"id":"it.c0003","deck":"it.d.sounds-and-spelling","it":"il gelato","rom":"eel jeh-LAH-toh"}
+{"id":"it.c0004","deck":"it.d.sounds-and-spelling","it":"gli gnocchi","rom":"lyee NYOHK-kee"}
+{"id":"it.c0005","deck":"it.d.sounds-and-spelling","it":"la notte","rom":"lah NOHT-teh"}
+{"id":"it.c0006","deck":"it.d.sounds-and-spelling","it":"la cioccolata","rom":"lah chohk-koh-LAH-tah"}
+{"id":"it.c0007","deck":"it.d.sounds-and-spelling","it":"il giorno","rom":"eel JOHR-noh"}
+{"id":"it.c0008","deck":"it.d.sounds-and-spelling","it":"l'aglio","rom":"LAH-lyoh"}
+{"id":"it.c0009","deck":"it.d.sounds-and-spelling","it":"il pesce","rom":"eel PEH-sheh"}
+{"id":"it.c0010","deck":"it.d.sounds-and-spelling","it":"le pesche","rom":"leh PEHS-keh"}
+{"id":"it.c0011","deck":"it.d.sounds-and-spelling","it":"il ghiaccio","rom":"eel GYAHT-choh"}
+{"id":"it.c0012","deck":"it.d.sounds-and-spelling","it":"la pizza","rom":"lah PEET-tsah"}
+{"id":"it.c0013","deck":"it.d.sounds-and-spelling","it":"lo zucchero","rom":"loh DZOOK-keh-roh"}
+{"id":"it.c0014","deck":"it.d.sounds-and-spelling","it":"l'anno","rom":"LAHN-noh"}
+{"id":"it.c0015","deck":"it.d.sounds-and-spelling","it":"la palla","rom":"lah PAHL-lah"}
+{"id":"it.c0016","deck":"it.d.sounds-and-spelling","it":"il cuore","rom":"eel KWOH-reh"}
+{"id":"it.c0017","deck":"it.d.sounds-and-spelling","it":"il telefono","rom":"eel teh-LEH-foh-noh"}
+{"id":"it.c0018","deck":"it.d.sounds-and-spelling","it":"la sveglia","rom":"lah ZVEH-lyah"}
+{"id":"it.c0019","deck":"it.d.greetings-and-courtesy","it":"Buongiorno.","rom":"bwohn-JOHR-noh"}
+{"id":"it.c0020","deck":"it.d.greetings-and-courtesy","it":"Buonasera.","rom":"bwoh-nah-SEH-rah"}
+{"id":"it.c0021","deck":"it.d.greetings-and-courtesy","it":"Ciao!","rom":"CHAH-oh"}
+{"id":"it.c0022","deck":"it.d.greetings-and-courtesy","it":"Come sta?","rom":"KOH-meh stah"}
+{"id":"it.c0023","deck":"it.d.greetings-and-courtesy","it":"Mi scusi.","rom":"mee SKOO-see"}
+{"id":"it.c0024","deck":"it.d.greetings-and-courtesy","it":"Come stai?","rom":"KOH-meh stai"}
+{"id":"it.c0025","deck":"it.d.greetings-and-courtesy","it":"Bene, grazie, e tu?","rom":"BEH-neh GRAH-tsyeh eh too"}
+{"id":"it.c0026","deck":"it.d.greetings-and-courtesy","it":"Buonanotte.","rom":"bwoh-nah-NOHT-teh"}
+{"id":"it.c0027","deck":"it.d.greetings-and-courtesy","it":"Arrivederci.","rom":"ahr-ree-veh-DEHR-chee"}
+{"id":"it.c0028","deck":"it.d.greetings-and-courtesy","it":"ArrivederLa.","rom":"ahr-ree-veh-DEHR-lah"}
+{"id":"it.c0029","deck":"it.d.greetings-and-courtesy","it":"A presto!","rom":"ah PREHS-toh"}
+{"id":"it.c0030","deck":"it.d.greetings-and-courtesy","it":"Piacere.","rom":"pyah-CHEH-reh"}
+{"id":"it.c0031","deck":"it.d.greetings-and-courtesy","it":"Grazie mille.","rom":"GRAH-tsyeh MEEL-leh"}
+{"id":"it.c0032","deck":"it.d.greetings-and-courtesy","it":"Prego.","rom":"PREH-goh"}
+{"id":"it.c0033","deck":"it.d.greetings-and-courtesy","it":"Per favore.","rom":"pehr fah-VOH-reh"}
+{"id":"it.c0034","deck":"it.d.greetings-and-courtesy","it":"Scusa.","rom":"SKOO-sah"}
+{"id":"it.c0035","deck":"it.d.greetings-and-courtesy","it":"Non capisco.","rom":"nohn kah-PEES-koh"}
+{"id":"it.c0036","deck":"it.d.greetings-and-courtesy","it":"Può ripetere, per favore?","rom":"pwoh ree-PEH-teh-reh pehr fah-VOH-reh"}
+{"id":"it.c0037","deck":"it.d.about-me","it":"Mi chiamo Emma.","rom":"mee KYAH-moh EHM-mah"}
+{"id":"it.c0038","deck":"it.d.about-me","it":"Sono americano.","rom":"SOH-noh ah-meh-ree-KAH-noh"}
+{"id":"it.c0039","deck":"it.d.about-me","it":"Vengo dagli Stati Uniti.","rom":"VEHN-goh DAH-lyee STAH-tee oo-NEE-tee"}
+{"id":"it.c0040","deck":"it.d.about-me","it":"Ho trent'anni.","rom":"oh trehn-TAHN-nee"}
+{"id":"it.c0041","deck":"it.d.about-me","it":"Parlo un po' di italiano.","rom":"PAHR-loh oon poh dee ee-tah-LYAH-noh"}
+{"id":"it.c0042","deck":"it.d.about-me","it":"Come ti chiami?","rom":"KOH-meh tee KYAH-mee"}
+{"id":"it.c0043","deck":"it.d.about-me","it":"Come si chiama?","rom":"KOH-meh see KYAH-mah"}
+{"id":"it.c0044","deck":"it.d.about-me","it":"Di dove sei?","rom":"dee DOH-veh say"}
+{"id":"it.c0045","deck":"it.d.about-me","it":"Abito a Milano.","rom":"AH-bee-toh ah mee-LAH-noh"}
+{"id":"it.c0046","deck":"it.d.about-me","it":"Dove abiti?","rom":"DOH-veh AH-bee-tee"}
+{"id":"it.c0047","deck":"it.d.about-me","it":"Sono sposato.","rom":"SOH-noh spoh-SAH-toh"}
+{"id":"it.c0048","deck":"it.d.about-me","it":"Parli inglese?","rom":"PAHR-lee een-GLEH-seh"}
+{"id":"it.c0049","deck":"it.d.about-me","it":"Sto imparando l'italiano.","rom":"stoh eem-pah-RAHN-doh lee-tah-LYAH-noh"}
+{"id":"it.c0050","deck":"it.d.about-me","it":"La mia famiglia è di origine italiana.","rom":"lah MEE-ah fah-MEE-lyah eh dee oh-REE-jee-neh ee-tah-LYAH-nah"}
+{"id":"it.c0051","deck":"it.d.about-me","it":"Sono qui in vacanza.","rom":"SOH-noh kwee een vah-KAHN-tsah"}
+{"id":"it.c0052","deck":"it.d.about-me","it":"Sono qui per lavoro.","rom":"SOH-noh kwee pehr lah-VOH-roh"}
+{"id":"it.c0053","deck":"it.d.people-and-family","it":"mia madre","rom":"MEE-ah MAH-dreh"}
+{"id":"it.c0054","deck":"it.d.people-and-family","it":"i genitori","rom":"ee jeh-nee-TOH-ree"}
+{"id":"it.c0055","deck":"it.d.people-and-family","it":"il fratello","rom":"eel frah-TEHL-loh"}
+{"id":"it.c0056","deck":"it.d.people-and-family","it":"la nonna","rom":"lah NOHN-nah"}
+{"id":"it.c0057","deck":"it.d.people-and-family","it":"Mio padre è simpatico.","rom":"MEE-oh PAH-dreh eh seem-PAH-tee-koh"}
+{"id":"it.c0058","deck":"it.d.people-and-family","it":"la sorella","rom":"lah soh-REHL-lah"}
+{"id":"it.c0059","deck":"it.d.people-and-family","it":"la figlia","rom":"lah FEE-lyah"}
+{"id":"it.c0060","deck":"it.d.people-and-family","it":"i figli","rom":"ee FEE-lyee"}
+{"id":"it.c0061","deck":"it.d.people-and-family","it":"il marito","rom":"eel mah-REE-toh"}
+{"id":"it.c0062","deck":"it.d.people-and-family","it":"la moglie","rom":"lah MOH-lyeh"}
+{"id":"it.c0063","deck":"it.d.people-and-family","it":"lo zio","rom":"loh TSEE-oh"}
+{"id":"it.c0064","deck":"it.d.people-and-family","it":"i cugini","rom":"ee koo-JEE-nee"}
+{"id":"it.c0065","deck":"it.d.people-and-family","it":"il mio ragazzo","rom":"eel MEE-oh rah-GAHT-tsoh"}
+{"id":"it.c0066","deck":"it.d.people-and-family","it":"un amico","rom":"oon ah-MEE-koh"}
+{"id":"it.c0067","deck":"it.d.people-and-family","it":"un'amica","rom":"oo-nah-MEE-kah"}
+{"id":"it.c0068","deck":"it.d.people-and-family","it":"Mia sorella è alta.","rom":"MEE-ah soh-REHL-lah eh AHL-tah"}
+{"id":"it.c0069","deck":"it.d.people-and-family","it":"I miei nonni sono italiani.","rom":"ee myay NOHN-nee SOH-noh ee-tah-LYAH-nee"}
+{"id":"it.c0070","deck":"it.d.people-and-family","it":"Hai fratelli?","rom":"ai frah-TEHL-lee"}
+{"id":"it.c0071","deck":"it.d.numbers-time-and-prices","it":"ventuno","rom":"vehn-TOO-noh"}
+{"id":"it.c0072","deck":"it.d.numbers-time-and-prices","it":"Che ore sono?","rom":"keh OH-reh SOH-noh"}
+{"id":"it.c0073","deck":"it.d.numbers-time-and-prices","it":"Sono le tre e mezza.","rom":"SOH-noh leh treh eh MEHD-dzah"}
+{"id":"it.c0074","deck":"it.d.numbers-time-and-prices","it":"Quanto costa?","rom":"KWAHN-toh KOHS-tah"}
+{"id":"it.c0075","deck":"it.d.numbers-time-and-prices","it":"dieci euro","rom":"DYEH-chee EHW-roh"}
+{"id":"it.c0076","deck":"it.d.numbers-time-and-prices","it":"È l'una.","rom":"eh LOO-nah"}
+{"id":"it.c0077","deck":"it.d.numbers-time-and-prices","it":"Sono le otto e un quarto.","rom":"SOH-noh leh OHT-toh eh oon KWAHR-toh"}
+{"id":"it.c0078","deck":"it.d.numbers-time-and-prices","it":"Sono le nove meno dieci.","rom":"SOH-noh leh NOH-veh MEH-noh DYEH-chee"}
+{"id":"it.c0079","deck":"it.d.numbers-time-and-prices","it":"È mezzogiorno.","rom":"eh mehd-dzoh-JOHR-noh"}
+{"id":"it.c0080","deck":"it.d.numbers-time-and-prices","it":"Quanto costano?","rom":"KWAHN-toh KOHS-tah-noh"}
+{"id":"it.c0081","deck":"it.d.numbers-time-and-prices","it":"Sono due euro e cinquanta.","rom":"SOH-noh DOO-eh EHW-roh eh cheen-KWAHN-tah"}
+{"id":"it.c0082","deck":"it.d.numbers-time-and-prices","it":"cinquanta centesimi","rom":"cheen-KWAHN-tah chehn-TEH-see-mee"}
+{"id":"it.c0083","deck":"it.d.numbers-time-and-prices","it":"cento","rom":"CHEHN-toh"}
+{"id":"it.c0084","deck":"it.d.numbers-time-and-prices","it":"mille","rom":"MEEL-leh"}
+{"id":"it.c0085","deck":"it.d.numbers-time-and-prices","it":"ventotto","rom":"vehn-TOHT-toh"}
+{"id":"it.c0086","deck":"it.d.numbers-time-and-prices","it":"alle otto di sera","rom":"AHL-leh OHT-toh dee SEH-rah"}
+{"id":"it.c0087","deck":"it.d.numbers-time-and-prices","it":"il numero di telefono","rom":"eel NOO-meh-roh dee teh-LEH-foh-noh"}
+{"id":"it.c0088","deck":"it.d.days-dates-and-weather","it":"lunedì","rom":"loo-neh-DEE"}
+{"id":"it.c0089","deck":"it.d.days-dates-and-weather","it":"Fa caldo.","rom":"fah KAHL-doh"}
+{"id":"it.c0090","deck":"it.d.days-dates-and-weather","it":"Piove.","rom":"PYOH-veh"}
+{"id":"it.c0091","deck":"it.d.days-dates-and-weather","it":"il quindici settembre","rom":"eel KWEEN-dee-chee seht-TEHM-breh"}
+{"id":"it.c0092","deck":"it.d.days-dates-and-weather","it":"ieri","rom":"YEH-ree"}
+{"id":"it.c0093","deck":"it.d.days-dates-and-weather","it":"Che giorno è oggi?","rom":"keh JOHR-noh eh OHD-jee"}
+{"id":"it.c0094","deck":"it.d.days-dates-and-weather","it":"Oggi è venerdì.","rom":"OHD-jee eh veh-nehr-DEE"}
+{"id":"it.c0095","deck":"it.d.days-dates-and-weather","it":"domani mattina","rom":"doh-MAH-nee maht-TEE-nah"}
+{"id":"it.c0096","deck":"it.d.days-dates-and-weather","it":"il sabato","rom":"eel SAH-bah-toh"}
+{"id":"it.c0097","deck":"it.d.days-dates-and-weather","it":"il primo maggio","rom":"eel PREE-moh MAHD-joh"}
+{"id":"it.c0098","deck":"it.d.days-dates-and-weather","it":"Il mio compleanno è il tre marzo.","rom":"eel MEE-oh kohm-pleh-AHN-noh eh eel treh MAHR-tsoh"}
+{"id":"it.c0099","deck":"it.d.days-dates-and-weather","it":"Fa bel tempo.","rom":"fah behl TEHM-poh"}
+{"id":"it.c0100","deck":"it.d.days-dates-and-weather","it":"C'è il sole.","rom":"cheh eel SOH-leh"}
+{"id":"it.c0101","deck":"it.d.days-dates-and-weather","it":"Nevica.","rom":"NEH-vee-kah"}
+{"id":"it.c0102","deck":"it.d.days-dates-and-weather","it":"C'è vento.","rom":"cheh VEHN-toh"}
+{"id":"it.c0103","deck":"it.d.days-dates-and-weather","it":"Che tempo fa?","rom":"keh TEHM-poh fah"}
+{"id":"it.c0104","deck":"it.d.days-dates-and-weather","it":"la settimana prossima","rom":"lah seht-tee-MAH-nah PROHS-see-mah"}
+{"id":"it.c0105","deck":"it.d.days-dates-and-weather","it":"in estate","rom":"een ehs-TAH-teh"}
+{"id":"it.c0106","deck":"it.d.food-and-drink","it":"un caffè","rom":"oon kahf-FEH"}
+{"id":"it.c0107","deck":"it.d.food-and-drink","it":"un bicchiere d'acqua","rom":"oon beek-KYEH-reh DAHK-kwah"}
+{"id":"it.c0108","deck":"it.d.food-and-drink","it":"Il conto, per favore.","rom":"eel KOHN-toh pehr fah-VOH-reh"}
+{"id":"it.c0109","deck":"it.d.food-and-drink","it":"la colazione","rom":"lah koh-lah-TSYOH-neh"}
+{"id":"it.c0110","deck":"it.d.food-and-drink","it":"il pane","rom":"eel PAH-neh"}
+{"id":"it.c0111","deck":"it.d.food-and-drink","it":"il pranzo","rom":"eel PRAHN-dzoh"}
+{"id":"it.c0112","deck":"it.d.food-and-drink","it":"la cena","rom":"lah CHEH-nah"}
+{"id":"it.c0113","deck":"it.d.food-and-drink","it":"un bicchiere di vino rosso","rom":"oon beek-KYEH-reh dee VEE-noh ROHS-soh"}
+{"id":"it.c0114","deck":"it.d.food-and-drink","it":"l'acqua frizzante","rom":"LAHK-kwah freet-TSAHN-teh"}
+{"id":"it.c0115","deck":"it.d.food-and-drink","it":"un tavolo per due","rom":"oon TAH-voh-loh pehr DOO-eh"}
+{"id":"it.c0116","deck":"it.d.food-and-drink","it":"Per me, gli spaghetti al pomodoro.","rom":"pehr meh lyee spah-GHEHT-tee ahl poh-moh-DOH-roh"}
+{"id":"it.c0117","deck":"it.d.food-and-drink","it":"il formaggio","rom":"eel fohr-MAHD-joh"}
+{"id":"it.c0118","deck":"it.d.food-and-drink","it":"le uova","rom":"leh WOH-vah"}
+{"id":"it.c0119","deck":"it.d.food-and-drink","it":"la carne","rom":"lah KAHR-neh"}
+{"id":"it.c0120","deck":"it.d.food-and-drink","it":"le verdure","rom":"leh vehr-DOO-reh"}
+{"id":"it.c0121","deck":"it.d.food-and-drink","it":"Buon appetito!","rom":"bwohn ahp-peh-TEE-toh"}
+{"id":"it.c0122","deck":"it.d.food-and-drink","it":"È buonissimo!","rom":"eh bwoh-NEES-see-moh"}
+{"id":"it.c0123","deck":"it.d.food-and-drink","it":"Sono vegetariano.","rom":"SOH-noh veh-jeh-tah-RYAH-noh"}
+{"id":"it.c0124","deck":"it.d.shopping-and-clothes","it":"la camicia bianca","rom":"lah kah-MEE-chah BYAHN-kah"}
+{"id":"it.c0125","deck":"it.d.shopping-and-clothes","it":"le scarpe nere","rom":"leh SKAHR-peh NEH-reh"}
+{"id":"it.c0126","deck":"it.d.shopping-and-clothes","it":"Che taglia porta?","rom":"keh TAH-lyah POHR-tah"}
+{"id":"it.c0127","deck":"it.d.shopping-and-clothes","it":"Posso provarla?","rom":"POHS-soh proh-VAHR-lah"}
+{"id":"it.c0128","deck":"it.d.shopping-and-clothes","it":"Lo prendo.","rom":"loh PREHN-doh"}
+{"id":"it.c0129","deck":"it.d.shopping-and-clothes","it":"Sto solo guardando, grazie.","rom":"stoh SOH-loh gwahr-DAHN-doh GRAH-tsyeh"}
+{"id":"it.c0130","deck":"it.d.shopping-and-clothes","it":"Ha una taglia più grande?","rom":"ah OO-nah TAH-lyah pyoo GRAHN-deh"}
+{"id":"it.c0131","deck":"it.d.shopping-and-clothes","it":"il maglione rosso","rom":"eel mah-LYOH-neh ROHS-soh"}
+{"id":"it.c0132","deck":"it.d.shopping-and-clothes","it":"i pantaloni blu","rom":"ee pahn-tah-LOH-nee bloo"}
+{"id":"it.c0133","deck":"it.d.shopping-and-clothes","it":"la giacca verde","rom":"lah JAHK-kah VEHR-deh"}
+{"id":"it.c0134","deck":"it.d.shopping-and-clothes","it":"È troppo caro.","rom":"eh TROHP-poh KAH-roh"}
+{"id":"it.c0135","deck":"it.d.shopping-and-clothes","it":"Posso pagare con la carta?","rom":"POHS-soh pah-GAH-reh kohn lah KAHR-tah"}
+{"id":"it.c0136","deck":"it.d.shopping-and-clothes","it":"i saldi","rom":"ee SAHL-dee"}
+{"id":"it.c0137","deck":"it.d.shopping-and-clothes","it":"la borsa","rom":"lah BOHR-sah"}
+{"id":"it.c0138","deck":"it.d.shopping-and-clothes","it":"Dove sono i camerini?","rom":"DOH-veh SOH-noh ee kah-meh-REE-nee"}
+{"id":"it.c0139","deck":"it.d.shopping-and-clothes","it":"Come mi sta?","rom":"KOH-meh mee stah"}
+{"id":"it.c0140","deck":"it.d.shopping-and-clothes","it":"lo scontrino","rom":"loh skohn-TREE-noh"}
+{"id":"it.c0141","deck":"it.d.shopping-and-clothes","it":"Avete altri colori?","rom":"ah-VEH-teh AHL-tree koh-LOH-ree"}
+{"id":"it.c0142","deck":"it.d.home-and-routine","it":"Mi alzo alle sette.","rom":"mee AHL-tsoh AHL-leh SEHT-teh"}
+{"id":"it.c0143","deck":"it.d.home-and-routine","it":"Mi faccio la doccia.","rom":"mee FAHT-choh lah DOHT-chah"}
+{"id":"it.c0144","deck":"it.d.home-and-routine","it":"la cucina","rom":"lah koo-CHEE-nah"}
+{"id":"it.c0145","deck":"it.d.home-and-routine","it":"la camera da letto","rom":"lah KAH-meh-rah dah LEHT-toh"}
+{"id":"it.c0146","deck":"it.d.home-and-routine","it":"il bagno","rom":"eel BAH-nyoh"}
+{"id":"it.c0147","deck":"it.d.home-and-routine","it":"Mi sveglio presto.","rom":"mee ZVEH-lyoh PREHS-toh"}
+{"id":"it.c0148","deck":"it.d.home-and-routine","it":"Mi vesto.","rom":"mee VEHS-toh"}
+{"id":"it.c0149","deck":"it.d.home-and-routine","it":"Faccio colazione.","rom":"FAHT-choh koh-lah-TSYOH-neh"}
+{"id":"it.c0150","deck":"it.d.home-and-routine","it":"Esco di casa alle otto.","rom":"EHS-koh dee KAH-sah AHL-leh OHT-toh"}
+{"id":"it.c0151","deck":"it.d.home-and-routine","it":"Torno a casa alle sei.","rom":"TOHR-noh ah KAH-sah AHL-leh say"}
+{"id":"it.c0152","deck":"it.d.home-and-routine","it":"Vado a letto a mezzanotte.","rom":"VAH-doh ah LEHT-toh ah mehd-dzah-NOHT-teh"}
+{"id":"it.c0153","deck":"it.d.home-and-routine","it":"il soggiorno","rom":"eel sohd-JOHR-noh"}
+{"id":"it.c0154","deck":"it.d.home-and-routine","it":"il divano","rom":"eel dee-VAH-noh"}
+{"id":"it.c0155","deck":"it.d.home-and-routine","it":"il letto","rom":"eel LEHT-toh"}
+{"id":"it.c0156","deck":"it.d.home-and-routine","it":"Abito in un appartamento.","rom":"AH-bee-toh een oon ahp-pahr-tah-MEHN-toh"}
+{"id":"it.c0157","deck":"it.d.home-and-routine","it":"A che ora ti svegli?","rom":"ah keh OH-rah tee ZVEH-lyee"}
+{"id":"it.c0158","deck":"it.d.home-and-routine","it":"la lavatrice","rom":"lah lah-vah-TREE-cheh"}
+{"id":"it.c0159","deck":"it.d.home-and-routine","it":"Lavo i piatti.","rom":"LAH-voh ee PYAHT-tee"}
+{"id":"it.c0160","deck":"it.d.around-town-and-directions","it":"Dov'è la stazione?","rom":"doh-VEH lah stah-TSYOH-neh"}
+{"id":"it.c0161","deck":"it.d.around-town-and-directions","it":"C'è una farmacia qui vicino?","rom":"cheh OO-nah fahr-mah-CHEE-ah kwee vee-CHEE-noh"}
+{"id":"it.c0162","deck":"it.d.around-town-and-directions","it":"a destra","rom":"ah DEHS-trah"}
+{"id":"it.c0163","deck":"it.d.around-town-and-directions","it":"Giri a sinistra.","rom":"JEE-ree ah see-NEES-trah"}
+{"id":"it.c0164","deck":"it.d.around-town-and-directions","it":"la piazza","rom":"lah PYAHT-tsah"}
+{"id":"it.c0165","deck":"it.d.around-town-and-directions","it":"Scusi, dov'è il museo?","rom":"SKOO-see doh-VEH eel moo-SEH-oh"}
+{"id":"it.c0166","deck":"it.d.around-town-and-directions","it":"Ci sono due bar in piazza.","rom":"chee SOH-noh DOO-eh bahr een PYAHT-tsah"}
+{"id":"it.c0167","deck":"it.d.around-town-and-directions","it":"È lontano?","rom":"eh lohn-TAH-noh"}
+{"id":"it.c0168","deck":"it.d.around-town-and-directions","it":"È qui vicino.","rom":"eh kwee vee-CHEE-noh"}
+{"id":"it.c0169","deck":"it.d.around-town-and-directions","it":"Vada dritto.","rom":"VAH-dah DREET-toh"}
+{"id":"it.c0170","deck":"it.d.around-town-and-directions","it":"la chiesa","rom":"lah KYEH-sah"}
+{"id":"it.c0171","deck":"it.d.around-town-and-directions","it":"il centro storico","rom":"eel CHEHN-troh STOH-ree-koh"}
+{"id":"it.c0172","deck":"it.d.around-town-and-directions","it":"la banca","rom":"lah BAHN-kah"}
+{"id":"it.c0173","deck":"it.d.around-town-and-directions","it":"Prenda la seconda a destra.","rom":"PREHN-dah lah seh-KOHN-dah ah DEHS-trah"}
+{"id":"it.c0174","deck":"it.d.around-town-and-directions","it":"all'angolo","rom":"ahl-LAHN-goh-loh"}
+{"id":"it.c0175","deck":"it.d.around-town-and-directions","it":"È a dieci minuti a piedi.","rom":"eh ah DYEH-chee mee-NOO-tee ah PYEH-dee"}
+{"id":"it.c0176","deck":"it.d.around-town-and-directions","it":"Mi sono perso.","rom":"mee SOH-noh PEHR-soh"}
+{"id":"it.c0177","deck":"it.d.around-town-and-directions","it":"Come arrivo in centro?","rom":"KOH-meh ahr-REE-voh een CHEHN-troh"}
+{"id":"it.c0178","deck":"it.d.travel-and-transport","it":"il biglietto","rom":"eel bee-LYEHT-toh"}
+{"id":"it.c0179","deck":"it.d.travel-and-transport","it":"Vado in treno.","rom":"VAH-doh een TREH-noh"}
+{"id":"it.c0180","deck":"it.d.travel-and-transport","it":"l'aeroporto","rom":"lah-eh-roh-POHR-toh"}
+{"id":"it.c0181","deck":"it.d.travel-and-transport","it":"A che ora parte il treno?","rom":"ah keh OH-rah PAHR-teh eel TREH-noh"}
+{"id":"it.c0182","deck":"it.d.travel-and-transport","it":"Sono arrivata ieri.","rom":"SOH-noh ahr-ree-VAH-tah YEH-ree"}
+{"id":"it.c0183","deck":"it.d.travel-and-transport","it":"Andata e ritorno, per favore.","rom":"ahn-DAH-tah eh ree-TOHR-noh pehr fah-VOH-reh"}
+{"id":"it.c0184","deck":"it.d.travel-and-transport","it":"Da quale binario parte?","rom":"dah KWAH-leh bee-NAH-ryoh PAHR-teh"}
+{"id":"it.c0185","deck":"it.d.travel-and-transport","it":"Il treno è in ritardo.","rom":"eel TREH-noh eh een ree-TAHR-doh"}
+{"id":"it.c0186","deck":"it.d.travel-and-transport","it":"la fermata dell'autobus","rom":"lah fehr-MAH-tah dehl-LOW-toh-boos"}
+{"id":"it.c0187","deck":"it.d.travel-and-transport","it":"Devo convalidare il biglietto?","rom":"DEH-voh kohn-vah-lee-DAH-reh eel bee-LYEHT-toh"}
+{"id":"it.c0188","deck":"it.d.travel-and-transport","it":"Il volo è cancellato.","rom":"eel VOH-loh eh kahn-chehl-LAH-toh"}
+{"id":"it.c0189","deck":"it.d.travel-and-transport","it":"Ho perso la valigia.","rom":"oh PEHR-soh lah vah-LEE-jah"}
+{"id":"it.c0190","deck":"it.d.travel-and-transport","it":"Ho una prenotazione.","rom":"oh OO-nah preh-noh-tah-TSYOH-neh"}
+{"id":"it.c0191","deck":"it.d.travel-and-transport","it":"una camera doppia","rom":"OO-nah KAH-meh-rah DOHP-pyah"}
+{"id":"it.c0192","deck":"it.d.travel-and-transport","it":"La colazione è inclusa?","rom":"lah koh-lah-TSYOH-neh eh een-KLOO-sah"}
+{"id":"it.c0193","deck":"it.d.travel-and-transport","it":"Siamo partiti alle otto.","rom":"SYAH-moh pahr-TEE-tee AHL-leh OHT-toh"}
+{"id":"it.c0194","deck":"it.d.travel-and-transport","it":"Quanto dura il viaggio?","rom":"KWAHN-toh DOO-rah eel VYAHD-joh"}
+{"id":"it.c0195","deck":"it.d.travel-and-transport","it":"il passaporto","rom":"eel pahs-sah-POHR-toh"}
+{"id":"it.c0196","deck":"it.d.health-and-emergencies","it":"Mi fa male la testa.","rom":"mee fah MAH-leh lah TEHS-tah"}
+{"id":"it.c0197","deck":"it.d.health-and-emergencies","it":"Sto male.","rom":"stoh MAH-leh"}
+{"id":"it.c0198","deck":"it.d.health-and-emergencies","it":"Aiuto!","rom":"ah-YOO-toh"}
+{"id":"it.c0199","deck":"it.d.health-and-emergencies","it":"Può chiamare un'ambulanza?","rom":"pwoh kyah-MAH-reh oo-nahm-boo-LAHN-tsah"}
+{"id":"it.c0200","deck":"it.d.health-and-emergencies","it":"Devo andare in farmacia.","rom":"DEH-voh ahn-DAH-reh een fahr-mah-CHEE-ah"}
+{"id":"it.c0201","deck":"it.d.health-and-emergencies","it":"Ho bisogno di un medico.","rom":"oh bee-SOH-nyoh dee oon MEH-dee-koh"}
+{"id":"it.c0202","deck":"it.d.health-and-emergencies","it":"Mi fanno male i piedi.","rom":"mee FAHN-noh MAH-leh ee PYEH-dee"}
+{"id":"it.c0203","deck":"it.d.health-and-emergencies","it":"Ho la febbre.","rom":"oh lah FEHB-breh"}
+{"id":"it.c0204","deck":"it.d.health-and-emergencies","it":"Ho il raffreddore.","rom":"oh eel rahf-frehd-DOH-reh"}
+{"id":"it.c0205","deck":"it.d.health-and-emergencies","it":"Sono allergico alla penicillina.","rom":"SOH-noh ahl-LEHR-jee-koh AHL-lah peh-nee-cheel-LEE-nah"}
+{"id":"it.c0206","deck":"it.d.health-and-emergencies","it":"Chiami la polizia!","rom":"KYAH-mee lah poh-lee-TSEE-ah"}
+{"id":"it.c0207","deck":"it.d.health-and-emergencies","it":"il pronto soccorso","rom":"eel PROHN-toh sohk-KOHR-soh"}
+{"id":"it.c0208","deck":"it.d.health-and-emergencies","it":"Ha qualcosa per la tosse?","rom":"ah kwahl-KOH-sah pehr lah TOHS-seh"}
+{"id":"it.c0209","deck":"it.d.health-and-emergencies","it":"Non mi sento bene.","rom":"nohn mee SEHN-toh BEH-neh"}
+{"id":"it.c0210","deck":"it.d.health-and-emergencies","it":"Dove fa male?","rom":"DOH-veh fah MAH-leh"}
+{"id":"it.c0211","deck":"it.d.health-and-emergencies","it":"Prenda una compressa due volte al giorno.","rom":"PREHN-dah OO-nah kohm-PREHS-sah DOO-eh VOHL-teh ahl JOHR-noh"}
+{"id":"it.c0212","deck":"it.d.health-and-emergencies","it":"la ricetta","rom":"lah ree-CHEHT-tah"}
+{"id":"it.c0213","deck":"it.d.health-and-emergencies","it":"Mi hanno rubato il portafoglio.","rom":"mee AHN-noh roo-BAH-toh eel pohr-tah-FOH-lyoh"}
+{"id":"it.c0214","deck":"it.d.work-and-study","it":"Lavoro in un ufficio.","rom":"lah-VOH-roh een oon oof-FEE-choh"}
+{"id":"it.c0215","deck":"it.d.work-and-study","it":"Studio l'italiano.","rom":"STOO-dyoh lee-tah-LYAH-noh"}
+{"id":"it.c0216","deck":"it.d.work-and-study","it":"la riunione","rom":"lah ree-oo-NYOH-neh"}
+{"id":"it.c0217","deck":"it.d.work-and-study","it":"Faccio l'insegnante.","rom":"FAHT-choh leen-seh-NYAHN-teh"}
+{"id":"it.c0218","deck":"it.d.work-and-study","it":"il collega","rom":"eel kohl-LEH-gah"}
+{"id":"it.c0219","deck":"it.d.work-and-study","it":"Lavoro da casa.","rom":"lah-VOH-roh dah KAH-sah"}
+{"id":"it.c0220","deck":"it.d.work-and-study","it":"Faccio una pausa.","rom":"FAHT-choh OO-nah POW-sah"}
+{"id":"it.c0221","deck":"it.d.work-and-study","it":"Studio all'università.","rom":"STOO-dyoh ahl-loo-nee-vehr-see-TAH"}
+{"id":"it.c0222","deck":"it.d.work-and-study","it":"La lezione comincia alle nove.","rom":"lah leh-TSYOH-neh koh-MEEN-chah AHL-leh NOH-veh"}
+{"id":"it.c0223","deck":"it.d.work-and-study","it":"il mio capo","rom":"eel MEE-oh KAH-poh"}
+{"id":"it.c0224","deck":"it.d.work-and-study","it":"Devo fare i compiti.","rom":"DEH-voh FAH-reh ee KOHM-pee-tee"}
+{"id":"it.c0225","deck":"it.d.work-and-study","it":"Domani ho un esame.","rom":"doh-MAH-nee oh oon eh-SAH-meh"}
+{"id":"it.c0226","deck":"it.d.work-and-study","it":"Finisco alle sei.","rom":"fee-NEES-koh AHL-leh say"}
+{"id":"it.c0227","deck":"it.d.work-and-study","it":"lo stipendio","rom":"loh stee-PEHN-dyoh"}
+{"id":"it.c0228","deck":"it.d.work-and-study","it":"il colloquio di lavoro","rom":"eel kohl-LOH-kwyoh dee lah-VOH-roh"}
+{"id":"it.c0229","deck":"it.d.work-and-study","it":"Cerco lavoro.","rom":"CHEHR-koh lah-VOH-roh"}
+{"id":"it.c0230","deck":"it.d.work-and-study","it":"Ti mando un messaggio.","rom":"tee MAHN-doh oon mehs-SAHD-joh"}
+{"id":"it.c0231","deck":"it.d.work-and-study","it":"gli studenti","rom":"lyee stoo-DEHN-tee"}
+{"id":"it.c0232","deck":"it.d.feelings-and-states","it":"Sono stanco.","rom":"SOH-noh STAHN-koh"}
+{"id":"it.c0233","deck":"it.d.feelings-and-states","it":"Ho fame.","rom":"oh FAH-meh"}
+{"id":"it.c0234","deck":"it.d.feelings-and-states","it":"Sono contenta.","rom":"SOH-noh kohn-TEHN-tah"}
+{"id":"it.c0235","deck":"it.d.feelings-and-states","it":"Ho freddo.","rom":"oh FREHD-doh"}
+{"id":"it.c0236","deck":"it.d.feelings-and-states","it":"Che noia!","rom":"keh NOH-yah"}
+{"id":"it.c0237","deck":"it.d.feelings-and-states","it":"Ho sete.","rom":"oh SEH-teh"}
+{"id":"it.c0238","deck":"it.d.feelings-and-states","it":"Ho sonno.","rom":"oh SOHN-noh"}
+{"id":"it.c0239","deck":"it.d.feelings-and-states","it":"Ho paura.","rom":"oh pah-OO-rah"}
+{"id":"it.c0240","deck":"it.d.feelings-and-states","it":"Oggi sto meglio.","rom":"OHD-jee stoh MEH-lyoh"}
+{"id":"it.c0241","deck":"it.d.feelings-and-states","it":"Sono nervoso.","rom":"SOH-noh nehr-VOH-soh"}
+{"id":"it.c0242","deck":"it.d.feelings-and-states","it":"Sono arrabbiata.","rom":"SOH-noh ahr-rahb-BYAH-tah"}
+{"id":"it.c0243","deck":"it.d.feelings-and-states","it":"Sono preoccupato.","rom":"SOH-noh preh-ohk-koo-PAH-toh"}
+{"id":"it.c0244","deck":"it.d.feelings-and-states","it":"Sono triste.","rom":"SOH-noh TREES-teh"}
+{"id":"it.c0245","deck":"it.d.feelings-and-states","it":"Hai ragione.","rom":"ai rah-JOH-neh"}
+{"id":"it.c0246","deck":"it.d.feelings-and-states","it":"Sono felice per te.","rom":"SOH-noh feh-LEE-cheh pehr teh"}
+{"id":"it.c0247","deck":"it.d.feelings-and-states","it":"Che bello!","rom":"keh BEHL-loh"}
+{"id":"it.c0248","deck":"it.d.feelings-and-states","it":"Ho fretta.","rom":"oh FREHT-tah"}
+{"id":"it.c0249","deck":"it.d.feelings-and-states","it":"Non vedo l'ora!","rom":"nohn VEH-doh LOH-rah"}
+{"id":"it.c0250","deck":"it.d.likes-and-free-time","it":"Mi piace il calcio.","rom":"mee PYAH-cheh eel KAHL-choh"}
+{"id":"it.c0251","deck":"it.d.likes-and-free-time","it":"Mi piacciono i film italiani.","rom":"mee PYAHT-choh-noh ee feelm ee-tah-LYAH-nee"}
+{"id":"it.c0252","deck":"it.d.likes-and-free-time","it":"Ti piace ballare?","rom":"tee PYAH-cheh bahl-LAH-reh"}
+{"id":"it.c0253","deck":"it.d.likes-and-free-time","it":"il fine settimana","rom":"eel FEE-neh seht-tee-MAH-nah"}
+{"id":"it.c0254","deck":"it.d.likes-and-free-time","it":"Ho visto un film.","rom":"oh VEES-toh oon feelm"}
+{"id":"it.c0255","deck":"it.d.likes-and-free-time","it":"Non mi piace correre.","rom":"nohn mee PYAH-cheh KOHR-reh-reh"}
+{"id":"it.c0256","deck":"it.d.likes-and-free-time","it":"Anche a me!","rom":"AHN-keh ah meh"}
+{"id":"it.c0257","deck":"it.d.likes-and-free-time","it":"Neanche a me.","rom":"neh-AHN-keh ah meh"}
+{"id":"it.c0258","deck":"it.d.likes-and-free-time","it":"Gioco a tennis.","rom":"JOH-koh ah TEHN-nees"}
+{"id":"it.c0259","deck":"it.d.likes-and-free-time","it":"Suono la chitarra.","rom":"SWOH-noh lah kee-TAHR-rah"}
+{"id":"it.c0260","deck":"it.d.likes-and-free-time","it":"Vado in palestra.","rom":"VAH-doh een pah-LEHS-trah"}
+{"id":"it.c0261","deck":"it.d.likes-and-free-time","it":"Cosa fai nel tempo libero?","rom":"KOH-sah fai nehl TEHM-poh LEE-beh-roh"}
+{"id":"it.c0262","deck":"it.d.likes-and-free-time","it":"Cosa hai fatto nel fine settimana?","rom":"KOH-sah ai FAHT-toh nehl FEE-neh seht-tee-MAH-nah"}
+{"id":"it.c0263","deck":"it.d.likes-and-free-time","it":"Siamo andati al mare.","rom":"SYAH-moh ahn-DAH-tee ahl MAH-reh"}
+{"id":"it.c0264","deck":"it.d.likes-and-free-time","it":"Ho fatto una passeggiata.","rom":"oh FAHT-toh OO-nah pahs-sehd-JAH-tah"}
+{"id":"it.c0265","deck":"it.d.likes-and-free-time","it":"Ti piacciono i cani?","rom":"tee PYAHT-choh-noh ee KAH-nee"}
+{"id":"it.c0266","deck":"it.d.likes-and-free-time","it":"Preferisco restare a casa.","rom":"preh-feh-REES-koh rehs-TAH-reh ah KAH-sah"}
+{"id":"it.c0267","deck":"it.d.likes-and-free-time","it":"Guardiamo la partita?","rom":"gwahr-DYAH-moh lah pahr-TEE-tah"}
+{"id":"it.c0268","deck":"it.d.questions-and-connectors","it":"Perché?","rom":"pehr-KEH"}
+{"id":"it.c0269","deck":"it.d.questions-and-connectors","it":"Quando?","rom":"KWAHN-doh"}
+{"id":"it.c0270","deck":"it.d.questions-and-connectors","it":"Quanti anni hai?","rom":"KWAHN-tee AHN-nee ai"}
+{"id":"it.c0271","deck":"it.d.questions-and-connectors","it":"ma","rom":"mah"}
+{"id":"it.c0272","deck":"it.d.questions-and-connectors","it":"anche","rom":"AHN-keh"}
+{"id":"it.c0273","deck":"it.d.questions-and-connectors","it":"Chi è?","rom":"kee eh"}
+{"id":"it.c0274","deck":"it.d.questions-and-connectors","it":"Che cos'è?","rom":"keh koh-SEH"}
+{"id":"it.c0275","deck":"it.d.questions-and-connectors","it":"Dove vai?","rom":"DOH-veh vai"}
+{"id":"it.c0276","deck":"it.d.questions-and-connectors","it":"Com'è?","rom":"koh-MEH"}
+{"id":"it.c0277","deck":"it.d.questions-and-connectors","it":"Qual è il tuo numero?","rom":"kwahl eh eel TOO-oh NOO-meh-roh"}
+{"id":"it.c0278","deck":"it.d.questions-and-connectors","it":"Quante persone?","rom":"KWAHN-teh pehr-SOH-neh"}
+{"id":"it.c0279","deck":"it.d.questions-and-connectors","it":"Non vengo perché sono stanco.","rom":"nohn VEHN-goh pehr-KEH SOH-noh STAHN-koh"}
+{"id":"it.c0280","deck":"it.d.questions-and-connectors","it":"Se vuoi, andiamo insieme.","rom":"seh vwoy ahn-DYAH-moh een-SYEH-meh"}
+{"id":"it.c0281","deck":"it.d.questions-and-connectors","it":"allora","rom":"ahl-LOH-rah"}
+{"id":"it.c0282","deck":"it.d.questions-and-connectors","it":"Tè o caffè?","rom":"teh oh kahf-FEH"}
+{"id":"it.c0283","deck":"it.d.questions-and-connectors","it":"Marco ed Elena","rom":"MAHR-koh ehd EH-leh-nah"}
+{"id":"it.c0284","deck":"it.d.questions-and-connectors","it":"Anch'io.","rom":"ahn-KEE-oh"}
+{"id":"it.c0285","deck":"it.d.questions-and-connectors","it":"Che cosa vuol dire?","rom":"keh KOH-sah vwohl DEE-reh"}
+{"id":"it.c0286","deck":"it.d.traps-for-english-speakers","it":"la libreria","rom":"lah lee-breh-REE-ah"}
+{"id":"it.c0287","deck":"it.d.traps-for-english-speakers","it":"i parenti","rom":"ee pah-REHN-tee"}
+{"id":"it.c0288","deck":"it.d.traps-for-english-speakers","it":"la camera","rom":"lah KAH-meh-rah"}
+{"id":"it.c0289","deck":"it.d.traps-for-english-speakers","it":"Ho caldo.","rom":"oh KAHL-doh"}
+{"id":"it.c0290","deck":"it.d.traps-for-english-speakers","it":"Conosci Marco?","rom":"koh-NOH-shee MAHR-koh"}
+{"id":"it.c0291","deck":"it.d.traps-for-english-speakers","it":"Il letto è morbido.","rom":"eel LEHT-toh eh MOHR-bee-doh"}
+{"id":"it.c0292","deck":"it.d.traps-for-english-speakers","it":"È un ragazzo educato.","rom":"eh oon rah-GAHT-tsoh eh-doo-KAH-toh"}
+{"id":"it.c0293","deck":"it.d.traps-for-english-speakers","it":"Attualmente lavoro a Roma.","rom":"aht-twahl-MEHN-teh lah-VOH-roh ah ROH-mah"}
+{"id":"it.c0294","deck":"it.d.traps-for-english-speakers","it":"Eventualmente ti chiamo domani.","rom":"eh-vehn-twahl-MEHN-teh tee KYAH-moh doh-MAH-nee"}
+{"id":"it.c0295","deck":"it.d.traps-for-english-speakers","it":"È una persona sensibile.","rom":"eh OO-nah pehr-SOH-nah sehn-SEE-bee-leh"}
+{"id":"it.c0296","deck":"it.d.traps-for-english-speakers","it":"la fattoria","rom":"lah faht-toh-REE-ah"}
+{"id":"it.c0297","deck":"it.d.traps-for-english-speakers","it":"Questo film mi annoia.","rom":"KWEHS-toh feelm mee ahn-NOH-yah"}
+{"id":"it.c0298","deck":"it.d.traps-for-english-speakers","it":"Mi dà fastidio.","rom":"mee dah fahs-TEE-dyoh"}
+{"id":"it.c0299","deck":"it.d.traps-for-english-speakers","it":"In realtà, sono di Milano.","rom":"een reh-ahl-TAH SOH-noh dee mee-LAH-noh"}
+{"id":"it.c0300","deck":"it.d.traps-for-english-speakers","it":"Ha senso.","rom":"ah SEHN-soh"}
+{"id":"it.c0301","deck":"it.d.traps-for-english-speakers","it":"Posso fare una foto?","rom":"POHS-soh FAH-reh OO-nah FOH-toh"}
+{"id":"it.c0302","deck":"it.d.traps-for-english-speakers","it":"Posso fare una domanda?","rom":"POHS-soh FAH-reh OO-nah doh-MAHN-dah"}
+{"id":"it.c0303","deck":"it.d.traps-for-english-speakers","it":"Sai nuotare?","rom":"sai nwoh-TAH-reh"}
+{"id":"it.c0304","deck":"it.d.cafe-and-menu-italian","it":"un latte","rom":"oon LAHT-teh"}
+{"id":"it.c0305","deck":"it.d.cafe-and-menu-italian","it":"i peperoni","rom":"ee peh-peh-ROH-nee"}
+{"id":"it.c0306","deck":"it.d.cafe-and-menu-italian","it":"un panino","rom":"oon pah-NEE-noh"}
+{"id":"it.c0307","deck":"it.d.cafe-and-menu-italian","it":"la bruschetta","rom":"lah broos-KEHT-tah"}
+{"id":"it.c0308","deck":"it.d.cafe-and-menu-italian","it":"Vorrei un cappuccino.","rom":"vohr-RAY oon kahp-poot-CHEE-noh"}
+{"id":"it.c0309","deck":"it.d.cafe-and-menu-italian","it":"il salame piccante","rom":"eel sah-LAH-meh peek-KAHN-teh"}
+{"id":"it.c0310","deck":"it.d.cafe-and-menu-italian","it":"un latte macchiato","rom":"oon LAHT-teh mahk-KYAH-toh"}
+{"id":"it.c0311","deck":"it.d.cafe-and-menu-italian","it":"un caffè macchiato","rom":"oon kahf-FEH mahk-KYAH-toh"}
+{"id":"it.c0312","deck":"it.d.cafe-and-menu-italian","it":"i biscotti","rom":"ee bees-KOHT-tee"}
+{"id":"it.c0313","deck":"it.d.cafe-and-menu-italian","it":"il prosciutto crudo","rom":"eel proh-SHOOT-toh KROO-doh"}
+{"id":"it.c0314","deck":"it.d.cafe-and-menu-italian","it":"la focaccia","rom":"lah foh-KAHT-chah"}
+{"id":"it.c0315","deck":"it.d.cafe-and-menu-italian","it":"una spremuta d'arancia","rom":"OO-nah spreh-MOO-tah dah-RAHN-chah"}
+{"id":"it.c0316","deck":"it.d.cafe-and-menu-italian","it":"il cornetto","rom":"eel kohr-NEHT-toh"}
+{"id":"it.c0317","deck":"it.d.cafe-and-menu-italian","it":"Prendo un caffè.","rom":"PREHN-doh oon kahf-FEH"}
+{"id":"it.c0318","deck":"it.d.cafe-and-menu-italian","it":"Mi porta il conto?","rom":"mee POHR-tah eel KOHN-toh"}
+{"id":"it.c0319","deck":"it.d.cafe-and-menu-italian","it":"Prego, si accomodi.","rom":"PREH-goh see ahk-KOH-moh-dee"}
+{"id":"it.c0320","deck":"it.d.cafe-and-menu-italian","it":"Cosa prende?","rom":"KOH-sah PREHN-deh"}
+{"id":"it.c0321","deck":"it.d.cafe-and-menu-italian","it":"le lasagne","rom":"leh lah-SAH-nyeh"}
+{"id":"it.c0322","deck":"it.d.compliments","it":"Era tutto buonissimo.","rom":"EH-rah TOOT-toh bwoh-NEES-see-moh"}
+{"id":"it.c0323","deck":"it.d.compliments","it":"Cucini benissimo!","rom":"koo-CHEE-nee beh-NEES-see-moh"}
+{"id":"it.c0324","deck":"it.d.compliments","it":"Complimenti!","rom":"kohm-plee-MEHN-tee"}
+{"id":"it.c0325","deck":"it.d.compliments","it":"Sei bravissimo!","rom":"say brah-VEES-see-moh"}
+{"id":"it.c0326","deck":"it.d.compliments","it":"Ottima idea!","rom":"OHT-tee-mah ee-DEH-ah"}
+{"id":"it.c0327","deck":"it.d.compliments","it":"Sei molto gentile.","rom":"say MOHL-toh jehn-TEE-leh"}
+{"id":"it.c0328","deck":"it.d.compliments","it":"Sei proprio divertente!","rom":"say PROH-pryoh dee-vehr-TEHN-teh"}
+{"id":"it.c0329","deck":"it.d.compliments","it":"Sei un gran lavoratore.","rom":"say oon grahn lah-voh-rah-TOH-reh"}
+{"id":"it.c0330","deck":"it.d.compliments","it":"Che bella casa!","rom":"keh BEHL-lah KAH-sah"}
+{"id":"it.c0331","deck":"it.d.compliments","it":"Ti sta benissimo!","rom":"tee stah beh-NEES-see-moh"}
+{"id":"it.c0332","deck":"it.d.compliments","it":"Che bella foto!","rom":"keh BEHL-lah FOH-toh"}
+{"id":"it.c0333","deck":"it.d.compliments","it":"Parla molto bene l'italiano.","rom":"PAHR-lah MOHL-toh BEH-neh lee-tah-LYAH-noh"}
+{"id":"it.c0334","deck":"it.d.compliments","it":"Grazie, troppo gentile!","rom":"GRAH-tsyeh TROHP-poh jehn-TEE-leh"}
+{"id":"it.c0335","deck":"it.d.compliments","it":"Grazie, ma ho ancora tanto da imparare.","rom":"GRAH-tsyeh mah oh ahn-KOH-rah TAHN-toh dah eem-pah-RAH-reh"}
+{"id":"it.c0336","deck":"it.d.compliments","it":"Che profumino!","rom":"keh proh-foo-MEE-noh"}
+{"id":"it.c0337","deck":"it.d.compliments","it":"Che buono!","rom":"keh BWOH-noh"}
+{"id":"it.c0338","deck":"it.d.compliments","it":"Hai fatto un ottimo lavoro.","rom":"ai FAHT-toh oon OHT-tee-moh lah-VOH-roh"}
+{"id":"it.c0339","deck":"it.d.compliments","it":"Sei proprio simpatico!","rom":"say PROH-pryoh seem-PAH-tee-koh"}
+{"id":"it.c0340","deck":"it.d.compliments","it":"Stai proprio bene!","rom":"stai PROH-pryoh BEH-neh"}
+{"id":"it.c0341","deck":"it.d.compliments","it":"Che bel bambino!","rom":"keh behl bahm-BEE-noh"}
+{"id":"it.c0342","deck":"it.d.compliments","it":"Ha un'ottima pronuncia.","rom":"ah oo-NOHT-tee-mah proh-NOON-chah"}
+{"id":"it.c0343","deck":"it.d.compliments","it":"Hai proprio buon gusto!","rom":"ai PROH-pryoh bwohn GOOS-toh"}
+{"id":"it.c0344","deck":"it.d.compliments","it":"Canti benissimo!","rom":"KAHN-tee beh-NEES-see-moh"}
+{"id":"it.c0345","deck":"it.d.compliments","it":"Che bel lavoro!","rom":"keh behl lah-VOH-roh"}
+{"id":"it.c0346","deck":"it.d.compliments","it":"Si vede che ci hai messo impegno.","rom":"see VEH-deh keh chee ai MEHS-soh eem-PEH-nyoh"}
+{"id":"it.c0347","deck":"it.d.compliments","it":"Dici?","rom":"DEE-chee"}
+{"id":"it.c0348","deck":"it.d.compliments","it":"Ma dai, grazie!","rom":"mah dai GRAH-tsyeh"}
+{"id":"it.c0349","deck":"it.d.compliments","it":"Grazie, anche tu!","rom":"GRAH-tsyeh AHN-keh too"}
+{"id":"it.c0350","deck":"it.d.compliments","it":"Grazie, mi fa piacere!","rom":"GRAH-tsyeh mee fah pyah-CHEH-reh"}
+{"id":"it.c0351","deck":"it.d.compliments","it":"È una ricetta di mia nonna.","rom":"eh OO-nah ree-CHEHT-tah dee MEE-ah NOHN-nah"}
+{"id":"it.c0352","deck":"it.d.flirting","it":"carino","rom":"kah-REE-noh"}
+{"id":"it.c0353","deck":"it.d.flirting","it":"bellissimo","rom":"behl-LEES-see-moh"}
+{"id":"it.c0354","deck":"it.d.flirting","it":"stupendo","rom":"stoo-PEHN-doh"}
+{"id":"it.c0355","deck":"it.d.flirting","it":"affascinante","rom":"ahf-fah-shee-NAHN-teh"}
+{"id":"it.c0356","deck":"it.d.flirting","it":"simpatico","rom":"seem-PAH-tee-koh"}
+{"id":"it.c0357","deck":"it.d.flirting","it":"dolce","rom":"DOHL-cheh"}
+{"id":"it.c0358","deck":"it.d.flirting","it":"spiritoso","rom":"spee-ree-TOH-soh"}
+{"id":"it.c0359","deck":"it.d.flirting","it":"solare","rom":"soh-LAH-reh"}
+{"id":"it.c0360","deck":"it.d.flirting","it":"elegante","rom":"eh-leh-GAHN-teh"}
+{"id":"it.c0361","deck":"it.d.flirting","it":"intelligente","rom":"een-tehl-lee-JEHN-teh"}
+{"id":"it.c0362","deck":"it.d.flirting","it":"divertente","rom":"dee-vehr-TEHN-teh"}
+{"id":"it.c0363","deck":"it.d.flirting","it":"interessante","rom":"een-teh-rehs-SAHN-teh"}
+{"id":"it.c0364","deck":"it.d.flirting","it":"il sorriso","rom":"eel sohr-REE-soh"}
+{"id":"it.c0365","deck":"it.d.flirting","it":"gli occhi","rom":"lyee OHK-kee"}
+{"id":"it.c0366","deck":"it.d.flirting","it":"la risata","rom":"lah ree-SAH-tah"}
+{"id":"it.c0367","deck":"it.d.flirting","it":"la voce","rom":"lah VOH-cheh"}
+{"id":"it.c0368","deck":"it.d.flirting","it":"lo sguardo","rom":"loh ZGWAHR-doh"}
+{"id":"it.c0369","deck":"it.d.flirting","it":"i capelli","rom":"ee kah-PEHL-lee"}
+{"id":"it.c0370","deck":"it.d.flirting","it":"lo stile","rom":"loh STEE-leh"}
+{"id":"it.c0371","deck":"it.d.flirting","it":"l'appuntamento","rom":"lahp-poon-tah-MEHN-toh"}
+{"id":"it.c0372","deck":"it.d.flirting","it":"Che carina!","rom":"keh kah-REE-nah"}
+{"id":"it.c0373","deck":"it.d.flirting","it":"Sei carina.","rom":"say kah-REE-nah"}
+{"id":"it.c0374","deck":"it.d.flirting","it":"Sei proprio carino.","rom":"say PROH-pryoh kah-REE-noh"}
+{"id":"it.c0375","deck":"it.d.flirting","it":"Sei bellissima.","rom":"say behl-LEES-see-mah"}
+{"id":"it.c0376","deck":"it.d.flirting","it":"Sei bellissima stasera.","rom":"say behl-LEES-see-mah stah-SEH-rah"}
+{"id":"it.c0377","deck":"it.d.flirting","it":"Stai benissimo stasera.","rom":"stai beh-NEES-see-moh stah-SEH-rah"}
+{"id":"it.c0378","deck":"it.d.flirting","it":"Hai un bel sorriso.","rom":"ai oon behl sohr-REE-soh"}
+{"id":"it.c0379","deck":"it.d.flirting","it":"Hai un sorriso bellissimo.","rom":"ai oon sohr-REE-soh behl-LEES-see-moh"}
+{"id":"it.c0380","deck":"it.d.flirting","it":"Hai degli occhi stupendi.","rom":"ai DEH-lyee OHK-kee stoo-PEHN-dee"}
+{"id":"it.c0381","deck":"it.d.flirting","it":"Che begli occhi!","rom":"keh BEH-lyee OHK-kee"}
+{"id":"it.c0382","deck":"it.d.flirting","it":"Mi stai simpatico.","rom":"mee stai seem-PAH-tee-koh"}
+{"id":"it.c0383","deck":"it.d.flirting","it":"Mi fai ridere.","rom":"mee fai REE-deh-reh"}
+{"id":"it.c0384","deck":"it.d.flirting","it":"Mi piace la tua risata.","rom":"mee PYAH-cheh lah TOO-ah ree-SAH-tah"}
+{"id":"it.c0385","deck":"it.d.flirting","it":"Con te mi diverto tanto.","rom":"kohn teh mee dee-VEHR-toh TAHN-toh"}
+{"id":"it.c0386","deck":"it.d.flirting","it":"Hai una bella voce.","rom":"ai OO-nah BEHL-lah VOH-cheh"}
+{"id":"it.c0387","deck":"it.d.flirting","it":"Sei molto interessante.","rom":"say MOHL-toh een-teh-rehs-SAHN-teh"}
+{"id":"it.c0388","deck":"it.d.flirting","it":"Mi piace parlare con te.","rom":"mee PYAH-cheh pahr-LAH-reh kohn teh"}
+{"id":"it.c0389","deck":"it.d.flirting","it":"Sei dolcissimo.","rom":"say dohl-CHEES-see-moh"}
+{"id":"it.c0390","deck":"it.d.flirting","it":"Che dolce!","rom":"keh DOHL-cheh"}
+{"id":"it.c0391","deck":"it.d.flirting","it":"Mi piace il tuo stile.","rom":"mee PYAH-cheh eel TOO-oh STEE-leh"}
+{"id":"it.c0392","deck":"it.d.flirting","it":"Sei molto elegante stasera.","rom":"say MOHL-toh eh-leh-GAHN-teh stah-SEH-rah"}
+{"id":"it.c0393","deck":"it.d.flirting","it":"Sei una persona solare.","rom":"say OO-nah pehr-SOH-nah soh-LAH-reh"}
+{"id":"it.c0394","deck":"it.d.flirting","it":"Sei molto affascinante.","rom":"say MOHL-toh ahf-fah-shee-NAHN-teh"}
+{"id":"it.c0395","deck":"it.d.flirting","it":"Posso offrirti qualcosa da bere?","rom":"POHS-soh ohf-FREER-tee kwahl-KOH-sah dah BEH-reh"}
+{"id":"it.c0396","deck":"it.d.flirting","it":"Ti va di prendere un caffè?","rom":"tee vah dee PREHN-deh-reh oon kahf-FEH"}
+{"id":"it.c0397","deck":"it.d.flirting","it":"Ti va di uscire con me?","rom":"tee vah dee oo-SHEE-reh kohn meh"}
+{"id":"it.c0398","deck":"it.d.flirting","it":"Sei libera sabato sera?","rom":"say LEE-beh-rah SAH-bah-toh SEH-rah"}
+{"id":"it.c0399","deck":"it.d.flirting","it":"Andiamo a cena insieme?","rom":"ahn-DYAH-moh ah CHEH-nah een-SYEH-meh"}
+{"id":"it.c0400","deck":"it.d.flirting","it":"Mi lasci il tuo numero?","rom":"mee LAH-shee eel TOO-oh NOO-meh-roh"}
+{"id":"it.c0401","deck":"it.d.flirting","it":"Sei fidanzata?","rom":"say fee-dahn-TSAH-tah"}
+{"id":"it.c0402","deck":"it.d.flirting","it":"Mi piaci.","rom":"mee PYAH-chee"}
+{"id":"it.c0403","deck":"it.d.flirting","it":"Penso spesso a te.","rom":"PEHN-soh SPEHS-soh ah teh"}
+{"id":"it.c0404","deck":"it.d.flirting","it":"Mi sei mancata.","rom":"mee say mahn-KAH-tah"}
+{"id":"it.c0405","deck":"it.d.flirting","it":"Ho una cotta per te.","rom":"oh OO-nah KOHT-tah pehr teh"}
+{"id":"it.c0406","deck":"it.d.flirting","it":"Volentieri!","rom":"voh-lehn-TYEH-ree"}
+{"id":"it.c0407","deck":"it.d.flirting","it":"Mi farebbe molto piacere.","rom":"mee fah-REHB-beh MOHL-toh pyah-CHEH-reh"}
+{"id":"it.c0408","deck":"it.d.flirting","it":"Lo dici a tutte?","rom":"loh DEE-chee ah TOOT-teh"}
+{"id":"it.c0409","deck":"it.d.flirting","it":"Che galante!","rom":"keh gah-LAHN-teh"}
+{"id":"it.c0410","deck":"it.d.flirting","it":"Esagerato!","rom":"eh-sah-jeh-RAH-toh"}
+{"id":"it.c0411","deck":"it.d.flirting","it":"Grazie, ma sono fidanzata.","rom":"GRAH-tsyeh mah SOH-noh fee-dahn-TSAH-tah"}
+{"id":"it.c0412","deck":"it.d.flirting","it":"Grazie, ma non sono interessata.","rom":"GRAH-tsyeh mah nohn SOH-noh een-teh-rehs-SAH-tah"}
+{"id":"it.c0413","deck":"it.d.flirting","it":"Preferisco restare amici.","rom":"preh-feh-REES-koh rehs-TAH-reh ah-MEE-chee"}
+{"id":"it.c0414","deck":"it.d.flirting","it":"Sei gentile, ma no, grazie.","rom":"say jehn-TEE-leh mah noh GRAH-tsyeh"}
+{"id":"it.c0415","deck":"it.d.top-nouns","it":"la casa","rom":"lah KAH-sah"}
+{"id":"it.c0416","deck":"it.d.top-nouns","it":"la cosa","rom":"lah KOH-sah"}
+{"id":"it.c0417","deck":"it.d.top-nouns","it":"il tempo","rom":"eel TEHM-poh"}
+{"id":"it.c0418","deck":"it.d.top-nouns","it":"la volta","rom":"lah VOHL-tah"}
+{"id":"it.c0419","deck":"it.d.top-nouns","it":"l'uomo","rom":"LWOH-moh"}
+{"id":"it.c0420","deck":"it.d.top-nouns","it":"la donna","rom":"lah DOHN-nah"}
+{"id":"it.c0421","deck":"it.d.top-nouns","it":"la vita","rom":"lah VEE-tah"}
+{"id":"it.c0422","deck":"it.d.top-nouns","it":"il mondo","rom":"eel MOHN-doh"}
+{"id":"it.c0423","deck":"it.d.top-nouns","it":"la parte","rom":"lah PAHR-teh"}
+{"id":"it.c0424","deck":"it.d.top-nouns","it":"il modo","rom":"eel MOH-doh"}
+{"id":"it.c0425","deck":"it.d.top-nouns","it":"il momento","rom":"eel moh-MEHN-toh"}
+{"id":"it.c0426","deck":"it.d.top-nouns","it":"il posto","rom":"eel POHS-toh"}
+{"id":"it.c0427","deck":"it.d.top-nouns","it":"la persona","rom":"lah pehr-SOH-nah"}
+{"id":"it.c0428","deck":"it.d.top-nouns","it":"il lavoro","rom":"eel lah-VOH-roh"}
+{"id":"it.c0429","deck":"it.d.top-nouns","it":"la città","rom":"lah cheet-TAH"}
+{"id":"it.c0430","deck":"it.d.top-nouns","it":"il paese","rom":"eel pah-EH-seh"}
+{"id":"it.c0431","deck":"it.d.top-nouns","it":"la macchina","rom":"lah MAHK-kee-nah"}
+{"id":"it.c0432","deck":"it.d.top-nouns","it":"il padre","rom":"eel PAH-dreh"}
+{"id":"it.c0433","deck":"it.d.top-nouns","it":"la madre","rom":"lah MAH-dreh"}
+{"id":"it.c0434","deck":"it.d.top-nouns","it":"la mamma","rom":"lah MAHM-mah"}
+{"id":"it.c0435","deck":"it.d.top-nouns","it":"il papà","rom":"eel pah-PAH"}
+{"id":"it.c0436","deck":"it.d.top-nouns","it":"il ragazzo","rom":"eel rah-GAHT-tsoh"}
+{"id":"it.c0437","deck":"it.d.top-nouns","it":"la ragazza","rom":"lah rah-GAHT-tsah"}
+{"id":"it.c0438","deck":"it.d.top-nouns","it":"il bambino","rom":"eel bahm-BEE-noh"}
+{"id":"it.c0439","deck":"it.d.top-nouns","it":"il signore","rom":"eel see-NYOH-reh"}
+{"id":"it.c0440","deck":"it.d.top-nouns","it":"la signora","rom":"lah see-NYOH-rah"}
+{"id":"it.c0441","deck":"it.d.top-nouns","it":"la storia","rom":"lah STOH-ryah"}
+{"id":"it.c0442","deck":"it.d.top-nouns","it":"il problema","rom":"eel proh-BLEH-mah"}
+{"id":"it.c0443","deck":"it.d.top-nouns","it":"la domanda","rom":"lah doh-MAHN-dah"}
+{"id":"it.c0444","deck":"it.d.top-nouns","it":"la risposta","rom":"lah rees-POHS-tah"}
+{"id":"it.c0445","deck":"it.d.top-nouns","it":"la parola","rom":"lah pah-ROH-lah"}
+{"id":"it.c0446","deck":"it.d.top-nouns","it":"il nome","rom":"eel NOH-meh"}
+{"id":"it.c0447","deck":"it.d.top-nouns","it":"la lingua","rom":"lah LEEN-gwah"}
+{"id":"it.c0448","deck":"it.d.top-nouns","it":"la mano","rom":"lah MAH-noh"}
+{"id":"it.c0449","deck":"it.d.top-nouns","it":"la testa","rom":"lah TEHS-tah"}
+{"id":"it.c0450","deck":"it.d.top-nouns","it":"il corpo","rom":"eel KOHR-poh"}
+{"id":"it.c0451","deck":"it.d.top-nouns","it":"la porta","rom":"lah POHR-tah"}
+{"id":"it.c0452","deck":"it.d.top-nouns","it":"la finestra","rom":"lah fee-NEHS-trah"}
+{"id":"it.c0453","deck":"it.d.top-nouns","it":"la strada","rom":"lah STRAH-dah"}
+{"id":"it.c0454","deck":"it.d.top-nouns","it":"la scuola","rom":"lah SKWOH-lah"}
+{"id":"it.c0455","deck":"it.d.top-nouns","it":"la mattina","rom":"lah maht-TEE-nah"}
+{"id":"it.c0456","deck":"it.d.top-nouns","it":"la sera","rom":"lah SEH-rah"}
+{"id":"it.c0457","deck":"it.d.top-nouns","it":"il pomeriggio","rom":"eel poh-meh-REED-joh"}
+{"id":"it.c0458","deck":"it.d.top-nouns","it":"l'ora","rom":"LOH-rah"}
+{"id":"it.c0459","deck":"it.d.top-nouns","it":"il minuto","rom":"eel mee-NOO-toh"}
+{"id":"it.c0460","deck":"it.d.top-nouns","it":"la settimana","rom":"lah seht-tee-MAH-nah"}
+{"id":"it.c0461","deck":"it.d.top-nouns","it":"il mese","rom":"eel MEH-seh"}
+{"id":"it.c0462","deck":"it.d.top-nouns","it":"il numero","rom":"eel NOO-meh-roh"}
+{"id":"it.c0463","deck":"it.d.top-nouns","it":"i soldi","rom":"ee SOHL-dee"}
+{"id":"it.c0464","deck":"it.d.top-nouns","it":"il prezzo","rom":"eel PREHT-tsoh"}
+{"id":"it.c0465","deck":"it.d.top-nouns","it":"il cibo","rom":"eel CHEE-boh"}
+{"id":"it.c0466","deck":"it.d.top-nouns","it":"l'acqua","rom":"LAHK-kwah"}
+{"id":"it.c0467","deck":"it.d.top-nouns","it":"il vino","rom":"eel VEE-noh"}
+{"id":"it.c0468","deck":"it.d.top-nouns","it":"il treno","rom":"eel TREH-noh"}
+{"id":"it.c0469","deck":"it.d.top-nouns","it":"la stazione","rom":"lah stah-TSYOH-neh"}
+{"id":"it.c0470","deck":"it.d.top-nouns","it":"l'albergo","rom":"lahl-BEHR-goh"}
+{"id":"it.c0471","deck":"it.d.top-nouns","it":"il ristorante","rom":"eel rees-toh-RAHN-teh"}
+{"id":"it.c0472","deck":"it.d.top-nouns","it":"il negozio","rom":"eel neh-GOH-tsyoh"}
+{"id":"it.c0473","deck":"it.d.top-nouns","it":"l'ufficio","rom":"loof-FEE-choh"}
+{"id":"it.c0474","deck":"it.d.top-nouns","it":"il libro","rom":"eel LEE-broh"}
+{"id":"it.c0475","deck":"it.d.top-nouns","it":"la musica","rom":"lah MOO-see-kah"}
+{"id":"it.c0476","deck":"it.d.top-nouns","it":"il film","rom":"eel feelm"}
+{"id":"it.c0477","deck":"it.d.top-nouns","it":"la foto","rom":"lah FOH-toh"}
+{"id":"it.c0478","deck":"it.d.top-nouns","it":"il viaggio","rom":"eel VYAHD-joh"}
+{"id":"it.c0479","deck":"it.d.top-nouns","it":"la vacanza","rom":"lah vah-KAHN-tsah"}
+{"id":"it.c0480","deck":"it.d.top-nouns","it":"la festa","rom":"lah FEHS-tah"}
+{"id":"it.c0481","deck":"it.d.top-nouns","it":"il regalo","rom":"eel reh-GAH-loh"}
+{"id":"it.c0482","deck":"it.d.top-nouns","it":"il mare","rom":"eel MAH-reh"}
+{"id":"it.c0483","deck":"it.d.top-nouns","it":"il sole","rom":"eel SOH-leh"}
+{"id":"it.c0484","deck":"it.d.top-nouns","it":"la pioggia","rom":"lah PYOHD-jah"}
+{"id":"it.c0485","deck":"it.d.top-nouns","it":"la luce","rom":"lah LOO-cheh"}
+{"id":"it.c0486","deck":"it.d.top-nouns","it":"il colore","rom":"eel koh-LOH-reh"}
+{"id":"it.c0487","deck":"it.d.top-nouns","it":"l'idea","rom":"lee-DEH-ah"}
+{"id":"it.c0488","deck":"it.d.top-nouns","it":"la verità","rom":"lah veh-ree-TAH"}
+{"id":"it.c0489","deck":"it.d.top-nouns","it":"l'amore","rom":"lah-MOH-reh"}
+{"id":"it.c0490","deck":"it.d.top-nouns","it":"la famiglia","rom":"lah fah-MEE-lyah"}
+{"id":"it.c0491","deck":"it.d.top-nouns","it":"il cane","rom":"eel KAH-neh"}
+{"id":"it.c0492","deck":"it.d.top-nouns","it":"il gatto","rom":"eel GAHT-toh"}
+{"id":"it.c0493","deck":"it.d.top-nouns","it":"il medico","rom":"eel MEH-dee-koh"}
+{"id":"it.c0494","deck":"it.d.top-nouns","it":"la gente","rom":"lah JEHN-teh"}
+{"id":"it.c0495","deck":"it.d.top-nouns","it":"il bisogno","rom":"eel bee-SOH-nyoh"}
+{"id":"it.c0496","deck":"it.d.top-nouns","it":"la ragione","rom":"lah rah-JOH-neh"}
+{"id":"it.c0497","deck":"it.d.top-nouns","it":"la paura","rom":"lah pah-OO-rah"}
+{"id":"it.c0498","deck":"it.d.top-nouns","it":"la sedia","rom":"lah SEH-dyah"}
+{"id":"it.c0499","deck":"it.d.top-nouns","it":"il tavolo","rom":"eel TAH-voh-loh"}
+{"id":"it.c0500","deck":"it.d.top-nouns","it":"la lettera","rom":"lah LEHT-teh-rah"}
+{"id":"it.c0501","deck":"it.d.top-nouns","it":"il caso","rom":"eel KAH-soh"}
+{"id":"it.c0502","deck":"it.d.top-nouns","it":"la notizia","rom":"lah noh-TEE-tsyah"}
+{"id":"it.c0503","deck":"it.d.top-nouns","it":"la terra","rom":"lah TEHR-rah"}
+{"id":"it.c0504","deck":"it.d.top-nouns","it":"l'aria","rom":"LAH-ryah"}
+{"id":"it.c0505","deck":"it.d.top-nouns","it":"il compleanno","rom":"eel kohm-pleh-AHN-noh"}
+{"id":"it.c0506","deck":"it.d.top-nouns","it":"il fiore","rom":"eel FYOH-reh"}
+{"id":"it.c0507","deck":"it.d.top-nouns","it":"l'esempio","rom":"leh-SEHM-pyoh"}
+{"id":"it.c0508","deck":"it.d.top-nouns","it":"la fine","rom":"lah FEE-neh"}
+{"id":"it.c0509","deck":"it.d.top-nouns","it":"l'inizio","rom":"lee-NEE-tsyoh"}
+{"id":"it.c0510","deck":"it.d.top-nouns","it":"la sorpresa","rom":"lah sohr-PREH-sah"}
+{"id":"it.c0511","deck":"it.d.top-nouns","it":"il piatto","rom":"eel PYAHT-toh"}
+{"id":"it.c0512","deck":"it.d.top-nouns","it":"il gioco","rom":"eel JOH-koh"}
+{"id":"it.c0513","deck":"it.d.top-nouns","it":"il giardino","rom":"eel jahr-DEE-noh"}
+{"id":"it.c0514","deck":"it.d.top-nouns","it":"il mercato","rom":"eel mehr-KAH-toh"}
+{"id":"it.c0515","deck":"it.d.top-nouns","it":"la spiaggia","rom":"lah SPYAHD-jah"}
+{"id":"it.c0516","deck":"it.d.top-nouns","it":"la montagna","rom":"lah mohn-TAH-nyah"}
+{"id":"it.c0517","deck":"it.d.top-verbs","it":"essere","rom":"EHS-seh-reh"}
+{"id":"it.c0518","deck":"it.d.top-verbs","it":"avere","rom":"ah-VEH-reh"}
+{"id":"it.c0519","deck":"it.d.top-verbs","it":"fare","rom":"FAH-reh"}
+{"id":"it.c0520","deck":"it.d.top-verbs","it":"dire","rom":"DEE-reh"}
+{"id":"it.c0521","deck":"it.d.top-verbs","it":"potere","rom":"poh-TEH-reh"}
+{"id":"it.c0522","deck":"it.d.top-verbs","it":"andare","rom":"ahn-DAH-reh"}
+{"id":"it.c0523","deck":"it.d.top-verbs","it":"vedere","rom":"veh-DEH-reh"}
+{"id":"it.c0524","deck":"it.d.top-verbs","it":"sapere","rom":"sah-PEH-reh"}
+{"id":"it.c0525","deck":"it.d.top-verbs","it":"venire","rom":"veh-NEE-reh"}
+{"id":"it.c0526","deck":"it.d.top-verbs","it":"dovere","rom":"doh-VEH-reh"}
+{"id":"it.c0527","deck":"it.d.top-verbs","it":"volere","rom":"voh-LEH-reh"}
+{"id":"it.c0528","deck":"it.d.top-verbs","it":"stare","rom":"STAH-reh"}
+{"id":"it.c0529","deck":"it.d.top-verbs","it":"dare","rom":"DAH-reh"}
+{"id":"it.c0530","deck":"it.d.top-verbs","it":"parlare","rom":"pahr-LAH-reh"}
+{"id":"it.c0531","deck":"it.d.top-verbs","it":"trovare","rom":"troh-VAH-reh"}
+{"id":"it.c0532","deck":"it.d.top-verbs","it":"sentire","rom":"sehn-TEE-reh"}
+{"id":"it.c0533","deck":"it.d.top-verbs","it":"lasciare","rom":"lah-SHAH-reh"}
+{"id":"it.c0534","deck":"it.d.top-verbs","it":"prendere","rom":"PREHN-deh-reh"}
+{"id":"it.c0535","deck":"it.d.top-verbs","it":"guardare","rom":"gwahr-DAH-reh"}
+{"id":"it.c0536","deck":"it.d.top-verbs","it":"mettere","rom":"MEHT-teh-reh"}
+{"id":"it.c0537","deck":"it.d.top-verbs","it":"pensare","rom":"pehn-SAH-reh"}
+{"id":"it.c0538","deck":"it.d.top-verbs","it":"passare","rom":"pahs-SAH-reh"}
+{"id":"it.c0539","deck":"it.d.top-verbs","it":"credere","rom":"KREH-deh-reh"}
+{"id":"it.c0540","deck":"it.d.top-verbs","it":"portare","rom":"pohr-TAH-reh"}
+{"id":"it.c0541","deck":"it.d.top-verbs","it":"tornare","rom":"tohr-NAH-reh"}
+{"id":"it.c0542","deck":"it.d.top-verbs","it":"chiamare","rom":"kyah-MAH-reh"}
+{"id":"it.c0543","deck":"it.d.top-verbs","it":"capire","rom":"kah-PEE-reh"}
+{"id":"it.c0544","deck":"it.d.top-verbs","it":"conoscere","rom":"koh-NOH-sheh-reh"}
+{"id":"it.c0545","deck":"it.d.top-verbs","it":"vivere","rom":"VEE-veh-reh"}
+{"id":"it.c0546","deck":"it.d.top-verbs","it":"uscire","rom":"oo-SHEE-reh"}
+{"id":"it.c0547","deck":"it.d.top-verbs","it":"restare","rom":"rehs-TAH-reh"}
+{"id":"it.c0548","deck":"it.d.top-verbs","it":"aspettare","rom":"ahs-peht-TAH-reh"}
+{"id":"it.c0549","deck":"it.d.top-verbs","it":"chiedere","rom":"KYEH-deh-reh"}
+{"id":"it.c0550","deck":"it.d.top-verbs","it":"finire","rom":"fee-NEE-reh"}
+{"id":"it.c0551","deck":"it.d.top-verbs","it":"cercare","rom":"chehr-KAH-reh"}
+{"id":"it.c0552","deck":"it.d.top-verbs","it":"entrare","rom":"ehn-TRAH-reh"}
+{"id":"it.c0553","deck":"it.d.top-verbs","it":"arrivare","rom":"ahr-ree-VAH-reh"}
+{"id":"it.c0554","deck":"it.d.top-verbs","it":"rimanere","rom":"ree-mah-NEH-reh"}
+{"id":"it.c0555","deck":"it.d.top-verbs","it":"aiutare","rom":"ah-yoo-TAH-reh"}
+{"id":"it.c0556","deck":"it.d.top-verbs","it":"lavorare","rom":"lah-voh-RAH-reh"}
+{"id":"it.c0557","deck":"it.d.top-verbs","it":"mangiare","rom":"mahn-JAH-reh"}
+{"id":"it.c0558","deck":"it.d.top-verbs","it":"bere","rom":"BEH-reh"}
+{"id":"it.c0559","deck":"it.d.top-verbs","it":"scrivere","rom":"SKREE-veh-reh"}
+{"id":"it.c0560","deck":"it.d.top-verbs","it":"leggere","rom":"LEHD-jeh-reh"}
+{"id":"it.c0561","deck":"it.d.top-verbs","it":"giocare","rom":"joh-KAH-reh"}
+{"id":"it.c0562","deck":"it.d.top-verbs","it":"perdere","rom":"PEHR-deh-reh"}
+{"id":"it.c0563","deck":"it.d.top-verbs","it":"pagare","rom":"pah-GAH-reh"}
+{"id":"it.c0564","deck":"it.d.top-verbs","it":"comprare","rom":"kohm-PRAH-reh"}
+{"id":"it.c0565","deck":"it.d.top-verbs","it":"aprire","rom":"ah-PREE-reh"}
+{"id":"it.c0566","deck":"it.d.top-verbs","it":"chiudere","rom":"KYOO-deh-reh"}
+{"id":"it.c0567","deck":"it.d.top-verbs","it":"cominciare","rom":"koh-meen-CHAH-reh"}
+{"id":"it.c0568","deck":"it.d.top-verbs","it":"dormire","rom":"dohr-MEE-reh"}
+{"id":"it.c0569","deck":"it.d.top-verbs","it":"partire","rom":"pahr-TEE-reh"}
+{"id":"it.c0570","deck":"it.d.top-verbs","it":"ascoltare","rom":"ahs-kohl-TAH-reh"}
+{"id":"it.c0571","deck":"it.d.top-verbs","it":"rispondere","rom":"rees-POHN-deh-reh"}
+{"id":"it.c0572","deck":"it.d.top-verbs","it":"mandare","rom":"mahn-DAH-reh"}
+{"id":"it.c0573","deck":"it.d.top-verbs","it":"ricordare","rom":"ree-kohr-DAH-reh"}
+{"id":"it.c0574","deck":"it.d.top-verbs","it":"dimenticare","rom":"dee-mehn-tee-KAH-reh"}
+{"id":"it.c0575","deck":"it.d.top-verbs","it":"cambiare","rom":"kahm-BYAH-reh"}
+{"id":"it.c0576","deck":"it.d.top-verbs","it":"imparare","rom":"eem-pah-RAH-reh"}
+{"id":"it.c0577","deck":"it.d.top-verbs","it":"studiare","rom":"stoo-DYAH-reh"}
+{"id":"it.c0578","deck":"it.d.top-verbs","it":"usare","rom":"oo-SAH-reh"}
+{"id":"it.c0579","deck":"it.d.top-verbs","it":"abitare","rom":"ah-bee-TAH-reh"}
+{"id":"it.c0580","deck":"it.d.top-verbs","it":"preferire","rom":"preh-feh-REE-reh"}
+{"id":"it.c0581","deck":"it.d.top-verbs","it":"sembrare","rom":"sehm-BRAH-reh"}
+{"id":"it.c0582","deck":"it.d.top-verbs","it":"succedere","rom":"soot-CHEH-deh-reh"}
+{"id":"it.c0583","deck":"it.d.top-verbs","it":"morire","rom":"moh-REE-reh"}
+{"id":"it.c0584","deck":"it.d.top-verbs","it":"nascere","rom":"NAH-sheh-reh"}
+{"id":"it.c0585","deck":"it.d.top-verbs","it":"costare","rom":"kohs-TAH-reh"}
+{"id":"it.c0586","deck":"it.d.top-verbs","it":"vendere","rom":"VEHN-deh-reh"}
+{"id":"it.c0587","deck":"it.d.top-verbs","it":"provare","rom":"proh-VAH-reh"}
+{"id":"it.c0588","deck":"it.d.top-verbs","it":"spiegare","rom":"spyeh-GAH-reh"}
+{"id":"it.c0589","deck":"it.d.top-verbs","it":"insegnare","rom":"een-seh-NYAH-reh"}
+{"id":"it.c0590","deck":"it.d.top-verbs","it":"mostrare","rom":"mohs-TRAH-reh"}
+{"id":"it.c0591","deck":"it.d.top-verbs","it":"offrire","rom":"ohf-FREE-reh"}
+{"id":"it.c0592","deck":"it.d.top-verbs","it":"salire","rom":"sah-LEE-reh"}
+{"id":"it.c0593","deck":"it.d.top-verbs","it":"scendere","rom":"SHEHN-deh-reh"}
+{"id":"it.c0594","deck":"it.d.top-verbs","it":"tenere","rom":"teh-NEH-reh"}
+{"id":"it.c0595","deck":"it.d.top-verbs","it":"cadere","rom":"kah-DEH-reh"}
+{"id":"it.c0596","deck":"it.d.top-verbs","it":"decidere","rom":"deh-CHEE-deh-reh"}
+{"id":"it.c0597","deck":"it.d.top-verbs","it":"correre","rom":"KOHR-reh-reh"}
+{"id":"it.c0598","deck":"it.d.top-verbs","it":"ballare","rom":"bahl-LAH-reh"}
+{"id":"it.c0599","deck":"it.d.top-verbs","it":"cantare","rom":"kahn-TAH-reh"}
+{"id":"it.c0600","deck":"it.d.top-verbs","it":"nuotare","rom":"nwoh-TAH-reh"}
+{"id":"it.c0601","deck":"it.d.top-verbs","it":"cucinare","rom":"koo-chee-NAH-reh"}
+{"id":"it.c0602","deck":"it.d.top-verbs","it":"viaggiare","rom":"vyahd-JAH-reh"}
+{"id":"it.c0603","deck":"it.d.top-verbs","it":"camminare","rom":"kahm-mee-NAH-reh"}
+{"id":"it.c0604","deck":"it.d.top-verbs","it":"incontrare","rom":"een-kohn-TRAH-reh"}
+{"id":"it.c0605","deck":"it.d.top-verbs","it":"invitare","rom":"een-vee-TAH-reh"}
+{"id":"it.c0606","deck":"it.d.top-verbs","it":"guidare","rom":"gwee-DAH-reh"}
+{"id":"it.c0607","deck":"it.d.top-verbs","it":"amare","rom":"ah-MAH-reh"}
+{"id":"it.c0608","deck":"it.d.top-verbs","it":"sperare","rom":"speh-RAH-reh"}
+{"id":"it.c0609","deck":"it.d.top-verbs","it":"ridere","rom":"REE-deh-reh"}
+{"id":"it.c0610","deck":"it.d.top-verbs","it":"piangere","rom":"PYAHN-jeh-reh"}
+{"id":"it.c0611","deck":"it.d.top-verbs","it":"vincere","rom":"VEEN-cheh-reh"}
+{"id":"it.c0612","deck":"it.d.top-verbs","it":"ricevere","rom":"ree-CHEH-veh-reh"}
+{"id":"it.c0613","deck":"it.d.top-verbs","it":"spendere","rom":"SPEHN-deh-reh"}
+{"id":"it.c0614","deck":"it.d.top-verbs","it":"mancare","rom":"mahn-KAH-reh"}
+{"id":"it.c0615","deck":"it.d.top-verbs","it":"servire","rom":"sehr-VEE-reh"}
+{"id":"it.c0616","deck":"it.d.top-verbs","it":"bastare","rom":"bahs-TAH-reh"}
+{"id":"it.c0617","deck":"it.d.top-verbs","it":"smettere","rom":"ZMEHT-teh-reh"}
+{"id":"it.c0618","deck":"it.d.top-verbs","it":"accendere","rom":"aht-CHEHN-deh-reh"}
+{"id":"it.c0619","deck":"it.d.top-verbs","it":"spegnere","rom":"SPEH-nyeh-reh"}
+{"id":"it.c0620","deck":"it.d.top-verbs","it":"lavare","rom":"lah-VAH-reh"}
+{"id":"it.c0621","deck":"it.d.top-verbs","it":"pulire","rom":"poo-LEE-reh"}
+{"id":"it.c0622","deck":"it.d.top-verbs","it":"prenotare","rom":"preh-noh-TAH-reh"}
+{"id":"it.c0623","deck":"it.d.top-verbs","it":"girare","rom":"jee-RAH-reh"}
+{"id":"it.c0624","deck":"it.d.top-verbs","it":"sbagliare","rom":"zbah-LYAH-reh"}
+{"id":"it.c0625","deck":"it.d.top-verbs","it":"crescere","rom":"KREH-sheh-reh"}
+{"id":"it.c0626","deck":"it.d.top-verbs","it":"toccare","rom":"tohk-KAH-reh"}
+{"id":"it.c0627","deck":"it.d.top-adjectives","it":"buono","rom":"BWOH-noh"}
+{"id":"it.c0628","deck":"it.d.top-adjectives","it":"grande","rom":"GRAHN-deh"}
+{"id":"it.c0629","deck":"it.d.top-adjectives","it":"nuovo","rom":"NWOH-voh"}
+{"id":"it.c0630","deck":"it.d.top-adjectives","it":"bello","rom":"BEHL-loh"}
+{"id":"it.c0631","deck":"it.d.top-adjectives","it":"piccolo","rom":"PEEK-koh-loh"}
+{"id":"it.c0632","deck":"it.d.top-adjectives","it":"vecchio","rom":"VEHK-kyoh"}
+{"id":"it.c0633","deck":"it.d.top-adjectives","it":"giovane","rom":"JOH-vah-neh"}
+{"id":"it.c0634","deck":"it.d.top-adjectives","it":"primo","rom":"PREE-moh"}
+{"id":"it.c0635","deck":"it.d.top-adjectives","it":"ultimo","rom":"OOL-tee-moh"}
+{"id":"it.c0636","deck":"it.d.top-adjectives","it":"stesso","rom":"STEHS-soh"}
+{"id":"it.c0637","deck":"it.d.top-adjectives","it":"vero","rom":"VEH-roh"}
+{"id":"it.c0638","deck":"it.d.top-adjectives","it":"lungo","rom":"LOON-goh"}
+{"id":"it.c0639","deck":"it.d.top-adjectives","it":"alto","rom":"AHL-toh"}
+{"id":"it.c0640","deck":"it.d.top-adjectives","it":"basso","rom":"BAHS-soh"}
+{"id":"it.c0641","deck":"it.d.top-adjectives","it":"caro","rom":"KAH-roh"}
+{"id":"it.c0642","deck":"it.d.top-adjectives","it":"importante","rom":"eem-pohr-TAHN-teh"}
+{"id":"it.c0643","deck":"it.d.top-adjectives","it":"possibile","rom":"pohs-SEE-bee-leh"}
+{"id":"it.c0644","deck":"it.d.top-adjectives","it":"difficile","rom":"deef-FEE-chee-leh"}
+{"id":"it.c0645","deck":"it.d.top-adjectives","it":"facile","rom":"FAH-chee-leh"}
+{"id":"it.c0646","deck":"it.d.top-adjectives","it":"bravo","rom":"BRAH-voh"}
+{"id":"it.c0647","deck":"it.d.top-adjectives","it":"giusto","rom":"JOOS-toh"}
+{"id":"it.c0648","deck":"it.d.top-adjectives","it":"sbagliato","rom":"zbah-LYAH-toh"}
+{"id":"it.c0649","deck":"it.d.top-adjectives","it":"pronto","rom":"PROHN-toh"}
+{"id":"it.c0650","deck":"it.d.top-adjectives","it":"contento","rom":"kohn-TEHN-toh"}
+{"id":"it.c0651","deck":"it.d.top-adjectives","it":"felice","rom":"feh-LEE-cheh"}
+{"id":"it.c0652","deck":"it.d.top-adjectives","it":"triste","rom":"TREES-teh"}
+{"id":"it.c0653","deck":"it.d.top-adjectives","it":"stanco","rom":"STAHN-koh"}
+{"id":"it.c0654","deck":"it.d.top-adjectives","it":"libero","rom":"LEE-beh-roh"}
+{"id":"it.c0655","deck":"it.d.top-adjectives","it":"pieno","rom":"PYEH-noh"}
+{"id":"it.c0656","deck":"it.d.top-adjectives","it":"vuoto","rom":"VWOH-toh"}
+{"id":"it.c0657","deck":"it.d.top-adjectives","it":"caldo","rom":"KAHL-doh"}
+{"id":"it.c0658","deck":"it.d.top-adjectives","it":"freddo","rom":"FREHD-doh"}
+{"id":"it.c0659","deck":"it.d.top-adjectives","it":"aperto","rom":"ah-PEHR-toh"}
+{"id":"it.c0660","deck":"it.d.top-adjectives","it":"chiuso","rom":"KYOO-soh"}
+{"id":"it.c0661","deck":"it.d.top-adjectives","it":"forte","rom":"FOHR-teh"}
+{"id":"it.c0662","deck":"it.d.top-adjectives","it":"veloce","rom":"veh-LOH-cheh"}
+{"id":"it.c0663","deck":"it.d.top-adjectives","it":"lento","rom":"LEHN-toh"}
+{"id":"it.c0664","deck":"it.d.top-adjectives","it":"pulito","rom":"poo-LEE-toh"}
+{"id":"it.c0665","deck":"it.d.top-adjectives","it":"sporco","rom":"SPOHR-koh"}
+{"id":"it.c0666","deck":"it.d.top-adjectives","it":"ricco","rom":"REEK-koh"}
+{"id":"it.c0667","deck":"it.d.top-adjectives","it":"povero","rom":"POH-veh-roh"}
+{"id":"it.c0668","deck":"it.d.top-adjectives","it":"bianco","rom":"BYAHN-koh"}
+{"id":"it.c0669","deck":"it.d.top-adjectives","it":"nero","rom":"NEH-roh"}
+{"id":"it.c0670","deck":"it.d.top-adjectives","it":"rosso","rom":"ROHS-soh"}
+{"id":"it.c0671","deck":"it.d.top-adjectives","it":"verde","rom":"VEHR-deh"}
+{"id":"it.c0672","deck":"it.d.top-adjectives","it":"giallo","rom":"JAHL-loh"}
+{"id":"it.c0673","deck":"it.d.top-adjectives","it":"azzurro","rom":"ahd-DZOOR-roh"}
+{"id":"it.c0674","deck":"it.d.top-adjectives","it":"blu","rom":"bloo"}
+{"id":"it.c0675","deck":"it.d.top-adjectives","it":"grigio","rom":"GREE-joh"}
+{"id":"it.c0676","deck":"it.d.top-adjectives","it":"marrone","rom":"mahr-ROH-neh"}
+{"id":"it.c0677","deck":"it.d.top-adjectives","it":"famoso","rom":"fah-MOH-soh"}
+{"id":"it.c0678","deck":"it.d.top-adjectives","it":"strano","rom":"STRAH-noh"}
+{"id":"it.c0679","deck":"it.d.top-adjectives","it":"normale","rom":"nohr-MAH-leh"}
+{"id":"it.c0680","deck":"it.d.top-adjectives","it":"diverso","rom":"dee-VEHR-soh"}
+{"id":"it.c0681","deck":"it.d.top-adjectives","it":"pericoloso","rom":"peh-ree-koh-LOH-soh"}
+{"id":"it.c0682","deck":"it.d.top-adjectives","it":"occupato","rom":"ohk-koo-PAH-toh"}
+{"id":"it.c0683","deck":"it.d.top-adjectives","it":"malato","rom":"mah-LAH-toh"}
+{"id":"it.c0684","deck":"it.d.top-adjectives","it":"tranquillo","rom":"trahn-KWEEL-loh"}
+{"id":"it.c0685","deck":"it.d.top-adjectives","it":"preferito","rom":"preh-feh-REE-toh"}
+{"id":"it.c0686","deck":"it.d.top-adjectives","it":"migliore","rom":"mee-LYOH-reh"}
+{"id":"it.c0687","deck":"it.d.top-adjectives","it":"peggiore","rom":"pehd-JOH-reh"}
+{"id":"it.c0688","deck":"it.d.top-adjectives","it":"prossimo","rom":"PROHS-see-moh"}
+{"id":"it.c0689","deck":"it.d.top-adjectives","it":"brutto","rom":"BROOT-toh"}
+{"id":"it.c0690","deck":"it.d.top-adjectives","it":"cattivo","rom":"kaht-TEE-voh"}
+{"id":"it.c0691","deck":"it.d.top-adjectives","it":"pesante","rom":"peh-SAHN-teh"}
+{"id":"it.c0692","deck":"it.d.top-adjectives","it":"leggero","rom":"lehd-JEH-roh"}
+{"id":"it.c0693","deck":"it.d.top-adjectives","it":"fresco","rom":"FREHS-koh"}
+{"id":"it.c0694","deck":"it.d.top-adjectives","it":"comodo","rom":"KOH-moh-doh"}
+{"id":"it.c0695","deck":"it.d.top-adjectives","it":"sicuro","rom":"see-KOO-roh"}
+{"id":"it.c0696","deck":"it.d.top-adjectives","it":"utile","rom":"OO-tee-leh"}
+{"id":"it.c0697","deck":"it.d.top-adjectives","it":"gentile","rom":"jehn-TEE-leh"}
+{"id":"it.c0698","deck":"it.d.top-adjectives","it":"intero","rom":"een-TEH-roh"}
+{"id":"it.c0699","deck":"it.d.top-adverbs","it":"non","rom":"nohn"}
+{"id":"it.c0700","deck":"it.d.top-adverbs","it":"più","rom":"pyoo"}
+{"id":"it.c0701","deck":"it.d.top-adverbs","it":"molto","rom":"MOHL-toh"}
+{"id":"it.c0702","deck":"it.d.top-adverbs","it":"poco","rom":"POH-koh"}
+{"id":"it.c0703","deck":"it.d.top-adverbs","it":"troppo","rom":"TROHP-poh"}
+{"id":"it.c0704","deck":"it.d.top-adverbs","it":"tanto","rom":"TAHN-toh"}
+{"id":"it.c0705","deck":"it.d.top-adverbs","it":"così","rom":"koh-SEE"}
+{"id":"it.c0706","deck":"it.d.top-adverbs","it":"bene","rom":"BEH-neh"}
+{"id":"it.c0707","deck":"it.d.top-adverbs","it":"male","rom":"MAH-leh"}
+{"id":"it.c0708","deck":"it.d.top-adverbs","it":"già","rom":"jah"}
+{"id":"it.c0709","deck":"it.d.top-adverbs","it":"ancora","rom":"ahn-KOH-rah"}
+{"id":"it.c0710","deck":"it.d.top-adverbs","it":"sempre","rom":"SEHM-preh"}
+{"id":"it.c0711","deck":"it.d.top-adverbs","it":"mai","rom":"mai"}
+{"id":"it.c0712","deck":"it.d.top-adverbs","it":"adesso","rom":"ah-DEHS-soh"}
+{"id":"it.c0713","deck":"it.d.top-adverbs","it":"poi","rom":"poy"}
+{"id":"it.c0714","deck":"it.d.top-adverbs","it":"prima","rom":"PREE-mah"}
+{"id":"it.c0715","deck":"it.d.top-adverbs","it":"dopo","rom":"DOH-poh"}
+{"id":"it.c0716","deck":"it.d.top-adverbs","it":"oggi","rom":"OHD-jee"}
+{"id":"it.c0717","deck":"it.d.top-adverbs","it":"domani","rom":"doh-MAH-nee"}
+{"id":"it.c0718","deck":"it.d.top-adverbs","it":"stasera","rom":"stah-SEH-rah"}
+{"id":"it.c0719","deck":"it.d.top-adverbs","it":"presto","rom":"PREHS-toh"}
+{"id":"it.c0720","deck":"it.d.top-adverbs","it":"tardi","rom":"TAHR-dee"}
+{"id":"it.c0721","deck":"it.d.top-adverbs","it":"subito","rom":"SOO-bee-toh"}
+{"id":"it.c0722","deck":"it.d.top-adverbs","it":"spesso","rom":"SPEHS-soh"}
+{"id":"it.c0723","deck":"it.d.top-adverbs","it":"qui","rom":"kwee"}
+{"id":"it.c0724","deck":"it.d.top-adverbs","it":"lì","rom":"lee"}
+{"id":"it.c0725","deck":"it.d.top-adverbs","it":"dentro","rom":"DEHN-troh"}
+{"id":"it.c0726","deck":"it.d.top-adverbs","it":"fuori","rom":"FWOH-ree"}
+{"id":"it.c0727","deck":"it.d.top-adverbs","it":"giù","rom":"joo"}
+{"id":"it.c0728","deck":"it.d.top-adverbs","it":"insieme","rom":"een-SYEH-meh"}
+{"id":"it.c0729","deck":"it.d.top-adverbs","it":"forse","rom":"FOHR-seh"}
+{"id":"it.c0730","deck":"it.d.top-adverbs","it":"davvero","rom":"dahv-VEH-roh"}
+{"id":"it.c0731","deck":"it.d.top-adverbs","it":"proprio","rom":"PROH-pryoh"}
+{"id":"it.c0732","deck":"it.d.top-adverbs","it":"quasi","rom":"KWAH-see"}
+{"id":"it.c0733","deck":"it.d.top-adverbs","it":"solo","rom":"SOH-loh"}
+{"id":"it.c0734","deck":"it.d.top-adverbs","it":"almeno","rom":"ahl-MEH-noh"}
+{"id":"it.c0735","deck":"it.d.top-adverbs","it":"invece","rom":"een-VEH-cheh"}
+{"id":"it.c0736","deck":"it.d.top-adverbs","it":"abbastanza","rom":"ahb-bahs-TAHN-tsah"}
+{"id":"it.c0737","deck":"it.d.top-adverbs","it":"piano","rom":"PYAH-noh"}
+{"id":"it.c0738","deck":"it.d.top-adverbs","it":"purtroppo","rom":"poor-TROHP-poh"}
+{"id":"it.c0739","deck":"it.d.top-adverbs","it":"finalmente","rom":"fee-nahl-MEHN-teh"}
+{"id":"it.c0740","deck":"it.d.top-adverbs","it":"veramente","rom":"veh-rah-MEHN-teh"}
+{"id":"it.c0741","deck":"it.d.top-adverbs","it":"neanche","rom":"neh-AHN-keh"}
+{"id":"it.c0742","deck":"it.d.top-adverbs","it":"appena","rom":"ahp-PEH-nah"}
+{"id":"it.c0743","deck":"it.d.top-adverbs","it":"ormai","rom":"ohr-MAI"}
+{"id":"it.c0744","deck":"it.d.top-adverbs","it":"intanto","rom":"een-TAHN-toh"}
+{"id":"it.c0745","deck":"it.d.top-adverbs","it":"sicuramente","rom":"see-koo-rah-MEHN-teh"}
+{"id":"it.c0746","deck":"it.d.top-adverbs","it":"circa","rom":"CHEER-kah"}
+{"id":"it.c0747","deck":"it.d.top-adverbs","it":"indietro","rom":"een-DYEH-troh"}
+{"id":"it.c0748","deck":"it.d.top-adverbs","it":"avanti","rom":"ah-VAHN-tee"}
+{"id":"it.c0749","deck":"it.d.top-pronouns","it":"io","rom":"EE-oh"}
+{"id":"it.c0750","deck":"it.d.top-pronouns","it":"tu","rom":"too"}
+{"id":"it.c0751","deck":"it.d.top-pronouns","it":"lui","rom":"LOO-ee"}
+{"id":"it.c0752","deck":"it.d.top-pronouns","it":"lei","rom":"lay"}
+{"id":"it.c0753","deck":"it.d.top-pronouns","it":"noi","rom":"noy"}
+{"id":"it.c0754","deck":"it.d.top-pronouns","it":"voi","rom":"voy"}
+{"id":"it.c0755","deck":"it.d.top-pronouns","it":"loro","rom":"LOH-roh"}
+{"id":"it.c0756","deck":"it.d.top-pronouns","it":"mi","rom":"mee"}
+{"id":"it.c0757","deck":"it.d.top-pronouns","it":"ti","rom":"tee"}
+{"id":"it.c0758","deck":"it.d.top-pronouns","it":"ci","rom":"chee"}
+{"id":"it.c0759","deck":"it.d.top-pronouns","it":"vi","rom":"vee"}
+{"id":"it.c0760","deck":"it.d.top-pronouns","it":"si","rom":"see"}
+{"id":"it.c0761","deck":"it.d.top-pronouns","it":"li","rom":"lee"}
+{"id":"it.c0762","deck":"it.d.top-pronouns","it":"ne","rom":"neh"}
+{"id":"it.c0763","deck":"it.d.top-pronouns","it":"me","rom":"meh"}
+{"id":"it.c0764","deck":"it.d.top-pronouns","it":"te","rom":"teh"}
+{"id":"it.c0765","deck":"it.d.top-pronouns","it":"mio","rom":"MEE-oh"}
+{"id":"it.c0766","deck":"it.d.top-pronouns","it":"tuo","rom":"TOO-oh"}
+{"id":"it.c0767","deck":"it.d.top-pronouns","it":"suo","rom":"SOO-oh"}
+{"id":"it.c0768","deck":"it.d.top-pronouns","it":"nostro","rom":"NOHS-troh"}
+{"id":"it.c0769","deck":"it.d.top-pronouns","it":"vostro","rom":"VOHS-troh"}
+{"id":"it.c0770","deck":"it.d.top-pronouns","it":"questo","rom":"KWEHS-toh"}
+{"id":"it.c0771","deck":"it.d.top-pronouns","it":"quello","rom":"KWEHL-loh"}
+{"id":"it.c0772","deck":"it.d.top-pronouns","it":"chi","rom":"kee"}
+{"id":"it.c0773","deck":"it.d.top-pronouns","it":"che cosa","rom":"keh KOH-sah"}
+{"id":"it.c0774","deck":"it.d.top-pronouns","it":"quale","rom":"KWAH-leh"}
+{"id":"it.c0775","deck":"it.d.top-pronouns","it":"cui","rom":"KOO-ee"}
+{"id":"it.c0776","deck":"it.d.top-pronouns","it":"qualcosa","rom":"kwahl-KOH-sah"}
+{"id":"it.c0777","deck":"it.d.top-pronouns","it":"qualcuno","rom":"kwahl-KOO-noh"}
+{"id":"it.c0778","deck":"it.d.top-pronouns","it":"niente","rom":"NYEHN-teh"}
+{"id":"it.c0779","deck":"it.d.top-pronouns","it":"nulla","rom":"NOOL-lah"}
+{"id":"it.c0780","deck":"it.d.top-pronouns","it":"nessuno","rom":"nehs-SOO-noh"}
+{"id":"it.c0781","deck":"it.d.top-pronouns","it":"tutti","rom":"TOOT-tee"}
+{"id":"it.c0782","deck":"it.d.top-pronouns","it":"ognuno","rom":"oh-NYOO-noh"}
+{"id":"it.c0783","deck":"it.d.top-pronouns","it":"chiunque","rom":"KYOON-kweh"}
+{"id":"it.c0784","deck":"it.d.top-pronouns","it":"ciò","rom":"choh"}
+{"id":"it.c0785","deck":"it.d.top-prepositions","it":"di","rom":"dee"}
+{"id":"it.c0786","deck":"it.d.top-prepositions","it":"a","rom":"ah"}
+{"id":"it.c0787","deck":"it.d.top-prepositions","it":"da","rom":"dah"}
+{"id":"it.c0788","deck":"it.d.top-prepositions","it":"in","rom":"een"}
+{"id":"it.c0789","deck":"it.d.top-prepositions","it":"con","rom":"kohn"}
+{"id":"it.c0790","deck":"it.d.top-prepositions","it":"per","rom":"pehr"}
+{"id":"it.c0791","deck":"it.d.top-prepositions","it":"su","rom":"soo"}
+{"id":"it.c0792","deck":"it.d.top-prepositions","it":"tra","rom":"trah"}
+{"id":"it.c0793","deck":"it.d.top-prepositions","it":"fra","rom":"frah"}
+{"id":"it.c0794","deck":"it.d.top-prepositions","it":"del","rom":"dehl"}
+{"id":"it.c0795","deck":"it.d.top-prepositions","it":"al","rom":"ahl"}
+{"id":"it.c0796","deck":"it.d.top-prepositions","it":"nel","rom":"nehl"}
+{"id":"it.c0797","deck":"it.d.top-prepositions","it":"dal","rom":"dahl"}
+{"id":"it.c0798","deck":"it.d.top-prepositions","it":"sul","rom":"sool"}
+{"id":"it.c0799","deck":"it.d.top-prepositions","it":"senza","rom":"SEHN-tsah"}
+{"id":"it.c0800","deck":"it.d.top-prepositions","it":"prima di","rom":"PREE-mah dee"}
+{"id":"it.c0801","deck":"it.d.top-prepositions","it":"fino a","rom":"FEE-noh ah"}
+{"id":"it.c0802","deck":"it.d.top-prepositions","it":"verso","rom":"VEHR-soh"}
+{"id":"it.c0803","deck":"it.d.top-prepositions","it":"contro","rom":"KOHN-troh"}
+{"id":"it.c0804","deck":"it.d.top-prepositions","it":"durante","rom":"doo-RAHN-teh"}
+{"id":"it.c0805","deck":"it.d.top-prepositions","it":"sopra","rom":"SOH-prah"}
+{"id":"it.c0806","deck":"it.d.top-prepositions","it":"sotto","rom":"SOHT-toh"}
+{"id":"it.c0807","deck":"it.d.top-prepositions","it":"dietro","rom":"DYEH-troh"}
+{"id":"it.c0808","deck":"it.d.top-prepositions","it":"davanti a","rom":"dah-VAHN-tee ah"}
+{"id":"it.c0809","deck":"it.d.top-prepositions","it":"accanto a","rom":"ahk-KAHN-toh ah"}
+{"id":"it.c0810","deck":"it.d.top-prepositions","it":"vicino a","rom":"vee-CHEE-noh ah"}
+{"id":"it.c0811","deck":"it.d.top-prepositions","it":"lontano da","rom":"lohn-TAH-noh dah"}
+{"id":"it.c0812","deck":"it.d.top-prepositions","it":"secondo","rom":"seh-KOHN-doh"}
+{"id":"it.c0813","deck":"it.d.top-prepositions","it":"tranne","rom":"TRAHN-neh"}
+{"id":"it.c0814","deck":"it.d.top-prepositions","it":"invece di","rom":"een-VEH-cheh dee"}
+{"id":"it.c0815","deck":"it.d.top-prepositions","it":"oltre","rom":"OHL-treh"}
+{"id":"it.c0816","deck":"it.d.top-prepositions","it":"attraverso","rom":"aht-trah-VEHR-soh"}
+{"id":"it.c0817","deck":"it.d.top-prepositions","it":"intorno a","rom":"een-TOHR-noh ah"}
+{"id":"it.c0818","deck":"it.d.top-prepositions","it":"entro","rom":"EHN-troh"}
+{"id":"it.c0819","deck":"it.d.top-prepositions","it":"a causa di","rom":"ah KOW-sah dee"}
+{"id":"it.c0820","deck":"it.d.top-conjunctions","it":"che","rom":"keh"}
+{"id":"it.c0821","deck":"it.d.top-conjunctions","it":"e","rom":"eh"}
+{"id":"it.c0822","deck":"it.d.top-conjunctions","it":"se","rom":"seh"}
+{"id":"it.c0823","deck":"it.d.top-conjunctions","it":"però","rom":"peh-ROH"}
+{"id":"it.c0824","deck":"it.d.top-conjunctions","it":"o","rom":"oh"}
+{"id":"it.c0825","deck":"it.d.top-conjunctions","it":"cioè","rom":"choh-EH"}
+{"id":"it.c0826","deck":"it.d.top-conjunctions","it":"quindi","rom":"KWEEN-dee"}
+{"id":"it.c0827","deck":"it.d.top-conjunctions","it":"comunque","rom":"koh-MOON-kweh"}
+{"id":"it.c0828","deck":"it.d.top-conjunctions","it":"anche se","rom":"AHN-keh seh"}
+{"id":"it.c0829","deck":"it.d.top-conjunctions","it":"oppure","rom":"ohp-POO-reh"}
+{"id":"it.c0830","deck":"it.d.top-conjunctions","it":"visto che","rom":"VEES-toh keh"}
+{"id":"it.c0831","deck":"it.d.top-conjunctions","it":"mentre","rom":"MEHN-treh"}
+{"id":"it.c0832","deck":"it.d.top-conjunctions","it":"né","rom":"neh"}
+{"id":"it.c0833","deck":"it.d.top-conjunctions","it":"perciò","rom":"pehr-CHOH"}
+{"id":"it.c0834","deck":"it.d.top-conjunctions","it":"per quanto","rom":"pehr KWAHN-toh"}
+{"id":"it.c0835","deck":"it.d.top-conjunctions","it":"siccome","rom":"seek-KOH-meh"}
+{"id":"it.c0836","deck":"it.d.top-conjunctions","it":"infatti","rom":"een-FAHT-tee"}
+{"id":"it.c0837","deck":"it.d.top-conjunctions","it":"dunque","rom":"DOON-kweh"}
+{"id":"it.c0838","deck":"it.d.top-conjunctions","it":"finché","rom":"feen-KEH"}
+{"id":"it.c0839","deck":"it.d.top-conjunctions","it":"anzi","rom":"AHN-tsee"}
+{"id":"it.c0840","deck":"it.d.top-conjunctions","it":"eppure","rom":"ehp-POO-reh"}
+{"id":"it.c0841","deck":"it.d.top-interjections","it":"Ah!","rom":"ah"}
+{"id":"it.c0842","deck":"it.d.top-interjections","it":"Oh!","rom":"oh"}
+{"id":"it.c0843","deck":"it.d.top-interjections","it":"Eh?","rom":"eh"}
+{"id":"it.c0844","deck":"it.d.top-interjections","it":"Ehi!","rom":"ay"}
+{"id":"it.c0845","deck":"it.d.top-interjections","it":"Beh","rom":"beh"}
+{"id":"it.c0846","deck":"it.d.top-interjections","it":"Boh!","rom":"boh"}
+{"id":"it.c0847","deck":"it.d.top-interjections","it":"Mah!","rom":"mah"}
+{"id":"it.c0848","deck":"it.d.top-interjections","it":"Dai!","rom":"dai"}
+{"id":"it.c0849","deck":"it.d.top-interjections","it":"Ma dai!","rom":"mah dai"}
+{"id":"it.c0850","deck":"it.d.top-interjections","it":"Ecco!","rom":"EHK-koh"}
+{"id":"it.c0851","deck":"it.d.top-interjections","it":"Basta!","rom":"BAHS-tah"}
+{"id":"it.c0852","deck":"it.d.top-interjections","it":"Magari!","rom":"mah-GAH-ree"}
+{"id":"it.c0853","deck":"it.d.top-interjections","it":"Uffa!","rom":"OOF-fah"}
+{"id":"it.c0854","deck":"it.d.top-interjections","it":"Ahi!","rom":"ai"}
+{"id":"it.c0855","deck":"it.d.top-interjections","it":"Ops!","rom":"ohps"}
+{"id":"it.c0856","deck":"it.d.top-interjections","it":"Evviva!","rom":"ehv-VEE-vah"}
+{"id":"it.c0857","deck":"it.d.top-interjections","it":"Accidenti!","rom":"aht-chee-DEHN-tee"}
+{"id":"it.c0858","deck":"it.d.top-interjections","it":"Cavolo!","rom":"KAH-voh-loh"}
+{"id":"it.c0859","deck":"it.d.top-interjections","it":"Mamma mia!","rom":"MAHM-mah MEE-ah"}
+{"id":"it.c0860","deck":"it.d.top-interjections","it":"Peccato!","rom":"pehk-KAH-toh"}
+{"id":"it.c0861","deck":"it.d.top-interjections","it":"Meno male!","rom":"MEH-noh MAH-leh"}
+{"id":"it.c0862","deck":"it.d.top-interjections","it":"Figurati!","rom":"fee-GOO-rah-tee"}
+{"id":"it.c0863","deck":"it.d.top-interjections","it":"Certo!","rom":"CHEHR-toh"}
+{"id":"it.c0864","deck":"it.d.top-interjections","it":"Va bene!","rom":"vah BEH-neh"}
+{"id":"it.c0865","deck":"it.d.top-interjections","it":"Forza!","rom":"FOHR-tsah"}
+{"id":"it.c0866","deck":"it.d.top-interjections","it":"Attenzione!","rom":"aht-tehn-TSYOH-neh"}
+{"id":"it.c0867","deck":"it.d.top-interjections","it":"Salute!","rom":"sah-LOO-teh"}
+{"id":"it.c0868","deck":"it.d.top-interjections","it":"Cin cin!","rom":"cheen cheen"}
+{"id":"it.c0869","deck":"it.d.top-interjections","it":"Auguri!","rom":"ow-GOO-ree"}
+{"id":"it.c0870","deck":"it.d.top-interjections","it":"Vabbè","rom":"vahb-BEH"}
+{"id":"it.c0871","deck":"it.d.top-interjections","it":"Macché!","rom":"mahk-KEH"}
+{"id":"it.c0872","deck":"it.d.top-interjections","it":"Che schifo!","rom":"keh SKEE-foh"}
+{"id":"it.c0873","deck":"it.d.top-words","it":"il","rom":"eel"}
+{"id":"it.c0874","deck":"it.d.top-words","it":"lo","rom":"loh"}
+{"id":"it.c0875","deck":"it.d.top-words","it":"la","rom":"lah"}
+{"id":"it.c0876","deck":"it.d.top-words","it":"i","rom":"ee"}
+{"id":"it.c0877","deck":"it.d.top-words","it":"gli","rom":"lyee"}
+{"id":"it.c0878","deck":"it.d.top-words","it":"le","rom":"leh"}
+{"id":"it.c0879","deck":"it.d.top-words","it":"un","rom":"oon"}
+{"id":"it.c0880","deck":"it.d.top-words","it":"una","rom":"OO-nah"}
+{"id":"it.c0881","deck":"it.d.top-words","it":"uno","rom":"OO-noh"}
+{"id":"it.c0882","deck":"it.d.top-words","it":"sì","rom":"see"}
+{"id":"it.c0883","deck":"it.d.top-words","it":"no","rom":"noh"}
+{"id":"it.c0884","deck":"it.d.top-words","it":"tutto","rom":"TOOT-toh"}
+{"id":"it.c0885","deck":"it.d.top-words","it":"altro","rom":"AHL-troh"}
+{"id":"it.c0886","deck":"it.d.top-words","it":"ogni","rom":"OH-nyee"}
+{"id":"it.c0887","deck":"it.d.top-words","it":"qualche","rom":"KWAHL-keh"}
+{"id":"it.c0888","deck":"it.d.top-words","it":"alcuni","rom":"ahl-KOO-nee"}
+{"id":"it.c0889","deck":"it.d.top-words","it":"dove","rom":"DOH-veh"}
+{"id":"it.c0890","deck":"it.d.top-words","it":"come","rom":"KOH-meh"}
+{"id":"it.c0891","deck":"it.d.top-words","it":"quanto","rom":"KWAHN-toh"}
+{"id":"it.c0892","deck":"it.d.top-words","it":"zero","rom":"DZEH-roh"}
+{"id":"it.c0893","deck":"it.d.top-words","it":"due","rom":"DOO-eh"}
+{"id":"it.c0894","deck":"it.d.top-words","it":"tre","rom":"treh"}
+{"id":"it.c0895","deck":"it.d.top-words","it":"quattro","rom":"KWAHT-troh"}
+{"id":"it.c0896","deck":"it.d.top-words","it":"cinque","rom":"CHEEN-kweh"}
+{"id":"it.c0897","deck":"it.d.top-words","it":"sei","rom":"say"}
+{"id":"it.c0898","deck":"it.d.top-words","it":"sette","rom":"SEHT-teh"}
+{"id":"it.c0899","deck":"it.d.top-words","it":"otto","rom":"OHT-toh"}
+{"id":"it.c0900","deck":"it.d.top-words","it":"nove","rom":"NOH-veh"}
+{"id":"it.c0901","deck":"it.d.top-words","it":"dieci","rom":"DYEH-chee"}
+{"id":"it.c0902","deck":"it.d.top-words","it":"undici","rom":"OON-dee-chee"}
+{"id":"it.c0903","deck":"it.d.top-words","it":"dodici","rom":"DOH-dee-chee"}
+{"id":"it.c0904","deck":"it.d.top-words","it":"tredici","rom":"TREH-dee-chee"}
+{"id":"it.c0905","deck":"it.d.top-words","it":"quattordici","rom":"kwaht-TOHR-dee-chee"}
+{"id":"it.c0906","deck":"it.d.top-words","it":"quindici","rom":"KWEEN-dee-chee"}
+{"id":"it.c0907","deck":"it.d.top-words","it":"sedici","rom":"SEH-dee-chee"}
+{"id":"it.c0908","deck":"it.d.top-words","it":"diciassette","rom":"dee-chahs-SEHT-teh"}
+{"id":"it.c0909","deck":"it.d.top-words","it":"diciotto","rom":"dee-CHOHT-toh"}
+{"id":"it.c0910","deck":"it.d.top-words","it":"diciannove","rom":"dee-chahn-NOH-veh"}
+{"id":"it.c0911","deck":"it.d.top-words","it":"venti","rom":"VEHN-tee"}
+{"id":"it.c0912","deck":"it.d.top-words","it":"martedì","rom":"mahr-teh-DEE"}
+{"id":"it.c0913","deck":"it.d.top-words","it":"mercoledì","rom":"mehr-koh-leh-DEE"}
+{"id":"it.c0914","deck":"it.d.top-words","it":"giovedì","rom":"joh-veh-DEE"}
+{"id":"it.c0915","deck":"it.d.top-words","it":"venerdì","rom":"veh-nehr-DEE"}
+{"id":"it.c0916","deck":"it.d.top-words","it":"domenica","rom":"doh-MEH-nee-kah"}
+{"id":"it.c0917","deck":"it.d.top-words","it":"gennaio","rom":"jehn-NAH-yoh"}
+{"id":"it.c0918","deck":"it.d.top-words","it":"febbraio","rom":"fehb-BRAH-yoh"}
+{"id":"it.c0919","deck":"it.d.top-words","it":"marzo","rom":"MAHR-tsoh"}
+{"id":"it.c0920","deck":"it.d.top-words","it":"aprile","rom":"ah-PREE-leh"}
+{"id":"it.c0921","deck":"it.d.top-words","it":"maggio","rom":"MAHD-joh"}
+{"id":"it.c0922","deck":"it.d.top-words","it":"giugno","rom":"JOO-nyoh"}
+{"id":"it.c0923","deck":"it.d.top-words","it":"luglio","rom":"LOO-lyoh"}
+{"id":"it.c0924","deck":"it.d.top-words","it":"agosto","rom":"ah-GOHS-toh"}
+{"id":"it.c0925","deck":"it.d.top-words","it":"settembre","rom":"seht-TEHM-breh"}
+{"id":"it.c0926","deck":"it.d.top-words","it":"ottobre","rom":"oht-TOH-breh"}
+{"id":"it.c0927","deck":"it.d.top-words","it":"novembre","rom":"noh-VEHM-breh"}
+{"id":"it.c0928","deck":"it.d.top-words","it":"dicembre","rom":"dee-CHEHM-breh"}
+{"id":"it.c0929","deck":"it.d.top-words","it":"mezzo","rom":"MEHD-dzoh"}

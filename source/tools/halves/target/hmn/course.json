@@ -1,0 +1,173 @@
+{
+ "target": "hmn",
+ "ttsLang": "hmn",
+ "self": "Hmoob",
+ "pack": {
+  "accents": false,
+  "keys": "",
+  "tilesDefault": true,
+  "noAudio": true,
+  "voiceMatch": "^(hmn|mww)(-|_|$)"
+ },
+ "features": {
+  "script": false,
+  "pron": false,
+  "conj": false,
+  "register": false,
+  "numbers": false,
+  "sound": false,
+  "strokes": false
+ },
+ "groups": [
+  {
+   "id": "hmn.grp.sounds-and-spelling",
+   "decks": [
+    "hmn.d.tones",
+    "hmn.d.consonants-and-vowels"
+   ]
+  },
+  {
+   "id": "hmn.grp.first-steps",
+   "decks": [
+    "hmn.d.greetings-and-courtesy",
+    "hmn.d.about-me",
+    "hmn.d.family-and-kinship",
+    "hmn.d.numbers-and-money"
+   ]
+  },
+  {
+   "id": "hmn.grp.everyday-life",
+   "decks": [
+    "hmn.d.things-and-classifiers",
+    "hmn.d.food-and-drink",
+    "hmn.d.time-and-days",
+    "hmn.d.feelings-and-weather"
+   ]
+  },
+  {
+   "id": "hmn.grp.out-and-about",
+   "decks": [
+    "hmn.d.getting-around",
+    "hmn.d.shopping-and-money",
+    "hmn.d.health-and-help"
+   ]
+  },
+  {
+   "id": "hmn.grp.heritage",
+   "decks": [
+    "hmn.d.talking-with-elders",
+    "hmn.d.new-year-and-celebrations",
+    "hmn.d.family-events"
+   ]
+  },
+  {
+   "id": "hmn.grp.conversation",
+   "decks": [
+    "hmn.d.questions-and-connectors",
+    "hmn.d.traps-for-english-speakers"
+   ]
+  }
+ ],
+ "tags": {
+  "sounds-and-spelling": [
+   "hmn.d.tones",
+   "hmn.d.consonants-and-vowels"
+  ],
+  "first-steps": [
+   "hmn.d.greetings-and-courtesy",
+   "hmn.d.about-me",
+   "hmn.d.family-and-kinship",
+   "hmn.d.numbers-and-money"
+  ],
+  "everyday-life": [
+   "hmn.d.things-and-classifiers",
+   "hmn.d.food-and-drink",
+   "hmn.d.time-and-days",
+   "hmn.d.feelings-and-weather"
+  ],
+  "out-and-about": [
+   "hmn.d.getting-around",
+   "hmn.d.shopping-and-money",
+   "hmn.d.health-and-help"
+  ],
+  "heritage": [
+   "hmn.d.talking-with-elders",
+   "hmn.d.new-year-and-celebrations",
+   "hmn.d.family-events"
+  ],
+  "conversation": [
+   "hmn.d.questions-and-connectors",
+   "hmn.d.traps-for-english-speakers"
+  ]
+ },
+ "goals": [],
+ "plans": [],
+ "titles": [
+  {
+   "id": "hmn.t01",
+   "level": 1
+  },
+  {
+   "id": "hmn.t03",
+   "level": 3
+  },
+  {
+   "id": "hmn.t05",
+   "level": 5
+  },
+  {
+   "id": "hmn.t08",
+   "level": 8
+  },
+  {
+   "id": "hmn.t12",
+   "level": 12
+  },
+  {
+   "id": "hmn.t16",
+   "level": 16
+  },
+  {
+   "id": "hmn.t20",
+   "level": 20
+  }
+ ],
+ "greet": [
+  {
+   "id": "hmn.h.night",
+   "hmn": "Pw zoo os"
+  },
+  {
+   "id": "hmn.h.morning",
+   "hmn": "Nyob zoo"
+  },
+  {
+   "id": "hmn.h.afternoon",
+   "hmn": "Nyob zoo"
+  },
+  {
+   "id": "hmn.h.evening",
+   "hmn": "Nyob zoo"
+  }
+ ],
+ "pairs": [],
+ "pause": {
+  "sets": [],
+  "idioms": []
+ },
+ "uiKeys": [
+  "Hmong (required)",
+  "Hmong, pronunciation, meaning, note — one per line (pronunciation/note optional)",
+  "Search a pattern, e.g. 에서 or 'want'",
+  "#sounds-and-spelling",
+  "#first-steps",
+  "#everyday-life",
+  "#out-and-about",
+  "#heritage",
+  "#conversation"
+ ],
+ "exportedFrom": {
+  "file": "tools/target/hmn/ (tools/target/gen.js hmn)",
+  "sha256_16": "92b72f758c007e90"
+ }
+}

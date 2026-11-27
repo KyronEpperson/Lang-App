@@ -1,0 +1,802 @@
+{"id":"th.c0001","meaning":"to come","note":"Mid tone: level, in the middle of your voice."}
+{"id":"th.c0002","meaning":"horse","note":"High tone. มา, ม้า and หมา differ only in tone."}
+{"id":"th.c0003","meaning":"dog","note":"Rising tone: dips, then rises. Everyday word; สุนัข is formal."}
+{"id":"th.c0004","meaning":"near","note":"Falling tone. ไกล (glai, mid tone) means far."}
+{"id":"th.c0005","meaning":"far","note":"Mid tone. Say it with a falling tone and it becomes ใกล้, near."}
+{"id":"th.c0006","meaning":"rice","note":"Falling tone, long vowel. ขาว (khǎao) is white, เขา (khǎo) is he or she."}
+{"id":"th.c0007","meaning":"white","note":"Rising tone, long vowel. ข้าว with a falling tone is rice; เขา, short, is he or she."}
+{"id":"th.c0008","meaning":"he; she; they (one person)","note":"Short vowel, rising tone; often said with a high tone in speech. ข้าว and ขาว have a long vowel."}
+{"id":"th.c0009","meaning":"wood","note":"High tone, said long (máai). ไม่ (mâi) is not, ใหม่ (mài) new, ไหม (mǎi) the question particle."}
+{"id":"th.c0010","meaning":"new","note":"Low tone. ไม่ (mâi) is not, ไม้ (máai) wood. Comes after the noun: บ้านใหม่."}
+{"id":"th.c0011","meaning":"yes/no question particle","note":"Rising tone, often said high. Not ไม่ (not), ไม้ (wood) or ใหม่ (new). Goes at the end: ไปไหม."}
+{"id":"th.c0012","meaning":"to look; to watch","note":"Long vowel. Said short, it becomes ดุ, to scold."}
+{"id":"th.c0013","meaning":"fierce; to scold","note":"Short vowel, low tone. ดู (duu) with a long vowel means to look."}
+{"id":"th.c0014","meaning":"to enter; to go in","note":"Short vowel (khâo). ข้าว (khâao), with a long vowel, is rice."}
+{"id":"th.c0015","meaning":"pretty; beautiful","note":"Rising tone. Said with a mid tone it sounds like ซวย, unlucky."}
+{"id":"th.c0016","meaning":"unlucky; out of luck","note":"Casual and a bit rude. Here so you hear why สวย needs its rising tone."}
+{"id":"th.c0017","meaning":"forest; the wild","note":"Low tone. ป้า (bpâa) with a falling tone is an aunt."}
+{"id":"th.c0018","meaning":"to look for","note":"Rising tone. ห้า (hâa) with a falling tone is five."}
+{"id":"th.c0019","meaning":"letter g, as in gài (chicken)","note":"Mid class. No puff of air: between g and k."}
+{"id":"th.c0020","meaning":"letter j, as in jaan (plate)","note":"Mid class. No puff: between j and ch."}
+{"id":"th.c0021","meaning":"letter d, as in dèk (child)","note":"Mid class. A plain d; at the end of a syllable it is a held t."}
+{"id":"th.c0022","meaning":"letter dt, as in dtào (turtle)","note":"Mid class. Between d and t, no puff."}
+{"id":"th.c0023","meaning":"letter b, as in bai-máai (leaf)","note":"Mid class. A plain b; at the end of a syllable it is a held p."}
+{"id":"th.c0024","meaning":"letter bp, as in bplaa (fish)","note":"Mid class. Between b and p, no puff."}
+{"id":"th.c0025","meaning":"the vowel carrier, as in àang (basin)","note":"Mid class. Silent at the start: it holds a vowel. Also the vowel aw (ขอ)."}
+{"id":"th.c0026","meaning":"letter kh, as in khài (egg)","note":"High class. A k with a puff of air, as in \"kite\"."}
+{"id":"th.c0027","meaning":"letter ch, as in chìng (small cymbals)","note":"High class. As in \"chair\"; ช sounds the same but is low class."}
+{"id":"th.c0028","meaning":"letter th, as in thǎan (base, pedestal)","note":"High class, rare: in a few formal words. Sounds like ถ."}
+{"id":"th.c0029","meaning":"letter th, as in thǔng (bag)","note":"High class. A t with a puff, as in \"top\"; never the th of \"think\"."}
+{"id":"th.c0030","meaning":"letter ph, as in phûeng (bee)","note":"High class. A p with a puff, as in \"pie\"; never f."}
+{"id":"th.c0031","meaning":"letter f, as in fǎa (lid)","note":"High class. Its low-class twin is ฟ."}
+{"id":"th.c0032","meaning":"letter s, as in sǎa-laa (pavilion)","note":"High class. Mostly in words from Sanskrit; sounds like ส."}
+{"id":"th.c0033","meaning":"letter s, as in ruue-sǐi (hermit)","note":"High class, rare. Sounds like ส."}
+{"id":"th.c0034","meaning":"letter s, as in sǔuea (tiger)","note":"High class. The everyday s letter."}
+{"id":"th.c0035","meaning":"letter h, as in hìip (chest, box)","note":"High class. Before a low-class letter it is silent and changes the tone: หมา."}
+{"id":"th.c0036","meaning":"letter kh, as in khwaai (buffalo)","note":"Low class: same sound as ข, different tone rules."}
+{"id":"th.c0037","meaning":"letter ng, as in nguu (snake)","note":"Thai words can start with ng: say \"singing\" without the \"si\"."}
+{"id":"th.c0038","meaning":"letter ch, as in cháang (elephant)","note":"Low class. Same sound as ฉ."}
+{"id":"th.c0039","meaning":"letter s, as in sôo (chain)","note":"Low class. Same sound as ส, different tone rules."}
+{"id":"th.c0040","meaning":"letter y, as in yǐng (woman)","note":"Low class. At the end of a syllable it is n."}
+{"id":"th.c0041","meaning":"letter n, as in neen (young monk)","note":"Low class, in formal words. Sounds like น."}
+{"id":"th.c0042","meaning":"letter th, as in thá-hǎan (soldier)","note":"A t with a puff, as in \"top\"; never the th of \"think\"."}
+{"id":"th.c0043","meaning":"letter th, as in thong (flag)","note":"Low class. Sounds like ท."}
+{"id":"th.c0044","meaning":"letter n, as in nǔu (mouse)","note":"Low class. In หนู the leading ห gives it a rising tone."}
+{"id":"th.c0045","meaning":"letter ph, as in phaan (offering tray)","note":"A p with a puff, as in \"pie\"; never f."}
+{"id":"th.c0046","meaning":"letter f, as in fan (tooth)","note":"Low class. The f of ฟรี and ฟุตบอล."}
+{"id":"th.c0047","meaning":"letter ph, as in sǎm-phao (junk boat)","note":"Low class. In ภูเก็ต it is ph, never f."}
+{"id":"th.c0048","meaning":"letter m, as in máa (horse)","note":"Low class; also a final m."}
+{"id":"th.c0049","meaning":"letter y, as in yák (giant)","note":"Low class. After a vowel it makes a glide: สวย, ซอย."}
+{"id":"th.c0050","meaning":"letter r, as in ruuea (boat)","note":"A tapped r. At the end of a syllable it is n: อาหาร."}
+{"id":"th.c0051","meaning":"letter l, as in ling (monkey)","note":"At the end of a syllable it is n: ฟุตบอล ends in n."}
+{"id":"th.c0052","meaning":"letter w, as in wǎaen (ring)","note":"Low class. Also part of vowels: ตัว, สวย."}
+{"id":"th.c0053","meaning":"letter h, as in nók-hûuk (owl)","note":"Low class. Same sound as ห."}
+{"id":"th.c0054","meaning":"eye","note":"Long aa, written after the consonant. Also \"grandfather\" (mother's father)."}
+{"id":"th.c0055","meaning":"good","note":"Long ii, written above the consonant."}
+{"id":"th.c0056","meaning":"hand","note":"Long uue: the lips spread, not rounded. ื above, อ after."}
+{"id":"th.c0057","meaning":"child","note":"Short e: เ before the consonant and ็ above it."}
+{"id":"th.c0058","meaning":"mother; mom","note":"Long aae, written before the consonant. ไม้เอก ่ on a low-class letter: falling tone."}
+{"id":"th.c0059","meaning":"table","note":"ไม้ตรี ๊ appears only on mid-class letters: high tone."}
+{"id":"th.c0060","meaning":"to ask for","note":"Long aaw, written with อ after the consonant. High-class letter, live syllable: rising tone."}
+{"id":"th.c0061","meaning":"she; you (casual)","note":"Long ooe: เ before, อ after. Mostly heard in songs and between friends."}
+{"id":"th.c0062","meaning":"to study; to learn","note":"The vowel iia: เ before, ี above, ย after."}
+{"id":"th.c0063","meaning":"boat","note":"The vowel uuea wraps the consonant: เ before, ื and อ after."}
+{"id":"th.c0064","meaning":"body; classifier for animals and clothes","note":"The vowel uua: ั above, ว after."}
+{"id":"th.c0065","meaning":"to go","note":"ไ before the consonant, said after it: ai."}
+{"id":"th.c0066","meaning":"heart; mind","note":"ใ sounds the same as ไ. Only about 20 words use ใ."}
+{"id":"th.c0067","meaning":"to do; to make","note":"ำ is short a plus m."}
+{"id":"th.c0068","meaning":"we; us","note":"เ and า around the consonant: short ao."}
+{"id":"th.c0069","meaning":"not","note":"ไม้เอก ่ on a low-class letter gives a falling tone."}
+{"id":"th.c0070","meaning":"can; to get","note":"ไม้โท ้ on a mid-class letter: falling tone. Spelled short, said long (dâai)."}
+{"id":"th.c0071","meaning":"dear (a sweet reply or call)","note":"ไม้จัตวา ๋, only on mid-class letters: rising tone. แม่จ๋า: Mom, dear."}
+{"id":"th.c0072","meaning":"hello (male speaker)","note":"Also goodbye. Return a wai from a host, a friend's parent or anyone older."}
+{"id":"th.c0073","meaning":"hello (female speaker)","note":"ค่ะ has a falling tone in statements."}
+{"id":"th.c0074","meaning":"thank you (male speaker)","note":"A woman says ขอบคุณค่ะ."}
+{"id":"th.c0075","meaning":"thank you (female speaker)","note":"A man says ขอบคุณครับ. Thai has no neutral polite word; leaving it off sounds casual."}
+{"id":"th.c0076","meaning":"thank you very much (male speaker)","note":"มาก (very) comes after the word it makes stronger."}
+{"id":"th.c0077","meaning":"sorry; excuse me (female speaker)","note":"Also to get someone's attention. A man says ขอโทษครับ."}
+{"id":"th.c0078","meaning":"sorry; excuse me (male speaker)","note":"For a bump or a mistake. A woman says ขอโทษค่ะ."}
+{"id":"th.c0079","meaning":"it's OK; never mind","note":"The usual answer to ขอบคุณ and to ขอโทษ."}
+{"id":"th.c0080","meaning":"nice to meet you","note":"Add ครับ or ค่ะ. Said once, when you are introduced."}
+{"id":"th.c0081","meaning":"How are you? (female speaker)","note":"A real question, for someone you haven't seen for a while. คะ has a high tone in questions."}
+{"id":"th.c0082","meaning":"I'm fine. (male speaker)","note":"A woman says สบายดีค่ะ."}
+{"id":"th.c0083","meaning":"And you?","note":"After you answer: สบายดีครับ แล้วคุณล่ะ."}
+{"id":"th.c0084","meaning":"yes (male speaker)","note":"Polite agreement, and the end of every polite sentence. In fast speech the r often drops."}
+{"id":"th.c0085","meaning":"yes (female speaker)","note":"Polite agreement with a falling tone. In a question it becomes คะ, with a high tone."}
+{"id":"th.c0086","meaning":"I'm off now; bye","note":"What people say when leaving. ลาก่อน (farewell) sounds like a book or a final goodbye."}
+{"id":"th.c0087","meaning":"good luck; take care","note":"A friendly goodbye before a trip or an exam."}
+{"id":"th.c0088","meaning":"welcome","note":"On signs and from hotel staff: welcome."}
+{"id":"th.c0089","meaning":"to wai (greet with palms together)","note":"Return a wai from a host or anyone older. When hotel or shop staff wai you, a smile and a nod is enough."}
+{"id":"th.c0090","meaning":"I; me (male speaker)","note":"A man's polite \"I\". Often dropped once it is clear who is talking."}
+{"id":"th.c0091","meaning":"I; me (female speaker)","note":"Everyday female \"I\". Spelled with a rising tone, often said with a high tone."}
+{"id":"th.c0092","meaning":"I (female speaker, formal)","note":"For formal talk, speeches and business calls."}
+{"id":"th.c0093","meaning":"you (polite)","note":"Also a title before a first name: คุณสมชาย."}
+{"id":"th.c0094","meaning":"they","note":"พวก makes a group: พวกเรา (we all), พวกคุณ (you all)."}
+{"id":"th.c0095","meaning":"older sibling; you (to someone a bit older)","note":"Also used as \"you\" and \"I\" with older friends and colleagues."}
+{"id":"th.c0096","meaning":"older sister","note":"Thai names siblings by age: พี่ older, น้อง younger."}
+{"id":"th.c0097","meaning":"older brother","note":"ชาย = male."}
+{"id":"th.c0098","meaning":"younger brother","note":"There is no plain word for \"brother\"."}
+{"id":"th.c0099","meaning":"younger sister","note":"สาว = young woman. A younger brother is น้องชาย."}
+{"id":"th.c0100","meaning":"father; dad","note":"A mother is แม่; parents are พ่อแม่."}
+{"id":"th.c0101","meaning":"child (son or daughter)","note":"ลูกชาย is a son, ลูกสาว a daughter."}
+{"id":"th.c0102","meaning":"husband","note":"In casual speech many people say แฟน."}
+{"id":"th.c0103","meaning":"wife","note":"Said phan-rá-yaa: three syllables."}
+{"id":"th.c0104","meaning":"boyfriend or girlfriend; partner","note":"From English \"fan\". Often used for a spouse in casual speech."}
+{"id":"th.c0105","meaning":"friend","note":"เพื่อนผม / เพื่อนฉัน: my friend (the owner comes after)."}
+{"id":"th.c0106","meaning":"family","note":""}
+{"id":"th.c0107","meaning":"uncle; an older man","note":"Also a friendly way to address an older man you don't know, about your parents' age, like a driver or a vendor."}
+{"id":"th.c0108","meaning":"My name is Mike. (male speaker)","note":"ชื่อ works as a verb here: no เป็น."}
+{"id":"th.c0109","meaning":"My name is Anna. (female speaker)","note":"Thai uses first names: Anna, not Ms. Smith."}
+{"id":"th.c0110","meaning":"What's your name?","note":"อะไร (what) stays at the end, where the answer goes."}
+{"id":"th.c0111","meaning":"Where are you from?","note":"ไหน (where) goes at the end."}
+{"id":"th.c0112","meaning":"I'm from America. (female speaker)","note":"มาจาก = come from."}
+{"id":"th.c0113","meaning":"I'm American. (male speaker)","note":"คน + nationality word: a person from there."}
+{"id":"th.c0114","meaning":"I'm not English. (male speaker)","note":"ไม่ใช่ says \"not\" before a noun; never ไม่เป็น."}
+{"id":"th.c0115","meaning":"What do you do?","note":"Literally \"you work what?\": the question word stays in place."}
+{"id":"th.c0116","meaning":"I'm a teacher. (female speaker)","note":"เป็น before a job or role."}
+{"id":"th.c0117","meaning":"I'm an engineer. (male speaker)","note":"No word for \"a\": เป็น + job."}
+{"id":"th.c0118","meaning":"I'm a college student. (female speaker)","note":"นักเรียน is a school student."}
+{"id":"th.c0119","meaning":"I work in Bangkok. (male speaker)","note":"ที่ = at, in. ฯ shortens the long official name; it is not read."}
+{"id":"th.c0120","meaning":"I live in Chiang Mai. (female speaker)","note":"อยู่ = to live, to be (somewhere)."}
+{"id":"th.c0121","meaning":"I'm thirty years old. (male speaker)","note":"No เป็น: อายุ + number + ปี."}
+{"id":"th.c0122","meaning":"I'm single. (female speaker)","note":"Married: แต่งงานแล้ว."}
+{"id":"th.c0123","meaning":"This is my partner. (female speaker)","note":"คือ points out who someone is. The owner comes after: แฟนฉัน."}
+{"id":"th.c0124","meaning":"I can speak a little Thai.","note":"No \"I\": Thai drops it when it is clear."}
+{"id":"th.c0125","meaning":"My Thai isn't very good. (male speaker)","note":"Literally \"I speak Thai not well\": ไม่ goes before เก่ง."}
+{"id":"th.c0126","meaning":"zero","note":"For phone numbers and prices. Ends in n: the ย and ์ are silent."}
+{"id":"th.c0127","meaning":"one","note":"Low tone. At the end of 21, 31… it becomes เอ็ด."}
+{"id":"th.c0128","meaning":"two","note":"Rising tone."}
+{"id":"th.c0129","meaning":"three","note":"Rising tone, like สอง."}
+{"id":"th.c0130","meaning":"four","note":"Low tone. Don't confuse it with สี (color), rising tone."}
+{"id":"th.c0131","meaning":"five","note":"Falling tone. หา (hǎa) with a rising tone means to look for."}
+{"id":"th.c0132","meaning":"nine","note":"Falling tone, long vowel. เก่า (gào) means old."}
+{"id":"th.c0133","meaning":"ten","note":"Low tone, short vowel."}
+{"id":"th.c0134","meaning":"eleven","note":"1 at the end of a bigger number is เอ็ด, not หนึ่ง."}
+{"id":"th.c0135","meaning":"twenty","note":"Not สองสิบ."}
+{"id":"th.c0136","meaning":"twenty-one","note":"The 1 at the end of a bigger number is เอ็ด."}
+{"id":"th.c0137","meaning":"one hundred","note":"Often just ร้อย: ร้อยบาท, a hundred baht."}
+{"id":"th.c0138","meaning":"one thousand","note":"1,500 is หนึ่งพันห้าร้อย."}
+{"id":"th.c0139","meaning":"ten thousand","note":"Thai has its own word for 10,000; แสน is 100,000."}
+{"id":"th.c0140","meaning":"one million","note":"2,000,000 is สองล้าน."}
+{"id":"th.c0141","meaning":"fifty baht","note":"Price tags show 50 บาท; say it in Thai."}
+{"id":"th.c0142","meaning":"250 baht","note":"A price tag shows 250 บาท: read the digits in Thai."}
+{"id":"th.c0143","meaning":"How much altogether?","note":"When you pay for several things. Often said เท่าไหร่."}
+{"id":"th.c0144","meaning":"two books","note":"Noun, number, classifier: เล่ม counts books."}
+{"id":"th.c0145","meaning":"three cats","note":"ตัว counts animals, and also shirts, tables and chairs."}
+{"id":"th.c0146","meaning":"three shirts","note":"Clothes take ตัว too, like animals."}
+{"id":"th.c0147","meaning":"two glasses of coffee","note":"แก้ว = a glass."}
+{"id":"th.c0148","meaning":"two bottles of water","note":"ขวด = a bottle."}
+{"id":"th.c0149","meaning":"one plate of fried rice","note":"จาน = a plate. หนึ่ง can also go after: ข้าวผัดจานหนึ่ง."}
+{"id":"th.c0150","meaning":"two bowls of noodle soup","note":"ชาม = a bowl."}
+{"id":"th.c0151","meaning":"three pieces of dessert","note":"ชิ้น = a piece."}
+{"id":"th.c0152","meaning":"five Thai people","note":"คน is both \"person\" and its classifier."}
+{"id":"th.c0153","meaning":"two friends","note":"Not สองคนเพื่อน: the noun comes first."}
+{"id":"th.c0154","meaning":"two cars","note":"คัน counts cars, bikes and umbrellas."}
+{"id":"th.c0155","meaning":"two bags","note":"ใบ counts bags, tickets and leaves."}
+{"id":"th.c0156","meaning":"two cell phones","note":"เครื่อง counts machines: phones, TVs, computers."}
+{"id":"th.c0157","meaning":"this house","note":"Noun + classifier + นี้. หลัง counts houses."}
+{"id":"th.c0158","meaning":"that dog","note":"Noun + classifier + นั้น (that)."}
+{"id":"th.c0159","meaning":"How many people?","note":"กี่ + classifier asks \"how many\". What staff ask at the door; they may say กี่ท่าน, more formal."}
+{"id":"th.c0160","meaning":"this one","note":"อัน counts small things; use it when you don't know the classifier."}
+{"id":"th.c0161","meaning":"that one","note":"Point and say it: อันนั้นครับ / อันนั้นค่ะ."}
+{"id":"th.c0162","meaning":"shrimp fried rice","note":"The main word comes first: rice, fried, shrimp."}
+{"id":"th.c0163","meaning":"not spicy","note":"When ordering: ไม่เผ็ดนะครับ / ไม่เผ็ดนะคะ."}
+{"id":"th.c0164","meaning":"plain water","note":"น้ำ alone is water or any drink. Alone it is long (náam); at the start of a compound like this one it is usually short."}
+{"id":"th.c0165","meaning":"very tasty","note":"มาก comes after the word it makes stronger."}
+{"id":"th.c0166","meaning":"check, please","note":"ด้วย makes the request softer."}
+{"id":"th.c0167","meaning":"Could I see the menu?","note":"ขอ + thing + หน่อย. Add ครับ or ค่ะ."}
+{"id":"th.c0168","meaning":"a little spicy","note":"A safe order if you are not sure how hot \"spicy\" will be."}
+{"id":"th.c0169","meaning":"One pad thai, please.","note":"เอา = I'll take. Plates are counted with จาน, after the number."}
+{"id":"th.c0170","meaning":"papaya salad with no chili","note":"ไม่ใส่ = don't put in. Works for any ingredient."}
+{"id":"th.c0171","meaning":"tom yum soup with shrimp","note":"ต้ม = boil, ยำ = mix with a sour, spicy dressing."}
+{"id":"th.c0172","meaning":"mango sticky rice","note":"A favorite dessert in mango season (March to May)."}
+{"id":"th.c0173","meaning":"Thai iced tea","note":"Sweet, with milk. Literally \"cold tea\"."}
+{"id":"th.c0174","meaning":"no ice","note":"Drinks come with ice unless you ask."}
+{"id":"th.c0175","meaning":"to go; for takeout","note":"Literally \"wrap, go back home\"."}
+{"id":"th.c0176","meaning":"thirsty","note":"Literally \"hungry for water\". No เป็น: ผมหิวน้ำ."}
+{"id":"th.c0177","meaning":"I'm vegetarian. (male speaker)","note":"A woman says ฉันกินมังสวิรัติ. Literally \"I eat vegetarian\"."}
+{"id":"th.c0178","meaning":"allergic to peanuts or beans","note":"ถั่ว covers peanuts, beans and some nuts. แพ้ + the thing: say it before you order."}
+{"id":"th.c0179","meaning":"a big house","note":"The describer comes after the noun."}
+{"id":"th.c0180","meaning":"a red car","note":"สี (color) + color word, after the noun."}
+{"id":"th.c0181","meaning":"this shirt","note":"Noun + classifier + นี้."}
+{"id":"th.c0182","meaning":"very beautiful","note":"|"}
+{"id":"th.c0183","meaning":"more expensive","note":"กว่า after the describer: more … than."}
+{"id":"th.c0184","meaning":"a small room","note":"เล็ก (small) comes after ห้อง (room)."}
+{"id":"th.c0185","meaning":"that book","note":"Noun + classifier + นั้น. นั้น (that) has a high tone."}
+{"id":"th.c0186","meaning":"Whose bag is this?","note":"ของใคร = whose. It goes after the noun, like every owner."}
+{"id":"th.c0187","meaning":"the biggest","note":"ที่สุด after the describer: the most."}
+{"id":"th.c0188","meaning":"cheaper","note":"ถูก also means \"correct\"; the context tells you which."}
+{"id":"th.c0189","meaning":"alike; the same","note":"Also a friendly \"me too\" or \"same to you\"."}
+{"id":"th.c0190","meaning":"the same height","note":"เท่ากัน after the describer: equally."}
+{"id":"th.c0191","meaning":"not difficult","note":"ไม่ goes before the describing word, with no เป็น."}
+{"id":"th.c0192","meaning":"very cute","note":"For children, pets, things and people. A common compliment."}
+{"id":"th.c0193","meaning":"the new car","note":"ใหม่ (mài, low tone) = new; ไม่ (mâi, falling tone) = not."}
+{"id":"th.c0194","meaning":"an old house","note":"เก่า is old for things. For people's age, say แก่ instead."}
+{"id":"th.c0195","meaning":"a clean room","note":"|"}
+{"id":"th.c0196","meaning":"today","note":"|"}
+{"id":"th.c0197","meaning":"tomorrow","note":"|"}
+{"id":"th.c0198","meaning":"yesterday","note":"|"}
+{"id":"th.c0199","meaning":"2 p.m.","note":"Afternoon hours count from บ่ายโมง (1 p.m.)."}
+{"id":"th.c0200","meaning":"Saturday","note":"|"}
+{"id":"th.c0201","meaning":"What time is it now?","note":"กี่โมง = what time (how many hours)."}
+{"id":"th.c0202","meaning":"6 a.m.","note":"Morning hours from 6 to 11 are … โมง, usually with เช้า after: แปดโมงเช้า."}
+{"id":"th.c0203","meaning":"noon","note":"Lunch time. บ่ายโมง (1 p.m.) comes right after it."}
+{"id":"th.c0204","meaning":"7 p.m.","note":"Evening hours restart: หนึ่งทุ่ม (7 p.m.) to ห้าทุ่ม (11 p.m.)."}
+{"id":"th.c0205","meaning":"midnight","note":"Literally \"noon of the night\"."}
+{"id":"th.c0206","meaning":"2 a.m.","note":"Night hours from 1 to 5 a.m. use ตี (to strike)."}
+{"id":"th.c0207","meaning":"5 p.m.","note":"4 to 6 p.m. can end with เย็น (evening)."}
+{"id":"th.c0208","meaning":"Monday","note":"Every day name starts with วัน (day)."}
+{"id":"th.c0209","meaning":"next week","note":"หน้า after a time word = next. อาทิตย์ is also Sunday."}
+{"id":"th.c0210","meaning":"I've already eaten.","note":"แล้ว at the end: already done. The verb never changes."}
+{"id":"th.c0211","meaning":"I'm on my way.","note":"กำลัง before the verb: happening now."}
+{"id":"th.c0212","meaning":"I'll go tomorrow.","note":"จะ before the verb for later."}
+{"id":"th.c0213","meaning":"every day","note":"ทุก (every) comes before วัน."}
+{"id":"th.c0214","meaning":"Where is the bathroom?","note":"ที่ไหน stays at the end, where the answer goes."}
+{"id":"th.c0215","meaning":"turn left","note":"|"}
+{"id":"th.c0216","meaning":"go straight","note":"|"}
+{"id":"th.c0217","meaning":"Is it near?","note":"ใกล้ has a falling tone; ไกล (far) a mid tone."}
+{"id":"th.c0218","meaning":"market","note":"Read ตะ-หลาด: the hidden vowel and the leading ต give ลาด a low tone."}
+{"id":"th.c0219","meaning":"turn right","note":"ขวา (khwǎa) has a rising tone."}
+{"id":"th.c0220","meaning":"very far","note":"ไกล (glai) has a mid tone."}
+{"id":"th.c0221","meaning":"It's across the street.","note":"ตรงข้าม = opposite. Add the place: ตรงข้ามโรงแรม."}
+{"id":"th.c0222","meaning":"It's up ahead.","note":"ข้างหน้า = in front, ahead."}
+{"id":"th.c0223","meaning":"traffic light","note":"Literally \"red light\", whatever color it shows."}
+{"id":"th.c0224","meaning":"the corner","note":"Literally \"head of the corner\"."}
+{"id":"th.c0225","meaning":"Is there a 7-Eleven around here?","note":"แถวนี้ = around here. มี = there is."}
+{"id":"th.c0226","meaning":"hotel","note":"|"}
+{"id":"th.c0227","meaning":"Skytrain station","note":"สถานี (station) comes first, then what kind."}
+{"id":"th.c0228","meaning":"side street (soi)","note":"Small streets off a main road are numbered: สุขุมวิทซอย 11."}
+{"id":"th.c0229","meaning":"The bank is close by.","note":"ใกล้ๆ = nearby, close by; ๆ repeats the word."}
+{"id":"th.c0230","meaning":"Which way?","note":"ทาง = way, direction."}
+{"id":"th.c0231","meaning":"temple","note":"Dress modestly: shoulders and knees covered."}
+{"id":"th.c0232","meaning":"to the airport","note":"To a driver: ไป + place (+ ครับ / ค่ะ). No word for \"to\"."}
+{"id":"th.c0233","meaning":"Can you use the meter?","note":"|"}
+{"id":"th.c0234","meaning":"stop here","note":"Add ครับ / ค่ะ, or นะครับ / นะคะ."}
+{"id":"th.c0235","meaning":"Skytrain (BTS)","note":"บีทีเอส is also common."}
+{"id":"th.c0236","meaning":"one ticket","note":"ใบ counts tickets."}
+{"id":"th.c0237","meaning":"How much to Sukhumvit?","note":"Ask before you get in a tuk-tuk or a taxi with no meter."}
+{"id":"th.c0238","meaning":"taxi","note":"|"}
+{"id":"th.c0239","meaning":"tuk-tuk","note":"Agree on the price first."}
+{"id":"th.c0240","meaning":"city bus","note":"|"}
+{"id":"th.c0241","meaning":"motorcycle; motorbike taxi","note":"Riders in orange vests wait at the mouth of a soi."}
+{"id":"th.c0242","meaning":"Take the Skytrain at Siam.","note":"ขึ้น = get on (a bus, a train)."}
+{"id":"th.c0243","meaning":"I'll get off here.","note":"ลง = get off. Add ครับ or ค่ะ."}
+{"id":"th.c0244","meaning":"I want to go to Chiang Mai.","note":"อยาก + verb: want to."}
+{"id":"th.c0245","meaning":"Can you wait here?","note":"Verb + ได้ไหม: can you …?"}
+{"id":"th.c0246","meaning":"How much is the fare?","note":"ค่าโดยสาร = fare."}
+{"id":"th.c0247","meaning":"Please drive slowly.","note":"หน่อย softens it. Add ครับ or ค่ะ."}
+{"id":"th.c0248","meaning":"Do I have to change?","note":"ต้อง = have to. เปลี่ยนรถ = change buses or trains."}
+{"id":"th.c0249","meaning":"How much is it?","note":"Often said เท่าไหร่ (thâo-rài)."}
+{"id":"th.c0250","meaning":"Can you lower the price?","note":"Polite bargaining at markets, not in malls."}
+{"id":"th.c0251","meaning":"Can I try it on?","note":"|"}
+{"id":"th.c0252","meaning":"too expensive","note":"ไป after a describer: too much."}
+{"id":"th.c0253","meaning":"black","note":"Colors take สี: เสื้อสีดำ, a black shirt."}
+{"id":"th.c0254","meaning":"white","note":"ขาว (khǎao) has a rising tone; ข้าว (khâao) is rice."}
+{"id":"th.c0255","meaning":"red","note":"|"}
+{"id":"th.c0256","meaning":"dark blue","note":"Literally \"silver-water color\"."}
+{"id":"th.c0257","meaning":"light blue","note":"Literally \"sky color\"."}
+{"id":"th.c0258","meaning":"Do you have a bigger size?","note":"ใหญ่กว่านี้ = bigger than this."}
+{"id":"th.c0259","meaning":"too big","note":"|"}
+{"id":"th.c0260","meaning":"this pair of shoes","note":"Shoes are counted in pairs: คู่, after the noun."}
+{"id":"th.c0261","meaning":"Do you have it in green?","note":"มี … ไหม = do you have …?"}
+{"id":"th.c0262","meaning":"Can I pay by QR code?","note":"Most shops and many stalls take QR payment."}
+{"id":"th.c0263","meaning":"pay in cash","note":"|"}
+{"id":"th.c0264","meaning":"I'll take this one.","note":"เอา = take. Add ครับ or ค่ะ."}
+{"id":"th.c0265","meaning":"I'm just looking.","note":"Literally \"look first\". Add ครับ or ค่ะ."}
+{"id":"th.c0266","meaning":"A bag, please.","note":"Many shops ask before giving a plastic bag."}
+{"id":"th.c0267","meaning":"headache; my head hurts","note":"ปวด + body part. No \"have\"."}
+{"id":"th.c0268","meaning":"sick, unwell","note":"Literally \"not comfortable\"."}
+{"id":"th.c0269","meaning":"tired","note":"No เป็น: ผมเหนื่อย, ฉันเหนื่อย."}
+{"id":"th.c0270","meaning":"Where is a pharmacy?","note":"|"}
+{"id":"th.c0271","meaning":"glad, happy","note":"|"}
+{"id":"th.c0272","meaning":"stomachache","note":"ท้อง = belly."}
+{"id":"th.c0273","meaning":"to have a cold","note":"Illnesses take เป็น: ผมเป็นหวัด."}
+{"id":"th.c0274","meaning":"to have a fever","note":"For a fever say เป็นไข้; ร้อน alone is hot weather or a hot stove."}
+{"id":"th.c0275","meaning":"sore throat","note":"เจ็บ = sore, hurt (sharp); ปวด = ache (dull)."}
+{"id":"th.c0276","meaning":"sleepy","note":"Literally \"drowsy for sleep\"."}
+{"id":"th.c0277","meaning":"stressed","note":"|"}
+{"id":"th.c0278","meaning":"bored; fed up","note":"|"}
+{"id":"th.c0279","meaning":"sad; sorry about something","note":"Also \"I'm sorry for your loss\". Not an apology for a small mistake."}
+{"id":"th.c0280","meaning":"I need to see a doctor.","note":"หาหมอ = go to the doctor (literally \"look for a doctor\")."}
+{"id":"th.c0281","meaning":"allergic to a medicine","note":"Tell the pharmacist: แพ้ยา + the name."}
+{"id":"th.c0282","meaning":"Help!","note":"Shout it in an emergency."}
+{"id":"th.c0283","meaning":"I'm better now.","note":"หาย = get well (also: disappear)."}
+{"id":"th.c0284","meaning":"Where are you going?","note":"A friendly greeting among acquaintances, not nosy."}
+{"id":"th.c0285","meaning":"Have you eaten yet?","note":"Also a friendly greeting. Answer กินแล้ว or ยัง."}
+{"id":"th.c0286","meaning":"Could I have some water?","note":"ขอ + thing + หน่อย."}
+{"id":"th.c0287","meaning":"Could you speak slowly, please?","note":"ช่วย + verb + หน่อย."}
+{"id":"th.c0288","meaning":"Do you speak English?","note":"|"}
+{"id":"th.c0289","meaning":"What's this?","note":"The question word goes where the answer goes: นี่ (คือ) …"}
+{"id":"th.c0290","meaning":"Who's that?","note":"ใคร = who, at the end."}
+{"id":"th.c0291","meaning":"When are you going?","note":"เมื่อไร goes after the verb. Often said เมื่อไหร่."}
+{"id":"th.c0292","meaning":"Why are you late?","note":"ทำไม comes first, as in English."}
+{"id":"th.c0293","meaning":"Which one?","note":"ไหน after the classifier: which."}
+{"id":"th.c0294","meaning":"How many hours?","note":"กี่ + the counting word: how many."}
+{"id":"th.c0295","meaning":"How do I get there?","note":"ยังไง = how. Literally \"go how\"."}
+{"id":"th.c0296","meaning":"Could you take a photo for me?","note":"ให้ = for me. ได้ไหม makes it a question."}
+{"id":"th.c0297","meaning":"Do you understand?","note":"Answer เข้าใจ or ไม่เข้าใจ, not ใช่."}
+{"id":"th.c0298","meaning":"I don't understand.","note":"Add ครับ or ค่ะ."}
+{"id":"th.c0299","meaning":"Could you say that again?","note":"อีกครั้ง = once more."}
+{"id":"th.c0300","meaning":"Don't forget!","note":"อย่า + verb = don't. นะ makes it friendly."}
+{"id":"th.c0301","meaning":"I'm hungry. (male speaker)","note":"No เป็น before a describing word: not ผมเป็นหิว."}
+{"id":"th.c0302","meaning":"Westerner; guava","note":"A neutral word for white Westerners; also the fruit."}
+{"id":"th.c0303","meaning":"tight (clothes)","note":"Of clothes it means tight, often too tight: กางเกงฟิต. Not \"it fits well\"."}
+{"id":"th.c0304","meaning":"I'm full","note":"Not เต็ม, which is a full glass or bus."}
+{"id":"th.c0305","meaning":"spicy","note":"ร้อน is hot to the touch; spicy food is เผ็ด."}
+{"id":"th.c0306","meaning":"The food is delicious.","note":"Not อาหารเป็นอร่อย: describing words need no เป็น."}
+{"id":"th.c0307","meaning":"I'm not a teacher. (female speaker)","note":"Deny a noun with ไม่ใช่, not ไม่เป็น."}
+{"id":"th.c0308","meaning":"I'm at home. (male speaker)","note":"Where you are takes อยู่, never เป็น."}
+{"id":"th.c0309","meaning":"my house (male speaker)","note":"The owner comes after the noun: not ผมบ้าน. A woman says บ้านฉัน."}
+{"id":"th.c0310","meaning":"over the top","note":"Means exaggerated or too much, not \"finished\"."}
+{"id":"th.c0311","meaning":"air conditioning","note":"Also a flight attendant. Not the air you breathe."}
+{"id":"th.c0312","meaning":"hot (weather, to the touch)","note":"Hot food in the spicy sense is เผ็ด."}
+{"id":"th.c0313","meaning":"Excuse me! (to a server, male speaker)","note":"น้อง (younger sibling) is how you call young staff."}
+{"id":"th.c0314","meaning":"Excuse me! (to a server, female speaker)","note":"คะ, with a high tone, because you are calling someone."}
+{"id":"th.c0315","meaning":"Where have you been?","note":"A greeting, not a real question. \"Just out\" is answer enough."}
+{"id":"th.c0316","meaning":"reluctant to impose","note":"Not wanting to trouble someone. No single English word."}
+{"id":"th.c0317","meaning":"Are you going? (female speaker)","note":"A question ends in คะ (high tone), not ค่ะ."}
+{"id":"th.c0318","meaning":"I can swim.","note":"ได้ goes after the verb for \"can\". ได้ว่ายน้ำ means \"got to swim\"."}
+{"id":"th.c0319","meaning":"Everything is delicious.","note":"To a host or cook. Male: add ครับ; female: add ค่ะ."}
+{"id":"th.c0320","meaning":"You're a great cook.","note":"To a host or a friend who cooked."}
+{"id":"th.c0321","meaning":"Well done!","note":"The all-purpose praise: work, sport, children, a test."}
+{"id":"th.c0322","meaning":"You did really well.","note":"For a result or an effort."}
+{"id":"th.c0323","meaning":"That's great!","note":"For an idea, a plan or news."}
+{"id":"th.c0324","meaning":"You're really good at this.","note":"For a skill: a game, a sport, a dance."}
+{"id":"th.c0325","meaning":"You're great at your job.","note":"To a colleague or staff member."}
+{"id":"th.c0326","meaning":"You work so hard.","note":"Praise for effort; Thais value it."}
+{"id":"th.c0327","meaning":"You're so kind.","note":"Literally very good heart."}
+{"id":"th.c0328","meaning":"You look good today.","note":"Friendly; fine between colleagues."}
+{"id":"th.c0329","meaning":"That looks pretty on you.","note":"For clothes, to a woman. To a man: ใส่แล้วหล่อ."}
+{"id":"th.c0330","meaning":"That looks handsome on you.","note":"For clothes, to a man. To a woman: ใส่แล้วสวย."}
+{"id":"th.c0331","meaning":"What a nice shirt!","note":"For any top or blouse."}
+{"id":"th.c0332","meaning":"You have a lovely house.","note":"On a visit."}
+{"id":"th.c0333","meaning":"Your home is so welcoming.","note":"Literally very nice to live in; the classic visit compliment."}
+{"id":"th.c0334","meaning":"It's so clean!","note":"For a home, a room or a shop."}
+{"id":"th.c0335","meaning":"Your child is so cute.","note":"Very common; Thais love praising children."}
+{"id":"th.c0336","meaning":"Lovely photo!","note":"Phone photos, social media."}
+{"id":"th.c0337","meaning":"You sing beautifully.","note":"เพราะ here means sweet-sounding. Karaoke nights."}
+{"id":"th.c0338","meaning":"You're a great dancer.","note":"At a party or a show."}
+{"id":"th.c0339","meaning":"Your handwriting is beautiful.","note":"Also for neat Thai script."}
+{"id":"th.c0340","meaning":"You speak Thai really well.","note":"You will hear this after one sentence."}
+{"id":"th.c0341","meaning":"You're the best!","note":"Warm, playful; friends and children."}
+{"id":"th.c0342","meaning":"Oh no, not really.","note":"The usual modest answer. Male: ไม่หรอกครับ; female: ไม่หรอกค่ะ."}
+{"id":"th.c0343","meaning":"I'm not good yet.","note":"Modest answer about a skill. Male: add ครับ; female: add ค่ะ."}
+{"id":"th.c0344","meaning":"I still have a lot to learn.","note":"Modest answer about your Thai. Male: add ครับ; female: add ค่ะ."}
+{"id":"th.c0345","meaning":"I only speak a little.","note":"เอง makes it \"just\". Male: add ครับ; female: add ค่ะ."}
+{"id":"th.c0346","meaning":"Thanks, that's kind.","note":"Accepting warmly. Male: ขอบคุณนะครับ; female: ขอบคุณนะคะ."}
+{"id":"th.c0347","meaning":"You too.","note":"Returning a compliment. Male: add ครับ; female: add ค่ะ."}
+{"id":"th.c0348","meaning":"handsome","note":"To or about a man. Mild alone, warm with มาก. To a woman: สวย."}
+{"id":"th.c0349","meaning":"cute; lovely","note":"To anyone, any gender. The most-used flirting word. Mild."}
+{"id":"th.c0350","meaning":"kind; good-hearted","note":"To anyone. Literally good heart. Mild."}
+{"id":"th.c0351","meaning":"single (not dating)","note":"Same for men and women. Asking about it is mild in Thailand."}
+{"id":"th.c0352","meaning":"sweet talker","note":"Literally sweet mouth. A playful reply to a compliment."}
+{"id":"th.c0353","meaning":"to love","note":"Strong; Thais say it less freely than English \"love\". Bold."}
+{"id":"th.c0354","meaning":"to miss; to think of (someone)","note":"Common in messages between couples and close friends. Warm."}
+{"id":"th.c0355","meaning":"at ease; comfortable (with someone)","note":"Literally comfortable heart. Warm."}
+{"id":"th.c0356","meaning":"You look beautiful today.","note":"To a woman. Warm. To a man: วันนี้หล่อมากเลย."}
+{"id":"th.c0357","meaning":"You have really beautiful eyes.","note":"To anyone. Warm."}
+{"id":"th.c0358","meaning":"That color looks great on you.","note":"To anyone. Mild."}
+{"id":"th.c0359","meaning":"You look really handsome today.","note":"To a man. Warm. To a woman: วันนี้สวยมากเลย."}
+{"id":"th.c0360","meaning":"So handsome!","note":"To or about a man. Warm."}
+{"id":"th.c0361","meaning":"You're really cute.","note":"To anyone. Warm."}
+{"id":"th.c0362","meaning":"You're the cutest.","note":"To anyone. Playful and warm."}
+{"id":"th.c0363","meaning":"You're a lovely person.","note":"About who they are, not looks. Mild."}
+{"id":"th.c0364","meaning":"You're always kind to me. (female speaker)","note":"Male speaker: คุณใจดีกับผมเสมอ. Warm."}
+{"id":"th.c0365","meaning":"I like you. (male speaker)","note":"A clear confession. Bold. Female speaker: ฉันชอบคุณนะ."}
+{"id":"th.c0366","meaning":"I like you. (female speaker)","note":"A clear confession. Bold. Male speaker: ผมชอบคุณนะ."}
+{"id":"th.c0367","meaning":"I love you. (male speaker)","note":"For a partner. Very bold. Female speaker: ฉันรักคุณ."}
+{"id":"th.c0368","meaning":"I love you. (female speaker)","note":"For a partner. Very bold. Male speaker: ผมรักคุณ."}
+{"id":"th.c0369","meaning":"I miss you.","note":"Very common in messages. Warm."}
+{"id":"th.c0370","meaning":"I miss you every day.","note":"For a partner far away. Bold."}
+{"id":"th.c0371","meaning":"I have fun with you.","note":"Literally being with you is fun. Mild."}
+{"id":"th.c0372","meaning":"I feel at ease with you.","note":"Warm; Thais value this a lot."}
+{"id":"th.c0373","meaning":"I had a great time today.","note":"At the end of a date. Mild."}
+{"id":"th.c0374","meaning":"Are you single?","note":"Direct but common. Mild to warm."}
+{"id":"th.c0375","meaning":"I'm still single.","note":"A reply that leaves the door open. Mild."}
+{"id":"th.c0376","meaning":"Are you seeing anyone?","note":"Literally do you have a partner yet. Common small talk. Mild."}
+{"id":"th.c0377","meaning":"Want to go for a coffee?","note":"The usual first invitation. Mild."}
+{"id":"th.c0378","meaning":"Want to get something to eat?","note":"A meal together. Mild."}
+{"id":"th.c0379","meaning":"Are you free this Saturday?","note":"The usual way to ask for a date. Mild."}
+{"id":"th.c0380","meaning":"Are you free tonight?","note":"Warm."}
+{"id":"th.c0381","meaning":"Want to go out together?","note":"Warm."}
+{"id":"th.c0382","meaning":"Can I have your LINE?","note":"LINE is the app Thais use instead of phone numbers. Mild."}
+{"id":"th.c0383","meaning":"Can we meet again?","note":"After a first meeting. Warm."}
+{"id":"th.c0384","meaning":"I want to see you again.","note":"Warm."}
+{"id":"th.c0385","meaning":"It's great to see you.","note":"Greeting someone you like. Mild."}
+{"id":"th.c0386","meaning":"Will you be my partner?","note":"Asking to make it official. Bold."}
+{"id":"th.c0387","meaning":"Sweet dreams.","note":"Goodnight message. Warm."}
+{"id":"th.c0388","meaning":"Get home safe.","note":"Caring goodbye. Mild."}
+{"id":"th.c0389","meaning":"Let me know when you get home.","note":"Caring; common between couples. Warm."}
+{"id":"th.c0390","meaning":"You're cute too.","note":"Returning the compliment. Warm."}
+{"id":"th.c0391","meaning":"Do you say that to everyone?","note":"Playful deflection; teasing, not a no."}
+{"id":"th.c0392","meaning":"Let me think about it.","note":"A soft maybe. Mild."}
+{"id":"th.c0393","meaning":"Sure, let's go!","note":"A warm yes."}
+{"id":"th.c0394","meaning":"Sure!","note":"A quick, happy yes."}
+{"id":"th.c0395","meaning":"Thanks, but I'm seeing someone. (female speaker)","note":"A clear, kind no. Male speaker: ขอบคุณนะ แต่ผมมีแฟนแล้ว."}
+{"id":"th.c0396","meaning":"Thanks, but I'm seeing someone. (male speaker)","note":"A clear, kind no. Female speaker: ขอบคุณนะ แต่ฉันมีแฟนแล้ว."}
+{"id":"th.c0397","meaning":"Sorry, I'm really not free.","note":"A soft no; repeated, it means no."}
+{"id":"th.c0398","meaning":"Thanks, but I'd rather not.","note":"Kind and clear."}
+{"id":"th.c0399","meaning":"Let's just be friends.","note":"Kind and clear; closes the door gently."}
+{"id":"th.c0400","meaning":"house; home","note":"กลับบ้าน = go home. Classifier: หลัง."}
+{"id":"th.c0401","meaning":"day","note":"Counts with no classifier: สามวัน."}
+{"id":"th.c0402","meaning":"time","note":"ไม่มีเวลา = I have no time."}
+{"id":"th.c0403","meaning":"work; job; party","note":"ไปงาน can mean going to a party."}
+{"id":"th.c0404","meaning":"water; liquid","note":"Starts many drink names: น้ำส้ม."}
+{"id":"th.c0405","meaning":"name","note":"Also the verb: ผมชื่อ… = my name is…"}
+{"id":"th.c0406","meaning":"money; silver","note":"Thai money is counted in บาท."}
+{"id":"th.c0407","meaning":"food; meal","note":"อาหารไทย = Thai food."}
+{"id":"th.c0408","meaning":"year","note":"Counts with no classifier: สองปี."}
+{"id":"th.c0409","meaning":"story; matter; topic","note":"เรื่องนี้ = this matter."}
+{"id":"th.c0410","meaning":"language","note":"ภาษาไทย, ภาษาอังกฤษ."}
+{"id":"th.c0411","meaning":"car; vehicle","note":"Classifier: คัน."}
+{"id":"th.c0412","meaning":"way; route","note":"ทางนี้ = this way."}
+{"id":"th.c0413","meaning":"woman","note":"Neutral and polite. Classifier: คน."}
+{"id":"th.c0414","meaning":"man","note":"Neutral and polite. Classifier: คน."}
+{"id":"th.c0415","meaning":"city; town","note":"ในเมือง = in town."}
+{"id":"th.c0416","meaning":"country","note":"ประเทศไทย = Thailand."}
+{"id":"th.c0417","meaning":"shop; store","note":"Starts shop names: ร้านกาแฟ."}
+{"id":"th.c0418","meaning":"head","note":"ปวดหัว = headache."}
+{"id":"th.c0419","meaning":"face; front","note":"After a time word it means next: ปีหน้า."}
+{"id":"th.c0420","meaning":"problem","note":"ไม่มีปัญหา = no problem."}
+{"id":"th.c0421","meaning":"month","note":"Counts with no classifier: สองเดือน."}
+{"id":"th.c0422","meaning":"week; sun","note":"สัปดาห์ is the formal word for week."}
+{"id":"th.c0423","meaning":"hour","note":"สองชั่วโมง = two hours."}
+{"id":"th.c0424","meaning":"minute","note":"ห้านาที = five minutes."}
+{"id":"th.c0425","meaning":"word","note":"คำนี้ = this word."}
+{"id":"th.c0426","meaning":"picture; photo","note":"ถ่ายรูป = take a photo."}
+{"id":"th.c0427","meaning":"song","note":"ร้องเพลง = sing."}
+{"id":"th.c0428","meaning":"movie; leather","note":"ดูหนัง = watch a movie."}
+{"id":"th.c0429","meaning":"book","note":"Classifier: เล่ม."}
+{"id":"th.c0430","meaning":"telephone","note":"For a cell phone, people say มือถือ."}
+{"id":"th.c0431","meaning":"cell phone","note":"Literally hand-hold. Classifier: เครื่อง."}
+{"id":"th.c0432","meaning":"TV","note":"ดูทีวี = watch TV."}
+{"id":"th.c0433","meaning":"news","note":"ดูข่าว = watch the news."}
+{"id":"th.c0434","meaning":"color","note":"Comes before the color word: สีแดง."}
+{"id":"th.c0435","meaning":"price","note":"ราคาเท่าไร = what's the price?"}
+{"id":"th.c0436","meaning":"student (school)","note":"A college student is นักศึกษา."}
+{"id":"th.c0437","meaning":"college student","note":"Classifier: คน."}
+{"id":"th.c0438","meaning":"teacher","note":"A college teacher is อาจารย์."}
+{"id":"th.c0439","meaning":"doctor","note":"ไปหาหมอ = see a doctor."}
+{"id":"th.c0440","meaning":"employee; staff member","note":"Also how you refer to shop or hotel staff."}
+{"id":"th.c0441","meaning":"police officer","note":"Classifier: คน."}
+{"id":"th.c0442","meaning":"daughter","note":"ลูก alone = child."}
+{"id":"th.c0443","meaning":"son","note":"ลูก alone = child."}
+{"id":"th.c0444","meaning":"parents","note":"Literally father-mother."}
+{"id":"th.c0445","meaning":"mother (respectful)","note":"Said about or to someone's mother; family says แม่."}
+{"id":"th.c0446","meaning":"father (respectful)","note":"Said about or to someone's father; family says พ่อ."}
+{"id":"th.c0447","meaning":"grandfather (father's side)","note":"Mother's father is ตา."}
+{"id":"th.c0448","meaning":"grandmother (father's side)","note":"Mother's mother is ยาย."}
+{"id":"th.c0449","meaning":"grandmother (mother's side)","note":"Also a kind way to address an old woman."}
+{"id":"th.c0450","meaning":"bathroom; restroom","note":"Literally water room."}
+{"id":"th.c0451","meaning":"school","note":"ไปโรงเรียน = go to school."}
+{"id":"th.c0452","meaning":"restaurant","note":"Literally food shop."}
+{"id":"th.c0453","meaning":"hospital","note":"A small private clinic is คลินิก."}
+{"id":"th.c0454","meaning":"bank","note":"Banks close on weekends; branches in malls stay open."}
+{"id":"th.c0455","meaning":"company","note":"ทำงานบริษัท = work for a company."}
+{"id":"th.c0456","meaning":"office","note":"From English; everyday word."}
+{"id":"th.c0457","meaning":"airport","note":"Literally flying field."}
+{"id":"th.c0458","meaning":"station","note":"สถานีรถไฟ = train station."}
+{"id":"th.c0459","meaning":"road; street","note":"A side street off it is a ซอย."}
+{"id":"th.c0460","meaning":"sea; seaside","note":"ไปทะเล = go to the beach."}
+{"id":"th.c0461","meaning":"mountain","note":"Classifier: ลูก."}
+{"id":"th.c0462","meaning":"island","note":"เกาะ comes before the name: เกาะสมุย."}
+{"id":"th.c0463","meaning":"garden; park","note":"Also an orchard."}
+{"id":"th.c0464","meaning":"rain","note":"ฝนตก = it's raining."}
+{"id":"th.c0465","meaning":"weather; air","note":"อากาศดี = nice weather."}
+{"id":"th.c0466","meaning":"sunshine","note":"แดดร้อน = the sun is strong."}
+{"id":"th.c0467","meaning":"fire; light; electricity","note":"เปิดไฟ = turn on the light."}
+{"id":"th.c0468","meaning":"door","note":"ปิดประตู = close the door."}
+{"id":"th.c0469","meaning":"window","note":"เปิดหน้าต่าง = open the window."}
+{"id":"th.c0470","meaning":"chair","note":"Classifier: ตัว."}
+{"id":"th.c0471","meaning":"key; lock","note":"Classifier: ดอก."}
+{"id":"th.c0472","meaning":"bag","note":"Classifier: ใบ."}
+{"id":"th.c0473","meaning":"shirt; top","note":"Classifier: ตัว."}
+{"id":"th.c0474","meaning":"clothes","note":"Literally shirt-cloth."}
+{"id":"th.c0475","meaning":"shoes","note":"Classifier: คู่."}
+{"id":"th.c0476","meaning":"hat","note":"ใส่หมวก = wear a hat."}
+{"id":"th.c0477","meaning":"fruit","note":"Classifier: ลูก or ผล."}
+{"id":"th.c0478","meaning":"vegetables","note":"ไม่ใส่ผัก = no vegetables."}
+{"id":"th.c0479","meaning":"chicken","note":"Also the animal."}
+{"id":"th.c0480","meaning":"pork; pig","note":"Also the animal."}
+{"id":"th.c0481","meaning":"fish","note":"Also the food."}
+{"id":"th.c0482","meaning":"egg","note":"ไข่ดาว (fried egg) is a favorite on rice."}
+{"id":"th.c0483","meaning":"milk","note":"ไม่ใส่นม = no milk."}
+{"id":"th.c0484","meaning":"coffee","note":"Classifier: แก้ว."}
+{"id":"th.c0485","meaning":"tea","note":"ชาร้อน = hot tea."}
+{"id":"th.c0486","meaning":"medicine","note":"กินยา = take medicine (literally eat)."}
+{"id":"th.c0487","meaning":"cat","note":"Classifier: ตัว."}
+{"id":"th.c0488","meaning":"elephant","note":"The national animal."}
+{"id":"th.c0489","meaning":"bird","note":"Classifier: ตัว."}
+{"id":"th.c0490","meaning":"age","note":"No เป็น: ผมอายุ 30 ปี."}
+{"id":"th.c0491","meaning":"gift; present","note":"ให้ของขวัญ = give a gift."}
+{"id":"th.c0492","meaning":"airplane","note":"Literally flying machine."}
+{"id":"th.c0493","meaning":"train","note":"Literally fire car."}
+{"id":"th.c0494","meaning":"ticket","note":"Classifier: ใบ."}
+{"id":"th.c0495","meaning":"baht","note":"The number comes first: 50 บาท."}
+{"id":"th.c0496","meaning":"address","note":"Literally place to stay."}
+{"id":"th.c0497","meaning":"passport","note":"Literally travel document."}
+{"id":"th.c0498","meaning":"to be (a job, role, nationality)","note":"Never before describing words: not เป็นสวย."}
+{"id":"th.c0499","meaning":"to have; there is","note":"มี…ไหม = do you have…? / is there…?"}
+{"id":"th.c0500","meaning":"to be at; to live; to stay","note":"อยู่ที่ไหน = where is it?"}
+{"id":"th.c0501","meaning":"to be (that is; namely)","note":"Points out or defines: นี่คือ…"}
+{"id":"th.c0502","meaning":"to give; to let","note":"Also for (someone): ทำให้ = do for."}
+{"id":"th.c0503","meaning":"to want to","note":"Before a verb: อยากไป. Never changes."}
+{"id":"th.c0504","meaning":"to have to; must","note":"Before a verb: ต้องไป."}
+{"id":"th.c0505","meaning":"to know (a fact)","note":"For people and places use รู้จัก."}
+{"id":"th.c0506","meaning":"to know (a person or place)","note":"รู้จักร้านนี้ไหม = know this shop?"}
+{"id":"th.c0507","meaning":"to eat","note":"Polite: ทาน. Also used for medicine."}
+{"id":"th.c0508","meaning":"to speak; to say","note":"พูดภาษาไทย = speak Thai."}
+{"id":"th.c0509","meaning":"to like","note":"ชอบมาก = like a lot."}
+{"id":"th.c0510","meaning":"to think","note":"คิดว่า… = I think that…"}
+{"id":"th.c0511","meaning":"to see","note":"เห็นไหม = do you see?"}
+{"id":"th.c0512","meaning":"to tell","note":"บอกเขาด้วย = tell him too."}
+{"id":"th.c0513","meaning":"to work","note":"ทำงานที่… = work at…"}
+{"id":"th.c0514","meaning":"to use","note":"ใช้ได้ = it works; it's usable."}
+{"id":"th.c0515","meaning":"to take; to want (a thing)","note":"เอาอันนี้ = I'll take this one."}
+{"id":"th.c0516","meaning":"to go back; to return","note":"กลับบ้าน = go home."}
+{"id":"th.c0517","meaning":"to go out; to leave","note":"ออกไป = go out."}
+{"id":"th.c0518","meaning":"to buy","note":"ซื้อของ = go shopping."}
+{"id":"th.c0519","meaning":"to meet; to find; to run into","note":"เจอกัน = see you."}
+{"id":"th.c0520","meaning":"to wait","note":"รอแป๊บหนึ่ง is common for wait a sec."}
+{"id":"th.c0521","meaning":"to listen","note":"ฟังเพลง = listen to music."}
+{"id":"th.c0522","meaning":"to read","note":"อ่านหนังสือ = read; also study."}
+{"id":"th.c0523","meaning":"to write","note":"เขียนชื่อ = write your name."}
+{"id":"th.c0524","meaning":"to drink","note":"Everyday speech often uses กิน for drinks too."}
+{"id":"th.c0525","meaning":"to sleep; to lie down","note":"ไปนอน = go to bed."}
+{"id":"th.c0526","meaning":"to understand","note":"ไม่เข้าใจ = I don't understand."}
+{"id":"th.c0527","meaning":"to help","note":"ช่วย…หน่อย = could you…, please."}
+{"id":"th.c0528","meaning":"to ask (a question)","note":"To ask for a thing use ขอ."}
+{"id":"th.c0529","meaning":"to answer; to reply","note":"ตอบไลน์ = reply on LINE."}
+{"id":"th.c0530","meaning":"to sell","note":"ขายอะไร = what do you sell?"}
+{"id":"th.c0531","meaning":"to pay","note":"จ่ายเงิน = pay."}
+{"id":"th.c0532","meaning":"to sit","note":"นั่งก่อน = have a seat."}
+{"id":"th.c0533","meaning":"to walk","note":"เดินไป = go on foot."}
+{"id":"th.c0534","meaning":"to run","note":"วิ่งตอนเช้า = run in the morning."}
+{"id":"th.c0535","meaning":"to go up; to get on","note":"ขึ้นรถ = get in the car."}
+{"id":"th.c0536","meaning":"to go down; to get off","note":"ลงที่นี่ = get off here."}
+{"id":"th.c0537","meaning":"to open; to turn on","note":"เปิดแอร์ = turn on the AC."}
+{"id":"th.c0538","meaning":"to close; to turn off","note":"ร้านปิดแล้ว = the shop is closed."}
+{"id":"th.c0539","meaning":"to start","note":"เริ่มกี่โมง = what time does it start?"}
+{"id":"th.c0540","meaning":"to finish; to be done","note":"เสร็จแล้ว = done."}
+{"id":"th.c0541","meaning":"to play","note":"เล่นฟุตบอล = play soccer."}
+{"id":"th.c0542","meaning":"to wear; to put in","note":"ไม่ใส่พริก = no chili."}
+{"id":"th.c0543","meaning":"to try","note":"ลองกินดู = try a taste."}
+{"id":"th.c0544","meaning":"to go out; to travel for fun","note":"ไปเที่ยว = go out, take a trip."}
+{"id":"th.c0545","meaning":"to rest; to relax","note":"Fuller than พัก."}
+{"id":"th.c0546","meaning":"to eat (polite)","note":"ทานข้าวหรือยัง = have you eaten?"}
+{"id":"th.c0547","meaning":"to teach","note":"สอนภาษาอังกฤษ = teach English."}
+{"id":"th.c0548","meaning":"to call (on the phone)","note":"โทรหา… = call someone."}
+{"id":"th.c0549","meaning":"to send","note":"ส่งรูป = send a photo."}
+{"id":"th.c0550","meaning":"to hear","note":"ได้ยินไหม = can you hear me?"}
+{"id":"th.c0551","meaning":"to feel","note":"รู้สึกดี = feel good."}
+{"id":"th.c0552","meaning":"to change","note":"เปลี่ยนรถ = change trains or buses."}
+{"id":"th.c0553","meaning":"to recommend; to introduce","note":"แนะนำหน่อย = what do you recommend?"}
+{"id":"th.c0554","meaning":"to order","note":"สั่งอาหาร = order food."}
+{"id":"th.c0555","meaning":"to remember","note":"จำได้ = I remember."}
+{"id":"th.c0556","meaning":"to forget","note":"อย่าลืม = don't forget."}
+{"id":"th.c0557","meaning":"to take (someone); to lead","note":"พาไป = take someone there."}
+{"id":"th.c0558","meaning":"to leave with someone","note":"ฝากของ = leave your things."}
+{"id":"th.c0559","meaning":"to tell (a story)","note":"เล่าเรื่อง = tell a story."}
+{"id":"th.c0560","meaning":"to take a photo","note":"ถ่ายรูปได้ไหม = may I take a photo?"}
+{"id":"th.c0561","meaning":"to wake up","note":"ตื่นกี่โมง = what time do you get up?"}
+{"id":"th.c0562","meaning":"to shower; to bathe","note":"Thais often shower twice a day."}
+{"id":"th.c0563","meaning":"to cook","note":"Literally make food."}
+{"id":"th.c0564","meaning":"to drive","note":"ขับรถเป็นไหม = can you drive?"}
+{"id":"th.c0565","meaning":"to dance","note":"เต้นเก่ง = dance well."}
+{"id":"th.c0566","meaning":"to sing","note":"ไปร้องเพลง = go to karaoke."}
+{"id":"th.c0567","meaning":"should; ought to","note":"Before a verb: ควรไป."}
+{"id":"th.c0568","meaning":"to know (formal)","note":"ทราบแล้ว = noted; understood."}
+{"id":"th.c0569","meaning":"to invite; please, go ahead","note":"เชิญครับ = after you; please come in."}
+{"id":"th.c0570","meaning":"to get well; to go missing","note":"หายแล้ว = I'm better / it's gone."}
+{"id":"th.c0571","meaning":"to fall; to drop","note":"ฝนตก = it's raining."}
+{"id":"th.c0572","meaning":"to get married","note":"แต่งงานแล้ว = married."}
+{"id":"th.c0573","meaning":"to hurt (sharp pain)","note":"Dull ache: ปวด."}
+{"id":"th.c0574","meaning":"to cross","note":"ข้ามถนน = cross the road."}
+{"id":"th.c0575","meaning":"to park; to stop (a vehicle)","note":"จอดตรงนี้ = stop here."}
+{"id":"th.c0576","meaning":"to turn","note":"เลี้ยวซ้าย = turn left."}
+{"id":"th.c0577","meaning":"to exchange","note":"แลกเงิน = change money."}
+{"id":"th.c0578","meaning":"to lower; to reduce","note":"ลดได้ไหม = can you give a discount?"}
+{"id":"th.c0579","meaning":"to lose; to be allergic to","note":"แพ้ถั่ว = allergic to peanuts."}
+{"id":"th.c0580","meaning":"to wash","note":"ล้างมือ = wash your hands."}
+{"id":"th.c0581","meaning":"to be able to (formal)","note":"Speech uses verb + ได้ instead."}
+{"id":"th.c0582","meaning":"to stay (at a hotel); to take a break","note":"พักที่ไหน = where are you staying?"}
+{"id":"th.c0583","meaning":"big","note":"After the noun, no เป็น: บ้านใหญ่."}
+{"id":"th.c0584","meaning":"small","note":"Opposite of ใหญ่."}
+{"id":"th.c0585","meaning":"old (things)","note":"Not for people's age."}
+{"id":"th.c0586","meaning":"long","note":"Opposite: สั้น."}
+{"id":"th.c0587","meaning":"short (length)","note":"A short person is เตี้ย."}
+{"id":"th.c0588","meaning":"tall; high","note":"สูงกว่า = taller."}
+{"id":"th.c0589","meaning":"short (height)","note":"Plain, not rude."}
+{"id":"th.c0590","meaning":"fat","note":"Thais say it casually; a learner should not say it about people."}
+{"id":"th.c0591","meaning":"thin","note":"Also said casually about people; best not copied."}
+{"id":"th.c0592","meaning":"easy","note":"Opposite: ยาก."}
+{"id":"th.c0593","meaning":"difficult","note":"ไม่ยาก = not hard."}
+{"id":"th.c0594","meaning":"little; few","note":"น้อยไป = too little."}
+{"id":"th.c0595","meaning":"clean","note":"Opposite: สกปรก."}
+{"id":"th.c0596","meaning":"dirty","note":"Opposite: สะอาด."}
+{"id":"th.c0597","meaning":"loud; famous","note":"ร้านดัง = a famous restaurant."}
+{"id":"th.c0598","meaning":"quiet","note":"เงียบหน่อย = quiet, please."}
+{"id":"th.c0599","meaning":"good at; skilled; clever","note":"The everyday word of praise."}
+{"id":"th.c0600","meaning":"heavy; hard (work)","note":"ทำงานหนัก = work hard."}
+{"id":"th.c0601","meaning":"light (in weight); soft (sound)","note":"พูดเบาๆ = speak softly."}
+{"id":"th.c0602","meaning":"busy","note":"วันนี้ยุ่ง = busy today."}
+{"id":"th.c0603","meaning":"free (not busy); vacant","note":"ห้องว่าง = a vacant room."}
+{"id":"th.c0604","meaning":"true; real","note":"จริงหรือ = really?"}
+{"id":"th.c0605","meaning":"cold (weather)","note":"Cold drinks and food: เย็น."}
+{"id":"th.c0606","meaning":"cool; cold (drinks, air)","note":"Also evening: ตอนเย็น."}
+{"id":"th.c0607","meaning":"expensive","note":"แพงไป = too expensive."}
+{"id":"th.c0608","meaning":"cheap; correct","note":"ถูกต้อง = correct (fuller)."}
+{"id":"th.c0609","meaning":"delicious","note":"The everyday food word."}
+{"id":"th.c0610","meaning":"sweet","note":"หวานน้อย = less sweet (ordering drinks)."}
+{"id":"th.c0611","meaning":"salty","note":"เค็มไป = too salty."}
+{"id":"th.c0612","meaning":"sour","note":"Lime-sour, as in ส้มตำ."}
+{"id":"th.c0613","meaning":"bitter","note":"Bitter melon is มะระ."}
+{"id":"th.c0614","meaning":"bland","note":"Also plain, mild soup."}
+{"id":"th.c0615","meaning":"fun","note":"สนุกมาก = great fun."}
+{"id":"th.c0616","meaning":"hungry","note":"หิวแล้ว = I'm hungry now."}
+{"id":"th.c0617","meaning":"full (after eating)","note":"อิ่มแล้ว = I'm full."}
+{"id":"th.c0618","meaning":"afraid; scared","note":"กลัวหมา = afraid of dogs."}
+{"id":"th.c0619","meaning":"angry","note":"อย่าโกรธ = don't be angry."}
+{"id":"th.c0620","meaning":"excited; nervous","note":"Both good and nervous excitement."}
+{"id":"th.c0621","meaning":"comfortable; well","note":"สบายดี = I'm fine."}
+{"id":"th.c0622","meaning":"fast; quick","note":"เร็วๆ = quickly; hurry."}
+{"id":"th.c0623","meaning":"slow","note":"ช้าๆ = slowly."}
+{"id":"th.c0624","meaning":"ready","note":"พร้อมแล้ว = ready now."}
+{"id":"th.c0625","meaning":"late (in the day)","note":"มาสาย = come late."}
+{"id":"th.c0626","meaning":"full (container, place)","note":"เต็มแล้ว = it's full."}
+{"id":"th.c0627","meaning":"free (no charge)","note":"From English: ไวไฟฟรี."}
+{"id":"th.c0628","meaning":"normal; usual","note":"ตามปกติ = as usual."}
+{"id":"th.c0629","meaning":"hard; stiff","note":"Opposite of soft."}
+{"id":"th.c0630","meaning":"red","note":"Alone after a noun or with สี: สีแดง."}
+{"id":"th.c0631","meaning":"black","note":"Also with สี: สีดำ."}
+{"id":"th.c0632","meaning":"green","note":"Also with สี: สีเขียว."}
+{"id":"th.c0633","meaning":"yellow","note":"Also with สี: สีเหลือง."}
+{"id":"th.c0634","meaning":"pink","note":"Also with สี: สีชมพู."}
+{"id":"th.c0635","meaning":"purple","note":"Also with สี: สีม่วง."}
+{"id":"th.c0636","meaning":"very; a lot","note":"After the word: ดีมาก."}
+{"id":"th.c0637","meaning":"already; now (done)","note":"At the end: กินแล้ว = I've eaten."}
+{"id":"th.c0638","meaning":"still; yet","note":"ยังไม่ = not yet."}
+{"id":"th.c0639","meaning":"again; more; another","note":"อีกครั้ง = once more."}
+{"id":"th.c0640","meaning":"first; before; earlier","note":"ไปก่อน = go ahead first."}
+{"id":"th.c0641","meaning":"really; truly","note":"After the word: ดีจริงๆ."}
+{"id":"th.c0642","meaning":"only; just","note":"Before the thing: แค่สองคน."}
+{"id":"th.c0643","meaning":"just (a moment ago)","note":"Before the verb: เพิ่งมา."}
+{"id":"th.c0644","meaning":"together","note":"ไปด้วยกัน = go together."}
+{"id":"th.c0645","meaning":"alone; by oneself","note":"อยู่คนเดียว = live alone."}
+{"id":"th.c0646","meaning":"often","note":"บ่อยๆ = often, frequently."}
+{"id":"th.c0647","meaning":"sometimes","note":"Often at the start of the sentence."}
+{"id":"th.c0648","meaning":"always","note":"At the end: มาสายเสมอ."}
+{"id":"th.c0649","meaning":"too (much)","note":"After the word: แพงเกินไป."}
+{"id":"th.c0650","meaning":"a little","note":"After the word: เผ็ดนิดหน่อย."}
+{"id":"th.c0651","meaning":"a lot; lots","note":"Casual; มาก is neutral."}
+{"id":"th.c0652","meaning":"here","note":"ที่นี่ที่ไหน = where is this place?"}
+{"id":"th.c0653","meaning":"there","note":"ไปที่นั่น = go there."}
+{"id":"th.c0654","meaning":"right here","note":"Points to a spot."}
+{"id":"th.c0655","meaning":"right there","note":"Points to a spot."}
+{"id":"th.c0656","meaning":"around here","note":"แถวนี้มี…ไหม = is there… around here?"}
+{"id":"th.c0657","meaning":"now","note":"ตอนนี้กี่โมง = what time is it now?"}
+{"id":"th.c0658","meaning":"more (than)","note":"After the word: ใหญ่กว่า = bigger."}
+{"id":"th.c0659","meaning":"most","note":"After the word: ใหญ่ที่สุด = biggest."}
+{"id":"th.c0660","meaning":"equally","note":"สูงเท่ากัน = the same height."}
+{"id":"th.c0661","meaning":"younger sibling; you (to someone younger)","note":"Also \"I\" when speaking to someone older. Waiters: น้องครับ."}
+{"id":"th.c0662","meaning":"I (young woman or child to an elder)","note":"Also \"you\" to a child. Also means mouse."}
+{"id":"th.c0663","meaning":"we; us (the group)","note":"เรา alone also works."}
+{"id":"th.c0664","meaning":"you (more than one)","note":"Polite plural of คุณ."}
+{"id":"th.c0665","meaning":"it","note":"For animals and things; rude for people."}
+{"id":"th.c0666","meaning":"aunt; you (to an older woman)","note":"Friendly to vendors: ป้าครับ, ป้าคะ."}
+{"id":"th.c0667","meaning":"this (standing alone)","note":"นี่คือ… = this is… After a noun use นี้."}
+{"id":"th.c0668","meaning":"that (standing alone)","note":"After a noun use นั้น."}
+{"id":"th.c0669","meaning":"that (over there, standing alone)","note":"After a noun use โน้น."}
+{"id":"th.c0670","meaning":"who; someone","note":"ใครก็ได้ = anyone."}
+{"id":"th.c0671","meaning":"what; something","note":"มีอะไร = what's up?"}
+{"id":"th.c0672","meaning":"-self (myself, yourself)","note":"ผมทำเอง = I made it myself."}
+{"id":"th.c0673","meaning":"each other","note":"รักกัน = love each other."}
+{"id":"th.c0674","meaning":"mine (female speaker)","note":"Male speaker: ของผม."}
+{"id":"th.c0675","meaning":"mine (male speaker)","note":"Female speaker: ของฉัน."}
+{"id":"th.c0676","meaning":"yours","note":"ของคุณไหม = is it yours?"}
+{"id":"th.c0677","meaning":"his; hers; theirs","note":"เขา covers he, she and they."}
+{"id":"th.c0678","meaning":"ours","note":"Also \"mine\" in casual, close talk."}
+{"id":"th.c0679","meaning":"everyone","note":"สวัสดีทุกคน = hello, everyone."}
+{"id":"th.c0680","meaning":"some people","note":"บางคนชอบ = some people like it."}
+{"id":"th.c0681","meaning":"anyone","note":"Also \"somebody!\" when calling for help."}
+{"id":"th.c0682","meaning":"anything (at all)","note":"The easy answer to \"what do you want?\"."}
+{"id":"th.c0683","meaning":"at; in (a place)","note":"Also \"that, which\": คนที่… = the person who…"}
+{"id":"th.c0684","meaning":"in","note":"ในห้อง = in the room."}
+{"id":"th.c0685","meaning":"with","note":"Also joins people: ผมกับเพื่อน = my friend and I."}
+{"id":"th.c0686","meaning":"from","note":"มาจาก = come from."}
+{"id":"th.c0687","meaning":"of; belonging to","note":"Often dropped: บ้านผม = my house."}
+{"id":"th.c0688","meaning":"to; until; reaching","note":"ถึงแล้ว = we've arrived."}
+{"id":"th.c0689","meaning":"on; on top of","note":"บนโต๊ะ = on the table."}
+{"id":"th.c0690","meaning":"under; below","note":"ใต้โต๊ะ = under the table."}
+{"id":"th.c0691","meaning":"like; similar to","note":"เหมือนแม่ = like Mom."}
+{"id":"th.c0692","meaning":"between; during","note":"ระหว่าง A กับ B."}
+{"id":"th.c0693","meaning":"beside; next to","note":"ข้างๆ is common too."}
+{"id":"th.c0694","meaning":"in front of; ahead","note":"ข้างหน้าโรงแรม = in front of the hotel."}
+{"id":"th.c0695","meaning":"behind; at the back","note":"ข้างหลังบ้าน = behind the house."}
+{"id":"th.c0696","meaning":"inside","note":"Also alone: อยู่ข้างใน = it's inside."}
+{"id":"th.c0697","meaning":"outside","note":"Also alone: ข้างนอกร้อน = it's hot out."}
+{"id":"th.c0698","meaning":"opposite; across from","note":"อยู่ตรงข้าม = it's across the street."}
+{"id":"th.c0699","meaning":"out of; beyond","note":"นอกเมือง = out of town."}
+{"id":"th.c0700","meaning":"around; in the area of","note":"Also means row or line."}
+{"id":"th.c0701","meaning":"and","note":"Formal; speech often uses กับ or แล้วก็."}
+{"id":"th.c0702","meaning":"but","note":"ดีแต่แพง = good but pricey."}
+{"id":"th.c0703","meaning":"or","note":"At the end of a sentence it asks \"really?\"."}
+{"id":"th.c0704","meaning":"because","note":"ไม่ไปเพราะ… = not going because…"}
+{"id":"th.c0705","meaning":"because (fuller form)","note":"Same meaning, a little slower."}
+{"id":"th.c0706","meaning":"that (after say, think, know)","note":"คิดว่า… = I think that…"}
+{"id":"th.c0707","meaning":"if","note":"ถ้า… ก็… = if… then…"}
+{"id":"th.c0708","meaning":"then; so; also","note":"ผมก็ชอบ = I like it too."}
+{"id":"th.c0709","meaning":"and then; and also","note":"The everyday spoken \"and\"."}
+{"id":"th.c0710","meaning":"so; that's why","note":"Joins a cause and a result."}
+{"id":"th.c0711","meaning":"or (in questions)","note":"ไปหรือว่าไม่ไป = going or not?"}
+{"id":"th.c0712","meaning":"but (softer)","note":"Spoken, a little gentler than แต่."}
+{"id":"th.c0713","meaning":"when (at the time that)","note":"Not a question: for \"when?\" use เมื่อไร."}
+{"id":"th.c0714","meaning":"after","note":"หลังจากกินข้าว = after eating."}
+{"id":"th.c0715","meaning":"before (doing something)","note":"ก่อนที่จะ… = before…"}
+{"id":"th.c0716","meaning":"this (after the noun)","note":"Noun + classifier + นี้: เล่มนี้."}
+{"id":"th.c0717","meaning":"that (after the noun)","note":"Noun + classifier + นั้น: ตัวนั้น."}
+{"id":"th.c0718","meaning":"that over there (after the noun)","note":"Farther than นั้น."}
+{"id":"th.c0719","meaning":"which","note":"อันไหน = which one? ไปไหน = where to?"}
+{"id":"th.c0720","meaning":"every","note":"ทุกวัน = every day."}
+{"id":"th.c0721","meaning":"some","note":"บางวัน = some days."}
+{"id":"th.c0722","meaning":"many; several","note":"Before a classifier: หลายคน."}
+{"id":"th.c0723","meaning":"all; altogether","note":"ทั้งหมดเท่าไร = how much altogether?"}
+{"id":"th.c0724","meaning":"where","note":"Stays at the end: อยู่ที่ไหน."}
+{"id":"th.c0725","meaning":"when (question)","note":"Often spelled เมื่อไหร่."}
+{"id":"th.c0726","meaning":"how much","note":"Often spelled เท่าไหร่."}
+{"id":"th.c0727","meaning":"why","note":"Can start the sentence: ทำไมมาสาย."}
+{"id":"th.c0728","meaning":"how (formal)","note":"Speech uses ยังไง."}
+{"id":"th.c0729","meaning":"how (spoken)","note":"ไปยังไง = how do I get there?"}
+{"id":"th.c0730","meaning":"how many","note":"Before a classifier: กี่คน."}
+{"id":"th.c0731","meaning":"yes; that's right","note":"Only for \"is it…?\" questions."}
+{"id":"th.c0732","meaning":"no; it isn't","note":"Corrects a wrong guess."}
+{"id":"th.c0733","meaning":"no (not at all)","note":"Answers หรือเปล่า questions."}
+{"id":"th.c0734","meaning":"will (future)","note":"Before the verb: จะไป."}
+{"id":"th.c0735","meaning":"in the middle of (-ing)","note":"กำลังกินอยู่ = I'm eating."}
+{"id":"th.c0736","meaning":"ever; have done","note":"เคยไปไหม = have you ever been?"}
+{"id":"th.c0737","meaning":"first (place)","note":"ที่ + number makes ordinals: ที่สอง."}
+{"id":"th.c0738","meaning":"six","note":"6"}
+{"id":"th.c0739","meaning":"seven","note":"7"}
+{"id":"th.c0740","meaning":"eight","note":"8"}
+{"id":"th.c0741","meaning":"twelve","note":"สิบ + สอง."}
+{"id":"th.c0742","meaning":"thirteen","note":"สิบ + สาม."}
+{"id":"th.c0743","meaning":"fourteen","note":"สิบ + สี่."}
+{"id":"th.c0744","meaning":"fifteen","note":"สิบ + ห้า."}
+{"id":"th.c0745","meaning":"sixteen","note":"สิบ + หก."}
+{"id":"th.c0746","meaning":"seventeen","note":"สิบ + เจ็ด."}
+{"id":"th.c0747","meaning":"eighteen","note":"สิบ + แปด."}
+{"id":"th.c0748","meaning":"nineteen","note":"สิบ + เก้า."}
+{"id":"th.c0749","meaning":"half","note":"บ่ายสองโมงครึ่ง = 2:30 p.m."}
+{"id":"th.c0750","meaning":"hundred","note":"Alone or after a digit: สองร้อย."}
+{"id":"th.c0751","meaning":"thousand","note":"สองพัน = two thousand."}
+{"id":"th.c0752","meaning":"Tuesday","note":"Short form: อังคาร."}
+{"id":"th.c0753","meaning":"Wednesday","note":"Short form: พุธ."}
+{"id":"th.c0754","meaning":"Thursday","note":"Short form: พฤหัส."}
+{"id":"th.c0755","meaning":"Friday","note":"Short form: ศุกร์."}
+{"id":"th.c0756","meaning":"Sunday","note":"อาทิตย์ alone also means week."}
+{"id":"th.c0757","meaning":"in the morning","note":"ตอน + part of the day."}
+{"id":"th.c0758","meaning":"in the afternoon","note":"ตอน + part of the day."}
+{"id":"th.c0759","meaning":"in the evening","note":"Early evening, before dark."}
+{"id":"th.c0760","meaning":"at night; nighttime","note":"ตอนกลางคืน = at night."}
+{"id":"th.c0761","meaning":"tonight","note":"คืนนี้ว่างไหม = free tonight?"}
+{"id":"th.c0762","meaning":"this year","note":"ปี + นี้."}
+{"id":"th.c0763","meaning":"next year","note":"ปี + หน้า."}
+{"id":"th.c0764","meaning":"last year","note":"Literally the year that's done."}
+{"id":"th.c0765","meaning":"classifier for people","note":"Also the noun person: คนไทย."}
+{"id":"th.c0766","meaning":"classifier for small things in general","note":"The safe fallback when you don't know."}
+{"id":"th.c0767","meaning":"classifier for bags, tickets, leaves","note":"Also cards and some containers."}
+{"id":"th.c0768","meaning":"classifier for books","note":"Also knives and candles."}
+{"id":"th.c0769","meaning":"classifier for cars and bikes","note":"Also umbrellas and spoons."}
+{"id":"th.c0770","meaning":"classifier for bottles","note":"Also the noun bottle."}
+{"id":"th.c0771","meaning":"classifier for glasses of a drink","note":"Also the noun glass."}
+{"id":"th.c0772","meaning":"classifier for plates of food","note":"Also the noun plate."}
+{"id":"th.c0773","meaning":"classifier for bowls","note":"Also the noun bowl."}
+{"id":"th.c0774","meaning":"classifier for pieces","note":"Cake, meat, slices."}
+{"id":"th.c0775","meaning":"classifier for pairs","note":"Shoes, socks, couples."}
+{"id":"th.c0776","meaning":"classifier for sets and outfits","note":"Also a set meal."}
+{"id":"th.c0777","meaning":"classifier for rooms","note":"Also the noun room."}
+{"id":"th.c0778","meaning":"classifier for cups","note":"Also the noun cup."}
+{"id":"th.c0779","meaning":"classifier for boxes","note":"Also the noun box."}
+{"id":"th.c0780","meaning":"classifier for flat sheets","note":"Paper, maps, slices of bread."}
+{"id":"th.c0781","meaning":"classifier for machines and devices","note":"Phones, TVs, computers."}
+{"id":"th.c0782","meaning":"classifier for flowers and keys","note":"กุญแจสองดอก = two keys."}
+{"id":"th.c0783","meaning":"classifier for long thin things","note":"Roads, noodles, necklaces."}
+{"id":"th.c0784","meaning":"classifier for houses and buildings","note":"Also back; after: หลังจาก."}
+{"id":"th.c0785","meaning":"classifier for times (occasions)","note":"สองครั้ง = twice."}
+{"id":"th.c0786","meaning":"classifier for trees and plants","note":"ต้นไม้ = tree."}
+{"id":"th.c0787","meaning":"polite particle in questions (female speaker)","note":"Statements take ค่ะ (falling tone)."}
+{"id":"th.c0788","meaning":"softener: …, OK?","note":"Then the polite particle: นะครับ (male), นะคะ (female)."}
+{"id":"th.c0789","meaning":"urging: go on, do it","note":"กินสิ = go ahead, eat."}
+{"id":"th.c0790","meaning":"totally; right away","note":"ดีเลย = great! ไปเลย = go ahead."}
+{"id":"th.c0791","meaning":"what about…?","note":"แล้วคุณล่ะ = and you?"}
+{"id":"th.c0792","meaning":"friendly yes (to a younger person or close friend)","note":"Warm, motherly; mostly women."}
+{"id":"th.c0793","meaning":"cheerful ending (casual)","note":"สวัสดีจ้า = hi there!"}
+{"id":"th.c0794","meaning":"let's; just do it","note":"ไปกันเถอะ = let's go."}
+{"id":"th.c0795","meaning":"not really (softens a no)","note":"ไม่หรอก = oh no, not really."}
+{"id":"th.c0796","meaning":"you see (explaining)","note":"Gives a reason gently."}
+{"id":"th.c0797","meaning":"too; please (at the end of a request)","note":"เช็คบิลด้วย = check, please."}
+{"id":"th.c0798","meaning":"a little; please (softens a request)","note":"ขอ… หน่อย = could I have…?"}
+{"id":"th.c0799","meaning":"some; any (asks for a list)","note":"มีอะไรบ้าง = what is there?"}
+{"id":"th.c0800","meaning":"…or not?","note":"Answer with the verb, or เปล่า for no."}
+{"id":"th.c0801","meaning":"…yet?","note":"Answer with แล้ว, or ยัง for not yet."}
+{"id":"th.c0802","meaning":"yes, sir (male speaker, eager)","note":"Staff and juniors say it; very polite."}

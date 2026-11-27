@@ -1,0 +1,194 @@
+{
+ "target": "ceb",
+ "ttsLang": "ceb-PH",
+ "self": "Sinugbuanong Binisaya",
+ "pack": {
+  "accents": false,
+  "keys": "",
+  "noAudio": true,
+  "voiceMatch": "^ceb(-|$)"
+ },
+ "features": {
+  "script": false,
+  "pron": false,
+  "conj": false,
+  "register": false,
+  "numbers": false,
+  "sound": false,
+  "strokes": false
+ },
+ "groups": [
+  {
+   "id": "ceb.grp.first-steps",
+   "decks": [
+    "ceb.d.sounds-and-spelling",
+    "ceb.d.greetings-and-courtesy",
+    "ceb.d.about-me",
+    "ceb.d.people-and-family"
+   ]
+  },
+  {
+   "id": "ceb.grp.everyday-words",
+   "decks": [
+    "ceb.d.numbers-and-money",
+    "ceb.d.time-and-days",
+    "ceb.d.food-and-drink",
+    "ceb.d.shopping-and-prices",
+    "ceb.d.home-and-daily-life"
+   ]
+  },
+  {
+   "id": "ceb.grp.out-and-about",
+   "decks": [
+    "ceb.d.places-and-directions",
+    "ceb.d.jeepneys-and-travel",
+    "ceb.d.health-and-help"
+   ]
+  },
+  {
+   "id": "ceb.grp.conversation",
+   "decks": [
+    "ceb.d.describing-things",
+    "ceb.d.feelings-and-wants",
+    "ceb.d.questions-and-little-words",
+    "ceb.d.everyday-verbs",
+    "ceb.d.compliments",
+    "ceb.d.flirting"
+   ]
+  },
+  {
+   "id": "ceb.grp.watch-out",
+   "decks": [
+    "ceb.d.traps-for-english-speakers",
+    "ceb.d.short-forms-and-cebu-talk"
+   ]
+  },
+  {
+   "id": "ceb.grp.core-words",
+   "decks": [
+    "ceb.d.top-nouns",
+    "ceb.d.top-verbs",
+    "ceb.d.top-adjectives",
+    "ceb.d.top-adverbs",
+    "ceb.d.top-pronouns",
+    "ceb.d.top-markers-and-particles",
+    "ceb.d.top-conjunctions",
+    "ceb.d.top-interjections",
+    "ceb.d.top-words"
+   ]
+  }
+ ],
+ "tags": {
+  "first-steps": [
+   "ceb.d.sounds-and-spelling",
+   "ceb.d.greetings-and-courtesy",
+   "ceb.d.about-me",
+   "ceb.d.people-and-family"
+  ],
+  "everyday-words": [
+   "ceb.d.numbers-and-money",
+   "ceb.d.time-and-days",
+   "ceb.d.food-and-drink",
+   "ceb.d.shopping-and-prices",
+   "ceb.d.home-and-daily-life"
+  ],
+  "out-and-about": [
+   "ceb.d.places-and-directions",
+   "ceb.d.jeepneys-and-travel",
+   "ceb.d.health-and-help"
+  ],
+  "conversation": [
+   "ceb.d.describing-things",
+   "ceb.d.feelings-and-wants",
+   "ceb.d.questions-and-little-words",
+   "ceb.d.everyday-verbs",
+   "ceb.d.compliments",
+   "ceb.d.flirting"
+  ],
+  "watch-out": [
+   "ceb.d.traps-for-english-speakers",
+   "ceb.d.short-forms-and-cebu-talk"
+  ],
+  "core-words": [
+   "ceb.d.top-nouns",
+   "ceb.d.top-verbs",
+   "ceb.d.top-adjectives",
+   "ceb.d.top-adverbs",
+   "ceb.d.top-pronouns",
+   "ceb.d.top-markers-and-particles",
+   "ceb.d.top-conjunctions",
+   "ceb.d.top-interjections",
+   "ceb.d.top-words"
+  ]
+ },
+ "goals": [],
+ "plans": [],
+ "titles": [
+  {
+   "id": "ceb.t01",
+   "level": 1
+  },
+  {
+   "id": "ceb.t03",
+   "level": 3
+  },
+  {
+   "id": "ceb.t05",
+   "level": 5
+  },
+  {
+   "id": "ceb.t08",
+   "level": 8
+  },
+  {
+   "id": "ceb.t12",
+   "level": 12
+  },
+  {
+   "id": "ceb.t16",
+   "level": 16
+  },
+  {
+   "id": "ceb.t20",
+   "level": 20
+  }
+ ],
+ "greet": [
+  {
+   "id": "ceb.h.night",
+   "ceb": "Maayong gabii"
+  },
+  {
+   "id": "ceb.h.morning",
+   "ceb": "Maayong buntag"
+  },
+  {
+   "id": "ceb.h.afternoon",
+   "ceb": "Maayong hapon"
+  },
+  {
+   "id": "ceb.h.evening",
+   "ceb": "Maayong gabii"
+  }
+ ],
+ "pairs": [],
+ "pause": {
+  "sets": [],
+  "idioms": []
+ },
+ "uiKeys": [
+  "Bisaya (Cebuano) (required)",
+  "Bisaya (Cebuano), pronunciation, meaning, note — one per line (pronunciation/note optional)",
+  "Search a pattern, e.g. 에서 or 'want'",
+  "#first-steps",
+  "#everyday-words",
+  "#out-and-about",
+  "#conversation",
+  "#watch-out",
+  "#core-words"
+ ],
+ "exportedFrom": {
+  "file": "tools/target/ceb/ (tools/target/gen.js ceb)",
+  "sha256_16": "16705bc453cc3497"
+ }
+}

@@ -1,0 +1,185 @@
+{
+ "target": "am",
+ "ttsLang": "am-ET",
+ "self": "አማርኛ",
+ "pack": {
+  "accents": true,
+  "keys": "",
+  "tilesDefault": true,
+  "romaAlmost": true,
+  "voiceMatch": "^am(?:[-_]|$)"
+ },
+ "features": {
+  "script": false,
+  "pron": false,
+  "conj": false,
+  "register": false,
+  "numbers": false,
+  "sound": false,
+  "strokes": false
+ },
+ "groups": [
+  {
+   "id": "am.grp.script-and-sounds",
+   "decks": [
+    "am.d.how-the-fidel-works",
+    "am.d.fidel-rows-1200-to-1278",
+    "am.d.fidel-rows-1280-to-12e0",
+    "am.d.fidel-rows-12e8-to-1350",
+    "am.d.reading-words"
+   ]
+  },
+  {
+   "id": "am.grp.first-steps",
+   "decks": [
+    "am.d.greetings-and-courtesy",
+    "am.d.about-me",
+    "am.d.people-and-family"
+   ]
+  },
+  {
+   "id": "am.grp.everyday-life",
+   "decks": [
+    "am.d.numbers-time-and-prices",
+    "am.d.classroom-and-home",
+    "am.d.food-and-drink",
+    "am.d.likes-and-free-time"
+   ]
+  },
+  {
+   "id": "am.grp.out-and-about",
+   "decks": [
+    "am.d.getting-around",
+    "am.d.verbs"
+   ]
+  },
+  {
+   "id": "am.grp.conversation",
+   "decks": [
+    "am.d.questions-and-connectors",
+    "am.d.compliments",
+    "am.d.traps-for-english-speakers",
+    "am.d.flirting"
+   ]
+  },
+  {
+   "id": "am.grp.core-words",
+   "decks": [
+    "am.d.top-nouns",
+    "am.d.top-verbs",
+    "am.d.top-adjectives",
+    "am.d.top-pronouns",
+    "am.d.top-prepositions-and-postpositions",
+    "am.d.top-words"
+   ]
+  }
+ ],
+ "tags": {
+  "script-and-sounds": [
+   "am.d.how-the-fidel-works",
+   "am.d.fidel-rows-1200-to-1278",
+   "am.d.fidel-rows-1280-to-12e0",
+   "am.d.fidel-rows-12e8-to-1350",
+   "am.d.reading-words"
+  ],
+  "first-steps": [
+   "am.d.greetings-and-courtesy",
+   "am.d.about-me",
+   "am.d.people-and-family"
+  ],
+  "everyday-life": [
+   "am.d.numbers-time-and-prices",
+   "am.d.classroom-and-home",
+   "am.d.food-and-drink",
+   "am.d.likes-and-free-time"
+  ],
+  "out-and-about": [
+   "am.d.getting-around",
+   "am.d.verbs"
+  ],
+  "conversation": [
+   "am.d.questions-and-connectors",
+   "am.d.compliments",
+   "am.d.traps-for-english-speakers",
+   "am.d.flirting"
+  ],
+  "core-words": [
+   "am.d.top-nouns",
+   "am.d.top-verbs",
+   "am.d.top-adjectives",
+   "am.d.top-pronouns",
+   "am.d.top-prepositions-and-postpositions",
+   "am.d.top-words"
+  ]
+ },
+ "goals": [],
+ "plans": [],
+ "titles": [
+  {
+   "id": "am.t01",
+   "level": 1
+  },
+  {
+   "id": "am.t03",
+   "level": 3
+  },
+  {
+   "id": "am.t05",
+   "level": 5
+  },
+  {
+   "id": "am.t08",
+   "level": 8
+  },
+  {
+   "id": "am.t12",
+   "level": 12
+  },
+  {
+   "id": "am.t16",
+   "level": 16
+  },
+  {
+   "id": "am.t20",
+   "level": 20
+  }
+ ],
+ "greet": [
+  {
+   "id": "am.h.night",
+   "am": "ደህና እደሩ"
+  },
+  {
+   "id": "am.h.morning",
+   "am": "ደህና አደሩ?"
+  },
+  {
+   "id": "am.h.afternoon",
+   "am": "ደህና ዋሉ?"
+  },
+  {
+   "id": "am.h.evening",
+   "am": "ደህና አመሹ?"
+  }
+ ],
+ "pairs": [],
+ "pause": {
+  "sets": [],
+  "idioms": []
+ },
+ "uiKeys": [
+  "Amharic (required)",
+  "Amharic, pronunciation, meaning, note — one per line (pronunciation/note optional)",
+  "Search a pattern, e.g. 에서 or 'want'",
+  "#script-and-sounds",
+  "#first-steps",
+  "#everyday-life",
+  "#out-and-about",
+  "#conversation",
+  "#core-words"
+ ],
+ "exportedFrom": {
+  "file": "tools/target/am/ (tools/target/gen.js am)",
+  "sha256_16": "bb4727ace7069edf"
+ }
+}

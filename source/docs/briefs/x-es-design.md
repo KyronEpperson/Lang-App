@@ -146,3 +146,30 @@ Only the three native tile hints differ.
 7. Step 5 as in §4: scratch copy, `mk_native.js xx --target <t>`, fake fill, `--merge`, `validate`, `assemble`, then push the pack through `validCourse` / `setCourseTables`.
 
 No change to `export_target.js`, `validate.js` or `assemble.js` is needed: the hooks (`useCourse`, `itemIsValue`, `unmarkedNote`) are read from the target's own config.
+
+## 7. Item classes reviewed
+
+The proof cannot see which side an mc / check item sits on: both sides reassemble the same pack. So every check and mc practice item of id, tl, ceb, hmn, pt, fr, it and de was read by hand (options, key, and the matching `native/en/<t>/` row).
+
+**Rule.** An item is `target` only if every option is purely target-language text, or language-neutral material (letters, endings such as `-ait`, stems such as `ser-`, names such as `Boston`). One option with English prose makes the whole item `prose` (native side), because a translator must translate it; its target words are then protected spans of the native row (`Only du and er, sie, es`). English-pattern distractors (`Budi's rumah`, `Kini is libro.`, `Do você fala português?`) count as prose: a translator into another native language has to adapt them. Items whose options are only digits or prices (`3:30`, `₱50`, `42`) stay on the native side (the exporter's rule: digits are never target text); time and number formats are the native locale's business.
+
+**How overrides work.** A target file may carry `items: { '<lesson>.k<n>' | '<lesson>.<nn>': 'target' | 'prose' }`, using the check and practice ids that `export_target.js` writes. `_inventory.js` reads it through the existing `itemIsValue(opts, key)` hook. The hook gets no id, so `useCourse` (called by the exporter before it classifies anything) records which ids carry which (options, key) pair. It refuses an unknown id, a class other than target / prose, and two ids with identical options but different classes. Items not in the table keep the automatic rule (key answer, or most options). A target without `items` (es) behaves exactly as before. Other tools (validate, mk_native) never decide items, so they do not need the table. An overridden item may still show up in the exporter's "option classes to review" line, because that list compares each option with the item's class; that is expected.
+
+**Homographs.** An entry that only existed to push an item to one side was swapped for an override, and only when the export stayed byte-identical apart from the review line (or when the removal also improved marks: `nang` and `ajuda` are not English words, so they are now protected as Tagalog / Portuguese text). Kept: genuine English words and names (`a`, `i`, `tagalog`, `bar`, `boston`, `anna`).
+
+| target | items read | moved to prose | moved to target | pinned | overrides | homographs removed | homographs left |
+|---|---|---|---|---|---|---|---|
+| id | 216 | 5 | 2 | 0 | 7 | none | none |
+| tl | 216 | 3 | 0 | 2 | 5 | m, nang | i, a, tagalog |
+| ceb | 224 | 5 | 0 | 0 | 5 | none | none |
+| hmn | 208 | 3 | 0 | 0 | 3 | none | none |
+| pt | 200 | 2 | 1 | 2 | 5 | w, y, ajuda | none |
+| fr | 224 | 5 | 2 | 1 | 8 | z | a, boston |
+| it | 192 | 0 | 5 | 1 | 6 | s, it | a, bar |
+| de | 200 | 4 | 0 | 0 | 4 | none | anna |
+
+"Pinned" means the item was already on the right side, held there by a removed homograph: tl `intro.05`, `sounds.k2`, pt `sounds.03`, `object-pronouns.k1`, fr `sounds.04`, it `ce.k3`. Each target file says why each override is there.
+
+Left on the target side after review, and correct: hmn `time.05` `hnub Monday` (Hmong-American usage taught by the course), hmn `shopping.05` / `.11` `them` (Hmong "to pay"), it `prepositions.02` `all'Italia`, pt `contractions.k3` place names. The English function-word scan of `target/<t>/checks.jsonl` and `practice.jsonl` (the, and, of, only, all, it, stays, around, them, is, are, you, not, with, before, after, both, neither, none) finds nothing else.
+
+Adding an item: put its id in `items`, run `export_target.js <t> --accept-moved` (the id now holds different content on each side), then review that row in every native half.

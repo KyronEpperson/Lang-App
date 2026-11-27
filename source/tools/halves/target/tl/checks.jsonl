@@ -1,0 +1,81 @@
+{"id":"sounds.k1","lesson":"sounds","o":[null,null,null,null],"a":1}
+{"id":"sounds.k2","lesson":"sounds","o":[null,null,null,null],"a":2}
+{"id":"sounds.k3","lesson":"sounds","o":[null,null,null,null],"a":1}
+{"id":"greetings.k1","lesson":"greetings","o":[null,null,null,null],"a":1}
+{"id":"greetings.k2","lesson":"greetings","o":["Oo","Po","Opo","Oo ka"],"a":2}
+{"id":"greetings.k3","lesson":"greetings","o":["Kumusta po kayo?","Kumusta ka po?","Kumusta ka?","Kumusta po ikaw?"],"a":0}
+{"id":"pronouns.k1","lesson":"pronouns","o":["ang","si","ka","ni"],"a":1}
+{"id":"pronouns.k2","lesson":"pronouns","o":["tayo","sila","kayo","kami"],"a":3}
+{"id":"pronouns.k3","lesson":"pronouns","o":[null,null,null,null],"a":0}
+{"id":"intro.k1","lesson":"intro","o":["Ako ay Cebu.","Taga-Cebu ako.","Cebu ako.","Sa Cebu ako."],"a":1}
+{"id":"intro.k2","lesson":"intro","o":[null,null,null,null],"a":1}
+{"id":"intro.k3","lesson":"intro","o":[null,null,null,null],"a":3}
+{"id":"this-that.k1","lesson":"this-that","o":["ito","iyan","iyon","siya"],"a":1}
+{"id":"this-that.k2","lesson":"this-that","o":["Ito ang Ana.","Ito ni Ana.","Ito si Ana.","Siya ito Ana."],"a":2}
+{"id":"this-that.k3","lesson":"this-that","o":["Mahal ito.","Mahal siya.","Siya mahal.","Mahal ka."],"a":0}
+{"id":"markers.k1","lesson":"markers","o":["ang","ni","si","kay"],"a":2}
+{"id":"markers.k2","lesson":"markers","o":["bahay ng guro","bahay ni guro","guro ang bahay","bahay sa guro"],"a":0}
+{"id":"markers.k3","lesson":"markers","o":[null,null,null,null],"a":1}
+{"id":"linker.k1","lesson":"linker","o":[null,null,null,null],"a":3}
+{"id":"linker.k2","lesson":"linker","o":["bahay na maganda","bahay maganda","maganda bahay","bahayng maganda"],"a":0}
+{"id":"linker.k3","lesson":"linker","o":[null,null,null,null],"a":1}
+{"id":"ng-pronouns.k1","lesson":"ng-pronouns","o":["ako pangalan","pangalan ako","pangalan ko","ko pangalan"],"a":2}
+{"id":"ng-pronouns.k2","lesson":"ng-pronouns","o":[null,null,null,null],"a":0}
+{"id":"ng-pronouns.k3","lesson":"ng-pronouns","o":["bahay natin","bahay nila","bahay ninyo","bahay namin"],"a":3}
+{"id":"questions.k1","lesson":"questions","o":[null,null,null,null],"a":2}
+{"id":"questions.k2","lesson":"questions","o":["nasaan","saan","sino","kailan"],"a":0}
+{"id":"questions.k3","lesson":"questions","o":["Pagod siya ba?","Pagod ba siya?","Ba pagod siya?","Siya pagod ba?"],"a":1}
+{"id":"yes-no.k1","lesson":"yes-no","o":["Wala.","Hindi.","Huwag.","Hindi pa."],"a":0}
+{"id":"yes-no.k2","lesson":"yes-no","o":["Hindi ka umalis.","Huwag kang umalis.","Wala kang umalis.","Hindi kang umalis."],"a":1}
+{"id":"yes-no.k3","lesson":"yes-no","o":["Hindi.","Wala po.","Oo.","Hindi po."],"a":3}
+{"id":"numbers.k1","lesson":"numbers","o":[null,null,null,null],"a":2}
+{"id":"numbers.k2","lesson":"numbers","o":["tatlong oras","tres oras","alas-tres","tatlo oras"],"a":0}
+{"id":"numbers.k3","lesson":"numbers","o":[null,null,null,null],"a":1}
+{"id":"may.k1","lesson":"may","o":["May kotse ako.","Mayroon ako kotse.","May ang kotse ako.","Hindi ako kotse."],"a":0}
+{"id":"may.k2","lesson":"may","o":["Hindi.","Wala.","Huwag.","Hindi pera."],"a":1}
+{"id":"may.k3","lesson":"may","o":[null,null,null,null],"a":0}
+{"id":"family.k1","lesson":"family","o":["kapatid na lalaki","kapatid lalaki","lalaki kapatid","kuya kapatid"],"a":0}
+{"id":"family.k2","lesson":"family","o":[null,null,null,null],"a":1}
+{"id":"family.k3","lesson":"family","o":["Doktor ako tatay.","Doktor ang tatay ko.","Doktor ang tatay ako.","Ang doktor tatay ko."],"a":1}
+{"id":"sa-pronouns.k1","lesson":"sa-pronouns","o":["para siya","para sa kaniya","para niya","para sa siya"],"a":1}
+{"id":"sa-pronouns.k2","lesson":"sa-pronouns","o":["Nasaan si Ana?","Nasa si Ana?","Kanino si Ana?","Sino si Ana?"],"a":0}
+{"id":"sa-pronouns.k3","lesson":"sa-pronouns","o":["sa","si","kay","ni"],"a":2}
+{"id":"word-order.k1","lesson":"word-order","o":["Ikaw pagod ba?","Pagod ka ba?","Ba pagod ka?","Pagod ba ka?"],"a":1}
+{"id":"word-order.k2","lesson":"word-order","o":[null,null,null,null],"a":0}
+{"id":"word-order.k3","lesson":"word-order","o":["po na","na po","ba po","kayo po"],"a":1}
+{"id":"um.k1","lesson":"um","o":[null,null,null,null],"a":0}
+{"id":"um.k2","lesson":"um","o":[null,null,null,null],"a":2}
+{"id":"um.k3","lesson":"um","o":["ang","ng","sa","si"],"a":1}
+{"id":"mag.k1","lesson":"mag","o":[null,null,null,null],"a":3}
+{"id":"mag.k2","lesson":"mag","o":[null,null,null,null],"a":0}
+{"id":"mag.k3","lesson":"mag","o":[null,null,null,null],"a":1}
+{"id":"aspect.k1","lesson":"aspect","o":[null,null,null,null],"a":0}
+{"id":"aspect.k2","lesson":"aspect","o":["Kumain ako kahapon.","Kakain ako bukas.","Kumain ako bukas.","Kumakain ako ngayon."],"a":2}
+{"id":"aspect.k3","lesson":"aspect","o":[null,null,null,null],"a":1}
+{"id":"gusto.k1","lesson":"gusto","o":["ako","ko","akin","ikaw"],"a":1}
+{"id":"gusto.k2","lesson":"gusto","o":[null,null,null,null],"a":0}
+{"id":"gusto.k3","lesson":"gusto","o":["Puwede akong mag-Tagalog","Gusto kong mag-Tagalog","Kailangan kong mag-Tagalog","Marunong akong mag-Tagalog"],"a":3}
+{"id":"in.k1","lesson":"in","o":[null,null,null,null],"a":0}
+{"id":"in.k2","lesson":"in","o":["Nagluto","Niluto","Magluluto","Nagluluto"],"a":1}
+{"id":"in.k3","lesson":"in","o":[null,null,null,null],"a":2}
+{"id":"food.k1","lesson":"food","o":[null,null,null,null],"a":1}
+{"id":"food.k2","lesson":"food","o":["Isa adobo","Adobo isa po","Isang na adobo po","Isang adobo po"],"a":3}
+{"id":"food.k3","lesson":"food","o":[null,null,null,null],"a":0}
+{"id":"time.k1","lesson":"time","o":["tatlong oras","alas-tres","tres oras","alas-tatlo"],"a":1}
+{"id":"time.k2","lesson":"time","o":[null,null,null,null],"a":3}
+{"id":"time.k3","lesson":"time","o":["limang minuto","singko minuto","alas-singko","lima minuto"],"a":0}
+{"id":"directions.k1","lesson":"directions","o":["kanan","diretso","kaliwa","kanto"],"a":2}
+{"id":"directions.k2","lesson":"directions","o":["Para po!","Bayad po!","Pabili po!","Kain tayo!"],"a":0}
+{"id":"directions.k3","lesson":"directions","o":["kay Makati","si Makati","ng Makati","sa Makati"],"a":3}
+{"id":"requests.k1","lesson":"requests","o":[null,null,null,null],"a":1}
+{"id":"requests.k2","lesson":"requests","o":["Hindi ka umalis!","Huwag ka umalis!","Wala kang umalis!","Huwag kang umalis!"],"a":3}
+{"id":"requests.k3","lesson":"requests","o":["Umupo po kayo.","Umupo ka.","Umupo!","Umupo ko po."],"a":0}
+{"id":"particles.k1","lesson":"particles","o":["Hindi na","Hindi pa","Wala na","Huwag pa"],"a":1}
+{"id":"particles.k2","lesson":"particles","o":[null,null,null,null],"a":0}
+{"id":"particles.k3","lesson":"particles","o":["Kumain na ba ka?","Kumain ba ka na?","Kumain na ka ba?","Kumain ka na ba?"],"a":3}
+{"id":"compare.k1","lesson":"compare","o":["pinakamura","mas mura","murang","mura na"],"a":1}
+{"id":"compare.k2","lesson":"compare","o":["si","ni","kay","ang"],"a":2}
+{"id":"compare.k3","lesson":"compare","o":["pinakamura","mas mura","kasingmura","mura pa"],"a":0}
+{"id":"taglish.k1","lesson":"taglish","o":[null,null,null,null],"a":1}
+{"id":"taglish.k2","lesson":"taglish","o":["Ewan ko.","'Di ko alam, Pare.","Hindi ko po alam.","Ayoko."],"a":2}
+{"id":"taglish.k3","lesson":"taglish","o":[null,null,null,null],"a":0}

@@ -1,0 +1,84 @@
+{"id":"letters.k1","q":"Which way do you read Arabic?","o":["Right to left","Left to right","Top to bottom","Either way, like a palindrome"],"why":"Arabic runs from right to left; the first letter of a word is the one on the right."}
+{"id":"letters.k2","q":"What tells ب, ت and ث apart?","o":["Their size","Their dots","Their vowel marks","Where they sit in the word"],"why":"They share one shape: one dot below is ب, two above is ت, three above is ث."}
+{"id":"letters.k3","q":"What does ة at the end of سَيَّارَة tell you?","o":["The word is plural","The word means 'the'","The word is usually feminine","The word is a verb"],"why":"ة (taa marbuta) is the usual feminine ending, said -a."}
+{"id":"sounds.k1","q":"Which letter is the breathy h from the throat?","why":"ح is the breathy throat h; ه is the plain English h."}
+{"id":"sounds.k2","q":"In the romanisation, what does a dot under a letter (ṣ, ṭ) mean?","o":["A long vowel","A silent letter","A doubled letter","A heavy or throat sound"],"why":"ṣ ḍ ṭ ẓ are the heavy letters and ḥ is the throat h: the dot marks the sound English doesn't have."}
+{"id":"sounds.k3","q":"What happens if you say قَلْب 'heart' with an English k?","o":["Nothing: q and k are the same","It becomes كَلْب, 'dog'","It becomes a question","It becomes feminine"],"why":"q and k are different letters: قَلْب is 'heart', كَلْب is 'dog'."}
+{"id":"vowels.k1","q":"What does the line over ā in the romanisation mean?","o":["The vowel is long: hold it","The vowel is stressed","The vowel is silent","The vowel is heavy"],"why":"The line marks a long vowel: ā ī ū are held about twice as long as a i u."}
+{"id":"vowels.k2","q":"Which mark is kasra, the short i?","o":["A slash above the letter","A slash below the letter","A little و above the letter","A small circle above the letter"],"why":"Kasra sits below the letter, as in بِنْت."}
+{"id":"vowels.k3","q":"How is a long ū written?","o":["Fatha + ا","Kasra + ي","Damma + و","Two dammas"],"why":"Damma + و gives the long ū, as in بُو."}
+{"id":"shapes.k1","q":"Which letter never joins to the letter after it?","why":"ر is one of the six non-joining letters: ا د ذ ر ز و."}
+{"id":"shapes.k2","q":"What is لا?","o":["ا followed by ل","A sign for a long vowel","ل followed by ا, joined in one shape","A 29th letter"],"why":"لا is lām + alif written as one shape, as in لَا, 'no'."}
+{"id":"shapes.k3","q":"Why is there a gap inside سَيَّارَة?","o":["It is two words","ا and ر never join to the next letter","The vowel marks need room","It is a spelling mistake"],"why":"Non-joining letters leave a gap inside the word; سَيَّارَة is still one word."}
+{"id":"sukun-shadda.k1","q":"What does sukun tell you?","o":["Hold the letter twice as long","No vowel after this letter","The word is feminine","Say a long ā"],"why":"Sukun is the small circle: the letter has no vowel, as in مَكْتَب."}
+{"id":"sukun-shadda.k2","q":"What does shadda do?","o":["Makes the vowel long","Removes the vowel","Doubles the letter: hold it","Marks a question"],"why":"Shadda doubles the letter: مُدَرِّسَة has a held r."}
+{"id":"sukun-shadda.k3","q":"In بَيْت, what do fatha + ي with sukun sound like?","o":["ay, close to the i in 'bite'","ī, as in 'see'","A short a","y alone"],"why":"Fatha + ي with sukun is the gliding vowel ay."}
+{"id":"hamza.k1","q":"How is ى at the end of عَلَى said?","o":[null,null,"y","It is silent"],"why":"ى, the alif maqsura, is a long ā, as in عَلَى."}
+{"id":"hamza.k2","q":"What does tanwin -an need in the spelling?","o":["Nothing extra","An extra ة","A hamza on top","An extra ا after the letter"],"why":"The doubled fatha comes with an extra ا: شُكْرًا."}
+{"id":"hamza.k3","q":"What does hamza sit on at the start of أَنَا?","o":["On ا","On و","On ي","On nothing: it stands alone"],"why":"At the start of a word hamza sits on ا: أ above or إ below."}
+{"id":"al.k1","q":"What happens to the ل of ال before a sun letter such as ش?","o":["It is said twice","It is not said; the sun letter is doubled","It turns into n","Nothing changes"],"why":"Sun letters swallow the l: الشَّمْس, with shadda on ش."}
+{"id":"al.k2","q":"What does الْبَيْت كَبِير mean?","o":["the big house","a big house","The house is big.","the house of the big one"],"why":"No article on كَبِير makes it a sentence: no 'is' needed."}
+{"id":"al.k3","q":"How do you say 'the big house'?","why":"Both words take the article, and the describing word comes second."}
+{"id":"greetings.k1","q":"Someone says السَّلَامُ عَلَيْكُم. What's the reply?","why":"The reply turns the greeting around: وَعَلَيْكُم السَّلَام, 'and upon you peace'."}
+{"id":"greetings.k2","q":"Why does صَبَاح have no ال in صَبَاح الْخَيْر?","o":["It's dropped in casual speech","Words for times of day never take ال","It is the first word of an iḍāfa, which never takes the article","ال is only for feminine words"],"why":"In an iḍāfa ('morning of the good') only the second word takes the article."}
+{"id":"greetings.k3","q":"How do you ask a woman how she is?","why":"To a woman the ending has kasra: حَالُكِ."}
+{"id":"gender.k1","q":"Which word is feminine?","why":"سَيَّارَة ends in ة, the feminine sign."}
+{"id":"gender.k2","q":"Why is أُمّ feminine?","o":["It ends in ة","It means a woman: mother","All short words are feminine","It isn't: it is masculine"],"why":"A few words are feminine by meaning, with no ة: أُمّ, بِنْت, أُخْت."}
+{"id":"gender.k3","q":"You're talking about a car (سَيَّارَة). 'It' is:","why":"سَيَّارَة is feminine, so 'it' is هِيَ."}
+{"id":"pronouns.k1","q":"Which word is 'you' to a woman?","why":"To a woman: أَنْتِ, with kasra under the ت."}
+{"id":"pronouns.k2","q":"A man says 'I'm a student.' Which is right?","why":"A man speaking: the masculine طَالِب agrees with him."}
+{"id":"pronouns.k3","q":"What is 'it' for a book (كِتَاب)?","why":"كِتَاب is masculine, so 'it' is هُوَ."}
+{"id":"nominal.k1","q":"How do you say \"The house is big\"?","why":"Subject and predicate side by side, with no word for \"is\" and no article on كَبِير."}
+{"id":"nominal.k2","q":"What does الْبَيْت الْكَبِير mean?","o":["The house is big.","the big house","Is the house big?","a big house"],"why":"With the article on both words it is a phrase, \"the big house\", not a sentence."}
+{"id":"nominal.k3","q":"A woman wants to say \"I'm busy\". Which is right?","why":"No \"am\" in Arabic, and the adjective agrees with the woman speaking: مَشْغُولَة."}
+{"id":"definite.k1","q":"How do you say \"a car\"?","why":"Arabic has no word for \"a\": سَيَّارَة on its own means \"a car\"."}
+{"id":"definite.k2","q":"Which one means \"the new apartment\"?","why":"A phrase puts the article on both words, and the adjective agrees with the feminine شَقَّة."}
+{"id":"definite.k3","q":"Why does أُحِبّ الْقَهْوَة (I like coffee) have ال?","o":["Coffee in general takes the article","قَهْوَة is feminine","Every noun after أُحِبّ needs ال, even names","It can only mean one particular cup"],"why":"Arabic uses the article for things in general, where English uses nothing."}
+{"id":"nisba.k1","q":"How does a woman say \"I'm Egyptian\"?","why":"A woman uses the feminine nisba, with ة: مِصْرِيَّة."}
+{"id":"nisba.k2","q":"The country is الْمَغْرِب. How do you say \"He's Moroccan\"?","why":"The nisba drops the article of الْمَغْرِب and adds -ī."}
+{"id":"nisba.k3","q":"What does الْعَرَبِيَّة mean on its own?","o":["the Arabic language","an Arab man","the Arab countries","Arabic coffee"],"why":"A language is the feminine nisba with the article."}
+{"id":"questions.k1","q":"Which word asks \"what\" before a noun, as in \"What's your name?\"","why":"مَا goes before a noun or pronoun; مَاذَا goes before a verb."}
+{"id":"questions.k2","q":"How do you turn الْبَيْت كَبِير into a yes / no question?","o":["Put هَل in front: هَل الْبَيْت كَبِير؟","Swap the words: كَبِير الْبَيْت؟","Add هُوَ: الْبَيْت هُوَ كَبِير؟","Put مَا in front: مَا الْبَيْت كَبِير؟"],"why":"هَل goes in front and nothing else changes."}
+{"id":"questions.k3","q":"\"Where's the school?\" =","why":"أَيْنَ means where; it comes first, and there is no word for \"is\"."}
+{"id":"numbers.k1","q":"How do you read ٤٧?","o":["47","74","4, then 7, as two numbers","407"],"why":"Digits run left to right even in Arabic text: ٤ then ٧ is 47."}
+{"id":"numbers.k2","q":"How do you say \"twenty-one\"?","why":"Units first, then وَ and the tens: \"one and twenty\"."}
+{"id":"numbers.k3","q":"\"one school\" =","why":"\"One\" comes after the noun and agrees with the feminine مَدْرَسَة: وَاحِدَة."}
+{"id":"ordering.k1","q":"How do you say \"please\" to a waitress?","why":"To a woman: مِن فَضْلِكِ, with a kasra under the ك."}
+{"id":"ordering.k2","q":"Why is it بِكَم هٰذِهِ؟ when you point at a bag (حَقِيبَة)?","o":["حَقِيبَة is feminine","Questions always use هٰذِهِ","بِكَم always takes هٰذِهِ after it","There are two bags"],"why":"\"This\" agrees with the thing: حَقِيبَة ends in ة, so هٰذِهِ."}
+{"id":"ordering.k3","q":"What does الْحِسَاب مِن فَضْلِكَ mean?","o":["How much is it?","I'd like a coffee.","The check, please. (to a man)","Thank you very much."],"why":"الْحِسَاب is the check; مِن فَضْلِكَ is please, to a man."}
+{"id":"adjectives.k1","q":"Where does the adjective go?","o":["After the noun: بَيْت كَبِير","Before the noun: كَبِير بَيْت","Either side, as you like","Before the noun, with ال: الْكَبِير بَيْت"],"why":"Arabic adjectives follow the noun."}
+{"id":"adjectives.k2","q":"\"the new car\" =","why":"Both words take the article, and the adjective agrees with the feminine سَيَّارَة."}
+{"id":"adjectives.k3","q":"What does الْبَيْت الْكَبِير جَمِيل mean?","o":["the big, beautiful house","The big house is beautiful.","The house is big and beautiful.","a beautiful big house"],"why":"الْبَيْت الْكَبِير is the subject (both words have ال); جَمِيل, with no ال, is the predicate."}
+{"id":"idafa.k1","q":"\"the student's book\" =","why":"The owned thing comes first, with no article; the owner second, with the article."}
+{"id":"idafa.k2","q":"Which word of an iḍāfa never takes ال?","o":["The first","The second","Both","Neither: both always take it"],"why":"The ال (or a name) on the second word makes the whole phrase definite."}
+{"id":"idafa.k3","q":"In جَامِعَةْ تُولْسَا, how is the end of جَامِعَة said?","o":["-a, as usual","It is silent","-at, with a t","-ah, with an h"],"why":"A ة at the end of the first word of an iḍāfa is said -at."}
+{"id":"possessive.k1","q":"\"my house\" =","why":"بَيْتِي means \"my house\", and the ending already makes it definite: no ال."}
+{"id":"possessive.k2","q":"What happens to the ة of مَدِينَة before \"my\"?","o":["It becomes ت: مَدِينَتِي","It drops: مَدِينِي","It stays as ة","It becomes ه"],"why":"Before a possessive ending, ة is written as an ordinary ت."}
+{"id":"possessive.k3","q":"Which one means \"your name\" when you talk to a woman?","why":"To a woman: اِسْمُكِ, with a kasra. اِسْمُكَ is to a man, اِسْمُهَا is \"her name\", اِسْمِي is \"my name\"."}
+{"id":"have.k1","q":"How does Arabic usually say \"I have\"?","why":"Arabic has no verb \"have\": عِنْدِي, literally \"with me\"."}
+{"id":"have.k2","q":"Which sentence means \"I don't have a car\"?","why":"عِنْدِي is not a verb, so it takes لَيْسَ, not لَا, and لَيْسَ comes first."}
+{"id":"have.k3","q":"What does عِنْدَهَا mean?","o":["she has","he has","I have","we have"],"why":"عِنْدَهَا ends in the possessive ending for \"her\": she has."}
+{"id":"plurals.k1","q":"What is the plural of كِتَاب (book)?","why":"كِتَاب has a broken plural: the inside changes, كُتُب."}
+{"id":"plurals.k2","q":"How do you say \"The cars are new\"?","why":"A plural of things takes a feminine singular adjective, with no article on the predicate."}
+{"id":"plurals.k3","q":"What does مُدَرِّسَات mean?","o":["teachers (women)","teachers (men)","a teacher (a woman)","two teachers"],"why":"The ending -āt makes the feminine plural: a group of women teachers."}
+{"id":"roots.k1","q":"What do كِتَاب, كَاتِب and مَكْتَب have in common?","o":["They all start with ك","The root letters ك ت ب","They are all feminine","Nothing: they just look alike"],"why":"All three are built on the root ك ت ب, \"writing\"."}
+{"id":"roots.k2","q":"What does the shape of مَكْتَب and مَطْعَم usually make?","o":["a place where something happens","a person who does something","a plural","a feminine noun"],"why":"The ma- pattern often names a place: the place of writing, the place of eating."}
+{"id":"roots.k3","q":"Which word shares a root with مُدَرِّس (teacher)?","why":"مُدَرِّس and مَدْرَسَة both carry the root د ر س, \"study\"."}
+{"id":"present.k1","q":"Which word means \"I study\"?","why":"The prefix أَ says \"I\": أَدْرُس."}
+{"id":"present.k2","q":"How do you say \"You study\" to a woman?","why":"To a woman: أَنْتِ, and the verb adds -īn: تَدْرُسِين."}
+{"id":"present.k3","q":"Is أَدْرُس الْعَرَبِيَّة a complete sentence without أَنَا?","o":["No: Arabic always needs the pronoun","Yes: the prefix already says \"I\"","Only in questions","Only when a woman is speaking"],"why":"The prefix shows who, so the pronoun is often left out."}
+{"id":"verb-sentences.k1","q":"What is تَدْرُس سَارَة الْعَرَبِيَّة?","o":["a question: Does Sara study Arabic?","a normal statement: Sara studies Arabic.","a mistake: the name must come first","an order to Sara"],"why":"Verb first is an ordinary statement in Arabic; questions use هَل."}
+{"id":"verb-sentences.k2","q":"When the verb comes first, before a plural subject like الطُّلَّاب, the verb is…","o":["singular: يَعْمَل","plural: يَعْمَلُون","the \"we\" form: نَعْمَل","left out"],"why":"Before its subject the verb stays singular: يَعْمَل الطُّلَّاب."}
+{"id":"verb-sentences.k3","q":"Sara is a woman. Which verb goes with her, before or after her name?","why":"A woman takes the same form as هِيَ: تَدْرُس, in either order."}
+{"id":"negation.k1","q":"Which word means \"not\" in front of a present verb like أَعْرِف?","why":"Present verbs take لَا: لَا أَعْرِف."}
+{"id":"negation.k2","q":"How do you say \"I don't have a car\"?","why":"عِنْدِي is not a verb, so it takes لَيْسَ."}
+{"id":"negation.k3","q":"How do you say \"She isn't here\"?","why":"No verb, so لَيْسَ, and it agrees with هِيَ: لَيْسَت."}
+{"id":"adverbs.k1","q":"Where does جِدًّا (very) go?","o":["before the adjective","after the adjective","at the start of the sentence","after the noun, before the adjective"],"why":"جِدًّا follows the adjective: كَبِير جِدًّا."}
+{"id":"adverbs.k2","q":"Which means \"every day\"?","why":"كُلّ يَوْم has no article; كُلّ الْيَوْم means \"all day\" and الْيَوْم is \"today\"."}
+{"id":"adverbs.k3","q":"Which means \"Monday\"?","why":"A day is an iḍāfa: يَوْم with no article, then the day word with the article."}
+{"id":"past.k1","q":"Which word means \"I studied\"?","why":"The ending -tu says \"I\": دَرَسْتُ."}
+{"id":"past.k2","q":"Fatima went to the market. Which verb?","why":"Fatima is a woman, and it is the past: the ending -at, ذَهَبَت."}
+{"id":"past.k3","q":"What does دَرَسْنَا mean?","o":["we studied","they studied","I studied","we study"],"why":"The ending -nā says \"we\"; there is no prefix, so it is the past."}
+{"id":"directions.k1","q":"How do you say \"excuse me\" to a woman?","why":"To a woman the last vowel is i: لَوْ سَمَحْتِ."}
+{"id":"directions.k2","q":"Which means \"the train station\"?","why":"Iḍāfa: no article on the first word, the article on the second."}
+{"id":"directions.k3","q":"Which means \"on the right\"?","why":"الْيَمِين is the right; الْيَسَار is the left."}

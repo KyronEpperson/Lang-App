@@ -1,0 +1,78 @@
+{"id":"tones.k1","q":"What changes when you say maa with a different tone?","o":["Nothing: the tone only shows feeling","The word: มา (come), ม้า (horse) and หมา (dog) are different words","Only how polite you sound","The word becomes a question"],"why":"In Thai the tone is part of the word, so a new tone gives a new word."}
+{"id":"tones.k2","q":"Which tone has no mark in the romanization?","o":["The rising tone","The low tone","The high tone","The mid tone"],"why":"Only the mid tone is written with no mark: maa, glai."}
+{"id":"tones.k3","q":"How do you ask a yes/no question in Thai?","o":["Raise your voice at the end, as in English","Put the verb first","Add ไหม at the end and keep every tone","Say the last word with a high tone"],"why":"ไหม at the end makes the question; the tones of the other words do not change."}
+{"id":"sounds.k1","q":"How is the romanization bp pronounced?","o":["Like an English p, with a puff of air","Like f","Like a b with tense lips and no puff of air","As two sounds, b and then p"],"why":"bp is a plain p with no puff, which English ears hear as close to b."}
+{"id":"sounds.k2","q":"What does the th in ทา (to paint) sound like?","o":["A t with a puff of air, as in top","The th of think","The th of this","A d"],"why":"Thai th is always a t with a puff of air, never the th of think."}
+{"id":"sounds.k3","q":"What changes if you say ดู (to look) with a short vowel?","o":["Nothing: length only shows feeling","It becomes a question","It sounds more polite","It becomes ดุ, a different word"],"why":"Vowel length is part of the word: short ดุ means fierce or to scold."}
+{"id":"greetings.k1","q":"Which polite particle does a woman put at the end of a question?","o":[null,null,null,"None: questions need no particle"],"why":"Women end statements with ค่ะ (falling tone) and questions with คะ (high tone)."}
+{"id":"greetings.k2","q":"Someone says ขอบคุณครับ to you. What do Thais usually answer?","o":["ไม่เป็นไร, or just a smile","ขอบคุณ again",null,null],"why":"Thai has no word-for-word you're welcome; ไม่เป็นไร (it's OK) is the usual answer."}
+{"id":"greetings.k3","q":"How do you address Somchai politely?","o":[null,"By his family name",null,"Mr. สมชาย"],"why":"คุณ goes before the first name, for men and women."}
+{"id":"numbers.k1","q":"How do you say 20 in Thai?","why":"20 is ยี่สิบ; สองสิบ is never used."}
+{"id":"numbers.k2","q":"Why is 31 สามสิบเอ็ด and not สามสิบหนึ่ง?","o":["A 1 at the end of a bigger number is เอ็ด","หนึ่ง is only for prices","เอ็ด means thirty","It is a spelling mistake"],"why":"หนึ่ง is used alone; at the end of 11, 21, 31… the 1 is เอ็ด."}
+{"id":"numbers.k3","q":"Where does บาท go?","o":["Before the number","Only on price tags, never in speech","After the number: ห้าสิบบาท","Between the tens and the ones"],"why":"The unit follows the number: ห้าสิบบาท, fifty baht."}
+{"id":"consonants.k1","q":"ข and ค both sound kh. What is the difference?","o":["ค has no puff of air","Their class, which changes the tone rules","ข is only used at the end of a word","Nothing: they are the same letter"],"why":"ข is high class and ค is low class: same sound, different tone rules."}
+{"id":"consonants.k2","q":"How does written Thai show where a word ends?","o":["With a space after every word","With a dot","It doesn't: words run together, and spaces mark phrases","With a capital letter"],"why":"Thai puts no spaces between words; a space ends a phrase."}
+{"id":"consonants.k3","q":"What tone does ขา (leg) have, with a high-class letter, a long vowel and no tone mark?","o":["Rising","Mid","Low","High"],"why":"A high-class letter with a long vowel and no tone mark gives a rising tone."}
+{"id":"vowels.k1","q":"In เด็ก (child), what do you say first?","o":["The vowel เ","The consonant ด","The final ก","It depends on the tone"],"why":"เ is written before the consonant but said after it: d, then e, then k."}
+{"id":"vowels.k2","q":"Which pair differs in vowel length?","why":"ดุ has a short u and ดู a long one; the short vowel also gives ดุ its low tone."}
+{"id":"vowels.k3","q":"Why is there an อ in อา (aunt) or อาหาร (food)?","o":["It is a vowel sound o","It makes the word polite","It shows a high tone","It is silent and carries the vowel"],"why":"A syllable that starts with a vowel sound uses the silent อ as its consonant."}
+{"id":"pronouns.k1","q":"How does a woman say I in everyday speech?","why":"Women say ฉัน, or ดิฉัน when formal; men say ผม."}
+{"id":"pronouns.k2","q":"How do you say my friend (male speaker)?","why":"The owner comes after the noun: เพื่อนผม."}
+{"id":"pronouns.k3","q":"You want to call a server who looks younger than you. What do you say?","o":["น้องครับ or น้องคะ",null,null,null],"why":"น้อง (younger sibling) is the friendly way to address a younger server."}
+{"id":"finals.k1","q":"How does อาหาร (food) end?","o":["With an r","With an n","With an l","With no sound"],"why":"Final ร is read n: aa-hǎan."}
+{"id":"finals.k2","q":"Which syllable is dead?","why":"บาท ends in t, so it is dead; the others end in a long vowel, n or w."}
+{"id":"finals.k3","q":"Why does ราก (root) have a falling tone but รัก (love) a high tone?","o":["ราก has a long vowel; with a low-class letter in a dead syllable, long gives falling and short gives high","ราก has a tone mark","ร is a high-class letter","They are the same word"],"why":"Low class + dead syllable: long vowel falling, short vowel high."}
+{"id":"pen.k1","q":"How do you say I'm hungry (male speaker)?","why":"Describing words need no เป็น: ผมหิว."}
+{"id":"pen.k2","q":"Which word says where something is?","why":"อยู่ is for place: ห้องน้ำอยู่ที่ไหน."}
+{"id":"pen.k3","q":"How do you say I'm not a teacher (female speaker)?","why":"Before a noun, not is ไม่ใช่ (or ไม่ได้เป็น), never ไม่เป็น."}
+{"id":"classifiers.k1","q":"How do you say \"two books\"?","why":"Noun, number, classifier: หนังสือสองเล่ม. The classifier for books is เล่ม."}
+{"id":"classifiers.k2","q":"Which classifier counts animals, like cats and dogs?","why":"ตัว counts animals, and also shirts, tables and chairs. คน is only for people."}
+{"id":"classifiers.k3","q":"You don't know the classifier for a small thing. What can you use?","o":[null,null,null,"nothing: just the number"],"why":"อัน is the safe classifier for small things when you don't know the right one. A number with no classifier is wrong."}
+{"id":"tone-marks.k1","q":"What tone does ่ give on a low-class letter, as in ไม่ (not)?","o":["low","falling","high","rising"],"why":"On a low-class letter, ่ gives a falling tone: ไม่ (mâi)."}
+{"id":"tone-marks.k2","q":"Which tone marks appear only on mid-class letters?","o":["่ and ้","่ and ๋","๊ and ๋","้ and ๊"],"why":"ไม้ตรี ๊ and ไม้จัตวา ๋ are used only on mid-class letters, as in โต๊ะ and ก๋วยเตี๋ยว."}
+{"id":"tone-marks.k3","q":"ม้า (horse): ม is low class and has ้. Which tone?","o":["high","falling","low","rising"],"why":"On a low-class letter, ้ gives a high tone: ม้า (máa)."}
+{"id":"this-that.k1","q":"How do you say \"this shirt\"?","why":"Noun + classifier + นี้, with a high tone: เสื้อตัวนี้."}
+{"id":"this-that.k2","q":"Which word means \"this\" standing alone, as in \"This is my cat\"?","why":"นี่, with a falling tone, stands alone; นี้ follows a noun and classifier."}
+{"id":"this-that.k3","q":"How do you say \"my house\" (male speaker)?","why":"The owner comes after the thing: บ้านของผม, or just บ้านผม."}
+{"id":"mai.k1","q":"Where does ไม่ go in \"I don't like coffee\"?","o":["After the verb: ผมชอบไม่กาแฟ","At the end: ผมชอบกาแฟไม่","Before the verb: ผมไม่ชอบกาแฟ","At the start: ไม่ผมชอบกาแฟ"],"why":"ไม่ goes right before the verb: ไม่ชอบ."}
+{"id":"mai.k2","q":"Someone asks ชอบไหม (Do you like it?). How do you say yes?","why":"Answer with the verb: ชอบ for yes, ไม่ชอบ for no."}
+{"id":"mai.k3","q":"How do you turn เผ็ด (it's spicy) into a yes/no question?","o":["Say เผ็ด with a rising voice","Put ไหม at the end: เผ็ดไหม","Put ไหม at the start: ไหมเผ็ด","Put ไม่ at the end: เผ็ดไม่"],"why":"ไหม at the end makes the question; the voice does not need to rise."}
+{"id":"clusters.k1","q":"In หมา (dog), what does ห do?","o":["It is said as h","It is silent and gives ม a rising tone","It adds a short a after it","It makes the vowel short"],"why":"A leading ห is silent and makes the next letter high class, so หมา has a rising tone."}
+{"id":"clusters.k2","q":"Which word starts with a true cluster (two letters said together)?","why":"ปลา starts with ป + ล said together; หมา and อยู่ have a silent first letter, and สบาย hides a vowel."}
+{"id":"clusters.k3","q":"How is ตลาด (market) read?","o":["As one syllable","As ตะ-หลาด, with a hidden a","With the ต silent","As ต-ลาด with a long a in the first syllable"],"why":"A short a is said between ต and ล, and ลาด takes the class of ต."}
+{"id":"question-words.k1","q":"How do you ask \"What are you eating?\"","why":"The question word goes where the answer goes: คุณกินอะไร."}
+{"id":"question-words.k2","q":"Where does กี่ (how many) go?","o":["Before the classifier: แมวกี่ตัว","At the start: กี่แมว","After the classifier: แมวตัวกี่","Before the noun: กี่ตัวแมว"],"why":"กี่ takes the place of the number, so it comes before the classifier."}
+{"id":"question-words.k3","q":"Can you add ไหม after a question word?","o":["Yes, always","Yes, to be polite","No: the question word already asks","Only after ที่ไหน"],"why":"ไหม is only for yes/no questions; never add it after อะไร, ใคร or ที่ไหน."}
+{"id":"special.k1","q":"What does the mark ์ do in เบียร์ (beer)?","o":["It makes the ร silent","It gives a high tone","It makes the vowel long","It repeats the word"],"why":"์ over a letter means the letter is not said."}
+{"id":"special.k2","q":"Which word has a short vowel even though the spelling looks long?","why":"เล่น is said short (lên); น้ำ, ได้ and เก้า are said long."}
+{"id":"special.k3","q":"What does ๆ do in ช้าๆ?","o":["It marks a question","It repeats the word before it","It ends a sentence","It silences the letter"],"why":"ๆ repeats the word: ช้าๆ, slowly."}
+{"id":"food.k1","q":"How do you ask for two plates of pad thai (male speaker)?","why":"Dish, number, classifier: ผัดไทยสองจาน, with จาน for a plate."}
+{"id":"food.k2","q":"Which word means spicy?","why":"เผ็ด is spicy; ร้อน is hot to the touch."}
+{"id":"food.k3","q":"How do you ask for the bill?","why":"เช็คบิลด้วย: check, please. ด้วย softens the request."}
+{"id":"family.k1","q":"How do you say \"my older sister\" (male speaker)?","why":"The owner comes after the noun, and พี่ means older: พี่สาวผม."}
+{"id":"family.k2","q":"How do you say \"I'm thirty years old\" (female speaker)?","why":"อายุ works like a verb: no เป็น."}
+{"id":"family.k3","q":"Which word means a younger brother?","why":"น้อง is younger, ชาย is male: น้องชาย."}
+{"id":"compare.k1","q":"How do you say \"more expensive\"?","why":"กว่า goes right after the describing word, with no word for \"more\" before it: แพงกว่า."}
+{"id":"compare.k2","q":"Where does มาก (very) go?","o":["Before the describing word","After the describing word","At the start of the sentence","Before the noun"],"why":"มาก follows the word it makes stronger: สวยมาก, very beautiful."}
+{"id":"compare.k3","q":"Which means \"the biggest\"?","why":"ที่สุด after the describing word means \"the most\": ใหญ่ที่สุด."}
+{"id":"time.k1","q":"How do you say 7 p.m.?","why":"Evening hours restart at 7 p.m.: หนึ่งทุ่ม is 7 p.m., สองทุ่ม is 8 p.m."}
+{"id":"time.k2","q":"How do you say \"at 6 a.m.\" in \"I get up at 6 a.m.\"?","why":"Thai needs no word for \"at\" before a time: ผมตื่นหกโมงเช้า."}
+{"id":"time.k3","q":"Where will you mostly see times like สิบสี่นาฬิกา (14:00)?","o":["In casual talk with friends","At a street market","On announcements, tickets and the news","Only for night hours"],"why":"The 24-hour นาฬิกา count is formal; in speech people say บ่ายสองโมง."}
+{"id":"time-words.k1","q":"How does Thai show that something happened in the past?","o":["The verb changes its ending","With a time word such as เมื่อวาน, or แล้ว for done","With แล้ว after every past verb","With เป็น before the verb"],"why":"Thai verbs never change; a time word, or แล้ว for something finished, shows the past."}
+{"id":"time-words.k2","q":"A friend asks กินข้าวหรือยัง. You haven't eaten. You answer:","why":"ยัง means \"not yet\"; ใช่ only confirms \"is it …?\"."}
+{"id":"time-words.k3","q":"Where does จะ go?","o":["Before the verb","After the verb","At the end of the sentence","After แล้ว"],"why":"จะ goes right before the verb: จะไป, will go."}
+{"id":"can-want.k1","q":"What does ได้ไป mean?","o":["can go","got to go, had the chance to go","want to go","must go"],"why":"ได้ before a verb means \"got to\"; \"can go\" is ไปได้."}
+{"id":"can-want.k2","q":"How do you say \"I want coffee\" (wanting a thing)?","why":"To want a thing, use อยากได้ + the thing."}
+{"id":"can-want.k3","q":"Someone asks ว่ายน้ำได้ไหม. You can swim. You answer:","why":"Answer a ได้ไหม question with ได้ or ไม่ได้, not with ใช่."}
+{"id":"requests.k1","q":"Which sounds most natural when you ask a server for the bill?","why":"เช็คบิลด้วย, with ครับ or ค่ะ, is the everyday way; กรุณา sounds like a sign."}
+{"id":"requests.k2","q":"What does ช่วย + verb + หน่อย ask for?","o":["Someone to do something for you","A thing you want to have","Permission to leave","Whether something is true"],"why":"ช่วย … หน่อย is \"could you …, please\"."}
+{"id":"requests.k3","q":"Where do you mostly meet กรุณา (please)?","o":["In every polite request","Between friends","On signs and in announcements","Only after ครับ"],"why":"กรุณา is formal; in speech, Thai uses ขอ, ช่วย and หน่อย."}
+{"id":"directions.k1","q":"How do you ask \"Where is the market?\"","why":"The place comes first, then อยู่ที่ไหน at the end."}
+{"id":"directions.k2","q":"What tells ใกล้ (near) and ไกล (far) apart?","o":["The tone: falling for near, mid for far","The vowel length","The first consonant","Nothing: only the context"],"why":"ใกล้ has a falling tone, ไกล a mid tone; the consonants and vowel are the same."}
+{"id":"directions.k3","q":"How do you tell a taxi driver \"to Siam\"?","why":"ไป + place, with no word for \"to\": ไปสยาม."}
+{"id":"shopping.k1","q":"How do you say \"a red shirt\"?","why":"The color comes after the noun, with สี: เสื้อสีแดง."}
+{"id":"shopping.k2","q":"Which classifier do pants (กางเกง) take?","why":"Pants are counted like shirts, with ตัว, even though English says \"a pair\"."}
+{"id":"shopping.k3","q":"Said of clothes, ฟิต means:","o":["loose","fits well","tight","cheap"],"why":"ฟิต is a false friend: กางเกงตัวนี้ฟิต means the pants are tight."}
+{"id":"feelings.k1","q":"How do you say \"I'm tired\" (female speaker)?","why":"Feelings are describing verbs: no เป็น, ฉันเหนื่อย."}
+{"id":"feelings.k2","q":"Which of these takes เป็น?","o":["ดีใจ (glad)","เหนื่อย (tired)","หวัด (a cold)","หิว (hungry)"],"why":"Illnesses take เป็น: เป็นหวัด. Feelings do not."}
+{"id":"feelings.k3","q":"What does ปวดท้อง mean?","o":["stomachache","headache","sore throat","I'm hungry"],"why":"ปวด + body part: ท้อง is the belly."}

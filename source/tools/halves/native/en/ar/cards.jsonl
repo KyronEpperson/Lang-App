@@ -1,0 +1,789 @@
+{"id":"ar.c0001","meaning":"long ā, as in father","note":"Also a seat for hamza (أ). Never joins to the next letter."}
+{"id":"ar.c0002","meaning":"b, as in boy","note":"Same shape as ت ث; one dot below."}
+{"id":"ar.c0003","meaning":"t, as in tea","note":"Same shape as ب ث; two dots above. Joins on both sides."}
+{"id":"ar.c0004","meaning":"th, as in think","note":"Same shape as ب ت; three dots above. The th of \"this\" is ذ."}
+{"id":"ar.c0005","meaning":"j, as in jam","note":"One dot below. Family: ج ح خ. In Egypt people say it as g."}
+{"id":"ar.c0006","meaning":"ḥ, a breathy h from the throat","note":"Not English h (that is ه). Family: ج ح خ."}
+{"id":"ar.c0007","meaning":"kh, as in Bach","note":"One dot above. Family: ج ح خ."}
+{"id":"ar.c0008","meaning":"d, as in day","note":"Never joins to the next letter. ذ is the same shape with a dot."}
+{"id":"ar.c0009","meaning":"dh, as in this","note":"د with one dot above. Never joins to the next letter."}
+{"id":"ar.c0010","meaning":"r, a quick tap","note":"Like the tt in American butter. Never joins to the next letter."}
+{"id":"ar.c0011","meaning":"z, as in zoo","note":"ر with one dot above. Never joins to the next letter."}
+{"id":"ar.c0012","meaning":"s, as in see","note":"Three small teeth. Joins on both sides."}
+{"id":"ar.c0013","meaning":"sh, as in she","note":"س with three dots above."}
+{"id":"ar.c0014","meaning":"ṣ, a heavy s","note":"Darkens the vowel next to it: صَيْف, not سَيْف."}
+{"id":"ar.c0015","meaning":"ḍ, a heavy d","note":"The \"letter of ḍād\": Arabs call Arabic the language of ḍād."}
+{"id":"ar.c0016","meaning":"ṭ, a heavy t","note":"Darkens the vowel: طِين (mud) is not تِين (figs). ظ is the same shape with a dot."}
+{"id":"ar.c0017","meaning":"ẓ, a heavy dh","note":"ط with one dot above. Many speakers say it as a heavy z."}
+{"id":"ar.c0018","meaning":"ʿ, a squeeze deep in the throat","note":"No English sound. Written ʿ in the romanisation."}
+{"id":"ar.c0019","meaning":"gh, a gargled sound like French r","note":"ع with one dot above."}
+{"id":"ar.c0020","meaning":"f, as in fun","note":"One dot above. ق has two."}
+{"id":"ar.c0021","meaning":"q, a k from deep in the throat","note":"قَلْب heart, كَلْب dog."}
+{"id":"ar.c0022","meaning":"k, as in kite","note":"Plain English k. At the end of a word it carries a small mark inside."}
+{"id":"ar.c0023","meaning":"l, as in let","note":"With ا it makes لا (lām alif), as in لَا (no)."}
+{"id":"ar.c0024","meaning":"m, as in moon","note":"A small round loop; at the end of a word it has a tail."}
+{"id":"ar.c0025","meaning":"n, as in noon","note":"One dot above. Inside a word it looks like ب with the dot on top."}
+{"id":"ar.c0026","meaning":"h, as in hat","note":"A soft English h. ة, the feminine ending, is ه with two dots."}
+{"id":"ar.c0027","meaning":"w, or a long ū","note":"Never joins to the next letter."}
+{"id":"ar.c0028","meaning":"y, or a long ī","note":"Two dots below; at the end of a word the dots stay (ى without dots is alif maqsura)."}
+{"id":"ar.c0029","meaning":"ba: fatha, a short a","note":"The small slash above the letter."}
+{"id":"ar.c0030","meaning":"bū: damma and و, a long ū","note":"Damma is the little و above the letter."}
+{"id":"ar.c0031","meaning":"bā: fatha and ا, a long ā","note":"Hold the vowel: the romanisation shows it with a line, ā."}
+{"id":"ar.c0032","meaning":"bī: kasra and ي, a long ī","note":"Kasra is the small slash below the letter."}
+{"id":"ar.c0033","meaning":"girl","note":"Kasra under ب, sukun on ن: no vowel between n and t."}
+{"id":"ar.c0034","meaning":"office; desk","note":"Sukun on ك: maktab, not makatab."}
+{"id":"ar.c0035","meaning":"teacher (a woman)","note":"Shadda on ر: hold the r. ة at the end is said -a."}
+{"id":"ar.c0036","meaning":"house","note":"Fatha + يْ with sukun = ay, as in \"bite\"."}
+{"id":"ar.c0037","meaning":"thanks","note":"Tanwin -an: the doubled mark plus an extra ا."}
+{"id":"ar.c0038","meaning":"question","note":"Hamza sits on و here; it is the same catch in the throat."}
+{"id":"ar.c0039","meaning":"on","note":"Alif maqsura: ى at the end is said ā, like ا."}
+{"id":"ar.c0040","meaning":"taa marbuta: the feminine ending","note":"Said -a at the end of a word: مَدِينَة madīna."}
+{"id":"ar.c0041","meaning":"alif maqsura: ā at the end of a word","note":"Like ي but with no dots."}
+{"id":"ar.c0042","meaning":"hamza: a catch in the throat","note":"The stop in the middle of uh-oh. Sits alone or on ا و ي."}
+{"id":"ar.c0043","meaning":"lām alif: l + ā","note":"ل and ا joined into one shape. لَا means \"no\"."}
+{"id":"ar.c0044","meaning":"the sun","note":"A sun letter: ال is said ash-, not al-."}
+{"id":"ar.c0045","meaning":"the moon","note":"A moon letter: the ل of ال is said, with sukun."}
+{"id":"ar.c0046","meaning":"this (masculine)","note":"The small upright alif (dagger alif) is a long ā: hādhā."}
+{"id":"ar.c0047","meaning":"heart","note":"q from deep in the throat. Compare كَلْب (dog)."}
+{"id":"ar.c0048","meaning":"dog","note":"Plain k. Compare قَلْب (heart)."}
+{"id":"ar.c0049","meaning":"summer","note":"Heavy ṣ: the a sounds darker. Compare سَيْف."}
+{"id":"ar.c0050","meaning":"sword","note":"Plain s, bright a. Compare صَيْف (summer)."}
+{"id":"ar.c0051","meaning":"mud","note":"Heavy ṭ. Compare تِين (figs)."}
+{"id":"ar.c0052","meaning":"figs","note":"Plain t. Compare طِين (mud)."}
+{"id":"ar.c0053","meaning":"state; condition","note":"Breathy ḥ from the throat, as in كَيْفَ حَالُكَ؟ Compare هَال."}
+{"id":"ar.c0054","meaning":"cardamom","note":"Soft English h. Compare حَال. It flavors Arabic coffee."}
+{"id":"ar.c0055","meaning":"uncle (mother's brother)","note":"Rough kh, as in Bach. Compare حَال."}
+{"id":"ar.c0056","meaning":"eye","note":"Starts with ʿayn. Compare أَيْنَ (where)."}
+{"id":"ar.c0057","meaning":"flag","note":"Starts with ʿayn: squeeze the throat. Compare أَلَم (pain)."}
+{"id":"ar.c0058","meaning":"pain","note":"Starts with hamza, a plain catch. Compare عَلَم (flag)."}
+{"id":"ar.c0059","meaning":"camel","note":"Short a. Compare جَمَال (beauty)."}
+{"id":"ar.c0060","meaning":"beauty","note":"Long ā. Compare جَمَل (camel)."}
+{"id":"ar.c0061","meaning":"he studied","note":"Single r. Compare دَرَّسَ (he taught)."}
+{"id":"ar.c0062","meaning":"he taught","note":"Shadda: hold the r. Compare دَرَسَ (he studied)."}
+{"id":"ar.c0063","meaning":"hello (peace be upon you)","note":"For anyone, any time. Reply: وَعَلَيْكُم السَّلَام."}
+{"id":"ar.c0064","meaning":"hello (the reply to as-salāmu ʿalaykum)","note":"Literally \"and upon you peace\"."}
+{"id":"ar.c0065","meaning":"hi","note":"Neutral and everyday. Reply مَرْحَبًا or أَهْلًا."}
+{"id":"ar.c0066","meaning":"welcome","note":"To a guest or a customer. Often just أَهْلًا (hi)."}
+{"id":"ar.c0067","meaning":"good morning","note":"Literally \"morning of goodness\". Reply: صَبَاح النُّور."}
+{"id":"ar.c0068","meaning":"good morning (the reply)","note":"Literally \"morning of light\"."}
+{"id":"ar.c0069","meaning":"good evening","note":"From the afternoon on. Reply: مَسَاء النُّور."}
+{"id":"ar.c0070","meaning":"good evening (the reply)","note":"Literally \"evening of light\"."}
+{"id":"ar.c0071","meaning":"How are you? (to a man)","note":"To a woman: كَيْفَ حَالُكِ؟ Only the last vowel changes."}
+{"id":"ar.c0072","meaning":"How are you? (to a woman)","note":"To a man: كَيْفَ حَالُكَ؟ Answer: بِخَيْر، الْحَمْدُ لِلّٰه."}
+{"id":"ar.c0073","meaning":"fine, thank God","note":"The everyday answer to \"how are you?\", said by Muslims and Christians alike."}
+{"id":"ar.c0074","meaning":"thank you very much","note":"Answer: عَفْوًا (you're welcome)."}
+{"id":"ar.c0075","meaning":"please (to a man)","note":"To a woman: مِن فَضْلِكِ."}
+{"id":"ar.c0076","meaning":"please (to a woman)","note":"To a man: مِن فَضْلِكَ."}
+{"id":"ar.c0077","meaning":"sorry; excuse me","note":"For a small slip or to get past. \"I'm sorry\": آسِف, a woman says آسِفَة."}
+{"id":"ar.c0078","meaning":"nice to meet you","note":"Literally \"we are honored\". Fine from a man or a woman."}
+{"id":"ar.c0079","meaning":"goodbye","note":"Literally \"with safety\"."}
+{"id":"ar.c0080","meaning":"see you later","note":"Literally \"until the meeting\". A goodbye for anyone."}
+{"id":"ar.c0081","meaning":"What's your name? (to a man)","note":"To a woman: مَا اِسْمُكِ؟"}
+{"id":"ar.c0082","meaning":"What's your name? (to a woman)","note":"To a man: مَا اِسْمُكَ؟"}
+{"id":"ar.c0083","meaning":"My name is Sara.","note":"No \"is\": literally \"my name Sara\". Put your own name in."}
+{"id":"ar.c0084","meaning":"Where are you from? (to a man)","note":"Literally \"from where you?\""}
+{"id":"ar.c0085","meaning":"Where are you from? (to a woman)","note":"Only the last vowel changes: أَنْتِ."}
+{"id":"ar.c0086","meaning":"I'm from Chicago.","note":"مِن = from. Put your own city in."}
+{"id":"ar.c0087","meaning":"I'm from the United States.","note":"Both words take the article: \"the states the united\"."}
+{"id":"ar.c0088","meaning":"I'm American (a man speaking).","note":"A woman says أَنَا أَمْرِيكِيَّة. No \"am\" in Arabic."}
+{"id":"ar.c0089","meaning":"My family is Lebanese (by origin).","note":"Literally \"I'm of Lebanese origin\". A woman says the same."}
+{"id":"ar.c0090","meaning":"Where do you live? (to a man)","note":"To a woman: أَيْنَ تَسْكُنِين؟"}
+{"id":"ar.c0091","meaning":"I live in Texas.","note":"أَسْكُن = I live; past سَكَنَ."}
+{"id":"ar.c0092","meaning":"I'm a student (a man speaking).","note":"A woman says أَنَا طَالِبَة."}
+{"id":"ar.c0093","meaning":"I'm an engineer (a woman speaking).","note":"A man says أَنَا مُهَنْدِس. No word for \"a\"."}
+{"id":"ar.c0094","meaning":"What do you do? (to a man)","note":"Literally \"what do you work?\" To a woman: مَاذَا تَعْمَلِين؟"}
+{"id":"ar.c0095","meaning":"I'm studying Arabic.","note":"Languages take the article: الْعَرَبِيَّة."}
+{"id":"ar.c0096","meaning":"I speak English.","note":"أَتَكَلَّم = I speak. English takes the article too."}
+{"id":"ar.c0097","meaning":"How old are you? (to a man)","note":"Literally \"how much is your age?\" To a woman: كَم عُمْرُكِ؟"}
+{"id":"ar.c0098","meaning":"I'm twenty-five.","note":"\"My age is five and twenty\": the ones come first."}
+{"id":"ar.c0099","meaning":"my mother","note":"أُمّ is feminine without ة."}
+{"id":"ar.c0100","meaning":"my father","note":"أَب + ـي."}
+{"id":"ar.c0101","meaning":"my brother","note":"أَخ + ـي. My sister: أُخْتِي."}
+{"id":"ar.c0102","meaning":"my sister","note":"أَخِي = my brother."}
+{"id":"ar.c0103","meaning":"my son","note":"اِبْن + ـي."}
+{"id":"ar.c0104","meaning":"my daughter","note":"ة becomes ت before an ending: اِبْنَة, اِبْنَتِي."}
+{"id":"ar.c0105","meaning":"my husband","note":"My wife: زَوْجَتِي."}
+{"id":"ar.c0106","meaning":"my wife","note":"زَوْجَة + ـي: ة becomes ت."}
+{"id":"ar.c0107","meaning":"my grandfather","note":"Shadda on د: hold the d."}
+{"id":"ar.c0108","meaning":"my grandmother","note":"جَدَّة + ـي."}
+{"id":"ar.c0109","meaning":"my friend (a man)","note":"A friend who is a woman: صَدِيقَتِي."}
+{"id":"ar.c0110","meaning":"my friend (a woman)","note":"ة becomes ت before an ending."}
+{"id":"ar.c0111","meaning":"man","note":"Masculine."}
+{"id":"ar.c0112","meaning":"woman","note":"With the article it is الْمَرْأَة, \"the woman\"."}
+{"id":"ar.c0113","meaning":"My family is big.","note":"No \"is\"; كَبِيرَة agrees with the feminine عَائِلَة."}
+{"id":"ar.c0114","meaning":"My mother is a teacher.","note":"A woman: the feminine مُدَرِّسَة. No word for \"a\"."}
+{"id":"ar.c0115","meaning":"I have a brother and a sister.","note":"No verb \"have\": عِنْدِي = \"with me\". وَ joins the next word."}
+{"id":"ar.c0116","meaning":"This is my friend Ahmad.","note":"هٰذَا for a man; for a woman: هٰذِهِ صَدِيقَتِي."}
+{"id":"ar.c0117","meaning":"zero","note":"The Eastern Arabic digit ٠ is just a dot."}
+{"id":"ar.c0118","meaning":"one","note":"After a feminine noun: وَاحِدَة."}
+{"id":"ar.c0119","meaning":"two","note":"After a feminine noun: اِثْنَتَان."}
+{"id":"ar.c0120","meaning":"five","note":"The digit ٥ looks like a small circle."}
+{"id":"ar.c0121","meaning":"ten","note":"Counting form. In speech you will also hear ʿashra."}
+{"id":"ar.c0122","meaning":"eleven","note":"Literally \"one ten\"."}
+{"id":"ar.c0123","meaning":"twenty","note":"In speech often ʿishrīn."}
+{"id":"ar.c0124","meaning":"twenty-one","note":"\"One and twenty\": the ones come first."}
+{"id":"ar.c0125","meaning":"fifty","note":"From خَمْسَة (five): the tens end in -ūn."}
+{"id":"ar.c0126","meaning":"a hundred","note":"Also spelled مِائَة; said the same, miʾa."}
+{"id":"ar.c0127","meaning":"3 (Eastern Arabic digit)","note":"Common in Egypt, the Levant and the Gulf, next to 3; Morocco, Algeria and Tunisia write 3."}
+{"id":"ar.c0128","meaning":"7 (Eastern Arabic digit)","note":"Looks like a V. ٨ (8) is the same shape upside down."}
+{"id":"ar.c0129","meaning":"8 (Eastern Arabic digit)","note":"Looks like an upside-down V. Digits read left to right: ٨٧ is 87."}
+{"id":"ar.c0130","meaning":"How much is this?","note":"For a feminine thing: بِكَم هٰذِهِ؟"}
+{"id":"ar.c0131","meaning":"What's the price?","note":"No \"is\": \"how much the price?\""}
+{"id":"ar.c0132","meaning":"twenty riyals","note":"After 11 to 99 the noun is singular, with -an."}
+{"id":"ar.c0133","meaning":"riyal","note":"Saudi and Qatari money. Dirham (UAE, Morocco): دِرْهَم."}
+{"id":"ar.c0134","meaning":"Egyptian pound","note":"Jordan uses the دِينَار (dinar)."}
+{"id":"ar.c0135","meaning":"Arabic coffee","note":"Light, with cardamom, in tiny cups."}
+{"id":"ar.c0136","meaning":"mint tea","note":"بِـ = with. A sun letter after the article: bin-naʿnāʿ."}
+{"id":"ar.c0137","meaning":"coffee with milk","note":"A moon letter after the article: bil-ḥalīb."}
+{"id":"ar.c0138","meaning":"without sugar","note":"Shadda on ك: sukkar."}
+{"id":"ar.c0139","meaning":"orange juice","note":"\"Juice of orange\": no article on the first word."}
+{"id":"ar.c0140","meaning":"I'd like water","note":"أُرِيد = I want, polite enough with مِن فَضْلِكَ."}
+{"id":"ar.c0141","meaning":"I'd like a cup of coffee","note":"فِنْجَان is a small coffee cup."}
+{"id":"ar.c0142","meaning":"What would you like? (to a man)","note":"What a waiter says. To a woman: مَاذَا تُرِيدِين؟"}
+{"id":"ar.c0143","meaning":"bread","note":"Arab bread is usually flat and round."}
+{"id":"ar.c0144","meaning":"hummus","note":"The chickpea dip. In the Levant the same word also means the chickpeas themselves."}
+{"id":"ar.c0145","meaning":"falafel","note":"In Egypt it is often called ṭaʿmiyya."}
+{"id":"ar.c0146","meaning":"shawarma","note":"Meat or chicken sliced from a turning spit."}
+{"id":"ar.c0147","meaning":"dates","note":"Served with Arabic coffee."}
+{"id":"ar.c0148","meaning":"I'm hungry (a man speaking)","note":"A woman says أَنَا جَائِعَة."}
+{"id":"ar.c0149","meaning":"I'm vegetarian (a woman speaking)","note":"A man says أَنَا نَبَاتِيّ."}
+{"id":"ar.c0150","meaning":"delicious","note":"Feminine: لَذِيذَة (الْقَهْوَة لَذِيذَة)."}
+{"id":"ar.c0151","meaning":"The food is delicious.","note":"No \"is\", and no article on لَذِيذ."}
+{"id":"ar.c0152","meaning":"The check, please (to a man)","note":"To a woman: مِن فَضْلِكِ."}
+{"id":"ar.c0153","meaning":"I have a car","note":"No verb \"have\": عِنْدِي = \"with me\"."}
+{"id":"ar.c0154","meaning":"room","note":"Feminine (ة)."}
+{"id":"ar.c0155","meaning":"key","note":"Plural مَفَاتِيح (broken plural)."}
+{"id":"ar.c0156","meaning":"phone","note":"Also جَوَّال in Saudi Arabia, مُوبَايِل in many places."}
+{"id":"ar.c0157","meaning":"The apartment is nice.","note":"No \"is\"; the adjective has no article."}
+{"id":"ar.c0158","meaning":"the new apartment","note":"Both words take the article. Without ال on the adjective it means \"the apartment is new\"."}
+{"id":"ar.c0159","meaning":"kitchen","note":"Masculine. Root ط ب خ (cooking); the pattern مَفْعَل often means a place."}
+{"id":"ar.c0160","meaning":"bathroom","note":"Masculine."}
+{"id":"ar.c0161","meaning":"bedroom","note":"Iḍāfa, \"room of sleep\": no article on the first word, and its ة is said -at."}
+{"id":"ar.c0162","meaning":"table","note":"Feminine (ة)."}
+{"id":"ar.c0163","meaning":"chair","note":"Masculine."}
+{"id":"ar.c0164","meaning":"bed","note":"Masculine."}
+{"id":"ar.c0165","meaning":"window","note":"Feminine (ة)."}
+{"id":"ar.c0166","meaning":"I don't have time","note":"\"Not have\" is لَيْسَ عِنْدِي, never لَا عِنْدِي."}
+{"id":"ar.c0167","meaning":"Do you have a pen? (to a man)","note":"To a woman: هَل عِنْدَكِ قَلَم؟"}
+{"id":"ar.c0168","meaning":"She has a cat","note":"He has: عِنْدَهُ. We have: عِنْدَنَا."}
+{"id":"ar.c0169","meaning":"Where's the key?","note":"The answer for a masculine thing is هُوَ: هُوَ هُنَا."}
+{"id":"ar.c0170","meaning":"big","note":"Feminine: كَبِيرَة."}
+{"id":"ar.c0171","meaning":"small (feminine)","note":"Masculine: صَغِير."}
+{"id":"ar.c0172","meaning":"very beautiful","note":"جِدًّا comes after the adjective."}
+{"id":"ar.c0173","meaning":"old (things)","note":"For people: كَبِير فِي السِّنّ."}
+{"id":"ar.c0174","meaning":"cheap","note":"Opposite: غَالِي, expensive."}
+{"id":"ar.c0175","meaning":"new","note":"Feminine: جَدِيدَة. Opposite: قَدِيم."}
+{"id":"ar.c0176","meaning":"long; tall","note":"Feminine: طَوِيلَة."}
+{"id":"ar.c0177","meaning":"short (feminine)","note":"Masculine: قَصِير."}
+{"id":"ar.c0178","meaning":"easy","note":"Feminine: سَهْلَة."}
+{"id":"ar.c0179","meaning":"difficult (feminine)","note":"Masculine: صَعْب."}
+{"id":"ar.c0180","meaning":"hot","note":"For the weather; also \"spicy\" for food. Feminine: حَارَّة."}
+{"id":"ar.c0181","meaning":"cold","note":"Feminine: بَارِدَة."}
+{"id":"ar.c0182","meaning":"The weather is nice.","note":"No \"is\": الْجَوّ (the weather) + the adjective, without the article."}
+{"id":"ar.c0183","meaning":"She's busy.","note":"He's busy: هُوَ مَشْغُول. No \"is\" in Arabic."}
+{"id":"ar.c0184","meaning":"a beautiful city","note":"Indefinite noun, indefinite adjective; both feminine."}
+{"id":"ar.c0185","meaning":"the beautiful city","note":"Both words take the article."}
+{"id":"ar.c0186","meaning":"Arabic isn't hard.","note":"لَيْسَت = \"isn't\" for a feminine subject."}
+{"id":"ar.c0187","meaning":"I work in an office","note":"مَكْتَب: root ك ت ب, \"place of writing\"."}
+{"id":"ar.c0188","meaning":"I drink coffee every day","note":"General statement: الْقَهْوَة with the article."}
+{"id":"ar.c0189","meaning":"I speak a little Arabic","note":"قَلِيلًا: -an with its extra ا."}
+{"id":"ar.c0190","meaning":"I get up early","note":"مُبَكِّرًا = early."}
+{"id":"ar.c0191","meaning":"you study (to a woman)","note":"To a man: تَدْرُس."}
+{"id":"ar.c0192","meaning":"I eat breakfast at home","note":"Past: أَكَلَ (he ate)."}
+{"id":"ar.c0193","meaning":"I go to work by car","note":"Past: ذَهَبَ. بِـ + the article = by."}
+{"id":"ar.c0194","meaning":"I go back home","note":"Past: رَجَعَ."}
+{"id":"ar.c0195","meaning":"I cook dinner","note":"Past: طَبَخَ. Same root as مَطْبَخ, kitchen."}
+{"id":"ar.c0196","meaning":"I read the newspaper","note":"Past: قَرَأَ."}
+{"id":"ar.c0197","meaning":"I go to sleep late","note":"Past: نَامَ. مُتَأَخِّرًا: -an with its extra ا."}
+{"id":"ar.c0198","meaning":"I write in Arabic","note":"Past: كَتَبَ. Root ك ت ب, writing."}
+{"id":"ar.c0199","meaning":"library; bookstore","note":"Root ك ت ب: a place of books. Feminine (ة)."}
+{"id":"ar.c0200","meaning":"writer (a man)","note":"Root ك ت ب; the pattern فَاعِل means \"the one who does it\". A woman: كَاتِبَة."}
+{"id":"ar.c0201","meaning":"She works in a hospital","note":"She takes the prefix تَـ: never هِيَ يَعْمَل."}
+{"id":"ar.c0202","meaning":"They study at the university","note":"They: يَـ at the start and -ūn at the end."}
+{"id":"ar.c0203","meaning":"Ahmad drinks tea","note":"Verb first is a normal statement, not a question."}
+{"id":"ar.c0204","meaning":"today","note":"Literally \"the day\"."}
+{"id":"ar.c0205","meaning":"tomorrow","note":"-an with its extra ا."}
+{"id":"ar.c0206","meaning":"yesterday","note":""}
+{"id":"ar.c0207","meaning":"Friday","note":"The weekend day in most Arab countries."}
+{"id":"ar.c0208","meaning":"I went to the market","note":"ذَهَبَ = he went; -tu = I."}
+{"id":"ar.c0209","meaning":"Saturday","note":""}
+{"id":"ar.c0210","meaning":"Sunday","note":"Literally \"day one\"."}
+{"id":"ar.c0211","meaning":"Monday","note":"Literally \"day two\"."}
+{"id":"ar.c0212","meaning":"always","note":"-an with its extra ا."}
+{"id":"ar.c0213","meaning":"sometimes","note":"Often at the start: أَحْيَانًا أَشْرَب الشَّاي."}
+{"id":"ar.c0214","meaning":"in the morning","note":"-an with its extra ا."}
+{"id":"ar.c0215","meaning":"in the evening","note":"The everyday way: \"in\" plus the article. In the morning: صَبَاحًا."}
+{"id":"ar.c0216","meaning":"last week","note":"Both words take the article."}
+{"id":"ar.c0217","meaning":"next month","note":"Both words take the article."}
+{"id":"ar.c0218","meaning":"What did you do yesterday? (to a man)","note":"To a woman: مَاذَا فَعَلْتِ أَمْس؟"}
+{"id":"ar.c0219","meaning":"She traveled to Amman","note":"Past ending -at for \"she\"; he traveled: سَافَرَ."}
+{"id":"ar.c0220","meaning":"We ate at a Lebanese restaurant","note":"Past ending -nā = we."}
+{"id":"ar.c0221","meaning":"Where's the restaurant?","note":"Question word first; the place takes the article."}
+{"id":"ar.c0222","meaning":"on the right","note":"Left: عَلَى الْيَسَار."}
+{"id":"ar.c0223","meaning":"near here","note":"Far: بَعِيد."}
+{"id":"ar.c0224","meaning":"excuse me (to a woman)","note":"To a man: لَوْ سَمَحْتَ. Also \"please\"."}
+{"id":"ar.c0225","meaning":"straight ahead","note":"The everyday spoken phrase, understood across the region."}
+{"id":"ar.c0226","meaning":"excuse me (to a man)","note":"To a woman: لَوْ سَمَحْتِ. Use it to stop someone and ask."}
+{"id":"ar.c0227","meaning":"on the left","note":"Right: عَلَى الْيَمِين."}
+{"id":"ar.c0228","meaning":"far from here","note":"For a feminine place: بَعِيدَة."}
+{"id":"ar.c0229","meaning":"over there","note":"Here: هُنَا."}
+{"id":"ar.c0230","meaning":"The bank is on the left.","note":"No \"is\". Formal Arabic also says مَصْرِف."}
+{"id":"ar.c0231","meaning":"Where's the pharmacy?","note":"ص is a sun letter: aṣ-ṣaydaliyya."}
+{"id":"ar.c0232","meaning":"How do I get to the museum?","note":"Literally \"how do I go to the museum?\""}
+{"id":"ar.c0233","meaning":"next to the hotel","note":""}
+{"id":"ar.c0234","meaning":"in front of the station","note":""}
+{"id":"ar.c0235","meaning":"downtown","note":"Iḍāfa, \"the middle of the city\": no article on وَسَط."}
+{"id":"ar.c0236","meaning":"I don't understand","note":"لَا goes before a present verb."}
+{"id":"ar.c0237","meaning":"Please speak slowly (to a man)","note":"To a woman: تَكَلَّمِي بِبُطْء مِن فَضْلِكِ."}
+{"id":"ar.c0238","meaning":"the train station","note":"Iḍāfa: ة said -at; no article on the first word."}
+{"id":"ar.c0239","meaning":"passport","note":"Iḍāfa: \"permit of travel\"."}
+{"id":"ar.c0240","meaning":"the airport","note":""}
+{"id":"ar.c0241","meaning":"hotel","note":""}
+{"id":"ar.c0242","meaning":"Do you speak English? (to a man)","note":"To a woman: هَل تَتَكَلَّمِين الْإِنْجِلِيزِيَّة؟"}
+{"id":"ar.c0243","meaning":"train ticket","note":"Iḍāfa: the ة of تَذْكِرَة is said -at."}
+{"id":"ar.c0244","meaning":"taxi","note":"Iḍāfa, \"car of hire\". People also say تَاكْسِي."}
+{"id":"ar.c0245","meaning":"the bus","note":"Feminine. People often say الْبَاص."}
+{"id":"ar.c0246","meaning":"the plane","note":"Feminine. ط is a sun letter: aṭ-ṭāʾira."}
+{"id":"ar.c0247","meaning":"suitcase; bag","note":"Feminine (ة)."}
+{"id":"ar.c0248","meaning":"I have a reservation","note":"At a hotel or a restaurant."}
+{"id":"ar.c0249","meaning":"the room key","note":"Iḍāfa: no article on مِفْتَاح."}
+{"id":"ar.c0250","meaning":"the reception desk","note":"Iḍāfa: \"desk of reception\"."}
+{"id":"ar.c0251","meaning":"How much is the ticket?","note":"بِكَم = for how much."}
+{"id":"ar.c0252","meaning":"Can you help me? (to a man)","note":"To a woman: هَل يُمْكِن أَن تُسَاعِدِينِي؟"}
+{"id":"ar.c0253","meaning":"I need a doctor","note":"طَبِيب = physician; دُكْتُور is heard too."}
+{"id":"ar.c0254","meaning":"Call the police! (to a man)","note":"To a woman: اِتَّصِلِي بِالشُّرْطَة."}
+{"id":"ar.c0255","meaning":"Have a good trip!","note":"Literally \"a happy trip\"."}
+{"id":"ar.c0256","meaning":"what (before a verb)","note":"Egypt: ēh · Levant: shū."}
+{"id":"ar.c0257","meaning":"I want","note":"Egypt: ʿāyiz (man), ʿāyza (woman) · Levant: biddī."}
+{"id":"ar.c0258","meaning":"good","note":"Egypt: kwayyis · Levant: mnīḥ."}
+{"id":"ar.c0259","meaning":"why","note":"Egypt: lēh · Levant: lēsh."}
+{"id":"ar.c0260","meaning":"yes","note":"Egypt: aywa · Levant: ē, naʿam too."}
+{"id":"ar.c0261","meaning":"what (before a noun)","note":"مَا اِسْمُكَ؟ = What's your name? (to a man). In speech you'll hear the same ēh / shū as for مَاذَا."}
+{"id":"ar.c0262","meaning":"who","note":"Egypt and the Levant: mīn."}
+{"id":"ar.c0263","meaning":"where","note":"Egypt: fēn · Levant: wēn."}
+{"id":"ar.c0264","meaning":"how","note":"Egypt: izzāy · Levant: kīf."}
+{"id":"ar.c0265","meaning":"when","note":"Egypt: imta · Levant: aymta."}
+{"id":"ar.c0266","meaning":"how many","note":"Egypt: kām · Levant: kam."}
+{"id":"ar.c0267","meaning":"how much (price)","note":"Egypt: bikām · Levant: addēsh."}
+{"id":"ar.c0268","meaning":"(starts a yes / no question)","note":"People often drop it in speech and just raise the voice."}
+{"id":"ar.c0269","meaning":"now","note":"Egypt: dilwaʾti · Levant: halla."}
+{"id":"ar.c0270","meaning":"there is","note":"Egypt and the Levant: fī (Egypt also fīh)."}
+{"id":"ar.c0271","meaning":"is not (before a noun or adjective)","note":"Egypt and the Levant: mish."}
+{"id":"ar.c0272","meaning":"here","note":"Egypt: hina · Levant: hōn."}
+{"id":"ar.c0273","meaning":"OK","note":"Egypt and the Levant: māshī."}
+{"id":"ar.c0274","meaning":"I'm fine","note":"The usual answer. أَنَا جَيِّد is a word-for-word copy of \"I'm good\"; people say بِخَيْر."}
+{"id":"ar.c0275","meaning":"you're welcome","note":"Also \"excuse me?\" when you didn't hear."}
+{"id":"ar.c0276","meaning":"hopefully (God willing)","note":"About any future plan; can be a polite \"maybe\"."}
+{"id":"ar.c0277","meaning":"I'm sorry (a woman speaking)","note":"A man says أَنَا آسِف."}
+{"id":"ar.c0278","meaning":"I don't know","note":"لَا before a present verb; لَيْسَ before nouns."}
+{"id":"ar.c0279","meaning":"how wonderful (admiring something)","note":"Said when you admire something: a baby, a new house, a success."}
+{"id":"ar.c0280","meaning":"here you are; go ahead (to a man)","note":"To a woman: تَفَضَّلِي. For offering, handing over, or inviting someone in."}
+{"id":"ar.c0281","meaning":"no, thank you","note":"A host may offer twice; say it again kindly if you mean it."}
+{"id":"ar.c0282","meaning":"doctor (physician or PhD)","note":"Also the title of anyone with a PhD. A physician is also طَبِيب."}
+{"id":"ar.c0283","meaning":"teacher; sir (polite title)","note":"Also a polite way to address a man, like \"sir\" or \"Mr.\"."}
+{"id":"ar.c0284","meaning":"I have a question","note":"No verb \"have\" here: عِنْدِي = \"with me\"."}
+{"id":"ar.c0285","meaning":"I like music","note":"General statements take the article: not أُحِبّ مُوسِيقَى."}
+{"id":"ar.c0286","meaning":"I don't speak French","note":"لَا before a present verb; languages take the article."}
+{"id":"ar.c0287","meaning":"He's not here.","note":"No verb here, so لَيْسَ, not لَا."}
+{"id":"ar.c0288","meaning":"The room isn't clean.","note":"لَيْسَت for a feminine subject."}
+{"id":"ar.c0289","meaning":"I'm at home","note":"No \"am\", and \"home\" takes the article: فِي الْبَيْت."}
+{"id":"ar.c0290","meaning":"I'm twenty (years old)","note":"Literally \"my age is twenty years\". Not أَنَا عِشْرُون."}
+{"id":"ar.c0291","meaning":"I mean (filler word)","note":"Literally \"it means\"; you'll hear it in almost every conversation."}
+{"id":"ar.c0292","meaning":"This is really delicious.","note":"Same for anyone. For a feminine dish: هٰذِهِ لَذِيذَة جِدًّا."}
+{"id":"ar.c0293","meaning":"Bless your hands! (to a woman)","note":"The thing to say to the cook, everywhere. To a man: سَلِمَت يَدَاكَ."}
+{"id":"ar.c0294","meaning":"Bless your hands! (to a man)","note":"For a man who cooked or made something. To a woman: سَلِمَت يَدَاكِ."}
+{"id":"ar.c0295","meaning":"Your cooking is wonderful. (to a woman)","note":"To a man: أَكْلُكَ رَائِع."}
+{"id":"ar.c0296","meaning":"May your table always be full.","note":"Said to the host after a meal. Same for anyone."}
+{"id":"ar.c0297","meaning":"Enjoy it, to your health!","note":"The cook's or host's reply to praise of the food."}
+{"id":"ar.c0298","meaning":"You have a lovely home.","note":"\"Your\" in the plural, for the family, so no man / woman form."}
+{"id":"ar.c0299","meaning":"Well done! (to a man)","note":"Heard everywhere, from classrooms to TV. To a woman: أَحْسَنْتِ."}
+{"id":"ar.c0300","meaning":"Well done! (to a woman)","note":"To a man: أَحْسَنْتَ."}
+{"id":"ar.c0301","meaning":"Excellent!","note":"Same for anyone."}
+{"id":"ar.c0302","meaning":"Great idea!","note":"Same for anyone."}
+{"id":"ar.c0303","meaning":"Great work!","note":"About a job well done. Same for anyone."}
+{"id":"ar.c0304","meaning":"You're really good at this. (to a man)","note":"To a woman: أَنْتِ مَاهِرَة جِدًّا فِي هٰذَا."}
+{"id":"ar.c0305","meaning":"You work so hard. (to a man)","note":"To a woman: أَنْتِ مُجْتَهِدَة جِدًّا."}
+{"id":"ar.c0306","meaning":"God give you strength. (to a man)","note":"To someone working or back from work: thanks and praise. To a woman: يُعْطِيكِ."}
+{"id":"ar.c0307","meaning":"And you too. (reply to \"God give you strength\", to a man)","note":"The fixed answer. To a woman: اللّٰه يُعَافِيكِ."}
+{"id":"ar.c0308","meaning":"You're so kind. (to a man)","note":"طَيِّب = good-hearted. To a woman: أَنْتِ طَيِّبَة جِدًّا."}
+{"id":"ar.c0309","meaning":"You're so funny. (to a man)","note":"Literally \"your blood is light\". To a woman: دَمُكِ خَفِيف."}
+{"id":"ar.c0310","meaning":"You're very smart. (to a woman)","note":"To a man: أَنْتَ ذَكِيّ جِدًّا."}
+{"id":"ar.c0311","meaning":"That color suits you. (to a woman)","note":"Friendly, not flirty. To a man: يَلِيق بِكَ."}
+{"id":"ar.c0312","meaning":"Looking fresh!","note":"After a haircut or a shower. Reply: أَنْعَمَ اللّٰه عَلَيْكَ (to a man)."}
+{"id":"ar.c0313","meaning":"Nice photo!","note":"Same for anyone."}
+{"id":"ar.c0314","meaning":"God bless him! (admiring a child)","note":"Always with praise of a child, against the evil eye. For a girl: عَلَيْهَا."}
+{"id":"ar.c0315","meaning":"God keep them safe.","note":"Said after praising someone's children."}
+{"id":"ar.c0316","meaning":"Your Arabic is excellent. (to a man)","note":"What you'll hear. To a woman: عَرَبِيَّتُكِ مُمْتَازَة."}
+{"id":"ar.c0317","meaning":"You speak Arabic well. (to a man)","note":"To a woman: تَتَكَلَّمِين الْعَرَبِيَّة جَيِّدًا."}
+{"id":"ar.c0318","meaning":"Where did you learn Arabic? (to a man)","note":"The question that always follows. To a woman: تَعَلَّمْتِ."}
+{"id":"ar.c0319","meaning":"Thanks, that's kind of you. (to a man)","note":"To a woman: مِنْكِ."}
+{"id":"ar.c0320","meaning":"I'm still learning.","note":"The expected modest answer. Same for anyone."}
+{"id":"ar.c0321","meaning":"You're just being nice. (to a man)","note":"A modest deflection, very normal. To a woman: أَنْتِ تُجَامِلِينَنِي."}
+{"id":"ar.c0322","meaning":"Thank you, God bless you. (to a man)","note":"The usual answer to مَا شَاءَ اللّٰه or to praise. To a woman: فِيكِ."}
+{"id":"ar.c0323","meaning":"beautiful","note":"Feminine: جَمِيلَة. Warm said to a woman; for a man people say وَسِيم."}
+{"id":"ar.c0324","meaning":"sweet; pretty","note":"Feminine: حُلْوَة. Mild, very common: a smile, a voice, a person."}
+{"id":"ar.c0325","meaning":"handsome","note":"For a man. Warm. For a woman: جَمِيلَة."}
+{"id":"ar.c0326","meaning":"elegant; sharp (dressed)","note":"Feminine: أَنِيقَة. Mild, safe for anyone's outfit."}
+{"id":"ar.c0327","meaning":"nice; sweet (kind)","note":"Feminine: لَطِيفَة. Mild."}
+{"id":"ar.c0328","meaning":"charming; witty","note":"Feminine: ظَرِيفَة. Mild: fun to be with."}
+{"id":"ar.c0329","meaning":"clever; smart","note":"Feminine: ذَكِيَّة. Mild."}
+{"id":"ar.c0330","meaning":"gentle; delicate","note":"Feminine: رَقِيقَة. Warm; said more of women."}
+{"id":"ar.c0331","meaning":"attractive","note":"Feminine: جَذَّابَة. Bold if said to the person."}
+{"id":"ar.c0332","meaning":"enchanting","note":"Feminine: سَاحِرَة. Bold and poetic; also means \"magician\"."}
+{"id":"ar.c0333","meaning":"special (one of a kind)","note":"Feminine: مُمَيَّزَة. Warm."}
+{"id":"ar.c0334","meaning":"well-mannered; of good character","note":"Feminine: خَلُوقَة. Mild, and one of the highest compliments."}
+{"id":"ar.c0335","meaning":"shy","note":"Feminine: خَجُولَة. Mild, often said fondly."}
+{"id":"ar.c0336","meaning":"smile","note":"Feminine. Plural اِبْتِسَامَات. Mild: the safest thing to praise."}
+{"id":"ar.c0337","meaning":"eyes","note":"Plural of عَيْن, treated as feminine: عُيُون جَمِيلَة. Warm."}
+{"id":"ar.c0338","meaning":"laugh (a laugh)","note":"Feminine. Mild."}
+{"id":"ar.c0339","meaning":"voice","note":"Masculine: صَوْت جَمِيل. Mild."}
+{"id":"ar.c0340","meaning":"hair","note":"Masculine. Warm; not شِعْر (poetry)."}
+{"id":"ar.c0341","meaning":"taste (style)","note":"Masculine. Praising someone's taste is mild and safe."}
+{"id":"ar.c0342","meaning":"spirit; soul","note":"Feminine: رُوح حُلْوَة = a sweet spirit. Warm."}
+{"id":"ar.c0343","meaning":"date; appointment","note":"Masculine. Plural مَوَاعِيد. The word for a date; asking for one is warm."}
+{"id":"ar.c0344","meaning":"You're beautiful. (to a woman)","note":"Warm. To a man people use وَسِيم: أَنْتَ وَسِيم."}
+{"id":"ar.c0345","meaning":"You look beautiful tonight. (to a woman)","note":"Warm, on a date. To a man: تَبْدُو أَنِيقًا اللَّيْلَة."}
+{"id":"ar.c0346","meaning":"How beautiful you are! (to a woman)","note":"Bold. To a man: مَا أَجْمَلَكَ. Often softened with مَا شَاءَ اللّٰه."}
+{"id":"ar.c0347","meaning":"You have a sweet spirit. (to a woman)","note":"Warm, very common. To a man: رُوحُكَ حُلْوَة."}
+{"id":"ar.c0348","meaning":"You have a lovely voice. (to a woman)","note":"Mild. To a man: صَوْتُكَ حُلْو."}
+{"id":"ar.c0349","meaning":"You say such sweet things. (to a man)","note":"Mild: a smiling answer to a compliment. To a woman: كَلَامُكِ حُلْو."}
+{"id":"ar.c0350","meaning":"You're handsome. (to a man)","note":"Warm. Said to a man you know well."}
+{"id":"ar.c0351","meaning":"You look sharp today. (to a man)","note":"Mild. To a woman: تَبْدِين أَنِيقَة الْيَوْم."}
+{"id":"ar.c0352","meaning":"You have great taste. (to a woman)","note":"Mild: clothes, a choice, a gift. To a man: ذَوْقُكَ رَائِع."}
+{"id":"ar.c0353","meaning":"You're really sweet. (to a man)","note":"Mild. To a woman: أَنْتِ لَطِيفَة جِدًّا."}
+{"id":"ar.c0354","meaning":"You make me laugh. (to a woman)","note":"Warm. To a man: أَنْتَ تُضْحِكُنِي."}
+{"id":"ar.c0355","meaning":"You have a lovely laugh. (to a woman)","note":"Mild to warm. To a man: ضِحْكَتُكَ جَمِيلَة."}
+{"id":"ar.c0356","meaning":"You're clever and beautiful. (to a woman)","note":"Warm. To a man: أَنْتَ ذَكِيّ وَوَسِيم."}
+{"id":"ar.c0357","meaning":"You're someone special. (to a woman)","note":"Warm. To a man: أَنْتَ إِنْسَان مُمَيَّز."}
+{"id":"ar.c0358","meaning":"You're a person of real character. (to a man)","note":"Mild, and valued highly. To a woman: أَنْتِ إِنْسَانَة خَلُوقَة."}
+{"id":"ar.c0359","meaning":"You have a lovely smile. (to a woman)","note":"Mild. To a man: اِبْتِسَامَتُكَ جَمِيلَة."}
+{"id":"ar.c0360","meaning":"You have a lovely smile. (to a man)","note":"Mild. To a woman: اِبْتِسَامَتُكِ جَمِيلَة."}
+{"id":"ar.c0361","meaning":"You have beautiful eyes. (to a woman)","note":"Warm. To a man: عُيُونُكَ جَمِيلَة."}
+{"id":"ar.c0362","meaning":"Your hair looks lovely. (to a woman)","note":"Warm; once you know each other. To a man: شَعْرُكَ جَمِيل."}
+{"id":"ar.c0363","meaning":"God bless you, you look wonderful. (to a woman)","note":"How admiration is usually said: warm but safe, it wards off envy. To a man: عَلَيْكَ."}
+{"id":"ar.c0364","meaning":"God bless you, you look wonderful. (to a man)","note":"To a woman: عَلَيْكِ. Reply: بَارَكَ اللّٰه فِيكِ (to a woman)."}
+{"id":"ar.c0365","meaning":"God bless (what I see)","note":"Said while admiring someone; common in the Gulf and Morocco. Mild."}
+{"id":"ar.c0366","meaning":"God keep you safe. (to a woman)","note":"Mild: fondness and thanks in one. To a man: اللّٰه يَحْفَظُكَ."}
+{"id":"ar.c0367","meaning":"I love talking with you. (to a woman)","note":"Mild and indirect: the usual first step. To a man: مَعَكَ."}
+{"id":"ar.c0368","meaning":"Time flies with you. (to a woman)","note":"Warm. To a man: مَعَكَ."}
+{"id":"ar.c0369","meaning":"I'd like to get to know you better. (to a woman)","note":"Warm and respectful. To a man: عَلَيْكَ."}
+{"id":"ar.c0370","meaning":"Would you have a coffee with me? (to a woman)","note":"Mild; a café is the usual first meeting. To a man: هَل تَشْرَب قَهْوَة مَعِي؟"}
+{"id":"ar.c0371","meaning":"Are you busy on Friday? (to a woman)","note":"Mild; Friday is the weekend. To a man: هَل أَنْتَ مَشْغُول."}
+{"id":"ar.c0372","meaning":"Can we meet again?","note":"Mild. Same for anyone."}
+{"id":"ar.c0373","meaning":"I like you. (to a woman)","note":"Literally \"you please me\". Bold. To a man: أَنْتَ تُعْجِبُنِي."}
+{"id":"ar.c0374","meaning":"I like you. (to a man)","note":"Bold. To a woman: أَنْتِ تُعْجِبِينَنِي."}
+{"id":"ar.c0375","meaning":"I missed you. (to a woman)","note":"Warm; also between friends and family. To a man: إِلَيْكَ."}
+{"id":"ar.c0376","meaning":"I think about you a lot. (to a woman)","note":"Bold. To a man: فِيكَ."}
+{"id":"ar.c0377","meaning":"My intentions are serious.","note":"Bold: in conservative families it means marriage, and the family gets involved next."}
+{"id":"ar.c0378","meaning":"With pleasure.","note":"A warm yes to an invitation. Same for anyone."}
+{"id":"ar.c0379","meaning":"Yes, I'd like that.","note":"A warm yes. Same for anyone."}
+{"id":"ar.c0380","meaning":"You say that to all the girls.","note":"Playful, a woman to a man. To a woman: تَقُولِين هٰذَا لِكُلّ الشَّبَاب."}
+{"id":"ar.c0381","meaning":"You too. (to a man)","note":"Returns a compliment. To a woman: وَأَنْتِ أَيْضًا."}
+{"id":"ar.c0382","meaning":"Maybe another time.","note":"A soft no, which can mean a real no. Same for anyone."}
+{"id":"ar.c0383","meaning":"I'd rather we stay friends.","note":"A kind, clear no. Same for anyone."}
+{"id":"ar.c0384","meaning":"Thanks, but I'm seeing someone. (a woman speaking)","note":"A clear no. A man: مُرْتَبِط."}
+{"id":"ar.c0385","meaning":"Sorry, I'm not interested. (a woman speaking)","note":"Polite and firm. A man: لَسْتُ مُهْتَمًّا."}
+{"id":"ar.c0386","meaning":"I'm married. (a woman speaking)","note":"The firmest polite no. A man: مُتَزَوِّج."}
+{"id":"ar.c0387","meaning":"Please stop. (to a man)","note":"Firm, for someone who won't take a no. To a woman: تَوَقَّفِي."}
+{"id":"ar.c0388","meaning":"thing","note":"Masculine. Plural أَشْيَاء. Also means \"something\": هَل تُرِيد شَيْئًا؟"}
+{"id":"ar.c0389","meaning":"matter; affair","note":"Masculine. Plural أُمُور. Also \"an order\" (plural أَوَامِر)."}
+{"id":"ar.c0390","meaning":"time (in general)","note":"Masculine. Plural أَوْقَات. لَيْسَ عِنْدِي وَقْت = I don't have time."}
+{"id":"ar.c0391","meaning":"person","note":"Masculine, for a man or a woman. Plural أَشْخَاص."}
+{"id":"ar.c0392","meaning":"time (one occasion)","note":"Feminine. Plural مَرَّات. مَرَّة وَاحِدَة = once."}
+{"id":"ar.c0393","meaning":"people","note":"Plural in meaning, no singular form. Usually with the article: النَّاس."}
+{"id":"ar.c0394","meaning":"place","note":"Masculine. Plural أَمَاكِن."}
+{"id":"ar.c0395","meaning":"work; job","note":"Masculine. Plural أَعْمَال. إِلَى الْعَمَل = to work."}
+{"id":"ar.c0396","meaning":"night (one night)","note":"Feminine. Plural لَيَالِي. اللَّيْلَة = tonight."}
+{"id":"ar.c0397","meaning":"world","note":"Masculine. Not عِلْم (science) or عَلَم (flag)."}
+{"id":"ar.c0398","meaning":"idea","note":"Feminine. Plural أَفْكَار."}
+{"id":"ar.c0399","meaning":"mother","note":"Feminine without ة. My mother: أُمِّي. Plural أُمَّهَات."}
+{"id":"ar.c0400","meaning":"road; way","note":"Masculine (sometimes feminine). Plural طُرُق."}
+{"id":"ar.c0401","meaning":"problem","note":"Feminine. Plural مَشَاكِل. لَا مُشْكِلَة = no problem."}
+{"id":"ar.c0402","meaning":"reason","note":"Masculine. Plural أَسْبَاب."}
+{"id":"ar.c0403","meaning":"door","note":"Masculine. Plural أَبْوَاب."}
+{"id":"ar.c0404","meaning":"car","note":"Feminine. Plural سَيَّارَات."}
+{"id":"ar.c0405","meaning":"city","note":"Feminine. Plural مُدُن. My city: مَدِينَتِي."}
+{"id":"ar.c0406","meaning":"ground; earth; land","note":"Feminine without ة. Plural أَرَاضِي."}
+{"id":"ar.c0407","meaning":"minute","note":"Feminine. Plural دَقَائِق."}
+{"id":"ar.c0408","meaning":"holiday; feast","note":"Masculine. Plural أَعْيَاد. عِيد مِيلَاد = birthday."}
+{"id":"ar.c0409","meaning":"hour; clock; watch","note":"Feminine. Plural سَاعَات. كَم السَّاعَة؟ = What time is it?"}
+{"id":"ar.c0410","meaning":"number","note":"Masculine. Plural أَرْقَام. رَقْم الْهَاتِف = phone number."}
+{"id":"ar.c0411","meaning":"morning","note":"Masculine. صَبَاح الْخَيْر = good morning."}
+{"id":"ar.c0412","meaning":"school","note":"Feminine. Plural مَدَارِس."}
+{"id":"ar.c0413","meaning":"year","note":"Feminine. Plural سَنَوَات. عُمْرِي عِشْرُون سَنَة."}
+{"id":"ar.c0414","meaning":"love","note":"Masculine. The verb: أُحِبّ (I love, I like)."}
+{"id":"ar.c0415","meaning":"child","note":"Masculine; a girl: طِفْلَة. Plural أَطْفَال."}
+{"id":"ar.c0416","meaning":"food","note":"Masculine. People also say أَكْل."}
+{"id":"ar.c0417","meaning":"half","note":"Masculine. نِصْف سَاعَة = half an hour."}
+{"id":"ar.c0418","meaning":"water","note":"Masculine. Usually no plural."}
+{"id":"ar.c0419","meaning":"right; truth","note":"Masculine. مَعَكَ حَقّ = you're right (to a man)."}
+{"id":"ar.c0420","meaning":"friend","note":"Masculine; a woman friend: صَدِيقَة. Plural أَصْدِقَاء."}
+{"id":"ar.c0421","meaning":"weather; atmosphere","note":"Masculine. الْجَوّ جَمِيل = the weather is nice."}
+{"id":"ar.c0422","meaning":"word","note":"Feminine. Plural كَلِمَات."}
+{"id":"ar.c0423","meaning":"week","note":"Masculine. Plural أَسَابِيع."}
+{"id":"ar.c0424","meaning":"family","note":"Feminine. Plural عَائِلَات. My family: عَائِلَتِي."}
+{"id":"ar.c0425","meaning":"physician","note":"Masculine; a woman: طَبِيبَة. Plural أَطِبَّاء."}
+{"id":"ar.c0426","meaning":"message; letter","note":"Feminine. Plural رَسَائِل."}
+{"id":"ar.c0427","meaning":"subject; topic","note":"Masculine. Plural مَوَاضِيع."}
+{"id":"ar.c0428","meaning":"name","note":"Masculine. Plural أَسْمَاء. My name: اِسْمِي."}
+{"id":"ar.c0429","meaning":"story","note":"Feminine. Plural قِصَص."}
+{"id":"ar.c0430","meaning":"picture; photo","note":"Feminine. Plural صُوَر."}
+{"id":"ar.c0431","meaning":"son","note":"Masculine. Plural أَبْنَاء. A daughter: اِبْنَة or بِنْت."}
+{"id":"ar.c0432","meaning":"luck","note":"Masculine. حَظّ سَعِيد = good luck."}
+{"id":"ar.c0433","meaning":"sky","note":"Feminine."}
+{"id":"ar.c0434","meaning":"side","note":"Masculine. بِجَانِب = next to."}
+{"id":"ar.c0435","meaning":"hospital","note":"Masculine, though it ends in ى. Plural مُسْتَشْفَيَات."}
+{"id":"ar.c0436","meaning":"street","note":"Masculine. Plural شَوَارِع."}
+{"id":"ar.c0437","meaning":"book","note":"Masculine. Plural كُتُب."}
+{"id":"ar.c0438","meaning":"face","note":"Masculine. Plural وُجُوه."}
+{"id":"ar.c0439","meaning":"month","note":"Masculine. Plural أَشْهُر."}
+{"id":"ar.c0440","meaning":"evening","note":"Masculine. فِي الْمَسَاء = in the evening."}
+{"id":"ar.c0441","meaning":"coffee","note":"Feminine. Coffee in general takes the article: أُحِبّ الْقَهْوَة."}
+{"id":"ar.c0442","meaning":"sea","note":"Masculine. Plural بِحَار."}
+{"id":"ar.c0443","meaning":"boy","note":"Masculine. Plural أَوْلَاد, also \"children\"."}
+{"id":"ar.c0444","meaning":"gift","note":"Feminine. Plural هَدَايَا."}
+{"id":"ar.c0445","meaning":"father","note":"Masculine. My father: أَبِي. Plural آبَاء."}
+{"id":"ar.c0446","meaning":"head","note":"Masculine. Plural رُؤُوس."}
+{"id":"ar.c0447","meaning":"train","note":"Masculine. Plural قِطَارَات."}
+{"id":"ar.c0448","meaning":"hand","note":"Feminine without ة. Plural أَيْدِي."}
+{"id":"ar.c0449","meaning":"tea","note":"Masculine. Tea in general takes the article: أُحِبّ الشَّاي."}
+{"id":"ar.c0450","meaning":"university","note":"Feminine. Plural جَامِعَات."}
+{"id":"ar.c0451","meaning":"restaurant","note":"Masculine. Plural مَطَاعِم."}
+{"id":"ar.c0452","meaning":"color","note":"Masculine. Plural أَلْوَان."}
+{"id":"ar.c0453","meaning":"market","note":"Masculine or feminine. Plural أَسْوَاق."}
+{"id":"ar.c0454","meaning":"piece of news","note":"Masculine. Plural أَخْبَار: مَا الْأَخْبَار؟ = what's new?"}
+{"id":"ar.c0455","meaning":"country","note":"Masculine. Plural بِلَاد or بُلْدَان."}
+{"id":"ar.c0456","meaning":"body","note":"Masculine. Plural أَجْسَام."}
+{"id":"ar.c0457","meaning":"brother","note":"Masculine. Plural إِخْوَة. My brother: أَخِي."}
+{"id":"ar.c0458","meaning":"language","note":"Feminine. Plural لُغَات. Languages take the article: الْعَرَبِيَّة."}
+{"id":"ar.c0459","meaning":"student","note":"Masculine; a woman: طَالِبَة. Plural طُلَّاب."}
+{"id":"ar.c0460","meaning":"sister","note":"Feminine without ة. Plural أَخَوَات."}
+{"id":"ar.c0461","meaning":"lesson","note":"Masculine. Plural دُرُوس."}
+{"id":"ar.c0462","meaning":"health","note":"Feminine. صِحَّتِي = my health."}
+{"id":"ar.c0463","meaning":"family; folks","note":"Masculine. أَهْلِي = my parents, my folks."}
+{"id":"ar.c0464","meaning":"guest","note":"Masculine; a woman: ضَيْفَة. Plural ضُيُوف."}
+{"id":"ar.c0465","meaning":"neighbor","note":"Masculine; a woman: جَارَة. Plural جِيرَان."}
+{"id":"ar.c0466","meaning":"to be (was)","note":"Present: أَكُون (I am), يَكُون. The middle changes: كُنْتُ = I was. \"Is\" has no verb."}
+{"id":"ar.c0467","meaning":"to know","note":"Present: أَعْرِف (I know), يَعْرِف. لَا أَعْرِف = I don't know."}
+{"id":"ar.c0468","meaning":"to want","note":"Present: أُرِيد (I want), يُرِيد. The middle changes in some forms."}
+{"id":"ar.c0469","meaning":"to be able to","note":"Present: أَسْتَطِيع (I can), يَسْتَطِيع. Also يُمْكِن = it's possible."}
+{"id":"ar.c0470","meaning":"to happen","note":"Present: يَحْدُث (it happens). مَاذَا حَدَثَ؟ = what happened?"}
+{"id":"ar.c0471","meaning":"to do","note":"Present: أَفْعَل (I do), يَفْعَل. مَاذَا فَعَلْتَ؟ = what did you do?"}
+{"id":"ar.c0472","meaning":"to say","note":"Present: أَقُول (I say), يَقُول. The middle changes: قُلْتُ = I said."}
+{"id":"ar.c0473","meaning":"to think (believe)","note":"Present: أَظُنّ (I think), يَظُنّ. أَظُنّ ذٰلِكَ = I think so."}
+{"id":"ar.c0474","meaning":"to work; to do","note":"Present: أَعْمَل (I work), يَعْمَل."}
+{"id":"ar.c0475","meaning":"to begin","note":"Present: أَبْدَأ (I begin), يَبْدَأ."}
+{"id":"ar.c0476","meaning":"to look","note":"Present: أَنْظُر (I look), يَنْظُر. With إِلَى: at."}
+{"id":"ar.c0477","meaning":"to feel","note":"Present: أَشْعُر (I feel), يَشْعُر. With بِـ: أَشْعُر بِالْبَرْد."}
+{"id":"ar.c0478","meaning":"to see","note":"Present: أَرَى (I see), يَرَى. Irregular: the hamza drops in the present."}
+{"id":"ar.c0479","meaning":"to go","note":"Present: أَذْهَب (I go), يَذْهَب. With إِلَى: ذَهَبَ إِلَى السُّوق."}
+{"id":"ar.c0480","meaning":"to love; to like","note":"Present: أُحِبّ (I love), يُحِبّ. Things in general take the article."}
+{"id":"ar.c0481","meaning":"to wait","note":"Present: أَنْتَظِر (I wait), يَنْتَظِر."}
+{"id":"ar.c0482","meaning":"to need","note":"Present: أَحْتَاج (I need), يَحْتَاج. With إِلَى."}
+{"id":"ar.c0483","meaning":"to get up; to stand up","note":"Present: أَقُوم (I get up), يَقُوم. The middle changes in some forms."}
+{"id":"ar.c0484","meaning":"to try","note":"Present: أُحَاوِل (I try), يُحَاوِل."}
+{"id":"ar.c0485","meaning":"to wish; to hope","note":"Present: أَتَمَنَّى (I wish), يَتَمَنَّى."}
+{"id":"ar.c0486","meaning":"to understand","note":"Present: أَفْهَم (I understand), يَفْهَم. لَا أَفْهَم = I don't understand."}
+{"id":"ar.c0487","meaning":"to learn","note":"Present: أَتَعَلَّم (I learn), يَتَعَلَّم."}
+{"id":"ar.c0488","meaning":"to think (about)","note":"Present: أُفَكِّر (I think), يُفَكِّر. With فِي."}
+{"id":"ar.c0489","meaning":"to hear","note":"Present: أَسْمَع (I hear), يَسْمَع."}
+{"id":"ar.c0490","meaning":"to become","note":"Present: أُصْبِح (I become), يُصْبِح."}
+{"id":"ar.c0491","meaning":"to put","note":"Present: أَضَع (I put), يَضَع. The و drops in the present."}
+{"id":"ar.c0492","meaning":"to take","note":"Present: آخُذ (I take), يَأْخُذ."}
+{"id":"ar.c0493","meaning":"to remember","note":"Present: أَتَذَكَّر (I remember), يَتَذَكَّر."}
+{"id":"ar.c0494","meaning":"to believe (someone)","note":"Present: أُصَدِّق (I believe), يُصَدِّق. لَا أُصَدِّق! = I can't believe it!"}
+{"id":"ar.c0495","meaning":"to bring","note":"Present: أُحْضِر (I bring), يُحْضِر."}
+{"id":"ar.c0496","meaning":"to go out","note":"Present: أَخْرُج (I go out), يَخْرُج."}
+{"id":"ar.c0497","meaning":"to come","note":"Present: أَجِيء (I come); يَأْتِي is just as common. Irregular."}
+{"id":"ar.c0498","meaning":"to leave (something)","note":"Present: أَتْرُك (I leave), يَتْرُك."}
+{"id":"ar.c0499","meaning":"to call (on the phone)","note":"Present: أَتَّصِل (I call), يَتَّصِل. With بِـ: اِتَّصَلَ بِي."}
+{"id":"ar.c0500","meaning":"to look for","note":"Present: أَبْحَث (I look for), يَبْحَث. With عَن."}
+{"id":"ar.c0501","meaning":"to hate","note":"Present: أَكْرَه (I hate), يَكْرَه."}
+{"id":"ar.c0502","meaning":"to find","note":"Present: أَجِد (I find), يَجِد. The و drops in the present."}
+{"id":"ar.c0503","meaning":"to live (be alive)","note":"Present: أَعِيش (I live), يَعِيش. The middle changes in some forms."}
+{"id":"ar.c0504","meaning":"to arrive","note":"Present: أَصِل (I arrive), يَصِل. The و drops in the present."}
+{"id":"ar.c0505","meaning":"to pay","note":"Present: أَدْفَع (I pay), يَدْفَع."}
+{"id":"ar.c0506","meaning":"to stay","note":"Present: أَبْقَى (I stay), يَبْقَى."}
+{"id":"ar.c0507","meaning":"to send","note":"Present: أُرْسِل (I send), يُرْسِل."}
+{"id":"ar.c0508","meaning":"to sit","note":"Present: أَجْلِس (I sit), يَجْلِس."}
+{"id":"ar.c0509","meaning":"to enter","note":"Present: أَدْخُل (I enter), يَدْخُل."}
+{"id":"ar.c0510","meaning":"to open","note":"Present: أَفْتَح (I open), يَفْتَح."}
+{"id":"ar.c0511","meaning":"to eat","note":"Present: آكُل (I eat), يَأْكُل."}
+{"id":"ar.c0512","meaning":"to write","note":"Present: أَكْتُب (I write), يَكْتُب. Root ك ت ب."}
+{"id":"ar.c0513","meaning":"to close","note":"Present: أُغْلِق (I close), يُغْلِق."}
+{"id":"ar.c0514","meaning":"to play","note":"Present: أَلْعَب (I play), يَلْعَب."}
+{"id":"ar.c0515","meaning":"to allow","note":"Present: أَسْمَح (I allow), يَسْمَح. لَوْ سَمَحْتَ = if you allow."}
+{"id":"ar.c0516","meaning":"to speak","note":"Present: أَتَكَلَّم (I speak), يَتَكَلَّم."}
+{"id":"ar.c0517","meaning":"to help","note":"Present: أُسَاعِد (I help), يُسَاعِد."}
+{"id":"ar.c0518","meaning":"to ask","note":"Present: أَسْأَل (I ask), يَسْأَل."}
+{"id":"ar.c0519","meaning":"to forget","note":"Present: أَنْسَى (I forget), يَنْسَى."}
+{"id":"ar.c0520","meaning":"to stop; to stand","note":"Present: أَقِف (I stop), يَقِف. The و drops in the present."}
+{"id":"ar.c0521","meaning":"to meet","note":"Present: أُقَابِل (I meet), يُقَابِل."}
+{"id":"ar.c0522","meaning":"to wake up","note":"Present: أَسْتَيْقِظ (I wake up), يَسْتَيْقِظ."}
+{"id":"ar.c0523","meaning":"to drink","note":"Present: أَشْرَب (I drink), يَشْرَب."}
+{"id":"ar.c0524","meaning":"to sleep","note":"Present: أَنَام (I sleep), يَنَام. The middle changes in some forms."}
+{"id":"ar.c0525","meaning":"to laugh","note":"Present: أَضْحَك (I laugh), يَضْحَك."}
+{"id":"ar.c0526","meaning":"to change","note":"Present: أُغَيِّر (I change), يُغَيِّر."}
+{"id":"ar.c0527","meaning":"to read","note":"Present: أَقْرَأ (I read), يَقْرَأ."}
+{"id":"ar.c0528","meaning":"to give","note":"Present: أُعْطِي (I give), يُعْطِي."}
+{"id":"ar.c0529","meaning":"to thank","note":"Present: أَشْكُر (I thank), يَشْكُر."}
+{"id":"ar.c0530","meaning":"to go back","note":"Present: أَرْجِع (I go back), يَرْجِع."}
+{"id":"ar.c0531","meaning":"to go down; to get off","note":"Present: أَنْزِل (I go down), يَنْزِل."}
+{"id":"ar.c0532","meaning":"to buy","note":"Present: أَشْتَرِي (I buy), يَشْتَرِي."}
+{"id":"ar.c0533","meaning":"to be afraid","note":"Present: أَخَاف (I'm afraid), يَخَاف. With مِن: of."}
+{"id":"ar.c0534","meaning":"to choose","note":"Present: أَخْتَار (I choose), يَخْتَار."}
+{"id":"ar.c0535","meaning":"to sell","note":"Present: أَبِيع (I sell), يَبِيع. The middle changes in some forms."}
+{"id":"ar.c0536","meaning":"to cry","note":"Present: أَبْكِي (I cry), يَبْكِي."}
+{"id":"ar.c0537","meaning":"to walk","note":"Present: أَمْشِي (I walk), يَمْشِي."}
+{"id":"ar.c0538","meaning":"to answer","note":"Present: أُجِيب (I answer), يُجِيب."}
+{"id":"ar.c0539","meaning":"to ride; to get on","note":"Present: أَرْكَب (I ride), يَرْكَب."}
+{"id":"ar.c0540","meaning":"to use","note":"Present: أَسْتَعْمِل (I use), يَسْتَعْمِل."}
+{"id":"ar.c0541","meaning":"to live (somewhere)","note":"Present: أَسْكُن (I live), يَسْكُن. With فِي."}
+{"id":"ar.c0542","meaning":"to wear; to put on","note":"Present: أَلْبَس (I wear), يَلْبَس."}
+{"id":"ar.c0543","meaning":"to travel","note":"Present: أُسَافِر (I travel), يُسَافِر."}
+{"id":"ar.c0544","meaning":"to cook","note":"Present: أَطْبُخ (I cook), يَطْبُخ. Same root as مَطْبَخ."}
+{"id":"ar.c0545","meaning":"to visit","note":"Present: أَزُور (I visit), يَزُور. The middle changes in some forms."}
+{"id":"ar.c0546","meaning":"correct; true","note":"Feminine: صَحِيحَة. صَحِيح؟ = really?"}
+{"id":"ar.c0547","meaning":"last","note":"آخِر مَرَّة = the last time. Not آخَر (other)."}
+{"id":"ar.c0548","meaning":"other; another","note":"Feminine: أُخْرَى. مَرَّة أُخْرَى = another time."}
+{"id":"ar.c0549","meaning":"a lot of; many","note":"Feminine: كَثِيرَة. Adverb \"a lot\": كَثِيرًا."}
+{"id":"ar.c0550","meaning":"wonderful; great","note":"Feminine: رَائِعَة."}
+{"id":"ar.c0551","meaning":"alone; only (the only one)","note":"Feminine: وَحِيدَة."}
+{"id":"ar.c0552","meaning":"special; private","note":"Feminine: خَاصَّة."}
+{"id":"ar.c0553","meaning":"happy","note":"Feminine: سَعِيدَة."}
+{"id":"ar.c0554","meaning":"great; tremendous","note":"Feminine: عَظِيمَة."}
+{"id":"ar.c0555","meaning":"first","note":"Feminine: أُولَى. أَوَّل مَرَّة = the first time."}
+{"id":"ar.c0556","meaning":"possible","note":"Feminine: مُمْكِنَة. مُمْكِن؟ = may I? / is it possible?"}
+{"id":"ar.c0557","meaning":"clear","note":"Feminine: وَاضِحَة."}
+{"id":"ar.c0558","meaning":"impossible","note":"Feminine: مُسْتَحِيلَة."}
+{"id":"ar.c0559","meaning":"few; a little","note":"Feminine: قَلِيلَة. Adverb: قَلِيلًا."}
+{"id":"ar.c0560","meaning":"important","note":"Feminine: مُهِمَّة."}
+{"id":"ar.c0561","meaning":"complete; whole","note":"Feminine: كَامِلَة."}
+{"id":"ar.c0562","meaning":"different","note":"Feminine: مُخْتَلِفَة."}
+{"id":"ar.c0563","meaning":"ready","note":"Feminine: جَاهِزَة."}
+{"id":"ar.c0564","meaning":"far","note":"Feminine: بَعِيدَة."}
+{"id":"ar.c0565","meaning":"near; close","note":"Feminine: قَرِيبَة. Also \"a relative\"."}
+{"id":"ar.c0566","meaning":"sick","note":"Feminine: مَرِيضَة. Also \"a patient\"."}
+{"id":"ar.c0567","meaning":"young; a young man","note":"A young woman: شَابَّة. Plural شَبَاب."}
+{"id":"ar.c0568","meaning":"late","note":"Feminine: مُتَأَخِّرَة. Adverb: مُتَأَخِّرًا."}
+{"id":"ar.c0569","meaning":"strong","note":"Feminine: قَوِيَّة."}
+{"id":"ar.c0570","meaning":"wrong","note":"Feminine: خَاطِئَة."}
+{"id":"ar.c0571","meaning":"white","note":"Feminine: بَيْضَاء. Colors change shape, not just add ة."}
+{"id":"ar.c0572","meaning":"bad","note":"Feminine: سَيِّئَة."}
+{"id":"ar.c0573","meaning":"busy","note":"Feminine: مَشْغُولَة."}
+{"id":"ar.c0574","meaning":"black","note":"Feminine: سَوْدَاء."}
+{"id":"ar.c0575","meaning":"red","note":"Feminine: حَمْرَاء."}
+{"id":"ar.c0576","meaning":"fast","note":"Feminine: سَرِيعَة."}
+{"id":"ar.c0577","meaning":"fun; enjoyable","note":"Feminine: مُمْتِعَة."}
+{"id":"ar.c0578","meaning":"normal; ordinary","note":"Feminine: عَادِيَّة."}
+{"id":"ar.c0579","meaning":"hungry","note":"Feminine: جَائِعَة."}
+{"id":"ar.c0580","meaning":"weak","note":"Feminine: ضَعِيفَة."}
+{"id":"ar.c0581","meaning":"blue","note":"Feminine: زَرْقَاء."}
+{"id":"ar.c0582","meaning":"empty","note":"Feminine: فَارِغَة."}
+{"id":"ar.c0583","meaning":"green","note":"Feminine: خَضْرَاء."}
+{"id":"ar.c0584","meaning":"quiet; calm","note":"Feminine: هَادِئَة."}
+{"id":"ar.c0585","meaning":"tired","note":"Feminine: مُتْعَبَة."}
+{"id":"ar.c0586","meaning":"sad","note":"Feminine: حَزِينَة."}
+{"id":"ar.c0587","meaning":"clean","note":"Feminine: نَظِيفَة."}
+{"id":"ar.c0588","meaning":"free (not controlled)","note":"Feminine: حُرَّة. Free of charge: مَجَّانِيّ."}
+{"id":"ar.c0589","meaning":"comfortable","note":"Feminine: مُرِيحَة."}
+{"id":"ar.c0590","meaning":"useful","note":"Feminine: مُفِيدَة."}
+{"id":"ar.c0591","meaning":"rich","note":"Feminine: غَنِيَّة."}
+{"id":"ar.c0592","meaning":"heavy","note":"Feminine: ثَقِيلَة."}
+{"id":"ar.c0593","meaning":"light (not heavy)","note":"Feminine: خَفِيفَة."}
+{"id":"ar.c0594","meaning":"yellow","note":"Feminine: صَفْرَاء."}
+{"id":"ar.c0595","meaning":"poor","note":"Feminine: فَقِيرَة."}
+{"id":"ar.c0596","meaning":"slow","note":"Feminine: بَطِيئَة."}
+{"id":"ar.c0597","meaning":"expensive","note":"Feminine: غَالِيَة. Opposite: رَخِيص."}
+{"id":"ar.c0598","meaning":"foreign; foreigner","note":"Feminine: أَجْنَبِيَّة."}
+{"id":"ar.c0599","meaning":"thirsty","note":"Feminine: عَطْشَى."}
+{"id":"ar.c0600","meaning":"hard-working","note":"Feminine: مُجْتَهِدَة."}
+{"id":"ar.c0601","meaning":"Arab; Arabic","note":"Feminine: عَرَبِيَّة. The language: الْعَرَبِيَّة."}
+{"id":"ar.c0602","meaning":"dirty","note":"Feminine: وَسِخَة."}
+{"id":"ar.c0603","meaning":"only; just","note":"Goes after the word it limits: كُوب وَاحِد فَقَط."}
+{"id":"ar.c0604","meaning":"likewise; as well","note":"More formal than أَيْضًا."}
+{"id":"ar.c0605","meaning":"maybe","note":"At the start: رُبَّمَا غَدًا."}
+{"id":"ar.c0606","meaning":"very","note":"After the adjective: كَبِير جِدًّا. Never changes."}
+{"id":"ar.c0607","meaning":"more","note":"After the verb or adjective: أَكْثَر مِن = more than."}
+{"id":"ar.c0608","meaning":"really; truly","note":"حَقًّا؟ = really?"}
+{"id":"ar.c0609","meaning":"also; too","note":"Usually at the end: وَأَنَا أَيْضًا = me too."}
+{"id":"ar.c0610","meaning":"again","note":"Literally \"another time\"."}
+{"id":"ar.c0611","meaning":"like this; this way","note":"Often with a gesture."}
+{"id":"ar.c0612","meaning":"never; not at all","note":"With a \"not\" word: لَا أَشْرَب الْقَهْوَة أَبَدًا."}
+{"id":"ar.c0613","meaning":"completely; exactly","note":"People also say تَمَام alone for \"OK, great\"."}
+{"id":"ar.c0614","meaning":"a little","note":"After the verb: أَتَكَلَّم قَلِيلًا."}
+{"id":"ar.c0615","meaning":"a lot; much","note":"After the verb: أُحِبّ الْقَهْوَة كَثِيرًا."}
+{"id":"ar.c0616","meaning":"quickly","note":"Literally \"with speed\". Opposite: بِبُطْء."}
+{"id":"ar.c0617","meaning":"well","note":"The adjective is جَيِّد (good). أَفْهَم جَيِّدًا."}
+{"id":"ar.c0618","meaning":"less","note":"أَقَلّ مِن = less than."}
+{"id":"ar.c0619","meaning":"together","note":"نَذْهَب مَعًا = we go together."}
+{"id":"ar.c0620","meaning":"later","note":"أَرَاكَ لَاحِقًا = see you later (to a man)."}
+{"id":"ar.c0621","meaning":"actually; indeed","note":"Also as agreement: فِعْلًا! = exactly!"}
+{"id":"ar.c0622","meaning":"far away","note":"The adjective is بَعِيد."}
+{"id":"ar.c0623","meaning":"soon","note":"إِلَى اللِّقَاء قَرِيبًا = see you soon."}
+{"id":"ar.c0624","meaning":"almost; about","note":"With numbers: تَقْرِيبًا عِشْرُون = about twenty."}
+{"id":"ar.c0625","meaning":"finally; at last","note":"Also an exclamation: أَخِيرًا!"}
+{"id":"ar.c0626","meaning":"of course","note":"At the start or alone. Very common in speech."}
+{"id":"ar.c0627","meaning":"unfortunately","note":"At the start: لِلْأَسَف، لَا أَسْتَطِيع."}
+{"id":"ar.c0628","meaning":"right away","note":"Stronger than قَرِيبًا."}
+{"id":"ar.c0629","meaning":"early","note":"Opposite: مُتَأَخِّرًا (late)."}
+{"id":"ar.c0630","meaning":"slowly","note":"تَكَلَّم بِبُطْء = speak slowly (to a man)."}
+{"id":"ar.c0631","meaning":"usually; most likely","note":"At the start or the end."}
+{"id":"ar.c0632","meaning":"at night","note":"Also فِي اللَّيْل."}
+{"id":"ar.c0633","meaning":"for example","note":"Often written مَثَلًا after a pause."}
+{"id":"ar.c0634","meaning":"daily","note":"Same as كُلّ يَوْم."}
+{"id":"ar.c0635","meaning":"late (adverb)","note":"The adjective is مُتَأَخِّر."}
+{"id":"ar.c0636","meaning":"I","note":"The word after it agrees with the speaker: أَنَا طَالِب / أَنَا طَالِبَة."}
+{"id":"ar.c0637","meaning":"that (masculine)","note":"Feminine: تِلْكَ."}
+{"id":"ar.c0638","meaning":"you (to a man)","note":"To a woman: أَنْتِ. Only the last vowel changes."}
+{"id":"ar.c0639","meaning":"you (to a woman)","note":"To a man: أَنْتَ."}
+{"id":"ar.c0640","meaning":"he; it (masculine thing)","note":"There is no separate \"it\": a masculine thing is هُوَ."}
+{"id":"ar.c0641","meaning":"this (feminine)","note":"Masculine: هٰذَا. Also for a plural of things."}
+{"id":"ar.c0642","meaning":"every; all","note":"كُلّ يَوْم = every day; كُلّ النَّاس = everybody."}
+{"id":"ar.c0643","meaning":"we","note":"Verbs: نَـ in the present, -nā in the past."}
+{"id":"ar.c0644","meaning":"which; any","note":"Before a noun: أَيّ كِتَاب؟ = which book?"}
+{"id":"ar.c0645","meaning":"she; it (feminine thing)","note":"Also \"they\" for a plural of things."}
+{"id":"ar.c0646","meaning":"my (possessive ending): my house","note":"Possessive ending ـي. On a verb, \"me\" is ـنِي: يَفْهَمُنِي."}
+{"id":"ar.c0647","meaning":"your (possessive ending): your house (to a man)","note":"To a woman: بَيْتُكِ. Same ending on a verb: يَعْرِفُكَ."}
+{"id":"ar.c0648","meaning":"your (possessive ending): your house (to a woman)","note":"To a man: بَيْتُكَ."}
+{"id":"ar.c0649","meaning":"his (possessive ending): his house","note":"Also \"its\" for a masculine thing. On a verb: \"him\"."}
+{"id":"ar.c0650","meaning":"her (possessive ending): her house","note":"Also \"its\" for a feminine thing. On a verb: \"her\"."}
+{"id":"ar.c0651","meaning":"our (possessive ending): our house","note":"On a verb, \"us\" is ـنَا too."}
+{"id":"ar.c0652","meaning":"your (possessive ending): your house (to a group)","note":"Polite to a family: بَيْتُكُم جَمِيل."}
+{"id":"ar.c0653","meaning":"their (possessive ending): their house","note":"Women only: بَيْتُهُنَّ."}
+{"id":"ar.c0654","meaning":"that (feminine)","note":"Masculine: ذٰلِكَ."}
+{"id":"ar.c0655","meaning":"some","note":"بَعْض النَّاس = some people."}
+{"id":"ar.c0656","meaning":"someone; anyone","note":"لَا أَحَد = nobody. Also \"one\" in counting (أَحَد عَشَر)."}
+{"id":"ar.c0657","meaning":"nothing","note":"لَا أُرِيد شَيْئًا is the everyday way to say it in a sentence."}
+{"id":"ar.c0658","meaning":"nobody","note":"لَا أَحَد هُنَا = there's nobody here."}
+{"id":"ar.c0659","meaning":"they (people)","note":"For women only: هُنَّ. Plurals of things are هِيَ."}
+{"id":"ar.c0660","meaning":"these (people)","note":"For things in the plural, use هٰذِهِ."}
+{"id":"ar.c0661","meaning":"self; same","note":"نَفْسِي = myself; نَفْس الشَّيْء = the same thing."}
+{"id":"ar.c0662","meaning":"you (to a group)","note":"A group of women alone: أَنْتُنَّ (rare)."}
+{"id":"ar.c0663","meaning":"they two; you two","note":"The dual pronoun: for exactly two. Recognition only."}
+{"id":"ar.c0664","meaning":"they (women only)","note":"Recognize it; هُم covers mixed groups."}
+{"id":"ar.c0665","meaning":"from; of","note":"مِن أَيْنَ أَنْتَ؟ Also \"than\": أَكْبَر مِن."}
+{"id":"ar.c0666","meaning":"in; at","note":"فِي الْبَيْت = at home. Also \"about\" with فَكَّرَ."}
+{"id":"ar.c0667","meaning":"with; by; in","note":"Joined to the next word: بِالسَّيَّارَة = by car."}
+{"id":"ar.c0668","meaning":"for; to (someone)","note":"Joined to the next word: لِلْبَيْت. Also \"to have\": لِي."}
+{"id":"ar.c0669","meaning":"to (a place)","note":"Ends in ى, said ā: إِلَى السُّوق."}
+{"id":"ar.c0670","meaning":"about; from (away)","note":"سَأَلَ عَن = asked about; بَعِيد عَن = far from."}
+{"id":"ar.c0671","meaning":"with (someone)","note":"مَعَ صَدِيقِي = with my friend."}
+{"id":"ar.c0672","meaning":"for you (to a man)","note":"لِ + ـكَ. To a woman: لَكِ."}
+{"id":"ar.c0673","meaning":"for you (to a woman)","note":"لِ + ـكِ. To a man: لَكَ."}
+{"id":"ar.c0674","meaning":"for me; mine (لِ + ـي)","note":"هٰذَا لِي = this is mine."}
+{"id":"ar.c0675","meaning":"until; up to","note":"حَتَّى الْغَد = until tomorrow. Also \"even\"."}
+{"id":"ar.c0676","meaning":"after","note":"بَعْد الْعَمَل = after work."}
+{"id":"ar.c0677","meaning":"before","note":"قَبْل الْعَشَاء = before dinner."}
+{"id":"ar.c0678","meaning":"like (similar to)","note":"مِثْل أُمِّي = like my mother."}
+{"id":"ar.c0679","meaning":"since; for (time)","note":"مُنْذُ سَنَة = for a year (until now)."}
+{"id":"ar.c0680","meaning":"for him; his","note":"لِ + ـهُ."}
+{"id":"ar.c0681","meaning":"like; as","note":"Joined to the next word: كَالْعَادَة = as usual."}
+{"id":"ar.c0682","meaning":"with you (to a man)","note":"To a woman: مَعَكِ. مَعَكَ حَقّ = you're right."}
+{"id":"ar.c0683","meaning":"with you (to a woman)","note":"To a man: مَعَكَ."}
+{"id":"ar.c0684","meaning":"for her; hers","note":"لِ + ـهَا."}
+{"id":"ar.c0685","meaning":"with me","note":"مَعَ + ـي: تَعَالَ مَعِي = come with me (to a man)."}
+{"id":"ar.c0686","meaning":"around; about","note":"حَوْل الْعَالَم = around the world."}
+{"id":"ar.c0687","meaning":"during","note":"خِلَال الْأُسْبُوع = during the week."}
+{"id":"ar.c0688","meaning":"between","note":"بَيْن الْبَنْك وَالْفُنْدُق."}
+{"id":"ar.c0689","meaning":"from me","note":"مِن + ـي, with a doubled n."}
+{"id":"ar.c0690","meaning":"without","note":"بِدُون سُكَّر = without sugar."}
+{"id":"ar.c0691","meaning":"at (someone's place); have","note":"Learn it with an ending: عِنْدِي = I have. The have lesson writes عِنْدَ."}
+{"id":"ar.c0692","meaning":"under","note":"تَحْت الطَّاوِلَة."}
+{"id":"ar.c0693","meaning":"outside","note":"خَارِج الْبَيْت; فِي الْخَارِج = abroad."}
+{"id":"ar.c0694","meaning":"on me; I have to","note":"عَلَيَّ أَن أَذْهَب = I have to go."}
+{"id":"ar.c0695","meaning":"above; on top of","note":"فَوْق الطَّاوِلَة."}
+{"id":"ar.c0696","meaning":"inside","note":"دَاخِل الْبَيْت."}
+{"id":"ar.c0697","meaning":"against","note":"ضِدّ = against, also in sports."}
+{"id":"ar.c0698","meaning":"in front of","note":"أَمَام الْمَحَطَّة."}
+{"id":"ar.c0699","meaning":"toward","note":"Also \"about\" with numbers."}
+{"id":"ar.c0700","meaning":"I have","note":"Literally \"at me\". Negative: لَيْسَ عِنْدِي."}
+{"id":"ar.c0701","meaning":"behind","note":"Also وَرَاء: خَلْف الْبَيْت."}
+{"id":"ar.c0702","meaning":"she has","note":"He has: عِنْدَهُ."}
+{"id":"ar.c0703","meaning":"you have (to a man)","note":"To a woman: عِنْدَكِ."}
+{"id":"ar.c0704","meaning":"you have (to a woman)","note":"To a man: عِنْدَكَ."}
+{"id":"ar.c0705","meaning":"we have","note":"Negative: لَيْسَ عِنْدَنَا."}
+{"id":"ar.c0706","meaning":"he has","note":"She has: عِنْدَهَا."}
+{"id":"ar.c0707","meaning":"that (before a noun or ending)","note":"أَظُنّ أَنَّ الْجَوّ جَمِيل."}
+{"id":"ar.c0708","meaning":"to; that (before a verb)","note":"أُرِيد أَن أَذْهَب = I want to go."}
+{"id":"ar.c0709","meaning":"and","note":"Joined to the next word: أَنَا وَأَنْتَ."}
+{"id":"ar.c0710","meaning":"but","note":"Often وَلٰكِن. With an ending: لٰكِنِّي = but I."}
+{"id":"ar.c0711","meaning":"if (likely)","note":"إِذَا جَاءَ أَحْمَد = if Ahmad comes."}
+{"id":"ar.c0712","meaning":"when (not a question)","note":"The question \"when?\" is مَتَى."}
+{"id":"ar.c0713","meaning":"or","note":"In a question that offers a choice, also أَم."}
+{"id":"ar.c0714","meaning":"if (unlikely or unreal)","note":"Also in لَوْ سَمَحْتَ (if you allow)."}
+{"id":"ar.c0715","meaning":"as; just as","note":"كَمَا تُرِيد = as you like (to a man)."}
+{"id":"ar.c0716","meaning":"so; and then","note":"Joined to the next word: فَذَهَبْتُ = so I went."}
+{"id":"ar.c0717","meaning":"then; after that","note":"For a step that comes later."}
+{"id":"ar.c0718","meaning":"so; then (in that case)","note":"At the start: إِذَن نَذْهَب."}
+{"id":"ar.c0719","meaning":"therefore; that's why","note":"At the start of the second idea."}
+{"id":"ar.c0720","meaning":"because","note":"With an ending: لِأَنِّي = because I."}
+{"id":"ar.c0721","meaning":"or (in a question)","note":"قَهْوَة أَم شَاي؟"}
+{"id":"ar.c0722","meaning":"but rather","note":"After a \"not\": لَيْسَ هُنَا بَل هُنَاكَ."}
+{"id":"ar.c0723","meaning":"if (formal)","note":"As in إِن شَاءَ اللّٰه, if God wills."}
+{"id":"ar.c0724","meaning":"before (doing)","note":"With a present verb: قَبْل أَن أَنَام."}
+{"id":"ar.c0725","meaning":"while","note":"بَيْنَمَا أَطْبُخ = while I cook."}
+{"id":"ar.c0726","meaning":"after (doing)","note":"Usually with a past verb: بَعْد أَن أَكَلْنَا."}
+{"id":"ar.c0727","meaning":"when; at the time","note":"More formal than عِنْدَمَا."}
+{"id":"ar.c0728","meaning":"so that; in order to","note":"Often لِكَيْ, with a present verb."}
+{"id":"ar.c0729","meaning":"although","note":"Literally \"with that\"."}
+{"id":"ar.c0730","meaning":"since; given that","note":"At the start of the sentence."}
+{"id":"ar.c0731","meaning":"either","note":"إِمَّا ... أَوْ = either ... or."}
+{"id":"ar.c0732","meaning":"come on; let's go","note":"Same for anyone. People also say yalla."}
+{"id":"ar.c0733","meaning":"oh my God","note":"Shock or surprise, good or bad. Very common in films."}
+{"id":"ar.c0734","meaning":"wait; easy","note":"Slow down, not so fast."}
+{"id":"ar.c0735","meaning":"oh; ah","note":"Pain, sudden understanding, or a sigh."}
+{"id":"ar.c0736","meaning":"ugh","note":"Annoyance or boredom. Not polite to an elder."}
+{"id":"ar.c0737","meaning":"help (emergency)","note":"Shouted in an emergency."}
+{"id":"ar.c0738","meaning":"please, God; oh Lord","note":"Hoping hard for something."}
+{"id":"ar.c0739","meaning":"enough","note":"Firm. كَفَى! = that's enough!"}
+{"id":"ar.c0740","meaning":"watch out (to a man)","note":"To a woman: اِنْتَبِهِي."}
+{"id":"ar.c0741","meaning":"wow; how wonderful","note":"Literally \"O peace\". Delight or (with a tone) sarcasm."}
+{"id":"ar.c0742","meaning":"no way? really?","note":"Literally \"reasonable?\". Disbelief."}
+{"id":"ar.c0743","meaning":"amazing (glory be to God)","note":"For something striking or surprising, good or sad."}
+{"id":"ar.c0744","meaning":"ouch","note":"For sudden pain."}
+{"id":"ar.c0745","meaning":"what a shame; poor thing","note":"Sympathy for someone's bad luck."}
+{"id":"ar.c0746","meaning":"amen","note":"After a wish or prayer: اللّٰه يَحْفَظُكَ — آمِين."}
+{"id":"ar.c0747","meaning":"congratulations","note":"Reply: اللّٰه يُبَارِك فِيكَ (to a man). Formal: مُبَارَك."}
+{"id":"ar.c0748","meaning":"how strange","note":"Surprise, a bit literary."}
+{"id":"ar.c0749","meaning":"hello (on the phone)","note":"Only for answering the phone."}
+{"id":"ar.c0750","meaning":"good luck","note":"Before an exam, an interview, a trip."}
+{"id":"ar.c0751","meaning":"really; I swear","note":"As a question, وَاللّٰه؟ = really? Very common."}
+{"id":"ar.c0752","meaning":"no; not","note":"Before a present verb: لَا أَعْرِف. Before a noun use لَيْسَ."}
+{"id":"ar.c0753","meaning":"O (calling someone)","note":"Before a name: يَا أَحْمَد! Never left out in Arabic."}
+{"id":"ar.c0754","meaning":"(stresses a past verb)","note":"لَقَد فَهِمْتُ = I've understood."}
+{"id":"ar.c0755","meaning":"did not","note":"With a present verb: لَم أَذْهَب = I didn't go."}
+{"id":"ar.c0756","meaning":"yes (certainly)","note":"Same as نَعَم, a little more emphatic."}
+{"id":"ar.c0757","meaning":"will not","note":"With a present verb: لَن أَذْهَب."}
+{"id":"ar.c0758","meaning":"will (future)","note":"Before a present verb: سَوْفَ أَذْهَب. Short form: سَـ joined to the verb."}
+{"id":"ar.c0759","meaning":"already; may (with a verb)","note":"With a past verb: already (قَد وَصَلَ). With a present verb: may."}
+{"id":"ar.c0760","meaning":"indeed; truly (starts a sentence)","note":"Mostly formal: إِنَّ الْجَوّ جَمِيل."}
+{"id":"ar.c0761","meaning":"other than; non-","note":"غَيْر مُمْكِن = not possible."}
+{"id":"ar.c0762","meaning":"except; to (telling time)","note":"Telling time: إِلَّا رُبْعًا = a quarter to."}
+{"id":"ar.c0763","meaning":"three","note":"Digit ٣. Before a feminine noun: ثَلَاث."}
+{"id":"ar.c0764","meaning":"yes (to a negative question)","note":"أَلَسْتَ جَائِعًا؟ — بَلَى. Like French si."}
+{"id":"ar.c0765","meaning":"that is; i.e.","note":"Not أَيّ (which)."}
+{"id":"ar.c0766","meaning":"four","note":"Digit ٤. Before a feminine noun: أَرْبَع."}
+{"id":"ar.c0767","meaning":"second","note":"Feminine: ثَانِيَة. With the article: الثَّانِي."}
+{"id":"ar.c0768","meaning":"six","note":"Digit ٦. Before a feminine noun: سِتّ."}
+{"id":"ar.c0769","meaning":"third","note":"Feminine: ثَالِثَة."}
+{"id":"ar.c0770","meaning":"seven","note":"Digit ٧. Before a feminine noun: سَبْع."}
+{"id":"ar.c0771","meaning":"eight","note":"Digit ٨. Before a feminine noun: ثَمَانِي."}
+{"id":"ar.c0772","meaning":"fourth","note":"Feminine: رَابِعَة."}
+{"id":"ar.c0773","meaning":"nine","note":"Digit ٩. Before a feminine noun: تِسْع."}
+{"id":"ar.c0774","meaning":"fifth","note":"Feminine: خَامِسَة. Ordinals 3-10 follow the pattern فَاعِل."}
+{"id":"ar.c0775","meaning":"a quarter","note":"Telling time: وَرُبْع = and a quarter."}
+{"id":"ar.c0776","meaning":"at noon","note":"With -an: صَبَاحًا, ظُهْرًا."}
+{"id":"ar.c0777","meaning":"twelve","note":"Like eleven, it has its own first word."}
+{"id":"ar.c0778","meaning":"thirteen","note":"\"Three-ten\": the unit, then عَشَر."}
+{"id":"ar.c0779","meaning":"fourteen","note":"The unit, then عَشَر."}
+{"id":"ar.c0780","meaning":"fifteen","note":"The unit, then عَشَر."}
+{"id":"ar.c0781","meaning":"sixteen","note":"The unit, then عَشَر."}
+{"id":"ar.c0782","meaning":"seventeen","note":"The unit, then عَشَر."}
+{"id":"ar.c0783","meaning":"eighteen","note":"The unit, then عَشَر."}
+{"id":"ar.c0784","meaning":"nineteen","note":"The unit, then عَشَر. Twenty: عِشْرُون."}
+{"id":"ar.c0785","meaning":"Tuesday","note":"\"Day three\". The week starts on Sunday."}
+{"id":"ar.c0786","meaning":"Wednesday","note":"\"Day four\"."}
+{"id":"ar.c0787","meaning":"Thursday","note":"\"Day five\". The start of the weekend in many places."}
+{"id":"ar.c0788","meaning":"the day after tomorrow","note":"Literally \"after tomorrow\"."}
+{"id":"ar.c0789","meaning":"the day before yesterday","note":"Literally \"the first of yesterday\"."}

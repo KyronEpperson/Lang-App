@@ -1,0 +1,553 @@
+{"id":"nan.c0001","meaning":"full (after eating)","note":"p has no puff of air, like the p in \"spin\". With a puff it would be ph."}
+{"id":"nan.c0002","meaning":"skin","note":"ph is p with a puff of air, like the p in \"pin\". It is never an f sound."}
+{"id":"nan.c0003","meaning":"tea","note":"t has no puff, like the t in \"stop\". Tone 5: a rise."}
+{"id":"nan.c0004","meaning":"sky","note":"th is t with a puff of air. The nn after the vowel is not a letter n: it makes the vowel nasal."}
+{"id":"nan.c0005","meaning":"song","note":"k has no puff, like the k in \"skin\". ua sounds like \"wa\"."}
+{"id":"nan.c0006","meaning":"look; see; watch","note":"kh is k with a puff of air, like the k in \"kin\". Never the ch of Scottish \"loch\"."}
+{"id":"nan.c0007","meaning":"early","note":"ts has no puff, like the ts in \"cats\". With a puff it is tsh, as in 七."}
+{"id":"nan.c0008","meaning":"meat","note":"b is a voiced b. The h at the end is a glottal stop, a catch in the throat: stop the vowel short."}
+{"id":"nan.c0009","meaning":"cow; ox","note":"g is a real g, as in \"go\". Tone 5: a rise from low to middle."}
+{"id":"nan.c0010","meaning":"hot (weather)","note":"j is a voiced sound. Bite-size Taiwanese writes it [dʑ] in phonetic notation."}
+{"id":"nan.c0011","meaning":"tiger","note":"oo sounds like the \"aw\" in \"law\" ([ɔ]). 好 (good) has the other o, a different vowel ([ə] in Bite-size Taiwanese's notation)."}
+{"id":"nan.c0012","meaning":"salty","note":"Ends in m: close your lips at the end."}
+{"id":"nan.c0013","meaning":"slow","note":"Ends in n: the tongue touches behind the teeth."}
+{"id":"nan.c0014","meaning":"cold","note":"ing is a single ending, close to the ing of \"sing\"."}
+{"id":"nan.c0015","meaning":"ten","note":"Final p is not released: close your lips and stop, with no puff."}
+{"id":"nan.c0016","meaning":"seven","note":"tsh is ts with a puff of air. Final t is not released: the tongue stops the sound silently."}
+{"id":"nan.c0017","meaning":"six","note":"Final k is not released: the back of the tongue stops the sound."}
+{"id":"nan.c0018","meaning":"sour","note":"ng here is a whole syllable with no vowel: hum it through the nose."}
+{"id":"nan.c0019","meaning":"lion, tiger, leopard, turtle, monkey, dog, elephant, deer","note":"The tone mnemonic: tones 1, 2, 3, 4, 5, 2 (dog), 7, 8. There is no tone 6 in the general accent."}
+{"id":"nan.c0020","meaning":"lion","note":"Tone 1, no mark: high and level."}
+{"id":"nan.c0021","meaning":"dog","note":"Tone 2, acute mark (á): a high fall, not an English question rise. 九 (nine) sounds the same."}
+{"id":"nan.c0022","meaning":"leopard","note":"Tone 3, grave mark (à): low and falling."}
+{"id":"nan.c0023","meaning":"soft-shelled turtle","note":"Tone 4, no mark, and the word ends in -h: short and cut off, lower than tone 8."}
+{"id":"nan.c0024","meaning":"monkey","note":"Tone 5, circumflex (â): rising."}
+{"id":"nan.c0025","meaning":"elephant","note":"Tone 7, macron (ū): middle and level, lower than tone 1."}
+{"id":"nan.c0026","meaning":"deer","note":"Tone 8, a short vertical line above the vowel (o̍): short and high, ending in -p -t -k or -h."}
+{"id":"nan.c0027","meaning":"shirt; clothes","note":"Tone 1 again: high and level, like 獅. No mark means tone 1 on an open syllable."}
+{"id":"nan.c0028","meaning":"water","note":"Tone 2: start high and fall, as in 狗."}
+{"id":"nan.c0029","meaning":"be (joins two nouns)","note":"Tone 7: middle and level, as in 象."}
+{"id":"nan.c0030","meaning":"person; people","note":"Tone 5: rise from low to middle, as in 猴."}
+{"id":"nan.c0031","meaning":"rice (cooked); meal","note":"Tone 7: the macron sits on the n of the syllable ng. Middle and level."}
+{"id":"nan.c0032","meaning":"learn","note":"Tone 8: short and high, cut off by the -h."}
+{"id":"nan.c0033","meaning":"four","note":"Tone 3: low and falling, as in 豹."}
+{"id":"nan.c0034","meaning":"money","note":"Tone 5: a rise. The circumflex goes on the i; nn makes it nasal."}
+{"id":"nan.c0035","meaning":"alcohol; liquor","note":"Tone 2: the acute mark goes on the u."}
+{"id":"nan.c0036","meaning":"train","note":"hué has tone 2, but before tshia it is said in tone 1 (2 → 1). The Tâi-lô still shows tone 2."}
+{"id":"nan.c0037","meaning":"park","note":"kong is tone 1 and is said in tone 7 here (1 → 7): middle and level."}
+{"id":"nan.c0038","meaning":"menu","note":"tshài is tone 3 and is said in tone 2 here (3 → 2)."}
+{"id":"nan.c0039","meaning":"beef","note":"gû is tone 5. In the general accent it is said in tone 7 here (5 → 7); some northern speakers say tone 3."}
+{"id":"nan.c0040","meaning":"adult","note":"tuā is tone 7 and is said in tone 3 here (7 → 3). The last syllable, lâng, keeps its tone."}
+{"id":"nan.c0041","meaning":"happy; glad","note":"huann is tone 1 and is said in tone 7 here (1 → 7). hí, the last syllable, keeps tone 2."}
+{"id":"nan.c0042","meaning":"kilogram","note":"Like 公園: kong (tone 1) is said in tone 7 before kin."}
+{"id":"nan.c0043","meaning":"good-looking; nice to watch","note":"hó is tone 2 and is said in tone 1 here (2 → 1)."}
+{"id":"nan.c0044","meaning":"breakfast","note":"tsá is tone 2 and is said in tone 1 here (2 → 1)."}
+{"id":"nan.c0045","meaning":"telephone; phone number","note":"tiān is tone 7 and is said in tone 3 here (7 → 3). uē, the last syllable, keeps tone 7."}
+{"id":"nan.c0046","meaning":"sing (a song)","note":"tshiùnn is tone 3 and is said in tone 2 here (3 → 2)."}
+{"id":"nan.c0047","meaning":"milk","note":"gû is tone 5 and is said in tone 7 here (5 → 7), as in 牛肉."}
+{"id":"nan.c0048","meaning":"friend","note":"pîng is tone 5 and is said in tone 7 here (5 → 7)."}
+{"id":"nan.c0049","meaning":"Taiwan","note":"Tâi is tone 5 and is said in tone 7 here (5 → 7). uân, the last syllable, keeps tone 5."}
+{"id":"nan.c0050","meaning":"movie","note":"tiān is tone 7 and is said in tone 3 here (7 → 3)."}
+{"id":"nan.c0051","meaning":"exercise; sports","note":"ūn is tone 7 and is said in tone 3 here (7 → 3); tōng keeps tone 7."}
+{"id":"nan.c0052","meaning":"old person","note":"lāu is tone 7 and is said in tone 3 here (7 → 3)."}
+{"id":"nan.c0053","meaning":"at home; in the house","note":"Neutral tone after --: lí is said light and short, and tshù keeps its own tone 3 (no sandhi before --)."}
+{"id":"nan.c0054","meaning":"not (won't, isn't)","note":"The negative of 是 and of willing: 毋是 (isn't). The m is a whole syllable, tone 7."}
+{"id":"nan.c0055","meaning":"at; in","note":"Where something is or happens: 伊佇厝裡 (she's at home). Mandarin writes 在 instead."}
+{"id":"nan.c0056","meaning":"want to; be about to","note":"欲 + verb: 我欲去 (I'm going to go). Write 欲 here, not 要."}
+{"id":"nan.c0057","meaning":"give; let","note":"Also marks who something is done to or for."}
+{"id":"nan.c0058","meaning":"beautiful; pretty","note":"An MOE recommended character for a native Taigi word. No 是 before it: 伊真媠."}
+{"id":"nan.c0059","meaning":"child; son","note":"Your own child: 我有兩个囝 (I have two children)."}
+{"id":"nan.c0060","meaning":"house; home","note":"厝裡 = at home. The MOE recommended character for the Taigi word."}
+{"id":"nan.c0061","meaning":"sleep","note":"伊這馬佇厝裡咧睏 (he's sleeping at home now)."}
+{"id":"nan.c0062","meaning":"drink","note":"For any drink: 啉茶, 啉水. Mandarin 喝 is not used."}
+{"id":"nan.c0063","meaning":"here","note":"遐 is \"there\". Mandarin 這裡 is not Taigi."}
+{"id":"nan.c0064","meaning":"there","note":"The pair of 遮 (here)."}
+{"id":"nan.c0065","meaning":"(general classifier)","note":"Number + 个 + noun: 一个人. Keyboards often offer 個: the course accepts it."}
+{"id":"nan.c0066","meaning":"book","note":"The Taigi word for book. 讀冊 = study."}
+{"id":"nan.c0067","meaning":"eat","note":"Mandarin 吃 is never Taigi. 食飽 = full, done eating."}
+{"id":"nan.c0068","meaning":"live (somewhere); stay","note":"我蹛佇臺北 (I live in Taipei)."}
+{"id":"nan.c0069","meaning":"put; place","note":"酒囥下跤格 (put the alcohol on the bottom shelf)."}
+{"id":"nan.c0070","meaning":"and; with","note":"我佮你 (you and me). 你欲佮阮去無？ (do you want to come with us?)"}
+{"id":"nan.c0071","meaning":"Good morning!","note":"The MOE dictionary's greeting: 阿伯𠢕早 (Good morning, uncle). 𠢕 is a rare character; check that it shows on your phone."}
+{"id":"nan.c0072","meaning":"Good morning, sir.","note":"阿伯 is a polite word for an older man (literally father's older brother). Put the person first."}
+{"id":"nan.c0073","meaning":"Have you eaten? (a friendly hello)","note":"A greeting, not an invitation. Answer 食飽矣 (I have) or just smile and ask back."}
+{"id":"nan.c0074","meaning":"I've eaten.","note":"The usual answer to 你食飽未？ 矣 says the change has happened."}
+{"id":"nan.c0075","meaning":"Thank you!","note":"你 here has the neutral tone (--lí): say it light and short."}
+{"id":"nan.c0076","meaning":"Thanks.","note":"The MOE lists it as a near-synonym of 多謝, with 感謝 kám-siā."}
+{"id":"nan.c0077","meaning":"Sorry. / Excuse me.","note":"The MOE glosses it 不好意思、對不起、抱歉: excuse me, sorry. It also means shy, embarrassed."}
+{"id":"nan.c0078","meaning":"I apologize.","note":"The MOE gives 抱歉 (apologize) as a synonym, with the example below."}
+{"id":"nan.c0079","meaning":"I'm so sorry, this is all my fault.","note":"毋著 = wrong, a fault. A full apology."}
+{"id":"nan.c0080","meaning":"It doesn't matter. / No problem.","note":"A reply to 歹勢 in this course's dialogue. An MOE adverb (無要緊)."}
+{"id":"nan.c0081","meaning":"You're welcome.","note":"免 = no need: literally \"no need to be polite\"."}
+{"id":"nan.c0082","meaning":"Goodbye!","note":"Literally \"meet again\"."}
+{"id":"nan.c0083","meaning":"See you!","note":"Also used for goodbye; the MOE lists it with 再會."}
+{"id":"nan.c0084","meaning":"Go to bed early.","note":"早 = early, 睏 = sleep. The MOE meaning is \"go to bed early\" (早睡)."}
+{"id":"nan.c0085","meaning":"Congratulations!","note":"For good news, a wedding or a new baby."}
+{"id":"nan.c0086","meaning":"I; me","note":"Tone 2: a high fall. There is no separate word for \"me\"."}
+{"id":"nan.c0087","meaning":"you","note":"The only \"you\": there is no polite form. You all: 恁."}
+{"id":"nan.c0088","meaning":"he; she","note":"One word for both. Mandarin 他 / 她 is not Taigi."}
+{"id":"nan.c0089","meaning":"we (not you)","note":"We, but not the person you are talking to. Also \"our\": 阮阿兄."}
+{"id":"nan.c0090","meaning":"we (you included)","note":"You and me together. 阮 is \"we, but not you\"."}
+{"id":"nan.c0091","meaning":"you (more than one)","note":"Also \"your\" for family: 恁小弟 (your little brother)."}
+{"id":"nan.c0092","meaning":"They're at the park.","note":"𪜶 = they (also \"their\"). Not 伊, which is one person."}
+{"id":"nan.c0093","meaning":"dad","note":"a- is a friendly prefix on family words: 阿母, 阿公, 阿媽, 阿兄."}
+{"id":"nan.c0094","meaning":"mom","note":"Not 媽媽: that is Mandarin."}
+{"id":"nan.c0095","meaning":"grandpa","note":"Your mother's father can also be 外公."}
+{"id":"nan.c0096","meaning":"grandma","note":"Your mother's mother can also be 外媽."}
+{"id":"nan.c0097","meaning":"older brother","note":"The oldest brother is also 大兄."}
+{"id":"nan.c0098","meaning":"older sister","note":""}
+{"id":"nan.c0099","meaning":"younger brother","note":"恁小弟咧？ = And your little brother?"}
+{"id":"nan.c0100","meaning":"son","note":"囝 is child (also son)."}
+{"id":"nan.c0101","meaning":"husband and wife; a married couple","note":"翁 is husband and 某 is wife."}
+{"id":"nan.c0102","meaning":"aunt (mother's sister); ma'am","note":"Also a polite word for an older woman, at a stall or next door."}
+{"id":"nan.c0103","meaning":"uncle (father's older brother); sir","note":"Also a polite word for an older man: 阿伯𠢕早."}
+{"id":"nan.c0104","meaning":"What's your name?","note":"The question word stays where the answer goes: 我號做…"}
+{"id":"nan.c0105","meaning":"What's your surname? (polite)","note":"Answer 我姓林 (my surname is Lîm)."}
+{"id":"nan.c0106","meaning":"My surname is Lîm.","note":"Surnames are read in their own way: 林 Lîm, 陳 Tân, 王 Ông."}
+{"id":"nan.c0107","meaning":"I'm a student.","note":"是 joins two nouns. With adjectives there is no 是."}
+{"id":"nan.c0108","meaning":"I'm a high school student.","note":"中學生 covers middle and high school students."}
+{"id":"nan.c0109","meaning":"I'm not a teacher.","note":"The negative of 是 is 毋是, never 無是."}
+{"id":"nan.c0110","meaning":"I study at a university.","note":"Place with 佇 goes before the verb: 佇大學 + 讀冊."}
+{"id":"nan.c0111","meaning":"I live in Taipei.","note":"蹛 (live) + 佇 (at) + place."}
+{"id":"nan.c0112","meaning":"Where do you live?","note":"佗位 (where) stays where the answer goes: 我蹛佇臺北."}
+{"id":"nan.c0113","meaning":"I'm American.","note":"Country + 人 = a person from there. One word in Tâi-lô: Bí-kok-lâng."}
+{"id":"nan.c0114","meaning":"I'm Taiwanese.","note":"臺 is often typed 台: both are accepted."}
+{"id":"nan.c0115","meaning":"I'm eighteen.","note":"No 是 before an age: number + 歲."}
+{"id":"nan.c0116","meaning":"How old are you?","note":"幾 = how many: it stands where the number will go."}
+{"id":"nan.c0117","meaning":"I'm learning Taigi.","note":"咧 before a verb: something going on these days."}
+{"id":"nan.c0118","meaning":"I love going out and having fun.","note":"愛 = love, like to. 𨑨迌 = play, have fun."}
+{"id":"nan.c0119","meaning":"She's my friend.","note":"我的 = my. 伊 is he or she."}
+{"id":"nan.c0120","meaning":"Please say it again.","note":"閣 = again; 一擺 = one time. 請 is for invitations and polite requests."}
+{"id":"nan.c0121","meaning":"Speak slowly, please.","note":"慢慢仔 = slowly."}
+{"id":"nan.c0122","meaning":"I don't know.","note":"毋 + 知: you don't know (or won't say). 我毋知影 is the same."}
+{"id":"nan.c0123","meaning":"I don't know. (with 知影)","note":"知影 = know (a fact). Just as common as 我毋知."}
+{"id":"nan.c0124","meaning":"I know.","note":"No 有 is needed: just 我 + 知影."}
+{"id":"nan.c0125","meaning":"teacher","note":"Students call a teacher 老師, with the surname in front: 林老師."}
+{"id":"nan.c0126","meaning":"Teacher Lîm","note":"Surname first, then 老師. Use it to call the teacher, too."}
+{"id":"nan.c0127","meaning":"student","note":""}
+{"id":"nan.c0128","meaning":"Nice to meet you. (please teach me well)","note":"A set phrase when you meet someone."}
+{"id":"nan.c0129","meaning":"Good morning, teacher.","note":"The person comes first, then 𠢕早."}
+{"id":"nan.c0130","meaning":"Good morning, everyone.","note":"逐家 = everybody."}
+{"id":"nan.c0131","meaning":"Let me tell you.","note":"共 marks the person you talk to."}
+{"id":"nan.c0132","meaning":"study; go to school","note":"Literally \"read books\". 伊咧讀冊 = he's studying."}
+{"id":"nan.c0133","meaning":"write (characters)","note":"字 = a character."}
+{"id":"nan.c0134","meaning":"listen; hear","note":"th has a puff of air. The nn makes the vowel nasal."}
+{"id":"nan.c0135","meaning":"Taigi; Taiwanese (the language)","note":"The MOE writes 臺灣台語 for the language; 台 and 臺 are both accepted."}
+{"id":"nan.c0136","meaning":"one","note":"Counting: tsi̍t. Reading a phone number: it."}
+{"id":"nan.c0137","meaning":"two (of something)","note":"Before a classifier, always 兩: 兩本冊. 二 is for 十二, 二十 and digits."}
+{"id":"nan.c0138","meaning":"two (in numbers)","note":"In 十二 and in digits. Never before a classifier: 兩个人, not 二个人."}
+{"id":"nan.c0139","meaning":"three","note":"The nn makes the vowel nasal."}
+{"id":"nan.c0140","meaning":"eight","note":"Final h: cut it short."}
+{"id":"nan.c0141","meaning":"nine","note":"Sounds just like 狗 (dog): káu."}
+{"id":"nan.c0142","meaning":"twelve","note":"Number words join with hyphens in Tâi-lô: tsa̍p-jī."}
+{"id":"nan.c0143","meaning":"twenty-one","note":"廿 = twenty in speech. After a number, 一 takes its literary reading it."}
+{"id":"nan.c0144","meaning":"ten thousand","note":"Big numbers count in ten thousands: 一萬 = 10,000."}
+{"id":"nan.c0145","meaning":"zero","note":"Used inside numbers and phone numbers: 一百空一 = 101."}
+{"id":"nan.c0146","meaning":"one hundred and one","note":"空 marks the empty tens place."}
+{"id":"nan.c0147","meaning":"300 dollars","note":"箍 is the spoken word for a Taiwan dollar."}
+{"id":"nan.c0148","meaning":"How much is it?","note":"Literally \"how much money\"."}
+{"id":"nan.c0149","meaning":"You can get it for 300 dollars.","note":"買會著 = can buy (it is available at that price)."}
+{"id":"nan.c0150","meaning":"too expensive","note":"傷 = too. No 是 before 貴."}
+{"id":"nan.c0151","meaning":"free (no charge)","note":"免 = no need; 錢 = money."}
+{"id":"nan.c0152","meaning":"What's your phone number?","note":"幾號 = which number."}
+{"id":"nan.c0153","meaning":"0983-5578 (a phone number)","note":"Phone numbers use the literary digits: khòng-kiú-pat-sam, not the counting numbers."}
+{"id":"nan.c0154","meaning":"one person","note":"个 is the general classifier: a number never goes straight onto a noun."}
+{"id":"nan.c0155","meaning":"two books","note":"本 for books, and 兩 (not 二) for two of something. 冊 is the Taigi word for book."}
+{"id":"nan.c0156","meaning":"three bowls of rice","note":"碗 counts bowlfuls. Rice is never counted bare."}
+{"id":"nan.c0157","meaning":"a dog","note":"隻 for most animals."}
+{"id":"nan.c0158","meaning":"once; one time","note":"擺 counts times: 閣講一擺 (say it once more)."}
+{"id":"nan.c0159","meaning":"this book","note":"這 + classifier + noun. Before a classifier, 這 is read tsit."}
+{"id":"nan.c0160","meaning":"that person","note":"彼 + classifier + noun. Before a classifier, 彼 is read hit."}
+{"id":"nan.c0161","meaning":"two cats","note":"Cats take 隻 like other animals."}
+{"id":"nan.c0162","meaning":"a cup of tea","note":"杯 counts cupfuls and glassfuls."}
+{"id":"nan.c0163","meaning":"an orange (one)","note":"粒 is the classifier for round things. The MOE has 細粒柑仔 (a small orange)."}
+{"id":"nan.c0164","meaning":"this table","note":"塊 for tables. From the MOE sentence 這塊桌仔比彼塊較低."}
+{"id":"nan.c0165","meaning":"this song","note":"條 for songs (and other long things). From the MOE sentence 這條歌有聽過無？"}
+{"id":"nan.c0166","meaning":"this matter; this thing (that happened)","note":"件 for matters and affairs. 代誌 = a matter, a thing to deal with."}
+{"id":"nan.c0167","meaning":"a car","note":"台 for vehicles and machines."}
+{"id":"nan.c0168","meaning":"a sentence; one thing (to say)","note":"句 counts sentences and remarks."}
+{"id":"nan.c0169","meaning":"everyone; each one","note":"逐 = every, and it still needs the classifier 个."}
+{"id":"nan.c0170","meaning":"which one","note":"佗 = which, + 一 + classifier."}
+{"id":"nan.c0171","meaning":"How many people?","note":"幾 (how many) takes a classifier too: 幾个人, 幾本冊."}
+{"id":"nan.c0172","meaning":"night market","note":"咱來去踅夜市 (let's go and stroll the night market)."}
+{"id":"nan.c0173","meaning":"braised pork rice","note":"In the south this name can mean rice with a slab of braised pork; the minced kind is 肉燥飯."}
+{"id":"nan.c0174","meaning":"Taiwanese meat dumpling","note":"A night-market classic."}
+{"id":"nan.c0175","meaning":"boss; owner (of a stall)","note":"What you call the stall owner: 頭家，一碗麵！ The MOE also lists \"husband\"."}
+{"id":"nan.c0176","meaning":"tasty; delicious","note":"Literally \"good to eat\". The opposite is 歹食."}
+{"id":"nan.c0177","meaning":"minced pork rice","note":"The MOE notes that southern speakers say this for the minced-pork rice bowl."}
+{"id":"nan.c0178","meaning":"tastes bad","note":"歹 = bad, the opposite of 好. No 是 before it: 真歹食."}
+{"id":"nan.c0179","meaning":"fried rice","note":"炒 = stir-fried."}
+{"id":"nan.c0180","meaning":"a bowl of noodles","note":"Number + 碗 + noun: food comes by the bowl."}
+{"id":"nan.c0181","meaning":"oolong tea","note":"茶 = tea. A cup of it: 一杯烏龍茶."}
+{"id":"nan.c0182","meaning":"I'd like to go to the restroom.","note":"想欲 + verb = would like to. 便所 = restroom."}
+{"id":"nan.c0183","meaning":"He's going to treat everyone to a meal.","note":"請 + person + verb = treat someone to something. 逐家 = everybody."}
+{"id":"nan.c0184","meaning":"old-time flavor","note":"Food that tastes the way it used to. 味 = flavor."}
+{"id":"nan.c0185","meaning":"jerky; dried meat","note":""}
+{"id":"nan.c0186","meaning":"Let's go stroll around the night market.","note":"咱 includes the listener: use it to invite. 阮 would leave them out."}
+{"id":"nan.c0187","meaning":"I'll have fried rice. And you?","note":"欲 + verb = want to, going to. 你咧 at the end asks \"and you?\"."}
+{"id":"nan.c0188","meaning":"Today it's my treat.","note":"請 here = to treat someone. 恁 is \"you all\"."}
+{"id":"nan.c0189","meaning":"I'd like to eat a meat dumpling.","note":"想欲 = would like to: softer than 欲."}
+{"id":"nan.c0190","meaning":"traditional market","note":"The morning market for vegetables, meat and fish."}
+{"id":"nan.c0191","meaning":"chicken egg","note":"卵 (egg) sounds just like 兩 (two): nn̄g."}
+{"id":"nan.c0192","meaning":"fish","note":"Taipei speakers say hû; the course follows the general accent, hî."}
+{"id":"nan.c0193","meaning":"fruit","note":"彼擔賣的水果 = the fruit that stall sells."}
+{"id":"nan.c0194","meaning":"The fruit at that stall is cheaper.","note":"俗 = cheap. 較 = more: no need for \"than\" when it is clear."}
+{"id":"nan.c0195","meaning":"green vegetables","note":"青 = green. Vegetables in general are 菜."}
+{"id":"nan.c0196","meaning":"banana","note":"Taiwan is famous for its bananas."}
+{"id":"nan.c0197","meaning":"orange; mandarin orange","note":"仔 is a common ending on nouns."}
+{"id":"nan.c0198","meaning":"a small orange","note":"細粒 = small (for round things). No 的 is needed here."}
+{"id":"nan.c0199","meaning":"one catty (600 grams)","note":"A Taiwan catty is 600 g (Wikipedia, Jin). The MOE example: 弓蕉一斤偌濟錢？ Read tsi̍t kin, with the counting 一."}
+{"id":"nan.c0200","meaning":"Excuse me, how much is a catty of bananas?","note":"Start with 頭家 to get the seller's attention. The thing comes first, then the amount, then 偌濟錢."}
+{"id":"nan.c0201","meaning":"Are the oranges sour?","note":"會…袂？ asks \"will it be … or not?\" The 袂 at the end is said light: --bē."}
+{"id":"nan.c0202","meaning":"things; stuff","note":"Not Mandarin 東西. 你愛的物件 = the things you want."}
+{"id":"nan.c0203","meaning":"money","note":"錢 alone is in 偌濟錢？ (how much money?)."}
+{"id":"nan.c0204","meaning":"today","note":"Time words go before the verb: 今仔日伊閣來矣."}
+{"id":"nan.c0205","meaning":"tomorrow","note":""}
+{"id":"nan.c0206","meaning":"yesterday","note":""}
+{"id":"nan.c0207","meaning":"morning; breakfast","note":"我無食早起 = I didn't eat breakfast."}
+{"id":"nan.c0208","meaning":"Sunday","note":"禮拜 = week. The days are 禮拜 + a number."}
+{"id":"nan.c0209","meaning":"noon; lunch","note":"Like 早起, it is both the time and the meal: 食中晝 = eat lunch."}
+{"id":"nan.c0210","meaning":"afternoon","note":"Before the verb: 下晡我欲… (this afternoon I'm going to…)."}
+{"id":"nan.c0211","meaning":"evening; at night","note":""}
+{"id":"nan.c0212","meaning":"early in the morning","note":"A time word: it goes before the verb."}
+{"id":"nan.c0213","meaning":"every day","note":"Before the verb, like every time word: 伊逐工早起攏會去…"}
+{"id":"nan.c0214","meaning":"Monday","note":"禮拜 + 一, with 一 read it, as after a number word."}
+{"id":"nan.c0215","meaning":"Saturday","note":"禮拜 + 六 (six)."}
+{"id":"nan.c0216","meaning":"What time is it?","note":"幾 = how many; 點 = o'clock."}
+{"id":"nan.c0217","meaning":"hour (amount of time)","note":"一點鐘 = one hour, while 一點 = one o'clock."}
+{"id":"nan.c0218","meaning":"minute","note":""}
+{"id":"nan.c0219","meaning":"It's twelve: time for lunch!","note":"The time goes first. 矣 at the end: the moment has come."}
+{"id":"nan.c0220","meaning":"Every morning she goes to the park to exercise.","note":"Time first, then the verb: never \"goes to the park every morning\" in that order."}
+{"id":"nan.c0221","meaning":"This afternoon I'm going to ask A-bí to go out with me.","note":"招 = invite someone along. 𨑨迌 = have fun, hang out. 阿美仔 is the friend's name in the MOE sentence."}
+{"id":"nan.c0222","meaning":"in front; ahead","note":"你行頭前 (you walk in front)."}
+{"id":"nan.c0223","meaning":"behind; at the back","note":""}
+{"id":"nan.c0224","meaning":"right hand; right","note":"正爿 = the right side."}
+{"id":"nan.c0225","meaning":"left hand; left","note":"伊食飯用倒手 = he eats with his left hand."}
+{"id":"nan.c0226","meaning":"Turn right at the intersection ahead and you're there.","note":"斡 = turn. 矣 at the end: the change has happened."}
+{"id":"nan.c0227","meaning":"on top; above; upstairs","note":"The MOE example: 汽水囥頂懸格 (put the soda on the top shelf)."}
+{"id":"nan.c0228","meaning":"under; below; downstairs","note":"After the thing: 椅仔下跤 (under the chair)."}
+{"id":"nan.c0229","meaning":"inside","note":""}
+{"id":"nan.c0230","meaning":"outside","note":"暗時莫佇外口… (don't be out at night…), from an MOE sentence."}
+{"id":"nan.c0231","meaning":"the right side","note":"爿 = side. Used with 斡 (turn): 斡正爿."}
+{"id":"nan.c0232","meaning":"intersection; street corner","note":""}
+{"id":"nan.c0233","meaning":"go straight ahead","note":"直直 = straight on; 行 = walk, go."}
+{"id":"nan.c0234","meaning":"The cat is sleeping under the chair.","note":"椅仔下跤 = under the chair: the place word follows the thing it is under."}
+{"id":"nan.c0235","meaning":"You go first; I'll follow you.","note":"綴 = follow."}
+{"id":"nan.c0236","meaning":"What you want is further inside.","note":"佇 = be at. 較內面 = further in."}
+{"id":"nan.c0237","meaning":"He's sleeping at home now.","note":"Time (這馬), then place with 佇, then the verb: 佇厝裡咧睏."}
+{"id":"nan.c0238","meaning":"Where's the restroom?","note":"The question word goes where the answer would go: 便所佇遐 (it's over there)."}
+{"id":"nan.c0239","meaning":"MRT; metro","note":"Taipei and Kaohsiung both have one."}
+{"id":"nan.c0240","meaning":"take the train","note":"坐 (sit, ride) + vehicle, and it goes before the main verb: 坐火車去臺南."}
+{"id":"nan.c0241","meaning":"taxi","note":"坐計程車 = take a taxi: 坐 + vehicle."}
+{"id":"nan.c0242","meaning":"walk; go on foot","note":""}
+{"id":"nan.c0243","meaning":"get on (a bus, train, car)","note":"上 here is tsiūnn (climb, board). The opposite is 落車."}
+{"id":"nan.c0244","meaning":"Taiwan Railway","note":"The ordinary trains. Capital T in Tâi-lô: a proper noun."}
+{"id":"nan.c0245","meaning":"high-speed rail","note":"The fast line down the west coast."}
+{"id":"nan.c0246","meaning":"get off (a bus, train, car)","note":"The opposite of 上車. Not 下車."}
+{"id":"nan.c0247","meaning":"Be careful when you walk.","note":"愛 here = must, need to."}
+{"id":"nan.c0248","meaning":"I'm getting off at Taipei Main Station.","note":"佇 + place before the verb: 佇臺北車頭落車. An MOE example sentence."}
+{"id":"nan.c0249","meaning":"near; close","note":"No 是 before it: 真近 (very close)."}
+{"id":"nan.c0250","meaning":"I'm going to Taipei.","note":"欲 + verb: going to, want to."}
+{"id":"nan.c0251","meaning":"let's go; go (and do something)","note":"咱來去踅夜市 = let's go stroll the night market."}
+{"id":"nan.c0252","meaning":"kilometer","note":""}
+{"id":"nan.c0253","meaning":"what","note":"Stays where the answer goes: 你欲食啥物？"}
+{"id":"nan.c0254","meaning":"where","note":""}
+{"id":"nan.c0255","meaning":"when","note":""}
+{"id":"nan.c0256","meaning":"Do you want to go?","note":"A question with 無 at the end, said light: --bô."}
+{"id":"nan.c0257","meaning":"Is this yours?","note":"敢 after the subject turns a sentence into a yes/no question."}
+{"id":"nan.c0258","meaning":"who","note":""}
+{"id":"nan.c0259","meaning":"how","note":"Asks for the way or method. It stays where the answer goes."}
+{"id":"nan.c0260","meaning":"why","note":"是按怎 asks for the reason."}
+{"id":"nan.c0261","meaning":"what kind; what's it like","note":""}
+{"id":"nan.c0262","meaning":"is there…?; did you…?","note":"敢 + 有 asks a yes/no question about having or having done."}
+{"id":"nan.c0263","meaning":"how much; how many","note":"偌濟錢？ = how much money?"}
+{"id":"nan.c0264","meaning":"She's a teacher, isn't she?","note":"是毋是 at the end asks for a yes or no, like \"isn't it?\"."}
+{"id":"nan.c0265","meaning":"And your little brother?","note":"咧 after a noun asks \"and what about…?\". It is said light: --leh."}
+{"id":"nan.c0266","meaning":"Do you know what his name is?","note":"敢 + verb for the yes/no part; 啥物 stays where the name would go."}
+{"id":"nan.c0267","meaning":"Have you heard this song?","note":"有 + verb + 過 + 無 at the end: have you ever…?"}
+{"id":"nan.c0268","meaning":"You're not going?","note":"敢 + 無: \"Isn't it true that you won't…?\", a little surprised."}
+{"id":"nan.c0269","meaning":"Do you want to hang out with us tomorrow?","note":"阮 = us (not you): you are invited to join \"our\" plan. Time word before the verb."}
+{"id":"nan.c0270","meaning":"how come","note":"Surprise more than a plain why: 哪會遮貴？ (how come it's so expensive?)"}
+{"id":"nan.c0271","meaning":"It's hot today.","note":"No 是 before an adjective: 真 (very) does the job."}
+{"id":"nan.c0272","meaning":"He has more candy than me.","note":"A + 比 + B + 較 + adjective."}
+{"id":"nan.c0273","meaning":"best","note":"上 (most) + adjective."}
+{"id":"nan.c0274","meaning":"too salty","note":"傷 = too."}
+{"id":"nan.c0275","meaning":"He's studying.","note":"咧 before a verb: the action is going on now."}
+{"id":"nan.c0276","meaning":"This table is lower than that one.","note":"比 + the other thing, then 較 + adjective. The classifier 塊 stands for the table the second time."}
+{"id":"nan.c0277","meaning":"The weather report says tomorrow will be colder than today.","note":"會 = will. Comparison with 比 … 較."}
+{"id":"nan.c0278","meaning":"It's freezing! (cold enough to die)","note":"Adjective + 甲 + result: so cold that…"}
+{"id":"nan.c0279","meaning":"the most beautiful","note":"上蓋 = the very most."}
+{"id":"nan.c0280","meaning":"She's eating right now.","note":"拄咧 = just in the middle of."}
+{"id":"nan.c0281","meaning":"He came again today.","note":"矣 at the end: a change has happened. Taigi verbs never change for the past."}
+{"id":"nan.c0282","meaning":"It's going to rain.","note":"欲 … 矣: something is about to happen."}
+{"id":"nan.c0283","meaning":"really; very","note":"Like 真: 誠好食 (really tasty). No 是 before the adjective."}
+{"id":"nan.c0284","meaning":"very; extremely","note":"Like 真 and 誠: 足愛睏 (really sleepy)."}
+{"id":"nan.c0285","meaning":"a bit later; a little slower","note":"較 + adjective + 咧: a bit more…"}
+{"id":"nan.c0286","meaning":"What you said went too far.","note":"傷 = too; 過份 = excessive."}
+{"id":"nan.c0287","meaning":"small; little","note":"The opposite of 大 (big). 細粒 = small (for round things)."}
+{"id":"nan.c0288","meaning":"I'm really sleepy.","note":"足 = very, really. 愛睏 = sleepy."}
+{"id":"nan.c0289","meaning":"His wife is beautiful.","note":"No 是: 真 + adjective. *𪜶某是媠 is wrong."}
+{"id":"nan.c0290","meaning":"The food she cooks tastes awful.","note":"No 是 before the adjective here either: 真歹食."}
+{"id":"nan.c0291","meaning":"isn't; not (to be)","note":"The negative of 是. For having, the negative is 無; for can't, 袂."}
+{"id":"nan.c0292","meaning":"I don't want it.","note":"無愛 = don't want. 毋 would mean \"I refuse\"."}
+{"id":"nan.c0293","meaning":"I didn't eat breakfast.","note":"\"Didn't\" is 無, not 毋: *我毋食早起 is wrong."}
+{"id":"nan.c0294","meaning":"I've been there.","note":"有 + verb + 過 = have ever done it. English speakers drop the 有."}
+{"id":"nan.c0295","meaning":"I don't know how.","note":"Can't (a skill) is 袂曉: the MOE gives it as the opposite of 會曉."}
+{"id":"nan.c0296","meaning":"Can you sing this song?","note":"會曉 = know how to; 袂 at the end makes the question."}
+{"id":"nan.c0297","meaning":"He'll come.","note":"會 = will (likely to happen). Its negative is 袂."}
+{"id":"nan.c0298","meaning":"He's eating and sleeping fine; no need to worry.","note":"免 = no need to. Not 毋."}
+{"id":"nan.c0299","meaning":"No need! / Don't bother!","note":"免 = no need. The MOE example, glossed 不用啦."}
+{"id":"nan.c0300","meaning":"You don't have to come.","note":"免 + verb = no need to. 毋來 would be \"won't come\"."}
+{"id":"nan.c0301","meaning":"I told you not to come, and you came anyway.","note":"莫 = don't (telling someone not to). An MOE example sentence."}
+{"id":"nan.c0302","meaning":"must not; don't (warning)","note":"MOE: 驚死就毋通出來𨑨迌 (if you're afraid of dying, don't go out roaming)."}
+{"id":"nan.c0303","meaning":"may not; not allowed","note":"袂使 = not allowed. 會使 = may."}
+{"id":"nan.c0304","meaning":"many; much","note":"Same Tâi-lô as 坐 (sit): tsē. Context tells them apart."}
+{"id":"nan.c0305","meaning":"Colds are contagious.","note":"過人 = pass to people. The 人 is said light here: kuè--lâng."}
+{"id":"nan.c0306","meaning":"egg","note":"Same sound as 兩 (two): nn̄g. Context decides."}
+{"id":"nan.c0307","meaning":"This is delicious!","note":"Say it while eating; 好食 = tasty."}
+{"id":"nan.c0308","meaning":"Your cooking is delicious.","note":"To the cook or host after a meal."}
+{"id":"nan.c0309","meaning":"You're so kind.","note":"About someone's character."}
+{"id":"nan.c0310","meaning":"You work so hard.","note":"Praise for effort at work or study."}
+{"id":"nan.c0311","meaning":"You did a great job!","note":"Verb + 甲 + 真好 = did it really well."}
+{"id":"nan.c0312","meaning":"Your Taigi is really good!","note":"What learners hear most."}
+{"id":"nan.c0313","meaning":"You can speak Taigi?","note":"The surprised first reaction to a foreigner."}
+{"id":"nan.c0314","meaning":"Your home is lovely.","note":"To a host."}
+{"id":"nan.c0315","meaning":"This child is so cute!","note":"Children are praised often, to the parents."}
+{"id":"nan.c0316","meaning":"That shirt looks great on you.","note":"件 is the classifier for clothes."}
+{"id":"nan.c0317","meaning":"This gift is lovely, thank you!","note":"Thanks and praise together."}
+{"id":"nan.c0318","meaning":"You're so polite.","note":"Also said when someone brings a gift."}
+{"id":"nan.c0319","meaning":"Oh, not really!","note":"The usual modest answer to praise."}
+{"id":"nan.c0320","meaning":"Really?","note":"Pleased surprise; a modest answer."}
+{"id":"nan.c0321","meaning":"You're too kind.","note":"Modest answer, literally \"you are too polite\"."}
+{"id":"nan.c0322","meaning":"cute; adorable","note":"Anyone, any gender; also children and pets. Mild."}
+{"id":"nan.c0323","meaning":"eyes","note":"The safe body word to praise: 你的目睭真媠. Warm."}
+{"id":"nan.c0324","meaning":"go out; hang out; have fun","note":"A date can start as 去𨑨迌. Mild."}
+{"id":"nan.c0325","meaning":"meet (up); see each other","note":"Mild."}
+{"id":"nan.c0326","meaning":"feelings; relationship","note":"𪜶感情真好 = they get on well. Warm."}
+{"id":"nan.c0327","meaning":"spouse; partner for life","note":"Warm word for your wife or husband (literally \"hold hands\")."}
+{"id":"nan.c0328","meaning":"You're beautiful.","note":"Usually to a woman; 媠 is for women and things. Warm."}
+{"id":"nan.c0329","meaning":"You look lovely today!","note":"To a woman. Warm, safe."}
+{"id":"nan.c0330","meaning":"You look great.","note":"To anyone, any gender. Mild."}
+{"id":"nan.c0331","meaning":"You have beautiful eyes.","note":"To anyone. Bold."}
+{"id":"nan.c0332","meaning":"You're so cute.","note":"To anyone. Mild and playful."}
+{"id":"nan.c0333","meaning":"I'm so happy to see you.","note":"To anyone. Warm."}
+{"id":"nan.c0334","meaning":"I love talking with you.","note":"To anyone. Warm."}
+{"id":"nan.c0335","meaning":"I love being with you.","note":"To someone you are seeing. Bold."}
+{"id":"nan.c0336","meaning":"Are you free tomorrow?","note":"The usual opening. Indirect, mild."}
+{"id":"nan.c0337","meaning":"Are you free on Saturday?","note":"Mild."}
+{"id":"nan.c0338","meaning":"Shall we go eat together?","note":"Asking out over a meal is the usual way. Warm."}
+{"id":"nan.c0339","meaning":"Shall we go see a movie?","note":"Warm."}
+{"id":"nan.c0340","meaning":"Let me treat you to tea.","note":"請 = it's my treat. Warm."}
+{"id":"nan.c0341","meaning":"I'd like to ask you out.","note":"Clear interest. Bold."}
+{"id":"nan.c0342","meaning":"Could I have your number?","note":"Polite. Warm."}
+{"id":"nan.c0343","meaning":"Can we meet again?","note":"After a first meeting. Warm."}
+{"id":"nan.c0344","meaning":"OK, let's go!","note":"A warm yes."}
+{"id":"nan.c0345","meaning":"Me too.","note":"Reply to 看著你真歡喜 and the like: a yes."}
+{"id":"nan.c0346","meaning":"You're quite the smooth talker!","note":"Playful deflection: neither yes nor no."}
+{"id":"nan.c0347","meaning":"Thanks, but let's just be friends.","note":"A kind, clear no."}
+{"id":"nan.c0348","meaning":"Sorry, I'm married.","note":"A kind, clear no."}
+{"id":"nan.c0349","meaning":"Thank you, but no.","note":"A polite firm no; 無愛 = don't want."}
+{"id":"nan.c0350","meaning":"guest; customer","note":"Shops and stalls call customers 人客 too."}
+{"id":"nan.c0351","meaning":"child; kid","note":"Any child; 囝 is your own son or child."}
+{"id":"nan.c0352","meaning":"matter; thing (that happens)","note":"Events and business, not objects: 啥物代誌？ = what is it?"}
+{"id":"nan.c0353","meaning":"words; speech; what someone says","note":"Also a language: 臺灣話."}
+{"id":"nan.c0354","meaning":"name","note":"Also a formal classifier for people: 三名教師."}
+{"id":"nan.c0355","meaning":"car; vehicle","note":"Any vehicle; classifier 台."}
+{"id":"nan.c0356","meaning":"dish (of food); vegetables","note":"Your cooking or a dish on the table."}
+{"id":"nan.c0357","meaning":"noodles","note":"Classifier 碗: 一碗麵."}
+{"id":"nan.c0358","meaning":"room; bedroom","note":""}
+{"id":"nan.c0359","meaning":"table; desk","note":"Classifier 塊."}
+{"id":"nan.c0360","meaning":"chair","note":"Classifier 隻 or 塊."}
+{"id":"nan.c0361","meaning":"parents","note":"Everyday word; 父母 hū-bió is the formal one."}
+{"id":"nan.c0362","meaning":"brothers","note":"Also close male friends."}
+{"id":"nan.c0363","meaning":"wife","note":"Plain word; 牽手 is warmer."}
+{"id":"nan.c0364","meaning":"eldest brother","note":""}
+{"id":"nan.c0365","meaning":"uncle (father's younger brother)","note":"Also a polite word to a man a bit older than your parents."}
+{"id":"nan.c0366","meaning":"aunt (father's sister)","note":""}
+{"id":"nan.c0367","meaning":"uncle (mother's brother)","note":""}
+{"id":"nan.c0368","meaning":"grandfather (mother's father)","note":"阿公 is the father's father."}
+{"id":"nan.c0369","meaning":"grandmother (mother's mother)","note":"阿媽 is the father's mother."}
+{"id":"nan.c0370","meaning":"gift; present","note":""}
+{"id":"nan.c0371","meaning":"cat","note":"Classifier 隻."}
+{"id":"nan.c0372","meaning":"toilet; restroom","note":"Everyday word, not rude."}
+{"id":"nan.c0373","meaning":"candy; sweets","note":""}
+{"id":"nan.c0374","meaning":"soda; soft drink","note":""}
+{"id":"nan.c0375","meaning":"hot pot","note":""}
+{"id":"nan.c0376","meaning":"small cup (for tea)","note":"The little cup; 杯 is the classifier."}
+{"id":"nan.c0377","meaning":"rice bowl","note":"Also your job: 你的飯碗 = your livelihood."}
+{"id":"nan.c0378","meaning":"sick person; patient","note":""}
+{"id":"nan.c0379","meaning":"teacher (formal, a job title)","note":"Talking to one, say 老師."}
+{"id":"nan.c0380","meaning":"bad words; rude talk","note":"莫講歹話 = don't say mean things."}
+{"id":"nan.c0381","meaning":"go","note":"Place goes after it: 去臺北. Taigi verbs never change."}
+{"id":"nan.c0382","meaning":"come","note":"來遮 = come here."}
+{"id":"nan.c0383","meaning":"speak; say; tell","note":"講台語 = speak Taigi."}
+{"id":"nan.c0384","meaning":"have; there is","note":"Negative is 無, never 毋有."}
+{"id":"nan.c0385","meaning":"do; make; work as","note":"做老師 = work as a teacher."}
+{"id":"nan.c0386","meaning":"will; can (know how)","note":"Negative is 袂."}
+{"id":"nan.c0387","meaning":"love; like; need to","note":"愛食 = love eating; 愛去 = must go."}
+{"id":"nan.c0388","meaning":"know (a fact)","note":"Negative: 毋知影, often just 毋知."}
+{"id":"nan.c0389","meaning":"sit; ride (a vehicle)","note":"坐火車 = take the train."}
+{"id":"nan.c0390","meaning":"buy","note":"Rhymes with 賣 bē (sell): watch the tone."}
+{"id":"nan.c0391","meaning":"sell","note":"Tone 7; 買 bé (buy) is tone 2."}
+{"id":"nan.c0392","meaning":"would like to; want to","note":"Softer than 欲: 我想欲食肉圓."}
+{"id":"nan.c0393","meaning":"know how to; can","note":"Negative: 袂曉."}
+{"id":"nan.c0394","meaning":"have ever (done); know (someone)","note":"我捌去過 = I have been there. Negative: 毋捌."}
+{"id":"nan.c0395","meaning":"may; be allowed to","note":"Negative: 袂使."}
+{"id":"nan.c0396","meaning":"be able to","note":"Negative: 袂當."}
+{"id":"nan.c0397","meaning":"call; ask (someone to do)","note":"叫伊來 = tell him to come."}
+{"id":"nan.c0398","meaning":"be called (named)","note":"這叫做啥物？ = what is this called?"}
+{"id":"nan.c0399","meaning":"be named (a person)","note":"我號做阿美仔."}
+{"id":"nan.c0400","meaning":"be surnamed; surname","note":"我姓陳."}
+{"id":"nan.c0401","meaning":"invite; treat (pay for); please","note":"我請你 = it's my treat."}
+{"id":"nan.c0402","meaning":"cook","note":"煮飯 = cook a meal."}
+{"id":"nan.c0403","meaning":"wear; put on (clothes)","note":"穿衫 = put on clothes."}
+{"id":"nan.c0404","meaning":"walk; go","note":"kiânn; 行路 = walk."}
+{"id":"nan.c0405","meaning":"follow; go along with","note":"綴我來 = follow me."}
+{"id":"nan.c0406","meaning":"turn (left or right)","note":"斡正爿 = turn right."}
+{"id":"nan.c0407","meaning":"invite (someone along)","note":"招朋友去𨑨迌."}
+{"id":"nan.c0408","meaning":"take care of; mind","note":"你莫管 = don't you worry about it."}
+{"id":"nan.c0409","meaning":"introduce","note":"我共你介紹 = let me introduce you."}
+{"id":"nan.c0410","meaning":"rain","note":"No \"it\": 欲落雨矣."}
+{"id":"nan.c0411","meaning":"worry","note":"你免煩惱 = don't worry."}
+{"id":"nan.c0412","meaning":"catch a cold; a cold","note":""}
+{"id":"nan.c0413","meaning":"get up; rise","note":"After a verb it means \"up\": 坐起來."}
+{"id":"nan.c0414","meaning":"get off work","note":""}
+{"id":"nan.c0415","meaning":"stroll around; go around","note":"踅夜市 = stroll the night market."}
+{"id":"nan.c0416","meaning":"eat a meal; have dinner","note":"Also the general word for eating."}
+{"id":"nan.c0417","meaning":"eat your fill; finish eating","note":"食飽未？ is the greeting."}
+{"id":"nan.c0418","meaning":"good; fine; OK","note":"No 是 before an adjective: 真好."}
+{"id":"nan.c0419","meaning":"big; old (older sibling)","note":"tuā; literary tāi in words like 大學."}
+{"id":"nan.c0420","meaning":"expensive","note":"傷貴 = too expensive."}
+{"id":"nan.c0421","meaning":"cheap","note":"Opposite of 貴."}
+{"id":"nan.c0422","meaning":"cold (weather)","note":"冷 is cold to the touch or a cold drink."}
+{"id":"nan.c0423","meaning":"far","note":"hn̄g; opposite of 近."}
+{"id":"nan.c0424","meaning":"low; short (height)","note":""}
+{"id":"nan.c0425","meaning":"settled; all right; going well","note":"按呢好勢 = that works."}
+{"id":"nan.c0426","meaning":"famous","note":""}
+{"id":"nan.c0427","meaning":"free (have time)","note":"你有閒無？ = are you free?"}
+{"id":"nan.c0428","meaning":"sleepy","note":""}
+{"id":"nan.c0429","meaning":"polite; modest","note":"免客氣 = you're welcome."}
+{"id":"nan.c0430","meaning":"hard-working; serious","note":"Also \"work hard\": 認真讀冊."}
+{"id":"nan.c0431","meaning":"excessive; going too far","note":""}
+{"id":"nan.c0432","meaning":"very; really","note":"Before an adjective, with no 是: 真好."}
+{"id":"nan.c0433","meaning":"more; rather","note":"較好 = better; 較慢 = later."}
+{"id":"nan.c0434","meaning":"all; both (before the verb)","note":"𪜶攏是學生 = they are all students."}
+{"id":"nan.c0435","meaning":"again; also; still","note":"閣來 = come again."}
+{"id":"nan.c0436","meaning":"again (next time)","note":"再來 = come again later."}
+{"id":"nan.c0437","meaning":"already; even","note":"都十二點矣 = it is already twelve."}
+{"id":"nan.c0438","meaning":"already","note":"Often with 矣 at the end."}
+{"id":"nan.c0439","meaning":"too (much)","note":"傷貴 = too expensive."}
+{"id":"nan.c0440","meaning":"now","note":"Time goes before the verb."}
+{"id":"nan.c0441","meaning":"often","note":""}
+{"id":"nan.c0442","meaning":"sometimes","note":""}
+{"id":"nan.c0443","meaning":"really; truly","note":"Also \"real\": 真正的."}
+{"id":"nan.c0444","meaning":"not yet","note":"Short answer to 食飽未？"}
+{"id":"nan.c0445","meaning":"still; as before","note":""}
+{"id":"nan.c0446","meaning":"together","note":"咱做陣去 = let's go together."}
+{"id":"nan.c0447","meaning":"altogether; in total","note":"總共偌濟錢？"}
+{"id":"nan.c0448","meaning":"straight on; all the time","note":"直直行 = go straight."}
+{"id":"nan.c0449","meaning":"slowly; take your time","note":""}
+{"id":"nan.c0450","meaning":"earlier; in the past","note":""}
+{"id":"nan.c0451","meaning":"last; in the end","note":""}
+{"id":"nan.c0452","meaning":"they; them","note":"Also \"their, his, her\" before a noun: 𪜶某."}
+{"id":"nan.c0453","meaning":"my; mine","note":"Pronoun + 的: 這是我的."}
+{"id":"nan.c0454","meaning":"your; yours","note":""}
+{"id":"nan.c0455","meaning":"his; her; hers","note":"One word for both genders."}
+{"id":"nan.c0456","meaning":"our; ours (not yours)","note":"Exclusive we."}
+{"id":"nan.c0457","meaning":"our; ours (yours too)","note":"Inclusive we."}
+{"id":"nan.c0458","meaning":"your; yours (more than one)","note":""}
+{"id":"nan.c0459","meaning":"their; theirs","note":""}
+{"id":"nan.c0460","meaning":"oneself; on your own","note":"我家己來 = I'll do it myself."}
+{"id":"nan.c0461","meaning":"everyone; everybody","note":""}
+{"id":"nan.c0462","meaning":"other people; someone else","note":""}
+{"id":"nan.c0463","meaning":"another one; a different one","note":""}
+{"id":"nan.c0464","meaning":"this (thing)","note":"tse alone; tsit before a classifier: 這个."}
+{"id":"nan.c0465","meaning":"that (thing)","note":"he alone; hit before a classifier: 彼个."}
+{"id":"nan.c0466","meaning":"this one","note":"tsit + classifier."}
+{"id":"nan.c0467","meaning":"that one","note":"hit + classifier."}
+{"id":"nan.c0468","meaning":"what (short form)","note":"Casual: 你講啥？"}
+{"id":"nan.c0469","meaning":"this kind; this sort","note":""}
+{"id":"nan.c0470","meaning":"to; for; (marks the object)","note":"我共你講 = let me tell you."}
+{"id":"nan.c0471","meaning":"than; compared with","note":"我比你較大."}
+{"id":"nan.c0472","meaning":"from; toward","note":"對臺北來 = come from Taipei."}
+{"id":"nan.c0473","meaning":"with; using","note":"用台語講 = say it in Taigi."}
+{"id":"nan.c0474","meaning":"to; until","note":"到明仔載 = until tomorrow."}
+{"id":"nan.c0475","meaning":"until; so … that","note":"寒甲欲死 = cold enough to die."}
+{"id":"nan.c0476","meaning":"like; as if","note":"親像阿母 = like Mom."}
+{"id":"nan.c0477","meaning":"across from; opposite","note":"公園對面 = across from the park."}
+{"id":"nan.c0478","meaning":"beside; next to","note":"pinn--á: neutral tone on á."}
+{"id":"nan.c0479","meaning":"in the middle of","note":""}
+{"id":"nan.c0480","meaning":"under; below","note":"ē; after a noun: 椅仔下."}
+{"id":"nan.c0481","meaning":"the left side; on the left","note":"正爿 is the right side."}
+{"id":"nan.c0482","meaning":"or","note":"In questions too: 茶抑是水？"}
+{"id":"nan.c0483","meaning":"but","note":""}
+{"id":"nan.c0484","meaning":"but; however (softer)","note":"Very common in speech."}
+{"id":"nan.c0485","meaning":"if","note":"Often with 就 after: 若是…就…."}
+{"id":"nan.c0486","meaning":"then; just","note":"After 若是: 若是落雨，我就無欲去."}
+{"id":"nan.c0487","meaning":"because","note":""}
+{"id":"nan.c0488","meaning":"so; therefore","note":""}
+{"id":"nan.c0489","meaning":"although","note":"Pairs with 毋過 or 但是."}
+{"id":"nan.c0490","meaning":"after that; and then","note":"Also after a clause: 食飽了後."}
+{"id":"nan.c0491","meaning":"and also; moreover","note":""}
+{"id":"nan.c0492","meaning":"before (something happens)","note":"After the clause: 食飯以前."}
+{"id":"nan.c0493","meaning":"it's just that; namely","note":"我想欲去，就是無錢."}
+{"id":"nan.c0494","meaning":"Really? / That's true!","note":"As a question: 有影無？"}
+{"id":"nan.c0495","meaning":"That's wrong! / No!","note":"Opposite of 著."}
+{"id":"nan.c0496","meaning":"OK, that's enough! / Done!","note":""}
+{"id":"nan.c0497","meaning":"Okay, fine!","note":"Giving in; 啦 softens it."}
+{"id":"nan.c0498","meaning":"Don't! / Stop it!","note":"Soft, often playful."}
+{"id":"nan.c0499","meaning":"No need! / Don't bother!","note":"Polite refusal of help."}
+{"id":"nan.c0500","meaning":"Careful! / Watch out!","note":"Also \"be careful\": 你行路愛小心."}
+{"id":"nan.c0501","meaning":"I see. / Like that!","note":"Said when you understand."}
+{"id":"nan.c0502","meaning":"Thanks!","note":"Short form of 多謝你."}
+{"id":"nan.c0503","meaning":"Thank you so much!","note":"Deeper thanks; also \"be grateful\"."}
+{"id":"nan.c0504","meaning":"No good! / Don't!","note":""}
+{"id":"nan.c0505","meaning":"Nothing can be done! / Oh well.","note":"Literally \"no way\"."}
+{"id":"nan.c0506","meaning":"five","note":"gōo; the literary ngóo is for phone numbers."}
+{"id":"nan.c0507","meaning":"eleven","note":"十 + 一; 一 is read it after a number."}
+{"id":"nan.c0508","meaning":"fifteen","note":""}
+{"id":"nan.c0509","meaning":"twenty","note":"二 is fine here: no classifier follows."}
+{"id":"nan.c0510","meaning":"thirty","note":""}
+{"id":"nan.c0511","meaning":"hundred","note":"一百 = one hundred."}
+{"id":"nan.c0512","meaning":"thousand","note":"一千 = one thousand."}
+{"id":"nan.c0513","meaning":"how many (small number)","note":"With a classifier: 幾个？"}
+{"id":"nan.c0514","meaning":"how (far, much)","note":"偌遠？ = how far?"}
+{"id":"nan.c0515","meaning":"half","note":""}
+{"id":"nan.c0516","meaning":"first; number one","note":""}
+{"id":"nan.c0517","meaning":"is it …?","note":"敢是你的？ = is it yours?"}
+{"id":"nan.c0518","meaning":"is it or isn't it?","note":"Tag at the end: 是毋是？"}
+{"id":"nan.c0519","meaning":"one day","note":""}
+{"id":"nan.c0520","meaning":"week","note":"Days are 禮拜 + number: 禮拜一."}
+{"id":"nan.c0521","meaning":"last time","note":""}
+{"id":"nan.c0522","meaning":"tomorrow morning","note":""}
+{"id":"nan.c0523","meaning":"(classifier for books)","note":"兩本冊 = two books."}
+{"id":"nan.c0524","meaning":"(classifier for animals)","note":"一隻狗; also some chairs and boats."}
+{"id":"nan.c0525","meaning":"(classifier: a cup or glass of)","note":"一杯茶."}
+{"id":"nan.c0526","meaning":"(classifier: a bowl of)","note":"三碗飯."}
+{"id":"nan.c0527","meaning":"(classifier for flat things: paper, tickets)","note":""}
+{"id":"nan.c0528","meaning":"(classifier for clothes and matters)","note":"一件衫; 這件代誌."}
+{"id":"nan.c0529","meaning":"(classifier for small round things)","note":"一粒柑仔."}
+{"id":"nan.c0530","meaning":"(classifier for long things, songs)","note":"這條歌 = this song."}
+{"id":"nan.c0531","meaning":"(classifier: a pair of)","note":""}
+{"id":"nan.c0532","meaning":"(classifier for tables, pieces)","note":"這塊桌仔."}
+{"id":"nan.c0533","meaning":"(classifier for vehicles, machines)","note":"一台車."}
+{"id":"nan.c0534","meaning":"(classifier for sentences, words said)","note":"一句話."}
+{"id":"nan.c0535","meaning":"(classifier: an item of)","note":""}
+{"id":"nan.c0536","meaning":"(classifier: a time, an occurrence)","note":"擺 is more colloquial."}
+{"id":"nan.c0537","meaning":"(classifier: a time (colloquial))","note":"一擺 = once."}
+{"id":"nan.c0538","meaning":"(classifier: dollar)","note":"三百箍."}
+{"id":"nan.c0539","meaning":"(classifier: a catty, 600 grams)","note":""}
+{"id":"nan.c0540","meaning":"(classifier: years of age)","note":"我十八歲."}
+{"id":"nan.c0541","meaning":"(classifier: o'clock)","note":"十二點 = twelve o'clock."}
+{"id":"nan.c0542","meaning":"now (a change has happened)","note":"Neutral tone --ah at the end: 食飽矣."}
+{"id":"nan.c0543","meaning":"(softens or urges)","note":"Neutral tone: 免啦！"}
+{"id":"nan.c0544","meaning":"(action in progress: -ing)","note":"teh before a verb; --leh at the end means \"and …?\""}
+{"id":"nan.c0545","meaning":"not have; (at the end) … or not?","note":"Neutral --bô before ？: 你欲去無？"}
+{"id":"nan.c0546","meaning":"not yet; (at the end) … yet?","note":"Neutral --buē before ？: 食飽未？"}
+{"id":"nan.c0547","meaning":"can't; won't; (at the end) can … or not?","note":"Neutral --bē before ？"}
+{"id":"nan.c0548","meaning":"(starts a yes/no question)","note":"敢 goes after the subject: 你敢知影？"}
+{"id":"nan.c0549","meaning":"(links a describer to a noun; 's)","note":"我的冊 = my book."}
+{"id":"nan.c0550","meaning":"(small or familiar: noun ending)","note":"桌仔, 椅仔; also after names: 阿美仔."}
+{"id":"nan.c0551","meaning":"(after a verb) ever; have done","note":"Neutral --kuè at the end: 我有去過."}
+{"id":"nan.c0552","meaning":"(after a verb) a bit; for a moment","note":"看一下 = take a look."}
+{"id":"nan.c0553","meaning":"right; (after a verb) manage to","note":"看著 = catch sight of."}

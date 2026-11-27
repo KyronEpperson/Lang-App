@@ -309,3 +309,80 @@ Design, numbers and open items: `docs/briefs/x-es-design.md`. "By marks" is `doc
 - Cantonese `yue` (script mode, in-lesson decks, tile sets): `docs/briefs/x-yue-design.md`.
 - Vietnamese `vi` (by marks: `target/vi/marks.jsonl`, hand-set spans in `tools/target/vi/marks.extra.jsonl`): `docs/briefs/x-vi-design.md`.
 - KEEP mode (a learner language written in Han characters on a Han-script target): `docs/briefs/x-yue-design.md` §6a.
+
+## 14 · Japanese `ja`: script mode, kana + kanji
+
+* **Source:** en-ja, `tools/target/ja/` (`tools/target/gen.js ja`). Half: `target/ja/` + `native/en/ja/`; design: `docs/briefs/x-ja-design.md`.
+* **`TARGETS.ja`** = `require('./targets/ja.js')` (self-contained; `lib.js` loads it during its own load, so it must not require `lib.js`):
+  * `by: 'script'`, field `ja`, `script: 'kana and kanji'` (the word the validator prints: "kana and kanji differs from the English");
+  * protected runs: hiragana, katakana, `ー`, iteration marks `ゝゞヽヾ々〆`, `゛゜`, small `ㇰ-ㇿ`, Han (zh's blocks). Japanese punctuation `、。・？！〜` is free;
+  * `isValue`: Japanese script with no Latin letter, or romaji = en-ja `pronPattern` plus a macron / `n'`, or one kana's reading (`ji`, `zu`), never an English-looking word (`no`, `to`, `a`);
+  * `leadRx` as zh (hints "えき · いきます · note" split at the last ` · ` before Latin);
+  * `kanaRuns(s)`: kana runs only, for a future Han-native check.
+* **Shape:** like yue: lesson `sections` with 3 in-lesson decks (`ja.ld.*`, `ja.lc0001…`), 5 tile sets (`ja.tl001…`), no tile hints (the two readings `ji`, `zu` are target-side).
+* **Open:** native halves written in Han (zh, yue, nan) cannot be validated by Han runs; kana runs still can. Do not scaffold them before the Han-native helper exists (`x-ja-design.md` §5).
+* **Commands:** `export_target.js ja`; `proof.js ja`; `validate.js <n> ja`; `mk_native.js <n> --target ja` (README wording still Chinese); `assemble.js <n> ja`.
+
+## 15 · Thai `th`: script mode, romanised reading
+
+Design, numbers and open items: `docs/briefs/x-th-design.md`. Thai works like zh and yue (§11): script decides, and nothing is recorded in `marks.jsonl`.
+
+* **`TARGETS.th`** is `require('./targets/th.js')` (one line in `lib.js`, after `es`). Target rows use the field **`th`** (`{"id":"th.c0001","deck":"th.d.tones-and-vowel-length","th":"มา","rom":"maa"}`).
+* **Protected runs:** runs of Thai script, U+0E00–U+0E7F (consonants, vowel signs, tone marks, Thai digits). A native string must keep the English string's set of Thai runs. The policies for added runs are the same as for zh: allowed in notes when they are the card's own text; a warning in bodies, deck descriptions, pattern meanings and `why`; an error elsewhere.
+* **Target value (`isValue`)**, used for check and mc options, hint leads and tile readings:
+  * Thai script with no Latin letters;
+  * a whole string that passes en-th's own `pronPattern` (`tools/target/th/profile.json`: lowercase syllables, tone marks à â á ǎ on the vowel, `-` inside a word, one space between words), except the English words in `targets/th.js` `HOMOGRAPHS` (`noon`). Mid tone has no mark, so an unmarked English word can be a well-formed romanization;
+  * a bare romanization initial (`t`, `th`, `bp`, `khr`): language-neutral material, as pinyin and Jyutping initials are.
+* **Hints:** a lead with no Latin letters splits at ` · ` / ` — ` (`น้ำ · สอง · two bottles`). A hint that prints romanization in brackets (`กิน (gin) · ข้าว (khâao)`) is a native field as a whole. Its Thai runs are protected; its romanization is not (follow-up in the design note).
+* **Commands:**
+  * `export_target.js th`;
+  * `proof.js th` (pure data; `packs/course-en-th.js` is the regenerated pack followed by the `READS` / `SECS` blocks, as for yue);
+  * `validate.js <n> th [--all]`;
+  * `mk_native.js <n> --target th` (README wording still Chinese);
+  * `assemble.js <n> th`.
+
+## 16 · Arabic `ar`: script mode
+
+Design, numbers and open items: `docs/briefs/x-ar-design.md`. Arabic works like zh, yue and th: script decides, and nothing is recorded in `marks.jsonl`.
+
+* **`TARGETS.ar`** is `require('./targets/ar.js')` (one line in `lib.js`, after `th`). Target rows use the field **`ar`** (`{"id":"ar.c0002","deck":"ar.d.letters-1-alif-to-sad","ar":"ب","rom":"bāʾ"}`).
+* **Protected runs:** runs of Arabic script: U+0610–061A, U+0620–0669, U+066E–06D3, U+06D5–06FF and U+0750–077F. That is every letter and hamza form (ء آ أ ؤ إ ئ ة ى ٱ), the harakat and tanwin, shadda, sukun, the dagger alif, tatweel (`ـبـ` in the letter-shape tiles) and the Arabic-Indic digits ٠–٩. A dropped shadda or haraka changes the run and is reported. A space ends a run, so runs are words. Policies for added runs are those of zh.
+* **Free (not part of a run):** Arabic punctuation ، ؛ ؟ (and ٪ ٫ ٬ ٭ ۔). A native language written in Arabic script uses the same marks in its own sentences, and a native note may put its own comma right after a quoted word. The cost: a writer who drops the ؟ of a quoted Arabic question is not caught (47 ؟ and 2 ، sit inside native/en/ar text).
+* **Target value (`isValue`)**, used for check and mc options, hint leads and tile readings:
+  * Arabic script with no Latin letters (Latin includes ʿ ʾ and the dotted letters);
+  * a whole string that passes en-ar's own `pronPattern` (`tools/target/ar/profile.json`: lowercase, ā ī ū, ḥ ṣ ḍ ṭ ẓ, ʿ ʾ, `al-` / one-letter prefixes with a hyphen, `·` between digraph letters), except the English words in `targets/ar.js` `HOMOGRAPHS` (`always`). The pattern refuses capitals and c e o p v x, but plain English such as `this`, `is`, `him` passes, so the list grows only from the data.
+  * no bare-initial rule (en-ar never offers a bare consonant reading).
+* **Hints:** a lead with no Latin letters splits at ` · ` / ` — ` (`هٰذَا · كِتَاب`); `·` inside a romanised word never has spaces round it.
+* **Commands:** `export_target.js ar`; `proof.js ar` (`packs/course-en-ar.js` is the regenerated pack followed by the `READS` / `SECS` blocks, as for yue and th); `validate.js <n> ar [--all]`; `mk_native.js <n> --target ar` (README / `REPEATS.md` wording still Chinese); `assemble.js <n> ar`.
+* **Open (not solved):** a native language written in Arabic script (Urdu, later Persian) cannot be told from the target by script runs; it needs the "by marks" mode. A right-to-left native interface with a right-to-left target is untested.
+## 17 · Amharic `am`: script mode
+Design, numbers and open items: `docs/briefs/x-am-design.md`. Amharic works like zh, yue, th and ar: script decides, and nothing is recorded in `marks.jsonl`.
+
+* **`TARGETS.am`** is `require('./targets/am.js')` (one line in `lib.js`, after `ar`). Target rows use the field **`am`** (`{"id":"am.c0001","deck":"am.d.how-the-fidel-works","am":"በ","rom":"be"}`).
+* **Ids:** the target config's optional `slugText` (read only by `export_target.js`) writes each Ethiopic letter as its hex code point before the ASCII slug, so deck names that differ only in fidel get different ids: `am.d.fidel-rows-1200-to-1278`, `am.d.fidel-rows-1280-to-12e0`. Targets without `slugText` keep their ids.
+* **Protected runs:** runs of Ethiopic letters: U+1200–135F (syllables, combining marks) and the Ethiopic digits U+1369–137C. en-am uses only U+1200–135A; the Supplement and Extended blocks are not in the class. One fidel changed inside a run (ሀ → ሐ) is reported. A space ends a run, so runs are words. Policies for added runs are those of zh.
+* **Free (not part of a run):** Ethiopic punctuation U+1360–1368 (፡ ። ፣ ፤ ፥ ፦ ፧). en-am writes only ።, and only in fields the target half holds; none sits inside native/en/am text. The cost: a writer who drops ። from a quoted sentence is not caught.
+* **Target value (`isValue`)**, used for check and mc options, hint leads and tile readings:
+  * Ethiopic with no Latin letters;
+  * a whole string that passes en-am's own `pronPattern` (`tools/target/am/profile.json`: lowercase, é, doubled consonants, `'` for ejectives and the glottal catch, `c` only in `ch`, no q or x, one of `. , ? !` after a word), except the 27 English option strings in `targets/am.js` `HOMOGRAPHS` (`tea`, `he said`, `noon`, `g`, …). The pattern accepts most lowercase English, so the list grows only from the data: a new English option that passes it fails the selftest "am: no English in target/am".
+  * no bare-initial rule (en-am never offers a bare consonant as an option).
+* **Hints:** a lead with no Latin letters splits at ` · ` / ` — ` (`ደህና · ነህ · man form` → lead `ደህና · ነህ`, note `man form`).
+* **Commands:** `export_target.js am`; `proof.js am`; `validate.js <n> am [--all]`; `mk_native.js <n> --target am` (README / `REPEATS.md` wording still Chinese); `assemble.js <n> am`.
+* **Open (not solved):** a native language written in Ethiopic script (Tigrinya) cannot be told from the target by script runs and shares the punctuation; it needs the "by marks" mode.
+
+## 18 · Taiwanese `nan`
+
+Design, numbers and open items: `docs/briefs/x-nan-design.md`. Script mode like yue (§11) and ja (§13): Han runs decide, nothing is recorded in `marks.jsonl`.
+
+* **Source:** en-nan, `tools/target/nan/` (`tools/target/gen.js nan`). The card front is Han (MOE recommended characters, field **`nan`**); Tâi-lô is the reading (`rom`). Tâi-lô is also taught on its own in answer slots (mc options, typed / built / filled answers, three tile readings), as Jyutping is for yue.
+* **`TARGETS.nan`** = `require('./targets/nan.js')` (one line in `lib.js`, after `ar`; self-contained, must not require `lib.js`).
+* **Protected runs:** Han, zh's blocks **plus the supplementary planes** U+20000–U+2FFFF (en-nan writes 𠢕 and 𪜶; `lib.js` `HAN_RX` does not cover them). Runs are sorted by UTF-16 code unit, so `阿伯𠢕早` sorts before `𪜶`.
+* **Target value (`isValue`)**, used for check and mc options, hint leads and tile readings:
+  * Han with no Latin letters;
+  * whole-string Tâi-lô (`isTailo`): passes en-nan's `pronPattern`, and every syllable (tone marks removed) has Tâi-lô shape: an initial (or POJ `ch` / `chh`) plus vowels with optional `nn` and coda `m n ng p t k h`, or a syllabic `m` / `ng`. `spin`, `fin`, `Two`, `é of café` fail;
+  * except the toneless English words in `targets/nan.js` `EN_HOMOGRAPHS` (`pin`, `bin`, `too`, `not`), each taken from an en-nan item that offers it as an English option. `tsit`, `lâi`, `bô`, `to` stay target.
+* **Fill prompts (`fillSplit`, optional target hook):** a fill prompt with a learner-language frame (`Tâi-lô for 厝: __`, `火車 (train), as spelled: __-tshia`) is native text: the target practice row has no `q`; the native row holds it. The prompt's blank tokens that carry Tâi-lô go into the target row as **`qk`** (`["__-tshia"]`), and `validate.js` requires each one, exactly and as a whole word, in the native `q`. `assemble.js` takes `q` from the target row when it has one, else from the native row. Targets without `fillSplit` are unchanged.
+* **Hints:** a Han lead splits at ` · ` / ` — ` as in zh.
+* **Commands:** `export_target.js nan`; `proof.js nan` (`packs/course-en-nan.js` is the regenerated pack followed by appended blocks, as for yue); `validate.js <n> nan [--all]`; `mk_native.js <n> --target nan` (README wording still Chinese); `assemble.js <n> nan`.
+* **Open (not solved):** a native half written in Han (zh, yue, ja) cannot be told from Taigi by Han runs. The intended mechanism is the other team's `hanNative` helper in `lib.js` (next release). Do not scaffold such a half before it lands.
+

@@ -1,0 +1,155 @@
+{"id":"fr.g001","card":"fr.c0001","a":"Tu as la clé?","b":"Oui, elle est dans mon sac."}
+{"id":"fr.g002","card":"fr.c0002","a":"Il s'appelle comment, le chat?","b":"Il s'appelle Minou."}
+{"id":"fr.g003","card":"fr.c0015","a":"Tu dînes avec qui ce soir?","b":"Avec les amis de Léa."}
+{"id":"fr.g004","card":"fr.c0005","a":"Le café est dans quelle rue?","b":"Dans la rue de la Paix, à côté de la gare."}
+{"id":"fr.g005","card":"fr.c0019","a":"Bonjour, madame.","b":"Bonjour, monsieur. Vous désirez?"}
+{"id":"fr.g006","card":"fr.c0021","a":"Salut, ça va?","b":"Ça va bien, merci. Et toi?"}
+{"id":"fr.g007","card":"fr.c0023","a":"Bonjour, madame Martin. Comment allez-vous?","b":"Très bien, merci. Et vous?"}
+{"id":"fr.g008","card":"fr.c0025","a":"Je te présente mon ami Hugo.","b":"Enchantée, Hugo."}
+{"id":"fr.g009","card":"fr.c0028","a":"Merci beaucoup, monsieur.","b":"Je vous en prie."}
+{"id":"fr.g010","card":"fr.c0034","a":"Le musée ferme à dix-huit heures.","b":"Pardon, vous pouvez répéter, s'il vous plaît?"}
+{"id":"fr.g011","card":"fr.c0038","a":"Salut! Comment tu t'appelles?","b":"Je m'appelle Chloé. Et toi?"}
+{"id":"fr.g012","card":"fr.c0039","a":"Bonjour, comment vous appelez-vous?","b":"Je m'appelle Ryan Miller."}
+{"id":"fr.g013","card":"fr.c0043","a":"Tu es d'où, Megan?","b":"Je suis de New York, mais j'habite à Lyon."}
+{"id":"fr.g014","card":"fr.c0051","a":"Tu parles anglais?","b":"Oui, un peu. Et toi, tu parles espagnol?"}
+{"id":"fr.g015","card":"fr.c0053","a":"J'adore Paris.","b":"Moi aussi!"}
+{"id":"fr.g016","card":"fr.c0060","a":"Tu as des frères et sœurs?","b":"Oui, j'ai un frère et deux sœurs."}
+{"id":"fr.g017","card":"fr.c0057","a":"Tes parents habitent où?","b":"Mes parents habitent à Lille."}
+{"id":"fr.g018","card":"fr.c0065","a":"C'est qui sur la photo?","b":"C'est ma femme, Camille."}
+{"id":"fr.g019","card":"fr.c0061","a":"Tu as des enfants?","b":"Oui, j'ai deux enfants, un fils et une fille."}
+{"id":"fr.g020","card":"fr.c0080","a":"Excusez-moi, quelle heure est-il?","b":"Il est trois heures et quart."}
+{"id":"fr.g021","card":"fr.c0087","a":"Bonjour, ça coûte combien, le croissant?","b":"Un euro vingt."}
+{"id":"fr.g022","card":"fr.c0089","a":"Ça fait douze euros, madame.","b":"Je peux payer par carte?"}
+{"id":"fr.g023","card":"fr.c0086","a":"Le film commence à quelle heure?","b":"À vingt heures."}
+{"id":"fr.g024","card":"fr.c0093","a":"On est quel jour aujourd'hui?","b":"On est jeudi."}
+{"id":"fr.g025","card":"fr.c0102","a":"Quel temps fait-il à Nice?","b":"Il fait beau et chaud."}
+{"id":"fr.g026","card":"fr.c0101","a":"C'est quand, ton anniversaire?","b":"Mon anniversaire, c'est le trois mars."}
+{"id":"fr.g027","card":"fr.c0096","a":"Tu fais quoi le week-end?","b":"Le week-end, je vais au marché et je vois mes amis."}
+{"id":"fr.g028","card":"fr.c0121","a":"Bonsoir, vous avez une table pour deux?","b":"Oui, bien sûr. Suivez-moi."}
+{"id":"fr.g029","card":"fr.c0114","a":"Vous avez choisi?","b":"Oui, je vais prendre la quiche, s'il vous plaît."}
+{"id":"fr.g030","card":"fr.c0125","a":"Sur place ou à emporter?","b":"À emporter, s'il vous plaît."}
+{"id":"fr.g031","card":"fr.c0126","a":"L'addition, s'il vous plaît.","b":"Oui, tout de suite."}
+{"id":"fr.g032","card":"fr.c0109","a":"Qu'est-ce que vous prenez?","b":"Un café crème et un croissant, s'il vous plaît."}
+{"id":"fr.g033","card":"fr.c0134","a":"Bonjour, je peux vous aider?","b":"Je regarde, merci."}
+{"id":"fr.g034","card":"fr.c0138","a":"Elle est jolie, cette veste. Je peux l'essayer?","b":"Oui, bien sûr. Les cabines sont au fond."}
+{"id":"fr.g035","card":"fr.c0141","a":"Combien coûte cette robe?","b":"Elle coûte quatre-vingts euros."}
+{"id":"fr.g036","card":"fr.c0142","a":"Elle vous va très bien!","b":"Merci, je la prends."}
+{"id":"fr.g037","card":"fr.c0137","a":"Vous avez une taille plus grande?","b":"Oui, voilà le quarante."}
+{"id":"fr.g038","card":"fr.c0154","a":"Il y a du lait pour le café?","b":"Non, il n'y a pas de lait."}
+{"id":"fr.g039","card":"fr.c0157","a":"Tu te lèves à quelle heure?","b":"Je me lève à sept heures, et toi?"}
+{"id":"fr.g040","card":"fr.c0149","a":"Tu habites dans une maison?","b":"Non, j'habite dans un appartement à Lyon."}
+{"id":"fr.g041","card":"fr.c0148","a":"Où est la salle de bains?","b":"Au fond du couloir, à droite."}
+{"id":"fr.g042","card":"fr.c0163","a":"Excusez-moi, madame. Où est la gare?","b":"C'est tout près, au bout de la rue."}
+{"id":"fr.g043","card":"fr.c0165","a":"Pardon, monsieur, le Louvre, c'est par où?","b":"C'est tout droit, à dix minutes."}
+{"id":"fr.g044","card":"fr.c0167","a":"Bonjour, il y a une pharmacie près d'ici?","b":"Oui, il y a une pharmacie sur la place."}
+{"id":"fr.g045","card":"fr.c0170","a":"La tour Eiffel, c'est loin?","b":"Non, c'est à vingt minutes à pied."}
+{"id":"fr.g046","card":"fr.c0177","a":"Excusez-moi, je suis perdu. Je cherche la rue Victor-Hugo.","b":"Prenez la deuxième rue à gauche."}
+{"id":"fr.g047","card":"fr.c0182","a":"Tu pars ce week-end?","b":"Oui, je vais à Lyon en train samedi."}
+{"id":"fr.g048","card":"fr.c0187","a":"À quelle heure part le train pour Lille?","b":"À quatorze heures dix, voie B."}
+{"id":"fr.g049","card":"fr.c0190","a":"Tu arrives quand?","b":"Je ne sais pas, mon vol est en retard."}
+{"id":"fr.g050","card":"fr.c0191","a":"Bonjour. Votre passeport, s'il vous plaît.","b":"Voilà. Je suis ici pour les vacances."}
+{"id":"fr.g051","card":"fr.c0196","a":"Bonsoir, j'ai une réservation au nom de Ryan Smith.","b":"Oui, monsieur. Vous avez la chambre douze."}
+{"id":"fr.g052","card":"fr.c0198","a":"Ça va, Chloé?","b":"Pas vraiment, j'ai mal à la tête."}
+{"id":"fr.g053","card":"fr.c0201","a":"Pardon, madame, pouvez-vous m'aider?","b":"Bien sûr. Qu'est-ce qui se passe?"}
+{"id":"fr.g054","card":"fr.c0209","a":"Qu'est-ce qui ne va pas?","b":"J'ai de la fièvre depuis hier."}
+{"id":"fr.g055","card":"fr.c0207","a":"Bonjour, je peux avoir un rendez-vous avec le docteur Martin?","b":"Oui, demain à dix heures, ça vous va?"}
+{"id":"fr.g056","card":"fr.c0211","a":"Bonjour, vous avez quelque chose contre la toux?","b":"Oui, ce sirop est très bien."}
+{"id":"fr.g057","card":"fr.c0220","a":"Vous travaillez où, madame Martin?","b":"Je travaille dans une banque, à Nantes."}
+{"id":"fr.g058","card":"fr.c0217","a":"Qu'est-ce que tu fais comme travail?","b":"Je suis infirmière à l'hôpital."}
+{"id":"fr.g059","card":"fr.c0225","a":"Tu peux parler maintenant?","b":"Non, désolé, je suis en réunion. Je te rappelle."}
+{"id":"fr.g060","card":"fr.c0228","a":"Tu fais quoi cet été?","b":"Je cherche un stage à Paris."}
+{"id":"fr.g061","card":"fr.c0230","a":"Tu sors ce soir?","b":"Non, j'ai un examen lundi. Je dois réviser."}
+{"id":"fr.g062","card":"fr.c0232","a":"Tu veux sortir ce soir?","b":"Non merci, je suis fatigué."}
+{"id":"fr.g063","card":"fr.c0233","a":"J'ai faim. On mange quelque chose?","b":"Oui, il y a une crêperie à côté."}
+{"id":"fr.g064","card":"fr.c0234","a":"Tu as froid?","b":"Oui, j'ai froid. Je prends ma veste."}
+{"id":"fr.g065","card":"fr.c0240","a":"Alors, ce nouveau travail?","b":"Je suis contente, mes collègues sont sympas."}
+{"id":"fr.g066","card":"fr.c0244","a":"Tu as l'air fatigué, Hugo.","b":"Oui, je n'ai pas beaucoup dormi."}
+{"id":"fr.g067","card":"fr.c0249","a":"Qu'est-ce que tu fais le week-end?","b":"J'aime le cinéma, alors je vais souvent voir un film."}
+{"id":"fr.g068","card":"fr.c0257","a":"Tu fais du sport?","b":"Oui, je joue au foot le mercredi."}
+{"id":"fr.g069","card":"fr.c0260","a":"Tu veux aller au concert ce soir?","b":"Avec plaisir! Il commence à quelle heure?"}
+{"id":"fr.g070","card":"fr.c0261","a":"Qu'est-ce que tu as fait hier soir?","b":"Hier soir, j'ai regardé une série à la maison."}
+{"id":"fr.g071","card":"fr.c0265","a":"Qu'est-ce que tu aimes faire le dimanche?","b":"J'aime lire et faire de la randonnée."}
+{"id":"fr.g072","card":"fr.c0267","a":"Je ne viens pas ce soir.","b":"Pourquoi? Tu es malade?"}
+{"id":"fr.g073","card":"fr.c0269","a":"On va au restaurant. Est-ce que tu viens?","b":"Oui, j'arrive!"}
+{"id":"fr.g074","card":"fr.c0273","a":"Le train part à dix-sept heures.","b":"Comment? Vous pouvez répéter?"}
+{"id":"fr.g075","card":"fr.c0276","a":"Quelle est ton adresse?","b":"Douze, rue de la Paix."}
+{"id":"fr.g076","card":"fr.c0283","a":"On fait un pique-nique dimanche?","b":"Pourquoi pas? S'il fait beau!"}
+{"id":"fr.g077","card":"fr.c0284","a":"Tu as quel âge?","b":"J'ai vingt-cinq ans, et toi?"}
+{"id":"fr.g078","card":"fr.c0285","a":"Tu vas où?","b":"À la librairie. Je cherche un livre pour ma sœur."}
+{"id":"fr.g079","card":"fr.c0295","a":"Qu'est-ce que tu fais?","b":"J'écoute la radio dans la cuisine."}
+{"id":"fr.g080","card":"fr.c0296","a":"Qu'est-ce que tu cherches?","b":"Je cherche mes clés. Tu les as vues?"}
+{"id":"fr.g081","card":"fr.c0297","a":"Ah, c'est à gauche, pas à droite.","b":"Tu vois? J'ai raison!"}
+{"id":"fr.g082","card":"fr.c0302","a":"Le film commence dans dix minutes.","b":"D'accord. On y va?"}
+{"id":"fr.g083","card":"fr.c0303","a":"Il est où, Lucas?","b":"Je sais pas, il est peut-être en retard."}
+{"id":"fr.g084","card":"fr.c0304","a":"Oh pardon, je suis en retard!","b":"C'est pas grave, on a le temps."}
+{"id":"fr.g085","card":"fr.c0306","a":"On se retrouve à huit heures devant le cinéma?","b":"Ça marche, à tout à l'heure."}
+{"id":"fr.g086","card":"fr.c0317","a":"Tu fais quoi ce soir?","b":"Rien de spécial. Tu veux venir?"}
+{"id":"fr.g087","card":"fr.c0907","a":"Tu veux goûter ma tarte aux pommes?","b":"Mmm, c'est délicieux!"}
+{"id":"fr.g088","card":"fr.c0912","a":"J'ai eu mon permis de conduire!","b":"Bravo!"}
+{"id":"fr.g089","card":"fr.c0919","a":"On va au cinéma ce soir?","b":"Bonne idée!"}
+{"id":"fr.g090","card":"fr.c0920","a":"Je t'aide à porter les sacs.","b":"Merci, tu es vraiment gentil."}
+{"id":"fr.g091","card":"fr.c0926","a":"Alors, cette robe?","b":"Ça te va très bien."}
+{"id":"fr.g092","card":"fr.c0930","a":"Vous parlez très bien français!","b":"Merci, mais j'ai encore des progrès à faire."}
+{"id":"fr.g093","card":"fr.c0932","a":"C'est très joli chez toi.","b":"Merci, c'est gentil."}
+{"id":"fr.g094","card":"fr.c0933","a":"Ta nouvelle coupe est super.","b":"Tu trouves? Merci!"}
+{"id":"fr.g095","card":"fr.c0913","a":"J'ai trouvé un nouveau travail!","b":"Félicitations!"}
+{"id":"fr.g096","card":"fr.c0935","a":"Merci pour ce dîner, c'était parfait!","b":"Oh, ce n'est rien."}
+{"id":"fr.g097","card":"fr.c0938","a":"Tu as l'air en forme!","b":"Merci, toi aussi!"}
+{"id":"fr.g098","card":"fr.c0936","a":"Tu es la meilleure cuisinière du monde!","b":"Tu exagères!"}
+{"id":"fr.g099","card":"fr.c0934","a":"Ça sent super bon!","b":"Merci, ça me fait plaisir."}
+{"id":"fr.g100","card":"fr.c0915","a":"J'ai couru dix kilomètres ce matin.","b":"Chapeau!"}
+{"id":"fr.g101","card":"fr.c0964","a":"Je suis prête, on y va?","b":"Oui. Tu es belle, tu sais."}
+{"id":"fr.g102","card":"fr.c0965","a":"Je te trouve très belle ce soir.","b":"Merci, toi aussi tu es très beau."}
+{"id":"fr.g103","card":"fr.c0966","a":"Tu es très beau ce soir.","b":"Merci! J'ai fait un effort."}
+{"id":"fr.g104","card":"fr.c0967","a":"Tu as de beaux yeux, tu sais.","b":"Comme dans le film?"}
+{"id":"fr.g105","card":"fr.c0969","a":"Tu as un joli sourire.","b":"Merci, c'est gentil."}
+{"id":"fr.g106","card":"fr.c0971","a":"Je t'ai apporté des croissants.","b":"Oh, tu es mignon!"}
+{"id":"fr.g107","card":"fr.c0975","a":"Pourquoi tu me regardes?","b":"J'adore ton rire."}
+{"id":"fr.g108","card":"fr.c0977","a":"Tu me fais rire, tu sais.","b":"C'est bien, j'adore te voir rire."}
+{"id":"fr.g109","card":"fr.c0978","a":"Il est déjà minuit!","b":"Déjà? J'aime beaucoup parler avec toi."}
+{"id":"fr.g110","card":"fr.c0984","a":"Je dois te dire quelque chose: tu me plais.","b":"C'est vrai? Toi aussi, tu me plais."}
+{"id":"fr.g111","card":"fr.c0986","a":"Tu me manques.","b":"Toi aussi. Tu rentres quand?"}
+{"id":"fr.g112","card":"fr.c0987","a":"Je peux vous offrir un verre?","b":"Non merci, ça va."}
+{"id":"fr.g113","card":"fr.c0988","a":"Vous permettez que je m'assoie?","b":"Oui, bien sûr."}
+{"id":"fr.g114","card":"fr.c0989","a":"On peut se tutoyer?","b":"Oui, avec plaisir!"}
+{"id":"fr.g115","card":"fr.c0991","a":"Tu veux prendre un café avec moi?","b":"Avec plaisir!"}
+{"id":"fr.g116","card":"fr.c0992","a":"Ça te dirait de dîner avec moi samedi?","b":"Oui, j'aimerais bien."}
+{"id":"fr.g117","card":"fr.c0993","a":"Tu es libre samedi soir?","b":"Oui, pourquoi?"}
+{"id":"fr.g118","card":"fr.c0994","a":"Je peux avoir ton numéro?","b":"On verra. Donne-moi le tien d'abord!"}
+{"id":"fr.g119","card":"fr.c0997","a":"J'ai passé une super soirée avec toi. On se revoit?","b":"Oui, avec plaisir."}
+{"id":"fr.g120","card":"fr.c1000","a":"Tu es la plus belle fille de la soirée.","b":"Tu dis ça à toutes les filles?"}
+{"id":"fr.g121","card":"fr.c1001","a":"Tu as un sourire magnifique.","b":"Arrête, tu me fais rougir!"}
+{"id":"fr.g122","card":"fr.c1002","a":"Tes yeux sont plus beaux que la mer.","b":"Quel beau parleur!"}
+{"id":"fr.g123","card":"fr.c1004","a":"Tu veux dîner avec moi un soir?","b":"C'est gentil, mais je ne suis pas intéressée."}
+{"id":"fr.g124","card":"fr.c1005","a":"Tu as quelqu'un dans ta vie?","b":"Oui. Merci, mais j'ai quelqu'un."}
+{"id":"fr.g125","card":"fr.c1006","a":"Tu me plais beaucoup, tu sais.","b":"Tu es adorable, mais je préfère qu'on reste amis."}
+{"id":"fr.g126","card":"fr.c0790","a":"Oh là là! Il est déjà dix heures!","b":"Pas de panique, on a le temps."}
+{"id":"fr.g127","card":"fr.c0791","a":"Ouille! Je me suis cogné la tête.","b":"Ça va? Tu as mal?"}
+{"id":"fr.g128","card":"fr.c0792","a":"Le train part dans une minute!","b":"Ouf! On est à l'heure."}
+{"id":"fr.g129","card":"fr.c0793","a":"On part à six heures du matin.","b":"Hein? Si tôt?"}
+{"id":"fr.g130","card":"fr.c0794","a":"Tu veux quoi comme dessert?","b":"Euh… une crêpe, s'il te plaît."}
+{"id":"fr.g131","card":"fr.c0795","a":"Tu as aimé le film?","b":"Bah! C'était pas terrible."}
+{"id":"fr.g132","card":"fr.c0796","a":"Tu veux goûter les escargots?","b":"Beurk! Non merci!"}
+{"id":"fr.g133","card":"fr.c0797","a":"Mince! J'ai oublié mes clés.","b":"Pas grave, j'ai les miennes."}
+{"id":"fr.g134","card":"fr.c0798","a":"Allez, on y va, on va être en retard!","b":"J'arrive, j'arrive!"}
+{"id":"fr.g135","card":"fr.c0799","a":"Tiens! C'est pour toi.","b":"Oh, merci! C'est gentil!"}
+{"id":"fr.g136","card":"fr.c0800","a":"Coucou! Tu vas bien?","b":"Coucou! Oui, et toi?"}
+{"id":"fr.g137","card":"fr.c0801","a":"Hé! Tu as oublié ton sac!","b":"Oh, merci!"}
+{"id":"fr.g138","card":"fr.c0802","a":"Le musée est fermé le mardi.","b":"Ah bon? Je ne savais pas."}
+{"id":"fr.g139","card":"fr.c0803","a":"J'ai deux billets pour le concert.","b":"Super! Merci!"}
+{"id":"fr.g140","card":"fr.c0804","a":"On part à la mer ce week-end!","b":"Génial!"}
+{"id":"fr.g141","card":"fr.c0805","a":"Je ne peux pas venir samedi.","b":"Dommage! Une autre fois, alors."}
+{"id":"fr.g142","card":"fr.c0806","a":"Attention! Le vélo!","b":"Merci, je ne l'ai pas vu."}
+{"id":"fr.g143","card":"fr.c0807","a":"Il n'y a plus de croissants.","b":"Tant pis! Je prends un pain au chocolat."}
+{"id":"fr.g144","card":"fr.c0808","a":"Le médecin dit que ce n'est pas grave.","b":"Tant mieux!"}
+{"id":"fr.g145","card":"fr.c0809","a":"J'ai un examen demain.","b":"Bon courage!"}
+{"id":"fr.g146","card":"fr.c0810","a":"Je joue au loto ce soir.","b":"Bonne chance!"}
+{"id":"fr.g147","card":"fr.c0811","a":"Je suis allée à l'école avec ta sœur!","b":"Ça alors! Le monde est petit!"}
+{"id":"fr.g148","card":"fr.c0812","a":"Mon Dieu! Tu es tout mouillé!","b":"Oui, il pleut très fort."}
+{"id":"fr.g149","card":"fr.c0813","a":"Voilà la tour Eiffel!","b":"Ouah! Elle est grande!"}
+{"id":"fr.g150","card":"fr.c0814","a":"Le restaurant est fermé ce soir.","b":"Comment ça? On a réservé!"}
+{"id":"fr.g151","card":"fr.c0815","a":"Atchoum!","b":"À tes souhaits!"}
+{"id":"fr.g152","card":"fr.c0816","a":"Bonjour, je suis Megan.","b":"Bienvenue, Megan! Entre!"}
+{"id":"fr.g153","card":"fr.c0817","a":"Je peux prendre ta voiture?","b":"Pas question!"}
+{"id":"fr.g154","card":"fr.c0818","a":"Je peux m'asseoir ici?","b":"Bien sûr!"}
+{"id":"fr.g155","card":"fr.c0819","a":"Bon sang! Le bus est encore en retard!","b":"Comme d'habitude!"}

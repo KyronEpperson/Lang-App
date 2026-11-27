@@ -1,0 +1,43 @@
+{"id":"pt.t01","text":"Beginner"}
+{"id":"pt.t03","text":"Traveler"}
+{"id":"pt.t05","text":"Explorer"}
+{"id":"pt.t08","text":"Speaker"}
+{"id":"pt.t12","text":"Conversationalist"}
+{"id":"pt.t16","text":"Storyteller"}
+{"id":"pt.t20","text":"Master"}
+{"id":"pt.h.night","text":"Good night (you're up late)"}
+{"id":"pt.h.morning","text":"Good morning"}
+{"id":"pt.h.afternoon","text":"Good afternoon"}
+{"id":"pt.h.evening","text":"Good evening"}
+{"id":"pt.ld.more-spellings","text":"More spellings"}
+{"id":"pt.ld.accent-marks","text":"Accent marks"}
+{"id":"pt.ld.whole-words","text":"Whole words"}
+{"id":"pt.tl002.02","text":"eh/ay"}
+{"id":"pt.tl002.03","text":"ee"}
+{"id":"pt.tl002.04","text":"aw/oh"}
+{"id":"pt.tl002.05","text":"oo"}
+{"id":"pt.tl002.06","text":"eh"}
+{"id":"pt.tl002.07","text":"ay"}
+{"id":"pt.tl002.08","text":"aw"}
+{"id":"pt.tl002.09","text":"oh"}
+{"id":"pt.tl003.02","text":"chee"}
+{"id":"pt.tl003.04","text":"jee"}
+{"id":"pt.tl004.01","text":"ahng"}
+{"id":"pt.tl004.02","text":"ohng"}
+{"id":"pt.tl004.03","text":"owng"}
+{"id":"pt.tl004.04","text":"aing"}
+{"id":"pt.tl004.05","text":"oyng"}
+{"id":"pt.tl004.06","text":"ayng"}
+{"id":"pt.tl004.07","text":"eeng"}
+{"id":"pt.tl004.08","text":"ohng"}
+{"id":"pt.tl004.09","text":"oong"}
+{"id":"pt.tl005.02","text":"see"}
+{"id":"pt.tl005.05","text":"zhee"}
+{"id":"pt.tl005.07","text":"silent"}
+{"id":"pt.tl005.08","text":"zh"}
+{"id":"pt.tl005.10","text":"ly"}
+{"id":"pt.tl005.11","text":"ny"}
+{"id":"pt.tl005.18","text":"sh"}
+{"id":"pt.tl005.19","text":"sh"}
+{"id":"pt.tl006.02","text":"ee"}
+{"id":"pt.tl006.03","text":"oo"}

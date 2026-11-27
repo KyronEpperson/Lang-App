@@ -1,0 +1,315 @@
+{"id":"hmn.c0001","deck":"hmn.d.tones","hmn":"pob","rom":"high"}
+{"id":"hmn.c0002","deck":"hmn.d.tones","hmn":"poj","rom":"falling"}
+{"id":"hmn.c0003","deck":"hmn.d.tones","hmn":"pov","rom":"rising"}
+{"id":"hmn.c0004","deck":"hmn.d.tones","hmn":"po","rom":"mid"}
+{"id":"hmn.c0005","deck":"hmn.d.tones","hmn":"pos","rom":"low"}
+{"id":"hmn.c0006","deck":"hmn.d.tones","hmn":"pog","rom":"falling-breathy"}
+{"id":"hmn.c0007","deck":"hmn.d.tones","hmn":"pom","rom":"creaky"}
+{"id":"hmn.c0008","deck":"hmn.d.tones","hmn":"Hmoob","rom":"high"}
+{"id":"hmn.c0009","deck":"hmn.d.tones","hmn":"koj","rom":"falling"}
+{"id":"hmn.c0010","deck":"hmn.d.tones","hmn":"kuv","rom":"rising"}
+{"id":"hmn.c0011","deck":"hmn.d.tones","hmn":"dev","rom":"rising"}
+{"id":"hmn.c0012","deck":"hmn.d.tones","hmn":"zoo","rom":"mid"}
+{"id":"hmn.c0013","deck":"hmn.d.tones","hmn":"nws","rom":"low"}
+{"id":"hmn.c0014","deck":"hmn.d.tones","hmn":"neeg","rom":"falling-breathy"}
+{"id":"hmn.c0015","deck":"hmn.d.tones","hmn":"nyiam","rom":"creaky"}
+{"id":"hmn.c0016","deck":"hmn.d.tones","hmn":"ntawd","rom":"rising-final"}
+{"id":"hmn.c0017","deck":"hmn.d.tones","hmn":"nyob","rom":"high"}
+{"id":"hmn.c0018","deck":"hmn.d.tones","hmn":"nyom","rom":"creaky"}
+{"id":"hmn.c0019","deck":"hmn.d.consonants-and-vowels","hmn":"xav","rom":"rising"}
+{"id":"hmn.c0020","deck":"hmn.d.consonants-and-vowels","hmn":"siab","rom":"high"}
+{"id":"hmn.c0021","deck":"hmn.d.consonants-and-vowels","hmn":"zos","rom":"low"}
+{"id":"hmn.c0022","deck":"hmn.d.consonants-and-vowels","hmn":"roob","rom":"high"}
+{"id":"hmn.c0023","deck":"hmn.d.consonants-and-vowels","hmn":"ceev","rom":"rising"}
+{"id":"hmn.c0024","deck":"hmn.d.consonants-and-vowels","hmn":"qaib","rom":"high"}
+{"id":"hmn.c0025","deck":"hmn.d.consonants-and-vowels","hmn":"tw","rom":"mid"}
+{"id":"hmn.c0026","deck":"hmn.d.consonants-and-vowels","hmn":"phem","rom":"creaky"}
+{"id":"hmn.c0027","deck":"hmn.d.consonants-and-vowels","hmn":"tham","rom":"creaky"}
+{"id":"hmn.c0028","deck":"hmn.d.consonants-and-vowels","hmn":"khiav","rom":"rising"}
+{"id":"hmn.c0029","deck":"hmn.d.consonants-and-vowels","hmn":"npua","rom":"mid"}
+{"id":"hmn.c0030","deck":"hmn.d.consonants-and-vowels","hmn":"ntawv","rom":"rising"}
+{"id":"hmn.c0031","deck":"hmn.d.consonants-and-vowels","hmn":"nkauj","rom":"falling"}
+{"id":"hmn.c0032","deck":"hmn.d.consonants-and-vowels","hmn":"ntsev","rom":"rising"}
+{"id":"hmn.c0033","deck":"hmn.d.consonants-and-vowels","hmn":"hmo","rom":"mid"}
+{"id":"hmn.c0034","deck":"hmn.d.consonants-and-vowels","hmn":"hnub","rom":"high"}
+{"id":"hmn.c0035","deck":"hmn.d.consonants-and-vowels","hmn":"hlub","rom":"high"}
+{"id":"hmn.c0036","deck":"hmn.d.consonants-and-vowels","hmn":"tshiab","rom":"high"}
+{"id":"hmn.c0037","deck":"hmn.d.greetings-and-courtesy","hmn":"Nyob zoo.","rom":"high · mid"}
+{"id":"hmn.c0038","deck":"hmn.d.greetings-and-courtesy","hmn":"Koj nyob li cas?","rom":"falling · high · mid · low"}
+{"id":"hmn.c0039","deck":"hmn.d.greetings-and-courtesy","hmn":"Koj puas nyob zoo?","rom":"falling · low · high · mid"}
+{"id":"hmn.c0040","deck":"hmn.d.greetings-and-courtesy","hmn":"Kuv nyob zoo.","rom":"rising · high · mid"}
+{"id":"hmn.c0041","deck":"hmn.d.greetings-and-courtesy","hmn":"Ua tsaug.","rom":"mid · falling-breathy"}
+{"id":"hmn.c0042","deck":"hmn.d.greetings-and-courtesy","hmn":"Tsis ua li cas.","rom":"low · mid · mid · low"}
+{"id":"hmn.c0043","deck":"hmn.d.greetings-and-courtesy","hmn":"Thov txim.","rom":"rising · creaky"}
+{"id":"hmn.c0044","deck":"hmn.d.greetings-and-courtesy","hmn":"Kuv thov txim.","rom":"rising · rising · creaky"}
+{"id":"hmn.c0045","deck":"hmn.d.greetings-and-courtesy","hmn":"Thov zam kev.","rom":"rising · creaky · rising"}
+{"id":"hmn.c0046","deck":"hmn.d.greetings-and-courtesy","hmn":"Sib ntsib dua.","rom":"high · high · mid"}
+{"id":"hmn.c0047","deck":"hmn.d.greetings-and-courtesy","hmn":"Mus zoo.","rom":"low · mid"}
+{"id":"hmn.c0048","deck":"hmn.d.greetings-and-courtesy","hmn":"Zoo siab tau ntsib koj.","rom":"mid · high · mid · high · falling"}
+{"id":"hmn.c0049","deck":"hmn.d.greetings-and-courtesy","hmn":"Kuv zoo siab ntsib koj.","rom":"rising · mid · high · high · falling"}
+{"id":"hmn.c0050","deck":"hmn.d.greetings-and-courtesy","hmn":"Pw zoo os.","rom":"mid · mid · low"}
+{"id":"hmn.c0051","deck":"hmn.d.greetings-and-courtesy","hmn":"Thov hais dua.","rom":"rising · low · mid"}
+{"id":"hmn.c0052","deck":"hmn.d.greetings-and-courtesy","hmn":"Hais dua puas tau?","rom":"low · mid · low · mid"}
+{"id":"hmn.c0053","deck":"hmn.d.greetings-and-courtesy","hmn":"Thov hais maj mam.","rom":"rising · low · falling · creaky"}
+{"id":"hmn.c0054","deck":"hmn.d.greetings-and-courtesy","hmn":"Kuv tsis nkag siab.","rom":"rising · low · falling-breathy · high"}
+{"id":"hmn.c0055","deck":"hmn.d.about-me","hmn":"Koj lub npe hu li cas?","rom":"falling · high · mid · mid · mid · low"}
+{"id":"hmn.c0056","deck":"hmn.d.about-me","hmn":"Kuv lub npe hu ua Paj.","rom":"rising · high · mid · mid · mid · falling"}
+{"id":"hmn.c0057","deck":"hmn.d.about-me","hmn":"Koj tuaj qhov twg tuaj?","rom":"falling · falling · rising · falling-breathy · falling"}
+{"id":"hmn.c0058","deck":"hmn.d.about-me","hmn":"Koj nyob qhov twg?","rom":"falling · high · rising · falling-breathy"}
+{"id":"hmn.c0059","deck":"hmn.d.about-me","hmn":"Kuv nyob Minneapolis.","rom":"rising · high · —"}
+{"id":"hmn.c0060","deck":"hmn.d.about-me","hmn":"Kuv yog Hmoob.","rom":"rising · falling-breathy · high"}
+{"id":"hmn.c0061","deck":"hmn.d.about-me","hmn":"Koj yog Hmoob xeem dab tsi?","rom":"falling · falling-breathy · high · creaky · high · mid"}
+{"id":"hmn.c0062","deck":"hmn.d.about-me","hmn":"Kuv yog Hmoob xeem Vang.","rom":"rising · falling-breathy · high · creaky · —"}
+{"id":"hmn.c0063","deck":"hmn.d.about-me","hmn":"Koj hnub nyoog pes tsawg?","rom":"falling · high · falling-breathy · low · falling-breathy"}
+{"id":"hmn.c0064","deck":"hmn.d.about-me","hmn":"Kuv hnub nyoog muaj nees nkaum xyoo.","rom":"rising · high · falling-breathy · falling · low · creaky · mid"}
+{"id":"hmn.c0065","deck":"hmn.d.about-me","hmn":"Koj puas hais lus Askiv?","rom":"falling · low · low · low · low · rising"}
+{"id":"hmn.c0066","deck":"hmn.d.about-me","hmn":"Peb hais lus Hmoob.","rom":"high · low · low · high"}
+{"id":"hmn.c0067","deck":"hmn.d.about-me","hmn":"Wb hais lus Askiv.","rom":"high · low · low · low · rising"}
+{"id":"hmn.c0068","deck":"hmn.d.about-me","hmn":"Kuv ua hauj lwm.","rom":"rising · mid · falling · creaky"}
+{"id":"hmn.c0069","deck":"hmn.d.about-me","hmn":"Kuv kawm ntawv.","rom":"rising · creaky · rising"}
+{"id":"hmn.c0070","deck":"hmn.d.about-me","hmn":"Kuv yog ib tug xib fwb.","rom":"rising · falling-breathy · high · falling-breathy · high · high"}
+{"id":"hmn.c0071","deck":"hmn.d.about-me","hmn":"Koj yog kuv tus phooj ywg.","rom":"falling · falling-breathy · rising · low · falling · falling-breathy"}
+{"id":"hmn.c0072","deck":"hmn.d.about-me","hmn":"Nws nyob Fresno.","rom":"low · high · —"}
+{"id":"hmn.c0073","deck":"hmn.d.family-and-kinship","hmn":"niam","rom":"creaky"}
+{"id":"hmn.c0074","deck":"hmn.d.family-and-kinship","hmn":"txiv","rom":"rising"}
+{"id":"hmn.c0075","deck":"hmn.d.family-and-kinship","hmn":"tub","rom":"high"}
+{"id":"hmn.c0076","deck":"hmn.d.family-and-kinship","hmn":"ntxhais","rom":"low"}
+{"id":"hmn.c0077","deck":"hmn.d.family-and-kinship","hmn":"me nyuam","rom":"mid · creaky"}
+{"id":"hmn.c0078","deck":"hmn.d.family-and-kinship","hmn":"nus muag","rom":"low · falling-breathy"}
+{"id":"hmn.c0079","deck":"hmn.d.family-and-kinship","hmn":"tij laug","rom":"falling · falling-breathy"}
+{"id":"hmn.c0080","deck":"hmn.d.family-and-kinship","hmn":"kwv","rom":"rising"}
+{"id":"hmn.c0081","deck":"hmn.d.family-and-kinship","hmn":"muam","rom":"creaky"}
+{"id":"hmn.c0082","deck":"hmn.d.family-and-kinship","hmn":"nus","rom":"low"}
+{"id":"hmn.c0083","deck":"hmn.d.family-and-kinship","hmn":"viv ncaus","rom":"rising · low"}
+{"id":"hmn.c0084","deck":"hmn.d.family-and-kinship","hmn":"yawg","rom":"falling-breathy"}
+{"id":"hmn.c0085","deck":"hmn.d.family-and-kinship","hmn":"niam tais","rom":"creaky · low"}
+{"id":"hmn.c0086","deck":"hmn.d.family-and-kinship","hmn":"yawm txiv","rom":"creaky · rising"}
+{"id":"hmn.c0087","deck":"hmn.d.family-and-kinship","hmn":"txiv hlob","rom":"rising · high"}
+{"id":"hmn.c0088","deck":"hmn.d.family-and-kinship","hmn":"phauj","rom":"falling"}
+{"id":"hmn.c0089","deck":"hmn.d.family-and-kinship","hmn":"dab laug","rom":"high · falling-breathy"}
+{"id":"hmn.c0090","deck":"hmn.d.family-and-kinship","hmn":"nyab","rom":"high"}
+{"id":"hmn.c0091","deck":"hmn.d.numbers-and-money","hmn":"ib","rom":"high"}
+{"id":"hmn.c0092","deck":"hmn.d.numbers-and-money","hmn":"ob","rom":"high"}
+{"id":"hmn.c0093","deck":"hmn.d.numbers-and-money","hmn":"peb","rom":"high"}
+{"id":"hmn.c0094","deck":"hmn.d.numbers-and-money","hmn":"plaub","rom":"high"}
+{"id":"hmn.c0095","deck":"hmn.d.numbers-and-money","hmn":"tsib","rom":"high"}
+{"id":"hmn.c0096","deck":"hmn.d.numbers-and-money","hmn":"rau","rom":"mid"}
+{"id":"hmn.c0097","deck":"hmn.d.numbers-and-money","hmn":"xya","rom":"mid"}
+{"id":"hmn.c0098","deck":"hmn.d.numbers-and-money","hmn":"yim","rom":"creaky"}
+{"id":"hmn.c0099","deck":"hmn.d.numbers-and-money","hmn":"cuaj","rom":"falling"}
+{"id":"hmn.c0100","deck":"hmn.d.numbers-and-money","hmn":"kaum","rom":"creaky"}
+{"id":"hmn.c0101","deck":"hmn.d.numbers-and-money","hmn":"nees nkaum","rom":"low · creaky"}
+{"id":"hmn.c0102","deck":"hmn.d.numbers-and-money","hmn":"peb caug","rom":"high · falling-breathy"}
+{"id":"hmn.c0103","deck":"hmn.d.numbers-and-money","hmn":"rau caum","rom":"mid · creaky"}
+{"id":"hmn.c0104","deck":"hmn.d.numbers-and-money","hmn":"ib puas","rom":"high · low"}
+{"id":"hmn.c0105","deck":"hmn.d.numbers-and-money","hmn":"rau pua","rom":"mid · mid"}
+{"id":"hmn.c0106","deck":"hmn.d.numbers-and-money","hmn":"ib txhiab","rom":"high · high"}
+{"id":"hmn.c0107","deck":"hmn.d.numbers-and-money","hmn":"ib plhom","rom":"high · creaky"}
+{"id":"hmn.c0108","deck":"hmn.d.numbers-and-money","hmn":"daus las","rom":"low · low"}
+{"id":"hmn.c0109","deck":"hmn.d.things-and-classifiers","hmn":"lub tsev","rom":"high · rising"}
+{"id":"hmn.c0110","deck":"hmn.d.things-and-classifiers","hmn":"lub tsheb","rom":"high · high"}
+{"id":"hmn.c0111","deck":"hmn.d.things-and-classifiers","hmn":"daim ntawv","rom":"creaky · rising"}
+{"id":"hmn.c0112","deck":"hmn.d.things-and-classifiers","hmn":"phau ntawv","rom":"mid · rising"}
+{"id":"hmn.c0113","deck":"hmn.d.things-and-classifiers","hmn":"rab riam","rom":"high · creaky"}
+{"id":"hmn.c0114","deck":"hmn.d.things-and-classifiers","hmn":"txoj hlua","rom":"falling · mid"}
+{"id":"hmn.c0115","deck":"hmn.d.things-and-classifiers","hmn":"zaj hu nkauj","rom":"falling · mid · falling"}
+{"id":"hmn.c0116","deck":"hmn.d.things-and-classifiers","hmn":"tsob ntoo","rom":"high · mid"}
+{"id":"hmn.c0117","deck":"hmn.d.things-and-classifiers","hmn":"nkawm khau","rom":"creaky · mid"}
+{"id":"hmn.c0118","deck":"hmn.d.things-and-classifiers","hmn":"lub kaus","rom":"high · low"}
+{"id":"hmn.c0119","deck":"hmn.d.things-and-classifiers","hmn":"ob tug dev","rom":"high · falling-breathy · rising"}
+{"id":"hmn.c0120","deck":"hmn.d.things-and-classifiers","hmn":"lub tsheb liab","rom":"high · high · high"}
+{"id":"hmn.c0121","deck":"hmn.d.things-and-classifiers","hmn":"lub tsev no","rom":"high · rising · mid"}
+{"id":"hmn.c0122","deck":"hmn.d.things-and-classifiers","hmn":"lub tsev ntawd","rom":"high · rising · rising-final"}
+{"id":"hmn.c0123","deck":"hmn.d.things-and-classifiers","hmn":"kuv lub xov tooj","rom":"rising · high · rising · falling"}
+{"id":"hmn.c0124","deck":"hmn.d.things-and-classifiers","hmn":"ib khob dej","rom":"high · high · falling"}
+{"id":"hmn.c0125","deck":"hmn.d.things-and-classifiers","hmn":"cov me nyuam","rom":"rising · mid · creaky"}
+{"id":"hmn.c0126","deck":"hmn.d.things-and-classifiers","hmn":"lub hnab","rom":"high · high"}
+{"id":"hmn.c0127","deck":"hmn.d.food-and-drink","hmn":"mov","rom":"rising"}
+{"id":"hmn.c0128","deck":"hmn.d.food-and-drink","hmn":"zaub","rom":"high"}
+{"id":"hmn.c0129","deck":"hmn.d.food-and-drink","hmn":"nqaij npua","rom":"falling · mid"}
+{"id":"hmn.c0130","deck":"hmn.d.food-and-drink","hmn":"nqaij nyuj","rom":"falling · falling"}
+{"id":"hmn.c0131","deck":"hmn.d.food-and-drink","hmn":"ntses","rom":"low"}
+{"id":"hmn.c0132","deck":"hmn.d.food-and-drink","hmn":"qe","rom":"mid"}
+{"id":"hmn.c0133","deck":"hmn.d.food-and-drink","hmn":"fawm","rom":"creaky"}
+{"id":"hmn.c0134","deck":"hmn.d.food-and-drink","hmn":"kua txob","rom":"mid · high"}
+{"id":"hmn.c0135","deck":"hmn.d.food-and-drink","hmn":"dej","rom":"falling"}
+{"id":"hmn.c0136","deck":"hmn.d.food-and-drink","hmn":"tshuaj yej","rom":"falling · falling"}
+{"id":"hmn.c0137","deck":"hmn.d.food-and-drink","hmn":"kav fes","rom":"rising · low"}
+{"id":"hmn.c0138","deck":"hmn.d.food-and-drink","hmn":"mis nyuj","rom":"low · falling"}
+{"id":"hmn.c0139","deck":"hmn.d.food-and-drink","hmn":"txiv hmab txiv ntoo","rom":"rising · high · rising · mid"}
+{"id":"hmn.c0140","deck":"hmn.d.food-and-drink","hmn":"noj","rom":"falling"}
+{"id":"hmn.c0141","deck":"hmn.d.food-and-drink","hmn":"haus","rom":"low"}
+{"id":"hmn.c0142","deck":"hmn.d.food-and-drink","hmn":"noj tshais","rom":"falling · low"}
+{"id":"hmn.c0143","deck":"hmn.d.food-and-drink","hmn":"noj su","rom":"falling · mid"}
+{"id":"hmn.c0144","deck":"hmn.d.food-and-drink","hmn":"qab heev","rom":"high · rising"}
+{"id":"hmn.c0145","deck":"hmn.d.time-and-days","hmn":"hnub no","rom":"high · mid"}
+{"id":"hmn.c0146","deck":"hmn.d.time-and-days","hmn":"nag hmo","rom":"falling-breathy · mid"}
+{"id":"hmn.c0147","deck":"hmn.d.time-and-days","hmn":"tag kis","rom":"falling-breathy · low"}
+{"id":"hmn.c0148","deck":"hmn.d.time-and-days","hmn":"sawv ntxov","rom":"rising · rising"}
+{"id":"hmn.c0149","deck":"hmn.d.time-and-days","hmn":"tav su","rom":"rising · mid"}
+{"id":"hmn.c0150","deck":"hmn.d.time-and-days","hmn":"tsaus ntuj","rom":"low · falling"}
+{"id":"hmn.c0151","deck":"hmn.d.time-and-days","hmn":"hmo ntuj","rom":"mid · falling"}
+{"id":"hmn.c0152","deck":"hmn.d.time-and-days","hmn":"hnub Monday","rom":"high · —"}
+{"id":"hmn.c0153","deck":"hmn.d.time-and-days","hmn":"hnub Monday txog hnub Friday","rom":"high · — · falling-breathy · high · —"}
+{"id":"hmn.c0154","deck":"hmn.d.time-and-days","hmn":"hnub so","rom":"high · mid"}
+{"id":"hmn.c0155","deck":"hmn.d.time-and-days","hmn":"lim tiam","rom":"creaky · creaky"}
+{"id":"hmn.c0156","deck":"hmn.d.time-and-days","hmn":"ib hlis ntuj","rom":"high · low · falling"}
+{"id":"hmn.c0157","deck":"hmn.d.time-and-days","hmn":"xyoo","rom":"mid"}
+{"id":"hmn.c0158","deck":"hmn.d.time-and-days","hmn":"lwm xyoo","rom":"creaky · mid"}
+{"id":"hmn.c0159","deck":"hmn.d.time-and-days","hmn":"txhua hnub","rom":"mid · high"}
+{"id":"hmn.c0160","deck":"hmn.d.time-and-days","hmn":"7 sawv ntxov","rom":"— · rising · rising"}
+{"id":"hmn.c0161","deck":"hmn.d.time-and-days","hmn":"Kuv noj mov lawm.","rom":"rising · falling · rising · creaky"}
+{"id":"hmn.c0162","deck":"hmn.d.time-and-days","hmn":"Lawv tab tom haus dej.","rom":"rising · high · creaky · low · falling"}
+{"id":"hmn.c0163","deck":"hmn.d.feelings-and-weather","hmn":"zoo siab","rom":"mid · high"}
+{"id":"hmn.c0164","deck":"hmn.d.feelings-and-weather","hmn":"tu siab","rom":"mid · high"}
+{"id":"hmn.c0165","deck":"hmn.d.feelings-and-weather","hmn":"chim siab","rom":"creaky · high"}
+{"id":"hmn.c0166","deck":"hmn.d.feelings-and-weather","hmn":"kho siab","rom":"mid · high"}
+{"id":"hmn.c0167","deck":"hmn.d.feelings-and-weather","hmn":"ntshai","rom":"mid"}
+{"id":"hmn.c0168","deck":"hmn.d.feelings-and-weather","hmn":"txaj muag","rom":"falling · falling-breathy"}
+{"id":"hmn.c0169","deck":"hmn.d.feelings-and-weather","hmn":"kaj siab","rom":"falling · high"}
+{"id":"hmn.c0170","deck":"hmn.d.feelings-and-weather","hmn":"siab ntev","rom":"high · rising"}
+{"id":"hmn.c0171","deck":"hmn.d.feelings-and-weather","hmn":"Kuv zoo siab heev.","rom":"rising · mid · high · rising"}
+{"id":"hmn.c0172","deck":"hmn.d.feelings-and-weather","hmn":"Nws chim siab.","rom":"low · creaky · high"}
+{"id":"hmn.c0173","deck":"hmn.d.feelings-and-weather","hmn":"huab cua","rom":"high · mid"}
+{"id":"hmn.c0174","deck":"hmn.d.feelings-and-weather","hmn":"los nag","rom":"low · falling-breathy"}
+{"id":"hmn.c0175","deck":"hmn.d.feelings-and-weather","hmn":"daus","rom":"low"}
+{"id":"hmn.c0176","deck":"hmn.d.feelings-and-weather","hmn":"cua","rom":"mid"}
+{"id":"hmn.c0177","deck":"hmn.d.feelings-and-weather","hmn":"kub","rom":"high"}
+{"id":"hmn.c0178","deck":"hmn.d.feelings-and-weather","hmn":"no","rom":"mid"}
+{"id":"hmn.c0179","deck":"hmn.d.feelings-and-weather","hmn":"sov","rom":"rising"}
+{"id":"hmn.c0180","deck":"hmn.d.getting-around","hmn":"Koj xav mus qhov twg?","rom":"falling · rising · low · rising · falling-breathy"}
+{"id":"hmn.c0181","deck":"hmn.d.getting-around","hmn":"Koj los qhov twg los?","rom":"falling · low · rising · falling-breathy · low"}
+{"id":"hmn.c0182","deck":"hmn.d.getting-around","hmn":"Chav dej nyob qhov twg?","rom":"rising · falling · high · rising · falling-breathy"}
+{"id":"hmn.c0183","deck":"hmn.d.getting-around","hmn":"Kuv mus tom khw.","rom":"rising · low · creaky · mid"}
+{"id":"hmn.c0184","deck":"hmn.d.getting-around","hmn":"Nws nyob tod.","rom":"low · high · rising-final"}
+{"id":"hmn.c0185","deck":"hmn.d.getting-around","hmn":"Lawv nyob pem toj.","rom":"rising · high · creaky · falling"}
+{"id":"hmn.c0186","deck":"hmn.d.getting-around","hmn":"Kuv mus nram tus dej.","rom":"rising · low · creaky · low · falling"}
+{"id":"hmn.c0187","deck":"hmn.d.getting-around","hmn":"Nws lub tsev nyob tim tus dej.","rom":"low · high · rising · high · creaky · low · falling"}
+{"id":"hmn.c0188","deck":"hmn.d.getting-around","hmn":"Kuv nyob ntawm qhov rooj.","rom":"rising · high · creaky · rising · falling"}
+{"id":"hmn.c0189","deck":"hmn.d.getting-around","hmn":"Kuv lub tsev nyob ze.","rom":"rising · high · rising · high · mid"}
+{"id":"hmn.c0190","deck":"hmn.d.getting-around","hmn":"Nws lub tsev nyob deb.","rom":"low · high · rising · high · high"}
+{"id":"hmn.c0191","deck":"hmn.d.getting-around","hmn":"Nws nyob sab xis.","rom":"low · high · high · low"}
+{"id":"hmn.c0192","deck":"hmn.d.getting-around","hmn":"Mus ncaj nraim.","rom":"low · falling · creaky"}
+{"id":"hmn.c0193","deck":"hmn.d.getting-around","hmn":"Kuv tsav tsheb mus ua hauj lwm.","rom":"rising · rising · high · low · mid · falling · creaky"}
+{"id":"hmn.c0194","deck":"hmn.d.getting-around","hmn":"Peb caij tsheb mus Fresno.","rom":"high · falling · high · low · —"}
+{"id":"hmn.c0195","deck":"hmn.d.getting-around","hmn":"Txoj kev no ntev.","rom":"falling · rising · mid · rising"}
+{"id":"hmn.c0196","deck":"hmn.d.getting-around","hmn":"Nws nyob hauv lub tsheb.","rom":"low · high · rising · high · high"}
+{"id":"hmn.c0197","deck":"hmn.d.getting-around","hmn":"Kuv tuaj txog lawm.","rom":"rising · falling · falling-breathy · creaky"}
+{"id":"hmn.c0198","deck":"hmn.d.shopping-and-money","hmn":"Tus nqi yog li cas?","rom":"low · mid · falling-breathy · mid · low"}
+{"id":"hmn.c0199","deck":"hmn.d.shopping-and-money","hmn":"Lub kaus no pes tsawg?","rom":"high · low · mid · low · falling-breathy"}
+{"id":"hmn.c0200","deck":"hmn.d.shopping-and-money","hmn":"Kim heev!","rom":"creaky · rising"}
+{"id":"hmn.c0201","deck":"hmn.d.shopping-and-money","hmn":"Kim ua luab.","rom":"creaky · mid · high"}
+{"id":"hmn.c0202","deck":"hmn.d.shopping-and-money","hmn":"Lub hnab no pheej yig.","rom":"high · high · mid · falling · falling-breathy"}
+{"id":"hmn.c0203","deck":"hmn.d.shopping-and-money","hmn":"Lub xov tooj no kim tshaj lub xov tooj ntawd.","rom":"high · rising · falling · mid · creaky · falling · high · rising · falling · rising-final"}
+{"id":"hmn.c0204","deck":"hmn.d.shopping-and-money","hmn":"Lub tsheb no zoo tshaj.","rom":"high · high · mid · mid · falling"}
+{"id":"hmn.c0205","deck":"hmn.d.shopping-and-money","hmn":"Cov khoom no kim.","rom":"rising · creaky · mid · creaky"}
+{"id":"hmn.c0206","deck":"hmn.d.shopping-and-money","hmn":"Kuv xav yuav ib nkawm khau.","rom":"rising · rising · rising · high · creaky · mid"}
+{"id":"hmn.c0207","deck":"hmn.d.shopping-and-money","hmn":"Kuv mus kav khw.","rom":"rising · low · rising · mid"}
+{"id":"hmn.c0208","deck":"hmn.d.shopping-and-money","hmn":"Nws muag zaub.","rom":"low · falling-breathy · high"}
+{"id":"hmn.c0209","deck":"hmn.d.shopping-and-money","hmn":"Koj puas muag kav fes?","rom":"falling · low · falling-breathy · rising · low"}
+{"id":"hmn.c0210","deck":"hmn.d.shopping-and-money","hmn":"Kuv yuav them nqi.","rom":"rising · rising · creaky · mid"}
+{"id":"hmn.c0211","deck":"hmn.d.shopping-and-money","hmn":"Koj puas muaj luv nqi?","rom":"falling · low · falling · rising · mid"}
+{"id":"hmn.c0212","deck":"hmn.d.shopping-and-money","hmn":"Kuv tsis muaj nyiaj.","rom":"rising · low · falling · falling"}
+{"id":"hmn.c0213","deck":"hmn.d.shopping-and-money","hmn":"Tsib daus las xwb.","rom":"high · low · low · high"}
+{"id":"hmn.c0214","deck":"hmn.d.health-and-help","hmn":"Kuv mob.","rom":"rising · high"}
+{"id":"hmn.c0215","deck":"hmn.d.health-and-help","hmn":"Kuv mob plab.","rom":"rising · high · high"}
+{"id":"hmn.c0216","deck":"hmn.d.health-and-help","hmn":"Kuv mob taub hau.","rom":"rising · high · high · mid"}
+{"id":"hmn.c0217","deck":"hmn.d.health-and-help","hmn":"Kuv mob hniav.","rom":"rising · high · rising"}
+{"id":"hmn.c0218","deck":"hmn.d.health-and-help","hmn":"Kuv kub ib ce.","rom":"rising · high · high · mid"}
+{"id":"hmn.c0219","deck":"hmn.d.health-and-help","hmn":"Kuv hnoos.","rom":"rising · low"}
+{"id":"hmn.c0220","deck":"hmn.d.health-and-help","hmn":"Kuv ntuav.","rom":"rising · rising"}
+{"id":"hmn.c0221","deck":"hmn.d.health-and-help","hmn":"Kuv zawv plab.","rom":"rising · rising · high"}
+{"id":"hmn.c0222","deck":"hmn.d.health-and-help","hmn":"Koj mob qhov twg?","rom":"falling · high · rising · falling-breathy"}
+{"id":"hmn.c0223","deck":"hmn.d.health-and-help","hmn":"Kuv xav ntsib kws kho mob.","rom":"rising · rising · high · low · mid · high"}
+{"id":"hmn.c0224","deck":"hmn.d.health-and-help","hmn":"Lub tsev kho mob nyob qhov twg?","rom":"high · rising · mid · high · high · rising · falling-breathy"}
+{"id":"hmn.c0225","deck":"hmn.d.health-and-help","hmn":"Khw muab tshuaj nyob qhov twg?","rom":"mid · high · falling · high · rising · falling-breathy"}
+{"id":"hmn.c0226","deck":"hmn.d.health-and-help","hmn":"Koj yuav tsum noj tshuaj.","rom":"falling · rising · creaky · falling · falling"}
+{"id":"hmn.c0227","deck":"hmn.d.health-and-help","hmn":"Kuv xav teem sij hawm.","rom":"rising · rising · creaky · falling · creaky"}
+{"id":"hmn.c0228","deck":"hmn.d.health-and-help","hmn":"Kuv xav tau ib tug neeg txhais lus.","rom":"rising · rising · mid · high · falling-breathy · falling-breathy · low · low"}
+{"id":"hmn.c0229","deck":"hmn.d.health-and-help","hmn":"Pab!","rom":"high"}
+{"id":"hmn.c0230","deck":"hmn.d.health-and-help","hmn":"Thov pab kuv.","rom":"rising · high · rising"}
+{"id":"hmn.c0231","deck":"hmn.d.health-and-help","hmn":"Thov hu tsheb tos neeg mob.","rom":"rising · mid · high · low · falling-breathy · high"}
+{"id":"hmn.c0232","deck":"hmn.d.talking-with-elders","hmn":"Koj tuaj los?","rom":"falling · falling · low"}
+{"id":"hmn.c0233","deck":"hmn.d.talking-with-elders","hmn":"Peb tuaj os.","rom":"high · falling · low"}
+{"id":"hmn.c0234","deck":"hmn.d.talking-with-elders","hmn":"Koj noj mov lawm los tsis yog?","rom":"falling · falling · rising · creaky · low · low · falling-breathy"}
+{"id":"hmn.c0235","deck":"hmn.d.talking-with-elders","hmn":"Peb noj mov lawm.","rom":"high · falling · rising · creaky"}
+{"id":"hmn.c0236","deck":"hmn.d.talking-with-elders","hmn":"Yawg, nyob zoo.","rom":"falling-breathy · high · mid"}
+{"id":"hmn.c0237","deck":"hmn.d.talking-with-elders","hmn":"Pog, koj puas nyob zoo?","rom":"falling-breathy · falling · low · high · mid"}
+{"id":"hmn.c0238","deck":"hmn.d.talking-with-elders","hmn":"Yawg, thov zaum.","rom":"falling-breathy · rising · creaky"}
+{"id":"hmn.c0239","deck":"hmn.d.talking-with-elders","hmn":"Pog, thov hais maj mam.","rom":"falling-breathy · rising · low · falling · creaky"}
+{"id":"hmn.c0240","deck":"hmn.d.talking-with-elders","hmn":"Ua tsaug os, niam tais.","rom":"mid · falling-breathy · low · creaky · low"}
+{"id":"hmn.c0241","deck":"hmn.d.talking-with-elders","hmn":"Yawg, kuv nco koj.","rom":"falling-breathy · rising · mid · falling"}
+{"id":"hmn.c0242","deck":"hmn.d.talking-with-elders","hmn":"Pog, kuv hlub koj.","rom":"falling-breathy · rising · high · falling"}
+{"id":"hmn.c0243","deck":"hmn.d.talking-with-elders","hmn":"Kuv tsis tshuav txawj ua.","rom":"rising · low · rising · falling · mid"}
+{"id":"hmn.c0244","deck":"hmn.d.talking-with-elders","hmn":"Kuv yuav maj mus.","rom":"rising · rising · falling · low"}
+{"id":"hmn.c0245","deck":"hmn.d.talking-with-elders","hmn":"Kuv yuav mus tsev.","rom":"rising · rising · low · rising"}
+{"id":"hmn.c0246","deck":"hmn.d.talking-with-elders","hmn":"Nyob. Wb tham mentsis tso maj.","rom":"high · high · creaky · mid · low · mid · falling"}
+{"id":"hmn.c0247","deck":"hmn.d.talking-with-elders","hmn":"Mus ho tuaj.","rom":"low · mid · falling"}
+{"id":"hmn.c0248","deck":"hmn.d.talking-with-elders","hmn":"Noj qab nyob zoo os.","rom":"falling · high · high · mid · low"}
+{"id":"hmn.c0249","deck":"hmn.d.new-year-and-celebrations","hmn":"Nyob zoo xyoo tshiab.","rom":"high · mid · mid · high"}
+{"id":"hmn.c0250","deck":"hmn.d.new-year-and-celebrations","hmn":"Peb mus noj peb caug.","rom":"high · low · falling · high · falling-breathy"}
+{"id":"hmn.c0251","deck":"hmn.d.new-year-and-celebrations","hmn":"Cov hluas nkauj thiab cov hluas nraug pov pob.","rom":"rising · low · falling · high · rising · low · falling-breathy · rising · high"}
+{"id":"hmn.c0252","deck":"hmn.d.new-year-and-celebrations","hmn":"Kuv nyiam pov pob.","rom":"rising · creaky · rising · high"}
+{"id":"hmn.c0253","deck":"hmn.d.new-year-and-celebrations","hmn":"Nws pov lub pob rau kuv.","rom":"low · rising · high · high · mid · rising"}
+{"id":"hmn.c0254","deck":"hmn.d.new-year-and-celebrations","hmn":"Kuv nyiam mloog qeej.","rom":"rising · creaky · falling-breathy · falling"}
+{"id":"hmn.c0255","deck":"hmn.d.new-year-and-celebrations","hmn":"Kuv hnav khaub ncaws Hmoob.","rom":"rising · rising · high · low · high"}
+{"id":"hmn.c0256","deck":"hmn.d.new-year-and-celebrations","hmn":"Nws hnav hlab nyiaj.","rom":"low · rising · high · falling"}
+{"id":"hmn.c0257","deck":"hmn.d.new-year-and-celebrations","hmn":"Kuv muaj khaub ncaws tshiab.","rom":"rising · falling · high · low · high"}
+{"id":"hmn.c0258","deck":"hmn.d.new-year-and-celebrations","hmn":"Koj cov khaub ncaws zoo nkauj heev.","rom":"falling · rising · high · low · mid · falling · rising"}
+{"id":"hmn.c0259","deck":"hmn.d.new-year-and-celebrations","hmn":"Kuv niam xaws paj ntaub.","rom":"rising · creaky · low · falling · high"}
+{"id":"hmn.c0260","deck":"hmn.d.new-year-and-celebrations","hmn":"Zoo siab hnub yug.","rom":"mid · high · high · falling-breathy"}
+{"id":"hmn.c0261","deck":"hmn.d.new-year-and-celebrations","hmn":"Nws hu nkauj zoo heev.","rom":"low · mid · falling · mid · rising"}
+{"id":"hmn.c0262","deck":"hmn.d.new-year-and-celebrations","hmn":"Hmoov zoo!","rom":"rising · mid"}
+{"id":"hmn.c0263","deck":"hmn.d.new-year-and-celebrations","hmn":"Lwm xyoo peb yuav rov tuaj.","rom":"creaky · mid · high · rising · rising · falling"}
+{"id":"hmn.c0264","deck":"hmn.d.family-events","hmn":"Tag kis lawv hu plig.","rom":"falling-breathy · low · rising · mid · falling-breathy"}
+{"id":"hmn.c0265","deck":"hmn.d.family-events","hmn":"Yawg khi tes rau tus me nyuam.","rom":"falling-breathy · mid · low · mid · low · mid · creaky"}
+{"id":"hmn.c0266","deck":"hmn.d.family-events","hmn":"Peb muaj koob tsheej.","rom":"high · falling · high · falling"}
+{"id":"hmn.c0267","deck":"hmn.d.family-events","hmn":"Peb npaj koob tsheej.","rom":"high · falling · high · falling"}
+{"id":"hmn.c0268","deck":"hmn.d.family-events","hmn":"Kuv yog xeem Vang.","rom":"rising · falling-breathy · creaky · —"}
+{"id":"hmn.c0269","deck":"hmn.d.family-events","hmn":"Peb tsev neeg sib ntsib.","rom":"high · rising · falling-breathy · high · high"}
+{"id":"hmn.c0270","deck":"hmn.d.family-events","hmn":"Cov kwv tij kwv npawg tuaj.","rom":"rising · rising · falling · rising · falling-breathy · falling"}
+{"id":"hmn.c0271","deck":"hmn.d.family-events","hmn":"Sawvdaws tuaj noj mov.","rom":"rising · low · falling · falling · rising"}
+{"id":"hmn.c0272","deck":"hmn.d.family-events","hmn":"Peb ua tsaug rau nej.","rom":"high · mid · falling-breathy · mid · falling"}
+{"id":"hmn.c0273","deck":"hmn.d.family-events","hmn":"Nws yuav poj niam.","rom":"low · rising · falling · creaky"}
+{"id":"hmn.c0274","deck":"hmn.d.family-events","hmn":"Nkawd yog ob niam txiv.","rom":"rising-final · falling-breathy · high · creaky · rising"}
+{"id":"hmn.c0275","deck":"hmn.d.family-events","hmn":"Nov yog kuv tus txiv.","rom":"rising · falling-breathy · rising · low · rising"}
+{"id":"hmn.c0276","deck":"hmn.d.family-events","hmn":"Nov yog kuv tus poj niam.","rom":"rising · falling-breathy · rising · low · falling · creaky"}
+{"id":"hmn.c0277","deck":"hmn.d.family-events","hmn":"Tus txiv neeb ua neeb.","rom":"low · rising · high · mid · high"}
+{"id":"hmn.c0278","deck":"hmn.d.family-events","hmn":"Peb mus xyuas pog thiab yawg.","rom":"high · low · low · falling-breathy · high · falling-breathy"}
+{"id":"hmn.c0279","deck":"hmn.d.family-events","hmn":"Nws xeeb me nyuam.","rom":"low · high · mid · creaky"}
+{"id":"hmn.c0280","deck":"hmn.d.questions-and-connectors","hmn":"Pes tsawg?","rom":"low · falling-breathy"}
+{"id":"hmn.c0281","deck":"hmn.d.questions-and-connectors","hmn":"Koj xav noj dab tsi?","rom":"falling · rising · falling · high · mid"}
+{"id":"hmn.c0282","deck":"hmn.d.questions-and-connectors","hmn":"No hu li cas?","rom":"mid · mid · mid · low"}
+{"id":"hmn.c0283","deck":"hmn.d.questions-and-connectors","hmn":"Nws yog leej twg?","rom":"low · falling-breathy · falling · falling-breathy"}
+{"id":"hmn.c0284","deck":"hmn.d.questions-and-connectors","hmn":"Koj mus qhov twg?","rom":"falling · low · rising · falling-breathy"}
+{"id":"hmn.c0285","deck":"hmn.d.questions-and-connectors","hmn":"Koj yuav mus thaum twg?","rom":"falling · rising · low · creaky · falling-breathy"}
+{"id":"hmn.c0286","deck":"hmn.d.questions-and-connectors","hmn":"Vim li cas?","rom":"creaky · mid · low"}
+{"id":"hmn.c0287","deck":"hmn.d.questions-and-connectors","hmn":"Koj puas nkag siab?","rom":"falling · low · falling-breathy · high"}
+{"id":"hmn.c0288","deck":"hmn.d.questions-and-connectors","hmn":"Koj puas nyiam ntses?","rom":"falling · low · creaky · low"}
+{"id":"hmn.c0289","deck":"hmn.d.questions-and-connectors","hmn":"Koj mus los tsis yog?","rom":"falling · low · low · low · falling-breathy"}
+{"id":"hmn.c0290","deck":"hmn.d.questions-and-connectors","hmn":"Koj nyiam phau ntawv twg?","rom":"falling · creaky · mid · rising · falling-breathy"}
+{"id":"hmn.c0291","deck":"hmn.d.questions-and-connectors","hmn":"Kuv nyiam mov thiab zaub.","rom":"rising · creaky · rising · high · high"}
+{"id":"hmn.c0292","deck":"hmn.d.questions-and-connectors","hmn":"Kuv xav mus, tab sis kuv mob.","rom":"rising · rising · low · high · low · rising · high"}
+{"id":"hmn.c0293","deck":"hmn.d.questions-and-connectors","hmn":"Kuv tsis mus vim los nag.","rom":"rising · low · low · creaky · low · falling-breathy"}
+{"id":"hmn.c0294","deck":"hmn.d.questions-and-connectors","hmn":"Koj xav haus kav fes los yog tshuaj yej?","rom":"falling · rising · low · rising · low · low · falling-breathy · falling · falling"}
+{"id":"hmn.c0295","deck":"hmn.d.questions-and-connectors","hmn":"Tsis yog.","rom":"low · falling-breathy"}
+{"id":"hmn.c0296","deck":"hmn.d.questions-and-connectors","hmn":"Kuv tsis tau noj.","rom":"rising · low · mid · falling"}
+{"id":"hmn.c0297","deck":"hmn.d.questions-and-connectors","hmn":"Tsis txhob mus.","rom":"low · high · low"}
+{"id":"hmn.c0298","deck":"hmn.d.traps-for-english-speakers","hmn":"Pog pov pob.","rom":"falling-breathy · rising · high"}
+{"id":"hmn.c0299","deck":"hmn.d.traps-for-english-speakers","hmn":"Kuv pom lub pob.","rom":"rising · creaky · high · high"}
+{"id":"hmn.c0300","deck":"hmn.d.traps-for-english-speakers","hmn":"Kuv muaj ib lub kaus.","rom":"rising · falling · high · high · low"}
+{"id":"hmn.c0301","deck":"hmn.d.traps-for-english-speakers","hmn":"Kuv zoo siab.","rom":"rising · mid · high"}
+{"id":"hmn.c0302","deck":"hmn.d.traps-for-english-speakers","hmn":"Nws siab zoo.","rom":"low · high · mid"}
+{"id":"hmn.c0303","deck":"hmn.d.traps-for-english-speakers","hmn":"Nov yog kuv lub tsev.","rom":"rising · falling-breathy · rising · high · rising"}
+{"id":"hmn.c0304","deck":"hmn.d.traps-for-english-speakers","hmn":"Kuv niam nyob hauv lub tsev.","rom":"rising · creaky · high · rising · high · rising"}
+{"id":"hmn.c0305","deck":"hmn.d.traps-for-english-speakers","hmn":"Wb mus tsev.","rom":"high · low · rising"}
+{"id":"hmn.c0306","deck":"hmn.d.traps-for-english-speakers","hmn":"Peb mus tsev.","rom":"high · low · rising"}
+{"id":"hmn.c0307","deck":"hmn.d.traps-for-english-speakers","hmn":"Nov yog kuv tus nus.","rom":"rising · falling-breathy · rising · low · low"}
+{"id":"hmn.c0308","deck":"hmn.d.traps-for-english-speakers","hmn":"Nov yog kuv tus kwv.","rom":"rising · falling-breathy · rising · low · rising"}
+{"id":"hmn.c0309","deck":"hmn.d.traps-for-english-speakers","hmn":"Kuv hnub nyoog muaj peb caug xyoo.","rom":"rising · high · falling-breathy · falling · high · falling-breathy · mid"}
+{"id":"hmn.c0310","deck":"hmn.d.traps-for-english-speakers","hmn":"Yawg hnub nyoog muaj rau caum xyoo.","rom":"falling-breathy · high · falling-breathy · falling · mid · creaky · mid"}
+{"id":"hmn.c0311","deck":"hmn.d.traps-for-english-speakers","hmn":"Kuv muaj ib lub tsheb liab.","rom":"rising · falling · high · high · high · high"}
+{"id":"hmn.c0312","deck":"hmn.d.traps-for-english-speakers","hmn":"Tus dev haus dej.","rom":"low · rising · low · falling"}
+{"id":"hmn.c0313","deck":"hmn.d.traps-for-english-speakers","hmn":"Kuv tsis nyiam ntses.","rom":"rising · low · creaky · low"}
+{"id":"hmn.c0314","deck":"hmn.d.traps-for-english-speakers","hmn":"Koj ua dab tsi?","rom":"falling · mid · high · mid"}
+{"id":"hmn.c0315","deck":"hmn.d.traps-for-english-speakers","hmn":"Nag hmo kuv mus tom khw.","rom":"falling-breathy · mid · rising · low · creaky · mid"}

@@ -1,0 +1,315 @@
+{"id":"hmn.c0001","meaning":"ball","note":"-b = high tone, and the b is silent. pob also starts words for lumpy things (pob zeb, a stone)."}
+{"id":"hmn.c0002","meaning":"female","note":"-j = falling tone, like a sharp \"Hey!\". You mostly meet it inside poj niam (woman)."}
+{"id":"hmn.c0003","meaning":"to throw","note":"-v = rising tone, like a question. pov pob is the New Year ball toss."}
+{"id":"hmn.c0004","meaning":"spleen","note":"No tone letter = mid tone: a flat speaking voice."}
+{"id":"hmn.c0005","meaning":"thorn","note":"-s = low tone. Jay Xiong calls it the middle tone."}
+{"id":"hmn.c0006","meaning":"grandmother (father's mother)","note":"-g = falling breathy tone, like a sigh."}
+{"id":"hmn.c0007","meaning":"to see","note":"-m = creaky tone: low, with a creak at the end."}
+{"id":"hmn.c0008","meaning":"Hmong","note":"High tone (-b) and no b sound: say \"Hmong\". Green Hmong: Moob."}
+{"id":"hmn.c0009","meaning":"you (one person)","note":"Falling tone (-j). Used to anyone, strangers too."}
+{"id":"hmn.c0010","meaning":"I; me; my","note":"Rising tone (-v). Its tone twin kub means \"hot\"."}
+{"id":"hmn.c0011","meaning":"dog","note":"Rising tone. Tone twin: dej (water) has the falling tone. Green Hmong: dlev."}
+{"id":"hmn.c0012","meaning":"good","note":"Mid tone (no letter). oo is a nasal vowel, about \"ong\"."}
+{"id":"hmn.c0013","meaning":"he; she; it","note":"Low tone (-s). One word for he, she and it. Green Hmong: nwg."}
+{"id":"hmn.c0014","meaning":"person; people","note":"Falling breathy tone (-g). ee is a nasal vowel, about \"eng\"."}
+{"id":"hmn.c0015","meaning":"to like","note":"Creaky tone (-m), the same tone as niam (mother)."}
+{"id":"hmn.c0016","meaning":"that (over there)","note":"-d = rising-final: only at the end of a phrase (ntawd, nkawd, tod)."}
+{"id":"hmn.c0017","meaning":"to live; to be (somewhere)","note":"High tone. Tone twin: nyom (grass)."}
+{"id":"hmn.c0018","meaning":"grass","note":"Creaky tone. Tone twin: nyob (to live)."}
+{"id":"hmn.c0019","meaning":"to think; to want","note":"x sounds like English s."}
+{"id":"hmn.c0020","meaning":"liver; heart (seat of the feelings)","note":"s sounds like sh, and ia is about \"ee-uh\". zoo siab = happy."}
+{"id":"hmn.c0021","meaning":"village","note":"z sounds like the s in \"measure\". With its classifier: lub zos."}
+{"id":"hmn.c0022","meaning":"mountain","note":"r is a t with the tongue curled back; oo is a nasal vowel."}
+{"id":"hmn.c0023","meaning":"fast; quickly","note":"c sounds like the ty in \"got you\"; ee is a nasal vowel."}
+{"id":"hmn.c0024","meaning":"chicken","note":"q is a k made far back in the throat; ai sounds like \"eye\"."}
+{"id":"hmn.c0025","meaning":"tail","note":"w is a vowel here, like the i in \"roses\" said with spread lips."}
+{"id":"hmn.c0026","meaning":"bad","note":"ph = p with a puff of air, never an f sound."}
+{"id":"hmn.c0027","meaning":"to talk; to chat","note":"th = t with a puff of air, never the th of \"think\"."}
+{"id":"hmn.c0028","meaning":"to run","note":"kh = k with a puff of air."}
+{"id":"hmn.c0029","meaning":"pig","note":"np sounds like \"mb\": a nasal start. ua is about \"oo-uh\"."}
+{"id":"hmn.c0030","meaning":"paper; writing; book","note":"nt sounds like \"nd\". A sheet: daim ntawv; a book: phau ntawv."}
+{"id":"hmn.c0031","meaning":"song","note":"nk sounds like \"ngg\"."}
+{"id":"hmn.c0032","meaning":"salt","note":"nts sounds like \"ndj\": a nasal start. Tone twin: ntses (fish)."}
+{"id":"hmn.c0033","meaning":"night; evening meal","note":"hm = a breathy m. Green Hmong: mo."}
+{"id":"hmn.c0034","meaning":"day; sun","note":"hn = a breathy n. Green Hmong: nub."}
+{"id":"hmn.c0035","meaning":"to love","note":"hl = a breathy l, like Welsh ll."}
+{"id":"hmn.c0036","meaning":"new","note":"tsh = ts with a puff of air; ia is about \"ee-uh\"."}
+{"id":"hmn.c0037","meaning":"Hello.","note":"Any time of day, to anyone."}
+{"id":"hmn.c0038","meaning":"How are you?","note":"Literally: you live how? Also written licas."}
+{"id":"hmn.c0039","meaning":"Are you doing well?","note":"A yes-no question: puas goes right before the verb."}
+{"id":"hmn.c0040","meaning":"I'm fine.","note":"The reply to either \"how are you\" question."}
+{"id":"hmn.c0041","meaning":"Thank you.","note":"Add os for warmth: it softens what you say."}
+{"id":"hmn.c0042","meaning":"You're welcome.","note":"Also \"It's nothing\" or \"No problem\"."}
+{"id":"hmn.c0043","meaning":"Sorry.","note":"thov = please; to ask."}
+{"id":"hmn.c0044","meaning":"I'm sorry.","note":"The same apology with kuv (I) in front."}
+{"id":"hmn.c0045","meaning":"Excuse me (let me pass).","note":"To get past someone in a crowd or a doorway."}
+{"id":"hmn.c0046","meaning":"See you again.","note":"A goodbye: literally, meet each other again."}
+{"id":"hmn.c0047","meaning":"Go well (goodbye to someone leaving).","note":"Said to the person who is leaving."}
+{"id":"hmn.c0048","meaning":"Nice to meet you.","note":"Literally: happy to have met you."}
+{"id":"hmn.c0049","meaning":"I'm pleased to meet you.","note":"Literally: I'm happy to meet you."}
+{"id":"hmn.c0050","meaning":"Good night.","note":"Literally: sleep well. os softens it and sounds kind."}
+{"id":"hmn.c0051","meaning":"Please say it again.","note":"thov = please; it also means \"to ask\"."}
+{"id":"hmn.c0052","meaning":"Could you say that again?","note":"puas tau? at the end makes a polite request."}
+{"id":"hmn.c0053","meaning":"Please speak slowly.","note":"Also written majmam."}
+{"id":"hmn.c0054","meaning":"I don't understand.","note":"tsis goes before the verb. Also heard: Kuv tsis to taub."}
+{"id":"hmn.c0055","meaning":"What's your name?","note":"Literally: your name is called how? npe (name) takes lub."}
+{"id":"hmn.c0056","meaning":"My name is Paj.","note":"Paj means \"flower\". Keep lub: kuv lub npe, not kuv npe."}
+{"id":"hmn.c0057","meaning":"Where are you from?","note":"qhov twg (where) stays in the middle, where the answer goes."}
+{"id":"hmn.c0058","meaning":"Where do you live?","note":"nyob = to live; to be somewhere."}
+{"id":"hmn.c0059","meaning":"I live in Minneapolis.","note":"Place names keep their English spelling."}
+{"id":"hmn.c0060","meaning":"I'm Hmong.","note":"yog = am / is / are, for \"X is a Y\"."}
+{"id":"hmn.c0061","meaning":"Which Hmong clan are you?","note":"xeem = clan. Clans: Vang, Yang, Xiong, Lee, Thao, Vue, Moua, Her, Lor."}
+{"id":"hmn.c0062","meaning":"I'm Hmong, of the Vang clan.","note":"The answer goes where dab tsi was. Clan names keep their usual English spelling."}
+{"id":"hmn.c0063","meaning":"How old are you?","note":"hnub nyoog = age; pes tsawg = how many."}
+{"id":"hmn.c0064","meaning":"I'm twenty years old.","note":"Literally: my age has twenty years."}
+{"id":"hmn.c0065","meaning":"Do you speak English?","note":"lus Askiv = English (the language)."}
+{"id":"hmn.c0066","meaning":"We speak Hmong.","note":"peb = we, three or more people. Green Hmong: has lug for hais lus."}
+{"id":"hmn.c0067","meaning":"The two of us speak English.","note":"wb = we two: English has no word for it."}
+{"id":"hmn.c0068","meaning":"I work.","note":"Literally: I do work. Also written haujlwm."}
+{"id":"hmn.c0069","meaning":"I go to school.","note":"Also \"I study\"."}
+{"id":"hmn.c0070","meaning":"I'm a teacher.","note":"xib fwb (teacher) takes tus, written tug after ib."}
+{"id":"hmn.c0071","meaning":"You're my friend.","note":"Owner first: kuv tus phooj ywg, my friend."}
+{"id":"hmn.c0072","meaning":"He / She lives in Fresno.","note":"nws = he, she or it."}
+{"id":"hmn.c0073","meaning":"mother","note":"Also \"woman\". Green Hmong: nam."}
+{"id":"hmn.c0074","meaning":"father","note":"Also \"husband\" and \"fruit\". Both parents: niam txiv."}
+{"id":"hmn.c0075","meaning":"son","note":"Also \"boy\"."}
+{"id":"hmn.c0076","meaning":"daughter","note":"Also \"girl\"."}
+{"id":"hmn.c0077","meaning":"child; children","note":"Also written menyuam."}
+{"id":"hmn.c0078","meaning":"brothers and sisters","note":"Siblings together, brothers and sisters alike."}
+{"id":"hmn.c0079","meaning":"older brother (said by a man)","note":"A woman calls a brother nus."}
+{"id":"hmn.c0080","meaning":"younger brother (said by a man)","note":"A woman calls a brother nus."}
+{"id":"hmn.c0081","meaning":"sister (said by a man)","note":"A woman says viv ncaus."}
+{"id":"hmn.c0082","meaning":"brother (said by a woman)","note":"For an older or a younger brother alike."}
+{"id":"hmn.c0083","meaning":"sister (said by a woman)","note":"A man says muam."}
+{"id":"hmn.c0084","meaning":"grandfather","note":"The sources do not say which side. Father's mother: pog."}
+{"id":"hmn.c0085","meaning":"grandmother; mother-in-law","note":"The sources do not say which side."}
+{"id":"hmn.c0086","meaning":"grandfather; father-in-law","note":"The sources do not say which side."}
+{"id":"hmn.c0087","meaning":"uncle (father's older brother)","note":"Father's younger brother: txiv ntxawm."}
+{"id":"hmn.c0088","meaning":"aunt (father's sister)","note":""}
+{"id":"hmn.c0089","meaning":"uncle (mother's brother)","note":""}
+{"id":"hmn.c0090","meaning":"daughter-in-law","note":"Son-in-law: vauv."}
+{"id":"hmn.c0091","meaning":"one","note":"Also \"a\" in counts: ib tug dev, a dog."}
+{"id":"hmn.c0092","meaning":"two","note":""}
+{"id":"hmn.c0093","meaning":"three","note":"Also \"we\" (three or more people)."}
+{"id":"hmn.c0094","meaning":"four","note":"Also \"hair; feather\"."}
+{"id":"hmn.c0095","meaning":"five","note":"ts sounds like a ch with the tongue curled back."}
+{"id":"hmn.c0096","meaning":"six","note":"Also \"to put\" and \"to, for\"."}
+{"id":"hmn.c0097","meaning":"seven","note":""}
+{"id":"hmn.c0098","meaning":"eight","note":""}
+{"id":"hmn.c0099","meaning":"nine","note":"c sounds like the ty in \"got you\". Ninety: cuaj caum."}
+{"id":"hmn.c0100","meaning":"ten","note":"11 to 19: kaum ib, kaum ob … Zero: ntxaiv, the only form the sources give."}
+{"id":"hmn.c0101","meaning":"twenty","note":"Not \"ob kaum\". 21: nees nkaum ib."}
+{"id":"hmn.c0102","meaning":"thirty","note":"caug after three to five tens (plaub caug, tsib caug); caum after six to nine."}
+{"id":"hmn.c0103","meaning":"sixty","note":"caum after six to nine tens: xya caum, yim caum, cuaj caum."}
+{"id":"hmn.c0104","meaning":"one hundred","note":"puas after ib, ob, peb, plaub, tsib, cuaj: ob puas, peb puas."}
+{"id":"hmn.c0105","meaning":"six hundred","note":"pua (no s) after rau, xya and yim: xya pua, yim pua."}
+{"id":"hmn.c0106","meaning":"one thousand","note":"Ten thousand: kaum txhiab (also ib vam)."}
+{"id":"hmn.c0107","meaning":"one million","note":"Also ib lab; Omniglot gives ib roob."}
+{"id":"hmn.c0108","meaning":"dollar","note":"Also written daulas (EnglishConnect). Money in general: nyiaj."}
+{"id":"hmn.c0109","meaning":"a house; the house","note":"lub counts round or bulky things and buildings."}
+{"id":"hmn.c0110","meaning":"a car; the car","note":"Cars take lub."}
+{"id":"hmn.c0111","meaning":"a sheet of paper","note":"daim counts flat things: paper, cloth, photos."}
+{"id":"hmn.c0112","meaning":"a book","note":"phau counts bound books and magazines."}
+{"id":"hmn.c0113","meaning":"a knife","note":"rab counts tools with a handle."}
+{"id":"hmn.c0114","meaning":"a rope","note":"txoj counts long, bendy things: rope, road, life."}
+{"id":"hmn.c0115","meaning":"a song","note":"zaj counts songs, stories and speeches."}
+{"id":"hmn.c0116","meaning":"a tree","note":"tsob counts plants and trees."}
+{"id":"hmn.c0117","meaning":"a pair of shoes","note":"nkawm counts pairs."}
+{"id":"hmn.c0118","meaning":"an umbrella","note":"Not tus kaus: the classic beginner slip."}
+{"id":"hmn.c0119","meaning":"two dogs","note":"Number + classifier + noun. tus is written tug here, as the sources do."}
+{"id":"hmn.c0120","meaning":"a red car","note":"The color comes after the noun, never liab tsheb."}
+{"id":"hmn.c0121","meaning":"this house","note":"no (this) comes after the noun."}
+{"id":"hmn.c0122","meaning":"that house","note":"ntawd (that, over there) comes last."}
+{"id":"hmn.c0123","meaning":"my phone","note":"Owner first, as in English, then the classifier."}
+{"id":"hmn.c0124","meaning":"a cup of water","note":"khob counts cups: ib khob kav fes, a cup of coffee."}
+{"id":"hmn.c0125","meaning":"the children","note":"cov replaces the classifier for a group."}
+{"id":"hmn.c0126","meaning":"a bag","note":"Bags take lub."}
+{"id":"hmn.c0127","meaning":"cooked rice; a meal","note":"Rice is the meal: noj mov = to eat (a meal)."}
+{"id":"hmn.c0128","meaning":"vegetables","note":"Green vegetables: zaub ntsuab."}
+{"id":"hmn.c0129","meaning":"pork","note":"Also written nqaij npuas."}
+{"id":"hmn.c0130","meaning":"beef","note":"nqaij = meat."}
+{"id":"hmn.c0131","meaning":"fish","note":"Tone twin: ntsev (salt). As food, also nqaij ntses."}
+{"id":"hmn.c0132","meaning":"egg","note":"Eggs take lub."}
+{"id":"hmn.c0133","meaning":"pho; noodles","note":"Also used for noodles in general."}
+{"id":"hmn.c0134","meaning":"chili pepper","note":""}
+{"id":"hmn.c0135","meaning":"water","note":"Tone twin: dev (dog)."}
+{"id":"hmn.c0136","meaning":"tea","note":"Drunk with haus, like every drink."}
+{"id":"hmn.c0137","meaning":"coffee","note":"A cup of coffee: ib khob kav fes."}
+{"id":"hmn.c0138","meaning":"milk","note":"nyuj = cow."}
+{"id":"hmn.c0139","meaning":"fruit (in general)","note":""}
+{"id":"hmn.c0140","meaning":"to eat","note":"Food is noj, drinks are haus."}
+{"id":"hmn.c0141","meaning":"to drink","note":"Never noj for a drink."}
+{"id":"hmn.c0142","meaning":"to eat breakfast","note":"Dinner: noj hmo."}
+{"id":"hmn.c0143","meaning":"to eat lunch","note":"su = noon; lunch."}
+{"id":"hmn.c0144","meaning":"very tasty","note":"heev (very) comes after the word it describes."}
+{"id":"hmn.c0145","meaning":"today","note":"Time words do the work: the verb never changes for past or future."}
+{"id":"hmn.c0146","meaning":"yesterday","note":"Often first in the sentence: Nag hmo kuv mus tom khw, yesterday I went to the store."}
+{"id":"hmn.c0147","meaning":"tomorrow","note":"Also written taskis or tagkis."}
+{"id":"hmn.c0148","meaning":"morning","note":""}
+{"id":"hmn.c0149","meaning":"noon; midday","note":"Also written tavsu."}
+{"id":"hmn.c0150","meaning":"evening","note":"tsaus = dark: the time when it gets dark."}
+{"id":"hmn.c0151","meaning":"night","note":""}
+{"id":"hmn.c0152","meaning":"Monday","note":"US Hmong texts use English day names after hnub. Some families and books number the days (hnub ib, hnub ob …), but the books disagree on whether hnub ib is Sunday or Monday: ask your family."}
+{"id":"hmn.c0153","meaning":"Monday to Friday","note":"As US agency texts write it, with txog between the days."}
+{"id":"hmn.c0154","meaning":"day off; rest day","note":"Older texts: Sunday."}
+{"id":"hmn.c0155","meaning":"week","note":"Also as thiv."}
+{"id":"hmn.c0156","meaning":"January","note":"Months are numbered: ob hlis ntuj (February), peb hlis ntuj (March) …"}
+{"id":"hmn.c0157","meaning":"year","note":"New Year: xyoo tshiab."}
+{"id":"hmn.c0158","meaning":"next year","note":"Last year: tsaib no."}
+{"id":"hmn.c0159","meaning":"every day","note":"txhua = every."}
+{"id":"hmn.c0160","meaning":"7 a.m.","note":"Clock times as US Hmong texts write them: 6 tsaus ntuj = 6 p.m."}
+{"id":"hmn.c0161","meaning":"I've eaten.","note":"lawm after the verb: the action is done."}
+{"id":"hmn.c0162","meaning":"They're drinking water.","note":"tab tom before the verb: it is happening now. Green Hmong: taab tom."}
+{"id":"hmn.c0163","meaning":"happy; glad","note":"Literally \"good liver\": Hmong feelings live in the siab. Not the same as siab zoo (kind)."}
+{"id":"hmn.c0164","meaning":"sad; heartbroken","note":"Like the other feeling words, it needs no \"am\": Kuv tu siab."}
+{"id":"hmn.c0165","meaning":"angry","note":"chim alone is \"to be angry at\"."}
+{"id":"hmn.c0166","meaning":"lonely; homesick","note":""}
+{"id":"hmn.c0167","meaning":"afraid; scared","note":"Also a verb: to be afraid of something."}
+{"id":"hmn.c0168","meaning":"shy; embarrassed","note":"Also \"ashamed\"."}
+{"id":"hmn.c0169","meaning":"relieved; at ease","note":""}
+{"id":"hmn.c0170","meaning":"patient","note":"Literally \"long liver\". Its opposite in the glossary is siab luv (short temper)."}
+{"id":"hmn.c0171","meaning":"I'm very happy.","note":"No word for \"am\": the feeling word works as the verb, and heev (very) comes after it."}
+{"id":"hmn.c0172","meaning":"He's angry.","note":"nws means he, she or it. Green Hmong: nwg."}
+{"id":"hmn.c0173","meaning":"weather","note":"huab alone is a cloud, cua is wind."}
+{"id":"hmn.c0174","meaning":"to rain; it's raining","note":"Literally \"rain comes\"."}
+{"id":"hmn.c0175","meaning":"snow","note":""}
+{"id":"hmn.c0176","meaning":"wind","note":"cua daj cua dub is a storm."}
+{"id":"hmn.c0177","meaning":"hot","note":"Also \"gold\" and \"horn\". Tone twin of kuv (I)."}
+{"id":"hmn.c0178","meaning":"cold (weather)","note":"The same word as no \"this\" (lub tsev no)."}
+{"id":"hmn.c0179","meaning":"warm","note":""}
+{"id":"hmn.c0180","meaning":"Where do you want to go?","note":"qhov twg (where) stays at the end, where the answer goes."}
+{"id":"hmn.c0181","meaning":"Where are you coming from?","note":"los = to come (back); the question word sits between the two los."}
+{"id":"hmn.c0182","meaning":"Where's the bathroom?","note":"nyob = to be (somewhere)."}
+{"id":"hmn.c0183","meaning":"I'm going to the market.","note":"tom = over there, at: no word for \"to\" after mus. Green Hmong: moog for mus."}
+{"id":"hmn.c0184","meaning":"She's over there.","note":"tod is the short form of tom (over there) seen at the end of a phrase."}
+{"id":"hmn.c0185","meaning":"They live up on the hill.","note":"pem = up there, higher than you."}
+{"id":"hmn.c0186","meaning":"I'm going down to the river.","note":"nram = down there, lower than you. Rivers take tus."}
+{"id":"hmn.c0187","meaning":"Her house is across the river.","note":"tim = over there, opposite: farther away than tom."}
+{"id":"hmn.c0188","meaning":"I'm at the door.","note":"ntawm = at, right there."}
+{"id":"hmn.c0189","meaning":"My house is close by.","note":"Possessor first, then the classifier: kuv lub tsev."}
+{"id":"hmn.c0190","meaning":"His house is far away.","note":""}
+{"id":"hmn.c0191","meaning":"It's on the right.","note":"The left is sab laug."}
+{"id":"hmn.c0192","meaning":"Go straight ahead.","note":""}
+{"id":"hmn.c0193","meaning":"I drive to work.","note":"Verbs in a row with no \"and\" or \"to\" between them. Also written haujlwm."}
+{"id":"hmn.c0194","meaning":"We're going to Fresno by car.","note":"caij = to ride (a vehicle)."}
+{"id":"hmn.c0195","meaning":"This road is long.","note":"Roads take txoj; no (this) comes after the noun."}
+{"id":"hmn.c0196","meaning":"He's in the car.","note":"Cars take lub."}
+{"id":"hmn.c0197","meaning":"I've arrived.","note":"lawm after the verb marks something done."}
+{"id":"hmn.c0198","meaning":"What's the price?","note":"nqi = price."}
+{"id":"hmn.c0199","meaning":"How much is this umbrella?","note":"Umbrellas take lub; pes tsawg stays at the end."}
+{"id":"hmn.c0200","meaning":"That's really expensive!","note":"heev (very) comes after the word it makes stronger."}
+{"id":"hmn.c0201","meaning":"Way too expensive.","note":"From the Wikivoyage phrasebook only: check with a speaker."}
+{"id":"hmn.c0202","meaning":"This bag is cheap.","note":"Bags take lub."}
+{"id":"hmn.c0203","meaning":"This phone costs more than that one.","note":"X kim tshaj Y: tshaj means \"more than\"."}
+{"id":"hmn.c0204","meaning":"This car is the best.","note":"zoo tshaj = best."}
+{"id":"hmn.c0205","meaning":"These things are expensive.","note":"cov replaces the classifier for a group."}
+{"id":"hmn.c0206","meaning":"I want to buy a pair of shoes.","note":"Pairs take nkawm. yuav also means \"will\" and \"to marry\"."}
+{"id":"hmn.c0207","meaning":"I'm going shopping.","note":""}
+{"id":"hmn.c0208","meaning":"She sells vegetables.","note":"muag = to sell; yuav = to buy."}
+{"id":"hmn.c0209","meaning":"Do you sell coffee?","note":"puas goes before the verb in a yes-or-no question."}
+{"id":"hmn.c0210","meaning":"I'll pay.","note":"them nqi = to pay (a price)."}
+{"id":"hmn.c0211","meaning":"Do you have a discount?","note":"luv nqi = discount."}
+{"id":"hmn.c0212","meaning":"I don't have any money.","note":"nyiaj is money, and also silver."}
+{"id":"hmn.c0213","meaning":"Just five dollars.","note":"xwb (only) comes at the end. Also written daulas."}
+{"id":"hmn.c0214","meaning":"I'm sick.","note":"No \"am\": never Kuv yog mob."}
+{"id":"hmn.c0215","meaning":"I have a stomachache.","note":"Literally \"I hurt belly\"."}
+{"id":"hmn.c0216","meaning":"I have a headache.","note":"taub hau = head; also written taub-hau."}
+{"id":"hmn.c0217","meaning":"I have a toothache.","note":""}
+{"id":"hmn.c0218","meaning":"I have a fever.","note":"The Minnesota health guide's word for fever."}
+{"id":"hmn.c0219","meaning":"I have a cough.","note":"Found only inside hnoos qeev (sputum) in the health guide: check with a speaker."}
+{"id":"hmn.c0220","meaning":"I'm throwing up.","note":""}
+{"id":"hmn.c0221","meaning":"I have diarrhea.","note":""}
+{"id":"hmn.c0222","meaning":"Where does it hurt?","note":"Literally \"you hurt where?\""}
+{"id":"hmn.c0223","meaning":"I want to see a doctor.","note":"ntsib = to meet."}
+{"id":"hmn.c0224","meaning":"Where's the clinic?","note":"Buildings take lub."}
+{"id":"hmn.c0225","meaning":"Where's the pharmacy?","note":""}
+{"id":"hmn.c0226","meaning":"You need to take medicine.","note":"Hmong \"eats\" medicine: noj tshuaj, as in the Minnesota health guide."}
+{"id":"hmn.c0227","meaning":"I'd like to make an appointment.","note":"Literally \"set a time\"."}
+{"id":"hmn.c0228","meaning":"I need an interpreter.","note":"xav tau = to want to get, to need (tau = to get). tus is written tug after ib."}
+{"id":"hmn.c0229","meaning":"Help!","note":"pab = to help. Omniglot gives Pab!; a Wikivoyage phrasebook writes Pab os!"}
+{"id":"hmn.c0230","meaning":"Please help me.","note":"thov (please) goes before the verb."}
+{"id":"hmn.c0231","meaning":"Please call an ambulance.","note":"tsheb tos neeg mob = ambulance."}
+{"id":"hmn.c0232","meaning":"You've come! (greeting a guest)","note":"A question that expects yes: the usual welcome at the door."}
+{"id":"hmn.c0233","meaning":"Yes, we've come.","note":"The reply to Koj tuaj los?"}
+{"id":"hmn.c0234","meaning":"Have you eaten yet?","note":"A friendly check-in, used like \"how are you?\""}
+{"id":"hmn.c0235","meaning":"We've already eaten.","note":"lawm marks something done."}
+{"id":"hmn.c0236","meaning":"Hello, Grandpa.","note":"Use the kinship word, not just koj. yawg: the sources do not say which side."}
+{"id":"hmn.c0237","meaning":"Grandma, how are you?","note":"pog is the father's mother."}
+{"id":"hmn.c0238","meaning":"Grandpa, please have a seat.","note":"thov (please) goes before the verb."}
+{"id":"hmn.c0239","meaning":"Grandma, please speak slowly.","note":"Also written majmam."}
+{"id":"hmn.c0240","meaning":"Thank you, Grandma (niam tais).","note":"niam tais also means mother-in-law; the sources do not say which side."}
+{"id":"hmn.c0241","meaning":"Grandpa, I miss you.","note":"nco = to miss, to remember."}
+{"id":"hmn.c0242","meaning":"Grandma, I love you.","note":""}
+{"id":"hmn.c0243","meaning":"Oh, I'm not very good at it.","note":"A modest reply to praise."}
+{"id":"hmn.c0244","meaning":"I'm in a hurry.","note":"Said when you have to leave. Green Hmong: moog for mus."}
+{"id":"hmn.c0245","meaning":"I'm going home now.","note":"No word for \"to\" before tsev (home)."}
+{"id":"hmn.c0246","meaning":"Stay, let's chat a little.","note":"Said to a guest who is leaving. wb = the two of us."}
+{"id":"hmn.c0247","meaning":"Come again.","note":"Said to a guest who is leaving."}
+{"id":"hmn.c0248","meaning":"Eat well and stay well.","note":"A wish at a meal: Omniglot lists Noj qab nyob zoo for \"enjoy your meal\"."}
+{"id":"hmn.c0249","meaning":"Happy New Year!","note":"The greeting at noj peb caug."}
+{"id":"hmn.c0250","meaning":"We're going to the New Year celebration.","note":"noj peb caug: Hmong New Year."}
+{"id":"hmn.c0251","meaning":"Young women and young men play ball toss.","note":"pov pob, the New Year ball toss."}
+{"id":"hmn.c0252","meaning":"I like the ball toss.","note":"nyiam = to like."}
+{"id":"hmn.c0253","meaning":"She throws the ball to me.","note":"pov (throw) and pob (ball) differ only in the tone letter."}
+{"id":"hmn.c0254","meaning":"I like listening to the qeej.","note":"qeej: the bamboo reed pipe."}
+{"id":"hmn.c0255","meaning":"I'm wearing Hmong clothes.","note":"hnav = to wear. Green Hmong: Moob."}
+{"id":"hmn.c0256","meaning":"She's wearing a silver sash.","note":"hlab nyiaj: a sash hung with silver coins."}
+{"id":"hmn.c0257","meaning":"I have new clothes.","note":"The adjective tshiab (new) comes after the noun."}
+{"id":"hmn.c0258","meaning":"Your clothes are beautiful.","note":"cov for a group of things."}
+{"id":"hmn.c0259","meaning":"My mom sews paj ntaub.","note":"paj ntaub: Hmong needlework and story cloth. Green Hmong: nam for niam."}
+{"id":"hmn.c0260","meaning":"Happy birthday!","note":""}
+{"id":"hmn.c0261","meaning":"She sings really well.","note":"hu nkauj = to sing."}
+{"id":"hmn.c0262","meaning":"Good luck!","note":"A short wish on its own."}
+{"id":"hmn.c0263","meaning":"Next year we'll come again.","note":"rov = again, before the verb."}
+{"id":"hmn.c0264","meaning":"Tomorrow they're holding a soul calling.","note":"hu plig: a traditional ceremony that calls the soul home."}
+{"id":"hmn.c0265","meaning":"Grandpa ties a string on the child's wrist.","note":"khi tes (literally \"tie hand\"): the wrist-string blessing. Ask your family what they call it."}
+{"id":"hmn.c0266","meaning":"We're having a celebration.","note":""}
+{"id":"hmn.c0267","meaning":"We're getting the celebration ready.","note":"npaj = to prepare."}
+{"id":"hmn.c0268","meaning":"I'm from the Vang clan.","note":"xeem = clan. Clan names here are in their usual English spelling."}
+{"id":"hmn.c0269","meaning":"Our family is getting together.","note":"sib = each other."}
+{"id":"hmn.c0270","meaning":"The relatives are coming.","note":""}
+{"id":"hmn.c0271","meaning":"Everyone comes to eat.","note":""}
+{"id":"hmn.c0272","meaning":"We thank you all.","note":"nej = you (three or more). Green Hmong: mej."}
+{"id":"hmn.c0273","meaning":"He's getting married.","note":"Literally \"he takes a wife\"."}
+{"id":"hmn.c0274","meaning":"They're husband and wife.","note":"nkawd = the two of them."}
+{"id":"hmn.c0275","meaning":"This is my husband.","note":"People take tus."}
+{"id":"hmn.c0276","meaning":"This is my wife.","note":"Also written pojniam."}
+{"id":"hmn.c0277","meaning":"The shaman holds a ceremony.","note":"txiv neeb: a shaman, a traditional healer and ritual leader."}
+{"id":"hmn.c0278","meaning":"We're going to visit Grandma and Grandpa.","note":""}
+{"id":"hmn.c0279","meaning":"She's pregnant.","note":"Also written xeeb menyuam."}
+{"id":"hmn.c0280","meaning":"How many? How much?","note":"Also written pestsawg."}
+{"id":"hmn.c0281","meaning":"What do you want to eat?","note":"dab tsi (what) stays where the answer goes."}
+{"id":"hmn.c0282","meaning":"What's this called?","note":"Point at the thing and ask."}
+{"id":"hmn.c0283","meaning":"Who is she?","note":"nws means he, she or it."}
+{"id":"hmn.c0284","meaning":"Where are you going?","note":"Green Hmong: moog for mus."}
+{"id":"hmn.c0285","meaning":"When are you going?","note":"yuav before the verb points to the future."}
+{"id":"hmn.c0286","meaning":"Why?","note":"vim alone means \"because\"."}
+{"id":"hmn.c0287","meaning":"Do you understand?","note":"puas goes before the verb."}
+{"id":"hmn.c0288","meaning":"Do you like fish?","note":"ntses = fish."}
+{"id":"hmn.c0289","meaning":"Are you going or not?","note":"los tsis yog at the end: \"or not?\""}
+{"id":"hmn.c0290","meaning":"Which book do you like?","note":"twg (which) comes after the noun, like no (this)."}
+{"id":"hmn.c0291","meaning":"I like rice and vegetables.","note":"thiab = and, here between two nouns."}
+{"id":"hmn.c0292","meaning":"I want to go, but I'm sick.","note":"tab sis = but."}
+{"id":"hmn.c0293","meaning":"I'm not going because it's raining.","note":"vim = because."}
+{"id":"hmn.c0294","meaning":"Would you like coffee or tea?","note":"los yog = or."}
+{"id":"hmn.c0295","meaning":"No, it isn't.","note":"tsis before yog: \"not be\"."}
+{"id":"hmn.c0296","meaning":"I haven't eaten yet.","note":"tsis tau = not yet."}
+{"id":"hmn.c0297","meaning":"Don't go.","note":"tsis txhob before the verb = don't."}
+{"id":"hmn.c0298","meaning":"Grandma throws the ball.","note":"Three words, three tone letters: -g, -v, -b."}
+{"id":"hmn.c0299","meaning":"I see the ball.","note":"pom (see) and pob (ball): only the last letter differs."}
+{"id":"hmn.c0300","meaning":"I have an umbrella.","note":"Umbrellas take lub, not tus."}
+{"id":"hmn.c0301","meaning":"I'm happy.","note":"No yog before a feeling: Kuv yog zoo siab is wrong."}
+{"id":"hmn.c0302","meaning":"She's kind.","note":"siab zoo (kind) is not zoo siab (happy)."}
+{"id":"hmn.c0303","meaning":"This is my house.","note":"yog for \"X is a Y\"."}
+{"id":"hmn.c0304","meaning":"My mom is in the house.","note":"nyob for where someone is, not yog."}
+{"id":"hmn.c0305","meaning":"We two are going home.","note":"wb is for exactly two people."}
+{"id":"hmn.c0306","meaning":"We're going home (three or more).","note":"peb is for three or more; it is also the number three."}
+{"id":"hmn.c0307","meaning":"This is my brother. (said by a woman)","note":"A woman calls any brother nus."}
+{"id":"hmn.c0308","meaning":"This is my younger brother. (said by a man)","note":"A man says kwv for a younger brother and tij laug for an older one."}
+{"id":"hmn.c0309","meaning":"I'm thirty years old.","note":"caug after peb, plaub and tsib."}
+{"id":"hmn.c0310","meaning":"Grandpa is sixty years old.","note":"caum after rau, xya, yim and cuaj."}
+{"id":"hmn.c0311","meaning":"I have a red car.","note":"The color comes after the noun."}
+{"id":"hmn.c0312","meaning":"The dog is drinking water.","note":"dev (dog) and dej (water) differ only in the tone letter."}
+{"id":"hmn.c0313","meaning":"I don't like fish.","note":"tsis goes before the verb."}
+{"id":"hmn.c0314","meaning":"What are you doing?","note":"dab tsi stays at the end; it does not move to the front."}
+{"id":"hmn.c0315","meaning":"Yesterday I went to the store.","note":"The verb never changes for the past; nag hmo says when."}

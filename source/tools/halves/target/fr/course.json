@@ -1,0 +1,192 @@
+{
+ "target": "fr",
+ "ttsLang": "fr-FR",
+ "self": "français",
+ "pack": {
+  "accents": true,
+  "keys": "é è à ç ê ô â î û ù œ ë ï ü"
+ },
+ "features": {
+  "script": false,
+  "pron": false,
+  "conj": false,
+  "register": false,
+  "numbers": false,
+  "sound": false,
+  "strokes": false
+ },
+ "groups": [
+  {
+   "id": "fr.grp.first-steps",
+   "decks": [
+    "fr.d.sounds-and-spelling",
+    "fr.d.greetings-and-courtesy",
+    "fr.d.about-me",
+    "fr.d.people-and-family"
+   ]
+  },
+  {
+   "id": "fr.grp.everyday-words",
+   "decks": [
+    "fr.d.numbers-time-and-prices",
+    "fr.d.days-dates-and-weather",
+    "fr.d.food-and-drink",
+    "fr.d.shopping-and-clothes",
+    "fr.d.home-and-routine"
+   ]
+  },
+  {
+   "id": "fr.grp.out-and-about",
+   "decks": [
+    "fr.d.around-town-and-directions",
+    "fr.d.travel-and-transport",
+    "fr.d.health-and-emergencies",
+    "fr.d.work-and-school"
+   ]
+  },
+  {
+   "id": "fr.grp.conversation",
+   "decks": [
+    "fr.d.feelings-and-states",
+    "fr.d.likes-and-free-time",
+    "fr.d.questions-and-connectors",
+    "fr.d.compliments",
+    "fr.d.flirting"
+   ]
+  },
+  {
+   "id": "fr.grp.watch-out",
+   "decks": [
+    "fr.d.traps-for-english-speakers",
+    "fr.d.spoken-french"
+   ]
+  },
+  {
+   "id": "fr.grp.core-words",
+   "decks": [
+    "fr.d.top-nouns",
+    "fr.d.top-verbs",
+    "fr.d.top-adjectives",
+    "fr.d.top-adverbs",
+    "fr.d.top-pronouns",
+    "fr.d.top-prepositions",
+    "fr.d.top-conjunctions",
+    "fr.d.top-interjections",
+    "fr.d.top-words"
+   ]
+  }
+ ],
+ "tags": {
+  "first-steps": [
+   "fr.d.sounds-and-spelling",
+   "fr.d.greetings-and-courtesy",
+   "fr.d.about-me",
+   "fr.d.people-and-family"
+  ],
+  "everyday-words": [
+   "fr.d.numbers-time-and-prices",
+   "fr.d.days-dates-and-weather",
+   "fr.d.food-and-drink",
+   "fr.d.shopping-and-clothes",
+   "fr.d.home-and-routine"
+  ],
+  "out-and-about": [
+   "fr.d.around-town-and-directions",
+   "fr.d.travel-and-transport",
+   "fr.d.health-and-emergencies",
+   "fr.d.work-and-school"
+  ],
+  "conversation": [
+   "fr.d.feelings-and-states",
+   "fr.d.likes-and-free-time",
+   "fr.d.questions-and-connectors",
+   "fr.d.compliments",
+   "fr.d.flirting"
+  ],
+  "watch-out": [
+   "fr.d.traps-for-english-speakers",
+   "fr.d.spoken-french"
+  ],
+  "core-words": [
+   "fr.d.top-nouns",
+   "fr.d.top-verbs",
+   "fr.d.top-adjectives",
+   "fr.d.top-adverbs",
+   "fr.d.top-pronouns",
+   "fr.d.top-prepositions",
+   "fr.d.top-conjunctions",
+   "fr.d.top-interjections",
+   "fr.d.top-words"
+  ]
+ },
+ "goals": [],
+ "plans": [],
+ "titles": [
+  {
+   "id": "fr.t01",
+   "level": 1
+  },
+  {
+   "id": "fr.t03",
+   "level": 3
+  },
+  {
+   "id": "fr.t05",
+   "level": 5
+  },
+  {
+   "id": "fr.t08",
+   "level": 8
+  },
+  {
+   "id": "fr.t12",
+   "level": 12
+  },
+  {
+   "id": "fr.t16",
+   "level": 16
+  },
+  {
+   "id": "fr.t20",
+   "level": 20
+  }
+ ],
+ "greet": [
+  {
+   "id": "fr.h.night",
+   "fr": "Bonsoir"
+  },
+  {
+   "id": "fr.h.morning",
+   "fr": "Bonjour"
+  },
+  {
+   "id": "fr.h.afternoon",
+   "fr": "Bonjour"
+  },
+  {
+   "id": "fr.h.evening",
+   "fr": "Bonsoir"
+  }
+ ],
+ "pairs": [],
+ "pause": {
+  "sets": [],
+  "idioms": []
+ },
+ "uiKeys": [
+  "French (required)",
+  "French, pronunciation, meaning, note — one per line (pronunciation/note optional)",
+  "Search a pattern, e.g. 에서 or 'want'",
+  "#first-steps",
+  "#everyday-words",
+  "#out-and-about",
+  "#conversation",
+  "#watch-out",
+  "#core-words"
+ ],
+ "exportedFrom": {
+  "file": "tools/target/fr/ (tools/target/gen.js fr)",
+  "sha256_16": "d58d2f6e08c8f8f8"
+ }
+}

@@ -1,0 +1,378 @@
+{"id":"sounds.01","q":"How is the c in cantik (pretty) pronounced?","o":["ch, as in church","k, as in cat","s, as in city","ts, as in cats"],"why":"c always sounds like ch: cantik, never kantik."}
+{"id":"sounds.02","q":"The final k in tidak (not) is…","o":["a catch in the throat, like the break in uh-oh","a popped k, as in English back","a g sound","silent, with a long a"],"why":"A final k is a catch: stop the air, don't pop the k."}
+{"id":"sounds.03","q":"What does the CAPITAL syllable in the pronunciation line mean?","o":["A slight lift; every vowel stays full","A strong English stress; the other vowels get swallowed","A long vowel","A higher voice, only in questions"],"why":"Indonesian stress is light: lift that syllable a little and say the others in full."}
+{"id":"sounds.04","q":"How many syllables does baik (good) have?","o":["Two: ba-ik","One, like English bike","One, like English bake","Three"],"why":"ai before a final consonant splits into two syllables: ba-ik."}
+{"id":"sounds.05","q":"Which word has the ng + g sound of English finger?","o":["mangga (mango)","ngantuk (sleepy)","nyanyi (to sing)","gula (sugar)"],"why":"ngg is ng followed by a hard g: mangga."}
+{"id":"sounds.06","p":"fried rice","why":"Noun first: nasi (rice), then goreng (fried)."}
+{"id":"sounds.07","p":"hot coffee","why":"panas comes after the noun: kopi panas."}
+{"id":"sounds.08","p":"a big house","why":"besar describes the house, so it comes after the noun: rumah besar."}
+{"id":"sounds.09","p":"pretty","why":"Indonesian spells the ch sound with c alone: cantik."}
+{"id":"sounds.10","p":"mango","why":"mango is mangga: ng followed by a hard g, spelled ngg."}
+{"id":"sounds.11","p":"house","why":"rumah ends in a breathed h, which you must write and say."}
+{"id":"sounds.12","p":"sweet tea","hint":"teh (tea) · manis (sweet)","why":"manis comes after the noun: teh manis."}
+{"id":"sounds.13","p":"my name","hint":"nama (name) · saya (I, my)","why":"The owner comes after the noun: nama saya, literally name my."}
+{"id":"sounds.14","p":"delicious fried rice","hint":"nasi goreng (fried rice) · enak (delicious)","why":"enak comes after the noun: nasi goreng enak."}
+{"id":"greetings.01","q":"It's 4 p.m. and still light. You greet a shopkeeper with…","why":"From about 3 p.m. until dark the greeting is selamat sore."}
+{"id":"greetings.02","q":"Someone says Terima kasih. You answer…","why":"Sama-sama means you're welcome, the reply to terima kasih."}
+{"id":"greetings.03","q":"You need to squeeze past people in a crowded market. You say…","why":"Permisi is excuse me, to pass someone or get attention."}
+{"id":"greetings.04","q":"You are leaving a friend's house. Your friend, who stays, says…","why":"The person staying says selamat jalan (go well); the one leaving says selamat tinggal."}
+{"id":"greetings.05","q":"You greet an older woman at a market in the morning:","why":"An older woman is Bu, and the morning greeting is selamat pagi."}
+{"id":"greetings.06","p":"my name","why":"The owner comes after the noun: nama saya, literally name my."}
+{"id":"greetings.07","p":"my friend","why":"The owner comes after the noun: teman saya."}
+{"id":"greetings.08","p":"Good afternoon (at 4 p.m.)","why":"At 4 p.m. it is sore: selamat sore."}
+{"id":"greetings.09","p":"Good evening. (after dark)","why":"After dark the greeting is selamat malam."}
+{"id":"greetings.10","p":"Thank you.","why":"Thank you is terima kasih."}
+{"id":"greetings.11","p":"Good morning, ma'am.","why":"A woman older than you is Bu (Ibu); Pak and Mas are for men."}
+{"id":"greetings.12","p":"My name is Jack.","hint":"nama (name) · saya (I, my)","why":"The owner comes after the noun: nama saya, then the name."}
+{"id":"greetings.13","p":"This is my friend.","hint":"ini (this) · teman (friend) · saya (I, my)","why":"The owner comes after the noun: teman saya."}
+{"id":"greetings.14","p":"Good evening, sir. (to an older man, after dark)","hint":"malam (evening) · Pak (sir)","why":"An older man is Pak, and after dark the greeting is selamat malam."}
+{"id":"pronouns.01","q":"dia means…","o":["he or she","he only","she only","they"],"why":"dia is both he and she."}
+{"id":"pronouns.02","q":"Which we leaves out the person you are talking to?","why":"kami means we but not you; kita includes the listener."}
+{"id":"pronouns.03","q":"You are talking to an older man you don't know. You call him…","why":"An older man is Pak; kamu is for friends and children."}
+{"id":"pronouns.04","q":"Which you is used on forms and signs?","why":"Anda is the neutral you of forms, signs and formal speech."}
+{"id":"pronouns.05","q":"You call over a young woman at a shop counter in Jakarta:","why":"A young woman serving you is Mbak; Mas is for a young man."}
+{"id":"pronouns.06","p":"our friend (yours and mine)","why":"The owner comes after the noun: teman kita, and kita includes the listener."}
+{"id":"pronouns.07","p":"their friend","why":"The owner comes after the noun: teman mereka."}
+{"id":"pronouns.08","p":"He's my friend.","why":"dia means he as well as she, and it starts the sentence here."}
+{"id":"pronouns.09","p":"Good morning, sir.","why":"An older man is Pak (Bapak); Bu and Mbak are for women."}
+{"id":"pronouns.10","p":"our friend (not yours)","why":"kami is we without the listener; kita would include them."}
+{"id":"pronouns.11","p":"She's my friend.","why":"dia means she as well as he."}
+{"id":"pronouns.12","p":"his friend (use dia)","hint":"teman (friend) · dia (he, she)","why":"The owner comes after the noun: teman dia."}
+{"id":"pronouns.13","p":"our house (yours and mine)","hint":"rumah (house) · kita (we, including you)","why":"The owner comes after the noun: rumah kita, with kita because the listener is included."}
+{"id":"pronouns.14","p":"Thank you, ma'am.","hint":"terima kasih · Bu (ma'am)","why":"A woman older than you is Bu (Ibu), never kamu."}
+{"id":"intro.01","q":"What's your name? (formal) =","why":"Names are asked with siapa (who), not apa (what)."}
+{"id":"intro.02","q":"I'm 25 years old =","why":"Age is my age plus the number plus tahun; punya (have) is never used for age."}
+{"id":"intro.03","q":"Dari mana? means…","o":["Where are you from?","Where do you live?","What's your name?","How old are you?"],"why":"dari is from and mana is where: from where?"}
+{"id":"intro.04","q":"Saya bisa bahasa Indonesia sedikit. means…","o":["I speak a little Indonesian.","I don't speak Indonesian.","I'm learning a lot of Indonesian.","Indonesian is a little hard."],"why":"bisa plus a language means you speak it; sedikit is a little."}
+{"id":"intro.05","q":"Saya orang Amerika. means…","o":["I'm American.","I live in America.","I like America.","I'm going to America."],"why":"orang Amerika, literally person America, is an American."}
+{"id":"intro.06","p":"I'm from America.","why":"No word for 'am' before a place: Saya dari Amerika."}
+{"id":"intro.07","p":"my age","why":"The owner comes after the noun: umur saya."}
+{"id":"intro.08","p":"I live in Jakarta. (start with saya)","why":"di means in or at a place: tinggal di Jakarta."}
+{"id":"intro.09","p":"What's your name? (formal)","why":"Names take siapa (who): Siapa nama Anda?"}
+{"id":"intro.10","p":"I live in Jakarta.","why":"tinggal means live: Saya tinggal di Jakarta."}
+{"id":"intro.11","p":"I work as a teacher.","why":"sebagai means as: bekerja sebagai guru."}
+{"id":"intro.12","p":"My friend is from America.","hint":"teman (friend) · dari (from) · Amerika","why":"No word for 'is' before a place, and the owner comes after the noun: teman saya dari Amerika."}
+{"id":"intro.13","p":"I'm 25 years old.","hint":"umur (age) · dua puluh lima (25) · tahun (year)","why":"The owner comes after the noun: umur saya, and there is no word for 'am'."}
+{"id":"intro.14","p":"What's your name? (formal)","hint":"siapa (who) · nama (name) · Anda (you, formal)","why":"The owner comes after the noun, nama Anda, and names are asked with siapa."}
+{"id":"no-be.01","q":"I'm hungry =","why":"A describing word follows the person directly, with nothing in between."}
+{"id":"no-be.02","q":"She's at the office =","why":"A place follows the person directly: Dia di kantor."}
+{"id":"no-be.03","q":"Which sentence uses adalah correctly?","why":"adalah links two nouns, like capital and Jakarta; never an adjective or a place."}
+{"id":"no-be.04","q":"Saya makan nasi. can mean…","o":["I eat rice, or I ate rice","only I eat rice, never the past","only I ate rice, never now","I'm rice"],"why":"Indonesian verbs have no tenses; the context tells you when."}
+{"id":"no-be.05","q":"Saya guru. means…","o":["I'm a teacher.","my teacher","I have a teacher.","I want a teacher."],"why":"A noun straight after saya says what you are; my teacher would be guru saya."}
+{"id":"no-be.06","p":"I'm hungry.","why":"No word for 'am' before an adjective: Saya lapar."}
+{"id":"no-be.07","p":"She's at the office.","why":"No word for 'is' before a place: Dia di kantor."}
+{"id":"no-be.08","p":"My friend is tired.","why":"The owner comes after the noun, and there is no word for 'is' before an adjective: teman saya capek."}
+{"id":"no-be.09","p":"My friend is at home.","why":"di means at; no other word is needed for is."}
+{"id":"no-be.10","p":"Yesterday I ate fried rice.","why":"makan stays makan in the past; kemarin already shows the time."}
+{"id":"no-be.11","p":"The capital of Indonesia is Jakarta.","why":"Between two noun phrases, careful Indonesian uses adalah."}
+{"id":"no-be.12","p":"I'm tired.","hint":"capek (tired)","why":"No word for 'am' before an adjective: Saya capek."}
+{"id":"no-be.13","p":"He's at home.","hint":"dia (he, she) · di (at) · rumah (house)","why":"No word for 'is' before a place: Dia di rumah."}
+{"id":"no-be.14","p":"I'm a teacher.","hint":"guru (teacher)","why":"No word for 'am', and no 'a' needed: Saya guru."}
+{"id":"ini-itu.01","q":"this book =","why":"In a phrase ini follows buku: buku ini."}
+{"id":"ini-itu.02","q":"Ini buku. means…","o":["This is a book.","this book","that book","That is a book."],"why":"With ini first, the words form a sentence: This is a book."}
+{"id":"ini-itu.03","q":"You point at one of two bags and say This one:","why":"yang ini is this one; yang itu is that one."}
+{"id":"ini-itu.04","q":"itu means…","o":["that, or the one we both know","this","here","what"],"why":"itu is that, and after a noun it can work like the."}
+{"id":"ini-itu.05","q":"That coffee is hot =","why":"kopi itu is that coffee, and panas then says what it is like, while Itu kopi panas means That's hot coffee."}
+{"id":"ini-itu.06","p":"this shirt","why":"ini comes after the noun: baju ini."}
+{"id":"ini-itu.07","p":"That bag is expensive.","why":"itu comes after the noun, and there is no word for 'is' before an adjective: tas itu mahal."}
+{"id":"ini-itu.08","p":"This is a book.","why":"With ini first, the two words make a full sentence: Ini buku."}
+{"id":"ini-itu.09","p":"This book is cheap.","why":"this is ini, placed right after buku."}
+{"id":"ini-itu.10","p":"That's my bag.","why":"That is is just itu at the start: Itu tas saya."}
+{"id":"ini-itu.11","p":"I want that one.","why":"that one is yang itu."}
+{"id":"ini-itu.12","p":"that bag","hint":"tas (bag) · itu (that)","why":"itu comes after the noun: tas itu."}
+{"id":"ini-itu.13","p":"This shirt is cheap.","hint":"baju · ini · murah (cheap)","why":"ini comes after the noun, and there is no word for 'is': baju ini murah."}
+{"id":"ini-itu.14","p":"That's my bag.","hint":"itu (that) · tas (bag) · saya (I, my)","why":"With itu first you have a sentence, and the owner comes after the noun: tas saya."}
+{"id":"noun-adj.01","q":"a big house =","why":"Describing words follow the noun: rumah besar, literally house big."}
+{"id":"noun-adj.02","q":"plane ticket =","why":"The main noun, tiket, comes first, then the kind: pesawat."}
+{"id":"noun-adj.03","q":"very hot =","why":"sangat goes before the adjective; sekali would go after it: panas sekali."}
+{"id":"noun-adj.04","q":"Rumah itu besar. means…","o":["That house is big.","that big house","That's a big house.","This house is big."],"why":"besar after itu says something about the house, so it is a full sentence."}
+{"id":"noun-adj.05","q":"rumah besar itu means…","o":["that big house","That house is big.","That's a big house.","this big house"],"why":"besar before itu is part of the phrase: that big house."}
+{"id":"noun-adj.06","p":"a new car","why":"baru comes after the noun: mobil baru."}
+{"id":"noun-adj.07","p":"plane ticket","why":"In a noun phrase the main noun leads: tiket (ticket), then pesawat (plane)."}
+{"id":"noun-adj.08","p":"That big house is expensive.","why":"The describing word and itu come after the noun, and there is no word for 'is': rumah besar itu mahal."}
+{"id":"noun-adj.09","p":"hot coffee","why":"hot is panas, and it follows kopi."}
+{"id":"noun-adj.10","p":"This top is really nice.","why":"sekali goes after the adjective; sangat would go before it."}
+{"id":"noun-adj.11","p":"I want a big room.","why":"big is besar, placed after kamar."}
+{"id":"noun-adj.12","p":"a red shirt","hint":"baju (top, shirt) · merah (red)","why":"Colors come after the noun: baju merah."}
+{"id":"noun-adj.13","p":"That house is very big.","hint":"rumah · itu · sangat (very) · besar","why":"itu comes after the noun, there is no word for 'is', and sangat goes before besar."}
+{"id":"noun-adj.14","p":"my new car","hint":"mobil (car) · baru (new) · saya (my)","why":"The noun comes first, then the describing word, then the owner: mobil baru saya."}
+{"id":"possession.01","q":"my book =","why":"saya follows buku to mean my: buku saya."}
+{"id":"possession.02","q":"Budi's car =","why":"No apostrophe-s: the name simply follows the thing, mobil Budi."}
+{"id":"possession.03","q":"harganya means…","o":["the price; its price","his book","how much","expensive"],"why":"harga is price, and -nya adds its or the."}
+{"id":"possession.04","q":"your bag (to a friend) =","why":"-mu is written as part of the noun, with no hyphen: tasmu."}
+{"id":"possession.05","q":"Saya punya mobil. means…","o":["I have a car.","I want a car.","I'm a car.","Whose car?"],"why":"punya means have: Saya punya mobil."}
+{"id":"possession.06","p":"Budi's car","why":"The owner comes after the thing, so Budi follows mobil: mobil Budi."}
+{"id":"possession.07","p":"my friend's house","why":"The owner comes after the noun at each step: rumah teman saya."}
+{"id":"possession.08","p":"My room is small.","why":"The owner comes after the noun, and there is no word for 'is' before an adjective: kamar saya kecil."}
+{"id":"possession.09","p":"my friend's house","why":"friend is teman, placed between rumah and saya."}
+{"id":"possession.10","p":"How much is it? (literally: how much is its price?)","why":"its price is harganya, with the ending -nya."}
+{"id":"possession.11","p":"I have a car.","why":"have is punya: Saya punya mobil."}
+{"id":"possession.12","p":"my book","hint":"buku (book) · saya (I, my)","why":"The owner comes after the noun: buku saya."}
+{"id":"possession.13","p":"Siti's house is big.","hint":"rumah (house) · Siti · besar (big)","why":"The owner comes after the noun, and there is no word for 'is': rumah Siti besar."}
+{"id":"possession.14","p":"Your room is big. (to a friend)","hint":"kamar (room) · kamu (you, to a friend) · besar","why":"The owner comes after the noun, and there is no word for 'is': kamar kamu besar."}
+{"id":"questions.01","q":"Who's that? =","why":"siapa asks who; apa asks what."}
+{"id":"questions.02","q":"Where are you going? (to a friend) =","why":"Going somewhere takes ke mana, where to."}
+{"id":"questions.03","q":"berapa asks…","o":["how much or how many","when","who","why"],"why":"berapa asks for a number or a price: Berapa harganya?"}
+{"id":"questions.04","q":"kapan means…","o":["when","where","how","which"],"why":"kapan is when: Kapan kamu ke Bali?"}
+{"id":"questions.05","q":"Are you tired? (to a friend), the everyday way:","why":"A rising voice is enough to turn a sentence into a question."}
+{"id":"questions.06","p":"whose car","why":"The owner comes after the thing, so siapa follows mobil: mobil siapa."}
+{"id":"questions.07","p":"What is your friend's name? (to a friend; start with siapa)","why":"Names take siapa, and the owner comes after the noun: nama teman kamu."}
+{"id":"questions.08","p":"Where do you live? (to a friend; question word at the end)","why":"di mana asks where something is or happens; ke mana would be where to."}
+{"id":"questions.09","p":"Where do you live? (to a friend)","why":"Where you live is a place you are at: di mana."}
+{"id":"questions.10","p":"Whose car is this?","why":"whose is siapa, placed right behind mobil."}
+{"id":"questions.11","p":"How much is it?","why":"Prices are asked with berapa: Berapa harganya?"}
+{"id":"questions.12","p":"Where is your house? (to a friend)","hint":"rumah (house) · kamu · di mana (where)","why":"The owner comes after the noun, and there is no word for 'is': rumah kamu di mana."}
+{"id":"questions.13","p":"Whose bag is this?","hint":"tas (bag) · siapa (who) · ini (this)","why":"The owner comes after the thing, so siapa follows tas: tas siapa."}
+{"id":"questions.14","p":"Are you hungry? (to a friend)","hint":"kamu · lapar (hungry)","why":"No word for 'are' before an adjective: Kamu lapar? with a rising voice."}
+{"id":"negation.01","q":"I'm not hungry. =","why":"lapar is a describing word, so it takes tidak."}
+{"id":"negation.02","q":"This isn't my book. =","why":"buku saya is a noun, so it takes bukan."}
+{"id":"negation.03","q":"I don't have a car. =","why":"punya (have) is a verb, so tidak goes right before it."}
+{"id":"negation.04","q":"Your friend asks Itu rumah kamu? It isn't yours. The short answer is…","why":"A question about a noun (your house) gets the short no Bukan."}
+{"id":"negation.05","q":"Don't go! =","why":"A command with \"don't\" takes jangan, never tidak."}
+{"id":"negation.06","p":"I'm not hungry","why":"No word for 'am': tidak goes straight before lapar."}
+{"id":"negation.07","p":"This is not my house","why":"bukan goes before the noun, and the owner comes after the noun: rumah saya."}
+{"id":"negation.08","p":"My room is not big","why":"The owner comes after the noun, and there is no word for 'is': kamar saya tidak besar."}
+{"id":"negation.09","p":"I'm not a teacher.","why":"guru is a noun, so the negative word is bukan."}
+{"id":"negation.10","p":"This coffee isn't hot.","why":"panas is a describing word, so it takes tidak."}
+{"id":"negation.11","p":"Don't go!","why":"Telling someone not to do something takes jangan."}
+{"id":"negation.12","p":"I'm not a college student.","hint":"bukan · mahasiswa","why":"No word for 'am': bukan goes straight before the noun mahasiswa."}
+{"id":"negation.13","p":"My car isn't new.","hint":"mobil · baru · tidak","why":"The owner comes after the noun, and there is no word for 'is': mobil saya tidak baru."}
+{"id":"negation.14","p":"He's not Indonesian.","hint":"orang Indonesia · bukan","why":"No word for 'is': bukan goes straight before the noun orang Indonesia."}
+{"id":"numbers.01","q":"15 =","why":"belas makes the teens: lima belas is five-teen."}
+{"id":"numbers.02","q":"50 =","why":"puluh means tens, and it comes after the number: lima puluh."}
+{"id":"numbers.03","q":"1,000 =","why":"ribu is thousand, and se- means one: seribu."}
+{"id":"numbers.04","q":"Rp200.000 =","why":"The dot separates thousands, so 200.000 is dua ratus ribu."}
+{"id":"numbers.05","q":"two hot coffees =","why":"Numbers go before the noun, describing words after it, and the noun is not repeated: dua kopi panas."}
+{"id":"numbers.06","p":"two big houses","why":"Numbers go before the noun, describing words after it: dua rumah besar."}
+{"id":"numbers.07","p":"my phone number","why":"The noun comes first: nomor, then telepon, and the owner last."}
+{"id":"numbers.08","p":"The price is fifty thousand rupiah (start with the price)","why":"Read the price in chunks: lima puluh (fifty), then ribu (thousand)."}
+{"id":"numbers.09","p":"twenty-five","why":"puluh means tens: dua puluh lima is two tens and five."}
+{"id":"numbers.10","p":"It's 100,000 rupiah.","why":"One hundred is seratus: se- means one."}
+{"id":"numbers.11","p":"three new books","why":"After a number the noun stays plain: tiga buku."}
+{"id":"numbers.12","p":"three new books","hint":"tiga · buku · baru","why":"Numbers go before the noun, describing words after it: tiga buku baru."}
+{"id":"numbers.13","p":"the price of this shirt","hint":"harga · baju · ini","why":"The noun comes first: harga, then baju, then ini."}
+{"id":"numbers.14","p":"Thirty thousand rupiah (in words)","hint":"tiga · puluh · ribu","why":"Thirty is three tens, tiga puluh, then ribu for thousand."}
+{"id":"time.01","q":"three o'clock =","why":"jam before the number means o'clock."}
+{"id":"time.02","q":"2:30 =","why":"setengah counts toward the next hour: 2:30 is setengah tiga."}
+{"id":"time.03","q":"Berapa jam? asks…","o":["how many hours","what time it is","how much it costs","which day it is"],"why":"berapa before jam asks how many hours; jam berapa asks the time."}
+{"id":"time.04","q":"eight in the evening =","why":"malam covers the evening and night, and it goes after the hour."}
+{"id":"time.05","q":"Monday =","why":"hari comes first: hari Senin. Minggu is Sunday."}
+{"id":"time.06","p":"three o'clock","why":"jam before the number means o'clock: the noun comes first."}
+{"id":"time.07","p":"seven in the morning","why":"jam before the number means o'clock, and pagi follows: the noun comes first."}
+{"id":"time.08","p":"August 17","why":"Dates go day, then month: tanggal tujuh belas Agustus."}
+{"id":"time.09","p":"It's 2:30 now.","why":"setengah tiga means half way to three, which is 2:30."}
+{"id":"time.10","p":"I sleep eight hours.","why":"A number before jam is a length of time: delapan jam, eight hours."}
+{"id":"time.11","p":"4:15","why":"lewat means past: jam empat lewat seperempat is a quarter past four."}
+{"id":"time.12","p":"at five in the afternoon","hint":"jam · lima · sore","why":"jam before the number means o'clock, then sore: the noun comes first."}
+{"id":"time.13","p":"It's two o'clock (now).","hint":"sekarang · jam · dua","why":"jam before the number means o'clock, and there is no word for 'is': sekarang jam dua."}
+{"id":"time.14","p":"It's 2:30 (use setengah).","hint":"jam · setengah · tiga","why":"setengah counts toward the next hour: setengah tiga is 2:30."}
+{"id":"ada.01","q":"Is there a pharmacy near here? =","why":"ada means there is; adalah is a different word."}
+{"id":"ada.02","q":"There's no sugar. =","why":"There isn't any is tidak ada, in front of the thing."}
+{"id":"ada.03","q":"Do you have a free room? (to hotel staff) =","why":"Shops and hotels are asked what they have with ada."}
+{"id":"ada.04","q":"Someone asks Ada toilet di sini? There is one. The short answer is…","why":"The short yes repeats ada."}
+{"id":"ada.05","q":"I have a car (I own one). =","why":"punya says you own something, and it goes before the thing."}
+{"id":"ada.06","p":"There's no hot water (start with tidak)","why":"panas comes after the noun: air panas, and tidak ada means there isn't any."}
+{"id":"ada.07","p":"There are two free rooms (start with ada)","why":"Numbers go before the noun, describing words after it: dua kamar kosong."}
+{"id":"ada.08","p":"She's at home","why":"No word for 'is' before a place: Dia di rumah."}
+{"id":"ada.09","p":"Is there a pharmacy near here?","why":"ada is there is; adalah never means that."}
+{"id":"ada.10","p":"There are no free rooms.","why":"There aren't any is tidak ada."}
+{"id":"ada.11","p":"I own a car.","why":"punya means own; in casual speech you also hear ada."}
+{"id":"ada.12","p":"There's no hot water.","hint":"tidak ada · air · panas","why":"panas comes after the noun: air panas; tidak ada means there isn't any."}
+{"id":"ada.13","p":"Is there a big room? (use ada)","hint":"ada · kamar · besar","why":"besar comes after the noun: kamar besar."}
+{"id":"ada.14","p":"My friend isn't at home.","hint":"teman · rumah · tidak","why":"The owner comes after the noun, and there is no word for 'is' before a place: teman saya tidak di rumah."}
+{"id":"prepositions.01","q":"I'm at the hotel. =","why":"Being somewhere takes di."}
+{"id":"prepositions.02","q":"Where are you from? (to a friend) =","why":"Where from is dari mana."}
+{"id":"prepositions.03","q":"My bag is under the table. =","why":"di bawah goes before the place: di bawah meja."}
+{"id":"prepositions.04","q":"Which is written correctly?","why":"di before a place is a separate word, and living somewhere takes di."}
+{"id":"prepositions.05","q":"in front of the station =","why":"di depan goes before the place: di depan stasiun."}
+{"id":"prepositions.06","p":"in my room","why":"The owner comes after the noun: di kamar saya."}
+{"id":"prepositions.07","p":"to my friend's house","why":"The owner comes after the noun: rumah teman saya."}
+{"id":"prepositions.08","p":"I'm going to the market (start with saya)","why":"Going somewhere takes ke: pergi ke pasar."}
+{"id":"prepositions.09","p":"I'm going to Bali.","why":"Going somewhere takes ke."}
+{"id":"prepositions.10","p":"Where are you from? (to a friend)","why":"Where from is dari mana."}
+{"id":"prepositions.11","p":"That cat is under the table.","why":"di bawah means under."}
+{"id":"prepositions.12","p":"at my house","hint":"di · rumah · saya","why":"The owner comes after the noun: di rumah saya."}
+{"id":"prepositions.13","p":"My hotel is in Ubud.","hint":"hotel · Ubud","why":"The owner comes after the noun, and there is no word for 'is' before a place: hotel saya di Ubud."}
+{"id":"prepositions.14","p":"Where are you going? (to a friend)","hint":"ke mana · pergi","why":"Going somewhere takes ke, so where to is ke mana."}
+{"id":"family.01","q":"my mother =","why":"The owner comes after the noun: ibu saya."}
+{"id":"family.02","q":"my younger sister =","why":"adik is younger, perempuan is female, and the owner goes last."}
+{"id":"family.03","q":"parents =","why":"orang tua, literally old people, means parents."}
+{"id":"family.04","q":"Someone asks Sudah menikah? You're not married. The expected answer is…","why":"Belum (not yet) is the polite, expected answer."}
+{"id":"family.05","q":"her husband =","why":"-nya is joined to the noun with no hyphen: suaminya."}
+{"id":"family.06","p":"my older brother","why":"The noun comes first: kakak, then laki-laki, then the owner."}
+{"id":"family.07","p":"My wife is a teacher","why":"The owner comes after the noun: istri saya."}
+{"id":"family.08","p":"My grandmother lives in Bandung (start with my grandmother)","why":"The owner comes after the noun: nenek saya."}
+{"id":"family.09","p":"my older sister","why":"perempuan means female: kakak perempuan is an older sister."}
+{"id":"family.10","p":"Married? Not yet.","why":"Belum, not yet, is the expected answer."}
+{"id":"family.11","p":"My grandmother lives in Bali.","why":"My is saya, placed after the noun."}
+{"id":"family.12","p":"my younger brother (say he's a boy)","hint":"adik · laki-laki · saya","why":"The noun comes first, then laki-laki, and the owner last: adik laki-laki saya."}
+{"id":"family.13","p":"My husband is Balinese.","hint":"suami · orang Bali","why":"The owner comes after the noun, and there is no word for 'is': suami saya orang Bali."}
+{"id":"family.14","p":"My parents aren't in Jakarta.","hint":"orang tua · Jakarta · tidak","why":"A place takes tidak here, and the owner comes after the noun: orang tua saya."}
+{"id":"time-words.01","q":"I've already showered. =","why":"sudah goes before the verb for something done."}
+{"id":"time-words.02","q":"She's taking a shower (right now). =","why":"sedang goes before the verb for something happening now."}
+{"id":"time-words.03","q":"Someone asks Sudah makan? You haven't. The short answer is…","why":"The short answer for not yet is Belum."}
+{"id":"time-words.04","q":"We'll go home tomorrow. =","why":"akan goes before the verb for the future."}
+{"id":"time-words.05","q":"Have you ever been to Lombok? (to a friend) =","why":"pernah means ever, and going somewhere still takes ke."}
+{"id":"time-words.06","p":"I have already eaten","why":"The verb never changes; sudah is the time word."}
+{"id":"time-words.07","p":"He is still at the office","why":"No word for 'is' before a place; masih is the time word for still."}
+{"id":"time-words.08","p":"She hasn't showered yet","why":"belum is the time word for not yet; the verb never changes."}
+{"id":"time-words.09","p":"I haven't eaten yet.","why":"Not yet is belum."}
+{"id":"time-words.10","p":"She's eating (right now).","why":"Right now, in progress, is sedang."}
+{"id":"time-words.11","p":"We'll go home tomorrow.","why":"The future is akan."}
+{"id":"time-words.12","p":"I have already eaten.","hint":"sudah · makan","why":"The verb never changes; sudah is the time word."}
+{"id":"time-words.13","p":"My mother is still at the market.","hint":"ibu · masih · pasar","why":"The owner comes after the noun, and there is no word for 'is' before a place: ibu saya masih di pasar."}
+{"id":"time-words.14","p":"I have never been to Bali.","hint":"belum pernah · Bali","why":"belum pernah is the time word for never (yet), with ke before the place."}
+{"id":"ber.01","q":"to swim =","why":"renang takes ber- with a single r: berenang."}
+{"id":"ber.02","q":"to study; to learn =","why":"belajar is a ber- verb with its own spelling: learn it whole."}
+{"id":"ber.03","q":"They're playing soccer. =","why":"main takes ber-: bermain."}
+{"id":"ber.04","q":"I'm thirty years old (use berumur). =","why":"berumur means be … years old; the number goes before tahun."}
+{"id":"ber.05","q":"Which one is NOT a real word?","why":"kerja takes be-, so berkerja is not a word."}
+{"id":"ber.06","p":"My friend works in Jakarta (start with my friend)","why":"The owner comes after the noun: teman saya, and kerja takes be-."}
+{"id":"ber.07","p":"My younger sibling is studying (right now)","why":"The owner comes after the noun: adik saya, and sedang is the time word."}
+{"id":"ber.08","p":"We swim at the beach (start with we)","why":"renang takes ber-: berenang."}
+{"id":"ber.09","p":"I work in an office.","why":"kerja takes be-: bekerja."}
+{"id":"ber.10","p":"They play soccer.","why":"main takes ber-: bermain."}
+{"id":"ber.11","p":"She's studying Indonesian.","why":"belajar has its own spelling: learn it whole."}
+{"id":"ber.12","p":"My older sister works in Bali.","hint":"kakak perempuan · kerja (ber-) · Bali","why":"The owner comes after the noun: kakak perempuan saya, and kerja takes be-."}
+{"id":"ber.13","p":"I'm learning Indonesian (right now).","hint":"sedang · belajar · bahasa Indonesia","why":"The verb never changes; sedang is the time word."}
+{"id":"ber.14","p":"He doesn't swim.","hint":"tidak · renang (ber-)","why":"A verb takes tidak, and renang becomes berenang."}
+{"id":"me.01","q":"pakai + me- =","why":"p drops after mem-: memakai."}
+{"id":"me.02","q":"lihat + me- =","why":"Before l the prefix is plain me-: melihat."}
+{"id":"me.03","q":"cari + me- =","why":"Before c the prefix is men-: mencari."}
+{"id":"me.04","q":"sewa + me- =","why":"s drops after meny-: menyewa."}
+{"id":"me.05","q":"I'm reading a book. =","why":"baca becomes membaca, and the book comes after the verb."}
+{"id":"me.06","p":"I'm reading a new book (right now)","why":"baru comes after the noun: buku baru, and the verb never changes."}
+{"id":"me.07","p":"My mother is cooking fried rice (right now)","why":"The owner comes after the noun: ibu saya, and goreng comes after nasi."}
+{"id":"me.08","p":"She's writing a letter (right now)","why":"t drops after men-: menulis."}
+{"id":"me.09","p":"I see my friend.","why":"Before l the prefix is plain me-: melihat."}
+{"id":"me.10","p":"We rent a motorbike in Bali.","why":"s drops after meny-: menyewa."}
+{"id":"me.11","p":"She's sending a message.","why":"k drops after meng-: mengirim."}
+{"id":"me.12","p":"I'm looking for a cheap hotel.","hint":"cari · hotel · murah","why":"murah comes after the noun: hotel murah; cari becomes mencari."}
+{"id":"me.13","p":"My father is writing a letter.","hint":"ayah · tulis · surat","why":"The owner comes after the noun: ayah saya; tulis becomes menulis."}
+{"id":"me.14","p":"I haven't cooked yet.","hint":"belum · masak","why":"belum is the time word for not yet; masak becomes memasak."}
+{"id":"modals.01","q":"'I have to go to the doctor' =","why":"harus means 'must, have to', and it goes straight before the rest."}
+{"id":"modals.02","q":"'May I ask something?' =","why":"boleh asks for permission; harus and perlu mean must and need."}
+{"id":"modals.03","q":"'I can't swim' =","why":"tidak goes before bisa; tidak boleh would mean you are not allowed."}
+{"id":"modals.04","q":"Bisa bahasa Inggris? means…","o":["Do you speak English?","Can you teach English?","Is English allowed?","Do you want English?"],"why":"bisa + a language means you can speak it."}
+{"id":"modals.05","q":"'She needs to rest' =","why":"perlu means 'need to' and goes straight before the verb, with no untuk."}
+{"id":"modals.06","p":"My child has to rest","why":"The owner comes after the noun: anak saya, and harus goes straight before the verb."}
+{"id":"modals.07","p":"I want to buy cold water","why":"dingin comes after the noun: air dingin, and mau needs no untuk."}
+{"id":"modals.08","p":"I don't need to pay","why":"tidak goes before perlu; bukan is only for nouns."}
+{"id":"modals.09","p":"I can't swim (I never learned).","why":"bisa is about ability; tidak boleh would mean you are not allowed."}
+{"id":"modals.10","p":"May I sit here?","why":"Boleh saya…? is how you ask for permission."}
+{"id":"modals.11","p":"You have to take this medicine three times a day. (to a friend)","why":"harus means 'have to'; boleh would only allow it."}
+{"id":"modals.12","p":"My mother needs to rest","hint":"ibu · perlu · istirahat","why":"The owner comes after the noun: ibu saya, and perlu goes straight before istirahat."}
+{"id":"modals.13","p":"I can't come to your house (to a friend)","hint":"datang · rumah · kamu","why":"The owner comes after the noun: rumah kamu, and tidak goes before bisa."}
+{"id":"modals.14","p":"May I sit here, ma'am?","hint":"boleh · duduk · di sini · Bu","why":"Boleh saya…? asks for permission, and Bu is the polite 'you' for a woman."}
+{"id":"requests.01","q":"'Please help me' =","why":"tolong + a verb asks someone to do something for you; silakan only invites."}
+{"id":"requests.02","q":"'Some drinking water, please' =","why":"minta + a thing means 'may I have'; air putih is drinking water."}
+{"id":"requests.03","q":"'Don't smoke here' =","why":"jangan is the 'don't' of commands; tidak only describes."}
+{"id":"requests.04","q":"A waiter puts down your plate and says Silakan. He means…","o":["Here you are, go ahead.","Thank you.","Sorry.","Help me, please."],"why":"silakan offers or invites: go ahead, please enjoy."}
+{"id":"requests.05","q":"'Let's eat!' =","why":"ayo means 'let's' and includes you; silakan invites only the other person."}
+{"id":"requests.06","p":"Some hot coffee, please","why":"panas comes after the noun: kopi panas, and minta asks for a thing."}
+{"id":"requests.07","p":"Please help my mother","why":"The owner comes after the noun: ibu saya, and tolong goes before the verb."}
+{"id":"requests.08","p":"Don't eat this fried rice","why":"A 'don't' command starts with jangan; tidak cannot give orders."}
+{"id":"requests.09","p":"Don't forget, OK?","why":"jangan is the 'don't' of commands."}
+{"id":"requests.10","p":"One fried rice, please. (to a waiter)","why":"minta + a thing is how you order politely."}
+{"id":"requests.11","p":"Please have a seat, ma'am.","why":"silakan invites someone to do something: please, go ahead."}
+{"id":"requests.12","p":"Hot tea, please (use minta)","hint":"minta · teh · panas","why":"panas comes after the noun: teh panas, and minta asks for a thing."}
+{"id":"requests.13","p":"Please help my friend (use tolong)","hint":"tolong · bantu · teman","why":"The owner comes after the noun: teman saya, and tolong goes before the verb."}
+{"id":"requests.14","p":"Don't go to the market","hint":"jangan · pergi · pasar","why":"jangan gives a 'don't' command, and ke marks where you go."}
+{"id":"yang.01","q":"'the person who works at the hotel' =","why":"yang, not siapa, links the description to the person."}
+{"id":"yang.02","q":"Pointing at bags: 'I'll take the small one' =","why":"yang + a describing word means 'the … one'."}
+{"id":"yang.03","q":"Which sentence is missing a yang it needs?","why":"A longer description such as tinggal di Bali needs yang."}
+{"id":"yang.04","q":"'the shoes that I bought' =","why":"yang comes after sepatu, then the description."}
+{"id":"yang.05","q":"'that tall person' =","why":"The description follows orang, and itu goes at the very end."}
+{"id":"yang.06","p":"the tall person","why":"The describing phrase goes after the noun: orang yang tinggi."}
+{"id":"yang.07","p":"my friend who lives in Bali","why":"The owner comes after the noun, then the yang phrase: teman saya yang tinggal di Bali."}
+{"id":"yang.08","p":"the person who works here","why":"yang, not siapa, links a phrase to a person."}
+{"id":"yang.09","p":"This is the book I bought yesterday.","why":"A longer description needs yang."}
+{"id":"yang.10","p":"Who is the person sitting over there?","why":"yang links duduk di sana to orang."}
+{"id":"yang.11","p":"I'll take the big one.","why":"yang besar means 'the big one'."}
+{"id":"yang.12","p":"the red bag","hint":"tas · merah","why":"merah comes after the noun: tas merah or tas yang merah."}
+{"id":"yang.13","p":"the person who lives here","hint":"orang · tinggal · di sini","why":"The yang phrase goes after the noun: orang yang tinggal di sini."}
+{"id":"yang.14","p":"I don't like the red one","hint":"suka · merah","why":"tidak goes before suka, and yang merah is 'the red one'."}
+{"id":"passive.01","q":"'The tickets have been bought' =","why":"di- goes on the root beli and is written as one word."}
+{"id":"passive.02","q":"Which is the di- verb of menulis (to write)?","why":"Take off meN- and the t comes back: tulis, so ditulis."}
+{"id":"passive.03","q":"'at the station' =","why":"di before a place is a separate word; joined di- is only for verbs."}
+{"id":"passive.04","q":"'This letter was written by Siti' =","why":"oleh means 'by'; ini follows surat."}
+{"id":"passive.05","q":"Mobilnya sudah dicuci means…","o":["The car has been washed.","The car has washed something.","The car will be washed.","Wash the car!"],"why":"sudah + a di- verb: it has already been done to the car."}
+{"id":"passive.06","p":"My room has been booked","why":"The owner comes after the noun: kamar saya, and sudah is the time word."}
+{"id":"passive.07","p":"My friend's car has been washed","why":"The owner comes after the noun: mobil teman saya, and sudah is the time word."}
+{"id":"passive.08","p":"The food is eaten at home (start with the food)","why":"dimakan is one word; di rumah is two."}
+{"id":"passive.09","p":"Tickets can be bought at the station.","why":"di- joins the root beli: dibeli."}
+{"id":"passive.10","p":"This letter was written by Mr. Budi.","why":"oleh means 'by' after a di- verb."}
+{"id":"passive.11","p":"The room has been booked.","why":"The root is pesan, and di- is joined to it: dipesan."}
+{"id":"passive.12","p":"My ticket has been bought","hint":"tiket · beli (root) · sudah","why":"The owner comes after the noun: tiket saya, and sudah is the time word."}
+{"id":"passive.13","p":"The plane ticket has been booked","hint":"tiket pesawat · pesan (root) · sudah","why":"The main noun comes first: tiket pesawat, and sudah is the time word."}
+{"id":"passive.14","p":"The cake was eaten at home","hint":"kue · makan (root) · di rumah","why":"dimakan is one word; di rumah is two."}
+{"id":"compare.01","q":"'This bag is cheaper than that bag' =","why":"lebih + describing word, then dari for 'than'."}
+{"id":"compare.02","q":"'the most expensive' =","why":"paling means 'most'; sangat is only 'very'."}
+{"id":"compare.03","q":"Kopinya kurang manis means…","o":["The coffee isn't sweet enough.","The coffee is too sweet.","The coffee is sweeter.","The coffee is very sweet."],"why":"kurang means 'less, not … enough'."}
+{"id":"compare.04","q":"'Jakarta is bigger than Bandung' =","why":"lebih before besar, daripada for 'than', and nothing for 'is'."}
+{"id":"compare.05","q":"'These two shirts are the same size' =","why":"sama + describing word + -nya means 'the same …'."}
+{"id":"compare.06","p":"This shirt is cheaper","why":"ini goes after the noun: baju ini, and there is no word for 'is' before lebih murah."}
+{"id":"compare.07","p":"My house is bigger than your house (to a friend)","why":"The owner comes after the noun: rumah saya, rumah kamu."}
+{"id":"compare.08","p":"the cheapest shop","why":"paling murah comes after the noun, linked by yang: toko yang paling murah."}
+{"id":"compare.09","p":"This one is cheaper than that one.","why":"lebih means 'more, -er', and dari means 'than'."}
+{"id":"compare.10","p":"Jakarta is bigger than Bandung.","why":"dari or daripada means 'than'."}
+{"id":"compare.11","p":"It's too expensive, sir. Can you go lower?","why":"terlalu means 'too'; sangat only means 'very'."}
+{"id":"compare.12","p":"This shop is cheaper","hint":"toko · ini · lebih · murah","why":"ini comes after the noun: toko ini, and there is no word for 'is'."}
+{"id":"compare.13","p":"My bag is the biggest","hint":"tas · paling · besar","why":"The owner comes after the noun: tas saya, and there is no word for 'is'."}
+{"id":"compare.14","p":"This shirt is not too big","hint":"baju · ini · terlalu · besar","why":"tidak goes before terlalu; bukan is only for nouns."}
+{"id":"directions.01","q":"'Go straight' =","why":"lurus means 'straight'."}
+{"id":"directions.02","q":"'Turn left at the traffic light' =","why":"belok kiri is 'turn left', and di marks where you turn."}
+{"id":"directions.03","q":"Which one means 'across from'?","why":"di seberang is across from; di depan is in front of."}
+{"id":"directions.04","q":"What is a pertigaan?","o":["a T-junction","a four-way intersection","a traffic light","a bridge"],"why":"tiga is three: a pertigaan is where three ways meet."}
+{"id":"directions.05","q":"'Is it far from here?' =","why":"jauh is far, and dari sini is 'from here'."}
+{"id":"directions.06","p":"The bank is near the station","why":"No word for 'is' before a place: banknya dekat stasiun."}
+{"id":"directions.07","p":"The pharmacy is across from my hotel","why":"The owner comes after the noun: hotel saya, and there is no word for 'is'."}
+{"id":"directions.08","p":"Turn left at the intersection (start with belok)","why":"di marks the place where you turn; ke is for going to a place."}
+{"id":"directions.09","p":"Turn right at the intersection, then go straight.","why":"kanan is right; kiri is left."}
+{"id":"directions.10","p":"The pharmacy is across from the bank.","why":"di seberang means 'across from'."}
+{"id":"directions.11","p":"The hotel isn't far from here.","why":"jauh dari sini is 'far from here'."}
+{"id":"directions.12","p":"The station is far","hint":"stasiun · jauh","why":"No word for 'is' before an adjective: stasiunnya jauh."}
+{"id":"directions.13","p":"My hotel is near here","hint":"hotel · dekat · sini","why":"The owner comes after the noun: hotel saya, and there is no word for 'is'."}
+{"id":"directions.14","p":"Excuse me, where is the bank? (to an older man)","hint":"permisi · Pak · bank · di mana","why":"di mana asks where something is; ke mana is 'where to', and Pak is the polite 'you'."}
+{"id":"daily.01","q":"'I leave for the office at seven' =","why":"ke for going to a place, and jam tujuh for seven o'clock."}
+{"id":"daily.02","q":"'I haven't had breakfast yet' =","why":"belum means 'not yet'; tidak sarapan means you skip breakfast."}
+{"id":"daily.03","q":"'Yesterday I went to bed at eleven' =","why":"kemarin shows the past, and tidur stays as it is."}
+{"id":"daily.04","q":"At a market, 'Can you go lower?' =","why":"kurang means less: Bisa kurang? asks for a lower price."}
+{"id":"daily.05","q":"'I'll take the red one' =","why":"yang merah means 'the red one'; yang biru is 'the blue one'."}
+{"id":"daily.06","p":"Yesterday I got up at seven (start with kemarin, clock time last)","why":"The verb never changes; kemarin carries the past, so there is no akan."}
+{"id":"daily.07","p":"I go home at five in the afternoon (start with saya)","why":"jam before the number means o'clock: the noun comes first, jam lima sore."}
+{"id":"daily.08","p":"I haven't showered yet","why":"belum means 'not yet'; tidak mandi would mean you don't shower at all."}
+{"id":"daily.09","p":"I wake up at six in the morning.","why":"bangun means 'wake up, get up'."}
+{"id":"daily.10","p":"I haven't had breakfast yet. I'm hungry!","why":"belum means 'not yet'."}
+{"id":"daily.11","p":"I'll take this one, ma'am.","why":"yang ini means 'this one'."}
+{"id":"daily.12","p":"I have already showered","hint":"sudah · mandi","why":"sudah is the time word for 'already'; mandi itself never changes."}
+{"id":"daily.13","p":"I leave at seven in the morning","hint":"berangkat · jam · tujuh · pagi","why":"jam before the number means o'clock: the noun comes first, jam tujuh pagi."}
+{"id":"daily.14","p":"I'll take this one (to an older woman)","hint":"ambil · yang ini · Bu","why":"yang ini means 'this one', and Bu is the polite 'you' for an older woman."}
+{"id":"plural.01","q":"'many people' =","why":"banyak already means many, so orang is not repeated."}
+{"id":"plural.02","q":"Which is the standard spelling of 'children'?","why":"The hyphen is part of the spelling of a repeated word."}
+{"id":"plural.03","q":"What does Hati-hati! mean?","o":["Be careful!","Many hearts!","Slowly!","Excuse me!"],"why":"hati-hati is not a plural: it means 'be careful'."}
+{"id":"plural.04","q":"'two children' =","why":"dua already shows the plural, so anak stays single."}
+{"id":"plural.05","q":"Anak-anak sedang bermain means…","o":["The children are playing.","A child is playing.","The children want to play.","The children have played."],"why":"anak-anak is 'the children', and sedang means 'right now'."}
+{"id":"plural.06","p":"two children","why":"Numbers go before the noun, and the noun is not repeated: dua anak."}
+{"id":"plural.07","p":"three new books","why":"Numbers go before the noun, describing words after it: tiga buku baru."}
+{"id":"plural.08","p":"My children are at school","why":"The owner comes after the noun, and there is no word for 'are' before a place."}
+{"id":"plural.09","p":"I have three children.","why":"After a number the noun is not repeated."}
+{"id":"plural.10","p":"Take care on the road!","why":"hati-hati, with the hyphen, means 'be careful'."}
+{"id":"plural.11","p":"There are lots of people at the beach.","why":"banyak already means many, so orang is not repeated."}
+{"id":"plural.12","p":"three big houses","hint":"tiga · rumah · besar","why":"Numbers go before the noun, describing words after it: tiga rumah besar."}
+{"id":"plural.13","p":"The children are playing (use the repeated word)","hint":"anak · sedang · bermain","why":"The verb never changes; sedang is the time word for 'right now'."}
+{"id":"plural.14","p":"Be careful! (to an older man)","hint":"hati-hati · Pak","why":"hati-hati needs its hyphen, and Pak is the polite 'you' for an older man."}
+{"id":"casual.01","q":"Which word is the casual form of sudah?","why":"udah is casual sudah; aja is saja, gimana is bagaimana, nggak is tidak."}
+{"id":"casual.02","q":"Gimana? means…","o":["How?","Where?","Why?","When?"],"why":"gimana is the casual form of bagaimana, 'how'."}
+{"id":"casual.03","q":"A friend says Kok mahal? What is she expressing?","o":["Surprise: how come it's expensive?","An order: make it expensive.","Agreement: yes, it's expensive.","A question about the exact price."],"why":"kok shows surprise, like 'how come?'."}
+{"id":"casual.04","q":"Who should you NOT use gue with?","o":["your friend's grandmother","a close friend your age in Jakarta","your Jakarta roommate, who is your age","a Jakarta classmate your own age"],"why":"gue is only for Jakarta friends your own age, never for older people."}
+{"id":"casual.05","q":"'I don't know' (casual) =","why":"nggak takes the place of tidak, right before the verb."}
+{"id":"casual.06","p":"My room is small (casual)","why":"No word for 'is', even in casual speech; the owner comes after the noun: kamar aku."}
+{"id":"casual.07","p":"My friend's car is really big (casual)","why":"The owner comes after the noun: mobil teman aku, and there is no word for 'is', even with banget."}
+{"id":"casual.08","p":"I don't want to (casual)","why":"nggak takes the place of tidak, before the verb; bukan is for nouns."}
+{"id":"casual.09","p":"I can't come. (casual)","why":"nggak, the casual tidak, goes before bisa."}
+{"id":"casual.10","p":"Have you eaten yet? (casual)","why":"udah is the casual form of sudah, 'already'."}
+{"id":"casual.11","p":"Just this one. (casual)","why":"aja is the casual form of saja, 'just'."}
+{"id":"casual.12","p":"My house is far (casual)","hint":"rumah · aku · jauh","why":"No word for 'is', even in casual speech; the owner comes after the noun."}
+{"id":"casual.13","p":"I've already eaten (casual)","hint":"aku · udah · makan","why":"udah is the casual time word for 'already'; makan never changes."}
+{"id":"casual.14","p":"How come it's so expensive? (casual)","hint":"kok · mahal · banget","why":"kok shows surprise, and banget goes after mahal."}

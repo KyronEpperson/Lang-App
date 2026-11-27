@@ -1,0 +1,350 @@
+{"id":"sounds.01","lesson":"sounds","t":"mc","o":["Vater","Wasser","Wein","Zeit"]}
+{"id":"sounds.02","lesson":"sounds","t":"mc","o":["Wien","Wein","mein","Zeit"]}
+{"id":"sounds.03","lesson":"sounds","t":"mc","o":[null,null,null,null]}
+{"id":"sounds.04","lesson":"sounds","t":"mc","o":["Buch","ich","Milch","sprechen"]}
+{"id":"sounds.05","lesson":"sounds","t":"mc","o":[null,null,null,null]}
+{"id":"sounds.06","lesson":"sounds","t":"order","a":["die","Straße"],"x":["der"]}
+{"id":"sounds.07","lesson":"sounds","t":"order","a":["das","Buch"],"x":["die"]}
+{"id":"sounds.08","lesson":"sounds","t":"order","a":["der","Tag"],"x":["das"]}
+{"id":"sounds.09","lesson":"sounds","t":"fill","q":"__ Zeit","o":["der","das","den"],"a":["die"]}
+{"id":"sounds.10","lesson":"sounds","t":"fill","q":"Ich wohne in W__n.","o":["ei","i","ee"],"a":["ie"]}
+{"id":"sounds.11","lesson":"sounds","t":"fill","q":"Das ist sch__n.","o":["o","ü","ä"],"a":["ö"],"strict":true}
+{"id":"sounds.12","lesson":"sounds","t":"type","a":["der Wein"],"x":["die","das"]}
+{"id":"sounds.13","lesson":"sounds","t":"type","a":["der Hund"],"x":["das"]}
+{"id":"sounds.14","lesson":"sounds","t":"type","a":["schön"],"x":["schon"],"strict":true}
+{"id":"greetings.01","lesson":"greetings","t":"mc","o":["Guten Morgen!","Gute Nacht!","Guten Abend!","Tschüss!"]}
+{"id":"greetings.02","lesson":"greetings","t":"mc","o":["Wie heißen Sie?","Wie heißt du?","Wie heißt Sie?","Wie heiße Sie?"]}
+{"id":"greetings.03","lesson":"greetings","t":"mc","o":["Bitte!","Gute Nacht!","Hallo!","Entschuldigung!"]}
+{"id":"greetings.04","lesson":"greetings","t":"mc","o":["Entschuldigung!","Bitte!","Tschüss!","Guten Abend!"]}
+{"id":"greetings.05","lesson":"greetings","t":"mc","o":["Tschüss!","Auf Wiedersehen!","Guten Tag!","Gute Nacht!"]}
+{"id":"greetings.06","lesson":"greetings","t":"order","a":["Wie","heißen","Sie?"],"x":["heißt"]}
+{"id":"greetings.07","lesson":"greetings","t":"order","a":["Woher","kommst","du?"],"x":["kommen"]}
+{"id":"greetings.08","lesson":"greetings","t":"order","a":["Wie","geht","es","Ihnen?"],"x":["Sie"]}
+{"id":"greetings.09","lesson":"greetings","t":"fill","q":"Woher __ Sie?","o":["kommst","kommt","komme"],"a":["kommen"]}
+{"id":"greetings.10","lesson":"greetings","t":"fill","q":"Wie __ du?","o":["heißen","heiße","heißst"],"a":["heißt"]}
+{"id":"greetings.11","lesson":"greetings","t":"fill","q":"Guten __!","o":["Nacht","Morgen","Tag"],"a":["Abend"]}
+{"id":"greetings.12","lesson":"greetings","t":"type","a":["Ich heiße Anna.","Mein Name ist Anna."],"x":["heißt"]}
+{"id":"greetings.13","lesson":"greetings","t":"type","a":["Woher kommen Sie?"],"x":["kommst"]}
+{"id":"greetings.14","lesson":"greetings","t":"type","a":["Wie geht's?","Wie gehts?","Wie geht es dir?","Wie geht's dir?","Wie gehts dir?"],"x":["Ihnen"]}
+{"id":"gender.01","lesson":"gender","t":"mc","o":["die Zeitung","der Zeitung","das Zeitung","den Zeitung"]}
+{"id":"gender.02","lesson":"gender","t":"mc","o":["das Mädchen","die Mädchen","der Mädchen","dem Mädchen"]}
+{"id":"gender.03","lesson":"gender","t":"mc","o":["die","der","das","den"]}
+{"id":"gender.04","lesson":"gender","t":"mc","o":[null,null,null,null]}
+{"id":"gender.05","lesson":"gender","t":"mc","o":["die Mütter","die Mutter","die Muttern","die Mutters"],"strict":true}
+{"id":"gender.06","lesson":"gender","t":"order","a":["die","Mutter"],"x":["der"]}
+{"id":"gender.07","lesson":"gender","t":"order","a":["das","Mädchen"],"x":["die"]}
+{"id":"gender.08","lesson":"gender","t":"order","a":["die","Bücher"],"x":["das"]}
+{"id":"gender.09","lesson":"gender","t":"fill","q":"__ Freiheit","o":["der","das","den"],"a":["die"]}
+{"id":"gender.10","lesson":"gender","t":"fill","q":"zwei __","o":["Mutter","Muttern","Mutters"],"a":["Mütter"],"strict":true}
+{"id":"gender.11","lesson":"gender","t":"fill","q":"__ Kind","o":["der","die","den"],"a":["das"]}
+{"id":"gender.12","lesson":"gender","t":"type","a":["der Vater"],"x":["die","das"]}
+{"id":"gender.13","lesson":"gender","t":"type","a":["die Zeitung"],"x":["der","das"]}
+{"id":"gender.14","lesson":"gender","t":"type","a":["die Kinder"],"x":["das","der"]}
+{"id":"sein-haben.01","lesson":"sein-haben","t":"mc","o":["Er ist Lehrer.","Er sind Lehrer.","Er bist Lehrer.","Er hat Lehrer."]}
+{"id":"sein-haben.02","lesson":"sein-haben","t":"mc","o":["sind","ist","seid","bist"]}
+{"id":"sein-haben.03","lesson":"sein-haben","t":"mc","o":["Ich bin dreißig Jahre alt.","Ich habe dreißig Jahre.","Ich habe dreißig Jahre alt.","Ich bin dreißig alt Jahre."]}
+{"id":"sein-haben.04","lesson":"sein-haben","t":"mc","o":["Ich habe Durst.","Ich bin Durst.","Ich habe durstig.","Ich bin Durst haben."]}
+{"id":"sein-haben.05","lesson":"sein-haben","t":"mc","o":["Ihr seid aus Berlin.","Ihr sind aus Berlin.","Ihr seit aus Berlin.","Ihr ist aus Berlin."]}
+{"id":"sein-haben.06","lesson":"sein-haben","t":"order","a":["Wir","sind","müde."],"x":["seid"]}
+{"id":"sein-haben.07","lesson":"sein-haben","t":"order","a":["Anna","hat","eine","Schwester."],"x":["haben"]}
+{"id":"sein-haben.08","lesson":"sein-haben","t":"order","a":["Ich","bin","Lehrerin."],"x":["eine"]}
+{"id":"sein-haben.09","lesson":"sein-haben","t":"fill","q":"Wir __ müde.","o":["seid","ist","bin"],"a":["sind"]}
+{"id":"sein-haben.10","lesson":"sein-haben","t":"fill","q":"Du __ eine Schwester.","o":["habst","hat","habe"],"a":["hast"]}
+{"id":"sein-haben.11","lesson":"sein-haben","t":"fill","q":"Ich __ Ingenieurin.","o":["habe","ist","bist"],"a":["bin"]}
+{"id":"sein-haben.12","lesson":"sein-haben","t":"type","a":["Du bist müde."],"x":["ist"]}
+{"id":"sein-haben.13","lesson":"sein-haben","t":"type","a":["Wir haben ein Auto."],"x":["habt","hat"]}
+{"id":"sein-haben.14","lesson":"sein-haben","t":"type","a":["Ich habe Hunger.","Ich hab Hunger."],"x":["bin"]}
+{"id":"present.01","lesson":"present","t":"mc","o":["Lena wohnt in Köln.","Lena wohnen in Köln.","Lena wohnst in Köln.","Lena wohne in Köln."]}
+{"id":"present.02","lesson":"present","t":"mc","o":["Ich lerne Deutsch.","Ich bin lerne Deutsch.","Ich bin lernen Deutsch.","Ich lernen Deutsch."]}
+{"id":"present.03","lesson":"present","t":"mc","o":["ihr macht","ihr machst","ihr machen","ihr mache"]}
+{"id":"present.04","lesson":"present","t":"mc","o":["-st","-t","-e","-en"]}
+{"id":"present.05","lesson":"present","t":"mc","o":["Du arbeitest viel.","Du arbeitst viel.","Du arbeitet viel.","Du arbeiten viel."]}
+{"id":"present.06","lesson":"present","t":"order","a":["Lena","arbeitet","in","Berlin."],"x":["arbeiten"]}
+{"id":"present.07","lesson":"present","t":"order","a":["Wir","wohnen","in","Hamburg."],"x":["wohnt"]}
+{"id":"present.08","lesson":"present","t":"order","a":["Ihr","arbeitet","viel."],"x":["arbeitest"]}
+{"id":"present.09","lesson":"present","t":"fill","q":"Er __ in Hamburg.","o":["wohnen","wohnst","wohne"],"a":["wohnt"]}
+{"id":"present.10","lesson":"present","t":"fill","q":"Du __ viel.","o":["arbeitst","arbeitet","arbeiten"],"a":["arbeitest"]}
+{"id":"present.11","lesson":"present","t":"fill","q":"Ihr __ Tennis.","o":["spielen","spielst","spiele"],"a":["spielt"]}
+{"id":"present.12","lesson":"present","t":"type","a":["Ich lerne Deutsch."],"x":["lernt","bin"]}
+{"id":"present.13","lesson":"present","t":"type","a":["Du arbeitest in München."],"x":["arbeitet"]}
+{"id":"present.14","lesson":"present","t":"type","a":["Sie spielen Fußball."],"x":["spielt"]}
+{"id":"word-order.01","lesson":"word-order","t":"mc","o":["Heute arbeite ich.","Heute ich arbeite.","Ich heute arbeite.","Arbeite heute ich."]}
+{"id":"word-order.02","lesson":"word-order","t":"mc","o":["Am Montag habe ich Zeit.","Am Montag ich habe Zeit.","Am Montag habe Zeit ich.","Am Montag Zeit habe ich."]}
+{"id":"word-order.03","lesson":"word-order","t":"mc","o":["morgen arbeite ich.","morgen ich arbeite.","arbeite ich morgen.","morgen arbeiten ich."]}
+{"id":"word-order.04","lesson":"word-order","t":"mc","o":["Es schneit.","Schneit.","Es schneien.","Ist Schnee."]}
+{"id":"word-order.05","lesson":"word-order","t":"mc","o":["Lena und Max","Lena","Lena und","wohnen"]}
+{"id":"word-order.06","lesson":"word-order","t":"order","a":["Morgen","fahre","ich","nach","Hamburg."],"x":["fährt"]}
+{"id":"word-order.07","lesson":"word-order","t":"order","a":["Am","Montag","hat","Lena","frei."],"x":["haben"]}
+{"id":"word-order.08","lesson":"word-order","t":"order","a":["Heute","ist","es","kalt."],"x":["sind"]}
+{"id":"word-order.09","lesson":"word-order","t":"fill","q":"Heute __ es kalt.","o":["sind","bin","bist"],"a":["ist"]}
+{"id":"word-order.10","lesson":"word-order","t":"fill","q":"Am Freitag __ ich nach Berlin.","o":["fährt","fahren","fahrst"],"a":["fahre"]}
+{"id":"word-order.11","lesson":"word-order","t":"fill","q":"Morgen __ wir Tennis.","o":["spielt","spiele","spielst"],"a":["spielen"]}
+{"id":"word-order.12","lesson":"word-order","t":"type","a":["Am Sonntag schlafen wir lange.","Am Sonntag schlafen wir aus."],"x":["schlaft"]}
+{"id":"word-order.13","lesson":"word-order","t":"type","a":["Heute arbeite ich zu Hause.","Heute arbeite ich zuhause."],"x":["arbeitet"]}
+{"id":"word-order.14","lesson":"word-order","t":"type","a":["Es regnet heute.","Heute regnet es."],"x":["regnen"]}
+{"id":"questions.01","lesson":"questions","t":"mc","o":[null,null,null,null]}
+{"id":"questions.02","lesson":"questions","t":"mc","o":["Wohin gehst du?","Wo gehst du?","Woher gehst du?","Wohin du gehst?"]}
+{"id":"questions.03","lesson":"questions","t":"mc","o":["Wohnst du in Berlin?","Tust du wohnen in Berlin?","Machst du wohnen in Berlin?","Wohnen du in Berlin?"]}
+{"id":"questions.04","lesson":"questions","t":"mc","o":["wer","wo","wie","was"]}
+{"id":"questions.05","lesson":"questions","t":"mc","o":["Wie viel kostet das?","Wie viel das kostet?","Wie viel kosten das?","Wie kostet das viel?"]}
+{"id":"questions.06","lesson":"questions","t":"order","a":["Wo","wohnst","du?"],"x":["wohnt"]}
+{"id":"questions.07","lesson":"questions","t":"order","a":["Kommen","Sie","aus","Kanada?"],"x":["kommst"]}
+{"id":"questions.08","lesson":"questions","t":"order","a":["Wann","kommt","der","Zug?"],"x":["kommen"]}
+{"id":"questions.09","lesson":"questions","t":"fill","q":"__ kommen Sie?","o":["Wo","Wohin","Wer"],"a":["Woher"]}
+{"id":"questions.10","lesson":"questions","t":"fill","q":"__ du Kinder?","o":["Hat","Habe","Haben"],"a":["Hast"]}
+{"id":"questions.11","lesson":"questions","t":"fill","q":"Was __ ihr heute?","o":["machst","machen","mache"],"a":["macht"]}
+{"id":"questions.12","lesson":"questions","t":"type","a":["Wo wohnt Anna?"],"x":["wohnen"]}
+{"id":"questions.13","lesson":"questions","t":"type","a":["Sprechen Sie Englisch?"],"x":["sprichst"]}
+{"id":"questions.14","lesson":"questions","t":"type","a":["Was machst du?","Was tust du?"],"x":["macht"]}
+{"id":"numbers.01","lesson":"numbers","t":"mc","o":[null,null,null,null]}
+{"id":"numbers.02","lesson":"numbers","t":"mc","o":[null,null,null,null]}
+{"id":"numbers.03","lesson":"numbers","t":"mc","o":["sechzehn","sechszehn","sechzen","seckzehn"]}
+{"id":"numbers.04","lesson":"numbers","t":"mc","o":["drei Euro fünfzig","drei Euros fünfzig","fünfzig drei Euro","drei Euro und fünfzig Euros"]}
+{"id":"numbers.05","lesson":"numbers","t":"mc","o":[null,null,null,null]}
+{"id":"numbers.06","lesson":"numbers","t":"order","a":["Das","kostet","zwei","Euro","fünfzig."],"x":["kosten"]}
+{"id":"numbers.07","lesson":"numbers","t":"order","a":["Um","acht","Uhr","arbeite","ich."],"x":["arbeitet"]}
+{"id":"numbers.08","lesson":"numbers","t":"order","a":["Es","ist","halb","vier."],"x":["drei"]}
+{"id":"numbers.09","lesson":"numbers","t":"fill","q":"Es ist __ Uhr.","o":["eins","eine","einen"],"a":["ein"]}
+{"id":"numbers.10","lesson":"numbers","t":"fill","q":"Das kostet zwei __.","o":["Euros","Euren","Eure"],"a":["Euro"]}
+{"id":"numbers.11","lesson":"numbers","t":"fill","q":"Ich bin __ Jahre alt.","o":["dreizig","dreizehn","dreisig"],"a":["dreißig"]}
+{"id":"numbers.12","lesson":"numbers","t":"type","a":["Was kosten die Brötchen?","Wie viel kosten die Brötchen?"],"x":["kostet"]}
+{"id":"numbers.13","lesson":"numbers","t":"type","a":["Heute arbeite ich bis sechs.","Heute arbeite ich bis sechs Uhr."],"x":["arbeitest"]}
+{"id":"numbers.14","lesson":"numbers","t":"type","a":["einundzwanzig"],"x":["zwanzigeins"]}
+{"id":"stem-change.01","lesson":"stem-change","t":"mc","o":["Er fährt nach Berlin.","Er fahrt nach Berlin.","Er fahren nach Berlin.","Er fährst nach Berlin."],"strict":true}
+{"id":"stem-change.02","lesson":"stem-change","t":"mc","o":["Ich fahre nach Hamburg.","Ich fähre nach Hamburg.","Ich fährt nach Hamburg.","Ich fahrt nach Hamburg."],"strict":true}
+{"id":"stem-change.03","lesson":"stem-change","t":"mc","o":["du nimmst","ich nimm","wir nimmen","ihr nimmt"]}
+{"id":"stem-change.04","lesson":"stem-change","t":"mc","o":[null,null,null,null]}
+{"id":"stem-change.05","lesson":"stem-change","t":"mc","o":["Sprichst du Deutsch?","Sprechst du Deutsch?","Spricht du Deutsch?","Sprechen du Deutsch?"]}
+{"id":"stem-change.06","lesson":"stem-change","t":"order","a":["Lena","nimmt","die","Suppe."],"x":["nehmt"]}
+{"id":"stem-change.07","lesson":"stem-change","t":"order","a":["Was","nimmst","du?"],"x":["nehmst"]}
+{"id":"stem-change.08","lesson":"stem-change","t":"order","a":["Morgen","fährt","er","nach","Köln."],"x":["fahrt"]}
+{"id":"stem-change.09","lesson":"stem-change","t":"fill","q":"Was __ Anna?","o":["esst","essen","iss"],"a":["isst"]}
+{"id":"stem-change.10","lesson":"stem-change","t":"fill","q":"Du __ sehr gut Deutsch.","o":["sprechst","spricht","sprechen"],"a":["sprichst"]}
+{"id":"stem-change.11","lesson":"stem-change","t":"fill","q":"Lena __ nach Köln.","o":["fahrt","fahren","fährst"],"a":["fährt"],"strict":true}
+{"id":"stem-change.12","lesson":"stem-change","t":"type","a":["Isst du Fleisch?"],"x":["esst"]}
+{"id":"stem-change.13","lesson":"stem-change","t":"type","a":["Sie liest ein Buch."],"x":["lest"]}
+{"id":"stem-change.14","lesson":"stem-change","t":"type","a":["Er schläft."],"x":["schlaft"],"strict":true}
+{"id":"accusative.01","lesson":"accusative","t":"mc","o":["Ich brauche eine Jacke.","Ich brauche einen Jacke.","Ich brauche ein Jacke.","Ich brauche einer Jacke."]}
+{"id":"accusative.02","lesson":"accusative","t":"mc","o":["Ich sehe den Mann.","Ich sehe der Mann.","Ich sehe dem Mann.","Ich sehe die Mann."]}
+{"id":"accusative.03","lesson":"accusative","t":"mc","o":[null,null,null,null]}
+{"id":"accusative.04","lesson":"accusative","t":"mc","o":["Gibt es hier einen Supermarkt?","Gibt es hier ein Supermarkt?","Gibt es hier der Supermarkt?","Gibt es hier einem Supermarkt?"]}
+{"id":"accusative.05","lesson":"accusative","t":"mc","o":["Ich nehme das Hemd.","Ich nehme den Hemd.","Ich nehme der Hemd.","Ich nehme dem Hemd."]}
+{"id":"accusative.06","lesson":"accusative","t":"order","a":["Ich","kaufe","den","Pullover"],"x":["der"]}
+{"id":"accusative.07","lesson":"accusative","t":"order","a":["Den","Rock","kauft","Anna"],"x":["Der"]}
+{"id":"accusative.08","lesson":"accusative","t":"order","a":["Ich","habe","einen","Bruder"],"x":["ein"]}
+{"id":"accusative.09","lesson":"accusative","t":"fill","q":"Ich suche __ Rock.","o":["ein","eine","einem"],"a":["einen"]}
+{"id":"accusative.10","lesson":"accusative","t":"fill","q":"Ich nehme __ Hose.","o":["den","der","das"],"a":["die"]}
+{"id":"accusative.11","lesson":"accusative","t":"fill","q":"Es gibt hier __ Café.","o":["einen","eine","einem"],"a":["ein"]}
+{"id":"accusative.12","lesson":"accusative","t":"type","a":["Ich brauche einen Pullover.","Einen Pullover brauche ich."],"x":["ein"]}
+{"id":"accusative.13","lesson":"accusative","t":"type","a":["Wir kaufen die Jacke.","Die Jacke kaufen wir."],"x":["kauft"]}
+{"id":"accusative.14","lesson":"accusative","t":"type","a":["Hast du einen Bruder?"],"x":["ein","hat"]}
+{"id":"negation.01","lesson":"negation","t":"mc","o":["Ich verstehe nicht.","Ich nicht verstehe.","Ich verstehe kein.","Nicht ich verstehe."]}
+{"id":"negation.02","lesson":"negation","t":"mc","o":["Wir haben keine Zeit.","Wir haben kein Zeit.","Wir haben keinen Zeit.","Wir nicht haben Zeit."]}
+{"id":"negation.03","lesson":"negation","t":"mc","o":["Das ist nicht weit.","Das ist kein weit.","Das ist weit nicht.","Das nicht ist weit."]}
+{"id":"negation.04","lesson":"negation","t":"mc","o":["Kein Problem.","Keinen Problem.","Nicht Problem.","Keine Problem."]}
+{"id":"negation.05","lesson":"negation","t":"mc","o":["Ich komme heute nicht.","Ich nicht komme heute.","Ich komme heute kein.","Heute ich komme nicht."]}
+{"id":"negation.06","lesson":"negation","t":"order","a":["Ich","habe","keinen","Termin"],"x":["kein"]}
+{"id":"negation.07","lesson":"negation","t":"order","a":["Heute","arbeite","ich","nicht"],"x":["arbeitet"]}
+{"id":"negation.08","lesson":"negation","t":"order","a":["Das","ist","kein","Problem"],"x":["keinen"]}
+{"id":"negation.09","lesson":"negation","t":"fill","q":"Ich trinke __ Kaffee.","o":["kein","keine","keinem"],"a":["keinen"]}
+{"id":"negation.10","lesson":"negation","t":"fill","q":"Das ist __ teuer.","o":["kein","keine","keinen"],"a":["nicht"]}
+{"id":"negation.11","lesson":"negation","t":"fill","q":"Wir haben __ Kinder.","o":["kein","keinen","keinem"],"a":["keine"]}
+{"id":"negation.12","lesson":"negation","t":"type","a":["Ich habe kein Auto."],"x":["keinen"]}
+{"id":"negation.13","lesson":"negation","t":"type","a":["Wir arbeiten heute nicht.","Heute arbeiten wir nicht."],"x":["arbeitet"]}
+{"id":"negation.14","lesson":"negation","t":"type","a":["Ich habe keine Zeit."],"x":["keinen"]}
+{"id":"possessives.01","lesson":"possessives","t":"mc","o":["meine Mutter","mein Mutter","meinen Mutter","meiner Mutter"]}
+{"id":"possessives.02","lesson":"possessives","t":"mc","o":["Lukas und seine Schwester","Lukas und ihre Schwester","Lukas und sein Schwester","Lukas und seinen Schwester"]}
+{"id":"possessives.03","lesson":"possessives","t":"mc","o":["Lena und ihr Vater","Lena und sein Vater","Lena und ihre Vater","Lena und ihren Vater"]}
+{"id":"possessives.04","lesson":"possessives","t":"mc","o":["unsere Kinder","unser Kinder","unseren Kinder","unserer Kinder"]}
+{"id":"possessives.05","lesson":"possessives","t":"mc","o":["Wo wohnen eure Eltern?","Wo wohnen euer Eltern?","Wo wohnt eure Eltern?","Wo wohnen deine Eltern?"]}
+{"id":"possessives.06","lesson":"possessives","t":"order","a":["Ich","besuche","meinen","Vater"],"x":["mein"]}
+{"id":"possessives.07","lesson":"possessives","t":"order","a":["Meine","Schwester","wohnt","in","Köln"],"x":["Mein"]}
+{"id":"possessives.08","lesson":"possessives","t":"order","a":["Anna","besucht","ihren","Bruder"],"x":["seinen"]}
+{"id":"possessives.09","lesson":"possessives","t":"fill","q":"Das ist __ Bruder.","o":["meinen","meine","meinem"],"a":["mein"]}
+{"id":"possessives.10","lesson":"possessives","t":"fill","q":"Paul besucht __ Mutter.","o":["ihre","sein","seinen"],"a":["seine"]}
+{"id":"possessives.11","lesson":"possessives","t":"fill","q":"Wie ist __ Name?","o":["Ihre","Ihren","Ihrem"],"a":["Ihr"]}
+{"id":"possessives.12","lesson":"possessives","t":"type","a":["Ich suche meine Jacke.","Meine Jacke suche ich."],"x":["mein"]}
+{"id":"possessives.13","lesson":"possessives","t":"type","a":["Unser Sohn ist zehn.","Unser Sohn ist zehn Jahre alt."],"x":["Unseren"]}
+{"id":"possessives.14","lesson":"possessives","t":"type","a":["Besuchst du deine Mutter?"],"x":["Besucht","deinen"]}
+{"id":"gern.01","lesson":"gern","t":"mc","o":["Ich koche gern.","Ich gern koche.","Ich kochen gern.","Gern ich koche."]}
+{"id":"gern.02","lesson":"gern","t":"mc","o":["Er mag den Film.","Er mag der Film.","Er mögt den Film.","Er magt den Film."]}
+{"id":"gern.03","lesson":"gern","t":"mc","o":["Ich möchte einen Tee.","Ich möchte ein Tee.","Ich gern einen Tee.","Ich möchtest einen Tee."]}
+{"id":"gern.04","lesson":"gern","t":"mc","o":["Ich trinke lieber Tee.","Ich lieber trinke Tee.","Ich trinke gerner Tee.","Ich mag lieber trinken Tee."]}
+{"id":"gern.05","lesson":"gern","t":"mc","o":["Magst du Hunde?","Mögst du Hunde?","Magt du Hunde?","Möchtest du Hunde?"]}
+{"id":"gern.06","lesson":"gern","t":"order","a":["Ich","schwimme","gern"],"x":["schwimmt"]}
+{"id":"gern.07","lesson":"gern","t":"order","a":["Am","Wochenende","koche","ich","gern"],"x":["kochst"]}
+{"id":"gern.08","lesson":"gern","t":"order","a":["Am","liebsten","lese","ich"],"x":["liest"]}
+{"id":"gern.09","lesson":"gern","t":"fill","q":"Ich __ Hunde.","o":["mögt","magst","möchte"],"a":["mag"]}
+{"id":"gern.10","lesson":"gern","t":"fill","q":"Spielst du __ Fußball?","o":["mag","magst","möchte"],"a":["gern","gerne"]}
+{"id":"gern.11","lesson":"gern","t":"fill","q":"Wir __ den Film.","o":["mag","mögt","möchten"],"a":["mögen"]}
+{"id":"gern.12","lesson":"gern","t":"type","a":["Kochst du gern?","Kochst du gerne?"],"x":["kocht"]}
+{"id":"gern.13","lesson":"gern","t":"type","a":["Ich mag den Hund.","Den Hund mag ich."],"x":["der"]}
+{"id":"gern.14","lesson":"gern","t":"type","a":["Ich schwimme nicht gern.","Ich schwimme nicht gerne."],"x":["kein"]}
+{"id":"modals.01","lesson":"modals","t":"mc","o":["Er kann kochen.","Er kannt kochen.","Er kann kocht.","Er können kochen."]}
+{"id":"modals.02","lesson":"modals","t":"mc","o":["Ich muss heute arbeiten.","Ich muss arbeiten heute.","Ich musse heute arbeiten.","Ich habe heute arbeiten."]}
+{"id":"modals.03","lesson":"modals","t":"mc","o":[null,null,null,null]}
+{"id":"modals.04","lesson":"modals","t":"mc","o":["Willst du kommen?","Willst du kommst?","Will du kommen?","Wollst du kommen?"]}
+{"id":"modals.05","lesson":"modals","t":"mc","o":["Ich möchte zahlen.","Ich mochte zahlen.","Ich möchte zahle.","Ich möchten zahlen."],"strict":true}
+{"id":"modals.06","lesson":"modals","t":"order","a":["Ich","kann","Deutsch","sprechen"],"x":["spreche"]}
+{"id":"modals.07","lesson":"modals","t":"order","a":["Morgen","muss","ich","arbeiten"],"x":["musst"]}
+{"id":"modals.08","lesson":"modals","t":"order","a":["Können","Sie","helfen"],"x":["Kannst"]}
+{"id":"modals.09","lesson":"modals","t":"fill","q":"Er __ heute lange arbeiten.","o":["musst","müssen","müsst"],"a":["muss"]}
+{"id":"modals.10","lesson":"modals","t":"fill","q":"Was __ du trinken?","o":["möchte","möchten","möchtet"],"a":["möchtest"]}
+{"id":"modals.11","lesson":"modals","t":"fill","q":"Wir __ Deutsch lernen.","o":["will","wollt","willst"],"a":["wollen"]}
+{"id":"modals.12","lesson":"modals","t":"type","a":["Ich will Deutsch lernen.","Deutsch will ich lernen."],"x":["lerne"]}
+{"id":"modals.13","lesson":"modals","t":"type","a":["Kannst du kochen?"],"x":["kann"]}
+{"id":"modals.14","lesson":"modals","t":"type","a":["Ich muss heute nicht arbeiten.","Heute muss ich nicht arbeiten."],"x":["darf"]}
+{"id":"separable.01","lesson":"separable","t":"mc","o":["Ich kaufe heute ein.","Ich einkaufe heute.","Ich kaufe ein heute.","Ich heute einkaufe."]}
+{"id":"separable.02","lesson":"separable","t":"mc","o":["Wann stehst du auf?","Wann aufstehst du?","Wann stehst auf du?","Wann du stehst auf?"]}
+{"id":"separable.03","lesson":"separable","t":"mc","o":["Ich verstehe das.","Ich stehe das ver.","Ich verstehe das ver.","Ich stehe ver das."]}
+{"id":"separable.04","lesson":"separable","t":"mc","o":["Kommst du mit?","Mitkommst du?","Kommst mit du?","Mitkommen du?"]}
+{"id":"separable.05","lesson":"separable","t":"mc","o":[null,null,null,null]}
+{"id":"separable.06","lesson":"separable","t":"order","a":["Ich","stehe","um","sieben","auf"],"x":["steht"]}
+{"id":"separable.07","lesson":"separable","t":"order","a":["Heute","rufe","ich","Frau","Becker","an"],"x":["ruft"]}
+{"id":"separable.08","lesson":"separable","t":"order","a":["Kommst","du","mit"],"x":["kommt"]}
+{"id":"separable.09","lesson":"separable","t":"fill","q":"Ich kaufe am Samstag __.","o":["an","auf","mit"],"a":["ein"]}
+{"id":"separable.10","lesson":"separable","t":"fill","q":"Er sieht am Abend __.","o":["an","aus","mit"],"a":["fern"]}
+{"id":"separable.11","lesson":"separable","t":"fill","q":"Ich muss morgen früh __.","o":["aufstehe","stehen","aufsteht"],"a":["aufstehen"]}
+{"id":"separable.12","lesson":"separable","t":"type","a":["Ich stehe um sechs auf.","Ich stehe um sechs Uhr auf."],"x":["steht"]}
+{"id":"separable.13","lesson":"separable","t":"type","a":["Wann stehst du auf?"],"x":["steht"]}
+{"id":"separable.14","lesson":"separable","t":"type","a":["Ich rufe heute Anna an.","Heute rufe ich Anna an.","Ich rufe Anna heute an."],"x":["ruft"]}
+{"id":"bracket.01","lesson":"bracket","t":"mc","o":["Ich muss in Köln umsteigen.","Ich muss umsteigen in Köln.","Ich muss in Köln steige um.","Ich steige muss in Köln um."]}
+{"id":"bracket.02","lesson":"bracket","t":"mc","o":["Der Zug fährt um acht ab.","Der Zug abfährt um acht.","Der Zug um acht fährt ab.","Der Zug fährt um acht abfahren."]}
+{"id":"bracket.03","lesson":"bracket","t":"mc","o":["Wo kann ich eine Fahrkarte kaufen?","Wo kann ich kaufen eine Fahrkarte?","Wo ich kann eine Fahrkarte kaufen?","Wo kann ich einen Fahrkarte kaufen?"]}
+{"id":"bracket.04","lesson":"bracket","t":"mc","o":["Wir wollen ein Zimmer buchen.","Wir wollen buchen ein Zimmer.","Wir wollen einen Zimmer buchen.","Wir wollt ein Zimmer buchen."]}
+{"id":"bracket.05","lesson":"bracket","t":"mc","o":["Wann fährt der Bus ab?","Wann fährt ab der Bus?","Wann abfährt der Bus?","Wann fährt der Bus abfahren?"]}
+{"id":"bracket.06","lesson":"bracket","t":"order","a":["Ich","möchte","nach","Hamburg","fahren"],"x":["möchtest"]}
+{"id":"bracket.07","lesson":"bracket","t":"order","a":["Morgen","muss","ich","früh","aufstehen"],"x":["musst"]}
+{"id":"bracket.08","lesson":"bracket","t":"order","a":["Wann","kommt","der","Zug","an"],"x":["den"]}
+{"id":"bracket.09","lesson":"bracket","t":"fill","q":"Ich möchte eine Fahrkarte __.","o":["kaufe","kauft","kaufst"],"a":["kaufen"]}
+{"id":"bracket.10","lesson":"bracket","t":"fill","q":"Wo muss ich __?","o":["umsteige","umsteigt","steigen"],"a":["umsteigen"]}
+{"id":"bracket.11","lesson":"bracket","t":"fill","q":"Der Zug fährt um zehn Uhr __.","o":["mit","zu","fern"],"a":["ab"]}
+{"id":"bracket.12","lesson":"bracket","t":"type","a":["Ich möchte nach Berlin fahren."],"x":["fahre"]}
+{"id":"bracket.13","lesson":"bracket","t":"type","a":["Wann fährt der Zug ab?","Wann fährt der Zug?","Wann geht der Zug?"],"x":["den"]}
+{"id":"bracket.14","lesson":"bracket","t":"type","a":["Kann ich hier eine Fahrkarte kaufen?","Kann ich eine Fahrkarte hier kaufen?","Kann ich hier ein Ticket kaufen?"],"x":["kaufe"]}
+{"id":"dative.01","lesson":"dative","t":"mc","o":["mit den Kindern","mit die Kinder","mit den Kinder","mit dem Kindern"]}
+{"id":"dative.02","lesson":"dative","t":"mc","o":["zum Bahnhof","zur Bahnhof","nach dem Bahnhof","zu der Bahnhof"]}
+{"id":"dative.03","lesson":"dative","t":"mc","o":["Ich fahre nach Hamburg.","Ich fahre zu Hamburg.","Ich fahre zum Hamburg.","Ich fahre in Hamburg."]}
+{"id":"dative.04","lesson":"dative","t":"mc","o":["von meiner Mutter","von meine Mutter","von meinem Mutter","von meinen Mutter"]}
+{"id":"dative.05","lesson":"dative","t":"mc","o":["Ich wohne seit zwei Jahren in Köln.","Ich wohne seit zwei Jahre in Köln.","Ich wohne für zwei Jahre in Köln.","Ich wohne zwei Jahren in Köln."]}
+{"id":"dative.06","lesson":"dative","t":"order","a":["Ich","fahre","mit","dem","Bus"],"x":["der"]}
+{"id":"dative.07","lesson":"dative","t":"order","a":["Heute","gehe","ich","zum","Arzt"],"x":["zur"]}
+{"id":"dative.08","lesson":"dative","t":"order","a":["Anna","wohnt","bei","ihren","Eltern"],"x":["ihre"]}
+{"id":"dative.09","lesson":"dative","t":"fill","q":"Ich fahre mit __ Zug.","o":["der","den","das"],"a":["dem"]}
+{"id":"dative.10","lesson":"dative","t":"fill","q":"Wir gehen __ Apotheke.","o":["zum","nach","zu"],"a":["zur"]}
+{"id":"dative.11","lesson":"dative","t":"fill","q":"Ich wohne __ zwei Jahren in Berlin.","o":["für","vor","nach"],"a":["seit"]}
+{"id":"dative.12","lesson":"dative","t":"type","a":["Ich fahre mit dem Bus."],"x":["der"]}
+{"id":"dative.13","lesson":"dative","t":"type","a":["Wir gehen zum Bahnhof.","Wir fahren zum Bahnhof."],"x":["zur","geht"]}
+{"id":"dative.14","lesson":"dative","t":"type","a":["Ich gehe nach Hause.","Ich fahre nach Hause.","Ich gehe heim."],"x":["zu"]}
+{"id":"pronouns.01","lesson":"pronouns","t":"mc","o":["Mir ist kalt.","Ich bin kalt.","Mich ist kalt.","Ich habe kalt."]}
+{"id":"pronouns.02","lesson":"pronouns","t":"mc","o":["Das ist für dich.","Das ist für dir.","Das ist für du.","Das ist für dein."]}
+{"id":"pronouns.03","lesson":"pronouns","t":"mc","o":["Wie geht es Ihnen?","Wie geht es Sie?","Wie geht es dir?","Wie gehen Sie?"]}
+{"id":"pronouns.04","lesson":"pronouns","t":"mc","o":["Das gefällt mir.","Das gefällt mich.","Ich gefalle das.","Das gefällt ich."]}
+{"id":"pronouns.05","lesson":"pronouns","t":"mc","o":["Können Sie mir helfen?","Können Sie mich helfen?","Können Sie ich helfen?","Können Sie helfen mir?"]}
+{"id":"pronouns.06","lesson":"pronouns","t":"order","a":["Kannst","du","mir","helfen"],"x":["mich"]}
+{"id":"pronouns.07","lesson":"pronouns","t":"order","a":["Wie","geht","es","dir"],"x":["dich"]}
+{"id":"pronouns.08","lesson":"pronouns","t":"order","a":["Ist","das","für","mich"],"x":["mir"]}
+{"id":"pronouns.09","lesson":"pronouns","t":"fill","q":"Es tut __ leid.","o":["mich","ich","mein"],"a":["mir"]}
+{"id":"pronouns.10","lesson":"pronouns","t":"fill","q":"Ich habe ein Geschenk für __.","o":["dir","du","dein"],"a":["dich"]}
+{"id":"pronouns.11","lesson":"pronouns","t":"fill","q":"Ich fahre mit __ nach Hamburg.","o":["ihn","er","sein"],"a":["ihm"]}
+{"id":"pronouns.12","lesson":"pronouns","t":"type","a":["Mir ist kalt."],"x":["mich","ich"]}
+{"id":"pronouns.13","lesson":"pronouns","t":"type","a":["Kannst du mir helfen?","Kannst du mir bitte helfen?"],"x":["mich"]}
+{"id":"pronouns.14","lesson":"pronouns","t":"type","a":["Wie geht es Ihnen?","Wie geht's Ihnen?","Wie gehts Ihnen?"],"x":["Sie"]}
+{"id":"prepositions.01","lesson":"prepositions","t":"mc","o":["Ich bin im Kino.","Ich bin ins Kino.","Ich bin nach Kino.","Ich bin zu Kino."]}
+{"id":"prepositions.02","lesson":"prepositions","t":"mc","o":["Ich gehe ins Kino.","Ich gehe im Kino.","Ich gehe nach Kino.","Ich gehe zu Kino."]}
+{"id":"prepositions.03","lesson":"prepositions","t":"mc","o":["Ich gehe zum Supermarkt.","Ich gehe nach den Supermarkt.","Ich gehe nach Supermarkt.","Ich gehe zu den Supermarkt."]}
+{"id":"prepositions.04","lesson":"prepositions","t":"mc","o":["Ich warte auf den Bus.","Ich warte für den Bus.","Ich warte den Bus.","Ich warte zum Bus."]}
+{"id":"prepositions.05","lesson":"prepositions","t":"mc","o":["Das Handy ist auf dem Tisch.","Das Handy ist auf den Tisch.","Das Handy ist auf der Tisch.","Das Handy ist auf die Tisch."]}
+{"id":"prepositions.06","lesson":"prepositions","t":"order","a":["Die","Bank","ist","neben","dem","Bahnhof"],"x":["den"]}
+{"id":"prepositions.07","lesson":"prepositions","t":"order","a":["Am","Samstag","gehe","ich","ins","Kino"],"x":["geht","im"]}
+{"id":"prepositions.08","lesson":"prepositions","t":"order","a":["Wartest","du","auf","den","Zug"],"x":["dem"]}
+{"id":"prepositions.09","lesson":"prepositions","t":"fill","q":"Heute Abend gehen wir __ Kino.","o":["im","in","am"],"a":["ins"]}
+{"id":"prepositions.10","lesson":"prepositions","t":"fill","q":"Ich arbeite __ Montag.","o":["im","in","um"],"a":["am"]}
+{"id":"prepositions.11","lesson":"prepositions","t":"fill","q":"Ich gehe __ Post.","o":["zum","nach","ins"],"a":["zur"]}
+{"id":"prepositions.12","lesson":"prepositions","t":"type","a":["Ich bin zu Hause.","Ich bin daheim."],"x":["nach","bist"]}
+{"id":"prepositions.13","lesson":"prepositions","t":"type","a":["Ich gehe nach Hause.","Ich fahre nach Hause."],"x":["zu","geht"]}
+{"id":"prepositions.14","lesson":"prepositions","t":"type","a":["Am Sonntag gehen wir ins Kino.","Am Sonntag fahren wir ins Kino."],"x":["gehe","im"]}
+{"id":"imperative.01","lesson":"imperative","t":"mc","o":["Nehmen Sie eine Tablette.","Nehmen eine Tablette.","Nimm Sie eine Tablette.","Nehmt Sie eine Tablette."]}
+{"id":"imperative.02","lesson":"imperative","t":"mc","o":["Komm!","Kommst!","Du komm!","Kommen du!"]}
+{"id":"imperative.03","lesson":"imperative","t":"mc","o":["Schlaf gut!","Schläf gut!","Schläfst gut!","Schlafst gut!"],"strict":true}
+{"id":"imperative.04","lesson":"imperative","t":"mc","o":["Wartet hier!","Warte hier!","Wartest hier!","Warten hier!"]}
+{"id":"imperative.05","lesson":"imperative","t":"mc","o":["Ruf mich an!","Anruf mich!","Ruf an mich!","Rufst mich an!"]}
+{"id":"imperative.06","lesson":"imperative","t":"order","a":["Rufen","Sie","einen","Krankenwagen"],"x":["Ruf","einem"]}
+{"id":"imperative.07","lesson":"imperative","t":"order","a":["Ruf","mich","morgen","an"],"x":["mir","rufst"]}
+{"id":"imperative.08","lesson":"imperative","t":"order","a":["Wartet","auf","mich"],"x":["mir","wartest"]}
+{"id":"imperative.09","lesson":"imperative","t":"fill","q":"__ Sie bitte langsam!","o":["Sprich","Sprecht","Sprechst"],"a":["Sprechen"]}
+{"id":"imperative.10","lesson":"imperative","t":"fill","q":"__ viel Wasser!","o":["Trinkst","Trinkt","Trinken"],"a":["Trink","Trinke"]}
+{"id":"imperative.11","lesson":"imperative","t":"fill","q":"__ bitte nicht so schnell!","o":["Fähr","Fährst","Fahrt"],"a":["Fahr","Fahre"],"strict":true}
+{"id":"imperative.12","lesson":"imperative","t":"type","a":["Nehmen Sie eine Tablette!"],"x":["Nimm","einer"]}
+{"id":"imperative.13","lesson":"imperative","t":"type","a":["Bleib im Bett!","Bleibe im Bett!"],"x":["Bleibst"]}
+{"id":"imperative.14","lesson":"imperative","t":"type","a":["Rufen Sie mich an!","Rufen Sie mich bitte an!"],"x":["mir","Ruf"]}
+{"id":"perfekt.01","lesson":"perfekt","t":"mc","o":["Ich bin nach Hamburg gefahren.","Ich habe nach Hamburg gefahren.","Ich bin nach Hamburg gefahrt.","Ich bin gefahren nach Hamburg."]}
+{"id":"perfekt.02","lesson":"perfekt","t":"mc","o":["Ich habe eine Jacke gekauft.","Ich bin eine Jacke gekauft.","Ich habe eine Jacke gekaufen.","Ich habe gekauft eine Jacke."]}
+{"id":"perfekt.03","lesson":"perfekt","t":"mc","o":["verstanden","gegessen","gemacht","gefahren"]}
+{"id":"perfekt.04","lesson":"perfekt","t":"mc","o":["Sie ist zu Hause geblieben.","Sie hat zu Hause geblieben.","Sie ist zu Hause gebleibt.","Sie ist zu Hause bleiben."]}
+{"id":"perfekt.05","lesson":"perfekt","t":"mc","o":["Ich habe eingekauft.","Ich habe geeinkauft.","Ich habe eingekaufen.","Ich bin eingekauft."]}
+{"id":"perfekt.06","lesson":"perfekt","t":"order","a":["Ich","habe","ein","Buch","gelesen"],"x":["hat"]}
+{"id":"perfekt.07","lesson":"perfekt","t":"order","a":["Gestern","bin","ich","nach","Berlin","gefahren"],"x":["habe"]}
+{"id":"perfekt.08","lesson":"perfekt","t":"order","a":["Was","hast","du","am","Wochenende","gemacht"],"x":["hat"]}
+{"id":"perfekt.09","lesson":"perfekt","t":"fill","q":"Ich __ nach Köln gefahren.","o":["habe","hat","ist"],"a":["bin"]}
+{"id":"perfekt.10","lesson":"perfekt","t":"fill","q":"Wir haben gestern Pizza __.","o":["gegesst","geessen","essen"],"a":["gegessen"]}
+{"id":"perfekt.11","lesson":"perfekt","t":"fill","q":"Hast du das __?","o":["geverstanden","versteht","verstehen"],"a":["verstanden"]}
+{"id":"perfekt.12","lesson":"perfekt","t":"type","a":["Ich habe einen Pullover gekauft.","Einen Pullover habe ich gekauft."],"x":["ein","hat"]}
+{"id":"perfekt.13","lesson":"perfekt","t":"type","a":["Wir sind nach München gefahren."],"x":["haben","seid"]}
+{"id":"perfekt.14","lesson":"perfekt","t":"type","a":["Was hast du gestern gemacht?","Was hast du gestern getan?"],"x":["hat","habe"]}
+{"id":"war-hatte.01","lesson":"war-hatte","t":"mc","o":["Ich war müde.","Ich warst müde.","Ich waren müde.","Ich wart müde."]}
+{"id":"war-hatte.02","lesson":"war-hatte","t":"mc","o":["Hattest du Zeit?","Hattet du Zeit?","Hatte du Zeit?","Hatten du Zeit?"]}
+{"id":"war-hatte.03","lesson":"war-hatte","t":"mc","o":[null,null,null,null]}
+{"id":"war-hatte.04","lesson":"war-hatte","t":"mc","o":[null,null,null,null]}
+{"id":"war-hatte.05","lesson":"war-hatte","t":"mc","o":["Das ist wahr.","Das ist war.","Das ist waren.","Das war."]}
+{"id":"war-hatte.06","lesson":"war-hatte","t":"order","a":["Gestern","war","ich","krank"],"x":["warst"]}
+{"id":"war-hatte.07","lesson":"war-hatte","t":"order","a":["Waren","Sie","zu","Hause"],"x":["warst"]}
+{"id":"war-hatte.08","lesson":"war-hatte","t":"order","a":["Letzte","Woche","hatten","wir","keine","Zeit"],"x":["hatte"]}
+{"id":"war-hatte.09","lesson":"war-hatte","t":"fill","q":"Wo __ du am Wochenende?","o":["war","wart","waren"],"a":["warst"]}
+{"id":"war-hatte.10","lesson":"war-hatte","t":"fill","q":"Wir __ gestern keine Zeit.","o":["hatte","hattet","hattest"],"a":["hatten"],"strict":true}
+{"id":"war-hatte.11","lesson":"war-hatte","t":"fill","q":"Am Montag __ es sehr kalt.","o":["waren","warst","wahr"],"a":["war"]}
+{"id":"war-hatte.12","lesson":"war-hatte","t":"type","a":["Ich war in Berlin."],"x":["warst"]}
+{"id":"war-hatte.13","lesson":"war-hatte","t":"type","a":["Wir hatten keine Zeit."],"x":["hatte"],"strict":true}
+{"id":"war-hatte.14","lesson":"war-hatte","t":"type","a":["Gestern bin ich ins Kino gegangen.","Gestern war ich im Kino."],"x":["habe"]}
+{"id":"adjectives.01","lesson":"adjectives","t":"mc","o":["Das ist zu teuer.","Das ist zu teure.","Das ist zu teures.","Das zu teuer ist."]}
+{"id":"adjectives.02","lesson":"adjectives","t":"mc","o":["billiger","mehr billig","billigerer","am billig"]}
+{"id":"adjectives.03","lesson":"adjectives","t":"mc","o":["größer","großer","mehr groß","am groß"],"strict":true}
+{"id":"adjectives.04","lesson":"adjectives","t":"mc","o":["Ich suche einen schwarzen Pullover.","Ich suche ein schwarz Pullover.","Ich suche einen schwarz Pullover.","Ich suche einen Pullover schwarz."]}
+{"id":"adjectives.05","lesson":"adjectives","t":"mc","o":["Das blaue Kleid gefällt mir am besten.","Das blaue Kleid gefällt mir am gutesten.","Das blaue Kleid gefällt mir besser.","Das blaue Kleid gefällt mir mehr gut."]}
+{"id":"adjectives.06","lesson":"adjectives","t":"order","a":["Die","Jacke","ist","billiger","als","der","Mantel"],"x":["den"]}
+{"id":"adjectives.07","lesson":"adjectives","t":"order","a":["Ich","brauche","ein","neues","Handy"],"x":["einen"]}
+{"id":"adjectives.08","lesson":"adjectives","t":"order","a":["Haben","Sie","ein","weißes","Hemd"],"x":["hast","einen"]}
+{"id":"adjectives.09","lesson":"adjectives","t":"fill","q":"Der Mantel ist __ als die Jacke.","o":["warmer","wärmste","mehr warm"],"a":["wärmer"],"strict":true}
+{"id":"adjectives.10","lesson":"adjectives","t":"fill","q":"Mein Bruder ist älter __ ich.","o":["dann","von","dass"],"a":["als"]}
+{"id":"adjectives.11","lesson":"adjectives","t":"fill","q":"Ich trinke __ Tee als Kaffee.","o":["gerner","mehr gern","besser"],"a":["lieber"]}
+{"id":"adjectives.12","lesson":"adjectives","t":"type","a":["Ich suche einen schwarzen Pullover."],"x":["ein","schwarz"]}
+{"id":"adjectives.13","lesson":"adjectives","t":"type","a":["Die rote Jacke ist zu teuer."],"x":["der","teure"]}
+{"id":"adjectives.14","lesson":"adjectives","t":"type","a":["Meine Schwester ist älter als ich."],"x":["Mein","alter"],"strict":true}
+{"id":"connectors.01","lesson":"connectors","t":"mc","o":["Ich bin müde, aber ich komme mit.","Ich bin müde, aber komme ich mit.","Ich bin müde, aber ich mit komme.","Ich bin müde, aber ich mitkomme."]}
+{"id":"connectors.02","lesson":"connectors","t":"mc","o":["wenn ich Zeit habe","wenn ich habe Zeit","wenn habe ich Zeit","wenn Zeit ich habe"]}
+{"id":"connectors.03","lesson":"connectors","t":"mc","o":["Kaffee oder Tee?","Kaffee aber Tee?","Kaffee denn Tee?","Kaffee wenn Tee?"]}
+{"id":"connectors.04","lesson":"connectors","t":"mc","o":[null,null,null,null]}
+{"id":"connectors.05","lesson":"connectors","t":"mc","o":["Ich komme nicht, denn ich habe keine Zeit.","Ich komme nicht, denn ich keine Zeit habe.","Ich komme nicht, denn habe ich keine Zeit.","Ich komme nicht, denn keine Zeit ich habe."]}
+{"id":"connectors.06","lesson":"connectors","t":"order","a":["Wenn","es","regnet","bleibe","ich","zu Hause"],"x":["bleibt"]}
+{"id":"connectors.07","lesson":"connectors","t":"order","a":["Anna","kommt","wenn","sie","Zeit","hat"],"x":["habt"]}
+{"id":"connectors.08","lesson":"connectors","t":"order","a":["Lena","kommt","nicht","denn","sie","ist","müde"],"x":["bist"]}
+{"id":"connectors.09","lesson":"connectors","t":"fill","q":"Ich komme, wenn ich Zeit __.","o":["hat","hast","haben"],"a":["habe"]}
+{"id":"connectors.10","lesson":"connectors","t":"fill","q":"__ es regnet, bleiben wir zu Hause.","o":["Aber","Denn","Und"],"a":["Wenn"]}
+{"id":"connectors.11","lesson":"connectors","t":"fill","q":"Ich gehe nicht ins Kino, __ ich habe kein Geld.","o":["wenn","dass","oder"],"a":["denn"]}
+{"id":"connectors.12","lesson":"connectors","t":"type","a":["Wenn ich Zeit habe, komme ich.","Wenn ich Zeit habe, dann komme ich."],"x":["hat"]}
+{"id":"connectors.13","lesson":"connectors","t":"type","a":["Ich bleibe zu Hause, denn ich bin krank.","Ich bleibe daheim, denn ich bin krank."],"x":["bist"]}
+{"id":"connectors.14","lesson":"connectors","t":"type","a":["Kommst du mit, wenn es regnet?","Wenn es regnet, kommst du mit?"],"x":["Kommt"]}
+{"id":"traps.01","lesson":"traps","t":"mc","o":[null,null,null,null]}
+{"id":"traps.02","lesson":"traps","t":"mc","o":[null,null,null,null]}
+{"id":"traps.03","lesson":"traps","t":"mc","o":[null,null,null,null]}
+{"id":"traps.04","lesson":"traps","t":"mc","o":["Ich brauche eine Quittung.","Ich brauche ein Rezept.","Ich brauche einen Quittung.","Ich brauche eine Rezept."]}
+{"id":"traps.05","lesson":"traps","t":"mc","o":["Ich komme auch.","Ich komme also.","Ich auch komme.","Ich komme fast."]}
+{"id":"traps.06","lesson":"traps","t":"order","a":["Ich","will","einen","Kaffee"],"x":["ein"]}
+{"id":"traps.07","lesson":"traps","t":"order","a":["Ich","bekomme","ein","Geschenk"],"x":["bekommt"]}
+{"id":"traps.08","lesson":"traps","t":"order","a":["Morgen","bekomme","ich","mein","neues","Handy"],"x":["bekommt","meinen"]}
+{"id":"traps.09","lesson":"traps","t":"fill","q":"Ich __ Hunger.","o":["bin","hat","habt"],"a":["habe"]}
+{"id":"traps.10","lesson":"traps","t":"fill","q":"__ ist kalt.","o":["Ich","Mich","Mein"],"a":["Mir"]}
+{"id":"traps.11","lesson":"traps","t":"fill","q":"Ich komme __.","o":["also","fast","schnell"],"a":["auch"]}
+{"id":"traps.12","lesson":"traps","t":"type","a":["Mein Chef ist nett.","Meine Chefin ist nett."],"x":["Meine"]}
+{"id":"traps.13","lesson":"traps","t":"type","a":["Ich bekomme ein neues Handy.","Ich kriege ein neues Handy."],"x":["bekommt"]}
+{"id":"traps.14","lesson":"traps","t":"type","a":["Ich habe Durst.","Ich bin durstig."],"x":["hat"]}

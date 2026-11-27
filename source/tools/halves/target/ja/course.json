@@ -1,0 +1,203 @@
+{
+ "target": "ja",
+ "ttsLang": "ja-JP",
+ "self": "日本語",
+ "pack": {
+  "accents": true,
+  "keys": "",
+  "tilesDefault": true
+ },
+ "features": {
+  "script": false,
+  "pron": false,
+  "conj": false,
+  "register": false,
+  "numbers": false,
+  "sound": false,
+  "strokes": false
+ },
+ "groups": [
+  {
+   "id": "ja.grp.kana-and-first-kanji",
+   "decks": [
+    "ja.d.hiragana-1-a-ka-sa-ta-rows",
+    "ja.d.hiragana-2-na-to-n",
+    "ja.d.hiragana-3-marks-and-small-letters",
+    "ja.d.katakana-1-a-ka-sa-ta-rows",
+    "ja.d.katakana-2-na-to-n-plus-long-vowels",
+    "ja.d.first-kanji"
+   ]
+  },
+  {
+   "id": "ja.grp.first-steps",
+   "decks": [
+    "ja.d.greetings-and-introductions",
+    "ja.d.family-and-people",
+    "ja.d.numbers-money-and-time"
+   ]
+  },
+  {
+   "id": "ja.grp.everyday-life",
+   "decks": [
+    "ja.d.food-and-drink",
+    "ja.d.shopping-and-things",
+    "ja.d.daily-routine",
+    "ja.d.describing-things",
+    "ja.d.likes-plans-and-free-time"
+   ]
+  },
+  {
+   "id": "ja.grp.out-and-about",
+   "decks": [
+    "ja.d.places-and-getting-around",
+    "ja.d.polite-requests-and-help"
+   ]
+  },
+  {
+   "id": "ja.grp.watch-out",
+   "decks": [
+    "ja.d.casual-and-polite",
+    "ja.d.traps-for-english-speakers"
+   ]
+  },
+  {
+   "id": "ja.grp.conversation",
+   "decks": [
+    "ja.d.compliments",
+    "ja.d.flirting"
+   ]
+  },
+  {
+   "id": "ja.grp.core-words",
+   "decks": [
+    "ja.d.top-nouns",
+    "ja.d.top-verbs",
+    "ja.d.top-adjectives",
+    "ja.d.top-adverbs",
+    "ja.d.top-pronouns",
+    "ja.d.top-particles",
+    "ja.d.top-connectors",
+    "ja.d.top-interjections",
+    "ja.d.top-words",
+    "ja.d.top-counters"
+   ]
+  }
+ ],
+ "tags": {
+  "kana-and-first-kanji": [
+   "ja.d.hiragana-1-a-ka-sa-ta-rows",
+   "ja.d.hiragana-2-na-to-n",
+   "ja.d.hiragana-3-marks-and-small-letters",
+   "ja.d.katakana-1-a-ka-sa-ta-rows",
+   "ja.d.katakana-2-na-to-n-plus-long-vowels",
+   "ja.d.first-kanji"
+  ],
+  "first-steps": [
+   "ja.d.greetings-and-introductions",
+   "ja.d.family-and-people",
+   "ja.d.numbers-money-and-time"
+  ],
+  "everyday-life": [
+   "ja.d.food-and-drink",
+   "ja.d.shopping-and-things",
+   "ja.d.daily-routine",
+   "ja.d.describing-things",
+   "ja.d.likes-plans-and-free-time"
+  ],
+  "out-and-about": [
+   "ja.d.places-and-getting-around",
+   "ja.d.polite-requests-and-help"
+  ],
+  "watch-out": [
+   "ja.d.casual-and-polite",
+   "ja.d.traps-for-english-speakers"
+  ],
+  "conversation": [
+   "ja.d.compliments",
+   "ja.d.flirting"
+  ],
+  "core-words": [
+   "ja.d.top-nouns",
+   "ja.d.top-verbs",
+   "ja.d.top-adjectives",
+   "ja.d.top-adverbs",
+   "ja.d.top-pronouns",
+   "ja.d.top-particles",
+   "ja.d.top-connectors",
+   "ja.d.top-interjections",
+   "ja.d.top-words",
+   "ja.d.top-counters"
+  ]
+ },
+ "goals": [],
+ "plans": [],
+ "titles": [
+  {
+   "id": "ja.t01",
+   "level": 1
+  },
+  {
+   "id": "ja.t03",
+   "level": 3
+  },
+  {
+   "id": "ja.t05",
+   "level": 5
+  },
+  {
+   "id": "ja.t08",
+   "level": 8
+  },
+  {
+   "id": "ja.t12",
+   "level": 12
+  },
+  {
+   "id": "ja.t16",
+   "level": 16
+  },
+  {
+   "id": "ja.t20",
+   "level": 20
+  }
+ ],
+ "greet": [
+  {
+   "id": "ja.h.night",
+   "ja": "おやすみなさい"
+  },
+  {
+   "id": "ja.h.morning",
+   "ja": "おはようございます"
+  },
+  {
+   "id": "ja.h.afternoon",
+   "ja": "こんにちは"
+  },
+  {
+   "id": "ja.h.evening",
+   "ja": "こんばんは"
+  }
+ ],
+ "pairs": [],
+ "pause": {
+  "sets": [],
+  "idioms": []
+ },
+ "uiKeys": [
+  "Japanese (required)",
+  "Japanese, pronunciation, meaning, note — one per line (pronunciation/note optional)",
+  "Search a pattern, e.g. 에서 or 'want'",
+  "#kana-and-first-kanji",
+  "#first-steps",
+  "#everyday-life",
+  "#out-and-about",
+  "#watch-out",
+  "#conversation",
+  "#core-words"
+ ],
+ "exportedFrom": {
+  "file": "tools/target/ja/ (tools/target/gen.js ja)",
+  "sha256_16": "1b7a88084cf2ffe6"
+ }
+}

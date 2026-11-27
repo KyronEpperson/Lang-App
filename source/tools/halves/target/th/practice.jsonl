@@ -1,0 +1,364 @@
+{"id":"tones.01","lesson":"tones","t":"mc","o":[null,null,null,null]}
+{"id":"tones.02","lesson":"tones","t":"mc","o":[null,null,null,null]}
+{"id":"tones.03","lesson":"tones","t":"mc","o":["glâi","glai","glài","gláai"]}
+{"id":"tones.04","lesson":"tones","t":"mc","o":[null,null,null,null]}
+{"id":"tones.05","lesson":"tones","t":"mc","o":[null,null,null,null]}
+{"id":"tones.06","lesson":"tones","t":"order","a":["glai","mâak"],"x":["glâi"]}
+{"id":"tones.07","lesson":"tones","t":"order","a":["khâao","khǎao"],"x":["khǎo"]}
+{"id":"tones.08","lesson":"tones","t":"order","a":["máa","maa"],"x":["mǎa"]}
+{"id":"tones.09","lesson":"tones","t":"fill","q":"__ mâak","o":["glai","glài","gláai"],"a":["glâi"],"strict":true}
+{"id":"tones.10","lesson":"tones","t":"fill","q":"__ maa","o":["máa","maa","mâa"],"a":["mǎa"],"strict":true}
+{"id":"tones.11","lesson":"tones","t":"fill","q":"khâao __","o":["khâao","khǎo","khàao"],"a":["khǎao"],"strict":true}
+{"id":"tones.12","lesson":"tones","t":"type","a":["máa"],"x":["mǎa"],"strict":true}
+{"id":"tones.13","lesson":"tones","t":"type","a":["glâi"],"x":["glai"],"strict":true}
+{"id":"tones.14","lesson":"tones","t":"type","a":["mǎa"],"x":["máa"],"strict":true}
+{"id":"sounds.01","lesson":"sounds","t":"mc","o":["phaa","bpaa","dtaa","gài"]}
+{"id":"sounds.02","lesson":"sounds","t":"mc","o":["khài","gài","gâi","khâi"]}
+{"id":"sounds.03","lesson":"sounds","t":"mc","o":[null,null,null,null]}
+{"id":"sounds.04","lesson":"sounds","t":"mc","o":[null,null,null,null]}
+{"id":"sounds.05","lesson":"sounds","t":"mc","o":[null,null,null,null]}
+{"id":"sounds.06","lesson":"sounds","t":"order","a":["duu","dèk"],"x":["dù"]}
+{"id":"sounds.07","lesson":"sounds","t":"order","a":["mâi","glai"],"x":["glâi"]}
+{"id":"sounds.08","lesson":"sounds","t":"order","a":["gài","maa"],"x":["khài"]}
+{"id":"sounds.09","lesson":"sounds","t":"fill","q":"__ dèk","o":["dù","dûu","thuu"],"a":["duu"],"strict":true}
+{"id":"sounds.10","lesson":"sounds","t":"fill","q":"mâi __","o":["glâi","gláai","khlai"],"a":["glai"],"strict":true}
+{"id":"sounds.11","lesson":"sounds","t":"fill","q":"__ maa","o":["khài","gâi","khâi"],"a":["gài"],"strict":true}
+{"id":"sounds.12","lesson":"sounds","t":"type","a":["khâao"],"x":["khǎao"],"strict":true}
+{"id":"sounds.13","lesson":"sounds","t":"type","a":["dù"],"x":["duu"],"strict":true}
+{"id":"sounds.14","lesson":"sounds","t":"type","a":["khài"],"x":["gài"],"strict":true}
+{"id":"greetings.01","lesson":"greetings","t":"mc","o":["khâ","khá","khà","kháa"]}
+{"id":"greetings.02","lesson":"greetings","t":"mc","o":["สบายดีไหมคะ","สบายดีไหมค่ะ","สบายดีไหมครับ","สบายดีค่ะ"]}
+{"id":"greetings.03","lesson":"greetings","t":"mc","o":["ขอโทษ","ขอบคุณ","ไม่เป็นไร","ยินดีที่ได้รู้จัก"]}
+{"id":"greetings.04","lesson":"greetings","t":"mc","o":["ไปก่อนนะ","ลาก่อน","ยินดีที่ได้รู้จัก","ขอบคุณ"]}
+{"id":"greetings.05","lesson":"greetings","t":"mc","o":["คุณ","ครับ","ค่ะ","ไหม"]}
+{"id":"greetings.06","lesson":"greetings","t":"order","a":["ขอโทษ","ค่ะ"],"x":["คะ"]}
+{"id":"greetings.07","lesson":"greetings","t":"order","a":["สบาย","ดี","ไหม","คะ"],"x":["ค่ะ"]}
+{"id":"greetings.08","lesson":"greetings","t":"order","a":["ยินดี","ที่","ได้","รู้จัก","ครับ"],"x":["ค่ะ"]}
+{"id":"greetings.09","lesson":"greetings","t":"fill","q":"ขอบคุณ__","o":["คะ","ครับ","ไหม"],"a":["ค่ะ","khâ"],"xr":["khá","khráp","mǎi"]}
+{"id":"greetings.10","lesson":"greetings","t":"fill","q":"สบายดีไหม__","o":["ค่ะ","ครับ","นะ"],"a":["คะ","khá"],"xr":["khâ","khráp","ná"]}
+{"id":"greetings.11","lesson":"greetings","t":"fill","q":"__ครับ","o":["ขอโทษ","ขอบคุณ","สวัสดี"],"a":["ไม่เป็นไร","mâi-bpen-rai"],"xr":["khǎaw-thôot","khàawp-khun","sà-wàt-dii"]}
+{"id":"greetings.12","lesson":"greetings","t":"type","a":["ขอบคุณ มาก ค่ะ","ขอบคุณ มาก","khàawp-khun mâak khâ","khàawp-khun mâak"],"x":["คะ"],"xr":["khá"]}
+{"id":"greetings.13","lesson":"greetings","t":"type","a":["สบาย ดี ไหม ครับ","สบาย ดี ไหม","sà-baai dii mǎi khráp","sà-baai dii mǎi"],"x":["ไม่"],"xr":["mâi"]}
+{"id":"greetings.14","lesson":"greetings","t":"type","a":["สวัสดี ครับ","สวัสดี","sà-wàt-dii khráp","sà-wàt-dii"],"x":["ค่ะ"],"xr":["khâ"]}
+{"id":"numbers.01","lesson":"numbers","t":"mc","o":["sǎawng","sàawng","sâawng","saawng"]}
+{"id":"numbers.02","lesson":"numbers","t":"mc","o":["ยี่สิบ","สองสิบ","สิบสอง","ยี่สิบเอ็ด"]}
+{"id":"numbers.03","lesson":"numbers","t":"mc","o":["ยี่สิบเอ็ด","สองสิบหนึ่ง","สองสิบเอ็ด","สิบยี่สิบ"]}
+{"id":"numbers.04","lesson":"numbers","t":"mc","o":["ห้าสิบบาท","ห้าศูนย์บาท","สิบห้าบาท","ห้าร้อยบาท"]}
+{"id":"numbers.05","lesson":"numbers","t":"mc","o":[null,null,null,null]}
+{"id":"numbers.06","lesson":"numbers","t":"order","a":["ห้า","บาท"],"x":["หา"]}
+{"id":"numbers.07","lesson":"numbers","t":"order","a":["เก้า","บาท"],"x":["เก่า"]}
+{"id":"numbers.08","lesson":"numbers","t":"order","a":["ยี่สิบห้า","บาท"],"x":["สองสิบห้า"]}
+{"id":"numbers.09","lesson":"numbers","t":"fill","q":"__บาท","o":["เก่า","เก้าสิบ","แปด"],"a":["เก้า","gâao"],"xr":["gào","gâao-sìp","bpàaet"]}
+{"id":"numbers.10","lesson":"numbers","t":"fill","q":"ยี่สิบ__","o":["สาม","สอง","สิบ"],"a":["เอ็ด","èt"],"xr":["sǎam","sǎawng","sìp"]}
+{"id":"numbers.11","lesson":"numbers","t":"fill","q":"ทั้งหมด__","o":["ไหม","บาท","มาก"],"a":["เท่าไร","เท่าไหร่","thâo-rai","thâo-rài"],"xr":["mǎi","bàat","mâak"]}
+{"id":"numbers.12","lesson":"numbers","t":"type","a":["เก้าสิบ บาท","gâao-sìp bàat"],"x":["เก่า"],"xr":["gào"]}
+{"id":"numbers.13","lesson":"numbers","t":"type","a":["ห้าร้อย บาท","hâa-ráawi bàat"],"x":["หา"],"xr":["hǎa"]}
+{"id":"numbers.14","lesson":"numbers","t":"type","a":["เท่าไร คะ","เท่าไหร่ คะ","เท่าไร","เท่าไหร่","thâo-rai khá","thâo-rài khá","thâo-rai","thâo-rài"],"x":["ค่ะ"],"xr":["khâ"]}
+{"id":"consonants.01","lesson":"consonants","t":"mc","o":["khǎa","khaa","khàa","kháa"]}
+{"id":"consonants.02","lesson":"consonants","t":"mc","o":["ก","ข","ค","ส"]}
+{"id":"consonants.03","lesson":"consonants","t":"mc","o":["ซ","ฉ","ช","ถ"]}
+{"id":"consonants.04","lesson":"consonants","t":"mc","o":["ป","พ","ผ","บ"]}
+{"id":"consonants.05","lesson":"consonants","t":"mc","o":[null,null,null,null]}
+{"id":"consonants.06","lesson":"consonants","t":"order","a":["khǎa","yaao"],"x":["khaa"]}
+{"id":"consonants.07","lesson":"consonants","t":"order","a":["mǎa","sǔuai"],"x":["suuai"]}
+{"id":"consonants.08","lesson":"consonants","t":"order","a":["gaaw","gài"],"x":["khǎaw"]}
+{"id":"consonants.09","lesson":"consonants","t":"fill","q":"__ yaao","o":["khaa","khâa","kháa"],"a":["khǎa"],"strict":true}
+{"id":"consonants.10","lesson":"consonants","t":"fill","q":"__ ไก่","o":["ข","ค","จ"],"a":["ก","gaaw"],"xr":["khǎaw","khaaw","jaaw"]}
+{"id":"consonants.11","lesson":"consonants","t":"fill","q":"__ ควาย","o":["ข","ก","ง"],"a":["ค","khaaw"],"xr":["khǎaw","gaaw","ngaaw"]}
+{"id":"consonants.12","lesson":"consonants","t":"type","a":["khǎa"],"x":["khaa"],"strict":true}
+{"id":"consonants.13","lesson":"consonants","t":"type","a":["sǔuai"],"x":["suuai"],"strict":true}
+{"id":"consonants.14","lesson":"consonants","t":"type","a":["khǎaw khài"],"x":["gài"],"strict":true}
+{"id":"vowels.01","lesson":"vowels","t":"mc","o":["เข้า","ข้าว","ขาว","เขา"]}
+{"id":"vowels.02","lesson":"vowels","t":"mc","o":[null,null,null,null]}
+{"id":"vowels.03","lesson":"vowels","t":"mc","o":["แม่","ตา","ดี","มือ"]}
+{"id":"vowels.04","lesson":"vowels","t":"mc","o":[null,null,null,null]}
+{"id":"vowels.05","lesson":"vowels","t":"mc","o":[null,null,null,null]}
+{"id":"vowels.06","lesson":"vowels","t":"order","a":["เข้า","บ้าน"],"x":["ข้าว"]}
+{"id":"vowels.07","lesson":"vowels","t":"order","a":["ดู","เด็ก"],"x":["ดุ"]}
+{"id":"vowels.08","lesson":"vowels","t":"order","a":["เรือ","ใหม่"],"x":["ไม่"]}
+{"id":"vowels.09","lesson":"vowels","t":"fill","q":"__บ้าน","o":["ข้าว","ขาว","เขา"],"a":["เข้า","khâo"],"xr":["khâao","khǎao","khǎo"]}
+{"id":"vowels.10","lesson":"vowels","t":"fill","q":"กิน__","o":["เข้า","ขาว","เขา"],"a":["ข้าว","khâao"],"xr":["khâo","khǎao","khǎo"]}
+{"id":"vowels.11","lesson":"vowels","t":"fill","q":"เรือ__","o":["ไม่","ไม้","ไหม"],"a":["ใหม่","mài"],"xr":["mâi","máai","mǎi"]}
+{"id":"vowels.12","lesson":"vowels","t":"type","a":["กิน ข้าว","gin khâao"],"x":["เข้า"],"xr":["khâo"]}
+{"id":"vowels.13","lesson":"vowels","t":"type","a":["ดู หมา","duu mǎa"],"x":["ดุ"],"xr":["dù"]}
+{"id":"vowels.14","lesson":"vowels","t":"type","a":["ruuea"],"x":["rao"]}
+{"id":"pronouns.01","lesson":"pronouns","t":"mc","o":["เขา","ข้าว","ขาว","เข้า"]}
+{"id":"pronouns.02","lesson":"pronouns","t":"mc","o":["ผม","ฉัน","ดิฉัน","เธอ"]}
+{"id":"pronouns.03","lesson":"pronouns","t":"mc","o":["เพื่อนฉัน","ฉันเพื่อน","เพื่อนผม","ฉันของเพื่อน"]}
+{"id":"pronouns.04","lesson":"pronouns","t":"mc","o":[null,null,null,null]}
+{"id":"pronouns.05","lesson":"pronouns","t":"mc","o":["ไปครับ","ผมไปคุณครับ","ผมไปค่ะ","ไปฉันครับ"]}
+{"id":"pronouns.06","lesson":"pronouns","t":"order","a":["เพื่อน","ผม"],"x":["ฉัน"]}
+{"id":"pronouns.07","lesson":"pronouns","t":"order","a":["พี่ชาย","ฉัน"],"x":["ผม"]}
+{"id":"pronouns.08","lesson":"pronouns","t":"order","a":["เขา","มา"],"x":["ข้าว"]}
+{"id":"pronouns.09","lesson":"pronouns","t":"fill","q":"เพื่อน__","o":["ฉัน","คุณ","เขา"],"a":["ผม","phǒm"],"xr":["chǎn","khun","khǎo"]}
+{"id":"pronouns.10","lesson":"pronouns","t":"fill","q":"__มา","o":["ข้าว","ขาว","เข้า"],"a":["เขา","khǎo"],"xr":["khâao","khǎao","khâo"]}
+{"id":"pronouns.11","lesson":"pronouns","t":"fill","q":"ไป__","o":["คะ","ครับ","ไหม"],"a":["ค่ะ","khâ"],"xr":["khá","khráp","mǎi"]}
+{"id":"pronouns.12","lesson":"pronouns","t":"type","a":["พี่สาว ฉัน","พี่สาว ของ ฉัน","phîi-sǎao chǎn","phîi-sǎao khǎawng chǎn"],"x":["ผม"],"xr":["phǒm"]}
+{"id":"pronouns.13","lesson":"pronouns","t":"type","a":["น้องชาย ผม","น้องชาย ของ ผม","náawng-chaai phǒm","náawng-chaai khǎawng phǒm"],"x":["ฉัน"],"xr":["chǎn"]}
+{"id":"pronouns.14","lesson":"pronouns","t":"type","a":["เรา ไป ครับ","เรา ไป","rao bpai khráp","rao bpai"],"x":["ค่ะ"],"xr":["khâ"]}
+{"id":"finals.01","lesson":"finals","t":"mc","o":["rák","râak","ràk","rak"]}
+{"id":"finals.02","lesson":"finals","t":"mc","o":["t","th","s","d"]}
+{"id":"finals.03","lesson":"finals","t":"mc","o":["คน","บาท","จาก","รัก"]}
+{"id":"finals.04","lesson":"finals","t":"mc","o":[null,null,null,null]}
+{"id":"finals.05","lesson":"finals","t":"mc","o":[null,null,null,null]}
+{"id":"finals.06","lesson":"finals","t":"order","a":["rák","khun"],"x":["râak"]}
+{"id":"finals.07","lesson":"finals","t":"order","a":["ใกล้","ตลาด"],"x":["ไกล"]}
+{"id":"finals.08","lesson":"finals","t":"order","a":["maa","jàak","bâan"],"x":["jaak"]}
+{"id":"finals.09","lesson":"finals","t":"fill","q":"__ khun","o":["râak","ràk","rak"],"a":["rák"],"strict":true}
+{"id":"finals.10","lesson":"finals","t":"fill","q":"__ตลาด","o":["ไกล","ไก่","ไข่"],"a":["ใกล้","glâi"],"xr":["glai","gài","khài"]}
+{"id":"finals.11","lesson":"finals","t":"fill","q":"มา__บ้าน","o":["ราก","จะ","ขาด"],"a":["จาก","jàak"],"xr":["râak","jà","khàat"]}
+{"id":"finals.12","lesson":"finals","t":"type","a":["jàak"],"x":["jaak"],"strict":true}
+{"id":"finals.13","lesson":"finals","t":"type","a":["râak"],"x":["rák"],"strict":true}
+{"id":"finals.14","lesson":"finals","t":"type","a":["aa-hǎan"],"x":["aa-hǎar"],"strict":true}
+{"id":"pen.01","lesson":"pen","t":"mc","o":["ใกล้","ไกล","ไก่","ไข่"]}
+{"id":"pen.02","lesson":"pen","t":"mc","o":["อาหารอร่อย","อาหารเป็นอร่อย","อาหารอยู่อร่อย","อาหารคืออร่อย"]}
+{"id":"pen.03","lesson":"pen","t":"mc","o":["ผมอยู่ที่บ้าน","ผมเป็นที่บ้าน","ผมคือบ้าน","ผมเป็นบ้าน"]}
+{"id":"pen.04","lesson":"pen","t":"mc","o":[null,null,null,null]}
+{"id":"pen.05","lesson":"pen","t":"mc","o":["ผมไม่ใช่ครู","ผมไม่เป็นครู","ผมเป็นไม่ครู","ไม่ผมครู"]}
+{"id":"pen.06","lesson":"pen","t":"order","a":["เพื่อน","ผม","เป็น","ครู"],"x":["ฉัน"]}
+{"id":"pen.07","lesson":"pen","t":"order","a":["ธนาคาร","อยู่","ไกล"],"x":["ใกล้"]}
+{"id":"pen.08","lesson":"pen","t":"order","a":["ฉัน","หิว","ค่ะ"],"x":["เป็น"]}
+{"id":"pen.09","lesson":"pen","t":"fill","q":"ผม__ครู","o":["อยู่","ใช่","ไม่"],"a":["เป็น","bpen"],"xr":["yùu","châi","mâi"]}
+{"id":"pen.10","lesson":"pen","t":"fill","q":"ห้องน้ำ__ที่ไหน","o":["เป็น","คือ","ใช่"],"a":["อยู่","yùu"],"xr":["bpen","khuue","châi"]}
+{"id":"pen.11","lesson":"pen","t":"fill","q":"ตลาดอยู่__บ้าน","o":["ไกล","ไก่","ไข่"],"a":["ใกล้","glâi"],"xr":["glai","gài","khài"]}
+{"id":"pen.12","lesson":"pen","t":"type","a":["บ้าน ผม อยู่ ไกล ครับ","บ้าน ผม อยู่ ไกล","บ้าน ผม ไกล ครับ","บ้าน ผม ไกล","บ้าน ของ ผม อยู่ ไกล ครับ","บ้าน ของ ผม อยู่ ไกล","บ้าน ของ ผม ไกล ครับ","บ้าน ของ ผม ไกล","bâan phǒm yùu glai khráp","bâan phǒm yùu glai","bâan phǒm glai khráp","bâan phǒm glai","bâan khǎawng phǒm yùu glai khráp","bâan khǎawng phǒm yùu glai","bâan khǎawng phǒm glai khráp","bâan khǎawng phǒm glai"],"x":["ใกล้"],"xr":["glâi"]}
+{"id":"pen.13","lesson":"pen","t":"type","a":["พี่สาว ฉัน เป็น พยาบาล ค่ะ","พี่สาว ฉัน เป็น พยาบาล","พี่สาว ของ ฉัน เป็น พยาบาล ค่ะ","พี่สาว ของ ฉัน เป็น พยาบาล","phîi-sǎao chǎn bpen phá-yaa-baan khâ","phîi-sǎao chǎn bpen phá-yaa-baan","phîi-sǎao khǎawng chǎn bpen phá-yaa-baan khâ","phîi-sǎao khǎawng chǎn bpen phá-yaa-baan"],"x":["ผม"],"xr":["phǒm"]}
+{"id":"pen.14","lesson":"pen","t":"type","a":["ผม ไม่ ใช่ ครู ครับ","ผม ไม่ ใช่ ครู","ไม่ ใช่ ครู ครับ","ไม่ ใช่ ครู","ผม ไม่ ได้ เป็น ครู ครับ","ผม ไม่ ได้ เป็น ครู","ไม่ ได้ เป็น ครู ครับ","ไม่ ได้ เป็น ครู","phǒm mâi châi khruu khráp","phǒm mâi châi khruu","mâi châi khruu khráp","mâi châi khruu","phǒm mâi dâai bpen khruu khráp","phǒm mâi dâai bpen khruu","mâi dâai bpen khruu khráp","mâi dâai bpen khruu"],"x":["เป็น"],"xr":["bpen"]}
+{"id":"classifiers.01","lesson":"classifiers","t":"mc","o":["หนังสือสองเล่ม","สองหนังสือ","สองเล่มหนังสือ","หนังสือสองตัว"]}
+{"id":"classifiers.02","lesson":"classifiers","t":"mc","o":["ตัว","คน","เล่ม","คัน"]}
+{"id":"classifiers.03","lesson":"classifiers","t":"mc","o":["เพื่อนสี่คน","สี่เพื่อน","สี่คนเพื่อน","เพื่อนสี่ตัว"]}
+{"id":"classifiers.04","lesson":"classifiers","t":"mc","o":["ข้าว","ขาว","เขา","ข่าว"]}
+{"id":"classifiers.05","lesson":"classifiers","t":"mc","o":["คุณมีแมวกี่ตัว","คุณมีกี่แมว","กี่ตัวแมวคุณมี","คุณมีแมวกี่คน"]}
+{"id":"classifiers.06","lesson":"classifiers","t":"order","a":["กาแฟ","สอง","แก้ว"],"x":["ขวด"]}
+{"id":"classifiers.07","lesson":"classifiers","t":"order","a":["แมว","สาม","ตัว"],"x":["คน"]}
+{"id":"classifiers.08","lesson":"classifiers","t":"order","a":["หนังสือ","เก้า","เล่ม"],"x":["เก่า"]}
+{"id":"classifiers.09","lesson":"classifiers","t":"fill","q":"แมวสอง__","o":["คน","เล่ม","คัน"],"a":["ตัว","dtuua"],"xr":["khon","lêm","khan"]}
+{"id":"classifiers.10","lesson":"classifiers","t":"fill","q":"รถสาม__","o":["ตัว","เล่ม","ขวด"],"a":["คัน","khan"],"xr":["dtuua","lêm","khùuat"]}
+{"id":"classifiers.11","lesson":"classifiers","t":"fill","q":"น้ำสอง__","o":["ขวบ","ตัว","คัน"],"a":["ขวด","khùuat"],"xr":["khùuap","dtuua","khan"]}
+{"id":"classifiers.12","lesson":"classifiers","t":"type","a":["หนังสือ สอง เล่ม","nǎng-sǔue sǎawng lêm"],"x":["ตัว"],"xr":["dtuua"]}
+{"id":"classifiers.13","lesson":"classifiers","t":"type","a":["เพื่อน สี่ คน","phûuean sìi khon"],"x":["ตัว"],"xr":["dtuua"]}
+{"id":"classifiers.14","lesson":"classifiers","t":"type","a":["คุณ มี แมว กี่ ตัว","มี แมว กี่ ตัว","คุณ มี แมว กี่ ตัว ครับ","มี แมว กี่ ตัว ครับ","คุณ มี แมว กี่ ตัว คะ","มี แมว กี่ ตัว คะ","khun mii maaeo gìi dtuua","mii maaeo gìi dtuua","khun mii maaeo gìi dtuua khráp","mii maaeo gìi dtuua khráp","khun mii maaeo gìi dtuua khá","mii maaeo gìi dtuua khá"],"x":["คน"],"xr":["khon"]}
+{"id":"tone-marks.01","lesson":"tone-marks","t":"mc","o":[null,null,null,null]}
+{"id":"tone-marks.02","lesson":"tone-marks","t":"mc","o":["ม้า","มา","หมา","ม่า"]}
+{"id":"tone-marks.03","lesson":"tone-marks","t":"mc","o":[null,null,null,null]}
+{"id":"tone-marks.04","lesson":"tone-marks","t":"mc","o":[null,null,null,null]}
+{"id":"tone-marks.05","lesson":"tone-marks","t":"mc","o":["ข้าว","ไข่","ม้า","โต๊ะ"]}
+{"id":"tone-marks.06","lesson":"tone-marks","t":"order","a":["ไม่","ใช่","ม้า"],"x":["หมา"]}
+{"id":"tone-marks.07","lesson":"tone-marks","t":"order","a":["โต๊ะ","ใหม่"],"x":["ไม่"]}
+{"id":"tone-marks.08","lesson":"tone-marks","t":"order","a":["โต๊ะ","สอง","ตัว"],"x":["คน"]}
+{"id":"tone-marks.09","lesson":"tone-marks","t":"fill","q":"ไม่ใช่__","o":["หมา","มา","ไม้"],"a":["ม้า","máa"],"xr":["mǎa","maa","máai"]}
+{"id":"tone-marks.10","lesson":"tone-marks","t":"fill","q":"ผมกิน__","o":["ขาว","เขา","ข่าว"],"a":["ข้าว","khâao"],"xr":["khǎao","khǎo","khàao"]}
+{"id":"tone-marks.11","lesson":"tone-marks","t":"fill","q":"__อยู่ที่บ้าน","o":["ป่า","ปา","ปู่"],"a":["ป้า","bpâa"],"xr":["bpàa","bpaa","bpùu"]}
+{"id":"tone-marks.12","lesson":"tone-marks","t":"type","a":["โต๊ะ ใหม่","โต๊ะ ตัว ใหม่","dtó mài","dtó dtuua mài"],"x":["ไม่"],"xr":["mâi"]}
+{"id":"tone-marks.13","lesson":"tone-marks","t":"type","a":["ไม่ ใช่ ม้า","ไม่ ใช่ ม้า ครับ","ไม่ ใช่ ม้า ค่ะ","mâi châi máa","mâi châi máa khráp","mâi châi máa khâ"],"x":["หมา"],"xr":["mǎa"]}
+{"id":"tone-marks.14","lesson":"tone-marks","t":"type","a":["ไก่ สอง ตัว","gài sǎawng dtuua"],"x":["คน"],"xr":["khon"]}
+{"id":"this-that.01","lesson":"this-that","t":"mc","o":["เสื้อตัวนี้","นี้เสื้อ","นี่เสื้อตัว","เสื้อนี่ตัว"]}
+{"id":"this-that.02","lesson":"this-that","t":"mc","o":["นี่","นี้","นั่น","นั้น"]}
+{"id":"this-that.03","lesson":"this-that","t":"mc","o":["บ้านของผม","ผมของบ้าน","ของผมบ้าน","ผมบ้าน"]}
+{"id":"this-that.04","lesson":"this-that","t":"mc","o":["นี่ของใคร","นี้ของใคร","ใครของนี่","ของนี่ใคร"]}
+{"id":"this-that.05","lesson":"this-that","t":"mc","o":["หนังสือเล่มนั้น","หนังสือนั่นเล่ม","นั้นหนังสือ","หนังสือตัวนั้น"]}
+{"id":"this-that.06","lesson":"this-that","t":"order","a":["เสื้อ","ตัว","นี้"],"x":["นี่"]}
+{"id":"this-that.07","lesson":"this-that","t":"order","a":["รถ","คัน","นั้น"],"x":["นั่น"]}
+{"id":"this-that.08","lesson":"this-that","t":"order","a":["นี่","คือ","แมว","ของ","ฉัน"],"x":["นี้"]}
+{"id":"this-that.09","lesson":"this-that","t":"fill","q":"หนังสือเล่ม__","o":["นี่","นั่น","โน่น"],"a":["นี้","níi"],"xr":["nîi","nân","nôon"]}
+{"id":"this-that.10","lesson":"this-that","t":"fill","q":"บ้าน__ผม","o":["คือ","เป็น","ที่"],"a":["ของ","khǎawng"],"xr":["khuue","bpen","thîi"]}
+{"id":"this-that.11","lesson":"this-that","t":"fill","q":"__ของใคร","o":["นี้","ใคร","คือ"],"a":["นี่","nîi"],"xr":["níi","khrai","khuue"]}
+{"id":"this-that.12","lesson":"this-that","t":"type","a":["เสื้อ ตัว นี้","sûuea dtuua níi"],"x":["นี่"],"xr":["nîi"]}
+{"id":"this-that.13","lesson":"this-that","t":"type","a":["คน นั้น","khon nán"],"x":["นั่น"],"xr":["nân"]}
+{"id":"this-that.14","lesson":"this-that","t":"type","a":["หนังสือ ของ ฉัน","หนังสือ ฉัน","nǎng-sǔue khǎawng chǎn","nǎng-sǔue chǎn"],"x":["ผม"],"xr":["phǒm"]}
+{"id":"mai.01","lesson":"mai","t":"mc","o":["ผมไม่ชอบกาแฟ","ผมชอบไม่กาแฟ","ผมชอบกาแฟไม่","ไม่ผมชอบกาแฟ"]}
+{"id":"mai.02","lesson":"mai","t":"mc","o":["ไหม","ไม่","ใหม่","ไม้"]}
+{"id":"mai.03","lesson":"mai","t":"mc","o":["ชอบ","ใช่","ไหม","ไม่ชอบ"]}
+{"id":"mai.04","lesson":"mai","t":"mc","o":["เผ็ดไหม","ไหมเผ็ด","ไม่เผ็ด","เผ็ดไม่"]}
+{"id":"mai.05","lesson":"mai","t":"mc","o":["คุณเป็นครูใช่ไหม","คุณชอบไหม","เผ็ดไหม","ไปไหม"]}
+{"id":"mai.06","lesson":"mai","t":"order","a":["ไม่","เผ็ด"],"x":["ไหม"]}
+{"id":"mai.07","lesson":"mai","t":"order","a":["ชอบ","ไหม","คะ"],"x":["ค่ะ"]}
+{"id":"mai.08","lesson":"mai","t":"order","a":["ผม","ไม่","ชอบ","กาแฟ"],"x":["ไหม"]}
+{"id":"mai.09","lesson":"mai","t":"fill","q":"อาหาร__เผ็ด","o":["ไหม","ใหม่","ไม้"],"a":["ไม่","mâi"],"xr":["mǎi","mài","máai"]}
+{"id":"mai.10","lesson":"mai","t":"fill","q":"เผ็ด__คะ","o":["ไม่","ใหม่","ค่ะ"],"a":["ไหม","mǎi"],"xr":["mâi","mài","khâ"]}
+{"id":"mai.11","lesson":"mai","t":"fill","q":"ผม__ไป","o":["ไหม","ใช่","ใหม่"],"a":["ไม่","mâi"],"xr":["mǎi","châi","mài"]}
+{"id":"mai.12","lesson":"mai","t":"type","a":["ไม่ เผ็ด","ไม่ เผ็ด ครับ","ไม่ เผ็ด ค่ะ","mâi phèt","mâi phèt khráp","mâi phèt khâ"],"x":["ไหม"],"xr":["mǎi"]}
+{"id":"mai.13","lesson":"mai","t":"type","a":["เผ็ด ไหม คะ","เผ็ด ไหม","phèt mǎi khá","phèt mǎi"],"x":["ค่ะ"],"xr":["khâ"]}
+{"id":"mai.14","lesson":"mai","t":"type","a":["ชอบ ครับ","ชอบ","châawp khráp","châawp"],"x":["ใช่"],"xr":["châi"]}
+{"id":"clusters.01","lesson":"clusters","t":"mc","o":[null,null,null,null]}
+{"id":"clusters.02","lesson":"clusters","t":"mc","o":["ใกล้","ไกล","ไก่","ใคร"]}
+{"id":"clusters.03","lesson":"clusters","t":"mc","o":["ปลา","สบาย","หมา","อยู่"]}
+{"id":"clusters.04","lesson":"clusters","t":"mc","o":[null,null,null,null]}
+{"id":"clusters.05","lesson":"clusters","t":"mc","o":[null,null,null,null]}
+{"id":"clusters.06","lesson":"clusters","t":"order","a":["อยู่","ใกล้","ตลาด"],"x":["ไกล"]}
+{"id":"clusters.07","lesson":"clusters","t":"order","a":["หมา","ตัว","ใหญ่"],"x":["ม้า"]}
+{"id":"clusters.08","lesson":"clusters","t":"order","a":["ห้องน้ำ","อยู่","ที่ไหน"],"x":["ไหม"]}
+{"id":"clusters.09","lesson":"clusters","t":"fill","q":"บ้านอยู่__ตลาด","o":["ไกล","ไก่","ใคร"],"a":["ใกล้","glâi"],"xr":["glai","gài","khrai"]}
+{"id":"clusters.10","lesson":"clusters","t":"fill","q":"เลี้ยว__","o":["ซ้าย","ขาว","ข้าว"],"a":["ขวา","khwǎa"],"xr":["sáai","khǎao","khâao"]}
+{"id":"clusters.11","lesson":"clusters","t":"fill","q":"__ไป","o":["ตลาด","ใกล้","ไกล"],"a":["ตรง","dtrong"],"xr":["dtà-làat","glâi","glai"]}
+{"id":"clusters.12","lesson":"clusters","t":"type","a":["ไม่ ไกล","ไม่ ไกล ครับ","ไม่ ไกล ค่ะ","mâi glai","mâi glai khráp","mâi glai khâ"],"x":["ใกล้"],"xr":["glâi"]}
+{"id":"clusters.13","lesson":"clusters","t":"type","a":["หมา ตัว ใหญ่","หมา ใหญ่","mǎa dtuua yài","mǎa yài"],"x":["ม้า"],"xr":["máa"]}
+{"id":"clusters.14","lesson":"clusters","t":"type","a":["เลี้ยว ขวา","เลี้ยว ขวา ครับ","เลี้ยว ขวา ค่ะ","líiao khwǎa","líiao khwǎa khráp","líiao khwǎa khâ"],"x":["ซ้าย"],"xr":["sáai"]}
+{"id":"question-words.01","lesson":"question-words","t":"mc","o":["คุณกินอะไร","อะไรคุณกิน","คุณกินอะไรไหม","อะไรกินคุณ"]}
+{"id":"question-words.02","lesson":"question-words","t":"mc","o":["ใหม่","ไม่","ไหม","ไม้"]}
+{"id":"question-words.03","lesson":"question-words","t":"mc","o":["ห้องน้ำอยู่ที่ไหน","ที่ไหนห้องน้ำอยู่","ห้องน้ำอยู่ที่ไหนไหม","ที่ไหนอยู่ห้องน้ำ"]}
+{"id":"question-words.04","lesson":"question-words","t":"mc","o":["ราคาเท่าไร","เท่าไรราคา","ราคาเท่าไรไหม","ราคาไหม"]}
+{"id":"question-words.05","lesson":"question-words","t":"mc","o":["มีกี่คน","กี่มีคน","มีคนกี่","มีกี่ไหม"]}
+{"id":"question-words.06","lesson":"question-words","t":"order","a":["คุณ","ชื่อ","อะไร"],"x":["ไหม"]}
+{"id":"question-words.07","lesson":"question-words","t":"order","a":["มี","แมว","กี่","ตัว"],"x":["คน"]}
+{"id":"question-words.08","lesson":"question-words","t":"order","a":["เสื้อ","ตัว","ไหน"],"x":["คน"]}
+{"id":"question-words.09","lesson":"question-words","t":"fill","q":"คุณกิน__","o":["ใคร","ที่ไหน","ไหม"],"a":["อะไร","à-rai"],"xr":["khrai","thîi-nǎi","mǎi"]}
+{"id":"question-words.10","lesson":"question-words","t":"fill","q":"ห้องน้ำอยู่__","o":["อะไร","ใคร","ไหม"],"a":["ที่ไหน","ไหน","thîi-nǎi","nǎi"],"xr":["à-rai","khrai","mǎi"]}
+{"id":"question-words.11","lesson":"question-words","t":"fill","q":"ราคา__","o":["อะไร","กี่","ไหม"],"a":["เท่าไร","เท่าไหร่","thâo-rai","thâo-rài"],"xr":["à-rai","gìi","mǎi"]}
+{"id":"question-words.12","lesson":"question-words","t":"type","a":["มี กี่ คน","มี กี่ คน ครับ","มี กี่ คน คะ","mii gìi khon","mii gìi khon khráp","mii gìi khon khá"],"x":["ตัว"],"xr":["dtuua"]}
+{"id":"question-words.13","lesson":"question-words","t":"type","a":["หนังสือ เล่ม ไหน","หนังสือ เล่ม ไหน ครับ","หนังสือ เล่ม ไหน คะ","nǎng-sǔue lêm nǎi","nǎng-sǔue lêm nǎi khráp","nǎng-sǔue lêm nǎi khá"],"x":["ตัว"],"xr":["dtuua"]}
+{"id":"question-words.14","lesson":"question-words","t":"type","a":["คุณ กิน อะไร","กิน อะไร","คุณ กิน อะไร ครับ","กิน อะไร ครับ","คุณ กิน อะไร คะ","กิน อะไร คะ","khun gin à-rai","gin à-rai","khun gin à-rai khráp","gin à-rai khráp","khun gin à-rai khá","gin à-rai khá"],"x":["ไหม"],"xr":["mǎi"]}
+{"id":"special.01","lesson":"special","t":"mc","o":[null,null,null,null]}
+{"id":"special.02","lesson":"special","t":"mc","o":["น้ำ","นา","น่า","หน้า"]}
+{"id":"special.03","lesson":"special","t":"mc","o":[null,null,null,null]}
+{"id":"special.04","lesson":"special","t":"mc","o":[null,null,null,null]}
+{"id":"special.05","lesson":"special","t":"mc","o":["เล่น","น้ำ","ได้","เก้า"]}
+{"id":"special.06","lesson":"special","t":"order","a":["น้ำ","สอง","ขวด"],"x":["ขวบ"]}
+{"id":"special.07","lesson":"special","t":"order","a":["น้ำ","เก้า","แก้ว"],"x":["เก่า"]}
+{"id":"special.08","lesson":"special","t":"order","a":["จริง","ไหม"],"x":["ไม่"]}
+{"id":"special.09","lesson":"special","t":"fill","q":"เบียร์สอง__","o":["ขวบ","คน","เล่ม"],"a":["ขวด","khùuat"],"xr":["khùuap","khon","lêm"]}
+{"id":"special.10","lesson":"special","t":"fill","q":"__สองแก้ว","o":["นา","น่า","หน้า"],"a":["น้ำ","náam"],"xr":["naa","nâa"]}
+{"id":"special.11","lesson":"special","t":"fill","q":"ชา__","o":["เห็น","เล่น","เงิน"],"a":["เย็น","yen"],"xr":["hěn","lên","ngoen"]}
+{"id":"special.12","lesson":"special","t":"type","a":["น้ำ สอง แก้ว","náam sǎawng gâaeo"],"x":["ขวด"],"hint":{"th":"น้ำ · สอง","sep":" · "},"xr":["khùuat"]}
+{"id":"special.13","lesson":"special","t":"type","a":["เบียร์ สอง ขวด","biia sǎawng khùuat"],"x":["ขวบ"],"hint":{"th":"เบียร์ · สอง","sep":" · "},"xr":["khùuap"]}
+{"id":"special.14","lesson":"special","t":"type","a":["จริง ไหม","จริง ไหม ครับ","จริง ไหม คะ","jing mǎi","jing mǎi khráp","jing mǎi khá"],"x":["ไม่"],"hint":{"th":"จริง · ไหม"},"xr":["mâi"]}
+{"id":"food.01","lesson":"food","t":"mc","o":["ขอผัดไทยสองจานครับ","ขอสองจานผัดไทยครับ","ขอผัดไทยสองตัวครับ","ขอผัดไทยสองจานคะ"]}
+{"id":"food.02","lesson":"food","t":"mc","o":["ข้าว","ขาว","เข้า","ข่าว"]}
+{"id":"food.03","lesson":"food","t":"mc","o":["เผ็ด","ร้อน","หวาน","เค็ม"]}
+{"id":"food.04","lesson":"food","t":"mc","o":["เช็คบิลด้วย","ขอบคุณ","ไม่เป็นไร","ห่อกลับบ้าน"]}
+{"id":"food.05","lesson":"food","t":"mc","o":["น้องคะ","น้องครับ","น้องค่ะ","น้องไหม"]}
+{"id":"food.06","lesson":"food","t":"order","a":["กาแฟ","เย็น","สอง","แก้ว"],"x":["ขวด"]}
+{"id":"food.07","lesson":"food","t":"order","a":["ไม่","เผ็ด","ค่ะ"],"x":["คะ"]}
+{"id":"food.08","lesson":"food","t":"order","a":["ขอ","ข้าวผัด","สอง","จาน","ครับ"],"x":["แก้ว"]}
+{"id":"food.09","lesson":"food","t":"fill","q":"ขอกาแฟสอง__ค่ะ","o":["จาน","ตัว","เล่ม"],"a":["แก้ว","ถ้วย","gâaeo","thûuai"],"xr":["jaan","dtuua","lêm"]}
+{"id":"food.10","lesson":"food","t":"fill","q":"อาหารไม่__","o":["ร้อน","เต็ม","เป็ด"],"a":["เผ็ด","phèt"],"xr":["ráawn","dtem","bpèt"]}
+{"id":"food.11","lesson":"food","t":"fill","q":"__กลับบ้านครับ","o":["ขอ","หา","ห้า"],"a":["ห่อ","hàaw"],"xr":["khǎaw","hǎa","hâa"]}
+{"id":"food.12","lesson":"food","t":"type","a":["ขอ ผัดไทย สอง จาน ค่ะ","ขอ ผัดไทย สอง จาน","เอา ผัดไทย สอง จาน ค่ะ","เอา ผัดไทย สอง จาน","khǎaw phàt-thai sǎawng jaan khâ","khǎaw phàt-thai sǎawng jaan","ao phàt-thai sǎawng jaan khâ","ao phàt-thai sǎawng jaan"],"x":["แก้ว"],"hint":{"th":"ขอ · ผัดไทย · สอง","sep":" · "},"xr":["gâaeo"]}
+{"id":"food.13","lesson":"food","t":"type","a":["ไม่ เผ็ด ครับ","ไม่ เผ็ด","ไม่ เผ็ด นะ ครับ","ไม่ เผ็ด นะ","mâi phèt khráp","mâi phèt","mâi phèt ná khráp","mâi phèt ná"],"x":["ไหม"],"hint":{"th":"ไม่ · เผ็ด · ครับ"},"xr":["mǎi"]}
+{"id":"food.14","lesson":"food","t":"type","a":["ขอ ชาเย็น สอง แก้ว ครับ","ขอ ชาเย็น สอง แก้ว","เอา ชาเย็น สอง แก้ว ครับ","เอา ชาเย็น สอง แก้ว","khǎaw chaa-yen sǎawng gâaeo khráp","khǎaw chaa-yen sǎawng gâaeo","ao chaa-yen sǎawng gâaeo khráp","ao chaa-yen sǎawng gâaeo"],"x":["ขวด"],"hint":{"th":"ขอ · ชาเย็น · สอง","sep":" · "},"xr":["khùuat"]}
+{"id":"family.01","lesson":"family","t":"mc","o":["พี่สาวผม","ผมพี่สาว","น้องสาวผม","สาวพี่ผม"]}
+{"id":"family.02","lesson":"family","t":"mc","o":["พี่","ผี","ปี","พี"]}
+{"id":"family.03","lesson":"family","t":"mc","o":["ฉันอายุสามสิบปี","ฉันเป็นอายุสามสิบปี","ฉันสามสิบปีอายุ","ฉันอายุปีสามสิบ"]}
+{"id":"family.04","lesson":"family","t":"mc","o":["คุณทำงานอะไร","อะไรคุณทำงาน","คุณทำงานไหม","คุณเป็นอะไร"]}
+{"id":"family.05","lesson":"family","t":"mc","o":["น้องชาย","พี่ชาย","น้องสาว","ลูกชาย"]}
+{"id":"family.06","lesson":"family","t":"order","a":["น้องสาว","สอง","คน"],"x":["ตัว"]}
+{"id":"family.07","lesson":"family","t":"order","a":["ลูก","สาม","คน"],"x":["ตัว"]}
+{"id":"family.08","lesson":"family","t":"order","a":["พี่ชาย","เป็น","ครู"],"x":["อยู่"]}
+{"id":"family.09","lesson":"family","t":"fill","q":"ผม__สามสิบปี","o":["เป็น","มี","คือ"],"a":["อายุ","aa-yú"],"xr":["bpen","mii","khuue"]}
+{"id":"family.10","lesson":"family","t":"fill","q":"แม่ผม__หมอ","o":["อยู่","มี","อายุ"],"a":["เป็น","bpen"],"xr":["yùu","mii","aa-yú"]}
+{"id":"family.11","lesson":"family","t":"fill","q":"คุณมีพี่น้องกี่__","o":["ตัว","เล่ม","คัน"],"a":["คน","khon"],"xr":["dtuua","lêm","khan"]}
+{"id":"family.12","lesson":"family","t":"type","a":["พี่ชาย สอง คน","phîi-chaai sǎawng khon"],"x":["ตัว"],"hint":{"th":"พี่ชาย · สอง","sep":" · "},"xr":["dtuua"]}
+{"id":"family.13","lesson":"family","t":"type","a":["น้องสาว ฉัน","น้องสาว ของ ฉัน","náawng-sǎao chǎn","náawng-sǎao khǎawng chǎn"],"x":["ผม"],"hint":{"th":"น้องสาว · ฉัน"},"xr":["phǒm"]}
+{"id":"family.14","lesson":"family","t":"type","a":["ผม อายุ สามสิบ ปี ครับ","ผม อายุ สามสิบ ปี","อายุ สามสิบ ปี ครับ","อายุ สามสิบ ปี","ผม อายุ สามสิบ ครับ","ผม อายุ สามสิบ","อายุ สามสิบ ครับ","อายุ สามสิบ","phǒm aa-yú sǎam-sìp bpii khráp","phǒm aa-yú sǎam-sìp bpii","aa-yú sǎam-sìp bpii khráp","aa-yú sǎam-sìp bpii","phǒm aa-yú sǎam-sìp khráp","phǒm aa-yú sǎam-sìp","aa-yú sǎam-sìp khráp","aa-yú sǎam-sìp"],"x":["เป็น"],"hint":{"th":"อายุ · สามสิบ · ปี"},"xr":["bpen"]}
+{"id":"compare.01","lesson":"compare","t":"mc","o":["บ้านใหญ่","ใหญ่บ้าน","บ้านเป็นใหญ่","บ้านมากใหญ่"]}
+{"id":"compare.02","lesson":"compare","t":"mc","o":["สวยมาก","มากสวย","เป็นสวยมาก","ที่สุดสวย"]}
+{"id":"compare.03","lesson":"compare","t":"mc","o":["ถูกกว่าร้านนั้น","มากกว่าถูกร้านนั้น","กว่าถูกร้านนั้น","ถูกที่สุดร้านนั้น"]}
+{"id":"compare.04","lesson":"compare","t":"mc","o":["อร่อยที่สุด","ที่สุดอร่อย","มากอร่อย","อร่อยกว่า"]}
+{"id":"compare.05","lesson":"compare","t":"mc","o":["ไกล","ใกล้","ไก่","ไข่"]}
+{"id":"compare.06","lesson":"compare","t":"order","a":["เสื้อ","ตัว","นี้","แพง","กว่า"],"x":["นี่"]}
+{"id":"compare.07","lesson":"compare","t":"order","a":["หนังสือ","เล่ม","นี้","ดี","กว่า"],"x":["ตัว"]}
+{"id":"compare.08","lesson":"compare","t":"order","a":["ตลาด","ใกล้","กว่า"],"x":["ไกล"]}
+{"id":"compare.09","lesson":"compare","t":"fill","q":"ร้านนี้ถูก__","o":["มาก","ที่สุด","เท่ากัน"],"a":["กว่า","gwàa"],"xr":["mâak","thîi-sùt","thâo-gan"]}
+{"id":"compare.10","lesson":"compare","t":"fill","q":"ร้านนี้อร่อย__","o":["กว่า","มาก","เท่ากัน"],"a":["ที่สุด","thîi-sùt"],"xr":["gwàa","mâak","thâo-gan"]}
+{"id":"compare.11","lesson":"compare","t":"fill","q":"เสื้อสองตัวนี้ราคา__","o":["กว่า","ที่สุด","มาก"],"a":["เท่ากัน","thâo-gan"],"xr":["gwàa","thîi-sùt","mâak"]}
+{"id":"compare.12","lesson":"compare","t":"type","a":["เสื้อ สี แดง ตัว นี้","sûuea sǐi daaeng dtuua níi"],"x":["นี่"],"hint":{"th":"เสื้อ · สี · แดง · ตัว · นี้","sep":" · "},"xr":["nîi"]}
+{"id":"compare.13","lesson":"compare","t":"type","a":["รถ คัน นี้ แพง ที่สุด","รถ คัน นี้ แพง ที่สุด ครับ","รถ คัน นี้ แพง ที่สุด ค่ะ","rót khan níi phaaeng thîi-sùt","rót khan níi phaaeng thîi-sùt khráp","rót khan níi phaaeng thîi-sùt khâ"],"x":["ตัว"],"hint":{"th":"รถ · คัน · นี้ · แพง · ที่สุด"},"xr":["dtuua"]}
+{"id":"compare.14","lesson":"compare","t":"type","a":["อาหาร อร่อย มาก","อาหาร อร่อย มาก ครับ","อาหาร อร่อย มาก ค่ะ","aa-hǎan à-ràwi mâak","aa-hǎan à-ràwi mâak khráp","aa-hǎan à-ràwi mâak khâ"],"x":["เป็น"],"hint":{"th":"อาหาร · อร่อย · มาก"},"xr":["bpen"]}
+{"id":"time.01","lesson":"time","t":"mc","o":["บ่ายสองโมง","สองโมงเช้า","ตีสอง","สองทุ่ม"]}
+{"id":"time.02","lesson":"time","t":"mc","o":[null,null,null,null]}
+{"id":"time.03","lesson":"time","t":"mc","o":["เที่ยงคืน","เที่ยง","ตีหนึ่ง","หนึ่งทุ่ม"]}
+{"id":"time.04","lesson":"time","t":"mc","o":[null,null,null,null]}
+{"id":"time.05","lesson":"time","t":"mc","o":["เก้า","เก่า","ข้าว","เข้า"]}
+{"id":"time.06","lesson":"time","t":"order","a":["เก้า","โมง","เช้า"],"x":["เก่า"]}
+{"id":"time.07","lesson":"time","t":"order","a":["ห้า","โมง","เย็น"],"x":["หา"]}
+{"id":"time.08","lesson":"time","t":"order","a":["บ่าย","สาม","โมง","ครึ่ง"],"x":["ทุ่ม"]}
+{"id":"time.09","lesson":"time","t":"fill","q":"ตอนนี้__โมง","o":["อะไร","ไหน","เท่าไร"],"a":["กี่","gìi"],"xr":["à-rai","nǎi","thâo-rai"]}
+{"id":"time.10","lesson":"time","t":"fill","q":"บ่ายสอง__","o":["ทุ่ม","ตี","เช้า"],"a":["โมง","moong"],"xr":["thûm","dtii","cháao"]}
+{"id":"time.11","lesson":"time","t":"fill","q":"สอง__","o":["โมง","ตี","เที่ยง"],"a":["ทุ่ม","thûm"],"xr":["moong","dtii","thîiang"]}
+{"id":"time.12","lesson":"time","t":"type","a":["เก้า โมง เช้า","เก้า โมง","gâao moong cháao","gâao moong"],"x":["เก่า"],"hint":{"th":"เก้า · โมง · เช้า"},"xr":["gào"]}
+{"id":"time.13","lesson":"time","t":"type","a":["ฉัน ตื่น ตี ห้า","ฉัน ตื่น ตี ห้า ค่ะ","ตื่น ตี ห้า","ตื่น ตี ห้า ค่ะ","ฉัน ตื่น ตอน ตี ห้า","ฉัน ตื่น ตอน ตี ห้า ค่ะ","ตื่น ตอน ตี ห้า","ตื่น ตอน ตี ห้า ค่ะ","chǎn dtùuen dtii hâa","chǎn dtùuen dtii hâa khâ","dtùuen dtii hâa","dtùuen dtii hâa khâ","chǎn dtùuen dtaawn dtii hâa","chǎn dtùuen dtaawn dtii hâa khâ","dtùuen dtaawn dtii hâa","dtùuen dtaawn dtii hâa khâ"],"x":["หา"],"hint":{"th":"ฉัน · ตื่น · ตี · ห้า","sep":" · "},"xr":["hǎa"]}
+{"id":"time.14","lesson":"time","t":"type","a":["วันเสาร์ ผม ไม่ ทำงาน","วันเสาร์ ผม ไม่ ทำงาน ครับ","วันเสาร์ ไม่ ทำงาน","วันเสาร์ ไม่ ทำงาน ครับ","ผม ไม่ ทำงาน วันเสาร์","ผม ไม่ ทำงาน วันเสาร์ ครับ","ไม่ ทำงาน วันเสาร์","ไม่ ทำงาน วันเสาร์ ครับ","wan-sǎo phǒm mâi tham-ngaan","wan-sǎo phǒm mâi tham-ngaan khráp","wan-sǎo mâi tham-ngaan","wan-sǎo mâi tham-ngaan khráp","phǒm mâi tham-ngaan wan-sǎo","phǒm mâi tham-ngaan wan-sǎo khráp","mâi tham-ngaan wan-sǎo","mâi tham-ngaan wan-sǎo khráp"],"x":["ไหม"],"hint":{"th":"วันเสาร์ · ผม · ไม่ · ทำงาน","sep":" · "},"xr":["mǎi"]}
+{"id":"time-words.01","lesson":"time-words","t":"mc","o":["จะไป","ไปจะ","ไปแล้ว","กำลังไป"]}
+{"id":"time-words.02","lesson":"time-words","t":"mc","o":["กินแล้ว","ใช่","ยัง","ไม่เคย"]}
+{"id":"time-words.03","lesson":"time-words","t":"mc","o":["เมื่อวานผมไปตลาด","เมื่อวานผมจะไปตลาด","เมื่อวานผมไปแล้วตลาด","เมื่อวานผมเคยตลาด"]}
+{"id":"time-words.04","lesson":"time-words","t":"mc","o":["เคยไปภูเก็ตไหม","ไปภูเก็ตเคยไหม","เคยไหมไปภูเก็ต","ไปแล้วภูเก็ตไหม"]}
+{"id":"time-words.05","lesson":"time-words","t":"mc","o":["ข้าว","ขาว","เข้า","เขา"]}
+{"id":"time-words.06","lesson":"time-words","t":"order","a":["กิน","ข้าว","แล้ว"],"x":["เข้า"]}
+{"id":"time-words.07","lesson":"time-words","t":"order","a":["เขา","กำลัง","กิน","ข้าว"],"x":["ขาว"]}
+{"id":"time-words.08","lesson":"time-words","t":"order","a":["เขา","ยัง","ไม่","มา"],"x":["แล้ว"]}
+{"id":"time-words.09","lesson":"time-words","t":"fill","q":"ผม__ไปภูเก็ตเดือนหน้า","o":["แล้ว","เคย","อยู่"],"a":["จะ","jà"],"xr":["láaeo","khooei","yùu"]}
+{"id":"time-words.10","lesson":"time-words","t":"fill","q":"เขากำลังกินข้าว__","o":["แล้ว","จะ","เคย"],"a":["อยู่","yùu"],"xr":["láaeo","jà","khooei"]}
+{"id":"time-words.11","lesson":"time-words","t":"fill","q":"คุณ__ไปเชียงใหม่ไหม","o":["แล้ว","อยู่","จะ"],"a":["เคย","khooei"],"xr":["láaeo","yùu","jà"]}
+{"id":"time-words.12","lesson":"time-words","t":"type","a":["กิน ข้าว แล้ว ครับ","กิน ข้าว แล้ว","ผม กิน ข้าว แล้ว ครับ","ผม กิน ข้าว แล้ว","กิน แล้ว ครับ","กิน แล้ว","ผม กิน แล้ว ครับ","ผม กิน แล้ว","gin khâao láaeo khráp","gin khâao láaeo","phǒm gin khâao láaeo khráp","phǒm gin khâao láaeo","gin láaeo khráp","gin láaeo","phǒm gin láaeo khráp","phǒm gin láaeo"],"x":["เข้า"],"hint":{"th":"กิน · ข้าว · แล้ว · ครับ"},"xr":["khâo"]}
+{"id":"time-words.13","lesson":"time-words","t":"type","a":["กิน ข้าว หรือยัง คะ","กิน ข้าว หรือยัง","คุณ กิน ข้าว หรือยัง คะ","คุณ กิน ข้าว หรือยัง","gin khâao rǔue-yang khá","gin khâao rǔue-yang","khun gin khâao rǔue-yang khá","khun gin khâao rǔue-yang"],"x":["ค่ะ"],"hint":{"th":"กิน · ข้าว · หรือยัง","sep":" · "},"xr":["khâ"]}
+{"id":"time-words.14","lesson":"time-words","t":"type","a":["เคย ไป ภูเก็ต ไหม","เคย ไป ภูเก็ต ไหม ครับ","เคย ไป ภูเก็ต ไหม คะ","คุณ เคย ไป ภูเก็ต ไหม","คุณ เคย ไป ภูเก็ต ไหม ครับ","คุณ เคย ไป ภูเก็ต ไหม คะ","khooei bpai phuu-gèt mǎi","khooei bpai phuu-gèt mǎi khráp","khooei bpai phuu-gèt mǎi khá","khun khooei bpai phuu-gèt mǎi","khun khooei bpai phuu-gèt mǎi khráp","khun khooei bpai phuu-gèt mǎi khá"],"x":["จะ"],"hint":{"th":"เคย · ไป · ภูเก็ต · ไหม"},"xr":["jà"]}
+{"id":"can-want.01","lesson":"can-want","t":"mc","o":["พูดภาษาไทยได้","ได้พูดภาษาไทย","ได้ไหมพูดภาษาไทย","อยากภาษาไทย"]}
+{"id":"can-want.02","lesson":"can-want","t":"mc","o":["อยากไปทะเล","อยากทะเล","ไปอยากทะเล","ได้ไปทะเล"]}
+{"id":"can-want.03","lesson":"can-want","t":"mc","o":["อยากได้กระเป๋าใบนี้","อยากกระเป๋าใบนี้","ได้อยากกระเป๋าใบนี้","อยากได้นี้กระเป๋า"]}
+{"id":"can-want.04","lesson":"can-want","t":"mc","o":["ต้องไปแล้ว","ไปต้องแล้ว","อยากไปแล้ว","ไปได้แล้ว"]}
+{"id":"can-want.05","lesson":"can-want","t":"mc","o":["ไหม","ไม่","ใหม่","ไม้"]}
+{"id":"can-want.06","lesson":"can-want","t":"order","a":["ไป","ไม่","ได้"],"x":["ใหม่"]}
+{"id":"can-want.07","lesson":"can-want","t":"order","a":["รอ","ที่นี่","ได้","ไหม"],"x":["ไม่"]}
+{"id":"can-want.08","lesson":"can-want","t":"order","a":["อยาก","ได้","กระเป๋า","ใบ","นี้"],"x":["ตัว"]}
+{"id":"can-want.09","lesson":"can-want","t":"fill","q":"ผมพูดภาษาไทย__","o":["อยาก","ต้อง","เป็น"],"a":["ได้","dâai"],"xr":["yàak","dtâwng","bpen"]}
+{"id":"can-want.10","lesson":"can-want","t":"fill","q":"ฉัน__ไปทะเล","o":["ได้","เป็น","มี"],"a":["อยาก","yàak"],"xr":["dâai","bpen","mii"]}
+{"id":"can-want.11","lesson":"can-want","t":"fill","q":"พรุ่งนี้ผม__ทำงาน","o":["เป็น","ไหม","ได้"],"a":["ต้อง","dtâwng"],"xr":["bpen","mǎi","dâai"]}
+{"id":"can-want.12","lesson":"can-want","t":"type","a":["ฉัน ขับรถ ไม่ ได้ ค่ะ","ฉัน ขับรถ ไม่ ได้","ขับรถ ไม่ ได้ ค่ะ","ขับรถ ไม่ ได้","ฉัน ขับรถ ไม่ เป็น ค่ะ","ฉัน ขับรถ ไม่ เป็น","ขับรถ ไม่ เป็น ค่ะ","ขับรถ ไม่ เป็น","chǎn khàp-rót mâi dâai khâ","chǎn khàp-rót mâi dâai","khàp-rót mâi dâai khâ","khàp-rót mâi dâai","chǎn khàp-rót mâi bpen khâ","chǎn khàp-rót mâi bpen","khàp-rót mâi bpen khâ","khàp-rót mâi bpen"],"x":["ใหม่"],"hint":{"th":"ฉัน · ขับรถ · ไม่ · ได้ · ค่ะ"},"xr":["mài"]}
+{"id":"can-want.13","lesson":"can-want","t":"type","a":["อยาก ได้ ตั๋ว สอง ใบ","อยาก ได้ ตั๋ว สอง ใบ ครับ","อยาก ได้ ตั๋ว สอง ใบ ค่ะ","yàak dâai dtǔua sǎawng bai","yàak dâai dtǔua sǎawng bai khráp","yàak dâai dtǔua sǎawng bai khâ"],"x":["คน"],"hint":{"th":"อยาก · ได้ · ตั๋ว · สอง · ใบ"},"xr":["khon"]}
+{"id":"can-want.14","lesson":"can-want","t":"type","a":["พูด ภาษา อังกฤษ ได้ ไหม","พูด ภาษา อังกฤษ ได้ ไหม ครับ","พูด ภาษา อังกฤษ ได้ ไหม คะ","คุณ พูด ภาษา อังกฤษ ได้ ไหม","คุณ พูด ภาษา อังกฤษ ได้ ไหม ครับ","คุณ พูด ภาษา อังกฤษ ได้ ไหม คะ","phûut phaa-sǎa ang-grìt dâai mǎi","phûut phaa-sǎa ang-grìt dâai mǎi khráp","phûut phaa-sǎa ang-grìt dâai mǎi khá","khun phûut phaa-sǎa ang-grìt dâai mǎi","khun phûut phaa-sǎa ang-grìt dâai mǎi khráp","khun phûut phaa-sǎa ang-grìt dâai mǎi khá"],"x":["ไม่"],"hint":{"th":"พูด · ภาษา · อังกฤษ · ได้ไหม"},"xr":["mâi"]}
+{"id":"requests.01","lesson":"requests","t":"mc","o":["ขอน้ำหน่อย","น้ำขอหน่อย","ช่วยน้ำหน่อย","หน่อยขอน้ำ"]}
+{"id":"requests.02","lesson":"requests","t":"mc","o":["ช่วยพูดช้าๆหน่อย","ขอพูดช้าๆหน่อย","พูดช้าๆช่วย","หน่อยช่วยพูดช้าๆ"]}
+{"id":"requests.03","lesson":"requests","t":"mc","o":["อย่า","ไม่","ยัง","ต้อง"]}
+{"id":"requests.04","lesson":"requests","t":"mc","o":[null,null,null,null]}
+{"id":"requests.05","lesson":"requests","t":"mc","o":["น้ำ","นา","หน้า","น่า"]}
+{"id":"requests.06","lesson":"requests","t":"order","a":["ขอ","ดู","หน่อย"],"x":["ดุ"]}
+{"id":"requests.07","lesson":"requests","t":"order","a":["ขอ","น้ำ","สอง","แก้ว"],"x":["ขวด"]}
+{"id":"requests.08","lesson":"requests","t":"order","a":["อย่า","ลืม","นะ"],"x":["ไม่"]}
+{"id":"requests.09","lesson":"requests","t":"fill","q":"ขอน้ำ__","o":["ไหม","ช่วย","อย่า"],"a":["หน่อย","ด้วย","nàwi","dûuai"],"xr":["mǎi","chûuai","yàa"]}
+{"id":"requests.10","lesson":"requests","t":"fill","q":"__พูดช้าๆหน่อย","o":["ขอ","อย่า","เชิญ"],"a":["ช่วย","chûuai"],"xr":["khǎaw","yàa","chooen"]}
+{"id":"requests.11","lesson":"requests","t":"fill","q":"__ลืมนะ","o":["ไม่","ช่วย","ขอ"],"a":["อย่า","yàa"],"xr":["mâi","chûuai","khǎaw"]}
+{"id":"requests.12","lesson":"requests","t":"type","a":["ขอ น้ำ สอง ขวด หน่อย ครับ","ขอ น้ำ สอง ขวด หน่อย","ขอ น้ำ สอง ขวด ด้วย ครับ","ขอ น้ำ สอง ขวด ด้วย","ขอ น้ำ สอง ขวด ครับ","ขอ น้ำ สอง ขวด","ขอ น้ำเปล่า สอง ขวด หน่อย ครับ","ขอ น้ำเปล่า สอง ขวด หน่อย","ขอ น้ำเปล่า สอง ขวด ด้วย ครับ","ขอ น้ำเปล่า สอง ขวด ด้วย","ขอ น้ำเปล่า สอง ขวด ครับ","ขอ น้ำเปล่า สอง ขวด","khǎaw náam sǎawng khùuat nàwi khráp","khǎaw náam sǎawng khùuat nàwi","khǎaw náam sǎawng khùuat dûuai khráp","khǎaw náam sǎawng khùuat dûuai","khǎaw náam sǎawng khùuat khráp","khǎaw náam sǎawng khùuat","khǎaw nám-bplàao sǎawng khùuat nàwi khráp","khǎaw nám-bplàao sǎawng khùuat nàwi","khǎaw nám-bplàao sǎawng khùuat dûuai khráp","khǎaw nám-bplàao sǎawng khùuat dûuai","khǎaw nám-bplàao sǎawng khùuat khráp","khǎaw nám-bplàao sǎawng khùuat"],"x":["แก้ว"],"hint":{"th":"ขอ · น้ำ · สอง · ขวด · หน่อย · ครับ"},"xr":["gâaeo"]}
+{"id":"requests.13","lesson":"requests","t":"type","a":["ขอ ข้าว หน่อย ครับ","ขอ ข้าว หน่อย","ขอ ข้าว ด้วย ครับ","ขอ ข้าว ด้วย","ขอ ข้าว ครับ","ขอ ข้าว","khǎaw khâao nàwi khráp","khǎaw khâao nàwi","khǎaw khâao dûuai khráp","khǎaw khâao dûuai","khǎaw khâao khráp","khǎaw khâao"],"x":["ขาว"],"hint":{"th":"ขอ · ข้าว · หน่อย · ครับ"},"xr":["khǎao"]}
+{"id":"requests.14","lesson":"requests","t":"type","a":["ช่วย เปิด แอร์ หน่อย ได้ ไหม คะ","ช่วย เปิด แอร์ หน่อย ได้ ไหม","ช่วย เปิด แอร์ หน่อย ค่ะ","ช่วย เปิด แอร์ หน่อย","ช่วย เปิด แอร์ ได้ ไหม คะ","ช่วย เปิด แอร์ ได้ ไหม","เปิด แอร์ หน่อย ได้ ไหม คะ","เปิด แอร์ หน่อย ได้ ไหม","เปิด แอร์ ได้ ไหม คะ","เปิด แอร์ ได้ ไหม","chûuai bpòoet aae nàwi dâai mǎi khá","chûuai bpòoet aae nàwi dâai mǎi","chûuai bpòoet aae nàwi khâ","chûuai bpòoet aae nàwi","chûuai bpòoet aae dâai mǎi khá","chûuai bpòoet aae dâai mǎi","bpòoet aae nàwi dâai mǎi khá","bpòoet aae nàwi dâai mǎi","bpòoet aae dâai mǎi khá","bpòoet aae dâai mǎi"],"x":["ปิด"],"hint":{"th":"ช่วย · เปิด · แอร์ · หน่อย · ได้ไหม · คะ"},"xr":["bpìt"]}
+{"id":"directions.01","lesson":"directions","t":"mc","o":["ห้องน้ำอยู่ที่ไหน","ที่ไหนห้องน้ำ","ห้องน้ำที่ไหนอยู่","อยู่ที่ไหนห้องน้ำไหม"]}
+{"id":"directions.02","lesson":"directions","t":"mc","o":["ไปตลาด","ตลาดไป","ไปกับตลาด","ไปให้ตลาด"]}
+{"id":"directions.03","lesson":"directions","t":"mc","o":[null,null,null,null]}
+{"id":"directions.04","lesson":"directions","t":"mc","o":["อยู่ตรงข้ามโรงแรม","อยู่โรงแรมตรงข้าม","ตรงข้ามอยู่โรงแรม","เป็นตรงข้ามโรงแรม"]}
+{"id":"directions.05","lesson":"directions","t":"mc","o":["ใกล้","ไกล","ไก่","ไข่"]}
+{"id":"directions.06","lesson":"directions","t":"order","a":["ไกล","ไหม"],"x":["ใกล้"]}
+{"id":"directions.07","lesson":"directions","t":"order","a":["ธนาคาร","อยู่","ใกล้","ตลาด"],"x":["ไกล"]}
+{"id":"directions.08","lesson":"directions","t":"order","a":["โรงแรม","นี้","อยู่","ที่ไหน"],"x":["นี่"]}
+{"id":"directions.09","lesson":"directions","t":"fill","q":"ห้องน้ำอยู่__","o":["อะไร","ใคร","เท่าไร"],"a":["ที่ไหน","thîi-nǎi"],"xr":["à-rai","khrai","thâo-rai"]}
+{"id":"directions.10","lesson":"directions","t":"fill","q":"เลี้ยว__ที่ไฟแดง","o":["ซ้าย","ตรง","ไกล"],"a":["ขวา","khwǎa"],"xr":["sáai","dtrong","glai"]}
+{"id":"directions.11","lesson":"directions","t":"fill","q":"__ตรงนี้","o":["ซ้าย","ขวา","ไกล"],"a":["จอด","jàawt"],"xr":["sáai","khwǎa","glai"]}
+{"id":"directions.12","lesson":"directions","t":"type","a":["ใกล้ ไหม คะ","ใกล้ ไหม","อยู่ ใกล้ ไหม คะ","อยู่ ใกล้ ไหม","glâi mǎi khá","glâi mǎi","yùu glâi mǎi khá","yùu glâi mǎi"],"x":["ไกล"],"hint":{"th":"ใกล้ · ไหม","sep":" · "},"xr":["glai"]}
+{"id":"directions.13","lesson":"directions","t":"type","a":["โรงแรม อยู่ ไกล ครับ","โรงแรม อยู่ ไกล","โรงแรม ไกล ครับ","โรงแรม ไกล","roong-raaem yùu glai khráp","roong-raaem yùu glai","roong-raaem glai khráp","roong-raaem glai"],"x":["ใกล้"],"hint":{"th":"โรงแรม · อยู่ · ไกล · ครับ"},"xr":["glâi"]}
+{"id":"directions.14","lesson":"directions","t":"type","a":["ไป สนามบิน ค่ะ","ไป สนามบิน","ไป ที่ สนามบิน ค่ะ","ไป ที่ สนามบิน","bpai sà-nǎam-bin khâ","bpai sà-nǎam-bin","bpai thîi sà-nǎam-bin khâ","bpai thîi sà-nǎam-bin"],"x":["กับ"],"hint":{"th":"ไป · สนามบิน · ค่ะ","sep":" · "},"xr":["gàp"]}
+{"id":"shopping.01","lesson":"shopping","t":"mc","o":["เสื้อสีแดง","สีแดงเสื้อ","แดงสีเสื้อ","เสื้อแดงสี"]}
+{"id":"shopping.02","lesson":"shopping","t":"mc","o":["รองเท้าคู่นี้","รองเท้าตัวนี้","คู่นี้รองเท้า","นี้รองเท้าคู่"]}
+{"id":"shopping.03","lesson":"shopping","t":"mc","o":["แพงไป","ไปแพง","มากแพง","แพงกว่า"]}
+{"id":"shopping.04","lesson":"shopping","t":"mc","o":[null,null,null,null]}
+{"id":"shopping.05","lesson":"shopping","t":"mc","o":["ขาว","ข้าว","เขา","ข่าว"]}
+{"id":"shopping.06","lesson":"shopping","t":"order","a":["กระเป๋า","ใบ","นี้","ราคา","เท่าไร"],"x":["ตัว"]}
+{"id":"shopping.07","lesson":"shopping","t":"order","a":["กางเกง","สี","ดำ","ตัว","นี้"],"x":["คู่"]}
+{"id":"shopping.08","lesson":"shopping","t":"order","a":["เสื้อ","สี","ขาว"],"x":["ข้าว"]}
+{"id":"shopping.09","lesson":"shopping","t":"fill","q":"เสื้อตัวนี้ราคา__","o":["อะไร","ไหน","กี่"],"a":["เท่าไร","เท่าไหร่","thâo-rai","thâo-rài"],"xr":["à-rai","nǎi","gìi"]}
+{"id":"shopping.10","lesson":"shopping","t":"fill","q":"รองเท้า__นี้","o":["ตัว","ใบ","อัน"],"a":["คู่","khûu"],"xr":["dtuua","bai","an"]}
+{"id":"shopping.11","lesson":"shopping","t":"fill","q":"ใหญ่__","o":["กว่า","ที่สุด","มาก"],"a":["ไป","เกินไป","bpai","gooen-bpai"],"xr":["gwàa","thîi-sùt","mâak"]}
+{"id":"shopping.12","lesson":"shopping","t":"type","a":["รองเท้า สี ขาว คู่ นี้","raawng-tháao sǐi khǎao khûu níi"],"x":["ตัว"],"hint":{"th":"รองเท้า · สี · ขาว · คู่ · นี้"},"xr":["dtuua"]}
+{"id":"shopping.13","lesson":"shopping","t":"type","a":["ลอง หมวก ใบ นี้ ได้ ไหม ครับ","ลอง หมวก ใบ นี้ ได้ ไหม","ขอ ลอง หมวก ใบ นี้ ได้ ไหม ครับ","ขอ ลอง หมวก ใบ นี้ ได้ ไหม","ขอ ลอง หมวก ใบ นี้ หน่อย ครับ","ขอ ลอง หมวก ใบ นี้ หน่อย","laawng mùuak bai níi dâai mǎi khráp","laawng mùuak bai níi dâai mǎi","khǎaw laawng mùuak bai níi dâai mǎi khráp","khǎaw laawng mùuak bai níi dâai mǎi","khǎaw laawng mùuak bai níi nàwi khráp","khǎaw laawng mùuak bai níi nàwi"],"x":["ตัว"],"hint":{"th":"ลอง · หมวก · ใบ · นี้ · ได้ไหม · ครับ"},"xr":["dtuua"]}
+{"id":"shopping.14","lesson":"shopping","t":"type","a":["ลด ได้ ไหม คะ","ลด ได้ ไหม","ลด ราคา ได้ ไหม คะ","ลด ราคา ได้ ไหม","ลด หน่อย ได้ ไหม คะ","ลด หน่อย ได้ ไหม","lót dâai mǎi khá","lót dâai mǎi","lót raa-khaa dâai mǎi khá","lót raa-khaa dâai mǎi","lót nàwi dâai mǎi khá","lót nàwi dâai mǎi"],"x":["ค่ะ"],"hint":{"th":"ลด · ได้ไหม","sep":" · "},"xr":["khâ"]}
+{"id":"feelings.01","lesson":"feelings","t":"mc","o":["ผมเหนื่อย","ผมเป็นเหนื่อย","ผมมีเหนื่อย","เหนื่อยผมเป็น"]}
+{"id":"feelings.02","lesson":"feelings","t":"mc","o":["ฉันเป็นหวัด","ฉันหวัด","ฉันคือหวัด","ฉันอยู่หวัด"]}
+{"id":"feelings.03","lesson":"feelings","t":"mc","o":["ปวดหัว","มีปวดหัว","เป็นปวดหัว","หัวมีปวด"]}
+{"id":"feelings.04","lesson":"feelings","t":"mc","o":["ผมเป็นไข้","ผมร้อน","ผมเป็นร้อน","ผมปวดไข้"]}
+{"id":"feelings.05","lesson":"feelings","t":"mc","o":["ไข้","ไข่","ใคร","ไก่"]}
+{"id":"feelings.06","lesson":"feelings","t":"order","a":["เป็น","ไข้"],"x":["ไข่"]}
+{"id":"feelings.07","lesson":"feelings","t":"order","a":["ร้านขายยา","อยู่","ใกล้","ไหม"],"x":["ไกล"]}
+{"id":"feelings.08","lesson":"feelings","t":"order","a":["ผม","ดีใจ","มาก"],"x":["เป็น"]}
+{"id":"feelings.09","lesson":"feelings","t":"fill","q":"ผม__หวัด","o":["มี","คือ","อยู่"],"a":["เป็น","bpen"],"xr":["mii","khuue","yùu"]}
+{"id":"feelings.10","lesson":"feelings","t":"fill","q":"เจ็บ__","o":["หัว","ท้อง","มือ"],"a":["คอ","khaaw"],"xr":["hǔua","tháawng","muue"]}
+{"id":"feelings.11","lesson":"feelings","t":"fill","q":"ฉัน__กุ้ง","o":["เป็น","ปวด","เจ็บ"],"a":["แพ้","pháae"],"xr":["bpen","bpùuat","jèp"]}
+{"id":"feelings.12","lesson":"feelings","t":"type","a":["ฉัน เป็น ไข้ ค่ะ","ฉัน เป็น ไข้","เป็น ไข้ ค่ะ","เป็น ไข้","ฉัน มี ไข้ ค่ะ","ฉัน มี ไข้","มี ไข้ ค่ะ","มี ไข้","chǎn bpen khâi khâ","chǎn bpen khâi","bpen khâi khâ","bpen khâi","chǎn mii khâi khâ","chǎn mii khâi","mii khâi khâ","mii khâi"],"x":["ไข่"],"hint":{"th":"ฉัน · เป็น · ไข้ · ค่ะ"},"xr":["khài"]}
+{"id":"feelings.13","lesson":"feelings","t":"type","a":["มี ยา ไหม คะ","มี ยา ไหม","mii yaa mǎi khá","mii yaa mǎi"],"x":["ค่ะ"],"hint":{"th":"มี · ยา · ไหม","sep":" · "},"xr":["khâ"]}
+{"id":"feelings.14","lesson":"feelings","t":"type","a":["ผม เหนื่อย มาก ครับ","ผม เหนื่อย มาก","เหนื่อย มาก ครับ","เหนื่อย มาก","phǒm nùueai mâak khráp","phǒm nùueai mâak","nùueai mâak khráp","nùueai mâak"],"x":["เป็น"],"hint":{"th":"ผม · เหนื่อย · มาก · ครับ"},"xr":["bpen"]}

@@ -1,0 +1,951 @@
+{"id":"id.c0001","deck":"id.d.sounds-and-spelling","ind":"cantik","rom":"CHAHN-teeq"}
+{"id":"id.c0002","deck":"id.d.sounds-and-spelling","ind":"enak","rom":"EH-nahq"}
+{"id":"id.c0003","deck":"id.d.sounds-and-spelling","ind":"besar","rom":"buh-SAHR"}
+{"id":"id.c0004","deck":"id.d.sounds-and-spelling","ind":"tidak","rom":"TEE-dahq"}
+{"id":"id.c0005","deck":"id.d.sounds-and-spelling","ind":"nyanyi","rom":"NYAH-nyee"}
+{"id":"id.c0006","deck":"id.d.sounds-and-spelling","ind":"kopi panas","rom":"KOH-pee PAH-nahs"}
+{"id":"id.c0007","deck":"id.d.sounds-and-spelling","ind":"ngantuk","rom":"NGAHN-tooq"}
+{"id":"id.c0008","deck":"id.d.sounds-and-spelling","ind":"mangga","rom":"MAHNG-gah"}
+{"id":"id.c0009","deck":"id.d.sounds-and-spelling","ind":"bunga","rom":"BOO-ngah"}
+{"id":"id.c0010","deck":"id.d.sounds-and-spelling","ind":"masyarakat","rom":"mah-shah-RAH-kaht"}
+{"id":"id.c0011","deck":"id.d.sounds-and-spelling","ind":"khusus","rom":"KHOO-soos"}
+{"id":"id.c0012","deck":"id.d.sounds-and-spelling","ind":"rumah","rom":"ROO-mahh"}
+{"id":"id.c0013","deck":"id.d.sounds-and-spelling","ind":"sate","rom":"SAH-teh"}
+{"id":"id.c0014","deck":"id.d.sounds-and-spelling","ind":"pantai","rom":"PAHN-tai"}
+{"id":"id.c0015","deck":"id.d.sounds-and-spelling","ind":"pulau","rom":"POO-low"}
+{"id":"id.c0016","deck":"id.d.sounds-and-spelling","ind":"baik","rom":"BAH-eeq"}
+{"id":"id.c0017","deck":"id.d.sounds-and-spelling","ind":"jeruk","rom":"juh-ROOQ"}
+{"id":"id.c0018","deck":"id.d.sounds-and-spelling","ind":"sepeda","rom":"suh-PEH-dah"}
+{"id":"id.c0019","deck":"id.d.greetings-and-courtesy","ind":"Selamat pagi.","rom":"suh-LAH-maht PAH-ghee"}
+{"id":"id.c0020","deck":"id.d.greetings-and-courtesy","ind":"Selamat siang.","rom":"suh-LAH-maht SEE-ahng"}
+{"id":"id.c0021","deck":"id.d.greetings-and-courtesy","ind":"Selamat sore.","rom":"suh-LAH-maht SOH-reh"}
+{"id":"id.c0022","deck":"id.d.greetings-and-courtesy","ind":"Selamat malam.","rom":"suh-LAH-maht MAH-lahm"}
+{"id":"id.c0023","deck":"id.d.greetings-and-courtesy","ind":"Selamat pagi, Pak.","rom":"suh-LAH-maht PAH-ghee pahq"}
+{"id":"id.c0024","deck":"id.d.greetings-and-courtesy","ind":"Apa kabar?","rom":"AH-pah KAH-bahr"}
+{"id":"id.c0025","deck":"id.d.greetings-and-courtesy","ind":"Baik, terima kasih.","rom":"BAH-eeq tuh-REE-mah KAH-seeh"}
+{"id":"id.c0026","deck":"id.d.greetings-and-courtesy","ind":"Terima kasih.","rom":"tuh-REE-mah KAH-seeh"}
+{"id":"id.c0027","deck":"id.d.greetings-and-courtesy","ind":"Terima kasih banyak.","rom":"tuh-REE-mah KAH-seeh BAH-nyahq"}
+{"id":"id.c0028","deck":"id.d.greetings-and-courtesy","ind":"Sama-sama.","rom":"SAH-mah SAH-mah"}
+{"id":"id.c0029","deck":"id.d.greetings-and-courtesy","ind":"Permisi.","rom":"puhr-MEE-see"}
+{"id":"id.c0030","deck":"id.d.greetings-and-courtesy","ind":"Maaf.","rom":"MAH-ahf"}
+{"id":"id.c0031","deck":"id.d.greetings-and-courtesy","ind":"Tidak apa-apa.","rom":"TEE-dahq AH-pah AH-pah"}
+{"id":"id.c0032","deck":"id.d.greetings-and-courtesy","ind":"Maaf, saya tidak mengerti.","rom":"MAH-ahf SAH-yah TEE-dahq muh-nguhr-TEE"}
+{"id":"id.c0033","deck":"id.d.greetings-and-courtesy","ind":"Selamat datang.","rom":"suh-LAH-maht DAH-tahng"}
+{"id":"id.c0034","deck":"id.d.greetings-and-courtesy","ind":"Selamat tinggal.","rom":"suh-LAH-maht TEENG-gahl"}
+{"id":"id.c0035","deck":"id.d.greetings-and-courtesy","ind":"Selamat jalan.","rom":"suh-LAH-maht JAH-lahn"}
+{"id":"id.c0036","deck":"id.d.greetings-and-courtesy","ind":"Sampai jumpa.","rom":"SAHM-pai JOOM-pah"}
+{"id":"id.c0037","deck":"id.d.about-me","ind":"Nama saya Emma.","rom":"NAH-mah SAH-yah EHM-mah"}
+{"id":"id.c0038","deck":"id.d.about-me","ind":"Saya dari Amerika.","rom":"SAH-yah DAH-ree ah-meh-REE-kah"}
+{"id":"id.c0039","deck":"id.d.about-me","ind":"Saya orang Amerika.","rom":"SAH-yah OH-rahng ah-meh-REE-kah"}
+{"id":"id.c0040","deck":"id.d.about-me","ind":"Saya tinggal di Jakarta.","rom":"SAH-yah TEENG-gahl dee jah-KAHR-tah"}
+{"id":"id.c0041","deck":"id.d.about-me","ind":"Saya bisa bahasa Indonesia sedikit.","rom":"SAH-yah BEE-sah bah-HAH-sah een-doh-neh-SEE-ah suh-DEE-keet"}
+{"id":"id.c0042","deck":"id.d.about-me","ind":"Saya bisa bahasa Inggris.","rom":"SAH-yah BEE-sah bah-HAH-sah EENG-grees"}
+{"id":"id.c0043","deck":"id.d.about-me","ind":"Bisa bahasa Inggris?","rom":"BEE-sah bah-HAH-sah EENG-grees"}
+{"id":"id.c0044","deck":"id.d.about-me","ind":"Bisa bicara lebih pelan?","rom":"BEE-sah bee-CHAH-rah luh-BEEH puh-LAHN"}
+{"id":"id.c0045","deck":"id.d.about-me","ind":"Umur saya tiga puluh tahun.","rom":"OO-moor SAH-yah TEE-gah POO-looh TAH-hoon"}
+{"id":"id.c0046","deck":"id.d.about-me","ind":"Senang berkenalan.","rom":"suh-NAHNG buhr-kuh-NAH-lahn"}
+{"id":"id.c0047","deck":"id.d.about-me","ind":"Panggil saya Emma.","rom":"PAHNG-gheel SAH-yah EHM-mah"}
+{"id":"id.c0048","deck":"id.d.about-me","ind":"Kalau Anda?","rom":"KAH-low AHN-dah"}
+{"id":"id.c0049","deck":"id.d.about-me","ind":"Saya bekerja sebagai guru.","rom":"SAH-yah buh-kuhr-JAH suh-BAH-gai GOO-roo"}
+{"id":"id.c0050","deck":"id.d.about-me","ind":"Saya di sini untuk liburan.","rom":"SAH-yah dee SEE-nee OON-tooq lee-BOO-rahn"}
+{"id":"id.c0051","deck":"id.d.about-me","ind":"Saya baru belajar bahasa Indonesia.","rom":"SAH-yah BAH-roo buh-LAH-jahr bah-HAH-sah een-doh-neh-SEE-ah"}
+{"id":"id.c0052","deck":"id.d.about-me","ind":"Sudah berapa lama di Indonesia?","rom":"SOO-dahh buh-RAH-pah LAH-mah dee een-doh-neh-SEE-ah"}
+{"id":"id.c0053","deck":"id.d.about-me","ind":"Baru satu minggu.","rom":"BAH-roo SAH-too MEENG-goo"}
+{"id":"id.c0054","deck":"id.d.people-and-family","ind":"Bapak","rom":"BAH-pahq"}
+{"id":"id.c0055","deck":"id.d.people-and-family","ind":"Ibu","rom":"EE-boo"}
+{"id":"id.c0056","deck":"id.d.people-and-family","ind":"Mas","rom":"mahs"}
+{"id":"id.c0057","deck":"id.d.people-and-family","ind":"Mbak","rom":"mbahq"}
+{"id":"id.c0058","deck":"id.d.people-and-family","ind":"Pak Budi","rom":"pahq BOO-dee"}
+{"id":"id.c0059","deck":"id.d.people-and-family","ind":"kamu","rom":"KAH-moo"}
+{"id":"id.c0060","deck":"id.d.people-and-family","ind":"dia","rom":"DEE-ah"}
+{"id":"id.c0061","deck":"id.d.people-and-family","ind":"kami","rom":"KAH-mee"}
+{"id":"id.c0062","deck":"id.d.people-and-family","ind":"kita","rom":"KEE-tah"}
+{"id":"id.c0063","deck":"id.d.people-and-family","ind":"kakak saya","rom":"KAH-kahq SAH-yah"}
+{"id":"id.c0064","deck":"id.d.people-and-family","ind":"adik saya","rom":"AH-deeq SAH-yah"}
+{"id":"id.c0065","deck":"id.d.people-and-family","ind":"orang tua saya","rom":"OH-rahng TOO-ah SAH-yah"}
+{"id":"id.c0066","deck":"id.d.people-and-family","ind":"suami saya","rom":"soo-AH-mee SAH-yah"}
+{"id":"id.c0067","deck":"id.d.people-and-family","ind":"istri saya","rom":"EES-tree SAH-yah"}
+{"id":"id.c0068","deck":"id.d.people-and-family","ind":"anak-anak","rom":"AH-nahq AH-nahq"}
+{"id":"id.c0069","deck":"id.d.people-and-family","ind":"dua anak","rom":"DOO-ah AH-nahq"}
+{"id":"id.c0070","deck":"id.d.people-and-family","ind":"kakek dan nenek","rom":"KAH-kehq dahn NEH-nehq"}
+{"id":"id.c0071","deck":"id.d.people-and-family","ind":"Sudah menikah?","rom":"SOO-dahh muh-NEE-kahh"}
+{"id":"id.c0072","deck":"id.d.numbers-and-money","ind":"satu, dua, tiga","rom":"SAH-too DOO-ah TEE-gah"}
+{"id":"id.c0073","deck":"id.d.numbers-and-money","ind":"empat, lima, enam","rom":"uhm-PAHT LEE-mah uh-NAHM"}
+{"id":"id.c0074","deck":"id.d.numbers-and-money","ind":"tujuh, delapan, sembilan","rom":"TOO-jooh duh-LAH-pahn suhm-BEE-lahn"}
+{"id":"id.c0075","deck":"id.d.numbers-and-money","ind":"sepuluh","rom":"suh-POO-looh"}
+{"id":"id.c0076","deck":"id.d.numbers-and-money","ind":"sebelas","rom":"suh-buh-LAHS"}
+{"id":"id.c0077","deck":"id.d.numbers-and-money","ind":"dua belas","rom":"DOO-ah buh-LAHS"}
+{"id":"id.c0078","deck":"id.d.numbers-and-money","ind":"dua puluh lima","rom":"DOO-ah POO-looh LEE-mah"}
+{"id":"id.c0079","deck":"id.d.numbers-and-money","ind":"seratus","rom":"suh-RAH-toos"}
+{"id":"id.c0080","deck":"id.d.numbers-and-money","ind":"seribu","rom":"suh-REE-boo"}
+{"id":"id.c0081","deck":"id.d.numbers-and-money","ind":"lima ribu rupiah","rom":"LEE-mah REE-boo roo-PEE-ahh"}
+{"id":"id.c0082","deck":"id.d.numbers-and-money","ind":"lima puluh ribu","rom":"LEE-mah POO-looh REE-boo"}
+{"id":"id.c0083","deck":"id.d.numbers-and-money","ind":"dua ratus ribu rupiah","rom":"DOO-ah RAH-toos REE-boo roo-PEE-ahh"}
+{"id":"id.c0084","deck":"id.d.numbers-and-money","ind":"satu juta","rom":"SAH-too JOO-tah"}
+{"id":"id.c0085","deck":"id.d.numbers-and-money","ind":"Berapa harganya?","rom":"buh-RAH-pah hahr-GAH-nyah"}
+{"id":"id.c0086","deck":"id.d.numbers-and-money","ind":"Semuanya berapa?","rom":"suh-moo-AH-nyah buh-RAH-pah"}
+{"id":"id.c0087","deck":"id.d.numbers-and-money","ind":"Ada uang kecil?","rom":"AH-dah OO-ahng kuh-CHEEL"}
+{"id":"id.c0088","deck":"id.d.numbers-and-money","ind":"Bisa bayar pakai kartu?","rom":"BEE-sah BAH-yahr PAH-kai KAHR-too"}
+{"id":"id.c0089","deck":"id.d.numbers-and-money","ind":"nomor telepon saya","rom":"NOH-mohr teh-LEH-pohn SAH-yah"}
+{"id":"id.c0090","deck":"id.d.time-days-and-dates","ind":"Jam berapa sekarang?","rom":"jahm buh-RAH-pah suh-KAH-rahng"}
+{"id":"id.c0091","deck":"id.d.time-days-and-dates","ind":"jam tiga","rom":"jahm TEE-gah"}
+{"id":"id.c0092","deck":"id.d.time-days-and-dates","ind":"tiga jam","rom":"TEE-gah jahm"}
+{"id":"id.c0093","deck":"id.d.time-days-and-dates","ind":"jam tujuh pagi","rom":"jahm TOO-jooh PAH-ghee"}
+{"id":"id.c0094","deck":"id.d.time-days-and-dates","ind":"setengah tiga","rom":"suh-tuh-NGAHH TEE-gah"}
+{"id":"id.c0095","deck":"id.d.time-days-and-dates","ind":"jam dua lewat sepuluh","rom":"jahm DOO-ah LEH-waht suh-POO-looh"}
+{"id":"id.c0096","deck":"id.d.time-days-and-dates","ind":"jam lima kurang seperempat","rom":"jahm LEE-mah KOO-rahng suh-puh-ruhm-PAHT"}
+{"id":"id.c0097","deck":"id.d.time-days-and-dates","ind":"hari ini","rom":"HAH-ree EE-nee"}
+{"id":"id.c0098","deck":"id.d.time-days-and-dates","ind":"kemarin","rom":"kuh-MAH-reen"}
+{"id":"id.c0099","deck":"id.d.time-days-and-dates","ind":"besok","rom":"BEH-sohq"}
+{"id":"id.c0100","deck":"id.d.time-days-and-dates","ind":"minggu depan","rom":"MEENG-goo duh-PAHN"}
+{"id":"id.c0101","deck":"id.d.time-days-and-dates","ind":"hari Senin","rom":"HAH-ree suh-NEEN"}
+{"id":"id.c0102","deck":"id.d.time-days-and-dates","ind":"hari Jumat","rom":"HAH-ree JOO-maht"}
+{"id":"id.c0103","deck":"id.d.time-days-and-dates","ind":"hari Minggu","rom":"HAH-ree MEENG-goo"}
+{"id":"id.c0104","deck":"id.d.time-days-and-dates","ind":"Hari ini hari apa?","rom":"HAH-ree EE-nee HAH-ree AH-pah"}
+{"id":"id.c0105","deck":"id.d.time-days-and-dates","ind":"Tanggal berapa hari ini?","rom":"TAHNG-gahl buh-RAH-pah HAH-ree EE-nee"}
+{"id":"id.c0106","deck":"id.d.time-days-and-dates","ind":"tanggal tujuh belas Agustus","rom":"TAHNG-gahl TOO-jooh buh-LAHS ah-GOOS-toos"}
+{"id":"id.c0107","deck":"id.d.time-days-and-dates","ind":"Tunggu sebentar.","rom":"TOONG-goo suh-buhn-TAHR"}
+{"id":"id.c0108","deck":"id.d.food-and-drink","ind":"Mau pesan apa, Bu?","rom":"mow puh-SAHN AH-pah boo"}
+{"id":"id.c0109","deck":"id.d.food-and-drink","ind":"Minta nasi goreng satu, Mas.","rom":"MEEN-tah NAH-see GOH-rehng SAH-too mahs"}
+{"id":"id.c0110","deck":"id.d.food-and-drink","ind":"nasi goreng","rom":"NAH-see GOH-rehng"}
+{"id":"id.c0111","deck":"id.d.food-and-drink","ind":"mi goreng","rom":"mee GOH-rehng"}
+{"id":"id.c0112","deck":"id.d.food-and-drink","ind":"sate ayam","rom":"SAH-teh AH-yahm"}
+{"id":"id.c0113","deck":"id.d.food-and-drink","ind":"es teh manis","rom":"ehs tehh MAH-nees"}
+{"id":"id.c0114","deck":"id.d.food-and-drink","ind":"kopi susu","rom":"KOH-pee SOO-soo"}
+{"id":"id.c0115","deck":"id.d.food-and-drink","ind":"jus alpukat","rom":"joos ahl-POO-kaht"}
+{"id":"id.c0116","deck":"id.d.food-and-drink","ind":"Minta air putih.","rom":"MEEN-tah AH-eer POO-teeh"}
+{"id":"id.c0117","deck":"id.d.food-and-drink","ind":"Tidak pakai sambal.","rom":"TEE-dahq PAH-kai SAHM-bahl"}
+{"id":"id.c0118","deck":"id.d.food-and-drink","ind":"Tidak terlalu pedas, ya.","rom":"TEE-dahq tuhr-LAH-loo puh-DAHS yah"}
+{"id":"id.c0119","deck":"id.d.food-and-drink","ind":"Saya tidak makan daging.","rom":"SAH-yah TEE-dahq MAH-kahn DAH-gheeng"}
+{"id":"id.c0120","deck":"id.d.food-and-drink","ind":"Makan di sini atau dibungkus?","rom":"MAH-kahn dee SEE-nee AH-tow dee-BOONG-koos"}
+{"id":"id.c0121","deck":"id.d.food-and-drink","ind":"Dibungkus.","rom":"dee-BOONG-koos"}
+{"id":"id.c0122","deck":"id.d.food-and-drink","ind":"enak sekali","rom":"EH-nahq suh-KAH-lee"}
+{"id":"id.c0123","deck":"id.d.food-and-drink","ind":"Sudah makan?","rom":"SOO-dahh MAH-kahn"}
+{"id":"id.c0124","deck":"id.d.food-and-drink","ind":"Silakan makan.","rom":"see-LAH-kahn MAH-kahn"}
+{"id":"id.c0125","deck":"id.d.food-and-drink","ind":"Minta bon, Mbak.","rom":"MEEN-tah bohn mbahq"}
+{"id":"id.c0126","deck":"id.d.shopping-and-bargaining","ind":"Berapa ini?","rom":"buh-RAH-pah EE-nee"}
+{"id":"id.c0127","deck":"id.d.shopping-and-bargaining","ind":"Ini apa?","rom":"EE-nee AH-pah"}
+{"id":"id.c0128","deck":"id.d.shopping-and-bargaining","ind":"tas ini","rom":"tahs EE-nee"}
+{"id":"id.c0129","deck":"id.d.shopping-and-bargaining","ind":"Yang ini.","rom":"yahng EE-nee"}
+{"id":"id.c0130","deck":"id.d.shopping-and-bargaining","ind":"Yang itu.","rom":"yahng EE-too"}
+{"id":"id.c0131","deck":"id.d.shopping-and-bargaining","ind":"baju merah","rom":"BAH-joo MEH-rahh"}
+{"id":"id.c0132","deck":"id.d.shopping-and-bargaining","ind":"Ada warna lain?","rom":"AH-dah WAHR-nah LAH-een"}
+{"id":"id.c0133","deck":"id.d.shopping-and-bargaining","ind":"Ada ukuran yang lebih besar?","rom":"AH-dah oo-KOO-rahn yahng luh-BEEH buh-SAHR"}
+{"id":"id.c0134","deck":"id.d.shopping-and-bargaining","ind":"Ada yang lebih murah?","rom":"AH-dah yahng luh-BEEH MOO-rahh"}
+{"id":"id.c0135","deck":"id.d.shopping-and-bargaining","ind":"paling murah","rom":"PAH-leeng MOO-rahh"}
+{"id":"id.c0136","deck":"id.d.shopping-and-bargaining","ind":"Boleh dicoba?","rom":"BOH-lehh dee-CHOH-bah"}
+{"id":"id.c0137","deck":"id.d.shopping-and-bargaining","ind":"Terlalu mahal.","rom":"tuhr-LAH-loo MAH-hahl"}
+{"id":"id.c0138","deck":"id.d.shopping-and-bargaining","ind":"Bisa kurang?","rom":"BEE-sah KOO-rahng"}
+{"id":"id.c0139","deck":"id.d.shopping-and-bargaining","ind":"Lima puluh ribu, boleh?","rom":"LEE-mah POO-looh REE-boo BOH-lehh"}
+{"id":"id.c0140","deck":"id.d.shopping-and-bargaining","ind":"Di pasar lebih murah.","rom":"dee PAH-sahr luh-BEEH MOO-rahh"}
+{"id":"id.c0141","deck":"id.d.shopping-and-bargaining","ind":"harga pas","rom":"HAHR-gah pahs"}
+{"id":"id.c0142","deck":"id.d.shopping-and-bargaining","ind":"Saya ambil yang ini.","rom":"SAH-yah AHM-beel yahng EE-nee"}
+{"id":"id.c0143","deck":"id.d.shopping-and-bargaining","ind":"Saya lihat-lihat dulu.","rom":"SAH-yah LEE-haht LEE-haht DOO-loo"}
+{"id":"id.c0144","deck":"id.d.home-and-routine","ind":"rumah saya","rom":"ROO-mahh SAH-yah"}
+{"id":"id.c0145","deck":"id.d.home-and-routine","ind":"kamar saya","rom":"KAH-mahr SAH-yah"}
+{"id":"id.c0146","deck":"id.d.home-and-routine","ind":"rumahnya","rom":"roo-MAHH-nyah"}
+{"id":"id.c0147","deck":"id.d.home-and-routine","ind":"kamar tidur","rom":"KAH-mahr TEE-door"}
+{"id":"id.c0148","deck":"id.d.home-and-routine","ind":"kamar mandi","rom":"KAH-mahr MAHN-dee"}
+{"id":"id.c0149","deck":"id.d.home-and-routine","ind":"dapur","rom":"DAH-poor"}
+{"id":"id.c0150","deck":"id.d.home-and-routine","ind":"Saya punya dua kucing.","rom":"SAH-yah POO-nyah DOO-ah KOO-cheeng"}
+{"id":"id.c0151","deck":"id.d.home-and-routine","ind":"Saya bangun jam enam.","rom":"SAH-yah BAH-ngoon jahm uh-NAHM"}
+{"id":"id.c0152","deck":"id.d.home-and-routine","ind":"Saya sudah mandi.","rom":"SAH-yah SOO-dahh MAHN-dee"}
+{"id":"id.c0153","deck":"id.d.home-and-routine","ind":"Saya sarapan jam tujuh.","rom":"SAH-yah sah-RAH-pahn jahm TOO-jooh"}
+{"id":"id.c0154","deck":"id.d.home-and-routine","ind":"Saya berangkat kerja jam delapan.","rom":"SAH-yah buh-RAHNG-kaht kuhr-JAH jahm duh-LAH-pahn"}
+{"id":"id.c0155","deck":"id.d.home-and-routine","ind":"Saya pulang jam lima sore.","rom":"SAH-yah POO-lahng jahm LEE-mah SOH-reh"}
+{"id":"id.c0156","deck":"id.d.home-and-routine","ind":"Saya tidur jam sepuluh malam.","rom":"SAH-yah TEE-door jahm suh-POO-looh MAH-lahm"}
+{"id":"id.c0157","deck":"id.d.home-and-routine","ind":"Saya sedang memasak.","rom":"SAH-yah suh-DAHNG muh-MAH-sahq"}
+{"id":"id.c0158","deck":"id.d.home-and-routine","ind":"Saya belum makan.","rom":"SAH-yah buh-LOOM MAH-kahn"}
+{"id":"id.c0159","deck":"id.d.home-and-routine","ind":"Saya masih di rumah.","rom":"SAH-yah MAH-seeh dee ROO-mahh"}
+{"id":"id.c0160","deck":"id.d.home-and-routine","ind":"Tadi saya ke pasar.","rom":"TAH-dee SAH-yah kuh PAH-sahr"}
+{"id":"id.c0161","deck":"id.d.home-and-routine","ind":"Saya akan mencuci piring.","rom":"SAH-yah AH-kahn muhn-CHOO-chee PEE-reeng"}
+{"id":"id.c0162","deck":"id.d.around-town-and-directions","ind":"Di mana stasiun?","rom":"dee MAH-nah stah-SEE-oon"}
+{"id":"id.c0163","deck":"id.d.around-town-and-directions","ind":"Ada apotek di dekat sini?","rom":"AH-dah ah-POH-tehq dee duh-KAHT SEE-nee"}
+{"id":"id.c0164","deck":"id.d.around-town-and-directions","ind":"belok kiri","rom":"BEH-lohq KEE-ree"}
+{"id":"id.c0165","deck":"id.d.around-town-and-directions","ind":"lurus saja","rom":"LOO-roos SAH-jah"}
+{"id":"id.c0166","deck":"id.d.around-town-and-directions","ind":"perempatan","rom":"puh-ruhm-PAH-tahn"}
+{"id":"id.c0167","deck":"id.d.around-town-and-directions","ind":"belok kanan","rom":"BEH-lohq KAH-nahn"}
+{"id":"id.c0168","deck":"id.d.around-town-and-directions","ind":"pertigaan","rom":"puhr-tee-GAH-ahn"}
+{"id":"id.c0169","deck":"id.d.around-town-and-directions","ind":"lampu merah","rom":"LAHM-poo MEH-rahh"}
+{"id":"id.c0170","deck":"id.d.around-town-and-directions","ind":"Permisi, kamar kecil di mana?","rom":"puhr-MEE-see KAH-mahr kuh-CHEEL dee MAH-nah"}
+{"id":"id.c0171","deck":"id.d.around-town-and-directions","ind":"di seberang jalan","rom":"dee suh-buh-RAHNG JAH-lahn"}
+{"id":"id.c0172","deck":"id.d.around-town-and-directions","ind":"di sebelah kiri","rom":"dee suh-buh-LAHH KEE-ree"}
+{"id":"id.c0173","deck":"id.d.around-town-and-directions","ind":"di depan masjid","rom":"dee duh-PAHN MAHS-jeed"}
+{"id":"id.c0174","deck":"id.d.around-town-and-directions","ind":"Jauh dari sini?","rom":"JAH-ooh DAH-ree SEE-nee"}
+{"id":"id.c0175","deck":"id.d.around-town-and-directions","ind":"Tidak jauh.","rom":"TEE-dahq JAH-ooh"}
+{"id":"id.c0176","deck":"id.d.around-town-and-directions","ind":"Tidak ada.","rom":"TEE-dahq AH-dah"}
+{"id":"id.c0177","deck":"id.d.around-town-and-directions","ind":"Saya tersesat.","rom":"SAH-yah tuhr-suh-SAHT"}
+{"id":"id.c0178","deck":"id.d.around-town-and-directions","ind":"kantor pos","rom":"KAHN-tohr pohs"}
+{"id":"id.c0179","deck":"id.d.around-town-and-directions","ind":"Pasar di mana?","rom":"PAH-sahr dee MAH-nah"}
+{"id":"id.c0180","deck":"id.d.transport-and-travel","ind":"Saya mau ke Bali.","rom":"SAH-yah mow kuh BAH-lee"}
+{"id":"id.c0181","deck":"id.d.transport-and-travel","ind":"naik ojek","rom":"NAH-eeq OH-jehq"}
+{"id":"id.c0182","deck":"id.d.transport-and-travel","ind":"tiket pesawat","rom":"TEE-keht puh-SAH-waht"}
+{"id":"id.c0183","deck":"id.d.transport-and-travel","ind":"Jam berapa keretanya berangkat?","rom":"jahm buh-RAH-pah kuh-reh-TAH-nyah buh-RAHNG-kaht"}
+{"id":"id.c0184","deck":"id.d.transport-and-travel","ind":"bandara","rom":"bahn-DAH-rah"}
+{"id":"id.c0185","deck":"id.d.transport-and-travel","ind":"Ke mana, Bu?","rom":"kuh MAH-nah boo"}
+{"id":"id.c0186","deck":"id.d.transport-and-travel","ind":"Berhenti di sini, Pak.","rom":"buhr-huhn-TEE dee SEE-nee pahq"}
+{"id":"id.c0187","deck":"id.d.transport-and-travel","ind":"naik kereta","rom":"NAH-eeq kuh-REH-tah"}
+{"id":"id.c0188","deck":"id.d.transport-and-travel","ind":"Satu tiket ke Bandung.","rom":"SAH-too TEE-keht kuh BAHN-doong"}
+{"id":"id.c0189","deck":"id.d.transport-and-travel","ind":"dari bandara ke hotel","rom":"DAH-ree bahn-DAH-rah kuh HOH-tehl"}
+{"id":"id.c0190","deck":"id.d.transport-and-travel","ind":"Ada kamar kosong?","rom":"AH-dah KAH-mahr KOH-sohng"}
+{"id":"id.c0191","deck":"id.d.transport-and-travel","ind":"untuk dua malam","rom":"OON-tooq DOO-ah MAH-lahm"}
+{"id":"id.c0192","deck":"id.d.transport-and-travel","ind":"Kamar sudah dipesan.","rom":"KAH-mahr SOO-dahh dee-puh-SAHN"}
+{"id":"id.c0193","deck":"id.d.transport-and-travel","ind":"Tiketnya dibeli di stasiun.","rom":"tee-KEHT-nyah dee-buh-LEE dee stah-SEE-oon"}
+{"id":"id.c0194","deck":"id.d.transport-and-travel","ind":"Keretanya terlambat.","rom":"kuh-reh-TAH-nyah tuhr-LAHM-baht"}
+{"id":"id.c0195","deck":"id.d.transport-and-travel","ind":"Pakai argo, Pak?","rom":"PAH-kai AHR-goh pahq"}
+{"id":"id.c0196","deck":"id.d.transport-and-travel","ind":"paspor saya","rom":"PAHS-pohr SAH-yah"}
+{"id":"id.c0197","deck":"id.d.transport-and-travel","ind":"Berapa lama ke sana?","rom":"buh-RAH-pah LAH-mah kuh SAH-nah"}
+{"id":"id.c0198","deck":"id.d.health-and-help","ind":"Saya sakit.","rom":"SAH-yah SAH-keet"}
+{"id":"id.c0199","deck":"id.d.health-and-help","ind":"Kepala saya sakit.","rom":"kuh-PAH-lah SAH-yah SAH-keet"}
+{"id":"id.c0200","deck":"id.d.health-and-help","ind":"Tolong!","rom":"TOH-lohng"}
+{"id":"id.c0201","deck":"id.d.health-and-help","ind":"Saya harus ke dokter.","rom":"SAH-yah HAH-roos kuh DOHK-tuhr"}
+{"id":"id.c0202","deck":"id.d.health-and-help","ind":"apotek","rom":"ah-POH-tehq"}
+{"id":"id.c0203","deck":"id.d.health-and-help","ind":"Perut saya sakit.","rom":"puh-ROOT SAH-yah SAH-keet"}
+{"id":"id.c0204","deck":"id.d.health-and-help","ind":"Saya demam.","rom":"SAH-yah duh-MAHM"}
+{"id":"id.c0205","deck":"id.d.health-and-help","ind":"Saya pusing.","rom":"SAH-yah POO-seeng"}
+{"id":"id.c0206","deck":"id.d.health-and-help","ind":"Tolong bantu saya.","rom":"TOH-lohng BAHN-too SAH-yah"}
+{"id":"id.c0207","deck":"id.d.health-and-help","ind":"rumah sakit","rom":"ROO-mahh SAH-keet"}
+{"id":"id.c0208","deck":"id.d.health-and-help","ind":"obat sakit kepala","rom":"OH-baht SAH-keet kuh-PAH-lah"}
+{"id":"id.c0209","deck":"id.d.health-and-help","ind":"Ada obat batuk?","rom":"AH-dah OH-baht BAH-tooq"}
+{"id":"id.c0210","deck":"id.d.health-and-help","ind":"Saya alergi kacang.","rom":"SAH-yah ah-LEHR-ghee KAH-chahng"}
+{"id":"id.c0211","deck":"id.d.health-and-help","ind":"Hati-hati!","rom":"HAH-tee HAH-tee"}
+{"id":"id.c0212","deck":"id.d.health-and-help","ind":"Saya kehilangan dompet.","rom":"SAH-yah kuh-hee-LAH-ngahn DOHM-peht"}
+{"id":"id.c0213","deck":"id.d.health-and-help","ind":"Bisa tolong panggil dokter?","rom":"BEE-sah TOH-lohng PAHNG-gheel DOHK-tuhr"}
+{"id":"id.c0214","deck":"id.d.health-and-help","ind":"Boleh saya duduk di sini?","rom":"BOH-lehh SAH-yah DOO-dooq dee SEE-nee"}
+{"id":"id.c0215","deck":"id.d.health-and-help","ind":"Saya perlu istirahat.","rom":"SAH-yah puhr-LOO ees-tee-RAH-haht"}
+{"id":"id.c0216","deck":"id.d.work-and-study","ind":"Saya bekerja di kantor.","rom":"SAH-yah buh-kuhr-JAH dee KAHN-tohr"}
+{"id":"id.c0217","deck":"id.d.work-and-study","ind":"Saya mahasiswa.","rom":"SAH-yah mah-hah-SEES-wah"}
+{"id":"id.c0218","deck":"id.d.work-and-study","ind":"teman kantor","rom":"tuh-MAHN KAHN-tohr"}
+{"id":"id.c0219","deck":"id.d.work-and-study","ind":"Saya sedang belajar bahasa Indonesia.","rom":"SAH-yah suh-DAHNG buh-LAH-jahr bah-HAH-sah een-doh-neh-SEE-ah"}
+{"id":"id.c0220","deck":"id.d.work-and-study","ind":"rapat","rom":"RAH-paht"}
+{"id":"id.c0221","deck":"id.d.work-and-study","ind":"membaca buku","rom":"muhm-BAH-chah BOO-koo"}
+{"id":"id.c0222","deck":"id.d.work-and-study","ind":"menulis surat","rom":"muh-NOO-lees SOO-raht"}
+{"id":"id.c0223","deck":"id.d.work-and-study","ind":"mengirim pesan","rom":"muh-NGEE-reem puh-SAHN"}
+{"id":"id.c0224","deck":"id.d.work-and-study","ind":"mengerjakan tugas","rom":"muh-nguhr-JAH-kahn TOO-gahs"}
+{"id":"id.c0225","deck":"id.d.work-and-study","ind":"menyelesaikan laporan","rom":"muh-nyuh-luh-SAI-kahn lah-POH-rahn"}
+{"id":"id.c0226","deck":"id.d.work-and-study","ind":"melihat jadwal","rom":"muh-LEE-haht JAHD-wahl"}
+{"id":"id.c0227","deck":"id.d.work-and-study","ind":"Bapak bekerja di mana?","rom":"BAH-pahq buh-kuhr-JAH dee MAH-nah"}
+{"id":"id.c0228","deck":"id.d.work-and-study","ind":"Saya guru bahasa Inggris.","rom":"SAH-yah GOO-roo bah-HAH-sah EENG-grees"}
+{"id":"id.c0229","deck":"id.d.work-and-study","ind":"jam kerja","rom":"jahm kuhr-JAH"}
+{"id":"id.c0230","deck":"id.d.work-and-study","ind":"Saya sedang sibuk.","rom":"SAH-yah suh-DAHNG SEE-booq"}
+{"id":"id.c0231","deck":"id.d.work-and-study","ind":"Besok ada ujian.","rom":"BEH-sohq AH-dah oo-JEE-ahn"}
+{"id":"id.c0232","deck":"id.d.work-and-study","ind":"dosen saya","rom":"DOH-sehn SAH-yah"}
+{"id":"id.c0233","deck":"id.d.work-and-study","ind":"Saya sedang mencari kerja.","rom":"SAH-yah suh-DAHNG muhn-CHAH-ree kuhr-JAH"}
+{"id":"id.c0234","deck":"id.d.describing-people-and-things","ind":"rumah besar","rom":"ROO-mahh buh-SAHR"}
+{"id":"id.c0235","deck":"id.d.describing-people-and-things","ind":"Rumah saya besar.","rom":"ROO-mahh SAH-yah buh-SAHR"}
+{"id":"id.c0236","deck":"id.d.describing-people-and-things","ind":"orang yang tinggi","rom":"OH-rahng yahng TEENG-ghee"}
+{"id":"id.c0237","deck":"id.d.describing-people-and-things","ind":"mobil baru","rom":"MOH-beel BAH-roo"}
+{"id":"id.c0238","deck":"id.d.describing-people-and-things","ind":"sangat cantik","rom":"SAH-ngaht CHAHN-teeq"}
+{"id":"id.c0239","deck":"id.d.describing-people-and-things","ind":"tas hitam","rom":"tahs HEE-tahm"}
+{"id":"id.c0240","deck":"id.d.describing-people-and-things","ind":"sepatu putih","rom":"suh-PAH-too POO-teeh"}
+{"id":"id.c0241","deck":"id.d.describing-people-and-things","ind":"rambut panjang","rom":"RAHM-boot PAHN-jahng"}
+{"id":"id.c0242","deck":"id.d.describing-people-and-things","ind":"rumah besar itu","rom":"ROO-mahh buh-SAHR EE-too"}
+{"id":"id.c0243","deck":"id.d.describing-people-and-things","ind":"Rumah itu besar.","rom":"ROO-mahh EE-too buh-SAHR"}
+{"id":"id.c0244","deck":"id.d.describing-people-and-things","ind":"Dia ganteng.","rom":"DEE-ah GAHN-tuhng"}
+{"id":"id.c0245","deck":"id.d.describing-people-and-things","ind":"Orang Indonesia ramah.","rom":"OH-rahng een-doh-neh-SEE-ah RAH-mahh"}
+{"id":"id.c0246","deck":"id.d.describing-people-and-things","ind":"Buku itu tebal.","rom":"BOO-koo EE-too tuh-BAHL"}
+{"id":"id.c0247","deck":"id.d.describing-people-and-things","ind":"yang biru","rom":"yahng BEE-roo"}
+{"id":"id.c0248","deck":"id.d.describing-people-and-things","ind":"buku yang saya beli","rom":"BOO-koo yahng SAH-yah buh-LEE"}
+{"id":"id.c0249","deck":"id.d.describing-people-and-things","ind":"Dia masih muda.","rom":"DEE-ah MAH-seeh MOO-dah"}
+{"id":"id.c0250","deck":"id.d.describing-people-and-things","ind":"Kucing saya gemuk.","rom":"KOO-cheeng SAH-yah guh-MOOQ"}
+{"id":"id.c0251","deck":"id.d.describing-people-and-things","ind":"anak pintar","rom":"AH-nahq PEEN-tahr"}
+{"id":"id.c0252","deck":"id.d.feelings-and-free-time","ind":"Saya lapar.","rom":"SAH-yah LAH-pahr"}
+{"id":"id.c0253","deck":"id.d.feelings-and-free-time","ind":"Saya capek.","rom":"SAH-yah CHAH-pehq"}
+{"id":"id.c0254","deck":"id.d.feelings-and-free-time","ind":"Saya senang.","rom":"SAH-yah suh-NAHNG"}
+{"id":"id.c0255","deck":"id.d.feelings-and-free-time","ind":"Saya suka berenang.","rom":"SAH-yah SOO-kah buh-ruh-NAHNG"}
+{"id":"id.c0256","deck":"id.d.feelings-and-free-time","ind":"main bola","rom":"MAH-een BOH-lah"}
+{"id":"id.c0257","deck":"id.d.feelings-and-free-time","ind":"Saya haus.","rom":"SAH-yah HAH-oos"}
+{"id":"id.c0258","deck":"id.d.feelings-and-free-time","ind":"Saya sedih.","rom":"SAH-yah suh-DEEH"}
+{"id":"id.c0259","deck":"id.d.feelings-and-free-time","ind":"Saya bosan.","rom":"SAH-yah BOH-sahn"}
+{"id":"id.c0260","deck":"id.d.feelings-and-free-time","ind":"Dia marah.","rom":"DEE-ah MAH-rahh"}
+{"id":"id.c0261","deck":"id.d.feelings-and-free-time","ind":"Saya takut.","rom":"SAH-yah TAH-koot"}
+{"id":"id.c0262","deck":"id.d.feelings-and-free-time","ind":"Saya khawatir.","rom":"SAH-yah khah-WAH-teer"}
+{"id":"id.c0263","deck":"id.d.feelings-and-free-time","ind":"Saya rindu keluarga saya.","rom":"SAH-yah REEN-doo kuh-loo-AHR-gah SAH-yah"}
+{"id":"id.c0264","deck":"id.d.feelings-and-free-time","ind":"Apa hobi kamu?","rom":"AH-pah HOH-bee KAH-moo"}
+{"id":"id.c0265","deck":"id.d.feelings-and-free-time","ind":"Saya suka membaca.","rom":"SAH-yah SOO-kah muhm-BAH-chah"}
+{"id":"id.c0266","deck":"id.d.feelings-and-free-time","ind":"bermain gitar","rom":"buhr-MAH-een GHEE-tahr"}
+{"id":"id.c0267","deck":"id.d.feelings-and-free-time","ind":"menonton film","rom":"muh-NOHN-tohn feelm"}
+{"id":"id.c0268","deck":"id.d.feelings-and-free-time","ind":"Mau jalan-jalan?","rom":"mow JAH-lahn JAH-lahn"}
+{"id":"id.c0269","deck":"id.d.feelings-and-free-time","ind":"Saya berolahraga setiap pagi.","rom":"SAH-yah buh-roh-lahh-RAH-gah suh-TEE-ahp PAH-ghee"}
+{"id":"id.c0270","deck":"id.d.questions-and-connectors","ind":"Siapa nama Anda?","rom":"see-AH-pah NAH-mah AHN-dah"}
+{"id":"id.c0271","deck":"id.d.questions-and-connectors","ind":"Dari mana?","rom":"DAH-ree MAH-nah"}
+{"id":"id.c0272","deck":"id.d.questions-and-connectors","ind":"Kapan?","rom":"KAH-pahn"}
+{"id":"id.c0273","deck":"id.d.questions-and-connectors","ind":"karena","rom":"kah-ruh-NAH"}
+{"id":"id.c0274","deck":"id.d.questions-and-connectors","ind":"tetapi","rom":"tuh-TAH-pee"}
+{"id":"id.c0275","deck":"id.d.questions-and-connectors","ind":"Apa artinya?","rom":"AH-pah ahr-TEE-nyah"}
+{"id":"id.c0276","deck":"id.d.questions-and-connectors","ind":"Kenapa?","rom":"kuh-NAH-pah"}
+{"id":"id.c0277","deck":"id.d.questions-and-connectors","ind":"Bagaimana caranya?","rom":"bah-gai-MAH-nah chah-RAH-nyah"}
+{"id":"id.c0278","deck":"id.d.questions-and-connectors","ind":"Yang mana?","rom":"yahng MAH-nah"}
+{"id":"id.c0279","deck":"id.d.questions-and-connectors","ind":"Berapa orang?","rom":"buh-RAH-pah OH-rahng"}
+{"id":"id.c0280","deck":"id.d.questions-and-connectors","ind":"Mobil siapa ini?","rom":"MOH-beel see-AH-pah EE-nee"}
+{"id":"id.c0281","deck":"id.d.questions-and-connectors","ind":"Kamu tinggal di mana?","rom":"KAH-moo TEENG-gahl dee MAH-nah"}
+{"id":"id.c0282","deck":"id.d.questions-and-connectors","ind":"Mau ke mana?","rom":"mow kuh MAH-nah"}
+{"id":"id.c0283","deck":"id.d.questions-and-connectors","ind":"Teh atau kopi?","rom":"tehh AH-tow KOH-pee"}
+{"id":"id.c0284","deck":"id.d.questions-and-connectors","ind":"lalu","rom":"LAH-loo"}
+{"id":"id.c0285","deck":"id.d.questions-and-connectors","ind":"jadi","rom":"JAH-dee"}
+{"id":"id.c0286","deck":"id.d.questions-and-connectors","ind":"kalau","rom":"KAH-low"}
+{"id":"id.c0287","deck":"id.d.questions-and-connectors","ind":"Saya juga.","rom":"SAH-yah JOO-gah"}
+{"id":"id.c0288","deck":"id.d.traps-for-english-speakers","ind":"air","rom":"AH-eer"}
+{"id":"id.c0289","deck":"id.d.traps-for-english-speakers","ind":"gang","rom":"gahng"}
+{"id":"id.c0290","deck":"id.d.traps-for-english-speakers","ind":"kelas","rom":"kuh-LAHS"}
+{"id":"id.c0291","deck":"id.d.traps-for-english-speakers","ind":"Saya bukan guru.","rom":"SAH-yah BOO-kahn GOO-roo"}
+{"id":"id.c0292","deck":"id.d.traps-for-english-speakers","ind":"Belum.","rom":"buh-LOOM"}
+{"id":"id.c0293","deck":"id.d.traps-for-english-speakers","ind":"kos","rom":"kohs"}
+{"id":"id.c0294","deck":"id.d.traps-for-english-speakers","ind":"kaus oblong","rom":"KAH-oos OH-blohng"}
+{"id":"id.c0295","deck":"id.d.traps-for-english-speakers","ind":"brokat","rom":"BROH-kaht"}
+{"id":"id.c0296","deck":"id.d.traps-for-english-speakers","ind":"kepala","rom":"kuh-PAH-lah"}
+{"id":"id.c0297","deck":"id.d.traps-for-english-speakers","ind":"kelapa","rom":"kuh-LAH-pah"}
+{"id":"id.c0298","deck":"id.d.traps-for-english-speakers","ind":"semangat","rom":"suh-MAH-ngaht"}
+{"id":"id.c0299","deck":"id.d.traps-for-english-speakers","ind":"semangka","rom":"suh-MAHNG-kah"}
+{"id":"id.c0300","deck":"id.d.traps-for-english-speakers","ind":"Saya tidak lapar.","rom":"SAH-yah TEE-dahq LAH-pahr"}
+{"id":"id.c0301","deck":"id.d.traps-for-english-speakers","ind":"Jangan pergi!","rom":"JAH-ngahn puhr-GHEE"}
+{"id":"id.c0302","deck":"id.d.traps-for-english-speakers","ind":"Siapa namamu?","rom":"see-AH-pah nah-MAH-moo"}
+{"id":"id.c0303","deck":"id.d.traps-for-english-speakers","ind":"Berapa umur Anda?","rom":"buh-RAH-pah OO-moor AHN-dah"}
+{"id":"id.c0304","deck":"id.d.traps-for-english-speakers","ind":"Saya mau pergi.","rom":"SAH-yah mow puhr-GHEE"}
+{"id":"id.c0305","deck":"id.d.everyday-spoken-indonesian","ind":"nggak","rom":"nggahq"}
+{"id":"id.c0306","deck":"id.d.everyday-spoken-indonesian","ind":"udah","rom":"OO-dahh"}
+{"id":"id.c0307","deck":"id.d.everyday-spoken-indonesian","ind":"gimana","rom":"ghee-MAH-nah"}
+{"id":"id.c0308","deck":"id.d.everyday-spoken-indonesian","ind":"aja","rom":"AH-jah"}
+{"id":"id.c0309","deck":"id.d.everyday-spoken-indonesian","ind":"aku","rom":"AH-koo"}
+{"id":"id.c0310","deck":"id.d.everyday-spoken-indonesian","ind":"Kenapa sih?","rom":"kuh-NAH-pah seeh"}
+{"id":"id.c0311","deck":"id.d.everyday-spoken-indonesian","ind":"capek banget","rom":"CHAH-pehq BAH-nguht"}
+{"id":"id.c0312","deck":"id.d.everyday-spoken-indonesian","ind":"Ayo dong!","rom":"AH-yoh dohng"}
+{"id":"id.c0313","deck":"id.d.everyday-spoken-indonesian","ind":"Kok mahal?","rom":"kohq MAH-hahl"}
+{"id":"id.c0314","deck":"id.d.everyday-spoken-indonesian","ind":"Nih, buat kamu.","rom":"neeh BOO-aht KAH-moo"}
+{"id":"id.c0315","deck":"id.d.everyday-spoken-indonesian","ind":"Ya udah deh.","rom":"yah OO-dahh dehh"}
+{"id":"id.c0316","deck":"id.d.everyday-spoken-indonesian","ind":"Bilangin ke dia, ya.","rom":"bee-LAH-ngeen kuh DEE-ah yah"}
+{"id":"id.c0317","deck":"id.d.everyday-spoken-indonesian","ind":"gue","rom":"gweh"}
+{"id":"id.c0318","deck":"id.d.everyday-spoken-indonesian","ind":"lo","rom":"loh"}
+{"id":"id.c0319","deck":"id.d.everyday-spoken-indonesian","ind":"Makasih, ya.","rom":"mah-KAH-seeh yah"}
+{"id":"id.c0320","deck":"id.d.everyday-spoken-indonesian","ind":"nggak apa-apa","rom":"nggahq AH-pah AH-pah"}
+{"id":"id.c0321","deck":"id.d.everyday-spoken-indonesian","ind":"Lagi apa?","rom":"LAH-ghee AH-pah"}
+{"id":"id.c0322","deck":"id.d.top-nouns","ind":"orang","rom":"OH-rahng"}
+{"id":"id.c0323","deck":"id.d.top-nouns","ind":"hal","rom":"hahl"}
+{"id":"id.c0324","deck":"id.d.top-nouns","ind":"hari","rom":"HAH-ree"}
+{"id":"id.c0325","deck":"id.d.top-nouns","ind":"waktu","rom":"WAHK-too"}
+{"id":"id.c0326","deck":"id.d.top-nouns","ind":"tempat","rom":"tuhm-PAHT"}
+{"id":"id.c0327","deck":"id.d.top-nouns","ind":"tahun","rom":"TAH-hoon"}
+{"id":"id.c0328","deck":"id.d.top-nouns","ind":"anak","rom":"AH-nahq"}
+{"id":"id.c0329","deck":"id.d.top-nouns","ind":"ayah","rom":"AH-yahh"}
+{"id":"id.c0330","deck":"id.d.top-nouns","ind":"masalah","rom":"mah-SAH-lahh"}
+{"id":"id.c0331","deck":"id.d.top-nouns","ind":"pria","rom":"PREE-ah"}
+{"id":"id.c0332","deck":"id.d.top-nouns","ind":"wanita","rom":"wah-NEE-tah"}
+{"id":"id.c0333","deck":"id.d.top-nouns","ind":"cara","rom":"CHAH-rah"}
+{"id":"id.c0334","deck":"id.d.top-nouns","ind":"jalan","rom":"JAH-lahn"}
+{"id":"id.c0335","deck":"id.d.top-nouns","ind":"dunia","rom":"doo-NEE-ah"}
+{"id":"id.c0336","deck":"id.d.top-nouns","ind":"uang","rom":"OO-ahng"}
+{"id":"id.c0337","deck":"id.d.top-nouns","ind":"teman","rom":"tuh-MAHN"}
+{"id":"id.c0338","deck":"id.d.top-nouns","ind":"gadis","rom":"GAH-dees"}
+{"id":"id.c0339","deck":"id.d.top-nouns","ind":"jam","rom":"jahm"}
+{"id":"id.c0340","deck":"id.d.top-nouns","ind":"polisi","rom":"poh-LEE-see"}
+{"id":"id.c0341","deck":"id.d.top-nouns","ind":"nama","rom":"NAH-mah"}
+{"id":"id.c0342","deck":"id.d.top-nouns","ind":"kota","rom":"KOH-tah"}
+{"id":"id.c0343","deck":"id.d.top-nouns","ind":"mobil","rom":"MOH-beel"}
+{"id":"id.c0344","deck":"id.d.top-nouns","ind":"cinta","rom":"CHEEN-tah"}
+{"id":"id.c0345","deck":"id.d.top-nouns","ind":"rasa","rom":"RAH-sah"}
+{"id":"id.c0346","deck":"id.d.top-nouns","ind":"manusia","rom":"mah-noo-SEE-ah"}
+{"id":"id.c0347","deck":"id.d.top-nouns","ind":"keluarga","rom":"kuh-loo-AHR-gah"}
+{"id":"id.c0348","deck":"id.d.top-nouns","ind":"tangan","rom":"TAH-ngahn"}
+{"id":"id.c0349","deck":"id.d.top-nouns","ind":"pekerjaan","rom":"puh-kuhr-JAH-ahn"}
+{"id":"id.c0350","deck":"id.d.top-nouns","ind":"sekolah","rom":"suh-KOH-lahh"}
+{"id":"id.c0351","deck":"id.d.top-nouns","ind":"bulan","rom":"BOO-lahn"}
+{"id":"id.c0352","deck":"id.d.top-nouns","ind":"pintu","rom":"PEEN-too"}
+{"id":"id.c0353","deck":"id.d.top-nouns","ind":"hati","rom":"HAH-tee"}
+{"id":"id.c0354","deck":"id.d.top-nouns","ind":"kesempatan","rom":"kuh-suhm-PAH-tahn"}
+{"id":"id.c0355","deck":"id.d.top-nouns","ind":"dokter","rom":"DOHK-tuhr"}
+{"id":"id.c0356","deck":"id.d.top-nouns","ind":"kerja","rom":"kuhr-JAH"}
+{"id":"id.c0357","deck":"id.d.top-nouns","ind":"kata","rom":"KAH-tah"}
+{"id":"id.c0358","deck":"id.d.top-nouns","ind":"kabar","rom":"KAH-bahr"}
+{"id":"id.c0359","deck":"id.d.top-nouns","ind":"kamar","rom":"KAH-mahr"}
+{"id":"id.c0360","deck":"id.d.top-nouns","ind":"makanan","rom":"mah-KAH-nahn"}
+{"id":"id.c0361","deck":"id.d.top-nouns","ind":"buku","rom":"BOO-koo"}
+{"id":"id.c0362","deck":"id.d.top-nouns","ind":"telepon","rom":"teh-LEH-pohn"}
+{"id":"id.c0363","deck":"id.d.top-nouns","ind":"pertanyaan","rom":"puhr-tah-NYAH-ahn"}
+{"id":"id.c0364","deck":"id.d.top-nouns","ind":"cerita","rom":"chuh-REE-tah"}
+{"id":"id.c0365","deck":"id.d.top-nouns","ind":"kaki","rom":"KAH-kee"}
+{"id":"id.c0366","deck":"id.d.top-nouns","ind":"negara","rom":"nuh-GAH-rah"}
+{"id":"id.c0367","deck":"id.d.top-nouns","ind":"anjing","rom":"AHN-jeeng"}
+{"id":"id.c0368","deck":"id.d.top-nouns","ind":"nomor","rom":"NOH-mohr"}
+{"id":"id.c0369","deck":"id.d.top-nouns","ind":"pesawat","rom":"puh-SAH-waht"}
+{"id":"id.c0370","deck":"id.d.top-nouns","ind":"guru","rom":"GOO-roo"}
+{"id":"id.c0371","deck":"id.d.top-nouns","ind":"film","rom":"feelm"}
+{"id":"id.c0372","deck":"id.d.top-nouns","ind":"pesan","rom":"puh-SAHN"}
+{"id":"id.c0373","deck":"id.d.top-nouns","ind":"bayi","rom":"BAH-yee"}
+{"id":"id.c0374","deck":"id.d.top-nouns","ind":"bahasa","rom":"bah-HAH-sah"}
+{"id":"id.c0375","deck":"id.d.top-nouns","ind":"kantor","rom":"KAHN-tohr"}
+{"id":"id.c0376","deck":"id.d.top-nouns","ind":"laki-laki","rom":"LAH-kee LAH-kee"}
+{"id":"id.c0377","deck":"id.d.top-nouns","ind":"laut","rom":"LAH-oot"}
+{"id":"id.c0378","deck":"id.d.top-nouns","ind":"perempuan","rom":"puh-ruhm-POO-ahn"}
+{"id":"id.c0379","deck":"id.d.top-nouns","ind":"barang","rom":"BAH-rahng"}
+{"id":"id.c0380","deck":"id.d.top-nouns","ind":"berita","rom":"buh-REE-tah"}
+{"id":"id.c0381","deck":"id.d.top-nouns","ind":"mimpi","rom":"MEEM-pee"}
+{"id":"id.c0382","deck":"id.d.top-nouns","ind":"pikiran","rom":"pee-KEE-rahn"}
+{"id":"id.c0383","deck":"id.d.top-nouns","ind":"lagu","rom":"LAH-goo"}
+{"id":"id.c0384","deck":"id.d.top-nouns","ind":"tugas","rom":"TOO-gahs"}
+{"id":"id.c0385","deck":"id.d.top-nouns","ind":"obat","rom":"OH-baht"}
+{"id":"id.c0386","deck":"id.d.top-nouns","ind":"hadiah","rom":"hah-DEE-ahh"}
+{"id":"id.c0387","deck":"id.d.top-nouns","ind":"kunci","rom":"KOON-chee"}
+{"id":"id.c0388","deck":"id.d.top-nouns","ind":"istri","rom":"EES-tree"}
+{"id":"id.c0389","deck":"id.d.top-nouns","ind":"kakak","rom":"KAH-kahq"}
+{"id":"id.c0390","deck":"id.d.top-nouns","ind":"lantai","rom":"LAHN-tai"}
+{"id":"id.c0391","deck":"id.d.top-nouns","ind":"musik","rom":"MOO-seeq"}
+{"id":"id.c0392","deck":"id.d.top-nouns","ind":"kereta","rom":"kuh-REH-tah"}
+{"id":"id.c0393","deck":"id.d.top-nouns","ind":"foto","rom":"FOH-toh"}
+{"id":"id.c0394","deck":"id.d.top-nouns","ind":"kartu","rom":"KAHR-too"}
+{"id":"id.c0395","deck":"id.d.top-nouns","ind":"perasaan","rom":"puh-rah-SAH-ahn"}
+{"id":"id.c0396","deck":"id.d.top-nouns","ind":"acara","rom":"ah-CHAH-rah"}
+{"id":"id.c0397","deck":"id.d.top-nouns","ind":"matahari","rom":"mah-tah-HAH-ree"}
+{"id":"id.c0398","deck":"id.d.top-nouns","ind":"toko","rom":"TOH-koh"}
+{"id":"id.c0399","deck":"id.d.top-nouns","ind":"nenek","rom":"NEH-nehq"}
+{"id":"id.c0400","deck":"id.d.top-nouns","ind":"kopi","rom":"KOH-pee"}
+{"id":"id.c0401","deck":"id.d.top-nouns","ind":"daging","rom":"DAH-gheeng"}
+{"id":"id.c0402","deck":"id.d.top-nouns","ind":"minuman","rom":"mee-NOO-mahn"}
+{"id":"id.c0403","deck":"id.d.top-nouns","ind":"meja","rom":"MEH-jah"}
+{"id":"id.c0404","deck":"id.d.top-nouns","ind":"pacar","rom":"PAH-chahr"}
+{"id":"id.c0405","deck":"id.d.top-nouns","ind":"ikan","rom":"EE-kahn"}
+{"id":"id.c0406","deck":"id.d.top-nouns","ind":"hotel","rom":"HOH-tehl"}
+{"id":"id.c0407","deck":"id.d.top-nouns","ind":"pohon","rom":"POH-hohn"}
+{"id":"id.c0408","deck":"id.d.top-nouns","ind":"jawaban","rom":"jah-WAH-bahn"}
+{"id":"id.c0409","deck":"id.d.top-nouns","ind":"hewan","rom":"HEH-wahn"}
+{"id":"id.c0410","deck":"id.d.top-nouns","ind":"baju","rom":"BAH-joo"}
+{"id":"id.c0411","deck":"id.d.top-nouns","ind":"tamu","rom":"TAH-moo"}
+{"id":"id.c0412","deck":"id.d.top-nouns","ind":"sepatu","rom":"suh-PAH-too"}
+{"id":"id.c0413","deck":"id.d.top-nouns","ind":"suami","rom":"soo-AH-mee"}
+{"id":"id.c0414","deck":"id.d.top-nouns","ind":"harga","rom":"HAHR-gah"}
+{"id":"id.c0415","deck":"id.d.top-nouns","ind":"sungai","rom":"SOO-ngai"}
+{"id":"id.c0416","deck":"id.d.top-nouns","ind":"hujan","rom":"HOO-jahn"}
+{"id":"id.c0417","deck":"id.d.top-nouns","ind":"kucing","rom":"KOO-cheeng"}
+{"id":"id.c0418","deck":"id.d.top-nouns","ind":"tas","rom":"tahs"}
+{"id":"id.c0419","deck":"id.d.top-nouns","ind":"desa","rom":"DEH-sah"}
+{"id":"id.c0420","deck":"id.d.top-nouns","ind":"kursi","rom":"KOOR-see"}
+{"id":"id.c0421","deck":"id.d.top-nouns","ind":"jendela","rom":"juhn-DEH-lah"}
+{"id":"id.c0422","deck":"id.d.top-nouns","ind":"gunung","rom":"GOO-noong"}
+{"id":"id.c0423","deck":"id.d.top-nouns","ind":"kakek","rom":"KAH-kehq"}
+{"id":"id.c0424","deck":"id.d.top-nouns","ind":"adik","rom":"AH-deeq"}
+{"id":"id.c0425","deck":"id.d.top-nouns","ind":"ayam","rom":"AH-yahm"}
+{"id":"id.c0426","deck":"id.d.top-nouns","ind":"teh","rom":"tehh"}
+{"id":"id.c0427","deck":"id.d.top-nouns","ind":"stasiun","rom":"stah-SEE-oon"}
+{"id":"id.c0428","deck":"id.d.top-nouns","ind":"buah","rom":"BOO-ahh"}
+{"id":"id.c0429","deck":"id.d.top-nouns","ind":"tiket","rom":"TEE-keht"}
+{"id":"id.c0430","deck":"id.d.top-nouns","ind":"bus","rom":"boos"}
+{"id":"id.c0431","deck":"id.d.top-nouns","ind":"telur","rom":"tuh-LOOR"}
+{"id":"id.c0432","deck":"id.d.top-nouns","ind":"badan","rom":"BAH-dahn"}
+{"id":"id.c0433","deck":"id.d.top-nouns","ind":"liburan","rom":"lee-BOO-rahn"}
+{"id":"id.c0434","deck":"id.d.top-nouns","ind":"pasar","rom":"PAH-sahr"}
+{"id":"id.c0435","deck":"id.d.top-nouns","ind":"alamat","rom":"ah-LAH-maht"}
+{"id":"id.c0436","deck":"id.d.top-nouns","ind":"murid","rom":"MOO-reed"}
+{"id":"id.c0437","deck":"id.d.top-nouns","ind":"cuaca","rom":"choo-AH-chah"}
+{"id":"id.c0438","deck":"id.d.top-nouns","ind":"motor","rom":"MOH-tohr"}
+{"id":"id.c0439","deck":"id.d.top-nouns","ind":"tetangga","rom":"tuh-TAHNG-gah"}
+{"id":"id.c0440","deck":"id.d.top-nouns","ind":"mahasiswa","rom":"mah-hah-SEES-wah"}
+{"id":"id.c0441","deck":"id.d.top-nouns","ind":"gula","rom":"GOO-lah"}
+{"id":"id.c0442","deck":"id.d.top-nouns","ind":"nasi","rom":"NAH-see"}
+{"id":"id.c0443","deck":"id.d.top-nouns","ind":"sayur","rom":"SAH-yoor"}
+{"id":"id.c0444","deck":"id.d.top-nouns","ind":"ulang tahun","rom":"OO-lahng TAH-hoon"}
+{"id":"id.c0445","deck":"id.d.top-verbs","ind":"bisa","rom":"BEE-sah"}
+{"id":"id.c0446","deck":"id.d.top-verbs","ind":"ada","rom":"AH-dah"}
+{"id":"id.c0447","deck":"id.d.top-verbs","ind":"tahu","rom":"TAH-hoo"}
+{"id":"id.c0448","deck":"id.d.top-verbs","ind":"harus","rom":"HAH-roos"}
+{"id":"id.c0449","deck":"id.d.top-verbs","ind":"adalah","rom":"ah-DAH-lahh"}
+{"id":"id.c0450","deck":"id.d.top-verbs","ind":"ingin","rom":"EE-ngeen"}
+{"id":"id.c0451","deck":"id.d.top-verbs","ind":"pergi","rom":"puhr-GHEE"}
+{"id":"id.c0452","deck":"id.d.top-verbs","ind":"punya","rom":"POO-nyah"}
+{"id":"id.c0453","deck":"id.d.top-verbs","ind":"melakukan","rom":"muh-lah-KOO-kahn"}
+{"id":"id.c0454","deck":"id.d.top-verbs","ind":"mau","rom":"mow"}
+{"id":"id.c0455","deck":"id.d.top-verbs","ind":"kembali","rom":"kuhm-BAH-lee"}
+{"id":"id.c0456","deck":"id.d.top-verbs","ind":"datang","rom":"DAH-tahng"}
+{"id":"id.c0457","deck":"id.d.top-verbs","ind":"menjadi","rom":"muhn-JAH-dee"}
+{"id":"id.c0458","deck":"id.d.top-verbs","ind":"melihat","rom":"muh-LEE-haht"}
+{"id":"id.c0459","deck":"id.d.top-verbs","ind":"terjadi","rom":"tuhr-JAH-dee"}
+{"id":"id.c0460","deck":"id.d.top-verbs","ind":"bilang","rom":"BEE-lahng"}
+{"id":"id.c0461","deck":"id.d.top-verbs","ind":"keluar","rom":"kuh-LOO-ahr"}
+{"id":"id.c0462","deck":"id.d.top-verbs","ind":"membuat","rom":"muhm-BOO-aht"}
+{"id":"id.c0463","deck":"id.d.top-verbs","ind":"mati","rom":"MAH-tee"}
+{"id":"id.c0464","deck":"id.d.top-verbs","ind":"mendapat","rom":"muhn-DAH-paht"}
+{"id":"id.c0465","deck":"id.d.top-verbs","ind":"mengatakan","rom":"muh-ngah-TAH-kahn"}
+{"id":"id.c0466","deck":"id.d.top-verbs","ind":"hidup","rom":"HEE-doop"}
+{"id":"id.c0467","deck":"id.d.top-verbs","ind":"perlu","rom":"puhr-LOO"}
+{"id":"id.c0468","deck":"id.d.top-verbs","ind":"menunggu","rom":"muh-NOONG-goo"}
+{"id":"id.c0469","deck":"id.d.top-verbs","ind":"masuk","rom":"MAH-sooq"}
+{"id":"id.c0470","deck":"id.d.top-verbs","ind":"mendengar","rom":"muhn-duh-NGAHR"}
+{"id":"id.c0471","deck":"id.d.top-verbs","ind":"berpikir","rom":"buhr-PEE-keer"}
+{"id":"id.c0472","deck":"id.d.top-verbs","ind":"berbicara","rom":"buhr-bee-CHAH-rah"}
+{"id":"id.c0473","deck":"id.d.top-verbs","ind":"suka","rom":"SOO-kah"}
+{"id":"id.c0474","deck":"id.d.top-verbs","ind":"mengerti","rom":"muh-nguhr-TEE"}
+{"id":"id.c0475","deck":"id.d.top-verbs","ind":"menemukan","rom":"muh-nuh-MOO-kahn"}
+{"id":"id.c0476","deck":"id.d.top-verbs","ind":"bertemu","rom":"buhr-tuh-MOO"}
+{"id":"id.c0477","deck":"id.d.top-verbs","ind":"percaya","rom":"puhr-CHAH-yah"}
+{"id":"id.c0478","deck":"id.d.top-verbs","ind":"makan","rom":"MAH-kahn"}
+{"id":"id.c0479","deck":"id.d.top-verbs","ind":"tinggal","rom":"TEENG-gahl"}
+{"id":"id.c0480","deck":"id.d.top-verbs","ind":"bekerja","rom":"buh-kuhr-JAH"}
+{"id":"id.c0481","deck":"id.d.top-verbs","ind":"berhenti","rom":"buhr-huhn-TEE"}
+{"id":"id.c0482","deck":"id.d.top-verbs","ind":"mulai","rom":"MOO-lai"}
+{"id":"id.c0483","deck":"id.d.top-verbs","ind":"mengambil","rom":"muh-NGAHM-beel"}
+{"id":"id.c0484","deck":"id.d.top-verbs","ind":"boleh","rom":"BOH-lehh"}
+{"id":"id.c0485","deck":"id.d.top-verbs","ind":"merasa","rom":"muh-RAH-sah"}
+{"id":"id.c0486","deck":"id.d.top-verbs","ind":"mencari","rom":"muhn-CHAH-ree"}
+{"id":"id.c0487","deck":"id.d.top-verbs","ind":"butuh","rom":"BOO-tooh"}
+{"id":"id.c0488","deck":"id.d.top-verbs","ind":"mencoba","rom":"muhn-CHOH-bah"}
+{"id":"id.c0489","deck":"id.d.top-verbs","ind":"membawa","rom":"muhm-BAH-wah"}
+{"id":"id.c0490","deck":"id.d.top-verbs","ind":"ingat","rom":"EE-ngaht"}
+{"id":"id.c0491","deck":"id.d.top-verbs","ind":"tidur","rom":"TEE-door"}
+{"id":"id.c0492","deck":"id.d.top-verbs","ind":"pulang","rom":"POO-lahng"}
+{"id":"id.c0493","deck":"id.d.top-verbs","ind":"meminta","rom":"muh-MEEN-tah"}
+{"id":"id.c0494","deck":"id.d.top-verbs","ind":"membantu","rom":"muhm-BAHN-too"}
+{"id":"id.c0495","deck":"id.d.top-verbs","ind":"memberi","rom":"muhm-buh-REE"}
+{"id":"id.c0496","deck":"id.d.top-verbs","ind":"kehilangan","rom":"kuh-hee-LAH-ngahn"}
+{"id":"id.c0497","deck":"id.d.top-verbs","ind":"ikut","rom":"EE-koot"}
+{"id":"id.c0498","deck":"id.d.top-verbs","ind":"selesai","rom":"suh-luh-SAI"}
+{"id":"id.c0499","deck":"id.d.top-verbs","ind":"duduk","rom":"DOO-dooq"}
+{"id":"id.c0500","deck":"id.d.top-verbs","ind":"minum","rom":"MEE-noom"}
+{"id":"id.c0501","deck":"id.d.top-verbs","ind":"menggunakan","rom":"muhng-goo-NAH-kahn"}
+{"id":"id.c0502","deck":"id.d.top-verbs","ind":"berjalan","rom":"buhr-JAH-lahn"}
+{"id":"id.c0503","deck":"id.d.top-verbs","ind":"bermain","rom":"buhr-MAH-een"}
+{"id":"id.c0504","deck":"id.d.top-verbs","ind":"jatuh","rom":"JAH-tooh"}
+{"id":"id.c0505","deck":"id.d.top-verbs","ind":"bertanya","rom":"buhr-TAH-nyah"}
+{"id":"id.c0506","deck":"id.d.top-verbs","ind":"bangun","rom":"BAH-ngoon"}
+{"id":"id.c0507","deck":"id.d.top-verbs","ind":"berlari","rom":"buhr-LAH-ree"}
+{"id":"id.c0508","deck":"id.d.top-verbs","ind":"menikah","rom":"muh-NEE-kahh"}
+{"id":"id.c0509","deck":"id.d.top-verbs","ind":"belajar","rom":"buh-LAH-jahr"}
+{"id":"id.c0510","deck":"id.d.top-verbs","ind":"lupa","rom":"LOO-pah"}
+{"id":"id.c0511","deck":"id.d.top-verbs","ind":"naik","rom":"NAH-eeq"}
+{"id":"id.c0512","deck":"id.d.top-verbs","ind":"turun","rom":"TOO-roon"}
+{"id":"id.c0513","deck":"id.d.top-verbs","ind":"berdiri","rom":"buhr-DEE-ree"}
+{"id":"id.c0514","deck":"id.d.top-verbs","ind":"membuka","rom":"muhm-BOO-kah"}
+{"id":"id.c0515","deck":"id.d.top-verbs","ind":"memilih","rom":"muh-MEE-leeh"}
+{"id":"id.c0516","deck":"id.d.top-verbs","ind":"tiba","rom":"TEE-bah"}
+{"id":"id.c0517","deck":"id.d.top-verbs","ind":"memakai","rom":"muh-MAH-kai"}
+{"id":"id.c0518","deck":"id.d.top-verbs","ind":"menjawab","rom":"muhn-JAH-wahb"}
+{"id":"id.c0519","deck":"id.d.top-verbs","ind":"memesan","rom":"muh-muh-SAHN"}
+{"id":"id.c0520","deck":"id.d.top-verbs","ind":"mengenal","rom":"muh-nguh-NAHL"}
+{"id":"id.c0521","deck":"id.d.top-verbs","ind":"membayar","rom":"muhm-BAH-yahr"}
+{"id":"id.c0522","deck":"id.d.top-verbs","ind":"menutup","rom":"muh-NOO-toop"}
+{"id":"id.c0523","deck":"id.d.top-verbs","ind":"membeli","rom":"muhm-buh-LEE"}
+{"id":"id.c0524","deck":"id.d.top-verbs","ind":"menangis","rom":"muh-NAH-ngees"}
+{"id":"id.c0525","deck":"id.d.top-verbs","ind":"menulis","rom":"muh-NOO-lees"}
+{"id":"id.c0526","deck":"id.d.top-verbs","ind":"menelepon","rom":"muh-neh-LEH-pohn"}
+{"id":"id.c0527","deck":"id.d.top-verbs","ind":"membaca","rom":"muhm-BAH-chah"}
+{"id":"id.c0528","deck":"id.d.top-verbs","ind":"mengirim","rom":"muh-NGEE-reem"}
+{"id":"id.c0529","deck":"id.d.top-verbs","ind":"mendengarkan","rom":"muhn-duh-NGAHR-kahn"}
+{"id":"id.c0530","deck":"id.d.top-verbs","ind":"pindah","rom":"PEEN-dahh"}
+{"id":"id.c0531","deck":"id.d.top-verbs","ind":"mandi","rom":"MAHN-dee"}
+{"id":"id.c0532","deck":"id.d.top-verbs","ind":"tertawa","rom":"tuhr-TAH-wah"}
+{"id":"id.c0533","deck":"id.d.top-verbs","ind":"menonton","rom":"muh-NOHN-tohn"}
+{"id":"id.c0534","deck":"id.d.top-verbs","ind":"menjual","rom":"muhn-JOO-ahl"}
+{"id":"id.c0535","deck":"id.d.top-verbs","ind":"istirahat","rom":"ees-tee-RAH-haht"}
+{"id":"id.c0536","deck":"id.d.top-verbs","ind":"berangkat","rom":"buh-RAHNG-kaht"}
+{"id":"id.c0537","deck":"id.d.top-verbs","ind":"lahir","rom":"LAH-heer"}
+{"id":"id.c0538","deck":"id.d.top-verbs","ind":"menari","rom":"muh-NAH-ree"}
+{"id":"id.c0539","deck":"id.d.top-verbs","ind":"berenang","rom":"buh-ruh-NAHNG"}
+{"id":"id.c0540","deck":"id.d.top-verbs","ind":"memasak","rom":"muh-MAH-sahq"}
+{"id":"id.c0541","deck":"id.d.top-verbs","ind":"jalan-jalan","rom":"JAH-lahn JAH-lahn"}
+{"id":"id.c0542","deck":"id.d.top-verbs","ind":"mengantar","rom":"muh-NGAHN-tahr"}
+{"id":"id.c0543","deck":"id.d.top-verbs","ind":"mengajar","rom":"muh-NGAH-jahr"}
+{"id":"id.c0544","deck":"id.d.top-verbs","ind":"menyewa","rom":"muh-NYEH-wah"}
+{"id":"id.c0545","deck":"id.d.top-verbs","ind":"mencuci","rom":"muhn-CHOO-chee"}
+{"id":"id.c0546","deck":"id.d.top-verbs","ind":"menjemput","rom":"muhn-juhm-POOT"}
+{"id":"id.c0547","deck":"id.d.top-verbs","ind":"menginap","rom":"muh-NGEE-nahp"}
+{"id":"id.c0548","deck":"id.d.top-verbs","ind":"mengobrol","rom":"muh-NGOH-brohl"}
+{"id":"id.c0549","deck":"id.d.top-verbs","ind":"belanja","rom":"buh-LAHN-jah"}
+{"id":"id.c0550","deck":"id.d.top-adjectives","ind":"benar","rom":"buh-NAHR"}
+{"id":"id.c0551","deck":"id.d.top-adjectives","ind":"bagus","rom":"BAH-goos"}
+{"id":"id.c0552","deck":"id.d.top-adjectives","ind":"lain","rom":"LAH-een"}
+{"id":"id.c0553","deck":"id.d.top-adjectives","ind":"baru","rom":"BAH-roo"}
+{"id":"id.c0554","deck":"id.d.top-adjectives","ind":"sama","rom":"SAH-mah"}
+{"id":"id.c0555","deck":"id.d.top-adjectives","ind":"salah","rom":"SAH-lahh"}
+{"id":"id.c0556","deck":"id.d.top-adjectives","ind":"cepat","rom":"chuh-PAHT"}
+{"id":"id.c0557","deck":"id.d.top-adjectives","ind":"lama","rom":"LAH-mah"}
+{"id":"id.c0558","deck":"id.d.top-adjectives","ind":"kecil","rom":"kuh-CHEEL"}
+{"id":"id.c0559","deck":"id.d.top-adjectives","ind":"senang","rom":"suh-NAHNG"}
+{"id":"id.c0560","deck":"id.d.top-adjectives","ind":"buruk","rom":"BOO-rooq"}
+{"id":"id.c0561","deck":"id.d.top-adjectives","ind":"siap","rom":"SEE-ahp"}
+{"id":"id.c0562","deck":"id.d.top-adjectives","ind":"gila","rom":"GHEE-lah"}
+{"id":"id.c0563","deck":"id.d.top-adjectives","ind":"sakit","rom":"SAH-keet"}
+{"id":"id.c0564","deck":"id.d.top-adjectives","ind":"takut","rom":"TAH-koot"}
+{"id":"id.c0565","deck":"id.d.top-adjectives","ind":"biasa","rom":"bee-AH-sah"}
+{"id":"id.c0566","deck":"id.d.top-adjectives","ind":"bodoh","rom":"BOH-dohh"}
+{"id":"id.c0567","deck":"id.d.top-adjectives","ind":"jauh","rom":"JAH-ooh"}
+{"id":"id.c0568","deck":"id.d.top-adjectives","ind":"aneh","rom":"AH-nehh"}
+{"id":"id.c0569","deck":"id.d.top-adjectives","ind":"penting","rom":"puhn-TEENG"}
+{"id":"id.c0570","deck":"id.d.top-adjectives","ind":"tua","rom":"TOO-ah"}
+{"id":"id.c0571","deck":"id.d.top-adjectives","ind":"tenang","rom":"tuh-NAHNG"}
+{"id":"id.c0572","deck":"id.d.top-adjectives","ind":"aman","rom":"AH-mahn"}
+{"id":"id.c0573","deck":"id.d.top-adjectives","ind":"sulit","rom":"SOO-leet"}
+{"id":"id.c0574","deck":"id.d.top-adjectives","ind":"dekat","rom":"duh-KAHT"}
+{"id":"id.c0575","deck":"id.d.top-adjectives","ind":"mudah","rom":"MOO-dahh"}
+{"id":"id.c0576","deck":"id.d.top-adjectives","ind":"keras","rom":"kuh-RAHS"}
+{"id":"id.c0577","deck":"id.d.top-adjectives","ind":"serius","rom":"seh-REE-oos"}
+{"id":"id.c0578","deck":"id.d.top-adjectives","ind":"kuat","rom":"KOO-aht"}
+{"id":"id.c0579","deck":"id.d.top-adjectives","ind":"indah","rom":"EEN-dahh"}
+{"id":"id.c0580","deck":"id.d.top-adjectives","ind":"kosong","rom":"KOH-sohng"}
+{"id":"id.c0581","deck":"id.d.top-adjectives","ind":"marah","rom":"MAH-rahh"}
+{"id":"id.c0582","deck":"id.d.top-adjectives","ind":"muda","rom":"MOO-dah"}
+{"id":"id.c0583","deck":"id.d.top-adjectives","ind":"tinggi","rom":"TEENG-ghee"}
+{"id":"id.c0584","deck":"id.d.top-adjectives","ind":"penuh","rom":"puh-NOOH"}
+{"id":"id.c0585","deck":"id.d.top-adjectives","ind":"panas","rom":"PAH-nahs"}
+{"id":"id.c0586","deck":"id.d.top-adjectives","ind":"sempurna","rom":"suhm-POOR-nah"}
+{"id":"id.c0587","deck":"id.d.top-adjectives","ind":"jahat","rom":"JAH-haht"}
+{"id":"id.c0588","deck":"id.d.top-adjectives","ind":"dingin","rom":"DEE-ngeen"}
+{"id":"id.c0589","deck":"id.d.top-adjectives","ind":"berani","rom":"buh-RAH-nee"}
+{"id":"id.c0590","deck":"id.d.top-adjectives","ind":"hitam","rom":"HEE-tahm"}
+{"id":"id.c0591","deck":"id.d.top-adjectives","ind":"berat","rom":"buh-RAHT"}
+{"id":"id.c0592","deck":"id.d.top-adjectives","ind":"merah","rom":"MEH-rahh"}
+{"id":"id.c0593","deck":"id.d.top-adjectives","ind":"putih","rom":"POO-teeh"}
+{"id":"id.c0594","deck":"id.d.top-adjectives","ind":"sibuk","rom":"SEE-booq"}
+{"id":"id.c0595","deck":"id.d.top-adjectives","ind":"panjang","rom":"PAHN-jahng"}
+{"id":"id.c0596","deck":"id.d.top-adjectives","ind":"gelap","rom":"guh-LAHP"}
+{"id":"id.c0597","deck":"id.d.top-adjectives","ind":"nyaman","rom":"NYAH-mahn"}
+{"id":"id.c0598","deck":"id.d.top-adjectives","ind":"lapar","rom":"LAH-pahr"}
+{"id":"id.c0599","deck":"id.d.top-adjectives","ind":"kaya","rom":"KAH-yah"}
+{"id":"id.c0600","deck":"id.d.top-adjectives","ind":"lemah","rom":"luh-MAHH"}
+{"id":"id.c0601","deck":"id.d.top-adjectives","ind":"sedih","rom":"suh-DEEH"}
+{"id":"id.c0602","deck":"id.d.top-adjectives","ind":"bersih","rom":"buhr-SEEH"}
+{"id":"id.c0603","deck":"id.d.top-adjectives","ind":"biru","rom":"BEE-roo"}
+{"id":"id.c0604","deck":"id.d.top-adjectives","ind":"kotor","rom":"KOH-tohr"}
+{"id":"id.c0605","deck":"id.d.top-adjectives","ind":"sehat","rom":"suh-HAHT"}
+{"id":"id.c0606","deck":"id.d.top-adjectives","ind":"jelek","rom":"juh-LEHQ"}
+{"id":"id.c0607","deck":"id.d.top-adjectives","ind":"mahal","rom":"MAH-hahl"}
+{"id":"id.c0608","deck":"id.d.top-adjectives","ind":"hijau","rom":"HEE-jow"}
+{"id":"id.c0609","deck":"id.d.top-adjectives","ind":"hangat","rom":"HAH-ngaht"}
+{"id":"id.c0610","deck":"id.d.top-adjectives","ind":"sopan","rom":"SOH-pahn"}
+{"id":"id.c0611","deck":"id.d.top-adjectives","ind":"sabar","rom":"SAH-bahr"}
+{"id":"id.c0612","deck":"id.d.top-adjectives","ind":"terang","rom":"tuh-RAHNG"}
+{"id":"id.c0613","deck":"id.d.top-adjectives","ind":"segar","rom":"suh-GAHR"}
+{"id":"id.c0614","deck":"id.d.top-adjectives","ind":"miskin","rom":"MEES-keen"}
+{"id":"id.c0615","deck":"id.d.top-adjectives","ind":"pendek","rom":"PEHN-dehq"}
+{"id":"id.c0616","deck":"id.d.top-adjectives","ind":"susah","rom":"SOO-sahh"}
+{"id":"id.c0617","deck":"id.d.top-adjectives","ind":"basah","rom":"BAH-sahh"}
+{"id":"id.c0618","deck":"id.d.top-adjectives","ind":"murah","rom":"MOO-rahh"}
+{"id":"id.c0619","deck":"id.d.top-adjectives","ind":"kering","rom":"kuh-REENG"}
+{"id":"id.c0620","deck":"id.d.top-adjectives","ind":"kuning","rom":"KOO-neeng"}
+{"id":"id.c0621","deck":"id.d.top-adjectives","ind":"ringan","rom":"REE-ngahn"}
+{"id":"id.c0622","deck":"id.d.top-adjectives","ind":"pelan","rom":"puh-LAHN"}
+{"id":"id.c0623","deck":"id.d.top-adjectives","ind":"ramah","rom":"RAH-mahh"}
+{"id":"id.c0624","deck":"id.d.top-adjectives","ind":"haus","rom":"HAH-oos"}
+{"id":"id.c0625","deck":"id.d.top-adjectives","ind":"ramai","rom":"RAH-mai"}
+{"id":"id.c0626","deck":"id.d.top-adjectives","ind":"sepi","rom":"suh-PEE"}
+{"id":"id.c0627","deck":"id.d.top-adjectives","ind":"capek","rom":"CHAH-pehq"}
+{"id":"id.c0628","deck":"id.d.top-adjectives","ind":"pedas","rom":"puh-DAHS"}
+{"id":"id.c0629","deck":"id.d.top-adjectives","ind":"malas","rom":"MAH-lahs"}
+{"id":"id.c0630","deck":"id.d.top-adjectives","ind":"asin","rom":"AH-seen"}
+{"id":"id.c0631","deck":"id.d.top-adjectives","ind":"rajin","rom":"RAH-jeen"}
+{"id":"id.c0632","deck":"id.d.top-adjectives","ind":"luar biasa","rom":"LOO-ahr bee-AH-sah"}
+{"id":"id.c0633","deck":"id.d.top-adverbs","ind":"akan","rom":"AH-kahn"}
+{"id":"id.c0634","deck":"id.d.top-adverbs","ind":"sudah","rom":"SOO-dahh"}
+{"id":"id.c0635","deck":"id.d.top-adverbs","ind":"saja","rom":"SAH-jah"}
+{"id":"id.c0636","deck":"id.d.top-adverbs","ind":"hanya","rom":"HAH-nyah"}
+{"id":"id.c0637","deck":"id.d.top-adverbs","ind":"sekarang","rom":"suh-KAH-rahng"}
+{"id":"id.c0638","deck":"id.d.top-adverbs","ind":"sini","rom":"SEE-nee"}
+{"id":"id.c0639","deck":"id.d.top-adverbs","ind":"lagi","rom":"LAH-ghee"}
+{"id":"id.c0640","deck":"id.d.top-adverbs","ind":"lebih","rom":"luh-BEEH"}
+{"id":"id.c0641","deck":"id.d.top-adverbs","ind":"mungkin","rom":"MOONG-keen"}
+{"id":"id.c0642","deck":"id.d.top-adverbs","ind":"sangat","rom":"SAH-ngaht"}
+{"id":"id.c0643","deck":"id.d.top-adverbs","ind":"juga","rom":"JOO-gah"}
+{"id":"id.c0644","deck":"id.d.top-adverbs","ind":"pernah","rom":"puhr-NAHH"}
+{"id":"id.c0645","deck":"id.d.top-adverbs","ind":"masih","rom":"MAH-seeh"}
+{"id":"id.c0646","deck":"id.d.top-adverbs","ind":"sana","rom":"SAH-nah"}
+{"id":"id.c0647","deck":"id.d.top-adverbs","ind":"sedang","rom":"suh-DAHNG"}
+{"id":"id.c0648","deck":"id.d.top-adverbs","ind":"sekali","rom":"suh-KAH-lee"}
+{"id":"id.c0649","deck":"id.d.top-adverbs","ind":"sendiri","rom":"suhn-DEE-ree"}
+{"id":"id.c0650","deck":"id.d.top-adverbs","ind":"pasti","rom":"PAHS-tee"}
+{"id":"id.c0651","deck":"id.d.top-adverbs","ind":"benar-benar","rom":"buh-NAHR buh-NAHR"}
+{"id":"id.c0652","deck":"id.d.top-adverbs","ind":"tentu","rom":"tuhn-TOO"}
+{"id":"id.c0653","deck":"id.d.top-adverbs","ind":"cukup","rom":"CHOO-koop"}
+{"id":"id.c0654","deck":"id.d.top-adverbs","ind":"selalu","rom":"suh-LAH-loo"}
+{"id":"id.c0655","deck":"id.d.top-adverbs","ind":"bahkan","rom":"BAHH-kahn"}
+{"id":"id.c0656","deck":"id.d.top-adverbs","ind":"terlalu","rom":"tuhr-LAH-loo"}
+{"id":"id.c0657","deck":"id.d.top-adverbs","ind":"tetap","rom":"tuh-TAHP"}
+{"id":"id.c0658","deck":"id.d.top-adverbs","ind":"bersama","rom":"buhr-SAH-mah"}
+{"id":"id.c0659","deck":"id.d.top-adverbs","ind":"sebenarnya","rom":"suh-buh-NAHR-nyah"}
+{"id":"id.c0660","deck":"id.d.top-adverbs","ind":"dulu","rom":"DOO-loo"}
+{"id":"id.c0661","deck":"id.d.top-adverbs","ind":"kemudian","rom":"kuh-moo-DEE-ahn"}
+{"id":"id.c0662","deck":"id.d.top-adverbs","ind":"terus","rom":"tuh-ROOS"}
+{"id":"id.c0663","deck":"id.d.top-adverbs","ind":"segera","rom":"suh-guh-RAH"}
+{"id":"id.c0664","deck":"id.d.top-adverbs","ind":"memang","rom":"muh-MAHNG"}
+{"id":"id.c0665","deck":"id.d.top-adverbs","ind":"sebentar","rom":"suh-buhn-TAHR"}
+{"id":"id.c0666","deck":"id.d.top-adverbs","ind":"nanti","rom":"NAHN-tee"}
+{"id":"id.c0667","deck":"id.d.top-adverbs","ind":"paling","rom":"PAH-leeng"}
+{"id":"id.c0668","deck":"id.d.top-adverbs","ind":"tadi","rom":"TAH-dee"}
+{"id":"id.c0669","deck":"id.d.top-adverbs","ind":"cuma","rom":"CHOO-mah"}
+{"id":"id.c0670","deck":"id.d.top-adverbs","ind":"hampir","rom":"HAHM-peer"}
+{"id":"id.c0671","deck":"id.d.top-adverbs","ind":"akhirnya","rom":"ah-KHEER-nyah"}
+{"id":"id.c0672","deck":"id.d.top-adverbs","ind":"langsung","rom":"LAHNG-soong"}
+{"id":"id.c0673","deck":"id.d.top-adverbs","ind":"sering","rom":"suh-REENG"}
+{"id":"id.c0674","deck":"id.d.top-adverbs","ind":"kurang","rom":"KOO-rahng"}
+{"id":"id.c0675","deck":"id.d.top-adverbs","ind":"agak","rom":"AH-gahq"}
+{"id":"id.c0676","deck":"id.d.top-adverbs","ind":"biasanya","rom":"bee-ah-SAH-nyah"}
+{"id":"id.c0677","deck":"id.d.top-adverbs","ind":"tiba-tiba","rom":"TEE-bah TEE-bah"}
+{"id":"id.c0678","deck":"id.d.top-adverbs","ind":"situ","rom":"SEE-too"}
+{"id":"id.c0679","deck":"id.d.top-adverbs","ind":"kadang-kadang","rom":"KAH-dahng KAH-dahng"}
+{"id":"id.c0680","deck":"id.d.top-adverbs","ind":"pelan-pelan","rom":"puh-LAHN puh-LAHN"}
+{"id":"id.c0681","deck":"id.d.top-adverbs","ind":"jarang","rom":"JAH-rahng"}
+{"id":"id.c0682","deck":"id.d.top-adverbs","ind":"banget","rom":"BAH-nguht"}
+{"id":"id.c0683","deck":"id.d.top-pronouns","ind":"yang","rom":"yahng"}
+{"id":"id.c0684","deck":"id.d.top-pronouns","ind":"ini","rom":"EE-nee"}
+{"id":"id.c0685","deck":"id.d.top-pronouns","ind":"itu","rom":"EE-too"}
+{"id":"id.c0686","deck":"id.d.top-pronouns","ind":"apa","rom":"AH-pah"}
+{"id":"id.c0687","deck":"id.d.top-pronouns","ind":"mereka","rom":"muh-REH-kah"}
+{"id":"id.c0688","deck":"id.d.top-pronouns","ind":"Anda","rom":"AHN-dah"}
+{"id":"id.c0689","deck":"id.d.top-pronouns","ind":"saya","rom":"SAH-yah"}
+{"id":"id.c0690","deck":"id.d.top-pronouns","ind":"semua","rom":"suh-MOO-ah"}
+{"id":"id.c0691","deck":"id.d.top-pronouns","ind":"kalian","rom":"kah-LEE-ahn"}
+{"id":"id.c0692","deck":"id.d.top-pronouns","ind":"siapa","rom":"see-AH-pah"}
+{"id":"id.c0693","deck":"id.d.top-pronouns","ind":"sesuatu","rom":"suh-soo-AH-too"}
+{"id":"id.c0694","deck":"id.d.top-pronouns","ind":"mana","rom":"MAH-nah"}
+{"id":"id.c0695","deck":"id.d.top-pronouns","ind":"semuanya","rom":"suh-moo-AH-nyah"}
+{"id":"id.c0696","deck":"id.d.top-pronouns","ind":"ia","rom":"EE-ah"}
+{"id":"id.c0697","deck":"id.d.top-pronouns","ind":"Pak","rom":"pahq"}
+{"id":"id.c0698","deck":"id.d.top-pronouns","ind":"seseorang","rom":"suh-suh-OH-rahng"}
+{"id":"id.c0699","deck":"id.d.top-pronouns","ind":"apa-apa","rom":"AH-pah AH-pah"}
+{"id":"id.c0700","deck":"id.d.top-pronouns","ind":"-ku","rom":"koo"}
+{"id":"id.c0701","deck":"id.d.top-pronouns","ind":"diri","rom":"DEE-ree"}
+{"id":"id.c0702","deck":"id.d.top-pronouns","ind":"-mu","rom":"moo"}
+{"id":"id.c0703","deck":"id.d.top-pronouns","ind":"-nya","rom":"nyah"}
+{"id":"id.c0704","deck":"id.d.top-pronouns","ind":"Bu","rom":"boo"}
+{"id":"id.c0705","deck":"id.d.top-pronouns","ind":"milik","rom":"MEE-leeq"}
+{"id":"id.c0706","deck":"id.d.top-pronouns","ind":"masing-masing","rom":"MAH-seeng MAH-seeng"}
+{"id":"id.c0707","deck":"id.d.top-pronouns","ind":"Kak","rom":"kahq"}
+{"id":"id.c0708","deck":"id.d.top-pronouns","ind":"beliau","rom":"buh-LEE-ow"}
+{"id":"id.c0709","deck":"id.d.top-pronouns","ind":"siapa-siapa","rom":"see-AH-pah see-AH-pah"}
+{"id":"id.c0710","deck":"id.d.top-pronouns","ind":"kau","rom":"kow"}
+{"id":"id.c0711","deck":"id.d.top-prepositions","ind":"di","rom":"dee"}
+{"id":"id.c0712","deck":"id.d.top-prepositions","ind":"untuk","rom":"OON-tooq"}
+{"id":"id.c0713","deck":"id.d.top-prepositions","ind":"dengan","rom":"duh-NGAHN"}
+{"id":"id.c0714","deck":"id.d.top-prepositions","ind":"dari","rom":"DAH-ree"}
+{"id":"id.c0715","deck":"id.d.top-prepositions","ind":"ke","rom":"kuh"}
+{"id":"id.c0716","deck":"id.d.top-prepositions","ind":"seperti","rom":"suh-puhr-TEE"}
+{"id":"id.c0717","deck":"id.d.top-prepositions","ind":"dalam","rom":"DAH-lahm"}
+{"id":"id.c0718","deck":"id.d.top-prepositions","ind":"pada","rom":"PAH-dah"}
+{"id":"id.c0719","deck":"id.d.top-prepositions","ind":"tentang","rom":"tuhn-TAHNG"}
+{"id":"id.c0720","deck":"id.d.top-prepositions","ind":"sampai","rom":"SAHM-pai"}
+{"id":"id.c0721","deck":"id.d.top-prepositions","ind":"oleh","rom":"OH-lehh"}
+{"id":"id.c0722","deck":"id.d.top-prepositions","ind":"atas","rom":"AH-tahs"}
+{"id":"id.c0723","deck":"id.d.top-prepositions","ind":"selama","rom":"suh-LAH-mah"}
+{"id":"id.c0724","deck":"id.d.top-prepositions","ind":"tanpa","rom":"TAHN-pah"}
+{"id":"id.c0725","deck":"id.d.top-prepositions","ind":"kepada","rom":"kuh-PAH-dah"}
+{"id":"id.c0726","deck":"id.d.top-prepositions","ind":"bagi","rom":"BAH-ghee"}
+{"id":"id.c0727","deck":"id.d.top-prepositions","ind":"sejak","rom":"suh-JAHQ"}
+{"id":"id.c0728","deck":"id.d.top-prepositions","ind":"sekitar","rom":"suh-KEE-tahr"}
+{"id":"id.c0729","deck":"id.d.top-prepositions","ind":"daripada","rom":"dah-ree-PAH-dah"}
+{"id":"id.c0730","deck":"id.d.top-prepositions","ind":"menuju","rom":"muh-NOO-joo"}
+{"id":"id.c0731","deck":"id.d.top-prepositions","ind":"antara","rom":"ahn-TAH-rah"}
+{"id":"id.c0732","deck":"id.d.top-prepositions","ind":"lewat","rom":"LEH-waht"}
+{"id":"id.c0733","deck":"id.d.top-prepositions","ind":"menurut","rom":"muh-NOO-root"}
+{"id":"id.c0734","deck":"id.d.top-prepositions","ind":"di luar","rom":"dee LOO-ahr"}
+{"id":"id.c0735","deck":"id.d.top-prepositions","ind":"di dalam","rom":"dee DAH-lahm"}
+{"id":"id.c0736","deck":"id.d.top-prepositions","ind":"di bawah","rom":"dee BAH-wahh"}
+{"id":"id.c0737","deck":"id.d.top-prepositions","ind":"di atas","rom":"dee AH-tahs"}
+{"id":"id.c0738","deck":"id.d.top-prepositions","ind":"di belakang","rom":"dee buh-LAH-kahng"}
+{"id":"id.c0739","deck":"id.d.top-prepositions","ind":"di depan","rom":"dee duh-PAHN"}
+{"id":"id.c0740","deck":"id.d.top-prepositions","ind":"di sebelah","rom":"dee suh-buh-LAHH"}
+{"id":"id.c0741","deck":"id.d.top-conjunctions","ind":"dan","rom":"dahn"}
+{"id":"id.c0742","deck":"id.d.top-conjunctions","ind":"tapi","rom":"TAH-pee"}
+{"id":"id.c0743","deck":"id.d.top-conjunctions","ind":"jika","rom":"JEE-kah"}
+{"id":"id.c0744","deck":"id.d.top-conjunctions","ind":"saat","rom":"SAH-aht"}
+{"id":"id.c0745","deck":"id.d.top-conjunctions","ind":"atau","rom":"AH-tow"}
+{"id":"id.c0746","deck":"id.d.top-conjunctions","ind":"bahwa","rom":"BAHH-wah"}
+{"id":"id.c0747","deck":"id.d.top-conjunctions","ind":"ketika","rom":"kuh-TEE-kah"}
+{"id":"id.c0748","deck":"id.d.top-conjunctions","ind":"setelah","rom":"suh-tuh-LAHH"}
+{"id":"id.c0749","deck":"id.d.top-conjunctions","ind":"sebelum","rom":"suh-buh-LOOM"}
+{"id":"id.c0750","deck":"id.d.top-conjunctions","ind":"maka","rom":"MAH-kah"}
+{"id":"id.c0751","deck":"id.d.top-conjunctions","ind":"agar","rom":"AH-gahr"}
+{"id":"id.c0752","deck":"id.d.top-conjunctions","ind":"meskipun","rom":"muhs-KEE-poon"}
+{"id":"id.c0753","deck":"id.d.top-conjunctions","ind":"sehingga","rom":"suh-HEENG-gah"}
+{"id":"id.c0754","deck":"id.d.top-conjunctions","ind":"supaya","rom":"soo-PAH-yah"}
+{"id":"id.c0755","deck":"id.d.top-conjunctions","ind":"walaupun","rom":"wah-LOW-poon"}
+{"id":"id.c0756","deck":"id.d.top-conjunctions","ind":"sambil","rom":"SAHM-beel"}
+{"id":"id.c0757","deck":"id.d.top-conjunctions","ind":"asal","rom":"AH-sahl"}
+{"id":"id.c0758","deck":"id.d.top-conjunctions","ind":"serta","rom":"suhr-TAH"}
+{"id":"id.c0759","deck":"id.d.top-conjunctions","ind":"padahal","rom":"pah-DAH-hahl"}
+{"id":"id.c0760","deck":"id.d.top-conjunctions","ind":"apalagi","rom":"ah-pah-LAH-ghee"}
+{"id":"id.c0761","deck":"id.d.top-conjunctions","ind":"seandainya","rom":"suh-ahn-DAI-nyah"}
+{"id":"id.c0762","deck":"id.d.top-conjunctions","ind":"makanya","rom":"mah-KAH-nyah"}
+{"id":"id.c0763","deck":"id.d.top-conjunctions","ind":"sedangkan","rom":"suh-DAHNG-kahn"}
+{"id":"id.c0764","deck":"id.d.top-conjunctions","ind":"sesudah","rom":"suh-SOO-dahh"}
+{"id":"id.c0765","deck":"id.d.top-conjunctions","ind":"soalnya","rom":"soh-AHL-nyah"}
+{"id":"id.c0766","deck":"id.d.top-interjections","ind":"Oh.","rom":"ohh"}
+{"id":"id.c0767","deck":"id.d.top-interjections","ind":"Ayo!","rom":"AH-yoh"}
+{"id":"id.c0768","deck":"id.d.top-interjections","ind":"Hei!","rom":"hay"}
+{"id":"id.c0769","deck":"id.d.top-interjections","ind":"Oke.","rom":"OH-keh"}
+{"id":"id.c0770","deck":"id.d.top-interjections","ind":"Selamat!","rom":"suh-LAH-maht"}
+{"id":"id.c0771","deck":"id.d.top-interjections","ind":"Halo?","rom":"HAH-loh"}
+{"id":"id.c0772","deck":"id.d.top-interjections","ind":"Masa?","rom":"MAH-sah"}
+{"id":"id.c0773","deck":"id.d.top-interjections","ind":"Ah,","rom":"ahh"}
+{"id":"id.c0774","deck":"id.d.top-interjections","ind":"Astaga!","rom":"ahs-TAH-gah"}
+{"id":"id.c0775","deck":"id.d.top-interjections","ind":"Nah,","rom":"nahh"}
+{"id":"id.c0776","deck":"id.d.top-interjections","ind":"Eh,","rom":"ehh"}
+{"id":"id.c0777","deck":"id.d.top-interjections","ind":"Hah?","rom":"hahh"}
+{"id":"id.c0778","deck":"id.d.top-interjections","ind":"Ya ampun!","rom":"yah AHM-poon"}
+{"id":"id.c0779","deck":"id.d.top-interjections","ind":"Wah!","rom":"wahh"}
+{"id":"id.c0780","deck":"id.d.top-interjections","ind":"Kasihan!","rom":"kah-SEE-hahn"}
+{"id":"id.c0781","deck":"id.d.top-interjections","ind":"Syukurlah.","rom":"shoo-KOOR-lahh"}
+{"id":"id.c0782","deck":"id.d.top-interjections","ind":"Aduh!","rom":"AH-dooh"}
+{"id":"id.c0783","deck":"id.d.top-interjections","ind":"Amin.","rom":"AH-meen"}
+{"id":"id.c0784","deck":"id.d.top-interjections","ind":"Hore!","rom":"HOH-reh"}
+{"id":"id.c0785","deck":"id.d.top-interjections","ind":"Ups!","rom":"oops"}
+{"id":"id.c0786","deck":"id.d.top-interjections","ind":"Duh!","rom":"dooh"}
+{"id":"id.c0787","deck":"id.d.top-interjections","ind":"Yuk!","rom":"yooq"}
+{"id":"id.c0788","deck":"id.d.top-interjections","ind":"Sip!","rom":"seep"}
+{"id":"id.c0789","deck":"id.d.top-interjections","ind":"Waduh!","rom":"WAH-dooh"}
+{"id":"id.c0790","deck":"id.d.top-interjections","ind":"Insya Allah.","rom":"EEN-shah AHL-lahh"}
+{"id":"id.c0791","deck":"id.d.top-interjections","ind":"Alhamdulillah.","rom":"ahl-hahm-doo-LEEL-lahh"}
+{"id":"id.c0792","deck":"id.d.top-interjections","ind":"Cie!","rom":"CHEE-eh"}
+{"id":"id.c0793","deck":"id.d.top-interjections","ind":"Idih!","rom":"EE-deeh"}
+{"id":"id.c0794","deck":"id.d.top-words","ind":"ya","rom":"yah"}
+{"id":"id.c0795","deck":"id.d.top-words","ind":"bukan","rom":"BOO-kahn"}
+{"id":"id.c0796","deck":"id.d.top-words","ind":"bagaimana","rom":"bah-gai-MAH-nah"}
+{"id":"id.c0797","deck":"id.d.top-words","ind":"jangan","rom":"JAH-ngahn"}
+{"id":"id.c0798","deck":"id.d.top-words","ind":"apakah","rom":"ah-PAH-kahh"}
+{"id":"id.c0799","deck":"id.d.top-words","ind":"banyak","rom":"BAH-nyahq"}
+{"id":"id.c0800","deck":"id.d.top-words","ind":"beberapa","rom":"buh-buh-RAH-pah"}
+{"id":"id.c0801","deck":"id.d.top-words","ind":"mengapa","rom":"muh-NGAH-pah"}
+{"id":"id.c0802","deck":"id.d.top-words","ind":"di mana","rom":"dee MAH-nah"}
+{"id":"id.c0803","deck":"id.d.top-words","ind":"sedikit","rom":"suh-DEE-keet"}
+{"id":"id.c0804","deck":"id.d.top-words","ind":"setiap","rom":"suh-TEE-ahp"}
+{"id":"id.c0805","deck":"id.d.top-words","ind":"pertama","rom":"puhr-TAH-mah"}
+{"id":"id.c0806","deck":"id.d.top-words","ind":"para","rom":"PAH-rah"}
+{"id":"id.c0807","deck":"id.d.top-words","ind":"berapa","rom":"buh-RAH-pah"}
+{"id":"id.c0808","deck":"id.d.top-words","ind":"terakhir","rom":"tuh-RAH-kheer"}
+{"id":"id.c0809","deck":"id.d.top-words","ind":"seluruh","rom":"suh-LOO-rooh"}
+{"id":"id.c0810","deck":"id.d.top-words","ind":"ke mana","rom":"kuh MAH-nah"}
+{"id":"id.c0811","deck":"id.d.top-words","ind":"kedua","rom":"kuh-DOO-ah"}
+{"id":"id.c0812","deck":"id.d.top-words","ind":"ketiga","rom":"kuh-TEE-gah"}
+{"id":"id.c0813","deck":"id.d.top-words","ind":"tak","rom":"tahq"}
+{"id":"id.c0814","deck":"id.d.top-words","ind":"nol","rom":"nohl"}
+{"id":"id.c0815","deck":"id.d.top-words","ind":"satu","rom":"SAH-too"}
+{"id":"id.c0816","deck":"id.d.top-words","ind":"dua","rom":"DOO-ah"}
+{"id":"id.c0817","deck":"id.d.top-words","ind":"tiga","rom":"TEE-gah"}
+{"id":"id.c0818","deck":"id.d.top-words","ind":"empat","rom":"uhm-PAHT"}
+{"id":"id.c0819","deck":"id.d.top-words","ind":"lima","rom":"LEE-mah"}
+{"id":"id.c0820","deck":"id.d.top-words","ind":"enam","rom":"uh-NAHM"}
+{"id":"id.c0821","deck":"id.d.top-words","ind":"tujuh","rom":"TOO-jooh"}
+{"id":"id.c0822","deck":"id.d.top-words","ind":"delapan","rom":"duh-LAH-pahn"}
+{"id":"id.c0823","deck":"id.d.top-words","ind":"sembilan","rom":"suhm-BEE-lahn"}
+{"id":"id.c0824","deck":"id.d.top-words","ind":"tiga belas","rom":"TEE-gah buh-LAHS"}
+{"id":"id.c0825","deck":"id.d.top-words","ind":"empat belas","rom":"uhm-PAHT buh-LAHS"}
+{"id":"id.c0826","deck":"id.d.top-words","ind":"lima belas","rom":"LEE-mah buh-LAHS"}
+{"id":"id.c0827","deck":"id.d.top-words","ind":"enam belas","rom":"uh-NAHM buh-LAHS"}
+{"id":"id.c0828","deck":"id.d.top-words","ind":"tujuh belas","rom":"TOO-jooh buh-LAHS"}
+{"id":"id.c0829","deck":"id.d.top-words","ind":"delapan belas","rom":"duh-LAH-pahn buh-LAHS"}
+{"id":"id.c0830","deck":"id.d.top-words","ind":"sembilan belas","rom":"suhm-BEE-lahn buh-LAHS"}
+{"id":"id.c0831","deck":"id.d.top-words","ind":"dua puluh","rom":"DOO-ah POO-looh"}
+{"id":"id.c0832","deck":"id.d.top-words","ind":"Selasa","rom":"suh-LAH-sah"}
+{"id":"id.c0833","deck":"id.d.top-words","ind":"Rabu","rom":"RAH-boo"}
+{"id":"id.c0834","deck":"id.d.top-words","ind":"Kamis","rom":"KAH-mees"}
+{"id":"id.c0835","deck":"id.d.top-words","ind":"Sabtu","rom":"SAHB-too"}
+{"id":"id.c0836","deck":"id.d.top-words","ind":"pagi","rom":"PAH-ghee"}
+{"id":"id.c0837","deck":"id.d.top-words","ind":"siang","rom":"SEE-ahng"}
+{"id":"id.c0838","deck":"id.d.top-words","ind":"sore","rom":"SOH-reh"}
+{"id":"id.c0839","deck":"id.d.top-words","ind":"malam","rom":"MAH-lahm"}
+{"id":"id.c0840","deck":"id.d.top-words","ind":"lusa","rom":"LOO-sah"}
+{"id":"id.c0841","deck":"id.d.top-classifiers","ind":"seorang","rom":"suh-OH-rahng"}
+{"id":"id.c0842","deck":"id.d.top-classifiers","ind":"sebuah","rom":"suh-BOO-ahh"}
+{"id":"id.c0843","deck":"id.d.top-classifiers","ind":"sepotong","rom":"suh-POH-tohng"}
+{"id":"id.c0844","deck":"id.d.top-classifiers","ind":"sepasang","rom":"suh-PAH-sahng"}
+{"id":"id.c0845","deck":"id.d.top-classifiers","ind":"ekor","rom":"EH-kohr"}
+{"id":"id.c0846","deck":"id.d.top-classifiers","ind":"segelas","rom":"suh-guh-LAHS"}
+{"id":"id.c0847","deck":"id.d.top-classifiers","ind":"secangkir","rom":"suh-CHAHNG-keer"}
+{"id":"id.c0848","deck":"id.d.top-classifiers","ind":"sebotol","rom":"suh-BOH-tohl"}
+{"id":"id.c0849","deck":"id.d.top-classifiers","ind":"selembar","rom":"suh-luhm-BAHR"}
+{"id":"id.c0850","deck":"id.d.top-classifiers","ind":"sebatang","rom":"suh-BAH-tahng"}
+{"id":"id.c0851","deck":"id.d.top-classifiers","ind":"seporsi","rom":"suh-POHR-see"}
+{"id":"id.c0852","deck":"id.d.top-classifiers","ind":"semangkuk","rom":"suh-MAHNG-kooq"}
+{"id":"id.c0853","deck":"id.d.top-classifiers","ind":"sehelai","rom":"suh-huh-LAI"}
+{"id":"id.c0854","deck":"id.d.top-classifiers","ind":"sepiring","rom":"suh-PEE-reeng"}
+{"id":"id.c0855","deck":"id.d.top-classifiers","ind":"sebungkus","rom":"suh-BOONG-koos"}
+{"id":"id.c0856","deck":"id.d.top-classifiers","ind":"sebutir","rom":"suh-BOO-teer"}
+{"id":"id.c0857","deck":"id.d.top-classifiers","ind":"sebiji","rom":"suh-BEE-jee"}
+{"id":"id.c0858","deck":"id.d.top-classifiers","ind":"sekilo","rom":"suh-KEE-loh"}
+{"id":"id.c0859","deck":"id.d.compliments","ind":"Masakan Ibu enak sekali.","rom":"mah-SAH-kahn EE-boo EH-nahq suh-KAH-lee"}
+{"id":"id.c0860","deck":"id.d.compliments","ind":"Ibu pintar masak, ya.","rom":"EE-boo PEEN-tahr MAH-sahq yah"}
+{"id":"id.c0861","deck":"id.d.compliments","ind":"Boleh minta resepnya?","rom":"BOH-lehh MEEN-tah reh-SEHP-nyah"}
+{"id":"id.c0862","deck":"id.d.compliments","ind":"Bagus sekali!","rom":"BAH-goos suh-KAH-lee"}
+{"id":"id.c0863","deck":"id.d.compliments","ind":"Wah, kamu jago!","rom":"wahh KAH-moo JAH-goh"}
+{"id":"id.c0864","deck":"id.d.compliments","ind":"Wah, mantap!","rom":"wahh MAHN-tahp"}
+{"id":"id.c0865","deck":"id.d.compliments","ind":"Kerja bagus!","rom":"kuhr-JAH BAH-goos"}
+{"id":"id.c0866","deck":"id.d.compliments","ind":"Hasilnya bagus sekali.","rom":"hah-SEEL-nyah BAH-goos suh-KAH-lee"}
+{"id":"id.c0867","deck":"id.d.compliments","ind":"Ide bagus!","rom":"EE-deh BAH-goos"}
+{"id":"id.c0868","deck":"id.d.compliments","ind":"Kamu rajin sekali.","rom":"KAH-moo RAH-jeen suh-KAH-lee"}
+{"id":"id.c0869","deck":"id.d.compliments","ind":"Kamu sudah bekerja keras.","rom":"KAH-moo SOO-dahh buh-kuhr-JAH kuh-RAHS"}
+{"id":"id.c0870","deck":"id.d.compliments","ind":"Kamu baik sekali.","rom":"KAH-moo BAH-eeq suh-KAH-lee"}
+{"id":"id.c0871","deck":"id.d.compliments","ind":"Bapak ramah sekali.","rom":"BAH-pahq RAH-mahh suh-KAH-lee"}
+{"id":"id.c0872","deck":"id.d.compliments","ind":"Kamu lucu sekali!","rom":"KAH-moo LOO-choo suh-KAH-lee"}
+{"id":"id.c0873","deck":"id.d.compliments","ind":"Anak Ibu pintar sekali.","rom":"AH-nahq EE-boo PEEN-tahr suh-KAH-lee"}
+{"id":"id.c0874","deck":"id.d.compliments","ind":"Anaknya lucu sekali!","rom":"ah-NAHQ-nyah LOO-choo suh-KAH-lee"}
+{"id":"id.c0875","deck":"id.d.compliments","ind":"Rumah Ibu nyaman sekali.","rom":"ROO-mahh EE-boo NYAH-mahn suh-KAH-lee"}
+{"id":"id.c0876","deck":"id.d.compliments","ind":"Rumahnya rapi sekali.","rom":"roo-MAHH-nyah RAH-pee suh-KAH-lee"}
+{"id":"id.c0877","deck":"id.d.compliments","ind":"Kamu cocok pakai batik.","rom":"KAH-moo CHOH-chohq PAH-kai BAH-teeq"}
+{"id":"id.c0878","deck":"id.d.compliments","ind":"Bajunya bagus!","rom":"bah-JOO-nyah BAH-goos"}
+{"id":"id.c0879","deck":"id.d.compliments","ind":"Fotonya bagus!","rom":"foh-TOH-nyah BAH-goos"}
+{"id":"id.c0880","deck":"id.d.compliments","ind":"Bahasa Indonesianya lancar sekali!","rom":"bah-HAH-sah een-doh-neh-see-AH-nyah LAHN-chahr suh-KAH-lee"}
+{"id":"id.c0881","deck":"id.d.compliments","ind":"Wah, sudah bisa bahasa Indonesia!","rom":"wahh SOO-dahh BEE-sah bah-HAH-sah een-doh-neh-SEE-ah"}
+{"id":"id.c0882","deck":"id.d.compliments","ind":"Ah, biasa saja.","rom":"ahh bee-AH-sah SAH-jah"}
+{"id":"id.c0883","deck":"id.d.compliments","ind":"Ah, tidak juga.","rom":"ahh TEE-dahq JOO-gah"}
+{"id":"id.c0884","deck":"id.d.compliments","ind":"Ah, Ibu bisa saja.","rom":"ahh EE-boo BEE-sah SAH-jah"}
+{"id":"id.c0885","deck":"id.d.compliments","ind":"Belum lancar, masih belajar.","rom":"buh-LOOM LAHN-chahr MAH-seeh buh-LAH-jahr"}
+{"id":"id.c0886","deck":"id.d.compliments","ind":"Terima kasih atas pujiannya.","rom":"tuh-REE-mah KAH-seeh AH-tahs poo-jee-AHN-nyah"}
+{"id":"id.c0887","deck":"id.d.flirting","ind":"ganteng","rom":"GAHN-tuhng"}
+{"id":"id.c0888","deck":"id.d.flirting","ind":"cakep","rom":"CHAH-kuhp"}
+{"id":"id.c0889","deck":"id.d.flirting","ind":"manis","rom":"MAH-nees"}
+{"id":"id.c0890","deck":"id.d.flirting","ind":"lucu","rom":"LOO-choo"}
+{"id":"id.c0891","deck":"id.d.flirting","ind":"imut","rom":"EE-moot"}
+{"id":"id.c0892","deck":"id.d.flirting","ind":"keren","rom":"kuh-REHN"}
+{"id":"id.c0893","deck":"id.d.flirting","ind":"menarik","rom":"muh-NAH-reeq"}
+{"id":"id.c0894","deck":"id.d.flirting","ind":"pintar","rom":"PEEN-tahr"}
+{"id":"id.c0895","deck":"id.d.flirting","ind":"baik hati","rom":"BAH-eeq HAH-tee"}
+{"id":"id.c0896","deck":"id.d.flirting","ind":"seru","rom":"suh-ROO"}
+{"id":"id.c0897","deck":"id.d.flirting","ind":"senyum","rom":"suh-NYOOM"}
+{"id":"id.c0898","deck":"id.d.flirting","ind":"mata","rom":"MAH-tah"}
+{"id":"id.c0899","deck":"id.d.flirting","ind":"suara","rom":"soo-AH-rah"}
+{"id":"id.c0900","deck":"id.d.flirting","ind":"rambut","rom":"RAHM-boot"}
+{"id":"id.c0901","deck":"id.d.flirting","ind":"gaya","rom":"GAH-yah"}
+{"id":"id.c0902","deck":"id.d.flirting","ind":"sayang","rom":"SAH-yahng"}
+{"id":"id.c0903","deck":"id.d.flirting","ind":"kangen","rom":"KAH-nguhn"}
+{"id":"id.c0904","deck":"id.d.flirting","ind":"naksir","rom":"NAHK-seer"}
+{"id":"id.c0905","deck":"id.d.flirting","ind":"kencan","rom":"kuhn-CHAHN"}
+{"id":"id.c0906","deck":"id.d.flirting","ind":"jodoh","rom":"JOH-dohh"}
+{"id":"id.c0907","deck":"id.d.flirting","ind":"gombal","rom":"GOHM-bahl"}
+{"id":"id.c0908","deck":"id.d.flirting","ind":"cewek","rom":"CHEH-wehq"}
+{"id":"id.c0909","deck":"id.d.flirting","ind":"cowok","rom":"CHOH-wohq"}
+{"id":"id.c0910","deck":"id.d.flirting","ind":"Kamu cantik.","rom":"KAH-moo CHAHN-teeq"}
+{"id":"id.c0911","deck":"id.d.flirting","ind":"Kamu cantik sekali malam ini.","rom":"KAH-moo CHAHN-teeq suh-KAH-lee MAH-lahm EE-nee"}
+{"id":"id.c0912","deck":"id.d.flirting","ind":"Hari ini kamu cantik banget.","rom":"HAH-ree EE-nee KAH-moo CHAHN-teeq BAH-nguht"}
+{"id":"id.c0913","deck":"id.d.flirting","ind":"Kamu ganteng.","rom":"KAH-moo GAHN-tuhng"}
+{"id":"id.c0914","deck":"id.d.flirting","ind":"Kamu ganteng pakai kemeja itu.","rom":"KAH-moo GAHN-tuhng PAH-kai kuh-MEH-jah EE-too"}
+{"id":"id.c0915","deck":"id.d.flirting","ind":"Senyum kamu manis sekali.","rom":"suh-NYOOM KAH-moo MAH-nees suh-KAH-lee"}
+{"id":"id.c0916","deck":"id.d.flirting","ind":"Kamu manis kalau tersenyum.","rom":"KAH-moo MAH-nees KAH-low tuhr-suh-NYOOM"}
+{"id":"id.c0917","deck":"id.d.flirting","ind":"Kamu lucu kalau malu.","rom":"KAH-moo LOO-choo KAH-low MAH-loo"}
+{"id":"id.c0918","deck":"id.d.flirting","ind":"Kamu bikin aku ketawa terus.","rom":"KAH-moo BEE-keen AH-koo kuh-TAH-wah tuh-ROOS"}
+{"id":"id.c0919","deck":"id.d.flirting","ind":"Kamu menarik sekali.","rom":"KAH-moo muh-NAH-reeq suh-KAH-lee"}
+{"id":"id.c0920","deck":"id.d.flirting","ind":"Kamu orang yang menarik.","rom":"KAH-moo OH-rahng yahng muh-NAH-reeq"}
+{"id":"id.c0921","deck":"id.d.flirting","ind":"Gaya kamu keren.","rom":"GAH-yah KAH-moo kuh-REHN"}
+{"id":"id.c0922","deck":"id.d.flirting","ind":"Kamu keren banget.","rom":"KAH-moo kuh-REHN BAH-nguht"}
+{"id":"id.c0923","deck":"id.d.flirting","ind":"Mata kamu indah.","rom":"MAH-tah KAH-moo EEN-dahh"}
+{"id":"id.c0924","deck":"id.d.flirting","ind":"Aku suka mata kamu.","rom":"AH-koo SOO-kah MAH-tah KAH-moo"}
+{"id":"id.c0925","deck":"id.d.flirting","ind":"Suara kamu bagus.","rom":"soo-AH-rah KAH-moo BAH-goos"}
+{"id":"id.c0926","deck":"id.d.flirting","ind":"Suaramu enak didengar.","rom":"soo-ah-RAH-moo EH-nahq dee-duh-NGAHR"}
+{"id":"id.c0927","deck":"id.d.flirting","ind":"Rambut kamu bagus.","rom":"RAHM-boot KAH-moo BAH-goos"}
+{"id":"id.c0928","deck":"id.d.flirting","ind":"Kamu pintar, ya.","rom":"KAH-moo PEEN-tahr yah"}
+{"id":"id.c0929","deck":"id.d.flirting","ind":"Kamu baik hati sekali.","rom":"KAH-moo BAH-eeq HAH-tee suh-KAH-lee"}
+{"id":"id.c0930","deck":"id.d.flirting","ind":"Aku senang ngobrol sama kamu.","rom":"AH-koo suh-NAHNG NGOH-brohl SAH-mah KAH-moo"}
+{"id":"id.c0931","deck":"id.d.flirting","ind":"Kamu asyik diajak ngobrol.","rom":"KAH-moo AH-sheeq dee-AH-jahq NGOH-brohl"}
+{"id":"id.c0932","deck":"id.d.flirting","ind":"Aku kangen kamu.","rom":"AH-koo KAH-nguhn KAH-moo"}
+{"id":"id.c0933","deck":"id.d.flirting","ind":"Aku naksir kamu.","rom":"AH-koo NAHK-seer KAH-moo"}
+{"id":"id.c0934","deck":"id.d.flirting","ind":"Aku suka sama kamu.","rom":"AH-koo SOO-kah SAH-mah KAH-moo"}
+{"id":"id.c0935","deck":"id.d.flirting","ind":"Aku sayang kamu.","rom":"AH-koo SAH-yahng KAH-moo"}
+{"id":"id.c0936","deck":"id.d.flirting","ind":"Boleh kenalan?","rom":"BOH-lehh kuh-NAH-lahn"}
+{"id":"id.c0937","deck":"id.d.flirting","ind":"Boleh minta nomor kamu?","rom":"BOH-lehh MEEN-tah NOH-mohr KAH-moo"}
+{"id":"id.c0938","deck":"id.d.flirting","ind":"Mau ngopi bareng kapan-kapan?","rom":"mow NGOH-pee BAH-ruhng KAH-pahn KAH-pahn"}
+{"id":"id.c0939","deck":"id.d.flirting","ind":"Malam Minggu ada acara?","rom":"MAH-lahm MEENG-goo AH-dah ah-CHAH-rah"}
+{"id":"id.c0940","deck":"id.d.flirting","ind":"Kamu sudah punya pacar?","rom":"KAH-moo SOO-dahh POO-nyah PAH-chahr"}
+{"id":"id.c0941","deck":"id.d.flirting","ind":"Aku mau ketemu kamu lagi.","rom":"AH-koo mow kuh-tuh-MOO KAH-moo LAH-ghee"}
+{"id":"id.c0942","deck":"id.d.flirting","ind":"Aku senang kamu datang.","rom":"AH-koo suh-NAHNG KAH-moo DAH-tahng"}
+{"id":"id.c0943","deck":"id.d.flirting","ind":"Ah, gombal!","rom":"ahh GOHM-bahl"}
+{"id":"id.c0944","deck":"id.d.flirting","ind":"Makasih, kamu juga!","rom":"mah-KAH-seeh KAH-moo JOO-gah"}
+{"id":"id.c0945","deck":"id.d.flirting","ind":"Kamu manis, deh.","rom":"KAH-moo MAH-nees dehh"}
+{"id":"id.c0946","deck":"id.d.flirting","ind":"Boleh, aku mau.","rom":"BOH-lehh AH-koo mow"}
+{"id":"id.c0947","deck":"id.d.flirting","ind":"Boleh banget!","rom":"BOH-lehh BAH-nguht"}
+{"id":"id.c0948","deck":"id.d.flirting","ind":"Lihat nanti, ya.","rom":"LEE-haht NAHN-tee yah"}
+{"id":"id.c0949","deck":"id.d.flirting","ind":"Makasih, tapi aku sudah punya pacar.","rom":"mah-KAH-seeh TAH-pee AH-koo SOO-dahh POO-nyah PAH-chahr"}
+{"id":"id.c0950","deck":"id.d.flirting","ind":"Maaf, aku tidak tertarik.","rom":"MAH-ahf AH-koo TEE-dahq tuhr-TAH-reeq"}
+{"id":"id.c0951","deck":"id.d.flirting","ind":"Makasih, tapi kita teman saja, ya.","rom":"mah-KAH-seeh TAH-pee KEE-tah tuh-MAHN SAH-jah yah"}

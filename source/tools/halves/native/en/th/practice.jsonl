@@ -1,0 +1,364 @@
+{"id":"tones.01","q":"Which tone is written with no mark in the romanization?","o":["mid","low","high","rising"],"why":"The mid tone has no mark: maa. Every other tone has one."}
+{"id":"tones.02","q":"ม้า (horse) is máa. Which tone is that?","o":["high","rising","falling","low"],"why":"The acute mark (á) shows the high tone."}
+{"id":"tones.03","q":"Which romanization means near?","why":"Near is glâi, with a falling tone. glai, with no mark, is mid: far."}
+{"id":"tones.04","q":"What does a doubled vowel such as aa show?","o":["a long vowel","a stressed syllable","a rising tone","two separate words"],"why":"A doubled vowel is held longer; length is part of the word."}
+{"id":"tones.05","q":"In khǎo maa mǎi (Is he coming?), what does your voice do on mǎi?","o":["It says the word's own rising tone","It goes up extra high, as in English","It drops to a low tone","It stays flat with no tone"],"why":"ไหม has its own rising tone; you do not add an English question rise."}
+{"id":"tones.06","p":"very far (romanization)","why":"ไกล (glai) has a mid tone; glâi with a falling tone means near."}
+{"id":"tones.07","p":"white rice (romanization)","why":"Rice (khâao) has a falling tone; white (khǎao) has a rising tone and a long vowel. khǎo is he."}
+{"id":"tones.08","p":"The horse is coming. (romanization)","why":"Horse is máa, with a high tone; mǎa with a rising tone is a dog."}
+{"id":"tones.09","p":"very near","why":"Near has a falling tone: glâi. glai, mid, is far."}
+{"id":"tones.10","p":"The dog is coming.","why":"Dog is mǎa, with a rising tone: it dips, then rises."}
+{"id":"tones.11","p":"white rice","why":"White is khǎao: rising tone, long vowel."}
+{"id":"tones.12","p":"Type the romanization of ม้า (horse)","hint":"high tone · use the accent bar","why":"ม้า (máa) has a high tone; หมา (mǎa) with a rising tone is a dog."}
+{"id":"tones.13","p":"Type the romanization of ใกล้ (near)","hint":"falling tone · gl + ai","why":"ใกล้ (glâi) has a falling tone; with a mid tone, glai means far."}
+{"id":"tones.14","p":"Type the romanization of หมา (dog)","hint":"rising tone · long aa","why":"หมา (mǎa) has a rising tone; máa with a high tone is a horse."}
+{"id":"sounds.01","q":"Which of these starts with a puff of air?","why":"ph, th, kh and ch have a puff of air; bp, dt and g have none."}
+{"id":"sounds.02","q":"Which word means egg?","why":"Egg is khài, with a puff of air. gài, with no puff, is a chicken."}
+{"id":"sounds.03","q":"How do you say ภูเก็ต (Phuket)?","o":["with a p and a puff of air, never f","with an f, as in English","with a b","with no first sound"],"why":"Thai ph is a p with a puff of air, never f."}
+{"id":"sounds.04","q":"How should the k at the end of นก (bird) sound?","o":["held, with no burst of air","a clear k with a puff of air","followed by a short vowel","like a g"],"why":"Final k, t and p are held: you stop the sound, with no release."}
+{"id":"sounds.05","q":"How do you start the word งู (snake)?","o":["with ng, as in the middle of singing","with n","with g","with a short i first"],"why":"Thai words can start with ng: say singing and drop the si."}
+{"id":"sounds.06","p":"look at the child (romanization)","why":"ดู (duu) has a long vowel; ดุ (dù), with a short vowel, means to scold."}
+{"id":"sounds.07","p":"not far (romanization)","why":"Far is glai, with a mid tone; glâi, with a falling tone, means near."}
+{"id":"sounds.08","p":"The chicken is coming. (romanization)","why":"Chicken is gài, with no puff of air; khài, with a puff, is an egg."}
+{"id":"sounds.09","p":"look at the child","why":"To look is duu, with a long vowel; dù is short."}
+{"id":"sounds.10","p":"not far","why":"Far has a mid tone, so it has no mark: glai."}
+{"id":"sounds.11","p":"The chicken is coming.","why":"Chicken is gài: no puff of air and a low tone."}
+{"id":"sounds.12","p":"Type the romanization of ข้าว (rice)","hint":"falling tone · long aa + o","why":"ข้าว (khâao) has a falling tone and a long vowel; ขาว (khǎao) is white."}
+{"id":"sounds.13","p":"Type the romanization of ดุ (to scold)","hint":"short vowel · low tone","why":"ดู (duu) has a long vowel; ดุ (dù) is short."}
+{"id":"sounds.14","p":"Type the romanization of ไข่ (egg)","hint":"kh: a k with a puff of air · ai","why":"ไข่ starts with kh, a k with a puff of air; gài, with no puff, is a chicken."}
+{"id":"greetings.01","q":"Which is the romanization of ค่ะ (female speaker, in a statement)?","why":"ค่ะ has a falling tone: khâ. khá, with a high tone, is the question form."}
+{"id":"greetings.02","q":"A woman asks How are you? Which ending is right?","why":"A woman's question ends in คะ; a man's ends in ครับ."}
+{"id":"greetings.03","q":"You bump into someone. What do you say?","why":"ขอโทษ is sorry, and also excuse me."}
+{"id":"greetings.04","q":"Which is the everyday way to say goodbye when you leave?","why":"People say ไปก่อนนะ or สวัสดี when leaving; ลาก่อน sounds like a final farewell."}
+{"id":"greetings.05","q":"Which word goes before a first name as a polite title?","why":"คุณ + first name, as in คุณมาลี, for men and women."}
+{"id":"greetings.06","p":"Sorry. (female speaker)","why":"In a statement ค่ะ has a falling tone; คะ with a high tone is for questions."}
+{"id":"greetings.07","p":"How are you? (female speaker)","why":"A question ends in คะ, with a high tone; ค่ะ, with a falling tone, ends statements."}
+{"id":"greetings.08","p":"Nice to meet you. (male speaker)","why":"A man ends with ครับ, even after a long phrase; ค่ะ is what women say."}
+{"id":"greetings.09","p":"Thank you. (female speaker)","why":"A woman ends a statement with ค่ะ, falling; คะ is for questions."}
+{"id":"greetings.10","p":"How are you? (female speaker)","why":"After ไหม a woman uses คะ, with a high tone."}
+{"id":"greetings.11","p":"It's OK. (male speaker)","why":"ไม่เป็นไร means it's OK or never mind."}
+{"id":"greetings.12","p":"Thank you very much. (female speaker)","hint":"ขอบคุณ (khàawp-khun) · มาก (mâak) · ค่ะ (khâ)","why":"A statement ends in ค่ะ, with a falling tone; คะ, with a high tone, asks a question."}
+{"id":"greetings.13","p":"How are you? (male speaker)","hint":"สบาย (sà-baai) · ดี (dii) · ไหม (mǎi) · ครับ (khráp)","why":"ไหม (mǎi) with a rising tone asks the question; ไม่ (mâi), with a falling tone, means not."}
+{"id":"greetings.14","p":"Hello. (male speaker)","hint":"สวัสดี (sà-wàt-dii) · ครับ (khráp)","why":"A man ends with ครับ; ค่ะ is what women say."}
+{"id":"numbers.01","q":"Which is the romanization of สอง (two)?","why":"สอง has a rising tone: sǎawng."}
+{"id":"numbers.02","q":"How do you say 20?","why":"20 is ยี่สิบ, not สองสิบ."}
+{"id":"numbers.03","q":"How do you say 21?","why":"The 1 at the end of a bigger number is เอ็ด."}
+{"id":"numbers.04","q":"A price tag says 50 บาท. How do you read it?","why":"Read the digits as one Thai number: 50 is ห้าสิบ."}
+{"id":"numbers.05","q":"What is หมื่น?","o":["ten thousand","one thousand","a hundred thousand","a million"],"why":"Thai has its own word for 10,000: หมื่น. แสน is 100,000."}
+{"id":"numbers.06","p":"five baht","why":"ห้า (hâa, five) has a falling tone; หา (hǎa) with a rising tone means to look for."}
+{"id":"numbers.07","p":"nine baht","why":"เก้า (gâao, nine) has a falling tone and a long vowel; เก่า (gào) means old."}
+{"id":"numbers.08","p":"twenty-five baht","why":"Twenty is ยี่สิบ, never สองสิบ, and บาท comes after the number."}
+{"id":"numbers.09","p":"nine baht","why":"Nine is เก้า, falling and long; เก่า means old."}
+{"id":"numbers.10","p":"twenty-one","why":"A 1 at the end of a bigger number is เอ็ด."}
+{"id":"numbers.11","p":"How much altogether?","why":"เท่าไร (how much) goes at the end; it needs no ไหม."}
+{"id":"numbers.12","p":"ninety baht","hint":"เก้าสิบ (gâao-sìp) · บาท (bàat)","why":"เก้า (gâao) has a falling tone and a long vowel; เก่า (gào) means old."}
+{"id":"numbers.13","p":"500 baht","hint":"ห้าร้อย (hâa-ráawi) · บาท (bàat)","why":"ห้า (hâa) has a falling tone; หา (hǎa), with a rising tone, means to look for."}
+{"id":"numbers.14","p":"How much is it? (female speaker)","hint":"เท่าไร (thâo-rai) or เท่าไหร่ (thâo-rài) · คะ (khá)","why":"A question ends in คะ, with a high tone; ค่ะ is for statements."}
+{"id":"consonants.01","q":"Which is the romanization of ขา (leg)?","why":"ข is high class, so ขา has a rising tone: khǎa."}
+{"id":"consonants.02","q":"Which letter is mid class?","why":"The mid-class letters are ก จ ด ต บ ป อ."}
+{"id":"consonants.03","q":"Which letter has the same sound as ส?","why":"ส and ซ both sound s: ส is high class, ซ is low class."}
+{"id":"consonants.04","q":"Which letter sounds bp, with no puff of air?","why":"ป is bp, with no puff; พ and ผ are ph, with a puff; บ is a plain b."}
+{"id":"consonants.05","q":"What does อ do at the start of a syllable?","o":["It is silent and holds the vowel","It sounds like o","It sounds like a","It makes the tone high"],"why":"อ at the start is silent: อาหาร starts straight on the vowel."}
+{"id":"consonants.06","p":"long legs (romanization)","why":"ข is a high-class consonant, so ขา has a rising tone."}
+{"id":"consonants.07","p":"a pretty dog (romanization)","why":"ส is a high-class consonant, so สวย has a rising tone; with a mid tone it means unlucky."}
+{"id":"consonants.08","p":"the letter name of ก (romanization)","why":"A letter's name is its sound plus aaw, then a word: ก ไก่, g as in chicken."}
+{"id":"consonants.09","p":"long legs","why":"ข is high class: ขา has a rising tone."}
+{"id":"consonants.10","p":"the letter g, as in chicken","why":"ไก่ starts with ก, so its letter name is ก ไก่."}
+{"id":"consonants.11","p":"the letter kh, as in buffalo","why":"ควาย starts with the low-class ค, the kh letter used in ค ควาย."}
+{"id":"consonants.12","p":"Type the romanization of ขา (leg)","hint":"kh · long aa · high class","why":"ข is a high-class consonant: with a long vowel and no tone mark it gives a rising tone."}
+{"id":"consonants.13","p":"Type the romanization of สวย (pretty)","hint":"s · uuai · high class","why":"ส is a high-class consonant, so สวย has a rising tone; said with a mid tone it is ซวย, unlucky."}
+{"id":"consonants.14","p":"Type the romanization of the letter ข and its name word","hint":"kh + aaw · then the word egg","why":"Its name is ข ไข่: kh plus aaw, then the word for egg."}
+{"id":"vowels.01","q":"Which word is khâo (to enter)?","why":"เข้า has a short vowel; ข้าว, with a long vowel, is rice."}
+{"id":"vowels.02","q":"Where is the vowel written in ดู (to look)?","o":["below the consonant","above the consonant","before the consonant","after the consonant"],"why":"ู sits below the consonant: ดู."}
+{"id":"vowels.03","q":"Which word has a vowel written before its consonant?","why":"แ is written before ม, but you say m first: mâae."}
+{"id":"vowels.04","q":"Which two vowel signs sound the same?","o":["ใ and ไ","เ and แ","โ and อ","า and ะ"],"why":"ใ and ไ both sound ai; only about twenty words use ใ."}
+{"id":"vowels.05","q":"In เรือ (boat), how many vowels are there?","o":["one, written in three pieces","three","two","none: เรือ has only consonants"],"why":"เ, ื and อ together make one vowel, uuea."}
+{"id":"vowels.06","p":"go into the house","why":"เข้า (khâo) has a short vowel; ข้าว, with a long vowel, is rice."}
+{"id":"vowels.07","p":"look at the child","why":"ดู (duu) has a long vowel; ดุ, with a short vowel, means to scold."}
+{"id":"vowels.08","p":"a new boat","why":"ใหม่ (mài, low tone) means new, and it comes after the noun."}
+{"id":"vowels.09","p":"go into the house","why":"เข้า has a short vowel; ข้าว, long, is rice."}
+{"id":"vowels.10","p":"eat; have a meal","why":"Rice is ข้าว: long vowel, falling tone."}
+{"id":"vowels.11","p":"a new boat","why":"New is ใหม่, with a low tone; ไม่ is not."}
+{"id":"vowels.12","p":"eat (literally, eat rice)","hint":"กิน (gin) · ข้าว (khâao)","why":"ข้าว has a long vowel; เข้า, with a short vowel, means to enter."}
+{"id":"vowels.13","p":"look at the dog","hint":"ดู (duu) · หมา (mǎa)","why":"ดู has a long vowel; ดุ, with a short vowel, means to scold."}
+{"id":"vowels.14","p":"Type the romanization of เรือ (boat)","hint":"one vowel in three pieces: เ ื อ","why":"เรือ is one vowel, uuea, written around ร: เ before, ื above, อ after."}
+{"id":"pronouns.01","q":"Which word is khǎo (he, she)?","why":"เขา has a short vowel and a rising tone; ข้าว (rice) and ขาว (white) are long."}
+{"id":"pronouns.02","q":"A man says I. Which word does he use?","why":"ผม is a man's polite I; ฉัน and ดิฉัน are for women."}
+{"id":"pronouns.03","q":"Which means my friend (female speaker)?","why":"The owner follows the noun, and a woman's I is ฉัน."}
+{"id":"pronouns.04","q":"Who would you call พี่?","o":["someone a little older than you","a younger server","a small child","only your real brother"],"why":"พี่ is an older sibling, and also you for anyone a bit older."}
+{"id":"pronouns.05","q":"Someone asks if you are going. Which short answer sounds natural (male speaker)?","why":"Once it is clear who you mean, Thai drops the pronoun."}
+{"id":"pronouns.06","p":"my friend (male speaker)","why":"The owner comes after the noun: เพื่อนผม."}
+{"id":"pronouns.07","p":"my older brother (female speaker)","why":"The owner comes after the noun: พี่ชายฉัน."}
+{"id":"pronouns.08","p":"He's coming.","why":"เขา (khǎo) has a rising tone and a short vowel; ข้าว, falling and long, is rice."}
+{"id":"pronouns.09","p":"my friend (male speaker)","why":"A man's I is ผม, and it follows the noun."}
+{"id":"pronouns.10","p":"He's coming.","why":"He or she is เขา: short vowel, rising tone."}
+{"id":"pronouns.11","p":"I'm going. (female speaker)","why":"A woman ends a statement with ค่ะ; คะ is for questions."}
+{"id":"pronouns.12","p":"my older sister (female speaker)","hint":"พี่สาว (phîi-sǎao) · ฉัน (chǎn)","why":"The owner comes after the noun: พี่สาวฉัน."}
+{"id":"pronouns.13","p":"my younger brother (male speaker)","hint":"น้องชาย (náawng-chaai) · ผม (phǒm)","why":"The owner comes after the noun: น้องชายผม."}
+{"id":"pronouns.14","p":"We're going. (male speaker; say we)","hint":"เรา (rao) · ไป (bpai) · ครับ (khráp)","why":"A man ends with ครับ, whoever the subject is; ค่ะ is what women say."}
+{"id":"finals.01","q":"Which is the romanization of รัก (to love)?","why":"รัก is low class, dead and short, so it has a high tone: rák."}
+{"id":"finals.02","q":"Which final sound does รถ (car) end with?","why":"ถ at the end of a syllable is a held t."}
+{"id":"finals.03","q":"Which syllable is live?","why":"คน ends in n, so it is live; the others end in k, t or p."}
+{"id":"finals.04","q":"จาก (from) has a mid-class letter and ends in k. Which tone does it have?","o":["low","mid","rising","high"],"why":"Mid class + dead syllable gives a low tone."}
+{"id":"finals.05","q":"How do you end the word นก (bird)?","o":["hold the k with no burst of air","release the k with a puff","add a short vowel after the k","drop the k completely"],"why":"Final k, t and p are held, never released."}
+{"id":"finals.06","p":"I love you. (romanization)","why":"รัก (rák) has a short vowel and a high tone; ราก (râak) is a root."}
+{"id":"finals.07","p":"near the market","why":"ใกล้ (glâi) has a falling tone; ไกล, with a mid tone, means far."}
+{"id":"finals.08","p":"come from home (romanization)","why":"A dead syllable on a mid-class letter takes a low tone: จาก (jàak)."}
+{"id":"finals.09","p":"I love you.","why":"Low class, dead, short vowel: a high tone, rák."}
+{"id":"finals.10","p":"near the market","why":"Near is ใกล้, with a falling tone; ไกล is far."}
+{"id":"finals.11","p":"come from home","why":"From is จาก: mid class, dead syllable, low tone."}
+{"id":"finals.12","p":"Type the romanization of จาก (from)","hint":"j · long aa · final k","why":"A dead syllable on a mid-class letter takes a low tone: จาก (jàak)."}
+{"id":"finals.13","p":"Type the romanization of ราก (root)","hint":"r · long aa · final k","why":"Low class, dead syllable, long vowel: a falling tone. รัก, short, means to love."}
+{"id":"finals.14","p":"Type the romanization of อาหาร (food)","hint":"two syllables, joined by a hyphen · final ร is n","why":"Final ร is read n, so อาหาร ends in n."}
+{"id":"pen.01","q":"Which word is glâi (near)?","why":"ใกล้ has a falling tone; ไกล, with a mid tone, means far."}
+{"id":"pen.02","q":"How do you say The food is delicious?","why":"A describing word needs no verb for is: อาหารอร่อย."}
+{"id":"pen.03","q":"How do you say I'm at home (male speaker)?","why":"For place, use อยู่, never เป็น."}
+{"id":"pen.04","q":"Which sentence needs เป็น?","o":["I'm a teacher.","I'm hungry.","I'm at home.","The food is delicious."],"why":"เป็น goes before a job or role: ผมเป็นครู."}
+{"id":"pen.05","q":"How do you say I'm not a teacher (male speaker)?","why":"Before a noun, not is ไม่ใช่."}
+{"id":"pen.06","p":"My friend is a teacher. (male speaker)","why":"The owner comes after the noun: เพื่อนผม, then เป็น before the job."}
+{"id":"pen.07","p":"The bank is far.","why":"ไกล (glai) has a mid tone; ใกล้, with a falling tone, means near."}
+{"id":"pen.08","p":"I'm hungry. (female speaker)","why":"Describing words need no เป็น: ฉันหิว."}
+{"id":"pen.09","p":"I'm a teacher. (male speaker)","why":"เป็น goes before a job or role."}
+{"id":"pen.10","p":"Where is the bathroom?","why":"Where something is takes อยู่."}
+{"id":"pen.11","p":"The market is near the house.","why":"Near is ใกล้, with a falling tone; ไกล means far."}
+{"id":"pen.12","p":"My house is far. (male speaker)","hint":"บ้าน (bâan) · ผม (phǒm) · อยู่ (yùu) · ไกล (glai) · ครับ (khráp)","why":"ไกล (glai) has a mid tone; ใกล้, with a falling tone, means near. The owner comes after the noun: บ้านผม."}
+{"id":"pen.13","p":"My older sister is a nurse. (female speaker)","hint":"พี่สาว (phîi-sǎao) · ฉัน (chǎn) · เป็น (bpen) · พยาบาล (phá-yaa-baan) · ค่ะ (khâ)","why":"The owner comes after the noun: พี่สาวฉัน, then เป็น before the job."}
+{"id":"pen.14","p":"I'm not a teacher. (male speaker)","hint":"ผม (phǒm) · ไม่ใช่ (mâi châi) · ครู (khruu) · ครับ (khráp)","why":"Before a noun, not is ไม่ใช่ (or ไม่ได้เป็น), never ไม่เป็น."}
+{"id":"classifiers.01","q":"two books =","why":"Noun, number, classifier; books take เล่ม."}
+{"id":"classifiers.02","q":"Which classifier counts animals?","why":"ตัว counts animals; คน is only for people."}
+{"id":"classifiers.03","q":"four friends =","why":"Friends are people, so the classifier is คน, after the number."}
+{"id":"classifiers.04","q":"Which word is khâao (rice)?","why":"ข้าว has a falling tone and a long vowel; ขาว is white, เขา is he or she."}
+{"id":"classifiers.05","q":"How many cats do you have?","why":"กี่ goes where the number would be, before the classifier ตัว."}
+{"id":"classifiers.06","p":"two glasses of coffee","why":"A glass of a drink takes the classifier แก้ว, after the number: กาแฟสองแก้ว."}
+{"id":"classifiers.07","p":"three cats","why":"Animals take the classifier ตัว, after the number; คน is for people."}
+{"id":"classifiers.08","p":"nine books","why":"เก้า (gâao, nine) has a falling tone; เก่า, with a low tone, means old. Books take the classifier เล่ม."}
+{"id":"classifiers.09","p":"two cats","why":"Animals are counted with ตัว."}
+{"id":"classifiers.10","p":"three cars","why":"Cars are counted with คัน."}
+{"id":"classifiers.11","p":"two bottles of water","why":"A bottle of a drink is ขวด; ขวบ counts a child's years."}
+{"id":"classifiers.12","p":"two books","hint":"หนังสือ (nǎng-sǔue) · สอง (sǎawng) · the classifier for books","why":"Books take the classifier เล่ม, after the number."}
+{"id":"classifiers.13","p":"four friends","hint":"เพื่อน (phûuean) · สี่ (sìi) · the classifier for people","why":"People take the classifier คน, after the number: เพื่อนสี่คน."}
+{"id":"classifiers.14","p":"How many cats do you have?","hint":"คุณ (khun) · มี (mii) · แมว (maaeo) · กี่ (gìi) · the classifier for animals","why":"กี่ and the classifier ตัว come after the noun: แมวกี่ตัว."}
+{"id":"tone-marks.01","q":"What tone does ่ give on a low-class letter, as in ไม่?","o":["falling","low","high","rising"],"why":"Low-class letters go one step higher: ่ gives a falling tone."}
+{"id":"tone-marks.02","q":"Which word is máa (horse)?","why":"ม้า has ้ on a low-class letter, which gives a high tone."}
+{"id":"tone-marks.03","q":"ไข่ (egg) starts with high-class ข and has ่. Which tone?","o":["low","falling","rising","high"],"why":"On a high-class letter, ่ gives a low tone, as on a mid-class letter."}
+{"id":"tone-marks.04","q":"Which tone marks appear only on mid-class letters?","o":["๊ and ๋","่ and ้","่ and ๋","้ and ๊"],"why":"ไม้ตรี and ไม้จัตวา go only on mid-class letters."}
+{"id":"tone-marks.05","q":"Which word has a falling tone?","why":"้ on high-class ข gives a falling tone; ไข่ is low, ม้า and โต๊ะ are high."}
+{"id":"tone-marks.06","p":"It's not a horse.","why":"ม้า has ไม้โท on a low-class letter, so a high tone; หมา, with a rising tone, is a dog."}
+{"id":"tone-marks.07","p":"a new table","why":"ใหม่ (mài, new) has a low tone and comes after the noun; ไม่, with a falling tone, means not."}
+{"id":"tone-marks.08","p":"two tables","why":"Tables take the classifier ตัว, after the number."}
+{"id":"tone-marks.09","p":"It's not a horse.","why":"Horse is ม้า, with a high tone; หมา is a dog and มา is to come."}
+{"id":"tone-marks.10","p":"I eat rice. (male speaker)","why":"Rice is ข้าว: ้ on high-class ข, a falling tone."}
+{"id":"tone-marks.11","p":"My aunt is at home.","why":"Aunt is ป้า (falling); ป่า, with ่, is a forest."}
+{"id":"tone-marks.12","p":"a new table","hint":"โต๊ะ (dtó) · ใหม่ (mài)","why":"ใหม่ (mài) has a low tone and comes after the noun; ไม่, with a falling tone, means not."}
+{"id":"tone-marks.13","p":"It's not a horse.","hint":"ไม่ใช่ (mâi châi) · ม้า (máa)","why":"ม้า (máa) has a high tone; หมา, with a rising tone, is a dog."}
+{"id":"tone-marks.14","p":"two chickens","hint":"ไก่ (gài) · สอง (sǎawng) · the classifier for animals","why":"Animals take the classifier ตัว, after the number: ไก่สองตัว."}
+{"id":"this-that.01","q":"this shirt =","why":"Noun, classifier, then นี้."}
+{"id":"this-that.02","q":"Which word is nîi (this, standing alone)?","why":"นี่ has ่ and a falling tone; นี้, with a high tone, follows a noun."}
+{"id":"this-that.03","q":"my house (male speaker) =","why":"The owner comes after the thing: บ้านของผม."}
+{"id":"this-that.04","q":"Whose is this?","why":"นี่ stands alone as the subject; ของใคร means whose."}
+{"id":"this-that.05","q":"that book =","why":"Books take เล่ม, and นั้น comes last."}
+{"id":"this-that.06","p":"this shirt","why":"The classifier and นี้ (high tone) come after the noun; นี่, with a falling tone, stands alone."}
+{"id":"this-that.07","p":"that car","why":"นั้น, with a high tone, comes after the noun and its classifier: รถคันนั้น."}
+{"id":"this-that.08","p":"This is my cat. (female speaker)","why":"นี่ (falling tone) stands alone as \"this\"; the owner comes after the noun: แมวของฉัน."}
+{"id":"this-that.09","p":"this book","why":"After a noun and its classifier, use นี้ with a high tone."}
+{"id":"this-that.10","p":"my house (male speaker)","why":"ของ links the thing to its owner: บ้านของผม."}
+{"id":"this-that.11","p":"Whose is this?","why":"Standing alone, this is นี่, with a falling tone."}
+{"id":"this-that.12","p":"this shirt","hint":"เสื้อ (sûuea) · ตัว (dtuua) · นี้ (níi)","why":"The classifier and นี้ come after the noun: เสื้อตัวนี้."}
+{"id":"this-that.13","p":"that person","hint":"คน (khon) · นั้น (nán)","why":"นั้น, with a high tone, comes after the noun; นั่น stands alone."}
+{"id":"this-that.14","p":"my book (female speaker)","hint":"หนังสือ (nǎng-sǔue) · ของ (khǎawng) · ฉัน (chǎn)","why":"The owner comes after the noun: หนังสือของฉัน, or หนังสือฉัน."}
+{"id":"mai.01","q":"I don't like coffee. (male speaker)","why":"ไม่ goes right before the verb."}
+{"id":"mai.02","q":"Which word is mǎi, the question word?","why":"ไหม has a rising tone; ไม่ is falling, ใหม่ low and ไม้ high."}
+{"id":"mai.03","q":"Someone asks ชอบไหม. How do you say yes?","why":"Answer with the verb, not with ใช่."}
+{"id":"mai.04","q":"Is it spicy?","why":"ไหม goes at the end of the question."}
+{"id":"mai.05","q":"Which question do you naturally answer with ใช่?","why":"ใช่ confirms a fact (…, right?); the others are answered with the verb."}
+{"id":"mai.06","p":"It's not spicy.","why":"ไม่ (mâi, falling tone) means not; ไหม, with a rising tone, asks a question."}
+{"id":"mai.07","p":"Do you like it? (female speaker)","why":"A question ends in คะ, with a high tone; ค่ะ, with a falling tone, is for statements."}
+{"id":"mai.08","p":"I don't like coffee. (male speaker)","why":"ไม่ goes right before the verb: ไม่ชอบ."}
+{"id":"mai.09","p":"The food isn't spicy.","why":"Not is ไม่, before the describing word."}
+{"id":"mai.10","p":"Is it spicy? (female speaker)","why":"ไหม asks the question; คะ follows it."}
+{"id":"mai.11","p":"I'm not going. (male speaker)","why":"ไม่ goes before the verb ไป."}
+{"id":"mai.12","p":"It's not spicy.","hint":"ไม่ (mâi) · เผ็ด (phèt)","why":"ไม่ (mâi) has a falling tone and goes before the describing word; ไหม, with a rising tone, asks."}
+{"id":"mai.13","p":"Is it spicy? (female speaker)","hint":"เผ็ด (phèt) · ไหม (mǎi) · the female question particle","why":"A question ends in คะ, with a high tone."}
+{"id":"mai.14","p":"Someone asks ชอบไหม. Say yes. (male speaker)","hint":"ชอบ (châawp) · ครับ (khráp)","why":"Answer with the verb, not with ใช่."}
+{"id":"clusters.01","q":"In หมา, what does ห do?","o":["It is silent and gives ม a rising tone","It is said as h","It adds a short a","It makes the vowel long"],"why":"A leading ห is silent; it makes ม high class."}
+{"id":"clusters.02","q":"Which word is glâi (near)?","why":"ใกล้ has ้ and a falling tone; ไกล, with no mark, is far."}
+{"id":"clusters.03","q":"Which word starts with a true cluster?","why":"ป and ล are said together in ปลา."}
+{"id":"clusters.04","q":"How many syllables does ตลาด (market) have?","o":["two","one","three","four"],"why":"A short a hides between ต and ล: ตะ-หลาด."}
+{"id":"clusters.05","q":"In อยู่, the อ is…","o":["silent","said like o","a final sound","a long vowel"],"why":"A leading อ is silent; it makes ย mid class."}
+{"id":"clusters.06","p":"It's near the market.","why":"ใกล้ (glâi) has a falling tone; ไกล (glai), with a mid tone, means far."}
+{"id":"clusters.07","p":"a big dog","why":"หมา (mǎa, rising tone) is a dog; ม้า, with a high tone, is a horse. The describer comes after the noun."}
+{"id":"clusters.08","p":"Where is the bathroom?","why":"ที่ไหน goes at the end, where the answer would be; no ไหม with it."}
+{"id":"clusters.09","p":"The house is near the market.","why":"Near is ใกล้, with ้ and a falling tone."}
+{"id":"clusters.10","p":"Turn right.","why":"Right is ขวา, a cluster: ข and ว said together."}
+{"id":"clusters.11","p":"Go straight.","why":"Straight is ตรง, a cluster: ต and ร together."}
+{"id":"clusters.12","p":"It's not far.","hint":"ไม่ (mâi) · ไกล (glai)","why":"ไกล (glai) has a mid tone; ใกล้, with a falling tone, means near."}
+{"id":"clusters.13","p":"a big dog","hint":"หมา (mǎa) · ตัว (dtuua) · ใหญ่ (yài)","why":"หมา has a rising tone, and the describer comes after the noun: หมาตัวใหญ่."}
+{"id":"clusters.14","p":"Turn right.","hint":"เลี้ยว (líiao) · ขวา (khwǎa)","why":"ขวา is right, a cluster with ข and ว said together; ซ้าย is left."}
+{"id":"question-words.01","q":"What are you eating?","why":"อะไร stays where the answer goes; no ไหม."}
+{"id":"question-words.02","q":"Which word is mài (new)?","why":"ใหม่ has a low tone; ไม่ is falling, ไหม rising, ไม้ high."}
+{"id":"question-words.03","q":"Where is the bathroom?","why":"ที่ไหน goes at the end, after อยู่."}
+{"id":"question-words.04","q":"How much is it?","why":"เท่าไร goes where the price would be; no ไหม."}
+{"id":"question-words.05","q":"How many people are there?","why":"กี่ comes before the classifier คน."}
+{"id":"question-words.06","p":"What's your name?","why":"อะไร goes where the name would be; no ไหม with a question word."}
+{"id":"question-words.07","p":"How many cats are there? (start with มี)","why":"กี่ and the classifier come after the noun: แมวกี่ตัว; animals take ตัว."}
+{"id":"question-words.08","p":"Which shirt?","why":"ไหน works like นี้: noun, classifier, then ไหน, after the noun."}
+{"id":"question-words.09","p":"What are you eating?","why":"What is อะไร, in the place of the thing."}
+{"id":"question-words.10","p":"Where is the bathroom?","why":"Where is ที่ไหน (or just ไหน), after อยู่."}
+{"id":"question-words.11","p":"How much is it?","why":"How much is เท่าไร, also spelled เท่าไหร่."}
+{"id":"question-words.12","p":"How many people are there?","hint":"มี (mii) · กี่ (gìi) · the classifier for people","why":"People take the classifier คน, after กี่."}
+{"id":"question-words.13","p":"Which book?","hint":"หนังสือ (nǎng-sǔue) · เล่ม (lêm) · ไหน (nǎi)","why":"Books take the classifier เล่ม, and ไหน follows it, after the noun."}
+{"id":"question-words.14","p":"What are you eating?","hint":"คุณ (khun) · กิน (gin) · อะไร (à-rai)","why":"อะไร stays where the answer goes, and a question word needs no ไหม."}
+{"id":"special.01","q":"In เบียร์ (beer), the ร is…","o":["silent, because of ์","said like r","said like n","said like l"],"why":"์ over a letter means it is not said."}
+{"id":"special.02","q":"Which word is náam (water)?","why":"น้ำ is spelled short but said long, with a high tone."}
+{"id":"special.03","q":"How does ทราบ (to know, formal) begin?","o":["with an s sound","with th","with thr","with t"],"why":"In ทราบ, ทร is said s."}
+{"id":"special.04","q":"What does ๆ do in ช้าๆ?","o":["repeats the word before it","marks a question","ends the sentence","makes the vowel long"],"why":"ๆ repeats the word: ช้าๆ, slowly."}
+{"id":"special.05","q":"Which word is said with a short vowel, though it looks long?","why":"เล่น is said short; the other three are said long."}
+{"id":"special.06","p":"two bottles of water","why":"Bottles take the classifier ขวด; ขวบ counts a child's years."}
+{"id":"special.07","p":"nine glasses of water","why":"เก้า (gâao) has a falling tone and a long vowel; เก่า means old. Glasses take the classifier แก้ว."}
+{"id":"special.08","p":"Really?","why":"ไหม at the end makes the question; the ร in จริง is silent."}
+{"id":"special.09","p":"two bottles of beer","why":"A bottle is ขวด."}
+{"id":"special.10","p":"two glasses of water","why":"Water is น้ำ: spelled short, said long, high tone."}
+{"id":"special.11","p":"Thai iced tea","why":"เย็น means cold: ชาเย็น is iced tea."}
+{"id":"special.12","p":"two glasses of water","hint":"the classifier for glasses","why":"Glasses take the classifier แก้ว, after the number."}
+{"id":"special.13","p":"two bottles of beer","hint":"the classifier for bottles","why":"Bottles take the classifier ขวด, after the number."}
+{"id":"special.14","p":"Really? (use ไหม)","why":"ไหม at the end asks a yes/no question; ไม่ means not."}
+{"id":"food.01","q":"Two pad thai, please. (male speaker)","why":"Dish, number, then จาน; a man ends with ครับ."}
+{"id":"food.02","q":"Which word is khâao in ข้าวผัด (fried rice)?","why":"ข้าว has a falling tone and a long vowel; เข้า is short."}
+{"id":"food.03","q":"Spicy food is…","why":"เผ็ด is spicy; ร้อน is hot to the touch."}
+{"id":"food.04","q":"How do you ask for the bill?","why":"เช็คบิลด้วย asks for the check."}
+{"id":"food.05","q":"Calling a young server (female speaker):","why":"A woman calling someone uses คะ, the high-tone particle."}
+{"id":"food.06","p":"two iced coffees","why":"A glass of a drink takes the classifier แก้ว, after the number."}
+{"id":"food.07","p":"Not spicy. (female speaker)","why":"In a statement ค่ะ has a falling tone; คะ, with a high tone, is for questions."}
+{"id":"food.08","p":"Two plates of fried rice, please. (male speaker)","why":"A plate of food takes the classifier จาน, after the number."}
+{"id":"food.09","p":"Two cups of coffee, please. (female speaker)","why":"A drink is counted by the glass or cup: แก้ว or ถ้วย."}
+{"id":"food.10","p":"The food isn't spicy.","why":"Spicy is เผ็ด; ร้อน is hot to the touch and เป็ด is a duck."}
+{"id":"food.11","p":"To take away, please. (male speaker)","why":"ห่อ means to wrap: ห่อกลับบ้าน, wrap it to take home."}
+{"id":"food.12","p":"Two plates of pad thai, please. (female speaker)","hint":"the classifier for plates","why":"A plate of food takes the classifier จาน, after the number."}
+{"id":"food.13","p":"Not spicy, please. (male speaker)","why":"ไม่ goes before the describing word; ไหม would make it a question."}
+{"id":"food.14","p":"Two Thai iced teas, please. (male speaker)","hint":"the classifier for glasses","why":"A glass of a drink takes the classifier แก้ว, after the number."}
+{"id":"family.01","q":"my older sister (male speaker) =","why":"พี่สาว is an older sister; the owner comes after it."}
+{"id":"family.02","q":"Which word is phîi (older sibling)?","why":"พี่ has ่ on a low-class letter, so a falling tone; ผี is a ghost and ปี a year."}
+{"id":"family.03","q":"I'm thirty years old. (female speaker)","why":"อายุ + number + ปี, with no เป็น."}
+{"id":"family.04","q":"What do you do (for work)?","why":"ทำงานอะไร asks about a job; คุณเป็นอะไร asks what is wrong with you."}
+{"id":"family.05","q":"younger brother =","why":"น้อง is younger and ชาย is male."}
+{"id":"family.06","p":"two younger sisters","why":"People take the classifier คน, after the number: น้องสาวสองคน."}
+{"id":"family.07","p":"three children","why":"Children are people, so the classifier is คน, after the number."}
+{"id":"family.08","p":"My older brother is a teacher.","why":"เป็น goes before a job; อยู่ is for where someone is."}
+{"id":"family.09","p":"I'm thirty years old. (male speaker)","why":"Age takes อายุ, with no เป็น."}
+{"id":"family.10","p":"My mother is a doctor. (male speaker)","why":"เป็น goes before a job."}
+{"id":"family.11","p":"How many brothers and sisters do you have?","why":"Brothers and sisters are people: คน."}
+{"id":"family.12","p":"two older brothers","hint":"the classifier for people","why":"People take the classifier คน, after the number."}
+{"id":"family.13","p":"my younger sister (female speaker)","why":"The owner comes after the noun: น้องสาวฉัน."}
+{"id":"family.14","p":"I'm thirty years old. (male speaker)","why":"Age takes อายุ with no เป็น."}
+{"id":"compare.01","q":"Which means \"a big house\"?","why":"The describer comes after the noun, with no เป็น: บ้านใหญ่."}
+{"id":"compare.02","q":"How do you say \"very beautiful\"?","why":"มาก comes after the describing word: สวยมาก."}
+{"id":"compare.03","q":"\"cheaper than that shop\" =","why":"Describing word, then กว่า, then what you compare with: ถูกกว่าร้านนั้น."}
+{"id":"compare.04","q":"\"the most delicious\" =","why":"ที่สุด goes after the describing word: อร่อยที่สุด."}
+{"id":"compare.05","q":"Which word is glai (far)?","why":"ไกล (glai) has a mid tone; ใกล้ (glâi), with a falling tone, means near."}
+{"id":"compare.06","p":"This shirt is more expensive.","why":"The classifier and นี้ come after the noun: เสื้อตัวนี้, then แพงกว่า."}
+{"id":"compare.07","p":"This book is better.","why":"Books take the classifier เล่ม, after the noun: หนังสือเล่มนี้."}
+{"id":"compare.08","p":"The market is closer.","why":"ใกล้ (glâi) has a falling tone and means near; ไกล (glai), with a mid tone, means far."}
+{"id":"compare.09","p":"This shop is cheaper.","why":"กว่า after the describing word means \"more\": ถูกกว่า, cheaper."}
+{"id":"compare.10","p":"This restaurant is the best (the most delicious).","why":"ที่สุด after the describing word means \"the most\"."}
+{"id":"compare.11","p":"These two shirts are the same price.","why":"เท่ากัน means \"equally, the same\": ราคาเท่ากัน."}
+{"id":"compare.12","p":"this red shirt","hint":"the color comes before the classifier","why":"Color, classifier and นี้ all come after the noun: เสื้อสีแดงตัวนี้."}
+{"id":"compare.13","p":"This car is the most expensive.","why":"Cars take the classifier คัน, after the noun: รถคันนี้แพงที่สุด."}
+{"id":"compare.14","p":"The food is very delicious.","why":"No เป็น before a describing word, and มาก comes after it."}
+{"id":"time.01","q":"How do you say 2 p.m.?","why":"Afternoon hours start again from one with บ่าย: บ่ายสองโมง."}
+{"id":"time.02","q":"What time is หนึ่งทุ่ม?","o":["7 p.m.","1 p.m.","1 a.m.","noon"],"why":"ทุ่ม counts the evening hours, starting at 7 p.m."}
+{"id":"time.03","q":"How do you say midnight?","why":"เที่ยงคืน is \"noon of the night\"; เที่ยง alone is noon."}
+{"id":"time.04","q":"Which day is วันศุกร์?","o":["Friday","Thursday","Saturday","Sunday"],"why":"วันศุกร์ is Friday; วันพฤหัส is Thursday."}
+{"id":"time.05","q":"Which word is gâao (nine)?","why":"เก้า (gâao) has a falling tone; เก่า (gào), with a low tone, means old."}
+{"id":"time.06","p":"9 a.m.","why":"เก้า (gâao) has a falling tone; เก่า (gào), with a low tone, means old."}
+{"id":"time.07","p":"5 p.m.","why":"ห้า (hâa) has a falling tone; หา (hǎa), with a rising tone, means to look for."}
+{"id":"time.08","p":"3:30 p.m.","why":"Afternoon hours start with บ่าย, and ครึ่ง (half) goes at the end."}
+{"id":"time.09","p":"What time is it now?","why":"กี่ asks \"how many\": กี่โมง, how many hours."}
+{"id":"time.10","p":"2 p.m.","why":"Daytime hours use โมง: บ่ายสองโมง."}
+{"id":"time.11","p":"8 p.m.","why":"From 7 p.m. the count restarts with ทุ่ม: หนึ่งทุ่ม, สองทุ่ม (8 p.m.)."}
+{"id":"time.12","p":"9 a.m.","why":"เก้า (gâao) has a falling tone and a long vowel; เก่า (gào) means old."}
+{"id":"time.13","p":"I get up at 5 a.m. (female speaker)","hint":"no word for \"at\"","why":"ห้า (hâa) has a falling tone; หา (hǎa), with a rising tone, means to look for."}
+{"id":"time.14","p":"I don't work on Saturdays. (male speaker)","hint":"no word for \"on\"","why":"ไม่ goes before the verb; ไหม at the end would turn it into a question."}
+{"id":"time-words.01","q":"\"will go\" =","why":"จะ goes before the verb for later: จะไป."}
+{"id":"time-words.02","q":"Someone asks กินข้าวหรือยัง. You have eaten. You say:","why":"Answer with the verb and แล้ว: กินแล้ว. ยัง would mean not yet."}
+{"id":"time-words.03","q":"Which says \"Yesterday I went to the market\" (male speaker)?","why":"The verb never changes; เมื่อวาน already shows the past."}
+{"id":"time-words.04","q":"\"Have you ever been to Phuket?\" =","why":"เคย goes before the verb, and ไหม at the end makes the question."}
+{"id":"time-words.05","q":"Which word is khâao (rice), as in กินข้าวหรือยัง?","why":"ข้าว (khâao) has a falling tone and a long vowel; ขาว is white, เข้า is to enter."}
+{"id":"time-words.06","p":"I've already eaten (rice).","why":"ข้าว (khâao) has a long vowel; เข้า (khâo), with a short vowel, means to enter."}
+{"id":"time-words.07","p":"He's having a meal right now.","why":"ข้าว (khâao) has a falling tone; ขาว (khǎao), with a rising tone, means white."}
+{"id":"time-words.08","p":"He hasn't come yet.","why":"ยังไม่ before the verb means \"not yet\"; แล้ว would mean it is done."}
+{"id":"time-words.09","p":"I'm going to Phuket next month. (male speaker)","why":"จะ before the verb for something that will happen."}
+{"id":"time-words.10","p":"He's having a meal right now.","why":"กำลัง before the verb and อยู่ after it: happening now."}
+{"id":"time-words.11","p":"Have you ever been to Chiang Mai?","why":"เคย before the verb means \"have ever\"."}
+{"id":"time-words.12","p":"I've already eaten. (male speaker)","why":"ข้าว (khâao) has a long vowel; เข้า (khâo), with a short vowel, means to enter."}
+{"id":"time-words.13","p":"Have you eaten yet? (female speaker)","hint":"end with the female question particle","why":"A question ends in คะ, with a high tone; ค่ะ has a falling tone."}
+{"id":"time-words.14","p":"Have you ever been to Phuket?","why":"เคย before the verb means \"have ever\"; ไหม at the end asks the question."}
+{"id":"can-want.01","q":"\"I can speak Thai\" =","why":"ได้ comes after the verb and what follows it; ได้พูด means \"got to speak\"."}
+{"id":"can-want.02","q":"\"I want to go to the beach\" =","why":"อยาก goes before a verb, and the verb ไป is needed."}
+{"id":"can-want.03","q":"\"I want this bag\" =","why":"To want a thing, use อยากได้, and ใบนี้ follows the noun."}
+{"id":"can-want.04","q":"\"I have to go now\" =","why":"ต้อง goes before the verb, like \"have to\"."}
+{"id":"can-want.05","q":"Which word is mǎi (the question word in ได้ไหม)?","why":"ไหม (mǎi) has a rising tone; ไม่ is not, ใหม่ is new, ไม้ is wood."}
+{"id":"can-want.06","p":"I can't go.","why":"ไม่ (mâi) has a falling tone and means not; ใหม่ (mài), with a low tone, means new."}
+{"id":"can-want.07","p":"Can you wait here?","why":"ไหม (mǎi) with a rising tone asks the question; ไม่ (mâi), with a falling tone, means not."}
+{"id":"can-want.08","p":"I want this bag.","why":"Bags take the classifier ใบ, after the noun: กระเป๋าใบนี้."}
+{"id":"can-want.09","p":"I can speak Thai. (male speaker)","why":"ได้ after the verb phrase means \"can\"."}
+{"id":"can-want.10","p":"I want to go to the beach. (female speaker)","why":"อยาก before the verb means \"want to\"; ได้ไป would mean \"got to go\"."}
+{"id":"can-want.11","p":"I have to work tomorrow. (male speaker)","why":"ต้อง before the verb means \"have to\"."}
+{"id":"can-want.12","p":"I can't drive. (female speaker)","why":"ไม่ (mâi) has a falling tone; ใหม่ (mài), with a low tone, means new."}
+{"id":"can-want.13","p":"I want two tickets.","why":"Tickets take the classifier ใบ, after the number: ตั๋วสองใบ."}
+{"id":"can-want.14","p":"Can you speak English?","why":"ได้ไหม at the end asks whether someone can; the answer is ได้ or ไม่ได้."}
+{"id":"requests.01","q":"\"Could I have some water?\" =","why":"ขอ + thing + หน่อย asks for something politely."}
+{"id":"requests.02","q":"\"Could you speak slowly, please?\" =","why":"ช่วย + verb + หน่อย asks someone to do something; ขอพูด would mean \"may I speak\"."}
+{"id":"requests.03","q":"Which word means \"don't\" (telling someone not to do something)?","why":"อย่า before a verb means \"don't\"; ไม่ only means \"not\"."}
+{"id":"requests.04","q":"You see กรุณา on a sign. What is it?","o":["A formal \"please\" for signs and announcements","The everyday spoken \"please\"","A word for \"thank you\"","A polite particle for women"],"why":"กรุณา is formal; in speech people use ขอ, ช่วย and หน่อย."}
+{"id":"requests.05","q":"Which word is náam (water), as in ขอน้ำหน่อย?","why":"น้ำ (náam) is spelled short but said with a long vowel and a high tone."}
+{"id":"requests.06","p":"Could I have a look?","why":"ดู (duu) has a long vowel; ดุ (dù), with a short vowel, means to scold."}
+{"id":"requests.07","p":"Could I have two glasses of water?","why":"Glasses take the classifier แก้ว, after the number: น้ำสองแก้ว."}
+{"id":"requests.08","p":"Don't forget, OK?","why":"อย่า + verb means \"don't\"; นะ makes it friendly."}
+{"id":"requests.09","p":"Could I have some water, please?","why":"ขอ + thing + หน่อย is the everyday polite request."}
+{"id":"requests.10","p":"Could you speak slowly, please?","why":"ช่วย + verb + หน่อย asks someone to do something."}
+{"id":"requests.11","p":"Don't forget, OK?","why":"อย่า before the verb means \"don't\"; ไม่ลืม would mean \"won't forget\"."}
+{"id":"requests.12","p":"Could I have two bottles of water, please? (male speaker)","why":"Bottles take the classifier ขวด, after the number: น้ำสองขวด."}
+{"id":"requests.13","p":"Could I have some rice, please? (male speaker)","why":"ข้าว (khâao) has a falling tone; ขาว (khǎao), with a rising tone, means white."}
+{"id":"requests.14","p":"Could you turn on the air conditioning? (female speaker)","why":"เปิด is to turn on or open; ปิด is to turn off or close."}
+{"id":"directions.01","q":"\"Where is the bathroom?\" =","why":"The place first, then อยู่ที่ไหน; no ไหม with a question word."}
+{"id":"directions.02","q":"To a driver: \"To the market.\" =","why":"ไป + place: Thai needs no word for \"to\"."}
+{"id":"directions.03","q":"What does เลี้ยวขวา mean?","o":["turn right","turn left","go straight","stop here"],"why":"เลี้ยว is turn and ขวา is right."}
+{"id":"directions.04","q":"\"It's across from the hotel.\" =","why":"ตรงข้าม goes before the place, and location takes อยู่, not เป็น."}
+{"id":"directions.05","q":"Which word is glâi (near)?","why":"ใกล้ (glâi) has a falling tone; ไกล (glai), with a mid tone, means far."}
+{"id":"directions.06","p":"Is it far?","why":"ไกล (glai) has a mid tone; ใกล้ (glâi), with a falling tone, means near."}
+{"id":"directions.07","p":"The bank is near the market. (start with ธนาคาร)","why":"ใกล้ (glâi) has a falling tone and means near; ไกล (glai), with a mid tone, means far."}
+{"id":"directions.08","p":"Where is this hotel?","why":"นี้ comes after the noun: โรงแรมนี้; นี่ stands alone, as in นี่คืออะไร."}
+{"id":"directions.09","p":"Where is the bathroom?","why":"ที่ไหน (where) goes at the end, where the answer goes."}
+{"id":"directions.10","p":"Turn right at the traffic light.","why":"ขวา is right; ซ้าย is left."}
+{"id":"directions.11","p":"Stop here.","why":"จอด means to stop or park: จอดตรงนี้."}
+{"id":"directions.12","p":"Is it near? (female speaker)","hint":"end with the female question particle","why":"ใกล้ (glâi) has a falling tone; ไกล (glai), with a mid tone, means far."}
+{"id":"directions.13","p":"The hotel is far. (male speaker)","why":"ไกล (glai) has a mid tone; ใกล้ (glâi), with a falling tone, means near."}
+{"id":"directions.14","p":"To the airport, please. (female speaker)","hint":"no word for \"to\"","why":"ไป needs no word for \"to\": ไปสนามบิน."}
+{"id":"shopping.01","q":"\"a red shirt\" =","why":"The color comes after the noun, with สี in front of it."}
+{"id":"shopping.02","q":"\"this pair of shoes\" =","why":"Shoes take คู่, and the classifier and นี้ follow the noun."}
+{"id":"shopping.03","q":"\"too expensive\" =","why":"ไป after a describing word means \"too\": แพงไป."}
+{"id":"shopping.04","q":"A shop assistant says กางเกงตัวนี้ฟิต. She means:","o":["These pants are tight.","These pants fit perfectly.","These pants are for sports.","These pants are cheap."],"why":"ฟิต means tight, not \"fits well\"."}
+{"id":"shopping.05","q":"Which word is khǎao (white), as in สีขาว?","why":"ขาว (khǎao) has a rising tone and a long vowel; ข้าว is rice, เขา is he or she."}
+{"id":"shopping.06","p":"How much is this bag? (start with กระเป๋า)","why":"Bags take the classifier ใบ, after the noun: กระเป๋าใบนี้."}
+{"id":"shopping.07","p":"these black pants","why":"Pants take the classifier ตัว, not คู่; color and classifier come after the noun."}
+{"id":"shopping.08","p":"a white shirt","why":"ขาว (khǎao) has a rising tone; ข้าว (khâao), with a falling tone, is rice."}
+{"id":"shopping.09","p":"How much is this shirt?","why":"เท่าไร asks \"how much\"; it goes at the end."}
+{"id":"shopping.10","p":"this pair of shoes","why":"Shoes come in pairs: คู่."}
+{"id":"shopping.11","p":"too big","why":"ไป after a describing word means \"too\"."}
+{"id":"shopping.12","p":"this pair of white shoes","why":"Shoes take the classifier คู่; color, classifier and นี้ come after the noun."}
+{"id":"shopping.13","p":"Can I try on this hat? (male speaker)","why":"Hats take the classifier ใบ, after the noun: หมวกใบนี้."}
+{"id":"shopping.14","p":"Can you lower the price? (female speaker)","hint":"end with the female question particle","why":"A question ends in คะ, with a high tone; ค่ะ has a falling tone."}
+{"id":"feelings.01","q":"\"I'm tired\" (male speaker) =","why":"Feelings need no เป็น: ผมเหนื่อย."}
+{"id":"feelings.02","q":"\"I have a cold\" (female speaker) =","why":"Illnesses take เป็น: เป็นหวัด."}
+{"id":"feelings.03","q":"\"I have a headache\" =","why":"ปวด + body part, with no word for \"have\"."}
+{"id":"feelings.04","q":"\"I have a fever\" (male speaker) =","why":"A fever is ไข้, with เป็น; ร้อน means hot weather or a hot stove."}
+{"id":"feelings.05","q":"Which word is khâi (fever)?","why":"ไข้ (khâi) has a falling tone; ไข่ (khài), with a low tone, is an egg."}
+{"id":"feelings.06","p":"I have a fever.","why":"ไข้ (khâi) has a falling tone; ไข่ (khài), with a low tone, means egg."}
+{"id":"feelings.07","p":"Is the pharmacy near?","why":"ใกล้ (glâi) has a falling tone and means near; ไกล (glai), with a mid tone, means far."}
+{"id":"feelings.08","p":"I'm very glad. (male speaker)","why":"Feelings need no เป็น, and มาก comes after the feeling."}
+{"id":"feelings.09","p":"I have a cold. (male speaker)","why":"Illnesses take เป็น: เป็นหวัด."}
+{"id":"feelings.10","p":"sore throat","why":"เจ็บ + body part: คอ is the throat."}
+{"id":"feelings.11","p":"I'm allergic to shrimp. (female speaker)","why":"แพ้ + the thing means \"allergic to\"."}
+{"id":"feelings.12","p":"I have a fever. (female speaker)","why":"ไข้ (khâi) has a falling tone; ไข่ (khài), with a low tone, is an egg."}
+{"id":"feelings.13","p":"Do you have any medicine? (female speaker)","hint":"end with the female question particle","why":"A question ends in คะ, with a high tone; ค่ะ has a falling tone."}
+{"id":"feelings.14","p":"I'm very tired. (male speaker)","why":"No เป็น before a feeling: ผมเหนื่อย, and มาก comes after it."}

@@ -1,0 +1,378 @@
+{"id":"initials.01","lesson":"initials","t":"mc","o":["tshù","tsá","pá","bah"]}
+{"id":"initials.02","lesson":"initials","t":"mc","o":[null,null,null,null]}
+{"id":"initials.03","lesson":"initials","t":"mc","o":[null,null,null,null]}
+{"id":"initials.04","lesson":"initials","t":"mc","o":[null,null,null,null]}
+{"id":"initials.05","lesson":"initials","t":"mc","o":["chhù","chù","tsù",null]}
+{"id":"initials.06","lesson":"initials","t":"order","a":["lāu","su"],"x":["láu"]}
+{"id":"initials.07","lesson":"initials","t":"order","a":["kong","hn̂g"],"x":["hn̄g"]}
+{"id":"initials.08","lesson":"initials","t":"order","a":["pháinn","sè"],"x":["páinn"]}
+{"id":"initials.09","lesson":"initials","t":"fill","o":["tsù","sù","thù"],"a":["tshù"]}
+{"id":"initials.10","lesson":"initials","t":"fill","o":["tinn","thin","tian"],"a":["thinn"]}
+{"id":"initials.11","lesson":"initials","t":"fill","o":["kû","khû","hû"],"a":["gû"]}
+{"id":"initials.12","lesson":"initials","t":"type","a":["pá"],"x":["pà"],"strict":true}
+{"id":"initials.13","lesson":"initials","t":"type","a":["bah"],"x":["ba̍h"],"strict":true}
+{"id":"initials.14","lesson":"initials","t":"type","a":["tshù"],"x":["tsù"]}
+{"id":"finals.01","lesson":"finals","t":"mc","o":["sann","tsa̍p","lo̍k","hó"]}
+{"id":"finals.02","lesson":"finals","t":"mc","o":[null,null,null,null]}
+{"id":"finals.03","lesson":"finals","t":"mc","o":[null,null,null,null]}
+{"id":"finals.04","lesson":"finals","t":"mc","o":[null,null,null,null]}
+{"id":"finals.05","lesson":"finals","t":"mc","o":[null,null,null,null]}
+{"id":"finals.06","lesson":"finals","t":"order","a":["ke","nn̄g"],"x":["nn̂g"]}
+{"id":"finals.07","lesson":"finals","t":"order","a":["gû","bah"],"x":["ba̍h"]}
+{"id":"finals.08","lesson":"finals","t":"order","a":["sió","sim"],"x":["sin"]}
+{"id":"finals.09","lesson":"finals","t":"fill","o":["san","sam","sang"],"a":["sann"]}
+{"id":"finals.10","lesson":"finals","t":"fill","o":["hó","hú","hóng"],"a":["hóo"]}
+{"id":"finals.11","lesson":"finals","t":"fill","o":["tsa̍t","tsa̍k","tsâ"],"a":["tsa̍p"]}
+{"id":"finals.12","lesson":"finals","t":"type","a":["lo̍k"],"x":["lok"],"strict":true}
+{"id":"finals.13","lesson":"finals","t":"type","a":["m̄"],"x":["m̂"],"strict":true}
+{"id":"finals.14","lesson":"finals","t":"type","a":["sann"],"x":["san"]}
+{"id":"tones.01","lesson":"tones","t":"mc","o":[null,null,null,null]}
+{"id":"tones.02","lesson":"tones","t":"mc","o":[null,null,null,null]}
+{"id":"tones.03","lesson":"tones","t":"mc","o":[null,null,null,null]}
+{"id":"tones.04","lesson":"tones","t":"mc","o":[null,null,null,null]}
+{"id":"tones.05","lesson":"tones","t":"mc","o":["lo̍k","lok","lóo","lōo"]}
+{"id":"tones.06","lesson":"tones","t":"order","a":["sai","hóo","pà","pih"],"x":["pá"]}
+{"id":"tones.07","lesson":"tones","t":"order","a":["kâu","káu","tshiūnn","lo̍k"],"x":["kàu"]}
+{"id":"tones.08","lesson":"tones","t":"order","a":["lāu","su"],"x":["láu"]}
+{"id":"tones.09","lesson":"tones","t":"fill","o":["káu","kàu","kāu"],"a":["kâu"],"strict":true}
+{"id":"tones.10","lesson":"tones","t":"fill","o":["pá","pâ","pā"],"a":["pà"],"strict":true}
+{"id":"tones.11","lesson":"tones","t":"fill","o":["tshiúnn","tshiùnn","tshiûnn"],"a":["tshiūnn"],"strict":true}
+{"id":"tones.12","lesson":"tones","t":"type","a":["sai"],"x":["sāi"],"strict":true}
+{"id":"tones.13","lesson":"tones","t":"type","a":["káu"],"x":["kâu"],"strict":true}
+{"id":"tones.14","lesson":"tones","t":"type","a":["pih"],"x":["pi̍h"],"strict":true}
+{"id":"sandhi.01","lesson":"sandhi","t":"mc","o":[null,null,null,null]}
+{"id":"sandhi.02","lesson":"sandhi","t":"mc","o":[null,null,null,null]}
+{"id":"sandhi.03","lesson":"sandhi","t":"mc","o":[null,null,null,null]}
+{"id":"sandhi.04","lesson":"sandhi","t":"mc","o":[null,null,null,null]}
+{"id":"sandhi.05","lesson":"sandhi","t":"mc","o":[null,null,null,null]}
+{"id":"sandhi.06","lesson":"sandhi","t":"order","a":["gû","bah"],"x":["gū"]}
+{"id":"sandhi.07","lesson":"sandhi","t":"order","a":["tuā","lâng"],"x":["tuà"]}
+{"id":"sandhi.08","lesson":"sandhi","t":"order","a":["hó","tsia̍h"],"x":["ho"]}
+{"id":"sandhi.09","lesson":"sandhi","t":"fill","qk":["__-tshia"],"o":["hue","huè","huē"],"a":["hué"],"strict":true}
+{"id":"sandhi.10","lesson":"sandhi","t":"fill","qk":["__-hn̂g"],"o":["kōng","kóng","kòng"],"a":["kong"],"strict":true}
+{"id":"sandhi.11","lesson":"sandhi","t":"fill","qk":["__-su"],"o":["lau","làu","láu"],"a":["lāu"],"strict":true}
+{"id":"sandhi.12","lesson":"sandhi","t":"type","a":["hué tshia"],"x":["hue"],"strict":true}
+{"id":"sandhi.13","lesson":"sandhi","t":"type","a":["kong hn̂g"],"x":["kōng"],"strict":true}
+{"id":"sandhi.14","lesson":"sandhi","t":"type","a":["tshài tuann"],"x":["tshái"],"strict":true}
+{"id":"sandhi-2.01","lesson":"sandhi-2","t":"mc","o":[null,null,null,null]}
+{"id":"sandhi-2.02","lesson":"sandhi-2","t":"mc","o":[null,null,null,null]}
+{"id":"sandhi-2.03","lesson":"sandhi-2","t":"mc","o":[null,null,null,null]}
+{"id":"sandhi-2.04","lesson":"sandhi-2","t":"mc","o":[null,null,null,null]}
+{"id":"sandhi-2.05","lesson":"sandhi-2","t":"mc","o":["siā","to",null,"lí"]}
+{"id":"sandhi-2.06","lesson":"sandhi-2","t":"order","a":["sit","lé"],"x":["si̍t"]}
+{"id":"sandhi-2.07","lesson":"sandhi-2","t":"order","a":["tha̍k","tsheh"],"x":["thak"]}
+{"id":"sandhi-2.08","lesson":"sandhi-2","t":"order","a":["tsia̍t","ūn"],"x":["tsiat"]}
+{"id":"sandhi-2.09","lesson":"sandhi-2","t":"fill","qk":["__-tsheh"],"o":["thak","that","thap"],"a":["tha̍k"],"strict":true}
+{"id":"sandhi-2.10","lesson":"sandhi-2","t":"fill","qk":["tshù--__"],"o":["lī","lì","lâi"],"a":["lí"],"strict":true}
+{"id":"sandhi-2.11","lesson":"sandhi-2","t":"fill","qk":["Tsia̍h-pá--__."],"o":["á","a̍h","ā"],"a":["ah"],"strict":true}
+{"id":"sandhi-2.12","lesson":"sandhi-2","t":"type","a":["sit lé"],"x":["si̍t"],"strict":true}
+{"id":"sandhi-2.13","lesson":"sandhi-2","t":"type","a":["tsia̍t ūn"],"x":["tsiat"],"strict":true}
+{"id":"sandhi-2.14","lesson":"sandhi-2","t":"type","a":["to-siā --lí"],"x":["lī"],"strict":true}
+{"id":"greetings.01","lesson":"greetings","t":"mc","o":["阿伯𠢕早。","阿伯再會。","阿伯歹勢。","阿伯失禮。"]}
+{"id":"greetings.02","lesson":"greetings","t":"mc","o":[null,null,null,null]}
+{"id":"greetings.03","lesson":"greetings","t":"mc","o":["歹勢。","再會。","𠢕早。","請你多多指教。"]}
+{"id":"greetings.04","lesson":"greetings","t":"mc","o":["tsài-huē","tsái-huē","tsài-huè","tsāi-huē"]}
+{"id":"greetings.05","lesson":"greetings","t":"mc","o":["請你多多指教。","再會！","歹勢。","多謝你！"]}
+{"id":"greetings.06","lesson":"greetings","t":"order","a":["tsài","huē"],"x":["tsái"]}
+{"id":"greetings.07","lesson":"greetings","t":"order","a":["gâu","tsá"],"x":["gáu"]}
+{"id":"greetings.08","lesson":"greetings","t":"order","a":["請","你","多多","指教"],"x":["您"]}
+{"id":"greetings.09","lesson":"greetings","t":"fill","q":"阿伯__。","o":["再會","歹勢","失禮"],"a":["𠢕早","gâu-tsá"],"xr":["tsài-huē","pháinn-sè","sit-lé"]}
+{"id":"greetings.10","lesson":"greetings","t":"fill","q":"你食飽__？","o":["嗎","呢","吧"],"a":["未","buē"]}
+{"id":"greetings.11","lesson":"greetings","t":"fill","q":"__你！","o":["再會","歹勢","失禮"],"a":["多謝","to-siā"],"xr":["tsài-huē","pháinn-sè","sit-lé"]}
+{"id":"greetings.12","lesson":"greetings","t":"type","a":["to siā"],"x":["sià"],"strict":true}
+{"id":"greetings.13","lesson":"greetings","t":"type","a":["pháinn sè"],"x":["sé"],"strict":true}
+{"id":"greetings.14","lesson":"greetings","t":"type","a":["你 食飽 未","lí tsia̍h-pá buē"],"x":["嗎"],"hint":{"nan":"你 · 食飽 · 未"}}
+{"id":"characters.01","lesson":"characters","t":"mc","o":["我毋是學生。","我不是學生。","我沒是學生。","我無是學生。"]}
+{"id":"characters.02","lesson":"characters","t":"mc","o":["伊佇厝裡。","伊在厝裡。","他在家裡。","伊在家裡。"]}
+{"id":"characters.03","lesson":"characters","t":"mc","o":["媠","漂亮","靚","水"]}
+{"id":"characters.04","lesson":"characters","t":"mc","o":["tī","tí","tì","ti"]}
+{"id":"characters.05","lesson":"characters","t":"mc","o":["食","吃","喫","飯"]}
+{"id":"characters.06","lesson":"characters","t":"order","a":["這","本","冊"],"x":["个"]}
+{"id":"characters.07","lesson":"characters","t":"order","a":["兩","个","人"],"x":["二"]}
+{"id":"characters.08","lesson":"characters","t":"order","a":["我","佇","厝裡","食飯"],"x":["在"]}
+{"id":"characters.09","lesson":"characters","t":"fill","q":"我__是學生。","o":["不","無","沒"],"a":["毋","m̄"],"xr":["bô"]}
+{"id":"characters.10","lesson":"characters","t":"fill","q":"伊__厝裡。","o":["在","是","欲"],"a":["佇","tī"],"xr":["sī","beh"]}
+{"id":"characters.11","lesson":"characters","t":"fill","q":"我__啉茶。","o":["要","在","吃"],"a":["欲","beh"]}
+{"id":"characters.12","lesson":"characters","t":"type","a":["兩 本 冊","nn̄g pún tsheh"],"x":["二"],"hint":{"nan":"兩 · 本 · 冊"},"xr":["jī"]}
+{"id":"characters.13","lesson":"characters","t":"type","a":["這 本 冊","tsit pún tsheh"],"x":["个"],"hint":{"nan":"這 · 本 · 冊"},"xr":["ê"]}
+{"id":"characters.14","lesson":"characters","t":"type","a":["伊 佇 厝裡","i tī tshù--lí"],"x":["在"],"hint":{"nan":"伊 · 佇 · 厝裡"}}
+{"id":"classroom.01","lesson":"classroom","t":"mc","o":["請閣講一擺。","請閣講一个。","請講閣一擺。","請閣講二擺。"]}
+{"id":"classroom.02","lesson":"classroom","t":"mc","o":["我毋知。","我不知道。","我不知。","我沒知。"]}
+{"id":"classroom.03","lesson":"classroom","t":"mc","o":["慢慢仔講。","慢慢說。","再會。","多謝你。"]}
+{"id":"classroom.04","lesson":"classroom","t":"mc","o":["lāu-su","láu-su","lâu-su","làu-su"]}
+{"id":"classroom.05","lesson":"classroom","t":"mc","o":["林老師","老師林","林學生","學生林"]}
+{"id":"classroom.06","lesson":"classroom","t":"order","a":["請","閣","講","一","擺"],"x":["个"]}
+{"id":"classroom.07","lesson":"classroom","t":"order","a":["我","佇","厝裡","讀冊"],"x":["在"]}
+{"id":"classroom.08","lesson":"classroom","t":"order","a":["我","毋","知"],"x":["不"]}
+{"id":"classroom.09","lesson":"classroom","t":"fill","q":"請閣講一__。","o":["个","本","二"],"a":["擺","pái"],"xr":["ê","pún","jī"]}
+{"id":"classroom.10","lesson":"classroom","t":"fill","q":"我__知影。","o":["不","沒","在"],"a":["毋","m̄"]}
+{"id":"classroom.11","lesson":"classroom","t":"fill","q":"請閣__一擺。","o":["是","毋","个"],"a":["講","kóng"],"xr":["sī","m̄","ê"]}
+{"id":"classroom.12","lesson":"classroom","t":"type","a":["請 閣 講 一 擺","閣 講 一 擺","tshiánn koh kóng tsi̍t pái","koh kóng tsi̍t pái"],"x":["个"],"hint":{"nan":"請 · 閣 · 講 · 一 · 擺"},"xr":["ê"]}
+{"id":"classroom.13","lesson":"classroom","t":"type","a":["請 閣 講 兩 擺","閣 講 兩 擺","tshiánn koh kóng nn̄g pái","koh kóng nn̄g pái"],"x":["二"],"hint":{"nan":"請 · 閣 · 講 · 兩 · 擺"},"xr":["jī"]}
+{"id":"classroom.14","lesson":"classroom","t":"type","a":["我 毋知","我 毋知影","guá m̄ tsai","guá m̄ tsai-iánn"],"x":["不"],"hint":{"nan":"我 · 毋知"}}
+{"id":"si.01","lesson":"si","t":"mc","o":["我是學生。","我毋是學生。","我學生是。","是我學生。"]}
+{"id":"si.02","lesson":"si","t":"mc","o":["伊真媠。","伊是媠。","伊媠是。","伊是一个媠。"]}
+{"id":"si.03","lesson":"si","t":"mc","o":["咱","阮","𪜶","恁"]}
+{"id":"si.04","lesson":"si","t":"mc","o":["𪜶","伊","恁","他們"]}
+{"id":"si.05","lesson":"si","t":"mc","o":["m̄ sī","m̄ sí","m̂ sī","m sì"]}
+{"id":"si.06","lesson":"si","t":"order","a":["𪜶","兩","个","感情","真","好"],"x":["二"]}
+{"id":"si.07","lesson":"si","t":"order","a":["阮","佇","厝裡","食飯"],"x":["在"]}
+{"id":"si.08","lesson":"si","t":"order","a":["我","毋","是","老師"],"x":["不"]}
+{"id":"si.09","lesson":"si","t":"fill","q":"我__學生。","o":["不是","無是","毋"],"a":["毋是","m̄ sī"],"xr":["bô sī","m̄"]}
+{"id":"si.10","lesson":"si","t":"fill","q":"__來去踅夜市。","o":["阮","𪜶","伊"],"a":["咱","lán"],"xr":["guán","in","i"]}
+{"id":"si.11","lesson":"si","t":"fill","q":"𪜶某__媠。","o":["是","佇","个"],"a":["真","tsin"],"xr":["sī","tī","ê"]}
+{"id":"si.12","lesson":"si","t":"type","a":["彼 个 人 是 老師","hit ê lâng sī lāu-su"],"x":["本"],"hint":{"nan":"彼 · 个 · 人 · 是 · 老師"},"xr":["pún"]}
+{"id":"si.13","lesson":"si","t":"type","a":["這 个 人 毋 是 學生","tsit ê lâng m̄ sī ha̍k-sing"],"x":["本"],"hint":{"nan":"這 · 个 · 人 · 毋是 · 學生"},"xr":["pún"]}
+{"id":"si.14","lesson":"si","t":"type","a":["阮 是 學生","guán sī ha̍k-sing"],"x":["咱"],"hint":{"nan":"阮 · 是 · 學生"},"xr":["lán"]}
+{"id":"intro.01","lesson":"intro","t":"mc","o":["你號做啥物名？","啥物名你號做？","你號做名啥物？","名啥物你號做？"]}
+{"id":"intro.02","lesson":"intro","t":"mc","o":["我姓林。","多謝你！","再會！","𠢕早！"]}
+{"id":"intro.03","lesson":"intro","t":"mc","o":["我是學生。","我學生是。","我姓學生。","是我學生。"]}
+{"id":"intro.04","lesson":"intro","t":"mc","o":["Lîm","Līm","Lím","Lim"]}
+{"id":"intro.05","lesson":"intro","t":"mc","o":["我蹛佇臺北。","我蹛臺北佇。","佇我蹛臺北。","我佇蹛臺北。"]}
+{"id":"intro.06","lesson":"intro","t":"order","a":["我","佇","臺北","讀冊"],"x":["在"]}
+{"id":"intro.07","lesson":"intro","t":"order","a":["我","佇","厝裡","食飯"],"x":["在"]}
+{"id":"intro.08","lesson":"intro","t":"order","a":["你","號做","啥物","名"],"x":["是"]}
+{"id":"intro.09","lesson":"intro","t":"fill","q":"我__林。","o":["是","蹛","佇"],"a":["姓","sènn"],"xr":["sī","tuà","tī"]}
+{"id":"intro.10","lesson":"intro","t":"fill","q":"我__學生。","o":["姓","佇","毋"],"a":["是","sī"],"xr":["sènn","tī","m̄"]}
+{"id":"intro.11","lesson":"intro","t":"fill","q":"我蹛__臺北。","o":["在","是","姓"],"a":["佇","tī"],"xr":["sī","sènn"]}
+{"id":"intro.12","lesson":"intro","t":"type","a":["我 佇 臺北 讀冊","我佇臺北讀冊","guá tī Tâi-pak tha̍k-tsheh"],"x":["在"],"hint":{"nan":"佇 · 臺北 · 讀冊","sep":" · "}}
+{"id":"intro.13","lesson":"intro","t":"type","a":["我 佇 厝裡 讀冊","我佇厝裡讀冊","guá tī tshù--lí tha̍k-tsheh"],"x":["在"],"hint":{"nan":"佇 · 厝裡 · 讀冊"}}
+{"id":"intro.14","lesson":"intro","t":"type","a":["我 是 學生","我是學生","guá sī ha̍k-sing"],"x":["姓"],"hint":{"nan":"是 · 學生"},"xr":["sènn"]}
+{"id":"questions.01","lesson":"questions","t":"mc","o":["你欲食啥物？","啥物你欲食？","你啥物欲食？","欲食你啥物？"]}
+{"id":"questions.02","lesson":"questions","t":"mc","o":["啥人","啥物","佗位","當時"]}
+{"id":"questions.03","lesson":"questions","t":"mc","o":["便所佇佗位？","佗位便所佇？","便所佗位佇？","佇佗位便所？"]}
+{"id":"questions.04","lesson":"questions","t":"mc","o":["tó-uī","tò-uī","tô-uī","to-uī"]}
+{"id":"questions.05","lesson":"questions","t":"mc","o":["你咧？","咧你？","你是？","你啥物？"]}
+{"id":"questions.06","lesson":"questions","t":"order","a":["你","佇","佗位","食飯"],"x":["在"]}
+{"id":"questions.07","lesson":"questions","t":"order","a":["你","當時","欲","來"],"x":["要"]}
+{"id":"questions.08","lesson":"questions","t":"order","a":["伊","是","啥人"],"x":["誰"]}
+{"id":"questions.09","lesson":"questions","t":"fill","q":"伊是__？","o":["佗位","當時","偌濟"],"a":["啥人","siánn-lâng"],"xr":["tó-uī","tang-sî","guā-tsē"]}
+{"id":"questions.10","lesson":"questions","t":"fill","q":"你欲去__？","o":["啥人","當時","偌濟"],"a":["佗位","tó-uī"],"xr":["siánn-lâng","tang-sî","guā-tsē"]}
+{"id":"questions.11","lesson":"questions","t":"fill","q":"你__欲來？","o":["佗位","啥人","偌濟"],"a":["當時","tang-sî"],"xr":["tó-uī","siánn-lâng","guā-tsē"]}
+{"id":"questions.12","lesson":"questions","t":"type","a":["你 佇 佗位 食飯","你佇佗位食飯","lí tī tó-uī tsia̍h-pn̄g"],"x":["在"],"hint":{"nan":"佇 · 佗位 · 食飯"}}
+{"id":"questions.13","lesson":"questions","t":"type","a":["你 當時 欲 去","你當時欲去","lí tang-sî beh khì"],"x":["要"],"hint":{"nan":"當時 · 欲 · 去"}}
+{"id":"questions.14","lesson":"questions","t":"type","a":["你 咧","你咧","lí--leh"],"x":["呢"],"hint":{"nan":"你","sep":" · "}}
+{"id":"numbers.01","lesson":"numbers","t":"mc","o":["兩个人","二个人","二人个","个兩人"]}
+{"id":"numbers.02","lesson":"numbers","t":"mc","o":[null,null,null,null]}
+{"id":"numbers.03","lesson":"numbers","t":"mc","o":["十二","二十","一二","十兩"]}
+{"id":"numbers.04","lesson":"numbers","t":"mc","o":["你幾歲？","你歲幾？","幾你歲？","你是幾？"]}
+{"id":"numbers.05","lesson":"numbers","t":"mc","o":["nn̄g","nńg","nn̂g","nng"]}
+{"id":"numbers.06","lesson":"numbers","t":"order","a":["兩","个","人"],"x":["二"]}
+{"id":"numbers.07","lesson":"numbers","t":"order","a":["三","碗","飯"],"x":["个"]}
+{"id":"numbers.08","lesson":"numbers","t":"order","a":["空","九","八","三"],"x":["零"]}
+{"id":"numbers.09","lesson":"numbers","t":"fill","q":"__个人","o":["二","十","百"],"a":["兩","nn̄g"],"xr":["jī","tsa̍p","pah"]}
+{"id":"numbers.10","lesson":"numbers","t":"fill","q":"我三__歲。","o":["百","千","萬"],"a":["十","tsa̍p"],"xr":["pah","tshing","bān"]}
+{"id":"numbers.11","lesson":"numbers","t":"fill","q":"你的電話__號？","o":["佗位","當時","啥人"],"a":["幾","kuí"],"xr":["tó-uī","tang-sî","siánn-lâng"]}
+{"id":"numbers.12","lesson":"numbers","t":"type","a":["兩 个 人","兩个人","nn̄g ê lâng"],"x":["二"],"hint":{"nan":"兩 · 个 · 人"},"xr":["jī"]}
+{"id":"numbers.13","lesson":"numbers","t":"type","a":["十二","tsa̍p-jī"],"x":["十"],"hint":{"nan":"十 · 二"},"xr":["tsa̍p"]}
+{"id":"numbers.14","lesson":"numbers","t":"type","a":["三 碗 飯","三碗飯","sann uánn pn̄g"],"x":["个"],"hint":{"nan":"三 · 碗 · 飯"},"xr":["ê"]}
+{"id":"family.01","lesson":"family","t":"mc","o":["阿母","媽媽","阿爸","阿媽"]}
+{"id":"family.02","lesson":"family","t":"mc","o":["阿媽","阿母","阿姊","阿姨"]}
+{"id":"family.03","lesson":"family","t":"mc","o":[null,null,null,null]}
+{"id":"family.04","lesson":"family","t":"mc","o":[null,null,null,null]}
+{"id":"family.05","lesson":"family","t":"mc","o":["阿姊","阿兄","小弟","後生"]}
+{"id":"family.06","lesson":"family","t":"order","a":["兩","个","後生"],"x":["二"]}
+{"id":"family.07","lesson":"family","t":"order","a":["兩","个","阿兄"],"x":["二"]}
+{"id":"family.08","lesson":"family","t":"order","a":["阮","阿爸","是","老師"],"x":["爸爸"]}
+{"id":"family.09","lesson":"family","t":"fill","q":"__小弟咧？","o":["𪜶","阮","伊"],"a":["恁","lín"],"xr":["in","guán","i"]}
+{"id":"family.10","lesson":"family","t":"fill","q":"阮__是老師。","o":["媽媽","阿媽","阿爸"],"a":["阿母","a-bú"],"xr":["a-má","a-pah"]}
+{"id":"family.11","lesson":"family","t":"fill","q":"𪜶兩__感情真好。","o":["本","碗","二"],"a":["个","ê"],"xr":["pún","uánn","jī"]}
+{"id":"family.12","lesson":"family","t":"type","a":["兩 个 後生","兩个後生","nn̄g ê hāu-senn"],"x":["二"],"hint":{"nan":"兩 · 个 · 後生"},"xr":["jī"]}
+{"id":"family.13","lesson":"family","t":"type","a":["𪜶 兩 个","𪜶兩个","in nn̄g ê"],"x":["二"],"hint":{"nan":"𪜶 · 兩 · 个"},"xr":["jī"]}
+{"id":"family.14","lesson":"family","t":"type","a":["阮 阿爸 是 老師","阮阿爸是老師","guán a-pah sī lāu-su"],"x":["爸爸"],"hint":{"nan":"阮 · 阿爸 · 是 · 老師"}}
+{"id":"u-bo.01","lesson":"u-bo","t":"mc","o":["我無錢。","我毋有錢。","我毋錢。","我不有錢。"]}
+{"id":"u-bo.02","lesson":"u-bo","t":"mc","o":["你有冊無？","你有冊。","我有冊。","你無冊。"]}
+{"id":"u-bo.03","lesson":"u-bo","t":"mc","o":["這敢是你的？","這是敢你的？","這是你的敢？","這是你敢的？"]}
+{"id":"u-bo.04","lesson":"u-bo","t":"mc","o":[null,null,null,null]}
+{"id":"u-bo.05","lesson":"u-bo","t":"mc","o":["我有去過。","我去過有。","我無去過。","有我去過。"]}
+{"id":"u-bo.06","lesson":"u-bo","t":"order","a":["我","有","一","个","小弟"],"x":["本"]}
+{"id":"u-bo.07","lesson":"u-bo","t":"order","a":["遮","有","茶","無"],"x":["毋"]}
+{"id":"u-bo.08","lesson":"u-bo","t":"order","a":["你","有","冊","無"],"x":["毋"]}
+{"id":"u-bo.09","lesson":"u-bo","t":"fill","q":"你有冊__？","o":["毋","嗎","不"],"a":["無","bô"],"xr":["m̄"]}
+{"id":"u-bo.10","lesson":"u-bo","t":"fill","q":"我__錢。","o":["毋","不","袂"],"a":["無","bô"],"xr":["m̄","bē"]}
+{"id":"u-bo.11","lesson":"u-bo","t":"fill","q":"這__是你的？","o":["嗎","佇","姓"],"a":["敢","kám"],"xr":["tī","sènn"]}
+{"id":"u-bo.12","lesson":"u-bo","t":"type","a":["我 有 兩 本 冊","我有兩本冊","guá ū nn̄g pún tsheh"],"x":["二"],"hint":{"nan":"有 · 兩 · 本 · 冊"},"xr":["jī"]}
+{"id":"u-bo.13","lesson":"u-bo","t":"type","a":["我 有 一 个 小弟","我有一个小弟","guá ū tsi̍t ê sió-tī"],"x":["本"],"hint":{"nan":"有 · 一 · 个 · 小弟"},"xr":["pún"]}
+{"id":"u-bo.14","lesson":"u-bo","t":"type","a":["我 無 錢","我無錢","guá bô tsînn"],"x":["毋"],"hint":{"nan":"無 · 錢"},"xr":["m̄"]}
+{"id":"classifiers.01","lesson":"classifiers","t":"mc","o":["一个人","一人","一本人","个一人"]}
+{"id":"classifiers.02","lesson":"classifiers","t":"mc","o":["本","隻","杯","碗"]}
+{"id":"classifiers.03","lesson":"classifiers","t":"mc","o":["這本冊","這冊","本這冊","這个本冊"]}
+{"id":"classifiers.04","lesson":"classifiers","t":"mc","o":["pún","pùn","pûn","pun"]}
+{"id":"classifiers.05","lesson":"classifiers","t":"mc","o":[null,null,null,null]}
+{"id":"classifiers.06","lesson":"classifiers","t":"order","a":["兩","本","冊"],"x":["二"]}
+{"id":"classifiers.07","lesson":"classifiers","t":"order","a":["這","隻","狗"],"x":["本"]}
+{"id":"classifiers.08","lesson":"classifiers","t":"order","a":["三","杯","茶"],"x":["本"]}
+{"id":"classifiers.09","lesson":"classifiers","t":"fill","q":"一__人","o":["本","隻","杯"],"a":["个","ê"],"xr":["pún","tsiah","pue"]}
+{"id":"classifiers.10","lesson":"classifiers","t":"fill","q":"兩__冊","o":["隻","杯","碗"],"a":["本","pún"],"xr":["tsiah","pue","uánn"]}
+{"id":"classifiers.11","lesson":"classifiers","t":"fill","q":"彼__貓","o":["本","杯","碗"],"a":["隻","tsiah"],"xr":["pún","pue","uánn"]}
+{"id":"classifiers.12","lesson":"classifiers","t":"type","a":["這 本 冊","這本冊","tsit pún tsheh"],"x":["隻"],"hint":{"nan":"這 · 本 · 冊"},"xr":["tsiah"]}
+{"id":"classifiers.13","lesson":"classifiers","t":"type","a":["兩 隻 狗","兩隻狗","nn̄g tsiah káu"],"x":["二"],"hint":{"nan":"兩 · 隻 · 狗"},"xr":["jī"]}
+{"id":"classifiers.14","lesson":"classifiers","t":"type","a":["一 杯 茶","一杯茶","tsi̍t pue tê"],"x":["本"],"hint":{"nan":"一 · 杯 · 茶"},"xr":["pún"]}
+{"id":"prices.01","lesson":"prices","t":"mc","o":["偌濟錢？","幾號？","佗位？","當時？"]}
+{"id":"prices.02","lesson":"prices","t":"mc","o":["三百箍","三箍百","箍三百","三百个"]}
+{"id":"prices.03","lesson":"prices","t":"mc","o":["這遮貴，莫買啦！","這是貴，莫買啦！","這遮貴，不要買啦！","這遮貴，別買啦！"]}
+{"id":"prices.04","lesson":"prices","t":"mc","o":["khoo","khóo","khôo","kho"]}
+{"id":"prices.05","lesson":"prices","t":"mc","o":["俗","貴","傷","濟"]}
+{"id":"prices.06","lesson":"prices","t":"order","a":["一","碗","麵","偌濟","錢"],"x":["个"]}
+{"id":"prices.07","lesson":"prices","t":"order","a":["三十五","箍"],"x":["元"]}
+{"id":"prices.08","lesson":"prices","t":"order","a":["傷","貴"],"x":["是"]}
+{"id":"prices.09","lesson":"prices","t":"fill","q":"這遮貴，__買啦！","o":["不要","別","不"],"a":["莫","mài"]}
+{"id":"prices.10","lesson":"prices","t":"fill","q":"彼擔賣的水果較__。","o":["貴","遮","傷"],"a":["俗","sio̍k"],"xr":["kuì","tsia","siunn"]}
+{"id":"prices.11","lesson":"prices","t":"fill","q":"一碗麵__錢？","o":["幾","佗位","啥人"],"a":["偌濟","guā-tsē"],"xr":["kuí","tó-uī","siánn-lâng"]}
+{"id":"prices.12","lesson":"prices","t":"type","a":["一 碗 麵 偌濟 錢","一碗麵偌濟錢","麵 一 碗 偌濟 錢","麵一碗偌濟錢","tsi̍t uánn mī guā-tsē tsînn","mī tsi̍t uánn guā-tsē tsînn"],"x":["个"],"hint":{"nan":"一 · 碗 · 麵 · 偌濟 · 錢"},"xr":["ê"]}
+{"id":"prices.13","lesson":"prices","t":"type","a":["兩 杯 茶","兩杯茶","nn̄g pue tê"],"x":["二"],"hint":{"nan":"兩 · 杯 · 茶"},"xr":["jī"]}
+{"id":"prices.14","lesson":"prices","t":"type","a":["傷 貴","傷貴","siunn kuì"],"x":["是"],"hint":{"nan":"傷 · 貴"},"xr":["sī"]}
+{"id":"want.01","lesson":"want","t":"mc","o":["我欲啉茶。","我要啉茶。","我欲喝茶。","我啉欲茶。"]}
+{"id":"want.02","lesson":"want","t":"mc","o":[null,null,null,null]}
+{"id":"want.03","lesson":"want","t":"mc","o":["我想欲去便所。","我想去欲便所。","我欲想去便所。","想欲我去便所。"]}
+{"id":"want.04","lesson":"want","t":"mc","o":[null,null,null,null]}
+{"id":"want.05","lesson":"want","t":"mc","o":["我無愛。","我不要。","我無欲有。","我愛無。"]}
+{"id":"want.06","lesson":"want","t":"order","a":["我","欲","食","兩","碗","麵"],"x":["二"]}
+{"id":"want.07","lesson":"want","t":"order","a":["我","想欲","啉","一","杯","茶"],"x":["本"]}
+{"id":"want.08","lesson":"want","t":"order","a":["我","無","愛","食","肉"],"x":["毋"]}
+{"id":"want.09","lesson":"want","t":"fill","q":"我__食炒飯，你咧？","o":["要","吃","毋"],"a":["欲","想欲","beh","siūnn-beh"],"xr":["m̄"]}
+{"id":"want.10","lesson":"want","t":"fill","q":"你行路__小心。","o":["要","是","毋"],"a":["愛","ài"],"xr":["sī","m̄"]}
+{"id":"want.11","lesson":"want","t":"fill","q":"欲落雨__。","o":["了","咧","無"],"a":["矣","--ah"],"xr":["teh","bô"]}
+{"id":"want.12","lesson":"want","t":"type","a":["我 欲 啉 一 杯 茶","我欲啉一杯茶","guá beh lim tsi̍t pue tê"],"x":["本"],"hint":{"nan":"欲 · 啉 · 一 · 杯 · 茶"},"xr":["pún"]}
+{"id":"want.13","lesson":"want","t":"type","a":["我 欲 食 三 碗 飯","我欲食三碗飯","guá beh tsia̍h sann uánn pn̄g"],"x":["个"],"hint":{"nan":"欲 · 食 · 三 · 碗 · 飯"},"xr":["ê"]}
+{"id":"want.14","lesson":"want","t":"type","a":["我 無 愛 食 肉","我無愛食肉","guá bô ài tsia̍h bah"],"x":["毋"],"hint":{"nan":"無 · 愛 · 食 · 肉"},"xr":["m̄"]}
+{"id":"place.01","lesson":"place","t":"mc","o":["伊佇厝裡。","伊在厝裡。","伊是厝裡。","伊厝裡佇。"]}
+{"id":"place.02","lesson":"place","t":"mc","o":["貓佇椅仔下跤。","貓佇下跤椅仔。","貓下跤佇椅仔。","下跤貓佇椅仔。"]}
+{"id":"place.03","lesson":"place","t":"mc","o":["我佇厝裡食飯。","我佇厝裡吃飯。","我在厝裡食飯。","佇我厝裡食飯。"]}
+{"id":"place.04","lesson":"place","t":"mc","o":[null,null,null,null]}
+{"id":"place.05","lesson":"place","t":"mc","o":["遐","遮","頂懸","內面"]}
+{"id":"place.06","lesson":"place","t":"order","a":["伊","佇","厝裡","讀冊"],"x":["在"]}
+{"id":"place.07","lesson":"place","t":"order","a":["貓","佇","椅仔","下跤"],"x":["頂懸"]}
+{"id":"place.08","lesson":"place","t":"order","a":["咱","佇","遮","食飯"],"x":["在"]}
+{"id":"place.09","lesson":"place","t":"fill","q":"貓佇椅仔__。","o":["頂懸","頭前","後壁"],"a":["下跤","ē-kha"],"xr":["tíng-kuân","thâu-tsîng","āu-piah"]}
+{"id":"place.10","lesson":"place","t":"fill","q":"你行__，我綴你行。","o":["後壁","下跤","頂懸"],"a":["頭前","thâu-tsîng"],"xr":["āu-piah","ē-kha","tíng-kuân"]}
+{"id":"place.11","lesson":"place","t":"fill","q":"伊這馬__厝裡咧睏。","o":["在","是","有"],"a":["佇","tī"],"xr":["sī","ū"]}
+{"id":"place.12","lesson":"place","t":"type","a":["伊 佇 厝裡 讀冊","伊佇厝裡讀冊","i tī tshù--lí tha̍k-tsheh"],"x":["在"],"hint":{"nan":"佇 · 厝裡 · 讀冊"}}
+{"id":"place.13","lesson":"place","t":"type","a":["我 佇 遮 食飯","我佇遮食飯","guá tī tsia tsia̍h-pn̄g"],"x":["在"],"hint":{"nan":"佇 · 遮 · 食飯"}}
+{"id":"place.14","lesson":"place","t":"type","a":["便所 佇 佗位","便所佇佗位","piān-sóo tī tó-uī"],"x":["在"],"hint":{"nan":"便所 · 佇 · 佗位"}}
+{"id":"directions.01","lesson":"directions","t":"mc","o":["斡","行","到","坐"]}
+{"id":"directions.02","lesson":"directions","t":"mc","o":["正手","倒手","倒爿","頭前"]}
+{"id":"directions.03","lesson":"directions","t":"mc","o":["斡倒爿","斡正爿","直直行","行頭前"]}
+{"id":"directions.04","lesson":"directions","t":"mc","o":[null,null,null,null]}
+{"id":"directions.05","lesson":"directions","t":"mc","o":["頭前路口斡正爿就到矣。","斡正爿頭前路口就到矣。","頭前路口斡倒爿就到矣。","頭前路口直直行就到矣。"]}
+{"id":"directions.06","lesson":"directions","t":"order","a":["路口","斡","正爿"],"x":["倒爿"]}
+{"id":"directions.07","lesson":"directions","t":"order","a":["頭前","路口","斡","正爿"],"x":["倒手"]}
+{"id":"directions.08","lesson":"directions","t":"order","a":["便所","佇","佗位"],"x":["啥物"]}
+{"id":"directions.09","lesson":"directions","t":"fill","q":"頭前路口斡__就到矣。","o":["頭前","後壁","路口"],"a":["正爿","tsiànn-pîng"],"xr":["thâu-tsîng","āu-piah","lōo-kháu"]}
+{"id":"directions.10","lesson":"directions","t":"fill","q":"__行就到矣。","o":["斡","倒爿","佗位"],"a":["直直","ti̍t-ti̍t"],"xr":["uat","tò-pîng","tó-uī"]}
+{"id":"directions.11","lesson":"directions","t":"fill","q":"伊寫字、食飯攏用__。","o":["正爿","頭前","倒爿"],"a":["倒手","tò-tshiú"],"xr":["tsiànn-pîng","thâu-tsîng","tò-pîng"]}
+{"id":"directions.12","lesson":"directions","t":"type","a":["路口 斡 倒爿","路口斡倒爿","lōo-kháu uat tò-pîng"],"x":["正爿"],"hint":{"nan":"路口 · 斡 · 倒爿","sep":" · "},"xr":["tsiànn-pîng"]}
+{"id":"directions.13","lesson":"directions","t":"type","a":["頭前 路口 斡 正爿 就 到 矣","頭前路口斡正爿就到矣","thâu-tsîng lōo-kháu uat tsiànn-pîng tō kàu--ah"],"x":["倒手"],"hint":{"nan":"頭前 · 路口 · 斡 · 正爿 · 就 · 到 · 矣"},"xr":["tò-tshiú"]}
+{"id":"directions.14","lesson":"directions","t":"type","a":["便所 佇 佗位","便所佇佗位","piān-sóo tī tó-uī"],"x":["啥物"],"hint":{"nan":"便所 · 佇 · 佗位"},"xr":["siánn-mih"]}
+{"id":"go-come.01","lesson":"go-come","t":"mc","o":["捷運","火車","計程車","高鐵"]}
+{"id":"go-come.02","lesson":"go-come","t":"mc","o":["來","去","到","坐"]}
+{"id":"go-come.03","lesson":"go-come","t":"mc","o":["咱來去踅夜市。","阮來去踅夜市。","我來去踅夜市。","恁來去踅夜市。"]}
+{"id":"go-come.04","lesson":"go-come","t":"mc","o":[null,null,null,null]}
+{"id":"go-come.05","lesson":"go-come","t":"mc","o":["我欲佇臺北車頭落車。","我欲在臺北車頭落車。","我欲佇臺北車頭上車。","我佇欲臺北車頭落車。"]}
+{"id":"go-come.06","lesson":"go-come","t":"order","a":["我","坐","捷運","去","公園"],"x":["行路"]}
+{"id":"go-come.07","lesson":"go-come","t":"order","a":["我","欲","佇","臺北","車頭","落車"],"x":["上車"]}
+{"id":"go-come.08","lesson":"go-come","t":"order","a":["咱","來去","踅","夜市"],"x":["阮"]}
+{"id":"go-come.09","lesson":"go-come","t":"fill","q":"我__火車去臺南。","o":["行","來","到"],"a":["坐","tsē"],"xr":["kiânn","lâi","kàu"]}
+{"id":"go-come.10","lesson":"go-come","t":"fill","q":"伊會__。","o":["去","坐","落車"],"a":["來","lâi"],"xr":["khì","tsē","lo̍h-tshia"]}
+{"id":"go-come.11","lesson":"go-come","t":"fill","q":"我欲佇臺北車頭__。","o":["上車","行路","來去"],"a":["落車","lo̍h-tshia"],"xr":["tsiūnn-tshia","kiânn-lōo","lâi-khì"]}
+{"id":"go-come.12","lesson":"go-come","t":"type","a":["我 坐 捷運 去 公園","我坐捷運去公園","guá tsē tsia̍t-ūn khì kong-hn̂g"],"x":["行路"],"hint":{"nan":"坐 · 捷運 · 去 · 公園","sep":" · "},"xr":["kiânn-lōo"]}
+{"id":"go-come.13","lesson":"go-come","t":"type","a":["伊 坐 高鐵 來 臺北","伊坐高鐵來臺北","i tsē Ko-thih lâi Tâi-pak"],"x":["去"],"hint":{"nan":"坐 · 高鐵 · 來 · 臺北"},"xr":["khì"]}
+{"id":"go-come.14","lesson":"go-come","t":"type","a":["我 無 愛 坐 計程車","我無愛坐計程車","guá bô ài tsē kè-thîng-tshia"],"x":["毋"],"hint":{"nan":"無愛 · 坐 · 計程車"},"xr":["m̄"]}
+{"id":"time.01","lesson":"time","t":"mc","o":["下晡","中晝","早起","暗時"]}
+{"id":"time.02","lesson":"time","t":"mc","o":["明仔載","今仔日","昨昏","禮拜"]}
+{"id":"time.03","lesson":"time","t":"mc","o":["禮拜日","禮拜一","禮拜六","今仔日"]}
+{"id":"time.04","lesson":"time","t":"mc","o":[null,null,null,null]}
+{"id":"time.05","lesson":"time","t":"mc","o":["伊逐工早起攏會去公園運動。","伊攏會去公園運動逐工早起。","伊去公園運動逐工早起攏會。","伊攏會逐工去運動公園早起。"]}
+{"id":"time.06","lesson":"time","t":"order","a":["十二","點","欲","食","中晝","矣"],"x":["下晡"]}
+{"id":"time.07","lesson":"time","t":"order","a":["伊","明仔載","欲","來"],"x":["昨昏"]}
+{"id":"time.08","lesson":"time","t":"order","a":["這馬","幾","點"],"x":["啥物"]}
+{"id":"time.09","lesson":"time","t":"fill","q":"伊__早起攏會去公園運動。","o":["昨昏","中晝","暗時"],"a":["逐工","ta̍k-kang"],"xr":["tsa-hng","tiong-tàu","àm-sî"]}
+{"id":"time.10","lesson":"time","t":"fill","q":"十二點欲食__矣！","o":["早起","下晡","暗時"],"a":["中晝","tiong-tàu"],"xr":["tsá-khí","ē-poo","àm-sî"]}
+{"id":"time.11","lesson":"time","t":"fill","q":"伊講__欲閣來。","o":["昨昏","下晡","中晝"],"a":["明仔載","bîn-á-tsài"],"xr":["tsa-hng","ē-poo","tiong-tàu"]}
+{"id":"time.12","lesson":"time","t":"type","a":["禮拜日 我 欲 去 夜市","禮拜日我欲去夜市","lé-pài-ji̍t guá beh khì iā-tshī"],"x":["禮拜"],"hint":{"nan":"禮拜日 · 我 · 欲 · 去 · 夜市"},"xr":["lé-pài"]}
+{"id":"time.13","lesson":"time","t":"type","a":["伊 明仔載 欲 來","伊明仔載欲來","伊 明仔載 會 來","伊明仔載會來","i bîn-á-tsài beh lâi","i bîn-á-tsài ē lâi"],"x":["昨昏"],"hint":{"nan":"明仔載","sep":" · "},"xr":["tsa-hng"]}
+{"id":"time.14","lesson":"time","t":"type","a":["我 無 食 早起","我無食早起","guá bô tsia̍h tsá-khí"],"x":["毋"],"hint":{"nan":"無 · 食 · 早起"},"xr":["m̄"]}
+{"id":"food.01","lesson":"food","t":"mc","o":["夜市","菜市仔","公園","菜單"]}
+{"id":"food.02","lesson":"food","t":"mc","o":["滷肉飯","炒飯","肉圓","牛肉"]}
+{"id":"food.03","lesson":"food","t":"mc","o":["歹食","好食","好看","歹勢"]}
+{"id":"food.04","lesson":"food","t":"mc","o":[null,null,null,null]}
+{"id":"food.05","lesson":"food","t":"mc","o":["頭家，兩碗麵！","頭家，二碗麵！","頭家，兩麵！","頭家，兩杯麵！"]}
+{"id":"food.06","lesson":"food","t":"order","a":["兩","碗","滷肉飯"],"x":["二"]}
+{"id":"food.07","lesson":"food","t":"order","a":["我","欲","啉","一","杯","烏龍茶"],"x":["本"]}
+{"id":"food.08","lesson":"food","t":"order","a":["我","欲","食","炒飯","你","咧"],"x":["啥物"]}
+{"id":"food.09","lesson":"food","t":"fill","q":"頭家，一__麵！","o":["个","本","杯"],"a":["碗","uánn"],"xr":["ê","pún","pue"]}
+{"id":"food.10","lesson":"food","t":"fill","q":"這碗麵__好食。","o":["是","很","欲"],"a":["真","誠","足","tsin","tsiânn","tsiok"],"xr":["sī","beh"]}
+{"id":"food.11","lesson":"food","t":"fill","q":"伊煮的物件真__。","o":["好食","好看","歹勢"],"a":["歹食","pháinn-tsia̍h"],"xr":["hó-tsia̍h","hó-khuànn","pháinn-sè"]}
+{"id":"food.12","lesson":"food","t":"type","a":["一 碗 麵","一碗麵","tsi̍t uánn mī"],"x":["个"],"hint":{"nan":"一 · 碗 · 麵"},"xr":["ê"]}
+{"id":"food.13","lesson":"food","t":"type","a":["頭家 兩 碗 滷肉飯","頭家兩碗滷肉飯","thâu-ke nn̄g uánn lóo-bah-pn̄g"],"x":["二"],"hint":{"nan":"頭家 · 兩 · 碗 · 滷肉飯"},"xr":["jī"]}
+{"id":"food.14","lesson":"food","t":"type","a":["我 無 愛 炒飯","我無愛炒飯","guá bô ài tshá-pn̄g"],"x":["毋"],"hint":{"nan":"無愛 · 炒飯"},"xr":["m̄"]}
+{"id":"market.01","lesson":"market","t":"mc","o":["菜市仔","夜市","菜單","公園"]}
+{"id":"market.02","lesson":"market","t":"mc","o":["水果","弓蕉","菜","肉"]}
+{"id":"market.03","lesson":"market","t":"mc","o":["hî","hí","hì","hī"]}
+{"id":"market.04","lesson":"market","t":"mc","o":["兩","肉","魚","菜"]}
+{"id":"market.05","lesson":"market","t":"mc","o":["彼擔賣的水果較俗。","彼擔賣的水果是俗。","彼擔賣的水果較貴。","彼賣的水果較俗。"]}
+{"id":"market.06","lesson":"market","t":"order","a":["兩","粒","雞卵"],"x":["二"]}
+{"id":"market.07","lesson":"market","t":"order","a":["我","欲","買","一","斤","肉"],"x":["碗"]}
+{"id":"market.08","lesson":"market","t":"order","a":["頭家","弓蕉","一","斤","偌濟","錢"],"x":["啥物"]}
+{"id":"market.09","lesson":"market","t":"fill","q":"頭家，弓蕉一__偌濟錢？","o":["碗","杯","本"],"a":["斤","kin"],"xr":["uánn","pue","pún"]}
+{"id":"market.10","lesson":"market","t":"fill","q":"彼擔賣的水果較__。","o":["貴","是","傷"],"a":["俗","sio̍k"],"xr":["kuì","sī","siunn"]}
+{"id":"market.11","lesson":"market","t":"fill","q":"我欲買兩__雞卵。","o":["碗","本","隻"],"a":["粒","lia̍p"],"xr":["uánn","pún","tsiah"]}
+{"id":"market.12","lesson":"market","t":"type","a":["兩 粒 雞卵","兩粒雞卵","nn̄g lia̍p ke-nn̄g"],"x":["二"],"hint":{"nan":"兩 · 粒 · 雞卵"},"xr":["jī"]}
+{"id":"market.13","lesson":"market","t":"type","a":["我 欲 買 一 斤 肉","我欲買一斤肉","guá beh bé tsi̍t kin bah"],"x":["个"],"hint":{"nan":"欲 · 買 · 一 · 斤 · 肉"},"xr":["ê"]}
+{"id":"market.14","lesson":"market","t":"type","a":["這 遮 貴 莫 買 啦","這遮貴莫買啦","這 遮 貴 莫 買","這遮貴莫買","tse tsiah kuì mài bé--lah","tse tsiah kuì mài bé"],"x":["毋"],"hint":{"nan":"這 · 遮 · 貴 · 莫 · 買 · 啦"},"xr":["m̄"]}
+{"id":"describing.01","lesson":"describing","t":"mc","o":["誠","是","較","傷"]}
+{"id":"describing.02","lesson":"describing","t":"mc","o":["傷鹹","真鹹","較鹹","上鹹"]}
+{"id":"describing.03","lesson":"describing","t":"mc","o":["上好","較好","真好","傷好"]}
+{"id":"describing.04","lesson":"describing","t":"mc","o":["kuânn","kuánn","kuànn","kuānn"]}
+{"id":"describing.05","lesson":"describing","t":"mc","o":["伊的糖仔比我較濟。","伊的糖仔較濟比我。","伊的糖仔比我是濟。","伊的糖仔我比較濟。"]}
+{"id":"describing.06","lesson":"describing","t":"order","a":["這","塊","桌仔"],"x":["本"]}
+{"id":"describing.07","lesson":"describing","t":"order","a":["彼","塊","桌仔","較","低"],"x":["是"]}
+{"id":"describing.08","lesson":"describing","t":"order","a":["明仔載","會","比","今仔日","較","寒"],"x":["是"]}
+{"id":"describing.09","lesson":"describing","t":"fill","q":"今仔日__熱。","o":["是","很","欲"],"a":["真","誠","足","tsin","tsiânn","tsiok"],"xr":["sī","beh"]}
+{"id":"describing.10","lesson":"describing","t":"fill","q":"伊的糖仔__我較濟。","o":["較","佮","是"],"a":["比","pí"],"xr":["khah","kah","sī"]}
+{"id":"describing.11","lesson":"describing","t":"fill","q":"這__桌仔比彼塊較低。","o":["本","杯","斤"],"a":["塊","tè"],"xr":["pún","pue","kin"]}
+{"id":"describing.12","lesson":"describing","t":"type","a":["這 塊 桌仔 較 低","這塊桌仔較低","tsit tè toh-á khah kē"],"x":["本"],"hint":{"nan":"這 · 塊 · 桌仔 · 較 · 低"},"xr":["pún"]}
+{"id":"describing.13","lesson":"describing","t":"type","a":["明仔載 會 比 今仔日 較 寒","明仔載會比今仔日較寒","bîn-á-tsài ē pí kin-á-ji̍t khah kuânn"],"x":["是"],"hint":{"nan":"明仔載 · 會 · 比 · 今仔日 · 較 · 寒"},"xr":["sī"]}
+{"id":"describing.14","lesson":"describing","t":"type","a":["今仔日 真 熱","今仔日真熱","今仔日 誠 熱","今仔日誠熱","今仔日 足 熱","今仔日足熱","kin-á-ji̍t tsin jua̍h","kin-á-ji̍t tsiânn jua̍h","kin-á-ji̍t tsiok jua̍h"],"x":["是"],"hint":{"nan":"今仔日 · 真 · 熱"},"xr":["sī"]}
+{"id":"can.01","lesson":"can","t":"mc","o":["會曉","會使","會當","知影"]}
+{"id":"can.02","lesson":"can","t":"mc","o":["袂使","袂曉","毋知","無愛"]}
+{"id":"can.03","lesson":"can","t":"mc","o":["伊會來。","伊會曉來。","伊會使來。","伊袂來。"]}
+{"id":"can.04","lesson":"can","t":"mc","o":[null,null,null,null]}
+{"id":"can.05","lesson":"can","t":"mc","o":["這條歌你會曉唱袂？","這歌你會曉唱袂？","這條歌你會使唱袂？","這條歌你會不會唱？"]}
+{"id":"can.06","lesson":"can","t":"order","a":["這","條","歌"],"x":["本"]}
+{"id":"can.07","lesson":"can","t":"order","a":["我","明仔載","袂當","來"],"x":["毋"]}
+{"id":"can.08","lesson":"can","t":"order","a":["我","會曉","講","臺語"],"x":["會使"]}
+{"id":"can.09","lesson":"can","t":"fill","q":"我__講臺語。","o":["不會","會曉","會使"],"a":["袂曉","bē-hiáu"],"xr":["ē-hiáu","ē-sái"]}
+{"id":"can.10","lesson":"can","t":"fill","q":"你__去。","o":["袂曉","毋知","無愛"],"a":["袂使","袂當","bē-sái","bē-tàng"],"xr":["bē-hiáu","m̄ tsai","bô ài"]}
+{"id":"can.11","lesson":"can","t":"fill","q":"這條歌你會曉唱__？","o":["咧","矣","的"],"a":["袂","bē"],"xr":["teh","--ah","ê"]}
+{"id":"can.12","lesson":"can","t":"type","a":["這 條 歌","這條歌","tsit tiâu kua"],"x":["本"],"hint":{"nan":"這 · 條 · 歌"},"xr":["pún"]}
+{"id":"can.13","lesson":"can","t":"type","a":["我 明仔載 袂當 來","我明仔載袂當來","guá bîn-á-tsài bē-tàng lâi"],"x":["毋"],"hint":{"nan":"明仔載 · 袂當 · 來"},"xr":["m̄"]}
+{"id":"can.14","lesson":"can","t":"type","a":["我 袂曉","我袂曉","guá bē-hiáu"],"x":["毋"],"hint":{"nan":"袂曉"},"xr":["m̄"]}
+{"id":"negation.01","lesson":"negation","t":"mc","o":["毋是","無是","袂是","莫是"]}
+{"id":"negation.02","lesson":"negation","t":"mc","o":["免啦！","莫啦！","無啦！","袂啦！"]}
+{"id":"negation.03","lesson":"negation","t":"mc","o":["無","毋","袂","莫"]}
+{"id":"negation.04","lesson":"negation","t":"mc","o":[null,null,null,null]}
+{"id":"negation.05","lesson":"negation","t":"mc","o":["叫你莫來你閣來。","叫你不要來你閣來。","叫你別來你閣來。","叫你不來你閣來。"]}
+{"id":"negation.06","lesson":"negation","t":"order","a":["我","無","愛","這","本","冊"],"x":["碗"]}
+{"id":"negation.07","lesson":"negation","t":"order","a":["我","無","買","兩","本","冊"],"x":["二"]}
+{"id":"negation.08","lesson":"negation","t":"order","a":["你","免","來"],"x":["袂"]}
+{"id":"negation.09","lesson":"negation","t":"fill","q":"我__食早起。","o":["毋","莫","免"],"a":["無","bô"],"xr":["m̄","mài","bián"]}
+{"id":"negation.10","lesson":"negation","t":"fill","q":"伊__是老師。","o":["無","袂","莫"],"a":["毋","m̄"],"xr":["bô","bē","mài"]}
+{"id":"negation.11","lesson":"negation","t":"fill","q":"叫你__來你閣來。","o":["不","別","沒"],"a":["莫","mài"]}
+{"id":"negation.12","lesson":"negation","t":"type","a":["我 無 買 兩 本 冊","我無買兩本冊","guá bô bé nn̄g pún tsheh"],"x":["二"],"hint":{"nan":"無 · 買 · 兩 · 本 · 冊"},"xr":["jī"]}
+{"id":"negation.13","lesson":"negation","t":"type","a":["你 明仔載 免 來","你明仔載免來","你 明仔載 毋免 來","你明仔載毋免來","lí bîn-á-tsài bián lâi","lí bîn-á-tsài m̄-bián lâi"],"x":["袂"],"hint":{"nan":"明仔載 · 免 · 來"},"xr":["bē"]}
+{"id":"negation.14","lesson":"negation","t":"type","a":["我 無 愛","我無愛","guá bô ài"],"x":["毋"],"hint":{"nan":"無愛"},"xr":["m̄"]}
+{"id":"aspect.01","lesson":"aspect","t":"mc","o":["伊咧讀冊。","伊讀冊矣。","伊有讀冊過。","伊欲讀冊。"]}
+{"id":"aspect.02","lesson":"aspect","t":"mc","o":["猶未","已經","毋是","無愛"]}
+{"id":"aspect.03","lesson":"aspect","t":"mc","o":["今仔日伊閣來矣。","今仔日伊咧來。","今仔日伊欲來。","今仔日伊閣來過。"]}
+{"id":"aspect.04","lesson":"aspect","t":"mc","o":[null,null,null,null]}
+{"id":"aspect.05","lesson":"aspect","t":"mc","o":["這條歌有聽過無？","這條歌有聽無過？","這歌有聽過無？","這條歌聽過有無？"]}
+{"id":"aspect.06","lesson":"aspect","t":"order","a":["伊","這馬","佇","厝裡","咧","睏"],"x":["佇厝"]}
+{"id":"aspect.07","lesson":"aspect","t":"order","a":["這","條","歌","有","聽過","無"],"x":["本"]}
+{"id":"aspect.08","lesson":"aspect","t":"order","a":["我","猶未","食飯"],"x":["毋"]}
+{"id":"aspect.09","lesson":"aspect","t":"fill","q":"伊__讀冊。","o":["矣","過","的"],"a":["咧","teh"],"xr":["--ah","kuè","ê"]}
+{"id":"aspect.10","lesson":"aspect","t":"fill","q":"欲落雨__。","o":["咧","過","的"],"a":["矣","--ah"],"xr":["teh","kuè","ê"]}
+{"id":"aspect.11","lesson":"aspect","t":"fill","q":"我猶未__。","o":["讀冊","睏","落雨"],"a":["食飯","tsia̍h-pn̄g"],"xr":["tha̍k-tsheh","khùn","lo̍h-hōo"]}
+{"id":"aspect.12","lesson":"aspect","t":"type","a":["伊 這馬 佇 厝裡 咧 睏","伊這馬佇厝裡咧睏","i tsit-má tī tshù--lí teh khùn"],"x":["佇厝"],"hint":{"nan":"這馬 · 佇 · 厝裡 · 咧 · 睏"},"xr":["tī tshù"]}
+{"id":"aspect.13","lesson":"aspect","t":"type","a":["這 條 歌 有 聽過 無","這條歌有聽過無","tsit tiâu kua ū thiann--kuè bô"],"x":["本"],"hint":{"nan":"這 · 條 · 歌 · 有 · 聽過 · 無"},"xr":["pún"]}
+{"id":"aspect.14","lesson":"aspect","t":"type","a":["我 猶未 食飯","我猶未食飯","guá iáu-buē tsia̍h-pn̄g"],"x":["毋"],"hint":{"nan":"猶未 · 食飯"},"xr":["m̄"]}

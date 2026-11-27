@@ -1,0 +1,553 @@
+{"id":"nan.c0001","deck":"nan.d.tai-lo-sounds","nan":"飽","rom":"pá"}
+{"id":"nan.c0002","deck":"nan.d.tai-lo-sounds","nan":"皮","rom":"phuê"}
+{"id":"nan.c0003","deck":"nan.d.tai-lo-sounds","nan":"茶","rom":"tê"}
+{"id":"nan.c0004","deck":"nan.d.tai-lo-sounds","nan":"天","rom":"thinn"}
+{"id":"nan.c0005","deck":"nan.d.tai-lo-sounds","nan":"歌","rom":"kua"}
+{"id":"nan.c0006","deck":"nan.d.tai-lo-sounds","nan":"看","rom":"khuànn"}
+{"id":"nan.c0007","deck":"nan.d.tai-lo-sounds","nan":"早","rom":"tsá"}
+{"id":"nan.c0008","deck":"nan.d.tai-lo-sounds","nan":"肉","rom":"bah"}
+{"id":"nan.c0009","deck":"nan.d.tai-lo-sounds","nan":"牛","rom":"gû"}
+{"id":"nan.c0010","deck":"nan.d.tai-lo-sounds","nan":"熱","rom":"jua̍h"}
+{"id":"nan.c0011","deck":"nan.d.tai-lo-sounds","nan":"虎","rom":"hóo"}
+{"id":"nan.c0012","deck":"nan.d.tai-lo-sounds","nan":"鹹","rom":"kiâm"}
+{"id":"nan.c0013","deck":"nan.d.tai-lo-sounds","nan":"慢","rom":"bān"}
+{"id":"nan.c0014","deck":"nan.d.tai-lo-sounds","nan":"冷","rom":"líng"}
+{"id":"nan.c0015","deck":"nan.d.tai-lo-sounds","nan":"十","rom":"tsa̍p"}
+{"id":"nan.c0016","deck":"nan.d.tai-lo-sounds","nan":"七","rom":"tshit"}
+{"id":"nan.c0017","deck":"nan.d.tai-lo-sounds","nan":"六","rom":"la̍k"}
+{"id":"nan.c0018","deck":"nan.d.tai-lo-sounds","nan":"酸","rom":"sng"}
+{"id":"nan.c0019","deck":"nan.d.seven-tones","nan":"獅虎豹鱉猴狗象鹿","rom":"sai hóo pà pih kâu káu tshiūnn lo̍k"}
+{"id":"nan.c0020","deck":"nan.d.seven-tones","nan":"獅","rom":"sai"}
+{"id":"nan.c0021","deck":"nan.d.seven-tones","nan":"狗","rom":"káu"}
+{"id":"nan.c0022","deck":"nan.d.seven-tones","nan":"豹","rom":"pà"}
+{"id":"nan.c0023","deck":"nan.d.seven-tones","nan":"鱉","rom":"pih"}
+{"id":"nan.c0024","deck":"nan.d.seven-tones","nan":"猴","rom":"kâu"}
+{"id":"nan.c0025","deck":"nan.d.seven-tones","nan":"象","rom":"tshiūnn"}
+{"id":"nan.c0026","deck":"nan.d.seven-tones","nan":"鹿","rom":"lo̍k"}
+{"id":"nan.c0027","deck":"nan.d.seven-tones","nan":"衫","rom":"sann"}
+{"id":"nan.c0028","deck":"nan.d.seven-tones","nan":"水","rom":"tsuí"}
+{"id":"nan.c0029","deck":"nan.d.seven-tones","nan":"是","rom":"sī"}
+{"id":"nan.c0030","deck":"nan.d.seven-tones","nan":"人","rom":"lâng"}
+{"id":"nan.c0031","deck":"nan.d.seven-tones","nan":"飯","rom":"pn̄g"}
+{"id":"nan.c0032","deck":"nan.d.seven-tones","nan":"學","rom":"o̍h"}
+{"id":"nan.c0033","deck":"nan.d.seven-tones","nan":"四","rom":"sì"}
+{"id":"nan.c0034","deck":"nan.d.seven-tones","nan":"錢","rom":"tsînn"}
+{"id":"nan.c0035","deck":"nan.d.seven-tones","nan":"酒","rom":"tsiú"}
+{"id":"nan.c0036","deck":"nan.d.tone-sandhi-in-action","nan":"火車","rom":"hué-tshia"}
+{"id":"nan.c0037","deck":"nan.d.tone-sandhi-in-action","nan":"公園","rom":"kong-hn̂g"}
+{"id":"nan.c0038","deck":"nan.d.tone-sandhi-in-action","nan":"菜單","rom":"tshài-tuann"}
+{"id":"nan.c0039","deck":"nan.d.tone-sandhi-in-action","nan":"牛肉","rom":"gû-bah"}
+{"id":"nan.c0040","deck":"nan.d.tone-sandhi-in-action","nan":"大人","rom":"tuā-lâng"}
+{"id":"nan.c0041","deck":"nan.d.tone-sandhi-in-action","nan":"歡喜","rom":"huann-hí"}
+{"id":"nan.c0042","deck":"nan.d.tone-sandhi-in-action","nan":"公斤","rom":"kong-kin"}
+{"id":"nan.c0043","deck":"nan.d.tone-sandhi-in-action","nan":"好看","rom":"hó-khuànn"}
+{"id":"nan.c0044","deck":"nan.d.tone-sandhi-in-action","nan":"早頓","rom":"tsá-tǹg"}
+{"id":"nan.c0045","deck":"nan.d.tone-sandhi-in-action","nan":"電話","rom":"tiān-uē"}
+{"id":"nan.c0046","deck":"nan.d.tone-sandhi-in-action","nan":"唱歌","rom":"tshiùnn-kua"}
+{"id":"nan.c0047","deck":"nan.d.tone-sandhi-in-action","nan":"牛奶","rom":"gû-ling"}
+{"id":"nan.c0048","deck":"nan.d.tone-sandhi-in-action","nan":"朋友","rom":"pîng-iú"}
+{"id":"nan.c0049","deck":"nan.d.tone-sandhi-in-action","nan":"臺灣","rom":"Tâi-uân"}
+{"id":"nan.c0050","deck":"nan.d.tone-sandhi-in-action","nan":"電影","rom":"tiān-iánn"}
+{"id":"nan.c0051","deck":"nan.d.tone-sandhi-in-action","nan":"運動","rom":"ūn-tōng"}
+{"id":"nan.c0052","deck":"nan.d.tone-sandhi-in-action","nan":"老人","rom":"lāu-lâng"}
+{"id":"nan.c0053","deck":"nan.d.tone-sandhi-in-action","nan":"厝裡","rom":"tshù--lí"}
+{"id":"nan.c0054","deck":"nan.d.taigi-characters","nan":"毋","rom":"m̄"}
+{"id":"nan.c0055","deck":"nan.d.taigi-characters","nan":"佇","rom":"tī"}
+{"id":"nan.c0056","deck":"nan.d.taigi-characters","nan":"欲","rom":"beh"}
+{"id":"nan.c0057","deck":"nan.d.taigi-characters","nan":"予","rom":"hōo"}
+{"id":"nan.c0058","deck":"nan.d.taigi-characters","nan":"媠","rom":"suí"}
+{"id":"nan.c0059","deck":"nan.d.taigi-characters","nan":"囝","rom":"kiánn"}
+{"id":"nan.c0060","deck":"nan.d.taigi-characters","nan":"厝","rom":"tshù"}
+{"id":"nan.c0061","deck":"nan.d.taigi-characters","nan":"睏","rom":"khùn"}
+{"id":"nan.c0062","deck":"nan.d.taigi-characters","nan":"啉","rom":"lim"}
+{"id":"nan.c0063","deck":"nan.d.taigi-characters","nan":"遮","rom":"tsia"}
+{"id":"nan.c0064","deck":"nan.d.taigi-characters","nan":"遐","rom":"hia"}
+{"id":"nan.c0065","deck":"nan.d.taigi-characters","nan":"个","rom":"ê"}
+{"id":"nan.c0066","deck":"nan.d.taigi-characters","nan":"冊","rom":"tsheh"}
+{"id":"nan.c0067","deck":"nan.d.taigi-characters","nan":"食","rom":"tsia̍h"}
+{"id":"nan.c0068","deck":"nan.d.taigi-characters","nan":"蹛","rom":"tuà"}
+{"id":"nan.c0069","deck":"nan.d.taigi-characters","nan":"囥","rom":"khǹg"}
+{"id":"nan.c0070","deck":"nan.d.taigi-characters","nan":"佮","rom":"kah"}
+{"id":"nan.c0071","deck":"nan.d.greetings-and-courtesy","nan":"𠢕早！","rom":"Gâu-tsá!"}
+{"id":"nan.c0072","deck":"nan.d.greetings-and-courtesy","nan":"阿伯𠢕早。","rom":"A-peh gâu-tsá."}
+{"id":"nan.c0073","deck":"nan.d.greetings-and-courtesy","nan":"你食飽未？","rom":"Lí tsia̍h-pá--buē?"}
+{"id":"nan.c0074","deck":"nan.d.greetings-and-courtesy","nan":"食飽矣。","rom":"Tsia̍h-pá--ah."}
+{"id":"nan.c0075","deck":"nan.d.greetings-and-courtesy","nan":"多謝你！","rom":"To-siā--lí!"}
+{"id":"nan.c0076","deck":"nan.d.greetings-and-courtesy","nan":"勞力。","rom":"Lóo-la̍t."}
+{"id":"nan.c0077","deck":"nan.d.greetings-and-courtesy","nan":"歹勢。","rom":"Pháinn-sè."}
+{"id":"nan.c0078","deck":"nan.d.greetings-and-courtesy","nan":"失禮。","rom":"Sit-lé."}
+{"id":"nan.c0079","deck":"nan.d.greetings-and-courtesy","nan":"真失禮，這攏是我的毋著。","rom":"Tsin sit-lé, tse lóng sī guá ê m̄-tio̍h."}
+{"id":"nan.c0080","deck":"nan.d.greetings-and-courtesy","nan":"無要緊。","rom":"Bô iàu-kín."}
+{"id":"nan.c0081","deck":"nan.d.greetings-and-courtesy","nan":"免客氣。","rom":"Bián kheh-khì."}
+{"id":"nan.c0082","deck":"nan.d.greetings-and-courtesy","nan":"再會！","rom":"Tsài-huē!"}
+{"id":"nan.c0083","deck":"nan.d.greetings-and-courtesy","nan":"再見！","rom":"Tsài-kiàn!"}
+{"id":"nan.c0084","deck":"nan.d.greetings-and-courtesy","nan":"早睏。","rom":"Tsá-khùn."}
+{"id":"nan.c0085","deck":"nan.d.greetings-and-courtesy","nan":"恭喜！","rom":"Kiong-hí!"}
+{"id":"nan.c0086","deck":"nan.d.people-and-family","nan":"我","rom":"guá"}
+{"id":"nan.c0087","deck":"nan.d.people-and-family","nan":"你","rom":"lí"}
+{"id":"nan.c0088","deck":"nan.d.people-and-family","nan":"伊","rom":"i"}
+{"id":"nan.c0089","deck":"nan.d.people-and-family","nan":"阮","rom":"guán"}
+{"id":"nan.c0090","deck":"nan.d.people-and-family","nan":"咱","rom":"lán"}
+{"id":"nan.c0091","deck":"nan.d.people-and-family","nan":"恁","rom":"lín"}
+{"id":"nan.c0092","deck":"nan.d.people-and-family","nan":"𪜶佇公園。","rom":"In tī kong-hn̂g."}
+{"id":"nan.c0093","deck":"nan.d.people-and-family","nan":"阿爸","rom":"a-pah"}
+{"id":"nan.c0094","deck":"nan.d.people-and-family","nan":"阿母","rom":"a-bú"}
+{"id":"nan.c0095","deck":"nan.d.people-and-family","nan":"阿公","rom":"a-kong"}
+{"id":"nan.c0096","deck":"nan.d.people-and-family","nan":"阿媽","rom":"a-má"}
+{"id":"nan.c0097","deck":"nan.d.people-and-family","nan":"阿兄","rom":"a-hiann"}
+{"id":"nan.c0098","deck":"nan.d.people-and-family","nan":"阿姊","rom":"a-tsí"}
+{"id":"nan.c0099","deck":"nan.d.people-and-family","nan":"小弟","rom":"sió-tī"}
+{"id":"nan.c0100","deck":"nan.d.people-and-family","nan":"後生","rom":"hāu-senn"}
+{"id":"nan.c0101","deck":"nan.d.people-and-family","nan":"翁某","rom":"ang-bóo"}
+{"id":"nan.c0102","deck":"nan.d.people-and-family","nan":"阿姨","rom":"a-î"}
+{"id":"nan.c0103","deck":"nan.d.people-and-family","nan":"阿伯","rom":"a-peh"}
+{"id":"nan.c0104","deck":"nan.d.about-me","nan":"你號做啥物名？","rom":"Lí hō-tsò siánn-mih miâ?"}
+{"id":"nan.c0105","deck":"nan.d.about-me","nan":"貴姓？","rom":"Kuì-sènn?"}
+{"id":"nan.c0106","deck":"nan.d.about-me","nan":"我姓林。","rom":"Guá sènn Lîm."}
+{"id":"nan.c0107","deck":"nan.d.about-me","nan":"我是學生。","rom":"Guá sī ha̍k-sing."}
+{"id":"nan.c0108","deck":"nan.d.about-me","nan":"我是中學生。","rom":"Guá sī tiong-ha̍k-sing."}
+{"id":"nan.c0109","deck":"nan.d.about-me","nan":"我毋是老師。","rom":"Guá m̄ sī lāu-su."}
+{"id":"nan.c0110","deck":"nan.d.about-me","nan":"我佇大學讀冊。","rom":"Guá tī tāi-ha̍k tha̍k-tsheh."}
+{"id":"nan.c0111","deck":"nan.d.about-me","nan":"我蹛佇臺北。","rom":"Guá tuà tī Tâi-pak."}
+{"id":"nan.c0112","deck":"nan.d.about-me","nan":"你蹛佇佗位？","rom":"Lí tuà tī tó-uī?"}
+{"id":"nan.c0113","deck":"nan.d.about-me","nan":"我是美國人。","rom":"Guá sī Bí-kok-lâng."}
+{"id":"nan.c0114","deck":"nan.d.about-me","nan":"我是臺灣人。","rom":"Guá sī Tâi-uân-lâng."}
+{"id":"nan.c0115","deck":"nan.d.about-me","nan":"我十八歲。","rom":"Guá tsa̍p-peh huè."}
+{"id":"nan.c0116","deck":"nan.d.about-me","nan":"你幾歲？","rom":"Lí kuí huè?"}
+{"id":"nan.c0117","deck":"nan.d.about-me","nan":"我咧學台語。","rom":"Guá teh o̍h Tâi-gí."}
+{"id":"nan.c0118","deck":"nan.d.about-me","nan":"我真愛𨑨迌。","rom":"Guá tsin ài tshit-thô."}
+{"id":"nan.c0119","deck":"nan.d.about-me","nan":"伊是我的朋友。","rom":"I sī guá ê pîng-iú."}
+{"id":"nan.c0120","deck":"nan.d.in-class","nan":"請閣講一擺。","rom":"Tshiánn koh kóng tsi̍t pái."}
+{"id":"nan.c0121","deck":"nan.d.in-class","nan":"慢慢仔講。","rom":"Bān-bān-á kóng."}
+{"id":"nan.c0122","deck":"nan.d.in-class","nan":"我毋知。","rom":"Guá m̄ tsai."}
+{"id":"nan.c0123","deck":"nan.d.in-class","nan":"我毋知影。","rom":"Guá m̄ tsai-iánn."}
+{"id":"nan.c0124","deck":"nan.d.in-class","nan":"我知影。","rom":"Guá tsai-iánn."}
+{"id":"nan.c0125","deck":"nan.d.in-class","nan":"老師","rom":"lāu-su"}
+{"id":"nan.c0126","deck":"nan.d.in-class","nan":"林老師","rom":"Lîm lāu-su"}
+{"id":"nan.c0127","deck":"nan.d.in-class","nan":"學生","rom":"ha̍k-sing"}
+{"id":"nan.c0128","deck":"nan.d.in-class","nan":"請你多多指教。","rom":"Tshiánn lí to-to tsí-kàu."}
+{"id":"nan.c0129","deck":"nan.d.in-class","nan":"老師𠢕早。","rom":"Lāu-su gâu-tsá."}
+{"id":"nan.c0130","deck":"nan.d.in-class","nan":"逐家𠢕早。","rom":"Ta̍k-ke gâu-tsá."}
+{"id":"nan.c0131","deck":"nan.d.in-class","nan":"我共你講。","rom":"Guá kā lí kóng."}
+{"id":"nan.c0132","deck":"nan.d.in-class","nan":"讀冊","rom":"tha̍k-tsheh"}
+{"id":"nan.c0133","deck":"nan.d.in-class","nan":"寫字","rom":"siá-jī"}
+{"id":"nan.c0134","deck":"nan.d.in-class","nan":"聽","rom":"thiann"}
+{"id":"nan.c0135","deck":"nan.d.in-class","nan":"台語","rom":"Tâi-gí"}
+{"id":"nan.c0136","deck":"nan.d.numbers-and-money","nan":"一","rom":"tsi̍t"}
+{"id":"nan.c0137","deck":"nan.d.numbers-and-money","nan":"兩","rom":"nn̄g"}
+{"id":"nan.c0138","deck":"nan.d.numbers-and-money","nan":"二","rom":"jī"}
+{"id":"nan.c0139","deck":"nan.d.numbers-and-money","nan":"三","rom":"sann"}
+{"id":"nan.c0140","deck":"nan.d.numbers-and-money","nan":"八","rom":"peh"}
+{"id":"nan.c0141","deck":"nan.d.numbers-and-money","nan":"九","rom":"káu"}
+{"id":"nan.c0142","deck":"nan.d.numbers-and-money","nan":"十二","rom":"tsa̍p-jī"}
+{"id":"nan.c0143","deck":"nan.d.numbers-and-money","nan":"廿一","rom":"jia̍p-it"}
+{"id":"nan.c0144","deck":"nan.d.numbers-and-money","nan":"萬","rom":"bān"}
+{"id":"nan.c0145","deck":"nan.d.numbers-and-money","nan":"空","rom":"khòng"}
+{"id":"nan.c0146","deck":"nan.d.numbers-and-money","nan":"一百空一","rom":"tsi̍t-pah khòng-it"}
+{"id":"nan.c0147","deck":"nan.d.numbers-and-money","nan":"三百箍","rom":"sann-pah khoo"}
+{"id":"nan.c0148","deck":"nan.d.numbers-and-money","nan":"偌濟錢？","rom":"Guā-tsē tsînn?"}
+{"id":"nan.c0149","deck":"nan.d.numbers-and-money","nan":"三百箍買會著。","rom":"Sann-pah khoo bé ē tio̍h."}
+{"id":"nan.c0150","deck":"nan.d.numbers-and-money","nan":"傷貴","rom":"siunn kuì"}
+{"id":"nan.c0151","deck":"nan.d.numbers-and-money","nan":"免錢","rom":"bián-tsînn"}
+{"id":"nan.c0152","deck":"nan.d.numbers-and-money","nan":"你的電話幾號？","rom":"Lí ê tiān-uē kuí hō?"}
+{"id":"nan.c0153","deck":"nan.d.numbers-and-money","nan":"空九八三，五五七八。","rom":"Khòng-kiú-pat-sam, ngóo-ngóo-tshit-pat."}
+{"id":"nan.c0154","deck":"nan.d.classifiers","nan":"一个人","rom":"tsi̍t ê lâng"}
+{"id":"nan.c0155","deck":"nan.d.classifiers","nan":"兩本冊","rom":"nn̄g pún tsheh"}
+{"id":"nan.c0156","deck":"nan.d.classifiers","nan":"三碗飯","rom":"sann uánn pn̄g"}
+{"id":"nan.c0157","deck":"nan.d.classifiers","nan":"一隻狗","rom":"tsi̍t tsiah káu"}
+{"id":"nan.c0158","deck":"nan.d.classifiers","nan":"一擺","rom":"tsi̍t pái"}
+{"id":"nan.c0159","deck":"nan.d.classifiers","nan":"這本冊","rom":"tsit pún tsheh"}
+{"id":"nan.c0160","deck":"nan.d.classifiers","nan":"彼个人","rom":"hit ê lâng"}
+{"id":"nan.c0161","deck":"nan.d.classifiers","nan":"兩隻貓","rom":"nn̄g tsiah niau"}
+{"id":"nan.c0162","deck":"nan.d.classifiers","nan":"一杯茶","rom":"tsi̍t pue tê"}
+{"id":"nan.c0163","deck":"nan.d.classifiers","nan":"一粒柑仔","rom":"tsi̍t lia̍p kam-á"}
+{"id":"nan.c0164","deck":"nan.d.classifiers","nan":"這塊桌仔","rom":"tsit tè toh-á"}
+{"id":"nan.c0165","deck":"nan.d.classifiers","nan":"這條歌","rom":"tsit tiâu kua"}
+{"id":"nan.c0166","deck":"nan.d.classifiers","nan":"這件代誌","rom":"tsit kiānn tāi-tsì"}
+{"id":"nan.c0167","deck":"nan.d.classifiers","nan":"一台車","rom":"tsi̍t tâi tshia"}
+{"id":"nan.c0168","deck":"nan.d.classifiers","nan":"一句話","rom":"tsi̍t kù uē"}
+{"id":"nan.c0169","deck":"nan.d.classifiers","nan":"逐个","rom":"ta̍k ê"}
+{"id":"nan.c0170","deck":"nan.d.classifiers","nan":"佗一个","rom":"tó tsi̍t ê"}
+{"id":"nan.c0171","deck":"nan.d.classifiers","nan":"幾个人？","rom":"Kuí ê lâng?"}
+{"id":"nan.c0172","deck":"nan.d.night-market-food","nan":"夜市","rom":"iā-tshī"}
+{"id":"nan.c0173","deck":"nan.d.night-market-food","nan":"滷肉飯","rom":"lóo-bah-pn̄g"}
+{"id":"nan.c0174","deck":"nan.d.night-market-food","nan":"肉圓","rom":"bah-uân"}
+{"id":"nan.c0175","deck":"nan.d.night-market-food","nan":"頭家","rom":"thâu-ke"}
+{"id":"nan.c0176","deck":"nan.d.night-market-food","nan":"好食","rom":"hó-tsia̍h"}
+{"id":"nan.c0177","deck":"nan.d.night-market-food","nan":"肉燥飯","rom":"bah-sò-pn̄g"}
+{"id":"nan.c0178","deck":"nan.d.night-market-food","nan":"歹食","rom":"pháinn-tsia̍h"}
+{"id":"nan.c0179","deck":"nan.d.night-market-food","nan":"炒飯","rom":"tshá-pn̄g"}
+{"id":"nan.c0180","deck":"nan.d.night-market-food","nan":"一碗麵","rom":"tsi̍t uánn mī"}
+{"id":"nan.c0181","deck":"nan.d.night-market-food","nan":"烏龍茶","rom":"oo-liông-tê"}
+{"id":"nan.c0182","deck":"nan.d.night-market-food","nan":"我想欲去便所。","rom":"Guá siūnn-beh khì piān-sóo."}
+{"id":"nan.c0183","deck":"nan.d.night-market-food","nan":"伊欲請逐家食飯。","rom":"I beh tshiánn ta̍k-ke tsia̍h-pn̄g."}
+{"id":"nan.c0184","deck":"nan.d.night-market-food","nan":"古早味","rom":"kóo-tsá-bī"}
+{"id":"nan.c0185","deck":"nan.d.night-market-food","nan":"肉乾","rom":"bah-kuann"}
+{"id":"nan.c0186","deck":"nan.d.night-market-food","nan":"咱來去踅夜市。","rom":"Lán lâi-khì se̍h iā-tshī."}
+{"id":"nan.c0187","deck":"nan.d.night-market-food","nan":"我欲食炒飯，你咧？","rom":"Guá beh tsia̍h tshá-pn̄g, lí--leh?"}
+{"id":"nan.c0188","deck":"nan.d.night-market-food","nan":"今仔日我請恁。","rom":"Kin-á-ji̍t guá tshiánn--lín."}
+{"id":"nan.c0189","deck":"nan.d.night-market-food","nan":"我想欲食肉圓。","rom":"Guá siūnn-beh tsia̍h bah-uân."}
+{"id":"nan.c0190","deck":"nan.d.at-the-market","nan":"菜市仔","rom":"tshài-tshī-á"}
+{"id":"nan.c0191","deck":"nan.d.at-the-market","nan":"雞卵","rom":"ke-nn̄g"}
+{"id":"nan.c0192","deck":"nan.d.at-the-market","nan":"魚","rom":"hî"}
+{"id":"nan.c0193","deck":"nan.d.at-the-market","nan":"水果","rom":"tsuí-kó"}
+{"id":"nan.c0194","deck":"nan.d.at-the-market","nan":"彼擔賣的水果較俗。","rom":"Hit tànn bē ê tsuí-kó khah sio̍k."}
+{"id":"nan.c0195","deck":"nan.d.at-the-market","nan":"青菜","rom":"tshenn-tshài"}
+{"id":"nan.c0196","deck":"nan.d.at-the-market","nan":"弓蕉","rom":"king-tsio"}
+{"id":"nan.c0197","deck":"nan.d.at-the-market","nan":"柑仔","rom":"kam-á"}
+{"id":"nan.c0198","deck":"nan.d.at-the-market","nan":"細粒柑仔","rom":"sè lia̍p kam-á"}
+{"id":"nan.c0199","deck":"nan.d.at-the-market","nan":"一斤","rom":"tsi̍t kin"}
+{"id":"nan.c0200","deck":"nan.d.at-the-market","nan":"頭家，弓蕉一斤偌濟錢？","rom":"Thâu-ke, king-tsio tsi̍t kin guā-tsē tsînn?"}
+{"id":"nan.c0201","deck":"nan.d.at-the-market","nan":"柑仔會酸袂？","rom":"Kam-á ē sng--bē?"}
+{"id":"nan.c0202","deck":"nan.d.at-the-market","nan":"物件","rom":"mi̍h-kiānn"}
+{"id":"nan.c0203","deck":"nan.d.at-the-market","nan":"金錢","rom":"kim-tsînn"}
+{"id":"nan.c0204","deck":"nan.d.time-and-days","nan":"今仔日","rom":"kin-á-ji̍t"}
+{"id":"nan.c0205","deck":"nan.d.time-and-days","nan":"明仔載","rom":"bîn-á-tsài"}
+{"id":"nan.c0206","deck":"nan.d.time-and-days","nan":"昨昏","rom":"tsa-hng"}
+{"id":"nan.c0207","deck":"nan.d.time-and-days","nan":"早起","rom":"tsá-khí"}
+{"id":"nan.c0208","deck":"nan.d.time-and-days","nan":"禮拜日","rom":"lé-pài-ji̍t"}
+{"id":"nan.c0209","deck":"nan.d.time-and-days","nan":"中晝","rom":"tiong-tàu"}
+{"id":"nan.c0210","deck":"nan.d.time-and-days","nan":"下晡","rom":"ē-poo"}
+{"id":"nan.c0211","deck":"nan.d.time-and-days","nan":"暗時","rom":"àm-sî"}
+{"id":"nan.c0212","deck":"nan.d.time-and-days","nan":"透早","rom":"thàu-tsá"}
+{"id":"nan.c0213","deck":"nan.d.time-and-days","nan":"逐工","rom":"ta̍k-kang"}
+{"id":"nan.c0214","deck":"nan.d.time-and-days","nan":"禮拜一","rom":"lé-pài-it"}
+{"id":"nan.c0215","deck":"nan.d.time-and-days","nan":"禮拜六","rom":"lé-pài-la̍k"}
+{"id":"nan.c0216","deck":"nan.d.time-and-days","nan":"幾點？","rom":"Kuí tiám?"}
+{"id":"nan.c0217","deck":"nan.d.time-and-days","nan":"點鐘","rom":"tiám-tsing"}
+{"id":"nan.c0218","deck":"nan.d.time-and-days","nan":"分鐘","rom":"hun-tsing"}
+{"id":"nan.c0219","deck":"nan.d.time-and-days","nan":"十二點欲食中晝矣！","rom":"Tsa̍p-jī tiám beh tsia̍h tiong-tàu--ah!"}
+{"id":"nan.c0220","deck":"nan.d.time-and-days","nan":"伊逐工早起攏會去公園運動。","rom":"I ta̍k-kang tsá-khí lóng ē khì kong-hn̂g ūn-tōng."}
+{"id":"nan.c0221","deck":"nan.d.time-and-days","nan":"下晡我欲招阿美仔去𨑨迌。","rom":"Ē-poo guá beh tsio A-bí--á khì tshit-thô."}
+{"id":"nan.c0222","deck":"nan.d.places-and-directions","nan":"頭前","rom":"thâu-tsîng"}
+{"id":"nan.c0223","deck":"nan.d.places-and-directions","nan":"後壁","rom":"āu-piah"}
+{"id":"nan.c0224","deck":"nan.d.places-and-directions","nan":"正手","rom":"tsiànn-tshiú"}
+{"id":"nan.c0225","deck":"nan.d.places-and-directions","nan":"倒手","rom":"tò-tshiú"}
+{"id":"nan.c0226","deck":"nan.d.places-and-directions","nan":"頭前路口斡正爿就到矣。","rom":"Thâu-tsîng lōo-kháu uat tsiànn-pîng tō kàu--ah."}
+{"id":"nan.c0227","deck":"nan.d.places-and-directions","nan":"頂懸","rom":"tíng-kuân"}
+{"id":"nan.c0228","deck":"nan.d.places-and-directions","nan":"下跤","rom":"ē-kha"}
+{"id":"nan.c0229","deck":"nan.d.places-and-directions","nan":"內面","rom":"lāi-bīn"}
+{"id":"nan.c0230","deck":"nan.d.places-and-directions","nan":"外口","rom":"guā-kháu"}
+{"id":"nan.c0231","deck":"nan.d.places-and-directions","nan":"正爿","rom":"tsiànn-pîng"}
+{"id":"nan.c0232","deck":"nan.d.places-and-directions","nan":"路口","rom":"lōo-kháu"}
+{"id":"nan.c0233","deck":"nan.d.places-and-directions","nan":"直直行","rom":"ti̍t-ti̍t kiânn"}
+{"id":"nan.c0234","deck":"nan.d.places-and-directions","nan":"貓睏佇椅仔下跤。","rom":"Niau khùn tī í-á ē-kha."}
+{"id":"nan.c0235","deck":"nan.d.places-and-directions","nan":"你行頭前，我綴你行。","rom":"Lí kiânn thâu-tsîng, guá tuè lí kiânn."}
+{"id":"nan.c0236","deck":"nan.d.places-and-directions","nan":"你愛的物件佇較內面。","rom":"Lí ài ê mi̍h-kiānn tī khah lāi-bīn."}
+{"id":"nan.c0237","deck":"nan.d.places-and-directions","nan":"伊這馬佇厝裡咧睏。","rom":"I tsit-má tī tshù--lí teh khùn."}
+{"id":"nan.c0238","deck":"nan.d.places-and-directions","nan":"便所佇佗位？","rom":"Piān-sóo tī tó-uī?"}
+{"id":"nan.c0239","deck":"nan.d.getting-around","nan":"捷運","rom":"tsia̍t-ūn"}
+{"id":"nan.c0240","deck":"nan.d.getting-around","nan":"坐火車","rom":"tsē hué-tshia"}
+{"id":"nan.c0241","deck":"nan.d.getting-around","nan":"計程車","rom":"kè-thîng-tshia"}
+{"id":"nan.c0242","deck":"nan.d.getting-around","nan":"行路","rom":"kiânn-lōo"}
+{"id":"nan.c0243","deck":"nan.d.getting-around","nan":"上車","rom":"tsiūnn-tshia"}
+{"id":"nan.c0244","deck":"nan.d.getting-around","nan":"臺鐵","rom":"Tâi-thih"}
+{"id":"nan.c0245","deck":"nan.d.getting-around","nan":"高鐵","rom":"Ko-thih"}
+{"id":"nan.c0246","deck":"nan.d.getting-around","nan":"落車","rom":"lo̍h-tshia"}
+{"id":"nan.c0247","deck":"nan.d.getting-around","nan":"你行路愛小心。","rom":"Lí kiânn-lōo ài sió-sim."}
+{"id":"nan.c0248","deck":"nan.d.getting-around","nan":"我欲佇臺北車頭落車。","rom":"Guá beh tī Tâi-pak Tshia-thâu lo̍h-tshia."}
+{"id":"nan.c0249","deck":"nan.d.getting-around","nan":"近","rom":"kīn"}
+{"id":"nan.c0250","deck":"nan.d.getting-around","nan":"我欲去臺北。","rom":"Guá beh khì Tâi-pak."}
+{"id":"nan.c0251","deck":"nan.d.getting-around","nan":"來去","rom":"lâi-khì"}
+{"id":"nan.c0252","deck":"nan.d.getting-around","nan":"公里","rom":"kong-lí"}
+{"id":"nan.c0253","deck":"nan.d.questions-and-particles","nan":"啥物","rom":"siánn-mih"}
+{"id":"nan.c0254","deck":"nan.d.questions-and-particles","nan":"佗位","rom":"tó-uī"}
+{"id":"nan.c0255","deck":"nan.d.questions-and-particles","nan":"當時","rom":"tang-sî"}
+{"id":"nan.c0256","deck":"nan.d.questions-and-particles","nan":"你欲去無？","rom":"Lí beh khì--bô?"}
+{"id":"nan.c0257","deck":"nan.d.questions-and-particles","nan":"這敢是你的？","rom":"Tse kám-sī lí ê?"}
+{"id":"nan.c0258","deck":"nan.d.questions-and-particles","nan":"啥人","rom":"siánn-lâng"}
+{"id":"nan.c0259","deck":"nan.d.questions-and-particles","nan":"按怎","rom":"án-tsuánn"}
+{"id":"nan.c0260","deck":"nan.d.questions-and-particles","nan":"是按怎","rom":"sī-án-tsuánn"}
+{"id":"nan.c0261","deck":"nan.d.questions-and-particles","nan":"啥款","rom":"siánn-khuán"}
+{"id":"nan.c0262","deck":"nan.d.questions-and-particles","nan":"敢有","rom":"kám ū"}
+{"id":"nan.c0263","deck":"nan.d.questions-and-particles","nan":"偌濟","rom":"guā-tsē"}
+{"id":"nan.c0264","deck":"nan.d.questions-and-particles","nan":"伊是老師，是毋是？","rom":"I sī lāu-su, sī m̄ sī?"}
+{"id":"nan.c0265","deck":"nan.d.questions-and-particles","nan":"恁小弟咧？","rom":"Lín sió-tī--leh?"}
+{"id":"nan.c0266","deck":"nan.d.questions-and-particles","nan":"你敢知影伊叫做啥物名？","rom":"Lí kám tsai-iánn i kiò-tsò siánn-mih miâ?"}
+{"id":"nan.c0267","deck":"nan.d.questions-and-particles","nan":"這條歌有聽過無？","rom":"Tsit tiâu kua ū thiann--kuè--bô?"}
+{"id":"nan.c0268","deck":"nan.d.questions-and-particles","nan":"你敢無欲去？","rom":"Lí kám bô beh khì?"}
+{"id":"nan.c0269","deck":"nan.d.questions-and-particles","nan":"你明仔載欲佮阮去𨑨迌無？","rom":"Lí bîn-á-tsài beh kah guán khì tshit-thô--bô?"}
+{"id":"nan.c0270","deck":"nan.d.questions-and-particles","nan":"哪會","rom":"ná ē"}
+{"id":"nan.c0271","deck":"nan.d.describing-and-comparing","nan":"今仔日真熱。","rom":"Kin-á-ji̍t tsin jua̍h."}
+{"id":"nan.c0272","deck":"nan.d.describing-and-comparing","nan":"伊的糖仔比我較濟。","rom":"I ê thn̂g-á pí guá khah tsē."}
+{"id":"nan.c0273","deck":"nan.d.describing-and-comparing","nan":"上好","rom":"siōng hó"}
+{"id":"nan.c0274","deck":"nan.d.describing-and-comparing","nan":"傷鹹","rom":"siunn kiâm"}
+{"id":"nan.c0275","deck":"nan.d.describing-and-comparing","nan":"伊咧讀冊。","rom":"I teh tha̍k-tsheh."}
+{"id":"nan.c0276","deck":"nan.d.describing-and-comparing","nan":"這塊桌仔比彼塊較低。","rom":"Tsit tè toh-á pí hit tè khah kē."}
+{"id":"nan.c0277","deck":"nan.d.describing-and-comparing","nan":"氣象報告講明仔載會比今仔日較寒。","rom":"Khì-siōng pò-kò kóng bîn-á-tsài ē pí kin-á-ji̍t khah kuânn."}
+{"id":"nan.c0278","deck":"nan.d.describing-and-comparing","nan":"寒甲欲死。","rom":"Kuânn kah beh-sí."}
+{"id":"nan.c0279","deck":"nan.d.describing-and-comparing","nan":"上蓋媠","rom":"siōng-kài suí"}
+{"id":"nan.c0280","deck":"nan.d.describing-and-comparing","nan":"伊拄咧食飯。","rom":"I tú-teh tsia̍h-pn̄g."}
+{"id":"nan.c0281","deck":"nan.d.describing-and-comparing","nan":"今仔日伊閣來矣。","rom":"Kin-á-ji̍t i koh lâi--ah."}
+{"id":"nan.c0282","deck":"nan.d.describing-and-comparing","nan":"欲落雨矣。","rom":"Beh lo̍h-hōo--ah."}
+{"id":"nan.c0283","deck":"nan.d.describing-and-comparing","nan":"誠","rom":"tsiânn"}
+{"id":"nan.c0284","deck":"nan.d.describing-and-comparing","nan":"足","rom":"tsiok"}
+{"id":"nan.c0285","deck":"nan.d.describing-and-comparing","nan":"較慢咧","rom":"khah bān--leh"}
+{"id":"nan.c0286","deck":"nan.d.describing-and-comparing","nan":"你講話傷過份。","rom":"Lí kóng-uē siunn kuè-hūn."}
+{"id":"nan.c0287","deck":"nan.d.describing-and-comparing","nan":"細","rom":"sè"}
+{"id":"nan.c0288","deck":"nan.d.describing-and-comparing","nan":"我足愛睏的。","rom":"Guá tsiok ài-khùn--ê."}
+{"id":"nan.c0289","deck":"nan.d.traps-for-english-speakers","nan":"𪜶某真媠。","rom":"In bóo tsin suí."}
+{"id":"nan.c0290","deck":"nan.d.traps-for-english-speakers","nan":"伊煮的物件真歹食。","rom":"I tsú ê mi̍h-kiānn tsin pháinn-tsia̍h."}
+{"id":"nan.c0291","deck":"nan.d.traps-for-english-speakers","nan":"毋是","rom":"m̄ sī"}
+{"id":"nan.c0292","deck":"nan.d.traps-for-english-speakers","nan":"我無愛。","rom":"Guá bô ài."}
+{"id":"nan.c0293","deck":"nan.d.traps-for-english-speakers","nan":"我無食早起。","rom":"Guá bô tsia̍h tsá-khí."}
+{"id":"nan.c0294","deck":"nan.d.traps-for-english-speakers","nan":"我有去過。","rom":"Guá ū khì--kuè."}
+{"id":"nan.c0295","deck":"nan.d.traps-for-english-speakers","nan":"我袂曉。","rom":"Guá bē-hiáu."}
+{"id":"nan.c0296","deck":"nan.d.traps-for-english-speakers","nan":"這條歌你會曉唱袂？","rom":"Tsit tiâu kua lí ē-hiáu tshiùnn--bē?"}
+{"id":"nan.c0297","deck":"nan.d.traps-for-english-speakers","nan":"伊會來。","rom":"I ē lâi."}
+{"id":"nan.c0298","deck":"nan.d.traps-for-english-speakers","nan":"伊會食會睏，你免煩惱。","rom":"I ē tsia̍h ē khùn, lí bián huân-ló."}
+{"id":"nan.c0299","deck":"nan.d.traps-for-english-speakers","nan":"免啦！","rom":"Bián--lah!"}
+{"id":"nan.c0300","deck":"nan.d.traps-for-english-speakers","nan":"你免來。","rom":"Lí bián lâi."}
+{"id":"nan.c0301","deck":"nan.d.traps-for-english-speakers","nan":"叫你莫來你閣來。","rom":"Kiò lí mài lâi lí koh lâi."}
+{"id":"nan.c0302","deck":"nan.d.traps-for-english-speakers","nan":"毋通","rom":"m̄-thang"}
+{"id":"nan.c0303","deck":"nan.d.traps-for-english-speakers","nan":"袂使","rom":"bē-sái"}
+{"id":"nan.c0304","deck":"nan.d.traps-for-english-speakers","nan":"濟","rom":"tsē"}
+{"id":"nan.c0305","deck":"nan.d.traps-for-english-speakers","nan":"感冒會過人。","rom":"Kám-mōo ē kuè--lâng."}
+{"id":"nan.c0306","deck":"nan.d.traps-for-english-speakers","nan":"卵","rom":"nn̄g"}
+{"id":"nan.c0307","deck":"nan.d.compliments","nan":"真好食！","rom":"Tsin hó-tsia̍h!"}
+{"id":"nan.c0308","deck":"nan.d.compliments","nan":"你煮的菜真好食。","rom":"Lí tsú ê tshài tsin hó-tsia̍h."}
+{"id":"nan.c0309","deck":"nan.d.compliments","nan":"你人真好。","rom":"Lí lâng tsin hó."}
+{"id":"nan.c0310","deck":"nan.d.compliments","nan":"你真認真。","rom":"Lí tsin jīn-tsin."}
+{"id":"nan.c0311","deck":"nan.d.compliments","nan":"你做甲真好！","rom":"Lí tsò kah tsin hó!"}
+{"id":"nan.c0312","deck":"nan.d.compliments","nan":"你台語講甲真好！","rom":"Lí Tâi-gí kóng kah tsin hó!"}
+{"id":"nan.c0313","deck":"nan.d.compliments","nan":"你敢會曉講台語？","rom":"Lí kám ē-hiáu kóng Tâi-gí?"}
+{"id":"nan.c0314","deck":"nan.d.compliments","nan":"恁厝真媠。","rom":"Lín tshù tsin suí."}
+{"id":"nan.c0315","deck":"nan.d.compliments","nan":"這个囡仔真古錐！","rom":"Tsit ê gín-á tsin kóo-tsui!"}
+{"id":"nan.c0316","deck":"nan.d.compliments","nan":"你穿這件衫真好看。","rom":"Lí tshīng tsit kiānn sann tsin hó-khuànn."}
+{"id":"nan.c0317","deck":"nan.d.compliments","nan":"這个禮物真媠，多謝你！","rom":"Tsit ê lé-bu̍t tsin suí, to-siā--lí!"}
+{"id":"nan.c0318","deck":"nan.d.compliments","nan":"你真客氣。","rom":"Lí tsin kheh-khì."}
+{"id":"nan.c0319","deck":"nan.d.compliments","nan":"無啦！","rom":"Bô--lah!"}
+{"id":"nan.c0320","deck":"nan.d.compliments","nan":"有影無？","rom":"Ū-iánn--bô?"}
+{"id":"nan.c0321","deck":"nan.d.compliments","nan":"你傷客氣矣。","rom":"Lí siunn kheh-khì--ah."}
+{"id":"nan.c0322","deck":"nan.d.flirting","nan":"古錐","rom":"kóo-tsui"}
+{"id":"nan.c0323","deck":"nan.d.flirting","nan":"目睭","rom":"ba̍k-tsiu"}
+{"id":"nan.c0324","deck":"nan.d.flirting","nan":"𨑨迌","rom":"tshit-thô"}
+{"id":"nan.c0325","deck":"nan.d.flirting","nan":"見面","rom":"kìnn-bīn"}
+{"id":"nan.c0326","deck":"nan.d.flirting","nan":"感情","rom":"kám-tsîng"}
+{"id":"nan.c0327","deck":"nan.d.flirting","nan":"牽手","rom":"khan-tshiú"}
+{"id":"nan.c0328","deck":"nan.d.flirting","nan":"你真媠。","rom":"Lí tsin suí."}
+{"id":"nan.c0329","deck":"nan.d.flirting","nan":"你今仔日真媠！","rom":"Lí kin-á-ji̍t tsin suí!"}
+{"id":"nan.c0330","deck":"nan.d.flirting","nan":"你真好看。","rom":"Lí tsin hó-khuànn."}
+{"id":"nan.c0331","deck":"nan.d.flirting","nan":"你的目睭真媠。","rom":"Lí ê ba̍k-tsiu tsin suí."}
+{"id":"nan.c0332","deck":"nan.d.flirting","nan":"你真古錐。","rom":"Lí tsin kóo-tsui."}
+{"id":"nan.c0333","deck":"nan.d.flirting","nan":"看著你真歡喜。","rom":"Khuànn tio̍h lí tsin huann-hí."}
+{"id":"nan.c0334","deck":"nan.d.flirting","nan":"佮你講話真歡喜。","rom":"Kah lí kóng-uē tsin huann-hí."}
+{"id":"nan.c0335","deck":"nan.d.flirting","nan":"我真愛佮你做陣。","rom":"Guá tsin ài kah lí tsò-tīn."}
+{"id":"nan.c0336","deck":"nan.d.flirting","nan":"你明仔載有閒無？","rom":"Lí bîn-á-tsài ū-îng--bô?"}
+{"id":"nan.c0337","deck":"nan.d.flirting","nan":"禮拜六你有閒無？","rom":"Lé-pài-la̍k lí ū-îng--bô?"}
+{"id":"nan.c0338","deck":"nan.d.flirting","nan":"咱做陣去食飯好無？","rom":"Lán tsò-tīn khì tsia̍h-pn̄g hó--bô?"}
+{"id":"nan.c0339","deck":"nan.d.flirting","nan":"咱來去看電影好無？","rom":"Lán lâi-khì khuànn tiān-iánn hó--bô?"}
+{"id":"nan.c0340","deck":"nan.d.flirting","nan":"我請你啉茶。","rom":"Guá tshiánn lí lim tê."}
+{"id":"nan.c0341","deck":"nan.d.flirting","nan":"我想欲招你去𨑨迌。","rom":"Guá siūnn-beh tsio lí khì tshit-thô."}
+{"id":"nan.c0342","deck":"nan.d.flirting","nan":"你的電話敢會使予我？","rom":"Lí ê tiān-uē kám ē-sái hōo guá?"}
+{"id":"nan.c0343","deck":"nan.d.flirting","nan":"咱閣見面好無？","rom":"Lán koh kìnn-bīn hó--bô?"}
+{"id":"nan.c0344","deck":"nan.d.flirting","nan":"好，咱來去！","rom":"Hó, lán lâi-khì!"}
+{"id":"nan.c0345","deck":"nan.d.flirting","nan":"我嘛是。","rom":"Guá mā sī."}
+{"id":"nan.c0346","deck":"nan.d.flirting","nan":"你真會講話。","rom":"Lí tsin ē kóng-uē."}
+{"id":"nan.c0347","deck":"nan.d.flirting","nan":"多謝，毋過咱做朋友就好。","rom":"To-siā, m̄-koh lán tsò pîng-iú tō hó."}
+{"id":"nan.c0348","deck":"nan.d.flirting","nan":"歹勢，我有牽手矣。","rom":"Pháinn-sè, guá ū khan-tshiú--ah."}
+{"id":"nan.c0349","deck":"nan.d.flirting","nan":"多謝你，毋過我無愛。","rom":"To-siā--lí, m̄-koh guá bô ài."}
+{"id":"nan.c0350","deck":"nan.d.top-nouns","nan":"人客","rom":"lâng-kheh"}
+{"id":"nan.c0351","deck":"nan.d.top-nouns","nan":"囡仔","rom":"gín-á"}
+{"id":"nan.c0352","deck":"nan.d.top-nouns","nan":"代誌","rom":"tāi-tsì"}
+{"id":"nan.c0353","deck":"nan.d.top-nouns","nan":"話","rom":"uē"}
+{"id":"nan.c0354","deck":"nan.d.top-nouns","nan":"名","rom":"miâ"}
+{"id":"nan.c0355","deck":"nan.d.top-nouns","nan":"車","rom":"tshia"}
+{"id":"nan.c0356","deck":"nan.d.top-nouns","nan":"菜","rom":"tshài"}
+{"id":"nan.c0357","deck":"nan.d.top-nouns","nan":"麵","rom":"mī"}
+{"id":"nan.c0358","deck":"nan.d.top-nouns","nan":"房間","rom":"pâng-king"}
+{"id":"nan.c0359","deck":"nan.d.top-nouns","nan":"桌仔","rom":"toh-á"}
+{"id":"nan.c0360","deck":"nan.d.top-nouns","nan":"椅仔","rom":"í-á"}
+{"id":"nan.c0361","deck":"nan.d.top-nouns","nan":"爸母","rom":"pē-bú"}
+{"id":"nan.c0362","deck":"nan.d.top-nouns","nan":"兄弟","rom":"hiann-tī"}
+{"id":"nan.c0363","deck":"nan.d.top-nouns","nan":"某","rom":"bóo"}
+{"id":"nan.c0364","deck":"nan.d.top-nouns","nan":"大兄","rom":"tuā-hiann"}
+{"id":"nan.c0365","deck":"nan.d.top-nouns","nan":"阿叔","rom":"a-tsik"}
+{"id":"nan.c0366","deck":"nan.d.top-nouns","nan":"阿姑","rom":"a-koo"}
+{"id":"nan.c0367","deck":"nan.d.top-nouns","nan":"阿舅","rom":"a-kū"}
+{"id":"nan.c0368","deck":"nan.d.top-nouns","nan":"外公","rom":"guā-kong"}
+{"id":"nan.c0369","deck":"nan.d.top-nouns","nan":"外媽","rom":"guā-má"}
+{"id":"nan.c0370","deck":"nan.d.top-nouns","nan":"禮物","rom":"lé-bu̍t"}
+{"id":"nan.c0371","deck":"nan.d.top-nouns","nan":"貓","rom":"niau"}
+{"id":"nan.c0372","deck":"nan.d.top-nouns","nan":"便所","rom":"piān-sóo"}
+{"id":"nan.c0373","deck":"nan.d.top-nouns","nan":"糖仔","rom":"thn̂g-á"}
+{"id":"nan.c0374","deck":"nan.d.top-nouns","nan":"汽水","rom":"khì-tsuí"}
+{"id":"nan.c0375","deck":"nan.d.top-nouns","nan":"火鍋","rom":"hué-ko"}
+{"id":"nan.c0376","deck":"nan.d.top-nouns","nan":"甌仔","rom":"au-á"}
+{"id":"nan.c0377","deck":"nan.d.top-nouns","nan":"飯碗","rom":"pn̄g-uánn"}
+{"id":"nan.c0378","deck":"nan.d.top-nouns","nan":"病人","rom":"pēnn-lâng"}
+{"id":"nan.c0379","deck":"nan.d.top-nouns","nan":"教師","rom":"kàu-su"}
+{"id":"nan.c0380","deck":"nan.d.top-nouns","nan":"歹話","rom":"pháinn-uē"}
+{"id":"nan.c0381","deck":"nan.d.top-verbs","nan":"去","rom":"khì"}
+{"id":"nan.c0382","deck":"nan.d.top-verbs","nan":"來","rom":"lâi"}
+{"id":"nan.c0383","deck":"nan.d.top-verbs","nan":"講","rom":"kóng"}
+{"id":"nan.c0384","deck":"nan.d.top-verbs","nan":"有","rom":"ū"}
+{"id":"nan.c0385","deck":"nan.d.top-verbs","nan":"做","rom":"tsò"}
+{"id":"nan.c0386","deck":"nan.d.top-verbs","nan":"會","rom":"ē"}
+{"id":"nan.c0387","deck":"nan.d.top-verbs","nan":"愛","rom":"ài"}
+{"id":"nan.c0388","deck":"nan.d.top-verbs","nan":"知影","rom":"tsai-iánn"}
+{"id":"nan.c0389","deck":"nan.d.top-verbs","nan":"坐","rom":"tsē"}
+{"id":"nan.c0390","deck":"nan.d.top-verbs","nan":"買","rom":"bé"}
+{"id":"nan.c0391","deck":"nan.d.top-verbs","nan":"賣","rom":"bē"}
+{"id":"nan.c0392","deck":"nan.d.top-verbs","nan":"想欲","rom":"siūnn-beh"}
+{"id":"nan.c0393","deck":"nan.d.top-verbs","nan":"會曉","rom":"ē-hiáu"}
+{"id":"nan.c0394","deck":"nan.d.top-verbs","nan":"捌","rom":"bat"}
+{"id":"nan.c0395","deck":"nan.d.top-verbs","nan":"會使","rom":"ē-sái"}
+{"id":"nan.c0396","deck":"nan.d.top-verbs","nan":"會當","rom":"ē-tàng"}
+{"id":"nan.c0397","deck":"nan.d.top-verbs","nan":"叫","rom":"kiò"}
+{"id":"nan.c0398","deck":"nan.d.top-verbs","nan":"叫做","rom":"kiò-tsò"}
+{"id":"nan.c0399","deck":"nan.d.top-verbs","nan":"號做","rom":"hō-tsò"}
+{"id":"nan.c0400","deck":"nan.d.top-verbs","nan":"姓","rom":"sènn"}
+{"id":"nan.c0401","deck":"nan.d.top-verbs","nan":"請","rom":"tshiánn"}
+{"id":"nan.c0402","deck":"nan.d.top-verbs","nan":"煮","rom":"tsú"}
+{"id":"nan.c0403","deck":"nan.d.top-verbs","nan":"穿","rom":"tshīng"}
+{"id":"nan.c0404","deck":"nan.d.top-verbs","nan":"行","rom":"kiânn"}
+{"id":"nan.c0405","deck":"nan.d.top-verbs","nan":"綴","rom":"tuè"}
+{"id":"nan.c0406","deck":"nan.d.top-verbs","nan":"斡","rom":"uat"}
+{"id":"nan.c0407","deck":"nan.d.top-verbs","nan":"招","rom":"tsio"}
+{"id":"nan.c0408","deck":"nan.d.top-verbs","nan":"管","rom":"kuán"}
+{"id":"nan.c0409","deck":"nan.d.top-verbs","nan":"介紹","rom":"kài-siāu"}
+{"id":"nan.c0410","deck":"nan.d.top-verbs","nan":"落雨","rom":"lo̍h-hōo"}
+{"id":"nan.c0411","deck":"nan.d.top-verbs","nan":"煩惱","rom":"huân-ló"}
+{"id":"nan.c0412","deck":"nan.d.top-verbs","nan":"感冒","rom":"kám-mōo"}
+{"id":"nan.c0413","deck":"nan.d.top-verbs","nan":"起來","rom":"khí-lâi"}
+{"id":"nan.c0414","deck":"nan.d.top-verbs","nan":"下班","rom":"hā-pan"}
+{"id":"nan.c0415","deck":"nan.d.top-verbs","nan":"踅","rom":"se̍h"}
+{"id":"nan.c0416","deck":"nan.d.top-verbs","nan":"食飯","rom":"tsia̍h-pn̄g"}
+{"id":"nan.c0417","deck":"nan.d.top-verbs","nan":"食飽","rom":"tsia̍h-pá"}
+{"id":"nan.c0418","deck":"nan.d.top-adjectives","nan":"好","rom":"hó"}
+{"id":"nan.c0419","deck":"nan.d.top-adjectives","nan":"大","rom":"tuā"}
+{"id":"nan.c0420","deck":"nan.d.top-adjectives","nan":"貴","rom":"kuì"}
+{"id":"nan.c0421","deck":"nan.d.top-adjectives","nan":"俗","rom":"sio̍k"}
+{"id":"nan.c0422","deck":"nan.d.top-adjectives","nan":"寒","rom":"kuânn"}
+{"id":"nan.c0423","deck":"nan.d.top-adjectives","nan":"遠","rom":"hn̄g"}
+{"id":"nan.c0424","deck":"nan.d.top-adjectives","nan":"低","rom":"kē"}
+{"id":"nan.c0425","deck":"nan.d.top-adjectives","nan":"好勢","rom":"hó-sè"}
+{"id":"nan.c0426","deck":"nan.d.top-adjectives","nan":"有名","rom":"ū-miâ"}
+{"id":"nan.c0427","deck":"nan.d.top-adjectives","nan":"有閒","rom":"ū-îng"}
+{"id":"nan.c0428","deck":"nan.d.top-adjectives","nan":"愛睏","rom":"ài-khùn"}
+{"id":"nan.c0429","deck":"nan.d.top-adjectives","nan":"客氣","rom":"kheh-khì"}
+{"id":"nan.c0430","deck":"nan.d.top-adjectives","nan":"認真","rom":"jīn-tsin"}
+{"id":"nan.c0431","deck":"nan.d.top-adjectives","nan":"過份","rom":"kuè-hūn"}
+{"id":"nan.c0432","deck":"nan.d.top-adverbs","nan":"真","rom":"tsin"}
+{"id":"nan.c0433","deck":"nan.d.top-adverbs","nan":"較","rom":"khah"}
+{"id":"nan.c0434","deck":"nan.d.top-adverbs","nan":"攏","rom":"lóng"}
+{"id":"nan.c0435","deck":"nan.d.top-adverbs","nan":"閣","rom":"koh"}
+{"id":"nan.c0436","deck":"nan.d.top-adverbs","nan":"再","rom":"tsài"}
+{"id":"nan.c0437","deck":"nan.d.top-adverbs","nan":"都","rom":"to"}
+{"id":"nan.c0438","deck":"nan.d.top-adverbs","nan":"已經","rom":"í-king"}
+{"id":"nan.c0439","deck":"nan.d.top-adverbs","nan":"傷","rom":"siunn"}
+{"id":"nan.c0440","deck":"nan.d.top-adverbs","nan":"這馬","rom":"tsit-má"}
+{"id":"nan.c0441","deck":"nan.d.top-adverbs","nan":"定定","rom":"tiānn-tiānn"}
+{"id":"nan.c0442","deck":"nan.d.top-adverbs","nan":"有時","rom":"ū-sî"}
+{"id":"nan.c0443","deck":"nan.d.top-adverbs","nan":"真正","rom":"tsin-tsiànn"}
+{"id":"nan.c0444","deck":"nan.d.top-adverbs","nan":"猶未","rom":"iáu-buē"}
+{"id":"nan.c0445","deck":"nan.d.top-adverbs","nan":"猶是","rom":"iáu-sī"}
+{"id":"nan.c0446","deck":"nan.d.top-adverbs","nan":"做陣","rom":"tsò-tīn"}
+{"id":"nan.c0447","deck":"nan.d.top-adverbs","nan":"總共","rom":"tsóng-kiōng"}
+{"id":"nan.c0448","deck":"nan.d.top-adverbs","nan":"直直","rom":"ti̍t-ti̍t"}
+{"id":"nan.c0449","deck":"nan.d.top-adverbs","nan":"慢慢仔","rom":"bān-bān-á"}
+{"id":"nan.c0450","deck":"nan.d.top-adverbs","nan":"較早","rom":"khah-tsá"}
+{"id":"nan.c0451","deck":"nan.d.top-adverbs","nan":"上尾","rom":"siōng-bué"}
+{"id":"nan.c0452","deck":"nan.d.top-pronouns","nan":"𪜶","rom":"in"}
+{"id":"nan.c0453","deck":"nan.d.top-pronouns","nan":"我的","rom":"guá ê"}
+{"id":"nan.c0454","deck":"nan.d.top-pronouns","nan":"你的","rom":"lí ê"}
+{"id":"nan.c0455","deck":"nan.d.top-pronouns","nan":"伊的","rom":"i ê"}
+{"id":"nan.c0456","deck":"nan.d.top-pronouns","nan":"阮的","rom":"guán ê"}
+{"id":"nan.c0457","deck":"nan.d.top-pronouns","nan":"咱的","rom":"lán ê"}
+{"id":"nan.c0458","deck":"nan.d.top-pronouns","nan":"恁的","rom":"lín ê"}
+{"id":"nan.c0459","deck":"nan.d.top-pronouns","nan":"𪜶的","rom":"in ê"}
+{"id":"nan.c0460","deck":"nan.d.top-pronouns","nan":"家己","rom":"ka-kī"}
+{"id":"nan.c0461","deck":"nan.d.top-pronouns","nan":"逐家","rom":"ta̍k-ke"}
+{"id":"nan.c0462","deck":"nan.d.top-pronouns","nan":"別人","rom":"pa̍t-lâng"}
+{"id":"nan.c0463","deck":"nan.d.top-pronouns","nan":"別个","rom":"pa̍t-ê"}
+{"id":"nan.c0464","deck":"nan.d.top-pronouns","nan":"這","rom":"tse"}
+{"id":"nan.c0465","deck":"nan.d.top-pronouns","nan":"彼","rom":"he"}
+{"id":"nan.c0466","deck":"nan.d.top-pronouns","nan":"這个","rom":"tsit ê"}
+{"id":"nan.c0467","deck":"nan.d.top-pronouns","nan":"彼个","rom":"hit ê"}
+{"id":"nan.c0468","deck":"nan.d.top-pronouns","nan":"啥","rom":"siánn"}
+{"id":"nan.c0469","deck":"nan.d.top-pronouns","nan":"這號","rom":"tsit-lō"}
+{"id":"nan.c0470","deck":"nan.d.top-prepositions","nan":"共","rom":"kā"}
+{"id":"nan.c0471","deck":"nan.d.top-prepositions","nan":"比","rom":"pí"}
+{"id":"nan.c0472","deck":"nan.d.top-prepositions","nan":"對","rom":"tuì"}
+{"id":"nan.c0473","deck":"nan.d.top-prepositions","nan":"用","rom":"īng"}
+{"id":"nan.c0474","deck":"nan.d.top-prepositions","nan":"到","rom":"kàu"}
+{"id":"nan.c0475","deck":"nan.d.top-prepositions","nan":"甲","rom":"kah"}
+{"id":"nan.c0476","deck":"nan.d.top-prepositions","nan":"親像","rom":"tshin-tshiūnn"}
+{"id":"nan.c0477","deck":"nan.d.top-prepositions","nan":"對面","rom":"tuì-bīn"}
+{"id":"nan.c0478","deck":"nan.d.top-prepositions","nan":"邊仔","rom":"pinn--á"}
+{"id":"nan.c0479","deck":"nan.d.top-prepositions","nan":"中央","rom":"tiong-ng"}
+{"id":"nan.c0480","deck":"nan.d.top-prepositions","nan":"下","rom":"ē"}
+{"id":"nan.c0481","deck":"nan.d.top-prepositions","nan":"倒爿","rom":"tò-pîng"}
+{"id":"nan.c0482","deck":"nan.d.top-conjunctions","nan":"抑是","rom":"ia̍h-sī"}
+{"id":"nan.c0483","deck":"nan.d.top-conjunctions","nan":"但是","rom":"tān-sī"}
+{"id":"nan.c0484","deck":"nan.d.top-conjunctions","nan":"毋過","rom":"m̄-koh"}
+{"id":"nan.c0485","deck":"nan.d.top-conjunctions","nan":"若是","rom":"nā-sī"}
+{"id":"nan.c0486","deck":"nan.d.top-conjunctions","nan":"就","rom":"tō"}
+{"id":"nan.c0487","deck":"nan.d.top-conjunctions","nan":"因為","rom":"in-uī"}
+{"id":"nan.c0488","deck":"nan.d.top-conjunctions","nan":"所以","rom":"sóo-í"}
+{"id":"nan.c0489","deck":"nan.d.top-conjunctions","nan":"雖然","rom":"sui-jiân"}
+{"id":"nan.c0490","deck":"nan.d.top-conjunctions","nan":"了後","rom":"liáu-āu"}
+{"id":"nan.c0491","deck":"nan.d.top-conjunctions","nan":"而且","rom":"jî-tshiánn"}
+{"id":"nan.c0492","deck":"nan.d.top-conjunctions","nan":"以前","rom":"í-tsîng"}
+{"id":"nan.c0493","deck":"nan.d.top-conjunctions","nan":"就是","rom":"tō sī"}
+{"id":"nan.c0494","deck":"nan.d.top-interjections","nan":"有影","rom":"ū-iánn"}
+{"id":"nan.c0495","deck":"nan.d.top-interjections","nan":"毋著","rom":"m̄-tio̍h"}
+{"id":"nan.c0496","deck":"nan.d.top-interjections","nan":"好矣","rom":"hó--ah"}
+{"id":"nan.c0497","deck":"nan.d.top-interjections","nan":"好啦","rom":"hó--lah"}
+{"id":"nan.c0498","deck":"nan.d.top-interjections","nan":"莫啦","rom":"mài--lah"}
+{"id":"nan.c0499","deck":"nan.d.top-interjections","nan":"毋免","rom":"m̄-bián"}
+{"id":"nan.c0500","deck":"nan.d.top-interjections","nan":"小心","rom":"sió-sim"}
+{"id":"nan.c0501","deck":"nan.d.top-interjections","nan":"按呢","rom":"án-ne"}
+{"id":"nan.c0502","deck":"nan.d.top-interjections","nan":"多謝","rom":"to-siā"}
+{"id":"nan.c0503","deck":"nan.d.top-interjections","nan":"感謝","rom":"kám-siā"}
+{"id":"nan.c0504","deck":"nan.d.top-interjections","nan":"毋好","rom":"m̄ hó"}
+{"id":"nan.c0505","deck":"nan.d.top-interjections","nan":"無法度","rom":"bô-huat-tōo"}
+{"id":"nan.c0506","deck":"nan.d.top-words","nan":"五","rom":"gōo"}
+{"id":"nan.c0507","deck":"nan.d.top-words","nan":"十一","rom":"tsa̍p-it"}
+{"id":"nan.c0508","deck":"nan.d.top-words","nan":"十五","rom":"tsa̍p-gōo"}
+{"id":"nan.c0509","deck":"nan.d.top-words","nan":"二十","rom":"jī-tsa̍p"}
+{"id":"nan.c0510","deck":"nan.d.top-words","nan":"三十","rom":"sann-tsa̍p"}
+{"id":"nan.c0511","deck":"nan.d.top-words","nan":"百","rom":"pah"}
+{"id":"nan.c0512","deck":"nan.d.top-words","nan":"千","rom":"tshing"}
+{"id":"nan.c0513","deck":"nan.d.top-words","nan":"幾","rom":"kuí"}
+{"id":"nan.c0514","deck":"nan.d.top-words","nan":"偌","rom":"guā"}
+{"id":"nan.c0515","deck":"nan.d.top-words","nan":"一半","rom":"tsi̍t-puànn"}
+{"id":"nan.c0516","deck":"nan.d.top-words","nan":"第一","rom":"tē-it"}
+{"id":"nan.c0517","deck":"nan.d.top-words","nan":"敢是","rom":"kám-sī"}
+{"id":"nan.c0518","deck":"nan.d.top-words","nan":"是毋是","rom":"sī m̄ sī"}
+{"id":"nan.c0519","deck":"nan.d.top-words","nan":"一工","rom":"tsi̍t kang"}
+{"id":"nan.c0520","deck":"nan.d.top-words","nan":"禮拜","rom":"lé-pài"}
+{"id":"nan.c0521","deck":"nan.d.top-words","nan":"頂擺","rom":"tíng-pái"}
+{"id":"nan.c0522","deck":"nan.d.top-words","nan":"明仔早起","rom":"bîn-á-tsá-khí"}
+{"id":"nan.c0523","deck":"nan.d.top-measure-words","nan":"本","rom":"pún"}
+{"id":"nan.c0524","deck":"nan.d.top-measure-words","nan":"隻","rom":"tsiah"}
+{"id":"nan.c0525","deck":"nan.d.top-measure-words","nan":"杯","rom":"pue"}
+{"id":"nan.c0526","deck":"nan.d.top-measure-words","nan":"碗","rom":"uánn"}
+{"id":"nan.c0527","deck":"nan.d.top-measure-words","nan":"張","rom":"tiunn"}
+{"id":"nan.c0528","deck":"nan.d.top-measure-words","nan":"件","rom":"kiānn"}
+{"id":"nan.c0529","deck":"nan.d.top-measure-words","nan":"粒","rom":"lia̍p"}
+{"id":"nan.c0530","deck":"nan.d.top-measure-words","nan":"條","rom":"tiâu"}
+{"id":"nan.c0531","deck":"nan.d.top-measure-words","nan":"雙","rom":"siang"}
+{"id":"nan.c0532","deck":"nan.d.top-measure-words","nan":"塊","rom":"tè"}
+{"id":"nan.c0533","deck":"nan.d.top-measure-words","nan":"台","rom":"tâi"}
+{"id":"nan.c0534","deck":"nan.d.top-measure-words","nan":"句","rom":"kù"}
+{"id":"nan.c0535","deck":"nan.d.top-measure-words","nan":"項","rom":"hāng"}
+{"id":"nan.c0536","deck":"nan.d.top-measure-words","nan":"次","rom":"tshù"}
+{"id":"nan.c0537","deck":"nan.d.top-measure-words","nan":"擺","rom":"pái"}
+{"id":"nan.c0538","deck":"nan.d.top-measure-words","nan":"箍","rom":"khoo"}
+{"id":"nan.c0539","deck":"nan.d.top-measure-words","nan":"斤","rom":"kin"}
+{"id":"nan.c0540","deck":"nan.d.top-measure-words","nan":"歲","rom":"huè"}
+{"id":"nan.c0541","deck":"nan.d.top-measure-words","nan":"點","rom":"tiám"}
+{"id":"nan.c0542","deck":"nan.d.top-particles","nan":"矣","rom":"--ah"}
+{"id":"nan.c0543","deck":"nan.d.top-particles","nan":"啦","rom":"--lah"}
+{"id":"nan.c0544","deck":"nan.d.top-particles","nan":"咧","rom":"teh"}
+{"id":"nan.c0545","deck":"nan.d.top-particles","nan":"無","rom":"bô"}
+{"id":"nan.c0546","deck":"nan.d.top-particles","nan":"未","rom":"buē"}
+{"id":"nan.c0547","deck":"nan.d.top-particles","nan":"袂","rom":"bē"}
+{"id":"nan.c0548","deck":"nan.d.top-particles","nan":"敢","rom":"kám"}
+{"id":"nan.c0549","deck":"nan.d.top-particles","nan":"的","rom":"ê"}
+{"id":"nan.c0550","deck":"nan.d.top-particles","nan":"仔","rom":"á"}
+{"id":"nan.c0551","deck":"nan.d.top-particles","nan":"過","rom":"kuè"}
+{"id":"nan.c0552","deck":"nan.d.top-particles","nan":"一下","rom":"tsi̍t-ē"}
+{"id":"nan.c0553","deck":"nan.d.top-particles","nan":"著","rom":"tio̍h"}

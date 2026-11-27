@@ -1,0 +1,1250 @@
+# Portuguese words of the course inventory, or with a Portuguese diacritic, outside every mark (export_target.js pt; not protected by validate.js until the source marks them). Columns: file, id, field, words, text
+decks	pt.d.sounds-and-spelling	desc	lh nh rr	Words that show each sound rule: nasal vowels, lh and nh, final l, t and d before i, r and rr
+decks	pt.d.about-me	label	me	About me
+decks	pt.d.numbers-time-and-prices	desc	reais	Numbers to 1,000, telling the time, prices in reais and dollars
+decks	pt.d.food-and-drink	desc	café por quilo	Ordering at a café, a restaurant or a por-quilo buffet; everyday food and drinks
+decks	pt.d.shopping-and-clothes	label	Shopping	Shopping and clothes
+decks	pt.d.travel-and-transport	desc	hotel	Tickets, buses, flights, getting around and hotel basics
+decks	pt.d.feelings-and-states	desc	estar com	How you feel, with estar and estar com
+decks	pt.d.spoken-brazilian-portuguese	desc	tô tá pra gente né	Everyday spoken forms you will hear: tô, tá, pra, a gente, né, and pronouns before the verb
+decks	pt.d.flirting	desc	no	Words people flirt with, phrases built from them, asking someone out, and kind ways to say no
+decks	pt.d.top-verbs	desc	eu	The most-used verbs, with the eu form and irregulars flagged
+decks	pt.d.top-pronouns	desc	você senhor	I, you, mine, this, who, someone: the whole useful set, with você and o senhor
+decks	pt.d.top-prepositions	desc	de em para por com no na do da pelo	de, em, para, por, com and the rest, with the contractions no, na, do, da, pelo
+decks	pt.d.top-conjunctions	desc	mas ou porque	Joining words beyond e, mas, ou, porque: that, if, while, so, than
+decks	pt.d.top-interjections	desc	Nossa Ai Eita Ué	What Brazilians really exclaim: Nossa!, Ai!, Eita!, Ué!
+decks	pt.d.top-words	desc	no	Articles, yes and no, question words, numbers, days and months
+cards	pt.c0001	note	ão no	Nasal ão. Compare pau (stick), with no nasal.
+cards	pt.c0002	note	ãe mamãe	ãe is nasal: say it through the nose. Mommy is mamãe.
+cards	pt.c0003	note	ão pão	Nasal ão, like pão. Feminine, even though it ends in -o.
+cards	pt.c0004	note	ç ão	ç always sounds like s, and ão is nasal.
+cards	pt.c0005	note	lh	lh sounds like the lli in million.
+cards	pt.c0006	note	nh	nh sounds like the ny in canyon.
+cards	pt.c0007	note	rr caro	rr, and r at the start of a word, sound like English h. caro (expensive) has a light tap.
+cards	pt.c0009	note	ch de	t and d before an i sound turn into ch and j: the final de sounds jee.
+cards	pt.c0010	note	te	The final te sounds chee, not tay.
+cards	pt.c0012	note	ei te	ei sounds like ay, and the final te sounds chee.
+cards	pt.c0015	note	ch	ch sounds like English sh.
+cards	pt.c0016	note	qu	qu before e or i sounds like k; j sounds like the s in measure.
+cards	pt.c0017	note	em no	h is always silent, and the final em is nasal, with no m sound.
+cards	pt.c0019	note	Olá	The everyday hello. Olá is a little more formal.
+cards	pt.c0020	note	boa tarde	Until about noon. After that: boa tarde.
+cards	pt.c0021	note	bom	boa is feminine, like tarde: never bom tarde.
+cards	pt.c0024	note	no é	e (and) has no accent mark; é with one means is.
+cards	pt.c0025	note	obrigada	A man says obrigado, a woman says obrigada: it agrees with the speaker.
+cards	pt.c0027	note	obrigada	A woman says muito obrigada. muito stays the same.
+cards	pt.c0030	meaning	me	Excuse me.
+cards	pt.c0032	note	muito	Short for muito prazer.
+cards	pt.c0035	note	ele senhora	o senhor takes the ele form: vai. To an older woman: Como vai a senhora?
+cards	pt.c0036	note	ele as você	A polite offer. aceita is the ele form, as with você.
+cards	pt.c0037	note	Meu nome é	Also: Meu nome é Ana.
+cards	pt.c0039	note	Qual é seu nome	Also common: Qual é o seu nome?
+cards	pt.c0041	note	ser no	ser de + a city, with no article.
+cards	pt.c0042	note	de os	dos = de + os: the country name is plural.
+cards	pt.c0043	note	americana	A woman says americana. Nationalities are lowercase.
+cards	pt.c0044	meaning	do	Where do you live?
+cards	pt.c0045	note	no	em + a city, with no article.
+cards	pt.c0046	note	ter ser	Age uses ter (have), never ser: literally, I have thirty-two years.
+cards	pt.c0047	meaning	do	What do you do (for work)?
+cards	pt.c0047	note	do	Literally: what do you do? It usually means your job.
+cards	pt.c0048	note	No um uma enfermeiro	No um / uma before a job. A man says enfermeiro.
+cards	pt.c0050	note	estou	A woman says casada. You will also hear estou casado.
+cards	pt.c0051	note	inglês	Language names are lowercase: português, inglês.
+cards	pt.c0052	meaning	Do	Do you speak English?
+cards	pt.c0052	note	as	Same word order as a statement: only your voice rises.
+cards	pt.c0054	note	você poder	pode is the você form of poder; in a request, você is usually left out.
+cards	pt.c0056	note	minha	meu with a masculine noun, minha with a feminine one.
+cards	pt.c0057	meaning	Do	Do you have any brothers or sisters?
+cards	pt.c0058	note	parentes	pais = parents. parentes = relatives.
+cards	pt.c0059	note	no mãe	pai has no nasal sound; mãe does.
+cards	pt.c0060	note	meu avô os meus avós	Grandpa: o meu avô. Both together: os meus avós.
+cards	pt.c0061	note	avô avó	avô (grandfather) has a closed o, avó (grandmother) an open o.
+cards	pt.c0062	note	duas	filhos = sons, or sons and daughters together. Two daughters: duas filhas.
+cards	pt.c0063	note	de ela dele	dela = de + ela, after the noun. His son: o filho dele.
+cards	pt.c0064	note	minha esposa mulher	Wife: a minha esposa (also heard: a minha mulher).
+cards	pt.c0065	note	namorada	Girlfriend: a namorada.
+cards	pt.c0066	note	meu amigo	A male best friend: o meu melhor amigo.
+cards	pt.c0067	note	minha os meus	Aunt: a minha tia. Aunts and uncles together: os meus tios.
+cards	pt.c0068	note	minha	A female cousin: a minha prima.
+cards	pt.c0070	note	simpático	simpática agrees with ela. About a man: simpático.
+cards	pt.c0071	note	alta	moreno = dark-haired, or with brown skin. About a woman: alta e morena.
+cards	pt.c0074	note	dez seis dezessete	One word: dez + e + seis. Seventeen: dezessete.
+cards	pt.c0075	note	dois	dois becomes duas before a feminine noun: duas pessoas, dois homens.
+cards	pt.c0076	note	cento um	Exactly 100. From 101 on: cento (cento e um).
+cards	pt.c0077	note	um	Never um cento. e joins each part.
+cards	pt.c0078	note	duzentas pessoas	Before a feminine noun: duzentas pessoas.
+cards	pt.c0079	note	No um reais dois	No um before mil: mil reais, dois mil reais.
+cards	pt.c0081	note	são	Only one o'clock is singular: é uma hora. All other hours take são.
+cards	pt.c0082	note	dois hora	duas, not dois: hora is feminine.
+cards	pt.c0083	note	hora É uma	meia (hora) is feminine. One o'clock: É uma hora.
+cards	pt.c0084	note	meia noite	Midnight: meia-noite.
+cards	pt.c0085	note	as horas tarde noite	às = a + as (horas). In the afternoon: da tarde. At night: da noite.
+cards	pt.c0086	note	ele	abre is the ele form: you are asking about the store.
+cards	pt.c0087	note	custam	For more than one thing: Quanto custam?
+cards	pt.c0088	note	come	Literally: how much did it come to? Heard at the register.
+cards	pt.c0089	note	real	One real, two reais: Brazil's money. R$ 50 is read cinquenta reais.
+cards	pt.c0090	note	dólar um	dólar ends in r, so the plural adds -es: um dólar, dez dólares.
+cards	pt.c0092	note	em	na = em + a, because feira is feminine. In speech: na sexta.
+cards	pt.c0093	note	dez	Also asks the date: Hoje é dia dez.
+cards	pt.c0094	note	feira	Short for terça-feira. Days of the week are lowercase.
+cards	pt.c0096	note	ã De manhã	A nasal ã at the end. De manhã = in the morning.
+cards	pt.c0097	note	próxima	Also: a próxima semana.
+cards	pt.c0099	note	no	Months take em with no article.
+cards	pt.c0102	note	fazendo calor	Also heard: Está fazendo calor.
+cards	pt.c0103	note	fazendo	Also heard: Está fazendo frio.
+cards	pt.c0108	note	no	vai + infinitive, with no word in between.
+cards	pt.c0111	note	pequeno almoço	In Portugal: o pequeno-almoço.
+cards	pt.c0115	meaning	do	What do you recommend?
+cards	pt.c0118	note	com	Sparkling water: água com gás.
+cards	pt.c0120	note	padaria	A fried, teardrop-shaped snack sold at every padaria (bakery).
+cards	pt.c0123	meaning	No	No onion, please.
+cards	pt.c0123	note	com	sem = without. With: com.
+cards	pt.c0124	note	chocolate	A classic: brigadeiro, a chocolate fudge ball.
+cards	pt.c0127	note	sapatos brancos	Color after the noun, and it agrees: camisa branca, sapatos brancos.
+cards	pt.c0130	note	bolsa	With a feminine noun: a bolsa vermelha.
+cards	pt.c0132	note	os	One form for one pair or more: o tênis, os tênis.
+cards	pt.c0134	note	Posso ajudar	Literally: I'm just taking a look. The answer to Posso ajudar?
+cards	pt.c0136	note	ficar	ficar for where places and fixed things are.
+cards	pt.c0137	meaning	Do	Do you have a bigger size?
+cards	pt.c0137	note	pequeno médio grande	Sizes are often P, M and G: pequeno, médio, grande.
+cards	pt.c0138	meaning	Do	Do you have it in black?
+cards	pt.c0138	note	no você	In shops, tem with no você is the usual question.
+cards	pt.c0139	meaning	me	It's too big on me.
+cards	pt.c0139	note	ficar bom	ficar for how clothes fit. Ficou bom? = Does it look good?
+cards	pt.c0140	note	bolsa cara	caro agrees: A bolsa está muito cara.
+cards	pt.c0142	meaning	Do	Do you take cards?
+cards	pt.c0142	note	você no	To the shop assistant: the você form, with no pronoun.
+cards	pt.c0143	note	em	What the cashier asks. no = em + o.
+cards	pt.c0146	note	de estar	Also: a sala de estar.
+cards	pt.c0148	note	frigorífico	In Portugal: o frigorífico.
+cards	pt.c0150	note	em um numa casa	num = em + um. In a house: numa casa.
+cards	pt.c0151	note	de	em cima de + a mesa = em cima da mesa.
+cards	pt.c0152	note	de	embaixo de + a cama = embaixo da cama.
+cards	pt.c0153	note	de	ao lado de + o sofá = ao lado do sofá.
+cards	pt.c0154	note	as horas	às = a + as (horas).
+cards	pt.c0156	meaning	Do	Do you get up early?
+cards	pt.c0157	note	tomar pegar	tomar banho = take a shower (or a bath). Not pegar banho.
+cards	pt.c0158	note	meus	os dentes, not meus dentes: whose teeth is clear.
+cards	pt.c0159	note	sair eu no	sair: the eu form is saio. de casa, with no article.
+cards	pt.c0160	note	chegar	Brazilians say chegar em casa; grammar books prefer chegar a.
+cards	pt.c0161	meaning	do	I do the dishes.
+cards	pt.c0163	note	ficar	ficar for where places and fixed things are.
+cards	pt.c0164	note	esquerda	à = a + a. On the left: à esquerda.
+cards	pt.c0167	note	de aqui longe	daqui = de + aqui. Far: longe.
+cards	pt.c0168	note	direita	esquerda is feminine, like direita: à esquerda.
+cards	pt.c0169	note	em	na = em + a: a esquina is feminine.
+cards	pt.c0170	meaning	me	Excuse me, where is the bank?
+cards	pt.c0172	note	de	da = de + a: a igreja is feminine.
+cards	pt.c0173	note	de	do = de + o. Never de o.
+cards	pt.c0174	note	estar	A woman says perdida. A state right now: estar.
+cards	pt.c0178	note	Vou ao	Vou ao centro = I'm going downtown. ao = a + o.
+cards	pt.c0180	note	São Paulo	o sinal = the traffic light; in São Paulo also o farol.
+cards	pt.c0182	note	carro metrô pé	de + vehicle: de carro, de metrô. But a pé = on foot.
+cards	pt.c0185	note	em	no = em + o: Brazil takes the article o.
+cards	pt.c0187	note	no	In Portugal: o metro, with no accent.
+cards	pt.c0188	note	só	One way: só de ida.
+cards	pt.c0189	note	ônibus táxi	pegar = take, catch: pegar o ônibus, pegar um táxi. In Portugal: apanhar.
+cards	pt.c0192	meaning	Do	Do you need help with your suitcase? (to an older man)
+cards	pt.c0192	note	ele	o senhor takes the ele form: precisa. a mala = the suitcase.
+cards	pt.c0195	note	no Rio	Most cities take no article: em São Paulo, but no Rio.
+cards	pt.c0196	note	pro	qual = which. In speech you will hear pro centro (para + o).
+cards	pt.c0197	note	as	as férias is always plural.
+cards	pt.c0198	note	de	do = de + o: o Rio takes the article.
+cards	pt.c0199	note	estar	estar com + noun for how you feel now.
+cards	pt.c0201	note	favor Pode me ajudar	For emergencies. To ask a favor: Pode me ajudar?
+cards	pt.c0202	note	você poder	pode: the você form of poder.
+cards	pt.c0204	note	precisar ir uma médica	precisar takes de before a noun (but preciso ir). A woman doctor: uma médica.
+cards	pt.c0205	note	estar	a febre: estar com + noun again.
+cards	pt.c0206	note	estômago	a barriga = belly. At the doctor: dor de estômago.
+cards	pt.c0208	note	em as	nas = em + as: as costas is feminine plural.
+cards	pt.c0209	note	alérgica	A woman says alérgica. à = a + a.
+cards	pt.c0212	note	ele	o senhor takes the ele form: está.
+cards	pt.c0213	meaning	Do	Do you need help? (to an older woman)
+cards	pt.c0213	note	ele	a senhora takes the ele form: precisa.
+cards	pt.c0217	note	em um	num = em + um.
+cards	pt.c0219	note	estar	estar + -ndo for right now.
+cards	pt.c0221	note	colégio	colégio is a school, not a college.
+cards	pt.c0222	meaning	do	Where do you work?
+cards	pt.c0222	note	ele	você takes the ele form: trabalha.
+cards	pt.c0224	note	as horas	às = a + as (horas).
+cards	pt.c0226	note	estar	estar + -ndo: está trabalhando.
+cards	pt.c0227	note	de manhã	à noite = at night, in the evening; de manhã = in the morning.
+cards	pt.c0229	meaning	do	How do you say this in Portuguese?
+cards	pt.c0234	note	cansada	A woman says cansada.
+cards	pt.c0238	note	preocupado	Said by a woman; a man says preocupado.
+cards	pt.c0240	note	calor	Hot: estou com calor.
+cards	pt.c0242	note	de	o medo = fear. Afraid of: com medo de.
+cards	pt.c0243	note	nervosa	A woman says nervosa.
+cards	pt.c0244	meaning	me	It made me sad.
+cards	pt.c0244	note	ficar	ficar = become: fiquei = I got, I became.
+cards	pt.c0250	note	senhor senhora	To an older person: O senhor está bem? / A senhora está bem?
+cards	pt.c0251	note	está normal	You will also hear está casado: both are normal.
+cards	pt.c0252	note	gostar	gostar always takes de: never gosto futebol.
+cards	pt.c0253	meaning	Do	Do you like to dance?
+cards	pt.c0256	note	adorar no de	adorar takes no de.
+cards	pt.c0257	note	de	da = de + a: a praia is feminine.
+cards	pt.c0258	note	gostar	gostar de + infinitive.
+cards	pt.c0259	meaning	Me	Me too.
+cards	pt.c0260	meaning	Me	Me neither.
+cards	pt.c0260	note	também não	Also heard: eu também não.
+cards	pt.c0261	meaning	do	What did you do on the weekend?
+cards	pt.c0261	note	fazer	fez: the você form of fazer, in the past.
+cards	pt.c0262	note	ver assistir	vi = I saw. For a movie, ver and assistir both work.
+cards	pt.c0263	note	tocar jogar	tocar for instruments; jogar for sports and games.
+cards	pt.c0264	note	os	aos = a + os.
+cards	pt.c0267	meaning	do	What do you like to do?
+cards	pt.c0268	note	preferir eu você prefere	preferir: eu prefiro, você prefere.
+cards	pt.c0270	note	porque	At the end of a sentence, quê has a circumflex. Because = porque.
+cards	pt.c0272	note	do	Literally: how many years do you have?
+cards	pt.c0273	note	mais	mais (more) sounds almost the same in much of Brazil.
+cards	pt.c0274	note	não	Not either: that is também não.
+cards	pt.c0278	meaning	do	Which one do you prefer?
+cards	pt.c0280	note	no Por quê	One word, no accent. The question is Por quê?
+cards	pt.c0282	note	no é	With no accent. é (with an accent) means is.
+cards	pt.c0284	meaning	Do	Do you live here?
+cards	pt.c0284	note	No do no	No do: a yes/no question is the statement with a rising voice.
+cards	pt.c0285	meaning	do	How do you get to work?
+cards	pt.c0287	note	mas	mas (but) sounds almost the same in much of Brazil.
+cards	pt.c0288	note	pais	Not parents. Parents = os pais.
+cards	pt.c0291	note	biblioteca	Library = a biblioteca.
+cards	pt.c0292	note	ter sou	Age uses ter (have): never sou vinte.
+cards	pt.c0294	note	faculdade	Not college. College = a faculdade.
+cards	pt.c0295	note	ajudar um filme à	Not assist. Assist = ajudar. Careful speech: assistir a um filme, assistir à TV; in everyday speech the a is often dropped.
+cards	pt.c0296	note	um	Not a notice. A notice = um aviso.
+cards	pt.c0297	note	Estou	Not a complaint. Estou gripado = I have the flu.
+cards	pt.c0300	note	pegar	tomar banho, never pegar banho.
+cards	pt.c0301	note	fazer	You take a decision: tomar, not fazer.
+cards	pt.c0302	note	tenho pretérito perfeito	Not tenho visto: use the pretérito perfeito, often with já.
+cards	pt.c0305	note	um bom tempo	Not tenha um bom tempo, a word-for-word copy from English.
+cards	pt.c0306	note	estou	Spoken short form of estou. Write estou in typed answers.
+cards	pt.c0307	note	está	tá = está. The everyday way to say OK.
+cards	pt.c0308	note	ele ela vai	a gente takes the ele / ela form: a gente vai.
+cards	pt.c0310	note	normal	Pronoun first is normal in Brazilian speech.
+cards	pt.c0311	note	você está Você	cê = você, tá = está. Write Você está bem? in typed answers.
+cards	pt.c0312	note	para	pra = para. pra is accepted wherever para is.
+cards	pt.c0313	note	ele	Literally: we see each other. a gente + the ele form.
+cards	pt.c0315	note	não é Está	né = não é: it asks the listener to agree. Write Está calor in typed answers.
+cards	pt.c0316	note	Onde está	cadê = where is, in speech only. Write Onde está in typed answers.
+cards	pt.c0317	note	as	Pronoun before the verb, as always in Brazil. In Portugal: amo-te.
+cards	pt.c0318	note	obrigado obrigada	A very informal thank-you between friends. The standard form: obrigado / obrigada.
+cards	pt.c0319	note	Tudo bem	An informal hello; the answer is the same: Beleza! The standard form: Tudo bem?
+cards	pt.c0322	note	Estou	Literally: I'm arriving. Write Estou chegando in typed answers.
+cards	pt.c0323	note	as	Pronoun first, as in all Brazilian speech. More formal: Me ligue.
+cards	pt.c0332	note	boa	To a woman: muito boa.
+cards	pt.c0337	note	engraçada	To a woman: engraçada.
+cards	pt.c0338	note	esforçada	To a woman: esforçada. Brazilian praise for hard work.
+cards	pt.c0354	note	Obrigado	A woman speaking; a man: Obrigado.
+cards	pt.c0355	note	linda	To a man; to a woman: linda. Warm; also used for kind people.
+cards	pt.c0356	note	bonita	To a man; to a woman: bonita. Mild.
+cards	pt.c0357	note	maravilhosa	To a man; to a woman: maravilhosa. Warm.
+cards	pt.c0360	meaning	as	dear; lovely (as a person)
+cards	pt.c0363	note	cheirosa	To a man; to a woman: cheirosa. Warm; a very Brazilian compliment.
+cards	pt.c0366	note	simpática	To a man; to a woman: simpática. Mild.
+cards	pt.c0369	note	seu	Singular in Portuguese: o seu cabelo.
+cards	pt.c0371	note	ter	ter charme = to be charming.
+cards	pt.c0372	note	um sair com alguém	um encontro = a date. Speech also: sair com alguém.
+cards	pt.c0373	note	eu No alguém	eu paquero. No preposition: paquerar alguém.
+cards	pt.c0374	note	eu	eu namoro. Namorar is serious: going steady.
+cards	pt.c0375	note	Um	Um beijo! also ends texts to friends.
+cards	pt.c0376	note	Um	Um abraço! ends texts too; friendly, not romantic.
+cards	pt.c0377	note	lindo	To a man: Você é lindo. Warm; common in Brazil.
+cards	pt.c0378	note	lindo Estar	To a man: lindo. Estar = how you look right now. Warm.
+cards	pt.c0381	note	bonita	To a man; to a woman: bonita. Mild.
+cards	pt.c0383	note	maravilhoso	To a woman; to a man: maravilhoso. Warm to bold.
+cards	pt.c0386	note	uma	To a man; to a woman: uma fofa. Warm, playful.
+cards	pt.c0389	note	cheiroso	To a woman; to a man: cheiroso. Warm, Brazilian.
+cards	pt.c0398	note	normal	The normal way to ask. Mild.
+cards	pt.c0400	meaning	Do me	Do you want to go out with me?
+cards	pt.c0410	meaning	me	Stop, you're making me blush!
+cards	pt.c0411	meaning	Do	Do you say that to everyone?
+cards	pt.c0412	note	no	A kind, clear no; same for any speaker.
+cards	pt.c0413	note	Obrigado namorada	A woman speaking; a man: Obrigado... namorada.
+cards	pt.c0414	note	Obrigado	A woman speaking; a man: Obrigado... interessado. Clear and polite.
+cards	pt.c0415	note	obrigado no	A woman speaking; a man: obrigado. A soft no.
+cards	pt.c0416	note	Uma de cada vez	Uma coisa de cada vez = one thing at a time.
+cards	pt.c0417	note	Não tenho Como está	Não tenho tempo. / Como está o tempo?
+cards	pt.c0418	note	Tenho trinta anos que vem	Tenho trinta anos = I'm thirty. Ano que vem = next year.
+cards	pt.c0419	note	Ele é uma boa	Always feminine, even for a man: Ele é uma boa pessoa.
+cards	pt.c0420	note	uma às vezes	uma vez = once; às vezes = sometimes. Plural: vezes.
+cards	pt.c0421	note	Assim é	Assim é a vida!
+cards	pt.c0422	note	É	É verdade? = Is that true?
+cards	pt.c0423	note	está na mesa	Dinheiro is singular: O dinheiro está na mesa.
+cards	pt.c0424	note	minha esposa	minha mulher = my wife (casual); esposa is more formal.
+cards	pt.c0425	note	Qual é seu	Qual é o seu nome?
+cards	pt.c0426	note	todo	todo mundo = everybody, not the whole world.
+cards	pt.c0427	note	amiga os amigos	For a woman: a amiga. A group: os amigos.
+cards	pt.c0428	note	Sem	Masculine, even though it ends in -a. Sem problema!
+cards	pt.c0429	note	ao de do outro	ao lado de = next to; do outro lado = on the other side.
+cards	pt.c0430	note	em	em toda parte = everywhere.
+cards	pt.c0431	note	Este está livre	Este lugar está livre?
+cards	pt.c0432	note	minha mora em Recife	Singular verb: A minha família mora em Recife.
+cards	pt.c0433	note	ter Você tem	ter razão = to be right: Você tem razão.
+cards	pt.c0434	note	Boa No	Boa ideia! No accent mark in today's spelling.
+cards	pt.c0435	note	Que horas são	Que horas são? = What time is it?
+cards	pt.c0436	note	chegou	Singular in Portuguese: A polícia chegou.
+cards	pt.c0437	note	meu	meu amor = my love, also to children.
+cards	pt.c0438	note	Estou com dor de	Estou com dor de cabeça.
+cards	pt.c0439	note	Um por favor	Um momento, por favor.
+cards	pt.c0440	note	Que é essa	Que história é essa?
+cards	pt.c0441	note	por favor	Fecha a porta, por favor.
+cards	pt.c0442	note	no	no caminho = on the way.
+cards	pt.c0443	note	Boa	Boa sorte! = Good luck!
+cards	pt.c0444	note	filho	Son: o filho.
+cards	pt.c0445	note	um	Also a quarter: um quarto.
+cards	pt.c0446	note	de amanhã	de manhã = in the morning. amanhã alone = tomorrow.
+cards	pt.c0447	note	uma	uma água = a bottle or glass of water.
+cards	pt.c0448	note	no fim de	no fim de semana = on the weekend.
+cards	pt.c0450	note	um de futebol	um jogo de futebol.
+cards	pt.c0451	note	na	na escola = at school.
+cards	pt.c0452	note	no de semana	no fim = in the end; o fim de semana = the weekend.
+cards	pt.c0453	note	Qual é seu	Qual é o seu número?
+cards	pt.c0454	note	uma de aniversário	uma festa de aniversário.
+cards	pt.c0455	note	de qualquer dar um	Very Brazilian: de qualquer jeito = anyway; dar um jeito = find a way.
+cards	pt.c0456	note	fazer uma	fazer uma pergunta = to ask a question.
+cards	pt.c0457	note	celular	Everyday for a mobile: o celular.
+cards	pt.c0459	note	menino	Boy: o menino.
+cards	pt.c0460	note	ir para	ir para a cama = to go to bed.
+cards	pt.c0461	note	é muito boa	A comida baiana é muito boa.
+cards	pt.c0462	note	Como se escreve essa	Como se escreve essa palavra?
+cards	pt.c0463	note	médica	A woman: a médica.
+cards	pt.c0464	note	í ÍS	Stress on í: pa-ÍS.
+cards	pt.c0465	note	livraria	a livraria = the bookstore, not the library.
+cards	pt.c0466	note	os	Same in the plural: os ônibus. Portugal: o autocarro.
+cards	pt.c0467	note	telemóvel	Portugal: o telemóvel.
+cards	pt.c0468	note	Só um	Só um minuto!
+cards	pt.c0469	note	ver um	ver um filme = to watch a movie.
+cards	pt.c0470	note	uma	uma música = a song.
+cards	pt.c0472	note	Que de música você gosta	Que tipo de música você gosta?
+cards	pt.c0473	note	ir à	ir à praia = to go to the beach.
+cards	pt.c0474	note	Boa	Boa viagem! = Have a good trip!
+cards	pt.c0475	note	pôr	pôr a mesa = to set the table.
+cards	pt.c0476	note	trabalho	Use trabalho for the work itself.
+cards	pt.c0477	note	cão	A female dog: a cachorra. Portugal: o cão.
+cards	pt.c0479	note	de	de avião = by plane.
+cards	pt.c0480	note	Está fazendo	Está fazendo sol = It's sunny.
+cards	pt.c0481	note	os hotéis	Plural: os hotéis.
+cards	pt.c0482	note	um de aniversário	um presente de aniversário.
+cards	pt.c0483	note	de	a loja de roupas.
+cards	pt.c0484	note	Vou lavar	Usually singular: Vou lavar a roupa.
+cards	pt.c0485	note	professora	A woman: a professora.
+cards	pt.c0486	note	no	no banco = at the bank.
+cards	pt.c0487	note	que vem	mês que vem = next month. Plural: meses.
+cards	pt.c0488	note	Ela trabalha numa grande	Ela trabalha numa empresa grande.
+cards	pt.c0489	note	cara	Common, a bit formal; casual: o cara.
+cards	pt.c0490	note	Feliz	Feliz aniversário! = Happy birthday!
+cards	pt.c0491	note	do bairro	a igreja do bairro.
+cards	pt.c0494	note	Abre por favor	Abre a janela, por favor.
+cards	pt.c0495	note	menina	Girl: a menina.
+cards	pt.c0496	note	uma	tirar uma foto = to take a photo.
+cards	pt.c0498	note	BÊ	Stress on the last syllable: be-BÊ.
+cards	pt.c0499	note	de	de fato = in fact. Portugal writes facto.
+cards	pt.c0500	note	Qual é	Qual é o preço?
+cards	pt.c0501	note	fazer	fazer a mala = to pack.
+cards	pt.c0506	note	de português	a aula de português.
+cards	pt.c0508	note	de	de trem = by train. Portugal: o comboio.
+cards	pt.c0509	note	Vai chover	Vai chover = It's going to rain.
+cards	pt.c0510	meaning	as	the chicken (as food)
+cards	pt.c0510	note	com arroz	frango com arroz.
+cards	pt.c0511	note	Qual é seu	Qual é o seu endereço?
+cards	pt.c0512	note	os ovos	The plural os ovos has an open o.
+cards	pt.c0513	note	uma	uma fruta = a piece of fruit.
+cards	pt.c0514	note	eu sou você é	Irregular: eu sou, você é.
+cards	pt.c0515	note	eu estou tô	Irregular: eu estou (tô in speech).
+cards	pt.c0516	note	eu tenho Tem	Irregular: eu tenho. Tem = there is.
+cards	pt.c0517	note	eu vou	Irregular: eu vou.
+cards	pt.c0518	note	eu posso	Irregular: eu posso.
+cards	pt.c0519	note	eu quero quis	eu quero. Irregular in the past (quis).
+cards	pt.c0520	note	eu sei	Irregular: eu sei.
+cards	pt.c0521	meaning	do	to do; to make
+cards	pt.c0521	note	eu faço	Irregular: eu faço.
+cards	pt.c0522	note	eu dou	Irregular: eu dou.
+cards	pt.c0523	note	eu	Irregular: eu digo.
+cards	pt.c0524	note	eu	Irregular: eu vejo.
+cards	pt.c0525	note	eu falo	eu falo. Regular -ar.
+cards	pt.c0526	note	eu acho Acho que sim	eu acho. Acho que sim = I think so.
+cards	pt.c0527	meaning	come	to come
+cards	pt.c0527	note	eu	Irregular: eu venho.
+cards	pt.c0528	note	eu gosto de Gosto café	eu gosto. Always gostar de: Gosto de café.
+cards	pt.c0529	note	eu preciso de ajuda	eu preciso. Takes de before a noun: preciso de ajuda.
+cards	pt.c0530	note	eu fico	eu fico. Regular -ar.
+cards	pt.c0531	note	eu	eu tento. Regular -ar.
+cards	pt.c0532	note	eu saio você sai	Irregular: eu saio, você sai.
+cards	pt.c0533	note	eu penso em	eu penso. pensar em = to think about.
+cards	pt.c0534	meaning	come	to come back; to go back
+cards	pt.c0534	note	eu volto	eu volto.
+cards	pt.c0535	note	eu ajudo	eu ajudo.
+cards	pt.c0536	note	eu encontro	eu encontro.
+cards	pt.c0537	note	eu	eu passo.
+cards	pt.c0538	note	eu	eu deixo.
+cards	pt.c0539	meaning	come	to go in; to come in
+cards	pt.c0539	note	eu Entra Come	eu entro. Entra! = Come in!
+cards	pt.c0540	note	eu chego em casa	eu chego. chegar em casa = to get home.
+cards	pt.c0541	note	eu trabalho	eu trabalho.
+cards	pt.c0542	note	eu	eu morro.
+cards	pt.c0543	note	eu entendo	eu entendo.
+cards	pt.c0544	note	eu ouço	Irregular: eu ouço.
+cards	pt.c0545	note	que	Mostly o que aconteceu? = what happened?
+cards	pt.c0546	note	eu Vou	eu levo. Vou levar = I'll take it.
+cards	pt.c0547	note	eu conheço ç	eu conheço (c becomes ç).
+cards	pt.c0548	note	eu começo ç	eu começo (c becomes ç).
+cards	pt.c0549	note	eu	eu uso.
+cards	pt.c0550	note	eu como	eu como. Regular -er.
+cards	pt.c0551	note	eu durmo	Irregular: eu durmo.
+cards	pt.c0552	note	eu morar	eu vivo. For where you live: morar.
+cards	pt.c0553	note	eu pego ônibus	eu pego. pegar o ônibus = to catch the bus.
+cards	pt.c0554	note	eu de	eu ando. andar de bicicleta = to ride a bike.
+cards	pt.c0555	note	eu	Irregular: eu perco.
+cards	pt.c0556	note	eu espero	eu espero.
+cards	pt.c0557	note	eu Acabou	eu acabo. Acabou! = It's over!
+cards	pt.c0558	note	eu para	eu olho. olhar para = to look at.
+cards	pt.c0559	note	eu peço	Irregular: eu peço.
+cards	pt.c0560	note	eu consigo	Irregular: eu consigo.
+cards	pt.c0561	note	eu tomo café	eu tomo. tomar café = to have coffee.
+cards	pt.c0562	note	eu	eu janto. o jantar = dinner.
+cards	pt.c0563	note	eu me	eu lembro (or me lembro).
+cards	pt.c0564	note	eu	eu corro.
+cards	pt.c0565	note	eu	eu mudo.
+cards	pt.c0566	note	eu muito	Irregular: eu sinto. Sinto muito = I'm sorry.
+cards	pt.c0567	note	eu pago	eu pago.
+cards	pt.c0568	note	eu em	eu acredito. acreditar em = to believe in.
+cards	pt.c0569	note	eu	eu continuo.
+cards	pt.c0570	note	eu ligo Me liga me	eu ligo. Me liga! = Call me!
+cards	pt.c0571	note	eu	Irregular: eu ponho.
+cards	pt.c0572	note	eu bebo	eu bebo.
+cards	pt.c0573	note	eu	eu ganho.
+cards	pt.c0574	note	eu compro	eu compro.
+cards	pt.c0575	note	eu jogo futebol	eu jogo. jogar futebol.
+cards	pt.c0576	note	eu	eu coloco. Everyday in Brazil.
+cards	pt.c0577	note	eu moro Moro em São Paulo	eu moro. Moro em São Paulo.
+cards	pt.c0578	note	eu	eu pergunto.
+cards	pt.c0579	note	eu chamo me	eu chamo. me chamo = my name is.
+cards	pt.c0580	note	eu	eu procuro.
+cards	pt.c0581	note	eu	Irregular: eu leio.
+cards	pt.c0582	note	eu abro	eu abro.
+cards	pt.c0583	note	eu	eu mostro.
+cards	pt.c0584	note	eu caso com	eu caso. casar com = to marry someone.
+cards	pt.c0585	note	eu	Irregular: eu trago.
+cards	pt.c0586	note	eu toco violão	eu toco. tocar violão.
+cards	pt.c0587	note	eu	eu converso.
+cards	pt.c0588	note	eu você	Irregular: eu caio, você cai.
+cards	pt.c0589	note	eu escrevo	eu escrevo.
+cards	pt.c0590	note	Vai	Very Brazilian: Vai demorar? = Will it take long?
+cards	pt.c0591	note	eu	eu recebo.
+cards	pt.c0592	note	eu aprendo	eu aprendo.
+cards	pt.c0593	note	eu pareço Parece bom	eu pareço. Parece bom = It looks good.
+cards	pt.c0594	note	eu	eu vendo.
+cards	pt.c0595	note	eu esqueço	eu esqueço.
+cards	pt.c0596	note	eu Me uma	eu mando. Me manda uma mensagem.
+cards	pt.c0597	note	eu danço	eu danço.
+cards	pt.c0598	note	eu prefiro	Irregular: eu prefiro.
+cards	pt.c0599	note	eu adoro No de Adoro música	eu adoro. No de: Adoro música.
+cards	pt.c0600	note	eu você	Irregular: eu subo, você sobe.
+cards	pt.c0601	note	eu	eu respondo.
+cards	pt.c0602	note	eu	eu canto.
+cards	pt.c0603	note	eu	eu fecho.
+cards	pt.c0604	note	eu descanso	eu descanso.
+cards	pt.c0605	note	eu acordo	eu acordo.
+cards	pt.c0606	note	eu rio você	Irregular: eu rio, você ri.
+cards	pt.c0607	note	eu	eu decido.
+cards	pt.c0608	note	eu desço ç	eu desço (c becomes ç).
+cards	pt.c0609	note	eu levanto se	eu levanto. levantar-se = to get up.
+cards	pt.c0610	note	eu estudo	eu estudo.
+cards	pt.c0611	note	eu	eu viajo.
+cards	pt.c0612	note	eu amo	eu amo. Strong: for people you really love.
+cards	pt.c0613	note	eu lavo	eu lavo.
+cards	pt.c0614	note	eu	eu ensino.
+cards	pt.c0615	note	eu aí	eu sento. Senta aí! = Have a seat!
+cards	pt.c0616	note	eu cozinho	eu cozinho.
+cards	pt.c0617	note	Eu em	Mostly in the past: Eu nasci em...
+cards	pt.c0618	note	eu almoço	eu almoço.
+cards	pt.c0619	note	eu com	eu sonho. sonhar com = to dream about.
+cards	pt.c0620	note	pena	Vale a pena = It's worth it.
+cards	pt.c0621	note	ele chove	Only ele form: chove, choveu.
+cards	pt.c0622	note	Quanto custa	Quanto custa?
+cards	pt.c0623	note	boa dia	Woman or feminine noun: boa. Bom dia!
+cards	pt.c0625	note	Tá	Feminine: certa. Tá certo = OK, fine.
+cards	pt.c0630	note	felizes	Same for both genders. Plural: felizes.
+cards	pt.c0631	note	difíceis	Same for both genders. Plural: difíceis.
+cards	pt.c0635	note	rápida	Feminine: rápida.
+cards	pt.c0638	note	fáceis	Same for both genders. Plural: fáceis.
+cards	pt.c0640	note	pequena	Feminine: pequena.
+cards	pt.c0647	note	última	Feminine: última.
+cards	pt.c0650	note	próxima vez	Feminine: próxima. A próxima vez = next time.
+cards	pt.c0651	note	grátis	Same for both genders. Free of charge: grátis.
+cards	pt.c0652	note	alta	Feminine: alta.
+cards	pt.c0658	meaning	no	calm; quiet; no problem
+cards	pt.c0658	note	No	Feminine: tranquila. Tranquilo! = No worries!
+cards	pt.c0659	note	brasileira	Feminine: brasileira. Lowercase, like all nationalities.
+cards	pt.c0660	note	ótima	Feminine: ótima.
+cards	pt.c0665	note	branca	Feminine: branca.
+cards	pt.c0667	note	juntos	Feminine: junta. Usually plural: juntos.
+cards	pt.c0668	note	azuis	Same for both genders. Plural: azuis.
+cards	pt.c0673	note	preta	Feminine: preta.
+cards	pt.c0675	note	cansada	Feminine: cansada.
+cards	pt.c0677	note	cara	Feminine: cara.
+cards	pt.c0688	note	Tudo bonito	Tudo bem? Bem bonito = really pretty.
+cards	pt.c0689	note	perto	Aqui perto = near here.
+cards	pt.c0690	note	As muita gente muitos amigos	As a determiner it agrees: muita gente, muitos amigos.
+cards	pt.c0691	note	vou	Já vou! = Coming!
+cards	pt.c0692	note	Ele mora	Also alone: Ele mora só.
+cards	pt.c0693	note	mesmo	agora mesmo = right now.
+cards	pt.c0694	note	fora	lá fora = outside.
+cards	pt.c0695	note	como carne	Before the verb: Nunca como carne.
+cards	pt.c0696	note	não	Assim não! = Not like that!
+cards	pt.c0697	note	não	ainda não = not yet.
+cards	pt.c0698	note	de	depois de = after.
+cards	pt.c0699	note	bonito	Tão bonito!
+cards	pt.c0700	note	amanhã	Talvez amanhã.
+cards	pt.c0701	note	tomo café de manhã	Sempre tomo café de manhã.
+cards	pt.c0702	note	de	antes de = before (something).
+cards	pt.c0703	meaning	só	only; just (more formal than só)
+cards	pt.c0703	note	um café	Apenas um café.
+cards	pt.c0705	note	um as pessoas	um pouco = a little. Agrees as a determiner: poucas pessoas.
+cards	pt.c0706	note	à noite	hoje à noite = tonight.
+cards	pt.c0707	note	lá	lá fora = out there.
+cards	pt.c0708	note	bem	Opposite of bem.
+cards	pt.c0709	note	mais ou	mais ou menos = so-so.
+cards	pt.c0710	note	lá	lá dentro = in there.
+cards	pt.c0711	note	lá	Ali = there, closer than lá.
+cards	pt.c0712	note	dois anos	dois anos atrás = two years ago.
+cards	pt.c0713	note	Está	a tarde = the afternoon. Está tarde = It's late.
+cards	pt.c0714	note	nunca	quase nunca = hardly ever.
+cards	pt.c0715	note	Fala	Fala de novo? = Can you say it again?
+cards	pt.c0716	note	mesmo	More formal; speech says mesmo.
+cards	pt.c0717	note	Até	Até logo!
+cards	pt.c0718	note	eu vou pé	Às vezes eu vou a pé.
+cards	pt.c0719	note	caro	bastante caro = quite expensive.
+cards	pt.c0720	note	É bom	É bom demais! = It's so good!
+cards	pt.c0721	note	Acordo	Acordo cedo.
+cards	pt.c0722	note	chegou	Finalmente chegou! = It's finally here!
+cards	pt.c0723	note	eu vou	Speech also: maybe (De repente eu vou).
+cards	pt.c0724	note	Mais por favor	Mais devagar, por favor.
+cards	pt.c0725	note	eu almoço ao meio dia	Normalmente eu almoço ao meio-dia.
+cards	pt.c0726	note	as normalmente	Same idea as normalmente.
+cards	pt.c0727	note	de	em cima de = on top of.
+cards	pt.c0728	note	de	embaixo de = under. Portugal: debaixo.
+cards	pt.c0729	note	falo inglês	Often dropped: (Eu) falo inglês.
+cards	pt.c0730	note	ele fala	Everyday you. Its verb is the ele form: você fala.
+cards	pt.c0731	note	as Eu vi	Brazil uses ele as object in speech: Eu vi ele.
+cards	pt.c0733	note	minha meus minhas	Feminine: minha. Plural: meus, minhas.
+cards	pt.c0734	note	ajuda	Before the verb in Brazil: Me ajuda?
+cards	pt.c0735	note	Eu vi	Same word for her in speech: Eu vi ela.
+cards	pt.c0736	note	bem	Tudo bem? = How are you?
+cards	pt.c0737	note	você ligo amanhã	Used with você in speech: Te ligo amanhã.
+cards	pt.c0738	note	é	Quem é? = Who is it?
+cards	pt.c0739	meaning	não	nothing; anything (after não)
+cards	pt.c0739	note	Não quero	Não quero nada.
+cards	pt.c0740	note	sua você	Feminine: sua. In Brazil mostly your (você).
+cards	pt.c0741	note	elas	Women only: elas.
+cards	pt.c0742	note	gente falamos	In speech often a gente. Verb: nós falamos.
+cards	pt.c0743	note	em os	Also em + os = nos (in the).
+cards	pt.c0744	meaning	me	me (after a preposition)
+cards	pt.c0744	note	para me com comigo	para mim = for me. With com: comigo.
+cards	pt.c0745	meaning	me	this (near me)
+cards	pt.c0745	note	esta esse	Feminine: esta. Speech often uses esse.
+cards	pt.c0746	note	Tem aí	Tem alguém aí?
+cards	pt.c0747	note	de ele carro	de + ele. After the noun: o carro dele.
+cards	pt.c0748	note	alguma coisa	Speech prefers alguma coisa.
+cards	pt.c0749	note	eles	Its verb is the eles form: vocês falam.
+cards	pt.c0750	meaning	não	nobody; anyone (after não)
+cards	pt.c0750	note	Não tem aqui	Não tem ninguém aqui.
+cards	pt.c0751	meaning	me	with me
+cards	pt.c0751	note	com mim	Never com mim.
+cards	pt.c0752	note	essa	Feminine: essa.
+cards	pt.c0753	note	senhora ele	Woman: a senhora. Verb: ele form.
+cards	pt.c0754	note	é seu nome	Qual é o seu nome? Plural: quais.
+cards	pt.c0755	note	de ela casa	de + ela. After the noun: a casa dela.
+cards	pt.c0756	note	nossa Nossa	Feminine: nossa. Nossa! is also wow.
+cards	pt.c0757	note	isso	More formal; speech says isso.
+cards	pt.c0758	note	sabe	Singular verb: Todo mundo sabe.
+cards	pt.c0759	note	Quer	Quer alguma coisa?
+cards	pt.c0760	note	aquela àquele	Feminine: aquela. a + aquele = àquele.
+cards	pt.c0761	note	que é	O que é aquilo?
+cards	pt.c0763	note	senhor ele	Man: o senhor. Verb: ele form.
+cards	pt.c0764	note	eles	Mixed group: eles.
+cards	pt.c0765	note	te para você ele	Formal or written; speech uses te, para você, para ele.
+cards	pt.c0766	note	com você	Heard in Brazil; everyday is com você.
+cards	pt.c0767	note	do da dos das dele dela daqui	de + o = do, de + a = da (dos, das); also dele, dela, daqui.
+cards	pt.c0768	note	pra pro	Speech: pra; para + o = pro.
+cards	pt.c0769	note	mim comigo você	com + mim = comigo; com + você stays.
+cards	pt.c0770	note	pelo pela	por + o = pelo, por + a = pela (pelos, pelas).
+cards	pt.c0771	note	no na nos nas um num numa	em + o = no, em + a = na (nos, nas); em + um = num, numa.
+cards	pt.c0772	note	ao à aos às direita oito	a + o = ao, a + a = à (aos, às): à direita, às oito.
+cards	pt.c0773	meaning	para	to; for (spoken para)
+cards	pt.c0773	note	Vou casa pro	Spoken and in texts: Vou pra casa. pra + o = pro.
+cards	pt.c0774	note	amanhã	Até amanhã! = See you tomorrow!
+cards	pt.c0775	note	um livro Brasil	um livro sobre o Brasil.
+cards	pt.c0776	note	no	sem gelo = no ice.
+cards	pt.c0777	note	nós	entre nós = between us.
+cards	pt.c0778	note	ontem	desde ontem = since yesterday.
+cards	pt.c0779	note	semana	durante a semana.
+cards	pt.c0780	note	Brasil	o Brasil contra a Argentina.
+cards	pt.c0781	note	do	perto de + o = perto do.
+cards	pt.c0782	note	É do centro	É longe do centro.
+cards	pt.c0783	note	sair	Before a verb, the infinitive: antes de sair.
+cards	pt.c0784	note	comer	depois de comer = after eating.
+cards	pt.c0785	note	uma hora	dentro de uma hora = within an hour.
+cards	pt.c0786	note	da chuva	por causa da chuva.
+cards	pt.c0787	note	casa	fora de casa.
+cards	pt.c0788	note	da porta	atrás da porta.
+cards	pt.c0789	note	café um suco	em vez de café, um suco.
+cards	pt.c0791	note	segunda	a partir de segunda = from Monday on.
+cards	pt.c0792	note	Acho sim você quer	Never dropped: Acho que sim. Also what: O que você quer?
+cards	pt.c0793	note	chover eu fico em casa	Se chover, eu fico em casa. Also the pronoun se (oneself).
+cards	pt.c0795	note	ir	Speech: ir embora = to leave.
+cards	pt.c0796	note	você come	Present tense: enquanto você come.
+cards	pt.c0798	note	mais alto eu me	mais alto do que eu = taller than me.
+cards	pt.c0799	note	então por isso	More formal than então or por isso.
+cards	pt.c0800	note	Eu	Speech: Eu ia, só que choveu.
+cards	pt.c0801	note	é	Speech: Pois é = Exactly; yeah.
+cards	pt.c0802	note	você está aqui	Já que você está aqui...
+cards	pt.c0805	note	você	Followed by the subjunctive: para que você entenda.
+cards	pt.c0806	meaning	as	as soon as
+cards	pt.c0806	note	eu chegar te ligo	Assim que eu chegar, te ligo.
+cards	pt.c0807	note	Corre você perde ônibus	Corre, senão você perde o ônibus.
+cards	pt.c0808	note	ele saiu	depois que ele saiu.
+cards	pt.c0810	note	amanhã	Before a noun: até (até amanhã).
+cards	pt.c0811	meaning	as	as long as; since
+cards	pt.c0811	note	as	as long as takes the subjunctive.
+cards	pt.c0813	note	mas	Written; speech says mas.
+cards	pt.c0814	note	Senhora	The Brazilian wow; short for Nossa Senhora.
+cards	pt.c0815	note	que sim	Claro que sim! = Of course!
+cards	pt.c0816	meaning	no	Ouch! Oh no!
+cards	pt.c0816	note	meu Deus	Pain, or worry: Ai, meu Deus!
+cards	pt.c0817	note	entendi	Ah, entendi = Oh, I get it.
+cards	pt.c0819	note	Com licença	Friendly; to a stranger: Com licença.
+cards	pt.c0822	meaning	Come No	Come on! No way!
+cards	pt.c0823	note	com carro	Cuidado com o carro!
+cards	pt.c0827	note	São Paulo	Northeast and São Paulo; something went wrong.
+cards	pt.c0828	note	Rio	Informal, Rio; fine with friends.
+cards	pt.c0833	note	que sim	Tomara que sim!
+cards	pt.c0839	note	Nossa	Nossa! is more common.
+cards	pt.c0842	note	Brasil	Viva o Brasil!
+cards	pt.c0844	note	os as em de por no do pelo ao	Feminine a; plural os, as. Joins em, de, por, a: no, do, pelo, ao.
+cards	pt.c0845	meaning	no	no; not
+cards	pt.c0845	note	sei	Before the verb: Não sei. Speech often adds one at the end: Não sei, não.
+cards	pt.c0846	note	uma uns umas	Feminine: uma. Plural: uns, umas.
+cards	pt.c0847	note	Quer Quero	Brazilians often answer with the verb: Quer? Quero!
+cards	pt.c0848	note	você mora	Onde você mora?
+cards	pt.c0849	note	mesma	o mesmo = the same; Mesmo? = Really? Feminine: mesma.
+cards	pt.c0850	note	um café	Never um outro for another: outro café. Feminine: outra.
+cards	pt.c0851	note	dia	todo dia = every day; todo o dia = all day. Feminine: toda.
+cards	pt.c0852	note	quantos quantas custa	quantos, quantas = how many. Quanto custa?
+cards	pt.c0853	note	alguma dia	Feminine: alguma. algum dia = someday.
+cards	pt.c0854	note	umas amigos	Feminine: umas. uns amigos.
+cards	pt.c0855	meaning	no	no; not any
+cards	pt.c0855	note	Não tenho	Feminine: nenhuma. Não tenho nenhum.
+cards	pt.c0857	note	dia pessoa	Never changes: cada dia, cada pessoa.
+cards	pt.c0858	note	você vai	With verbs of going: Aonde você vai?
+cards	pt.c0859	note	chave	Very Brazilian, speech: Cadê a chave?
+cards	pt.c0860	note	não é Tá calor	Short for não é. Tag at the end: Tá calor, né?
+cards	pt.c0861	note	várias	Feminine: várias.
+cards	pt.c0862	note	três	três e meia = 3:30. Phone numbers: meia = six.
+cards	pt.c0864	note	duas	Feminine: duas.
+cards	pt.c0867	note	reais	cinco reais = five reais.
+cards	pt.c0868	note	meia	In phone numbers people say meia.
+cards	pt.c0869	note	as é	Open e, as in é.
+cards	pt.c0870	note	às	às oito = at eight.
+cards	pt.c0871	note	as ó	Open o, as in ó.
+cards	pt.c0872	note	reais	Open e. dez reais.
+cards	pt.c0874	note	meio dia	meio-dia = 12 noon.
+cards	pt.c0879	note	dez oito	dez + oito, one word.
+cards	pt.c0881	note	um	vinte e um = 21.
+cards	pt.c0886	note	no	no sábado = on Saturday.
+cards	pt.c0887	note	aos	aos domingos = on Sundays.
+cards	pt.c0890	note	em	Months take em: em março.
+cards	pt.c0892	note	primeiro de	Dates: o primeiro de maio.
+cards	pt.c0896	note	dia sete de	Dates: o dia sete de setembro.
+cards	pt.c0897	note	Dia das Crianças	o Dia das Crianças is in October.
+dialog	pt.g001	tr	No	Is your house big? / No, it's small, but it's really nice.
+dialog	pt.g002	tr	No	Is your car new? / No, it's really old!
+dialog	pt.g003	tr	Do	Do you want a coffee? / Yes, thanks.
+dialog	pt.g004	tr	Camila	Hi, Camila! How are you? / Fine, and you?
+dialog	pt.g005	tr	Juliana	This is my friend Juliana. / Nice to meet you, Juliana!
+dialog	pt.g006	tr	me	Excuse me, can I get by? / Sure, go ahead.
+dialog	pt.g007	tr	Pedro	Good morning, Mr. Pedro! How are you? / I'm well, thank you. And you?
+dialog	pt.g008	tr	Rafael	What's your name? / My name is Rafael, and yours?
+dialog	pt.g009	tr	Emma Boston Miami	Where are you from, Emma? / I'm from Boston, but I live in Miami.
+dialog	pt.g010	tr	do hospital	What do you do? / I'm a nurse. I work in a hospital.
+dialog	pt.g011	tr	Do do	Do you speak English? / I do, but only a little.
+dialog	pt.g012	tr	Do do	Do you have any brothers or sisters? / I do: one sister and two brothers.
+dialog	pt.g013	tr	Thiago	This is my husband, Thiago. / Very nice to meet you, Thiago!
+dialog	pt.g014	tr	Do No Curitiba	Do your parents live here? / No, my parents live in Curitiba.
+dialog	pt.g015	tr	me	Excuse me, what time is it? / It's two fifteen.
+dialog	pt.g016	tr	açaí reais	How much is the açaí? / It's fifteen reais.
+dialog	pt.g018	tr	reais	What's the total? / It's thirty-two reais.
+dialog	pt.g020	tr	Recife as	What's the weather like there in Recife? / It's hot, as always!
+dialog	pt.g022	tr	Do	Do you want to go to the movies on Friday? / Sure! What time?
+dialog	pt.g024	tr	do moqueca	What do you recommend? / The moqueca is great today.
+dialog	pt.g025	tr	feijoada	And for you? / I'll have the feijoada.
+dialog	pt.g026	tr	guaraná	What are you going to drink? / A still water and a guaraná, please.
+dialog	pt.g028	tr	Do do	Do you have a bigger size? / Yes, I do. I'll get the large.
+dialog	pt.g029	tr	Do do	Do you take cards? / Yes, we do. Debit or credit?
+dialog	pt.g030	tr	No me	So, does it fit? / No, it's too big on me.
+dialog	pt.g031	tr	Do	Do you get up early? / I get up at six, because of work.
+dialog	pt.g032	tr	Do No	Do you live in a house? / No, I live in an apartment downtown.
+dialog	pt.g033	tr	do	Who does the dishes at your house? / I do the dishes and my husband cooks.
+dialog	pt.g034	tr	me	Excuse me, where is the bank? / It's over there, next to the pharmacy.
+dialog	pt.g037	tr	Salvador reais	A round-trip ticket to Salvador, please. / Sure. That's two hundred reais.
+dialog	pt.g040	tr	Pedro	What's wrong, Pedro? / I have a fever and a headache.
+dialog	pt.g041	tr	Do do	Do you need help, ma'am? / Yes, I do. Can you call a taxi?
+dialog	pt.g043	tr	do Camila hospital Boston	Where do you work, Camila? / I work at a hospital in Boston.
+dialog	pt.g045	tr	do caneta	Teacher, how do you say this in Portuguese? / That's a caneta (a pen).
+dialog	pt.g047	tr	Juliana	What's wrong, Juliana? / I'm worried about tomorrow's test.
+dialog	pt.g049	tr	Me	I love cheese bread. / Me too!
+dialog	pt.g050	tr	do	What did you do on the weekend? / I went to the beach with my family.
+dialog	pt.g053	tr	Augusta	The stop is on Augusta Street. / Sorry, what? Can you say that again?
+dialog	pt.g054	tr	Do No	Do you live here? / No, I'm just on vacation.
+dialog	pt.g057	tr	Mateus	How old are you, Mateus? / I'm twenty.
+dialog	pt.g064	tr	Come	Your home is beautiful! / That's kind of you! Come in, make yourself at home.
+dialog	pt.g069	tr	me	You're beautiful, you know? / Stop, you're making me blush!
+dialog	pt.g072	tr	Luana	My name is Luana. / What a pretty name!
+dialog	pt.g075	tr	perfume	You smell nice. / Thanks! It's a new perfume.
+dialog	pt.g077	tr	me	Why are you smiling? / Because you make me laugh.
+dialog	pt.g080	tr	No	Are you seeing someone? / No, I'm single. And you?
+dialog	pt.g082	tr	Do me	Do you want to go out with me on Saturday? / I'd love to!
+dialog	pt.g085	tr	Do	You're the funniest person I know. / Do you say that to everyone?
+dialog	pt.g086	tr	Do me	Do you want to go out with me on Saturday? / You're really nice, but let's just be friends.
+dialog	pt.g088	tr	reais	Rent here is five thousand reais. / Wow! That's expensive!
+dialog	pt.g089	tr	me	Can you help me with the suitcase? / Of course!
+dialog	pt.g096	tr	come	Thanks for the help! / Oh, come on! It was nothing.
+dialog	pt.g102	tr	Rio	I won a trip to Rio! / Whoa! Congratulations!
+dialog	pt.g110	tr	Pedro	Pedro is sick and can't go to the beach. / Poor guy!
+dialog	pt.g112	tr	feijoada	There's feijoada for lunch today. / Yay!
+examples	pt.e001	tr	Salvador	The city of Salvador is beautiful.
+examples	pt.e003	tr	do	Good evening, do you have a table for four?
+examples	pt.e007	tr	chocolate	My grandma makes a wonderful chocolate cake.
+examples	pt.e008	tr	Salvador São Paulo	My cousins are from Salvador, but they live in São Paulo.
+examples	pt.e010	tr	reais	The car rental costs two hundred reais a day.
+examples	pt.e012	tr	Rio	In Rio, the summer is very hot.
+examples	pt.e021	tr	Uber	It's raining, so I'm going to get an Uber to the airport.
+examples	pt.e022	tr	Rio São Paulo	The flight from Rio to São Paulo is really quick.
+examples	pt.e026	tr	Orlando	I'm looking for a job in Orlando.
+examples	pt.e028	tr	me	The news made me sad.
+examples	pt.e034	tr	come	At Christmas, all the relatives come to my parents' house.
+examples	pt.e036	tr	Lucas	Bye, Lucas! See you tomorrow.
+examples	pt.e045	tr	café	Our first date was at a café.
+examples	pt.e048	tr	No	No problem, I'll wait.
+examples	pt.e050	tr	no	There's no other way, I'm taking a taxi.
+examples	pt.e052	tr	Rio	I went to Rio once, with my family.
+examples	pt.e060	tr	do	What are you going to do on Saturday?
+examples	pt.e061	tr	me	Can you give me a water?
+examples	pt.e066	tr	come	Can you come tomorrow?
+examples	pt.e078	tr	Come	Come on in!
+examples	pt.e090	tr	pizza	Shall we order a pizza?
+examples	pt.e092	tr	Do	Do you want to have a juice?
+examples	pt.e098	tr	Do	Do you want something to drink?
+examples	pt.e099	tr	Rio	I'd like to live in Rio.
+examples	pt.e119	tr	São Paulo	São Paulo is really big.
+examples	pt.e132	tr	Do	Do you live alone?
+examples	pt.e148	tr	hotel	The hotel is expensive.
+examples	pt.e178	tr	Chicago	I'm from Chicago.
+examples	pt.e179	tr	Do	Do you want a coffee?
+examples	pt.e183	tr	me	Will you help me?
+examples	pt.e188	tr	do	I have nothing to do.
+examples	pt.e190	tr	Salvador	They live in Salvador.
+examples	pt.e193	tr	me	Is this coffee for me?
+examples	pt.e197	tr	do	Can I do something for you?
+examples	pt.e198	tr	Do	Do you all want to go out tonight?
+examples	pt.e200	tr	Do me	Do you want to go with me?
+examples	pt.e208	tr	Do	Do you want anything?
+examples	pt.e212	tr	Do	Do you need anything, ma'am?
+examples	pt.e216	tr	Miami	I'm from Miami.
+examples	pt.e220	tr	Belo Horizonte	I live in Belo Horizonte.
+examples	pt.e230	tr	hotel	The hotel is far from everything.
+examples	pt.e238	tr	hotel	Although it's expensive, the hotel is very good.
+examples	pt.e241	tr	me	He's taller than me.
+examples	pt.e244	tr	as	I'll call you as soon as I get there.
+patterns	pt.p008	meaning	Do	Do you have it in ___?
+patterns	pt.p008	tr	Do	Do you have it in blue?
+patterns	pt.p018	meaning	do	How many ___ do you have?
+patterns	pt.p018	tr	do	How many brothers and sisters do you have?
+sentences	pt.s0017	gloss	Ana	My name is Ana. Nice to meet you!
+sentences	pt.s0019	gloss	me	Excuse me, please.
+sentences	pt.s0032	gloss	Boston	We're from Boston.
+sentences	pt.s0034	gloss	São Paulo	We're from São Paulo.
+sentences	pt.s0046	gloss	Miami	I work in Miami.
+sentences	pt.s0048	gloss	Do	Do you speak English?
+sentences	pt.s0049	gloss	Orlando	We live in Orlando.
+sentences	pt.s0051	gloss	Do Boston	Do you guys live in Boston?
+sentences	pt.s0054	gloss	Ana Miami	Ana is in Miami.
+sentences	pt.s0065	gloss	Rio	I'm from Rio.
+sentences	pt.s0066	gloss	Bahia	She's from Bahia.
+sentences	pt.s0067	gloss	hotel	We're at a hotel.
+sentences	pt.s0069	gloss	Pedro	Pedro is a very calm person.
+sentences	pt.s0070	gloss	Ana	The party is at Ana's house.
+sentences	pt.s0072	gloss	Pedro	Pedro is nervous today.
+sentences	pt.s0078	gloss	Recife	They have a house in Recife.
+sentences	pt.s0087	gloss	Boston	You live in Boston, right?
+sentences	pt.s0088	gloss	do	Where do you live?
+sentences	pt.s0089	gloss	do	What do you study?
+sentences	pt.s0090	gloss	hotel	What's the hotel's phone number?
+sentences	pt.s0091	gloss	do	How many sisters do you have?
+sentences	pt.s0092	gloss	do	Why do you study Portuguese? Because I live in Brazil.
+sentences	pt.s0099	gloss	reais	It costs twenty-five reais.
+sentences	pt.s0108	gloss	Salvador	My father is from Salvador.
+sentences	pt.s0109	gloss	Orlando	My mother lives in Orlando.
+sentences	pt.s0115	gloss	Pedro	That house over there is Pedro's.
+sentences	pt.s0118	gloss	shopping	I go shopping on Saturday.
+sentences	pt.s0127	gloss	Salvador	Next week we're going to visit Salvador.
+sentences	pt.s0130	gloss	Do	Do you like to dance?
+sentences	pt.s0136	gloss	Me	I don't like rain. Me neither.
+sentences	pt.s0137	gloss	São Paulo	I'm going to São Paulo tomorrow.
+sentences	pt.s0142	gloss	Do me	Do you want to go with me?
+sentences	pt.s0155	gloss	Lucas	My name is Lucas.
+sentences	pt.s0163	gloss	me	Can you help me?
+sentences	pt.s0165	gloss	me	She calls me every day.
+sentences	pt.s0170	gloss	Do Ana do	Do you know Ana? I do!
+sentences	pt.s0172	gloss	me	Could you help me?
+sentences	pt.s0175	gloss	Ana	Did you talk to Ana?
+sentences	pt.s0176	gloss	feijoada	We ate feijoada on Saturday.
+sentences	pt.s0181	gloss	do	What did you do on the weekend?
+sentences	pt.s0182	gloss	pizza	I went to the movies and ate pizza with my friends.
+sentences	pt.s0185	gloss	me	Can you help me, please?
+sentences	pt.s0192	gloss	Ana Pedro Recife	Ana and Pedro live in Recife.
+sentences	pt.s0193	gloss	Do	Do you want coffee or tea?
+sentences	pt.s0200	gloss	Me	Me neither.
+sentences	pt.s0202	gloss	me	Excuse me, where is the subway station?
+sentences	pt.s0208	gloss	Uber	Let's get an Uber.
+sentences	pt.s0211	gloss	Augusta	It's at two hundred Augusta Street.
+lessons	greetings	title	você senhor	2 · Greetings: você and o senhor
+lessons	greetings	blurb	você senhor	Greet people at any time of day, say thank you the right way, and choose between você and o senhor.
+lessons	articles	title	um uma	3 · Gender and o / a, um / uma
+lessons	articles	blurb	um uma	Use the right 'the' and 'a' with any noun, make nouns plural, and order food with um and uma.
+lessons	ser	title	ser	4 · Subject pronouns and ser
+lessons	ser	blurb	do ser	Say who you are, where you're from and what you do, with every subject pronoun and the verb ser.
+lessons	present	title	ir	6 · Present tense: -ar, -er, -ir
+lessons	present	blurb	do	Say what you and others do every day, with the right verb ending for each subject.
+lessons	estar	title	estar	7 · estar: where and how
+lessons	estar	blurb	ficar	Say where people and things are, how someone is right now, and ask where a place is with ficar.
+lessons	contractions	title	no na do da	8 · no, na, do, da: contractions
+lessons	contractions	blurb	em de	Join em and de with o and a, and say where you are and where you're from with countries and cities.
+lessons	ser-estar	title	ser estar ficar	9 · ser vs estar (and ficar)
+lessons	ser-estar	blurb	ser estar ficar	Choose between ser, estar and ficar by asking what you are describing.
+lessons	ter	title	ter estar com	10 · ter: have, there is, and estar com
+lessons	questions	blurb	no do	Ask yes/no questions without any do, and ask who, what, where, when, how, how many and why.
+lessons	numbers	blurb	reais	Count to 1,000, tell the time, and read prices in reais.
+lessons	possessives	title	meu minha este esse	14 · meu / minha, este / esse
+lessons	irregular	title	ir fazer querer poder	15 · ir, fazer, querer, poder
+lessons	irregular	blurb	do	Use four everyday irregular verbs to say where you're going, what you do, what you want and what you can do.
+lessons	future	title	ir	16 · ir + infinitive: plans
+lessons	future	blurb	vou vai vamos vão	Talk about plans and the future with vou, vai, vamos and vão plus a verb.
+lessons	gostar	title	gostar de	17 · gostar de: likes
+lessons	gostar	blurb	me	Say what you and others like and love, and agree with me too and me neither.
+lessons	prepositions	title	de em para por com	18 · Prepositions: de, em, para, por, com
+lessons	prepositions	blurb	para por com de me	Use para, por, com and de the Brazilian way: where to, thanks for, with me, by bus.
+lessons	progressive	title	estar	19 · estar + -ndo: right now
+lessons	progressive	blurb	estar	Say what is happening right now with estar + the -ndo form.
+lessons	reflexive	blurb	me se nos	Say your name and describe your daily routine with me, se and nos.
+lessons	object-pronouns	title	me te ele gente	21 · Object pronouns: me, te, ele, a gente
+lessons	object-pronouns	blurb	me do	Say 'help me', 'I love you' and 'I know him' the way Brazilians do.
+lessons	past	title	Pretérito perfeito	22 · Pretérito perfeito: what you did
+lessons	past	blurb	pretérito perfeito	Tell what you did yesterday or last weekend with the pretérito perfeito.
+lessons	connectors	title	mas ou porque	24 · e, mas, ou, porque
+lessons	connectors	blurb	mas ou porque então quando	Join sentences with e, mas, ou, porque, então and quando.
+lessons	city	blurb	Uber	Ask the way, follow directions, and get around by bus, metro or Uber.
+body	sounds	body	do as ah ch no real hum rr ss órfão ó come	
+body	greetings	body	Olá me você senhor as Rio	
+body	articles	body	ões um uma	
+body	ser	body	ser as	
+body	adjectives	body	os são no as come muito	
+body	present	body	trabalhar aprender abrir ele do as eles eu No no Boston Rio	
+body	estar	body	estar ficar do ele tô tá	
+body	contractions	body	em de Rio	
+body	ser-estar	body	ser estar está ficar	
+body	ter	body	ter As ele eles gente do tem há estar com	
+body	questions	body	Do no as do quanto	
+body	numbers	body	do dois no as horas reais	
+body	location	body	as de mercado farmácia no aqui estar ficar me	
+body	possessives	body	normal dele dela de ele ela	
+body	irregular	body	do ir fazer querer poder eu você ele ela gente nós vocês eles elas café favor	
+body	future	body	normal ir no gente eu você ele ela nós vocês eles elas as	
+body	gostar	body	gostar de adorar no me	
+body	prepositions	body	do para São Paulo por de pé no com comigo me come	
+body	progressive	body	estar	
+body	reflexive	body	Ana levantar ele do normal no eu as	
+body	object-pronouns	body	me te nos favor no lhe comigo contigo	
+body	past	body	As falar comer abrir çar eu falamos nós você ele ela eles come já pretérito perfeito	
+body	requests	body	Pode do ele Me dá me as Eu queria real favor quero	
+body	connectors	body	ou mas as eles mais porque por que no então quando também come me real	
+body	city	body	me as Uber à	
+checks	sounds.k1	q	de cidade	How does the final de in cidade sound in most of Brazil?
+checks	sounds.k1	why	ch de	t and d before an ee sound turn into ch and j, and a final e sounds ee, so de sounds jee.
+checks	sounds.k2	q	falar	Where is the stress in falar (to speak)?
+checks	sounds.k2	o[1]	no	It has no stress
+checks	sounds.k2	why	falar em	falar ends in r, not in a, e, o, am, em or ens, so the stress falls on the last syllable: fah-LAHR.
+checks	sounds.k3	q	pão	What does the tilde in pão tell you?
+checks	sounds.k3	why	pão	A tilde marks a nasal vowel: pão (bread) is nasal, pau (stick) is not.
+checks	greetings.k2	q	do	It's 3 p.m. How do you greet someone?
+checks	articles.k1	q	problema	Which article goes with problema?
+checks	articles.k1	why	problema	problema ends in -a but is masculine: o problema.
+checks	articles.k2	q	do	How do you order 'a water'?
+checks	articles.k3	why	ão ões	Many -ão nouns change to -ões, and the article goes plural too: os limões.
+checks	ser.k1	why	ele	você takes the ele form: você é.
+checks	ser.k2	why	No	No article before a job, and professora agrees with the speaker, a woman.
+checks	ser.k3	q	ser gente	Which form of ser goes with a gente?
+checks	ser.k3	why	gente ele	a gente takes the ele form: a gente é.
+checks	adjectives.k2	why	um carro preto	Colors always follow the noun: um carro preto.
+checks	present.k1	why	ele	a gente takes the ele form: a gente fala.
+checks	present.k2	why	eles	vocês takes the eles form: estudam.
+checks	estar.k1	why	eu	Where a person is takes estar, and the eu form is estou.
+checks	estar.k2	why	ficar	For where a building is, Brazilians usually use ficar: Onde fica o banco?
+checks	estar.k3	why	estar	How you are right now takes estar, and cansada agrees with the speaker, a woman.
+checks	contractions.k3	why	no do	o Rio takes the article: no Rio, do Rio. Most cities take none.
+checks	ser-estar.k1	why	ser	A party is an event, and where an event takes place uses ser.
+checks	ser-estar.k2	why	estar	How you feel at the moment takes estar, and nervoso agrees with the speaker, a man.
+checks	ser-estar.k3	q	Ela está bonita	What does Ela está bonita mean?
+checks	ser-estar.k3	why	estar bonita Ela é	With estar, bonita describes how she looks now; Ela é bonita describes the person.
+checks	ter.k1	q	do	How do you say I'm twenty (vinte)?
+checks	ter.k1	why	ter	Age uses ter: you have years. Eu tenho vinte anos.
+checks	ter.k2	q	do	In everyday Brazilian speech, how do you ask Is there a pharmacy near here?
+checks	ter.k3	q	do	How do you say I'm hungry?
+checks	ter.k3	why	estar	Hunger is a noun in Portuguese: estar com fome, literally to be with hunger.
+checks	questions.k1	q	do Do	How do you ask Do you speak Portuguese?
+checks	questions.k1	o[0]	Do você fala português	Do você fala português?
+checks	questions.k1	o[1]	Você fala português	Você fala português?
+checks	questions.k1	o[2]	Fala você português do	Fala você português, do?
+checks	questions.k1	o[3]	Você falas português	Você falas português?
+checks	questions.k1	why	no do as	Portuguese has no word for do: same order as the statement, with a rising voice.
+checks	questions.k3	q	do	How many sisters do you have? =
+checks	location.k2	why	estar	Movable things take estar (plural: estão), and mesa is feminine, so da.
+checks	irregular.k1	q	do	I do; I make =
+checks	irregular.k3	why	poder	Posso (the eu form of poder) + the infinitive, with nothing in between.
+checks	future.k1	why	ir	ir + the infinitive, with nothing between them: vou viajar.
+checks	future.k2	why	ele	A gente takes the ele form: vai, then the infinitive.
+checks	future.k3	why	vou falar	falarei is the one-word future, mostly written; in conversation, vou falar.
+checks	gostar.k1	why	gostar	gostar always takes de: gosto de café.
+checks	gostar.k3	q	adorar gostar	How is adorar different from gostar?
+checks	gostar.k3	o[0]	de	It needs de twice
+checks	gostar.k3	o[1]	no de adoro	It takes no de: adoro samba
+checks	gostar.k3	why	adorar adoro no de	adorar goes straight to the thing: adoro samba, with no de.
+checks	prepositions.k1	q	do	How do you say 'I need help'?
+checks	prepositions.k1	why	precisar	precisar takes de before a noun: Preciso de ajuda.
+checks	prepositions.k2	q	do	How do you say 'I go by car'?
+checks	prepositions.k2	why	no ônibus	Vehicles take de, with no article: de carro, de ônibus.
+checks	progressive.k1	q	do	How do you say 'I'm studying right now'?
+checks	progressive.k1	why	estar	estar + the -ndo form: estou estudando.
+checks	progressive.k2	q	comer	What is the -ndo form of comer?
+checks	progressive.k3	q	as	Which one means 'I work at a bank' as a general fact, not right now?
+checks	progressive.k3	why	estar	For habits and facts, use the simple present; estar + -ndo is for what is happening now.
+checks	reflexive.k1	q	do	How do Brazilians say 'My name is Ana'?
+checks	reflexive.k2	q	gente	Which pronoun goes with a gente?
+checks	reflexive.k2	why	gente ele levanta	A gente takes the ele form, so se: a gente se levanta.
+checks	reflexive.k3	q	Eu levanto às sete no me	How does Eu levanto às sete (with no me) sound to a Brazilian?
+checks	reflexive.k3	o[0]	Normal	Normal everyday speech
+checks	object-pronouns.k1	q	me Você ajuda	Where does me go in Você me ajuda? (Can you help me?)
+checks	object-pronouns.k1	o[0]	ajuda as	After ajuda, as in English
+checks	object-pronouns.k1	o[1]	ajuda	Before ajuda
+checks	object-pronouns.k3	q	Eu conheço	In Eu o conheço, what is o?
+checks	object-pronouns.k3	o[3]	você	A short form of você
+checks	past.k1	why	pretérito perfeito	trabalhei is the eu form of the pretérito perfeito.
+checks	past.k2	q	do	How do you say 'Have you ever been to Brazil?'
+checks	past.k2	why	pretérito perfeito	For 'ever', use já + the pretérito perfeito: Você já foi…?
+checks	past.k3	q	Nós falamos com ela	Nós falamos com ela can mean…
+checks	past.k3	why	nós	The nós form of regular verbs is the same in the present and the past.
+checks	requests.k3	q	Vire à esquerda do	A stranger tells you Vire à esquerda. What do you do?
+checks	requests.k3	why	esquerda direita	esquerda = left; direita = right.
+checks	connectors.k1	why	no	Because is one word with no accent: porque.
+checks	city.k3	q	do Uber	Which verb do Brazilians use most for catching a bus or an Uber?
+checks	city.k3	why	ônibus um Uber	pegar (catch) is the everyday verb: pegar o ônibus, pegar um Uber.
+practice	sounds.01	why	ãe	ãe has a tilde, so the vowel goes through the nose.
+practice	sounds.02	why	rr	rr, and r at the start of a word, sound like English h; a single r between vowels is a quick tap.
+practice	sounds.03	q	Brasil	How does the l at the end of Brasil sound?
+practice	sounds.10	why	carro caro	car needs the h-like rr: carro. With one r, caro means expensive.
+practice	sounds.11	why	as vinho	nh sounds ny, as in canyon: vinho.
+practice	sounds.12	hint	cidade	cidade · add -s for more than one
+practice	sounds.13	hint	carro	carro · add -s for more than one
+practice	sounds.14	hint	ãe	mãe · ãe has a tilde
+practice	greetings.04	why	me	com licença is excuse me, to get past someone or to interrupt.
+practice	greetings.14	p	me	Excuse me, please. (to get past someone)
+practice	articles.01	q	dia	Which article goes with dia?
+practice	articles.01	why	dia	dia ends in -a but is masculine: o dia.
+practice	articles.05	q	pão	The plural of o pão is:
+practice	articles.05	why	pão ão ões	pão is one of the -ão nouns that does not take -ões: os pães.
+practice	articles.11	why	ão ões	limão is one of the -ão nouns that change to -ões.
+practice	articles.13	hint	ovo	ovo · more than one
+practice	ser.02	why	as ele	a gente takes the same form as ele: é.
+practice	ser.03	why	No	No article before a job, médico for a man, and é for ele.
+practice	ser.04	why	as eles	vocês is the plural 'you'; it takes the same form as eles.
+practice	ser.07	why	no	professora agrees with ela: feminine, and no article before a job.
+practice	ser.08	why	ser	sou is the eu form of ser.
+practice	ser.09	why	eles	vocês takes the eles form: são.
+practice	ser.10	why	ele	a gente takes the ele form: é.
+practice	ser.12	hint	ser	ser · americano
+practice	ser.13	hint	ser	ser · Miami
+practice	ser.13	why	ele	The nós form is somos; with a gente, use the ele form: é.
+practice	ser.14	hint	ser	ser · enfermeiro (nurse)
+practice	ser.14	why	No	No article before a job, and enfermeiro agrees with a man: masculine.
+practice	adjectives.03	why	no	Adjectives in a consonant or -e, like feliz, have no separate feminine form.
+practice	adjectives.08	why	azul	Adjectives in -l change to -is in the plural: azul, azuis.
+practice	adjectives.10	why	no	feliz has no separate feminine form; for more than one it becomes felizes.
+practice	adjectives.13	hint	casa branco	casa · branco
+practice	present.01	why	ele	ela takes the ele form: trabalha.
+practice	present.03	why	ele	você takes the ele form: abre.
+practice	present.05	why	No ele	No 'do' in Portuguese, and você takes the ele form: fala.
+practice	present.09	p	Do	Do you guys work in Boston?
+practice	present.09	why	eles	vocês takes the eles form: trabalham.
+practice	present.10	why	ele	a gente takes the ele form: aprende.
+practice	present.12	hint	morar	morar · Miami
+practice	present.12	why	ele	The nós form: the verb ending matches the subject, -amos. With a gente, use the ele form: mora.
+practice	present.13	why	ele	The ele form: the verb ending matches the subject, trabalha.
+practice	present.14	p	Do	Do you speak English?
+practice	present.14	why	ele	você takes the ele form: fala.
+practice	estar.01	why	estar	Where people are takes estar, and the nós form is estamos.
+practice	estar.02	why	estar	Where a person is takes estar; você takes está.
+practice	estar.03	why	ficar	For where a place is, Brazilians usually use ficar: fica.
+practice	estar.04	why	estar	How they are right now takes estar: estão, and cansadas for women.
+practice	estar.06	why	ele	está is the ele form, for one person: Ana.
+practice	estar.08	p	ficar	Where is the pharmacy? (use ficar)
+practice	estar.09	why	eles	vocês takes the eles form: estão.
+practice	estar.11	p	ficar	Where is the hotel? (use ficar)
+practice	estar.11	why	ele	For where a place is, use fica: one hotel, so the ele form.
+practice	estar.12	hint	estar	estar · cansado
+practice	estar.12	why	estar	cansado agrees with the speaker, a man, and how you are right now takes estar.
+practice	estar.13	hint	estar	estar · Boston
+practice	estar.13	why	ele	The nós form is estamos; with a gente, use the ele form: está.
+practice	estar.14	p	ficar	Where is the bathroom? (use ficar)
+practice	estar.14	hint	ficar	ficar · banheiro
+practice	contractions.03	why	os	os Estados Unidos is plural and masculine: em + os = nos.
+practice	contractions.06	why	em	aeroporto is masculine: em + o make the contraction no.
+practice	contractions.07	why	de	a Bahia is feminine: de + a make the contraction da.
+practice	contractions.12	hint	morar	morar · o Brasil
+practice	contractions.13	hint	ser	ser · o Rio
+practice	ser-estar.01	why	estar	Where a person is takes estar, and praia takes na.
+practice	ser-estar.02	why	ser	A meeting is an event, and where an event takes place uses ser.
+practice	ser-estar.03	why	ser	A job takes ser, and médica agrees with ela.
+practice	ser-estar.04	why	ficar	ficar also means get or become: fico nervoso.
+practice	ser-estar.05	why	estar	How the soup is now takes estar, and fria agrees with sopa.
+practice	ser-estar.06	why	estar	preocupada agrees with Ana: feminine. How she is now takes estar.
+practice	ser-estar.07	why	ser	Events take ser, and casa is feminine, so the contraction is na.
+practice	ser-estar.08	why	ser	Where someone is from takes ser: somos.
+practice	ser-estar.09	why	ser	What a person is like takes ser: é, with the accent; e means and.
+practice	ser-estar.10	why	estar	How you feel right now takes estar: estou.
+practice	ser-estar.11	why	ser	A barbecue party is an event, and events take ser.
+practice	ser-estar.12	hint	estar	estar · preocupado
+practice	ser-estar.12	why	estar	preocupado agrees with the speaker, a man, and how you feel now takes estar.
+practice	ser-estar.13	hint	ser professora	ser · professora
+practice	ser-estar.13	why	ser	A job takes ser, and professoras agrees with a group of women: feminine.
+practice	ser-estar.14	hint	ser	ser · festa · o Rio
+practice	ser-estar.14	why	ser em	Events take ser, and o Rio takes the article: em + o make the contraction no.
+practice	ter.01	why	ter	Age uses ter: you have twenty-five years.
+practice	ter.02	why	estar	Feeling cold is estar com frio: a noun after com.
+practice	ter.04	why	ele	têm, with a circumflex, goes with eles; tem without it goes with ele.
+practice	ter.05	why	estar	Thirst works like hunger: estar com sede.
+practice	ter.06	why	ter	The nós form of ter is temos: the verb ending matches the subject.
+practice	ter.08	why	estar	Sleepiness is a noun here: estar com sono.
+practice	ter.10	why	estar	Hunger takes estar com: estou com fome.
+practice	ter.11	why	ter	Age uses ter, and with eu the form is tenho.
+practice	ter.12	hint	ter ano	ter · vinte (twenty) · o ano · age uses have
+practice	ter.12	why	ter	Age uses ter, and the verb ending matches the subject: eu tenho.
+practice	ter.13	hint	ter	ter · o cachorro (dog)
+practice	ter.13	why	ele	The nós form is temos; with a gente, use the ele form: a gente tem.
+practice	ter.14	hint	estar	estar com · a fome
+practice	ter.14	why	estar	Hunger takes estar com: você está com fome (tem fome is also fine).
+practice	questions.02	q	Do	Do you speak Portuguese? =
+practice	questions.02	o[0]	Você fala português	Você fala português?
+practice	questions.02	o[1]	Do você fala português	Do você fala português?
+practice	questions.02	o[2]	Você falas português	Você falas português?
+practice	questions.02	o[3]	Você falar português	Você falar português?
+practice	questions.02	why	no	A yes/no question keeps the statement order; only your voice rises.
+practice	questions.03	q	pessoa	How many people? (a pessoa = person)
+practice	questions.04	q	as	Why? (alone, as a one-word question)
+practice	questions.05	q	Pedro Recife mora em	You think Pedro lives in Recife. You ask: Pedro mora em Recife, ...?
+practice	questions.05	why	não é	né? (from não é?) asks for agreement, like English right?
+practice	questions.06	p	do	How many sisters do you have? (question word first, then você)
+practice	questions.07	p	do	Where do you all live? (question word first, then vocês)
+practice	questions.07	why	eles	Vocês takes the eles form: moram.
+practice	questions.08	p	Do	Do you speak English?
+practice	questions.08	why	No do ele	No extra word for do, and você takes the ele form: fala.
+practice	questions.09	p	do	Where do you live?
+practice	questions.10	p	do	How many brothers do you have?
+practice	questions.12	p	do	Where do you live?
+practice	questions.12	hint	morar	onde · morar
+practice	questions.12	why	ele	Você takes the ele form: você mora.
+practice	questions.13	p	do	How many sisters do you have?
+practice	questions.13	hint	quanto irmã ter	quanto · a irmã · ter
+practice	questions.14	hint	ser	quando · ser · a festa
+practice	questions.14	why	ser	Events take ser, even when you ask when: a festa é.
+practice	numbers.05	why	hora	Half past is e meia: meia hora, half an hour.
+practice	numbers.11	why	hora	Half past is e meia, short for meia hora.
+practice	numbers.12	hint	ser hora	ser · três (three) · a hora
+practice	numbers.13	hint	custar	custar · cinquenta (fifty) · o real
+practice	numbers.14	hint	ter irmã	ter · dois · a irmã
+practice	location.05	why	estar	A phone moves, so estar; and de + a bolsa = da bolsa.
+practice	location.07	why	de	banco is masculine: de + o = do, the contraction agrees with it.
+practice	location.12	hint	chave estar de	a chave · estar · em cima de · a mesa
+practice	location.13	p	ficar	The bank is near the beach. (use ficar)
+practice	location.13	hint	ficar de	o banco · ficar · perto de · a praia
+practice	location.13	why	de	praia is feminine: de + a = da, the contraction agrees with it.
+practice	location.14	p	ficar	The bathroom is next to the kitchen. (use ficar)
+practice	location.14	hint	ficar de	o banheiro · ficar · ao lado de · a cozinha
+practice	possessives.14	hint	ele morar	os pais · ele · morar · Miami
+practice	possessives.14	why	eles	His = dele after the noun, and os pais takes the eles form: moram.
+practice	irregular.01	why	poder	poder is irregular in the eu form: posso.
+practice	irregular.02	why	elas vocês	querem is the form for eles, elas and vocês.
+practice	irregular.03	q	fazer	It's hot today. (use fazer)
+practice	irregular.03	why	frio	Weather with a noun: faz calor, faz frio.
+practice	irregular.04	why	ele	Você goes with vai, the ele form of ir.
+practice	irregular.07	why	ir	Eles takes the eles form of ir: vão.
+practice	irregular.08	why	eu	Posso is the eu form: the verb ending matches the subject.
+practice	irregular.09	p	shopping	I go shopping on Saturday.
+practice	irregular.10	why	eles	Vocês takes the eles form: vão.
+practice	irregular.11	why	eu	Can I = posso, the eu form of poder.
+practice	irregular.12	hint	querer	querer · a camisa · branco
+practice	irregular.13	hint	ir	ir · para · o Rio
+practice	irregular.13	why	ir ele	The nós form of ir is vamos; with a gente, the ele form: a gente vai.
+practice	irregular.14	p	Do	Do you want a coffee?
+practice	irregular.14	hint	querer	querer · o café
+practice	irregular.14	why	ele	Você takes the ele form: quer; and café is masculine: um café.
+practice	future.05	why	vou viajar	viajarei is the written one-word future; in speech, vou viajar.
+practice	future.06	why	ir	The nós form of ir is vamos: the verb ending matches the subject.
+practice	future.08	why	ir	ir + infinitive, with nothing in between: vou viajar.
+practice	future.09	why	ir	With eu, the form of ir is vou.
+practice	future.10	why	ele	A gente takes the ele form: vai.
+practice	future.12	hint	ir	ir · trabalhar · o sábado
+practice	future.12	why	ir	vou is the eu form of ir; then the infinitive, with nothing in between.
+practice	future.13	hint	ir	ir · viajar · semana que vem
+practice	future.13	why	ele	The nós form is vamos; with a gente, the ele form: vai.
+practice	future.14	hint	ir	ir · jantar · em casa
+practice	future.14	why	ele	Você takes the ele form: vai jantar.
+practice	gostar.01	why	gostar	gostar always takes de: gosto de futebol.
+practice	gostar.03	q	Você de dançar	Você gosta de dançar? The natural short answer is…
+practice	gostar.03	why	eu	Brazilians answer with the verb in the eu form: gosto!
+practice	gostar.04	why	adorar no	adorar takes no de, and brasileira agrees with música.
+practice	gostar.05	q	Não gosto de chuva Me	Não gosto de chuva. — Me neither. =
+practice	gostar.05	why	não	To agree with a negative: nem eu (or eu também não).
+practice	gostar.06	why	de	praia is feminine: de + a = da, the contraction agrees with it.
+practice	gostar.11	why	eles	Elas takes the eles form: gostam.
+practice	gostar.12	hint	gostar de	gostar de · a Bahia
+practice	gostar.12	why	de	Bahia takes a, so de + a = da: the contraction agrees with it.
+practice	gostar.13	hint	gostar	gostar de · dançar
+practice	gostar.13	why	ele	The nós form is gostamos; a gente takes the ele form: gosta.
+practice	gostar.14	p	Do	Do you like Brazilian food?
+practice	gostar.14	hint	gostar	gostar de · a comida · brasileiro
+practice	prepositions.01	why	carro metrô	Vehicles take de: de ônibus, de carro, de metrô.
+practice	prepositions.03	q	me	'Do you want to go with me?' =
+practice	prepositions.04	why	pensar	pensar takes em: penso em você.
+practice	prepositions.06	why	por	por + a = pela: the contraction agrees with ajuda, and a man says obrigado.
+practice	prepositions.08	why	ele	Ela takes the ele form vai, and vehicles take de.
+practice	prepositions.09	why	pensar	pensar em + a praia: the contraction na agrees with praia.
+practice	prepositions.12	hint	precisar	precisar · ajuda · before a noun, precisar needs its partner
+practice	prepositions.12	why	precisar	precisar takes de before a noun, and preciso is the eu form: the verb ending matches the subject.
+practice	prepositions.13	hint	ir	ir · metrô · vehicles take a preposition
+practice	prepositions.13	why	ele	vamos is the nós form (with a gente, the ele form vai), and vehicles take de.
+practice	prepositions.14	p	Do me	Do you want to go with me?
+practice	prepositions.14	hint	querer com	querer · ir · com + eu
+practice	prepositions.14	why	com	com + eu becomes one word: comigo.
+practice	progressive.01	why	estar	Weather happening now: estar + the -ndo form.
+practice	progressive.02	q	abrir	The -ndo form of abrir (to open) is…
+practice	progressive.02	why	ir	-ir verbs drop the r and add -ndo: abrindo.
+practice	progressive.03	why	estar	estar carries the person (estão); the -ndo form never changes.
+practice	progressive.05	why	estar	Brazil uses estar + the -ndo form; estar a + infinitive is European.
+practice	progressive.06	why	estar	estamos is the nós form of estar: the verb ending matches the subject.
+practice	progressive.08	why	ele	Você takes the ele form: está.
+practice	progressive.09	why	estar	After estar comes the -ndo form: jogando.
+practice	progressive.10	why	ele estar	A gente takes the ele form of estar: está.
+practice	progressive.11	why	estar	After estar comes the -ndo form: escrevendo.
+practice	progressive.12	hint	estar trabalhar	estar · trabalhar · agora
+practice	progressive.12	why	trabalhar	estou is the eu form (the verb ending matches the subject), and trabalhar becomes trabalhando.
+practice	progressive.13	hint	estar comer	estar · comer · pizza
+practice	progressive.13	why	estar	Eles takes the eles form of estar: estão, then comendo.
+practice	progressive.14	hint	estar chover	estar · chover · hoje
+practice	reflexive.02	why	ele	Ela takes se and the ele form: se levanta.
+practice	reflexive.03	why	no as horas	acordar usually takes no pronoun in Brazil, and às = a + as (horas).
+practice	reflexive.04	q	do	In Portugal you may read Levanto-me cedo. How do Brazilians usually say it?
+practice	reflexive.05	why	ele	A gente takes se and the ele form: se deita.
+practice	reflexive.09	why	ele	Ela takes the ele form: se chama.
+practice	reflexive.10	why	ele ela	A gente takes se, like ele and ela.
+practice	reflexive.12	p	chamar	My name is Ana. (use chamar)
+practice	reflexive.12	hint	chamar	chamar · me · Ana
+practice	reflexive.13	p	deitar	They go to bed early. (use deitar)
+practice	reflexive.13	hint	deitar	deitar · se · cedo
+practice	reflexive.14	hint	no	acordar · às seis · usually no pronoun in Brazil
+practice	reflexive.14	why	no as	acordo is the eu form, usually with no pronoun: the verb ending matches the subject, and às = a + as.
+practice	object-pronouns.06	p	Do	Do you know her? (spoken)
+practice	object-pronouns.07	why	ela	mãe is feminine, so minha, and liga is the ela form: the verb ending matches the subject.
+practice	object-pronouns.08	why	ele	A gente takes the ele form ama, and te goes before the verb.
+practice	object-pronouns.10	why	no	nos (us) has no accent; nós means we.
+practice	object-pronouns.12	why	ele	In Brazil me goes before the verb, and você takes the ele form: ajuda.
+practice	object-pronouns.13	hint	conhecer	conhecer · ele · after the verb in speech
+practice	object-pronouns.14	hint	conhecer	conhecer · a · before the verb in writing
+practice	past.01	why	ir pretérito perfeito	fui is the eu form of ir in the pretérito perfeito.
+practice	past.02	why	comer	comeu is the ela form of comer in the past.
+practice	past.03	why	pretérito perfeito	For 'have done', Brazilian Portuguese uses já + the pretérito perfeito.
+practice	past.04	why	ter	tiveram is the eles form of ter in the past, and reunião takes uma.
+practice	past.05	q	do	'What did you do on the weekend?' =
+practice	past.05	why	fazer eu	fez is the você form of fazer in the past; fiz is the eu form.
+practice	past.08	why	ele	Você takes the ele form: falou.
+practice	past.09	why	ele	A gente takes the ele form: comeu.
+practice	past.10	why	estar	estive is the eu form of estar in the past.
+practice	past.12	hint	trabalhar	ontem · trabalhar · muito
+practice	past.13	hint	ir	ir · a praia · past
+practice	past.14	hint	ir	já · ir · o Brasil
+practice	past.14	why	pretérito perfeito	For 'ever', use já + the pretérito perfeito: já foi.
+practice	requests.01	why	ele	O senhor takes the ele form pode, and me goes before ajudar.
+practice	requests.03	q	Siga em frente	Someone says Siga em frente. What does it mean?
+practice	requests.03	o[2]	me	Follow me.
+practice	requests.03	why	Siga em frente	Siga em frente = keep going straight.
+practice	requests.04	why	você as	Friends use the você fala form as a command, and mais means more.
+practice	requests.05	why	as	Pode + infinitive: chamar stays as it is.
+practice	requests.06	why	ele	senhora is feminine (a senhora), and it takes the ele form: pode.
+practice	requests.07	why	você	chave is feminine, so a chave, and dá is the você form.
+practice	requests.09	why	do	Pode + infinitive asks someone to do something.
+practice	requests.12	hint	poder	o senhor · poder · ajudar · me
+practice	requests.12	why	ele	O senhor takes the ele form: pode, and me goes before ajudar.
+practice	requests.13	hint	querer	querer (polite: queria) · o suco · por favor
+practice	requests.14	hint	poder	poder · falar · mais devagar
+practice	requests.14	why	as	Pode + infinitive: falar stays as it is, and mais means more.
+practice	connectors.03	why	no	The answer 'because' is one word with no accent: porque.
+practice	connectors.07	why	ele	A gente takes the ele form: tem and vai.
+practice	connectors.08	why	em	no = em + o: the contraction agrees with o Brasil, and quero is the eu form.
+practice	connectors.10	why	no	Because is porque, one word with no accent.
+practice	connectors.12	hint	estar	estar · cansado · mas · feliz
+practice	connectors.13	hint	estudar trabalhar	estudar · e · trabalhar
+practice	connectors.14	hint	gostar de	porque · gostar de · o Brasil
+practice	connectors.14	why	gostar de	porque (because) is one word, and gostar de + o Brasil gives the contraction do.
+practice	city.01	q	Vire à direita do	A stranger says Vire à direita. Which way do you go?
+practice	city.01	why	direita esquerda	direita = right; esquerda = left.
+practice	city.04	why	no	Vamos + infinitive with no a, and pegar is the usual verb for rides.
+practice	city.06	why	em	esquina is feminine, so em + a = na: the contraction agrees with esquina.
+practice	city.07	why	eles	Vocês takes the eles form: vão.
+practice	city.12	hint	ficar	onde · ficar · a estação de metrô
+practice	city.13	hint	ir	ir · ônibus · vehicles take a preposition
+practice	city.13	why	eles	Vocês takes the eles form vão, and vehicles take de.
+lessoncards	pt.lc0002	note	casa	Always s, never z: a pessoa, ah peh-SOH-uh. A single s between vowels is z: a casa.
+lessoncards	pt.lc0003	note	garrafa	g before e or i sounds zh: a página, ah PAH-zhee-nuh. Before a, o or u it is a hard g: a garrafa.
+lessoncards	pt.lc0005	note	próximo	Usually sh: a caixa, ah KAI-shuh. In some words it is ks (o táxi, oo TAHK-see), z (o exame) or s (próximo).
+lessoncards	pt.lc0006	note	ah	A stressed ah: o cardápio, oo kahr-DAH-pyoo.
+lessoncards	pt.lc0007	note	as	An open eh, as in bet, and stressed: o café, oo kah-FEH.
+lessoncards	pt.lc0010	note	as	An open aw, as in law, and stressed: a avó, ah ah-VAW.
+lessoncards	pt.lc0013	note	te	g before e is zh; en before a consonant is nasal; final te is chee. Ends in e: stress on the next-to-last syllable.
+lessoncards	pt.lc0015	note	ai as	r after p is a quick tap; ai as in eye; final a is a weak uh. Ends in a: stress on the next-to-last syllable.
+lessoncards	pt.lc0016	note	ç ú	ç is s; c before a is k. The accent mark puts the stress on ú.
+lessoncards	pt.lc0017	note	ai as	ai as in eye; x is sh. Ends in a: stress on the next-to-last syllable.
+lessoncards	pt.lc0018	note	te	r at the end of a syllable changes by region; final te is chee. Ends in e: stress on the next-to-last syllable.
+lessoncards	pt.lc0019	note	nh ã	nh is ny; ã is nasal, and the syllable with the tilde takes the stress.
+lessoncards	pt.lc0020	note	ão	ão is nasal, owng, and the syllable with the tilde takes the stress.
+lessoncards	pt.lc0021	note	rr	g before a is hard; rr is h. Ends in a: stress on the next-to-last syllable.
+lessoncards	pt.lc0023	note	é	é is an open eh and takes the stress; d before i is j; final o is oo.
+lessoncards	pt.lc0024	note	ô	ô is a closed oh and takes the stress; final s stays s.
+lessoncards	pt.lc0025	note	ú	ú takes the stress; s between vowels is z; c before a is k.
+lessoncards	pt.lc0026	note	em	g before e is zh; final em is nasal, ayng. Ends in em: stress on the next-to-last syllable.
+lessoncards	pt.lc0027	note	ch	ch is sh; final a is a weak uh. Ends in a: stress on the next-to-last syllable.
+lessoncards	pt.lc0028	note	lh	lh is ly. Ends in r: stress on the last syllable.
+lessoncards	pt.lc0029	note	de	an before a consonant is nasal; final de is jee. Ends in e: stress on the next-to-last syllable.
+# option classes to review: questions.k1 (prose by its key «Você fala português?»; «Do você fala português?» «Fala você português, do?» «Você falas português?» would classify the other way)
+# option classes to review: future.k3 (prose by its key «I will speak»; «I spoke» «I'm speaking» would classify the other way)
+# option classes to review: progressive.k2 (target by its key «comendo»; «comando» «comindo» «comado» would classify the other way)
+# option classes to review: connectors.k1 (target by its key «porque»; «porquê» would classify the other way)
+# option classes to review: city.k3 (target by its key «pegar»; «tirar» would classify the other way)
+# option classes to review: sounds.03 (prose by its key «like w»; «like y» would classify the other way)
+# option classes to review: articles.03 (target by its key «mão»; «mapa» would classify the other way)
+# option classes to review: estar.05 (target by its key «está»; «estã» «ésta» would classify the other way)
+# option classes to review: ser-estar.05 (target by its key «A sopa está fria.»; «A sopa é fria.» «A sopa estão fria.» would classify the other way)
+# option classes to review: questions.02 (prose by its key «Você fala português?»; «Do você fala português?» «Você falas português?» «Você falar português?» would classify the other way)
+# option classes to review: future.05 (prose by its key «I will travel»; «I traveled» «I'm traveling» would classify the other way)
+# option classes to review: gostar.03 (target by its key «Gosto!»; «Gusto!» would classify the other way)
+# option classes to review: progressive.02 (target by its key «abrindo»; «abrendo» «abrando» «abrido» would classify the other way)
+# option classes to review: requests.03 (prose by its key «Go straight ahead.»; «Follow me.» would classify the other way)
+# option classes to review: connectors.03 (target by its key «Porque…»; «Porquê…» would classify the other way)
+# option classes to review: connectors.04 (target by its key «mas»; «más» «maís» would classify the other way)

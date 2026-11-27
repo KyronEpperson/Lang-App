@@ -1,0 +1,392 @@
+{"id":"sounds.01","lesson":"sounds","t":"mc","o":["le sac","le chat","le lit","Paris"]}
+{"id":"sounds.02","lesson":"sounds","t":"mc","o":["la roue","la rue","le lit","la clé"]}
+{"id":"sounds.03","lesson":"sounds","t":"mc","o":["le pont","le chat","la rue","le lit"]}
+{"id":"sounds.04","lesson":"sounds","t":"mc","o":[null,null,null,null]}
+{"id":"sounds.05","lesson":"sounds","t":"mc","o":["l'eau","la eau","le eau","les eau"]}
+{"id":"sounds.06","lesson":"sounds","t":"order","a":["les","amis"],"x":["le"]}
+{"id":"sounds.07","lesson":"sounds","t":"order","a":["la","clé"],"x":["le"]}
+{"id":"sounds.08","lesson":"sounds","t":"order","a":["le","chat"],"x":["la"]}
+{"id":"sounds.09","lesson":"sounds","t":"fill","q":"la r__e","o":["ou","eu","o"],"a":["u"]}
+{"id":"sounds.10","lesson":"sounds","t":"fill","q":"le v__","o":["ent","on","an"],"a":["in"]}
+{"id":"sounds.11","lesson":"sounds","t":"fill","q":"__ amis","o":["le","la","l'"],"a":["les"]}
+{"id":"sounds.12","lesson":"sounds","t":"type","a":["les clés","les clefs"],"x":["la"]}
+{"id":"sounds.13","lesson":"sounds","t":"type","a":["la rue"],"x":["le"]}
+{"id":"sounds.14","lesson":"sounds","t":"type","a":["l'école"],"x":["la"]}
+{"id":"greetings.01","lesson":"greetings","t":"mc","o":["Bonjour, madame.","Salut!","Au revoir.","De rien."]}
+{"id":"greetings.02","lesson":"greetings","t":"mc","o":["Excusez-moi.","Excuse-moi.","Salut!","Et toi?"]}
+{"id":"greetings.03","lesson":"greetings","t":"mc","o":["Bonsoir.","Bonne nuit.","Bonne soirée.","Au revoir."]}
+{"id":"greetings.04","lesson":"greetings","t":"mc","o":["Merci beaucoup.","Merci très.","Très merci.","Beaucoup merci."]}
+{"id":"greetings.05","lesson":"greetings","t":"mc","o":["Enchantée.","Enchanté.","Enchantez.","Enchantées."]}
+{"id":"greetings.06","lesson":"greetings","t":"order","a":["Bonne","journée"],"x":["Bon"]}
+{"id":"greetings.07","lesson":"greetings","t":"order","a":["Bonne","soirée"],"x":["Bon"]}
+{"id":"greetings.08","lesson":"greetings","t":"order","a":["Comment","allez-vous"],"x":["vas-tu"]}
+{"id":"greetings.09","lesson":"greetings","t":"fill","q":"__ soirée!","o":["Bon","Bons","Bonnes"],"a":["Bonne"]}
+{"id":"greetings.10","lesson":"greetings","t":"fill","q":"S'il __ plaît.","o":["te","tu","toi"],"a":["vous"]}
+{"id":"greetings.11","lesson":"greetings","t":"fill","q":"Merci __.","o":["très","trop","beau"],"a":["beaucoup"]}
+{"id":"greetings.12","lesson":"greetings","t":"type","a":["Enchantée","Enchantée de vous rencontrer","Enchantée de te rencontrer"],"x":["Enchanté"]}
+{"id":"greetings.13","lesson":"greetings","t":"type","a":["Comment allez-vous","Comment allez vous","Comment vous allez"],"x":["vas-tu"]}
+{"id":"greetings.14","lesson":"greetings","t":"type","a":["Excusez-moi","Excusez moi","Pardon"],"x":["Excuse-moi"]}
+{"id":"articles.01","lesson":"articles","t":"mc","o":["la table","le table","l'table","les table"]}
+{"id":"articles.02","lesson":"articles","t":"mc","o":["l'école","la école","le école","les école"]}
+{"id":"articles.03","lesson":"articles","t":"mc","o":["un lit","une lit","des lit","un lits"]}
+{"id":"articles.04","lesson":"articles","t":"mc","o":["des clés","une clés","des clé","les clé"]}
+{"id":"articles.05","lesson":"articles","t":"mc","o":[null,null,null,null]}
+{"id":"articles.06","lesson":"articles","t":"order","a":["un","lit"],"x":["une"]}
+{"id":"articles.07","lesson":"articles","t":"order","a":["des","chaises"],"x":["une"]}
+{"id":"articles.08","lesson":"articles","t":"order","a":["la","fenêtre","de","la","chambre"],"x":["le"]}
+{"id":"articles.09","lesson":"articles","t":"fill","q":"__ école","o":["un","des","le"],"a":["une"]}
+{"id":"articles.10","lesson":"articles","t":"fill","q":"__ appartement","o":["le","la","les"],"a":["l'"]}
+{"id":"articles.11","lesson":"articles","t":"fill","q":"__ maisons","o":["une","un","la"],"a":["des"]}
+{"id":"articles.12","lesson":"articles","t":"type","a":["la cuisine"],"x":["le"]}
+{"id":"articles.13","lesson":"articles","t":"type","a":["une maison"],"x":["un"]}
+{"id":"articles.14","lesson":"articles","t":"type","a":["des lits"],"x":["les"]}
+{"id":"etre-avoir.01","lesson":"etre-avoir","t":"mc","o":["J'ai faim.","Je suis faim.","Je ai faim.","Je faim."]}
+{"id":"etre-avoir.02","lesson":"etre-avoir","t":"mc","o":["J'ai vingt ans.","Je suis vingt ans.","Je suis vingt.","J'ai vingt."]}
+{"id":"etre-avoir.03","lesson":"etre-avoir","t":"mc","o":["sommes","sont","êtes","est"]}
+{"id":"etre-avoir.04","lesson":"etre-avoir","t":"mc","o":["vous avez","vous avons","vous ont","vous as"]}
+{"id":"etre-avoir.05","lesson":"etre-avoir","t":"mc","o":["Ils ont un chat.","Ils sont un chat.","Ils a un chat.","Ils avons un chat."]}
+{"id":"etre-avoir.06","lesson":"etre-avoir","t":"order","a":["Nous","sommes","à","Paris"],"x":["sont"]}
+{"id":"etre-avoir.07","lesson":"etre-avoir","t":"order","a":["Tu","as","un","chat"],"x":["a"]}
+{"id":"etre-avoir.08","lesson":"etre-avoir","t":"order","a":["Elle","a","froid"],"x":["est"]}
+{"id":"etre-avoir.09","lesson":"etre-avoir","t":"fill","q":"Vous __ en retard.","o":["es","est","sont"],"a":["êtes"]}
+{"id":"etre-avoir.10","lesson":"etre-avoir","t":"fill","q":"Il __ vingt-cinq ans.","o":["est","as","ont"],"a":["a"]}
+{"id":"etre-avoir.11","lesson":"etre-avoir","t":"fill","q":"Nous __ une maison à Lyon.","o":["avez","ont","sommes"],"a":["avons"]}
+{"id":"etre-avoir.12","lesson":"etre-avoir","t":"type","a":["J'ai faim"],"x":["suis"]}
+{"id":"etre-avoir.13","lesson":"etre-avoir","t":"type","a":["Nous avons un chat"],"x":["ont"]}
+{"id":"etre-avoir.14","lesson":"etre-avoir","t":"type","a":["Vous êtes en retard"],"x":["es"]}
+{"id":"pronouns.01","lesson":"pronouns","t":"mc","o":["Moi!","Je!","Me!","Mon!"]}
+{"id":"pronouns.02","lesson":"pronouns","t":"mc","o":["avec toi","avec tu","avec te","avec ton"]}
+{"id":"pronouns.03","lesson":"pronouns","t":"mc","o":["pour lui","pour il","pour le","pour eux"]}
+{"id":"pronouns.04","lesson":"pronouns","t":"mc","o":[null,null,null,null]}
+{"id":"pronouns.05","lesson":"pronouns","t":"mc","o":["On a un chat.","On avons un chat.","On ont un chat.","On as un chat."]}
+{"id":"pronouns.06","lesson":"pronouns","t":"order","a":["On","est","à","la","maison"],"x":["sommes"]}
+{"id":"pronouns.07","lesson":"pronouns","t":"order","a":["Ils","sont","avec","moi"],"x":["est","je"]}
+{"id":"pronouns.08","lesson":"pronouns","t":"order","a":["C'est","moi"],"x":["je"]}
+{"id":"pronouns.09","lesson":"pronouns","t":"fill","q":"Et __?","o":["tu","te","ton"],"a":["toi"]}
+{"id":"pronouns.10","lesson":"pronouns","t":"fill","q":"On __ en retard.","o":["sommes","sont","es"],"a":["est"]}
+{"id":"pronouns.11","lesson":"pronouns","t":"fill","q":"Je suis avec __.","o":["ils","elles","leur"],"a":["eux"]}
+{"id":"pronouns.12","lesson":"pronouns","t":"type","a":["On a faim"],"x":["avons"]}
+{"id":"pronouns.13","lesson":"pronouns","t":"type","a":["Nous sommes avec lui"],"x":["sont","il"]}
+{"id":"pronouns.14","lesson":"pronouns","t":"type","a":["Et toi"],"x":["tu"]}
+{"id":"adjectives.01","lesson":"adjectives","t":"mc","o":["la chemise blanche","la chemise blanc","la blanche chemise","le chemise blanc"]}
+{"id":"adjectives.02","lesson":"adjectives","t":"mc","o":["une robe rouge","une rouge robe","un robe rouge","une robe rouges"]}
+{"id":"adjectives.03","lesson":"adjectives","t":"mc","o":["une petite maison","une petit maison","un petit maison","une petites maison"]}
+{"id":"adjectives.04","lesson":"adjectives","t":"mc","o":["noires","noir","noirs","noire"]}
+{"id":"adjectives.05","lesson":"adjectives","t":"mc","o":["vert / verte","bleu / bleue","noir / noire","rouge / rouge"]}
+{"id":"adjectives.06","lesson":"adjectives","t":"order","a":["la","chemise","blanche"],"x":["blanc"]}
+{"id":"adjectives.07","lesson":"adjectives","t":"order","a":["les","chaussures","noires"],"x":["noirs"]}
+{"id":"adjectives.08","lesson":"adjectives","t":"order","a":["La","veste","est","verte"],"x":["vert"]}
+{"id":"adjectives.09","lesson":"adjectives","t":"fill","q":"une robe __","o":["blanc","blancs","blanches"],"a":["blanche"]}
+{"id":"adjectives.10","lesson":"adjectives","t":"fill","q":"un pull __","o":["verte","verts","vertes"],"a":["vert"]}
+{"id":"adjectives.11","lesson":"adjectives","t":"fill","q":"une __ maison","o":["petit","petits","petites"],"a":["petite"]}
+{"id":"adjectives.12","lesson":"adjectives","t":"type","a":["la chemise blanche"],"x":["blanc"]}
+{"id":"adjectives.13","lesson":"adjectives","t":"type","a":["Les chaussures sont noires"],"x":["noirs"]}
+{"id":"adjectives.14","lesson":"adjectives","t":"type","a":["une petite maison"],"x":["petit"]}
+{"id":"present.01","lesson":"present","t":"mc","o":["Nous parlons français.","Nous parle français.","Nous parlez français.","Nous parlent français."]}
+{"id":"present.02","lesson":"present","t":"mc","o":["Je travaille.","Je suis travaille.","Je suis travailler.","Je travailler."]}
+{"id":"present.03","lesson":"present","t":"mc","o":["vous parlez","je parle","tu parles","ils parlent"]}
+{"id":"present.04","lesson":"present","t":"mc","o":["mangeons","mangons","mangez","mange"]}
+{"id":"present.05","lesson":"present","t":"mc","o":["J'étudie le français depuis deux ans.","J'étudie le français pour deux ans.","Je suis étudier le français depuis deux ans.","J'étudies le français depuis deux ans."]}
+{"id":"present.06","lesson":"present","t":"order","a":["Ils","travaillent","à","Paris"],"x":["travaille"]}
+{"id":"present.07","lesson":"present","t":"order","a":["Vous","parlez","français"],"x":["parles"]}
+{"id":"present.08","lesson":"present","t":"order","a":["Nous","cherchons","un","appartement"],"x":["cherchez","pour"]}
+{"id":"present.09","lesson":"present","t":"fill","q":"Tu __ à Paris.","o":["travaille","travaillez","travaillent"],"a":["travailles"]}
+{"id":"present.10","lesson":"present","t":"fill","q":"Nous __ à huit heures.","o":["commence","commencez","commencent"],"a":["commençons"]}
+{"id":"present.11","lesson":"present","t":"fill","q":"Elles __ la radio.","o":["écoute","écoutons","écoutez"],"a":["écoutent"]}
+{"id":"present.12","lesson":"present","t":"type","a":["Nous parlons français"],"x":["parlent"]}
+{"id":"present.13","lesson":"present","t":"type","a":["Ils habitent à Paris","Ils habitent Paris"],"x":["habite"]}
+{"id":"present.14","lesson":"present","t":"type","a":["Je travaille","Je suis en train de travailler"],"x":["suis"]}
+{"id":"negation.01","lesson":"negation","t":"mc","o":["Je ne parle pas allemand.","Je ne pas parle allemand.","Je parle ne pas allemand.","Je pas parle allemand."]}
+{"id":"negation.02","lesson":"negation","t":"mc","o":["Je n'ai pas de voiture.","Je n'ai pas une voiture.","Je ne ai pas de voiture.","Je n'ai de pas voiture."]}
+{"id":"negation.03","lesson":"negation","t":"mc","o":[null,null,null,null]}
+{"id":"negation.04","lesson":"negation","t":"mc","o":["Je n'ai pas faim.","Je ne suis pas faim.","Je n'ai faim pas.","Je ne pas ai faim."]}
+{"id":"negation.05","lesson":"negation","t":"mc","o":["Elle n'est pas fatiguée.","Elle n'est pas fatigué.","Elle ne est pas fatiguée.","Elle n'est fatiguée pas."]}
+{"id":"negation.06","lesson":"negation","t":"order","a":["Nous","ne","sommes","pas","fatigués"],"x":["fatigué"]}
+{"id":"negation.07","lesson":"negation","t":"order","a":["Elle","n'est","pas","contente"],"x":["content"]}
+{"id":"negation.08","lesson":"negation","t":"order","a":["Ils","ne","parlent","pas","anglais"],"x":["parle"]}
+{"id":"negation.09","lesson":"negation","t":"fill","q":"Je n'ai pas __ voiture.","o":["une","un","la"],"a":["de"]}
+{"id":"negation.10","lesson":"negation","t":"fill","q":"Nous ne __ pas malades.","o":["sont","êtes","est"],"a":["sommes"]}
+{"id":"negation.11","lesson":"negation","t":"fill","q":"Je __ travaille pas le lundi.","o":["n'","pas","non"],"a":["ne"]}
+{"id":"negation.12","lesson":"negation","t":"type","a":["Je n'ai pas faim"],"x":["suis"]}
+{"id":"negation.13","lesson":"negation","t":"type","a":["Nous n'avons pas de voiture"],"x":["une"]}
+{"id":"negation.14","lesson":"negation","t":"type","a":["Elle n'est pas fatiguée"],"x":["fatigué"]}
+{"id":"questions.01","lesson":"questions","t":"mc","o":["Est-ce que tu parles anglais?","Est-ce que tu parle anglais?","Est-ce tu parles anglais?","Est-ce que tu fais parler anglais?"]}
+{"id":"questions.02","lesson":"questions","t":"mc","o":["Où est-ce que tu habites?","Où est-ce que tu fais habiter?","Où tu fais habiter?","Où est-ce tu habites?"]}
+{"id":"questions.03","lesson":"questions","t":"mc","o":["Quelle","Quel","Quels","Quelles"]}
+{"id":"questions.04","lesson":"questions","t":"mc","o":[null,null,null,null]}
+{"id":"questions.05","lesson":"questions","t":"mc","o":["combien","comment","quand","pourquoi"]}
+{"id":"questions.06","lesson":"questions","t":"order","a":["Quelles","chaussures"],"x":["Quel"]}
+{"id":"questions.07","lesson":"questions","t":"order","a":["Où","est-ce","que","vous","travaillez"],"x":["travailles"]}
+{"id":"questions.08","lesson":"questions","t":"order","a":["Pourquoi","est-ce","qu'ils","sont","en","retard"],"x":["est"]}
+{"id":"questions.09","lesson":"questions","t":"fill","q":"__ âge as-tu?","o":["Quelle","Quels","Quelles"],"a":["Quel"]}
+{"id":"questions.10","lesson":"questions","t":"fill","q":"Est-ce __ elle travaille à Paris?","o":["que","qui","quoi"],"a":["qu'"]}
+{"id":"questions.11","lesson":"questions","t":"fill","q":"__ est-ce que tu habites?","o":["Ou","Qui","Quoi"],"a":["Où"],"strict":true}
+{"id":"questions.12","lesson":"questions","t":"type","a":["Est-ce que vous parlez français","Est ce que vous parlez français"],"x":["parles"]}
+{"id":"questions.13","lesson":"questions","t":"type","a":["Où est-ce que tu habites","Où est ce que tu habites"],"x":["habite"]}
+{"id":"questions.14","lesson":"questions","t":"type","a":["Quelle robe"],"x":["Quel"]}
+{"id":"cest.01","lesson":"cest","t":"mc","o":["Il est médecin.","Il est un médecin.","Il a médecin.","Il y a médecin."]}
+{"id":"cest.02","lesson":"cest","t":"mc","o":["C'est un musée.","Il est un musée.","C'est musée.","Il y a un musée."]}
+{"id":"cest.03","lesson":"cest","t":"mc","o":["Est-ce qu'il y a une pharmacie près d'ici?","Est-ce qu'il est une pharmacie près d'ici?","Est-ce qu'il y a pharmacie près d'ici?","Est-ce qu'il a une pharmacie près d'ici?"]}
+{"id":"cest.04","lesson":"cest","t":"mc","o":["Il n'y a pas de banque.","Il n'y a pas une banque.","Il ne y a pas de banque.","Il n'a pas de banque."]}
+{"id":"cest.05","lesson":"cest","t":"mc","o":["Elle","Il","Ça","Lui"]}
+{"id":"cest.06","lesson":"cest","t":"order","a":["Elle","est","infirmière"],"x":["infirmier"]}
+{"id":"cest.07","lesson":"cest","t":"order","a":["Il","y","a","deux","parcs"],"x":["parc"]}
+{"id":"cest.08","lesson":"cest","t":"order","a":["C'est","une","boulangerie"],"x":["un"]}
+{"id":"cest.09","lesson":"cest","t":"fill","q":"__ est médecin.","o":["C'","Ce","Ils"],"a":["Il"]}
+{"id":"cest.10","lesson":"cest","t":"fill","q":"Il y a __ hôtel ici.","o":["une","des","le"],"a":["un"]}
+{"id":"cest.11","lesson":"cest","t":"fill","q":"Il n'y a pas __ toilettes.","o":["des","les","une"],"a":["de"]}
+{"id":"cest.12","lesson":"cest","t":"type","a":["C'est un musée"],"x":["Il"]}
+{"id":"cest.13","lesson":"cest","t":"type","a":["Il y a une pharmacie"],"x":["un"]}
+{"id":"cest.14","lesson":"cest","t":"type","a":["Elle est médecin"],"x":["une"]}
+{"id":"possessives.01","lesson":"possessives","t":"mc","o":["ma sœur","mon sœur","mes sœur","ta sœur"]}
+{"id":"possessives.02","lesson":"possessives","t":"mc","o":["sa","son","ses","leur"]}
+{"id":"possessives.03","lesson":"possessives","t":"mc","o":["mon amie Camille","ma amie Camille","mes amie Camille","ma ami Camille"]}
+{"id":"possessives.04","lesson":"possessives","t":"mc","o":["cet hôtel","ce hôtel","cette hôtel","ces hôtel"]}
+{"id":"possessives.05","lesson":"possessives","t":"mc","o":["leurs enfants","leur enfants","ses enfants","son enfants"]}
+{"id":"possessives.06","lesson":"possessives","t":"order","a":["mes","parents"],"x":["mon"]}
+{"id":"possessives.07","lesson":"possessives","t":"order","a":["Léa","et","son","frère"],"x":["sa"]}
+{"id":"possessives.08","lesson":"possessives","t":"order","a":["Cette","robe","est","jolie."],"x":["Ce","joli"]}
+{"id":"possessives.09","lesson":"possessives","t":"fill","q":"C'est __ amie Chloé.","o":["ma","mes","me"],"a":["mon"]}
+{"id":"possessives.10","lesson":"possessives","t":"fill","q":"__ chaussures sont noires.","o":["Cette","Ce","Cet"],"a":["Ces"]}
+{"id":"possessives.11","lesson":"possessives","t":"fill","q":"Mes grands-parents habitent à Nice. __ maison est grande.","o":["Leurs","Sa","Son"],"a":["Leur"]}
+{"id":"possessives.12","lesson":"possessives","t":"type","a":["notre maison"],"x":["nos"]}
+{"id":"possessives.13","lesson":"possessives","t":"type","a":["Hugo et sa sœur","Hugo et sa soeur"],"x":["son"]}
+{"id":"possessives.14","lesson":"possessives","t":"type","a":["C'est votre chambre?","Est-ce que c'est votre chambre?"],"x":["vos","ta"]}
+{"id":"numbers.01","lesson":"numbers","t":"mc","o":["soixante-dix","sept-dix","soixante-sept","sept cents"]}
+{"id":"numbers.02","lesson":"numbers","t":"mc","o":["quatre-vingts","huit-dix","quatre-vingt-dix","soixante-vingt"]}
+{"id":"numbers.03","lesson":"numbers","t":"mc","o":["Il est deux heures.","Il est deux.","Il est deux heure.","Il a deux heures."]}
+{"id":"numbers.04","lesson":"numbers","t":"mc","o":["le quatorze juillet","juillet quatorze","le juillet quatorze","quatorze de juillet"]}
+{"id":"numbers.05","lesson":"numbers","t":"mc","o":["trois euros cinquante","trois cinquante euros","euros trois cinquante","trois euro cinquante"]}
+{"id":"numbers.06","lesson":"numbers","t":"order","a":["Il","est","deux","heures."],"x":["heure","sont"]}
+{"id":"numbers.07","lesson":"numbers","t":"order","a":["vingt","et","une","personnes"],"x":["un"]}
+{"id":"numbers.08","lesson":"numbers","t":"order","a":["Les","pommes","coûtent","deux","euros."],"x":["coûte"]}
+{"id":"numbers.09","lesson":"numbers","t":"fill","q":"Il est huit heures et __.","o":["demie","moins","demi"],"a":["quart"]}
+{"id":"numbers.10","lesson":"numbers","t":"fill","q":"Mon anniversaire est le __ mai.","o":["un","une","première"],"a":["premier"]}
+{"id":"numbers.11","lesson":"numbers","t":"fill","q":"Le concert commence à __ heures.","o":["huit","douze","vingt-huit"],"a":["vingt"]}
+{"id":"numbers.12","lesson":"numbers","t":"type","a":["Il est trois heures."],"x":["heure","sont"]}
+{"id":"numbers.13","lesson":"numbers","t":"type","a":["vingt et une filles","vingt-et-une filles"],"x":["un"]}
+{"id":"numbers.14","lesson":"numbers","t":"type","a":["J'ai vingt et un ans.","J'ai vingt-et-un ans."],"x":["suis"]}
+{"id":"partitive.01","lesson":"partitive","t":"mc","o":["Je mange du fromage.","Je mange fromage.","Je mange de le fromage.","Je mange le fromage."]}
+{"id":"partitive.02","lesson":"partitive","t":"mc","o":["J'aime le café.","J'aime du café.","J'aime café.","J'aime de café."]}
+{"id":"partitive.03","lesson":"partitive","t":"mc","o":["de l'eau","de la eau","du eau","des eau"]}
+{"id":"partitive.04","lesson":"partitive","t":"mc","o":["Il n'y a pas de lait.","Il n'y a pas du lait.","Il n'y a pas lait.","Il n'a pas de lait."]}
+{"id":"partitive.05","lesson":"partitive","t":"mc","o":["beaucoup de fruits","beaucoup des fruits","beaucoup du fruits","beaucoup les fruits"]}
+{"id":"partitive.06","lesson":"partitive","t":"order","a":["Je","mange","de","la","salade."],"x":["du"]}
+{"id":"partitive.07","lesson":"partitive","t":"order","a":["Nous","mangeons","des","pommes."],"x":["du","mange"]}
+{"id":"partitive.08","lesson":"partitive","t":"order","a":["J'aime","le","fromage."],"x":["du"]}
+{"id":"partitive.09","lesson":"partitive","t":"fill","q":"Je voudrais __ pain.","o":["de la","le","des"],"a":["du"]}
+{"id":"partitive.10","lesson":"partitive","t":"fill","q":"Je mange __ soupe.","o":["du","des","de l'"],"a":["de la"]}
+{"id":"partitive.11","lesson":"partitive","t":"fill","q":"Je n'ai pas __ frères.","o":["des","les","du"],"a":["de"]}
+{"id":"partitive.12","lesson":"partitive","t":"type","a":["du pain"],"x":["des"]}
+{"id":"partitive.13","lesson":"partitive","t":"type","a":["Nous mangeons de la salade."],"x":["mange","du"]}
+{"id":"partitive.14","lesson":"partitive","t":"type","a":["Je ne mange pas de viande."],"x":["la"]}
+{"id":"polite.01","lesson":"polite","t":"mc","o":["Bonjour, je voudrais une baguette, s'il vous plaît.","Je veux une baguette.","Une baguette.","Bonjour, je voudrais un baguette, s'il vous plaît."]}
+{"id":"polite.02","lesson":"polite","t":"mc","o":["Vous pourriez m'aider?","Tu pourrais m'aider?","Vous pourrais m'aider?","Vous pourriez aider moi?"]}
+{"id":"polite.03","lesson":"polite","t":"mc","o":["Je vais prendre un café.","Je vais à prendre un café.","Je prendre un café.","Je vais prends un café."]}
+{"id":"polite.04","lesson":"polite","t":"mc","o":["Est-ce que je pourrais avoir l'addition?","Est-ce que je pourriez avoir l'addition?","Est-ce que je pourrais l'addition?","Est-ce que je pourrais avoir la addition?"]}
+{"id":"polite.05","lesson":"polite","t":"mc","o":["Bonjour, madame.","Salut!","Je veux un croissant.","Une baguette."]}
+{"id":"polite.06","lesson":"polite","t":"order","a":["Je","voudrais","une","baguette."],"x":["un"]}
+{"id":"polite.07","lesson":"polite","t":"order","a":["Vous","pourriez","m'aider?"],"x":["pourrais"]}
+{"id":"polite.08","lesson":"polite","t":"order","a":["Je","voudrais","deux","croissants."],"x":["croissant"]}
+{"id":"polite.09","lesson":"polite","t":"fill","q":"Je __ un café crème, s'il vous plaît.","o":["voudriez","voudrait","voudrions"],"a":["voudrais"]}
+{"id":"polite.10","lesson":"polite","t":"fill","q":"Vous __ répéter, s'il vous plaît?","o":["pourrais","pourrait","pourrions"],"a":["pourriez"]}
+{"id":"polite.11","lesson":"polite","t":"fill","q":"Je vais __ la salade niçoise.","o":["prends","prend","à prendre"],"a":["prendre"]}
+{"id":"polite.12","lesson":"polite","t":"type","a":["Je voudrais un croissant, s'il vous plaît.","S'il vous plaît, je voudrais un croissant."],"x":["une","veux"]}
+{"id":"polite.13","lesson":"polite","t":"type","a":["Vous pourriez m'aider?","Pourriez-vous m'aider?","Est-ce que vous pourriez m'aider?","Vous pouvez m'aider?","Pouvez-vous m'aider?","Est-ce que vous pouvez m'aider?"],"x":["pourrais"]}
+{"id":"polite.14","lesson":"polite","t":"type","a":["Est-ce que je pourrais avoir l'addition?","Est ce que je pourrais avoir l'addition?","Est-ce que je pourrais avoir l'addition, s'il vous plaît?"],"x":["pourriez"]}
+{"id":"prepositions.01","lesson":"prepositions","t":"mc","o":["Je vais au cinéma.","Je vais à le cinéma.","Je vais à la cinéma.","Je vais aux cinéma."]}
+{"id":"prepositions.02","lesson":"prepositions","t":"mc","o":["en France","à France","au France","aux France"]}
+{"id":"prepositions.03","lesson":"prepositions","t":"mc","o":["au Canada","en Canada","à Canada","aux Canada"]}
+{"id":"prepositions.04","lesson":"prepositions","t":"mc","o":["J'habite aux États-Unis.","J'habite au États-Unis.","J'habite en États-Unis.","J'habite à les États-Unis."]}
+{"id":"prepositions.05","lesson":"prepositions","t":"mc","o":["Je vais à Lyon en train.","Je vais à Lyon sur le train.","Je vais en Lyon en train.","Je vais à Lyon à train."]}
+{"id":"prepositions.06","lesson":"prepositions","t":"order","a":["Je","vais","au","cinéma."],"x":["à","la"]}
+{"id":"prepositions.07","lesson":"prepositions","t":"order","a":["J'habite","aux","États-Unis."],"x":["au"]}
+{"id":"prepositions.08","lesson":"prepositions","t":"order","a":["Les","clés","sont","sur","la","table."],"x":["sous"]}
+{"id":"prepositions.09","lesson":"prepositions","t":"fill","q":"Elle travaille __ Canada.","o":["en","à","aux"],"a":["au"]}
+{"id":"prepositions.10","lesson":"prepositions","t":"fill","q":"Le café est à côté __ musée.","o":["de le","de la","des"],"a":["du"]}
+{"id":"prepositions.11","lesson":"prepositions","t":"fill","q":"Je dîne __ Léa.","o":["à","dans","sur"],"a":["chez"]}
+{"id":"prepositions.12","lesson":"prepositions","t":"type","a":["J'habite en France."],"x":["au"]}
+{"id":"prepositions.13","lesson":"prepositions","t":"type","a":["Je vais à la gare."],"x":["au"]}
+{"id":"prepositions.14","lesson":"prepositions","t":"type","a":["Je vais au travail à pied.","Je vais à pied au travail."],"x":["en"]}
+{"id":"irregular.01","lesson":"irregular","t":"mc","o":["Ils vont à la plage.","Ils allent à la plage.","Ils vas à la plage.","Ils va à la plage."]}
+{"id":"irregular.02","lesson":"irregular","t":"mc","o":["Il fait beau.","Il est beau.","Il y a beau.","C'est beau temps."]}
+{"id":"irregular.03","lesson":"irregular","t":"mc","o":["Je viens de Chicago.","Je viens à Chicago.","Je vient de Chicago.","Je venir de Chicago."]}
+{"id":"irregular.04","lesson":"irregular","t":"mc","o":["Nous prenons le bus.","Nous prendons le bus.","Nous prennons le bus.","Nous prenez le bus."]}
+{"id":"irregular.05","lesson":"irregular","t":"mc","o":["Qu'est-ce que tu fais samedi?","Qu'est-ce que tu fait samedi?","Qu'est-ce que tu faites samedi?","Qu'est-ce que tu vas samedi?"]}
+{"id":"irregular.06","lesson":"irregular","t":"order","a":["Nous","allons","au","marché."],"x":["vont"]}
+{"id":"irregular.07","lesson":"irregular","t":"order","a":["Il","fait","froid."],"x":["est"]}
+{"id":"irregular.08","lesson":"irregular","t":"order","a":["Ils","prennent","le","métro."],"x":["prend"]}
+{"id":"irregular.09","lesson":"irregular","t":"fill","q":"Vous __ du sport?","o":["faisez","fais","font"],"a":["faites"]}
+{"id":"irregular.10","lesson":"irregular","t":"fill","q":"Elle __ de Lyon.","o":["viens","viennent","venez"],"a":["vient"]}
+{"id":"irregular.11","lesson":"irregular","t":"fill","q":"Le dimanche, je fais __ vélo.","o":["de la","le","au"],"a":["du"]}
+{"id":"irregular.12","lesson":"irregular","t":"type","a":["Ils vont à Paris."],"x":["allent","va"]}
+{"id":"irregular.13","lesson":"irregular","t":"type","a":["Nous venons ce soir.","Ce soir, nous venons."],"x":["viennent"]}
+{"id":"irregular.14","lesson":"irregular","t":"type","a":["Il fait chaud aujourd'hui.","Aujourd'hui, il fait chaud."],"x":["est"]}
+{"id":"modals.01","lesson":"modals","t":"mc","o":["Je peux payer?","Je peux paye?","Je peux je paye?","Je peut payer?"]}
+{"id":"modals.02","lesson":"modals","t":"mc","o":["Je dois partir.","Je dois à partir.","Je doit partir.","Je dois pars."]}
+{"id":"modals.03","lesson":"modals","t":"mc","o":["Je sais nager.","Je sais nage.","Je sait nager.","Je suis nager."]}
+{"id":"modals.04","lesson":"modals","t":"mc","o":["Ils veulent manger.","Ils veut manger.","Ils voulent manger.","Ils veulent mangent."]}
+{"id":"modals.05","lesson":"modals","t":"mc","o":["Je ne peux pas dormir.","Je ne pas peux dormir.","Je pas peux dormir.","Je ne peux pas dors."]}
+{"id":"modals.06","lesson":"modals","t":"order","a":["Vous","pouvez","m'aider?"],"x":["peux"]}
+{"id":"modals.07","lesson":"modals","t":"order","a":["Nous","devons","appeler","un","médecin."],"x":["doivent"]}
+{"id":"modals.08","lesson":"modals","t":"order","a":["Tu","veux","un","café?"],"x":["voulez"]}
+{"id":"modals.09","lesson":"modals","t":"fill","q":"Il doit __ au lit.","o":["reste","restes","restent"],"a":["rester"]}
+{"id":"modals.10","lesson":"modals","t":"fill","q":"Elles __ venir demain.","o":["peut","pouvent","pouvons"],"a":["peuvent"]}
+{"id":"modals.11","lesson":"modals","t":"fill","q":"Tu __ conduire?","o":["sait","savez","savent"],"a":["sais"]}
+{"id":"modals.12","lesson":"modals","t":"type","a":["Je dois aller à la pharmacie."],"x":["doit","au"]}
+{"id":"modals.13","lesson":"modals","t":"type","a":["Nous voulons visiter le Louvre."],"x":["veulent"]}
+{"id":"modals.14","lesson":"modals","t":"type","a":["Je peux payer?","Est-ce que je peux payer?","Je pourrais payer?","Est-ce que je pourrais payer?","Puis-je payer?"],"x":["paye"]}
+{"id":"futur-proche.01","lesson":"futur-proche","t":"mc","o":["Je vais visiter Paris.","Je vais à visiter Paris.","Je vais visite Paris.","Je visiter Paris."]}
+{"id":"futur-proche.02","lesson":"futur-proche","t":"mc","o":["Il va pleuvoir.","Il va pleut.","Il vas pleuvoir.","Il est pleuvoir."]}
+{"id":"futur-proche.03","lesson":"futur-proche","t":"mc","o":["Je ne vais pas partir.","Je ne vais partir pas.","Je ne pas vais partir.","Je ne vais pas pars."]}
+{"id":"futur-proche.04","lesson":"futur-proche","t":"mc","o":["Qu'est-ce que tu vas faire?","Qu'est-ce que tu va faire?","Qu'est-ce que tu vas fais?","Qu'est-ce que tu allez faire?"]}
+{"id":"futur-proche.05","lesson":"futur-proche","t":"mc","o":["la semaine prochaine","le semaine prochain","la semaine prochain","le prochaine semaine"]}
+{"id":"futur-proche.06","lesson":"futur-proche","t":"order","a":["Ils","vont","prendre","le","train."],"x":["va"]}
+{"id":"futur-proche.07","lesson":"futur-proche","t":"order","a":["Nous","allons","partir."],"x":["vont"]}
+{"id":"futur-proche.08","lesson":"futur-proche","t":"order","a":["Je","vais","réserver","un","hôtel."],"x":["à"]}
+{"id":"futur-proche.09","lesson":"futur-proche","t":"fill","q":"Elle va __ ce soir.","o":["arrive","arrives","à arriver"],"a":["arriver"]}
+{"id":"futur-proche.10","lesson":"futur-proche","t":"fill","q":"Vous __ prendre l'avion?","o":["vont","va","allons"],"a":["allez"]}
+{"id":"futur-proche.11","lesson":"futur-proche","t":"fill","q":"Je ne __ pas travailler demain.","o":["va","vas","suis"],"a":["vais"]}
+{"id":"futur-proche.12","lesson":"futur-proche","t":"type","a":["Je vais visiter Lyon."],"x":["va","visite"]}
+{"id":"futur-proche.13","lesson":"futur-proche","t":"type","a":["Nous allons manger chez Léa."],"x":["vont"]}
+{"id":"futur-proche.14","lesson":"futur-proche","t":"type","a":["Ce week-end, je vais faire du vélo.","Je vais faire du vélo ce week-end.","Ce weekend, je vais faire du vélo.","Je vais faire du vélo ce weekend."],"x":["fais"]}
+{"id":"pronominal.01","lesson":"pronominal","t":"mc","o":["Je me lève à sept heures.","Je lève à sept heures.","Je se lève à sept heures.","Me je lève à sept heures."]}
+{"id":"pronominal.02","lesson":"pronominal","t":"mc","o":["Comment tu t'appelles?","Comment tu appelles?","Comment tu s'appelles?","Comment tu t'appelle?"]}
+{"id":"pronominal.03","lesson":"pronominal","t":"mc","o":["Elle se douche le matin.","Elle douche le matin.","Elle s'douche le matin.","Elle se douches le matin."]}
+{"id":"pronominal.04","lesson":"pronominal","t":"mc","o":["Je vais me coucher.","Je vais se coucher.","Je me vais coucher.","Je vais coucher me."]}
+{"id":"pronominal.05","lesson":"pronominal","t":"mc","o":["Je ne me lève pas tôt.","Je me ne lève pas tôt.","Je ne lève me pas tôt.","Je ne me pas lève tôt."]}
+{"id":"pronominal.06","lesson":"pronominal","t":"order","a":["Tu","te","lèves","tôt."],"x":["lève","se"]}
+{"id":"pronominal.07","lesson":"pronominal","t":"order","a":["Elles","se","préparent."],"x":["prépare"]}
+{"id":"pronominal.08","lesson":"pronominal","t":"order","a":["Je","m'appelle","Ryan."],"x":["est"]}
+{"id":"pronominal.09","lesson":"pronominal","t":"fill","q":"Tu __ couches tard?","o":["me","se","tu"],"a":["te"]}
+{"id":"pronominal.10","lesson":"pronominal","t":"fill","q":"Vous vous __ comment?","o":["appelle","appelles","appelons"],"a":["appelez"]}
+{"id":"pronominal.11","lesson":"pronominal","t":"fill","q":"Je vais __ coucher.","o":["se","te","m'"],"a":["me"]}
+{"id":"pronominal.12","lesson":"pronominal","t":"type","a":["Je me lève à sept heures."],"x":["se","lèves"]}
+{"id":"pronominal.13","lesson":"pronominal","t":"type","a":["Nous allons nous promener."],"x":["vont","se"]}
+{"id":"pronominal.14","lesson":"pronominal","t":"type","a":["Elle se douche le matin.","Le matin, elle se douche."],"x":["me"]}
+{"id":"imperative.01","lesson":"imperative","t":"mc","o":["Tournez à gauche.","Tourne à gauche.","Tournes à gauche.","Tournons à gauche."]}
+{"id":"imperative.02","lesson":"imperative","t":"mc","o":["Allons-y!","Allez-y!","Va!","Vas-y!"]}
+{"id":"imperative.03","lesson":"imperative","t":"mc","o":["Regarde!","Regardes!","Tu regardes!","Regardons!"]}
+{"id":"imperative.04","lesson":"imperative","t":"mc","o":["Prends le métro.","Prend le métro.","Prends la métro.","Prenons le métro."]}
+{"id":"imperative.05","lesson":"imperative","t":"mc","o":["Il faut réserver.","Il faut réserve.","Il faut de réserver.","Il est faut réserver."]}
+{"id":"imperative.06","lesson":"imperative","t":"order","a":["Tournez","à","gauche"],"x":["Tourne"]}
+{"id":"imperative.07","lesson":"imperative","t":"order","a":["Allons","au","parc"],"x":["Allez"]}
+{"id":"imperative.08","lesson":"imperative","t":"order","a":["Ne","traversez","pas","la","rue"],"x":["le"]}
+{"id":"imperative.09","lesson":"imperative","t":"fill","q":"__ tout droit.","o":["Continue","Continues","Continuons"],"a":["Continuez"]}
+{"id":"imperative.10","lesson":"imperative","t":"fill","q":"Va __ gare.","o":["au","aux","à le"],"a":["à la"]}
+{"id":"imperative.11","lesson":"imperative","t":"fill","q":"Il __ réserver une table.","o":["fait","va","est"],"a":["faut"]}
+{"id":"imperative.12","lesson":"imperative","t":"type","a":["Prenons le métro."],"x":["Prends","Prenez"]}
+{"id":"imperative.13","lesson":"imperative","t":"type","a":["Tournez à droite."],"x":["Tourne"]}
+{"id":"imperative.14","lesson":"imperative","t":"type","a":["Va au musée."],"x":["Vas","à"]}
+{"id":"passe-compose.01","lesson":"passe-compose","t":"mc","o":["J'ai mangé","Je mange","Je suis mangé","J'ai manger"]}
+{"id":"passe-compose.02","lesson":"passe-compose","t":"mc","o":["Elle est allée","Elle a allé","Elle est allé","Elle a allée"]}
+{"id":"passe-compose.03","lesson":"passe-compose","t":"mc","o":["arriver","manger","regarder","faire"]}
+{"id":"passe-compose.04","lesson":"passe-compose","t":"mc","o":["Nous avons vu un film.","Nous avons voir un film.","Nous sommes vus un film.","Nous avons vus un film."]}
+{"id":"passe-compose.05","lesson":"passe-compose","t":"mc","o":["J'ai parlé avec Léa.","J'ai parle avec Léa.","Je parle avec Léa.","Je suis parlé avec Léa."],"strict":true}
+{"id":"passe-compose.06","lesson":"passe-compose","t":"order","a":["Elle","est","arrivée","à","Lyon"],"x":["arrivé"]}
+{"id":"passe-compose.07","lesson":"passe-compose","t":"order","a":["Nous","avons","regardé","un","film"],"x":["ont"]}
+{"id":"passe-compose.08","lesson":"passe-compose","t":"order","a":["Elles","sont","allées","au","parc"],"x":["allés"]}
+{"id":"passe-compose.09","lesson":"passe-compose","t":"fill","q":"Hier, j'ai __ avec Hugo.","o":["parle","parler","parlez"],"a":["parlé"],"strict":true}
+{"id":"passe-compose.10","lesson":"passe-compose","t":"fill","q":"Nous __ partis à huit heures.","o":["avons","sont","êtes"],"a":["sommes"]}
+{"id":"passe-compose.11","lesson":"passe-compose","t":"fill","q":"Je n'ai __ fini.","o":["non","ne","pas de"],"a":["pas"]}
+{"id":"passe-compose.12","lesson":"passe-compose","t":"type","a":["Je suis allée au cinéma."],"x":["allé"]}
+{"id":"passe-compose.13","lesson":"passe-compose","t":"type","a":["Nous sommes arrivés."],"x":["avons","arrivé"]}
+{"id":"passe-compose.14","lesson":"passe-compose","t":"type","a":["Tu as vu le film?","Est-ce que tu as vu le film?","As-tu vu le film?"],"x":["a","voir"]}
+{"id":"connectors.01","lesson":"connectors","t":"mc","o":["Café ou thé?","Café où thé?","Café et thé?","Café mais thé?"],"strict":true}
+{"id":"connectors.02","lesson":"connectors","t":"mc","o":["Je suis fatiguée mais contente.","Je suis fatiguée et contente.","Je suis fatigué mais content.","Je suis fatiguée alors contente."]}
+{"id":"connectors.03","lesson":"connectors","t":"mc","o":["parce que","pourquoi","alors","quand"]}
+{"id":"connectors.04","lesson":"connectors","t":"mc","o":["Il pleut, alors je reste à la maison.","Il pleut, parce que je reste à la maison.","Il pleut, mais je reste à la maison.","Il pleut, ou je reste à la maison."]}
+{"id":"connectors.05","lesson":"connectors","t":"mc","o":["Moi aussi.","Je aussi.","Moi alors.","Aussi moi."]}
+{"id":"connectors.06","lesson":"connectors","t":"order","a":["Je","suis","fatiguée","mais","contente"],"x":["fatigué"]}
+{"id":"connectors.07","lesson":"connectors","t":"order","a":["Nous","sommes","en","retard","alors","nous","partons"],"x":["partent"]}
+{"id":"connectors.08","lesson":"connectors","t":"order","a":["J'aime","le","thé","mais","pas","le","café"],"x":["du"]}
+{"id":"connectors.09","lesson":"connectors","t":"fill","q":"Tu viens __ tu restes?","o":["où","et","mais"],"a":["ou"],"strict":true}
+{"id":"connectors.10","lesson":"connectors","t":"fill","q":"Je ne viens pas __ je suis malade.","o":["pourquoi","alors","mais"],"a":["parce que"]}
+{"id":"connectors.11","lesson":"connectors","t":"fill","q":"__ il fait beau, on va au parc.","o":["Pourquoi","Parce que","Ou"],"a":["Quand"]}
+{"id":"connectors.12","lesson":"connectors","t":"type","a":["Ma sœur est grande et blonde.","Ma soeur est grande et blonde."],"x":["grand","blond"]}
+{"id":"connectors.13","lesson":"connectors","t":"type","a":["Nous sommes en retard, alors nous partons.","Nous sommes en retard, donc nous partons."],"x":["partent"]}
+{"id":"connectors.14","lesson":"connectors","t":"type","a":["Où es-tu?","Tu es où?","Où est-ce que tu es?"],"x":["Ou"],"strict":true}
+{"id":"spoken.01","lesson":"spoken","t":"mc","o":["Ce n'est pas grave.","C'est ne pas grave.","Ce pas n'est grave.","C'est grave."]}
+{"id":"spoken.02","lesson":"spoken","t":"mc","o":[null,null,null,null]}
+{"id":"spoken.03","lesson":"spoken","t":"mc","o":["Tu as faim?","Tu es faim?","T'es faim?","Tu avais faim?"]}
+{"id":"spoken.04","lesson":"spoken","t":"mc","o":["Il y a un problème?","Il a un problème?","Tu as un problème?","Il est un problème?"]}
+{"id":"spoken.05","lesson":"spoken","t":"mc","o":["Ouais, ça marche.","Je sais pas.","C'est pas grave.","Pas de quoi."]}
+{"id":"spoken.06","lesson":"spoken","t":"order","a":["On","est","fatigués"],"x":["sommes"]}
+{"id":"spoken.07","lesson":"spoken","t":"order","a":["On","va","au","cinéma"],"x":["allons"]}
+{"id":"spoken.08","lesson":"spoken","t":"order","a":["Je","sais","pas"],"x":["suis"]}
+{"id":"spoken.09","lesson":"spoken","t":"fill","q":"On __ fatigués.","o":["sommes","es","sont"],"a":["est"]}
+{"id":"spoken.10","lesson":"spoken","t":"fill","q":"C'est __ grave.","o":["ne","n'","non"],"a":["pas"]}
+{"id":"spoken.11","lesson":"spoken","t":"fill","q":"__ a pas de problème.","o":["Il","Elle","On"],"a":["Y","Il y"]}
+{"id":"spoken.12","lesson":"spoken","t":"type","a":["On va au parc."],"x":["allons"]}
+{"id":"spoken.13","lesson":"spoken","t":"type","a":["On est fatiguées."],"x":["sommes","fatigués"]}
+{"id":"spoken.14","lesson":"spoken","t":"type","a":["Je sais pas.","Je ne sais pas.","J'sais pas."],"x":["suis"]}
+{"id":"imparfait.01","lesson":"imparfait","t":"mc","o":["Il pleuvait.","Il pleut.","Il va pleuvoir.","Il pleuvais."]}
+{"id":"imparfait.02","lesson":"imparfait","t":"mc","o":["Il faisait beau.","Il était beau.","Il avait beau.","Il fait beau."]}
+{"id":"imparfait.03","lesson":"imparfait","t":"mc","o":["Nous habitions à Lyon.","Nous habitons à Lyon.","Nous habitaient à Lyon.","Nous habitais à Lyon."]}
+{"id":"imparfait.04","lesson":"imparfait","t":"mc","o":["Le samedi, je faisais du vélo.","Samedi, j'ai fait du vélo.","Samedi, je vais faire du vélo.","Le samedi, je fais du vélo."]}
+{"id":"imparfait.05","lesson":"imparfait","t":"mc","o":["C'était super!","C'étais super!","Ce était super!","C'est super!"]}
+{"id":"imparfait.06","lesson":"imparfait","t":"order","a":["Nous","étions","fatigués"],"x":["étaient"]}
+{"id":"imparfait.07","lesson":"imparfait","t":"order","a":["Il","pleuvait","quand","je","suis","arrivée"],"x":["arrivé"]}
+{"id":"imparfait.08","lesson":"imparfait","t":"order","a":["Ma","grand-mère","habitait","à","Nice"],"x":["habitaient"]}
+{"id":"imparfait.09","lesson":"imparfait","t":"fill","q":"Quand j'étais petit, je __ au foot.","o":["jouait","joue","jouons"],"a":["jouais"]}
+{"id":"imparfait.10","lesson":"imparfait","t":"fill","q":"Il y __ du monde.","o":["était","avaient","est"],"a":["avait"]}
+{"id":"imparfait.11","lesson":"imparfait","t":"fill","q":"Il __ quand je suis sorti.","o":["pleut","pleuvais","pleuvoir"],"a":["pleuvait"]}
+{"id":"imparfait.12","lesson":"imparfait","t":"type","a":["Nous étions à la maison.","Nous étions chez nous."],"x":["étaient"]}
+{"id":"imparfait.13","lesson":"imparfait","t":"type","a":["Ils habitaient à Paris.","Ils habitaient Paris."],"x":["habitait"]}
+{"id":"imparfait.14","lesson":"imparfait","t":"type","a":["Il faisait beau."],"x":["était"]}
+{"id":"futur.01","lesson":"futur","t":"mc","o":["Je serai en retard.","J'étais en retard.","Je suis en retard.","J'aurai en retard."]}
+{"id":"futur.02","lesson":"futur","t":"mc","o":["Demain, il fera beau.","Demain, il faisait beau.","Demain, il sera beau.","Demain, il a fait beau."]}
+{"id":"futur.03","lesson":"futur","t":"mc","o":["Nous irons au cinéma.","Nous allerons au cinéma.","Nous irez au cinéma.","Nous allions au cinéma."]}
+{"id":"futur.04","lesson":"futur","t":"mc","o":["Ils auront une réunion.","Ils avront une réunion.","Ils auront un réunion.","Ils aurons une réunion."]}
+{"id":"futur.05","lesson":"futur","t":"mc","o":["Quand je serai à Paris l'année prochaine, …","Quand je suis à Paris l'année prochaine, …","Quand j'étais à Paris l'année prochaine, …","Quand je serais à Paris l'année prochaine, …"]}
+{"id":"futur.06","lesson":"futur","t":"order","a":["Nous","serons","à","Lyon"],"x":["seront"]}
+{"id":"futur.07","lesson":"futur","t":"order","a":["Ils","auront","une","réunion"],"x":["un"]}
+{"id":"futur.08","lesson":"futur","t":"order","a":["Je","visiterai","le","Louvre"],"x":["visitera"]}
+{"id":"futur.09","lesson":"futur","t":"fill","q":"Demain, nous __ le train.","o":["prendront","prendrez","prendre"],"a":["prendrons"]}
+{"id":"futur.10","lesson":"futur","t":"fill","q":"Quand tu __ à Paris, tu visiteras le Louvre.","o":["es","étais","serai"],"a":["seras"]}
+{"id":"futur.11","lesson":"futur","t":"fill","q":"Je __ te voir demain.","o":["pourra","pouvrai","pourront"],"a":["pourrai"]}
+{"id":"futur.12","lesson":"futur","t":"type","a":["Nous serons à la maison.","Nous serons chez nous."],"x":["seront"]}
+{"id":"futur.13","lesson":"futur","t":"type","a":["Ils auront une réunion lundi.","Lundi, ils auront une réunion."],"x":["aura","un"]}
+{"id":"futur.14","lesson":"futur","t":"type","a":["Demain, il fera beau.","Il fera beau demain."],"x":["faire"]}
+{"id":"object-pronouns.01","lesson":"object-pronouns","t":"mc","o":["Je le prends.","Je la prends.","Je prends le.","Je lui prends."]}
+{"id":"object-pronouns.02","lesson":"object-pronouns","t":"mc","o":["Je les prends.","Je le prends.","Je prends les.","Je leur prends."]}
+{"id":"object-pronouns.03","lesson":"object-pronouns","t":"mc","o":["Je lui téléphone.","Je la téléphone.","Je téléphone lui.","Je elle téléphone."]}
+{"id":"object-pronouns.04","lesson":"object-pronouns","t":"mc","o":["Oui, j'y vais.","Oui, je vais.","Oui, j'en vais.","Oui, je vais y."]}
+{"id":"object-pronouns.05","lesson":"object-pronouns","t":"mc","o":["J'en voudrais trois.","Je voudrais trois.","Je les voudrais trois.","J'y voudrais trois."]}
+{"id":"object-pronouns.06","lesson":"object-pronouns","t":"order","a":["Je","la","prends"],"x":["le"]}
+{"id":"object-pronouns.07","lesson":"object-pronouns","t":"order","a":["Je","vais","les","prendre"],"x":["le"]}
+{"id":"object-pronouns.08","lesson":"object-pronouns","t":"order","a":["Je","ne","le","prends","pas"],"x":["la"]}
+{"id":"object-pronouns.09","lesson":"object-pronouns","t":"fill","q":"La robe? Je __achète.","o":["le","la","lui"],"a":["l'"]}
+{"id":"object-pronouns.10","lesson":"object-pronouns","t":"fill","q":"Tu parles à Léa? Oui, je __ parle.","o":["la","le","leur"],"a":["lui"]}
+{"id":"object-pronouns.11","lesson":"object-pronouns","t":"fill","q":"Il y a du pain? Oui, il y __ a.","o":["le","y","lui"],"a":["en"]}
+{"id":"object-pronouns.12","lesson":"object-pronouns","t":"type","a":["Je la prends.","Je vais la prendre."],"x":["le"]}
+{"id":"object-pronouns.13","lesson":"object-pronouns","t":"type","a":["Nous allons les acheter."],"x":["allez","le"]}
+{"id":"object-pronouns.14","lesson":"object-pronouns","t":"type","a":["Je leur téléphone."],"x":["les"]}
+{"id":"compare.01","lesson":"compare","t":"mc","o":["Léa est plus grande que Thomas.","Léa est plus grand que Thomas.","Léa est plus grande de Thomas.","Léa est grande plus que Thomas."]}
+{"id":"compare.02","lesson":"compare","t":"mc","o":["Ce croissant est meilleur.","Ce croissant est plus bon.","Ce croissant est plus meilleur.","Ce croissant est meilleure."]}
+{"id":"compare.03","lesson":"compare","t":"mc","o":["Il chante mieux que moi.","Il chante meilleur que moi.","Il chante plus bien que moi.","Il chante mieux que je."]}
+{"id":"compare.04","lesson":"compare","t":"mc","o":["aussi … que","plus … que","moins … que","aussi … comme"]}
+{"id":"compare.05","lesson":"compare","t":"mc","o":["Chloé est la plus jeune.","Chloé est le plus jeune.","Chloé est plus jeune.","Chloé est la plus jeune que."]}
+{"id":"compare.06","lesson":"compare","t":"order","a":["Ma","sœur","est","plus","grande","que","moi"],"x":["grand"]}
+{"id":"compare.07","lesson":"compare","t":"order","a":["Mes","frères","sont","moins","grands","que","mon","père"],"x":["grand"]}
+{"id":"compare.08","lesson":"compare","t":"order","a":["C'est","la","meilleure","boulangerie","de","Paris"],"x":["meilleur"]}
+{"id":"compare.09","lesson":"compare","t":"fill","q":"Cette crêpe est __ que l'autre.","o":["meilleur","mieux","plus bonne"],"a":["meilleure"]}
+{"id":"compare.10","lesson":"compare","t":"fill","q":"Lucas parle __ vite que moi.","o":["meilleur","mieux","le plus"],"a":["plus"]}
+{"id":"compare.11","lesson":"compare","t":"fill","q":"Elle est aussi grande __ sa mère.","o":["comme","de","qu'"],"a":["que"]}
+{"id":"compare.12","lesson":"compare","t":"type","a":["Ma sœur est plus âgée que moi.","Ma soeur est plus âgée que moi.","Ma sœur est plus vieille que moi.","Ma soeur est plus vieille que moi."],"x":["âgé","je"]}
+{"id":"compare.13","lesson":"compare","t":"type","a":["Léa et Chloé sont plus grandes que Thomas."],"x":["est","grands"]}
+{"id":"compare.14","lesson":"compare","t":"type","a":["Il chante mieux que moi."],"x":["meilleur"]}
+{"id":"relatives.01","lesson":"relatives","t":"mc","o":["un ami qui parle français","un ami que parle français","un ami parle français","un ami où parle français"]}
+{"id":"relatives.02","lesson":"relatives","t":"mc","o":["le gâteau que tu as fait","le gâteau qui tu as fait","le gâteau tu as fait","le gâteau où tu as fait"]}
+{"id":"relatives.03","lesson":"relatives","t":"mc","o":["le café où nous mangeons","le café ou nous mangeons","le café que nous mangeons","le café qui nous mangeons"],"strict":true}
+{"id":"relatives.04","lesson":"relatives","t":"mc","o":["le pain qu'il achète","le pain que il achète","le pain qui il achète","le pain il achète"]}
+{"id":"relatives.05","lesson":"relatives","t":"mc","o":["le jour où je suis arrivé","le jour qui je suis arrivé","le jour quand je suis arrivé","le jour je suis arrivé"]}
+{"id":"relatives.06","lesson":"relatives","t":"order","a":["les","filles","qui","habitent","à","Lyon"],"x":["habite"]}
+{"id":"relatives.07","lesson":"relatives","t":"order","a":["le","film","que","nous","avons","vu"],"x":["ont"]}
+{"id":"relatives.08","lesson":"relatives","t":"order","a":["la","ville","où","j'habite"],"x":["le"]}
+{"id":"relatives.09","lesson":"relatives","t":"fill","q":"C'est une amie __ habite à Paris.","o":["que","qu'","où"],"a":["qui"]}
+{"id":"relatives.10","lesson":"relatives","t":"fill","q":"C'est l'ami __ j'ai vu hier.","o":["qui","où","quand"],"a":["que"]}
+{"id":"relatives.11","lesson":"relatives","t":"fill","q":"C'est le café __ on mange le samedi.","o":["ou","que","qui"],"a":["où"],"strict":true}
+{"id":"relatives.12","lesson":"relatives","t":"type","a":["mes amis qui parlent français","mes amis qui parlent le français"],"x":["parle","mon"]}
+{"id":"relatives.13","lesson":"relatives","t":"type","a":["le film que nous avons regardé"],"x":["ont","qui"]}
+{"id":"relatives.14","lesson":"relatives","t":"type","a":["le train qui part à huit heures"],"x":["que"]}

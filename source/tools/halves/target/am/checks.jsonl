@@ -1,0 +1,78 @@
+{"id":"orders.k1","lesson":"orders","o":[null,null,null,null],"a":0}
+{"id":"orders.k2","lesson":"orders","o":[null,null,null,null],"a":2}
+{"id":"orders.k3","lesson":"orders","o":[null,null,null,null],"a":1}
+{"id":"fidel-1.k1","lesson":"fidel-1","o":[null,null,null,null],"a":0}
+{"id":"fidel-1.k2","lesson":"fidel-1","o":[null,null,null,null],"a":1}
+{"id":"fidel-1.k3","lesson":"fidel-1","o":[null,null,null,null],"a":2}
+{"id":"fidel-2.k1","lesson":"fidel-2","o":[null,null,null,null],"a":2}
+{"id":"fidel-2.k2","lesson":"fidel-2","o":[null,null,null,null],"a":1}
+{"id":"fidel-2.k3","lesson":"fidel-2","o":[null,null,null,null],"a":2}
+{"id":"fidel-3.k1","lesson":"fidel-3","o":[null,null,null,null],"a":1}
+{"id":"fidel-3.k2","lesson":"fidel-3","o":[null,null,null,null],"a":1}
+{"id":"fidel-3.k3","lesson":"fidel-3","o":[null,null,null,null],"a":2}
+{"id":"reading.k1","lesson":"reading","o":[null,null,null,null],"a":3}
+{"id":"reading.k2","lesson":"reading","o":[null,null,null,null],"a":1}
+{"id":"reading.k3","lesson":"reading","o":[null,null,null,null],"a":2}
+{"id":"greetings.k1","lesson":"greetings","o":["ደህና አደርክ","ጤና ይስጥልኝ","ደህና አደርሽ","አመሰግናለሁ"],"a":1}
+{"id":"greetings.k2","lesson":"greetings","o":["ደህና አደርሽ","ደህና አደርክ","ደህና አደሩ","ደህና ዋልሽ"],"a":0}
+{"id":"greetings.k3","lesson":"greetings","o":[null,null,null,null],"a":2}
+{"id":"intro.k1","lesson":"intro","o":["ስሜ አበበች ናት","ስሜ አበበች","ስሜ አበበች ነው","አበበች ስሜ ነው"],"a":2}
+{"id":"intro.k2","lesson":"intro","o":["ስምሽ ማን ነው","ስምህ ማን ነው","ስምሽ ማን ነሽ","ማን ስምሽ ነው"],"a":0}
+{"id":"intro.k3","lesson":"intro","o":["ስምህ ማን ነው","ስምሽ ማን ነው","ስምዎ ማን ነህ","ስምዎ ማን ነው"],"a":3}
+{"id":"be.k1","lesson":"be","o":["እሷ ደህና ናት","እሷ ደህና ነው","እሷ ደህና ነሽ","ደህና እሷ ናት"],"a":0}
+{"id":"be.k2","lesson":"be","o":["እኛ ደህና ነው","እኛ ደህና ነን","እኛ ደህና ናቸው","ደህና እኛ ነን"],"a":1}
+{"id":"be.k3","lesson":"be","o":["አንተ ደህና ነህ","እናንተ ደህና ናችሁ","እነሱ ደህና ናቸው","እርስዎ ደህና ነዎት"],"a":3}
+{"id":"definite.k1","lesson":"definite","o":[null,null,null,null],"a":2}
+{"id":"definite.k2","lesson":"definite","o":["ልጇ","ልጁ","ልጅ","ልጆች"],"a":0}
+{"id":"definite.k3","lesson":"definite","o":["ቤቱ","ቤቶች","ቤትስ","ቤት"],"a":1}
+{"id":"this-that.k1","lesson":"this-that","o":["ይህች","ይህ","ያች","ያ"],"a":1}
+{"id":"this-that.k2","lesson":"this-that","o":["ይህች ትግስት ናት።","ይህ ትግስት ነው።","ይህች ትግስት ነው።","ያ ትግስት ናት።"],"a":0}
+{"id":"this-that.k3","lesson":"this-that","o":["ይህ ብዕር ነው።","ይህች ብዕር ናት።","ያ ብዕር ነው።","ያ ብዕር ናት።"],"a":2}
+{"id":"questions.k1","lesson":"questions","o":["ቤቱ የት ነው?","ቤቱ መቼ ነው?","ቤቱ ማን ነው?","ቤቱ ምንድን ነው?"],"a":0}
+{"id":"questions.k2","lesson":"questions","o":["ማን ነህ?","ማን ነው?","ማን ነሽ?","ማን ነኝ?"],"a":2}
+{"id":"questions.k3","lesson":"questions","o":["እንዴት ነህ?","እንዴት ነዎት?","እንዴት ነሽ?","ምን ነዎት?"],"a":1}
+{"id":"numbers.k1","lesson":"numbers","o":["አራት","ስድስት","አምስት","ሰባት"],"a":2}
+{"id":"numbers.k2","lesson":"numbers","o":["ሁለት ቤት ነህ።","ሁለት ቤት ናቸው።","ሁለት ቤት ነሽ።","ሁለት ቤት ነኝ።"],"a":1}
+{"id":"numbers.k3","lesson":"numbers","o":["አስር","መቶ","ሁለት አስር","ሃያ"],"a":3}
+{"id":"possessive.k1","lesson":"possessive","o":["ቤትህ","ቤትሽ","ቤቷ","ቤቴ"],"a":1}
+{"id":"possessive.k2","lesson":"possessive","o":["ቤቴ ነኝ።","ቤትህ ነው።","ቤቴ ነህ።","ቤቴ ነው።"],"a":3}
+{"id":"possessive.k3","lesson":"possessive","o":["ቤትዎ","ቤትህ","ቤትሽ","ቤታቸው"],"a":0}
+{"id":"have.k1","lesson":"have","o":["ብዕር አለኝ።","አለኝ ብዕር።","ብዕር አለህ።","ብዕር የለኝም።"],"a":0}
+{"id":"have.k2","lesson":"have","o":["መጽሐፍ አለሽ።","መጽሐፍ የለህም።","መጽሐፍ የለሽም።","መጽሐፍ አለኝ።"],"a":2}
+{"id":"have.k3","lesson":"have","o":[null,null,null,null],"a":1}
+{"id":"prepositions.k1","lesson":"prepositions","o":["ከ አሜሪካ ነኝ።","ከአሜሪካ ነህ።","ከአሜሪካ ነኝ።","በአሜሪካ ነኝ።"],"a":2}
+{"id":"prepositions.k2","lesson":"prepositions","o":["ይህ መጽሐፍ ለአንቺ ነው።","ይህ መጽሐፍ ለአንተ ነው።","ይህ መጽሐፍ ወደ አንቺ ነው።","ለአንቺ ይህ መጽሐፍ።"],"a":0}
+{"id":"prepositions.k3","lesson":"prepositions","o":["በአዲስ አበባ ነህ።","በአዲስ አበባ ነዎት።","ከአዲስ አበባ ነዎት።","ወደ አዲስ አበባ ነዎት።"],"a":1}
+{"id":"past.k1","lesson":"past","o":["ጠጣሁ ቡናውን።","ቡናውን ጠጣሁ።","ቡናው ጠጣሁ።","ቡናውን ጠጣህ።"],"a":1}
+{"id":"past.k2","lesson":"past","o":["ሄድሽ","ሄድክ","ሄደች","ሄድኩ"],"a":0}
+{"id":"past.k3","lesson":"past","o":["ወደ ቤት ሄደ።","ወደ ቤት ሄድሽ።","ሄደች ወደ ቤት።","ወደ ቤት ሄደች።"],"a":3}
+{"id":"present.k1","lesson":"present","o":["ወደ ቤት እሄዳለሁ።","ወደ ቤት ሄድኩ።","እሄዳለሁ ወደ ቤት።","ወደ ቤት ትሄዳለህ።"],"a":0}
+{"id":"present.k2","lesson":"present","o":["ቡና ትጠጣለህ።","ቡና ይጠጣል።","ቡና ትጠጣለሽ።","ቡና ትጠጫለሽ።"],"a":3}
+{"id":"present.k3","lesson":"present","o":["ትሄዳለች ወደ ጎንደር።","ወደ ጎንደር ትሄዳለች።","ወደ ጎንደር ይሄዳል።","ወደ ጎንደር ትሄዳለህ።"],"a":2}
+{"id":"negative.k1","lesson":"negative","o":["አልእሄዳለሁም","አልሄድም","አልሄድኩም","ሄድኩም"],"a":2}
+{"id":"negative.k2","lesson":"negative","o":["ወደ ቤት አልሄድክም።","ወደ ቤት አልሄድሽም።","ወደ ቤት ሄድሽ።","አልሄድሽም ወደ ቤት።"],"a":1}
+{"id":"negative.k3","lesson":"negative","o":["አልሄድም","አልእሄዳለሁም","እሄዳለሁ","አልሄድኩም"],"a":0}
+{"id":"want.k1","lesson":"want","o":[null,null,null,null],"a":0}
+{"id":"want.k2","lesson":"want","o":["እሄዳለሁ","መሄድ","ሄድኩ","አልሄድም"],"a":1}
+{"id":"want.k3","lesson":"want","o":["ትፈልጋለህ","ይፈልጋሉ","ትፈልጊያለሽ","እፈልጋለሁ"],"a":2}
+{"id":"commands.k1","lesson":"commands","o":["ና","ነይ","ኑ","ይምጡ"],"a":1}
+{"id":"commands.k2","lesson":"commands","o":["እባክህ","እባክሽ","እባክዎ","አመሰግናለሁ"],"a":2}
+{"id":"commands.k3","lesson":"commands","o":[null,null,"እርስዎ",null],"a":3}
+{"id":"time.k1","lesson":"time","o":["ይቅርታ","ስንት","ሰኞ","ብር"],"a":0}
+{"id":"time.k2","lesson":"time","o":[null,null,null,null],"a":1}
+{"id":"time.k3","lesson":"time","o":["እሁድ","አርብ","ሮብ","ማክሰኞ"],"a":2}
+{"id":"prices.k1","lesson":"prices","o":["ዋጋ ስንት ናቸው","ዋጋው ስንት ነው","ስንት ብር ነሽ","ብር ስንት ነህ"],"a":1}
+{"id":"prices.k2","lesson":"prices","o":[null,null,null,null],"a":1}
+{"id":"prices.k3","lesson":"prices","o":[null,null,null,null],"a":2}
+{"id":"likes.k1","lesson":"likes","o":["ቡና እወዳለሁ","እወዳለሁ ቡና","ቡና እፈልጋለሁ","እወዳለሁ"],"a":0}
+{"id":"likes.k2","lesson":"likes","o":["ቆንጆ","አሪፍ","ውቢት","መልካም"],"a":2}
+{"id":"likes.k3","lesson":"likes","o":[null,null,null,"እባክሽ"],"a":2}
+{"id":"family.k1","lesson":"family","o":["አባትህ","አባቴ","አባትሽ","አባትዎ"],"a":2}
+{"id":"family.k2","lesson":"family","o":["ወንድም አለኝ","ወንድም የለኝም","ወንድሜ ነው","አባት የለኝም"],"a":1}
+{"id":"family.k3","lesson":"family","o":["ነው","ነህ","ናት","ነሽ"],"a":2}
+{"id":"restaurant.k1","lesson":"restaurant","o":["እፈልጋለሁ",null,"እንጀራ","ሂሳብ"],"a":2}
+{"id":"restaurant.k2","lesson":"restaurant","o":["እባክሽ","እባክህ",null,"አመሰግናለሁ"],"a":0}
+{"id":"restaurant.k3","lesson":"restaurant","o":[null,null,null,null],"a":2}
+{"id":"directions.k1","lesson":"directions","o":["ነህ","ነው","ነሽ","ነዎት"],"a":1}
+{"id":"directions.k2","lesson":"directions","o":["ሂጂ","ወደ ግራ","ወደ ቀኝ","ቀጥ ብለህ"],"a":1}
+{"id":"directions.k3","lesson":"directions","o":["የት ነው","የት ነህ","የት ነዎት","የት ነሽ"],"a":2}

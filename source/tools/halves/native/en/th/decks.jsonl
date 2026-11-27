@@ -1,0 +1,30 @@
+{"id":"th.d.tones-and-vowel-length","label":"Tones and vowel length","desc":"Sets of words that differ only in tone or vowel length: มา / ม้า / หมา, ใกล้ / ไกล, ข้าว / ขาว / เขา."}
+{"id":"th.d.consonants-mid-and-high-class","label":"Consonants: mid and high class","desc":"The mid-class and high-class letters, each with its traditional name word (ก ไก่, ข ไข่)."}
+{"id":"th.d.consonants-low-class","label":"Consonants: low class","desc":"The common low-class letters with their name words, and the sounds they share with high-class letters."}
+{"id":"th.d.vowels-and-tone-marks","label":"Vowels and tone marks","desc":"One short word for each vowel shape and each tone mark."}
+{"id":"th.d.greetings-and-politeness","label":"Greetings and politeness","desc":"Hello, thank you, sorry and the polite particles, for male and female speakers."}
+{"id":"th.d.people-and-family","label":"People and family","desc":"Pronouns, kinship terms as \"you\" and \"I\", and family words."}
+{"id":"th.d.about-me","label":"About me","desc":"Name, country, job, languages: introducing yourself with ชื่อ, เป็น and มาจาก."}
+{"id":"th.d.numbers-and-money","label":"Numbers and money","desc":"Numbers to a million and prices in baht."}
+{"id":"th.d.counting-with-classifiers","label":"Counting with classifiers","desc":"Noun + number + classifier for people, animals, books, cups, bottles and more."}
+{"id":"th.d.food-and-drink","label":"Food and drink","desc":"Dishes, tastes and the phrases for ordering and paying."}
+{"id":"th.d.describing-things","label":"Describing things","desc":"Describing words after the noun, colors, this and that, and comparisons."}
+{"id":"th.d.time-and-days","label":"Time and days","desc":"Days, parts of the day, the Thai clock and time words."}
+{"id":"th.d.directions-and-places","label":"Directions and places","desc":"Places in town and the words for left, right, near and far."}
+{"id":"th.d.getting-around","label":"Getting around","desc":"Taxis, tuk-tuks, the BTS and tickets."}
+{"id":"th.d.shopping-and-colors","label":"Shopping and colors","desc":"Prices, bargaining politely, clothes and colors."}
+{"id":"th.d.health-and-feelings","label":"Health and feelings","desc":"How you feel, what hurts, and the pharmacy."}
+{"id":"th.d.questions-and-requests","label":"Questions and requests","desc":"Question words, yes/no questions and polite requests with ขอ and ช่วย."}
+{"id":"th.d.traps-for-english-speakers","label":"Traps for English speakers","desc":"False friends and word-for-word copies: เป็น with describing words, ฝรั่ง, ฟิต, อิ่ม, เผ็ด."}
+{"id":"th.d.compliments","label":"Compliments","desc":"Everyday praise for food, work, skills and homes, and the modest Thai way to answer it. Cards are plain: men add ครับ, women add ค่ะ."}
+{"id":"th.d.flirting","label":"Flirting","desc":"Words for flirting, phrases built from them, and how to ask someone out, say yes, or say no kindly, for male and female speakers."}
+{"id":"th.d.top-nouns","label":"Top nouns","desc":"The most-used Thai nouns. Nouns never change: no plural, no article; the note gives the classifier."}
+{"id":"th.d.top-verbs","label":"Top verbs","desc":"The most-used verbs. Thai verbs never change for person or time; time words do that work."}
+{"id":"th.d.top-adjectives","label":"Top adjectives","desc":"Describing words: they go after the noun and work like verbs, with no เป็น."}
+{"id":"th.d.top-adverbs","label":"Top adverbs","desc":"Very, already, still, often, here, now: mostly after the verb or at the end."}
+{"id":"th.d.top-pronouns","label":"Top pronouns","desc":"Beyond the basics in People and family: น้อง, หนู, ป้า as I and you, plus mine and yours, who, what and everyone."}
+{"id":"th.d.top-prepositions","label":"Top prepositions","desc":"ที่, ใน, บน, กับ, จาก, ถึง and the ข้าง… place words."}
+{"id":"th.d.top-conjunctions","label":"Top conjunctions","desc":"And, but, or, because, if, so, when: joining ideas in Thai."}
+{"id":"th.d.top-words","label":"Top words","desc":"Question words, this and that after the noun, numbers to twenty, yes and no, days and time words."}
+{"id":"th.d.top-classifiers","label":"Top classifiers","desc":"More classifiers for counting: noun + number + classifier."}
+{"id":"th.d.top-particles","label":"Top particles","desc":"The little words at the end of a sentence: คะ, นะ, สิ, เลย, ล่ะ, หรอก and more."}

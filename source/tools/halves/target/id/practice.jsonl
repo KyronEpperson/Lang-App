@@ -1,0 +1,378 @@
+{"id":"sounds.01","lesson":"sounds","t":"mc","o":[null,null,null,null]}
+{"id":"sounds.02","lesson":"sounds","t":"mc","o":[null,null,null,null]}
+{"id":"sounds.03","lesson":"sounds","t":"mc","o":[null,null,null,null]}
+{"id":"sounds.04","lesson":"sounds","t":"mc","o":[null,null,null,null]}
+{"id":"sounds.05","lesson":"sounds","t":"mc","o":[null,null,null,null]}
+{"id":"sounds.06","lesson":"sounds","t":"order","a":["nasi","goreng"],"x":["kopi"]}
+{"id":"sounds.07","lesson":"sounds","t":"order","a":["kopi","panas"],"x":["nasi"]}
+{"id":"sounds.08","lesson":"sounds","t":"order","a":["rumah","besar"],"x":["kopi"]}
+{"id":"sounds.09","lesson":"sounds","t":"fill","q":"__antik","o":["k","ch","s"],"a":["c"]}
+{"id":"sounds.10","lesson":"sounds","t":"fill","q":"ma__a","o":["ng","g","nk"],"a":["ngg"]}
+{"id":"sounds.11","lesson":"sounds","t":"fill","q":"ruma__","o":["k","a","r"],"a":["h"]}
+{"id":"sounds.12","lesson":"sounds","t":"type","a":["teh manis"],"x":["kopi"]}
+{"id":"sounds.13","lesson":"sounds","t":"type","a":["nama saya"],"x":["punya"]}
+{"id":"sounds.14","lesson":"sounds","t":"type","a":["nasi goreng enak"],"x":["besar"]}
+{"id":"greetings.01","lesson":"greetings","t":"mc","o":["Selamat sore.","Selamat malam.","Selamat pagi.","Selamat jalan."]}
+{"id":"greetings.02","lesson":"greetings","t":"mc","o":["Sama-sama.","Selamat jalan.","Permisi.","Apa kabar?"]}
+{"id":"greetings.03","lesson":"greetings","t":"mc","o":["Permisi.","Sama-sama.","Selamat tinggal.","Terima kasih."]}
+{"id":"greetings.04","lesson":"greetings","t":"mc","o":["Selamat jalan.","Selamat tinggal.","Selamat pagi.","Sama-sama."]}
+{"id":"greetings.05","lesson":"greetings","t":"mc","o":["Selamat pagi, Bu.","Selamat pagi, Mas.","Selamat pagi, Pak.","Selamat malam, Bu."]}
+{"id":"greetings.06","lesson":"greetings","t":"order","a":["nama","saya"],"x":["punya"]}
+{"id":"greetings.07","lesson":"greetings","t":"order","a":["teman","saya"],"x":["punya"]}
+{"id":"greetings.08","lesson":"greetings","t":"order","a":["Selamat","sore"],"x":["malam"]}
+{"id":"greetings.09","lesson":"greetings","t":"fill","q":"Selamat __.","o":["pagi","sore","siang"],"a":["malam"]}
+{"id":"greetings.10","lesson":"greetings","t":"fill","q":"Terima __.","o":["sama","kabar","baik"],"a":["kasih"]}
+{"id":"greetings.11","lesson":"greetings","t":"fill","q":"Selamat pagi, __.","o":["Pak","Mas","kamu"],"a":["Bu","Ibu"]}
+{"id":"greetings.12","lesson":"greetings","t":"type","a":["Nama saya Jack.","Nama saya adalah Jack."],"x":["punya"]}
+{"id":"greetings.13","lesson":"greetings","t":"type","a":["Ini teman saya.","Ini adalah teman saya."],"x":["punya"]}
+{"id":"greetings.14","lesson":"greetings","t":"type","a":["Selamat malam, Pak.","Selamat malam, Bapak."],"x":["Mas"]}
+{"id":"pronouns.01","lesson":"pronouns","t":"mc","o":[null,null,null,null]}
+{"id":"pronouns.02","lesson":"pronouns","t":"mc","o":["kami","kita","mereka","kamu"]}
+{"id":"pronouns.03","lesson":"pronouns","t":"mc","o":["Pak","kamu","Mas","aku"]}
+{"id":"pronouns.04","lesson":"pronouns","t":"mc","o":["Anda","kamu","Mbak","dia"]}
+{"id":"pronouns.05","lesson":"pronouns","t":"mc","o":["Mbak","Mas","Pak","mereka"]}
+{"id":"pronouns.06","lesson":"pronouns","t":"order","a":["teman","kita"],"x":["kami"]}
+{"id":"pronouns.07","lesson":"pronouns","t":"order","a":["teman","mereka"],"x":["dia"]}
+{"id":"pronouns.08","lesson":"pronouns","t":"order","a":["Dia","teman","saya"],"x":["kami"]}
+{"id":"pronouns.09","lesson":"pronouns","t":"fill","q":"Selamat pagi, __.","o":["kamu","Mbak","Bu"],"a":["Pak","Bapak"]}
+{"id":"pronouns.10","lesson":"pronouns","t":"fill","q":"teman __","o":["kita","mereka","dia"],"a":["kami"]}
+{"id":"pronouns.11","lesson":"pronouns","t":"fill","q":"__ teman saya.","o":["Saya","Kami","Mereka"],"a":["Dia"]}
+{"id":"pronouns.12","lesson":"pronouns","t":"type","a":["teman dia","temannya"],"x":["mereka"]}
+{"id":"pronouns.13","lesson":"pronouns","t":"type","a":["rumah kita"],"x":["kami"]}
+{"id":"pronouns.14","lesson":"pronouns","t":"type","a":["Terima kasih, Bu.","Terima kasih, Ibu."],"x":["kamu"]}
+{"id":"intro.01","lesson":"intro","t":"mc","o":["Siapa nama Anda?","Apa nama Anda?","Siapa Anda nama?","Apa Anda nama?"]}
+{"id":"intro.02","lesson":"intro","t":"mc","o":["Umur saya dua puluh lima tahun.","Saya punya dua puluh lima tahun.","Saya tahun dua puluh lima.","Dua puluh lima punya saya."]}
+{"id":"intro.03","lesson":"intro","t":"mc","o":[null,null,null,null]}
+{"id":"intro.04","lesson":"intro","t":"mc","o":[null,null,null,null]}
+{"id":"intro.05","lesson":"intro","t":"mc","o":[null,null,null,null]}
+{"id":"intro.06","lesson":"intro","t":"order","a":["Saya","dari","Amerika"],"x":["adalah"]}
+{"id":"intro.07","lesson":"intro","t":"order","a":["umur","saya"],"x":["punya"]}
+{"id":"intro.08","lesson":"intro","t":"order","a":["Saya","tinggal","di","Jakarta"],"x":["dari"]}
+{"id":"intro.09","lesson":"intro","t":"fill","q":"__ nama Anda?","o":["Apa","Mana","Dari"],"a":["Siapa"]}
+{"id":"intro.10","lesson":"intro","t":"fill","q":"Saya __ di Jakarta.","o":["dari","orang","adalah"],"a":["tinggal"]}
+{"id":"intro.11","lesson":"intro","t":"fill","q":"Saya bekerja __ guru.","o":["adalah","di","orang"],"a":["sebagai"]}
+{"id":"intro.12","lesson":"intro","t":"type","a":["Teman saya dari Amerika.","Teman saya berasal dari Amerika.","Temanku dari Amerika.","Temanku berasal dari Amerika."],"x":["adalah"]}
+{"id":"intro.13","lesson":"intro","t":"type","a":["Umur saya dua puluh lima tahun.","Umur saya 25 tahun.","Saya berumur dua puluh lima tahun.","Saya berumur 25 tahun."],"x":["punya"]}
+{"id":"intro.14","lesson":"intro","t":"type","a":["Siapa nama Anda?","Nama Anda siapa?"],"x":["apa"]}
+{"id":"no-be.01","lesson":"no-be","t":"mc","o":["Saya lapar.","Saya adalah lapar.","Saya ada lapar.","Lapar adalah saya."]}
+{"id":"no-be.02","lesson":"no-be","t":"mc","o":["Dia di kantor.","Dia adalah di kantor.","Dia kantor di.","Di dia kantor."]}
+{"id":"no-be.03","lesson":"no-be","t":"mc","o":["Ibu kota Indonesia adalah Jakarta.","Saya adalah lapar.","Dia adalah di rumah.","Saya adalah dari Amerika."]}
+{"id":"no-be.04","lesson":"no-be","t":"mc","o":[null,null,null,null]}
+{"id":"no-be.05","lesson":"no-be","t":"mc","o":[null,null,null,null]}
+{"id":"no-be.06","lesson":"no-be","t":"order","a":["Saya","lapar"],"x":["adalah"]}
+{"id":"no-be.07","lesson":"no-be","t":"order","a":["Dia","di","kantor"],"x":["adalah"]}
+{"id":"no-be.08","lesson":"no-be","t":"order","a":["Teman","saya","capek"],"x":["adalah"]}
+{"id":"no-be.09","lesson":"no-be","t":"fill","q":"Teman saya __ rumah.","o":["adalah","ada","punya"],"a":["di"]}
+{"id":"no-be.10","lesson":"no-be","t":"fill","q":"Kemarin saya __ nasi goreng.","o":["akan makan","adalah makan","makanan"],"a":["makan"]}
+{"id":"no-be.11","lesson":"no-be","t":"fill","q":"Ibu kota Indonesia __ Jakarta.","o":["ada","di","punya"],"a":["adalah"]}
+{"id":"no-be.12","lesson":"no-be","t":"type","a":["Saya capek.","Saya lelah."],"x":["adalah"]}
+{"id":"no-be.13","lesson":"no-be","t":"type","a":["Dia di rumah.","Dia ada di rumah."],"x":["adalah"]}
+{"id":"no-be.14","lesson":"no-be","t":"type","a":["Saya guru.","Saya adalah guru.","Saya seorang guru."],"x":["punya"]}
+{"id":"ini-itu.01","lesson":"ini-itu","t":"mc","o":["buku ini","ini buku","buku itu","itu buku"]}
+{"id":"ini-itu.02","lesson":"ini-itu","t":"mc","o":[null,null,null,null]}
+{"id":"ini-itu.03","lesson":"ini-itu","t":"mc","o":["Yang ini.","Ini yang.","Yang itu.","Ini itu."]}
+{"id":"ini-itu.04","lesson":"ini-itu","t":"mc","o":[null,null,null,null]}
+{"id":"ini-itu.05","lesson":"ini-itu","t":"mc","o":["Kopi itu panas.","Itu kopi panas.","Kopi panas itu.","Itu panas kopi."]}
+{"id":"ini-itu.06","lesson":"ini-itu","t":"order","a":["baju","ini"],"x":["itu"]}
+{"id":"ini-itu.07","lesson":"ini-itu","t":"order","a":["Tas","itu","mahal"],"x":["adalah"]}
+{"id":"ini-itu.08","lesson":"ini-itu","t":"order","a":["Ini","buku"],"x":["itu"]}
+{"id":"ini-itu.09","lesson":"ini-itu","t":"fill","q":"Buku __ murah.","o":["itu","yang","adalah"],"a":["ini"]}
+{"id":"ini-itu.10","lesson":"ini-itu","t":"fill","q":"__ tas saya.","o":["Ini","Yang","Adalah"],"a":["Itu"]}
+{"id":"ini-itu.11","lesson":"ini-itu","t":"fill","q":"Saya mau yang __.","o":["ini","buku","adalah"],"a":["itu"]}
+{"id":"ini-itu.12","lesson":"ini-itu","t":"type","a":["tas itu"],"x":["ini"]}
+{"id":"ini-itu.13","lesson":"ini-itu","t":"type","a":["Baju ini murah."],"x":["adalah"]}
+{"id":"ini-itu.14","lesson":"ini-itu","t":"type","a":["Itu tas saya.","Itu adalah tas saya."],"x":["ini"]}
+{"id":"noun-adj.01","lesson":"noun-adj","t":"mc","o":["rumah besar","besar rumah","rumah adalah besar","besar adalah rumah"]}
+{"id":"noun-adj.02","lesson":"noun-adj","t":"mc","o":["tiket pesawat","pesawat tiket","tiket adalah pesawat","pesawat-tiket"]}
+{"id":"noun-adj.03","lesson":"noun-adj","t":"mc","o":["sangat panas","adalah panas","sekali panas","sangat-panas"]}
+{"id":"noun-adj.04","lesson":"noun-adj","t":"mc","o":[null,null,null,null]}
+{"id":"noun-adj.05","lesson":"noun-adj","t":"mc","o":[null,null,null,null]}
+{"id":"noun-adj.06","lesson":"noun-adj","t":"order","a":["mobil","baru"],"x":["besar"]}
+{"id":"noun-adj.07","lesson":"noun-adj","t":"order","a":["tiket","pesawat"],"x":["di"]}
+{"id":"noun-adj.08","lesson":"noun-adj","t":"order","a":["Rumah","besar","itu","mahal"],"x":["adalah"]}
+{"id":"noun-adj.09","lesson":"noun-adj","t":"fill","q":"kopi __","o":["sangat","sekali","adalah"],"a":["panas"]}
+{"id":"noun-adj.10","lesson":"noun-adj","t":"fill","q":"Baju ini bagus __.","o":["adalah","itu","yang"],"a":["sekali"]}
+{"id":"noun-adj.11","lesson":"noun-adj","t":"fill","q":"Saya mau kamar __.","o":["adalah","sangat","kecil"],"a":["besar","yang besar"]}
+{"id":"noun-adj.12","lesson":"noun-adj","t":"type","a":["baju merah"],"x":["putih"]}
+{"id":"noun-adj.13","lesson":"noun-adj","t":"type","a":["Rumah itu sangat besar.","Rumah itu besar sekali."],"x":["adalah"]}
+{"id":"noun-adj.14","lesson":"noun-adj","t":"type","a":["mobil baru saya","mobil saya yang baru"],"x":["punya"]}
+{"id":"possession.01","lesson":"possession","t":"mc","o":["buku saya","saya buku","buku adalah saya","saya adalah buku"]}
+{"id":"possession.02","lesson":"possession","t":"mc","o":["mobil Budi","Budi mobil","mobil adalah Budi","Budi adalah mobil"]}
+{"id":"possession.03","lesson":"possession","t":"mc","o":[null,null,null,null]}
+{"id":"possession.04","lesson":"possession","t":"mc","o":["tasmu","mutas","kamu tas","tas-mu"]}
+{"id":"possession.05","lesson":"possession","t":"mc","o":[null,null,null,null]}
+{"id":"possession.06","lesson":"possession","t":"order","a":["mobil","Budi"],"x":["punya"]}
+{"id":"possession.07","lesson":"possession","t":"order","a":["rumah","teman","saya"],"x":["punya"]}
+{"id":"possession.08","lesson":"possession","t":"order","a":["Kamar","saya","kecil"],"x":["adalah"]}
+{"id":"possession.09","lesson":"possession","t":"fill","q":"rumah __ saya","o":["punya","adalah","ini"],"a":["teman"]}
+{"id":"possession.10","lesson":"possession","t":"fill","q":"Berapa harga__?","o":["ku","mu","kamu"],"a":["nya"]}
+{"id":"possession.11","lesson":"possession","t":"fill","q":"Saya __ mobil.","o":["adalah","di","ini"],"a":["punya"]}
+{"id":"possession.12","lesson":"possession","t":"type","a":["buku saya","bukuku"],"x":["punya"]}
+{"id":"possession.13","lesson":"possession","t":"type","a":["Rumah Siti besar."],"x":["adalah"]}
+{"id":"possession.14","lesson":"possession","t":"type","a":["Kamar kamu besar.","Kamarmu besar."],"x":["adalah"]}
+{"id":"questions.01","lesson":"questions","t":"mc","o":["Siapa itu?","Apa itu?","Mana itu?","Kapan itu?"]}
+{"id":"questions.02","lesson":"questions","t":"mc","o":["Kamu mau ke mana?","Kamu mau di mana?","Kamu mau dari mana?","Kamu mau kapan?"]}
+{"id":"questions.03","lesson":"questions","t":"mc","o":[null,null,null,null]}
+{"id":"questions.04","lesson":"questions","t":"mc","o":[null,null,null,null]}
+{"id":"questions.05","lesson":"questions","t":"mc","o":["Kamu capek?","Kamu adalah capek?","Adalah kamu capek?","Capek adalah kamu?"]}
+{"id":"questions.06","lesson":"questions","t":"order","a":["mobil","siapa"],"x":["punya"]}
+{"id":"questions.07","lesson":"questions","t":"order","a":["Siapa","nama","teman","kamu"],"x":["apa"]}
+{"id":"questions.08","lesson":"questions","t":"order","a":["Kamu","tinggal","di","mana"],"x":["ke"]}
+{"id":"questions.09","lesson":"questions","t":"fill","q":"__ kamu tinggal?","o":["Ke mana","Dari mana","Kapan"],"a":["Di mana"]}
+{"id":"questions.10","lesson":"questions","t":"fill","q":"Mobil __ ini?","o":["apa","mana","berapa"],"a":["siapa"]}
+{"id":"questions.11","lesson":"questions","t":"fill","q":"__ harganya?","o":["Apa","Siapa","Kapan"],"a":["Berapa"]}
+{"id":"questions.12","lesson":"questions","t":"type","a":["Rumah kamu di mana?","Di mana rumah kamu?","Rumahmu di mana?","Di mana rumahmu?","Rumah kamu ada di mana?","Rumahmu ada di mana?"],"x":["adalah"]}
+{"id":"questions.13","lesson":"questions","t":"type","a":["Tas siapa ini?","Ini tas siapa?","Tas ini punya siapa?","Tas ini milik siapa?"],"x":["apa"]}
+{"id":"questions.14","lesson":"questions","t":"type","a":["Kamu lapar?","Apakah kamu lapar?","Apa kamu lapar?"],"x":["adalah"]}
+{"id":"negation.01","lesson":"negation","t":"mc","o":["Saya tidak lapar.","Saya bukan lapar.","Saya adalah tidak lapar.","Saya lapar tidak."]}
+{"id":"negation.02","lesson":"negation","t":"mc","o":["Ini bukan buku saya.","Ini tidak buku saya.","Ini bukan saya buku.","Ini buku bukan saya."]}
+{"id":"negation.03","lesson":"negation","t":"mc","o":["Saya tidak punya mobil.","Saya bukan punya mobil.","Saya punya tidak mobil.","Saya tidak mobil."]}
+{"id":"negation.04","lesson":"negation","t":"mc","o":["Bukan.","Jangan.","Belum.","Adalah."]}
+{"id":"negation.05","lesson":"negation","t":"mc","o":["Jangan pergi!","Tidak pergi!","Bukan pergi!","Pergi tidak!"]}
+{"id":"negation.06","lesson":"negation","t":"order","a":["Saya","tidak","lapar"],"x":["adalah"]}
+{"id":"negation.07","lesson":"negation","t":"order","a":["Ini","bukan","rumah","saya"],"x":["tidak"]}
+{"id":"negation.08","lesson":"negation","t":"order","a":["Kamar","saya","tidak","besar"],"x":["bukan"]}
+{"id":"negation.09","lesson":"negation","t":"fill","q":"Saya __ guru.","o":["tidak","jangan","adalah"],"a":["bukan"]}
+{"id":"negation.10","lesson":"negation","t":"fill","q":"Kopi ini __ panas.","o":["bukan","jangan","adalah"],"a":["tidak"]}
+{"id":"negation.11","lesson":"negation","t":"fill","q":"__ pergi!","o":["Tidak","Bukan","Belum"],"a":["Jangan"]}
+{"id":"negation.12","lesson":"negation","t":"type","a":["Saya bukan mahasiswa."],"x":["tidak"]}
+{"id":"negation.13","lesson":"negation","t":"type","a":["Mobil saya tidak baru.","Mobilku tidak baru."],"x":["bukan"]}
+{"id":"negation.14","lesson":"negation","t":"type","a":["Dia bukan orang Indonesia."],"x":["tidak"]}
+{"id":"numbers.01","lesson":"numbers","t":"mc","o":["lima belas","lima puluh","sebelas lima","belas lima"]}
+{"id":"numbers.02","lesson":"numbers","t":"mc","o":["lima puluh","lima belas","lima ratus","puluh lima"]}
+{"id":"numbers.03","lesson":"numbers","t":"mc","o":["seribu","sepuluh","seratus","sejuta"]}
+{"id":"numbers.04","lesson":"numbers","t":"mc","o":["dua ratus ribu rupiah","dua ribu rupiah","dua juta rupiah","dua puluh ribu rupiah"]}
+{"id":"numbers.05","lesson":"numbers","t":"mc","o":["dua kopi panas","dua panas kopi","panas kopi dua","dua kopi-kopi panas"]}
+{"id":"numbers.06","lesson":"numbers","t":"order","a":["dua","rumah","besar"],"x":["rumah-rumah"]}
+{"id":"numbers.07","lesson":"numbers","t":"order","a":["nomor","telepon","saya"],"x":["punya"]}
+{"id":"numbers.08","lesson":"numbers","t":"order","a":["Harganya","lima","puluh","ribu","rupiah"],"x":["belas"]}
+{"id":"numbers.09","lesson":"numbers","t":"fill","q":"dua __ lima","o":["belas","ratus","ribu"],"a":["puluh"]}
+{"id":"numbers.10","lesson":"numbers","t":"fill","q":"Harganya __ ribu rupiah.","o":["satu ratus","sepuluh","seribu"],"a":["seratus"]}
+{"id":"numbers.11","lesson":"numbers","t":"fill","q":"tiga __ baru","o":["buku-buku","bukuku","baru"],"a":["buku"]}
+{"id":"numbers.12","lesson":"numbers","t":"type","a":["tiga buku baru"],"x":["buku-buku"]}
+{"id":"numbers.13","lesson":"numbers","t":"type","a":["harga baju ini"],"x":["itu"]}
+{"id":"numbers.14","lesson":"numbers","t":"type","a":["tiga puluh ribu rupiah","tiga puluh ribu"],"x":["belas"]}
+{"id":"time.01","lesson":"time","t":"mc","o":["jam tiga","tiga jam","setengah tiga","tiga pukul"]}
+{"id":"time.02","lesson":"time","t":"mc","o":["jam setengah tiga","jam setengah dua","setengah jam tiga","tiga setengah jam"]}
+{"id":"time.03","lesson":"time","t":"mc","o":[null,null,null,null]}
+{"id":"time.04","lesson":"time","t":"mc","o":["jam delapan malam","jam delapan pagi","jam delapan sore","delapan jam malam"]}
+{"id":"time.05","lesson":"time","t":"mc","o":["hari Senin","hari Selasa","hari Minggu","Senin hari"]}
+{"id":"time.06","lesson":"time","t":"order","a":["jam","tiga"],"x":["setengah"]}
+{"id":"time.07","lesson":"time","t":"order","a":["jam","tujuh","pagi"],"x":["malam"]}
+{"id":"time.08","lesson":"time","t":"order","a":["tanggal","tujuh","belas","Agustus"],"x":["jam"]}
+{"id":"time.09","lesson":"time","t":"fill","q":"Sekarang jam __ tiga.","o":["lewat","kurang","seperempat"],"a":["setengah"]}
+{"id":"time.10","lesson":"time","t":"fill","q":"Saya tidur delapan __.","o":["pukul","setengah","malam"],"a":["jam"]}
+{"id":"time.11","lesson":"time","t":"fill","q":"jam empat __ seperempat","o":["kurang","setengah","pukul"],"a":["lewat","lebih"]}
+{"id":"time.12","lesson":"time","t":"type","a":["jam lima sore","pukul lima sore"],"x":["malam"]}
+{"id":"time.13","lesson":"time","t":"type","a":["Sekarang jam dua.","Jam dua.","Jam dua sekarang.","Sekarang pukul dua.","Pukul dua."],"x":["setengah"]}
+{"id":"time.14","lesson":"time","t":"type","a":["Jam setengah tiga.","Setengah tiga.","Sekarang jam setengah tiga.","Sekarang setengah tiga.","Jam setengah tiga sekarang.","Pukul setengah tiga.","Sekarang pukul setengah tiga."],"x":["dua"]}
+{"id":"ada.01","lesson":"ada","t":"mc","o":["Ada apotek di dekat sini?","Adalah apotek di dekat sini?","Apotek adalah di dekat sini?","Punya apotek di dekat sini?"]}
+{"id":"ada.02","lesson":"ada","t":"mc","o":["Tidak ada gula.","Bukan ada gula.","Ada tidak gula.","Tidak gula ada."]}
+{"id":"ada.03","lesson":"ada","t":"mc","o":["Ada kamar kosong?","Adalah kamar kosong?","Kamar kosong adalah?","Kosong kamar ada?"]}
+{"id":"ada.04","lesson":"ada","t":"mc","o":["Ada.","Adalah.","Bukan.","Punya."]}
+{"id":"ada.05","lesson":"ada","t":"mc","o":["Saya punya mobil.","Saya adalah mobil.","Saya mobil punya.","Punya saya mobil."]}
+{"id":"ada.06","lesson":"ada","t":"order","a":["Tidak","ada","air","panas"],"x":["bukan"]}
+{"id":"ada.07","lesson":"ada","t":"order","a":["Ada","dua","kamar","kosong"],"x":["kamar-kamar"]}
+{"id":"ada.08","lesson":"ada","t":"order","a":["Dia","di","rumah"],"x":["adalah"]}
+{"id":"ada.09","lesson":"ada","t":"fill","q":"__ apotek di dekat sini?","o":["Adalah","Bukan","Punya"],"a":["Ada"]}
+{"id":"ada.10","lesson":"ada","t":"fill","q":"Tidak __ kamar kosong.","o":["adalah","bukan","jangan"],"a":["ada"]}
+{"id":"ada.11","lesson":"ada","t":"fill","q":"Saya __ mobil.","o":["adalah","bukan","tidak"],"a":["punya","ada"]}
+{"id":"ada.12","lesson":"ada","t":"type","a":["Tidak ada air panas.","Air panas tidak ada."],"x":["bukan"]}
+{"id":"ada.13","lesson":"ada","t":"type","a":["Ada kamar besar?","Apakah ada kamar besar?","Apa ada kamar besar?"],"x":["adalah"]}
+{"id":"ada.14","lesson":"ada","t":"type","a":["Teman saya tidak di rumah.","Teman saya tidak ada di rumah.","Temanku tidak di rumah.","Temanku tidak ada di rumah."],"x":["bukan"]}
+{"id":"prepositions.01","lesson":"prepositions","t":"mc","o":["Saya di hotel.","Saya ke hotel.","Saya dari hotel.","Saya adalah di hotel."]}
+{"id":"prepositions.02","lesson":"prepositions","t":"mc","o":["Kamu dari mana?","Kamu di mana?","Kamu ke mana?","Kamu dari di mana?"]}
+{"id":"prepositions.03","lesson":"prepositions","t":"mc","o":["Tas saya di bawah meja.","Tas saya di meja bawah.","Tas saya bawah di meja.","Tas saya ke bawah meja."]}
+{"id":"prepositions.04","lesson":"prepositions","t":"mc","o":["Saya tinggal di Bandung.","Saya tinggal dibandung.","Saya tinggal ke Bandung.","Saya tinggal dari Bandung."]}
+{"id":"prepositions.05","lesson":"prepositions","t":"mc","o":["di depan stasiun","di stasiun depan","depan di stasiun","stasiun di depan"]}
+{"id":"prepositions.06","lesson":"prepositions","t":"order","a":["di","kamar","saya"],"x":["ke"]}
+{"id":"prepositions.07","lesson":"prepositions","t":"order","a":["ke","rumah","teman","saya"],"x":["di"]}
+{"id":"prepositions.08","lesson":"prepositions","t":"order","a":["Saya","pergi","ke","pasar"],"x":["di"]}
+{"id":"prepositions.09","lesson":"prepositions","t":"fill","q":"Saya pergi __ Bali.","o":["di","dari","bukan"],"a":["ke"]}
+{"id":"prepositions.10","lesson":"prepositions","t":"fill","q":"Kamu __ mana?","o":["di","ke","apa"],"a":["dari"]}
+{"id":"prepositions.11","lesson":"prepositions","t":"fill","q":"Kucing itu di __ meja.","o":["atas","depan","belakang"],"a":["bawah"]}
+{"id":"prepositions.12","lesson":"prepositions","t":"type","a":["di rumah saya","di rumahku"],"x":["ke"]}
+{"id":"prepositions.13","lesson":"prepositions","t":"type","a":["Hotel saya di Ubud.","Hotelku di Ubud.","Hotel saya ada di Ubud.","Hotelku ada di Ubud."],"x":["adalah"]}
+{"id":"prepositions.14","lesson":"prepositions","t":"type","a":["Kamu pergi ke mana?","Ke mana kamu pergi?","Kamu ke mana?","Ke mana kamu?","Kamu mau ke mana?","Mau ke mana?"],"x":["di"]}
+{"id":"family.01","lesson":"family","t":"mc","o":["ibu saya","saya ibu","ibu-ibu saya","saya punya ibu"]}
+{"id":"family.02","lesson":"family","t":"mc","o":["adik perempuan saya","kakak perempuan saya","adik laki-laki saya","perempuan adik saya"]}
+{"id":"family.03","lesson":"family","t":"mc","o":["orang tua","tua orang","orang-orang tua","kakek nenek"]}
+{"id":"family.04","lesson":"family","t":"mc","o":["Belum.","Bukan.","Jangan.","Sudah."]}
+{"id":"family.05","lesson":"family","t":"mc","o":["suaminya","istrinya","dia suami","suami-nya"]}
+{"id":"family.06","lesson":"family","t":"order","a":["kakak","laki-laki","saya"],"x":["adik"]}
+{"id":"family.07","lesson":"family","t":"order","a":["Istri","saya","guru"],"x":["punya"]}
+{"id":"family.08","lesson":"family","t":"order","a":["Nenek","saya","tinggal","di","Bandung"],"x":["ke"]}
+{"id":"family.09","lesson":"family","t":"fill","q":"kakak __ saya","o":["laki-laki","adik","ibu"],"a":["perempuan"]}
+{"id":"family.10","lesson":"family","t":"fill","q":"Sudah menikah? __.","o":["Bukan","Jangan","Adalah"],"a":["Belum"]}
+{"id":"family.11","lesson":"family","t":"fill","q":"Nenek __ tinggal di Bali.","o":["kamu","dia","mereka"],"a":["saya"]}
+{"id":"family.12","lesson":"family","t":"type","a":["adik laki-laki saya","adik laki-lakiku"],"x":["kakak"]}
+{"id":"family.13","lesson":"family","t":"type","a":["Suami saya orang Bali.","Suamiku orang Bali.","Suami saya adalah orang Bali.","Suamiku adalah orang Bali."],"x":["punya"]}
+{"id":"family.14","lesson":"family","t":"type","a":["Orang tua saya tidak di Jakarta.","Orang tua saya tidak ada di Jakarta.","Orang tuaku tidak di Jakarta.","Orang tuaku tidak ada di Jakarta."],"x":["bukan"]}
+{"id":"time-words.01","lesson":"time-words","t":"mc","o":["Saya sudah mandi.","Saya akan mandi.","Saya mandi sudah.","Saya sedang mandi."]}
+{"id":"time-words.02","lesson":"time-words","t":"mc","o":["Dia sedang mandi.","Dia sudah mandi.","Dia akan mandi.","Dia mandi sedang."]}
+{"id":"time-words.03","lesson":"time-words","t":"mc","o":["Belum.","Bukan.","Sedang.","Akan."]}
+{"id":"time-words.04","lesson":"time-words","t":"mc","o":["Kami akan pulang besok.","Kami sudah pulang besok.","Kami pulang akan besok.","Kami sedang pulang besok."]}
+{"id":"time-words.05","lesson":"time-words","t":"mc","o":["Kamu pernah ke Lombok?","Kamu akan ke Lombok?","Kamu pernah Lombok?","Kamu masih Lombok?"]}
+{"id":"time-words.06","lesson":"time-words","t":"order","a":["Saya","sudah","makan"],"x":["akan"]}
+{"id":"time-words.07","lesson":"time-words","t":"order","a":["Dia","masih","di","kantor"],"x":["adalah"]}
+{"id":"time-words.08","lesson":"time-words","t":"order","a":["Dia","belum","mandi"],"x":["tidak"]}
+{"id":"time-words.09","lesson":"time-words","t":"fill","q":"Saya __ makan.","o":["tidak","bukan","akan"],"a":["belum"]}
+{"id":"time-words.10","lesson":"time-words","t":"fill","q":"Dia __ makan.","o":["sudah","akan","pernah"],"a":["sedang"]}
+{"id":"time-words.11","lesson":"time-words","t":"fill","q":"Kami __ pulang besok.","o":["sudah","sedang","pernah"],"a":["akan"]}
+{"id":"time-words.12","lesson":"time-words","t":"type","a":["Saya sudah makan.","Sudah makan."],"x":["akan"]}
+{"id":"time-words.13","lesson":"time-words","t":"type","a":["Ibu saya masih di pasar.","Ibu saya masih ada di pasar.","Ibuku masih di pasar.","Ibuku masih ada di pasar."],"x":["adalah"]}
+{"id":"time-words.14","lesson":"time-words","t":"type","a":["Saya belum pernah ke Bali.","Saya tidak pernah ke Bali.","Saya belum pernah pergi ke Bali.","Saya tidak pernah pergi ke Bali."],"x":["bukan"]}
+{"id":"ber.01","lesson":"ber","t":"mc","o":["berenang","berrenang","bernang","merenang"]}
+{"id":"ber.02","lesson":"ber","t":"mc","o":["belajar","berajar","berlajar","melajar"]}
+{"id":"ber.03","lesson":"ber","t":"mc","o":["Mereka bermain bola.","Mereka bemain bola.","Mereka permain bola.","Mereka adalah bermain bola."]}
+{"id":"ber.04","lesson":"ber","t":"mc","o":["Saya berumur tiga puluh tahun.","Saya punya tiga puluh tahun.","Saya adalah tiga puluh tahun.","Saya berumur tahun tiga puluh."]}
+{"id":"ber.05","lesson":"ber","t":"mc","o":["berkerja","bekerja","berenang","berbicara"]}
+{"id":"ber.06","lesson":"ber","t":"order","a":["Teman","saya","bekerja","di","Jakarta"],"x":["berkerja"]}
+{"id":"ber.07","lesson":"ber","t":"order","a":["Adik","saya","sedang","belajar"],"x":["akan"]}
+{"id":"ber.08","lesson":"ber","t":"order","a":["Kami","berenang","di","pantai"],"x":["merenang"]}
+{"id":"ber.09","lesson":"ber","t":"fill","q":"Saya __ di kantor.","o":["berkerja","mekerja","kerjaan"],"a":["bekerja"]}
+{"id":"ber.10","lesson":"ber","t":"fill","q":"Mereka __ bola.","o":["bemain","memain","permain"],"a":["bermain"]}
+{"id":"ber.11","lesson":"ber","t":"fill","q":"Dia __ bahasa Indonesia.","o":["berlajar","melajar","berajar"],"a":["belajar"]}
+{"id":"ber.12","lesson":"ber","t":"type","a":["Kakak perempuan saya bekerja di Bali.","Kakak perempuanku bekerja di Bali."],"x":["berkerja"]}
+{"id":"ber.13","lesson":"ber","t":"type","a":["Saya sedang belajar bahasa Indonesia.","Sedang belajar bahasa Indonesia."],"x":["akan"]}
+{"id":"ber.14","lesson":"ber","t":"type","a":["Dia tidak berenang."],"x":["bukan"]}
+{"id":"me.01","lesson":"me","t":"mc","o":["memakai","mempakai","mepakai","mengpakai"]}
+{"id":"me.02","lesson":"me","t":"mc","o":["melihat","menglihat","memlihat","menlihat"]}
+{"id":"me.03","lesson":"me","t":"mc","o":["mencari","mengcari","menyari","mecari"]}
+{"id":"me.04","lesson":"me","t":"mc","o":["menyewa","mensewa","mesewa","mengsewa"]}
+{"id":"me.05","lesson":"me","t":"mc","o":["Saya membaca buku.","Saya mengbaca buku.","Saya buku membaca.","Saya adalah membaca buku."]}
+{"id":"me.06","lesson":"me","t":"order","a":["Saya","sedang","membaca","buku","baru"],"x":["mengbaca"]}
+{"id":"me.07","lesson":"me","t":"order","a":["Ibu","saya","sedang","memasak","nasi","goreng"],"x":["bermasak"]}
+{"id":"me.08","lesson":"me","t":"order","a":["Dia","sedang","menulis","surat"],"x":["mentulis"]}
+{"id":"me.09","lesson":"me","t":"fill","q":"Saya __ teman saya.","o":["menglihat","memlihat","berlihat"],"a":["melihat"]}
+{"id":"me.10","lesson":"me","t":"fill","q":"Kami __ motor di Bali.","o":["mensewa","mesewa","mengsewa"],"a":["menyewa"]}
+{"id":"me.11","lesson":"me","t":"fill","q":"Dia __ pesan.","o":["mengkirim","memkirim","mekirim"],"a":["mengirim"]}
+{"id":"me.12","lesson":"me","t":"type","a":["Saya mencari hotel murah.","Saya sedang mencari hotel murah."],"x":["mengcari"]}
+{"id":"me.13","lesson":"me","t":"type","a":["Ayah saya sedang menulis surat.","Ayah saya menulis surat.","Ayahku sedang menulis surat.","Ayahku menulis surat.","Bapak saya sedang menulis surat.","Bapak saya menulis surat.","Bapakku sedang menulis surat.","Bapakku menulis surat."],"x":["mentulis"]}
+{"id":"me.14","lesson":"me","t":"type","a":["Saya belum memasak.","Belum memasak."],"x":["bermasak"]}
+{"id":"modals.01","lesson":"modals","t":"mc","o":["Saya harus ke dokter.","Saya boleh ke dokter.","Saya harus untuk ke dokter.","Saya mau ke dokter."]}
+{"id":"modals.02","lesson":"modals","t":"mc","o":["Boleh saya bertanya?","Harus saya bertanya?","Saya perlu bertanya?","Saya mau untuk bertanya?"]}
+{"id":"modals.03","lesson":"modals","t":"mc","o":["Saya tidak bisa berenang.","Saya bisa tidak berenang.","Saya bukan bisa berenang.","Saya tidak boleh berenang."]}
+{"id":"modals.04","lesson":"modals","t":"mc","o":[null,null,null,null]}
+{"id":"modals.05","lesson":"modals","t":"mc","o":["Dia perlu istirahat.","Dia perlu untuk istirahat.","Dia istirahat perlu.","Dia boleh istirahat."]}
+{"id":"modals.06","lesson":"modals","t":"order","a":["Anak","saya","harus","istirahat"],"x":["untuk"]}
+{"id":"modals.07","lesson":"modals","t":"order","a":["Saya","mau","membeli","air","dingin"],"x":["untuk"]}
+{"id":"modals.08","lesson":"modals","t":"order","a":["Saya","tidak","perlu","membayar"],"x":["bukan"]}
+{"id":"modals.09","lesson":"modals","t":"fill","q":"Saya tidak __ berenang.","o":["boleh","perlu","bukan"],"a":["bisa"]}
+{"id":"modals.10","lesson":"modals","t":"fill","q":"__ saya duduk di sini?","o":["Harus","Perlu","Mau"],"a":["Boleh"]}
+{"id":"modals.11","lesson":"modals","t":"fill","q":"Kamu __ minum obat ini tiga kali sehari.","o":["boleh","untuk","bukan"],"a":["harus"]}
+{"id":"modals.12","lesson":"modals","t":"type","a":["Ibu saya perlu istirahat","Ibu saya perlu beristirahat","Ibuku perlu istirahat","Ibuku perlu beristirahat"],"x":["untuk"]}
+{"id":"modals.13","lesson":"modals","t":"type","a":["Saya tidak bisa datang ke rumah kamu","Saya tidak bisa datang ke rumahmu","Saya tidak bisa ke rumah kamu","Saya tidak bisa ke rumahmu","Aku tidak bisa datang ke rumah kamu","Aku tidak bisa datang ke rumahmu","Aku tidak bisa ke rumah kamu","Aku tidak bisa ke rumahmu"],"x":["bukan"]}
+{"id":"modals.14","lesson":"modals","t":"type","a":["Boleh saya duduk di sini, Bu?","Boleh saya duduk di sini, Ibu?","Saya boleh duduk di sini, Bu?","Saya boleh duduk di sini, Ibu?","Bu, boleh saya duduk di sini?","Ibu, boleh saya duduk di sini?","Boleh duduk di sini, Bu?","Boleh duduk di sini, Ibu?"],"x":["harus"]}
+{"id":"requests.01","lesson":"requests","t":"mc","o":["Tolong bantu saya.","Silakan bantu saya.","Jangan bantu saya.","Bantu tolong saya."]}
+{"id":"requests.02","lesson":"requests","t":"mc","o":["Minta air putih.","Silakan air putih.","Jangan air putih.","Minta putih air."]}
+{"id":"requests.03","lesson":"requests","t":"mc","o":["Jangan merokok di sini.","Tidak merokok di sini.","Bukan merokok di sini.","Belum merokok di sini."]}
+{"id":"requests.04","lesson":"requests","t":"mc","o":[null,null,null,null]}
+{"id":"requests.05","lesson":"requests","t":"mc","o":["Ayo makan!","Coba makan!","Jangan makan!","Silakan makan!"]}
+{"id":"requests.06","lesson":"requests","t":"order","a":["Minta","kopi","panas"],"x":["tolong"]}
+{"id":"requests.07","lesson":"requests","t":"order","a":["Tolong","bantu","ibu","saya"],"x":["minta"]}
+{"id":"requests.08","lesson":"requests","t":"order","a":["Jangan","makan","nasi","goreng","ini"],"x":["tidak"]}
+{"id":"requests.09","lesson":"requests","t":"fill","q":"__ lupa, ya!","o":["Tidak","Bukan","Belum"],"a":["Jangan"]}
+{"id":"requests.10","lesson":"requests","t":"fill","q":"__ nasi goreng satu, Mas.","o":["Silakan","Jangan","Ayo"],"a":["Minta"]}
+{"id":"requests.11","lesson":"requests","t":"fill","q":"__ duduk, Bu.","o":["Minta","Jangan","Bukan"],"a":["Silakan"]}
+{"id":"requests.12","lesson":"requests","t":"type","a":["Minta teh panas","Minta teh panas satu","Minta satu teh panas"],"x":["tolong"]}
+{"id":"requests.13","lesson":"requests","t":"type","a":["Tolong bantu teman saya","Tolong bantu temanku"],"x":["minta"]}
+{"id":"requests.14","lesson":"requests","t":"type","a":["Jangan pergi ke pasar","Jangan ke pasar"],"x":["tidak","di"]}
+{"id":"yang.01","lesson":"yang","t":"mc","o":["orang yang bekerja di hotel","yang orang bekerja di hotel","orang siapa bekerja di hotel","orang bekerja yang di hotel"]}
+{"id":"yang.02","lesson":"yang","t":"mc","o":["Saya ambil yang kecil.","Saya ambil kecil.","Saya ambil kecil yang.","Saya ambil siapa kecil."]}
+{"id":"yang.03","lesson":"yang","t":"mc","o":["Teman saya tinggal di Bali datang besok.","Teman saya yang tinggal di Bali datang besok.","Rumah besar itu mahal.","Saya suka baju merah."]}
+{"id":"yang.04","lesson":"yang","t":"mc","o":["sepatu yang saya beli","yang sepatu saya beli","sepatu beli yang saya","sepatu siapa saya beli"]}
+{"id":"yang.05","lesson":"yang","t":"mc","o":["orang yang tinggi itu","itu orang yang tinggi","yang tinggi orang itu","tinggi yang orang itu"]}
+{"id":"yang.06","lesson":"yang","t":"order","a":["orang","yang","tinggi"],"x":["adalah"]}
+{"id":"yang.07","lesson":"yang","t":"order","a":["teman","saya","yang","tinggal","di","Bali"],"x":["siapa"]}
+{"id":"yang.08","lesson":"yang","t":"order","a":["orang","yang","bekerja","di","sini"],"x":["siapa"]}
+{"id":"yang.09","lesson":"yang","t":"fill","q":"Ini buku __ saya beli kemarin.","o":["siapa","apa","itu"],"a":["yang"]}
+{"id":"yang.10","lesson":"yang","t":"fill","q":"Siapa orang __ duduk di sana?","o":["siapa","ini","ada"],"a":["yang"]}
+{"id":"yang.11","lesson":"yang","t":"fill","q":"Saya ambil __ besar.","o":["itu","ini","ada"],"a":["yang"]}
+{"id":"yang.12","lesson":"yang","t":"type","a":["tas merah","tas yang merah","tas merah itu","tas yang merah itu"],"x":["adalah"]}
+{"id":"yang.13","lesson":"yang","t":"type","a":["orang yang tinggal di sini","orang yang tinggal di sini itu"],"x":["siapa"]}
+{"id":"yang.14","lesson":"yang","t":"type","a":["Saya tidak suka yang merah","Tidak suka yang merah"],"x":["bukan"]}
+{"id":"passive.01","lesson":"passive","t":"mc","o":["Tiketnya sudah dibeli.","Tiketnya sudah di beli.","Tiketnya sudah membeli.","Tiketnya sudah dimembeli."]}
+{"id":"passive.02","lesson":"passive","t":"mc","o":["ditulis","dinulis","dimenulis","di tulis"]}
+{"id":"passive.03","lesson":"passive","t":"mc","o":["di stasiun","distasiun","ke stasiun","dari stasiun"]}
+{"id":"passive.04","lesson":"passive","t":"mc","o":["Surat ini ditulis oleh Siti.","Surat ini ditulis dari Siti.","Surat ini menulis oleh Siti.","Ini surat ditulis oleh Siti."]}
+{"id":"passive.05","lesson":"passive","t":"mc","o":[null,null,null,null]}
+{"id":"passive.06","lesson":"passive","t":"order","a":["Kamar","saya","sudah","dipesan"],"x":["memesan"]}
+{"id":"passive.07","lesson":"passive","t":"order","a":["Mobil","teman","saya","sudah","dicuci"],"x":["mencuci"]}
+{"id":"passive.08","lesson":"passive","t":"order","a":["Makanannya","dimakan","di","rumah"],"x":["dirumah"]}
+{"id":"passive.09","lesson":"passive","t":"fill","q":"Tiketnya bisa __ di stasiun.","o":["di beli","membeli","dimbeli"],"a":["dibeli"]}
+{"id":"passive.10","lesson":"passive","t":"fill","q":"Surat ini ditulis __ Pak Budi.","o":["dari","di","ke"],"a":["oleh"]}
+{"id":"passive.11","lesson":"passive","t":"fill","q":"Kamarnya sudah __.","o":["di pesan","memesan","dimesan"],"a":["dipesan"]}
+{"id":"passive.12","lesson":"passive","t":"type","a":["Tiket saya sudah dibeli","Tiketku sudah dibeli"],"x":["membeli"]}
+{"id":"passive.13","lesson":"passive","t":"type","a":["Tiket pesawatnya sudah dipesan","Tiket pesawat sudah dipesan","Tiket pesawat itu sudah dipesan"],"x":["memesan"]}
+{"id":"passive.14","lesson":"passive","t":"type","a":["Kuenya dimakan di rumah","Kue itu dimakan di rumah","Kue dimakan di rumah","Kuenya sudah dimakan di rumah","Kue itu sudah dimakan di rumah","Kue sudah dimakan di rumah"],"x":["dirumah"]}
+{"id":"compare.01","lesson":"compare","t":"mc","o":["Tas ini lebih murah dari tas itu.","Tas ini murah dari tas itu.","Ini tas lebih murah dari itu tas.","Tas ini lebih murah ke tas itu."]}
+{"id":"compare.02","lesson":"compare","t":"mc","o":["paling mahal","lebih mahal","sangat mahal","terlalu mahal"]}
+{"id":"compare.03","lesson":"compare","t":"mc","o":[null,null,null,null]}
+{"id":"compare.04","lesson":"compare","t":"mc","o":["Jakarta lebih besar daripada Bandung.","Jakarta adalah lebih besar daripada Bandung.","Jakarta besar daripada Bandung.","Jakarta lebih besar ke Bandung."]}
+{"id":"compare.05","lesson":"compare","t":"mc","o":["Dua baju ini sama besarnya.","Dua baju ini lebih besarnya.","Dua baju ini paling besar.","Dua baju ini terlalu besar."]}
+{"id":"compare.06","lesson":"compare","t":"order","a":["Baju","ini","lebih","murah"],"x":["adalah"]}
+{"id":"compare.07","lesson":"compare","t":"order","a":["Rumah","saya","lebih","besar","dari","rumah","kamu"],"x":["adalah"]}
+{"id":"compare.08","lesson":"compare","t":"order","a":["toko","yang","paling","murah"],"x":["lebih"]}
+{"id":"compare.09","lesson":"compare","t":"fill","q":"Ini __ murah dari itu.","o":["paling","sangat","terlalu"],"a":["lebih"]}
+{"id":"compare.10","lesson":"compare","t":"fill","q":"Jakarta lebih besar __ Bandung.","o":["ke","di","untuk"],"a":["dari","daripada"]}
+{"id":"compare.11","lesson":"compare","t":"fill","q":"__ mahal, Pak. Bisa kurang?","o":["Paling","Lebih","Sangat"],"a":["Terlalu"]}
+{"id":"compare.12","lesson":"compare","t":"type","a":["Toko ini lebih murah"],"x":["adalah"]}
+{"id":"compare.13","lesson":"compare","t":"type","a":["Tas saya paling besar","Tasku paling besar","Tas saya yang paling besar","Tasku yang paling besar"],"x":["adalah"]}
+{"id":"compare.14","lesson":"compare","t":"type","a":["Baju ini tidak terlalu besar"],"x":["bukan"]}
+{"id":"directions.01","lesson":"directions","t":"mc","o":["Lurus saja.","Belok saja.","Kiri saja.","Jauh saja."]}
+{"id":"directions.02","lesson":"directions","t":"mc","o":["Belok kiri di lampu merah.","Belok kanan di lampu merah.","Belok kiri ke lampu merah.","Lurus kiri di lampu merah."]}
+{"id":"directions.03","lesson":"directions","t":"mc","o":["di seberang","di depan","di sebelah","di belakang"]}
+{"id":"directions.04","lesson":"directions","t":"mc","o":[null,null,null,null]}
+{"id":"directions.05","lesson":"directions","t":"mc","o":["Jauh dari sini?","Jauh ke sini?","Dekat dari sini?","Jauh di sini?"]}
+{"id":"directions.06","lesson":"directions","t":"order","a":["Banknya","dekat","stasiun"],"x":["adalah"]}
+{"id":"directions.07","lesson":"directions","t":"order","a":["Apoteknya","di","seberang","hotel","saya"],"x":["adalah"]}
+{"id":"directions.08","lesson":"directions","t":"order","a":["Belok","kiri","di","perempatan"],"x":["ke"]}
+{"id":"directions.09","lesson":"directions","t":"fill","q":"Belok __ di perempatan, lalu lurus.","o":["kiri","lurus","depan"],"a":["kanan"]}
+{"id":"directions.10","lesson":"directions","t":"fill","q":"Apoteknya di __ bank.","o":["sebelah","depan","belakang"],"a":["seberang"]}
+{"id":"directions.11","lesson":"directions","t":"fill","q":"Hotelnya tidak jauh __ sini.","o":["di","ke","untuk"],"a":["dari"]}
+{"id":"directions.12","lesson":"directions","t":"type","a":["Stasiunnya jauh","Stasiun itu jauh","Stasiun jauh"],"x":["adalah"]}
+{"id":"directions.13","lesson":"directions","t":"type","a":["Hotel saya dekat sini","Hotelku dekat sini","Hotel saya dekat dari sini","Hotelku dekat dari sini","Hotel saya di dekat sini","Hotelku di dekat sini"],"x":["adalah"]}
+{"id":"directions.14","lesson":"directions","t":"type","a":["Permisi, Pak, bank di mana?","Permisi, Pak, di mana bank?","Permisi, Pak, banknya di mana?","Permisi, Pak, di mana banknya?","Permisi, Bapak, bank di mana?","Permisi, Bapak, di mana bank?","Permisi, Bapak, banknya di mana?","Permisi, Bapak, di mana banknya?","Permisi, bank di mana, Pak?","Permisi, bank di mana, Bapak?","Permisi, di mana bank, Pak?","Permisi, di mana bank, Bapak?","Permisi, banknya di mana, Pak?","Permisi, banknya di mana, Bapak?","Permisi, di mana banknya, Pak?","Permisi, di mana banknya, Bapak?"],"x":["ke"]}
+{"id":"daily.01","lesson":"daily","t":"mc","o":["Saya berangkat ke kantor jam tujuh.","Saya berangkat di kantor jam tujuh.","Saya berangkat ke kantor tujuh jam.","Saya pulang ke kantor jam tujuh."]}
+{"id":"daily.02","lesson":"daily","t":"mc","o":["Saya belum sarapan.","Saya tidak sarapan.","Saya bukan sarapan.","Saya sudah sarapan."]}
+{"id":"daily.03","lesson":"daily","t":"mc","o":["Kemarin saya tidur jam sebelas.","Kemarin saya akan tidur jam sebelas.","Kemarin saya tidur sebelas jam.","Kemarin saya ditidur jam sebelas."]}
+{"id":"daily.04","lesson":"daily","t":"mc","o":["Bisa kurang?","Bisa lebih?","Boleh mahal?","Tidak bisa?"]}
+{"id":"daily.05","lesson":"daily","t":"mc","o":["Saya ambil yang merah.","Saya ambil merah yang.","Saya ambil yang biru.","Saya ambil siapa merah."]}
+{"id":"daily.06","lesson":"daily","t":"order","a":["Kemarin","saya","bangun","jam","tujuh"],"x":["akan"]}
+{"id":"daily.07","lesson":"daily","t":"order","a":["Saya","pulang","jam","lima","sore"],"x":["setengah"]}
+{"id":"daily.08","lesson":"daily","t":"order","a":["Saya","belum","mandi"],"x":["tidak"]}
+{"id":"daily.09","lesson":"daily","t":"fill","q":"Saya __ jam enam pagi.","o":["tidur","pulang","mandi"],"a":["bangun"]}
+{"id":"daily.10","lesson":"daily","t":"fill","q":"Saya __ sarapan. Saya lapar!","o":["bukan","sudah","jangan"],"a":["belum"]}
+{"id":"daily.11","lesson":"daily","t":"fill","q":"Saya ambil __ ini, Bu.","o":["itu","ada","siapa"],"a":["yang"]}
+{"id":"daily.12","lesson":"daily","t":"type","a":["Saya sudah mandi","Sudah mandi"],"x":["akan"]}
+{"id":"daily.13","lesson":"daily","t":"type","a":["Saya berangkat jam tujuh pagi","Berangkat jam tujuh pagi","Jam tujuh pagi saya berangkat","Saya berangkat pukul tujuh pagi","Pukul tujuh pagi saya berangkat"],"x":["setengah"]}
+{"id":"daily.14","lesson":"daily","t":"type","a":["Saya ambil yang ini, Bu","Saya ambil yang ini, Ibu","Ambil yang ini, Bu","Ambil yang ini, Ibu","Yang ini, Bu","Yang ini, Ibu","Bu, saya ambil yang ini","Ibu, saya ambil yang ini"],"x":["itu"]}
+{"id":"plural.01","lesson":"plural","t":"mc","o":["banyak orang","banyak orang-orang","orang banyak-banyak","banyak-banyak orang"]}
+{"id":"plural.02","lesson":"plural","t":"mc","o":["anak-anak","anak anak","anakanak","anak2"]}
+{"id":"plural.03","lesson":"plural","t":"mc","o":[null,null,null,null]}
+{"id":"plural.04","lesson":"plural","t":"mc","o":["dua anak","dua anak-anak","anak-anak dua","dua-dua anak-anak"]}
+{"id":"plural.05","lesson":"plural","t":"mc","o":[null,null,null,null]}
+{"id":"plural.06","lesson":"plural","t":"order","a":["dua","anak"],"x":["anak-anak"]}
+{"id":"plural.07","lesson":"plural","t":"order","a":["tiga","buku","baru"],"x":["buku-buku"]}
+{"id":"plural.08","lesson":"plural","t":"order","a":["Anak-anak","saya","di","sekolah"],"x":["adalah"]}
+{"id":"plural.09","lesson":"plural","t":"fill","q":"Saya punya tiga __.","o":["anak-anak","anaknya","anak-anaknya"],"a":["anak"]}
+{"id":"plural.10","lesson":"plural","t":"fill","q":"__ di jalan, ya!","o":["Hati","Jalan-jalan","Sama-sama"],"a":["Hati-hati"],"strict":true}
+{"id":"plural.11","lesson":"plural","t":"fill","q":"Ada banyak __ di pantai.","o":["orang-orang","orangnya","seorang"],"a":["orang"]}
+{"id":"plural.12","lesson":"plural","t":"type","a":["tiga rumah besar"],"x":["rumah-rumah"]}
+{"id":"plural.13","lesson":"plural","t":"type","a":["Anak-anak sedang bermain","Anak-anak bermain"],"x":["adalah"],"strict":true}
+{"id":"plural.14","lesson":"plural","t":"type","a":["Hati-hati, Pak!","Hati-hati, Bapak!","Pak, hati-hati!","Bapak, hati-hati!","Bapak hati-hati!"],"x":["hati"],"strict":true}
+{"id":"casual.01","lesson":"casual","t":"mc","o":["udah","aja","gimana","nggak"]}
+{"id":"casual.02","lesson":"casual","t":"mc","o":[null,null,null,null]}
+{"id":"casual.03","lesson":"casual","t":"mc","o":[null,null,null,null]}
+{"id":"casual.04","lesson":"casual","t":"mc","o":[null,null,null,null]}
+{"id":"casual.05","lesson":"casual","t":"mc","o":["Aku nggak tahu.","Aku bukan tahu.","Aku jangan tahu.","Aku tahu nggak."]}
+{"id":"casual.06","lesson":"casual","t":"order","a":["Kamar","aku","kecil"],"x":["adalah"]}
+{"id":"casual.07","lesson":"casual","t":"order","a":["Mobil","teman","aku","besar","banget"],"x":["adalah"]}
+{"id":"casual.08","lesson":"casual","t":"order","a":["Aku","nggak","mau"],"x":["bukan"]}
+{"id":"casual.09","lesson":"casual","t":"fill","q":"Aku __ bisa datang.","o":["bukan","jangan","dong"],"a":["nggak","enggak"]}
+{"id":"casual.10","lesson":"casual","t":"fill","q":"Kamu __ makan?","o":["aja","gimana","dong"],"a":["udah"]}
+{"id":"casual.11","lesson":"casual","t":"fill","q":"Yang ini __.","o":["gimana","bukan","dari"],"a":["aja"]}
+{"id":"casual.12","lesson":"casual","t":"type","a":["Rumah aku jauh","Rumahku jauh"],"x":["adalah"]}
+{"id":"casual.13","lesson":"casual","t":"type","a":["Aku udah makan","Udah makan"],"x":["akan"]}
+{"id":"casual.14","lesson":"casual","t":"type","a":["Kok mahal banget?","Kok mahal banget sih?","Kok mahal sih?","Kenapa mahal banget?","Kenapa mahal banget sih?","Kenapa sih mahal banget?"],"x":["bukan"]}

@@ -1,0 +1,75 @@
+{"id":"sounds.k1","lesson":"sounds","o":[null,null,null,null],"a":1}
+{"id":"sounds.k2","lesson":"sounds","o":[null,null,null,null],"a":3}
+{"id":"sounds.k3","lesson":"sounds","o":[null,null,null,null],"a":0}
+{"id":"greetings.k1","lesson":"greetings","o":["Obrigado.","Obrigada.","De nada.","Por favor."],"a":1}
+{"id":"greetings.k2","lesson":"greetings","o":["Bom dia.","Bom tarde.","Boa noite.","Boa tarde."],"a":3}
+{"id":"greetings.k3","lesson":"greetings","o":["a senhora","ele","eu","o senhor"],"a":0}
+{"id":"articles.k1","lesson":"articles","o":["a","o","uma","as"],"a":1}
+{"id":"articles.k2","lesson":"articles","o":["Um água, por favor.","Una água, por favor.","A água, por favor.","Uma água, por favor."],"a":3}
+{"id":"articles.k3","lesson":"articles","o":["os limões","os limãos","as limões","os limão"],"a":0}
+{"id":"ser.k1","lesson":"ser","o":["você és","você é","você são","você sou"],"a":1}
+{"id":"ser.k2","lesson":"ser","o":["Sou professor.","É professora.","Sou professora.","Sou uma professor."],"a":2}
+{"id":"ser.k3","lesson":"ser","o":["é","somos","são","sou"],"a":0}
+{"id":"adjectives.k1","lesson":"adjectives","o":["as irmãs altas","as irmãs altos","as irmã altas","os irmãs altas"],"a":0}
+{"id":"adjectives.k2","lesson":"adjectives","o":[null,null,null,null],"a":1}
+{"id":"adjectives.k3","lesson":"adjectives","o":["carros azuls","carros azul","carros azules","carros azuis"],"a":3}
+{"id":"present.k1","lesson":"present","o":["a gente falamos","a gente fala","a gente falam","a gente falo"],"a":1}
+{"id":"present.k2","lesson":"present","o":["vocês estuda","vocês estudamos","vocês estudam","vocês estudas"],"a":2}
+{"id":"present.k3","lesson":"present","o":["Eu não trabalho.","Eu não trabalhar.","Eu não trabalha.","Não eu trabalho."],"a":0}
+{"id":"estar.k1","lesson":"estar","o":["Sou em casa.","Estou em casa.","Está em casa.","Estar em casa."],"a":1}
+{"id":"estar.k2","lesson":"estar","o":["Onde ficam o banco?","Onde fico o banco?","Onde é banco?","Onde fica o banco?"],"a":3}
+{"id":"estar.k3","lesson":"estar","o":["Estou cansado.","Sou cansada.","Estou cansada.","Está cansada."],"a":2}
+{"id":"contractions.k1","lesson":"contractions","o":["em a praia","no praia","na praia","a praia"],"a":2}
+{"id":"contractions.k2","lesson":"contractions","o":["Sou do Brasil.","Sou de Brasil.","Sou da Brasil.","Sou de o Brasil."],"a":0}
+{"id":"contractions.k3","lesson":"contractions","o":["São Paulo","Boston","Miami","Rio"],"a":3}
+{"id":"ser-estar.k1","lesson":"ser-estar","o":["A festa está na casa da Ana.","A festa é na casa da Ana.","A festa fica na casa da Ana.","A festa são na casa da Ana."],"a":1}
+{"id":"ser-estar.k2","lesson":"ser-estar","o":["Sou nervoso.","Fico nervosa.","Estou nervosa.","Estou nervoso."],"a":3}
+{"id":"ser-estar.k3","lesson":"ser-estar","o":[null,null,null,null],"a":0}
+{"id":"ter.k1","lesson":"ter","o":["Eu sou vinte anos.","Eu tenho vinte anos.","Eu estou vinte anos.","Eu sou com vinte anos."],"a":1}
+{"id":"ter.k2","lesson":"ter","o":["Tem uma farmácia aqui perto?","Está uma farmácia aqui perto?","É uma farmácia aqui perto?","Ter uma farmácia aqui perto?"],"a":0}
+{"id":"ter.k3","lesson":"ter","o":["Eu sou com fome.","Estou fome.","Estou com fome.","Eu tenho com fome."],"a":2}
+{"id":"questions.k1","lesson":"questions","o":[null,null,null,null],"a":1}
+{"id":"questions.k2","lesson":"questions","o":["por que","por quê","quê","porque"],"a":3}
+{"id":"questions.k3","lesson":"questions","o":["Quantos irmãs você tem?","Quanto irmãs você tem?","Quantas irmãs você tem?","Quanta irmãs você tem?"],"a":2}
+{"id":"numbers.k1","lesson":"numbers","o":["É dois horas.","São duas horas.","São dois horas.","É duas hora."],"a":1}
+{"id":"numbers.k2","lesson":"numbers","o":["trinta real","trinta dólares","trinta reais","trinta reals"],"a":2}
+{"id":"numbers.k3","lesson":"numbers","o":["vinte e um pessoas","vinte um pessoas","vinte e uma pessoa","vinte e uma pessoas"],"a":3}
+{"id":"location.k1","lesson":"location","o":["ao lado de o banco","ao lado do banco","ao lado da banco","no lado de banco"],"a":1}
+{"id":"location.k2","lesson":"location","o":["As chaves estão em cima da mesa.","As chaves estão em cima do mesa.","As chaves são em cima da mesa.","As chaves está em cima da mesa."],"a":0}
+{"id":"location.k3","lesson":"location","o":["perto do farmácia","perto de a farmácia","perto na farmácia","perto da farmácia"],"a":3}
+{"id":"possessives.k1","lesson":"possessives","o":["minha pai","meu pai","meus pai","mia pai"],"a":1}
+{"id":"possessives.k2","lesson":"possessives","o":["o carro dela","a carro dela","o carro dele","sua carro"],"a":0}
+{"id":"possessives.k3","lesson":"possessives","o":["O que é essa?","O que é esse?","O que é isso?","O que é esso?"],"a":2}
+{"id":"irregular.k1","lesson":"irregular","o":["eu fazo","eu faço","eu faz","eu fazer"],"a":1}
+{"id":"irregular.k2","lesson":"irregular","o":["Nós vai à praia.","Nós vão à praia.","Nós ir à praia.","Nós vamos à praia."],"a":3}
+{"id":"irregular.k3","lesson":"irregular","o":["Posso experimentar?","Podo experimentar?","Pode eu experimentar?","Posso a experimentar?"],"a":0}
+{"id":"future.k1","lesson":"future","o":["Vou a viajar.","Vou viajo.","Vou viajar.","Vou para viajar."],"a":2}
+{"id":"future.k2","lesson":"future","o":["A gente vai jantar em casa.","A gente vamos jantar em casa.","A gente vão jantar em casa.","A gente vai janta em casa."],"a":0}
+{"id":"future.k3","lesson":"future","o":[null,null,null,null],"a":3}
+{"id":"gostar.k1","lesson":"gostar","o":["Eu gosto café.","Me gosta café.","Eu gosto de café.","Eu gosto o café."],"a":2}
+{"id":"gostar.k2","lesson":"gostar","o":["Ela gosta da praia.","Ela gosta do praia.","Ela gosta de a praia.","Ela gosta praia."],"a":0}
+{"id":"gostar.k3","lesson":"gostar","o":[null,null,null,null],"a":1}
+{"id":"prepositions.k1","lesson":"prepositions","o":["Preciso ajuda","Preciso para ajuda","Preciso de ajuda","Preciso em ajuda"],"a":2}
+{"id":"prepositions.k2","lesson":"prepositions","o":["Vou em carro","Vou de carro","Vou por carro","Vou com carro"],"a":1}
+{"id":"prepositions.k3","lesson":"prepositions","o":["Obrigado por tudo","Obrigado para tudo","Obrigado de tudo","Obrigado em tudo"],"a":0}
+{"id":"progressive.k1","lesson":"progressive","o":["Estou estudando agora","Estou estudar agora","Sou estudando agora","Estudando agora eu"],"a":0}
+{"id":"progressive.k2","lesson":"progressive","o":["comando","comindo","comendo","comado"],"a":2}
+{"id":"progressive.k3","lesson":"progressive","o":["Estou trabalhar num banco","Trabalho num banco","Trabalhando num banco","Sou trabalho num banco"],"a":1}
+{"id":"reflexive.k1","lesson":"reflexive","o":["Chamo Ana me","Eu me chamo Ana","Eu chamo-se Ana","Eu se chamo Ana"],"a":1}
+{"id":"reflexive.k2","lesson":"reflexive","o":["nos","me","se","te"],"a":2}
+{"id":"reflexive.k3","lesson":"reflexive","o":[null,null,null,null],"a":0}
+{"id":"object-pronouns.k1","lesson":"object-pronouns","o":[null,null,null,null],"a":1}
+{"id":"object-pronouns.k2","lesson":"object-pronouns","o":["Eu conheço ela","Eu conheço a","Eu ela conheço","Eu conheço-la"],"a":0}
+{"id":"object-pronouns.k3","lesson":"object-pronouns","o":[null,null,null,null],"a":1}
+{"id":"past.k1","lesson":"past","o":["Ontem eu trabalho","Ontem eu trabalhei","Ontem eu trabalhou","Ontem eu trabalhar"],"a":1}
+{"id":"past.k2","lesson":"past","o":["Você já foi ao Brasil?","Você tem estado no Brasil?","Você tem ido ao Brasil?","Você é ido ao Brasil?"],"a":0}
+{"id":"past.k3","lesson":"past","o":[null,null,null,null],"a":2}
+{"id":"requests.k1","lesson":"requests","o":["Eu quero um remédio","Eu queria um remédio, por favor","Dá um remédio","Remédio!"],"a":1}
+{"id":"requests.k2","lesson":"requests","o":["Dá-me um café, por favor?","Dá um café me, por favor?","Me dá um café, por favor?","Eu dá um café, por favor?"],"a":2}
+{"id":"requests.k3","lesson":"requests","o":[null,null,null,null],"a":0}
+{"id":"connectors.k1","lesson":"connectors","o":["por que","porque","por quê","porquê"],"a":1}
+{"id":"connectors.k2","lesson":"connectors","o":["Quero mais café","Quero mas café","Quero mais de café","Quero mas o café"],"a":0}
+{"id":"connectors.k3","lesson":"connectors","o":["Eu também.","Eu não também.","Eu também não.","Eu sim."],"a":2}
+{"id":"city.k1","lesson":"city","o":["à direito","à direita","a direito","em direita"],"a":1}
+{"id":"city.k2","lesson":"city","o":["Qual ônibus vão para o centro?","Quais ônibus vai para o centro?","Qual ônibus vai para o centro?","Qual ônibus vai em o centro?"],"a":2}
+{"id":"city.k3","lesson":"city","o":["pegar","levar","tirar","fazer"],"a":0}

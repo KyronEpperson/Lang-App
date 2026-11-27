@@ -1,0 +1,336 @@
+{"id":"sounds.01","q":"In which word does the c sound like the ch in church?","why":"c before e or i is soft, like ch; ch before i or e is a hard k."}
+{"id":"sounds.02","q":"Which word starts with a k sound?","why":"ch is always a hard k sound, even before i or e."}
+{"id":"sounds.03","q":"In which word does the g sound like the j in jam?","why":"g before e or i is soft, like j; gh keeps it hard."}
+{"id":"sounds.04","q":"Which word means the ball?","why":"The double l is the difference: palla is a ball, pala is a shovel."}
+{"id":"sounds.05","q":"Why does città have an accent mark?","o":["It shows that the last syllable is stressed","It makes the a longer","It shows the word is plural","It marks a foreign word"],"why":"Italian writes an accent only on a stressed final vowel: città."}
+{"id":"sounds.06","p":"the night","why":"notte is feminine, so the word for the is la: la notte."}
+{"id":"sounds.07","p":"the gnocchi","why":"gnocchi is masculine and starts with gn, so the plural article is gli, not i."}
+{"id":"sounds.08","p":"the bruschetta","why":"The sk sound is spelled sch in Italian: bruschetta."}
+{"id":"sounds.09","p":"the night","why":"Hold the double t: notte. With one t, note means notes."}
+{"id":"sounds.10","p":"the gnocchi","why":"cch keeps the k sound hard and long; cc before i would sound like ch."}
+{"id":"sounds.11","p":"the key","why":"chiave is feminine and singular: la chiave."}
+{"id":"sounds.12","p":"the keys","hint":"chiave · for more than one, -e becomes -i","why":"chiavi is a feminine plural noun, so the article is le: le chiavi."}
+{"id":"sounds.13","p":"the nights","hint":"notte · for more than one, -e becomes -i","why":"notti is a feminine plural noun, so the article is le, and the double t stays."}
+{"id":"sounds.14","p":"the city","hint":"città · accent on the last a","why":"The written accent shows that the last syllable is stressed: città."}
+{"id":"greetings.01","q":"It's 9 a.m. You walk into a bakery. You say…","why":"Buongiorno is the polite hello from morning to early afternoon; ciao is only for friends."}
+{"id":"greetings.02","q":"How are you? (to an older man you don't know)","why":"With a stranger, use Lei and its verb: come sta?"}
+{"id":"greetings.03","q":"Someone says Grazie. You answer…","why":"Prego means you're welcome."}
+{"id":"greetings.04","q":"Someone says Mi chiamo Giulia. You reply…","why":"Piacere means nice to meet you, the reply to an introduction."}
+{"id":"greetings.05","q":"At 11 p.m., your friend's mother goes to bed. You say…","why":"Buonanotte is for late at night or when someone goes to bed."}
+{"id":"greetings.06","p":"Have a good evening!","why":"serata is feminine, so the word for good agrees: buona serata."}
+{"id":"greetings.07","p":"How are you? (to a stranger)","why":"With a stranger, use the Lei form: sta. The tu form, stai, is for friends."}
+{"id":"greetings.08","p":"Excuse me, ma'am.","why":"Mi scusi is the polite way to say excuse me to a stranger; scusa is for a friend."}
+{"id":"greetings.09","p":"Hi, Luca! How are you?","why":"Luca is a friend, so use the tu form: stai."}
+{"id":"greetings.10","p":"Good morning, ma'am. How are you?","why":"To a stranger, use the Lei form: sta."}
+{"id":"greetings.11","p":"My name is Emma.","why":"Mi chiamo Emma: literally, I call myself Emma."}
+{"id":"greetings.12","p":"How are you? (to a friend)","hint":"stare · tu","why":"To a friend, use the tu form: stai, which ends in -i."}
+{"id":"greetings.13","p":"How are you? (to a stranger)","hint":"stare · Lei","why":"With a stranger, use the Lei form: sta, the same as for lei (she)."}
+{"id":"greetings.14","p":"My name is Marco.","hint":"chiamarsi · Marco","why":"Mi chiamo already means my name is: literally, I call myself."}
+{"id":"gender.01","q":"Which of these nouns is feminine?","why":"mano ends in -o but is feminine: la mano."}
+{"id":"gender.02","q":"the sisters =","why":"sorella is feminine: -a becomes -e, and la becomes le."}
+{"id":"gender.03","q":"the problems =","why":"problema is masculine, so its plural is i problemi."}
+{"id":"gender.04","q":"the cities =","why":"Nouns ending in an accented vowel do not change; only the article does: le città."}
+{"id":"gender.05","q":"i figli can mean…","o":["the children, sons and daughters","only the daughters","only one son","the relatives"],"why":"A mixed group takes the masculine plural, so i figli covers sons and daughters."}
+{"id":"gender.06","p":"the hands","why":"mano is feminine, so the plural article is le: le mani."}
+{"id":"gender.07","p":"the brothers","why":"fratelli is a masculine plural noun, so the article is i."}
+{"id":"gender.08","p":"the photos","why":"foto is a short form, so it does not change for more than one: le foto."}
+{"id":"gender.09","p":"the problem","why":"problema ends in -a but is masculine: il problema."}
+{"id":"gender.10","p":"the sisters","why":"Feminine -a becomes -e in the plural: le sorelle."}
+{"id":"gender.11","p":"the fathers","why":"For nouns in -e, the -e becomes -i in the plural, whatever their gender: i padri."}
+{"id":"gender.12","p":"the sisters","hint":"sorella","why":"sorelle is a feminine plural noun, so the article is le."}
+{"id":"gender.13","p":"the hand","hint":"mano · watch the gender","why":"mano ends in -o but is feminine: la mano."}
+{"id":"gender.14","p":"the grandparents","hint":"nonno · a mixed group","why":"A mixed group takes the masculine plural: i nonni."}
+{"id":"articles.01","q":"the sugar =","why":"zucchero is masculine and starts with z, so the article is lo."}
+{"id":"articles.02","q":"the water =","why":"acqua is feminine and starts with a vowel: la loses its a and becomes l'."}
+{"id":"articles.03","q":"a student (a man) =","why":"studente is masculine and starts with s + consonant: uno."}
+{"id":"articles.04","q":"a friend (a woman) =","why":"amica is feminine and starts with a vowel: un'amica, with an apostrophe."}
+{"id":"articles.05","q":"the spaghetti =","why":"spaghetti is masculine plural and starts with s + consonant: gli."}
+{"id":"articles.06","p":"the friends (all men)","why":"amici is masculine plural and starts with a vowel: gli, not i."}
+{"id":"articles.07","p":"the sugar","why":"zucchero is masculine and starts with z: lo, not il."}
+{"id":"articles.08","p":"A coffee, please.","why":"caffè is masculine and starts with a plain consonant: un, not uno."}
+{"id":"articles.09","p":"the gnocchi","why":"gnocchi is masculine plural and starts with gn: gli."}
+{"id":"articles.10","p":"a pizza","why":"pizza is feminine and starts with a consonant: una."}
+{"id":"articles.11","p":"a snack","why":"spuntino is masculine and starts with s + consonant: uno."}
+{"id":"articles.12","p":"the water","hint":"acqua · starts with a vowel","why":"acqua is feminine and starts with a vowel, so la becomes l'."}
+{"id":"articles.13","p":"the students (all men)","hint":"studente · more than one","why":"studenti is masculine plural and starts with s + consonant: gli."}
+{"id":"articles.14","p":"an orange soda","hint":"aranciata · starts with a vowel","why":"Before a vowel, una drops its a and an apostrophe takes its place: un'aranciata."}
+{"id":"pronouns.01","q":"Which word means she?","why":"lei is she; lui is he."}
+{"id":"pronouns.02","q":"You're talking to two friends at once. Which word for you fits?","why":"voi is the you for more than one person."}
+{"id":"pronouns.03","q":"I'm fine, thanks. =","why":"sto is the verb for I, so io is not needed."}
+{"id":"pronouns.04","q":"Which word means you when you talk to a stranger?","why":"Lei with a capital L is the polite you, for strangers."}
+{"id":"pronouns.05","q":"Lei come sta? can mean…","o":["How are you? (to a stranger), or How is she?","Only How is she?","How are they?","How are you all?"],"why":"Lei and lei take the same verb, sta; in writing, the capital L shows the formal you."}
+{"id":"pronouns.06","p":"How are you all? (to two friends)","why":"voi takes the voi form: state."}
+{"id":"pronouns.07","p":"They're fine.","why":"loro takes the loro form: stanno."}
+{"id":"pronouns.08","p":"And you? (to a stranger)","why":"To a stranger, the word for you is Lei, not tu."}
+{"id":"pronouns.09","p":"Are you all well?","why":"state is the verb for voi, so the subject is voi."}
+{"id":"pronouns.10","p":"Marco and Chiara are fine.","why":"Two people are loro, so the verb is stanno."}
+{"id":"pronouns.11","p":"Ma'am, how are you?","why":"Lei takes the same verb as lei: sta."}
+{"id":"pronouns.12","p":"We're fine.","hint":"stare · bene","why":"noi takes the noi form: stiamo."}
+{"id":"pronouns.13","p":"How is Giulia?","hint":"stare · Giulia","why":"Giulia is one person, so the verb takes the lui/lei form: sta."}
+{"id":"pronouns.14","p":"And you? (to a friend)","hint":"tu or Lei?","why":"To a friend, the word for you is tu."}
+{"id":"essere-avere.01","q":"I'm cold. =","why":"Feeling cold uses avere: ho freddo."}
+{"id":"essere-avere.02","q":"I'm twenty. =","why":"Age uses avere: literally, I have twenty years."}
+{"id":"essere-avere.03","q":"Marco __ stanco. Which word fits?","why":"è with the accent is the verb, is; e without it means and."}
+{"id":"essere-avere.04","q":"They're hungry. =","why":"Hunger uses avere, and hanno keeps its silent h; anno means year."}
+{"id":"essere-avere.05","q":"Are you all American? (to a group of men)","why":"voi takes siete, and americani is plural."}
+{"id":"essere-avere.06","p":"We're hungry.","why":"noi takes the noi form of avere: abbiamo. Hunger uses avere, not essere."}
+{"id":"essere-avere.07","p":"Are you cold? (to a friend)","why":"To a friend, use the tu form of avere: hai."}
+{"id":"essere-avere.08","p":"I'm thirty.","why":"Age uses avere: ho trent'anni."}
+{"id":"essere-avere.09","p":"Luca is from Milan.","why":"è with an accent means is; e means and."}
+{"id":"essere-avere.10","p":"Are you all hungry?","why":"voi takes the voi form of avere: avete."}
+{"id":"essere-avere.11","p":"I'm right.","why":"Being right uses avere: ho ragione. Without the h, o means or."}
+{"id":"essere-avere.12","p":"You're right. (to a friend)","hint":"avere · ragione","why":"To a friend, use the tu form of avere: hai."}
+{"id":"essere-avere.13","p":"They're cold.","hint":"avere · freddo","why":"loro takes the loro form of avere: hanno, with a silent h."}
+{"id":"essere-avere.14","p":"Chiara is tired.","hint":"essere · stanco","why":"Chiara is a woman, so the adjective is feminine: stanca."}
+{"id":"adjectives.01","q":"the white shirt =","why":"The color goes after the noun and agrees with it: la camicia bianca."}
+{"id":"adjectives.02","q":"the black shoes =","why":"scarpe is feminine plural: le and nere, with the color after the noun."}
+{"id":"adjectives.03","q":"The bag is green. =","why":"verde has no -a form, and is needs the accent: è."}
+{"id":"adjectives.04","q":"Giulia and Marco are tall. =","why":"A mixed group takes the masculine plural, alti, and two people take sono."}
+{"id":"adjectives.05","q":"Which adjective usually goes BEFORE the noun?","why":"bello, buono and piccolo usually come first; colors and nationalities always come after."}
+{"id":"adjectives.06","p":"the white shirts","why":"camicie is feminine plural, so the adjective agrees: bianche."}
+{"id":"adjectives.07","p":"the black sweater","why":"maglione is masculine, so the adjective agrees: nero."}
+{"id":"adjectives.08","p":"the green shoes","why":"verde ends in -e, so for more than one it becomes verdi: the plural ending is the same for both genders."}
+{"id":"adjectives.09","p":"the yellow skirt","why":"gonna is feminine and singular: gialla."}
+{"id":"adjectives.10","p":"The pants are expensive.","why":"pantaloni is masculine plural: cari."}
+{"id":"adjectives.11","p":"the green bags","why":"verde becomes verdi for more than one."}
+{"id":"adjectives.12","p":"the white sweaters","hint":"maglione · bianco","why":"maglioni is masculine plural, so the adjective agrees: bianchi."}
+{"id":"adjectives.13","p":"The jacket is red.","hint":"giacca · essere · rosso","why":"giacca is feminine, so the adjective agrees: rossa."}
+{"id":"adjectives.14","p":"Chiara and Giulia are tall.","hint":"essere · alto","why":"Two women: the adjective is feminine plural, alte."}
+{"id":"present.01","q":"We work in Rome. =","why":"The noi form ends in -iamo: lavoriamo."}
+{"id":"present.02","q":"Do you speak English? (to a stranger)","why":"With a stranger, use Lei, which takes parla."}
+{"id":"present.03","q":"I understand. =","why":"capire adds -isc-: capisco."}
+{"id":"present.04","q":"They write. =","why":"For -ere verbs, the they form ends in -ono."}
+{"id":"present.05","q":"Are you looking for Marco? (to a friend)","why":"cercare keeps its hard c with an h before i: cerchi."}
+{"id":"present.06","p":"We study Italian.","why":"noi takes the noi form: studiamo."}
+{"id":"present.07","p":"Do you work here? (to a stranger)","why":"With Lei, use the lui/lei form: lavora."}
+{"id":"present.08","p":"They understand Italian.","why":"capire is an -isc- verb, so it keeps -isc- here: capiscono."}
+{"id":"present.09","p":"Do you all work in Milan?","why":"For -are verbs, the voi form ends in -ate."}
+{"id":"present.10","p":"Marco finishes work.","why":"finire is an -isc- verb: Marco takes finisce."}
+{"id":"present.11","p":"Are you having a coffee?","why":"The tu form ends in -i: prendi."}
+{"id":"present.12","p":"We live in Rome. (use abitare)","hint":"abitare · Roma","why":"The noi form: the verb ending matches the subject, -iamo."}
+{"id":"present.13","p":"Do you speak Italian? (to a stranger)","hint":"parlare · Lei","why":"Lei takes the lui/lei form: parla."}
+{"id":"present.14","p":"Do you understand? (to a friend)","hint":"capire · tu","why":"capire is an -isc- verb, and the tu form is capisci."}
+{"id":"questions.01","q":"Do you speak Italian? (to a friend)","why":"No helper verb: the tu form with a rising voice makes the question."}
+{"id":"questions.02","q":"How many sisters do you have? (to a friend)","why":"quante agrees with sorelle, which is feminine plural."}
+{"id":"questions.03","q":"What's the problem?","why":"qual è has no apostrophe, and problema is masculine: il problema."}
+{"id":"questions.04","q":"Where do you live? (to a stranger)","why":"Lei takes the lui/lei form of the verb: abita."}
+{"id":"questions.05","q":"Why are you studying Italian? (to a friend)","why":"perché asks why; come is how, quando is when, dove is where."}
+{"id":"questions.06","p":"How many sisters do you have? (to a friend)","why":"quante agrees with sorelle: feminine plural."}
+{"id":"questions.07","p":"Where are you from? (to a friend)","why":"To a friend, use the tu form of essere: sei, not è."}
+{"id":"questions.08","p":"What are you reading? (to a friend)","why":"che cosa asks what; chi asks who."}
+{"id":"questions.09","p":"How old are you?","why":"anni is masculine plural, so quanti agrees with it."}
+{"id":"questions.10","p":"What's the problem?","why":"Before è, quale shortens to qual, with no apostrophe."}
+{"id":"questions.11","p":"Where does Giulia live?","why":"Giulia is she, so the verb ending matches the subject: abita."}
+{"id":"questions.12","p":"How many brothers do you have? (to a friend)","hint":"quanto · fratello · avere","why":"quanti agrees with fratelli, which is masculine plural."}
+{"id":"questions.13","p":"Where do you work? (to a friend)","hint":"dove · lavorare","why":"To a friend, use the tu form: the verb ending is -i, lavori."}
+{"id":"questions.14","p":"What are you studying? (to a friend)","hint":"che cosa · studiare · no helper verb","why":"No helper verb in Italian: che cosa (or cosa, or che) plus the verb."}
+{"id":"ce.01","q":"There's a bar near here.","why":"One thing takes c'è, and bar is masculine: un bar."}
+{"id":"ce.02","q":"There are two hotels.","why":"More than one thing takes ci sono; hotel does not change in the plural."}
+{"id":"ce.03","q":"Where is the pharmacy?","why":"A particular place: dov'è, which is dove + è."}
+{"id":"ce.04","q":"Is there a supermarket?","why":"Asking whether something exists: c'è, with a rising voice. È un supermercato? means Is it a supermarket?"}
+{"id":"ce.05","q":"The museum is in the square.","why":"A particular place you name with il: è says where it is."}
+{"id":"ce.06","p":"There are two bars.","why":"ci sono: plural subject (due bar), so the verb is sono."}
+{"id":"ce.07","p":"Is there a pharmacy?","why":"farmacia is feminine, so the article agrees: una."}
+{"id":"ce.08","p":"Where is the station?","why":"A particular place you name with la: dov'è asks where it is."}
+{"id":"ce.09","p":"Is there a bathroom here?","why":"One thing you are asking about: c'è."}
+{"id":"ce.10","p":"There are two banks downtown.","why":"More than one thing takes ci sono."}
+{"id":"ce.11","p":"The museum is downtown.","why":"A particular place named with il: è says where it is."}
+{"id":"ce.12","p":"Is there a bathroom?","hint":"c'è · bagno","why":"bagno is masculine, so the article agrees: un bagno."}
+{"id":"ce.13","p":"There are two pharmacies.","hint":"ci sono · due (two) · farmacia","why":"ci sono matches the subject: a plural noun, due farmacie."}
+{"id":"ce.14","p":"Is the bank downtown?","hint":"banca · essere · in centro","why":"A particular place you name with la: è says where it is, not c'è."}
+{"id":"numbers.01","q":"twenty-one =","why":"venti drops its i before uno: ventuno, written as one word."}
+{"id":"numbers.02","q":"It's three o'clock.","why":"From two o'clock on: sono le, because ore is feminine plural."}
+{"id":"numbers.03","q":"ten euros =","why":"euro never changes in Italian: dieci euro."}
+{"id":"numbers.04","q":"It's one o'clock.","why":"One o'clock is a single hour: è l'una."}
+{"id":"numbers.05","q":"September 15 =","why":"Dates are il + number + month; only the first of the month uses primo."}
+{"id":"numbers.06","p":"It's three o'clock.","why":"Sono le tre: plural, feminine le, as in le ore."}
+{"id":"numbers.07","p":"How much are they?","why":"Plural subject (more than one thing), so the verb is costano."}
+{"id":"numbers.08","p":"May 1","why":"The first of the month is il primo; other days use the plain number."}
+{"id":"numbers.09","p":"How much are the tickets?","why":"i biglietti is plural, so the verb ending matches the subject: costano."}
+{"id":"numbers.10","p":"It's seven o'clock.","why":"From two o'clock on, sono le: ore is feminine plural."}
+{"id":"numbers.11","p":"I'm twenty-eight.","why":"venti drops its i before otto, with no apostrophe: ventotto."}
+{"id":"numbers.12","p":"It's one o'clock.","hint":"essere · una · one o'clock is a single hour","why":"una is singular, so the verb is è, not sono."}
+{"id":"numbers.13","p":"two pizzas","hint":"due (two) · pizza","why":"Plural noun: pizza becomes pizze after due."}
+{"id":"numbers.14","p":"How much are the shoes?","hint":"quanto · costare · scarpa","why":"le scarpe is plural, so the verb ending matches the subject: costano."}
+{"id":"possessives.01","q":"my mother =","why":"One family member takes no article, and mia agrees with madre."}
+{"id":"possessives.02","q":"his car =","why":"sua agrees with macchina (feminine), not with the owner; things keep the article."}
+{"id":"possessives.03","q":"her brother =","why":"suo agrees with fratello, not with her, and one family member takes no article."}
+{"id":"possessives.04","q":"these books =","why":"libri is masculine plural, so questi."}
+{"id":"possessives.05","q":"that boy =","why":"ragazzo takes il, so that is quel ragazzo."}
+{"id":"possessives.06","p":"my sisters","why":"Plural family word: the article comes back, and mie agrees with sorelle (feminine plural)."}
+{"id":"possessives.07","p":"your parents (to a friend)","why":"genitori is masculine plural, so the possessive agrees: i tuoi."}
+{"id":"possessives.08","p":"my mother","why":"One family member takes no article: mia madre."}
+{"id":"possessives.09","p":"My sisters are tall.","why":"sorelle is feminine plural, so mie."}
+{"id":"possessives.10","p":"My father is Italian.","why":"One family member takes no article, and padre is masculine: mio padre."}
+{"id":"possessives.11","p":"These girls are my friends.","why":"ragazze is feminine plural, so queste."}
+{"id":"possessives.12","p":"my sisters","hint":"mio · sorella · more than one","why":"sorelle is feminine plural, so the possessive agrees: le mie."}
+{"id":"possessives.13","p":"these friends (all women)","hint":"questo · amica","why":"amiche is feminine plural, so questo agrees: queste."}
+{"id":"possessives.14","p":"his house","hint":"suo · casa","why":"sua agrees with casa (feminine), not with the owner."}
+{"id":"prepositions.01","q":"I live in Rome.","why":"Cities take a, for both in and to."}
+{"id":"prepositions.02","q":"I'm going to Italy.","why":"Countries take in."}
+{"id":"prepositions.03","q":"Marco's car =","why":"Italian has no 's: the car of Marco, la macchina di Marco."}
+{"id":"prepositions.04","q":"I'm going to the doctor.","why":"To a person's place takes da: da + il = dal."}
+{"id":"prepositions.05","q":"I've been in Italy for a week (and I'm still here).","why":"Time that is still going on takes da, with the present."}
+{"id":"prepositions.06","p":"I'm going to the market.","why":"mercato is masculine: a + il = al."}
+{"id":"prepositions.07","p":"the students' backpacks","why":"studenti is masculine plural and starts with s + consonant: di + gli = degli."}
+{"id":"prepositions.08","p":"I'm going by train.","why":"Transport takes in with no article: in treno."}
+{"id":"prepositions.09","p":"I live in Milan.","why":"Cities take a."}
+{"id":"prepositions.10","p":"The book is on the table.","why":"tavolo is masculine: su + il = sul."}
+{"id":"prepositions.11","p":"I've been here for a week.","why":"Time that is still going on takes da."}
+{"id":"prepositions.12","p":"the car keys","hint":"chiave · di · macchina","why":"macchina is feminine, so di + la = della."}
+{"id":"prepositions.13","p":"I'm going to the station.","hint":"vado (I go) · a · stazione","why":"stazione is feminine, so a + la = alla."}
+{"id":"prepositions.14","p":"Marco's sister","hint":"sorella · di · Marco","why":"No 's in Italian: the sister of Marco, la sorella di Marco."}
+{"id":"irregular.01","q":"It's cold today.","why":"Weather uses fare: fa freddo."}
+{"id":"irregular.02","q":"What are you doing? (to a friend)","why":"The tu form of fare is fai."}
+{"id":"irregular.03","q":"Your friend calls you over. You answer: I'm coming!","why":"Moving toward the person you talk to takes venire: vengo."}
+{"id":"irregular.04","q":"How are you all?","why":"For you all, the voi form of stare: state."}
+{"id":"irregular.05","q":"I'm fine.","why":"How you feel uses stare: sto bene."}
+{"id":"irregular.06","p":"We're going to Rome.","why":"The noi form of andare: andiamo."}
+{"id":"irregular.07","p":"Where are you going? (to a friend)","why":"To a friend, the tu form: vai."}
+{"id":"irregular.08","p":"It's cold. (the weather)","why":"Weather uses fare: fa freddo, not è freddo."}
+{"id":"irregular.09","p":"Tomorrow I'm going to Florence.","why":"I is the subject, so the io form of andare: vado."}
+{"id":"irregular.10","p":"Marco comes from Naples.","why":"Marco is he, so the verb ending matches the subject: viene."}
+{"id":"irregular.11","p":"It's hot today.","why":"Weather uses fare: fa caldo."}
+{"id":"irregular.12","p":"We have breakfast.","hint":"fare · colazione","why":"The noi form of fare: facciamo."}
+{"id":"irregular.13","p":"They're going home.","hint":"andare · a casa","why":"The loro form of andare: vanno."}
+{"id":"irregular.14","p":"It's going to be cold tomorrow. (use the present)","hint":"domani · fare · freddo","why":"Weather uses fare, not essere: fa freddo."}
+{"id":"modals.01","q":"May I come in?","why":"posso + infinitive asks for permission; the second verb stays an infinitive."}
+{"id":"modals.02","q":"You have to rest. (to a friend)","why":"To a friend, devi, followed by the infinitive riposare."}
+{"id":"modals.03","q":"The polite way to order an espresso from a waiter:","why":"vorrei is the polite way to order; voglio sounds demanding."}
+{"id":"modals.04","q":"Luisa can play the piano (she knows how).","why":"A learned skill takes sapere, not potere: sa suonare."}
+{"id":"modals.05","q":"They want to go home.","why":"vogliono for they, then the infinitive andare."}
+{"id":"modals.06","p":"Can you help me? (to a stranger)","why":"With Lei, use the lui/lei form: può."}
+{"id":"modals.07","p":"We have to go to the pharmacy.","why":"The noi form of dovere: dobbiamo."}
+{"id":"modals.08","p":"I'd like a glass of water.","why":"vorrei is the polite way to ask for something."}
+{"id":"modals.09","p":"Can you call a doctor? (to a stranger)","why":"To a stranger, use the Lei form: può."}
+{"id":"modals.10","p":"I can't eat today.","why":"I is the subject, so the io form of potere: posso."}
+{"id":"modals.11","p":"Marco has to go to the pharmacy.","why":"Marco is he, so the verb ending matches the subject: deve."}
+{"id":"modals.12","p":"I have to go to the doctor.","hint":"dovere · andare · dal dottore","why":"The io form of dovere: devo, then the infinitive."}
+{"id":"modals.13","p":"Can you call an ambulance? (to a stranger)","hint":"potere · chiamare · ambulanza","why":"With Lei, use the lui/lei form: può."}
+{"id":"modals.14","p":"I can swim. (I know how)","hint":"so (I know how) · nuotare","why":"A learned skill takes sapere, not potere: so nuotare."}
+{"id":"piacere.01","q":"I like pizza.","why":"The pizza is what pleases: mi piace, and the article stays."}
+{"id":"piacere.02","q":"I like the shoes.","why":"le scarpe is plural, so the verb agrees: piacciono."}
+{"id":"piacere.03","q":"Do you like to dance? (to a stranger)","why":"For a stranger, Le; with an infinitive, always piace."}
+{"id":"piacere.04","q":"Mi piace il caffè. Anche a me. means…","o":["I like coffee. Me too.","I like coffee. Me neither.","I like coffee. You too?","I don't like coffee. Me too."],"why":"anche a me means me too."}
+{"id":"piacere.05","q":"I don't like tea.","why":"non goes before mi, and the article stays."}
+{"id":"piacere.06","p":"I like books. (start with Mi)","why":"piacciono agrees with i libri, a plural noun."}
+{"id":"piacere.07","p":"Do you like pizza? (to a friend, start with Ti)","why":"piace agrees with la pizza, which is singular."}
+{"id":"piacere.08","p":"Me neither.","why":"With piacere, answer neanche a me, because it means to me."}
+{"id":"piacere.09","p":"I like spaghetti.","why":"gli spaghetti is plural, so piacciono agrees with it."}
+{"id":"piacere.10","p":"He likes soccer.","why":"To him is gli: gli piace."}
+{"id":"piacere.11","p":"Do you like to dance?","why":"With an infinitive, always piace."}
+{"id":"piacere.12","p":"I like Italian movies.","hint":"piacere · film · italiano","why":"piacciono agrees with i film italiani, a plural noun."}
+{"id":"piacere.13","p":"She likes soccer.","hint":"le (to her) · piacere · calcio","why":"piace agrees with il calcio, which is singular; le means to her."}
+{"id":"piacere.14","p":"I like to cook.","hint":"piacere · cucinare","why":"With an infinitive, always piace: mi piace cucinare."}
+{"id":"reflexive.01","q":"\"I wake up at seven\" =","why":"svegliarsi is reflexive, and with io the pronoun is mi."}
+{"id":"reflexive.02","q":"\"What's your sister's name?\" (to a friend) =","why":"Your sister is she, so si chiama."}
+{"id":"reflexive.03","q":"\"See you tomorrow!\" =","why":"Ci vediamo: we see each other, so ci with the noi form."}
+{"id":"reflexive.04","q":"\"I have to get up at six\" =","why":"The pronoun joins the infinitive and matches io: alzarmi."}
+{"id":"reflexive.05","q":"\"My name is Jack\" =","why":"Without mi, chiamo Jack means I'm calling Jack."}
+{"id":"reflexive.06","p":"We wash our hands","why":"Ci laviamo: the noi form, so the pronoun and the verb ending match the subject."}
+{"id":"reflexive.07","p":"Her name is Chiara","why":"For she, use the lui/lei form: si chiama."}
+{"id":"reflexive.08","p":"I want to wash my hands","why":"lavarmi: mi matches the io form voglio, joined to the infinitive."}
+{"id":"reflexive.09","p":"What's your name? (to a friend)","why":"ti goes with the tu form, which ends in -i: ti chiami."}
+{"id":"reflexive.10","p":"My mother gets up at six.","why":"My mother is she: si alza."}
+{"id":"reflexive.11","p":"Guys, what time do you get up?","why":"alzate is the voi form, so the pronoun is vi."}
+{"id":"reflexive.12","p":"We get up at seven","hint":"alzarsi · alle sette","why":"The noi form: ci alziamo. The verb ending matches the subject."}
+{"id":"reflexive.13","p":"What's your name? (to a friend)","hint":"chiamarsi · come","why":"The tu form: ti chiami, ending in -i."}
+{"id":"reflexive.14","p":"My name is Megan (use chiamarsi)","hint":"chiamarsi · don't forget the pronoun","why":"Chiamo Megan alone means I'm calling Megan; mi chiamo means my name is."}
+{"id":"lo-la.01","q":"\"The sweater? I'll take it.\" =","why":"il maglione becomes lo, placed before the verb."}
+{"id":"lo-la.02","q":"\"The pants? I'll buy them.\" =","why":"pantaloni is masculine plural, so li, before the verb."}
+{"id":"lo-la.03","q":"\"Marco? I'll call him tomorrow.\" =","why":"Him is lo, and it goes before the verb."}
+{"id":"lo-la.04","q":"\"The keys? I don't have them.\" =","why":"non first, then the pronoun, then the verb; chiavi takes le."}
+{"id":"lo-la.05","q":"\"Can I try it on?\" (la giacca) =","why":"la joins the end of the infinitive: provarla."}
+{"id":"lo-la.06","p":"The white shirt? I'll take it","why":"camicia is feminine, so the pronoun is la."}
+{"id":"lo-la.07","p":"The shoes? I'm not buying them","why":"scarpe is feminine plural, so the pronoun agrees: le."}
+{"id":"lo-la.08","p":"The sweater? I don't want it","why":"maglione is masculine, so the pronoun agrees: lo."}
+{"id":"lo-la.09","p":"The tickets? I'll buy them.","why":"biglietti is masculine plural, so li."}
+{"id":"lo-la.10","p":"The bag? I'm not taking it.","why":"la borsa becomes la."}
+{"id":"lo-la.11","p":"The shoes? Can I try them on?","why":"scarpe is feminine plural, so le, joined to the infinitive."}
+{"id":"lo-la.12","p":"I'll take it (la giacca)","hint":"prendere · la giacca","why":"giacca is feminine, so the pronoun is la."}
+{"id":"lo-la.13","p":"Can I try them on? (i pantaloni)","hint":"potere · provare · i pantaloni","why":"pantaloni is masculine plural, so the pronoun agrees: li."}
+{"id":"lo-la.14","p":"We're not buying it (il maglione)","hint":"comprare · non · il maglione","why":"lo agrees with maglione (masculine), and compriamo is the noi form."}
+{"id":"imperative.01","q":"\"I'd like a cappuccino\" (politely, to a waiter) =","why":"vorrei is the polite way to order, and cappuccino takes un."}
+{"id":"imperative.02","q":"\"Look!\" (to a friend) =","why":"guardare is an -are verb, so the tu imperative ends in -a. Guardi is for a stranger."}
+{"id":"imperative.03","q":"\"Don't eat my ice cream!\" (to a friend) =","why":"To one friend, a negative command is non + infinitive."}
+{"id":"imperative.04","q":"\"Let's go!\" =","why":"Let's uses the noi form: andiamo."}
+{"id":"imperative.05","q":"A man giving you directions says \"Giri a destra.\" He means…","o":["Turn right.","Turn left.","Go straight ahead.","Turn around."],"why":"giri is the Lei imperative of girare, and a destra means to the right."}
+{"id":"imperative.06","p":"Excuse me, where is the station? (to a stranger, start with Mi scusi)","why":"Mi scusi is for a stranger, and stazione is feminine: la stazione."}
+{"id":"imperative.07","p":"Let's have a pizza","why":"Let's is the noi form: prendiamo. pizza is feminine, so una."}
+{"id":"imperative.08","p":"I'd like a beer","why":"birra is feminine, so una. vorrei is the polite way to order."}
+{"id":"imperative.09","p":"Wait a moment, I'm coming! (to a friend)","why":"aspettare is an -are verb: the tu imperative ends in -a."}
+{"id":"imperative.10","p":"Don't touch the phone! (to a friend)","why":"A negative command to a friend is non + infinitive."}
+{"id":"imperative.11","p":"I'd like an espresso, please.","why":"vorrei means I would like: the polite way to order."}
+{"id":"imperative.12","p":"I'd like a glass of water","hint":"vorrei · il bicchiere · l'acqua","why":"bicchiere is masculine, so un bicchiere; vorrei is the polite way to order."}
+{"id":"imperative.13","p":"Let's eat a pizza!","hint":"mangiare · la pizza · let's = the noi form","why":"Let's is the noi form, mangiamo, and pizza is feminine: una."}
+{"id":"imperative.14","p":"Don't touch the phone! (to a friend)","hint":"toccare · non · il telefono","why":"A negative command to a friend is non + the infinitive: non toccare."}
+{"id":"passato.01","q":"\"I ate a pizza\" =","why":"mangiare takes avere, and the participle stays mangiato."}
+{"id":"passato.02","q":"\"We saw a movie\" =","why":"vedere has the irregular participle visto, and we is abbiamo."}
+{"id":"passato.03","q":"\"Did you read the book?\" (to a friend) =","why":"leggere has the irregular participle letto; to a friend, hai."}
+{"id":"passato.04","q":"\"I visited Florence last year\" =","why":"A finished visit takes the passato prossimo; scorso means last, prossimo means next."}
+{"id":"passato.05","q":"\"What did they do yesterday?\" =","why":"They is hanno, and fatto does not change with avere."}
+{"id":"passato.06","p":"We bought the tickets","why":"abbiamo is the noi form of avere, and biglietti takes the plural article i."}
+{"id":"passato.07","p":"Did you take the train? (to a friend)","why":"hai is the tu form of avere; prendere has the participle preso."}
+{"id":"passato.08","p":"I didn't understand","why":"non goes before avere, and capire gives capito."}
+{"id":"passato.09","p":"Last night Giulia cooked the pasta.","why":"Giulia is she, so ha."}
+{"id":"passato.10","p":"I wrote a letter to my grandmother.","why":"scrivere has the irregular participle scritto."}
+{"id":"passato.11","p":"Last week we visited Naples.","why":"settimana is feminine singular, so scorsa."}
+{"id":"passato.12","p":"We saw a movie","hint":"vedere · il film","why":"abbiamo is the noi form: avere carries the verb ending."}
+{"id":"passato.13","p":"Did you eat? (to a friend)","hint":"mangiare","why":"hai is the tu form of avere."}
+{"id":"passato.14","p":"I visited Rome last year","hint":"visitare · Roma · l'anno scorso","why":"A finished visit takes the passato prossimo, even if it was long ago: ho visitato."}
+{"id":"passato-essere.01","q":"\"I left at eight\" (a woman speaking) =","why":"partire takes essere, and a woman says partita."}
+{"id":"passato-essere.02","q":"\"My parents came to Rome\" =","why":"venire takes essere; genitori is masculine plural, so venuti."}
+{"id":"passato-essere.03","q":"\"We came back on Sunday\" (two women) =","why":"tornare takes essere; two women, so tornate."}
+{"id":"passato-essere.04","q":"\"Marco went out\" =","why":"uscire takes essere, and Marco is masculine: uscito."}
+{"id":"passato-essere.05","q":"\"I got up at seven\" (a man speaking) =","why":"Reflexive verbs take essere: mi sono alzato."}
+{"id":"passato-essere.06","p":"I arrived in Rome (a woman speaking)","why":"With essere the participle agrees with the subject: a woman says arrivata."}
+{"id":"passato-essere.07","p":"We went to the beach (a man and a woman)","why":"A mixed group takes the masculine plural: andati."}
+{"id":"passato-essere.08","p":"Did you go out? (to a woman friend)","why":"sei is the tu form, and uscita agrees with a woman (feminine)."}
+{"id":"passato-essere.09","p":"The girls left at nine.","why":"ragazze is feminine plural, so partite."}
+{"id":"passato-essere.10","p":"My brother came back yesterday.","why":"tornare takes essere: è, with the accent. e without it means and."}
+{"id":"passato-essere.11","p":"Last night I went out with Luca. (a man speaking)","why":"uscire takes essere, and I is sono."}
+{"id":"passato-essere.12","p":"I went to Rome (a woman speaking)","hint":"andare · Roma · a woman speaking","why":"With essere the participle agrees with the subject: andata for a woman."}
+{"id":"passato-essere.13","p":"We arrived in Milan (two men)","hint":"arrivare · Milano","why":"Two men: the masculine plural, arrivati, with siamo."}
+{"id":"passato-essere.14","p":"My grandmother was born in Naples","hint":"nascere · nato · Napoli","why":"nonna is feminine, so the participle agrees: nata."}
+{"id":"adverbs.01","q":"\"Have you already eaten?\" (to a friend) =","why":"già means already; it goes between hai and the participle."}
+{"id":"adverbs.02","q":"\"I never work on Sunday\" =","why":"never is non before the verb and mai after it."}
+{"id":"adverbs.03","q":"\"The bathroom is there\" =","why":"lì with an accent means there; li means them, and e means and."}
+{"id":"adverbs.04","q":"\"There are too many people\" =","why":"gente is feminine singular: troppa gente, with c'è."}
+{"id":"adverbs.05","q":"\"The pizza is very good\" =","why":"molto never changes before an adjective; buona agrees with pizza."}
+{"id":"adverbs.06","p":"I have a lot of friends","why":"molti agrees with amici (masculine plural)."}
+{"id":"adverbs.07","p":"It's very beautiful (la città)","why":"molto never changes before an adjective, and bella agrees with città (feminine)."}
+{"id":"adverbs.08","p":"I never eat meat","why":"mai needs non before the verb."}
+{"id":"adverbs.09","p":"I have a lot of friends in Milan. (all women)","why":"amiche is feminine plural, so molte."}
+{"id":"adverbs.10","p":"The coffee is too hot.","why":"troppo never changes before an adjective."}
+{"id":"adverbs.11","p":"The keys are there, on the table.","why":"lì and là, with the accent, mean there."}
+{"id":"adverbs.12","p":"I have a lot of friends","hint":"avere · molto · l'amico","why":"molti agrees with amici, a masculine plural noun."}
+{"id":"adverbs.13","p":"She is very tall","hint":"essere · molto · alto","why":"molto never changes before an adjective; alta agrees with lei (feminine)."}
+{"id":"adverbs.14","p":"I never drink coffee","hint":"bere · mai · il caffè","why":"mai needs non before the verb."}
+{"id":"connectors.01","q":"\"I'm tired but happy\" (a man speaking) =","why":"ma is but, and a man says stanco and contento."}
+{"id":"connectors.02","q":"\"If you want, let's go to the movies\" =","why":"If is se; sì means yes and si is a pronoun."}
+{"id":"connectors.03","q":"\"Me neither\" =","why":"For a negative, use neanche: neanch'io."}
+{"id":"connectors.04","q":"\"Why aren't you coming? Because I'm tired.\" =","why":"perché asks why and also answers because."}
+{"id":"connectors.05","q":"\"It's raining, so I'll take the bus\" =","why":"allora introduces a result, like so."}
+{"id":"connectors.06","p":"I'm tired but happy (a woman speaking)","why":"A woman speaking: stanca and contenta agree (feminine)."}
+{"id":"connectors.07","p":"We study Italian because we like it","why":"studiamo is the noi form: the verb ending matches the subject."}
+{"id":"connectors.08","p":"Yes, me too","why":"sì with an accent means yes; anch'io means me too."}
+{"id":"connectors.09","p":"I'm going to the beach if the weather is nice.","why":"If is se, with no accent."}
+{"id":"connectors.10","p":"Anna is tired because she works too much.","why":"Because is perché."}
+{"id":"connectors.11","p":"I like ice cream. Me too!","why":"With piacere, me too is anche a me."}
+{"id":"connectors.12","p":"We're tired because we work a lot (two men)","hint":"essere · stanco · perché · lavorare · molto","why":"lavoriamo is the noi form, and stanchi agrees with noi (masculine plural)."}
+{"id":"connectors.13","p":"If you want, we'll eat at home (to a friend)","hint":"se · volere · mangiare · a casa","why":"vuoi is the tu form; se means if."}
+{"id":"connectors.14","p":"Yes, me too","hint":"sì · anche · io","why":"sì with an accent means yes."}
+{"id":"sapere-conoscere.01","q":"\"I don't know where the hotel is\" =","why":"A fact with dove takes sapere; I is so."}
+{"id":"sapere-conoscere.02","q":"\"Do you know Rome?\" (to a friend) =","why":"A place takes conoscere; to a friend, conosci."}
+{"id":"sapere-conoscere.03","q":"\"Luisa can play the piano\" (she knows how) =","why":"A skill takes sapere + infinitive: sa suonare."}
+{"id":"sapere-conoscere.04","q":"\"My parents live in Rome\" =","why":"Parents are i genitori; i parenti are relatives."}
+{"id":"sapere-conoscere.05","q":"\"I'm going to the library\" =","why":"A library is la biblioteca; la libreria is a bookstore."}
+{"id":"sapere-conoscere.06","p":"Do you know Marco? (to a friend)","why":"People take conoscere, and conosci is the tu form."}
+{"id":"sapere-conoscere.07","p":"Do you know where the station is? (to a stranger)","why":"Lei takes the lui/lei form: sa. stazione is feminine: la."}
+{"id":"sapere-conoscere.08","p":"They don't know my parents","why":"conoscono is the loro form; i genitori are parents, i parenti relatives."}
+{"id":"sapere-conoscere.09","p":"Do you know where the bathroom is?","why":"A fact takes sapere; with tu, sai."}
+{"id":"sapere-conoscere.10","p":"I don't know Marco's sister.","why":"A person takes conoscere; I is conosco."}
+{"id":"sapere-conoscere.11","p":"My grandmother doesn't know how to use the cell phone.","why":"Know how to takes sapere; my grandmother is she, so sa."}
+{"id":"sapere-conoscere.12","p":"Do you know where the station is? (to a stranger)","hint":"sapere · dov'è · la stazione","why":"Lei takes the lui/lei form: sa."}
+{"id":"sapere-conoscere.13","p":"I know Giulia","hint":"conoscere · Giulia","why":"People take conoscere; the io form is conosco."}
+{"id":"sapere-conoscere.14","p":"My relatives live in Naples","hint":"il parente · abitare · Napoli","why":"Relatives are i parenti, and the verb agrees with a plural subject: abitano."}

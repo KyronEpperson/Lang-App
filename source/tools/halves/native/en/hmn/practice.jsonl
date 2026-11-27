@@ -1,0 +1,364 @@
+{"id":"tones.01","q":"Which tone does the final -b in pob (ball) mark?","o":["high","falling","rising","low"],"why":"-b is the high-tone letter: pob is said high and level."}
+{"id":"tones.02","q":"Which word means 'grandmother (father's mother)'?","why":"pog ends in -g, the falling-breathy tone; pob is ball, pov is throw and pom is see."}
+{"id":"tones.03","q":"Which word has the mid tone, with no tone letter?","why":"zoo ends in a vowel, so it has no tone letter: mid tone."}
+{"id":"tones.04","q":"Which word has the creaky tone?","why":"-m marks the creaky tone: niam (mother). neeg has -g, nyob has -b and kuv has -v."}
+{"id":"tones.05","q":"Which tone does the -s in mus (to go) mark?","o":["low","high","creaky","rising"],"why":"-s is the low tone: low and level. Jay Xiong calls it the middle tone."}
+{"id":"tones.06","p":"Build: I love you","why":"kuv (I) ends in -v, the rising tone; kub, with the high-tone letter -b, means hot."}
+{"id":"tones.07","p":"Build: Hello","why":"nyob ends in -b, the high tone; nyom, with the creaky -m, is grass, and zoov is forest."}
+{"id":"tones.08","p":"Build: Thank you","why":"tsaug ends in -g, the falling-breathy tone letter; tsaus, with -s, means dark."}
+{"id":"tones.09","p":"I love you.","why":"You is koj, with the falling tone (-j). kuv is I and kub is hot."}
+{"id":"tones.10","p":"Hello.","why":"Hello is nyob zoo: nyob with the high-tone letter -b. nyom is grass."}
+{"id":"tones.11","p":"I drink water.","why":"Water is dej, with the falling tone (-j). dev is dog and deb is far."}
+{"id":"tones.12","p":"Type the word for 'ball' (high tone)","hint":"po · add the high-tone letter","why":"The high tone is written -b: pob. pov, with the rising tone letter -v, means throw."}
+{"id":"tones.13","p":"Type the word for 'water'","hint":"de · add the falling-tone letter, which is silent","why":"dej has the falling tone letter -j. dev, with the rising tone, means dog."}
+{"id":"tones.14","p":"Type: I love you","hint":"kuv · hlub · koj · kuv (I): rising tone","why":"kuv (I) needs the rising tone letter -v; kub means hot."}
+{"id":"consonants-1.01","q":"Which letter is said like English s?","why":"x is English s; s sounds like sh, and z like the s in measure."}
+{"id":"consonants-1.02","q":"Which word starts with a puff of air (aspirated)?","why":"tsh has the h, so it is aspirated: tshis (goat). tsis (not) has no puff."}
+{"id":"consonants-1.03","q":"In riam (knife), the r is…","o":["a t with the tongue curled back","an English r","a rolled r","silent"],"why":"RPA r is a t sound made with the tongue curled back."}
+{"id":"consonants-1.04","q":"Which word means 'umbrella'?","why":"kaus has a plain k; khaus, with a puff of air, means itchy."}
+{"id":"consonants-1.05","q":"Which word means 'nine'?","why":"c is like the ty of got you; cuaj has the falling tone -j. cua, with no tone letter, is wind."}
+{"id":"consonants-1.06","p":"Build: Sorry","why":"Thov starts with an aspirated th; txim ends in the creaky tone letter -m, while txiv (father) has the rising tone."}
+{"id":"consonants-1.07","p":"Build: You are my friend","why":"phooj starts with aspirated ph, a p with a puff of air; kuv (my) has the rising tone letter -v, kub means hot."}
+{"id":"consonants-1.08","p":"Build: Please say it again","why":"dua has no tone letter, so it has the mid tone; duab, with -b, means picture."}
+{"id":"consonants-1.09","p":"I see a goat.","why":"Goat is tshis, with aspirated tsh. tsis is not, tsev is house, txiv is father."}
+{"id":"consonants-1.10","p":"I see you.","why":"See is pom: plain p and the creaky -m. phom is gun, pob is ball, pov is throw."}
+{"id":"consonants-1.11","p":"Hello.","why":"Hello is nyob zoo: z like the s in measure, no tone letter. sov is warm."}
+{"id":"consonants-1.12","p":"Type the word for 'goat'","hint":"tsh, with a puff of air · add the low-tone letter","why":"Goat is tshis: aspirated tsh and the low tone letter -s. tsis means not."}
+{"id":"consonants-1.13","p":"Type the word for 'chicken'","hint":"q, a k made far back · add the high-tone letter","why":"Chicken is qaib: q is a k made far back, and -b is the high tone letter."}
+{"id":"consonants-1.14","p":"Type: Sorry (two words)","hint":"thov · txim · thov starts with a puff of air","why":"Thov has an aspirated th; txim ends in the creaky tone letter -m."}
+{"id":"consonants-2.01","q":"Which word starts with a pre-nasalised sound (n + consonant)?","why":"ntses (fish) starts with nts, a nasal start."}
+{"id":"consonants-2.02","q":"Which word means 'pig'?","why":"Pig is npua, with a nasal start. pua is hundred and nqaij is meat."}
+{"id":"consonants-2.03","q":"Which word means 'bag'?","why":"hnab starts with the breathy hn; nab is snake."}
+{"id":"consonants-2.04","q":"The vowel oo in zoo (good) is close to…","o":["ong","the oo of food","a long o","two o sounds"],"why":"oo is a nasal vowel, close to ong, with no g said."}
+{"id":"consonants-2.05","q":"Which word means 'salt'?","why":"ntsev is salt; tsev, without the n, is house, and ntses is fish."}
+{"id":"consonants-2.06","p":"Build: We speak Hmong","why":"Hmoob ends in the high tone letter -b, after the nasal oo; pem has the creaky tone."}
+{"id":"consonants-2.07","p":"Build: I love you","why":"hlub starts with the breathy hl and has the high tone (-b); lub is a different word."}
+{"id":"consonants-2.08","p":"Build: I like fish","why":"ntses (fish) is pre-nasalised and ends in the low tone letter -s; ntsev is salt."}
+{"id":"consonants-2.09","p":"I like pork.","why":"Pork is nqaij npua (also written nqaij npuas): np, a nasal start. pua is hundred."}
+{"id":"consonants-2.10","p":"I love you.","why":"Love is hlub, with the breathy hl. hlob means to grow up."}
+{"id":"consonants-2.11","p":"I'm Hmong.","why":"Hmong is Hmoob, with the nasal oo and the high tone. hmo is night, and hmoov, with the rising tone, is luck."}
+{"id":"consonants-2.12","p":"Type the word for 'pig'","hint":"np, a nasal start like mb · no tone letter","why":"Pig is npua: pre-nasalised np and the mid tone. pua without the n is hundred."}
+{"id":"consonants-2.13","p":"Type the word for 'day'","hint":"hn, a breathy n · add the high-tone letter","why":"Day is hnub: a breathy hn and the high tone letter -b."}
+{"id":"consonants-2.14","p":"Type: I like fish","hint":"kuv · nyiam · ntses · fish ends in the low tone","why":"ntses (fish) is pre-nasalised and ends in the low tone letter -s; ntsev is salt."}
+{"id":"greetings.01","q":"Hello (any time of day) =","why":"Nyob zoo is hello at any hour. Pw zoo os is good night and mus zoo is goodbye."}
+{"id":"greetings.02","q":"Thank you =","why":"Ua tsaug is thank you; tsaus with -s means dark."}
+{"id":"greetings.03","q":"Sorry =","why":"Thov txim is sorry; thov zam kev is for getting past someone."}
+{"id":"greetings.04","q":"You want to get past someone in a crowded hall. You say…","why":"Thov zam kev asks the other person to make way."}
+{"id":"greetings.05","q":"A friend is leaving your house. Which goodbye fits?","why":"Mus zoo, go well, is said to the one who leaves."}
+{"id":"greetings.06","p":"Build: How are you?","why":"nyob ends in the high tone letter -b; nyom, with the creaky -m, is grass. Koj is you; kuv is I."}
+{"id":"greetings.07","p":"Build: I'm fine","why":"kuv (I) has the rising tone; nyob has the high tone letter -b, while nyom is grass."}
+{"id":"greetings.08","p":"Build: Nice to meet you","why":"ntsib (meet) ends in the high tone letter -b; ntsim, with -m, means spicy."}
+{"id":"greetings.09","p":"Thank you.","why":"Thank you is ua tsaug, with the breathy -g. tsaus means dark."}
+{"id":"greetings.10","p":"Sorry.","why":"Sorry is thov txim, with the creaky -m. txiv is father."}
+{"id":"greetings.11","p":"Goodbye. (See you again.)","why":"See you again is sib ntsib dua; duab means picture."}
+{"id":"greetings.12","p":"Type: Thank you","hint":"ua · tsaug · tsaug: falling-breathy tone","why":"tsaug ends in -g, the falling-breathy tone letter; tsaus means dark."}
+{"id":"greetings.13","p":"Type: I'm fine (the answer to 'How are you?')","hint":"kuv · nyob · zoo","why":"kuv has the rising tone (-v) and nyob the high tone (-b); nyom is grass."}
+{"id":"greetings.14","p":"Type: Please say it again (use thov)","hint":"thov · hais · dua","why":"dua has no tone letter: mid tone. duab, with the high tone letter -b, means picture."}
+{"id":"pronouns.01","q":"they (two people) =","why":"nkawd is they for two people; lawv is three or more."}
+{"id":"pronouns.02","q":"you (one person) =","why":"koj is you for one person; kuv is I."}
+{"id":"pronouns.03","q":"Which pronoun means he, she or it?","why":"nws is he, she or it: Hmong does not mark the sex."}
+{"id":"pronouns.04","q":"we (three or more) =","why":"peb is we for three or more; wb is two. pem means up there."}
+{"id":"pronouns.05","q":"Which word means 'my'?","why":"kuv is I, me and my; kub means hot."}
+{"id":"pronouns.06","p":"Build: You love me","why":"kuv (me) has the rising tone letter -v; kub means hot."}
+{"id":"pronouns.07","p":"Build: We two are fine","why":"wb is exactly two; nyob has the high tone letter -b, while nyom is grass."}
+{"id":"pronouns.08","p":"Build: They (three or more) are fine","why":"lawv ends in the rising tone letter -v; lawm is a different word, a marker for finished actions."}
+{"id":"pronouns.09","p":"You two are fine.","why":"neb (you two) ends in the high tone letter -b; nej is three or more."}
+{"id":"pronouns.10","p":"We (three or more) speak Hmong.","why":"peb is we for three or more; wb is two, and pem means up there."}
+{"id":"pronouns.11","p":"You are my friend.","why":"My is kuv, with the rising tone; kub is hot."}
+{"id":"pronouns.12","p":"Type: We two are fine","hint":"wb · nyob · zoo · wb means exactly two","why":"wb is the two-person we; nyob needs the high tone letter -b."}
+{"id":"pronouns.13","p":"Type: They (three or more) are fine","hint":"lawv · nyob · zoo","why":"lawv has the rising tone letter -v; lawm is the marker for finished actions."}
+{"id":"pronouns.14","p":"Type: You love me","hint":"koj · hlub · kuv","why":"kuv (me) has the rising tone; kub, with the high tone, means hot."}
+{"id":"yog-nyob.01","q":"This is the house =","why":"yog says what something is, and it sits between this and the house."}
+{"id":"yog-nyob.02","q":"I'm in the house =","why":"nyob is for place; nyom, with the creaky tone, is grass."}
+{"id":"yog-nyob.03","q":"She's very happy =","why":"No yog before a describing word, and heev comes after it."}
+{"id":"yog-nyob.04","q":"Which word do you use to say where someone is?","why":"nyob is to be in a place; yog is X is a Y."}
+{"id":"yog-nyob.05","q":"You are my friend =","why":"yog for who someone is; the last option means I am your friend."}
+{"id":"yog-nyob.06","p":"Build: This is the house","why":"House takes the classifier lub: lub tsev (lus means words). yog says what something is."}
+{"id":"yog-nyob.07","p":"Build: I'm in the house","why":"nyob, with the high tone letter -b, is for place, and the house is lub tsev."}
+{"id":"yog-nyob.08","p":"Build: I'm happy","why":"No yog before a describing word: Kuv zoo siab."}
+{"id":"yog-nyob.09","p":"This is the house.","why":"yog says what something is; yos, with the low tone, means to stroll."}
+{"id":"yog-nyob.10","p":"I live in Minneapolis.","why":"nyob is to live or be somewhere; nyom is grass."}
+{"id":"yog-nyob.11","p":"I'm happy.","why":"Happy is zoo siab, with no yog; zoov is forest."}
+{"id":"yog-nyob.12","p":"Type: This is the house","hint":"nov · yog · tsev · house takes lub","why":"yog for X is a Y, and house takes the classifier lub: lub tsev."}
+{"id":"yog-nyob.13","p":"Type: I'm in the house","hint":"kuv · nyob · hauv · lub tsev","why":"nyob is for place, and tsev takes lub: hauv lub tsev. nyom (creaky tone) is grass and haus (low tone) is drink."}
+{"id":"yog-nyob.14","p":"Type: I'm happy","hint":"kuv · zoo siab · no word for is","why":"Describing words need no yog; zoo has the mid tone (no tone letter)."}
+{"id":"questions.01","q":"Do you speak English? =","why":"puas goes right before the verb hais. pov means throw, not a question word."}
+{"id":"questions.02","q":"Which word means 'where'?","why":"qhov twg is where; dab tsi is what, leej twg is who, thaum twg is when."}
+{"id":"questions.03","q":"Which word means 'who'?","why":"leej twg is who; pes tsawg is how many."}
+{"id":"questions.04","q":"Where is the bathroom? =","why":"nyob for where, and qhov twg stays after it."}
+{"id":"questions.05","q":"Have you eaten yet? =","why":"los tsis yog, or not?, goes at the end."}
+{"id":"questions.06","p":"Build: Do you speak English?","why":"puas goes before the verb; lus (language) ends in the low tone letter -s, and lub is a different word."}
+{"id":"questions.07","p":"Build: Where do you want to go?","why":"mus (go) ends in the low tone letter -s; muv is bee. The question word stays at the end."}
+{"id":"questions.08","p":"Build: Are you well?","why":"puas goes before nyob, which has the high tone letter -b; nyom is grass."}
+{"id":"questions.09","p":"Do you speak English?","why":"The question word is puas, before the verb. pov means throw, pob is ball, and pua, with no tone letter, is hundred."}
+{"id":"questions.10","p":"Where do you want to go?","why":"Where is qhov twg, in the place of the answer."}
+{"id":"questions.11","p":"Have you eaten yet?","why":"The ending is los tsis yog, or not?; yos means to stroll."}
+{"id":"questions.12","p":"Type: Do you speak English? (use puas)","hint":"koj · puas · hais lus Askiv · puas goes before the verb","why":"puas goes right before the verb; lus ends in the low tone letter -s."}
+{"id":"questions.13","p":"Type: Where do you want to go?","hint":"koj · xav · mus · qhov twg · the question word stays at the end","why":"The question word stays where the answer goes; mus has the low tone letter -s."}
+{"id":"questions.14","p":"Type: Are you well? (use puas)","hint":"koj · puas · nyob · zoo","why":"puas goes before the verb nyob, which ends in the high tone letter -b."}
+{"id":"negation.01","q":"I don't know =","why":"tsis goes right before the verb. tsib, with the high tone, is five."}
+{"id":"negation.02","q":"I don't understand =","why":"tsis before the verb nkag siab; tsis txhob is for don't!"}
+{"id":"negation.03","q":"Don't eat it! =","why":"tsis txhob goes before the verb; txob is pepper."}
+{"id":"negation.04","q":"not yet =","why":"tsis tau is not yet; tsis yog is no, it isn't."}
+{"id":"negation.05","q":"No. (It isn't.) =","why":"Tsis yog answers no; yog is yes."}
+{"id":"negation.06","p":"Build: I don't know","why":"tsis (not) ends in the low tone letter -s; tsib, with -b, is five."}
+{"id":"negation.07","p":"Build: Don't eat it!","why":"txhob is aspirated (txh), with a puff of air; txob, without it, is pepper."}
+{"id":"negation.08","p":"Build: I don't understand","why":"tsis has no puff of air; the aspirated tshis is goat."}
+{"id":"negation.09","p":"I don't know.","why":"Not is tsis, before the verb. tsib is five and tshis is goat."}
+{"id":"negation.10","p":"Don't go.","why":"Don't is tsis txhob; txob is pepper, and tsis tau mus would be hasn't gone yet."}
+{"id":"negation.11","p":"I haven't eaten yet.","why":"Not yet is tsis tau. ntau, with a nasal start, means many."}
+{"id":"negation.12","p":"Type: I don't know","hint":"kuv · tsis · paub · not goes before the verb","why":"tsis (not) has the low tone letter -s and goes before the verb; tsib is five."}
+{"id":"negation.13","p":"Type: Don't go! (use tsis txhob)","hint":"tsis txhob · mus","why":"txhob is aspirated, with a puff of air; txob means pepper. tsis (not) has the low tone letter -s; tsib is five."}
+{"id":"negation.14","p":"Type: I don't understand (use nkag siab)","hint":"kuv · tsis · nkag siab","why":"tsis goes before the verb; the aspirated tshis would be goat, and tsib, with the high tone, is five."}
+{"id":"intro.01","q":"What's your name? =","why":"npe needs lub, the question words li cas stay at the end, and koj is your."}
+{"id":"intro.02","q":"My name is Paj =","why":"kuv lub npe (my name) + hu ua (is called) + the name."}
+{"id":"intro.03","q":"How old are you? =","why":"hnub nyoog (age) first, then pes tsawg (how many) at the end."}
+{"id":"intro.04","q":"Which word means 'clan'?","why":"Clan is xeem, with the creaky -m; xeev means a US state."}
+{"id":"intro.05","q":"I'm from Fresno =","why":"tuaj on both sides of the place; tuag means to die."}
+{"id":"intro.06","p":"Build: My name is Paj","why":"npe (name) takes the classifier lub: kuv lub npe. lus means words."}
+{"id":"intro.07","p":"Build: What's your name?","why":"Name takes lub, and li cas stays at the end; koj (your) has the falling tone letter -j."}
+{"id":"intro.08","p":"Build: Where are you from?","why":"tuaj (come) ends in the falling tone letter -j; tuag means to die."}
+{"id":"intro.09","p":"My name is Paj.","why":"npe takes the classifier lub; lus means words."}
+{"id":"intro.10","p":"Where are you from?","why":"tuaj (come) closes the question; tuag means to die."}
+{"id":"intro.11","p":"Which Hmong clan are you?","why":"Clan is xeem; xeev means a US state."}
+{"id":"intro.12","p":"Type: My name is Paj","hint":"kuv · lub npe · hu ua · Paj · name takes lub","why":"npe (name) takes the classifier lub: kuv lub npe hu ua Paj."}
+{"id":"intro.13","p":"Type: What's your name?","hint":"koj · lub npe · hu li cas","why":"Again lub npe, with li cas at the end."}
+{"id":"intro.14","p":"Type: I'm from Fresno","hint":"kuv · tuaj · Fresno · tuaj","why":"tuaj sits on both sides of the place and has the falling tone letter -j; tuag means to die."}
+{"id":"numbers.01","q":"'eleven' =","why":"Ten comes first, then the one: kaum ib."}
+{"id":"numbers.02","q":"'twenty' =","why":"Twenty is a word of its own: nees nkaum."}
+{"id":"numbers.03","q":"'forty' =","why":"After three, four and five the tens word is caug, with the tone letter g."}
+{"id":"numbers.04","q":"'seven hundred' =","why":"rau, xya and yim take pua, with no tone letter."}
+{"id":"numbers.05","q":"Which tone does the last letter of caum show?","o":["creaky","high","rising","falling"],"why":"The tone letter m is the creaky tone."}
+{"id":"numbers.06","p":"thirty-two","why":"After peb the tens word is caug, tone letter g (the breathy tone)."}
+{"id":"numbers.07","p":"eighty","why":"After yim the tens word ends in the tone letter m (the creaky tone): yim caum."}
+{"id":"numbers.08","p":"I have ten dollars","why":"kaum (ten) has the tone letter m; kaus, with s, means umbrella."}
+{"id":"numbers.09","p":"six hundred","why":"rau takes pua, with no tone letter (the mid tone)."}
+{"id":"numbers.10","p":"twenty","why":"Twenty is nees nkaum, with the n- start and the creaky tone letter m; nkauj, with j, is song."}
+{"id":"numbers.11","p":"How many dollars do you have?","why":"pes tsawg asks 'how many' and sits where the number goes."}
+{"id":"numbers.12","p":"sixty","hint":"rau (six) · the tens word for six to nine","why":"After rau the tens word is caum, with the tone letter m (the creaky tone)."}
+{"id":"numbers.13","p":"five hundred","hint":"tsib (five) · the hundreds word","why":"After tsib the hundreds word is puas, with the tone letter s (the low tone)."}
+{"id":"numbers.14","p":"one million","hint":"ib · plhom (million)","why":"A million is ib plhom; ib lab and ib roob are also written."}
+{"id":"classifiers.01","q":"'a knife' =","why":"Knives and tools take rab."}
+{"id":"classifiers.02","q":"'an umbrella' =","why":"Umbrellas take lub, not tus."}
+{"id":"classifiers.03","q":"'a book' =","why":"Books take phau; ib daim ntawv is a sheet of paper."}
+{"id":"classifiers.04","q":"'a pair of shoes' =","why":"Pairs take nkawm."}
+{"id":"classifiers.05","q":"'the children' =","why":"cov replaces the classifier for a group, and it goes first."}
+{"id":"classifiers.06","p":"two houses","why":"Buildings take lub, between the number and the noun."}
+{"id":"classifiers.07","p":"a sheet of paper","why":"Flat things take daim; phau ntawv would be a book."}
+{"id":"classifiers.08","p":"I have two cars","why":"Cars take the classifier lub: ob lub tsheb."}
+{"id":"classifiers.09","p":"a dog","why":"Animals take tus, written tug after ib. tub, with the high tone letter b, is son."}
+{"id":"classifiers.10","p":"a rope","why":"Long bendy things such as rope take txoj; txob, with the high tone letter b, is pepper."}
+{"id":"classifiers.11","p":"a tree","why":"Plants take tsob."}
+{"id":"classifiers.12","p":"a book","hint":"ib · ntawv (book, paper) · the classifier for books","why":"Books take the classifier phau; daim ntawv is a sheet of paper."}
+{"id":"classifiers.13","p":"two knives","hint":"ob · riam (knife)","why":"Knives and tools take rab."}
+{"id":"classifiers.14","p":"the children","hint":"me nyuam (child) · the group word","why":"cov replaces the classifier for a group."}
+{"id":"noun-phrase.01","q":"'the white house' =","why":"The describing word goes after the noun: lub tsev dawb."}
+{"id":"noun-phrase.02","q":"'this dog' =","why":"no goes at the end: tus dev no."}
+{"id":"noun-phrase.03","q":"'that book' (near you) =","why":"ko is 'that, near you', and it goes at the end; no would be 'this'."}
+{"id":"noun-phrase.04","q":"'my car' =","why":"The owner first, then classifier and noun: kuv lub tsheb."}
+{"id":"noun-phrase.05","q":"'This is my house.' =","why":"Nov yog… is 'this is…', and kuv comes before lub tsev."}
+{"id":"noun-phrase.06","p":"the red car","why":"Cars take lub, and the adjective goes after the noun: lub tsheb liab."}
+{"id":"noun-phrase.07","p":"this big house","why":"Houses take lub; loj (big) goes after the noun, and no comes last."}
+{"id":"noun-phrase.08","p":"my black dog","why":"kuv first, then the classifier tus; dub (black) goes after the noun."}
+{"id":"noun-phrase.09","p":"that house (away from both of us)","why":"ntawd is 'that' for something away from both of you, at the end; ntawv, with the tone letter v, is paper."}
+{"id":"noun-phrase.10","p":"this black dog","why":"dub (black) sits between the noun and no."}
+{"id":"noun-phrase.11","p":"my car","why":"kuv (my) comes first, as in English; kub, with b, means hot."}
+{"id":"noun-phrase.12","p":"the red car","hint":"tsheb (car) · liab","why":"Cars take lub, and the adjective goes after the noun. lus, with the low tone, means words."}
+{"id":"noun-phrase.13","p":"this house","hint":"tsev (house) · no (this)","why":"Houses take lub, and no (no tone letter) comes after the noun; noj means eat."}
+{"id":"noun-phrase.14","p":"my new book","hint":"kuv · ntawv (book) · tshiab (new)","why":"Books take phau (no tone letter), and tshiab (new) goes after the noun. phauj is an aunt."}
+{"id":"family.01","q":"'parents' =","why":"niam txiv is mother + father; niam tais is a grandmother."}
+{"id":"family.02","q":"A man says 'my younger brother'. Which word?","why":"A man calls his younger brother kwv; tij laug is older."}
+{"id":"family.03","q":"A woman says 'sister'. Which word?","why":"A woman calls her sister viv ncaus; muam is said by a man."}
+{"id":"family.04","q":"'daughter' =","why":"tub is son and nyab is daughter-in-law."}
+{"id":"family.05","q":"txiv hlob is…","o":["father's older brother","father's younger brother","mother's brother","grandfather"],"why":"txiv hlob is your father's older brother; txiv ntxawm is his younger brother."}
+{"id":"family.06","p":"I have two sons","why":"People take the classifier tus, written tug after ob: ob tug tub."}
+{"id":"family.07","p":"I have one daughter","why":"Count people with the classifier tus, written tug after ib."}
+{"id":"family.08","p":"(said by a woman) I have a brother","why":"A woman calls her brother nus; kwv is said by a man."}
+{"id":"family.09","p":"I have a sister. (said by a man)","why":"A man calls his sister muam, with the creaky tone letter m; muaj, with j, is have."}
+{"id":"family.10","p":"I have an older brother. (said by a man)","why":"A man calls his older brother tij laug; kwv is younger."}
+{"id":"family.11","p":"How many children do you have?","why":"Children take tus; tub, with b, means son."}
+{"id":"family.12","p":"I have two daughters","hint":"muaj (have) · ob · ntxhais (daughter) · the classifier for people","why":"People take the classifier tus, written tug after ob; tub, with b, is son."}
+{"id":"family.13","p":"I have one son","hint":"muaj (have) · ib · tub (son) · the classifier for people","why":"People take the classifier tus, written tug after ib. muaj (have) ends in j; muam is sister."}
+{"id":"family.14","p":"(said by a woman) I have a sister","hint":"muaj (have) · ib · viv ncaus (sister, when women speak)","why":"A woman says viv ncaus, counted with the classifier tus (tug after ib)."}
+{"id":"time.01","q":"'today' =","why":"hnub no is 'this day', today."}
+{"id":"time.02","q":"'yesterday' =","why":"nag hmo is yesterday; tag kis is tomorrow."}
+{"id":"time.03","q":"'every day' =","why":"txhua means every: txhua hnub."}
+{"id":"time.04","q":"'December' =","why":"Months are numbered: the twelfth month is December."}
+{"id":"time.05","q":"How do US Hmong agency texts write 'Monday'?","why":"They put the English day name after hnub; hnub so is a day off."}
+{"id":"time.06","p":"(start with the time word) Today I work","why":"In hnub no, no has no tone letter (the mid tone); noj, with the tone letter j, means eat."}
+{"id":"time.07","p":"(start with the time word) Yesterday I went to the store","why":"mus (go) has the tone letter s (the low tone); muv is 'bee'."}
+{"id":"time.08","p":"(start with the time word) Tomorrow I study","why":"kis ends in the tone letter s (the low tone); kim, with m, means expensive."}
+{"id":"time.09","p":"Yesterday I went to the store.","why":"nag hmo is yesterday; the verb mus does not change."}
+{"id":"time.10","p":"I work every day.","why":"txhua hnub is every day."}
+{"id":"time.11","p":"December","why":"Month names end in hlis ntuj (or hli ntuj)."}
+{"id":"time.12","p":"today","hint":"hnub (day) · no (this)","why":"no has no tone letter (the mid tone); noj means eat."}
+{"id":"time.13","p":"(start with the time word) Tomorrow I work","hint":"tag kis (tomorrow) · ua hauj lwm (work)","why":"kis has the tone letter s (the low tone); kim means expensive."}
+{"id":"time.14","p":"(start with the time word) In the morning I drink coffee","hint":"sawv ntxov (morning) · haus (drink) · kav fes (coffee)","why":"haus (drink) ends in the tone letter s; hauv, with v, means in."}
+{"id":"aspect.01","q":"'I've eaten' =","why":"lawm follows the verb and its object; lawv, with v, means they."}
+{"id":"aspect.02","q":"Which word shows that an action is going on right now?","why":"tab tom means 'in the middle of'."}
+{"id":"aspect.03","q":"'I will go' =","why":"yuav (will) goes before the verb mus."}
+{"id":"aspect.04","q":"'I haven't eaten yet' =","why":"tsis tau before the verb means 'not yet'."}
+{"id":"aspect.05","q":"nyuam qhuav means…","o":["just (a moment ago)","still","already","later"],"why":"Nws nyuam qhuav tuaj txog: he just arrived."}
+{"id":"aspect.06","p":"She is reading a book","why":"tab tom goes before the verb; books take the classifier phau."}
+{"id":"aspect.07","p":"I've eaten","why":"lawm, with the tone letter m (the creaky tone), follows noj mov; lawv means they."}
+{"id":"aspect.08","p":"I will buy a car","why":"The first yuav is 'will', the second 'buy'; cars take the classifier lub."}
+{"id":"aspect.09","p":"I've eaten.","why":"lawm marks a finished action; lawv means they."}
+{"id":"aspect.10","p":"They're drinking water.","why":"tab tom (in the middle of) goes before the verb."}
+{"id":"aspect.11","p":"I'm going home.","why":"yuav before the verb points to what is coming."}
+{"id":"aspect.12","p":"I've eaten (use lawm only)","hint":"noj mov (eat) · the 'done' word","why":"lawm, with the tone letter m (the creaky tone), follows noj mov; lawv means they."}
+{"id":"aspect.13","p":"(use tab tom) They're drinking water","hint":"lawv (they) · haus dej (drink water) · in the middle of","why":"lawv (they) has the tone letter v (the rising tone); lawm is the 'done' word."}
+{"id":"aspect.14","p":"I will buy a book","hint":"yuav (will; buy) · ntawv (book)","why":"Books take the classifier phau; yuav comes twice, 'will' then 'buy'. phauj is an aunt."}
+{"id":"places.01","q":"'in the house' =","why":"hauv (in) comes before the place; haus, with s, means drink."}
+{"id":"places.02","q":"'down there' (lower than you) =","why":"nram is down there; pem is up there."}
+{"id":"places.03","q":"'over there, across' (farther away) =","why":"tim is across, farther than tom."}
+{"id":"places.04","q":"'right' (side) =","why":"sab xis is right; sab laug is left."}
+{"id":"places.05","q":"Which verb means to come back home?","why":"los is to come back home; tuaj is to come to a place that is not home."}
+{"id":"places.06","p":"The book is on the table","why":"Location uses nyob; the table takes the classifier lub after saum."}
+{"id":"places.07","p":"I'm in the house","why":"hauv (in) has the tone letter v; haus means drink. Houses take lub."}
+{"id":"places.08","p":"The cat is under the table","why":"Animals take tus and tables take lub."}
+{"id":"places.09","p":"He's over there.","why":"At the end of a phrase tom becomes tod; tob means deep."}
+{"id":"places.10","p":"I'm going to the market.","why":"tom (over there, at) comes before the place."}
+{"id":"places.11","p":"The book is on the table.","why":"saum is on top of; sau, with no m, means write."}
+{"id":"places.12","p":"I'm in the house","hint":"nyob (be at) · hauv (in) · tsev (house)","why":"hauv ends in the tone letter v; haus means drink. Houses take lub."}
+{"id":"places.13","p":"The book is on the table","hint":"ntawv (book) · nyob · saum (on top of) · rooj (table)","why":"Books take phau and tables lub; location uses nyob, with the high tone letter b (nyom is grass)."}
+{"id":"places.14","p":"He's over there (the short form of tom)","hint":"nws · nyob · tom at the end of a phrase","why":"At the end of a phrase tom becomes tod, with the tone letter d."}
+{"id":"food.01","q":"'I drink water' =","why":"Drinks take haus; dev is dog and hauv is in."}
+{"id":"food.02","q":"'to eat breakfast' =","why":"noj tshais is breakfast; noj su is lunch and noj hmo is dinner."}
+{"id":"food.03","q":"'chicken' (the meat) =","why":"nqaij qaib is chicken; nqaij npua is pork and nqaij nyuj is beef."}
+{"id":"food.04","q":"'Are you hungry?' =","why":"puas goes before the verb; tshais (breakfast) is not tshaib (hungry)."}
+{"id":"food.05","q":"Which verb goes with tshuaj yej (tea)?","why":"Anything you drink takes haus."}
+{"id":"food.06","p":"I drink water","why":"Drinks take haus; dej (water) has the tone letter j, and dev, with v, is dog."}
+{"id":"food.07","p":"I eat an egg","why":"Eggs take the classifier lub."}
+{"id":"food.08","p":"I drink a cup of tea","why":"khob is the classifier 'a cup of'; it goes between ib and the drink."}
+{"id":"food.09","p":"I drink coffee.","why":"Coffee is a drink, so it takes haus."}
+{"id":"food.10","p":"I like to eat pho.","why":"Pho is fawm; the others are drinks, which take haus."}
+{"id":"food.11","p":"We're eating (a meal).","why":"mov (meal) has the tone letter v; mob, with b, means sick."}
+{"id":"food.12","p":"I drink water","hint":"haus (drink) · dej (water)","why":"dej (water) has the falling tone, tone letter j; dev is dog."}
+{"id":"food.13","p":"I eat two eggs","hint":"noj · ob · qe (egg)","why":"Eggs take the classifier lub; noj (eat) ends in j, and nov is this."}
+{"id":"food.14","p":"I don't eat beef","hint":"tsis · noj · nqaij nyuj (beef)","why":"tsis (low tone) goes before the verb, and food takes noj. tsib is five."}
+{"id":"serial-verbs.01","q":"'I'm going out to buy vegetables' (use mus) =","why":"Verbs sit side by side with no thiab."}
+{"id":"serial-verbs.02","q":"'We're going shopping' =","why":"mus kav khw is 'go shopping'; the subject goes first."}
+{"id":"serial-verbs.03","q":"'Come and eat!' (to family at home) =","why":"los and noj sit side by side, with no thiab."}
+{"id":"serial-verbs.04","q":"'I want to go home' =","why":"xav takes the next verb directly, with no word for 'to'."}
+{"id":"serial-verbs.05","q":"Which word goes between the thing and the person in the give pattern?","why":"muab + the thing + rau + the person."}
+{"id":"serial-verbs.06","p":"I give you a book","why":"muab (tone letter b, the high tone) starts the give pattern; muaj means have. Books take phau."}
+{"id":"serial-verbs.07","p":"She gives me a cup of water","why":"khob is the classifier 'a cup of'; dej (tone letter j) is water, and dev is dog."}
+{"id":"serial-verbs.08","p":"(use mus) I'm going out to buy a car","why":"mus and yuav sit side by side with no thiab; cars take the classifier lub."}
+{"id":"serial-verbs.09","p":"I'm going out to buy vegetables.","why":"The verbs sit side by side: mus yuav, go buy."}
+{"id":"serial-verbs.10","p":"I give you the book.","why":"muab + the thing + rau + the person; rauj means hammer."}
+{"id":"serial-verbs.11","p":"Come and eat! (to family at home)","why":"los is to come back home; it sits right before noj. loj, with the tone letter j, is big."}
+{"id":"serial-verbs.12","p":"I give you a book","hint":"muab … rau (give) · ntawv (book)","why":"muab has the high tone (tone letter b); muaj means have. Books take phau."}
+{"id":"serial-verbs.13","p":"(use mus) We're going out to buy a car","hint":"mus · yuav (buy) · tsheb (car)","why":"No thiab between mus and yuav; cars take the classifier lub."}
+{"id":"serial-verbs.14","p":"Come and eat! (to family at home)","hint":"los (come home) · noj mov (eat a meal)","why":"los and noj sit side by side, with no thiab. mov (meal) ends in v; mob is sick."}
+{"id":"requests.01","q":"\"Please sit down\" =","why":"thov goes right before the verb: Thov zaum."}
+{"id":"requests.02","q":"\"Could you help me?\" =","why":"Say the action first, then add puas tau? at the end."}
+{"id":"requests.03","q":"What does Tsis txhob mus mean?","o":["Don't go.","Please go.","I'm not going.","May I go?"],"why":"tsis txhob before the verb means don't."}
+{"id":"requests.04","q":"What does Kuv nug puas tau? mean?","o":["May I ask?","Did I ask?","Don't ask me.","Please ask me."],"why":"nug = ask; puas tau? at the end asks permission."}
+{"id":"requests.05","q":"What does Pab! mean?","o":["Help!","Sorry!","Thank you!","Come again!"],"why":"pab is to help; Pab! on its own is the call for help."}
+{"id":"requests.06","p":"Please help me.","why":"kuv (me) has the rising tone, letter v; kub with the high tone is \"hot\"."}
+{"id":"requests.07","p":"Could you say it again?","why":"puas has the low tone (tone letter s); pua with no tone letter means \"hundred\"."}
+{"id":"requests.08","p":"Don't go.","why":"tsis txhob comes before the verb: Tsis txhob mus."}
+{"id":"requests.09","p":"Please help me.","why":"pab is to help; pob is a ball, pom is to see, and paj, with the tone letter j, is flower."}
+{"id":"requests.10","p":"Don't eat.","why":"tsis txhob + verb means don't."}
+{"id":"requests.11","p":"May I ask?","why":"The tag is puas tau, with tau, not tais (bowl) or tag."}
+{"id":"requests.12","p":"Please help me.","hint":"thov (please) · pab (help) · kuv (me)","why":"kuv has the rising tone (tone letter v); kub, with the high tone, means \"hot\"."}
+{"id":"requests.13","p":"Please sit down. (soften it with os)","hint":"thov · zaum (sit) · os","why":"zaum (sit) has the creaky tone, letter m; zaus with the low tone means \"a time, an occasion\"."}
+{"id":"requests.14","p":"Could you help me? (use puas tau)","hint":"pab (help) · kuv (me) · puas tau","why":"puas ends in the tone letter s (low tone); pua means \"hundred\"."}
+{"id":"feelings-weather.01","q":"\"I'm sad\" =","why":"No yog before a feeling, and the feeling comes after the subject."}
+{"id":"feelings-weather.02","q":"Which word means \"lonely, homesick\"?","why":"kho siab is lonely; chim siab is angry."}
+{"id":"feelings-weather.03","q":"What does Nag hmo los daus mean?","o":["It snowed yesterday.","It rained yesterday.","It's snowing today.","It was hot yesterday."],"why":"nag hmo is yesterday and los daus is to snow."}
+{"id":"feelings-weather.04","q":"\"It's very cold today\" =","why":"The second no means cold; kub is hot and sov is warm."}
+{"id":"feelings-weather.05","q":"Which word means \"hot\"? (Watch the tone letter.)","why":"kub ends in -b, the high tone; kuv is I."}
+{"id":"feelings-weather.06","p":"I'm very happy.","why":"Kuv (I) has the rising tone, not kub (high tone, hot); and no yog before a feeling."}
+{"id":"feelings-weather.07","p":"Today it is hot. (start with the time word)","why":"kub (hot) has the high tone, letter b; kuv is I."}
+{"id":"feelings-weather.08","p":"Are you angry?","why":"puas goes before chim siab, which works as the verb."}
+{"id":"feelings-weather.09","p":"I'm sad.","why":"tu siab is sad; zoo siab is happy and kho siab is lonely."}
+{"id":"feelings-weather.10","p":"It's raining today.","why":"los nag is to rain; los daus would be snow."}
+{"id":"feelings-weather.11","p":"He isn't angry.","why":"tsis goes before the feeling word; tsib, with the high tone letter b, is five."}
+{"id":"feelings-weather.12","p":"Today it is very hot. (start with the time word)","hint":"hnub no (today) · kub (hot) · heev (very)","why":"kub has the high tone (letter b); kuv, with the rising tone, means I."}
+{"id":"feelings-weather.13","p":"I'm lonely.","hint":"kuv · kho siab (lonely)","why":"Kuv ends in the tone letter v (rising tone); kub means hot. No yog before kho siab."}
+{"id":"feelings-weather.14","p":"I'm not scared.","hint":"tsis (not) · ntshai (afraid)","why":"tsis (low tone letter s) goes right before the feeling word, and there is no yog; tsib is five."}
+{"id":"shopping.01","q":"What does Qhov no pes tsawg? mean?","o":["How much is this?","Where is this?","Is this expensive?","Who is this?"],"why":"pes tsawg asks how much, and it stays at the end."}
+{"id":"shopping.02","q":"Which word means \"expensive\"?","why":"kim is expensive; pheej yig is cheap and nqi is the price."}
+{"id":"shopping.03","q":"What does Lub kaus no kim heev mean?","o":["This umbrella is very expensive.","This umbrella is very cheap.","That umbrella is very expensive.","I'm buying this umbrella."],"why":"kim is expensive, and no after the noun means this."}
+{"id":"shopping.04","q":"\"one book\" =","why":"Books take phau; ib daim ntawv is a sheet of paper."}
+{"id":"shopping.05","q":"Which verb means \"to sell\"?","why":"muag is to sell; yuav and muas are to buy."}
+{"id":"shopping.06","p":"This pair of shoes is expensive.","why":"Shoes take nkawm, and no goes after the noun."}
+{"id":"shopping.07","p":"I'm buying one book.","why":"Books take the classifier phau: ib phau ntawv."}
+{"id":"shopping.08","p":"Is there a discount on this?","why":"puas goes before the verb muaj."}
+{"id":"shopping.09","p":"This umbrella is very expensive.","why":"kim is expensive; pheej yig is cheap."}
+{"id":"shopping.10","p":"I'm buying two pairs of shoes.","why":"Shoes come in pairs: nkawm, with the creaky tone letter m. nkawd is they (two)."}
+{"id":"shopping.11","p":"I'm paying.","why":"them nqi is to pay; luv nqi is a discount."}
+{"id":"shopping.12","p":"How much is this pair of shoes?","hint":"nkawm (pair) · khau (shoes) · no (this) · pes tsawg","why":"Shoes take nkawm, and no comes after the noun; pes tsawg stays at the end. nkawd is they (two)."}
+{"id":"shopping.13","p":"This book is cheap.","hint":"phau ntawv (book) · no (this) · pheej yig (cheap)","why":"Books take phau (no tone letter), and no comes after the noun. phauj is an aunt."}
+{"id":"shopping.14","p":"Twenty dollars.","hint":"nees nkaum (20) · daus las (dollars)","why":"20 is nees nkaum (creaky tone letter m), and dollars are daus las. nkauj is song."}
+{"id":"health.01","q":"\"I have a stomachache\" =","why":"mob + body part, with no yog."}
+{"id":"health.02","q":"Which word means \"pharmacy\"?","why":"khw muab tshuaj is the pharmacy; tsev kho mob is the clinic."}
+{"id":"health.03","q":"What does Kuv yuav tsum noj tshuaj mean?","o":["I have to take medicine.","I want to eat rice.","I don't take medicine.","The medicine is expensive."],"why":"yuav tsum = must; noj tshuaj = take medicine."}
+{"id":"health.04","q":"Which classifier goes with neeg txhais lus (interpreter)?","why":"People take tus: tus neeg txhais lus."}
+{"id":"health.05","q":"What is kub ib ce?","o":["a fever","a cough","a headache","a toothache"],"why":"kub ib ce, a hot body, is a fever."}
+{"id":"health.06","p":"The doctor helps me.","why":"People take the classifier tus: tus kws kho mob."}
+{"id":"health.07","p":"I want to go see the doctor.","why":"A doctor is a person, so tus, not lub."}
+{"id":"health.08","p":"I have a headache.","why":"No yog before mob; the body part follows mob."}
+{"id":"health.09","p":"I have a stomachache.","why":"mob is to hurt; mov is rice."}
+{"id":"health.10","p":"I have to take medicine.","why":"Hmong eats medicine: noj tshuaj."}
+{"id":"health.11","p":"The doctor helps me.","why":"People take tus; tub, with the high tone letter b, is son."}
+{"id":"health.12","p":"I have a stomachache.","hint":"mob (hurt) · plab (belly)","why":"mob (sick) has the high tone, letter b; mov, with the rising tone, is rice."}
+{"id":"health.13","p":"The interpreter helps me.","hint":"neeg txhais lus (interpreter) · pab (help) · kuv (me)","why":"People take tus: tus neeg txhais lus."}
+{"id":"health.14","p":"I want to make an appointment. (use xav)","hint":"xav (want) · teem sij hawm (appointment)","why":"teem sij hawm, set a time, is an appointment. kuv (I) ends in v; kub is hot."}
+{"id":"compare.01","q":"\"This house is bigger than that house\" =","why":"Describing word, then tshaj, then the second thing."}
+{"id":"compare.02","q":"\"Who is the oldest?\" =","why":"leej twg is who; tshaj with nothing after it means the most."}
+{"id":"compare.03","q":"What does Kav fes kim tshaj tshuaj yej mean?","o":["Coffee is more expensive than tea.","Tea is more expensive than coffee.","Coffee is very expensive.","Coffee and tea are cheap."],"why":"The first thing, kav fes, is the one that costs more."}
+{"id":"compare.04","q":"Which word goes after a describing word to mean \"extremely\"?","why":"kawg, after the word, means extremely: zoo siab kawg."}
+{"id":"compare.05","q":"\"the best\" =","why":"tshaj after zoo, with nothing after it, means the most."}
+{"id":"compare.06","p":"This car is bigger than that car.","why":"Cars take lub, and no and ntawd go after the noun."}
+{"id":"compare.07","p":"This book is cheaper than that book.","why":"Books take phau, and no and ntawd go after the noun."}
+{"id":"compare.08","p":"I'm older than you.","why":"laus tshaj koj: older than you."}
+{"id":"compare.09","p":"I'm older than you.","why":"tshaj after the describing word means more than."}
+{"id":"compare.10","p":"This car is bigger than that car.","why":"Cars take lub, with the high tone letter b; lus is words."}
+{"id":"compare.11","p":"This house is very big.","why":"heev after the describing word means very; kawg is even stronger."}
+{"id":"compare.12","p":"This house is bigger than that house. (use tshaj and ntawd)","hint":"lub tsev (house) · no (this) · loj (big) · tshaj · ntawd (that)","why":"Houses take lub (lus is words), and no and ntawd come after the noun."}
+{"id":"compare.13","p":"This book is the best. (use tshaj)","hint":"phau ntawv (book) · no (this) · zoo · tshaj","why":"Books take phau (no tone letter), and no comes after the noun. phauj is an aunt."}
+{"id":"compare.14","p":"I'm older than you. (use tshaj)","hint":"laus (old) · tshaj","why":"Kuv has the rising tone (letter v); kub is hot."}
+{"id":"elders.01","q":"Your grandfather is leaving after a visit. What do you say?","why":"Mus ho tuaj, come again, is said to a guest who is leaving."}
+{"id":"elders.02","q":"What is the usual reply to Koj tuaj los?","why":"Peb tuaj os: yes, we've come."}
+{"id":"elders.03","q":"What does Koj tuaj los? mean?","o":["You've come!","Where are you going?","Have you eaten?","Come again."],"why":"Koj tuaj los? greets someone who has just arrived."}
+{"id":"elders.04","q":"What does pog mean? (Watch the tone letter.)","o":["grandmother","ball","to throw","to see"],"why":"pog ends in -g, the breathy tone: grandmother. pob is a ball, pov is to throw."}
+{"id":"elders.05","q":"Grandma asks if you have eaten. You have. You say:","why":"lawm comes after noj mov: the meal is done."}
+{"id":"elders.06","p":"Grandma, please sit down. (start with pog)","why":"pog (grandmother) has the breathy tone, letter g; pob with the high tone is a ball."}
+{"id":"elders.07","p":"I've eaten.","why":"mov (rice, meal) has the rising tone, letter v; mob, with the high tone, is sick."}
+{"id":"elders.08","p":"Come again. (to a guest who is leaving)","why":"Mus ho tuaj is said to a guest who is leaving."}
+{"id":"elders.09","p":"Have you eaten yet?","why":"The question ends los tsis yog?, or not?"}
+{"id":"elders.10","p":"Grandma, you've come!","why":"Final los makes a question that expects yes."}
+{"id":"elders.11","p":"I've eaten.","why":"noj mov is to eat a meal; mob is sick."}
+{"id":"elders.12","p":"Grandma, please sit down. (start with pog)","hint":"pog (grandmother) · thov (please) · zaum (sit)","why":"pog has the falling-breathy tone (letter g); pob, with the high tone, is a ball."}
+{"id":"elders.13","p":"I've eaten.","hint":"noj mov (eat a meal) · lawm (done)","why":"mov ends in the tone letter v (rising tone); mob is sick."}
+{"id":"elders.14","p":"Grandpa, you've come! (start with yawg)","hint":"yawg (grandfather) · koj tuaj los","why":"yawg ends in the tone letter g (breathy tone), like pog; koj tuaj los greets an arrival, and los ends in s (loj is big)."}
+{"id":"new-year.01","q":"What is pov pob?","o":["the ball toss","the New Year greeting","a silver sash","a bamboo pipe"],"why":"pov pob: pov is throw and pob is ball."}
+{"id":"new-year.02","q":"Which word means \"ball\"? (Watch the tone letter.)","why":"pob, with the high tone, is a ball; pov is throw and pog is grandmother."}
+{"id":"new-year.03","q":"\"Happy New Year!\" =","why":"Nyob zoo xyoo tshiab is the New Year greeting."}
+{"id":"new-year.04","q":"What is a qeej?","o":["a bamboo pipe","a story cloth","a silver sash","a ball"],"why":"The qeej is played at New Year and at weddings."}
+{"id":"new-year.05","q":"What does Kuv hnav khaub ncaws tshiab mean?","o":["I'm wearing new clothes.","I'm buying new clothes.","I'm wearing old clothes.","She's wearing a silver sash."],"why":"hnav is to wear, and tshiab (new) comes after khaub ncaws."}
+{"id":"new-year.06","p":"They're tossing the ball.","why":"pov (throw) has the rising tone, letter v, and pob (ball) the high tone, letter b."}
+{"id":"new-year.07","p":"I'm wearing new clothes.","why":"The adjective goes after the noun: khaub ncaws tshiab."}
+{"id":"new-year.08","p":"We're going to the New Year celebration.","why":"noj peb caug is the name of the celebration."}
+{"id":"new-year.09","p":"They're tossing the ball.","why":"pov is throw; pob is the ball itself."}
+{"id":"new-year.10","p":"She's wearing a silver sash.","why":"hlab nyiaj is the silver sash; nyiam is to like."}
+{"id":"new-year.11","p":"I'm wearing new clothes.","why":"tshiab is new, and it comes after the noun."}
+{"id":"new-year.12","p":"They're tossing the ball.","hint":"lawv (they) · pov (throw) · pob (ball)","why":"pov has the rising tone and pob the high tone; pog is grandmother."}
+{"id":"new-year.13","p":"I'm wearing new clothes. (use khaub ncaws)","hint":"hnav (wear) · khaub ncaws (clothes) · tshiab (new)","why":"The adjective tshiab goes after the noun."}
+{"id":"new-year.14","p":"Happy New Year!","hint":"nyob zoo · xyoo tshiab (New Year)","why":"nyob has the high tone (letter b); nyom, with the creaky tone, is grass."}
+{"id":"family-events.01","q":"What is koob tsheej?","o":["a celebration or ceremony","a clan","a birthday","a family"],"why":"koob tsheej is a celebration or ceremony."}
+{"id":"family-events.02","q":"\"Happy birthday!\" =","why":"Zoo siab hnub yug is happy birthday; Nyob zoo xyoo tshiab is Happy New Year."}
+{"id":"family-events.03","q":"Which word means \"clan\"? (Watch the tone letter.)","why":"xeem, with the creaky tone, is the clan; xeev is a state."}
+{"id":"family-events.04","q":"Which phrase names the soul-calling ceremony?","why":"hu plig calls a person's soul home."}
+{"id":"family-events.05","q":"\"everyone\" =","why":"sawvdaws is everyone; tsev neeg is the family."}
+{"id":"family-events.06","p":"I have two children.","why":"Children are people, so they take tus, written tug after ob: ob tug me nyuam."}
+{"id":"family-events.07","p":"Which Hmong clan are you?","why":"xeem (clan) has the creaky tone, letter m; xeev with the rising tone is a state."}
+{"id":"family-events.08","p":"Everyone comes to eat.","why":"Verbs in a row: tuaj noj, come and eat; mov (meal) ends in v, not mob."}
+{"id":"family-events.09","p":"Happy birthday!","why":"hnub yug is the birthday."}
+{"id":"family-events.10","p":"I have two children.","why":"People take tus, written tug after ob; tub, with b, is son."}
+{"id":"family-events.11","p":"They are doing a soul calling.","why":"hu plig is soul calling; plig is the soul."}
+{"id":"family-events.12","p":"I have two children.","hint":"muaj (have) · ob (two) · me nyuam (child)","why":"People take tus, written tug after ob; tub is son."}
+{"id":"family-events.13","p":"Happy birthday!","hint":"zoo siab (happy) · hnub yug (birthday)","why":"hnub yug (birthday) ends in the tone letter g; yus, with the low tone, means oneself."}
+{"id":"family-events.14","p":"Thank you, Grandma. (start with pog)","hint":"pog (grandmother) · ua tsaug (thank you)","why":"pog has the breathy tone (letter g); pob is a ball."}

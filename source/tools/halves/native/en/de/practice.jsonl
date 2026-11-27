@@ -1,0 +1,350 @@
+{"id":"sounds.01","q":"Which word starts with the sound of English f?","why":"v sounds like English f: Vater. w sounds like English v."}
+{"id":"sounds.02","q":"Which word has the ee sound of English see?","why":"ie sounds like ee; ei sounds like eye."}
+{"id":"sounds.03","q":"How does Hund (dog) end?","o":["With a t sound","With a d sound, as in hound","With no sound: the d is silent","With an ng sound"],"why":"b, d and g at the end of a word sound like p, t and k."}
+{"id":"sounds.04","q":"In which word is ch throaty, like Scottish loch?","why":"ch is throaty only after a, o, u and au; after i, after a consonant and after e it is soft."}
+{"id":"sounds.05","q":"Which syllable is stressed in verstehen (to understand)?","o":["ste, in the middle","ver, at the start","hen, at the end","None: German has no stress"],"why":"ver- is never stressed, so the stress moves to the stem: fehr-SHTAY-uhn."}
+{"id":"sounds.06","p":"the street","why":"Straße is feminine: die Straße."}
+{"id":"sounds.07","p":"the book","why":"Buch is neuter: das Buch."}
+{"id":"sounds.08","p":"the day","why":"Tag is masculine: der Tag."}
+{"id":"sounds.09","p":"the time","why":"Zeit is feminine: die Zeit."}
+{"id":"sounds.10","p":"I live in Vienna.","why":"Vienna is Wien, with ie for the ee sound. Wein means wine."}
+{"id":"sounds.11","p":"That's beautiful.","why":"schön has ö. schon, with a plain o, means already."}
+{"id":"sounds.12","p":"the wine","hint":"Wein · ei sounds like eye","why":"Wein is masculine: der Wein."}
+{"id":"sounds.13","p":"the dog","hint":"Hund · a final d sounds like t","why":"Hund is masculine: der Hund."}
+{"id":"sounds.14","p":"beautiful","hint":"ö · say ay with rounded lips","why":"schön needs its umlaut: schon is a different word, already."}
+{"id":"greetings.01","q":"It's 8 a.m. at your hotel. You greet the receptionist with…","why":"Guten Morgen is the early greeting; Gute Nacht is only for leaving late or going to bed."}
+{"id":"greetings.02","q":"Which one asks a stranger's name?","why":"To a stranger, use Sie with the verb in the infinitive: heißen."}
+{"id":"greetings.03","q":"Someone says Danke! You answer…","why":"bitte means please, and also you're welcome."}
+{"id":"greetings.04","q":"You bump into someone on the train. You say…","why":"Entschuldigung says sorry and also gets someone's attention."}
+{"id":"greetings.05","q":"Which goodbye is casual?","why":"Tschüss is the casual goodbye; Auf Wiedersehen is the polite one."}
+{"id":"greetings.06","p":"What's your name? (formal)","why":"The Sie form is the same as the infinitive: heißen."}
+{"id":"greetings.07","p":"Where are you from? (to a friend)","why":"The du form ends in -st: kommst."}
+{"id":"greetings.08","p":"How are you? (formal)","why":"In this question, Sie changes to Ihnen: Wie geht es Ihnen?"}
+{"id":"greetings.09","p":"Where are you from? (formal)","why":"The Sie form is the same as the infinitive: kommen."}
+{"id":"greetings.10","p":"What's your name? (to a friend)","why":"heiß- already ends in ß, so the du form adds only -t: heißt."}
+{"id":"greetings.11","p":"Good evening!","why":"Good evening is Guten Abend; Gute Nacht is only for leaving late or going to bed."}
+{"id":"greetings.12","p":"My name is Anna.","hint":"heißen · Anna","why":"The ich form ends in -e: heiße."}
+{"id":"greetings.13","p":"Where are you from? (formal)","hint":"woher · kommen · Sie","why":"The Sie form is the same as the infinitive: kommen."}
+{"id":"greetings.14","p":"How are you? (to a friend)","hint":"gehen · the short casual question","why":"Wie geht's? is short for Wie geht es dir?, the casual question for friends."}
+{"id":"gender.01","q":"the newspaper =","why":"Nouns ending in -ung are always feminine: die Zeitung."}
+{"id":"gender.02","q":"the girl (one girl) =","why":"-chen makes a noun neuter: das Mädchen. die Mädchen means the girls."}
+{"id":"gender.03","q":"Which article goes with every plural noun?","why":"Whatever the gender, plural nouns take die."}
+{"id":"gender.04","q":"Why is it das Schlafzimmer (bedroom)?","o":["The last part decides: das Zimmer","Rooms are always neuter","der Schlaf is neuter","Long words are always neuter"],"why":"A compound noun takes the gender of its last part: das Zimmer, so das Schlafzimmer."}
+{"id":"gender.05","q":"the mothers =","why":"Mutter makes its plural with an umlaut only: die Mütter."}
+{"id":"gender.06","p":"the mother","why":"Mutter is feminine: die Mutter."}
+{"id":"gender.07","p":"the girl","why":"Mädchen is neuter, because every noun ending in -chen is: das Mädchen."}
+{"id":"gender.08","p":"the books","why":"The plural article is always die, even for a neuter noun: die Bücher."}
+{"id":"gender.09","p":"the freedom","why":"Nouns ending in -heit are feminine: die Freiheit."}
+{"id":"gender.10","p":"two mothers","why":"Mutter makes its plural with an umlaut: Mütter."}
+{"id":"gender.11","p":"the child","why":"Kind is neuter: das Kind."}
+{"id":"gender.12","p":"the father","hint":"Vater · v sounds like f","why":"Vater is masculine: der Vater."}
+{"id":"gender.13","p":"the newspaper","hint":"Zeitung · the ending -ung","why":"Nouns ending in -ung are feminine: die Zeitung."}
+{"id":"gender.14","p":"the children","hint":"Kind · plural Kinder","why":"The plural article is always die: die Kinder."}
+{"id":"sein-haben.01","q":"Which sentence is right?","why":"er takes ist, and a job needs no article: Er ist Lehrer."}
+{"id":"sein-haben.02","q":"Which form of sein goes with Sie (formal you)?","why":"Sie always shares the form of sie (they): Sie sind."}
+{"id":"sein-haben.03","q":"I'm thirty years old =","why":"Age uses sein, as in English: Ich bin dreißig Jahre alt."}
+{"id":"sein-haben.04","q":"I'm thirsty =","why":"German says I have thirst: Ich habe Durst."}
+{"id":"sein-haben.05","q":"You are from Berlin. (to friends) =","why":"ihr takes seid, spelled with a d. seit is a different word, since."}
+{"id":"sein-haben.06","p":"We are tired.","why":"The wir form of sein is sind."}
+{"id":"sein-haben.07","p":"Anna has a sister.","why":"Anna takes the er/sie/es form: hat."}
+{"id":"sein-haben.08","p":"I'm a teacher. (a woman speaking)","why":"No article before a job: Ich bin Lehrerin."}
+{"id":"sein-haben.09","p":"We're tired.","why":"The wir form of sein is sind."}
+{"id":"sein-haben.10","p":"You have a sister. (to a friend)","why":"The du form of haben is hast, with no b."}
+{"id":"sein-haben.11","p":"I'm an engineer. (a woman speaking)","why":"Jobs use sein: Ich bin Ingenieurin."}
+{"id":"sein-haben.12","p":"You're tired. (to a friend)","hint":"sein · müde","why":"The du form of sein is bist."}
+{"id":"sein-haben.13","p":"We have a car.","hint":"haben · das Auto","why":"The wir form of haben is haben, and das Auto is neuter: ein Auto."}
+{"id":"sein-haben.14","p":"I'm hungry. (use haben)","hint":"haben · der Hunger","why":"German says I have hunger: Ich habe Hunger."}
+{"id":"present.01","q":"Which sentence is right?","why":"A name works like sie (she): Lena wohnt."}
+{"id":"present.02","q":"I'm learning German =","why":"German has no -ing form: Ich lerne means I learn and I'm learning."}
+{"id":"present.03","q":"You make dinner. (to friends): which verb form?","why":"ihr takes -t: ihr macht."}
+{"id":"present.04","q":"Which ending goes with du?","why":"du takes -st: du wohnst, du kommst."}
+{"id":"present.05","q":"You work a lot. (to a friend) =","why":"arbeit- ends in t, so an e slips in: du arbeitest."}
+{"id":"present.06","p":"Lena works in Berlin.","why":"Lena takes the er/sie/es form: arbeitet."}
+{"id":"present.07","p":"We live in Hamburg.","why":"The wir form ends in -en: wohnen."}
+{"id":"present.08","p":"You work a lot. (to friends)","why":"The ihr form ends in -t; after arbeit- an e slips in: arbeitet."}
+{"id":"present.09","p":"He lives in Hamburg.","why":"The er form ends in -t: wohnt."}
+{"id":"present.10","p":"You work a lot. (to a friend)","why":"The du form ends in -st, and after arbeit- an e slips in: arbeitest."}
+{"id":"present.11","p":"You play tennis. (to friends)","why":"The ihr form ends in -t: spielt."}
+{"id":"present.12","p":"I'm learning German.","hint":"lernen · Deutsch","why":"The ich form ends in -e: lerne. No form of sein is needed for -ing."}
+{"id":"present.13","p":"You work in Munich. (to a friend)","hint":"arbeiten · München","why":"The du form ends in -st, and after arbeit- an e slips in: arbeitest."}
+{"id":"present.14","p":"They play soccer.","hint":"spielen · der Fußball","why":"Plural subject: the verb ending is -en, spielen."}
+{"id":"word-order.01","q":"Which sentence is right?","why":"heute first, then the verb, then ich."}
+{"id":"word-order.02","q":"On Monday I have time =","why":"Am Montag is one block; the verb habe comes right after it."}
+{"id":"word-order.03","q":"Heute habe ich frei, aber … (tomorrow I'm working)","why":"aber takes no place: morgen comes first, then arbeite."}
+{"id":"word-order.04","q":"It's snowing =","why":"Weather sentences need es: es schneit."}
+{"id":"word-order.05","q":"In Lena und Max wohnen in Köln, what is the first element?","why":"Lena und Max is one block, so the verb wohnen comes second."}
+{"id":"word-order.06","p":"Tomorrow I'm going to Hamburg. (start with morgen)","why":"Verb second: morgen first, then fahre, then ich."}
+{"id":"word-order.07","p":"On Monday Lena is off. (start with am Montag)","why":"The verb is the second element: am Montag first, then hat, then Lena."}
+{"id":"word-order.08","p":"It's cold today. (start with heute)","why":"Verb second: heute first, then ist, then es."}
+{"id":"word-order.09","p":"It's cold today.","why":"es takes ist, and it stays in second place after heute."}
+{"id":"word-order.10","p":"On Friday I'm going to Berlin.","why":"The ich form ends in -e: fahre."}
+{"id":"word-order.11","p":"Tomorrow we're playing tennis.","why":"The wir form ends in -en: spielen."}
+{"id":"word-order.12","p":"On Sunday we sleep late. (start with am Sonntag)","hint":"am Sonntag · schlafen · lange","why":"The verb is the second element: am Sonntag first, then schlafen, then wir."}
+{"id":"word-order.13","p":"Today I work at home. (start with heute)","hint":"heute · arbeiten · zu Hause","why":"Verb second: heute first, then arbeite, then ich."}
+{"id":"word-order.14","p":"It's raining today.","hint":"regnen · heute · es","why":"The verb is the second element either way: Es regnet heute, or Heute regnet es."}
+{"id":"questions.01","q":"wann means…","o":["when","who","where","how"],"why":"wann is when. Be careful: wenn means if."}
+{"id":"questions.02","q":"Where are you going? (to a friend) =","why":"Going somewhere is wohin, followed by the verb."}
+{"id":"questions.03","q":"Do you live in Berlin? (to a friend) =","why":"No do in German: the verb comes first."}
+{"id":"questions.04","q":"Which word asks who?","why":"wer is who; wo is where."}
+{"id":"questions.05","q":"How much does that cost? =","why":"Question words first, then the verb: Wie viel kostet das?"}
+{"id":"questions.06","p":"Where do you live? (to a friend)","why":"Verb second after the question word, and the du form ends in -st: wohnst."}
+{"id":"questions.07","p":"Are you from Canada? (formal)","why":"Yes/no question: the verb comes first, and the Sie form is kommen."}
+{"id":"questions.08","p":"When does the train come?","why":"der Zug takes the er form: kommt, right after wann."}
+{"id":"questions.09","p":"Where are you from? (formal)","why":"Where from is woher."}
+{"id":"questions.10","p":"Do you have children? (to a friend)","why":"The du form of haben is hast, and it comes first in a yes/no question."}
+{"id":"questions.11","p":"What are you doing today? (to friends)","why":"The ihr form ends in -t: macht."}
+{"id":"questions.12","p":"Where does Anna live?","hint":"wo · wohnen · Anna","why":"Anna takes the er/sie/es form: wohnt, right after wo."}
+{"id":"questions.13","p":"Do you speak English? (formal)","hint":"sprechen · Sie · Englisch","why":"Yes/no question: the verb comes first, in the Sie form: sprechen."}
+{"id":"questions.14","p":"What are you doing? (to a friend)","hint":"was · machen · du","why":"The du form ends in -st: machst, right after was."}
+{"id":"numbers.01","q":"zweiundvierzig =","o":["42","24","420","204"],"why":"Ones come before tens: two-and-forty."}
+{"id":"numbers.02","q":"halb vier =","o":["3:30","4:30","3:15","4:15"],"why":"halb points to the next hour: half way to four."}
+{"id":"numbers.03","q":"Which spelling is right for 16?","why":"16 drops the s of sechs: sechzehn."}
+{"id":"numbers.04","q":"€3.50 =","why":"Say the euros, the word Euro with no -s, then the cents."}
+{"id":"numbers.05","q":"Viertel nach acht =","o":["8:15","7:45","8:45","8:30"],"why":"Viertel nach is a quarter past."}
+{"id":"numbers.06","p":"That costs two euros fifty.","why":"One thing takes the er/sie/es form: kostet."}
+{"id":"numbers.07","p":"At eight o'clock I work. (start with um acht Uhr)","why":"Verb second: um acht Uhr first, then arbeite, then ich."}
+{"id":"numbers.08","p":"It's three thirty.","why":"halb looks ahead to the next hour: 3:30 is halb vier."}
+{"id":"numbers.09","p":"It's one o'clock.","why":"Before Uhr, one is ein. Alone, it is eins."}
+{"id":"numbers.10","p":"That costs two euros.","why":"Euro takes no -s after a number."}
+{"id":"numbers.11","p":"I'm thirty years old.","why":"30 is the one ten that does not end in -zig: dreißig."}
+{"id":"numbers.12","p":"How much are the rolls?","hint":"kosten · die Brötchen","why":"Plural subject: die Brötchen takes kosten."}
+{"id":"numbers.13","p":"Today I work until six. (start with heute)","hint":"heute · arbeiten · bis sechs","why":"Verb second: heute first, then arbeite, then ich."}
+{"id":"numbers.14","p":"twenty-one","hint":"ein · und · zwanzig, as one word","why":"Ones before tens, joined with und: einundzwanzig."}
+{"id":"stem-change.01","q":"Which sentence is right?","why":"fahren takes an umlaut with er: er fährt."}
+{"id":"stem-change.02","q":"I'm going to Hamburg =","why":"ich keeps the normal stem: ich fahre."}
+{"id":"stem-change.03","q":"Which form of nehmen is right?","why":"Only du and er, sie, es change: du nimmst, er nimmt."}
+{"id":"stem-change.04","q":"Was isst du? means…","o":["What are you eating? (to a friend)","What is he eating?","Where are you eating? (to a friend)","What are you drinking? (to a friend)"],"why":"isst is a form of essen, to eat, and du is you."}
+{"id":"stem-change.05","q":"Do you speak German? (to a friend) =","why":"sprechen changes e to i with du: sprichst."}
+{"id":"stem-change.06","p":"Lena is having the soup.","why":"nehmen changes in the er/sie/es form: nimmt."}
+{"id":"stem-change.07","p":"What are you having? (to a friend)","why":"nehmen changes in the du form: nimmst."}
+{"id":"stem-change.08","p":"Tomorrow he's going to Cologne. (start with morgen)","why":"Verb second after morgen, and the er form of fahren has an umlaut: fährt."}
+{"id":"stem-change.09","p":"What is Anna eating?","why":"essen changes e to i with er, sie, es: isst."}
+{"id":"stem-change.10","p":"You speak German very well. (to a friend)","why":"sprechen changes e to i with du: sprichst."}
+{"id":"stem-change.11","p":"Lena is driving to Cologne.","why":"fahren takes an umlaut with er, sie, es: fährt."}
+{"id":"stem-change.12","p":"Do you eat meat? (to a friend)","hint":"essen · das Fleisch","why":"Yes/no question with the verb first, and essen changes in the du form: isst."}
+{"id":"stem-change.13","p":"She's reading a book.","hint":"lesen · das Buch","why":"lesen changes e to ie in the er/sie/es form: liest."}
+{"id":"stem-change.14","p":"He's sleeping.","hint":"schlafen · er","why":"schlafen takes an umlaut in the er form: schläft."}
+{"id":"accusative.01","q":"'I need a jacket' (die Jacke) =","why":"Jacke is feminine, and feminine eine does not change in the accusative."}
+{"id":"accusative.02","q":"Which sentence is correct?","why":"Mann is masculine and the direct object: den Mann."}
+{"id":"accusative.03","q":"What does Den Kaffee trinkt Lena mean?","o":["Lena is drinking the coffee.","The coffee is drinking Lena.","Lena, drink the coffee!","Is Lena drinking the coffee?"],"why":"den marks Kaffee as the direct object, so Lena is the one drinking."}
+{"id":"accusative.04","q":"'Is there a supermarket here?' =","why":"es gibt takes the accusative, and Supermarkt is masculine: einen."}
+{"id":"accusative.05","q":"'I'll take the shirt' (das Hemd) =","why":"Hemd is neuter, and das does not change in the accusative."}
+{"id":"accusative.06","p":"I'm buying the sweater (start with ich)","why":"Pullover is masculine and the direct object: den Pullover."}
+{"id":"accusative.07","p":"Anna is buying the skirt (start with den Rock)","why":"Rock is masculine, and den marks it as the direct object even in first place."}
+{"id":"accusative.08","p":"I have a brother (start with ich)","why":"Bruder is masculine: einen in the accusative."}
+{"id":"accusative.09","p":"I'm looking for a skirt.","why":"Rock is masculine and the direct object: einen Rock."}
+{"id":"accusative.10","p":"I'll take the pants.","why":"Hose is feminine, and die stays die in the accusative."}
+{"id":"accusative.11","p":"There's a café here.","why":"es gibt takes the accusative, but neuter ein stays ein."}
+{"id":"accusative.12","p":"I need a sweater","hint":"brauchen · der Pullover · use ein- · masculine nouns change","why":"Pullover is masculine and the direct object: einen Pullover."}
+{"id":"accusative.13","p":"We're buying the jacket","hint":"kaufen · die Jacke","why":"Jacke is feminine, so die stays die, and kaufen matches the subject wir."}
+{"id":"accusative.14","p":"Do you have a brother? (to a friend)","hint":"haben · der Bruder · use ein-","why":"Bruder is masculine and the direct object: einen Bruder; the du form is hast."}
+{"id":"negation.01","q":"'I don't understand.' =","why":"The verb stays second, and nicht comes after it."}
+{"id":"negation.02","q":"'We don't have time.' =","why":"Zeit is a feminine noun with no article, so keine."}
+{"id":"negation.03","q":"'It's not far.' =","why":"nicht goes right before an adjective."}
+{"id":"negation.04","q":"'No problem.' =","why":"Problem is neuter: kein, like ein."}
+{"id":"negation.05","q":"'I'm not coming today.' =","why":"nicht comes after the verb and after a time word like heute."}
+{"id":"negation.06","p":"I don't have an appointment (start with ich)","why":"Termin is masculine and the direct object: keinen Termin."}
+{"id":"negation.07","p":"Today I'm not working (start with heute)","why":"Verb second: heute first, then arbeite, then ich, and nicht at the end."}
+{"id":"negation.08","p":"That's not a problem (start with das)","why":"Problem is neuter, so kein has no ending, like ein."}
+{"id":"negation.09","p":"I don't drink coffee.","why":"Kaffee is masculine and the direct object: keinen."}
+{"id":"negation.10","p":"That's not expensive.","why":"teuer is an adjective, not a noun, so nicht."}
+{"id":"negation.11","p":"We don't have any children.","why":"Kinder is plural, and the plural of kein is keine."}
+{"id":"negation.12","p":"I don't have a car","hint":"haben · das Auto · kein","why":"Auto is neuter, so kein does not change in the accusative."}
+{"id":"negation.13","p":"We aren't working today","hint":"arbeiten · heute · nicht","why":"The wir form is arbeiten, and nicht comes after heute."}
+{"id":"negation.14","p":"I don't have time","hint":"haben · die Zeit · kein","why":"Zeit is feminine: keine Zeit."}
+{"id":"possessives.01","q":"'my mother' =","why":"Mutter is feminine, so meine."}
+{"id":"possessives.02","q":"'Lukas and his sister' =","why":"The owner is Lukas, so sein-; Schwester is feminine, so seine."}
+{"id":"possessives.03","q":"'Lena and her father' =","why":"The owner is Lena, so ihr; Vater is masculine and the subject, so no ending."}
+{"id":"possessives.04","q":"'our children' =","why":"Kinder is plural, so unsere, like meine."}
+{"id":"possessives.05","q":"'Where do your parents live?' (to friends) =","why":"To several friends, your is euer, and it becomes eure before a plural noun."}
+{"id":"possessives.06","p":"I'm visiting my father (start with ich)","why":"Vater is masculine and the direct object: meinen Vater."}
+{"id":"possessives.07","p":"My sister lives in Cologne (start with my sister)","why":"Schwester is feminine: meine; wohnt is the er/sie/es form."}
+{"id":"possessives.08","p":"Anna is visiting her brother (start with Anna)","why":"The owner is Anna, so ihr-, and Bruder is the direct object: ihren Bruder."}
+{"id":"possessives.09","p":"That's my brother.","why":"After ist there is no direct object: mein Bruder, no ending."}
+{"id":"possessives.10","p":"Paul is visiting his mother.","why":"The owner is Paul, so sein-; Mutter is feminine, so seine."}
+{"id":"possessives.11","p":"What's your name? (formal)","why":"Name is masculine and the subject, so Ihr has no ending."}
+{"id":"possessives.12","p":"I'm looking for my jacket","hint":"suchen · die Jacke · mein","why":"Jacke is feminine: meine Jacke."}
+{"id":"possessives.13","p":"Our son is ten","hint":"unser · der Sohn · sein","why":"Sohn is masculine and the subject, in the nominative: unser, no ending."}
+{"id":"possessives.14","p":"Are you visiting your mother? (to a friend)","hint":"besuchen · dein · die Mutter","why":"Yes/no question: the verb comes first, and the du form is besuchst."}
+{"id":"gern.01","q":"'I like to cook.' =","why":"The verb comes second and gern follows it."}
+{"id":"gern.02","q":"'He likes the movie.' (der Film) =","why":"er mag has no ending, and Film is masculine and the direct object: den Film."}
+{"id":"gern.03","q":"'I'd like a tea.' (ordering) =","why":"To order, use möchte; Tee is masculine, so einen."}
+{"id":"gern.04","q":"'I'd rather drink tea.' =","why":"lieber works like gern: right after the verb."}
+{"id":"gern.05","q":"'Do you like dogs?' (to a friend) =","why":"The du form of mögen is magst. Möchtest du Hunde? would ask if they want some dogs."}
+{"id":"gern.06","p":"I like to swim (start with ich)","why":"Verb second: schwimme comes right after ich, and gern follows the verb."}
+{"id":"gern.07","p":"On the weekend I like to cook (start with am Wochenende)","why":"Verb second: am Wochenende first, then koche, then ich and gern."}
+{"id":"gern.08","p":"Most of all, I like to read (start with am liebsten)","why":"Verb second: am liebsten first, then lese, then ich."}
+{"id":"gern.09","p":"I like dogs.","why":"For animals, use mögen; the ich form is mag."}
+{"id":"gern.10","p":"Do you like playing soccer? (to a friend)","why":"For an activity, add gern after the verb and subject."}
+{"id":"gern.11","p":"We like the movie.","why":"With wir, mögen keeps its infinitive form: wir mögen."}
+{"id":"gern.12","p":"Do you like to cook? (to a friend)","hint":"kochen · gern","why":"Yes/no question: the verb comes first; the du form is kochst, and gern follows."}
+{"id":"gern.13","p":"I like the dog (use mögen)","hint":"mögen · der Hund","why":"Hund is masculine and the direct object: den Hund."}
+{"id":"gern.14","p":"I don't like swimming","hint":"schwimmen · nicht · gern","why":"For an activity you don't like, put nicht right before gern."}
+{"id":"modals.01","q":"'He can cook.' =","why":"er kann has no ending, and the second verb stays in the infinitive."}
+{"id":"modals.02","q":"'I have to work today.' =","why":"muss comes second and the infinitive arbeiten goes last."}
+{"id":"modals.03","q":"What does Ich will einen Kaffee mean?","o":["I want a coffee.","I will have a coffee later.","I'm going to buy a coffee.","I wanted a coffee."],"why":"will means want, not will. Ordering politely: Ich möchte einen Kaffee."}
+{"id":"modals.04","q":"'Do you want to come?' (to a friend) =","why":"The du form of wollen is willst, and kommen stays in the infinitive."}
+{"id":"modals.05","q":"'I'd like to pay.' =","why":"möchte needs its umlaut: mochte without it means liked."}
+{"id":"modals.06","p":"I can speak German (start with ich)","why":"Sentence bracket: kann second, sprechen at the end."}
+{"id":"modals.07","p":"Tomorrow I have to work (start with morgen)","why":"Verb second: morgen first, then muss; arbeiten goes to the end."}
+{"id":"modals.08","p":"Can you help? (formal)","why":"Yes/no question: the verb comes first, and the Sie form is können."}
+{"id":"modals.09","p":"He has to work late today.","why":"muss has no ending in the er form."}
+{"id":"modals.10","p":"What would you like to drink? (to a friend)","why":"The du form is möchtest: du takes -st."}
+{"id":"modals.11","p":"We want to learn German.","why":"With wir, the modal has the infinitive form: wollen."}
+{"id":"modals.12","p":"I want to learn German (use wollen)","hint":"wollen · Deutsch · lernen","why":"Sentence bracket: will second, lernen at the end."}
+{"id":"modals.13","p":"Can you cook? (to a friend)","hint":"können · kochen","why":"Yes/no question: the verb comes first; the du form is kannst."}
+{"id":"modals.14","p":"I don't have to work today","hint":"müssen · heute · nicht · arbeiten","why":"muss nicht means don't have to; darf nicht would mean not allowed to."}
+{"id":"separable.01","q":"'I'm going grocery shopping today.' =","why":"einkaufen splits: kaufe second, ein at the very end."}
+{"id":"separable.02","q":"'When do you get up?' (to a friend) =","why":"The verb part follows wann, and auf goes to the end of the question."}
+{"id":"separable.03","q":"'I understand that.' =","why":"ver- never separates: verstehen stays in one piece."}
+{"id":"separable.04","q":"'Are you coming along?' (to a friend) =","why":"The verb part comes first in a yes/no question, and mit goes to the end."}
+{"id":"separable.05","q":"Which part of anrufen is stressed?","o":["an","ru","fen","all three equally"],"why":"Separable prefixes are always stressed: AN-rufen."}
+{"id":"separable.06","p":"I get up at seven (start with ich)","why":"aufstehen is separable: auf goes to the end, and stehe is in second place."}
+{"id":"separable.07","p":"Today I'm calling Frau Becker (start with heute)","why":"Verb second: heute first, rufe second, and an goes to the end."}
+{"id":"separable.08","p":"Are you coming along? (to a friend)","why":"Yes/no question: the verb comes first, and mit goes to the end."}
+{"id":"separable.09","p":"I go grocery shopping on Saturday.","why":"einkaufen splits, and ein goes to the end."}
+{"id":"separable.10","p":"He watches TV in the evening.","why":"fernsehen splits: sieht, then fern at the end."}
+{"id":"separable.11","p":"I have to get up early tomorrow.","why":"After a modal, the separable verb stays together, in the infinitive."}
+{"id":"separable.12","p":"I get up at six (start with ich)","hint":"aufstehen · um sechs","why":"aufstehen is separable: stehe is in second place and auf goes to the end."}
+{"id":"separable.13","p":"When do you get up? (to a friend)","hint":"wann · aufstehen","why":"The du form is stehst, in second place after wann; auf goes to the end."}
+{"id":"separable.14","p":"I'm calling Anna today","hint":"anrufen · heute · Anna","why":"anrufen is separable: rufe is in second place and an goes to the end."}
+{"id":"bracket.01","q":"'I have to change trains in Cologne.' =","why":"muss second, umsteigen at the end, in one piece after the modal."}
+{"id":"bracket.02","q":"'The train leaves at eight.' =","why":"abfahren splits: fährt second, ab at the end."}
+{"id":"bracket.03","q":"'Where can I buy a ticket?' =","why":"kann after wo, kaufen at the end; Fahrkarte is feminine: eine."}
+{"id":"bracket.04","q":"'We want to book a room.' =","why":"wollen second, buchen last; Zimmer is neuter: ein."}
+{"id":"bracket.05","q":"'When does the bus leave?' =","why":"fährt after wann, and ab closes the bracket."}
+{"id":"bracket.06","p":"I'd like to go to Hamburg (start with ich)","why":"Sentence bracket: möchte second, fahren at the end."}
+{"id":"bracket.07","p":"Tomorrow I have to get up early (start with morgen)","why":"Verb second: morgen first, muss second, and aufstehen goes to the end."}
+{"id":"bracket.08","p":"When does the train arrive?","why":"Zug is the subject, so der Zug, in the nominative; an goes to the end."}
+{"id":"bracket.09","p":"I'd like to buy a ticket.","why":"After möchte, the infinitive closes the bracket: kaufen."}
+{"id":"bracket.10","p":"Where do I have to change trains?","why":"After a modal, the separable verb stays together in the infinitive."}
+{"id":"bracket.11","p":"The train leaves at ten.","why":"abfahren means leave: ab closes the bracket."}
+{"id":"bracket.12","p":"I'd like to go to Berlin (start with ich; use möchte and fahren)","hint":"möchten · nach Berlin · fahren","why":"Sentence bracket: möchte second, fahren at the end."}
+{"id":"bracket.13","p":"When does the train leave?","hint":"wann · abfahren · der Zug","why":"Zug is the subject, so der Zug, in the nominative; ab goes to the end."}
+{"id":"bracket.14","p":"Can I buy a ticket here?","hint":"können · hier · die Fahrkarte · kaufen","why":"Yes/no question: the verb comes first, and kaufen goes to the end."}
+{"id":"dative.01","q":"'with the children' =","why":"In the dative plural: den, and the noun adds -n: Kindern."}
+{"id":"dative.02","q":"'to the train station' (der Bahnhof) =","why":"Bahnhof is masculine: zu dem, which becomes zum."}
+{"id":"dative.03","q":"'I'm going to Hamburg.' =","why":"For a city, to is nach."}
+{"id":"dative.04","q":"'from my mother' =","why":"von takes the dative, and Mutter is feminine: meiner."}
+{"id":"dative.05","q":"'I've lived in Cologne for two years.' =","why":"seit with the present tense, and the dative plural Jahren."}
+{"id":"dative.06","p":"I'm going by bus (start with ich)","why":"mit takes the dative: der Bus becomes dem Bus."}
+{"id":"dative.07","p":"Today I'm going to the doctor (start with heute)","why":"Arzt is masculine, so zu dem becomes zum in the dative; gehe is in second place."}
+{"id":"dative.08","p":"Anna lives with her parents (start with Anna)","why":"bei takes the dative: ihren Eltern, the plural form."}
+{"id":"dative.09","p":"I'm going by train.","why":"mit takes the dative, and Zug is masculine: dem Zug."}
+{"id":"dative.10","p":"We're going to the pharmacy.","why":"Apotheke is feminine: zu der, which becomes zur."}
+{"id":"dative.11","p":"I've lived in Berlin for two years.","why":"For something that started in the past and is still going on, use seit with the present."}
+{"id":"dative.12","p":"I'm going by bus (use mit)","hint":"fahren · mit · der Bus","why":"mit takes the dative: dem Bus."}
+{"id":"dative.13","p":"We're going to the train station","hint":"gehen · zu · der Bahnhof","why":"zum = zu dem: Bahnhof is masculine and in the dative; gehen matches the subject wir."}
+{"id":"dative.14","p":"I'm going home","hint":"gehen · nach Hause","why":"Going home is nach Hause; zu Hause means at home."}
+{"id":"pronouns.01","q":"I'm cold. =","why":"How you feel takes mir: Mir ist kalt. Ich bin kalt describes your personality."}
+{"id":"pronouns.02","q":"That's for you. (to a friend) =","why":"für always takes the accusative: dich."}
+{"id":"pronouns.03","q":"How are you? (formal) =","why":"Wie geht es takes the dative, and the dative of Sie is Ihnen."}
+{"id":"pronouns.04","q":"I like that. =","why":"With gefallen the thing you like is the subject and you are in the dative: mir."}
+{"id":"pronouns.05","q":"Can you help me? (formal) =","why":"helfen takes the dative, mir, and helfen goes to the end."}
+{"id":"pronouns.06","p":"Can you help me? (to a friend)","why":"helfen takes the dative: mir. In a yes/no question the verb comes first."}
+{"id":"pronouns.07","p":"How are you? (to a friend)","why":"Wie geht es takes the dative: dir, not dich."}
+{"id":"pronouns.08","p":"Is that for me?","why":"für takes the accusative: mich. In a yes/no question the verb comes first."}
+{"id":"pronouns.09","p":"I'm sorry.","why":"Es tut mir leid: the person who is sorry is in the dative, mir."}
+{"id":"pronouns.10","p":"I have a present for you. (to a friend)","why":"für takes the accusative: dich."}
+{"id":"pronouns.11","p":"I'm going to Hamburg with him.","why":"mit takes the dative, and the dative of er is ihm."}
+{"id":"pronouns.12","p":"I'm cold.","hint":"kalt · how you feel: to me it is cold","why":"How you feel takes the dative: mir, not ich."}
+{"id":"pronouns.13","p":"Can you help me? (to a friend)","hint":"können · du · helfen · helfen takes the dative","why":"helfen takes the dative: mir, not mich."}
+{"id":"pronouns.14","p":"How are you? (formal)","hint":"gehen · es · Sie in the dative","why":"Ihnen is the dative of Sie."}
+{"id":"prepositions.01","q":"I'm at the movies. =","why":"Where? in takes the dative: im Kino."}
+{"id":"prepositions.02","q":"I'm going to the movies. =","why":"Where to? in takes the accusative: ins Kino."}
+{"id":"prepositions.03","q":"I'm going to the supermarket. =","why":"For a shop use zu with the dative: zum Supermarkt. nach is for cities and countries."}
+{"id":"prepositions.04","q":"I'm waiting for the bus. =","why":"You wait auf something: Ich warte auf den Bus."}
+{"id":"prepositions.05","q":"The cell phone is on the table. =","why":"Where? auf takes the dative, and der Tisch becomes dem Tisch."}
+{"id":"prepositions.06","p":"The bank is next to the train station. (start with die Bank)","why":"Where? neben takes the dative: der Bahnhof becomes dem Bahnhof."}
+{"id":"prepositions.07","p":"On Saturday I'm going to the movies. (start with am Samstag)","why":"Verb second: am Samstag first, then gehe, then ich. Where to? ins Kino."}
+{"id":"prepositions.08","p":"Are you waiting for the train? (to a friend)","why":"warten auf takes the accusative: den Zug. In a yes/no question the verb comes first."}
+{"id":"prepositions.09","p":"We're going to the movies tonight.","why":"Where to? ins Kino, the short form of in das Kino."}
+{"id":"prepositions.10","p":"I work on Monday.","why":"Days take am: am Montag."}
+{"id":"prepositions.11","p":"I'm going to the post office.","why":"die Post is feminine, so zu der becomes zur."}
+{"id":"prepositions.12","p":"I'm at home.","hint":"sein · at home = zu Hause","why":"The ich form of sein is bin, and at home is zu Hause."}
+{"id":"prepositions.13","p":"I'm going home.","hint":"gehen · going home = nach Hause","why":"Going home is nach Hause, and the ich form ends in -e: gehe."}
+{"id":"prepositions.14","p":"On Sunday we're going to the movies. (start with am Sonntag)","hint":"am Sonntag · gehen · wir · ins Kino","why":"Verb second: am Sonntag first, then gehen, then wir."}
+{"id":"imperative.01","q":"Take a pill. (formal) =","why":"To a stranger: the infinitive first, then Sie."}
+{"id":"imperative.02","q":"Come! (to a friend) =","why":"du kommst without -st and without du: Komm!"}
+{"id":"imperative.03","q":"Sleep well! (to a friend) =","why":"du schläfst drops the umlaut in the imperative: Schlaf gut!"}
+{"id":"imperative.04","q":"Wait here! (to friends) =","why":"To several friends: the ihr form without ihr, wartet. Warte! is for one friend."}
+{"id":"imperative.05","q":"Call me! (to a friend) =","why":"anrufen is separable, so an goes at the end: Ruf mich an!"}
+{"id":"imperative.06","p":"Call an ambulance! (formal)","why":"Sie imperative: the verb comes first, then Sie. der Krankenwagen is the direct object: einen Krankenwagen."}
+{"id":"imperative.07","p":"Call me tomorrow! (to a friend)","why":"anrufen is separable: an goes to the end, and the direct object is mich."}
+{"id":"imperative.08","p":"Wait for me! (to friends)","why":"The ihr imperative is the ihr form without ihr: wartet. auf takes the accusative here: mich."}
+{"id":"imperative.09","p":"Please speak slowly! (formal)","why":"To a stranger: the infinitive, then Sie."}
+{"id":"imperative.10","p":"Drink lots of water! (to a friend)","why":"du trinkst without -st and without du: Trink!"}
+{"id":"imperative.11","p":"Please don't drive so fast! (to a friend)","why":"du fährst drops the umlaut in the imperative: Fahr!"}
+{"id":"imperative.12","p":"Take a pill! (formal)","hint":"nehmen · Sie · die Tablette","why":"Sie imperative: the verb comes first, then Sie."}
+{"id":"imperative.13","p":"Stay in bed! (to a friend)","hint":"bleiben · im Bett · no -st, no du","why":"The du imperative is the du form without -st and without du: Bleib!"}
+{"id":"imperative.14","p":"Call me! (formal)","hint":"anrufen · Sie · ich → mich","why":"anrufen is separable: an goes to the end, and the Sie imperative puts the verb first."}
+{"id":"perfekt.01","q":"I went to Hamburg (by car). =","why":"Moving from A to B takes sein: ich bin … gefahren."}
+{"id":"perfekt.02","q":"I bought a jacket. =","why":"kaufen is regular: haben + gekauft, at the end."}
+{"id":"perfekt.03","q":"Which past participle has no ge-?","why":"verstehen has the inseparable prefix ver-, so no ge-: verstanden."}
+{"id":"perfekt.04","q":"She stayed home. =","why":"bleiben takes sein, and its participle is geblieben."}
+{"id":"perfekt.05","q":"I went grocery shopping. =","why":"Separable verbs put ge between the prefix and the stem: eingekauft."}
+{"id":"perfekt.06","p":"I read a book. (start with ich)","why":"Sentence bracket: habe in second place, the participle gelesen at the end."}
+{"id":"perfekt.07","p":"Yesterday I went to Berlin. (start with gestern)","why":"Verb second: gestern first, then bin; fahren to a place takes sein, and gefahren goes to the end."}
+{"id":"perfekt.08","p":"What did you do on the weekend? (to a friend)","why":"hast is the du form, and gemacht goes to the end."}
+{"id":"perfekt.09","p":"I went to Cologne.","why":"fahren to a place takes sein, and with ich it is bin."}
+{"id":"perfekt.10","p":"We ate pizza yesterday.","why":"essen is irregular: gegessen."}
+{"id":"perfekt.11","p":"Did you understand that? (to a friend)","why":"verstehen has the inseparable prefix ver-, so no ge-: verstanden."}
+{"id":"perfekt.12","p":"I bought a sweater.","hint":"haben · der Pullover · kaufen → gekauft","why":"Pullover is masculine and the direct object: einen Pullover, and gekauft goes to the end."}
+{"id":"perfekt.13","p":"We went to Munich. (use fahren)","hint":"sein · fahren → gefahren · München","why":"Moving from A to B takes sein: wir sind, and gefahren goes to the end."}
+{"id":"perfekt.14","p":"What did you do yesterday? (to a friend)","hint":"machen → gemacht · gestern · du","why":"hast is the du form, and gemacht goes to the end."}
+{"id":"war-hatte.01","q":"I was tired. =","why":"The ich form of war has no ending: ich war."}
+{"id":"war-hatte.02","q":"Did you have time? (to a friend) =","why":"The du form of hatte ends in -st: hattest."}
+{"id":"war-hatte.03","q":"Ich konnte nicht kommen. =","o":["I couldn't come.","I can't come.","I didn't want to come.","I don't have to come."],"why":"konnte is the simple past of können: could."}
+{"id":"war-hatte.04","q":"Ich musste arbeiten. =","o":["I had to work.","I must work.","I wanted to work.","I could work."],"why":"musste is the simple past of müssen: had to."}
+{"id":"war-hatte.05","q":"That's true. =","why":"wahr means true; war means was."}
+{"id":"war-hatte.06","p":"Yesterday I was sick. (start with gestern)","why":"Verb second: gestern first, then war, then ich."}
+{"id":"war-hatte.07","p":"Were you at home? (formal)","why":"In a yes/no question the verb comes first, and the Sie form is waren."}
+{"id":"war-hatte.08","p":"Last week we had no time. (start with letzte Woche)","why":"Verb second: letzte Woche is one element, then hatten, then wir."}
+{"id":"war-hatte.09","p":"Where were you on the weekend? (to a friend)","why":"The du form of war ends in -st: warst."}
+{"id":"war-hatte.10","p":"We didn't have time yesterday.","why":"The wir form of hatte ends in -en: hatten. With an umlaut, hätten means would have."}
+{"id":"war-hatte.11","p":"It was very cold on Monday.","why":"es takes war; wahr means true."}
+{"id":"war-hatte.12","p":"I was in Berlin. (use war)","hint":"sein → war · in Berlin","why":"The ich form of war has no ending: ich war."}
+{"id":"war-hatte.13","p":"We had no time. (use hatten)","hint":"haben → hatten · die Zeit","why":"The wir form of hatte ends in -en: wir hatten."}
+{"id":"war-hatte.14","p":"Yesterday I went to the movies. (start with gestern)","hint":"gestern · gehen → gegangen · ins Kino","why":"Verb second: gestern first, then bin; gehen takes sein in the Perfekt."}
+{"id":"adjectives.01","q":"That's too expensive. =","why":"After sein the adjective takes no ending."}
+{"id":"adjectives.02","q":"cheaper =","why":"German adds -er; it does not build the comparative with mehr."}
+{"id":"adjectives.03","q":"bigger =","why":"groß adds an umlaut in the comparative: größer."}
+{"id":"adjectives.04","q":"I'm looking for a black sweater. =","why":"Before a noun the adjective takes an ending: einen schwarzen Pullover."}
+{"id":"adjectives.05","q":"I like the blue dress best. =","why":"gut is irregular: besser, am besten."}
+{"id":"adjectives.06","p":"The jacket is cheaper than the coat. (start with die Jacke)","why":"After als the noun stays in the nominative, like the subject: der Mantel."}
+{"id":"adjectives.07","p":"I need a new cell phone. (start with ich)","why":"Handy is neuter, so it is ein neues Handy, also as the direct object."}
+{"id":"adjectives.08","p":"Do you have a white shirt? (formal)","why":"In a yes/no question the verb comes first. Hemd is neuter: ein weißes Hemd."}
+{"id":"adjectives.09","p":"The coat is warmer than the jacket.","why":"warm adds an umlaut in the comparative: wärmer."}
+{"id":"adjectives.10","p":"My brother is older than me.","why":"than after a comparative is als."}
+{"id":"adjectives.11","p":"I'd rather drink tea than coffee.","why":"gern is irregular: lieber, am liebsten."}
+{"id":"adjectives.12","p":"I'm looking for a black sweater.","hint":"suchen · der Pullover · schwarz → schwarzen","why":"Pullover is masculine and the direct object: einen schwarzen Pullover."}
+{"id":"adjectives.13","p":"The red jacket is too expensive.","hint":"die rote Jacke · sein · zu teuer","why":"Jacke is feminine: die rote Jacke. After sein, teuer takes no ending."}
+{"id":"adjectives.14","p":"My sister is older than me.","hint":"die Schwester · alt → älter · als","why":"Schwester is feminine, so meine; the comparative of alt is älter, with an umlaut."}
+{"id":"connectors.01","q":"I'm tired, but I'm coming along. =","why":"aber does not change the order: ich komme mit."}
+{"id":"connectors.02","q":"if I have time =","why":"After wenn, habe goes at the very end."}
+{"id":"connectors.03","q":"Coffee or tea? =","why":"The word for or is oder: Kaffee oder Tee?"}
+{"id":"connectors.04","q":"Ich bleibe zu Hause, weil ich krank bin. =","o":["I'm staying home because I'm sick.","I'm staying home if I'm sick.","I'm staying home, but I'm sick.","I'm staying home when I'm sick."],"why":"weil means because, like denn, but it puts the verb at the end."}
+{"id":"connectors.05","q":"Which sentence is correct?","why":"denn leaves the order alone: ich habe keine Zeit."}
+{"id":"connectors.06","p":"If it rains, I'll stay home. (start with wenn)","why":"After wenn the verb goes to the end; the wenn part is the first element, so bleibe comes next."}
+{"id":"connectors.07","p":"Anna is coming if she has time. (start with Anna)","why":"After wenn the verb goes to the end: wenn sie Zeit hat."}
+{"id":"connectors.08","p":"Lena isn't coming, because she's tired. (use denn)","why":"denn does not count, so the verb stays in second place: sie ist müde."}
+{"id":"connectors.09","p":"I'll come if I have time.","why":"After wenn the verb goes at the end, and with ich it is habe."}
+{"id":"connectors.10","p":"If it rains, we'll stay home.","why":"Only wenn sends regnet to the end and puts bleiben right after the comma."}
+{"id":"connectors.11","p":"I'm not going to the movies, because I have no money.","why":"denn keeps ich habe in the usual order; wenn or dass would send habe to the end."}
+{"id":"connectors.12","p":"If I have time, I'll come. (start with wenn)","hint":"wenn · Zeit haben · kommen","why":"After wenn the verb goes to the end, and the main verb comes next: komme ich."}
+{"id":"connectors.13","p":"I'm staying home because I'm sick. (use denn)","hint":"bleiben · zu Hause · denn · krank","why":"denn does not count, so the verb stays in second place: ich bin krank."}
+{"id":"connectors.14","p":"Are you coming along if it rains? (to a friend)","hint":"mitkommen · du · wenn · regnen","why":"In a yes/no question the verb comes first, and after wenn the verb goes to the end."}
+{"id":"traps.01","q":"das Gift =","o":["poison","gift","present","recipe"],"why":"das Gift is poison. A gift is ein Geschenk."}
+{"id":"traps.02","q":"Der Chef ist nett. =","o":["The boss is nice.","The chef is nice.","The boss is a child.","The cook is nice."],"why":"der Chef is the boss. A chef is ein Koch."}
+{"id":"traps.03","q":"Es ist fast acht Uhr. =","o":["It's almost eight o'clock.","It's quickly eight o'clock.","It's past eight o'clock.","It's exactly eight o'clock."],"why":"fast means almost. Fast (quick) is schnell."}
+{"id":"traps.04","q":"I need a receipt. =","why":"A receipt is die Quittung; das Rezept is a recipe or a prescription."}
+{"id":"traps.05","q":"I'm coming too. =","why":"also means so; too is auch."}
+{"id":"traps.06","p":"I want a coffee. (start with ich)","why":"Kaffee is masculine: einen in the accusative."}
+{"id":"traps.07","p":"I'm getting a present. (start with ich)","why":"The ich form ends in -e: bekomme. bekommen means get, not become."}
+{"id":"traps.08","p":"Tomorrow I'm getting my new cell phone. (start with morgen)","why":"Verb second: morgen first, then bekomme. Handy is neuter: mein neues Handy."}
+{"id":"traps.09","p":"I'm hungry.","why":"German says I have hunger: Ich habe Hunger."}
+{"id":"traps.10","p":"I'm cold.","why":"How you feel takes mir: Mir ist kalt."}
+{"id":"traps.11","p":"I'm coming too.","why":"too is auch; also means so."}
+{"id":"traps.12","p":"My boss is nice.","hint":"mein · der Chef · nett","why":"Chef is masculine: mein, not meine."}
+{"id":"traps.13","p":"I'm getting a new cell phone.","hint":"bekommen · das Handy · neu → neues","why":"The ich form ends in -e: bekomme."}
+{"id":"traps.14","p":"I'm thirsty.","hint":"haben · der Durst","why":"German says have thirst, and the ich form is habe."}

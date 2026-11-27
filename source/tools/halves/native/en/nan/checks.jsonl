@@ -1,0 +1,81 @@
+{"id":"initials.k1","q":"What does the h in ph, th, kh and tsh tell you?","o":["A puff of air comes after the consonant","Say it like English f or the th of think","The syllable is whispered","The h is silent"],"why":"In Tâi-lô the h after p, t, k or ts marks a puff of air, like the p of pin."}
+{"id":"initials.k2","q":"How many syllables does 食飯 (tsia̍h-pn̄g) have?","o":["One","Three","Two: one for each character","Four"],"why":"Every character is one syllable; the hyphen joins the two syllables of one word."}
+{"id":"initials.k3","q":"How is the j in jua̍h (熱, hot) said?","o":["Like the h of hat","Like the y of yes","It is silent","A voiced sound, written [dʑ] in phonetic notation"],"why":"Tâi-lô j is a voiced consonant; Bite-size Taiwanese writes it [dʑ]."}
+{"id":"finals.k1","q":"How do you say the nn in sann (三, three)?","o":["As a long n sound","The vowel goes through the nose, with no n at the end","As ng","It is silent"],"why":"nn marks a nasal vowel: air goes through the nose, and the tongue never closes for an n."}
+{"id":"finals.k2","q":"好 hó means good. What is hóo (虎)?","o":["A spelling mistake for hó","The same word said slowly","A different word: tiger, with the open oo of law","good, said more politely"],"why":"o and oo are different vowels, so hó and hóo are different words."}
+{"id":"finals.k3","q":"How do you end tsa̍p (十, ten)?","o":["Close the lips and stop, with no pop","Release the p with a puff","Add a short vowel after the p","Drop the p completely"],"why":"Final -p -t -k are never released: close and stop."}
+{"id":"tones.k1","q":"Which tone has the circumflex (â)?","o":["Tone 2","Tone 5","Tone 7","Tone 3"],"why":"The circumflex marks tone 5, the rising tone: kâu (猴, monkey)."}
+{"id":"tones.k2","q":"How does tone 2 sound, as in hóo (虎, tiger)?","o":["Low and level","Rising, like an English question","Middle and level","High and falling"],"why":"Tone 2 is a high fall (51), not a rise."}
+{"id":"tones.k3","q":"pih (鱉) has no mark and ends in -h. Which tone is it?","o":["Tone 4","Tone 1","Tone 8","Tone 6"],"why":"An unmarked syllable ending in -p -t -k -h is tone 4."}
+{"id":"sandhi.k1","q":"In a two-syllable word, which syllable keeps the tone you see?","o":["The first","The last","Both","Neither"],"why":"Every syllable but the last changes to its sandhi tone; the last keeps its citation tone."}
+{"id":"sandhi.k2","q":"In 菜單 (tshài-tuann, menu), tshài has tone 3. Which tone is it said in?","o":["Tone 3","Tone 1","Tone 2","Tone 7"],"why":"In sandhi, tone 3 becomes tone 2."}
+{"id":"sandhi.k3","q":"You type 火車 (train) in Tâi-lô. Which tone do you write on the first syllable?","o":["Tone 1, as it is said","No tone","Tone 7","Tone 2, its citation tone"],"why":"Tâi-lô always shows the citation tone, so you write hué with tone 2, even though sandhi makes it tone 1."}
+{"id":"sandhi-2.k1","q":"What does -- before a syllable mean?","o":["The syllable is stressed","The two syllables are one word","The syllable after it is said light, in the neutral tone","Pause here"],"why":"-- marks the neutral tone: the next syllable is light and short."}
+{"id":"sandhi-2.k2","q":"In 失禮 (sit-lé), sit is tone 4 and ends in -t. What happens to it in sandhi?","o":["It becomes tone 8: high and low swap","It keeps tone 4","It loses the -t","It becomes tone 1"],"why":"Checked syllables in -p -t -k swap in sandhi: tone 4 becomes tone 8."}
+{"id":"sandhi-2.k3","q":"In 多謝你 (To-siā--lí), what happens to siā?","o":["It changes to tone 3","It keeps its citation tone, because the light syllable follows","It becomes neutral too","It loses its vowel"],"why":"The syllable before -- keeps its citation tone."}
+{"id":"greetings.k1","q":"Your friend's grandmother asks you 你食飽未？ What is she doing?","o":["Inviting you to dinner","Saying a friendly hello","Asking whether you are sick","Telling you to leave"],"why":"你食飽未？ is an everyday greeting, not an invitation."}
+{"id":"greetings.k2","q":"You broke something at a friend's house. Which of these is an apology?","why":"失禮 is an apology (MOE synonym: 抱歉); 歹勢 would also do. 多謝 is thanks, 再會 goodbye, 𠢕早 good morning."}
+{"id":"greetings.k3","q":"How do you say goodbye?","why":"再會 means goodbye, literally meet again."}
+{"id":"characters.k1","q":"Which sentence is written in Taigi characters?","why":"Taigi writes not as 毋: 我毋是學生."}
+{"id":"characters.k2","q":"How do you say two books?","why":"A number needs a classifier, 本 for books, and two is 兩: 兩本冊."}
+{"id":"characters.k3","q":"Where does 佇厝裡 (at home) go in 我佇厝裡食飯 (I eat at home)?","o":["Before the verb 食飯","After the verb, as in English","At the very end","Before 我"],"why":"Place with 佇 goes before the verb."}
+{"id":"classroom.k1","q":"How do you ask the teacher to say it again?","why":"請 first, then 閣 (again) + 講 (say) + 一擺 (one time)."}
+{"id":"classroom.k2","q":"How do you address Teacher Lîm?","why":"The surname comes before the title: 林老師."}
+{"id":"classroom.k3","q":"The teacher is too fast. Which is the course's phrase for 'Speak slowly, please'?","why":"慢慢仔 (slowly, an MOE adverb) + 講 (speak). 說 is Mandarin, and 慢慢仔 is one word that cannot be split."}
+{"id":"si.k1","q":"How do you say She's very pretty?","why":"No 是 before an adjective: 伊真媠."}
+{"id":"si.k2","q":"You invite a friend: Let's go to the night market. Which we do you use?","why":"咱 includes the listener; 阮 leaves them out."}
+{"id":"si.k3","q":"How do you say I'm not a teacher?","why":"The negative of 是 is 毋是."}
+{"id":"intro.k1","q":"How do you ask someone's name?","why":"The question word stays where the answer goes: 你號做啥物名？, answered 我號做…"}
+{"id":"intro.k2","q":"How do you say 'My surname is Lîm'?","why":"姓 is the verb, so no 是 is needed: 我姓林。"}
+{"id":"intro.k3","q":"In 'I study in Taipei', where does the course put 佇臺北?","o":["Before 我","Before 讀冊","Between 讀 and 冊","Twice, before and after 讀冊"],"why":"With an action verb, 佇 and the place come before the verb, as in the MOE's examples: 我佇臺北讀冊。"}
+{"id":"questions.k1","q":"How do you ask 'What do you want to eat?'","why":"The question word stays where the answer goes: 你欲食炒飯 → 你欲食啥物？"}
+{"id":"questions.k2","q":"Where does 當時 (when) go in 'When are you coming?'","o":["At the very end","Before the subject 你, always","After 你 and before the verb","After 來"],"why":"A time word, and the question word for time, goes before the verb: 你當時欲來？"}
+{"id":"questions.k3","q":"A friend says 我欲食炒飯. How do you ask back 'And you?'","why":"咧 after the person sends the question back: 你咧？"}
+{"id":"numbers.k1","q":"How do you say 'two people'?","why":"Before a classifier, two is 兩: 兩个人."}
+{"id":"numbers.k2","q":"How is 九 read in a phone number?","o":["With its counting reading","With its literary reading","It is skipped","With the reading of 十"],"why":"Phone numbers use the literary digits: 空九 is khòng-kiú, while 九 alone, counting, is káu."}
+{"id":"numbers.k3","q":"What is 十二?","o":["Twelve","Twenty","Ten and two separate numbers","Two tens"],"why":"Read it as it is written: ten, two = twelve. Twenty would be two, ten."}
+{"id":"family.k1","q":"How do you say 'mom' in Taigi?","why":"Mom is 阿母. 阿媽 is grandma, and 媽媽 is Mandarin."}
+{"id":"family.k2","q":"What does 恁小弟咧？ mean?","o":["And your little brother?","And my little brother?","Is he your little brother?","Where are the brothers?"],"why":"恁 (you all) works as 'your' with family words, and 咧 sends the question over: and your little brother?"}
+{"id":"family.k3","q":"Which is a younger brother?","why":"小弟 is a younger brother; 阿兄 is an older one, 後生 a son."}
+{"id":"u-bo.k1","q":"How do you say 'I don't have any money'?","why":"The negative of 有 is 無: 我無錢。"}
+{"id":"u-bo.k2","q":"How do you turn 你有冊 into a yes/no question with a particle?","o":["Add 無 at the end","Raise your voice at the end","Put 無 first","Add 毋 before 有"],"why":"無 at the end, said in the neutral tone, makes a yes/no question: 你有冊無？"}
+{"id":"u-bo.k3","q":"Where does 敢 go in 'Is this yours?'","o":["At the very end","Before 這","After 是","After the subject 這, before 是"],"why":"敢 goes after the subject, right before the verb: 這敢是你的？"}
+{"id":"classifiers.k1","q":"How do you say 'this book'?","why":"這 + classifier + noun: 這本冊. Books take 本."}
+{"id":"classifiers.k2","q":"Which classifier goes with 狗 (dog)?","why":"Most animals take 隻: 一隻狗."}
+{"id":"classifiers.k3","q":"Why does 這 have a different reading in 這敢是你的？ than in 這本冊?","o":["It is a question","No classifier follows it","敢 is a classifier","It is the Taipei accent"],"why":"Before a classifier 這 has one reading; standing for 'this thing', as here, it has another."}
+{"id":"prices.k1","q":"How do you ask 'How much is a bowl of noodles?'","why":"Name the thing with its classifier, then ask 偌濟錢: 一碗麵偌濟錢？"}
+{"id":"prices.k2","q":"How do you say 'This is very expensive'?","why":"No 是 before an adjective: 真 (very) goes in front of 貴."}
+{"id":"prices.k3","q":"What does 傷鹹 mean?","o":["very salty","a little salty","too salty","not salty"],"why":"傷 before an adjective means too: 傷鹹, too salty."}
+{"id":"want.k1","q":"How do you say 'I want to drink tea'?","why":"欲 goes before the verb: 我欲啉茶. 要 and 喝 are Mandarin."}
+{"id":"want.k2","q":"What does 欲落雨矣 mean?","o":["It's about to rain.","I want rain.","It rained yesterday.","It never rains."],"why":"With the weather, 欲 means about to, and 矣 shows the change: it's about to rain."}
+{"id":"want.k3","q":"How do you say 'I don't want to eat meat'?","why":"The negative of 愛 is 無愛: 我無愛食肉."}
+{"id":"place.k1","q":"How do you say 'She's at home'?","why":"佇 alone means is at: 伊佇厝裡. 在 is Mandarin."}
+{"id":"place.k2","q":"How do you say 'under the chair'?","why":"The place word comes after the noun: 椅仔下跤."}
+{"id":"place.k3","q":"How do you say 'I eat at home'?","why":"Place with 佇 goes before the verb: 我佇厝裡食飯."}
+{"id":"directions.k1","q":"Which word means the left side?","why":"倒 is left and 爿 is side: 倒爿. 正爿 is the right side."}
+{"id":"directions.k2","q":"What does 就到矣 add at the end of 直直行就到矣？","o":["and you're there","turn back","go slowly","it's far away"],"why":"到 means arrive, and 矣 says the change has happened: and then you're there."}
+{"id":"directions.k3","q":"How do you say 'Turn right at the intersection'?","why":"The place, 路口, comes first, then the verb 斡 and the side."}
+{"id":"go-come.k1","q":"Which word means 'get off (a bus, train, car)'?","why":"落車 is get off; 上車 is get on."}
+{"id":"go-come.k2","q":"'I'm going to Tainan by train' =","why":"How you travel, 坐火車, comes before the verb 去."}
+{"id":"go-come.k3","q":"What does 咱來去踅夜市 say?","o":["They went to the night market.","We (but not you) are at the night market.","Let's go and stroll around the night market.","Come to the night market tomorrow."],"why":"咱 includes the listener and 來去 is 'go now': let's go."}
+{"id":"time.k1","q":"Which word means 'yesterday'?","why":"昨昏 is yesterday; 今仔日 is today and 明仔載 tomorrow."}
+{"id":"time.k2","q":"Where does 明仔載 go in 'He says he'll come again tomorrow'?","o":["Before the verb: 伊講明仔載欲閣來。","At the very end: 伊講欲閣來明仔載。","Before 講: 伊明仔載講欲閣來。","Anywhere: Taigi order is free."],"why":"The time word goes before the verb it belongs to, here 欲閣來."}
+{"id":"time.k3","q":"What does 十二點欲食中晝矣！ mean?","o":["I ate lunch at two.","It's twelve: time for lunch!","Lunch is at noon tomorrow.","We eat twelve lunches."],"why":"十二點 is twelve o'clock and 中晝 is lunch; 欲…矣 says it is about to happen."}
+{"id":"food.k1","q":"What do you call the owner of a night-market stall?","why":"頭家 means boss; it is what you call the person running the stall."}
+{"id":"food.k2","q":"'one bowl of noodles' =","why":"Noodles by the bowl take the classifier 碗."}
+{"id":"food.k3","q":"'This bowl of noodles is really good' =","why":"No 是 before an adjective: 真好食."}
+{"id":"market.k1","q":"Which word means 'egg'?","why":"卵 is egg; 兩 (two) sounds exactly the same."}
+{"id":"market.k2","q":"'cheap' =","why":"俗 is cheap; 貴 is expensive, 傷 too and 較 more."}
+{"id":"market.k3","q":"How do you ask 'Boss, how much for a catty of bananas?'","why":"The food first, then the amount, then 偌濟錢 at the end."}
+{"id":"describing.k1","q":"'It's hot today' =","why":"No 是 before an adjective: 真熱."}
+{"id":"describing.k2","q":"In 伊的糖仔比我較濟, which word means 'than'?","why":"比 introduces what you compare with; 較 means more."}
+{"id":"describing.k3","q":"What does 傷 add in 傷鹹?","o":["more","most","too","not"],"why":"傷 + adjective is 'too': too salty."}
+{"id":"can.k1","q":"'I don't know how (to do it)' =","why":"The MOE gives 袂曉 as the opposite of 會曉. 不會 is Mandarin, 會曉 is the positive, and 袂使 means not allowed."}
+{"id":"can.k2","q":"Which word is for a skill you have learned?","why":"會曉 is know how; 會使 is permission."}
+{"id":"can.k3","q":"How does 這條歌你會曉唱袂？ make a question?","o":["With 無 at the end","With 敢 before the verb","With a rising pitch only","With 袂 at the end, in the neutral tone"],"why":"會…袂 at the end asks 'can you or not?'"}
+{"id":"negation.k1","q":"Which negative means 'no need'?","why":"免 is no need; 莫 is don't!"}
+{"id":"negation.k2","q":"'I didn't eat breakfast' =","why":"For something that didn't happen, the negative is 無."}
+{"id":"negation.k3","q":"'Don't come!' (telling someone) =","why":"莫 tells someone not to do something."}
+{"id":"aspect.k1","q":"What does 咧 before a verb show?","o":["The action is going on now","The action is finished","It is a question","It is a wish"],"why":"咧 + verb is an action in progress."}
+{"id":"aspect.k2","q":"'It's about to rain' =","why":"欲 (about to) + 矣 (a change): 欲落雨矣."}
+{"id":"aspect.k3","q":"'I've been there' =","why":"有 + verb + 過 at the end: 我有去過."}

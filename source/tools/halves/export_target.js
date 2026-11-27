@@ -19,7 +19,7 @@ if (TG === 'ko') { const r = cp.spawnSync('node', [path.join(__dirname, 'export_
 const TC = L.target(TG), K = TC.field;
 const DIR = process.env.HALVES_DIR || L.HALVES;
 const T = path.join(DIR, 'target', TG), N = path.join(DIR, 'native', 'en', TG);
-const slug = s => String(s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/&/g, ' ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const slug = s => String(TC.slugText ? TC.slugText(s) : s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/&/g, ' ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const pad = (n, w) => String(n).padStart(w, '0');
 /* id allocator that remembers ids from a previous export; a key that occurs twice (en-zh has one duplicated pattern row) gets its old ids in order */
 function Alloc(prefix, width, file, keyOf) { /* file: a .jsonl path, or the previous rows themselves */
@@ -179,7 +179,9 @@ const tPr = [], nPr = [], KNOWN = new Set(['t', 'q', 'p', 'o', 'a', 'x', 'alt', 
 Object.entries(c.PRACTICE).forEach(([lid, list]) => list.forEach((it, i) => {
   Object.keys(it).forEach(k => { if (!KNOWN.has(k)) throw new Error('practice field ' + k + ' not mapped (' + lid + ')'); });
   const id = lid + '.' + pad(i + 1, 2), t = { id, lesson: lid, t: it.t }, n = { id };
-  if (it.t === 'fill') t.q = it.q; else if (it.q != null) n.q = it.q;
+  /* fillSplit (optional, targets/nan.js): a fill prompt that is a learner-language frame ("Tâi-lô for 厝: __") goes native; its blank tokens stay protected as qk */
+  const fq = it.t === 'fill' && TC.fillSplit ? TC.fillSplit(it.q) : null;
+  if (it.t === 'fill' && !fq) t.q = it.q; else if (it.q != null) { n.q = it.q; if (fq && fq.length) t.qk = fq; }
   if (it.p != null) n.p = it.p;
   if (it.o) { if (it.t === 'mc' && BYMARKS) { const ti = itemIsT(it.o, 0, id); t.o = it.o.map(o => ti ? o : null); if (!ti) n.o = it.o.slice(); }
     else if (it.t === 'mc') { t.o = it.o.map(o => isT(o) ? o : null); if (it.o.some(o => !isT(o))) n.o = it.o.map(o => isT(o) ? null : o); } else t.o = it.o; }

@@ -1,0 +1,364 @@
+{"id":"orders.01","q":"Which shape is the sixth order of b?","why":"The sixth order in this row is ብ, a vowel or no vowel."}
+{"id":"orders.02","q":"Which shape has the vowel of father?","why":"The fourth order, ባ, has the open vowel of father."}
+{"id":"orders.03","q":"Which word means house?","why":"ቤት is house. በር is door, and ቡና is coffee."}
+{"id":"orders.04","q":"What is true of a long consonant?","o":["It is written once, like a short one","It is written with two letters","It always uses the sixth order","It is marked with a dot"],"why":"The fidel writes a long consonant once. This course uses no dot."}
+{"id":"orders.05","q":"You are fine, speaking to a man. Which matches?","why":"The verb ending ነህ is the man form, and it comes after ደህና."}
+{"id":"orders.06","p":"You are fine (to a man)","why":"The verb ending ነህ is the man form."}
+{"id":"orders.07","p":"You are fine (to a woman)","why":"The woman form of the verb ending is ነሽ."}
+{"id":"orders.08","p":"a coffee house","why":"A coffee house is ቡና ቤት, coffee and then house."}
+{"id":"orders.09","p":"house","why":"House ends in sixth-order t. The vowel on b is the e of bed."}
+{"id":"orders.10","p":"you are fine (to a man)","why":"The verb ending for a man is ነህ."}
+{"id":"orders.11","p":"you are fine (to a woman)","why":"The woman form of the verb ending is ነሽ."}
+{"id":"orders.12","p":"You are fine (to a man, two words)","hint":"man form","why":"The verb ending ነህ is the man form."}
+{"id":"orders.13","p":"You are fine (to a woman, two words)","hint":"woman form","why":"The woman form of the verb ending is ነሽ."}
+{"id":"orders.14","p":"a coffee house","hint":"coffee, then house","why":"A coffee house is ቡና ቤት, coffee and then house."}
+{"id":"fidel-1.01","q":"Which letter is an ejective?","why":"ቀ is an ejective. በ, ተ and መ are plain consonants."}
+{"id":"fidel-1.02","q":"Which pair is one sound in Addis Ababa?","o":["ሠ and ሰ","ሰ and ሸ","በ and ቨ","ለ and ረ"],"why":"ሠ and ሰ are both s. ሸ is sh, and ቨ is v."}
+{"id":"fidel-1.03","q":"Hello is spelled…","why":"Hello is ሰላም, with ሰ, not with the other s letter."}
+{"id":"fidel-1.04","q":"Heart is…","why":"ልብ is heart. The long b is not written."}
+{"id":"fidel-1.05","q":"You are fine, speaking to a woman. Which matches?","why":"The woman form of the verb ending is ነሽ."}
+{"id":"fidel-1.06","p":"You are fine (to a man)","why":"The verb ending ነህ is the man form."}
+{"id":"fidel-1.07","p":"You are fine (to a woman)","why":"The woman form of the verb ending is ነሽ."}
+{"id":"fidel-1.08","p":"a coffee house","why":"A coffee house is ቡና ቤት, coffee and then house."}
+{"id":"fidel-1.09","p":"hello","why":"Hello ends in sixth-order m: ሰላም."}
+{"id":"fidel-1.10","p":"you are fine (to a man)","why":"The man form of the verb ending is ነህ."}
+{"id":"fidel-1.11","p":"you are fine (to a woman)","why":"The woman form of the verb ending is ነሽ."}
+{"id":"fidel-1.12","p":"You are fine (to a man, two words)","hint":"man form","why":"The verb ending ነህ is the man form."}
+{"id":"fidel-1.13","p":"You are fine (to a woman, two words)","hint":"woman form","why":"The woman form of the verb ending is ነሽ."}
+{"id":"fidel-1.14","p":"a coffee house","hint":"coffee, then house","why":"A coffee house is ቡና ቤት, coffee and then house."}
+{"id":"fidel-2.01","q":"Which letter is a plain k?","why":"ከ is the plain k. ቀ is the ejective. ኸ and ኀ are h."}
+{"id":"fidel-2.02","q":"Which letter writes a vowel with no consonant?","why":"አ is a vowel carrier. ነ is n, ወ is w, ዘ is z."}
+{"id":"fidel-2.03","q":"Water is…","why":"ውሃ is water. አበባ is flower."}
+{"id":"fidel-2.04","q":"Which line is hello to Abebech, spelled with ሰ?","why":"Hello is ሰላም, with ሰ, then the name. አበበች ሰላም, name first, is also ordinary."}
+{"id":"fidel-2.05","q":"He is fine. Which matches?","why":"The verb ending ነው is the he form, and it comes last."}
+{"id":"fidel-2.06","p":"You are fine (to a man)","why":"The verb ending ነህ is the man form."}
+{"id":"fidel-2.07","p":"You are fine (to a woman)","why":"The woman form of the verb ending is ነሽ."}
+{"id":"fidel-2.08","p":"Hello, Abebech (hello first)","why":"Hello plus the name is ሰላም አበበች. Name first is also ordinary."}
+{"id":"fidel-2.09","p":"water","why":"Water is ውሃ, sixth-order w and then ሃ, the h with the father vowel. ሁ has the vowel of food."}
+{"id":"fidel-2.10","p":"you are fine (to a woman)","why":"The woman form of the verb ending is ነሽ."}
+{"id":"fidel-2.11","p":"he is fine","why":"The verb ending ነው is the he form."}
+{"id":"fidel-2.12","p":"You are fine (to a man, two words)","hint":"man form","why":"The verb ending ነህ is the man form."}
+{"id":"fidel-2.13","p":"He is fine (two words)","hint":"he","why":"The verb ending ነው matches he, not the woman form ነሽ."}
+{"id":"fidel-2.14","p":"Hello, Abebech","hint":"hello, then the name","why":"Hello plus the name is ሰላም አበበች. Name first, አበበች ሰላም, is also ordinary."}
+{"id":"fidel-3.01","q":"Which letter is the ejective partner of ተ?","why":"ጠ is the ejective beside plain ተ. ጨ is the ejective beside ቸ."}
+{"id":"fidel-3.02","q":"Which letter is the same sound as ጸ?","why":"ፀ and ጸ are one ejective ts. ሰ and ሠ are plain s."}
+{"id":"fidel-3.03","q":"Health is…","why":"ጤና is health, with the ejective ጠ. ደህና is fine."}
+{"id":"fidel-3.04","q":"ገና, as written, can mean…","o":["still, or Christmas","only still","only Christmas","coffee"],"why":"One spelling covers both. The long n is not written."}
+{"id":"fidel-3.05","q":"You are fine, to a man. Which matches?","why":"The verb ending ነህ is the man form. አቶ is a title, not a verb ending."}
+{"id":"fidel-3.06","p":"You are fine (to a woman)","why":"The woman form of the verb ending is ነሽ."}
+{"id":"fidel-3.07","p":"You are fine (to a man)","why":"The verb ending ነህ is the man form."}
+{"id":"fidel-3.08","p":"Ato Kebede","why":"አቶ ከበደ is the title and then the name."}
+{"id":"fidel-3.09","p":"health","why":"Health is ጤና. ጤ is the ejective with the e vowel."}
+{"id":"fidel-3.10","p":"you are fine (to a man)","why":"The man form of the verb ending is ነህ."}
+{"id":"fidel-3.11","p":"you are fine (to a woman)","why":"The woman form of the verb ending is ነሽ."}
+{"id":"fidel-3.12","p":"You are fine (to a woman, two words)","hint":"woman form","why":"The woman form of the verb ending is ነሽ."}
+{"id":"fidel-3.13","p":"You are fine (to a man, two words)","hint":"man form","why":"The verb ending ነህ is the man form."}
+{"id":"fidel-3.14","p":"Ato Kebede","hint":"title, then the name","why":"አቶ ከበደ puts the title first and the name second."}
+{"id":"reading.01","q":"Which set is one h sound?","why":"The four h letters are one sound in Addis Ababa."}
+{"id":"reading.02","q":"Ball is…","why":"ኳስ is ball, with the -wa form of plain k."}
+{"id":"reading.03","q":"Which of these is a spelling of book?","why":"መጽሐፍ shows ሐ and the ejective ጸ. መጽሀፍ, with ሀ, is the same word."}
+{"id":"reading.04","q":"አለ, as written, can mean…","o":["he said, or there is","only he said","only there is","Christmas"],"why":"The long l of there is is not written. he said is the short l."}
+{"id":"reading.05","q":"You are fine, to a woman. Which matches?","why":"The woman form of the verb ending is ነሽ."}
+{"id":"reading.06","p":"You are fine (to a man)","why":"The verb ending ነህ is the man form."}
+{"id":"reading.07","p":"You are fine (to a woman)","why":"The woman form of the verb ending is ነሽ."}
+{"id":"reading.08","p":"Addis Ababa","why":"The city is አዲስ አበባ, two words."}
+{"id":"reading.09","p":"ball","why":"Ball is ኳስ. ኳ is the -wa form on plain k."}
+{"id":"reading.10","p":"you are fine (to a man)","why":"The man form of the verb ending is ነህ."}
+{"id":"reading.11","p":"you are fine (to a woman)","why":"The woman form of the verb ending is ነሽ."}
+{"id":"reading.12","p":"You are fine (to a man, two words)","hint":"man form","why":"The verb ending ነህ is the man form."}
+{"id":"reading.13","p":"You are fine (to a woman, two words)","hint":"woman form","why":"The woman form of the verb ending is ነሽ."}
+{"id":"reading.14","p":"Addis Ababa","hint":"two words","why":"Addis Ababa is አዲስ አበባ, new and then flower."}
+{"id":"greetings.01","q":"Hello, any person, any hour, not the formal one =","why":"ሰላም is hello. ጤና ይስጥልኝ is the formal one."}
+{"id":"greetings.02","q":"Good afternoon, to a man =","why":"The man form in the afternoon is ዋልክ. አደርክ is morning."}
+{"id":"greetings.03","q":"Good evening, polite =","why":"The polite form in the evening is አመሹ. እደሩ is the night goodbye."}
+{"id":"greetings.04","q":"I am fine =","why":"ነኝ is the verb ending for I. ነህ is the man form."}
+{"id":"greetings.05","q":"Good night, to a woman =","why":"The woman form at night is እደሪ. አደርሽ is good morning."}
+{"id":"greetings.06","p":"Good morning (to a man)","why":"The verb ending አደርክ is the man form."}
+{"id":"greetings.07","p":"Good morning (to a woman)","why":"The woman form of the verb ending is አደርሽ."}
+{"id":"greetings.08","p":"Good morning (polite)","why":"The polite form is አደሩ, for እርስዎ."}
+{"id":"greetings.09","p":"good afternoon (to a woman)","why":"The woman form in the afternoon is ዋልሽ."}
+{"id":"greetings.10","p":"good night (polite)","why":"The polite form at night is እደሩ."}
+{"id":"greetings.11","p":"thank you","why":"Thank you is አመሰግናለሁ. The last letter stays ሁ for any listener."}
+{"id":"greetings.12","p":"Good afternoon (to a man)","hint":"man form","why":"The verb ending ዋልክ is the man form."}
+{"id":"greetings.13","p":"Good evening (to a woman)","hint":"woman form","why":"The woman form of the verb ending is አመሸሽ."}
+{"id":"greetings.14","p":"Thank you","hint":"I thank","why":"አመሰግናለሁ is thank you, for any listener."}
+{"id":"intro.01","q":"My name is Adam =","why":"ስሜ plus the name plus ነው. The verb ending stays ነው."}
+{"id":"intro.02","q":"What is your name? (to a woman) =","why":"The woman form is ስምሽ. ነሽ does not replace ነው."}
+{"id":"intro.03","q":"What is your name? (to a man) =","why":"The man form is ስምህ, and ማን stays before ነው."}
+{"id":"intro.04","q":"I am Tigist =","why":"I am uses እኔ and the verb ending ነኝ. ስሜ is my name is."}
+{"id":"intro.05","q":"What is your name? (polite) =","why":"The polite form is ስምዎ, for እርስዎ."}
+{"id":"intro.06","p":"My name is Tigist","why":"The verb ending is ነው, because the subject is ስም."}
+{"id":"intro.07","p":"What is your name? (to a woman)","why":"The woman form is ስምሽ, and the verb ending stays ነው."}
+{"id":"intro.08","p":"What is your name? (to a man)","why":"The man form is ስምህ. ነው agrees with the subject ስም."}
+{"id":"intro.09","p":"My name is Tigist.","why":"The verb ending is ነው. ናት would match a woman, and the subject is the name."}
+{"id":"intro.10","p":"What is your name? (to a woman)","why":"The woman form on the name is ሽ: ስምሽ."}
+{"id":"intro.11","p":"What is your name? (polite)","why":"The polite form is ስምዎ."}
+{"id":"intro.12","p":"My name is Adam. (use ስሜ)","why":"The verb ending is ነው. ስም is the subject, not Adam's gender."}
+{"id":"intro.13","p":"What is your name? (to a woman)","why":"The woman form is ስምሽ, and the verb ending is ነው."}
+{"id":"intro.14","p":"I am Tigist. (use እኔ)","why":"The verb ending ነኝ agrees with the subject እኔ."}
+{"id":"be.01","q":"You are fine (to a woman) =","why":"The woman form of the verb ending is ነሽ, and አንቺ is the pronoun."}
+{"id":"be.02","q":"He is fine =","why":"እሱ takes the verb ending ነው. ናት is she."}
+{"id":"be.03","q":"You are fine (polite, one person) =","why":"The polite form is ነዎት, for እርስዎ."}
+{"id":"be.04","q":"They are fine =","why":"እነሱ takes ናቸው. እሳቸው is one respected person, not they."}
+{"id":"be.05","q":"I am Adam =","why":"The verb ending ነኝ agrees with እኔ. ስሜ አዳም ነው would mean my name is Adam."}
+{"id":"be.06","p":"You are fine (to a man, start with አንተ)","why":"The man form of the verb ending is ነህ."}
+{"id":"be.07","p":"You are fine (to a woman, start with አንቺ)","why":"The woman form of the verb ending is ነሽ."}
+{"id":"be.08","p":"You are fine (polite, start with እርስዎ)","why":"The polite form is ነዎት. It agrees with the subject እርስዎ."}
+{"id":"be.09","p":"She is fine.","why":"እሷ is feminine, so the verb ending is ናት. ነች is the same meaning."}
+{"id":"be.10","p":"We are fine.","why":"The verb ending ነን agrees with the subject እኛ."}
+{"id":"be.11","p":"You are fine. (polite)","why":"The polite form is ነዎት."}
+{"id":"be.12","p":"She is fine","why":"እሷ is feminine, so the verb ending is ናት."}
+{"id":"be.13","p":"We are fine (start with እኛ)","why":"ነን agrees with the subject እኛ."}
+{"id":"be.14","p":"They are fine (start with እነሱ)","why":"The verb ending ናቸው agrees with the subject እነሱ."}
+{"id":"definite.01","q":"the house =","why":"A specific house takes the masculine definite ending: ቤቱ."}
+{"id":"definite.02","q":"the girl =","why":"ልጇ is the feminine form of the definite ending."}
+{"id":"definite.03","q":"houses =","why":"The plural is ቤቶች. ቤቶቹ is the houses, a specific group."}
+{"id":"definite.04","q":"The girl is small =","why":"ልጇ is feminine, so the verb ending is ናት, and the verb comes last."}
+{"id":"definite.05","q":"The boy is big =","why":"The masculine definite ending is ልጁ, and the verb ending is ነው."}
+{"id":"definite.06","p":"The boy is big (start with ልጁ)","why":"The masculine definite ending is ልጁ, so the verb ending is ነው."}
+{"id":"definite.07","p":"The girl is small (start with ልጇ)","why":"ልጇ is the feminine form, so the verb ending is ናት."}
+{"id":"definite.08","p":"The children are big (start with ልጆቹ)","why":"The children are ልጆቹ ትልቅ ናቸው. ናቸው is the they form."}
+{"id":"definite.09","p":"the house","why":"The masculine definite ending changes final t to ቱ: ቤቱ."}
+{"id":"definite.10","p":"the girl","why":"The feminine form of the girl is ልጇ."}
+{"id":"definite.11","p":"The girl is small.","why":"ልጇ is feminine, so the verb ending is ናት. ነች is the same meaning."}
+{"id":"definite.12","p":"The boy is big","why":"The masculine definite ending is ልጁ, so the verb ending is ነው."}
+{"id":"definite.13","p":"The girl is small","why":"ልጇ is the feminine form, so the verb ending is ናት."}
+{"id":"definite.14","p":"The children are big","why":"The children are ልጆቹ ትልቅ ናቸው, with ናቸው for they."}
+{"id":"this-that.01","q":"'This is a book' =","why":"A book is masculine: ይህ, then the noun, then ነው."}
+{"id":"this-that.02","q":"Which this goes with a woman?","why":"ይህች is feminine this. ያች is feminine that."}
+{"id":"this-that.03","q":"'That is a pen' =","why":"Farther away and masculine: ያ, and the verb ending ነው."}
+{"id":"this-that.04","q":"The verb ending for Tigist is","why":"Tigist is a woman, so the feminine verb ending is ናት."}
+{"id":"this-that.05","q":"'That is Abebech' =","why":"Abebech takes feminine that, ያች, and ናት."}
+{"id":"this-that.06","p":"This is a book.","why":"መጽሐፍ is masculine, so the verb ending is ነው."}
+{"id":"this-that.07","p":"This is Tigist.","why":"Tigist takes the woman form, so the verb ending is ናት."}
+{"id":"this-that.08","p":"That is a pen.","why":"ያ means that, for something farther from you."}
+{"id":"this-that.09","p":"This is a book.","why":"A book takes the masculine verb ending ነው."}
+{"id":"this-that.10","p":"This is Tigist.","why":"Tigist is feminine, so this is ይህች. ይቺ is the same word in speech."}
+{"id":"this-that.11","p":"That is a pen.","why":"The noun in the middle is the pen, ብዕር."}
+{"id":"this-that.12","p":"This is a woman.","hint":"feminine","why":"ሴት is feminine, so use ይህች and the verb ending ናት."}
+{"id":"this-that.13","p":"That is Abebech.","hint":"feminine","why":"Abebech takes the woman form ያች and the feminine verb ending ናት."}
+{"id":"this-that.14","p":"That is a book.","why":"ያ means that. The noun comes before ነው."}
+{"id":"questions.01","q":"'Where?' =","why":"የት asks about a place."}
+{"id":"questions.02","q":"'Who are you?' (to a woman) =","why":"The woman form of the verb ending is ነሽ."}
+{"id":"questions.03","q":"'How are you?' (polite) =","why":"A stranger takes the polite form ነዎት."}
+{"id":"questions.04","q":"'What is this?' =","why":"ምን asks what, and ነው stays at the end."}
+{"id":"questions.05","q":"'When is it?' =","why":"መቼ asks when. ስንት asks how many."}
+{"id":"questions.06","p":"Who are you? (to a woman)","why":"The woman form of the verb ending is ነሽ."}
+{"id":"questions.07","p":"Where are you? (polite)","why":"Use the polite form ነዎት for እርስዎ."}
+{"id":"questions.08","p":"What is this?","why":"ይህ is masculine, so the verb ending is ነው."}
+{"id":"questions.09","p":"Where are you? (to a woman)","why":"The woman form of the verb ending is ነሽ."}
+{"id":"questions.10","p":"What is this?","why":"ምን asks what. ምንድነው is that question as one word."}
+{"id":"questions.11","p":"How are you? (to a man)","why":"እንዴት asks how. ነህ is the man form."}
+{"id":"questions.12","p":"How are you? (to a man)","hint":"man","why":"The man form of the verb ending is ነህ."}
+{"id":"questions.13","p":"Who is she?","hint":"feminine","why":"እሷ is feminine, so the verb ending is ናት."}
+{"id":"questions.14","p":"Where is the house? (start with ቤቱ)","why":"የት asks where, and ነው stays at the end. There is no word for do."}
+{"id":"numbers.01","q":"'Three' =","why":"Three is ሶስት. ሦስት is the same word."}
+{"id":"numbers.02","q":"'Ten' =","why":"Ten is አስር. ዐስር is the same word."}
+{"id":"numbers.03","q":"'A hundred' =","why":"A hundred is መቶ, not twenty."}
+{"id":"numbers.04","q":"'Two houses,' with the number said","why":"Say the number, then the singular noun: ሁለት ቤት. An English s, ቤትስ, is not the plural."}
+{"id":"numbers.05","q":"'They are ten houses' =","why":"More than one takes the verb ending ናቸው."}
+{"id":"numbers.06","p":"This is one book.","why":"መጽሐፍ is masculine, so the verb ending is ነው."}
+{"id":"numbers.07","p":"This is one woman.","why":"ሴት takes the feminine verb ending ናት."}
+{"id":"numbers.08","p":"They are twenty houses. (keep ቤት singular)","why":"The verb ending ናቸው agrees with the subject, more than one house."}
+{"id":"numbers.09","p":"They are three houses.","why":"Three is ሶስት. ሦስት is the same word. This line keeps ቤት singular."}
+{"id":"numbers.10","p":"It is one book.","why":"One book is masculine, so the verb ending is ነው."}
+{"id":"numbers.11","p":"This is one woman.","why":"ሴት takes the feminine verb ending ናት."}
+{"id":"numbers.12","p":"Ato Kebede is one man.","why":"Ato Kebede takes the masculine verb ending ነው."}
+{"id":"numbers.13","p":"Tigist is one woman.","why":"Tigist takes the woman form, so the verb ending is ናት."}
+{"id":"numbers.14","p":"They are three houses. (keep ቤት singular)","why":"This line keeps the noun singular. Three is ሶስት, and ሦስት is the same word."}
+{"id":"possessive.01","q":"'Your house' (to a woman) =","why":"The woman form is ቤትሽ."}
+{"id":"possessive.02","q":"'Your house' (to a man) =","why":"The man form is ቤትህ. ቤትዎ is polite."}
+{"id":"possessive.03","q":"'My house' =","why":"The ending for I is ቤቴ."}
+{"id":"possessive.04","q":"'Her house' =","why":"Her house is ቤቷ. ቤቱ is his house, or the house."}
+{"id":"possessive.05","q":"'Your house' (polite) =","why":"The polite form, for እርስዎ, is ቤትዎ."}
+{"id":"possessive.06","p":"It is your house. (to a woman)","why":"Use the woman form ቤትሽ. The verb ending ነው agrees with the house."}
+{"id":"possessive.07","p":"It is your house. (polite)","why":"The polite form is ቤትዎ, for እርስዎ."}
+{"id":"possessive.08","p":"It is her house.","why":"The feminine possessive is ቤቷ. The verb ending stays ነው because the house is masculine."}
+{"id":"possessive.09","p":"It is your house. (to a woman)","why":"The woman form is ቤትሽ. The verb ending ነው agrees with the house."}
+{"id":"possessive.10","p":"It is my house.","why":"ቤቴ is my house. ነኝ would agree with I, not with the house."}
+{"id":"possessive.11","p":"It is his house.","why":"His house is ቤቱ. The same letters also mean the house."}
+{"id":"possessive.12","p":"It is your house. (to a man)","hint":"man","why":"The man form is ቤትህ. The verb ending ነው agrees with the house."}
+{"id":"possessive.13","p":"It is my house.","why":"ቤቴ means my house. The verb ending ነው agrees with the subject, not with እኔ."}
+{"id":"possessive.14","p":"It is his house.","why":"His house is ቤቱ. The masculine verb ending is ነው, not ናት."}
+{"id":"have.01","q":"'I have a book' =","why":"The thing is first. አለኝ is the verb ending for I."}
+{"id":"have.02","q":"'You have a pen' (to a woman) =","why":"The woman form is አለሽ, and the pen comes first."}
+{"id":"have.03","q":"'I do not have a house' =","why":"የለኝም is I do not have. The house still comes first."}
+{"id":"have.04","q":"'She has a book' =","why":"The feminine verb ending for she has is አላት."}
+{"id":"have.05","q":"Said with a long l, አለ means","o":["there is","he said","he went","not"],"why":"The long l is there is. He said is the short l, same letters."}
+{"id":"have.06","p":"I have a book.","why":"The verb ending አለኝ agrees with the subject እኔ."}
+{"id":"have.07","p":"You have a pen. (to a woman)","why":"The woman form is አለሽ."}
+{"id":"have.08","p":"You do not have a house. (polite)","why":"The polite form is የለዎትም."}
+{"id":"have.09","p":"I have a book.","why":"The verb ending አለኝ agrees with the subject እኔ."}
+{"id":"have.10","p":"You do not have a pen. (to a man)","why":"The man form of the negative is የለህም."}
+{"id":"have.11","p":"She has a house.","why":"The feminine verb ending is አላት."}
+{"id":"have.12","p":"You have a book. (to a man)","hint":"man","why":"The man form is አለህ."}
+{"id":"have.13","p":"I do not have a pen.","why":"The verb ending የለኝም agrees with the subject እኔ."}
+{"id":"have.14","p":"She has a house.","hint":"feminine","why":"The feminine verb ending is አላት."}
+{"id":"prepositions.01","q":"'I am from America' =","why":"ከ joins America, and the verb ending for I is ነኝ."}
+{"id":"prepositions.02","q":"'To the house' =","why":"ወደ is its own word and means toward. The place follows it."}
+{"id":"prepositions.03","q":"'For you' (to a woman) =","why":"ለ joins አንቺ. ወደ would mean toward, not for."}
+{"id":"prepositions.04","q":"'You are from Gondar' (to a man) =","why":"ከ joins Gondar. The man form is ነህ."}
+{"id":"prepositions.05","q":"'She is at home' =","why":"At home is በቤት. She takes the feminine verb ending ናት."}
+{"id":"prepositions.06","p":"I am from America.","why":"The verb ending ነኝ agrees with the subject እኔ."}
+{"id":"prepositions.07","p":"You are from Gondar. (to a woman)","why":"The woman form is ነሽ."}
+{"id":"prepositions.08","p":"You are in Addis Ababa. (to a man)","why":"The man form of the verb ending is ነህ."}
+{"id":"prepositions.09","p":"I am from America.","why":"ከ joins the place with no space. The verb ending ነኝ agrees with እኔ."}
+{"id":"prepositions.10","p":"This book is for you. (polite)","why":"ለ joins the polite form እርስዎ. The book still takes ነው."}
+{"id":"prepositions.11","p":"You are in Addis Ababa. (to a woman)","why":"በ joins in. ከ would mean from, and ወደ would mean toward."}
+{"id":"prepositions.12","p":"I am from Ethiopia.","why":"The verb ending is ነኝ, for እኔ. Do not use the man form ነህ."}
+{"id":"prepositions.13","p":"You are from America. (to a woman)","why":"The woman form is ነሽ."}
+{"id":"prepositions.14","p":"She is at home.","hint":"feminine","why":"The feminine verb ending is ናት."}
+{"id":"past.01","q":"'I went' =","why":"I went is ሄድኩ. ጠጣሁ is I drank."}
+{"id":"past.02","q":"'You went' (to a woman) =","why":"The woman form is ሄድሽ. ሄደች is she."}
+{"id":"past.03","q":"'I drank the coffee' =","why":"The object ending ን marks the coffee, and ጠጣሁ is I."}
+{"id":"past.04","q":"'She went' =","why":"She went is ሄደች, with ች on the end. ሄድሽ is you, a woman."}
+{"id":"past.05","q":"'You drank' (to a man) =","why":"Drink uses ጠጣህ for a man. ሄድክ is you went."}
+{"id":"past.06","p":"You went home. (to a woman)","why":"The woman form is ሄድሽ."}
+{"id":"past.07","p":"I drank the coffee.","why":"The verb ending ጠጣሁ agrees with the subject እኔ."}
+{"id":"past.08","p":"She went to Gondar.","why":"The feminine verb ending is ሄደች."}
+{"id":"past.09","p":"I drank the coffee.","why":"The definite coffee takes the object ending ን."}
+{"id":"past.10","p":"You went home. (to a woman)","why":"The woman form is ሄድሽ."}
+{"id":"past.11","p":"He went to Gondar.","why":"He takes the plain masculine verb ending ሄደ."}
+{"id":"past.12","p":"You went to Addis Ababa. (to a man)","hint":"man","why":"The man form is ሄድክ."}
+{"id":"past.13","p":"He drank the coffee.","hint":"masculine","why":"The masculine verb ending is ጠጣ. Keep the object ending on ቡናውን."}
+{"id":"past.14","p":"You went home. (polite)","hint":"polite","why":"The polite form is ሄዱ."}
+{"id":"present.01","q":"'I go,' and also 'I will go' =","why":"እሄዳለሁ covers now and later. ሄድኩ is I went."}
+{"id":"present.02","q":"'You go' (to a woman) =","why":"The woman form is ትሄጃለሽ. The d becomes j. ትሄዳለሽ leaves it unpalatalized."}
+{"id":"present.03","q":"'He goes' =","why":"He starts with ይ. The masculine verb ending is ይሄዳል."}
+{"id":"present.04","q":"'I drink coffee' =","why":"The coffee comes first. እጠጣለሁ is I drink, not the past."}
+{"id":"present.05","q":"'You go' (polite) =","why":"The polite form is ይሄዳሉ. ይሄዳል is he."}
+{"id":"present.06","p":"You go home. (to a woman)","why":"The woman form is ትሄጃለሽ, not the man form."}
+{"id":"present.07","p":"I drink the coffee.","why":"The verb ending እጠጣለሁ agrees with the subject እኔ."}
+{"id":"present.08","p":"He goes to Gondar.","why":"The masculine verb ending is ይሄዳል."}
+{"id":"present.09","p":"I go home.","why":"I go, now or later, is እሄዳለሁ."}
+{"id":"present.10","p":"You drink coffee. (to a woman)","why":"The woman form for drink is ትጠጫለሽ. ትጠጣለሽ leaves the consonant unpalatalized."}
+{"id":"present.11","p":"She goes to Gondar.","why":"She takes the feminine verb ending ትሄዳለች."}
+{"id":"present.12","p":"You drink coffee. (to a man)","hint":"man","why":"The man form is ትጠጣለህ. This same form is present and future."}
+{"id":"present.13","p":"She goes home.","hint":"feminine","why":"The feminine verb ending is ትሄዳለች."}
+{"id":"present.14","p":"You go to Addis Ababa. (polite)","hint":"polite","why":"The polite form is ይሄዳሉ."}
+{"id":"negative.01","q":"'I did not go' =","why":"Wrap the past form: አልሄድኩም. አልሄድም is present."}
+{"id":"negative.02","q":"'I do not go' =","why":"The present negative is short. አይሄድም is he does not go."}
+{"id":"negative.03","q":"'You did not go' (to a woman) =","why":"The woman form is አልሄድሽም. The ም is the end of the wrap."}
+{"id":"negative.04","q":"'He does not go' =","why":"He does not go is አይሄድም. አልሄደም is he did not go."}
+{"id":"negative.05","q":"'I did not drink the coffee' =","why":"Keep the object ending, and wrap ጠጣሁ as አልጠጣሁም."}
+{"id":"negative.06","p":"You did not go home. (to a woman)","why":"The woman form is አልሄድሽም."}
+{"id":"negative.07","p":"I do not go home.","why":"The verb ending አልሄድም agrees with the subject እኔ."}
+{"id":"negative.08","p":"She did not go home.","why":"The feminine verb ending is አልሄደችም."}
+{"id":"negative.09","p":"I did not go home.","why":"The past wrap for I is አልሄድኩም."}
+{"id":"negative.10","p":"You do not go home. (to a woman)","why":"The woman form of the present negative is አትሄጂም."}
+{"id":"negative.11","p":"I did not drink the coffee.","why":"Wrap ጠጣሁ. The object ending is already on ቡናውን."}
+{"id":"negative.12","p":"You did not go home. (to a man)","hint":"man","why":"The man form is አልሄድክም."}
+{"id":"negative.13","p":"I did not go to Addis Ababa.","why":"The verb ending inside the negative agrees with the subject እኔ."}
+{"id":"negative.14","p":"He does not go home.","hint":"masculine","why":"The masculine present negative is አይሄድም. The long form ይሄዳል does not stay."}
+{"id":"want.01","q":"\"I want coffee\" =","why":"The thing comes first and want comes last."}
+{"id":"want.02","q":"\"I want to go\" =","why":"Want takes the infinitive መሄድ, not a finished verb."}
+{"id":"want.03","q":"\"You want coffee\" (to a woman) =","why":"The woman form is ትፈልጊያለሽ."}
+{"id":"want.04","q":"\"I don't want coffee\" =","why":"The negative wraps the verb, and ቡና still comes first."}
+{"id":"want.05","q":"\"You want coffee\" (polite) =","why":"The polite form for እርስዎ is ይፈልጋሉ."}
+{"id":"want.06","p":"I want coffee (no pronoun)","why":"The verb ending for I is እፈልጋለሁ, and it comes last."}
+{"id":"want.07","p":"I want to go (no pronoun)","why":"Want takes the infinitive መሄድ, then the verb."}
+{"id":"want.08","p":"You want coffee (to a woman, no pronoun)","why":"The woman form is ትፈልጊያለሽ."}
+{"id":"want.09","p":"I want coffee.","why":"I takes እፈልጋለሁ."}
+{"id":"want.10","p":"I want to go.","why":"The to-form of go is the infinitive መሄድ."}
+{"id":"want.11","p":"You want coffee (to a man).","why":"The man form is ትፈልጋለህ."}
+{"id":"want.12","p":"I want coffee (no pronoun)","hint":"thing first","why":"The verb ending for I is እፈልጋለሁ."}
+{"id":"want.13","p":"I want to go (no pronoun)","hint":"use the infinitive","why":"Use the infinitive መሄድ, then want."}
+{"id":"want.14","p":"You want to go (to a woman, no pronoun)","hint":"to a woman","why":"The woman form is ትፈልጊያለሽ."}
+{"id":"commands.01","q":"\"Come!\" (to a woman) =","why":"The woman form of come is ነይ."}
+{"id":"commands.02","q":"\"Sit!\" (to a man) =","why":"The man form of sit is ተቀመጥ."}
+{"id":"commands.03","q":"\"Please\" (to a woman) =","why":"Please to a woman is እባክሽ."}
+{"id":"commands.04","q":"\"Sit!\" (polite) =","why":"The polite form is ይቀመጡ. ተቀመጡ is for more than one person."}
+{"id":"commands.05","q":"\"Go!\" (to a woman) =","why":"The woman form of go is ሂጂ."}
+{"id":"commands.06","p":"Please sit (to a woman, please first)","why":"The woman form is ተቀመጪ, and please is እባክሽ."}
+{"id":"commands.07","p":"Come to the house (to a man, place first)","why":"The man form of come is ና."}
+{"id":"commands.08","p":"Please sit (polite, please first)","why":"The polite form is ይቀመጡ."}
+{"id":"commands.09","p":"Please sit (to a woman, please first).","why":"Please to a woman is እባክሽ."}
+{"id":"commands.10","p":"Please come (to a man).","why":"The man form of come is ና."}
+{"id":"commands.11","p":"Go to the house (to a woman).","why":"The woman form of go is ሂጂ."}
+{"id":"commands.12","p":"Please come (to a woman, please first)","hint":"please first","why":"The woman form of come is ነይ, with እባክሽ."}
+{"id":"commands.13","p":"Please sit (to a man, please first)","hint":"please first","why":"The man form of sit is ተቀመጥ."}
+{"id":"commands.14","p":"Go to the house (polite, place first)","hint":"polite","why":"The polite form of go is ይሂዱ."}
+{"id":"time.01","q":"\"What time is it?\" =","why":"The verb ending is ነው, because the hour is the subject."}
+{"id":"time.02","q":"6 a.m. on the Ethiopian clock =","why":"The manual's pair: 6 a.m. is Ethiopian 12 in the morning."}
+{"id":"time.03","q":"Noon on the Ethiopian clock =","why":"The manual says noon is ከቀኑ 6 ሰዓት."}
+{"id":"time.04","q":"\"Monday\" =","why":"ሰኞ is Monday in the manual's week."}
+{"id":"time.05","q":"\"You go\" (to a woman) =","why":"The woman form is ትሄጃለሽ."}
+{"id":"time.06","p":"Today is Monday (start with today)","why":"ነው agrees with the subject, the day."}
+{"id":"time.07","p":"It is 7 a.m. Ethiopian (start with ከጠዋቱ)","why":"The manual's pair: 1 in the morning is 7 a.m., and the verb comes last."}
+{"id":"time.08","p":"You go at Ethiopian 3 in the morning (to a man, start with the time, no pronoun)","why":"The man form is ትሄዳለህ."}
+{"id":"time.09","p":"Excuse me, what time is it?","why":"ነው agrees with the subject, the hour."}
+{"id":"time.10","p":"6 a.m. on the Ethiopian clock.","why":"6 a.m. is Ethiopian 12 in the morning, አስራ ሁለት."}
+{"id":"time.11","p":"Today is Thursday.","why":"The manual's Thursday is ሀሙስ."}
+{"id":"time.12","p":"Excuse me, what time is it? (start with ይቅርታ, then ስንት ሰዓት)","why":"ነው agrees with the subject, the hour."}
+{"id":"time.13","p":"Today is Monday (start with today)","why":"ነው agrees with the subject, the day."}
+{"id":"time.14","p":"You go to the house (to a woman, place first, no pronoun)","why":"The woman form is ትሄጃለሽ."}
+{"id":"prices.01","q":"\"How much is the price?\" =","why":"The definite ending makes ዋጋው, and the verb is ነው."}
+{"id":"prices.02","q":"\"How much is the bill?\" =","why":"The bill question is ሂሳብ ስንት ነው."}
+{"id":"prices.03","q":"\"It is four birr\" =","why":"A price takes ነው, and the verb comes last."}
+{"id":"prices.04","q":"\"Coffee is four birr\" (practice figure) =","why":"The book's coffee figure is four birr, with ነው at the end."}
+{"id":"prices.05","q":"\"Tea is two birr\" (practice figure) =","why":"Two birr is the book's tea figure, and the verb is ነው."}
+{"id":"prices.06","p":"How much is the price? (start with ዋጋው)","why":"The verb ending is ነው, because a price is not the woman you are talking to."}
+{"id":"prices.07","p":"It is twenty birr","why":"The verb ending is ነው for a price."}
+{"id":"prices.08","p":"Coffee is four birr (start with coffee)","why":"The book's coffee figure is four birr, and the verb comes last."}
+{"id":"prices.09","p":"How much is the price?","why":"The definite ending makes ዋጋው, the price you mean."}
+{"id":"prices.10","p":"How much is the bill?","why":"One bill takes ነው."}
+{"id":"prices.11","p":"Tea is two birr.","why":"A price takes ነው."}
+{"id":"prices.12","p":"How much is the price? (start with ዋጋው)","why":"The verb ending is ነው for the price."}
+{"id":"prices.13","p":"It is four birr","why":"The verb ending ነው agrees with the subject, a price."}
+{"id":"prices.14","p":"How much is the bill? (start with ሂሳብ)","why":"The bill question is ሂሳብ ስንት ነው."}
+{"id":"likes.01","q":"\"I like coffee\" =","why":"The thing comes first: ቡና እወዳለሁ."}
+{"id":"likes.02","q":"\"I don't like coffee\" =","why":"Don't like is አልወድም, still after the thing."}
+{"id":"likes.03","q":"\"You like coffee\" (to a woman) =","why":"The woman form is ትወጃለሽ."}
+{"id":"likes.04","q":"\"She is beautiful\" (use ውቢት) =","why":"ውቢት is feminine, so the verb ending is ናት."}
+{"id":"likes.05","q":"\"The coffee is very nice\" =","why":"Known coffee is ቡናው, and ነው comes last."}
+{"id":"likes.06","p":"I like coffee (no pronoun)","why":"The verb ending for I is እወዳለሁ."}
+{"id":"likes.07","p":"You like coffee (to a man, no pronoun)","why":"The man form is ትወዳለህ."}
+{"id":"likes.08","p":"Tigist is beautiful (start with her name)","why":"Tigist is a woman, so the verb ending is ናት."}
+{"id":"likes.09","p":"I don't like coffee.","why":"I don't like is አልወድም."}
+{"id":"likes.10","p":"She is beautiful (use ውቢት).","why":"The feminine word paired with ውብ is ውቢት."}
+{"id":"likes.11","p":"You like coffee (polite).","why":"The polite form is ይወዳሉ."}
+{"id":"likes.12","p":"I like coffee a lot (no pronoun)","why":"The verb ending for I is እወዳለሁ."}
+{"id":"likes.13","p":"You like coffee (to a woman, no pronoun)","why":"The woman form is ትወጃለሽ."}
+{"id":"likes.14","p":"Have a good trip","why":"A kind send-off for a trip is መልካም ጉዞ."}
+{"id":"family.01","q":"\"my father\" =","why":"My father is አባቴ."}
+{"id":"family.02","q":"\"your father\" (to a woman) =","why":"The woman form is አባትሽ."}
+{"id":"family.03","q":"\"your father\" (polite) =","why":"The polite form is አባትዎ."}
+{"id":"family.04","q":"\"I have a father\" =","why":"Having uses አለኝ after the person."}
+{"id":"family.05","q":"\"sister\" =","why":"እህት is sister. ወንድም is brother."}
+{"id":"family.06","p":"Who is your father? (to a woman, start with አባትሽ)","why":"The woman form is አባትሽ."}
+{"id":"family.07","p":"Who is your mother? (to a man, start with እናትህ)","why":"The man form is እናትህ. እናት is feminine, so the verb ending is ናት."}
+{"id":"family.08","p":"My sister is in Addis Ababa (start with my sister)","why":"እህቴ is feminine, so the verb ending is ናት."}
+{"id":"family.09","p":"Who is your sister? (to a woman)","why":"The woman form is እህትሽ. እህት is feminine, so the verb ending is ናት."}
+{"id":"family.10","p":"I have no brother.","why":"I don't have is የለኝም."}
+{"id":"family.11","p":"My mother is in Addis Ababa.","why":"እናቴ is feminine, so the verb ending is ናት."}
+{"id":"family.12","p":"Who is your brother? (to a woman, start with the brother word)","why":"The woman form is ወንድምሽ."}
+{"id":"family.13","p":"Who is your father? (polite, start with the father word)","why":"The polite form is አባትዎ."}
+{"id":"family.14","p":"I have a sister (no pronoun)","why":"አለኝ comes after እህት."}
+{"id":"restaurant.01","q":"\"I want injera\" =","why":"The food comes first, then እፈልጋለሁ."}
+{"id":"restaurant.02","q":"\"Please\" (to a woman) =","why":"Please to a woman is እባክሽ, not እባክህ."}
+{"id":"restaurant.03","q":"\"How much is the bill?\" =","why":"The bill is ሂሳብ ስንት ነው."}
+{"id":"restaurant.04","q":"\"chicken stew\" =","why":"ዶሮ ወጥ is the chicken stew on the manual's menu."}
+{"id":"restaurant.05","q":"\"Please, I want coffee\" (polite, please first) =","why":"A stranger gets the polite form እባክዎ, and I still says እፈልጋለሁ."}
+{"id":"restaurant.06","p":"I want firfir (no pronoun)","why":"The verb ending for I is እፈልጋለሁ."}
+{"id":"restaurant.07","p":"Please, I want water (to a woman, please first)","why":"The woman form of please is እባክሽ."}
+{"id":"restaurant.08","p":"How much is the bill? (start with ሂሳብ)","why":"One bill takes ነው at the end."}
+{"id":"restaurant.09","p":"I want tea.","why":"Tea is ሻይ, and it comes before the verb."}
+{"id":"restaurant.10","p":"Please, I want water (to a woman).","why":"The woman form of please is እባክሽ."}
+{"id":"restaurant.11","p":"How much is the bill?","why":"The bill takes ነው."}
+{"id":"restaurant.12","p":"I want chicken stew (no pronoun)","why":"The verb ending for I is እፈልጋለሁ."}
+{"id":"restaurant.13","p":"Please, I want coffee (to a woman, please first)","why":"The woman form of please is እባክሽ. The verb ending for I stays እፈልጋለሁ."}
+{"id":"restaurant.14","p":"I want Ambo water (no pronoun)","why":"Ambo water is አምቦ ውሃ, then the verb."}
+{"id":"directions.01","q":"\"Where is the hotel?\" =","why":"The hotel takes ነው, and the verb comes last."}
+{"id":"directions.02","q":"\"Where are you?\" (to a woman) =","why":"The woman form is ነሽ."}
+{"id":"directions.03","q":"\"Go right\" (to a man, place first) =","why":"Place first, and the man form of go is ሂድ."}
+{"id":"directions.04","q":"\"Go straight\" (to a man) =","why":"ቀጥ ብለህ ሂድ is go straight. ቀኝ is right and ግራ is left."}
+{"id":"directions.05","q":"\"Where are you?\" (polite) =","why":"The polite form is ነዎት."}
+{"id":"directions.06","p":"Where is the hotel? (start with the hotel)","why":"The verb ending is ነው, because the hotel is the subject."}
+{"id":"directions.07","p":"Go left (to a woman, place first)","why":"The woman form of go is ሂጂ."}
+{"id":"directions.08","p":"The hotel is to the right (start with the hotel)","why":"ነው agrees with the subject, the hotel."}
+{"id":"directions.09","p":"Where is the hotel?","why":"The hotel takes ነው."}
+{"id":"directions.10","p":"Go right (to a man).","why":"Right is ቀኝ."}
+{"id":"directions.11","p":"Where are you? (polite)","why":"The polite form is ነዎት."}
+{"id":"directions.12","p":"Where are you? (to a man)","why":"The man form is ነህ."}
+{"id":"directions.13","p":"Go straight (polite)","why":"The polite form of go is ይሂዱ, and ብለው is the polite form of ብለህ."}
+{"id":"directions.14","p":"Where is the hotel? (start with the hotel)","why":"The verb ending is ነው for the hotel."}

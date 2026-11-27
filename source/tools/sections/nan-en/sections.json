@@ -1,0 +1,403 @@
+{
+ "_about": "SEC-1 writer file for nan-en.",
+ "alphabet": {
+  "1": {"add": [
+   ["double u","/ˈdʌbəlju/","字母 W 的名（兩个 U）",""],
+   ["zee","/ˈzi/","字母 Z 的名（美式）",""],
+   ["zed","/ˈzɛd/","字母 Z 的名（英式）",""]
+  ]},
+  "3": {"add": [
+   ["an F","/ən ˈɛf/","一个 F",""],
+   ["an H","/ən ˈetʃ/","一个 H",""],
+   ["a U","/ə ˈju/","一个 U",""],
+   ["double L","/ˈdʌbḷ ˈɛl/","兩个 L（LL）",""],
+   ["dot","/ˈdɑt/","點（.，報電子批地址用）",""]
+  ]},
+  "4": {"add": [
+   ["fish","/ˈfɪʃ/","魚",""],
+   ["phone","/ˈfon/","電話 / 手機仔",""],
+   ["knife","/ˈnaɪf/","刀仔",""],
+   ["cake","/ˈkek/","雞卵糕",""],
+   ["bike","/ˈbaɪk/","跤踏車",""],
+   ["moon","/ˈmun/","月娘",""]
+  ]}
+ },
+ "pron": {
+  "1": {"add": [
+   ["go","/ˈgo/","去",""],
+   ["food","/ˈfud/","食物",""],
+   ["bird","/ˈbɝd/","鳥仔",""],
+   ["teacher","/ˈtitʃɚ/","老師",""],
+   ["people","/ˈpipḷ/","人（複數）",""]
+  ]}
+ },
+ "be": {
+  "1": {"add": [
+   "I'm married.",
+   ["I'm tired.","/aɪm ˈtaɪɚd/","我真忝",""]
+  ]}
+ },
+ "it-there": {
+  "1": {"add": [
+   ["There's a bank near here.","/ðɛrz ə ˈbæŋk nɪr ˈhɪr/","這附近有一間銀行",""],
+   ["There are two cafes near here.","/ðɛr ɚ ˈtu kæˈfez nɪr ˈhɪr/","這附近有兩間咖啡廳",""]
+  ]}
+ },
+ "articles": {
+  "0": {"add": [
+   ["a university","/ə ˌjunɪˈvɝsətɪ/","一間大學",""],
+   ["an hour","/ən ˈaʊɚ/","一點鐘",""],
+   ["an idea","/ən aɪˈdiə/","一个主意",""],
+   ["She's a teacher.","/ʃɪz ə ˈtitʃɚ/","伊是老師",""]
+  ]},
+  "1": {"add": [
+   ["the sun","/ðə ˈsʌn/","日頭",""],
+   ["the internet","/ðɪ ˈɪntɚnɛt/","網路",""]
+  ]}
+ },
+ "plurals": {
+  "3": {"add": [
+   ["my bag","/maɪ ˈbæg/","我的袋仔",""],
+   ["two friends","/ˈtu ˈfrɛndz/","兩个朋友",""]
+  ]}
+ },
+ "present": {
+  "0": {"add": [
+   "I like watching movies.",
+   ["I speak English.","/aɪ ˈspik ˈɪŋglɪʃ/","我會曉講英語",""]
+  ]},
+  "2": {"add": [
+   "I live in Taipei.",
+   "I work in marketing.",
+   ["I don't drink coffee.","/aɪ ˈdont ˈdrɪŋk ˈkɔfɪ/","我無啉咖啡",""]
+  ]}
+ },
+ "questions": {
+  "0": {"add": [
+   ["Are you a student?","/ɚ jʊ ə ˈstudṇt/","你敢是學生？",""],
+   ["Is she at work?","/ɪz ʃɪ ət ˈwɝk/","伊敢咧上班？",""]
+  ]},
+  "1": {"add": [
+   ["Yes, I do.","/ˈjɛs aɪ ˈdu/","有 / 是（用 do 的簡短肯定回答）",""],
+   ["No, I don't.","/ˈno aɪ ˈdont/","無 / 毋是（用 don't 的簡短否定回答）",""]
+  ]}
+ },
+ "third-s": {
+  "2": {"add": [
+   ["Does she work here?","/dəz ʃɪ ˈwɝk ˈhɪr/","伊敢佇遮上班？",""],
+   ["She doesn't eat meat.","/ʃɪ ˈdʌzṇt ˈit ˈmit/","伊毋食肉",""]
+  ]}
+ },
+ "prep": {
+  "2": {"add": [
+   ["At night","/ət ˈnaɪt/","（佇）暗時",""],
+   ["In the morning","/ɪn ðə ˈmɔrnɪŋ/","（佇）早起",""],
+   ["On the weekend","/ɑn ðə ˈwikɛnd/","（佇）週末",""]
+  ]}
+ },
+ "object-have": {
+  "2": {"add": [
+   ["I have lunch at noon.","/aɪ ˈhæv ˈlʌntʃ ət ˈnun/","我 12 點食中晝",""],
+   ["We have rice every day.","/wɪ ˈhæv ˈraɪs ˈɛvrɪ ˈde/","阮逐工攏食飯",""]
+  ]}
+ },
+ "polite": {
+  "1": {"add": [
+   ["Can I get some water?","/kən aɪ ˈgɛt ˈsʌm ˈwɔtɚ/","麻煩，我欲一寡水",""],
+   ["I'd like a coffee, please.","/aɪd ˈlaɪk ə ˈkɔfɪ ˈpliz/","麻煩你，我欲一杯咖啡",""]
+  ]},
+  "2": {"drop": ["No, thank you."]}
+ },
+ "continuous": {
+  "1": {"add": [
+   ["I work every day.","/aɪ ˈwɝk ˈɛvrɪ ˈde/","我逐工攏愛做工課",""],
+   ["She drinks tea.","/ʃɪ ˈdrɪŋks ˈti/","伊定定啉茶",""],
+   ["She's drinking tea.","/ʃɪz ˈdrɪŋkɪŋ ˈti/","伊這馬咧啉茶",""]
+  ]},
+  "2": {"add": [
+   ["I have a car.","/aɪ ˈhæv ə ˈkɑr/","我有一台車",""],
+   ["I need a pen.","/aɪ ˈnid ə ˈpɛn/","我需要一支筆",""]
+  ]}
+ },
+ "past": {
+  "0": {"add": [
+   ["Did you go?","/dɪd jʊ ˈgo/","你敢有去？",""],
+   ["It's raining.","/ɪts ˈrenɪŋ/","落雨矣 / 咧落雨（毋是過去式）",""]
+  ]},
+  "4": {"add": [
+   ["Did you work yesterday?","/dɪd jʊ ˈwɝk ˈjɛstɚde/","你昨昏敢有上班？",""],
+   ["I didn't call her.","/aɪ ˈdɪdṇt ˈkɔl hɚ/","我無敲電話予伊",""]
+  ]}
+ },
+ "the": {
+  "0": {"add": [
+   ["I have a dog. The dog is so cute.","/aɪ ˈhæv ə ˈdɔg ‖ ðə ˈdɔg ɪz ˈso ˈkjut/","我有飼一隻狗，彼隻狗真古錐",""],
+   ["I bought a book. The book is good.","/aɪ ˈbɔt ə ˈbʊk ‖ ðə ˈbʊk ɪz ˈgʊd/","我買一本冊，彼本冊真好看",""]
+  ]},
+  "3": {"add": [
+   ["the MRT","/ðɪ ˌɛm ɑr ˈti/","捷運",""],
+   ["I live in Taiwan.","/aɪ ˈlɪv ɪn ˌtaɪˈwɑn/","我蹛佇台灣",""]
+  ]}
+ },
+ "adjectives": {
+  "1": {"add": [
+   ["the best","/ðə ˈbɛst/","上好的",""],
+   ["the most expensive","/ðə ˈmost ɪkˈspɛnsɪv/","上貴的",""]
+  ]},
+  "2": {"add": [
+   ["bored","/ˈbɔrd/","無聊（人的感受）",""],
+   ["boring","/ˈbɔrɪŋ/","無聊（予人感覺無聊）",""]
+  ]}
+ },
+ "going-to": {
+  "1": {"add": [
+   ["It's going to be cold.","/ɪts ˈgoɪŋ tə bɪ ˈkold/","欲變寒矣",""],
+   ["You're going to be late.","/jʊr ˈgoɪŋ tə bɪ ˈlet/","你欲晏到矣",""]
+  ]},
+  "2": {"add": [
+   ["What are you going to do tonight?","/ˈwʌt ɚ jʊ ˈgoɪŋ tə ˈdu təˈnaɪt/","你今仔暗欲創啥物？",""],
+   ["I'm going to visit Tainan next week.","/aɪm ˈgoɪŋ tə ˈvɪzɪt ˌtaɪˈnɑn ˈnɛkst ˈwik/","我後禮拜欲去台南",""],
+   ["We're going to have dinner tomorrow.","/wɪr ˈgoɪŋ tə ˈhæv ˈdɪnɚ təˈmɑro/","阮明仔載欲去食暗頓",""]
+  ]}
+ },
+ "tense": {
+  "0": {"add": [
+   "Have you been to Taiwan?",
+   ["I'm eating.","/aɪm ˈitɪŋ/","我咧食",""],
+   ["I went yesterday.","/aɪ ˈwɛnt ˈjɛstɚde/","我昨昏有去",""],
+   ["It's raining.","/ɪts ˈrenɪŋ/","落雨矣 / 咧落雨",""]
+  ]},
+  "1": {"add": [
+   ["I drink coffee every morning.","/aɪ ˈdrɪŋk ˈkɔfɪ ˈɛvrɪ ˈmɔrnɪŋ/","我逐工早起攏啉咖啡",""],
+   ["I'm drinking coffee right now.","/aɪm ˈdrɪŋkɪŋ ˈkɔfɪ ˈraɪt ˈnaʊ/","我這馬咧啉咖啡",""]
+  ]},
+  "2": {"add": [
+   "It was pretty relaxing.",
+   ["I saw a movie yesterday.","/aɪ ˈsɔ ə ˈmuvɪ ˈjɛstɚde/","我昨昏看一齣電影",""]
+  ]}
+ },
+ "joining": {
+  "1": {"add": [
+   ["It was raining, so I stayed home.","/ɪt wəz ˈrenɪŋ so aɪ ˈsted ˈhom/","咧落雨，所以我留佇厝",""],
+   ["I was hungry, so I had lunch.","/aɪ wəz ˈhʌŋgrɪ so aɪ ˈhæd ˈlʌntʃ/","我腹肚枵，所以去食中晝",""]
+  ]},
+  "2": {"add": [
+   ["I'm happy because it's Friday.","/aɪm ˈhæpɪ bɪkəz ɪts ˈfraɪde/","我真歡喜，因為今仔日禮拜五",""]
+  ]},
+  "3": {"add": [
+   ["Although it rained, we went hiking.","/ɔlðo ɪt ˈrend wɪ ˈwɛnt ˈhaɪkɪŋ/","雖然有落雨，阮猶是去爬山",""],
+   ["It rained, but we went hiking.","/ɪt ˈrend bət wɪ ˈwɛnt ˈhaɪkɪŋ/","有落雨，毋過阮猶是去爬山",""],
+   ["Because I was tired, I went to bed early.","/bɪkəz aɪ wəz ˈtaɪɚd aɪ ˈwɛnt tə ˈbɛd ˈɝlɪ/","因為我真忝，真早就去睏矣",""]
+  ]},
+  "4": {"add": [
+   ["I'm tired too.","/aɪm ˈtaɪɚd ˈtu/","我嘛真忝",""],
+   ["She likes coffee too.","/ʃɪ ˈlaɪks ˈkɔfɪ ˈtu/","伊嘛佮意咖啡",""]
+  ]}
+ },
+ "numbers": {
+  "0": {"add": [
+   "Fifteen dollars",
+   ["Fifty thousand","/ˈfɪftɪ ˈθaʊzṇd/","五萬 (50,000)",""],
+   ["One hundred thousand","/ˈwʌn ˈhʌndrəd ˈθaʊzṇd/","十萬 (100,000)",""]
+  ]}
+ },
+ "smalltalk": {
+  "0": {"add": [
+   ["How are you?","/ˈhaʊ ɚ jʊ/","你好無？",""]
+  ]},
+  "1": {"add": [
+   "Nice weather today, huh?",
+   "Any plans for the weekend?",
+   "Have you seen any good shows lately?",
+   "How's work?"
+  ]}
+ },
+ "past-continuous": {
+  "1": {"add": [
+   ["I was sleeping when you called.","/aɪ wəz ˈslipɪŋ wɛn jʊ ˈkɔld/","你敲電話來的時，我當咧睏",""]
+  ]}
+ },
+ "will": {
+  "0": {"add": [
+   ["I'll have a coffee.","/aɪl ˈhæv ə ˈkɔfɪ/","我欲一杯咖啡",""]
+  ]},
+  "2": {"add": [
+   ["It will rain tomorrow.","/ɪt wəl ˈren təˈmɑro/","明仔載會落雨",""]
+  ]},
+  "3": {"add": [
+   ["I'll get the door.","/aɪl ˈgɛt ðə ˈdɔr/","我來開門",""],
+   ["I'm going to visit Macau next month.","/aɪm ˈgoɪŋ tə ˈvɪzɪt məˈkaʊ ˈnɛkst ˈmʌnθ/","我後個月欲去澳門",""],
+   ["I'll go.","/aɪl ˈgo/","我來去",""]
+  ]}
+ },
+ "perfect": {
+  "1": {"add": [
+   ["eaten","/ˈitṇ/","食過（eat 的過去分詞）",""],
+   ["seen","/ˈsin/","看過（see 的過去分詞）",""],
+   ["done","/ˈdʌn/","做過（do 的過去分詞）",""],
+   ["tried","/ˈtraɪd/","試過（try 的過去式佮過去分詞）",""]
+  ]},
+  "2": {"add": [
+   ["She's been to London.","/ʃɪz bɪn tə ˈlʌndən/","伊捌去過倫敦（已經轉來矣）",""],
+   ["He's gone to Japan.","/hɪz ˈgɔn tə dʒəˈpæn/","伊去日本矣（這馬無佇遮）",""]
+  ]},
+  "3": {"add": [
+   ["I saw it yesterday.","/aɪ ˈsɔ ɪt ˈjɛstɚde/","我昨昏有看",""],
+   ["I ate dim sum yesterday.","/aɪ ˈet ˈdɪm ˈsʌm ˈjɛstɚde/","我昨昏有食港式點心",""]
+  ]}
+ },
+ "modals": {
+  "0": {"add": [
+   ["I have to go.","/aɪ ˈhæf tə ˈgo/","我愛走矣",""]
+  ]},
+  "1": {"add": [
+   ["You don't have to come.","/jʊ ˈdont ˈhæf tə ˈkʌm/","你免來（無需要）",""],
+   ["You must not smoke here.","/jʊ ˈmʌst ˈnɑt ˈsmok ˈhɪr/","遮袂使食薰（無允准）",""],
+   ["I don't have to work tomorrow.","/aɪ ˈdont ˈhæf tə ˈwɝk təˈmɑro/","我明仔載免上班",""]
+  ]},
+  "2": {"add": [
+   ["You should go home.","/jʊ ʃəd ˈgo ˈhom/","你應該轉去厝",""]
+  ]},
+  "3": {"add": [
+   ["She might come.","/ʃɪ maɪt ˈkʌm/","伊凡勢會來",""]
+  ]}
+ },
+ "to-ing": {
+  "2": {"add": [
+   ["He suggested going.","/hɪ səgˈdʒɛstɪd ˈgoɪŋ/","伊建議去",""]
+  ]},
+  "3": {"add": [
+   ["I like to cook.","/aɪ ˈlaɪk tə ˈkʊk/","我佮意煮飯",""],
+   ["I love cooking.","/aɪ ˈlʌv ˈkʊkɪŋ/","我上佮意煮飯",""],
+   ["It started to rain.","/ɪt ˈstɑrtɪd tə ˈren/","開始落雨矣",""]
+  ]}
+ },
+ "articles-2": {
+  "2": {"add": [
+   ["I like music.","/aɪ ˈlaɪk ˈmjuzɪk/","我佮意音樂（泛指）",""],
+   ["Music is my life.","/ˈmjuzɪk ɪz maɪ ˈlaɪf/","音樂就是我的性命",""]
+  ]}
+ },
+ "first-conditional": {
+  "1": {"add": [
+   "Let me know if you have any questions."
+  ]},
+  "2": {"add": [
+   ["When it stops raining, we'll go.","/wɛn ɪt ˈstɑps ˈrenɪŋ wɪl ˈgo/","雨停了後，咱就來去",""],
+   ["When I see her, I'll tell her.","/wɛn aɪ ˈsi hɚ aɪl ˈtɛl hɚ/","我看著伊的時，就共伊講",""]
+  ]}
+ },
+ "relative": {
+  "0": {"add": [
+   ["the woman who works here","/ðə ˈwʊmən hʊ ˈwɝks ˈhɪr/","佇遮做工課的彼个查某人",""]
+  ]},
+  "1": {"add": [
+   ["the bag that I want","/ðə ˈbæg ðət aɪ ˈwɑnt/","我想欲愛的袋仔",""]
+  ]},
+  "2": {"add": [
+   ["the book I bought","/ðə ˈbʊk aɪ ˈbɔt/","我買的冊",""],
+   ["The food we ate was great.","/ðə ˈfud wɪ ˈet wəz ˈgret/","阮食的物件真好食",""]
+  ]},
+  "3": {"add": [
+   ["the hotel where we stayed","/ðə hoˈtɛl wɛr wɪ ˈsted/","阮蹛的彼間飯店",""],
+   ["the restaurant where we had dinner","/ðə ˈrɛstərɑnt wɛr wɪ ˈhæd ˈdɪnɚ/","阮食暗頓的彼間餐廳",""]
+  ]},
+  "4": {"add": [
+   ["There are many people who have this problem.","/ðɛr ɚ ˈmɛnɪ ˈpipḷ hʊ ˈhæv ˈðɪs ˈprɑbləm/","有真濟人有這个問題",""],
+   ["Many people have this problem.","/ˈmɛnɪ ˈpipḷ ˈhæv ˈðɪs ˈprɑbləm/","真濟人攏有這个問題",""],
+   ["the man I met","/ðə ˈmæn aɪ ˈmɛt/","我拄著的彼个查埔人",""]
+  ]}
+ },
+ "perfect-2": {
+  "1": {"add": [
+   ["How long have you lived here?","/ˈhaʊ ˈlɔŋ həv jʊ ˈlɪvd ˈhɪr/","你蹛遮偌久矣？",""],
+   ["How long have you known her?","/ˈhaʊ ˈlɔŋ həv jʊ ˈnon hɚ/","你佮伊熟似偌久矣？",""]
+  ]}
+ },
+ "narrative": {
+  "0": {"add": [
+   ["I was walking home.","/aɪ wəz ˈwɔkɪŋ ˈhom/","我彼陣咧行路轉去厝",""],
+   ["I saw an old friend.","/aɪ ˈsɔ ən ˈold ˈfrɛnd/","我拄著一个老朋友",""],
+   ["He had moved to Canada.","/hɪ həd ˈmuvd tə ˈkænədə/","伊進前就已經搬去加拿大矣",""]
+  ]},
+  "1": {"add": [
+   ["I had already eaten.","/aɪ həd ɔlˈrɛdɪ ˈitṇ/","我（彼陣）已經食飽矣",""]
+  ]},
+  "2": {"add": [
+   ["first","/ˈfɝst/","先",""],
+   ["then","/ˈðɛn/","紲落來",""],
+   ["after that","/ˈæftɚ ˈðæt/","了後",""],
+   ["finally","/ˈfaɪnəlɪ/","上尾",""]
+  ]}
+ },
+ "conditionals": {
+  "1": {"add": [
+   ["If I had known, I would have come.","/ɪf aɪ həd ˈnon aɪ wəd əv ˈkʌm/","早知我就來矣",""],
+   ["If it hadn't rained, we would have gone.","/ɪf ɪt ˈhædṇt ˈrend wɪ wəd əv ˈgɔn/","若彼陣無落雨，阮就去矣",""]
+  ]},
+  "2": {"add": [
+   ["I should have studied.","/aɪ ʃəd əv ˈstʌdɪd/","我彼陣應該認真讀冊",""]
+  ]}
+ },
+ "passive": {
+  "1": {"add": [
+   ["English is spoken in many countries.","/ˈɪŋglɪʃ ɪz ˈspokən ɪn ˈmɛnɪ ˈkʌntrɪz/","真濟國家攏講英語",""]
+  ]},
+  "2": {"add": [
+   ["This was made by my mom.","/ˈðɪs wəz ˈmed baɪ maɪ ˈmɑm/","這是阮阿母做的",""],
+   ["The photo was taken by my friend.","/ðə ˈfoto wəz ˈtekən baɪ maɪ ˈfrɛnd/","這張相片是我的朋友翕的",""]
+  ]},
+  "3": {"add": [
+   ["Someone stole my bag.","/ˈsʌmwʌn ˈstol maɪ ˈbæg/","有人共我的袋仔偷提去矣",""],
+   ["My bag was stolen.","/maɪ ˈbæg wəz ˈstolən/","我的袋仔予人偷提去矣",""],
+   ["They canceled the flight.","/ðe ˈkænsḷd ðə ˈflaɪt/","𪜶 (in) 共班機取消矣",""],
+   ["The flight was canceled.","/ðə ˈflaɪt wəz ˈkænsḷd/","班機取消矣",""],
+   ["The accident happened.","/ðɪ ˈæksɪdənt ˈhæpənd/","意外發生矣",""]
+  ]}
+ },
+ "articles-3": {
+  "3": {"add": [
+   ["the first","/ðə ˈfɝst/","頭一个",""],
+   ["the last","/ðə ˈlæst/","上尾一个",""]
+  ]}
+ },
+ "reported": {
+  "1": {"add": [
+   ["I don't know where she lives.","/aɪ ˈdont ˈno ˈwɛr ʃɪ ˈlɪvz/","我毋知伊蹛佇佗位",""]
+  ]}
+ },
+ "email": {
+  "0": {"add": [
+   "I'm writing to ask about the schedule.",
+   ["I hope you're doing well.","/aɪ ˈhop jʊr ˈduɪŋ ˈwɛl/","希望你近來攏好",""]
+  ]},
+  "1": {"add": [
+   ["Hi Sarah,","/ˈhaɪ ˈsɛrə/","Sarah 你好（批的稱呼）",""],
+   ["Dear Mr. Lin,","/ˈdɪr ˈmɪstɚ ˈlɪn/","林先生你好（正式的稱呼）",""]
+  ]},
+  "2": {"add": [
+   "Could you send me the file by Friday?"
+  ]},
+  "3": {"add": [
+   ["Got it, thanks.","/ˈgɑt ɪt ˈθæŋks/","收著矣，多謝",""],
+   ["Thanks for letting me know.","/ˈθæŋks fɚ ˈlɛtɪŋ mɪ ˈno/","多謝你共我講",""],
+   ["Thanks for your kind help.","/ˈθæŋks fɚ jʊr ˈkaɪnd ˈhɛlp/","多謝你熱心鬥相共",""],
+   ["I look forward to hearing from you.","/aɪ ˈlʊk ˈfɔrwɚd tə ˈhɪrɪŋ frəm jʊ/","期待你的回覆",""]
+  ]},
+  "4": {"add": [
+   ["Have a great weekend!","/ˈhæv ə ˈgret ˈwikɛnd/","祝你週末快樂！",""],
+   ["I really appreciate your help.","/aɪ ˈriəlɪ əˈpriʃɪet jʊr ˈhɛlp/","真感謝你鬥相共",""]
+  ]}
+ },
+ "idioms": {
+  "1": {"add": [
+   ["Kill two birds with one stone","/ˈkɪl ˈtu ˈbɝdz wɪð ˈwʌn ˈston/","一兼二顧",""],
+   ["A blessing in disguise","/ə ˈblɛsɪŋ ɪn dɪsˈgaɪz/","塞翁失馬，焉知非福",""],
+   ["Long time no see.","/ˈlɔŋ ˈtaɪm ˈno ˈsi/","真久無看",""]
+  ]},
+  "2": {"add": [
+   ["No cap.","/ˈno ˈkæp/","真的，無騙你（干焦佇朋友之間）",""],
+   ["That song slaps.","/ˈðæt ˈsɔŋ ˈslæps/","這首歌真好聽（干焦佇朋友之間）",""]
+  ]}
+ }
+}

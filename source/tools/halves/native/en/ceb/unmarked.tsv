@@ -1,0 +1,1788 @@
+# Bisaya words of the course inventory, or with a Bisaya diacritic, outside every mark (export_target.js ceb; not protected by validate.js until the source marks them). Columns: file, id, field, words, text
+decks	ceb.d.sounds-and-spelling	desc	ng	Words that show each sound: three vowels written five ways, ng, the catch, and where the stress falls
+decks	ceb.d.greetings-and-courtesy	desc	day to	Greetings by time of day, thanks, please, excuse me, and how to address people
+decks	ceb.d.numbers-and-money	desc	pesos	Cebuano numbers for counting, Spanish numbers for pesos, and money words
+decks	ceb.d.food-and-drink	desc	at	Ordering at a carinderia or restaurant, everyday dishes and drinks
+decks	ceb.d.shopping-and-prices	desc	at	Asking prices, this one and that one, buying at a market or sari-sari store
+decks	ceb.d.home-and-daily-life	desc	at day to	Rooms and things at home, my and your, and the day from morning to night
+decks	ceb.d.describing-things	label	Describing	Describing things
+decks	ceb.d.describing-things	desc	nga	Size, color, taste and looks with nga, and comparing
+decks	ceb.d.everyday-verbs	desc	mo mag on	Common verbs in their mo-, mag-, -on and maka- forms
+decks	ceb.d.traps-for-english-speakers	desc	word	False friends, word-for-word copies from English, and the two words for not
+decks	ceb.d.short-forms-and-cebu-talk	label	Cebu	Short forms and Cebu talk
+decks	ceb.d.short-forms-and-cebu-talk	desc	Cebu day	The particles and short forms you hear in Cebu every day, with the full form beside each
+decks	ceb.d.top-verbs	desc	mo ni mag	The most-used verb roots, each with the mo-, ni-, mag- or gi- forms a beginner meets first
+decks	ceb.d.top-adjectives	desc	Describing	Describing words for size, taste, color, weather and feelings
+decks	ceb.d.top-adverbs	desc	place	Always, sometimes, early, late, maybe, almost: words of time, place and degree
+decks	ceb.d.top-pronouns	desc	ako nako akong kanako	All four pronoun sets (ako, nako, akong, kanako), mine and yours, this and that, who and what
+decks	ceb.d.top-markers-and-particles	desc	ang sa og si ni kang na pa lang man place	Cebuano has no prepositions: the markers ang, sa, og, si, ni, kang, the small words na, pa, lang, man, and place words used with sa
+decks	ceb.d.top-conjunctions	desc	so	And, or, if, so, while, after, even though: the words that join ideas
+decks	ceb.d.top-interjections	desc	Cebu Ay Aray Agoy Grabe Kuyaw	What people in Cebu really exclaim: Ay!, Aray!, Agoy!, Grabe!, Kuyaw!
+decks	ceb.d.top-words	desc	is word	Where, how, there is, the plural word, Cebuano and Spanish numbers, clock and age words, and the days
+decks	ceb.d.flirting	desc	to	Flirting words, the phrases built from them, asking someone out, and kind ways to say yes or no
+cards	ceb.c0001	note	on	Stress on the last syllable: bah-LAI.
+cards	ceb.c0002	note	is	Ends in a catch (q in the aid). Without it, bata is a nightgown.
+cards	ceb.c0003	note	ma	Three syllables, ma-a-yo, with a catch before the second a.
+cards	ceb.c0004	note	ng at word	ng as in "singer", even at the start of a word.
+cards	ceb.c0005	note	is manga	mga is said "manga".
+cards	ceb.c0006	note	is	o is a pure oh, without the glide of English "toe".
+cards	ceb.c0008	meaning	man	man
+cards	ceb.c0009	note	on	Stress on the last syllable: eet-LOHG.
+cards	ceb.c0011	note	ng at on	ng at the end, as in "sing". Stress on the last syllable.
+cards	ceb.c0013	note	is word	h is always said, even in the middle of a word.
+cards	ceb.c0014	note	ng	akong (my) goes before the noun and ends in -ng.
+cards	ceb.c0016	note	ts	ts sounds like English ch. A Spanish number.
+cards	ceb.c0017	note	is	e is used in loanwords like this one; native words use i.
+cards	ceb.c0018	meaning	Cebu	Cebu (the old Cebuano name)
+cards	ceb.c0018	note	bata	Ends in a catch, like bata.
+cards	ceb.c0020	meaning	day	Good day. (around noon)
+cards	ceb.c0020	note	to	Used from about 11 a.m. to 1 p.m.
+cards	ceb.c0021	note	udto	From about 1 p.m. until dark. Around noon: Maayong udto.
+cards	ceb.c0023	note	Maayo man Salamat	The answer: Maayo man. Salamat.
+cards	ceb.c0025	note	an Nong	Add a title for an older person: Salamat, Nong.
+cards	ceb.c0027	meaning	ma	Thank you, ma'am.
+cards	ceb.c0027	note	Manang to an	Nang (from Manang) to an older woman: a vendor, a helper.
+cards	ceb.c0029	note	To	To a guest or someone just arrived.
+cards	ceb.c0030	meaning	on	Come on in.
+cards	ceb.c0030	note	at	What the host says at the door. lang makes it friendly.
+cards	ceb.c0034	meaning	ma	Excuse me, ma'am, just a question.
+cards	ceb.c0034	note	to To man Nong	A polite way to stop someone and ask. To a man: Nong.
+cards	ceb.c0035	note	to is	A friendly way to leave. ko is the short pronoun.
+cards	ceb.c0038	meaning	is	My name is Pedro.
+cards	ceb.c0039	note	is unsa ang	Unsay is short for unsa ang.
+cards	ceb.c0040	meaning	is	This is Ana.
+cards	ceb.c0042	note	gikan	Not Asa ka gikan?, which means "Where have you just been?"
+cards	ceb.c0044	note	at	sa = in, at.
+cards	ceb.c0045	note	word	The question word comes first, then ka.
+cards	ceb.c0046	meaning	to	Nice to meet you.
+cards	ceb.c0046	note	to	Literally "I'm happy that I got to know you".
+cards	ceb.c0047	note	word	Age uses Spanish numbers and anyos, not a word for "have".
+cards	ceb.c0048	note	is	Literally "How many is your age now?"
+cards	ceb.c0049	note	word man maestro	The main word comes first, then ko. A man: maestro.
+cards	ceb.c0050	note	word	No word for "a": the job word comes first.
+cards	ceb.c0052	meaning	at	I work at a hospital.
+cards	ceb.c0052	note	nag is on	nag- here means it is going on these days.
+cards	ceb.c0054	note	thing	og before the thing you study. Many people call the language Bisaya.
+cards	ceb.c0055	note	nga lalaki	Says nothing about sex: igsoon nga lalaki = brother.
+cards	ceb.c0056	note	mama	Everyday: mama.
+cards	ceb.c0064	note	man	Also used for any old man you respect.
+cards	ceb.c0065	note	manghod	Younger: manghod.
+cards	ceb.c0066	note	magulang	Older: magulang.
+cards	ceb.c0069	meaning	to an man	sir (to an older man)
+cards	ceb.c0069	note	Manong	Short for Manong: drivers, guards, vendors.
+cards	ceb.c0070	note	kami to	mi (kami) leaves out the person you are talking to.
+cards	ceb.c0071	note	kamo is	mo (kamo) is "you" for more than one person.
+cards	ceb.c0073	note	to	ka joins a Cebuano number to the noun.
+cards	ceb.c0075	note	is	Not tulo bata: ka is needed.
+cards	ceb.c0078	note	pesos siyen	Cebuano. For pesos most people say siyen.
+cards	ceb.c0084	note	Cebu	Spanish. In Cebu City you will also hear "fifty".
+cards	ceb.c0087	note	word	No word for "have": literally "two my children".
+cards	ceb.c0090	note	dili	wala, not dili, for "have none".
+cards	ceb.c0091	meaning	is	What time is it?
+cards	ceb.c0093	note	is alas	One o'clock is ala una, not alas una.
+cards	ceb.c0094	note	on	Spanish numbers on the clock.
+cards	ceb.c0096	note	at	sa gabii = in the evening, at night.
+cards	ceb.c0099	note	day	Literally "this day".
+cards	ceb.c0100	note	unya	Later today: unya.
+cards	ceb.c0102	note	is ugma	Not tomorrow: that is ugma.
+cards	ceb.c0103	note	unya	The opposite of unya.
+cards	ceb.c0104	note	Martes Miyerkoles	The days are Spanish: Lunes, Martes, Miyerkoles…
+cards	ceb.c0105	note	is Domingo	The weekend is Sabado and Domingo.
+cards	ceb.c0106	note	to	nga links sunod (next) to semana (week).
+cards	ceb.c0107	meaning	at	I'll leave at three.
+cards	ceb.c0108	meaning	at	I woke up at six.
+cards	ceb.c0108	note	ni	ni- = past form.
+cards	ceb.c0109	note	is bugas	Uncooked rice is bugas.
+cards	ceb.c0111	note	Palihug	Ordering: Palihug, usa ka kape.
+cards	ceb.c0112	note	on	Stress on the last syllable: mah-NOHK.
+cards	ceb.c0114	note	word	The same word for the animal and the meat.
+cards	ceb.c0117	note	Cebu is	Cebu is famous for it.
+cards	ceb.c0121	note	at to	Asked at a carinderia to see what dishes are ready.
+cards	ceb.c0123	note	ng to	sinugba (grilled) + -ng links it to isda.
+cards	ceb.c0124	note	describing word	kaayo after the describing word means "very".
+cards	ceb.c0127	meaning	is	How much is each?
+cards	ceb.c0128	meaning	is	How much is this?
+cards	ceb.c0128	note	is kini	ni is short for kini (this).
+cards	ceb.c0129	note	At	At the market, fruit and fish are sold by the kilo.
+cards	ceb.c0132	meaning	is	This one is cheap.
+cards	ceb.c0133	note	At	At a market, not in a mall.
+cards	ceb.c0136	note	kadto	For something far from both of you: Unsa kadto?
+cards	ceb.c0137	note	kana ng to describing word	kana + -ng links it to the describing word.
+cards	ceb.c0138	note	kadto	kadto = that one, far from both of you.
+cards	ceb.c0139	meaning	is	This is my book.
+cards	ceb.c0139	note	word	The main word comes first, then kini.
+cards	ceb.c0140	note	mo is	naa + ba + mo + y: "is there, you all, some".
+cards	ceb.c0143	note	Ang akong Nang	Ask for it: Ang akong sukli, Nang.
+cards	ceb.c0144	note	ng	akong goes before the noun and ends in -ng.
+cards	ceb.c0145	note	akong	nako goes after the noun. Same meaning as akong balay.
+cards	ceb.c0146	note	thing to	A friendly thing to say as a guest. inyong = your (family's).
+cards	ceb.c0150	note	higda	From higda (lie down).
+cards	ceb.c0152	meaning	is	This is my room.
+cards	ceb.c0152	note	is kini	ni is short for kini (this).
+cards	ceb.c0153	note	ko is	naa + ko + y: "there is, mine, some".
+cards	ceb.c0154	meaning	Is	Is anyone home?
+cards	ceb.c0154	note	at Is	Called at the gate. Literally "Is there a person?"
+cards	ceb.c0155	note	is	A power cut is also called a brownout.
+cards	ceb.c0156	meaning	is	Mom is in the kitchen.
+cards	ceb.c0156	note	is at	naa sa = is at, is in.
+cards	ceb.c0157	meaning	at	Are you at home?
+cards	ceb.c0159	note	to	Literally "It's night already." Also a polite reason to leave.
+cards	ceb.c0161	note	Cebu	In Cebu people also say CR (comfort room).
+cards	ceb.c0162	note	dinhi	Also dinhi.
+cards	ceb.c0163	note	to	Near the person you are talking to.
+cards	ceb.c0165	note	word	Another word for "here".
+cards	ceb.c0166	meaning	at	at the market
+cards	ceb.c0166	note	at to	sa = at, in, to.
+cards	ceb.c0167	meaning	at	It's at the church.
+cards	ceb.c0168	note	to	ra = just; diha points to a spot near the person you are talking to.
+cards	ceb.c0169	note	To an man Nong	To an older man, add a title: Asa ang tindahan, Nong?
+cards	ceb.c0170	meaning	is	Which one is your house?
+cards	ceb.c0171	meaning	Is	Is it far?
+cards	ceb.c0171	note	place	ba turns it into a yes / no question and goes in second place.
+cards	ceb.c0176	meaning	at	at the side of the road
+cards	ceb.c0178	note	is	siya is "he" and "she".
+cards	ceb.c0179	meaning	to	Stop! (to the driver)
+cards	ceb.c0179	note	to	Said in a jeepney when you want to get off.
+cards	ceb.c0180	note	word	Pass your coins forward with this word.
+cards	ceb.c0182	note	wala word	Left: wala, spelled like wala (none) but a different word.
+cards	ceb.c0184	note	lang	Diretso lang = just keep going straight.
+cards	ceb.c0185	note	to place	Said to the driver; literally "just the place".
+cards	ceb.c0186	note	on	Ask before you get on: moagi = will pass through.
+cards	ceb.c0187	note	place	ba goes in second place, right after the verb.
+cards	ceb.c0188	meaning	is	How much is the fare?
+cards	ceb.c0188	note	is	plete = fare; the price is said in Spanish numbers.
+cards	ceb.c0192	note	to Bohol	For the big boats to Bohol and other islands.
+cards	ceb.c0193	meaning	at	at the pier
+cards	ceb.c0194	note	on to	paingon = on the way to.
+cards	ceb.c0195	meaning	on to	I'm on my way to Talisay.
+cards	ceb.c0195	note	place	The short pronoun ko goes in second place.
+cards	ceb.c0196	note	To an	To an older male driver: Nong.
+cards	ceb.c0197	note	an	Shout it in an emergency.
+cards	ceb.c0199	note	is tabang	tabangi is the command form of tabang (help).
+cards	ceb.c0202	note	to	Point to the spot as you say it.
+cards	ceb.c0204	note	ko is	koy = ko + y: "there is, mine, some".
+cards	ceb.c0206	note	an thing	og before an indefinite thing: "a doctor".
+cards	ceb.c0207	note	To an man Nong	To an older man: Asa ang ospital, Nong?
+cards	ceb.c0208	note	To an at Nang	To an older woman at the counter, add Nang.
+cards	ceb.c0210	note	At mo is	At the pharmacy. moy = mo + y; mo here is "you all", the staff.
+cards	ceb.c0215	note	dako ng describing word	dako + -ng: the linker joins the describing word.
+cards	ceb.c0216	note	so word	gamay ends in a consonant sound, so nga stays a separate word.
+cards	ceb.c0219	note	tigulang	For people: tigulang.
+cards	ceb.c0220	meaning	is	This one is bigger.
+cards	ceb.c0221	meaning	is	This one is cheaper than that one.
+cards	ceb.c0221	note	is	kaysa = than; niana is the "that" used after kaysa.
+cards	ceb.c0222	note	pinaka	pinaka- = most.
+cards	ceb.c0224	note	man gwapo	For a man: gwapo.
+cards	ceb.c0225	note	describing word	The describing word comes first, then siya.
+cards	ceb.c0226	note	tugnaw	For cold drinks and food. For the cold you feel, you will also hear tugnaw.
+cards	ceb.c0227	note	pula ng	pula + -ng. sinina = shirt, dress, clothes.
+cards	ceb.c0229	meaning	is	The kitchen is clean.
+cards	ceb.c0229	note	describing word	The describing word comes first: "clean the kitchen".
+cards	ceb.c0230	note	describing word	kaayo after the describing word means "very".
+cards	ceb.c0233	note	Ako word	Not Ako gigutom: the main word comes first.
+cards	ceb.c0234	note	word Gigutom	The main word first, then ko, as in Gigutom ko.
+cards	ceb.c0236	note	nga	Often: Nalipay ko nga… (I'm glad that…).
+cards	ceb.c0238	note	sa iro	Scared of something: add sa, as in Nahadlok ko sa iro.
+cards	ceb.c0240	note	bugnaw nga tubig	For the cold you feel. Cold water: bugnaw nga tubig.
+cards	ceb.c0242	note	gusto	ganahan = like; gusto = want.
+cards	ceb.c0244	note	an thing	og before an indefinite thing.
+cards	ceb.c0245	meaning	to	I want to go.
+cards	ceb.c0245	note	word to mo	No word for "to": gusto + the mo- verb.
+cards	ceb.c0247	note	unsa ang	unsay = unsa ang.
+cards	ceb.c0252	meaning	is	Who is he? / Who is she?
+cards	ceb.c0252	note	is	siya is he and she.
+cards	ceb.c0254	note	kay	The answer often starts with kay (because).
+cards	ceb.c0256	note	word	ka goes right after the question word.
+cards	ceb.c0257	note	Tagpila	Also "how much" for a price; Tagpila? asks "how much each".
+cards	ceb.c0259	meaning	to	How do I get to the market?
+cards	ceb.c0259	note	to	unsaon = how (to do something).
+cards	ceb.c0260	note	Amerikana	ba makes a yes / no question. A woman: Amerikana.
+cards	ceb.c0262	note	wala	Also "not". For "didn't" and "there isn't", wala.
+cards	ceb.c0264	note	og an is word	ug = and. og (with an o) is a different word.
+cards	ceb.c0268	note	mo	mo- = future form.
+cards	ceb.c0269	note	ni	ni- = past form; na = already.
+cards	ceb.c0270	note	nag	nag- covers both.
+cards	ceb.c0271	note	Thing	Thing-focus: the doer takes nako.
+cards	ceb.c0273	note	an thing	og before an indefinite thing.
+cards	ceb.c0274	note	mipalit	Also written mipalit.
+cards	ceb.c0275	meaning	to	I'll go to the market.
+cards	ceb.c0275	note	to	sa = to.
+cards	ceb.c0277	note	nag	nag- = doing now, or done. Also "she".
+cards	ceb.c0278	note	mag mo	Some verbs take mag- instead of mo-: learn each with its prefix.
+cards	ceb.c0279	meaning	to	I'm going to sleep now.
+cards	ceb.c0280	note	on thing	-on = future, with the thing as the focus.
+cards	ceb.c0281	note	on thing	With -on the thing gets ang.
+cards	ceb.c0282	note	thing	gi- = past, with the thing as the focus.
+cards	ceb.c0283	meaning	to	Have you ever been to Bohol?
+cards	ceb.c0283	note	to	naka- = have ever, managed to.
+cards	ceb.c0286	note	nako on	Libre nako = it's on me.
+cards	ceb.c0289	note	word is kan on	English has one word for rice; cooked rice is kan-on.
+cards	ceb.c0290	note	word nga ulan	One word for all three: kusog nga ulan = heavy rain.
+cards	ceb.c0291	note	is ugma	unya = later today. Tomorrow is ugma.
+cards	ceb.c0292	meaning	okay	It's okay. / Never mind.
+cards	ceb.c0293	note	is	Not hindi: that is Tagalog.
+cards	ceb.c0294	note	is Taga	Not "Where are you from?": that is Taga-asa ka?
+cards	ceb.c0296	note	Ako sa gusto	Not Ako ganahan sa kape. Want: gusto.
+cards	ceb.c0298	note	wala dili	wala, not dili, for "there isn't".
+cards	ceb.c0299	note	mo	wala for the past; the verb keeps the mo- form.
+cards	ceb.c0301	note	wala is	dili, not wala, for "is not".
+cards	ceb.c0302	meaning	is	What is it?
+cards	ceb.c0303	note	at	Surprise at news.
+cards	ceb.c0305	note	Dili	Short for Dili ko.
+cards	ceb.c0307	note	Wala	Short for Wala ko kahibalo.
+cards	ceb.c0308	note	Wa	Often said as Wa pa.
+cards	ceb.c0309	note	lang	ra = only, just; also lang.
+cards	ceb.c0310	note	is usab sad pod	sab is short for usab; you will also hear sad and pod.
+cards	ceb.c0311	note	kini word	ni = kini, after another word.
+cards	ceb.c0312	note	kadto word	to = kadto, after another word.
+cards	ceb.c0313	note	unsa ang	unsay = unsa ang.
+cards	ceb.c0314	note	naa is at	naay = naa + y: "is there any". A quick question at a stall.
+cards	ceb.c0315	note	wala	walay = wala + y.
+cards	ceb.c0316	meaning	to	miss (to a girl or young woman)
+cards	ceb.c0320	meaning	day	day; sun
+cards	ceb.c0320	note	duha ka init ang	duha ka adlaw = two days. Also the sun: init ang adlaw.
+cards	ceb.c0321	note	sa sunod nga	sa sunod nga tuig = next year.
+cards	ceb.c0322	note	usa ka	usa ka bulan = one month.
+cards	ceb.c0323	meaning	on	hour; time (on the clock)
+cards	ceb.c0323	note	Unsa nang orasa is	Unsa nang orasa? uses it: what time is it?
+cards	ceb.c0324	note	Init ang karon is	Init ang panahon karon = the weather is hot now.
+cards	ceb.c0325	meaning	thing	thing; object
+cards	ceb.c0325	note	Unsa kanang thing	Unsa kanang butang? = What's that thing?
+cards	ceb.c0326	note	magtrabaho nagtrabaho	Also the verb: magtrabaho, nagtrabaho.
+cards	ceb.c0327	note	akong	Spanish loan; akong pamilya = my family.
+cards	ceb.c0328	note	sa kilid at	sa kilid sa dalan = at the side of the road.
+cards	ceb.c0329	note	sa Sugbo Cebu	Also written syudad: Siyudad sa Sugbo = Cebu City.
+cards	ceb.c0330	meaning	place	place
+cards	ceb.c0330	note	lang is to	Lugar lang! is what you say to get off a jeepney.
+cards	ceb.c0331	note	duol sa	duol sa simbahan = near the church; a common landmark.
+cards	ceb.c0333	note	is	A small neighborhood shop is a sari-sari store.
+cards	ceb.c0334	note	Asa ang	Spanish loan: Asa ang ospital?
+cards	ceb.c0335	note	sa at	Spanish loan: sa opisina = at the office.
+cards	ceb.c0336	note	Taga asa ka nga	Taga-asa ka nga nasod? = Which country are you from?
+cards	ceb.c0337	note	sa	sa probinsya = out in the province.
+cards	ceb.c0338	note	Lapu Bohol Cebu	Lapu-Lapu and Bohol are across the sea from Cebu City.
+cards	ceb.c0339	note	sa at	sa baybayon = at the beach.
+cards	ceb.c0340	note	taga	Also "upland, the country": taga-bukid.
+cards	ceb.c0341	note	sa at	sa suba = at the river.
+cards	ceb.c0342	note	Bohol	Spanish loan; Bohol and Mactan are islands.
+cards	ceb.c0343	note	Root kaon pag	Root kaon (eat) with pag-: food in general.
+cards	ceb.c0344	note	mangga saging durian	Spanish loan: mangga, saging, durian.
+cards	ceb.c0346	note	sa baboy	karne sa baka = beef; baboy = pork.
+cards	ceb.c0347	note	usa ka	usa ka saging = one banana.
+cards	ceb.c0348	note	kape nga	kape nga may gatas = coffee with milk.
+cards	ceb.c0349	note	Palihug ang	Pass the salt: Palihug ang asin.
+cards	ceb.c0351	note	usa ka nga tubig	usa ka baso nga tubig = a glass of water.
+cards	ceb.c0355	note	Root lingkod an place to	Root lingkod (sit) + -an: a place to sit.
+cards	ceb.c0356	note	ang sa balay	ang pultahan sa balay = the door of the house.
+cards	ceb.c0359	note	word	One word covers hand and arm.
+cards	ceb.c0360	note	word	One word covers foot and leg.
+cards	ceb.c0361	note	Masakit akong	Masakit akong ulo = my head hurts.
+cards	ceb.c0362	note	Masakit akong	Masakit akong tiyan = my stomach hurts.
+cards	ceb.c0363	note	Masakit akong	Masakit akong ilong = my nose hurts.
+cards	ceb.c0364	note	Ablihi ang imong	Ablihi ang imong baba = open your mouth.
+cards	ceb.c0365	note	Root dungog	Root dungog (hear).
+cards	ceb.c0366	note	Kapoy akong is	Kapoy akong lawas = my body is tired.
+cards	ceb.c0367	note	is	No plural ending: ngipon is one or many.
+cards	ceb.c0368	note	Masakit	Masakit = it hurts.
+cards	ceb.c0369	note	Kinahanglan ko og	Kinahanglan ko og doktor = I need a doctor.
+cards	ceb.c0370	meaning	man	teacher (man)
+cards	ceb.c0370	note	maestra	For a woman: maestra.
+cards	ceb.c0371	note	Nong	Drivers are called Nong or Kuya.
+cards	ceb.c0372	note	Root to	Root siling (next to).
+cards	ceb.c0373	note	mobisita	Also the verb: mobisita (will visit).
+cards	ceb.c0374	note	word	Everyday word across the Philippines.
+cards	ceb.c0375	note	Lingaw kaayo ka	Lingaw kaayo ka kauban = you're fun company.
+cards	ceb.c0376	note	Kinsay ani	Kinsay tag-iya ani? = Who owns this?
+cards	ceb.c0377	note	man	For a man: tindero.
+cards	ceb.c0378	note	Salamat sa	Salamat sa Ginoo = thank the Lord.
+cards	ceb.c0379	note	word	The general word: anything you ride.
+cards	ceb.c0380	note	sakyanan	Spanish loan; many say kotse or sakyanan.
+cards	ceb.c0381	note	Habal habal is	Habal-habal is a motorbike taxi.
+cards	ceb.c0386	note	pulang	pulang sinina = a red shirt.
+cards	ceb.c0391	note	Walay	Walay kuryente = there's a power outage.
+cards	ceb.c0392	note	ang	Patya ang suga = turn off the light.
+cards	ceb.c0393	note	Nag	Nag-ulan = it's raining.
+cards	ceb.c0394	note	Kusog ang is	Kusog ang hangin = the wind is strong.
+cards	ceb.c0396	note	Unsay	Unsay kolor? = What color?
+cards	ceb.c0397	note	Walay	Walay problema = no problem.
+cards	ceb.c0398	note	Unsay	Unsay balita? = What's new?
+cards	ceb.c0399	note	Pila na ang imong	Pila na ang imong edad? = How old are you?
+cards	ceb.c0400	note	word	For phone numbers, people often say the English word.
+cards	ceb.c0401	note	Pila ang	Pila ang presyo? = What's the price?
+cards	ceb.c0402	note	Bisaya ug Iningles	Bisaya ug Iningles = Cebuano and English.
+cards	ceb.c0403	note	Makasabot ka og	Makasabot ka og Iningles?
+cards	ceb.c0404	note	word	Strong, poetic word; songs and prayers.
+cards	ceb.c0405	note	Ingon ana ang	Ingon ana ang kinabuhi = that's life.
+cards	ceb.c0406	note	sa	sa tibuok kalibutan = in the whole world.
+cards	ceb.c0408	note	Sa sunod nga	Sa sunod nga higayon = next time.
+cards	ceb.c0410	note	moadto niadto Moadto ko sa merkado	moadto (will go); niadto (went). Moadto ko sa merkado.
+cards	ceb.c0411	note	mokaon nikaon Thing kan on gikaon	mokaon; nikaon. Thing-focus: kan-on (irregular), gikaon.
+cards	ceb.c0412	note	Wala ko	No prefix. Wala ko kahibalo = I don't know.
+cards	ceb.c0413	note	ko og kape	No prefix: Gusto ko og kape. Spanish loan.
+cards	ceb.c0414	note	niingon siya	moingon; niingon. Ingon siya = he said.
+cards	ceb.c0415	note	nihimo Thing gihimo	mohimo; nihimo. Thing-focus: himoon, gihimo.
+cards	ceb.c0416	note	mopalit nipalit Thing paliton gipalit	mopalit; nipalit. Thing-focus: paliton, gipalit.
+cards	ceb.c0417	note	Thing kuhaon gikuha	mokuha; nikuha. Thing-focus: kuhaon, gikuha.
+cards	ceb.c0418	note	To gihatagan	mohatag; nihatag. To someone: hatagan, gihatagan.
+cards	ceb.c0419	note	motan Thing	motan-aw; nitan-aw. Thing-focus: tan-awon.
+cards	ceb.c0420	note	moinom Thing imnon	moinom; niinom. Thing-focus: imnon (irregular).
+cards	ceb.c0421	note	mobalik Mobalik ko	mobalik; nibalik. Mobalik ko = I'll be back.
+cards	ceb.c0422	note	ko og kape	No prefix: Ganahan ko og kape.
+cards	ceb.c0423	note	ko og tabang	No prefix: Kinahanglan ko og tabang.
+cards	ceb.c0424	note	mosulti	mosulti; nisulti. Tell someone: sultihan.
+cards	ceb.c0425	note	makasabot nakasabot	makasabot (can understand); nakasabot.
+cards	ceb.c0426	note	nagpuyo Asa ka	nagpuyo = live, are living. Asa ka nagpuyo?
+cards	ceb.c0427	note	magtuon nagtuon	magtuon (will study); nagtuon (studying, studied).
+cards	ceb.c0428	note	Unsay imong gibuhat	mobuhat; nibuhat. Unsay imong gibuhat? = What did you do?
+cards	ceb.c0429	note	nidala Thing on	modala; nidala. Thing-focus: dad-on (irregular).
+cards	ceb.c0430	note	magluto nagluto Thing	magluto; nagluto. Thing-focus: lutoon, giluto.
+cards	ceb.c0431	note	matulog natulog	Irregular: matulog (will sleep); natulog (slept).
+cards	ceb.c0432	note	molakaw na ko	molakaw; nilakaw. Lakaw na ko = I'm off.
+cards	ceb.c0433	note	mouli mopauli	mouli; niuli. Also mopauli.
+cards	ceb.c0434	note	moabot niabot Maayong pag	moabot; niabot. Maayong pag-abot = welcome.
+cards	ceb.c0435	note	mobiya Mobiya ko alas tres	mobiya; nibiya. Mobiya ko alas tres.
+cards	ceb.c0436	note	moanhi diri	moanhi; nianhi. Anhi diri! = Come here!
+cards	ceb.c0437	meaning	on	ride; get on
+cards	ceb.c0437	note	mosakay nisakay na on	mosakay; nisakay. Sakay na! = Get on!
+cards	ceb.c0438	note	monaog Lugar lang is to	monaog; ninaog. Lugar lang is the polite way to ask.
+cards	ceb.c0439	note	lang	mohulat; nihulat. Hulat lang = wait a moment.
+cards	ceb.c0440	note	mangutana	Irregular: mangutana; nangutana.
+cards	ceb.c0441	note	Thing	motubag; nitubag. Thing-focus: tubagon.
+cards	ceb.c0442	note	tawagan	motawag; nitawag. Call someone: tawagan.
+cards	ceb.c0443	note	makig nag	makig-istorya (chat with); nag-istorya.
+cards	ceb.c0446	note	Thing hunahunaon	maghunahuna; naghunahuna. Thing-focus: hunahunaon.
+cards	ceb.c0447	note	nahinumdom	mahinumdom; nahinumdom.
+cards	ceb.c0448	note	makalimot nakalimtan	makalimot; nakalimot. Forgot it: nakalimtan.
+cards	ceb.c0449	note	nagbasa Thing	mobasa; nagbasa (reading, read). Thing-focus: basahon.
+cards	ceb.c0450	note	Thing	mosulat; nisulat. Thing-focus: sulaton.
+cards	ceb.c0452	note	molingkod usa	molingkod; nilingkod. Lingkod usa = have a seat.
+cards	ceb.c0456	note	maligo	Irregular: maligo; naligo.
+cards	ceb.c0457	note	magdula nagdula Nagdula ang mga bata	magdula; nagdula. Nagdula ang mga bata.
+cards	ceb.c0458	note	mokanta	mokanta; nikanta. Also a noun: song.
+cards	ceb.c0461	note	mosugod	mosugod; nisugod. Start something: sugdan.
+cards	ceb.c0462	note	nihunong Para	mohunong; nihunong. Different from Para! in a jeepney.
+cards	ceb.c0464	note	mosuroy	mosuroy; nisuroy. Suroy-suroy = stroll.
+cards	ceb.c0466	note	ko	mohulam; nihulam. Lend me: pahulama ko.
+cards	ceb.c0467	note	Ablihi ang pultahan	moabli; niabli. Ablihi ang pultahan = open the door.
+cards	ceb.c0468	note	ang pultahan	Sira-a ang pultahan = close the door. sirado = closed.
+cards	ceb.c0469	note	Hugasan nako ang plato	manghugas; Hugasan nako ang plato.
+cards	ceb.c0475	note	Sulayi	mosulay; nisulay. Sulayi = try it.
+cards	ceb.c0477	note	mohatod	mohatod; nihatod. Drop someone: hatdan.
+cards	ceb.c0479	note	sa tuo	moliko; niliko. Liko sa tuo = turn right.
+cards	ceb.c0481	meaning	tag	go with; tag along
+cards	ceb.c0481	note	mokuyog ko	mokuyog; nikuyog. Kuyog ko! = I'll come along!
+cards	ceb.c0482	note	na ko	magminyo (will marry). Minyo na ko = I'm married.
+cards	ceb.c0484	meaning	on	turn on; light
+cards	ceb.c0484	note	ang suga on	Sindihi ang suga = turn on the light.
+cards	ceb.c0486	note	mag nag	mag-ampo; nag-ampo.
+cards	ceb.c0488	note	sa	mopahulay; nipahulay. Pahulay sa = rest first.
+cards	ceb.c0489	meaning	on	continue; go on
+cards	ceb.c0490	note	tika	gihigugma. Gihigugma tika = I love you (very strong).
+cards	ceb.c0491	note	dakong balay Ka	dakong balay = a big house. Ka- form: Kadako! = How big!
+cards	ceb.c0492	note	kaayo	Nindot kaayo! = Really nice!
+cards	ceb.c0493	note	kaayo	Lami kaayo! The everyday compliment for food.
+cards	ceb.c0494	note	dili maayo	Strong. For "not good" people say dili maayo.
+cards	ceb.c0495	note	ang lami	Lain ang lami = it tastes off.
+cards	ceb.c0496	note	siya sa	Taas siya = he's tall. Upstairs: sa taas.
+cards	ceb.c0497	note	nga buhok	mubo nga buhok = short hair.
+cards	ceb.c0498	note	kaayo	Init kaayo = it's really hot.
+cards	ceb.c0499	note	nga tubig tugnaw	bugnaw nga tubig = cold water. For weather: tugnaw.
+cards	ceb.c0500	note	kaayo	Tugnaw kaayo = it's really cold.
+cards	ceb.c0501	note	kaayo	Mahal kaayo = too expensive.
+cards	ceb.c0502	note	ra	Spanish loan: barato ra = it's cheap.
+cards	ceb.c0503	note	ba Is	Layo ba? = Is it far?
+cards	ceb.c0504	note	kaayo	Lisod kaayo = it's really hard.
+cards	ceb.c0505	note	ra	Sayon ra = it's easy.
+cards	ceb.c0507	note	kaayo	Hugaw kaayo = it's really dirty.
+cards	ceb.c0508	note	magulang na daan	Polite: magulang na. For things: daan.
+cards	ceb.c0509	note	pa	batan-on pa = still young.
+cards	ceb.c0511	note	kaayo ang dyip is	Paspas kaayo ang dyip = the jeepney is very fast.
+cards	ceb.c0512	note	nga sinina	puti nga sinina = a white shirt.
+cards	ceb.c0513	note	nga iro	itom nga iro = a black dog.
+cards	ceb.c0514	note	pulang sinina	pulang sinina = a red shirt.
+cards	ceb.c0517	note	nga sinina	dalag nga sinina = a yellow shirt.
+cards	ceb.c0518	note	na ko	Busog na ko = I'm full.
+cards	ceb.c0519	note	Gigutom ko	Usually as Gigutom ko = I'm hungry.
+cards	ceb.c0520	note	Giuhaw ko	Usually as Giuhaw ko = I'm thirsty.
+cards	ceb.c0521	note	kaayo ko	Kapoy kaayo ko = I'm really tired.
+cards	ceb.c0522	note	Root Nalipay ko	Root lipay; Nalipay ko = I'm glad.
+cards	ceb.c0523	meaning	sad	sad
+cards	ceb.c0523	note	Root	Root subo.
+cards	ceb.c0524	note	sakit an	More common: may sakit (has an illness).
+cards	ceb.c0525	note	na ka	Andam na ka? = Are you ready?
+cards	ceb.c0526	note	ni is	Lahi ni = this one is different.
+cards	ceb.c0527	note	ra	Parehas ra = they're the same.
+cards	ceb.c0530	note	ko	Sayop ko = I was wrong.
+cards	ceb.c0531	note	kaayo	Bug-at kaayo = it's really heavy.
+cards	ceb.c0532	note	ra	Gaan ra = it's light.
+cards	ceb.c0533	note	kaayo	Baho kaayo! = It really stinks!
+cards	ceb.c0534	note	kaayo ang kan on	Humot kaayo ang kan-on = the rice smells great.
+cards	ceb.c0535	note	swit	For people, many say swit (from English sweet).
+cards	ceb.c0536	note	ang mangga is	Aslom ang mangga = the mango is sour.
+cards	ceb.c0537	note	kaayo ang sabaw is	Parat kaayo ang sabaw = the soup is too salty.
+cards	ceb.c0538	note	ang kape is	Pait ang kape = the coffee is bitter.
+cards	ceb.c0539	note	ba Is	Halang ba? = Is it spicy?
+cards	ceb.c0543	note	na	Hayag na = it's light out already.
+cards	ceb.c0544	note	na	Ngitngit na = it's dark already.
+cards	ceb.c0545	note	nga dalan	lapad nga dalan = a wide road.
+cards	ceb.c0547	note	nga mangga	hinog nga mangga = a ripe mango.
+cards	ceb.c0548	note	nga mangga	hilaw nga mangga = green (unripe) mango.
+cards	ceb.c0549	note	word	Spanish loan; everyday word.
+cards	ceb.c0550	note	na ang sinina	Uga na ang sinina = the clothes are dry.
+cards	ceb.c0553	note	ko moadto diri	Kanunay ko moadto diri = I always come here.
+cards	ceb.c0554	meaning	word	always (everyday word)
+cards	ceb.c0554	note	ko gigutom	Spanish loan: firme. Pirmi ko gigutom!
+cards	ceb.c0555	note	mokaon mi og isda	Usahay mokaon mi og isda.
+cards	ceb.c0556	note	Moadto ko	Moadto ko dayon = I'll go right away.
+cards	ceb.c0557	note	lang	Hinay-hinay lang = slow down a bit.
+cards	ceb.c0558	note	pa	Sayo pa = it's still early.
+cards	ceb.c0559	note	ko	Ulahi ko = I'm late.
+cards	ceb.c0560	note	na	Dugay na = it's been a long time.
+cards	ceb.c0561	note	Maayo	Maayo gihapon = still fine.
+cards	ceb.c0562	note	sab sad is	Short forms: sab, sad. Usab is the careful form.
+cards	ceb.c0563	note	Palihug	Palihug, ingna pag-usab = please say it again.
+cards	ceb.c0564	note	moabot siya ugma	Tingali moabot siya ugma.
+cards	ceb.c0565	note	moulan	Basin moulan = it might rain.
+cards	ceb.c0567	note	dako kini is	Mas dako kini = this one is bigger.
+cards	ceb.c0568	note	ka mahal	Spanish loan: sobra. Sobra ka mahal!
+cards	ceb.c0569	note	na	Hapit na = almost there; almost done.
+cards	ceb.c0570	note	layo	Spanish loan: medio. Medyo layo = rather far.
+cards	ceb.c0571	meaning	sa	here (with sa)
+cards	ceb.c0571	note	sa Cebu diri	dinhi sa Cebu = here in Cebu. diri alone = here.
+cards	ceb.c0572	meaning	sa	there (near you, with sa)
+cards	ceb.c0572	note	sa imong balay at	dinha sa imong balay = there at your house.
+cards	ceb.c0573	meaning	to	(to) there; toward
+cards	ceb.c0573	note	Moadto ko	Moadto ko ngadto = I'll go over there.
+cards	ceb.c0574	meaning	to	(to) here; this way
+cards	ceb.c0574	note	ka	Ngari ka = come over here.
+cards	ceb.c0575	note	nagpuyo ko sa Bohol	Kaniadto, nagpuyo ko sa Bohol.
+cards	ceb.c0576	note	sa nga semana	sa sunod nga semana = next week.
+cards	ceb.c0577	note	na ko	Una na ko = I'll go ahead now.
+cards	ceb.c0578	note	lang nag ulan	Kalit lang nag-ulan = it suddenly rained.
+cards	ceb.c0579	note	lang	Kadiyot lang = just a moment.
+cards	ceb.c0580	note	mobalik ko	Taod-taod mobalik ko.
+cards	ceb.c0581	note	diri	Spanish loan: diri mismo = right here.
+cards	ceb.c0582	note	na	labi na = especially.
+cards	ceb.c0583	note	karon	karon (now) + gabii: this evening.
+cards	ceb.c0584	note	si Emma ko	Ako si Emma. Short form: ko.
+cards	ceb.c0585	note	place Gigutom nako	Second place: Gigutom ko. Also short for nako.
+cards	ceb.c0586	note	ka	Ikaw? = And you? Short form: ka.
+cards	ceb.c0587	note	place Kumusta	Second place: Kumusta ka?
+cards	ceb.c0588	note	word	One word for he and she. No short form.
+cards	ceb.c0589	note	mi	Leaves out the listener. Short form: mi.
+cards	ceb.c0590	note	Taga Amerika	Taga-Amerika mi.
+cards	ceb.c0591	note	ta	Includes the listener. Short form: ta. Also a verb "see".
+cards	ceb.c0592	note	Kaon na	Kaon na ta = let's eat.
+cards	ceb.c0593	note	mo	Short form: mo.
+cards	ceb.c0594	note	kamo nimo	Short for kamo and for nimo.
+cards	ceb.c0595	note	Ana	Also before names for "and company": sila Ana.
+cards	ceb.c0596	note	balay	balay nako = my house.
+cards	ceb.c0597	note	Gimingaw ko	Gimingaw ko nimo = I miss you.
+cards	ceb.c0598	note	balay	balay niya = his or her house.
+cards	ceb.c0599	note	balay	balay namo = our house (not yours).
+cards	ceb.c0600	note	balay	balay nato = our house (yours too).
+cards	ceb.c0601	note	balay	balay ninyo = your house (you all).
+cards	ceb.c0602	note	balay	balay nila = their house.
+cards	ceb.c0603	note	balay	akong balay = my house.
+cards	ceb.c0604	note	Unsay ngalan	Unsay imong ngalan?
+cards	ceb.c0605	note	anak	iyang anak = his or her child.
+cards	ceb.c0606	note	balay	among balay = our house (not yours).
+cards	ceb.c0607	note	pamilya	atong pamilya = our family.
+cards	ceb.c0608	note	balay	inyong balay = your house (you all).
+cards	ceb.c0609	note	anak	ilang anak = their child.
+cards	ceb.c0610	meaning	to	to me; for me
+cards	ceb.c0610	note	Ihatag to	Ihatag kanako = give it to me.
+cards	ceb.c0611	meaning	to	to you; for you
+cards	ceb.c0611	note	Para	Para kanimo = for you.
+cards	ceb.c0612	meaning	to	to him; to her
+cards	ceb.c0612	note	Ihatag to	Ihatag kaniya = give it to him or her.
+cards	ceb.c0613	meaning	to	to us (not you)
+cards	ceb.c0613	note	Ihatag to	Ihatag kanamo = give it to us.
+cards	ceb.c0614	meaning	to	to us (you and I)
+cards	ceb.c0614	note	Para	Para kanato = for us (you too).
+cards	ceb.c0615	meaning	to	to you (more than one)
+cards	ceb.c0615	note	Para	Para kaninyo = for you all.
+cards	ceb.c0616	meaning	to	to them
+cards	ceb.c0616	note	Ihatag to	Ihatag kanila = give it to them.
+cards	ceb.c0617	note	ni is	Akoa ni = this is mine.
+cards	ceb.c0618	note	ba ni Is	Imoha ba ni? = Is this yours?
+cards	ceb.c0619	note	kana	Iyaha kana = that's his or hers.
+cards	ceb.c0620	note	Ni word Unsa ni	Ni after a word: Unsa ni?
+cards	ceb.c0621	note	Na word Unsa na	Na after a word: Unsa na?
+cards	ceb.c0622	note	To word Kinsa to	To after a word: Kinsa to?
+cards	ceb.c0623	meaning	sa	of this; this (after sa or a verb)
+cards	ceb.c0623	note	Mas barato kini kaysa	Mas barato kini kaysa niini.
+cards	ceb.c0624	meaning	sa	of that; that (near you, after sa or a verb)
+cards	ceb.c0624	note	Mas barato kini kaysa	Mas barato kini kaysa niana.
+cards	ceb.c0625	meaning	sa	of that; that (far, after sa or a verb)
+cards	ceb.c0625	note	adto ko	Also the past of adto: niadto ko = I went.
+cards	ceb.c0626	note	siya is	Kinsa siya? = Who is he?
+cards	ceb.c0627	note	kini	Unsa kini? = What's this?
+cards	ceb.c0628	note	Pila	Pila tanan? = How much altogether?
+cards	ceb.c0629	note	ang nako	ang uban = the others. uban nako = with me.
+cards	ceb.c0630	note	pwede	Bisan kinsa pwede = anyone can.
+cards	ceb.c0631	note	lang	Bisan unsa lang = anything's fine.
+cards	ceb.c0632	note	Maayo balay thing sentence is	Maayo ang balay. The thing the sentence is about.
+cards	ceb.c0633	meaning	at to place	at; in; to; of (place and owner marker)
+cards	ceb.c0633	note	merkado at Lingkod	sa merkado = at the market. Also a softener: Lingkod sa.
+cards	ceb.c0634	meaning	thing	a; some (marks the thing done)
+cards	ceb.c0634	note	Mopalit ko saging ug	Mopalit ko og saging. Not ug, which means "and".
+cards	ceb.c0635	note	Ako Emma Siya Ana	Ako si Emma. Siya si Ana.
+cards	ceb.c0636	note	ang balay Pedro	ang balay ni Pedro = Pedro's house.
+cards	ceb.c0637	meaning	to	to; for (before a name)
+cards	ceb.c0637	note	Ihatag Ana to	Ihatag kang Ana = give it to Ana.
+cards	ceb.c0638	meaning	describing word	linker (joins a describing word); that
+cards	ceb.c0638	note	gamay balay ng	gamay nga balay; after a vowel it becomes -ng.
+cards	ceb.c0639	note	Busog ko Dili	Busog na ko. Dili na = not anymore.
+cards	ceb.c0640	note	Wala Usa	Wala pa = not yet. Usa pa = one more.
+cards	ceb.c0641	note	Tubig	Tubig lang = just water. Softens requests.
+cards	ceb.c0642	note	Gamay Duol	Gamay ra = just a little. Duol ra = it's close.
+cards	ceb.c0643	note	Maayo Unsa is	Maayo man = I'm fine. Unsa man? = What is it?
+cards	ceb.c0644	note	Layo sentence	Layo ba? Turns a sentence into a yes-or-no question.
+cards	ceb.c0645	note	usab Ako sad	Short for usab. Ako sab = me too. Also sad.
+cards	ceb.c0646	note	Ikaw	Also written pud. Ikaw pod = you too.
+cards	ceb.c0647	note	describing word lami	After the describing word: lami kaayo.
+cards	ceb.c0648	note	Moabot siya	Moabot unta siya = I hope she comes.
+cards	ceb.c0649	note	Moulan	Repeats what someone said: Moulan kuno.
+cards	ceb.c0650	note	ka	Daw gikapoy ka = you look tired.
+cards	ceb.c0651	note	Wala ko kahibalo	Wala gani ko kahibalo = I don't even know.
+cards	ceb.c0653	meaning	thing	poor thing; please (pity)
+cards	ceb.c0653	note	Kapoy siya thing	Kapoy intawon siya = poor thing, she's tired.
+cards	ceb.c0654	note	sa Amerika	gikan sa Amerika = from America.
+cards	ceb.c0655	meaning	to	until; up to
+cards	ceb.c0655	note	ugma	hangtod ugma = until tomorrow.
+cards	ceb.c0656	note	sa ulan	tungod sa ulan = because of the rain.
+cards	ceb.c0657	note	sa trabaho	bahin sa trabaho = about work.
+cards	ceb.c0658	note	sa bata para	alang sa bata = for the child. Everyday: para sa.
+cards	ceb.c0659	meaning	on	on top of; above
+cards	ceb.c0659	note	sa lamesa on	sa ibabaw sa lamesa = on the table.
+cards	ceb.c0660	note	sa higdaanan	sa ilalom sa higdaanan = under the bed.
+cards	ceb.c0661	note	sa balay mosulod	sa sulod sa balay = inside the house. Also mosulod (enter).
+cards	ceb.c0662	note	Naa siya sa	Naa siya sa gawas = she's outside. Also mogawas (go out).
+cards	ceb.c0663	meaning	to	next to; beside
+cards	ceb.c0663	note	sa simbahan to	sa tupad sa simbahan = next to the church.
+cards	ceb.c0664	meaning	to	near; close to
+cards	ceb.c0664	note	sa simbahan	duol sa simbahan = near the church.
+cards	ceb.c0665	note	sa eskuwelahan	sa atubangan sa eskuwelahan.
+cards	ceb.c0666	note	sa balay	sa likod sa balay. Also "the back" of the body.
+cards	ceb.c0667	meaning	at	beside; at the side of
+cards	ceb.c0667	note	sa dalan at	sa kilid sa dalan = at the side of the road.
+cards	ceb.c0668	note	sa dalan	sa tunga sa dalan = in the middle of the road.
+cards	ceb.c0669	meaning	among	between; among
+cards	ceb.c0669	note	sa duha ka balay	sa taliwala sa duha ka balay.
+cards	ceb.c0670	note	sa bukid	sa luyo sa bukid = behind the mountain.
+cards	ceb.c0671	note	sa	sa ubos = downstairs.
+cards	ceb.c0672	note	sa	sa unahan = up ahead.
+cards	ceb.c0673	note	ikaw ako og	ikaw ug ako. Not og, which marks "a / some".
+cards	ceb.c0674	note	tubig kape	tubig o kape = water or coffee.
+cards	ceb.c0675	note	kung gusto nimo	Also written kung, as in the card kung gusto nimo.
+cards	ceb.c0676	meaning	so	so; therefore
+cards	ceb.c0676	note	mao nga	Careful style; in speech also mao nga.
+cards	ceb.c0677	meaning	so	that's why; so
+cards	ceb.c0677	note	ko natulog	Gikapoy ko, mao nga natulog ko.
+cards	ceb.c0678	meaning	so to	so that; in order to
+cards	ceb.c0678	note	Nagtuon ko makasabot	Nagtuon ko aron makasabot.
+cards	ceb.c0680	note	sa trabaho na	human sa trabaho = after work. Human na = it's done.
+cards	ceb.c0681	note	gahapon	sukad gahapon = since yesterday.
+cards	ceb.c0682	note	gamay	Bisan gamay = even a little.
+cards	ceb.c0683	note	mas unsa at	Spanish loan: mas que. Maskin unsa = anything at all.
+cards	ceb.c0684	note	ikaw	Spanish loan: Basta ikaw = as long as it's you.
+cards	ceb.c0685	note	pero is	In speech, pero is far more common.
+cards	ceb.c0686	note	Kape tubig	Kape o kaha tubig?
+cards	ceb.c0687	note	ko mokaon	sa wala pa ko mokaon = before I eat.
+cards	ceb.c0688	note	moulan	Gawas kon moulan = unless it rains.
+cards	ceb.c0689	note	Cebu	Very common in Cebu City speech mixed with English.
+cards	ceb.c0690	note	aw salamat	Surprise, small mistakes, or a warm "aw": Ay, salamat!
+cards	ceb.c0694	note	to Nong Nang	Can sound rude to a stranger; use Nong or Nang.
+cards	ceb.c0695	meaning	on	Oh, come on! / Oh my!
+cards	ceb.c0699	note	is	Teasing; Hala alone is "Oh no!"
+cards	ceb.c0700	note	At sentence	Didn't hear or can't believe it. At a sentence end, ha = OK?
+cards	ceb.c0702	note	Pasayloa ko	English loan; also written sorry. Careful: Pasayloa ko.
+cards	ceb.c0703	note	ra	English loan; okay ra = it's fine.
+cards	ceb.c0705	meaning	on	Hurry! / Come on!
+cards	ceb.c0705	note	ra	Also "easy, quick": dali ra.
+cards	ceb.c0706	note	is	Also "guard"; Bantay is a common dog name.
+cards	ceb.c0708	meaning	is	Here it is!
+cards	ceb.c0709	meaning	So	So delicious!
+cards	ceb.c0709	note	ka lami	ka- + lami: how tasty!
+cards	ceb.c0711	note	aw	The command form of tan-aw.
+cards	ceb.c0712	meaning	Is so	Is that so?
+cards	ceb.c0712	note	to	Interested reaction to news.
+cards	ceb.c0713	note	ka ang kasilyas	Asa ka? = Where are you going? Asa ang kasilyas?
+cards	ceb.c0714	meaning	to	how (to do)
+cards	ceb.c0714	note	pag adto	Unsaon pag-adto? = How do I get there?
+cards	ceb.c0715	note	Liko sa	Also "left (side)": Liko sa wala. The aid shows the "none" reading.
+cards	ceb.c0716	meaning	is at	there is; have; is (at)
+cards	ceb.c0716	note	koy tubig sa balay at	Naa koy tubig = I have water. Naa sa balay = it's at home.
+cards	ceb.c0717	meaning	is	there is; have (careful)
+cards	ceb.c0717	note	ka bay anak	Aduna ka bay anak? = Do you have children?
+cards	ceb.c0718	note	na ba Is so	Mao na = that's it. Mao ba? = Is that so?
+cards	ceb.c0719	meaning	word	plural word
+cards	ceb.c0719	note	bata manga	mga bata = children. Said "manga".
+cards	ceb.c0720	note	adlaw day	matag adlaw = every day.
+cards	ceb.c0721	note	ka tawo	pipila ka tawo = a few people.
+cards	ceb.c0722	note	Daghang salamat	Daghang salamat = thanks a lot.
+cards	ceb.c0723	note	ra	Diyutay ra = only a little.
+cards	ceb.c0725	note	ka	Dapat ka mopahulay = you should rest.
+cards	ceb.c0726	note	ka saging Lingkod	usa ka saging. Also a softener: Lingkod usa.
+cards	ceb.c0727	note	ka adlaw	duha ka adlaw = two days.
+cards	ceb.c0728	note	ka bata	tulo ka bata = three children.
+cards	ceb.c0729	note	ka tawo	upat ka tawo = four people.
+cards	ceb.c0730	note	ka saging	lima ka saging = five bananas.
+cards	ceb.c0731	note	ka buok	unom ka buok = six pieces.
+cards	ceb.c0732	note	ka adlaw	pito ka adlaw = seven days.
+cards	ceb.c0733	note	is otso	Spanish eight is otso.
+cards	ceb.c0734	note	is nuwebe	Spanish nine is nuwebe.
+cards	ceb.c0735	note	baynte	For prices people say baynte.
+cards	ceb.c0736	note	usa ka pesos siyen	usa ka gatos = 100. For pesos: siyen.
+cards	ceb.c0737	note	usa ka	usa ka libo = 1,000. Same for counting and money.
+cards	ceb.c0738	note	ala una	Clock: ala una = one o'clock.
+cards	ceb.c0739	note	alas	alas dos = two o'clock.
+cards	ceb.c0740	note	alas	alas tres = three o'clock.
+cards	ceb.c0742	note	pesos	singko pesos = five pesos.
+cards	ceb.c0743	note	alas	alas sais = six o'clock.
+cards	ceb.c0746	note	pesos	diyes pesos = ten pesos.
+cards	ceb.c0747	note	alas	alas onse = eleven o'clock.
+cards	ceb.c0748	note	alas	alas dose = twelve o'clock.
+cards	ceb.c0749	note	pesos	Prices: trese pesos.
+cards	ceb.c0750	note	pesos	Prices: katorse pesos.
+cards	ceb.c0751	note	alas dos	alas dos y kinse = 2:15.
+cards	ceb.c0753	note	anyos	Ages: disisiyete anyos.
+cards	ceb.c0754	note	anyos	Disiotso anyos = eighteen years old.
+cards	ceb.c0755	note	anyos	Ages: disinuwebe anyos.
+cards	ceb.c0756	note	pesos	baynte pesos = twenty pesos.
+cards	ceb.c0757	note	anyos ko	Traynta anyos ko = I'm thirty.
+cards	ceb.c0758	note	pesos	kuwarenta pesos = forty pesos.
+cards	ceb.c0759	note	pesos	sesenta pesos = 60 pesos.
+cards	ceb.c0760	note	pesos	setenta pesos = 70 pesos.
+cards	ceb.c0761	note	pesos	otsenta pesos = 80 pesos.
+cards	ceb.c0762	note	pesos	nobenta pesos = 90 pesos.
+cards	ceb.c0763	note	pesos	siyen pesos = 100 pesos.
+cards	ceb.c0764	note	tres ala una	alas tres = three o'clock; but ala una.
+cards	ceb.c0765	note	alas otso	alas otso y medya = 8:30.
+cards	ceb.c0766	note	Baynte ko	Baynte anyos ko = I'm twenty.
+cards	ceb.c0767	note	usa ka pesos	One peso: usa ka piso. With Spanish numbers: pesos.
+cards	ceb.c0768	note	Maayong	Maayong buntag = good morning.
+cards	ceb.c0769	note	Maayong day	Maayong udto = good day (around noon).
+cards	ceb.c0770	note	Maayong	Maayong hapon = good afternoon.
+cards	ceb.c0771	note	sa sunod nga	sa sunod nga semana = next week.
+cards	ceb.c0772	note	day	Spanish day names, with a capital.
+cards	ceb.c0773	note	sa on	sa Martes = on Tuesday.
+cards	ceb.c0777	meaning	is	Your cooking is really delicious!
+cards	ceb.c0777	note	To Nang an	To the host; add Nang for an older woman.
+cards	ceb.c0779	meaning	is	The soup is really good.
+cards	ceb.c0781	note	at	hanas = good at it, practiced.
+cards	ceb.c0782	note	At among	At work or among friends.
+cards	ceb.c0783	note	At to	At work, to a worker or helper.
+cards	ceb.c0787	meaning	so to	You're so fun to be with.
+cards	ceb.c0788	meaning	so	You're so smart!
+cards	ceb.c0788	note	is	Lit. "brainy"; English bright is also heard.
+cards	ceb.c0791	meaning	is so	Your child is so cute!
+cards	ceb.c0792	meaning	is so	Your child is so well-behaved.
+cards	ceb.c0793	meaning	is so	Your house is so clean.
+cards	ceb.c0793	note	To	To the host; inyong = your (the family's).
+cards	ceb.c0794	meaning	is	Your kitchen is really nice.
+cards	ceb.c0794	note	To	To the host.
+cards	ceb.c0795	meaning	is	Your photo is really nice.
+cards	ceb.c0796	note	is	Karaoke is everywhere; you will need this.
+cards	ceb.c0798	meaning	is	Your Bisaya is already really good!
+cards	ceb.c0798	note	to	Said to learners; reply modestly.
+cards	ceb.c0802	meaning	Aw	Aw, thanks!
+cards	ceb.c0805	meaning	so	Thanks so much!
+cards	ceb.c0806	note	To man gwapa	To a man; for a woman: gwapa. Said freely, even as friendly teasing. Mild.
+cards	ceb.c0807	meaning	word	beautiful (deep, poetic word)
+cards	ceb.c0807	note	To	To a woman; sounds like a song or a poem. Warm.
+cards	ceb.c0808	note	To	From English cute; also written cute. To anyone, children too. Mild.
+cards	ceb.c0810	meaning	to	fun (to be with); entertaining
+cards	ceb.c0810	note	kaayo so	Lingaw kaayo = so much fun. Mild.
+cards	ceb.c0812	note	Root	Root utok (brain). Warm praise, never sarcastic.
+cards	ceb.c0813	note	to	Very Cebuano endearment, also for family. Warm to bold.
+cards	ceb.c0814	meaning	man	smooth talker; flatterer (man)
+cards	ceb.c0814	note	bolera an	For a woman: bolera. Playful teasing, never an insult.
+cards	ceb.c0815	note	man bolero	For a man: bolero.
+cards	ceb.c0816	note	Nindot ang imong	Nindot ang imong pahiyom = you have a nice smile.
+cards	ceb.c0817	note	ang imong	No plural ending: ang imong mata = your eyes.
+cards	ceb.c0818	note	Nindot ang imong	Nindot ang imong tingog = you have a nice voice.
+cards	ceb.c0821	note	word Naa kay	One word for both. Naa kay uyab? = Are you seeing someone?
+cards	ceb.c0822	meaning	so	You're so handsome.
+cards	ceb.c0822	note	To man Gwapa	To a man. To a woman: Gwapa kaayo ka. Warm.
+cards	ceb.c0823	note	To man	To a man. Warm.
+cards	ceb.c0824	meaning	so	You're so pretty.
+cards	ceb.c0824	note	To man Gwapo	To a woman. To a man: Gwapo kaayo ka. Warm.
+cards	ceb.c0825	note	To	To a woman. Warm.
+cards	ceb.c0826	meaning	so	You're so beautiful.
+cards	ceb.c0826	note	To gwapa	To a woman; deeper and more serious than gwapa. Bold.
+cards	ceb.c0827	meaning	so	You're so cute.
+cards	ceb.c0827	note	To	To anyone. Mild.
+cards	ceb.c0828	meaning	is so	Your smile is so cute.
+cards	ceb.c0829	meaning	so	You're so sweet.
+cards	ceb.c0829	note	to	Also a warm reply to a compliment. Mild.
+cards	ceb.c0830	meaning	so	I had so much fun tonight.
+cards	ceb.c0830	note	At an	At the end of a date or an evening out. Warm.
+cards	ceb.c0831	meaning	so	You're so funny!
+cards	ceb.c0832	note	to man Gwapo	About a woman; to a man: Gwapo na, utokan pa! Warm.
+cards	ceb.c0842	meaning	on	Are you free on Saturday?
+cards	ceb.c0843	note	to	Light and easy to refuse. Mild.
+cards	ceb.c0844	note	word	Many say the English word number. Warm.
+cards	ceb.c0846	meaning	to	I'd like us to meet again.
+cards	ceb.c0849	note	to man Bolera	Playful deflection, to a man; to a woman: Bolera ka gyud! Mild.
+cards	ceb.c0852	meaning	on	Yes, see you on Saturday.
+cards	ceb.c0852	note	to	A clear yes to a date.
+cards	ceb.c0854	meaning	to	Sorry, you're really just a friend to me.
+dialog	ceb.g001	tr	Talisay	Where's your house? / In Talisay, near the church.
+dialog	ceb.g003	tr	Is is Bantay	Is this your dog? / Yes. His name is Bantay.
+dialog	ceb.g005	tr	ma to	Good morning, ma'am! / Good morning to you too.
+dialog	ceb.g006	tr	Ana	How are you, Ana? / I'm fine. And you?
+dialog	ceb.g008	tr	on	May I come in? / Yes, come on in!
+dialog	ceb.g009	tr	okay	Sorry, I'm late. / It's okay.
+dialog	ceb.g011	tr	Emma	What's your name? / I'm Emma. And you?
+dialog	ceb.g012	tr	Cebu	Where are you from? / I'm from the US, but I live in Cebu now.
+dialog	ceb.g013	tr	Lapu	Where do you live? / In Lapu-Lapu.
+dialog	ceb.g014	tr	is Ana to	This is Ana, my friend. / Nice to meet you, Ana.
+dialog	ceb.g015	tr	at	What's your job? / I'm a teacher at a school.
+dialog	ceb.g017	tr	Rosa	Who's she? / My wife, Rosa.
+dialog	ceb.g021	tr	is pesos	How much is the coffee? / Twenty pesos.
+dialog	ceb.g023	tr	to	Are you going to buy lechon? / No, I have no money.
+dialog	ceb.g024	tr	is	What time is it? / It's already two o'clock.
+dialog	ceb.g025	tr	to	Are you going to church today? / No, not until tomorrow.
+dialog	ceb.g026	tr	to Bohol	When are you going to Bohol? / Tomorrow morning.
+dialog	ceb.g027	tr	On	When are you coming back? / On Monday.
+dialog	ceb.g029	tr	Ma	Ma'am, what do you have? / There's chicken, fish and soup.
+dialog	ceb.g030	tr	to	What are you going to eat? / Grilled fish and rice.
+dialog	ceb.g033	tr	to	What would you like to drink? / Just water.
+dialog	ceb.g034	tr	ma pesos	How much are the mangoes each, ma'am? / Forty pesos each.
+dialog	ceb.g036	tr	pesos	How much altogether? / A hundred pesos altogether.
+dialog	ceb.g037	tr	danggit	What's that? / This? It's danggit, dried fish.
+dialog	ceb.g039	tr	Is	Is anyone home? / Yes, just a moment!
+dialog	ceb.g040	tr	at	Are you at home? / No, I'm at work.
+dialog	ceb.g041	tr	is so	Why is it so hot? / There's no electricity.
+dialog	ceb.g042	tr	Ma	Ma'am, where's the restroom? / It's in the back.
+dialog	ceb.g043	tr	Is	Is the market far? / No, it's close.
+dialog	ceb.g044	tr	is	Which one is your house? / That white one near the church.
+dialog	ceb.g045	tr	Pedro	Where's Pedro? / He's outside.
+dialog	ceb.g046	tr	at	Sir, where's the store? / It's at the side of the road, near the church.
+dialog	ceb.g049	tr	is pesos	Sir, how much is the fare? / Thirteen pesos.
+dialog	ceb.g050	tr	Ana on to Talisay	Where are you headed, Ana? / I'm on my way to Talisay.
+dialog	ceb.g053	tr	Ma	Ma'am, do you have cough medicine? / Yes. How many?
+dialog	ceb.g058	tr	Is	Is this one different? / No, they're the same.
+dialog	ceb.g059	tr	Is	Is Cebuano hard? / Yes, really hard!
+dialog	ceb.g060	tr	Is	Is the restroom clean? / No, it's really dirty.
+dialog	ceb.g064	tr	durian	Do you like durian? / I don't like it.
+dialog	ceb.g066	tr	is Maria	Who is she? / That's Maria, my sister.
+dialog	ceb.g070	tr	to	Sir, how do I get to the market? / Just go straight, then turn left.
+dialog	ceb.g073	tr	to Bohol	Have you ever been to Bohol? / Not yet.
+dialog	ceb.g074	tr	is so	This is so good! Who made it? / I made it.
+dialog	ceb.g077	tr	on so	Coffee's on me. / Thanks so much!
+dialog	ceb.g079	tr	Is	Is there any water? / No, there's no water right now.
+dialog	ceb.g080	tr	to	Did you go to church yesterday? / I didn't go.
+dialog	ceb.g083	tr	Ana is Bohol	Ana is from Bohol. / Really? I had no idea.
+dialog	ceb.g084	tr	Pedro	Where's Pedro? / I don't know.
+dialog	ceb.g085	tr	ma	Any bananas, ma'am? / There's none left.
+dialog	ceb.g086	tr	Lito	What's new, Lito? / All good.
+dialog	ceb.g088	tr	so Ben	Thanks so much, Ben! / No problem.
+dialog	ceb.g089	tr	is ma	Your cooking is really delicious, ma'am! / Thanks! Have some more.
+dialog	ceb.g090	tr	so	You did a really good job, sir. / Thanks so much.
+dialog	ceb.g091	tr	is so	Your child is so cute! / Thanks! She's two now.
+dialog	ceb.g092	tr	is so Aw on	Your house is so clean. / Aw, thanks! Come on in.
+dialog	ceb.g093	tr	Bisaya	Oh, you speak Bisaya! / Thanks, I'm still learning.
+dialog	ceb.g094	tr	Bisaya is	Your Bisaya is already really good! / Really? Thanks!
+dialog	ceb.g100	tr	is so	Your smile is so cute. / You're so sweet.
+dialog	ceb.g101	tr	so	You're so funny! / Thanks, so are you.
+dialog	ceb.g103	tr	is	You look sharp. / Thanks, this shirt is new.
+dialog	ceb.g106	tr	on	Are you free on Saturday? / Yes, why?
+dialog	ceb.g110	tr	to on	I'd like us to meet again. / Yes, see you on Saturday.
+dialog	ceb.g113	tr	so	I had so much fun tonight. / Me too. Coffee again?
+dialog	ceb.g114	tr	Ana to	Ana? Pretty and smart too! / Really? I'd like to meet her!
+dialog	ceb.g115	tr	to on	Would you like to come with me on Saturday? / Thanks, but I'm not ready yet.
+dialog	ceb.g116	tr	Ana to	I like you, Ana. / Sorry, you're really just a friend to me.
+dialog	ceb.g117	tr	so is	Oh! It's so expensive! / This one is cheap.
+dialog	ceb.g119	tr	is	Ow! The coffee is really hot. / Slow down.
+dialog	ceb.g122	tr	on	You're very pretty. / Oh, come on! Smooth talker!
+dialog	ceb.g123	tr	is Wow	This is our house. / Wow! It's really big!
+dialog	ceb.g124	tr	so	Two hours in the jeepney. / Incredible! That's so tiring!
+dialog	ceb.g125	tr	on Wow	I went up the mountain on a motorbike taxi. / Wow, scary!
+dialog	ceb.g127	tr	is at At	The ferry is at three. / What? At three?
+dialog	ceb.g128	tr	is	The jeepney is here. / Phew, thank goodness!
+dialog	ceb.g130	tr	at	Shall we eat at six? / OK!
+dialog	ceb.g131	tr	to	We're going to the sea tomorrow. / Yay!
+dialog	ceb.g132	tr	is	Hurry! The jeepney is here! / Just a moment!
+dialog	ceb.g135	tr	is on	Where's my phone? / Here it is! It's on the table.
+dialog	ceb.g136	tr	So	Try the lechon. / So delicious!
+dialog	ceb.g139	tr	is Bohol Is so	My wife is from Bohol. / Is that so? Me too!
+examples	ceb.e001	tr	is	Your Cebuano is really good!
+examples	ceb.e002	tr	at	I'll buy two eggs at the store.
+examples	ceb.e005	tr	on	Take care on your trip.
+examples	ceb.e006	tr	to Cebu	Welcome to Cebu!
+examples	ceb.e008	tr	is Cebu	I'm studying Cebuano because my wife is from Cebu.
+examples	ceb.e010	tr	Bohol	My younger brother lives in Bohol.
+examples	ceb.e013	tr	Bohol	We're only in Bohol for two days.
+examples	ceb.e014	tr	kilo is pesos	A kilo is only a hundred pesos.
+examples	ceb.e015	tr	at	The boat arrives at three in the afternoon.
+examples	ceb.e017	tr	to Bohol on	We're going to Bohol on Saturday.
+examples	ceb.e022	tr	Ma	Ma'am, do you have rice and eggs?
+examples	ceb.e023	tr	is	This is really nice. I'll take this one.
+examples	ceb.e024	tr	Pedro is	Pedro's house is big.
+examples	ceb.e025	tr	to	It's late; let's go to bed.
+examples	ceb.e027	tr	at	I'll buy fish at the market.
+examples	ceb.e028	tr	Cebu	I live here in Cebu.
+examples	ceb.e029	tr	is	The dog is behind the house.
+examples	ceb.e031	tr	to	We took a motorbike taxi up to the mountains.
+examples	ceb.e035	tr	at	I'll buy medicine at the pharmacy.
+examples	ceb.e036	tr	Talisay	They have a big house in Talisay.
+examples	ceb.e038	tr	Ben is	Ben is handsome, and he's tall.
+examples	ceb.e040	tr	to Bohol	I want to go to Bohol.
+examples	ceb.e043	tr	at	We can eat at the carinderia if you want.
+examples	ceb.e044	tr	is	The house is small, but it's clean.
+examples	ceb.e045	tr	adobo	She's cooking adobo in the kitchen.
+examples	ceb.e046	tr	to	I'll go to the market tomorrow morning.
+examples	ceb.e050	tr	is	This bread is for you.
+examples	ceb.e051	tr	Cebu is	The lechon in Cebu is really good.
+examples	ceb.e054	tr	at	You're really good at Cebuano!
+examples	ceb.e057	tr	is	Your younger brother is really handsome.
+examples	ceb.e058	tr	is so	The cat is so cute.
+examples	ceb.e059	tr	so	Saturday was so much fun.
+examples	ceb.e060	tr	is	My teacher is really smart.
+examples	ceb.e065	tr	Pedro	Pedro looks really sharp today.
+examples	ceb.e067	tr	is	The sun is really hot today.
+examples	ceb.e068	tr	is	Where is your work?
+examples	ceb.e069	tr	Is to	Is the road to the market long?
+examples	ceb.e070	tr	at	I'll buy some bananas at the market.
+examples	ceb.e074	tr	to	I'll go to church tomorrow.
+examples	ceb.e076	tr	is	Do you know where the pharmacy is?
+examples	ceb.e085	tr	on	I'll come back on Monday.
+examples	ceb.e090	tr	Talisay	We live in Talisay.
+examples	ceb.e091	tr	day	I study Cebuano every day.
+examples	ceb.e095	tr	to	I went to sleep early last night.
+examples	ceb.e097	tr	at	I'll go home at five.
+examples	ceb.e099	tr	at	The ferry leaves at eight.
+examples	ceb.e100	tr	is	My friend is coming here tomorrow.
+examples	ceb.e101	tr	to	I'll take a jeepney to town.
+examples	ceb.e104	tr	ma	I have a question, ma'am.
+examples	ceb.e106	tr	to	Listen to your teacher.
+examples	ceb.e113	tr	at	Work starts at eight.
+examples	ceb.e115	tr	Bohol	We'll go sightseeing in Bohol.
+examples	ceb.e120	tr	is	Their house is really big.
+examples	ceb.e121	tr	is	The sea here is really beautiful.
+examples	ceb.e122	tr	is	The lechon is really delicious.
+examples	ceb.e124	tr	is	Her hair is really long.
+examples	ceb.e125	tr	is	The coffee is still hot.
+examples	ceb.e127	tr	is	The fare is really expensive.
+examples	ceb.e128	tr	Is	Is the market far?
+examples	ceb.e129	tr	is	Cebuano is hard, but it's beautiful.
+examples	ceb.e130	tr	is	The question is easy.
+examples	ceb.e131	tr	is	The room is clean now.
+examples	ceb.e132	tr	is	My grandfather is old now.
+examples	ceb.e133	tr	is	Her mother is still young.
+examples	ceb.e134	tr	is	Your child is very well-behaved.
+examples	ceb.e135	tr	is	The motorbike taxi is really fast.
+examples	ceb.e139	tr	Bohol is	The soup in Bohol is different.
+examples	ceb.e140	tr	Is Cebu	Is it true that you're from Cebu?
+examples	ceb.e141	tr	is	Your answer is correct.
+examples	ceb.e143	tr	bag is	Your bag is really heavy.
+examples	ceb.e144	tr	Is	Is the dish spicy?
+examples	ceb.e145	tr	is	The house is really quiet tonight.
+examples	ceb.e146	tr	is	The air in the mountains is cool.
+examples	ceb.e147	tr	is	The mango is ripe now.
+examples	ceb.e148	tr	is	Water is really important.
+examples	ceb.e151	tr	is	My shirt is dirty.
+examples	ceb.e152	tr	is	Their house is white.
+examples	ceb.e155	tr	to	Sometimes we go to the sea.
+examples	ceb.e157	tr	is	The jeepney is slow today.
+examples	ceb.e160	tr	Cebu	Have you been here in Cebu long?
+examples	ceb.e165	tr	at	She's probably at home.
+examples	ceb.e168	tr	is	The hospital is rather far.
+examples	ceb.e169	tr	man	Come over here, young man!
+examples	ceb.e170	tr	Bohol	In the past, I lived in Bohol.
+examples	ceb.e171	tr	ma	Just a moment, ma'am.
+examples	ceb.e172	tr	to	We're going to the market tonight.
+examples	ceb.e175	tr	Pedro	Are you Pedro?
+examples	ceb.e179	tr	Talisay	We live in Talisay.
+examples	ceb.e192	tr	Ana is	Ana is my friend.
+examples	ceb.e194	tr	is	His mother is a teacher.
+examples	ceb.e195	tr	is	Our house is just small.
+examples	ceb.e196	tr	is	Our jeepney is here!
+examples	ceb.e197	tr	is	Your kitchen is nice.
+examples	ceb.e199	tr	to	Give the book to me.
+examples	ceb.e200	tr	is	This is for you.
+examples	ceb.e201	tr	to	Give the coffee to her.
+examples	ceb.e203	tr	is	The lechon is for us!
+examples	ceb.e205	tr	to	Give the money to them.
+examples	ceb.e206	tr	bag is	That bag is mine.
+examples	ceb.e207	tr	Is	Is this phone yours?
+examples	ceb.e208	tr	is	The red one is hers.
+examples	ceb.e209	tr	is	This is my child.
+examples	ceb.e211	tr	is	That one over there is our house.
+examples	ceb.e213	tr	is	This one is bigger than that one.
+examples	ceb.e220	tr	is	Anything is fine, thanks.
+examples	ceb.e221	tr	is	The soup is delicious.
+examples	ceb.e222	tr	at	I'm at the market.
+examples	ceb.e224	tr	Pedro	Where's Pedro?
+examples	ceb.e225	tr	is Ana	This is Ana's house.
+examples	ceb.e226	tr	to Pedro	Give the book to Pedro.
+examples	ceb.e230	tr	ma	Just one, ma'am.
+examples	ceb.e231	tr	is	The church is close.
+examples	ceb.e233	tr	Is	Is the coffee hot?
+examples	ceb.e243	tr	is on	The key is on the table.
+examples	ceb.e244	tr	is	The cat is under the bed.
+examples	ceb.e245	tr	bag	It's inside the bag.
+examples	ceb.e246	tr	is to	The pharmacy is next to the church.
+examples	ceb.e248	tr	is	Mom is downstairs.
+examples	ceb.e252	tr	so	I'm hungry, so I'll eat.
+examples	ceb.e253	tr	so	I study so that I can understand.
+patterns	ceb.p005	meaning	at	I'll leave at ___.
+patterns	ceb.p005	tr	at	I'll leave at five.
+patterns	ceb.p007	meaning	is	How much is ___?
+patterns	ceb.p009	meaning	at	I'm at ___.
+patterns	ceb.p009	tr	at	I'm at home.
+patterns	ceb.p011	meaning	on to	I'm on my way to ___.
+patterns	ceb.p011	tr	on to	I'm on my way to the market.
+patterns	ceb.p014	meaning	is	This one is more ___.
+patterns	ceb.p014	tr	is	This one is smaller.
+sentences	ceb.s0018	gloss	ma	Thank you, ma'am.
+sentences	ceb.s0023	gloss	is	What is it?
+sentences	ceb.s0024	gloss	to	Good morning to you too.
+sentences	ceb.s0025	gloss	so	Oh, so it's good.
+sentences	ceb.s0026	gloss	Is	Is it good?
+sentences	ceb.s0034	gloss	is	This is a book.
+sentences	ceb.s0037	gloss	is	This is my house.
+sentences	ceb.s0042	gloss	Ana is	Ana is a teacher.
+sentences	ceb.s0043	gloss	Ben is	Ben is American.
+sentences	ceb.s0044	gloss	is	The child is a student.
+sentences	ceb.s0045	gloss	Emma	I'm Emma.
+sentences	ceb.s0049	gloss	Cebu	I live in Cebu.
+sentences	ceb.s0051	gloss	to	Nice to meet you.
+sentences	ceb.s0053	gloss	is	Who is he? Who is she?
+sentences	ceb.s0054	gloss	is Pedro	Who is Pedro?
+sentences	ceb.s0056	gloss	Pedro	Pedro.
+sentences	ceb.s0070	gloss	Pedro	Pedro's house
+sentences	ceb.s0072	gloss	Ana is	Ana's room is big.
+sentences	ceb.s0076	gloss	an	an old house
+sentences	ceb.s0077	gloss	is	The house is big.
+sentences	ceb.s0078	gloss	Ana is	Ana's room is small.
+sentences	ceb.s0079	gloss	is	The coffee is very hot.
+sentences	ceb.s0085	gloss	Is Ana	Is Ana there?
+sentences	ceb.s0086	gloss	is	The water is in the kitchen.
+sentences	ceb.s0089	gloss	Pedro	Pedro isn't here.
+sentences	ceb.s0094	gloss	Ana is	Ana is tired.
+sentences	ceb.s0107	gloss	pesos	twenty pesos
+sentences	ceb.s0108	gloss	pesos	twenty-five pesos
+sentences	ceb.s0109	gloss	is	How much is this?
+sentences	ceb.s0110	gloss	is	How much is each?
+sentences	ceb.s0111	gloss	kilo	How much for a kilo?
+sentences	ceb.s0113	gloss	kilo is pesos	One kilo is forty pesos.
+sentences	ceb.s0114	gloss	ma	How much are your bananas, ma'am?
+sentences	ceb.s0116	gloss	is	This one is cheap.
+sentences	ceb.s0119	gloss	Rosa is	Rosa is my mother.
+sentences	ceb.s0120	gloss	Ben is Pedro	Ben is Pedro's son.
+sentences	ceb.s0124	gloss	Pedro is Ana	Pedro is Ana's husband.
+sentences	ceb.s0129	gloss	to	I'll go to the market.
+sentences	ceb.s0140	gloss	Cebu	He works in Cebu.
+sentences	ceb.s0154	gloss	is	What time is it?
+sentences	ceb.s0157	gloss	at	I'll leave at three.
+sentences	ceb.s0158	gloss	at	I woke up at six.
+sentences	ceb.s0159	gloss	on	I'll go on Monday.
+sentences	ceb.s0164	gloss	to	I want to eat.
+sentences	ceb.s0165	gloss	to Bohol	I want to go to Bohol.
+sentences	ceb.s0179	gloss	Is	Is that OK?
+sentences	ceb.s0186	gloss	is	The lechon is really good.
+sentences	ceb.s0189	gloss	at	It's at the market.
+sentences	ceb.s0190	gloss	Pedro is at	Pedro is at the church.
+sentences	ceb.s0191	gloss	to	I'm going to the pharmacy.
+sentences	ceb.s0193	gloss	is	The water is there, by you.
+sentences	ceb.s0194	gloss	is	The church is over there.
+sentences	ceb.s0195	gloss	is	Which one is your house?
+sentences	ceb.s0203	gloss	To	To the market, sir.
+sentences	ceb.s0208	gloss	Pedro	Pedro ate the mango.
+sentences	ceb.s0209	gloss	Pedro	Pedro will eat the mango.
+sentences	ceb.s0214	gloss	to Ana	I wrote to Ana.
+sentences	ceb.s0215	gloss	Pedro	I helped Pedro.
+sentences	ceb.s0216	gloss	Ana	I gave Ana a banana.
+sentences	ceb.s0219	gloss	is	This one is bigger.
+sentences	ceb.s0220	gloss	Ana is	Ana is prettier.
+sentences	ceb.s0221	gloss	is	The chicken is more expensive.
+sentences	ceb.s0222	gloss	is	The chicken is tastier than the pork.
+sentences	ceb.s0223	gloss	is	This one is bigger than that one.
+sentences	ceb.s0224	gloss	is	The lechon is the most expensive.
+sentences	ceb.s0225	gloss	is	This is the biggest one.
+sentences	ceb.s0226	gloss	is	The price is the same.
+sentences	ceb.s0227	gloss	is	My house is bigger.
+sentences	ceb.s0232	gloss	to Bohol	Have you ever been to Bohol?
+sentences	ceb.s0235	gloss	to	I know how to cook.
+lessons	sounds	blurb	word ng mga	Read any Cebuano word with the pronunciation line: the three vowels, ng and mga, the catch, and the stressed syllable.
+lessons	greetings	blurb	at day	Greet people at any time of day, ask how they are, say thanks and please, and address older people politely.
+lessons	particles	title	man lang sab diay	3 · Small words: man, lang, sab, diay
+lessons	particles	blurb	man lang ra sab diay ba gyud place	Use the small words that make Cebuano sound friendly (man, lang, ra, sab, diay, ba, gyud) and put them in the right place.
+lessons	this-that	title	kini kana kadto	4 · kini, kana, kadto: this and that
+lessons	this-that	blurb	at	Point at things in a shop or market: ask what they are, and choose between this, that by you and that over there.
+lessons	ako	title	ako ikaw siya ang si	5 · I, you, he, she: ako, ikaw, siya and ang / si
+lessons	ako	blurb	is an ako ikaw siya si ang	Say who someone is (a teacher, a student, an American) with ako, ikaw, siya, and the markers si and ang.
+lessons	questions	title	unsa kinsa asa ngano kanus	7 · Question words: unsa, kinsa, asa, ngano, kanus-a
+lessons	questions	blurb	ba	Ask what, who, where, why, when and how much, and ask yes-or-no questions with ba.
+lessons	we-you	title	kami kita kamo sila	8 · We, you all, they: kami, kita, kamo, sila
+lessons	we-you	blurb	to mga	Choose the right we (with or without the listener), talk to a group, talk about others, and make nouns plural with mga.
+lessons	nako	title	nako akong ni sa	9 · My, your, his: nako, akong and ni / sa
+lessons	nako	blurb	is akong balay nako ni sa	Say whose something is in two ways (akong balay, balay nako), and use ni with names and sa with other nouns.
+lessons	nga	title	Describing nga	10 · Describing words and the linker nga
+lessons	nga	blurb	nga sentence	Describe things (big, small, new, old, hot, cold) with the linker nga, and tell a phrase from a full sentence.
+lessons	aduna	title	is naa aduna wala	11 · There is, have: naa, aduna, wala
+lessons	aduna	blurb	is	Say what there is and what you have, ask a shop for something, and say there is none.
+lessons	feelings	title	gigutom ko kapoy kaayo	12 · How you feel: gigutom ko, kapoy kaayo
+lessons	numbers	blurb	ka	Count things with Cebuano numbers and ka, and say prices and ages with Spanish numbers.
+lessons	prices	title	Tagpila	14 · Prices and buying: Tagpila?
+lessons	prices	blurb	at	Ask what things cost, understand the answer in Spanish numbers, and ask for a small discount at a market.
+lessons	family	blurb	is	Name the people in your family, say whose relative someone is, and use family titles politely.
+lessons	mo	title	mo ni	16 · Doer-focus verbs 1: mo- (will) and ni- (did)
+lessons	mo	blurb	mo ni og	Say what you will do and what you did with mo- and ni- verbs, and what you buy, eat or drink with og.
+lessons	mag	title	mag nag	17 · Doer-focus verbs 2: mag- and nag-
+lessons	mag	blurb	mag nag to	Use mag- and nag- verbs to say what you will do, what you did and what you are doing, and to say "let's".
+lessons	negation	title	dili wala	18 · dili and wala: two words for not
+lessons	negation	blurb	dili wala to is	Choose between dili and wala to say you won't, you didn't, it isn't, or there is none.
+lessons	time	title	alas tres Lunes ugma	19 · Days and the clock: alas tres, Lunes, ugma
+lessons	gusto	title	gusto kinahanglan ayaw	20 · Want, need, don't: gusto, kinahanglan, ayaw
+lessons	gusto	blurb	to	Say what you want, need and like, refuse politely, and tell someone not to do something.
+lessons	requests	title	palihug	21 · Asking politely: palihug and the command form
+lessons	requests	blurb	to	Ask people to do things and to give you things, politely, the way Cebuanos soften a request.
+lessons	food	blurb	at is	Order at a carinderia, ask what they have, say the food is good, and ask for the total.
+lessons	places	title	asa diri diha didto	23 · Where things are: asa, diri, diha, didto
+lessons	places	blurb	place is word	Ask where a place is, say where things and people are, and use the right word for here and there.
+lessons	on	title	Thing on	25 · Thing-focus verbs: -on and gi-
+lessons	on	blurb	to thing	Talk about doing something to a particular thing: the bananas, this mango, my water.
+lessons	an	title	Place an	26 · Place-focus verbs: -an and gi-…-an
+lessons	an	blurb	to	Talk about doing something to a person or a surface: helping someone, writing to someone, washing the dishes.
+lessons	compare	title	mas kaysa pinaka	27 · Comparing: mas, kaysa, pinaka-
+lessons	compare	blurb	is	Say that something is bigger, cheaper or tastier than something else, the best of all, or the same.
+lessons	maka	title	to	28 · Can and managed to: maka- and naka-
+body	sounds	body	is so on to word manga oo at ma ng mga si oy akong ay	
+body	greetings	body	day is Cebu place to word sentence ma an man At at	
+body	particles	body	is to place sentence word lang ra an man sab To at Cebu diay so ba gyud	
+body	this-that	body	on thing is to at Word word At To sentence	
+body	ako	body	word is so sentence describing man To si ang thing to	
+body	intro	body	Cebu to so is Emma sentence To ng place word	
+body	questions	body	to word is sentence Pedro unsa ang unsay ba On day	
+body	we-you	body	to kami kita is place sentence word at so mga To manga	
+body	nako	body	to an word so akong imong nako nimo is day ni Pedro thing sa place So	
+body	nga	body	describing word is at to nga ng sentence thing kaayo	
+body	aduna	body	is word naa to thing So ko place wala aduna	
+body	feelings	body	word is ko place To to At kaayo gyud at masakit so	
+body	numbers	body	day Cebu so is ka thing To an	
+body	prices	body	At tag so is Pila tagpila kilo on pesos thing To an man word	
+body	family	body	word at is To an akong nako ni on to so	
+body	mo	body	on root mo is ni mi to sentence word So thing og	
+body	mag	body	is word root mag nag on Cebu ta mo thing to	
+body	negation	body	is to dili wala place describing word To Is so	
+body	time	body	on alas to is Cebu at so To At On day ni nag mo mag word	
+body	gusto	body	thing gusto place is to kinahanglan word ganahan describing so dili ayaw To On	
+body	requests	body	to root To on thing an lang sa is at word place Is ayaw po	
+body	food	body	is day on usa ka to at describing word	
+body	places	body	Asa ang word place Cebu naa sa is at to so Hain	
+body	directions	body	Cebu is place so word to On on To habal	
+body	on	body	So sentence is so thing root Root Thing ang to	
+body	an	body	thing on place is to root Root ang sentence an so Ana	
+body	compare	body	describing word is mas sentence thing kaysa At Is to pinaka Cebu parehas an	
+body	maka	body	to root is so place dili an wala kahibalo Bohol	
+checks	sounds.k1	q	bata	In the pronunciation line BAH-tahq (bata, child), what does the q stand for?
+checks	sounds.k1	o[0]	at	A catch: the breath stops at the end
+checks	sounds.k1	o[1]	at	A k sound at the end
+checks	sounds.k1	why	at word	q marks a catch at the end of the word: stop the breath, and add no k.
+checks	sounds.k2	q	maayo	How many syllables does maayo (good) have?
+checks	sounds.k2	o[1]	ma	Three: ma-a-yo, with a catch before the second a
+checks	sounds.k3	q	mga word	How do you say mga, the plural word?
+checks	sounds.k3	o[2]	manga	manga
+checks	sounds.k3	why	mga is manga	mga is written short but said manga.
+checks	greetings.k1	q	is	It is 3 p.m. and you meet a neighbor. What do you say?
+checks	greetings.k1	why	is	From early afternoon until dark the greeting is Maayong hapon.
+checks	greetings.k2	q	is	A jeepney driver hands you your change. What is the most polite thanks?
+checks	greetings.k2	why	An man is	An older man or a driver is Nong; po is Tagalog, and Nang is for a woman.
+checks	greetings.k3	q	Salamat	Someone says Salamat. You answer:
+checks	particles.k1	why	word	lang never comes first: it follows the main word, Usa lang.
+checks	particles.k2	q	to	Someone says Maayong buntag! How do you say Good morning to you too?
+checks	particles.k3	q	diay to sentence	What does diay add to a sentence?
+checks	particles.k3	why	diay so is	diay shows you have just found something out: oh, so it is.
+checks	this-that.k1	q	is	The vendor is holding a fruit you don't know. How do you ask What's that?
+checks	this-that.k1	why	thing is word	A thing near the listener is kana, and the question word comes first.
+checks	this-that.k2	q	is	How do you say This is a book?
+checks	this-that.k2	o[0]	Kini ay libro	Kini ay libro.
+checks	this-that.k2	o[1]	Ang kini libro	Ang kini libro.
+checks	this-that.k2	o[2]	Libro kini	Libro kini.
+checks	this-that.k2	o[3]	Kini is libro	Kini is libro.
+checks	this-that.k2	why	word is Libro kini	The main word comes first and there is no word for is: Libro kini.
+checks	this-that.k3	q	Unsa ni is	In Unsa ni?, what is ni?
+checks	this-that.k3	o[0]	kini	The short form of kini
+checks	this-that.k3	o[1]	kana	The short form of kana
+checks	this-that.k3	o[2]	word	A word for what
+checks	this-that.k3	o[3]	word	A word for please
+checks	this-that.k3	why	word kini is to ni	After another word, kini is often shortened to ni.
+checks	ako.k1	q	man	How do you say I'm American (a man)?
+checks	ako.k1	why	word	The main word comes first, then the short form ko.
+checks	ako.k2	q	Maestra Ana	Which marker goes before a person's name, as in Maestra ___ Ana?
+checks	ako.k3	q	siya	What does siya mean?
+checks	ako.k3	why	siya is	siya is both he and she.
+checks	intro.k1	why	is	taga- + asa asks where someone is from; Asa ka gikan? asks where they have just been.
+checks	intro.k3	q	imong Unsay ngalan	What does imong mean in Unsay imong ngalan?
+checks	intro.k3	why	imong is akong	imong is your; it goes before the noun, like akong.
+checks	questions.k1	why	word	The question word comes first, then the short form ka.
+checks	questions.k2	q	word	Which word means who?
+checks	questions.k2	why	is	kinsa is who; unsa is what, asa is where, ngano is why.
+checks	questions.k3	q	to Amerikano ka ba	How do you say No (to a yes-or-no question like Amerikano ka ba?)
+checks	questions.k3	why	is	Dili is Cebuano no; hindi is Tagalog, and oo is yes.
+checks	we-you.k1	why	is so kami	The vendor is not included, so the we is kami, short form mi.
+checks	we-you.k2	q	kamo	kamo means:
+checks	we-you.k2	why	kamo is	kamo is you for two or more people.
+checks	nako.k3	why	An is	An owner that is not a name takes sa.
+checks	nga.k1	why	ng	The linker joins the two words: dako + -ng, dakong balay.
+checks	nga.k2	q	Dako ang balay	What does Dako ang balay mean?
+checks	nga.k2	o[0]	is	The house is big.
+checks	nga.k2	why	describing word ang is sentence	With the describing word first and ang before the noun, it is a full sentence.
+checks	nga.k3	why	describing word	kaayo after the describing word means very; lang, ba and diay mean other things.
+checks	aduna.k1	why	ko is	naa + ko + -y: literally "there is, mine, some water".
+checks	aduna.k2	q	Walay kape	What does Walay kape mean?
+checks	aduna.k2	why	walay is wala	walay is wala + -y: there is no.
+checks	aduna.k3	q	sentence is	Which sentence asks whether Ana is there?
+checks	aduna.k3	why	is	Names take si, and naa without -y says where someone is.
+checks	feelings.k2	q	kaayo	Where does kaayo (very) usually go?
+checks	feelings.k2	o[0]	word Kapoy kaayo	After the feeling word: Kapoy kaayo.
+checks	feelings.k2	o[1]	word Kaayo kapoy	Before the feeling word: Kaayo kapoy.
+checks	feelings.k2	o[2]	At	At the very start, before everything else
+checks	feelings.k2	o[3]	is	It is never used with feelings
+checks	feelings.k2	why	kaayo word	kaayo follows the word it makes stronger.
+checks	feelings.k3	q	Masakit akong ulo	What does Masakit akong ulo mean?
+checks	feelings.k3	o[3]	is	My head is hot.
+checks	feelings.k3	why	masakit akong ulo	masakit = hurts; akong ulo = my head.
+checks	numbers.k2	o[0]	baynte kuwarenta siyen	Spanish numbers: baynte, kuwarenta, siyen
+checks	numbers.k2	o[1]	duha tulo upat	Cebuano numbers: duha, tulo, upat
+checks	numbers.k2	o[2]	ka	Cebuano numbers with ka
+checks	numbers.k2	why	is	Prices are said in Spanish numbers (English is heard too, but never only English).
+checks	numbers.k3	why	ng	The number comes first, and akong (with -ng) goes before the noun.
+checks	prices.k1	q	Tagpila	What does Tagpila? ask?
+checks	prices.k1	o[0]	kilo	The price of each piece or kilo
+checks	prices.k1	o[2]	is	Where the shop is
+checks	prices.k1	o[3]	is	Whether there is a discount
+checks	prices.k1	why	tag Tagpila	tag- means each, per: Tagpila? = how much each?
+checks	prices.k2	why	thing	The price first, in Spanish numbers, then ang and the thing.
+checks	prices.k3	q	Pwede pahangyo	Where do you ask Pwede pahangyo?
+checks	prices.k3	o[1]	At	At a market
+checks	prices.k3	o[3]	On	On a jeepney
+checks	prices.k3	why	is at	Asking for a small discount is normal at a market, not where prices are fixed.
+checks	family.k1	q	igsoon	What does igsoon mean?
+checks	family.k1	why	igsoon nga lalaki babaye	igsoon says nothing about sex: add nga lalaki or nga babaye.
+checks	family.k2	q	is	Pedro is Ana's husband. Which is right?
+checks	family.k3	q	to	Talking to a guest, how do you say "our family"?
+checks	mo.k1	why	so ni	It already happened, so ni-; ko follows the verb.
+checks	mo.k2	q	mo	What does mo- show?
+checks	mo.k2	o[0]	is	The action has not happened yet, or is a habit
+checks	mo.k2	o[1]	is	The action is finished
+checks	mo.k2	o[2]	is	The action is a command
+checks	mo.k2	o[3]	to	The action was done to you
+checks	mo.k2	why	mo is	mo- is the future form, also used for habits.
+checks	mo.k3	why	mo	mo- for the future, ko right after the verb, og before the water.
+checks	mag.k1	q	Nagluto siya	What can Nagluto siya mean?
+checks	mag.k1	o[0]	is	She cooked, or she is cooking.
+checks	mag.k1	why	nag on	nag- covers something done and something going on now.
+checks	mag.k2	why	mag is	mag- is the future form, and ko follows the verb.
+checks	mag.k3	q	Magdula ta	What does Magdula ta! mean?
+checks	mag.k3	why	mag ta is	mag- with ta (we, including you) is a suggestion: let's.
+checks	negation.k1	why	mo	wala for the past, ko right after it, and the verb in the mo- form.
+checks	negation.k2	q	word is ko Amerikano	Which word is right in ___ ko Amerikano (I'm not American)?
+checks	negation.k2	why	is	No verb and no 'there is': the 'not' is dili.
+checks	negation.k3	q	wala	After wala, which form does the verb take?
+checks	negation.k3	o[1]	at	No verb at all
+checks	negation.k3	o[2]	root adto	The root alone: adto
+checks	negation.k3	o[3]	mo moadto	The mo- form: moadto
+checks	negation.k3	why	wala so mo	wala already says it did not happen, so this course keeps the verb in the mo- form.
+checks	time.k1	why	On	On the clock: alas + a Spanish number.
+checks	time.k2	q	unya	What does unya mean?
+checks	time.k2	why	unya is ugma	unya is later today; tomorrow is ugma.
+checks	time.k3	q	is	Which one is "seven p.m."?
+checks	gusto.k1	q	to	How do you say 'I want to eat'?
+checks	gusto.k1	why	word mo	No word for 'to': gusto ko, then the verb with mo-.
+checks	gusto.k2	q	sentence	Which sentence means 'I need help'?
+checks	gusto.k2	why	thing	kinahanglan comes first, ko right after it, then og and the thing.
+checks	gusto.k3	q	pan word	A child reaches for a hot pan. Which word means 'Don't!'?
+checks	gusto.k3	why	to	ayaw tells someone not to do something; dili and wala describe.
+checks	requests.k1	q	an man to is	You want a jeepney driver (an older man) to wait a moment. Which is most polite?
+checks	requests.k2	q	ko og tubig	What does 'Palihug ko og tubig' mean?
+checks	requests.k2	why	Palihug ko og is to	Palihug ko og… is the everyday way to ask for something: 'please me some…'.
+checks	requests.k3	q	word kabalaka	Which word begins 'Don't worry': '__ kabalaka'?
+checks	requests.k3	why	to kabalaka	ayaw tells someone not to do something: Ayaw kabalaka.
+checks	food.k2	q	is kan on	What is kan-on?
+checks	food.k2	why	kan on is bugas	kan-on is cooked rice; uncooked rice is bugas.
+checks	places.k1	q	word to	Which word means 'there', near the person you're talking to?
+checks	places.k1	why	is kana	diha is near you, like kana; didto is far from you both.
+checks	places.k2	q	sentence to	Which sentence means 'I'm going to the market'?
+checks	places.k3	q	diri dinhi	diri and dinhi both mean…
+checks	places.k3	why	diri dinhi	diri and dinhi are two words for 'here'.
+checks	directions.k1	q	lang	What does 'Lugar lang' tell the driver?
+checks	directions.k1	why	Lugar lang to	Lugar lang means 'just here': you want to get off.
+checks	directions.k2	why	is	Left is wala, right is tuo.
+checks	directions.k3	q	Para on	Why must you say Para! out loud on a jeepney?
+checks	directions.k3	o[0]	is	It is how you pay the fare
+checks	directions.k3	o[2]	so	Jeepneys have no fixed stops, so the driver stops only when asked
+checks	directions.k3	o[3]	is	It is the greeting for the driver
+checks	directions.k3	why	Para Lugar lang	No fixed stops: the driver waits for Para! or Lugar lang.
+checks	on.k1	q	nako ang saging	What does 'Paliton nako ang saging' mean?
+checks	on.k1	why	on is thing	-on is the future form of a thing-focus verb.
+checks	on.k2	q	is ako ang saging	Why is 'Gipalit ako ang saging' wrong?
+checks	on.k2	o[0]	po	gi- verbs need po
+checks	on.k2	o[1]	nako	The doer of a gi- verb takes the nako-set: nako
+checks	on.k2	o[2]	saging og	saging needs og
+checks	on.k2	o[3]	ako	ako must come last
+checks	on.k2	why	thing nako	With a thing-focus verb the doer takes the nako-set.
+checks	on.k3	q	sentence	Which sentence means 'I'll buy some bananas' (any bananas)?
+checks	on.k3	why	mo	'Some' bananas, with og, go with a doer-focus mo- verb.
+checks	an.k1	q	sentence	Which sentence means 'I washed the plate'?
+checks	an.k1	why	place an	Past place-focus: gi-…-an, with the doer in the nako-set.
+checks	an.k2	q	nako si Pedro	In 'Gitabangan nako si Pedro', why does Pedro have si?
+checks	an.k2	o[0]	is	He is the one who helps
+checks	an.k2	o[1]	is place si	He is the focus of a place-focus verb, and names take si
+checks	an.k2	o[2]	si	si means 'for'
+checks	an.k2	why	is si	The person helped is the focus; a name that is the focus takes si.
+checks	an.k3	q	to	How do you ask someone to wash the plate?
+checks	an.k3	why	to thing	palihug plus the -i form asks someone to do something to a thing or person.
+checks	compare.k1	why	describing word an	Cebuano puts mas before the describing word and never adds an ending.
+checks	compare.k2	q	word	Which word means 'than'?
+checks	compare.k2	why	dako niana	kaysa means 'than': mas dako kaysa niana.
+checks	compare.k3	q	ang litson	What does 'Pinakamahal ang litson' mean?
+checks	compare.k3	o[0]	is	The lechon is cheap.
+checks	compare.k3	o[1]	is	The lechon is more expensive.
+checks	compare.k3	o[2]	is	The lechon is the most expensive.
+checks	compare.k3	o[3]	is	The lechon is the same price.
+checks	compare.k3	why	pinaka	pinaka- means 'the most'.
+checks	maka.k1	q	ko makaadto	What does 'Dili ko makaadto' mean?
+checks	maka.k1	o[2]	to	I don't want to go.
+checks	maka.k1	why	dili is wala	dili + maka- is 'can't'; wala + maka- is 'couldn't'.
+checks	maka.k2	q	to	Which asks 'Have you ever been to Bohol?'
+checks	maka.k3	q	to	You learned to cook as a child. Which says 'I know how to cook'?
+checks	maka.k3	why	is	kahibalo is 'know how' for a skill.
+practice	sounds.01	o[0]	is	It is the stressed syllable
+practice	sounds.01	o[1]	is	It is said with a catch
+practice	sounds.01	o[2]	is	It is spelled with a capital letter
+practice	sounds.01	o[3]	is	It is a name
+practice	sounds.02	why	word buntag maayo	u and o are one sound: u early in a word, o in the last syllable (buntag, maayo).
+practice	sounds.03	q	balay is	The line for balay says bah-LAI. Which syllable is stressed?
+practice	sounds.03	o[3]	sentence to	It changes from sentence to sentence
+practice	sounds.03	why	is	The syllable in CAPITALS is stressed, here the last one.
+practice	sounds.04	q	ng ngalan	What does ng sound like in ngalan (name)?
+practice	sounds.04	o[0]	ng	the ng in singer
+practice	sounds.04	o[1]	ng	the ng in finger
+practice	sounds.04	o[2]	an	an n, then a g
+practice	sounds.04	why	ng is at word	ng is one sound, as in singer, even at the start of a word.
+practice	sounds.05	q	word is dili	A word in the line is all lowercase, like dee-lee for dili. What does that mean?
+practice	sounds.05	o[0]	so	Its stress has not been checked yet, so the line shows none
+practice	sounds.05	o[1]	at	It has no stress at all
+practice	sounds.05	o[2]	is	It is said very quietly
+practice	sounds.05	o[3]	is an word	It is an English word
+practice	sounds.05	why	word	Lowercase means the course makes no claim yet about that word's stress.
+practice	sounds.06	why	ng	akong-set words go before the noun and add -ng: akong balay.
+practice	sounds.07	why	ng	akong goes before the noun and always ends in -ng: akong ngalan.
+practice	sounds.08	why	word is	The plural word is written mga, even though it is said manga.
+practice	sounds.09	why	is ng	my before a noun is akong, ending in -ng: akong balay.
+practice	sounds.10	why	word	The plural word mga goes before the noun: mga bata.
+practice	sounds.11	why	maayo ma	maayo has two a's side by side, with a catch between them: ma-a-yo.
+practice	sounds.12	why	ng	akong-set words go before the noun and add -ng: akong tubig.
+practice	sounds.13	why	ng	akong goes before the noun and ends in -ng: akong ngalan.
+practice	sounds.14	why	word is	The plural word is written mga, though it is said manga.
+practice	greetings.01	why	is	After dark the greeting is Maayong gabii.
+practice	greetings.02	why	is ng	The fixed phrase is Daghang salamat, with -ng joining the two words.
+practice	greetings.03	q	Maayo at	You call Maayo! at a friend's gate. The host answers:
+practice	greetings.04	q	an	How do you address an older woman selling fruit?
+practice	greetings.04	why	An is Manang	An older woman is Nang (short for Manang); po is Tagalog.
+practice	greetings.05	q	is	Your friend is leaving. You say:
+practice	greetings.06	p	to	How are you? (to a friend)
+practice	greetings.06	why	is place	ka is the short pronoun for you and goes in second place, right after kumusta.
+practice	greetings.07	p	to an man	How are you, sir? (to an older man; title last)
+practice	greetings.07	why	place at	The short pronoun ka goes in second place; the title Nong comes at the end.
+practice	greetings.08	why	is ng	The phrase is daghang salamat, with -ng joining the two words.
+practice	greetings.09	why	is	From early afternoon until dark the greeting is Maayong hapon.
+practice	greetings.10	why	word	Kumusta takes ka, the short word for you.
+practice	greetings.11	p	ma to an	Thank you, ma'am. (to an older woman)
+practice	greetings.11	why	An is	An older woman is Nang (short for Manang); po is Tagalog.
+practice	greetings.12	p	to Kumusta ka	I'm fine. (reply to Kumusta ka?; use man)
+practice	greetings.12	why	word	The short pronoun ko follows the main word maayo and man: Maayo man ko.
+practice	greetings.13	p	to an man	How are you, sir? (to an older man)
+practice	greetings.13	why	place	The short pronoun ka goes in second place, right after kumusta; then the title.
+practice	greetings.14	p	ma to an	Good afternoon, ma'am. (to an older woman)
+practice	greetings.14	hint	maayo	maayo · hapon · Nang
+practice	greetings.14	why	is an	Maayong hapon is the afternoon greeting, and Nang is for an older woman.
+practice	particles.01	q	word Maayo	Which small word turns Maayo into a yes-or-no question?
+practice	particles.01	why	Maayo	ba makes a yes-or-no question: Maayo ba?
+practice	particles.02	q	word	Which word means too, also?
+practice	particles.02	why	sad pod	sab means too, also; sad and pod are used the same way.
+practice	particles.03	q	to is	You did not expect the food to be good, and it is. You say:
+practice	particles.03	why	at	diay shows surprise at something you just found out, and it comes after lami.
+practice	particles.04	q	word is	Which word order is right for It's really good?
+practice	particles.04	why	word	Small words like gyud never come first; they follow the main word.
+practice	particles.05	q	man Maayo	What does man do in Maayo man (I'm fine)?
+practice	particles.05	o[1]	man	It means a man
+practice	particles.05	why	man an so	man softens an answer, so it sounds relaxed rather than clipped.
+practice	particles.06	why	is word place	lang is a small word that goes in second place, after the main word: Usa lang.
+practice	particles.07	p	to	Good morning to you too
+practice	particles.07	why	place	sab never comes first; it takes second place, after the greeting: Maayong buntag sab.
+practice	particles.08	why	word place	gyud follows the main word in second place: Maayo gyud.
+practice	particles.09	p	to	Good morning to you too.
+practice	particles.11	p	Is	Is it tasty?
+practice	particles.12	why	place word	lang goes in second place, after the main word: Usa lang.
+practice	particles.13	why	word	The short pronoun ko and the small word sab follow the main word maayo; neither ever comes first.
+practice	particles.14	why	word	The short pronoun ka and the small word ba follow the main word; neither ever comes first.
+practice	this-that.01	why	is thing	kini is for a thing near you, the speaker.
+practice	this-that.02	why	is thing	kadto is for a thing away from both speaker and listener.
+practice	this-that.03	q	Unsa ni	Unsa ni? means:
+practice	this-that.03	o[2]	is	Who is this?
+practice	this-that.03	o[3]	Is	Is this good?
+practice	this-that.03	why	ni is kini	ni is the short form of kini, this.
+practice	this-that.04	q	at	You have picked a bunch of bananas at a stall. Just this one =
+practice	this-that.04	why	is	lang follows kini, and kini is the one near you.
+practice	this-that.05	why	ng	Right before a noun, kini takes -ng: kining balay.
+practice	this-that.06	why	word	The question word comes first, then kini: Unsa kini?
+practice	this-that.07	p	is	This is a book
+practice	this-that.07	why	word	The main word comes first: Libro kini, literally book this.
+practice	this-that.08	why	word is thing	The main word comes first, and kadto is for a thing far from both of you.
+practice	this-that.09	why	thing to is	A thing near the person you are talking to is kana.
+practice	this-that.10	why	is thing	kini is the thing near you, the speaker.
+practice	this-that.11	why	ng	Right before a noun, kini takes -ng: kining balay.
+practice	this-that.12	why	word	The question word comes first, then kana: Unsa kana?
+practice	this-that.13	p	is	This is my coffee.
+practice	this-that.14	p	is	This is my house.
+practice	ako.01	q	is	Ana is a teacher =
+practice	ako.01	why	word	Names take si, and the main word maestra comes first.
+practice	ako.02	why	is sentence	ka is a short form, and a short form never starts a sentence.
+practice	ako.03	q	is	The child is a student =
+practice	ako.03	why	is so word	bata is not a name, so it takes ang; the main word estudyante comes first.
+practice	ako.04	q	is ikaw	Which is the short form of ikaw (you)?
+practice	ako.04	why	ikaw is	ikaw and ka both mean you; ka is the short form.
+practice	ako.05	why	is	maestra is the form for a woman, and ko follows it.
+practice	ako.06	p	is	Ana is a teacher
+practice	ako.06	why	word	Names take si, and the main word comes first: Maestra si Ana.
+practice	ako.07	p	man	I'm American (a man)
+practice	ako.07	why	place word	The short pronoun ko goes in second place, after the main word: Amerikano ko.
+practice	ako.08	p	is	The child is a student
+practice	ako.08	why	is	ang marks the focus when it is not a name: Estudyante ang bata.
+practice	ako.09	p	is	Pedro is a teacher.
+practice	ako.10	why	word is	After the main word, I is ko or ako.
+practice	ako.11	p	is	The child is a student.
+practice	ako.11	why	is	A noun that is not a name takes ang.
+practice	ako.12	p	is	Pedro is a teacher.
+practice	ako.12	why	word	Names take si, and the main word comes first: Maestro si Pedro.
+practice	ako.13	why	place word	The short pronoun ko goes in second place, after the main word: Estudyante ko.
+practice	ako.14	why	word	The main word comes first, then siya: Amerikana siya.
+practice	intro.01	why	place	taga- joins the place, and ko comes after it.
+practice	intro.02	q	Asa ka gikan	What does Asa ka gikan? really mean?
+practice	intro.02	why	Asa ka gikan	Asa ka gikan? asks where you have just come from, not your home country.
+practice	intro.03	q	unsay is	unsay is short for:
+practice	intro.03	why	to unsay	In speech, unsa ang shrinks to unsay.
+practice	intro.04	why	is	Age is said with a Spanish number and anyos, then ko; no verb for have.
+practice	intro.06	why	place	The short pronoun ko goes in second place, after the place: Taga-Amerika ko.
+practice	intro.07	why	place	The short pronoun ka goes in second place, right after taga-asa.
+practice	intro.10	why	is ng	Before a noun, your is imong, with -ng.
+practice	intro.11	why	is	taga- + asa asks where someone is from; Asa ka? asks where they are going.
+practice	intro.12	why	place word	The short pronoun ko goes in second place, after the main word: Taga-Amerika ko.
+practice	intro.13	why	place	The short pronoun ka goes in second place: Taga-asa ka?
+practice	intro.14	why	is akong word	imong is the akong-set word for your: it goes before the noun.
+practice	questions.01	q	unsa	unsa =
+practice	questions.01	why	unsa is Unsa kini	unsa is what: Unsa kini?
+practice	questions.02	q	ngano	ngano =
+practice	questions.02	why	ngano is	ngano is why.
+practice	questions.03	q	is	Who is Ana? =
+practice	questions.03	why	is	kinsa is who, and names keep si in questions.
+practice	questions.04	q	Kanus	Kanus-a? means:
+practice	questions.04	why	kanus is	kanus-a is when; the hyphen marks a catch.
+practice	questions.05	q	pila	pila =
+practice	questions.05	why	pila	pila asks how many or how much.
+practice	questions.06	why	word place	The question word comes first and the short pronoun ka goes in second place: Asa ka?
+practice	questions.07	p	is	Who is she?
+practice	questions.07	why	word	The question word comes first, then siya: Kinsa siya?
+practice	questions.08	why	word	The question word comes first, and imong (your) goes before the noun.
+practice	questions.10	p	is	Who is Pedro?
+practice	questions.12	why	word	The question word comes first and the short pronoun ka follows it: Asa ka?
+practice	questions.13	p	is	Who is Pedro?
+practice	questions.14	p	is	Who is he?
+practice	questions.14	why	word	The question word comes first, then siya: Kinsa siya?
+practice	we-you.02	why	is	sila is they; siya is he or she.
+practice	we-you.03	q	is kami	Which is the short form of kami?
+practice	we-you.03	why	kami to kita kamo	kami shortens to mi, kita to ta, kamo to mo.
+practice	we-you.05	why	kamo	Two or more listeners are kamo, short form mo.
+practice	we-you.06	why	place word	The short pronoun mi (we, not you) goes in second place, after the main word.
+practice	we-you.07	why	word	The main word comes first, then sila: Mga maestro sila.
+practice	we-you.08	why	word	The main word comes first; kita includes the listener.
+practice	we-you.10	why	is	kamo is you for two or more people.
+practice	we-you.12	why	word	The main word comes first, then sila: Amerikano sila.
+practice	we-you.13	why	place	The short pronoun mi goes in second place: Taga-Amerika mi.
+practice	we-you.14	why	place	The short pronoun mo (you all) goes in second place, after taga-asa.
+practice	nako.01	why	ng	nako goes after the noun, with no -ng.
+practice	nako.05	why	ng	ilang goes before the noun and ends in -ng.
+practice	nako.08	why	an is	sa marks an owner that is not a name: ang pultahan sa balay.
+practice	nako.10	why	is ng	Before the noun, your is imong, with -ng.
+practice	nako.11	why	is	After the noun, their is nila.
+practice	nako.14	why	akong	atong includes the listener, and akong-set words go before the noun: atong balay.
+practice	nga.01	why	so ng	bag-o ends in a vowel, so the linker joins it as -ng: bag-ong libro.
+practice	nga.02	q	is	The coffee is hot. =
+practice	nga.02	why	sentence describing word is	A full sentence has the describing word first and ang before the noun; Init nga kape is just a phrase.
+practice	nga.03	q	word is	Which word is the linker?
+practice	nga.03	why	describing word	nga links a describing word and a noun.
+practice	nga.04	why	is	gamay is small; dako is big.
+practice	nga.05	why	describing word is	kaayo comes straight after the describing word and means very; lang is just, ba asks, sab is too.
+practice	nga.06	p	is	The house is big
+practice	nga.06	why	word	The main word comes first, and ang marks the focus: Dako ang balay.
+practice	nga.07	why	dako ng to	akong goes before the noun phrase, and dako takes -ng to join balay.
+practice	nga.08	p	is	Ana's room is small
+practice	nga.08	why	word	The main word comes first, and names take ni when they own something.
+practice	nga.09	why	describing word	nga links the noun and the describing word: balay nga dako.
+practice	nga.10	why	describing word	kaayo after the describing word means very.
+practice	nga.11	p	is	The coffee is cold.
+practice	nga.12	why	ng to	dako takes -ng to join balay: dakong balay.
+practice	nga.13	p	is	My house is new.
+practice	nga.13	why	word	The main word comes first, and akong goes before the noun: Bag-o ang akong balay.
+practice	nga.14	p	is	Ana's house is big.
+practice	nga.14	why	word	The main word comes first, and names take ni as owners: Dako ang balay ni Ana.
+practice	aduna.01	why	is og	naay is naa + -y (a short og): there is some.
+practice	aduna.02	q	Wala koy kuwarta	What does Wala koy kuwarta mean?
+practice	aduna.02	why	Wala koy is	Wala koy… means there is none of mine: I don't have.
+practice	aduna.03	q	word	Which word means "there isn't"?
+practice	aduna.04	why	is mo kamo	Naa ba moy…? is the shop phrase; mo is short for kamo.
+practice	aduna.05	q	is to	Which is the careful way to say 'There's water'?
+practice	aduna.05	why	is word naa	aduna is the careful word for naa: Adunay tubig.
+practice	aduna.06	why	ko place	The short pronoun ko goes in second place, right after naa, with -y joined: Naa koy tubig.
+practice	aduna.07	p	Is	Is Ana there?
+practice	aduna.08	why	is	For 'there is no', use walay, never dili.
+practice	aduna.09	why	is	naay (or adunay) means there is some; wala alone needs the -y, and it means the opposite.
+practice	aduna.10	why	ko	Use the ako-set: ko with -y joined, Naa koy kuwarta.
+practice	aduna.11	why	is	Wala si… says someone is not here; walay is for things.
+practice	aduna.12	hint	wala	wala + -y · kape
+practice	aduna.12	why	is	walay means there is no; dili is never used for that.
+practice	aduna.13	hint	ko	naa · ko + -y · kuwarta
+practice	aduna.13	why	ko place	The short pronoun ko goes in second place, right after naa: Naa koy kuwarta.
+practice	aduna.14	hint	ko	wala · ko + -y · tubig
+practice	aduna.14	why	ko place	The short pronoun ko goes in second place, right after wala: Wala koy tubig.
+practice	feelings.03	why	word	kaayo follows the word it makes stronger; lang means just, and tugnaw means cold.
+practice	feelings.04	q	Kapoy kaayo ko is	Your friend says Kapoy kaayo ko. She is…
+practice	feelings.04	why	kapoy kaayo	kapoy = tired; kaayo = very.
+practice	feelings.05	why	word	A name needs si here, and ba follows the first word.
+practice	feelings.06	why	place word	The short pronoun ko goes in second place, after the feeling word: Gigutom ko.
+practice	feelings.07	p	is	Ana is tired.
+practice	feelings.07	why	word	Names take si, and the feeling word comes first: Kapoy si Ana.
+practice	feelings.08	why	describing word	kaayo (very) follows the describing word: Init kaayo.
+practice	feelings.09	why	word	Use the ako-set after the feeling word: Gigutom ko.
+practice	feelings.11	why	word	kaayo or gyud after the word makes it very or really cold.
+practice	feelings.12	why	is	Weather words need no person and no 'it is': Tugnaw kaayo.
+practice	feelings.13	why	place word	The short pronoun ko goes in second place, after the feeling word: Giuhaw ko.
+practice	numbers.02	why	is	baynte is 20 in Spanish numbers, the ones used for prices.
+practice	numbers.03	q	is siyam	What is siyam?
+practice	numbers.03	why	siyam is nuwebe	siyam is the Cebuano 9; the Spanish one is nuwebe.
+practice	numbers.04	q	singkuwenta is	A vendor says singkuwenta. How much is it?
+practice	numbers.04	why	singkuwenta kuwarenta singko sesenta	singkuwenta = 50; kuwarenta = 40, singko = 5, sesenta = 60.
+practice	numbers.09	why	to thing	ka joins a Cebuano number to the thing it counts.
+practice	numbers.12	hint	day	duha (2) · adlaw (day)
+practice	numbers.14	p	is	Ana is thirty. (years old)
+practice	prices.01	q	is	'How much is this?' =
+practice	prices.02	q	Mahal kaayo	What does Mahal kaayo mean?
+practice	prices.02	why	mahal barato	mahal = expensive; barato = cheap.
+practice	prices.05	q	At	At a market you want a small discount. You say:
+practice	prices.05	why	is at	pahangyo is the small discount you ask for at a market.
+practice	prices.06	why	word thing	The question word comes first, and ang marks the thing you ask about: Tagpila ang usa ka kilo?
+practice	prices.07	p	to	How much are your bananas? (to a vendor)
+practice	prices.07	why	is akong word	imong is the akong-set word for your, and it goes before the noun: Tagpila imong saging?
+practice	prices.09	p	is	How much is this?
+practice	prices.10	p	is	One kilo is forty pesos.
+practice	prices.10	why	thing	ang marks the thing whose price you give.
+practice	prices.13	p	is to	How much is your fish? (to a vendor; use tagpila)
+practice	prices.14	p	is	One kilo is ₱40. (start with the price)
+practice	prices.14	why	thing	The price comes first, and ang marks the thing: Kuwarenta pesos ang kilo.
+practice	family.02	q	is ig agaw	Who is your ig-agaw?
+practice	family.02	why	ig agaw tiya apo bana	ig-agaw = cousin; tiya = aunt, apo = grandchild, bana = husband.
+practice	family.03	why	is	Use her title, Lola; po is Tagalog, not Cebuano.
+practice	family.04	q	is anak	What is your anak?
+practice	family.04	why	anak is bata	anak is your own child; bata is any child.
+practice	family.05	q	to	'our family' (to a guest) =
+practice	family.08	why	ng	akong goes before the noun and ends in -ng: akong manghod nga babaye.
+practice	family.09	why	is	igsoon nga lalaki is a brother; anak nga lalaki would be a son.
+practice	family.11	p	is	Rosa is my mother.
+practice	family.12	why	is word	There is no single word for brother: igsoon nga lalaki.
+practice	family.13	p	is	Rosa is my mother. (use inahan)
+practice	family.13	why	word	Names take si, and the main word comes first: Akong inahan si Rosa.
+practice	mo.01	why	mo	mo- means not done yet; ko follows the verb.
+practice	mo.02	q	is	Which one is about the past?
+practice	mo.02	why	ni is	ni- means the action is already done.
+practice	mo.03	q	Nipalit si Ana og saging	What does Nipalit si Ana og saging mean?
+practice	mo.03	o[0]	Ana	Ana bought bananas.
+practice	mo.03	o[1]	Ana	Ana will buy bananas.
+practice	mo.03	o[2]	Ana	Ana likes bananas.
+practice	mo.03	o[3]	Ana	Ana has bananas.
+practice	mo.03	why	ni palit	ni- = done; palit = buy.
+practice	mo.04	why	mo	ugma (tomorrow) needs the mo- form.
+practice	mo.05	q	Mopalit ko word	After Mopalit ko, which small word goes before 'water' (not a specific one)?
+practice	mo.05	why	mo is Mopalit ko tubig	After a mo- verb, 'some, a' is og: Mopalit ko og tubig.
+practice	mo.06	why	mo is thing	With a mo- verb the doer is the focus, and og marks a thing that is not specific: Mopalit ko og tubig.
+practice	mo.07	why	word place	The question word comes first, and the short pronoun ka goes in second place: Asa ka moadto?
+practice	mo.08	why	ni	For something already done, use the past form ni-: Nikaon ko gahapon.
+practice	mo.09	why	so mo	ugma means tomorrow, so the verb takes the future form mo-.
+practice	mo.10	why	thing is	og marks a thing that is not specific after a doer-focus verb.
+practice	mo.11	p	to	She will go to Bohol.
+practice	mo.11	why	mo is so	With a mo- verb the doer is the focus, so use siya.
+practice	mo.12	hint	adto	adto (go) · ugma (tomorrow)
+practice	mo.12	why	so	Not done yet, so the future form: Moadto ko ugma.
+practice	mo.13	hint	palit	palit (buy) · saging
+practice	mo.13	why	is	The doer is the focus, and og marks bananas that are not specific: Nipalit ko og saging.
+practice	mo.14	hint	inom	inom (drink) · Pedro · tubig
+practice	mo.14	why	mo is	Names take si, and with mo- the doer is the focus: Moinom si Pedro og tubig.
+practice	mag.01	q	is	'She is cooking.' =
+practice	mag.01	why	nag is on word	nag- covers what is going on now; siya is the right word for she here.
+practice	mag.02	why	mag	ugma needs the future form mag-, with ko right after the verb.
+practice	mag.03	q	Nagtuon ko og Bisaya	What does Nagtuon ko og Bisaya mean?
+practice	mag.03	why	tuon nag on	tuon = study; nag- = going on now (or done).
+practice	mag.05	why	word	Question word first, then ka, then the verb.
+practice	mag.06	why	place	The short pronoun ko goes in second place, right after the verb: Nagtuon ko og Bisaya.
+practice	mag.07	why	word place	The question word comes first, and the short pronoun ka goes in second place: Asa ka nagtrabaho?
+practice	mag.08	why	mag	mag- with ta makes a suggestion: Magdula ta!
+practice	mag.09	why	on nag	Something going on now takes nag-: Nagtrabaho ko.
+practice	mag.10	why	mag is	With a mag- verb the doer is the focus: use the ako-set, ko.
+practice	mag.11	why	thing is	og marks a thing that is not specific after a doer-focus verb.
+practice	mag.12	p	is	She is cooking.
+practice	mag.12	hint	luto	luto (cook) · siya
+practice	mag.12	why	nag on	nag- covers something going on now, not only something done.
+practice	mag.13	hint	trabaho	trabaho (work) · Cebu
+practice	mag.13	why	place	The short pronoun ko goes in second place, right after the verb: Nagtrabaho ko sa Cebu.
+practice	mag.14	hint	luto	luto (cook) · Ana · adobo
+practice	mag.14	why	mag is	Names take si; with mag- the doer is the focus, and og comes before the dish.
+practice	negation.01	why	is	For 'there is no', use walay.
+practice	negation.02	why	mo	wala for the past, then ko, then the mo- form.
+practice	negation.04	why	is sentence	dili is the 'not' of a sentence with no verb; wala siyay maestro means he has no teacher.
+practice	negation.05	q	Niadto ka	Someone asks Niadto ka? (Did you go?). You didn't. You answer:
+practice	negation.05	why	so is	It did not happen, so the short answer is Wala.
+practice	negation.06	why	to place	The short pronoun ko moves up to second place, right after dili: Dili ko ganahan.
+practice	negation.07	why	to place	The short pronoun mi moves up to second place, right after wala: Wala mi moadto.
+practice	negation.08	why	is	For 'there is no', use walay, never dili.
+practice	negation.09	why	so is	It did not happen, so wala; dili is for what will not happen.
+practice	negation.10	why	place	Use the ako-set: the short pronoun ko goes in second place, after dili.
+practice	negation.11	why	mo	After dili, the verb keeps the mo- form.
+practice	negation.13	hint	adto	wala · adto (go)
+practice	negation.13	why	to place mo	The short pronoun ko moves up to second place, right after wala, and the verb stays in the mo- form.
+practice	negation.14	hint	adto	dili · adto (go) · ugma
+practice	negation.14	why	to place	dili for what will not happen; the short pronoun ko moves up to second place.
+practice	time.01	why	On	On the clock: alas + a Spanish number.
+practice	time.02	why	is	One o'clock is the odd one: ala una.
+practice	time.03	q	day is	Which day is Monday?
+practice	time.03	why	is	Lunes is Monday; Domingo is Sunday.
+practice	time.04	why	is so ni	ganina is earlier today, so the past form ni-.
+practice	time.05	why	is mo	unya is later today and goes with mo-.
+practice	time.06	p	at	I'll leave at 3:00. (start with the verb)
+practice	time.06	why	place	The short pronoun ko goes in second place, after the verb; the time comes after it.
+practice	time.07	why	word place	The question word comes first, and the short pronoun ka goes in second place: Kanus-a ka moadto?
+practice	time.10	p	on	I'll leave on Monday.
+practice	time.11	why	is	ugma is tomorrow; unya is later today.
+practice	time.12	why	On	On the clock, alas + a Spanish number: alas tres.
+practice	time.13	p	at	I woke up at 6:00. (start with the verb)
+practice	time.13	hint	mata	mata (wake up) · alas · sais (6)
+practice	time.13	why	place	The short pronoun ko goes in second place, after the verb: Nimata ko alas sais.
+practice	time.14	p	uli	I'll go home later today. (start with the verb; use uli)
+practice	time.14	hint	uli	uli (go home) · unya
+practice	time.14	why	place is	The short pronoun ko goes in second place, after the verb; unya is later today.
+practice	gusto.01	why	place thing	gusto comes first, the short pronoun ko in second place, then og and the thing.
+practice	gusto.02	q	to	'I want to go' =
+practice	gusto.02	why	word mo	No word for 'to', and the verb after gusto takes mo-, the future form.
+practice	gusto.03	why	place thing	kinahanglan comes first, the short pronoun ko in second place, then og and the thing.
+practice	gusto.04	why	place	ganahan takes the ako-set: ko, in second place.
+practice	gusto.05	q	to	'Don't!' (telling someone to stop) =
+practice	gusto.05	why	is to	ayaw is 'don't' for telling someone not to do something.
+practice	gusto.06	why	place	The short pronoun ko goes in second place, right after gusto: Gusto ko og kape.
+practice	gusto.07	p	to	I want to eat
+practice	gusto.07	why	place word	ko goes in second place after gusto, and no word for 'to' comes before mokaon.
+practice	gusto.09	why	thing is	og comes before a thing you want when it is not one particular thing.
+practice	gusto.10	p	to	I want to eat.
+practice	gusto.10	why	mo word	After gusto ko, the verb takes the future form mo-, with no word for 'to'.
+practice	gusto.11	why	is to	dili is 'not' for your own wants; ayaw tells someone else not to do something.
+practice	gusto.12	why	place thing	The short pronoun ko goes in second place, after kinahanglan, then og and the thing.
+practice	gusto.13	p	to	I want to go to Bohol
+practice	gusto.13	hint	adto	gusto · adto · Bohol
+practice	gusto.13	why	place mo word	ko goes in second place after gusto, and the verb takes mo- with no word for 'to'.
+practice	gusto.14	p	to	Do you like lechon? (to one person; lechon = litson)
+practice	gusto.14	why	ako place	ganahan takes the ako-set: ka goes in second place, right after ganahan.
+practice	requests.01	q	to	The polite way to ask someone to sit down:
+practice	requests.01	why	root is	palihug plus the bare root is a polite command; a bare root alone sounds rough.
+practice	requests.02	q	At	At a friend's house, you want some water. You say:
+practice	requests.03	q	lang	What does lang add in 'Hulat lang'?
+practice	requests.03	why	lang	lang means 'just' and makes a command gentle.
+practice	requests.04	q	po to	Tagalog adds po to be polite. In Cebuano you…
+practice	requests.04	o[0]	po palihug salamat	leave po out and use palihug, salamat or a title
+practice	requests.04	o[1]	po at	add po at the end
+practice	requests.04	o[2]	po word	add po after the first word
+practice	requests.04	why	po palihug salamat	Cebuano has no po; politeness comes from palihug, salamat and titles.
+practice	requests.05	why	to	ayaw tells someone not to do something; dili and wala describe.
+practice	requests.06	why	is word place root	lang is a small word that goes in second place, after the root: Hulat lang.
+practice	requests.07	why	place	The short pronoun ko goes in second place, right after pwede.
+practice	requests.08	why	place	ko goes in second place, right after tagai; og comes before the water.
+practice	requests.10	why	is to	ayaw is the 'don't' you say to someone else.
+practice	requests.11	why	thing is	og comes before a thing you ask for when it is not one particular thing.
+practice	requests.12	why	root	palihug plus the bare root makes a polite command.
+practice	requests.13	why	place	The short pronoun ko goes in second place, right after pwede.
+practice	requests.14	why	place	ko goes in second place, right after tagai, and og comes before the water.
+practice	food.02	q	kan on is	kan-on is…
+practice	food.02	why	kan on is bugas	kan-on is cooked rice; uncooked rice is bugas.
+practice	food.03	q	sud an is	sud-an is…
+practice	food.03	why	sud an is	sud-an is whatever you eat with your rice: meat, fish or vegetables.
+practice	food.04	q	to	You've had enough to eat. You say:
+practice	food.05	q	To	To ask the price of everything you ate:
+practice	food.06	why	word	The main word comes first and the short pronoun ko follows na: Busog na ko.
+practice	food.07	p	to	Do you have fish? (to the cook, use naa)
+practice	food.07	why	mo og	naa comes first; ba and the short pronoun mo follow it, and mo joins og as moy.
+practice	food.09	why	to	ka joins a Cebuano number to the food: usa ka sabaw.
+practice	food.10	why	describing word	kaayo after a describing word means 'really, very'.
+practice	food.13	why	place	The short pronoun ko goes in second place after gusto, and og comes before the soup.
+practice	food.14	p	is	My soup is really good
+practice	food.14	why	word	akong goes before the noun, and the main word comes first: Lami kaayo ang akong sabaw.
+practice	places.01	why	is kadto	didto is far from both of you, like kadto.
+practice	places.02	q	to	'there' (near the person you're talking to) =
+practice	places.02	why	is kana	diha is near the listener, like kana.
+practice	places.03	why	word place	Question word, then ang and the place.
+practice	places.04	q	to	'I'm going to the church' =
+practice	places.04	why	place	sa means 'to' before a place, and ko stays right after the verb.
+practice	places.05	q	word	Which question word means 'which one?'
+practice	places.05	why	is	Hain asks which one; kinsa is who, unsa is what, kanus-a is when.
+practice	places.06	why	place	The short pronoun ko goes in second place, right after naa.
+practice	places.07	why	place	ang marks a place; names take si.
+practice	places.08	p	at	It's at the market
+practice	places.08	why	place is	sa marks the place: 'at the market' is sa merkado.
+practice	places.09	p	to	I'm going to the market.
+practice	places.09	why	at place	sa means 'to, at, in' before a place.
+practice	places.10	p	is	The water is there (near you).
+practice	places.10	why	is	diha is 'there' near the listener.
+practice	places.12	p	at	I'm at home (use naa)
+practice	places.12	why	place	The short pronoun ko goes in second place after naa, and sa comes before the place.
+practice	places.13	p	is at	Pedro is at the church
+practice	places.14	p	is	My house is over there
+practice	places.14	why	place word	akong goes before the noun, and the place word comes first: Didto ang akong balay.
+practice	directions.01	q	On to	On a jeepney, you want to get off now. You say:
+practice	directions.01	why	to	Para! tells the driver to stop.
+practice	directions.03	why	is	liko, then sa and the side; right is tuo.
+practice	directions.04	q	Liko sa wala	In Liko sa wala, wala means…
+practice	directions.04	why	liko sa wala is tuo	After liko sa, wala is the left side; right is tuo.
+practice	directions.05	q	habal is	A habal-habal is…
+practice	directions.05	why	habal is	A habal-habal is a motorbike that carries passengers.
+practice	directions.06	why	is	liko, then sa and the side: right is tuo, left is wala.
+practice	directions.07	p	naog	I'll get off (use naog)
+practice	directions.07	why	place	The short pronoun ko goes in second place, after the verb: Monaog ko.
+practice	directions.08	p	to	Where are you going? (to a friend, use moadto)
+practice	directions.08	why	word place	The question word comes first and ka goes in second place: Asa ka moadto?
+practice	directions.09	why	is	Right is tuo; left is wala.
+practice	directions.10	p	on	Stop here, sir! (on a jeepney)
+practice	directions.10	why	is	Para! stops the jeepney; Bayad is for paying.
+practice	directions.12	why	is	Left is wala, spelled like wala 'none'.
+practice	directions.13	p	to adto	I'm going to the market (use adto)
+practice	directions.13	hint	adto	adto · merkado
+practice	directions.13	why	place	The short pronoun ko goes in second place, after moadto; sa comes before the place.
+practice	directions.14	p	to an	Where are you going, sir? (to an older man, use moadto)
+practice	directions.14	hint	adto	asa · adto · Nong
+practice	directions.14	why	word place	The question word comes first and ka goes in second place: Asa ka moadto, Nong?
+practice	on.01	why	thing on	Past thing-focus: gi-, the doer in the nako-set, and ang on the thing.
+practice	on.02	why	thing on	Future thing-focus: -on, with the doer in the nako-set.
+practice	on.03	q	word is	In 'Gipalit nako ang saging', which word is the focus?
+practice	on.03	why	Thing thing	Thing-focus verb: the thing, saging, gets ang.
+practice	on.04	q	ni Pedro ang mangga	The best English for 'Gikaon ni Pedro ang mangga':
+practice	on.04	o[0]	Pedro	Pedro ate the mango.
+practice	on.04	o[1]	Pedro	Pedro will eat the mango.
+practice	on.04	o[2]	Pedro	The mango ate Pedro.
+practice	on.04	o[3]	Pedro is	Pedro is eating a mango.
+practice	on.04	why	is ni Pedro	gi- is the past form; ni marks Pedro as the doer.
+practice	on.05	why	thing mo	A thing with og goes with a doer-focus mo- verb.
+practice	on.06	why	thing	With a thing-focus verb the doer takes the nako-set and the thing gets ang.
+practice	on.07	why	on	Who gets ang? The mango. The doer of -on takes the nako-set: nako.
+practice	on.08	why	is nako	The doer of a gi- verb is from the nako-set: nimo, not ikaw.
+practice	on.10	why	thing is on	Future thing-focus is -on; gi- is the past form.
+practice	on.11	why	thing	Names take ni when they are the doer of a thing-focus verb.
+practice	on.12	p	palit	I bought the bananas (use palit)
+practice	on.12	hint	palit	palit · saging
+practice	on.12	why	thing	With a thing-focus verb the doer takes the nako-set and the bananas get ang.
+practice	on.13	hint	kaon	kaon · Pedro · mangga
+practice	on.13	why	thing	With a thing-focus verb, names take ni for the doer and the thing gets ang.
+practice	on.14	p	palit	Did you buy the fish? (use palit)
+practice	on.14	hint	palit	palit · isda
+practice	on.14	why	is nako	The doer of a gi- verb is from the nako-set: nimo or mo, and the fish gets ang.
+practice	an.01	why	Place is an	Place-focus past is gi-…-an; Pedro is the focus with si, and the doer is nako-set.
+practice	an.02	why	thing	palihug plus the -i form, then ang and the thing washed.
+practice	an.03	q	nako si Ana is	In 'Gisulatan nako si Ana', who is the focus?
+practice	an.03	o[0]	Ana	Ana
+practice	an.03	why	place to is si Ana	With a place-focus verb the person written to is the focus: si Ana.
+practice	an.04	q	place	The command form of a place-focus verb ends in…
+practice	an.04	why	is	-i is the command; -an is the future form.
+practice	an.06	why	is	Names take si: Pedro is the focus, and the doer is from the nako-set.
+practice	an.07	why	place	With a place-focus verb the doer takes the nako-set and the plate gets ang.
+practice	an.08	p	to	I wrote to Ana
+practice	an.08	why	to is	Names take si: the person written to is the focus, si Ana.
+practice	an.10	why	is place	-i is the command form of a place-focus verb.
+practice	an.11	why	an is	-an is the future form; gi-…-an is the past form.
+practice	an.12	p	hugas	I'll wash the plate (use hugas)
+practice	an.12	hint	hugas	hugas · plato
+practice	an.12	why	place	With a place-focus verb the doer takes the nako-set and the plate gets ang.
+practice	an.13	p	to sulat	I wrote to Ana (use sulat)
+practice	an.13	hint	sulat	sulat · Ana
+practice	an.13	why	is	Names take si: Ana is the focus, and the doer is from the nako-set.
+practice	an.14	p	tabang	Please help me (use tabang)
+practice	an.14	hint	tabang	palihug · tabang
+practice	compare.01	q	is	'This one is bigger' =
+practice	compare.01	why	describing word	mas goes right before the describing word, and the describing word comes first.
+practice	compare.02	q	word	Which word means 'than' in 'bigger than that one'?
+practice	compare.03	why	pinaka to	pinaka- joined to the front means 'the most'.
+practice	compare.05	q	maayo is	labing maayo is…
+practice	compare.05	o[0]	to	a careful way to say 'the best'
+practice	compare.05	why	is word	labing is the careful-speech word for 'most'.
+practice	compare.06	p	is	This one is more expensive
+practice	compare.06	why	word	The main word comes first: Mas mahal kini.
+practice	compare.07	p	is	Ana is prettier (use gwapa)
+practice	compare.08	why	describing word	mas before the describing word, then kaysa for 'than'.
+practice	compare.09	p	is	This one is bigger.
+practice	compare.09	why	describing word	mas before the describing word means 'more'.
+practice	compare.10	p	is	The chicken is tastier than the pork.
+practice	compare.11	p	is	This is the biggest one.
+practice	compare.11	why	pinaka	pinaka- means 'the most': pinakadako.
+practice	compare.12	p	is	My house is bigger
+practice	compare.13	p	is	Your mango is tastier
+practice	compare.14	p	is	The price is the same
+practice	maka.02	q	to	'Have you ever been to Bohol?' =
+practice	maka.02	why	ako	naka- with na asks 'have you ever'; ka, from the ako-set, comes after the verb.
+practice	maka.04	q	to	'I know how to cook' (a skill) =
+practice	maka.04	why	place	kahibalo for a skill, with ko in second place.
+practice	maka.05	q	na ka	'Nakakaon na ka?' means…
+practice	maka.05	why	na	naka- with na asks if something has happened yet.
+practice	maka.07	p	tabang	Can you help? (use tabang)
+practice	maka.07	why	is so ako place	maka- is doer-focus, so ka from the ako-set goes in second place.
+practice	maka.10	p	to	Have you ever been to Bohol?
+practice	maka.11	p	to	I know how to cook.
+practice	maka.11	why	is	kahibalo means 'know how' and is used for skills.
+practice	maka.12	p	adto	I can't go (use adto)
+practice	maka.12	hint	adto	dili · adto
+practice	maka.13	p	adto	Can you go tomorrow? (use adto)
+practice	maka.13	hint	adto	adto · ugma
+practice	maka.13	why	is so place	maka- is doer-focus, so the short pronoun ka goes in second place.
+practice	maka.14	hint	kaon	kaon · na (already, yet)
+labels	ceb.ld.letters-to-watch	text	to	Letters to watch
+lessoncards	ceb.lc0001	note	balay	Like Thai: balay (house), bah-LAI.
+lessoncards	ceb.lc0002	note	sabaw	Like how: sabaw (soup), sah-BOW.
+lessoncards	ceb.lc0003	note	oo luy	oo gliding into a quick y, like gooey said in one beat: luy-a (ginger), looy-ah.
+lessoncards	ceb.lc0004	note	baboy	Like boy: baboy (pork; pig), BAH-boy.
+lessoncards	ceb.lc0006	note	otso	Said ch when a vowel follows: otso (eight), oh-choh.
+lessoncards	ceb.lc0007	note	dyip	Said j when a vowel follows: dyip (jeepney), jeep.
+lessoncards	ceb.lc0008	note	ginikanan	Always hard in Cebuano words, as in go. Before ee or eh the line writes gh: ginikanan (parents), ghee-nee-kah-nahn.
+lessoncards	ceb.lc0009	note	diri	A quick tap, like the tt in American butter: diri (here), dee-REE.
+lessoncards	ceb.lc0010	note	word on	u-lan: u early in the word, a as in father. Stress on the last syllable.
+lessoncards	ceb.lc0011	note	on	pu-la: two full vowels. Stress on the last syllable, not the first as English would put it.
+lessoncards	ceb.lc0012	note	ko is	da-ko: o in the last syllable. The q is a final catch: stop the breath, add no k.
+lessoncards	ceb.lc0014	note	ay	ga-may: g hard, as in go; ay as in Thai.
+lessoncards	ceb.lc0015	note	ka oy on	ka-poy: k with no puff of air; oy as in boy. Stress on the first syllable.
+lessoncards	ceb.lc0016	note	haw is aw	u-haw: the h is said; aw as in how.
+lessoncards	ceb.lc0017	note	bug word aw	bug-naw: u early in the word, g hard; aw as in how.
+lessoncards	ceb.lc0018	note	word aw on	hu-gaw: u early in the word; aw as in how. Stress on the first syllable.
+lessoncards	ceb.lc0022	note	ng word	ngi-pon: ng starts the word, as in singer; o in the last syllable.
+lessoncards	ceb.lc0023	note	ng word	lung-sod: ng as in singer; u early in the word, o in the last syllable.
+lessoncards	ceb.lc0024	note	on	da-gat: g hard; both a's as in father. Stress on the first syllable.
+lessoncards	ceb.lc0025	note	di is on	di-ri: r is a quick tap. Stress on the last syllable.
+# option classes to review: this-that.k2 (prose by its key «Libro kini.»; «Kini ay libro.» «Ang kini libro.» «Kini is libro.» would classify the other way)
+# option classes to review: questions.k3 (target by its key «Dili.»; «Hindi.» would classify the other way)
+# option classes to review: we-you.k3 (target by its key «mga bata»; «batas» would classify the other way)
+# option classes to review: feelings.k3 (prose by its key «My head hurts.»; «I'm sick.» «I'm tired.» would classify the other way)
+# option classes to review: prices.k3 (prose by its key «At a market»; «On a jeepney» would classify the other way)
+# option classes to review: on.k2 (prose by its key «The doer of a gi- verb takes the nako-set: nako»; «saging needs og» would classify the other way)
+# option classes to review: compare.k1 (target by its key «mas dako»; «dakoer» would classify the other way)
+# option classes to review: compare.k2 (target by its key «kaysa»; «labing» would classify the other way)
+# option classes to review: sounds.02 (prose by its key «u and o»; «a and e» «i and u» «a and o» would classify the other way)
+# option classes to review: sounds.04 (prose by its key «the ng in singer»; «an n, then a g» would classify the other way)
+# option classes to review: food.03 (prose by its key «the dish you eat with rice»; «a drink» would classify the other way)
+# option classes to review: directions.05 (prose by its key «a motorbike taxi»; «a ferry» would classify the other way)
+# option classes to review: compare.03 (target by its key «pinakamahal»; «mahaler» would classify the other way)

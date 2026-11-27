@@ -1,0 +1,192 @@
+{
+ "target": "pt",
+ "ttsLang": "pt-BR",
+ "self": "português",
+ "pack": {
+  "accents": true,
+  "keys": "á â ã à é ê í ó ô õ ú ç"
+ },
+ "features": {
+  "script": false,
+  "pron": false,
+  "conj": false,
+  "register": false,
+  "numbers": false,
+  "sound": false,
+  "strokes": false
+ },
+ "groups": [
+  {
+   "id": "pt.grp.first-steps",
+   "decks": [
+    "pt.d.sounds-and-spelling",
+    "pt.d.greetings-and-courtesy",
+    "pt.d.about-me",
+    "pt.d.people-and-family"
+   ]
+  },
+  {
+   "id": "pt.grp.everyday-words",
+   "decks": [
+    "pt.d.numbers-time-and-prices",
+    "pt.d.days-dates-and-weather",
+    "pt.d.food-and-drink",
+    "pt.d.shopping-and-clothes",
+    "pt.d.home-and-routine"
+   ]
+  },
+  {
+   "id": "pt.grp.out-and-about",
+   "decks": [
+    "pt.d.around-town-and-directions",
+    "pt.d.travel-and-transport",
+    "pt.d.health-and-emergencies",
+    "pt.d.work-and-study"
+   ]
+  },
+  {
+   "id": "pt.grp.conversation",
+   "decks": [
+    "pt.d.feelings-and-states",
+    "pt.d.likes-and-free-time",
+    "pt.d.questions-and-connectors",
+    "pt.d.compliments",
+    "pt.d.flirting"
+   ]
+  },
+  {
+   "id": "pt.grp.watch-out",
+   "decks": [
+    "pt.d.traps-for-english-speakers",
+    "pt.d.spoken-brazilian-portuguese"
+   ]
+  },
+  {
+   "id": "pt.grp.core-words",
+   "decks": [
+    "pt.d.top-nouns",
+    "pt.d.top-verbs",
+    "pt.d.top-adjectives",
+    "pt.d.top-adverbs",
+    "pt.d.top-pronouns",
+    "pt.d.top-prepositions",
+    "pt.d.top-conjunctions",
+    "pt.d.top-interjections",
+    "pt.d.top-words"
+   ]
+  }
+ ],
+ "tags": {
+  "first-steps": [
+   "pt.d.sounds-and-spelling",
+   "pt.d.greetings-and-courtesy",
+   "pt.d.about-me",
+   "pt.d.people-and-family"
+  ],
+  "everyday-words": [
+   "pt.d.numbers-time-and-prices",
+   "pt.d.days-dates-and-weather",
+   "pt.d.food-and-drink",
+   "pt.d.shopping-and-clothes",
+   "pt.d.home-and-routine"
+  ],
+  "out-and-about": [
+   "pt.d.around-town-and-directions",
+   "pt.d.travel-and-transport",
+   "pt.d.health-and-emergencies",
+   "pt.d.work-and-study"
+  ],
+  "conversation": [
+   "pt.d.feelings-and-states",
+   "pt.d.likes-and-free-time",
+   "pt.d.questions-and-connectors",
+   "pt.d.compliments",
+   "pt.d.flirting"
+  ],
+  "watch-out": [
+   "pt.d.traps-for-english-speakers",
+   "pt.d.spoken-brazilian-portuguese"
+  ],
+  "core-words": [
+   "pt.d.top-nouns",
+   "pt.d.top-verbs",
+   "pt.d.top-adjectives",
+   "pt.d.top-adverbs",
+   "pt.d.top-pronouns",
+   "pt.d.top-prepositions",
+   "pt.d.top-conjunctions",
+   "pt.d.top-interjections",
+   "pt.d.top-words"
+  ]
+ },
+ "goals": [],
+ "plans": [],
+ "titles": [
+  {
+   "id": "pt.t01",
+   "level": 1
+  },
+  {
+   "id": "pt.t03",
+   "level": 3
+  },
+  {
+   "id": "pt.t05",
+   "level": 5
+  },
+  {
+   "id": "pt.t08",
+   "level": 8
+  },
+  {
+   "id": "pt.t12",
+   "level": 12
+  },
+  {
+   "id": "pt.t16",
+   "level": 16
+  },
+  {
+   "id": "pt.t20",
+   "level": 20
+  }
+ ],
+ "greet": [
+  {
+   "id": "pt.h.night",
+   "pt": "Boa noite"
+  },
+  {
+   "id": "pt.h.morning",
+   "pt": "Bom dia"
+  },
+  {
+   "id": "pt.h.afternoon",
+   "pt": "Boa tarde"
+  },
+  {
+   "id": "pt.h.evening",
+   "pt": "Boa noite"
+  }
+ ],
+ "pairs": [],
+ "pause": {
+  "sets": [],
+  "idioms": []
+ },
+ "uiKeys": [
+  "Portuguese (required)",
+  "Portuguese, pronunciation, meaning, note — one per line (pronunciation/note optional)",
+  "Search a pattern, e.g. 에서 or 'want'",
+  "#first-steps",
+  "#everyday-words",
+  "#out-and-about",
+  "#conversation",
+  "#watch-out",
+  "#core-words"
+ ],
+ "exportedFrom": {
+  "file": "tools/target/pt/ (tools/target/gen.js pt)",
+  "sha256_16": "d7fd4d8a3ad835c5"
+ }
+}

@@ -1,0 +1,51 @@
+{"id":"hmn.t01","text":"Beginner"}
+{"id":"hmn.t03","text":"Reader"}
+{"id":"hmn.t05","text":"Listener"}
+{"id":"hmn.t08","text":"Speaker"}
+{"id":"hmn.t12","text":"Neighbor"}
+{"id":"hmn.t16","text":"Storyteller"}
+{"id":"hmn.t20","text":"Master"}
+{"id":"hmn.h.night","text":"Good night (sleep well)"}
+{"id":"hmn.h.morning","text":"Hello (any time of day)"}
+{"id":"hmn.h.afternoon","text":"Hello (any time of day)"}
+{"id":"hmn.h.evening","text":"Hello (any time of day)"}
+{"id":"hmn.ld.consonant-spellings","text":"Consonant spellings"}
+{"id":"hmn.ld.vowel-spellings","text":"Vowel spellings"}
+{"id":"hmn.ld.read-whole-syllables","text":"Read whole syllables"}
+{"id":"hmn.tl001.01","text":"high"}
+{"id":"hmn.tl001.02","text":"falling"}
+{"id":"hmn.tl001.03","text":"rising"}
+{"id":"hmn.tl001.04","text":"low"}
+{"id":"hmn.tl001.05","text":"breathy"}
+{"id":"hmn.tl001.06","text":"creaky"}
+{"id":"hmn.tl001.07","text":"final"}
+{"id":"hmn.tl002.03","text":"mb"}
+{"id":"hmn.tl002.04","text":"mb+puff"}
+{"id":"hmn.tl002.08","text":"nd"}
+{"id":"hmn.tl002.09","text":"nd+puff"}
+{"id":"hmn.tl002.12","text":"curled t+puff"}
+{"id":"hmn.tl002.14","text":"n+curled t+puff"}
+{"id":"hmn.tl002.16","text":"ty"}
+{"id":"hmn.tl002.17","text":"ty+puff"}
+{"id":"hmn.tl002.19","text":"n+ty+puff"}
+{"id":"hmn.tl002.23","text":"ngg"}
+{"id":"hmn.tl002.24","text":"ngg+puff"}
+{"id":"hmn.tl002.27","text":"back k+puff"}
+{"id":"hmn.tl002.29","text":"n+back k+puff"}
+{"id":"hmn.tl002.33","text":"ndz"}
+{"id":"hmn.tl002.34","text":"ndz+puff"}
+{"id":"hmn.tl002.37","text":"curled ch+puff"}
+{"id":"hmn.tl002.39","text":"n+curled ch+puff"}
+{"id":"hmn.tl002.43","text":"mbl"}
+{"id":"hmn.tl002.44","text":"mbl+puff"}
+{"id":"hmn.tl003.14","text":"sh"}
+{"id":"hmn.tl003.15","text":"zh"}
+{"id":"hmn.tl003.16","text":"hy"}
+{"id":"hmn.tl004.01","text":"ah"}
+{"id":"hmn.tl004.02","text":"ay"}
+{"id":"hmn.tl004.06","text":"ih"}
+{"id":"hmn.tl004.07","text":"eng"}
+{"id":"hmn.tl004.08","text":"ong"}
+{"id":"hmn.tl004.11","text":"eye"}
+{"id":"hmn.tl004.12","text":"ow"}
+{"id":"hmn.tl004.13","text":"ah-ih"}

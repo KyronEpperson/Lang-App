@@ -1,0 +1,899 @@
+{"id":"pt.c0001","deck":"pt.d.sounds-and-spelling","pt":"o pão","rom":"oo powng"}
+{"id":"pt.c0002","deck":"pt.d.sounds-and-spelling","pt":"a mãe","rom":"ah maing"}
+{"id":"pt.c0003","deck":"pt.d.sounds-and-spelling","pt":"a mão","rom":"ah mowng"}
+{"id":"pt.c0004","deck":"pt.d.sounds-and-spelling","pt":"o coração","rom":"oo koh-rah-SOWNG"}
+{"id":"pt.c0005","deck":"pt.d.sounds-and-spelling","pt":"o trabalho","rom":"oo trah-BAH-lyoo"}
+{"id":"pt.c0006","deck":"pt.d.sounds-and-spelling","pt":"o vinho","rom":"oo VEE-nyoo"}
+{"id":"pt.c0007","deck":"pt.d.sounds-and-spelling","pt":"o carro","rom":"oo KAH-hoo"}
+{"id":"pt.c0008","deck":"pt.d.sounds-and-spelling","pt":"a rua","rom":"ah HOO-uh"}
+{"id":"pt.c0009","deck":"pt.d.sounds-and-spelling","pt":"a cidade","rom":"ah see-DAH-jee"}
+{"id":"pt.c0010","deck":"pt.d.sounds-and-spelling","pt":"a noite","rom":"ah NOY-chee"}
+{"id":"pt.c0011","deck":"pt.d.sounds-and-spelling","pt":"o dia","rom":"oo JEE-uh"}
+{"id":"pt.c0012","deck":"pt.d.sounds-and-spelling","pt":"o leite","rom":"oo LAY-chee"}
+{"id":"pt.c0013","deck":"pt.d.sounds-and-spelling","pt":"o Brasil","rom":"oo brah-ZEEW"}
+{"id":"pt.c0014","deck":"pt.d.sounds-and-spelling","pt":"a casa","rom":"ah KAH-zuh"}
+{"id":"pt.c0015","deck":"pt.d.sounds-and-spelling","pt":"a chave","rom":"ah SHAH-vee"}
+{"id":"pt.c0016","deck":"pt.d.sounds-and-spelling","pt":"o queijo","rom":"oo KAY-zhoo"}
+{"id":"pt.c0017","deck":"pt.d.sounds-and-spelling","pt":"o homem","rom":"oo OH-mayng"}
+{"id":"pt.c0018","deck":"pt.d.sounds-and-spelling","pt":"o café","rom":"oo kah-FEH"}
+{"id":"pt.c0019","deck":"pt.d.greetings-and-courtesy","pt":"Oi!","rom":"oy"}
+{"id":"pt.c0020","deck":"pt.d.greetings-and-courtesy","pt":"Bom dia.","rom":"bohng JEE-uh"}
+{"id":"pt.c0021","deck":"pt.d.greetings-and-courtesy","pt":"Boa tarde.","rom":"BOH-uh TAHR-jee"}
+{"id":"pt.c0022","deck":"pt.d.greetings-and-courtesy","pt":"Boa noite.","rom":"BOH-uh NOY-chee"}
+{"id":"pt.c0023","deck":"pt.d.greetings-and-courtesy","pt":"Tudo bem?","rom":"TOO-doo bayng"}
+{"id":"pt.c0024","deck":"pt.d.greetings-and-courtesy","pt":"Tudo bem, e você?","rom":"TOO-doo bayng ee voh-SAY"}
+{"id":"pt.c0025","deck":"pt.d.greetings-and-courtesy","pt":"Obrigado.","rom":"oh-bree-GAH-doo"}
+{"id":"pt.c0026","deck":"pt.d.greetings-and-courtesy","pt":"Obrigada.","rom":"oh-bree-GAH-duh"}
+{"id":"pt.c0027","deck":"pt.d.greetings-and-courtesy","pt":"Muito obrigado.","rom":"MOOYN-too oh-bree-GAH-doo"}
+{"id":"pt.c0028","deck":"pt.d.greetings-and-courtesy","pt":"De nada.","rom":"jee NAH-duh"}
+{"id":"pt.c0029","deck":"pt.d.greetings-and-courtesy","pt":"Por favor.","rom":"pohr fah-VOHR"}
+{"id":"pt.c0030","deck":"pt.d.greetings-and-courtesy","pt":"Com licença.","rom":"kohng lee-SAYN-suh"}
+{"id":"pt.c0031","deck":"pt.d.greetings-and-courtesy","pt":"Desculpa.","rom":"jees-KOOW-puh"}
+{"id":"pt.c0032","deck":"pt.d.greetings-and-courtesy","pt":"Prazer.","rom":"prah-ZAYR"}
+{"id":"pt.c0033","deck":"pt.d.greetings-and-courtesy","pt":"Tchau!","rom":"chow"}
+{"id":"pt.c0034","deck":"pt.d.greetings-and-courtesy","pt":"Até logo.","rom":"ah-TEH LAW-goo"}
+{"id":"pt.c0035","deck":"pt.d.greetings-and-courtesy","pt":"Como vai o senhor?","rom":"KOH-moo vai oo seh-NYOHR"}
+{"id":"pt.c0036","deck":"pt.d.greetings-and-courtesy","pt":"A senhora aceita um café?","rom":"ah seh-NYAW-ruh ah-SAY-tuh oong kah-FEH"}
+{"id":"pt.c0037","deck":"pt.d.about-me","pt":"Eu me chamo Ana.","rom":"ayw mee SHAH-moo AH-nuh"}
+{"id":"pt.c0038","deck":"pt.d.about-me","pt":"Meu nome é Lucas.","rom":"mayw NOH-mee eh LOO-kuhs"}
+{"id":"pt.c0039","deck":"pt.d.about-me","pt":"Como você se chama?","rom":"KOH-moo voh-SAY see SHAH-muh"}
+{"id":"pt.c0040","deck":"pt.d.about-me","pt":"De onde você é?","rom":"jee OHN-jee voh-SAY eh"}
+{"id":"pt.c0041","deck":"pt.d.about-me","pt":"Sou de Orlando.","rom":"soh jee ohr-LAHN-doo"}
+{"id":"pt.c0042","deck":"pt.d.about-me","pt":"Sou dos Estados Unidos.","rom":"soh doos ees-TAH-doos oo-NEE-doos"}
+{"id":"pt.c0043","deck":"pt.d.about-me","pt":"Sou americano.","rom":"soh ah-meh-ree-KAH-noo"}
+{"id":"pt.c0044","deck":"pt.d.about-me","pt":"Onde você mora?","rom":"OHN-jee voh-SAY MAW-ruh"}
+{"id":"pt.c0045","deck":"pt.d.about-me","pt":"Moro em Boston.","rom":"MAW-roo ayng BAWS-tohng"}
+{"id":"pt.c0046","deck":"pt.d.about-me","pt":"Tenho trinta e dois anos.","rom":"TAY-nyoo TREEN-tuh ee doys AH-noos"}
+{"id":"pt.c0047","deck":"pt.d.about-me","pt":"O que você faz?","rom":"oo kee voh-SAY fahs"}
+{"id":"pt.c0048","deck":"pt.d.about-me","pt":"Sou enfermeira.","rom":"soh ayn-fehr-MAY-ruh"}
+{"id":"pt.c0049","deck":"pt.d.about-me","pt":"Sou estudante.","rom":"soh ees-too-DAHN-chee"}
+{"id":"pt.c0050","deck":"pt.d.about-me","pt":"Sou casado.","rom":"soh kah-ZAH-doo"}
+{"id":"pt.c0051","deck":"pt.d.about-me","pt":"Falo um pouco de português.","rom":"FAH-loo oong POH-koo jee pohr-too-GAYS"}
+{"id":"pt.c0052","deck":"pt.d.about-me","pt":"Você fala inglês?","rom":"voh-SAY FAH-luh een-GLAYS"}
+{"id":"pt.c0053","deck":"pt.d.about-me","pt":"Não entendo.","rom":"nowng ayn-TAYN-doo"}
+{"id":"pt.c0054","deck":"pt.d.about-me","pt":"Pode falar mais devagar?","rom":"PAW-jee fah-LAHR mais deh-vah-GAHR"}
+{"id":"pt.c0055","deck":"pt.d.people-and-family","pt":"a minha irmã","rom":"ah MEE-nyuh eer-MAHNG"}
+{"id":"pt.c0056","deck":"pt.d.people-and-family","pt":"o meu irmão","rom":"oo mayw eer-MOWNG"}
+{"id":"pt.c0057","deck":"pt.d.people-and-family","pt":"Você tem irmãos?","rom":"voh-SAY tayng eer-MOWNGS"}
+{"id":"pt.c0058","deck":"pt.d.people-and-family","pt":"os meus pais","rom":"oos mayws pais"}
+{"id":"pt.c0059","deck":"pt.d.people-and-family","pt":"o meu pai","rom":"oo mayw pai"}
+{"id":"pt.c0060","deck":"pt.d.people-and-family","pt":"a minha avó","rom":"ah MEE-nyuh ah-VAW"}
+{"id":"pt.c0061","deck":"pt.d.people-and-family","pt":"os avós","rom":"oos ah-VAWS"}
+{"id":"pt.c0062","deck":"pt.d.people-and-family","pt":"Tenho dois filhos.","rom":"TAY-nyoo doys FEE-lyoos"}
+{"id":"pt.c0063","deck":"pt.d.people-and-family","pt":"o filho dela","rom":"oo FEE-lyoo DEH-luh"}
+{"id":"pt.c0064","deck":"pt.d.people-and-family","pt":"Este é o meu marido.","rom":"AYS-chee eh oo mayw mah-REE-doo"}
+{"id":"pt.c0065","deck":"pt.d.people-and-family","pt":"o namorado","rom":"oo nah-moh-RAH-doo"}
+{"id":"pt.c0066","deck":"pt.d.people-and-family","pt":"a minha melhor amiga","rom":"ah MEE-nyuh meh-LYAWR ah-MEE-guh"}
+{"id":"pt.c0067","deck":"pt.d.people-and-family","pt":"o meu tio","rom":"oo mayw CHEE-oo"}
+{"id":"pt.c0068","deck":"pt.d.people-and-family","pt":"Os meus primos são de Salvador.","rom":"oos mayws PREE-moos sowng jee sow-vah-DOHR"}
+{"id":"pt.c0069","deck":"pt.d.people-and-family","pt":"A minha família é grande.","rom":"ah MEE-nyuh fah-MEE-lyuh eh GRAHN-jee"}
+{"id":"pt.c0070","deck":"pt.d.people-and-family","pt":"Ela é muito simpática.","rom":"EH-luh eh MOOYN-too seem-PAH-chee-kuh"}
+{"id":"pt.c0071","deck":"pt.d.people-and-family","pt":"Ele é alto e moreno.","rom":"AY-lee eh OW-too ee moh-RAY-noo"}
+{"id":"pt.c0072","deck":"pt.d.people-and-family","pt":"a criança","rom":"ah kree-AHN-suh"}
+{"id":"pt.c0073","deck":"pt.d.numbers-time-and-prices","pt":"vinte e cinco","rom":"VEEN-chee ee SEEN-koo"}
+{"id":"pt.c0074","deck":"pt.d.numbers-time-and-prices","pt":"dezesseis","rom":"deh-zeh-SAYS"}
+{"id":"pt.c0075","deck":"pt.d.numbers-time-and-prices","pt":"duas pessoas","rom":"DOO-uhs peh-SOH-uhs"}
+{"id":"pt.c0076","deck":"pt.d.numbers-time-and-prices","pt":"cem","rom":"sayng"}
+{"id":"pt.c0077","deck":"pt.d.numbers-time-and-prices","pt":"cento e cinquenta","rom":"SAYN-too ee seen-KWAYN-tuh"}
+{"id":"pt.c0078","deck":"pt.d.numbers-time-and-prices","pt":"duzentos reais","rom":"doo-ZAYN-toos heh-AIS"}
+{"id":"pt.c0079","deck":"pt.d.numbers-time-and-prices","pt":"mil","rom":"meew"}
+{"id":"pt.c0080","deck":"pt.d.numbers-time-and-prices","pt":"Que horas são?","rom":"kee AW-ruhs sowng"}
+{"id":"pt.c0081","deck":"pt.d.numbers-time-and-prices","pt":"É uma hora.","rom":"eh OO-muh AW-ruh"}
+{"id":"pt.c0082","deck":"pt.d.numbers-time-and-prices","pt":"São duas horas.","rom":"sowng DOO-uhs AW-ruhs"}
+{"id":"pt.c0083","deck":"pt.d.numbers-time-and-prices","pt":"São três e meia.","rom":"sowng trays ee MAY-uh"}
+{"id":"pt.c0084","deck":"pt.d.numbers-time-and-prices","pt":"É meio-dia.","rom":"eh MAY-oo JEE-uh"}
+{"id":"pt.c0085","deck":"pt.d.numbers-time-and-prices","pt":"às oito da manhã","rom":"ahs OY-too dah mah-NYAHNG"}
+{"id":"pt.c0086","deck":"pt.d.numbers-time-and-prices","pt":"A que horas abre?","rom":"ah kee AW-ruhs AH-bree"}
+{"id":"pt.c0087","deck":"pt.d.numbers-time-and-prices","pt":"Quanto custa?","rom":"KWAHN-too KOOS-tuh"}
+{"id":"pt.c0088","deck":"pt.d.numbers-time-and-prices","pt":"Quanto deu?","rom":"KWAHN-too dayw"}
+{"id":"pt.c0089","deck":"pt.d.numbers-time-and-prices","pt":"cinquenta reais","rom":"seen-KWAYN-tuh heh-AIS"}
+{"id":"pt.c0090","deck":"pt.d.numbers-time-and-prices","pt":"dez dólares","rom":"dehs DAW-lah-rees"}
+{"id":"pt.c0091","deck":"pt.d.days-dates-and-weather","pt":"segunda-feira","rom":"seh-GOON-duh FAY-ruh"}
+{"id":"pt.c0092","deck":"pt.d.days-dates-and-weather","pt":"na sexta-feira","rom":"nah SAYS-tuh FAY-ruh"}
+{"id":"pt.c0093","deck":"pt.d.days-dates-and-weather","pt":"Que dia é hoje?","rom":"kee JEE-uh eh OH-zhee"}
+{"id":"pt.c0094","deck":"pt.d.days-dates-and-weather","pt":"Hoje é terça.","rom":"OH-zhee eh TAYR-suh"}
+{"id":"pt.c0095","deck":"pt.d.days-dates-and-weather","pt":"ontem","rom":"OHN-tayng"}
+{"id":"pt.c0096","deck":"pt.d.days-dates-and-weather","pt":"amanhã","rom":"ah-mah-NYAHNG"}
+{"id":"pt.c0097","deck":"pt.d.days-dates-and-weather","pt":"semana que vem","rom":"seh-MAH-nuh kee vayng"}
+{"id":"pt.c0098","deck":"pt.d.days-dates-and-weather","pt":"o dia quinze de setembro","rom":"oo JEE-uh KEEN-zee jee seh-TAYM-broo"}
+{"id":"pt.c0099","deck":"pt.d.days-dates-and-weather","pt":"em janeiro","rom":"ayng zhah-NAY-roo"}
+{"id":"pt.c0100","deck":"pt.d.days-dates-and-weather","pt":"Meu aniversário é dia oito de março.","rom":"mayw ah-nee-vehr-SAH-ryoo eh JEE-uh OY-too jee MAHR-soo"}
+{"id":"pt.c0101","deck":"pt.d.days-dates-and-weather","pt":"Como está o tempo?","rom":"KOH-moo ees-TAH oo TAYM-poo"}
+{"id":"pt.c0102","deck":"pt.d.days-dates-and-weather","pt":"Hoje está quente.","rom":"OH-zhee ees-TAH KAYN-chee"}
+{"id":"pt.c0103","deck":"pt.d.days-dates-and-weather","pt":"Está frio.","rom":"ees-TAH FREE-oo"}
+{"id":"pt.c0104","deck":"pt.d.days-dates-and-weather","pt":"Está chovendo.","rom":"ees-TAH shoh-VAYN-doo"}
+{"id":"pt.c0105","deck":"pt.d.days-dates-and-weather","pt":"Está nublado.","rom":"ees-TAH noo-BLAH-doo"}
+{"id":"pt.c0106","deck":"pt.d.days-dates-and-weather","pt":"Faz trinta graus.","rom":"fahs TREEN-tuh grows"}
+{"id":"pt.c0107","deck":"pt.d.days-dates-and-weather","pt":"o verão","rom":"oo veh-ROWNG"}
+{"id":"pt.c0108","deck":"pt.d.days-dates-and-weather","pt":"Vai chover amanhã.","rom":"vai shoh-VAYR ah-mah-NYAHNG"}
+{"id":"pt.c0109","deck":"pt.d.food-and-drink","pt":"um cafezinho","rom":"oong kah-feh-ZEE-nyoo"}
+{"id":"pt.c0110","deck":"pt.d.food-and-drink","pt":"um pão de queijo","rom":"oong powng jee KAY-zhoo"}
+{"id":"pt.c0111","deck":"pt.d.food-and-drink","pt":"o café da manhã","rom":"oo kah-FEH dah mah-NYAHNG"}
+{"id":"pt.c0112","deck":"pt.d.food-and-drink","pt":"o almoço","rom":"oo ow-MOH-soo"}
+{"id":"pt.c0113","deck":"pt.d.food-and-drink","pt":"o cardápio","rom":"oo kahr-DAH-pyoo"}
+{"id":"pt.c0114","deck":"pt.d.food-and-drink","pt":"uma mesa para dois","rom":"OO-muh MAY-zuh PAH-ruh doys"}
+{"id":"pt.c0115","deck":"pt.d.food-and-drink","pt":"O que você recomenda?","rom":"oo kee voh-SAY heh-koh-MAYN-duh"}
+{"id":"pt.c0116","deck":"pt.d.food-and-drink","pt":"Eu vou querer a feijoada.","rom":"ayw voh keh-RAYR ah fay-zhoh-AH-duh"}
+{"id":"pt.c0117","deck":"pt.d.food-and-drink","pt":"Eu queria um suco de laranja.","rom":"ayw keh-REE-uh oong SOO-koo jee lah-RAHN-zhuh"}
+{"id":"pt.c0118","deck":"pt.d.food-and-drink","pt":"uma água sem gás","rom":"OO-muh AH-gwuh sayng gahs"}
+{"id":"pt.c0119","deck":"pt.d.food-and-drink","pt":"uma cerveja bem gelada","rom":"OO-muh sehr-VAY-zhuh bayng zheh-LAH-duh"}
+{"id":"pt.c0120","deck":"pt.d.food-and-drink","pt":"a coxinha","rom":"ah koh-SHEE-nyuh"}
+{"id":"pt.c0121","deck":"pt.d.food-and-drink","pt":"o arroz com feijão","rom":"oo ah-HOHS kohng fay-ZHOWNG"}
+{"id":"pt.c0122","deck":"pt.d.food-and-drink","pt":"o restaurante por quilo","rom":"oo hehs-tow-RAHN-chee pohr KEE-loo"}
+{"id":"pt.c0123","deck":"pt.d.food-and-drink","pt":"Sem cebola, por favor.","rom":"sayng seh-BOH-luh pohr fah-VOHR"}
+{"id":"pt.c0124","deck":"pt.d.food-and-drink","pt":"a sobremesa","rom":"ah soh-breh-MAY-zuh"}
+{"id":"pt.c0125","deck":"pt.d.food-and-drink","pt":"Está uma delícia!","rom":"ees-TAH OO-muh deh-LEE-syuh"}
+{"id":"pt.c0126","deck":"pt.d.food-and-drink","pt":"A conta, por favor.","rom":"ah KOHN-tuh pohr fah-VOHR"}
+{"id":"pt.c0127","deck":"pt.d.shopping-and-clothes","pt":"a camisa branca","rom":"ah kah-MEE-zuh BRAHN-kuh"}
+{"id":"pt.c0128","deck":"pt.d.shopping-and-clothes","pt":"os sapatos pretos","rom":"oos sah-PAH-toos PRAY-toos"}
+{"id":"pt.c0129","deck":"pt.d.shopping-and-clothes","pt":"a calça azul","rom":"ah KOW-suh ah-ZOOW"}
+{"id":"pt.c0130","deck":"pt.d.shopping-and-clothes","pt":"o vestido vermelho","rom":"oo vehs-CHEE-doo vehr-MAY-lyoo"}
+{"id":"pt.c0131","deck":"pt.d.shopping-and-clothes","pt":"a bolsa marrom","rom":"ah BOHW-suh mah-HOHNG"}
+{"id":"pt.c0132","deck":"pt.d.shopping-and-clothes","pt":"o tênis","rom":"oo TAY-nees"}
+{"id":"pt.c0133","deck":"pt.d.shopping-and-clothes","pt":"o shopping","rom":"oo SHAW-peeng"}
+{"id":"pt.c0134","deck":"pt.d.shopping-and-clothes","pt":"Só estou dando uma olhada.","rom":"saw ees-TOH DAHN-doo OO-muh oh-LYAH-duh"}
+{"id":"pt.c0135","deck":"pt.d.shopping-and-clothes","pt":"Posso experimentar?","rom":"PAW-soo ees-peh-ree-mayn-TAHR"}
+{"id":"pt.c0136","deck":"pt.d.shopping-and-clothes","pt":"Onde fica o provador?","rom":"OHN-jee FEE-kuh oo proh-vah-DOHR"}
+{"id":"pt.c0137","deck":"pt.d.shopping-and-clothes","pt":"Tem um tamanho maior?","rom":"tayng oong tah-MAH-nyoo mai-AWR"}
+{"id":"pt.c0138","deck":"pt.d.shopping-and-clothes","pt":"Tem em preto?","rom":"tayng ayng PRAY-too"}
+{"id":"pt.c0139","deck":"pt.d.shopping-and-clothes","pt":"Ficou grande.","rom":"fee-KOH GRAHN-jee"}
+{"id":"pt.c0140","deck":"pt.d.shopping-and-clothes","pt":"Está muito caro.","rom":"ees-TAH MOOYN-too KAH-roo"}
+{"id":"pt.c0141","deck":"pt.d.shopping-and-clothes","pt":"Vou levar.","rom":"voh leh-VAHR"}
+{"id":"pt.c0142","deck":"pt.d.shopping-and-clothes","pt":"Aceita cartão?","rom":"ah-SAY-tuh kahr-TOWNG"}
+{"id":"pt.c0143","deck":"pt.d.shopping-and-clothes","pt":"No débito ou no crédito?","rom":"noo DEH-bee-too oh noo KREH-jee-too"}
+{"id":"pt.c0144","deck":"pt.d.shopping-and-clothes","pt":"Vou pagar em dinheiro.","rom":"voh pah-GAHR ayng jee-NYAY-roo"}
+{"id":"pt.c0145","deck":"pt.d.home-and-routine","pt":"a cozinha","rom":"ah koh-ZEE-nyuh"}
+{"id":"pt.c0146","deck":"pt.d.home-and-routine","pt":"a sala","rom":"ah SAH-luh"}
+{"id":"pt.c0147","deck":"pt.d.home-and-routine","pt":"o banheiro","rom":"oo bah-NYAY-roo"}
+{"id":"pt.c0148","deck":"pt.d.home-and-routine","pt":"a geladeira","rom":"ah zheh-lah-DAY-ruh"}
+{"id":"pt.c0149","deck":"pt.d.home-and-routine","pt":"Tem dois quartos.","rom":"tayng doys KWAHR-toos"}
+{"id":"pt.c0150","deck":"pt.d.home-and-routine","pt":"Moro num apartamento.","rom":"MAW-roo noong ah-pahr-tah-MAYN-too"}
+{"id":"pt.c0151","deck":"pt.d.home-and-routine","pt":"A chave está em cima da mesa.","rom":"ah SHAH-vee ees-TAH ayng SEE-muh dah MAY-zuh"}
+{"id":"pt.c0152","deck":"pt.d.home-and-routine","pt":"O gato está embaixo da cama.","rom":"oo GAH-too ees-TAH aym-BAI-shoo dah KAH-muh"}
+{"id":"pt.c0153","deck":"pt.d.home-and-routine","pt":"ao lado do sofá","rom":"ow LAH-doo doo soh-FAH"}
+{"id":"pt.c0154","deck":"pt.d.home-and-routine","pt":"Eu acordo às sete.","rom":"ayw ah-KAWR-doo ahs SEH-chee"}
+{"id":"pt.c0155","deck":"pt.d.home-and-routine","pt":"Eu me levanto às sete e meia.","rom":"ayw mee leh-VAHN-too ahs SEH-chee ee MAY-uh"}
+{"id":"pt.c0156","deck":"pt.d.home-and-routine","pt":"Você se levanta cedo?","rom":"voh-SAY see leh-VAHN-tuh SAY-doo"}
+{"id":"pt.c0157","deck":"pt.d.home-and-routine","pt":"Eu tomo banho de manhã.","rom":"ayw TOH-moo BAH-nyoo jee mah-NYAHNG"}
+{"id":"pt.c0158","deck":"pt.d.home-and-routine","pt":"Eu escovo os dentes.","rom":"ayw ees-KAW-voo oos DAYN-chees"}
+{"id":"pt.c0159","deck":"pt.d.home-and-routine","pt":"Saio de casa cedo.","rom":"SAI-oo jee KAH-zuh SAY-doo"}
+{"id":"pt.c0160","deck":"pt.d.home-and-routine","pt":"Chego em casa às seis.","rom":"SHAY-goo ayng KAH-zuh ahs says"}
+{"id":"pt.c0161","deck":"pt.d.home-and-routine","pt":"Eu lavo a louça.","rom":"ayw LAH-voo ah LOH-suh"}
+{"id":"pt.c0162","deck":"pt.d.home-and-routine","pt":"Eu vou dormir às onze.","rom":"ayw voh dohr-MEER ahs OHN-zee"}
+{"id":"pt.c0163","deck":"pt.d.around-town-and-directions","pt":"Onde fica o banheiro?","rom":"OHN-jee FEE-kuh oo bah-NYAY-roo"}
+{"id":"pt.c0164","deck":"pt.d.around-town-and-directions","pt":"à direita","rom":"ah jee-RAY-tuh"}
+{"id":"pt.c0165","deck":"pt.d.around-town-and-directions","pt":"Siga em frente.","rom":"SEE-guh ayng FRAYN-chee"}
+{"id":"pt.c0166","deck":"pt.d.around-town-and-directions","pt":"o ponto de ônibus","rom":"oo POHN-too jee OH-nee-boos"}
+{"id":"pt.c0167","deck":"pt.d.around-town-and-directions","pt":"É perto daqui.","rom":"eh PEHR-too dah-KEE"}
+{"id":"pt.c0168","deck":"pt.d.around-town-and-directions","pt":"à esquerda","rom":"ah ees-KAYR-duh"}
+{"id":"pt.c0169","deck":"pt.d.around-town-and-directions","pt":"Vire à direita na esquina.","rom":"VEE-ree ah jee-RAY-tuh nah ees-KEE-nuh"}
+{"id":"pt.c0170","deck":"pt.d.around-town-and-directions","pt":"Com licença, onde fica o banco?","rom":"kohng lee-SAYN-suh OHN-jee FEE-kuh oo BAHN-koo"}
+{"id":"pt.c0171","deck":"pt.d.around-town-and-directions","pt":"Tem um mercado aqui perto?","rom":"tayng oong mehr-KAH-doo ah-KEE PEHR-too"}
+{"id":"pt.c0172","deck":"pt.d.around-town-and-directions","pt":"Fica na frente da igreja.","rom":"FEE-kuh nah FRAYN-chee dah ee-GRAY-zhuh"}
+{"id":"pt.c0173","deck":"pt.d.around-town-and-directions","pt":"ao lado do banco","rom":"ow LAH-doo doo BAHN-koo"}
+{"id":"pt.c0174","deck":"pt.d.around-town-and-directions","pt":"Estou perdido.","rom":"ees-TOH pehr-JEE-doo"}
+{"id":"pt.c0175","deck":"pt.d.around-town-and-directions","pt":"É longe daqui?","rom":"eh LOHN-zhee dah-KEE"}
+{"id":"pt.c0176","deck":"pt.d.around-town-and-directions","pt":"Atravesse a rua.","rom":"ah-trah-VEH-see ah HOO-uh"}
+{"id":"pt.c0177","deck":"pt.d.around-town-and-directions","pt":"a praça","rom":"ah PRAH-suh"}
+{"id":"pt.c0178","deck":"pt.d.around-town-and-directions","pt":"o centro","rom":"oo SAYN-troo"}
+{"id":"pt.c0179","deck":"pt.d.around-town-and-directions","pt":"Qual é o endereço?","rom":"kwow eh oo ayn-deh-RAY-soo"}
+{"id":"pt.c0180","deck":"pt.d.around-town-and-directions","pt":"Vire à esquerda no sinal.","rom":"VEE-ree ah ees-KAYR-duh noo see-NOW"}
+{"id":"pt.c0181","deck":"pt.d.travel-and-transport","pt":"a passagem","rom":"ah pah-SAH-zhayng"}
+{"id":"pt.c0182","deck":"pt.d.travel-and-transport","pt":"Vou de ônibus.","rom":"voh jee OH-nee-boos"}
+{"id":"pt.c0183","deck":"pt.d.travel-and-transport","pt":"o aeroporto","rom":"oo ah-eh-roh-POHR-too"}
+{"id":"pt.c0184","deck":"pt.d.travel-and-transport","pt":"A que horas sai o voo?","rom":"ah kee AW-ruhs sai oo VOH-oo"}
+{"id":"pt.c0185","deck":"pt.d.travel-and-transport","pt":"no Brasil","rom":"noo brah-ZEEW"}
+{"id":"pt.c0186","deck":"pt.d.travel-and-transport","pt":"a rodoviária","rom":"ah hoh-doh-vee-AH-ryuh"}
+{"id":"pt.c0187","deck":"pt.d.travel-and-transport","pt":"o metrô","rom":"oo meh-TROH"}
+{"id":"pt.c0188","deck":"pt.d.travel-and-transport","pt":"Uma passagem de ida e volta, por favor.","rom":"OO-muh pah-SAH-zhayng jee EE-duh ee VOHW-tuh pohr fah-VOHR"}
+{"id":"pt.c0189","deck":"pt.d.travel-and-transport","pt":"Vou pegar um Uber.","rom":"voh peh-GAHR oong OO-behr"}
+{"id":"pt.c0190","deck":"pt.d.travel-and-transport","pt":"Eu tenho uma reserva.","rom":"ayw TAY-nyoo OO-muh heh-ZEHR-vuh"}
+{"id":"pt.c0191","deck":"pt.d.travel-and-transport","pt":"o passaporte","rom":"oo pah-sah-PAWR-chee"}
+{"id":"pt.c0192","deck":"pt.d.travel-and-transport","pt":"O senhor precisa de ajuda com a mala?","rom":"oo seh-NYOHR preh-SEE-zuh jee ah-ZHOO-duh kohng ah MAH-luh"}
+{"id":"pt.c0193","deck":"pt.d.travel-and-transport","pt":"Este lugar está livre?","rom":"AYS-chee loo-GAHR ees-TAH LEE-vree"}
+{"id":"pt.c0194","deck":"pt.d.travel-and-transport","pt":"O café da manhã está incluído?","rom":"oo kah-FEH dah mah-NYAHNG ees-TAH een-kloo-EE-doo"}
+{"id":"pt.c0195","deck":"pt.d.travel-and-transport","pt":"em São Paulo","rom":"ayng sowng POW-loo"}
+{"id":"pt.c0196","deck":"pt.d.travel-and-transport","pt":"Qual ônibus vai para o centro?","rom":"kwow OH-nee-boos vai PAH-ruh oo SAYN-troo"}
+{"id":"pt.c0197","deck":"pt.d.travel-and-transport","pt":"Estou de férias.","rom":"ees-TOH jee FEH-ryuhs"}
+{"id":"pt.c0198","deck":"pt.d.travel-and-transport","pt":"do Rio para São Paulo","rom":"doo HEE-oo PAH-ruh sowng POW-loo"}
+{"id":"pt.c0199","deck":"pt.d.health-and-emergencies","pt":"Estou com dor de cabeça.","rom":"ees-TOH kohng dohr jee kah-BAY-suh"}
+{"id":"pt.c0200","deck":"pt.d.health-and-emergencies","pt":"Estou doente.","rom":"ees-TOH doh-AYN-chee"}
+{"id":"pt.c0201","deck":"pt.d.health-and-emergencies","pt":"Socorro!","rom":"soh-KOH-hoo"}
+{"id":"pt.c0202","deck":"pt.d.health-and-emergencies","pt":"Pode chamar uma ambulância?","rom":"PAW-jee shah-MAHR OO-muh ahm-boo-LAHN-syuh"}
+{"id":"pt.c0203","deck":"pt.d.health-and-emergencies","pt":"a farmácia","rom":"ah fahr-MAH-syuh"}
+{"id":"pt.c0204","deck":"pt.d.health-and-emergencies","pt":"Preciso de um médico.","rom":"preh-SEE-zoo jee oong MEH-jee-koo"}
+{"id":"pt.c0205","deck":"pt.d.health-and-emergencies","pt":"Estou com febre.","rom":"ees-TOH kohng FEH-bree"}
+{"id":"pt.c0206","deck":"pt.d.health-and-emergencies","pt":"Estou com dor de barriga.","rom":"ees-TOH kohng dohr jee bah-HEE-guh"}
+{"id":"pt.c0207","deck":"pt.d.health-and-emergencies","pt":"Dói aqui.","rom":"doy ah-KEE"}
+{"id":"pt.c0208","deck":"pt.d.health-and-emergencies","pt":"Estou com dor nas costas.","rom":"ees-TOH kohng dohr nahs KAWS-tuhs"}
+{"id":"pt.c0209","deck":"pt.d.health-and-emergencies","pt":"Sou alérgico à penicilina.","rom":"soh ah-LEHR-zhee-koo ah peh-nee-see-LEE-nuh"}
+{"id":"pt.c0210","deck":"pt.d.health-and-emergencies","pt":"Chame a polícia!","rom":"SHAH-mee ah poh-LEE-syuh"}
+{"id":"pt.c0211","deck":"pt.d.health-and-emergencies","pt":"o hospital","rom":"oo ohs-pee-TOW"}
+{"id":"pt.c0212","deck":"pt.d.health-and-emergencies","pt":"O senhor está bem?","rom":"oo seh-NYOHR ees-TAH bayng"}
+{"id":"pt.c0213","deck":"pt.d.health-and-emergencies","pt":"A senhora precisa de ajuda?","rom":"ah seh-NYAW-ruh preh-SEE-zuh jee ah-ZHOO-duh"}
+{"id":"pt.c0214","deck":"pt.d.health-and-emergencies","pt":"Tome este remédio duas vezes por dia.","rom":"TOH-mee AYS-chee heh-MEH-jyoo DOO-uhs VAY-zees pohr JEE-uh"}
+{"id":"pt.c0215","deck":"pt.d.health-and-emergencies","pt":"Eu tenho plano de saúde.","rom":"ayw TAY-nyoo PLAH-noo jee sah-OO-jee"}
+{"id":"pt.c0216","deck":"pt.d.health-and-emergencies","pt":"Estou resfriado.","rom":"ees-TOH hehs-free-AH-doo"}
+{"id":"pt.c0217","deck":"pt.d.work-and-study","pt":"Eu trabalho num escritório.","rom":"ayw trah-BAH-lyoo noong ees-kree-TAW-ryoo"}
+{"id":"pt.c0218","deck":"pt.d.work-and-study","pt":"a reunião","rom":"ah heh-oo-nee-OWNG"}
+{"id":"pt.c0219","deck":"pt.d.work-and-study","pt":"Estou estudando português.","rom":"ees-TOH ees-too-DAHN-doo pohr-too-GAYS"}
+{"id":"pt.c0220","deck":"pt.d.work-and-study","pt":"A minha chefe é do Rio.","rom":"ah MEE-nyuh SHEH-fee eh doo HEE-oo"}
+{"id":"pt.c0221","deck":"pt.d.work-and-study","pt":"a faculdade","rom":"ah fah-koow-DAH-jee"}
+{"id":"pt.c0222","deck":"pt.d.work-and-study","pt":"Onde você trabalha?","rom":"OHN-jee voh-SAY trah-BAH-lyuh"}
+{"id":"pt.c0223","deck":"pt.d.work-and-study","pt":"Trabalho em casa.","rom":"trah-BAH-lyoo ayng KAH-zuh"}
+{"id":"pt.c0224","deck":"pt.d.work-and-study","pt":"Tenho uma reunião às dez.","rom":"TAY-nyoo OO-muh heh-oo-nee-OWNG ahs dehs"}
+{"id":"pt.c0225","deck":"pt.d.work-and-study","pt":"o colega de trabalho","rom":"oo koh-LEH-guh jee trah-BAH-lyoo"}
+{"id":"pt.c0226","deck":"pt.d.work-and-study","pt":"Ela está trabalhando agora.","rom":"EH-luh ees-TAH trah-bah-LYAHN-doo ah-GAW-ruh"}
+{"id":"pt.c0227","deck":"pt.d.work-and-study","pt":"Eu estudo à noite.","rom":"ayw ees-TOO-doo ah NOY-chee"}
+{"id":"pt.c0228","deck":"pt.d.work-and-study","pt":"a prova","rom":"ah PRAW-vuh"}
+{"id":"pt.c0229","deck":"pt.d.work-and-study","pt":"Como se diz isso em português?","rom":"KOH-moo see jees EE-soo ayng pohr-too-GAYS"}
+{"id":"pt.c0230","deck":"pt.d.work-and-study","pt":"a lição de casa","rom":"ah lee-SOWNG jee KAH-zuh"}
+{"id":"pt.c0231","deck":"pt.d.work-and-study","pt":"Estou procurando emprego.","rom":"ees-TOH proh-koo-RAHN-doo aym-PRAY-goo"}
+{"id":"pt.c0232","deck":"pt.d.work-and-study","pt":"o salário","rom":"oo sah-LAH-ryoo"}
+{"id":"pt.c0233","deck":"pt.d.work-and-study","pt":"Nós trabalhamos juntos.","rom":"naws trah-bah-LYAH-moos ZHOON-toos"}
+{"id":"pt.c0234","deck":"pt.d.feelings-and-states","pt":"Estou cansado.","rom":"ees-TOH kahn-SAH-doo"}
+{"id":"pt.c0235","deck":"pt.d.feelings-and-states","pt":"Estou com fome.","rom":"ees-TOH kohng FOH-mee"}
+{"id":"pt.c0236","deck":"pt.d.feelings-and-states","pt":"Estou feliz.","rom":"ees-TOH feh-LEES"}
+{"id":"pt.c0237","deck":"pt.d.feelings-and-states","pt":"Estou com saudade.","rom":"ees-TOH kohng sow-DAH-jee"}
+{"id":"pt.c0238","deck":"pt.d.feelings-and-states","pt":"Estou preocupada.","rom":"ees-TOH preh-oh-koo-PAH-duh"}
+{"id":"pt.c0239","deck":"pt.d.feelings-and-states","pt":"Estou com sede.","rom":"ees-TOH kohng SAY-jee"}
+{"id":"pt.c0240","deck":"pt.d.feelings-and-states","pt":"Estou com frio.","rom":"ees-TOH kohng FREE-oo"}
+{"id":"pt.c0241","deck":"pt.d.feelings-and-states","pt":"Estou com sono.","rom":"ees-TOH kohng SOH-noo"}
+{"id":"pt.c0242","deck":"pt.d.feelings-and-states","pt":"Estou com medo.","rom":"ees-TOH kohng MAY-doo"}
+{"id":"pt.c0243","deck":"pt.d.feelings-and-states","pt":"Estou nervoso.","rom":"ees-TOH nehr-VOH-zoo"}
+{"id":"pt.c0244","deck":"pt.d.feelings-and-states","pt":"Fiquei triste.","rom":"fee-KAY TREES-chee"}
+{"id":"pt.c0245","deck":"pt.d.feelings-and-states","pt":"Estou com pressa.","rom":"ees-TOH kohng PREH-suh"}
+{"id":"pt.c0246","deck":"pt.d.feelings-and-states","pt":"Ela está brava.","rom":"EH-luh ees-TAH BRAH-vuh"}
+{"id":"pt.c0247","deck":"pt.d.feelings-and-states","pt":"Estou entediado.","rom":"ees-TOH ayn-teh-jee-AH-doo"}
+{"id":"pt.c0248","deck":"pt.d.feelings-and-states","pt":"Que bom!","rom":"kee bohng"}
+{"id":"pt.c0249","deck":"pt.d.feelings-and-states","pt":"Que pena.","rom":"kee PAY-nuh"}
+{"id":"pt.c0250","deck":"pt.d.feelings-and-states","pt":"Você está bem?","rom":"voh-SAY ees-TAH bayng"}
+{"id":"pt.c0251","deck":"pt.d.feelings-and-states","pt":"Ele é casado.","rom":"AY-lee eh kah-ZAH-doo"}
+{"id":"pt.c0252","deck":"pt.d.likes-and-free-time","pt":"Eu gosto de futebol.","rom":"ayw GAWS-too jee foo-chee-BOHW"}
+{"id":"pt.c0253","deck":"pt.d.likes-and-free-time","pt":"Você gosta de dançar?","rom":"voh-SAY GAWS-tuh jee dahn-SAHR"}
+{"id":"pt.c0254","deck":"pt.d.likes-and-free-time","pt":"o fim de semana","rom":"oo feeng jee seh-MAH-nuh"}
+{"id":"pt.c0255","deck":"pt.d.likes-and-free-time","pt":"Fui à praia.","rom":"fooy ah PRAI-uh"}
+{"id":"pt.c0256","deck":"pt.d.likes-and-free-time","pt":"Adoro música brasileira.","rom":"ah-DAW-roo MOO-zee-kuh brah-zee-LAY-ruh"}
+{"id":"pt.c0257","deck":"pt.d.likes-and-free-time","pt":"Eu gosto da praia.","rom":"ayw GAWS-too dah PRAI-uh"}
+{"id":"pt.c0258","deck":"pt.d.likes-and-free-time","pt":"Não gosto de acordar cedo.","rom":"nowng GAWS-too jee ah-kohr-DAHR SAY-doo"}
+{"id":"pt.c0259","deck":"pt.d.likes-and-free-time","pt":"Eu também.","rom":"ayw tahm-BAYNG"}
+{"id":"pt.c0260","deck":"pt.d.likes-and-free-time","pt":"Nem eu.","rom":"nayng ayw"}
+{"id":"pt.c0261","deck":"pt.d.likes-and-free-time","pt":"O que você fez no fim de semana?","rom":"oo kee voh-SAY fays noo feeng jee seh-MAH-nuh"}
+{"id":"pt.c0262","deck":"pt.d.likes-and-free-time","pt":"Vi um filme.","rom":"vee oong FEEW-mee"}
+{"id":"pt.c0263","deck":"pt.d.likes-and-free-time","pt":"Toco violão.","rom":"TAW-koo vee-oh-LOWNG"}
+{"id":"pt.c0264","deck":"pt.d.likes-and-free-time","pt":"Nós jogamos futebol aos sábados.","rom":"naws zhoh-GAH-moos foo-chee-BOHW ows SAH-bah-doos"}
+{"id":"pt.c0265","deck":"pt.d.likes-and-free-time","pt":"Vamos ao cinema?","rom":"VAH-moos ow see-NAY-muh"}
+{"id":"pt.c0266","deck":"pt.d.likes-and-free-time","pt":"Ontem saí com uns amigos.","rom":"OHN-tayng sah-EE kohng oongs ah-MEE-goos"}
+{"id":"pt.c0267","deck":"pt.d.likes-and-free-time","pt":"O que você gosta de fazer?","rom":"oo kee voh-SAY GAWS-tuh jee fah-ZAYR"}
+{"id":"pt.c0268","deck":"pt.d.likes-and-free-time","pt":"Prefiro ficar em casa.","rom":"preh-FEE-roo fee-KAHR ayng KAH-zuh"}
+{"id":"pt.c0269","deck":"pt.d.likes-and-free-time","pt":"Foi ótimo!","rom":"foy AW-chee-moo"}
+{"id":"pt.c0270","deck":"pt.d.questions-and-connectors","pt":"Por quê?","rom":"pohr kay"}
+{"id":"pt.c0271","deck":"pt.d.questions-and-connectors","pt":"Quando?","rom":"KWAHN-doo"}
+{"id":"pt.c0272","deck":"pt.d.questions-and-connectors","pt":"Quantos anos você tem?","rom":"KWAHN-toos AH-noos voh-SAY tayng"}
+{"id":"pt.c0273","deck":"pt.d.questions-and-connectors","pt":"mas","rom":"mahs"}
+{"id":"pt.c0274","deck":"pt.d.questions-and-connectors","pt":"também","rom":"tahm-BAYNG"}
+{"id":"pt.c0275","deck":"pt.d.questions-and-connectors","pt":"O que é isso?","rom":"oo kee eh EE-soo"}
+{"id":"pt.c0276","deck":"pt.d.questions-and-connectors","pt":"Quem é ele?","rom":"kayng eh AY-lee"}
+{"id":"pt.c0277","deck":"pt.d.questions-and-connectors","pt":"Como?","rom":"KOH-moo"}
+{"id":"pt.c0278","deck":"pt.d.questions-and-connectors","pt":"Qual você prefere?","rom":"kwow voh-SAY preh-FEH-ree"}
+{"id":"pt.c0279","deck":"pt.d.questions-and-connectors","pt":"Quantas pessoas?","rom":"KWAHN-tuhs peh-SOH-uhs"}
+{"id":"pt.c0280","deck":"pt.d.questions-and-connectors","pt":"porque","rom":"pohr-KAY"}
+{"id":"pt.c0281","deck":"pt.d.questions-and-connectors","pt":"ou","rom":"oh"}
+{"id":"pt.c0282","deck":"pt.d.questions-and-connectors","pt":"e","rom":"ee"}
+{"id":"pt.c0283","deck":"pt.d.questions-and-connectors","pt":"então","rom":"ayn-TOWNG"}
+{"id":"pt.c0284","deck":"pt.d.questions-and-connectors","pt":"Você mora aqui?","rom":"voh-SAY MAW-ruh ah-KEE"}
+{"id":"pt.c0285","deck":"pt.d.questions-and-connectors","pt":"Como você vai para o trabalho?","rom":"KOH-moo voh-SAY vai PAH-ruh oo trah-BAH-lyoo"}
+{"id":"pt.c0286","deck":"pt.d.questions-and-connectors","pt":"Eu estudo e trabalho.","rom":"ayw ees-TOO-doo ee trah-BAH-lyoo"}
+{"id":"pt.c0287","deck":"pt.d.questions-and-connectors","pt":"mais","rom":"mais"}
+{"id":"pt.c0288","deck":"pt.d.traps-for-english-speakers","pt":"os parentes","rom":"oos pah-RAYN-chees"}
+{"id":"pt.c0289","deck":"pt.d.traps-for-english-speakers","pt":"puxar","rom":"poo-SHAHR"}
+{"id":"pt.c0290","deck":"pt.d.traps-for-english-speakers","pt":"pretender","rom":"preh-tayn-DAYR"}
+{"id":"pt.c0291","deck":"pt.d.traps-for-english-speakers","pt":"a livraria","rom":"ah lee-vrah-REE-uh"}
+{"id":"pt.c0292","deck":"pt.d.traps-for-english-speakers","pt":"Tenho vinte anos.","rom":"TAY-nyoo VEEN-chee AH-noos"}
+{"id":"pt.c0293","deck":"pt.d.traps-for-english-speakers","pt":"a fábrica","rom":"ah FAH-bree-kuh"}
+{"id":"pt.c0294","deck":"pt.d.traps-for-english-speakers","pt":"o colégio","rom":"oo koh-LEH-zhyoo"}
+{"id":"pt.c0295","deck":"pt.d.traps-for-english-speakers","pt":"assistir","rom":"ah-sees-CHEER"}
+{"id":"pt.c0296","deck":"pt.d.traps-for-english-speakers","pt":"a notícia","rom":"ah noh-CHEE-syuh"}
+{"id":"pt.c0297","deck":"pt.d.traps-for-english-speakers","pt":"a gripe","rom":"ah GREE-pee"}
+{"id":"pt.c0298","deck":"pt.d.traps-for-english-speakers","pt":"Estou animado.","rom":"ees-TOH ah-nee-MAH-doo"}
+{"id":"pt.c0299","deck":"pt.d.traps-for-english-speakers","pt":"o costume","rom":"oo kohs-TOO-mee"}
+{"id":"pt.c0300","deck":"pt.d.traps-for-english-speakers","pt":"Vou tomar banho.","rom":"voh toh-MAHR BAH-nyoo"}
+{"id":"pt.c0301","deck":"pt.d.traps-for-english-speakers","pt":"Preciso tomar uma decisão.","rom":"preh-SEE-zoo toh-MAHR OO-muh deh-see-ZOWNG"}
+{"id":"pt.c0302","deck":"pt.d.traps-for-english-speakers","pt":"Já vi esse filme.","rom":"zhah vee AY-see FEEW-mee"}
+{"id":"pt.c0303","deck":"pt.d.traps-for-english-speakers","pt":"muito bom","rom":"MOOYN-too bohng"}
+{"id":"pt.c0304","deck":"pt.d.traps-for-english-speakers","pt":"Vou viajar.","rom":"voh vee-ah-ZHAHR"}
+{"id":"pt.c0305","deck":"pt.d.traps-for-english-speakers","pt":"Divirta-se!","rom":"jee-VEER-tuh see"}
+{"id":"pt.c0306","deck":"pt.d.spoken-brazilian-portuguese","pt":"Tô cansado.","rom":"toh kahn-SAH-doo"}
+{"id":"pt.c0307","deck":"pt.d.spoken-brazilian-portuguese","pt":"Tá bom.","rom":"tah bohng"}
+{"id":"pt.c0308","deck":"pt.d.spoken-brazilian-portuguese","pt":"a gente","rom":"ah ZHAYN-chee"}
+{"id":"pt.c0309","deck":"pt.d.spoken-brazilian-portuguese","pt":"Eu vi ele ontem.","rom":"ayw vee AY-lee OHN-tayng"}
+{"id":"pt.c0310","deck":"pt.d.spoken-brazilian-portuguese","pt":"Me ajuda?","rom":"mee ah-ZHOO-duh"}
+{"id":"pt.c0311","deck":"pt.d.spoken-brazilian-portuguese","pt":"Cê tá bem?","rom":"say tah bayng"}
+{"id":"pt.c0312","deck":"pt.d.spoken-brazilian-portuguese","pt":"Vou pra casa.","rom":"voh prah KAH-zuh"}
+{"id":"pt.c0313","deck":"pt.d.spoken-brazilian-portuguese","pt":"A gente se vê.","rom":"ah ZHAYN-chee see vay"}
+{"id":"pt.c0314","deck":"pt.d.spoken-brazilian-portuguese","pt":"Legal!","rom":"leh-GOW"}
+{"id":"pt.c0315","deck":"pt.d.spoken-brazilian-portuguese","pt":"Tá calor, né?","rom":"tah kah-LOHR neh"}
+{"id":"pt.c0316","deck":"pt.d.spoken-brazilian-portuguese","pt":"Cadê o meu celular?","rom":"kah-DAY oo mayw seh-loo-LAHR"}
+{"id":"pt.c0317","deck":"pt.d.spoken-brazilian-portuguese","pt":"Te amo.","rom":"chee AH-moo"}
+{"id":"pt.c0318","deck":"pt.d.spoken-brazilian-portuguese","pt":"Valeu!","rom":"vah-LAYW"}
+{"id":"pt.c0319","deck":"pt.d.spoken-brazilian-portuguese","pt":"Beleza?","rom":"beh-LAY-zuh"}
+{"id":"pt.c0320","deck":"pt.d.spoken-brazilian-portuguese","pt":"Tipo, eu não sei.","rom":"CHEE-poo ayw nowng say"}
+{"id":"pt.c0321","deck":"pt.d.spoken-brazilian-portuguese","pt":"Espera aí!","rom":"ees-PEH-ruh ah-EE"}
+{"id":"pt.c0322","deck":"pt.d.spoken-brazilian-portuguese","pt":"Tô chegando.","rom":"toh sheh-GAHN-doo"}
+{"id":"pt.c0323","deck":"pt.d.spoken-brazilian-portuguese","pt":"Me liga.","rom":"mee LEE-guh"}
+{"id":"pt.c0324","deck":"pt.d.compliments","pt":"Estava tudo uma delícia.","rom":"ees-TAH-vuh TOO-doo OO-muh deh-LEE-syuh"}
+{"id":"pt.c0325","deck":"pt.d.compliments","pt":"Você cozinha muito bem.","rom":"voh-SAY koh-ZEE-nyuh MOOYN-too bayng"}
+{"id":"pt.c0326","deck":"pt.d.compliments","pt":"Que cheiro bom!","rom":"kee SHAY-roo bohng"}
+{"id":"pt.c0327","deck":"pt.d.compliments","pt":"Que gostoso!","rom":"kee gohs-TOH-zoo"}
+{"id":"pt.c0328","deck":"pt.d.compliments","pt":"Parabéns!","rom":"pah-rah-BAYNGS"}
+{"id":"pt.c0329","deck":"pt.d.compliments","pt":"Está de parabéns!","rom":"ees-TAH jee pah-rah-BAYNGS"}
+{"id":"pt.c0330","deck":"pt.d.compliments","pt":"Mandou bem!","rom":"mahn-DOH bayng"}
+{"id":"pt.c0331","deck":"pt.d.compliments","pt":"Você arrasou!","rom":"voh-SAY ah-hah-ZOH"}
+{"id":"pt.c0332","deck":"pt.d.compliments","pt":"Você é muito bom nisso.","rom":"voh-SAY eh MOOYN-too bohng NEE-soo"}
+{"id":"pt.c0333","deck":"pt.d.compliments","pt":"Ótima ideia!","rom":"AW-chee-muh ee-DAY-uh"}
+{"id":"pt.c0334","deck":"pt.d.compliments","pt":"Ficou lindo!","rom":"fee-KOH LEEN-doo"}
+{"id":"pt.c0335","deck":"pt.d.compliments","pt":"Que capricho!","rom":"kee kah-PREE-shoo"}
+{"id":"pt.c0336","deck":"pt.d.compliments","pt":"Você é muito gentil.","rom":"voh-SAY eh MOOYN-too zhayn-CHEEW"}
+{"id":"pt.c0337","deck":"pt.d.compliments","pt":"Você é muito engraçado.","rom":"voh-SAY eh MOOYN-too ayn-grah-SAH-doo"}
+{"id":"pt.c0338","deck":"pt.d.compliments","pt":"Você é muito esforçado.","rom":"voh-SAY eh MOOYN-too ees-fohr-SAH-doo"}
+{"id":"pt.c0339","deck":"pt.d.compliments","pt":"Você é um amor!","rom":"voh-SAY eh oong ah-MOHR"}
+{"id":"pt.c0340","deck":"pt.d.compliments","pt":"Você está muito bem!","rom":"voh-SAY ees-TAH MOOYN-too bayng"}
+{"id":"pt.c0341","deck":"pt.d.compliments","pt":"Ficou ótimo em você.","rom":"fee-KOH AW-chee-moo ayng voh-SAY"}
+{"id":"pt.c0342","deck":"pt.d.compliments","pt":"Adorei a sua roupa.","rom":"ah-doh-RAY ah SOO-uh HOH-puh"}
+{"id":"pt.c0343","deck":"pt.d.compliments","pt":"Sua casa é linda!","rom":"SOO-uh KAH-zuh eh LEEN-duh"}
+{"id":"pt.c0344","deck":"pt.d.compliments","pt":"Que foto linda!","rom":"kee FAW-too LEEN-duh"}
+{"id":"pt.c0345","deck":"pt.d.compliments","pt":"Que gracinha!","rom":"kee grah-SEE-nyuh"}
+{"id":"pt.c0346","deck":"pt.d.compliments","pt":"Você fala muito bem português!","rom":"voh-SAY FAH-luh MOOYN-too bayng pohr-too-GAYS"}
+{"id":"pt.c0347","deck":"pt.d.compliments","pt":"Nem parece que é estrangeiro!","rom":"nayng pah-RAY-see kee eh ees-trahn-ZHAY-roo"}
+{"id":"pt.c0348","deck":"pt.d.compliments","pt":"Que nada!","rom":"kee NAH-duh"}
+{"id":"pt.c0349","deck":"pt.d.compliments","pt":"Bondade sua!","rom":"bohn-DAH-jee SOO-uh"}
+{"id":"pt.c0350","deck":"pt.d.compliments","pt":"Você acha?","rom":"voh-SAY AH-shuh"}
+{"id":"pt.c0351","deck":"pt.d.compliments","pt":"Ainda estou aprendendo.","rom":"ah-EEN-duh ees-TOH ah-prayn-DAYN-doo"}
+{"id":"pt.c0352","deck":"pt.d.compliments","pt":"Você também!","rom":"voh-SAY tahm-BAYNG"}
+{"id":"pt.c0353","deck":"pt.d.compliments","pt":"Adorei!","rom":"ah-doh-RAY"}
+{"id":"pt.c0354","deck":"pt.d.compliments","pt":"Obrigada pelo elogio.","rom":"oh-bree-GAH-duh PAY-loo eh-loh-ZHEE-oo"}
+{"id":"pt.c0355","deck":"pt.d.flirting","pt":"lindo","rom":"LEEN-doo"}
+{"id":"pt.c0356","deck":"pt.d.flirting","pt":"bonito","rom":"boh-NEE-too"}
+{"id":"pt.c0357","deck":"pt.d.flirting","pt":"maravilhoso","rom":"mah-rah-vee-LYOH-zoo"}
+{"id":"pt.c0358","deck":"pt.d.flirting","pt":"charmoso","rom":"shahr-MOH-zoo"}
+{"id":"pt.c0359","deck":"pt.d.flirting","pt":"fofo","rom":"FOH-foo"}
+{"id":"pt.c0360","deck":"pt.d.flirting","pt":"querido","rom":"keh-REE-doo"}
+{"id":"pt.c0361","deck":"pt.d.flirting","pt":"inteligente","rom":"een-teh-lee-ZHAYN-chee"}
+{"id":"pt.c0362","deck":"pt.d.flirting","pt":"carinhoso","rom":"kah-ree-NYOH-zoo"}
+{"id":"pt.c0363","deck":"pt.d.flirting","pt":"cheiroso","rom":"shay-ROH-zoo"}
+{"id":"pt.c0364","deck":"pt.d.flirting","pt":"elegante","rom":"eh-leh-GAHN-chee"}
+{"id":"pt.c0365","deck":"pt.d.flirting","pt":"atraente","rom":"ah-trah-AYN-chee"}
+{"id":"pt.c0366","deck":"pt.d.flirting","pt":"simpático","rom":"seem-PAH-chee-koo"}
+{"id":"pt.c0367","deck":"pt.d.flirting","pt":"o sorriso","rom":"oo soh-HEE-zoo"}
+{"id":"pt.c0368","deck":"pt.d.flirting","pt":"os olhos","rom":"oos AW-lyoos"}
+{"id":"pt.c0369","deck":"pt.d.flirting","pt":"o cabelo","rom":"oo kah-BAY-loo"}
+{"id":"pt.c0370","deck":"pt.d.flirting","pt":"a risada","rom":"ah hee-ZAH-duh"}
+{"id":"pt.c0371","deck":"pt.d.flirting","pt":"o charme","rom":"oo SHAHR-mee"}
+{"id":"pt.c0372","deck":"pt.d.flirting","pt":"o encontro","rom":"oo ayn-KOHN-troo"}
+{"id":"pt.c0373","deck":"pt.d.flirting","pt":"paquerar","rom":"pah-keh-RAHR"}
+{"id":"pt.c0374","deck":"pt.d.flirting","pt":"namorar","rom":"nah-moh-RAHR"}
+{"id":"pt.c0375","deck":"pt.d.flirting","pt":"o beijo","rom":"oo BAY-zhoo"}
+{"id":"pt.c0376","deck":"pt.d.flirting","pt":"o abraço","rom":"oo ah-BRAH-soo"}
+{"id":"pt.c0377","deck":"pt.d.flirting","pt":"Você é linda.","rom":"voh-SAY eh LEEN-duh"}
+{"id":"pt.c0378","deck":"pt.d.flirting","pt":"Você está linda hoje.","rom":"voh-SAY ees-TAH LEEN-duh OH-zhee"}
+{"id":"pt.c0379","deck":"pt.d.flirting","pt":"Que sorriso lindo!","rom":"kee soh-HEE-zoo LEEN-doo"}
+{"id":"pt.c0380","deck":"pt.d.flirting","pt":"Você tem um sorriso lindo.","rom":"voh-SAY tayng oong soh-HEE-zoo LEEN-doo"}
+{"id":"pt.c0381","deck":"pt.d.flirting","pt":"Você está muito bonito.","rom":"voh-SAY ees-TAH MOOYN-too boh-NEE-too"}
+{"id":"pt.c0382","deck":"pt.d.flirting","pt":"Que nome bonito!","rom":"kee NOH-mee boh-NEE-too"}
+{"id":"pt.c0383","deck":"pt.d.flirting","pt":"Você é maravilhosa.","rom":"voh-SAY eh mah-rah-vee-LYAW-zuh"}
+{"id":"pt.c0384","deck":"pt.d.flirting","pt":"Você é muito charmoso.","rom":"voh-SAY eh MOOYN-too shahr-MOH-zoo"}
+{"id":"pt.c0385","deck":"pt.d.flirting","pt":"Que fofo!","rom":"kee FOH-foo"}
+{"id":"pt.c0386","deck":"pt.d.flirting","pt":"Você é um fofo.","rom":"voh-SAY eh oong FOH-foo"}
+{"id":"pt.c0387","deck":"pt.d.flirting","pt":"Você é muito inteligente.","rom":"voh-SAY eh MOOYN-too een-teh-lee-ZHAYN-chee"}
+{"id":"pt.c0388","deck":"pt.d.flirting","pt":"Você é tão carinhoso.","rom":"voh-SAY eh towng kah-ree-NYOH-zoo"}
+{"id":"pt.c0389","deck":"pt.d.flirting","pt":"Você está cheirosa.","rom":"voh-SAY ees-TAH shay-RAW-zuh"}
+{"id":"pt.c0390","deck":"pt.d.flirting","pt":"Que olhos lindos!","rom":"kee AW-lyoos LEEN-doos"}
+{"id":"pt.c0391","deck":"pt.d.flirting","pt":"Adoro os seus olhos.","rom":"ah-DAW-roo oos sayws AW-lyoos"}
+{"id":"pt.c0392","deck":"pt.d.flirting","pt":"Adoro a sua risada.","rom":"ah-DAW-roo ah SOO-uh hee-ZAH-duh"}
+{"id":"pt.c0393","deck":"pt.d.flirting","pt":"Gostei do seu cabelo.","rom":"gohs-TAY doo sayw kah-BAY-loo"}
+{"id":"pt.c0394","deck":"pt.d.flirting","pt":"Você tem muito charme.","rom":"voh-SAY tayng MOOYN-too SHAHR-mee"}
+{"id":"pt.c0395","deck":"pt.d.flirting","pt":"Você me faz rir.","rom":"voh-SAY mee fahs heer"}
+{"id":"pt.c0396","deck":"pt.d.flirting","pt":"Adoro conversar com você.","rom":"ah-DAW-roo kohn-vehr-SAHR kohng voh-SAY"}
+{"id":"pt.c0397","deck":"pt.d.flirting","pt":"Isso é um encontro?","rom":"EE-soo eh oong ayn-KOHN-troo"}
+{"id":"pt.c0398","deck":"pt.d.flirting","pt":"Você está namorando?","rom":"voh-SAY ees-TAH nah-moh-RAHN-doo"}
+{"id":"pt.c0399","deck":"pt.d.flirting","pt":"Vamos tomar um café?","rom":"VAH-moos toh-MAHR oong kah-FEH"}
+{"id":"pt.c0400","deck":"pt.d.flirting","pt":"Quer sair comigo?","rom":"kehr sah-EER koh-MEE-goo"}
+{"id":"pt.c0401","deck":"pt.d.flirting","pt":"Você está livre no sábado?","rom":"voh-SAY ees-TAH LEE-vree noo SAH-bah-doo"}
+{"id":"pt.c0402","deck":"pt.d.flirting","pt":"Vamos jantar qualquer dia?","rom":"VAH-moos zhahn-TAHR kwow-KAYR JEE-uh"}
+{"id":"pt.c0403","deck":"pt.d.flirting","pt":"Me passa seu número?","rom":"mee PAH-suh sayw NOO-meh-roo"}
+{"id":"pt.c0404","deck":"pt.d.flirting","pt":"Gosto de você.","rom":"GAWS-too jee voh-SAY"}
+{"id":"pt.c0405","deck":"pt.d.flirting","pt":"Estou a fim de você.","rom":"ees-TOH ah feeng jee voh-SAY"}
+{"id":"pt.c0406","deck":"pt.d.flirting","pt":"Não paro de pensar em você.","rom":"nowng PAH-roo jee payn-SAHR ayng voh-SAY"}
+{"id":"pt.c0407","deck":"pt.d.flirting","pt":"Senti sua falta.","rom":"sayn-CHEE SOO-uh FOW-tuh"}
+{"id":"pt.c0408","deck":"pt.d.flirting","pt":"Adoraria!","rom":"ah-doh-rah-REE-uh"}
+{"id":"pt.c0409","deck":"pt.d.flirting","pt":"Claro, vamos!","rom":"KLAH-roo VAH-moos"}
+{"id":"pt.c0410","deck":"pt.d.flirting","pt":"Para, assim eu fico sem graça!","rom":"PAH-ruh ah-SEENG ayw FEE-koo sayng GRAH-suh"}
+{"id":"pt.c0411","deck":"pt.d.flirting","pt":"Você fala isso pra todo mundo?","rom":"voh-SAY FAH-luh EE-soo prah TOH-doo MOON-doo"}
+{"id":"pt.c0412","deck":"pt.d.flirting","pt":"Vamos ser só amigos.","rom":"VAH-moos sayr saw ah-MEE-goos"}
+{"id":"pt.c0413","deck":"pt.d.flirting","pt":"Obrigada, mas eu tenho namorado.","rom":"oh-bree-GAH-duh mahs ayw TAY-nyoo nah-moh-RAH-doo"}
+{"id":"pt.c0414","deck":"pt.d.flirting","pt":"Obrigada, mas não estou interessada.","rom":"oh-bree-GAH-duh mahs nowng ees-TOH een-teh-reh-SAH-duh"}
+{"id":"pt.c0415","deck":"pt.d.flirting","pt":"Hoje não, mas obrigada pelo convite.","rom":"OH-zhee nowng mahs oh-bree-GAH-duh PAY-loo kohn-VEE-chee"}
+{"id":"pt.c0416","deck":"pt.d.top-nouns","pt":"a coisa","rom":"ah KOY-zuh"}
+{"id":"pt.c0417","deck":"pt.d.top-nouns","pt":"o tempo","rom":"oo TAYM-poo"}
+{"id":"pt.c0418","deck":"pt.d.top-nouns","pt":"o ano","rom":"oo AH-noo"}
+{"id":"pt.c0419","deck":"pt.d.top-nouns","pt":"a pessoa","rom":"ah peh-SOH-uh"}
+{"id":"pt.c0420","deck":"pt.d.top-nouns","pt":"a vez","rom":"ah vays"}
+{"id":"pt.c0421","deck":"pt.d.top-nouns","pt":"a vida","rom":"ah VEE-duh"}
+{"id":"pt.c0422","deck":"pt.d.top-nouns","pt":"a verdade","rom":"ah vehr-DAH-jee"}
+{"id":"pt.c0423","deck":"pt.d.top-nouns","pt":"o dinheiro","rom":"oo jee-NYAY-roo"}
+{"id":"pt.c0424","deck":"pt.d.top-nouns","pt":"a mulher","rom":"ah moo-LYEHR"}
+{"id":"pt.c0425","deck":"pt.d.top-nouns","pt":"o nome","rom":"oo NOH-mee"}
+{"id":"pt.c0426","deck":"pt.d.top-nouns","pt":"o mundo","rom":"oo MOON-doo"}
+{"id":"pt.c0427","deck":"pt.d.top-nouns","pt":"o amigo","rom":"oo ah-MEE-goo"}
+{"id":"pt.c0428","deck":"pt.d.top-nouns","pt":"o problema","rom":"oo proh-BLAY-muh"}
+{"id":"pt.c0429","deck":"pt.d.top-nouns","pt":"o lado","rom":"oo LAH-doo"}
+{"id":"pt.c0430","deck":"pt.d.top-nouns","pt":"a parte","rom":"ah PAHR-chee"}
+{"id":"pt.c0431","deck":"pt.d.top-nouns","pt":"o lugar","rom":"oo loo-GAHR"}
+{"id":"pt.c0432","deck":"pt.d.top-nouns","pt":"a família","rom":"ah fah-MEE-lyuh"}
+{"id":"pt.c0433","deck":"pt.d.top-nouns","pt":"a razão","rom":"ah hah-ZOWNG"}
+{"id":"pt.c0434","deck":"pt.d.top-nouns","pt":"a ideia","rom":"ah ee-DAY-uh"}
+{"id":"pt.c0435","deck":"pt.d.top-nouns","pt":"a hora","rom":"ah AW-ruh"}
+{"id":"pt.c0436","deck":"pt.d.top-nouns","pt":"a polícia","rom":"ah poh-LEE-syuh"}
+{"id":"pt.c0437","deck":"pt.d.top-nouns","pt":"o amor","rom":"oo ah-MOHR"}
+{"id":"pt.c0438","deck":"pt.d.top-nouns","pt":"a cabeça","rom":"ah kah-BAY-suh"}
+{"id":"pt.c0439","deck":"pt.d.top-nouns","pt":"o momento","rom":"oo moh-MAYN-too"}
+{"id":"pt.c0440","deck":"pt.d.top-nouns","pt":"a história","rom":"ah ees-TAW-ryuh"}
+{"id":"pt.c0441","deck":"pt.d.top-nouns","pt":"a porta","rom":"ah PAWR-tuh"}
+{"id":"pt.c0442","deck":"pt.d.top-nouns","pt":"o caminho","rom":"oo kah-MEE-nyoo"}
+{"id":"pt.c0443","deck":"pt.d.top-nouns","pt":"a sorte","rom":"ah SAWR-chee"}
+{"id":"pt.c0444","deck":"pt.d.top-nouns","pt":"a filha","rom":"ah FEE-lyuh"}
+{"id":"pt.c0445","deck":"pt.d.top-nouns","pt":"o quarto","rom":"oo KWAHR-too"}
+{"id":"pt.c0446","deck":"pt.d.top-nouns","pt":"a manhã","rom":"ah mah-NYAHNG"}
+{"id":"pt.c0447","deck":"pt.d.top-nouns","pt":"a água","rom":"ah AH-gwuh"}
+{"id":"pt.c0448","deck":"pt.d.top-nouns","pt":"a semana","rom":"ah seh-MAH-nuh"}
+{"id":"pt.c0449","deck":"pt.d.top-nouns","pt":"o corpo","rom":"oo KOHR-poo"}
+{"id":"pt.c0450","deck":"pt.d.top-nouns","pt":"o jogo","rom":"oo ZHOH-goo"}
+{"id":"pt.c0451","deck":"pt.d.top-nouns","pt":"a escola","rom":"ah ees-KAW-luh"}
+{"id":"pt.c0452","deck":"pt.d.top-nouns","pt":"o fim","rom":"oo feeng"}
+{"id":"pt.c0453","deck":"pt.d.top-nouns","pt":"o número","rom":"oo NOO-meh-roo"}
+{"id":"pt.c0454","deck":"pt.d.top-nouns","pt":"a festa","rom":"ah FEHS-tuh"}
+{"id":"pt.c0455","deck":"pt.d.top-nouns","pt":"o jeito","rom":"oo ZHAY-too"}
+{"id":"pt.c0456","deck":"pt.d.top-nouns","pt":"a pergunta","rom":"ah pehr-GOON-tuh"}
+{"id":"pt.c0457","deck":"pt.d.top-nouns","pt":"o telefone","rom":"oo teh-leh-FOH-nee"}
+{"id":"pt.c0458","deck":"pt.d.top-nouns","pt":"o cara","rom":"oo KAH-ruh"}
+{"id":"pt.c0459","deck":"pt.d.top-nouns","pt":"a menina","rom":"ah meh-NEE-nuh"}
+{"id":"pt.c0460","deck":"pt.d.top-nouns","pt":"a cama","rom":"ah KAH-muh"}
+{"id":"pt.c0461","deck":"pt.d.top-nouns","pt":"a comida","rom":"ah koh-MEE-duh"}
+{"id":"pt.c0462","deck":"pt.d.top-nouns","pt":"a palavra","rom":"ah pah-LAH-vruh"}
+{"id":"pt.c0463","deck":"pt.d.top-nouns","pt":"o médico","rom":"oo MEH-jee-koo"}
+{"id":"pt.c0464","deck":"pt.d.top-nouns","pt":"o país","rom":"oo pah-EES"}
+{"id":"pt.c0465","deck":"pt.d.top-nouns","pt":"o livro","rom":"oo LEE-vroo"}
+{"id":"pt.c0466","deck":"pt.d.top-nouns","pt":"o ônibus","rom":"oo OH-nee-boos"}
+{"id":"pt.c0467","deck":"pt.d.top-nouns","pt":"o celular","rom":"oo seh-loo-LAHR"}
+{"id":"pt.c0468","deck":"pt.d.top-nouns","pt":"o minuto","rom":"oo mee-NOO-too"}
+{"id":"pt.c0469","deck":"pt.d.top-nouns","pt":"o filme","rom":"oo FEEW-mee"}
+{"id":"pt.c0470","deck":"pt.d.top-nouns","pt":"a música","rom":"ah MOO-zee-kuh"}
+{"id":"pt.c0471","deck":"pt.d.top-nouns","pt":"o pé","rom":"oo peh"}
+{"id":"pt.c0472","deck":"pt.d.top-nouns","pt":"o tipo","rom":"oo CHEE-poo"}
+{"id":"pt.c0473","deck":"pt.d.top-nouns","pt":"a praia","rom":"ah PRAI-uh"}
+{"id":"pt.c0474","deck":"pt.d.top-nouns","pt":"a viagem","rom":"ah vee-AH-zhayng"}
+{"id":"pt.c0475","deck":"pt.d.top-nouns","pt":"a mesa","rom":"ah MAY-zuh"}
+{"id":"pt.c0476","deck":"pt.d.top-nouns","pt":"o emprego","rom":"oo aym-PRAY-goo"}
+{"id":"pt.c0477","deck":"pt.d.top-nouns","pt":"o cachorro","rom":"oo kah-SHOH-hoo"}
+{"id":"pt.c0478","deck":"pt.d.top-nouns","pt":"a resposta","rom":"ah hehs-PAWS-tuh"}
+{"id":"pt.c0479","deck":"pt.d.top-nouns","pt":"o avião","rom":"oo ah-vee-OWNG"}
+{"id":"pt.c0480","deck":"pt.d.top-nouns","pt":"o sol","rom":"oo sohw"}
+{"id":"pt.c0481","deck":"pt.d.top-nouns","pt":"o hotel","rom":"oo oh-TEHW"}
+{"id":"pt.c0482","deck":"pt.d.top-nouns","pt":"o presente","rom":"oo preh-ZAYN-chee"}
+{"id":"pt.c0483","deck":"pt.d.top-nouns","pt":"a loja","rom":"ah LAW-zhuh"}
+{"id":"pt.c0484","deck":"pt.d.top-nouns","pt":"a roupa","rom":"ah HOH-puh"}
+{"id":"pt.c0485","deck":"pt.d.top-nouns","pt":"o professor","rom":"oo proh-feh-SOHR"}
+{"id":"pt.c0486","deck":"pt.d.top-nouns","pt":"o banco","rom":"oo BAHN-koo"}
+{"id":"pt.c0487","deck":"pt.d.top-nouns","pt":"o mês","rom":"oo mays"}
+{"id":"pt.c0488","deck":"pt.d.top-nouns","pt":"a empresa","rom":"ah aym-PRAY-zuh"}
+{"id":"pt.c0489","deck":"pt.d.top-nouns","pt":"o rapaz","rom":"oo hah-PAHS"}
+{"id":"pt.c0490","deck":"pt.d.top-nouns","pt":"o aniversário","rom":"oo ah-nee-vehr-SAH-ryoo"}
+{"id":"pt.c0491","deck":"pt.d.top-nouns","pt":"a igreja","rom":"ah ee-GRAY-zhuh"}
+{"id":"pt.c0492","deck":"pt.d.top-nouns","pt":"a carne","rom":"ah KAHR-nee"}
+{"id":"pt.c0493","deck":"pt.d.top-nouns","pt":"o mar","rom":"oo mahr"}
+{"id":"pt.c0494","deck":"pt.d.top-nouns","pt":"a janela","rom":"ah zhah-NEH-luh"}
+{"id":"pt.c0495","deck":"pt.d.top-nouns","pt":"o menino","rom":"oo meh-NEE-noo"}
+{"id":"pt.c0496","deck":"pt.d.top-nouns","pt":"a foto","rom":"ah FAW-too"}
+{"id":"pt.c0497","deck":"pt.d.top-nouns","pt":"a moça","rom":"ah MOH-suh"}
+{"id":"pt.c0498","deck":"pt.d.top-nouns","pt":"o bebê","rom":"oo beh-BAY"}
+{"id":"pt.c0499","deck":"pt.d.top-nouns","pt":"o fato","rom":"oo FAH-too"}
+{"id":"pt.c0500","deck":"pt.d.top-nouns","pt":"o preço","rom":"oo PRAY-soo"}
+{"id":"pt.c0501","deck":"pt.d.top-nouns","pt":"a mala","rom":"ah MAH-luh"}
+{"id":"pt.c0502","deck":"pt.d.top-nouns","pt":"as férias","rom":"ahs FEH-ryuhs"}
+{"id":"pt.c0503","deck":"pt.d.top-nouns","pt":"o peixe","rom":"oo PAY-shee"}
+{"id":"pt.c0504","deck":"pt.d.top-nouns","pt":"o gato","rom":"oo GAH-too"}
+{"id":"pt.c0505","deck":"pt.d.top-nouns","pt":"a língua","rom":"ah LEEN-gwuh"}
+{"id":"pt.c0506","deck":"pt.d.top-nouns","pt":"a aula","rom":"ah OW-luh"}
+{"id":"pt.c0507","deck":"pt.d.top-nouns","pt":"o mercado","rom":"oo mehr-KAH-doo"}
+{"id":"pt.c0508","deck":"pt.d.top-nouns","pt":"o trem","rom":"oo trayng"}
+{"id":"pt.c0509","deck":"pt.d.top-nouns","pt":"a chuva","rom":"ah SHOO-vuh"}
+{"id":"pt.c0510","deck":"pt.d.top-nouns","pt":"o frango","rom":"oo FRAHN-goo"}
+{"id":"pt.c0511","deck":"pt.d.top-nouns","pt":"o endereço","rom":"oo ayn-deh-RAY-soo"}
+{"id":"pt.c0512","deck":"pt.d.top-nouns","pt":"o ovo","rom":"oo OH-voo"}
+{"id":"pt.c0513","deck":"pt.d.top-nouns","pt":"a fruta","rom":"ah FROO-tuh"}
+{"id":"pt.c0514","deck":"pt.d.top-verbs","pt":"ser","rom":"sayr"}
+{"id":"pt.c0515","deck":"pt.d.top-verbs","pt":"estar","rom":"ees-TAHR"}
+{"id":"pt.c0516","deck":"pt.d.top-verbs","pt":"ter","rom":"tayr"}
+{"id":"pt.c0517","deck":"pt.d.top-verbs","pt":"ir","rom":"eer"}
+{"id":"pt.c0518","deck":"pt.d.top-verbs","pt":"poder","rom":"poh-DAYR"}
+{"id":"pt.c0519","deck":"pt.d.top-verbs","pt":"querer","rom":"keh-RAYR"}
+{"id":"pt.c0520","deck":"pt.d.top-verbs","pt":"saber","rom":"sah-BAYR"}
+{"id":"pt.c0521","deck":"pt.d.top-verbs","pt":"fazer","rom":"fah-ZAYR"}
+{"id":"pt.c0522","deck":"pt.d.top-verbs","pt":"dar","rom":"dahr"}
+{"id":"pt.c0523","deck":"pt.d.top-verbs","pt":"dizer","rom":"jee-ZAYR"}
+{"id":"pt.c0524","deck":"pt.d.top-verbs","pt":"ver","rom":"vayr"}
+{"id":"pt.c0525","deck":"pt.d.top-verbs","pt":"falar","rom":"fah-LAHR"}
+{"id":"pt.c0526","deck":"pt.d.top-verbs","pt":"achar","rom":"ah-SHAHR"}
+{"id":"pt.c0527","deck":"pt.d.top-verbs","pt":"vir","rom":"veer"}
+{"id":"pt.c0528","deck":"pt.d.top-verbs","pt":"gostar","rom":"gohs-TAHR"}
+{"id":"pt.c0529","deck":"pt.d.top-verbs","pt":"precisar","rom":"preh-see-ZAHR"}
+{"id":"pt.c0530","deck":"pt.d.top-verbs","pt":"ficar","rom":"fee-KAHR"}
+{"id":"pt.c0531","deck":"pt.d.top-verbs","pt":"tentar","rom":"tayn-TAHR"}
+{"id":"pt.c0532","deck":"pt.d.top-verbs","pt":"sair","rom":"sah-EER"}
+{"id":"pt.c0533","deck":"pt.d.top-verbs","pt":"pensar","rom":"payn-SAHR"}
+{"id":"pt.c0534","deck":"pt.d.top-verbs","pt":"voltar","rom":"vohw-TAHR"}
+{"id":"pt.c0535","deck":"pt.d.top-verbs","pt":"ajudar","rom":"ah-zhoo-DAHR"}
+{"id":"pt.c0536","deck":"pt.d.top-verbs","pt":"encontrar","rom":"ayn-kohn-TRAHR"}
+{"id":"pt.c0537","deck":"pt.d.top-verbs","pt":"passar","rom":"pah-SAHR"}
+{"id":"pt.c0538","deck":"pt.d.top-verbs","pt":"deixar","rom":"day-SHAHR"}
+{"id":"pt.c0539","deck":"pt.d.top-verbs","pt":"entrar","rom":"ayn-TRAHR"}
+{"id":"pt.c0540","deck":"pt.d.top-verbs","pt":"chegar","rom":"sheh-GAHR"}
+{"id":"pt.c0541","deck":"pt.d.top-verbs","pt":"trabalhar","rom":"trah-bah-LYAHR"}
+{"id":"pt.c0542","deck":"pt.d.top-verbs","pt":"morrer","rom":"moh-HAYR"}
+{"id":"pt.c0543","deck":"pt.d.top-verbs","pt":"entender","rom":"ayn-tayn-DAYR"}
+{"id":"pt.c0544","deck":"pt.d.top-verbs","pt":"ouvir","rom":"oh-VEER"}
+{"id":"pt.c0545","deck":"pt.d.top-verbs","pt":"acontecer","rom":"ah-kohn-teh-SAYR"}
+{"id":"pt.c0546","deck":"pt.d.top-verbs","pt":"levar","rom":"leh-VAHR"}
+{"id":"pt.c0547","deck":"pt.d.top-verbs","pt":"conhecer","rom":"koh-nyeh-SAYR"}
+{"id":"pt.c0548","deck":"pt.d.top-verbs","pt":"começar","rom":"koh-meh-SAHR"}
+{"id":"pt.c0549","deck":"pt.d.top-verbs","pt":"usar","rom":"oo-ZAHR"}
+{"id":"pt.c0550","deck":"pt.d.top-verbs","pt":"comer","rom":"koh-MAYR"}
+{"id":"pt.c0551","deck":"pt.d.top-verbs","pt":"dormir","rom":"dohr-MEER"}
+{"id":"pt.c0552","deck":"pt.d.top-verbs","pt":"viver","rom":"vee-VAYR"}
+{"id":"pt.c0553","deck":"pt.d.top-verbs","pt":"pegar","rom":"peh-GAHR"}
+{"id":"pt.c0554","deck":"pt.d.top-verbs","pt":"andar","rom":"ahn-DAHR"}
+{"id":"pt.c0555","deck":"pt.d.top-verbs","pt":"perder","rom":"pehr-DAYR"}
+{"id":"pt.c0556","deck":"pt.d.top-verbs","pt":"esperar","rom":"ees-peh-RAHR"}
+{"id":"pt.c0557","deck":"pt.d.top-verbs","pt":"acabar","rom":"ah-kah-BAHR"}
+{"id":"pt.c0558","deck":"pt.d.top-verbs","pt":"olhar","rom":"oh-LYAHR"}
+{"id":"pt.c0559","deck":"pt.d.top-verbs","pt":"pedir","rom":"peh-JEER"}
+{"id":"pt.c0560","deck":"pt.d.top-verbs","pt":"conseguir","rom":"kohn-seh-GHEER"}
+{"id":"pt.c0561","deck":"pt.d.top-verbs","pt":"tomar","rom":"toh-MAHR"}
+{"id":"pt.c0562","deck":"pt.d.top-verbs","pt":"jantar","rom":"zhahn-TAHR"}
+{"id":"pt.c0563","deck":"pt.d.top-verbs","pt":"lembrar","rom":"laym-BRAHR"}
+{"id":"pt.c0564","deck":"pt.d.top-verbs","pt":"correr","rom":"koh-HAYR"}
+{"id":"pt.c0565","deck":"pt.d.top-verbs","pt":"mudar","rom":"moo-DAHR"}
+{"id":"pt.c0566","deck":"pt.d.top-verbs","pt":"sentir","rom":"sayn-CHEER"}
+{"id":"pt.c0567","deck":"pt.d.top-verbs","pt":"pagar","rom":"pah-GAHR"}
+{"id":"pt.c0568","deck":"pt.d.top-verbs","pt":"acreditar","rom":"ah-kreh-jee-TAHR"}
+{"id":"pt.c0569","deck":"pt.d.top-verbs","pt":"continuar","rom":"kohn-chee-noo-AHR"}
+{"id":"pt.c0570","deck":"pt.d.top-verbs","pt":"ligar","rom":"lee-GAHR"}
+{"id":"pt.c0571","deck":"pt.d.top-verbs","pt":"pôr","rom":"pohr"}
+{"id":"pt.c0572","deck":"pt.d.top-verbs","pt":"beber","rom":"beh-BAYR"}
+{"id":"pt.c0573","deck":"pt.d.top-verbs","pt":"ganhar","rom":"gah-NYAHR"}
+{"id":"pt.c0574","deck":"pt.d.top-verbs","pt":"comprar","rom":"kohm-PRAHR"}
+{"id":"pt.c0575","deck":"pt.d.top-verbs","pt":"jogar","rom":"zhoh-GAHR"}
+{"id":"pt.c0576","deck":"pt.d.top-verbs","pt":"colocar","rom":"koh-loh-KAHR"}
+{"id":"pt.c0577","deck":"pt.d.top-verbs","pt":"morar","rom":"moh-RAHR"}
+{"id":"pt.c0578","deck":"pt.d.top-verbs","pt":"perguntar","rom":"pehr-goon-TAHR"}
+{"id":"pt.c0579","deck":"pt.d.top-verbs","pt":"chamar","rom":"shah-MAHR"}
+{"id":"pt.c0580","deck":"pt.d.top-verbs","pt":"procurar","rom":"proh-koo-RAHR"}
+{"id":"pt.c0581","deck":"pt.d.top-verbs","pt":"ler","rom":"layr"}
+{"id":"pt.c0582","deck":"pt.d.top-verbs","pt":"abrir","rom":"ah-BREER"}
+{"id":"pt.c0583","deck":"pt.d.top-verbs","pt":"mostrar","rom":"mohs-TRAHR"}
+{"id":"pt.c0584","deck":"pt.d.top-verbs","pt":"casar","rom":"kah-ZAHR"}
+{"id":"pt.c0585","deck":"pt.d.top-verbs","pt":"trazer","rom":"trah-ZAYR"}
+{"id":"pt.c0586","deck":"pt.d.top-verbs","pt":"tocar","rom":"toh-KAHR"}
+{"id":"pt.c0587","deck":"pt.d.top-verbs","pt":"conversar","rom":"kohn-vehr-SAHR"}
+{"id":"pt.c0588","deck":"pt.d.top-verbs","pt":"cair","rom":"kah-EER"}
+{"id":"pt.c0589","deck":"pt.d.top-verbs","pt":"escrever","rom":"ees-kreh-VAYR"}
+{"id":"pt.c0590","deck":"pt.d.top-verbs","pt":"demorar","rom":"deh-moh-RAHR"}
+{"id":"pt.c0591","deck":"pt.d.top-verbs","pt":"receber","rom":"heh-seh-BAYR"}
+{"id":"pt.c0592","deck":"pt.d.top-verbs","pt":"aprender","rom":"ah-prayn-DAYR"}
+{"id":"pt.c0593","deck":"pt.d.top-verbs","pt":"parecer","rom":"pah-reh-SAYR"}
+{"id":"pt.c0594","deck":"pt.d.top-verbs","pt":"vender","rom":"vayn-DAYR"}
+{"id":"pt.c0595","deck":"pt.d.top-verbs","pt":"esquecer","rom":"ees-keh-SAYR"}
+{"id":"pt.c0596","deck":"pt.d.top-verbs","pt":"mandar","rom":"mahn-DAHR"}
+{"id":"pt.c0597","deck":"pt.d.top-verbs","pt":"dançar","rom":"dahn-SAHR"}
+{"id":"pt.c0598","deck":"pt.d.top-verbs","pt":"preferir","rom":"preh-feh-REER"}
+{"id":"pt.c0599","deck":"pt.d.top-verbs","pt":"adorar","rom":"ah-doh-RAHR"}
+{"id":"pt.c0600","deck":"pt.d.top-verbs","pt":"subir","rom":"soo-BEER"}
+{"id":"pt.c0601","deck":"pt.d.top-verbs","pt":"responder","rom":"hehs-pohn-DAYR"}
+{"id":"pt.c0602","deck":"pt.d.top-verbs","pt":"cantar","rom":"kahn-TAHR"}
+{"id":"pt.c0603","deck":"pt.d.top-verbs","pt":"fechar","rom":"feh-SHAHR"}
+{"id":"pt.c0604","deck":"pt.d.top-verbs","pt":"descansar","rom":"jees-kahn-SAHR"}
+{"id":"pt.c0605","deck":"pt.d.top-verbs","pt":"acordar","rom":"ah-kohr-DAHR"}
+{"id":"pt.c0606","deck":"pt.d.top-verbs","pt":"rir","rom":"heer"}
+{"id":"pt.c0607","deck":"pt.d.top-verbs","pt":"decidir","rom":"deh-see-JEER"}
+{"id":"pt.c0608","deck":"pt.d.top-verbs","pt":"descer","rom":"deh-SAYR"}
+{"id":"pt.c0609","deck":"pt.d.top-verbs","pt":"levantar","rom":"leh-vahn-TAHR"}
+{"id":"pt.c0610","deck":"pt.d.top-verbs","pt":"estudar","rom":"ees-too-DAHR"}
+{"id":"pt.c0611","deck":"pt.d.top-verbs","pt":"viajar","rom":"vee-ah-ZHAHR"}
+{"id":"pt.c0612","deck":"pt.d.top-verbs","pt":"amar","rom":"ah-MAHR"}
+{"id":"pt.c0613","deck":"pt.d.top-verbs","pt":"lavar","rom":"lah-VAHR"}
+{"id":"pt.c0614","deck":"pt.d.top-verbs","pt":"ensinar","rom":"ayn-see-NAHR"}
+{"id":"pt.c0615","deck":"pt.d.top-verbs","pt":"sentar","rom":"sayn-TAHR"}
+{"id":"pt.c0616","deck":"pt.d.top-verbs","pt":"cozinhar","rom":"koh-zee-NYAHR"}
+{"id":"pt.c0617","deck":"pt.d.top-verbs","pt":"nascer","rom":"nah-SAYR"}
+{"id":"pt.c0618","deck":"pt.d.top-verbs","pt":"almoçar","rom":"ow-moh-SAHR"}
+{"id":"pt.c0619","deck":"pt.d.top-verbs","pt":"sonhar","rom":"soh-NYAHR"}
+{"id":"pt.c0620","deck":"pt.d.top-verbs","pt":"valer","rom":"vah-LAYR"}
+{"id":"pt.c0621","deck":"pt.d.top-verbs","pt":"chover","rom":"shoh-VAYR"}
+{"id":"pt.c0622","deck":"pt.d.top-verbs","pt":"custar","rom":"koos-TAHR"}
+{"id":"pt.c0623","deck":"pt.d.top-adjectives","pt":"bom","rom":"bohng"}
+{"id":"pt.c0624","deck":"pt.d.top-adjectives","pt":"melhor","rom":"meh-LYAWR"}
+{"id":"pt.c0625","deck":"pt.d.top-adjectives","pt":"certo","rom":"SEHR-too"}
+{"id":"pt.c0626","deck":"pt.d.top-adjectives","pt":"grande","rom":"GRAHN-jee"}
+{"id":"pt.c0627","deck":"pt.d.top-adjectives","pt":"novo","rom":"NOH-voo"}
+{"id":"pt.c0628","deck":"pt.d.top-adjectives","pt":"primeiro","rom":"pree-MAY-roo"}
+{"id":"pt.c0629","deck":"pt.d.top-adjectives","pt":"pronto","rom":"PROHN-too"}
+{"id":"pt.c0630","deck":"pt.d.top-adjectives","pt":"feliz","rom":"feh-LEES"}
+{"id":"pt.c0631","deck":"pt.d.top-adjectives","pt":"difícil","rom":"jee-FEE-seew"}
+{"id":"pt.c0632","deck":"pt.d.top-adjectives","pt":"importante","rom":"eem-pohr-TAHN-chee"}
+{"id":"pt.c0633","deck":"pt.d.top-adjectives","pt":"ruim","rom":"hoo-EENG"}
+{"id":"pt.c0634","deck":"pt.d.top-adjectives","pt":"baixo","rom":"BAI-shoo"}
+{"id":"pt.c0635","deck":"pt.d.top-adjectives","pt":"rápido","rom":"HAH-pee-doo"}
+{"id":"pt.c0636","deck":"pt.d.top-adjectives","pt":"possível","rom":"poh-SEE-vehw"}
+{"id":"pt.c0637","deck":"pt.d.top-adjectives","pt":"estranho","rom":"ees-TRAH-nyoo"}
+{"id":"pt.c0638","deck":"pt.d.top-adjectives","pt":"fácil","rom":"FAH-seew"}
+{"id":"pt.c0639","deck":"pt.d.top-adjectives","pt":"velho","rom":"VEH-lyoo"}
+{"id":"pt.c0640","deck":"pt.d.top-adjectives","pt":"pequeno","rom":"peh-KAY-noo"}
+{"id":"pt.c0641","deck":"pt.d.top-adjectives","pt":"errado","rom":"eh-HAH-doo"}
+{"id":"pt.c0642","deck":"pt.d.top-adjectives","pt":"sozinho","rom":"soh-ZEE-nyoo"}
+{"id":"pt.c0643","deck":"pt.d.top-adjectives","pt":"diferente","rom":"jee-feh-RAYN-chee"}
+{"id":"pt.c0644","deck":"pt.d.top-adjectives","pt":"pior","rom":"pee-AWR"}
+{"id":"pt.c0645","deck":"pt.d.top-adjectives","pt":"forte","rom":"FAWR-chee"}
+{"id":"pt.c0646","deck":"pt.d.top-adjectives","pt":"especial","rom":"ees-peh-see-OW"}
+{"id":"pt.c0647","deck":"pt.d.top-adjectives","pt":"último","rom":"OOW-chee-moo"}
+{"id":"pt.c0648","deck":"pt.d.top-adjectives","pt":"jovem","rom":"ZHAW-vayng"}
+{"id":"pt.c0649","deck":"pt.d.top-adjectives","pt":"seguro","rom":"seh-GOO-roo"}
+{"id":"pt.c0650","deck":"pt.d.top-adjectives","pt":"próximo","rom":"PRAW-see-moo"}
+{"id":"pt.c0651","deck":"pt.d.top-adjectives","pt":"livre","rom":"LEE-vree"}
+{"id":"pt.c0652","deck":"pt.d.top-adjectives","pt":"alto","rom":"OW-too"}
+{"id":"pt.c0653","deck":"pt.d.top-adjectives","pt":"perfeito","rom":"pehr-FAY-too"}
+{"id":"pt.c0654","deck":"pt.d.top-adjectives","pt":"normal","rom":"nohr-MOW"}
+{"id":"pt.c0655","deck":"pt.d.top-adjectives","pt":"simples","rom":"SEEM-plees"}
+{"id":"pt.c0656","deck":"pt.d.top-adjectives","pt":"doente","rom":"doh-AYN-chee"}
+{"id":"pt.c0657","deck":"pt.d.top-adjectives","pt":"incrível","rom":"een-KREE-vehw"}
+{"id":"pt.c0658","deck":"pt.d.top-adjectives","pt":"tranquilo","rom":"trahn-KWEE-loo"}
+{"id":"pt.c0659","deck":"pt.d.top-adjectives","pt":"brasileiro","rom":"brah-zee-LAY-roo"}
+{"id":"pt.c0660","deck":"pt.d.top-adjectives","pt":"ótimo","rom":"AW-chee-moo"}
+{"id":"pt.c0661","deck":"pt.d.top-adjectives","pt":"cheio","rom":"SHAY-oo"}
+{"id":"pt.c0662","deck":"pt.d.top-adjectives","pt":"quente","rom":"KAYN-chee"}
+{"id":"pt.c0663","deck":"pt.d.top-adjectives","pt":"frio","rom":"FREE-oo"}
+{"id":"pt.c0664","deck":"pt.d.top-adjectives","pt":"triste","rom":"TREES-chee"}
+{"id":"pt.c0665","deck":"pt.d.top-adjectives","pt":"branco","rom":"BRAHN-koo"}
+{"id":"pt.c0666","deck":"pt.d.top-adjectives","pt":"pobre","rom":"PAW-bree"}
+{"id":"pt.c0667","deck":"pt.d.top-adjectives","pt":"junto","rom":"ZHOON-too"}
+{"id":"pt.c0668","deck":"pt.d.top-adjectives","pt":"azul","rom":"ah-ZOOW"}
+{"id":"pt.c0669","deck":"pt.d.top-adjectives","pt":"ocupado","rom":"oh-koo-PAH-doo"}
+{"id":"pt.c0670","deck":"pt.d.top-adjectives","pt":"igual","rom":"ee-GWOW"}
+{"id":"pt.c0671","deck":"pt.d.top-adjectives","pt":"vermelho","rom":"vehr-MAY-lyoo"}
+{"id":"pt.c0672","deck":"pt.d.top-adjectives","pt":"limpo","rom":"LEEM-poo"}
+{"id":"pt.c0673","deck":"pt.d.top-adjectives","pt":"preto","rom":"PRAY-too"}
+{"id":"pt.c0674","deck":"pt.d.top-adjectives","pt":"verde","rom":"VAYR-jee"}
+{"id":"pt.c0675","deck":"pt.d.top-adjectives","pt":"cansado","rom":"kahn-SAH-doo"}
+{"id":"pt.c0676","deck":"pt.d.top-adjectives","pt":"rico","rom":"HEE-koo"}
+{"id":"pt.c0677","deck":"pt.d.top-adjectives","pt":"caro","rom":"KAH-roo"}
+{"id":"pt.c0678","deck":"pt.d.top-adjectives","pt":"vazio","rom":"vah-ZEE-oo"}
+{"id":"pt.c0679","deck":"pt.d.top-adjectives","pt":"famoso","rom":"fah-MOH-zoo"}
+{"id":"pt.c0680","deck":"pt.d.top-adjectives","pt":"fechado","rom":"feh-SHAH-doo"}
+{"id":"pt.c0681","deck":"pt.d.top-adjectives","pt":"gentil","rom":"zhayn-CHEEW"}
+{"id":"pt.c0682","deck":"pt.d.top-adjectives","pt":"sujo","rom":"SOO-zhoo"}
+{"id":"pt.c0683","deck":"pt.d.top-adjectives","pt":"curto","rom":"KOOR-too"}
+{"id":"pt.c0684","deck":"pt.d.top-adjectives","pt":"barato","rom":"bah-RAH-too"}
+{"id":"pt.c0685","deck":"pt.d.top-adjectives","pt":"amarelo","rom":"ah-mah-REH-loo"}
+{"id":"pt.c0686","deck":"pt.d.top-adjectives","pt":"lento","rom":"LAYN-too"}
+{"id":"pt.c0687","deck":"pt.d.top-adjectives","pt":"comprido","rom":"kohm-PREE-doo"}
+{"id":"pt.c0688","deck":"pt.d.top-adverbs","pt":"bem","rom":"bayng"}
+{"id":"pt.c0689","deck":"pt.d.top-adverbs","pt":"aqui","rom":"ah-KEE"}
+{"id":"pt.c0690","deck":"pt.d.top-adverbs","pt":"muito","rom":"MOOYN-too"}
+{"id":"pt.c0691","deck":"pt.d.top-adverbs","pt":"já","rom":"zhah"}
+{"id":"pt.c0692","deck":"pt.d.top-adverbs","pt":"só","rom":"saw"}
+{"id":"pt.c0693","deck":"pt.d.top-adverbs","pt":"agora","rom":"ah-GAW-ruh"}
+{"id":"pt.c0694","deck":"pt.d.top-adverbs","pt":"lá","rom":"lah"}
+{"id":"pt.c0695","deck":"pt.d.top-adverbs","pt":"nunca","rom":"NOON-kuh"}
+{"id":"pt.c0696","deck":"pt.d.top-adverbs","pt":"assim","rom":"ah-SEENG"}
+{"id":"pt.c0697","deck":"pt.d.top-adverbs","pt":"ainda","rom":"ah-EEN-duh"}
+{"id":"pt.c0698","deck":"pt.d.top-adverbs","pt":"depois","rom":"deh-POYS"}
+{"id":"pt.c0699","deck":"pt.d.top-adverbs","pt":"tão","rom":"towng"}
+{"id":"pt.c0700","deck":"pt.d.top-adverbs","pt":"talvez","rom":"tow-VAYS"}
+{"id":"pt.c0701","deck":"pt.d.top-adverbs","pt":"sempre","rom":"SAYM-pree"}
+{"id":"pt.c0702","deck":"pt.d.top-adverbs","pt":"antes","rom":"AHN-chees"}
+{"id":"pt.c0703","deck":"pt.d.top-adverbs","pt":"apenas","rom":"ah-PAY-nuhs"}
+{"id":"pt.c0704","deck":"pt.d.top-adverbs","pt":"aí","rom":"ah-EE"}
+{"id":"pt.c0705","deck":"pt.d.top-adverbs","pt":"pouco","rom":"POH-koo"}
+{"id":"pt.c0706","deck":"pt.d.top-adverbs","pt":"hoje","rom":"OH-zhee"}
+{"id":"pt.c0707","deck":"pt.d.top-adverbs","pt":"fora","rom":"FAW-ruh"}
+{"id":"pt.c0708","deck":"pt.d.top-adverbs","pt":"mal","rom":"mow"}
+{"id":"pt.c0709","deck":"pt.d.top-adverbs","pt":"menos","rom":"MAY-noos"}
+{"id":"pt.c0710","deck":"pt.d.top-adverbs","pt":"dentro","rom":"DAYN-troo"}
+{"id":"pt.c0711","deck":"pt.d.top-adverbs","pt":"ali","rom":"ah-LEE"}
+{"id":"pt.c0712","deck":"pt.d.top-adverbs","pt":"atrás","rom":"ah-TRAHS"}
+{"id":"pt.c0713","deck":"pt.d.top-adverbs","pt":"tarde","rom":"TAHR-jee"}
+{"id":"pt.c0714","deck":"pt.d.top-adverbs","pt":"quase","rom":"KWAH-zee"}
+{"id":"pt.c0715","deck":"pt.d.top-adverbs","pt":"de novo","rom":"jee NOH-voo"}
+{"id":"pt.c0716","deck":"pt.d.top-adverbs","pt":"realmente","rom":"heh-ow-MAYN-chee"}
+{"id":"pt.c0717","deck":"pt.d.top-adverbs","pt":"logo","rom":"LAW-goo"}
+{"id":"pt.c0718","deck":"pt.d.top-adverbs","pt":"às vezes","rom":"ahs VAY-zees"}
+{"id":"pt.c0719","deck":"pt.d.top-adverbs","pt":"bastante","rom":"bahs-TAHN-chee"}
+{"id":"pt.c0720","deck":"pt.d.top-adverbs","pt":"demais","rom":"deh-MAIS"}
+{"id":"pt.c0721","deck":"pt.d.top-adverbs","pt":"cedo","rom":"SAY-doo"}
+{"id":"pt.c0722","deck":"pt.d.top-adverbs","pt":"finalmente","rom":"fee-now-MAYN-chee"}
+{"id":"pt.c0723","deck":"pt.d.top-adverbs","pt":"de repente","rom":"jee heh-PAYN-chee"}
+{"id":"pt.c0724","deck":"pt.d.top-adverbs","pt":"devagar","rom":"deh-vah-GAHR"}
+{"id":"pt.c0725","deck":"pt.d.top-adverbs","pt":"normalmente","rom":"nohr-mow-MAYN-chee"}
+{"id":"pt.c0726","deck":"pt.d.top-adverbs","pt":"geralmente","rom":"zheh-row-MAYN-chee"}
+{"id":"pt.c0727","deck":"pt.d.top-adverbs","pt":"em cima","rom":"ayng SEE-muh"}
+{"id":"pt.c0728","deck":"pt.d.top-adverbs","pt":"embaixo","rom":"aym-BAI-shoo"}
+{"id":"pt.c0729","deck":"pt.d.top-pronouns","pt":"eu","rom":"ayw"}
+{"id":"pt.c0730","deck":"pt.d.top-pronouns","pt":"você","rom":"voh-SAY"}
+{"id":"pt.c0731","deck":"pt.d.top-pronouns","pt":"ele","rom":"AY-lee"}
+{"id":"pt.c0732","deck":"pt.d.top-pronouns","pt":"isso","rom":"EE-soo"}
+{"id":"pt.c0733","deck":"pt.d.top-pronouns","pt":"meu","rom":"mayw"}
+{"id":"pt.c0734","deck":"pt.d.top-pronouns","pt":"me","rom":"mee"}
+{"id":"pt.c0735","deck":"pt.d.top-pronouns","pt":"ela","rom":"EH-luh"}
+{"id":"pt.c0736","deck":"pt.d.top-pronouns","pt":"tudo","rom":"TOO-doo"}
+{"id":"pt.c0737","deck":"pt.d.top-pronouns","pt":"te","rom":"chee"}
+{"id":"pt.c0738","deck":"pt.d.top-pronouns","pt":"quem","rom":"kayng"}
+{"id":"pt.c0739","deck":"pt.d.top-pronouns","pt":"nada","rom":"NAH-duh"}
+{"id":"pt.c0740","deck":"pt.d.top-pronouns","pt":"seu","rom":"sayw"}
+{"id":"pt.c0741","deck":"pt.d.top-pronouns","pt":"eles","rom":"AY-lees"}
+{"id":"pt.c0742","deck":"pt.d.top-pronouns","pt":"nós","rom":"naws"}
+{"id":"pt.c0743","deck":"pt.d.top-pronouns","pt":"nos","rom":"noos"}
+{"id":"pt.c0744","deck":"pt.d.top-pronouns","pt":"mim","rom":"meeng"}
+{"id":"pt.c0745","deck":"pt.d.top-pronouns","pt":"este","rom":"AYS-chee"}
+{"id":"pt.c0746","deck":"pt.d.top-pronouns","pt":"alguém","rom":"ow-GAYNG"}
+{"id":"pt.c0747","deck":"pt.d.top-pronouns","pt":"dele","rom":"DAY-lee"}
+{"id":"pt.c0748","deck":"pt.d.top-pronouns","pt":"algo","rom":"OW-goo"}
+{"id":"pt.c0749","deck":"pt.d.top-pronouns","pt":"vocês","rom":"voh-SAYS"}
+{"id":"pt.c0750","deck":"pt.d.top-pronouns","pt":"ninguém","rom":"neen-GAYNG"}
+{"id":"pt.c0751","deck":"pt.d.top-pronouns","pt":"comigo","rom":"koh-MEE-goo"}
+{"id":"pt.c0752","deck":"pt.d.top-pronouns","pt":"esse","rom":"AY-see"}
+{"id":"pt.c0753","deck":"pt.d.top-pronouns","pt":"o senhor","rom":"oo seh-NYOHR"}
+{"id":"pt.c0754","deck":"pt.d.top-pronouns","pt":"qual","rom":"kwow"}
+{"id":"pt.c0755","deck":"pt.d.top-pronouns","pt":"dela","rom":"DEH-luh"}
+{"id":"pt.c0756","deck":"pt.d.top-pronouns","pt":"nosso","rom":"NAW-soo"}
+{"id":"pt.c0757","deck":"pt.d.top-pronouns","pt":"isto","rom":"EES-too"}
+{"id":"pt.c0758","deck":"pt.d.top-pronouns","pt":"todo mundo","rom":"TOH-doo MOON-doo"}
+{"id":"pt.c0759","deck":"pt.d.top-pronouns","pt":"alguma coisa","rom":"ow-GOO-muh KOY-zuh"}
+{"id":"pt.c0760","deck":"pt.d.top-pronouns","pt":"aquele","rom":"ah-KAY-lee"}
+{"id":"pt.c0761","deck":"pt.d.top-pronouns","pt":"aquilo","rom":"ah-KEE-loo"}
+{"id":"pt.c0762","deck":"pt.d.top-pronouns","pt":"deles","rom":"DAY-lees"}
+{"id":"pt.c0763","deck":"pt.d.top-pronouns","pt":"a senhora","rom":"ah seh-NYAW-ruh"}
+{"id":"pt.c0764","deck":"pt.d.top-pronouns","pt":"elas","rom":"EH-luhs"}
+{"id":"pt.c0765","deck":"pt.d.top-pronouns","pt":"lhe","rom":"lyee"}
+{"id":"pt.c0766","deck":"pt.d.top-pronouns","pt":"contigo","rom":"kohn-CHEE-goo"}
+{"id":"pt.c0767","deck":"pt.d.top-prepositions","pt":"de","rom":"jee"}
+{"id":"pt.c0768","deck":"pt.d.top-prepositions","pt":"para","rom":"PAH-ruh"}
+{"id":"pt.c0769","deck":"pt.d.top-prepositions","pt":"com","rom":"kohng"}
+{"id":"pt.c0770","deck":"pt.d.top-prepositions","pt":"por","rom":"pohr"}
+{"id":"pt.c0771","deck":"pt.d.top-prepositions","pt":"em","rom":"ayng"}
+{"id":"pt.c0772","deck":"pt.d.top-prepositions","pt":"a","rom":"ah"}
+{"id":"pt.c0773","deck":"pt.d.top-prepositions","pt":"pra","rom":"prah"}
+{"id":"pt.c0774","deck":"pt.d.top-prepositions","pt":"até","rom":"ah-TEH"}
+{"id":"pt.c0775","deck":"pt.d.top-prepositions","pt":"sobre","rom":"SOH-bree"}
+{"id":"pt.c0776","deck":"pt.d.top-prepositions","pt":"sem","rom":"sayng"}
+{"id":"pt.c0777","deck":"pt.d.top-prepositions","pt":"entre","rom":"AYN-tree"}
+{"id":"pt.c0778","deck":"pt.d.top-prepositions","pt":"desde","rom":"DAYZ-jee"}
+{"id":"pt.c0779","deck":"pt.d.top-prepositions","pt":"durante","rom":"doo-RAHN-chee"}
+{"id":"pt.c0780","deck":"pt.d.top-prepositions","pt":"contra","rom":"KOHN-truh"}
+{"id":"pt.c0781","deck":"pt.d.top-prepositions","pt":"perto de","rom":"PEHR-too jee"}
+{"id":"pt.c0782","deck":"pt.d.top-prepositions","pt":"longe de","rom":"LOHN-zhee jee"}
+{"id":"pt.c0783","deck":"pt.d.top-prepositions","pt":"antes de","rom":"AHN-chees jee"}
+{"id":"pt.c0784","deck":"pt.d.top-prepositions","pt":"depois de","rom":"deh-POYS jee"}
+{"id":"pt.c0785","deck":"pt.d.top-prepositions","pt":"dentro de","rom":"DAYN-troo jee"}
+{"id":"pt.c0786","deck":"pt.d.top-prepositions","pt":"por causa de","rom":"pohr KOW-zuh jee"}
+{"id":"pt.c0787","deck":"pt.d.top-prepositions","pt":"fora de","rom":"FAW-ruh jee"}
+{"id":"pt.c0788","deck":"pt.d.top-prepositions","pt":"atrás de","rom":"ah-TRAHS jee"}
+{"id":"pt.c0789","deck":"pt.d.top-prepositions","pt":"em vez de","rom":"ayng vays jee"}
+{"id":"pt.c0790","deck":"pt.d.top-prepositions","pt":"através de","rom":"ah-trah-VEHS jee"}
+{"id":"pt.c0791","deck":"pt.d.top-prepositions","pt":"a partir de","rom":"ah pahr-CHEER jee"}
+{"id":"pt.c0792","deck":"pt.d.top-conjunctions","pt":"que","rom":"kee"}
+{"id":"pt.c0793","deck":"pt.d.top-conjunctions","pt":"se","rom":"see"}
+{"id":"pt.c0794","deck":"pt.d.top-conjunctions","pt":"nem","rom":"nayng"}
+{"id":"pt.c0795","deck":"pt.d.top-conjunctions","pt":"embora","rom":"aym-BAW-ruh"}
+{"id":"pt.c0796","deck":"pt.d.top-conjunctions","pt":"enquanto","rom":"ayn-KWAHN-too"}
+{"id":"pt.c0797","deck":"pt.d.top-conjunctions","pt":"por isso","rom":"pohr EE-soo"}
+{"id":"pt.c0798","deck":"pt.d.top-conjunctions","pt":"do que","rom":"doo kee"}
+{"id":"pt.c0799","deck":"pt.d.top-conjunctions","pt":"portanto","rom":"pohr-TAHN-too"}
+{"id":"pt.c0800","deck":"pt.d.top-conjunctions","pt":"só que","rom":"saw kee"}
+{"id":"pt.c0801","deck":"pt.d.top-conjunctions","pt":"pois","rom":"poys"}
+{"id":"pt.c0802","deck":"pt.d.top-conjunctions","pt":"já que","rom":"zhah kee"}
+{"id":"pt.c0803","deck":"pt.d.top-conjunctions","pt":"ou seja","rom":"oh SAY-zhuh"}
+{"id":"pt.c0804","deck":"pt.d.top-conjunctions","pt":"caso","rom":"KAH-zoo"}
+{"id":"pt.c0805","deck":"pt.d.top-conjunctions","pt":"para que","rom":"PAH-ruh kee"}
+{"id":"pt.c0806","deck":"pt.d.top-conjunctions","pt":"assim que","rom":"ah-SEENG kee"}
+{"id":"pt.c0807","deck":"pt.d.top-conjunctions","pt":"senão","rom":"seh-NOWNG"}
+{"id":"pt.c0808","deck":"pt.d.top-conjunctions","pt":"depois que","rom":"deh-POYS kee"}
+{"id":"pt.c0809","deck":"pt.d.top-conjunctions","pt":"mesmo que","rom":"MAYZ-moo kee"}
+{"id":"pt.c0810","deck":"pt.d.top-conjunctions","pt":"até que","rom":"ah-TEH kee"}
+{"id":"pt.c0811","deck":"pt.d.top-conjunctions","pt":"desde que","rom":"DAYZ-jee kee"}
+{"id":"pt.c0812","deck":"pt.d.top-conjunctions","pt":"antes que","rom":"AHN-chees kee"}
+{"id":"pt.c0813","deck":"pt.d.top-conjunctions","pt":"porém","rom":"poh-RAYNG"}
+{"id":"pt.c0814","deck":"pt.d.top-interjections","pt":"Nossa!","rom":"NAW-suh"}
+{"id":"pt.c0815","deck":"pt.d.top-interjections","pt":"Claro!","rom":"KLAH-roo"}
+{"id":"pt.c0816","deck":"pt.d.top-interjections","pt":"Ai!","rom":"ai"}
+{"id":"pt.c0817","deck":"pt.d.top-interjections","pt":"Ah!","rom":"ah"}
+{"id":"pt.c0818","deck":"pt.d.top-interjections","pt":"Meu Deus!","rom":"mayw dayws"}
+{"id":"pt.c0819","deck":"pt.d.top-interjections","pt":"Ei!","rom":"ay"}
+{"id":"pt.c0820","deck":"pt.d.top-interjections","pt":"Pois é!","rom":"poys eh"}
+{"id":"pt.c0821","deck":"pt.d.top-interjections","pt":"Sério?","rom":"SEH-ryoo"}
+{"id":"pt.c0822","deck":"pt.d.top-interjections","pt":"Que isso!","rom":"kee EE-soo"}
+{"id":"pt.c0823","deck":"pt.d.top-interjections","pt":"Cuidado!","rom":"kooy-DAH-doo"}
+{"id":"pt.c0824","deck":"pt.d.top-interjections","pt":"Caramba!","rom":"kah-RAHM-buh"}
+{"id":"pt.c0825","deck":"pt.d.top-interjections","pt":"Puxa!","rom":"POO-shuh"}
+{"id":"pt.c0826","deck":"pt.d.top-interjections","pt":"Eita!","rom":"AY-tuh"}
+{"id":"pt.c0827","deck":"pt.d.top-interjections","pt":"Vixe!","rom":"VEE-shee"}
+{"id":"pt.c0828","deck":"pt.d.top-interjections","pt":"Caraca!","rom":"kah-RAH-kuh"}
+{"id":"pt.c0829","deck":"pt.d.top-interjections","pt":"Ué!","rom":"oo-EH"}
+{"id":"pt.c0830","deck":"pt.d.top-interjections","pt":"Ah, tá!","rom":"ah tah"}
+{"id":"pt.c0831","deck":"pt.d.top-interjections","pt":"Graças a Deus!","rom":"GRAH-suhs ah dayws"}
+{"id":"pt.c0832","deck":"pt.d.top-interjections","pt":"Saúde!","rom":"sah-OO-jee"}
+{"id":"pt.c0833","deck":"pt.d.top-interjections","pt":"Tomara!","rom":"toh-MAH-ruh"}
+{"id":"pt.c0834","deck":"pt.d.top-interjections","pt":"Ufa!","rom":"OO-fuh"}
+{"id":"pt.c0835","deck":"pt.d.top-interjections","pt":"Que saco!","rom":"kee SAH-koo"}
+{"id":"pt.c0836","deck":"pt.d.top-interjections","pt":"Coitado!","rom":"koy-TAH-doo"}
+{"id":"pt.c0837","deck":"pt.d.top-interjections","pt":"Imagina!","rom":"ee-mah-ZHEE-nuh"}
+{"id":"pt.c0838","deck":"pt.d.top-interjections","pt":"Oba!","rom":"OH-buh"}
+{"id":"pt.c0839","deck":"pt.d.top-interjections","pt":"Uau!","rom":"oo-OW"}
+{"id":"pt.c0840","deck":"pt.d.top-interjections","pt":"Hum…","rom":"oong"}
+{"id":"pt.c0841","deck":"pt.d.top-interjections","pt":"Psiu!","rom":"pseew"}
+{"id":"pt.c0842","deck":"pt.d.top-interjections","pt":"Viva!","rom":"VEE-vuh"}
+{"id":"pt.c0843","deck":"pt.d.top-interjections","pt":"Xi!","rom":"shee"}
+{"id":"pt.c0844","deck":"pt.d.top-words","pt":"o","rom":"oo"}
+{"id":"pt.c0845","deck":"pt.d.top-words","pt":"não","rom":"nowng"}
+{"id":"pt.c0846","deck":"pt.d.top-words","pt":"um","rom":"oong"}
+{"id":"pt.c0847","deck":"pt.d.top-words","pt":"sim","rom":"seeng"}
+{"id":"pt.c0848","deck":"pt.d.top-words","pt":"onde","rom":"OHN-jee"}
+{"id":"pt.c0849","deck":"pt.d.top-words","pt":"mesmo","rom":"MAYZ-moo"}
+{"id":"pt.c0850","deck":"pt.d.top-words","pt":"outro","rom":"OH-troo"}
+{"id":"pt.c0851","deck":"pt.d.top-words","pt":"todo","rom":"TOH-doo"}
+{"id":"pt.c0852","deck":"pt.d.top-words","pt":"quanto","rom":"KWAHN-too"}
+{"id":"pt.c0853","deck":"pt.d.top-words","pt":"algum","rom":"ow-GOONG"}
+{"id":"pt.c0854","deck":"pt.d.top-words","pt":"uns","rom":"oongs"}
+{"id":"pt.c0855","deck":"pt.d.top-words","pt":"nenhum","rom":"neh-NYOONG"}
+{"id":"pt.c0856","deck":"pt.d.top-words","pt":"tanto","rom":"TAHN-too"}
+{"id":"pt.c0857","deck":"pt.d.top-words","pt":"cada","rom":"KAH-duh"}
+{"id":"pt.c0858","deck":"pt.d.top-words","pt":"aonde","rom":"ah-OHN-jee"}
+{"id":"pt.c0859","deck":"pt.d.top-words","pt":"cadê","rom":"kah-DAY"}
+{"id":"pt.c0860","deck":"pt.d.top-words","pt":"né","rom":"neh"}
+{"id":"pt.c0861","deck":"pt.d.top-words","pt":"vários","rom":"VAH-ryoos"}
+{"id":"pt.c0862","deck":"pt.d.top-words","pt":"meia","rom":"MAY-uh"}
+{"id":"pt.c0863","deck":"pt.d.top-words","pt":"zero","rom":"ZEH-roo"}
+{"id":"pt.c0864","deck":"pt.d.top-words","pt":"dois","rom":"doys"}
+{"id":"pt.c0865","deck":"pt.d.top-words","pt":"três","rom":"trays"}
+{"id":"pt.c0866","deck":"pt.d.top-words","pt":"quatro","rom":"KWAH-troo"}
+{"id":"pt.c0867","deck":"pt.d.top-words","pt":"cinco","rom":"SEEN-koo"}
+{"id":"pt.c0868","deck":"pt.d.top-words","pt":"seis","rom":"says"}
+{"id":"pt.c0869","deck":"pt.d.top-words","pt":"sete","rom":"SEH-chee"}
+{"id":"pt.c0870","deck":"pt.d.top-words","pt":"oito","rom":"OY-too"}
+{"id":"pt.c0871","deck":"pt.d.top-words","pt":"nove","rom":"NAW-vee"}
+{"id":"pt.c0872","deck":"pt.d.top-words","pt":"dez","rom":"dehs"}
+{"id":"pt.c0873","deck":"pt.d.top-words","pt":"onze","rom":"OHN-zee"}
+{"id":"pt.c0874","deck":"pt.d.top-words","pt":"doze","rom":"DOH-zee"}
+{"id":"pt.c0875","deck":"pt.d.top-words","pt":"treze","rom":"TRAY-zee"}
+{"id":"pt.c0876","deck":"pt.d.top-words","pt":"catorze","rom":"kah-TOHR-zee"}
+{"id":"pt.c0877","deck":"pt.d.top-words","pt":"quinze","rom":"KEEN-zee"}
+{"id":"pt.c0878","deck":"pt.d.top-words","pt":"dezessete","rom":"deh-zeh-SEH-chee"}
+{"id":"pt.c0879","deck":"pt.d.top-words","pt":"dezoito","rom":"deh-ZOY-too"}
+{"id":"pt.c0880","deck":"pt.d.top-words","pt":"dezenove","rom":"deh-zeh-NAW-vee"}
+{"id":"pt.c0881","deck":"pt.d.top-words","pt":"vinte","rom":"VEEN-chee"}
+{"id":"pt.c0882","deck":"pt.d.top-words","pt":"terça-feira","rom":"TAYR-suh FAY-ruh"}
+{"id":"pt.c0883","deck":"pt.d.top-words","pt":"quarta-feira","rom":"KWAHR-tuh FAY-ruh"}
+{"id":"pt.c0884","deck":"pt.d.top-words","pt":"quinta-feira","rom":"KEEN-tuh FAY-ruh"}
+{"id":"pt.c0885","deck":"pt.d.top-words","pt":"sexta-feira","rom":"SAYS-tuh FAY-ruh"}
+{"id":"pt.c0886","deck":"pt.d.top-words","pt":"sábado","rom":"SAH-bah-doo"}
+{"id":"pt.c0887","deck":"pt.d.top-words","pt":"domingo","rom":"doh-MEEN-goo"}
+{"id":"pt.c0888","deck":"pt.d.top-words","pt":"janeiro","rom":"zhah-NAY-roo"}
+{"id":"pt.c0889","deck":"pt.d.top-words","pt":"fevereiro","rom":"feh-veh-RAY-roo"}
+{"id":"pt.c0890","deck":"pt.d.top-words","pt":"março","rom":"MAHR-soo"}
+{"id":"pt.c0891","deck":"pt.d.top-words","pt":"abril","rom":"ah-BREEW"}
+{"id":"pt.c0892","deck":"pt.d.top-words","pt":"maio","rom":"MAI-oo"}
+{"id":"pt.c0893","deck":"pt.d.top-words","pt":"junho","rom":"ZHOO-nyoo"}
+{"id":"pt.c0894","deck":"pt.d.top-words","pt":"julho","rom":"ZHOO-lyoo"}
+{"id":"pt.c0895","deck":"pt.d.top-words","pt":"agosto","rom":"ah-GOHS-too"}
+{"id":"pt.c0896","deck":"pt.d.top-words","pt":"setembro","rom":"seh-TAYM-broo"}
+{"id":"pt.c0897","deck":"pt.d.top-words","pt":"outubro","rom":"oh-TOO-broo"}
+{"id":"pt.c0898","deck":"pt.d.top-words","pt":"novembro","rom":"noh-VAYM-broo"}
+{"id":"pt.c0899","deck":"pt.d.top-words","pt":"dezembro","rom":"deh-ZAYM-broo"}
