@@ -1,0 +1,26 @@
+{"id":"sounds","deck":"es.d.sounds-and-spelling","sections":[null,null,[{"deck":"es.d.sounds-and-spelling","n":[0,7]},{"deck":"es.d.sounds-and-spelling","n":[10,15]},{"ld":"es.ld.more-spellings","cards":[{"id":"es.lc0001","es":"ch","rom":"ch"},{"id":"es.lc0002","es":"x","rom":"ks"},{"id":"es.lc0003","es":"gü","rom":"gw"},{"id":"es.lc0004","es":"b","rom":"b"},{"id":"es.lc0005","es":"gue","rom":"gheh"}]}],{"deck":"es.d.sounds-and-spelling","n":[7,10]},[{"deck":"es.d.sounds-and-spelling","n":[15,17]},{"ld":"es.ld.whole-words","cards":[{"id":"es.lc0006","es":"el hotel","rom":"ehl oh-TEHL"},{"id":"es.lc0007","es":"gracias","rom":"GRAH-syahs"},{"id":"es.lc0008","es":"la ciudad","rom":"lah syoo-DAHD"},{"id":"es.lc0009","es":"feliz","rom":"feh-LEES"},{"id":"es.lc0010","es":"el trabajo","rom":"ehl trah-BAH-hoh"},{"id":"es.lc0011","es":"joven","rom":"HOH-behn"},{"id":"es.lc0012","es":"la playa","rom":"lah PLAH-yah"},{"id":"es.lc0013","es":"el gimnasio","rom":"ehl heem-NAH-syoh"},{"id":"es.lc0014","es":"pequeño","rom":"peh-KEH-nyoh"},{"id":"es.lc0015","es":"rojo","rom":"RROH-hoh"},{"id":"es.lc0016","es":"la verdad","rom":"lah behr-DAHD"},{"id":"es.lc0017","es":"la lengua","rom":"lah LEHN-gwah"},{"id":"es.lc0018","es":"el examen","rom":"ehl ehk-SAH-mehn"},{"id":"es.lc0019","es":"inglés","rom":"een-GLEHS"},{"id":"es.lc0020","es":"el árbol","rom":"ehl AHR-bohl"},{"id":"es.lc0021","es":"la música","rom":"lah MOO-see-kah"},{"id":"es.lc0022","es":"el teléfono","rom":"ehl teh-LEH-foh-noh"},{"id":"es.lc0023","es":"México","rom":"MEH-hee-koh"}]}],null,null],"tiles":[{"id":"es.tl001","items":[{"f":"d","r":"d"},{"f":"f","r":"f"},{"f":"k","r":"k"},{"f":"l","r":"l"},{"f":"m","r":"m"},{"f":"n","r":"n"},{"f":"p","r":"p"},{"f":"s","r":"s"},{"f":"t","r":"t"},{"f":"w","r":"w"}]},{"id":"es.tl002","items":[{"f":"a","r":"ah"},{"f":"e","r":"eh"},{"f":"i","r":"ee"},{"f":"o","r":"oh"},{"f":"u","r":"oo"}]},{"id":"es.tl003","items":[{"f":"á","r":"AH"},{"f":"é","r":"EH"},{"f":"í","r":"EE"},{"f":"ó","r":"OH"},{"f":"ú","r":"OO"},{"f":"ü","r":"w"},{"f":"¿","n":"es.tl003.07"},{"f":"¡","n":"es.tl003.08"}]},{"id":"es.tl004","items":[{"f":"h","n":"es.tl004.01"},{"f":"j","r":"h"},{"f":"g","r":"g"},{"f":"ge","r":"heh"},{"f":"gi","r":"hee"},{"f":"c","r":"k"},{"f":"ce","r":"seh"},{"f":"ci","r":"see"},{"f":"z","r":"s"},{"f":"qu","r":"k"},{"f":"v","r":"b"},{"f":"b"},{"f":"ll","r":"y"},{"f":"y","r":"y"},{"f":"ñ","r":"ny"},{"f":"gue"},{"f":"gui","r":"ghee"},{"f":"gü"},{"f":"x"},{"f":"ch"}]},{"id":"es.tl005","items":[{"f":"r","r":"r"},{"f":"rr","r":"rr"}]}]}
+{"id":"greetings","deck":"es.d.greetings-and-courtesy"}
+{"id":"gender","deck":"es.d.people-and-family"}
+{"id":"articles","deck":"es.d.food-and-drink"}
+{"id":"ser","deck":"es.d.about-me"}
+{"id":"adjectives","deck":"es.d.shopping-and-clothes"}
+{"id":"estar","deck":"es.d.around-town-and-directions"}
+{"id":"ser-estar","deck":"es.d.feelings-and-states"}
+{"id":"hay","deck":"es.d.home-and-routine"}
+{"id":"present","deck":"es.d.work-and-school"}
+{"id":"questions","deck":"es.d.questions-and-connectors"}
+{"id":"numbers","deck":"es.d.numbers-time-and-prices"}
+{"id":"possessives","deck":"es.d.people-and-family"}
+{"id":"irregular","deck":"es.d.days-dates-and-weather"}
+{"id":"stem-change","deck":"es.d.health-and-emergencies"}
+{"id":"gustar","deck":"es.d.likes-and-free-time"}
+{"id":"reflexive","deck":"es.d.home-and-routine"}
+{"id":"prepositions","deck":"es.d.travel-and-transport"}
+{"id":"muy-mucho","deck":"es.d.traps-for-english-speakers"}
+{"id":"connectors","deck":"es.d.questions-and-connectors"}
+{"id":"directions","deck":"es.d.around-town-and-directions"}
+{"id":"ir-a","deck":"es.d.travel-and-transport"}
+{"id":"lo-la","deck":"es.d.shopping-and-clothes"}
+{"id":"preterite","deck":"es.d.likes-and-free-time"}
+{"id":"se","deck":"es.d.work-and-school"}
+{"id":"caribbean","deck":"es.d.caribbean-and-dominican-spanish"}

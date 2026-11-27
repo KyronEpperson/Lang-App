@@ -1,0 +1,78 @@
+{"id":"sounds.k1","q":"How do you say the Spanish vowel in no?","o":["Short and pure, with no glide at the end","Like the o in English go, ending in a w","Like the a in English about","It is silent at the end of a word"],"why":"Spanish vowels are short and pure: the o never slides into a w."}
+{"id":"sounds.k2","q":"Why does adiós have an accent mark?","o":["Every word ending in s needs one","It shows that the o is long","Without it, the stress would fall on the first syllable","It turns the word into a question"],"why":"adiós ends in s, so the rule would stress the next-to-last syllable; the accent mark moves the stress to the end."}
+{"id":"sounds.k3","q":"How is the j pronounced in el jugo (the juice)?","o":["Like the j in English juice","Silent","Like the y in English yes","A breathy h, like a sigh"],"why":"j is always a breathy h sound in Spanish, never the English j."}
+{"id":"greetings.k1","q":"You meet your coworker's grandfather for the first time. What do you ask?","why":"An older person you don't know gets usted: ¿Cómo está usted?"}
+{"id":"greetings.k2","q":"Why is it buenos días but buenas noches?","o":["Morning greetings are always masculine","días is masculine and noches is feminine, and the word for good matches each","buenas is the polite form","No reason: either form works with either word"],"why":"bueno agrees with the noun: días is masculine, noches is feminine."}
+{"id":"greetings.k3","q":"How do you say My name is Carlos?","why":"me llamo already means my name is; it needs no es, and the small word is me, not mi."}
+{"id":"gender.k1","q":"Which is correct?","why":"día ends in -a but is masculine: el día."}
+{"id":"gender.k2","q":"Two boys and one girl are together. Which do you use for the group?","o":["las niñas, because the girl decides","los niños, because a mixed group takes the masculine plural","los niñas","Either one is fine"],"why":"A mixed group takes the masculine plural: los niños."}
+{"id":"gender.k3","q":"How do you make la ciudad plural?","why":"ciudad ends in a consonant, so it adds -es, and la becomes las."}
+{"id":"articles.k1","q":"How do you say I like chicken (pollo)?","why":"Things in general keep the article in Spanish, and pollo is masculine: el pollo."}
+{"id":"articles.k2","q":"Why is it el agua, if agua is feminine?","o":["agua is really masculine","el is the polite article","Drinks are always masculine","A feminine noun that starts with a stressed a takes el in the singular"],"why":"el agua avoids two a sounds in a row; the noun stays feminine."}
+{"id":"articles.k3","q":"What does unas tortillas mean?","o":["the tortillas","a tortilla","some tortillas","one tortilla"],"why":"unos and unas mean some or a few."}
+{"id":"ser.k1","q":"A man says I'm a nurse. Which is right?","why":"No article before a job, and a man is enfermero."}
+{"id":"ser.k2","q":"Which form of ser goes with usted?","why":"usted takes the same form as él: es."}
+{"id":"ser.k3","q":"Why can you say Soy de Chicago without yo?","o":["soy already shows that the subject is yo","Spanish never uses subject pronouns","yo is only used with usted","It is a mistake, but people understand it"],"why":"The verb ending tells you who: soy can only mean I am."}
+{"id":"adjectives.k1","q":"Where does a color usually go?","o":["Before the noun, as in English","After the noun","Either place, with no difference","At the end of the sentence"],"why":"Spanish puts the adjective after the noun: la camisa roja."}
+{"id":"adjectives.k2","q":"the white shirts =","why":"Feminine plural noun, feminine plural adjective, after the noun: las camisas blancas."}
+{"id":"adjectives.k3","q":"Which adjective has the same form with el and la?","why":"Adjectives ending in -e do not change for gender: el suéter verde, la falda verde."}
+{"id":"estar.k1","q":"Where is the museum? =","why":"Where something is: estar, and one museum takes está."}
+{"id":"estar.k2","q":"Which form of estar goes with ustedes?","why":"ustedes takes the same form as ellos: están."}
+{"id":"estar.k3","q":"Why is it Monterrey está en México, though the city never moves?","o":["estar is for where something is, whether it can move or not","It's a mistake; it should be es","Cities are always feminine","está is the polite form"],"why":"Location uses estar, permanent or not."}
+{"id":"ser-estar.k1","q":"Which is the best rule of thumb?","o":["ser for permanent things, estar for temporary ones","ser for what something is; estar for where it is and how it is right now","estar for people, ser for things","ser in questions, estar in answers"],"why":"What something is takes ser; where it is and how it is right now take estar."}
+{"id":"ser-estar.k2","q":"The party is at the hotel. =","why":"Where an event takes place uses ser: La fiesta es en el hotel."}
+{"id":"ser-estar.k3","q":"What does Carlos es aburrido mean?","o":["Carlos is bored.","Carlos is ready.","Carlos is tired.","Carlos is boring."],"why":"ser aburrido is boring; estar aburrido is bored."}
+{"id":"hay.k1","q":"There are three bedrooms. =","why":"hay means both there is and there are, and it never changes."}
+{"id":"hay.k2","q":"Which is correct?","why":"hay introduces something new, so it takes un, not el."}
+{"id":"hay.k3","q":"Your friend knows the café you mean. How do you tell her where it is?","why":"A particular thing you both know: estar says where it is."}
+{"id":"present.k1","q":"Complete 'We live in Miami': Nosotros ___ en Miami.","why":"-ir verbs end in -imos in the nosotros form."}
+{"id":"present.k2","q":"You ask a stranger if they speak English. Which is right?","why":"Usted takes the él form: habla."}
+{"id":"present.k3","q":"How do you say 'I'm studying Spanish' (this year, at school)?","why":"The simple present covers 'I'm studying' for things going on these days."}
+{"id":"questions.k1","q":"'Do you speak English?' (to a friend) =","why":"No do in Spanish: the tú form hablas plus a rising voice makes the question."}
+{"id":"questions.k2","q":"'How many hours do you work?' Which is right?","why":"Cuántas agrees with horas, which is feminine plural."}
+{"id":"questions.k3","q":"'Where does Ana live?' =","why":"Question word, then the verb, then the subject; one person takes vive."}
+{"id":"numbers.k1","q":"'It's three o'clock' =","why":"Three is plural, so son, with las for the hours."}
+{"id":"numbers.k2","q":"How do you write 120?","why":"Before another number, cien becomes ciento, and no y follows it."}
+{"id":"numbers.k3","q":"'How much are the shoes?' =","why":"Los zapatos is plural, so the verb is cuestan."}
+{"id":"possessives.k1","q":"'his books' =","why":"The possessive agrees with libros, which is plural: sus."}
+{"id":"possessives.k2","q":"'this shirt' =","why":"Camisa is feminine, so esta. Está with an accent mark means is."}
+{"id":"possessives.k3","q":"'Our grandmother lives in Cancún' =","why":"Nuestra agrees with abuela: feminine singular."}
+{"id":"irregular.k1","q":"'I'm 25 years old' =","why":"Age uses tener, and the yo form is tengo."}
+{"id":"irregular.k2","q":"'It's cold today' (the weather) =","why":"Weather uses hacer. Tengo frío is about your body."}
+{"id":"irregular.k3","q":"'They go to school' =","why":"The ellos form of ir is van."}
+{"id":"stem-change.k1","q":"'We can' =","why":"The nosotros form keeps the stem of the infinitive: pod-."}
+{"id":"stem-change.k2","q":"You ask a stranger: 'Can you help me?'","why":"To a stranger, use the usted form puede."}
+{"id":"stem-change.k3","q":"'I ask for help' =","why":"To ask for something, use pedir: pido."}
+{"id":"gustar.k1","q":"'I like pizza' =","why":"The pizza is the subject: me gusta la pizza."}
+{"id":"gustar.k2","q":"'I like tacos' =","why":"Gustan agrees with los tacos, and the article stays."}
+{"id":"gustar.k3","q":"'We like to dance' =","why":"An activity takes gusta, and nos shows who likes it."}
+{"id":"reflexive.k1","q":"'I get up at seven' =","why":"Yo takes me and the ending -o."}
+{"id":"reflexive.k2","q":"'What's your name?' (to a friend) =","why":"Tú takes te and the ending -s."}
+{"id":"reflexive.k3","q":"'We go to bed at eleven' =","why":"Nosotros takes nos, and the nosotros form keeps the o."}
+{"id":"prepositions.k1","q":"'I see Ana' =","why":"A person who receives the action takes the personal a."}
+{"id":"prepositions.k2","q":"'Ana's car' =","why":"Spanish has no 's: el carro de Ana."}
+{"id":"prepositions.k3","q":"'Thanks for everything' =","why":"Thanks always take por."}
+{"id":"muy-mucho.k1","q":"How do you say \"It's very cold\" about the weather?","why":"Weather uses hacer + a noun, and a noun takes mucho, not muy."}
+{"id":"muy-mucho.k2","q":"Which word completes \"Tengo ___ sed\" (I'm very thirsty)?","why":"sed is a feminine noun, so it takes mucha."}
+{"id":"muy-mucho.k3","q":"\"You speak very well\" is…","why":"bien is a describing word, so muy goes right before it."}
+{"id":"connectors.k1","q":"Which word means \"because\"?","why":"porque, one word with no accent mark, means because. ¿Por qué? asks why."}
+{"id":"connectors.k2","q":"How do you write \"Sofía and Isabel\"?","why":"Isabel starts with an ee sound, so y becomes e."}
+{"id":"connectors.k3","q":"Your friend says \"No me gusta el frío.\" You don't like it either. You say…","why":"tampoco agrees with a no; también agrees with a yes."}
+{"id":"directions.k1","q":"\"On the right\" is…","why":"derecha (with -a) is right, and it takes a la."}
+{"id":"directions.k2","q":"A stranger tells you \"Siga derecho.\" What do you do?","o":["Turn right","Keep going straight","Cross the street","Turn left"],"why":"siga = keep going, derecho = straight ahead."}
+{"id":"directions.k3","q":"\"next to the bank\" is…","why":"a + el becomes al, and de + el becomes del."}
+{"id":"ir-a.k1","q":"\"I'm going to eat\" is…","why":"ir + a + infinitive: voy a comer. The a is never dropped."}
+{"id":"ir-a.k2","q":"Which form goes with nosotros?","why":"nosotros takes vamos: vamos a viajar."}
+{"id":"ir-a.k3","q":"\"Are you going to travel on Saturday?\" (to a friend)","why":"vas for tú, then a + infinitive; days take el, not en."}
+{"id":"lo-la.k1","q":"\"¿La camisa? ___ compro.\" Which word fits?","why":"camisa is feminine and singular, so la."}
+{"id":"lo-la.k2","q":"\"I call her\" (Ana) is…","why":"The pronoun la goes before the verb; ella is never used for her after a verb."}
+{"id":"lo-la.k3","q":"Which pair both mean \"I'm going to buy them\" (los zapatos)?","why":"los goes before voy or is attached to comprar; zapatos is masculine, so los."}
+{"id":"preterite.k1","q":"\"She spoke\" is…","why":"habló, with the accent on the end, is the él/ella form of the preterite. hablo means I speak."}
+{"id":"preterite.k2","q":"\"I went to the movies\" is…","why":"fui is the yo form of ir in the preterite, written with no accent mark."}
+{"id":"preterite.k3","q":"Your Mexican friend asks \"¿Ya comiste?\" She means…","o":["Are you eating now?","Are you going to eat?","Do you eat a lot?","Have you eaten yet?"],"why":"Latin America uses ya + preterite for have you… yet."}
+{"id":"se.k1","q":"A sign says \"Se habla español.\" It means…","o":["Spanish spoken here","He speaks Spanish","Speak Spanish!","She is speaking Spanish"],"why":"Impersonal se: no person is named, so it means Spanish is spoken."}
+{"id":"se.k2","q":"\"Houses for sale\" on a sign is…","why":"casas is plural, so standard written Spanish makes the verb plural too: se venden."}
+{"id":"se.k3","q":"\"How do you say this in Spanish?\" (asking in general) is…","why":"se + the él form of decir: se dice."}
+{"id":"caribbean.k1","q":"A Dominican friend says \"¿Cómo tú 'tá?\" (written ¿Cómo tú estás?). She means…","o":["How are you?","Where are you?","Who are you?","How old are you?"],"why":"It's ¿Cómo estás? with tú before the verb and the s softened."}
+{"id":"caribbean.k2","q":"In Santo Domingo you hear \"polque\". Which word is it?","why":"r at the end of a syllable can sound like l: porque."}
+{"id":"caribbean.k3","q":"What is a guagua?","o":["a dog","a corner store","a bus","a little bit"],"why":"Regional (Caribbean): la guagua is the bus."}

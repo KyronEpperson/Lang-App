@@ -1745,3 +1745,7 @@ Tests: `memjudge.js` 108 checks (87 before; pinned path now 1, 3.2, 10.1, 27.2 d
 
 Not tested: real learners; real phones; the strings by native speakers; a browser round trip with an older build (covered on the judge's read and write only).
 
+
+## HALF-ES (2.139.0, 2026-11-27) — prompt
+
+Owner: "yes start all of these optimize agents and models" (build the engines past the first four, in the saved order). This release: Spanish target half. Details: `docs/HANDOFF.md`, 2.139.0 entry; `docs/briefs/x-es-design.md`.

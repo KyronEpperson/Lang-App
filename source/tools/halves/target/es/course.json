@@ -1,0 +1,192 @@
+{
+ "target": "es",
+ "ttsLang": "es-MX",
+ "self": "español",
+ "pack": {
+  "accents": true,
+  "keys": "á é í ó ú ñ ü ¿ ¡"
+ },
+ "features": {
+  "script": false,
+  "pron": false,
+  "conj": false,
+  "register": false,
+  "numbers": false,
+  "sound": false,
+  "strokes": false
+ },
+ "groups": [
+  {
+   "id": "es.grp.first-steps",
+   "decks": [
+    "es.d.sounds-and-spelling",
+    "es.d.greetings-and-courtesy",
+    "es.d.about-me",
+    "es.d.people-and-family"
+   ]
+  },
+  {
+   "id": "es.grp.everyday-words",
+   "decks": [
+    "es.d.numbers-time-and-prices",
+    "es.d.days-dates-and-weather",
+    "es.d.food-and-drink",
+    "es.d.shopping-and-clothes",
+    "es.d.home-and-routine"
+   ]
+  },
+  {
+   "id": "es.grp.out-and-about",
+   "decks": [
+    "es.d.around-town-and-directions",
+    "es.d.travel-and-transport",
+    "es.d.health-and-emergencies",
+    "es.d.work-and-school"
+   ]
+  },
+  {
+   "id": "es.grp.conversation",
+   "decks": [
+    "es.d.feelings-and-states",
+    "es.d.likes-and-free-time",
+    "es.d.questions-and-connectors",
+    "es.d.compliments",
+    "es.d.flirting"
+   ]
+  },
+  {
+   "id": "es.grp.watch-out",
+   "decks": [
+    "es.d.traps-for-english-speakers",
+    "es.d.caribbean-and-dominican-spanish"
+   ]
+  },
+  {
+   "id": "es.grp.core-words",
+   "decks": [
+    "es.d.top-nouns",
+    "es.d.top-verbs",
+    "es.d.top-adjectives",
+    "es.d.top-adverbs",
+    "es.d.top-pronouns",
+    "es.d.top-prepositions",
+    "es.d.top-conjunctions",
+    "es.d.top-interjections",
+    "es.d.top-words"
+   ]
+  }
+ ],
+ "tags": {
+  "first-steps": [
+   "es.d.sounds-and-spelling",
+   "es.d.greetings-and-courtesy",
+   "es.d.about-me",
+   "es.d.people-and-family"
+  ],
+  "everyday-words": [
+   "es.d.numbers-time-and-prices",
+   "es.d.days-dates-and-weather",
+   "es.d.food-and-drink",
+   "es.d.shopping-and-clothes",
+   "es.d.home-and-routine"
+  ],
+  "out-and-about": [
+   "es.d.around-town-and-directions",
+   "es.d.travel-and-transport",
+   "es.d.health-and-emergencies",
+   "es.d.work-and-school"
+  ],
+  "conversation": [
+   "es.d.feelings-and-states",
+   "es.d.likes-and-free-time",
+   "es.d.questions-and-connectors",
+   "es.d.compliments",
+   "es.d.flirting"
+  ],
+  "watch-out": [
+   "es.d.traps-for-english-speakers",
+   "es.d.caribbean-and-dominican-spanish"
+  ],
+  "core-words": [
+   "es.d.top-nouns",
+   "es.d.top-verbs",
+   "es.d.top-adjectives",
+   "es.d.top-adverbs",
+   "es.d.top-pronouns",
+   "es.d.top-prepositions",
+   "es.d.top-conjunctions",
+   "es.d.top-interjections",
+   "es.d.top-words"
+  ]
+ },
+ "goals": [],
+ "plans": [],
+ "titles": [
+  {
+   "id": "es.t01",
+   "level": 1
+  },
+  {
+   "id": "es.t03",
+   "level": 3
+  },
+  {
+   "id": "es.t05",
+   "level": 5
+  },
+  {
+   "id": "es.t08",
+   "level": 8
+  },
+  {
+   "id": "es.t12",
+   "level": 12
+  },
+  {
+   "id": "es.t16",
+   "level": 16
+  },
+  {
+   "id": "es.t20",
+   "level": 20
+  }
+ ],
+ "greet": [
+  {
+   "id": "es.h.night",
+   "es": "Buenas noches"
+  },
+  {
+   "id": "es.h.morning",
+   "es": "Buenos días"
+  },
+  {
+   "id": "es.h.afternoon",
+   "es": "Buenas tardes"
+  },
+  {
+   "id": "es.h.evening",
+   "es": "Buenas noches"
+  }
+ ],
+ "pairs": [],
+ "pause": {
+  "sets": [],
+  "idioms": []
+ },
+ "uiKeys": [
+  "Spanish (required)",
+  "Spanish, pronunciation, meaning, note — one per line (pronunciation/note optional)",
+  "Search a pattern, e.g. 에서 or 'want'",
+  "#first-steps",
+  "#everyday-words",
+  "#out-and-about",
+  "#conversation",
+  "#watch-out",
+  "#core-words"
+ ],
+ "exportedFrom": {
+  "file": "tools/target/es/ (tools/target/gen.js es)",
+  "sha256_16": "2912db69f7e6481d"
+ }
+}

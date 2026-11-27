@@ -280,3 +280,26 @@ Design and rationale: `docs/briefs/vi-zh-design.md`. Everything above holds for 
   * `mk_native.js <n> --target zh` (`mk_native.js <n>` is still Korean) writes `w1..w4`, `wU.jsonl` (→ `ui.json`), `REPEATS.md` and `NOTES.md`;
   * `assemble.js <n> zh`, `validate.js <n> zh [--all]`;
   * `dryrun.js <n> <t> <wN>` is a writer's self-check on a temp copy.
+
+## 12 · Spanish `es`: "by marks", recognised by the course's own inventory
+
+Design, numbers and open items: `docs/briefs/x-es-design.md`. "By marks" is `docs/briefs/x-vi-design.md` §1: whole target fields by position, spans in mixed native fields in `target/es/marks.jsonl`, and `validate.js` requiring each span in every native half. What is new:
+
+* **`TARGETS.es`** is `require('./targets/es.js')`: a call of the reusable factory `targets/_inventory.js` with Spanish data (letters, pronunciation pieces, diacritics, English homographs, the `respell.js` and profile paths). Target rows use the field **`es`** (`{"id":"es.c0001","deck":"es.d.sounds-and-spelling","es":"la hora","rom":"lah OH-rah"}`).
+* **The classifier is the inventory:** every string in a target-only position (cards, dialogue, examples, patterns, `{{ex}}` sentences, in-lesson cards, tile fronts, greetings, fill / order / type answers and options). It yields a phrase set and a lexicon. `export_target.js` fills it from the pack (`TC.useCourse(c)`); every other tool loads the same fields from `target/es/`.
+* **Optional hooks** that `export_target.js` reads from the target config:
+  * `useCourse(c)`: learn the inventory before classifying;
+  * `itemIsValue(opts, key)`: one target-or-prose decision per mc / check item, from the key or from most of the options;
+  * `unmarkedNote`: the header of `unmarked.tsv`.
+* **`marks(kind, text, own, extra)`**:
+  * bold, `td.k` and `<i>` pronunciation lines in bodies;
+  * `X (LINE)` / `X, LINE` pairs where LINE is exactly `respell(X)`;
+  * the row's own target words, minus English homographs;
+  * `extra.spans` / `extra.not` from the hand-kept `tools/target/es/marks.extra.jsonl` (once `export_target.js` passes it as the fourth argument).
+* **`native/en/es/unmarked.tsv`** lists lexicon words (or words with `ñ á é í ó ú ü`) outside every mark. They are not protected until the source marks them.
+* **Commands:**
+  * `export_target.js es`;
+  * `proof.js es` (pure data, as zh);
+  * `validate.js <n> es`;
+  * `mk_native.js <n> --target es` (README wording still Chinese);
+  * `assemble.js <n> es`.

@@ -173,7 +173,9 @@ const TARGETS = {
   /* fourth half (docs/briefs/x-vi-design.md): "by marks". No protected script and no run sets (runs: null); has / isValue are whole-string tests used
      only where the position already says "target or prose?" is a fair question (titles, tile readings, in-lesson card fronts, the key answer of an
      mc / check item). Hints are never split: a hint is a mixed native field. marks = the span finder above; target/vi/marks.jsonl holds its output. */
-  vi: { code: 'vi', field: 'vi', name: 'Vietnamese', script: 'Vietnamese', by: 'marks', runs: null, has: isVietnamese, isValue: isVietnameseValue, leadRx: null, marks: viMarks }
+  vi: { code: 'vi', field: 'vi', name: 'Vietnamese', script: 'Vietnamese', by: 'marks', runs: null, has: isVietnamese, isValue: isVietnameseValue, leadRx: null, marks: viMarks },
+  /* fifth half (docs/briefs/x-es-design.md): "by marks", target text recognised by the course's own inventory (targets/_inventory.js; Spanish data: targets/es.js) */
+  es: require('./targets/es.js')
 };
 function target(t) { const c = TARGETS[t]; if (!c) throw new Error('unknown target "' + t + '" (known: ' + Object.keys(TARGETS).join(', ') + ')'); return c; }
 /* split "target lead<sep>native note" (hint, pause-set label); null when there is no leading target part. Marks-mode targets never split. */

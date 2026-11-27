@@ -1,0 +1,925 @@
+{"id":"es.c0001","deck":"es.d.sounds-and-spelling","es":"la hora","rom":"lah OH-rah"}
+{"id":"es.c0002","deck":"es.d.sounds-and-spelling","es":"el hijo","rom":"ehl EE-hoh"}
+{"id":"es.c0003","deck":"es.d.sounds-and-spelling","es":"la gente","rom":"lah HEHN-teh"}
+{"id":"es.c0004","deck":"es.d.sounds-and-spelling","es":"el jugo","rom":"ehl HOO-goh"}
+{"id":"es.c0005","deck":"es.d.sounds-and-spelling","es":"la llave","rom":"lah YAH-beh"}
+{"id":"es.c0006","deck":"es.d.sounds-and-spelling","es":"la calle","rom":"lah KAH-yeh"}
+{"id":"es.c0007","deck":"es.d.sounds-and-spelling","es":"el niño","rom":"ehl NEE-nyoh"}
+{"id":"es.c0008","deck":"es.d.sounds-and-spelling","es":"el perro","rom":"ehl PEH-rroh"}
+{"id":"es.c0009","deck":"es.d.sounds-and-spelling","es":"la cara","rom":"lah KAH-rah"}
+{"id":"es.c0010","deck":"es.d.sounds-and-spelling","es":"la rosa","rom":"lah RROH-sah"}
+{"id":"es.c0011","deck":"es.d.sounds-and-spelling","es":"la cerveza","rom":"lah sehr-BEH-sah"}
+{"id":"es.c0012","deck":"es.d.sounds-and-spelling","es":"el zapato","rom":"ehl sah-PAH-toh"}
+{"id":"es.c0013","deck":"es.d.sounds-and-spelling","es":"el queso","rom":"ehl KEH-soh"}
+{"id":"es.c0014","deck":"es.d.sounds-and-spelling","es":"la guitarra","rom":"lah ghee-TAH-rrah"}
+{"id":"es.c0015","deck":"es.d.sounds-and-spelling","es":"el vaso","rom":"ehl BAH-soh"}
+{"id":"es.c0016","deck":"es.d.sounds-and-spelling","es":"el papel","rom":"ehl pah-PEHL"}
+{"id":"es.c0017","deck":"es.d.sounds-and-spelling","es":"el café","rom":"ehl kah-FEH"}
+{"id":"es.c0018","deck":"es.d.greetings-and-courtesy","es":"Hola.","rom":"OH-lah"}
+{"id":"es.c0019","deck":"es.d.greetings-and-courtesy","es":"Buenos días.","rom":"BWEH-nohs DEE-ahs"}
+{"id":"es.c0020","deck":"es.d.greetings-and-courtesy","es":"Buenas tardes.","rom":"BWEH-nahs TAHR-dehs"}
+{"id":"es.c0021","deck":"es.d.greetings-and-courtesy","es":"Buenas noches.","rom":"BWEH-nahs NOH-chehs"}
+{"id":"es.c0022","deck":"es.d.greetings-and-courtesy","es":"¿Cómo estás?","rom":"KOH-moh ehs-TAHS"}
+{"id":"es.c0023","deck":"es.d.greetings-and-courtesy","es":"¿Cómo está usted?","rom":"KOH-moh ehs-TAH oos-TEHD"}
+{"id":"es.c0024","deck":"es.d.greetings-and-courtesy","es":"Bien, gracias, ¿y tú?","rom":"byehn GRAH-syahs ee too"}
+{"id":"es.c0025","deck":"es.d.greetings-and-courtesy","es":"Mucho gusto.","rom":"MOO-choh GOOS-toh"}
+{"id":"es.c0026","deck":"es.d.greetings-and-courtesy","es":"Muchas gracias.","rom":"MOO-chahs GRAH-syahs"}
+{"id":"es.c0027","deck":"es.d.greetings-and-courtesy","es":"De nada.","rom":"deh NAH-dah"}
+{"id":"es.c0028","deck":"es.d.greetings-and-courtesy","es":"Por favor.","rom":"pohr fah-BOHR"}
+{"id":"es.c0029","deck":"es.d.greetings-and-courtesy","es":"Disculpe.","rom":"dees-KOOL-peh"}
+{"id":"es.c0030","deck":"es.d.greetings-and-courtesy","es":"Con permiso.","rom":"kohn pehr-MEE-soh"}
+{"id":"es.c0031","deck":"es.d.greetings-and-courtesy","es":"Perdón.","rom":"pehr-DOHN"}
+{"id":"es.c0032","deck":"es.d.greetings-and-courtesy","es":"No entiendo.","rom":"noh ehn-TYEHN-doh"}
+{"id":"es.c0033","deck":"es.d.greetings-and-courtesy","es":"¿Puede repetir, por favor?","rom":"PWEH-deh rreh-peh-TEER pohr fah-BOHR"}
+{"id":"es.c0034","deck":"es.d.greetings-and-courtesy","es":"Hasta luego.","rom":"AHS-tah LWEH-goh"}
+{"id":"es.c0035","deck":"es.d.greetings-and-courtesy","es":"Adiós.","rom":"ah-DYOHS"}
+{"id":"es.c0036","deck":"es.d.about-me","es":"Me llamo Carlos.","rom":"meh YAH-moh KAHR-lohs"}
+{"id":"es.c0037","deck":"es.d.about-me","es":"Mi nombre es Ana.","rom":"mee NOHM-breh ehs AH-nah"}
+{"id":"es.c0038","deck":"es.d.about-me","es":"¿Cómo te llamas?","rom":"KOH-moh teh YAH-mahs"}
+{"id":"es.c0039","deck":"es.d.about-me","es":"¿Cómo se llama usted?","rom":"KOH-moh seh YAH-mah oos-TEHD"}
+{"id":"es.c0040","deck":"es.d.about-me","es":"Soy de Chicago.","rom":"soy deh chee-KAH-goh"}
+{"id":"es.c0041","deck":"es.d.about-me","es":"¿De dónde eres?","rom":"deh DOHN-deh EH-rehs"}
+{"id":"es.c0042","deck":"es.d.about-me","es":"Soy de Estados Unidos.","rom":"soy deh ehs-TAH-dohs oo-NEE-dohs"}
+{"id":"es.c0043","deck":"es.d.about-me","es":"Vivo en San Antonio.","rom":"BEE-boh ehn sahn ahn-TOH-nyoh"}
+{"id":"es.c0044","deck":"es.d.about-me","es":"¿Dónde vives?","rom":"DOHN-deh BEE-behs"}
+{"id":"es.c0045","deck":"es.d.about-me","es":"Tengo treinta y dos años.","rom":"TEHN-goh TRAYN-tah ee dohs AH-nyohs"}
+{"id":"es.c0046","deck":"es.d.about-me","es":"Soy enfermera.","rom":"soy ehn-fehr-MEH-rah"}
+{"id":"es.c0047","deck":"es.d.about-me","es":"¿A qué te dedicas?","rom":"ah keh teh deh-DEE-kahs"}
+{"id":"es.c0048","deck":"es.d.about-me","es":"Estoy casado.","rom":"ehs-TOY kah-SAH-doh"}
+{"id":"es.c0049","deck":"es.d.about-me","es":"Hablo un poco de español.","rom":"AH-bloh oon POH-koh deh ehs-pah-NYOHL"}
+{"id":"es.c0050","deck":"es.d.about-me","es":"Hablo inglés y español.","rom":"AH-bloh een-GLEHS ee ehs-pah-NYOHL"}
+{"id":"es.c0051","deck":"es.d.about-me","es":"¿Hablas inglés?","rom":"AH-blahs een-GLEHS"}
+{"id":"es.c0052","deck":"es.d.about-me","es":"Estoy aprendiendo español.","rom":"ehs-TOY ah-prehn-DYEHN-doh ehs-pah-NYOHL"}
+{"id":"es.c0053","deck":"es.d.people-and-family","es":"mi hermana","rom":"mee ehr-MAH-nah"}
+{"id":"es.c0054","deck":"es.d.people-and-family","es":"mi hermano mayor","rom":"mee ehr-MAH-noh mah-YOHR"}
+{"id":"es.c0055","deck":"es.d.people-and-family","es":"¿Tienes hermanos?","rom":"TYEH-nehs ehr-MAH-nohs"}
+{"id":"es.c0056","deck":"es.d.people-and-family","es":"los padres","rom":"lohs PAH-drehs"}
+{"id":"es.c0057","deck":"es.d.people-and-family","es":"mis papás","rom":"mees pah-PAHS"}
+{"id":"es.c0058","deck":"es.d.people-and-family","es":"Mi mamá es simpática.","rom":"mee mah-MAH ehs seem-PAH-tee-kah"}
+{"id":"es.c0059","deck":"es.d.people-and-family","es":"Mi hermano es alto.","rom":"mee ehr-MAH-noh ehs AHL-toh"}
+{"id":"es.c0060","deck":"es.d.people-and-family","es":"los abuelos","rom":"lohs ah-BWEH-lohs"}
+{"id":"es.c0061","deck":"es.d.people-and-family","es":"Mi abuela es de Oaxaca.","rom":"mee ah-BWEH-lah ehs deh wah-HAH-kah"}
+{"id":"es.c0062","deck":"es.d.people-and-family","es":"Él es mi esposo.","rom":"ehl ehs mee ehs-POH-soh"}
+{"id":"es.c0063","deck":"es.d.people-and-family","es":"la novia","rom":"lah NOH-byah"}
+{"id":"es.c0064","deck":"es.d.people-and-family","es":"Tengo dos hijos.","rom":"TEHN-goh dohs EE-hohs"}
+{"id":"es.c0065","deck":"es.d.people-and-family","es":"sus hijos","rom":"soos EE-hohs"}
+{"id":"es.c0066","deck":"es.d.people-and-family","es":"mi tía","rom":"mee TEE-ah"}
+{"id":"es.c0067","deck":"es.d.people-and-family","es":"una foto de mi familia","rom":"OO-nah FOH-toh deh mee fah-MEE-lyah"}
+{"id":"es.c0068","deck":"es.d.people-and-family","es":"nuestra familia","rom":"NWEHS-trah fah-MEE-lyah"}
+{"id":"es.c0069","deck":"es.d.people-and-family","es":"la amiga","rom":"lah ah-MEE-gah"}
+{"id":"es.c0070","deck":"es.d.people-and-family","es":"Ella es mi mejor amiga.","rom":"EH-yah ehs mee meh-HOHR ah-MEE-gah"}
+{"id":"es.c0071","deck":"es.d.numbers-time-and-prices","es":"quince","rom":"KEEN-seh"}
+{"id":"es.c0072","deck":"es.d.numbers-time-and-prices","es":"dieciséis","rom":"dyeh-see-SAYS"}
+{"id":"es.c0073","deck":"es.d.numbers-time-and-prices","es":"veinticinco","rom":"bayn-tee-SEEN-koh"}
+{"id":"es.c0074","deck":"es.d.numbers-time-and-prices","es":"treinta y uno","rom":"TRAYN-tah ee OO-noh"}
+{"id":"es.c0075","deck":"es.d.numbers-time-and-prices","es":"cien pesos","rom":"syehn PEH-sohs"}
+{"id":"es.c0076","deck":"es.d.numbers-time-and-prices","es":"ciento cincuenta","rom":"SYEHN-toh seen-KWEHN-tah"}
+{"id":"es.c0077","deck":"es.d.numbers-time-and-prices","es":"quinientos","rom":"kee-NYEHN-tohs"}
+{"id":"es.c0078","deck":"es.d.numbers-time-and-prices","es":"mil","rom":"meel"}
+{"id":"es.c0079","deck":"es.d.numbers-time-and-prices","es":"¿Qué hora es?","rom":"keh OH-rah ehs"}
+{"id":"es.c0080","deck":"es.d.numbers-time-and-prices","es":"Es la una.","rom":"ehs lah OO-nah"}
+{"id":"es.c0081","deck":"es.d.numbers-time-and-prices","es":"Son las tres y media.","rom":"sohn lahs trehs ee MEH-dyah"}
+{"id":"es.c0082","deck":"es.d.numbers-time-and-prices","es":"Son las ocho y cuarto.","rom":"sohn lahs OH-choh ee KWAHR-toh"}
+{"id":"es.c0083","deck":"es.d.numbers-time-and-prices","es":"a las nueve de la mañana","rom":"ah lahs NWEH-beh deh lah mah-NYAH-nah"}
+{"id":"es.c0084","deck":"es.d.numbers-time-and-prices","es":"¿A qué hora abren?","rom":"ah keh OH-rah AH-brehn"}
+{"id":"es.c0085","deck":"es.d.numbers-time-and-prices","es":"¿Cuánto cuesta?","rom":"KWAHN-toh KWEHS-tah"}
+{"id":"es.c0086","deck":"es.d.numbers-time-and-prices","es":"¿Cuánto cuestan los tacos?","rom":"KWAHN-toh KWEHS-tahn lohs TAH-kohs"}
+{"id":"es.c0087","deck":"es.d.numbers-time-and-prices","es":"Son doscientos pesos.","rom":"sohn dohs-SYEHN-tohs PEH-sohs"}
+{"id":"es.c0088","deck":"es.d.numbers-time-and-prices","es":"diez dólares","rom":"dyehs DOH-lah-rehs"}
+{"id":"es.c0089","deck":"es.d.days-dates-and-weather","es":"el lunes","rom":"ehl LOO-nehs"}
+{"id":"es.c0090","deck":"es.d.days-dates-and-weather","es":"el sábado","rom":"ehl SAH-bah-doh"}
+{"id":"es.c0091","deck":"es.d.days-dates-and-weather","es":"los domingos","rom":"lohs doh-MEEN-gohs"}
+{"id":"es.c0092","deck":"es.d.days-dates-and-weather","es":"¿Qué día es hoy?","rom":"keh DEE-ah ehs oy"}
+{"id":"es.c0093","deck":"es.d.days-dates-and-weather","es":"Hoy es martes.","rom":"oy ehs MAHR-tehs"}
+{"id":"es.c0094","deck":"es.d.days-dates-and-weather","es":"el día","rom":"ehl DEE-ah"}
+{"id":"es.c0095","deck":"es.d.days-dates-and-weather","es":"mañana","rom":"mah-NYAH-nah"}
+{"id":"es.c0096","deck":"es.d.days-dates-and-weather","es":"ayer","rom":"ah-YEHR"}
+{"id":"es.c0097","deck":"es.d.days-dates-and-weather","es":"la semana que viene","rom":"lah seh-MAH-nah keh BYEH-neh"}
+{"id":"es.c0098","deck":"es.d.days-dates-and-weather","es":"el quince de septiembre","rom":"ehl KEEN-seh deh sehp-TYEHM-breh"}
+{"id":"es.c0099","deck":"es.d.days-dates-and-weather","es":"en enero","rom":"ehn eh-NEH-roh"}
+{"id":"es.c0100","deck":"es.d.days-dates-and-weather","es":"Mi cumpleaños es el ocho de marzo.","rom":"mee koom-pleh-AH-nyohs ehs ehl OH-choh deh MAHR-soh"}
+{"id":"es.c0101","deck":"es.d.days-dates-and-weather","es":"¿Qué tiempo hace?","rom":"keh TYEHM-poh AH-seh"}
+{"id":"es.c0102","deck":"es.d.days-dates-and-weather","es":"Hace calor.","rom":"AH-seh kah-LOHR"}
+{"id":"es.c0103","deck":"es.d.days-dates-and-weather","es":"Hace sol.","rom":"AH-seh sohl"}
+{"id":"es.c0104","deck":"es.d.days-dates-and-weather","es":"Está lloviendo.","rom":"ehs-TAH yoh-BYEHN-doh"}
+{"id":"es.c0105","deck":"es.d.days-dates-and-weather","es":"Está nublado.","rom":"ehs-TAH noo-BLAH-doh"}
+{"id":"es.c0106","deck":"es.d.days-dates-and-weather","es":"Hace veinte grados.","rom":"AH-seh BAYN-teh GRAH-dohs"}
+{"id":"es.c0107","deck":"es.d.food-and-drink","es":"un taco de pollo","rom":"oon TAH-koh deh POH-yoh"}
+{"id":"es.c0108","deck":"es.d.food-and-drink","es":"unos tamales","rom":"OO-nohs tah-MAH-lehs"}
+{"id":"es.c0109","deck":"es.d.food-and-drink","es":"las tortillas de maíz","rom":"lahs tohr-TEE-yahs deh mah-EES"}
+{"id":"es.c0110","deck":"es.d.food-and-drink","es":"los frijoles","rom":"lohs free-HOH-lehs"}
+{"id":"es.c0111","deck":"es.d.food-and-drink","es":"el arroz","rom":"ehl ah-RROHS"}
+{"id":"es.c0112","deck":"es.d.food-and-drink","es":"el aguacate","rom":"ehl ah-gwah-KAH-teh"}
+{"id":"es.c0113","deck":"es.d.food-and-drink","es":"las papas fritas","rom":"lahs PAH-pahs FREE-tahs"}
+{"id":"es.c0114","deck":"es.d.food-and-drink","es":"un vaso de agua","rom":"oon BAH-soh deh AH-gwah"}
+{"id":"es.c0115","deck":"es.d.food-and-drink","es":"el agua de jamaica","rom":"ehl AH-gwah deh hah-MAI-kah"}
+{"id":"es.c0116","deck":"es.d.food-and-drink","es":"el desayuno","rom":"ehl deh-sah-YOO-noh"}
+{"id":"es.c0117","deck":"es.d.food-and-drink","es":"¿Me da un café, por favor?","rom":"meh dah oon kah-FEH pohr fah-BOHR"}
+{"id":"es.c0118","deck":"es.d.food-and-drink","es":"Para mí, una quesadilla.","rom":"PAH-rah mee OO-nah keh-sah-DEE-yah"}
+{"id":"es.c0119","deck":"es.d.food-and-drink","es":"¿Qué me recomienda?","rom":"keh meh rreh-koh-MYEHN-dah"}
+{"id":"es.c0120","deck":"es.d.food-and-drink","es":"¿Pica?","rom":"PEE-kah"}
+{"id":"es.c0121","deck":"es.d.food-and-drink","es":"Sin cebolla, por favor.","rom":"seen seh-BOH-yah pohr fah-BOHR"}
+{"id":"es.c0122","deck":"es.d.food-and-drink","es":"¿Para llevar o para comer aquí?","rom":"PAH-rah yeh-BAHR oh PAH-rah koh-MEHR ah-KEE"}
+{"id":"es.c0123","deck":"es.d.food-and-drink","es":"Está muy rico.","rom":"ehs-TAH mwee RREE-koh"}
+{"id":"es.c0124","deck":"es.d.food-and-drink","es":"La cuenta, por favor.","rom":"lah KWEHN-tah pohr fah-BOHR"}
+{"id":"es.c0125","deck":"es.d.shopping-and-clothes","es":"la camisa roja","rom":"lah kah-MEE-sah RROH-hah"}
+{"id":"es.c0126","deck":"es.d.shopping-and-clothes","es":"los zapatos negros","rom":"lohs sah-PAH-tohs NEH-grohs"}
+{"id":"es.c0127","deck":"es.d.shopping-and-clothes","es":"los pantalones azules","rom":"lohs pahn-tah-LOH-nehs ah-SOO-lehs"}
+{"id":"es.c0128","deck":"es.d.shopping-and-clothes","es":"la falda blanca","rom":"lah FAHL-dah BLAHN-kah"}
+{"id":"es.c0129","deck":"es.d.shopping-and-clothes","es":"el vestido verde","rom":"ehl behs-TEE-doh BEHR-deh"}
+{"id":"es.c0130","deck":"es.d.shopping-and-clothes","es":"la chaqueta gris","rom":"lah chah-KEH-tah grees"}
+{"id":"es.c0131","deck":"es.d.shopping-and-clothes","es":"el mercado","rom":"ehl mehr-KAH-doh"}
+{"id":"es.c0132","deck":"es.d.shopping-and-clothes","es":"Solo estoy viendo, gracias.","rom":"SOH-loh ehs-TOY BYEHN-doh GRAH-syahs"}
+{"id":"es.c0133","deck":"es.d.shopping-and-clothes","es":"Busco un regalo.","rom":"BOOS-koh oon rreh-GAH-loh"}
+{"id":"es.c0134","deck":"es.d.shopping-and-clothes","es":"¿Tiene una talla más grande?","rom":"TYEH-neh OO-nah TAH-yah mahs GRAHN-deh"}
+{"id":"es.c0135","deck":"es.d.shopping-and-clothes","es":"¿Dónde está el probador?","rom":"DOHN-deh ehs-TAH ehl proh-bah-DOHR"}
+{"id":"es.c0136","deck":"es.d.shopping-and-clothes","es":"¿Me la puedo probar?","rom":"meh lah PWEH-doh proh-BAHR"}
+{"id":"es.c0137","deck":"es.d.shopping-and-clothes","es":"Me queda grande.","rom":"meh KEH-dah GRAHN-deh"}
+{"id":"es.c0138","deck":"es.d.shopping-and-clothes","es":"¿Lo tiene en negro?","rom":"loh TYEH-neh ehn NEH-groh"}
+{"id":"es.c0139","deck":"es.d.shopping-and-clothes","es":"Me la llevo.","rom":"meh lah YEH-boh"}
+{"id":"es.c0140","deck":"es.d.shopping-and-clothes","es":"Me los llevo.","rom":"meh lohs YEH-boh"}
+{"id":"es.c0141","deck":"es.d.shopping-and-clothes","es":"¿Aceptan tarjeta?","rom":"ah-SEHP-tahn tahr-HEH-tah"}
+{"id":"es.c0142","deck":"es.d.shopping-and-clothes","es":"¿En efectivo o con tarjeta?","rom":"ehn eh-fehk-TEE-boh oh kohn tahr-HEH-tah"}
+{"id":"es.c0143","deck":"es.d.home-and-routine","es":"la cocina","rom":"lah koh-SEE-nah"}
+{"id":"es.c0144","deck":"es.d.home-and-routine","es":"el baño","rom":"ehl BAH-nyoh"}
+{"id":"es.c0145","deck":"es.d.home-and-routine","es":"la cama","rom":"lah KAH-mah"}
+{"id":"es.c0146","deck":"es.d.home-and-routine","es":"el refrigerador","rom":"ehl rreh-free-heh-rah-DOHR"}
+{"id":"es.c0147","deck":"es.d.home-and-routine","es":"Vivo en un apartamento.","rom":"BEE-boh ehn oon ah-pahr-tah-MEHN-toh"}
+{"id":"es.c0148","deck":"es.d.home-and-routine","es":"Hay dos cuartos.","rom":"ai dohs KWAHR-tohs"}
+{"id":"es.c0149","deck":"es.d.home-and-routine","es":"Hay un sofá en la sala.","rom":"ai oon soh-FAH ehn lah SAH-lah"}
+{"id":"es.c0150","deck":"es.d.home-and-routine","es":"No hay leche.","rom":"noh ai LEH-cheh"}
+{"id":"es.c0151","deck":"es.d.home-and-routine","es":"Me despierto a las seis.","rom":"meh dehs-PYEHR-toh ah lahs says"}
+{"id":"es.c0152","deck":"es.d.home-and-routine","es":"Me levanto a las siete.","rom":"meh leh-BAHN-toh ah lahs SYEH-teh"}
+{"id":"es.c0153","deck":"es.d.home-and-routine","es":"¿A qué hora te levantas?","rom":"ah keh OH-rah teh leh-BAHN-tahs"}
+{"id":"es.c0154","deck":"es.d.home-and-routine","es":"Me baño.","rom":"meh BAH-nyoh"}
+{"id":"es.c0155","deck":"es.d.home-and-routine","es":"Me lavo los dientes.","rom":"meh LAH-boh lohs DYEHN-tehs"}
+{"id":"es.c0156","deck":"es.d.home-and-routine","es":"Me lavo las manos.","rom":"meh LAH-boh lahs MAH-nohs"}
+{"id":"es.c0157","deck":"es.d.home-and-routine","es":"Salgo de casa a las ocho.","rom":"SAHL-goh deh KAH-sah ah lahs OH-choh"}
+{"id":"es.c0158","deck":"es.d.home-and-routine","es":"Ceno con mi familia.","rom":"SEH-noh kohn mee fah-MEE-lyah"}
+{"id":"es.c0159","deck":"es.d.home-and-routine","es":"Me acuesto a las once.","rom":"meh ah-KWEHS-toh ah lahs OHN-seh"}
+{"id":"es.c0160","deck":"es.d.home-and-routine","es":"Los niños se acuestan a las nueve.","rom":"lohs NEE-nyohs seh ah-KWEHS-tahn ah lahs NWEH-beh"}
+{"id":"es.c0161","deck":"es.d.around-town-and-directions","es":"¿Dónde está el baño?","rom":"DOHN-deh ehs-TAH ehl BAH-nyoh"}
+{"id":"es.c0162","deck":"es.d.around-town-and-directions","es":"a la derecha","rom":"ah lah deh-REH-chah"}
+{"id":"es.c0163","deck":"es.d.around-town-and-directions","es":"Siga derecho.","rom":"SEE-gah deh-REH-choh"}
+{"id":"es.c0164","deck":"es.d.around-town-and-directions","es":"la parada de autobús","rom":"lah pah-RAH-dah deh ow-toh-BOOS"}
+{"id":"es.c0165","deck":"es.d.around-town-and-directions","es":"Está cerca.","rom":"ehs-TAH SEHR-kah"}
+{"id":"es.c0166","deck":"es.d.around-town-and-directions","es":"a la izquierda","rom":"ah lah ees-KYEHR-dah"}
+{"id":"es.c0167","deck":"es.d.around-town-and-directions","es":"Gire a la izquierda en el semáforo.","rom":"HEE-reh ah lah ees-KYEHR-dah ehn ehl seh-MAH-foh-roh"}
+{"id":"es.c0168","deck":"es.d.around-town-and-directions","es":"Cruce la calle.","rom":"KROO-seh lah KAH-yeh"}
+{"id":"es.c0169","deck":"es.d.around-town-and-directions","es":"¿Dónde hay un banco?","rom":"DOHN-deh ai oon BAHN-koh"}
+{"id":"es.c0170","deck":"es.d.around-town-and-directions","es":"al lado de la iglesia","rom":"ahl LAH-doh deh lah ee-GLEH-syah"}
+{"id":"es.c0171","deck":"es.d.around-town-and-directions","es":"enfrente del banco","rom":"ehn-FREHN-teh dehl BAHN-koh"}
+{"id":"es.c0172","deck":"es.d.around-town-and-directions","es":"en la esquina","rom":"ehn lah ehs-KEE-nah"}
+{"id":"es.c0173","deck":"es.d.around-town-and-directions","es":"a dos cuadras","rom":"ah dohs KWAH-drahs"}
+{"id":"es.c0174","deck":"es.d.around-town-and-directions","es":"Disculpe, ¿cómo llego al museo?","rom":"dees-KOOL-peh KOH-moh YEH-goh ahl moo-SEH-oh"}
+{"id":"es.c0175","deck":"es.d.around-town-and-directions","es":"Estoy perdido.","rom":"ehs-TOY pehr-DEE-doh"}
+{"id":"es.c0176","deck":"es.d.around-town-and-directions","es":"Está lejos de aquí.","rom":"ehs-TAH LEH-hohs deh ah-KEE"}
+{"id":"es.c0177","deck":"es.d.around-town-and-directions","es":"el mapa","rom":"ehl MAH-pah"}
+{"id":"es.c0178","deck":"es.d.around-town-and-directions","es":"¿Está abierto el mercado?","rom":"ehs-TAH ah-BYEHR-toh ehl mehr-KAH-doh"}
+{"id":"es.c0179","deck":"es.d.travel-and-transport","es":"el boleto","rom":"ehl boh-LEH-toh"}
+{"id":"es.c0180","deck":"es.d.travel-and-transport","es":"Voy en metro.","rom":"boy ehn MEH-troh"}
+{"id":"es.c0181","deck":"es.d.travel-and-transport","es":"el aeropuerto","rom":"ehl ah-eh-roh-PWEHR-toh"}
+{"id":"es.c0182","deck":"es.d.travel-and-transport","es":"¿A qué hora sale el tren?","rom":"ah keh OH-rah SAH-leh ehl trehn"}
+{"id":"es.c0183","deck":"es.d.travel-and-transport","es":"el carro","rom":"ehl KAH-rroh"}
+{"id":"es.c0184","deck":"es.d.travel-and-transport","es":"Un boleto de ida y vuelta, por favor.","rom":"oon boh-LEH-toh deh EE-dah ee BWEHL-tah pohr fah-BOHR"}
+{"id":"es.c0185","deck":"es.d.travel-and-transport","es":"la estación de tren","rom":"lah ehs-tah-SYOHN deh trehn"}
+{"id":"es.c0186","deck":"es.d.travel-and-transport","es":"Aquí está mi pasaporte.","rom":"ah-KEE ehs-TAH mee pah-sah-POHR-teh"}
+{"id":"es.c0187","deck":"es.d.travel-and-transport","es":"Tengo una reservación.","rom":"TEHN-goh OO-nah rreh-sehr-bah-SYOHN"}
+{"id":"es.c0188","deck":"es.d.travel-and-transport","es":"Voy a viajar a Cancún.","rom":"boy ah byah-HAHR ah kahn-KOON"}
+{"id":"es.c0189","deck":"es.d.travel-and-transport","es":"Vamos a pie.","rom":"BAH-mohs ah pyeh"}
+{"id":"es.c0190","deck":"es.d.travel-and-transport","es":"Tomo el autobús.","rom":"TOH-moh ehl ow-toh-BOOS"}
+{"id":"es.c0191","deck":"es.d.travel-and-transport","es":"una habitación para dos personas","rom":"OO-nah ah-bee-tah-SYOHN PAH-rah dohs pehr-SOH-nahs"}
+{"id":"es.c0192","deck":"es.d.travel-and-transport","es":"¿El desayuno está incluido?","rom":"ehl deh-sah-YOO-noh ehs-TAH een-KLWEE-doh"}
+{"id":"es.c0193","deck":"es.d.travel-and-transport","es":"¿Dónde está la salida?","rom":"DOHN-deh ehs-TAH lah sah-LEE-dah"}
+{"id":"es.c0194","deck":"es.d.travel-and-transport","es":"Me bajo aquí.","rom":"meh BAH-hoh ah-KEE"}
+{"id":"es.c0195","deck":"es.d.travel-and-transport","es":"¿Está libre este asiento?","rom":"ehs-TAH LEE-breh EHS-teh ah-SYEHN-toh"}
+{"id":"es.c0196","deck":"es.d.health-and-emergencies","es":"Me duele la cabeza.","rom":"meh DWEH-leh lah kah-BEH-sah"}
+{"id":"es.c0197","deck":"es.d.health-and-emergencies","es":"Estoy enfermo.","rom":"ehs-TOY ehn-FEHR-moh"}
+{"id":"es.c0198","deck":"es.d.health-and-emergencies","es":"¡Ayuda!","rom":"ah-YOO-dah"}
+{"id":"es.c0199","deck":"es.d.health-and-emergencies","es":"¿Puede llamar a una ambulancia?","rom":"PWEH-deh yah-MAHR ah OO-nah ahm-boo-LAHN-syah"}
+{"id":"es.c0200","deck":"es.d.health-and-emergencies","es":"la farmacia","rom":"lah fahr-MAH-syah"}
+{"id":"es.c0201","deck":"es.d.health-and-emergencies","es":"Me duele el estómago.","rom":"meh DWEH-leh ehl ehs-TOH-mah-goh"}
+{"id":"es.c0202","deck":"es.d.health-and-emergencies","es":"Me duelen los pies.","rom":"meh DWEH-lehn lohs pyehs"}
+{"id":"es.c0203","deck":"es.d.health-and-emergencies","es":"Tengo fiebre.","rom":"TEHN-goh FYEH-breh"}
+{"id":"es.c0204","deck":"es.d.health-and-emergencies","es":"Tengo tos.","rom":"TEHN-goh tohs"}
+{"id":"es.c0205","deck":"es.d.health-and-emergencies","es":"Tengo gripa.","rom":"TEHN-goh GREE-pah"}
+{"id":"es.c0206","deck":"es.d.health-and-emergencies","es":"Necesito un médico.","rom":"neh-seh-SEE-toh oon MEH-dee-koh"}
+{"id":"es.c0207","deck":"es.d.health-and-emergencies","es":"Soy alérgico a la penicilina.","rom":"soy ah-LEHR-hee-koh ah lah peh-nee-see-LEE-nah"}
+{"id":"es.c0208","deck":"es.d.health-and-emergencies","es":"Tome estas pastillas.","rom":"TOH-meh EHS-tahs pahs-TEE-yahs"}
+{"id":"es.c0209","deck":"es.d.health-and-emergencies","es":"¡Llame a la policía!","rom":"YAH-meh ah lah poh-lee-SEE-ah"}
+{"id":"es.c0210","deck":"es.d.health-and-emergencies","es":"Es una emergencia.","rom":"ehs OO-nah eh-mehr-HEHN-syah"}
+{"id":"es.c0211","deck":"es.d.health-and-emergencies","es":"¿Cómo te sientes?","rom":"KOH-moh teh SYEHN-tehs"}
+{"id":"es.c0212","deck":"es.d.health-and-emergencies","es":"Me siento mejor.","rom":"meh SYEHN-toh meh-HOHR"}
+{"id":"es.c0213","deck":"es.d.work-and-school","es":"Trabajo en una oficina.","rom":"trah-BAH-hoh ehn OO-nah oh-fee-SEE-nah"}
+{"id":"es.c0214","deck":"es.d.work-and-school","es":"la reunión","rom":"lah rrehw-NYOHN"}
+{"id":"es.c0215","deck":"es.d.work-and-school","es":"Estudio español.","rom":"ehs-TOO-dyoh ehs-pah-NYOHL"}
+{"id":"es.c0216","deck":"es.d.work-and-school","es":"Mi jefa es de Puebla.","rom":"mee HEH-fah ehs deh PWEH-blah"}
+{"id":"es.c0217","deck":"es.d.work-and-school","es":"Se habla español.","rom":"seh AH-blah ehs-pah-NYOHL"}
+{"id":"es.c0218","deck":"es.d.work-and-school","es":"mi compañera de trabajo","rom":"mee kohm-pah-NYEH-rah deh trah-BAH-hoh"}
+{"id":"es.c0219","deck":"es.d.work-and-school","es":"Tengo una reunión a las diez.","rom":"TEHN-goh OO-nah rrehw-NYOHN ah lahs dyehs"}
+{"id":"es.c0220","deck":"es.d.work-and-school","es":"Trabajo desde casa.","rom":"trah-BAH-hoh DEHS-deh KAH-sah"}
+{"id":"es.c0221","deck":"es.d.work-and-school","es":"¿Cómo se dice esto?","rom":"KOH-moh seh DEE-seh EHS-toh"}
+{"id":"es.c0222","deck":"es.d.work-and-school","es":"Tengo mucha tarea.","rom":"TEHN-goh MOO-chah tah-REH-ah"}
+{"id":"es.c0223","deck":"es.d.work-and-school","es":"Mañana tengo un examen.","rom":"mah-NYAH-nah TEHN-goh oon ehk-SAH-mehn"}
+{"id":"es.c0224","deck":"es.d.work-and-school","es":"La clase empieza a las nueve.","rom":"lah KLAH-seh ehm-PYEH-sah ah lahs NWEH-beh"}
+{"id":"es.c0225","deck":"es.d.work-and-school","es":"Mi computadora no funciona.","rom":"mee kohm-poo-tah-DOH-rah noh foon-SYOH-nah"}
+{"id":"es.c0226","deck":"es.d.work-and-school","es":"Te mando un correo.","rom":"teh MAHN-doh oon koh-RREH-oh"}
+{"id":"es.c0227","deck":"es.d.work-and-school","es":"Se necesitan meseros.","rom":"seh neh-seh-SEE-tahn meh-SEH-rohs"}
+{"id":"es.c0228","deck":"es.d.work-and-school","es":"Trabajamos los sábados.","rom":"trah-bah-HAH-mohs lohs SAH-bah-dohs"}
+{"id":"es.c0229","deck":"es.d.work-and-school","es":"Estoy de vacaciones.","rom":"ehs-TOY deh bah-kah-SYOH-nehs"}
+{"id":"es.c0230","deck":"es.d.feelings-and-states","es":"Estoy cansado.","rom":"ehs-TOY kahn-SAH-doh"}
+{"id":"es.c0231","deck":"es.d.feelings-and-states","es":"Tengo hambre.","rom":"TEHN-goh AHM-breh"}
+{"id":"es.c0232","deck":"es.d.feelings-and-states","es":"Estoy contenta.","rom":"ehs-TOY kohn-TEHN-tah"}
+{"id":"es.c0233","deck":"es.d.feelings-and-states","es":"Estoy aburrido.","rom":"ehs-TOY ah-boo-RREE-doh"}
+{"id":"es.c0234","deck":"es.d.feelings-and-states","es":"Tengo miedo.","rom":"TEHN-goh MYEH-doh"}
+{"id":"es.c0235","deck":"es.d.feelings-and-states","es":"Tengo sed.","rom":"TEHN-goh sehd"}
+{"id":"es.c0236","deck":"es.d.feelings-and-states","es":"Tengo sueño.","rom":"TEHN-goh SWEH-nyoh"}
+{"id":"es.c0237","deck":"es.d.feelings-and-states","es":"Tengo calor.","rom":"TEHN-goh kah-LOHR"}
+{"id":"es.c0238","deck":"es.d.feelings-and-states","es":"Tengo prisa.","rom":"TEHN-goh PREE-sah"}
+{"id":"es.c0239","deck":"es.d.feelings-and-states","es":"Estoy nervioso.","rom":"ehs-TOY nehr-BYOH-soh"}
+{"id":"es.c0240","deck":"es.d.feelings-and-states","es":"Estoy triste.","rom":"ehs-TOY TREES-teh"}
+{"id":"es.c0241","deck":"es.d.feelings-and-states","es":"Estoy preocupada.","rom":"ehs-TOY preh-oh-koo-PAH-dah"}
+{"id":"es.c0242","deck":"es.d.feelings-and-states","es":"Estoy enojado.","rom":"ehs-TOY eh-noh-HAH-doh"}
+{"id":"es.c0243","deck":"es.d.feelings-and-states","es":"Estoy emocionada.","rom":"ehs-TOY eh-moh-syoh-NAH-dah"}
+{"id":"es.c0244","deck":"es.d.feelings-and-states","es":"Estoy listo.","rom":"ehs-TOY LEES-toh"}
+{"id":"es.c0245","deck":"es.d.feelings-and-states","es":"¿Qué te pasa?","rom":"keh teh PAH-sah"}
+{"id":"es.c0246","deck":"es.d.feelings-and-states","es":"Estoy de buen humor.","rom":"ehs-TOY deh bwehn oo-MOHR"}
+{"id":"es.c0247","deck":"es.d.likes-and-free-time","es":"Me gusta el fútbol.","rom":"meh GOOS-tah ehl FOOT-bohl"}
+{"id":"es.c0248","deck":"es.d.likes-and-free-time","es":"Me gustan los tacos.","rom":"meh GOOS-tahn lohs TAH-kohs"}
+{"id":"es.c0249","deck":"es.d.likes-and-free-time","es":"¿Te gusta bailar?","rom":"teh GOOS-tah bai-LAHR"}
+{"id":"es.c0250","deck":"es.d.likes-and-free-time","es":"el fin de semana","rom":"ehl feen deh seh-MAH-nah"}
+{"id":"es.c0251","deck":"es.d.likes-and-free-time","es":"Fui al cine.","rom":"fwee ahl SEE-neh"}
+{"id":"es.c0252","deck":"es.d.likes-and-free-time","es":"No me gusta correr.","rom":"noh meh GOOS-tah koh-RREHR"}
+{"id":"es.c0253","deck":"es.d.likes-and-free-time","es":"Me encanta la música.","rom":"meh ehn-KAHN-tah lah MOO-see-kah"}
+{"id":"es.c0254","deck":"es.d.likes-and-free-time","es":"A mí también.","rom":"ah mee tahm-BYEHN"}
+{"id":"es.c0255","deck":"es.d.likes-and-free-time","es":"A mí tampoco.","rom":"ah mee tahm-POH-koh"}
+{"id":"es.c0256","deck":"es.d.likes-and-free-time","es":"¿Qué haces en tu tiempo libre?","rom":"keh AH-sehs ehn too TYEHM-poh LEE-breh"}
+{"id":"es.c0257","deck":"es.d.likes-and-free-time","es":"Juego básquetbol.","rom":"HWEH-goh BAHS-keht-bohl"}
+{"id":"es.c0258","deck":"es.d.likes-and-free-time","es":"Toco la guitarra.","rom":"TOH-koh lah ghee-TAH-rrah"}
+{"id":"es.c0259","deck":"es.d.likes-and-free-time","es":"¿Qué hiciste el fin de semana?","rom":"keh ee-SEES-teh ehl feen deh seh-MAH-nah"}
+{"id":"es.c0260","deck":"es.d.likes-and-free-time","es":"Salí con mis amigos.","rom":"sah-LEE kohn mees ah-MEE-gohs"}
+{"id":"es.c0261","deck":"es.d.likes-and-free-time","es":"Vimos una película.","rom":"BEE-mohs OO-nah peh-LEE-koo-lah"}
+{"id":"es.c0262","deck":"es.d.likes-and-free-time","es":"¿Quieres ir a la playa?","rom":"KYEH-rehs eer ah lah PLAH-yah"}
+{"id":"es.c0263","deck":"es.d.likes-and-free-time","es":"Me encantan los perros.","rom":"meh ehn-KAHN-tahn lohs PEH-rrohs"}
+{"id":"es.c0264","deck":"es.d.questions-and-connectors","es":"¿Por qué?","rom":"pohr keh"}
+{"id":"es.c0265","deck":"es.d.questions-and-connectors","es":"¿Cuándo?","rom":"KWAHN-doh"}
+{"id":"es.c0266","deck":"es.d.questions-and-connectors","es":"¿Cuántos años tienes?","rom":"KWAHN-tohs AH-nyohs TYEH-nehs"}
+{"id":"es.c0267","deck":"es.d.questions-and-connectors","es":"pero","rom":"PEH-roh"}
+{"id":"es.c0268","deck":"es.d.questions-and-connectors","es":"también","rom":"tahm-BYEHN"}
+{"id":"es.c0269","deck":"es.d.questions-and-connectors","es":"tampoco","rom":"tahm-POH-koh"}
+{"id":"es.c0270","deck":"es.d.questions-and-connectors","es":"¿Qué es esto?","rom":"keh ehs EHS-toh"}
+{"id":"es.c0271","deck":"es.d.questions-and-connectors","es":"¿Dónde trabajas?","rom":"DOHN-deh trah-BAH-hahs"}
+{"id":"es.c0272","deck":"es.d.questions-and-connectors","es":"¿Quién es ella?","rom":"kyehn ehs EH-yah"}
+{"id":"es.c0273","deck":"es.d.questions-and-connectors","es":"¿Cuál prefieres?","rom":"kwahl preh-FYEH-rehs"}
+{"id":"es.c0274","deck":"es.d.questions-and-connectors","es":"¿Cuántas hermanas tienes?","rom":"KWAHN-tahs ehr-MAH-nahs TYEH-nehs"}
+{"id":"es.c0275","deck":"es.d.questions-and-connectors","es":"¿Adónde vas?","rom":"ah-DOHN-deh bahs"}
+{"id":"es.c0276","deck":"es.d.questions-and-connectors","es":"¿Con quién vives?","rom":"kohn kyehn BEE-behs"}
+{"id":"es.c0277","deck":"es.d.questions-and-connectors","es":"Porque estoy cansado.","rom":"POHR-keh ehs-TOY kahn-SAH-doh"}
+{"id":"es.c0278","deck":"es.d.questions-and-connectors","es":"¿Café o té?","rom":"kah-FEH oh teh"}
+{"id":"es.c0279","deck":"es.d.questions-and-connectors","es":"Ana e Isabel","rom":"AH-nah eh ee-sah-BEHL"}
+{"id":"es.c0280","deck":"es.d.questions-and-connectors","es":"siete u ocho","rom":"SYEH-teh oo OH-choh"}
+{"id":"es.c0281","deck":"es.d.questions-and-connectors","es":"entonces","rom":"ehn-TOHN-sehs"}
+{"id":"es.c0282","deck":"es.d.traps-for-english-speakers","es":"embarazada","rom":"ehm-bah-rah-SAH-dah"}
+{"id":"es.c0283","deck":"es.d.traps-for-english-speakers","es":"la librería","rom":"lah lee-breh-REE-ah"}
+{"id":"es.c0284","deck":"es.d.traps-for-english-speakers","es":"el éxito","rom":"ehl EHK-see-toh"}
+{"id":"es.c0285","deck":"es.d.traps-for-english-speakers","es":"Tengo frío.","rom":"TEHN-goh FREE-oh"}
+{"id":"es.c0286","deck":"es.d.traps-for-english-speakers","es":"Hace mucho frío.","rom":"AH-seh MOO-choh FREE-oh"}
+{"id":"es.c0287","deck":"es.d.traps-for-english-speakers","es":"Me da vergüenza.","rom":"meh dah behr-GWEHN-sah"}
+{"id":"es.c0288","deck":"es.d.traps-for-english-speakers","es":"realizar un proyecto","rom":"rreh-ah-lee-SAHR oon proh-YEHK-toh"}
+{"id":"es.c0289","deck":"es.d.traps-for-english-speakers","es":"asistir a clase","rom":"ah-sees-TEER ah KLAH-seh"}
+{"id":"es.c0290","deck":"es.d.traps-for-english-speakers","es":"Actualmente vivo en Puebla.","rom":"ahk-twahl-MEHN-teh BEE-boh ehn PWEH-blah"}
+{"id":"es.c0291","deck":"es.d.traps-for-english-speakers","es":"la carpeta","rom":"lah kahr-PEH-tah"}
+{"id":"es.c0292","deck":"es.d.traps-for-english-speakers","es":"la sopa","rom":"lah SOH-pah"}
+{"id":"es.c0293","deck":"es.d.traps-for-english-speakers","es":"los parientes","rom":"lohs pah-RYEHN-tehs"}
+{"id":"es.c0294","deck":"es.d.traps-for-english-speakers","es":"Estoy constipado.","rom":"ehs-TOY kohns-tee-PAH-doh"}
+{"id":"es.c0295","deck":"es.d.traps-for-english-speakers","es":"Tengo veinticinco años.","rom":"TEHN-goh bayn-tee-SEEN-koh AH-nyohs"}
+{"id":"es.c0296","deck":"es.d.traps-for-english-speakers","es":"Me llamo Sofía.","rom":"meh YAH-moh soh-FEE-ah"}
+{"id":"es.c0297","deck":"es.d.traps-for-english-speakers","es":"Tengo mucha hambre.","rom":"TEHN-goh MOO-chah AHM-breh"}
+{"id":"es.c0298","deck":"es.d.traps-for-english-speakers","es":"el problema","rom":"ehl proh-BLEH-mah"}
+{"id":"es.c0299","deck":"es.d.traps-for-english-speakers","es":"el hospital","rom":"ehl ohs-pee-TAHL"}
+{"id":"es.c0300","deck":"es.d.traps-for-english-speakers","es":"el animal","rom":"ehl ah-nee-MAHL"}
+{"id":"es.c0301","deck":"es.d.caribbean-and-dominican-spanish","es":"¿Cómo tú estás?","rom":"KOH-moh too ehs-TAHS"}
+{"id":"es.c0302","deck":"es.d.caribbean-and-dominican-spanish","es":"la guagua","rom":"lah GWAH-gwah"}
+{"id":"es.c0303","deck":"es.d.caribbean-and-dominican-spanish","es":"un chin","rom":"oon cheen"}
+{"id":"es.c0304","deck":"es.d.caribbean-and-dominican-spanish","es":"el colmado","rom":"ehl kohl-MAH-doh"}
+{"id":"es.c0305","deck":"es.d.caribbean-and-dominican-spanish","es":"esa vaina","rom":"EH-sah BAI-nah"}
+{"id":"es.c0306","deck":"es.d.caribbean-and-dominican-spanish","es":"¿Qué tú quieres?","rom":"keh too KYEH-rehs"}
+{"id":"es.c0307","deck":"es.d.caribbean-and-dominican-spanish","es":"el zafacón","rom":"ehl sah-fah-KOHN"}
+{"id":"es.c0308","deck":"es.d.caribbean-and-dominican-spanish","es":"la yipeta","rom":"lah yee-PEH-tah"}
+{"id":"es.c0309","deck":"es.d.caribbean-and-dominican-spanish","es":"el motoconcho","rom":"ehl moh-toh-KOHN-choh"}
+{"id":"es.c0310","deck":"es.d.caribbean-and-dominican-spanish","es":"la chinola","rom":"lah chee-NOH-lah"}
+{"id":"es.c0311","deck":"es.d.caribbean-and-dominican-spanish","es":"la lechosa","rom":"lah leh-CHOH-sah"}
+{"id":"es.c0312","deck":"es.d.caribbean-and-dominican-spanish","es":"mi pana","rom":"mee PAH-nah"}
+{"id":"es.c0313","deck":"es.d.caribbean-and-dominican-spanish","es":"Está nítido.","rom":"ehs-TAH NEE-tee-doh"}
+{"id":"es.c0314","deck":"es.d.caribbean-and-dominican-spanish","es":"el mangú","rom":"ehl mahn-GOO"}
+{"id":"es.c0315","deck":"es.d.caribbean-and-dominican-spanish","es":"las habichuelas","rom":"lahs ah-bee-CHWEH-lahs"}
+{"id":"es.c0316","deck":"es.d.caribbean-and-dominican-spanish","es":"el aposento","rom":"ehl ah-poh-SEHN-toh"}
+{"id":"es.c0317","deck":"es.d.compliments","es":"Todo estuvo delicioso.","rom":"TOH-doh ehs-TOO-boh deh-lee-SYOH-soh"}
+{"id":"es.c0318","deck":"es.d.compliments","es":"Cocinas muy bien.","rom":"koh-SEE-nahs mwee byehn"}
+{"id":"es.c0319","deck":"es.d.compliments","es":"¡Bien hecho!","rom":"byehn EH-choh"}
+{"id":"es.c0320","deck":"es.d.compliments","es":"¡Qué bien lo haces!","rom":"keh byehn loh AH-sehs"}
+{"id":"es.c0321","deck":"es.d.compliments","es":"¡Qué buena idea!","rom":"keh BWEH-nah ee-DEH-ah"}
+{"id":"es.c0322","deck":"es.d.compliments","es":"Eres muy amable.","rom":"EH-rehs mwee ah-MAH-bleh"}
+{"id":"es.c0323","deck":"es.d.compliments","es":"Eres muy chistoso.","rom":"EH-rehs mwee chees-TOH-soh"}
+{"id":"es.c0324","deck":"es.d.compliments","es":"Eres muy trabajador.","rom":"EH-rehs mwee trah-bah-hah-DOHR"}
+{"id":"es.c0325","deck":"es.d.compliments","es":"¡Qué bonita casa tienes!","rom":"keh boh-NEE-tah KAH-sah TYEH-nehs"}
+{"id":"es.c0326","deck":"es.d.compliments","es":"Te queda muy bien.","rom":"teh KEH-dah mwee byehn"}
+{"id":"es.c0327","deck":"es.d.compliments","es":"¡Qué bonita foto!","rom":"keh boh-NEE-tah FOH-toh"}
+{"id":"es.c0328","deck":"es.d.compliments","es":"Hablas muy bien español.","rom":"AH-blahs mwee byehn ehs-pah-NYOHL"}
+{"id":"es.c0329","deck":"es.d.compliments","es":"Gracias, qué amable.","rom":"GRAH-syahs keh ah-MAH-bleh"}
+{"id":"es.c0330","deck":"es.d.compliments","es":"Gracias, pero todavía me falta mucho.","rom":"GRAH-syahs PEH-roh toh-dah-BEE-ah meh FAHL-tah MOO-choh"}
+{"id":"es.c0331","deck":"es.d.flirting","es":"guapo","rom":"GWAH-poh"}
+{"id":"es.c0332","deck":"es.d.flirting","es":"bonita","rom":"boh-NEE-tah"}
+{"id":"es.c0333","deck":"es.d.flirting","es":"linda","rom":"LEEN-dah"}
+{"id":"es.c0334","deck":"es.d.flirting","es":"hermosa","rom":"ehr-MOH-sah"}
+{"id":"es.c0335","deck":"es.d.flirting","es":"preciosa","rom":"preh-SYOH-sah"}
+{"id":"es.c0336","deck":"es.d.flirting","es":"chula","rom":"CHOO-lah"}
+{"id":"es.c0337","deck":"es.d.flirting","es":"simpático","rom":"seem-PAH-tee-koh"}
+{"id":"es.c0338","deck":"es.d.flirting","es":"encantador","rom":"ehn-kahn-tah-DOHR"}
+{"id":"es.c0339","deck":"es.d.flirting","es":"inteligente","rom":"een-teh-lee-HEHN-teh"}
+{"id":"es.c0340","deck":"es.d.flirting","es":"gracioso","rom":"grah-SYOH-soh"}
+{"id":"es.c0341","deck":"es.d.flirting","es":"dulce","rom":"DOOL-seh"}
+{"id":"es.c0342","deck":"es.d.flirting","es":"tierno","rom":"TYEHR-noh"}
+{"id":"es.c0343","deck":"es.d.flirting","es":"coqueto","rom":"koh-KEH-toh"}
+{"id":"es.c0344","deck":"es.d.flirting","es":"la sonrisa","rom":"lah sohn-RREE-sah"}
+{"id":"es.c0345","deck":"es.d.flirting","es":"los ojos","rom":"lohs OH-hohs"}
+{"id":"es.c0346","deck":"es.d.flirting","es":"la risa","rom":"lah RREE-sah"}
+{"id":"es.c0347","deck":"es.d.flirting","es":"la voz","rom":"lah bohs"}
+{"id":"es.c0348","deck":"es.d.flirting","es":"el estilo","rom":"ehl ehs-TEE-loh"}
+{"id":"es.c0349","deck":"es.d.flirting","es":"el pelo","rom":"ehl PEH-loh"}
+{"id":"es.c0350","deck":"es.d.flirting","es":"la mirada","rom":"lah mee-RAH-dah"}
+{"id":"es.c0351","deck":"es.d.flirting","es":"¡Qué guapa!","rom":"keh GWAH-pah"}
+{"id":"es.c0352","deck":"es.d.flirting","es":"Estás muy guapo.","rom":"ehs-TAHS mwee GWAH-poh"}
+{"id":"es.c0353","deck":"es.d.flirting","es":"Te ves guapísima hoy.","rom":"teh behs gwah-PEE-see-mah oy"}
+{"id":"es.c0354","deck":"es.d.flirting","es":"Tienes un nombre muy bonito.","rom":"TYEH-nehs oon NOHM-breh mwee boh-NEE-toh"}
+{"id":"es.c0355","deck":"es.d.flirting","es":"Eres muy linda.","rom":"EH-rehs mwee LEEN-dah"}
+{"id":"es.c0356","deck":"es.d.flirting","es":"Eres una persona muy linda.","rom":"EH-rehs OO-nah pehr-SOH-nah mwee LEEN-dah"}
+{"id":"es.c0357","deck":"es.d.flirting","es":"Estás hermosa.","rom":"ehs-TAHS ehr-MOH-sah"}
+{"id":"es.c0358","deck":"es.d.flirting","es":"Te ves hermosa esta noche.","rom":"teh behs ehr-MOH-sah EHS-tah NOH-cheh"}
+{"id":"es.c0359","deck":"es.d.flirting","es":"¡Qué chula te ves!","rom":"keh CHOO-lah teh behs"}
+{"id":"es.c0360","deck":"es.d.flirting","es":"Eres muy simpática.","rom":"EH-rehs mwee seem-PAH-tee-kah"}
+{"id":"es.c0361","deck":"es.d.flirting","es":"Eres encantador.","rom":"EH-rehs ehn-kahn-tah-DOHR"}
+{"id":"es.c0362","deck":"es.d.flirting","es":"Me encanta lo inteligente que eres.","rom":"meh ehn-KAHN-tah loh een-teh-lee-HEHN-teh keh EH-rehs"}
+{"id":"es.c0363","deck":"es.d.flirting","es":"Eres muy graciosa.","rom":"EH-rehs mwee grah-SYOH-sah"}
+{"id":"es.c0364","deck":"es.d.flirting","es":"Me haces reír mucho.","rom":"meh AH-sehs rreh-EER MOO-choh"}
+{"id":"es.c0365","deck":"es.d.flirting","es":"Eres muy dulce.","rom":"EH-rehs mwee DOOL-seh"}
+{"id":"es.c0366","deck":"es.d.flirting","es":"Eres un amor.","rom":"EH-rehs oon ah-MOHR"}
+{"id":"es.c0367","deck":"es.d.flirting","es":"¡Qué tierno eres!","rom":"keh TYEHR-noh EH-rehs"}
+{"id":"es.c0368","deck":"es.d.flirting","es":"Tienes una sonrisa muy bonita.","rom":"TYEH-nehs OO-nah sohn-RREE-sah mwee boh-NEE-tah"}
+{"id":"es.c0369","deck":"es.d.flirting","es":"Me encanta tu sonrisa.","rom":"meh ehn-KAHN-tah too sohn-RREE-sah"}
+{"id":"es.c0370","deck":"es.d.flirting","es":"¡Qué linda sonrisa!","rom":"keh LEEN-dah sohn-RREE-sah"}
+{"id":"es.c0371","deck":"es.d.flirting","es":"Tienes unos ojos preciosos.","rom":"TYEH-nehs OO-nohs OH-hohs preh-SYOH-sohs"}
+{"id":"es.c0372","deck":"es.d.flirting","es":"Me pierdo en tus ojos.","rom":"meh PYEHR-doh ehn toos OH-hohs"}
+{"id":"es.c0373","deck":"es.d.flirting","es":"Me encanta tu risa.","rom":"meh ehn-KAHN-tah too RREE-sah"}
+{"id":"es.c0374","deck":"es.d.flirting","es":"Tienes una voz muy bonita.","rom":"TYEH-nehs OO-nah bohs mwee boh-NEE-tah"}
+{"id":"es.c0375","deck":"es.d.flirting","es":"Me gusta tu estilo.","rom":"meh GOOS-tah too ehs-TEE-loh"}
+{"id":"es.c0376","deck":"es.d.flirting","es":"Me encanta tu pelo.","rom":"meh ehn-KAHN-tah too PEH-loh"}
+{"id":"es.c0377","deck":"es.d.flirting","es":"Tienes una mirada preciosa.","rom":"TYEH-nehs OO-nah mee-RAH-dah preh-SYOH-sah"}
+{"id":"es.c0378","deck":"es.d.flirting","es":"¿Es una cita?","rom":"ehs OO-nah SEE-tah"}
+{"id":"es.c0379","deck":"es.d.flirting","es":"Me la pasé muy bien contigo.","rom":"meh lah pah-SEH mwee byehn kohn-TEE-goh"}
+{"id":"es.c0380","deck":"es.d.flirting","es":"Me caes muy bien.","rom":"meh KAH-ehs mwee byehn"}
+{"id":"es.c0381","deck":"es.d.flirting","es":"Me encanta hablar contigo.","rom":"meh ehn-KAHN-tah ah-BLAHR kohn-TEE-goh"}
+{"id":"es.c0382","deck":"es.d.flirting","es":"Me gustas.","rom":"meh GOOS-tahs"}
+{"id":"es.c0383","deck":"es.d.flirting","es":"Pienso mucho en ti.","rom":"PYEHN-soh MOO-choh ehn tee"}
+{"id":"es.c0384","deck":"es.d.flirting","es":"Me alegraste el día.","rom":"meh ah-leh-GRAHS-teh ehl DEE-ah"}
+{"id":"es.c0385","deck":"es.d.flirting","es":"Te extrañé.","rom":"teh ehks-trah-NYEH"}
+{"id":"es.c0386","deck":"es.d.flirting","es":"¿Tienes novio?","rom":"TYEH-nehs NOH-byoh"}
+{"id":"es.c0387","deck":"es.d.flirting","es":"¿Te puedo invitar un café?","rom":"teh PWEH-doh een-bee-TAHR oon kah-FEH"}
+{"id":"es.c0388","deck":"es.d.flirting","es":"¿Quieres salir conmigo?","rom":"KYEH-rehs sah-LEER kohn-MEE-goh"}
+{"id":"es.c0389","deck":"es.d.flirting","es":"¿Me das tu número?","rom":"meh dahs too NOO-meh-roh"}
+{"id":"es.c0390","deck":"es.d.flirting","es":"¿Estás libre el sábado?","rom":"ehs-TAHS LEE-breh ehl SAH-bah-doh"}
+{"id":"es.c0391","deck":"es.d.flirting","es":"¿Vamos a cenar un día de estos?","rom":"BAH-mohs ah seh-NAHR oon DEE-ah deh EHS-tohs"}
+{"id":"es.c0392","deck":"es.d.flirting","es":"¡Me encantaría!","rom":"meh ehn-kahn-tah-REE-ah"}
+{"id":"es.c0393","deck":"es.d.flirting","es":"Claro que sí.","rom":"KLAH-roh keh see"}
+{"id":"es.c0394","deck":"es.d.flirting","es":"¡Ay, qué coqueto!","rom":"ai keh koh-KEH-toh"}
+{"id":"es.c0395","deck":"es.d.flirting","es":"Eso se lo dices a todas.","rom":"EH-soh seh loh DEE-sehs ah TOH-dahs"}
+{"id":"es.c0396","deck":"es.d.flirting","es":"Gracias, pero tengo novio.","rom":"GRAH-syahs PEH-roh TEHN-goh NOH-byoh"}
+{"id":"es.c0397","deck":"es.d.flirting","es":"Gracias, pero no estoy interesada.","rom":"GRAH-syahs PEH-roh noh ehs-TOY een-teh-reh-SAH-dah"}
+{"id":"es.c0398","deck":"es.d.flirting","es":"Prefiero que seamos amigos.","rom":"preh-FYEH-roh keh seh-AH-mohs ah-MEE-gohs"}
+{"id":"es.c0399","deck":"es.d.top-nouns","es":"la vez","rom":"lah behs"}
+{"id":"es.c0400","deck":"es.d.top-nouns","es":"el año","rom":"ehl AH-nyoh"}
+{"id":"es.c0401","deck":"es.d.top-nouns","es":"el tiempo","rom":"ehl TYEHM-poh"}
+{"id":"es.c0402","deck":"es.d.top-nouns","es":"la cosa","rom":"lah KOH-sah"}
+{"id":"es.c0403","deck":"es.d.top-nouns","es":"el hombre","rom":"ehl OHM-breh"}
+{"id":"es.c0404","deck":"es.d.top-nouns","es":"la parte","rom":"lah PAHR-teh"}
+{"id":"es.c0405","deck":"es.d.top-nouns","es":"la vida","rom":"lah BEE-dah"}
+{"id":"es.c0406","deck":"es.d.top-nouns","es":"la casa","rom":"lah KAH-sah"}
+{"id":"es.c0407","deck":"es.d.top-nouns","es":"el mundo","rom":"ehl MOON-doh"}
+{"id":"es.c0408","deck":"es.d.top-nouns","es":"la mujer","rom":"lah moo-HEHR"}
+{"id":"es.c0409","deck":"es.d.top-nouns","es":"la noche","rom":"lah NOH-cheh"}
+{"id":"es.c0410","deck":"es.d.top-nouns","es":"el momento","rom":"ehl moh-MEHN-toh"}
+{"id":"es.c0411","deck":"es.d.top-nouns","es":"el señor","rom":"ehl seh-NYOHR"}
+{"id":"es.c0412","deck":"es.d.top-nouns","es":"la señora","rom":"lah seh-NYOH-rah"}
+{"id":"es.c0413","deck":"es.d.top-nouns","es":"el trabajo","rom":"ehl trah-BAH-hoh"}
+{"id":"es.c0414","deck":"es.d.top-nouns","es":"la verdad","rom":"lah behr-DAHD"}
+{"id":"es.c0415","deck":"es.d.top-nouns","es":"el lugar","rom":"ehl loo-GAHR"}
+{"id":"es.c0416","deck":"es.d.top-nouns","es":"la persona","rom":"lah pehr-SOH-nah"}
+{"id":"es.c0417","deck":"es.d.top-nouns","es":"la mañana","rom":"lah mah-NYAH-nah"}
+{"id":"es.c0418","deck":"es.d.top-nouns","es":"el padre","rom":"ehl PAH-dreh"}
+{"id":"es.c0419","deck":"es.d.top-nouns","es":"la madre","rom":"lah MAH-dreh"}
+{"id":"es.c0420","deck":"es.d.top-nouns","es":"la familia","rom":"lah fah-MEE-lyah"}
+{"id":"es.c0421","deck":"es.d.top-nouns","es":"el amigo","rom":"ehl ah-MEE-goh"}
+{"id":"es.c0422","deck":"es.d.top-nouns","es":"el dinero","rom":"ehl dee-NEH-roh"}
+{"id":"es.c0423","deck":"es.d.top-nouns","es":"la mano","rom":"lah MAH-noh"}
+{"id":"es.c0424","deck":"es.d.top-nouns","es":"la forma","rom":"lah FOHR-mah"}
+{"id":"es.c0425","deck":"es.d.top-nouns","es":"la manera","rom":"lah mah-NEH-rah"}
+{"id":"es.c0426","deck":"es.d.top-nouns","es":"el país","rom":"ehl pah-EES"}
+{"id":"es.c0427","deck":"es.d.top-nouns","es":"la ciudad","rom":"lah syoo-DAHD"}
+{"id":"es.c0428","deck":"es.d.top-nouns","es":"la tarde","rom":"lah TAHR-deh"}
+{"id":"es.c0429","deck":"es.d.top-nouns","es":"el nombre","rom":"ehl NOHM-breh"}
+{"id":"es.c0430","deck":"es.d.top-nouns","es":"la historia","rom":"lah ees-TOH-ryah"}
+{"id":"es.c0431","deck":"es.d.top-nouns","es":"la idea","rom":"lah ee-DEH-ah"}
+{"id":"es.c0432","deck":"es.d.top-nouns","es":"el amor","rom":"ehl ah-MOHR"}
+{"id":"es.c0433","deck":"es.d.top-nouns","es":"la razón","rom":"lah rrah-SOHN"}
+{"id":"es.c0434","deck":"es.d.top-nouns","es":"el camino","rom":"ehl kah-MEE-noh"}
+{"id":"es.c0435","deck":"es.d.top-nouns","es":"la luz","rom":"lah loos"}
+{"id":"es.c0436","deck":"es.d.top-nouns","es":"la cabeza","rom":"lah kah-BEH-sah"}
+{"id":"es.c0437","deck":"es.d.top-nouns","es":"la hija","rom":"lah EE-hah"}
+{"id":"es.c0438","deck":"es.d.top-nouns","es":"la palabra","rom":"lah pah-LAH-brah"}
+{"id":"es.c0439","deck":"es.d.top-nouns","es":"el agua","rom":"ehl AH-gwah"}
+{"id":"es.c0440","deck":"es.d.top-nouns","es":"el ojo","rom":"ehl OH-hoh"}
+{"id":"es.c0441","deck":"es.d.top-nouns","es":"el corazón","rom":"ehl koh-rah-SOHN"}
+{"id":"es.c0442","deck":"es.d.top-nouns","es":"la puerta","rom":"lah PWEHR-tah"}
+{"id":"es.c0443","deck":"es.d.top-nouns","es":"el lado","rom":"ehl LAH-doh"}
+{"id":"es.c0444","deck":"es.d.top-nouns","es":"la semana","rom":"lah seh-MAH-nah"}
+{"id":"es.c0445","deck":"es.d.top-nouns","es":"el mes","rom":"ehl mehs"}
+{"id":"es.c0446","deck":"es.d.top-nouns","es":"el número","rom":"ehl NOO-meh-roh"}
+{"id":"es.c0447","deck":"es.d.top-nouns","es":"la muerte","rom":"lah MWEHR-teh"}
+{"id":"es.c0448","deck":"es.d.top-nouns","es":"el cuerpo","rom":"ehl KWEHR-poh"}
+{"id":"es.c0449","deck":"es.d.top-nouns","es":"la comida","rom":"lah koh-MEE-dah"}
+{"id":"es.c0450","deck":"es.d.top-nouns","es":"la escuela","rom":"lah ehs-KWEH-lah"}
+{"id":"es.c0451","deck":"es.d.top-nouns","es":"la chica","rom":"lah CHEE-kah"}
+{"id":"es.c0452","deck":"es.d.top-nouns","es":"el chico","rom":"ehl CHEE-koh"}
+{"id":"es.c0453","deck":"es.d.top-nouns","es":"la niña","rom":"lah NEE-nyah"}
+{"id":"es.c0454","deck":"es.d.top-nouns","es":"el final","rom":"ehl fee-NAHL"}
+{"id":"es.c0455","deck":"es.d.top-nouns","es":"el teléfono","rom":"ehl teh-LEH-foh-noh"}
+{"id":"es.c0456","deck":"es.d.top-nouns","es":"el celular","rom":"ehl seh-loo-LAHR"}
+{"id":"es.c0457","deck":"es.d.top-nouns","es":"la pregunta","rom":"lah preh-GOON-tah"}
+{"id":"es.c0458","deck":"es.d.top-nouns","es":"la respuesta","rom":"lah rrehs-PWEHS-tah"}
+{"id":"es.c0459","deck":"es.d.top-nouns","es":"el favor","rom":"ehl fah-BOHR"}
+{"id":"es.c0460","deck":"es.d.top-nouns","es":"el libro","rom":"ehl LEE-broh"}
+{"id":"es.c0461","deck":"es.d.top-nouns","es":"la noticia","rom":"lah noh-TEE-syah"}
+{"id":"es.c0462","deck":"es.d.top-nouns","es":"el juego","rom":"ehl HWEH-goh"}
+{"id":"es.c0463","deck":"es.d.top-nouns","es":"la clase","rom":"lah KLAH-seh"}
+{"id":"es.c0464","deck":"es.d.top-nouns","es":"el cuarto","rom":"ehl KWAHR-toh"}
+{"id":"es.c0465","deck":"es.d.top-nouns","es":"la mesa","rom":"lah MEH-sah"}
+{"id":"es.c0466","deck":"es.d.top-nouns","es":"la fiesta","rom":"lah FYEHS-tah"}
+{"id":"es.c0467","deck":"es.d.top-nouns","es":"la tienda","rom":"lah TYEHN-dah"}
+{"id":"es.c0468","deck":"es.d.top-nouns","es":"el sueño","rom":"ehl SWEH-nyoh"}
+{"id":"es.c0469","deck":"es.d.top-nouns","es":"el viaje","rom":"ehl BYAH-heh"}
+{"id":"es.c0470","deck":"es.d.top-nouns","es":"el pueblo","rom":"ehl PWEH-bloh"}
+{"id":"es.c0471","deck":"es.d.top-nouns","es":"el error","rom":"ehl eh-RROHR"}
+{"id":"es.c0472","deck":"es.d.top-nouns","es":"la película","rom":"lah peh-LEE-koo-lah"}
+{"id":"es.c0473","deck":"es.d.top-nouns","es":"la música","rom":"lah MOO-see-kah"}
+{"id":"es.c0474","deck":"es.d.top-nouns","es":"la canción","rom":"lah kahn-SYOHN"}
+{"id":"es.c0475","deck":"es.d.top-nouns","es":"la foto","rom":"lah FOH-toh"}
+{"id":"es.c0476","deck":"es.d.top-nouns","es":"la policía","rom":"lah poh-lee-SEE-ah"}
+{"id":"es.c0477","deck":"es.d.top-nouns","es":"el doctor","rom":"ehl dohk-TOHR"}
+{"id":"es.c0478","deck":"es.d.top-nouns","es":"la tierra","rom":"lah TYEH-rrah"}
+{"id":"es.c0479","deck":"es.d.top-nouns","es":"la ayuda","rom":"lah ah-YOO-dah"}
+{"id":"es.c0480","deck":"es.d.top-nouns","es":"la cuenta","rom":"lah KWEHN-tah"}
+{"id":"es.c0481","deck":"es.d.top-nouns","es":"el precio","rom":"ehl PREH-syoh"}
+{"id":"es.c0482","deck":"es.d.top-nouns","es":"el regalo","rom":"ehl rreh-GAH-loh"}
+{"id":"es.c0483","deck":"es.d.top-nouns","es":"el cumpleaños","rom":"ehl koom-pleh-AH-nyohs"}
+{"id":"es.c0484","deck":"es.d.top-nouns","es":"la ropa","rom":"lah RROH-pah"}
+{"id":"es.c0485","deck":"es.d.top-nouns","es":"el idioma","rom":"ehl ee-DYOH-mah"}
+{"id":"es.c0486","deck":"es.d.top-nouns","es":"el centro","rom":"ehl SEHN-troh"}
+{"id":"es.c0487","deck":"es.d.top-nouns","es":"el barrio","rom":"ehl BAH-rryoh"}
+{"id":"es.c0488","deck":"es.d.top-nouns","es":"el sol","rom":"ehl sohl"}
+{"id":"es.c0489","deck":"es.d.top-nouns","es":"el mar","rom":"ehl mahr"}
+{"id":"es.c0490","deck":"es.d.top-nouns","es":"el cielo","rom":"ehl SYEH-loh"}
+{"id":"es.c0491","deck":"es.d.top-nouns","es":"el estado","rom":"ehl ehs-TAH-doh"}
+{"id":"es.c0492","deck":"es.d.top-nouns","es":"la empresa","rom":"lah ehm-PREH-sah"}
+{"id":"es.c0493","deck":"es.d.top-nouns","es":"el grupo","rom":"ehl GROO-poh"}
+{"id":"es.c0494","deck":"es.d.top-nouns","es":"el caso","rom":"ehl KAH-soh"}
+{"id":"es.c0495","deck":"es.d.top-nouns","es":"el ejemplo","rom":"ehl eh-HEHM-ploh"}
+{"id":"es.c0496","deck":"es.d.top-nouns","es":"la suerte","rom":"lah SWEHR-teh"}
+{"id":"es.c0497","deck":"es.d.top-nouns","es":"la salud","rom":"lah sah-LOOD"}
+{"id":"es.c0498","deck":"es.d.top-nouns","es":"el miedo","rom":"ehl MYEH-doh"}
+{"id":"es.c0499","deck":"es.d.top-nouns","es":"el dolor","rom":"ehl doh-LOHR"}
+{"id":"es.c0500","deck":"es.d.top-nouns","es":"la duda","rom":"lah DOO-dah"}
+{"id":"es.c0501","deck":"es.d.top-nouns","es":"las ganas","rom":"lahs GAH-nahs"}
+{"id":"es.c0502","deck":"es.d.top-nouns","es":"la carta","rom":"lah KAHR-tah"}
+{"id":"es.c0503","deck":"es.d.top-nouns","es":"el correo","rom":"ehl koh-RREH-oh"}
+{"id":"es.c0504","deck":"es.d.top-nouns","es":"la cita","rom":"lah SEE-tah"}
+{"id":"es.c0505","deck":"es.d.top-nouns","es":"la oficina","rom":"lah oh-fee-SEE-nah"}
+{"id":"es.c0506","deck":"es.d.top-nouns","es":"el gato","rom":"ehl GAH-toh"}
+{"id":"es.c0507","deck":"es.d.top-nouns","es":"la ventana","rom":"lah behn-TAH-nah"}
+{"id":"es.c0508","deck":"es.d.top-nouns","es":"el pan","rom":"ehl pahn"}
+{"id":"es.c0509","deck":"es.d.top-nouns","es":"la paz","rom":"lah pahs"}
+{"id":"es.c0510","deck":"es.d.top-nouns","es":"la sorpresa","rom":"lah sohr-PREH-sah"}
+{"id":"es.c0511","deck":"es.d.top-verbs","es":"ser","rom":"sehr"}
+{"id":"es.c0512","deck":"es.d.top-verbs","es":"haber","rom":"ah-BEHR"}
+{"id":"es.c0513","deck":"es.d.top-verbs","es":"estar","rom":"ehs-TAHR"}
+{"id":"es.c0514","deck":"es.d.top-verbs","es":"tener","rom":"teh-NEHR"}
+{"id":"es.c0515","deck":"es.d.top-verbs","es":"hacer","rom":"ah-SEHR"}
+{"id":"es.c0516","deck":"es.d.top-verbs","es":"poder","rom":"poh-DEHR"}
+{"id":"es.c0517","deck":"es.d.top-verbs","es":"decir","rom":"deh-SEER"}
+{"id":"es.c0518","deck":"es.d.top-verbs","es":"ir","rom":"eer"}
+{"id":"es.c0519","deck":"es.d.top-verbs","es":"ver","rom":"behr"}
+{"id":"es.c0520","deck":"es.d.top-verbs","es":"dar","rom":"dahr"}
+{"id":"es.c0521","deck":"es.d.top-verbs","es":"saber","rom":"sah-BEHR"}
+{"id":"es.c0522","deck":"es.d.top-verbs","es":"querer","rom":"keh-REHR"}
+{"id":"es.c0523","deck":"es.d.top-verbs","es":"llegar","rom":"yeh-GAHR"}
+{"id":"es.c0524","deck":"es.d.top-verbs","es":"pasar","rom":"pah-SAHR"}
+{"id":"es.c0525","deck":"es.d.top-verbs","es":"deber","rom":"deh-BEHR"}
+{"id":"es.c0526","deck":"es.d.top-verbs","es":"poner","rom":"poh-NEHR"}
+{"id":"es.c0527","deck":"es.d.top-verbs","es":"parecer","rom":"pah-reh-SEHR"}
+{"id":"es.c0528","deck":"es.d.top-verbs","es":"quedar","rom":"keh-DAHR"}
+{"id":"es.c0529","deck":"es.d.top-verbs","es":"creer","rom":"kreh-EHR"}
+{"id":"es.c0530","deck":"es.d.top-verbs","es":"hablar","rom":"ah-BLAHR"}
+{"id":"es.c0531","deck":"es.d.top-verbs","es":"llevar","rom":"yeh-BAHR"}
+{"id":"es.c0532","deck":"es.d.top-verbs","es":"dejar","rom":"deh-HAHR"}
+{"id":"es.c0533","deck":"es.d.top-verbs","es":"seguir","rom":"seh-GHEER"}
+{"id":"es.c0534","deck":"es.d.top-verbs","es":"encontrar","rom":"ehn-kohn-TRAHR"}
+{"id":"es.c0535","deck":"es.d.top-verbs","es":"llamar","rom":"yah-MAHR"}
+{"id":"es.c0536","deck":"es.d.top-verbs","es":"venir","rom":"beh-NEER"}
+{"id":"es.c0537","deck":"es.d.top-verbs","es":"pensar","rom":"pehn-SAHR"}
+{"id":"es.c0538","deck":"es.d.top-verbs","es":"salir","rom":"sah-LEER"}
+{"id":"es.c0539","deck":"es.d.top-verbs","es":"volver","rom":"bohl-BEHR"}
+{"id":"es.c0540","deck":"es.d.top-verbs","es":"tomar","rom":"toh-MAHR"}
+{"id":"es.c0541","deck":"es.d.top-verbs","es":"conocer","rom":"koh-noh-SEHR"}
+{"id":"es.c0542","deck":"es.d.top-verbs","es":"vivir","rom":"bee-BEER"}
+{"id":"es.c0543","deck":"es.d.top-verbs","es":"sentir","rom":"sehn-TEER"}
+{"id":"es.c0544","deck":"es.d.top-verbs","es":"tratar","rom":"trah-TAHR"}
+{"id":"es.c0545","deck":"es.d.top-verbs","es":"mirar","rom":"mee-RAHR"}
+{"id":"es.c0546","deck":"es.d.top-verbs","es":"contar","rom":"kohn-TAHR"}
+{"id":"es.c0547","deck":"es.d.top-verbs","es":"empezar","rom":"ehm-peh-SAHR"}
+{"id":"es.c0548","deck":"es.d.top-verbs","es":"esperar","rom":"ehs-peh-RAHR"}
+{"id":"es.c0549","deck":"es.d.top-verbs","es":"buscar","rom":"boos-KAHR"}
+{"id":"es.c0550","deck":"es.d.top-verbs","es":"entrar","rom":"ehn-TRAHR"}
+{"id":"es.c0551","deck":"es.d.top-verbs","es":"trabajar","rom":"trah-bah-HAHR"}
+{"id":"es.c0552","deck":"es.d.top-verbs","es":"necesitar","rom":"neh-seh-see-TAHR"}
+{"id":"es.c0553","deck":"es.d.top-verbs","es":"gustar","rom":"goos-TAHR"}
+{"id":"es.c0554","deck":"es.d.top-verbs","es":"escribir","rom":"ehs-kree-BEER"}
+{"id":"es.c0555","deck":"es.d.top-verbs","es":"perder","rom":"pehr-DEHR"}
+{"id":"es.c0556","deck":"es.d.top-verbs","es":"entender","rom":"ehn-tehn-DEHR"}
+{"id":"es.c0557","deck":"es.d.top-verbs","es":"comer","rom":"koh-MEHR"}
+{"id":"es.c0558","deck":"es.d.top-verbs","es":"ayudar","rom":"ah-yoo-DAHR"}
+{"id":"es.c0559","deck":"es.d.top-verbs","es":"morir","rom":"moh-REER"}
+{"id":"es.c0560","deck":"es.d.top-verbs","es":"recordar","rom":"rreh-kohr-DAHR"}
+{"id":"es.c0561","deck":"es.d.top-verbs","es":"terminar","rom":"tehr-mee-NAHR"}
+{"id":"es.c0562","deck":"es.d.top-verbs","es":"jugar","rom":"hoo-GAHR"}
+{"id":"es.c0563","deck":"es.d.top-verbs","es":"dormir","rom":"dohr-MEER"}
+{"id":"es.c0564","deck":"es.d.top-verbs","es":"oír","rom":"oh-EER"}
+{"id":"es.c0565","deck":"es.d.top-verbs","es":"escuchar","rom":"ehs-koo-CHAHR"}
+{"id":"es.c0566","deck":"es.d.top-verbs","es":"pedir","rom":"peh-DEER"}
+{"id":"es.c0567","deck":"es.d.top-verbs","es":"preguntar","rom":"preh-goon-TAHR"}
+{"id":"es.c0568","deck":"es.d.top-verbs","es":"traer","rom":"trah-EHR"}
+{"id":"es.c0569","deck":"es.d.top-verbs","es":"pagar","rom":"pah-GAHR"}
+{"id":"es.c0570","deck":"es.d.top-verbs","es":"comprar","rom":"kohm-PRAHR"}
+{"id":"es.c0571","deck":"es.d.top-verbs","es":"abrir","rom":"ah-BREER"}
+{"id":"es.c0572","deck":"es.d.top-verbs","es":"cerrar","rom":"seh-RRAHR"}
+{"id":"es.c0573","deck":"es.d.top-verbs","es":"olvidar","rom":"ohl-bee-DAHR"}
+{"id":"es.c0574","deck":"es.d.top-verbs","es":"cambiar","rom":"kahm-BYAHR"}
+{"id":"es.c0575","deck":"es.d.top-verbs","es":"leer","rom":"leh-EHR"}
+{"id":"es.c0576","deck":"es.d.top-verbs","es":"aprender","rom":"ah-prehn-DEHR"}
+{"id":"es.c0577","deck":"es.d.top-verbs","es":"estudiar","rom":"ehs-too-DYAHR"}
+{"id":"es.c0578","deck":"es.d.top-verbs","es":"usar","rom":"oo-SAHR"}
+{"id":"es.c0579","deck":"es.d.top-verbs","es":"ganar","rom":"gah-NAHR"}
+{"id":"es.c0580","deck":"es.d.top-verbs","es":"mandar","rom":"mahn-DAHR"}
+{"id":"es.c0581","deck":"es.d.top-verbs","es":"sacar","rom":"sah-KAHR"}
+{"id":"es.c0582","deck":"es.d.top-verbs","es":"acabar","rom":"ah-kah-BAHR"}
+{"id":"es.c0583","deck":"es.d.top-verbs","es":"explicar","rom":"ehks-plee-KAHR"}
+{"id":"es.c0584","deck":"es.d.top-verbs","es":"enseñar","rom":"ehn-seh-NYAHR"}
+{"id":"es.c0585","deck":"es.d.top-verbs","es":"nacer","rom":"nah-SEHR"}
+{"id":"es.c0586","deck":"es.d.top-verbs","es":"recibir","rom":"rreh-see-BEER"}
+{"id":"es.c0587","deck":"es.d.top-verbs","es":"caminar","rom":"kah-mee-NAHR"}
+{"id":"es.c0588","deck":"es.d.top-verbs","es":"correr","rom":"koh-RREHR"}
+{"id":"es.c0589","deck":"es.d.top-verbs","es":"subir","rom":"soo-BEER"}
+{"id":"es.c0590","deck":"es.d.top-verbs","es":"bajar","rom":"bah-HAHR"}
+{"id":"es.c0591","deck":"es.d.top-verbs","es":"manejar","rom":"mah-neh-HAHR"}
+{"id":"es.c0592","deck":"es.d.top-verbs","es":"viajar","rom":"byah-HAHR"}
+{"id":"es.c0593","deck":"es.d.top-verbs","es":"cocinar","rom":"koh-see-NAHR"}
+{"id":"es.c0594","deck":"es.d.top-verbs","es":"bailar","rom":"bai-LAHR"}
+{"id":"es.c0595","deck":"es.d.top-verbs","es":"cantar","rom":"kahn-TAHR"}
+{"id":"es.c0596","deck":"es.d.top-verbs","es":"tocar","rom":"toh-KAHR"}
+{"id":"es.c0597","deck":"es.d.top-verbs","es":"vender","rom":"behn-DEHR"}
+{"id":"es.c0598","deck":"es.d.top-verbs","es":"preferir","rom":"preh-feh-REER"}
+{"id":"es.c0599","deck":"es.d.top-verbs","es":"importar","rom":"eem-pohr-TAHR"}
+{"id":"es.c0600","deck":"es.d.top-verbs","es":"preocupar","rom":"preh-oh-koo-PAHR"}
+{"id":"es.c0601","deck":"es.d.top-verbs","es":"doler","rom":"doh-LEHR"}
+{"id":"es.c0602","deck":"es.d.top-verbs","es":"llorar","rom":"yoh-RAHR"}
+{"id":"es.c0603","deck":"es.d.top-verbs","es":"reír","rom":"rreh-EER"}
+{"id":"es.c0604","deck":"es.d.top-verbs","es":"cuidar","rom":"kwee-DAHR"}
+{"id":"es.c0605","deck":"es.d.top-verbs","es":"amar","rom":"ah-MAHR"}
+{"id":"es.c0606","deck":"es.d.top-verbs","es":"andar","rom":"ahn-DAHR"}
+{"id":"es.c0607","deck":"es.d.top-verbs","es":"casarse","rom":"kah-SAHR-seh"}
+{"id":"es.c0608","deck":"es.d.top-verbs","es":"descansar","rom":"dehs-kahn-SAHR"}
+{"id":"es.c0609","deck":"es.d.top-verbs","es":"limpiar","rom":"leem-PYAHR"}
+{"id":"es.c0610","deck":"es.d.top-verbs","es":"invitar","rom":"een-bee-TAHR"}
+{"id":"es.c0611","deck":"es.d.top-verbs","es":"caer","rom":"kah-EHR"}
+{"id":"es.c0612","deck":"es.d.top-verbs","es":"funcionar","rom":"foon-syoh-NAHR"}
+{"id":"es.c0613","deck":"es.d.top-verbs","es":"probar","rom":"proh-BAHR"}
+{"id":"es.c0614","deck":"es.d.top-verbs","es":"decidir","rom":"deh-see-DEER"}
+{"id":"es.c0615","deck":"es.d.top-verbs","es":"arreglar","rom":"ah-rreh-GLAHR"}
+{"id":"es.c0616","deck":"es.d.top-verbs","es":"crecer","rom":"kreh-SEHR"}
+{"id":"es.c0617","deck":"es.d.top-adjectives","es":"primero","rom":"pree-MEH-roh"}
+{"id":"es.c0618","deck":"es.d.top-adjectives","es":"grande","rom":"GRAHN-deh"}
+{"id":"es.c0619","deck":"es.d.top-adjectives","es":"nuevo","rom":"NWEH-boh"}
+{"id":"es.c0620","deck":"es.d.top-adjectives","es":"bueno","rom":"BWEH-noh"}
+{"id":"es.c0621","deck":"es.d.top-adjectives","es":"malo","rom":"MAH-loh"}
+{"id":"es.c0622","deck":"es.d.top-adjectives","es":"mejor","rom":"meh-HOHR"}
+{"id":"es.c0623","deck":"es.d.top-adjectives","es":"mayor","rom":"mah-YOHR"}
+{"id":"es.c0624","deck":"es.d.top-adjectives","es":"último","rom":"OOL-tee-moh"}
+{"id":"es.c0625","deck":"es.d.top-adjectives","es":"cierto","rom":"SYEHR-toh"}
+{"id":"es.c0626","deck":"es.d.top-adjectives","es":"seguro","rom":"seh-GOO-roh"}
+{"id":"es.c0627","deck":"es.d.top-adjectives","es":"claro","rom":"KLAH-roh"}
+{"id":"es.c0628","deck":"es.d.top-adjectives","es":"importante","rom":"eem-pohr-TAHN-teh"}
+{"id":"es.c0629","deck":"es.d.top-adjectives","es":"solo","rom":"SOH-loh"}
+{"id":"es.c0630","deck":"es.d.top-adjectives","es":"diferente","rom":"dee-feh-REHN-teh"}
+{"id":"es.c0631","deck":"es.d.top-adjectives","es":"pequeño","rom":"peh-KEH-nyoh"}
+{"id":"es.c0632","deck":"es.d.top-adjectives","es":"viejo","rom":"BYEH-hoh"}
+{"id":"es.c0633","deck":"es.d.top-adjectives","es":"posible","rom":"poh-SEE-bleh"}
+{"id":"es.c0634","deck":"es.d.top-adjectives","es":"difícil","rom":"dee-FEE-seel"}
+{"id":"es.c0635","deck":"es.d.top-adjectives","es":"fácil","rom":"FAH-seel"}
+{"id":"es.c0636","deck":"es.d.top-adjectives","es":"propio","rom":"PROH-pyoh"}
+{"id":"es.c0637","deck":"es.d.top-adjectives","es":"joven","rom":"HOH-behn"}
+{"id":"es.c0638","deck":"es.d.top-adjectives","es":"largo","rom":"LAHR-goh"}
+{"id":"es.c0639","deck":"es.d.top-adjectives","es":"alto","rom":"AHL-toh"}
+{"id":"es.c0640","deck":"es.d.top-adjectives","es":"bajo","rom":"BAH-hoh"}
+{"id":"es.c0641","deck":"es.d.top-adjectives","es":"menor","rom":"meh-NOHR"}
+{"id":"es.c0642","deck":"es.d.top-adjectives","es":"peor","rom":"peh-OHR"}
+{"id":"es.c0643","deck":"es.d.top-adjectives","es":"igual","rom":"ee-GWAHL"}
+{"id":"es.c0644","deck":"es.d.top-adjectives","es":"libre","rom":"LEE-breh"}
+{"id":"es.c0645","deck":"es.d.top-adjectives","es":"feliz","rom":"feh-LEES"}
+{"id":"es.c0646","deck":"es.d.top-adjectives","es":"rico","rom":"RREE-koh"}
+{"id":"es.c0647","deck":"es.d.top-adjectives","es":"pobre","rom":"POH-breh"}
+{"id":"es.c0648","deck":"es.d.top-adjectives","es":"especial","rom":"ehs-peh-SYAHL"}
+{"id":"es.c0649","deck":"es.d.top-adjectives","es":"normal","rom":"nohr-MAHL"}
+{"id":"es.c0650","deck":"es.d.top-adjectives","es":"blanco","rom":"BLAHN-koh"}
+{"id":"es.c0651","deck":"es.d.top-adjectives","es":"increíble","rom":"een-kreh-EE-bleh"}
+{"id":"es.c0652","deck":"es.d.top-adjectives","es":"loco","rom":"LOH-koh"}
+{"id":"es.c0653","deck":"es.d.top-adjectives","es":"raro","rom":"RRAH-roh"}
+{"id":"es.c0654","deck":"es.d.top-adjectives","es":"fuerte","rom":"FWEHR-teh"}
+{"id":"es.c0655","deck":"es.d.top-adjectives","es":"negro","rom":"NEH-groh"}
+{"id":"es.c0656","deck":"es.d.top-adjectives","es":"rojo","rom":"RROH-hoh"}
+{"id":"es.c0657","deck":"es.d.top-adjectives","es":"vivo","rom":"BEE-boh"}
+{"id":"es.c0658","deck":"es.d.top-adjectives","es":"perfecto","rom":"pehr-FEHK-toh"}
+{"id":"es.c0659","deck":"es.d.top-adjectives","es":"terrible","rom":"teh-RREE-bleh"}
+{"id":"es.c0660","deck":"es.d.top-adjectives","es":"triste","rom":"TREES-teh"}
+{"id":"es.c0661","deck":"es.d.top-adjectives","es":"caro","rom":"KAH-roh"}
+{"id":"es.c0662","deck":"es.d.top-adjectives","es":"barato","rom":"bah-RAH-toh"}
+{"id":"es.c0663","deck":"es.d.top-adjectives","es":"rápido","rom":"RRAH-pee-doh"}
+{"id":"es.c0664","deck":"es.d.top-adjectives","es":"lento","rom":"LEHN-toh"}
+{"id":"es.c0665","deck":"es.d.top-adjectives","es":"frío","rom":"FREE-oh"}
+{"id":"es.c0666","deck":"es.d.top-adjectives","es":"caliente","rom":"kah-LYEHN-teh"}
+{"id":"es.c0667","deck":"es.d.top-adjectives","es":"muerto","rom":"MWEHR-toh"}
+{"id":"es.c0668","deck":"es.d.top-adjectives","es":"ocupado","rom":"oh-koo-PAH-doh"}
+{"id":"es.c0669","deck":"es.d.top-adjectives","es":"amable","rom":"ah-MAH-bleh"}
+{"id":"es.c0670","deck":"es.d.top-adjectives","es":"lleno","rom":"YEH-noh"}
+{"id":"es.c0671","deck":"es.d.top-adjectives","es":"abierto","rom":"ah-BYEHR-toh"}
+{"id":"es.c0672","deck":"es.d.top-adjectives","es":"corto","rom":"KOHR-toh"}
+{"id":"es.c0673","deck":"es.d.top-adjectives","es":"imposible","rom":"eem-poh-SEE-bleh"}
+{"id":"es.c0674","deck":"es.d.top-adjectives","es":"necesario","rom":"neh-seh-SAH-ryoh"}
+{"id":"es.c0675","deck":"es.d.top-adjectives","es":"peligroso","rom":"peh-lee-GROH-soh"}
+{"id":"es.c0676","deck":"es.d.top-adjectives","es":"famoso","rom":"fah-MOH-soh"}
+{"id":"es.c0677","deck":"es.d.top-adjectives","es":"tranquilo","rom":"trahn-KEE-loh"}
+{"id":"es.c0678","deck":"es.d.top-adjectives","es":"cerrado","rom":"seh-RRAH-doh"}
+{"id":"es.c0679","deck":"es.d.top-adjectives","es":"querido","rom":"keh-REE-doh"}
+{"id":"es.c0680","deck":"es.d.top-adjectives","es":"azul","rom":"ah-SOOL"}
+{"id":"es.c0681","deck":"es.d.top-adjectives","es":"verde","rom":"BEHR-deh"}
+{"id":"es.c0682","deck":"es.d.top-adjectives","es":"oscuro","rom":"ohs-KOO-roh"}
+{"id":"es.c0683","deck":"es.d.top-adjectives","es":"limpio","rom":"LEEM-pyoh"}
+{"id":"es.c0684","deck":"es.d.top-adjectives","es":"sucio","rom":"SOO-syoh"}
+{"id":"es.c0685","deck":"es.d.top-adjectives","es":"vacío","rom":"bah-SEE-oh"}
+{"id":"es.c0686","deck":"es.d.top-adjectives","es":"cansado","rom":"kahn-SAH-doh"}
+{"id":"es.c0687","deck":"es.d.top-adjectives","es":"enfermo","rom":"ehn-FEHR-moh"}
+{"id":"es.c0688","deck":"es.d.top-adjectives","es":"duro","rom":"DOO-roh"}
+{"id":"es.c0689","deck":"es.d.top-adjectives","es":"débil","rom":"DEH-beel"}
+{"id":"es.c0690","deck":"es.d.top-adjectives","es":"fresco","rom":"FREHS-koh"}
+{"id":"es.c0691","deck":"es.d.top-adjectives","es":"pesado","rom":"peh-SAH-doh"}
+{"id":"es.c0692","deck":"es.d.top-adjectives","es":"amarillo","rom":"ah-mah-REE-yoh"}
+{"id":"es.c0693","deck":"es.d.top-adjectives","es":"favorito","rom":"fah-boh-REE-toh"}
+{"id":"es.c0694","deck":"es.d.top-adverbs","es":"más","rom":"mahs"}
+{"id":"es.c0695","deck":"es.d.top-adverbs","es":"ya","rom":"yah"}
+{"id":"es.c0696","deck":"es.d.top-adverbs","es":"muy","rom":"mwee"}
+{"id":"es.c0697","deck":"es.d.top-adverbs","es":"así","rom":"ah-SEE"}
+{"id":"es.c0698","deck":"es.d.top-adverbs","es":"bien","rom":"byehn"}
+{"id":"es.c0699","deck":"es.d.top-adverbs","es":"ahora","rom":"ah-OH-rah"}
+{"id":"es.c0700","deck":"es.d.top-adverbs","es":"después","rom":"dehs-PWEHS"}
+{"id":"es.c0701","deck":"es.d.top-adverbs","es":"tan","rom":"tahn"}
+{"id":"es.c0702","deck":"es.d.top-adverbs","es":"siempre","rom":"SYEHM-preh"}
+{"id":"es.c0703","deck":"es.d.top-adverbs","es":"menos","rom":"MEH-nohs"}
+{"id":"es.c0704","deck":"es.d.top-adverbs","es":"aquí","rom":"ah-KEE"}
+{"id":"es.c0705","deck":"es.d.top-adverbs","es":"nunca","rom":"NOON-kah"}
+{"id":"es.c0706","deck":"es.d.top-adverbs","es":"mal","rom":"mahl"}
+{"id":"es.c0707","deck":"es.d.top-adverbs","es":"antes","rom":"AHN-tehs"}
+{"id":"es.c0708","deck":"es.d.top-adverbs","es":"todavía","rom":"toh-dah-BEE-ah"}
+{"id":"es.c0709","deck":"es.d.top-adverbs","es":"hoy","rom":"oy"}
+{"id":"es.c0710","deck":"es.d.top-adverbs","es":"casi","rom":"KAH-see"}
+{"id":"es.c0711","deck":"es.d.top-adverbs","es":"luego","rom":"LWEH-goh"}
+{"id":"es.c0712","deck":"es.d.top-adverbs","es":"ahí","rom":"ah-EE"}
+{"id":"es.c0713","deck":"es.d.top-adverbs","es":"allí","rom":"ah-YEE"}
+{"id":"es.c0714","deck":"es.d.top-adverbs","es":"acá","rom":"ah-KAH"}
+{"id":"es.c0715","deck":"es.d.top-adverbs","es":"allá","rom":"ah-YAH"}
+{"id":"es.c0716","deck":"es.d.top-adverbs","es":"anoche","rom":"ah-NOH-cheh"}
+{"id":"es.c0717","deck":"es.d.top-adverbs","es":"ahorita","rom":"ah-oh-REE-tah"}
+{"id":"es.c0718","deck":"es.d.top-adverbs","es":"bastante","rom":"bahs-TAHN-teh"}
+{"id":"es.c0719","deck":"es.d.top-adverbs","es":"demasiado","rom":"deh-mah-SYAH-doh"}
+{"id":"es.c0720","deck":"es.d.top-adverbs","es":"pronto","rom":"PROHN-toh"}
+{"id":"es.c0721","deck":"es.d.top-adverbs","es":"tarde","rom":"TAHR-deh"}
+{"id":"es.c0722","deck":"es.d.top-adverbs","es":"temprano","rom":"tehm-PRAH-noh"}
+{"id":"es.c0723","deck":"es.d.top-adverbs","es":"además","rom":"ah-deh-MAHS"}
+{"id":"es.c0724","deck":"es.d.top-adverbs","es":"otra vez","rom":"OH-trah behs"}
+{"id":"es.c0725","deck":"es.d.top-adverbs","es":"tal vez","rom":"tahl behs"}
+{"id":"es.c0726","deck":"es.d.top-adverbs","es":"despacio","rom":"dehs-PAH-syoh"}
+{"id":"es.c0727","deck":"es.d.top-adverbs","es":"arriba","rom":"ah-RREE-bah"}
+{"id":"es.c0728","deck":"es.d.top-adverbs","es":"abajo","rom":"ah-BAH-hoh"}
+{"id":"es.c0729","deck":"es.d.top-adverbs","es":"adentro","rom":"ah-DEHN-troh"}
+{"id":"es.c0730","deck":"es.d.top-adverbs","es":"afuera","rom":"ah-FWEH-rah"}
+{"id":"es.c0731","deck":"es.d.top-adverbs","es":"apenas","rom":"ah-PEH-nahs"}
+{"id":"es.c0732","deck":"es.d.top-adverbs","es":"incluso","rom":"een-KLOO-soh"}
+{"id":"es.c0733","deck":"es.d.top-adverbs","es":"recién","rom":"rreh-SYEHN"}
+{"id":"es.c0734","deck":"es.d.top-adverbs","es":"de verdad","rom":"deh behr-DAHD"}
+{"id":"es.c0735","deck":"es.d.top-adverbs","es":"en serio","rom":"ehn SEH-ryoh"}
+{"id":"es.c0736","deck":"es.d.top-adverbs","es":"normalmente","rom":"nohr-mahl-MEHN-teh"}
+{"id":"es.c0737","deck":"es.d.top-adverbs","es":"exactamente","rom":"ehk-sahk-tah-MEHN-teh"}
+{"id":"es.c0738","deck":"es.d.top-pronouns","es":"se","rom":"seh"}
+{"id":"es.c0739","deck":"es.d.top-pronouns","es":"lo","rom":"loh"}
+{"id":"es.c0740","deck":"es.d.top-pronouns","es":"le","rom":"leh"}
+{"id":"es.c0741","deck":"es.d.top-pronouns","es":"me","rom":"meh"}
+{"id":"es.c0742","deck":"es.d.top-pronouns","es":"¿Qué?","rom":"keh"}
+{"id":"es.c0743","deck":"es.d.top-pronouns","es":"yo","rom":"yoh"}
+{"id":"es.c0744","deck":"es.d.top-pronouns","es":"todos","rom":"TOH-dohs"}
+{"id":"es.c0745","deck":"es.d.top-pronouns","es":"nos","rom":"nohs"}
+{"id":"es.c0746","deck":"es.d.top-pronouns","es":"él","rom":"ehl"}
+{"id":"es.c0747","deck":"es.d.top-pronouns","es":"te","rom":"teh"}
+{"id":"es.c0748","deck":"es.d.top-pronouns","es":"eso","rom":"EH-soh"}
+{"id":"es.c0749","deck":"es.d.top-pronouns","es":"ella","rom":"EH-yah"}
+{"id":"es.c0750","deck":"es.d.top-pronouns","es":"nada","rom":"NAH-dah"}
+{"id":"es.c0751","deck":"es.d.top-pronouns","es":"tú","rom":"too"}
+{"id":"es.c0752","deck":"es.d.top-pronouns","es":"usted","rom":"oos-TEHD"}
+{"id":"es.c0753","deck":"es.d.top-pronouns","es":"esto","rom":"EHS-toh"}
+{"id":"es.c0754","deck":"es.d.top-pronouns","es":"algo","rom":"AHL-goh"}
+{"id":"es.c0755","deck":"es.d.top-pronouns","es":"les","rom":"lehs"}
+{"id":"es.c0756","deck":"es.d.top-pronouns","es":"ellos","rom":"EH-yohs"}
+{"id":"es.c0757","deck":"es.d.top-pronouns","es":"¿Quién?","rom":"kyehn"}
+{"id":"es.c0758","deck":"es.d.top-pronouns","es":"nosotros","rom":"noh-SOH-trohs"}
+{"id":"es.c0759","deck":"es.d.top-pronouns","es":"mí","rom":"mee"}
+{"id":"es.c0760","deck":"es.d.top-pronouns","es":"ti","rom":"tee"}
+{"id":"es.c0761","deck":"es.d.top-pronouns","es":"ustedes","rom":"oos-TEH-dehs"}
+{"id":"es.c0762","deck":"es.d.top-pronouns","es":"nadie","rom":"NAH-dyeh"}
+{"id":"es.c0763","deck":"es.d.top-pronouns","es":"alguien","rom":"AHL-ghyehn"}
+{"id":"es.c0764","deck":"es.d.top-pronouns","es":"¿Cuál?","rom":"kwahl"}
+{"id":"es.c0765","deck":"es.d.top-pronouns","es":"conmigo","rom":"kohn-MEE-goh"}
+{"id":"es.c0766","deck":"es.d.top-pronouns","es":"contigo","rom":"kohn-TEE-goh"}
+{"id":"es.c0767","deck":"es.d.top-pronouns","es":"ellas","rom":"EH-yahs"}
+{"id":"es.c0768","deck":"es.d.top-pronouns","es":"nosotras","rom":"noh-SOH-trahs"}
+{"id":"es.c0769","deck":"es.d.top-pronouns","es":"¿Quiénes?","rom":"KYEH-nehs"}
+{"id":"es.c0770","deck":"es.d.top-pronouns","es":"alguno","rom":"ahl-GOO-noh"}
+{"id":"es.c0771","deck":"es.d.top-pronouns","es":"ninguno","rom":"neen-GOO-noh"}
+{"id":"es.c0772","deck":"es.d.top-pronouns","es":"mío","rom":"MEE-oh"}
+{"id":"es.c0773","deck":"es.d.top-pronouns","es":"tuyo","rom":"TOO-yoh"}
+{"id":"es.c0774","deck":"es.d.top-pronouns","es":"suyo","rom":"SOO-yoh"}
+{"id":"es.c0775","deck":"es.d.top-pronouns","es":"aquello","rom":"ah-KEH-yoh"}
+{"id":"es.c0776","deck":"es.d.top-prepositions","es":"de","rom":"deh"}
+{"id":"es.c0777","deck":"es.d.top-prepositions","es":"en","rom":"ehn"}
+{"id":"es.c0778","deck":"es.d.top-prepositions","es":"a","rom":"ah"}
+{"id":"es.c0779","deck":"es.d.top-prepositions","es":"del","rom":"dehl"}
+{"id":"es.c0780","deck":"es.d.top-prepositions","es":"por","rom":"pohr"}
+{"id":"es.c0781","deck":"es.d.top-prepositions","es":"con","rom":"kohn"}
+{"id":"es.c0782","deck":"es.d.top-prepositions","es":"para","rom":"PAH-rah"}
+{"id":"es.c0783","deck":"es.d.top-prepositions","es":"al","rom":"ahl"}
+{"id":"es.c0784","deck":"es.d.top-prepositions","es":"sin","rom":"seen"}
+{"id":"es.c0785","deck":"es.d.top-prepositions","es":"sobre","rom":"SOH-breh"}
+{"id":"es.c0786","deck":"es.d.top-prepositions","es":"entre","rom":"EHN-treh"}
+{"id":"es.c0787","deck":"es.d.top-prepositions","es":"hasta","rom":"AHS-tah"}
+{"id":"es.c0788","deck":"es.d.top-prepositions","es":"desde","rom":"DEHS-deh"}
+{"id":"es.c0789","deck":"es.d.top-prepositions","es":"durante","rom":"doo-RAHN-teh"}
+{"id":"es.c0790","deck":"es.d.top-prepositions","es":"según","rom":"seh-GOON"}
+{"id":"es.c0791","deck":"es.d.top-prepositions","es":"contra","rom":"KOHN-trah"}
+{"id":"es.c0792","deck":"es.d.top-prepositions","es":"hacia","rom":"AH-syah"}
+{"id":"es.c0793","deck":"es.d.top-prepositions","es":"después de","rom":"dehs-PWEHS deh"}
+{"id":"es.c0794","deck":"es.d.top-prepositions","es":"antes de","rom":"AHN-tehs deh"}
+{"id":"es.c0795","deck":"es.d.top-prepositions","es":"cerca de","rom":"SEHR-kah deh"}
+{"id":"es.c0796","deck":"es.d.top-prepositions","es":"lejos de","rom":"LEH-hohs deh"}
+{"id":"es.c0797","deck":"es.d.top-prepositions","es":"dentro de","rom":"DEHN-troh deh"}
+{"id":"es.c0798","deck":"es.d.top-prepositions","es":"fuera de","rom":"FWEH-rah deh"}
+{"id":"es.c0799","deck":"es.d.top-prepositions","es":"delante de","rom":"deh-LAHN-teh deh"}
+{"id":"es.c0800","deck":"es.d.top-prepositions","es":"detrás de","rom":"deh-TRAHS deh"}
+{"id":"es.c0801","deck":"es.d.top-prepositions","es":"encima de","rom":"ehn-SEE-mah deh"}
+{"id":"es.c0802","deck":"es.d.top-prepositions","es":"debajo de","rom":"deh-BAH-hoh deh"}
+{"id":"es.c0803","deck":"es.d.top-prepositions","es":"junto a","rom":"HOON-toh ah"}
+{"id":"es.c0804","deck":"es.d.top-prepositions","es":"a través de","rom":"ah trah-BEHS deh"}
+{"id":"es.c0805","deck":"es.d.top-prepositions","es":"en vez de","rom":"ehn behs deh"}
+{"id":"es.c0806","deck":"es.d.top-prepositions","es":"acerca de","rom":"ah-SEHR-kah deh"}
+{"id":"es.c0807","deck":"es.d.top-prepositions","es":"excepto","rom":"ehks-SEHP-toh"}
+{"id":"es.c0808","deck":"es.d.top-conjunctions","es":"que","rom":"keh"}
+{"id":"es.c0809","deck":"es.d.top-conjunctions","es":"y","rom":"ee"}
+{"id":"es.c0810","deck":"es.d.top-conjunctions","es":"como","rom":"KOH-moh"}
+{"id":"es.c0811","deck":"es.d.top-conjunctions","es":"o","rom":"oh"}
+{"id":"es.c0812","deck":"es.d.top-conjunctions","es":"si","rom":"see"}
+{"id":"es.c0813","deck":"es.d.top-conjunctions","es":"cuando","rom":"KWAHN-doh"}
+{"id":"es.c0814","deck":"es.d.top-conjunctions","es":"porque","rom":"POHR-keh"}
+{"id":"es.c0815","deck":"es.d.top-conjunctions","es":"ni","rom":"nee"}
+{"id":"es.c0816","deck":"es.d.top-conjunctions","es":"donde","rom":"DOHN-deh"}
+{"id":"es.c0817","deck":"es.d.top-conjunctions","es":"e","rom":"eh"}
+{"id":"es.c0818","deck":"es.d.top-conjunctions","es":"aunque","rom":"OWN-keh"}
+{"id":"es.c0819","deck":"es.d.top-conjunctions","es":"u","rom":"oo"}
+{"id":"es.c0820","deck":"es.d.top-conjunctions","es":"pues","rom":"pwehs"}
+{"id":"es.c0821","deck":"es.d.top-conjunctions","es":"mientras","rom":"MYEHN-trahs"}
+{"id":"es.c0822","deck":"es.d.top-conjunctions","es":"sino","rom":"SEE-noh"}
+{"id":"es.c0823","deck":"es.d.top-conjunctions","es":"así que","rom":"ah-SEE keh"}
+{"id":"es.c0824","deck":"es.d.top-conjunctions","es":"ya que","rom":"yah keh"}
+{"id":"es.c0825","deck":"es.d.top-conjunctions","es":"o sea","rom":"oh SEH-ah"}
+{"id":"es.c0826","deck":"es.d.top-conjunctions","es":"por eso","rom":"pohr EH-soh"}
+{"id":"es.c0827","deck":"es.d.top-conjunctions","es":"sin embargo","rom":"seen ehm-BAHR-goh"}
+{"id":"es.c0828","deck":"es.d.top-conjunctions","es":"para que","rom":"PAH-rah keh"}
+{"id":"es.c0829","deck":"es.d.top-conjunctions","es":"hasta que","rom":"AHS-tah keh"}
+{"id":"es.c0830","deck":"es.d.top-interjections","es":"¡Oye!","rom":"OH-yeh"}
+{"id":"es.c0831","deck":"es.d.top-interjections","es":"¡Ay!","rom":"ai"}
+{"id":"es.c0832","deck":"es.d.top-interjections","es":"¡Ah!","rom":"ah"}
+{"id":"es.c0833","deck":"es.d.top-interjections","es":"¡Oh!","rom":"oh"}
+{"id":"es.c0834","deck":"es.d.top-interjections","es":"¡Eh!","rom":"eh"}
+{"id":"es.c0835","deck":"es.d.top-interjections","es":"¡Vaya!","rom":"BAH-yah"}
+{"id":"es.c0836","deck":"es.d.top-interjections","es":"¡Ojalá!","rom":"oh-hah-LAH"}
+{"id":"es.c0837","deck":"es.d.top-interjections","es":"¡Cuidado!","rom":"kwee-DAH-doh"}
+{"id":"es.c0838","deck":"es.d.top-interjections","es":"¡Bravo!","rom":"BRAH-boh"}
+{"id":"es.c0839","deck":"es.d.top-interjections","es":"¡Órale!","rom":"OH-rah-leh"}
+{"id":"es.c0840","deck":"es.d.top-interjections","es":"¡Ándale!","rom":"AHN-dah-leh"}
+{"id":"es.c0841","deck":"es.d.top-interjections","es":"¡Híjole!","rom":"EE-hoh-leh"}
+{"id":"es.c0842","deck":"es.d.top-interjections","es":"¡Uf!","rom":"oof"}
+{"id":"es.c0843","deck":"es.d.top-interjections","es":"¡Ajá!","rom":"ah-HAH"}
+{"id":"es.c0844","deck":"es.d.top-interjections","es":"¡Salud!","rom":"sah-LOOD"}
+{"id":"es.c0845","deck":"es.d.top-interjections","es":"¡Basta!","rom":"BAHS-tah"}
+{"id":"es.c0846","deck":"es.d.top-interjections","es":"¡Ups!","rom":"oops"}
+{"id":"es.c0847","deck":"es.d.top-interjections","es":"¡Guau!","rom":"gwow"}
+{"id":"es.c0848","deck":"es.d.top-interjections","es":"¡Caray!","rom":"kah-RAI"}
+{"id":"es.c0849","deck":"es.d.top-interjections","es":"¡Ojo!","rom":"OH-hoh"}
+{"id":"es.c0850","deck":"es.d.top-interjections","es":"¡Ánimo!","rom":"AH-nee-moh"}
+{"id":"es.c0851","deck":"es.d.top-interjections","es":"¡Aguas!","rom":"AH-gwahs"}
+{"id":"es.c0852","deck":"es.d.top-interjections","es":"¡Sale!","rom":"SAH-leh"}
+{"id":"es.c0853","deck":"es.d.top-interjections","es":"¡Guácala!","rom":"GWAH-kah-lah"}
+{"id":"es.c0854","deck":"es.d.top-interjections","es":"¡Bah!","rom":"bah"}
+{"id":"es.c0855","deck":"es.d.top-words","es":"la","rom":"lah"}
+{"id":"es.c0856","deck":"es.d.top-words","es":"el","rom":"ehl"}
+{"id":"es.c0857","deck":"es.d.top-words","es":"los","rom":"lohs"}
+{"id":"es.c0858","deck":"es.d.top-words","es":"las","rom":"lahs"}
+{"id":"es.c0859","deck":"es.d.top-words","es":"un","rom":"oon"}
+{"id":"es.c0860","deck":"es.d.top-words","es":"no","rom":"noh"}
+{"id":"es.c0861","deck":"es.d.top-words","es":"una","rom":"OO-nah"}
+{"id":"es.c0862","deck":"es.d.top-words","es":"su","rom":"soo"}
+{"id":"es.c0863","deck":"es.d.top-words","es":"sus","rom":"soos"}
+{"id":"es.c0864","deck":"es.d.top-words","es":"este","rom":"EHS-teh"}
+{"id":"es.c0865","deck":"es.d.top-words","es":"todo","rom":"TOH-doh"}
+{"id":"es.c0866","deck":"es.d.top-words","es":"esta","rom":"EHS-tah"}
+{"id":"es.c0867","deck":"es.d.top-words","es":"dos","rom":"dohs"}
+{"id":"es.c0868","deck":"es.d.top-words","es":"mucho","rom":"MOO-choh"}
+{"id":"es.c0869","deck":"es.d.top-words","es":"mi","rom":"mee"}
+{"id":"es.c0870","deck":"es.d.top-words","es":"uno","rom":"OO-noh"}
+{"id":"es.c0871","deck":"es.d.top-words","es":"ese","rom":"EH-seh"}
+{"id":"es.c0872","deck":"es.d.top-words","es":"cada","rom":"KAH-dah"}
+{"id":"es.c0873","deck":"es.d.top-words","es":"poco","rom":"POH-koh"}
+{"id":"es.c0874","deck":"es.d.top-words","es":"otro","rom":"OH-troh"}
+{"id":"es.c0875","deck":"es.d.top-words","es":"esa","rom":"EH-sah"}
+{"id":"es.c0876","deck":"es.d.top-words","es":"nuestro","rom":"NWEHS-troh"}
+{"id":"es.c0877","deck":"es.d.top-words","es":"tres","rom":"trehs"}
+{"id":"es.c0878","deck":"es.d.top-words","es":"sí","rom":"see"}
+{"id":"es.c0879","deck":"es.d.top-words","es":"tu","rom":"too"}
+{"id":"es.c0880","deck":"es.d.top-words","es":"¿Dónde?","rom":"DOHN-deh"}
+{"id":"es.c0881","deck":"es.d.top-words","es":"¿Cómo?","rom":"KOH-moh"}
+{"id":"es.c0882","deck":"es.d.top-words","es":"¿Cuánto?","rom":"KWAHN-toh"}
+{"id":"es.c0883","deck":"es.d.top-words","es":"¿Cuántos?","rom":"KWAHN-tohs"}
+{"id":"es.c0884","deck":"es.d.top-words","es":"¿Adónde?","rom":"ah-DOHN-deh"}
+{"id":"es.c0885","deck":"es.d.top-words","es":"mis","rom":"mees"}
+{"id":"es.c0886","deck":"es.d.top-words","es":"estos","rom":"EHS-tohs"}
+{"id":"es.c0887","deck":"es.d.top-words","es":"estas","rom":"EHS-tahs"}
+{"id":"es.c0888","deck":"es.d.top-words","es":"esos","rom":"EH-sohs"}
+{"id":"es.c0889","deck":"es.d.top-words","es":"esas","rom":"EH-sahs"}
+{"id":"es.c0890","deck":"es.d.top-words","es":"aquel","rom":"ah-KEHL"}
+{"id":"es.c0891","deck":"es.d.top-words","es":"varios","rom":"BAH-ryohs"}
+{"id":"es.c0892","deck":"es.d.top-words","es":"cuatro","rom":"KWAH-troh"}
+{"id":"es.c0893","deck":"es.d.top-words","es":"cinco","rom":"SEEN-koh"}
+{"id":"es.c0894","deck":"es.d.top-words","es":"seis","rom":"says"}
+{"id":"es.c0895","deck":"es.d.top-words","es":"siete","rom":"SYEH-teh"}
+{"id":"es.c0896","deck":"es.d.top-words","es":"ocho","rom":"OH-choh"}
+{"id":"es.c0897","deck":"es.d.top-words","es":"nueve","rom":"NWEH-beh"}
+{"id":"es.c0898","deck":"es.d.top-words","es":"diez","rom":"dyehs"}
+{"id":"es.c0899","deck":"es.d.top-words","es":"once","rom":"OHN-seh"}
+{"id":"es.c0900","deck":"es.d.top-words","es":"doce","rom":"DOH-seh"}
+{"id":"es.c0901","deck":"es.d.top-words","es":"trece","rom":"TREH-seh"}
+{"id":"es.c0902","deck":"es.d.top-words","es":"catorce","rom":"kah-TOHR-seh"}
+{"id":"es.c0903","deck":"es.d.top-words","es":"diecisiete","rom":"dyeh-see-SYEH-teh"}
+{"id":"es.c0904","deck":"es.d.top-words","es":"dieciocho","rom":"dyeh-SYOH-choh"}
+{"id":"es.c0905","deck":"es.d.top-words","es":"diecinueve","rom":"dyeh-see-NWEH-beh"}
+{"id":"es.c0906","deck":"es.d.top-words","es":"veinte","rom":"BAYN-teh"}
+{"id":"es.c0907","deck":"es.d.top-words","es":"cero","rom":"SEH-roh"}
+{"id":"es.c0908","deck":"es.d.top-words","es":"el martes","rom":"ehl MAHR-tehs"}
+{"id":"es.c0909","deck":"es.d.top-words","es":"el miércoles","rom":"ehl MYEHR-koh-lehs"}
+{"id":"es.c0910","deck":"es.d.top-words","es":"el jueves","rom":"ehl HWEH-behs"}
+{"id":"es.c0911","deck":"es.d.top-words","es":"el viernes","rom":"ehl BYEHR-nehs"}
+{"id":"es.c0912","deck":"es.d.top-words","es":"esta noche","rom":"EHS-tah NOH-cheh"}
+{"id":"es.c0913","deck":"es.d.top-words","es":"pasado mañana","rom":"pah-SAH-doh mah-NYAH-nah"}
+{"id":"es.c0914","deck":"es.d.top-words","es":"enero","rom":"eh-NEH-roh"}
+{"id":"es.c0915","deck":"es.d.top-words","es":"febrero","rom":"feh-BREH-roh"}
+{"id":"es.c0916","deck":"es.d.top-words","es":"marzo","rom":"MAHR-soh"}
+{"id":"es.c0917","deck":"es.d.top-words","es":"abril","rom":"ah-BREEL"}
+{"id":"es.c0918","deck":"es.d.top-words","es":"mayo","rom":"MAH-yoh"}
+{"id":"es.c0919","deck":"es.d.top-words","es":"junio","rom":"HOO-nyoh"}
+{"id":"es.c0920","deck":"es.d.top-words","es":"julio","rom":"HOO-lyoh"}
+{"id":"es.c0921","deck":"es.d.top-words","es":"agosto","rom":"ah-GOHS-toh"}
+{"id":"es.c0922","deck":"es.d.top-words","es":"septiembre","rom":"sehp-TYEHM-breh"}
+{"id":"es.c0923","deck":"es.d.top-words","es":"octubre","rom":"ohk-TOO-breh"}
+{"id":"es.c0924","deck":"es.d.top-words","es":"noviembre","rom":"noh-BYEHM-breh"}
+{"id":"es.c0925","deck":"es.d.top-words","es":"diciembre","rom":"dee-SYEHM-breh"}

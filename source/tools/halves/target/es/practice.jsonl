@@ -1,0 +1,364 @@
+{"id":"sounds.01","lesson":"sounds","t":"mc","o":["h","j","ll","ñ"]}
+{"id":"sounds.02","lesson":"sounds","t":"mc","o":["el perro","pero","la hora","para"]}
+{"id":"sounds.03","lesson":"sounds","t":"mc","o":["el hospital","la casa","la gente","el perro"]}
+{"id":"sounds.04","lesson":"sounds","t":"mc","o":["la gente","el gato","la guitarra","el amigo"]}
+{"id":"sounds.05","lesson":"sounds","t":"mc","o":["el cine","la casa","el café","el carro"]}
+{"id":"sounds.06","lesson":"sounds","t":"order","a":["la","llave"],"x":["el"]}
+{"id":"sounds.07","lesson":"sounds","t":"order","a":["el","perro"],"x":["la"]}
+{"id":"sounds.08","lesson":"sounds","t":"order","a":["las","llaves"],"x":["los"]}
+{"id":"sounds.09","lesson":"sounds","t":"fill","q":"__ niño","o":["la","los","las"],"a":["el"]}
+{"id":"sounds.10","lesson":"sounds","t":"fill","q":"__ gente","o":["el","los","las"],"a":["la"]}
+{"id":"sounds.11","lesson":"sounds","t":"fill","q":"el pe__o","o":["r","ll","j"],"a":["rr"]}
+{"id":"sounds.12","lesson":"sounds","t":"type","a":["las llaves"],"x":["los"]}
+{"id":"sounds.13","lesson":"sounds","t":"type","a":["los perros"],"x":["las"]}
+{"id":"sounds.14","lesson":"sounds","t":"type","a":["el niño"],"x":["nino"]}
+{"id":"greetings.01","lesson":"greetings","t":"mc","o":["Buenas tardes.","Buenos tardes.","Buena tarde.","Buenas días."]}
+{"id":"greetings.02","lesson":"greetings","t":"mc","o":["¿Cómo está usted?","¿Cómo estás?","¿Cómo es usted?","¿Cómo estás tú?"]}
+{"id":"greetings.03","lesson":"greetings","t":"mc","o":["Mucho gusto.","De nada.","Por favor.","Adiós."]}
+{"id":"greetings.04","lesson":"greetings","t":"mc","o":["Disculpe.","Disculpa.","De nada.","Gracias."]}
+{"id":"greetings.05","lesson":"greetings","t":"mc","o":["De nada.","Por favor.","Mucho gusto.","Adiós."]}
+{"id":"greetings.06","lesson":"greetings","t":"order","a":["Buenos","días"],"x":["Buenas"]}
+{"id":"greetings.07","lesson":"greetings","t":"order","a":["Buenas","noches"],"x":["Buenos"]}
+{"id":"greetings.08","lesson":"greetings","t":"order","a":["¿Cómo","está","usted?"],"x":["estás"]}
+{"id":"greetings.09","lesson":"greetings","t":"fill","q":"¿Y __?","o":["tú","ustedes","yo"],"a":["usted"]}
+{"id":"greetings.10","lesson":"greetings","t":"fill","q":"Me __ Ana.","o":["llama","llamas","es"],"a":["llamo"]}
+{"id":"greetings.11","lesson":"greetings","t":"fill","q":"Buenas __.","o":["días","tarde","noche"],"a":["tardes"]}
+{"id":"greetings.12","lesson":"greetings","t":"type","a":["¿Cómo estás?","¿Cómo estás tú?"],"x":["está"]}
+{"id":"greetings.13","lesson":"greetings","t":"type","a":["¿Cómo está usted?","¿Cómo está?"],"x":["estás"]}
+{"id":"greetings.14","lesson":"greetings","t":"type","a":["Me llamo Ana.","Yo me llamo Ana.","Mi nombre es Ana."],"x":["es"]}
+{"id":"gender.01","lesson":"gender","t":"mc","o":["el problema","la problema","el problemo","los problema"]}
+{"id":"gender.02","lesson":"gender","t":"mc","o":["la mano","el mano","la mana","los mano"]}
+{"id":"gender.03","lesson":"gender","t":"mc","o":["las ciudades","las ciudads","los ciudades","las ciudad"]}
+{"id":"gender.04","lesson":"gender","t":"mc","o":["los hermanos","las hermanas","los hermanas","las hermanos"]}
+{"id":"gender.05","lesson":"gender","t":"mc","o":["los padres","los parientes","las madres","los padre"]}
+{"id":"gender.06","lesson":"gender","t":"order","a":["la","hermana"],"x":["el"]}
+{"id":"gender.07","lesson":"gender","t":"order","a":["el","día"],"x":["la"]}
+{"id":"gender.08","lesson":"gender","t":"order","a":["las","amigas"],"x":["los","amigos"]}
+{"id":"gender.09","lesson":"gender","t":"fill","q":"__ mapa","o":["la","los","las"],"a":["el"]}
+{"id":"gender.10","lesson":"gender","t":"fill","q":"las __","o":["ciudad","ciudads","ciudadas"],"a":["ciudades"]}
+{"id":"gender.11","lesson":"gender","t":"fill","q":"los __","o":["abuelas","abuelo","abuela"],"a":["abuelos"]}
+{"id":"gender.12","lesson":"gender","t":"type","a":["los problemas"],"x":["las"]}
+{"id":"gender.13","lesson":"gender","t":"type","a":["las manos"],"x":["los"]}
+{"id":"gender.14","lesson":"gender","t":"type","a":["los hermanos"],"x":["las"]}
+{"id":"articles.01","lesson":"articles","t":"mc","o":["un café","una café","uno café","unos café"]}
+{"id":"articles.02","lesson":"articles","t":"mc","o":["el agua","la agua","lo agua","los agua"]}
+{"id":"articles.03","lesson":"articles","t":"mc","o":["Me gusta el café.","Me gusta café.","Me gusta un café.","Me gusta la café."]}
+{"id":"articles.04","lesson":"articles","t":"mc","o":["unos tacos","unas tacos","unos taco","uno tacos"]}
+{"id":"articles.05","lesson":"articles","t":"mc","o":["La cuenta, por favor.","El cuenta, por favor.","Las cuenta, por favor.","Una cuenta, por favor."]}
+{"id":"articles.06","lesson":"articles","t":"order","a":["Una","quesadilla","por favor"],"x":["Un"]}
+{"id":"articles.07","lesson":"articles","t":"order","a":["unas","tortillas"],"x":["unos"]}
+{"id":"articles.08","lesson":"articles","t":"order","a":["Me","gusta","el","pollo"],"x":["la"]}
+{"id":"articles.09","lesson":"articles","t":"fill","q":"Me gusta __ agua de jamaica.","o":["la","un","los"],"a":["el"]}
+{"id":"articles.10","lesson":"articles","t":"fill","q":"__ tortillas","o":["los","la","unas"],"a":["las"]}
+{"id":"articles.11","lesson":"articles","t":"fill","q":"__ tacos de pollo, por favor.","o":["Unas","Un","Uno"],"a":["Unos"]}
+{"id":"articles.12","lesson":"articles","t":"type","a":["una quesadilla"],"x":["un"]}
+{"id":"articles.13","lesson":"articles","t":"type","a":["unos tacos"],"x":["unas"]}
+{"id":"articles.14","lesson":"articles","t":"type","a":["La cuenta, por favor."],"x":["El"]}
+{"id":"ser.01","lesson":"ser","t":"mc","o":["Somos de México.","Son de México.","Somos en México.","Es de México."]}
+{"id":"ser.02","lesson":"ser","t":"mc","o":["Soy enfermera.","Soy una enfermera.","Soy enfermero.","Es enfermera."]}
+{"id":"ser.03","lesson":"ser","t":"mc","o":["es","eres","son","soy"]}
+{"id":"ser.04","lesson":"ser","t":"mc","o":["Son estudiantes.","Es estudiantes.","Somos estudiantes.","Eres estudiantes."]}
+{"id":"ser.05","lesson":"ser","t":"mc","o":["Carlos es maestro.","Carlos es un maestro.","Carlos son maestro.","Carlos es maestra."]}
+{"id":"ser.06","lesson":"ser","t":"order","a":["Somos","de","Puebla"],"x":["Son"]}
+{"id":"ser.07","lesson":"ser","t":"order","a":["Eres","de","Chicago"],"x":["Es"]}
+{"id":"ser.08","lesson":"ser","t":"order","a":["Ella","es","doctora"],"x":["una","doctor"]}
+{"id":"ser.09","lesson":"ser","t":"fill","q":"Yo __ de San Antonio.","o":["es","eres","son"],"a":["soy"]}
+{"id":"ser.10","lesson":"ser","t":"fill","q":"Ustedes __ de Bogotá.","o":["es","somos","eres"],"a":["son"]}
+{"id":"ser.11","lesson":"ser","t":"fill","q":"Soy __.","o":["un estudiante","una estudiante","estudiantes"],"a":["estudiante"]}
+{"id":"ser.12","lesson":"ser","t":"type","a":["Soy de Chicago.","Yo soy de Chicago."],"x":["Es"]}
+{"id":"ser.13","lesson":"ser","t":"type","a":["Somos enfermeras.","Nosotras somos enfermeras."],"x":["Son"]}
+{"id":"ser.14","lesson":"ser","t":"type","a":["¿Usted es maestro?","¿Es usted maestro?","¿Es maestro?"],"x":["eres"]}
+{"id":"adjectives.01","lesson":"adjectives","t":"mc","o":["la camisa roja","la camisa rojo","la roja camisa","el camisa roja"]}
+{"id":"adjectives.02","lesson":"adjectives","t":"mc","o":["los zapatos negros","los zapatos negro","los negros zapatos","las zapatos negros"]}
+{"id":"adjectives.03","lesson":"adjectives","t":"mc","o":["La falda es azul.","La falda es azula.","La falda es azules.","El falda es azul."]}
+{"id":"adjectives.04","lesson":"adjectives","t":"mc","o":["Ana y Carlos son altos.","Ana y Carlos son altas.","Ana y Carlos es altos.","Ana y Carlos son alto."]}
+{"id":"adjectives.05","lesson":"adjectives","t":"mc","o":["El suéter es verde.","El suéter es verdo.","El suéter es verdes.","La suéter es verde."]}
+{"id":"adjectives.06","lesson":"adjectives","t":"order","a":["las","camisas","blancas"],"x":["blancos"]}
+{"id":"adjectives.07","lesson":"adjectives","t":"order","a":["el","vestido","negro"],"x":["negra"]}
+{"id":"adjectives.08","lesson":"adjectives","t":"order","a":["Los","pantalones","son","grises"],"x":["gris"]}
+{"id":"adjectives.09","lesson":"adjectives","t":"fill","q":"la falda __","o":["amarillo","amarillas","amarillos"],"a":["amarilla"]}
+{"id":"adjectives.10","lesson":"adjectives","t":"fill","q":"Los zapatos son __.","o":["caro","cara","caras"],"a":["caros"]}
+{"id":"adjectives.11","lesson":"adjectives","t":"fill","q":"las faldas __","o":["azul","azulas","azulos"],"a":["azules"]}
+{"id":"adjectives.12","lesson":"adjectives","t":"type","a":["los vestidos blancos"],"x":["blancas"]}
+{"id":"adjectives.13","lesson":"adjectives","t":"type","a":["Los zapatos son verdes."],"x":["verde"]}
+{"id":"adjectives.14","lesson":"adjectives","t":"type","a":["Ana es alta."],"x":["alto"]}
+{"id":"estar.01","lesson":"estar","t":"mc","o":["¿Dónde está el baño?","¿Dónde es el baño?","¿Dónde están el baño?","¿Dónde estás el baño?"]}
+{"id":"estar.02","lesson":"estar","t":"mc","o":["Estamos en el hotel.","Somos en el hotel.","Están en el hotel.","Estamos el hotel."]}
+{"id":"estar.03","lesson":"estar","t":"mc","o":["Estoy cansada.","Soy cansada.","Estoy cansado.","Está cansada."]}
+{"id":"estar.04","lesson":"estar","t":"mc","o":["La farmacia está cerca.","La farmacia es cerca.","La farmacia están cerca.","El farmacia está cerca."]}
+{"id":"estar.05","lesson":"estar","t":"mc","o":["Monterrey está en México.","Monterrey es en México.","Monterrey son en México.","Monterrey estás en México."]}
+{"id":"estar.06","lesson":"estar","t":"order","a":["Los","niños","están","bien"],"x":["está"]}
+{"id":"estar.07","lesson":"estar","t":"order","a":["Estoy","enfermo"],"x":["enferma"]}
+{"id":"estar.08","lesson":"estar","t":"order","a":["¿Dónde","estás?"],"x":["está?"]}
+{"id":"estar.09","lesson":"estar","t":"fill","q":"¿Dónde __ el banco?","o":["esta","es","están"],"a":["está"],"strict":true}
+{"id":"estar.10","lesson":"estar","t":"fill","q":"Nosotros __ en Cancún.","o":["somos","están","estoy"],"a":["estamos"]}
+{"id":"estar.11","lesson":"estar","t":"fill","q":"Ana está __.","o":["cansado","cansadas","cansados"],"a":["cansada"]}
+{"id":"estar.12","lesson":"estar","t":"type","a":["¿Dónde están los baños?"],"x":["está"],"strict":true}
+{"id":"estar.13","lesson":"estar","t":"type","a":["Estamos cansadas.","Nosotras estamos cansadas."],"x":["cansados"]}
+{"id":"estar.14","lesson":"estar","t":"type","a":["¿El banco está cerca?","¿Está cerca el banco?","¿Está el banco cerca?"],"x":["es"],"strict":true}
+{"id":"ser-estar.01","lesson":"ser-estar","t":"mc","o":["Estoy cansado.","Soy cansado.","Es cansado.","Estoy cansada."]}
+{"id":"ser-estar.02","lesson":"ser-estar","t":"mc","o":["La fiesta es en el parque.","La fiesta está en el parque.","La fiesta son en el parque.","El fiesta es en el parque."]}
+{"id":"ser-estar.03","lesson":"ser-estar","t":"mc","o":["Sofía está aburrida.","Sofía es aburrida.","Sofía está aburrido.","Sofía es aburrido."]}
+{"id":"ser-estar.04","lesson":"ser-estar","t":"mc","o":["¿Estás listo?","¿Eres listo?","¿Es listo?","¿Estás lista?"]}
+{"id":"ser-estar.05","lesson":"ser-estar","t":"mc","o":["Diego es estudiante y está enfermo.","Diego está estudiante y es enfermo.","Diego es estudiante y es enfermo.","Diego está estudiante y está enfermo."]}
+{"id":"ser-estar.06","lesson":"ser-estar","t":"order","a":["Estamos","contentos"],"x":["Somos","contentas"]}
+{"id":"ser-estar.07","lesson":"ser-estar","t":"order","a":["Ana","es","alta","y","está","cansada"],"x":["cansado"]}
+{"id":"ser-estar.08","lesson":"ser-estar","t":"order","a":["Los","niños","están","aburridos"],"x":["son","aburrido"]}
+{"id":"ser-estar.09","lesson":"ser-estar","t":"fill","q":"La fiesta __ en el parque.","o":["está","son","están"],"a":["es"]}
+{"id":"ser-estar.10","lesson":"ser-estar","t":"fill","q":"Valeria __ de Oaxaca.","o":["está","son","eres"],"a":["es"]}
+{"id":"ser-estar.11","lesson":"ser-estar","t":"fill","q":"Lucía __ triste hoy.","o":["es","esta","están"],"a":["está"],"strict":true}
+{"id":"ser-estar.12","lesson":"ser-estar","t":"type","a":["Estoy cansado.","Yo estoy cansado."],"x":["Soy"]}
+{"id":"ser-estar.13","lesson":"ser-estar","t":"type","a":["Lupita es aburrida."],"x":["aburrido"]}
+{"id":"ser-estar.14","lesson":"ser-estar","t":"type","a":["¿Estás lista?","¿Tú estás lista?","¿Estás lista tú?"],"x":["Eres"]}
+{"id":"hay.01","lesson":"hay","t":"mc","o":["Hay dos cuartos.","Hay dos cuarto.","Están dos cuartos.","Son dos cuartos."]}
+{"id":"hay.02","lesson":"hay","t":"mc","o":["¿Hay un banco cerca?","¿Hay el banco cerca?","¿Está un banco cerca?","¿Es un banco cerca?"]}
+{"id":"hay.03","lesson":"hay","t":"mc","o":["El baño está allí.","Hay el baño allí.","El baño es allí.","El baño hay allí."]}
+{"id":"hay.04","lesson":"hay","t":"mc","o":["No hay agua.","No es agua.","Hay no agua.","No están agua."]}
+{"id":"hay.05","lesson":"hay","t":"mc","o":["Hay unas sillas en la cocina.","Hay unos sillas en la cocina.","Hay las sillas en la cocina.","Están unas sillas en la cocina."]}
+{"id":"hay.06","lesson":"hay","t":"order","a":["Hay","una","mesa"],"x":["un"]}
+{"id":"hay.07","lesson":"hay","t":"order","a":["Hay","unas","camas"],"x":["unos"]}
+{"id":"hay.08","lesson":"hay","t":"order","a":["El","apartamento","está","en","Puebla"],"x":["Hay"]}
+{"id":"hay.09","lesson":"hay","t":"fill","q":"__ un baño en el apartamento.","o":["Está","Es","Están"],"a":["Hay"]}
+{"id":"hay.10","lesson":"hay","t":"fill","q":"Hay __ sofá en la sala.","o":["el","una","uno"],"a":["un"]}
+{"id":"hay.11","lesson":"hay","t":"fill","q":"La cocina __ allí.","o":["hay","es","esta"],"a":["está"],"strict":true}
+{"id":"hay.12","lesson":"hay","t":"type","a":["Hay una mesa blanca."],"x":["un","blanco"]}
+{"id":"hay.13","lesson":"hay","t":"type","a":["Hay dos baños."],"x":["baño"]}
+{"id":"hay.14","lesson":"hay","t":"type","a":["¿Hay una farmacia cerca?"],"x":["un","Está"]}
+{"id":"present.01","lesson":"present","t":"mc","o":["Trabajan en una oficina.","Trabaja en una oficina.","Trabajamos en una oficina.","Trabajar en una oficina."]}
+{"id":"present.02","lesson":"present","t":"mc","o":["comes","come","como","comen"]}
+{"id":"present.03","lesson":"present","t":"mc","o":["¿Usted vende café?","¿Usted vendes café?","¿Usted vender café?","¿Usted venden café?"]}
+{"id":"present.04","lesson":"present","t":"mc","o":["Ustedes viven en Chicago.","Ustedes vive en Chicago.","Ustedes vivimos en Chicago.","Ustedes vivir en Chicago."]}
+{"id":"present.05","lesson":"present","t":"mc","o":["Trabajo en una escuela.","Estoy trabajo en una escuela.","Soy trabajo en una escuela.","Trabaja en una escuela."]}
+{"id":"present.06","lesson":"present","t":"order","a":["Comemos","en","casa"],"x":["come"]}
+{"id":"present.07","lesson":"present","t":"order","a":["¿Habla","español?"],"x":["¿Hablas"]}
+{"id":"present.08","lesson":"present","t":"order","a":["Los","estudiantes","viven","en","Puebla"],"x":["vive"]}
+{"id":"present.09","lesson":"present","t":"fill","q":"Yo __ en una oficina.","o":["trabaja","trabajas","trabajan"],"a":["trabajo"]}
+{"id":"present.10","lesson":"present","t":"fill","q":"Ellos __ inglés en la escuela.","o":["estudia","estudias","estudiamos"],"a":["estudian"]}
+{"id":"present.11","lesson":"present","t":"fill","q":"Nosotros __ en Los Ángeles.","o":["vivemos","viven","vive"],"a":["vivimos"]}
+{"id":"present.12","lesson":"present","t":"type","a":["Hablo un poco de español.","Yo hablo un poco de español."],"x":["habla"]}
+{"id":"present.13","lesson":"present","t":"type","a":["¿Usted trabaja aquí?","¿Trabaja usted aquí?","¿Trabaja aquí?"],"x":["trabajas"]}
+{"id":"present.14","lesson":"present","t":"type","a":["Comemos tacos.","Nosotros comemos tacos."],"x":["come"]}
+{"id":"questions.01","lesson":"questions","t":"mc","o":["¿Dónde?","¿Cuándo?","¿Cómo?","¿Qué?"]}
+{"id":"questions.02","lesson":"questions","t":"mc","o":["¿Cuántos libros hay?","¿Cuántas libros hay?","¿Cuánto libros hay?","¿Cuánta libros hay?"]}
+{"id":"questions.03","lesson":"questions","t":"mc","o":["¿Trabajas aquí?","¿Trabajar aquí?","¿Tú trabajar aquí?","¿Trabajo aquí?"]}
+{"id":"questions.04","lesson":"questions","t":"mc","o":["¿Por qué?","Porque","¿Qué?","¿Cómo?"]}
+{"id":"questions.05","lesson":"questions","t":"mc","o":["¿Dónde vive usted?","¿Dónde vives usted?","¿Dónde viven usted?","¿Dónde usted vivir?"]}
+{"id":"questions.06","lesson":"questions","t":"order","a":["¿Cuántas","horas","trabajas?"],"x":["¿Cuántos"]}
+{"id":"questions.07","lesson":"questions","t":"order","a":["¿Dónde","viven","Ana","y","Carlos?"],"x":["vive"]}
+{"id":"questions.08","lesson":"questions","t":"order","a":["¿Cuándo","termina","la","clase?"],"x":["¿Cuando"]}
+{"id":"questions.09","lesson":"questions","t":"fill","q":"¿__ vives?","o":["Donde","Cuándo","Qué"],"a":["Dónde"],"strict":true}
+{"id":"questions.10","lesson":"questions","t":"fill","q":"¿__ personas hay?","o":["Cuántos","Cuánto","Cuánta"],"a":["Cuántas"],"strict":true}
+{"id":"questions.11","lesson":"questions","t":"fill","q":"¿__ son ellos?","o":["Quién","Qué","Cómo"],"a":["Quiénes"],"strict":true}
+{"id":"questions.12","lesson":"questions","t":"type","a":["¿Usted habla inglés?","¿Habla usted inglés?","¿Habla inglés?"],"x":["hablas"]}
+{"id":"questions.13","lesson":"questions","t":"type","a":["¿Dónde trabajan ustedes?","¿Dónde trabajan?","¿Ustedes dónde trabajan?"],"x":["trabajas"],"strict":true}
+{"id":"questions.14","lesson":"questions","t":"type","a":["¿Por qué estudias español?","¿Por qué estudias tú español?","¿Por qué tú estudias español?"],"x":["porque"],"strict":true}
+{"id":"numbers.01","lesson":"numbers","t":"mc","o":["veinticinco","veinte cinco","veintecinco","cincoveinte"]}
+{"id":"numbers.02","lesson":"numbers","t":"mc","o":["Es la una.","Son la una.","Es una.","Son las una."]}
+{"id":"numbers.03","lesson":"numbers","t":"mc","o":["doscientas personas","doscientos personas","dos cientos personas","dos cien personas"]}
+{"id":"numbers.04","lesson":"numbers","t":"mc","o":["cien pesos","ciento pesos","un cien pesos","uno cien pesos"]}
+{"id":"numbers.05","lesson":"numbers","t":"mc","o":["¿Cuánto cuesta el café?","¿Cuánto cuestan el café?","¿Cuántos cuesta el café?","¿Cuánto es cuesta el café?"]}
+{"id":"numbers.06","lesson":"numbers","t":"order","a":["Son","las","tres"],"x":["es","los"]}
+{"id":"numbers.07","lesson":"numbers","t":"order","a":["¿Cuánto","cuestan","los","tacos?"],"x":["cuesta"]}
+{"id":"numbers.08","lesson":"numbers","t":"order","a":["Son","las","ocho","y","media"],"x":["medio"]}
+{"id":"numbers.09","lesson":"numbers","t":"fill","q":"Son las cuatro y __.","o":["medio","cuarta","cuartos"],"a":["cuarto"]}
+{"id":"numbers.10","lesson":"numbers","t":"fill","q":"Hay __ mesa libre.","o":["uno","un","unos"],"a":["una"]}
+{"id":"numbers.11","lesson":"numbers","t":"fill","q":"¿Cuánto __ los zapatos?","o":["cuesta","cuestas","costar"],"a":["cuestan"]}
+{"id":"numbers.12","lesson":"numbers","t":"type","a":["Son las dos.","Son las 2."],"x":["es"]}
+{"id":"numbers.13","lesson":"numbers","t":"type","a":["¿Cuánto cuestan las camisas?"],"x":["cuesta"]}
+{"id":"numbers.14","lesson":"numbers","t":"type","a":["Hay cincuenta estudiantes.","Hay 50 estudiantes."],"x":["cincuentas"]}
+{"id":"possessives.01","lesson":"possessives","t":"mc","o":["mis padres","mi padres","mis padre","me padres"]}
+{"id":"possessives.02","lesson":"possessives","t":"mc","o":["sus zapatos","su zapatos","suyo zapatos","sus zapato"]}
+{"id":"possessives.03","lesson":"possessives","t":"mc","o":["estos libros","estas libros","este libros","esos libros"]}
+{"id":"possessives.04","lesson":"possessives","t":"mc","o":["tu casa","tú casa","tus casa","su casas"],"strict":true}
+{"id":"possessives.05","lesson":"possessives","t":"mc","o":["Nuestra ciudad es grande.","Nuestro ciudad es grande.","Nuestros ciudad es grande.","Nosotros ciudad es grande."]}
+{"id":"possessives.06","lesson":"possessives","t":"order","a":["mis","hermanas"],"x":["mi"]}
+{"id":"possessives.07","lesson":"possessives","t":"order","a":["Esos","zapatos","son","negros"],"x":["Esas"]}
+{"id":"possessives.08","lesson":"possessives","t":"order","a":["Nuestra","casa","es","pequeña"],"x":["Nuestro"]}
+{"id":"possessives.09","lesson":"possessives","t":"fill","q":"__ libros están aquí.","o":["Mi","Me","Mío"],"a":["Mis"]}
+{"id":"possessives.10","lesson":"possessives","t":"fill","q":"Ana vive con __ padres.","o":["su","suyos","tus"],"a":["sus"]}
+{"id":"possessives.11","lesson":"possessives","t":"fill","q":"__ camisa es bonita.","o":["Este","Está","Esto"],"a":["Esta"],"strict":true}
+{"id":"possessives.12","lesson":"possessives","t":"type","a":["Mis padres son de Puebla.","Mis papás son de Puebla."],"x":["Mi"]}
+{"id":"possessives.13","lesson":"possessives","t":"type","a":["Esta casa es grande."],"x":["Este"],"strict":true}
+{"id":"possessives.14","lesson":"possessives","t":"type","a":["¿Dónde está tu carro?"],"x":["es"],"strict":true}
+{"id":"irregular.01","lesson":"irregular","t":"mc","o":["Tengo hambre.","Estoy hambre.","Soy hambre.","Hay hambre."]}
+{"id":"irregular.02","lesson":"irregular","t":"mc","o":["Hace calor.","Es calor.","Está calor.","Tiene calor."]}
+{"id":"irregular.03","lesson":"irregular","t":"mc","o":["hago","hace","haco","hacer"]}
+{"id":"irregular.04","lesson":"irregular","t":"mc","o":["¿Usted tiene carro?","¿Usted tienes carro?","¿Usted tengo carro?","¿Usted tener carro?"]}
+{"id":"irregular.05","lesson":"irregular","t":"mc","o":["Voy a casa.","Vo a casa.","Va a casa.","Ir a casa."]}
+{"id":"irregular.06","lesson":"irregular","t":"order","a":["Tengo","veinte","años"],"x":["Tiene","Soy"]}
+{"id":"irregular.07","lesson":"irregular","t":"order","a":["Vamos","a","la","playa"],"x":["van"]}
+{"id":"irregular.08","lesson":"irregular","t":"order","a":["¿Qué","haces?"],"x":["hace?"]}
+{"id":"irregular.09","lesson":"irregular","t":"fill","q":"Hoy __ frío.","o":["es","tiene","hago"],"a":["hace"]}
+{"id":"irregular.10","lesson":"irregular","t":"fill","q":"Ellos __ a la escuela.","o":["va","vas","vamos"],"a":["van"]}
+{"id":"irregular.11","lesson":"irregular","t":"fill","q":"¿Cuántos años __?","o":["tiene","tengo","eres"],"a":["tienes"]}
+{"id":"irregular.12","lesson":"irregular","t":"type","a":["Tengo frío.","Yo tengo frío."],"x":["Tiene"]}
+{"id":"irregular.13","lesson":"irregular","t":"type","a":["¿Cuántos años tiene usted?","¿Cuántos años tiene?"],"x":["tienes"]}
+{"id":"irregular.14","lesson":"irregular","t":"type","a":["Hoy hace calor.","Hace calor hoy."],"x":["es"]}
+{"id":"stem-change.01","lesson":"stem-change","t":"mc","o":["Quiero agua.","Quero agua.","Quiere agua.","Querer agua."]}
+{"id":"stem-change.02","lesson":"stem-change","t":"mc","o":["podemos","puedemos","pueden","podimos"]}
+{"id":"stem-change.03","lesson":"stem-change","t":"mc","o":["¿Puede llamar a una ambulancia?","¿Puedes llamar a una ambulancia?","¿Pode llamar a una ambulancia?","¿Puede llama a una ambulancia?"]}
+{"id":"stem-change.04","lesson":"stem-change","t":"mc","o":["Pregunto dónde está la farmacia.","Pido dónde está la farmacia.","Pregunta dónde está la farmacia.","Pido dónde es la farmacia."]}
+{"id":"stem-change.05","lesson":"stem-change","t":"mc","o":["Duermen ocho horas.","Dormen ocho horas.","Duerme ocho horas.","Dormimos ocho horas."]}
+{"id":"stem-change.06","lesson":"stem-change","t":"order","a":["Queremos","ir","a","casa"],"x":["Quieren"]}
+{"id":"stem-change.07","lesson":"stem-change","t":"order","a":["¿Puede","ayudarme?"],"x":["¿Puedes"]}
+{"id":"stem-change.08","lesson":"stem-change","t":"order","a":["Prefiero","descansar","en","casa"],"x":["Prefero"]}
+{"id":"stem-change.09","lesson":"stem-change","t":"fill","q":"Nosotros __ una pizza.","o":["pidimos","piden","pido"],"a":["pedimos"]}
+{"id":"stem-change.10","lesson":"stem-change","t":"fill","q":"¿Cuánto __ la medicina?","o":["costa","cuestan","cuesto"],"a":["cuesta"]}
+{"id":"stem-change.11","lesson":"stem-change","t":"fill","q":"Yo no __ dormir.","o":["podo","puede","pueden"],"a":["puedo"]}
+{"id":"stem-change.12","lesson":"stem-change","t":"type","a":["Quiero un vaso de agua.","Yo quiero un vaso de agua."],"x":["Quiere"]}
+{"id":"stem-change.13","lesson":"stem-change","t":"type","a":["¿Podemos ir a la farmacia?","¿Nosotros podemos ir a la farmacia?"],"x":["pueden"]}
+{"id":"stem-change.14","lesson":"stem-change","t":"type","a":["Estoy enferma.","Yo estoy enferma."],"x":["enfermo"]}
+{"id":"gustar.01","lesson":"gustar","t":"mc","o":["¿Te gusta el fútbol?","¿Tú gustas el fútbol?","¿Te gustas el fútbol?","¿Te gusta fútbol?"]}
+{"id":"gustar.02","lesson":"gustar","t":"mc","o":["Le gustan los zapatos.","Le gusta los zapatos.","Ella gusta los zapatos.","Les gustan los zapatos."]}
+{"id":"gustar.03","lesson":"gustar","t":"mc","o":["A mí también.","A mí tampoco.","Yo también gusto.","Me también."]}
+{"id":"gustar.04","lesson":"gustar","t":"mc","o":["Les gustan las películas.","Le gustan las películas.","Les gustan películas.","Ellos gustan las películas."]}
+{"id":"gustar.05","lesson":"gustar","t":"mc","o":["Me duelen los pies.","Me duele los pies.","Yo duelo los pies.","Mis pies me duele."]}
+{"id":"gustar.06","lesson":"gustar","t":"order","a":["Me","gustan","los","tacos"],"x":["gusta"]}
+{"id":"gustar.07","lesson":"gustar","t":"order","a":["¿Te","gusta","la","música?"],"x":["gustan"]}
+{"id":"gustar.08","lesson":"gustar","t":"order","a":["A","mí","tampoco"],"x":["también"]}
+{"id":"gustar.09","lesson":"gustar","t":"fill","q":"Me __ las quesadillas.","o":["gusta","gusto","gustas"],"a":["gustan"]}
+{"id":"gustar.10","lesson":"gustar","t":"fill","q":"A Carlos __ gusta el café.","o":["lo","se","él"],"a":["le"]}
+{"id":"gustar.11","lesson":"gustar","t":"fill","q":"¿A ustedes __ gusta bailar?","o":["le","los","nos"],"a":["les"]}
+{"id":"gustar.12","lesson":"gustar","t":"type","a":["Me gusta el fútbol.","A mí me gusta el fútbol."],"x":["gustan"]}
+{"id":"gustar.13","lesson":"gustar","t":"type","a":["Nos gustan los tamales.","A nosotros nos gustan los tamales."],"x":["gusta"]}
+{"id":"gustar.14","lesson":"gustar","t":"type","a":["Me encantan los tacos.","A mí me encantan los tacos."],"x":["encanta"]}
+{"id":"reflexive.01","lesson":"reflexive","t":"mc","o":["Se levanta a las seis.","Me levanta a las seis.","Se levanto a las seis.","Levanta a las seis."]}
+{"id":"reflexive.02","lesson":"reflexive","t":"mc","o":["¿Cómo se llama usted?","¿Cómo te llama usted?","¿Cómo llama usted?","¿Cómo se llamas usted?"]}
+{"id":"reflexive.03","lesson":"reflexive","t":"mc","o":["nos","se","me","les"]}
+{"id":"reflexive.04","lesson":"reflexive","t":"mc","o":["Me lavo los dientes.","Me lava los dientes.","Se lavo los dientes.","Me lavar los dientes."]}
+{"id":"reflexive.05","lesson":"reflexive","t":"mc","o":["Lavo el carro.","Lava el carro.","Se lavo el carro.","Me lavar el carro."]}
+{"id":"reflexive.06","lesson":"reflexive","t":"order","a":["Me","levanto","temprano"],"x":["levanta"]}
+{"id":"reflexive.07","lesson":"reflexive","t":"order","a":["¿A","qué","hora","te","acuestas?"],"x":["acuesta?"]}
+{"id":"reflexive.08","lesson":"reflexive","t":"order","a":["Mi","hermana","se","llama","Lucía"],"x":["me"]}
+{"id":"reflexive.09","lesson":"reflexive","t":"fill","q":"Yo __ levanto temprano.","o":["se","te","mi"],"a":["me"]}
+{"id":"reflexive.10","lesson":"reflexive","t":"fill","q":"Ellos se __ a las ocho.","o":["viste","vistes","vestimos"],"a":["visten"]}
+{"id":"reflexive.11","lesson":"reflexive","t":"fill","q":"¿Cómo __ llamas?","o":["se","me","tú"],"a":["te"]}
+{"id":"reflexive.12","lesson":"reflexive","t":"type","a":["Me baño a las siete.","Yo me baño a las siete.","Me baño a las 7.","Yo me baño a las 7.","Me ducho a las siete.","Yo me ducho a las siete.","Me ducho a las 7.","Yo me ducho a las 7."],"x":["baña"]}
+{"id":"reflexive.13","lesson":"reflexive","t":"type","a":["Nos despertamos a las seis.","Nosotros nos despertamos a las seis.","Nos despertamos a las 6.","Nosotros nos despertamos a las 6."],"x":["despiertan"]}
+{"id":"reflexive.14","lesson":"reflexive","t":"type","a":["¿Cómo se llama usted?","¿Cómo se llama?"],"x":["llamas"]}
+{"id":"prepositions.01","lesson":"prepositions","t":"mc","o":["Voy al aeropuerto.","Voy a el aeropuerto.","Voy en el aeropuerto.","Voy del aeropuerto."]}
+{"id":"prepositions.02","lesson":"prepositions","t":"mc","o":["Viajamos en tren.","Viajamos con tren.","Viajamos a tren.","Viajamos de tren."]}
+{"id":"prepositions.03","lesson":"prepositions","t":"mc","o":["Llamo a mi mamá.","Llamo mi mamá.","Llamo de mi mamá.","Llamo en mi mamá."]}
+{"id":"prepositions.04","lesson":"prepositions","t":"mc","o":["Es para ti.","Es por ti.","Es para tú.","Es para te."]}
+{"id":"prepositions.05","lesson":"prepositions","t":"mc","o":["¿Quieres ir conmigo?","¿Quieres ir con mí?","¿Quieres ir con yo?","¿Quieres ir conmí?"]}
+{"id":"prepositions.06","lesson":"prepositions","t":"order","a":["Vamos","al","aeropuerto"],"x":["van"]}
+{"id":"prepositions.07","lesson":"prepositions","t":"order","a":["Es","el","carro","de","Ana"],"x":["la"]}
+{"id":"prepositions.08","lesson":"prepositions","t":"order","a":["Llamo","a","mi","mamá"],"x":["de"]}
+{"id":"prepositions.09","lesson":"prepositions","t":"fill","q":"Veo __ Lucía.","o":["de","en","con"],"a":["a"]}
+{"id":"prepositions.10","lesson":"prepositions","t":"fill","q":"Gracias __ la ayuda.","o":["para","de","a"],"a":["por"]}
+{"id":"prepositions.11","lesson":"prepositions","t":"fill","q":"Voy __ trabajo en metro.","o":["a el","en","del"],"a":["al"]}
+{"id":"prepositions.12","lesson":"prepositions","t":"type","a":["Viajamos en autobús.","Nosotros viajamos en autobús.","Viajamos en camión.","Nosotros viajamos en camión."],"x":["viajan"]}
+{"id":"prepositions.13","lesson":"prepositions","t":"type","a":["Es la maleta de Lucía."],"x":["el"]}
+{"id":"prepositions.14","lesson":"prepositions","t":"type","a":["Estudio español para viajar.","Yo estudio español para viajar."],"x":["por"]}
+{"id":"muy-mucho.01","lesson":"muy-mucho","t":"mc","o":["muy grande","mucho grande","mucha grande","grande muy"]}
+{"id":"muy-mucho.02","lesson":"muy-mucho","t":"mc","o":["Tengo mucha hambre.","Tengo muy hambre.","Estoy muy hambre.","Soy mucha hambre."]}
+{"id":"muy-mucho.03","lesson":"muy-mucho","t":"mc","o":["Trabajas mucho.","Trabajas muy.","Trabajas mucha.","Muy trabajas."]}
+{"id":"muy-mucho.04","lesson":"muy-mucho","t":"mc","o":["Hay mucha gente aquí.","Hay mucho gente aquí.","Hay muy gente aquí.","Hay muchas gente aquí."]}
+{"id":"muy-mucho.05","lesson":"muy-mucho","t":"mc","o":["Hace mucho calor hoy.","Hace muy calor hoy.","Es muy calor hoy.","Está mucho calor hoy."]}
+{"id":"muy-mucho.06","lesson":"muy-mucho","t":"order","a":["Tengo","muchos","amigos"],"x":["muchas"]}
+{"id":"muy-mucho.07","lesson":"muy-mucho","t":"order","a":["Tengo","mucha","hambre"],"x":["mucho","muy"]}
+{"id":"muy-mucho.08","lesson":"muy-mucho","t":"order","a":["Estamos","muy","cansados"],"x":["mucho","cansado"]}
+{"id":"muy-mucho.09","lesson":"muy-mucho","t":"fill","q":"Hace __ frío.","o":["muy","mucha","muchos"],"a":["mucho"]}
+{"id":"muy-mucho.10","lesson":"muy-mucho","t":"fill","q":"Hay __ personas en la parada.","o":["mucho","muy","muchos"],"a":["muchas"]}
+{"id":"muy-mucho.11","lesson":"muy-mucho","t":"fill","q":"Mi abuela es __ simpática.","o":["mucho","mucha","muchas"],"a":["muy"]}
+{"id":"muy-mucho.12","lesson":"muy-mucho","t":"type","a":["Tengo mucha sed","Yo tengo mucha sed"],"x":["mucho","muy"]}
+{"id":"muy-mucho.13","lesson":"muy-mucho","t":"type","a":["Hace mucho frío en Chicago","En Chicago hace mucho frío"],"x":["muy","hay"]}
+{"id":"muy-mucho.14","lesson":"muy-mucho","t":"type","a":["Trabajas mucho","Tú trabajas mucho"],"x":["trabaja","muy"]}
+{"id":"connectors.01","lesson":"connectors","t":"mc","o":["¿Por qué?","¿Porque?","¿Pero?","¿Qué por?"]}
+{"id":"connectors.02","lesson":"connectors","t":"mc","o":["siete u ocho","siete o ocho","siete e ocho","siete y ocho"]}
+{"id":"connectors.03","lesson":"connectors","t":"mc","o":["padre e hijo","padre y hijo","padre u hijo","padre o hijo"]}
+{"id":"connectors.04","lesson":"connectors","t":"mc","o":["No me gusta el café. A mí tampoco.","No me gusta el café. A mí también.","No me gusta el café. A mí también no.","No me gusta el café. Yo no también."]}
+{"id":"connectors.05","lesson":"connectors","t":"mc","o":["Tengo frío, pero estoy bien.","Estoy frío, pero estoy bien.","Tengo frío, porque estoy bien.","Tengo frío, perro estoy bien."]}
+{"id":"connectors.06","lesson":"connectors","t":"order","a":["Tengo","frío","pero","estoy","bien"],"x":["tiene"]}
+{"id":"connectors.07","lesson":"connectors","t":"order","a":["Ana","y","Carlos","son","de","Monterrey"],"x":["es","e"]}
+{"id":"connectors.08","lesson":"connectors","t":"order","a":["Por qué","estudias","español"],"x":["Porque","estudia"]}
+{"id":"connectors.09","lesson":"connectors","t":"fill","q":"¿Quieres agua __ jugo?","o":["u","y","e"],"a":["o"]}
+{"id":"connectors.10","lesson":"connectors","t":"fill","q":"Trabajo aquí __ me gusta.","o":["por qué","pero","por"],"a":["porque"],"strict":true}
+{"id":"connectors.11","lesson":"connectors","t":"fill","q":"Diego __ Isabel son hermanos.","o":["y","o","u"],"a":["e"]}
+{"id":"connectors.12","lesson":"connectors","t":"type","a":["Estamos cansadas pero contentas","Nosotras estamos cansadas pero contentas","Estamos cansadas pero felices","Nosotras estamos cansadas pero felices"],"x":["cansados","contentos"]}
+{"id":"connectors.13","lesson":"connectors","t":"type","a":["¿Por qué vives en Miami?","¿Por qué vives tú en Miami?","¿Por qué tú vives en Miami?"],"x":["vive","porque"],"strict":true}
+{"id":"connectors.14","lesson":"connectors","t":"type","a":["Estudio español porque me gusta","Yo estudio español porque me gusta"],"x":["estudia","por"]}
+{"id":"directions.01","lesson":"directions","t":"mc","o":["Gire a la izquierda.","Gire a la derecha.","Siga derecho.","Cruce a la izquierdo."]}
+{"id":"directions.02","lesson":"directions","t":"mc","o":["derecho","derecha","a la derecha","izquierda"]}
+{"id":"directions.03","lesson":"directions","t":"mc","o":["¿Está lejos?","¿Está cerca?","¿Está largo?","¿Hay lejos?"]}
+{"id":"directions.04","lesson":"directions","t":"mc","o":["enfrente del mercado","enfrente de el mercado","enfrente el mercado","enfrente la mercado"]}
+{"id":"directions.05","lesson":"directions","t":"mc","o":["¿Dónde están los baños?","¿Dónde está los baños?","¿Dónde son los baños?","¿Dónde hay los baños?"]}
+{"id":"directions.06","lesson":"directions","t":"order","a":["La","farmacia","está","a","la","derecha"],"x":["el","están"]}
+{"id":"directions.07","lesson":"directions","t":"order","a":["Los","baños","están","a","la","izquierda"],"x":["Las","está"]}
+{"id":"directions.08","lesson":"directions","t":"order","a":["El","banco","está","al lado","del","hotel"],"x":["a","de"]}
+{"id":"directions.09","lesson":"directions","t":"fill","q":"La parada está a la __.","o":["izquierdo","derecho","derecha"],"a":["izquierda"]}
+{"id":"directions.10","lesson":"directions","t":"fill","q":"El hotel está __ lado del banco.","o":["a el","a la","el"],"a":["al"]}
+{"id":"directions.11","lesson":"directions","t":"fill","q":"Disculpe, ¿dónde __ los taxis?","o":["está","son","hay"],"a":["están"]}
+{"id":"directions.12","lesson":"directions","t":"type","a":["La farmacia está muy cerca"],"x":["el","están"]}
+{"id":"directions.13","lesson":"directions","t":"type","a":["¿Dónde está la parada de autobús?","¿Dónde está la parada del autobús?","¿Dónde está la parada de autobuses?"],"x":["el","están"]}
+{"id":"directions.14","lesson":"directions","t":"type","a":["Vivimos lejos del aeropuerto","Nosotros vivimos lejos del aeropuerto"],"x":["vive","de"]}
+{"id":"ir-a.01","lesson":"ir-a","t":"mc","o":["Van a viajar.","Va a viajar.","Van viajar.","Van a viajan."]}
+{"id":"ir-a.02","lesson":"ir-a","t":"mc","o":["Voy a comprar los boletos.","Voy comprar los boletos.","Voy a compro los boletos.","Va a comprar los boletos."]}
+{"id":"ir-a.03","lesson":"ir-a","t":"mc","o":["la próxima semana","el próximo semana","la próximo semana","la semana que próxima"]}
+{"id":"ir-a.04","lesson":"ir-a","t":"mc","o":["¡Vamos a comer!","¡Vamos comer!","¡Van a comer!","¡Voy a comer!"]}
+{"id":"ir-a.05","lesson":"ir-a","t":"mc","o":["¿Qué vas a hacer el sábado?","¿Qué vas a hacer en sábado?","¿Qué vas hacer el sábado?","¿Qué va a hacer el sábado?"]}
+{"id":"ir-a.06","lesson":"ir-a","t":"order","a":["Vamos","a","tomar","el","autobús"],"x":["van"]}
+{"id":"ir-a.07","lesson":"ir-a","t":"order","a":["Mis","padres","van","a","comprar","los","boletos"],"x":["va","mi"]}
+{"id":"ir-a.08","lesson":"ir-a","t":"order","a":["Ella","va","a","comprar","un","boleto"],"x":["voy","una"]}
+{"id":"ir-a.09","lesson":"ir-a","t":"fill","q":"Mañana __ a viajar a Cancún.","o":["va","vas","vamos"],"a":["voy"]}
+{"id":"ir-a.10","lesson":"ir-a","t":"fill","q":"¿Ustedes van __ comer aquí?","o":["de","en","por"],"a":["a"]}
+{"id":"ir-a.11","lesson":"ir-a","t":"fill","q":"Ana va a __ un carro.","o":["compra","compro","compramos"],"a":["comprar"]}
+{"id":"ir-a.12","lesson":"ir-a","t":"type","a":["Voy a viajar a México","Yo voy a viajar a México"],"x":["va","viajo"]}
+{"id":"ir-a.13","lesson":"ir-a","t":"type","a":["Vamos a comer en el aeropuerto","Nosotros vamos a comer en el aeropuerto"],"x":["van","comemos"]}
+{"id":"ir-a.14","lesson":"ir-a","t":"type","a":["¿Va a tomar el autobús?","¿Usted va a tomar el autobús?","¿Va usted a tomar el autobús?"],"x":["vas","toma"]}
+{"id":"lo-la.01","lesson":"lo-la","t":"mc","o":["¿El suéter? Lo compro.","¿El suéter? La compro.","¿El suéter? Compro lo.","¿El suéter? Compro él."]}
+{"id":"lo-la.02","lesson":"lo-la","t":"mc","o":["¿Las llaves? No las tengo.","¿Las llaves? No los tengo.","¿Las llaves? Las no tengo.","¿Las llaves? No tengo las."]}
+{"id":"lo-la.03","lesson":"lo-la","t":"mc","o":["Lo llamo todos los días.","Llamo él todos los días.","La llamo todos los días.","Llamo lo todos los días."]}
+{"id":"lo-la.04","lesson":"lo-la","t":"mc","o":["Me la llevo.","Me lo llevo.","Me llevo la.","La me llevo."]}
+{"id":"lo-la.05","lesson":"lo-la","t":"mc","o":["Voy a comprarla.","Voy a la comprar.","Voy a comprar la.","Voy comprarla."]}
+{"id":"lo-la.06","lesson":"lo-la","t":"order","a":["No","los","tengo"],"x":["las","lo"]}
+{"id":"lo-la.07","lesson":"lo-la","t":"order","a":["La","voy","a","comprar"],"x":["Lo"]}
+{"id":"lo-la.08","lesson":"lo-la","t":"order","a":["Sí","la","llamo"],"x":["lo","llama"]}
+{"id":"lo-la.09","lesson":"lo-la","t":"fill","q":"¿Los boletos? Sí, __ tengo.","o":["las","lo","la"],"a":["los"]}
+{"id":"lo-la.10","lesson":"lo-la","t":"fill","q":"¿La cuenta? __ pago yo.","o":["Lo","Las","Los"],"a":["La"]}
+{"id":"lo-la.11","lesson":"lo-la","t":"fill","q":"¿Las camisas? Voy a __.","o":["comprarlos","comprar las","comprarla"],"a":["comprarlas"]}
+{"id":"lo-la.12","lesson":"lo-la","t":"type","a":["Me los llevo"],"x":["las","lo"]}
+{"id":"lo-la.13","lesson":"lo-la","t":"type","a":["La voy a comprar","Voy a comprarla","Yo la voy a comprar","Yo voy a comprarla"],"x":["lo","comprarlo"]}
+{"id":"lo-la.14","lesson":"lo-la","t":"type","a":["No las tenemos","Nosotros no las tenemos"],"x":["los","tienen"]}
+{"id":"preterite.01","lesson":"preterite","t":"mc","o":["Ayer trabajé.","Ayer trabajo.","Ayer trabajó.","Ayer trabaje."],"strict":true}
+{"id":"preterite.02","lesson":"preterite","t":"mc","o":["Comieron tacos.","Comió tacos.","Comen tacos.","Comimos tacos."]}
+{"id":"preterite.03","lesson":"preterite","t":"mc","o":["¿Qué hiciste el sábado?","¿Qué hizo el sábado?","¿Qué haces el sábado?","¿Qué hice el sábado?"]}
+{"id":"preterite.04","lesson":"preterite","t":"mc","o":["Carlos habló conmigo.","Carlos hablo conmigo.","Carlos hablé conmigo.","Carlos habla conmigo."],"strict":true}
+{"id":"preterite.05","lesson":"preterite","t":"mc","o":["la semana pasada","el semana pasado","la semana pasado","la semana próxima"]}
+{"id":"preterite.06","lesson":"preterite","t":"order","a":["Mis","padres","vivieron","en","Guadalajara"],"x":["vivió","mi"]}
+{"id":"preterite.07","lesson":"preterite","t":"order","a":["Comí","en","una","taquería"],"x":["comió","un"]}
+{"id":"preterite.08","lesson":"preterite","t":"order","a":["Trabajaste","mucho"],"x":["trabajó"]}
+{"id":"preterite.09","lesson":"preterite","t":"fill","q":"Ayer Ana __ con su jefe.","o":["hablo","hablé","habla"],"a":["habló"],"strict":true}
+{"id":"preterite.10","lesson":"preterite","t":"fill","q":"El fin de semana pasado __ a Puebla.","o":["fue","voy","fuiste"],"a":["fui"]}
+{"id":"preterite.11","lesson":"preterite","t":"fill","q":"¿Ustedes __ en la oficina ayer?","o":["comió","comimos","comen"],"a":["comieron"]}
+{"id":"preterite.12","lesson":"preterite","t":"type","a":["Hablé con mi mamá ayer","Ayer hablé con mi mamá","Yo hablé con mi mamá ayer","Ayer yo hablé con mi mamá","Hablé ayer con mi mamá","Yo hablé ayer con mi mamá"],"x":["habló","hablo"],"strict":true}
+{"id":"preterite.13","lesson":"preterite","t":"type","a":["Compramos los boletos","Nosotros compramos los boletos"],"x":["compraron","las"]}
+{"id":"preterite.14","lesson":"preterite","t":"type","a":["Tuve una reunión ayer","Ayer tuve una reunión","Yo tuve una reunión ayer","Ayer yo tuve una reunión"],"x":["tuvo","un"]}
+{"id":"se.01","lesson":"se","t":"mc","o":["Aquí se habla español.","Aquí se hablan español.","Aquí se hablo español.","Aquí habla se español."]}
+{"id":"se.02","lesson":"se","t":"mc","o":["Se venden carros.","Se vende carros.","Se venden carro.","Venden se carros."]}
+{"id":"se.03","lesson":"se","t":"mc","o":["Aquí no se puede pagar con tarjeta.","Aquí se no puede pagar con tarjeta.","Aquí no puede se pagar con tarjeta.","Aquí no se puedo pagar con tarjeta."]}
+{"id":"se.04","lesson":"se","t":"mc","o":["¿Dónde se compran los boletos?","¿Dónde se compra los boletos?","¿Dónde se compran el boleto?","¿Dónde compran se los boletos?"]}
+{"id":"se.05","lesson":"se","t":"mc","o":[null,null,null,null]}
+{"id":"se.06","lesson":"se","t":"order","a":["Se","venden","casas"],"x":["vende"]}
+{"id":"se.07","lesson":"se","t":"order","a":["Dónde","se","compran","los","boletos"],"x":["compra","las"]}
+{"id":"se.08","lesson":"se","t":"order","a":["No","se","puede","entrar"],"x":["puedo"]}
+{"id":"se.09","lesson":"se","t":"fill","q":"¿Cómo se __ esto en español?","o":["dices","digo","dicen"],"a":["dice"]}
+{"id":"se.10","lesson":"se","t":"fill","q":"Se __ tortillas.","o":["vende","vendo","vendes"],"a":["venden"]}
+{"id":"se.11","lesson":"se","t":"fill","q":"En esta tienda __ habla inglés.","o":["le","lo","me"],"a":["se"]}
+{"id":"se.12","lesson":"se","t":"type","a":["Aquí se habla español","Se habla español aquí"],"x":["hablan"]}
+{"id":"se.13","lesson":"se","t":"type","a":["Se rentan apartamentos","Se rentan departamentos"],"x":["renta"]}
+{"id":"se.14","lesson":"se","t":"type","a":["¿Dónde se compran tortillas?","¿Dónde se compran las tortillas?"],"x":["compra"]}
+{"id":"caribbean.01","lesson":"caribbean","t":"mc","o":["Los niños están aquí.","El niño está aquí.","Lo niño está aquí.","Los niño está aquí."]}
+{"id":"caribbean.02","lesson":"caribbean","t":"mc","o":["Estoy cansado.","Estoy cansada.","Estoy cansando.","Estoy en casa."]}
+{"id":"caribbean.03","lesson":"caribbean","t":"mc","o":["¿Qué quieres?","¿Qué quiere?","¿Qué tú quiere?","¿Qué quieren?"]}
+{"id":"caribbean.04","lesson":"caribbean","t":"mc","o":[null,null,null,null]}
+{"id":"caribbean.05","lesson":"caribbean","t":"mc","o":[null,null,null,null]}
+{"id":"caribbean.06","lesson":"caribbean","t":"order","a":["Qué","tú","quieres"],"x":["quiere"]}
+{"id":"caribbean.07","lesson":"caribbean","t":"order","a":["Cómo","tú","estás"],"x":["está"]}
+{"id":"caribbean.08","lesson":"caribbean","t":"order","a":["Voy","a","tomar","la","guagua"],"x":["el","va"]}
+{"id":"caribbean.09","lesson":"caribbean","t":"fill","q":"¿Qué tú __?","o":["quiere","quiero","quieren"],"a":["quieres"]}
+{"id":"caribbean.10","lesson":"caribbean","t":"fill","q":"Voy al __ a comprar pan.","o":["guagua","chin","vaina"],"a":["colmado"]}
+{"id":"caribbean.11","lesson":"caribbean","t":"fill","q":"Los niños __ cansados.","o":["está","son","es"],"a":["están"]}
+{"id":"caribbean.12","lesson":"caribbean","t":"type","a":["¿Cómo tú estás?","¿Cómo estás?","¿Cómo estás tú?"],"x":["está"],"strict":true}
+{"id":"caribbean.13","lesson":"caribbean","t":"type","a":["¿Qué tú quieres?","¿Qué quieres?","¿Qué quieres tú?"],"x":["quiere"],"strict":true}
+{"id":"caribbean.14","lesson":"caribbean","t":"type","a":["Estoy muy cansado","Yo estoy muy cansado"],"x":["cansao","cansada"]}

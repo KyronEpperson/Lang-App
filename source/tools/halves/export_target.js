@@ -52,6 +52,7 @@ const unknown = Object.keys(c).filter(k => !TABLES.includes(k) && !FLAGS.include
 if (unknown.length) { console.error('export_target: pack field(s) not mapped: ' + unknown.join(', ') + '. Map them in export_target.js and assemble.js first.'); process.exit(1); }
 if (c.native !== 'en' || c.target !== TG) { console.error('export_target: expected an en-' + TG + ' pack'); process.exit(1); }
 const pack = {}; Object.keys(c).forEach(k => { if (FLAGS.includes(k)) pack[k] = c[k]; });
+if (TC.useCourse) TC.useCourse(c); /* inventory-based targets (lib.js TARGETS es; targets/_inventory.js) learn the course's own target text before anything is classified */
 
 /* ---------- decks & cards ---------- */
 const deckNames = Object.keys(c.DECKS);
@@ -165,7 +166,7 @@ c.LESSONS.forEach(l => {
    from its key answer (check: the option at a; mc: o[0], the correct one in tools/target packs): all its options are target-side or all are prose, never
    split. Items whose distractors look different from their key are listed for review (optReview). Hints are never split (a hint is a mixed native field). */
 const BYMARKS = TC.by === 'marks', optReview = [];
-const itemIsT = (opts, key, id) => { const k = TC.isValue(opts[key]); const odd = opts.filter((o, j) => j !== key && TC.isValue(o) !== k); if (odd.length) optReview.push(id + ' (' + (k ? 'target' : 'prose') + ' by its key «' + opts[key] + '»; ' + odd.map(o => '«' + o + '»').join(' ') + ' would classify the other way)'); return k; };
+const itemIsT = (opts, key, id) => { const k = TC.itemIsValue ? TC.itemIsValue(opts, key) : TC.isValue(opts[key]); /* itemIsValue: inventory targets (targets/_inventory.js) */ const odd = opts.filter((o, j) => j !== key && TC.isValue(o) !== k); if (odd.length) optReview.push(id + ' (' + (k ? 'target' : 'prose') + ' by its key «' + opts[key] + '»; ' + odd.map(o => '«' + o + '»').join(' ') + ' would classify the other way)'); return k; };
 const isT = TC.isValue;
 const tChk = [], nChk = [];
 Object.entries(c.CHECKS).forEach(([lid, list]) => list.forEach((ch, i) => {
@@ -254,7 +255,7 @@ if (!fs.existsSync(path.join(N, 'ui.json'))) L.writeJSON(path.join(N, 'ui.json')
 if (BYMARKS) {
   W(T, 'marks', marks);
   const tsv = x => String(x).replace(/[\t\n]/g, ' ');
-  fs.writeFileSync(path.join(N, 'unmarked.tsv'), '# ' + TC.name + ' words with a diacritic outside every mark (export_target.js ' + TG + '; not protected by validate.js until the source marks them). Columns: file, id, field, words, text\n' +
+  fs.writeFileSync(path.join(N, 'unmarked.tsv'), '# ' + (TC.unmarkedNote || TC.name + ' words with a diacritic outside every mark') + ' (export_target.js ' + TG + '; not protected by validate.js until the source marks them). Columns: file, id, field, words, text\n' +
     unmarkedRows.map(r => r.map(tsv).join('\t')).join('\n') + (unmarkedRows.length ? '\n' : '') + optReview.map(x => '# option classes to review: ' + tsv(x)).join('\n') + (optReview.length ? '\n' : ''));
 }
 const optCount = rows => rows.reduce((a, r) => { (r.o || []).forEach(o => { a[o == null ? 'prose' : 'target']++; }); return a; }, { target: 0, prose: 0 });

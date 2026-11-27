@@ -1,0 +1,111 @@
+{"id":"es.g001","card":"es.c0001","a":"¿Me dices la hora?","b":"Sí, son las cinco."}
+{"id":"es.g002","card":"es.c0005","a":"¿Dónde está la llave?","b":"Está en la mesa."}
+{"id":"es.g003","card":"es.c0008","a":"¿Cómo se llama el perro?","b":"Se llama Max."}
+{"id":"es.g004","card":"es.c0019","a":"Buenos días, señora.","b":"Buenos días. ¿En qué le puedo ayudar?"}
+{"id":"es.g005","card":"es.c0022","a":"Hola, Diego. ¿Cómo estás?","b":"Muy bien, ¿y tú?"}
+{"id":"es.g006","card":"es.c0023","a":"Buenas tardes, don Javier. ¿Cómo está usted?","b":"Bien, gracias. ¿Y usted?"}
+{"id":"es.g007","card":"es.c0025","a":"Te presento a mi amiga Lucía.","b":"Mucho gusto, Lucía."}
+{"id":"es.g008","card":"es.c0038","a":"Hola, ¿cómo te llamas?","b":"Me llamo Mateo, ¿y tú?"}
+{"id":"es.g009","card":"es.c0039","a":"Buenos días, ¿cómo se llama usted?","b":"Me llamo Alejandro Ruiz."}
+{"id":"es.g010","card":"es.c0041","a":"¿De dónde eres, Valeria?","b":"Soy de Monterrey, pero vivo en Puebla."}
+{"id":"es.g011","card":"es.c0047","a":"¿A qué te dedicas?","b":"Soy enfermera. Trabajo en un hospital."}
+{"id":"es.g012","card":"es.c0055","a":"¿Tienes hermanos?","b":"Sí, tengo una hermana y dos hermanos."}
+{"id":"es.g013","card":"es.c0057","a":"¿Tus papás viven aquí?","b":"No, mis papás viven en Puebla."}
+{"id":"es.g014","card":"es.c0062","a":"Él es mi esposo, Javier.","b":"Mucho gusto, Javier."}
+{"id":"es.g015","card":"es.c0079","a":"Oye, ¿qué hora es?","b":"Son las cuatro y diez."}
+{"id":"es.g016","card":"es.c0084","a":"Disculpe, ¿a qué hora abren mañana?","b":"Abrimos a las diez."}
+{"id":"es.g017","card":"es.c0085","a":"¿Cuánto cuesta este sombrero?","b":"Cuesta trescientos pesos."}
+{"id":"es.g018","card":"es.c0089","a":"¿Nos vemos el lunes?","b":"Sí, el lunes a las diez."}
+{"id":"es.g019","card":"es.c0092","a":"¿Qué día es hoy?","b":"Hoy es jueves."}
+{"id":"es.g020","card":"es.c0100","a":"¿Cuándo es tu cumpleaños?","b":"Mi cumpleaños es el ocho de marzo."}
+{"id":"es.g021","card":"es.c0108","a":"¿Qué vas a comer?","b":"Unos tamales y un café."}
+{"id":"es.g022","card":"es.c0114","a":"¿Algo de tomar?","b":"Un vaso de agua, por favor."}
+{"id":"es.g023","card":"es.c0118","a":"¿Y para usted?","b":"Para mí, una quesadilla de queso."}
+{"id":"es.g024","card":"es.c0132","a":"¿Le puedo ayudar en algo?","b":"Solo estoy viendo, gracias."}
+{"id":"es.g025","card":"es.c0134","a":"¿Tiene una talla más grande?","b":"Sí, aquí tiene una grande."}
+{"id":"es.g026","card":"es.c0139","a":"¿Qué tal la camisa?","b":"Me encanta. Me la llevo."}
+{"id":"es.g027","card":"es.c0147","a":"¿Vives en una casa?","b":"No, vivo en un apartamento en el centro."}
+{"id":"es.g028","card":"es.c0150","a":"¿Hay leche para el café?","b":"No, no hay leche. Voy a la tienda."}
+{"id":"es.g029","card":"es.c0153","a":"¿A qué hora te levantas?","b":"Me levanto a las siete, ¿y tú?"}
+{"id":"es.g030","card":"es.c0169","a":"Disculpe, ¿dónde hay un banco?","b":"Hay uno en la esquina, al lado de la farmacia."}
+{"id":"es.g031","card":"es.c0174","a":"Disculpe, ¿cómo llego al museo?","b":"Siga derecho dos cuadras y gire a la derecha."}
+{"id":"es.g032","card":"es.c0175","a":"Perdón, estoy perdido. ¿Dónde está la estación?","b":"Está muy cerca. Cruce la calle y ahí está."}
+{"id":"es.g033","card":"es.c0184","a":"Un boleto de ida y vuelta, por favor.","b":"Claro. Son trescientos pesos."}
+{"id":"es.g034","card":"es.c0195","a":"¿Está libre este asiento?","b":"Sí, siéntese."}
+{"id":"es.g035","card":"es.c0192","a":"¿El desayuno está incluido?","b":"Sí, es de siete a diez."}
+{"id":"es.g036","card":"es.c0203","a":"¿Qué te pasa, Diego?","b":"Tengo fiebre y me duele todo."}
+{"id":"es.g037","card":"es.c0202","a":"¿Quieres caminar más?","b":"No, gracias. Me duelen los pies."}
+{"id":"es.g038","card":"es.c0211","a":"¿Cómo te sientes hoy?","b":"Mucho mejor, gracias."}
+{"id":"es.g039","card":"es.c0219","a":"¿Tomamos un café a las diez y media?","b":"No puedo, tengo una reunión a las diez."}
+{"id":"es.g040","card":"es.c0220","a":"¿Vas a la oficina todos los días?","b":"No, trabajo desde casa los lunes y los viernes."}
+{"id":"es.g041","card":"es.c0221","a":"Maestra, ¿cómo se dice esto en español?","b":"Se dice el lápiz."}
+{"id":"es.g042","card":"es.c0236","a":"¿Vamos al cine esta noche?","b":"Hoy no, tengo sueño."}
+{"id":"es.g043","card":"es.c0241","a":"¿Qué te pasa, Lucía?","b":"Estoy preocupada por el examen de mañana."}
+{"id":"es.g044","card":"es.c0244","a":"¿Estás listo? Ya nos vamos.","b":"Sí, estoy listo."}
+{"id":"es.g045","card":"es.c0254","a":"Me gustan mucho los tamales.","b":"¡A mí también!"}
+{"id":"es.g046","card":"es.c0259","a":"¿Qué hiciste el fin de semana?","b":"Fui a la playa con mi familia."}
+{"id":"es.g047","card":"es.c0262","a":"¿Quieres ir a la playa el sábado?","b":"¡Sí! Me encanta la playa."}
+{"id":"es.g048","card":"es.c0271","a":"¿Dónde trabajas, Mateo?","b":"Trabajo en un hospital en Monterrey."}
+{"id":"es.g049","card":"es.c0276","a":"¿Con quién vives?","b":"Vivo con mi hermana y su perro."}
+{"id":"es.g050","card":"es.c0278","a":"¿Café o té?","b":"Café, por favor, sin azúcar."}
+{"id":"es.g051","card":"es.c0287","a":"¿Por qué no cantas?","b":"Porque me da vergüenza."}
+{"id":"es.g052","card":"es.c0297","a":"¿Comemos ya?","b":"Sí, por favor. Tengo mucha hambre."}
+{"id":"es.g053","card":"es.c0285","a":"Tengo frío. ¿Cierras la ventana?","b":"Claro, ahorita la cierro."}
+{"id":"es.g054","card":"es.c0306","a":"Yanelis, ¿qué tú quieres del colmado?","b":"Un jugo de chinola, por favor."}
+{"id":"es.g055","card":"es.c0302","a":"¿Cómo vas al trabajo?","b":"Tomo la guagua en la esquina."}
+{"id":"es.g056","card":"es.c0313","a":"Wilson, ¿qué tal tu carro nuevo?","b":"¡Está nítido!"}
+{"id":"es.g057","card":"es.c0317","a":"Gracias por la comida. Todo estuvo delicioso.","b":"Me da mucho gusto. ¿Quieres más?"}
+{"id":"es.g058","card":"es.c0318","a":"¡Cocinas muy bien, Mariana!","b":"Gracias, es la receta de mi mamá."}
+{"id":"es.g059","card":"es.c0319","a":"Terminé el proyecto a tiempo.","b":"¡Bien hecho!"}
+{"id":"es.g060","card":"es.c0321","a":"¿Y si vamos al parque el sábado?","b":"¡Qué buena idea!"}
+{"id":"es.g061","card":"es.c0322","a":"Te ayudo con las bolsas.","b":"Gracias, eres muy amable."}
+{"id":"es.g062","card":"es.c0326","a":"¿Qué tal la chamarra?","b":"Te queda muy bien."}
+{"id":"es.g063","card":"es.c0328","a":"Hablas muy bien español.","b":"Gracias, pero todavía me falta mucho."}
+{"id":"es.g064","card":"es.c0329","a":"¡Qué bonita casa tienes!","b":"Gracias, qué amable."}
+{"id":"es.g065","card":"es.c0354","a":"Me llamo Valeria.","b":"Tienes un nombre muy bonito."}
+{"id":"es.g066","card":"es.c0351","a":"¿Qué tal me veo?","b":"¡Qué guapa! Me encanta ese vestido."}
+{"id":"es.g067","card":"es.c0353","a":"Hola, Mateo. Perdón, llego tarde.","b":"No pasa nada. Te ves guapísima hoy."}
+{"id":"es.g068","card":"es.c0352","a":"Estás muy guapo con esa camisa.","b":"Gracias, la compré ayer."}
+{"id":"es.g069","card":"es.c0364","a":"¿Por qué sonríes?","b":"Porque me haces reír mucho."}
+{"id":"es.g070","card":"es.c0369","a":"Me encanta tu sonrisa.","b":"Ay, gracias. Me da vergüenza."}
+{"id":"es.g071","card":"es.c0371","a":"Tienes unos ojos preciosos.","b":"Gracias, son como los de mi mamá."}
+{"id":"es.g072","card":"es.c0372","a":"Me pierdo en tus ojos.","b":"¡Ay, por favor! Eso es de película."}
+{"id":"es.g073","card":"es.c0378","a":"Te invito a cenar el viernes.","b":"¿Es una cita?"}
+{"id":"es.g074","card":"es.c0379","a":"Me la pasé muy bien contigo.","b":"Yo también. ¿Repetimos pronto?"}
+{"id":"es.g075","card":"es.c0380","a":"Me caes muy bien, Sofía.","b":"Tú también, Diego. Eres muy buena onda."}
+{"id":"es.g076","card":"es.c0382","a":"Tengo que decirte algo: me gustas.","b":"¿De verdad? Tú también me gustas."}
+{"id":"es.g077","card":"es.c0385","a":"¡Hola! Te extrañé.","b":"Yo también te extrañé. ¿Cómo estuvo tu viaje?"}
+{"id":"es.g078","card":"es.c0389","a":"¿Me das tu número?","b":"Claro, es el cinco cinco, dos tres…"}
+{"id":"es.g079","card":"es.c0390","a":"¿Estás libre el sábado?","b":"Sí, ¿por qué?"}
+{"id":"es.g080","card":"es.c0392","a":"¿Te puedo invitar un café mañana?","b":"¡Me encantaría! ¿A qué hora?"}
+{"id":"es.g081","card":"es.c0393","a":"¿Quieres salir conmigo el sábado?","b":"Claro que sí. ¿Adónde vamos?"}
+{"id":"es.g082","card":"es.c0394","a":"Eres la chica más bonita de la fiesta.","b":"¡Ay, qué coqueto!"}
+{"id":"es.g083","card":"es.c0395","a":"Tienes una sonrisa preciosa.","b":"Eso se lo dices a todas."}
+{"id":"es.g084","card":"es.c0397","a":"¿Quieres salir conmigo el viernes?","b":"Gracias, pero no estoy interesada. Eres muy amable."}
+{"id":"es.g085","card":"es.c0398","a":"Me gustas mucho, Lucía.","b":"Gracias por decírmelo. Prefiero que seamos amigos."}
+{"id":"es.g086","card":"es.c0396","a":"¿Te puedo invitar algo de tomar?","b":"Gracias, pero tengo novio."}
+{"id":"es.g087","card":"es.c0830","a":"¡Oye, Diego! ¿Vienes a la fiesta?","b":"¡Claro! Llego a las ocho."}
+{"id":"es.g088","card":"es.c0831","a":"¡Ay! Me duele el pie.","b":"¿Estás bien? Siéntate aquí."}
+{"id":"es.g089","card":"es.c0832","a":"La clase es a las nueve, no a las diez.","b":"¡Ah, ya entiendo! Gracias."}
+{"id":"es.g090","card":"es.c0833","a":"Mi hermana tiene un bebé.","b":"¡Oh, qué bonito! Felicidades."}
+{"id":"es.g091","card":"es.c0834","a":"¡Eh! Ese es mi asiento.","b":"Perdón, no lo vi."}
+{"id":"es.g092","card":"es.c0835","a":"Hablo cuatro idiomas.","b":"¡Vaya! Eso es increíble."}
+{"id":"es.g093","card":"es.c0836","a":"¿Crees que mañana hace sol?","b":"¡Ojalá! Quiero ir a la playa."}
+{"id":"es.g094","card":"es.c0837","a":"¡Cuidado! Viene un carro.","b":"¡Gracias! No lo vi."}
+{"id":"es.g095","card":"es.c0838","a":"¡Pasé el examen!","b":"¡Bravo! Muy bien hecho."}
+{"id":"es.g096","card":"es.c0839","a":"Hice los tacos yo solo.","b":"¡Órale! Están muy ricos."}
+{"id":"es.g097","card":"es.c0840","a":"¡Ándale, ya nos vamos!","b":"¡Ya voy, ya voy!"}
+{"id":"es.g098","card":"es.c0841","a":"El restaurante está cerrado hoy.","b":"¡Híjole! ¿Y ahora qué comemos?"}
+{"id":"es.g099","card":"es.c0842","a":"Ya llegamos. Son diez pisos.","b":"¡Uf! Estoy muy cansado."}
+{"id":"es.g100","card":"es.c0843","a":"¿Entonces giro a la derecha en la esquina?","b":"¡Ajá! Y después sigue derecho."}
+{"id":"es.g101","card":"es.c0844","a":"¡Achú!","b":"¡Salud!"}
+{"id":"es.g102","card":"es.c0845","a":"Mamá, él tiene mi pelota y no me la da.","b":"¡Basta, niños! A la cama."}
+{"id":"es.g103","card":"es.c0846","a":"¡Ups! Perdón, es tu café.","b":"No pasa nada."}
+{"id":"es.g104","card":"es.c0847","a":"Este es mi apartamento nuevo.","b":"¡Guau! ¡Qué grande!"}
+{"id":"es.g105","card":"es.c0848","a":"El boleto cuesta mil pesos.","b":"¡Caray! Es muy caro."}
+{"id":"es.g106","card":"es.c0849","a":"¡Ojo con el perro! Muerde.","b":"Gracias, no me acerco."}
+{"id":"es.g107","card":"es.c0850","a":"Mañana tengo un examen difícil.","b":"¡Ánimo! Vas a estar bien."}
+{"id":"es.g108","card":"es.c0851","a":"¡Aguas! El piso está mojado.","b":"¡Uy, gracias!"}
+{"id":"es.g109","card":"es.c0852","a":"¿Nos vemos a las seis en el café?","b":"¡Sale! Ahí nos vemos."}
+{"id":"es.g110","card":"es.c0853","a":"¿Quieres probar mi sopa de pescado?","b":"¡Guácala! No me gusta el pescado."}
+{"id":"es.g111","card":"es.c0854","a":"Dicen que mañana va a llover.","b":"¡Bah! Vamos a la playa de todos modos."}

@@ -1,0 +1,78 @@
+{"id":"sounds.k1","lesson":"sounds","o":[null,null,null,null],"a":0}
+{"id":"sounds.k2","lesson":"sounds","o":[null,null,null,null],"a":2}
+{"id":"sounds.k3","lesson":"sounds","o":[null,null,null,null],"a":3}
+{"id":"greetings.k1","lesson":"greetings","o":["¿Cómo estás?","¿Cómo está usted?","¿Qué tal, amigo?","¿Cómo estás tú?"],"a":1}
+{"id":"greetings.k2","lesson":"greetings","o":[null,null,null,null],"a":1}
+{"id":"greetings.k3","lesson":"greetings","o":["Me llamo es Carlos.","Mi llamo Carlos.","Me llamo Carlos.","Yo llamo Carlos."],"a":2}
+{"id":"gender.k1","lesson":"gender","o":["el día","la día","la dío","los día"],"a":0}
+{"id":"gender.k2","lesson":"gender","o":[null,null,null,null],"a":1}
+{"id":"gender.k3","lesson":"gender","o":["las ciudads","los ciudades","las ciudades","la ciudades"],"a":2}
+{"id":"articles.k1","lesson":"articles","o":["Me gusta pollo.","Me gusta el pollo.","Me gusta un pollo.","Me gusta la pollo."],"a":1}
+{"id":"articles.k2","lesson":"articles","o":[null,null,null,null],"a":3}
+{"id":"articles.k3","lesson":"articles","o":[null,null,null,null],"a":2}
+{"id":"ser.k1","lesson":"ser","o":["Soy un enfermero.","Soy enfermero.","Yo es enfermero.","Soy enfermera."],"a":1}
+{"id":"ser.k2","lesson":"ser","o":["eres","soy","es","son"],"a":2}
+{"id":"ser.k3","lesson":"ser","o":[null,null,null,null],"a":0}
+{"id":"adjectives.k1","lesson":"adjectives","o":[null,null,null,null],"a":1}
+{"id":"adjectives.k2","lesson":"adjectives","o":["las camisas blancos","las blancas camisas","las camisas blancas","la camisas blanca"],"a":2}
+{"id":"adjectives.k3","lesson":"adjectives","o":["verde","rojo","negro","blanco"],"a":0}
+{"id":"estar.k1","lesson":"estar","o":["¿Dónde es el museo?","¿Dónde está el museo?","¿Dónde están el museo?","¿Dónde estoy el museo?"],"a":1}
+{"id":"estar.k2","lesson":"estar","o":["está","estamos","están","estás"],"a":2}
+{"id":"estar.k3","lesson":"estar","o":[null,null,null,null],"a":0}
+{"id":"ser-estar.k1","lesson":"ser-estar","o":[null,null,null,null],"a":1}
+{"id":"ser-estar.k2","lesson":"ser-estar","o":["La fiesta es en el hotel.","La fiesta está en el hotel.","La fiesta son en el hotel.","La fiesta estás en el hotel."],"a":0}
+{"id":"ser-estar.k3","lesson":"ser-estar","o":[null,null,null,null],"a":3}
+{"id":"hay.k1","lesson":"hay","o":["Son tres cuartos.","Hay tres cuartos.","Están tres cuartos.","Hayn tres cuartos."],"a":1}
+{"id":"hay.k2","lesson":"hay","o":["Hay el banco cerca.","El banco hay cerca.","Hay un banco cerca.","Un banco es cerca."],"a":2}
+{"id":"hay.k3","lesson":"hay","o":["El café está en el centro.","Hay el café en el centro.","El café hay en el centro.","Es el café en el centro."],"a":0}
+{"id":"present.k1","lesson":"present","o":["vive","viven","vivimos","vivemos"],"a":2}
+{"id":"present.k2","lesson":"present","o":["¿Usted habla inglés?","¿Usted hablas inglés?","¿Usted hablar inglés?","¿Usted hablan inglés?"],"a":0}
+{"id":"present.k3","lesson":"present","o":["Soy estudiando español.","Estudio español.","Estudiar español.","Estudia español."],"a":1}
+{"id":"questions.k1","lesson":"questions","o":["¿Hablar tú inglés?","¿Hablas inglés?","¿Habla tú inglés?","¿Hablo inglés?"],"a":1}
+{"id":"questions.k2","lesson":"questions","o":["¿Cuántos horas trabajas?","¿Cuánto horas trabajas?","¿Cuántas horas trabajas?","¿Cuánta horas trabajas?"],"a":2}
+{"id":"questions.k3","lesson":"questions","o":["¿Dónde vive Ana?","¿Dónde viven Ana?","¿Qué vive Ana?","¿Dónde hace Ana vivir?"],"a":0}
+{"id":"numbers.k1","lesson":"numbers","o":["Son las tres.","Es tres.","Es las tres.","Son tres horas."],"a":0}
+{"id":"numbers.k2","lesson":"numbers","o":["cien veinte","cien y veinte","ciento veinte","cientoveinte"],"a":2}
+{"id":"numbers.k3","lesson":"numbers","o":["¿Cuánto cuesta los zapatos?","¿Cuánto cuestan los zapatos?","¿Cuántos cuestan los zapatos?","¿Cuánto es cuestan los zapatos?"],"a":1}
+{"id":"possessives.k1","lesson":"possessives","o":["su libros","sus libros","sus libro","suyo libros"],"a":1}
+{"id":"possessives.k2","lesson":"possessives","o":["este camisa","esto camisa","esta camisa","está camisa"],"a":2}
+{"id":"possessives.k3","lesson":"possessives","o":["Nuestra abuela vive en Cancún.","Nuestro abuela vive en Cancún.","Nuestras abuela vive en Cancún.","Nosotros abuela vive en Cancún."],"a":0}
+{"id":"irregular.k1","lesson":"irregular","o":["Soy veinticinco años.","Estoy veinticinco años.","Tengo veinticinco años.","Tiene veinticinco años."],"a":2}
+{"id":"irregular.k2","lesson":"irregular","o":["Hoy hace frío.","Hoy es frío.","Hoy hace fría.","Hoy tengo frío."],"a":0}
+{"id":"irregular.k3","lesson":"irregular","o":["Vamos a la escuela.","Van a la escuela.","Va a la escuela.","Ir a la escuela."],"a":1}
+{"id":"stem-change.k1","lesson":"stem-change","o":["puedemos","podemos","pueden","podimos"],"a":1}
+{"id":"stem-change.k2","lesson":"stem-change","o":["¿Puede ayudarme?","¿Puedes ayudarme?","¿Pode ayudarme?","¿Puedo ayudarme?"],"a":0}
+{"id":"stem-change.k3","lesson":"stem-change","o":["Pregunto ayuda.","Pedir ayuda.","Pido ayuda.","Pide ayuda."],"a":2}
+{"id":"gustar.k1","lesson":"gustar","o":["Yo gusto la pizza.","Me gusta la pizza.","Me gusto la pizza.","Me gustan la pizza."],"a":1}
+{"id":"gustar.k2","lesson":"gustar","o":["Me gusta los tacos.","Me gustan tacos.","Me gustan los tacos.","Yo gusto los tacos."],"a":2}
+{"id":"gustar.k3","lesson":"gustar","o":["Nos gusta bailar.","Nos gustamos bailar.","Nosotros gustamos bailar.","Nos gustan bailar."],"a":0}
+{"id":"reflexive.k1","lesson":"reflexive","o":["Levanto a las siete.","Me levanto a las siete.","Se levanto a las siete.","Me levanta a las siete."],"a":1}
+{"id":"reflexive.k2","lesson":"reflexive","o":["¿Cómo llamas?","¿Cómo se llamas?","¿Cómo te llamas?","¿Cómo te llama?"],"a":2}
+{"id":"reflexive.k3","lesson":"reflexive","o":["Nos acostamos a las once.","Nos acuestamos a las once.","Se acostamos a las once.","Nosotros acostamos a las once."],"a":0}
+{"id":"prepositions.k1","lesson":"prepositions","o":["Veo Ana.","Veo a Ana.","Veo de Ana.","Veo en Ana."],"a":1}
+{"id":"prepositions.k2","lesson":"prepositions","o":["el carro de Ana","el Ana carro","el carro a Ana","la Ana carro"],"a":0}
+{"id":"prepositions.k3","lesson":"prepositions","o":["Gracias para todo.","Gracias de todo.","Gracias por todo.","Gracias con todo."],"a":2}
+{"id":"muy-mucho.k1","lesson":"muy-mucho","o":["Hace mucho frío.","Hace muy frío.","Es muy frío.","Está mucho frío."],"a":0}
+{"id":"muy-mucho.k2","lesson":"muy-mucho","o":["mucho","muy","mucha","muchos"],"a":2}
+{"id":"muy-mucho.k3","lesson":"muy-mucho","o":["Hablas mucho bien.","Hablas muy bien.","Hablas bien muy.","Hablas muy mucho."],"a":1}
+{"id":"connectors.k1","lesson":"connectors","o":["porque","¿Por qué?","pero","por"],"a":0}
+{"id":"connectors.k2","lesson":"connectors","o":["Sofía y Isabel","Sofía e Isabel","Sofía o Isabel","Sofía u Isabel"],"a":1}
+{"id":"connectors.k3","lesson":"connectors","o":["A mí también.","A mí también no.","A mí tampoco.","Yo no también."],"a":2}
+{"id":"directions.k1","lesson":"directions","o":["a la derecha","a la derecho","al derecho","a el derecha"],"a":0}
+{"id":"directions.k2","lesson":"directions","o":[null,null,null,null],"a":1}
+{"id":"directions.k3","lesson":"directions","o":["al lado de el banco","a lado del banco","al lado del banco","al lado el banco"],"a":2}
+{"id":"ir-a.k1","lesson":"ir-a","o":["Voy comer.","Voy a comer.","Voy a como.","Vas a comer."],"a":1}
+{"id":"ir-a.k2","lesson":"ir-a","o":["vamos a","van a","va a","voy a"],"a":0}
+{"id":"ir-a.k3","lesson":"ir-a","o":["¿Va a viajar en sábado?","¿Vas viajar el sábado?","¿Vas a viajas el sábado?","¿Vas a viajar el sábado?"],"a":3}
+{"id":"lo-la.k1","lesson":"lo-la","o":["Lo","La","Le","Los"],"a":1}
+{"id":"lo-la.k2","lesson":"lo-la","o":["Llamo ella.","Llamo la.","La llamo.","Lo llamo."],"a":2}
+{"id":"lo-la.k3","lesson":"lo-la","o":["Los voy a comprar. / Voy a comprarlos.","Voy a los comprar. / Voy comprarlos.","Las voy a comprar. / Voy a comprarlas.","Voy a comprar los. / Los voy comprar."],"a":0}
+{"id":"preterite.k1","lesson":"preterite","o":["hablo","habló","hablé","habla"],"a":1}
+{"id":"preterite.k2","lesson":"preterite","o":["Fui al cine.","Fue al cine.","Voy al cine.","Fuí al cine."],"a":0}
+{"id":"preterite.k3","lesson":"preterite","o":[null,null,null,null],"a":3}
+{"id":"se.k1","lesson":"se","o":[null,null,null,null],"a":0}
+{"id":"se.k2","lesson":"se","o":["Se vende casas.","Se venden casas.","Vende casas.","Se venden casa."],"a":1}
+{"id":"se.k3","lesson":"se","o":["¿Cómo se dices esto en español?","¿Cómo dice se esto en español?","¿Cómo se dice esto en español?","¿Cómo se decir esto en español?"],"a":2}
+{"id":"caribbean.k1","lesson":"caribbean","o":[null,null,null,null],"a":0}
+{"id":"caribbean.k2","lesson":"caribbean","o":["pulque","porque","pollo","parque"],"a":1}
+{"id":"caribbean.k3","lesson":"caribbean","o":[null,null,null,null],"a":2}
