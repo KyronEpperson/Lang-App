@@ -21,111 +21,111 @@ el café | ehl kah-FEH | the coffee | The accent mark moves the stress to the la
 `,
   "Greetings and courtesy": `
 Hola. | OH-lah | Hi. / Hello. | Fine with anyone, at any time of day.
-Buenos días. | BWEH-nohs DEE-ahs | Good morning. | Until about noon. buenos agrees with días (masculine plural).
-Buenas tardes. | BWEH-nahs TAHR-dehs | Good afternoon. | From about noon until dark.
-Buenas noches. | BWEH-nahs NOH-chehs | Good evening. / Good night. | After dark, both to say hello and to say goodbye.
-¿Cómo estás? | KOH-moh ehs-TAHS | How are you? | To a friend or family member (tú form).
-¿Cómo está usted? | KOH-moh ehs-TAH oos-TEHD | How are you? (formal) | To a stranger, an older person or a customer. To a friend: ¿Cómo estás?
-Bien, gracias, ¿y tú? | byehn GRAH-syahs ee too | Fine, thanks, and you? | To a stranger: ¿y usted?
-Mucho gusto. | MOO-choh GOOS-toh | Nice to meet you. | A woman can also say encantada; a man, encantado.
-Muchas gracias. | MOO-chahs GRAH-syahs | Thank you very much. | muchas agrees with gracias (feminine plural): never mucho gracias.
+Buenos días. | BWEH-nohh DEE-ahh | Good morning. | Until about noon. buenos agrees with días (masculine plural).
+Buenas tardes. | BWEH-nahh TAHR-dehh | Good afternoon. | From about noon until dark.
+Buenas noches. | BWEH-nahh NOH-chehh | Good evening. / Good night. | After dark, both to say hello and to say goodbye.
+¿Cómo estás? | KOH-moh ehh-TAHH | How are you? | To a friend or family member (tú form).
+¿Cómo está usted? | KOH-moh ehh-TAH ooh-TEHD | How are you? (formal) | To a stranger, an older person or a customer. To a friend: ¿Cómo estás?
+Bien, gracias, ¿y tú? | byehng GRAH-syahh ee too | Fine, thanks, and you? | To a stranger: ¿y usted?
+Mucho gusto. | MOO-choh GOOH-toh | Nice to meet you. | A woman can also say encantada; a man, encantado.
+Muchas gracias. | MOO-chahh GRAH-syahh | Thank you very much. | muchas agrees with gracias (feminine plural): never mucho gracias.
 De nada. | deh NAH-dah | You're welcome. |
 Por favor. | pohr fah-BOHR | Please. |
-Disculpe. | dees-KOOL-peh | Excuse me. | To get a stranger's attention (usted form). To a friend: disculpa.
+Disculpe. | deeh-KOOL-peh | Excuse me. | To get a stranger's attention (usted form). To a friend: disculpa.
 Con permiso. | kohn pehr-MEE-soh | Excuse me. (to get past) | To squeeze past someone or to leave a table or a room.
-Perdón. | pehr-DOHN | Sorry. | For a small bump or slip. For bad news: lo siento.
+Perdón. | pehr-DOHNG | Sorry. | For a small bump or slip. For bad news: lo siento.
 No entiendo. | noh ehn-TYEHN-doh | I don't understand. | No goes right before the verb.
 ¿Puede repetir, por favor? | PWEH-deh rreh-peh-TEER pohr fah-BOHR | Can you repeat that, please? | usted form. To a friend: ¿Puedes repetir?
-Hasta luego. | AHS-tah LWEH-goh | See you later. | The everyday goodbye, even if you won't see them again today.
-Adiós. | ah-DYOHS | Goodbye. | A little more final than hasta luego.
+Hasta luego. | AHH-tah LWEH-goh | See you later. | The everyday goodbye, even if you won't see them again today.
+Adiós. | ah-DYOHH | Goodbye. | A little more final than hasta luego.
 `,
   "About me": `
-Me llamo Carlos. | meh YAH-moh KAHR-lohs | My name is Carlos. | Literally: I call myself Carlos.
+Me llamo Carlos. | meh YAH-moh KAHR-lohh | My name is Carlos. | Literally: I call myself Carlos.
 Mi nombre es Ana. | mee NOHM-breh ehs AH-nah | My name is Ana. | Also correct; a little more formal than me llamo.
-¿Cómo te llamas? | KOH-moh teh YAH-mahs | What's your name? | To a friend or a child (tú form). To a stranger: ¿Cómo se llama?
-¿Cómo se llama usted? | KOH-moh seh YAH-mah oos-TEHD | What's your name? (formal) | To a stranger or an older person: usted takes the él form, se llama.
+¿Cómo te llamas? | KOH-moh teh YAH-mahh | What's your name? | To a friend or a child (tú form). To a stranger: ¿Cómo se llama?
+¿Cómo se llama usted? | KOH-moh seh YAH-mah ooh-TEHD | What's your name? (formal) | To a stranger or an older person: usted takes the él form, se llama.
 Soy de Chicago. | soy deh chee-KAH-goh | I'm from Chicago. | ser de = to be from.
-¿De dónde eres? | deh DOHN-deh EH-rehs | Where are you from? | tú form. To a stranger: ¿De dónde es usted?
-Soy de Estados Unidos. | soy deh ehs-TAH-dohs oo-NEE-dohs | I'm from the United States. | Many people also say Soy estadounidense or Soy americano.
-Vivo en San Antonio. | BEE-boh ehn sahn ahn-TOH-nyoh | I live in San Antonio. | No yo needed: the -o ending already says I.
-¿Dónde vives? | DOHN-deh BEE-behs | Where do you live? | tú form. To a stranger: ¿Dónde vive usted?
-Tengo treinta y dos años. | TEHN-goh TRAYN-tah ee dohs AH-nyohs | I'm thirty-two. | Age uses tener: literally, I have thirty-two years.
+¿De dónde eres? | deh DOHN-deh EH-rehh | Where are you from? | tú form. To a stranger: ¿De dónde es usted?
+Soy de Estados Unidos. | soy deh ehh-TAH-ohs oo-NEE-dohh | I'm from the United States. | Many people also say Soy estadounidense or Soy americano.
+Vivo en San Antonio. | BEE-boh ehn sahng ahn-TOH-nyoh | I live in San Antonio. | No yo needed: the -o ending already says I.
+¿Dónde vives? | DOHN-deh BEE-behh | Where do you live? | tú form. To a stranger: ¿Dónde vive usted?
+Tengo treinta y dos años. | TEHN-goh TRAYN-tah ee dohs AH-nyohh | I'm thirty-two. | Age uses tener: literally, I have thirty-two years.
 Soy enfermera. | soy ehn-fehr-MEH-rah | I'm a nurse. | No un / una before a job. A man says enfermero.
-¿A qué te dedicas? | ah keh teh deh-DEE-kahs | What do you do (for work)? | Friendly tú form. To a stranger: ¿A qué se dedica?
-Estoy casado. | ehs-TOY kah-SAH-doh | I'm married. | A woman says casada. You will also hear soy casado.
-Hablo un poco de español. | AH-bloh oon POH-koh deh ehs-pah-NYOHL | I speak a little Spanish. | Language names are lowercase: español, inglés.
-Hablo inglés y español. | AH-bloh een-GLEHS ee ehs-pah-NYOHL | I speak English and Spanish. | Before a word starting with an i sound, y becomes e: inglés e italiano.
-¿Hablas inglés? | AH-blahs een-GLEHS | Do you speak English? | tú form. To a stranger: ¿Habla inglés?
-Estoy aprendiendo español. | ehs-TOY ah-prehn-DYEHN-doh ehs-pah-NYOHL | I'm learning Spanish. | For something in progress right now or these days.
+¿A qué te dedicas? | ah keh teh deh-DEE-kahh | What do you do (for work)? | Friendly tú form. To a stranger: ¿A qué se dedica?
+Estoy casado. | ehh-TOY kah-SAH-oh | I'm married. | A woman says casada. You will also hear soy casado.
+Hablo un poco de español. | AH-bloh oon POH-koh deh ehh-pah-NYOHL | I speak a little Spanish. | Language names are lowercase: español, inglés.
+Hablo inglés y español. | AH-bloh een-GLEHS ee ehh-pah-NYOHL | I speak English and Spanish. | Before a word starting with an i sound, y becomes e: inglés e italiano.
+¿Hablas inglés? | AH-blahs een-GLEHH | Do you speak English? | tú form. To a stranger: ¿Habla inglés?
+Estoy aprendiendo español. | ehh-TOY ah-prehn-DYEHN-doh ehh-pah-NYOHL | I'm learning Spanish. | For something in progress right now or these days.
 `,
   "People and family": `
 mi hermana | mee ehr-MAH-nah | my sister | hermanos can mean brothers or brothers and sisters.
 mi hermano mayor | mee ehr-MAH-noh mah-YOHR | my older brother | A younger brother: mi hermano menor.
-¿Tienes hermanos? | TYEH-nehs ehr-MAH-nohs | Do you have any brothers or sisters? | The masculine plural covers brothers and sisters together.
-los padres | lohs PAH-drehs | parents | padres = parents. parientes = relatives, not parents.
-mis papás | mees pah-PAHS | my parents; my mom and dad | Very common in Latin America for your parents. mis is the plural of mi.
-Mi mamá es simpática. | mee mah-MAH ehs seem-PAH-tee-kah | My mom is nice. | simpática agrees with mamá (feminine).
+¿Tienes hermanos? | TYEH-nehs ehr-MAH-nohh | Do you have any brothers or sisters? | The masculine plural covers brothers and sisters together.
+los padres | lohh PAH-drehh | parents | padres = parents. parientes = relatives, not parents.
+mis papás | meeh pah-PAHH | my parents; my mom and dad | Very common in Latin America for your parents. mis is the plural of mi.
+Mi mamá es simpática. | mee mah-MAH ehh seem-PAH-tee-kah | My mom is nice. | simpática agrees with mamá (feminine).
 Mi hermano es alto. | mee ehr-MAH-noh ehs AHL-toh | My brother is tall. | For a woman: alta. My sisters are tall: Mis hermanas son altas.
-los abuelos | lohs ah-BWEH-lohs | grandparents | The masculine plural covers a mixed group.
-Mi abuela es de Santiago. | mee ah-BWEH-lah ehs deh sahn-TYAH-goh | My grandma is from Santiago. | Santiago de los Caballeros, the big city in the north. ser de = to be from.
-Él es mi esposo. | ehl ehs mee ehs-POH-soh | He's my husband. | wife: la esposa. Also common: mi marido, mi mujer.
+los abuelos | lohs ah-BWEH-lohh | grandparents | The masculine plural covers a mixed group.
+Mi abuela es de Santiago. | mee ah-BWEH-lah ehh deh sahn-TYAH-goh | My grandma is from Santiago. | Santiago de los Caballeros, the big city in the north. ser de = to be from.
+Él es mi esposo. | ehl ehh mee ehh-POH-soh | He's my husband. | wife: la esposa. Also common: mi marido, mi mujer.
 la novia | lah NOH-byah | girlfriend; bride | boyfriend: el novio.
-Tengo dos hijos. | TEHN-goh dohs EE-hohs | I have two kids. | hijos = sons, or sons and daughters together.
-sus hijos | soos EE-hohs | his / her / their children | su becomes sus because hijos is plural: it agrees with the thing owned, not the owner.
+Tengo dos hijos. | TEHN-goh dohs EE-hohh | I have two kids. | hijos = sons, or sons and daughters together.
+sus hijos | soos EE-hohh | his / her / their children | su becomes sus because hijos is plural: it agrees with the thing owned, not the owner.
 mi tía | mee TEE-ah | my aunt | uncle: mi tío. Aunt and uncle together: mis tíos.
 una foto de mi familia | OO-nah FOH-toh deh mee fah-MEE-lyah | a photo of my family | foto is feminine even though it ends in -o: it is short for fotografía.
-nuestra familia | NWEHS-trah fah-MEE-lyah | our family | nuestra is feminine because familia is feminine.
+nuestra familia | NWEHH-trah fah-MEE-lyah | our family | nuestra is feminine because familia is feminine.
 la amiga | lah ah-MEE-gah | friend (female) | A male friend: el amigo.
-Ella es mi mejor amiga. | EH-yah ehs mee meh-HOHR ah-MEE-gah | She's my best friend. | For a man: Él es mi mejor amigo.
+Ella es mi mejor amiga. | EH-yah ehh mee meh-HOHR ah-MEE-gah | She's my best friend. | For a man: Él es mi mejor amigo.
 `,
   "Numbers, time and prices": `
 quince | KEEN-seh | fifteen | 11 to 15 have their own words: once, doce, trece, catorce, quince.
-dieciséis | dyeh-see-SAYS | sixteen | One word with an accent mark (an older spelling was diez y seis).
+dieciséis | dyeh-see-SAYH | sixteen | One word with an accent mark (an older spelling was diez y seis).
 veinticinco | bayn-tee-SEEN-koh | twenty-five | One word from 16 to 29.
 treinta y uno | TRAYN-tah ee OO-noh | thirty-one | From 31 on, tens and units are joined by y. Before a noun, uno shortens: treinta y un pesos, treinta y una personas.
-cien pesos | syehn PEH-sohs | a hundred pesos | cien before a noun; 101 to 199 use ciento: ciento veinte.
+cien pesos | syehn PEH-sohh | a hundred pesos | cien before a noun; 101 to 199 use ciento: ciento veinte.
 ciento cincuenta | SYEHN-toh seen-KWEHN-tah | a hundred and fifty | ciento when another number follows. Never un ciento.
-quinientos | kee-NYEHN-tohs | five hundred | Irregular: not cinco cientos. Before a feminine noun: quinientas personas.
+quinientos | kee-NYEHN-tohh | five hundred | Irregular: not cinco cientos. Before a feminine noun: quinientas personas.
 mil | meel | a thousand | No un before mil: mil pesos, dos mil pesos.
-¿Qué hora es? | keh OH-rah ehs | What time is it? |
-Es la una. | ehs lah OO-nah | It's one o'clock. | Only one o'clock is singular: es la una. All other hours: son las.
-Son las tres y media. | sohn lahs trehs ee MEH-dyah | It's half past three. | las (horas) is feminine; son because three is plural. One o'clock: Es la una.
+¿Qué hora es? | keh OH-rah ehh | What time is it? |
+Es la una. | ehh lah OO-nah | It's one o'clock. | Only one o'clock is singular: es la una. All other hours: son las.
+Son las tres y media. | sohn lahh trehs ee MEH-dyah | It's half past three. | las (horas) is feminine; son because three is plural. One o'clock: Es la una.
 Son las ocho y cuarto. | sohn lahs OH-choh ee KWAHR-toh | It's a quarter after eight. | y cuarto = quarter after; y media = half past.
-a las nueve de la mañana | ah lahs NWEH-beh deh lah mah-NYAH-nah | at nine in the morning | Afternoon: de la tarde. Night: de la noche.
-¿A qué hora abren? | ah keh OH-rah AH-brehn | What time do you open? | abren is the ellos / ustedes form: you are asking about the store and its staff.
-¿Cuánto cuesta? | KWAHN-toh KWEHS-tah | How much is it? | For more than one thing: ¿Cuánto cuestan?
-¿Cuánto cuestan los tostones? | KWAHN-toh KWEHS-tahn lohs tohs-TOH-nehs | How much are the tostones? | cuestan agrees with los tostones (plural).
-Son doscientos pesos. | sohn dohs-SYEHN-tohs PEH-sohs | That's two hundred pesos. | A total is plural: son. One peso: es un peso.
-diez dólares | dyehs DOH-lah-rehs | ten dollars | dólar ends in a consonant, so the plural adds -es: un dólar, diez dólares.
+a las nueve de la mañana | ah lahh NWEH-beh deh lah mah-NYAH-nah | at nine in the morning | Afternoon: de la tarde. Night: de la noche.
+¿A qué hora abren? | ah keh OH-rah AH-brehng | What time do you open? | abren is the ellos / ustedes form: you are asking about the store and its staff.
+¿Cuánto cuesta? | KWAHN-toh KWEHH-tah | How much is it? | For more than one thing: ¿Cuánto cuestan?
+¿Cuánto cuestan los tostones? | KWAHN-toh KWEHH-tahn lohh tohh-TOH-nehh | How much are the tostones? | cuestan agrees with los tostones (plural).
+Son doscientos pesos. | sohn dohh-SYEHN-tohh PEH-sohh | That's two hundred pesos. | A total is plural: son. One peso: es un peso.
+diez dólares | dyehh DOH-lah-rehh | ten dollars | dólar ends in a consonant, so the plural adds -es: un dólar, diez dólares.
 `,
   "Days, dates and weather": `
-el lunes | ehl LOO-nehs | on Monday | No word for on: el lunes. Every Monday: los lunes.
+el lunes | ehl LOO-nehh | on Monday | No word for on: el lunes. Every Monday: los lunes.
 el sábado | ehl SAH-bah-doh | on Saturday | Days of the week are masculine and lowercase.
-los domingos | lohs doh-MEEN-gohs | on Sundays | los + plural day = every week on that day.
+los domingos | lohh doh-MEEN-gohh | on Sundays | los + plural day = every week on that day.
 ¿Qué día es hoy? | keh DEE-ah ehs oy | What day is it today? |
-Hoy es martes. | oy ehs MAHR-tehs | Today is Tuesday. | After hoy es, no article: Hoy es martes.
+Hoy es martes. | oy ehh MAHR-tehh | Today is Tuesday. | After hoy es, no article: Hoy es martes.
 el día | ehl DEE-ah | the day | día is masculine even though it ends in -a: buenos días, el primer día.
 mañana | mah-NYAH-nah | tomorrow | la mañana = the morning. Tomorrow morning: mañana en la mañana or mañana por la mañana.
 ayer | ah-YEHR | yesterday | mañana = tomorrow (and also morning).
 la semana que viene | lah seh-MAH-nah keh BYEH-neh | next week | Also: la próxima semana.
 el quince de septiembre | ehl KEEN-seh deh sehp-TYEHM-breh | September 15 | Day before month; months are lowercase.
-en enero | ehn eh-NEH-roh | in January | Months take en and no article: en enero, en mayo.
+en enero | ehng eh-NEH-roh | in January | Months take en and no article: en enero, en mayo.
 Mi cumpleaños es el ocho de marzo. | mee koom-pleh-AH-nyohs ehs ehl OH-choh deh MAHR-soh | My birthday is March 8. | el before the day: el ocho de marzo. cumpleaños ends in -s even for one birthday.
 ¿Qué tiempo hace? | keh TYEHM-poh AH-seh | What's the weather like? | Weather questions use hacer: literally, what weather does it make?
 Hace calor. | AH-seh kah-LOHR | It's hot. | Weather uses hacer: hace frío, hace sol.
 Hace sol. | AH-seh sohl | It's sunny. | Literally: it makes sun. Not es sol.
-Está lloviendo. | ehs-TAH yoh-BYEHN-doh | It's raining. |
-Está nublado. | ehs-TAH noo-BLAH-doh | It's cloudy. | estar describes how the sky is right now.
-Hace veinte grados. | AH-seh BAYN-teh GRAH-dohs | It's twenty degrees. | In Celsius: 20 degrees is about 68 degrees Fahrenheit.
+Está lloviendo. | ehh-TAH yoh-BYEHN-doh | It's raining. |
+Está nublado. | ehh-TAH noo-BLAH-oh | It's cloudy. | estar describes how the sky is right now.
+Hace veinte grados. | AH-seh BAYN-teh GRAH-ohh | It's twenty degrees. | In Celsius: 20 degrees is about 68 degrees Fahrenheit.
 `,
   "Food and drink": `
 un pica pollo | oon PEE-kah POH-yoh | Dominican fried chicken | Fried chicken the Dominican way; the shops that sell it are called pica pollos too. Elsewhere: pollo frito.
-unos pasteles en hoja | OO-nohs pahs-TEH-lehs ehn OH-hah | some pasteles en hoja (plantain parcels) | Plantain dough with a meat filling, wrapped in a leaf and boiled. unos = some, with masculine plural nouns. Feminine: unas empanadas.
-los tostones | lohs tohs-TOH-nehs | fried green plantains | Green plantain slices, fried, flattened and fried again. One: el tostón.
-las habichuelas | lahs ah-bee-CHWEH-lahs | beans | Feminine: las habichuelas rojas. Mexico: los frijoles. Spain: las judías.
-el arroz | ehl ah-RROHS | rice | Spanish uses the article for food in general: Me gusta el arroz.
+unos pasteles en hoja | OO-nohh pahh-TEH-lehs ehng OH-hah | some pasteles en hoja (plantain parcels) | Plantain dough with a meat filling, wrapped in a leaf and boiled. unos = some, with masculine plural nouns. Feminine: unas empanadas.
+los tostones | lohh tohh-TOH-nehh | fried green plantains | Green plantain slices, fried, flattened and fried again. One: el tostón.
+las habichuelas | lahs ah-bee-CHWEH-lahh | beans | Feminine: las habichuelas rojas. Mexico: los frijoles. Spain: las judías.
+el arroz | ehl ah-RROHH | rice | Spanish uses the article for food in general: Me gusta el arroz.
 el aguacate | ehl ah-gwah-KAH-teh | avocado | palta in parts of South America.
-las papas fritas | lahs PAH-pahs FREE-tahs | French fries | Bagged potato chips are often papitas. Spain: patatas fritas.
+las papas fritas | lahh PAH-pahh FREE-tahh | French fries | Bagged potato chips are often papitas. Spain: patatas fritas.
 un vaso de agua | oon BAH-soh deh AH-gwah | a glass of water |
 un jugo de chinola | oon HOO-goh deh chee-NOH-lah | a passion fruit juice | de joins the flavor: jugo de chinola, jugo de piña. Elsewhere passion fruit is maracuyá.
 el desayuno | ehl deh-sah-YOO-noh | breakfast | Lunch: el almuerzo. Dinner: la cena. In Mexico, la comida is the main midday meal.
@@ -135,47 +135,47 @@ Para mí, un sancocho. | PAH-rah mee oon sahn-KOH-choh | A sancocho for me. | m�
 ¿Pica? | PEE-kah | Is it spicy? | picar = to be spicy hot. Not spicy: No pica.
 Sin cebolla, por favor. | seen seh-BOH-yah pohr fah-BOHR | No onion, please. | sin = without. With: con.
 ¿Para llevar o para comer aquí? | PAH-rah yeh-BAHR oh PAH-rah koh-MEHR ah-KEE | To go or for here? | What you will hear at the counter. Answer: Para llevar or Para comer aquí.
-Está muy rico. | ehs-TAH mwee RREE-koh | It's delicious. | rico = tasty for food. It agrees: La sopa está muy rica.
+Está muy rico. | ehh-TAH mwee RREE-koh | It's delicious. | rico = tasty for food. It agrees: La sopa está muy rica.
 La cuenta, por favor. | lah KWEHN-tah pohr fah-BOHR | The check, please. |
 `,
   "Shopping and clothes": `
 la camisa roja | lah kah-MEE-sah RROH-hah | the red shirt | Color after the noun, and it agrees: camisa roja, zapatos rojos.
-los zapatos negros | lohs sah-PAH-tohs NEH-grohs | the black shoes |
-los pantalones azules | lohs pahn-tah-LOH-nehs ah-SOO-lehs | the blue pants | azul has one form for both genders; the plural adds -es: azules.
+los zapatos negros | lohh sah-PAH-tohh NEH-grohh | the black shoes |
+los pantalones azules | lohh pahn-tah-LOH-nehs ah-SOO-lehh | the blue pants | azul has one form for both genders; the plural adds -es: azules.
 la falda blanca | lah FAHL-dah BLAHN-kah | the white skirt | blanco becomes blanca with a feminine noun.
-el vestido verde | ehl behs-TEE-doh BEHR-deh | the green dress | verde is the same for masculine and feminine: la camisa verde.
-la chaqueta gris | lah chah-KEH-tah grees | the gray jacket | gris has one form for both genders.
-el mercado | ehl mehr-KAH-doh | the market | The supermarket: el supermercado.
-Solo estoy viendo, gracias. | SOH-loh ehs-TOY BYEHN-doh GRAH-syahs | I'm just looking, thanks. | What to say when a shop assistant offers help.
-Busco un regalo. | BOOS-koh oon rreh-GAH-loh | I'm looking for a gift. | buscar already means look for: no extra word for for.
-¿Tiene una talla más grande? | TYEH-neh OO-nah TAH-yah mahs GRAHN-deh | Do you have a bigger size? | usted form, to a shop assistant.
-¿Dónde está el probador? | DOHN-deh ehs-TAH ehl proh-bah-DOHR | Where's the fitting room? | Location uses estar: está.
+el vestido verde | ehl behh-TEE-doh BEHR-deh | the green dress | verde is the same for masculine and feminine: la camisa verde.
+la chaqueta gris | lah chah-KEH-tah greeh | the gray jacket | gris has one form for both genders.
+el mercado | ehl mehr-KAH-oh | the market | The supermarket: el supermercado.
+Solo estoy viendo, gracias. | SOH-loh ehh-TOY BYEHN-doh GRAH-syahh | I'm just looking, thanks. | What to say when a shop assistant offers help.
+Busco un regalo. | BOOH-koh oon rreh-GAH-loh | I'm looking for a gift. | buscar already means look for: no extra word for for.
+¿Tiene una talla más grande? | TYEH-neh OO-nah TAH-yah mahh GRAHN-deh | Do you have a bigger size? | usted form, to a shop assistant.
+¿Dónde está el probador? | DOHN-deh ehh-TAH ehl proh-bah-DOHR | Where's the fitting room? | Location uses estar: está.
 ¿Me la puedo probar? | meh lah PWEH-doh proh-BAHR | Can I try it on? | la = it, for a feminine thing (la falda). For el vestido: ¿Me lo puedo probar?
 Me queda grande. | meh KEH-dah GRAHN-deh | It's too big on me. | quedar works like gustar: for plural things, Me quedan grandes.
 ¿Lo tiene en negro? | loh TYEH-neh ehn NEH-groh | Do you have it in black? | lo = it, for a masculine thing (el vestido). usted form.
 Me la llevo. | meh lah YEH-boh | I'll take it. | la = it, for a feminine thing (la camisa). For el suéter: Me lo llevo.
-Me los llevo. | meh lohs YEH-boh | I'll take them. | los = them, for a masculine plural (los zapatos). For las botas: Me las llevo.
+Me los llevo. | meh lohh YEH-boh | I'll take them. | los = them, for a masculine plural (los zapatos). For las botas: Me las llevo.
 ¿Aceptan tarjeta? | ah-SEHP-tahn tahr-HEH-tah | Do you take cards? |
-¿En efectivo o con tarjeta? | ehn eh-fehk-TEE-boh oh kohn tahr-HEH-tah | Cash or card? | What a cashier asks. en efectivo = in cash.
+¿En efectivo o con tarjeta? | ehng eh-fehk-TEE-boh oh kohn tahr-HEH-tah | Cash or card? | What a cashier asks. en efectivo = in cash.
 `,
   "Home and routine": `
 la cocina | lah koh-SEE-nah | the kitchen | Also: cooking (the activity).
 el baño | ehl BAH-nyoh | the bathroom |
 la cama | lah KAH-mah | the bed | Make the bed: hacer la cama.
 el refrigerador | ehl rreh-free-heh-rah-DOHR | the fridge | Mexico, informal: el refri. Spain: la nevera.
-Vivo en un apartamento. | BEE-boh ehn oon ah-pahr-tah-MEHN-toh | I live in an apartment. | The usual word in the DR too. Mexico also: departamento. Spain: piso.
-Hay dos cuartos. | ai dohs KWAHR-tohs | There are two bedrooms. | You'll hear: el aposento for a bedroom. hay = there is and there are.
+Vivo en un apartamento. | BEE-boh ehng oong ah-pahr-tah-MEHN-toh | I live in an apartment. | The usual word in the DR too. Mexico also: departamento. Spain: piso.
+Hay dos cuartos. | ai dohh KWAHR-tohh | There are two bedrooms. | You'll hear: el aposento for a bedroom. hay = there is and there are.
 Hay un sofá en la sala. | ai oon soh-FAH ehn lah SAH-lah | There's a sofa in the living room. | hay + un / una, never hay el: Hay un sofá.
 No hay leche. | noh ai LEH-cheh | There's no milk. | no hay with no article: No hay leche, no hay tiempo.
-Me despierto a las seis. | meh dehs-PYEHR-toh ah lahs says | I wake up at six. | despertarse: e changes to ie, and me goes with yo.
-Me levanto a las siete. | meh leh-BAHN-toh ah lahs SYEH-teh | I get up at seven. | levantarse is reflexive: me with yo.
-¿A qué hora te levantas? | ah keh OH-rah teh leh-BAHN-tahs | What time do you get up? | te with tú: te levantas.
+Me despierto a las seis. | meh dehh-PYEHR-toh ah lahh sayh | I wake up at six. | despertarse: e changes to ie, and me goes with yo.
+Me levanto a las siete. | meh leh-BAHN-toh ah lahh SYEH-teh | I get up at seven. | levantarse is reflexive: me with yo.
+¿A qué hora te levantas? | ah keh OH-rah teh leh-BAHN-tahh | What time do you get up? | te with tú: te levantas.
 Me baño. | meh BAH-nyoh | I take a shower. | Latin America: bañarse for a shower too; ducharse also exists.
-Me lavo los dientes. | meh LAH-boh lohs DYEHN-tehs | I brush my teeth. | los dientes, not mis dientes: me already says whose.
-Me lavo las manos. | meh LAH-boh lahs MAH-nohs | I wash my hands. | mano is feminine even though it ends in -o: las manos.
+Me lavo los dientes. | meh LAH-boh lohh DYEHN-tehh | I brush my teeth. | los dientes, not mis dientes: me already says whose.
+Me lavo las manos. | meh LAH-boh lahh MAH-nohh | I wash my hands. | mano is feminine even though it ends in -o: las manos.
 Salgo de casa a las ocho. | SAHL-goh deh KAH-sah ah lahs OH-choh | I leave home at eight. | salir: the yo form is salgo. de casa = from home, no article.
 Ceno con mi familia. | SEH-noh kohn mee fah-MEE-lyah | I have dinner with my family. | cenar = to have dinner. Breakfast: desayunar.
-Me acuesto a las once. | meh ah-KWEHS-toh ah lahs OHN-seh | I go to bed at eleven. | acostarse: o changes to ue, and me goes with yo.
-Los niños se acuestan a las nueve. | lohs NEE-nyohs seh ah-KWEHS-tahn ah lahs NWEH-beh | The kids go to bed at nine. | se with ellos, and the verb agrees: se acuestan.
+Me acuesto a las once. | meh ah-KWEHH-toh ah lahs OHN-seh | I go to bed at eleven. | acostarse: o changes to ue, and me goes with yo.
+Los niños se acuestan a las nueve. | lohh NEE-nyohh seh ah-KWEHH-tahng ah lahh NWEH-beh | The kids go to bed at nine. | se with ellos, and the verb agrees: se acuestan.
 `
 };

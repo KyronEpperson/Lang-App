@@ -9,16 +9,16 @@ module.exports = [
 <p>Dominican food is home cooking: plantains, rice, beans and slow-cooked meat. This lesson walks through a day of eating, from breakfast to a cold drink in the afternoon. Every dish is a noun, so learn it with <b>el</b> or <b>la</b>: the article shows the gender and the number, even when you can't hear the final s.</p>
 <h3>Breakfast: mangú con los tres golpes</h3>
 <p><b>El mangú</b> is mashed green plantains, the classic breakfast. It often comes with <b>los tres golpes</b>, "the three hits": a fried egg, <b>el salami</b> and <b>el queso frito</b> (fried cheese).</p>
-{{ex:Quiero mangú con los tres golpes.|KYEH-roh mahn-GOO kohn lohs trehs GOHL-pehs|I'd like mangú with fried egg, salami and fried cheese.}}
-{{ex:El queso frito está muy rico.|ehl KEH-soh FREE-toh ehs-TAH mwee RREE-koh|The fried cheese is really good.}}
+{{ex:Quiero mangú con los tres golpes.|KYEH-roh mahn-GOO kohn lohh trehh GOHL-pehh|I'd like mangú with fried egg, salami and fried cheese.}}
+{{ex:El queso frito está muy rico.|ehl KEH-soh FREE-toh ehh-TAH mwee RREE-koh|The fried cheese is really good.}}
 <h3>Lunch: la bandera</h3>
 <p>At a <b>comedor</b>, a small lunch place, the everyday lunch is <b>la bandera</b>, "the flag": white rice, beans and stewed meat. English says "beans"; in the DR they are <b>las habichuelas</b> (elsewhere: los frijoles). It's a feminine plural noun, so an adjective after it agrees and ends in -as: <b>las habichuelas rojas</b>. On Sundays and at parties, families make <b>el sancocho</b>, a thick stew of meat and root vegetables.</p>
 {{ex:Para mí, la bandera, por favor.|PAH-rah mee lah bahn-DEH-rah pohr fah-BOHR|For me, la bandera, please.}}
-{{ex:Las habichuelas rojas están muy buenas.|lahs ah-bee-CHWEH-lahs RROH-hahs ehs-TAHN mwee BWEH-nahs|The red beans are really good.}}
+{{ex:Las habichuelas rojas están muy buenas.|lahs ah-bee-CHWEH-lahh RROH-hahs ehh-TAHN mwee BWEH-nahh|The red beans are really good.}}
 <h3>Plantains, bananas and street food</h3>
 <p>Watch this pair: <b>el plátano</b> is the plantain, which is cooked; <b>el guineo</b> is the sweet banana you eat raw. Fried slices of green plantain are <b>los tostones</b>. On the street you'll find <b>el pica pollo</b> (fried chicken), <b>el chimi</b> (a Dominican street burger) and <b>el yaniqueque</b> (crisp fried dough). With <b>gustar</b>, a plural food takes <b>gustan</b>.</p>
-{{ex:Me gustan los tostones.|meh GOOS-tahn lohs tohs-TOH-nehs|I like tostones.}}
-{{ex:¿Te gusta el guineo?|teh GOOS-tah ehl ghee-NEH-oh|Do you like bananas?}}
+{{ex:Me gustan los tostones.|meh GOOH-tahn lohh tohh-TOH-nehh|I like tostones.}}
+{{ex:¿Te gusta el guineo?|teh GOOH-tah ehl ghee-NEH-oh|Do you like bananas?}}
 <h3>Drinks: chinola and morir soñando</h3>
 <p><b>La chinola</b> is passion fruit and <b>la lechosa</b> is papaya; both make popular juices. <b>Jugo</b> is masculine, so it's <b>un jugo de chinola</b>. <b>Un morir soñando</b>, "to die dreaming", is a cold drink of milk and orange juice.</p>
 {{ex:Un jugo de chinola, por favor.|oon HOO-goh deh chee-NOH-lah pohr fah-BOHR|A passion fruit juice, please.}}
@@ -56,21 +56,21 @@ module.exports = [
 <p>Daily life in the DR runs through a few places and words that a general Spanish course doesn't teach. This lesson covers the corner store, getting around, power cuts and money, plus two words that mean something different from what you may have learned elsewhere.</p>
 <h3>The colmado</h3>
 <p><b>El colmado</b> is the corner store: rice, eggs, soap, a cold drink, phone credit. Many colmados deliver to your door, and regular customers can often pay later. For "a little bit", Dominicans say <b>un chin</b>.</p>
-{{ex:Voy al colmado.|boy ahl kohl-MAH-doh|I'm going to the corner store.}}
+{{ex:Voy al colmado.|boy ahl kohl-MAH-oh|I'm going to the corner store.}}
 {{ex:Un chin de azúcar, por favor.|oon cheen deh ah-SOO-kahr pohr fah-BOHR|A little sugar, please.}}
 <h3>Getting around: guagua, concho, motoconcho</h3>
 <p><b>La guagua</b> is the bus (elsewhere: el autobús). It's feminine, so an adjective after it ends in -a: <b>la guagua está llena</b>. <b>El concho</b> is a shared taxi, a car on a fixed route that picks up strangers along the way, and <b>el motoconcho</b> is a motorcycle taxi. Both are masculine. On the road you'll also see <b>la yipeta</b> (an SUV) and <b>la pasola</b> (a scooter).</p>
-{{ex:La guagua está llena.|lah GWAH-gwah ehs-TAH YEH-nah|The bus is full.}}
-{{ex:Los conchos están llenos.|lohs KOHN-chohs ehs-TAHN YEH-nohs|The shared taxis are full.}}
+{{ex:La guagua está llena.|lah GWAH-gwah ehh-TAH YEH-nah|The bus is full.}}
+{{ex:Los conchos están llenos.|lohh KOHN-chohs ehh-TAHN YEH-nohh|The shared taxis are full.}}
 <h3>Se fue la luz</h3>
 <p>Power cuts happen. A power cut is <b>el apagón</b>, and when the power goes out, people say <b>Se fue la luz</b>, literally "the light left".</p>
-{{ex:Se fue la luz otra vez.|seh fweh lah loos OH-trah behs|The power went out again.}}
-{{ex:Hay un apagón en el barrio.|ai oon ah-pah-GOHN ehn ehl BAH-rryoh|There's a power cut in the neighborhood.}}
+{{ex:Se fue la luz otra vez.|seh fweh lah loos OH-trah behh|The power went out again.}}
+{{ex:Hay un apagón en el barrio.|ai oong ah-pah-GOHNG ehng ehl BAH-rryoh|There's a power cut in the neighborhood.}}
 <h3>Pesos and two word traps</h3>
 <p>Prices are in <b>pesos</b>; among friends, money is <b>los cuartos</b>. Two words can trip you up. In the DR, <b>ahorita</b> means "later, in a while", not "right now"; for "right now", say <b>ahora mismo</b>. And <b>guapo</b> means angry: <b>Está guapo</b> is "He's angry". The deck "Mexico or the DR? Word traps" has more.</p>
-{{ex:Son cien pesos.|sohn syehn PEH-sohs|It's a hundred pesos.}}
-{{ex:Ahorita voy al colmado.|ah-oh-REE-tah boy ahl kohl-MAH-doh|I'll go to the corner store in a while.}}
-{{ex:Mi papá está guapo.|mee pah-PAH ehs-TAH GWAH-poh|My dad is angry.}}
+{{ex:Son cien pesos.|sohn syehn PEH-sohh|It's a hundred pesos.}}
+{{ex:Ahorita voy al colmado.|ah-oh-REE-tah boy ahl kohl-MAH-oh|I'll go to the corner store in a while.}}
+{{ex:Mi papá está guapo.|mee pah-PAH ehh-TAH GWAH-poh|My dad is angry.}}
 <div class="tip">The most common mistake: <b>La guagua está lleno</b> → <b>La guagua está llena</b>. The guagua is feminine, so the adjective agrees with it.</div>
 `,
     check: [
@@ -104,20 +104,20 @@ module.exports = [
 <p>Music is everywhere in the DR: in the colmado, in the guagua, on the street at night. This lesson gives you the names of the music, the places people go, and the phrases to invite someone, say yes, or say no without hurting anyone.</p>
 <h3>Merengue, bachata and dembow</h3>
 <p><b>El merengue</b> is the fast national dance music. <b>La bachata</b> is guitar music about love and heartbreak. <b>El dembow</b> is the newer urban beat you hear from cars and speakers. Notice the gender: merengue and dembow are masculine, bachata is feminine, so a describing word agrees: <b>la bachata es romántica</b>, <b>el merengue es rápido</b>.</p>
-{{ex:La bachata es romántica.|lah bah-CHAH-tah ehs rroh-MAHN-tee-kah|Bachata is romantic.}}
-{{ex:Me gusta mucho el merengue.|meh GOOS-tah MOO-choh ehl meh-REHN-gheh|I really like merengue.}}
+{{ex:La bachata es romántica.|lah bah-CHAH-tah ehh rroh-MAHN-tee-kah|Bachata is romantic.}}
+{{ex:Me gusta mucho el merengue.|meh GOOH-tah MOO-choh ehl meh-REHN-gheh|I really like merengue.}}
 <h3>Going out: el colmadón, la Zona, el Malecón</h3>
 <p>A <b>colmadón</b> is a big colmado with music and drinks, where friends meet at night. <b>Una fría</b> is a cold beer. A night out with friends is <b>un coro</b>. People also go to <b>la Zona Colonial</b>, the old town of Santo Domingo, and walk along <b>el Malecón</b>, the avenue by the sea.</p>
-{{ex:Vamos al Malecón esta noche.|BAH-mohs ahl mah-leh-KOHN EHS-tah NOH-cheh|Let's go to the Malecón tonight.}}
+{{ex:Vamos al Malecón esta noche.|BAH-mohs ahl mah-leh-KOHNG EHH-tah NOH-cheh|Let's go to the Malecón tonight.}}
 {{ex:Una fría, por favor.|OO-nah FREE-ah pohr fah-BOHR|A cold beer, please.}}
 <h3>Inviting, saying yes, saying no</h3>
 <p>To invite, say <b>Vamos a bailar</b>, "Let's go dancing", or ask <b>¿Vamos a…?</b> To say yes: <b>¡Dale!</b> (OK, let's go) or <b>Sí, claro</b>. To say no kindly, give a reason and thank them: <b>Hoy no puedo, pero gracias</b>.</p>
 {{ex:¿Vamos a bailar bachata?|BAH-mohs ah bai-LAHR bah-CHAH-tah|Shall we go dance bachata?}}
-{{ex:Hoy no puedo, pero gracias.|oy noh PWEH-doh PEH-roh GRAH-syahs|I can't today, but thanks.}}
+{{ex:Hoy no puedo, pero gracias.|oy noh PWEH-doh PEH-roh GRAH-syahh|I can't today, but thanks.}}
 <h3>The next day: fuimos</h3>
 <p>To tell the story the next day, use the preterite of <b>ir</b>: yo <b>fui</b>, él or ella <b>fue</b>, nosotros <b>fuimos</b>. The verb ending matches the subject, so "we went" is always <b>fuimos</b>, even when your friends say it like "fuimo", with no s at the end.</p>
 {{ex:Fuimos a bailar bachata.|FWEE-mohs ah bai-LAHR bah-CHAH-tah|We went bachata dancing.}}
-{{ex:Anoche fui a un colmadón con mis amigos.|ah-NOH-cheh fwee ah oon kohl-mah-DOHN kohn mees ah-MEE-gohs|Last night I went to a colmadón with my friends.}}
+{{ex:Anoche fui a un colmadón con mis amigos.|ah-NOH-cheh fwee ah oon kohl-mah-DOHN kohn mees ah-MEE-gohh|Last night I went to a colmadón with my friends.}}
 <div class="tip">The most common mistake: <b>Nosotros fue a bailar</b> → <b>Nosotros fuimos a bailar</b>. And bachata is feminine: <b>La bachata es romántico</b> → <b>La bachata es romántica</b>.</div>
 `,
     check: [

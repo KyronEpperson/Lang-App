@@ -1,10 +1,10 @@
 /* en-esdo pron: the en-es respelling (tools/target/es/respell.js) plus three Dominican rules (docs/profiles/en-esdo.md section 6).
-   MODE 'careful' (now): identical to en-es, because phone voices and the reused en-es clips say the s and the d.
-   MODE 'natural': educated Santo Domingo speech at conversational speed (breath s, final ng, -ao). To switch, change MODE below,
+   MODE 'natural' (now, owner's choice 2026-11-27: "Dominican sound from day one"): educated Santo Domingo speech.
+   MODE 'careful': identical to en-es (breath s, final ng and -ao are the three natural rules). To switch, change MODE below,
    then: node tools/target/repron.js esdo && node tools/target/gen.js esdo && node tools/lessonread/apply.js en-esdo && node tools/sections/apply.js
    (prose respellings in lesson bodies are not regenerated). DO_MODE=natural in the environment overrides it for a trial run. */
 const ES = require('../es/respell.js');
-const MODE = process.env.DO_MODE || 'careful';
+const MODE = process.env.DO_MODE || 'natural';
 /* next word starts with a vowel sound: a vowel, silent h + vowel, or the word y ("and"); hie-/hue- start with a glide, so they count as consonants */
 const vstart = w => !!w && (/^y$/i.test(w) || (/^h?[aeiouáéíóú]/i.test(w) && !/^h[iu][aeiouáéíóú]/i.test(w)));
 function word(w, next) {

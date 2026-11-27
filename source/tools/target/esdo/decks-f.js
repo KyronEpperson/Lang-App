@@ -15,59 +15,59 @@ module.exports = {
     tierno | TYEHR-noh | sweet; tender (in a cute way) | Anyone to a man. To a woman: tierna. Warm.
     coqueto | koh-KEH-toh | flirty | About a man; about a woman: coqueta. Mild, playful.
     la sonrisa | lah sohn-RREE-sah | the smile | Feminine: una sonrisa bonita. Safe to praise. Mild.
-    los ojos | lohs OH-hohs | the eyes | Masculine plural: ojos bonitos. Warm.
+    los ojos | lohs OH-hohh | the eyes | Masculine plural: ojos bonitos. Warm.
     la risa | lah RREE-sah | the laugh | Feminine: tu risa. Mild.
-    la voz | lah bohs | the voice | Feminine: una voz bonita. Plural: las voces. Mild.
-    el estilo | ehl ehs-TEE-loh | the style | Masculine: buen estilo. Mild.
+    la voz | lah bohh | the voice | Feminine: una voz bonita. Plural: las voces. Mild.
+    el estilo | ehl ehh-TEE-loh | the style | Masculine: buen estilo. Mild.
     el pelo | ehl PEH-loh | the hair | Masculine: el pelo largo. Also el cabello. Mild.
     la mirada | lah mee-RAH-dah | the look (in someone's eyes) | Feminine. Praising it is warm.
     ¡Qué linda! | keh LEEN-dah | You look so pretty! | Anyone to a woman; to a man: ¡Qué lindo! Not ¡Qué guapa!: in the DR guapa means angry. Mild to warm.
-    Te ves muy bien. | teh behs mwee byehn | You look really good. | Anyone to anyone; no gender change. Warm. Not Estás muy guapo: in the DR that means you're really angry.
-    Te ves lindísima hoy. | teh behs leen-DEE-see-mah oy | You look gorgeous today. | To a woman; to a man: lindísimo. Warm.
+    Te ves muy bien. | teh behh mwee byehng | You look really good. | Anyone to anyone; no gender change. Warm. Not Estás muy guapo: in the DR that means you're really angry.
+    Te ves lindísima hoy. | teh behh leen-DEE-see-mah oy | You look gorgeous today. | To a woman; to a man: lindísimo. Warm.
     Tienes un nombre muy bonito. | TYEH-nehs oon NOHM-breh mwee boh-NEE-toh | You have a really pretty name. | Anyone to anyone; bonito agrees with nombre. Mild, a safe opener.
-    Eres muy linda. | EH-rehs mwee LEEN-dah | You're really pretty and sweet. | To a woman; to a man: lindo. Warm.
+    Eres muy linda. | EH-rehh mwee LEEN-dah | You're really pretty and sweet. | To a woman; to a man: lindo. Warm.
     Eres una persona muy linda. | EH-rehs OO-nah pehr-SOH-nah mwee LEEN-dah | You're a really lovely person. | Anyone to anyone; persona is always feminine. Mild: about character.
-    Estás hermosa. | ehs-TAHS ehr-MOH-sah | You look beautiful. | To a woman; to a man: Estás hermoso (rare). Bold.
-    Te ves hermosa esta noche. | teh behs ehr-MOH-sah EHS-tah NOH-cheh | You look beautiful tonight. | To a woman, on a date; to a man: Te ves muy bien esta noche. Bold.
-    ¡Qué chula te ves! | keh CHOO-lah teh behs | You look so cute! | Casual, to a woman; to a man: chulo. Warm.
-    Eres muy simpática. | EH-rehs mwee seem-PAH-tee-kah | You're really nice. | To a woman; to a man: simpático. Mild.
+    Estás hermosa. | ehh-TAHS ehr-MOH-sah | You look beautiful. | To a woman; to a man: Estás hermoso (rare). Bold.
+    Te ves hermosa esta noche. | teh behs ehr-MOH-sah EHH-tah NOH-cheh | You look beautiful tonight. | To a woman, on a date; to a man: Te ves muy bien esta noche. Bold.
+    ¡Qué chula te ves! | keh CHOO-lah teh behh | You look so cute! | Casual, to a woman; to a man: chulo. Warm.
+    Eres muy simpática. | EH-rehh mwee seem-PAH-tee-kah | You're really nice. | To a woman; to a man: simpático. Mild.
     Eres encantador. | EH-rehs ehn-kahn-tah-DOHR | You're charming. | To a man; to a woman: encantadora. Warm.
-    Me encanta lo inteligente que eres. | meh ehn-KAHN-tah loh een-teh-lee-HEHN-teh keh EH-rehs | I love how smart you are. | Anyone to anyone; inteligente never changes. Warm.
-    Eres muy graciosa. | EH-rehs mwee grah-SYOH-sah | You're really funny. | To a woman; to a man: gracioso. Mild.
-    Me haces reír mucho. | meh AH-sehs rreh-EER MOO-choh | You make me laugh a lot. | Anyone to anyone. Warm.
-    Eres muy dulce. | EH-rehs mwee DOOL-seh | You're very sweet. | Anyone to anyone; dulce never changes. Warm.
-    Eres un amor. | EH-rehs oon ah-MOHR | You're a sweetheart. | Anyone to anyone; amor stays masculine. Warm, also to friends.
-    ¡Qué tierno eres! | keh TYEHR-noh EH-rehs | You're so sweet! | To a man; to a woman: ¡Qué tierna eres! Warm, a little teasing.
+    Me encanta lo inteligente que eres. | meh ehn-KAHN-tah loh een-teh-lee-HEHN-teh keh EH-rehh | I love how smart you are. | Anyone to anyone; inteligente never changes. Warm.
+    Eres muy graciosa. | EH-rehh mwee grah-SYOH-sah | You're really funny. | To a woman; to a man: gracioso. Mild.
+    Me haces reír mucho. | meh AH-sehh rreh-EER MOO-choh | You make me laugh a lot. | Anyone to anyone. Warm.
+    Eres muy dulce. | EH-rehh mwee DOOL-seh | You're very sweet. | Anyone to anyone; dulce never changes. Warm.
+    Eres un amor. | EH-rehs oong ah-MOHR | You're a sweetheart. | Anyone to anyone; amor stays masculine. Warm, also to friends.
+    ¡Qué tierno eres! | keh TYEHR-noh EH-rehh | You're so sweet! | To a man; to a woman: ¡Qué tierna eres! Warm, a little teasing.
     Tienes una sonrisa muy bonita. | TYEH-nehs OO-nah sohn-RREE-sah mwee boh-NEE-tah | You have a really nice smile. | Anyone to anyone; bonita agrees with sonrisa. Mild, a safe opener.
     Me encanta tu sonrisa. | meh ehn-KAHN-tah too sohn-RREE-sah | I love your smile. | Anyone to anyone. Warm.
     ¡Qué linda sonrisa! | keh LEEN-dah sohn-RREE-sah | What a lovely smile! | Anyone to anyone; linda agrees with sonrisa. Mild.
-    Tienes unos ojos preciosos. | TYEH-nehs OO-nohs OH-hohs preh-SYOH-sohs | You have beautiful eyes. | Anyone to anyone; preciosos agrees with ojos. Warm, a classic.
-    Me pierdo en tus ojos. | meh PYEHR-doh ehn toos OH-hohs | I get lost in your eyes. | Anyone to anyone, as a joke; no gender change. Bold and cheesy.
+    Tienes unos ojos preciosos. | TYEH-nehs OO-nohs OH-hohh preh-SYOH-sohh | You have beautiful eyes. | Anyone to anyone; preciosos agrees with ojos. Warm, a classic.
+    Me pierdo en tus ojos. | meh PYEHR-doh ehn toos OH-hohh | I get lost in your eyes. | Anyone to anyone, as a joke; no gender change. Bold and cheesy.
     Me encanta tu risa. | meh ehn-KAHN-tah too RREE-sah | I love your laugh. | Anyone to anyone. Warm.
-    Tienes una voz muy bonita. | TYEH-nehs OO-nah bohs mwee boh-NEE-tah | You have a really nice voice. | Anyone to anyone; bonita agrees with voz. Mild.
-    Me gusta tu estilo. | meh GOOS-tah too ehs-TEE-loh | I like your style. | Anyone to anyone. Mild, can be just friendly.
+    Tienes una voz muy bonita. | TYEH-nehs OO-nah bohh mwee boh-NEE-tah | You have a really nice voice. | Anyone to anyone; bonita agrees with voz. Mild.
+    Me gusta tu estilo. | meh GOOH-tah too ehh-TEE-loh | I like your style. | Anyone to anyone. Mild, can be just friendly.
     Me encanta tu pelo. | meh ehn-KAHN-tah too PEH-loh | I love your hair. | Anyone to anyone. Warm.
     Tienes una mirada preciosa. | TYEH-nehs OO-nah mee-RAH-dah preh-SYOH-sah | You have a beautiful way of looking at people. | Anyone to anyone; preciosa agrees with mirada. Warm to bold.
     ¿Es una cita? | ehs OO-nah SEE-tah | Is this a date? | Anyone to anyone, with a smile; no gender change. Playful, bold.
     Me la pasé muy bien contigo. | meh lah pah-SEH mwee byehn kohn-TEE-goh | I had a really good time with you. | Anyone to anyone, after a date. Warm.
-    Me caes muy bien. | meh KAH-ehs mwee byehn | I really like you (as a person). | Anyone to anyone. Mild: friendly, not romantic.
+    Me caes muy bien. | meh KAH-ehh mwee byehng | I really like you (as a person). | Anyone to anyone. Mild: friendly, not romantic.
     Me encanta hablar contigo. | meh ehn-KAHN-tah ah-BLAHR kohn-TEE-goh | I love talking with you. | Anyone to anyone. Warm.
-    Me gustas. | meh GOOS-tahs | I like you (romantically). | Anyone to anyone; no gender change. Bold: it is a confession.
+    Me gustas. | meh GOOH-tahh | I like you (romantically). | Anyone to anyone; no gender change. Bold: it is a confession.
     Pienso mucho en ti. | PYEHN-soh MOO-choh ehn tee | I think about you a lot. | Anyone to anyone. Bold.
-    Me alegraste el día. | meh ah-leh-GRAHS-teh ehl DEE-ah | You made my day. | Anyone to anyone. Warm.
+    Me alegraste el día. | meh ah-leh-GRAHH-teh ehl DEE-ah | You made my day. | Anyone to anyone. Warm.
     Te extrañé. | teh ehks-trah-NYEH | I missed you. | Anyone to anyone. Warm. Spain: te eché de menos.
-    ¿Tienes novio? | TYEH-nehs NOH-byoh | Do you have a boyfriend? | Asking a woman (or a man who dates men); for a girlfriend: novia. Bold.
+    ¿Tienes novio? | TYEH-nehh NOH-byoh | Do you have a boyfriend? | Asking a woman (or a man who dates men); for a girlfriend: novia. Bold.
     ¿Te puedo invitar un café? | teh PWEH-doh een-bee-TAHR oon kah-FEH | Can I buy you a coffee? | Anyone to anyone; invitar means I pay. Warm.
-    ¿Quieres salir conmigo? | KYEH-rehs sah-LEER kohn-MEE-goh | Do you want to go out with me? | Anyone to anyone; a clear date request. Bold.
-    ¿Me das tu número? | meh dahs too NOO-meh-roh | Can I have your number? | Anyone to anyone. Warm.
-    ¿Estás libre el sábado? | ehs-TAHS LEE-breh ehl SAH-bah-doh | Are you free on Saturday? | Anyone to anyone; libre never changes. Mild.
-    ¿Vamos a cenar un día de estos? | BAH-mohs ah seh-NAHR oon DEE-ah deh EHS-tohs | Shall we go to dinner one of these days? | Anyone to anyone. Mild: a soft invitation.
+    ¿Quieres salir conmigo? | KYEH-rehh sah-LEER kohn-MEE-goh | Do you want to go out with me? | Anyone to anyone; a clear date request. Bold.
+    ¿Me das tu número? | meh dahh too NOO-meh-roh | Can I have your number? | Anyone to anyone. Warm.
+    ¿Estás libre el sábado? | ehh-TAHH LEE-breh ehl SAH-bah-doh | Are you free on Saturday? | Anyone to anyone; libre never changes. Mild.
+    ¿Vamos a cenar un día de estos? | BAH-mohs ah seh-NAHR oon DEE-ah deh EHH-tohh | Shall we go to dinner one of these days? | Anyone to anyone. Mild: a soft invitation.
     ¡Me encantaría! | meh ehn-kahn-tah-REE-ah | I'd love to! | A warm yes, anyone to anyone; no gender change.
     Claro que sí. | KLAH-roh keh see | Of course, yes. | A clear yes, anyone to anyone; no gender change. Warm.
     ¡Ay, qué coqueto! | ai keh koh-KEH-toh | Oh, what a flirt! | Playful reply to a man; to a woman: coqueta. Mild.
-    Eso se lo dices a todas. | EH-soh seh loh DEE-sehs ah TOH-dahs | You say that to all the girls. | Playful reply to a man; to a woman: a todos. Mild.
-    Gracias, pero tengo novio. | GRAH-syahs PEH-roh TEHN-goh NOH-byoh | Thanks, but I have a boyfriend. | A kind, clear no; or: tengo novia. Mild.
-    Gracias, pero no estoy interesada. | GRAH-syahs PEH-roh noh ehs-TOY een-teh-reh-SAH-dah | Thanks, but I'm not interested. | A kind, clear no, said by a woman; a man says interesado. Mild.
-    Prefiero que seamos amigos. | preh-FYEH-roh keh seh-AH-mohs ah-MEE-gohs | I'd rather we be friends. | The softest no, anyone to anyone; no gender change. Mild.
+    Eso se lo dices a todas. | EH-soh seh loh DEE-sehs ah TOH-dahh | You say that to all the girls. | Playful reply to a man; to a woman: a todos. Mild.
+    Gracias, pero tengo novio. | GRAH-syahh PEH-roh TEHN-goh NOH-byoh | Thanks, but I have a boyfriend. | A kind, clear no; or: tengo novia. Mild.
+    Gracias, pero no estoy interesada. | GRAH-syahh PEH-roh noh ehh-TOY een-teh-reh-SAH-dah | Thanks, but I'm not interested. | A kind, clear no, said by a woman; a man says interesado. Mild.
+    Prefiero que seamos amigos. | preh-FYEH-roh keh seh-AH-mohs ah-MEE-gohh | I'd rather we be friends. | The softest no, anyone to anyone; no gender change. Mild.
   `,
 };

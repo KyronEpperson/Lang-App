@@ -5,7 +5,7 @@ module.exports = [
     title: "Sounds, spelling and stress",
     blurb: "Read any Spanish word aloud: the five vowels, the letters that differ from English, and where the stress goes.",
     deck: "Sounds and spelling",
-    sections: [null, null, [{"deck": "Sounds and spelling", "n": [0, 7]}, {"deck": "Sounds and spelling", "n": [10, 15]}, {"name": "More spellings", "cards": [["ch", "ch", "the spelling ch", "Always as in church: mucho, MOO-choh."], ["x", "ks", "the letter x", "ks, as in el taxi, ehl TAHK-see. In México and a few other names it is the breathy h: MEH-hee-koh."], ["gü", "gw", "g and u with two dots", "The two dots mean the u is said, as a w: pingüino, peen-GWEE-noh."], ["b", "b", "the letter b", "The same sound as v: bien, byehn, and el vaso, ehl BAH-soh."], ["gue", "gheh", "the spelling gue", "The u is silent and keeps the g hard: la hamburguesa, lah ahm-boor-GHEH-sah."]]}], {"deck": "Sounds and spelling", "n": [7, 10]}, [{"deck": "Sounds and spelling", "n": [15, 17]}, {"name": "Whole words", "cards": [["el hotel", "ehl oh-TEHL", "the hotel", "h is silent. Ends in l, so the stress falls on the last syllable."], ["gracias", "GRAH-syahs", "thank you", "c before i sounds s; ia is one syllable. Ends in s: stress on the next-to-last syllable."], ["la ciudad", "lah syoo-DAHD", "the city", "c before i sounds s; iu is one syllable. Ends in d: stress on the last syllable."], ["feliz", "feh-LEES", "happy", "z sounds s. Ends in z: stress on the last syllable."], ["el trabajo", "ehl trah-BAH-hoh", "work; the job", "j is the breathy h. Ends in a vowel: stress on the next-to-last syllable."], ["joven", "HOH-behn", "young", "j is the breathy h, v sounds b. Ends in n: stress on the next-to-last syllable."], ["la playa", "lah PLAH-yah", "the beach", "y before a vowel is y as in yes. Ends in a vowel: stress on the next-to-last syllable."], ["el gimnasio", "ehl heem-NAH-syoh", "the gym", "g before i is the breathy h; io is one syllable. Ends in a vowel: stress on the next-to-last syllable."], ["pequeño", "peh-KEH-nyoh", "small", "qu sounds k, ñ sounds ny. Ends in a vowel: stress on the next-to-last syllable."], ["rojo", "RROH-hoh", "red", "r at the start of a word is a trill; j is the breathy h. Ends in a vowel: stress on the next-to-last syllable."], ["la verdad", "lah behr-DAHD", "the truth", "v sounds b. Ends in d: stress on the last syllable."], ["la lengua", "lah LEHN-gwah", "the tongue; the language", "gu before a is said gw. Ends in a vowel: stress on the next-to-last syllable."], ["el examen", "ehl ehk-SAH-mehn", "the exam", "x sounds ks. Ends in n: stress on the next-to-last syllable, so no accent mark."], ["inglés", "een-GLEHS", "English", "Ends in s, so the rule would stress the first syllable; the accent mark moves it to the last."], ["el árbol", "ehl AHR-bohl", "the tree", "Ends in l, so the rule would stress the last syllable; the accent mark keeps it on the first."], ["la música", "lah MOO-see-kah", "music", "c before a sounds k. The accent mark puts the stress three syllables from the end."], ["el teléfono", "ehl teh-LEH-foh-noh", "the phone", "f and n as in English. The accent mark puts the stress three syllables from the end."], ["México", "MEH-hee-koh", "Mexico", "Here x is the breathy h, an old spelling. The accent mark puts the stress on the first syllable."]]}], null, null, null],
+    sections: [null, null, [{"deck": "Sounds and spelling", "n": [0, 7]}, {"deck": "Sounds and spelling", "n": [10, 15]}, {"name": "More spellings", "cards": [["ch", "ch", "the spelling ch", "Always as in church: mucho, MOO-choh."], ["x", "ks", "the letter x", "ks, as in el taxi, ehl TAHK-see. In México and a few other names it is the breathy h: MEH-hee-koh."], ["gü", "gw", "g and u with two dots", "The two dots mean the u is said, as a w: pingüino, peen-GWEE-noh."], ["b", "b", "the letter b", "The same sound as v: bien, byehng, and el vaso, ehl BAH-soh."], ["gue", "gheh", "the spelling gue", "The u is silent and keeps the g hard: la hamburguesa, lah ahm-boor-GHEH-sah."]]}], {"deck": "Sounds and spelling", "n": [7, 10]}, [{"deck": "Sounds and spelling", "n": [15, 17]}, {"name": "Whole words", "cards": [["el hotel", "ehl oh-TEHL", "the hotel", "h is silent. Ends in l, so the stress falls on the last syllable."], ["gracias", "GRAH-syahh", "thank you", "c before i sounds s; ia is one syllable. Ends in s: stress on the next-to-last syllable."], ["la ciudad", "lah syoo-DAHD", "the city", "c before i sounds s; iu is one syllable. Ends in d: stress on the last syllable."], ["feliz", "feh-LEEH", "happy", "z sounds s. Ends in z: stress on the last syllable."], ["el trabajo", "ehl trah-BAH-hoh", "work; the job", "j is the breathy h. Ends in a vowel: stress on the next-to-last syllable."], ["joven", "HOH-behng", "young", "j is the breathy h, v sounds b. Ends in n: stress on the next-to-last syllable."], ["la playa", "lah PLAH-yah", "the beach", "y before a vowel is y as in yes. Ends in a vowel: stress on the next-to-last syllable."], ["el gimnasio", "ehl heem-NAH-syoh", "the gym", "g before i is the breathy h; io is one syllable. Ends in a vowel: stress on the next-to-last syllable."], ["pequeño", "peh-KEH-nyoh", "small", "qu sounds k, ñ sounds ny. Ends in a vowel: stress on the next-to-last syllable."], ["rojo", "RROH-hoh", "red", "r at the start of a word is a trill; j is the breathy h. Ends in a vowel: stress on the next-to-last syllable."], ["la verdad", "lah behr-DAHD", "the truth", "v sounds b. Ends in d: stress on the last syllable."], ["la lengua", "lah LEHN-gwah", "the tongue; the language", "gu before a is said gw. Ends in a vowel: stress on the next-to-last syllable."], ["el examen", "ehl ehk-SAH-mehng", "the exam", "x sounds ks. Ends in n: stress on the next-to-last syllable, so no accent mark."], ["inglés", "een-GLEHH", "English", "Ends in s, so the rule would stress the first syllable; the accent mark moves it to the last."], ["el árbol", "ehl AHR-bohl", "the tree", "Ends in l, so the rule would stress the last syllable; the accent mark keeps it on the first."], ["la música", "lah MOO-see-kah", "music", "c before a sounds k. The accent mark puts the stress three syllables from the end."], ["el teléfono", "ehl teh-LEH-foh-noh", "the phone", "f and n as in English. The accent mark puts the stress three syllables from the end."], ["México", "MEH-hee-koh", "Mexico", "Here x is the breathy h, an old spelling. The accent mark puts the stress on the first syllable."]]}], null, null, null],
     body: `
 <p>Spanish spelling is very regular, so a few rules let you read almost anything. Under every Spanish phrase in this course there is a pronunciation line in English letters. The syllable in CAPITALS is the stressed one.</p>
 <p>The alphabet has 27 letters: the 26 you know, plus <b>ñ</b>. These ten sound much as in English (<b>k</b> and <b>w</b> turn up only in borrowed words). The rest of this lesson is about the others. Tap a letter to hear it.</p>
@@ -21,8 +21,8 @@ module.exports = [
 <p>Spanish stress follows one rule. A word ending in a vowel, <b>n</b> or <b>s</b> is stressed on the next-to-last syllable. Any other ending: the last syllable. A written accent mark (<b>á é í ó ú</b>) overrides both. Careful with words that look English: <b>hospital</b> and <b>animal</b> are stressed at the end.</p>
 <p>The mark changes only the stress, never the sound: <b>á</b> is still "ah". A few short words use it to tell two words apart: <b>sí</b> (yes) and <b>si</b> (if), <b>tú</b> (you) and <b>tu</b> (your). Two dots on <b>ü</b>, after g, mean the u is said: <b>pingüino</b>. Questions and exclamations also open with a mark, upside down: <b>¿Cómo estás?</b>, <b>¡Hola!</b></p>
 {{tiles:á=AH é=EH í=EE ó=OH ú=OO ü=w ¿=opens_? ¡=opens_!}}
-{{ex:el hospital|ehl ohs-pee-TAHL|the hospital}}
-{{ex:Adiós.|ah-DYOHS|Goodbye.}}
+{{ex:el hospital|ehl ohh-pee-TAHL|the hospital}}
+{{ex:Adiós.|ah-DYOHH|Goodbye.}}
 <h3>Letters that differ from English</h3>
 <div class="tbl"><table><tr><th>Spelling</th><th>Sound</th><th>Example</th></tr><tr><td class="k">h</td><td>always silent</td><td class="k">la hora</td></tr><tr><td class="k">j, and g before e or i</td><td>a breathy h, like a sigh</td><td class="k">el jugo, la gente</td></tr><tr><td class="k">ll, y</td><td>y as in <i>yes</i></td><td class="k">la llave</td></tr><tr><td class="k">ñ</td><td>ny as in <i>canyon</i></td><td class="k">el niño</td></tr><tr><td class="k">z, and c before e or i</td><td>s</td><td class="k">el zapato, el cine</td></tr><tr><td class="k">qu</td><td>k (the u is silent)</td><td class="k">el queso</td></tr><tr><td class="k">gue, gui</td><td>hard g (the u is silent)</td><td class="k">la guitarra</td></tr><tr><td class="k">v</td><td>the same as b</td><td class="k">el vaso</td></tr></table></div>
 <p>Two more: <b>x</b> is ks, as in <b>el taxi</b>, except in a few names such as <b>México</b>, where it is the breathy h. <b>ch</b> is always as in <i>church</i>. Tap a letter or spelling to hear it.</p>
@@ -37,7 +37,7 @@ module.exports = [
 {{ex:pero|PEH-roh|but}}
 {{ex:el perro|ehl PEH-rroh|the dog}}
 <h3>Read whole words</h3>
-<p>Now put it together. Read a word in two steps. First give each letter or spelling its Spanish sound: every vowel short and clear, <b>h</b> silent, <b>j</b> a breathy h. Then place the stress: an accent mark shows it; with no mark, a word ending in a vowel, <b>n</b> or <b>s</b> is stressed on the next-to-last syllable, and any other ending on the last. So <b>trabajo</b> is trah-BAH-hoh, and <b>feliz</b> is feh-LEES. Each card's note names the spelling and the stress rule. Say the word aloud before you flip it.</p>
+<p>Now put it together. Read a word in two steps. First give each letter or spelling its Spanish sound: every vowel short and clear, <b>h</b> silent, <b>j</b> a breathy h. Then place the stress: an accent mark shows it; with no mark, a word ending in a vowel, <b>n</b> or <b>s</b> is stressed on the next-to-last syllable, and any other ending on the last. So <b>trabajo</b> is trah-BAH-hoh, and <b>feliz</b> is feh-LEEH. Each card's note names the spelling and the stress rule. Say the word aloud before you flip it.</p>
 {{ex:el trabajo|ehl trah-BAH-hoh|work; the job}}
 <h3>el and la</h3>
 <p>Nouns here come with a small word in front: <b>el perro</b>, <b>la llave</b>. Both mean "the". Every noun is masculine or feminine (lesson 3, on gender, explains why), so learn each one with its <b>el</b> or <b>la</b>. For more than one: <b>los perros</b>, <b>las llaves</b>.</p>
@@ -45,7 +45,7 @@ module.exports = [
 <p>The line cannot show everything: <b>d</b> between vowels is soft, close to the <i>th</i> in <i>this</i>, and <b>p</b>, <b>t</b>, <b>k</b> have no puff of air. Listen to the audio first, and hide the line once the spelling feels natural.</p>
 {{ex:nada|NAH-dah|nothing}}
 <h3>How Dominicans sound</h3>
-<p>Everything above holds in the Dominican Republic; what changes is the end of the syllable. An <b>s</b> at the end of a syllable often becomes a soft breath, like an English h, so <b>estoy</b> sounds like "ehh-TOY". A final <b>n</b> before a pause sounds like the ng of <i>song</i>, so <b>pan</b> sounds like "pahng". And a stressed <b>-ado</b> often loses its d: <b>cansado</b> sounds like "cansao". The spelling stays standard: you always write <b>estoy</b>, <b>pan</b> and <b>cansado</b>. The next lesson trains your ear for these sounds.</p>
+<p>Everything above holds in the Dominican Republic; what changes is the end of the syllable, and the pronunciation line in this course shows it. A double h, as in <b>estoy</b> "ehh-TOY", is a soft breath where other countries say s; if you say nothing there, you still sound Dominican. An ng at the end, as in <b>pan</b> "pahng", is the ng of <i>song</i>. A stressed <b>-ado</b> is said "-ao": <b>cansado</b> is "kahn-SAH-oh", but the spelling stays <b>cansado</b>, just as you always write <b>estoy</b> and <b>pan</b>. The next lesson trains your ear for these sounds; until Dominican recordings are added, your phone's voice may still pronounce the s and the d.</p>
 <div class="tip"><b>Most common mistake:</b> saying the <b>h</b> the English way. <b>hola</b> with a breathy h → <b>hola</b> starting straight on the vowel. The breathy sound belongs to <b>j</b>, never to <b>h</b>.</div>
 `,
     check: [
@@ -79,24 +79,24 @@ module.exports = [
 <p><b>Hola</b> works with anyone, at any hour. To sound warmer or more polite, add the greeting for the time of day.</p>
 <h3>Morning, afternoon, evening</h3>
 <p>English says "good morning". Spanish says "good days": <b>buenos días</b>. After about noon it is <b>buenas tardes</b>, and after dark <b>buenas noches</b>, which means both "good evening" and "good night".</p>
-{{ex:Buenos días.|BWEH-nohs DEE-ahs|Good morning.}}
-{{ex:Buenas noches.|BWEH-nahs NOH-chehs|Good evening. Good night.}}
+{{ex:Buenos días.|BWEH-nohh DEE-ahh|Good morning.}}
+{{ex:Buenas noches.|BWEH-nahh NOH-chehh|Good evening. Good night.}}
 <p>Why <b>buenos</b> in one and <b>buenas</b> in the others? <b>Días</b> is a masculine word and <b>tardes</b> and <b>noches</b> are feminine, and the word for "good" changes to match. This is your first taste of agreement, which runs through all of Spanish.</p>
 <h3>Two ways to say "you"</h3>
 <p>English has one "you". Spanish has two for one person. Use <b>tú</b> with friends, family, children and people your age in relaxed settings. Use <b>usted</b> with strangers, older people, customers and staff. The verb changes too: <b>estás</b> goes with <b>tú</b>, <b>está</b> with <b>usted</b>.</p>
 <div class="tbl"><table><tr><th></th><th>To a friend (tú)</th><th>To a stranger (usted)</th></tr><tr><td>How are you?</td><td class="k">¿Cómo estás?</td><td class="k">¿Cómo está usted?</td></tr><tr><td>And you?</td><td class="k">¿Y tú?</td><td class="k">¿Y usted?</td></tr><tr><td>What's your name?</td><td class="k">¿Cómo te llamas?</td><td class="k">¿Cómo se llama usted?</td></tr><tr><td>Excuse me.</td><td class="k">Disculpa.</td><td class="k">Disculpe.</td></tr></table></div>
-{{ex:¡Hola! ¿Cómo estás?|OH-lah KOH-moh ehs-TAHS|Hi! How are you?}}
-{{ex:Buenas tardes. ¿Cómo está usted?|BWEH-nahs TAHR-dehs KOH-moh ehs-TAH oos-TEHD|Good afternoon. How are you?}}
-{{ex:Bien, gracias. ¿Y tú?|byehn GRAH-syahs ee too|Fine, thanks. And you?}}
+{{ex:¡Hola! ¿Cómo estás?|OH-lah KOH-moh ehh-TAHH|Hi! How are you?}}
+{{ex:Buenas tardes. ¿Cómo está usted?|BWEH-nahh TAHR-dehh KOH-moh ehh-TAH ooh-TEHD|Good afternoon. How are you?}}
+{{ex:Bien, gracias. ¿Y tú?|byehng GRAH-syahh ee too|Fine, thanks. And you?}}
 <p>When in doubt, start with <b>usted</b>. If the other person wants <b>tú</b>, they will switch, and you can follow.</p>
 <p>In the Dominican Republic, <b>tú</b> is the everyday form, and Dominicans are said to use it very widely, even with someone new of about their own age; watch what the people around you do. Keep <b>usted</b> for older people, for customers and staff, for the police, and for a stranger you stop to ask for help. You will also hear <b>¿Cómo tú estás?</b>, with <b>tú</b> before the verb. It means the same as <b>¿Cómo estás?</b>, and both are right.</p>
 <h3>Names</h3>
 <p>To give your name, say <b>me llamo</b>, literally "I call myself". It already contains "my name is", so nothing else goes in between. When you meet someone, say <b>mucho gusto</b>, "nice to meet you".</p>
 {{ex:Me llamo Ana.|meh YAH-moh AH-nah|My name is Ana.}}
-{{ex:Mucho gusto.|MOO-choh GOOS-toh|Nice to meet you.}}
+{{ex:Mucho gusto.|MOO-choh GOOH-toh|Nice to meet you.}}
 <h3>Small polite words</h3>
 <p><b>Por favor</b> is "please", <b>gracias</b> is "thank you", and the answer is <b>de nada</b>, "you're welcome". To leave, say <b>adiós</b> or <b>hasta luego</b>, "see you later".</p>
-{{ex:Gracias. De nada.|GRAH-syahs deh NAH-dah|Thank you. You're welcome.}}
+{{ex:Gracias. De nada.|GRAH-syahh deh NAH-dah|Thank you. You're welcome.}}
 <p>In Spain you will also hear <b>vosotros</b> for "you all". Latin America uses <b>ustedes</b> for any group, and so does this course.</p>
 <div class="tip"><b>Most common mistake:</b> one form of "good" for every greeting. <b>Buenos tardes</b> → <b>buenas tardes</b>. Only <b>días</b> takes <b>buenos</b>.</div>
 `,
@@ -143,11 +143,11 @@ module.exports = [
 <h3>More than one</h3>
 <p>To make a noun plural, add <b>-s</b> after a vowel and <b>-es</b> after a consonant. The article changes too: <b>el</b> becomes <b>los</b>, and <b>la</b> becomes <b>las</b>.</p>
 <div class="tbl"><table><tr><th>One</th><th>More than one</th></tr><tr><td class="k">el amigo</td><td class="k">los amigos</td></tr><tr><td class="k">la mano</td><td class="k">las manos</td></tr><tr><td class="k">la ciudad</td><td class="k">las ciudades</td></tr></table></div>
-{{ex:las ciudades|lahs syoo-DAH-dehs|the cities}}
+{{ex:las ciudades|lahh syoo-DAH-dehh|the cities}}
 <h3>Mixed groups</h3>
 <p>For a group of men and women together, Spanish uses the masculine plural. So <b>los hermanos</b> can mean "the brothers" or "the brothers and sisters", and <b>los padres</b> means "the parents". Careful: <b>los parientes</b> means "the relatives", not "the parents".</p>
-{{ex:los hermanos|lohs ehr-MAH-nohs|the brothers; the siblings}}
-{{ex:los padres|lohs PAH-drehs|the parents}}
+{{ex:los hermanos|lohs ehr-MAH-nohh|the brothers; the siblings}}
+{{ex:los padres|lohh PAH-drehh|the parents}}
 <div class="tip"><b>Most common mistake:</b> trusting the ending every time. <b>la problema</b> → <b>el problema</b>, and <b>el mano</b> → <b>la mano</b>.</div>
 `,
     check: [
@@ -186,14 +186,14 @@ module.exports = [
 <div class="tbl"><table><tr><th></th><th>Masculine</th><th>Feminine</th></tr><tr><td>the (one)</td><td class="k">el tostón</td><td class="k">la chinola</td></tr><tr><td>the (more)</td><td class="k">los tostones</td><td class="k">las chinolas</td></tr><tr><td>a</td><td class="k">un tostón</td><td class="k">una chinola</td></tr><tr><td>some</td><td class="k">unos tostones</td><td class="k">unas chinolas</td></tr></table></div>
 {{ex:Un café, por favor.|oon kah-FEH pohr fah-BOHR|A coffee, please.}}
 {{ex:Una cerveza, por favor.|OO-nah sehr-BEH-sah pohr fah-BOHR|A beer, please.}}
-{{ex:Unos tostones, por favor.|OO-nohs tohs-TOH-nehs pohr fah-BOHR|Some tostones, please.}}
+{{ex:Unos tostones, por favor.|OO-nohh tohh-TOH-nehh pohr fah-BOHR|Some tostones, please.}}
 <p>Note that "a" is <b>un</b>, not <b>uno</b>, in front of a noun. <b>Uno</b> is the number you count with.</p>
 <h3>el agua: a feminine word with el</h3>
 <p><b>Agua</b> (water) is feminine, but it starts with a stressed <b>a</b> sound, and <b>la agua</b> would run two a sounds together. So in the singular it takes <b>el</b>: <b>el agua</b>. It is still feminine, as you will see when adjectives come along.</p>
 {{ex:un vaso de agua|oon BAH-soh deh AH-gwah|a glass of water}}
 <h3>Things in general keep the article</h3>
 <p>English drops the article when it talks about something in general: "I like coffee", "Tostones are great". Spanish keeps it. To say you like something, use the set phrase <b>me gusta</b> plus the noun with its article. A later lesson explains how <b>gustar</b> works.</p>
-{{ex:Me gusta el café.|meh GOOS-tah ehl kah-FEH|I like coffee.}}
+{{ex:Me gusta el café.|meh GOOH-tah ehl kah-FEH|I like coffee.}}
 <h3>Ordering</h3>
 <p>In a café or a <b>comedor</b> (a simple lunch place), a noun with its article plus <b>por favor</b> already makes a polite order. Ask for the check the same way.</p>
 {{ex:La cuenta, por favor.|lah KWEHN-tah pohr fah-BOHR|The check, please.}}
@@ -233,19 +233,19 @@ module.exports = [
 <div class="tbl"><table><tr><th>Subject</th><th>ser</th><th>English</th></tr><tr><td class="k">yo</td><td class="k">soy</td><td>I am</td></tr><tr><td class="k">tú</td><td class="k">eres</td><td>you are (a friend)</td></tr><tr><td class="k">él, ella, usted</td><td class="k">es</td><td>he is, she is, you are (a stranger)</td></tr><tr><td class="k">nosotros, nosotras</td><td class="k">somos</td><td>we are</td></tr><tr><td class="k">ellos, ellas, ustedes</td><td class="k">son</td><td>they are, you all are</td></tr></table></div>
 <p>Two things to notice. <b>Usted</b> takes the same form as <b>él</b>, and <b>ustedes</b> the same form as <b>ellos</b>. And <b>nosotras</b> and <b>ellas</b> are for groups of women only; any mixed group is <b>nosotros</b> or <b>ellos</b>.</p>
 {{ex:Ella es Ana.|EH-yah ehs AH-nah|This is Ana. She's Ana.}}
-{{ex:Usted es de Santiago, ¿no?|oos-TEHD ehs deh sahn-TYAH-goh noh|You're from Santiago, right?}}
+{{ex:Usted es de Santiago, ¿no?|ooh-TEHD ehh deh sahn-TYAH-goh noh|You're from Santiago, right?}}
 <h3>With or without the pronoun</h3>
 <p>English always needs "I" or "you". In Spanish the verb ending already tells you who, so <b>soy</b> alone means "I am", and <b>Soy de Chicago</b> is a full sentence. Dominicans also say the pronoun a lot, much more than speakers in Mexico: <b>yo soy</b>, <b>tú eres</b> and <b>nosotros somos</b> are normal everyday Spanish, not heavy. Both ways are right. A pronoun is most useful for contrast or to make clear who is meant.</p>
 {{ex:Soy de Chicago.|soy deh chee-KAH-goh|I'm from Chicago.}}
-{{ex:Nosotros somos de Santo Domingo.|noh-SOH-trohs SOH-mohs deh SAHN-toh doh-MEEN-goh|We're from Santo Domingo.}}
+{{ex:Nosotros somos de Santo Domingo.|noh-SOH-trohh SOH-mohh deh SAHN-toh doh-MEEN-goh|We're from Santo Domingo.}}
 <h3>Where you are from: ser de</h3>
 <p>Origin always uses <b>ser de</b>, "to be from". To ask a friend, say <b>¿De dónde eres?</b>; to ask a stranger, <b>¿De dónde es usted?</b></p>
-{{ex:¿De dónde eres?|deh DOHN-deh EH-rehs|Where are you from?}}
+{{ex:¿De dónde eres?|deh DOHN-deh EH-rehh|Where are you from?}}
 <h3>Jobs: no un, no una</h3>
 <p>English says "I'm <i>a</i> nurse". Spanish leaves the article out: <b>Soy enfermera</b>. Many job words change for a man or a woman, just like the people words in the gender lesson: <b>enfermero, enfermera</b>; <b>maestro, maestra</b>. Words ending in <b>-e</b>, like <b>estudiante</b>, stay the same.</p>
 {{ex:Soy enfermera.|soy ehn-fehr-MEH-rah|I'm a nurse.}}
-{{ex:Carlos es maestro.|KAHR-lohs ehs mah-EHS-troh|Carlos is a teacher.}}
-{{ex:Ellos son estudiantes.|EH-yohs sohn ehs-too-DYAHN-tehs|They're students.}}
+{{ex:Carlos es maestro.|KAHR-lohs ehh mah-EHH-troh|Carlos is a teacher.}}
+{{ex:Ellos son estudiantes.|EH-yohh sohng ehh-too-DYAHN-tehh|They're students.}}
 <div class="tip"><b>Most common mistake:</b> copying the English "a" before a job. <b>Soy un estudiante</b> → <b>Soy estudiante</b>.</div>
 `,
     check: [
@@ -283,19 +283,19 @@ module.exports = [
 <h3>Four forms</h3>
 <p>An adjective ending in <b>-o</b> has four forms. It takes <b>-o</b> or <b>-a</b> to match the gender of the noun, and adds <b>-s</b> when the noun is plural. Check the noun first, then pick the ending that matches it. Usually the adjective copies the ending of the noun, but follow the gender, not the letters: <b>el mapa</b> is masculine, so it is <b>el mapa rojo</b>.</p>
 <div class="tbl"><table><tr><th></th><th>One</th><th>More than one</th></tr><tr><td>Masculine</td><td class="k">el vestido negro</td><td class="k">los zapatos negros</td></tr><tr><td>Feminine</td><td class="k">la falda negra</td><td class="k">las camisas negras</td></tr></table></div>
-{{ex:los zapatos negros|lohs sah-PAH-tohs NEH-grohs|the black shoes}}
+{{ex:los zapatos negros|lohh sah-PAH-tohh NEH-grohh|the black shoes}}
 <h3>Two forms</h3>
 <p>Adjectives ending in <b>-e</b> or a consonant are the same for masculine and feminine. They only change for the plural: <b>-s</b> after <b>-e</b>, <b>-es</b> after a consonant.</p>
 <div class="tbl"><table><tr><th>One</th><th>More than one</th></tr><tr><td class="k">verde</td><td class="k">verdes</td></tr><tr><td class="k">grande</td><td class="k">grandes</td></tr><tr><td class="k">azul</td><td class="k">azules</td></tr><tr><td class="k">gris</td><td class="k">grises</td></tr></table></div>
-{{ex:El suéter es verde.|ehl SWEH-tehr ehs BEHR-deh|The sweater is green.}}
-{{ex:Los pantalones son azules.|lohs pahn-tah-LOH-nehs sohn ah-SOO-lehs|The pants are blue.}}
+{{ex:El suéter es verde.|ehl SWEH-tehr ehh BEHR-deh|The sweater is green.}}
+{{ex:Los pantalones son azules.|lohh pahn-tah-LOH-nehh sohng ah-SOO-lehh|The pants are blue.}}
 <h3>After ser</h3>
 <p>The adjective agrees even when it comes after the verb. It looks back at the subject: one woman is <b>alta</b>, two men are <b>altos</b>. A mixed group takes the masculine plural, just like nouns do.</p>
 {{ex:Ana es alta.|AH-nah ehs AHL-tah|Ana is tall.}}
-{{ex:Ana y Carlos son altos.|AH-nah ee KAHR-lohs sohn AHL-tohs|Ana and Carlos are tall.}}
+{{ex:Ana y Carlos son altos.|AH-nah ee KAHR-lohh sohng AHL-tohh|Ana and Carlos are tall.}}
 <h3>Colors</h3>
 <p>Colors are adjectives too, so they follow every rule above: <b>rojo</b> (red), <b>blanco</b> (white), <b>negro</b> (black), <b>amarillo</b> (yellow), <b>verde</b> (green), <b>azul</b> (blue), <b>gris</b> (gray). In a store you will describe clothes all the time, so practice saying the noun and its color together as one unit. Other handy words for shopping: <b>caro</b> (expensive) and <b>barato</b> (cheap).</p>
-{{ex:Las camisas son baratas.|lahs kah-MEE-sahs sohn bah-RAH-tahs|The shirts are cheap.}}
+{{ex:Las camisas son baratas.|lahh kah-MEE-sahh sohn bah-RAH-tahh|The shirts are cheap.}}
 <div class="tip"><b>Most common mistake:</b> keeping the adjective in its masculine form. <b>la camisa rojo</b> → <b>la camisa roja</b>, and never <b>la roja camisa</b>.</div>
 `,
     check: [
@@ -332,18 +332,18 @@ module.exports = [
 <p>Watch the accent marks. <b>Está</b> (is) and <b>esta</b> (this) are different words, and the accent shows the stress on the last syllable.</p>
 <h3>Where: location</h3>
 <p>English uses "is" for location; Spanish uses <b>estar</b>. To ask where something is, say <b>¿Dónde está…?</b> For more than one thing, <b>¿Dónde están…?</b> Short answers you will hear: <b>aquí</b> (here), <b>allí</b> (there), <b>cerca</b> (close) and <b>lejos</b> (far).</p>
-{{ex:¿Dónde está el baño?|DOHN-deh ehs-TAH ehl BAH-nyoh|Where is the bathroom?}}
-{{ex:El banco está cerca.|ehl BAHN-koh ehs-TAH SEHR-kah|The bank is close.}}
-{{ex:Estamos en el hotel.|ehs-TAH-mohs ehn ehl oh-TEHL|We're at the hotel.}}
+{{ex:¿Dónde está el baño?|DOHN-deh ehh-TAH ehl BAH-nyoh|Where is the bathroom?}}
+{{ex:El banco está cerca.|ehl BAHN-koh ehh-TAH SEHR-kah|The bank is close.}}
+{{ex:Estamos en el hotel.|ehh-TAH-mohs ehng ehl oh-TEHL|We're at the hotel.}}
 <p>This holds even when the place never moves. A city stays where it is, and it still takes <b>estar</b>.</p>
-{{ex:Punta Cana está en la República Dominicana.|POON-tah KAH-nah ehs-TAH ehn lah rreh-POO-blee-kah doh-mee-nee-KAH-nah|Punta Cana is in the Dominican Republic.}}
+{{ex:Punta Cana está en la República Dominicana.|POON-tah KAH-nah ehh-TAH ehn lah rreh-POO-blee-kah doh-mee-nee-KAH-nah|Punta Cana is in the Dominican Republic.}}
 <h3>How: the way someone is right now</h3>
 <p>You already know <b>¿Cómo estás?</b> The answer uses <b>estar</b> too: <b>Estoy bien</b>, "I'm fine", or <b>Estoy mal</b>, "I'm not well". With an adjective, the adjective agrees with the person, as in the last lesson: a man says <b>Estoy cansado</b>, a woman says <b>Estoy cansada</b>. The same goes for health: <b>Estoy enfermo</b> or <b>Estoy enferma</b>, "I'm sick".</p>
-{{ex:Estoy cansada.|ehs-TOY kahn-SAH-dah|I'm tired.}}
-{{ex:Los niños están bien.|lohs NEE-nyohs ehs-TAHN byehn|The kids are fine.}}
+{{ex:Estoy cansada.|ehh-TOY kahn-SAH-dah|I'm tired.}}
+{{ex:Los niños están bien.|lohh NEE-nyohs ehh-TAHN byehng|The kids are fine.}}
 <h3>Asking a stranger</h3>
 <p>To a stranger, start with <b>Disculpe</b> and use the <b>usted</b> form when you talk about them: <b>¿Está usted bien?</b> When you ask about a place, the verb agrees with the place, not with the person you are talking to.</p>
-{{ex:Disculpe, ¿dónde está la farmacia?|dees-KOOL-peh DOHN-deh ehs-TAH lah fahr-MAH-syah|Excuse me, where is the pharmacy?}}
+{{ex:Disculpe, ¿dónde está la farmacia?|deeh-KOOL-peh DOHN-deh ehh-TAH lah fahr-MAH-syah|Excuse me, where is the pharmacy?}}
 <div class="tip"><b>Most common mistake:</b> using <b>ser</b> because English uses "is". <b>¿Dónde es el baño?</b> → <b>¿Dónde está el baño?</b></div>
 `,
     check: [
@@ -378,22 +378,22 @@ module.exports = [
 <h3>The test</h3>
 <p>Ask yourself what the sentence is about. Is it <i>what</i> someone or something is: who, what kind, from where, what job, when or where an event takes place? Use <b>ser</b>. Is it <i>where</i> something is, or <i>how</i> someone is right now? Use <b>estar</b>.</p>
 <div class="tbl"><table><tr><th>ser: what it is</th><th>estar: where and how it is</th></tr><tr><td class="k">Es Carlos. Es enfermero.</td><td class="k">Está en el hospital.</td></tr><tr><td class="k">Somos de Santiago.</td><td class="k">Estamos en Chicago.</td></tr><tr><td class="k">Ana es alta.</td><td class="k">Ana está cansada.</td></tr><tr><td class="k">Es tarde.</td><td class="k">Estoy bien.</td></tr></table></div>
-{{ex:Ana es alta y está cansada.|AH-nah ehs AHL-tah ee ehs-TAH kahn-SAH-dah|Ana is tall, and she's tired.}}
-{{ex:Diego es estudiante y está enfermo.|DYEH-goh ehs ehs-too-DYAHN-teh ee ehs-TAH ehn-FEHR-moh|Diego is a student, and he's sick.}}
+{{ex:Ana es alta y está cansada.|AH-nah ehs AHL-tah ee ehh-TAH kahn-SAH-dah|Ana is tall, and she's tired.}}
+{{ex:Diego es estudiante y está enfermo.|DYEH-goh ehs ehh-too-DYAHN-teh ee ehh-TAH ehn-FEHR-moh|Diego is a student, and he's sick.}}
 <h3>Forget "permanent vs temporary"</h3>
 <p>You may have heard that <b>ser</b> is for permanent things and <b>estar</b> for temporary ones. That rule breaks too often. Being a student is not permanent, yet it is <b>Soy estudiante</b>. A city never moves, yet it is <b>Santo Domingo está en la República Dominicana</b>. Use the test above instead.</p>
 <h3>Events take ser</h3>
 <p>One exception to "location takes estar": when you say where a party, a class or a meeting <i>takes place</i>, use <b>ser</b>. The building is somewhere; the event happens somewhere.</p>
-{{ex:La fiesta es en el parque.|lah FYEHS-tah ehs ehn ehl PAHR-keh|The party is in the park.}}
-{{ex:El parque está cerca.|ehl PAHR-keh ehs-TAH SEHR-kah|The park is close.}}
+{{ex:La fiesta es en el parque.|lah FYEHH-tah ehs ehng ehl PAHR-keh|The party is in the park.}}
+{{ex:El parque está cerca.|ehl PAHR-keh ehh-TAH SEHR-kah|The park is close.}}
 <h3>Feelings take estar</h3>
 <p>How you feel right now is a state, so it takes <b>estar</b>, and the adjective agrees with the person: <b>contento, contenta</b> (happy), <b>triste</b> (sad), <b>cansado, cansada</b> (tired), <b>nervioso, nerviosa</b> (nervous).</p>
-{{ex:Estamos contentos.|ehs-TAH-mohs kohn-TEHN-tohs|We're happy.}}
+{{ex:Estamos contentos.|ehh-TAH-mohh kohn-TEHN-tohh|We're happy.}}
 <h3>Words that change meaning</h3>
 <p>Some adjectives mean one thing with <b>ser</b> and another with <b>estar</b>. Learn these two pairs now.</p>
 <div class="tbl"><table><tr><th>with ser</th><th>with estar</th></tr><tr><td class="k">es aburrido</td><td class="k">está aburrido</td></tr><tr><td>is boring</td><td>is bored</td></tr><tr><td class="k">es listo</td><td class="k">está listo</td></tr><tr><td>is smart</td><td>is ready</td></tr></table></div>
 {{ex:Javier es aburrido.|hah-BYEHR ehs ah-boo-RREE-doh|Javier is boring.}}
-{{ex:¿Estás listo?|ehs-TAHS LEES-toh|Are you ready?}}
+{{ex:¿Estás listo?|ehh-TAHH LEEH-toh|Are you ready?}}
 <div class="tip"><b>Most common mistake:</b> using <b>ser</b> for how you feel. <b>Soy cansado</b> → <b>Estoy cansado</b>.</div>
 `,
     check: [
@@ -426,7 +426,7 @@ module.exports = [
     body: `
 <p>English has two forms: "there is" for one thing and "there are" for more. Spanish has one word for both: <b>hay</b>. It sounds just like English "I", and it never changes. You will use it all the time to describe a home, a street or a menu.</p>
 {{ex:Hay un baño.|ai oon BAH-nyoh|There's a bathroom.}}
-{{ex:Hay dos cuartos.|ai dohs KWAHR-tohs|There are two bedrooms.}}
+{{ex:Hay dos cuartos.|ai dohh KWAHR-tohh|There are two bedrooms.}}
 <h3>What comes after hay</h3>
 <p>After <b>hay</b> comes something new: a noun with <b>un</b>, <b>una</b>, <b>unos</b> or <b>unas</b>, a number like <b>dos</b> (two) or <b>tres</b> (three), or a noun with no article at all. The article still agrees with its noun, even though <b>hay</b> does not.</p>
 <div class="tbl"><table><tr><th>Spanish</th><th>English</th></tr><tr><td class="k">Hay una mesa.</td><td>There's a table.</td></tr><tr><td class="k">Hay unas sillas.</td><td>There are some chairs.</td></tr><tr><td class="k">Hay tres camas.</td><td>There are three beds.</td></tr><tr><td class="k">Hay agua.</td><td>There's water.</td></tr></table></div>
@@ -438,7 +438,7 @@ module.exports = [
 <h3>hay or estar?</h3>
 <p>Both can answer a question about places, but they do different jobs. <b>Hay</b> says that something exists somewhere: you are introducing it. <b>Estar</b> says where a particular thing is, one you have already mentioned or both know about. That is why <b>hay</b> goes with <b>un</b>, <b>una</b> or a number, and <b>estar</b> goes with <b>el</b> or <b>la</b>.</p>
 <div class="tbl"><table><tr><th>Introducing it: hay</th><th>Locating it: estar</th></tr><tr><td class="k">Hay un banco cerca.</td><td class="k">El banco está cerca.</td></tr><tr><td>There's a bank nearby.</td><td>The bank is nearby.</td></tr></table></div>
-{{ex:El banco está en el centro.|ehl BAHN-koh ehs-TAH ehn ehl SEHN-troh|The bank is downtown.}}
+{{ex:El banco está en el centro.|ehl BAHN-koh ehh-TAH ehng ehl SEHN-troh|The bank is downtown.}}
 <p>A typical exchange uses both: first <b>¿Hay una farmacia cerca?</b>, then, once you know there is one, <b>¿Dónde está la farmacia?</b></p>
 <div class="tip"><b>Most common mistake:</b> putting <b>el</b> or <b>la</b> after <b>hay</b>, as English does after "there's the…". <b>Hay el banco cerca</b> → <b>Hay un banco cerca</b>, or <b>El banco está cerca</b>.</div>
 `,

@@ -1723,3 +1723,6 @@ Owner: "also lets add dominican spanish", "for english speakers", "and vice vers
 - en-esdo: 31 lessons (6 new), 34 decks (6 new), 1,007 cards; review 22 findings applied; e2e 31 lessons; foundations and sections checks pass.
 - sdo-en: 43 lessons (1 new, `dominicanismos`), 14 new cards; parity with es-en PASS; review 10 edits.
 - Open: pron mode (careful now; owner asked), no Dominican recordings, native review. Details in docs/HANDOFF.md.
+
+## DO-2 (2.137.0, 2026-11-27)
+Owner chose the Dominican sound for the pron line of en-esdo. respell.js MODE natural, 516 prons regenerated, section-table and in-lesson readings too; prose pass on `sounds`, `do-sounds` and deck notes. validate PASS, repron 0 rewritten.

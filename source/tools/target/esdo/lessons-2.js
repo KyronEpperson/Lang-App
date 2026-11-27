@@ -17,20 +17,20 @@ module.exports = [
 <tr><td class="k">ellos, ellas, ustedes</td><td class="k">hablan</td><td class="k">comen</td><td class="k">viven</td></tr></table></div>
 <p><i>In Spain you will also hear <b>vosotros habláis</b> for "you all".</i></p>
 <p>The <b>-er</b> and <b>-ir</b> endings are the same except in the nosotros form: <b>comemos</b>, but <b>vivimos</b>.</p>
-{{ex:Hablo inglés y español.|AH-bloh een-GLEHS ee ehs-pah-NYOHL|I speak English and Spanish.}}
-{{ex:Ana trabaja en una oficina.|AH-nah trah-BAH-hah ehn OO-nah oh-fee-SEE-nah|Ana works in an office.}}
-{{ex:Vivimos en San Antonio.|bee-BEE-mohs ehn sahn ahn-TOH-nyoh|We live in San Antonio.}}
+{{ex:Hablo inglés y español.|AH-bloh een-GLEHS ee ehh-pah-NYOHL|I speak English and Spanish.}}
+{{ex:Ana trabaja en una oficina.|AH-nah trah-BAH-hah ehng OO-nah oh-fee-SEE-nah|Ana works in an office.}}
+{{ex:Vivimos en San Antonio.|bee-BEE-mohs ehn sahng ahn-TOH-nyoh|We live in San Antonio.}}
 <h3>With or without the subject pronoun</h3>
 <p>English needs "I" or "we" in every sentence. In Spanish the ending already says who, so <b>Trabajo en un hospital</b> is a full sentence. Dominicans also keep the pronoun a lot: <b>yo quiero</b> (I want), <b>tú sabes</b> (you know) and <b>nosotros vivimos aquí</b> are normal everyday Spanish, not heavy. Both ways are right. The pronoun is most useful for contrast: <b>Yo estudio, ella trabaja.</b></p>
-{{ex:Trabajo en un hospital.|trah-BAH-hoh ehn oon ohs-pee-TAHL|I work in a hospital.}}
+{{ex:Trabajo en un hospital.|trah-BAH-hoh ehng oong ohh-pee-TAHL|I work in a hospital.}}
 <h3>usted and ustedes</h3>
 <p>English has one "you". Spanish has three. To a friend, use the tú form: <b>hablas</b>. To a stranger, use <b>usted</b>, which takes the same form as <b>él</b>: <b>habla</b>. For more than one person, friends or strangers, use <b>ustedes</b>, which takes the ellos form: <b>hablan</b>.</p>
-{{ex:¿Usted habla inglés?|oos-TEHD AH-blah een-GLEHS|Do you speak English?}}
-{{ex:¿Ustedes viven aquí?|oos-TEH-dehs BEE-behn ah-KEE|Do you all live here?}}
+{{ex:¿Usted habla inglés?|ooh-TEHD AH-blah een-GLEHH|Do you speak English?}}
+{{ex:¿Ustedes viven aquí?|ooh-TEH-dehh BEE-behng ah-KEE|Do you all live here?}}
 <h3>One form for "I study" and "I'm studying"</h3>
 <p>English has two presents. Spanish uses the simple present for both: <b>Estudio español</b> means "I study Spanish" and also "I'm studying Spanish" these days. <b>Estoy estudiando</b> exists, but it is for this very moment, not for your routine or this year's plans.</p>
-{{ex:Estudio español.|ehs-TOO-dyoh ehs-pah-NYOHL|I study Spanish. I'm studying Spanish.}}
-{{ex:Mateo y Lucía comen en la oficina.|mah-TEH-oh ee loo-SEE-ah KOH-mehn ehn lah oh-fee-SEE-nah|Mateo and Lucía eat at the office.}}
+{{ex:Estudio español.|ehh-TOO-dyoh ehh-pah-NYOHL|I study Spanish. I'm studying Spanish.}}
+{{ex:Mateo y Lucía comen en la oficina.|mah-TEH-oh ee loo-SEE-ah KOH-mehng ehn lah oh-fee-SEE-nah|Mateo and Lucía eat at the office.}}
 <div class="tip">The most common mistake is one form for everyone. <b>Nosotros trabaja</b> → <b>Nosotros trabajamos</b>. Match the ending to the subject every time.</div>
 `,
     check: [
@@ -64,8 +64,8 @@ module.exports = [
 <p>English builds most questions with <i>do</i>: Do you speak Spanish? Where do you live? Spanish has no <i>do</i>. You keep the normal verb and either raise your voice or start with a question word.</p>
 <h3>Yes/no questions: raise your voice</h3>
 <p>Take a statement and let your voice rise at the end. In writing, open with <b>¿</b> and close with <b>?</b>. The verb does not change, and its ending still matches the subject. Exclamations work the same way, with <b>¡</b> at the start and <b>!</b> at the end: <b>¡Qué bien!</b> (How nice!). The upside-down marks tell you early how to read the sentence.</p>
-{{ex:¿Hablas inglés?|AH-blahs een-GLEHS|Do you speak English?}}
-{{ex:¿Usted trabaja aquí?|oos-TEHD trah-BAH-hah ah-KEE|Do you work here?}}
+{{ex:¿Hablas inglés?|AH-blahs een-GLEHH|Do you speak English?}}
+{{ex:¿Usted trabaja aquí?|ooh-TEHD trah-BAH-hah ah-KEE|Do you work here?}}
 <h3>The question words</h3>
 <div class="tbl"><table><tr><th>Spanish</th><th>English</th></tr>
 <tr><td class="k">¿qué?</td><td>what?</td></tr>
@@ -76,22 +76,22 @@ module.exports = [
 <tr><td class="k">¿cuánto? ¿cuánta? ¿cuántos? ¿cuántas?</td><td>how much? how many?</td></tr>
 <tr><td class="k">¿por qué?</td><td>why?</td></tr></table></div>
 <p>Every question word carries an accent mark. Without it, several become other words: <b>que</b> means "that", <b>como</b> means "I eat". In speech the question word is stressed, so the accent mark also shows you where your voice goes.</p>
-{{ex:¿Dónde vives?|DOHN-deh BEE-behs|Where do you live?}}
-{{ex:¿Qué estudias?|keh ehs-TOO-dyahs|What are you studying?}}
+{{ex:¿Dónde vives?|DOHN-deh BEE-behh|Where do you live?}}
+{{ex:¿Qué estudias?|keh ehh-TOO-dyahh|What are you studying?}}
 <h3>The verb comes right after the question word</h3>
 <p>English says "Where does Ana work?" with the subject in the middle. Spanish puts the verb straight after the question word, and the subject, if you say it, after the verb. With a name or a noun that is always the order; only <b>tú</b> and <b>usted</b> can also go before the verb (next section).</p>
-{{ex:¿Dónde vive usted?|DOHN-deh BEE-beh oos-TEHD|Where do you live?}}
-{{ex:¿Cuándo trabaja Carlos?|KWAHN-doh trah-BAH-hah KAHR-lohs|When does Carlos work?}}
+{{ex:¿Dónde vive usted?|DOHN-deh BEE-beh ooh-TEHD|Where do you live?}}
+{{ex:¿Cuándo trabaja Carlos?|KWAHN-doh trah-BAH-hah KAHR-lohh|When does Carlos work?}}
 <h3>¿Qué tú quieres?</h3>
 <p>In the Dominican Republic you will often hear <b>tú</b> or <b>usted</b> right before the verb: <b>¿Qué tú quieres?</b> (What do you want?), <b>¿Dónde tú vives?</b> This is normal Dominican Spanish, and you can say it too. It works only with <b>tú</b> and <b>usted</b>, directly before the verb; a name or a noun still comes after the verb. Lesson 14 shows how it works.</p>
-{{ex:¿Dónde tú vives?|DOHN-deh too BEE-behs|Where do you live?}}
+{{ex:¿Dónde tú vives?|DOHN-deh too BEE-behh|Where do you live?}}
 <h3>quién and cuánto change their form</h3>
 <p>English "who" and "how many" never change. Spanish uses <b>quiénes</b> when you expect more than one person. <b>Cuánto</b> agrees with the noun after it, like an adjective: <b>cuántos libros</b> (masculine plural), <b>cuántas horas</b> (feminine plural).</p>
-{{ex:¿Cuántas horas trabajas?|KWAHN-tahs OH-rahs trah-BAH-hahs|How many hours do you work?}}
-{{ex:¿Quiénes son?|KYEH-nehs sohn|Who are they?}}
+{{ex:¿Cuántas horas trabajas?|KWAHN-tahs OH-rahh trah-BAH-hahh|How many hours do you work?}}
+{{ex:¿Quiénes son?|KYEH-nehh sohng|Who are they?}}
 <h3>¿Por qué? and porque</h3>
 <p><b>¿Por qué?</b>, two words with an accent mark, asks "why?". The answer often starts with <b>porque</b>, one word and no accent mark, which means "because". You will practice <b>porque</b> in a later lesson.</p>
-{{ex:¿Por qué estudias español?|pohr keh ehs-TOO-dyahs ehs-pah-NYOHL|Why are you studying Spanish?}}
+{{ex:¿Por qué estudias español?|pohr keh ehh-TOO-dyahs ehh-pah-NYOHL|Why are you studying Spanish?}}
 <div class="tip">English speakers keep the English word order with a name or a noun. <b>¿Dónde tu mamá vive?</b> → <b>¿Dónde vive tu mamá?</b> A name or a noun goes after the verb; only <b>tú</b> and <b>usted</b> can come before it.</div>
 `,
     check: [
@@ -134,18 +134,18 @@ module.exports = [
 {{ex:Hay veinticinco personas en la clase.|ai bayn-tee-SEEN-koh pehr-SOH-nahs ehn lah KLAH-seh|There are twenty-five people in the class.}}
 <h3>cien, ciento and the hundreds</h3>
 <p>Exactly 100 is <b>cien</b>. Before another number it becomes <b>ciento</b>: <b>ciento veinte</b> (120). From 200 to 900 the hundreds agree with the noun, so they have a masculine and a feminine form: <b>doscientos pesos</b>, <b>doscientas personas</b>. Watch <b>quinientos</b> (500). 1,000 is <b>mil</b>.</p>
-{{ex:Cuesta cien pesos.|KWEHS-tah syehn PEH-sohs|It costs a hundred pesos.}}
-{{ex:Son ciento veinte pesos.|sohn SYEHN-toh BAYN-teh PEH-sohs|That's a hundred and twenty pesos.}}
-{{ex:Hay doscientas personas.|ai dohs-SYEHN-tahs pehr-SOH-nahs|There are two hundred people.}}
+{{ex:Cuesta cien pesos.|KWEHH-tah syehn PEH-sohh|It costs a hundred pesos.}}
+{{ex:Son ciento veinte pesos.|sohn SYEHN-toh BAYN-teh PEH-sohh|That's a hundred and twenty pesos.}}
+{{ex:Hay doscientas personas.|ai dohh-SYEHN-tahh pehr-SOH-nahh|There are two hundred people.}}
 <h3>Telling the time</h3>
 <p>English says "It's three o'clock". Spanish says "they are the three": <b>Son las tres</b>. The word <b>horas</b> (hours) is understood, so the article is feminine <b>las</b>, and the verb is plural <b>son</b>. Only one o'clock is singular: <b>Es la una</b>. Add <b>y media</b> for half past and <b>y cuarto</b> for a quarter past. For "at" a time, use <b>a las</b>.</p>
-{{ex:Es la una.|ehs lah OO-nah|It's one o'clock.}}
-{{ex:Son las tres y media.|sohn lahs trehs ee MEH-dyah|It's half past three.}}
+{{ex:Es la una.|ehh lah OO-nah|It's one o'clock.}}
+{{ex:Son las tres y media.|sohn lahh trehs ee MEH-dyah|It's half past three.}}
 {{ex:La clase es a las ocho.|lah KLAH-seh ehs ah lahs OH-choh|The class is at eight.}}
 <h3>Prices</h3>
 <p>To ask a price, say <b>¿Cuánto cuesta?</b> for one thing and <b>¿Cuánto cuestan?</b> for more than one: the verb agrees with the thing. In the Dominican Republic prices are in <b>pesos</b>; in the US, in <b>dólares</b>.</p>
-{{ex:¿Cuánto cuestan los tostones?|KWAHN-toh KWEHS-tahn lohs tohs-TOH-nehs|How much are the tostones?}}
-{{ex:Cuestan ciento cincuenta pesos.|KWEHS-tahn SYEHN-toh seen-KWEHN-tah PEH-sohs|They're a hundred and fifty pesos.}}
+{{ex:¿Cuánto cuestan los tostones?|KWAHN-toh KWEHH-tahn lohh tohh-TOH-nehh|How much are the tostones?}}
+{{ex:Cuestan ciento cincuenta pesos.|KWEHH-tahn SYEHN-toh seen-KWEHN-tah PEH-sohh|They're a hundred and fifty pesos.}}
 <div class="tip">The classic mistake is copying "It's three". <b>Es tres</b> → <b>Son las tres</b>. Keep <b>es</b> for one o'clock only: <b>Es la una</b>.</div>
 `,
     check: [
@@ -186,22 +186,22 @@ module.exports = [
 <tr><td class="k">ellos, ellas, ustedes</td><td class="k">su</td><td class="k">sus</td></tr></table></div>
 <p><b>Tu</b> (your) has no accent mark. <b>Tú</b> with an accent mark means "you".</p>
 {{ex:Mi hermana vive en Santiago.|mee ehr-MAH-nah BEE-beh ehn sahn-TYAH-goh|My sister lives in Santiago.}}
-{{ex:Mis padres son de Santo Domingo.|mees PAH-drehs sohn deh SAHN-toh doh-MEEN-goh|My parents are from Santo Domingo.}}
+{{ex:Mis padres son de Santo Domingo.|meeh PAH-drehh sohn deh SAHN-toh doh-MEEN-goh|My parents are from Santo Domingo.}}
 <h3>The thing decides, not the owner</h3>
 <p>Ask "how many things?", not "how many owners?". One man with many books: <b>sus libros</b>. A whole family with one house: <b>su casa</b>. <b>Nuestro</b> also matches the gender of the thing: <b>nuestra casa</b>, <b>nuestros amigos</b>. When you hear "their" or "our" in English, don't reach for the plural form automatically: look at the noun first.</p>
-{{ex:Carlos y sus hijos están en casa.|KAHR-lohs ee soos EE-hohs ehs-TAHN ehn KAH-sah|Carlos and his kids are at home.}}
-{{ex:Nuestra casa es pequeña.|NWEHS-trah KAH-sah ehs peh-KEH-nyah|Our house is small.}}
+{{ex:Carlos y sus hijos están en casa.|KAHR-lohs ee soos EE-hohs ehh-TAHNG ehn KAH-sah|Carlos and his kids are at home.}}
+{{ex:Nuestra casa es pequeña.|NWEHH-trah KAH-sah ehh peh-KEH-nyah|Our house is small.}}
 <h3>su: his, her, your, their</h3>
 <p><b>Su</b> can mean his, her, its, their, and also "your" when you speak to someone as <b>usted</b> or <b>ustedes</b>. The situation usually makes it clear. So English "your" has two Spanish forms: <b>tu</b> to a friend, <b>su</b> to a stranger. If <b>su</b> is not clear, Spanish names the owner instead, with <b>de</b>; you will see how in a later lesson.</p>
-{{ex:¿Dónde está su oficina?|DOHN-deh ehs-TAH soo oh-fee-SEE-nah|Where is your office? (to a stranger)}}
+{{ex:¿Dónde está su oficina?|DOHN-deh ehh-TAH soo oh-fee-SEE-nah|Where is your office? (to a stranger)}}
 <h3>este and ese: this and that</h3>
 <p>English has this, these, that and those. Spanish has four forms of each, because they agree with the noun in gender and number.</p>
 <div class="tbl"><table><tr><th></th><th>Masculine</th><th>Feminine</th><th>Masculine plural</th><th>Feminine plural</th></tr>
 <tr><td>this, these</td><td class="k">este</td><td class="k">esta</td><td class="k">estos</td><td class="k">estas</td></tr>
 <tr><td>that, those</td><td class="k">ese</td><td class="k">esa</td><td class="k">esos</td><td class="k">esas</td></tr></table></div>
 <p>Use <b>este</b> for things near you and <b>ese</b> for things a little farther away. Like adjectives, they agree with the noun, but they go before it: <b>esta camisa</b>, not "camisa esta". Watch the accent mark: <b>esta</b> means "this", but <b>está</b> means "is".</p>
-{{ex:Esta camisa es bonita.|EHS-tah kah-MEE-sah ehs boh-NEE-tah|This shirt is pretty.}}
-{{ex:Esos zapatos son negros.|EH-sohs sah-PAH-tohs sohn NEH-grohs|Those shoes are black.}}
+{{ex:Esta camisa es bonita.|EHH-tah kah-MEE-sah ehh boh-NEE-tah|This shirt is pretty.}}
+{{ex:Esos zapatos son negros.|EH-sohh sah-PAH-tohh sohn NEH-grohh|Those shoes are black.}}
 <div class="tip">The possessive agrees with the thing owned, so watch the plural. <b>Mi padres</b> → <b>Mis padres</b>. <b>Su libros</b> (his books) → <b>Sus libros</b>.</div>
 `,
     check: [
@@ -243,19 +243,19 @@ module.exports = [
 <p><b>Tener</b> and <b>hacer</b> are yo-irregular verbs: the yo form is odd (<b>tengo</b>, <b>hago</b>). <b>Tener</b> also changes its stem in three forms (<b>tienes</b>, <b>tiene</b>, <b>tienen</b>). You will meet more verbs like that in the next lesson. <b>Ir</b> is irregular everywhere, but its endings still follow the subject.</p>
 <h3>tener for age, hunger and cold</h3>
 <p>English says "I am 25" and "I am hungry". Spanish says "I have 25 years" and "I have hunger": <b>tener</b> plus a noun. The same goes for thirst, cold and heat in your body: <b>tengo sed</b>, <b>tengo frío</b>, <b>tengo calor</b>.</p>
-{{ex:Tengo veinticinco años.|TEHN-goh bayn-tee-SEEN-koh AH-nyohs|I'm twenty-five.}}
+{{ex:Tengo veinticinco años.|TEHN-goh bayn-tee-SEEN-koh AH-nyohh|I'm twenty-five.}}
 {{ex:¿Tienes hambre?|TYEH-nehs AHM-breh|Are you hungry?}}
-{{ex:Tenemos frío.|teh-NEH-mohs FREE-oh|We're cold.}}
+{{ex:Tenemos frío.|teh-NEH-mohh FREE-oh|We're cold.}}
 <h3>hacer for the weather</h3>
 <p>English says "it is cold". For the weather, Spanish says "it makes cold": <b>hace frío</b>, <b>hace calor</b>, <b>hace sol</b>, <b>hace buen tiempo</b>. Keep it apart from <b>tengo frío</b>, which is about how your body feels.</p>
 {{ex:Hoy hace calor.|oy AH-seh kah-LOHR|It's hot today.}}
-{{ex:Hace frío en enero.|AH-seh FREE-oh ehn eh-NEH-roh|It's cold in January.}}
+{{ex:Hace frío en enero.|AH-seh FREE-oh ehng eh-NEH-roh|It's cold in January.}}
 <p><b>Hacer</b> is also the verb in everyday questions about plans: <b>¿Qué haces?</b> means "What are you doing?"</p>
 {{ex:¿Qué haces el domingo?|keh AH-sehs ehl doh-MEEN-goh|What are you doing on Sunday?}}
 <h3>ir a plus a place</h3>
 <p>To say where someone goes, use <b>ir</b> with <b>a</b> (to) and the place. The present can also mean a plan for soon, as in English "I'm going to the beach on Saturday."</p>
 {{ex:El sábado voy a la playa.|ehl SAH-bah-doh boy ah lah PLAH-yah|On Saturday I'm going to the beach.}}
-{{ex:Mis hijos van a la escuela.|mees EE-hohs bahn ah lah ehs-KWEH-lah|My kids go to school.}}
+{{ex:Mis hijos van a la escuela.|mees EE-hohh bahng ah lah ehh-KWEH-lah|My kids go to school.}}
 <div class="tip">English speakers say "I am" where Spanish says "I have". <b>Soy veinticinco años</b> → <b>Tengo veinticinco años</b>. <b>Estoy hambre</b> → <b>Tengo hambre</b>. For the weather: <b>Es frío</b> → <b>Hace frío</b>.</div>
 `,
     check: [
@@ -296,8 +296,8 @@ module.exports = [
 <tr><td class="k">ellos, ellas, ustedes</td><td class="k">quieren</td><td class="k">pueden</td><td class="k">piden</td></tr></table></div>
 <p>Other common ones: <b>preferir</b> and <b>pensar</b> (e → ie), <b>dormir</b> and <b>costar</b> (o → ue). Textbooks also call these "boot verbs", because in a full table the changing forms make the shape of a boot.</p>
 {{ex:Quiero agua, por favor.|KYEH-roh AH-gwah pohr fah-BOHR|I want some water, please.}}
-{{ex:Prefiero descansar en casa.|preh-FYEH-roh dehs-kahn-SAHR ehn KAH-sah|I prefer to rest at home.}}
-{{ex:Los niños duermen ocho horas.|lohs NEE-nyohs DWEHR-mehn OH-choh OH-rahs|The kids sleep eight hours.}}
+{{ex:Prefiero descansar en casa.|preh-FYEH-roh dehh-kahn-SAHR ehn KAH-sah|I prefer to rest at home.}}
+{{ex:Los niños duermen ocho horas.|lohh NEE-nyohh DWEHR-mehng OH-choh OH-rahh|The kids sleep eight hours.}}
 <h3>nosotros keeps the stem</h3>
 <p>The nosotros form does not change: its stress falls on the ending, not the stem. So it is <b>queremos</b>, <b>podemos</b>, <b>pedimos</b>, exactly like the infinitive. The ustedes form is the same as the ellos form, so it does change: <b>ustedes pueden</b>.</p>
 {{ex:Podemos ir a la farmacia.|poh-DEH-mohs eer ah lah fahr-MAH-syah|We can go to the pharmacy.}}
@@ -310,7 +310,7 @@ module.exports = [
 <h3>pedir or preguntar?</h3>
 <p>English uses "ask" for two things. Spanish splits them: <b>pedir</b> means to ask for something (help, a coffee, a doctor), and <b>preguntar</b>, a regular verb, means to ask a question. In a restaurant, <b>pedir</b> is also the verb for ordering: <b>pido unos tostones</b>.</p>
 {{ex:Pedimos ayuda.|peh-DEE-mohs ah-YOO-dah|We ask for help.}}
-{{ex:Pregunto dónde está la farmacia.|preh-GOON-toh DOHN-deh ehs-TAH lah fahr-MAH-syah|I ask where the pharmacy is.}}
+{{ex:Pregunto dónde está la farmacia.|preh-GOON-toh DOHN-deh ehh-TAH lah fahr-MAH-syah|I ask where the pharmacy is.}}
 <div class="tip">Don't change the nosotros form. <b>Nosotros quieremos</b> → <b>Nosotros queremos</b>. And keep "ask for" apart: <b>Pregunto ayuda</b> → <b>Pido ayuda</b>.</div>
 `,
     check: [
@@ -344,9 +344,9 @@ module.exports = [
 <p>In English, the person who likes is the subject: <i>I</i> like tostones. Spanish turns the sentence around: <b>Me gustan los tostones</b> means "tostones are pleasing to me". The thing you like is the subject, so the verb agrees with the thing, not with you.</p>
 <h3>gusta or gustan</h3>
 <p>Use <b>gusta</b> for one thing or for an activity (an infinitive). Use <b>gustan</b> for more than one thing. Keep the article: things in general take <b>el</b>, <b>la</b>, <b>los</b> or <b>las</b>.</p>
-{{ex:Me gusta el fútbol.|meh GOOS-tah ehl FOOT-bohl|I like soccer.}}
-{{ex:Me gustan los tostones.|meh GOOS-tahn lohs tohs-TOH-nehs|I like tostones.}}
-{{ex:Me gusta bailar.|meh GOOS-tah bai-LAHR|I like to dance.}}
+{{ex:Me gusta el fútbol.|meh GOOH-tah ehl FOOT-bohl|I like soccer.}}
+{{ex:Me gustan los tostones.|meh GOOH-tahn lohh tohh-TOH-nehh|I like tostones.}}
+{{ex:Me gusta bailar.|meh GOOH-tah bai-LAHR|I like to dance.}}
 <h3>Who likes it: me, te, le, nos, les</h3>
 <p>The person who likes is shown by a small word before the verb, an indirect object pronoun. It means "to me", "to you" and so on.</p>
 <div class="tbl"><table><tr><th>Who likes</th><th>Spanish</th></tr>
@@ -356,14 +356,14 @@ module.exports = [
 <tr><td>we like</td><td class="k">nos gusta, nos gustan</td></tr>
 <tr><td>they like; you all like</td><td class="k">les gusta, les gustan</td></tr></table></div>
 <p>To name the person, add <b>a</b> before the name and keep the pronoun: <b>A Ana le gusta…</b> You can also add <b>a mí</b>, <b>a ti</b> for emphasis: <b>A mí me gusta</b>.</p>
-{{ex:¿Te gusta la música?|teh GOOS-tah lah MOO-see-kah|Do you like music?}}
-{{ex:A Ana le gustan las películas.|ah AH-nah leh GOOS-tahn lahs peh-LEE-koo-lahs|Ana likes movies.}}
+{{ex:¿Te gusta la música?|teh GOOH-tah lah MOO-see-kah|Do you like music?}}
+{{ex:A Ana le gustan las películas.|ah AH-nah leh GOOH-tahn lahh peh-LEE-koo-lahh|Ana likes movies.}}
 <h3>Me too, me neither</h3>
 <p>To agree with someone's like, say <b>A mí también</b> (me too). To agree with a dislike, a sentence with <b>no</b>, say <b>A mí tampoco</b> (me neither).</p>
-{{ex:No me gusta el café. A mí tampoco.|noh meh GOOS-tah ehl kah-FEH ah mee tahm-POH-koh|I don't like coffee. Me neither.}}
+{{ex:No me gusta el café. A mí tampoco.|noh meh GOOH-tah ehl kah-FEH ah mee tahm-POH-koh|I don't like coffee. Me neither.}}
 <h3>encantar and doler work the same way</h3>
 <p><b>Me encanta</b> means "I love" (a thing or an activity). <b>Me duele</b> means "it hurts me". Both agree with the thing: <b>me duelen los pies</b>. With body parts, Spanish uses the article, not "my": <b>la cabeza</b>, <b>los pies</b>.</p>
-{{ex:Me encantan los yaniqueques.|meh ehn-KAHN-tahn lohs yah-nee-KEH-kehs|I love yaniqueques.}}
+{{ex:Me encantan los yaniqueques.|meh ehn-KAHN-tahn lohh yah-nee-KEH-kehh|I love yaniqueques.}}
 {{ex:Me duele la cabeza.|meh DWEH-leh lah kah-BEH-sah|My head hurts.}}
 <div class="tip">Two classic mistakes: <b>Yo gusto la pizza</b> → <b>Me gusta la pizza</b>, and <b>Me gusta los tostones</b> → <b>Me gustan los tostones</b>. Look at the thing: one or more?</div>
 `,
@@ -405,19 +405,19 @@ module.exports = [
 <tr><td class="k">nosotros</td><td class="k">nos levantamos</td></tr>
 <tr><td class="k">ellos, ellas, ustedes</td><td class="k">se levantan</td></tr></table></div>
 <p>The pronoun goes right before the conjugated verb, never after it.</p>
-{{ex:Me levanto a las siete.|meh leh-BAHN-toh ah lahs SYEH-teh|I get up at seven.}}
-{{ex:Nos despertamos a las seis.|nohs dehs-pehr-TAH-mohs ah lahs says|We wake up at six.}}
+{{ex:Me levanto a las siete.|meh leh-BAHN-toh ah lahh SYEH-teh|I get up at seven.}}
+{{ex:Nos despertamos a las seis.|nohh dehh-pehr-TAH-mohs ah lahh sayh|We wake up at six.}}
 <h3>A routine in Spanish</h3>
 <p>Common reflexive verbs for the day: <b>despertarse</b> (to wake up), <b>levantarse</b>, <b>bañarse</b> (to shower, in Latin America), <b>vestirse</b> (to get dressed), <b>lavarse</b> (to wash), <b>acostarse</b> (to go to bed). Some are also stem-changing verbs: <b>me despierto</b>, <b>me visto</b>, <b>me acuesto</b>.</p>
-{{ex:Me baño a las siete y cuarto.|meh BAH-nyoh ah lahs SYEH-teh ee KWAHR-toh|I shower at a quarter past seven.}}
-{{ex:Los niños se visten.|lohs NEE-nyohs seh BEES-tehn|The kids get dressed.}}
-{{ex:¿A qué hora te acuestas?|ah keh OH-rah teh ah-KWEHS-tahs|What time do you go to bed?}}
+{{ex:Me baño a las siete y cuarto.|meh BAH-nyoh ah lahh SYEH-teh ee KWAHR-toh|I shower at a quarter past seven.}}
+{{ex:Los niños se visten.|lohh NEE-nyohh seh BEEH-tehng|The kids get dressed.}}
+{{ex:¿A qué hora te acuestas?|ah keh OH-rah teh ah-KWEHH-tahh|What time do you go to bed?}}
 <h3>Your name is a reflexive verb</h3>
 <p>You already know one: <b>me llamo</b> means "I call myself". That is why the question is <b>¿Cómo te llamas?</b> to a friend and <b>¿Cómo se llama usted?</b> to a stranger.</p>
 {{ex:Mi hermano se llama Diego.|mee ehr-MAH-noh seh YAH-mah DYEH-goh|My brother's name is Diego.}}
 <h3>Myself or something else?</h3>
 <p>The pronoun shows that the action comes back to the subject. If you wash something else, drop it: <b>Lavo el carro</b> (I wash the car), but <b>Me lavo las manos</b> (I wash my hands). With body parts, Spanish uses <b>los</b> or <b>las</b>, not "my".</p>
-{{ex:Me lavo los dientes.|meh LAH-boh lohs DYEHN-tehs|I brush my teeth.}}
+{{ex:Me lavo los dientes.|meh LAH-boh lohh DYEHN-tehh|I brush my teeth.}}
 <div class="tip">English has no pronoun here, so it is easy to drop. <b>Levanto a las siete</b> → <b>Me levanto a las siete</b>. <b>¿Cómo llamas?</b> → <b>¿Cómo te llamas?</b></div>
 `,
     check: [
@@ -454,21 +454,21 @@ module.exports = [
 {{ex:Voy al aeropuerto en taxi.|boy ahl ah-eh-roh-PWEHR-toh ehn TAHK-see|I'm going to the airport by taxi.}}
 <h3>The personal a</h3>
 <p>English says "I see Ana". Spanish puts <b>a</b> before a person who receives the action: <b>Veo a Ana</b>, <b>Llamo a mi mamá</b>. It has no English translation. Things don't take it: <b>Veo el tren</b>.</p>
-{{ex:Veo a Ana en la estación.|BEH-oh ah AH-nah ehn lah ehs-tah-SYOHN|I see Ana at the station.}}
+{{ex:Veo a Ana en la estación.|BEH-oh ah AH-nah ehn lah ehh-tah-SYOHNG|I see Ana at the station.}}
 <h3>de: from, of, and whose</h3>
 <p><b>De</b> means "from" and "of". Spanish has no "'s", so it uses <b>de</b> for whose things are: "Ana's car" is <b>el carro de Ana</b>, "the car of Ana". <b>De</b> plus <b>el</b> becomes <b>del</b>.</p>
 {{ex:Es el carro de Ana.|ehs ehl KAH-rroh deh AH-nah|It's Ana's car.}}
-{{ex:Llego del trabajo a las seis.|YEH-goh dehl trah-BAH-hoh ah lahs says|I get back from work at six.}}
+{{ex:Llego del trabajo a las seis.|YEH-goh dehl trah-BAH-hoh ah lahh sayh|I get back from work at six.}}
 <h3>en: in, on, at, and by</h3>
 <p><b>En</b> covers "in", "on" and "at" for places, and "by" for transport: <b>en autobús</b>, <b>en carro</b>, <b>en tren</b>. The exception is on foot: <b>a pie</b>. In the Dominican Republic the bus is usually <b>la guagua</b>, so you will also hear <b>en guagua</b>.</p>
-{{ex:Viajamos en autobús.|byah-HAH-mohs ehn ow-toh-BOOS|We travel by bus.}}
+{{ex:Viajamos en autobús.|byah-HAH-mohs ehng ow-toh-BOOH|We travel by bus.}}
 <h3>con: with, and conmigo</h3>
 <p><b>Con</b> means "with". With me and with you (a friend) are single words: <b>conmigo</b>, <b>contigo</b>.</p>
 {{ex:¿Quieres ir conmigo?|KYEH-rehs eer kohn-MEE-goh|Do you want to go with me?}}
 <h3>por and para: start with a few fixed uses</h3>
 <p>Both can mean "for". For now, use <b>para</b> for a purpose (<b>para viajar</b>, in order to travel) and for who gets something (<b>para ti</b>). Use <b>por</b> in fixed phrases: <b>gracias por</b>, <b>por favor</b>, <b>por la mañana</b> (in the morning), <b>por aquí</b> (around here).</p>
-{{ex:Este boleto es para ti.|EHS-teh boh-LEH-toh ehs PAH-rah tee|This ticket is for you.}}
-{{ex:Gracias por todo.|GRAH-syahs pohr TOH-doh|Thanks for everything.}}
+{{ex:Este boleto es para ti.|EHH-teh boh-LEH-toh ehh PAH-rah tee|This ticket is for you.}}
+{{ex:Gracias por todo.|GRAH-syahh pohr TOH-doh|Thanks for everything.}}
 <p>In fast speech you'll hear <b>para</b> cut to "pa'", as in "pa' ti"; always write <b>para</b>.</p>
 <div class="tip">Two mistakes come straight from English. <b>Veo Ana</b> → <b>Veo a Ana</b>, because a person gets the personal a. <b>Gracias para todo</b> → <b>Gracias por todo</b>, because thanks always take <b>por</b>.</div>
 `,

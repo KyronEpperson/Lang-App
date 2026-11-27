@@ -6,24 +6,24 @@ module.exports = [
     blurb: "Understand the breath s, the final ng and cansado said without its d, and still write standard Spanish.",
     deck: "Dominican sounds",
     body: `
-<p>You already know how Spanish vowels and letters sound, and Dominican Spanish keeps all of that: the vowels stay clear and never change. What changes is the end of a syllable. This lesson trains your ear for the changes you'll hear first in Santo Domingo. Spelling never changes: you always write standard Spanish.</p>
+<p>You already know how Spanish vowels and letters sound, and Dominican Spanish keeps all of that: the vowels stay clear and never change. What changes is the end of a syllable. This lesson trains your ear for the changes you'll hear first in Santo Domingo. Spelling never changes: you always write standard Spanish. The pronunciation line under each phrase shows these Dominican sounds, and this lesson shows you how to read it. Until Dominican recordings are added, your phone's voice may still say the s and the d that the line leaves out.</p>
 <h3>The breath s</h3>
-<p>When an <b>s</b> ends a syllable, Dominicans often turn it into a breath, like a soft English h. <b>Estoy</b> sounds like "ehh-TOY", and <b>¿Para dónde vas?</b> ends in a breath: "bahh". In relaxed speech the s can drop out completely. You still write every s.</p>
-{{ex:Estoy en la casa.|ehs-TOY ehn lah KAH-sah|I'm at home.}}
-{{ex:¿Para dónde vas?|PAH-rah DOHN-deh bahs|Where are you going?}}
+<p>When an <b>s</b> ends a syllable, Dominicans often turn it into a breath, like a soft English h. <b>Estoy</b> sounds like "ehh-TOY", and <b>¿Para dónde vas?</b> ends in a breath: "bahh". The line writes this breath as a double h: <i>ehh</i>, <i>ahh</i>, <i>ohh</i>. In relaxed speech the s can drop out completely; if you say nothing there, you still sound Dominican. You still write every s.</p>
+{{ex:Estoy en la casa.|ehh-TOY ehn lah KAH-sah|I'm at home.}}
+{{ex:¿Para dónde vas?|PAH-rah DOHN-deh bahh|Where are you going?}}
 <h3>Plural without a heard s</h3>
-<p>In English, you hear a plural in its s. In Dominican speech you may hear "lohh moo-CHAH-chohh", or even "lo muchacho" with no s at all. So listen to the small words around the noun: the article <b>los</b> or <b>las</b>, and the verb. <b>Están</b> is plural and <b>está</b> is singular, and that difference is always there.</p>
-{{ex:Los muchachos están aquí.|lohs moo-CHAH-chohs ehs-TAHN ah-KEE|The guys are here.}}
-{{ex:Mis amigos están bien.|mees ah-MEE-gohs ehs-TAHN byehn|My friends are fine.}}
+<p>In English, you hear a plural in its s. In Dominican speech you may hear "lohh moo-CHAH-chohh", or even "lo muchacho" with no s at all. So listen to the small words around the noun: the article <b>los</b> or <b>las</b>, and the verb. <b>Están</b> is plural and <b>está</b> is singular, and that difference is always there. One s does stay: at the end of a word, before a vowel, it links to the next word, and the line keeps it. <b>Los amigos</b> is "lohs ah-MEE-gohh", and <b>muchachos están</b> is "moo-CHAH-chohs ehh-TAHNG".</p>
+{{ex:Los muchachos están aquí.|lohh moo-CHAH-chohs ehh-TAHNG ah-KEE|The guys are here.}}
+{{ex:Mis amigos están bien.|mees ah-MEE-gohs ehh-TAHN byehng|My friends are fine.}}
 <h3>Final n: the ng of song</h3>
-<p>At the end of a word, before a pause or a vowel, <b>n</b> often sounds like the ng in English <i>song</i>. <b>El pan</b> sounds like "ehl pahng", and <b>bien</b> like "byehng". It is still written n.</p>
-{{ex:El pan está bien.|ehl pahn ehs-TAH byehn|The bread is fine.}}
+<p>At the end of a word, before a pause or a vowel, <b>n</b> often sounds like the ng in English <i>song</i>. <b>El pan</b> sounds like "ehl pahng", and <b>bien</b> like "byehng". The line writes it ng. Before a consonant it stays n: <b>en la casa</b> is "ehn lah KAH-sah". It is still written n.</p>
+{{ex:El pan está bien.|ehl pahng ehh-TAH byehng|The bread is fine.}}
 <h3>cansado without its d</h3>
-<p>When <b>-ado</b> carries the stress, the d usually disappears: <b>cansado</b> sounds like "cansao" (kahn-SAH-oh). Educated speakers say it this way too in everyday talk. You write <b>cansado</b>.</p>
-{{ex:Estoy cansado.|ehs-TOY kahn-SAH-doh|I'm tired.}}
+<p>When <b>-ado</b> carries the stress, the d usually disappears: <b>cansado</b> is said "-ao", and the line writes it "kahn-SAH-oh". Educated speakers say it this way too in everyday talk. You write <b>cansado</b>.</p>
+{{ex:Estoy cansado.|ehh-TOY kahn-SAH-oh|I'm tired.}}
 <h3>Short forms and regional sounds</h3>
 <p>Fast speech also clips whole words: <b>para</b> can shrink to "pa'" (¿Pa' dónde va'?), <b>está</b> to "'tá" ('tá bien) and <b>todo</b> to "to'". Dominicans write these short forms themselves in texts, but in this course you always write the full word. In the capital you may hear r as an l ("polque" for <b>porque</b>). In rural parts of the Cibao, in the north, r can sound like an i ("poique"). Learn these to understand people, not to copy them: the audio is your model, and your spelling stays standard.</p>
-{{ex:Está bien.|ehs-TAH byehn|It's fine.}}
+{{ex:Está bien.|ehh-TAH byehng|It's fine.}}
 <div class="tip">Write the word, not the sound you hear: <b>Estoy cansao</b> → <b>Estoy cansado</b>. And not hearing the s doesn't make a sentence singular: <b>Los niños está aquí</b> → <b>Los niños están aquí</b>.</div>
 `,
     check: [
@@ -34,7 +34,7 @@ module.exports = [
     practice: [
       ["mc","In Santo Domingo you hear 'ehh-TOY'. Which word is it?","estoy","esto","hoy","está","The s before t turns into a breath, but the word is still estoy."],
       ["mc","You hear 'lohh moo-CHAH-chohh'. What is it?","los muchachos","el muchacho","la muchacha","las muchachas","Both s sounds are only breaths, but lohh is los, so it is plural: los muchachos."],
-      ["mc","Your friend says 'Estoy kahn-SAH-oh.' How is it written?","Estoy cansado.","Estoy casado.","Está cansado.","Estás cansado.","The d of -ado drops in speech, but you write cansado. Casado means married."],
+      ["mc","Your friend says 'ehh-TOY kahn-SAH-oh.' How is it written?","Estoy cansado.","Estoy casado.","Está cansado.","Estás cansado.","The d of -ado drops in speech, but you write cansado. Casado means married."],
       ["mc","You hear 'lo niño ehh-TAHNG ah-KEE', with no s on los or niños. Which sentence is it?","Los niños están aquí.","El niño está aquí.","Los niños está aquí.","El niño están aquí.","You may not hear the s, but están is plural, so the subject is los niños."],
       ["mc","In the capital you may hear 'polque'. Which word is it?","porque","poco","pues","para","r at the end of a syllable can sound like l in the capital: polque is porque."],
       ["or","The kids are here","Los niños están aquí","está","You may not hear the s, but los and están show the plural: the verb ending matches the subject."],
@@ -58,14 +58,14 @@ module.exports = [
 <h3>Saying hi to a friend</h3>
 <p>English has "what's up?" and "how's it going?". Dominicans say <b>¿Qué lo que?</b> to friends their age, or <b>Dime a ver</b>, literally "tell me, let's see". <b>¿Cómo tú estás?</b> puts tú before the verb, and it is just as right as <b>¿Cómo estás?</b>. A common answer is <b>Tato</b>, "all good", from <i>está todo bien</i>.</p>
 {{ex:¿Qué lo que? Tato.|keh loh keh TAH-toh|What's up? All good.}}
-{{ex:Dime a ver, ¿cómo tú estás?|DEE-meh ah behr KOH-moh too ehs-TAHS|Hey, how are you?}}
+{{ex:Dime a ver, ¿cómo tú estás?|DEE-meh ah behr KOH-moh too ehh-TAHH|Hey, how are you?}}
 <h3>Who gets what</h3>
 <p>Slang is for friends your age. With your partner's grandmother, a neighbor you don't know or a clerk in a shop, use <b>usted</b> and a plain greeting. For a group, <b>ustedes</b> works with everyone, and its verb ends in -n.</p>
-{{ex:Buenos días, ¿cómo está usted?|BWEH-nohs DEE-ahs KOH-moh ehs-TAH oos-TEHD|Good morning, how are you?}}
-{{ex:¿Ustedes están bien?|oos-TEH-dehs ehs-TAHN byehn|Are you guys OK?}}
+{{ex:Buenos días, ¿cómo está usted?|BWEH-nohh DEE-ahh KOH-moh ehh-TAH ooh-TEHD|Good morning, how are you?}}
+{{ex:¿Ustedes están bien?|ooh-TEH-dehs ehh-TAHN byehng|Are you guys OK?}}
 <h3>Friends: mi pana, mano, mana</h3>
 <p>Your buddy is <b>mi pana</b>, and your buddies are <b>mis panas</b>. Close friends also call each other <b>mano</b> (bro) and <b>mana</b> (sis). All of these are informal.</p>
-{{ex:Mis panas están aquí.|mees PAH-nahs ehs-TAHN ah-KEE|My buddies are here.}}
+{{ex:Mis panas están aquí.|meeh PAH-nahs ehh-TAHNG ah-KEE|My buddies are here.}}
 <h3>Cool, great, a pain</h3>
 <p><b>¡Qué jevi!</b> means "how cool!", and <b>nítido</b> and <b>chévere</b> mean "great". <b>Vaina</b> is the all-purpose word for "thing" or "stuff": <b>esa vaina</b> is "that thing", and <b>¡Qué vaina!</b> is "what a pain!". It is spelled with a v. You'll also hear "coño", a strong exclamation: understand it, but don't start with it.</p>
 {{ex:¿Qué vaina es esa?|keh BAI-nah ehs EH-sah|What's that thing?}}
@@ -106,12 +106,12 @@ module.exports = [
 <h3>Keep the pronoun</h3>
 <p>Spanish verb endings already show who is doing something, so <b>quiero</b> alone means "I want". Many courses tell you to drop <b>yo</b> and <b>tú</b>. Dominicans keep them much more often: <b>yo quiero</b>, <b>tú sabes</b>. Both ways are right, so say whichever comes naturally.</p>
 {{ex:Yo quiero un café.|yoh KYEH-roh oon kah-FEH|I want a coffee.}}
-{{ex:Tú sabes dónde vivo.|too SAH-behs DOHN-deh BEE-boh|You know where I live.}}
+{{ex:Tú sabes dónde vivo.|too SAH-behh DOHN-deh BEE-boh|You know where I live.}}
 <h3>The pronoun before the verb</h3>
 <p>In a question with a question word, Dominicans often put <b>tú</b> or <b>usted</b> right before the verb: <b>¿Qué tú quieres?</b> instead of <b>¿Qué quieres?</b>. The verb doesn't change: <b>quieres</b> is still the tú form, and <b>se llama</b> is still the usted form. Both orders are correct, and this course accepts both.</p>
-{{ex:¿Qué tú quieres?|keh too KYEH-rehs|What do you want?}}
-{{ex:¿Dónde tú vives?|DOHN-deh too BEE-behs|Where do you live?}}
-{{ex:¿Cómo usted se llama?|KOH-moh oos-TEHD seh YAH-mah|What's your name? (polite)}}
+{{ex:¿Qué tú quieres?|keh too KYEH-rehh|What do you want?}}
+{{ex:¿Dónde tú vives?|DOHN-deh too BEE-behh|Where do you live?}}
+{{ex:¿Cómo usted se llama?|KOH-moh ooh-TEHD seh YAH-mah|What's your name? (polite)}}
 <h3>Where it doesn't work</h3>
 <p>Only <b>tú</b> and <b>usted</b> move, and only right next to the verb, with nothing in between. With a noun, the verb still comes first. With <b>ustedes</b> or <b>ellos</b>, keep the usual order too: <b>¿Qué quieren ustedes?</b></p>
 {{ex:¿Dónde vive tu mamá?|DOHN-deh BEE-beh too mah-MAH|Where does your mom live?}}

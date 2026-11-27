@@ -9,9 +9,9 @@ module.exports = [
 <p>English uses "very" before describing words, and "a lot (of)" or "much" with nouns and verbs. Spanish splits the same way, with <b>muy</b> and <b>mucho</b>. The trouble is that some things English says with "very" are nouns in Spanish.</p>
 <h3>muy: very, before a describing word</h3>
 <p><b>muy</b> goes right before an adjective, or before a word like <b>bien</b> or <b>cerca</b>. It never changes form.</p>
-{{ex:La casa es muy grande.|lah KAH-sah ehs mwee GRAHN-deh|The house is very big.}}
-{{ex:Estoy muy cansada.|ehs-TOY mwee kahn-SAH-dah|I'm very tired. (said by a woman)}}
-{{ex:Hablas muy bien.|AH-blahs mwee byehn|You speak very well.}}
+{{ex:La casa es muy grande.|lah KAH-sah ehh mwee GRAHN-deh|The house is very big.}}
+{{ex:Estoy muy cansada.|ehh-TOY mwee kahn-SAH-dah|I'm very tired. (said by a woman)}}
+{{ex:Hablas muy bien.|AH-blahh mwee byehng|You speak very well.}}
 <h3>mucho: a lot of, before a noun</h3>
 <p>Before a noun, <b>mucho</b> means "a lot of", "much" or "many". Here it works like an adjective: it agrees with the noun in gender and number, so it has four forms.</p>
 <div class="tbl"><table><tr><th>Noun</th><th>A lot of…</th></tr><tr><td class="k">el trabajo</td><td class="k">mucho trabajo</td></tr><tr><td class="k">la gente</td><td class="k">mucha gente</td></tr><tr><td class="k">los amigos</td><td class="k">muchos amigos</td></tr><tr><td class="k">las clases</td><td class="k">muchas clases</td></tr></table></div>
@@ -20,12 +20,12 @@ module.exports = [
 <p>English says "I'm very hungry" and "It's very cold". Spanish says these with <b>tener</b> and <b>hacer</b> plus a noun: <b>tengo hambre</b> is literally "I have hunger", and <b>hace frío</b> is "it makes cold". A noun can't take <b>muy</b>, so you use <b>mucho</b>, and it agrees with the noun. <b>Hambre</b> and <b>sed</b> are feminine, so you say <b>mucha hambre</b> and <b>mucha sed</b>. <b>Frío</b>, <b>calor</b> and <b>miedo</b> are masculine, so you say <b>mucho frío</b>.</p>
 {{ex:Hace mucho frío hoy.|AH-seh MOO-choh FREE-oh oy|It's very cold today.}}
 {{ex:Tengo mucha hambre.|TEHN-goh MOO-chah AHM-breh|I'm very hungry.}}
-{{ex:¿Tienes mucho calor?|TYEH-nehs MOO-choh kah-LOHR|Do you feel very hot?}}
+{{ex:¿Tienes mucho calor?|TYEH-nehh MOO-choh kah-LOHR|Do you feel very hot?}}
 <h3>mucho after a verb: a lot</h3>
 <p>After a verb, <b>mucho</b> means "a lot" and never changes, because it describes the action, not a noun. It can also stand alone as a short answer, where English says "a lot" or "very much". <b>Muy</b> can never stand alone.</p>
-{{ex:Trabajas mucho.|trah-BAH-hahs MOO-choh|You work a lot.}}
-{{ex:Me gusta mucho la música.|meh GOOS-tah MOO-choh lah MOO-see-kah|I like music a lot.}}
-{{ex:¿Te gusta Santo Domingo? Sí, mucho.|teh GOOS-tah SAHN-toh doh-MEEN-goh see MOO-choh|Do you like Santo Domingo? Yes, a lot.}}
+{{ex:Trabajas mucho.|trah-BAH-hahh MOO-choh|You work a lot.}}
+{{ex:Me gusta mucho la música.|meh GOOH-tah MOO-choh lah MOO-see-kah|I like music a lot.}}
+{{ex:¿Te gusta Santo Domingo? Sí, mucho.|teh GOOH-tah SAHN-toh doh-MEEN-goh see MOO-choh|Do you like Santo Domingo? Yes, a lot.}}
 <h3>A quick test</h3>
 <p>Look at the word that comes next. If it's a describing word (<b>grande</b>, <b>cansado</b>, <b>bien</b>), use <b>muy</b>. If it's a noun (<b>frío</b>, <b>hambre</b>, <b>gente</b>), use <b>mucho</b> in the form that agrees with it. If it's a verb, or nothing at all, use plain <b>mucho</b>.</p>
 <div class="tip">The classic mistake: <b>Tengo muy hambre</b> → <b>Tengo mucha hambre</b>. Watch for the reverse too: <b>Es mucho grande</b> → <b>Es muy grande</b>.</div>
@@ -61,22 +61,22 @@ module.exports = [
 <p>A few small words turn short sentences into real conversation. Four of them do most of the work: <b>y</b> (and), <b>o</b> (or), <b>pero</b> (but) and <b>porque</b> (because).</p>
 <h3>y and o, and how they change</h3>
 <p><b>y</b> means "and" and <b>o</b> means "or", just as in English. When <b>y</b> joins two people, the verb takes the ellos form, because together they are "they". In a list, <b>y</b> goes only before the last item, as in English: <b>arroz, habichuelas y carne</b>.</p>
-{{ex:Ana y Carlos son de Santiago.|AH-nah ee KAHR-lohs sohn deh sahn-TYAH-goh|Ana and Carlos are from Santiago.}}
-{{ex:¿Quieres café o té?|KYEH-rehs kah-FEH oh teh|Do you want coffee or tea?}}
+{{ex:Ana y Carlos son de Santiago.|AH-nah ee KAHR-lohh sohn deh sahn-TYAH-goh|Ana and Carlos are from Santiago.}}
+{{ex:¿Quieres café o té?|KYEH-rehh kah-FEH oh teh|Do you want coffee or tea?}}
 <p>One twist English doesn't have: before a word that starts with an "ee" sound (spelled <b>i-</b> or <b>hi-</b>), <b>y</b> becomes <b>e</b>. Before a word that starts with an "oh" sound (<b>o-</b> or <b>ho-</b>), <b>o</b> becomes <b>u</b>. This keeps the two sounds from running together.</p>
-{{ex:Sofía e Isabel trabajan aquí.|soh-FEE-ah eh ee-sah-BEHL trah-BAH-hahn ah-KEE|Sofía and Isabel work here.}}
-{{ex:Hay siete u ocho personas.|ai SYEH-teh oo OH-choh pehr-SOH-nahs|There are seven or eight people.}}
+{{ex:Sofía e Isabel trabajan aquí.|soh-FEE-ah eh ee-sah-BEHL trah-BAH-hahng ah-KEE|Sofía and Isabel work here.}}
+{{ex:Hay siete u ocho personas.|ai SYEH-teh oo OH-choh pehr-SOH-nahh|There are seven or eight people.}}
 <h3>pero: but</h3>
 <p><b>pero</b> works like English "but". It joins two sentences, or two describing words that agree with the same noun: <b>cansada pero contenta</b>. Say it with a quick tap, not a trill: <b>perro</b> is "dog".</p>
-{{ex:Tengo frío, pero estoy bien.|TEHN-goh FREE-oh PEH-roh ehs-TOY byehn|I'm cold, but I'm fine.}}
+{{ex:Tengo frío, pero estoy bien.|TEHN-goh FREE-oh PEH-roh ehh-TOY byehng|I'm cold, but I'm fine.}}
 <p>You will also hear <b>sino</b>, another "but", after a <b>no</b>: <b>No es cubano, sino dominicano</b> (He isn't Cuban, he's Dominican). Just recognize it for now.</p>
 <h3>porque and ¿por qué?</h3>
 <p>English has two different words, "why" and "because". Spanish uses almost the same word for both. <b>¿Por qué?</b>, two words with an accent mark and the stress on <b>qué</b>, asks "why?". <b>porque</b>, one word with no accent and the stress on <b>por</b>, answers "because".</p>
-{{ex:¿Por qué estudias español? Porque mi familia es de Santo Domingo.|pohr keh ehs-TOO-dyahs ehs-pah-NYOHL POHR-keh mee fah-MEE-lyah ehs deh SAHN-toh doh-MEEN-goh|Why are you studying Spanish? Because my family is from Santo Domingo.}}
+{{ex:¿Por qué estudias español? Porque mi familia es de Santo Domingo.|pohr keh ehh-TOO-dyahs ehh-pah-NYOHL POHR-keh mee fah-MEE-lyah ehh deh SAHN-toh doh-MEEN-goh|Why are you studying Spanish? Because my family is from Santo Domingo.}}
 <h3>también and tampoco</h3>
 <p><b>también</b> means "also" or "too" and agrees with a yes. <b>tampoco</b> means "not either" or "neither" and agrees with a no. Never say <b>también no</b>: <b>tampoco</b> already carries the "not".</p>
-{{ex:Hablo inglés y también hablo español.|AH-bloh een-GLEHS ee tahm-BYEHN AH-bloh ehs-pah-NYOHL|I speak English, and I speak Spanish too.}}
-{{ex:No me gusta el frío. A mí tampoco.|noh meh GOOS-tah ehl FREE-oh ah mee tahm-POH-koh|I don't like the cold. Me neither.}}
+{{ex:Hablo inglés y también hablo español.|AH-bloh een-GLEHS ee tahm-BYEHNG AH-bloh ehh-pah-NYOHL|I speak English, and I speak Spanish too.}}
+{{ex:No me gusta el frío. A mí tampoco.|noh meh GOOH-tah ehl FREE-oh ah mee tahm-POH-koh|I don't like the cold. Me neither.}}
 <div class="tip">The most common slip is in writing: <b>¿Porque estudias español?</b> → <b>¿Por qué estudias español?</b> In speech, watch for <b>A mí también no</b> → <b>A mí tampoco</b>.</div>
 `,
     check: [
@@ -110,26 +110,26 @@ module.exports = [
 <p>Asking the way is one of the first real conversations you will have, and it is usually with a stranger, so it happens in <b>usted</b>. You already know <b>¿Dónde está…?</b> from the lesson on <b>estar</b>. This lesson gives you the answers.</p>
 <h3>Right, left and straight ahead</h3>
 <p><b>derecha</b> is "right" and <b>izquierda</b> is "left", and both come with <b>a la</b>: <b>a la derecha</b>, <b>a la izquierda</b>. <b>derecho</b> means "straight ahead". English speakers mix up <b>derecho</b> and <b>derecha</b> because they look alike, so remember: <b>-a</b> turns, <b>-o</b> goes straight.</p>
-{{ex:La farmacia está a la derecha.|lah fahr-MAH-syah ehs-TAH ah lah deh-REH-chah|The pharmacy is on the right.}}
-{{ex:El baño está a la izquierda.|ehl BAH-nyoh ehs-TAH ah lah ees-KYEHR-dah|The bathroom is on the left.}}
+{{ex:La farmacia está a la derecha.|lah fahr-MAH-syah ehh-TAH ah lah deh-REH-chah|The pharmacy is on the right.}}
+{{ex:El baño está a la izquierda.|ehl BAH-nyoh ehh-TAH ah lah eeh-KYEHR-dah|The bathroom is on the left.}}
 <h3>Near, far, next to, across from</h3>
 <div class="tbl"><table><tr><th>Spanish</th><th>English</th></tr><tr><td class="k">cerca de</td><td>near, close to</td></tr><tr><td class="k">lejos de</td><td>far from</td></tr><tr><td class="k">al lado de</td><td>next to</td></tr><tr><td class="k">enfrente de</td><td>across from, opposite</td></tr></table></div>
 <p>Each one ends in <b>de</b>, and <b>de</b> + <b>el</b> becomes <b>del</b>, just as <b>a</b> + <b>el</b> becomes <b>al</b>. With <b>la</b>, nothing joins.</p>
-{{ex:El banco está al lado del hotel.|ehl BAHN-koh ehs-TAH ahl LAH-doh dehl oh-TEHL|The bank is next to the hotel.}}
-{{ex:La parada está enfrente de la farmacia.|lah pah-RAH-dah ehs-TAH ehn-FREHN-teh deh lah fahr-MAH-syah|The stop is across from the pharmacy.}}
-{{ex:¿Está lejos? No, está muy cerca.|ehs-TAH LEH-hohs noh ehs-TAH mwee SEHR-kah|Is it far? No, it's very close.}}
+{{ex:El banco está al lado del hotel.|ehl BAHN-koh ehh-TAH ahl LAH-oh dehl oh-TEHL|The bank is next to the hotel.}}
+{{ex:La parada está enfrente de la farmacia.|lah pah-RAH-dah ehh-TAH ehn-FREHN-teh deh lah fahr-MAH-syah|The stop is across from the pharmacy.}}
+{{ex:¿Está lejos? No, está muy cerca.|ehh-TAH LEH-hohh noh ehh-TAH mwee SEHR-kah|Is it far? No, it's very close.}}
 <p>To say how far, count blocks with <b>a</b>: <b>a dos cuadras</b> is "two blocks away". It is understood everywhere; listen for how people around you count the streets.</p>
-{{ex:Está a dos cuadras.|ehs-TAH ah dohs KWAH-drahs|It's two blocks away.}}
+{{ex:Está a dos cuadras.|ehh-TAH ah dohh KWAH-drahh|It's two blocks away.}}
 <h3>One place or several</h3>
 <p>The verb agrees with the place you ask about: one place takes <b>está</b>, two or more take <b>están</b>.</p>
-{{ex:¿Dónde están los baños?|DOHN-deh ehs-TAHN lohs BAH-nyohs|Where are the bathrooms?}}
+{{ex:¿Dónde están los baños?|DOHN-deh ehh-TAHN lohh BAH-nyohh|Where are the bathrooms?}}
 <h3>What a stranger will say to you</h3>
 <p>People giving directions use usted commands: verb forms that tell you to do something. You don't need to make them yet, just catch them. Three cover most directions: <b>siga</b> (keep going), <b>gire</b> (turn) and <b>cruce</b> (cross). In Mexico you will also hear <b>dé vuelta</b> for "turn".</p>
-{{ex:Gire a la izquierda y siga derecho.|HEE-reh ah lah ees-KYEHR-dah ee SEE-gah deh-REH-choh|Turn left and keep going straight.}}
-{{ex:Cruce la calle y está a la derecha.|KROO-seh lah KAH-yeh ee ehs-TAH ah lah deh-REH-chah|Cross the street and it's on the right.}}
+{{ex:Gire a la izquierda y siga derecho.|HEE-reh ah lah eeh-KYEHR-dah ee SEE-gah deh-REH-choh|Turn left and keep going straight.}}
+{{ex:Cruce la calle y está a la derecha.|KROO-seh lah KAH-yeh ee ehh-TAH ah lah deh-REH-chah|Cross the street and it's on the right.}}
 <h3>Asking politely</h3>
 <p>Start with <b>Disculpe</b> (the usted form of "excuse me"), then ask. If you don't know whether there is one nearby, use <b>hay</b>. When someone answers, say <b>Muchas gracias</b>. If you didn't catch it, ask <b>¿Cómo?</b> and listen for the three command words above, plus <b>derecha</b>, <b>izquierda</b> and <b>derecho</b>.</p>
-{{ex:Disculpe, ¿hay un banco por aquí?|dees-KOOL-peh ai oon BAHN-koh pohr ah-KEE|Excuse me, is there a bank around here?}}
+{{ex:Disculpe, ¿hay un banco por aquí?|deeh-KOOL-peh ai oon BAHN-koh pohr ah-KEE|Excuse me, is there a bank around here?}}
 <div class="tip">derecho goes straight and derecha turns right: <b>Está a la derecho</b> → <b>Está a la derecha</b>. And join the little words: <b>al lado de el banco</b> → <b>al lado del banco</b>.</div>
 `,
     check: [
@@ -166,8 +166,8 @@ module.exports = [
 <p>Only <b>ir</b> changes: it agrees with the subject. The infinitive at the end never changes. And the little <b>a</b> is never dropped, even in fast speech, where English shrinks "going to" into "gonna".</p>
 {{ex:Voy a viajar a Santo Domingo.|boy ah byah-HAHR ah SAHN-toh doh-MEEN-goh|I'm going to travel to Santo Domingo.}}
 {{ex:¿Vas a tomar la guagua?|bahs ah toh-MAHR lah GWAH-gwah|Are you going to take the bus?}}
-{{ex:Mi hermana va a comprar los boletos.|mee ehr-MAH-nah bah ah kohm-PRAHR lohs boh-LEH-tohs|My sister is going to buy the tickets.}}
-{{ex:Mis padres van a llegar el sábado.|mees PAH-drehs bahn ah yeh-GAHR ehl SAH-bah-doh|My parents are going to arrive on Saturday.}}
+{{ex:Mi hermana va a comprar los boletos.|mee ehr-MAH-nah bah ah kohm-PRAHR lohh boh-LEH-tohh|My sister is going to buy the tickets.}}
+{{ex:Mis padres van a llegar el sábado.|meeh PAH-drehh bahng ah yeh-GAHR ehl SAH-bah-doh|My parents are going to arrive on Saturday.}}
 <h3>A place or a plan</h3>
 <p>You have seen <b>ir a</b> before, with a place: <b>Voy a Punta Cana</b> means "I'm going to Punta Cana", right now or soon. Put an infinitive after <b>a</b> instead and it becomes a plan. The two can even meet in one sentence, and <b>a</b> + <b>el</b> still becomes <b>al</b>, as always.</p>
 {{ex:Mañana voy a ir al aeropuerto.|mah-NYAH-nah boy ah eer ahl ah-eh-roh-PWEHR-toh|Tomorrow I'm going to go to the airport.}}
@@ -219,18 +219,18 @@ module.exports = [
 <p>The pronoun goes right before the conjugated verb. With <b>no</b>, the order is <b>no</b>, then the pronoun, then the verb.</p>
 {{ex:¿El suéter? Lo compro.|ehl SWEH-tehr loh KOHM-proh|The sweater? I'll buy it.}}
 {{ex:¿La camisa roja? La compro.|lah kah-MEE-sah RROH-hah lah KOHM-proh|The red shirt? I'll buy it.}}
-{{ex:¿Tienes los boletos? Sí, los tengo.|TYEH-nehs lohs boh-LEH-tohs see lohs TEHN-goh|Do you have the tickets? Yes, I have them.}}
-{{ex:¿Las llaves? No las tengo.|lahs YAH-behs noh lahs TEHN-goh|The keys? I don't have them.}}
+{{ex:¿Tienes los boletos? Sí, los tengo.|TYEH-nehh lohh boh-LEH-tohh see lohh TEHN-goh|Do you have the tickets? Yes, I have them.}}
+{{ex:¿Las llaves? No las tengo.|lahh YAH-behh noh lahh TEHN-goh|The keys? I don't have them.}}
 <h3>People: no a, no ella</h3>
 <p>With a person, you say <b>Llamo a Ana</b> with the personal <b>a</b>. When you replace Ana, both the <b>a</b> and her name go, and <b>la</b> moves before the verb. Never use <b>ella</b> or <b>él</b> after the verb for "her" or "him".</p>
-{{ex:¿Llamas a tu mamá? Sí, la llamo todos los días.|YAH-mahs ah too mah-MAH see lah YAH-moh TOH-dohs lohs DEE-ahs|Do you call your mom? Yes, I call her every day.}}
+{{ex:¿Llamas a tu mamá? Sí, la llamo todos los días.|YAH-mahs ah too mah-MAH see lah YAH-moh TOH-dohh lohh DEE-ahh|Do you call your mom? Yes, I call her every day.}}
 <h3>With ir a + infinitive: two places</h3>
 <p>When there is an infinitive, the pronoun can go before the conjugated verb, or be attached to the end of the infinitive as one word. Both mean the same and both are correct.</p>
 {{ex:La voy a comprar.|lah boy ah kohm-PRAHR|I'm going to buy it.}}
 {{ex:Voy a comprarla.|boy ah kohm-PRAHR-lah|I'm going to buy it.}}
 <h3>In a store: Me lo llevo</h3>
 <p>To say "I'll take it" in a store, use <b>Me lo llevo</b>. The <b>lo</b> changes to agree with what you are buying: <b>Me la llevo</b> for <b>la camisa</b>, <b>Me los llevo</b> for <b>los zapatos</b>.</p>
-{{ex:¿Los zapatos negros? Me los llevo.|lohs sah-PAH-tohs NEH-grohs meh lohs YEH-boh|The black shoes? I'll take them.}}
+{{ex:¿Los zapatos negros? Me los llevo.|lohh sah-PAH-tohh NEH-grohh meh lohh YEH-boh|The black shoes? I'll take them.}}
 <div class="tip">The most common mistake is putting the pronoun after the verb, as in English: <b>Compro la</b> → <b>La compro</b>. The next is using lo for everything: <b>¿La camisa? Lo compro</b> → <b>¿La camisa? La compro</b>.</div>
 `,
     check: [
@@ -266,24 +266,24 @@ module.exports = [
 <p>Take off <b>-ar</b>, <b>-er</b> or <b>-ir</b> and add these endings. The verb ending matches the subject, as in the present. <b>-er</b> and <b>-ir</b> verbs share one set.</p>
 <div class="tbl"><table><tr><th>Who</th><th>hablar</th><th>comer</th><th>vivir</th></tr><tr><td class="k">yo</td><td class="k">hablé</td><td class="k">comí</td><td class="k">viví</td></tr><tr><td class="k">tú</td><td class="k">hablaste</td><td class="k">comiste</td><td class="k">viviste</td></tr><tr><td class="k">él, ella, usted</td><td class="k">habló</td><td class="k">comió</td><td class="k">vivió</td></tr><tr><td class="k">nosotros</td><td class="k">hablamos</td><td class="k">comimos</td><td class="k">vivimos</td></tr><tr><td class="k">ellos, ellas, ustedes</td><td class="k">hablaron</td><td class="k">comieron</td><td class="k">vivieron</td></tr></table></div>
 <p>The <b>nosotros</b> form of <b>-ar</b> and <b>-ir</b> verbs looks just like the present. A time word such as <b>ayer</b> shows you it's the past.</p>
-{{ex:Anoche comí pica pollo con tostones.|ah-NOH-cheh koh-MEE PEE-kah POH-yoh kohn tohs-TOH-nehs|Last night I had fried chicken with tostones.}}
-{{ex:¿Trabajaste el sábado?|trah-bah-HAHS-teh ehl SAH-bah-doh|Did you work on Saturday?}}
-{{ex:Mis amigos vivieron en Santiago.|mees ah-MEE-gohs bee-BYEH-rohn ehn sahn-TYAH-goh|My friends lived in Santiago.}}
+{{ex:Anoche comí pica pollo con tostones.|ah-NOH-cheh koh-MEE PEE-kah POH-yoh kohn tohh-TOH-nehh|Last night I had fried chicken with tostones.}}
+{{ex:¿Trabajaste el sábado?|trah-bah-HAHH-teh ehl SAH-bah-doh|Did you work on Saturday?}}
+{{ex:Mis amigos vivieron en Santiago.|mees ah-MEE-gohh bee-BYEH-rohng ehn sahn-TYAH-goh|My friends lived in Santiago.}}
 <h3>The accent mark changes the meaning</h3>
 <p>In <b>hablo</b> the stress is on <b>HA</b>, and it means "I speak". In <b>habló</b> the stress moves to the end, and it means "he or she spoke". The written accent is the only difference on paper, so always write it, and say it with the stress at the end.</p>
-{{ex:Hablo con mi jefa todos los días.|AH-bloh kohn mee HEH-fah TOH-dohs lohs DEE-ahs|I talk to my boss every day.}}
+{{ex:Hablo con mi jefa todos los días.|AH-bloh kohn mee HEH-fah TOH-dohh lohh DEE-ahh|I talk to my boss every day.}}
 {{ex:Ayer mi jefa habló conmigo.|ah-YEHR mee HEH-fah ah-BLOH kohn-MEE-goh|Yesterday my boss talked to me.}}
 <h3>Three irregular verbs: fui, hice, tuve</h3>
 <p>Three very common verbs have their own forms, with no accent marks: <b>ir</b> (yo <b>fui</b>, tú <b>fuiste</b>, él <b>fue</b>), <b>hacer</b> (<b>hice</b>, <b>hiciste</b>, <b>hizo</b>) and <b>tener</b> (<b>tuve</b>, <b>tuviste</b>, <b>tuvo</b>).</p>
-{{ex:El fin de semana pasado fui a la playa.|ehl feen deh seh-MAH-nah pah-SAH-doh fwee ah lah PLAH-yah|Last weekend I went to the beach.}}
-{{ex:¿Qué hiciste ayer?|keh ee-SEES-teh ah-YEHR|What did you do yesterday?}}
+{{ex:El fin de semana pasado fui a la playa.|ehl feen deh seh-MAH-nah pah-SAH-oh fwee ah lah PLAH-yah|Last weekend I went to the beach.}}
+{{ex:¿Qué hiciste ayer?|keh ee-SEEH-teh ah-YEHR|What did you do yesterday?}}
 <p>Useful time words: <b>ayer</b> (yesterday), <b>anoche</b> (last night), <b>el fin de semana pasado</b> and <b>la semana pasada</b>, where <b>pasado</b> agrees with its noun.</p>
 <h3>Ya: "have you…?" in Latin America</h3>
 <p>Where English says "Have you eaten yet?" or "I've been to Punta Cana", Latin American Spanish usually uses the preterite, often with <b>ya</b> (already, yet).</p>
-{{ex:¿Ya comiste?|yah koh-MEES-teh|Have you eaten yet?}}
+{{ex:¿Ya comiste?|yah koh-MEEH-teh|Have you eaten yet?}}
 <h3>What you will hear in Spain: he comido</h3>
 <p>In Spain, people say <b>he comido</b> ("I have eaten") for things done today. In Latin America you'll hear it mostly for "lately" or "so far". Just recognize it for now.</p>
-{{ex:He trabajado mucho últimamente.|eh trah-bah-HAH-doh MOO-choh OOL-tee-mah-mehn-teh|I've worked a lot lately.}}
+{{ex:He trabajado mucho últimamente.|eh trah-bah-HAH-oh MOO-choh OOL-tee-mah-mehn-teh|I've worked a lot lately.}}
 <div class="tip">The mistake to watch for is leaving off the accent mark, or keeping the present: <b>Ayer hablo con Ana</b> → <b>Ayer hablé con Ana</b>.</div>
 `,
     check: [
@@ -317,18 +317,18 @@ module.exports = [
 <p>English often uses "you", "they" or "people" for no one in particular: "How do you say this?", "They sell plantains here", "You can't come in." Spanish usually says this with <b>se</b> and the él form of the verb, and no person is named. This is the impersonal se. It feels strange at first, but the idea is simple: something is done, and who does it doesn't matter.</p>
 <h3>se + verb: no one in particular</h3>
 <p>Put <b>se</b> right before the verb. With <b>no</b>, the order is <b>no se</b> + verb.</p>
-{{ex:Aquí se habla español.|ah-KEE seh AH-blah ehs-pah-NYOHL|Spanish is spoken here.}}
-{{ex:¿Cómo se dice esto en español?|KOH-moh seh DEE-seh EHS-toh ehn ehs-pah-NYOHL|How do you say this in Spanish?}}
+{{ex:Aquí se habla español.|ah-KEE seh AH-blah ehh-pah-NYOHL|Spanish is spoken here.}}
+{{ex:¿Cómo se dice esto en español?|KOH-moh seh DEE-seh EHH-toh ehng ehh-pah-NYOHL|How do you say this in Spanish?}}
 {{ex:No se puede entrar.|noh seh PWEH-deh ehn-TRAHR|You can't go in.}}
 {{ex:¿Se puede pagar con tarjeta?|seh PWEH-deh pah-GAHR kohn tahr-HEH-tah|Can you pay by card?}}
 <h3>One thing or several: the verb agrees</h3>
 <p>When the thing after the verb is plural, the verb goes plural too: one house is <b>se vende</b>, several houses are <b>se venden</b>. You will see this on signs everywhere, from markets to apartment buildings.</p>
 <div class="tbl"><table><tr><th>One</th><th>Several</th></tr><tr><td class="k">Se vende una casa.</td><td class="k">Se venden casas.</td></tr><tr><td class="k">Se renta un cuarto.</td><td class="k">Se rentan cuartos.</td></tr></table></div>
-{{ex:Se venden casas.|seh BEHN-dehn KAH-sahs|Houses for sale.}}
-{{ex:¿Dónde se compran los boletos?|DOHN-deh seh KOHM-prahn lohs boh-LEH-tohs|Where do you buy the tickets?}}
+{{ex:Se venden casas.|seh BEHN-dehn KAH-sahh|Houses for sale.}}
+{{ex:¿Dónde se compran los boletos?|DOHN-deh seh KOHM-prahn lohh boh-LEH-tohh|Where do you buy the tickets?}}
 <h3>Don't translate "you" and "they" word for word</h3>
 <p>When English "you" or "they" means people in general, don't reach for <b>usted</b> or <b>ellos</b>. <b>¿Cómo dice usted…?</b> asks how one particular person says it, and <b>ellos</b> points at a particular group. In everyday speech you'll also hear a general <b>tú</b>, as in English, but <b>se</b> is the form to learn first, and the one on every sign.</p>
-{{ex:En la República Dominicana se come mucho arroz.|ehn lah rreh-POO-blee-kah doh-mee-nee-KAH-nah seh KOH-meh MOO-choh ah-RROHS|In the Dominican Republic people eat a lot of rice.}}
+{{ex:En la República Dominicana se come mucho arroz.|ehn lah rreh-POO-blee-kah doh-mee-nee-KAH-nah seh KOH-meh MOO-choh ah-RROHH|In the Dominican Republic people eat a lot of rice.}}
 <h3>At work and at school</h3>
 <p>The same pattern explains how things are done: <b>Aquí se trabaja mucho</b> (People work hard here), <b>¿Cómo se escribe tu nombre?</b> (How do you spell your name?). At a new job or in a class you will hear questions like these all day, so learn to spot <b>se</b> right before a verb. The verb stays in the él form unless a plural noun follows.</p>
 <div class="tip">The common mistake is keeping the verb singular with a plural noun: <b>Se vende casas</b> → <b>Se venden casas</b>. You will see the first on handmade signs, but standard written Spanish wants the plural.</div>
