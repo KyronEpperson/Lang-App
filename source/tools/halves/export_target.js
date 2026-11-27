@@ -223,17 +223,31 @@ const nCourse = { native: 'en', name: c.name.en, brand: c.brand };
    One row per native field that holds at least one span: {f, id, k, spans}; k "o[2]" = option slot 2; f "body" = the lesson body (id = lesson id).
    "own" = the row's own target-side text (lib.js viMarks). Target-looking words outside every span (a Vietnamese diacritic, no mark) are REPORTED in
    native/en/<t>/unmarked.tsv, never guessed into a span: fix the source (mark them) and re-export. */
+/* Hand-set spans: tools/target/<t>/marks.extra.jsonl, one row per native field {f, id, k, spans, not}. "spans" = target text of that field that no
+   rule can prove (the other example words of a card note, a title that names its pattern); "not" = words with a target diacritic that are not target
+   text (café). The file is a source file kept by hand next to the course; the pack does not change. A row that names no field of the English half, or
+   a span that occurs nowhere in its field, stops the export (the source text moved: fix the row). tools/halves/marks_propose.js drafts rows. */
 const marks = [], unmarkedRows = [];
+const XFILE = process.env.HALVES_MARKS_EXTRA || path.join(L.ROOT, 'tools', 'target', TG, 'marks.extra.jsonl'), /* the env override is for selftest.js */ xKey = (f, id, k) => f + '\u0001' + id + '\u0001' + k;
+const extraIx = new Map(), xUsed = new Set(), xStale = [], xDump = []; /* HALVES_MARKS_DUMP=<file>: every scanned field with its marked ranges, for marks_propose.js */
+if (BYMARKS) L.readJSONL(XFILE).forEach(r => { const k = xKey(r.f, r.id, r.k); if (extraIx.has(k)) throw new Error('marks.extra.jsonl: two rows for ' + r.f + ':' + r.id + '.' + r.k); extraIx.set(k, r); });
+const markField = (kind, f, id, k, v, own) => { const key = xKey(f, id, k), x = extraIx.get(key); if (x) xUsed.add(key);
+  const m = TC.marks(kind, v, own, x); (m.extraMissing || []).forEach(sp => xStale.push(f + ':' + id + '.' + k + ' «' + sp + '» not found'));
+  const lost = m.spans.length ? L.missingSpans(v, m.spans) : []; if (lost.length) throw new Error('marks: the English field ' + f + ':' + id + '.' + k + ' does not hold its own spans ' + lost.map(z => '«' + z + '»').join(' '));
+  if (process.env.HALVES_MARKS_DUMP) xDump.push({ f, id, k, kind, text: v, taken: m.taken || [], unmarked: m.unmarked });
+  return m; };
 if (BYMARKS) {
   const own = { cards: new Map(tCards.map(r => [r.id, [r[K]]])), patterns: new Map(tPat.map(r => [r.id, [r[K], r.ex]])), checks: new Map(tChk.map(r => [r.id, r.o.filter(x => x != null)])),
     practice: new Map(tPr.map(r => [r.id, [].concat(r.a || [], (r.o || []).filter(x => x != null), r.x || [], r.t === 'fill' && r.q != null ? [r.q] : [])])), lessoncards: new Map(), labels: new Map(greet.map(g => [g.id, [g[K]]])) };
   tLessons.forEach(l => { const walk = s => { if (Array.isArray(s)) s.forEach(walk); else if (s && s.cards) s.cards.forEach(cd => own.lessoncards.set(cd.id, [cd[K]])); }; walk(l.sections || []); });
   const scan = (f, rows) => rows.forEach(r => Object.keys(r).forEach(k => { if (k === 'id') return; const vals = Array.isArray(r[k]) ? r[k] : [r[k]];
-    vals.forEach((v, j) => { if (v == null || typeof v !== 'string') return; const kk = Array.isArray(r[k]) ? k + '[' + j + ']' : k; const m = TC.marks('text', v, (own[f] && own[f].get(r.id)) || []);
+    vals.forEach((v, j) => { if (v == null || typeof v !== 'string') return; const kk = Array.isArray(r[k]) ? k + '[' + j + ']' : k; const m = markField('text', f, r.id, kk, v, (own[f] && own[f].get(r.id)) || []);
       if (m.spans.length) marks.push({ f, id: r.id, k: kk, spans: m.spans }); if (m.unmarked.length) unmarkedRows.push([f, r.id, kk, [...new Set(m.unmarked)].join(' '), v]); }); }));
   scan('decks', nDecks); scan('groups', nGroups); scan('cards', nCards); scan('dialog', nDlg); scan('examples', nEx); scan('patterns', nPat); scan('sentences', nSen); scan('lessons', nLessons);
-  Object.entries(lessonFiles).forEach(([id, h]) => { const m = TC.marks('html', h, []); if (m.spans.length) marks.push({ f: 'body', id, k: 'body', spans: m.spans }); if (m.unmarked.length) unmarkedRows.push(['body', id, 'body', [...new Set(m.unmarked)].join(' '), '']); });
+  Object.entries(lessonFiles).forEach(([id, h]) => { const m = markField('html', 'body', id, 'body', h, []); if (m.spans.length) marks.push({ f: 'body', id, k: 'body', spans: m.spans }); if (m.unmarked.length) unmarkedRows.push(['body', id, 'body', [...new Set(m.unmarked)].join(' '), '']); });
   scan('checks', nChk); scan('practice', nPr); scan('labels', labels); scan('lessoncards', nLc);
+  extraIx.forEach((r, key) => { if (!xUsed.has(key)) xStale.push(r.f + ':' + r.id + '.' + r.k + ' is not a field of the English half'); });
+  if (xStale.length) { console.error('export_target: ' + xStale.length + ' stale row(s) or span(s) in ' + path.relative(L.ROOT, XFILE) + ': ' + xStale.slice(0, 12).join(' | ') + (xStale.length > 12 ? ' …' : '')); process.exit(1); }
 }
 
 /* ---------- guard: positional check / practice ids (HALVES-SPEC §2) ---------- */
@@ -258,6 +272,7 @@ if (BYMARKS) {
   fs.writeFileSync(path.join(N, 'unmarked.tsv'), '# ' + (TC.unmarkedNote || TC.name + ' words with a diacritic outside every mark') + ' (export_target.js ' + TG + '; not protected by validate.js until the source marks them). Columns: file, id, field, words, text\n' +
     unmarkedRows.map(r => r.map(tsv).join('\t')).join('\n') + (unmarkedRows.length ? '\n' : '') + optReview.map(x => '# option classes to review: ' + tsv(x)).join('\n') + (optReview.length ? '\n' : ''));
 }
+if (BYMARKS && process.env.HALVES_MARKS_DUMP) L.writeJSONL(process.env.HALVES_MARKS_DUMP, xDump);
 const optCount = rows => rows.reduce((a, r) => { (r.o || []).forEach(o => { a[o == null ? 'prose' : 'target']++; }); return a; }, { target: 0, prose: 0 });
 if (BYMARKS) { const by = {}; unmarkedRows.forEach(r => { const k = r[0] === 'body' ? 'body' : r[0] + '.' + r[2].replace(/\[\d+\]$/, ''); by[k] = (by[k] || 0) + 1; });
   console.log('marks: ' + marks.length + ' native fields hold ' + marks.reduce((a, r) => a + r.spans.length, 0) + ' target spans (target/' + TG + '/marks.jsonl)');

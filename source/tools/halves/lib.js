@@ -115,11 +115,12 @@ const isVietnameseValue = s => isVietnamese(s) || isViRespelling(s) || VI_PRON_P
    a word of the row's own target text (own: the card front, the item's answers / target options / wrong typed answers / fill sentence …).
    Tokens ({{ex:…}}, {{tiles:…}}) are id references checked elsewhere. Returns { spans: [exact substrings, in order], unmarked: [words with a
    Vietnamese diacritic outside every span] }. Words without diacritics outside marks cannot be recognised in Latin script and are not reported. */
-function viMarks(kind, text, own) {
+function viMarks(kind, text, own, extra) {
   const s = String(text == null ? '' : text), taken = [], spans = [];
   const free = (a, b) => taken.every(([x, y]) => b <= x || a >= y);
-  const add = (a, b) => { const v = s.slice(a, b); if (b > a && v.trim() && free(a, b)) { taken.push([a, b]); spans.push([a, v]); } };
-  const block = (a, b) => { if (free(a, b)) taken.push([a, b]); }; /* text that is neither a span nor reportable (tags, tokens) */
+  let how = 'm'; /* what marks a range, for marks_propose.js: m a rule (bold, cell, line, pair), x a hand-set span, o the row's own word, t a tag or token */
+  const add = (a, b) => { const v = s.slice(a, b); if (b > a && v.trim() && free(a, b)) { taken.push([a, b, how]); spans.push([a, v]); } };
+  const block = (a, b) => { if (free(a, b)) taken.push([a, b, 't']); }; /* text that is neither a span nor reportable (tags, tokens) */
   let m;
   const TOK = new RegExp(TOKEN_RX.source, 'g'); while ((m = TOK.exec(s))) block(m.index, m.index + m[0].length);
   if (kind === 'html') {
@@ -137,16 +138,26 @@ function viMarks(kind, text, own) {
     if (ws.length < k) continue; const a = ws[ws.length - k][0], b = ws[ws.length - 1][1]; if (/\S/.test(s.slice(b, m.index))) continue;
     let r = null; try { r = viRespell().respell(s.slice(a, b)); } catch (e) { r = null; }
     if (r === line) { add(a, b); add(m.index + 1, m.index + 1 + line.length); } }
+  /* hand-set spans of this field (tools/target/<t>/marks.extra.jsonl, read by export_target.js): target text no rule above can prove, such as the
+     other example words of a card note or a title that names its pattern. Every free whole-word occurrence is marked, longest span first; a span
+     that occurs nowhere is returned in extraMissing (a stale row). They go before the row's own words so that a phrase is kept as one span. */
+  how = 'x'; const extraMissing = [], L1 = /[A-Za-zÀ-ÖØ-öø-ɏḀ-ỿ\u0300-\u036f]/;
+  ((extra && extra.spans) || []).slice().sort((a, b) => b.length - a.length).forEach(sp => { let i = -1, n = 0; if (!sp) return;
+    while ((i = s.indexOf(sp, i + 1)) >= 0) { const j = i + sp.length, pre = s[i - 1], post = s[j];
+      if ((pre && L1.test(pre) && L1.test(sp[0])) || (post && L1.test(post) && L1.test(sp[sp.length - 1]))) continue;
+      if (!free(i, j)) continue; add(i, j); n++; }
+    if (!n) extraMissing.push(sp); });
+  const notW = new Set(((extra && extra.not) || []).map(x => String(x).normalize('NFC')));
   /* words of the row's own target text. Not taken from it: word pieces next to a blank (Tôi __i chơi → no "i"), single letters without a diacritic,
      and EN_HOMOGRAPHS (Vietnamese syllables that are also everyday English words: "to means big. It has nothing to do with English to."). The source
      language of every native half is English, so only English homographs could turn an English word into a protected span. */
   const ownW = new Set(); (own || []).forEach(o => { const t = String(o == null ? '' : o).normalize('NFC'); const WO = new RegExp(LAT_WORD.source, 'g'); let w;
     while ((w = WO.exec(t))) { const x = w[0].toLowerCase(); if (t[w.index - 1] === '_' || t[w.index + w[0].length] === '_') continue; if (!hasViDiacritic(x) && (x.length < 2 || EN_HOMOGRAPHS.has(x))) continue; ownW.add(x); } });
-  const unmarked = [];
+  const unmarked = []; how = 'o';
   const WR = new RegExp(LAT_WORD.source, 'g');
   while ((m = WR.exec(s))) { const a = m.index, b = a + m[0].length; if (!free(a, b)) continue;
-    if (ownW.has(m[0].normalize('NFC').toLowerCase())) add(a, b); else if (hasViDiacritic(m[0])) unmarked.push(m[0]); }
-  return { spans: spans.sort((x, y) => x[0] - y[0]).map(x => x[1]), unmarked };
+    if (ownW.has(m[0].normalize('NFC').toLowerCase())) add(a, b); else if (hasViDiacritic(m[0]) && !notW.has(m[0].normalize('NFC'))) unmarked.push(m[0]); }
+  return { spans: spans.sort((x, y) => x[0] - y[0]).map(x => x[1]), unmarked, extraMissing, taken: taken.slice().sort((x, y) => x[0] - y[0]) };
 }
 /* does a native string still hold every recorded span? A span may not be glued to a letter on either side, and occurrences are counted without
    overlap, longest span first: "bàn" recorded on its own and inside "Bạn tôi bán bàn." needs two occurrences. Returns the missing spans (one entry per
@@ -177,6 +188,17 @@ const TARGETS = {
   /* fifth half (docs/briefs/x-es-design.md): "by marks", target text recognised by the course's own inventory (targets/_inventory.js; Spanish data: targets/es.js) */
   es: require('./targets/es.js')
 };
+/* Learner languages that are themselves written in Han characters (docs/briefs/x-yue-design.md §6): Mandarin, Cantonese, Taiwanese, Wu, Japanese (kanji).
+   On a Han-script target (zh, yue) their notes, prompts and glosses are full of Han runs that are not target text, so "the native string holds the same
+   Han runs as the English" cannot be the rule. For these pairs validate.js runs in KEEP mode: the Han runs of the English half are the record of the
+   target text (the English half holds no other Han), each must stand in the native string as a WHOLE run (set apart from the learner's own characters
+   by a tag, a bracket such as 「 」, punctuation, a space or kana), as often as in the English; Han the writer adds is the learner's own language and is
+   not counted. Whole target fields (card fronts, sentences, answers, target option slots, hint leads) never were in the native half. */
+const HAN_NATIVES = new Set(['zh', 'yue', 'nan', 'wuu', 'ja']);
+function hanNative(nat, tgt) { const T = TARGETS[tgt]; return !!T && T.script === 'Han' && nat !== tgt && HAN_NATIVES.has(nat); }
+/* KEEP mode: the runs of `ref` (a sorted multiset, as TARGETS[t].runs returns) that `text` lacks as whole runs, one entry per missing occurrence */
+function missingRuns(runs, text, ref) { const have = new Map(); runs(text).forEach(x => have.set(x, (have.get(x) || 0) + 1)); const out = [];
+  runs(ref).forEach(x => { const n = have.get(x) || 0; if (n) have.set(x, n - 1); else out.push(x); }); return out; }
 function target(t) { const c = TARGETS[t]; if (!c) throw new Error('unknown target "' + t + '" (known: ' + Object.keys(TARGETS).join(', ') + ')'); return c; }
 /* split "target lead<sep>native note" (hint, pause-set label); null when there is no leading target part. Marks-mode targets never split. */
 function splitLead(t, s) {
@@ -187,4 +209,4 @@ function splitLead(t, s) {
 
 module.exports = { ROOT, HALVES, SRC, openApp, liveBuiltin, readJSON, writeJSON, writeJSONL, readJSONL, byId, hangulSet, sameHangul, hasHangul, isKoreanValue, tokens, TOKEN_RX, words,
   TARGETS, target, splitLead, hasHan, isPinyin, isChineseValue, HAN_RX, isJyutping, isCantoneseValue,
-  isVietnamese, isViRespelling, isVietnameseValue, hasViDiacritic, viMarks, missingSpans };
+  isVietnamese, isViRespelling, isVietnameseValue, hasViDiacritic, isViSyllable, EN_HOMOGRAPHS, LAT_WORD, viMarks, missingSpans, HAN_NATIVES, hanNative, missingRuns };

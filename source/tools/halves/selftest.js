@@ -193,7 +193,66 @@ if (fs.existsSync(path.join(L.HALVES, 'target', 'vi'))) {
     const ok = want ? (v.status === 1 && want.test(out)) : v.status === 0;
     if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + name + (ok ? '' : '\n' + out.split('\n').filter(l => /ERROR|errors:|Error/.test(l)).slice(0, 5).join('\n')));
   });
+  /* hand-set spans (tools/target/vi/marks.extra.jsonl): a word the rules cannot prove is protected too; the English half leaves no Vietnamese word
+     with a diacritic unmarked; a stale row stops the export */
+  { const x = L.readJSONL(path.join(L.ROOT, 'tools', 'target', 'vi', 'marks.extra.jsonl')).find(r => r.f === 'cards' && r.k === 'note' && (r.spans || []).some(sp => L.hasViDiacritic(sp) && !/ /.test(sp)));
+    const sp = x.spans.find(q => L.hasViDiacritic(q) && !/ /.test(q)), plainSp = sp.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/g, 'd').replace(/Đ/g, 'D');
+    const d = path.join(tmp, 'vx'); fs.cpSync(vb, d, { recursive: true }); vedit(d, 'cards.jsonl', rows => { const r = rows.find(q => q.id === x.id); r.note = r.note.split(sp).join(plainSp); return rows; });
+    const v = run('validate.js', ['es', 'vi'], d); const ok = v.status === 1 && new RegExp('cards:' + x.id.replace('.', '\\.') + '\\.note: marked Vietnamese text missing').test(v.stdout); if (!ok) fail++;
+    console.log((ok ? 'ok   ' : 'FAIL ') + 'vi: a hand-set word in a card note (' + x.id + ' «' + sp + '») loses its tone mark'); }
+  { const d = fresh('vunmarked'); const v = run('export_target.js', ['vi'], d); const left = fs.readFileSync(path.join(d, 'native', 'en', 'vi', 'unmarked.tsv'), 'utf8').split('\n').filter(l => l.trim() && !l.startsWith('#'));
+    const ok = v.status === 0 && left.length === 0 && fs.readFileSync(path.join(d, 'target', 'vi', 'marks.jsonl'), 'utf8') === fs.readFileSync(path.join(L.HALVES, 'target', 'vi', 'marks.jsonl'), 'utf8'); if (!ok) fail++;
+    console.log((ok ? 'ok   ' : 'FAIL ') + 'vi: the English half leaves no Vietnamese word with a diacritic unmarked, and a second export keeps marks.jsonl' + (ok ? '' : ' (' + left.length + ' unmarked field(s): mark them with marks_propose.js vi --write)\n' + v.stderr.slice(0, 300))); }
+  { const d = fresh('vstale'), xf = path.join(tmp, 'stale.extra.jsonl'); L.writeJSONL(xf, [{ f: 'cards', id: 'vi.c0001', k: 'note', spans: ['khôngcótừnày'] }]);
+    const v = cp.spawnSync('node', [path.join(__dirname, 'export_target.js'), 'vi'], { encoding: 'utf8', env: Object.assign({}, process.env, { HALVES_DIR: d, HALVES_MARKS_EXTRA: xf }) });
+    const ok = v.status === 1 && /stale row\(s\) or span\(s\)/.test(v.stderr); if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'export_target vi refuses a hand-set span that is not in its field'); }
   { const d = fresh('vclean'); const v = run('proof.js', ['vi'], d); const ok = v.status === 0 && /differences: 0/.test(v.stdout); if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'proof vi: target/vi + native/en/vi reassemble the en-vi pack exactly'); }
+}
+/* ---------- KEEP mode: a learner language written in Han characters on a Han-script target (lib.js hanNative; docs/briefs/x-yue-design.md §6) ----------
+   A fake Mandarin half of the Cantonese course goes through mk_native --target yue, --merge, validate and assemble. Every prose field is Chinese text
+   glued to the front, with each Cantonese run of the English set apart in 「 」. Added Han must pass; an altered, merged or dropped Cantonese run must not. */
+if (fs.existsSync(path.join(L.HALVES, 'target', 'yue'))) {
+  const HAN = /[㐀-䶿一-鿿豈-﫿]+/g, fake = (pre, s2) => pre + String(s2).replace(HAN, r0 => '「' + r0 + '」');
+  const build = (nat, pre, name) => { const d = fresh(nat + 'yue'); const mk = run('mk_native.js', [nat, '--target', 'yue'], d); if (mk.status) throw new Error('mk_native ' + nat + ' --target yue: ' + mk.stderr);
+    const W2 = path.join(d, 'native', nat, 'yue', 'work');
+    fs.readdirSync(W2).forEach(f => {
+      if (/^w(\d+|U)\.jsonl$/.test(f)) L.writeJSONL(path.join(W2, f), L.readJSONL(path.join(W2, f)).map(x => { x.tgt = x.pre ? x.tgt : x.f === 'course' ? name : x.f === 'ui' ? pre + x.src : x.f === 'labels' && /\.tl\d+\.\d+$/.test(x.id) ? 'ZH ' + x.src : fake(pre, x.src); return x; }));
+      if (/^w\d+$/.test(f)) { const ld = path.join(W2, f, 'lessons'); fs.readdirSync(ld).filter(x => x.endsWith('.src.html')).forEach(x => fs.writeFileSync(path.join(ld, x.replace('.src', '')), fs.readFileSync(path.join(ld, x), 'utf8').replace(/<p>/g, '<p>' + pre + ' '))); }
+    });
+    const mg = run('mk_native.js', [nat, '--target', 'yue', '--merge'], d); if (mg.status) throw new Error('merge ' + nat + ' yue: ' + mg.stderr); return d; };
+  const yb = build('zh', '中文說明：', '粵語'), YN = d => path.join(d, 'native', 'zh', 'yue');
+  const yedit = (d, f, fn) => { const p = path.join(YN(d), f); L.writeJSONL(p, fn(L.readJSONL(p))); };
+  const noteRow = rows => rows.find(r => /「[一-鿿]{2,}」/.test(r.note || ''));
+  const ycases = [
+    ['yue: a fake Mandarin half full of its own Han validates (KEEP mode)', d => { }, null, /kept runs .* 0 field\(s\) with a run missing/],
+    ['yue: a Cantonese run altered in a card note', d => yedit(d, 'cards.jsonl', rows => { const x = noteRow(rows); x.note = x.note.replace(/「([一-鿿])([一-鿿]+)」/, '「$1的$2」'); return rows; }), /cards:yue\.c\d+\.note: Cantonese text missing or altered/],
+    ['yue: a Cantonese run written straight into the learner\'s Chinese (merged)', d => yedit(d, 'cards.jsonl', rows => { const x = noteRow(rows); x.note = x.note.replace(/「([一-鿿]+)」/, '這個$1的意思'); return rows; }), /Cantonese text missing or altered: «[一-鿿]+» \(keep each Cantonese run exactly and set it apart/],
+    ['yue: a Cantonese run dropped from a dialogue translation or practice prompt', d => yedit(d, 'practice.jsonl', rows => { const x = rows.find(r => typeof r.q === 'string' && /「[一-鿿]+」/.test(r.q)); x.q = x.q.replace(/「[一-鿿]+」/, '……'); return rows; }), /practice:[\w-]+\.\d+\.q: Cantonese text missing or altered/],
+    ['yue: a Cantonese run dropped from a lesson body', d => { const dd = path.join(YN(d), 'lessons'); const f = fs.readdirSync(dd).find(x => /<b>[一-鿿]+<\/b>/.test(fs.readFileSync(path.join(dd, x), 'utf8'))); const p = path.join(dd, f); const h = fs.readFileSync(p, 'utf8'), r1 = h.match(/<b>([一-鿿]+)<\/b>/)[1]; fs.writeFileSync(p, h.split(r1).join('X')); }, /lessons\/[\w-]+\.html: Cantonese text missing or altered/],
+    ['yue: a waiver on the row downgrades a missing run to a warning', d => yedit(d, 'cards.jsonl', rows => { const x = noteRow(rows); x.note = x.note.replace(/「[一-鿿]+」/, '……'); x._waive = ['hangul']; return rows; }), null, /warn  cards:yue\.c\d+\.note: Cantonese text missing or altered/],
+    ['yue: options written over an item whose options are all Cantonese', d => yedit(d, 'checks.jsonl', rows => { const tr = L.readJSONL(path.join(d, 'target', 'yue', 'checks.jsonl')).find(r => r.o.every(o => o != null)); const x = rows.find(r => r.id === tr.id); x.o = tr.o.map(() => '亂寫'); return rows; }), /field "o" is not a native field|holds a Cantonese option/],
+    ['yue: a Cantonese field smuggled into a native row', d => yedit(d, 'cards.jsonl', rows => { rows[0].yue = '我'; return rows; }), /not a native field/]
+  ];
+  ycases.forEach(([name, mut, want, also]) => {
+    const d = path.join(tmp, 'y' + Math.random().toString(36).slice(2)); fs.cpSync(yb, d, { recursive: true }); mut(d);
+    const v = run('validate.js', ['zh', 'yue', '--all'], d), out = v.stdout + v.stderr;
+    const ok = (want ? (v.status === 1 && want.test(out)) : v.status === 0) && (!also || also.test(out));
+    if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + name + (ok ? '' : '\n' + out.split('\n').filter(l => /ERROR|errors:|Error|kept runs/.test(l)).slice(0, 5).join('\n')));
+  });
+  { const out = path.join(tmp, 'course-zh-yue.js'); const a = run('assemble.js', ['zh', 'yue', out], yb); let ok = a.status === 0;
+    if (ok) { const P = { course: {}, i18n: {} }; new Function('LANGAPP_PACKS', fs.readFileSync(out, 'utf8'))(P); const c = P.course['zh-yue'], en = (() => { const Q = { course: {}, i18n: {} }; new Function('LANGAPP_PACKS', fs.readFileSync(path.join(L.ROOT, 'packs', 'course-en-yue.js'), 'utf8'))(Q); return Q.course['en-yue']; })();
+      const fronts = x => Object.values(x.DECKS).map(dk => dk.map(cd => cd[0] + '\u0001' + cd[1]).join('\u0002')).join('\u0003');
+      ok = !!c && c.native === 'zh' && c.target === 'yue' && c.ttsLang === en.ttsLang && fronts(c) === fronts(en) && c.LESSONS.length === en.LESSONS.length && /^中文說明：/.test(Object.values(c.DECKS)[0][0][2]); }
+    if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'yue: the fake Mandarin half assembles with every Cantonese card front and reading of en-yue' + (ok ? '' : '\n' + a.stdout + a.stderr)); }
+  /* Japanese: kana on both sides sets a run apart, no brackets needed */
+  { const jb = build('ja', 'これは ', '広東語'); const p = path.join(jb, 'native', 'ja', 'yue', 'cards.jsonl'); L.writeJSONL(p, L.readJSONL(p).map(r => { if (typeof r.note === 'string') r.note = r.note.replace(/「([一-鿿]+)」/g, 'の$1は'); return r; }));
+    const v = run('validate.js', ['ja', 'yue'], jb); const ok = v.status === 0 && /kept runs/.test(v.stdout); if (!ok) fail++;
+    console.log((ok ? 'ok   ' : 'FAIL ') + 'yue: a fake Japanese half with kana around each Cantonese run validates' + (ok ? '' : '\n' + v.stdout.split('\n').filter(l => /ERROR|errors:/.test(l)).slice(0, 5).join('\n'))); }
+  /* a learner language NOT written in Han keeps the strict rule: Han added to a translation is an error */
+  { const d = fresh('esyue'), EN2 = path.join(d, 'native', 'es', 'yue'); fs.cpSync(path.join(d, 'native', 'en', 'yue'), EN2, { recursive: true }); { const c = path.join(EN2, 'course.json'); const o = L.readJSON(c); o.native = 'es'; L.writeJSON(c, o); }
+    const v0 = run('validate.js', ['es', 'yue'], d); const p = path.join(EN2, 'dialog.jsonl'); const rows = L.readJSONL(p); rows[0].tr += ' 學生'; L.writeJSONL(p, rows);
+    const v = run('validate.js', ['es', 'yue'], d); const ok = v0.status === 0 && !/kept runs/.test(v0.stdout) && v.status === 1 && /dialog:yue\.g001\.tr: Han differs/.test(v.stdout); if (!ok) fail++;
+    console.log((ok ? 'ok   ' : 'FAIL ') + 'yue: a learner language not written in Han (es) keeps the strict rule: added Han is an error'); }
 }
 /* ---------- an inventory "by marks" target: Spanish (target/es, docs/briefs/x-es-design.md) ----------
    The classifier (targets/_inventory.js) is unit-checked; a stand-in French half (a copy of the English half) must validate; each mutation of a marked span must be reported. */

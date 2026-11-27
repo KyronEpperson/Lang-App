@@ -83,10 +83,21 @@ Nothing in en-yue or en-zh was refused. The checks were tested by mutating a tem
 
 - Done in part 2: `validate.js` (§1), `mk_native.js` (§1), and the zh re-export (§4).
 - Selftest: every case passes except the known "export refuses moved positional ids" (ko). "proof zh … exactly" passes again. The zh round trip (fake vi half through `mk_native --target zh`, `--merge`, `validate`, `assemble`) now includes the lesson cards.
-- Open: the Vietnamese rows for vi-zh (§4), and the "by marks" mode (§6) before any Han-writing native half on yue.
-- `mk_native.js`'s non-Korean README still says "Chinese" and "pinyin" in a few fixed sentences. That needs rewording before the first yue scaffold.
+- Done 2026-11-26: the Vietnamese rows for vi-zh (§4). Done 2026-11-27: Han-writing learners (§6a) and the `mk_native.js` wording.
 
-## 6. Open problem (not solved here): learners who write Han characters
+## 6a. Solved 2026-11-27 (2.140.0): KEEP mode
+
+The problem of §6 below is closed with a smaller change than a full marks file.
+
+- `lib.js`: `HAN_NATIVES` (zh, yue, nan, wuu, ja), `hanNative(nat, tgt)` (a Han-script target, another learner language from that list), `missingRuns(runs, text, ref)`.
+- `validate.js` in KEEP mode: the Han runs of the English half are the record of the target text (the English half holds no other Han). Each must stand in the native string as a **whole run**, as often as in the English. Han the writer adds is not counted. A run written straight into a Chinese sentence merges with the writer's characters and counts as missing, so native text sets target runs apart: `<b>…</b>`, `「…」`, punctuation, a space, or kana. `_waive: ["hangul"]` still downgrades to a warning. The `trad` and `warn` policies and the run-count warning do not apply. Report line: `kept runs`.
+- No `marks.jsonl` for yue or zh; export, assembly and proof are unchanged; every other learner language keeps the strict set rule.
+- `mk_native.js`: rule 1 of the README is written for the pair (strict, KEEP, or by marks).
+- Engine (`tools/patches/han_native_readings.py`): `rdOn()` is on for these pairs, and `rdAnnotate` writes a reading only under marked text (`b`, `.k`, or a run between `「` and `」`). Stand-in zh-yue: 432 readings, all under Cantonese; en-yue 1,285 as before.
+- `selftest.js`: a stand-in Mandarin half full of its own Han validates and assembles with every en-yue card front; an altered, merged or dropped Cantonese run is an error; a Japanese half with kana around the runs validates; Spanish on yue keeps the strict rule.
+- Limits: a run the writer repeats correctly elsewhere can hide one altered copy only if the counts still match; Jyutping inside prose is not checked; whether Taiwanese text mixes Tâi-lô is the writer's choice and does not matter to the check.
+
+## 6. The problem as first written (2026-11-26): learners who write Han characters
 
 Script mode tells the two sides apart because the learner's language is not written in the target's script. For Cantonese that fails for learners who write Han themselves:
 - **Mandarin** speakers write Simplified or Traditional Han;

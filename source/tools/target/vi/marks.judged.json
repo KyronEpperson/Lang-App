@@ -1,0 +1,110 @@
+{
+ "_note": "Judgements for tools/halves/marks_propose.js vi (2026-11-27). See the header of that file. Regenerate marks.extra.jsonl with --write after editing. Known limit: bare letters and rimes without a diacritic in running text (d, ay, nh) are not marked.",
+ "not": [
+  "café",
+  "cafés",
+  "goût"
+ ],
+ "words": [
+  "anh",
+  "Anh",
+  "ngon",
+  "con",
+  "tay",
+  "kia",
+  "xe",
+  "Cho",
+  "cho",
+  "hoa",
+  "xin",
+  "trong",
+  "mua",
+  "trai",
+  "xinh",
+  "bay",
+  "phim",
+  "sao",
+  "Sao",
+  "khi",
+  "cay",
+  "xa",
+  "nghe",
+  "xem",
+  "theo",
+  "nhau",
+  "hay",
+  "tuy",
+  "cam",
+  "tranh",
+  "ly",
+  "bia",
+  "cao",
+  "em",
+  "ai",
+  "ma",
+  "ba",
+  "tai",
+  "ga",
+  "eo",
+  "da"
+ ],
+ "skip": [],
+ "runs": [
+  "Tôi tin anh",
+  "du lịch",
+  "ba má",
+  "Em bao nhiêu",
+  "gửi tin",
+  "ba tiếng",
+  "Em sẽ",
+  "da trời",
+  "giao thông",
+  "ba ngày",
+  "hai nhà",
+  "sang Mỹ",
+  "em nghe đây",
+  "Em hài hước quá",
+  "Em lãng mạn quá",
+  "Em khéo nịnh quá",
+  "Em dẻo miệng quá",
+  "Em tốt lắm",
+  "lần sau",
+  "Anh yêu em",
+  "cười to",
+  "các em",
+  "ngoài ra",
+  "ra khỏi nhà",
+  "anh và em",
+  "hai đứa con",
+  "an com"
+ ],
+ "cut": [],
+ "names": [
+  "Lan",
+  "Minh",
+  "Hoan",
+  "Emma",
+  "Jack",
+  "Linh",
+  "Nam",
+  "Bay"
+ ],
+ "keep": [
+  {
+   "f": "checks",
+   "id": "verbs.k1",
+   "k": "o[0]",
+   "spans": [
+    "đii"
+   ]
+  },
+  {
+   "f": "lessoncards",
+   "id": "vi.lc0046",
+   "k": "note",
+   "spans": [
+    "cha"
+   ]
+  }
+ ]
+}

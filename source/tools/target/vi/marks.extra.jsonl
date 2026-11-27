@@ -1,0 +1,889 @@
+{"f":"decks","id":"vi.d.letters-and-sounds","k":"desc","spans":["đ","ă â ê ô ơ ư"]}
+{"f":"decks","id":"vi.d.tone-pairs","k":"desc","spans":["ma","má","mà","bàn","bán","bạn"]}
+{"f":"decks","id":"vi.d.numbers-and-money","k":"desc","spans":["đồng","nghìn"]}
+{"f":"decks","id":"vi.d.food-and-drink","k":"desc","spans":["Phở","bánh mì"],"not":["café"]}
+{"f":"decks","id":"vi.d.time-days-and-dates","k":"desc","spans":["đã","đang","sẽ"]}
+{"f":"decks","id":"vi.d.traps-for-english-speakers","k":"desc","spans":["là"]}
+{"f":"decks","id":"vi.d.polite-vietnamese","k":"desc","spans":["ạ","dạ","vâng","nhé","xin","mời"]}
+{"f":"decks","id":"vi.d.flirting","k":"desc","spans":["anh","em"]}
+{"f":"decks","id":"vi.d.top-adjectives","k":"desc","spans":["là"]}
+{"f":"decks","id":"vi.d.top-adverbs","k":"desc","spans":["đã","đang","sẽ","cũng","rất","lắm","vẫn"]}
+{"f":"decks","id":"vi.d.top-pronouns","k":"desc","spans":["anh","chị","em","bác","ông","mình"]}
+{"f":"decks","id":"vi.d.top-prepositions","k":"desc","spans":["của","cho","trong","với","ở","từ","trên"]}
+{"f":"decks","id":"vi.d.top-conjunctions","k":"desc","spans":["và","để","khi","thì","vì","nên","nếu"]}
+{"f":"decks","id":"vi.d.top-interjections","k":"desc","spans":["Ôi","Trời ơi","Thôi chết","Hú hồn"]}
+{"f":"decks","id":"vi.d.top-classifiers","k":"desc","spans":["con","cái","chiếc","quả","bát"]}
+{"f":"decks","id":"vi.d.top-particles","k":"desc","spans":["ạ","nhé","nhỉ","à","chứ","đấy","cơ"]}
+{"f":"cards","id":"vi.c0001","k":"note","spans":["đ"]}
+{"f":"cards","id":"vi.c0005","k":"note","spans":["ơ"]}
+{"f":"cards","id":"vi.c0010","k":"note","spans":["tai"]}
+{"f":"cards","id":"vi.c0011","k":"note","spans":["ai","tay"]}
+{"f":"cards","id":"vi.c0012","k":"note","spans":["ư"]}
+{"f":"cards","id":"vi.c0013","k":"note","spans":["ô"]}
+{"f":"cards","id":"vi.c0014","k":"note","spans":["ă"]}
+{"f":"cards","id":"vi.c0015","k":"note","spans":["â"]}
+{"f":"cards","id":"vi.c0016","k":"note","spans":["ê"]}
+{"f":"cards","id":"vi.c0017","k":"note","spans":["ươ"]}
+{"f":"cards","id":"vi.c0018","k":"note","spans":["anh"]}
+{"f":"cards","id":"vi.c0021","k":"note","spans":["ma","mà"]}
+{"f":"cards","id":"vi.c0022","k":"note","spans":["bán","bạn"]}
+{"f":"cards","id":"vi.c0025","k":"note","spans":["â","bạn"]}
+{"f":"cards","id":"vi.c0026","k":"note","spans":["múa"]}
+{"f":"cards","id":"vi.c0027","k":"note","spans":["mua"]}
+{"f":"cards","id":"vi.c0028","k":"note","spans":["cà","cà phê"]}
+{"f":"cards","id":"vi.c0029","k":"note","spans":["bỏ"]}
+{"f":"cards","id":"vi.c0030","k":"note","spans":["tôi"]}
+{"f":"cards","id":"vi.c0031","k":"note","spans":["sửa"]}
+{"f":"cards","id":"vi.c0032","k":"note","spans":["sữa"]}
+{"f":"cards","id":"vi.c0033","k":"note","spans":["nằm"]}
+{"f":"cards","id":"vi.c0034","k":"note","spans":["năm"]}
+{"f":"cards","id":"vi.c0035","k":"note","spans":["ga"]}
+{"f":"cards","id":"vi.c0036","k":"note","spans":["anh"]}
+{"f":"cards","id":"vi.c0038","k":"note","spans":["cám","anh"]}
+{"f":"cards","id":"vi.c0040","k":"note","spans":["Chào"]}
+{"f":"cards","id":"vi.c0046","k":"note","spans":["là"]}
+{"f":"cards","id":"vi.c0047","k":"note","spans":["chị"]}
+{"f":"cards","id":"vi.c0051","k":"note","spans":["Xin lỗi"]}
+{"f":"cards","id":"vi.c0052","k":"note","spans":["anh"]}
+{"f":"cards","id":"vi.c0053","k":"note","spans":["chị"]}
+{"f":"cards","id":"vi.c0054","k":"note","spans":["má"]}
+{"f":"cards","id":"vi.c0055","k":"note","spans":["ba"]}
+{"f":"cards","id":"vi.c0057","k":"note","spans":["trai"]}
+{"f":"cards","id":"vi.c0060","k":"note","spans":["gái"]}
+{"f":"cards","id":"vi.c0061","k":"note","spans":["ba má"]}
+{"f":"cards","id":"vi.c0062","k":"note","spans":["của"]}
+{"f":"cards","id":"vi.c0068","k":"note","spans":["cháu"]}
+{"f":"cards","id":"vi.c0069","k":"note","spans":["cháu"]}
+{"f":"cards","id":"vi.c0070","k":"note","spans":["cô","chú","ông","bà"]}
+{"f":"cards","id":"vi.c0073","k":"note","spans":["mươi","hai mươi"]}
+{"f":"cards","id":"vi.c0074","k":"note","spans":["năm"]}
+{"f":"cards","id":"vi.c0076","k":"note","spans":["ngàn"]}
+{"f":"cards","id":"vi.c0077","k":"note","spans":["ai"]}
+{"f":"cards","id":"vi.c0079","k":"note","spans":["mươi","tư","hai mươi tư"]}
+{"f":"cards","id":"vi.c0082","k":"note","spans":["mười"]}
+{"f":"cards","id":"vi.c0085","k":"note","spans":["một"]}
+{"f":"cards","id":"vi.c0086","k":"note","spans":["bốn"]}
+{"f":"cards","id":"vi.c0087","k":"note","spans":["ngàn"]}
+{"f":"cards","id":"vi.c0088","k":"note","spans":["đồng"]}
+{"f":"cards","id":"vi.c0092","k":"note","spans":["cuốn"]}
+{"f":"cards","id":"vi.c0093","k":"note","spans":["cái"]}
+{"f":"cards","id":"vi.c0095","k":"note","spans":["cái"]}
+{"f":"cards","id":"vi.c0102","k":"note","spans":["giày"]}
+{"f":"cards","id":"vi.c0106","k":"note","spans":["Đây"]}
+{"f":"cards","id":"vi.c0107","k":"note","spans":["này"]}
+{"f":"cards","id":"vi.c0108","k":"note","spans":["gà"]}
+{"f":"cards","id":"vi.c0114","k":"note","spans":["chả giò"]}
+{"f":"cards","id":"vi.c0120","k":"note","spans":["em"]}
+{"f":"cards","id":"vi.c0121","k":"note","not":["cafés"]}
+{"f":"cards","id":"vi.c0123","k":"note","spans":["cay"]}
+{"f":"cards","id":"vi.c0136","k":"note","spans":["to hơn"]}
+{"f":"cards","id":"vi.c0147","k":"note","spans":["chủ nhật"]}
+{"f":"cards","id":"vi.c0154","k":"note","spans":["trước"]}
+{"f":"cards","id":"vi.c0158","k":"note","spans":["mấy"]}
+{"f":"cards","id":"vi.c0161","k":"note","spans":["ngày"]}
+{"f":"cards","id":"vi.c0163","k":"note","spans":["phải"]}
+{"f":"cards","id":"vi.c0164","k":"note","spans":["không"]}
+{"f":"cards","id":"vi.c0166","k":"note","spans":["quẹo"]}
+{"f":"cards","id":"vi.c0170","k":"note","spans":["xa"]}
+{"f":"cards","id":"vi.c0174","k":"meaning","not":["café"]}
+{"f":"cards","id":"vi.c0175","k":"note","spans":["là"]}
+{"f":"cards","id":"vi.c0184","k":"note","spans":["xe ôm"]}
+{"f":"cards","id":"vi.c0186","k":"note","spans":["với"]}
+{"f":"cards","id":"vi.c0187","k":"note","spans":["đi"]}
+{"f":"cards","id":"vi.c0190","k":"note","spans":["một chiều"]}
+{"f":"cards","id":"vi.c0196","k":"note","spans":["cô","thầy"]}
+{"f":"cards","id":"vi.c0197","k":"note","spans":["học"]}
+{"f":"cards","id":"vi.c0198","k":"note","spans":["viên"]}
+{"f":"cards","id":"vi.c0201","k":"note","spans":["du lịch"]}
+{"f":"cards","id":"vi.c0206","k":"note","spans":["Chưa","đâu"]}
+{"f":"cards","id":"vi.c0214","k":"note","spans":["bệnh"]}
+{"f":"cards","id":"vi.c0215","k":"note","spans":["nhà"]}
+{"f":"cards","id":"vi.c0220","k":"note","spans":["đầu"]}
+{"f":"cards","id":"vi.c0225","k":"note","spans":["tôm","lạc"]}
+{"f":"cards","id":"vi.c0230","k":"note","spans":["Anh có"]}
+{"f":"cards","id":"vi.c0231","k":"note","spans":["điện thoại"]}
+{"f":"cards","id":"vi.c0244","k":"note","spans":["là"]}
+{"f":"cards","id":"vi.c0245","k":"note","spans":["Chị"]}
+{"f":"cards","id":"vi.c0250","k":"note","spans":["là"]}
+{"f":"cards","id":"vi.c0257","k":"note","spans":["già"]}
+{"f":"cards","id":"vi.c0259","k":"note","spans":["là"]}
+{"f":"cards","id":"vi.c0263","k":"note","spans":["Không","lắm"]}
+{"f":"cards","id":"vi.c0265","k":"meaning","not":["café"]}
+{"f":"cards","id":"vi.c0266","k":"note","spans":["Anh muốn"]}
+{"f":"cards","id":"vi.c0268","k":"note","spans":["Minh"]}
+{"f":"cards","id":"vi.c0270","k":"note","spans":["vì"]}
+{"f":"cards","id":"vi.c0271","k":"note","spans":["bao giờ"]}
+{"f":"cards","id":"vi.c0274","k":"note","spans":["â","bạn"]}
+{"f":"cards","id":"vi.c0276","k":"note","spans":["Rồi","Không"]}
+{"f":"cards","id":"vi.c0277","k":"note","spans":["chưa"]}
+{"f":"cards","id":"vi.c0278","k":"note","spans":["Không"]}
+{"f":"cards","id":"vi.c0281","k":"note","spans":["vì"]}
+{"f":"cards","id":"vi.c0283","k":"note","spans":["vậy"]}
+{"f":"cards","id":"vi.c0284","k":"note","spans":["là"]}
+{"f":"cards","id":"vi.c0285","k":"note","spans":["là"]}
+{"f":"cards","id":"vi.c0286","k":"note","spans":["là"]}
+{"f":"cards","id":"vi.c0287","k":"note","spans":["là"]}
+{"f":"cards","id":"vi.c0289","k":"note","spans":["là","có"]}
+{"f":"cards","id":"vi.c0290","k":"note","spans":["xăng"]}
+{"f":"cards","id":"vi.c0291","k":"note","spans":["ga"]}
+{"f":"cards","id":"vi.c0292","k":"note","spans":["trà"]}
+{"f":"cards","id":"vi.c0293","k":"note","spans":["bệnh"]}
+{"f":"cards","id":"vi.c0296","k":"note","spans":["cô"]}
+{"f":"cards","id":"vi.c0297","k":"note","spans":["bạn","ông","bà"]}
+{"f":"cards","id":"vi.c0298","k":"note","spans":["Anh","Chị"]}
+{"f":"cards","id":"vi.c0299","k":"note","spans":["nó"]}
+{"f":"cards","id":"vi.c0300","k":"note","spans":["Rồi"]}
+{"f":"cards","id":"vi.c0301","k":"note","spans":["chợ"]}
+{"f":"cards","id":"vi.c0303","k":"note","spans":["dạ"]}
+{"f":"cards","id":"vi.c0304","k":"note","spans":["Ừ"]}
+{"f":"cards","id":"vi.c0311","k":"note","spans":["Em ơi","Chị"]}
+{"f":"cards","id":"vi.c0320","k":"note","spans":["cháu","Chú"]}
+{"f":"cards","id":"vi.c0324","k":"note","spans":["em","Chị"]}
+{"f":"cards","id":"vi.c0327","k":"note","spans":["em","Anh"]}
+{"f":"cards","id":"vi.c0330","k":"note","spans":["em","Anh"]}
+{"f":"cards","id":"vi.c0331","k":"note","spans":["Chị"]}
+{"f":"cards","id":"vi.c0333","k":"note","spans":["Anh"]}
+{"f":"cards","id":"vi.c0334","k":"note","spans":["Anh"]}
+{"f":"cards","id":"vi.c0335","k":"note","spans":["em"]}
+{"f":"cards","id":"vi.c0336","k":"note","spans":["em","anh"]}
+{"f":"cards","id":"vi.c0337","k":"note","spans":["anh"]}
+{"f":"cards","id":"vi.c0339","k":"note","spans":["anh"]}
+{"f":"cards","id":"vi.c0340","k":"note","spans":["cháu","chú"]}
+{"f":"cards","id":"vi.c0341","k":"note","spans":["anh"]}
+{"f":"cards","id":"vi.c0343","k":"note","spans":["Chị"]}
+{"f":"cards","id":"vi.c0344","k":"note","spans":["Anh"]}
+{"f":"cards","id":"vi.c0346","k":"note","spans":["Chị"]}
+{"f":"cards","id":"vi.c0347","k":"note","spans":["anh"]}
+{"f":"cards","id":"vi.c0349","k":"note","spans":["Anh"]}
+{"f":"cards","id":"vi.c0367","k":"note","spans":["đôi"]}
+{"f":"cards","id":"vi.c0368","k":"note","spans":["mái"]}
+{"f":"cards","id":"vi.c0369","k":"note","spans":["nói","Hà Nội"]}
+{"f":"cards","id":"vi.c0370","k":"note","spans":["đúng"],"not":["goût"]}
+{"f":"cards","id":"vi.c0372","k":"note","spans":["Đi"]}
+{"f":"cards","id":"vi.c0375","k":"note","spans":["Anh đẹp trai"]}
+{"f":"cards","id":"vi.c0376","k":"note","spans":["anh đẹp trai"]}
+{"f":"cards","id":"vi.c0377","k":"note","spans":["anh","trai"]}
+{"f":"cards","id":"vi.c0378","k":"note","spans":["Em xinh"]}
+{"f":"cards","id":"vi.c0379","k":"note","spans":["em xinh"]}
+{"f":"cards","id":"vi.c0380","k":"note","spans":["Anh"]}
+{"f":"cards","id":"vi.c0381","k":"note","spans":["Anh"]}
+{"f":"cards","id":"vi.c0382","k":"note","spans":["Anh vui tính"]}
+{"f":"cards","id":"vi.c0383","k":"note","spans":["Anh","đẹp"]}
+{"f":"cards","id":"vi.c0385","k":"note","spans":["anh"]}
+{"f":"cards","id":"vi.c0386","k":"note","spans":["anh"]}
+{"f":"cards","id":"vi.c0387","k":"note","spans":["Anh"]}
+{"f":"cards","id":"vi.c0388","k":"note","spans":["Anh"]}
+{"f":"cards","id":"vi.c0390","k":"note","spans":["Em hài hước quá"]}
+{"f":"cards","id":"vi.c0392","k":"note","spans":["anh"]}
+{"f":"cards","id":"vi.c0393","k":"note","spans":["Anh"]}
+{"f":"cards","id":"vi.c0395","k":"note","spans":["Em lãng mạn quá"]}
+{"f":"cards","id":"vi.c0397","k":"note","spans":["Anh"]}
+{"f":"cards","id":"vi.c0400","k":"note","spans":["anh"]}
+{"f":"cards","id":"vi.c0401","k":"note","spans":["em"]}
+{"f":"cards","id":"vi.c0406","k":"note","spans":["Anh yêu em"]}
+{"f":"cards","id":"vi.c0407","k":"note","spans":["em"]}
+{"f":"cards","id":"vi.c0408","k":"note","spans":["Em khéo nịnh quá"]}
+{"f":"cards","id":"vi.c0409","k":"note","spans":["Em dẻo miệng quá"]}
+{"f":"cards","id":"vi.c0410","k":"note","spans":["Em cũng thế"]}
+{"f":"cards","id":"vi.c0412","k":"note","spans":["anh"]}
+{"f":"cards","id":"vi.c0413","k":"note","spans":["anh"]}
+{"f":"cards","id":"vi.c0416","k":"note","spans":["Em tốt lắm"]}
+{"f":"cards","id":"vi.c0418","k":"note","spans":["uống","ngoài"]}
+{"f":"cards","id":"vi.c0419","k":"note","spans":["tuần"]}
+{"f":"cards","id":"vi.c0420","k":"note","spans":["điện thoại"]}
+{"f":"cards","id":"vi.c0421","k":"note","spans":["Tôi có","bận"]}
+{"f":"cards","id":"vi.c0422","k":"note","spans":["học","đi học"]}
+{"f":"cards","id":"vi.c0423","k":"note","spans":["Một","nữa"]}
+{"f":"cards","id":"vi.c0424","k":"note","spans":["làm"]}
+{"f":"cards","id":"vi.c0425","k":"note","spans":["ăn","xếp"]}
+{"f":"cards","id":"vi.c0426","k":"note","spans":["đọc"]}
+{"f":"cards","id":"vi.c0427","k":"note","spans":["Việt","hai tiếng"]}
+{"f":"cards","id":"vi.c0429","k":"note","spans":["bao nhiêu"]}
+{"f":"cards","id":"vi.c0430","k":"note","spans":["lần sau","một"]}
+{"f":"cards","id":"vi.c0431","k":"note","spans":["rửa"]}
+{"f":"cards","id":"vi.c0432","k":"note","spans":["tôi là Minh"]}
+{"f":"cards","id":"vi.c0433","k":"note","spans":["này","kia"]}
+{"f":"cards","id":"vi.c0434","k":"note","spans":["Có","gì thế"]}
+{"f":"cards","id":"vi.c0435","k":"note","spans":["bút"]}
+{"f":"cards","id":"vi.c0436","k":"note","spans":["chỗ"]}
+{"f":"cards","id":"vi.c0437","k":"note","spans":["ngủ","tắm"]}
+{"f":"cards","id":"vi.c0438","k":"note","spans":["Bao nhiêu"]}
+{"f":"cards","id":"vi.c0439","k":"note","spans":["bị","bị ốm"]}
+{"f":"cards","id":"vi.c0440","k":"note","spans":["Em bao nhiêu"]}
+{"f":"cards","id":"vi.c0441","k":"note","spans":["mất"]}
+{"f":"cards","id":"vi.c0442","k":"note","spans":["chụp","hình"]}
+{"f":"cards","id":"vi.c0443","k":"note","spans":["Huế","cổ"]}
+{"f":"cards","id":"vi.c0444","k":"note","spans":["bay","tính"]}
+{"f":"cards","id":"vi.c0445","k":"note","spans":["hát","tập"]}
+{"f":"cards","id":"vi.c0446","k":"note","spans":["du lịch"]}
+{"f":"cards","id":"vi.c0447","k":"note","spans":["mở"]}
+{"f":"cards","id":"vi.c0448","k":"note","spans":["hỏi","trả lời"]}
+{"f":"cards","id":"vi.c0449","k":"note","spans":["cả"]}
+{"f":"cards","id":"vi.c0450","k":"note","spans":["đi"]}
+{"f":"cards","id":"vi.c0451","k":"note","spans":["người","chồng"]}
+{"f":"cards","id":"vi.c0452","k":"note","spans":["người","ông xã"]}
+{"f":"cards","id":"vi.c0453","k":"note","spans":["bố","ba"]}
+{"f":"cards","id":"vi.c0454","k":"note","spans":["ăn","uống"]}
+{"f":"cards","id":"vi.c0455","k":"note","spans":["này có ai ngồi không"]}
+{"f":"cards","id":"vi.c0456","k":"note","spans":["ăn"]}
+{"f":"cards","id":"vi.c0457","k":"note","spans":["bò","lợn"]}
+{"f":"cards","id":"vi.c0458","k":"note","spans":["mì","cuốn","xèo"]}
+{"f":"cards","id":"vi.c0459","k":"note","spans":["đá"]}
+{"f":"cards","id":"vi.c0460","k":"note","spans":["phở","cà phê"]}
+{"f":"cards","id":"vi.c0461","k":"note","spans":["đi"]}
+{"f":"cards","id":"vi.c0462","k":"note","spans":["khoác","cái","chiếc"]}
+{"f":"cards","id":"vi.c0463","k":"note","spans":["áo"]}
+{"f":"cards","id":"vi.c0464","k":"note","spans":["một đôi","chiếc"]}
+{"f":"cards","id":"vi.c0465","k":"note","spans":["nón","bảo hiểm"]}
+{"f":"cards","id":"vi.c0466","k":"note","spans":["Trời","mua"]}
+{"f":"cards","id":"vi.c0467","k":"note","spans":["Trời"]}
+{"f":"cards","id":"vi.c0469","k":"note","spans":["Hồng"]}
+{"f":"cards","id":"vi.c0470","k":"note","spans":["Gươm","Tây"]}
+{"f":"cards","id":"vi.c0471","k":"note","spans":["nghe"]}
+{"f":"cards","id":"vi.c0472","k":"note","spans":["xem"]}
+{"f":"cards","id":"vi.c0473","k":"note","spans":["tặng"]}
+{"f":"cards","id":"vi.c0474","k":"note","spans":["này","ăn"]}
+{"f":"cards","id":"vi.c0475","k":"note","spans":["sáng","tối"]}
+{"f":"cards","id":"vi.c0476","k":"note","spans":["Việt"]}
+{"f":"cards","id":"vi.c0477","k":"note","spans":["gửi tin"]}
+{"f":"cards","id":"vi.c0478","k":"note","spans":["có"]}
+{"f":"cards","id":"vi.c0479","k":"note","spans":["Tôi không có"]}
+{"f":"cards","id":"vi.c0480","k":"note","spans":["thế nào"]}
+{"f":"cards","id":"vi.c0481","k":"note","spans":["Hồ Chí Minh"]}
+{"f":"cards","id":"vi.c0482","k":"note","spans":["quán"]}
+{"f":"cards","id":"vi.c0483","k":"note","spans":["tiệm"]}
+{"f":"cards","id":"vi.c0484","k":"note","spans":["gần nhất ở đâu"]}
+{"f":"cards","id":"vi.c0485","k":"note","spans":["tôi"]}
+{"f":"cards","id":"vi.c0488","k":"note","spans":["con"]}
+{"f":"cards","id":"vi.c0490","k":"note","spans":["Không có","gì"]}
+{"f":"cards","id":"vi.c0491","k":"note","spans":["của anh thế nào"]}
+{"f":"cards","id":"vi.c0492","k":"note","spans":["ở Hà Nội"]}
+{"f":"cards","id":"vi.c0493","k":"note","spans":["trên"]}
+{"f":"cards","id":"vi.c0494","k":"note","spans":["Việt Nam"]}
+{"f":"cards","id":"vi.c0495","k":"note","spans":["ngôi","quê"]}
+{"f":"cards","id":"vi.c0496","k":"note","spans":["học"]}
+{"f":"cards","id":"vi.c0497","k":"note","spans":["em","anh","chị"]}
+{"f":"cards","id":"vi.c0498","k":"note","spans":["công an"]}
+{"f":"cards","id":"vi.c0499","k":"note","spans":["hôm nay thế nào"]}
+{"f":"cards","id":"vi.c0500","k":"note","spans":["ở đâu"]}
+{"f":"cards","id":"vi.c0501","k":"note","spans":["khoá"]}
+{"f":"cards","id":"vi.c0502","k":"note","spans":["đeo tay"]}
+{"f":"cards","id":"vi.c0503","k":"note","spans":["hỏa","xe lửa"]}
+{"f":"cards","id":"vi.c0504","k":"note","spans":["đi"]}
+{"f":"cards","id":"vi.c0505","k":"note","spans":["ăn"]}
+{"f":"cards","id":"vi.c0506","k":"note","spans":["Chúc mừng"]}
+{"f":"cards","id":"vi.c0507","k":"note","spans":["Không"]}
+{"f":"cards","id":"vi.c0509","k":"note","spans":["không"]}
+{"f":"cards","id":"vi.c0510","k":"note","spans":["ngoài","sân bay"]}
+{"f":"cards","id":"vi.c0511","k":"note","spans":["từ thứ hai","thứ sáu"]}
+{"f":"cards","id":"vi.c0512","k":"note","spans":["Mời anh"]}
+{"f":"cards","id":"vi.c0513","k":"note","spans":["nói","Hà Nội"]}
+{"f":"cards","id":"vi.c0514","k":"note","spans":["gì","bánh"]}
+{"f":"cards","id":"vi.c0515","k":"note","spans":["không"]}
+{"f":"cards","id":"vi.c0516","k":"note","spans":["ốm","mất ví"]}
+{"f":"cards","id":"vi.c0517","k":"note","spans":["tiếng Việt"]}
+{"f":"cards","id":"vi.c0518","k":"note","spans":["xe"]}
+{"f":"cards","id":"vi.c0519","k":"note","spans":["tiếng Việt"]}
+{"f":"cards","id":"vi.c0520","k":"note","spans":["bơi"]}
+{"f":"cards","id":"vi.c0521","k":"note","spans":["Tôi","mệt"]}
+{"f":"cards","id":"vi.c0522","k":"note","spans":["quà"]}
+{"f":"cards","id":"vi.c0523","k":"note","spans":["đi"]}
+{"f":"cards","id":"vi.c0524","k":"note","spans":["giúp"]}
+{"f":"cards","id":"vi.c0525","k":"note","spans":["Tôi đang","khách sạn"]}
+{"f":"cards","id":"vi.c0526","k":"note","spans":["ở Hà Nội"]}
+{"f":"cards","id":"vi.c0527","k":"note","spans":["em đi"]}
+{"f":"cards","id":"vi.c0528","k":"note","spans":["xe"]}
+{"f":"cards","id":"vi.c0529","k":"note","spans":["Cho em"]}
+{"f":"cards","id":"vi.c0530","k":"note","spans":["Tôi","cái này"]}
+{"f":"cards","id":"vi.c0531","k":"note","spans":["kìa"]}
+{"f":"cards","id":"vi.c0532","k":"note","spans":["điện","món"]}
+{"f":"cards","id":"vi.c0533","k":"note","spans":["tiền","lại"]}
+{"f":"cards","id":"vi.c0534","k":"note","spans":["răng"]}
+{"f":"cards","id":"vi.c0535","k":"note","spans":["nhạc"]}
+{"f":"cards","id":"vi.c0536","k":"note","spans":["đi"]}
+{"f":"cards","id":"vi.c0537","k":"note","spans":["Anh","em được không"]}
+{"f":"cards","id":"vi.c0538","k":"note","spans":["phim"]}
+{"f":"cards","id":"vi.c0539","k":"note","spans":["muốn","Cho tôi"]}
+{"f":"cards","id":"vi.c0540","k":"note","spans":["chuyện"]}
+{"f":"cards","id":"vi.c0541","k":"note","spans":["lỗi","Cho em"]}
+{"f":"cards","id":"vi.c0542","k":"note","spans":["Anh yêu em"]}
+{"f":"cards","id":"vi.c0543","k":"note","spans":["ba tiếng"]}
+{"f":"cards","id":"vi.c0544","k":"note","spans":["tiền"]}
+{"f":"cards","id":"vi.c0545","k":"note","spans":["theo"]}
+{"f":"cards","id":"vi.c0546","k":"note","spans":["Rất vui được","anh"]}
+{"f":"cards","id":"vi.c0547","k":"note","spans":["Thôi"]}
+{"f":"cards","id":"vi.c0548","k":"note","spans":["Em nghĩ","là"]}
+{"f":"cards","id":"vi.c0549","k":"note","spans":["dậy"]}
+{"f":"cards","id":"vi.c0550","k":"note","spans":["cửa","nhạc"]}
+{"f":"cards","id":"vi.c0551","k":"note","spans":["Tôi"]}
+{"f":"cards","id":"vi.c0552","k":"note","spans":["đũa"]}
+{"f":"cards","id":"vi.c0553","k":"note","spans":["cho em cái này"]}
+{"f":"cards","id":"vi.c0554","k":"note","spans":["bàn"]}
+{"f":"cards","id":"vi.c0555","k":"note","spans":["thư"]}
+{"f":"cards","id":"vi.c0556","k":"note","spans":["Đừng lo"]}
+{"f":"cards","id":"vi.c0557","k":"note","spans":["chó"]}
+{"f":"cards","id":"vi.c0558","k":"note","spans":["Mời anh"]}
+{"f":"cards","id":"vi.c0559","k":"note","spans":["nhà"]}
+{"f":"cards","id":"vi.c0560","k":"note","spans":["Em không"]}
+{"f":"cards","id":"vi.c0561","k":"note","spans":["cà phê"]}
+{"f":"cards","id":"vi.c0562","k":"note","spans":["sách"]}
+{"f":"cards","id":"vi.c0563","k":"note","spans":["chờ"]}
+{"f":"cards","id":"vi.c0564","k":"note","spans":["ăn"]}
+{"f":"cards","id":"vi.c0565","k":"note","spans":["bộ"]}
+{"f":"cards","id":"vi.c0566","k":"note","spans":["đội","đi"]}
+{"f":"cards","id":"vi.c0567","k":"note","spans":["biển"]}
+{"f":"cards","id":"vi.c0568","k":"note","spans":["Em quên","mất rồi"]}
+{"f":"cards","id":"vi.c0569","k":"note","spans":["gọi cho anh nhé"]}
+{"f":"cards","id":"vi.c0570","k":"note","spans":["cười to"]}
+{"f":"cards","id":"vi.c0571","k":"note","spans":["Đừng"]}
+{"f":"cards","id":"vi.c0572","k":"note","spans":["tiếng Anh"]}
+{"f":"cards","id":"vi.c0573","k":"note","spans":["làm"]}
+{"f":"cards","id":"vi.c0574","k":"note","spans":["gửi tin","nhắn"]}
+{"f":"cards","id":"vi.c0575","k":"note","spans":["Tôi tin anh"]}
+{"f":"cards","id":"vi.c0576","k":"note","spans":["anh ngủ ngon"]}
+{"f":"cards","id":"vi.c0577","k":"note","spans":["chị ăn"]}
+{"f":"cards","id":"vi.c0578","k":"note","spans":["xe"]}
+{"f":"cards","id":"vi.c0579","k":"note","spans":["ăn","mặc"]}
+{"f":"cards","id":"vi.c0580","k":"note","spans":["Em sẽ"]}
+{"f":"cards","id":"vi.c0581","k":"note","spans":["cửa"]}
+{"f":"cards","id":"vi.c0582","k":"note","spans":["tay","giặt"]}
+{"f":"cards","id":"vi.c0583","k":"note","spans":["ngủ"]}
+{"f":"cards","id":"vi.c0584","k":"note","spans":["học"]}
+{"f":"cards","id":"vi.c0585","k":"note","spans":["ở ngân hàng"]}
+{"f":"cards","id":"vi.c0586","k":"note","spans":["biết"]}
+{"f":"cards","id":"vi.c0587","k":"note","spans":["ảnh"]}
+{"f":"cards","id":"vi.c0589","k":"note","spans":["đi"]}
+{"f":"cards","id":"vi.c0590","k":"note","spans":["múa"]}
+{"f":"cards","id":"vi.c0591","k":"note","spans":["Tôi","đến"]}
+{"f":"cards","id":"vi.c0592","k":"note","spans":["cái"]}
+{"f":"cards","id":"vi.c0593","k":"note","spans":["là","Anh ấy"]}
+{"f":"cards","id":"vi.c0595","k":"note","spans":["uống thuốc cho"]}
+{"f":"cards","id":"vi.c0596","k":"note","spans":["Trông chị","quá"]}
+{"f":"cards","id":"vi.c0597","k":"note","spans":["Tiếng Việt","quá"]}
+{"f":"cards","id":"vi.c0598","k":"note","spans":["màu"]}
+{"f":"cards","id":"vi.c0599","k":"note","spans":["tóc"]}
+{"f":"cards","id":"vi.c0600","k":"note","spans":["ngon","giỏi"]}
+{"f":"cards","id":"vi.c0601","k":"note","spans":["rồi"]}
+{"f":"cards","id":"vi.c0603","k":"note","spans":["nói"]}
+{"f":"cards","id":"vi.c0604","k":"note","spans":["quá"]}
+{"f":"cards","id":"vi.c0605","k":"note","spans":["mùa"]}
+{"f":"cards","id":"vi.c0607","k":"note","spans":["hiểu"]}
+{"f":"cards","id":"vi.c0608","k":"note","spans":["Anh","không"]}
+{"f":"cards","id":"vi.c0609","k":"note","spans":["rất","quá"]}
+{"f":"cards","id":"vi.c0610","k":"note","spans":["Em đói","rồi"]}
+{"f":"cards","id":"vi.c0611","k":"note","spans":["Cháu no rồi ạ"]}
+{"f":"cards","id":"vi.c0612","k":"note","spans":["ngủ"]}
+{"f":"cards","id":"vi.c0613","k":"note","spans":["tính"]}
+{"f":"cards","id":"vi.c0614","k":"note","spans":["Hà Nội","hơn Sài Gòn"]}
+{"f":"cards","id":"vi.c0615","k":"note","spans":["Trời"]}
+{"f":"cards","id":"vi.c0616","k":"note","spans":["áo"]}
+{"f":"cards","id":"vi.c0617","k":"note","spans":["mắc","quá"]}
+{"f":"cards","id":"vi.c0618","k":"note","spans":["quá"]}
+{"f":"cards","id":"vi.c0619","k":"note","spans":["lên"]}
+{"f":"cards","id":"vi.c0620","k":"note","spans":["nói"]}
+{"f":"cards","id":"vi.c0621","k":"note","spans":["sẽ"]}
+{"f":"cards","id":"vi.c0622","k":"note","spans":["dơ"]}
+{"f":"cards","id":"vi.c0623","k":"note","spans":["già"]}
+{"f":"cards","id":"vi.c0624","k":"note","spans":["lớn tuổi"]}
+{"f":"cards","id":"vi.c0625","k":"note","spans":["bệnh"]}
+{"f":"cards","id":"vi.c0626","k":"note","spans":["nói"]}
+{"f":"cards","id":"vi.c0627","k":"note","spans":["nhà"]}
+{"f":"cards","id":"vi.c0628","k":"note","spans":["áo"]}
+{"f":"cards","id":"vi.c0629","k":"note","spans":["tóc"]}
+{"f":"cards","id":"vi.c0630","k":"note","spans":["người"]}
+{"f":"cards","id":"vi.c0631","k":"note","spans":["màu"]}
+{"f":"cards","id":"vi.c0632","k":"note","spans":["da trời","lá cây"]}
+{"f":"cards","id":"vi.c0633","k":"note","spans":["áo"]}
+{"f":"cards","id":"vi.c0634","k":"note","spans":["cà phê"]}
+{"f":"cards","id":"vi.c0635","k":"note","spans":["người"]}
+{"f":"cards","id":"vi.c0636","k":"note","spans":["nhà"]}
+{"f":"cards","id":"vi.c0637","k":"note","spans":["mập"]}
+{"f":"cards","id":"vi.c0638","k":"note","spans":["ốm"]}
+{"f":"cards","id":"vi.c0639","k":"note","spans":["Tôi bị","đầu"]}
+{"f":"cards","id":"vi.c0640","k":"note","spans":["không"]}
+{"f":"cards","id":"vi.c0641","k":"note","spans":["nói"]}
+{"f":"cards","id":"vi.c0644","k":"note","spans":["rồi"]}
+{"f":"cards","id":"vi.c0646","k":"note","spans":["Nói tiếng Việt"]}
+{"f":"cards","id":"vi.c0647","k":"note","spans":["Mai anh có","không"]}
+{"f":"cards","id":"vi.c0648","k":"note","spans":["Không"]}
+{"f":"cards","id":"vi.c0649","k":"note","spans":["Đi xe máy ở đây","lắm"]}
+{"f":"cards","id":"vi.c0650","k":"note","spans":["giao thông","an toàn"]}
+{"f":"cards","id":"vi.c0651","k":"note","spans":["món ăn"]}
+{"f":"cards","id":"vi.c0652","k":"note","spans":["món"]}
+{"f":"cards","id":"vi.c0653","k":"note","spans":["người"]}
+{"f":"cards","id":"vi.c0654","k":"note","spans":["rồi"]}
+{"f":"cards","id":"vi.c0655","k":"note","spans":["Không","lắm"]}
+{"f":"cards","id":"vi.c0656","k":"note","spans":["Phim này","lắm"]}
+{"f":"cards","id":"vi.c0657","k":"note","spans":["quá"]}
+{"f":"cards","id":"vi.c0658","k":"note","spans":["ào"]}
+{"f":"cards","id":"vi.c0659","k":"note","spans":["Tôi","ăn"]}
+{"f":"cards","id":"vi.c0660","k":"note","spans":["Tôi","thích"]}
+{"f":"cards","id":"vi.c0661","k":"note","spans":["Nói","được không"]}
+{"f":"cards","id":"vi.c0662","k":"note","spans":["Mai tôi","đi"]}
+{"f":"cards","id":"vi.c0663","k":"note","spans":["à","Tôi cũng"]}
+{"f":"cards","id":"vi.c0664","k":"note","spans":["phòng không","anh"]}
+{"f":"cards","id":"vi.c0665","k":"note","spans":["thôi","Tôi","có một trăm nghìn thôi"]}
+{"f":"cards","id":"vi.c0666","k":"note","spans":["Tôi","ăn"]}
+{"f":"cards","id":"vi.c0667","k":"note","spans":["đắt"]}
+{"f":"cards","id":"vi.c0668","k":"note","spans":["ngon"]}
+{"f":"cards","id":"vi.c0669","k":"note","spans":["ngon"]}
+{"f":"cards","id":"vi.c0670","k":"note","spans":["đi","nhau"]}
+{"f":"cards","id":"vi.c0671","k":"note","spans":["Anh ấy","đi"]}
+{"f":"cards","id":"vi.c0672","k":"note","spans":["ngon"]}
+{"f":"cards","id":"vi.c0673","k":"note","spans":["ngon","không"]}
+{"f":"cards","id":"vi.c0674","k":"note","spans":["một bát","không"]}
+{"f":"cards","id":"vi.c0675","k":"note","spans":["Tôi","dậy sớm","hay"]}
+{"f":"cards","id":"vi.c0676","k":"note","spans":["Chúng tôi","thích"]}
+{"f":"cards","id":"vi.c0677","k":"note","spans":["bây giờ"]}
+{"f":"cards","id":"vi.c0678","k":"note","spans":["Anh","ngồi đi"]}
+{"f":"cards","id":"vi.c0679","k":"note","spans":["ba giờ"]}
+{"f":"cards","id":"vi.c0680","k":"note","spans":["Anh đã","đến Huế chưa"]}
+{"f":"cards","id":"vi.c0681","k":"note","spans":["rồi không gặp"]}
+{"f":"cards","id":"vi.c0682","k":"note","spans":["đi"]}
+{"f":"cards","id":"vi.c0683","k":"note","spans":["ngon"]}
+{"f":"cards","id":"vi.c0684","k":"note","spans":["Tôi","ở Hà Nội"]}
+{"f":"cards","id":"vi.c0685","k":"note","spans":["đắt"]}
+{"f":"cards","id":"vi.c0686","k":"note","spans":["tốt"]}
+{"f":"cards","id":"vi.c0687","k":"note","spans":["Tàu","chạy"]}
+{"f":"cards","id":"vi.c0688","k":"note","spans":["dậy"]}
+{"f":"cards","id":"vi.c0689","k":"note","spans":["đến","trễ"]}
+{"f":"cards","id":"vi.c0691","k":"note","spans":["mình đi đâu"]}
+{"f":"cards","id":"vi.c0692","k":"note","spans":["Tôi","uống rượu"]}
+{"f":"cards","id":"vi.c0693","k":"note","spans":["tôi nấu ăn"]}
+{"f":"cards","id":"vi.c0694","k":"note","spans":["Tôi","đi taxi"]}
+{"f":"cards","id":"vi.c0695","k":"note","spans":["anh ấy bận"]}
+{"f":"cards","id":"vi.c0696","k":"note","spans":["chắc"]}
+{"f":"cards","id":"vi.c0697","k":"note","spans":["ngon"]}
+{"f":"cards","id":"vi.c0698","k":"note","spans":["bà"]}
+{"f":"cards","id":"vi.c0699","k":"note","spans":["là","ở"]}
+{"f":"cards","id":"vi.c0700","k":"note","spans":["chúng"]}
+{"f":"cards","id":"vi.c0703","k":"note","spans":["mọi người"]}
+{"f":"cards","id":"vi.c0704","k":"note","spans":["là","ở"]}
+{"f":"cards","id":"vi.c0705","k":"note","spans":["Anh tên là"]}
+{"f":"cards","id":"vi.c0706","k":"meaning","spans":["anh","chị"]}
+{"f":"cards","id":"vi.c0707","k":"note","spans":["chúng"]}
+{"f":"cards","id":"vi.c0708","k":"note","spans":["yêu","gặp"]}
+{"f":"cards","id":"vi.c0709","k":"note","spans":["cô","chú","bà","cháu"]}
+{"f":"cards","id":"vi.c0710","k":"note","spans":["em"]}
+{"f":"cards","id":"vi.c0711","k":"note","spans":["tớ"]}
+{"f":"cards","id":"vi.c0712","k":"note","spans":["cậu"]}
+{"f":"cards","id":"vi.c0714","k":"note","spans":["Mình đi","đi"]}
+{"f":"cards","id":"vi.c0716","k":"note","spans":["các em","anh chị"]}
+{"f":"cards","id":"vi.c0718","k":"note","spans":["cô"]}
+{"f":"cards","id":"vi.c0720","k":"note","spans":["nó"]}
+{"f":"cards","id":"vi.c0723","k":"note","spans":["cái áo","cái"]}
+{"f":"cards","id":"vi.c0724","k":"note","spans":["nhà"]}
+{"f":"cards","id":"vi.c0725","k":"note","spans":["anh","chị","em"]}
+{"f":"cards","id":"vi.c0726","k":"note","spans":["Chào"]}
+{"f":"cards","id":"vi.c0727","k":"note","spans":["nói"]}
+{"f":"cards","id":"vi.c0728","k":"note","spans":["bao nhiêu tiền"]}
+{"f":"cards","id":"vi.c0729","k":"note","spans":["làm"]}
+{"f":"cards","id":"vi.c0730","k":"note","spans":["Có","gọi anh"]}
+{"f":"cards","id":"vi.c0731","k":"note","spans":["ăn"]}
+{"f":"cards","id":"vi.c0732","k":"note","spans":["biết"]}
+{"f":"cards","id":"vi.c0733","k":"note","spans":["xe","tôi","xe tôi"]}
+{"f":"cards","id":"vi.c0734","k":"note","spans":["gọi","anh","tôi"]}
+{"f":"cards","id":"vi.c0735","k":"note","spans":["ba ngày","nhà"]}
+{"f":"cards","id":"vi.c0736","k":"note","spans":["đi","bạn","Cứu tôi"]}
+{"f":"cards","id":"vi.c0737","k":"note","spans":["thế này"]}
+{"f":"cards","id":"vi.c0738","k":"note","spans":["Tôi","Hà Nội"]}
+{"f":"cards","id":"vi.c0739","k":"note","spans":["Mỹ","đến"]}
+{"f":"cards","id":"vi.c0740","k":"note","spans":["Hà Nội","ở"]}
+{"f":"cards","id":"vi.c0741","k":"note","spans":["bàn","đường"]}
+{"f":"cards","id":"vi.c0742","k":"note","spans":["nhà","bữa tối"]}
+{"f":"cards","id":"vi.c0743","k":"note","spans":["tôi","đi"]}
+{"f":"cards","id":"vi.c0744","k":"note","spans":["đi","cầu"]}
+{"f":"cards","id":"vi.c0745","k":"note","spans":["nhà"]}
+{"f":"cards","id":"vi.c0746","k":"note","spans":["ba giờ"]}
+{"f":"cards","id":"vi.c0747","k":"note","spans":["đi","xe máy"]}
+{"f":"cards","id":"vi.c0748","k":"note","spans":["tuần"]}
+{"f":"cards","id":"vi.c0749","k":"note","spans":["ngoài ra","trời"]}
+{"f":"cards","id":"vi.c0750","k":"note","spans":["đây"]}
+{"f":"cards","id":"vi.c0751","k":"note","spans":["hai nhà"]}
+{"f":"cards","id":"vi.c0752","k":"note","spans":["gầm bàn"]}
+{"f":"cards","id":"vi.c0753","k":"note","spans":["ra khỏi nhà"]}
+{"f":"cards","id":"vi.c0754","k":"note","spans":["sang Mỹ"]}
+{"f":"cards","id":"vi.c0756","k":"note","spans":["tôi"]}
+{"f":"cards","id":"vi.c0757","k":"note","spans":["bên","ngân hàng"]}
+{"f":"cards","id":"vi.c0758","k":"note","spans":["hồ"]}
+{"f":"cards","id":"vi.c0759","k":"note","spans":["chủ nhật"]}
+{"f":"cards","id":"vi.c0760","k":"note","spans":["anh và em"]}
+{"f":"cards","id":"vi.c0761","k":"note","spans":["Tôi học","đi Việt Nam"]}
+{"f":"cards","id":"vi.c0762","k":"note","spans":["tôi đến","anh ấy đi rồi","nào"]}
+{"f":"cards","id":"vi.c0763","k":"note","spans":["Nếu mưa","tôi ở nhà"]}
+{"f":"cards","id":"vi.c0764","k":"note","spans":["nên","mưa nên tôi ở nhà"]}
+{"f":"cards","id":"vi.c0765","k":"note","spans":["Anh ấy nói","là"]}
+{"f":"cards","id":"vi.c0766","k":"note","spans":["Cà phê","trà"]}
+{"f":"cards","id":"vi.c0767","k":"note","spans":["Anh","nghỉ"]}
+{"f":"cards","id":"vi.c0768","k":"note","spans":["thì","rảnh thì đến nhé"]}
+{"f":"cards","id":"vi.c0769","k":"note","spans":["nhưng","đắt nhưng ngon"]}
+{"f":"cards","id":"vi.c0770","k":"note","spans":["sao"]}
+{"f":"cards","id":"vi.c0771","k":"note","spans":["thứ bảy","chủ nhật"]}
+{"f":"cards","id":"vi.c0772","k":"note","spans":["nhưng","tuy"]}
+{"f":"cards","id":"vi.c0773","k":"note","spans":["Tại sao"]}
+{"f":"cards","id":"vi.c0774","k":"note","spans":["em bận"]}
+{"f":"cards","id":"vi.c0777","k":"note","spans":["tôi nấu ăn"]}
+{"f":"cards","id":"vi.c0778","k":"note","spans":["ăn"]}
+{"f":"cards","id":"vi.c0779","k":"note","spans":["ngủ"]}
+{"f":"cards","id":"vi.c0780","k":"note","spans":["đợi","mưa tạnh"]}
+{"f":"cards","id":"vi.c0781","k":"note","spans":["tôi đến muộn"]}
+{"f":"cards","id":"vi.c0782","k":"note","spans":["em cũng mệt"]}
+{"f":"cards","id":"vi.c0783","k":"note","spans":["Đi nhanh lên","muộn đấy"]}
+{"f":"cards","id":"vi.c0784","k":"note","spans":["đẹp quá","tội nghiệp"]}
+{"f":"cards","id":"vi.c0785","k":"note","spans":["thế à"]}
+{"f":"cards","id":"vi.c0786","k":"note","spans":["anh Minh"]}
+{"f":"cards","id":"vi.c0788","k":"note","spans":["đau quá"]}
+{"f":"cards","id":"vi.c0790","k":"note","spans":["trời"]}
+{"f":"cards","id":"vi.c0792","k":"note","spans":["Ủa"]}
+{"f":"cards","id":"vi.c0793","k":"note","spans":["Thật","Dạ"]}
+{"f":"cards","id":"vi.c0794","k":"note","spans":["Anh ơi","Chị ơi"]}
+{"f":"cards","id":"vi.c0799","k":"note","spans":["giỏi thế"]}
+{"f":"cards","id":"vi.c0800","k":"note","spans":["đẹp quá"]}
+{"f":"cards","id":"vi.c0803","k":"note","spans":["thật"]}
+{"f":"cards","id":"vi.c0806","k":"note","spans":["Đi","nhé"]}
+{"f":"cards","id":"vi.c0807","k":"note","spans":["sinh nhật"]}
+{"f":"cards","id":"vi.c0808","k":"note","spans":["em nghe đây"]}
+{"f":"cards","id":"vi.c0809","k":"note","spans":["biết"]}
+{"f":"cards","id":"vi.c0810","k":"note","spans":["bạn","món"]}
+{"f":"cards","id":"vi.c0811","k":"note","spans":["người này"]}
+{"f":"cards","id":"vi.c0812","k":"note","spans":["cái bàn","cái"]}
+{"f":"cards","id":"vi.c0813","k":"note","spans":["người","ăn"]}
+{"f":"cards","id":"vi.c0814","k":"note","spans":["ngày","nhà"]}
+{"f":"cards","id":"vi.c0815","k":"note","spans":["cái","quán","Cái"]}
+{"f":"cards","id":"vi.c0816","k":"note","spans":["anh không đến","thế"]}
+{"f":"cards","id":"vi.c0817","k":"note","spans":["ngày","người"]}
+{"f":"cards","id":"vi.c0818","k":"note","spans":["Anh đi","Không"]}
+{"f":"cards","id":"vi.c0819","k":"note","spans":["ngày","người"]}
+{"f":"cards","id":"vi.c0820","k":"note","spans":["người","một"]}
+{"f":"cards","id":"vi.c0821","k":"note","spans":["nói chậm","đi"]}
+{"f":"cards","id":"vi.c0822","k":"note","spans":["người","giờ"]}
+{"f":"cards","id":"vi.c0823","k":"note","spans":["ngày"]}
+{"f":"cards","id":"vi.c0824","k":"note","spans":["tiền"]}
+{"f":"cards","id":"vi.c0826","k":"note","spans":["Anh thấy"]}
+{"f":"cards","id":"vi.c0827","k":"note","spans":["Vâng","Dạ"]}
+{"f":"cards","id":"vi.c0828","k":"note","spans":["thứ hai"]}
+{"f":"cards","id":"vi.c0829","k":"note","spans":["mười hai","ba"]}
+{"f":"cards","id":"vi.c0830","k":"note","spans":["tháng"]}
+{"f":"cards","id":"vi.c0833","k":"note","spans":["lăm"]}
+{"f":"cards","id":"vi.c0837","k":"note","spans":["mười","ba"]}
+{"f":"cards","id":"vi.c0838","k":"meaning","spans":["mười","mươi"]}
+{"f":"cards","id":"vi.c0838","k":"note","spans":["mười","hai mươi","năm"]}
+{"f":"cards","id":"vi.c0839","k":"meaning","spans":["mươi"]}
+{"f":"cards","id":"vi.c0839","k":"note","spans":["hai mươi","mười một","một"]}
+{"f":"cards","id":"vi.c0840","k":"meaning","spans":["mươi"]}
+{"f":"cards","id":"vi.c0840","k":"note","spans":["hai mươi","hai mươi bốn"]}
+{"f":"cards","id":"vi.c0841","k":"note","spans":["thứ hai"]}
+{"f":"cards","id":"vi.c0844","k":"note","spans":["Cuối tuần"]}
+{"f":"cards","id":"vi.c0845","k":"note","spans":["buổi","tám giờ"]}
+{"f":"cards","id":"vi.c0846","k":"note","spans":["ăn"]}
+{"f":"cards","id":"vi.c0847","k":"note","spans":["ba giờ"]}
+{"f":"cards","id":"vi.c0848","k":"note","spans":["nửa","tối"]}
+{"f":"cards","id":"vi.c0849","k":"note","spans":["em rảnh không"]}
+{"f":"cards","id":"vi.c0850","k":"note","spans":["hàng","ngày mai"]}
+{"f":"cards","id":"vi.c0851","k":"note","spans":["này","tuần sau"]}
+{"f":"cards","id":"vi.c0852","k":"note","spans":["một"]}
+{"f":"cards","id":"vi.c0853","k":"note","spans":["ba","mấy"]}
+{"f":"cards","id":"vi.c0854","k":"note","spans":["năm"]}
+{"f":"cards","id":"vi.c0855","k":"note","spans":["hai con","mèo","đường"]}
+{"f":"cards","id":"vi.c0856","k":"note","spans":["họp","sống"]}
+{"f":"cards","id":"vi.c0857","k":"note","spans":["bàn","ghế"]}
+{"f":"cards","id":"vi.c0858","k":"note","spans":["xe máy","giày"]}
+{"f":"cards","id":"vi.c0859","k":"note","spans":["một","quần áo","phim"]}
+{"f":"cards","id":"vi.c0860","k":"note","spans":["khách"]}
+{"f":"cards","id":"vi.c0861","k":"note","spans":["cam","trái"]}
+{"f":"cards","id":"vi.c0862","k":"note","spans":["sách","cuốn"]}
+{"f":"cards","id":"vi.c0863","k":"note","spans":["đũa","giày"]}
+{"f":"cards","id":"vi.c0864","k":"note","spans":["giấy","báo"]}
+{"f":"cards","id":"vi.c0865","k":"note","spans":["tranh","ảnh","thư"]}
+{"f":"cards","id":"vi.c0866","k":"note","spans":["hai cốc","trà đá","ly"]}
+{"f":"cards","id":"vi.c0867","k":"note","spans":["một","phở","tô","chén"]}
+{"f":"cards","id":"vi.c0868","k":"note","spans":["hai chai","bia"]}
+{"f":"cards","id":"vi.c0869","k":"meaning","not":["café"]}
+{"f":"cards","id":"vi.c0869","k":"note","spans":["một","cà phê","cốc"]}
+{"f":"cards","id":"vi.c0870","k":"note","spans":["một","xoài","ký"]}
+{"f":"cards","id":"vi.c0871","k":"note","spans":["ảnh","vé"]}
+{"f":"cards","id":"vi.c0872","k":"note","spans":["nhà","hộ"]}
+{"f":"cards","id":"vi.c0873","k":"note","spans":["nhà","chùa","sao"]}
+{"f":"cards","id":"vi.c0874","k":"note","spans":["hoa"]}
+{"f":"cards","id":"vi.c0875","k":"note","spans":["thuốc","nhân"]}
+{"f":"cards","id":"vi.c0876","k":"note","spans":["một","bánh"]}
+{"f":"cards","id":"vi.c0877","k":"note","spans":["mì"]}
+{"f":"cards","id":"vi.c0878","k":"note","spans":["sữa"]}
+{"f":"cards","id":"vi.c0879","k":"note","spans":["hai đứa con"]}
+{"f":"cards","id":"vi.c0880","k":"note","spans":["bay","đi"]}
+{"f":"cards","id":"vi.c0881","k":"note","spans":["Sao","thế"]}
+{"f":"cards","id":"vi.c0882","k":"note","spans":["Thế"]}
+{"f":"cards","id":"vi.c0883","k":"note","spans":["Đẹp","đó"]}
+{"f":"cards","id":"vi.c0884","k":"note","spans":["Cảm ơn chị"]}
+{"f":"cards","id":"vi.c0885","k":"note","spans":["Anh","Em ơi"]}
+{"f":"cards","id":"vi.c0886","k":"note","spans":["Mai gặp"]}
+{"f":"cards","id":"vi.c0887","k":"note","spans":["Đẹp","Tên là gì"]}
+{"f":"cards","id":"vi.c0888","k":"note","spans":["Anh đi"]}
+{"f":"cards","id":"vi.c0889","k":"note","spans":["Được","Anh đi"]}
+{"f":"cards","id":"vi.c0890","k":"note","spans":["Em muốn cái này"]}
+{"f":"cards","id":"vi.c0891","k":"note","spans":["Thế"]}
+{"f":"cards","id":"vi.c0892","k":"note","spans":["Anh Minh"]}
+{"f":"cards","id":"vi.c0893","k":"note","spans":["Ăn"]}
+{"f":"dialog","id":"vi.g009","k":"tr","spans":["Hùng"]}
+{"f":"dialog","id":"vi.g012","k":"tr","spans":["Thảo"]}
+{"f":"dialog","id":"vi.g038","k":"tr","not":["café"]}
+{"f":"examples","id":"vi.e014","k":"tr","spans":["bún chả"]}
+{"f":"examples","id":"vi.e179","k":"tr","spans":["Bông"]}
+{"f":"lessons","id":"tones","k":"blurb","spans":["bàn","bán","bạn"]}
+{"f":"lessons","id":"vowels","k":"title","spans":["ă","â","ơ","ư"]}
+{"f":"lessons","id":"vowels","k":"blurb","spans":["ô","ơ","ư"]}
+{"f":"lessons","id":"pronouns","k":"title","spans":["anh","chị","em"]}
+{"f":"lessons","id":"pronouns","k":"blurb","spans":["anh","chị","em","bạn","tôi"]}
+{"f":"lessons","id":"la","k":"title","spans":["là","không phải là"]}
+{"f":"lessons","id":"la","k":"blurb","spans":["là","không phải là"]}
+{"f":"lessons","id":"yes-no","k":"title","spans":["có","không","phải không"]}
+{"f":"lessons","id":"yes-no","k":"blurb","spans":["có","không","phải không"]}
+{"f":"lessons","id":"jobs","k":"title","spans":["người Mỹ","giáo viên"]}
+{"f":"lessons","id":"this-that","k":"title","spans":["này","kia","đây","đó"]}
+{"f":"lessons","id":"adjectives","k":"title","spans":["là","rất","quá"]}
+{"f":"lessons","id":"adjectives","k":"blurb","spans":["là","rất","lắm","quá"]}
+{"f":"lessons","id":"who-what","k":"title","spans":["ai","gì"]}
+{"f":"lessons","id":"numbers","k":"title","spans":["mấy","bao nhiêu"]}
+{"f":"lessons","id":"classifiers","k":"title","spans":["con","cái","quyển","chiếc"]}
+{"f":"lessons","id":"co","k":"title","spans":["có"]}
+{"f":"lessons","id":"cua","k":"title","spans":["của","nhà tôi"]}
+{"f":"lessons","id":"compare","k":"title","spans":["hơn","bằng","nhất"]}
+{"f":"lessons","id":"verbs","k":"title","spans":["đã","đang","sẽ"]}
+{"f":"lessons","id":"want-like","k":"title","spans":["muốn","thích","cần"]}
+{"f":"lessons","id":"location","k":"title","spans":["ở","trên","dưới"]}
+{"f":"lessons","id":"biet","k":"title","spans":["biết","có thể","được"]}
+{"f":"lessons","id":"chua","k":"title","spans":["đã","chưa","rồi"]}
+{"f":"lessons","id":"motion","k":"title","spans":["đi","đến","về"]}
+{"f":"lessons","id":"prices","k":"title","spans":["bao nhiêu tiền"]}
+{"f":"lessons","id":"because","k":"title","spans":["vì","nên"]}
+{"f":"lessons","id":"because","k":"blurb","spans":["vì","nên","tại sao"]}
+{"f":"lessons","id":"requests","k":"title","spans":["xin","mời","cho","nhé","ạ"]}
+{"f":"body","id":"alphabet","k":"body","spans":["đ"]}
+{"f":"body","id":"tones","k":"body","spans":["huyền","sắc","hỏi","ngã","nặng"]}
+{"f":"body","id":"syllables","k":"body","spans":["ê"]}
+{"f":"body","id":"vowels","k":"body","spans":["â"]}
+{"f":"body","id":"pronouns","k":"body","spans":["anh","chị"]}
+{"f":"body","id":"la","k":"body","spans":["là","Nguyễn Văn Minh","không phải là"]}
+{"f":"body","id":"yes-no","k":"body","spans":["có","không","phải không"]}
+{"f":"body","id":"jobs","k":"body","spans":["người","tiếng"]}
+{"f":"body","id":"this-that","k":"body","spans":["Đây là","Đó là","này","đó","kia"]}
+{"f":"body","id":"adjectives","k":"body","spans":["là","rất","lắm","quá","không","phải"]}
+{"f":"body","id":"who-what","k":"body","spans":["ai","gì","cái gì"]}
+{"f":"body","id":"numbers","k":"body","spans":["mươi","bao nhiêu","mấy"]}
+{"f":"body","id":"classifiers","k":"body","spans":["cuốn","này"]}
+{"f":"body","id":"co","k":"body","spans":["có","không có","không"],"not":["café"]}
+{"f":"body","id":"cua","k":"body","spans":["của","này","của ai"]}
+{"f":"body","id":"family","k":"body","spans":["ba","má","ông","bà","chú","cô"]}
+{"f":"body","id":"compare","k":"body","spans":["hơn","bằng","nhất"]}
+{"f":"body","id":"verbs","k":"body","spans":["đã","đang","sẽ","không"]}
+{"f":"body","id":"want-like","k":"body","spans":["muốn","thích","cần","không","Cho tôi","tô"],"not":["café"]}
+{"f":"body","id":"location","k":"body","spans":["ở","ở đâu"]}
+{"f":"body","id":"biet","k":"body","spans":["biết","có thể","được"]}
+{"f":"body","id":"chua","k":"body","spans":["chưa","Rồi","Chưa"]}
+{"f":"body","id":"motion","k":"body","spans":["đi","về","đến","tới","bằng"]}
+{"f":"body","id":"prices","k":"body","spans":["Bao nhiêu tiền"]}
+{"f":"body","id":"directions","k":"body","spans":["xe ôm"]}
+{"f":"body","id":"because","k":"body","spans":["vì","nên","Tại sao","bị"]}
+{"f":"body","id":"requests","k":"body","spans":["Cho","mời","làm ơn","nhé","ạ","dạ","vâng"]}
+{"f":"checks","id":"alphabet.k1","k":"q","spans":["da"]}
+{"f":"checks","id":"tones.k1","k":"o[0]","spans":["ạ"]}
+{"f":"checks","id":"tones.k1","k":"o[1]","spans":["ả"]}
+{"f":"checks","id":"tones.k1","k":"o[2]","spans":["ã"]}
+{"f":"checks","id":"tones.k2","k":"q","spans":["bán"]}
+{"f":"checks","id":"tones.k2","k":"why","spans":["bán","bàn","bạn"]}
+{"f":"checks","id":"tones.k3","k":"q","spans":["không","Anh khỏe không"]}
+{"f":"checks","id":"tones.k3","k":"why","spans":["không"]}
+{"f":"checks","id":"syllables.k1","k":"why","spans":["ê"]}
+{"f":"checks","id":"syllables.k3","k":"q","spans":["Nguyễn"]}
+{"f":"checks","id":"syllables.k3","k":"why","spans":["Nguyễn","uyê"]}
+{"f":"checks","id":"vowels.k2","k":"q","spans":["tai","tay"]}
+{"f":"checks","id":"vowels.k2","k":"why","spans":["ai","tai","tay"]}
+{"f":"checks","id":"vowels.k3","k":"q","spans":["người"]}
+{"f":"checks","id":"vowels.k3","k":"why","spans":["ươ"]}
+{"f":"checks","id":"pronouns.k3","k":"q","spans":["ạ"]}
+{"f":"checks","id":"pronouns.k3","k":"why","spans":["ạ"]}
+{"f":"checks","id":"yes-no.k2","k":"q","spans":["Chị","bận"]}
+{"f":"checks","id":"yes-no.k3","k":"q","spans":["Bạn","sinh viên"]}
+{"f":"checks","id":"yes-no.k3","k":"why","spans":["vâng"]}
+{"f":"checks","id":"jobs.k2","k":"q","spans":["tiếng Anh"]}
+{"f":"checks","id":"jobs.k2","k":"why","spans":["tiếng","người"]}
+{"f":"checks","id":"jobs.k3","k":"q","spans":["Anh làm nghề gì"]}
+{"f":"checks","id":"jobs.k3","k":"why","spans":["làm nghề gì"]}
+{"f":"checks","id":"this-that.k3","k":"q","spans":["mèo"]}
+{"f":"checks","id":"this-that.k3","k":"why","spans":["mèo"]}
+{"f":"checks","id":"who-what.k1","k":"why","spans":["Lan"]}
+{"f":"checks","id":"who-what.k2","k":"q","spans":["gì"]}
+{"f":"checks","id":"who-what.k2","k":"o[2]","spans":["muốn"]}
+{"f":"checks","id":"who-what.k2","k":"why","spans":["Bạn muốn gì","muốn","gì"]}
+{"f":"checks","id":"classifiers.k2","k":"q","spans":["sách"]}
+{"f":"checks","id":"classifiers.k2","k":"why","spans":["cuốn"]}
+{"f":"checks","id":"compare.k3","k":"why","spans":["cao"]}
+{"f":"checks","id":"verbs.k1","k":"q","spans":["đi"]}
+{"f":"checks","id":"verbs.k1","k":"o[1]","spans":["đi"]}
+{"f":"checks","id":"verbs.k1","k":"o[2]","spans":["đã đang đi"]}
+{"f":"checks","id":"verbs.k1","k":"why","spans":["đã"]}
+{"f":"checks","id":"biet.k2","k":"q","spans":["Tôi ăn cay được","được"]}
+{"f":"checks","id":"biet.k2","k":"why","spans":["được"]}
+{"f":"checks","id":"chua.k1","k":"q","spans":["Anh ăn cơm"]}
+{"f":"checks","id":"chua.k3","k":"q","spans":["Ăn cơm chưa"]}
+{"f":"checks","id":"chua.k3","k":"why","spans":["Ăn cơm chưa"]}
+{"f":"checks","id":"motion.k3","k":"why","spans":["tới"]}
+{"f":"checks","id":"prices.k3","k":"q","spans":["Hai trăm nghìn"]}
+{"f":"checks","id":"directions.k3","k":"q","spans":["rẽ phải"]}
+{"f":"checks","id":"directions.k3","k":"why","spans":["phải","trái"]}
+{"f":"checks","id":"time.k2","k":"q","spans":["thứ hai"]}
+{"f":"checks","id":"time.k2","k":"why","spans":["thứ hai"]}
+{"f":"checks","id":"because.k2","k":"why","spans":["vì"]}
+{"f":"checks","id":"requests.k2","k":"q","spans":["mời","Mời anh ngồi"]}
+{"f":"checks","id":"requests.k2","k":"why","spans":["mời"]}
+{"f":"checks","id":"requests.k3","k":"q","spans":["ạ"]}
+{"f":"checks","id":"requests.k3","k":"why","spans":["ạ"]}
+{"f":"practice","id":"alphabet.03","k":"q","spans":["nhà"]}
+{"f":"practice","id":"alphabet.04","k":"q","spans":["phở"]}
+{"f":"practice","id":"alphabet.04","k":"why","spans":["ơ"]}
+{"f":"practice","id":"alphabet.06","k":"why","spans":["đ"]}
+{"f":"practice","id":"alphabet.07","k":"why","spans":["an com","ă","ơ"]}
+{"f":"practice","id":"alphabet.09","k":"why","spans":["đi"]}
+{"f":"practice","id":"alphabet.10","k":"why","spans":["cơm"]}
+{"f":"practice","id":"alphabet.11","k":"why","spans":["nhà"]}
+{"f":"practice","id":"alphabet.12","k":"hint","spans":["đ"]}
+{"f":"practice","id":"alphabet.12","k":"why","spans":["đ"]}
+{"f":"practice","id":"alphabet.13","k":"why","spans":["ă"]}
+{"f":"practice","id":"tones.04","k":"q","spans":["bạn"]}
+{"f":"practice","id":"tones.05","k":"o[0]","spans":["ngã"]}
+{"f":"practice","id":"tones.05","k":"o[1]","spans":["hỏi"]}
+{"f":"practice","id":"tones.05","k":"o[2]","spans":["huyền"]}
+{"f":"practice","id":"tones.05","k":"why","spans":["ã"]}
+{"f":"practice","id":"syllables.01","k":"why","spans":["ê"]}
+{"f":"practice","id":"syllables.02","k":"why","spans":["ê"]}
+{"f":"practice","id":"syllables.03","k":"q","spans":["bánh"]}
+{"f":"practice","id":"syllables.03","k":"why","spans":["anh"]}
+{"f":"practice","id":"syllables.04","k":"o[0]","spans":["một"]}
+{"f":"practice","id":"syllables.04","k":"o[1]","spans":["ăn"]}
+{"f":"practice","id":"syllables.04","k":"o[2]","spans":["cơm"]}
+{"f":"practice","id":"syllables.04","k":"o[3]","spans":["không"]}
+{"f":"practice","id":"syllables.09","k":"why","spans":["ê","ghế"]}
+{"f":"practice","id":"syllables.10","k":"why","spans":["học"]}
+{"f":"practice","id":"vowels.01","k":"why","spans":["ơ"]}
+{"f":"practice","id":"vowels.04","k":"why","spans":["uô"]}
+{"f":"practice","id":"vowels.05","k":"q","spans":["hoa"]}
+{"f":"practice","id":"vowels.05","k":"why","spans":["hoa"]}
+{"f":"practice","id":"vowels.06","k":"why","spans":["ư"]}
+{"f":"practice","id":"vowels.07","k":"why","spans":["ơ"]}
+{"f":"practice","id":"vowels.08","k":"why","spans":["ă"]}
+{"f":"practice","id":"vowels.09","k":"why","spans":["sữa","ư"]}
+{"f":"practice","id":"vowels.10","k":"why","spans":["cơm"]}
+{"f":"practice","id":"vowels.11","k":"why","spans":["uô"]}
+{"f":"practice","id":"vowels.13","k":"why","spans":["ơ"]}
+{"f":"practice","id":"vowels.14","k":"why","spans":["uô"]}
+{"f":"practice","id":"pronouns.03","k":"q","spans":["Em khỏe không","em"]}
+{"f":"practice","id":"pronouns.03","k":"why","spans":["em"]}
+{"f":"practice","id":"pronouns.10","k":"why","spans":["ơ"]}
+{"f":"practice","id":"yes-no.02","k":"q","spans":["Em có","bận"]}
+{"f":"practice","id":"yes-no.03","k":"q","spans":["Bạn là sinh viên"]}
+{"f":"practice","id":"yes-no.06","k":"why","spans":["â"]}
+{"f":"practice","id":"yes-no.12","k":"why","spans":["â"]}
+{"f":"practice","id":"jobs.04","k":"q","spans":["Anh làm nghề gì"]}
+{"f":"practice","id":"jobs.04","k":"why","spans":["làm nghề gì"]}
+{"f":"practice","id":"adjectives.03","k":"q","spans":["lắm"]}
+{"f":"practice","id":"adjectives.03","k":"o[0]","spans":["ngon lắm"]}
+{"f":"practice","id":"adjectives.03","k":"o[1]","spans":["lắm ngon"]}
+{"f":"practice","id":"adjectives.03","k":"o[2]","spans":["lắm phở"]}
+{"f":"practice","id":"adjectives.03","k":"why","spans":["lắm"]}
+{"f":"practice","id":"adjectives.05","k":"q","spans":["Ngon quá"]}
+{"f":"practice","id":"adjectives.05","k":"why","spans":["quá"]}
+{"f":"practice","id":"who-what.01","k":"why","spans":["Minh"]}
+{"f":"practice","id":"who-what.03","k":"why","spans":["Chị Lan"]}
+{"f":"practice","id":"co.05","k":"q","spans":["Chị","không"]}
+{"f":"practice","id":"co.05","k":"why","spans":["không"]}
+{"f":"practice","id":"compare.11","k":"why","spans":["ă"]}
+{"f":"practice","id":"verbs.13","k":"why","spans":["ơ"]}
+{"f":"practice","id":"location.04","k":"q","spans":["Mẹ tôi ở trong nhà"]}
+{"f":"practice","id":"location.04","k":"why","spans":["trong","ngoài"]}
+{"f":"practice","id":"biet.03","k":"q","spans":["Ở đây chụp ảnh được không"]}
+{"f":"practice","id":"biet.03","k":"why","spans":["được không"]}
+{"f":"practice","id":"biet.05","k":"q","spans":["Chị"]}
+{"f":"practice","id":"chua.02","k":"q","spans":["Chị đi Huế"]}
+{"f":"practice","id":"chua.03","k":"q","spans":["Tôi ăn rồi"]}
+{"f":"practice","id":"chua.03","k":"why","spans":["rồi"]}
+{"f":"practice","id":"chua.05","k":"q","spans":["Em làm bài tập về nhà chưa"]}
+{"f":"practice","id":"chua.05","k":"why","spans":["chưa"]}
+{"f":"practice","id":"motion.02","k":"q","spans":["Tôi về nhà"]}
+{"f":"practice","id":"motion.02","k":"why","spans":["về"]}
+{"f":"practice","id":"motion.05","k":"q","spans":["Chị Lan đến rồi"]}
+{"f":"practice","id":"motion.05","k":"why","spans":["đến","rồi"]}
+{"f":"practice","id":"prices.03","k":"q","spans":["Đắt quá"]}
+{"f":"practice","id":"prices.03","k":"why","spans":["đắt","quá"]}
+{"f":"practice","id":"directions.03","k":"q","spans":["Hồ Gươm cách đây bao xa"]}
+{"f":"practice","id":"directions.03","k":"why","spans":["cách đây bao xa"]}
+{"f":"practice","id":"time.03","k":"why","spans":["thứ hai"]}
+{"f":"practice","id":"time.05","k":"q","spans":["Hôm nay là ngày bao nhiêu"]}
+{"f":"practice","id":"time.05","k":"why","spans":["ngày bao nhiêu","thứ mấy"]}
+{"f":"practice","id":"because.01","k":"q","spans":["anh không đi làm"]}
+{"f":"practice","id":"because.02","k":"q","spans":["nên"]}
+{"f":"practice","id":"because.02","k":"why","spans":["nên"]}
+{"f":"practice","id":"because.05","k":"q","spans":["Tôi bị lạc"]}
+{"f":"practice","id":"because.05","k":"why","spans":["lạc","bị"]}
+{"f":"practice","id":"requests.02","k":"q","spans":["Mời chị vào"]}
+{"f":"practice","id":"requests.02","k":"why","spans":["mời"]}
+{"f":"lessoncards","id":"vi.lc0008","k":"note","spans":["đ"]}
+{"f":"lessoncards","id":"vi.lc0019","k":"note","spans":["đ","ỏ"]}
+{"f":"lessoncards","id":"vi.lc0020","k":"note","spans":["đ","â"]}
+{"f":"lessoncards","id":"vi.lc0021","k":"note","spans":["ê"]}
+{"f":"lessoncards","id":"vi.lc0023","k":"note","spans":["ẻ"]}
+{"f":"lessoncards","id":"vi.lc0026","k":"note","spans":["ơ"]}
+{"f":"lessoncards","id":"vi.lc0027","k":"note","spans":["ô","ố"]}
+{"f":"lessoncards","id":"vi.lc0029","k":"note","spans":["è"]}
+{"f":"lessoncards","id":"vi.lc0030","k":"note","spans":["ỏ"]}
+{"f":"lessoncards","id":"vi.lc0031","k":"note","spans":["ó"]}
+{"f":"lessoncards","id":"vi.lc0032","k":"note","spans":["ơ","ờ"]}
+{"f":"lessoncards","id":"vi.lc0033","k":"note","spans":["ư","ữ"]}
+{"f":"lessoncards","id":"vi.lc0034","k":"note","spans":["ă"]}
+{"f":"lessoncards","id":"vi.lc0035","k":"note","spans":["â","ầ"]}
+{"f":"lessoncards","id":"vi.lc0036","k":"note","spans":["ô","ồ"]}
+{"f":"lessoncards","id":"vi.lc0037","k":"meaning","spans":["huyền"]}
+{"f":"lessoncards","id":"vi.lc0038","k":"meaning","spans":["sắc"]}
+{"f":"lessoncards","id":"vi.lc0039","k":"meaning","spans":["hỏi"]}
+{"f":"lessoncards","id":"vi.lc0040","k":"meaning","spans":["ngã"]}
+{"f":"lessoncards","id":"vi.lc0041","k":"meaning","spans":["nặng"]}
+{"f":"lessoncards","id":"vi.lc0044","k":"note","spans":["à","lá","lạ"]}
+{"f":"lessoncards","id":"vi.lc0045","k":"note","spans":["ề","ê"]}
+{"f":"lessoncards","id":"vi.lc0046","k":"note","spans":["à","cha"]}
+{"f":"lessoncards","id":"vi.lc0047","k":"note","spans":["ó"]}
+{"f":"lessoncards","id":"vi.lc0048","k":"note","spans":["á"]}
+{"f":"lessoncards","id":"vi.lc0049","k":"note","spans":["đ","á","đã"]}
+{"f":"lessoncards","id":"vi.lc0050","k":"note","spans":["ở","ơ"]}
+{"f":"lessoncards","id":"vi.lc0051","k":"note","spans":["ở"]}
+{"f":"lessoncards","id":"vi.lc0052","k":"note","spans":["ả","cá"]}
+{"f":"lessoncards","id":"vi.lc0053","k":"note","spans":["ũ"]}
+{"f":"lessoncards","id":"vi.lc0054","k":"note","spans":["đ","ã","đá"]}
+{"f":"lessoncards","id":"vi.lc0055","k":"note","spans":["ẽ"]}
+{"f":"lessoncards","id":"vi.lc0056","k":"note","spans":["ũ"]}
+{"f":"lessoncards","id":"vi.lc0057","k":"note","spans":["ợ"]}
+{"f":"lessoncards","id":"vi.lc0058","k":"note","spans":["ạ"]}
+{"f":"lessoncards","id":"vi.lc0059","k":"note","spans":["ọ"]}
+{"f":"lessoncards","id":"vi.lc0061","k":"meaning","spans":["ê"]}
+{"f":"lessoncards","id":"vi.lc0062","k":"meaning","spans":["ê"]}
+{"f":"lessoncards","id":"vi.lc0064","k":"meaning","spans":["ê"]}
+{"f":"lessoncards","id":"vi.lc0068","k":"note","spans":["ô"]}
+{"f":"lessoncards","id":"vi.lc0070","k":"note","spans":["đ","ê"]}
+{"f":"lessoncards","id":"vi.lc0071","k":"note","spans":["ô"]}
+{"f":"lessoncards","id":"vi.lc0072","k":"note","spans":["anh"]}
+{"f":"lessoncards","id":"vi.lc0073","k":"note","spans":["anh"]}
+{"f":"lessoncards","id":"vi.lc0074","k":"note","spans":["anh"]}
+{"f":"lessoncards","id":"vi.lc0078","k":"note","spans":["đ"]}
+{"f":"lessoncards","id":"vi.lc0079","k":"note","spans":["ô"]}
+{"f":"lessoncards","id":"vi.lc0080","k":"note","spans":["ă"]}
+{"f":"lessoncards","id":"vi.lc0100","k":"note","spans":["ai"]}
+{"f":"lessoncards","id":"vi.lc0104","k":"note","spans":["đ","âu"]}
+{"f":"lessoncards","id":"vi.lc0105","k":"note","spans":["ây"]}
+{"f":"lessoncards","id":"vi.lc0106","k":"note","spans":["eo"]}
+{"f":"lessoncards","id":"vi.lc0107","k":"note","spans":["ơi"]}
+{"f":"lessoncards","id":"vi.lc0109","k":"note","spans":["iê"]}
+{"f":"lessoncards","id":"vi.lc0110","k":"note","spans":["iê"]}
+{"f":"lessoncards","id":"vi.lc0111","k":"note","spans":["iê"]}
+{"f":"lessoncards","id":"vi.lc0112","k":"note","spans":["uô"]}
+{"f":"lessoncards","id":"vi.lc0113","k":"note","spans":["ươ"]}
+{"f":"lessoncards","id":"vi.lc0114","k":"note","spans":["đ","ươ"]}
+{"f":"lessoncards","id":"vi.lc0115","k":"note","spans":["ưa","ươ"]}
+{"f":"checks","id":"verbs.k1","k":"o[0]","spans":["đii"]}

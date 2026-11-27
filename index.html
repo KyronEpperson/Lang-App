@@ -608,7 +608,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.139.0 · 2026-11-27';
+const APP_VERSION='2.140.0 · 2026-11-27';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -1948,7 +1948,10 @@ const ROM_SKIP={'sound-changes':1}, ROM_SKIP_Q={'sound-changes':1,hangul:1}, ROM
 /* Lessons in a course whose target is written in another script than the learner's: the reading of a word is written under it, as on the cards. Readings come only from the course's own cards and lesson example lines (whole lines, then words or characters that always carry one reading there); a word with no reading in the course stays bare. Nothing is derived by rule. */
 const RD_CLS={zh:'\\u3400-\\u9fff\\u{20000}-\\u{2fa1f}',ja:'\\u3040-\\u30ff\\u3400-\\u9fff',th:'\\u0e00-\\u0e7f',ar:'\\u0600-\\u060b\\u060d-\\u061e\\u0620-\\u06d3\\u06d5-\\u06ff\\u0750-\\u077f\\ufb50-\\ufdff\\ufe70-\\ufeff',hi:'\\u0900-\\u0963\\u0966-\\u097f',bn:'\\u0980-\\u09ff',pa:'\\u0a00-\\u0a7f',te:'\\u0c00-\\u0c7f',kn:'\\u0c80-\\u0cff',am:'\\u1200-\\u1360\\u1369-\\u139f',ru:'\\u0400-\\u04ff\\u0301'}; RD_CLS.yue=RD_CLS.nan=RD_CLS.zh; RD_CLS.ur=RD_CLS.ar;
 const RD_HAR=/[\u064b-\u0652\u0670]/g, RD_TIGHT={zh:1,yue:1,nan:1,th:1,ja:1}, RD_HAN={zh:1,yue:1,nan:1};
-function rdOn(){ const c=COURSE; return !!(c&&RD_CLS[c.target]&&!RD_CLS[c.native]&&c.native!=='ko'&&c.DECKS); }
+/* a learner who writes Han characters too (zh, yue, nan, wuu, ja) on a Han-script target: readings only under marked target text (b, .k, 「 」) */
+const RD_HANNAT={zh:1,yue:1,nan:1,wuu:1,ja:1};
+function rdMarked(){ const c=COURSE; return !!(c&&RD_HAN[c.target]&&RD_HANNAT[c.native]&&c.native!==c.target); }
+function rdOn(){ const c=COURSE; return !!(c&&RD_CLS[c.target]&&(!RD_CLS[c.native]||rdMarked())&&c.native!=='ko'&&c.DECKS); }
 function rdKey(s){ let k=String(s).normalize('NFC').toLowerCase().replace(/[\s ]+/g,' ').replace(/[.,!?;:…。！？、，；：·«»"“”‘’'()\[\]،؟۔।॥።፣፤፥፦፧—–~\/-]/g,' ').replace(/ +/g,' ').trim(); const t=COURSE.target; if(t==='ar'||t==='ur') k=k.replace(/\u0640/g,''); if(t==='ru') k=k.replace(/́/g,''); return RD_TIGHT[t]&&t!=='ja'?k.replace(/ /g,''):k; }
 function rdEdge(x){ return String(x).replace(/^[\s.,!?;:…"“”()\/]+|[\s.,!?;:…"“”()\/]+$/g,''); }
 function rdBuild(){ const c=COURSE; if(c._rd) return c._rd; const W=new Map(), C=new Map(), B=new Map(), bare=c.target==='ar'||c.target==='ur', tight=!!RD_TIGHT[c.target], han=!!RD_HAN[c.target], lat=/[a-zA-ZÀ-ɏḀ-ỿ]/;
@@ -1968,9 +1971,10 @@ function rdSeg(run){ const R=rdBuild(); if(R.tight&&!/[  ]/.test(run)) return r
   let per=null; if(whole){ const rt=whole.split(/[\s\/]+/).map(rdEdge).filter(Boolean); if(rt.length===words.length) per=rt; } const out=[]; parts.forEach((x,i)=>{ if(i%2){ out.push([x,null]); return; } if(per){ out.push([x,per[i/2]]); return; } const r=get(rdKey(x)); if(r||!R.tight) out.push([x,r]); else rdTight(x,R).forEach(y=>out.push(y)); }); return out; }
 function rdAfter(nd,n){ let s='', x=nd; const root=document.body; while(s.length<n&&x&&x!==root){ let y=x.nextSibling; while(!y&&x.parentNode&&x.parentNode!==root){ x=x.parentNode; y=x.nextSibling; } if(!y) break; x=y; s+=x.textContent||''; } return s.slice(0,n); }
 function rdNorm(s){ return String(s).toLowerCase().normalize('NFC').replace(/[\s.,!?;:…"“”()\[\]\/=-]+/g,''); }
-function rdAnnotate(root){ const rtl=COURSE.target==='ar'||COURSE.target==='ur', R=rdBuild(), SK='.ex .k,.ex .r,.ex .sp,.sgl,ruby,rt,svg,script,style,input,textarea,.rom,[data-norom]'; const tw=document.createTreeWalker(root,NodeFilter.SHOW_TEXT), nodes=[]; let n; R.rx.lastIndex=0; while((n=tw.nextNode())){ R.rx.lastIndex=0; if(R.rx.test(n.nodeValue)&&n.parentElement&&!n.parentElement.closest(SK)) nodes.push(n); }
+function rdAnnotate(root){ const rtl=COURSE.target==='ar'||COURSE.target==='ur', MK=rdMarked(), R=rdBuild(), SK='.ex .k,.ex .r,.ex .sp,.sgl,ruby,rt,svg,script,style,input,textarea,.rom,[data-norom]'; const tw=document.createTreeWalker(root,NodeFilter.SHOW_TEXT), nodes=[]; let n; R.rx.lastIndex=0; while((n=tw.nextNode())){ R.rx.lastIndex=0; if(R.rx.test(n.nodeValue)&&n.parentElement&&!n.parentElement.closest(SK)) nodes.push(n); }
   nodes.forEach(nd=>{ const t=nd.nodeValue, frag=document.createDocumentFragment(); let last=0, m, any=false; R.rx.lastIndex=0; const hits=[]; while((m=R.rx.exec(t))) hits.push([m.index,m[0]]);
-    hits.forEach(h=>{ const segs=rdSeg(h[1]); if(!segs.some(s=>s[1])) return; const full=segs.map(s=>s[1]||'').join(''), tail=rdNorm(t.slice(h[0]+h[1].length,h[0]+h[1].length+full.length+8)+(t.length-(h[0]+h[1].length)<full.length+8?rdAfter(nd,full.length+8):'')); if(full.length>1&&tail.indexOf(rdNorm(full))===0){ rdAnnotate.sk=(rdAnnotate.sk||0)+1; return; } if(full.length<=1&&rdNorm(tail).charAt(0)===rdNorm(full)&&!/[a-z]/.test(tail.charAt(1)||'')) return;
+    const inMk=MK&&!!(nd.parentElement&&nd.parentElement.closest('b,.k'));
+    hits.forEach(h=>{ if(MK&&!inMk&&!(t.charAt(h[0]-1)==='\u300c'&&t.charAt(h[0]+h[1].length)==='\u300d')) return; const segs=rdSeg(h[1]); if(!segs.some(s=>s[1])) return; const full=segs.map(s=>s[1]||'').join(''), tail=rdNorm(t.slice(h[0]+h[1].length,h[0]+h[1].length+full.length+8)+(t.length-(h[0]+h[1].length)<full.length+8?rdAfter(nd,full.length+8):'')); if(full.length>1&&tail.indexOf(rdNorm(full))===0){ rdAnnotate.sk=(rdAnnotate.sk||0)+1; return; } if(full.length<=1&&rdNorm(tail).charAt(0)===rdNorm(full)&&!/[a-z]/.test(tail.charAt(1)||'')) return;
       frag.append(t.slice(last,h[0])); let host=frag; if(rtl&&segs.length>1){ host=document.createElement('bdi'); host.setAttribute('dir','rtl'); host.className='rbr'; frag.append(host); } segs.forEach(s=>{ if(!s[1]){ host.append(s[0]); return; } const rb=document.createElement('ruby'); rb.className='rb'; rb.append(s[0]); const rt=document.createElement('rt'); rt.setAttribute('dir','ltr'); rt.textContent=s[1]; rb.append(rt); host.append(rb); }); last=h[0]+h[1].length; any=true; });
     if(any){ frag.append(t.slice(last)); nd.replaceWith(frag); } }); }
 /* a quick-check question is left bare when a reading would give the answer away: the reading of something on screen is itself among the answers, or the question names the reading of the right answer */

@@ -52,6 +52,11 @@ const RW = [
 const REWRITE_LESSONS = { hangul: 'vowel/consonant table glossed with English sounds (eo (uh), u (oo), i (ee))', 'sound-changes': 'explains spelling vs sound with English respellings', nouns: 'built on "no a/the, no plural -s"', isseoyo: 'the "is" table contrasts English be with 이에요/있어요', verbbasics: 'English infinitive "to …" framing of the dictionary form', sov: '"English is SVO" contrast throughout', particles: 'particles explained against English prepositions/word order', numbers: 'English counting comparisons', 'pronouns-questions': 'English pronoun/question-word contrasts' };
 const rwOf = s => { for (const [rx, why] of RW) if (rx.test(String(s))) return why; return null; };
 
+/* wording per pair (README, REPEATS.md, NOTES files). For vi + zh every string below is the text the tool always wrote, so that scaffold is unchanged. */
+const LANG = ({ vi: 'Vietnamese', es: 'Spanish', ja: 'Japanese', ko: 'Korean', th: 'Thai', id: 'Indonesian', tl: 'Tagalog' })[nat] || ({ zh: 'Chinese', yue: 'Cantonese', nan: 'Taiwanese', wuu: 'Wu Chinese', fr: 'French', pt: 'Portuguese', de: 'German', it: 'Italian', hi: 'Hindi', ar: 'Arabic', ceb: 'Cebuano' })[nat] || nat;
+const KEEP = L.hanNative(nat, TGT), BYMARKS = TC.by === 'marks';
+/* by-marks targets: the spans each field must keep (target/<t>/marks.jsonl) travel with the work rows ("keep") and with each lesson body (<id>.keep.txt) */
+const MARKS = new Map(); if (BYMARKS) L.readJSONL(path.join(DIR, 'target', TGT, 'marks.jsonl')).forEach(m => MARKS.set(m.f + '\u0001' + m.id + '\u0001' + m.k, m.spans));
 const GENERIC_UI = ['Report a problem on this page', 'Count my visits anonymously', 'Play']; /* shown in every course; missing from some interface dictionaries (uiRows) */
 if (flag('--merge')) merge(); else make();
 
@@ -59,7 +64,7 @@ function make() {
   if (fs.existsSync(WK) && !flag('--force')) { console.error('mk_native: ' + path.relative(L.ROOT, WK) + ' exists (writers may have work in it). Use --merge, or --force to recreate it.'); process.exit(1); }
   fs.rmSync(WK, { recursive: true, force: true });
   /* rows per field */
-  const row = (f, id, k, src) => { const r = { f, id, k, src, tgt: '' }; if (!/[A-Za-z]/.test(src)) { r.tgt = src; r.pre = 1; } const why = rwOf(src); if (why && !r.pre) r.rw = why; return r; };
+  const row = (f, id, k, src) => { const r = { f, id, k, src, tgt: '' }; if (!/[A-Za-z]/.test(src)) { r.tgt = src; r.pre = 1; } const why = rwOf(src); if (why && !r.pre) r.rw = why; const keep = MARKS.get(f + '\u0001' + id + '\u0001' + k); if (keep && !r.pre) r.keep = keep; return r; };
   const rowsOf = (f, rec) => { const out = []; Object.keys(rec).forEach(k => { if (k === 'id') return; const v = rec[k]; if (Array.isArray(v)) v.forEach((x, j) => { if (x != null) out.push(row(f, rec.id, k + '[' + j + ']', String(x))); }); else if (v != null && String(v) !== '') out.push(row(f, rec.id, k, String(v))); }); return out; };
   const wc = rows => rows.reduce((a, r) => a + (r.pre ? 0 : L.words(r.src)), 0);
   /* units, in course order: meta, cards one by one, dialog/examples/patterns, then whole lessons (meta + body + its example glosses + checks + practice) */
@@ -93,7 +98,7 @@ function make() {
   bounds.forEach(([a, b], k) => {
     const name = 'w' + (k + 1), us = units.slice(a, b), rows = us.flatMap(u => u.rows), lessons = us.flatMap(u => u.lessons);
     L.writeJSONL(path.join(WK, name + '.jsonl'), rows);
-    lessons.forEach(id => { const d = path.join(WK, name, 'lessons'); fs.mkdirSync(d, { recursive: true }); fs.writeFileSync(path.join(d, id + '.src.html'), en.bodies[id]); fs.writeFileSync(path.join(d, id + '.html'), ''); });
+    lessons.forEach(id => { const d = path.join(WK, name, 'lessons'); fs.mkdirSync(d, { recursive: true }); fs.writeFileSync(path.join(d, id + '.src.html'), en.bodies[id]); fs.writeFileSync(path.join(d, id + '.html'), ''); const keep = MARKS.get('body\u0001' + id + '\u0001body'); if (keep) fs.writeFileSync(path.join(d, id + '.keep.txt'), keep.join('\n') + '\n'); });
     const cards = us.filter(u => u.card), kinds = [...new Set(us.filter(u => u.kind).map(u => u.kind))], ls = us.filter(u => u.lesson);
     const desc = [us[0].name.startsWith('course') ? 'course/groups/labels/decks' : null, cards.length ? 'cards ' + cards[0].card + '–' + cards[cards.length - 1].card + ' (' + cards.length + ')' : null, kinds.length ? kinds.join('/') : null,
       ls.length ? 'lessons ' + ls[0].n + '–' + ls[ls.length - 1].n + ' (' + ls[0].lesson + ' … ' + ls[ls.length - 1].lesson + '): bodies + titles + example glosses + checks + practice' : null, us.some(u => u.name.startsWith('sentence ')) ? 'unused example glosses' : null].filter(Boolean).join('; ');
@@ -111,9 +116,9 @@ function make() {
     t.sentences.forEach(x => add(x[K], 'sentences:' + x.id, who['sentences:' + x.id]));
     t.lessons.forEach(l => { const walk = s => { if (Array.isArray(s)) s.forEach(walk); else if (s && s.cards) s.cards.forEach(cd => add(cd[K], 'lessoncards:' + cd.id + ' meaning', who['lessoncards:' + cd.id])); }; walk(l.sections || []); });
     const rep = [...occ.entries()].filter(([, l]) => l.length > 1).sort((a, b) => b[1].length - a[1].length);
-    fs.writeFileSync(path.join(WK, 'REPEATS.md'), '# The same Chinese in several places: one Vietnamese gloss each\n\nGenerated by mk_native.js. Each line: the Chinese (end punctuation ignored), then every row that glosses it and the writer who owns that row. The FIRST writer listed sets the gloss in their own `NOTES-wN.md` (one line: Chinese → gloss); the others read every `NOTES-w*.md` and copy it. Each writer writes only their own NOTES file (four writers work at once). A dialogue line is glossed inside the dialogue\'s " / " translation.\n\n' + rep.map(([k, l]) => '- ' + k + ': ' + l.join(' · ')).join('\n') + '\n');
-    plan.forEach(p => { const f = path.join(WK, 'NOTES-' + p.name + '.md'); if (!fs.existsSync(f)) fs.writeFileSync(f, '# ' + p.name + ': glosses and decisions other writers must reuse (only ' + p.name + ' writes this file)\n\nFormat: `Chinese → Vietnamese gloss · note`. Before glossing a repeated sentence (REPEATS.md) or a recurring phrase, read every NOTES-w*.md.\n\n'); });
-    console.log('  REPEATS.md: ' + rep.length + ' Chinese sentences or words occur in more than one place');
+    fs.writeFileSync(path.join(WK, 'REPEATS.md'), '# The same ' + TC.name + ' in several places: one ' + LANG + ' gloss each\n\nGenerated by mk_native.js. Each line: the ' + TC.name + ' (end punctuation ignored), then every row that glosses it and the writer who owns that row. The FIRST writer listed sets the gloss in their own `NOTES-wN.md` (one line: ' + TC.name + ' → gloss); the others read every `NOTES-w*.md` and copy it. Each writer writes only their own NOTES file (four writers work at once). A dialogue line is glossed inside the dialogue\'s " / " translation.\n\n' + rep.map(([k, l]) => '- ' + k + ': ' + l.join(' · ')).join('\n') + '\n');
+    plan.forEach(p => { const f = path.join(WK, 'NOTES-' + p.name + '.md'); if (!fs.existsSync(f)) fs.writeFileSync(f, '# ' + p.name + ': glosses and decisions other writers must reuse (only ' + p.name + ' writes this file)\n\nFormat: `' + TC.name + ' → ' + LANG + ' gloss · note`. Before glossing a repeated sentence (REPEATS.md) or a recurring phrase, read every NOTES-w*.md.\n\n'); });
+    console.log('  REPEATS.md: ' + rep.length + ' ' + TC.name + ' sentences or words occur in more than one place');
   }
   /* interface overrides for a non-Korean target (wU.jsonl → ui.json at --merge) */
   const uRows = TGT === 'ko' ? [] : uiRows(); if (uRows.length) L.writeJSONL(path.join(WK, 'wU.jsonl'), uRows);
@@ -175,11 +180,28 @@ function mergeUi() {
 }
 /* README for a non-Korean target (written for zh; the Hán Việt section only when READINGS) */
 function readmeTarget(plan, uRows) {
-  const lang = ({ vi: 'Vietnamese', es: 'Spanish', ja: 'Japanese', ko: 'Korean', th: 'Thai', id: 'Indonesian', tl: 'Tagalog' })[nat] || nat;
+  const lang = ({ vi: 'Vietnamese', es: 'Spanish', ja: 'Japanese', ko: 'Korean', th: 'Thai', id: 'Indonesian', tl: 'Tagalog' })[nat] || (TGT === 'zh' ? nat : LANG);
   const tname = TC.name === 'Chinese' ? 'Mandarin Chinese' : TC.name;
+  /* target-specific wording: zh keeps its original text */
+  const ZH = TGT === 'zh', AID = ({ zh: 'pinyin', yue: 'Jyutping' })[TGT] || 'the pronunciation line';
+  const halfDesc = ZH ? 'characters, pinyin, sentences, answers, quiz options in Chinese or pinyin' : BYMARKS ? 'words, the pronunciation line, sentences, answers, quiz options in ' + TC.name : 'characters, ' + AID + ', sentences, answers, quiz options in ' + TC.name + ' or ' + AID;
+  const preDesc = ZH ? 'Chinese, digits or symbols only' : TC.name + ', digits or symbols only';
+  const preFmt = ZH || nat === 'vi' ? ', except punctuation or number format (`1,005` → `1.005` in Vietnamese)' : ', except punctuation or number format';
+  const optDesc = ZH ? 'Chinese and pinyin options' : BYMARKS ? TC.name + ' options' : TC.name + ' and ' + AID + ' options';
+  const exDesc = ZH ? 'a Chinese example row (characters + pinyin are injected' : BYMARKS ? 'a ' + TC.name + ' example row (the sentence and its pronunciation line are injected' : 'a ' + TC.name + ' example row (characters + ' + AID + ' are injected';
+  const lcKeep = BYMARKS ? 'keep every span listed in the row\'s `keep`' : `keep every ${TC.script} run, as in card notes`;
+  const yueEx = '`唔該`, `係`, `嘅`';
+  const rule1 = BYMARKS
+    ? `1. **Every marked ${TC.name} span stays, character for character.** A row's \`"keep"\` lists the ${TC.name} text of its \`src\` (words, tone marks and capitals exactly as written; a span listed twice must appear twice). Each one must stand in your \`tgt\` as a whole word. For a lesson body the list is \`wN/lessons/<id>.keep.txt\`: every \`<b>${TC.name}</b>\` with its tags, the ${TC.name} cells of tables, the pronunciation lines in \`<i>\`, and the ${TC.name} words in headings and running text. Translate everything around them freely. If a sentence truly cannot keep a span, add \`"_waive":["marks"]\` and explain it in \`"_note"\`.`
+    : KEEP
+    ? `1. **Every ${TC.name} character run in the English stays, unchanged, and stands apart from your own text.** ${lang} is written in Chinese characters too, so the validator cannot tell your words from the ${TC.name} being taught by looking at them. It takes the ${TC.script} runs of \`src\` (${TGT === 'yue' ? yueEx : '`谢谢`, `不`, `个`'}) as the taught text: each one must appear in your \`tgt\` exactly (never converted between Traditional and Simplified, never re-worded), as often as in \`src\`, and **as a run of its own**: inside \`<b>…</b>\`, inside \`「…」\`, or with punctuation, a space${nat === 'ja' ? ' or kana' : ''} on both sides. Written straight into a ${lang} sentence it would merge with your characters and count as missing. Your own characters are free everywhere: glosses, notes and explanations may use as many as they need. If a sentence truly must drop a run, add \`"_waive":["hangul"]\` (the waiver name is historical; it covers ${TC.script} runs) and explain it in \`"_note"\`.`
+    : `1. **Every ${ZH ? 'Chinese' : TC.name} character run in the English stays, unchanged.** Your text must contain the same set of Han runs as \`src\` (${ZH ? '`谢谢`, `不`, `个`' : yueEx}). Do not drop any. Adding ${ZH ? 'Chinese' : 'Chinese characters'} is an error in prompts, options, glosses and translations (it would change the task). It is allowed only in card notes (the card's own characters${ZH ? " and the row's \`trad\`" : ''}), and, as a warning the reviewer checks, in lesson bodies, deck descriptions, pattern meanings and \`why\` explanations. If a sentence truly must drop or add a run elsewhere, add \`"_waive":["hangul"]\` (the waiver name is historical; it covers ${TC.script} runs) and explain it in \`"_note"\`.`;
+  const rule2 = ZH ? '2. **Pinyin stays exactly as written** (`Měiguórén`, `nǐ hǎo`): the validator warns when a pinyin word with ¯ or ˇ from the English is missing.'
+    : TGT === 'yue' ? '2. **Jyutping stays exactly as written** (`m4 goi1`, `nei5 hou2`), tone digits included. The validator does not check Jyutping inside prose; the reviewer does.'
+    : '2. **The pronunciation line stays exactly as written** (`chahw_ aing`). It is a respelling made for English readers: your first lessons must tell a ' + lang + ' reader how to read it, and where a sound comparison in `src` leans on English, rewrite it for ' + lang + '.';
   return `# ${tname} course for ${lang} speakers (${nat}-${TGT}) — work files (generated by tools/halves/mk_native.js ${nat} --target ${TGT})
 
-You write the **native half**: everything the learner reads in ${lang}. The ${TC.name} half (characters, pinyin, sentences, answers, quiz options in Chinese or pinyin) is fixed in \`tools/halves/target/${TGT}/\` (read-only) and is not in your files.
+You write the **native half**: everything the learner reads in ${lang}. The ${TC.name} half (${halfDesc}) is fixed in \`tools/halves/target/${TGT}/\` (read-only) and is not in your files.
 Authorities: the pair profile \`docs/profiles/${nat}-${TGT}.md\` and the writer brief \`docs/briefs/${nat}-${TGT}-writer.md\`. This file is the format.
 
 ## Who has what
@@ -190,11 +212,11 @@ ${uRows.length ? `| wU | — | ${uRows.length} | 0 | 0 |${READINGS ? ' — |' : 
 ` : ''}
 ## Row format (\`wN.jsonl\`)
 * One row per field: \`{"f":file,"id":id,"k":field,"src":English,"tgt":""}\`. Fill \`tgt\`. Never edit \`f\`, \`id\`, \`k\`, \`src\`.
-* \`"pre":1\`: the source has no Latin letters (Chinese, digits or symbols only); \`tgt\` is prefilled. Leave it, except punctuation or number format (\`1,005\` → \`1.005\` in Vietnamese).
+* \`"pre":1\`: the source has no Latin letters (${preDesc}); \`tgt\` is prefilled. Leave it${preFmt}.
 * \`"rw":"…"\`: written for an English reader. **Rewrite** it for a ${lang} reader; do not translate it word for word.
-* \`k\` = \`o[2]\`: quiz option 2. Only prose options are listed; Chinese and pinyin options are fixed in the target half.
-* Lesson bodies: \`wN/lessons/<id>.src.html\` is the English; write \`wN/lessons/<id>.html\` (starts empty). Keep the HTML structure (\`<h3>\`, \`<div class="tip">\`, \`<div class="tbl"><table>\`, \`<b>\`, \`<i>\`) and every \`{{ex:${TGT}.s0123}}\` token exactly, in the same order: it is a Chinese example row (characters + pinyin are injected; its gloss is a \`sentences\` row in a work file).
-${LESSON_OF.size ? `* Some lessons have **in-lesson decks** and **tile grids**; their rows sit with that lesson's rows. \`"f":"labels"\` with id \`${TGT}.ld.…\` is the name of an in-lesson deck. \`"f":"lessoncards"\` rows are its cards: \`meaning\` (always required) and \`note\` (keep every ${TC.script} run, as in card notes). \`"f":"labels"\` with id \`${TGT}.tlNNN.NN\` is a short hint shown when the learner flips a tile (about 25 characters at most; no \`_\`, no braces). Keep every \`{{tiles:${TGT}.tl001}}\` token in your body exactly, in the same order, like the \`{{ex:…}}\` tokens.
+* \`k\` = \`o[2]\`: quiz option 2. Only prose options are listed; ${optDesc} are fixed in the target half.
+* Lesson bodies: \`wN/lessons/<id>.src.html\` is the English; write \`wN/lessons/<id>.html\` (starts empty). Keep the HTML structure (\`<h3>\`, \`<div class="tip">\`, \`<div class="tbl"><table>\`, \`<b>\`, \`<i>\`) and every \`{{ex:${TGT}.s0123}}\` token exactly, in the same order: it is ${exDesc}; its gloss is a \`sentences\` row in a work file).
+${LESSON_OF.size ? `* Some lessons have **in-lesson decks** and **tile grids**; their rows sit with that lesson's rows. \`"f":"labels"\` with id \`${TGT}.ld.…\` is the name of an in-lesson deck. \`"f":"lessoncards"\` rows are its cards: \`meaning\` (always required) and \`note\` (${lcKeep}). \`"f":"labels"\` with id \`${TGT}.tlNNN.NN\` is a short hint shown when the learner flips a tile (about 25 characters at most; no \`_\`, no braces). Keep every \`{{tiles:${TGT}.tl001}}\` token in your body exactly, in the same order, like the \`{{ex:…}}\` tokens.
 ` : ''}${READINGS ? `
 ## Hán Việt rows (cards that are words of 1–4 characters)
 Each such card has three extra rows after its \`meaning\` / \`note\` rows:
@@ -204,8 +226,8 @@ Each such card has three extra rows after its \`meaning\` / \`note\` rows:
 * For **same** and **shifted** the card \`note\` must contain the \`hv\` text exactly (the validator checks it). If the card has no English note, its \`note\` row has an empty \`src\`: write the note there.\n* Chinese the note may add: the characters of the card itself (one by one, to pair each with its syllable: 学 *học*, 生 *sinh*) and the row's \`trad\`. Nothing else.
 ` : ''}
 ## Rules the validator enforces (\`node tools/halves/validate.js ${nat} ${TGT}\`)
-1. **Every Chinese character run in the English stays, unchanged.** Your text must contain the same set of Han runs as \`src\` (\`谢谢\`, \`不\`, \`个\`). Do not drop any. Adding Chinese is an error in prompts, options, glosses and translations (it would change the task). It is allowed only in card notes (the card's own characters and the row's \`trad\`), and, as a warning the reviewer checks, in lesson bodies, deck descriptions, pattern meanings and \`why\` explanations. If a sentence truly must drop or add a run elsewhere, add \`"_waive":["hangul"]\` (the waiver name is historical; it covers ${TC.script} runs) and explain it in \`"_note"\`.
-2. **Pinyin stays exactly as written** (\`Měiguórén\`, \`nǐ hǎo\`): the validator warns when a pinyin word with ¯ or ˇ from the English is missing.
+${rule1}
+${rule2}
 3. Keep blanks (\`__\`, \`___\`), the single \`" / "\` in dialogue translations, and no \`{\` \`}\` or \`|\` in example glosses.
 4. Nothing empty where the English has text. Deck labels unique and never "My phrases".
 5. Lengths: prompts, explanations and hints ≤ 400 characters; options ≤ 200; two options of one question never identical.

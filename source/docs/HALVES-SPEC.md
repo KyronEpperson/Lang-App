@@ -303,3 +303,9 @@ Design, numbers and open items: `docs/briefs/x-es-design.md`. "By marks" is `doc
   * `validate.js <n> es`;
   * `mk_native.js <n> --target es` (README wording still Chinese);
   * `assemble.js <n> es`.
+
+## 13 · Other targets and modes (pointers)
+
+- Cantonese `yue` (script mode, in-lesson decks, tile sets): `docs/briefs/x-yue-design.md`.
+- Vietnamese `vi` (by marks: `target/vi/marks.jsonl`, hand-set spans in `tools/target/vi/marks.extra.jsonl`): `docs/briefs/x-vi-design.md`.
+- KEEP mode (a learner language written in Han characters on a Han-script target): `docs/briefs/x-yue-design.md` §6a.

@@ -1749,3 +1749,11 @@ Not tested: real learners; real phones; the strings by native speakers; a browse
 ## HALF-ES (2.139.0, 2026-11-27) — prompt
 
 Owner: "yes start all of these optimize agents and models" (build the engines past the first four, in the saved order). This release: Spanish target half. Details: `docs/HANDOFF.md`, 2.139.0 entry; `docs/briefs/x-es-design.md`.
+
+## HALVES-GAPS (2.140.0, 2026-11-27) — prompt
+
+Coordinator's task, with the owner's words "for vietnamese marking and cantonese for mandarin do what you would recommend": close the two gaps that kept the Vietnamese and Cantonese halves from taking a second learner language. (1) Mark the Vietnamese words in the English side of en-vi that no rule could prove. (2) Let learners who write Han characters themselves (Mandarin, Taiwanese, Japanese) have a native half on Cantonese. One course each, no new pair, engines must still rebuild the live courses exactly.
+
+What was chosen, the files and the tests: `docs/HANDOFF.md`, 2.140.0 entry; `docs/briefs/x-vi-design.md` §3a; `docs/briefs/x-yue-design.md` §6a.
+
+Not tested: a real native half on either target (stand-ins only); native speakers; real phones.
