@@ -17,6 +17,7 @@ node tools/tests/memjudge.js > /tmp/claude-0/memjudge.out 2>&1 || { echo 'MEMORY
 node tools/tests/quizflow.js > /tmp/claude-0/quizflow.out 2>&1 || { echo 'QUIZ FLOW TEST FAIL'; grep -v '^PASS' /tmp/claude-0/quizflow.out | head -20; exit 1; }; echo "quiz flow: $(grep -c '^PASS' /tmp/claude-0/quizflow.out) pass"
 node tools/tests/decksimple.js > /tmp/claude-0/decksimple.out 2>&1 || { echo 'DECK PAGE TEST FAIL'; grep -v '^PASS' /tmp/claude-0/decksimple.out | head -20; exit 1; }; echo "deck page: $(grep -c '^PASS' /tmp/claude-0/decksimple.out) pass"
 node tools/tests/practicemodes.js > /tmp/claude-0/practicemodes.out 2>&1 || { echo 'PRACTICE MODES TEST FAIL'; grep -v '^PASS' /tmp/claude-0/practicemodes.out | head -20; exit 1; }; echo "practice modes: $(grep -c '^PASS' /tmp/claude-0/practicemodes.out) pass"
+node tools/halves/tags.js lint es > /tmp/claude-0/tagslint.out 2>&1 || { echo 'UNTAGGED TARGET TEXT in a tagged course (docs/briefs/target-text-tags.md)'; tail -20 /tmp/claude-0/tagslint.out; exit 1; }; node tools/tests/tags.js > /tmp/claude-0/tags.out 2>&1 || { echo 'TARGET-TEXT TAGS TEST FAIL'; grep -v '^PASS' /tmp/claude-0/tags.out | head -20; exit 1; }; echo "target-text tags: $(grep -c '^PASS' /tmp/claude-0/tags.out) pass · $(tail -1 /tmp/claude-0/tagslint.out)"
 node tools/sections/apply.js --check || { echo 'SECTION TABLES MISSING FROM A PACK: run node tools/sections/apply.js after regenerating a pack, then ./build.sh'; exit 1; }
 node tools/tests/lesson_sections.js > /tmp/claude-0/lsec.out 2>&1 || { echo 'LESSON SECTIONS TEST FAIL'; grep '^FAIL' /tmp/claude-0/lsec.out | head -20; exit 1; }; echo "lesson sections: $(grep '^A:' /tmp/claude-0/lsec.out) · $(tail -2 /tmp/claude-0/lsec.out | head -1)"
 node tools/tests/foundations.js > /tmp/claude-0/found.out 2>&1 || { echo 'FOUNDATIONS TEST FAIL'; grep '^FAIL' /tmp/claude-0/found.out | head -20; exit 1; }; echo "foundations: $(tail -2 /tmp/claude-0/found.out | head -1)"
@@ -32,4 +33,4 @@ cd lang-app && git add -A && git -c user.name="Kyron Epperson" -c user.email="ep
 $3
 
 Co-Authored-By: Claude Fable 5.2 <noreply@anthropic.com>
-Claude-Session: https://claude.ai/code/session_01DWtPfrhxoitoBxmHmN4mhq" && git push origin HEAD:main 2>&1 | tail -1
+Claude-Session: https://claude.ai/code/session_01DWtPfrxadA54B4a34z4Kt3" && git push origin HEAD:main 2>&1 | tail -1

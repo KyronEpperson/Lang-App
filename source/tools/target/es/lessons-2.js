@@ -2,29 +2,29 @@
 module.exports = [
   {
     id: "present",
-    title: "Present tense: -ar, -er, -ir",
+    title: "Present tense: ‹-ar›, ‹-er›, ‹-ir›",
     blurb: "Say what you and other people do, with the right verb ending for each person.",
     deck: "Work and school",
     body: `
-<p>English verbs barely change: I work, you work, she work<b>s</b>. Spanish changes the end of the verb for every person, and that ending tells you who is doing the action.</p>
+<p>English verbs barely change: I work, you work, she works. Spanish changes the end of the verb for every person, and that ending tells you who is doing the action.</p>
 <h3>Stem plus ending</h3>
 <p>Every verb has an infinitive, like <b>hablar</b> (to speak), <b>comer</b> (to eat) or <b>vivir</b> (to live). Take off <b>-ar</b>, <b>-er</b> or <b>-ir</b> and you have the stem: <b>habl-</b>, <b>com-</b>, <b>viv-</b>. Then add the ending that matches the subject.</p>
-<div class="tbl"><table><tr><th></th><th>hablar</th><th>comer</th><th>vivir</th></tr>
+<div class="tbl"><table><tr><th></th><th>‹hablar›</th><th>‹comer›</th><th>‹vivir›</th></tr>
 <tr><td class="k">yo</td><td class="k">hablo</td><td class="k">como</td><td class="k">vivo</td></tr>
 <tr><td class="k">tú</td><td class="k">hablas</td><td class="k">comes</td><td class="k">vives</td></tr>
 <tr><td class="k">él, ella, usted</td><td class="k">habla</td><td class="k">come</td><td class="k">vive</td></tr>
 <tr><td class="k">nosotros</td><td class="k">hablamos</td><td class="k">comemos</td><td class="k">vivimos</td></tr>
 <tr><td class="k">ellos, ellas, ustedes</td><td class="k">hablan</td><td class="k">comen</td><td class="k">viven</td></tr></table></div>
 <p><i>In Spain you will also hear <b>vosotros habláis</b> for "you all".</i></p>
-<p>The <b>-er</b> and <b>-ir</b> endings are the same except in the nosotros form: <b>comemos</b>, but <b>vivimos</b>.</p>
+<p>The <b>-er</b> and <b>-ir</b> endings are the same except in the ‹nosotros› form: <b>comemos</b>, but <b>vivimos</b>.</p>
 {{ex:Hablo inglés y español.|AH-bloh een-GLEHS ee ehs-pah-NYOHL|I speak English and Spanish.}}
 {{ex:Ana trabaja en una oficina.|AH-nah trah-BAH-hah ehn OO-nah oh-fee-SEE-nah|Ana works in an office.}}
 {{ex:Vivimos en San Antonio.|bee-BEE-mohs ehn sahn ahn-TOH-nyoh|We live in San Antonio.}}
 <h3>You can drop the subject pronoun</h3>
 <p>English needs "I" or "we" in every sentence. In Spanish the ending already says who, so people usually leave out <b>yo</b>, <b>tú</b> and <b>nosotros</b>. Saying <b>yo</b> every time sounds heavy. Keep the pronoun for contrast: <b>Yo estudio, ella trabaja.</b></p>
 {{ex:Trabajo en un hospital.|trah-BAH-hoh ehn oon ohs-pee-TAHL|I work in a hospital.}}
-<h3>usted and ustedes</h3>
-<p>English has one "you". Spanish has three. To a friend, use the tú form: <b>hablas</b>. To a stranger, use <b>usted</b>, which takes the same form as <b>él</b>: <b>habla</b>. For more than one person, friends or strangers, use <b>ustedes</b>, which takes the ellos form: <b>hablan</b>.</p>
+<h3>‹usted› and ‹ustedes›</h3>
+<p>English has one "you". Spanish has three. To a friend, use the ‹tú› form: <b>hablas</b>. To a stranger, use <b>usted</b>, which takes the same form as <b>él</b>: <b>habla</b>. For more than one person, friends or strangers, use <b>ustedes</b>, which takes the ‹ellos› form: <b>hablan</b>.</p>
 {{ex:¿Usted habla inglés?|oos-TEHD AH-blah een-GLEHS|Do you speak English?}}
 {{ex:¿Ustedes viven aquí?|oos-TEH-dehs BEE-behn ah-KEE|Do you all live here?}}
 <h3>One form for "I study" and "I'm studying"</h3>
@@ -34,25 +34,25 @@ module.exports = [
 <div class="tip">The most common mistake is one form for everyone. <b>Nosotros trabaja</b> → <b>Nosotros trabajamos</b>. Match the ending to the subject every time.</div>
 `,
     check: [
-      ["Complete 'We live in Miami': Nosotros ___ en Miami.",["vive","viven","vivimos","vivemos"],2,"-ir verbs end in -imos in the nosotros form."],
-      ["You ask a stranger if they speak English. Which is right?",["¿Usted habla inglés?","¿Usted hablas inglés?","¿Usted hablar inglés?","¿Usted hablan inglés?"],0,"Usted takes the él form: habla."],
+      ["Complete 'We live in Miami': ‹Nosotros› ___ ‹en Miami›.",["vive","viven","vivimos","vivemos"],2,"‹-ir› verbs end in ‹-imos› in the ‹nosotros› form."],
+      ["You ask a stranger if they speak English. Which is right?",["¿Usted habla inglés?","¿Usted hablas inglés?","¿Usted hablar inglés?","¿Usted hablan inglés?"],0,"‹Usted› takes the ‹él› form: ‹habla›."],
       ["How do you say 'I'm studying Spanish' (this year, at school)?",["Soy estudiando español.","Estudio español.","Estudiar español.","Estudia español."],1,"The simple present covers 'I'm studying' for things going on these days."]
     ],
     practice: [
-      ["mc","'They work in an office' =","Trabajan en una oficina.","Trabaja en una oficina.","Trabajamos en una oficina.","Trabajar en una oficina.","The ellos form of an -ar verb ends in -an."],
-      ["mc","Which form of comer goes with tú?","comes","come","como","comen","The tú form ends in -s: comes."],
-      ["mc","You ask a shop assistant: 'Do you sell coffee?'","¿Usted vende café?","¿Usted vendes café?","¿Usted vender café?","¿Usted venden café?","Usted takes the él form: vende."],
-      ["mc","'You all live in Chicago' =","Ustedes viven en Chicago.","Ustedes vive en Chicago.","Ustedes vivimos en Chicago.","Ustedes vivir en Chicago.","Ustedes takes the ellos form: viven."],
-      ["mc","'I work at a school' (every day) =","Trabajo en una escuela.","Estoy trabajo en una escuela.","Soy trabajo en una escuela.","Trabaja en una escuela.","No ser or estar before a normal verb: just trabajo."],
-      ["or","We eat at home.","Comemos en casa","come","The nosotros form: -er verbs end in -emos."],
-      ["or","Do you speak Spanish? (to a stranger)","¿Habla español?","¿Hablas","Usted takes the él form: habla, not hablas."],
-      ["or","The students live in Puebla.","Los estudiantes viven en Puebla","vive","Los estudiantes are ellos, so the verb ending is -en: viven."],
-      ["fi","Yo __ en una oficina.","I work in an office.","trabajo","trabaja|trabajas|trabajan","The yo form ends in -o."],
-      ["fi","Ellos __ inglés en la escuela.","They study English at school.","estudian","estudia|estudias|estudiamos","The ellos form ends in -an."],
-      ["fi","Nosotros __ en Los Ángeles.","We live in Los Angeles.","vivimos","vivemos|viven|vive","-ir verbs take -imos with nosotros."],
-      ["ty","I speak a little Spanish.","Hablo un poco de español.|Yo hablo un poco de español.","hablar · un poco de · español","habla","The yo form: the verb ending is -o, hablo."],
-      ["ty","Do you work here? (to a stranger)","¿Usted trabaja aquí?|¿Trabaja usted aquí?|¿Trabaja aquí?","usted · trabajar · aquí","trabajas","Usted takes the él form: trabaja."],
-      ["ty","We eat tacos.","Comemos tacos.|Nosotros comemos tacos.","comer · tacos","come","The nosotros form ends in -emos: the verb ending matches the subject."]
+      ["mc","'They work in an office' =","Trabajan en una oficina.","Trabaja en una oficina.","Trabajamos en una oficina.","Trabajar en una oficina.","The ‹ellos› form of an ‹-ar› verb ends in ‹-an›."],
+      ["mc","Which form of ‹comer› goes with ‹tú›?","comes","come","como","comen","The ‹tú› form ends in ‹-s›: ‹comes›."],
+      ["mc","You ask a shop assistant: 'Do you sell coffee?'","¿Usted vende café?","¿Usted vendes café?","¿Usted vender café?","¿Usted venden café?","‹Usted› takes the ‹él› form: ‹vende›."],
+      ["mc","'You all live in Chicago' =","Ustedes viven en Chicago.","Ustedes vive en Chicago.","Ustedes vivimos en Chicago.","Ustedes vivir en Chicago.","‹Ustedes› takes the ‹ellos› form: ‹viven›."],
+      ["mc","'I work at a school' (every day) =","Trabajo en una escuela.","Estoy trabajo en una escuela.","Soy trabajo en una escuela.","Trabaja en una escuela.","No ‹ser› or ‹estar› before a normal verb: just ‹trabajo›."],
+      ["or","We eat at home.","Comemos en casa","come","The ‹nosotros› form: ‹-er› verbs end in ‹-emos›."],
+      ["or","Do you speak Spanish? (to a stranger)","¿Habla español?","¿Hablas","‹Usted› takes the ‹él› form: ‹habla›, not ‹hablas›."],
+      ["or","The students live in Puebla.","Los estudiantes viven en Puebla","vive","‹Los estudiantes› are ‹ellos›, so the verb ending is ‹-en›: ‹viven›."],
+      ["fi","Yo __ en una oficina.","I work in an office.","trabajo","trabaja|trabajas|trabajan","The ‹yo› form ends in ‹-o›."],
+      ["fi","Ellos __ inglés en la escuela.","They study English at school.","estudian","estudia|estudias|estudiamos","The ‹ellos› form ends in ‹-an›."],
+      ["fi","Nosotros __ en Los Ángeles.","We live in Los Angeles.","vivimos","vivemos|viven|vive","‹-ir› verbs take ‹-imos› with ‹nosotros›."],
+      ["ty","I speak a little Spanish.","Hablo un poco de español.|Yo hablo un poco de español.","‹hablar› · ‹un poco de› · ‹español›","habla","The ‹yo› form: the verb ending is ‹-o›, ‹hablo›."],
+      ["ty","Do you work here? (to a stranger)","¿Usted trabaja aquí?|¿Trabaja usted aquí?|¿Trabaja aquí?","‹usted› · ‹trabajar› · ‹aquí›","trabajas","‹Usted› takes the ‹él› form: ‹trabaja›."],
+      ["ty","We eat tacos.","Comemos tacos.|Nosotros comemos tacos.","‹comer› · ‹tacos›","come","The ‹nosotros› form ends in ‹-emos›: the verb ending matches the subject."]
     ]
   },
   {
@@ -82,35 +82,35 @@ module.exports = [
 <p>English says "Where does Ana work?" with the subject in the middle. Spanish puts the verb straight after the question word, and the subject, if you say it, after the verb.</p>
 {{ex:¿Dónde vive usted?|DOHN-deh BEE-beh oos-TEHD|Where do you live?}}
 {{ex:¿Cuándo trabaja Carlos?|KWAHN-doh trah-BAH-hah KAHR-lohs|When does Carlos work?}}
-<h3>quién and cuánto change their form</h3>
+<h3>‹quién› and ‹cuánto› change their form</h3>
 <p>English "who" and "how many" never change. Spanish uses <b>quiénes</b> when you expect more than one person. <b>Cuánto</b> agrees with the noun after it, like an adjective: <b>cuántos libros</b> (masculine plural), <b>cuántas horas</b> (feminine plural).</p>
 {{ex:¿Cuántas horas trabajas?|KWAHN-tahs OH-rahs trah-BAH-hahs|How many hours do you work?}}
 {{ex:¿Quiénes son?|KYEH-nehs sohn|Who are they?}}
-<h3>¿Por qué? and porque</h3>
+<h3>‹¿Por qué?› and ‹porque›</h3>
 <p><b>¿Por qué?</b>, two words with an accent mark, asks "why?". The answer often starts with <b>porque</b>, one word and no accent mark, which means "because". You will practice <b>porque</b> in a later lesson.</p>
 {{ex:¿Por qué estudias español?|pohr keh ehs-TOO-dyahs ehs-pah-NYOHL|Why are you studying Spanish?}}
 <div class="tip">English speakers keep the English word order. <b>¿Dónde usted vive?</b> → <b>¿Dónde vive usted?</b> In most of Latin America it is question word, then verb, then subject. (Caribbean speech often puts a pronoun first; you will hear that in the last lesson.)</div>
 `,
     check: [
-      ["'Do you speak English?' (to a friend) =",["¿Hablar tú inglés?","¿Hablas inglés?","¿Habla tú inglés?","¿Hablo inglés?"],1,"No do in Spanish: the tú form hablas plus a rising voice makes the question."],
-      ["'How many hours do you work?' Which is right?",["¿Cuántos horas trabajas?","¿Cuánto horas trabajas?","¿Cuántas horas trabajas?","¿Cuánta horas trabajas?"],2,"Cuántas agrees with horas, which is feminine plural."],
-      ["'Where does Ana live?' =",["¿Dónde vive Ana?","¿Dónde viven Ana?","¿Qué vive Ana?","¿Dónde hace Ana vivir?"],0,"Question word, then the verb, then the subject; one person takes vive."]
+      ["'Do you speak English?' (to a friend) =",["¿Hablar tú inglés?","¿Hablas inglés?","¿Habla tú inglés?","¿Hablo inglés?"],1,"No do in Spanish: the ‹tú› form ‹hablas› plus a rising voice makes the question."],
+      ["'How many hours do you work?' Which is right?",["¿Cuántos horas trabajas?","¿Cuánto horas trabajas?","¿Cuántas horas trabajas?","¿Cuánta horas trabajas?"],2,"‹Cuántas› agrees with ‹horas›, which is feminine plural."],
+      ["'Where does Ana live?' =",["¿Dónde vive Ana?","¿Dónde viven Ana?","¿Qué vive Ana?","¿Dónde hace Ana vivir?"],0,"Question word, then the verb, then the subject; one person takes ‹vive›."]
     ],
     practice: [
-      ["mc","'Where?' =","¿Dónde?","¿Cuándo?","¿Cómo?","¿Qué?","Dónde asks about a place."],
-      ["mc","'How many books are there?' =","¿Cuántos libros hay?","¿Cuántas libros hay?","¿Cuánto libros hay?","¿Cuánta libros hay?","Cuántos agrees with libros: masculine plural."],
-      ["mc","'Do you work here?' (to a friend) =","¿Trabajas aquí?","¿Trabajar aquí?","¿Tú trabajar aquí?","¿Trabajo aquí?","No do: use the tú form, trabajas, and raise your voice."],
-      ["mc","Which one asks 'why?'","¿Por qué?","Porque","¿Qué?","¿Cómo?","Por qué, two words with an accent mark, asks why; porque means because."],
-      ["mc","'Where do you live?' (to a stranger) =","¿Dónde vive usted?","¿Dónde vives usted?","¿Dónde viven usted?","¿Dónde usted vivir?","usted takes the él form, vive, and in most of Latin America the verb comes right after the question word."],
-      ["or","How many hours do you work? (to a friend)","¿Cuántas horas trabajas?","¿Cuántos","Cuántas agrees with horas: feminine plural."],
-      ["or","Where do Ana and Carlos live?","¿Dónde viven Ana y Carlos?","vive","Ana y Carlos are ellos, so the verb ending is -en: viven."],
-      ["or","When does the class end?","¿Cuándo termina la clase?","¿Cuando","Question words carry an accent mark, and the verb comes before la clase."],
-      ["fi","¿__ vives?","Where do you live?","Dónde","Donde|Cuándo|Qué","Question words carry an accent mark: dónde.","!strict"],
-      ["fi","¿__ personas hay?","How many people are there?","Cuántas","Cuántos|Cuánto|Cuánta","Cuántas agrees with personas, which is feminine plural.","!strict"],
-      ["fi","¿__ son ellos?","Who are they?","Quiénes","Quién|Qué|Cómo","Use quiénes when you ask about more than one person.","!strict"],
-      ["ty","Do you speak English? (to a stranger)","¿Usted habla inglés?|¿Habla usted inglés?|¿Habla inglés?","usted · hablar · inglés","hablas","Usted takes the él form: habla."],
-      ["ty","Where do you all work?","¿Dónde trabajan ustedes?|¿Dónde trabajan?|¿Ustedes dónde trabajan?","dónde · trabajar · ustedes","trabajas","Ustedes takes the ellos form: trabajan.","!strict"],
-      ["ty","Why are you studying Spanish? (to a friend)","¿Por qué estudias español?|¿Por qué estudias tú español?|¿Por qué tú estudias español?","por qué · estudiar · español","porque","Por qué asks why: two words, with an accent mark on qué.","!strict"]
+      ["mc","'Where?' =","¿Dónde?","¿Cuándo?","¿Cómo?","¿Qué?","‹Dónde› asks about a place."],
+      ["mc","'How many books are there?' =","¿Cuántos libros hay?","¿Cuántas libros hay?","¿Cuánto libros hay?","¿Cuánta libros hay?","‹Cuántos› agrees with ‹libros›: masculine plural."],
+      ["mc","'Do you work here?' (to a friend) =","¿Trabajas aquí?","¿Trabajar aquí?","¿Tú trabajar aquí?","¿Trabajo aquí?","No do: use the ‹tú› form, ‹trabajas›, and raise your voice."],
+      ["mc","Which one asks 'why?'","¿Por qué?","Porque","¿Qué?","¿Cómo?","‹Por qué›, two words with an accent mark, asks why; ‹porque› means because."],
+      ["mc","'Where do you live?' (to a stranger) =","¿Dónde vive usted?","¿Dónde vives usted?","¿Dónde viven usted?","¿Dónde usted vivir?","‹usted› takes the ‹él› form, ‹vive›, and in most of Latin America the verb comes right after the question word."],
+      ["or","How many hours do you work? (to a friend)","¿Cuántas horas trabajas?","¿Cuántos","‹Cuántas› agrees with ‹horas›: feminine plural."],
+      ["or","Where do Ana and Carlos live?","¿Dónde viven Ana y Carlos?","vive","‹Ana y Carlos› are ‹ellos›, so the verb ending is ‹-en›: ‹viven›."],
+      ["or","When does the class end?","¿Cuándo termina la clase?","¿Cuando","Question words carry an accent mark, and the verb comes before ‹la clase›."],
+      ["fi","¿__ vives?","Where do you live?","Dónde","Donde|Cuándo|Qué","Question words carry an accent mark: ‹dónde›.","!strict"],
+      ["fi","¿__ personas hay?","How many people are there?","Cuántas","Cuántos|Cuánto|Cuánta","‹Cuántas› agrees with ‹personas›, which is feminine plural.","!strict"],
+      ["fi","¿__ son ellos?","Who are they?","Quiénes","Quién|Qué|Cómo","Use ‹quiénes› when you ask about more than one person.","!strict"],
+      ["ty","Do you speak English? (to a stranger)","¿Usted habla inglés?|¿Habla usted inglés?|¿Habla inglés?","‹usted› · ‹hablar› · ‹inglés›","hablas","‹Usted› takes the ‹él› form: ‹habla›."],
+      ["ty","Where do you all work?","¿Dónde trabajan ustedes?|¿Dónde trabajan?|¿Ustedes dónde trabajan?","‹dónde› · ‹trabajar› · ‹ustedes›","trabajas","‹Ustedes› takes the ‹ellos› form: ‹trabajan›.","!strict"],
+      ["ty","Why are you studying Spanish? (to a friend)","¿Por qué estudias español?|¿Por qué estudias tú español?|¿Por qué tú estudias español?","‹por qué› · ‹estudiar› · ‹español›","porque","‹Por qué› asks why: two words, with an accent mark on ‹qué›.","!strict"]
     ]
   },
   {
@@ -129,7 +129,7 @@ module.exports = [
 <tr><td>100</td><td class="k">cien</td></tr></table></div>
 <p>From 16 to 29 the number is one word: <b>veinticinco</b>. From 31 on, you join the tens and the units with <b>y</b> (and): <b>treinta y dos</b>. Before a noun, <b>uno</b> becomes <b>un</b> or <b>una</b>: <b>un libro</b>, <b>una persona</b>.</p>
 {{ex:Hay veinticinco personas en la clase.|ai bayn-tee-SEEN-koh pehr-SOH-nahs ehn lah KLAH-seh|There are twenty-five people in the class.}}
-<h3>cien, ciento and the hundreds</h3>
+<h3>‹cien›, ‹ciento› and the hundreds</h3>
 <p>Exactly 100 is <b>cien</b>. Before another number it becomes <b>ciento</b>: <b>ciento veinte</b> (120). From 200 to 900 the hundreds agree with the noun, so they have a masculine and a feminine form: <b>doscientos pesos</b>, <b>doscientas personas</b>. Watch <b>quinientos</b> (500). 1,000 is <b>mil</b>.</p>
 {{ex:Cuesta cien pesos.|KWEHS-tah syehn PEH-sohs|It costs a hundred pesos.}}
 {{ex:Son ciento veinte pesos.|sohn SYEHN-toh BAYN-teh PEH-sohs|That's a hundred and twenty pesos.}}
@@ -146,25 +146,25 @@ module.exports = [
 <div class="tip">The classic mistake is copying "It's three". <b>Es tres</b> → <b>Son las tres</b>. Keep <b>es</b> for one o'clock only: <b>Es la una</b>.</div>
 `,
     check: [
-      ["'It's three o'clock' =",["Son las tres.","Es tres.","Es las tres.","Son tres horas."],0,"Three is plural, so son, with las for the hours."],
-      ["How do you write 120?",["cien veinte","cien y veinte","ciento veinte","cientoveinte"],2,"Before another number, cien becomes ciento, and no y follows it."],
-      ["'How much are the shoes?' =",["¿Cuánto cuesta los zapatos?","¿Cuánto cuestan los zapatos?","¿Cuántos cuestan los zapatos?","¿Cuánto es cuestan los zapatos?"],1,"Los zapatos is plural, so the verb is cuestan."]
+      ["'It's three o'clock' =",["Son las tres.","Es tres.","Es las tres.","Son tres horas."],0,"Three is plural, so ‹son›, with ‹las› for the hours."],
+      ["How do you write 120?",["cien veinte","cien y veinte","ciento veinte","cientoveinte"],2,"Before another number, ‹cien› becomes ‹ciento›, and no ‹y› follows it."],
+      ["'How much are the shoes?' =",["¿Cuánto cuesta los zapatos?","¿Cuánto cuestan los zapatos?","¿Cuántos cuestan los zapatos?","¿Cuánto es cuestan los zapatos?"],1,"‹Los zapatos› is plural, so the verb is ‹cuestan›."]
     ],
     practice: [
-      ["mc","'twenty-five' =","veinticinco","veinte cinco","veintecinco","cincoveinte","From 16 to 29 the number is one word: veinticinco."],
-      ["mc","'It's one o'clock' =","Es la una.","Son la una.","Es una.","Son las una.","One o'clock is singular: es la una."],
-      ["mc","'two hundred people' =","doscientas personas","doscientos personas","dos cientos personas","dos cien personas","The hundreds agree with the noun: personas is feminine, so doscientas."],
-      ["mc","'a hundred pesos' =","cien pesos","ciento pesos","un cien pesos","uno cien pesos","Exactly 100 is cien; ciento only comes before another number."],
-      ["mc","'How much is the coffee?' =","¿Cuánto cuesta el café?","¿Cuánto cuestan el café?","¿Cuántos cuesta el café?","¿Cuánto es cuesta el café?","One thing, so cuesta."],
-      ["or","It's three o'clock.","Son las tres","es los","Three is plural, so son, and las agrees with horas (feminine)."],
-      ["or","How much are the tacos?","¿Cuánto cuestan los tacos?","cuesta","Plural noun, plural verb: los tacos cuestan."],
-      ["or","It's half past eight.","Son las ocho y media","medio","Half past is y media."],
-      ["fi","Son las cuatro y __.","It's a quarter past four.","cuarto","medio|cuarta|cuartos","A quarter past is y cuarto."],
-      ["fi","Hay __ mesa libre.","There's one free table.","una","uno|un|unos","Before a feminine noun, uno becomes una."],
-      ["fi","¿Cuánto __ los zapatos?","How much are the shoes?","cuestan","cuesta|cuestas|costar","Los zapatos is plural, so the verb is cuestan."],
-      ["ty","It's two o'clock.","Son las dos.|Son las 2.","ser · las · dos","es","Son las dos: a plural verb, and the feminine article las for the hours."],
-      ["ty","How much are the shirts?","¿Cuánto cuestan las camisas?","cuánto · costar · las camisas","cuesta","Plural noun, plural verb: las camisas cuestan."],
-      ["ty","There are fifty students.","Hay cincuenta estudiantes.|Hay 50 estudiantes.","hay · cincuenta · estudiantes","cincuentas","Hay never changes, and cincuenta stays the same before any noun."]
+      ["mc","'twenty-five' =","veinticinco","veinte cinco","veintecinco","cincoveinte","From 16 to 29 the number is one word: ‹veinticinco›."],
+      ["mc","'It's one o'clock' =","Es la una.","Son la una.","Es una.","Son las una.","One o'clock is singular: ‹es la una›."],
+      ["mc","'two hundred people' =","doscientas personas","doscientos personas","dos cientos personas","dos cien personas","The hundreds agree with the noun: ‹personas› is feminine, so ‹doscientas›."],
+      ["mc","'a hundred pesos' =","cien pesos","ciento pesos","un cien pesos","uno cien pesos","Exactly 100 is ‹cien›; ‹ciento› only comes before another number."],
+      ["mc","'How much is the coffee?' =","¿Cuánto cuesta el café?","¿Cuánto cuestan el café?","¿Cuántos cuesta el café?","¿Cuánto es cuesta el café?","One thing, so ‹cuesta›."],
+      ["or","It's three o'clock.","Son las tres","es los","Three is plural, so ‹son›, and ‹las› agrees with ‹horas› (feminine)."],
+      ["or","How much are the tacos?","¿Cuánto cuestan los tacos?","cuesta","Plural noun, plural verb: ‹los tacos cuestan›."],
+      ["or","It's half past eight.","Son las ocho y media","medio","Half past is ‹y media›."],
+      ["fi","Son las cuatro y __.","It's a quarter past four.","cuarto","medio|cuarta|cuartos","A quarter past is ‹y cuarto›."],
+      ["fi","Hay __ mesa libre.","There's one free table.","una","uno|un|unos","Before a feminine noun, ‹uno› becomes ‹una›."],
+      ["fi","¿Cuánto __ los zapatos?","How much are the shoes?","cuestan","cuesta|cuestas|costar","‹Los zapatos› is plural, so the verb is ‹cuestan›."],
+      ["ty","It's two o'clock.","Son las dos.|Son las 2.","‹ser› · ‹las› · ‹dos›","es","‹Son las dos›: a plural verb, and the feminine article ‹las› for the hours."],
+      ["ty","How much are the shirts?","¿Cuánto cuestan las camisas?","‹cuánto› · ‹costar› · ‹las camisas›","cuesta","Plural noun, plural verb: ‹las camisas cuestan›."],
+      ["ty","There are fifty students.","Hay cincuenta estudiantes.|Hay 50 estudiantes.","‹hay› · ‹cincuenta› · ‹estudiantes›","cincuentas","‹Hay› never changes, and ‹cincuenta› stays the same before any noun."]
     ]
   },
   {
@@ -174,7 +174,7 @@ module.exports = [
     deck: "People and family",
     body: `
 <p>English possessives follow the owner: <i>his</i> book, <i>her</i> book. Spanish possessives follow the thing owned. They agree with it in number, and <b>nuestro</b> agrees in gender too.</p>
-<h3>mi, tu, su, nuestro</h3>
+<h3>‹mi›, ‹tu›, ‹su›, ‹nuestro›</h3>
 <div class="tbl"><table><tr><th>Owner</th><th>One thing</th><th>More than one</th></tr>
 <tr><td class="k">yo</td><td class="k">mi</td><td class="k">mis</td></tr>
 <tr><td class="k">tú</td><td class="k">tu</td><td class="k">tus</td></tr>
@@ -188,168 +188,168 @@ module.exports = [
 <p>Ask "how many things?", not "how many owners?". One man with many books: <b>sus libros</b>. A whole family with one house: <b>su casa</b>. <b>Nuestro</b> also matches the gender of the thing: <b>nuestra casa</b>, <b>nuestros amigos</b>. When you hear "their" or "our" in English, don't reach for the plural form automatically: look at the noun first.</p>
 {{ex:Carlos y sus hijos están en casa.|KAHR-lohs ee soos EE-hohs ehs-TAHN ehn KAH-sah|Carlos and his kids are at home.}}
 {{ex:Nuestra casa es pequeña.|NWEHS-trah KAH-sah ehs peh-KEH-nyah|Our house is small.}}
-<h3>su: his, her, your, their</h3>
+<h3>‹su›: his, her, your, their</h3>
 <p><b>Su</b> can mean his, her, its, their, and also "your" when you speak to someone as <b>usted</b> or <b>ustedes</b>. The situation usually makes it clear. So English "your" has two Spanish forms: <b>tu</b> to a friend, <b>su</b> to a stranger. If <b>su</b> is not clear, Spanish names the owner instead, with <b>de</b>; you will see how in a later lesson.</p>
 {{ex:¿Dónde está su oficina?|DOHN-deh ehs-TAH soo oh-fee-SEE-nah|Where is your office? (to a stranger)}}
-<h3>este and ese: this and that</h3>
+<h3>‹este› and ‹ese›: this and that</h3>
 <p>English has this, these, that and those. Spanish has four forms of each, because they agree with the noun in gender and number.</p>
 <div class="tbl"><table><tr><th></th><th>Masculine</th><th>Feminine</th><th>Masculine plural</th><th>Feminine plural</th></tr>
 <tr><td>this, these</td><td class="k">este</td><td class="k">esta</td><td class="k">estos</td><td class="k">estas</td></tr>
 <tr><td>that, those</td><td class="k">ese</td><td class="k">esa</td><td class="k">esos</td><td class="k">esas</td></tr></table></div>
-<p>Use <b>este</b> for things near you and <b>ese</b> for things a little farther away. Like adjectives, they agree with the noun, but they go before it: <b>esta camisa</b>, not "camisa esta". Watch the accent mark: <b>esta</b> means "this", but <b>está</b> means "is".</p>
+<p>Use <b>este</b> for things near you and <b>ese</b> for things a little farther away. Like adjectives, they agree with the noun, but they go before it: <b>esta camisa</b>, not "‹camisa esta›". Watch the accent mark: <b>esta</b> means "this", but <b>está</b> means "is".</p>
 {{ex:Esta camisa es bonita.|EHS-tah kah-MEE-sah ehs boh-NEE-tah|This shirt is pretty.}}
 {{ex:Esos zapatos son negros.|EH-sohs sah-PAH-tohs sohn NEH-grohs|Those shoes are black.}}
 <div class="tip">The possessive agrees with the thing owned, so watch the plural. <b>Mi padres</b> → <b>Mis padres</b>. <b>Su libros</b> (his books) → <b>Sus libros</b>.</div>
 `,
     check: [
-      ["'his books' =",["su libros","sus libros","sus libro","suyo libros"],1,"The possessive agrees with libros, which is plural: sus."],
-      ["'this shirt' =",["este camisa","esto camisa","esta camisa","está camisa"],2,"Camisa is feminine, so esta. Está with an accent mark means is."],
-      ["'Our grandmother lives in Cancún' =",["Nuestra abuela vive en Cancún.","Nuestro abuela vive en Cancún.","Nuestras abuela vive en Cancún.","Nosotros abuela vive en Cancún."],0,"Nuestra agrees with abuela: feminine singular."]
+      ["'his books' =",["su libros","sus libros","sus libro","suyo libros"],1,"The possessive agrees with ‹libros›, which is plural: ‹sus›."],
+      ["'this shirt' =",["este camisa","esto camisa","esta camisa","está camisa"],2,"‹Camisa› is feminine, so ‹esta›. ‹Está› with an accent mark means is."],
+      ["'Our grandmother lives in Cancún' =",["Nuestra abuela vive en Cancún.","Nuestro abuela vive en Cancún.","Nuestras abuela vive en Cancún.","Nosotros abuela vive en Cancún."],0,"‹Nuestra› agrees with ‹abuela›: feminine singular."]
     ],
     practice: [
-      ["mc","'my parents' =","mis padres","mi padres","mis padre","me padres","Padres is plural, so mis."],
-      ["mc","'her shoes' =","sus zapatos","su zapatos","suyo zapatos","sus zapato","Sus agrees with zapatos, not with the owner."],
-      ["mc","'these books' =","estos libros","estas libros","este libros","esos libros","Estos agrees with libros: masculine plural. Esos means those."],
-      ["mc","'your house' (to a friend) =","tu casa","tú casa","tus casa","su casas","Tu (your) has no accent mark; tú means you.","!strict"],
-      ["mc","'Our city is big' =","Nuestra ciudad es grande.","Nuestro ciudad es grande.","Nuestros ciudad es grande.","Nosotros ciudad es grande.","Ciudad is feminine, so nuestra."],
-      ["or","my sisters","mis hermanas","mi","Mis agrees with hermanas, which is plural."],
-      ["or","Those shoes are black.","Esos zapatos son negros","Esas","Esos agrees with zapatos: masculine plural."],
-      ["or","Our house is small.","Nuestra casa es pequeña","Nuestro","Nuestra agrees with casa, which is feminine."],
-      ["fi","__ libros están aquí.","My books are here.","Mis","Mi|Me|Mío","A plural noun takes mis."],
-      ["fi","Ana vive con __ padres.","Ana lives with her parents.","sus","su|suyos|tus","Sus agrees with padres, which is plural."],
-      ["fi","__ camisa es bonita.","This shirt is pretty.","Esta","Este|Está|Esto","Esta agrees with camisa; está with an accent mark means is.","!strict"],
-      ["ty","My parents are from Puebla.","Mis padres son de Puebla.|Mis papás son de Puebla.","mis padres · ser de · Puebla","Mi","Mis agrees with padres (plural), and son matches the subject."],
-      ["ty","This house is big.","Esta casa es grande.","esta · la casa · grande","Este","Esta agrees with casa, which is feminine.","!strict"],
-      ["ty","Where is your car? (to a friend)","¿Dónde está tu carro?","dónde · estar · tu · el carro","es","Where something is takes estar, and tu (your) has no accent mark.","!strict"]
+      ["mc","'my parents' =","mis padres","mi padres","mis padre","me padres","‹Padres› is plural, so ‹mis›."],
+      ["mc","'her shoes' =","sus zapatos","su zapatos","suyo zapatos","sus zapato","‹Sus› agrees with ‹zapatos›, not with the owner."],
+      ["mc","'these books' =","estos libros","estas libros","este libros","esos libros","‹Estos› agrees with ‹libros›: masculine plural. ‹Esos› means those."],
+      ["mc","'your house' (to a friend) =","tu casa","tú casa","tus casa","su casas","‹Tu› (your) has no accent mark; ‹tú› means you.","!strict"],
+      ["mc","'Our city is big' =","Nuestra ciudad es grande.","Nuestro ciudad es grande.","Nuestros ciudad es grande.","Nosotros ciudad es grande.","‹Ciudad› is feminine, so ‹nuestra›."],
+      ["or","my sisters","mis hermanas","mi","‹Mis› agrees with ‹hermanas›, which is plural."],
+      ["or","Those shoes are black.","Esos zapatos son negros","Esas","‹Esos› agrees with ‹zapatos›: masculine plural."],
+      ["or","Our house is small.","Nuestra casa es pequeña","Nuestro","‹Nuestra› agrees with ‹casa›, which is feminine."],
+      ["fi","__ libros están aquí.","My books are here.","Mis","Mi|Me|Mío","A plural noun takes ‹mis›."],
+      ["fi","Ana vive con __ padres.","Ana lives with her parents.","sus","su|suyos|tus","‹Sus› agrees with ‹padres›, which is plural."],
+      ["fi","__ camisa es bonita.","This shirt is pretty.","Esta","Este|Está|Esto","‹Esta› agrees with ‹camisa›; ‹está› with an accent mark means is.","!strict"],
+      ["ty","My parents are from Puebla.","Mis padres son de Puebla.|Mis papás son de Puebla.","‹mis padres› · ‹ser de› · Puebla","Mi","‹Mis› agrees with ‹padres› (plural), and ‹son› matches the subject."],
+      ["ty","This house is big.","Esta casa es grande.","‹esta› · ‹la casa› · ‹grande›","Este","‹Esta› agrees with ‹casa›, which is feminine.","!strict"],
+      ["ty","Where is your car? (to a friend)","¿Dónde está tu carro?","‹dónde› · ‹estar› · ‹tu› · ‹el carro›","es","Where something is takes ‹estar›, and ‹tu› (your) has no accent mark.","!strict"]
     ]
   },
   {
     id: "irregular",
-    title: "Irregular present: tener, ir, hacer",
+    title: "Irregular present: ‹tener›, ‹ir›, ‹hacer›",
     blurb: "Say your age, that you are hungry or cold, what the weather is like and where you are going.",
     deck: "Days, dates and weather",
     body: `
 <p>Three of the most useful verbs in Spanish are irregular: <b>tener</b> (to have), <b>ir</b> (to go) and <b>hacer</b> (to do, to make). They are also where English speakers copy English most often.</p>
 <h3>The forms</h3>
-<div class="tbl"><table><tr><th></th><th>tener</th><th>ir</th><th>hacer</th></tr>
+<div class="tbl"><table><tr><th></th><th>‹tener›</th><th>‹ir›</th><th>‹hacer›</th></tr>
 <tr><td class="k">yo</td><td class="k">tengo</td><td class="k">voy</td><td class="k">hago</td></tr>
 <tr><td class="k">tú</td><td class="k">tienes</td><td class="k">vas</td><td class="k">haces</td></tr>
 <tr><td class="k">él, ella, usted</td><td class="k">tiene</td><td class="k">va</td><td class="k">hace</td></tr>
 <tr><td class="k">nosotros</td><td class="k">tenemos</td><td class="k">vamos</td><td class="k">hacemos</td></tr>
 <tr><td class="k">ellos, ellas, ustedes</td><td class="k">tienen</td><td class="k">van</td><td class="k">hacen</td></tr></table></div>
-<p><b>Tener</b> and <b>hacer</b> are yo-irregular verbs: the yo form is odd (<b>tengo</b>, <b>hago</b>). <b>Tener</b> also changes its stem in three forms (<b>tienes</b>, <b>tiene</b>, <b>tienen</b>). You will meet more verbs like that in the next lesson. <b>Ir</b> is irregular everywhere, but its endings still follow the subject.</p>
-<h3>tener for age, hunger and cold</h3>
+<p><b>Tener</b> and <b>hacer</b> are ‹yo›-irregular verbs: the ‹yo› form is odd (<b>tengo</b>, <b>hago</b>). <b>Tener</b> also changes its stem in three forms (<b>tienes</b>, <b>tiene</b>, <b>tienen</b>). You will meet more verbs like that in the next lesson. <b>Ir</b> is irregular everywhere, but its endings still follow the subject.</p>
+<h3>‹tener› for age, hunger and cold</h3>
 <p>English says "I am 25" and "I am hungry". Spanish says "I have 25 years" and "I have hunger": <b>tener</b> plus a noun. The same goes for thirst, cold and heat in your body: <b>tengo sed</b>, <b>tengo frío</b>, <b>tengo calor</b>.</p>
 {{ex:Tengo veinticinco años.|TEHN-goh bayn-tee-SEEN-koh AH-nyohs|I'm twenty-five.}}
 {{ex:¿Tienes hambre?|TYEH-nehs AHM-breh|Are you hungry?}}
 {{ex:Tenemos frío.|teh-NEH-mohs FREE-oh|We're cold.}}
-<h3>hacer for the weather</h3>
+<h3>‹hacer› for the weather</h3>
 <p>English says "it is cold". For the weather, Spanish says "it makes cold": <b>hace frío</b>, <b>hace calor</b>, <b>hace sol</b>, <b>hace buen tiempo</b>. Keep it apart from <b>tengo frío</b>, which is about how your body feels.</p>
 {{ex:Hoy hace calor.|oy AH-seh kah-LOHR|It's hot today.}}
 {{ex:Hace frío en enero.|AH-seh FREE-oh ehn eh-NEH-roh|It's cold in January.}}
 <p><b>Hacer</b> is also the verb in everyday questions about plans: <b>¿Qué haces?</b> means "What are you doing?"</p>
 {{ex:¿Qué haces el domingo?|keh AH-sehs ehl doh-MEEN-goh|What are you doing on Sunday?}}
-<h3>ir a plus a place</h3>
+<h3>‹ir a› plus a place</h3>
 <p>To say where someone goes, use <b>ir</b> with <b>a</b> (to) and the place. The present can also mean a plan for soon, as in English "I'm going to the beach on Saturday."</p>
 {{ex:El sábado voy a la playa.|ehl SAH-bah-doh boy ah lah PLAH-yah|On Saturday I'm going to the beach.}}
 {{ex:Mis hijos van a la escuela.|mees EE-hohs bahn ah lah ehs-KWEH-lah|My kids go to school.}}
 <div class="tip">English speakers say "I am" where Spanish says "I have". <b>Soy veinticinco años</b> → <b>Tengo veinticinco años</b>. <b>Estoy hambre</b> → <b>Tengo hambre</b>. For the weather: <b>Es frío</b> → <b>Hace frío</b>.</div>
 `,
     check: [
-      ["'I'm 25 years old' =",["Soy veinticinco años.","Estoy veinticinco años.","Tengo veinticinco años.","Tiene veinticinco años."],2,"Age uses tener, and the yo form is tengo."],
-      ["'It's cold today' (the weather) =",["Hoy hace frío.","Hoy es frío.","Hoy hace fría.","Hoy tengo frío."],0,"Weather uses hacer. Tengo frío is about your body."],
-      ["'They go to school' =",["Vamos a la escuela.","Van a la escuela.","Va a la escuela.","Ir a la escuela."],1,"The ellos form of ir is van."]
+      ["'I'm 25 years old' =",["Soy veinticinco años.","Estoy veinticinco años.","Tengo veinticinco años.","Tiene veinticinco años."],2,"Age uses ‹tener›, and the ‹yo› form is ‹tengo›."],
+      ["'It's cold today' (the weather) =",["Hoy hace frío.","Hoy es frío.","Hoy hace fría.","Hoy tengo frío."],0,"Weather uses ‹hacer›. ‹Tengo frío› is about your body."],
+      ["'They go to school' =",["Vamos a la escuela.","Van a la escuela.","Va a la escuela.","Ir a la escuela."],1,"The ‹ellos› form of ‹ir› is ‹van›."]
     ],
     practice: [
-      ["mc","'I'm hungry' =","Tengo hambre.","Estoy hambre.","Soy hambre.","Hay hambre.","Hunger is something you have: tener hambre."],
-      ["mc","'It's hot' (the weather) =","Hace calor.","Es calor.","Está calor.","Tiene calor.","Weather uses hacer: hace calor."],
-      ["mc","Which is the yo form of hacer?","hago","hace","haco","hacer","Hacer is yo-irregular: hago."],
-      ["mc","'Do you have a car?' (to a stranger)","¿Usted tiene carro?","¿Usted tienes carro?","¿Usted tengo carro?","¿Usted tener carro?","Usted takes the él form: tiene."],
-      ["mc","'I'm going home' =","Voy a casa.","Vo a casa.","Va a casa.","Ir a casa.","The yo form of ir is voy."],
-      ["or","I'm twenty years old.","Tengo veinte años","Tiene Soy","Age uses tener, and the yo form is tengo."],
-      ["or","We go to the beach.","Vamos a la playa","van","The nosotros form of ir: vamos."],
-      ["or","What are you doing? (to a friend)","¿Qué haces?","hace?","The tú form of hacer ends in -s: haces."],
-      ["fi","Hoy __ frío.","It's cold today.","hace","es|tiene|hago","Weather uses hacer: hace frío."],
-      ["fi","Ellos __ a la escuela.","They go to school.","van","va|vas|vamos","The ellos form of ir is van."],
-      ["fi","¿Cuántos años __?","How old are you? (to a friend)","tienes","tiene|tengo|eres","Age uses tener, and the tú form is tienes."],
-      ["ty","I'm cold.","Tengo frío.|Yo tengo frío.","tener · frío","Tiene","Feeling cold uses tener, and the yo form is tengo."],
-      ["ty","How old are you? (to a stranger)","¿Cuántos años tiene usted?|¿Cuántos años tiene?","cuántos · años · tener · usted","tienes","Usted takes the él form: tiene."],
-      ["ty","It's hot today. (the weather)","Hoy hace calor.|Hace calor hoy.","hoy · hacer · calor","es","Weather uses hacer: hace calor, not es calor."]
+      ["mc","'I'm hungry' =","Tengo hambre.","Estoy hambre.","Soy hambre.","Hay hambre.","Hunger is something you have: ‹tener hambre›."],
+      ["mc","'It's hot' (the weather) =","Hace calor.","Es calor.","Está calor.","Tiene calor.","Weather uses ‹hacer›: ‹hace calor›."],
+      ["mc","Which is the ‹yo› form of ‹hacer›?","hago","hace","haco","hacer","‹Hacer› is ‹yo›-irregular: ‹hago›."],
+      ["mc","'Do you have a car?' (to a stranger)","¿Usted tiene carro?","¿Usted tienes carro?","¿Usted tengo carro?","¿Usted tener carro?","‹Usted› takes the ‹él› form: ‹tiene›."],
+      ["mc","'I'm going home' =","Voy a casa.","Vo a casa.","Va a casa.","Ir a casa.","The ‹yo› form of ‹ir› is ‹voy›."],
+      ["or","I'm twenty years old.","Tengo veinte años","Tiene Soy","Age uses ‹tener›, and the ‹yo› form is ‹tengo›."],
+      ["or","We go to the beach.","Vamos a la playa","van","The ‹nosotros› form of ‹ir›: ‹vamos›."],
+      ["or","What are you doing? (to a friend)","¿Qué haces?","hace?","The ‹tú› form of ‹hacer› ends in ‹-s›: ‹haces›."],
+      ["fi","Hoy __ frío.","It's cold today.","hace","es|tiene|hago","Weather uses ‹hacer›: ‹hace frío›."],
+      ["fi","Ellos __ a la escuela.","They go to school.","van","va|vas|vamos","The ‹ellos› form of ‹ir› is ‹van›."],
+      ["fi","¿Cuántos años __?","How old are you? (to a friend)","tienes","tiene|tengo|eres","Age uses ‹tener›, and the ‹tú› form is ‹tienes›."],
+      ["ty","I'm cold.","Tengo frío.|Yo tengo frío.","‹tener› · ‹frío›","Tiene","Feeling cold uses ‹tener›, and the ‹yo› form is ‹tengo›."],
+      ["ty","How old are you? (to a stranger)","¿Cuántos años tiene usted?|¿Cuántos años tiene?","‹cuántos› · ‹años› · ‹tener› · ‹usted›","tienes","‹Usted› takes the ‹él› form: ‹tiene›."],
+      ["ty","It's hot today. (the weather)","Hoy hace calor.|Hace calor hoy.","‹hoy› · ‹hacer› · ‹calor›","es","Weather uses ‹hacer›: ‹hace calor›, not ‹es calor›."]
     ]
   },
   {
     id: "stem-change",
-    title: "Stem-changing verbs: quiero, puedo, pido",
+    title: "Stem-changing verbs: ‹quiero›, ‹puedo›, ‹pido›",
     blurb: "Say what you want, prefer and can do, ask a stranger for help, and ask for things.",
     deck: "Health and emergencies",
     body: `
 <p>English verbs keep the same middle: want, wants. Some very common Spanish verbs change the vowel in their stem when that vowel is stressed. The endings stay regular, so you already know half the work.</p>
 <h3>Three kinds of change</h3>
-<div class="tbl"><table><tr><th></th><th>querer (e → ie)</th><th>poder (o → ue)</th><th>pedir (e → i)</th></tr>
+<div class="tbl"><table><tr><th></th><th>‹querer› (‹e› → ‹ie›)</th><th>‹poder› (‹o› → ‹ue›)</th><th>‹pedir› (‹e› → ‹i›)</th></tr>
 <tr><td class="k">yo</td><td class="k">quiero</td><td class="k">puedo</td><td class="k">pido</td></tr>
 <tr><td class="k">tú</td><td class="k">quieres</td><td class="k">puedes</td><td class="k">pides</td></tr>
 <tr><td class="k">él, ella, usted</td><td class="k">quiere</td><td class="k">puede</td><td class="k">pide</td></tr>
 <tr><td class="k">nosotros</td><td class="k">queremos</td><td class="k">podemos</td><td class="k">pedimos</td></tr>
 <tr><td class="k">ellos, ellas, ustedes</td><td class="k">quieren</td><td class="k">pueden</td><td class="k">piden</td></tr></table></div>
-<p>Other common ones: <b>preferir</b> and <b>pensar</b> (e → ie), <b>dormir</b> and <b>costar</b> (o → ue). Textbooks also call these "boot verbs", because in a full table the changing forms make the shape of a boot.</p>
+<p>Other common ones: <b>preferir</b> and <b>pensar</b> (‹e› → ‹ie›), <b>dormir</b> and <b>costar</b> (‹o› → ‹ue›). Textbooks also call these "boot verbs", because in a full table the changing forms make the shape of a boot.</p>
 {{ex:Quiero agua, por favor.|KYEH-roh AH-gwah pohr fah-BOHR|I want some water, please.}}
 {{ex:Prefiero descansar en casa.|preh-FYEH-roh dehs-kahn-SAHR ehn KAH-sah|I prefer to rest at home.}}
 {{ex:Los niños duermen ocho horas.|lohs NEE-nyohs DWEHR-mehn OH-choh OH-rahs|The kids sleep eight hours.}}
-<h3>nosotros keeps the stem</h3>
-<p>The nosotros form does not change: its stress falls on the ending, not the stem. So it is <b>queremos</b>, <b>podemos</b>, <b>pedimos</b>, exactly like the infinitive. The ustedes form is the same as the ellos form, so it does change: <b>ustedes pueden</b>.</p>
+<h3>‹nosotros› keeps the stem</h3>
+<p>The ‹nosotros› form does not change: its stress falls on the ending, not the stem. So it is <b>queremos</b>, <b>podemos</b>, <b>pedimos</b>, exactly like the infinitive. The ‹ustedes› form is the same as the ‹ellos› form, so it does change: <b>ustedes pueden</b>.</p>
 {{ex:Podemos ir a la farmacia.|poh-DEH-mohs eer ah lah fahr-MAH-syah|We can go to the pharmacy.}}
 <h3>Verb plus infinitive</h3>
 <p>As in English, <b>querer</b>, <b>poder</b> and <b>preferir</b> are often followed by a second verb in the infinitive: <b>quiero descansar</b> (I want to rest), <b>puedo ir</b> (I can go). Only the first verb changes for the person.</p>
 <h3>Asking a stranger for help</h3>
-<p>To a stranger, use the usted form, which is the same as the él form: <b>¿Puede…?</b> (Can you…?). This is the most useful question in an emergency.</p>
+<p>To a stranger, use the ‹usted› form, which is the same as the ‹él› form: <b>¿Puede…?</b> (Can you…?). This is the most useful question in an emergency.</p>
 {{ex:¿Puede ayudarme?|PWEH-deh ah-yoo-DAHR-meh|Can you help me?}}
 {{ex:¿Puede llamar a una ambulancia?|PWEH-deh yah-MAHR ah OO-nah ahm-boo-LAHN-syah|Can you call an ambulance?}}
-<h3>pedir or preguntar?</h3>
+<h3>‹pedir› or ‹preguntar›?</h3>
 <p>English uses "ask" for two things. Spanish splits them: <b>pedir</b> means to ask for something (help, a coffee, a doctor), and <b>preguntar</b>, a regular verb, means to ask a question. In a restaurant, <b>pedir</b> is also the verb for ordering: <b>pido unos tacos</b>.</p>
 {{ex:Pedimos ayuda.|peh-DEE-mohs ah-YOO-dah|We ask for help.}}
 {{ex:Pregunto dónde está la farmacia.|preh-GOON-toh DOHN-deh ehs-TAH lah fahr-MAH-syah|I ask where the pharmacy is.}}
-<div class="tip">Don't change the nosotros form. <b>Nosotros quieremos</b> → <b>Nosotros queremos</b>. And keep "ask for" apart: <b>Pregunto ayuda</b> → <b>Pido ayuda</b>.</div>
+<div class="tip">Don't change the ‹nosotros› form. <b>Nosotros quieremos</b> → <b>Nosotros queremos</b>. And keep "ask for" apart: <b>Pregunto ayuda</b> → <b>Pido ayuda</b>.</div>
 `,
     check: [
-      ["'We can' =",["puedemos","podemos","pueden","podimos"],1,"The nosotros form keeps the stem of the infinitive: pod-."],
-      ["You ask a stranger: 'Can you help me?'",["¿Puede ayudarme?","¿Puedes ayudarme?","¿Pode ayudarme?","¿Puedo ayudarme?"],0,"To a stranger, use the usted form puede."],
-      ["'I ask for help' =",["Pregunto ayuda.","Pedir ayuda.","Pido ayuda.","Pide ayuda."],2,"To ask for something, use pedir: pido."]
+      ["'We can' =",["puedemos","podemos","pueden","podimos"],1,"The ‹nosotros› form keeps the stem of the infinitive: ‹pod-›."],
+      ["You ask a stranger: 'Can you help me?'",["¿Puede ayudarme?","¿Puedes ayudarme?","¿Pode ayudarme?","¿Puedo ayudarme?"],0,"To a stranger, use the ‹usted› form ‹puede›."],
+      ["'I ask for help' =",["Pregunto ayuda.","Pedir ayuda.","Pido ayuda.","Pide ayuda."],2,"To ask for something, use ‹pedir›: ‹pido›."]
     ],
     practice: [
-      ["mc","'I want water' =","Quiero agua.","Quero agua.","Quiere agua.","Querer agua.","Querer changes e to ie: quiero."],
-      ["mc","Which is the nosotros form of poder?","podemos","puedemos","pueden","podimos","The nosotros form keeps the stem of the infinitive: pod-."],
-      ["mc","'Can you call an ambulance?' (to a stranger)","¿Puede llamar a una ambulancia?","¿Puedes llamar a una ambulancia?","¿Pode llamar a una ambulancia?","¿Puede llama a una ambulancia?","Usted takes the él form puede, and the second verb stays in the infinitive."],
-      ["mc","'I ask where the pharmacy is' =","Pregunto dónde está la farmacia.","Pido dónde está la farmacia.","Pregunta dónde está la farmacia.","Pido dónde es la farmacia.","To ask a question, use preguntar; pedir is to ask for something."],
-      ["mc","'They sleep eight hours' =","Duermen ocho horas.","Dormen ocho horas.","Duerme ocho horas.","Dormimos ocho horas.","Dormir changes o to ue: duermen."],
-      ["or","We want to go home.","Queremos ir a casa","Quieren","The nosotros form keeps the e: queremos."],
-      ["or","Can you help me? (to a stranger)","¿Puede ayudarme?","¿Puedes","Usted takes the él form: puede."],
-      ["or","I prefer to rest at home.","Prefiero descansar en casa","Prefero","Preferir changes e to ie: prefiero."],
-      ["fi","Nosotros __ una pizza.","We order a pizza.","pedimos","pidimos|piden|pido","Nosotros keeps the e of the infinitive: pedimos."],
-      ["fi","¿Cuánto __ la medicina?","How much is the medicine?","cuesta","costa|cuestan|cuesto","Costar changes o to ue, and one thing takes cuesta."],
-      ["fi","Yo no __ dormir.","I can't sleep.","puedo","podo|puede|pueden","Poder changes o to ue in the yo form: puedo."],
-      ["ty","I want a glass of water.","Quiero un vaso de agua.|Yo quiero un vaso de agua.","querer · un vaso de agua","Quiere","The yo form of querer: quiero."],
-      ["ty","Can we go to the pharmacy?","¿Podemos ir a la farmacia?|¿Nosotros podemos ir a la farmacia?","poder · ir · la farmacia","pueden","The nosotros form keeps the o: podemos."],
-      ["ty","I'm sick. (a woman speaking)","Estoy enferma.|Yo estoy enferma.","estar · enfermo","enfermo","A condition takes estar, and enferma agrees with a woman speaker: feminine."]
+      ["mc","'I want water' =","Quiero agua.","Quero agua.","Quiere agua.","Querer agua.","‹Querer› changes ‹e› to ‹ie›: ‹quiero›."],
+      ["mc","Which is the ‹nosotros› form of ‹poder›?","podemos","puedemos","pueden","podimos","The ‹nosotros› form keeps the stem of the infinitive: ‹pod-›."],
+      ["mc","'Can you call an ambulance?' (to a stranger)","¿Puede llamar a una ambulancia?","¿Puedes llamar a una ambulancia?","¿Pode llamar a una ambulancia?","¿Puede llama a una ambulancia?","‹Usted› takes the ‹él› form ‹puede›, and the second verb stays in the infinitive."],
+      ["mc","'I ask where the pharmacy is' =","Pregunto dónde está la farmacia.","Pido dónde está la farmacia.","Pregunta dónde está la farmacia.","Pido dónde es la farmacia.","To ask a question, use ‹preguntar›; ‹pedir› is to ask for something."],
+      ["mc","'They sleep eight hours' =","Duermen ocho horas.","Dormen ocho horas.","Duerme ocho horas.","Dormimos ocho horas.","‹Dormir› changes ‹o› to ‹ue›: ‹duermen›."],
+      ["or","We want to go home.","Queremos ir a casa","Quieren","The ‹nosotros› form keeps the ‹e›: ‹queremos›."],
+      ["or","Can you help me? (to a stranger)","¿Puede ayudarme?","¿Puedes","‹Usted› takes the ‹él› form: ‹puede›."],
+      ["or","I prefer to rest at home.","Prefiero descansar en casa","Prefero","‹Preferir› changes ‹e› to ‹ie›: ‹prefiero›."],
+      ["fi","Nosotros __ una pizza.","We order a pizza.","pedimos","pidimos|piden|pido","‹Nosotros› keeps the ‹e› of the infinitive: ‹pedimos›."],
+      ["fi","¿Cuánto __ la medicina?","How much is the medicine?","cuesta","costa|cuestan|cuesto","‹Costar› changes ‹o› to ‹ue›, and one thing takes ‹cuesta›."],
+      ["fi","Yo no __ dormir.","I can't sleep.","puedo","podo|puede|pueden","‹Poder› changes ‹o› to ‹ue› in the ‹yo› form: ‹puedo›."],
+      ["ty","I want a glass of water.","Quiero un vaso de agua.|Yo quiero un vaso de agua.","‹querer› · ‹un vaso de agua›","Quiere","The ‹yo› form of ‹querer›: ‹quiero›."],
+      ["ty","Can we go to the pharmacy?","¿Podemos ir a la farmacia?|¿Nosotros podemos ir a la farmacia?","‹poder› · ‹ir› · ‹la farmacia›","pueden","The ‹nosotros› form keeps the ‹o›: ‹podemos›."],
+      ["ty","I'm sick. (a woman speaking)","Estoy enferma.|Yo estoy enferma.","‹estar› · ‹enfermo›","enfermo","A condition takes ‹estar›, and ‹enferma› agrees with a woman speaker: feminine."]
     ]
   },
   {
     id: "gustar",
-    title: "gustar: me gusta, me gustan",
+    title: "‹gustar›: ‹me gusta›, ‹me gustan›",
     blurb: "Say what you and others like, love and dislike, and say what hurts.",
     deck: "Likes and free time",
     body: `
 <p>In English, the person who likes is the subject: <i>I</i> like tacos. Spanish turns the sentence around: <b>Me gustan los tacos</b> means "tacos are pleasing to me". The thing you like is the subject, so the verb agrees with the thing, not with you.</p>
-<h3>gusta or gustan</h3>
+<h3>‹gusta› or ‹gustan›</h3>
 <p>Use <b>gusta</b> for one thing or for an activity (an infinitive). Use <b>gustan</b> for more than one thing. Keep the article: things in general take <b>el</b>, <b>la</b>, <b>los</b> or <b>las</b>.</p>
 {{ex:Me gusta el fútbol.|meh GOOS-tah ehl FOOT-bohl|I like soccer.}}
 {{ex:Me gustan los tacos.|meh GOOS-tahn lohs TAH-kohs|I like tacos.}}
 {{ex:Me gusta bailar.|meh GOOS-tah bai-LAHR|I like to dance.}}
-<h3>Who likes it: me, te, le, nos, les</h3>
+<h3>Who likes it: ‹me›, ‹te›, ‹le›, ‹nos›, ‹les›</h3>
 <p>The person who likes is shown by a small word before the verb, an indirect object pronoun. It means "to me", "to you" and so on.</p>
 <div class="tbl"><table><tr><th>Who likes</th><th>Spanish</th></tr>
 <tr><td>I like</td><td class="k">me gusta, me gustan</td></tr>
 <tr><td>you like (a friend)</td><td class="k">te gusta, te gustan</td></tr>
-<tr><td>he, she likes; you like (usted)</td><td class="k">le gusta, le gustan</td></tr>
+<tr><td>he, she likes; you like (‹usted›)</td><td class="k">le gusta, le gustan</td></tr>
 <tr><td>we like</td><td class="k">nos gusta, nos gustan</td></tr>
 <tr><td>they like; you all like</td><td class="k">les gusta, les gustan</td></tr></table></div>
 <p>To name the person, add <b>a</b> before the name and keep the pronoun: <b>A Ana le gusta…</b> You can also add <b>a mí</b>, <b>a ti</b> for emphasis: <b>A mí me gusta</b>.</p>
@@ -358,32 +358,32 @@ module.exports = [
 <h3>Me too, me neither</h3>
 <p>To agree with someone's like, say <b>A mí también</b> (me too). To agree with a dislike, a sentence with <b>no</b>, say <b>A mí tampoco</b> (me neither).</p>
 {{ex:No me gusta el café. A mí tampoco.|noh meh GOOS-tah ehl kah-FEH ah mee tahm-POH-koh|I don't like coffee. Me neither.}}
-<h3>encantar and doler work the same way</h3>
+<h3>‹encantar› and ‹doler› work the same way</h3>
 <p><b>Me encanta</b> means "I love" (a thing or an activity). <b>Me duele</b> means "it hurts me". Both agree with the thing: <b>me duelen los pies</b>. With body parts, Spanish uses the article, not "my": <b>la cabeza</b>, <b>los pies</b>.</p>
 {{ex:Me encantan los tamales.|meh ehn-KAHN-tahn lohs tah-MAH-lehs|I love tamales.}}
 {{ex:Me duele la cabeza.|meh DWEH-leh lah kah-BEH-sah|My head hurts.}}
 <div class="tip">Two classic mistakes: <b>Yo gusto la pizza</b> → <b>Me gusta la pizza</b>, and <b>Me gusta los tacos</b> → <b>Me gustan los tacos</b>. Look at the thing: one or more?</div>
 `,
     check: [
-      ["'I like pizza' =",["Yo gusto la pizza.","Me gusta la pizza.","Me gusto la pizza.","Me gustan la pizza."],1,"The pizza is the subject: me gusta la pizza."],
-      ["'I like tacos' =",["Me gusta los tacos.","Me gustan tacos.","Me gustan los tacos.","Yo gusto los tacos."],2,"Gustan agrees with los tacos, and the article stays."],
-      ["'We like to dance' =",["Nos gusta bailar.","Nos gustamos bailar.","Nosotros gustamos bailar.","Nos gustan bailar."],0,"An activity takes gusta, and nos shows who likes it."]
+      ["'I like pizza' =",["Yo gusto la pizza.","Me gusta la pizza.","Me gusto la pizza.","Me gustan la pizza."],1,"The pizza is the subject: ‹me gusta la pizza›."],
+      ["'I like tacos' =",["Me gusta los tacos.","Me gustan tacos.","Me gustan los tacos.","Yo gusto los tacos."],2,"‹Gustan› agrees with ‹los tacos›, and the article stays."],
+      ["'We like to dance' =",["Nos gusta bailar.","Nos gustamos bailar.","Nosotros gustamos bailar.","Nos gustan bailar."],0,"An activity takes ‹gusta›, and ‹nos› shows who likes it."]
     ],
     practice: [
-      ["mc","'Do you like soccer?' (to a friend)","¿Te gusta el fútbol?","¿Tú gustas el fútbol?","¿Te gustas el fútbol?","¿Te gusta fútbol?","Te shows who likes it; gusta agrees with el fútbol, and the article stays."],
-      ["mc","'She likes the shoes' =","Le gustan los zapatos.","Le gusta los zapatos.","Ella gusta los zapatos.","Les gustan los zapatos.","Le for her, and gustan for the plural zapatos."],
-      ["mc","Your friend says 'Me gusta el café.' You like it too. You say:","A mí también.","A mí tampoco.","Yo también gusto.","Me también.","To agree with a like, say a mí también."],
-      ["mc","'They like movies' =","Les gustan las películas.","Le gustan las películas.","Les gustan películas.","Ellos gustan las películas.","Les for they, gustan for películas, and the article stays."],
-      ["mc","'My feet hurt' =","Me duelen los pies.","Me duele los pies.","Yo duelo los pies.","Mis pies me duele.","Doler works like gustar: duelen agrees with los pies."],
-      ["or","I like tacos.","Me gustan los tacos","gusta","Gustan agrees with los tacos, which is plural."],
-      ["or","Do you like music? (to a friend)","¿Te gusta la música?","gustan","Gusta agrees with la música: singular."],
-      ["or","Me neither.","A mí tampoco","también","After a sentence with no, use tampoco."],
-      ["fi","Me __ las quesadillas.","I like quesadillas.","gustan","gusta|gusto|gustas","Las quesadillas is plural, so gustan."],
-      ["fi","A Carlos __ gusta el café.","Carlos likes coffee.","le","lo|se|él","For one person who is not you or me, the indirect object pronoun is le."],
-      ["fi","¿A ustedes __ gusta bailar?","Do you all like to dance?","les","le|los|nos","For ustedes, the pronoun is les."],
-      ["ty","I like soccer.","Me gusta el fútbol.|A mí me gusta el fútbol.","gustar · el fútbol","gustan","Gusta agrees with el fútbol: singular."],
-      ["ty","We like tamales.","Nos gustan los tamales.|A nosotros nos gustan los tamales.","gustar · los tamales","gusta","Gustan agrees with los tamales (plural), not with we."],
-      ["ty","I love tacos.","Me encantan los tacos.|A mí me encantan los tacos.","encantar · los tacos","encanta","Encantan agrees with los tacos, just like gustan."]
+      ["mc","'Do you like soccer?' (to a friend)","¿Te gusta el fútbol?","¿Tú gustas el fútbol?","¿Te gustas el fútbol?","¿Te gusta fútbol?","‹Te› shows who likes it; ‹gusta› agrees with ‹el fútbol›, and the article stays."],
+      ["mc","'She likes the shoes' =","Le gustan los zapatos.","Le gusta los zapatos.","Ella gusta los zapatos.","Les gustan los zapatos.","‹Le› for her, and ‹gustan› for the plural ‹zapatos›."],
+      ["mc","Your friend says '‹Me gusta el café.›' You like it too. You say:","A mí también.","A mí tampoco.","Yo también gusto.","Me también.","To agree with a like, say ‹a mí también›."],
+      ["mc","'They like movies' =","Les gustan las películas.","Le gustan las películas.","Les gustan películas.","Ellos gustan las películas.","‹Les› for they, ‹gustan› for ‹películas›, and the article stays."],
+      ["mc","'My feet hurt' =","Me duelen los pies.","Me duele los pies.","Yo duelo los pies.","Mis pies me duele.","‹Doler› works like ‹gustar›: ‹duelen› agrees with ‹los pies›."],
+      ["or","I like tacos.","Me gustan los tacos","gusta","‹Gustan› agrees with ‹los tacos›, which is plural."],
+      ["or","Do you like music? (to a friend)","¿Te gusta la música?","gustan","‹Gusta› agrees with ‹la música›: singular."],
+      ["or","Me neither.","A mí tampoco","también","After a sentence with ‹no›, use ‹tampoco›."],
+      ["fi","Me __ las quesadillas.","I like quesadillas.","gustan","gusta|gusto|gustas","‹Las quesadillas› is plural, so ‹gustan›."],
+      ["fi","A Carlos __ gusta el café.","Carlos likes coffee.","le","lo|se|él","For one person who is not you or me, the indirect object pronoun is ‹le›."],
+      ["fi","¿A ustedes __ gusta bailar?","Do you all like to dance?","les","le|los|nos","For ‹ustedes›, the pronoun is ‹les›."],
+      ["ty","I like soccer.","Me gusta el fútbol.|A mí me gusta el fútbol.","‹gustar› · ‹el fútbol›","gustan","‹Gusta› agrees with ‹el fútbol›: singular."],
+      ["ty","We like tamales.","Nos gustan los tamales.|A nosotros nos gustan los tamales.","‹gustar› · ‹los tamales›","gusta","‹Gustan› agrees with ‹los tamales› (plural), not with we."],
+      ["ty","I love tacos.","Me encantan los tacos.|A mí me encantan los tacos.","‹encantar› · ‹los tacos›","encanta","‹Encantan› agrees with ‹los tacos›, just like ‹gustan›."]
     ]
   },
   {
@@ -395,7 +395,7 @@ module.exports = [
 <p>English says "I get up", "I get dressed", "I shower", with nothing extra. Spanish describes many daily actions as things you do to yourself: <b>me levanto</b> is literally "I raise myself". These are reflexive verbs, and the small word in front is a reflexive pronoun.</p>
 <h3>The pronoun matches the subject</h3>
 <p>The infinitive of a reflexive verb ends in <b>-se</b>: <b>levantarse</b> (to get up). When you conjugate it, the <b>se</b> moves to the front and changes with the person, just like the verb ending.</p>
-<div class="tbl"><table><tr><th></th><th>levantarse</th></tr>
+<div class="tbl"><table><tr><th></th><th>‹levantarse›</th></tr>
 <tr><td class="k">yo</td><td class="k">me levanto</td></tr>
 <tr><td class="k">tú</td><td class="k">te levantas</td></tr>
 <tr><td class="k">él, ella, usted</td><td class="k">se levanta</td></tr>
@@ -418,76 +418,76 @@ module.exports = [
 <div class="tip">English has no pronoun here, so it is easy to drop. <b>Levanto a las siete</b> → <b>Me levanto a las siete</b>. <b>¿Cómo llamas?</b> → <b>¿Cómo te llamas?</b></div>
 `,
     check: [
-      ["'I get up at seven' =",["Levanto a las siete.","Me levanto a las siete.","Se levanto a las siete.","Me levanta a las siete."],1,"Yo takes me and the ending -o."],
-      ["'What's your name?' (to a friend) =",["¿Cómo llamas?","¿Cómo se llamas?","¿Cómo te llamas?","¿Cómo te llama?"],2,"Tú takes te and the ending -s."],
-      ["'We go to bed at eleven' =",["Nos acostamos a las once.","Nos acuestamos a las once.","Se acostamos a las once.","Nosotros acostamos a las once."],0,"Nosotros takes nos, and the nosotros form keeps the o."]
+      ["'I get up at seven' =",["Levanto a las siete.","Me levanto a las siete.","Se levanto a las siete.","Me levanta a las siete."],1,"‹Yo› takes ‹me› and the ending ‹-o›."],
+      ["'What's your name?' (to a friend) =",["¿Cómo llamas?","¿Cómo se llamas?","¿Cómo te llamas?","¿Cómo te llama?"],2,"‹Tú› takes ‹te› and the ending ‹-s›."],
+      ["'We go to bed at eleven' =",["Nos acostamos a las once.","Nos acuestamos a las once.","Se acostamos a las once.","Nosotros acostamos a las once."],0,"‹Nosotros› takes ‹nos›, and the ‹nosotros› form keeps the ‹o›."]
     ],
     practice: [
-      ["mc","'She gets up at six' =","Se levanta a las seis.","Me levanta a las seis.","Se levanto a las seis.","Levanta a las seis.","Ella takes se and the él form: se levanta."],
-      ["mc","'What's your name?' (to a stranger)","¿Cómo se llama usted?","¿Cómo te llama usted?","¿Cómo llama usted?","¿Cómo se llamas usted?","Usted takes se and the él form: se llama."],
-      ["mc","Which reflexive pronoun goes with nosotros?","nos","se","me","les","Nosotros takes nos: nos levantamos."],
-      ["mc","'I brush my teeth' =","Me lavo los dientes.","Me lava los dientes.","Se lavo los dientes.","Me lavar los dientes.","Me with lavo, and los dientes instead of my teeth."],
-      ["mc","'I wash the car' =","Lavo el carro.","Lava el carro.","Se lavo el carro.","Me lavar el carro.","The action goes to the car, not back to you, so there is no me, and the yo form is lavo."],
-      ["or","I get up early.","Me levanto temprano","levanta","The yo form: me with levanto."],
-      ["or","What time do you go to bed? (to a friend)","¿A qué hora te acuestas?","acuesta?","The tú form: te with acuestas."],
-      ["or","My sister's name is Lucía.","Mi hermana se llama Lucía","me","For someone else, the reflexive pronoun is se."],
-      ["fi","Yo __ levanto temprano.","I get up early.","me","se|te|mi","With yo, the reflexive pronoun is me."],
-      ["fi","Ellos se __ a las ocho.","They get dressed at eight.","visten","viste|vistes|vestimos","Ellos takes -en, and vestir changes e to i: visten."],
-      ["fi","¿Cómo __ llamas?","What's your name? (to a friend)","te","se|me|tú","With tú, the reflexive pronoun is te."],
-      ["ty","I shower at seven.","Me baño a las siete.|Yo me baño a las siete.|Me baño a las 7.|Yo me baño a las 7.|Me ducho a las siete.|Yo me ducho a las siete.|Me ducho a las 7.|Yo me ducho a las 7.","bañarse · a las siete","baña","The yo form: me baño."],
-      ["ty","We wake up at six.","Nos despertamos a las seis.|Nosotros nos despertamos a las seis.|Nos despertamos a las 6.|Nosotros nos despertamos a las 6.","despertarse · a las seis","despiertan","The nosotros form takes nos and keeps the e: despertamos."],
-      ["ty","What's your name? (to a stranger)","¿Cómo se llama usted?|¿Cómo se llama?","cómo · llamarse · usted","llamas","Usted takes the él form: se llama."]
+      ["mc","'She gets up at six' =","Se levanta a las seis.","Me levanta a las seis.","Se levanto a las seis.","Levanta a las seis.","‹Ella› takes ‹se› and the ‹él› form: ‹se levanta›."],
+      ["mc","'What's your name?' (to a stranger)","¿Cómo se llama usted?","¿Cómo te llama usted?","¿Cómo llama usted?","¿Cómo se llamas usted?","‹Usted› takes ‹se› and the ‹él› form: ‹se llama›."],
+      ["mc","Which reflexive pronoun goes with ‹nosotros›?","nos","se","me","les","‹Nosotros› takes ‹nos›: ‹nos levantamos›."],
+      ["mc","'I brush my teeth' =","Me lavo los dientes.","Me lava los dientes.","Se lavo los dientes.","Me lavar los dientes.","‹Me› with ‹lavo›, and ‹los dientes› instead of my teeth."],
+      ["mc","'I wash the car' =","Lavo el carro.","Lava el carro.","Se lavo el carro.","Me lavar el carro.","The action goes to the car, not back to you, so there is no ‹me›, and the ‹yo› form is ‹lavo›."],
+      ["or","I get up early.","Me levanto temprano","levanta","The ‹yo› form: ‹me› with ‹levanto›."],
+      ["or","What time do you go to bed? (to a friend)","¿A qué hora te acuestas?","acuesta?","The ‹tú› form: ‹te› with ‹acuestas›."],
+      ["or","My sister's name is Lucía.","Mi hermana se llama Lucía","me","For someone else, the reflexive pronoun is ‹se›."],
+      ["fi","Yo __ levanto temprano.","I get up early.","me","se|te|mi","With ‹yo›, the reflexive pronoun is ‹me›."],
+      ["fi","Ellos se __ a las ocho.","They get dressed at eight.","visten","viste|vistes|vestimos","‹Ellos› takes ‹-en›, and ‹vestir› changes ‹e› to ‹i›: ‹visten›."],
+      ["fi","¿Cómo __ llamas?","What's your name? (to a friend)","te","se|me|tú","With ‹tú›, the reflexive pronoun is ‹te›."],
+      ["ty","I shower at seven.","Me baño a las siete.|Yo me baño a las siete.|Me baño a las 7.|Yo me baño a las 7.|Me ducho a las siete.|Yo me ducho a las siete.|Me ducho a las 7.|Yo me ducho a las 7.","‹bañarse› · ‹a las siete›","baña","The ‹yo› form: ‹me baño›."],
+      ["ty","We wake up at six.","Nos despertamos a las seis.|Nosotros nos despertamos a las seis.|Nos despertamos a las 6.|Nosotros nos despertamos a las 6.","‹despertarse› · ‹a las seis›","despiertan","The ‹nosotros› form takes ‹nos› and keeps the ‹e›: ‹despertamos›."],
+      ["ty","What's your name? (to a stranger)","¿Cómo se llama usted?|¿Cómo se llama?","‹cómo› · ‹llamarse› · ‹usted›","llamas","‹Usted› takes the ‹él› form: ‹se llama›."]
     ]
   },
   {
     id: "prepositions",
-    title: "a, de, en, con, por, para",
+    title: "‹a›, ‹de›, ‹en›, ‹con›, ‹por›, ‹para›",
     blurb: "Say where you go, how you travel, whose things they are and who you go with.",
     deck: "Travel and transport",
     body: `
 <p>Small words like "to", "of", "in" and "for" rarely match one to one between languages. Learn each Spanish preposition with its typical uses rather than as one English word.</p>
-<h3>a: to, and al</h3>
-<p><b>A</b> marks where you go: <b>Voy a la estación</b>. When <b>a</b> meets <b>el</b>, they join into <b>al</b>: <b>al aeropuerto</b>, never "a el". With <b>la</b>, <b>los</b> and <b>las</b> nothing joins.</p>
+<h3>‹a›: to, and ‹al›</h3>
+<p><b>A</b> marks where you go: <b>Voy a la estación</b>. When <b>a</b> meets <b>el</b>, they join into <b>al</b>: <b>al aeropuerto</b>, never "‹a el›". With <b>la</b>, <b>los</b> and <b>las</b> nothing joins.</p>
 {{ex:Voy al aeropuerto en taxi.|boy ahl ah-eh-roh-PWEHR-toh ehn TAHK-see|I'm going to the airport by taxi.}}
-<h3>The personal a</h3>
+<h3>The personal ‹a›</h3>
 <p>English says "I see Ana". Spanish puts <b>a</b> before a person who receives the action: <b>Veo a Ana</b>, <b>Llamo a mi mamá</b>. It has no English translation. Things don't take it: <b>Veo el tren</b>.</p>
 {{ex:Veo a Ana en la estación.|BEH-oh ah AH-nah ehn lah ehs-tah-SYOHN|I see Ana at the station.}}
-<h3>de: from, of, and whose</h3>
+<h3>‹de›: from, of, and whose</h3>
 <p><b>De</b> means "from" and "of". Spanish has no "'s", so it uses <b>de</b> for whose things are: "Ana's car" is <b>el carro de Ana</b>, "the car of Ana". <b>De</b> plus <b>el</b> becomes <b>del</b>.</p>
 {{ex:Es el carro de Ana.|ehs ehl KAH-rroh deh AH-nah|It's Ana's car.}}
 {{ex:Llego del trabajo a las seis.|YEH-goh dehl trah-BAH-hoh ah lahs says|I get back from work at six.}}
-<h3>en: in, on, at, and by</h3>
+<h3>‹en›: in, on, at, and by</h3>
 <p><b>En</b> covers "in", "on" and "at" for places, and "by" for transport: <b>en autobús</b>, <b>en carro</b>, <b>en tren</b>. The exception is on foot: <b>a pie</b>.</p>
 {{ex:Viajamos en autobús.|byah-HAH-mohs ehn ow-toh-BOOS|We travel by bus.}}
-<h3>con: with, and conmigo</h3>
+<h3>‹con›: with, and ‹conmigo›</h3>
 <p><b>Con</b> means "with". With me and with you (a friend) are single words: <b>conmigo</b>, <b>contigo</b>.</p>
 {{ex:¿Quieres ir conmigo?|KYEH-rehs eer kohn-MEE-goh|Do you want to go with me?}}
-<h3>por and para: start with a few fixed uses</h3>
+<h3>‹por› and ‹para›: start with a few fixed uses</h3>
 <p>Both can mean "for". For now, use <b>para</b> for a purpose (<b>para viajar</b>, in order to travel) and for who gets something (<b>para ti</b>). Use <b>por</b> in fixed phrases: <b>gracias por</b>, <b>por favor</b>, <b>por la mañana</b> (in the morning), <b>por aquí</b> (around here).</p>
 {{ex:Este boleto es para ti.|EHS-teh boh-LEH-toh ehs PAH-rah tee|This ticket is for you.}}
 {{ex:Gracias por todo.|GRAH-syahs pohr TOH-doh|Thanks for everything.}}
-<div class="tip">Two mistakes come straight from English. <b>Veo Ana</b> → <b>Veo a Ana</b>, because a person gets the personal a. <b>Gracias para todo</b> → <b>Gracias por todo</b>, because thanks always take <b>por</b>.</div>
+<div class="tip">Two mistakes come straight from English. <b>Veo Ana</b> → <b>Veo a Ana</b>, because a person gets the personal ‹a›. <b>Gracias para todo</b> → <b>Gracias por todo</b>, because thanks always take <b>por</b>.</div>
 `,
     check: [
-      ["'I see Ana' =",["Veo Ana.","Veo a Ana.","Veo de Ana.","Veo en Ana."],1,"A person who receives the action takes the personal a."],
-      ["'Ana's car' =",["el carro de Ana","el Ana carro","el carro a Ana","la Ana carro"],0,"Spanish has no 's: el carro de Ana."],
-      ["'Thanks for everything' =",["Gracias para todo.","Gracias de todo.","Gracias por todo.","Gracias con todo."],2,"Thanks always take por."]
+      ["'I see Ana' =",["Veo Ana.","Veo a Ana.","Veo de Ana.","Veo en Ana."],1,"A person who receives the action takes the personal ‹a›."],
+      ["'Ana's car' =",["el carro de Ana","el Ana carro","el carro a Ana","la Ana carro"],0,"Spanish has no 's: ‹el carro de Ana›."],
+      ["'Thanks for everything' =",["Gracias para todo.","Gracias de todo.","Gracias por todo.","Gracias con todo."],2,"Thanks always take ‹por›."]
     ],
     practice: [
-      ["mc","'I'm going to the airport' =","Voy al aeropuerto.","Voy a el aeropuerto.","Voy en el aeropuerto.","Voy del aeropuerto.","A plus el becomes al."],
-      ["mc","'We travel by train' =","Viajamos en tren.","Viajamos con tren.","Viajamos a tren.","Viajamos de tren.","Transport takes en: en tren, en autobús."],
-      ["mc","'I call my mom' =","Llamo a mi mamá.","Llamo mi mamá.","Llamo de mi mamá.","Llamo en mi mamá.","A person who receives the action takes the personal a."],
-      ["mc","'This is for you' (a gift, to a friend)","Es para ti.","Es por ti.","Es para tú.","Es para te.","Para for who gets something, and after para it is ti."],
-      ["mc","'Do you want to go with me?' (to a friend)","¿Quieres ir conmigo?","¿Quieres ir con mí?","¿Quieres ir con yo?","¿Quieres ir conmí?","With me is one word: conmigo."],
-      ["or","We go to the airport.","Vamos al aeropuerto","van","The nosotros form of ir: vamos."],
-      ["or","It's Ana's car.","Es el carro de Ana","la","Carro is masculine, so el carro."],
-      ["or","I call my mom.","Llamo a mi mamá","de","A person who receives the action takes the personal a."],
-      ["fi","Veo __ Lucía.","I see Lucía.","a","de|en|con","Before a person who receives the action, use the personal a."],
-      ["fi","Gracias __ la ayuda.","Thanks for the help.","por","para|de|a","Thanks always take por."],
-      ["fi","Voy __ trabajo en metro.","I go to work by subway.","al","a el|en|del","A plus el becomes al."],
-      ["ty","We travel by bus.","Viajamos en autobús.|Nosotros viajamos en autobús.|Viajamos en camión.|Nosotros viajamos en camión.","viajar · en · autobús","viajan","The nosotros form: the verb ending -amos matches the subject."],
-      ["ty","It's Lucía's suitcase.","Es la maleta de Lucía.","ser · la maleta · de · Lucía","el","Maleta is feminine: la maleta."],
-      ["ty","I study Spanish to travel.","Estudio español para viajar.|Yo estudio español para viajar.","estudiar · español · para · viajar","por","Para shows a purpose: para viajar."]
+      ["mc","'I'm going to the airport' =","Voy al aeropuerto.","Voy a el aeropuerto.","Voy en el aeropuerto.","Voy del aeropuerto.","‹A› plus ‹el› becomes ‹al›."],
+      ["mc","'We travel by train' =","Viajamos en tren.","Viajamos con tren.","Viajamos a tren.","Viajamos de tren.","Transport takes ‹en›: ‹en tren›, ‹en autobús›."],
+      ["mc","'I call my mom' =","Llamo a mi mamá.","Llamo mi mamá.","Llamo de mi mamá.","Llamo en mi mamá.","A person who receives the action takes the personal ‹a›."],
+      ["mc","'This is for you' (a gift, to a friend)","Es para ti.","Es por ti.","Es para tú.","Es para te.","‹Para› for who gets something, and after ‹para› it is ‹ti›."],
+      ["mc","'Do you want to go with me?' (to a friend)","¿Quieres ir conmigo?","¿Quieres ir con mí?","¿Quieres ir con yo?","¿Quieres ir conmí?","With me is one word: ‹conmigo›."],
+      ["or","We go to the airport.","Vamos al aeropuerto","van","The ‹nosotros› form of ‹ir›: ‹vamos›."],
+      ["or","It's Ana's car.","Es el carro de Ana","la","‹Carro› is masculine, so ‹el carro›."],
+      ["or","I call my mom.","Llamo a mi mamá","de","A person who receives the action takes the personal ‹a›."],
+      ["fi","Veo __ Lucía.","I see Lucía.","a","de|en|con","Before a person who receives the action, use the personal ‹a›."],
+      ["fi","Gracias __ la ayuda.","Thanks for the help.","por","para|de|a","Thanks always take ‹por›."],
+      ["fi","Voy __ trabajo en metro.","I go to work by subway.","al","a el|en|del","‹A› plus ‹el› becomes ‹al›."],
+      ["ty","We travel by bus.","Viajamos en autobús.|Nosotros viajamos en autobús.|Viajamos en camión.|Nosotros viajamos en camión.","‹viajar› · ‹en› · ‹autobús›","viajan","The ‹nosotros› form: the verb ending ‹-amos› matches the subject."],
+      ["ty","It's Lucía's suitcase.","Es la maleta de Lucía.","‹ser› · ‹la maleta› · ‹de› · Lucía","el","‹Maleta› is feminine: ‹la maleta›."],
+      ["ty","I study Spanish to travel.","Estudio español para viajar.|Yo estudio español para viajar.","‹estudiar› · ‹español› · ‹para› · ‹viajar›","por","‹Para› shows a purpose: ‹para viajar›."]
     ]
   }
 ];

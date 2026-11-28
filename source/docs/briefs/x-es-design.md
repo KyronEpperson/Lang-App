@@ -1,5 +1,7 @@
 # x-es design: Spanish as the fifth target half, recognised by the course's own inventory
 
+**Update 2026-11-28 (2.142.0):** en-es is now a *tagged* course. §1's span rules and §3's unmarked list describe the state before; the marks are now the `‹…›` runs of the source plus positions, `unmarked.tsv` is empty and §5 "Source marking" is closed. Read `docs/briefs/target-text-tags.md` first. The whole-string and per-item rules (§1, §7) still classify quiz options.
+
 **Status (2026-11-27):** steps 1–5 of `docs/HALVES-BLUEPRINT.md` §3 are done. `tools/halves/target/es/` and the English reference half `native/en/es/` are exported from en-es (`tools/target/es/`, `node tools/target/gen.js es`).
 - `proof.js es`: 0 differences, 0 missing rows. A second export is byte-identical.
 - `validate.js en es`: 0 errors, 0 warnings.

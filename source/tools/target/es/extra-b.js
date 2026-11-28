@@ -11,7 +11,7 @@ Me duelen los pies. | ¿Quieres caminar más? | No, gracias. Me duelen los pies.
 ¿Cómo te sientes? | ¿Cómo te sientes hoy? | Mucho mejor, gracias. | How do you feel today? / Much better, thanks.
 Tengo una reunión a las diez. | ¿Tomamos un café a las diez y media? | No puedo, tengo una reunión a las diez. | Shall we get a coffee at ten thirty? / I can't, I have a meeting at ten.
 Trabajo desde casa. | ¿Vas a la oficina todos los días? | No, trabajo desde casa los lunes y los viernes. | Do you go to the office every day? / No, I work from home on Mondays and Fridays.
-¿Cómo se dice esto? | Maestra, ¿cómo se dice esto en español? | Se dice el lápiz. | Teacher, how do you say this in Spanish? / It's el lápiz.
+¿Cómo se dice esto? | Maestra, ¿cómo se dice esto en español? | Se dice el lápiz. | Teacher, how do you say this in Spanish? / It's ‹el lápiz›.
 Tengo sueño. | ¿Vamos al cine esta noche? | Hoy no, tengo sueño. | Shall we go to the movies tonight? / Not today, I'm sleepy.
 Estoy preocupada. | ¿Qué te pasa, Lucía? | Estoy preocupada por el examen de mañana. | What's wrong, Lucía? / I'm worried about tomorrow's test.
 Estoy listo. | ¿Estás listo? Ya nos vamos. | Sí, estoy listo. | Are you ready? We're leaving now. / Yes, I'm ready.

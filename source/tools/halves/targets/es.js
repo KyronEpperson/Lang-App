@@ -8,7 +8,7 @@ const path = require('path');
 const ROOT = path.resolve(__dirname, '..', '..', '..');
 
 module.exports = require('./_inventory.js').inventoryTarget({
-  code: 'es', field: 'es', name: 'Spanish',
+  code: 'es', field: 'es', name: 'Spanish', tagged: true, /* target text inside prose is written ‹…› in the source: docs/briefs/target-text-tags.md */
   /* letters and letter groups that lessons, tiles and quizzes treat as Spanish material ("Which letter is always silent?" h / j / ll / ñ) */
   letters: ('a á b c ch d e é f g h i í j k l ll m n ñ o ó p q r rr s t u ú ü v w x y z ' +
     'gu gü gue gui güe güi qu que qui ce ci ge gi ca co cu ga go').split(' '),
@@ -26,6 +26,12 @@ module.exports = require('./_inventory.js').inventoryTarget({
     /* names of people and places (any language keeps them) */
     'alejandro ana antonio carlos diego guadalajara isabel jamaica javier lupita mariana mateo max miami monterrey oaxaca puebla ruiz san santiago texas valeria wilson yanelis chicago'
   ).split(' '),
+  /* names and loan words that an English sentence keeps as they are ("My name is Sofía.", "at a taquería"): in prose they are neither reported as
+     untagged Spanish nor taken as the row's own Spanish. Unlike the homographs they play no part in classifying quiz options. Quoted as Spanish in
+     a note, the same word is tagged like any other. */
+  proseOk: 'lucía sofía cancún bogotá café taquería'.split(' '),
+  /* names of more than one word that hold a course word ("Los Angeles"): never target text in prose */
+  names: ['Los Angeles', 'Puerto Rico', 'Santo Domingo'],
   respell: path.join(ROOT, 'tools', 'target', 'es', 'respell.js'),
   profile: path.join(ROOT, 'tools', 'target', 'es', 'profile.json')
 });

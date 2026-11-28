@@ -236,7 +236,7 @@ if (BYMARKS) L.readJSONL(XFILE).forEach(r => { const k = xKey(r.f, r.id, r.k); i
 const markField = (kind, f, id, k, v, own) => { const key = xKey(f, id, k), x = extraIx.get(key); if (x) xUsed.add(key);
   const m = TC.marks(kind, v, own, x); (m.extraMissing || []).forEach(sp => xStale.push(f + ':' + id + '.' + k + ' «' + sp + '» not found'));
   const lost = m.spans.length ? L.missingSpans(v, m.spans) : []; if (lost.length) throw new Error('marks: the English field ' + f + ':' + id + '.' + k + ' does not hold its own spans ' + lost.map(z => '«' + z + '»').join(' '));
-  if (process.env.HALVES_MARKS_DUMP) xDump.push({ f, id, k, kind, text: v, taken: m.taken || [], unmarked: m.unmarked });
+  if (process.env.HALVES_MARKS_DUMP) xDump.push({ f, id, k, kind, text: v, taken: m.taken || [], unmarked: m.unmarked, ranges: m.ranges || [], lint: m.lint || [] });
   return m; };
 if (BYMARKS) {
   const own = { cards: new Map(tCards.map(r => [r.id, [r[K]]])), patterns: new Map(tPat.map(r => [r.id, [r[K], r.ex]])), checks: new Map(tChk.map(r => [r.id, r.o.filter(x => x != null)])),

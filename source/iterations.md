@@ -1761,3 +1761,10 @@ Not tested: a real native half on either target (stand-ins only); native speaker
 ## HALVES-13 + nan-en + am-en (2.141.0, 2026-11-27) — prompt
 
 Owner: "yes start all of these optimize agents and models"; on the decision card for Taiwanese he chose "Written Taiwanese". Thirteen more target halves, English for Taiwanese speakers, English for Amharic speakers and the Amharic interface. Details: `docs/HANDOFF.md`, 2.141.0 entry.
+
+## TL-1 (2.142.0, 2026-11-28): target-text tags on en-es
+
+Ask (owner): "are the cards being taught in the best way possible. maybe there is a better way to teach the cards where marking them isn't necessary."
+Answer built: the course text itself says which words are Spanish (`‹…›`), the app shows and plays them, the engine reads the same tags. Details: `docs/briefs/target-text-tags.md`, HANDOFF 2.142.0.
+Agents: five Opus judges, brief `/home/work-tags/BRIEF.md` (rule doc + sheet only; output rows checked by `tags.js apply --dry`). Tokens 87k / 105k / 105k / 106k / 108k. Rows changed 79 / 17 bodies (65 edits) / 210 / 165 / 196. No reader needed a file outside its list.
+Dispatcher's own decisions: bold stays the mark of a taught term in bodies (section decks unchanged), English bold became `<strong>`; `hos-pi-TAL` is tagged but not spoken; names inside a quoted Spanish sentence stay in the run.

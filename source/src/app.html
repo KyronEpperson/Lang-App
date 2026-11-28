@@ -142,6 +142,7 @@ body.norom .rom:hover,body.norom .rom.peek,body.norom .brow .r:hover,body.norom 
 .bd b{font-family:var(--display)}
 .bd span{color:var(--muted)}
 .note{font-size:.9rem;color:var(--muted);max-width:34ch;line-height:1.45}
+b.tl{font-weight:600;color:var(--ink)} b.tl[data-tl],.lbody b{cursor:pointer} .note b.tl,.n b.tl,.why b.tl,.prac-why b.tl,.prac-hint b.tl,.fb b.tl{color:var(--accent)} .lbody b.tl{font-weight:700;color:inherit}
 .swipe-lbl{position:absolute;top:50%;transform:translateY(-50%);font:900 1.1rem var(--body);padding:8px 14px;border-radius:10px;opacity:0;pointer-events:none;transition:opacity .15s;z-index:2}
 .swipe-lbl.l{left:16px;background:var(--accent-soft);color:var(--accent)}
 .swipe-lbl.r{right:16px;background:var(--ok-soft);color:var(--ok)}
@@ -582,7 +583,7 @@ nav.tight a{font-size:.57rem;letter-spacing:-.03em;padding-inline-start:0;paddin
 <script>
 // ============================================================
 // Lang App — single-file app
-const APP_VERSION='2.141.0 · 2026-11-27';
+const APP_VERSION='2.142.0 · 2026-11-28';
 // Sections (search for the ===== headers):
 //   DATA        decks, groups, tags, dialogues, examples, lessons, checks, patterns, strings
 //   STATE       persistence, XP/levels, SRS (grade/undo/intervals), caps, shields
@@ -1341,7 +1342,7 @@ function lsSecCards(spec){ if(!spec) return []; if(Array.isArray(spec)) return s
   if(typeof spec.name==='string'&&Array.isArray(spec.cards)){ if(names.indexOf(spec.name)>=0) return []; if(!DECKS[spec.name]) DECKS[spec.name]=spec.cards.filter(c=>Array.isArray(c)&&c.length>=3).map(c=>c.slice(0,4).map(x=>String(x==null?'':x))); return DECKS[spec.name].map(c=>({d:spec.name,c})); }
   const D=DECKS[spec.deck]; if(!D||names.indexOf(spec.deck)<0) return []; const n=Array.isArray(spec.n)?spec.n:[0,D.length]; return D.slice(Math.max(0,n[0]|0),Math.min(D.length,n[1]|0)).map(c=>({d:spec.deck,c})); }
 function lsBlocksDeck(){ if(!DECKS[LS_BLOCKS]) DECKS[LS_BLOCKS]=['나','노','가','고','미','무','도','수','비','호','한','강','문','밥','손','달','산','길','곰','눈'].map(b=>{ const d=dec(b); return [b,romanize(b),L_IDX[d.l]+' + '+V_IDX[d.v]+(d.t?' + '+T_IDX[d.t]:''),'']; }); return LS_BLOCKS; }
-function lsNorm(h){ return ' '+String(h||'').replace(/\{\{ex:([^|}]*)[^}]*\}\}/g,' $1 ').replace(/\{\{[^}]*\}\}/g,' ').replace(/<[^>]+>/g,' ').replace(/&[a-z]+;/g,' ').toLowerCase().replace(/[.,!?¿¡。、！？;:"'’“”«»()\[\]…~·\/\-]/g,' ').replace(/\s+/g,' ')+' '; }
+function lsNorm(h){ return ' '+String(h||'').replace(/\{\{ex:([^|}]*)[^}]*\}\}/g,' $1 ').replace(/\{\{[^}]*\}\}/g,' ').replace(/<[^>]+>/g,' ').replace(/&[a-z]+;/g,' ').toLowerCase().replace(/[.,!?¿¡。、！？;:"'’“”«»‹›()\[\]…~·\/\-]/g,' ').replace(/\s+/g,' ')+' '; }
 function lsScore(front,txt){ const f=lsNorm(front).trim(); if(!f) return 0; if(txt.includes(' '+f+' ')) return 2;
   if(/[฀-๿぀-ヿ㐀-鿿]/.test(f)){ if(txt.includes(f)) return 2; const g=[...f.replace(/ /g,'')]; if(g.length<2) return 0; let h=0; for(let i=0;i<g.length-1;i++){ if(txt.includes(g[i]+g[i+1])) h++; } return h/(g.length-1); }
   const w=f.split(' ').filter(x=>x.length>2); return w.length?w.filter(x=>txt.includes(' '+x+' ')).length/w.length:0; }
@@ -1353,7 +1354,7 @@ function lsCut(body){ const raw=String(body||'').split(/(?=<h3[\s>])/), cnt=(x,r
   for(let i=0;i<raw.length-1;){ if(!bal(raw[i])){ raw[i]+=raw[i+1]; raw.splice(i+1,1); } else i++; } /* never cut inside a box or a table */
   if(raw.length>1&&!/^<h3[\s>]/.test(raw[0])){ raw[1]=raw[0]+raw[1]; raw.shift(); } /* the opening lines belong to the first section */
   return raw; }
-function lsText(x){ return String(x||'').replace(/<[^>]+>/g,'').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&').trim(); }
+function lsText(x){ return String(x||'').replace(/<[^>]+>/g,'').replace(/[‹›]/g,'').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&').trim(); }
 function lsExs(h){ const o=[]; String(h).replace(/\{\{ex:([^}]*)\}\}|<div class="ex">[\s\S]*?<span class="k">([\s\S]*?)<\/span><span class="r">([\s\S]*?)<\/span><span class="m">([\s\S]*?)<\/span><\/div>/g,(m,t,k,r,g)=>{ if(k===undefined){ const p=String(t).split('|'); o.push([p[0].trim(),(p[1]||'').trim(),p.slice(2).join('|').trim()]); } else o.push([lsText(k),lsText(r),lsText(g)]); return m; }); return o.filter(x=>x[0]&&x[2]); }
 function lsItems(h){ const o=[]; String(h).replace(/<b>([^<]+)<\/b>|<td class="k">([^<]+)<\/td>/g,(m,a,b)=>{ const k=lsNorm(a||b).trim(); if(k) o.push(k); return m; }); return o; }
 function lsAt(k,txt){ /* where the section's text uses these words (k and txt from lsNorm), -1 when it does not */ let p=txt.indexOf(' '+k+' '); if(p>=0) return p;
@@ -2235,6 +2236,20 @@ function bidiPass(root){ const on=tgtRtl(); document.body.classList.toggle('tgt-
   nodes.forEach(t=>{ const v=t.nodeValue; const fr=document.createDocumentFragment(); let last=0, m; RTL_RUN.lastIndex=0; while((m=RTL_RUN.exec(v))){ if(m.index>last) fr.appendChild(document.createTextNode(v.slice(last,m.index))); const b=document.createElement('bdi'); b.className='tx'; b.dir='rtl'; if(tl==='ur') b.lang='ur'; b.setAttribute('data-noi18n',''); b.textContent=m[0]; fr.appendChild(b); last=m.index+m[0].length; } if(!last) return; if(last<v.length) fr.appendChild(document.createTextNode(v.slice(last))); t.parentNode.replaceChild(fr,t); });
   document.querySelectorAll('input.ans:not([dir]),input.prac-in:not([dir])').forEach(i=>{ i.dir='auto'; }); }
 new MutationObserver(()=>{ clearTimeout(koTips._t); koTips._t=setTimeout(()=>{ koTips(); i18nPass(); bidiPass(); },80); }).observe(document.body,{childList:true,subtree:true});
+/* TL-1: target text inside prose. A tagged course writes it as ‹…› in its own text (docs/briefs/target-text-tags.md); the page shows the run as highlighted target text that plays when tapped, and never shows the delimiters. One pass over added text, so every screen gets it. */
+const TL_RX=/‹([^‹›\s](?:[^‹›]*[^‹›\s])?)›/g;
+function tlOn(){ const c=COURSE; if(!c||c.builtin) return false; if(c._tl==null){ let on=false; try{ on=Object.values(c.DECKS||{}).some(d=>Array.isArray(d)&&d.some(x=>x&&typeof x[3]==='string'&&x[3].indexOf('‹')>=0))||(c.LESSONS||[]).some(l=>l&&String(l.body||'').indexOf('‹')>=0); }catch(e){} c._tl=on; } return c._tl; }
+function tlStrip(s){ return String(s==null?'':s).replace(TL_RX,'$1'); }
+function tlSay(t){ return /[A-Za-zÀ-ɏḀ-ỿ]{2}/.test(t)&&!/^-|-$|…|_|[a-z]-[A-Za-z]/.test(t); } /* a letter, an ending or a frame with a gap is shown, not spoken */
+function tlNode(n){ const v=n.nodeValue, p=n.parentNode; if(!p||p.nodeType!==1||v.indexOf('‹')<0) return; TL_RX.lastIndex=0; if(!TL_RX.test(v)) return;
+  if(/^(OPTION|TITLE)$/.test(p.nodeName)){ n.nodeValue=tlStrip(v); return; } if(/^(TEXTAREA|SCRIPT|STYLE)$/.test(p.nodeName)||p.isContentEditable) return;
+  const f=document.createDocumentFragment(), lg=hLang(COURSE.target); let at=0, m; TL_RX.lastIndex=0;
+  while((m=TL_RX.exec(v))){ if(m.index>at) f.appendChild(document.createTextNode(v.slice(at,m.index))); const b=document.createElement('b'); b.className='tl'; b.lang=lg; b.setAttribute('data-noi18n',''); if(tlSay(m[1])) b.setAttribute('data-tl',''); b.textContent=m[1]; f.appendChild(b); at=m.index+m[0].length; }
+  if(at<v.length) f.appendChild(document.createTextNode(v.slice(at))); p.replaceChild(f,n); }
+function tlWrap(root){ if(!root||!tlOn()) return; if(root.nodeType===3){ tlNode(root); return; } if(root.nodeType!==1||root.textContent.indexOf('‹')<0) return; const tw=document.createTreeWalker(root,NodeFilter.SHOW_TEXT), nodes=[]; let n; while((n=tw.nextNode())){ if(n.nodeValue.indexOf('‹')>=0) nodes.push(n); } nodes.forEach(tlNode); }
+new MutationObserver(recs=>{ if(!tlOn()) return; recs.forEach(r=>{ if(r.type==='characterData'){ if(r.target.nodeType===3) tlNode(r.target); } else r.addedNodes.forEach(x=>{ if(x.nodeType===3) tlNode(x); else if(x.nodeType===1&&!(x.classList&&x.classList.contains('tl'))) tlWrap(x); }); }); }).observe(document.body,{childList:true,subtree:true,characterData:true});
+document.addEventListener('click',e=>{ if(!e.target||!e.target.closest||!tlOn()) return; const t=e.target.closest('b'); if(!t||t.closest('button,a,label,.opt,.ex')) return; if(!(t.matches('b.tl[data-tl]')||(t.closest('.lbody')&&!t.classList.contains('tl')&&tlSay(t.textContent)))) return; e.stopPropagation(); e.preventDefault(); speak(t.textContent); },true);
+
 
 // ===================== TODAY / SESSION =====================
 let sess=null;

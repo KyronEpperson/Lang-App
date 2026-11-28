@@ -259,8 +259,11 @@ if (fs.existsSync(path.join(L.HALVES, 'target', 'yue'))) {
 if (fs.existsSync(path.join(L.HALVES, 'target', 'es'))) {
   const eb = fresh('ebase'), EN = d => path.join(d, 'native', 'fr', 'es'), ES = L.target('es');
   { const ok1 = ES.isValue('Soy enfermero.') && ES.isValue('ñ') && ES.isValue('KAH-sah') && !ES.isValue('Short and pure, with no glide at the end') && !ES.isValue('the hotel') && ES.itemIsValue(['comes', 'come', 'como', 'comen'], 0);
-    const m = ES.marks('text', "You'll hear la casa; gente is singular, no.", ['la gente'], { spans: ['la casa'], not: [] }), m2 = ES.marks('text', 'gente', ['la gente'], { not: ['gente'] });
-    const ok2 = m.spans.join('|') === 'la casa|gente' && !m.unmarked.includes('ll') && m2.spans.length === 0 && m2.unmarked.join() === 'gente';
+    /* en-es is a TAGGED course (docs/briefs/target-text-tags.md): the spans are the ‹…› runs with their delimiters and nothing is guessed; a row's own
+       word or a course word outside every tag is reported, never marked; a bold run in a body is a mark by position; a stray delimiter throws */
+    const m = ES.marks('text', "You'll hear ‹la casa›; gente is singular, no.", ['la gente']), m2 = ES.marks('text', 'No ‹yo› needed: ‹me llamo›.', []), m3 = ES.marks('html', '<p><b>vosotros</b> and <strong>never</strong> ‹estar›</p>', []);
+    let threw = 0; ['a ‹b', 'a ‹ b› c', '‹<b>x</b>›'].forEach(t => { try { ES.marks('text', t, []); } catch (e) { threw++; } });
+    const ok2 = ES.tagged === true && m.spans.join('|') === '‹la casa›' && m.unmarked.join() === 'gente' && !m.unmarked.includes('ll') && m2.spans.join('|') === '‹yo›|‹me llamo›' && m2.unmarked.length === 0 && m3.spans.join('|') === '<b>vosotros</b>|‹estar›' && threw === 3;
     const hv = ES.inventory(); ES.reset(); const fromHalf = ES.inventory(); const ok3 = hv.lex.size === fromHalf.lex.size && hv.phrases.size === fromHalf.phrases.size;
     const ok = ok1 && ok2 && ok3; if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'es: inventory classifier (whole strings, per-item key, own-text spans, extra spans / not, contraction tails, half = pack inventory)' + (ok ? '' : ' ' + [ok1, ok2, ok3])); }
   fs.cpSync(path.join(eb, 'native', 'en', 'es'), EN(eb), { recursive: true }); { const c = path.join(EN(eb), 'course.json'); const o = L.readJSON(c); o.native = 'fr'; L.writeJSON(c, o); }
@@ -269,7 +272,8 @@ if (fs.existsSync(path.join(L.HALVES, 'target', 'es'))) {
     ['es: stand-in fr half (copy of the English) validates', d => { }, null],
     ['es: a Spanish phrase changed inside a bold span of a body', d => { const p = path.join(EN(d), 'lessons', 'gender.html'); fs.writeFileSync(p, fs.readFileSync(p, 'utf8').replace('<b>el perro</b>', '<b>le chien</b>')); }, /lessons\/gender\.html: marked Spanish text missing or altered: «<b>el perro<\/b>»/],
     ['es: a card front quoted in its own note is translated', d => eedit(d, 'cards.jsonl', rows => { const x = rows.find(r => r.id === 'es.c0003'); x.note = x.note.replace('gente', 'les gens'); return rows; }), /cards:es\.c0003\.note: marked Spanish text missing/],
-    ['es: an answer word in a practice hint loses its ñ', d => eedit(d, 'practice.jsonl', rows => { const x = rows.find(r => r.id === 'sounds.14'); x.hint = x.hint.replace('niño', 'nino'); return rows; }), /practice:sounds\.14\.hint: marked Spanish text missing or altered: «niño»/],
+    ['es: an answer word in a practice hint loses its ñ', d => eedit(d, 'practice.jsonl', rows => { const x = rows.find(r => r.id === 'sounds.14'); x.hint = x.hint.replace('niño', 'nino'); return rows; }), /practice:sounds\.14\.hint: marked Spanish text missing or altered: «‹niño›»/],
+    ['es: a native half drops the tag delimiters around a kept word', d => eedit(d, 'cards.jsonl', rows => { const x = rows.find(r => r.id === 'es.c0003'); x.note = x.note.replace(/[‹›]/g, ''); return rows; }), /cards:es\.c0003\.note: marked Spanish text missing/],
     ['es: a practice answer smuggled into a native row', d => eedit(d, 'practice.jsonl', rows => { rows[0].a = ['x']; return rows; }), /field "a" is not a native field/]
   ];
   ecases.forEach(([name, mut, want]) => {
@@ -278,6 +282,8 @@ if (fs.existsSync(path.join(L.HALVES, 'target', 'es'))) {
     const ok = want ? (v.status === 1 && want.test(out)) : v.status === 0;
     if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + name + (ok ? '' : '\n' + out.split('\n').filter(l => /ERROR|errors:|Error/.test(l)).slice(0, 5).join('\n')));
   });
+  { const u = fs.readFileSync(path.join(L.HALVES, 'native', 'en', 'es', 'unmarked.tsv'), 'utf8').split('\n').filter(l => l.trim() && l[0] !== '#'), noX = !fs.existsSync(path.join(L.ROOT, 'tools', 'target', 'es', 'marks.extra.jsonl'));
+    const ok = u.length === 0 && noX; if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'es: tagged course, no untagged Spanish in any prose field and no hand-kept side list' + (ok ? '' : ' ' + u.slice(0, 3).join(' | '))); }
   { const d = fresh('eclean'); const v = run('proof.js', ['es'], d); const ok = v.status === 0 && /differences: 0/.test(v.stdout); if (!ok) fail++; console.log((ok ? 'ok   ' : 'FAIL ') + 'proof es: target/es + native/en/es reassemble the en-es pack exactly'); }
 }
 /* ---------- a script target with two kana scripts and kanji: Japanese (target/ja, docs/briefs/x-ja-design.md) ----------

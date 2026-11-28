@@ -27,6 +27,7 @@ function inventoryTarget(cfg) {
   const PRON_PART = new Set(cfg.pronParts || []);
   const HOMO = new Set((cfg.homographs || []).map(x => x.toLowerCase()));
   const DIA = cfg.diacritic || /[^\x00-\x7f]/;
+  const PROSE_OK = new Set((cfg.proseOk || []).map(x => x.toLowerCase()));
   let RS = null, PR = null;
   const respellMod = () => (RS || (RS = require(cfg.respell)));
   const pronRx = () => (PR || (PR = new RegExp(JSON.parse(fs.readFileSync(cfg.profile, 'utf8')).pronPattern)));
@@ -123,23 +124,41 @@ function inventoryTarget(cfg) {
      Both kinds: "X (LINE)" and "X, LINE" where LINE is exactly respell(X) and a line of the course (self-certifying: both parts are marked); every word of
      the row's own target text (not single letters without a diacritic, not pieces next to a blank, not English homographs); extra.spans (hand-kept,
      tools/target/<t>/marks.extra.jsonl) wherever they occur as whole words. extra.not: words never taken from the row's own text.
-     unmarked: words outside every span that are in the lexicon (not English homographs, two letters or more) or carry a target diacritic. */
+     unmarked: words outside every span that are in the lexicon (not English homographs, two letters or more) or carry a target diacritic.
+
+     TAGGED courses (cfg.tagged; docs/briefs/target-text-tags.md): the course text itself says which words are target text, by writing them inside
+     ‹ › (U+2039 / U+203A), e.g. "A little more formal than ‹me llamo›." Then nothing is guessed: the spans are exactly the ‹…› runs (recorded WITH
+     their delimiters, so a native half must keep them delimited), plus the positional ones (in lesson bodies every <b>…</b>, which is a taught
+     target term, and every example cell; pronunciation lines in <i>; a "LINE" that is the respelling of the tagged text before it). The old rules
+     become a LINT: a row's own target word, or a lexicon / diacritic word outside every mark is reported as unmarked, and the release test wants
+     that report empty. A stray or nested delimiter, or a tag or
+     token inside ‹…›, throws. */
+  const TAGGED = !!cfg.tagged, TAG_RX = /‹([^‹›]*)›/g;
   function marks(kind, text, own, extra) {
-    const s = String(text == null ? '' : text), taken = [], spans = [];
+    const s = String(text == null ? '' : text), taken = [], spans = [], ranges = [], lint = [];
     const free = (a, b) => taken.every(([x, y]) => b <= x || a >= y);
-    const add = (a, b) => { const v = s.slice(a, b); if (b > a && v.trim() && free(a, b)) { taken.push([a, b]); spans.push([a, v]); } };
+    let how = '';
+    const add = (a, b) => { const v = s.slice(a, b); if (b > a && v.trim() && free(a, b)) { taken.push([a, b]); spans.push([a, v]); ranges.push([a, b, how]); } };
     const block = (a, b) => { if (free(a, b)) taken.push([a, b]); };
     const L1 = /[A-Za-zÀ-ÖØ-öø-ɏḀ-ỿ]/;
     let m;
     const TOK = new RegExp(TOKEN_RX.source, 'g'); while ((m = TOK.exec(s))) block(m.index, m.index + m[0].length);
+    (cfg.names || []).forEach(nm => { let i = -1; while ((i = s.indexOf(nm, i + 1)) >= 0) block(i, i + nm.length); });
+    if (TAGGED) { how = 'tag'; const T = new RegExp(TAG_RX.source, 'g'); let n = 0;
+      while ((m = T.exec(s))) { n++; const inner = m[1]; if (!inner.trim() || inner !== inner.trim() || /[<>{}|]/.test(inner)) throw new Error(cfg.code + ' tags: bad ‹…› run «' + m[0] + '» (empty, padded with spaces, or holding a tag or token) in: ' + s.slice(Math.max(0, m.index - 40), m.index + 60));
+        add(m.index, m.index + m[0].length); }
+      if ((s.match(/[‹›]/g) || []).length !== n * 2) throw new Error(cfg.code + ' tags: a ‹ or › without its partner in: ' + s.slice(0, 160)); }
+    how = 'extra';
     /* hand-kept spans first: they are explicit marks */
     ((extra && extra.spans) || []).forEach(sp => { if (!sp) return; let i = -1; while ((i = s.indexOf(sp, i + 1)) >= 0) { const pre = s[i - 1], post = s[i + sp.length];
       if ((pre && L1.test(pre) && L1.test(sp[0])) || (post && L1.test(post) && L1.test(sp[sp.length - 1]))) continue; add(i, i + sp.length); } });
     if (kind === 'html') {
-      const B = /<b>([^<]*)<\/b>/g; while ((m = B.exec(s))) { if (isMarkedText(m[1])) add(m.index, m.index + m[0].length); }
+      how = 'b'; const B = /<b>([^<]*)<\/b>/g; while ((m = B.exec(s))) { if (TAGGED || isMarkedText(m[1])) add(m.index, m.index + m[0].length); } /* tagged: bold in a body IS a taught target term (position, like an example cell); emphasis in the learner's language is <strong> */
+      if (TAGGED) { const BX = /<b>(?![^<]*<\/b>)/g; while ((m = BX.exec(s))) lint.push([m.index, m.index + 3, 'b', 'bold run holding markup: ' + s.slice(m.index, m.index + 40)]); }
+      how = 'pos';
       const K = /<td class="k">([^<]*)<\/td>/g; while ((m = K.exec(s))) { const st = m.index + m[0].indexOf('>') + 1, inner = m[1];
         const P = /\s*\(([^()]*)\)/g; let last = 0, p; const segs = []; while ((p = P.exec(inner))) { segs.push([last, p.index]); last = p.index + p[0].length; } segs.push([last, inner.length]);
-        segs.forEach(([a, b]) => { const seg = inner.slice(a, b), lead = seg.length - seg.trimStart().length, t = seg.trim(); if (t && isMarkedText(t)) add(st + a + lead, st + a + lead + t.length); }); }
+        segs.forEach(([a, b]) => { const seg = inner.slice(a, b), lead = seg.length - seg.trimStart().length, t = seg.trim(); if (t && (TAGGED || isMarkedText(t))) add(st + a + lead, st + a + lead + t.length); }); }
       const IT = /<i>([^<]*)<\/i>/g; while ((m = IT.exec(s))) { if (isLine(m[1])) add(m.index + 3, m.index + 3 + m[1].length); }
       const TAG = /<[^>]+>/g; while ((m = TAG.exec(s))) block(m.index, m.index + m[0].length);
     }
@@ -147,9 +166,9 @@ function inventoryTarget(cfg) {
     const PR = /(\(|, )([A-Za-z][A-Za-z\- ]*[A-Za-z])(?=\)|[.,;:!?]|\s*$)/g;
     while ((m = PR.exec(s))) { const line = m[2]; if (!pronRx().test(line)) continue; const k = line.split(' ').length;
       const before = s.slice(0, m.index), ws = []; const WR = new RegExp(LAT_WORD.source, 'g'); let w; while ((w = WR.exec(before))) ws.push([w.index, w.index + w[0].length]);
-      if (ws.length < k) continue; const a = ws[ws.length - k][0], b = ws[ws.length - 1][1]; if (/[^\s¿¡?!.]/.test(s.slice(b, m.index))) continue;
-      let r = null; try { r = respellMod().respell(s.slice(a, b)); } catch (e) { r = null; }
-      if (r === line && (/-|[A-Z]/.test(line) || inLex(s.slice(a, b)))) { add(a, b); const ls = m.index + m[1].length; add(ls, ls + line.length); } }
+      if (ws.length < k) continue; const a = ws[ws.length - k][0], b = ws[ws.length - 1][1]; if (/[^\s¿¡?!.›]/.test(s.slice(b, m.index))) continue;
+      let r = null; try { r = respellMod().respell(s.slice(a, b).replace(/[‹›]/g, '')); } catch (e) { r = null; }
+      if (r === line && (/-|[A-Z]/.test(line) || inLex(s.slice(a, b)))) { how = 'prx'; if (TAGGED) { if (free(a, b)) { lint.push([a, b, 'prx', s.slice(a, b)]); block(a, b); } } else add(a, b); how = 'line'; const ls = m.index + m[1].length; add(ls, ls + line.length); } }
     /* words of the row's own target text */
     const NOT = new Set(((extra && extra.not) || []).map(x => String(x).toLowerCase()));
     const ownW = new Set(); (own || []).forEach(o => { const t = String(o == null ? '' : o).normalize('NFC'); const WO = new RegExp(LAT_WORD.source, 'g'); let w;
@@ -158,12 +177,15 @@ function inventoryTarget(cfg) {
     const unmarked = [];
     const WR = new RegExp(LAT_WORD.source, 'g');
     while ((m = WR.exec(s))) { const a = m.index, b = a + m[0].length; if (!free(a, b) || /['’]/.test(s[a - 1] || '')) continue; /* not the tail of an English contraction (you'll, don't) */
-      const x = m[0].normalize('NFC').toLowerCase();
-      if (ownW.has(x)) add(a, b); else if (DIA.test(x) || (x.length > 1 && !HOMO.has(x) && inLex(x))) unmarked.push(m[0]); }
-    return { spans: spans.sort((x, y) => x[0] - y[0]).map(x => x[1]), unmarked };
+      const x = m[0].normalize('NFC').toLowerCase(); if (PROSE_OK.has(x)) continue;
+      how = 'own';
+      if (ownW.has(x)) { if (TAGGED) lint.push([a, b, 'own', m[0]]); else add(a, b); } else if (DIA.test(x) || (x.length > 1 && !HOMO.has(x) && inLex(x))) { unmarked.push(m[0]); lint.push([a, b, 'lex', m[0]]); } }
+    /* tagged: everything the old rules would have marked or reported, outside ‹…›, is reported (the release wants none) */
+    if (TAGGED) { unmarked.length = 0; lint.forEach(x => unmarked.push(x[3])); }
+    return { spans: spans.sort((x, y) => x[0] - y[0]).map(x => x[1]), unmarked, ranges: ranges.sort((x, y) => x[0] - y[0]), lint: lint.sort((x, y) => x[0] - y[0]) };
   }
 
-  return { code: cfg.code, field: cfg.field, name: cfg.name, script: cfg.name, by: 'marks', runs: null, has: isValue, isValue, itemIsValue, leadRx: null, marks, useCourse,
+  return { tagged: TAGGED, code: cfg.code, field: cfg.field, name: cfg.name, script: cfg.name, by: 'marks', runs: null, has: isValue, isValue, itemIsValue, leadRx: null, marks, useCourse,
     unmarkedNote: cfg.name + ' words of the course inventory, or with a ' + cfg.name + ' diacritic, outside every mark',
     /* exposed for tests and the design note */
     inventory: () => I(), isMarkedText, isLine, autoItem, items: ITEMS, reset: () => { inv = null; } };
